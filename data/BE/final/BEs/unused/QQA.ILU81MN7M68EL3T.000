@@ -1,0 +1,62 @@
+#how can i prevent cancer?
+#(S1 (SBARQ (WHADVP (WRB how)) (SQ (MD can) (NP (PRP i)) (VP (VB prevent) (NP (NN cancer)))) (. ?)))
+#Rule:Nouns
+r1cancerNN
+
+#Rule:Verbs
+r2preventVB
+
+#Rule:V-HeadNoun
+r21preventVBcancerNN
+
+#no on in my family has had cancer ever one in my family had live over the age of 90 but i still fear cancer im 21 how can i prevent it now
+#(S1 (FRAG (ADVP (RB no) (RB on)) (SBAR (IN in) (S (S (NP (PRP$ my) (NN family)) (VP (AUX has) (VP (AUX had) (NP (NN cancer)) (ADVP (RB ever)) (SBAR (S (NP (NP (CD one)) (PP (IN in) (NP (PRP$ my) (NN family)))) (VP (AUX had) (VP (VB live) (PP (IN over) (NP (NP (DT the) (NN age)) (PP (IN of) (NP (CD 90)))))))))))) (CC but) (S (NP (PRP i)) (ADVP (RB still)) (VP (VBP fear) (NP (NN cancer) (NN im) (CD 21)) (SBAR (WHADVP (WRB how)) (S (VP (MD can) (S (NP (PRP i)) (VP (VB prevent) (NP (PRP it)) (ADVP (RB now)))))))))))))
+#Rule:Nouns
+r1familyNN
+r1cancerNN
+r1familyNN
+r1ageNN
+r1cancerNN
+r1imNN
+
+#Rule:Verbs
+r2liveVB
+r2fearVBP
+r2preventVB
+
+#Rule:Adj-Noun
+r521CDimNN
+
+#Rule:PRP-Noun
+r6myPRP$familyNN
+r6myPRP$familyNN
+
+#Rule:N-HeadNoun
+r8cancerNNimNN
+
+#Rule:HeadNoun-V
+r11familyNNhadAUX
+r11oneCDliveVB
+r11iOrganizationAnnotationfearVBP
+r11iOrganizationAnnotationpreventVB
+
+#Rule:V-HeadNoun
+r21hadAUXcancerNN
+r21fearVBPimNN
+r21preventVBitPRP
+
+#Rule:PPinNP
+r26oneCDinINfamilyNN
+r26ageNNofIN90CD
+
+#Rule:PPinVP
+r30liveVBoverINageNN
+
+#Rule:V-ADV
+r46hadAUXeverRB
+r46fearVBPstillRB
+r46preventVBnowRB
+
+@lemmas-left	have	one	prevent	im	my	i	21	family	age	cancer	had	live	fear	
+@lemmas-right	it	have	90	prevent	still	im	now	family	age	cancer	had	ever	live	fear	
+@lemmas-center	of	over	in	

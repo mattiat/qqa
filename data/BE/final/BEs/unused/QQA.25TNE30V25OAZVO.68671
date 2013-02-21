@@ -1,0 +1,136 @@
+#Kids learn to function in society in a regular school.  
+#(S1 (S (NP (NNS Kids)) (VP (VBP learn) (S (VP (TO to) (VP (VB function) (PP (IN in) (NP (NN society))) (PP (IN in) (NP (DT a) (JJ regular) (NN school))))))) (. .)))
+#Rule:Nouns
+r1KidsOrganizationAnnotation
+r1societyNN
+r1schoolNN
+
+#Rule:Verbs
+r2learnVBP
+r2functionVB
+
+#Rule:Adjs
+r4regularJJ
+
+#Rule:Adj-Noun
+r5regularJJschoolNN
+
+#Rule:HeadNoun-V
+r11KidsOrganizationAnnotationlearnVBP
+
+#Rule:PPinVP
+r30functionVBinINsocietyNN
+r30functionVBinINschoolNN
+
+#Rule:V-V
+r44learnVBPfunctionVB
+
+#They learn about people of different races and opinions.  
+#(S1 (S (NP (PRP They)) (VP (VBP learn) (PP (IN about) (NP (NP (NNS people)) (PP (IN of) (NP (NP (JJ different) (NNS races)) (CC and) (NP (NNS opinions))))))) (. .)))
+#Rule:Nouns
+r1peopleNNS
+r1racesNNS
+r1opinionsNNS
+
+#Rule:Verbs
+r2learnVBP
+
+#Rule:Adjs
+r4differentJJ
+
+#Rule:Adj-Noun
+r5differentJJracesNNS
+
+#Rule:HeadNoun-V
+r11theyPRPlearnVBP
+
+#Rule:PPinNP
+r26peopleNNSofINracesNNS
+r26peopleNNSofINopinionsNNS
+
+#Rule:PPinVP
+r30learnVBPaboutINpeopleNNS
+
+#You can t keep your kids living with you all your life.  
+#(S1 (S (NP (PRP You)) (VP (MD can) (ADVP (RB t)) (VP (VB keep) (S (NP (PRP$ your) (NNS kids)) (VP (VBG living) (PP (IN with) (NP (PRP you))) (NP (PDT all) (PRP$ your) (NN life)))))) (. .)))
+#Rule:Nouns
+r1kidsNNS
+r1lifeNN
+
+#Rule:Verbs
+r2keepVB
+r2livingVBG
+
+#Rule:PRP-Noun
+r6yourPRP$kidsNNS
+r6yourPRP$lifeNN
+
+#Rule:HeadNoun-V
+r11youPRPkeepVB
+r11kidsNNSlivingVBG
+
+#Rule:V-HeadNoun
+r21livingVBGlifeNN
+
+#Rule:V-HeadNoun
+r22keepVBkidsNNS
+
+#Rule:PPinVP
+r30livingVBGwithINyouPRP
+
+#Rule:V-ADV
+r46keepVBtPersonAnnotation
+
+#Part of being a good parent is teaching your kids to survive in the real world.  
+#(S1 (S (NP (NP (NN Part)) (PP (IN of) (S (VP (AUXG being) (NP (DT a) (JJ good) (NN parent)))))) (VP (AUX is) (VP (VBG teaching) (NP (PRP$ your) (NNS kids)) (S (VP (TO to) (VP (VB survive) (PP (IN in) (NP (DT the) (JJ real) (NN world)))))))) (. .)))
+#Rule:Nouns
+r1PartNN
+r1parentNN
+r1kidsNNS
+r1worldNN
+
+#Rule:Verbs
+r2teachingVBG
+r2surviveVB
+
+#Rule:Adjs
+r4goodJJ
+r4realJJ
+
+#Rule:Adj-Noun
+r5goodJJparentNN
+r5realJJworldNN
+
+#Rule:PRP-Noun
+r6yourPRP$kidsNNS
+
+#Rule:HeadNoun-V
+r11PartNNteachingVBG
+
+#Rule:V-HeadNoun
+r21beingAUXGparentNN
+r21teachingVBGkidsNNS
+
+#Rule:PPinVP
+r30surviveVBinINworldNN
+
+#Rule:V-V
+r44teachingVBGsurviveVB
+
+#They can t do that being home schooled.
+#(S1 (S (NP (PRP They)) (VP (MD can) (RB t) (VP (AUX do) (NP (DT that)) (S (VP (AUXG being) (VP (ADVP (RB home)) (VBN schooled)))))) (. .)))
+#Rule:Verbs
+r2schooledVBN
+
+#Rule:HeadNoun-V
+r11theyPRPdoAUX
+
+#Rule:V-HeadNoun
+r21doAUXthatDT
+
+#Rule:V-ADV
+r46schooledVBNhomeRB
+
+@lemmas-left	different	they	being	good	race	people	function	kid	real	life	survive	schooled	do	opinion	Part	live	regular	society	Kids	your	learn	parent	you	kids	living	teach	school	teaching	races	opinions	part	world	keep	
+@lemmas-right	home	people	race	kid	function	life	survive	opinion	do	live	society	learn	parent	you	kids	living	teach	that	school	t	teaching	races	opinions	world	keep	
+@lemmas-center	of	with	about	in	

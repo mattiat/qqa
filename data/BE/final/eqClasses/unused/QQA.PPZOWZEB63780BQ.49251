@@ -1,0 +1,432 @@
+BE: Breast CancerOrganizationAnnotation
+EQ class: 
+
+BE: cancerNN
+EQ class: cancerousjj	malignant_neoplastic_diseasenn	
+
+BE: womenNNS
+EQ class: womannns	womanlyjj	theynns	adult_femalenns	themnns	
+
+BE: Prostate CancerOrganizationAnnotation
+EQ class: 
+
+BE: menNNS
+EQ class: workforcenns	handsnns	theynns	manpowernns	work_forcenns	themnns	
+
+BE: concerningVBG
+EQ class: touchvbg	come_tovbg	have-to_doe_withvbg	pertainvbg	concernvbg	bear_onvbg	relatevbg	touch_onvbg	refervbg	
+
+BE: prevalentJJ
+EQ class: predominantjj	rifejj	prevailingjj	prevalencenn	dominantjj	
+
+BE: prevalentJJcancerNN
+EQ class: prevalentjjmalignant_neoplastic_diseasenn	predominantjjcancerousjj	rifejjcancernn	rifejjcancerousjj	prevailingjjmalignant_neoplastic_diseasenn	prevalencenncancernn	prevalentjjcancerousjj	dominantjjmalignant_neoplastic_diseasenn	prevailingjjcancernn	rifejjmalignant_neoplastic_diseasenn	prevalencenncancerousjj	prevalencennmalignant_neoplastic_diseasenn	dominantjjcancerousjj	predominantjjcancernn	predominantjjmalignant_neoplastic_diseasenn	dominantjjcancernn	prevailingjjcancerousjj	
+
+BE: Breast CancerOrganizationAnnotationisAUX
+EQ class: breast cancerorganizationannotationbeaux	
+
+BE: cancerNNconcerningVBG
+EQ class: cancernnhave-to_doe_withvbg	cancerousjjbear_onvbg	cancernnbear_onvbg	malignant_neoplastic_diseasennconcernvbg	cancerousjjtouchvbg	malignant_neoplastic_diseasennbear_onvbg	cancernnrefervbg	cancernntouch_onvbg	cancernntouchvbg	cancerousjjtouch_onvbg	cancerousjjrefervbg	malignant_neoplastic_diseasennhave-to_doe_withvbg	malignant_neoplastic_diseasennpertainvbg	malignant_neoplastic_diseasenncome_tovbg	cancerousjjhave-to_doe_withvbg	cancernnrelatevbg	cancerousjjconcerningvbg	malignant_neoplastic_diseasennconcerningvbg	cancerousjjcome_tovbg	cancernnpertainvbg	malignant_neoplastic_diseasennrefervbg	malignant_neoplastic_diseasennrelatevbg	cancerousjjconcernvbg	malignant_neoplastic_diseasenntouchvbg	cancerousjjrelatevbg	cancerousjjpertainvbg	cancernncome_tovbg	cancernnconcernvbg	malignant_neoplastic_diseasenntouch_onvbg	
+
+BE: Prostate CancerOrganizationAnnotationisAUX
+EQ class: prostate cancerorganizationannotationbeaux	
+
+BE: isAUXcancerNN
+EQ class: beauxmalignant_neoplastic_diseasenn	isauxmalignant_neoplastic_diseasenn	beauxcancernn	beauxcancerousjj	isauxcancerousjj	
+
+BE: concerningVBGwomenNNS
+EQ class: relatevbgwomannns	come_tovbgthemnns	concernvbgwomennns	touch_onvbgtheynns	bear_onvbgwomennns	touch_onvbgwomannns	refervbgadult_femalenns	pertainvbgwomannns	come_tovbgadult_femalenns	relatevbgadult_femalenns	concernvbgtheynns	pertainvbgthemnns	concerningvbgthemnns	come_tovbgwomanlyjj	touchvbgtheynns	have-to_doe_withvbgwomannns	touchvbgwomannns	pertainvbgtheynns	concerningvbgadult_femalenns	concernvbgadult_femalenns	touch_onvbgthemnns	come_tovbgwomannns	come_tovbgtheynns	pertainvbgwomennns	have-to_doe_withvbgtheynns	concerningvbgwomanlyjj	refervbgwomanlyjj	come_tovbgwomennns	touch_onvbgadult_femalenns	relatevbgtheynns	touch_onvbgwomanlyjj	refervbgwomannns	pertainvbgadult_femalenns	have-to_doe_withvbgwomanlyjj	touchvbgadult_femalenns	touchvbgthemnns	pertainvbgwomanlyjj	bear_onvbgwomannns	concernvbgwomannns	bear_onvbgtheynns	touch_onvbgwomennns	relatevbgwomanlyjj	refervbgthemnns	touchvbgwomennns	relatevbgthemnns	have-to_doe_withvbgthemnns	touchvbgwomanlyjj	refervbgtheynns	bear_onvbgthemnns	bear_onvbgwomanlyjj	refervbgwomennns	concernvbgthemnns	concerningvbgtheynns	bear_onvbgadult_femalenns	have-to_doe_withvbgwomennns	have-to_doe_withvbgadult_femalenns	concerningvbgwomannns	relatevbgwomennns	concernvbgwomanlyjj	
+
+BE: isAUXamongstINmenNNS
+EQ class: isauxamongstinhandsnns	isauxamongstinwork_forcenns	beauxamongstinworkforcenns	isauxamongstintheynns	beauxamongstinmanpowernns	beauxamongstinmennns	isauxamongstinmanpowernns	isauxamongstinthemnns	beauxamongstinhandsnns	beauxamongstinwork_forcenns	isauxamongstinworkforcenns	beauxamongstintheynns	beauxamongstinthemnns	
+
+BE: isAUXasINisAUX
+EQ class: beauxasinisaux	isauxasinbeaux	beauxasinbeaux	
+
+BE: cancerNNBreast CancerOrganizationAnnotation
+EQ class: breast cancerorganizationannotationcancerousjj	breast cancerorganizationannotationcancernn	breast cancerorganizationannotationmalignant_neoplastic_diseasenn	malignant_neoplastic_diseasennbreast cancerorganizationannotation	cancerousjjbreast cancerorganizationannotation	
+
+BE: CancersNNS
+EQ class: cancernns	cancerousjj	malignant_neoplastic_diseasenns	
+
+BE: treatmentsNNS
+EQ class: interventionnns	theynns	treatmentnns	themnns	
+
+BE: treatmentNN
+EQ class: interventionnn	
+
+BE: formsNNS
+EQ class: formnns	word_formnns	signifiernns	descriptornns	theynns	themnns	
+
+BE: CancerOrganizationAnnotation
+EQ class: 
+
+BE: PUSHED ASIDEOrganizationAnnotation
+EQ class: 
+
+BE: goVBP
+EQ class: movevbp	travelvbp	locomotevbp	
+
+BE: ofallVB
+EQ class: 
+
+BE: otherJJ
+EQ class: 
+
+BE: newJJ
+EQ class: newnessnn	
+
+BE: otherJJ
+EQ class: 
+
+BE: otherJJCancersNNS
+EQ class: otherjjcancerousjj	otherjjcancernns	otherjjmalignant_neoplastic_diseasenns	
+
+BE: newJJtreatmentsNNS
+EQ class: newjjtheynns	treatvbnewlyrb	newjjtreatmentnns	newnessnntheynns	newjjinterventionnns	newnessnnthemnns	newnessnninterventionnns	newnessnntreatmentsnns	do_byvbnewlyrb	handlevbnewlyrb	newnessnntreatmentnns	newjjthemnns	
+
+BE: otherJJformsNNS
+EQ class: otherjjsignifiernns	otherjjtheynns	otherjjword_formnns	otherjjformnns	otherjjdescriptornns	otherjjthemnns	
+
+BE: treatmentsNNSetcFW
+EQ class: etcfwtreatmentnns	treatmentnnsetcfw	etcfwtreatmentsnns	etcfwhandlevb	etcfwthemnns	theynnsetcfw	etcfwdo_byvb	etcfwtheynns	interventionnnsetcfw	etcfwtreatvb	etcfwinterventionnns	themnnsetcfw	
+
+BE: treatmentsNNSgoVBP
+EQ class: treatmentnnstravelvbp	interventionnnslocomotevbp	theynnstravelvbp	treatmentsnnstravelvbp	themnnstravelvbp	theynnsmovevbp	treatmentnnslocomotevbp	themnnsgovbp	themnnsmovevbp	interventionnnstravelvbp	interventionnnsgovbp	treatmentsnnsmovevbp	treatmentsnnslocomotevbp	treatmentnnsmovevbp	themnnslocomotevbp	treatmentnnsgovbp	theynnslocomotevbp	theynnsgovbp	interventionnnsmovevbp	
+
+BE: etcFWgoVBP
+EQ class: etcfwtravelvbp	etcfwlocomotevbp	etcfwmovevbp	
+
+BE: treatmentNNofallVB
+EQ class: interventionnnofallvb	
+
+BE: ofallVBformsNNS
+EQ class: ofallvbthemnns	ofallvbtheynns	ofallvbsignifiernns	ofallvbdescriptornns	ofallvbformnns	ofallvbword_formnns	
+
+BE: PUSHED ASIDEOrganizationAnnotationCancersNNS
+EQ class: pushed asideorganizationannotationcancernns	pushed asideorganizationannotationcancerousjj	pushed asideorganizationannotationmalignant_neoplastic_diseasenns	
+
+BE: formsNNSofINCancerOrganizationAnnotation
+EQ class: cancerorganizationannotationthemnns	descriptornnsofincancerorganizationannotation	cancerorganizationannotationdescriptornns	cancerorganizationannotationtheynns	cancerorganizationannotationformnns	signifiernnsofincancerorganizationannotation	themnnsofincancerorganizationannotation	word_formnnsofincancerorganizationannotation	theynnsofincancerorganizationannotation	cancerorganizationannotationformsnns	cancerorganizationannotationsignifiernns	cancerorganizationannotationword_formnns	formnnsofincancerorganizationannotation	
+
+BE: goVBPtowardsINofallVB
+EQ class: movevbptowardsinofallvb	locomotevbptowardsinofallvb	travelvbptowardsinofallvb	
+
+BE: areAUXnotRB
+EQ class: beauxnotrb	
+
+BE: wifeNN
+EQ class: wifelyjj	married_womannn	
+
+BE: yearNN
+EQ class: twelvemonthnn	yearlyjj	yrnn	
+
+BE: survivorNN
+EQ class: subsisternn	
+
+BE: Breast CancerOrganizationAnnotation
+EQ class: 
+
+BE: relativesNNS
+EQ class: relativenns	relationnns	theynns	themnns	
+
+BE: CancerOrganizationAnnotation
+EQ class: 
+
+BE: BreastLocationAnnotation
+EQ class: 
+
+BE: livingVBG
+EQ class: inhabitvbg	livevbg	dwellvbg	populatevbg	
+
+BE: moreJJR
+EQ class: more_thanjjr	
+
+BE: deadJJ
+EQ class: deadnessnn	
+
+BE: 4CDsurvivorNN
+EQ class: quadrupletcdsubsisternn	ivcdsubsisternn	quaternarycdsubsisternn	4.cdsubsisternn	quartetcdsurvivornn	quadrupletcdsurvivornn	quaternitycdsurvivornn	fourcdsurvivornn	quartetcdsubsisternn	quaterncdsurvivornn	foursomecdsubsisternn	4.cdsurvivornn	little_joecdsubsisternn	tetradcdsubsisternn	little_joecdsurvivornn	foursomecdsurvivornn	quaternitycdsubsisternn	4cdsubsisternn	quaternarycdsurvivornn	quaternioncdsubsisternn	ivcdsurvivornn	quaternioncdsurvivornn	quaterncdsubsisternn	fourcdsubsisternn	tetradcdsurvivornn	
+
+BE: moreJJRrelativesNNS
+EQ class: more_thanjjrrelativesnns	morejjrtheynns	more_thanjjrthemnns	morejjrrelativenns	morejjrthemnns	more_thanjjrtheynns	morejjrrelationnns	more_thanjjrrelationnns	more_thanjjrrelativenns	
+
+BE: myPRP$wifeNN
+EQ class: married_womannnofinmyprp$	myprp$wifelyjj	wifelyjjofinmyprp$	wifelyvbmyprp$	wifennofinmyprp$	myprp$wifelyvb	myprp$married_womannn	
+
+BE: wifeNNisAUX
+EQ class: married_womannnisaux	wifelyjjbeaux	wifennbeaux	married_womannnbeaux	wifelyjjisaux	
+
+BE: shePRPhasAUX
+EQ class: rich_personnnofinsheprp	rich_personnnofiniprp	havennofinsheprp	wealthy_personnnofinsheprp	wealthy_personnnofiniprp	iprpholdaux	iprphasaux	iprphaveaux	sheprpholdaux	havennofiniprp	iprphave_gotaux	sheprphave_gotaux	sheprphaveaux	
+
+BE: shePRPlivingVBG
+EQ class: iprplivingvbg	sheprpdwellvbg	iprppopulatevbg	livernniprp	sheprplivevbg	liveryjjsheprp	iprpinhabitvbg	livernnofiniprp	sheprpinhabitvbg	livablennofinsheprp	livablennofiniprp	livernnsheprp	liveryjjofinsheprp	liveryjjiprp	livernnofinsheprp	sheprppopulatevbg	iprpdwellvbg	iprplivevbg	liveablennofiniprp	liveablennofinsheprp	liveryjjofiniprp	
+
+BE: isAUXsurvivorNN
+EQ class: beauxsurvivornn	isauxsubsisternn	beauxsubsisternn	
+
+BE: hasAUXrelativesNNS
+EQ class: wealthy_personnnofinrelationnns	havennofintheynns	holdauxtheynns	haveauxrelativenns	have_gotauxrelativesnns	rich_personnnofinrelativenns	wealthy_personnnofintheynns	have_gotauxrelationnns	havennofinrelationnns	havennofinrelativesnns	holdauxrelativesnns	holdauxthemnns	have_gotauxrelativenns	hasauxtheynns	haveauxtheynns	have_gotauxtheynns	haveauxrelationnns	hasauxrelativenns	holdauxrelationnns	hasauxthemnns	rich_personnnofinrelationnns	haveauxrelativesnns	rich_personnnofinthemnns	wealthy_personnnofinrelativesnns	wealthy_personnnofinrelativenns	hasauxrelationnns	havennofinthemnns	wealthy_personnnofinthemnns	havennofinrelativenns	haveauxthemnns	have_gotauxthemnns	holdauxrelativenns	rich_personnnofinrelativesnns	rich_personnnofintheynns	
+
+BE: survivorNNofINBreast CancerOrganizationAnnotation
+EQ class: breast cancerorganizationannotationgovb	breast cancerorganizationannotationsubsisternn	lastvbbreast cancerorganizationannotation	govbbreast cancerorganizationannotation	breast cancerorganizationannotationendurevb	breast cancerorganizationannotationsurvivevb	hold_upvbbreast cancerorganizationannotation	survivevbbreast cancerorganizationannotation	live_onvbbreast cancerorganizationannotation	breast cancerorganizationannotationlastvb	endurevbbreast cancerorganizationannotation	livevbbreast cancerorganizationannotation	hold_outvbbreast cancerorganizationannotation	breast cancerorganizationannotationsurvivornn	breast cancerorganizationannotationhold_upvb	breast cancerorganizationannotationlive_onvb	breast cancerorganizationannotationlivevb	breast cancerorganizationannotationhold_outvb	subsisternnofinbreast cancerorganizationannotation	
+
+BE: relativesNNSthroughINCancerOrganizationAnnotation
+EQ class: relationnnsthroughincancerorganizationannotation	cancerorganizationannotationthemnns	cancerorganizationannotationrelationnns	themnnsthroughincancerorganizationannotation	cancerorganizationannotationrelativenns	theynnsthroughincancerorganizationannotation	cancerorganizationannotationtheynns	cancerorganizationannotationrelativesnns	relativennsthroughincancerorganizationannotation	
+
+BE: survivorNNwifeNN
+EQ class: wifelyjjgovb	wifennlive_onvb	wifelyjjendurevb	survivalnnofinwifenn	subsisternnwifelyjj	wifennsurvivevb	wifelyjjlastvb	wifennhold_outvb	endurancennofinmarried_womannn	survivornnmarried_womannn	married_womannnsurvivevb	wifelyjjlive_onvb	wifenngovb	wifelyjjhold_outvb	wifelyjjhold_upvb	wifelyjjsurvivevb	wifennsubsisternn	wifelyjjsurvivornn	survivornnwifelyjj	wifennsurvivornn	married_womannnhold_outvb	married_womannnendurevb	wifennhold_upvb	endurancennofinwifelyjj	wifennlivevb	married_womannnsubsisternn	wifelyjjlivevb	married_womannnsurvivornn	married_womannnlivevb	wifelyjjsubsisternn	subsisternnwifenn	survivalnnofinmarried_womannn	married_womannngovb	married_womannnlastvb	wifennlastvb	married_womannnlive_onvb	subsisternnmarried_womannn	wifennendurevb	endurancennofinwifenn	survivalnnofinwifelyjj	married_womannnhold_upvb	
+
+BE: Brain CancerOrganizationAnnotation
+EQ class: 
+
+BE: KidneyLocationAnnotation
+EQ class: 
+
+BE: LiverLocationAnnotation
+EQ class: liveryjj	
+
+BE: BoneLocationAnnotation
+EQ class: boneyjj	bonyjj	
+
+BE: ColonLocationAnnotation
+EQ class: colonicjj	
+
+BE: LungLocationAnnotation
+EQ class: 
+
+BE: goVBonRP
+EQ class: travelvbonrp	locomotevbonrp	movevbonrp	
+
+BE: someDTareAUX
+EQ class: somedtbeaux	
+
+BE: someDTofINthemPRP
+EQ class: somedtofinformsprp	somedtofinwomenprp	somedtofinprostate cancerprp	somedtofinbreast cancer/prostate cancerprp	somedtofinpushed asideprp	somedtofinbreast cancerprp	somedtofinnoprp	somedtofincancersprp	somedtofinbrain cancerprp	somedtofinheartsprp	somedtofinmenprp	somedtofinrelativesprp	somedtofinonesprp	somedtofintreatmentsprp	somedtofincomplaintsprp	somedtofinairwavesprp	somedtofinpen/magnet/shirtprp	somedtofincancerprp	
+
+BE: airwavesNNS
+EQ class: theynns	airnns	themnns	airwavenns	
+
+BE: complaintsNNS
+EQ class: ailmentnns	illnns	complaintnns	theynns	themnns	
+
+BE: cancersNNS
+EQ class: cancernns	cancerousjj	theynns	malignant_neoplastic_diseasenns	themnns	
+
+BE: cantNN
+EQ class: buzzwordnn	
+
+BE: Breast cancer/Prostate CancerOrganizationAnnotation
+EQ class: 
+
+BE: onesNNS
+EQ class: inns	acenns	theynns	1nns	onenns	unitynns	singlenns	themnns	
+
+BE: pumpedVBN
+EQ class: pumpvbn	
+
+BE: addsVBZ
+EQ class: addvbz	
+
+BE: chooseVBP
+EQ class: takevbp	selectvbp	pick_outvbp	
+
+BE: saidVBD
+EQ class: statevbd	tellvbd	sayvbd	
+
+BE: nextJJ
+EQ class: followingjj	
+
+BE: differentJJ
+EQ class: differencenn	
+
+BE: prevalentJJ
+EQ class: predominantjj	rifejj	prevailingjj	prevalencenn	dominantjj	
+
+BE: nextJJcomplaintsNNS
+EQ class: followingjjtheynns	nextjjtheynns	followingjjillnns	followingjjthemnns	followingjjailmentnns	nextjjcomplaintnns	nextjjillnns	followingjjcomplaintsnns	nextjjailmentnns	nextjjthemnns	followingjjcomplaintnns	
+
+BE: differentJJcancersNNS
+EQ class: differentjjcancerousjj	differencenncancernns	differencenntheynns	cancerousvbdifferentlyrb	differencenncancersnns	differentjjtheynns	differencenncancerousjj	differentjjthemnns	differentjjmalignant_neoplastic_diseasenns	differencennmalignant_neoplastic_diseasenns	differencennthemnns	differentjjcancernns	
+
+BE: oneCDjustRB
+EQ class: acecdjustrb	icdjustrb	unitycdjustrb	1cdjustrb	singlecdjustrb	
+
+BE: prevalentJJonesNNS
+EQ class: prevalentjjtheynns	rifejj1nns	dominantjjtheynns	rifejjunitynns	dominantjj1nns	dominantjjacenns	prevalencennsinglenns	prevailingjj1nns	prevailingjjunitynns	prevailingjjonesnns	prevalentjjsinglenns	predominantjjtheynns	prevalencennacenns	predominantjjthemnns	prevalencennonenns	prevailingjjinns	prevailingjjthemnns	rifejjonenns	prevalencenn1nns	dominantjjthemnns	dominantjjonenns	dominantjjinns	prevalentjj1nns	prevailingjjsinglenns	dominantjjsinglenns	prevalentjjthemnns	prevalentjjunitynns	rifejjacenns	rifejjsinglenns	predominantjjsinglenns	rifejjinns	rifejjthemnns	dominantjjonesnns	rifejjonesnns	prevalentjjacenns	predominantjjinns	prevailingjjacenns	prevalencennonesnns	prevalencennthemnns	prevalentjjonenns	rifejjtheynns	predominantjjonesnns	prevailingjjtheynns	predominantjjonenns	prevalencenntheynns	predominantjjunitynns	prevalentjjinns	predominantjj1nns	predominantjjacenns	prevailingjjonenns	dominantjjunitynns	prevalencennunitynns	prevalencenninns	
+
+BE: yourPRP$complaintsNNS
+EQ class: yourprp$themnns	illnnsofinyourprp$	themnnsofinyourprp$	theynnsofinyourprp$	yourprp$complaintnns	yourprp$theynns	complaintnnsofinyourprp$	ailmentnnsofinyourprp$	complaintsnnsofinyourprp$	yourprp$illnns	yourprp$ailmentnns	
+
+BE: theDTaddsVBZ
+EQ class: additionnnofinthedt	additivejjofinthedt	add-onnnthedt	additionnnthedt	improvernnofinthedt	improvernnthedt	thedtaddvbz	add-onnnofinthedt	additivennofinthedt	
+
+BE: Breast cancer/Prostate CancerOrganizationAnnotationareAUX
+EQ class: breast cancer/prostate cancerorganizationannotationbeaux	
+
+BE: theyPRPchooseVBP
+EQ class: noprptakevbp	prostate cancerprpselectvbp	treatmentsprppick_outvbp	menprpselectvbp	pushed asideprpselectvbp	theyprpselectvbp	heartsprppick_outvbp	pushed asideprptakevbp	womenprppick_outvbp	womenprpchoosevbp	brain cancerprppick_outvbp	brain cancerprptakevbp	cancerprpchoosevbp	onesprppick_outvbp	formsprppick_outvbp	theyprppick_outvbp	womenprptakevbp	heartsprpselectvbp	prostate cancerprppick_outvbp	formsprpchoosevbp	cancersprptakevbp	airwavesprpchoosevbp	brain cancerprpselectvbp	relativesprppick_outvbp	pushed asideprppick_outvbp	noprpselectvbp	cancersprppick_outvbp	complaintsprppick_outvbp	cancerprpselectvbp	cancerprptakevbp	heartsprpchoosevbp	breast cancer/prostate cancerprppick_outvbp	treatmentsprpchoosevbp	breast cancerprppick_outvbp	treatmentsprptakevbp	airwavesprpselectvbp	breast cancerprpselectvbp	prostate cancerprptakevbp	treatmentsprpselectvbp	pen/magnet/shirtprpselectvbp	airwavesprppick_outvbp	menprpchoosevbp	breast cancer/prostate cancerprpchoosevbp	prostate cancerprpchoosevbp	airwavesprptakevbp	formsprptakevbp	breast cancerprpchoosevbp	theyprptakevbp	cancerprppick_outvbp	onesprptakevbp	pen/magnet/shirtprptakevbp	formsprpselectvbp	complaintsprptakevbp	pen/magnet/shirtprpchoosevbp	onesprpselectvbp	pushed asideprpchoosevbp	pen/magnet/shirtprppick_outvbp	heartsprptakevbp	relativesprptakevbp	menprptakevbp	onesprpchoosevbp	breast cancer/prostate cancerprpselectvbp	menprppick_outvbp	womenprpselectvbp	complaintsprpchoosevbp	complaintsprpselectvbp	noprppick_outvbp	noprpchoosevbp	cancersprpselectvbp	breast cancerprptakevbp	breast cancer/prostate cancerprptakevbp	cancersprpchoosevbp	relativesprpselectvbp	relativesprpchoosevbp	brain cancerprpchoosevbp	
+
+BE: iPersonAnnotationsaidVBD
+EQ class: ipersonannotationstatevbd	saynnofinipersonannotation	ipersonannotationsayvbd	ipersonannotationtellvbd	
+
+BE: chooseVBPjustRB
+EQ class: takevbpjustrb	selectvbpjustrb	pick_outvbpjustrb	
+
+BE: areAUXonesNNS
+EQ class: beauxthemnns	beauxacenns	areauxthemnns	areauxacenns	beauxonesnns	beauxtheynns	beauxinns	areauxunitynns	areauxtheynns	beauxunitynns	areauxonenns	areauxsinglenns	beauxsinglenns	areaux1nns	areauxinns	beauxonenns	beaux1nns	
+
+BE: pumpedVBNallDT
+EQ class: pumpvbnalldt	pumpnnofinalldt	
+
+BE: allDTofINtheseDT
+EQ class: 
+
+BE: addsVBZforINcancersNNS
+EQ class: addsvbzforinmalignant_neoplastic_diseasenns	addsvbzforintheynns	addvbzforincancernns	addsvbzforincancerousjj	addsvbzforincancernns	addsvbzforinthemnns	addvbzforintheynns	addvbzforincancerousjj	addvbzforinthemnns	addvbzforinmalignant_neoplastic_diseasenns	addvbzforincancersnns	
+
+BE: pumpedVBNacrossINairwavesNNS
+EQ class: pumpvbnacrossinairnns	pumpvbnacrossinairwavesnns	pumpedvbnacrossinairwavenns	pumpvbnacrossinairwavenns	pumpvbnacrossinthemnns	pumpedvbnacrossinthemnns	pumpedvbnacrossinairnns	pumpvbnacrossintheynns	pumpedvbnacrossintheynns	
+
+BE: areAUXasINsaidVBD
+EQ class: beauxasinstatevbd	areauxasinsayvbd	beauxasinsayvbd	areauxasinstatevbd	areauxasintellvbd	beauxasintellvbd	beauxasinsaidvbd	
+
+BE: wereAUXcontinuallyRB
+EQ class: continualjjininbeaux	continualjjininwereaux	beauxcontinuallyrb	
+
+BE: saidVBDbeforeRB
+EQ class: sayvbdbeforerb	tellvbdbeforerb	saynnofinbeforerb	statevbdbeforerb	
+
+BE: onesNNSBreast cancer/Prostate CancerOrganizationAnnotation
+EQ class: breast cancer/prostate cancerorganizationannotationonesnns	breast cancer/prostate cancerorganizationannotationtheynns	breast cancer/prostate cancerorganizationannotationthemnns	onennsbreast cancer/prostate cancerorganizationannotation	breast cancer/prostate cancerorganizationannotationunitynns	themnnsbreast cancer/prostate cancerorganizationannotation	theynnsbreast cancer/prostate cancerorganizationannotation	unitynnsbreast cancer/prostate cancerorganizationannotation	singlennsbreast cancer/prostate cancerorganizationannotation	breast cancer/prostate cancerorganizationannotationonenns	breast cancer/prostate cancerorganizationannotation1nns	innsbreast cancer/prostate cancerorganizationannotation	acennsbreast cancer/prostate cancerorganizationannotation	breast cancer/prostate cancerorganizationannotationsinglenns	breast cancer/prostate cancerorganizationannotationacenns	1nnsbreast cancer/prostate cancerorganizationannotation	breast cancer/prostate cancerorganizationannotationinns	
+
+BE: pen/magnet/shirtOrganizationAnnotation
+EQ class: 
+
+BE: each&everyNN
+EQ class: 
+
+BE: formsNNS
+EQ class: formnns	word_formnns	signifiernns	descriptornns	theynns	themnns	
+
+BE: CancerNNP
+EQ class: cancerousjj	malignant_neoplastic_diseasennp	
+
+BE: buyVB
+EQ class: purchasevb	
+
+BE: otherJJ
+EQ class: 
+
+BE: oneCDeach&everyNN
+EQ class: unitycdeach&everynn	singlecdeach&everynn	acecdeach&everynn	1cdeach&everynn	icdeach&everynn	
+
+BE: otherJJformsNNS
+EQ class: otherjjsignifiernns	otherjjtheynns	otherjjword_formnns	otherjjformnns	otherjjdescriptornns	otherjjthemnns	
+
+BE: formsNNSareAUX
+EQ class: descriptornnsbeaux	word_formnnsbeaux	themnnsareaux	signifiernnsareaux	themnnsbeaux	formsnnsbeaux	formnnsareaux	theynnsareaux	word_formnnsareaux	signifiernnsbeaux	theynnsbeaux	formnnsbeaux	descriptornnsareaux	
+
+BE: buyVBpen/magnet/shirtOrganizationAnnotation
+EQ class: vendeennofinpen/magnet/shirtorganizationannotation	buynnofinpen/magnet/shirtorganizationannotation	purchasevbpen/magnet/shirtorganizationannotation	purchasernnofinpen/magnet/shirtorganizationannotation	purchasingnnofinpen/magnet/shirtorganizationannotation	buyingnnofinpen/magnet/shirtorganizationannotation	bargainnnofinpen/magnet/shirtorganizationannotation	emptornnofinpen/magnet/shirtorganizationannotation	buyernnofinpen/magnet/shirtorganizationannotation	stealnnofinpen/magnet/shirtorganizationannotation	
+
+BE: buyVBetcFW
+EQ class: buyingnnofinetcfw	bargainnnofinetcfw	purchasingnnofinetcfw	vendeennofinetcfw	purchasernnofinetcfw	stealnnofinetcfw	buynnofinetcfw	buyernnofinetcfw	purchasevbetcfw	emptornnofinetcfw	
+
+BE: each&everyNNofINformsNNS
+EQ class: each&everynnofinword_formnns	each&everynnofindescriptornns	each&everynnofinformnns	each&everynnofinthemnns	each&everynnofintheynns	each&everynnofinsignifiernns	
+
+BE: formsNNSofINCancerNNP
+EQ class: themnnsofincancerousjj	cancernnpdescriptornns	malignant_neoplastic_diseasennpsignifiernns	cancerousjjthemnns	cancernnpformnns	cancernnptheynns	word_formnnsofincancerousjj	formnnsofincancerousjj	cancernnpthemnns	descriptornnsofincancernnp	malignant_neoplastic_diseasennpformnns	formsnnsofinmalignant_neoplastic_diseasennp	cancerousjjformsnns	formsnnsofincancerousjj	cancernnpformsnns	malignant_neoplastic_diseasennptheynns	signifiernnsofinmalignant_neoplastic_diseasennp	malignant_neoplastic_diseasennpword_formnns	cancerousjjsignifiernns	theynnsofincancernnp	cancerousjjtheynns	word_formnnsofincancernnp	malignant_neoplastic_diseasennpformsnns	themnnsofinmalignant_neoplastic_diseasennp	theynnsofincancerousjj	descriptornnsofinmalignant_neoplastic_diseasennp	malignant_neoplastic_diseasennpthemnns	cancernnpsignifiernns	formnnsofinmalignant_neoplastic_diseasennp	cancerousjjformnns	word_formnnsofinmalignant_neoplastic_diseasennp	malignant_neoplastic_diseasennpdescriptornns	descriptornnsofincancerousjj	signifiernnsofincancerousjj	signifiernnsofincancernnp	theynnsofinmalignant_neoplastic_diseasennp	formnnsofincancernnp	cancerousjjword_formnns	cancerousjjdescriptornns	cancernnpword_formnns	themnnsofincancernnp	
+
+BE: buyVBforINeach&everyNN
+EQ class: purchasevbforineach&everynn	
+
+BE: areAUXthereRB
+EQ class: beauxthererb	
+
+BE: answerNN
+EQ class: replynn	responsenn	
+
+BE: overkill!!LocationAnnotation
+EQ class: 
+
+BE: likelyJJ
+EQ class: likelinessnn	
+
+BE: answerNNisAUX
+EQ class: responsennbeaux	replynnisaux	replynnbeaux	answernnbeaux	responsennisaux	
+
+BE: beAUXNOOrganizationAnnotation
+EQ class: beauxn.o.organizationannotation	
+
+BE: isAUXmoreRBR
+EQ class: beauxmorerbr	
+
+BE: beAUXofINoverkill!!LocationAnnotation
+EQ class: 
+
+BE: rantNN
+EQ class: haranguenn	rantingnn	
+
+BE: subjectNN
+EQ class: themenn	topicnn	
+
+BE: kidNN
+EQ class: tiddlernn	minornn	tikenn	small_frynn	frynn	shavernn	youngsternn	nestlingnn	nippernn	childnn	tykenn	
+
+BE: heartsNNS
+EQ class: black_marianns	theynns	themnns	
+
+BE: hopeVBP
+EQ class: desirevbp	trustvbp	
+
+BE: offendVB
+EQ class: piquevb	
+
+BE: sVBZ
+EQ class: 
+
+BE: sVBZ
+EQ class: 
+
+BE: wifes&ourJJ
+EQ class: 
+
+BE: wifes&ourJJkidNN
+EQ class: wifes&ourjjtiddlernn	wifes&ourjjsmall_frynn	wifes&ourjjtykenn	wifes&ourjjminornn	wifes&ourjjyoungsternn	wifes&ourjjnippernn	wifes&ourjjchildnn	wifes&ourjjfrynn	wifes&ourjjshavernn	wifes&ourjjnestlingnn	wifes&ourjjtikenn	
+
+BE: myPRP$kidNN
+EQ class: myprp$youngsternn	myprp$small_frynn	tiddlernnofinmyprp$	nestlingnnofinmyprp$	childnnofinmyprp$	myprp$shavernn	myprp$nestlingnn	tykennofinmyprp$	nippernnofinmyprp$	myprp$childnn	myprp$tykenn	youngsternnofinmyprp$	tikennofinmyprp$	kidnnofinmyprp$	small_frynnofinmyprp$	myprp$minornn	myprp$nippernn	minornnofinmyprp$	myprp$tikenn	frynnofinmyprp$	myprp$frynn	myprp$tiddlernn	shavernnofinmyprp$	
+
+BE: kidNNsVBZ
+EQ class: tikennsvbz	nippernnsvbz	frynnsvbz	youngsternnsvbz	minornnsvbz	tiddlernnsvbz	shavernnsvbz	nestlingnnsvbz	small_frynnsvbz	tykennsvbz	childnnsvbz	
+
+BE: iPRPhopeVBP
+EQ class: hopennofiniprp	iprptrustvbp	hopernnofiniprp	iprpdesirevbp	hopernniprp	
+
+BE: rantNNoffendVB
+EQ class: offensennrantingnn	rantingnnpiquevb	haranguennpiquevb	offencennofinharanguenn	offencennrantingnn	rantnnpiquevb	offensennrantnn	offensivennofinrantingnn	offencennofinrantingnn	haranguennoffendvb	offensennofinrantingnn	offensivennrantingnn	offensivennrantnn	offensivennofinrantnn	rantingnnoffendvb	offencennofinrantnn	offensivennofinharanguenn	offensennofinharanguenn	offensennofinrantnn	offensivennharanguenn	offensennharanguenn	offencennrantnn	offencennharanguenn	
+
+BE: itPRPsVBZ
+EQ class: 
+
+BE: offendVByouPRP
+EQ class: offencennofinyouprp	piquevbyouprp	offensennofinyouprp	offensivennofinyouprp	
+
+BE: sVBZsubjectNN
+EQ class: svbztopicnn	svbzthemenn	
+
+BE: sVBZheartsNNS
+EQ class: svbzblack_marianns	svbzthemnns	svbztheynns	
+
+BE: doesAUXnotRB
+EQ class: doauxnotrb	makeauxnotrb	
+
+BE: sVBZVERYRB
+EQ class: svbzv.e.r.y.rb	
+
+BE: sVBZcloseRB
+EQ class: 
+

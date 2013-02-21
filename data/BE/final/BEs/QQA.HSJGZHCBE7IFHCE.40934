@@ -1,0 +1,97 @@
+#Try your best to comfort your mother. 
+#(S1 (S (VP (VB Try) (NP (PRP$ your) (JJS best)) (PP (TO to) (NP (NN comfort) (PRP$ your) (NN mother)))) (. .)))
+#Rule:Nouns
+r1comfortNN
+r1motherNN
+
+#Rule:Verbs
+r2tryVB
+
+#Rule:Adjs
+r4bestJJS
+
+#Rule:PRP-Noun
+r6yourPRP$bestJJS
+r6yourPRP$motherNN
+
+#Rule:V-HeadNoun
+r21tryVBbestJJS
+
+#Rule:PPinVP
+r30tryVBtoTOmotherNN
+
+#Let her know that your there for her and try not to argue with her at times. 
+#(S1 (S (VP (VP (VB Let) (S (NP (PRP her)) (VP (VB know) (SBAR (IN that) (S (NP (PRP$ your) (EX there)) (VP (IN for) (NP (PRP her)))))))) (CC and) (VP (VB try) (S (RB not) (VP (TO to) (VP (VB argue) (PP (IN with) (NP (PRP her))) (PP (IN at) (NP (NNS times)))))))) (. .)))
+#Rule:Nouns
+r1timesNNS
+
+#Rule:Verbs
+r2letVB
+r2knowVB
+r2tryVB
+r2argueVB
+
+#Rule:PRP-Noun
+r6yourPRP$thereEX
+
+#Rule:HeadNoun-V
+r11herPRPknowVB
+
+#Rule:V-HeadNoun
+r22letVBherPRP
+
+#Rule:PPinVP
+r30argueVBwithINherPRP
+r30argueVBatINtimesNNS
+
+#Rule:V-V
+r44tryVBargueVB
+
+#It can cause her to stress out. 
+#(S1 (S (NP (PRP It)) (VP (MD can) (VP (VB cause) (S (NP (PRP her)) (VP (TO to) (VP (VB stress) (PRT (RP out))))))) (. .)))
+#Rule:Verbs
+r2causeVB
+
+#Rule:V-PRT
+r3stressVBoutRP
+
+#Rule:HeadNoun-V
+r11itPRPcauseVB
+r11herPRPstressVB
+
+#Rule:V-HeadNoun
+r22causeVBherPRP
+
+#Spend alot of time with her and that will make herhappy :)hope i have helped!
+#(S1 (S (S (VP (VB Spend) (NP (NP (NN alot)) (PP (IN of) (NP (NN time)))) (PP (IN with) (NP (PRP her))))) (CC and) (S (NP (DT that)) (VP (MD will) (VP (VB make) (ADJP (JJ herhappy) (SBAR (S (LST (: :)) (-RRB- -RRB-) (VP (VBP hope) (SBAR (S (NP (PRP i)) (VP (AUX have) (VP (VBN helped)))))))))))) (. !)))
+#Rule:Nouns
+r1alotNN
+r1timeNN
+
+#Rule:Verbs
+r2spendVB
+r2makeVB
+r2hopeVBP
+r2helpedVBN
+
+#Rule:Adjs
+r4herhappyJJ
+
+#Rule:HeadNoun-V
+r11thatDTmakeVB
+
+#Rule:HeadNoun-V
+r12iLocationAnnotationhelpedVBN
+
+#Rule:V-HeadNoun
+r21spendVBalotNN
+
+#Rule:PPinNP
+r26alotNNofINtimeNN
+
+#Rule:PPinVP
+r30spendVBwithINherPRP
+
+@lemmas-left	herhappy	alot	argue	cause	it	let	your	stress	helped	know	i	spend	that	help	time	mother	times	comfort	best	her	make	try	hope	
+@lemmas-right	alot	argue	cause	stress	helped	know	time	help	mother	times	there	best	her	make	out	
+@lemmas-center	to	of	with	at	

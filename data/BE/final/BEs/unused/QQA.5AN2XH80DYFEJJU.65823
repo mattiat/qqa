@@ -1,0 +1,30 @@
+#If I calculated it correctly, 1 part in 46 billion. much less than 1 percent.
+#(S1 (S (SBAR (IN If) (S (NP (PRP I)) (VP (VBD calculated) (NP (PRP it)) (ADVP (RB correctly))))) (, ,) (NP (CD 1)) (VP (NN part) (PP (IN in) (NP (NP (CD 46) (NNS billion.)) (NP (QP (RB much) (JJR less) (IN than) (CD 1)) (NN percent))))) (. .)))
+#Rule:Nouns
+r1partNN
+r1billionNNS
+r1percentNN
+
+#Rule:Verbs
+r2calculatedVBD
+
+#Rule:Adjs
+r4lessJJR
+
+#Rule:Adj-Noun
+r546CDbillionNNS
+r5lessJJRpercentNN
+r51CDpercentNN
+
+#Rule:HeadNoun-V
+r11iPRPcalculatedVBD
+
+#Rule:V-HeadNoun
+r21calculatedVBDitPRP
+
+#Rule:V-ADV
+r46calculatedVBDcorrectlyRB
+
+@lemmas-left	1	percent	calculate	46	billion	billion.	part	less	calculated	i	
+@lemmas-right	it	percent	calculate	correctly	billion	billion.	calculated	
+@lemmas-center	

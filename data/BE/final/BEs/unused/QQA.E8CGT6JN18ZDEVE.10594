@@ -1,0 +1,37 @@
+#People dont get it because its all about LEARNING things off!!!
+#(S1 (S (NP (NP (NNS People)) (ADJP (JJ dont))) (VP (VBP get) (NP (PRP it)) (SBAR (IN because) (S (NP (NP (PRP$ its) (PDT all)) (PP (IN about) (S (VP (VBG LEARNING) (NP (NNS things)) (PRT (RP off)))))) (VP (VBZ !!))))) (. !)))
+#Rule:Nouns
+r1PeopleNNS
+r1thingsNNS
+
+#Rule:Verbs
+r2getVBP
+r2learningVBG
+r2off!!!PersonAnnotation
+
+#Rule:V-PRT
+r3learningVBGoff!!!PersonAnnotation
+
+#Rule:Adjs
+r4dontJJ
+
+#Rule:Adj-Noun
+r5dontJJPeopleNNS
+
+#Rule:PRP-Noun
+r6itsPRP$allPDT
+
+#Rule:HeadNoun-V
+r11PeopleNNSgetVBP
+r11allPDToff!!!PersonAnnotation
+
+#Rule:V-HeadNoun
+r21getVBPitPRP
+r21learningVBGthingsNNS
+
+#Rule:V-IN-V
+r43getVBPbecauseINoff!!!PersonAnnotation
+
+@lemmas-left	get	dont	learn	its	off!!!	learning	things	People	people	all	
+@lemmas-right	it	get	things	off!!!	People	people	all	
+@lemmas-center	because	

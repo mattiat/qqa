@@ -1,0 +1,85 @@
+#I think that marriage is one s personal decision for long lasting love. 
+#(S1 (S (NP (PRP I)) (VP (VBP think) (SBAR (S (NP (DT that) (NN marriage)) (VP (AUX is) (NP (CD one) (NNP s) (JJ personal) (NN decision)) (PP (IN for) (NP (JJ long) (JJ lasting) (NN love))))))) (. .)))
+#Rule:Nouns
+r1marriageNN
+r1sNNP
+r1decisionNN
+r1loveNN
+
+#Rule:Verbs
+r2thinkVBP
+
+#Rule:Adjs
+r4personalJJ
+r4longJJ
+r4lastingJJ
+
+#Rule:Adj-Noun
+r5oneCDdecisionNN
+r5personalJJdecisionNN
+r5longJJloveNN
+r5lastingJJloveNN
+
+#Rule:HeadNoun-V
+r11iPRPthinkVBP
+r11marriageNNisAUX
+
+#Rule:V-HeadNoun
+r21isAUXdecisionNN
+
+#Rule:PPinVP
+r30isAUXforINloveNN
+
+#Rule:IS-RULE
+r47decisionNNmarriageNN
+
+#Love will last for an MILENNIA AND ETERNALLY FOR SOULMATES ETERNITY. 
+#(S1 (S (NP (NN Love)) (VP (MD will) (VP (VB last) (PP (PP (IN for) (NP (DT an) (NN MILENNIA))) (CC AND) (PP (ADVP (RB ETERNALLY)) (IN FOR) (NP (NNP SOULMATES) (NNP ETERNITY)))))) (. .)))
+#Rule:Nouns
+r1LoveNN
+r1MILENNIAOrganizationAnnotation
+r1SOULMATESNNP
+r1ETERNITYNNP
+
+#Rule:Verbs
+r2lastVB
+
+#Rule:N-HeadNoun
+r8SOULMATESNNPETERNITYNNP
+
+#Rule:HeadNoun-V
+r11LoveNNlastVB
+
+#Marriage is.as I said previously.the personal desicion of soulmates.:-)
+#(S1 (FRAG (NP (NN Marriage) (NNS is.as)) (S (NP (PRP I)) (VP (VBD said) (NP (NP (NN previously.the) (JJ personal) (NN desicion)) (PP (IN of) (NP (NNS soulmates)))))) (. .) (: :) (: -) (-RRB- -RRB-)))
+#Rule:Nouns
+r1MarriageNN
+r1is.asNNS
+r1previously.theNN
+r1desicionNN
+r1soulmatesOrganizationAnnotation
+
+#Rule:Verbs
+r2saidVBD
+
+#Rule:Adjs
+r4personalJJ
+
+#Rule:Adj-Noun
+r5personalJJdesicionNN
+
+#Rule:N-HeadNoun
+r8MarriageNNis.asNNS
+
+#Rule:HeadNoun-V
+r11iPRPsaidVBD
+
+#Rule:V-HeadNoun
+r21saidVBDdesicionNN
+
+#Rule:PPinNP
+r26desicionNNofINsoulmatesOrganizationAnnotation
+
+@lemmas-left	said	last	lasting	one	eternity	soulmates	long	decision	love	personal	is.as	previously.the	be	is	think	SOULMATES	as	Marriage	marriage	i	s	desicion	ETERNITY	say	MILENNIA	Love	
+@lemmas-right	think	is	said	last	eternity	as	soulmates	marriage	decision	love	desicion	is.as	ETERNITY	say	be	
+@lemmas-center	of	for	

@@ -1,0 +1,49 @@
+#first of all, you can t be good.ya gotta be great and ya gotta beat a whole lot of people in order to get the julia roberts status.
+#(S1 (S (ADVP (RB first) (PP (IN of) (NP (DT all)))) (, ,) (S (NP (PRP you)) (VP (MD can) (RB t) (VP (AUX be) (VP (VBG good.ya) (S (NP (NN gotta)) (VP (AUX be) (ADJP (JJ great)))))))) (CC and) (S (NP (PRP ya)) (VP (MD gotta) (VP (VB beat) (NP (NP (DT a) (JJ whole) (NN lot)) (PP (IN of) (NP (NNS people)))) (SBAR (IN in) (NN order) (S (VP (TO to) (VP (VB get) (NP (DT the) (NNP julia) (NNP roberts) (NN status))))))))) (. .)))
+#Rule:Nouns
+r1gottaNN
+r1lotNN
+r1peopleNNS
+r1orderNN
+r1julia robertsPersonAnnotation
+r1statusNN
+
+#Rule:Verbs
+r2good.yaVBG
+r2beatVB
+r2getVB
+
+#Rule:Adjs
+r4greatJJ
+r4wholeJJ
+
+#Rule:Adj-Noun
+r5wholeJJlotNN
+
+#Rule:N-HeadNoun
+r8julia robertsPersonAnnotationstatusNN
+
+#Rule:HeadNoun-V
+r11youPRPgood.yaVBG
+r11gottaNNbeAUX
+r11yaOrganizationAnnotationbeatVB
+
+#Rule:V-HeadNoun
+r21beatVBlotNN
+r21getVBstatusNN
+
+#Rule:V-HeadNoun
+r22good.yaVBGgottaNN
+
+#Rule:V-ADJ
+r25beAUXgreatJJ
+
+#Rule:PPinNP
+r26lotNNofINpeopleNNS
+
+#Rule:V-IN-V
+r43beatVBinINgetVB
+
+@lemmas-left	beat	get	status	ya	you	people	great	order	whole	gotta	julia roberts	lot	good.ya	be	
+@lemmas-right	beat	great	get	status	gotta	good.ya	lot	people	be	
+@lemmas-center	of	in	

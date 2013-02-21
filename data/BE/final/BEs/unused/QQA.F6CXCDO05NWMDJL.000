@@ -1,0 +1,23 @@
+#Why is the sky blue??
+#(S1 (SBARQ (WHADVP (WRB Why)) (SQ (AUX is) (NP (DT the) (NN sky)) (ADJP (JJ blue)) (. ?)) (. ?)))
+#Rule:Nouns
+r1skyNN
+
+#Rule:Adjs
+r4blueJJ
+
+#I dont get it.
+#(S1 (S (NP (PRP I)) (VP (VBP dont) (S (VP (VB get) (NP (PRP it))))) (. .)))
+#Rule:Verbs
+r2dontVBP
+r2getVB
+
+#Rule:HeadNoun-V
+r11iPRPdontVBP
+
+#Rule:V-HeadNoun
+r21getVBitPRP
+
+@lemmas-left	sky	get	dont	blue	i	
+@lemmas-right	it	dont	
+@lemmas-center	

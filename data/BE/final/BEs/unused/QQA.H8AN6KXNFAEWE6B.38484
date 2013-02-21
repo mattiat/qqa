@@ -1,0 +1,32 @@
+#it would never have happened if there had been global warming.
+#(S1 (S (NP (PRP it)) (VP (MD would) (ADVP (RB never)) (VP (AUX have) (VP (VBN happened) (SBAR (IN if) (S (NP (EX there)) (VP (AUX had) (VP (AUX been) (NP (JJ global) (NN warming))))))))) (. .)))
+#Rule:Nouns
+r1warmingNN
+
+#Rule:Verbs
+r2happenedVBN
+
+#Rule:Adjs
+r4globalJJ
+
+#Rule:Adj-Noun
+r5globalJJwarmingNN
+
+#Rule:HeadNoun-V
+r11thereEXbeenAUX
+
+#Rule:HeadNoun-V
+r12itPRPhappenedVBN
+
+#Rule:V-HeadNoun
+r21beenAUXwarmingNN
+
+#Rule:V-IN-V
+r43happenedVBNifINbeenAUX
+
+#Rule:V-ADV
+r46haveAUXneverRB
+
+@lemmas-left	it	happened	have	warming	there	global	happen	been	be	
+@lemmas-right	never	happened	warming	happen	been	be	
+@lemmas-center	if	

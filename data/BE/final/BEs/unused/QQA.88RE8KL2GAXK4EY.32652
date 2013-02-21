@@ -1,0 +1,102 @@
+#hi @n!!
+#(S1 (FRAG (X (FW hi) (SYM @)) (NP (NNP n) (. !)) (. !)))
+#Rule:Nouns
+r1nNNP
+
+#L..          dude 2 tell u de fact..de world iz perfect but de ppl stayin in de world r not perfect...as a result itz alwayz lyk de world iz not perfect...but no..if ppl guide their ownselves,...then ppl can become perfect..but dear there z alwayz hav been a famous sayin..NOBODY S PERFECT...n i do agree wid dis..tc.sweet dreamz..bye...*****Be kOoL.bUt dOn frEezE...*****.
+#(S1 (FRAG (NP (NNP L)) (. .) (. .) (NP (NN dude) (CD 2)) (S (VP (VB tell) (S (S (NP (NP (NNP u) (FW de) (NN fact) (NN ..)) (PP (IN de) (NP (NN world) (NNS iz)))) (ADJP (JJ perfect))) (CC but) (S (X (X (FW de) (FW ppl) (FW stayin) (FW in) (FW de) (NN world) (SYM r) (ADJP (RB not) (JJ perfect))) (: ...) (PP (IN as) (NP (DT a) (NN result)))) (NP (NN itz) (NNS alwayz)) (VP (VBG lyk) (SBAR (IN de) (S (NP (NN world)) (VP (VBZ iz) (ADJP (RB not) (JJ perfect)) (PRN (: ...) (CC but) (NP (NP (DT no) (NNS ..)) (PP (IN if) (NP (NP (CD ppl) (NN guide)) (NP (PRP$ their) (NNS ownselves)) (, ,)))) (: ...)) (SBAR (S (S (NP (RB then) (CD ppl)) (VP (MD can) (VP (VB become) (NP (JJ perfect) (NN ..))))) (CC but) (S (ADVP (RB dear)) (NP (EX there)) (VP (SYM z) (SBAR (S (S (NP (NN alwayz) (NNS hav)) (VP (AUX been) (NP (NP (DT a) (JJ famous) (JJ sayin) (NN ..) (NN NOBODY)) (NP (NNP S) (NNP PERFECT))))) (: ...) (S (NP (NNP n) (PRP i)) (VP (AUX do) (VP (VB agree) (NP (NP (JJ wid) (NN dis) (NN ..) (NN tc.sweet)) (NP (QP (CD dreamz) (CD ..)) (NN bye)))))) (: ...) (S (NP (NNS *****)) (VP (AUX Be) (S (NP (NN kOoL.bUt)) (VP (VB dOn) (NP (NN frEezE)) (: ...) (NP (NN *****)))))))))))))))))))) (. .)))
+#Rule:Nouns
+r1LNNP
+r1dudeNN
+r1uNNP
+r1factNN
+r1..NN
+r1worldNN
+r1izNNS
+r1worldNN
+r1resultNN
+r1itzNN
+r1alwayz lykPersonAnnotation
+r1worldNN
+r1..NNS
+r1guideNN
+r1ownselvesNNS
+r1..NN
+r1alwayzPersonAnnotation
+r1havNNS
+r1..NN
+r1NOBODYNN
+r1SNNP
+r1PERFECTNNP
+r1nNNP
+r1disNN
+r1..NN
+r1tc.sweetNN
+r1byeNN
+r1*****NNS
+r1****Be kOoL.bUt dOn frEezE...*****PersonAnnotation
+
+#Rule:Verbs
+r2tellVB
+r2izVBZ
+r2becomeVB
+r2agreeVB
+
+#Rule:Adjs
+r4perfectJJ
+r4perfectJJ
+r4perfectJJ
+r4perfectJJ
+r4famousJJ
+r4sayinJJ
+r4widJJ
+
+#Rule:Adj-Noun
+r52CDdudeNN
+r5pplCDguideNN
+r5perfectJJ..NN
+r5famousJJNOBODYNN
+r5sayinJJNOBODYNN
+r5widJJtc.sweetNN
+r5dreamzCDbyeNN
+r5..CDbyeNN
+
+#Rule:PRP-Noun
+r6theirPRP$ownselvesNNS
+
+#Rule:N-HeadNoun
+r8factNN..NN
+r8worldNNizNNS
+r8itzNNalwayz lykPersonAnnotation
+r8alwayzPersonAnnotationhavNNS
+r8..NNNOBODYNN
+r8SNNPPERFECTNNP
+r8..NNtc.sweetNN
+r8disNNtc.sweetNN
+
+#Rule:HeadNoun-V
+r11worldNNizVBZ
+r11pplCDbecomeVB
+r11havNNSbeenAUX
+r11nNNPagreeVB
+r11*****NNS****Be kOoL.bUt dOn frEezE...*****PersonAnnotation
+
+#Rule:V-HeadNoun
+r21becomeVB..NN
+r21beenAUXNOBODYNN
+r21agreeVBtc.sweetNN
+
+#Rule:PPinNP
+r26..NNdeINizNNS
+r26..NNSifINguideNN
+r26..NNSifINownselvesNNS
+
+#Rule:V-IN-V
+r43alwayz lykPersonAnnotationdeINizVBZ
+
+#Rule:IS-RULE
+r47NOBODYNNhavNNS
+
+@lemmas-left	guide	famous	result	nobody	dreamz	become	L	hav	****Be kOoL.bUt dOn frEezE...*****	itz	been	S	dis	..	sayin	tell	ownselves	perfect	be	wid	alwayz lyk	n	PERFECT	*****	l	bye	NOBODY	2	u	fact	sweet	tc.sweet	ppl	alwayz	s	dude	iz	their	agree	world	
+@lemmas-right	guide	nobody	alwayz lyk	become	PERFECT	hav	****Be kOoL.bUt dOn frEezE...*****	bye	been	NOBODY	sweet	tc.sweet	dude	..	iz	ownselves	perfect	agree	be	
+@lemmas-center	de	if	

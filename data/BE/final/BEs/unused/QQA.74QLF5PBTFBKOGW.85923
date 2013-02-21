@@ -1,0 +1,101 @@
+#Saurav Ganguly was the captain of Indian Cricklet team for number of years, whereas Dravid has taken over captaincy not long ago.  
+#(S1 (S (NP (NNP Saurav) (NNP Ganguly)) (VP (AUX was) (NP (NP (DT the) (NN captain)) (PP (IN of) (NP (NNP Indian) (NNP Cricklet) (NN team)))) (PP (IN for) (NP (NP (NN number)) (PP (IN of) (NP (NNS years))))) (, ,) (SBAR (IN whereas) (S (NP (NNP Dravid)) (VP (AUX has) (VP (VBN taken) (PRT (RP over)) (NP (NP (NN captaincy)) (ADVP (NP (RB not) (RB long)) (RB ago)))))))) (. .)))
+#Rule:Nouns
+r1Saurav GangulyPersonAnnotation
+r1captainNN
+r1IndianOrganizationAnnotation
+r1CrickletNNP
+r1teamNN
+r1numberNN
+r1yearsNNS
+r1DravidPersonAnnotation
+r1captaincyNN
+
+#Rule:V-PRT
+r3takenVBNoverRP
+
+#Rule:N-HeadNoun
+r8CrickletNNPteamNN
+r8IndianOrganizationAnnotationteamNN
+
+#Rule:HeadNoun-V
+r11Saurav GangulyPersonAnnotationwasAUX
+
+#Rule:HeadNoun-V
+r12DravidPersonAnnotationtakenVBN
+
+#Rule:V-HeadNoun
+r21wasAUXcaptainNN
+r21takenVBNcaptaincyNN
+
+#Rule:PPinNP
+r26captainNNofINteamNN
+r26numberNNofINyearsNNS
+
+#Rule:PPinVP
+r30wasAUXforINnumberNN
+
+#Rule:V-IN-V
+r43wasAUXwhereasINtakenVBN
+
+#Rule:IS-RULE
+r47captainNNSaurav GangulyPersonAnnotation
+
+#It will be unfair to compare Dravid and Ganguly on captaincy at this stage.  
+#(S1 (S (NP (PRP It)) (VP (MD will) (VP (AUX be) (ADJP (JJ unfair) (S (VP (TO to) (VP (VB compare) (NP (NNP Dravid) (CC and) (NNP Ganguly)) (PP (IN on) (NP (NP (NN captaincy)) (PP (IN at) (NP (DT this) (NN stage))))))))))) (. .)))
+#Rule:Nouns
+r1DravidPersonAnnotation
+r1GangulyNNP
+r1captaincyNN
+r1stageNN
+
+#Rule:Verbs
+r2compareVB
+
+#Rule:Adjs
+r4unfairJJ
+
+#Rule:HeadNoun-V
+r11itPRPbeAUX
+
+#Rule:V-HeadNoun
+r21compareVBDravidPersonAnnotation
+
+#Rule:V-ADJ
+r25beAUXunfairJJ
+
+#Rule:PPinNP
+r26captaincyNNatINstageNN
+
+#Rule:PPinVP
+r30compareVBonINcaptaincyNN
+
+#So far dravid has done a fairly good job as captain
+#(S1 (S (ADVP (RB So) (RB far)) (NP (NN dravid)) (VP (AUX has) (VP (AUX done) (NP (NP (DT a) (ADJP (RB fairly) (JJ good)) (NN job)) (PP (IN as) (NP (NN captain))))))))
+#Rule:Nouns
+r1dravidNN
+r1jobNN
+r1captainNN
+
+#Rule:Adjs
+r4goodJJ
+
+#Rule:Adj-Noun
+r5goodJJjobNN
+
+#Rule:HeadNoun-V
+r11dravidNNdoneAUX
+
+#Rule:V-HeadNoun
+r21doneAUXjobNN
+
+#Rule:PPinNP
+r26jobNNasINcaptainNN
+
+#Rule:V-ADV
+r46hasAUXSoRB
+r46hasAUXfarRB
+
+@lemmas-left	captaincy	have	Indian	Saurav Ganguly	Ganguly	good	cricklet	stage	has	captain	was	unfair	Dravid	taken	do	be	it	compare	done	job	number	team	ganguly	dravid	Cricklet	take	years	
+@lemmas-right	captaincy	so	done	far	job	Saurav Ganguly	number	team	stage	So	was	captain	unfair	over	take	Dravid	do	taken	years	be	
+@lemmas-center	whereas	of	for	at	as	on	

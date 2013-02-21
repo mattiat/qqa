@@ -1,0 +1,27 @@
+#Just as most of the sciences are not understood by people!
+#(S1 (FRAG (SBAR (ADVP (RB Just)) (IN as) (S (NP (NP (JJS most)) (PP (IN of) (NP (DT the) (NNS sciences)))) (VP (AUX are) (RB not) (VP (VBN understood) (PP (IN by) (NP (NNS people))))))) (. !)))
+#Rule:Nouns
+r1sciencesNNS
+r1peopleNNS
+
+#Rule:Verbs
+r2understoodVBN
+
+#Rule:Adjs
+r4mostJJS
+
+#Rule:V-By-Agent
+r13peopleNNSunderstoodVBN
+
+#Rule:V-HeadNoun(passive)
+r23understoodVBNmostJJS
+
+#Rule:PPinNP
+r26mostJJSofINsciencesNNS
+
+#Rule:V-ADV
+r46areAUXnotRB
+
+@lemmas-left	are	understand	understood	sciences	most	people	be	science	
+@lemmas-right	not	understand	understood	sciences	most	science	
+@lemmas-center	of	

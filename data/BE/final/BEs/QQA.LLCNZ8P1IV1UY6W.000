@@ -1,0 +1,45 @@
+#so how bad is getting your wisdom teeth out and what can i expect? 
+#(S1 (SBARQ (WHADJP (RB so) (WRB how) (JJ bad)) (S (VP (AUX is) (VP (VBG getting) (NP (PRP$ your) (NN wisdom) (NNS teeth)) (ADVP (RB out))))) (CC and) (WHNP (WP what)) (SQ (MD can) (NP (PRP i)) (VP (VB expect))) (. ?)))
+#Rule:Nouns
+r1wisdomNN
+r1teethNNS
+
+#Rule:Verbs
+r2gettingVBG
+r2expectVB
+
+#Rule:Adjs
+r4badJJ
+
+#Rule:PRP-Noun
+r6yourPRP$teethNNS
+
+#Rule:N-HeadNoun
+r8wisdomNNteethNNS
+
+#Rule:V-HeadNoun
+r21gettingVBGteethNNS
+
+#Rule:V-ADV
+r46gettingVBGoutRB
+
+#what s the pain similar to?
+#(S1 (SBARQ (WHNP (WP what)) (SQ (VP (VBZ s) (NP (NP (DT the) (NN pain)) (ADJP (JJ similar) (PP (TO to)))))) (. ?)))
+#Rule:Nouns
+r1painNN
+
+#Rule:Verbs
+r2sVBZ
+
+#Rule:Adjs
+r4similarJJ
+
+#Rule:Adj-Noun
+r5similarJJpainNN
+
+#Rule:V-HeadNoun
+r21sVBZpainNN
+
+@lemmas-left	expect	getting	s	get	your	wisdom	pain	bad	teeth	similar	
+@lemmas-right	pain	teeth	out	
+@lemmas-center	

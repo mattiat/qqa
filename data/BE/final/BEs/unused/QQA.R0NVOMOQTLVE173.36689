@@ -1,0 +1,122 @@
+#It isn t today here in Virginia, today it is full of clouds, and at night it is black. 
+#(S1 (S (S (NP (PRP It)) (VP (VBZ isn) (NP (CD t) (NN today)) (SBAR (S (ADVP (RB here) (PP (IN in) (NP (NNP Virginia)))) (, ,) (NP (NN today)) (NP (PRP it)) (VP (AUX is) (ADJP (JJ full) (PP (IN of) (NP (NNS clouds))))))))) (, ,) (CC and) (S (PP (IN at) (NP (NN night))) (NP (PRP it)) (VP (AUX is) (ADJP (JJ black)))) (. .)))
+#Rule:Nouns
+r1todayNN
+r1VirginiaLocationAnnotation
+r1todayNN
+r1cloudsNNS
+r1nightNN
+
+#Rule:Verbs
+r2isnVBZ
+
+#Rule:Adjs
+r4fullJJ
+r4blackJJ
+
+#Rule:Adj-Noun
+r5tLocationAnnotationtodayNN
+
+#Rule:HeadNoun-V
+r11itPRPisnVBZ
+r11todayNNisAUX
+r11itPRPisAUX
+r11itPRPisAUX
+
+#Rule:V-HeadNoun
+r21isnVBZtodayNN
+
+#Rule:V-ADJ
+r25isAUXfullJJ
+r25isAUXblackJJ
+
+#Rule:PPinS
+r36isAUXatINnightNN
+
+#Rule:PPinADJP
+r37fullJJofINcloudsNNS
+
+#Rule:V-ADV
+r46isAUXhereRB
+
+#But that isn t the answer you want. 
+#(S1 (S (CC But) (NP (DT that) (NN isn)) (VP (VBZ t) (NP (NP (DT the) (NN answer)) (SBAR (S (NP (PRP you)) (VP (VBP want)))))) (. .)))
+#Rule:Nouns
+r1isnLocationAnnotation
+r1answerNN
+
+#Rule:Verbs
+r2tVBZ
+r2wantVBP
+
+#Rule:HeadNoun-V
+r11isnLocationAnnotationtVBZ
+r11youPRPwantVBP
+
+#Rule:NP(NP(z) SBAR(S(NP(x)VP(y))))
+r19wantVBPanswerNN
+
+#Rule:V-HeadNoun
+r21tVBZanswerNN
+
+#The real answer is light refraction through the atmosphere. 
+#(S1 (S (NP (DT The) (JJ real) (NN answer)) (VP (AUX is) (NP (NP (JJ light) (NN refraction)) (PP (IN through) (NP (DT the) (NN atmosphere))))) (. .)))
+#Rule:Nouns
+r1answerNN
+r1refractionNN
+r1atmosphereNN
+
+#Rule:Adjs
+r4realJJ
+r4lightJJ
+
+#Rule:Adj-Noun
+r5realJJanswerNN
+r5lightJJrefractionNN
+
+#Rule:HeadNoun-V
+r11answerNNisAUX
+
+#Rule:V-HeadNoun
+r21isAUXrefractionNN
+
+#Rule:PPinNP
+r26refractionNNthroughINatmosphereNN
+
+#Rule:IS-RULE
+r47refractionNNanswerNN
+
+#The brown color on the horizonis polution unless you are in some place like Maine.
+#(S1 (S (NP (NP (DT The) (JJ brown) (NN color)) (PP (IN on) (NP (DT the) (NN horizonis)))) (VP (VBP polution) (SBAR (IN unless) (S (NP (PRP you)) (VP (AUX are) (PP (IN in) (NP (NP (DT some) (NN place)) (PP (IN like) (NP (NNP Maine))))))))) (. .)))
+#Rule:Nouns
+r1colorNN
+r1horizonisNN
+r1placeNN
+r1MaineLocationAnnotation
+
+#Rule:Verbs
+r2polutionVBP
+
+#Rule:Adjs
+r4brownJJ
+
+#Rule:Adj-Noun
+r5brownJJcolorNN
+
+#Rule:HeadNoun-V
+r11colorNNpolutionVBP
+r11youPRPareAUX
+
+#Rule:PPinNP
+r26colorNNonINhorizonisNN
+r26placeNNlikeINMaineLocationAnnotation
+
+#Rule:PPinVP
+r30areAUXinINplaceNN
+
+#Rule:V-IN-V
+r43polutionVBPunlessINareAUX
+
+@lemmas-left	today	refraction	real	are	full	place	light	horizonis	black	want	be	clouds	is	it	Virginia	isn	answer	atmosphere	you	polution	t	color	cloud	night	brown	Maine	
+@lemmas-right	clouds	is	isn	answer	atmosphere	today	here	refraction	polution	are	t	color	full	cloud	night	place	Maine	horizonis	black	want	be	
+@lemmas-center	of	unless	at	on	through	like	in	

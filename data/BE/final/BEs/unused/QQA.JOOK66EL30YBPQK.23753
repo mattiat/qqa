@@ -1,0 +1,107 @@
+#I know the natural way to getting your cholesterol low..
+#(S1 (S (NP (PRP I)) (VP (VBP know) (NP (DT the) (JJ natural) (NN way)) (S (TO to) (VP (VBG getting) (NP (PRP$ your) (NN cholesterol) (NN low))) (. .))) (. .)))
+#Rule:Nouns
+r1wayNN
+r1cholesterolNN
+r1lowNN
+
+#Rule:Verbs
+r2knowVBP
+r2gettingVBG
+
+#Rule:Adjs
+r4naturalJJ
+
+#Rule:Adj-Noun
+r5naturalJJwayNN
+
+#Rule:PRP-Noun
+r6yourPRP$lowNN
+
+#Rule:N-HeadNoun
+r8cholesterolNNlowNN
+
+#Rule:HeadNoun-V
+r11iPRPknowVBP
+
+#Rule:V-HeadNoun
+r21knowVBPwayNN
+r21gettingVBGlowNN
+
+#First you have to find oil leaf, then you will dry up these leafs.,After dry up , you will boil the leafs in a cup and drink it every morning before your breakfast..
+#(S1 (S (SBAR (RB First) (S (NP (PRP you)) (VP (AUX have) (S (VP (TO to) (VP (VB find) (NP (NN oil) (NN leaf)))))))) (, ,) (ADVP (RB then)) (NP (PRP you)) (VP (MD will) (VP (VB dry) (PRT (RP up)) (NP (DT these) (JJ leafs.)) (, ,) (SBAR (IN After) (S (S (VP (VB dry) (ADVP (RB up)))) (, ,) (NP (PRP you)) (VP (MD will) (VP (VP (NN boil) (NP (NP (DT the) (NNS leafs)) (PP (IN in) (NP (DT a) (NN cup))))) (CC and) (VP (VB drink) (NP (PRP it)) (NP (DT every) (NN morning)) (PP (IN before) (NP (PRP$ your) (NN breakfast)))))) (. .))))) (. .)))
+#Rule:Nouns
+r1oilNN
+r1leafNN
+r1boilNN
+r1leafsNNS
+r1cupNN
+r1morningNN
+r1breakfastNN
+
+#Rule:Verbs
+r2findVB
+r2dryVB
+r2drinkVB
+
+#Rule:V-PRT
+r3dryVBupRP
+
+#Rule:Adjs
+r4leafsJJ
+
+#Rule:PRP-Noun
+r6yourPRP$breakfastNN
+
+#Rule:N-HeadNoun
+r8oilNNleafNN
+
+#Rule:HeadNoun-V
+r11youPRPdryVB
+r11youPRPhaveAUX
+r11youPRPdrinkVB
+
+#Rule:V-HeadNoun
+r21findVBleafNN
+r21dryVBleafsJJ
+r21boilNNleafsNNS
+r21drinkVBitPRP
+r21drinkVBmorningNN
+
+#Rule:PPinNP
+r26leafsNNSinINcupNN
+
+#Rule:PPinVP
+r30drinkVBbeforeINbreakfastNN
+
+#Rule:V-IN-V
+r43dryVBafterINdrinkVB
+
+#Rule:V-ADV
+r46dryVBupRB
+
+#Rule:SubVerbClause
+r50youPRPdryVB
+
+#OR you can boil thyme..
+#(S1 (S (CC OR) (NP (PRP you)) (VP (MD can) (X (NP (NN boil) (NN thyme)) (. .))) (. .)))
+#Rule:Nouns
+r1boilNN
+r1thyme..LocationAnnotation
+
+#Rule:N-HeadNoun
+r8boilNNthyme..LocationAnnotation
+
+#I hope it is working.
+#(S1 (S (NP (PRP I)) (VP (VBP hope) (SBAR (S (NP (PRP it)) (VP (AUX is) (VP (VBG working)))))) (. .)))
+#Rule:Verbs
+r2hopeVBP
+r2workingVBG
+
+#Rule:HeadNoun-V
+r11iPRPhopeVBP
+r11itPRPworkingVBG
+
+@lemmas-left	cup	getting	thyme..	breakfast	way	leaf	oil	leafs	drink	working	find	work	it	dry	get	your	you	morning	boil	know	cholesterol	i	leafs.	low	natural	hope	
+@lemmas-right	work	cup	thyme..	dry	it	have	breakfast	way	leaf	morning	know	up	leafs	drink	leafs.	working	low	hope	
+@lemmas-center	after	before	in	

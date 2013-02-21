@@ -1,0 +1,43 @@
+#His or her eyes and feel his or her pulse on his or her hands because it will increase because he or she is getting nervous because he or she is lying.
+#(S1 (S (NP (ADJP (PRP$ His) (CC or) (PRP$ her)) (NNS eyes)) (VP (CC and) (VP (VBP feel) (NP (ADJP (PRP$ his) (CC or) (PRP$ her)) (NN pulse)) (PP (IN on) (NP (ADJP (PRP$ his) (CC or) (PRP$ her)) (NNS hands))) (SBAR (IN because) (S (NP (PRP it)) (VP (MD will) (VP (VB increase) (SBAR (IN because) (S (NP (PRP he) (CC or) (PRP she)) (VP (AUX is) (VP (VBG getting) (ADJP (JJ nervous) (SBAR (IN because) (S (NP (PRP he) (CC or) (PRP she)) (VP (AUX is) (VP (VBG lying)))))))))))))))) (. .)))
+#Rule:Nouns
+r1eyesNNS
+r1pulseNN
+r1handsNNS
+
+#Rule:Verbs
+r2feelVBP
+r2increaseVB
+r2gettingVBG
+r2lyingVBG
+
+#Rule:Adjs
+r4nervousJJ
+
+#Rule:PRP-Noun
+r6hisPRP$eyesNNS
+r6herPRP$eyesNNS
+r6hisPRP$pulseNN
+r6herPRP$pulseNN
+r6hisPRP$handsNNS
+r6herPRP$handsNNS
+
+#Rule:HeadNoun-V
+r11eyesNNSfeelVBP
+r11itPRPincreaseVB
+r11hePRPgettingVBG
+r11hePRPlyingVBG
+
+#Rule:V-HeadNoun
+r21feelVBPpulseNN
+
+#Rule:PPinVP
+r30feelVBPonINhandsNNS
+
+#Rule:V-IN-V
+r43feelVBPbecauseINincreaseVB
+r43increaseVBbecauseINgettingVBG
+
+@lemmas-left	feel	getting	lying	it	get	nervous	he	pulse	eyes	his	hands	increase	her	lie	
+@lemmas-right	getting	feel	lying	get	hands	increase	pulse	lie	eyes	
+@lemmas-center	because	on	

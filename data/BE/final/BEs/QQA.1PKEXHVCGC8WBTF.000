@@ -1,0 +1,48 @@
+#why love gives us pain sometimes?
+#(S1 (SBARQ (WHADVP (WRB why)) (S (NP (NN love)) (VP (VBZ gives) (NP (PRP us)) (NP (NN pain)) (ADVP (RB sometimes)))) (. ?)))
+#Rule:Nouns
+r1loveNN
+r1painNN
+
+#Rule:Verbs
+r2givesVBZ
+
+#Rule:HeadNoun-V
+r11loveNNgivesVBZ
+
+#Rule:V-HeadNoun
+r21givesVBZusPRP
+r21givesVBZpainNN
+
+#Rule:V-ADV
+r46givesVBZsometimesRB
+
+#we feel happy while we r in love but sometimes love makes us weep. aisa kyo ?
+#(S1 (S (NP (PRP we)) (VP (VBP feel) (ADJP (JJ happy) (SBAR (IN while) (S (S (NP (PRP we)) (VP (SYM r) (PP (IN in) (NP (NN love))))) (CC but) (S (ADVP (RB sometimes)) (NP (NN love)) (VP (VBZ makes) (S (NP (PRP us)) (VP (VB weep.) (ADJP (RB aisa) (JJ kyo)))))))))) (. ?)))
+#Rule:Nouns
+r1loveNN
+r1loveNN
+
+#Rule:Verbs
+r2feelVBP
+r2makesVBZ
+r2weepVB
+
+#Rule:Adjs
+r4happyJJ
+r4aisa kyoPersonAnnotation
+
+#Rule:HeadNoun-V
+r11wePRPfeelVBP
+r11loveNNmakesVBZ
+r11usPRPweepVB
+
+#Rule:V-HeadNoun
+r22makesVBZusPRP
+
+#Rule:V-ADV
+r46makesVBZsometimesRB
+
+@lemmas-left	feel	give	gives	makes	pain	us	love	weep	aisa kyo	happy	make	weep.	we	
+@lemmas-right	feel	weep	sometimes	gives	give	makes	pain	us	weep.	make	
+@lemmas-center	

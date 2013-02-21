@@ -1,0 +1,79 @@
+#did you go to the  doctor, and take medication. try to plan all your day, don t sit alone. and i don t know what religion you are, but i am Muslim and i know many people become better after reading holly quran, especially Surat bakara, every day. take care, i will pray for you.
+#(S1 (SQ (AUX did) (NP (PRP you)) (VP (VP (VB go) (PP (TO to) (NP (DT the) (NN doctor)))) (, ,) (CC and) (VP (VB take) (S (NP (NNS medication.)) (VP (VBP try) (S (VP (TO to) (VP (VB plan) (NP (PDT all) (PRP$ your) (NN day)) (, ,) (S (S (VP (VB don) (S (NP (NNS t)) (VP (VB sit) (ADVP (FW alone.)))))) (CC and) (S (NP (PRP i)) (VP (VB don) (S (NP (NNS t)) (VP (VB know) (SBAR (WHNP (WP what) (NN religion)) (S (S (S (NP (PRP you)) (VP (AUX are))) (, ,) (CC but) (S (NP (PRP i)) (VP (AUX am) (NP (NNP Muslim))))) (CC and) (S (NP (PRP i)) (VP (VBP know) (SBAR (S (NP (JJ many) (NNS people)) (VP (VBP become) (ADJP (JJR better)) (PP (IN after) (S (VP (VBG reading) (NP (NNP holly) (JJ quran) (, ,) (ADJP (RB especially) (JJ Surat)) (NN bakara))))) (PRN (, ,) (S (NP (DT every) (NN day.)) (VP (VB take) (NP (NN care)))) (, ,)) (SBAR (S (NP (PRP i)) (VP (MD will) (VP (VB pray) (PP (IN for) (NP (PRP you)))))))))))))))))))))))))) (. .)))
+#Rule:Nouns
+r1doctorNN
+r1medicationNNS
+r1dayNN
+r1tNNS
+r1tNNS
+r1religionNN
+r1am MuslimPersonAnnotation
+r1peopleNNS
+r1hollyNNP
+r1bakaraPersonAnnotation
+r1dayNN
+r1careNN
+
+#Rule:Verbs
+r2goVB
+r2takeVB
+r2tryVBP
+r2planVB
+r2donVB
+r2sitVB
+r2i donPersonAnnotation
+r2knowVB
+r2knowVBP
+r2becomeVBP
+r2readingVBG
+r2takeVB
+r2prayVB
+
+#Rule:Adjs
+r4manyJJ
+r4betterJJR
+r4quranJJ
+r4SuratJJ
+
+#Rule:Adj-Noun
+r5manyJJpeopleNNS
+r5quranJJbakaraPersonAnnotation
+r5SuratJJbakaraPersonAnnotation
+
+#Rule:PRP-Noun
+r6yourPRP$dayNN
+
+#Rule:HeadNoun-V
+r11medicationNNStryVBP
+r11tNNSsitVB
+r11tNNSknowVB
+r11youPRPareAUX
+r11iPRPam MuslimPersonAnnotation
+r11iPersonAnnotationknowVBP
+r11peopleNNSbecomeVBP
+r11dayNNtakeVB
+r11iOrganizationAnnotationprayVB
+
+#Rule:V-HeadNoun
+r21planVBdayNN
+r21readingVBGbakaraPersonAnnotation
+r21takeVBcareNN
+
+#Rule:V-HeadNoun
+r22takeVBmedicationNNS
+r22donVBtNNS
+r22i donPersonAnnotationtNNS
+
+#Rule:PPinVP
+r30goVBtoTOdoctorNN
+r30prayVBforINyouPRP
+
+#Rule:V-V
+r44tryVBPplanVB
+
+#Rule:V-MOD
+r45planVBdonVB
+
+@lemmas-left	reading	holly	don	surat	become	am Muslim	people	doctor	religion	Surat	care	read	pray	bakara	medication	your	you	know	i	sit	many	medication.	t	quran	plan	day.	better	take	i don	day	try	go	
+@lemmas-right	medication	don	become	you	am Muslim	people	know	doctor	sit	medication.	t	are	plan	take	care	pray	day	bakara	try	be	
+@lemmas-center	to	for	

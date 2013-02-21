@@ -1,0 +1,132 @@
+#will this work? 
+#(S1 (SQ (MD will) (NP (DT this)) (VP (VB work)) (. ?)))
+#Rule:Verbs
+r2workVB
+
+#about how many pound will i loose?
+#(S1 (SBARQ (RB about) (WHADVP (WRB how) (JJ many) (NN pound)) (SQ (MD will) (NP (PRP i)) (VP (VB loose))) (. ?)))
+#Rule:Nouns
+r1poundNN
+
+#Rule:Verbs
+r2looseVB
+
+#Rule:Adjs
+r4manyJJ
+
+#i have been doing this for a couple of days now.every day:120 jumping jacks20 standing trunk twists10 minutes of jogging50 normal crunches. 50 side crunches(50 right, 50 left)20 push ups25 twist crunches100 seconds standing up on tipi toes (helps my legs)leg flutters50 sit-upshow many calories do i have to eat each day to lose weight?
+#(S1 (S (NP (PRP i)) (VP (AUX have) (VP (AUX been) (VP (VBG doing) (NP (DT this)) (PP (IN for) (NP (NP (DT a) (NN couple)) (PP (IN of) (NP (NP (NNS days)) (ADJP (JJ now.every) (NP (NP (NP (CD day:120)) (PP (VBG jumping) (NP (NP (NP (CD jacks20) (NN standing) (NN trunk)) (NP (CD twists10) (NNS minutes))) (PP (IN of) (NP (NP (CD jogging50) (JJ normal) (JJ crunches.) (ADJP (CD 50) (NN side)) (NNS crunches)) (PRN (-LRB- -LRB-) (NP (NP (CD 50) (NN right)) (, ,) (NP (CD 50) (NN left))) (-RRB- -RRB-)))) (NP (CD 20) (NN push))))) (NP (NP (NP (CD ups25) (NN twist)) (NP (CD crunches100) (NNS seconds))) (VP (VBG standing) (PRT (RP up)) (PP (IN on) (S (NP (JJ tipi) (NNS toes)) (PRN (-LRB- -LRB-) (VP (VBZ helps) (NP (PRP$ my) (NNS legs))) (-RRB- -RRB-)) (VP (NN leg) (SBAR (S (NP (CD flutters50) (JJ sit-upshow) (JJ many) (NNS calories)) (VP (AUX do) (SBAR (S (NP (PRP i)) (VP (AUX have) (S (VP (TO to) (VP (VB eat) (NP (DT each) (NN day)) (S (VP (TO to) (VP (VB lose) (NP (NN weight)))))))))))))))))))))))))))) (. ?)))
+#Rule:Nouns
+r1coupleNN
+r1daysNNS
+r1standingNN
+r1trunkNN
+r1minutesNNS
+r1sideNN
+r1crunchesNNS
+r1rightNN
+r1leftNN
+r1pushNN
+r1twistNN
+r1secondsNNS
+r1toesNNS
+r1legsNNS
+r1legNN
+r1caloriesNNS
+r1dayNN
+r1weightNN
+
+#Rule:Verbs
+r2doingVBG
+r2jumpingVBG
+r2helpsVBZ
+r2eatVB
+r2loseVB
+
+#Rule:V-PRT
+r3standingVBGupRP
+
+#Rule:Adjs
+r4now.everyJJ
+r4normalJJ
+r4crunchesJJ
+r4tipiLocationAnnotation
+r4sit-upshowJJ
+r4manyJJ
+
+#Rule:Adj-Noun
+r5now.everyJJdaysNNS
+r5jacks20CDtrunkNN
+r5twists10CDminutesNNS
+r5jogging50CDcrunchesNNS
+r5normalJJcrunchesNNS
+r5crunchesJJcrunchesNNS
+r550CDcrunchesNNS
+r550CDrightNN
+r550CDleftNN
+r520CDpushNN
+r5ups25CDtwistNN
+r5crunches100CDsecondsNNS
+r5tipiLocationAnnotationtoesNNS
+r5flutters50CDcaloriesNNS
+r5sit-upshowJJcaloriesNNS
+r5manyJJcaloriesNNS
+
+#Rule:PRP-Noun
+r6myPRP$legsNNS
+
+#Rule:N-HeadNoun
+r8standingNNtrunkNN
+
+#Rule:N-ApposN
+r10rightNNleftNN
+
+#Rule:HeadNoun-V
+r11iPRPdoingVBG
+r11twistNNstandingVBG
+r11secondsNNSstandingVBG
+r11caloriesNNSdoAUX
+r11iLocationAnnotationhaveAUX
+
+#Rule:V-HeadNoun
+r21doingVBGthisDT
+r21helpsVBZlegsNNS
+r21eatVBdayNN
+r21loseVBweightNN
+
+#Rule:PPinNP
+r26coupleNNofINdaysNNS
+r26trunkNNofINcrunchesNNS
+
+#Rule:PPinVP
+r30doingVBGforINcoupleNN
+
+#Rule:V-V
+r44eatVBloseVB
+
+#if this is not enough, what else can i do? 
+#(S1 (SBARQ (SBAR (IN if) (S (NP (DT this)) (VP (AUX is) (ADJP (RB not) (JJ enough))))) (, ,) (WHNP (WP what) (RB else)) (SQ (MD can) (NP (PRP i)) (VP (AUX do))) (. ?)))
+#Rule:Adjs
+r4enoughJJ
+
+#Rule:HeadNoun-V
+r11thisDTisAUX
+
+#Rule:V-ADJ
+r25isAUXenoughJJ
+
+#something that i can do at home.
+#(S1 (NP (NP (NN something)) (SBAR (IN that) (S (NP (PRP i)) (VP (MD can) (VP (AUX do) (PP (IN at) (NP (NN home))))))) (. .)))
+#Rule:Nouns
+r1somethingNN
+r1homeNN
+
+#Rule:HeadNoun-V
+r11iLocationAnnotationdoAUX
+
+#Rule:PPinVP
+r30doAUXatINhomeNN
+
+@lemmas-left	second	normal	jacks20	enough	loose	every	calorie	help	calories	something	right	be	work	twists10	flutters50	jump	crunches.	many	trunk	doing	eat	crunches100	day	this	pound	home	toe	crunch	weight	jumping	jogging50	push	sit-upshow	20	side	left	couple	do	ups25	is	now.every	minutes	toes	helps	tipi	my	i	leg	lose	days	seconds	crunches	stand	twist	legs	standing	50	
+@lemmas-right	home	toe	crunch	weight	second	have	enough	push	calorie	calories	couple	left	do	right	be	is	minutes	toes	up	lose	trunk	days	seconds	crunches	stand	twist	doing	legs	day	standing	this	
+@lemmas-center	of	for	at	

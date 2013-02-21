@@ -1,0 +1,36 @@
+#The latest results of the COBE Research project gave the Universe 13,700 million years.
+#(S1 (S (NP (NP (DT The) (JJS latest) (NNS results)) (PP (IN of) (NP (DT the) (NNP COBE) (NNP Research) (NN project)))) (VP (VBD gave) (NP (DT the) (NN Universe)) (NP (QP (CD 13,700) (CD million)) (NNS years))) (. .)))
+#Rule:Nouns
+r1resultsNNS
+r1COBE ResearchOrganizationAnnotation
+r1projectNN
+r1the UniverseOrganizationAnnotation
+r1yearsNNS
+
+#Rule:Verbs
+r2gaveVBD
+
+#Rule:Adjs
+r4latestJJS
+
+#Rule:Adj-Noun
+r5latestJJSresultsNNS
+r513,700CDyearsNNS
+r5millionCDyearsNNS
+
+#Rule:N-HeadNoun
+r8COBE ResearchOrganizationAnnotationprojectNN
+
+#Rule:HeadNoun-V
+r11resultsNNSgaveVBD
+
+#Rule:V-HeadNoun
+r21gaveVBDthe UniverseOrganizationAnnotation
+r21gaveVBDyearsNNS
+
+#Rule:PPinNP
+r26resultsNNSofINprojectNN
+
+@lemmas-left	COBE Research	project	result	million	gave	results	give	the Universe	13,700	years	latest	
+@lemmas-right	project	result	gave	results	give	the Universe	years	
+@lemmas-center	of	

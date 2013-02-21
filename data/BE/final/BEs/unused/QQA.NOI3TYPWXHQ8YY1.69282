@@ -1,0 +1,58 @@
+#Genesis 6:3Then the LORD said, My Spirit will not contend with man forever, for he is mortal ; his days will be a hundred and twenty years.
+#(S1 (S (NP (NN Genesis) (NNS 6:3Then)) (NP (DT the) (NNP LORD)) (VP (VBD said) (, ,) (S (S (NP (NNP My) (NNP Spirit)) (VP (MD will) (RB not) (VP (VB contend) (PP (IN with) (NP (NN man))) (ADVP (RB forever)) (, ,) (SBAR (IN for) (S (NP (PRP he)) (VP (AUX is) (ADJP (JJ mortal)))))))) (: ;) (S (NP (PRP$ his) (NNS days)) (VP (MD will) (VP (AUX be) (NP (DT a) (CD hundred) (CC and) (CD twenty) (NNS years))))))) (. .)))
+#Rule:Nouns
+r1GenesisLocationAnnotation
+r16:3ThenNNS
+r1LORDOrganizationAnnotation
+r1MyNNP
+r1SpiritNNP
+r1manNN
+r1daysNNS
+r1yearsNNS
+
+#Rule:Verbs
+r2saidVBD
+r2contendVB
+
+#Rule:Adjs
+r4mortalJJ
+
+#Rule:Adj-Noun
+r5hundredCDyearsNNS
+r5twentyCDyearsNNS
+
+#Rule:PRP-Noun
+r6hisPRP$daysNNS
+
+#Rule:N-HeadNoun
+r8GenesisLocationAnnotation6:3ThenNNS
+r8MyNNPSpiritNNP
+
+#Rule:HeadNoun-V
+r116:3ThenNNSsaidVBD
+r11LORDOrganizationAnnotationsaidVBD
+r11SpiritNNPcontendVB
+r11hePRPisAUX
+r11daysNNSbeAUX
+
+#Rule:V-HeadNoun
+r21beAUXyearsNNS
+
+#Rule:V-ADJ
+r25isAUXmortalJJ
+
+#Rule:PPinVP
+r30contendVBwithINmanNN
+
+#Rule:V-IN-V
+r43contendVBforINisAUX
+
+#Rule:V-ADV
+r46contendVBforeverRB
+
+#Rule:IS-RULE
+r47yearsNNSdaysNNS
+
+@lemmas-left	contend	is	mortal	My	Spirit	said	hundred	6:3Then	he	Genesis	my	twenty	his	days	then	say	LORD	spirit	years	man	be	
+@lemmas-right	contend	is	Spirit	said	mortal	6:3Then	forever	days	then	say	spirit	years	man	be	
+@lemmas-center	with	for	

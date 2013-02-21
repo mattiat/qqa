@@ -1,0 +1,17 @@
+#How can I lower my cholesterol?
+#(S1 (SBARQ (WHADVP (WRB How)) (SQ (MD can) (NP (PRP I)) (VP (VB lower) (NP (PRP$ my) (NN cholesterol)))) (. ?)))
+#Rule:Nouns
+r1cholesterolNN
+
+#Rule:Verbs
+r2lowerVB
+
+#Rule:PRP-Noun
+r6myPRP$cholesterolNN
+
+#Rule:V-HeadNoun
+r21lowerVBcholesterolNN
+
+@lemmas-left	lower	my	cholesterol	
+@lemmas-right	cholesterol	
+@lemmas-center	

@@ -1,0 +1,37 @@
+#therapy.a must.pills.maybe along with therapy.self control.with the help of the other two.surroundings?  
+#(S1 (S (NP (NNS therapy.a)) (VP (VBP must.pills.maybe) (PP (IN along) (PP (IN with) (NP (JJ therapy.self) (NN control.with)) (NP (NP (DT the) (NN help)) (PP (IN of) (NP (DT the) (JJ other) (NNS two.surroundings))))))) (. ?)))
+#Rule:Nouns
+r1therapy.aNNS
+r1control.withNN
+r1helpNN
+r1two.surroundingsNNS
+
+#Rule:Verbs
+r2must.pills.maybeVBP
+
+#Rule:Adjs
+r4therapy.selfJJ
+r4otherJJ
+
+#Rule:Adj-Noun
+r5therapy.selfJJcontrol.withNN
+r5otherJJtwo.surroundingsNNS
+
+#Rule:HeadNoun-V
+r11therapy.aNNSmust.pills.maybeVBP
+
+#Rule:PPinNP
+r26helpNNofINtwo.surroundingsNNS
+
+#Rule:PPComboInVP
+r34must.pills.maybeVBPalongINcontrol.withNN
+r34must.pills.maybeVBPalongINhelpNN
+
+#lifestyle?
+#(S1 (FRAG (NP (NN lifestyle)) (. ?)))
+#Rule:Nouns
+r1lifestyleNN
+
+@lemmas-left	surroundings	help	control.with	other	lifestyle	therapy.self	must.pills.maybe	a	self	two.surroundings	therapy.a	
+@lemmas-right	surroundings	help	control.with	must.pills.maybe	two.surroundings	
+@lemmas-center	of	along	

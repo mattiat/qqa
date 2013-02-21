@@ -1,0 +1,38 @@
+#You need to contact the school superintendent if you have already spoken with the principal and he/she has done nothing.
+#(S1 (S (NP (PRP You)) (VP (AUX need) (S (VP (TO to) (VP (VB contact) (NP (DT the) (NN school) (NN superintendent)) (SBAR (IN if) (S (NP (PRP you)) (VP (AUX have) (ADVP (RB already)) (VP (VBN spoken) (SBAR (IN with) (S (NP (DT the) (NN principal) (CC and) (NN he/she)) (VP (AUX has) (VP (AUX done) (NP (NN nothing)))))))))))))) (. .)))
+#Rule:Nouns
+r1schoolNN
+r1superintendentNN
+r1principalNN
+r1he/sheOrganizationAnnotation
+r1nothingNN
+
+#Rule:Verbs
+r2contactVB
+r2spokenVBN
+
+#Rule:N-HeadNoun
+r8schoolNNsuperintendentNN
+
+#Rule:HeadNoun-V
+r11youPRPneedAUX
+r11principalNNdoneAUX
+
+#Rule:HeadNoun-V
+r12youPRPspokenVBN
+
+#Rule:V-HeadNoun
+r21contactVBsuperintendentNN
+r21doneAUXnothingNN
+
+#Rule:V-IN-V
+r43contactVBifINspokenVBN
+r43spokenVBNwithINdoneAUX
+
+#Rule:V-ADV
+r46haveAUXalreadyRB
+r46spokenVBNalreadyRB
+
+@lemmas-left	school	principal	have	done	speak	nothing	do	you	spoken	superintendent	contact	he/she	
+@lemmas-right	need	done	nothing	speak	spoken	do	already	superintendent	
+@lemmas-center	with	if	

@@ -1,0 +1,60 @@
+#Well there is no evidence that the big bang happend and if it did it must have been caused by somthing. 
+#(S1 (S (ADVP (RB Well)) (NP (EX there)) (VP (AUX is) (NP (DT no) (NN evidence) (SBAR (IN that) (S (S (NP (DT the) (JJ big) (NN bang)) (ADJP (JJ happend))) (CC and) (S (SBAR (IN if) (S (NP (PRP it)) (VP (AUX did)))) (NP (PRP it)) (VP (MD must) (VP (AUX have) (VP (AUX been) (VP (VBN caused) (PP (IN by) (S (VP (VBG somthing))))))))))))) (. .)))
+#Rule:Nouns
+r1evidenceNN
+r1bangNN
+
+#Rule:Verbs
+r2causedVBN
+r2somthingVBG
+
+#Rule:Adjs
+r4bigJJ
+r4happendJJ
+
+#Rule:Adj-Noun
+r5bigJJbangNN
+
+#Rule:HeadNoun-V
+r11thereEXisAUX
+r11itPRPdidAUX
+
+#Rule:V-HeadNoun
+r21isAUXevidenceNN
+
+#Rule:V-HeadNoun(passive)
+r23causedVBNitPRP
+
+#Rule:V-ADV
+r46isAUXWellLocationAnnotation
+
+#I think that it must have been God that created the big bang.
+#(S1 (S (NP (PRP I)) (VP (VBP think) (SBAR (IN that) (S (NP (PRP it)) (VP (MD must) (VP (AUX have) (VP (AUX been) (NP (NNP God)) (SBAR (WHNP (WDT that)) (S (VP (VBD created) (NP (DT the) (JJ big) (NN bang))))))))))) (. .)))
+#Rule:Nouns
+r1GodNNP
+r1bangNN
+
+#Rule:Verbs
+r2thinkVBP
+r2createdVBD
+
+#Rule:Adjs
+r4bigJJ
+
+#Rule:Adj-Noun
+r5bigJJbangNN
+
+#Rule:HeadNoun-V
+r11iPRPthinkVBP
+r11itPRPbeenAUX
+
+#Rule:V-HeadNoun
+r21beenAUXGodNNP
+r21createdVBDbangNN
+
+#Rule:V-IN-V
+r43thinkVBPthatINbeenAUX
+
+@lemmas-left	think	is	cause	it	god	evidence	happend	create	been	i	caused	created	there	God	big	bang	somthing	be	
+@lemmas-right	think	is	god	it	Well	evidence	God	did	do	been	bang	be	
+@lemmas-center	that	

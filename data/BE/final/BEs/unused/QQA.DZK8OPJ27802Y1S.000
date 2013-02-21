@@ -1,0 +1,18 @@
+#How do you build a wind vane?
+#(S1 (SBARQ (WHADVP (WRB How)) (SQ (AUX do) (NP (PRP you)) (VP (VB build) (NP (DT a) (NN wind) (NN vane)))) (. ?)))
+#Rule:Nouns
+r1windNN
+r1vaneNN
+
+#Rule:Verbs
+r2buildVB
+
+#Rule:N-HeadNoun
+r8windNNvaneNN
+
+#Rule:V-HeadNoun
+r21buildVBvaneNN
+
+@lemmas-left	vane	wind	build	
+@lemmas-right	vane	
+@lemmas-center	

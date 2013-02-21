@@ -1,0 +1,324 @@
+#Common sense is a matter of opinion. 
+#(S1 (S (NP (JJ Common) (NN sense)) (VP (AUX is) (NP (NP (DT a) (NN matter)) (PP (IN of) (NP (NN opinion))))) (. .)))
+#Rule:Nouns
+r1senseNN
+r1matterNN
+r1opinionNN
+
+#Rule:Adjs
+r4CommonJJ
+
+#Rule:Adj-Noun
+r5CommonJJsenseNN
+
+#Rule:HeadNoun-V
+r11senseNNisAUX
+
+#Rule:V-HeadNoun
+r21isAUXmatterNN
+
+#Rule:PPinNP
+r26matterNNofINopinionNN
+
+#Rule:IS-RULE
+r47matterNNsenseNN
+
+#Laws do exist. 
+#(S1 (S (NP (NNS Laws)) (VP (AUX do) (VP (VB exist))) (. .)))
+#Rule:Nouns
+r1LawsNNS
+
+#Rule:Verbs
+r2existVB
+
+#Rule:HeadNoun-V
+r11LawsNNSexistVB
+
+#There is a Law of Gravity. 
+#(S1 (S (NP (EX There)) (VP (AUX is) (NP (NP (DT a) (NN Law)) (PP (IN of) (NP (NN Gravity))))) (. .)))
+#Rule:Nouns
+r1LawPersonAnnotation
+r1GravityOrganizationAnnotation
+
+#Rule:HeadNoun-V
+r11thereEXisAUX
+
+#Rule:V-HeadNoun
+r21isAUXLawPersonAnnotation
+
+#Rule:PPinNP
+r26LawPersonAnnotationofINGravityOrganizationAnnotation
+
+#A law of Karma (A simple way of saying to every action there is an equal and opposite) Newton s Laws. 
+#(S1 (S (NP (NP (DT A) (NN law)) (PP (IN of) (NP (NNP Karma) (PRN (-LRB- -LRB-) (NP (NP (DT A) (JJ simple) (NN way)) (PP (IN of) (S (VP (VBG saying) (PP (TO to) (NP (DT every) (NN action))) (SBAR (S (NP (EX there)) (VP (AUX is) (NP (DT an) (ADJP (JJ equal) (CC and) (JJ opposite)))))))))) (-RRB- -RRB-)) (NNP Newton)))) (VP (VBZ s) (NP (NNS Laws))) (. .)))
+#Rule:Nouns
+r1lawNN
+r1KarmaOrganizationAnnotation
+r1wayNN
+r1actionNN
+r1Newton s LawsPersonAnnotation
+
+#Rule:Verbs
+r2sayingVBG
+
+#Rule:Adjs
+r4simpleJJ
+r4equalJJ
+r4oppositeJJ
+
+#Rule:Adj-Noun
+r5simpleJJwayNN
+r5oppositeJJequalJJ
+
+#Rule:HeadNoun-V
+r11lawNNNewton s LawsPersonAnnotation
+r11thereEXisAUX
+
+#Rule:V-HeadNoun
+r21isAUXequalJJ
+
+#Rule:PPinNP
+r26lawNNofINNewton s LawsPersonAnnotation
+
+#Rule:PPinVP
+r30sayingVBGtoTOactionNN
+
+#These things that cannot be changed. 
+#(S1 (S (NP (NP (DT These) (NNS things)) (SBAR (WHNP (WDT that)) (S (VP (VBP cannot))))) (VP (AUX be) (VP (VBN changed))) (. .)))
+#Rule:Nouns
+r1thingsNNS
+
+#Rule:Verbs
+r2cannotVBP
+r2changedVBN
+
+#Rule:HeadNoun-(who/that)-V
+r14thingsNNScannotVBP
+
+#Rule:V-HeadNoun(passive)
+r23changedVBNthingsNNS
+
+#Such is true. 
+#(S1 (S (NP (JJ Such)) (VP (AUX is) (ADJP (JJ true))) (. .)))
+#Rule:Adjs
+r4SuchJJ
+r4trueJJ
+
+#Rule:HeadNoun-V
+r11SuchJJisAUX
+
+#Rule:V-ADJ
+r25isAUXtrueJJ
+
+#I cannot bring myself to comprehend a law of good or a law of evil. 
+#(S1 (S (NP (PRP I)) (ADVP (RB cannot)) (VP (VBP bring) (NP (PRP myself)) (S (VP (TO to) (VP (VB comprehend) (NP (NP (NP (DT a) (NN law)) (PP (IN of) (NP (JJ good)))) (CC or) (NP (NP (DT a) (NN law)) (PP (IN of) (NP (NN evil))))))))) (. .)))
+#Rule:Nouns
+r1lawNN
+r1lawNN
+r1evilNN
+
+#Rule:Verbs
+r2bringVBP
+r2comprehendVB
+
+#Rule:Adjs
+r4goodJJ
+
+#Rule:HeadNoun-V
+r11iPRPbringVBP
+
+#Rule:V-HeadNoun
+r21bringVBPmyselfPRP
+r21comprehendVBlawNN
+
+#Rule:PPinNP
+r26lawNNofINgoodJJ
+r26lawNNofINevilNN
+
+#Rule:V-V
+r44bringVBPcomprehendVB
+
+#Rule:V-ADV
+r46bringVBPcannotRB
+
+#It seems by all logic completely subjective to me. 
+#(S1 (S (NP (PRP It)) (VP (VBZ seems) (PP (IN by) (NP (NP (DT all) (NN logic)) (ADJP (RB completely) (JJ subjective)))) (PP (TO to) (NP (PRP me)))) (. .)))
+#Rule:Nouns
+r1logicNN
+
+#Rule:Verbs
+r2seemsVBZ
+
+#Rule:Adjs
+r4subjectiveJJ
+
+#Rule:Adj-Noun
+r5subjectiveJJlogicNN
+
+#Rule:HeadNoun-V
+r11itPRPseemsVBZ
+
+#Rule:PPinVP
+r30seemsVBZbyINlogicNN
+r30seemsVBZtoTOmePRP
+
+#Similarly to trying to universally define the term Justice as a good thing rather than just a mechanism to a person or organization s own means.  
+#(S1 (S (S (ADVP (RB Similarly)) (VP (TO to) (VP (VBG trying) (S (VP (TO to) (ADVP (RB universally)) (VP (VB define) (NP (NP (NP (NP (DT the) (NN term)) (NP (NNP Justice))) (PP (IN as) (NP (NP (DT a) (JJ good) (NN thing)) (CONJP (RB rather) (IN than)) (NP (RB just) (DT a) (NN mechanism)))) (PP (TO to) (NP (DT a) (NN person)))) (CC or) (NP (NN organization))))))))) (VP (VBZ s) (NP (JJ own) (NNS means))) (. .)))
+#Rule:Nouns
+r1termNN
+r1JusticeOrganizationAnnotation
+r1thingNN
+r1mechanismNN
+r1personNN
+r1organizationNN
+r1meansNNS
+
+#Rule:Verbs
+r2tryingVBG
+r2defineVB
+r2sVBZ
+
+#Rule:Adjs
+r4goodJJ
+r4ownJJ
+
+#Rule:Adj-Noun
+r5goodJJthingNN
+r5ownJJmeansNNS
+
+#Rule:V-HeadNoun
+r21defineVBtermNN
+r21sVBZmeansNNS
+
+#Rule:PPinNP
+r26termNNasINthingNN
+r26termNNasINmechanismNN
+r26termNNtoTOpersonNN
+
+#Rule:V-V
+r44tryingVBGdefineVB
+
+#Rule:V-ADV
+r46defineVBuniversallyRB
+
+#In like kind, we do not have to believe the same way. 
+#(S1 (S (PP (IN In) (NP (JJ like) (NN kind))) (, ,) (NP (PRP we)) (VP (AUX do) (RB not) (VP (AUX have) (S (VP (TO to) (VP (VB believe) (NP (DT the) (JJ same) (NN way))))))) (. .)))
+#Rule:Nouns
+r1kindNN
+r1wayNN
+
+#Rule:Verbs
+r2believeVB
+
+#Rule:Adjs
+r4likeJJ
+r4sameJJ
+
+#Rule:Adj-Noun
+r5likeJJkindNN
+r5sameJJwayNN
+
+#Rule:HeadNoun-V
+r11wePRPhaveAUX
+
+#Rule:V-HeadNoun
+r21believeVBwayNN
+
+#Rule:PPinS
+r36doAUXinINkindNN
+
+#Rule:V-ADV
+r46doAUXnotRB
+
+#It s okay not to agree with everyone all of the time, it s a part of diversity and diversity is necessary to stimulate creativity. 
+#(S1 (S (S (NP (PRP It)) (VP (VBZ s) (ADJP (JJ okay) (S (RB not) (VP (TO to) (VP (VB agree) (PP (IN with) (NP (NN everyone))) (NP (NP (DT all)) (PP (IN of) (NP (DT the) (NN time)))))))))) (, ,) (S (NP (PRP it)) (VP (VBZ s) (NP (NP (DT a) (NN part)) (PP (IN of) (NP (NN diversity)))))) (CC and) (S (NP (NN diversity)) (VP (AUX is) (ADJP (JJ necessary) (S (VP (TO to) (VP (VB stimulate) (NP (NN creativity)))))))) (. .)))
+#Rule:Nouns
+r1everyoneNN
+r1timeNN
+r1partNN
+r1diversityNN
+r1diversityNN
+r1creativityNN
+
+#Rule:Verbs
+r2s okayLocationAnnotation
+r2agreeVB
+r2sVBZ
+r2stimulateVB
+
+#Rule:Adjs
+r4necessaryJJ
+
+#Rule:HeadNoun-V
+r11itPRPs okayLocationAnnotation
+r11itPRPsVBZ
+r11diversityNNisAUX
+
+#Rule:V-HeadNoun
+r21agreeVBallDT
+r21sVBZpartNN
+r21stimulateVBcreativityNN
+
+#Rule:V-ADJ
+r25isAUXnecessaryJJ
+
+#Rule:PPinNP
+r26allDTofINtimeNN
+r26partNNofINdiversityNN
+
+#Rule:PPinVP
+r30agreeVBwithINeveryoneNN
+
+#The need to have everyone believe as one themself believes would probably be more an issue than the semantics of any word meanings. 
+#(S1 (S (NP (NP (DT The) (NN need)) (SBAR (S (VP (TO to) (VP (AUX have) (NP (NN everyone))))))) (VP (VBP believe) (SBAR (IN as) (S (NP (CD one) (NN themself)) (VP (VBZ believes) (SBAR (S (VP (MD would) (ADVP (RB probably)) (VP (AUX be) (NP (NP (RBR more) (DT an) (NN issue)) (PP (IN than) (NP (NP (DT the) (NNS semantics)) (PP (IN of) (NP (DT any) (NN word) (NNS meanings)))))))))))))) (. .)))
+#Rule:Nouns
+r1needNN
+r1everyoneNN
+r1themselfNN
+r1issueNN
+r1semanticsNNS
+r1wordNN
+r1meaningsNNS
+
+#Rule:Verbs
+r2believeVBP
+r2believesVBZ
+
+#Rule:Adj-Noun
+r5oneCDthemselfNN
+
+#Rule:N-HeadNoun
+r8wordNNmeaningsNNS
+
+#Rule:HeadNoun-V
+r11needNNbelieveVBP
+r11themselfNNbelievesVBZ
+
+#Rule:HeadNoun-(who/that)-V
+r14needNNhaveAUX
+
+#Rule:V-HeadNoun
+r21haveAUXeveryoneNN
+r21beAUXissueNN
+
+#Rule:PPinNP
+r26issueNNthanINsemanticsNNS
+r26semanticsNNSofINmeaningsNNS
+
+#Rule:V-IN-V
+r43believeVBPasINbelievesVBZ
+
+#Rule:V-ADV
+r46beAUXprobablyRB
+
+#Enjoy yourself!
+#(S1 (S (VP (VB Enjoy) (NP (PRP yourself))) (. !)))
+#Rule:Verbs
+r2enjoyVB
+
+#Rule:V-HeadNoun
+r21enjoyVByourselfPRP
+
+@lemmas-left	need	person	meanings	change	mechanism	good	bring	same	themself	changed	Karma	time	semantics	action	laws	Newton s Laws	opinion	everyone	be	s okay	such	means	sense	Such	Justice	like	Laws	logic	say	subjective	word	own	evil	try	we	thing	saying	have	opposite	common	Gravity	simple	one	issue	way	Common	believe	creativity	trying	kind	seems	organization	do	Law	comprehend	believes	exist	all	law	define	diversity	is	it	matter	true	equal	enjoy	meaning	stimulate	cannot	seem	i	s	term	there	necessary	things	part	agree	
+@lemmas-right	person	meanings	mechanism	good	bring	themself	time	semantics	action	opinion	Newton s Laws	yourself	everyone	be	s okay	means	sense	logic	not	myself	evil	thing	Gravity	have	issue	way	believe	creativity	kind	seems	probably	me	comprehend	Law	exist	believes	all	law	define	is	diversity	matter	universally	true	equal	meaning	seem	cannot	s	term	necessary	things	part	
+@lemmas-center	to	of	with	than	as	by	in	

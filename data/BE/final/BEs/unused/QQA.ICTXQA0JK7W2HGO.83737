@@ -1,0 +1,24 @@
+#A very good question but unfortunately I have no answer.
+#(S1 (S (S (NP (DT A) (ADJP (RB very) (JJ good)) (NN question))) (CC but) (S (ADVP (RB unfortunately)) (NP (PRP I)) (VP (AUX have) (NP (DT no) (NN answer)))) (. .)))
+#Rule:Nouns
+r1questionNN
+r1answerNN
+
+#Rule:Adjs
+r4goodJJ
+
+#Rule:Adj-Noun
+r5goodJJquestionNN
+
+#Rule:HeadNoun-V
+r11iPRPhaveAUX
+
+#Rule:V-HeadNoun
+r21haveAUXanswerNN
+
+#Rule:V-ADV
+r46haveAUXunfortunatelyRB
+
+@lemmas-left	have	answer	good	question	i	
+@lemmas-right	unfortunately	have	answer	question	
+@lemmas-center	

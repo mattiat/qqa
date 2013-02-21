@@ -1,0 +1,17 @@
+#belief is hard
+#(S1 (S (NP (NN belief)) (VP (AUX is) (ADJP (JJ hard)))))
+#Rule:Nouns
+r1beliefNN
+
+#Rule:Adjs
+r4hardJJ
+
+#Rule:HeadNoun-V
+r11beliefNNisAUX
+
+#Rule:V-ADJ
+r25isAUXhardJJ
+
+@lemmas-left	is	belief	hard	be	
+@lemmas-right	is	hard	be	
+@lemmas-center	

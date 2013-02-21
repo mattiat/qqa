@@ -1,0 +1,179 @@
+#Go outside. Observe nature. Take in the scene and start jotting down thethings you notice - things you see, how it makes you feel, what you re thinking about as you look at the sky, or the grass, or the trees, or whatever. If you can t go outside, find a compelling nature photo and try to imagine yourself in the scene - what would it feel like? What would you see there? Why is it important??
+#(S1 (S (VP (VB Go) (S (NP (FW outside.)) (VP (VB Observe) (S (NP (FW nature.)) (VP (VP (VB Take) (PRT (RP in)) (NP (DT the) (NN scene))) (CC and) (VP (VB start) (S (VP (VBG jotting) (PRT (RP down)) (NP (NP (NNS thethings)) (SBAR (S (NP (PRP you)) (VP (VBP notice) (: -) (NP (NP (NNS things)) (SBAR (S (NP (PRP you)) (VP (VBP see) (, ,) (SBAR (WHADVP (WRB how)) (S (NP (PRP it)) (VP (VBZ makes) (S (NP (PRP you)) (VP (VBP feel) (, ,) (SBARQ (WHNP (WP what)) (SQ (NP (PRP you)) (VP (NNP re) (S (VP (VBG thinking) (PP (IN about) (SBAR (IN as) (S (NP (PRP you)) (VP (VBP look) (PP (IN at) (NP (NP (DT the) (NN sky)) (, ,) (CC or) (NP (DT the) (NN grass)) (, ,) (CC or) (NP (DT the) (NNS trees)) (, ,) (CC or) (NP (NN whatever.)))) (SBAR (IN If) (S (NP (PRP you)) (VP (MD can) (RB t) (VP (VB go) (S (ADVP (IN outside)) (, ,) (VP (VP (VB find) (NP (DT a) (JJ compelling) (NN nature) (NN photo))) (CC and) (VP (VB try) (S (VP (TO to) (VP (VB imagine) (NP (PRP yourself)) (PP (IN in) (NP (NP (DT the) (NN scene)) (: -) (SBARQ (WHNP (WP what)) (SQ (MD would) (NP (PRP it)) (VP (VBP feel) (SBAR (IN like) (X (. ?) (SBARQ (SBARQ (WHNP (WP What)) (SQ (MD would) (NP (PRP you)) (VP (VBP see) (NP (EX there)))) (. ?)) (WHADVP (WRB Why)) (SQ (AUX is) (NP (PRP it)) (ADJP (JJ important))) (. ?))))))))))))))))))))))))))))))))))))))))))))))))) (. ?)))
+#Rule:Nouns
+r1sceneNN
+r1thethingsNNS
+r1thingsNNS
+r1reNNP
+r1skyPersonAnnotation
+r1grassNN
+r1treesNNS
+r1whateverNN
+r1natureNN
+r1photoNN
+r1sceneNN
+
+#Rule:Verbs
+r2goVB
+r2observeVB
+r2startVB
+r2noticeVBP
+r2seeVBP
+r2makesVBZ
+r2feelVBP
+r2thinkingVBG
+r2lookVBP
+r2goVB
+r2findVB
+r2tryVB
+r2imagineVB
+r2feelVBP
+r2seeVBP
+
+#Rule:V-PRT
+r3takeVBinRP
+r3jottingVBGdownRP
+
+#Rule:Adjs
+r4compellingJJ
+r4importantJJ
+
+#Rule:Adj-Noun
+r5compellingJJphotoNN
+
+#Rule:N-HeadNoun
+r8natureNNphotoNN
+
+#Rule:HeadNoun-V
+r11outsideFWobserveVB
+r11natureFWtakeVB
+r11natureFWstartVB
+r11youPRPnoticeVBP
+r11youPRPseeVBP
+r11itPRPmakesVBZ
+r11youPRPfeelVBP
+r11youPRPlookVBP
+r11youPRPgoVB
+
+#Rule:NP(NP(z) SBAR(S(NP(x)VP(y))))
+r19seeVBPthingsNNS
+
+#Rule:V-HeadNoun
+r21takeVBsceneNN
+r21jottingVBGthethingsNNS
+r21noticeVBPthingsNNS
+r21findVBphotoNN
+r21imagineVByourselfPRP
+r21seeVBPthereEX
+
+#Rule:V-HeadNoun
+r22goVBoutsideFW
+r22observeVBnatureFW
+r22makesVBZyouPRP
+
+#Rule:PPinVP
+r30lookVBPatINskyPersonAnnotation
+r30lookVBPatINgrassNN
+r30lookVBPatINtreesNNS
+r30lookVBPatINwhateverNN
+r30imagineVBinINsceneNN
+
+#Rule:V-IN-V
+r43lookVBPifINgoVB
+
+#Rule:V-V
+r44goVBfindVB
+r44goVBtryVB
+r44tryVBimagineVB
+
+#In the meantime, read some great nature poetry - William Wordsworth s Tintern Abbey or William Cullen Bryan s Thanatopsis, for example. See how they use imagery to paint a picture in your mind. .Therefore let the moonShine on thee in thy solitary walk;And let the misty mountain-winds be freeTo blow against thee.
+#(S1 (S (PP (IN In) (NP (DT the) (NN meantime))) (, ,) (S (VP (VB read) (NP (DT some) (JJ great) (NN nature) (NN poetry)))) (PRN (: -) (S (NP (NP (NNP William) (NNP Wordsworth) (NNP s) (NNP Tintern) (NNP Abbey)) (CC or) (NP (NP (NNP William) (NNP Cullen) (NNP Bryan) (NNP s) (NNP Thanatopsis)) (, ,) (PP (IN for) (NP (FW example.))))) (VP (VB See) (SBAR (WHADVP (WRB how)) (S (NP (PRP they)) (VP (VBP use) (NP (NN imagery)) (S (VP (TO to) (VP (VB paint) (NP (DT a) (NN picture)) (PP (IN in) (NP (PRP$ your) (VBN mind.) (NN .Therefore) (S (VP (VB let) (NP (NP (DT the) (NN moonShine)) (PP (IN on) (NP (NN thee)))) (PP (IN in) (NP (JJ thy) (JJ solitary) (NN walk))))))))))))))) (: ;)) (CC And) (S (VP (VB let) (S (NP (DT the) (NN misty) (NNS mountain-winds)) (VP (AUX be) (NP (NP (JJ freeTo) (NN blow)) (PP (IN against) (NP (NN thee)))))))) (. .)))
+#Rule:Nouns
+r1meantimeNN
+r1natureNN
+r1poetryNN
+r1William WordsworthPersonAnnotation
+r1sNNP
+r1Tintern AbbeyOrganizationAnnotation
+r1William Cullen BryanPersonAnnotation
+r1sNNP
+r1ThanatopsisPersonAnnotation
+r1imageryNN
+r1pictureNN
+r1.ThereforeNN
+r1moonShine on theeOrganizationAnnotation
+r1walkNN
+r1mistyNN
+r1mountain-windsNNS
+r1blowNN
+r1theeOrganizationAnnotation
+
+#Rule:Verbs
+r2readVB
+r2seeVB
+r2useVBP
+r2paintVB
+r2mindVBN
+r2letVB
+r2letVB
+
+#Rule:Adjs
+r4greatJJ
+r4thyJJ
+r4solitaryJJ
+r4freeToJJ
+
+#Rule:Adj-Noun
+r5greatJJpoetryNN
+r5mindVBN.ThereforeNN
+r5thyJJwalkNN
+r5solitaryJJwalkNN
+r5freeToJJblowNN
+
+#Rule:PRP-Noun
+r6yourPRP$.ThereforeNN
+
+#Rule:N-HeadNoun
+r8natureNNpoetryNN
+r8sNNPTintern AbbeyOrganizationAnnotation
+r8William WordsworthPersonAnnotationTintern AbbeyOrganizationAnnotation
+r8sNNPThanatopsisPersonAnnotation
+r8William Cullen BryanPersonAnnotationThanatopsisPersonAnnotation
+r8mistyNNmountain-windsNNS
+
+#Rule:HeadNoun-V
+r11Tintern AbbeyOrganizationAnnotationseeVB
+r11ThanatopsisPersonAnnotationseeVB
+r11theyPRPuseVBP
+r11mountain-windsNNSbeAUX
+
+#Rule:V-HeadNoun
+r21readVBpoetryNN
+r21useVBPimageryNN
+r21paintVBpictureNN
+r21letVBmoonShine on theeOrganizationAnnotation
+r21beAUXblowNN
+
+#Rule:V-HeadNoun
+r22letVBmountain-windsNNS
+
+#Rule:PPinNP
+r26ThanatopsisPersonAnnotationforINexampleFW
+r26blowNNagainstINtheeOrganizationAnnotation
+
+#Rule:PPinVP
+r30paintVBinIN.ThereforeNN
+r30letVBinINwalkNN
+
+#Rule:PPinS
+r36readVBinINmeantimeNN
+
+#Rule:V-V
+r44useVBPpaintVB
+
+#Rule:IS-RULE
+r47blowNNmountain-windsNNS
+
+@lemmas-left	.Therefore	they	outside.	poetry	meantime	thy	sky	tree	nature	Thanatopsis	be	compelling	wind	think	imagine	grass	paint	picture	mind.	thinking	start	freeTo	freeto	scene	trees	.therefore	make	walk	thee	try	outside	mountain-winds	go	imagery	use	Tintern Abbey	re	jotting	read	mind	notice	thethings	jot	blow	misty	find	solitary	look	moonShine on thee	feel	it	let	William Cullen Bryan	makes	whatever	important	your	you	photo	William Wordsworth	great	see	s	observe	take	nature.	things	whatever.	
+@lemmas-right	.Therefore	outside.	poetry	meantime	sky	nature	tree	Thanatopsis	yourself	be	wind	imagine	grass	paint	picture	start	scene	trees	.therefore	example	make	walk	outside	try	thee	go	mountain-winds	imagery	use	Tintern Abbey	thethings	notice	blow	find	look	moonShine on thee	feel	makes	whatever	you	in	photo	see	observe	example.	take	nature.	there	things	down	whatever.	
+@lemmas-center	for	if	against	at	in	

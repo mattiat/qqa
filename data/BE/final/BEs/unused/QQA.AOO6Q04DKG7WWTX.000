@@ -1,0 +1,53 @@
+#How can Adrenal Fatigue be treated??
+#(S1 (SBARQ (WHADVP (WRB How)) (SQ (MD can) (NP (NNP Adrenal) (NNP Fatigue)) (VP (AUX be) (VP (VBN treated))) (. ?)) (. ?)))
+#Rule:Nouns
+r1AdrenalNNP
+r1FatigueNNP
+
+#Rule:Verbs
+r2treatedVBN
+
+#Rule:N-HeadNoun
+r8AdrenalNNPFatigueNNP
+
+#I think I have Adrenal Fatigue.  How is this treated?  Can detoxing my system regulate my Adrenal Glands?
+#(S1 (S (NP (PRP I)) (VP (VBP think) (SBAR (S (NP (PRP I)) (VP (AUX have) (NP (NNP Adrenal) (NNP Fatigue.)) (SBAR (WHADVP (WRB How)) (S (VP (AUX is) (SBAR (S (NP (NP (DT this)) (VP (VBN treated)) (. ?)) (VP (MD Can) (VP (VB detoxing) (S (NP (PRP$ my) (NN system)) (VP (VB regulate) (NP (PRP$ my) (NX (NNP Adrenal) (NNPS Glands)))))))))))))))) (. ?)))
+#Rule:Nouns
+r1AdrenalNNP
+r1Fatigue.  HowPersonAnnotation
+r1systemNN
+r1AdrenalNNP
+r1GlandsLocationAnnotation
+
+#Rule:Verbs
+r2thinkVBP
+r2treatedVBN
+r2detoxingVB
+r2regulateVB
+
+#Rule:PRP-Noun
+r6myPRP$systemNN
+r6myPRP$AdrenalNNP
+
+#Rule:N-HeadNoun
+r8AdrenalNNPFatigue.  HowPersonAnnotation
+
+#Rule:HeadNoun-V
+r11iPRPthinkVBP
+r11iPRPhaveAUX
+r11thisDTdetoxingVB
+r11systemNNregulateVB
+
+#Rule:V-HeadNoun
+r21haveAUXFatigue.  HowPersonAnnotation
+r21regulateVBAdrenalNNP
+
+#Rule:V-HeadNoun
+r22detoxingVBsystemNN
+
+#Rule:V-HeadNoun(passive)
+r24treatedVBNthisDT
+
+@lemmas-left	Fatigue.  How	think	Fatigue	have	detox	adrenal	my	fatigue	i	system	detoxing	Glands	treated	this	Adrenal	treat	regulate	
+@lemmas-right	detoxing	think	Fatigue.  How	system	Fatigue	have	detox	adrenal	this	fatigue	regulate	Adrenal	
+@lemmas-center	

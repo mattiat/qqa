@@ -1,0 +1,24 @@
+#why is most art not understood by people?
+#(S1 (SBARQ (WHADVP (WRB why)) (SQ (VP (AUX is) (NP (NP (RBS most) (NN art)) (VP (RB not) (VBN understood) (PP (IN by) (NP (NNS people))))))) (. ?)))
+#Rule:Nouns
+r1artNN
+r1peopleNNS
+
+#Rule:Verbs
+r2understoodVBN
+
+#Rule:V-By-Agent
+r13peopleNNSunderstoodVBN
+
+#Rule:V-HeadNoun
+r21isAUXartNN
+
+#Rule:V-HeadNoun(passive)
+r24understoodVBNartNN
+
+#Rule:V-ADV
+r46understoodVBNnotRB
+
+@lemmas-left	is	understand	understood	art	people	be	
+@lemmas-right	not	understand	understood	art	
+@lemmas-center	

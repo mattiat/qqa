@@ -1,0 +1,35 @@
+#They re powerful in nothing. 
+#(S1 (S (NP (PRP They)) (VP (NNP re) (NP (NP (JJ powerful)) (PP (IN in) (NP (NN nothing))))) (. .)))
+#Rule:Nouns
+r1reNNP
+r1nothingNN
+
+#Rule:Adjs
+r4powerfulJJ
+
+#Rule:PPinNP
+r26powerfulJJinINnothingNN
+
+#Germany marched through them with hardly a shot having been fired.
+#(S1 (S (NP (NNP Germany)) (VP (VBD marched) (PP (IN through) (NP (PRP them))) (PP (IN with) (NP (NP (RB hardly) (DT a) (NN shot)) (VP (AUXG having) (VP (AUX been) (VP (VBN fired))))))) (. .)))
+#Rule:Nouns
+r1GermanyLocationAnnotation
+r1shotNN
+
+#Rule:Verbs
+r2marchedVBD
+r2firedVBN
+
+#Rule:HeadNoun-V
+r11GermanyLocationAnnotationmarchedVBD
+
+#Rule:V-HeadNoun(passive)
+r23firedVBNshotNN
+
+#Rule:PPinVP
+r30marchedVBDthroughINthemPRP
+r30marchedVBDwithINshotNN
+
+@lemmas-left	fired	march	marched	nothing	Germany	re	shot	powerful	fire	
+@lemmas-right	march	them	marched	nothing	shot	
+@lemmas-center	with	through	in	

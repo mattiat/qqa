@@ -1,0 +1,81 @@
+#Check with you Oncologist.  I had a whole medicine cabinet of stuff that was just for the side effects.  Most side effects are controllable, but it may take some trial and error to find what works for you without causing more problems..
+#(S1 (S (VP (VB Check) (PP (IN with) (S (NP (PRP you)) (VP (NNP Oncologist.) (SBAR (S (NP (PRP I)) (VP (AUX had) (NP (NP (DT a) (JJ whole) (NN medicine) (NN cabinet)) (PP (IN of) (NP (NN stuff))) (SBAR (WHNP (WDT that)) (S (VP (AUX was) (ADVP (RB just)) (PP (IN for) (NP (DT the) (JJ side) (NN effects.) (S (S (NP (JJS Most) (NN side) (NNS effects)) (VP (AUX are) (ADJP (JJ controllable)))) (, ,) (CC but) (S (NP (PRP it)) (VP (MD may) (VP (VB take) (NP (DT some) (NN trial) (CC and) (NN error)) (S (VP (TO to) (VP (VB find) (SBAR (WHNP (WP what)) (S (VP (VBZ works) (PP (IN for) (NP (PRP you))) (PP (IN without) (S (VP (VBG causing) (NP (JJR more) (NNS problems)))))))))))))) (. .))))))))))))))) (. .)))
+#Rule:Nouns
+r1OncologistNNP
+r1medicineNN
+r1cabinetNN
+r1stuffNN
+r1effectsNN
+r1sideNN
+r1effectsNNS
+r1trialNN
+r1errorNN
+r1problemsNNS
+
+#Rule:Verbs
+r2checkVB
+r2takeVB
+r2findVB
+r2worksVBZ
+r2causingVBG
+
+#Rule:Adjs
+r4wholeJJ
+r4sideJJ
+r4MostJJS
+r4controllableJJ
+r4moreJJR
+
+#Rule:Adj-Noun
+r5wholeJJcabinetNN
+r5sideJJeffectsNN
+r5MostJJSeffectsNNS
+r5moreJJRproblemsNNS
+
+#Rule:N-HeadNoun
+r8medicineNNcabinetNN
+r8sideNNeffectsNNS
+
+#Rule:HeadNoun-V
+r11iPRPhadAUX
+r11effectsNNSareAUX
+r11itPRPtakeVB
+
+#Rule:HeadNoun-(who/that)-V
+r14cabinetNNwasAUX
+
+#Rule:V-HeadNoun
+r21hadAUXcabinetNN
+r21takeVBtrialNN
+r21causingVBGproblemsNNS
+
+#Rule:V-ADJ
+r25areAUXcontrollableJJ
+
+#Rule:PPinNP
+r26cabinetNNofINstuffNN
+
+#Rule:PPinVP
+r30wasAUXforINeffectsNN
+r30worksVBZforINyouPRP
+
+#Rule:V-V
+r44takeVBfindVB
+
+#Rule:V-ADV
+r46wasAUXjustRB
+
+#Best wishes!
+#(S1 (S (NP (JJS Best)) (VP (VBZ wishes)) (. !)))
+#Rule:Verbs
+r2wishesVBZ
+
+#Rule:Adjs
+r4BestJJS
+
+#Rule:HeadNoun-V
+r11BestJJSwishesVBZ
+
+@lemmas-left	causing	cause	wish	have	most	was	are	more	Best	side	oncologist.	best	medicine	trial	had	find	be	work	it	problems	check	error	wishes	effects.	cabinet	problem	effects	Most	works	i	stuff	Oncologist	take	whole	controllable	
+@lemmas-right	just	problems	wishes	wish	effects.	have	cabinet	you	effects	problem	was	are	stuff	take	controllable	trial	find	had	be	
+@lemmas-center	of	for	

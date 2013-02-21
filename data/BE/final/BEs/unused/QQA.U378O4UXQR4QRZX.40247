@@ -1,0 +1,42 @@
+#Perhaps God is preserving apes for evolution of future human beings after the third world war!
+#(S1 (S (NP (RB Perhaps) (NNP God)) (VP (AUX is) (VP (VBG preserving) (NP (NP (NNS apes)) (PP (IN for) (NP (NN evolution))) (PP (IN of) (NP (JJ future) (JJ human) (NNS beings)))) (PP (IN after) (NP (DT the) (JJ third) (NN world) (NN war))))) (. !)))
+#Rule:Nouns
+r1GodNNP
+r1apesNNS
+r1evolutionNN
+r1beingsNNS
+r1worldNN
+r1warNN
+
+#Rule:Verbs
+r2preservingVBG
+
+#Rule:Adjs
+r4futureJJ
+r4humanJJ
+r4thirdJJ
+
+#Rule:Adj-Noun
+r5futureJJbeingsNNS
+r5humanJJbeingsNNS
+r5thirdJJwarNN
+
+#Rule:N-HeadNoun
+r8worldNNwarNN
+
+#Rule:HeadNoun-V
+r11GodNNPpreservingVBG
+
+#Rule:V-HeadNoun
+r21preservingVBGapesNNS
+
+#Rule:PPinNP
+r26apesNNSforINevolutionNN
+r26apesNNSofINbeingsNNS
+
+#Rule:PPinVP
+r30preservingVBGafterINwarNN
+
+@lemmas-left	god	being	apes	beings	third	evolution	war	preserve	human	preserving	ape	future	God	world	
+@lemmas-right	preserving	ape	being	apes	beings	evolution	preserve	war	
+@lemmas-center	after	of	for	

@@ -1,0 +1,27 @@
+#it would put too many people out of work..
+#(S1 (S (NP (PRP it)) (VP (MD would) (VP (VB put) (NP (ADJP (RB too) (JJ many)) (NNS people)) (PP (IN out) (PP (IN of) (NP (NN work)))) (. .))) (. .)))
+#Rule:Nouns
+r1peopleNNS
+r1workNN
+
+#Rule:Verbs
+r2putVB
+
+#Rule:Adjs
+r4manyJJ
+
+#Rule:Adj-Noun
+r5manyJJpeopleNNS
+
+#Rule:HeadNoun-V
+r11itPRPputVB
+
+#Rule:V-HeadNoun
+r21putVBpeopleNNS
+
+#Rule:PPComboInVP
+r34putVBoutINworkNN
+
+@lemmas-left	many	work	it	put	people	
+@lemmas-right	work	put	people	
+@lemmas-center	out	

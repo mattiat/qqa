@@ -1,0 +1,20 @@
+#Why is the sky blue??
+#(S1 (SBARQ (WHADVP (WRB Why)) (SQ (AUX is) (NP (DT the) (NN sky)) (ADJP (JJ blue)) (. ?)) (. ?)))
+#Rule:Nouns
+r1skyNN
+
+#Rule:Adjs
+r4blueJJ
+
+#Need it for a school project
+#(S1 (SQ (AUX Need) (NP (PRP it)) (PP (IN for) (NP (DT a) (NN school) (NN project)))))
+#Rule:Nouns
+r1schoolNN
+r1projectNN
+
+#Rule:N-HeadNoun
+r8schoolNNprojectNN
+
+@lemmas-left	project	school	sky	blue	
+@lemmas-right	project	
+@lemmas-center	

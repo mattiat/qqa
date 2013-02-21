@@ -1,0 +1,75 @@
+BE: saltNN
+EQ class: saltyjj	
+
+BE: dietNN
+EQ class: dieteticaljj	dieteticjj	dietaryjj	
+
+BE: exerciseNN
+EQ class: workoutnn	physical_exercisenn	physical_exertionnn	exercisingnn	
+
+BE: dayNN
+EQ class: dailyjj	24-hour_intervalnn	twenty-four_hoursnn	twenty-four_hour_periodnn	mean_solar_daynn	solar_daynn	
+
+BE: trickNN
+EQ class: trickyjj	tricksyjj	fast_onenn	
+
+BE: cutVB
+EQ class: 
+
+BE: stressVB
+EQ class: punctuatevb	accentvb	accentuatevb	emphasizevb	emphasisevb	
+
+BE: lowJJ
+EQ class: lownessnn	
+
+BE: fatJJ
+EQ class: fatnessnn	fatnn	
+
+BE: possibleJJ
+EQ class: possiblenessnn	possibilitynn	
+
+BE: lowJJdietNN
+EQ class: lownessnndieteticaljj	lownessnndietaryjj	lowjjdieteticaljj	lownessnndietnn	lowjjdietaryjj	lownessnndieteticjj	lowjjdieteticjj	
+
+BE: fatJJdietNN
+EQ class: fatnessnndietnn	fatnndieteticjj	fatnndietaryjj	fatjjdieteticaljj	fatnndieteticaljj	fatjjdieteticjj	fatnessnndieteticjj	fatnessnndieteticaljj	fatnndietnn	fatjjdietaryjj	fatnessnndietaryjj	
+
+BE: saltNNdietNN
+EQ class: saltyjjdietaryjj	dietaryjjsaltyjj	saltnndietvb	dietaryjjsaltnn	dietnnofinsaltyjj	dietnnofinsaltnn	saltyjjdietvb	dieteticjjsaltnn	saltnndieteticaljj	dietnnsaltyjj	saltyjjdieteticjj	dietarynnofinsaltnn	dieternnofinsaltnn	dieteticjjofinsaltyjj	dietarynnofinsaltyjj	saltnndieteticjj	dietnnsaltnn	dieteticjjofinsaltnn	dieteticaljjofinsaltyjj	dieteticaljjsaltyjj	dieteticaljjsaltnn	dietingnnofinsaltnn	saltyjjdieteticaljj	dietaryjjofinsaltyjj	dieternnofinsaltyjj	saltyjjdietnn	dieteticaljjofinsaltnn	dieteticjjsaltyjj	dietaryjjofinsaltnn	saltnndietaryjj	dietingnnofinsaltyjj	
+
+BE: saltNNstressVB
+EQ class: saltnnemphasizevb	saltyjjpunctuatevb	accentnnofinsaltnn	saltnnemphasisevb	accentnnofinsaltyjj	saltyjjaccentvb	emphasisnnofinsaltnn	saltyjjemphasisevb	emphasisnnofinsaltyjj	saltyjjemphasizevb	stressnnofinsaltyjj	stressnnofinsaltnn	saltnnaccentuatevb	saltyjjstressvb	saltnnaccentvb	saltyjjaccentuatevb	saltnnpunctuatevb	
+
+BE: dietNNstressVB
+EQ class: dietaryjjemphasisevb	dietnnaccentuatevb	dieteticjjpunctuatevb	dieteticaljjaccentuatevb	emphasisnnofindieteticaljj	stressnnofindietaryjj	dietaryjjaccentuatevb	dieteticaljjstressvb	stressnnofindieteticjj	accentnnofindietnn	dieteticjjstressvb	dietnnpunctuatevb	accentnnofindietaryjj	dietaryjjemphasizevb	dietnnemphasisevb	emphasisnnofindietaryjj	dieteticaljjemphasisevb	accentnnofindieteticaljj	dieteticjjemphasizevb	accentnnofindieteticjj	dietnnemphasizevb	dietaryjjaccentvb	dieteticjjaccentvb	stressnnofindietnn	dietnnaccentvb	emphasisnnofindietnn	dietaryjjstressvb	stressnnofindieteticaljj	dietaryjjpunctuatevb	dieteticjjemphasisevb	dieteticjjaccentuatevb	dieteticaljjpunctuatevb	dieteticaljjaccentvb	dieteticaljjemphasizevb	emphasisnnofindieteticjj	
+
+BE: exerciseNNstressVB
+EQ class: workoutnnpunctuatevb	exercisennaccentuatevb	accentnnofinphysical_exertionnn	physical_exertionnnaccentuatevb	physical_exertionnnemphasisevb	emphasisnnofinworkoutnn	emphasisnnofinphysical_exertionnn	accentnnofinexercisingnn	physical_exercisennaccentuatevb	exercisingnnemphasisevb	accentnnofinexercisenn	emphasisnnofinexercisingnn	workoutnnemphasizevb	stressnnofinphysical_exertionnn	physical_exertionnnaccentvb	exercisennemphasizevb	physical_exercisennemphasisevb	exercisingnnaccentvb	workoutnnaccentvb	accentnnofinworkoutnn	exercisennpunctuatevb	physical_exertionnnpunctuatevb	accentnnofinphysical_exercisenn	emphasisnnofinphysical_exercisenn	physical_exercisennaccentvb	physical_exercisennpunctuatevb	exercisennaccentvb	workoutnnaccentuatevb	exercisingnnemphasizevb	physical_exercisennemphasizevb	stressnnofinexercisenn	physical_exertionnnstressvb	workoutnnemphasisevb	exercisennemphasisevb	emphasisnnofinexercisenn	stressnnofinworkoutnn	exercisingnnstressvb	physical_exercisennstressvb	physical_exertionnnemphasizevb	exercisingnnaccentuatevb	stressnnofinexercisingnn	stressnnofinphysical_exercisenn	exercisingnnpunctuatevb	workoutnnstressvb	
+
+BE: doAUXtrickNN
+EQ class: doauxfast_onenn	makeauxtrickyjj	doauxtrickyjj	doauxtricksyjj	makeauxtricknn	makeauxfast_onenn	makeauxtricksyjj	
+
+BE: cutVBonINsaltNN
+EQ class: cutvboninsaltyjj	
+
+BE: cutVBonINdietNN
+EQ class: cutvbonindietaryjj	cutvbonindieteticaljj	cutvbonindieteticjj	
+
+BE: cutVBonINexerciseNN
+EQ class: cutvboninphysical_exercisenn	cutvboninexercisingnn	cutvboninphysical_exertionnn	cutvboninworkoutnn	
+
+BE: cutVBonINdayNN
+EQ class: cutvboninmean_solar_daynn	cutvbonintwenty-four_hour_periodnn	cutvbonindailyjj	cutvbonin24-hour_intervalnn	cutvbonintwenty-four_hoursnn	cutvboninsolar_daynn	
+
+BE: cutVBotRB
+EQ class: stonecutternnofinotrb	cuttingnnofinotrb	film_editingnnofinotrb	cutternnofinotrb	
+
+BE: cutVBdownRB
+EQ class: film_editingnnofindownrb	cuttingnnofindownrb	stonecutternnofindownrb	cutternnofindownrb	
+
+BE: doAUXalsoRB
+EQ class: makeauxalsorb	
+
+BE: stressVBalsoRB
+EQ class: emphasisnnofinalsorb	accentvbalsorb	emphasizevbalsorb	accentuatevbalsorb	emphasisevbalsorb	punctuatevbalsorb	accentnnofinalsorb	stressnnofinalsorb	
+

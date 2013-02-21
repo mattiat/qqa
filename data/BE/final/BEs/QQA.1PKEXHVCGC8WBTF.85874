@@ -1,0 +1,82 @@
+#Love with attachment gives pain as well as pleasure. 
+#(S1 (S (NP (NP (NN Love)) (PP (IN with) (NP (NN attachment)))) (VP (VBZ gives) (NP (NP (NN pain)) (CONJP (RB as) (RB well) (IN as)) (NP (NN pleasure)))) (. .)))
+#Rule:Nouns
+r1LoveNN
+r1attachmentNN
+r1painNN
+r1pleasureNN
+
+#Rule:Verbs
+r2givesVBZ
+
+#Rule:HeadNoun-V
+r11LoveNNgivesVBZ
+
+#Rule:V-HeadNoun
+r21givesVBZpainNN
+
+#Rule:PPinNP
+r26LoveNNwithINattachmentNN
+
+#Develop a detached love which means love for whole humanity, with no expectation from them alone will not give any pain. 
+#(S1 (S (VP (VB Develop) (NP (NP (DT a) (VBN detached) (NN love)) (SBAR (WHNP (WDT which)) (S (VP (VBZ means) (SBAR (S (NP (NP (NN love)) (PP (IN for) (NP (NP (JJ whole) (NN humanity)) (, ,) (PP (IN with) (NP (NP (DT no) (NN expectation)) (PP (IN from) (NP (PRP them))) (ADVP (RB alone))))))) (VP (MD will) (RB not) (VP (VB give) (NP (DT any) (NN pain))))))))))) (. .)))
+#Rule:Nouns
+r1loveNN
+r1loveNN
+r1humanityNN
+r1expectationNN
+r1painNN
+
+#Rule:Verbs
+r2developVB
+r2detachedVBN
+r2meansVBZ
+r2giveVB
+
+#Rule:Adjs
+r4wholeJJ
+
+#Rule:Adj-Noun
+r5detachedVBNloveNN
+r5wholeJJhumanityNN
+
+#Rule:HeadNoun-V
+r11loveNNgiveVB
+
+#Rule:HeadNoun-(who/that)-V
+r14loveNNmeansVBZ
+
+#Rule:V-HeadNoun
+r21developVBloveNN
+r21giveVBpainNN
+
+#Rule:PPinNP
+r26loveNNforINhumanityNN
+r26humanityNNwithINexpectationNN
+r26expectationNNfromINthemPRP
+
+#You need to develop that detachment with a lot of practise.
+#(S1 (S (NP (PRP You)) (VP (AUX need) (S (VP (TO to) (VP (VB develop) (NP (DT that) (NN detachment)) (PP (IN with) (NP (NP (DT a) (NN lot)) (PP (IN of) (NP (NN practise))))))))) (. .)))
+#Rule:Nouns
+r1detachmentNN
+r1lotNN
+r1practiseNN
+
+#Rule:Verbs
+r2developVB
+
+#Rule:HeadNoun-V
+r11youPRPneedAUX
+
+#Rule:V-HeadNoun
+r21developVBdetachmentNN
+
+#Rule:PPinNP
+r26lotNNofINpractiseNN
+
+#Rule:PPinVP
+r30developVBwithINlotNN
+
+@lemmas-left	humanity	practise	detach	give	gives	expectation	means	pain	pleasure	you	attachment	detached	love	detachment	whole	lot	mean	develop	Love	
+@lemmas-right	need	humanity	practise	give	gives	expectation	means	pain	attachment	love	detachment	them	lot	mean	
+@lemmas-center	of	with	for	from	

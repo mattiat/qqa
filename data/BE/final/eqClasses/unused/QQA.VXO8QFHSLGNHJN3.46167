@@ -1,0 +1,1134 @@
+BE: periodNN
+EQ class: period_of_timenn	time_periodnn	
+
+BE: endNN
+EQ class: terminalnn	
+
+BE: RomanNNP
+EQ class: italian_capitalnn	romanjj	romenn	eternal_citynn	capital_of_italynn	romann	
+
+BE: ruleNN
+EQ class: regulationnn	
+
+BE: BritainLocationAnnotation
+EQ class: eecnn	common_marketnn	european_unionnn	europenn	ecnn	eunn	north_atlantic_treaty_organizationnn	european_communitynn	natonn	european_economic_communitynn	britannicjj	
+
+BE: establishmentNN
+EQ class: formationnn	constitutionnn	organizationnn	organisationnn	
+
+BE: Anglo-SaxonNNP
+EQ class: anglo-saxonjj	
+
+BE: Saxon kingdomLocationAnnotation
+EQ class: 
+
+BE: kingdoms..LocationAnnotation
+EQ class: kingdomslocationannotation	
+
+BE: knowVBP
+EQ class: cognizevbp	cognisevbp	
+
+BE: happenedVBD
+EQ class: passvbd	happenvbd	come_aboutvbd	occurvbd	go_onvbd	pass_offvbd	fall_outvbd	take_placevbd	hapvbd	
+
+BE: littleJJ
+EQ class: littlenessnn	smalljj	
+
+BE: Anglo-SaxonNNPSaxon kingdomLocationAnnotation
+EQ class: anglo-saxonjjsaxon kingdomlocationannotation	saxon kingdomlocationannotationofinanglo-saxonjj	saxon kingdomlocationannotationofinanglo-saxonnnp	
+
+BE: wePRPknowVBP
+EQ class: weprpcognizevbp	knowingnnweprp	knowernnweprp	apprehendernnofinweprp	knowingnnofinweprp	weprpcognisevbp	knowablennofinweprp	knowernnofinweprp	apprehendernnweprp	
+
+BE: knowVBPlittleJJ
+EQ class: cognizevbplittlenessnn	cognizevbplittlejj	knowingnnofinlittlejj	cognisevbplittlejj	knowvbplittlenessnn	cognisevbpsmalljj	knowernnofinsmalljj	knowingnnofinlittlenessnn	knowablennofinlittlenessnn	knowvbpsmalljj	knowingnnofinsmalljj	knowernnofinlittlejj	cognisevbplittlenessnn	cognizevbpsmalljj	apprehendernnofinsmalljj	apprehendernnofinlittlenessnn	knowablennofinlittlejj	apprehendernnofinlittlejj	knowernnofinlittlenessnn	knowablennofinsmalljj	
+
+BE: establishmentNNofINSaxon kingdomLocationAnnotation
+EQ class: saxon kingdomlocationannotationset_upvb	saxon kingdomlocationannotationestablishvb	saxon kingdomlocationannotationformationnn	saxon kingdomlocationannotationorganizationnn	formationnnofinsaxon kingdomlocationannotation	saxon kingdomlocationannotationestablishmentnn	launchvbsaxon kingdomlocationannotation	saxon kingdomlocationannotationorganisationnn	saxon kingdomlocationannotationlaunchvb	foundvbsaxon kingdomlocationannotation	organisationnnofinsaxon kingdomlocationannotation	set_upvbsaxon kingdomlocationannotation	establishvbsaxon kingdomlocationannotation	saxon kingdomlocationannotationconstitutionnn	organizationnnofinsaxon kingdomlocationannotation	saxon kingdomlocationannotationfoundvb	constitutionnnofinsaxon kingdomlocationannotation	
+
+BE: establishmentNNofINkingdoms..LocationAnnotation
+EQ class: organizationnnofinkingdoms..locationannotation	kingdoms..locationannotationfoundvb	organisationnnofinkingdomslocationannotation	launchvbkingdomslocationannotation	kingdoms..locationannotationorganisationnn	kingdoms..locationannotationconstitutionnn	set_upvbkingdomslocationannotation	kingdoms..locationannotationformationnn	kingdomslocationannotationlaunchvb	foundvbkingdomslocationannotation	formationnnofinkingdomslocationannotation	kingdoms..locationannotationorganizationnn	kingdomslocationannotationorganizationnn	set_upvbkingdoms..locationannotation	formationnnofinkingdoms..locationannotation	establishvbkingdoms..locationannotation	organisationnnofinkingdoms..locationannotation	kingdoms..locationannotationestablishmentnn	launchvbkingdoms..locationannotation	kingdoms..locationannotationestablishvb	kingdoms..locationannotationlaunchvb	kingdomslocationannotationset_upvb	kingdomslocationannotationfoundvb	kingdomslocationannotationconstitutionnn	constitutionnnofinkingdomslocationannotation	kingdoms..locationannotationset_upvb	kingdomslocationannotationestablishvb	organizationnnofinkingdomslocationannotation	establishmentnnofinkingdomslocationannotation	constitutionnnofinkingdoms..locationannotation	kingdomslocationannotationformationnn	kingdomslocationannotationorganisationnn	establishvbkingdomslocationannotation	foundvbkingdoms..locationannotation	kingdomslocationannotationestablishmentnn	
+
+BE: happenedVBDduringINperiodNN
+EQ class: go_onvbdduringinperiodnn	occurvbdduringinperiodnn	fall_outvbdduringinperiod_of_timenn	come_aboutvbdduringinperiodnn	hapvbdduringinperiodnn	passvbdduringintime_periodnn	pass_offvbdduringinperiod_of_timenn	happenedvbdduringinperiod_of_timenn	hapvbdduringintime_periodnn	go_onvbdduringinperiod_of_timenn	occurvbdduringintime_periodnn	occurvbdduringinperiod_of_timenn	fall_outvbdduringinperiodnn	passvbdduringinperiodnn	happenvbdduringinperiod_of_timenn	pass_offvbdduringinperiodnn	take_placevbdduringinperiod_of_timenn	hapvbdduringinperiod_of_timenn	fall_outvbdduringintime_periodnn	pass_offvbdduringintime_periodnn	take_placevbdduringinperiodnn	happenvbdduringinperiodnn	passvbdduringinperiod_of_timenn	take_placevbdduringintime_periodnn	happenedvbdduringintime_periodnn	happenvbdduringintime_periodnn	come_aboutvbdduringinperiod_of_timenn	go_onvbdduringintime_periodnn	come_aboutvbdduringintime_periodnn	
+
+BE: happenedVBDfromINendNN
+EQ class: fall_outvbdfrominterminalnn	take_placevbdfrominterminalnn	hapvbdfrominterminalnn	happenvbdfrominendnn	occurvbdfrominterminalnn	pass_offvbdfrominterminalnn	passvbdfrominendnn	take_placevbdfrominendnn	occurvbdfrominendnn	pass_offvbdfrominendnn	fall_outvbdfrominendnn	happenvbdfrominterminalnn	come_aboutvbdfrominendnn	come_aboutvbdfrominterminalnn	hapvbdfrominendnn	passvbdfrominterminalnn	go_onvbdfrominterminalnn	happenedvbdfrominterminalnn	go_onvbdfrominendnn	
+
+BE: recordsNNS
+EQ class: recordnns	theynns	themnns	
+
+BE: existVB
+EQ class: bevb	
+
+BE: fewJJ
+EQ class: fewnn	fewnessnn	
+
+BE: writtenJJ
+EQ class: 
+
+BE: trustworthyJJ
+EQ class: trustworthinessnn	trustyjj	
+
+BE: fewJJrecordsNNS
+EQ class: fewnnrecordsnns	fewnessnnrecordsnns	fewjjthemnns	fewnessnntheynns	fewnessnnthemnns	fewnnthemnns	fewnnrecordnns	fewnessnnrecordnns	fewjjrecordnns	fewnntheynns	fewjjtheynns	
+
+BE: writtenJJrecordsNNS
+EQ class: writtenjjtheynns	writtenjjrecordnns	writtenjjthemnns	
+
+BE: thereEXareAUX
+EQ class: thereexbeaux	
+
+BE: thoseDTexistVB
+EQ class: existentjjthosedt	thosedtbevb	beingnessnnthosedt	existencennthosedt	existentialjjofinthosedt	beingnnofinthosedt	existentnnofinthosedt	existencennofinthosedt	existentjjofinthosedt	beingnessnnofinthosedt	beingnnthosedt	existentialjjthosedt	
+
+BE: thoseDTareAUX
+EQ class: thosedtbeaux	
+
+BE: areAUXrecordsNNS
+EQ class: beauxrecordsnns	areauxrecordnns	beauxthemnns	areauxthemnns	beauxrecordnns	beauxtheynns	areauxtheynns	
+
+BE: areAUXtrustworthyJJ
+EQ class: beauxtrustworthinessnn	beauxtrustyjj	areauxtrustworthinessnn	beauxtrustworthyjj	areauxtrustyjj	
+
+BE: areAUXnotRB
+EQ class: beauxnotrb	
+
+BE: areAUXalwaysRB
+EQ class: beauxalwaysrb	
+
+BE: wordsNNS
+EQ class: theynns	themnns	
+
+BE: Dark AgesOrganizationAnnotation
+EQ class: 
+
+BE: nothingNN
+EQ class: cyphernn	zipponn	nilnn	aughtnn	nixnn	ciphernn	zipnn	goose_eggnn	zeronn	zilchnn	nullnn	nadann	naughtnn	
+
+BE: meansVBZ
+EQ class: meanvbz	intendvbz	
+
+BE: knowVBP
+EQ class: cognizevbp	cognisevbp	
+
+BE: happenedVBD
+EQ class: passvbd	happenvbd	come_aboutvbd	occurvbd	go_onvbd	pass_offvbd	fall_outvbd	take_placevbd	hapvbd	
+
+BE: littleJJ
+EQ class: littlenessnn	smalljj	
+
+BE: Dark AgesOrganizationAnnotationmeansVBZ
+EQ class: importnnofindark agesorganizationannotation	significationnnofindark agesorganizationannotation	significancennofindark agesorganizationannotation	dark agesorganizationannotationintendvbz	meaningnndark agesorganizationannotation	dark agesorganizationannotationmeanvbz	meaningnnofindark agesorganizationannotation	significationnndark agesorganizationannotation	significancenndark agesorganizationannotation	importnndark agesorganizationannotation	
+
+BE: wePRPknowVBP
+EQ class: weprpcognizevbp	knowingnnweprp	knowernnweprp	apprehendernnofinweprp	knowingnnofinweprp	weprpcognisevbp	knowablennofinweprp	knowernnofinweprp	apprehendernnweprp	
+
+BE: knowVBPlittleJJ
+EQ class: cognizevbplittlenessnn	cognizevbplittlejj	knowingnnofinlittlejj	cognisevbplittlejj	knowvbplittlenessnn	cognisevbpsmalljj	knowernnofinsmalljj	knowingnnofinlittlenessnn	knowablennofinlittlenessnn	knowvbpsmalljj	knowingnnofinsmalljj	knowernnofinlittlejj	cognisevbplittlenessnn	cognizevbpsmalljj	apprehendernnofinsmalljj	apprehendernnofinlittlenessnn	knowablennofinlittlejj	apprehendernnofinlittlejj	knowernnofinlittlenessnn	knowablennofinsmalljj	
+
+BE: meansVBZsimplyRB
+EQ class: simplenessnnininintendvbz	simplicitynnimportnn	meaningnnofinsimplyrb	simplenessnnsignificationnn	simplejjininimportnn	simplenessnnininimportnn	simplejjsignificancenn	simplenessnnininmeanvbz	simplicitynnininmeanvbz	intendvbzsimplyrb	simplicitynnsignificationnn	simplejjimportnn	importnnofinsimplyrb	simplicitynnininmeansvbz	simplenessnnininmeaningnn	simplenessnnininmeansvbz	simplejjininsignificancenn	simplicitynnininimportnn	simplejjsignificationnn	meanvbzsimplyrb	simplejjininmeansvbz	simplenessnnimportnn	simplicitynnininsignificationnn	simplejjininmeaningnn	simplicitynnsignificancenn	simplejjininsignificationnn	significancennofinsimplyrb	simplicitynnininsignificancenn	simplicitynnininintendvbz	simplenessnnsignificancenn	simplenessnnmeaningnn	simplejjininmeanvbz	simplicitynnininmeaningnn	simplenessnnininsignificancenn	significationnnofinsimplyrb	simplejjmeaningnn	simplicitynnmeaningnn	simplenessnnininsignificationnn	simplejjininintendvbz	
+
+BE: dayNN
+EQ class: dailyjj	24-hour_intervalnn	twenty-four_hoursnn	twenty-four_hour_periodnn	mean_solar_daynn	solar_daynn	
+
+BE: archeologyNN
+EQ class: archeologicaljj	archaeologynn	archeologicjj	
+
+BE: thingsNNS
+EQ class: theynns	themnns	
+
+BE: digsNNS
+EQ class: theynns	diggingsnns	themnns	
+
+BE: CanterburyOrganizationAnnotation
+EQ class: 
+
+BE: exampleNN
+EQ class: exemplaryjj	instancenn	illustrationnn	representativenn	
+
+BE: cityNN
+EQ class: urban_centernn	metropolisnn	
+
+BE: yearsNN
+EQ class: agenn	theynn	eldnn	old_agenn	themnn	geezerhoodnn	
+
+BE: recordNN
+EQ class: 
+
+BE: VillaNNP
+EQ class: doroteo_arangonnp	francisco_villannp	pancho_villannp	
+
+BE: burningsNNS
+EQ class: burningnns	combustionnns	theynns	themnns	
+
+BE: caseNN
+EQ class: instancenn	examplenn	
+
+BE: partsNNS
+EQ class: theynns	themnns	
+
+BE: BritainNNP
+EQ class: united_kingdomnnp	great_britainnnp	eecnn	europenn	eunn	european_communitynn	north_atlantic_treaty_organizationnn	european_economic_communitynn	britannicjj	u.k.nnp	european_unionnn	common_marketnn	ecnn	uknnp	united_kingdom_of_great_britain_and_northern_irelandnnp	natonn	
+
+BE: CeltsNNPS
+EQ class: keltnnps	celtnnps	celticjj	
+
+BE: CanterburyOrganizationAnnotation
+EQ class: 
+
+BE: putNN
+EQ class: put_optionnn	
+
+BE: DNANN
+EQ class: angstromnn	deoxyribonucleic_acidnn	angstrom_unitnn	d.n.a.nn	desoxyribonucleic_acidnn	ann	
+
+BE: testsNNS
+EQ class: tryoutnns	testnns	theynns	trialnns	trial_runnns	themnns	
+
+BE: KentOrganizationAnnotation
+EQ class: 
+
+BE: the South EastOrganizationAnnotation
+EQ class: 
+
+BE: dayNN
+EQ class: dailyjj	24-hour_intervalnn	twenty-four_hoursnn	twenty-four_hour_periodnn	mean_solar_daynn	solar_daynn	
+
+BE: populationNN
+EQ class: 
+
+BE: originNN
+EQ class: rootnn	beginningnn	sourcenn	rootagenn	
+
+BE: piecingVBG
+EQ class: patchvbg	piecevbg	
+
+BE: togetherVBD
+EQ class: 
+
+BE: showedVBD
+EQ class: demonstratevbd	presentvbd	exhibitvbd	showvbd	demovbd	
+
+BE: layVB
+EQ class: posevb	placevb	positionvb	putvb	setvb	
+
+BE: abandonedVBN
+EQ class: abandonvbn	
+
+BE: seemsVBZ
+EQ class: seemvbz	lookvbz	appearvbz	
+
+BE: liveVB
+EQ class: inhabitvb	populatevb	dwellvb	
+
+BE: stayedVBD
+EQ class: restvbd	stayvbd	remainvbd	
+
+BE: seemVBP
+EQ class: lookvbp	appearvbp	
+
+BE: pointVB
+EQ class: designatevb	showvb	indicatevb	
+
+BE: carriedVBNoutRP
+EQ class: carrynnofinoutrp	carryvbnoutrp	toternnofinoutrp	carriernnofinoutrp	transportvbnoutrp	bearernnofinoutrp	
+
+BE: PresentJJ
+EQ class: presentnn	presentnessnn	
+
+BE: RecentJJ
+EQ class: recencynn	recentnessnn	
+
+BE: Time-TeamJJ
+EQ class: 
+
+BE: otherJJ
+EQ class: 
+
+BE: southernJJ
+EQ class: 
+
+BE: likelyJJ
+EQ class: likelinessnn	
+
+BE: modernJJ
+EQ class: modernitynn	
+
+BE: presentJJ
+EQ class: presentnn	presentnessnn	
+
+BE: CelticJJ
+EQ class: celtnn	gaelicjj	celticnn	
+
+BE: PresentJJarcheologyNN
+EQ class: presentnnarcheologynn	presentnnarchaeologynn	archeologicalvbpresentlyrb	archeologistvbpresentlyrb	archeologicvbpresentlyrb	presentnnarcheologicaljj	presentjjarcheologicaljj	presentnessnnarcheologynn	presentjjarcheologicjj	presentnnarcheologicjj	presentnessnnarchaeologynn	presentnessnnarcheologicjj	presentjjarchaeologynn	presentnessnnarcheologicaljj	
+
+BE: RecentJJdigsNNS
+EQ class: recencynndiggingsnns	recentjjdiggingsnns	recencynntheynns	recentnessnnthemnns	recencynnthemnns	recencynndigsnns	recentjjthemnns	recentnessnntheynns	recentjjtheynns	recentnessnndiggingsnns	recentnessnndigsnns	
+
+BE: Time-TeamJJdigsNNS
+EQ class: time-teamjjdiggingsnns	time-teamjjthemnns	time-teamjjtheynns	
+
+BE: 300CDyearsNN
+EQ class: 3.0.0.cdold_agenn	300cdthemnn	300cdgeezerhoodnn	3.0.0.cdtheynn	3.0.0.cdagenn	3.0.0.cdgeezerhoodnn	300cdeldnn	300cdtheynn	3.0.0.cdthemnn	300cdold_agenn	3.0.0.cdyearsnn	3.0.0.cdeldnn	300cdagenn	
+
+BE: otherJJpartsNNS
+EQ class: otherjjtheynns	otherjjthemnns	
+
+BE: southernJJBritainNNP
+EQ class: southernjjeecnn	southernjju.k.nnp	southernjjbritannicjj	southernjjeuropean_unionnn	southernjjgreat_britainnnp	southernjjeuropean_communitynn	southernjjuknnp	southernjjunited_kingdom_of_great_britain_and_northern_irelandnnp	southernjjnatonn	southernjjeuropenn	southernjjnorth_atlantic_treaty_organizationnn	southernjjecnn	southernjjeunn	southernjjunited_kingdomnnp	southernjjeuropean_economic_communitynn	southernjjcommon_marketnn	
+
+BE: modernJJtestsNNS
+EQ class: modernjjtheynns	modernitynntrial_runnns	modernitynntestnns	modernitynntryoutnns	modernjjtrialnns	modernitynntheynns	modernjjthemnns	modernjjtryoutnns	modernitynntestsnns	modernitynntrialnns	modernitynnthemnns	modernjjtestnns	modernjjtrial_runnns	
+
+BE: presentJJpopulationNN
+EQ class: presentnessnnpopulationnn	livevbpresentlyrb	dwellvbpresentlyrb	presentnnpopulationnn	inhabitvbpresentlyrb	populatevbpresentlyrb	
+
+BE: dayNNarcheologyNN
+EQ class: archeologynnofinmean_solar_daynn	twenty-four_hour_periodnnarcheologistvb	solar_daynnarcheologicaljj	daynnarcheologicalvb	archeologicaljjofinsolar_daynn	twenty-four_hoursnnarcheologicaljj	archeologicaljjofinmean_solar_daynn	archeologistvb24-hour_intervalnn	solar_daynnarcheologynn	mean_solar_daynnarcheologynn	archeologicalvbdaynn	archeologicjjofin24-hour_intervalnn	archeologicjjofindaynn	archeologicalvbmean_solar_daynn	archeologicvbtwenty-four_hoursnn	solar_daynnarcheologicalvb	mean_solar_daynnarcheologicvb	archeologicjjofinsolar_daynn	archeologicvbsolar_daynn	archaeologynnofinmean_solar_daynn	mean_solar_daynnarcheologicalvb	archeologicvb24-hour_intervalnn	solar_daynnarcheologicvb	archeologicaljjofintwenty-four_hour_periodnn	archaeologynnofindaynn	twenty-four_hoursnnarchaeologynn	24-hour_intervalnnarcheologicaljj	solar_daynnarcheologicjj	archeologistvbsolar_daynn	archeologynnofinsolar_daynn	24-hour_intervalnnarcheologicjj	dailyjjarcheologistvb	archeologynnofindailyjj	archeologicjjofintwenty-four_hoursnn	daynnarcheologicjj	archeologicvbdaynn	mean_solar_daynnarcheologicjj	archaeologynnofintwenty-four_hoursnn	dailyjjarchaeologynn	archeologicjjofintwenty-four_hour_periodnn	archeologicjjofindailyjj	archeologicaljjofintwenty-four_hoursnn	archeologistvbtwenty-four_hoursnn	dailyjjarcheologynn	twenty-four_hour_periodnnarcheologynn	24-hour_intervalnnarcheologicvb	archeologynnofintwenty-four_hoursnn	daynnarcheologicvb	twenty-four_hour_periodnnarcheologicvb	archeologistvbmean_solar_daynn	archaeologynnofin24-hour_intervalnn	archeologicaljjofindaynn	archeologicalvbtwenty-four_hour_periodnn	archeologynnofindaynn	archeologicvbmean_solar_daynn	archeologicaljjofindailyjj	solar_daynnarchaeologynn	archeologistvbdailyjj	archeologicvbtwenty-four_hour_periodnn	24-hour_intervalnnarcheologicalvb	archeologistvbtwenty-four_hour_periodnn	twenty-four_hoursnnarcheologicvb	mean_solar_daynnarcheologicaljj	dailyjjarcheologicaljj	twenty-four_hour_periodnnarchaeologynn	mean_solar_daynnarchaeologynn	archeologicjjofinmean_solar_daynn	twenty-four_hoursnnarcheologynn	archeologynnofin24-hour_intervalnn	archeologicaljjofin24-hour_intervalnn	dailyjjarcheologicalvb	mean_solar_daynnarcheologistvb	twenty-four_hour_periodnnarcheologicaljj	24-hour_intervalnnarcheologistvb	archaeologynnofintwenty-four_hour_periodnn	twenty-four_hour_periodnnarcheologicalvb	dailyjjarcheologicvb	archeologicvbdailyjj	daynnarcheologicaljj	archeologicalvb24-hour_intervalnn	daynnarchaeologynn	twenty-four_hoursnnarcheologistvb	archeologynnofintwenty-four_hour_periodnn	archaeologynnofindailyjj	archeologicalvbdailyjj	archeologicalvbtwenty-four_hoursnn	dailyjjarcheologicjj	archeologicalvbsolar_daynn	24-hour_intervalnnarchaeologynn	archaeologynnofinsolar_daynn	twenty-four_hour_periodnnarcheologicjj	twenty-four_hoursnnarcheologicalvb	daynnarcheologistvb	twenty-four_hoursnnarcheologicjj	24-hour_intervalnnarcheologynn	archeologistvbdaynn	solar_daynnarcheologistvb	
+
+BE: VillaNNPburningsNNS
+EQ class: combustionnnsofinpancho_villannp	villannpthemnns	francisco_villannpcombustionnns	burningnnsofinfrancisco_villannp	burningsnnsofindoroteo_arangonnp	themnnsofinpancho_villannp	doroteo_arangonnptheynns	themnnsofindoroteo_arangonnp	francisco_villannpburningnns	villannpcombustionnns	burningsnnsofinfrancisco_villannp	themnnsofinvillannp	burningnnsofindoroteo_arangonnp	pancho_villannpthemnns	burningnnsofinvillannp	theynnsofindoroteo_arangonnp	francisco_villannptheynns	burningnnsofinpancho_villannp	pancho_villannptheynns	villannptheynns	theynnsofinvillannp	pancho_villannpburningnns	pancho_villannpcombustionnns	combustionnnsofindoroteo_arangonnp	doroteo_arangonnpburningsnns	doroteo_arangonnpthemnns	burningsnnsofinpancho_villannp	francisco_villannpburningsnns	combustionnnsofinfrancisco_villannp	francisco_villannpthemnns	pancho_villannpburningsnns	theynnsofinpancho_villannp	themnnsofinfrancisco_villannp	villannpburningnns	burningsnnsofinvillannp	theynnsofinfrancisco_villannp	combustionnnsofinvillannp	doroteo_arangonnpcombustionnns	doroteo_arangonnpburningnns	
+
+BE: DNANNtestsNNS
+EQ class: angstrom_unitnntrial_runnns	trial_runnnsofinangstromnn	testsnnsofinann	anntestsnns	provevbdeoxyribonucleic_acidnn	testvbdnann	theynnsofindnann	testnnsofindeoxyribonucleic_acidnn	d.n.a.nntryoutnns	themnnsofindeoxyribonucleic_acidnn	angstrom_unitnntestvb	angstromnnessayvb	examinevbd.n.a.nn	deoxyribonucleic_acidnntrialnns	provevbdnann	d.n.a.nntryvb	d.n.a.nnthemnns	desoxyribonucleic_acidnntryvb	angstrom_unitnnexaminevb	tryvbdnann	deoxyribonucleic_acidnntestvb	trial_runnnsofindesoxyribonucleic_acidnn	tryvbdeoxyribonucleic_acidnn	desoxyribonucleic_acidnntestnns	try_outvbdeoxyribonucleic_acidnn	try_outvbdnann	d.n.a.nntestsnns	d.n.a.nnprovevb	trialnnsofinangstrom_unitnn	anntry_outvb	deoxyribonucleic_acidnnexaminevb	anntestvb	theynnsofindeoxyribonucleic_acidnn	angstrom_unitnntrialnns	theynnsofinangstrom_unitnn	theynnsofind.n.a.nn	dnanntryoutnns	angstrom_unitnntry_outvb	examinevbann	anntryoutnns	essayvbangstrom_unitnn	testnnsofindnann	desoxyribonucleic_acidnntestvb	themnnsofindnann	tryvbangstrom_unitnn	provevbann	angstromnnthemnns	dnanntheynns	angstromnntestnns	testnnsofinangstromnn	try_outvbd.n.a.nn	trialnnsofindeoxyribonucleic_acidnn	testsnnsofindnann	themnnsofinangstromnn	trialnnsofinann	angstromnntestvb	dnanntry_outvb	themnnsofinangstrom_unitnn	trialnnsofindnann	d.n.a.nntestvb	testsnnsofindesoxyribonucleic_acidnn	essayvbangstromnn	anntrial_runnns	desoxyribonucleic_acidnnthemnns	desoxyribonucleic_acidnntheynns	trialnnsofinangstromnn	essayvbd.n.a.nn	testvbdeoxyribonucleic_acidnn	testvbd.n.a.nn	theynnsofinann	d.n.a.nntrial_runnns	deoxyribonucleic_acidnntryoutnns	essayvbdnann	essayvbann	examinevbdeoxyribonucleic_acidnn	deoxyribonucleic_acidnntryvb	testvbangstrom_unitnn	deoxyribonucleic_acidnntheynns	deoxyribonucleic_acidnnthemnns	testsnnsofindeoxyribonucleic_acidnn	angstromnntrial_runnns	try_outvbdesoxyribonucleic_acidnn	trial_runnnsofinann	dnanntrialnns	desoxyribonucleic_acidnnexaminevb	dnanntrial_runnns	deoxyribonucleic_acidnntestnns	testnnsofindesoxyribonucleic_acidnn	angstromnntryoutnns	annprovevb	tryoutnnsofinann	d.n.a.nntry_outvb	angstrom_unitnnthemnns	deoxyribonucleic_acidnnessayvb	angstromnnprovevb	d.n.a.nntrialnns	angstrom_unitnnprovevb	angstrom_unitnnessayvb	angstrom_unitnntryoutnns	trialnnsofindesoxyribonucleic_acidnn	try_outvbann	testvbangstromnn	testsnnsofinangstrom_unitnn	tryoutnnsofinangstrom_unitnn	angstromnntryvb	anntrialnns	angstromnntrialnns	trial_runnnsofindeoxyribonucleic_acidnn	trialnnsofind.n.a.nn	deoxyribonucleic_acidnntry_outvb	desoxyribonucleic_acidnntryoutnns	desoxyribonucleic_acidnntrial_runnns	dnannessayvb	trial_runnnsofindnann	angstrom_unitnntryvb	annexaminevb	d.n.a.nnexaminevb	testnnsofinann	deoxyribonucleic_acidnnprovevb	tryoutnnsofindnann	angstromnntry_outvb	deoxyribonucleic_acidnntestsnns	provevbdesoxyribonucleic_acidnn	try_outvbangstrom_unitnn	anntryvb	examinevbangstrom_unitnn	tryoutnnsofindesoxyribonucleic_acidnn	themnnsofinann	angstrom_unitnntestsnns	themnnsofindesoxyribonucleic_acidnn	desoxyribonucleic_acidnnessayvb	trial_runnnsofinangstrom_unitnn	tryoutnnsofindeoxyribonucleic_acidnn	angstromnnexaminevb	tryvbangstromnn	dnanntestvb	anntheynns	essayvbdesoxyribonucleic_acidnn	testsnnsofind.n.a.nn	testvbann	theynnsofinangstromnn	tryvbann	d.n.a.nntheynns	testnnsofinangstrom_unitnn	desoxyribonucleic_acidnntrialnns	dnanntryvb	trial_runnnsofind.n.a.nn	essayvbdeoxyribonucleic_acidnn	angstromnntheynns	annthemnns	angstrom_unitnntestnns	desoxyribonucleic_acidnntestsnns	try_outvbangstromnn	provevbangstromnn	d.n.a.nnessayvb	examinevbdesoxyribonucleic_acidnn	dnannprovevb	angstrom_unitnntheynns	examinevbangstromnn	tryvbd.n.a.nn	testvbdesoxyribonucleic_acidnn	angstromnntestsnns	tryoutnnsofind.n.a.nn	tryvbdesoxyribonucleic_acidnn	examinevbdnann	dnannexaminevb	d.n.a.nntestnns	dnannthemnns	provevbd.n.a.nn	testnnsofind.n.a.nn	themnnsofind.n.a.nn	dnanntestnns	deoxyribonucleic_acidnntrial_runnns	theynnsofindesoxyribonucleic_acidnn	desoxyribonucleic_acidnntry_outvb	anntestnns	testsnnsofinangstromnn	desoxyribonucleic_acidnnprovevb	annessayvb	tryoutnnsofinangstromnn	provevbangstrom_unitnn	
+
+BE: dayNNpopulationNN
+EQ class: 24-hour_intervalnnlivevb	mean_solar_daynnlivevb	populationnnofintwenty-four_hoursnn	populationnnofinmean_solar_daynn	twenty-four_hour_periodnndwellvb	mean_solar_daynninhabitvb	twenty-four_hoursnnpopulationnn	populatevb24-hour_intervalnn	daynndwellvb	daynnlivevb	inhabitvbtwenty-four_hoursnn	livevbtwenty-four_hour_periodnn	populatevbdailyjj	twenty-four_hoursnnpopulatevb	populationnnofindaynn	solar_daynnlivevb	24-hour_intervalnndwellvb	dailyjjpopulatevb	populatevbmean_solar_daynn	solar_daynnpopulatevb	populatevbtwenty-four_hoursnn	dwellvbdailyjj	24-hour_intervalnnpopulatevb	populationnnofinsolar_daynn	livevbsolar_daynn	populationnnofindailyjj	inhabitvb24-hour_intervalnn	inhabitvbtwenty-four_hour_periodnn	dwellvbsolar_daynn	twenty-four_hour_periodnnpopulatevb	dwellvbtwenty-four_hoursnn	mean_solar_daynndwellvb	twenty-four_hour_periodnnlivevb	daynnpopulatevb	twenty-four_hoursnninhabitvb	dwellvbdaynn	livevbtwenty-four_hoursnn	twenty-four_hoursnndwellvb	livevbdaynn	solar_daynnpopulationnn	dailyjjdwellvb	24-hour_intervalnninhabitvb	mean_solar_daynnpopulationnn	populatevbtwenty-four_hour_periodnn	mean_solar_daynnpopulatevb	livevb24-hour_intervalnn	livevbmean_solar_daynn	livevbdailyjj	solar_daynninhabitvb	twenty-four_hour_periodnnpopulationnn	24-hour_intervalnnpopulationnn	populatevbsolar_daynn	twenty-four_hour_periodnninhabitvb	inhabitvbmean_solar_daynn	dailyjjinhabitvb	inhabitvbdailyjj	dwellvbmean_solar_daynn	dailyjjlivevb	inhabitvbsolar_daynn	daynninhabitvb	inhabitvbdaynn	populationnnofintwenty-four_hour_periodnn	dailyjjpopulationnn	solar_daynndwellvb	dwellvb24-hour_intervalnn	twenty-four_hoursnnlivevb	populatevbdaynn	populationnnofin24-hour_intervalnn	dwellvbtwenty-four_hour_periodnn	
+
+BE: archeologyNNpiecingVBG
+EQ class: archaeologynnpatchvbg	piecennofinarchaeologynn	piecennofinarcheologynn	archeologynnpiecevbg	archeologynnpatchvbg	archeologicaljjpiecingvbg	archeologicjjpiecevbg	archeologicaljjpiecevbg	archaeologynnpiecevbg	piecennofinarcheologicjj	piecennofinarcheologicaljj	archeologicjjpiecingvbg	archaeologynnpiecingvbg	archeologicaljjpatchvbg	archeologicjjpatchvbg	
+
+BE: thingsNNStogetherVBD
+EQ class: theynnstogethervbd	themnnstogethervbd	
+
+BE: digsNNSshowedVBD
+EQ class: showingnntheynns	digsnnsshowvbd	shownnofindiggingsnns	showyjjofintheynns	digsnnsexhibitvbd	showingnndigsnns	viewingnnthemnns	viewingnntheynns	showingnndiggingsnns	digsnnspresentvbd	theynnspresentvbd	showingnnofinthemnns	screeningnnofindiggingsnns	themnnspresentvbd	viewingnnofindiggingsnns	viewingnnofindigsnns	screeningnntheynns	themnnsdemovbd	diggingsnnsdemovbd	showingnnthemnns	screeningnnthemnns	screeningnndiggingsnns	theynnsdemonstratevbd	showingnnofindigsnns	theynnsdemovbd	theynnsexhibitvbd	showingnnofintheynns	screeningnnofindigsnns	diggingsnnsdemonstratevbd	viewingnndiggingsnns	viewingnnofinthemnns	diggingsnnsshowvbd	showyjjofindigsnns	shownnofintheynns	shownnofindigsnns	showyjjofindiggingsnns	viewingnndigsnns	diggingsnnsexhibitvbd	screeningnnofinthemnns	diggingsnnsshowedvbd	screeningnnofintheynns	themnnsexhibitvbd	themnnsdemonstratevbd	theynnsshowvbd	digsnnsdemovbd	viewingnnofintheynns	themnnsshowedvbd	showingnnofindiggingsnns	theynnsshowedvbd	screeningnndigsnns	digsnnsdemonstratevbd	showyjjofinthemnns	shownnofinthemnns	themnnsshowvbd	diggingsnnspresentvbd	
+
+BE: cityNNlayVB
+EQ class: urban_centernnpositionvb	citynnsetvb	urban_centernnplacevb	metropolisnnposevb	urban_centernnlayvb	metropolisnnsetvb	citynnplacevb	urban_centernnposevb	citynnpositionvb	metropolisnnputvb	metropolisnnplacevb	citynnposevb	urban_centernnsetvb	metropolisnnpositionvb	citynnputvb	urban_centernnputvb	metropolisnnlayvb	
+
+BE: thereEXisAUX
+EQ class: thereexbeaux	
+
+BE: CeltsNNPSstayedVBD
+EQ class: celticjjstayvbd	celticjjrestvbd	celticjjremainvbd	staynnofincelticjj	keltnnpsstayedvbd	staynnofinkeltnnps	celtnnpsstayedvbd	staynnofinceltnnps	celticjjstayedvbd	celtnnpsstayvbd	celtsnnpsrestvbd	staynnofinceltsnnps	celtsnnpsremainvbd	celtsnnpsstayvbd	keltnnpsrestvbd	celtnnpsrestvbd	celtnnpsremainvbd	keltnnpsremainvbd	keltnnpsstayvbd	
+
+BE: testsNNSseemVBP
+EQ class: testsnnslookvbp	trialnnslookvbp	tryoutnnslookvbp	testsnnsappearvbp	tryoutnnsappearvbp	tryoutnnsseemvbp	themnnslookvbp	themnnsseemvbp	testnnsseemvbp	trialnnsseemvbp	testnnslookvbp	theynnsseemvbp	trial_runnnsappearvbp	trial_runnnslookvbp	trialnnsappearvbp	testnnsappearvbp	theynnslookvbp	themnnsappearvbp	trial_runnnsseemvbp	theynnsappearvbp	
+
+BE: CeltsNNPSliveVB
+EQ class: liveryjjofincelticjj	livablennofinceltsnnps	livernnofinkeltnnps	liveryjjofinceltsnnps	celtnnpspopulatevb	livablennofinceltnnps	celtnnpsdwellvb	livernnofinceltnnps	celticjjdwellvb	liveryjjofinceltnnps	liveryjjofinkeltnnps	liveablennofinceltnnps	keltnnpsdwellvb	livernnceltsnnps	celticjjinhabitvb	liveablennofinkeltnnps	livernncelticjj	livablennofincelticjj	liveablennofincelticjj	livernnceltnnps	liveryjjkeltnnps	livernnofincelticjj	celticjjpopulatevb	celtnnpsinhabitvb	livernnofinceltsnnps	celticjjlivevb	liveablennofinceltsnnps	celtsnnpspopulatevb	keltnnpslivevb	liveryjjcelticjj	liveryjjceltnnps	celtnnpslivevb	keltnnpsinhabitvb	celtsnnpsdwellvb	keltnnpspopulatevb	liveryjjceltsnnps	livernnkeltnnps	livablennofinkeltnnps	celtsnnpsinhabitvb	
+
+BE: populationNNisAUX
+EQ class: populationnnbeaux	
+
+BE: isAUXrecordNN
+EQ class: beauxrecordnn	
+
+BE: isAUXcaseNN
+EQ class: beauxexamplenn	isauxinstancenn	beauxcasenn	isauxexamplenn	beauxinstancenn	
+
+BE: stayedVBDputNN
+EQ class: staynnofinputnn	stayedvbdput_optionnn	restvbdput_optionnn	restvbdputnn	remainvbdput_optionnn	stayvbdputnn	stayvbdput_optionnn	remainvbdputnn	staynnofinput_optionnn	
+
+BE: carriedVBNtestsNNS
+EQ class: toternnofinthemnns	carriedvbnthemnns	carrynnofinthemnns	carrynnofintestnns	carryvbntrial_runnns	carriernnofintrialnns	carriedvbntrialnns	carriernnofintestsnns	carriedvbntrial_runnns	carryvbntheynns	toternnofintrial_runnns	transportvbntrial_runnns	carriernnofintrial_runnns	bearernnofintheynns	toternnofintestnns	bearernnofintrial_runnns	carryvbnthemnns	bearernnofintestsnns	carriernnofintestnns	carriedvbntryoutnns	transportvbntestsnns	carriernnofinthemnns	transportvbntryoutnns	carrynnofintryoutnns	carryvbntestnns	carriernnofintheynns	toternnofintryoutnns	bearernnofintestnns	carrynnofintrialnns	carryvbntryoutnns	toternnofintheynns	carrynnofintheynns	bearernnofintryoutnns	carriedvbntestnns	toternnofintestsnns	transportvbntestnns	carrynnofintrial_runnns	toternnofintrialnns	transportvbntrialnns	transportvbntheynns	bearernnofintrialnns	carriernnofintryoutnns	carriedvbntheynns	bearernnofinthemnns	carrynnofintestsnns	transportvbnthemnns	carryvbntrialnns	carryvbntestsnns	
+
+BE: isAUXCelticJJ
+EQ class: isauxgaelicjj	beauxceltnn	isauxceltnn	beauxcelticjj	beauxgaelicjj	isauxcelticnn	beauxcelticnn	
+
+BE: digsNNSatINCanterburyOrganizationAnnotation
+EQ class: themnnsatincanterburyorganizationannotation	canterburyorganizationannotationtheynns	diggingsnnsatincanterburyorganizationannotation	canterburyorganizationannotationthemnns	canterburyorganizationannotationdiggingsnns	theynnsatincanterburyorganizationannotation	canterburyorganizationannotationdigsnns	
+
+BE: recordNNofINburningsNNS
+EQ class: entervbthemnns	burningnnsrecordvb	recordnnofinburningnns	theynnsrecordnn	burningnnsput_downvb	recordvbburningsnns	recordnnofintheynns	recordvbburningnns	burningsnnsput_downvb	theynnsput_downvb	put_downvbtheynns	entervbburningnns	burningnnsrecordnn	recordvbcombustionnns	themnnsrecordnn	combustionnnsput_downvb	theynnsentervb	combustionnnsrecordnn	recordnnofincombustionnns	recordnnofinthemnns	entervbburningsnns	burningsnnsrecordvb	combustionnnsrecordvb	entervbcombustionnns	combustionnnsentervb	recordvbthemnns	theynnsrecordvb	themnnsentervb	themnnsrecordvb	recordvbtheynns	burningsnnsrecordnn	burningsnnsentervb	put_downvbcombustionnns	put_downvbburningsnns	entervbtheynns	themnnsput_downvb	put_downvbthemnns	put_downvbburningnns	burningnnsentervb	
+
+BE: caseNNinINpartsNNS
+EQ class: partsnnscasenn	partsnnsexamplenn	theynnscasenn	instancennininpartsnns	examplennininpartsnns	casenninintheynns	partsnnsinstancenn	theynnsinstancenn	themnnsinstancenn	themnnscasenn	examplenninintheynns	casennininthemnns	theynnsexamplenn	instancenninintheynns	examplennininthemnns	themnnsexamplenn	instancennininthemnns	
+
+BE: partsNNSofINBritainNNP
+EQ class: theynnsofineuropean_communitynn	european_economic_communitynnpartsnns	themnnsofineecnn	themnnsofincommon_marketnn	european_unionnntheynns	european_communitynntheynns	partsnnsofineecnn	european_unionnnthemnns	european_communitynnpartsnns	theynnsofineunn	partsnnsofineunn	u.k.nnptheynns	themnnsofinnatonn	themnnsofinunited_kingdomnnp	ecnnpartsnns	eunnthemnns	britainnnpthemnns	theynnsofinecnn	theynnsofinuknnp	natonnpartsnns	themnnsofineuropean_unionnn	united_kingdomnnppartsnns	theynnsofincommon_marketnn	european_communitynnthemnns	european_unionnnpartsnns	ecnnthemnns	themnnsofinbritainnnp	partsnnsofinuknnp	common_marketnntheynns	uknnptheynns	themnnsofingreat_britainnnp	partsnnsofinunited_kingdomnnp	themnnsofinbritannicjj	common_marketnnthemnns	theynnsofinunited_kingdomnnp	partsnnsofinu.k.nnp	uknnppartsnns	themnnsofinuknnp	partsnnsofinecnn	great_britainnnptheynns	north_atlantic_treaty_organizationnntheynns	north_atlantic_treaty_organizationnnpartsnns	natonntheynns	european_economic_communitynntheynns	eunnpartsnns	themnnsofinecnn	partsnnsofinnatonn	theynnsofinu.k.nnp	partsnnsofineuropean_unionnn	u.k.nnppartsnns	european_economic_communitynnthemnns	theynnsofineuropenn	u.k.nnpthemnns	partsnnsofineuropean_economic_communitynn	united_kingdom_of_great_britain_and_northern_irelandnnptheynns	britainnnppartsnns	theynnsofingreat_britainnnp	common_marketnnpartsnns	great_britainnnppartsnns	themnnsofineuropean_communitynn	ecnntheynns	eecnntheynns	partsnnsofincommon_marketnn	united_kingdomnnpthemnns	themnnsofinu.k.nnp	partsnnsofinbritannicjj	partsnnsofinnorth_atlantic_treaty_organizationnn	britannicjjtheynns	britannicjjthemnns	partsnnsofineuropenn	north_atlantic_treaty_organizationnnthemnns	theynnsofinbritannicjj	theynnsofinnorth_atlantic_treaty_organizationnn	theynnsofineuropean_unionnn	theynnsofinbritainnnp	europennthemnns	britannicjjpartsnns	partsnnsofineuropean_communitynn	themnnsofineunn	themnnsofinnorth_atlantic_treaty_organizationnn	britainnnptheynns	eunntheynns	europenntheynns	themnnsofineuropenn	theynnsofinnatonn	uknnpthemnns	theynnsofineuropean_economic_communitynn	great_britainnnpthemnns	eecnnthemnns	united_kingdom_of_great_britain_and_northern_irelandnnppartsnns	eecnnpartsnns	theynnsofineecnn	natonnthemnns	theynnsofinunited_kingdom_of_great_britain_and_northern_irelandnnp	united_kingdomnnptheynns	united_kingdom_of_great_britain_and_northern_irelandnnpthemnns	themnnsofinunited_kingdom_of_great_britain_and_northern_irelandnnp	europennpartsnns	partsnnsofinunited_kingdom_of_great_britain_and_northern_irelandnnp	themnnsofineuropean_economic_communitynn	partsnnsofingreat_britainnnp	
+
+BE: showedVBDforINexampleNN
+EQ class: presentvbdforinexamplenn	demonstratevbdforininstancenn	exhibitvbdforinexemplaryjj	demovbdforinexemplaryjj	presentvbdforinillustrationnn	exhibitvbdforininstancenn	demovbdforininstancenn	showedvbdforinexemplaryjj	showvbdforinrepresentativenn	showvbdforinexamplenn	exhibitvbdforinexamplenn	showedvbdforininstancenn	showvbdforinillustrationnn	exhibitvbdforinrepresentativenn	showedvbdforinillustrationnn	showvbdforininstancenn	exhibitvbdforinillustrationnn	showvbdforinexemplaryjj	demovbdforinrepresentativenn	demovbdforinillustrationnn	presentvbdforinexemplaryjj	demonstratevbdforinrepresentativenn	presentvbdforinrepresentativenn	showedvbdforinrepresentativenn	demovbdforinexamplenn	demonstratevbdforinillustrationnn	presentvbdforininstancenn	demonstratevbdforinexamplenn	demonstratevbdforinexemplaryjj	
+
+BE: liveVBinINCanterburyOrganizationAnnotation
+EQ class: inhabitvbinincanterburyorganizationannotation	populatevbinincanterburyorganizationannotation	dwellvbinincanterburyorganizationannotation	
+
+BE: pointVBtoTOpopulationNN
+EQ class: showvbtotopopulationnn	designatevbtotopopulationnn	indicatevbtotopopulationnn	
+
+BE: isAUXinINoriginNN
+EQ class: beauxininoriginnn	isauxininsourcenn	beauxininrootnn	beauxininsourcenn	isauxininrootagenn	beauxininrootagenn	isauxininrootnn	isauxininbeginningnn	beauxininbeginningnn	
+
+BE: carriedVBNinINKentOrganizationAnnotation
+EQ class: carryvbnininkentorganizationannotation	transportvbnininkentorganizationannotation	
+
+BE: carriedVBNinINthe South EastOrganizationAnnotation
+EQ class: carryvbnininthe south eastorganizationannotation	transportvbnininthe south eastorganizationannotation	
+
+BE: abandonedVBNforINyearsNN
+EQ class: abandonvbnforinagenn	abandonvbnforineldnn	abandonvbnforintheynn	abandonedvbnforineldnn	abandonvbnforinyearsnn	abandonvbnforinold_agenn	abandonedvbnforintheynn	abandonvbnforingeezerhoodnn	abandonedvbnforingeezerhoodnn	abandonedvbnforinagenn	abandonedvbnforinthemnn	abandonedvbnforinold_agenn	abandonvbnforinthemnn	
+
+BE: showedVBDthatINlayVB
+EQ class: demovbdthatinlayvb	exhibitvbdthatinsetvb	presentvbdthatinlayvb	showedvbdthatinputvb	showedvbdthatinposevb	presentvbdthatinsetvb	demonstratevbdthatinpositionvb	showvbdthatinlayvb	demonstratevbdthatinposevb	exhibitvbdthatinpositionvb	demovbdthatinplacevb	showvbdthatinputvb	demonstratevbdthatinputvb	showvbdthatinsetvb	showvbdthatinplacevb	demonstratevbdthatinsetvb	showedvbdthatinpositionvb	showvbdthatinposevb	showedvbdthatinplacevb	demovbdthatinpositionvb	exhibitvbdthatinlayvb	demonstratevbdthatinplacevb	presentvbdthatinputvb	showvbdthatinpositionvb	demovbdthatinsetvb	presentvbdthatinpositionvb	presentvbdthatinplacevb	demovbdthatinposevb	exhibitvbdthatinposevb	demovbdthatinputvb	exhibitvbdthatinputvb	showedvbdthatinsetvb	exhibitvbdthatinplacevb	demonstratevbdthatinlayvb	presentvbdthatinposevb	
+
+BE: isAUXthatINstayedVBD
+EQ class: isauxthatinstayvbd	isauxthatinrestvbd	beauxthatinstayvbd	beauxthatinstayedvbd	beauxthatinrestvbd	beauxthatinremainvbd	isauxthatinremainvbd	
+
+BE: seemVBPpointVB
+EQ class: appearvbpshowvb	lookvbpindicatevb	seemvbpdesignatevb	seemvbpindicatevb	appearvbpdesignatevb	seemvbpshowvb	lookvbpshowvb	appearvbpindicatevb	lookvbpdesignatevb	lookvbppointvb	appearvbppointvb	
+
+BE: isAUXisAUX
+EQ class: beauxbeaux	isauxbeaux	beauxisaux	
+
+BE: isAUXgraduallyRB
+EQ class: gradualitynnininisaux	gradualjjininisaux	gradualitynnininbeaux	gradualnessnnininbeaux	beauxgraduallyrb	gradualjjininbeaux	gradualnessnnininisaux	
+
+BE: piecingVBGgraduallyRB
+EQ class: gradualitynnininpatchvbg	gradualjjininpiecenn	gradualjjininpiecingvbg	gradualnessnnpiecenn	gradualitynnpiecenn	piecevbggraduallyrb	gradualnessnnininpatchvbg	gradualjjininpiecevbg	gradualitynnininpiecevbg	gradualjjininpatchvbg	patchvbggraduallyrb	gradualitynnininpiecingvbg	piecennofingraduallyrb	gradualnessnnininpiecenn	gradualitynnininpiecenn	gradualnessnnininpiecevbg	gradualjjpiecenn	gradualnessnnininpiecingvbg	
+
+BE: didAUXprobablyRB
+EQ class: likelyjjininmakeaux	probabilitynninindoaux	probabilitynnininmakeaux	probablejjinindoaux	likelyjjinindoaux	probabilitynninindidaux	makeauxprobablyrb	doauxprobablyrb	likelyjjinindidaux	probablejjinindidaux	probablejjininmakeaux	
+
+BE: didAUXnotRB
+EQ class: doauxnotrb	makeauxnotrb	
+
+BE: stayedVBDjustRB
+EQ class: restvbdjustrb	stayvbdjustrb	remainvbdjustrb	staynnofinjustrb	
+
+BE: ideaNN
+EQ class: thoughtnn	idealjj	
+
+BE: SaxonsPersonAnnotation
+EQ class: 
+
+BE: armiesNNS
+EQ class: ground_forcesnns	theynns	regular_armynns	themnns	armynns	
+
+BE: settlementsNNS
+EQ class: theynns	settlementnns	themnns	colonynns	
+
+BE: CanterburyOrganizationAnnotation
+EQ class: 
+
+BE: housesNNS
+EQ class: housenns	theynns	themnns	
+
+BE: thinkVBP
+EQ class: conceivevbp	believevbp	considervbp	
+
+BE: arrivingVBG
+EQ class: comevbg	getvbg	arrivevbg	
+
+BE: massedVBD
+EQ class: massvbd	
+
+BE: seemVB
+EQ class: appearvb	lookvb	
+
+BE: smallJJ
+EQ class: littlejj	smallnessnn	
+
+BE: fewJJ
+EQ class: fewnn	fewnessnn	
+
+BE: fewJJhousesNNS
+EQ class: fewjjthemnns	fewnessnntheynns	fewnessnnhousesnns	fewnessnnthemnns	fewnnthemnns	fewnnhousesnns	fewnessnnhousenns	fewjjhousenns	fewnntheynns	fewjjtheynns	fewnnhousenns	
+
+BE: iPRPthinkVBP
+EQ class: iprpbelievevbp	iprpconceivevbp	thoughtnnofiniprp	ideanniprp	iprpconsidervbp	ideannofiniprp	thoughtnniprp	
+
+BE: ideaNNisAUX
+EQ class: idealjjbeaux	thoughtnnbeaux	thoughtnnisaux	idealjjisaux	ideannbeaux	
+
+BE: SaxonsPersonAnnotationarrivingVBG
+EQ class: saxonspersonannotationcomevbg	arrivernnsaxonspersonannotation	comernnsaxonspersonannotation	arrivalnnsaxonspersonannotation	arrivalnnofinsaxonspersonannotation	reachingnnofinsaxonspersonannotation	reachingnnsaxonspersonannotation	saxonspersonannotationgetvbg	saxonspersonannotationarrivevbg	comernnofinsaxonspersonannotation	arrivernnofinsaxonspersonannotation	
+
+BE: settlementsNNSseemVB
+EQ class: colonynnsappearvb	settlementsnnsappearvb	themnnsseemvb	colonynnslookvb	colonynnsseemvb	theynnsseemvb	settlementsnnslookvb	themnnslookvb	settlementnnsseemvb	theynnsappearvb	theynnslookvb	themnnsappearvb	settlementnnslookvb	settlementnnsappearvb	
+
+BE: seemVBhousesNNS
+EQ class: appearvbtheynns	appearvbhousesnns	seemvbthemnns	seemvbhousenns	lookvbhousenns	lookvbhousesnns	appearvbhousenns	lookvbthemnns	seemvbtheynns	lookvbtheynns	appearvbthemnns	
+
+BE: isAUXsettlementsNNS
+EQ class: isauxtheynns	isauxthemnns	isauxsettlementnns	beauxthemnns	beauxsettlementnns	beauxsettlementsnns	beauxcolonynns	beauxtheynns	isauxcolonynns	
+
+BE: ideaNNofINSaxonsPersonAnnotation
+EQ class: saxonspersonannotationenvisagevb	saxonspersonannotationidealjj	saxonspersonannotationimaginevb	idealvbsaxonspersonannotation	saxonspersonannotationthoughtnn	saxonspersonannotationconceive_ofvb	saxonspersonannotationidealvb	conceive_ofvbsaxonspersonannotation	imaginevbsaxonspersonannotation	idealjjofinsaxonspersonannotation	thoughtnnofinsaxonspersonannotation	ideatevbsaxonspersonannotation	saxonspersonannotationideatevb	envisagevbsaxonspersonannotation	saxonspersonannotationideann	
+
+BE: settlementsNNSinINCanterburyOrganizationAnnotation
+EQ class: canterburyorganizationannotationsettlementsnns	canterburyorganizationannotationcolonynns	settlementnnsinincanterburyorganizationannotation	theynnsinincanterburyorganizationannotation	canterburyorganizationannotationsettlevb	canterburyorganizationannotationtheynns	settlevbcanterburyorganizationannotation	canterburyorganizationannotationsettlementnns	canterburyorganizationannotationthemnns	canterburyorganizationannotationsettle_downvb	settle_downvbcanterburyorganizationannotation	themnnsinincanterburyorganizationannotation	colonynnsinincanterburyorganizationannotation	
+
+BE: arrivingVBGasINarmiesNNS
+EQ class: arrivingvbgasinregular_armynns	getvbgasinground_forcesnns	arrivevbgasintheynns	arrivevbgasinarmiesnns	comevbgasinthemnns	arrivevbgasinarmynns	comevbgasinarmiesnns	getvbgasinarmynns	comevbgasinregular_armynns	getvbgasinregular_armynns	comevbgasinarmynns	arrivevbgasinground_forcesnns	comevbgasinground_forcesnns	arrivingvbgasinthemnns	arrivevbgasinthemnns	getvbgasintheynns	arrivevbgasinregular_armynns	comevbgasintheynns	arrivingvbgasintheynns	arrivingvbgasinground_forcesnns	arrivingvbgasinarmynns	getvbgasinthemnns	getvbgasinarmiesnns	
+
+BE: RomeLocationAnnotation
+EQ class: romannn	
+
+BE: LegionsNNS
+EQ class: hostnns	legionnns	
+
+BE: EuropeLocationAnnotation
+EQ class: europeanjj	
+
+BE: BritainLocationAnnotation
+EQ class: eecnn	common_marketnn	european_unionnn	europenn	ecnn	eunn	north_atlantic_treaty_organizationnn	european_communitynn	natonn	european_economic_communitynn	britannicjj	
+
+BE: paidVBN
+EQ class: payvbn	
+
+BE: returnedVBN
+EQ class: returnvbn	
+
+BE: settledVBN
+EQ class: settle_downvbn	settlevbn	
+
+BE: fadedVBDawayRP
+EQ class: fadennofinawayrp	slicingnnofinawayrp	fadevbdawayrp	slicennofinawayrp	meltvbdawayrp	
+
+BE: itPRPisAUX
+EQ class: itprpbeaux	
+
+BE: RomeLocationAnnotationfadedVBD
+EQ class: romannnfadedvbd	romelocationannotationmeltvbd	slicingnnofinromannn	romannnmeltvbd	slicingnnofinromelocationannotation	romannnfadevbd	fadennofinromelocationannotation	romelocationannotationfadevbd	fadennofinromannn	slicennofinromannn	slicennofinromelocationannotation	
+
+BE: paidVBNLegionsNNS
+EQ class: payvbnlegionnns	payvbnlegionsnns	remunerationnnofinhostnns	salarynnofinlegionnns	payernnofinlegionsnns	paymentnnofinlegionnns	payvbnhostnns	salarynnofinlegionsnns	paynnofinlegionnns	paynnofinhostnns	remunerationnnofinlegionsnns	earningsnnofinlegionsnns	paidvbnlegionnns	payernnofinhostnns	remuneratornnofinhostnns	paymentnnofinlegionsnns	earningsnnofinlegionnns	paymentnnofinhostnns	payeennofinlegionnns	remuneratornnofinlegionnns	earningsnnofinhostnns	wagennofinhostnns	paidvbnhostnns	remuneratornnofinlegionsnns	payeennofinhostnns	salarynnofinhostnns	paynnofinlegionsnns	remunerationnnofinlegionnns	wagennofinlegionsnns	payernnofinlegionnns	payeennofinlegionsnns	wagennofinlegionnns	
+
+BE: returnedVBNthoseDT
+EQ class: tax_returnnnofinthosedt	returnnnofinthosedt	returnvbnthosedt	income_tax_returnnnofinthosedt	
+
+BE: settledVBNthoseDT
+EQ class: settle_downvbnthosedt	settlevbnthosedt	
+
+BE: returnedVBNtoTOEuropeLocationAnnotation
+EQ class: returnedvbntotoeuropeanjj	returnvbntotoeuropelocationannotation	returnvbntotoeuropeanjj	
+
+BE: settledVBNinINBritainLocationAnnotation
+EQ class: settle_downvbnininnorth_atlantic_treaty_organizationnn	settlevbninineuropean_unionnn	settle_downvbninineuropean_unionnn	settledvbninincommon_marketnn	settledvbninineuropean_communitynn	settle_downvbninineunn	settlevbnininnorth_atlantic_treaty_organizationnn	settledvbnininbritannicjj	settlevbninineuropean_communitynn	settledvbninineuropenn	settlevbnininbritainlocationannotation	settlevbnininbritannicjj	settle_downvbninineuropean_communitynn	settlevbnininecnn	settle_downvbnininbritannicjj	settledvbninineunn	settlevbninineecnn	settle_downvbninineecnn	settle_downvbninineuropenn	settlevbnininnatonn	settledvbninineuropean_economic_communitynn	settle_downvbninineuropean_economic_communitynn	settlevbninincommon_marketnn	settledvbnininnorth_atlantic_treaty_organizationnn	settle_downvbnininecnn	settledvbninineecnn	settledvbnininnatonn	settlevbninineunn	settledvbnininecnn	settle_downvbnininbritainlocationannotation	settledvbninineuropean_unionnn	settlevbninineuropenn	settle_downvbnininnatonn	settle_downvbninincommon_marketnn	settlevbninineuropean_economic_communitynn	
+
+BE: isAUXasINreturnedVBN
+EQ class: beauxasinreturnvbn	beauxasinreturnedvbn	isauxasinreturnvbn	
+
+BE: isAUXasINsettledVBN
+EQ class: isauxasinsettlevbn	isauxasinsettle_downvbn	beauxasinsettledvbn	beauxasinsettle_downvbn	beauxasinsettlevbn	
+
+BE: fadedVBDjustRB
+EQ class: fadevbdjustrb	slicennofinjustrb	slicingnnofinjustrb	fadennofinjustrb	meltvbdjustrb	
+
+BE: isAUXveryRB
+EQ class: beauxveryrb	
+
+BE: isAUXprobablyRB
+EQ class: probabilitynnininbeaux	likelyjjininbeaux	probablejjininbeaux	probablejjininisaux	beauxprobablyrb	probabilitynnininisaux	likelyjjininisaux	
+
+BE: didAUXhappenRB
+EQ class: makeauxhappenrb	doauxhappenrb	
+
+BE: wereAUXnoRB
+EQ class: beauxnorb	
+
+BE: paidVBNnoRB
+EQ class: paymentnnofinnorb	wagennofinnorb	salarynnofinnorb	payernnofinnorb	remuneratornnofinnorb	remunerationnnofinnorb	paynnofinnorb	payeennofinnorb	payvbnnorb	earningsnnofinnorb	
+
+BE: settledVBNsimplyRB
+EQ class: simplicitynnininsettlevbn	simplenessnnininsettledvbn	settle_downvbnsimplyrb	simplejjininsettledvbn	settlevbnsimplyrb	simplicitynnininsettledvbn	simplejjininsettle_downvbn	simplejjininsettlevbn	simplenessnnininsettle_downvbn	simplicitynnininsettle_downvbn	simplenessnnininsettlevbn	
+
+BE: settledVBNdownRB
+EQ class: settle_downvbndownrb	settlevbndownrb	
+
+BE: settledVBNhereRB
+EQ class: settlevbnhererb	settle_downvbnhererb	
+
+BE: groupNN
+EQ class: groupingnn	
+
+BE: folkNN
+EQ class: common_peoplenn	folksnn	
+
+BE: DNANN
+EQ class: angstromnn	deoxyribonucleic_acidnn	angstrom_unitnn	d.n.a.nn	desoxyribonucleic_acidnn	ann	
+
+BE: YorkshireOrganizationAnnotation
+EQ class: 
+
+BE: testedVBDupRP
+EQ class: tryvbduprp	tryoutnnofinuprp	trialnnofinuprp	testvbduprp	testingnnofinuprp	examinevbduprp	try_outvbduprp	trial_runnnofinuprp	provevbduprp	testnnofinuprp	essayvbduprp	
+
+BE: largeJJ
+EQ class: bigjj	largenn	largenessnn	
+
+BE: largeJJgroupNN
+EQ class: bigjjgroupnn	largejjgroupingnn	largenngroupnn	largenessnngroupingnn	largenessnngroupnn	largenngroupingnn	bigjjgroupingnn	groupvblargelyrb	
+
+BE: groupNNwereAUX
+EQ class: groupingnnbeaux	groupnnbeaux	groupingnnwereaux	
+
+BE: DNANNtestedVBD
+EQ class: tryoutnnofinangstromnn	angstromnntestvbd	d.n.a.nntestedvbd	trial_runnnofind.n.a.nn	deoxyribonucleic_acidnntestvbd	angstrom_unitnntestedvbd	dnannprovevbd	testnnofindesoxyribonucleic_acidnn	testingnndeoxyribonucleic_acidnn	trial_runnnofinangstromnn	anntry_outvbd	testingnnofindeoxyribonucleic_acidnn	testnnofindnann	deoxyribonucleic_acidnnessayvbd	testnnofind.n.a.nn	testnnofinangstrom_unitnn	testingnnangstromnn	d.n.a.nntestvbd	d.n.a.nnprovevbd	trialnnofindeoxyribonucleic_acidnn	testingnndesoxyribonucleic_acidnn	trialnnofindesoxyribonucleic_acidnn	trialnnofinann	d.n.a.nnessayvbd	testingnnofinangstromnn	trialnnofind.n.a.nn	testingnnangstrom_unitnn	testingnnofindesoxyribonucleic_acidnn	tryoutnnofinann	angstromnnessayvbd	angstromnntry_outvbd	testingnnofinann	angstrom_unitnnessayvbd	testnnofinann	trial_runnnofinann	dnannexaminevbd	deoxyribonucleic_acidnntryvbd	testingnndnann	angstromnnprovevbd	testingnnofindnann	testingnnofinangstrom_unitnn	testingnnofind.n.a.nn	deoxyribonucleic_acidnnprovevbd	desoxyribonucleic_acidnntryvbd	trial_runnnofindesoxyribonucleic_acidnn	dnannessayvbd	angstrom_unitnntryvbd	desoxyribonucleic_acidnntry_outvbd	dnanntry_outvbd	anntestvbd	desoxyribonucleic_acidnnessayvbd	angstromnnexaminevbd	anntestedvbd	angstrom_unitnnprovevbd	dnanntestvbd	anntryvbd	angstromnntryvbd	deoxyribonucleic_acidnntry_outvbd	desoxyribonucleic_acidnnexaminevbd	deoxyribonucleic_acidnntestedvbd	tryoutnnofindnann	trialnnofinangstromnn	annessayvbd	tryoutnnofindeoxyribonucleic_acidnn	d.n.a.nntryvbd	d.n.a.nnexaminevbd	deoxyribonucleic_acidnnexaminevbd	tryoutnnofindesoxyribonucleic_acidnn	d.n.a.nntry_outvbd	trial_runnnofindnann	testingnnann	desoxyribonucleic_acidnntestvbd	testingnnd.n.a.nn	angstrom_unitnntestvbd	trialnnofinangstrom_unitnn	testnnofinangstromnn	annprovevbd	trialnnofindnann	annexaminevbd	angstrom_unitnntry_outvbd	tryoutnnofinangstrom_unitnn	tryoutnnofind.n.a.nn	desoxyribonucleic_acidnntestedvbd	dnanntryvbd	angstrom_unitnnexaminevbd	trial_runnnofinangstrom_unitnn	desoxyribonucleic_acidnnprovevbd	angstromnntestedvbd	testnnofindeoxyribonucleic_acidnn	trial_runnnofindeoxyribonucleic_acidnn	
+
+BE: wereAUXDNANN
+EQ class: beauxann	beauxdesoxyribonucleic_acidnn	beauxdnann	beauxangstrom_unitnn	wereauxdeoxyribonucleic_acidnn	beauxdeoxyribonucleic_acidnn	beauxangstromnn	wereauxann	wereauxangstrom_unitnn	wereauxd.n.a.nn	beauxd.n.a.nn	wereauxdesoxyribonucleic_acidnn	wereauxangstromnn	
+
+BE: groupNNofINfolkNN
+EQ class: groupnnofincommon_peoplenn	folknngroupnn	groupingnnofincommon_peoplenn	folksnngroupvb	groupingnnofinfolknn	folksnngroupnn	folksnngroupingnn	folknngroupvb	groupingnnofinfolksnn	groupvbfolknn	common_peoplenngroupvb	common_peoplenngroupnn	groupvbcommon_peoplenn	common_peoplenngroupingnn	groupnnofinfolksnn	folknngroupingnn	groupvbfolksnn	
+
+BE: testedVBDinINYorkshireOrganizationAnnotation
+EQ class: examinevbdininyorkshireorganizationannotation	try_outvbdininyorkshireorganizationannotation	essayvbdininyorkshireorganizationannotation	tryvbdininyorkshireorganizationannotation	testvbdininyorkshireorganizationannotation	provevbdininyorkshireorganizationannotation	
+
+BE: wereAUXRecentlyRB
+EQ class: recencynnininbeaux	recentjjininwereaux	recencynnininwereaux	beauxrecentlyrb	recentnessnnininbeaux	recentnessnnininwereaux	recentjjininbeaux	
+
+BE: DNANNgroupNN
+EQ class: angstrom_unitnngroupnn	d.n.a.nngroupnn	groupingnnann	groupingnnangstromnn	dnanngroupingnn	angstrom_unitnngroupingnn	groupnnofinangstromnn	groupnnofindesoxyribonucleic_acidnn	groupingnnofinangstrom_unitnn	angstromnngroupvb	groupnnangstrom_unitnn	desoxyribonucleic_acidnngroupingnn	groupnnangstromnn	anngroupnn	groupnnofinangstrom_unitnn	groupnnofindeoxyribonucleic_acidnn	groupnndnann	groupnnofindnann	groupingnnofindesoxyribonucleic_acidnn	groupnnofinann	d.n.a.nngroupingnn	groupingnndnann	groupingnnofind.n.a.nn	groupingnnd.n.a.nn	groupingnnofindnann	angstromnngroupnn	groupnnann	groupingnnofinangstromnn	groupnnd.n.a.nn	angstrom_unitnngroupvb	groupingnnofinann	groupnnofind.n.a.nn	groupnndesoxyribonucleic_acidnn	d.n.a.nngroupvb	dnanngroupvb	deoxyribonucleic_acidnngroupvb	anngroupvb	desoxyribonucleic_acidnngroupnn	groupingnnofindeoxyribonucleic_acidnn	desoxyribonucleic_acidnngroupvb	anngroupingnn	deoxyribonucleic_acidnngroupnn	deoxyribonucleic_acidnngroupingnn	groupnndeoxyribonucleic_acidnn	groupingnndesoxyribonucleic_acidnn	angstromnngroupingnn	groupingnnangstrom_unitnn	groupingnndeoxyribonucleic_acidnn	
+
+BE: groupNN
+EQ class: groupingnn	
+
+BE: AfricanNNP
+EQ class: africanjj	
+
+BE: DNANNP
+EQ class: angstromnnp	d.n.a.nnp	angstrom_unitnnp	deoxyribonucleic_acidnnp	annp	desoxyribonucleic_acidnnp	
+
+BE: English .OrganizationAnnotation
+EQ class: english organizationannotation	
+
+BE: foundVBN
+EQ class: set_upvbn	launchvbn	establishvbn	
+
+BE: considerVBP
+EQ class: viewvbp	seevbp	regardvbp	reckonvbp	
+
+BE: whiteJJ
+EQ class: whitenn	whitenessnn	
+
+BE: whiteJJ
+EQ class: whitenn	whitenessnn	
+
+BE: whiteJJEnglish .OrganizationAnnotation
+EQ class: whitejjenglish organizationannotation	whitenessnnenglish organizationannotation	whitennenglish .organizationannotation	whitenessnnenglish .organizationannotation	whitennenglish organizationannotation	
+
+BE: AfricanNNPDNANNP
+EQ class: angstromnnpofinafricanjj	africanjjangstromnnp	africanjjdesoxyribonucleic_acidnnp	angstrom_unitnnpofinafricanjj	africannnpannp	africanjjd.n.a.nnp	d.n.a.nnpofinafricannnp	africannnpangstromnnp	deoxyribonucleic_acidnnpofinafricanjj	africanjjdeoxyribonucleic_acidnnp	annpofinafricanjj	africannnpd.n.a.nnp	deoxyribonucleic_acidnnpofinafricannnp	africanjjdnannp	africanjjangstrom_unitnnp	desoxyribonucleic_acidnnpofinafricanjj	africannnpangstrom_unitnnp	angstrom_unitnnpofinafricannnp	angstromnnpofinafricannnp	dnannpofinafricanjj	annpofinafricannnp	africannnpdesoxyribonucleic_acidnnp	dnannpofinafricannnp	africanjjannp	d.n.a.nnpofinafricanjj	desoxyribonucleic_acidnnpofinafricannnp	africannnpdeoxyribonucleic_acidnnp	
+
+BE: allDTconsiderVBP
+EQ class: alldtseevbp	alldtregardvbp	alldtviewvbp	alldtreckonvbp	
+
+BE: allDTareAUX
+EQ class: alldtbeaux	
+
+BE: themselvesPRPbeAUX
+EQ class: 
+
+BE: haveAUXDNANNP
+EQ class: haveauxdesoxyribonucleic_acidnnp	havennofindesoxyribonucleic_acidnnp	wealthy_personnnofinangstromnnp	have_gotauxannp	have_gotauxdeoxyribonucleic_acidnnp	rich_personnnofinangstrom_unitnnp	wealthy_personnnofinannp	rich_personnnofinangstromnnp	haveauxdeoxyribonucleic_acidnnp	haveauxd.n.a.nnp	have_gotauxdesoxyribonucleic_acidnnp	wealthy_personnnofindnannp	holdauxdesoxyribonucleic_acidnnp	havennofind.n.a.nnp	holdauxdnannp	wealthy_personnnofindesoxyribonucleic_acidnnp	rich_personnnofindnannp	rich_personnnofinannp	have_gotauxdnannp	have_gotauxangstromnnp	holdauxangstrom_unitnnp	havennofinangstromnnp	havennofindeoxyribonucleic_acidnnp	have_gotauxd.n.a.nnp	holdauxannp	haveauxannp	havennofinangstrom_unitnnp	havennofindnannp	wealthy_personnnofind.n.a.nnp	rich_personnnofindeoxyribonucleic_acidnnp	haveauxangstromnnp	havennofinannp	holdauxd.n.a.nnp	rich_personnnofindesoxyribonucleic_acidnnp	holdauxangstromnnp	haveauxangstrom_unitnnp	wealthy_personnnofinangstrom_unitnnp	have_gotauxangstrom_unitnnp	wealthy_personnnofindeoxyribonucleic_acidnnp	rich_personnnofind.n.a.nnp	holdauxdeoxyribonucleic_acidnnp	
+
+BE: beAUXEnglish .OrganizationAnnotation
+EQ class: beauxenglish organizationannotation	
+
+BE: considerVBPthemselvesPRP
+EQ class: reckonvbpthemselvesprp	regardvbpthemselvesprp	viewvbpthemselvesprp	seevbpthemselvesprp	
+
+BE: foundVBNgroupNN
+EQ class: foundingnnofingroupnn	foundernnofingroupingnn	launchvbngroupnn	initiationnnofingroupnn	creationnnofingroupingnn	innovationnnofingroupnn	creationnnofingroupnn	foundationnnofingroupnn	introductionnnofingroupingnn	innovationnnofingroupingnn	introductionnnofingroupnn	set_upvbngroupnn	instaurationnnofingroupnn	foundernnofingroupnn	foundationnnofingroupingnn	originationnnofingroupnn	set_upvbngroupingnn	instaurationnnofingroupingnn	launchvbngroupingnn	laminitisnnofingroupnn	establishvbngroupingnn	foundingnnofingroupingnn	establishvbngroupnn	institutionnnofingroupingnn	originationnnofingroupingnn	initiationnnofingroupingnn	foundvbngroupingnn	institutionnnofingroupnn	laminitisnnofingroupingnn	
+
+BE: areAUXwhiteJJ
+EQ class: beauxwhitenn	areauxwhitenn	beauxwhitenessnn	areauxwhitenessnn	beauxwhitejj	
+
+BE: EnglishNNP
+EQ class: english_languagennp	englishjj	
+
+BE: ancestoryNN
+EQ class: 
+
+BE: AfricanNNP
+EQ class: africanjj	
+
+BE: letVB
+EQ class: allowvb	permitvb	
+
+BE: saysVBZ
+EQ class: statevbz	tellvbz	sayvbz	
+
+BE: theirPRP$ancestoryNN
+EQ class: 
+
+BE: theyPRPareAUX
+EQ class: the south eastprpareaux	burningsprpareaux	romansprpbeaux	childrenprpbeaux	settlementsprpbeaux	partsprpbeaux	housesprpareaux	childrenprpareaux	celtsprpareaux	[africansprpbeaux	legionsprpbeaux	human raceprpareaux	english .prpareaux	romansprpareaux	canterburyprpbeaux	kentprpareaux	partnersprpbeaux	english .prpbeaux	dark agesprpareaux	thingsprpareaux	armiesprpareaux	yorkshireprpbeaux	celtsprpbeaux	armiesprpbeaux	partnersprpareaux	thingsprpbeaux	the south eastprpbeaux	recordsprpbeaux	burningsprpbeaux	generationsprpareaux	testsprpareaux	housesprpbeaux	wordsprpbeaux	agesprpbeaux	yearsprpbeaux	wordsprpareaux	human raceprpbeaux	dark agesprpbeaux	testsprpbeaux	settlementsprpareaux	digsprpareaux	theyprpbeaux	legionsprpareaux	yorkshireprpareaux	canterburyprpareaux	generationsprpbeaux	digsprpbeaux	agesprpareaux	yearsprpareaux	kentprpbeaux	partsprpareaux	recordsprpareaux	[africansprpareaux	
+
+BE: ancestoryNNisAUX
+EQ class: ancestorynnbeaux	
+
+BE: letVBsPersonAnnotation
+EQ class: permitvbspersonannotation	allowvbspersonannotation	
+
+BE: areAUXEnglishNNP
+EQ class: beauxenglishjj	beauxenglishnnp	areauxenglishjj	areauxenglish_languagennp	beauxenglish_languagennp	
+
+BE: isAUXAfricanNNP
+EQ class: beauxafricannnp	beauxafricanjj	isauxafricanjj	
+
+BE: RomansNNPS
+EQ class: epistle_to_the_romansnnps	epistle_of_paul_the_apostle_to_the_romansnnps	
+
+BE: LegionsNNS
+EQ class: hostnns	legionnns	
+
+BE: NorthLocationAnnotation
+EQ class: yankeenn	yanknn	northernernn	
+
+BE: EthiopiaLocationAnnotation
+EQ class: ethiopianjj	ethiopiannn	
+
+BE: [AfricansNNS
+EQ class: africannns	africanjj	
+
+BE: explainedVBN
+EQ class: explainvbn	explicatevbn	
+
+BE: understandingVBG
+EQ class: understandvbg	
+
+BE: stationedVBN
+EQ class: sendvbn	placevbn	postvbn	stationvbn	
+
+BE: recruitedVBN
+EQ class: enrolvbn	enrollvbn	entervbn	inscribevbn	recruitvbn	
+
+BE: auxillaryJJ
+EQ class: 
+
+BE: ]JJ
+EQ class: ].jj	
+
+BE: twoCDLegionsNNS
+EQ class: deucecdlegionnns	iicdlegionsnns	iicdhostnns	2cdlegionnns	twocdhostnns	twocdlegionnns	deucecdlegionsnns	deucecdhostnns	2cdlegionsnns	2cdhostnns	iicdlegionnns	
+
+BE: threeCDLegionsNNS
+EQ class: deuce-acecdlegionsnns	leashcdhostnns	triocdlegionnns	ternioncdhostnns	tiercecdlegionnns	trinecdlegionsnns	ternarycdlegionnns	treycdlegionnns	ternioncdlegionsnns	troikacdhostnns	iiicdlegionsnns	tripletcdlegionsnns	trinecdlegionnns	triadcdlegionsnns	troikacdlegionnns	threecdhostnns	troikacdlegionsnns	3cdlegionsnns	terzettocdhostnns	tiercecdlegionsnns	triadcdlegionnns	trinecdhostnns	deuce-acecdhostnns	terzettocdlegionnns	3cdhostnns	trinitycdlegionnns	trinitycdhostnns	ternarycdhostnns	leashcdlegionsnns	triocdhostnns	deuce-acecdlegionnns	3cdlegionnns	iiicdhostnns	tercetcdhostnns	tercetcdlegionsnns	triocdlegionsnns	threesomecdlegionnns	threesomecdlegionsnns	trinitycdlegionsnns	tripletcdhostnns	tripletcdlegionnns	treycdhostnns	ternarycdlegionsnns	leashcdlegionnns	iiicdlegionnns	tercetcdlegionnns	triadcdhostnns	terzettocdlegionsnns	threesomecdhostnns	tiercecdhostnns	ternioncdlegionnns	treycdlegionsnns	threecdlegionnns	
+
+BE: auxillaryJJLegionsNNS
+EQ class: auxillaryjjlegionnns	auxillaryjjhostnns	
+
+BE: RomansNNPShadAUX
+EQ class: epistle_to_the_romansnnpsholdaux	rich_personnnofinepistle_to_the_romansnnps	wealthy_personnnofinepistle_of_paul_the_apostle_to_the_romansnnps	epistle_of_paul_the_apostle_to_the_romansnnpshave_gotaux	romansnnpshave_gotaux	epistle_to_the_romansnnpshaveaux	rich_personnnofinromansnnps	epistle_of_paul_the_apostle_to_the_romansnnpsholdaux	epistle_to_the_romansnnpshave_gotaux	epistle_of_paul_the_apostle_to_the_romansnnpshaveaux	romansnnpshaveaux	havennofinromansnnps	havennofinepistle_of_paul_the_apostle_to_the_romansnnps	havennofinepistle_to_the_romansnnps	wealthy_personnnofinepistle_to_the_romansnnps	romansnnpsholdaux	epistle_of_paul_the_apostle_to_the_romansnnpshadaux	epistle_to_the_romansnnpshadaux	rich_personnnofinepistle_of_paul_the_apostle_to_the_romansnnps	wealthy_personnnofinromansnnps	
+
+BE: hadAUXLegionsNNS
+EQ class: have_gotauxlegionsnns	hadauxhostnns	havennofinlegionsnns	holdauxhostnns	rich_personnnofinlegionsnns	wealthy_personnnofinlegionnns	haveauxlegionnns	holdauxlegionnns	havennofinhostnns	havennofinlegionnns	rich_personnnofinhostnns	wealthy_personnnofinhostnns	haveauxhostnns	holdauxlegionsnns	have_gotauxhostnns	have_gotauxlegionnns	rich_personnnofinlegionnns	hadauxlegionnns	haveauxlegionsnns	wealthy_personnnofinlegionsnns	
+
+BE: recruitedVBN[AfricansNNS
+EQ class: recruitnnofinafricanjj	enrollvbnafricannns	recruitedvbnafricanjj	enrolvbnafricannns	military_recruitnnofin[africansnns	inscribevbn[africansnns	inscribevbnafricanjj	recruiternnofin[africansnns	recruitnnofin[africansnns	enrollvbn[africansnns	enrolvbn[africansnns	recruitvbnafricannns	military_recruitnnofinafricanjj	recruitnnofinafricannns	inscribevbnafricannns	military_recruitnnofinafricannns	recruitvbn[africansnns	entervbnafricannns	entervbn[africansnns	enrollvbnafricanjj	recruiternnofinafricanjj	recruiternnofinafricannns	enrolvbnafricanjj	entervbnafricanjj	recruitvbnafricanjj	recruitedvbnafricannns	
+
+BE: explainedVBNthisDT
+EQ class: explainvbnthisdt	accountnnofinthisdt	explanatorynnofinthisdt	explanationnnofinthisdt	explicatevbnthisdt	
+
+BE: recruitedVBNtheseDT
+EQ class: inscribevbnthesedt	enrolvbnthesedt	military_recruitnnofinthesedt	recruiternnofinthesedt	entervbnthesedt	recruitvbnthesedt	recruitnnofinthesedt	enrollvbnthesedt	
+
+BE: stationedVBNLegionsNNS
+EQ class: placevbnhostnns	stationvbnlegionsnns	sendvbnhostnns	sendvbnlegionsnns	stationvbnlegionnns	stationedvbnhostnns	stationedvbnlegionnns	postvbnhostnns	placevbnlegionnns	postvbnlegionsnns	stationnnofinhostnns	sendvbnlegionnns	placevbnlegionsnns	stationnnofinlegionsnns	stationvbnhostnns	postvbnlegionnns	stationnnofinlegionnns	
+
+BE: stationedVBNinINNorthLocationAnnotation
+EQ class: stationvbnininnorthlocationannotation	postvbnininyankeenn	placevbnininnorthlocationannotation	placevbnininyanknn	postvbnininnorthlocationannotation	sendvbnininyankeenn	placevbnininyankeenn	stationvbnininnorthernernn	postvbnininyanknn	stationedvbnininyanknn	stationvbnininyanknn	placevbnininnorthernernn	stationedvbnininnorthernernn	stationvbnininyankeenn	postvbnininnorthernernn	sendvbnininnorthlocationannotation	sendvbnininnorthernernn	stationedvbnininyankeenn	sendvbnininyanknn	
+
+BE: recruitedVBNfromINEthiopiaLocationAnnotation
+EQ class: recruitedvbnfrominethiopianjj	entervbnfrominethiopianjj	enrolvbnfrominethiopiannn	inscribevbnfrominethiopiannn	entervbnfrominethiopiannn	inscribevbnfrominethiopialocationannotation	recruitedvbnfrominethiopiannn	enrolvbnfrominethiopialocationannotation	enrolvbnfrominethiopianjj	enrollvbnfrominethiopialocationannotation	recruitvbnfrominethiopialocationannotation	recruitvbnfrominethiopiannn	enrollvbnfrominethiopiannn	inscribevbnfrominethiopianjj	recruitvbnfrominethiopianjj	entervbnfrominethiopialocationannotation	enrollvbnfrominethiopianjj	
+
+BE: beAUXeasilyRB
+EQ class: easyjjininbeaux	easinessnnininbeaux	
+
+BE: soldierNN
+EQ class: soldierlyjj	
+
+BE: [approxNN
+EQ class: 
+
+BE: yearsNNS
+EQ class: old_agenns	geezerhoodnns	eldnns	theynns	themnns	agenns	
+
+BE: legionsNNS
+EQ class: hostnns	theynns	legionnns	themnns	
+
+BE: plotNN
+EQ class: secret_plannn	gamenn	
+
+BE: landNN
+EQ class: 
+
+BE: [approxNN
+EQ class: 
+
+BE: acrewNN
+EQ class: 
+
+BE: cowNN
+EQ class: moo-cownn	
+
+BE: womanNN
+EQ class: adult_femalenn	womanlyjj	
+
+BE: completedVBN
+EQ class: completevbn	finishvbn	
+
+BE: dischargedVBN
+EQ class: dischargevbn	dispatchvbn	completevbn	
+
+BE: givenVBN
+EQ class: givevbn	
+
+BE: ]VBG
+EQ class: ].vbg	
+
+BE: ]JJ
+EQ class: ].jj	
+
+BE: smallJJ
+EQ class: littlejj	smallnessnn	
+
+BE: 22CDyearsNNS
+EQ class: xxiicdthemnns	twenty-twocdagenns	2.2.cdtheynns	2.2.cdthemnns	xxiicdyearsnns	22cdagenns	xxiicdeldnns	22cdgeezerhoodnns	22cdthemnns	twenty-twocdyearsnns	2.2.cdyearsnns	22cdold_agenns	twenty-twocdeldnns	2.2.cdagenns	twenty-twocdtheynns	twenty-twocdthemnns	xxiicdgeezerhoodnns	2.2.cdgeezerhoodnns	twenty-twocdgeezerhoodnns	2.2.cdeldnns	xxiicdtheynns	22cdtheynns	xxiicdagenns	22cdeldnns	twenty-twocdold_agenns	xxiicdold_agenns	2.2.cdold_agenns	
+
+BE: ]JJyearsNNS
+EQ class: ].jjyearsnns	].jjold_agenns	]jjold_agenns	]jjthemnns	].jjagenns	].jjtheynns	]jjagenns	]jjeldnns	].jjgeezerhoodnns	]jjtheynns	].jjthemnns	].jjeldnns	]jjgeezerhoodnns	
+
+BE: smallJJplotNN
+EQ class: smalljjgamenn	littlejjplotnn	littlejjsecret_plannn	smallnessnngamenn	littlejjgamenn	smallnessnnsecret_plannn	smallnessnnplotnn	smalljjsecret_plannn	
+
+BE: oneCDacrewNN
+EQ class: unitycdacrewnn	acecdacrewnn	1cdacrewnn	singlecdacrewnn	icdacrewnn	
+
+BE: hisPRP$yearsNNS
+EQ class: themnnsofinsaxonsprp$	hisprp$agenns	saxonsprp$eldnns	sprp$old_agenns	sprp$theynns	themnnsofinhisprp$	eldnnsofinsaxonsprp$	yearsnnsofinsaxonsprp$	yearsnnsofinsprp$	eldnnsofinhisprp$	geezerhoodnnsofinhisprp$	sprp$eldnns	old_agennsofinhisprp$	theynnsofinsprp$	hisprp$geezerhoodnns	sprp$geezerhoodnns	agennsofinhisprp$	geezerhoodnnsofinsaxonsprp$	agennsofinsprp$	old_agennsofinsaxonsprp$	saxonsprp$old_agenns	hisprp$eldnns	eldnnsofinsprp$	themnnsofinsprp$	hisprp$theynns	theynnsofinsaxonsprp$	geezerhoodnnsofinsprp$	agennsofinsaxonsprp$	hisprp$old_agenns	saxonsprp$themnns	sprp$agenns	saxonsprp$theynns	yearsnnsofinhisprp$	saxonsprp$geezerhoodnns	sprp$themnns	saxonsprp$agenns	sprp$yearsnns	hisprp$themnns	theynnsofinhisprp$	saxonsprp$yearsnns	old_agennsofinsprp$	
+
+BE: landNN[approxNN
+EQ class: 
+
+BE: acrewNN]VBG
+EQ class: acrewnn].vbg	
+
+BE: soldierNNcompletedVBN
+EQ class: soldierlyjjfinishvbn	soldiernnfinishvbn	soldiernncompletevbn	pass_completionnnsoldiernn	pass_completionnnofinsoldiernn	completionnnsoldiernn	pass_completionnnsoldierlyjj	pass_completionnnofinsoldierlyjj	soldierlyjjcompletevbn	completionnnofinsoldierlyjj	completionnnofinsoldiernn	soldierlyjjcompletedvbn	completionnnsoldierlyjj	
+
+BE: completedVBNyearsNNS
+EQ class: completevbnthemnns	finishvbnagenns	pass_completionnnofineldnns	finishvbntheynns	completevbnagenns	completedvbneldnns	finishvbnthemnns	finishvbneldnns	completevbnold_agenns	completionnnofintheynns	pass_completionnnofinold_agenns	pass_completionnnofinyearsnns	completionnnofinyearsnns	finishvbngeezerhoodnns	pass_completionnnofinagenns	finishvbnold_agenns	completedvbnold_agenns	completedvbnagenns	completionnnofinagenns	completevbnyearsnns	finishvbnyearsnns	pass_completionnnofingeezerhoodnns	completionnnofingeezerhoodnns	completedvbntheynns	completionnnofinold_agenns	completionnnofineldnns	completevbngeezerhoodnns	pass_completionnnofintheynns	completionnnofinthemnns	completedvbnthemnns	completedvbngeezerhoodnns	pass_completionnnofinthemnns	completevbneldnns	completevbntheynns	
+
+BE: givenVBNplotNN
+EQ class: givenvbnsecret_plannn	givevbnsecret_plannn	givevbnplotnn	givevbngamenn	givenvbngamenn	
+
+BE: givenVBNacrewNN
+EQ class: givevbnacrewnn	
+
+BE: ]VBGcowNN
+EQ class: ].vbgmoo-cownn	].vbgcownn	]vbgmoo-cownn	
+
+BE: dischargedVBNhePRP
+EQ class: dispatchvbnsprp	completevbnsprp	dischargedvbnsprp	completevbnheprp	completevbnsaxonsprp	dischargedvbnsaxonsprp	dischargevbnsaxonsprp	dischargevbnheprp	dispatchvbnsaxonsprp	dischargevbnsprp	dispatchvbnheprp	
+
+BE: givenVBNhePRP
+EQ class: givevbnsprp	givevbnheprp	givenvbnsaxonsprp	givenvbnsprp	givevbnsaxonsprp	
+
+BE: yearsNNSwithINlegionsNNS
+EQ class: eldnnswithinthemnns	geezerhoodnnswithintheynns	themnnseldnns	geezerhoodnnswithinlegionnns	legionnnsgeezerhoodnns	agennswithintheynns	old_agennswithinhostnns	hostnnsgeezerhoodnns	theynnsgeezerhoodnns	themnnswithintheynns	legionsnnsagenns	yearsnnswithinhostnns	theynnswithintheynns	theynnsagenns	geezerhoodnnswithinthemnns	old_agennswithintheynns	legionsnnstheynns	legionnnstheynns	theynnswithinthemnns	legionnnsagenns	hostnnsagenns	theynnseldnns	old_agennswithinlegionsnns	theynnstheynns	themnnswithinlegionsnns	theynnswithinlegionsnns	legionnnsthemnns	legionsnnsyearsnns	themnnsyearsnns	legionnnsold_agenns	legionsnnseldnns	legionsnnsgeezerhoodnns	theynnsyearsnns	hostnnsthemnns	theynnswithinhostnns	themnnstheynns	agennswithinhostnns	themnnsthemnns	old_agennswithinlegionnns	eldnnswithinlegionsnns	hostnnsyearsnns	hostnnsold_agenns	yearsnnswithinthemnns	agennswithinthemnns	eldnnswithinhostnns	legionsnnsthemnns	themnnsold_agenns	legionnnsyearsnns	themnnsgeezerhoodnns	themnnswithinhostnns	geezerhoodnnswithinhostnns	hostnnstheynns	eldnnswithintheynns	theynnsthemnns	old_agennswithinthemnns	legionsnnsold_agenns	theynnswithinlegionnns	yearsnnswithinlegionnns	themnnsagenns	hostnnseldnns	themnnswithinlegionnns	agennswithinlegionsnns	eldnnswithinlegionnns	legionnnseldnns	themnnswithinthemnns	agennswithinlegionnns	yearsnnswithintheynns	geezerhoodnnswithinlegionsnns	theynnsold_agenns	
+
+BE: plotNNofIN[approxNN
+EQ class: [approxnngamenn	plotvb[approxnn	secret_plannnofin[approxnn	[approxnnsecret_plannn	[approxnnplotnn	gamennofin[approxnn	[approxnnplotvb	
+
+BE: dischargedVBNwhenWRBcompletedVBN
+EQ class: completevbnwhenwrbcompletedvbn	dispatchvbnwhenwrbcompletedvbn	dischargevbnwhenwrbcompletedvbn	dispatchvbnwhenwrbcompletevbn	dischargedvbnwhenwrbfinishvbn	dischargedvbnwhenwrbcompletevbn	dispatchvbnwhenwrbfinishvbn	completevbnwhenwrbfinishvbn	completevbnwhenwrbcompletevbn	dischargevbnwhenwrbfinishvbn	dischargevbnwhenwrbcompletevbn	
+
+BE: givenVBNwhenWRBcompletedVBN
+EQ class: givevbnwhenwrbcompletevbn	givenvbnwhenwrbfinishvbn	givenvbnwhenwrbcompletevbn	givevbnwhenwrbcompletedvbn	givevbnwhenwrbfinishvbn	
+
+BE: tribeNN
+EQ class: tribaljj	folknn	
+
+BE: CeltsLocationAnnotation
+EQ class: celticjj	
+
+BE: marriedVBD
+EQ class: wedvbd	espousevbd	get_marriedvbd	conjoinvbd	hook_up_withvbd	get_hitched_withvbd	marryvbd	
+
+BE: localJJ
+EQ class: 
+
+BE: localJJtribeNN
+EQ class: localjjtribaljj	localjjfolknn	tribalvblocallyrb	
+
+BE: ..CDCeltsLocationAnnotation
+EQ class: ..cdcelticjj	cdceltslocationannotation	cdcelticjj	
+
+BE: hePRPmarriedVBD
+EQ class: unionnnheprp	heprpget_hitched_withvbd	sprpconjoinvbd	saxonsprpespousevbd	matrimonynnofinsaxonsprp	marriagennofinsprp	marriednnofinsaxonsprp	spousal_relationshipnnofinsprp	marriednnsaxonsprp	sprpmarriedvbd	marriagennofinsaxonsprp	saxonsprpget_hitched_withvbd	saxonsprpget_marriedvbd	sprpmarryvbd	marriednnofinheprp	matrimonynnsprp	heprphook_up_withvbd	unionnnofinsaxonsprp	heprpget_marriedvbd	sprpget_hitched_withvbd	heprpespousevbd	unionnnofinheprp	wedlocknnofinheprp	saxonsprpmarriedvbd	wedlocknnofinsprp	marriednnheprp	marriagennsprp	marriagennofinheprp	saxonsprpconjoinvbd	sprpwedvbd	wedlocknnsaxonsprp	unionnnsaxonsprp	matrimonynnofinheprp	unionnnsprp	spousal_relationshipnnofinheprp	saxonsprpmarryvbd	spousal_relationshipnnheprp	wedlocknnsprp	spousal_relationshipnnsaxonsprp	saxonsprphook_up_withvbd	spousal_relationshipnnofinsaxonsprp	saxonsprpwedvbd	sprphook_up_withvbd	matrimonynnofinsprp	sprpespousevbd	heprpmarryvbd	wedlocknnheprp	marriagennheprp	heprpconjoinvbd	matrimonynnsaxonsprp	marriagennsaxonsprp	marriednnofinsprp	marriednnsprp	wedlocknnofinsaxonsprp	sprpget_marriedvbd	unionnnofinsprp	matrimonynnheprp	spousal_relationshipnnsprp	heprpwedvbd	
+
+BE: tribeNNofINCeltsLocationAnnotation
+EQ class: tribalvbcelticjj	tribaljjofincelticjj	celticjjtribalvb	celticjjtribaljj	folknnofincelticjj	folknnofinceltslocationannotation	celtslocationannotationtribenn	celtslocationannotationtribaljj	tribalvbceltslocationannotation	celticjjtribenn	tribaljjofinceltslocationannotation	celtslocationannotationfolknn	celtslocationannotationtribalvb	tribennofincelticjj	celticjjfolknn	
+
+BE: marriedVBDintoINtribeNN
+EQ class: marriedvbdintoinfolknn	get_hitched_withvbdintoinfolknn	espousevbdintointribaljj	conjoinvbdintointribenn	hook_up_withvbdintoinfolknn	get_marriedvbdintointribenn	espousevbdintoinfolknn	get_marriedvbdintoinfolknn	marryvbdintointribaljj	conjoinvbdintointribaljj	wedvbdintointribenn	marriedvbdintointribaljj	wedvbdintoinfolknn	hook_up_withvbdintointribaljj	espousevbdintointribenn	get_marriedvbdintointribaljj	get_hitched_withvbdintointribenn	wedvbdintointribaljj	get_hitched_withvbdintointribaljj	hook_up_withvbdintointribenn	marryvbdintoinfolknn	conjoinvbdintoinfolknn	marryvbdintointribenn	
+
+BE: marriedVBDSoRB
+EQ class: spousal_relationshipnnofinsorb	matrimonynnofinsorb	unionnnofinsorb	marriagennofinsorb	marriednnofinsorb	hook_up_withvbdsorb	wedvbdsorb	wedlocknnofinsorb	get_marriedvbdsorb	marryvbdsorb	espousevbdsorb	get_hitched_withvbdsorb	conjoinvbdsorb	
+
+BE: marriedVBDprobablyRB
+EQ class: probablejjininmarriagenn	unionnnofinprobablyrb	marryvbdprobablyrb	probablejjmarriednn	likelyjjininwedlocknn	hook_up_withvbdprobablyrb	probablejjmarriagenn	probablejjininespousevbd	wedlocknnofinprobablyrb	probabilitynnininmarriagenn	probabilitynnininget_hitched_withvbd	probabilitynnspousal_relationshipnn	probabilitynnmatrimonynn	likelyjjmarriednn	probablejjunionnn	probabilitynnininwedvbd	probabilitynnininmatrimonynn	probablejjininmarryvbd	wedvbdprobablyrb	likelyjjininspousal_relationshipnn	likelyjjininget_hitched_withvbd	likelyjjininmarriednn	probablejjininmatrimonynn	probabilitynnininmarriedvbd	probabilitynnunionnn	conjoinvbdprobablyrb	probabilitynnininunionnn	probablejjininget_hitched_withvbd	probablejjininwedvbd	probabilitynnininget_marriedvbd	probabilitynnininspousal_relationshipnn	likelyjjininunionnn	probablejjininconjoinvbd	likelyjjininget_marriedvbd	likelyjjininmarriagenn	spousal_relationshipnnofinprobablyrb	likelyjjininmarryvbd	likelyjjininespousevbd	likelyjjmarriagenn	probablejjininwedlocknn	probabilitynnininmarryvbd	marriagennofinprobablyrb	get_hitched_withvbdprobablyrb	probabilitynnmarriagenn	probabilitynnwedlocknn	probablejjspousal_relationshipnn	likelyjjunionnn	likelyjjwedlocknn	get_marriedvbdprobablyrb	probablejjininunionnn	marriednnofinprobablyrb	likelyjjininmatrimonynn	likelyjjmatrimonynn	probabilitynnininwedlocknn	probabilitynnmarriednn	probablejjininmarriednn	probabilitynnininmarriednn	espousevbdprobablyrb	probabilitynnininespousevbd	likelyjjspousal_relationshipnn	probablejjmatrimonynn	probabilitynnininhook_up_withvbd	probablejjininhook_up_withvbd	probabilitynnininconjoinvbd	probablejjininmarriedvbd	probablejjininget_marriedvbd	probablejjwedlocknn	likelyjjininhook_up_withvbd	likelyjjininmarriedvbd	likelyjjininwedvbd	probablejjininspousal_relationshipnn	matrimonynnofinprobablyrb	likelyjjininconjoinvbd	
+
+BE: manNN
+EQ class: adult_malenn	manlyjj	
+
+BE: womanNN
+EQ class: adult_femalenn	womanlyjj	
+
+BE: childrenNNS
+EQ class: kidnns	tykenns	small_frynns	minornns	youngsternns	nestlingnns	childlyjj	theynns	frynns	tiddlernns	nippernns	shavernns	tikenns	themnns	childnns	
+
+BE: childrenNNS
+EQ class: kidnns	tykenns	small_frynns	minornns	youngsternns	nestlingnns	childlyjj	theynns	frynns	tiddlernns	nippernns	shavernns	tikenns	themnns	childnns	
+
+BE: childrenNNS
+EQ class: kidnns	tykenns	small_frynns	minornns	youngsternns	nestlingnns	childlyjj	theynns	frynns	tiddlernns	nippernns	shavernns	tikenns	themnns	childnns	
+
+BE: partnersNNS
+EQ class: spousenns	theynns	married_personnns	matenns	better_halfnns	partnernns	themnns	
+
+BE: generationsNNS
+EQ class: generationaljj	contemporariesnns	generationnns	theynns	coevalsnns	themnns	
+
+BE: todayNN
+EQ class: 
+
+BE: folkNN
+EQ class: common_peoplenn	folksnn	
+
+BE: AfricanNNP
+EQ class: africanjj	
+
+BE: DNA.InNNP
+EQ class: dnainnnp	inchnnp	innnp	
+
+BE: agesNNS
+EQ class: theynns	themnns	agenns	
+
+BE: populationNN
+EQ class: 
+
+BE: PortugalLocationAnnotation
+EQ class: eecnn	common_marketnn	european_unionnn	europenn	portuguesenn	ecnn	eunn	north_atlantic_treaty_organizationnn	european_communitynn	natonn	european_economic_communitynn	
+
+BE: %NN
+EQ class: %.nn	
+
+BE: AfricanNNP
+EQ class: africanjj	
+
+BE: reNNP
+EQ class: rheniumnnp	atomic_number_75nnp	
+
+BE: PortugueseLocationAnnotation
+EQ class: portuguesejj	
+
+BE: etcNN
+EQ class: 
+
+BE: producesVBZ
+EQ class: producevbz	bring_forthvbz	
+
+BE: bearVB
+EQ class: 
+
+BE: becomeVB
+EQ class: govb	getvb	
+
+BE: arriveVBP
+EQ class: comevbp	getvbp	
+
+BE: happensVBZ
+EQ class: go_onvbz	passvbz	take_placevbz	happenvbz	hapvbz	fall_outvbz	pass_offvbz	come_aboutvbz	occurvbz	
+
+BE: happenedVBN
+EQ class: fall_outvbn	occurvbn	hapvbn	take_placevbn	passvbn	pass_offvbn	come_aboutvbn	go_onvbn	happenvbn	
+
+BE: continueVB
+EQ class: keepvb	go_onvb	proceedvb	go_alongvb	
+
+BE: blackJJ
+EQ class: blacknessnn	
+
+BE: off-springJJ
+EQ class: 
+
+BE: whiteJJ
+EQ class: whitenn	whitenessnn	
+
+BE: blackJJ
+EQ class: blacknessnn	
+
+BE: whiteJJ
+EQ class: whitenn	whitenessnn	
+
+BE: blackJJ
+EQ class: blacknessnn	
+
+BE: whiteJJ
+EQ class: whitenn	whitenessnn	
+
+BE: earlyJJ
+EQ class: earlinessnn	
+
+BE: middleJJ
+EQ class: in-betweenjj	mediatejj	
+
+BE: intermarriageJJ
+EQ class: 
+
+BE: blackJJmanNN
+EQ class: blackjjadult_malenn	blacknessnnadult_malenn	blackjjmanlyjj	blacknessnnmannn	blacknessnnmanlyjj	
+
+BE: whiteJJwomanNN
+EQ class: whitenessnnwomanlyjj	whitejjadult_femalenn	whitennwomanlyjj	whitennwomannn	whitenessnnadult_femalenn	whitennadult_femalenn	whitejjwomanlyjj	whitenessnnwomannn	
+
+BE: whiteJJpartnersNNS
+EQ class: whitejjmarried_personnns	whitennthemnns	whitejjspousenns	whitejjpartnernns	whitenessnnmatenns	whitenntheynns	whitenessnntheynns	whitenessnnthemnns	whitennmatenns	whitejjbetter_halfnns	whitejjtheynns	whitenessnnbetter_halfnns	whitennmarried_personnns	whitennbetter_halfnns	whitenessnnspousenns	whitennspousenns	whitejjthemnns	whitennpartnersnns	whitenessnnpartnersnns	whitennpartnernns	whitenessnnmarried_personnns	whitejjmatenns	whitenessnnpartnernns	
+
+BE: whiteJJfolkNN
+EQ class: whitejjfolksnn	whitennfolksnn	whitennfolknn	whitenessnncommon_peoplenn	whitenessnnfolknn	whitejjcommon_peoplenn	whitenessnnfolksnn	whitenncommon_peoplenn	
+
+BE: earlyJJagesNNS
+EQ class: earlyjjagenns	earlinessnnagenns	earlyjjthemnns	earlinessnntheynns	earlinessnnagesnns	earlinessnnthemnns	earlyjjtheynns	
+
+BE: middleJJagesNNS
+EQ class: mediatejjagesnns	mediatejjagenns	mediatejjthemnns	middlejjtheynns	in-betweenjjtheynns	mediatejjtheynns	in-betweenjjagesnns	middlejjthemnns	in-betweenjjthemnns	in-betweenjjagenns	middlejjagenns	
+
+BE: 12CD%NN
+EQ class: xiicd%.nn	12cd%.nn	xiicd%nn	dozencd%.nn	twelvecd%nn	twelvecd%.nn	dozencd%nn	1.2.cd%nn	1.2.cd%.nn	
+
+BE: intermarriageJJetcNN
+EQ class: 
+
+BE: AfricanNNPDNA.InNNP
+EQ class: inchnnpofinafricannnp	africanjjdna.innnp	africannnpdnainnnp	dna.innnpofinafricanjj	africanjjdnainnnp	dna.innnpofinafricannnp	africanjjinnnp	africanjjinchnnp	innnpofinafricanjj	inchnnpofinafricanjj	africannnpinchnnp	africannnpinnnp	innnpofinafricannnp	
+
+BE: todayNNfolkNN
+EQ class: todaynncommon_peoplenn	todaynnfolksnn	common_peoplenntodaynn	folksnntodaynn	folknntodaynn	
+
+BE: manNNproducesVBZ
+EQ class: producernnmannn	manufacturernnadult_malenn	manufacturernnmanlyjj	manufacturernnofinadult_malenn	adult_malennproducevbz	producernnofinmanlyjj	producernnofinadult_malenn	mannnproducevbz	producernnmanlyjj	adult_malennproducesvbz	adult_malennbring_forthvbz	manufacturernnofinmanlyjj	manlyjjproducesvbz	manufacturernnmannn	producernnadult_malenn	manufacturernnofinmannn	manlyjjbring_forthvbz	mannnbring_forthvbz	producernnofinmannn	manlyjjproducevbz	
+
+BE: childrenNNSbeAUX
+EQ class: tykennsbeaux	tikennsbeaux	youngsternnsbeaux	frynnsbeaux	minornnsbeaux	childnnsbeaux	shavernnsbeaux	kidnnsbeaux	themnnsbeaux	tiddlernnsbeaux	nestlingnnsbeaux	nippernnsbeaux	small_frynnsbeaux	theynnsbeaux	childlyjjbeaux	
+
+BE: childrenNNSbearVB
+EQ class: youngsternnsbearvb	small_frynnsbearvb	tikennsbearvb	minornnsbearvb	nestlingnnsbearvb	themnnsbearvb	tykennsbearvb	theynnsbearvb	frynnsbearvb	childnnsbearvb	childlyjjbearvb	tiddlernnsbearvb	kidnnsbearvb	nippernnsbearvb	shavernnsbearvb	
+
+BE: blackJJbecomeVB
+EQ class: blacknessnnbecomevb	blacknessnngetvb	blackjjgetvb	blacknessnngovb	blackjjgovb	
+
+BE: wePRParriveVBP
+EQ class: weprpgetvbp	reachingnnofinweprp	weprpcomevbp	arrivernnweprp	arrivernnofinweprp	comernnofinweprp	comernnweprp	reachingnnweprp	arrivalnnweprp	arrivalnnofinweprp	
+
+BE: populationNNwasAUX
+EQ class: populationnnbeaux	
+
+BE: itPRPhappensVBZ
+EQ class: itprpcome_aboutvbz	natural_eventnnitprp	itprppassvbz	occurrencennofinitprp	occurrentnnofinitprp	itprptake_placevbz	itprphapvbz	happeningnnitprp	itprphappenvbz	itprppass_offvbz	itprpfall_outvbz	itprpgo_onvbz	itprpoccurvbz	happeningnnofinitprp	natural_eventnnofinitprp	occurrentnnitprp	occurrencennitprp	
+
+BE: itPRPcontinueVB
+EQ class: itprpgo_alongvb	itprpkeepvb	itprpproceedvb	continuationnnitprp	continuancennofinitprp	itprpgo_onvb	continuationnnofinitprp	continuancennitprp	
+
+BE: itPRPhappenedVBN
+EQ class: itprptake_placevbn	itprpoccurvbn	natural_eventnnitprp	itprphappenvbn	itprppass_offvbn	occurrencennofinitprp	itprpcome_aboutvbn	occurrentnnofinitprp	happeningnnitprp	itprpgo_onvbn	itprphapvbn	itprppassvbn	happeningnnofinitprp	natural_eventnnofinitprp	itprpfall_outvbn	occurrentnnitprp	occurrencennitprp	
+
+BE: %NNareAUX
+EQ class: %.nnbeaux	%.nnareaux	%nnbeaux	
+
+BE: AfricanNNPareAUX
+EQ class: africanjjbeaux	africanjjareaux	africannnpbeaux	
+
+BE: happensVBZetcNN
+EQ class: happeningnnofinetcnn	come_aboutvbzetcnn	hapvbzetcnn	fall_outvbzetcnn	occurrentnnofinetcnn	occurvbzetcnn	happenvbzetcnn	take_placevbzetcnn	passvbzetcnn	occurrencennofinetcnn	pass_offvbzetcnn	natural_eventnnofinetcnn	go_onvbzetcnn	
+
+BE: happenedVBNetcNN
+EQ class: happeningnnofinetcnn	go_onvbnetcnn	hapvbnetcnn	occurrentnnofinetcnn	passvbnetcnn	fall_outvbnetcnn	take_placevbnetcnn	pass_offvbnetcnn	happenvbnetcnn	occurrencennofinetcnn	occurvbnetcnn	natural_eventnnofinetcnn	come_aboutvbnetcnn	
+
+BE: continueVBetcNN
+EQ class: keepvbetcnn	go_alongvbetcnn	continuancennofinetcnn	continuationnnofinetcnn	proceedvbetcnn	go_onvbetcnn	
+
+BE: bearVBchildrenNNS
+EQ class: bearvbtiddlernns	bearvbtikenns	bearvbnippernns	bearvbminornns	bearvbnestlingnns	bearvbchildnns	bearvbtykenns	bearvbkidnns	bearvbtheynns	bearvbshavernns	bearvbsmall_frynns	bearvbfrynns	bearvbyoungsternns	bearvbchildlyjj	bearvbthemnns	
+
+BE: areAUXtheyPRP
+EQ class: areauxlegionsprp	areauxsettlementsprp	beauxyearsprp	beauxkentprp	beauxtheyprp	areauxpartnersprp	beauxceltsprp	areauxburningsprp	beauxpartsprp	beauxtestsprp	areauxcanterburyprp	areauxagesprp	areauxgenerationsprp	areauxyearsprp	beauxagesprp	beauxrecordsprp	areaux[africansprp	beauxsettlementsprp	areauxyorkshireprp	areauxrecordsprp	areauxhuman raceprp	areauxwordsprp	areauxthingsprp	beauxdigsprp	areauxchildrenprp	areauxromansprp	areauxthe south eastprp	beauxthingsprp	areauxceltsprp	beauxthe south eastprp	beauxyorkshireprp	beauxwordsprp	beauxromansprp	beauxchildrenprp	areauxenglish .prp	beauxgenerationsprp	beauxcanterburyprp	beauxlegionsprp	areauxpartsprp	areauxhousesprp	beauxhousesprp	beauxarmiesprp	beauxburningsprp	areauxkentprp	areauxdark agesprp	beauxhuman raceprp	beaux[africansprp	beauxdark agesprp	areauxtestsprp	beauxpartnersprp	areauxdigsprp	beauxenglish .prp	areauxarmiesprp	
+
+BE: arriveVBPtheyPRP
+EQ class: getvbpkentprp	comevbppartsprp	getvbphuman raceprp	arrivernnofinrecordsprp	arrivevbptestsprp	comernnofingenerationsprp	comevbpsettlementsprp	comevbpyearsprp	arrivevbpthingsprp	getvbp[africansprp	arrivernnofin[africansprp	comernnofinenglish .prp	comernnofinwordsprp	reachingnnofindark agesprp	arrivernnofinarmiesprp	comevbpceltsprp	arrivalnnofinyorkshireprp	arrivalnnofinlegionsprp	getvbpyorkshireprp	reachingnnofinceltsprp	getvbptheyprp	comevbpthingsprp	arrivevbpsettlementsprp	reachingnnofinyearsprp	reachingnnofinsettlementsprp	getvbpcanterburyprp	comernnofinyorkshireprp	arrivernnofinenglish .prp	comevbpdark agesprp	arrivernnofinpartsprp	comernnofinromansprp	comevbphuman raceprp	arrivevbphuman raceprp	reachingnnofintheyprp	comernnofinkentprp	getvbpthingsprp	arrivalnnofinarmiesprp	arrivernnofindark agesprp	getvbpdigsprp	comevbpburningsprp	arrivalnnofinrecordsprp	getvbpgenerationsprp	reachingnnofintestsprp	comevbprecordsprp	comevbparmiesprp	arrivernnofinburningsprp	reachingnnofingenerationsprp	comernnofinsettlementsprp	arrivernnofinchildrenprp	arrivalnnofinburningsprp	reachingnnofinagesprp	getvbpenglish .prp	comevbplegionsprp	arrivernnofinyearsprp	reachingnnofinthingsprp	arrivalnnofingenerationsprp	arrivernnofinthe south eastprp	comernnofinpartnersprp	comernnofinarmiesprp	comevbpgenerationsprp	getvbpdark agesprp	comevbp[africansprp	comevbphousesprp	arrivernnofinwordsprp	arrivevbpenglish .prp	reachingnnofinhuman raceprp	arrivalnnofintestsprp	reachingnnofinchildrenprp	arrivevbparmiesprp	getvbplegionsprp	arrivalnnofinceltsprp	arrivernnofintestsprp	arrivalnnofintheyprp	reachingnnofinarmiesprp	comernnofinpartsprp	arrivernnofingenerationsprp	arrivevbpchildrenprp	comevbpwordsprp	getvbpburningsprp	getvbpthe south eastprp	comernnofinburningsprp	arrivevbpburningsprp	arrivalnnofincanterburyprp	reachingnnofincanterburyprp	reachingnnofinrecordsprp	arrivevbp[africansprp	arrivernnofinhuman raceprp	comernnofinthe south eastprp	arrivevbprecordsprp	comevbpyorkshireprp	reachingnnofinwordsprp	reachingnnofindigsprp	arrivernnofinromansprp	getvbprecordsprp	getvbpchildrenprp	arrivernnofintheyprp	arrivernnofinhousesprp	comernnofinchildrenprp	arrivalnnofinenglish .prp	arrivevbpyorkshireprp	arrivalnnofinhuman raceprp	getvbpwordsprp	comernnofinlegionsprp	comevbpchildrenprp	arrivevbpromansprp	comevbptheyprp	reachingnnofinthe south eastprp	arrivernnofinkentprp	reachingnnofinenglish .prp	arrivevbphousesprp	getvbptestsprp	comernnofinceltsprp	getvbphousesprp	arrivevbppartnersprp	arrivalnnofindigsprp	comernnofincanterburyprp	comernnofinhuman raceprp	reachingnnofinburningsprp	getvbparmiesprp	getvbpceltsprp	arrivernnofinsettlementsprp	comernnofintheyprp	reachingnnofinpartsprp	reachingnnofinpartnersprp	arrivalnnofinchildrenprp	arrivevbplegionsprp	reachingnnofinlegionsprp	arrivernnofinyorkshireprp	getvbpagesprp	arrivevbpdigsprp	getvbpyearsprp	reachingnnofinhousesprp	comernnofinhousesprp	comernnofinrecordsprp	arrivalnnofinhousesprp	arrivalnnofinpartnersprp	comevbppartnersprp	comevbpagesprp	arrivalnnofinthe south eastprp	arrivernnofinthingsprp	arrivevbpagesprp	arrivalnnofinpartsprp	arrivalnnofinwordsprp	arrivevbppartsprp	arrivalnnofindark agesprp	comevbpthe south eastprp	arrivevbpwordsprp	arrivalnnofinyearsprp	comevbpdigsprp	comevbptestsprp	comernnofindark agesprp	comernnofinagesprp	getvbppartsprp	arrivalnnofinthingsprp	reachingnnofin[africansprp	comevbpromansprp	getvbpsettlementsprp	arrivalnnofinkentprp	reachingnnofinromansprp	arrivevbpdark agesprp	arrivevbpyearsprp	arrivernnofinpartnersprp	arrivalnnofinsettlementsprp	comernnofinyearsprp	arrivernnofincanterburyprp	arrivalnnofinromansprp	arrivevbpgenerationsprp	comevbpkentprp	comevbpenglish .prp	arrivalnnofinagesprp	reachingnnofinkentprp	arrivernnofindigsprp	comevbpcanterburyprp	comernnofin[africansprp	arrivevbpkentprp	arrivernnofinagesprp	getvbpromansprp	arrivevbpcanterburyprp	arrivalnnofin[africansprp	comernnofindigsprp	arrivernnofinlegionsprp	arrivevbpceltsprp	reachingnnofinyorkshireprp	comernnofintestsprp	getvbppartnersprp	arrivevbpthe south eastprp	comernnofinthingsprp	arrivernnofinceltsprp	
+
+BE: beAUXblackJJ
+EQ class: beauxblacknessnn	
+
+BE: childrenNNSwithINpartnersNNS
+EQ class: small_frynnswithinthemnns	matennsthemnns	theynnsyoungsternns	partnersnnschildhoodvb	minornnswithinpartnernns	nestlingnnswithinpartnernns	married_personnnschildnns	nippernnswithinbetter_halfnns	childhoodvbmatenns	spousennschildnns	married_personnnsyoungsternns	minornnswithinmatenns	themnnswithintheynns	themnnswithinmarried_personnns	themnnstikenns	frynnswithinbetter_halfnns	themnnstykenns	themnnsnippernns	matennsshavernns	spousennsshavernns	minornnswithinthemnns	themnnschildlyvb	married_personnnsminornns	partnersnnstheynns	childlyjjwithinthemnns	partnersnnsthemnns	youngsternnswithinspousenns	tykennswithinpartnersnns	tiddlernnswithinpartnersnns	spousennstiddlernns	matennschildnns	tiddlernnswithinthemnns	tiddlernnswithinpartnernns	matennsnestlingnns	matennschildhoodvb	partnernnssmall_frynns	childlyvbbetter_halfnns	childlyjjwithinmatenns	matennstheynns	theynnschildlyjj	spousennschildrennns	minornnswithinspousenns	themnnsnestlingnns	themnnstheynns	frynnswithinpartnernns	matennsminornns	partnernnsnestlingnns	married_personnnschildlyvb	childlyvbpartnernns	partnersnnstikenns	better_halfnnssmall_frynns	frynnswithinmarried_personnns	partnersnnsyoungsternns	partnernnsthemnns	partnernnstikenns	kidnnswithinpartnernns	better_halfnnschildhoodvb	childnnswithinspousenns	better_halfnnschildnns	theynnsthemnns	kidnnswithinspousenns	nippernnswithinpartnersnns	themnnsfrynns	married_personnnsnestlingnns	partnersnnschildlyvb	themnnswithinspousenns	nestlingnnswithinspousenns	childnnswithinmatenns	partnersnnskidnns	themnnswithinthemnns	childnnswithinbetter_halfnns	partnersnnsfrynns	tykennswithinmarried_personnns	childnnswithinpartnersnns	better_halfnnsnestlingnns	shavernnswithinmatenns	childlyvbmatenns	tiddlernnswithinmarried_personnns	childhoodvbmarried_personnns	matennschildlyvb	partnernnsnippernns	nestlingnnswithinbetter_halfnns	spousennschildlyvb	partnersnnsshavernns	partnernnstiddlernns	married_personnnstiddlernns	married_personnnstykenns	childrennnswithinthemnns	tikennswithinmatenns	theynnswithintheynns	tykennswithinmatenns	better_halfnnskidnns	themnnstiddlernns	themnnsminornns	minornnswithintheynns	theynnswithinpartnersnns	nippernnswithinmatenns	theynnssmall_frynns	matennskidnns	nestlingnnswithinmarried_personnns	partnernnstheynns	spousennsfrynns	theynnstykenns	married_personnnsshavernns	small_frynnswithinmatenns	partnernnskidnns	childlyjjwithintheynns	minornnswithinmarried_personnns	kidnnswithinmatenns	childrennnswithinmatenns	childlyjjwithinspousenns	theynnswithinspousenns	married_personnnstheynns	matennsnippernns	themnnschildhoodvb	childhoodvbtheynns	better_halfnnsfrynns	partnersnnssmall_frynns	tikennswithinpartnernns	themnnswithinbetter_halfnns	partnernnsshavernns	married_personnnsnippernns	childlyvbspousenns	partnernnschildhoodvb	themnnswithinpartnernns	shavernnswithinbetter_halfnns	minornnswithinbetter_halfnns	partnersnnsminornns	partnernnschildrennns	theynnstikenns	matennstykenns	matennstiddlernns	spousennssmall_frynns	married_personnnskidnns	kidnnswithinbetter_halfnns	married_personnnschildrennns	theynnswithinmatenns	childlyjjwithinmarried_personnns	matennschildlyjj	childhoodvbspousenns	better_halfnnschildlyjj	nestlingnnswithinmatenns	small_frynnswithintheynns	tikennswithinspousenns	partnersnnsnippernns	nestlingnnswithintheynns	childlyvbthemnns	married_personnnstikenns	theynnschildhoodvb	tykennswithinthemnns	shavernnswithinthemnns	partnersnnschildrennns	childrennnswithinmarried_personnns	better_halfnnsshavernns	childlyjjwithinpartnersnns	spousennsnippernns	theynnsminornns	childlyvbtheynns	youngsternnswithinpartnernns	matennssmall_frynns	tiddlernnswithintheynns	partnersnnstiddlernns	kidnnswithinpartnersnns	better_halfnnstikenns	childhoodvbbetter_halfnns	themnnschildlyjj	childlyjjwithinpartnernns	theynnswithinthemnns	themnnswithinpartnersnns	theynnstheynns	theynnswithinmarried_personnns	better_halfnnsminornns	spousennschildhoodvb	tikennswithinpartnersnns	themnnswithinmatenns	better_halfnnschildlyvb	youngsternnswithintheynns	minornnswithinpartnersnns	partnernnsminornns	better_halfnnstykenns	married_personnnschildhoodvb	shavernnswithinmarried_personnns	shavernnswithinspousenns	married_personnnschildlyjj	partnernnschildnns	spousennsminornns	themnnsshavernns	childrennnswithinspousenns	better_halfnnsthemnns	youngsternnswithinthemnns	small_frynnswithinspousenns	small_frynnswithinmarried_personnns	childrennnswithinpartnernns	partnersnnsnestlingnns	theynnswithinpartnernns	spousennstikenns	childrennnswithintheynns	married_personnnssmall_frynns	better_halfnnstiddlernns	childhoodvbthemnns	theynnsnestlingnns	tykennswithinbetter_halfnns	childnnswithinpartnernns	partnernnsfrynns	theynnsnippernns	nestlingnnswithinpartnersnns	kidnnswithinthemnns	tiddlernnswithinbetter_halfnns	spousennschildlyjj	childlyvbpartnersnns	matennsyoungsternns	partnernnschildlyvb	youngsternnswithinmatenns	theynnsshavernns	frynnswithinthemnns	partnernnsyoungsternns	theynnskidnns	youngsternnswithinpartnersnns	tiddlernnswithinmatenns	spousennskidnns	shavernnswithinpartnernns	small_frynnswithinpartnernns	nippernnswithinpartnernns	frynnswithinmatenns	childnnswithinthemnns	partnernnschildlyjj	shavernnswithinpartnersnns	nippernnswithintheynns	tikennswithinmarried_personnns	childrennnswithinbetter_halfnns	tikennswithinbetter_halfnns	better_halfnnsyoungsternns	small_frynnswithinbetter_halfnns	childlyvbmarried_personnns	theynnstiddlernns	matennsfrynns	nestlingnnswithinthemnns	youngsternnswithinmarried_personnns	better_halfnnsnippernns	theynnschildrennns	partnersnnstykenns	kidnnswithintheynns	tiddlernnswithinspousenns	married_personnnsthemnns	frynnswithinspousenns	small_frynnswithinpartnersnns	childhoodvbpartnernns	kidnnswithinmarried_personnns	themnnschildnns	matennstikenns	nippernnswithinspousenns	partnernnstykenns	tikennswithinthemnns	partnersnnschildlyjj	tykennswithintheynns	married_personnnsfrynns	nippernnswithinthemnns	spousennsnestlingnns	childnnswithinmarried_personnns	better_halfnnschildrennns	themnnsthemnns	youngsternnswithinbetter_halfnns	childnnswithintheynns	tykennswithinspousenns	nippernnswithinmarried_personnns	frynnswithinpartnersnns	themnnsyoungsternns	theynnsfrynns	shavernnswithintheynns	spousennsyoungsternns	matennschildrennns	spousennstykenns	childhoodvbpartnersnns	themnnskidnns	spousennsthemnns	partnersnnschildnns	theynnschildnns	tykennswithinpartnernns	childlyjjwithinbetter_halfnns	themnnschildrennns	theynnschildlyvb	better_halfnnstheynns	frynnswithintheynns	theynnswithinbetter_halfnns	tikennswithintheynns	themnnssmall_frynns	spousennstheynns	
+
+BE: folkNNwithINDNA.InNNP
+EQ class: common_peoplennwithininchnnp	folksnnwithindna.innnp	folknnwithindnainnnp	dna.innnpcommon_peoplenn	folksnnwithindnainnnp	dnainnnpfolknn	folksnnwithininchnnp	dnainnnpfolksnn	inchnnpcommon_peoplenn	dnainnnpcommon_peoplenn	innnpfolknn	inchnnpfolknn	common_peoplennwithininnnp	folksnnwithininnnp	innnpfolksnn	folknnwithininnnp	dna.innnpfolknn	innnpcommon_peoplenn	dna.innnpfolksnn	common_peoplennwithindna.innnp	common_peoplennwithindnainnnp	inchnnpfolksnn	folknnwithininchnnp	
+
+BE: populationNNofINPortugalLocationAnnotation
+EQ class: livevbeuropean_communitynn	inhabitvbportugallocationannotation	common_marketnnpopulationnn	inhabitvbeuropean_unionnn	european_communitynnpopulatevb	populationnnofineunn	europenndwellvb	eunnpopulationnn	ecnndwellvb	portugallocationannotationdwellvb	livevbportuguesenn	european_communitynnpopulationnn	livevbnatonn	european_unionnnpopulatevb	natonnlivevb	dwellvbeuropenn	common_marketnninhabitvb	populatevbeunn	inhabitvbnorth_atlantic_treaty_organizationnn	europennlivevb	european_unionnninhabitvb	populationnnofincommon_marketnn	populatevbportuguesenn	eecnnpopulatevb	common_marketnndwellvb	european_economic_communitynnpopulatevb	european_communitynndwellvb	natonninhabitvb	populatevbecnn	north_atlantic_treaty_organizationnndwellvb	eecnninhabitvb	populationnnofineecnn	populatevbportugallocationannotation	european_unionnnlivevb	natonnpopulationnn	north_atlantic_treaty_organizationnnpopulatevb	eunnlivevb	common_marketnnpopulatevb	eecnnpopulationnn	populatevbnorth_atlantic_treaty_organizationnn	dwellvbnatonn	inhabitvbcommon_marketnn	populatevbeecnn	dwellvbcommon_marketnn	livevbnorth_atlantic_treaty_organizationnn	populatevbeuropean_communitynn	north_atlantic_treaty_organizationnnpopulationnn	dwellvbeuropean_unionnn	inhabitvbportuguesenn	populationnnofineuropean_unionnn	populationnnofineuropenn	dwellvbeunn	portuguesenninhabitvb	inhabitvbeunn	portuguesennpopulationnn	populatevbeuropean_unionnn	livevbeuropenn	livevbeunn	european_communitynnlivevb	populatevbeuropean_economic_communitynn	dwellvbnorth_atlantic_treaty_organizationnn	ecnnlivevb	european_communitynninhabitvb	dwellvbeuropean_economic_communitynn	portuguesennlivevb	north_atlantic_treaty_organizationnninhabitvb	ecnnpopulatevb	dwellvbportugallocationannotation	populationnnofineuropean_economic_communitynn	dwellvbeecnn	europennpopulationnn	european_economic_communitynndwellvb	portugallocationannotationpopulatevb	portuguesennpopulatevb	europennpopulatevb	inhabitvbnatonn	european_unionnndwellvb	european_economic_communitynninhabitvb	dwellvbeuropean_communitynn	populatevbcommon_marketnn	common_marketnnlivevb	livevbeecnn	ecnninhabitvb	inhabitvbeuropenn	eunnpopulatevb	north_atlantic_treaty_organizationnnlivevb	populatevbeuropenn	dwellvbportuguesenn	dwellvbecnn	populatevbnatonn	europenninhabitvb	populationnnofinnorth_atlantic_treaty_organizationnn	portugallocationannotationinhabitvb	eunndwellvb	eecnnlivevb	livevbeuropean_economic_communitynn	portugallocationannotationlivevb	eecnndwellvb	inhabitvbeuropean_economic_communitynn	populationnnofineuropean_communitynn	european_economic_communitynnpopulationnn	populationnnofinecnn	livevbcommon_marketnn	european_economic_communitynnlivevb	natonndwellvb	populationnnofinnatonn	eunninhabitvb	inhabitvbecnn	portuguesenndwellvb	natonnpopulatevb	inhabitvbeuropean_communitynn	livevbecnn	populationnnofinportuguesenn	ecnnpopulationnn	livevbeuropean_unionnn	portugallocationannotationpopulationnn	inhabitvbeecnn	livevbportugallocationannotation	european_unionnnpopulationnn	
+
+BE: becomeVBonINgenerationsNNS
+EQ class: getvboningenerationsnns	govbonincoevalsnns	getvboningenerationnns	becomevboningenerationnns	govbonintheynns	becomevboninthemnns	getvbonintheynns	govboninthemnns	govboningenerationsnns	govbonincontemporariesnns	becomevbonintheynns	getvbonincoevalsnns	govboningenerationaljj	becomevbonincoevalsnns	getvbonincontemporariesnns	getvboninthemnns	govboningenerationnns	becomevboningenerationaljj	becomevbonincontemporariesnns	getvboningenerationaljj	
+
+BE: arriveVBPatINtodayNN
+EQ class: comevbpatintodaynn	getvbpatintodaynn	
+
+BE: arriveVBPatINfolkNN
+EQ class: comevbpatinfolksnn	comevbpatincommon_peoplenn	getvbpatincommon_peoplenn	getvbpatinfolknn	arrivevbpatincommon_peoplenn	arrivevbpatinfolksnn	getvbpatinfolksnn	comevbpatinfolknn	
+
+BE: arriveVBPatINagesNNS
+EQ class: comevbpatintheynns	comevbpatinagesnns	getvbpatinagenns	getvbpatinagesnns	getvbpatintheynns	arrivevbpatinagenns	comevbpatinagenns	comevbpatinthemnns	arrivevbpatinthemnns	arrivevbpatintheynns	getvbpatinthemnns	
+
+BE: wasAUXaboutIN%NN
+EQ class: wasauxaboutin%.nn	beauxaboutin%.nn	beauxaboutin%nn	
+
+BE: wasAUXaboutINAfricanNNP
+EQ class: beauxaboutinafricanjj	beauxaboutinafricannnp	wasauxaboutinafricanjj	
+
+BE: off-springJJwithINwomanNN
+EQ class: off-springjjwithinwomanlyjj	off-springjjwithinadult_femalenn	
+
+BE: %NNwhereWRBareAUX
+EQ class: %.nnwherewrbareaux	%.nnwherewrbbeaux	%nnwherewrbbeaux	
+
+BE: becomeVBuntilINarriveVBP
+EQ class: getvbuntilingetvbp	getvbuntilincomevbp	getvbuntilinarrivevbp	govbuntilingetvbp	becomevbuntilincomevbp	govbuntilincomevbp	govbuntilinarrivevbp	becomevbuntilingetvbp	
+
+BE: bearVBthenRB
+EQ class: 
+
+BE: becomeVBsoRB
+EQ class: getvbsorb	govbsorb	
+
+BE: areAUXallRB
+EQ class: beauxallrb	
+
+BE: areAUXnowLocationAnnotation
+EQ class: beauxnowlocationannotation	
+
+BE: continueVBeverRB
+EQ class: continuancennofineverrb	go_onvbeverrb	go_alongvbeverrb	keepvbeverrb	proceedvbeverrb	continuationnnofineverrb	
+
+BE: continueVBthusRB
+EQ class: keepvbthusrb	go_alongvbthusrb	proceedvbthusrb	go_onvbthusrb	continuationnnofinthusrb	continuancennofinthusrb	
+
+BE: Human RaceOrganizationAnnotation
+EQ class: 
+
+BE: wePRPareAUX
+EQ class: weprpbeaux	
+
+BE: areAUXHuman RaceOrganizationAnnotation
+EQ class: beauxhuman raceorganizationannotation	
+

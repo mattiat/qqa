@@ -1,0 +1,96 @@
+#Recent observations suggest that the universe is 13.7 billion years old. 
+#(S1 (S (NP (JJ Recent) (NNS observations)) (VP (VBP suggest) (SBAR (IN that) (S (NP (DT the) (NN universe)) (VP (AUX is) (ADJP (NP (QP (CD 13.7) (CD billion)) (NNS years)) (JJ old)))))) (. .)))
+#Rule:Nouns
+r1observationsNNS
+r1universeNN
+r1yearsNNS
+
+#Rule:Verbs
+r2suggestVBP
+
+#Rule:Adjs
+r4RecentJJ
+r4oldJJ
+
+#Rule:Adj-Noun
+r5RecentJJobservationsNNS
+r513.7CDyearsNNS
+r5billionCDyearsNNS
+
+#Rule:HeadNoun-V
+r11observationsNNSsuggestVBP
+r11universeNNisAUX
+
+#Rule:V-ADJ
+r25isAUXoldJJ
+
+#Rule:V-IN-V
+r43suggestVBPthatINisAUX
+
+#COBE measuring the background radiation and Hubble looking at distant young galaxies both tally with this figure. 
+#(S1 (S (S (NP (NNP COBE)) (VP (VBG measuring) (NP (DT the) (NN background) (NN radiation)))) (CC and) (S (NP (NNP Hubble)) (VP (VBG looking) (PP (IN at) (NP (NP (JJ distant) (JJ young) (NNS galaxies) (CC both) (NN tally)) (PP (IN with) (NP (DT this) (NN figure))))))) (. .)))
+#Rule:Nouns
+r1COBENNP
+r1backgroundNN
+r1radiationNN
+r1HubbleNNP
+r1galaxiesNNS
+r1tallyNN
+r1figureNN
+
+#Rule:Verbs
+r2measuringVBG
+r2lookingVBG
+
+#Rule:Adjs
+r4distantJJ
+r4youngJJ
+
+#Rule:Adj-Noun
+r5distantJJgalaxiesNNS
+r5youngJJgalaxiesNNS
+
+#Rule:N-HeadNoun
+r8backgroundNNradiationNN
+
+#Rule:HeadNoun-V
+r11COBENNPmeasuringVBG
+r11HubbleNNPlookingVBG
+
+#Rule:V-HeadNoun
+r21measuringVBGradiationNN
+
+#Rule:PPinNP
+r26galaxiesNNSwithINfigureNN
+
+#Rule:PPinVP
+r30lookingVBGatINgalaxiesNNS
+
+#Having said that though, we can see further all the time and so this figure may not be right for long.
+#(S1 (S (NP (AUXG Having)) (VP (VBD said) (SBAR (IN that) (S (S (ADVP (RB though)) (, ,) (NP (PRP we)) (VP (MD can) (VP (VB see) (NP (RB further) (PDT all) (DT the) (NN time))))) (CC and) (RB so) (S (NP (DT this) (NN figure)) (VP (MD may) (RB not) (VP (AUX be) (ADJP (JJ right) (PP (IN for) (ADJP (JJ long)))))))))) (. .)))
+#Rule:Nouns
+r1timeNN
+r1figureNN
+
+#Rule:Verbs
+r2saidVBD
+r2seeVB
+
+#Rule:Adjs
+r4rightJJ
+r4longJJ
+
+#Rule:HeadNoun-V
+r11HavingAUXGsaidVBD
+r11wePRPseeVB
+r11figureNNbeAUX
+
+#Rule:V-HeadNoun
+r21seeVBtimeNN
+
+#Rule:V-ADJ
+r25beAUXrightJJ
+
+@lemmas-left	old	radiation	said	galaxies	hubble	measure	distant	long	Recent	recent	observations	measuring	looking	time	tally	figure	COBE	right	be	Having	look	Hubble	is	observation	billion	suggest	young	cobe	universe	13.7	see	background	say	having	years	we	galaxy	
+@lemmas-right	look	is	old	radiation	said	observation	galaxies	measure	suggest	observations	measuring	looking	time	figure	see	say	years	right	be	galaxy	
+@lemmas-center	that	with	at	

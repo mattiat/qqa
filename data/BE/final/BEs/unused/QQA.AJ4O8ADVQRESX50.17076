@@ -1,0 +1,57 @@
+#i dont think you want to know what is going to happen.they are going to make you betterthats all you need to know.you dont need to get freaked out anymore.
+#(S1 (S (NP (PRP i)) (VP (ADVP (JJ dont)) (VBP think) (SBAR (S (NP (PRP you)) (VP (VBP want) (S (VP (TO to) (VP (VB know) (SBAR (WHNP (WP what)) (S (VP (AUX is) (VP (VBG going) (S (VP (TO to) (VP (VB happen.they) (SBAR (S (VP (AUX are) (VP (VBG going) (S (VP (TO to) (VP (VB make) (S (NP (PRP you)) (VP (VBZ betterthats) (NP (NP (DT all)) (SBAR (S (NP (PRP you)) (VP (AUX need) (S (VP (TO to) (VP (VB know.you) (NP (NP (JJ dont) (NN need)) (SBAR (S (VP (TO to) (VP (VB get) (VP (VBN freaked) (PRT (RP out)) (ADVP (RB anymore)))))))))))))))))))))))))))))))))))))) (. .)))
+#Rule:Nouns
+r1needNN
+
+#Rule:Verbs
+r2thinkVBP
+r2wantVBP
+r2knowVB
+r2goingVBG
+r2happen.theyVB
+r2goingVBG
+r2makeVB
+r2betterthatsVBZ
+r2know.youVB
+r2getVB
+
+#Rule:V-PRT
+r3freakedVBNoutRP
+
+#Rule:Adjs
+r4dontJJ
+r4dontJJ
+
+#Rule:Adj-Noun
+r5dontJJneedNN
+
+#Rule:HeadNoun-V
+r11iPRPthinkVBP
+r11youPRPwantVBP
+r11youPRPbetterthatsVBZ
+r11youPRPneedAUX
+
+#Rule:HeadNoun-(who/that)-V
+r14needNNgetVB
+
+#Rule:HeadNoun-(who/that)-V
+r17needNNfreakedVBN
+
+#Rule:V-HeadNoun
+r21betterthatsVBZallDT
+r21know.youVBneedNN
+
+#Rule:V-HeadNoun
+r22makeVByouPRP
+
+#Rule:V-V
+r44wantVBPknowVB
+r44goingVBGhappen.theyVB
+r44goingVBGmakeVB
+
+#Rule:V-ADV
+r46freakedVBNanymoreRB
+
+@lemmas-left	need	think	going	know.you	get	freak	freaked	you	know	i	betterthats	dont	make	want	go	happen.they	
+@lemmas-right	need	think	get	freak	freaked	anymore	you	know	betterthats	make	want	all	out	happen.they	
+@lemmas-center	

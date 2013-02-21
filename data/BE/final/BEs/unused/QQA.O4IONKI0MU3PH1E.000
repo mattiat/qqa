@@ -1,0 +1,96 @@
+#I am an athiest. Why should I become a believer of religion??
+#(S1 (S (S (NP (PRP I)) (VP (AUX am) (NP (DT an) (NN athiest.)))) (SBARQ (WHADVP (WRB Why)) (SQ (MD should) (NP (PRP I)) (VP (VB become) (NP (NP (DT a) (NN believer)) (PP (IN of) (NP (NN religion))))) (. ?)) (. ?))))
+#Rule:Nouns
+r1athiestLocationAnnotation
+r1believerNN
+r1religionNN
+
+#Rule:Verbs
+r2becomeVB
+
+#Rule:HeadNoun-V
+r11iPRPamAUX
+
+#Rule:V-HeadNoun
+r21amAUXathiestLocationAnnotation
+r21becomeVBbelieverNN
+
+#Rule:PPinNP
+r26believerNNofINreligionNN
+
+#I am an athiest. Why should I become a believer of religion??
+#(S1 (S (S (NP (PRP I)) (VP (AUX am) (NP (DT an) (NN athiest.)))) (SBARQ (WHADVP (WRB Why)) (SQ (MD should) (NP (PRP I)) (VP (VB become) (NP (NP (DT a) (NN believer)) (PP (IN of) (NP (NN religion))))) (. ?)) (. ?))))
+#Rule:Nouns
+r1athiestLocationAnnotation
+r1believerNN
+r1religionNN
+
+#Rule:Verbs
+r2becomeVB
+
+#Rule:HeadNoun-V
+r11iPRPamAUX
+
+#Rule:V-HeadNoun
+r21amAUXathiestLocationAnnotation
+r21becomeVBbelieverNN
+
+#Rule:PPinNP
+r26believerNNofINreligionNN
+
+#I am having a very difficult time and I feel very cold and distant from the world sometimes. Has anyone abandoned atheism and turned to faith? Or the other way around? Tell me your reason.
+#(S1 (S (NP (PRP I)) (VP (AUX am) (VP (AUXG having) (NP (DT a) (ADJP (RB very) (JJ difficult)) (NN time)) (S (S (CC and) (NP (PRP I)) (VP (VB feel) (ADJP (RB very) (JJ cold) (CC and) (JJ distant) (SBAR (IN from) (S (NP (DT the) (NN world) (NN sometimes.)) (VP (AUX Has) (NP (NP (NN anyone)) (VP (VP (VBN abandoned) (NP (NN atheism))) (CC and) (VP (VBN turned) (PP (TO to) (NP (NN faith))))))))))) (. ?)) (CC Or) (S (NP (DT the) (JJ other) (NN way) (RB around) (. ?)) (VP (VB Tell) (NP (PRP me)) (NP (PRP$ your) (NN reason))))))) (. .)))
+#Rule:Nouns
+r1timeNN
+r1worldNN
+r1sometimesNN
+r1anyoneNN
+r1atheismNN
+r1faithNN
+r1wayNN
+r1reasonNN
+
+#Rule:Verbs
+r2feelVB
+r2abandonedVBN
+r2turnedVBN
+r2TellOrganizationAnnotation
+
+#Rule:Adjs
+r4difficultJJ
+r4coldJJ
+r4distantJJ
+r4otherJJ
+
+#Rule:Adj-Noun
+r5difficultJJtimeNN
+r5otherJJwayNN
+
+#Rule:PRP-Noun
+r6yourPRP$reasonNN
+
+#Rule:N-HeadNoun
+r8worldNNsometimesNN
+
+#Rule:HeadNoun-V
+r11iPRPfeelVB
+r11sometimesNNHasPersonAnnotation
+r11wayNNTellOrganizationAnnotation
+
+#Rule:V-HeadNoun
+r21havingAUXGtimeNN
+r21HasPersonAnnotationanyoneNN
+r21abandonedVBNatheismNN
+r21TellOrganizationAnnotationmePRP
+r21TellOrganizationAnnotationreasonNN
+
+#Rule:V-HeadNoun(passive)
+r24abandonedVBNanyoneNN
+r24turnedVBNanyoneNN
+
+#Rule:PPinVP
+r32turnedVBNtoTOfaithNN
+
+@lemmas-left	other	sometimes	reason	become	distant	way	difficult	sometimes.	religion	time	athiest	turned	cold	atheism	Tell	believer	be	feel	turn	faith	your	i	anyone	am	Has	having	abandon	world	abandoned	
+@lemmas-right	feel	faith	reason	sometimes	way	sometimes.	religion	athiest	time	atheism	anyone	am	Has	Tell	me	believer	be	
+@lemmas-center	to	of	

@@ -1,0 +1,354 @@
+#YOU should give the family some common sense information about the type of cancer that is being experienced. 
+#(S1 (S (NP (PRP YOU)) (VP (MD should) (VP (VB give) (NP (DT the) (NN family)) (NP (DT some) (JJ common) (NN sense)) (NP (NP (NN information)) (PP (IN about) (NP (NP (DT the) (NN type)) (PP (IN of) (NP (NN cancer))) (SBAR (WHNP (WDT that)) (S (VP (AUX is) (VP (AUXG being) (VP (VBN experienced))))))))))) (. .)))
+#Rule:Nouns
+r1familyNN
+r1senseNN
+r1informationNN
+r1typeNN
+r1cancerNN
+
+#Rule:Verbs
+r2giveVB
+r2experiencedVBN
+
+#Rule:Adjs
+r4commonJJ
+
+#Rule:Adj-Noun
+r5commonJJsenseNN
+
+#Rule:HeadNoun-V
+r11youPRPgiveVB
+
+#Rule:V-HeadNoun
+r21giveVBfamilyNN
+r21giveVBsenseNN
+r21giveVBinformationNN
+
+#Rule:PPinNP
+r26informationNNaboutINtypeNN
+r26typeNNofINcancerNN
+
+#They should be informed as to what they should expect as your reaction to it, and what cures are available. 
+#(S1 (S (NP (PRP They)) (VP (MD should) (VP (AUX be) (VP (VBN informed) (PP (IN as) (PP (TO to) (SBAR (SBAR (WHNP (WP what)) (S (NP (PRP they)) (VP (MD should) (VP (VB expect) (PP (IN as) (NP (NP (PRP$ your) (NN reaction)) (PP (TO to) (NP (PRP it))))))))) (, ,) (CC and) (SBAR (WHNP (WP what)) (S (NP (NNS cures)) (VP (AUX are) (ADJP (JJ available))))))))))) (. .)))
+#Rule:Nouns
+r1reactionNN
+r1curesNNS
+
+#Rule:Verbs
+r2informedVBN
+r2expectVB
+
+#Rule:Adjs
+r4availableJJ
+
+#Rule:PRP-Noun
+r6yourPRP$reactionNN
+
+#Rule:HeadNoun-V
+r11theyPRPexpectVB
+r11curesNNSareAUX
+
+#Rule:V-HeadNoun(passive)
+r23informedVBNtheyPRP
+
+#Rule:V-ADJ
+r25areAUXavailableJJ
+
+#Rule:PPinNP
+r26reactionNNtoTOitPRP
+
+#Rule:PPinVP
+r30expectVBasINreactionNN
+
+#Then you should ask them to pray for you and have their church family also pray for you. 
+#(S1 (S (RB Then) (NP (PRP you)) (VP (MD should) (VP (VB ask) (NP (PRP them)) (S (VP (TO to) (VP (VP (VB pray) (PP (IN for) (NP (PRP you)))) (CC and) (VP (AUX have) (S (NP (PRP$ their) (NN church) (NN family)) (ADVP (RB also)) (ADJP (JJ pray) (PP (IN for) (NP (PRP you))))))))))) (. .)))
+#Rule:Nouns
+r1churchNN
+r1familyNN
+
+#Rule:Verbs
+r2askVB
+r2prayVB
+
+#Rule:Adjs
+r4prayJJ
+
+#Rule:PRP-Noun
+r6theirPRP$familyNN
+
+#Rule:N-HeadNoun
+r8churchNNfamilyNN
+
+#Rule:HeadNoun-V
+r11youPRPaskVB
+
+#Rule:V-HeadNoun
+r21askVBthemPRP
+
+#Rule:V-HeadNoun
+r22haveAUXfamilyNN
+
+#Rule:PPinVP
+r30prayVBforINyouPRP
+
+#Rule:PPinADJP
+r37prayJJforINyouPRP
+
+#I am talking about continuous praying. 
+#(S1 (S (NP (PRP I)) (VP (AUX am) (VP (VBG talking) (PP (IN about) (NP (JJ continuous) (VBG praying))))) (. .)))
+#Rule:Verbs
+r2talkingVBG
+r2prayingVBG
+
+#Rule:Adjs
+r4continuousJJ
+
+#Rule:Adj-Noun
+r5prayingVBGcontinuousJJ
+
+#Rule:HeadNoun-V
+r11iPRPtalkingVBG
+
+#Rule:PPinVP
+r30talkingVBGaboutINcontinuousJJ
+
+#What shall we then say to these things? 
+#(S1 (SBARQ (WHNP (WP What)) (SQ (MD shall) (NP (PRP we)) (ADVP (RB then)) (VP (VB say) (PP (TO to) (NP (DT these) (NNS things))))) (. ?)))
+#Rule:Nouns
+r1thingsNNS
+
+#Rule:Verbs
+r2sayVB
+
+#Rule:PPinVP
+r30sayVBtoTOthingsNNS
+
+#If GOD be for us, WHO can be against us? 
+#(S1 (SBARQ (SBAR (IN If) (S (NP (NNP GOD)) (VP (AUX be) (PP (IN for) (NP (PRP us)))))) (, ,) (WHNP (WP WHO)) (SQ (MD can) (VP (AUX be) (PP (IN against) (NP (PRP us))))) (. ?)))
+#Rule:Nouns
+r1GODOrganizationAnnotation
+
+#Rule:HeadNoun-V
+r11GODOrganizationAnnotationbeAUX
+
+#Rule:PPinVP
+r30beAUXforINusPRP
+r30beAUXagainstINusPRP
+
+#- Romans 8:31. 
+#(S1 (FRAG (: -) (NP (NNP Romans) (CD 8:31)) (. .)))
+#Rule:Nouns
+r1RomansNNP
+
+#Rule:Adj-Noun
+r58:31CDRomansNNP
+
+#The Lord daily loadeth us with BENEFITS, even the God of our salvation. 
+#(S1 (S (NP (DT The) (NNP Lord) (NN daily)) (VP (VBZ loadeth) (NP (PRP us)) (PP (IN with) (NP (NP (NNS BENEFITS)) (, ,) (RB even) (NP (NP (DT the) (NNP God)) (PP (IN of) (NP (PRP$ our) (NN salvation))))))) (. .)))
+#Rule:Nouns
+r1LordOrganizationAnnotation
+r1dailyNN
+r1BENEFITSOrganizationAnnotation
+r1GodNNP
+r1salvationNN
+
+#Rule:Verbs
+r2loadethVBZ
+
+#Rule:PRP-Noun
+r6ourPRP$salvationNN
+
+#Rule:N-HeadNoun
+r8LordOrganizationAnnotationdailyNN
+
+#Rule:HeadNoun-V
+r11dailyNNloadethVBZ
+
+#Rule:V-HeadNoun
+r21loadethVBZusPRP
+
+#Rule:PPinNP
+r26GodNNPofINsalvationNN
+
+#Rule:PPinVP
+r30loadethVBZwithINBENEFITSOrganizationAnnotation
+r30loadethVBZwithINGodNNP
+
+#Selah. - Psalm 68:19.  
+#(S1 (FRAG (NP (NNP Selah.)) (: -) (NP (NNP Psalm) (CD 68:19)) (. .)))
+#Rule:Nouns
+r1SelahLocationAnnotation
+r1PsalmNNP
+
+#Rule:Adj-Noun
+r568:19CDPsalmNNP
+
+#BEFORE you enter a room or a building, quietly say Peace Be To This House. - Luke 10:5. 
+#(S1 (S (SBAR (IN BEFORE) (S (NP (PRP you)) (VP (VBP enter) (NP (NP (DT a) (NN room)) (CC or) (NP (DT a) (NN building)))))) (, ,) (ADVP (RB quietly)) (VP (VB say) (S (NP (NNP Peace)) (VP (AUX Be) (PP (TO To) (NP (DT This) (ADJP (NNP House.) (: -) (NNP Luke)) (NN 10:5)))))) (. .)))
+#Rule:Nouns
+r1roomNN
+r1buildingNN
+r1PeaceNNP
+r1HouseNNP
+r1LukeNNP
+r110:5NN
+
+#Rule:Verbs
+r2enterVBP
+r2sayVB
+
+#Rule:HeadNoun-V
+r11youPRPenterVBP
+r11PeaceNNPBeLocationAnnotation
+
+#Rule:V-HeadNoun
+r21enterVBProomNN
+
+#Rule:V-HeadNoun
+r22sayVBPeaceNNP
+
+#Rule:PPinVP
+r30BeLocationAnnotationtoTO10:5NN
+
+#Rule:V-ADV
+r46sayVBquietlyRB
+
+#Those who are within those premises will have a more peaceful demeanor. 
+#(S1 (S (NP (NP (DT Those)) (SBAR (WHNP (WP who)) (S (VP (AUX are) (PP (IN within) (NP (DT those) (NNS premises))))))) (VP (MD will) (VP (AUX have) (NP (DT a) (ADJP (RBR more) (JJ peaceful)) (NN demeanor)))) (. .)))
+#Rule:Nouns
+r1premisesNNS
+r1demeanorNN
+
+#Rule:Adjs
+r4peacefulJJ
+
+#Rule:Adj-Noun
+r5peacefulJJdemeanorNN
+
+#Rule:HeadNoun-V
+r11thoseDThaveAUX
+
+#Rule:HeadNoun-(who/that)-V
+r14thoseDTareAUX
+
+#Rule:V-HeadNoun
+r21haveAUXdemeanorNN
+
+#Rule:PPinVP
+r30areAUXwithinINpremisesNNS
+
+#This will be very helpful to you. 
+#(S1 (S (NP (DT This)) (VP (MD will) (VP (AUX be) (ADJP (RB very) (JJ helpful) (PP (TO to) (NP (PRP you)))))) (. .)))
+#Rule:Adjs
+r4helpfulJJ
+
+#Rule:HeadNoun-V
+r11thisDTbeAUX
+
+#Rule:V-ADJ
+r25beAUXhelpfulJJ
+
+#Rule:PPinADJP
+r37helpfulJJtoTOyouPRP
+
+#On a daily basis, read Psalm 35 to (Plead My Cause) - It is a long-winded and very powerful psalm. 
+#(S1 (FRAG (PP (IN On) (NP (NP (DT a) (JJ daily) (NN basis)) (, ,) (VP (VBN read) (NP (NNP Psalm) (CD 35)) (S (VP (TO to) (-LRB- -LRB-) (VP (VB Plead) (NP (PRP$ My) (NN Cause))) (-RRB- -RRB-)))))) (: -) (S (NP (PRP It)) (VP (AUX is) (NP (DT a) (ADJP (ADJP (JJ long-winded)) (CC and) (ADJP (RB very) (JJ powerful))) (NN psalm)))) (. .)))
+#Rule:Nouns
+r1basisNN
+r1PsalmNNP
+r1My CausePersonAnnotation
+r1psalmLocationAnnotation
+
+#Rule:Verbs
+r2readVBN
+r2pleadVB
+
+#Rule:Adjs
+r4dailyJJ
+r4long-windedJJ
+r4powerfulJJ
+
+#Rule:Adj-Noun
+r5dailyJJbasisNN
+r535CDPsalmNNP
+r5long-windedJJpsalmLocationAnnotation
+r5powerfulJJpsalmLocationAnnotation
+
+#Rule:HeadNoun-V
+r11itPRPisAUX
+
+#Rule:V-HeadNoun
+r21readVBNPsalmNNP
+r21pleadVBMy CausePersonAnnotation
+r21isAUXpsalmLocationAnnotation
+
+#Rule:V-HeadNoun(passive)
+r24readVBNbasisNN
+
+#Rule:V-V
+r44readVBNpleadVB
+
+#Your only requirement is to be sincere when asking God for His help. 
+#(S1 (S (NP (PRP$ Your) (JJ only) (NN requirement)) (VP (AUX is) (S (VP (TO to) (VP (AUX be) (ADJP (JJ sincere)) (SBAR (WHADVP (WRB when)) (S (VP (VBG asking) (NP (NNP God)) (PP (IN for) (NP (PRP$ His) (NN help)))))))))) (. .)))
+#Rule:Nouns
+r1requirementNN
+r1GodNNP
+r1helpNN
+
+#Rule:Verbs
+r2askingVBG
+
+#Rule:Adjs
+r4onlyJJ
+r4sincereJJ
+
+#Rule:Adj-Noun
+r5onlyJJrequirementNN
+
+#Rule:PRP-Noun
+r6yourPRP$requirementNN
+r6hisPRP$helpNN
+
+#Rule:HeadNoun-V
+r11requirementNNisAUX
+
+#Rule:V-HeadNoun
+r21askingVBGGodNNP
+
+#Rule:V-ADJ
+r25beAUXsincereJJ
+
+#Rule:PPinVP
+r30askingVBGforINhelpNN
+
+#I wish you well. 
+#(S1 (S (NP (PRP I)) (VP (VBP wish) (NP (PRP you)) (ADVP (RB well))) (. .)))
+#Rule:Verbs
+r2wishVBP
+
+#Rule:HeadNoun-V
+r11iPRPwishVBP
+
+#Rule:V-HeadNoun
+r21wishVBPyouPRP
+
+#Rule:V-ADV
+r46wishVBPwellRB
+
+#Peace, Love and God Bless.
+#(S1 (S (NP (NNP Peace) (, ,) (NNP Love) (CC and) (NNP God)) (VP (VB Bless)) (. .)))
+#Rule:Nouns
+r1PeaceNNP
+r1LoveOrganizationAnnotation
+r1GodNNP
+
+#Rule:Verbs
+r2BlessOrganizationAnnotation
+
+#Rule:HeadNoun-V
+r11LoveOrganizationAnnotationBlessOrganizationAnnotation
+
+@lemmas-left	they	My Cause	basis	wish	35	Luke	type	cure	expect	help	are	BENEFITS	his	premises	family	only	pray	House	68:19	be	asking	information	cures	GOD	continuous	church	long-winded	enter	available	sense	powerful	helpful	Selah	Romans	inform	loadeth	Lord	Psalm	experienced	say	house.	8:31	Peace	ask	Love	this	room	reaction	romans	god	plead	give	common	have	luke	read	experience	talk	requirement	is	those	building	it	peaceful	10:5	sincere	salvation	your	psalm	you	Bless	daily	informed	i	talking	demeanor	Be	peace	praying	God	things	their	our	cancer	
+@lemmas-right	they	My Cause	basis	wish	type	expect	help	are	BENEFITS	family	premises	be	information	continuous	enter	sense	available	quietly	helpful	Romans	loadeth	Psalm	them	ask	Peace	room	romans	reaction	god	give	have	plead	well	talk	is	requirement	it	10:5	sincere	salvation	psalm	us	you	Bless	daily	talking	demeanor	Be	peace	God	things	cancer	
+@lemmas-center	to	of	with	for	against	about	as	within	

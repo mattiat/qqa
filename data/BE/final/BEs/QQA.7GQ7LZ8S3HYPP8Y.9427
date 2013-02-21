@@ -1,0 +1,85 @@
+#Instead of buying packs after packs, why don??t you get yourself  something that you can save that money in.. And monthly you can have a feast for not smoking on the money that you didn??t spend on them. Chewing gum also helps.. Be strong!!
+#(S1 (S (PP (RB Instead) (IN of) (S (VP (VBG buying) (NP (NNS packs)) (PP (IN after) (NP (NP (NP (NNS packs)) (, ,) (SBAR (WHADVP (WRB why)) (S (VP (VB don) (NP (NP (CD ??) (NN t)) (SBAR (S (NP (PRP you)) (VP (VBP get) (NP (PRP yourself)) (NP (NN something)) (SBAR (IN that) (S (NP (PRP you)) (VP (MD can) (VP (VB save) (NP (DT that) (NN money)) (PP (IN in)))) (. .))))))))) (. .))) (CC And) (NP (JJ monthly))))))) (NP (PRP you)) (VP (MD can) (VP (AUX have) (NP (DT a) (NN feast)) (PP (IN for) (S (RB not) (VP (VBG smoking) (PP (IN on) (NP (DT the) (NN money) (SBAR (IN that) (S (NP (PRP you)) (VP (VBD didn) (SBAR (S (S (NP (CD ??) (NNS t)) (VP (VBP spend) (SBAR (IN on) (S (NP (CD them.) (VBG Chewing) (NN gum)) (ADVP (RB also)) (VP (VBZ helps)) (. .)))) (. .)) (VP (AUX Be) (ADJP (JJ strong))) (. !))))))))))))) (. !)))
+#Rule:Nouns
+r1packsNNS
+r1packsNNS
+r1tNN
+r1somethingNN
+r1moneyNN
+r1feastNN
+r1moneyNN
+r1tNNS
+r1Chewing gumPersonAnnotation
+
+#Rule:Verbs
+r2buyingVBG
+r2donVB
+r2getVBP
+r2saveVB
+r2smokingVBG
+r2didnVBD
+r2spendVBP
+r2helpsVBZ
+
+#Rule:Adjs
+r4monthlyJJ
+r4Be strong!!PersonAnnotation
+
+#Rule:Adj-Noun
+r5??CDtNN
+r5??CDtNNS
+r5themCDChewing gumPersonAnnotation
+
+#Rule:HeadNoun-V
+r11youPRPhaveAUX
+r11youPRPgetVBP
+r11youPRPsaveVB
+r11youPRPdidnVBD
+r11tNNSspendVBP
+r11Chewing gumPersonAnnotationhelpsVBZ
+
+#Rule:HeadNoun-(who/that)-V
+r14packsNNSdonVB
+
+#Rule:V-HeadNoun
+r21buyingVBGpacksNNS
+r21donVBtNN
+r21getVBPyourselfPRP
+r21getVBPsomethingNN
+r21saveVBmoneyNN
+r21haveAUXfeastNN
+
+#Rule:PPinVP
+r30buyingVBGafterINpacksNNS
+r30buyingVBGafterINmonthlyJJ
+r30smokingVBGonINmoneyNN
+
+#Rule:(SBAR+WHADVP)inNP
+r41packsNNSwhyWRBdonVB
+
+#Rule:V-IN-V
+r43getVBPthatINsaveVB
+r43spendVBPonINhelpsVBZ
+
+#Rule:V-ADV
+r46helpsVBZalsoRB
+
+#Take care..
+#(S1 (S (VP (VB Take) (NP (NN care) (. .))) (. .)))
+#Rule:Nouns
+r1careNN
+
+#Rule:Verbs
+r2takeVB
+
+#Rule:V-HeadNoun
+r21takeVBcareNN
+
+#Bcn_mimosa
+#(S1 (NP (NNP Bcn_mimosa)))
+#Rule:Nouns
+r1Bcn_mimosaLocationAnnotation
+
+@lemmas-left	Bcn_mimosa	save	don	buy	have	pack	Chewing gum	??	help	Be strong!!	smoking	feast	care	buying	money	something	get	you	helps	monthly	smoke	packs	spend	t	take	them	them.	didn	
+@lemmas-right	get	save	don	have	helps	pack	monthly	Chewing gum	spend	packs	help	t	feast	care	money	something	yourself	didn	also	
+@lemmas-center	after	that	on	why	

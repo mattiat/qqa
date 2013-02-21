@@ -1,0 +1,46 @@
+#Go to the library and get a child s book on the organs of the body. 
+#(S1 (S (VP (VP (VB Go) (PP (TO to) (NP (DT the) (NN library)))) (CC and) (VP (VB get) (NP (NP (DT a) (NN child) (NNP s) (NN book)) (PP (IN on) (NP (NP (DT the) (NNS organs)) (PP (IN of) (NP (DT the) (NN body)))))))) (. .)))
+#Rule:Nouns
+r1libraryNN
+r1childNN
+r1sNNP
+r1bookNN
+r1organsNNS
+r1bodyNN
+
+#Rule:Verbs
+r2goVB
+r2getVB
+
+#Rule:N-HeadNoun
+r8sNNPbookNN
+r8childNNbookNN
+
+#Rule:V-HeadNoun
+r21getVBbookNN
+
+#Rule:PPinNP
+r26bookNNonINorgansNNS
+r26organsNNSofINbodyNN
+
+#Rule:PPinVP
+r30goVBtoTOlibraryNN
+
+#Read the book with the child.
+#(S1 (S (VP (VB Read) (NP (NP (DT the) (NN book)) (PP (IN with) (NP (DT the) (NN child))))) (. .)))
+#Rule:Nouns
+r1bookNN
+r1childOrganizationAnnotation
+
+#Rule:Verbs
+r2readVB
+
+#Rule:V-HeadNoun
+r21readVBbookNN
+
+#Rule:PPinNP
+r26bookNNwithINchildOrganizationAnnotation
+
+@lemmas-left	child	body	get	s	book	library	read	organs	go	
+@lemmas-right	child	body	library	book	organs	
+@lemmas-center	to	of	with	on	

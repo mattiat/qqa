@@ -1,0 +1,69 @@
+#ok. my heart isn t working properly and I need a pacemaker? Does anyone know how the surgery will work??
+#(S1 (SQ (NNP ok.) (NP (PRP$ my) (NN heart) (NN isn)) (VP (VB t) (S (VP (VBG working) (ADVP (RB properly)) (S (S (CC and) (NP (PRP I)) (VP (AUX need) (NP (DT a) (NN pacemaker)))) (. ?) (NP (NNP Does) (NN anyone)) (VP (VB know) (SBAR (WHADVP (WRB how)) (S (NP (DT the) (NN surgery)) (VP (MD will) (VP (VB work)))))) (. ?))))) (. ?)))
+#Rule:Nouns
+r1okNNP
+r1heartNN
+r1isnNN
+r1pacemakerNN
+r1DoesNNP
+r1anyoneNN
+r1surgeryNN
+
+#Rule:Verbs
+r2tLocationAnnotation
+r2workingVBG
+r2knowVB
+r2workVB
+
+#Rule:PRP-Noun
+r6myPRP$isnNN
+
+#Rule:N-HeadNoun
+r8heartNNisnNN
+r8DoesNNPanyoneNN
+
+#Rule:HeadNoun-V
+r11anyoneNNknowVB
+r11iPRPneedAUX
+r11surgeryNNworkVB
+
+#Rule:V-HeadNoun
+r21needAUXpacemakerNN
+
+#Rule:V-HeadNoun
+r22workingVBGanyoneNN
+
+#Rule:V-ADV
+r46workingVBGproperlyRB
+
+#I m asking cause the doctors just told me I needed surgery! How nice
+#(S1 (FRAG (NP (PRP I)) (S (NP (NNP m)) (VP (VBG asking) (S (VP (VB cause) (SBAR (S (NP (DT the) (NNS doctors)) (ADVP (RB just)) (VP (VBD told) (NP (PRP me)) (SBAR (S (NP (PRP I)) (VP (VBD needed) (NP (NN surgery))))))))))) (. !)) (NP (WRB How) (JJ nice))))
+#Rule:Nouns
+r1mNNP
+r1doctorsNNS
+r1surgeryNN
+
+#Rule:Verbs
+r2askingVBG
+r2causeVB
+r2toldVBD
+r2neededVBD
+
+#Rule:Adjs
+r4How niceOrganizationAnnotation
+
+#Rule:HeadNoun-V
+r11mNNPaskingVBG
+r11doctorsNNStoldVBD
+r11iPRPneededVBD
+
+#Rule:V-HeadNoun
+r21toldVBDmePRP
+r21neededVBDsurgeryNN
+
+#Rule:V-ADV
+r46toldVBDjustRB
+
+@lemmas-left	need	cause	surgery	ok.	doctor	pacemaker	ok	doctors	tell	working	work	asking	heart	isn	told	m	know	my	needed	i	How nice	Does	t	anyone	doe	ask	
+@lemmas-right	just	need	work	asking	isn	told	know	surgery	needed	properly	anyone	pacemaker	tell	me	ask	
+@lemmas-center	

@@ -1,0 +1,84 @@
+#How many ways can you be out in cricket and what are they??
+#(S1 (SBARQ (SBARQ (WHNP (WHADJP (WRB How) (JJ many)) (NNS ways)) (SQ (MD can) (NP (PRP you)) (VP (AUX be) (PP (IN out) (PP (IN in) (NP (NN cricket))))))) (CC and) (SBARQ (WHNP (WP what)) (SQ (AUX are) (NP (PRP they))) (. ?)) (. ?)))
+#Rule:Nouns
+r1waysNNS
+r1cricketNN
+
+#Rule:Adjs
+r4manyJJ
+
+#Rule:PPComboInVP
+r34beAUXoutINcricketNN
+
+#Hey, I am blogging for Yahoo! Sport throughout the Ashes, so to read and comment on my latest blog visit http://uk.sports.yahoo.com/cr/ashes/david-lloyd/article/154/mark-butcher-we-waited-14-months-for-that..
+#(S1 (S (ADVP (NNP Hey)) (, ,) (NP (PRP I)) (VP (AUX am) (VP (VBG blogging) (PP (IN for) (NP (NNP Yahoo) (. !) (NNP Sport))) (PP (IN throughout) (NP (DT the) (NNS Ashes))) (, ,) (S (RB so) (VP (TO to) (VP (VB read) (CC and) (VB comment) (PP (IN on) (NP (NP (PRP$ my) (JJS latest) (NN blog) (NN visit) (RB http)) (: :) (NP (NN //uk.sports.yahoo.com/cr/ashes/david-lloyd/article/154/mark-butcher-we-waited-14-months-for-that)) (. .)))))))) (. .)))
+#Rule:Nouns
+r1HeyNNP
+r1Yahoo!OrganizationAnnotation
+r1SportNNP
+r1AshesOrganizationAnnotation
+r1blogNN
+r1visitNN
+r1//uk.sports.yahoo.com/cr/ashes/david-lloyd/article/154/mark-butcher-we-waited-14-months-for-thatNN
+
+#Rule:Verbs
+r2bloggingVBG
+r2readVB
+r2commentVB
+
+#Rule:Adjs
+r4latestJJS
+
+#Rule:Adj-Noun
+r5latestJJSvisitNN
+
+#Rule:PRP-Noun
+r6myPRP$visitNN
+
+#Rule:N-HeadNoun
+r8blogNNvisitNN
+
+#Rule:HeadNoun-V
+r11iPRPbloggingVBG
+
+#Rule:PPinVP
+r30bloggingVBGforINSportNNP
+r30bloggingVBGthroughoutINAshesOrganizationAnnotation
+r30readVBonINvisitNN
+r30readVBonIN//uk.sports.yahoo.com/cr/ashes/david-lloyd/article/154/mark-butcher-we-waited-14-months-for-thatNN
+
+#Rule:V-V
+r44bloggingVBGreadVB
+
+#David Bumble Lloyd is also blogging with me, so to read all our posts, go to http://uk.yahoo.com/david-lloyd
+#(S1 (FRAG (NP (NNP David)) (S (VP (VBP Bumble) (SBAR (S (NP (NNP Lloyd)) (VP (AUX is) (ADVP (RB also)) (VP (VBG blogging) (PP (IN with) (NP (PRP me))))))) (PRN (, ,) (S (RB so) (VP (TO to) (VP (VB read) (NP (PDT all) (PRP$ our) (NNS posts))))) (, ,)) (VP (VB go) (PP (TO to) (NP (CD http)))))) (: :) (NP (NN //uk.yahoo.com/david-lloyd))))
+#Rule:Nouns
+r1David Bumble LloydPersonAnnotation
+r1postsNNS
+r1//uk.yahoo.com/david-lloydNN
+
+#Rule:Verbs
+r2bloggingVBG
+r2readVB
+r2goVB
+
+#Rule:PRP-Noun
+r6ourPRP$postsNNS
+
+#Rule:HeadNoun-V
+r11David Bumble LloydPersonAnnotationbloggingVBG
+
+#Rule:V-HeadNoun
+r21readVBpostsNNS
+
+#Rule:PPinVP
+r30bloggingVBGwithINmePRP
+r30goVBtoTOhttp://uk.yahoo.comPersonAnnotation
+
+#Rule:V-ADV
+r46isAUXalsoRB
+r46bloggingVBGalsoRB
+
+@lemmas-left	posts	visit	blog	hey	blogging	read	David Bumble Lloyd	be	//uk.sports.yahoo.com/cr/ashes/david-lloyd/article/154/mark-butcher-we-waited-14-months-for-that	is	post	cricket	sport	Ashes	my	i	many	lloyd	//uk.yahoo.com/david-lloyd	Hey	Yahoo!	Sport	comment	latest	our	ways	go	
+@lemmas-right	//uk.sports.yahoo.com/cr/ashes/david-lloyd/article/154/mark-butcher-we-waited-14-months-for-that	post	cricket	posts	sport	http://uk.yahoo.com	visit	Ashes	blogging	read	Sport	me	also	
+@lemmas-center	to	throughout	with	for	on	out	

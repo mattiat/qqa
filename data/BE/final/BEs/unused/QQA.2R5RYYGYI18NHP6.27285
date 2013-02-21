@@ -1,0 +1,33 @@
+#SKY is blue because it is reflection of sea water.
+#(S1 (S (NP (NN SKY)) (VP (AUX is) (ADJP (JJ blue)) (SBAR (IN because) (S (NP (PRP it)) (VP (AUX is) (NP (NP (NN reflection)) (PP (IN of) (NP (NN sea) (NN water)))))))) (. .)))
+#Rule:Nouns
+r1SKYOrganizationAnnotation
+r1reflectionNN
+r1seaNN
+r1waterNN
+
+#Rule:Adjs
+r4blueJJ
+
+#Rule:N-HeadNoun
+r8seaNNwaterNN
+
+#Rule:HeadNoun-V
+r11SKYOrganizationAnnotationisAUX
+r11itPRPisAUX
+
+#Rule:V-HeadNoun
+r21isAUXreflectionNN
+
+#Rule:V-ADJ
+r25isAUXblueJJ
+
+#Rule:PPinNP
+r26reflectionNNofINwaterNN
+
+#Rule:V-IN-V
+r43isAUXbecauseINisAUX
+
+@lemmas-left	water	is	reflection	it	blue	SKY	sea	be	
+@lemmas-right	water	reflection	is	blue	be	
+@lemmas-center	because	of	

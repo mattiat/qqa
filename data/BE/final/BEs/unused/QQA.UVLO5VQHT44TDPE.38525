@@ -1,0 +1,73 @@
+#The characters that make up Japan s name literally mean Sun s Origin , thus Japan is also known as The Land of the Rising Sun a name that comes from the country s eastward position relative to China.
+#(S1 (S (S (NP (NP (DT The) (NNS characters)) (SBAR (WHNP (WDT that)) (S (VP (VBP make) (PRT (RP up)) (NP (NNP Japan) (NNP s) (NN name)))))) (ADVP (RB literally)) (VP (VBP mean) (SBAR (S (NP (NNP Sun)) (VP (VBZ s) (NP (NN Origin))))))) (, ,) (ADVP (RB thus)) (S (NP (NNP Japan)) (VP (AUX is) (ADVP (RB also)) (VP (VBN known) (PP (IN as) (NP (NP (DT The) (NN Land)) (PP (IN of) (NP (DT the) (VBG Rising) (NNP Sun))) (SBAR (S (NP (NP (DT a) (NN name)) (SBAR (WHNP (WDT that)) (S (VP (VBZ comes) (PP (IN from) (NP (DT the) (NN country))))))) (VP (VBZ s) (ADVP (RB eastward)) (NP (NP (NN position)) (ADJP (JJ relative) (PP (TO to) (NP (NNP China))))))))))))) (. .)))
+#Rule:Nouns
+r1charactersNNS
+r1JapanLocationAnnotation
+r1sNNP
+r1nameNN
+r1Sun s OriginPersonAnnotation
+r1JapanLocationAnnotation
+r1LandNN
+r1SunNNP
+r1nameNN
+r1countryNN
+r1positionNN
+r1ChinaLocationAnnotation
+
+#Rule:Verbs
+r2meanVBP
+r2knownVBN
+r2risingVBG
+r2comesVBZ
+r2sVBZ
+
+#Rule:V-PRT
+r3makeVBPupRP
+
+#Rule:Adjs
+r4relativeJJ
+
+#Rule:Adj-Noun
+r5risingVBGSunNNP
+r5relativeJJpositionNN
+
+#Rule:N-HeadNoun
+r8sNNPnameNN
+r8JapanLocationAnnotationnameNN
+
+#Rule:HeadNoun-V
+r11charactersNNSmeanVBP
+r11nameNNsVBZ
+
+#Rule:HeadNoun-(who/that)-V
+r14charactersNNSmakeVBP
+r14nameNNcomesVBZ
+
+#Rule:V-HeadNoun
+r21makeVBPnameNN
+r21sVBZpositionNN
+
+#Rule:V-HeadNoun(passive)
+r23knownVBNJapanLocationAnnotation
+
+#Rule:PPinNP
+r26LandNNofINSunNNP
+
+#Rule:PPinVP
+r30comesVBZfromINcountryNN
+
+#Rule:PPinVP
+r32knownVBNasINLandNN
+
+#Rule:PPinADJP
+r37relativeJJtoTOChinaLocationAnnotation
+
+#Rule:V-ADV
+r46meanVBPliterallyRB
+r46isAUXalsoRB
+r46knownVBNalsoRB
+r46sVBZeastwardRB
+
+@lemmas-left	position	is	Land	land	come	relative	comes	know	sun	character	country	rising	s	rise	Sun s Origin	name	Sun	mean	known	make	characters	Japan	China	be	
+@lemmas-right	position	literally	Land	land	come	comes	sun	up	country	eastward	s	Sun	name	mean	also	make	China	Japan	
+@lemmas-center	to	of	as	from	

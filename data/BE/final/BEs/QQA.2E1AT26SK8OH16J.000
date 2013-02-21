@@ -1,0 +1,37 @@
+#How do you overcome panic attacks? 
+#(S1 (SBARQ (WHADVP (WRB How)) (SQ (AUX do) (NP (PRP you)) (VP (VB overcome) (NP (NN panic) (NNS attacks)))) (. ?)))
+#Rule:Nouns
+r1panicNN
+r1attacksNNS
+
+#Rule:Verbs
+r2overcomeVB
+
+#Rule:N-HeadNoun
+r8panicNNattacksNNS
+
+#Rule:V-HeadNoun
+r21overcomeVBattacksNNS
+
+#I ve struggled with them for years.?
+#(S1 (S (NP (PRP I)) (VP (VBP ve) (VP (VBN struggled) (PP (IN with) (NP (PRP them))) (PP (IN for) (NP (NNS years))) (. .))) (. ?)))
+#Rule:Nouns
+r1yearsNNS
+
+#Rule:Verbs
+r2veVBP
+r2struggledVBN
+
+#Rule:HeadNoun-V
+r11iPRPveVBP
+
+#Rule:V-HeadNoun(passive)
+r24struggledVBNiPRP
+
+#Rule:PPinVP
+r32struggledVBNwithINthemPRP
+r32struggledVBNforINyearsNNS
+
+@lemmas-left	panic	struggle	overcome	ve	struggled	years	attack	attacks	i	
+@lemmas-right	them	ve	years	attack	attacks	i	
+@lemmas-center	with	for	

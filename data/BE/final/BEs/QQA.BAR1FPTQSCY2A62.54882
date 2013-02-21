@@ -1,0 +1,53 @@
+#Eat apricot pits if you re worried. 
+#(S1 (S (VP (VB Eat) (NP (JJ apricot) (NNS pits)) (SBAR (IN if) (S (NP (PRP you)) (ADJP (NNP re) (JJ worried))))) (. .)))
+#Rule:Nouns
+r1pitsNNS
+r1reNNP
+
+#Rule:Verbs
+r2eatVB
+
+#Rule:Adjs
+r4apricotLocationAnnotation
+r4worriedJJ
+
+#Rule:Adj-Noun
+r5apricotLocationAnnotationpitsNNS
+
+#Rule:V-HeadNoun
+r21eatVBpitsNNS
+
+#I ll warn ya though, they don t taste very good.
+#(S1 (S (NP (PRP I)) (ADVP (RB ll)) (VP (VBP warn) (NP (PRP ya)) (ADVP (RB though)) (, ,) (S (NP (PRP they)) (VP (VB don) (NP (NP (CD t) (NN taste)) (ADJP (RB very) (JJ good)))))) (. .)))
+#Rule:Nouns
+r1tasteNN
+
+#Rule:Verbs
+r2warnVBP
+r2donVB
+
+#Rule:Adjs
+r4goodJJ
+
+#Rule:Adj-Noun
+r5goodJJtasteNN
+r5tLocationAnnotationtasteNN
+
+#Rule:HeadNoun-V
+r11iPRPwarnVBP
+r11theyPRPdonVB
+
+#Rule:V-HeadNoun
+r21warnVBPyaLocationAnnotation
+r21donVBtasteNN
+
+#Rule:V-HeadNoun
+r22warnVBPtheyPRP
+
+#Rule:V-ADV
+r46warnVBPllRB
+r46warnVBPthoughRB
+
+@lemmas-left	warn	they	don	pits	good	apricot	re	taste	i	t	worried	eat	pit	
+@lemmas-right	warn	they	ll	don	ya	pits	pit	taste	though	
+@lemmas-center	

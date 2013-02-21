@@ -1,0 +1,32 @@
+#Stage 4 survial rate for 5 years is 20%.
+#(S1 (S (NP (NP (NN Stage) (CD 4) (NN survial) (NN rate)) (PP (IN for) (NP (CD 5) (NNS years)))) (VP (AUX is) (NP (CD 20) (NN %))) (. .)))
+#Rule:Nouns
+r1StageNN
+r1survialNN
+r1rateNN
+r1yearsNNS
+r1%NN
+
+#Rule:Adj-Noun
+r54CDrateNN
+r55CDyearsNNS
+r520CD%NN
+
+#Rule:N-HeadNoun
+r8survialNNrateNN
+
+#Rule:HeadNoun-V
+r11rateNNisAUX
+
+#Rule:V-HeadNoun
+r21isAUX%NN
+
+#Rule:PPinNP
+r26rateNNforINyearsNNS
+
+#Rule:IS-RULE
+r47%NNrateNN
+
+@lemmas-left	20	is	rate	survial	5	4	%	years	Stage	stage	be	
+@lemmas-right	is	rate	%	years	be	
+@lemmas-center	for	

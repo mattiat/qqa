@@ -1,0 +1,56 @@
+#there are two answers 1 because blue is deflected a bit different than the others or and this is just an idea: because oxygen is as a liquid blue so it might retain some of it s color as a gas.
+#(S1 (S (NP (EX there)) (VP (AUX are) (NP (CD two) (NNS answers)) (NP (CD 1)) (SBAR (IN because) (S (S (NP (NN blue)) (VP (AUX is) (VP (VBN deflected) (ADJP (NP (DT a) (NN bit)) (JJ different) (PP (IN than) (NP (DT the) (NNS others))))))) (CC or) (S (CC and) (NP (DT this)) (VP (AUX is) (NP (RB just) (DT an) (NN idea)))))) (: :) (SBAR (IN because) (S (NP (NN oxygen)) (VP (AUX is) (PP (IN as) (NP (DT a) (JJ liquid) (NN blue))) (SBAR (IN so) (S (NP (PRP it)) (VP (MD might) (VP (VB retain) (NP (NP (DT some)) (SBAR (WHNP (IN of)) (S (NP (PRP it)) (VP (VBZ s) (ADJP (JJ color) (PP (IN as) (NP (DT a) (NN gas)))))))))))))))) (. .)))
+#Rule:Nouns
+r1answersNNS
+r1blueNN
+r1bitNN
+r1othersNNS
+r1ideaNN
+r1oxygenPersonAnnotation
+r1blueNN
+r1gasNN
+
+#Rule:Verbs
+r2deflectedVBN
+r2retainVB
+r2sVBZ
+
+#Rule:Adjs
+r4differentJJ
+r4liquidJJ
+r4colorJJ
+
+#Rule:Adj-Noun
+r5twoCDanswersNNS
+r5liquidJJblueNN
+
+#Rule:HeadNoun-V
+r11thereEXareAUX
+r11thisDTisAUX
+r11oxygenPersonAnnotationisAUX
+r11itPRPretainVB
+r11itPRPsVBZ
+
+#Rule:V-HeadNoun
+r21areAUXanswersNNS
+r21areAUX1CD
+r21isAUXideaNN
+r21retainVBsomeDT
+
+#Rule:V-HeadNoun(passive)
+r23deflectedVBNblueNN
+
+#Rule:PPinVP
+r30isAUXasINblueNN
+
+#Rule:PPinADJP
+r37differentJJthanINothersNNS
+r37colorJJasINgasNN
+
+#Rule:V-IN-V
+r43areAUXbecauseINisAUX
+r43isAUXsoINretainVB
+
+@lemmas-left	different	is	idea	it	others	oxygen	deflected	answer	answers	deflect	gas	two	bit	are	liquid	s	color	blue	there	retain	this	be	
+@lemmas-right	is	idea	others	answer	answers	gas	1	are	s	blue	retain	some	be	
+@lemmas-center	because	so	than	as	

@@ -1,0 +1,64 @@
+#How did people in the atlantis looked like?
+#(S1 (SBARQ (WHADVP (WRB How)) (SQ (AUX did) (NP (NP (NNS people)) (PP (IN in) (NP (DT the) (NNS atlantis)))) (VP (VBD looked) (PP (IN like)))) (. ?)))
+#Rule:Nouns
+r1peopleNNS
+r1atlantisLocationAnnotation
+
+#Rule:Verbs
+r2lookedVBD
+
+#Rule:PPinNP
+r26peopleNNSinINatlantisLocationAnnotation
+
+#when they existed what were there hair and eyes colors etc.what kind of food they ate how did their houses looked like.
+#(S1 (S (SBAR (WHADVP (WRB when)) (S (NP (PRP they)) (VP (VBD existed) (SBAR (WHNP (WP what)) (S (VP (AUX were) (ADVP (RB there)) (NP (NP (NN hair) (CC and) (NNS eyes) (NNS colors) (NN etc.what) (NN kind)) (PP (IN of) (NP (NN food)))))))))) (NP (PRP they)) (VP (VBD ate) (SBAR (WHADVP (WRB how)) (S (VP (AUX did) (S (NP (PRP$ their) (NNS houses)) (VP (VBN looked) (ADJP (JJ like)))))))) (. .)))
+#Rule:Nouns
+r1hairNN
+r1eyesNNS
+r1colorsNNS
+r1etc.whatNN
+r1kindNN
+r1foodNN
+r1housesNNS
+
+#Rule:Verbs
+r2existedVBD
+r2ateVBD
+r2lookedVBN
+
+#Rule:Adjs
+r4likeJJ
+
+#Rule:PRP-Noun
+r6theirPRP$housesNNS
+
+#Rule:N-HeadNoun
+r8etc.whatNNkindNN
+r8colorsNNSkindNN
+r8eyesNNSkindNN
+
+#Rule:HeadNoun-V
+r11theyPRPateVBD
+r11theyPRPexistedVBD
+
+#Rule:V-HeadNoun
+r21wereAUXkindNN
+
+#Rule:V-HeadNoun
+r22didAUXhousesNNS
+
+#Rule:V-HeadNoun(passive)
+r24lookedVBNhousesNNS
+
+#Rule:PPinNP
+r26kindNNofINfoodNN
+
+#Rule:(SBAR+WHADVP)inS
+r42ateVBDwhenWRBexistedVBD
+
+#Rule:V-ADV
+r46wereAUXthereRB
+
+@lemmas-left	look	they	houses	colors	did	house	like	people	kind	eyes	were	looked	food	ate	do	eat	their	existed	atlantis	hair	exist	etc.what	be	
+@lemmas-right	houses	food	there	ate	eat	house	existed	exist	atlantis	kind	
+@lemmas-center	of	when	in	

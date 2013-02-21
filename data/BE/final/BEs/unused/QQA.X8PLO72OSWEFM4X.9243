@@ -1,0 +1,31 @@
+#If you don t understand this you should be talking to your teacher!
+#(S1 (S (SBAR (IN If) (S (NP (PRP you)) (VP (VB don) (S (NP (NNP t)) (VP (VB understand) (NP (DT this))))))) (NP (PRP you)) (VP (MD should) (VP (AUX be) (VP (VBG talking) (PP (TO to) (NP (PRP$ your) (NN teacher)))))) (. !)))
+#Rule:Nouns
+r1tOrganizationAnnotation
+r1teacherNN
+
+#Rule:Verbs
+r2donVB
+r2understandVB
+r2talkingVBG
+
+#Rule:PRP-Noun
+r6yourPRP$teacherNN
+
+#Rule:HeadNoun-V
+r11youPRPtalkingVBG
+r11youPRPdonVB
+r11tOrganizationAnnotationunderstandVB
+
+#Rule:V-HeadNoun
+r21understandVBthisDT
+
+#Rule:V-HeadNoun
+r22donVBtOrganizationAnnotation
+
+#Rule:PPinVP
+r30talkingVBGtoTOteacherNN
+
+@lemmas-left	talking	understand	t	don	your	you	teacher	talk	
+@lemmas-right	talking	t	understand	don	teacher	this	talk	
+@lemmas-center	to	

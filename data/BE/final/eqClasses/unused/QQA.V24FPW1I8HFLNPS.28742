@@ -1,0 +1,120 @@
+BE: JewishPersonAnnotation
+EQ class: 
+
+BE: religionNN
+EQ class: religiousjj	faithnn	religious_beliefnn	
+
+BE: donLocationAnnotation
+EQ class: 
+
+BE: tNNP
+EQ class: thyminennp	themnnp	theynnp	
+
+BE: countryNN
+EQ class: nationnn	commonwealthnn	res_publicann	landnn	statenn	body_politicnn	
+
+BE: tNNS
+EQ class: thyminenns	theynns	themnns	
+
+BE: rightNN
+EQ class: 
+
+BE: countryNN
+EQ class: nationnn	commonwealthnn	res_publicann	landnn	statenn	body_politicnn	
+
+BE: Palestine.countriesNNPS
+EQ class: res_publicannps	commonwealthnnps	landnnps	nationnnps	countrynnps	statennps	body_politicnnps	palestinecountriesnnps	
+
+BE: religionNN
+EQ class: religiousjj	faithnn	religious_beliefnn	
+
+BE: countryNN
+EQ class: nationnn	commonwealthnn	res_publicann	landnn	statenn	body_politicnn	
+
+BE: religionsNNS
+EQ class: faithnns	religiousjj	theynns	religionnns	themnns	religious_beliefnns	
+
+BE: ownVB
+EQ class: possessvb	havevb	
+
+BE: thinkVBP
+EQ class: conceivevbp	believevbp	considervbp	
+
+BE: donVB
+EQ class: assumevb	put_onvb	wearvb	get_intovb	
+
+BE: buildVB
+EQ class: makevb	constructvb	
+
+BE: dependVB
+EQ class: 
+
+BE: canfindVBP
+EQ class: 
+
+BE: ownJJ
+EQ class: ainjj	
+
+BE: manyJJ
+EQ class: 
+
+BE: ownJJcountryNN
+EQ class: ownjjstatenn	ainjjbody_politicnn	ainjjcountrynn	ownjjcommonwealthnn	ownjjnationnn	ainjjstatenn	ownjjlandnn	ownjjbody_politicnn	ainjjlandnn	ainjjnationnn	ainjjcommonwealthnn	ownjjres_publicann	ainjjres_publicann	
+
+BE: manyJJreligionsNNS
+EQ class: manyjjtheynns	manyjjfaithnns	manyjjreligious_beliefnns	manyjjreligionnns	manyjjreligiousjj	manyjjthemnns	
+
+BE: theirPRP$countryNN
+EQ class: res_publicannofintheirprp$	landnnofintheirprp$	countrynnofintheirprp$	theirprp$body_politicnn	theirprp$nationnn	statennofintheirprp$	theirprp$commonwealthnn	commonwealthnnofintheirprp$	theirprp$statenn	nationnnofintheirprp$	theirprp$landnn	theirprp$res_publicann	body_politicnnofintheirprp$	
+
+BE: donLocationAnnotationtNNP
+EQ class: thyminennpofindonlocationannotation	donlocationannotationtheynnp	themnnpofindonlocationannotation	donlocationannotationthemnnp	donlocationannotationthyminennp	theynnpofindonlocationannotation	tnnpofindonlocationannotation	
+
+BE: JewishPersonAnnotationisAUX
+EQ class: jewishpersonannotationbeaux	
+
+BE: tNNPhaveAUX
+EQ class: theynnpholdaux	havennofintheynnp	havennofinthyminennp	themnnpholdaux	wealthy_personnnofinthemnnp	tnnpholdaux	theynnphaveaux	thyminennphaveaux	themnnphaveaux	rich_personnnofintnnp	rich_personnnofinthyminennp	tnnphave_gotaux	rich_personnnofinthemnnp	thyminennphave_gotaux	rich_personnnofintheynnp	wealthy_personnnofintnnp	thyminennpholdaux	wealthy_personnnofintheynnp	havennofintnnp	wealthy_personnnofinthyminennp	themnnphave_gotaux	havennofinthemnnp	theynnphave_gotaux	
+
+BE: iPRPthinkVBP
+EQ class: iprpbelievevbp	iprpconceivevbp	thoughtnnofiniprp	ideanniprp	iprpconsidervbp	ideannofiniprp	thoughtnniprp	
+
+BE: theyPRPdonVB
+EQ class: tprpassumevb	tprpdonvb	religionsprpdonvb	religionsprpassumevb	palestine.countriesprpwearvb	tprpwearvb	theyprpassumevb	religionsprpget_intovb	palestine.countriesprpassumevb	theyprpput_onvb	tprpput_onvb	theyprpwearvb	theyprpget_intovb	religionsprpput_onvb	religionsprpwearvb	palestine.countriesprpput_onvb	palestine.countriesprpget_intovb	tprpget_intovb	palestine.countriesprpdonvb	
+
+BE: tNNShaveAUX
+EQ class: tnnshave_gotaux	havennofintheynns	rich_personnnofintnns	theynnshave_gotaux	thyminennshave_gotaux	wealthy_personnnofintheynns	theynnshaveaux	havennofinthemnns	tnnsholdaux	wealthy_personnnofinthemnns	wealthy_personnnofintnns	themnnshave_gotaux	themnnsholdaux	theynnsholdaux	themnnshaveaux	havennofintnns	thyminennshaveaux	wealthy_personnnofinthyminenns	havennofinthyminenns	thyminennsholdaux	rich_personnnofintheynns	rich_personnnofinthemnns	rich_personnnofinthyminenns	
+
+BE: Palestine.countriesNNPSdependVB
+EQ class: dependantnnofinpalestine.countriesnnps	dependentjjofincountrynnps	palestinecountriesnnpsdependvb	dependentjjofinres_publicannps	dependentnnofinres_publicannps	statennpsdependvb	dependentjjofinstatennps	commonwealthnnpsdependvb	dependentjjofincommonwealthnnps	dependentnnofinpalestinecountriesnnps	dependentnnofinbody_politicnnps	dependentjjofinlandnnps	dependentjjofinnationnnps	nationnnpsdependvb	dependantnnofincommonwealthnnps	dependantnnofinpalestinecountriesnnps	res_publicannpsdependvb	dependentnnofincommonwealthnnps	dependentnnofinlandnnps	dependentnnofincountrynnps	body_politicnnpsdependvb	dependantnnofinres_publicannps	dependantnnofinnationnnps	dependantnnofinlandnnps	dependentjjofinbody_politicnnps	dependentnnofinnationnnps	dependentnnofinstatennps	dependantnnofinbody_politicnnps	landnnpsdependvb	dependentjjofinpalestine.countriesnnps	dependantnnofinstatennps	countrynnpsdependvb	dependentjjofinpalestinecountriesnnps	dependantnnofincountrynnps	dependentnnofinpalestine.countriesnnps	
+
+BE: youPRPcanfindVBP
+EQ class: 
+
+BE: isAUXreligionNN
+EQ class: beauxreligiousjj	beauxreligious_beliefnn	beauxfaithnn	isauxreligious_beliefnn	isauxreligiousjj	beauxreligionnn	isauxfaithnn	
+
+BE: ownVBcountryNN
+EQ class: proprietornnofinlandnn	proprietornnofincommonwealthnn	ownvbres_publicann	ownernnofinbody_politicnn	proprietornnofinres_publicann	ownvblandnn	ownernnofincountrynn	proprietornnofincountrynn	proprietornnofinbody_politicnn	ownvbcommonwealthnn	havevbstatenn	ownvbbody_politicnn	havevblandnn	havevbbody_politicnn	ownernnofinnationnn	ownvbstatenn	ownernnofincommonwealthnn	havevbres_publicann	havevbcountrynn	possessvbres_publicann	ownernnofinstatenn	ownernnofinres_publicann	ownernnofinlandnn	havevbnationnn	havevbcommonwealthnn	ownvbnationnn	possessvbnationnn	possessvbcommonwealthnn	possessvbbody_politicnn	possessvbstatenn	proprietornnofinnationnn	possessvblandnn	possessvbcountrynn	proprietornnofinstatenn	
+
+BE: haveAUXrightNN
+EQ class: holdauxrightnn	havennofinrightnn	rich_personnnofinrightnn	wealthy_personnnofinrightnn	have_gotauxrightnn	
+
+BE: buildVBcountryNN
+EQ class: makevbcommonwealthnn	buildingnnofinbody_politicnn	buildernnofinlandnn	constructvbres_publicann	constructvbstatenn	buildingnnofinres_publicann	detergent_buildernnofinnationnn	detergent_buildernnofinstatenn	edificennofinres_publicann	makevbcountrynn	buildvbstatenn	detergent_buildernnofinres_publicann	buildernnofincommonwealthnn	constructvbcountrynn	buildernnofinnationnn	edificennofinnationnn	makevblandnn	buildingnnofinlandnn	buildingnnofinstatenn	detergent_buildernnofincountrynn	edificennofinbody_politicnn	makevbbody_politicnn	buildernnofincountrynn	buildvbbody_politicnn	makevbstatenn	detergent_buildernnofinbody_politicnn	buildingnnofincountrynn	detergent_buildernnofinlandnn	makevbnationnn	buildernnofinstatenn	buildernnofinres_publicann	buildvbres_publicann	detergent_buildernnofincommonwealthnn	constructvbcommonwealthnn	buildvbcommonwealthnn	constructvbnationnn	constructvbbody_politicnn	buildernnofinbody_politicnn	makevbres_publicann	edificennofinlandnn	edificennofincommonwealthnn	buildingnnofincommonwealthnn	buildvbnationnn	buildvblandnn	edificennofincountrynn	constructvblandnn	buildingnnofinnationnn	edificennofinstatenn	
+
+BE: canfindVBPreligionsNNS
+EQ class: canfindvbpfaithnns	canfindvbpreligionnns	canfindvbpthemnns	canfindvbpreligiousjj	canfindvbpreligious_beliefnns	canfindvbptheynns	
+
+BE: religionNNinINcountryNN
+EQ class: statennreligiousvb	religionistvbstatenn	nationnnfaithnn	res_publicannreligionnn	body_politicnnreligionistvb	landnnreligious_beliefnn	commonwealthnnreligionistvb	faithnnininlandnn	religiousjjininstatenn	commonwealthnnreligiousjj	religionnnininnationnn	countrynnreligionistvb	countrynnreligiousvb	religiousvbres_publicann	commonwealthnnreligiousvb	religionnnininlandnn	faithnnininres_publicann	religionistvbres_publicann	religious_beliefnnininlandnn	religious_beliefnnininbody_politicnn	religionnnininstatenn	countrynnreligiousjj	religiousvbcommonwealthnn	statennfaithnn	body_politicnnreligiousjj	body_politicnnreligiousvb	nationnnreligious_beliefnn	religious_beliefnnininstatenn	nationnnreligionnn	statennreligious_beliefnn	countrynnreligious_beliefnn	religiousvbnationnn	statennreligiousjj	religionnnininres_publicann	faithnninincommonwealthnn	body_politicnnreligious_beliefnn	res_publicannreligiousvb	religiousvbstatenn	landnnfaithnn	countrynnfaithnn	religionistvblandnn	religionistvbcountrynn	nationnnreligiousjj	res_publicannreligiousjj	statennreligionistvb	nationnnreligionistvb	faithnnininbody_politicnn	religiousjjininbody_politicnn	res_publicannfaithnn	religiousjjinincountrynn	countrynnreligionnn	body_politicnnfaithnn	res_publicannreligionistvb	landnnreligionnn	faithnninincountrynn	religionnninincommonwealthnn	religiousvbcountrynn	religious_beliefnnininres_publicann	religiousjjininres_publicann	statennreligionnn	nationnnreligiousvb	religious_beliefnninincommonwealthnn	religiousjjinincommonwealthnn	commonwealthnnfaithnn	landnnreligiousvb	religionnnininbody_politicnn	religionistvbnationnn	religiousvbbody_politicnn	res_publicannreligious_beliefnn	commonwealthnnreligious_beliefnn	religiousjjininnationnn	religious_beliefnninincountrynn	body_politicnnreligionnn	religionistvbbody_politicnn	landnnreligionistvb	faithnnininnationnn	religiousvblandnn	religionistvbcommonwealthnn	landnnreligiousjj	religiousjjininlandnn	religious_beliefnnininnationnn	commonwealthnnreligionnn	faithnnininstatenn	
+
+BE: dependVBonINreligionNN
+EQ class: dependvboninreligious_beliefnn	dependvboninreligiousjj	dependvboninfaithnn	
+
+BE: areAUXnotRB
+EQ class: beauxnotrb	
+
+BE: religionNNJewishPersonAnnotation
+EQ class: jewishpersonannotationfaithnn	jewishpersonannotationreligionnn	religiousjjjewishpersonannotation	jewishpersonannotationreligious_beliefnn	faithnnjewishpersonannotation	jewishpersonannotationreligiousjj	religious_beliefnnjewishpersonannotation	
+

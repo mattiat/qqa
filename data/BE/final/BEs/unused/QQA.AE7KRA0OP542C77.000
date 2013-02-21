@@ -1,0 +1,60 @@
+#Why pandas are not bears??
+#(S1 (SBARQ (WHADVP (WRB Why)) (SQ (NP (NNS pandas)) (VP (AUX are) (NP (RB not) (VBZ bears))) (. ?)) (. ?)))
+#Rule:Nouns
+r1pandasNNS
+
+#Rule:Verbs
+r2bearsVBZ
+
+#Rule:V-HeadNoun
+r21areAUXnotRB
+
+#I recently heard that pandas are not bears (just like dolphins are not fish) despite their look. Why? and what are the differences (or characteristics) between a bear and a panda?
+#(S1 (S (S (NP (PRP I)) (ADVP (RB recently)) (VP (VBD heard) (SBAR (IN that) (S (NP (NNS pandas)) (VP (AUX are) (RB not) (NP (NP (NNS bears)) (PRN (-LRB- -LRB-) (SBAR (ADVP (RB just)) (IN like) (S (NP (NNS dolphins)) (VP (AUX are) (RB not) (ADVP (RB fish))))) (-RRB- -RRB-))) (PP (IN despite) (NP (PRP$ their) (NNS look.))) (ADVP (WRB Why)))))) (. ?)) (CC and) (SBARQ (WHNP (WP what)) (SQ (VP (AUX are) (NP (NP (DT the) (NNS differences)) (PRN (-LRB- -LRB-) (CC or) (NP (NNS characteristics)) (-RRB- -RRB-)) (PP (IN between) (NP (NP (DT a) (NN bear)) (CC and) (NP (DT a) (NN panda))))))) (. ?))))
+#Rule:Nouns
+r1pandasNNS
+r1bearsNNS
+r1dolphinsOrganizationAnnotation
+r1lookNNS
+r1differencesNNS
+r1characteristicsNNS
+r1bearNN
+r1pandaLocationAnnotation
+
+#Rule:Verbs
+r2heardVBD
+
+#Rule:PRP-Noun
+r6theirPRP$lookNNS
+
+#Rule:HeadNoun-V
+r11iPRPheardVBD
+r11pandasNNSareAUX
+r11dolphinsOrganizationAnnotationareAUX
+
+#Rule:V-HeadNoun
+r21areAUXbearsNNS
+r21areAUXdifferencesNNS
+
+#Rule:PPinNP
+r26differencesNNSbetweenINbearNN
+r26differencesNNSbetweenINpandaLocationAnnotation
+
+#Rule:PPinVP
+r30areAUXdespiteINlookNNS
+
+#Rule:V-IN-V
+r43heardVBDthatINareAUX
+
+#Rule:V-ADV
+r46heardVBDrecentlyRB
+r46areAUXnotRB
+r46areAUXnotRB
+r46areAUXfishRB
+
+#Rule:IS-RULE
+r47bearsNNSpandasNNS
+
+@lemmas-left	bear	look	panda	look.	dolphins	characteristics	differences	i	difference	hear	are	heard	bears	their	characteristic	pandas	be	
+@lemmas-right	look	bear	panda	look.	fish	differences	not	difference	hear	are	heard	bears	recently	pandas	be	
+@lemmas-center	that	despite	between	

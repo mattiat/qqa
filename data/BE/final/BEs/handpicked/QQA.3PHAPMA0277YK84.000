@@ -1,0 +1,30 @@
+#how can I cope with the fact that my mom is dieing of very aggressive cancer?
+#(S1 (SBARQ (WHADVP (WRB how)) (SQ (MD can) (NP (PRP I)) (VP (VB cope) (PP (IN with) (NP (DT the) (NN fact) (SBAR (IN that) (S (NP (PRP$ my) (NN mom)) (VP (AUX is) (VP (VBG dieing) (PP (IN of) (NP (ADJP (RB very) (JJ aggressive)) (NN cancer))))))))))) (. ?)))
+#Rule:Nouns
+r1factNN
+r1momNN
+r1cancerNN
+
+#Rule:Verbs
+r2copeVB
+r2dieingVBG
+
+#Rule:Adjs
+r4aggressiveJJ
+
+#Rule:Adj-Noun
+r5aggressiveJJcancerNN
+
+#Rule:PRP-Noun
+r6myPRP$momNN
+
+#Rule:HeadNoun-V
+r11momNNdieingVBG
+
+#Rule:PPinVP
+r30copeVBwithINfactNN
+r30dieingVBGofINcancerNN
+
+@lemmas-left	fact	die	dieing	cope	aggressive	my	cancer	mom	
+@lemmas-right	fact	die	dieing	mom	cancer	
+@lemmas-center	of	with	

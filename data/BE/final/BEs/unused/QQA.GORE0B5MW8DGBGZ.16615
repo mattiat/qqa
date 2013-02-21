@@ -1,0 +1,24 @@
+#They have a huge food requirement.
+#(S1 (S (NP (PRP They)) (VP (AUX have) (NP (DT a) (JJ huge) (NN food) (NN requirement))) (. .)))
+#Rule:Nouns
+r1foodNN
+r1requirementNN
+
+#Rule:Adjs
+r4hugeJJ
+
+#Rule:Adj-Noun
+r5hugeJJrequirementNN
+
+#Rule:N-HeadNoun
+r8foodNNrequirementNN
+
+#Rule:HeadNoun-V
+r11theyPRPhaveAUX
+
+#Rule:V-HeadNoun
+r21haveAUXrequirementNN
+
+@lemmas-left	huge	they	requirement	have	food	
+@lemmas-right	requirement	have	
+@lemmas-center	

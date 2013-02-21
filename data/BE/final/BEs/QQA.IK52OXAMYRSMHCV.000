@@ -1,0 +1,69 @@
+#How can you lower cholesterol numbers when a low fat, low cholesterol diet and aerobic exercise don t work??
+#(S1 (SBARQ (WHADVP (WRB How)) (SQ (MD can) (NP (PRP you)) (VP (VB lower) (NP (NN cholesterol) (NNS numbers)) (SBAR (WHADVP (WRB when)) (S (NP (DT a) (JJ low) (JJ fat) (, ,) (JJ low) (NN cholesterol) (NN diet) (CC and) (JJ aerobic) (NN exercise)) (VP (VB don) (NP (JJ t) (NN work)))))) (. ?)) (. ?)))
+#Rule:Nouns
+r1cholesterolNN
+r1numbersNNS
+r1cholesterolNN
+r1dietNN
+r1exerciseNN
+r1t workLocationAnnotation
+
+#Rule:Verbs
+r2lowerVB
+r2donVB
+
+#Rule:Adjs
+r4lowJJ
+r4fatJJ
+r4lowJJ
+r4aerobicJJ
+
+#Rule:Adj-Noun
+r5lowJJexerciseNN
+r5fatJJexerciseNN
+r5lowJJexerciseNN
+r5aerobicJJexerciseNN
+
+#Rule:N-HeadNoun
+r8cholesterolNNnumbersNNS
+
+#Rule:N-Noun
+r9cholesterolNNdietNN
+
+#Rule:HeadNoun-V
+r11exerciseNNdonVB
+
+#Rule:V-HeadNoun
+r21lowerVBnumbersNNS
+r21donVBt workLocationAnnotation
+
+#I would like answers that don t include prescription drugs.
+#(S1 (S (NP (PRP I)) (VP (MD would) (VP (VB like) (NP (NNS answers)) (SBAR (IN that) (S (NP (VB don) (NNS t)) (VP (VB include) (NP (NN prescription) (NNS drugs))))))) (. .)))
+#Rule:Nouns
+r1answersNNS
+r1tNNS
+r1prescriptionNN
+r1drugsNNS
+
+#Rule:Verbs
+r2likeVB
+r2donLocationAnnotation
+r2includeVB
+
+#Rule:N-HeadNoun
+r8prescriptionNNdrugsNNS
+
+#Rule:HeadNoun-V
+r11iPRPlikeVB
+r11tNNSincludeVB
+
+#Rule:V-HeadNoun
+r21likeVBanswersNNS
+r21includeVBdrugsNNS
+
+#Rule:V-IN-V
+r43likeVBthatINincludeVB
+
+@lemmas-left	lower	diet	don	drugs	prescription	fat	answer	answers	exercise	like	cholesterol	t work	i	include	t	numbers	low	aerobic	drug	
+@lemmas-right	don	diet	drugs	numbers	answers	answer	exercise	like	t work	include	drug	
+@lemmas-center	that	

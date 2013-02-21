@@ -1,0 +1,67 @@
+#wheredid it spread to?  
+#(S1 (SQ (NNP wheredid) (NP (PRP it)) (VP (VB spread) (S (VP (TO to)))) (. ?)))
+#Rule:Nouns
+r1wheredidNNP
+
+#Rule:Verbs
+r2spreadVB
+
+#there are a lot of Stage 4 survivors out there.  
+#(S1 (S (NP (EX there)) (VP (AUX are) (NP (NP (DT a) (NN lot)) (PP (IN of) (NP (NP (NNP Stage) (CD 4) (NNS survivors)) (PP (IN out) (NP (EX there))))))) (. .)))
+#Rule:Nouns
+r1lotNN
+r1StageOrganizationAnnotation
+r1survivorsNNS
+
+#Rule:Adj-Noun
+r54CDsurvivorsNNS
+
+#Rule:HeadNoun-V
+r11thereEXareAUX
+
+#Rule:V-HeadNoun
+r21areAUXlotNN
+
+#Rule:PPinNP
+r26lotNNofINsurvivorsNNS
+r26survivorsNNSoutINthereEX
+
+#check the ACS site for survivor % soh, nice avatar, dog!
+#(S1 (S (VP (VB check) (NP (NP (DT the) (JJ ACS) (NN site)) (PP (IN for) (NP (NP (NN survivor) (NN %) (NN soh)) (, ,) (NP (JJ nice) (NN avatar)) (, ,) (NP (NN dog)))))) (. !)))
+#Rule:Nouns
+r1siteNN
+r1survivorNN
+r1%NN
+r1sohNN
+r1avatarNN
+r1dogNN
+
+#Rule:Verbs
+r2checkVB
+
+#Rule:Adjs
+r4ACSLocationAnnotation
+r4niceJJ
+
+#Rule:Adj-Noun
+r5ACSLocationAnnotationsiteNN
+r5niceJJavatarNN
+
+#Rule:N-HeadNoun
+r8%NNsohNN
+r8survivorNNsohNN
+
+#Rule:N-ApposN
+r10sohNNavatarNN
+
+#Rule:V-HeadNoun
+r21checkVBsiteNN
+
+#Rule:PPinNP
+r26siteNNforINsohNN
+r26siteNNforINavatarNN
+r26siteNNforINdogNN
+
+@lemmas-left	site	ACS	check	survivor	%	nice	avatar	wheredid	are	soh	4	there	lot	dog	spread	Stage	survivors	be	
+@lemmas-right	site	are	soh	there	survivor	lot	dog	avatar	survivors	be	
+@lemmas-center	of	for	out	

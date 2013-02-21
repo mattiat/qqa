@@ -1,0 +1,31 @@
+#have your doctor schedule a diabetes education class for you and refer you to a nutritionist.
+#(S1 (SINV (AUX have) (NP (PRP$ your) (NN doctor)) (VP (VP (VB schedule) (NP (DT a) (NN diabetes) (NN education) (NN class)) (PP (IN for) (NP (PRP you)))) (CC and) (VP (VB refer) (NP (PRP you)) (PP (TO to) (NP (DT a) (NN nutritionist))))) (. .)))
+#Rule:Nouns
+r1doctorNN
+r1diabetesNN
+r1educationNN
+r1classNN
+r1nutritionistNN
+
+#Rule:Verbs
+r2scheduleVB
+r2referVB
+
+#Rule:PRP-Noun
+r6yourPRP$doctorNN
+
+#Rule:N-HeadNoun
+r8educationNNclassNN
+r8diabetesNNclassNN
+
+#Rule:V-HeadNoun
+r21scheduleVBclassNN
+r21referVByouPRP
+
+#Rule:PPinVP
+r30scheduleVBforINyouPRP
+r30referVBtoTOnutritionistNN
+
+@lemmas-left	schedule	refer	nutritionist	your	diabetes	class	education	doctor	
+@lemmas-right	nutritionist	class	you	doctor	
+@lemmas-center	to	for	

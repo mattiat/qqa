@@ -1,0 +1,48 @@
+BE: plutoNNP
+EQ class: 
+
+BE: planetNN
+EQ class: planetaryjj	major_planetnn	planetaljj	
+
+BE: isentVB
+EQ class: 
+
+BE: plutoNNPisentVB
+EQ class: 
+
+BE: isentVBplanetNN
+EQ class: isentvbmajor_planetnn	isentvbplanetaljj	isentvbplanetaryjj	
+
+BE: happenVB
+EQ class: come_aboutvb	occurvb	fall_outvb	go_onvb	pass_offvb	hapvb	take_placevb	passvb	
+
+BE: projectNN
+EQ class: labornn	tasknn	undertakingnn	
+
+BE: plutoNN
+EQ class: 
+
+BE: monthNN
+EQ class: calendar_monthnn	monthlyjj	
+
+BE: lastJJ
+EQ class: 
+
+BE: lastJJmonthNN
+EQ class: lastjjmonthlyjj	lastjjcalendar_monthnn	monthlyvblastlyrb	
+
+BE: iPRPdidAUX
+EQ class: iprpdoaux	iprpmakeaux	
+
+BE: didAUXprojectNN
+EQ class: doauxtasknn	didauxlabornn	doauxprojectnn	makeauxtasknn	makeauxundertakingnn	makeauxprojectnn	makeauxlabornn	didauxundertakingnn	didauxtasknn	doauxundertakingnn	doauxlabornn	
+
+BE: didAUXmonthNN
+EQ class: didauxmonthlyjj	doauxmonthlyjj	didauxcalendar_monthnn	makeauxcalendar_monthnn	makeauxmonthnn	makeauxmonthlyjj	doauxcalendar_monthnn	doauxmonthnn	
+
+BE: projectNNonINplutoNN
+EQ class: plutonnundertakingnn	plutonntasknn	plutonnprojectnn	undertakingnnoninplutonn	plutonnlabornn	tasknnoninplutonn	labornnoninplutonn	projectvbplutonn	plutonnprojectvb	
+
+BE: didAUXjustRB
+EQ class: doauxjustrb	makeauxjustrb	
+

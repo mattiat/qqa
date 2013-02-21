@@ -1,0 +1,134 @@
+#Because people are ignorant of this condition. 
+#(S1 (FRAG (SBAR (IN Because) (S (NP (NNS people)) (VP (AUX are) (ADJP (JJ ignorant) (PP (IN of) (NP (DT this) (NN condition))))))) (. .)))
+#Rule:Nouns
+r1peopleNNS
+r1conditionNN
+
+#Rule:Adjs
+r4ignorantJJ
+
+#Rule:HeadNoun-V
+r11peopleNNSareAUX
+
+#Rule:V-ADJ
+r25areAUXignorantJJ
+
+#Rule:PPinADJP
+r37ignorantJJofINconditionNN
+
+#My fiancee has diabetis (type II) too, and if you were to look at him, you would think that he was one of the healthiest men in the world. 
+#(S1 (S (S (NP (PRP$ My) (NN fiancee)) (VP (AUX has) (NP (NP (NNS diabetis)) (PRN (-LRB- -LRB-) (NP (NN type) (NNP II)) (-RRB- -RRB-))) (ADVP (RB too)))) (, ,) (CC and) (S (SBAR (IN if) (S (NP (PRP you)) (VP (AUX were) (S (VP (TO to) (VP (VB look) (PP (IN at) (NP (PRP him))))))))) (, ,) (NP (PRP you)) (VP (MD would) (VP (VB think) (SBAR (IN that) (S (NP (PRP he)) (VP (AUX was) (NP (NP (CD one)) (PP (IN of) (NP (NP (DT the) (JJS healthiest) (NNS men)) (PP (IN in) (NP (DT the) (NN world)))))))))))) (. .)))
+#Rule:Nouns
+r1My fianceeOrganizationAnnotation
+r1diabetisNNS
+r1typeNN
+r1IINNP
+r1menNNS
+r1worldNN
+
+#Rule:Verbs
+r2lookVB
+r2thinkVB
+
+#Rule:Adjs
+r4healthiestJJS
+
+#Rule:Adj-Noun
+r5healthiestJJSmenNNS
+
+#Rule:N-HeadNoun
+r8typeNNIINNP
+
+#Rule:HeadNoun-V
+r11My fianceeOrganizationAnnotationhasAUX
+r11youPRPthinkVB
+r11youPRPwereAUX
+r11hePRPwasAUX
+
+#Rule:V-HeadNoun
+r21hasAUXdiabetisNNS
+r21wasAUXoneCD
+
+#Rule:PPinNP
+r26oneCDofINmenNNS
+r26menNNSinINworldNN
+
+#Rule:PPinVP
+r30lookVBatINhimPRP
+
+#Rule:V-IN-V
+r43thinkVBthatINwasAUX
+
+#Rule:V-ADV
+r46hasAUXtooRB
+
+#Sigh, it s very frustrating for him, and for you, I am sure. 
+#(S1 (S (NP (NN Sigh)) (, ,) (S (NP (PRP it)) (VP (VBZ s) (ADJP (RB very) (JJ frustrating) (PP (IN for) (NP (PRP him)))))) (, ,) (CC and) (S (PP (IN for) (NP (PRP you))) (, ,) (NP (PRP I)) (VP (AUX am) (ADJP (JJ sure)))) (. .)))
+#Rule:Nouns
+r1SighNN
+
+#Rule:Verbs
+r2sVBZ
+
+#Rule:Adjs
+r4frustratingJJ
+r4sureJJ
+
+#Rule:HeadNoun-V
+r11itPRPsVBZ
+r11iPRPamAUX
+
+#Rule:PPinS
+r36amAUXforINyouPRP
+
+#Rule:PPinADJP
+r37frustratingJJforINhimPRP
+
+#I hope that you have been able to keep it under control and will soon be able to reduce (or even eliminate) your dependancy on insulin.
+#(S1 (S (NP (PRP I)) (VP (VBP hope) (SBAR (IN that) (S (NP (PRP you)) (VP (VP (AUX have) (VP (AUX been) (ADJP (JJ able) (S (VP (TO to) (VP (VB keep) (NP (PRP it)))))) (PP (IN under) (NP (NN control))))) (CC and) (VP (MD will) (ADVP (RB soon)) (VP (AUX be) (ADJP (JJ able) (S (VP (TO to) (VP (VB reduce) (PRN (-LRB- -LRB-) (CC or) (VP (RB even) (VB eliminate)) (-RRB- -RRB-)) (NP (PRP$ your) (NN dependancy)) (PP (IN on) (NP (NN insulin))))))))))))) (. .)))
+#Rule:Nouns
+r1controlNN
+r1dependancyNN
+r1insulinLocationAnnotation
+
+#Rule:Verbs
+r2hopeVBP
+r2keepVB
+r2reduceVB
+r2eliminateVB
+
+#Rule:Adjs
+r4ableJJ
+r4ableJJ
+
+#Rule:PRP-Noun
+r6yourPRP$dependancyNN
+
+#Rule:HeadNoun-V
+r11iPRPhopeVBP
+r11youPRPbeenAUX
+r11youPRPbeAUX
+
+#Rule:V-HeadNoun
+r21keepVBitPRP
+r21reduceVBdependancyNN
+
+#Rule:V-ADJ
+r25beenAUXableJJ
+r25beAUXableJJ
+
+#Rule:PPinVP
+r30beenAUXunderINcontrolNN
+r30reduceVBonINinsulinLocationAnnotation
+
+#Rule:V-IN-V
+r43hopeVBPthatINbeenAUX
+r43hopeVBPthatINbeAUX
+
+#Rule:V-ADV
+r46beAUXsoonRB
+r46eliminateVBevenRB
+
+@lemmas-left	have	one	type	people	healthiest	been	has	was	are	able	ignorant	men	My fiancee	sure	be	look	II	control	think	it	condition	insulin	your	dependancy	ii	you	he	reduce	i	s	am	healthy	frustrating	sigh	diabetis	eliminate	Sigh	world	keep	hope	
+@lemmas-right	have	one	him	has	been	was	were	are	able	ignorant	men	too	be	II	control	think	it	condition	insulin	dependancy	ii	you	soon	s	am	even	diabetis	world	hope	
+@lemmas-center	that	of	for	under	at	on	in	

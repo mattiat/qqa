@@ -1,0 +1,15 @@
+#cell to cell and cell to blood and to cell
+#(S1 (NP (NP (NN cell)) (PP (TO to) (NP (NN cell) (CC and) (NN cell))) (PP (PP (TO to) (NP (NN blood))) (CC and) (PP (TO to) (NP (NN cell))))))
+#Rule:Nouns
+r1cellNN
+r1cellNN
+r1cellNN
+r1bloodNN
+r1cellNN
+
+#Rule:PPinNP
+r26cellNNtoTOcellNN
+
+@lemmas-left	cell	blood	
+@lemmas-right	cell	
+@lemmas-center	to	

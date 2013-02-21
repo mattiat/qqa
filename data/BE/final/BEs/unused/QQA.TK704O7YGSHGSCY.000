@@ -1,0 +1,50 @@
+#How do you remove acne with a simple easy home-made remedy?
+#(S1 (SBARQ (WHADVP (WRB How)) (SQ (AUX do) (NP (PRP you)) (VP (VB remove) (NP (NN acne)) (PP (IN with) (NP (DT a) (JJ simple) (JJ easy) (JJ home-made) (NN remedy))))) (. ?)))
+#Rule:Nouns
+r1acneNN
+r1remedyNN
+
+#Rule:Verbs
+r2removeVB
+
+#Rule:Adjs
+r4simpleJJ
+r4easyJJ
+r4home-madeJJ
+
+#Rule:Adj-Noun
+r5simpleJJremedyNN
+r5easyJJremedyNN
+r5home-madeJJremedyNN
+
+#Rule:V-HeadNoun
+r21removeVBacneNN
+
+#Rule:PPinVP
+r30removeVBwithINremedyNN
+
+#maybe a herbal or chemical remedy as long as it helps.
+#(S1 (S (ADVP (RB maybe)) (NP (DT a) (JJ herbal) (CC or) (JJ chemical)) (VP (VB remedy) (ADVP (ADVP (RB as) (RB long)) (SBAR (IN as) (S (NP (PRP it)) (VP (VBZ helps)))))) (. .)))
+#Rule:Verbs
+r2remedyVB
+r2helpsVBZ
+
+#Rule:Adjs
+r4herbalJJ
+r4chemicalJJ
+
+#Rule:Adj-Noun
+r5chemicalJJherbalJJ
+
+#Rule:HeadNoun-V
+r11herbalJJremedyVB
+r11itPRPhelpsVBZ
+
+#Rule:V-ADV
+r46remedyVBmaybeRB
+r46remedyVBasRB
+r46remedyVBlongRB
+
+@lemmas-left	help	it	easy	remove	remedy	simple	chemical	made	home-made	helps	herbal	acne	
+@lemmas-right	help	maybe	remedy	as	helps	long	herbal	acne	
+@lemmas-center	with	

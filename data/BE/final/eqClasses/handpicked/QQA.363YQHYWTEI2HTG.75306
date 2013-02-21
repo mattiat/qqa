@@ -1,0 +1,156 @@
+BE: pressureNN
+EQ class: pressure_levelnn	force_per_unit_areann	
+
+BE: cookerNN
+EQ class: 
+
+BE: steamNN
+EQ class: 
+
+BE: liquidNN
+EQ class: 
+
+BE: waterNN
+EQ class: wateryjj	h2onn	
+
+BE: containerNN
+EQ class: 
+
+BE: weightNN
+EQ class: weightyjj	
+
+BE: worksVBZ
+EQ class: workvbz	
+
+BE: keepingVBG
+EQ class: maintainvbg	holdvbg	keepvbg	
+
+BE: generatedVBN
+EQ class: bring_forthvbn	generatevbn	
+
+BE: boilingVBG
+EQ class: boilvbg	
+
+BE: leavingVBG
+EQ class: leavevbg	go_awayvbg	go_forthvbg	
+
+BE: usingVBG
+EQ class: employvbg	applyvbg	utilisevbg	usevbg	utilizevbg	
+
+BE: ventVB
+EQ class: ventilatevb	give_ventvb	
+
+BE: boilingVBGwaterNN
+EQ class: furunclennofinwateryjj	boilvbgwateryjj	boilnnofinwaternn	furunclennofinwaternn	steam_boilernnofinwateryjj	boilnnofinh2onn	boilvbgwaternn	boilingvbgwateryjj	boilernnofinwaternn	steam_boilernnofinh2onn	boilvbgh2onn	steam_boilernnofinwaternn	boilernnofinh2onn	furunclennofinh2onn	boilernnofinwateryjj	boilingvbgh2onn	boilnnofinwateryjj	
+
+BE: pressureNNcookerNN
+EQ class: cookernnofinforce_per_unit_areann	cookernnpressvb	pressingnnofincookernn	insistencynnofincookernn	force_per_unit_areanncookvb	force_per_unit_areanncookernn	cookvbforce_per_unit_areann	cookvbpressure_levelnn	cookernnpressurizevb	cookernnpressurisevb	pressure_levelnnofincookernn	pressure_levelnncookernn	cookernnofinpressurenn	cookernnsuperchargevb	cookvbpressurenn	imperativenessnnofincookernn	pressnnofincookernn	cookernnofinpressure_levelnn	pressurenncookvb	pressurennofincookernn	force_per_unit_areannofincookernn	pressure_levelnncookvb	insistencennofincookernn	
+
+BE: liquidNNwaterNN
+EQ class: liquidnnh2onn	h2onnofinliquidnn	wateryjjofinliquidnn	liquidnnirrigatevb	liquidnnwateryjj	liquidnnwatervb	waternnofinliquidnn	wateryvbliquidnn	watervbliquidnn	irrigatevbliquidnn	liquidnnwateryvb	
+
+BE: cookerNNworksVBZ
+EQ class: worknnofincookernn	cookernnworkvbz	workernnofincookernn	workernncookernn	
+
+BE: waterNNgeneratedVBN
+EQ class: wateryjjgeneratedvbn	contemporariesnnwaternn	generationaljjofinwateryjj	contemporariesnnofinh2onn	coevalsnnwaternn	generationnnwateryjj	contemporariesnnh2onn	coevalsnnofinwaternn	generativennofinwaternn	generatornnofinwaternn	generationnnwaternn	generationaljjh2onn	waternngeneratevbn	generationaljjofinh2onn	h2onngeneratedvbn	coevalsnnofinh2onn	contemporariesnnofinwaternn	generationnnofinwaternn	generationnnh2onn	waternnbring_forthvbn	generatornnwaternn	wateryjjgeneratevbn	h2onngeneratevbn	wateryjjbring_forthvbn	h2onnbring_forthvbn	generatornnofinwateryjj	generationnnofinwateryjj	generationaljjwateryjj	generatornnofinh2onn	coevalsnnwateryjj	generationnnofinh2onn	coevalsnnofinwateryjj	generativennofinh2onn	generativennofinwateryjj	contemporariesnnwateryjj	generationaljjofinwaternn	generatornnh2onn	coevalsnnh2onn	contemporariesnnofinwateryjj	generationaljjwaternn	generatornnwateryjj	
+
+BE: leavingVBGcontainerNN
+EQ class: leavernnofincontainernn	go_forthvbgcontainernn	departernnofincontainernn	goernnofincontainernn	leavevbgcontainernn	go_awayvbgcontainernn	leavennofincontainernn	leave_of_absencennofincontainernn	
+
+BE: usingVBGweightNN
+EQ class: utilisevbgweightyjj	utilizationnnofinweightyjj	applyvbgweightyjj	usernnofinweightnn	utilizationnnofinweightnn	employmentnnofinweightnn	usennofinweightnn	exercisennofinweightnn	usennofinweightyjj	useablennofinweightyjj	usingvbgweightyjj	employmentnnofinweightyjj	utilisationnnofinweightnn	exercisennofinweightyjj	applyvbgweightnn	utilizevbgweightnn	utilizevbgweightyjj	usagennofinweightyjj	usevbgweightnn	usablennofinweightyjj	usevbgweightyjj	usernnofinweightyjj	utilisevbgweightnn	employvbgweightnn	usablennofinweightnn	useablennofinweightnn	usagennofinweightnn	employvbgweightyjj	utilisationnnofinweightyjj	
+
+BE: keepingVBGsteamNN
+EQ class: maintainvbgsteamnn	keepvbgsteamnn	holdvbgsteamnn	
+
+BE: generatedVBNsteamNN
+EQ class: contemporariesnnofinsteamnn	bring_forthvbnsteamnn	generatevbnsteamnn	generatornnofinsteamnn	generationaljjofinsteamnn	coevalsnnofinsteamnn	generationnnofinsteamnn	generativennofinsteamnn	
+
+BE: weightNNoverINventVB
+EQ class: give_ventvbweightyjj	ventilatevbweightyjj	ventilatevbweightnn	venternnofinweightnn	ventvbweightyvb	weightyjjoveringive_ventvb	venternnofinweightyjj	ventholennofinweightnn	weightyjjoverinventilatevb	ventvbweightnn	weightyvbgive_ventvb	blowholennofinweightnn	give_ventvbweightnn	weightyvbventilatevb	weightyvbventvb	vent-holennofinweightyjj	ventvbweightyjj	ventilatevbweightyvb	blowholennofinweightyjj	vent-holennofinweightnn	ventnnofinweightnn	weightnnoverinventilatevb	ventholennofinweightyjj	weightyjjoverinventvb	weightnnoveringive_ventvb	ventnnofinweightyjj	give_ventvbweightyvb	
+
+BE: pressureNN
+EQ class: pressure_levelnn	force_per_unit_areann	
+
+BE: vesselNN
+EQ class: vasnn	
+
+BE: buildsVBZupRP
+EQ class: detergent_buildernnofinuprp	edificennofinuprp	constructvbzuprp	buildvbzuprp	makevbzuprp	buildernnofinuprp	buildingnnofinuprp	
+
+BE: thisDTbuildsVBZ
+EQ class: thisdtconstructvbz	thisdtmakevbz	edificennofinthisdt	buildernnthisdt	thisdtbuildvbz	detergent_buildernnthisdt	edificennthisdt	buildingnnofinthisdt	detergent_buildernnofinthisdt	buildingnnthisdt	buildernnofinthisdt	
+
+BE: buildsVBZpressureNN
+EQ class: constructvbzpressure_levelnn	buildsvbzforce_per_unit_areann	detergent_buildernnofinpressure_levelnn	edificennofinpressure_levelnn	makevbzpressurenn	buildvbzpressure_levelnn	edificennofinforce_per_unit_areann	buildingnnofinpressure_levelnn	buildernnofinpressurenn	buildernnofinpressure_levelnn	buildingnnofinforce_per_unit_areann	constructvbzforce_per_unit_areann	constructvbzpressurenn	buildernnofinforce_per_unit_areann	makevbzforce_per_unit_areann	makevbzpressure_levelnn	detergent_buildernnofinforce_per_unit_areann	buildsvbzpressure_levelnn	detergent_buildernnofinpressurenn	buildingnnofinpressurenn	buildvbzforce_per_unit_areann	edificennofinpressurenn	buildvbzpressurenn	
+
+BE: pressureNNinsideINvesselNN
+EQ class: vesselnnpressvb	vesselnnsuperchargevb	superchargevbvesselnn	force_per_unit_areanninsideinvasnn	pressurizevbvasnn	vesselnnpressurenn	force_per_unit_areanninsideinvesselnn	pressvbvesselnn	vasnnpressurenn	pressurenninsideinvasnn	vasnnpressure_levelnn	vasnnpressurisevb	vasnnforce_per_unit_areann	pressurisevbvesselnn	vesselnnpressure_levelnn	pressvbvasnn	vasnnpressvb	pressurizevbvesselnn	vesselnnforce_per_unit_areann	vesselnnpressurizevb	superchargevbvasnn	pressure_levelnninsideinvasnn	pressure_levelnninsideinvesselnn	vasnnpressurizevb	vasnnsuperchargevb	vesselnnpressurisevb	pressurisevbvasnn	
+
+BE: pressureNN
+EQ class: pressure_levelnn	force_per_unit_areann	
+
+BE: liquidNN
+EQ class: 
+
+BE: temperatureNN
+EQ class: 
+
+BE: boilNN
+EQ class: furunclenn	
+
+BE: forcesVBZ
+EQ class: pressurevbz	squeezevbz	coercevbz	halevbz	forcevbz	
+
+BE: higherJJR
+EQ class: 
+
+BE: higherJJRtemperatureNN
+EQ class: 
+
+BE: pressureNNforcesVBZ
+EQ class: pressure_levelnnsqueezevbz	force_per_unit_areanncoercevbz	pressure_levelnncoercevbz	forcennofinpressure_levelnn	pressurennhalevbz	pressure_levelnnpressurevbz	force_per_unit_areannsqueezevbz	pressurennforcevbz	force_per_unit_areannhalevbz	pressure_levelnnhalevbz	force_per_unit_areannforcesvbz	forcennofinpressurenn	pressure_levelnnforcesvbz	pressure_levelnnforcevbz	pressurennsqueezevbz	force_per_unit_areannpressurevbz	forcennofinforce_per_unit_areann	pressurennpressurevbz	force_per_unit_areannforcevbz	pressurenncoercevbz	
+
+BE: liquidNNneedAUX
+EQ class: demandnnofinliquidnn	neednnofinliquidnn	liquidnninvolveaux	liquidnnaskaux	liquidnncall_foraux	liquidnnrequireaux	liquidnnnecessitateaux	liquidnnpostulateaux	liquidnndemandaux	liquidnntakeaux	
+
+BE: needAUXtemperatureNN
+EQ class: involveauxtemperaturenn	takeauxtemperaturenn	necessitateauxtemperaturenn	call_forauxtemperaturenn	demandauxtemperaturenn	postulateauxtemperaturenn	demandnnofintemperaturenn	askauxtemperaturenn	neednnofintemperaturenn	requireauxtemperaturenn	
+
+BE: forcesVBZliquidNN
+EQ class: coercevbzliquidnn	halevbzliquidnn	pressurevbzliquidnn	squeezevbzliquidnn	forcevbzliquidnn	forcennofinliquidnn	
+
+BE: temperatureNNtoTOboilNN
+EQ class: furunclenntemperaturenn	boilnntemperaturenn	temperaturenntotofurunclenn	
+
+BE: temperaturesNNS
+EQ class: temperaturenns	theynns	themnns	
+
+BE: steamNN
+EQ class: 
+
+BE: foodNN
+EQ class: nutrientnn	
+
+BE: movingVBG
+EQ class: movevbg	govbg	travelvbg	locomotevbg	
+
+BE: cookVB
+EQ class: 
+
+BE: HigherJJR
+EQ class: 
+
+BE: HigherJJRtemperaturesNNS
+EQ class: higherjjrtheynns	higherjjrtemperaturenns	higherjjrthemnns	
+
+BE: movingVBGsteamNN
+EQ class: locomotevbgsteamnn	movevbgsteamnn	motilitynnofinsteamnn	motionnnofinsteamnn	movernnofinsteamnn	govbgsteamnn	gesturennofinsteamnn	travelvbgsteamnn	movennofinsteamnn	movementnnofinsteamnn	
+
+BE: temperaturesNNScookVB
+EQ class: cookingnnthemnns	preparationnnofintemperaturenns	cookerynnofintemperaturenns	cookerynnthemnns	cookerynntemperaturesnns	cookingnntemperaturesnns	theynnscookvb	temperaturennscookvb	cooknnofintheynns	preparationnnthemnns	cookingnnofintheynns	cooknnofintemperaturenns	preparationnntemperaturesnns	cookerynnofintemperaturesnns	preparationnnofinthemnns	preparationnntemperaturenns	cookerynnofinthemnns	cookerynnofintheynns	cookingnntheynns	preparationnntheynns	cookingnntemperaturenns	cookingnnofintemperaturenns	cookerynntheynns	cookingnnofintemperaturesnns	preparationnnofintemperaturesnns	cookingnnofinthemnns	cooknnofinthemnns	themnnscookvb	cooknnofintemperaturesnns	cookerynntemperaturenns	preparationnnofintheynns	
+
+BE: steamNNcookVB
+EQ class: cooknnofinsteamnn	preparationnnsteamnn	cookingnnofinsteamnn	cookerynnsteamnn	cookerynnofinsteamnn	preparationnnofinsteamnn	cookingnnsteamnn	
+

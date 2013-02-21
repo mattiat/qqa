@@ -1,0 +1,45 @@
+#how does culture influance our communicative behaviour?
+#(S1 (SBARQ (WHADVP (WRB how)) (SQ (AUX does) (NP (NN culture)) (VP (VB influance) (NP (PRP$ our) (JJ communicative) (NN behaviour)))) (. ?)))
+#Rule:Nouns
+r1cultureNN
+r1behaviourNN
+
+#Rule:Verbs
+r2influanceVB
+
+#Rule:Adjs
+r4communicativeJJ
+
+#Rule:Adj-Noun
+r5communicativeJJbehaviourNN
+
+#Rule:PRP-Noun
+r6ourPRP$behaviourNN
+
+#Rule:V-HeadNoun
+r21influanceVBbehaviourNN
+
+#pls elaborate your answer!!!!!!
+#(S1 (S (NP (NNS pls)) (VP (VB elaborate) (S (NP (PRP$ your) (NN answer)) (ADJP (JJ !!!!!)))) (. !)))
+#Rule:Nouns
+r1plsNNS
+r1answerNN
+
+#Rule:Verbs
+r2elaborateVB
+
+#Rule:Adjs
+r4!!!!!!LocationAnnotation
+
+#Rule:PRP-Noun
+r6yourPRP$answerNN
+
+#Rule:HeadNoun-V
+r11plsNNSelaborateVB
+
+#Rule:V-HeadNoun
+r22elaborateVBanswerNN
+
+@lemmas-left	!!!!!!	pls	elaborate	behaviour	your	answer	our	communicative	influance	culture	
+@lemmas-right	elaborate	behaviour	answer	
+@lemmas-center	

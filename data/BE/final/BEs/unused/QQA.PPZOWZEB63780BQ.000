@@ -1,0 +1,332 @@
+#why is it Breast Cancer is the only thing people care about??
+#(S1 (SBARQ (WHADVP (WRB why)) (SQ (AUX is) (NP (PRP it)) (SBAR (S (NP (NN Breast) (NN Cancer)) (VP (AUX is) (NP (NP (DT the) (JJ only) (NN thing)) (SBAR (S (NP (NNS people)) (VP (VBP care) (PP (IN about))))))))) (. ?)) (. ?)))
+#Rule:Nouns
+r1Breast CancerOrganizationAnnotation
+r1thingNN
+r1peopleNNS
+
+#Rule:Verbs
+r2careVBP
+
+#Rule:Adjs
+r4onlyJJ
+
+#Rule:Adj-Noun
+r5onlyJJthingNN
+
+#Rule:HeadNoun-V
+r11Breast CancerOrganizationAnnotationisAUX
+r11peopleNNScareVBP
+
+#Rule:NP(NP(z) SBAR(S(NP(x)VP(y))))
+r19careVBPthingNN
+
+#Rule:V-HeadNoun
+r21isAUXthingNN
+
+#Rule:IS-RULE
+r47thingNNBreast CancerOrganizationAnnotation
+
+#Where ever you go.
+#(S1 (SBARQ (WHADVP (WRB Where) (RB ever)) (SQ (NP (PRP you)) (VP (VB go))) (. .)))
+#Rule:Verbs
+r2goVB
+
+# All they talk about is how to find a cure for breast cancer, What about the other cancers that are out there.
+#(S1 (S (NP (NP (DT All)) (SBAR (S (NP (PRP they)) (VP (VBP talk) (PP (IN about)))))) (VP (AUX is) (SBAR (WHADVP (WRB how)) (S (VP (TO to) (VP (VB find) (NP (NP (DT a) (NN cure)) (PP (IN for) (NP (NN breast) (NN cancer)))) (, ,) (FRAG (WHNP (WP What)) (PP (IN about) (NP (NP (DT the) (JJ other) (NNS cancers)) (SBAR (WHNP (WDT that)) (S (VP (AUX are) (ADVP (IN out) (RB there))))))))))))) (. .)))
+#Rule:Nouns
+r1cureNN
+r1breastNN
+r1cancerNN
+r1cancersNNS
+
+#Rule:Verbs
+r2talkVBP
+r2findVB
+
+#Rule:Adjs
+r4otherJJ
+
+#Rule:Adj-Noun
+r5otherJJcancersNNS
+
+#Rule:N-HeadNoun
+r8breastNNcancerNN
+
+#Rule:HeadNoun-V
+r11allDTisAUX
+r11theyPRPtalkVBP
+
+#Rule:HeadNoun-(who/that)-V
+r14cancersNNSareAUX
+
+#Rule:V-HeadNoun
+r21findVBcureNN
+
+#Rule:PPinNP
+r26cureNNforINcancerNN
+
+#Rule:V-ADV
+r46areAUXthereRB
+
+# Why are they pushed a side for breast cancer.
+#(S1 (SBARQ (WHADVP (WRB Why)) (SQ (AUX are) (NP (PRP they)) (VP (VBN pushed) (NP (NP (DT a) (NN side)) (PP (IN for) (NP (NN breast) (NN cancer)))))) (. .)))
+#Rule:Nouns
+r1sideNN
+r1breastNN
+r1cancerNN
+
+#Rule:Verbs
+r2pushedVBN
+
+#Rule:N-HeadNoun
+r8breastNNcancerNN
+
+#Rule:V-HeadNoun
+r21pushedVBNsideNN
+
+#Rule:PPinNP
+r26sideNNforINcancerNN
+
+# before anyone gets their panties in a twist.
+#(S1 (S (NP (RB before) (NN anyone)) (VP (VBZ gets) (NP (PRP$ their) (NNS panties)) (PP (IN in) (NP (DT a) (NN twist)))) (. .)))
+#Rule:Nouns
+r1anyoneNN
+r1pantiesNNS
+r1twistNN
+
+#Rule:Verbs
+r2getsVBZ
+
+#Rule:PRP-Noun
+r6theirPRP$pantiesNNS
+
+#Rule:HeadNoun-V
+r11anyoneNNgetsVBZ
+
+#Rule:V-HeadNoun
+r21getsVBZpantiesNNS
+
+#Rule:PPinVP
+r30getsVBZinINtwistNN
+
+# A few of my family members have hasd breast cancer. 2 who found the lumps and went to get it checked our now healthy.
+#(S1 (S (NP (NP (DT A) (JJ few)) (PP (IN of) (NP (PRP$ my) (NN family) (NNS members)))) (VP (AUX have) (VP (VBN hasd) (NP (NP (NN breast) (NN cancer.) (CD 2)) (SBAR (WHNP (WP who)) (S (VP (VP (VBD found) (SBAR (DT the) (S (VP (VBZ lumps))))) (CC and) (VP (VBD went) (S (VP (TO to) (VP (VB get) (S (NP (PRP it)) (VP (VBN checked) (NP (PRP$ our) (RB now) (JJ healthy)))))))))))))) (. .)))
+#Rule:Nouns
+r1familyNN
+r1membersNNS
+r1breastNN
+r1cancerNN
+
+#Rule:Verbs
+r2hasdVBN
+r2foundVBD
+r2lumpsVBZ
+r2wentVBD
+r2getVB
+r2checkedVBN
+
+#Rule:Adjs
+r4fewJJ
+r4healthyJJ
+
+#Rule:Adj-Noun
+r52CDcancerNN
+
+#Rule:PRP-Noun
+r6myPRP$membersNNS
+r6ourPRP$healthyJJ
+
+#Rule:N-HeadNoun
+r8familyNNmembersNNS
+r8breastNNcancerNN
+
+#Rule:HeadNoun-V
+r12fewJJhasdVBN
+
+#Rule:HeadNoun-(who/that)-V
+r14cancerNNfoundVBD
+r14cancerNNwentVBD
+
+#Rule:V-HeadNoun
+r21hasdVBNcancerNN
+r21checkedVBNhealthyJJ
+
+#Rule:V-HeadNoun
+r22getVBitPRP
+
+#Rule:V-HeadNoun(passive)
+r24checkedVBNitPRP
+
+#Rule:PPinNP
+r26fewJJofINmembersNNS
+
+#Rule:V-V
+r44wentVBDgetVB
+
+# The one who ignored it until it got really bad.
+#(S1 (S (NP (NP (DT The) (NN one)) (SBAR (WHNP (WP who)) (S (VP (VBD ignored) (NP (PRP it)) (PP (IN until) (NP (PRP it))))))) (VP (VBD got) (ADJP (RB really) (JJ bad))) (. .)))
+#Rule:Nouns
+r1oneNN
+
+#Rule:Verbs
+r2ignoredVBD
+r2gotVBD
+
+#Rule:Adjs
+r4badJJ
+
+#Rule:HeadNoun-V
+r11oneNNgotVBD
+
+#Rule:HeadNoun-(who/that)-V
+r14oneNNignoredVBD
+
+#Rule:V-HeadNoun
+r21ignoredVBDitPRP
+
+#Rule:PPinVP
+r30ignoredVBDuntilINitPRP
+
+# Did pass away.
+#(S1 (S (VP (AUX Did) (VP (VB pass) (PRT (RP away)))) (. .)))
+#Rule:V-PRT
+r3passVBawayRP
+
+# she is missed every day.
+#(S1 (S (NP (PRP she)) (VP (AUX is) (VP (VBN missed) (NP (DT every) (NN day)))) (. .)))
+#Rule:Nouns
+r1dayNN
+
+#Rule:Verbs
+r2missedVBN
+
+#Rule:V-HeadNoun
+r21missedVBNdayNN
+
+#Rule:V-HeadNoun(passive)
+r23missedVBNshePRP
+
+# Now that you know that get off you high horses before you answer.
+#(S1 (FRAG (SBAR (ADVP (RB Now)) (IN that) (S (NP (PRP you)) (VP (VBP know) (SBAR (IN that) (S (VP (VB get) (PP (IN off) (NP (PRP you))) (SBAR (NP (JJ high) (NNS horses)) (IN before) (S (NP (PRP you)) (VP (VBP answer)))))))))) (. .)))
+#Rule:Nouns
+r1horsesNNS
+
+#Rule:Verbs
+r2knowVBP
+r2getVB
+r2answerVBP
+
+#Rule:Adjs
+r4highJJ
+
+#Rule:Adj-Noun
+r5highJJhorsesNNS
+
+#Rule:HeadNoun-V
+r11youPRPknowVBP
+r11youPRPanswerVBP
+
+#Rule:PPinVP
+r30getVBoffINyouPRP
+
+#Rule:V-IN-V
+r43knowVBPthatINgetVB
+r43getVBbeforeINanswerVBP
+
+#  I am personal sick of going into stores and seeing nothing but breast cancer stuff.
+#(S1 (S (NP (PRP I)) (VP (AUX am) (NP (JJ personal) (ADJP (JJ sick) (PP (IN of) (S (VP (VP (VBG going) (PP (IN into) (NP (NNS stores)))) (CC and) (VP (VBG seeing) (NP (NP (NN nothing)) (CC but) (NP (NN breast) (NN cancer)))))))) (NN stuff))) (. .)))
+#Rule:Nouns
+r1storesNNS
+r1nothingNN
+r1breastNN
+r1cancerNN
+r1stuffNN
+
+#Rule:Verbs
+r2goingVBG
+r2seeingVBG
+
+#Rule:Adjs
+r4personalJJ
+r4sickJJ
+
+#Rule:Adj-Noun
+r5personalJJstuffNN
+r5sickJJstuffNN
+
+#Rule:N-HeadNoun
+r8breastNNcancerNN
+
+#Rule:HeadNoun-V
+r11iPRPamAUX
+
+#Rule:V-HeadNoun
+r21amAUXstuffNN
+r21seeingVBGnothingNN
+
+#Rule:PPinVP
+r30goingVBGintoINstoresNNS
+
+#Rule:PPinADJP
+r38sickJJofINgoingVBG
+r38sickJJofINseeingVBG
+
+# I personal would like to see a cure for all kinds.
+#(S1 (S (NP (PRP I)) (ADVP (JJ personal)) (VP (MD would) (VP (VB like) (S (VP (TO to) (VP (VB see) (NP (NP (DT a) (NN cure)) (PP (IN for) (NP (DT all) (NNS kinds))))))))) (. .)))
+#Rule:Nouns
+r1cureNN
+r1kindsNNS
+
+#Rule:Verbs
+r2likeVB
+r2seeVB
+
+#Rule:Adjs
+r4personalJJ
+
+#Rule:HeadNoun-V
+r11iPRPlikeVB
+
+#Rule:V-HeadNoun
+r21seeVBcureNN
+
+#Rule:PPinNP
+r26cureNNforINkindsNNS
+
+#Rule:V-V
+r44likeVBseeVB
+
+# If you can get shirts, pens, magnets for breast cancer.
+#(S1 (FRAG (SBAR (IN If) (S (NP (PRP you)) (VP (MD can) (VP (VB get) (NP (NNS shirts) (, ,) (NNS pens) (, ,) (NNS magnets)) (PP (IN for) (NP (NN breast) (NN cancer))))))) (. .)))
+#Rule:Nouns
+r1shirtsNNS
+r1pensNNS
+r1magnetsNNS
+r1breastNN
+r1cancerNN
+
+#Rule:Verbs
+r2getVB
+
+#Rule:N-HeadNoun
+r8breastNNcancerNN
+
+#Rule:HeadNoun-V
+r11youPRPgetVB
+
+#Rule:V-HeadNoun
+r21getVBmagnetsNNS
+
+#Rule:PPinVP
+r30getVBforINcancerNN
+
+# Why not al the rest?
+#(S1 (FRAG (WHADVP (WRB Why)) (RB not) (VP (NNP al) (NP (DT the) (NN rest))) (. ?)))
+#Rule:Nouns
+r1alNNP
+r1restNN
+
+@lemmas-left	they	lump	store	panties	people	cure	went	lumps	are	magnets	shirts	family	care	only	shirt	be	hasd	going	get	seeing	kinds	answer	bad	like	few	breast	2	stuff	cancer.	sick	rest	day	got	thing	go	ignored	other	horses	horse	one	Breast Cancer	kind	push	pens	personal	side	all	find	members	pantie	talk	ignore	member	is	check	gets	you	know	my	i	pass	cancers	pen	al	see	am	anyone	nothing	twist	pushed	healthy	high	magnet	stores	missed	their	checked	our	miss	cancer	found	
+@lemmas-right	store	panties	cure	went	are	magnets	care	she	be	hasd	going	get	seeing	kinds	answer	like	stuff	cancer.	day	got	go	thing	ignored	horses	horse	Breast Cancer	kind	side	members	talk	pantie	ignore	member	is	it	gets	you	know	cancers	away	see	am	there	twist	nothing	healthy	stores	magnet	cancer	found	
+@lemmas-center	that	of	for	before	into	off	in	until	

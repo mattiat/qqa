@@ -1,0 +1,33 @@
+#I had a baby 4 months ago, how do i get rid of the fat on my back/sides?
+#(S1 (SBARQ (S (NP (PRP I)) (VP (AUX had) (NP (DT a) (NN baby)) (ADVP (NP (CD 4) (NNS months)) (IN ago)))) (, ,) (WHADVP (WRB how)) (SQ (AUX do) (NP (PRP i)) (VP (VB get) (VP (VB rid) (PP (IN of) (NP (NP (DT the) (NN fat)) (PP (IN on) (NP (PRP$ my) (NNS back/sides)))))))) (. ?)))
+#Rule:Nouns
+r1babyNN
+r1monthsNNS
+r1fatNN
+r1back/sidesNNS
+
+#Rule:Verbs
+r2getVB
+r2ridVB
+
+#Rule:Adj-Noun
+r54CDmonthsNNS
+
+#Rule:PRP-Noun
+r6myPRP$back/sidesNNS
+
+#Rule:HeadNoun-V
+r11iPRPhadAUX
+
+#Rule:V-HeadNoun
+r21hadAUXbabyNN
+
+#Rule:PPinNP
+r26fatNNonINback/sidesNNS
+
+#Rule:PPinVP
+r30ridVBofINfatNN
+
+@lemmas-left	get	have	fat	my	i	months	side	rid	4	month	back/sides	baby	had	
+@lemmas-right	months	have	side	fat	back/sides	month	baby	had	
+@lemmas-center	of	on	

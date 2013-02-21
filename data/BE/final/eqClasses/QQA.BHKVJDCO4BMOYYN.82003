@@ -1,0 +1,228 @@
+BE: EveryoneNN
+EQ class: 
+
+BE: riskNN
+EQ class: perilnn	endangermentnn	hazardnn	jeopardynn	riskyjj	
+
+BE: cancerNN
+EQ class: cancerousjj	malignant_neoplastic_diseasenn	
+
+BE: brainNN
+EQ class: encephalonnn	
+
+BE: cancerNN
+EQ class: cancerousjj	malignant_neoplastic_diseasenn	
+
+BE: typeNN
+EQ class: 
+
+BE: connectionsNNS
+EQ class: connectionnns	theynns	connexionnns	themnns	connectednessnns	
+
+BE: strongJJ
+EQ class: 
+
+BE: familialJJ
+EQ class: familynn	
+
+BE: strongJJconnectionsNNS
+EQ class: strongjjthemnns	strongjjconnectednessnns	strongjjconnectionnns	strongjjconnexionnns	strongjjtheynns	
+
+BE: familialJJconnectionsNNS
+EQ class: familynnconnexionnns	familialjjconnectionnns	familialjjconnexionnns	familialjjtheynns	familialjjconnectednessnns	familynntheynns	familynnconnectednessnns	familialjjthemnns	familynnconnectionsnns	familynnthemnns	familynnconnectionnns	
+
+BE: brainNNcancerNN
+EQ class: brainnnmalignant_neoplastic_diseasenn	cancerousjjofinencephalonnn	encephalonnncancerousvb	encephalonnncancerousjj	encephalonnnofinmalignant_neoplastic_diseasenn	brainnnofincancernn	malignant_neoplastic_diseasennofinbrainnn	cancernnofinencephalonnn	encephalonnncancernn	encephalonnnofincancernn	malignant_neoplastic_diseasennofinencephalonnn	cancernnbrainvb	encephalonnnmalignant_neoplastic_diseasenn	cancerousjjbrainvb	brainnnofinmalignant_neoplastic_diseasenn	cancernnofinbrainnn	cancerousvbbrainnn	brainnnofincancerousjj	encephalonnnofincancerousjj	malignant_neoplastic_diseasennbrainvb	cancerousvbencephalonnn	cancerousjjofinbrainnn	brainnncancerousvb	brainnncancerousjj	
+
+BE: EveryoneNNisAUX
+EQ class: everyonennbeaux	
+
+BE: cancerNNisAUX
+EQ class: cancernnbeaux	cancerousjjisaux	malignant_neoplastic_diseasennbeaux	malignant_neoplastic_diseasennisaux	cancerousjjbeaux	
+
+BE: havingAUXGcancerNN
+EQ class: havingauxgcancerousjj	havingauxgmalignant_neoplastic_diseasenn	
+
+BE: isAUXtypeNN
+EQ class: beauxtypenn	
+
+BE: typeNNwithINconnectionsNNS
+EQ class: typewritevbthemnns	theynnsepitomisevb	epitomizevbconnectednessnns	typifyvbconnectednessnns	theynnstypifyvb	connectionnnsepitomisevb	epitomisevbconnectednessnns	themnnstypifyvb	epitomizevbthemnns	connexionnnsepitomisevb	typevbtheynns	typevbconnectionnns	typifyvbconnectionnns	themnnsepitomisevb	theynnstypewritevb	connexionnnstypenn	connexionnnsepitomizevb	epitomizevbconnexionnns	connectionsnnstypewritevb	connexionnnstypifyvb	typevbconnexionnns	connexionnnstypewritevb	typifyvbconnectionsnns	connectednessnnsepitomisevb	theynnsepitomizevb	epitomisevbthemnns	theynnstypevb	typifyvbtheynns	typevbconnectionsnns	themnnstypewritevb	connexionnnstypevb	typevbconnectednessnns	theynnstypenn	connectionnnstypifyvb	connectionsnnsepitomisevb	epitomisevbtheynns	typevbthemnns	connectionnnsepitomizevb	typewritevbconnectionsnns	typennwithinconnexionnns	connectionsnnsepitomizevb	epitomizevbconnectionsnns	connectednessnnstypifyvb	connectionsnnstypevb	epitomizevbconnectionnns	typewritevbconnectionnns	epitomisevbconnexionnns	epitomisevbconnectionsnns	epitomizevbtheynns	themnnstypenn	typennwithinconnectednessnns	connectionsnnstypenn	epitomisevbconnectionnns	connectionnnstypewritevb	typennwithinconnectionnns	typifyvbthemnns	themnnstypevb	connectednessnnstypenn	typennwithinthemnns	connectionnnstypevb	typewritevbconnectednessnns	connectednessnnsepitomizevb	connectionnnstypenn	connectionsnnstypifyvb	connectednessnnstypewritevb	typifyvbconnexionnns	connectednessnnstypevb	themnnsepitomizevb	typennwithintheynns	typewritevbtheynns	typewritevbconnexionnns	
+
+BE: isAUXatINriskNN
+EQ class: isauxatinperilnn	isauxatinriskyjj	isauxatinjeopardynn	beauxatinperilnn	beauxatinrisknn	isauxatinhazardnn	beauxatinriskyjj	beauxatinhazardnn	beauxatinjeopardynn	beauxatinendangermentnn	isauxatinendangermentnn	
+
+BE: isAUXnotRB
+EQ class: beauxnotrb	
+
+BE: typeNNcancerNN
+EQ class: malignant_neoplastic_diseasenntypewritevb	malignant_neoplastic_diseasenntypenn	cancerousjjtypewritevb	malignant_neoplastic_diseasennepitomisevb	typewritingnnofincancerousjj	cancerousjjepitomisevb	malignant_neoplastic_diseasennepitomizevb	typennofincancernn	typistnnofincancerousjj	cancernnepitomizevb	typistnnofincancernn	typificationnnofincancernn	cancernntypenn	cancerousjjepitomizevb	typistnnofinmalignant_neoplastic_diseasenn	typificationnnofincancerousjj	typewritingnnofincancernn	typingnnofincancerousjj	typenncancerousjj	typewritingnnofinmalignant_neoplastic_diseasenn	exemplificationnnofincancerousjj	typingnnofinmalignant_neoplastic_diseasenn	cancernntypewritevb	cancernntypevb	typennofincancerousjj	cancernntypifyvb	malignant_neoplastic_diseasenntypevb	cancerousjjtypenn	cancernnepitomisevb	cancerousjjtypifyvb	typingnnofincancernn	typennofinmalignant_neoplastic_diseasenn	typificationnnofinmalignant_neoplastic_diseasenn	cancerousjjtypevb	exemplificationnnofincancernn	exemplificationnnofinmalignant_neoplastic_diseasenn	malignant_neoplastic_diseasenntypifyvb	typennmalignant_neoplastic_diseasenn	
+
+BE: wayNN
+EQ class: stylenn	fashionnn	modenn	mannernn	
+
+BE: risksNNS
+EQ class: perilnns	endangermentnns	risknns	theynns	riskyjj	jeopardynns	hazardnns	themnns	
+
+BE: cancerNN
+EQ class: cancerousjj	malignant_neoplastic_diseasenn	
+
+BE: healthNN
+EQ class: wellnessnn	healthyjj	
+
+BE: checkNN
+EQ class: bank_checknn	chequenn	
+
+BE: internistNN
+EQ class: 
+
+BE: healthNN
+EQ class: wellnessnn	healthyjj	
+
+BE: historyNN
+EQ class: historicjj	
+
+BE: familyNN
+EQ class: homenn	menagenn	householdnn	housenn	
+
+BE: healthNN
+EQ class: wellnessnn	healthyjj	
+
+BE: historyNN
+EQ class: historicjj	
+
+BE: knowsVBZ
+EQ class: cognisevbz	knowvbz	cognizevbz	
+
+BE: sVBZ
+EQ class: 
+
+BE: checkVBonRP
+EQ class: bank_checknnofinonrp	checknnofinonrp	chequennofinonrp	check_outvbonrp	look_intovbonrp	go_overvbonrp	checkernnofinonrp	suss_outvbonrp	check_intovbonrp	check_overvbonrp	check_up_onvbonrp	
+
+BE: bestJJS
+EQ class: bestnn	
+
+BE: ownJJ
+EQ class: ainjj	
+
+BE: completeJJ
+EQ class: completenessnn	
+
+BE: goodJJ
+EQ class: goodnessnn	
+
+BE: bestJJSwayNN
+EQ class: bestjjsmodenn	bestnnwaynn	bestnnstylenn	bestjjsfashionnn	bestjjsmannernn	bestnnmannernn	bestjjsstylenn	bestnnmodenn	bestnnfashionnn	
+
+BE: ownJJrisksNNS
+EQ class: ainjjjeopardynns	ownjjrisknns	ownjjhazardnns	ownjjthemnns	ainjjriskyjj	ownjjtheynns	ainjjrisksnns	ainjjendangermentnns	ownjjjeopardynns	ainjjrisknns	ownjjriskyjj	ainjjthemnns	ownjjendangermentnns	ainjjperilnns	ainjjhazardnns	ownjjperilnns	ainjjtheynns	
+
+BE: completeJJcheckNN
+EQ class: look_intovbcompletelyrb	completenessnnchequenn	check_up_onvbcompletelyrb	suss_outvbcompletelyrb	check_outvbcompletelyrb	check_overvbcompletelyrb	checkvbcompletelyrb	check_intovbcompletelyrb	completejjchequenn	completenessnnchecknn	completejjbank_checknn	completenessnnbank_checknn	go_overvbcompletelyrb	
+
+BE: goodJJinternistNN
+EQ class: goodnessnninternistnn	
+
+BE: yourPRP$risksNNS
+EQ class: yourprp$themnns	yourprp$theynns	risknnsofinyourprp$	yourprp$hazardnns	jeopardynnsofinyourprp$	yourprp$risknns	hazardnnsofinyourprp$	yourprp$jeopardynns	put_on_the_linevbyourprp$	yourprp$endangermentnns	yourprp$perilnns	yourprp$lay_on_the_linevb	riskyjjofinyourprp$	themnnsofinyourprp$	theynnsofinyourprp$	lay_on_the_linevbyourprp$	perilnnsofinyourprp$	risksnnsofinyourprp$	riskyvbyourprp$	yourprp$riskyjj	yourprp$put_on_the_linevb	riskvbyourprp$	endangermentnnsofinyourprp$	yourprp$riskyvb	yourprp$riskvb	
+
+BE: yourPRP$historyNN
+EQ class: yourprp$historicjj	yourprp$historicvb	historicvbyourprp$	historynnofinyourprp$	historicjjofinyourprp$	
+
+BE: yourPRP$familyNN
+EQ class: yourprp$housenn	householdnnofinyourprp$	yourprp$menagenn	familynnofinyourprp$	menagennofinyourprp$	housennofinyourprp$	homennofinyourprp$	yourprp$householdnn	yourprp$homenn	
+
+BE: healthNNcheckNN
+EQ class: healthyjjchequenn	checkvbhealthnn	healthnncheck_intovb	checknnofinwellnessnn	bank_checknnofinwellnessnn	check_intovbwellnessnn	go_overvbhealthyjj	healthnngo_overvb	suss_outvbwellnessnn	healthyjjcheck_overvb	check_overvbhealthyjj	healthyjjgo_overvb	chequennofinwellnessnn	chequennofinhealthyjj	healthnncheck_up_onvb	healthyjjsuss_outvb	check_outvbwellnessnn	healthnnchequenn	wellnessnnsuss_outvb	healthyjjlook_intovb	go_overvbhealthnn	wellnessnnchecknn	chequennofinhealthnn	check_overvbwellnessnn	wellnessnncheckvb	check_overvbhealthnn	check_intovbhealthnn	wellnessnnchequenn	healthyjjcheckvb	wellnessnncheck_up_onvb	check_up_onvbwellnessnn	healthyjjcheck_intovb	check_outvbhealthyjj	healthnncheck_overvb	check_up_onvbhealthnn	wellnessnncheck_outvb	look_intovbhealthnn	healthnnbank_checknn	suss_outvbhealthnn	wellnessnnbank_checknn	healthyjjchecknn	check_intovbhealthyjj	healthnnlook_intovb	bank_checknnofinhealthnn	wellnessnnlook_intovb	wellnessnncheck_overvb	checkvbwellnessnn	healthyjjcheck_up_onvb	healthnncheckvb	checknnofinhealthyjj	check_outvbhealthnn	healthnnsuss_outvb	go_overvbwellnessnn	look_intovbhealthyjj	wellnessnncheck_intovb	healthyjjcheck_outvb	checkvbhealthyjj	checknnofinhealthnn	check_up_onvbhealthyjj	bank_checknnofinhealthyjj	healthyjjbank_checknn	suss_outvbhealthyjj	healthnncheck_outvb	look_intovbwellnessnn	wellnessnngo_overvb	
+
+BE: healthNNhistoryNN
+EQ class: historynnofinhealthnn	healthnnhistoricvb	wellnessnnhistoricjj	healthyjjhistorynn	historicjjofinhealthnn	historynnofinwellnessnn	healthyjjhistoricjj	historicvbhealthnn	wellnessnnhistorynn	historicjjofinhealthyjj	healthnnhistoricjj	historicjjofinwellnessnn	historynnofinhealthyjj	historicvbwellnessnn	historicvbhealthyjj	wellnessnnhistoricvb	healthyjjhistoricvb	
+
+BE: healthNNhistoryNN
+EQ class: historynnofinhealthnn	healthnnhistoricvb	wellnessnnhistoricjj	healthyjjhistorynn	historicjjofinhealthnn	historynnofinwellnessnn	healthyjjhistoricjj	historicvbhealthnn	wellnessnnhistorynn	historicjjofinhealthyjj	healthnnhistoricjj	historicjjofinwellnessnn	historynnofinhealthyjj	historicvbwellnessnn	historicvbhealthyjj	wellnessnnhistoricvb	healthyjjhistoricvb	
+
+BE: youPRPhistoryNN
+EQ class: youprphistoricjj	historicjjyouprp	historynnyouprp	
+
+BE: wayNNcheckVB
+EQ class: mannernncheck_up_onvb	stylennsuss_outvb	waynnsuss_outvb	checkernnwaynn	waynncheck_outvb	checknnofinfashionnn	modenncheck_outvb	checkernnstylenn	fashionnncheck_overvb	modennsuss_outvb	checkernnfashionnn	fashionnncheck_up_onvb	checkernnofinmodenn	fashionnncheck_outvb	mannernncheck_overvb	fashionnngo_overvb	waynncheck_intovb	checkernnofinstylenn	modenncheck_overvb	chequennofinmodenn	checkernnofinfashionnn	mannernncheck_outvb	stylenncheckvb	stylenncheck_intovb	bank_checknnofinwaynn	chequennofinwaynn	fashionnncheckvb	stylenncheck_up_onvb	modennlook_intovb	modenncheckvb	waynnlook_intovb	checknnofinmannernn	modenncheck_up_onvb	mannernnsuss_outvb	waynngo_overvb	fashionnnsuss_outvb	stylennlook_intovb	stylenncheck_outvb	checkernnmodenn	bank_checknnofinfashionnn	checknnofinstylenn	waynncheck_up_onvb	mannernncheck_intovb	checknnofinmodenn	fashionnnlook_intovb	bank_checknnofinstylenn	checkernnofinwaynn	modenngo_overvb	stylenncheck_overvb	chequennofinmannernn	fashionnncheck_intovb	checkernnofinmannernn	mannernnlook_intovb	chequennofinstylenn	checkernnmannernn	chequennofinfashionnn	mannernncheckvb	waynncheck_overvb	checknnofinwaynn	bank_checknnofinmannernn	mannernngo_overvb	bank_checknnofinmodenn	stylenngo_overvb	modenncheck_intovb	
+
+BE: youPRPsVBZ
+EQ class: 
+
+BE: historyNNsVBZ
+EQ class: historicjjsvbz	
+
+BE: familyNNsVBZ
+EQ class: housennsvbz	homennsvbz	menagennsvbz	householdnnsvbz	
+
+BE: internistNNknowsVBZ
+EQ class: internistnncognisevbz	internistnncognizevbz	knowernninternistnn	knowernnofininternistnn	knowingnnofininternistnn	knowingnninternistnn	knowablennofininternistnn	apprehendernninternistnn	internistnnknowvbz	apprehendernnofininternistnn	
+
+BE: checkVBrisksNNS
+EQ class: checkvbjeopardynns	suss_outvbthemnns	checkvbriskyjj	chequennofinrisksnns	go_overvbthemnns	check_overvbperilnns	check_overvbjeopardynns	go_overvbriskyjj	checknnofinjeopardynns	check_outvbjeopardynns	chequennofinriskyjj	look_intovbperilnns	checkernnofinriskyjj	chequennofinjeopardynns	check_overvbendangermentnns	check_up_onvbtheynns	check_intovbthemnns	look_intovbhazardnns	check_up_onvbrisksnns	chequennofintheynns	check_overvbthemnns	checkernnofinthemnns	check_overvbhazardnns	suss_outvbendangermentnns	bank_checknnofinjeopardynns	bank_checknnofinthemnns	check_up_onvbhazardnns	checknnofinperilnns	checkernnofinjeopardynns	bank_checknnofinrisknns	checkvbendangermentnns	check_overvbrisksnns	check_intovbhazardnns	go_overvbjeopardynns	check_intovbtheynns	bank_checknnofinperilnns	look_intovbrisknns	checkvbrisknns	suss_outvbtheynns	suss_outvbperilnns	check_overvbtheynns	checknnofinrisknns	checkernnofintheynns	chequennofinrisknns	check_outvbrisksnns	check_intovbrisksnns	checkernnofinperilnns	go_overvbrisksnns	go_overvbendangermentnns	look_intovbendangermentnns	check_up_onvbperilnns	checknnofinendangermentnns	check_overvbriskyjj	check_up_onvbthemnns	check_up_onvbrisknns	bank_checknnofintheynns	chequennofinperilnns	look_intovbtheynns	check_outvbriskyjj	checkvbthemnns	chequennofinhazardnns	check_intovbendangermentnns	checknnofinhazardnns	checkernnofinrisksnns	checknnofinrisksnns	look_intovbriskyjj	check_up_onvbjeopardynns	check_outvbtheynns	go_overvbrisknns	go_overvbperilnns	suss_outvbjeopardynns	checkernnofinrisknns	checkernnofinendangermentnns	go_overvbtheynns	check_overvbrisknns	suss_outvbrisknns	check_intovbperilnns	check_intovbriskyjj	suss_outvbriskyjj	check_outvbhazardnns	chequennofinthemnns	bank_checknnofinrisksnns	suss_outvbrisksnns	bank_checknnofinendangermentnns	bank_checknnofinhazardnns	checknnofintheynns	check_outvbthemnns	check_intovbrisknns	check_outvbperilnns	suss_outvbhazardnns	check_up_onvbendangermentnns	check_outvbrisknns	look_intovbthemnns	check_outvbendangermentnns	bank_checknnofinriskyjj	chequennofinendangermentnns	checkvbhazardnns	check_up_onvbriskyjj	checknnofinriskyjj	checkvbperilnns	checknnofinthemnns	go_overvbhazardnns	check_intovbjeopardynns	checkvbtheynns	look_intovbjeopardynns	checkernnofinhazardnns	look_intovbrisksnns	
+
+BE: haveAUXcheckNN
+EQ class: rich_personnnofinbank_checknn	haveauxchequenn	have_gotauxbank_checknn	wealthy_personnnofinbank_checknn	rich_personnnofinchequenn	have_gotauxchecknn	havennofinbank_checknn	have_gotauxchequenn	holdauxbank_checknn	holdauxchecknn	holdauxchequenn	havennofinchecknn	wealthy_personnnofinchecknn	haveauxbank_checknn	wealthy_personnnofinchequenn	rich_personnnofinchecknn	havennofinchequenn	
+
+BE: sVBZhistoryNN
+EQ class: svbzhistoricjj	
+
+BE: checkVBforINcancerNN
+EQ class: go_overvbforinmalignant_neoplastic_diseasenn	look_intovbforincancernn	suss_outvbforincancerousjj	check_outvbforincancerousjj	look_intovbforinmalignant_neoplastic_diseasenn	check_outvbforincancernn	check_intovbforincancerousjj	check_intovbforinmalignant_neoplastic_diseasenn	go_overvbforincancerousjj	check_overvbforinmalignant_neoplastic_diseasenn	check_overvbforincancerousjj	check_intovbforincancernn	check_up_onvbforincancernn	checkvbforinmalignant_neoplastic_diseasenn	look_intovbforincancerousjj	check_outvbforinmalignant_neoplastic_diseasenn	check_overvbforincancernn	suss_outvbforincancernn	check_up_onvbforinmalignant_neoplastic_diseasenn	check_up_onvbforincancerousjj	go_overvbforincancernn	checkvbforincancerousjj	suss_outvbforinmalignant_neoplastic_diseasenn	
+
+BE: doneAUXbyINinternistNN
+EQ class: doauxbyininternistnn	makeauxbyininternistnn	
+
+BE: doneAUXyearlyRB
+EQ class: doauxyearlyrb	makeauxyearlyrb	
+
+BE: DrNNP
+EQ class: 
+
+BE: testsNNS
+EQ class: tryoutnns	testnns	theynns	trialnns	trial_runnns	themnns	
+
+BE: cancerNN
+EQ class: cancerousjj	malignant_neoplastic_diseasenn	
+
+BE: risks.httpNNS
+EQ class: hypertext_transfer_protocolnns	theynns	httpnns	themnns	riskshttpnns	
+
+BE: //www.mayoclinic.org/news2005-mchi/2794.htmlNN
+EQ class: //wwwmayoclinicorg/news2005-mchi/2794htmlnn	hypertext_mark-up_languagenn	htmlnn	hypertext_markup_languagenn	
+
+BE: decideVB
+EQ class: make_up_one's_mindvb	determinevb	
+
+BE: evaluatingVBG
+EQ class: evaluatevbg	assessvbg	valuatevbg	valuevbg	measurevbg	appraisevbg	
+
+BE: ownJJ
+EQ class: ainjj	
+
+BE: ownJJrisks.httpNNS
+EQ class: ownjjthemnns	ownjjhttpnns	ainjjriskshttpnns	ainjjthemnns	ownjjhypertext_transfer_protocolnns	ownjjtheynns	ainjjhypertext_transfer_protocolnns	ownjjriskshttpnns	ainjjtheynns	ainjjrisks.httpnns	ainjjhttpnns	
+
+BE: yourPRP$risks.httpNNS
+EQ class: yourprp$hypertext_transfer_protocolnns	yourprp$themnns	themnnsofinyourprp$	theynnsofinyourprp$	yourprp$riskshttpnns	yourprp$theynns	httpnnsofinyourprp$	risks.httpnnsofinyourprp$	hypertext_transfer_protocolnnsofinyourprp$	yourprp$httpnns	
+
+BE: cancerNNrisks.httpNNS
+EQ class: themnnsofincancerousjj	risks.httpnnsofincancernn	malignant_neoplastic_diseasennthemnns	theynnsofincancernn	cancerousjjthemnns	risks.httpnnsofincancerousjj	cancerousjjriskshttpnns	malignant_neoplastic_diseasenntheynns	cancernnthemnns	httpnnsofinmalignant_neoplastic_diseasenn	httpnnsofincancerousjj	themnnsofincancernn	cancerousjjtheynns	cancerousjjrisks.httpnns	hypertext_transfer_protocolnnsofincancernn	httpnnsofincancernn	theynnsofincancerousjj	malignant_neoplastic_diseasennriskshttpnns	cancernnriskshttpnns	hypertext_transfer_protocolnnsofinmalignant_neoplastic_diseasenn	theynnsofinmalignant_neoplastic_diseasenn	risks.httpnnsofinmalignant_neoplastic_diseasenn	cancerousjjhypertext_transfer_protocolnns	cancernntheynns	cancernnhttpnns	malignant_neoplastic_diseasennhypertext_transfer_protocolnns	malignant_neoplastic_diseasennhttpnns	hypertext_transfer_protocolnnsofincancerousjj	cancernnhypertext_transfer_protocolnns	themnnsofinmalignant_neoplastic_diseasenn	cancerousjjhttpnns	malignant_neoplastic_diseasennrisks.httpnns	
+
+BE: DrNNPdecideVB
+EQ class: determinationnndrnnp	conclusionnnofindrnnp	drnnpdeterminevb	decision_makingnnofindrnnp	determinationnnofindrnnp	decidingjjofindrnnp	drnnpmake_up_one's_mindvb	decisionnnofindrnnp	decidingjjdrnnp	decisionnndrnnp	decisivennofindrnnp	decidingnndrnnp	decidingnnofindrnnp	decision_makingnndrnnp	conclusionnndrnnp	
+
+BE: youPRPneedAUX
+EQ class: youprpaskaux	youprppostulateaux	youprprequireaux	youprptakeaux	youprpnecessitateaux	demandnnofinyouprp	neednnofinyouprp	youprpdemandaux	youprpcall_foraux	youprpinvolveaux	
+
+BE: needAUX//www.mayoclinic.org/news2005-mchi/2794.htmlNN
+EQ class: needauxhypertext_markup_languagenn	takeauxhypertext_mark-up_languagenn	demandaux//www.mayoclinic.org/news2005-mchi/2794.htmlnn	neednnofinhtmlnn	askaux//www.mayoclinic.org/news2005-mchi/2794.htmlnn	requireauxhypertext_mark-up_languagenn	takeauxhtmlnn	demandaux//wwwmayoclinicorg/news2005-mchi/2794htmlnn	demandauxhypertext_markup_languagenn	requireauxhtmlnn	necessitateauxhypertext_markup_languagenn	requireaux//www.mayoclinic.org/news2005-mchi/2794.htmlnn	postulateauxhypertext_markup_languagenn	requireaux//wwwmayoclinicorg/news2005-mchi/2794htmlnn	call_foraux//wwwmayoclinicorg/news2005-mchi/2794htmlnn	necessitateaux//wwwmayoclinicorg/news2005-mchi/2794htmlnn	involveauxhypertext_markup_languagenn	postulateaux//www.mayoclinic.org/news2005-mchi/2794.htmlnn	askauxhypertext_mark-up_languagenn	neednnofinhypertext_markup_languagenn	involveauxhtmlnn	necessitateauxhtmlnn	postulateaux//wwwmayoclinicorg/news2005-mchi/2794htmlnn	involveauxhypertext_mark-up_languagenn	postulateauxhtmlnn	neednnofin//wwwmayoclinicorg/news2005-mchi/2794htmlnn	call_forauxhypertext_markup_languagenn	askauxhtmlnn	needaux//wwwmayoclinicorg/news2005-mchi/2794htmlnn	call_forauxhypertext_mark-up_languagenn	askaux//wwwmayoclinicorg/news2005-mchi/2794htmlnn	demandnnofinhypertext_markup_languagenn	takeauxhypertext_markup_languagenn	neednnofinhypertext_mark-up_languagenn	necessitateauxhypertext_mark-up_languagenn	necessitateaux//www.mayoclinic.org/news2005-mchi/2794.htmlnn	involveaux//www.mayoclinic.org/news2005-mchi/2794.htmlnn	demandnnofinhypertext_mark-up_languagenn	demandnnofin//www.mayoclinic.org/news2005-mchi/2794.htmlnn	call_forauxhtmlnn	demandnnofin//wwwmayoclinicorg/news2005-mchi/2794htmlnn	postulateauxhypertext_mark-up_languagenn	takeaux//www.mayoclinic.org/news2005-mchi/2794.htmlnn	involveaux//wwwmayoclinicorg/news2005-mchi/2794htmlnn	takeaux//wwwmayoclinicorg/news2005-mchi/2794htmlnn	askauxhypertext_markup_languagenn	demandauxhypertext_mark-up_languagenn	demandauxhtmlnn	needauxhypertext_mark-up_languagenn	demandnnofinhtmlnn	neednnofin//www.mayoclinic.org/news2005-mchi/2794.htmlnn	needauxhtmlnn	requireauxhypertext_markup_languagenn	call_foraux//www.mayoclinic.org/news2005-mchi/2794.htmlnn	
+
+BE: evaluatingVBGrisks.httpNNS
+EQ class: evaluatornnofinrisks.httpnns	evaluatevbghypertext_transfer_protocolnns	evaluatingvbgriskshttpnns	valuennofinriskshttpnns	evaluationnnofinhttpnns	measurevbghypertext_transfer_protocolnns	assessvbghypertext_transfer_protocolnns	measurevbgthemnns	assessvbghttpnns	valuatevbgthemnns	appraisevbgriskshttpnns	ratingnnofinrisks.httpnns	judgennofintheynns	valuevbgtheynns	evaluationnnofintheynns	ratingnnofinthemnns	judgennofinrisks.httpnns	valuevbgthemnns	valuennofinrisks.httpnns	appraisevbghttpnns	judgennofinhttpnns	evaluativennofintheynns	valuevbgrisks.httpnns	evaluativennofinthemnns	valuatevbgriskshttpnns	measurevbgriskshttpnns	evaluatevbgthemnns	evaluatevbghttpnns	valuennofinthemnns	judgennofinriskshttpnns	appraisevbgthemnns	evaluativennofinhttpnns	valuevbghttpnns	measurevbgtheynns	appraisevbgrisks.httpnns	valuevbgriskshttpnns	evaluationnnofinrisks.httpnns	evaluativennofinriskshttpnns	evaluatevbgriskshttpnns	assessvbgrisks.httpnns	ratingnnofintheynns	valuennofinhypertext_transfer_protocolnns	judgennofinthemnns	evaluatevbgrisks.httpnns	ratingnnofinriskshttpnns	evaluatevbgtheynns	evaluatornnofinriskshttpnns	appraisevbghypertext_transfer_protocolnns	evaluativennofinrisks.httpnns	ratingnnofinhypertext_transfer_protocolnns	measurevbgrisks.httpnns	assessvbgriskshttpnns	judgennofinhypertext_transfer_protocolnns	measurevbghttpnns	evaluatingvbgthemnns	evaluationnnofinhypertext_transfer_protocolnns	evaluatingvbgtheynns	evaluativennofinhypertext_transfer_protocolnns	evaluatornnofinhttpnns	valuatevbghypertext_transfer_protocolnns	evaluationnnofinriskshttpnns	assessvbgtheynns	appraisevbgtheynns	valuatevbghttpnns	valuennofintheynns	valuennofinhttpnns	evaluatornnofinhypertext_transfer_protocolnns	evaluatingvbghypertext_transfer_protocolnns	valuevbghypertext_transfer_protocolnns	evaluatingvbghttpnns	evaluatornnofinthemnns	valuatevbgtheynns	evaluatornnofintheynns	valuatevbgrisks.httpnns	assessvbgthemnns	evaluationnnofinthemnns	ratingnnofinhttpnns	
+
+BE: decideVBthenRB
+EQ class: make_up_one's_mindvbthenrb	decisivennofinthenrb	decision_makingnnofinthenrb	conclusionnnofinthenrb	determinationnnofinthenrb	decisionnnofinthenrb	decidingjjofinthenrb	decidingnnofinthenrb	determinevbthenrb	
+

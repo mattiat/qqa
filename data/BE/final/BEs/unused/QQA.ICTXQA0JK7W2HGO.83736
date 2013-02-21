@@ -1,0 +1,16 @@
+#What about the river Thames or the river Nile or the river Danube?
+#(S1 (FRAG (WHNP (WP What)) (PP (IN about) (NP (NP (DT the) (NN river) (NNPS Thames)) (CC or) (NP (DT the) (NNP river) (NNP Nile)) (CC or) (NP (DT the) (NNP river) (NNP Danube)))) (. ?)))
+#Rule:Nouns
+r1riverNN
+r1ThamesPersonAnnotation
+r1riverNNP
+r1NileOrganizationAnnotation
+r1river DanubeLocationAnnotation
+
+#Rule:N-HeadNoun
+r8riverNNThamesPersonAnnotation
+r8riverNNPNileOrganizationAnnotation
+
+@lemmas-left	Nile	Thames	river Danube	river	
+@lemmas-right	Nile	Thames	
+@lemmas-center	

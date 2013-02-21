@@ -1,0 +1,116 @@
+#Muslims, Christians and other religions believe in God in the similar way HIndus also believe their God. 
+#(S1 (S (NP (NP (NNPS Muslims)) (, ,) (NP (NNS Christians)) (CC and) (NP (JJ other) (NNS religions))) (VP (VBP believe) (PP (IN in) (NP (NNP God))) (PP (IN in) (NP (NP (DT the) (JJ similar) (NN way)) (SBAR (S (NP (NNS HIndus)) (ADVP (RB also)) (VP (VBP believe) (NP (PRP$ their) (NNP God)))))))) (. .)))
+#Rule:Nouns
+r1MuslimsNNPS
+r1ChristiansNNS
+r1religionsNNS
+r1GodOrganizationAnnotation
+r1wayNN
+r1HIndusOrganizationAnnotation
+r1GodNNP
+
+#Rule:Verbs
+r2believeVBP
+r2believeVBP
+
+#Rule:Adjs
+r4otherJJ
+r4similarJJ
+
+#Rule:Adj-Noun
+r5otherJJreligionsNNS
+r5similarJJwayNN
+
+#Rule:PRP-Noun
+r6theirPRP$GodNNP
+
+#Rule:N-ApposN
+r10MuslimsNNPSChristiansNNS
+
+#Rule:HeadNoun-V
+r11MuslimsNNPSbelieveVBP
+r11ChristiansNNSbelieveVBP
+r11religionsNNSbelieveVBP
+r11HIndusOrganizationAnnotationbelieveVBP
+
+#Rule:V-HeadNoun
+r21believeVBPGodNNP
+
+#Rule:PPinVP
+r30believeVBPinINGodOrganizationAnnotation
+r30believeVBPinINwayNN
+
+#Rule:V-ADV
+r46believeVBPalsoRB
+
+#Hindu Trimutis rare Brahma, Vishnu, and Maheswara. 
+#(S1 (NP (NP (NNP Hindu) (NNP Trimutis)) (NP (NP (JJ rare) (NNP Brahma)) (, ,) (NP (NNP Vishnu)) (, ,) (CC and) (NP (NNP Maheswara))) (. .)))
+#Rule:Nouns
+r1Hindu Trimutis rare BrahmaPersonAnnotation
+r1VishnuPersonAnnotation
+r1MaheswaraPersonAnnotation
+
+#Rule:N-ApposN
+r10Hindu Trimutis rare BrahmaPersonAnnotationVishnuPersonAnnotation
+
+#Hindus also human beings and they are also having belief on supernatural power who created this universe.so they believe in Gods like other people. go to Go ogle and type Hindu.
+#(S1 (S (S (NP (NNP Hindus)) (ADVP (RB also)) (NP (JJ human) (NNS beings))) (CC and) (S (NP (PRP they)) (VP (AUX are) (ADVP (RB also)) (VP (AUXG having) (NP (NP (NN belief)) (PP (IN on) (NP (JJ supernatural) (NN power))) (SBAR (WHNP (WP who)) (S (VP (VBD created) (NP (DT this) (NN universe.so)))))) (S (NP (PRP they)) (VP (VBP believe) (PP (IN in) (NP (NNS Gods))))) (SBAR (IN like) (S (NP (JJ other) (NNS people.)) (VP (VBP go) (S (VP (TO to) (VP (VB Go) (NP (NN ogle) (CC and) (NN type)) (NP (NNP Hindu))))))))))) (. .)))
+#Rule:Nouns
+r1HindusPersonAnnotation
+r1beingsNNS
+r1beliefNN
+r1powerNN
+r1universe.soNN
+r1GodsNNS
+r1peopleNNS
+r1Go oglePersonAnnotation
+r1type OrganizationAnnotation
+
+#Rule:Verbs
+r2createdVBD
+r2believeVBP
+r2goVBP
+
+#Rule:Adjs
+r4humanJJ
+r4supernaturalJJ
+r4otherJJ
+
+#Rule:Adj-Noun
+r5humanJJbeingsNNS
+r5supernaturalJJpowerNN
+r5otherJJpeopleNNS
+
+#Rule:HeadNoun-V
+r11theyPRPbelieveVBP
+r11peopleNNSgoVBP
+
+#Rule:HeadNoun-(who/that)-V
+r14beliefNNcreatedVBD
+
+#Rule:V-HeadNoun
+r21havingAUXGbeliefNN
+r21createdVBDuniverse.soNN
+r21Go oglePersonAnnotationtype OrganizationAnnotation
+
+#Rule:V-HeadNoun
+r22havingAUXGtheyPRP
+
+#Rule:PPinNP
+r26beliefNNonINpowerNN
+
+#Rule:PPinVP
+r30believeVBPinINGodsNNS
+
+#Rule:V-IN-V
+r43havingAUXGlikeINgoVBP
+
+#Rule:V-V
+r44goVBPGo oglePersonAnnotation
+
+#Rule:V-ADV
+r46areAUXalsoRB
+
+@lemmas-left	muslim	they	christian	other	god	people.	type 	being	way	HIndus	believe	people	religion	are	religions	created	power	be	similar	Go ogle	belief	so	Vishnu	beings	universe.so	create	human	Christians	Gods	Hindus	supernatural	God	Maheswara	having	their	Hindu Trimutis rare Brahma	go	Muslims	
+@lemmas-right	they	christian	god	people.	type 	being	way	believe	people	religion	religions	created	power	Go ogle	belief	so	Vishnu	beings	universe.so	create	Christians	Gods	God	also	go	
+@lemmas-center	on	like	in	

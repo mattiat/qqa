@@ -1,0 +1,22 @@
+#When a bunch of water goes off a cliff
+#(S1 (SBAR (WHADVP (WRB When)) (S (NP (NP (DT a) (NN bunch)) (PP (IN of) (NP (NN water)))) (VP (VBZ goes) (PP (IN off) (NP (DT a) (NN cliff)))))))
+#Rule:Nouns
+r1bunchNN
+r1waterNN
+r1cliffNN
+
+#Rule:Verbs
+r2goesVBZ
+
+#Rule:HeadNoun-V
+r11bunchNNgoesVBZ
+
+#Rule:PPinNP
+r26bunchNNofINwaterNN
+
+#Rule:PPinVP
+r30goesVBZoffINcliffNN
+
+@lemmas-left	water	goes	cliff	bunch	go	
+@lemmas-right	water	goes	cliff	go	
+@lemmas-center	of	off	

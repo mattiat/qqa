@@ -1,0 +1,421 @@
+#Homeopathic Treatment for Earache(Otalgia) :-Sudden;
+#(S1 (NP (NP (NNP Homeopathic) (NNP Treatment)) (PP (IN for) (NP (NNP Earache))) (PRN (-LRB- -LRB-) (NP (NNP Otalgia)) (-RRB- -RRB-)) (: :) (ADJP (JJ -Sudden)) (: ;)))
+#Rule:Nouns
+r1Homeopathic TreatmentOrganizationAnnotation
+r1Earache(OtalgiaLocationAnnotation
+
+#Rule:Adjs
+r4-SuddenJJ
+
+#Rule:Adj-Noun
+r5-SuddenJJHomeopathic TreatmentOrganizationAnnotation
+
+#Rule:PPinNP
+r26Homeopathic TreatmentOrganizationAnnotationforINEarache(OtalgiaLocationAnnotation
+
+# due to exposure to dry cold wind Aconite 30 or 200, 2 hourly Throbbing pain with redness of face;
+#(S1 (FRAG (ADVP (RB due) (PP (TO to) (NP (NP (NN exposure)) (PP (TO to) (NP (JJ dry) (JJ cold) (NN wind)))))) (NP (NNP Aconite) (CD 30) (CC or) (CD 200)) (, ,) (NP (NP (CD 2) (JJ hourly) (NNP Throbbing) (NN pain)) (PP (IN with) (NP (NP (NN redness)) (PP (IN of) (NP (NN face)))))) (: ;)))
+#Rule:Nouns
+r1exposureNN
+r1windNN
+r1AconitePersonAnnotation
+r1ThrobbingNNP
+r1painNN
+r1rednessNN
+r1faceNN
+
+#Rule:Adjs
+r4dryJJ
+r4coldJJ
+r4hourlyJJ
+
+#Rule:Adj-Noun
+r5dryJJwindNN
+r5coldJJwindNN
+r530CDAconitePersonAnnotation
+r5200CDAconitePersonAnnotation
+r52CDpainNN
+r5hourlyJJpainNN
+
+#Rule:N-HeadNoun
+r8ThrobbingNNPpainNN
+
+#Rule:PPinNP
+r26exposureNNtoTOwindNN
+r26painNNwithINrednessNN
+r26rednessNNofINfaceNN
+
+# hot feeling;
+#(S1 (NP (JJ hot) (NN feeling) (: ;)))
+#Rule:Nouns
+r1feelingNN
+
+#Rule:Adjs
+r4hotJJ
+
+#Rule:Adj-Noun
+r5hotJJfeelingNN
+
+# rush of blood towards head Belladonna 30, 2 hourly Intolerable pain;
+#(S1 (NP (NP (NNP rush)) (PP (IN of) (NP (NP (NN blood)) (PP (IN towards) (NP (ADJP (JJ head) (NP (NNP Belladonna) (CD 30) (, ,) (CD 2))) (JJ hourly) (JJ Intolerable) (NN pain))))) (: ;)))
+#Rule:Nouns
+r1rushNNP
+r1bloodNN
+r1BelladonnaLocationAnnotation
+r1painLocationAnnotation
+
+#Rule:Adjs
+r4headJJ
+r4hourlyJJ
+r4IntolerableJJ
+
+#Rule:Adj-Noun
+r5headJJpainLocationAnnotation
+r5hourlyJJpainLocationAnnotation
+r5IntolerableJJpainLocationAnnotation
+r530CDBelladonnaLocationAnnotation
+r52CDBelladonnaLocationAnnotation
+
+#Rule:PPinNP
+r26rushNNPofINbloodNN
+r26bloodNNtowardsINpainLocationAnnotation
+
+# worse by warmth,at night and after anger Chamomilla 30 or 200, 2 hourly Severe pain in eustachian tubes;
+#(S1 (FRAG (ADJP (ADJP (JJR worse)) (PP (IN by) (NP (NN warmth)))) (, ,) (PP (PP (IN at) (NP (NN night))) (CC and) (PP (IN after) (NP (NN anger)))) (NP (NNP Chamomilla) (CD 30) (CC or) (CD 200)) (, ,) (NP (NP (CD 2) (JJ hourly) (JJ Severe) (NN pain)) (PP (IN in) (NP (JJ eustachian) (NNS tubes)))) (: ;)))
+#Rule:Nouns
+r1warmthNN
+r1nightNN
+r1angerNN
+r1ChamomillaOrganizationAnnotation
+r1painNN
+r1tubesNNS
+
+#Rule:Adjs
+r4worseJJR
+r4hourlyJJ
+r4SevereJJ
+r4eustachianOrganizationAnnotation
+
+#Rule:Adj-Noun
+r530CDChamomillaOrganizationAnnotation
+r5200CDChamomillaOrganizationAnnotation
+r52CDpainNN
+r5hourlyJJpainNN
+r5SevereJJpainNN
+r5eustachianOrganizationAnnotationtubesNNS
+
+#Rule:PPinNP
+r26painNNinINtubesNNS
+
+#Rule:PPinADJP
+r37worseJJRbyINwarmthNN
+
+# with acute cold;
+#(S1 (FRAG (PP (IN with) (ADJP (JJ acute))) (NP (NN cold)) (: ;)))
+#Rule:Nouns
+r1coldNN
+
+#Rule:Adjs
+r4acuteJJ
+
+# worse indoors and warmth Allium Cepa 30 or 200, 2 hourly Due to pressure in ears from collection of wax Spigelia 30 or 200, 10 min (3 Doses) Due to sinusitis;
+#(S1 (NP (NP (NP (JJR worse) (NNS indoors)) (CC and) (NP (NP (JJ warmth) (NNP Allium) (NNP Cepa)) (NP (CD 30) (CC or) (CD 200) (, ,) (CD 2)) (JJ hourly) (ADJP (JJ Due) (PP (TO to) (NP (NP (NN pressure)) (PP (IN in) (NP (NP (NNS ears)) (PP (IN from) (NP (NP (NN collection)) (PP (IN of) (NP (JJ wax) (NNP Spigelia) (CD 30) (CC or) (CD 200) (, ,) (CD 10)))))))))) (NN min))) (PRN (-LRB- -LRB-) (NP (CD 3) (NNS Doses)) (-RRB- -RRB-)) (PP (JJ Due) (TO to) (NP (NN sinusitis))) (: ;)))
+#Rule:Nouns
+r1indoorsNNS
+r1Allium CepaOrganizationAnnotation
+r1pressureNN
+r1earsNNS
+r1collectionNN
+r1wax SpigeliaOrganizationAnnotation
+r1minNN
+r1DosesNNS
+r1sinusitisLocationAnnotation
+
+#Rule:Adjs
+r4worseJJR
+r4warmthJJ
+r4hourlyJJ
+r4DueJJ
+r4DueJJ
+
+#Rule:Adj-Noun
+r5worseJJRindoorsNNS
+r5hourlyJJminNN
+r5DueJJminNN
+r5warmthJJAllium CepaOrganizationAnnotation
+r530CD2CD
+r5200CD2CD
+r530CDwax SpigeliaOrganizationAnnotation
+r5200CDwax SpigeliaOrganizationAnnotation
+r510CDwax SpigeliaOrganizationAnnotation
+r53CDDosesNNS
+
+#Rule:PPinNP
+r26indoorsNNStoTOsinusitisLocationAnnotation
+r26pressureNNinINearsNNS
+r26earsNNSfromINcollectionNN
+r26collectionNNofINwax SpigeliaOrganizationAnnotation
+
+#Rule:PPinADJP
+r37DueJJtoTOpressureNN
+
+# stringy phelgm Kali Bich 30, 4 hourly Due to boil in the ear;
+#(S1 (S (NP (NNP stringy) (NN phelgm) (NNP Kali) (NNP Bich) (CD 30) (, ,) (CD 4)) (ADJP (JJ hourly) (PP (JJ Due) (TO to) (NP (NN boil)))) (PP (IN in) (NP (DT the) (NN ear))) (: ;)))
+#Rule:Nouns
+r1stringy phelgm Kali BichPersonAnnotation
+r1boilNN
+r1earNN
+
+#Rule:Adjs
+r4hourlyJJ
+r4DueJJ
+
+#Rule:Adj-Noun
+r530CDstringy phelgm Kali BichPersonAnnotation
+r54CDstringy phelgm Kali BichPersonAnnotation
+
+#Rule:PPinS
+r36hourlyJJinINearNN
+
+#Rule:PPinADJP
+r37hourlyJJtoTOboilNN
+
+# perforation, discharge of fetid pus;
+#(S1 (NP (NP (NNP perforation)) (, ,) (NP (NP (NN discharge)) (PP (IN of) (NP (JJ fetid) (NNS pus)))) (: ;)))
+#Rule:Nouns
+r1perforationNNP
+r1dischargeNN
+r1pusNNS
+
+#Rule:Adjs
+r4fetidJJ
+
+#Rule:Adj-Noun
+r5fetidJJpusNNS
+
+#Rule:N-ApposN
+r10perforationNNPdischargeNN
+
+#Rule:PPinNP
+r26dischargeNNofINpusNNS
+
+# worse by cold Hepar Sulph 200, 10 min(3 Doses) With thick yellowish discharge;
+#(S1 (ADJP (ADJP (RBR worse)) (PP (IN by) (NP (NP (JJ cold) (NNP Hepar) (NNP Sulph) (CD 200)) (, ,) (NP (NP (CD 10) (NN min)) (PRN (-LRB- -LRB-) (NP (CD 3) (NNS Doses)) (-RRB- -RRB-)) (PP (IN With) (NP (JJ thick) (JJ yellowish) (NN discharge))) (: ;))))))
+#Rule:Nouns
+r1Hepar SulphOrganizationAnnotation
+r1minNN
+r1DosesNNS
+r1dischargeNN
+
+#Rule:Adjs
+r4coldJJ
+r4thickJJ
+r4yellowishJJ
+
+#Rule:Adj-Noun
+r5coldJJHepar SulphOrganizationAnnotation
+r5200CDHepar SulphOrganizationAnnotation
+r510CDminNN
+r53CDDosesNNS
+r5thickJJdischargeNN
+r5yellowishJJdischargeNN
+
+#Rule:N-ApposN
+r10Hepar SulphOrganizationAnnotationminNN
+
+#Rule:PPinNP
+r26minNNwithINdischargeNN
+
+#Rule:PPinADJP
+r37worseRBRbyINHepar SulphOrganizationAnnotation
+r37worseRBRbyINminNN
+
+# better at cold place and cold open air Pulsatilla 30 or 200, 3 hourly For External Use:- Mullein oil (Ear drops).
+#(S1 (FRAG (ADVP (RBR better) (PP (IN at) (NP (NP (JJ cold) (NN place)) (CC and) (NP (JJ cold) (JJ open) (NN air))) (NP (NNP Pulsatilla) (CD 30) (CC or) (CD 200) (, ,) (CD 3)))) (ADJP (JJ hourly) (PP (IN For) (NP (JJ External) (NN Use)) (: :))) (: -) (NP (NP (NNP Mullein) (NN oil)) (PRN (-LRB- -LRB-) (NP (NN Ear) (NNS drops)) (-RRB- -RRB-))) (. .)))
+#Rule:Nouns
+r1placeNN
+r1airNN
+r1PulsatillaOrganizationAnnotation
+r1UseNN
+r1MulleinPersonAnnotation
+r1oilNN
+r1EarOrganizationAnnotation
+r1dropsNNS
+
+#Rule:Adjs
+r4coldJJ
+r4coldJJ
+r4openJJ
+r4hourlyJJ
+r4ExternalJJ
+
+#Rule:Adj-Noun
+r5coldJJplaceNN
+r5coldJJairNN
+r5openJJairNN
+r530CDPulsatillaOrganizationAnnotation
+r5200CDPulsatillaOrganizationAnnotation
+r53CDPulsatillaOrganizationAnnotation
+r5ExternalJJUseNN
+
+#Rule:N-HeadNoun
+r8MulleinPersonAnnotationoilNN
+r8EarOrganizationAnnotationdropsNNS
+
+#Rule:PPinADJP
+r37hourlyJJforINUseNN
+
+# Take the remedy which is similar to your symptoms.
+#(S1 (S (VP (VB Take) (NP (NP (DT the) (NN remedy)) (SBAR (WHNP (WDT which)) (S (VP (AUX is) (ADJP (JJ similar) (PP (TO to) (NP (PRP$ your) (NNS symptoms))))))))) (. .)))
+#Rule:Nouns
+r1remedyNN
+r1symptomsNNS
+
+#Rule:Verbs
+r2takeVB
+
+#Rule:Adjs
+r4similarJJ
+
+#Rule:PRP-Noun
+r6yourPRP$symptomsNNS
+
+#Rule:HeadNoun-(who/that)-V
+r14remedyNNisAUX
+
+#Rule:V-HeadNoun
+r21takeVBremedyNN
+
+#Rule:V-ADJ
+r25isAUXsimilarJJ
+
+#Rule:PPinADJP
+r37similarJJtoTOsymptomsNNS
+
+# No side effects or complications if taken as directed, please do not exceed the given dosage and under any circumstances do not try to mix any remedies and avoid Chocolates, Mints, Coffee, Red Meat, Alcoholic and Carbonated drinks, Spicy Rich Food while taking any Homeopathic remedies, and keep the medicines away from direct sunlight, heat strong smells and perfumes and do not store them in the fridge..Cur
+#(S1 (S (NP (NP (DT No) (NN side) (NNS effects)) (CC or) (NP (NNS complications))) (SBAR (IN if) (S (VP (VBN taken) (UCP (S (SBAR (IN as) (S (VP (VBN directed)))) (, ,) (INTJ (VB please)) (VP (AUX do) (RB not) (VP (VB exceed) (NP (DT the) (VBN given) (NN dosage))))) (CC and) (PP (IN under) (NP (DT any) (NNS circumstances))))))) (VP (AUX do) (RB not) (VP (VB try) (S (VP (TO to) (VP (VP (VB mix) (NP (DT any) (NNS remedies))) (CC and) (VP (VB avoid) (NP (NP (NNPS Chocolates)) (, ,) (NP (NNS Mints)) (, ,) (NP (NNP Coffee)) (, ,) (NP (NNP Red) (NNP Meat)) (, ,) (NP (JJ Alcoholic) (CC and) (JJ Carbonated) (NNS drinks)) (, ,) (NP (NNP Spicy) (NNP Rich) (NNP Food))) (PP (IN while) (S (VP (VP (VBG taking) (NP (DT any) (NNP Homeopathic) (NNS remedies))) (, ,) (CC and) (VP (VB keep) (NP (DT the) (NNS medicines)) (ADVP (RB away) (PP (IN from) (NP (NP (JJ direct) (NN sunlight)) (, ,) (SBAR (S (NP (NN heat) (JJ strong)) (VP (VP (VBZ smells) (CC and) (VBZ perfumes)) (CC and) (VP (AUX do) (RB not) (VP (VB store) (NP (PRP them)) (PP (IN in) (NP (DT the) (NN fridge) (NN ..) (NNP Cur)))))))))))))))))))))))
+#Rule:Nouns
+r1sideNN
+r1effectsNNS
+r1complicationsNNS
+r1dosageNN
+r1circumstancesNNS
+r1remediesNNS
+r1ChocolatesNNPS
+r1MintsNNS
+r1CoffeeNNP
+r1Red MeatOrganizationAnnotation
+r1drinksNNS
+r1Spicy RichPersonAnnotation
+r1FoodNNP
+r1HomeopathicNNP
+r1remediesNNS
+r1medicinesNNS
+r1sunlightNN
+r1heatNN
+r1fridgeNN
+r1..NN
+r1CurNNP
+
+#Rule:Verbs
+r2takenVBN
+r2directedVBN
+r2pleaseVB
+r2exceedVB
+r2givenVBN
+r2tryVB
+r2mixVB
+r2avoidVB
+r2takingVBG
+r2keepVB
+r2smellsVBZ
+r2perfumesVBZ
+r2storeVB
+
+#Rule:Adjs
+r4AlcoholicJJ
+r4CarbonatedJJ
+r4directJJ
+r4strongJJ
+
+#Rule:Adj-Noun
+r5givenVBNdosageNN
+r5AlcoholicJJdrinksNNS
+r5CarbonatedJJdrinksNNS
+r5directJJsunlightNN
+r5strongJJheatNN
+
+#Rule:N-HeadNoun
+r8sideNNeffectsNNS
+r8Spicy RichPersonAnnotationFoodNNP
+r8HomeopathicNNPremediesNNS
+r8..NNCurNNP
+r8fridgeNNCurNNP
+
+#Rule:N-ApposN
+r10ChocolatesNNPSMintsNNS
+
+#Rule:HeadNoun-V
+r11effectsNNStryVB
+r11complicationsNNStryVB
+r11heatNNsmellsVBZ
+r11heatNNstoreVB
+
+#Rule:V-HeadNoun
+r21exceedVBdosageNN
+r21mixVBremediesNNS
+r21avoidVBChocolatesNNPS
+r21takingVBGremediesNNS
+r21keepVBmedicinesNNS
+r21storeVBthemPRP
+
+#Rule:PPinVP
+r30storeVBinINCurNNP
+
+#Rule:V-ADV
+r46doAUXnotRB
+r46doAUXnotRB
+r46keepVBawayRB
+r46doAUXnotRB
+
+#Curing without any side effects or Complications Thats the Beauty of Homeopathic Medicine (Cures Par Excellence)Take Care and God Bless You !
+#(S1 (S (S (VP (VBG Curing) (PP (IN without) (NP (NP (DT any) (NN side) (NNS effects)) (CC or) (NP (NNS Complications) (NNS Thats)))) (NP (NP (DT the) (NN Beauty)) (PP (IN of) (NP (NP (NNP Homeopathic) (NNP Medicine)) (PRN (-LRB- -LRB-) (NP (NNS Cures) (NNP Par) (NNP Excellence)) (-RRB- -RRB-))))))) (VP (VB Take) (NP (NNP Care) (CC and) (NNP God)) (VP (VB Bless) (NP (PRP You)))) (. !)))
+#Rule:Nouns
+r1sideNN
+r1effectsNNS
+r1ComplicationsNNS
+r1ThatsNNS
+r1BeautyNN
+r1Homeopathic MedicineOrganizationAnnotation
+r1CuresNNS
+r1ParNNP
+r1ExcellenceNNP
+r1CareNNP
+r1GodNNP
+
+#Rule:Verbs
+r2curingVBG
+r2takeVB
+r2BlessOrganizationAnnotation
+
+#Rule:N-HeadNoun
+r8sideNNeffectsNNS
+r8ComplicationsNNSThatsNNS
+r8ParNNPExcellenceNNP
+r8CuresNNSExcellenceNNP
+
+#Rule:V-HeadNoun
+r21curingVBGBeautyNN
+r21takeVBCareNNP
+r21BlessOrganizationAnnotationyouPRP
+
+#Rule:PPinNP
+r26BeautyNNofINHomeopathic MedicineOrganizationAnnotation
+
+#Rule:PPinVP
+r30curingVBGwithoutINeffectsNNS
+r30curingVBGwithoutINThatsNNS
+
+@lemmas-left	thats	Due	store	Mints	external	cure	avoid	open	Carbonated	given	Excellence	drink	Severe	perfumes	intolerable	discharge	place	Thats	wind	Chamomilla	200	throbbing	effects	blood	boil	3	2	ear	eustachian	30	smells	4	perfume	warmth	hot	air	try	Use	symptom	smell	homeopathic	face	pus	god	Homeopathic Treatment	give	Food	Throbbing	Spicy Rich	pain	use	collection	oil	excellence	Aconite	Pulsatilla	sinusitis	side	do	tubes	similar	direct	min	Doses	Hepar Sulph	wax Spigelia	exceed	dosage	mint	Par	Bless	taking	mix	External	symptoms	10	chocolate	feeling	cur	keep	Coffee	Homeopathic Medicine	drop	Cur	Red Meat	-Sudden	heat	please	cold	Belladonna	remedies	..	care	Chocolates	taken	medicine	head	be	Complications	coffee	Homeopathic	yellowish	sunlight	strong	thick	food	anger	perforation	due	Allium Cepa	hourly	Intolerable	exposure	tube	Earache(Otalgia	sudden	indoors	alcoholic	Ear	beauty	Alcoholic	drinks	dose	acute	par	carbonated	Mullein	curing	severe	stringy phelgm Kali Bich	is	dry	rush	pressure	redness	circumstances	your	Cures	Beauty	medicines	worse	complication	complications	fetid	remedy	fridge	take	directed	drops	God	ears	night	Care	
+@lemmas-right	Homeopathic Medicine	thats	store	Mints	drop	Cur	heat	Belladonna	Excellence	remedies	drink	care	Chocolates	medicine	discharge	place	Thats	be	wind	Chamomilla	effects	blood	sunlight	boil	not	2	ear	them	smells	food	warmth	air	Allium Cepa	try	Use	symptom	smell	face	pus	Homeopathic Treatment	Earache(Otalgia	tube	Food	indoors	pain	use	beauty	collection	drinks	dose	oil	excellence	Aconite	Pulsatilla	sinusitis	tubes	similar	min	Doses	stringy phelgm Kali Bich	Hepar Sulph	is	redness	pressure	wax Spigelia	mint	dosage	Beauty	you	medicines	away	symptoms	chocolate	remedy	feeling	drops	cur	ears	Care	
+@lemmas-center	to	of	with	for	by	from	towards	without	in	

@@ -1,0 +1,60 @@
+#About how long does it take to lose 20 pounds??
+#(S1 (SBARQ (RB About) (WHADVP (WRB how) (RB long)) (SQ (AUX does) (NP (PRP it)) (VP (VB take) (S (VP (TO to) (VP (VB lose) (NP (CD 20) (NNS pounds)))))) (. ?)) (. ?)))
+#Rule:Nouns
+r1poundsNNS
+
+#Rule:Verbs
+r2takeVB
+r2loseVB
+
+#Rule:Adj-Noun
+r520CDpoundsNNS
+
+#Rule:V-HeadNoun
+r21loseVBpoundsNNS
+
+#Rule:V-V
+r44takeVBloseVB
+
+#I need to seriously lose some weight! I want to know about how long it will take me to lose 20 pounds..and also, what should I do to lose these 20 pounds without having to starve myself?
+#(S1 (SBARQ (S (S (NP (PRP I)) (VP (AUX need) (S (VP (TO to) (ADVP (RB seriously)) (VP (VB lose) (NP (DT some) (NN weight))))))) (. !) (NP (PRP I)) (VP (VBP want) (S (VP (TO to) (VP (VB know) (PP (IN about) (SBAR (WHADVP (WRB how) (RB long)) (S (NP (PRP it)) (VP (MD will) (VP (VB take) (NP (PRP me)) (S (VP (TO to) (VP (VB lose) (NP (NP (CD 20) (NNS pounds)) (ADVP (RB ..) (CC and) (RB also)))))))))))))))) (, ,) (WHNP (WP what)) (SQ (MD should) (NP (PRP I)) (VP (AUX do) (S (VP (TO to) (VP (VB lose) (NP (DT these) (CD 20) (NNS pounds)) (PP (IN without) (S (VP (AUXG having) (S (VP (TO to) (VP (VB starve) (NP (PRP myself))))))))))))) (. ?)))
+#Rule:Nouns
+r1weightNN
+r1poundsNNS
+r1poundsNNS
+
+#Rule:Verbs
+r2loseVB
+r2wantVBP
+r2knowVB
+r2takeVB
+r2loseVB
+r2loseVB
+r2starveVB
+
+#Rule:Adj-Noun
+r520CDpoundsNNS
+r520CDpoundsNNS
+
+#Rule:HeadNoun-V
+r11iPRPwantVBP
+r11iPRPneedAUX
+r11itPRPtakeVB
+
+#Rule:V-HeadNoun
+r21loseVBweightNN
+r21takeVBmePRP
+r21loseVBpoundsNNS
+r21loseVBpoundsNNS
+r21starveVBmyselfPRP
+
+#Rule:V-V
+r44wantVBPknowVB
+r44takeVBloseVB
+
+#Rule:V-ADV
+r46loseVBseriouslyRB
+
+@lemmas-left	20	lose	it	weight	take	pounds	know	want	i	starve	pound	
+@lemmas-right	need	lose	weight	take	pounds	myself	me	know	want	seriously	pound	
+@lemmas-center	

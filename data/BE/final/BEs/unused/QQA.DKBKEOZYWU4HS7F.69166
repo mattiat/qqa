@@ -1,0 +1,50 @@
+#by magnetic induction.basically you pass a magnet through a coil of wire anr the magnetic field via magnetic induction produces electricity
+#(S1 (S (PP (IN by) (NP (JJ magnetic) (NN induction.basically))) (NP (PRP you)) (VP (VBP pass) (NP (DT a) (NN magnet)) (PP (IN through) (NP (NP (DT a) (NN coil)) (PP (IN of) (NP (NP (NN wire) (NNS anr)) (SBAR (S (NP (NP (DT the) (JJ magnetic) (NN field)) (PP (IN via) (NP (JJ magnetic) (NN induction)))) (VP (VBZ produces) (NP (NN electricity))))))))))))
+#Rule:Nouns
+r1induction.basicallyNN
+r1magnetNN
+r1coilNN
+r1wireNN
+r1anrOrganizationAnnotation
+r1fieldNN
+r1inductionNN
+r1electricityNN
+
+#Rule:Verbs
+r2passVBP
+r2producesVBZ
+
+#Rule:Adjs
+r4magneticJJ
+r4magneticJJ
+r4magneticJJ
+
+#Rule:Adj-Noun
+r5magneticJJinduction.basicallyNN
+r5magneticJJfieldNN
+r5magneticJJinductionNN
+
+#Rule:N-HeadNoun
+r8wireNNanrOrganizationAnnotation
+
+#Rule:HeadNoun-V
+r11youPRPpassVBP
+r11fieldNNproducesVBZ
+
+#Rule:V-HeadNoun
+r21passVBPmagnetNN
+r21producesVBZelectricityNN
+
+#Rule:PPinNP
+r26coilNNofINanrOrganizationAnnotation
+r26fieldNNviaINinductionNN
+
+#Rule:PPinVP
+r30passVBPthroughINcoilNN
+
+#Rule:PPinS
+r36passVBPbyINinduction.basicallyNN
+
+@lemmas-left	wire	induction	you	pass	field	induction.basically	coil	produces	electricity	magnetic	magnet	anr	produce	
+@lemmas-right	field	induction.basically	induction	coil	produces	electricity	magnet	anr	produce	pass	
+@lemmas-center	of	via	by	through	

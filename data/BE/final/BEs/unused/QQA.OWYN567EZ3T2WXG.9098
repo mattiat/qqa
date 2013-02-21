@@ -1,0 +1,1725 @@
+#I surfaced the web on your subject.
+#(S1 (S (NP (PRP I)) (VP (VBD surfaced) (NP (NP (DT the) (NN web)) (PP (IN on) (NP (PRP$ your) (NN subject))))) (. .)))
+#Rule:Nouns
+r1webNN
+r1subjectNN
+
+#Rule:Verbs
+r2surfacedVBD
+
+#Rule:PRP-Noun
+r6yourPRP$subjectNN
+
+#Rule:HeadNoun-V
+r11iPRPsurfacedVBD
+
+#Rule:V-HeadNoun
+r21surfacedVBDwebNN
+
+#Rule:PPinNP
+r26webNNonINsubjectNN
+
+#  First let me say that you have an interesting topic.
+#(S1 (S (ADVP (RB First)) (VP (VB let) (S (NP (PRP me)) (VP (VB say) (SBAR (IN that) (S (NP (PRP you)) (VP (AUX have) (NP (DT an) (JJ interesting) (NN topic)))))))) (. .)))
+#Rule:Nouns
+r1topicNN
+
+#Rule:Verbs
+r2letVB
+r2sayVB
+
+#Rule:Adjs
+r4interestingJJ
+
+#Rule:Adj-Noun
+r5interestingJJtopicNN
+
+#Rule:HeadNoun-V
+r11mePRPsayVB
+r11youPRPhaveAUX
+
+#Rule:V-HeadNoun
+r21haveAUXtopicNN
+
+#Rule:V-HeadNoun
+r22letVBmePRP
+
+#Rule:V-IN-V
+r43sayVBthatINhaveAUX
+
+#Rule:V-ADV
+r46letVBFirstRB
+
+#  You should narrow it down.
+#(S1 (S (NP (PRP You)) (VP (MD should) (VP (VB narrow) (NP (PRP it)) (PRT (RP down)))) (. .)))
+#Rule:Verbs
+r2narrowVB
+
+#Rule:V-PRT
+r3narrowVBdownRP
+
+#Rule:HeadNoun-V
+r11youPRPnarrowVB
+
+#Rule:V-HeadNoun
+r21narrowVBitPRP
+
+# If noticed some of the cites that are provided there are other reasons for not using a condom ie.
+#(S1 (S (SBAR (IN If) (S (VP (VBN noticed) (NP (NP (DT some)) (PP (IN of) (NP (DT the) (VBZ cites) (SBAR (WHNP (WDT that)) (S (VP (AUX are) (VP (VBN provided))))))))))) (NP (EX there)) (VP (AUX are) (NP (NP (JJ other) (NNS reasons)) (PP (IN for) (S (RB not) (VP (VBG using) (NP (DT a) (NN condom) (NN ie))))))) (. .)))
+#Rule:Nouns
+r1reasonsNNS
+r1condomNN
+r1ieLocationAnnotation
+
+#Rule:Verbs
+r2noticedVBN
+r2citesVBZ
+r2providedVBN
+r2usingVBG
+
+#Rule:Adjs
+r4otherJJ
+
+#Rule:Adj-Noun
+r5otherJJreasonsNNS
+
+#Rule:N-HeadNoun
+r8condomNNieLocationAnnotation
+
+#Rule:HeadNoun-V
+r11thereEXareAUX
+
+#Rule:V-HeadNoun
+r21noticedVBNsomeDT
+r21areAUXreasonsNNS
+r21usingVBGieLocationAnnotation
+
+#Rule:PPinNP
+r26someDTofINthatWDT
+
+#religious beliefs, other birth control methods,   good luckSLVHD HIV OutreachPeople can choose not to use drugs.
+#(S1 (S (NP (NP (JJ religious) (NNS beliefs)) (, ,) (NP (JJ other) (NN birth) (NN control) (NNS methods)) (, ,) (NP (JJ good) (NNS luckSLVHD))) (NP (NNP HIV) (NNP OutreachPeople)) (VP (MD can) (VP (VB choose) (S (RB not) (VP (TO to) (VP (VB use) (NP (NNS drugs))))))) (. .)))
+#Rule:Nouns
+r1beliefsNNS
+r1birthNN
+r1controlNN
+r1methodsNNS
+r1luckSLVHD HIV OutreachPeopleOrganizationAnnotation
+r1drugsNNS
+
+#Rule:Verbs
+r2chooseVB
+r2useVB
+
+#Rule:Adjs
+r4religiousJJ
+r4otherJJ
+r4goodJJ
+
+#Rule:Adj-Noun
+r5religiousJJbeliefsNNS
+r5otherJJmethodsNNS
+r5goodJJluckSLVHD HIV OutreachPeopleOrganizationAnnotation
+
+#Rule:N-HeadNoun
+r8controlNNmethodsNNS
+r8birthNNmethodsNNS
+
+#Rule:N-ApposN
+r10beliefsNNSmethodsNNS
+
+#Rule:HeadNoun-V
+r11beliefsNNSchooseVB
+r11methodsNNSchooseVB
+r11luckSLVHD HIV OutreachPeopleOrganizationAnnotationchooseVB
+
+#Rule:V-HeadNoun
+r21useVBdrugsNNS
+
+#Rule:V-V
+r44chooseVBuseVB
+
+# People can choose not to have sex- abstinence. . Do not use condoms that contain Non-oxaynol nine. .www.
+#(S1 (S (NP (NNS People)) (VP (MD can) (VP (VB choose) (S (RB not) (VP (TO to) (VP (AUX have) (ADJP (JJ sex-) (SBAR (S (NP (FW abstinence.) (. .)) (VP (AUX Do) (RB not) (VP (VB use) (NP (NP (NNS condoms)) (SBAR (WHNP (WDT that)) (S (VP (VBP contain) (NP (JJ Non-oxaynol) (FW nine.) (FW .www)))))))))))))))) (. .)))
+#Rule:Nouns
+r1PeopleNNS
+r1condomsNNS
+
+#Rule:Verbs
+r2chooseVB
+r2useVB
+r2containVBP
+
+#Rule:Adjs
+r4sex-JJ
+r4Non-oxaynolJJ
+
+#Rule:HeadNoun-V
+r11PeopleNNSchooseVB
+r11..useVB
+
+#Rule:HeadNoun-(who/that)-V
+r14condomsNNScontainVBP
+
+#Rule:V-HeadNoun
+r21useVBcondomsNNS
+r21containVBPNon-oxaynolJJ
+
+#Rule:V-ADV
+r46DoPersonAnnotationnotRB
+
+#slvhealth.
+#(S1 (FRAG (ADJP (JJ slvhealth)) (. .)))
+#Rule:Adjs
+r4slvhealthJJ
+
+#org/hiv/hivinfo.
+#(S1 (X (NNP org/hiv/hivinfo) (. .)))
+#Rule:Nouns
+r1org/hiv/hivinfoOrganizationAnnotation
+
+#html Using Condoms, Condom Types&Condom SizesHowever, outside of the laboratory condoms are less effective because people do not always use condoms properly.
+#(S1 (S (NP (NP (NP (NNP html)) (VP (VBG Using) (NP (NNS Condoms)))) (, ,) (NP (NN Condom) (NNP Types&Condom) (NNP SizesHowever)) (, ,)) (ADVP (IN outside) (PP (IN of) (NP (DT the) (NN laboratory) (NNS condoms)))) (VP (AUX are) (ADJP (RBR less) (JJ effective)) (SBAR (IN because) (S (NP (NNS people)) (VP (AUX do) (RB not) (ADVP (RB always)) (VP (VB use) (NP (NNS condoms)) (ADVP (RB properly))))))) (. .)))
+#Rule:Nouns
+r1html Using CondomsOrganizationAnnotation
+r1Condom Types&CondomOrganizationAnnotation
+r1SizesHoweverNNP
+r1laboratoryNN
+r1condomsNNS
+r1peopleNNS
+r1condomsNNS
+
+#Rule:Verbs
+r2useVB
+
+#Rule:Adjs
+r4effectiveJJ
+
+#Rule:N-HeadNoun
+r8Condom Types&CondomOrganizationAnnotationSizesHoweverNNP
+r8laboratoryNNcondomsNNS
+
+#Rule:N-ApposN
+r10html Using CondomsOrganizationAnnotationSizesHoweverNNP
+
+#Rule:HeadNoun-V
+r11html Using CondomsOrganizationAnnotationareAUX
+r11SizesHoweverNNPareAUX
+r11peopleNNSuseVB
+
+#Rule:V-HeadNoun
+r21useVBcondomsNNS
+
+#Rule:V-ADJ
+r25areAUXeffectiveJJ
+
+#Rule:V-IN-V
+r43areAUXbecauseINuseVB
+
+#Rule:V-ADV
+r46doAUXnotRB
+r46doAUXalwaysRB
+r46useVBalwaysRB
+r46useVBproperlyRB
+
+# To find out more about the effectiveness of .
+#(S1 (S (VP (TO To) (VP (VB find) (PRT (RP out)) (NP (QP (JJR more) (IN about) (DT the) (NN effectiveness) (IN of))))) (. .)))
+#Rule:Nouns
+r1effectivenessNN
+
+#Rule:V-PRT
+r3findVBoutRP
+
+#Rule:Adjs
+r4moreJJR
+
+#Rule:Adj-Noun
+r5moreJJRaboutIN
+
+#Rule:V-HeadNoun
+r21findVBaboutIN
+
+#www.avert.
+#(S1 (S (VP (VB www.avert)) (. .)))
+#Rule:Verbs
+r2www.avert.LocationAnnotation
+
+#org/usecond.
+#(S1 (S (VP (VB org/usecond)) (. .)))
+#Rule:Verbs
+r2org/usecondVB
+
+#htm  How to Use a Male CondomIf a condom is not used, HIV or other disease-causing germs can pass easily .
+#(S1 (S (PP (VBG htm) (SBAR (WHADVP (WRB How)) (S (VP (TO to) (VP (VB Use) (NP (NP (DT a) (JJ Male) (NN CondomIf)) (SBAR (S (NP (DT a) (NN condom)) (VP (AUX is) (RB not) (VP (VBN used))))))))))) (, ,) (NP (NP (NNP HIV)) (CC or) (NP (JJ other) (JJ disease-causing) (NNS germs))) (VP (MD can) (VP (VB pass) (ADVP (RB easily)))) (. .)))
+#Rule:Nouns
+r1Male CondomIfOrganizationAnnotation
+r1condomNN
+r1HIVLocationAnnotation
+r1germsNNS
+
+#Rule:Verbs
+r2htmVBG
+r2UseOrganizationAnnotation
+r2usedVBN
+r2passVB
+
+#Rule:Adjs
+r4otherJJ
+r4disease-causingJJ
+
+#Rule:Adj-Noun
+r5otherJJgermsNNS
+r5disease-causingJJgermsNNS
+
+#Rule:HeadNoun-V
+r11HIVLocationAnnotationpassVB
+r11germsNNSpassVB
+
+#Rule:NP(NP(z) SBAR(S(NP(x)VP(y))))
+r19usedVBNMale CondomIfOrganizationAnnotation
+
+#Rule:V-HeadNoun
+r21UseOrganizationAnnotationMale CondomIfOrganizationAnnotation
+
+#Rule:V-HeadNoun(passive)
+r23usedVBNcondomNN
+
+#Rule:V-ADV
+r46isAUXnotRB
+r46passVBeasilyRB
+
+# Some people choose to use a backup birth control method in case the condom .
+#(S1 (S (NP (DT Some) (NNS people)) (VP (VBP choose) (S (VP (TO to) (VP (VB use) (NP (NP (DT a) (JJ backup) (NN birth) (NN control) (NN method)) (PP (IN in) (NP (NN case)))) (NP (DT the) (NN condom)))))) (. .)))
+#Rule:Nouns
+r1peopleNNS
+r1birthNN
+r1controlNN
+r1methodNN
+r1caseNN
+r1condomNN
+
+#Rule:Verbs
+r2chooseVBP
+r2useVB
+
+#Rule:Adjs
+r4backupJJ
+
+#Rule:Adj-Noun
+r5backupJJmethodNN
+
+#Rule:N-HeadNoun
+r8controlNNmethodNN
+r8birthNNmethodNN
+
+#Rule:HeadNoun-V
+r11peopleNNSchooseVBP
+
+#Rule:V-HeadNoun
+r21useVBmethodNN
+r21useVBcondomNN
+
+#Rule:PPinNP
+r26methodNNinINcaseNN
+
+#Rule:V-V
+r44chooseVBPuseVB
+
+#www.healthatoz.
+#(S1 (X (NNP www.healthatoz) (. .)))
+#Rule:Nouns
+r1www.healthatoz.LocationAnnotation
+
+#com/.
+#(S1 (INTJ (UH com/) (. .)))
+#/common/standard/transform.
+#(S1 (S (VP (VB /common/standard/transform)) (. .)))
+#Rule:Verbs
+r2/common/standard/transformVB
+
+#jsp?requestURI=/healthatoz/Atoz/dc/caz/repr/stds/stdhow.
+#(S1 (FRAG (NP (NNP jsp)) (. ?) (NP (NN requestURI=/healthatoz/Atoz/dc/caz/repr/stds/stdhow)) (. .)))
+#Rule:Nouns
+r1jspNNP
+r1requestURI=/healthatoz/Atoz/dc/caz/repr/stds/stdhowNN
+
+#jsp Adolescent AIDS Program: HIV and U???My partner and I don???t sleep around, we trust each other, so we don???t need to use condoms any more.??? Many people feel they???re not at risk for HIV or other .
+#(S1 (S (NP (NNP jsp) (UCP (ADJP (JJ Adolescent) (NP (NNP AIDS) (NNP Program))) (: :) (NP (NP (NP (NNP HIV) (CC and) (NNP U) (NNS ???)) (NP (PRP$ My) (NN partner))) (CC and) (S (S (NP (PRP I)) (VP (VB don) (S (NP (JJ ???) (NNS t)) (VP (VB sleep) (ADVP (RB around)))))) (, ,) (S (NP (PRP we)) (VP (VBP trust) (NP (DT each) (JJ other)))) (, ,) (CC so) (S (NP (PRP we)) (VP (VB don) (SBAR (S (NP (JJ ???) (NNS t)) (VP (AUX need) (S (VP (TO to) (VP (VB use) (NP (NNS condoms)) (NP (DT any) (FW more.) (FW ??)))))))))))) (. ?)) (JJ Many) (NNS people)) (VP (VBP feel) (SBAR (S (NP (PRP they)) (VP (VBP ???) (NP (NNP re)) (PP (RB not) (IN at) (NP (NP (NP (NN risk)) (PP (IN for) (NP (NNP HIV)))) (CC or) (NP (JJ other)))))))) (. .)))
+#Rule:Nouns
+r1jspNNP
+r1AIDSNNP
+r1ProgramNNP
+r1HIVLocationAnnotation
+r1ULocationAnnotation
+r1???NNS
+r1partnerNN
+r1tNNS
+r1tNNS
+r1condomsNNS
+r1peopleNNS
+r1reNNP
+r1riskNN
+r1HIVLocationAnnotation
+
+#Rule:Verbs
+r2donVB
+r2sleepVB
+r2trustVBP
+r2donVB
+r2useVB
+r2feelVBP
+r2???VBP
+
+#Rule:Adjs
+r4AdolescentJJ
+r4???JJ
+r4otherJJ
+r4???JJ
+r4ManyJJ
+r4otherJJ
+
+#Rule:Adj-Noun
+r5ManyJJpeopleNNS
+r5???JJtNNS
+r5???JJtNNS
+
+#Rule:PRP-Noun
+r6myPRP$partnerNN
+
+#Rule:N-HeadNoun
+r8AIDSNNPProgramNNP
+r8ULocationAnnotation???NNS
+
+#Rule:HeadNoun-V
+r11peopleNNSfeelVBP
+r11iPRPdonVB
+r11tNNSsleepVB
+r11wePRPtrustVBP
+r11wePRPdonVB
+r11tNNSneedAUX
+r11theyPRP???VBP
+
+#Rule:V-HeadNoun
+r21trustVBPotherJJ
+r21useVBcondomsNNS
+r21useVB??FW
+r21???VBPreNNP
+
+#Rule:V-HeadNoun
+r22donVBtNNS
+
+#Rule:PPinNP
+r26riskNNforINHIVLocationAnnotation
+
+#Rule:PPinVP
+r30???VBPatINriskNN
+r30???VBPatINotherJJ
+
+#Rule:V-ADV
+r46sleepVBaroundRB
+
+#www.adolescentaids.
+#(S1 (INTJ (UH www.adolescentaids) (. .)))
+#org/youth/hiv_u.
+#(S1 (INTJ (UH org/youth/hiv_u) (. .)))
+#html Motivations for condom use and nonuse Clinical Laboratory Science .
+#(S1 (S (NP (NP (NNP html) (NNPS Motivations)) (PP (IN for) (NP (NN condom)))) (VP (VBP use) (CC and) (VBP nonuse) (NP (JJ Clinical) (NNP Laboratory) (NNP Science))) (. .)))
+#Rule:Nouns
+r1htmlNNP
+r1MotivationsNNPS
+r1condomNN
+r1Clinical Laboratory ScienceOrganizationAnnotation
+
+#Rule:Verbs
+r2useVBP
+r2nonuseVBP
+
+#Rule:N-HeadNoun
+r8htmlNNPMotivationsNNPS
+
+#Rule:HeadNoun-V
+r11MotivationsNNPSuseVBP
+
+#Rule:V-HeadNoun
+r21useVBPClinical Laboratory ScienceOrganizationAnnotation
+
+#Rule:PPinNP
+r26MotivationsNNPSforINcondomNN
+
+#For example, a person may choose to use a condom with one partner because the partner insists, and may choose not to use a condom with another partner .
+#(S1 (S (PP (IN For) (NP (NN example))) (, ,) (NP (DT a) (NN person)) (VP (VP (MD may) (VP (VB choose) (S (VP (TO to) (VP (VB use) (NP (DT a) (NN condom)) (PP (IN with) (NP (CD one) (NN partner)))))) (SBAR (IN because) (S (NP (DT the) (NN partner)) (VP (VBZ insists)))))) (, ,) (CC and) (VP (MD may) (VP (VB choose) (S (RB not) (VP (TO to) (VP (VB use) (NP (DT a) (NN condom)) (PP (IN with) (NP (DT another) (NN partner))))))))) (. .)))
+#Rule:Nouns
+r1exampleNN
+r1personNN
+r1condomNN
+r1partnerNN
+r1partnerNN
+r1condomNN
+r1partnerNN
+
+#Rule:Verbs
+r2chooseVB
+r2useVB
+r2insistsVBZ
+r2chooseVB
+r2useVB
+
+#Rule:Adj-Noun
+r5oneCDpartnerNN
+
+#Rule:HeadNoun-V
+r11personNNchooseVB
+r11personNNchooseVB
+r11partnerNNinsistsVBZ
+
+#Rule:V-HeadNoun
+r21useVBcondomNN
+r21useVBcondomNN
+
+#Rule:PPinVP
+r30useVBwithINpartnerNN
+r30useVBwithINpartnerNN
+
+#Rule:PPinS
+r36mayMDforINexampleNN
+
+#Rule:V-IN-V
+r43chooseVBbecauseINinsistsVBZ
+
+#Rule:V-V
+r44chooseVBuseVB
+r44chooseVBuseVB
+
+#findarticles.
+#(S1 (S (VP (VBZ findarticles)) (. .)))
+#Rule:Verbs
+r2findarticlesVBZ
+
+#com/p/articles/mi_qa3890/is_200301/ai_n9233880/pg_2 Facts about AIDSFACT: People infected with HIV may look and feel healthy for a long time .
+#(S1 (S (S (VP (VB com/p/articles/mi_qa3890/is_200301/ai_n9233880/pg_2) (NP (NP (NNS Facts)) (PP (IN about) (NP (NN AIDSFACT)))))) (: :) (S (NP (NP (NNS People)) (VP (VBN infected) (PP (IN with) (NP (NNP HIV))))) (VP (MD may) (VP (VB look) (CC and) (VP (VB feel) (ADJP (JJ healthy)) (PP (IN for) (NP (DT a) (JJ long) (NN time))))))) (. .)))
+#Rule:Nouns
+r1FactsNNS
+r1AIDSFACTNN
+r1PeopleNNS
+r1HIVOrganizationAnnotation
+r1timeNN
+
+#Rule:Verbs
+r2com/p/articles/mi_qa3890/is_200301/ai_n9233880/pg_2VB
+r2infectedVBN
+r2lookVB
+r2feelVB
+
+#Rule:Adjs
+r4healthyJJ
+r4longJJ
+
+#Rule:Adj-Noun
+r5longJJtimeNN
+
+#Rule:HeadNoun-V
+r11PeopleNNSlookVB
+r11PeopleNNSfeelVB
+
+#Rule:V-HeadNoun
+r21com/p/articles/mi_qa3890/is_200301/ai_n9233880/pg_2VBFactsNNS
+
+#Rule:V-HeadNoun(passive)
+r24infectedVBNPeopleNNS
+
+#Rule:PPinNP
+r26FactsNNSaboutINAIDSFACTNN
+
+#Rule:PPinVP
+r30feelVBforINtimeNN
+
+#Rule:PPinVP
+r32infectedVBNwithINHIVOrganizationAnnotation
+
+# You can choose to use condoms even if you have not used condoms before. .www.
+#(S1 (S (NP (PRP You)) (VP (MD can) (VP (VB choose) (S (VP (TO to) (VP (VB use) (NP (NNS condoms)) (SBAR (RB even) (IN if) (S (NP (PRP you)) (VP (AUX have) (RB not) (VP (VBN used) (NP (NNS condoms)) (ADVP (FW before.) (FW .www))))))))))) (. .)))
+#Rule:Nouns
+r1condomsNNS
+r1condomsNNS
+
+#Rule:Verbs
+r2chooseVB
+r2useVB
+r2usedVBN
+
+#Rule:HeadNoun-V
+r11youPRPchooseVB
+
+#Rule:HeadNoun-V
+r12youPRPusedVBN
+
+#Rule:V-HeadNoun
+r21useVBcondomsNNS
+r21usedVBNcondomsNNS
+
+#Rule:V-IN-V
+r43useVBifINusedVBN
+
+#Rule:V-V
+r44chooseVBuseVB
+
+#Rule:V-ADV
+r46haveAUXnotRB
+
+#ziplink.
+#(S1 (INTJ (UH ziplink) (. .)))
+#net/~glen/compaqplus/rc_info.
+#(S1 (X (NNP net/~glen/compaqplus/rc_info) (. .)))
+#Rule:Nouns
+r1net/~glen/compaqplus/rc_infoOrganizationAnnotation
+
+#html why use condoms??How
+#(S1 (NP (NP (NNP html)) (SBAR (WHADVP (WRB why)) (S (NP (VB use) (NNS condoms)) (VP (VB ??) (ADVP (WRB How)))))))
+#Rule:Nouns
+r1htmlNNP
+r1condomsNNS
+
+#Rule:Verbs
+r2useVB
+r2??VB
+
+#Rule:HeadNoun-V
+r11condomsNNS??VB
+
+#Rule:(SBAR+WHADVP)inNP
+r41htmlNNPwhyWRB??VB
+
+#How to put on a condom Why use condoms .
+#(S1 (FRAG (SBAR (WHADVP (WRB How)) (S (VP (TO to) (VP (VB put) (PP (IN on) (NP (DT a) (NN condom))) (SBAR (WHADVP (WRB Why)) (S (VP (VBP use) (NP (NNS condoms))))))))) (. .)))
+#Rule:Nouns
+r1condomNN
+r1condomsNNS
+
+#Rule:Verbs
+r2putVB
+r2useVBP
+
+#Rule:V-HeadNoun
+r21useVBPcondomsNNS
+
+#Rule:PPinVP
+r30putVBonINcondomNN
+
+# as men buy and carry condoms.
+#(S1 (S (NP (RB as) (NNS men)) (VP (VBP buy) (CC and) (VBP carry) (NP (NNS condoms))) (. .)))
+#Rule:Nouns
+r1menNNS
+r1condomsNNS
+
+#Rule:Verbs
+r2buyVBP
+r2carryVBP
+
+#Rule:HeadNoun-V
+r11menNNSbuyVBP
+
+#Rule:V-HeadNoun
+r21buyVBPcondomsNNS
+
+# And many people use them .
+#(S1 (S (CC And) (NP (JJ many) (NNS people)) (VP (VBP use) (NP (PRP them))) (. .)))
+#Rule:Nouns
+r1peopleNNS
+
+#Rule:Verbs
+r2useVBP
+
+#Rule:Adjs
+r4manyJJ
+
+#Rule:Adj-Noun
+r5manyJJpeopleNNS
+
+#Rule:HeadNoun-V
+r11peopleNNSuseVBP
+
+#Rule:V-HeadNoun
+r21useVBPthemPRP
+
+# being is not worth your sexual involvement.
+#(S1 (S (NP (AUXG being)) (VP (AUX is) (RB not) (ADJP (JJ worth) (NP (PRP$ your) (JJ sexual) (NN involvement)))) (. .)))
+#Rule:Nouns
+r1involvementNN
+
+#Rule:Adjs
+r4worthJJ
+r4sexualJJ
+
+#Rule:Adj-Noun
+r5sexualJJinvolvementNN
+
+#Rule:PRP-Noun
+r6yourPRP$involvementNN
+
+#Rule:HeadNoun-V
+r11beingAUXGisAUX
+
+#Rule:V-ADJ
+r25isAUXworthJJ
+
+#Rule:V-ADV
+r46isAUXnotRB
+
+# Benefits of Condom Usewww.
+#(S1 (NP (NP (NNS Benefits)) (PP (IN of) (NP (NN Condom) (NNS Usewww))) (. .)))
+#Rule:Nouns
+r1BenefitsNNS
+r1CondomOrganizationAnnotation
+
+#Rule:PPinNP
+r26BenefitsNNSofINCondomOrganizationAnnotation
+
+#feelconfident.
+#(S1 (S (VP (VB feelconfident)) (. .)))
+#Rule:Verbs
+r2feelconfidentVB
+
+#co.uk/condoms/why_use_condoms.
+#(S1 (S (VP (VBZ co.uk/condoms/why_use_condoms)) (. .)))
+#Rule:Verbs
+r2co.uk/condoms/why_use_condomsVBZ
+
+#htmSafe Sex.
+#(S1 (S (VP (VB htmSafe) (NP (NN Sex))) (. .)))
+#Rule:Nouns
+r1htmOrganizationAnnotation
+
+# use a condom correctly.
+#(S1 (S (VP (VB use) (NP (DT a) (NN condom)) (ADVP (RB correctly))) (. .)))
+#Rule:Nouns
+r1condomNN
+
+#Rule:Verbs
+r2useVB
+
+#Rule:V-HeadNoun
+r21useVBcondomNN
+
+#Rule:V-ADV
+r46useVBcorrectlyRB
+
+# Be clear about the reasons why you want to use a condom .
+#(S1 (S (VP (AUX Be) (ADJP (JJ clear) (PP (IN about) (NP (NP (DT the) (NNS reasons)) (SBAR (WHADVP (WRB why)) (S (NP (PRP you)) (VP (VBP want) (S (VP (TO to) (VP (VB use) (NP (DT a) (NN condom)))))))))))) (. .)))
+#Rule:Nouns
+r1reasonsNNS
+r1condomNN
+
+#Rule:Verbs
+r2wantVBP
+r2useVB
+
+#Rule:Adjs
+r4clearJJ
+
+#Rule:HeadNoun-V
+r11youPRPwantVBP
+
+#Rule:V-HeadNoun
+r21useVBcondomNN
+
+#Rule:PPinADJP
+r37clearJJaboutINreasonsNNS
+
+#Rule:(SBAR+WHADVP)inNP
+r41reasonsNNSwhyWRBwantVBP
+
+#Rule:V-V
+r44wantVBPuseVB
+
+# Often people in a relationship choose not to use condoms.
+#(S1 (S (ADVP (RB Often)) (NP (NP (NNS people)) (PP (IN in) (NP (DT a) (NN relationship)))) (VP (VBP choose) (RB not) (S (VP (TO to) (VP (VB use) (NP (NNS condoms)))))) (. .)))
+#Rule:Nouns
+r1peopleNNS
+r1relationshipNN
+r1condomsNNS
+
+#Rule:Verbs
+r2chooseVBP
+r2useVB
+
+#Rule:HeadNoun-V
+r11peopleNNSchooseVBP
+
+#Rule:V-HeadNoun
+r21useVBcondomsNNS
+
+#Rule:PPinNP
+r26peopleNNSinINrelationshipNN
+
+#Rule:V-V
+r44chooseVBPuseVB
+
+#Rule:V-ADV
+r46chooseVBPOftenRB
+r46chooseVBPnotRB
+
+# If you are in a regular relationship with .
+#(S1 (FRAG (SBAR (IN If) (S (NP (PRP you)) (VP (AUX are) (PP (IN in) (NP (NP (DT a) (JJ regular) (NN relationship)) (PP (IN with))))))) (. .)))
+#Rule:Nouns
+r1relationshipNN
+
+#Rule:Adjs
+r4regularJJ
+
+#Rule:Adj-Noun
+r5regularJJrelationshipNN
+
+#Rule:HeadNoun-V
+r11youPRPareAUX
+
+#Rule:PPinVP
+r30areAUXinINrelationshipNN
+
+# www.
+#(S1 (INTJ (UH www) (. .)))
+#health.
+#(S1 (FRAG (NP (NN health)) (. .)))
+#Rule:Nouns
+r1healthNN
+
+#nsw.gov.
+#(S1 (X (NNP nsw.gov) (. .)))
+#Rule:Nouns
+r1nsw.gov.LocationAnnotation
+
+#au/sexualhealth/staysafe.
+#(S1 (S (VP (VB au/sexualhealth/staysafe)) (. .)))
+#Rule:Verbs
+r2au/sexualhealth/staysafeVB
+
+#html FRONTLINE/WORLD .
+#(S1 (S (NP (NNP html)) (VP (VBD FRONTLINE/WORLD)) (. .)))
+#Rule:Nouns
+r1htmlNNP
+
+#Rule:Verbs
+r2FRONTLINE/WORLDOrganizationAnnotation
+
+#Rule:HeadNoun-V
+r11htmlNNPFRONTLINE/WORLDOrganizationAnnotation
+
+# Rough Cut .
+#(S1 (INTJ (JJ Rough) (NN Cut) (. .)))
+#Rule:Nouns
+r1Cut .LocationAnnotation
+
+#Rule:Adjs
+r4RoughJJ
+
+# Uganda: The Condom Controversy | PBS.
+#(S1 (FRAG (NP (NNP Uganda)) (: :) (S (NP (DT The) (NN Condom) (NN Controversy)) (VP (VBZ |) (NP (NNP PBS)))) (. .)))
+#Rule:Nouns
+r1UgandaLocationAnnotation
+r1CondomNN
+r1ControversyNN
+r1PBSLocationAnnotation
+
+#Rule:Verbs
+r2|VBZ
+
+#Rule:N-HeadNoun
+r8CondomNNControversyNN
+
+#Rule:HeadNoun-V
+r11ControversyNN|VBZ
+
+#Rule:V-HeadNoun
+r21|VBZPBSLocationAnnotation
+
+# MUST use a condom.
+#(S1 (S (VP (MD MUST) (VP (VB use) (NP (DT a) (NN condom)))) (. .)))
+#Rule:Nouns
+r1condomNN
+
+#Rule:Verbs
+r2useVB
+
+#Rule:V-HeadNoun
+r21useVBcondomNN
+
+# I don t know why we can t have both!
+#(S1 (S (NP (PRP I)) (VP (VB don) (S (NP (NNS t)) (VP (VB know) (SBAR (WHADVP (WRB why)) (S (NP (PRP we)) (VP (MD can) (RB t) (VP (AUX have) (NP (DT both))))))))) (. !)))
+#Rule:Nouns
+r1tNNS
+
+#Rule:Verbs
+r2donVB
+r2knowVB
+
+#Rule:HeadNoun-V
+r11iPRPdonVB
+r11tNNSknowVB
+r11wePRPhaveAUX
+
+#Rule:V-HeadNoun
+r21haveAUXbothDT
+
+#Rule:V-HeadNoun
+r22donVBtNNS
+
+# So that the abstinence people .
+#(S1 (FRAG (RB So) (RB that) (NP (DT the) (NN abstinence) (NNS people)) (. .)))
+#Rule:Nouns
+r1abstinenceNN
+r1peopleNNS
+
+#Rule:N-HeadNoun
+r8abstinenceNNpeopleNNS
+
+# or not people choose to .
+#(S1 (S (CC or) (RB not) (NP (NNS people)) (VP (VBP choose) (S (VP (TO to)))) (. .)))
+#Rule:Nouns
+r1peopleNNS
+
+#Rule:Verbs
+r2chooseVBP
+
+#Rule:HeadNoun-V
+r11peopleNNSchooseVBP
+
+# young people, I do not hesitate to insist on the use of condoms .
+#(S1 (S (NP (JJ young) (NNS people)) (, ,) (NP (PRP I)) (VP (AUX do) (RB not) (VP (VB hesitate) (S (VP (TO to) (VP (VB insist) (PP (IN on) (NP (NP (DT the) (NN use)) (PP (IN of) (NP (NNS condoms)))))))))) (. .)))
+#Rule:Nouns
+r1peopleNNS
+r1useNN
+r1condomsNNS
+
+#Rule:Verbs
+r2hesitateVB
+r2insistVB
+
+#Rule:Adjs
+r4youngJJ
+
+#Rule:Adj-Noun
+r5youngJJpeopleNNS
+
+#Rule:HeadNoun-V
+r11peopleNNShesitateVB
+r11iPRPhesitateVB
+
+#Rule:PPinNP
+r26useNNofINcondomsNNS
+
+#Rule:PPinVP
+r30insistVBonINuseNN
+
+#Rule:V-V
+r44hesitateVBinsistVB
+
+#Rule:V-ADV
+r46doAUXnotRB
+
+# www.
+#(S1 (INTJ (UH www) (. .)))
+#pbs.org/frontlineworld/rough/2007/07/uganda_the_cond.
+#(S1 (S (VP (VB pbs.org/frontlineworld/rough/2007/07/uganda_the_cond)) (. .)))
+#Rule:Verbs
+r2pbs.org/frontlineworld/rough/2007/07/uganda_the_condVB
+
+#htmlSTD s and Condoms.
+#(S1 (S (VP (VB htmlSTD) (NP (NP (PRP s)) (CC and) (NP (NNS Condoms)))) (. .)))
+#Rule:Nouns
+r1htmlSTD s and CondomsOrganizationAnnotation
+
+# you understand why it s important to use condoms .
+#(S1 (S (NP (PRP you)) (VP (VB understand) (SBAR (WHADVP (WRB why)) (S (NP (PRP it)) (VP (VBZ s) (ADJP (JJ important) (S (VP (TO to) (VP (VB use) (NP (NNS condoms)))))))))) (. .)))
+#Rule:Nouns
+r1condomsNNS
+
+#Rule:Verbs
+r2understandVB
+r2sVBZ
+r2useVB
+
+#Rule:Adjs
+r4importantJJ
+
+#Rule:HeadNoun-V
+r11youPRPunderstandVB
+r11itPRPsVBZ
+
+#Rule:V-HeadNoun
+r21useVBcondomsNNS
+
+# That s why some people think .
+#(S1 (S (NP (DT That)) (VP (VBZ s) (SBAR (WHADVP (WRB why)) (S (NP (DT some) (NNS people)) (VP (VBP think))))) (. .)))
+#Rule:Nouns
+r1peopleNNS
+
+#Rule:Verbs
+r2sVBZ
+r2thinkVBP
+
+#Rule:HeadNoun-V
+r11thatDTsVBZ
+r11peopleNNSthinkVBP
+
+# you should choose to NOT have sex at all.
+#(S1 (S (NP (PRP you)) (VP (MD should) (VP (VB choose) (S (VP (TO to) (RB NOT) (VP (AUX have) (NP (NN sex)) (ADVP (IN at) (DT all))))))) (. .)))
+#Rule:Nouns
+r1sexNN
+
+#Rule:Verbs
+r2chooseVB
+
+#Rule:HeadNoun-V
+r11youPRPchooseVB
+
+#Rule:V-HeadNoun
+r21haveAUXsexNN
+
+# But if you do have sex, be sure to use a condom that .
+#(S1 (S (CC But) (SBAR (IN if) (S (NP (PRP you)) (VP (AUX do) (VP (AUX have) (NP (NN sex)))))) (, ,) (VP (AUX be) (ADJP (JJ sure) (S (VP (TO to) (VP (VB use) (NP (DT a) (NN condom)) (NP (DT that))))))) (. .)))
+#Rule:Nouns
+r1sexNN
+r1condomNN
+
+#Rule:Verbs
+r2useVB
+
+#Rule:Adjs
+r4sureJJ
+
+#Rule:HeadNoun-V
+r11youPRPhaveAUX
+
+#Rule:V-HeadNoun
+r21haveAUXsexNN
+r21useVBcondomNN
+r21useVBthatDT
+
+#Rule:V-ADJ
+r25beAUXsureJJ
+
+# www.
+#(S1 (INTJ (UH www) (. .)))
+#fhma.
+#(S1 (NP (FW fhma) (. .)))
+#com/stds_and_condoms.
+#(S1 (S (VP (VBZ com/stds_and_condoms)) (. .)))
+#Rule:Verbs
+r2com/stds_and_condomsOrganizationAnnotation
+
+#htmCondoms  Reason: I don t use condoms.
+#(S1 (NP (NP (JJ htmCondoms) (NN Reason)) (: :) (S (NP (PRP I)) (VP (VB don) (SBAR (S (NP (NNS t)) (VP (VBP use) (NP (NNS condoms))))))) (. .)))
+#Rule:Nouns
+r1ReasonNN
+r1tNNS
+r1condomsNNS
+
+#Rule:Verbs
+r2donVB
+r2useVBP
+
+#Rule:Adjs
+r4htmCondomsOrganizationAnnotation
+
+#Rule:Adj-Noun
+r5htmCondomsOrganizationAnnotationReasonNN
+
+#Rule:HeadNoun-V
+r11iPRPdonVB
+r11tNNSuseVBP
+
+#Rule:V-HeadNoun
+r21useVBPcondomsNNS
+
+# Answer: OK.
+#(S1 (NP (NP (NN Answer)) (: :) (NP (UH OK)) (. .)))
+#Rule:Nouns
+r1AnswerNN
+
+# Then let s think of ways we can .
+#(S1 (S (RB Then) (VP (VB let) (S (NP (PRP s)) (VP (VB think) (PP (IN of) (NP (NP (NNS ways)) (SBAR (S (NP (PRP we)) (VP (MD can))))))))) (. .)))
+#Rule:Nouns
+r1waysNNS
+
+#Rule:Verbs
+r2letVB
+r2thinkVB
+
+#Rule:HeadNoun-V
+r11sPRPthinkVB
+
+#Rule:V-HeadNoun
+r22letVBsPRP
+
+#Rule:PPinVP
+r30thinkVBofINwaysNNS
+
+# Once you ve both agreed to use condoms, do something positive .
+#(S1 (S (SBAR (IN Once) (S (NP (PRP you)) (VP (VBP ve) (SBAR (S (NP (DT both)) (VP (VBD agreed) (S (VP (TO to) (VP (VB use) (NP (NNS condoms))))))))))) (, ,) (VP (AUX do) (NP (NP (NN something)) (ADJP (JJ positive)))) (. .)))
+#Rule:Nouns
+r1condomsNNS
+r1somethingNN
+
+#Rule:Verbs
+r2veVBP
+r2agreedVBD
+r2useVB
+
+#Rule:Adjs
+r4positiveJJ
+
+#Rule:Adj-Noun
+r5positiveJJsomethingNN
+
+#Rule:HeadNoun-V
+r11youPRPveVBP
+r11bothDTagreedVBD
+
+#Rule:V-HeadNoun
+r21useVBcondomsNNS
+r21doAUXsomethingNN
+
+#Rule:V-V
+r44agreedVBDuseVB
+
+#www.menstuff.
+#(S1 (S (VP (VB www.menstuff)) (. .)))
+#Rule:Verbs
+r2www.menstuffVB
+
+#org/issues/byissue/condoms.
+#(S1 (S (VP (VBZ org/issues/byissue/condoms)) (. .)))
+#Rule:Verbs
+r2org/issues/byissue/condomsVBZ
+
+#html Allstocks.
+#(S1 (NP (NNP html) (NNP Allstocks) (. .)))
+#Rule:Nouns
+r1htmlNNP
+r1AllstocksLocationAnnotation
+
+#Rule:N-HeadNoun
+r8htmlNNPAllstocksLocationAnnotation
+
+#com s Bulletin Board: Bush - Do Not Use Condoms .
+#(S1 (FRAG (NP (NNP com) (NNP s) (NNP Bulletin) (NNP Board)) (: :) (NP (NNP Bush)) (: -) (S (VP (AUX Do) (RB Not) (VP (VB Use) (NP (NNS Condoms))))) (. .)))
+#Rule:Nouns
+r1comNNP
+r1s Bulletin BoardOrganizationAnnotation
+r1BushPersonAnnotation
+r1Do Not Use CondomsOrganizationAnnotation
+
+#Rule:N-HeadNoun
+r8comNNPs Bulletin BoardOrganizationAnnotation
+
+# safe!
+#(S1 (INTJ (JJ safe) (. !)))
+#Rule:Adjs
+r4safeJJ
+
+# My advice to young people is to not have sex, or to use condoms, at least.
+#(S1 (S (NP (NP (PRP$ My) (NN advice)) (PP (TO to) (NP (JJ young) (NNS people)))) (VP (AUX is) (S (VP (TO to) (VP (RB not) (VP (AUX have) (NP (NN sex))) (, ,) (CC or) (VP (TO to) (VP (VB use) (NP (NP (NNS condoms)) (, ,) (ADVP (IN at) (JJS least))))))))) (. .)))
+#Rule:Nouns
+r1adviceNN
+r1peopleNNS
+r1sexNN
+r1condomsNNS
+
+#Rule:Verbs
+r2useVB
+
+#Rule:Adjs
+r4youngJJ
+r4leastJJS
+
+#Rule:Adj-Noun
+r5youngJJpeopleNNS
+
+#Rule:PRP-Noun
+r6myPRP$adviceNN
+
+#Rule:HeadNoun-V
+r11adviceNNisAUX
+
+#Rule:V-HeadNoun
+r21haveAUXsexNN
+r21useVBcondomsNNS
+
+#Rule:PPinNP
+r26adviceNNtoTOpeopleNNS
+
+# Teenage boys are more likely to have sex .
+#(S1 (S (NP (JJ Teenage) (NNS boys)) (VP (AUX are) (ADJP (RBR more) (JJ likely) (S (VP (TO to) (VP (AUX have) (NP (NN sex))))))) (. .)))
+#Rule:Nouns
+r1boysNNS
+r1sexNN
+
+#Rule:Adjs
+r4TeenageJJ
+r4likelyJJ
+
+#Rule:Adj-Noun
+r5TeenageJJboysNNS
+
+#Rule:HeadNoun-V
+r11boysNNSareAUX
+
+#Rule:V-HeadNoun
+r21haveAUXsexNN
+
+#Rule:V-ADJ
+r25areAUXlikelyJJ
+
+#www.allstocks.
+#(S1 (INTJ (UH www.allstocks) (. .)))
+#com/stockmessageboard/ubb/ultimatebb.
+#(S1 (S (VP (VB com/stockmessageboard/ubb/ultimatebb)) (. .)))
+#Rule:Verbs
+r2com/stockmessageboard/ubb/ultimatebbOrganizationAnnotation
+
+#php/Catholic Church says it s not right to use condoms to fight AIDS. .  Catholic Church says it s not right to use condoms to fight AIDS. . all and end all for their life, but for right now, I m not one of .
+#(S1 (S (S (NP (NNP php/Catholic) (NNP Church)) (VP (VBZ says) (SBAR (S (NP (PRP it)) (VP (VBZ s) (ADJP (RB not) (JJ right) (S (VP (TO to) (VP (VB use) (NP (NNS condoms)) (S (VP (TO to) (VP (VB fight) (NP (NNPS AIDS.))))))))))))) (. .)) (NP (NNP Catholic) (NNP Church)) (VP (VBZ says) (SBAR (S (NP (PRP it)) (VP (VBZ s) (ADJP (RB not) (JJ right) (S (VP (TO to) (VP (VB use) (NP (NNS condoms)) (S (VP (TO to) (VP (VP (VB fight) (NP (NP (NNP AIDS.) (. .)) (NP (DT all)))) (CC and) (VP (VB end) (NP (NP (DT all)) (PP (IN for) (NP (PRP$ their) (NN life)))))))))))))))) (, ,) (CC but) (S (PP (IN for) (ADVP (RB right) (RB now))) (, ,) (NP (PRP I)) (NP (NP (NNP m) (RB not) (CD one)) (PP (IN of)))) (. .)))
+#Rule:Nouns
+r1php/Catholic ChurchOrganizationAnnotation
+r1condomsNNS
+r1AIDSNNPS
+r1Catholic ChurchOrganizationAnnotation
+r1condomsNNS
+r1AIDSNNP
+r1lifeNN
+r1mNNP
+
+#Rule:Verbs
+r2saysVBZ
+r2sVBZ
+r2useVB
+r2fightVB
+r2saysVBZ
+r2sVBZ
+r2useVB
+r2fightVB
+r2endVB
+
+#Rule:Adjs
+r4rightJJ
+r4rightJJ
+
+#Rule:Adj-Noun
+r5oneCDmNNP
+
+#Rule:PRP-Noun
+r6theirPRP$lifeNN
+
+#Rule:HeadNoun-V
+r11Catholic ChurchOrganizationAnnotationsaysVBZ
+r11php/Catholic ChurchOrganizationAnnotationsaysVBZ
+r11itPRPsVBZ
+r11itPRPsVBZ
+
+#Rule:V-HeadNoun
+r21useVBcondomsNNS
+r21fightVBAIDSNNPS
+r21useVBcondomsNNS
+r21fightVBAIDSNNP
+r21endVBallDT
+
+#Rule:PPinNP
+r26allDTforINlifeNN
+
+#Rule:V-V
+r44useVBfightVB
+
+#reddit.
+#(S1 (S (VP (VB reddit)) (. .)))
+#Rule:Verbs
+r2redditVB
+
+#com/info/22nwb/comments/c2321y Learning why some people just choose to NOT answer!! chat&forums.
+#(S1 (S (NP (NP (NNP com/info/22nwb/comments/c2321y) (NNP Learning)) (FRAG (SBAR (WHADVP (WRB why)) (S (NP (DT some) (NNS people)) (ADVP (RB just)) (VP (VBP choose) (S (VP (TO to) (RB NOT) (VP (VB answer))))) (. !))) (. !))) (VP (VBZ chat&forums)) (. .)))
+#Rule:Nouns
+r1com/info/22nwb/comments/c2321yNNP
+r1LearningNNP
+r1peopleNNS
+
+#Rule:Verbs
+r2chooseVBP
+r2NOT answer!!OrganizationAnnotation
+r2chat&forumsVBZ
+
+#Rule:N-HeadNoun
+r8com/info/22nwb/comments/c2321yNNPLearningNNP
+
+#Rule:HeadNoun-V
+r11LearningNNPchat&forumsVBZ
+r11peopleNNSchooseVBP
+
+#Rule:V-V
+r44chooseVBPNOT answer!!OrganizationAnnotation
+
+#Rule:V-ADV
+r46chooseVBPjustRB
+
+#  Thread: Learning why some people just choose to NOT answer!! . Islamic people are not the most tolerated at the best of times, never mind .
+#(S1 (S (S (FRAG (NP (NN Thread)) (: :) (FRAG (FRAG (NP (NNP Learning)) (SBAR (WHADVP (WRB why)) (S (NP (DT some) (NNS people)) (ADVP (RB just)) (VP (VBP choose) (S (VP (TO to) (RB NOT) (VP (VB answer))))))) (. !)) (. !)) (. .)) (NP (JJ Islamic) (NNS people)) (VP (AUX are) (RB not) (NP (DT the) (RBS most) (JJ tolerated)) (PP (IN at) (NP (NP (DT the) (JJS best)) (PP (IN of) (NP (NNS times))))))) (, ,) (ADVP (RB never)) (VP (VB mind)) (. .)))
+#Rule:Nouns
+r1ThreadNN
+r1LearningNNP
+r1peopleNNS
+r1peopleNNS
+r1timesNNS
+
+#Rule:Verbs
+r2chooseVBP
+r2NOT answer!!OrganizationAnnotation
+r2mindVB
+
+#Rule:Adjs
+r4IslamicJJ
+r4toleratedJJ
+r4bestJJS
+
+#Rule:Adj-Noun
+r5IslamicJJpeopleNNS
+
+#Rule:HeadNoun-V
+r11peopleNNSareAUX
+r11peopleNNSchooseVBP
+
+#Rule:V-HeadNoun
+r21areAUXtoleratedJJ
+
+#Rule:PPinNP
+r26bestJJSofINtimesNNS
+
+#Rule:PPinVP
+r30areAUXatINbestJJS
+
+#Rule:V-V
+r44chooseVBPNOT answer!!OrganizationAnnotation
+
+#Rule:V-ADV
+r46mindVBneverRB
+r46chooseVBPjustRB
+r46areAUXnotRB
+
+#forums.
+#(S1 (NP (NNS forums) (. .)))
+#Rule:Nouns
+r1forumsNNS
+
+#plentyoffish.
+#(S1 (S (VP (VB plentyoffish)) (. .)))
+#Rule:Verbs
+r2plentyoffishVB
+
+#com/usermessages.
+#(S1 (S (VP (VBZ com/usermessages)) (. .)))
+#Rule:Verbs
+r2com/usermessagesLocationAnnotation
+
+#aspx?
+#(S1 (INTJ (UH aspx) (. ?)))
+#user_Id=16274..AIDS/HIV: Preventing HIV infection  Some people choose not to use condoms in this situation.
+#(S1 (NP (NP (QP (CD user_Id=16274) (CD ..)) (NNS AIDS/HIV)) (: :) (NP (NP (VBG Preventing) (NNP HIV) (NN infection)) (SBAR (S (NP (DT Some) (NNS people)) (VP (VBP choose) (RB not) (S (VP (TO to) (VP (VB use) (NP (NNS condoms)) (PP (IN in) (NP (DT this) (NN situation)))))))))) (. .)))
+#Rule:Nouns
+r1AIDS/HIVNNS
+r1HIVNNP
+r1infectionNN
+r1peopleNNS
+r1condomsNNS
+r1situationNN
+
+#Rule:Verbs
+r2preventingVBG
+r2chooseVBP
+r2useVB
+
+#Rule:Adj-Noun
+r5user_Id=16274CDAIDS/HIVNNS
+r5..CDAIDS/HIVNNS
+r5preventingVBGinfectionNN
+
+#Rule:N-HeadNoun
+r8HIVNNPinfectionNN
+
+#Rule:HeadNoun-V
+r11peopleNNSchooseVBP
+
+#Rule:NP(NP(z) SBAR(S(NP(x)VP(y))))
+r19chooseVBPinfectionNN
+
+#Rule:V-HeadNoun
+r21useVBcondomsNNS
+
+#Rule:PPinVP
+r30useVBinINsituationNN
+
+#Rule:V-V
+r44chooseVBPuseVB
+
+#Rule:V-ADV
+r46chooseVBPnotRB
+
+# However, this is only a reliable way of avoiding HIV infection if you know that .
+#(S1 (S (ADVP (RB However)) (, ,) (NP (DT this)) (VP (AUX is) (NP (NP (RB only) (DT a) (JJ reliable) (NN way)) (PP (IN of) (S (VP (VBG avoiding) (NP (NNP HIV) (NN infection)) (SBAR (IN if) (S (NP (PRP you)) (VP (VBP know) (NP (DT that)))))))))) (. .)))
+#Rule:Nouns
+r1wayNN
+r1HIVNNP
+r1infectionNN
+
+#Rule:Verbs
+r2avoidingVBG
+r2knowVBP
+
+#Rule:Adjs
+r4reliableJJ
+
+#Rule:Adj-Noun
+r5reliableJJwayNN
+
+#Rule:N-HeadNoun
+r8HIVNNPinfectionNN
+
+#Rule:HeadNoun-V
+r11thisDTisAUX
+r11youPRPknowVBP
+
+#Rule:V-HeadNoun
+r21isAUXwayNN
+r21avoidingVBGinfectionNN
+r21knowVBPthatDT
+
+#Rule:V-IN-V
+r43avoidingVBGifINknowVBP
+
+#Rule:V-ADV
+r46isAUXHoweverRB
+
+#www.urban75.
+#(S1 (FRAG (NP (CD www.urban75)) (. .)))
+#com/Health/hiv_infec.
+#(S1 (NP (FW com/Health/hiv_infec) (. .)))
+#htmlCondom Brochure, FDA OSHI HIV STDsThat s why some people think that other forms of birth .
+#(S1 (S (NP (NP (NN htmlCondom) (NN Brochure)) (, ,) (NP (NNP FDA) (NNP OSHI) (NNP HIV) (NNP STDsThat))) (VP (VBZ s) (SBAR (WHADVP (WRB why)) (S (NP (DT some) (NNS people)) (VP (VBP think) (SBAR (IN that) (S (NP (NP (JJ other) (NNS forms)) (PP (IN of) (NP (NN birth)))))))))) (. .)))
+#Rule:Nouns
+r1htmlCondom BrochureOrganizationAnnotation
+r1FDA OSHI HIV STDsThatOrganizationAnnotation
+r1peopleNNS
+r1formsNNS
+r1birthNN
+
+#Rule:Verbs
+r2sVBZ
+r2thinkVBP
+
+#Rule:Adjs
+r4otherJJ
+
+#Rule:Adj-Noun
+r5otherJJformsNNS
+
+#Rule:N-ApposN
+r10htmlCondom BrochureOrganizationAnnotationFDA OSHI HIV STDsThatOrganizationAnnotation
+
+#Rule:HeadNoun-V
+r11htmlCondom BrochureOrganizationAnnotationsVBZ
+r11FDA OSHI HIV STDsThatOrganizationAnnotationsVBZ
+r11peopleNNSthinkVBP
+
+#Rule:PPinNP
+r26formsNNSofINbirthNN
+
+# yourself or your partner, you should choose to not have sex at all.
+#(S1 (S (NP (NP (PRP yourself)) (CC or) (NP (PRP$ your) (NN partner))) (, ,) (NP (PRP you)) (VP (MD should) (VP (VB choose) (S (VP (TO to) (RB not) (VP (AUX have) (NP (NN sex)) (ADVP (IN at) (DT all))))))) (. .)))
+#Rule:Nouns
+r1partnerNN
+r1sexNN
+
+#Rule:Verbs
+r2chooseVB
+
+#Rule:PRP-Noun
+r6yourPRP$partnerNN
+
+#Rule:HeadNoun-V
+r11yourselfPRPchooseVB
+r11partnerNNchooseVB
+r11youPRPchooseVB
+
+#Rule:V-HeadNoun
+r21haveAUXsexNN
+
+# But if you do have sex, be sure to use a condom .
+#(S1 (S (CC But) (SBAR (IN if) (S (NP (PRP you)) (VP (AUX do) (VP (AUX have) (NP (NN sex)))))) (, ,) (VP (AUX be) (ADJP (JJ sure) (S (VP (TO to) (VP (VB use) (NP (DT a) (NN condom))))))) (. .)))
+#Rule:Nouns
+r1sexNN
+r1condomNN
+
+#Rule:Verbs
+r2useVB
+
+#Rule:Adjs
+r4sureJJ
+
+#Rule:HeadNoun-V
+r11youPRPhaveAUX
+
+#Rule:V-HeadNoun
+r21haveAUXsexNN
+r21useVBcondomNN
+
+#Rule:V-ADJ
+r25beAUXsureJJ
+
+#www.fda.
+#(S1 (X (NNP www.fda) (. .)))
+#Rule:Nouns
+r1www.fda.LocationAnnotation
+
+#gov/oashi/aids/condom.
+#(S1 (NP (FW gov/oashi/aids/condom) (. .)))
+#htmlAdolescent AIDS Program: HIV and U?
+#(S1 (FRAG (NP (NNP htmlAdolescent) (NNP AIDS) (NNP Program)) (: :) (NP (NNP HIV) (CC and) (NNP U)) (. ?)))
+#Rule:Nouns
+r1htmlAdolescentNNP
+r1AIDSNNP
+r1ProgramNNP
+r1HIVNNP
+r1ULocationAnnotation
+
+#Rule:N-HeadNoun
+r8AIDSNNPProgramNNP
+r8htmlAdolescentNNPProgramNNP
+
+#My partner and I don?
+#(S1 (S (NP (PRP$ My) (NN partner) (CC and) (PRP I)) (VP (VB don)) (. ?)))
+#Rule:Nouns
+r1partnerNN
+
+#Rule:Verbs
+r2donVB
+
+#Rule:PRP-Noun
+r6myPRP$partnerNN
+
+#Rule:HeadNoun-V
+r11partnerNNdonVB
+
+#t sleep around, we trust each other, so we don?
+#(S1 (S (S (NP (NNS t)) (VP (VB sleep) (ADVP (RB around)))) (, ,) (S (NP (PRP we)) (VP (VBP trust) (NP (DT each) (JJ other)))) (, ,) (CC so) (S (NP (PRP we)) (VP (VB don))) (. ?)))
+#Rule:Nouns
+r1tNNS
+
+#Rule:Verbs
+r2sleepVB
+r2trustVBP
+r2donVB
+
+#Rule:Adjs
+r4otherJJ
+
+#Rule:HeadNoun-V
+r11tNNSsleepVB
+r11wePRPtrustVBP
+r11wePRPdonVB
+
+#Rule:V-HeadNoun
+r21trustVBPotherJJ
+
+#Rule:V-ADV
+r46sleepVBaroundRB
+
+#t need to use condoms any more.? Many people feel they?
+#(S1 (S (NP (NNS t)) (VP (AUX need) (S (VP (TO to) (VP (VB use) (NP (NNS condoms)) (S (NP (DT any) (ADJP (FW more.) (. ?)) (JJ Many) (NNS people)) (VP (VB feel) (NP (PRP they)))))))) (. ?)))
+#Rule:Nouns
+r1tNNS
+r1condomsNNS
+r1peopleNNS
+
+#Rule:Verbs
+r2useVB
+r2feelVB
+
+#Rule:Adjs
+r4ManyJJ
+
+#Rule:Adj-Noun
+r5ManyJJpeopleNNS
+
+#Rule:HeadNoun-V
+r11tNNSneedAUX
+r11peopleNNSfeelVB
+
+#Rule:V-HeadNoun
+r21useVBcondomsNNS
+r21feelVBtheyPRP
+
+#Rule:V-HeadNoun
+r22useVBpeopleNNS
+
+#re not at risk for HIV or other .
+#(S1 (FRAG (ADVP (NNP re)) (RB not) (PP (IN at) (NP (NP (NP (NN risk)) (PP (IN for) (NP (NNP HIV)))) (CC or) (NP (JJ other)))) (. .)))
+#Rule:Nouns
+r1reNNP
+r1riskNN
+r1HIVLocationAnnotation
+
+#Rule:Adjs
+r4otherJJ
+
+#Rule:PPinNP
+r26riskNNforINHIVLocationAnnotation
+
+#www.adolescentaids.
+#(S1 (INTJ (UH www.adolescentaids) (. .)))
+#org/youth/hiv_u.
+#(S1 (INTJ (UH org/youth/hiv_u) (. .)))
+#html  [Found on Google, Yahoo!
+#(S1 (S (NP (NNS html)) (VP (VBP [Found) (PP (IN on) (NP (NP (NNP Google)) (, ,) (NP (NNP Yahoo))))) (. !)))
+#Rule:Nouns
+r1html  [Found on GooglePersonAnnotation
+r1Yahoo!PersonAnnotation
+
+#Rule:N-ApposN
+r10html  [Found on GooglePersonAnnotationYahoo!PersonAnnotation
+
+# Search]why use condoms??How
+#(S1 (S (VP (VB Search) (ADJP (JJ -RSB-)) (SBAR (WHADVP (WRB why)) (S (VP (VBP use) (NP (NP (NNS condoms)) (VP (VBG ??) (NP (WRB How))))))))))
+#Rule:Nouns
+r1condomsNNS
+
+#Rule:Verbs
+r2SearchOrganizationAnnotation
+r2useVBP
+r2??VBG
+
+#Rule:Adjs
+r4]JJ
+
+#Rule:HeadNoun-V
+r11condomsNNS??VBG
+
+#Rule:V-HeadNoun
+r21useVBPcondomsNNS
+r21??VBGhowWRB
+
+#How to put on a condom Why use condoms . as men buy and carry condoms. And many people use them . being is not worth your sexual involvement. Benefits of Condom Usewww.feelconfident.co.uk/condoms/why_use_condoms.htmThe use of condoms in the presence of HIV risk: the role of economic .. that the use of latex condoms reduces the transmission of HIV during sexual intercourse. Many people, however, choose to not use condoms .www.popline.org/docs/1146/114191.html  [Found on Ask.com]good luck
+#(S1 (SBAR (WHADVP (WRB How)) (S (VP (TO to) (VP (VB put) (PRT (RP on)) (NP (NP (DT a) (NN condom)) (SBAR (WHADVP (WRB Why)) (S (VP (VBP use) (NP (NNS condoms)))))) (. .) (PP (IN as) (S (NP (NP (NNS men)) (SBAR (S (NP (VB buy) (CC and) (VB carry) (JJ condoms.) (CC And) (JJ many) (NNS people)) (VP (VBP use) (NP (PRP them))))) (. .) (AUXG being)) (VP (AUX is) (RB not) (PP (IN worth) (NP (NP (NP (PRP$ your) (JJ sexual) (NN involvement.) (NNS Benefits)) (PP (IN of) (NP (NP (NN Condom) (NNP Usewww.feelconfident.co.uk/condoms/why_use_condoms.htmThe) (NN use)) (PP (IN of) (NP (NP (NNS condoms)) (PP (IN in) (NP (NP (DT the) (NN presence)) (PP (IN of) (NP (NNP HIV) (NN risk)))))))))) (: :) (NP (NP (DT the) (NN role)) (PP (IN of) (ADJP (JJ economic)))) (. .)))) (. .))) (SBAR (IN that) (S (NP (NP (DT the) (NN use)) (PP (IN of) (NP (NN latex) (NNS condoms)))) (VP (VBZ reduces) (NP (NP (DT the) (NN transmission)) (PP (IN of) (NP (NNP HIV)))) (PP (IN during) (NP (NP (JJ sexual) (NNS intercourse.)) (SBAR (S (NP (JJ Many) (NNS people)) (, ,) (ADVP (RB however)) (, ,) (VP (VBP choose) (S (VP (TO to) (RB not) (VP (VB use) (NP (NNS condoms)) (S (VP (VBG .www.popline.org/docs/1146/114191.html) (NP (NN [Found)) (PP (IN on) (NP (NNP Ask.com) (JJ -RSB-) (JJ good) (NN luck)))))))))))))))))))))
+#Rule:Nouns
+r1condomNN
+r1condomsNNS
+r1menNNS
+r1peopleNNS
+r1involvementNN
+r1BenefitsNNS
+r1Condom UsewwwOrganizationAnnotation
+r1Usewww.feelconfident.co.uk/condoms/why_use_condoms.htmTheNNP
+r1useOrganizationAnnotation
+r1condomsNNS
+r1presenceNN
+r1HIVNNP
+r1riskNN
+r1roleNN
+r1useNN
+r1latexNN
+r1condomsNNS
+r1transmissionNN
+r1HIVNNP
+r1intercourseNNS
+r1peopleNNS
+r1condomsNNS
+r1[FoundNN
+r1Ask.comNNP
+r1luckNN
+
+#Rule:Verbs
+r2useVBP
+r2buyVB
+r2carryVB
+r2useVBP
+r2reducesVBZ
+r2chooseVBP
+r2useVB
+r2.www.popline.org/docs/1146/114191.htmlVBG
+
+#Rule:V-PRT
+r3putVBonRP
+
+#Rule:Adjs
+r4condomsJJ
+r4manyJJ
+r4sexualJJ
+r4economicJJ
+r4sexualJJ
+r4ManyJJ
+r4]JJ
+r4goodJJ
+
+#Rule:Adj-Noun
+r5condomsJJpeopleNNS
+r5manyJJpeopleNNS
+r5sexualJJBenefitsNNS
+r5sexualJJintercourseNNS
+r5ManyJJpeopleNNS
+r5]JJluckNN
+r5goodJJluckNN
+
+#Rule:PRP-Noun
+r6yourPRP$BenefitsNNS
+
+#Rule:N-HeadNoun
+r8involvementNNBenefitsNNS
+r8Usewww.feelconfident.co.uk/condoms/why_use_condoms.htmTheNNPuseOrganizationAnnotation
+r8Condom UsewwwOrganizationAnnotationuseOrganizationAnnotation
+r8HIVNNPriskNN
+r8latexNNcondomsNNS
+
+#Rule:HeadNoun-V
+r11menNNSisAUX
+r11peopleNNSuseVBP
+r11useNNreducesVBZ
+r11peopleNNSchooseVBP
+
+#Rule:HeadNoun-(who/that)-V
+r14condomNNuseVBP
+
+#Rule:NP(NP(z) SBAR(S(NP(x)VP(y))))
+r19chooseVBPintercourseNNS
+
+#Rule:V-HeadNoun
+r21putVBcondomNN
+r21useVBPcondomsNNS
+r21useVBPthemPRP
+r21reducesVBZtransmissionNN
+r21useVBcondomsNNS
+r21.www.popline.org/docs/1146/114191.htmlVBG[FoundNN
+
+#Rule:PPinNP
+r26BenefitsNNSofINuseOrganizationAnnotation
+r26useOrganizationAnnotationofINcondomsNNS
+r26condomsNNSinINpresenceNN
+r26presenceNNofINriskNN
+r26useNNofINcondomsNNS
+r26transmissionNNofINHIVNNP
+
+#Rule:PPinVP
+r30isAUXworthINBenefitsNNS
+r30isAUXworthINroleNN
+r30reducesVBZduringINintercourseNNS
+r30.www.popline.org/docs/1146/114191.htmlVBGon OrganizationAnnotationluckNN
+
+#Rule:(SBAR+WHADVP)inNP
+r41condomNNwhyWRBuseVBP
+
+#Rule:V-IN-V
+r43putVBthatINreducesVBZ
+
+#Rule:V-V
+r44chooseVBPuseVB
+
+#Rule:V-ADV
+r46isAUXnotRB
+r46chooseVBPhoweverRB
+
+@lemmas-left	reliable	causing	using	Rough	understand	don	fight	benefit	Bush	nsw.gov.	non-oxaynol	Usewww.feelconfident.co.uk/condoms/why_use_condoms.htmThe	time	intercourse	htmCondoms	co.uk/condoms/why_use_condoms	thread	role	partner	something	Catholic Church	Thread	right	Ask.com	Allstocks	Non-oxaynol	germs	answer	condoms.	sleep	.	transmission	Do	slvhealth	html  [Found on Google	www.fda.	HIV	we	ways	.www.popline.org/docs/1146/114191.html	com/stockmessageboard/ubb/ultimatebb	pbs.org/frontlineworld/rough/2007/07/uganda_the_cond	Teenage	use	reasons	AIDS/HIV	U	noticed	transform	life	times	]	ve	best	do	interesting	notice	html Using Condoms	FRONTLINE/WORLD	look	reduces	com/info/22nwb/comments/c2321y	safe	may	trust	AIDS	[Found	web	learning	m	young	i	relationship	narrow	intercourse.	t	fact	presence	s	latex	|	advice	y	agree	methods	com	provide	both	Condom Types&Condom	least	htmlSTD s and Condoms	good	AIDSFACT	infected	long	sizeshowever	surfaced	involvement.	usewww.feelconfident.co.uk/condoms/why_use_condoms.htmthe	htm	be	control	agreed	think	jsp	belief	Cut .	luck	likely	economic	reduce	that	com/stds_and_condoms	case	example	Benefits	religious	forum	sex	cites	re	teenage	controversy	condom	infection	men	all	feel	Learning	findarticles	regular	laboratory	you	Uganda	FDA OSHI HIV STDsThat	Condom	there	org/usecond	provided	html	boy	???	People	they	involvement	Search	birth	person	surface	reason	/common/standard/transform	motivation	insist	Islamic	avoiding	people	avoid	are	says	yourself	Adolescent	choose	carry	worth	topic	preventing	forums	form	drugs	htmlCondom Brochure	reddit	prevent	health	www.menstuff	cite	many	requestURI=/healthatoz/Atoz/dc/caz/repr/stds/stdhow	say	some	Use	hesitate	sex-	put	islamic	subject	Many	Clinical Laboratory Science	tolerated	abstinence	effective	clear	Facts	Motivations	boys	me	mind	situation	end	want	backup	aids.	s Bulletin Board	let	Answer	my	Yahoo!	healthy	method	chat&forums	disease-causing	user_Id=16274	beliefs	buy	ask.com	being	com/usermessages	used	plentyoffish	PBS	??	hiv	more	..	Program	positive	sure	au/sexualhealth/staysafe	germ	Male CondomIf	rough	org/issues/byissue/condoms	www.healthatoz.	program	contain	this	other	have	one	way	SizesHowever	htmladolescent	aidsfact	id	risk	tolerate	effectiveness	adolescent	Controversy	php/Catholic Church	ie	Condom Usewww	sexual	nonuse	forms	find	drug	net/~glen/compaqplus/rc_info	Reason	is	it	important	Do Not Use Condoms	your	know	pass	aids	org/hiv/hivinfo	NOT answer!!	requesturi=/healthatoz/atoz/dc/caz/repr/stds/stdhow	infect	luckSLVHD HIV OutreachPeople	condoms	insists	com/p/articles/mi_qa3890/is_200301/ai_n9233880/pg_2	htmlAdolescent	www.avert.	their	found	feelconfident	
+@lemmas-right	need	they	involvement	birth	understand	surface	don	benefit	fight	reason	motivation	insist	First	people	non-oxaynol	time	are	intercourse	role	on	says	partner	something	choose	worth	Allstocks	topic	Non-oxaynol	germs	form	how	drugs	always	sleep	transmission	not	them	say	HIV	some	ways	hesitate	subject	easily	use	Clinical Laboratory Science	tolerated	reasons	AIDS/HIV	effective	Facts	life	times	Motivations	Often	boys	ve	best	me	situation	want	FRONTLINE/WORLD	just	look	reduces	aids.	s Bulletin Board	trust	AIDS	correctly	[Found	web	learning	m	relationship	narrow	intercourse.	t	fact	presence	s	Yahoo!	method	chat&forums	down	|	advice	agree	methods	beliefs	both	buy	However	AIDSFACT	used	PBS	??	hiv	sizeshowever	surfaced	Program	sure	be	agreed	think	however	belief	luck	likely	Male CondomIf	germ	reduce	properly	that	program	often	contain	case	example	Benefits	forum	sex	other	have	about	way	SizesHowever	re	aidsfact	risk	tolerate	controversy	Controversy	condom	ie	infection	forms	all	Reason	drug	feel	Learning	is	it	FDA OSHI HIV STDsThat	know	pass	around	Condom	never	NOT answer!!	luckSLVHD HIV OutreachPeople	condoms	insists	boy	first	???	People	found	out	
+@lemmas-center	to	with	on 	for	at	about	in	because	that	of	during	if	on	worth	why	

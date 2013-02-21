@@ -1,0 +1,435 @@
+BE: stopVB
+EQ class: haltvb	
+
+BE: worryingVBG
+EQ class: worryvbg	
+
+BE: excessiveJJ
+EQ class: unduejj	unreasonablejj	inordinatejj	excessivenessnn	
+
+BE: worryingVBGexcessiveJJ
+EQ class: worriernnofinunduejj	worrynnofininordinatejj	inconveniencennofininordinatejj	troublesomenessnnofinexcessivenessnn	troublesomenessnnofinunreasonablejj	worryvbginordinatejj	worrimentnnofinexcessivejj	fuss-budgetnnofininordinatejj	worryingvbgunduejj	worryvbgunduejj	troublesomenessnnofininordinatejj	worryvbgunreasonablejj	worrywartnnofinunreasonablejj	headachennofinunreasonablejj	vexationnnofinunreasonablejj	troublesomenessnnofinunduejj	vexationnnofinunduejj	concernnnofinexcessivenessnn	headachennofinunduejj	fuss-budgetnnofinunduejj	worriernnofinexcessivenessnn	worrimentnnofinunduejj	worrimentnnofinunreasonablejj	headachennofininordinatejj	fusspotnnofinunduejj	worrimentnnofininordinatejj	vexationnnofinexcessivenessnn	worryingvbgexcessivenessnn	troublesomenessnnofinexcessivejj	inconveniencennofinexcessivejj	worrynnofinexcessivejj	concernnnofinunreasonablejj	fuss-budgetnnofinexcessivenessnn	worriernnofinunreasonablejj	fusspotnnofininordinatejj	worriernnofininordinatejj	worrynnofinexcessivenessnn	worrynnofinunreasonablejj	inconveniencennofinexcessivenessnn	worrywartnnofininordinatejj	fusspotnnofinexcessivenessnn	inconveniencennofinunduejj	headachennofinexcessivenessnn	fuss-budgetnnofinexcessivejj	vexationnnofinexcessivejj	worryvbgexcessivejj	concernnnofinunduejj	worriernnofinexcessivejj	fuss-budgetnnofinunreasonablejj	worryvbgexcessivenessnn	fusspotnnofinexcessivejj	worryingvbginordinatejj	headachennofinexcessivejj	worrywartnnofinexcessivenessnn	worrimentnnofinexcessivenessnn	worryingvbgunreasonablejj	concernnnofininordinatejj	vexationnnofininordinatejj	worrywartnnofinexcessivejj	worrynnofinunduejj	concernnnofinexcessivejj	fusspotnnofinunreasonablejj	worrywartnnofinunduejj	inconveniencennofinunreasonablejj	
+
+BE: stopVBexcessiveJJ
+EQ class: stopvbinordinatejj	stopnnofinunduejj	stopvbexcessivenessnn	haltvbunreasonablejj	stopnnofinexcessivejj	haltvbunduejj	haltnnofininordinatejj	haltnnofinunreasonablejj	stopvbunduejj	haltvbexcessivejj	haltnnofinexcessivenessnn	stopnnofinexcessivenessnn	haltvbinordinatejj	stopvbunreasonablejj	haltvbexcessivenessnn	haltnnofinexcessivejj	stopnnofininordinatejj	stopnnofinunreasonablejj	haltnnofinunduejj	
+
+BE: ProzacOrganizationAnnotation
+EQ class: 
+
+BE: eatingNN
+EQ class: feedingnn	
+
+BE: disorderNN
+EQ class: upsetnn	
+
+BE: usedVBD
+EQ class: employvbd	utilizevbd	utilisevbd	usevbd	applyvbd	
+
+BE: shortJJ
+EQ class: shortnessnn	
+
+BE: eatingNNdisorderNN
+EQ class: disordernnofineatingnn	eatingnnupsetnn	feedingnnofinupsetnn	upsetnnofineatingnn	eatingnnofindisordernn	feedingnnofindisordernn	upsetnneatvb	upsetnnofinfeedingnn	eaternnofindisordernn	feedingnndisordernn	feedernnofindisordernn	eatingnnofinupsetnn	disordernnofinfeedingnn	feedingnnupsetnn	disordernneatvb	feedernnofinupsetnn	eaternnofinupsetnn	
+
+BE: beAUXonINProzacOrganizationAnnotation
+EQ class: 
+
+BE: beAUXforINdisorderNN
+EQ class: beauxforinupsetnn	
+
+BE: talkNN
+EQ class: talkingnn	
+
+BE: doctorNN
+EQ class: physiciannn	dr.nn	doctorialjj	docnn	mediconn	mdnn	
+
+BE: partNN
+EQ class: constituentnn	componentnn	component_partnn	partialjj	portionnn	
+
+BE: conditionNN
+EQ class: statusnn	
+
+BE: stoppedVBD
+EQ class: haltvbd	stopvbd	
+
+BE: worryingVBG
+EQ class: worryvbg	
+
+BE: revealedVBD
+EQ class: revealvbd	unveilvbd	uncovervbd	bring_outvbd	
+
+BE: worryingVBG
+EQ class: worryvbg	
+
+BE: briefJJ
+EQ class: brevitynn	briefnessnn	
+
+BE: underlyingJJ
+EQ class: inherentjj	implicit_injj	
+
+BE: mentalJJ
+EQ class: mentalitynn	
+
+BE: worryingJJ
+EQ class: disturbingjj	troublingjj	distressfuljj	distressingjj	perturbingjj	worrisomejj	
+
+BE: briefJJtalkNN
+EQ class: brevitynntalknn	briefnessnntalkingnn	briefjjtalkingnn	talkvbbrieflyrb	speakvbbrieflyrb	brevitynntalkingnn	briefnessnntalknn	
+
+BE: underlyingJJconditionNN
+EQ class: inherentjjstatusnn	underlyingjjstatusnn	inherentjjconditionnn	implicit_injjstatusnn	implicit_injjconditionnn	
+
+BE: mentalJJconditionNN
+EQ class: mentalitynnconditionnn	conditionvbmentallyrb	mentalitynnstatusnn	mentaljjstatusnn	
+
+BE: myPRP$worryingVBG
+EQ class: headachennofinmyprp$	vexationnnofinmyprp$	worrimentnnofinmyprp$	concernnnofinmyprp$	troublesomenessnnofinmyprp$	worriernnofinmyprp$	worrywartnnofinmyprp$	fuss-budgetnnofinmyprp$	myprp$worryvbg	inconveniencennofinmyprp$	worrynnofinmyprp$	worryingvbgofinmyprp$	fusspotnnofinmyprp$	worryvbgofinmyprp$	
+
+BE: iPRPstoppedVBD
+EQ class: iprpstopvbd	stopnnofiniprp	haltnnofiniprp	iprphaltvbd	
+
+BE: iPRPworryingVBG
+EQ class: troublesomenessnnofiniprp	concernnnofiniprp	headachennofiniprp	worrimentnniprp	fusspotnnofiniprp	troublesomenessnniprp	worrywartnniprp	inconveniencennofiniprp	fuss-budgetnnofiniprp	inconveniencenniprp	fuss-budgetnniprp	worrynnofiniprp	fusspotnniprp	worrimentnnofiniprp	iprpworryvbg	vexationnnofiniprp	worriernnofiniprp	worrywartnnofiniprp	worriernniprp	
+
+BE: talkNNrevealedVBD
+EQ class: talknnunveilvbd	talknnuncovervbd	talkingnnbring_outvbd	talkingnnrevealvbd	talkingnnunveilvbd	talkingnnrevealedvbd	talknnbring_outvbd	talkingnnuncovervbd	talknnrevealvbd	
+
+BE: worryingVBGbeAUX
+EQ class: fuss-budgetnnofinbeaux	troublesomenessnnofinbeaux	worryvbgbeaux	fusspotnnofinbeaux	worrynnofinbeaux	vexationnnofinbeaux	inconveniencennofinbeaux	headachennofinbeaux	worrywartnnofinbeaux	worriernnofinbeaux	worrimentnnofinbeaux	concernnnofinbeaux	
+
+BE: beAUXpartNN
+EQ class: beauxpartialjj	beauxcomponentnn	beauxportionnn	beauxcomponent_partnn	beauxconstituentnn	
+
+BE: talkNNwithINdoctorNN
+EQ class: mediconntalkingnn	talkingnnwithinphysiciannn	doctornntalkingnn	talknnwithindr.nn	doctornntalkvb	speakvbdoctorialjj	talkvbdoctorialjj	talkvbmdnn	talkingnnwithindoctorialjj	speakvbdoctornn	dr.nntalknn	mediconntalknn	doctornnspeakvb	doctorialjjtalkingnn	talknnwithinmediconn	talkvbdoctornn	dr.nntalkvb	talknnwithindoctorialjj	speakvbmediconn	docnntalkingnn	talkvbmediconn	talkingnnwithinmediconn	speakvbdr.nn	talkingnnwithindr.nn	mediconntalkvb	physiciannntalkingnn	dr.nntalkingnn	physiciannntalknn	mdnnspeakvb	docnntalknn	talkingnnwithindocnn	speakvbdocnn	doctorialjjspeakvb	docnntalkvb	docnnspeakvb	mediconnspeakvb	mdnntalkingnn	speakvbmdnn	dr.nnspeakvb	physiciannnspeakvb	talkvbphysiciannn	talkingnnwithindoctornn	talkingnnwithinmdnn	talknnwithinphysiciannn	doctorialjjtalknn	doctorialjjtalkvb	speakvbphysiciannn	doctornntalknn	talknnwithinmdnn	mdnntalknn	mdnntalkvb	talkvbdr.nn	physiciannntalkvb	talknnwithindocnn	talkvbdocnn	
+
+BE: partNNofINconditionNN
+EQ class: conditionnncomponentnn	conditionnnpartialjj	partialvbstatusnn	conditionnncomponent_partnn	component_partnnofinstatusnn	statusnncomponentnn	componentnnofinconditionnn	constituentnnofinstatusnn	statusnnpartnn	conditionnnpartnn	component_partnnofinconditionnn	conditionnnpartialvb	constituentnnofinconditionnn	portionnnofinstatusnn	statusnnconstituentnn	statusnnpartialvb	statusnnpartialjj	statusnncomponent_partnn	componentnnofinstatusnn	portionnnofinconditionnn	conditionnnportionnn	partialvbconditionnn	conditionnnconstituentnn	statusnnportionnn	partnnofinstatusnn	partialjjofinconditionnn	partialjjofinstatusnn	
+
+BE: revealedVBDthatINbeAUX
+EQ class: unveilvbdthatinbeaux	uncovervbdthatinbeaux	revealvbdthatinbeaux	bring_outvbdthatinbeaux	
+
+BE: worryingVBGsoRB
+EQ class: fusspotnnofinsorb	fuss-budgetnnofinsorb	worrynnofinsorb	headachennofinsorb	inconveniencennofinsorb	worriernnofinsorb	concernnnofinsorb	worrimentnnofinsorb	vexationnnofinsorb	troublesomenessnnofinsorb	worryvbgsorb	worrywartnnofinsorb	
+
+BE: worryingVBGmuchRB
+EQ class: fuss-budgetnnofinmuchrb	headachennofinmuchrb	worrywartnnofinmuchrb	worriernnofinmuchrb	inconveniencennofinmuchrb	fusspotnnofinmuchrb	vexationnnofinmuchrb	worrimentnnofinmuchrb	worryvbgmuchrb	worrynnofinmuchrb	troublesomenessnnofinmuchrb	concernnnofinmuchrb	
+
+BE: doctorNN
+EQ class: physiciannn	dr.nn	doctorialjj	docnn	mediconn	mdnn	
+
+BE: treatmentNN
+EQ class: interventionnn	
+
+BE: donLocationAnnotation
+EQ class: 
+
+BE: tNNP
+EQ class: thyminennp	
+
+BE: doctorsNNS
+EQ class: physiciannns	doctorialjj	mdnns	mediconns	theynns	docnns	doctornns	dr.nns	themnns	
+
+BE: contactNN
+EQ class: 
+
+BE: detailsNNS
+EQ class: inside_informationnns	theynns	themnns	
+
+BE: fellVBDoutRP
+EQ class: cut_downvbdoutrp	fallernnofinoutrp	fellnnofinoutrp	fellernnofinoutrp	dropvbdoutrp	loggernnofinoutrp	lumbermannnofinoutrp	hidennofinoutrp	strike_downvbdoutrp	lumberjacknnofinoutrp	
+
+BE: goingVBGbackRP
+EQ class: movevbgbackrp	locomotevbgbackrp	travelvbgbackrp	govbgbackrp	
+
+BE: oldJJ
+EQ class: oldnessnn	
+
+BE: otherJJ
+EQ class: 
+
+BE: comfortableJJ
+EQ class: comfortablenessnn	comfyjj	
+
+BE: oldJJdoctorNN
+EQ class: oldnessnndoctorialjj	oldjjdoctorialjj	oldnessnnphysiciannn	oldnessnndocnn	oldjjmdnn	oldjjphysiciannn	oldnessnndr.nn	oldjjdr.nn	oldnessnndoctornn	oldjjmediconn	oldnessnnmediconn	oldjjdocnn	oldnessnnmdnn	
+
+BE: otherJJdetailsNNS
+EQ class: otherjjinside_informationnns	otherjjtheynns	otherjjthemnns	
+
+BE: myPRP$doctorNN
+EQ class: myprp$dr.nn	myprp$mdnn	myprp$doctorialjj	dr.nnofinmyprp$	mdnnofinmyprp$	docnnofinmyprp$	myprp$doctorialvb	doctorvbmyprp$	myprp$docnn	doctorialvbmyprp$	sophisticatevbmyprp$	physiciannnofinmyprp$	doctorialjjofinmyprp$	doctor_upvbmyprp$	myprp$doctor_upvb	mediconnofinmyprp$	myprp$sophisticatevb	myprp$doctorvb	myprp$mediconn	doctornnofinmyprp$	myprp$physiciannn	
+
+BE: donLocationAnnotationtNNP
+EQ class: thyminennpofindonlocationannotation	donlocationannotationthyminennp	tnnpofindonlocationannotation	
+
+BE: contactNNdetailsNNS
+EQ class: themnnsget_throughvb	detailsnnsofincontactnn	themnnsreachvb	inside_informationnnscontactvb	inside_informationnnsget_throughvb	contactnnofindetailsnns	detailsnnsreachvb	theynnsreachvb	detailsnnsget_throughvb	contactnntheynns	inside_informationnnsreachvb	detailsnnsget_hold_ofvb	detailsnnscontactvb	contactnnofinthemnns	inside_informationnnsget_hold_ofvb	contactnninside_informationnns	theynnsget_throughvb	themnnscontactvb	contactnnthemnns	contactnnofininside_informationnns	themnnsofincontactnn	themnnsget_hold_ofvb	theynnscontactvb	theynnsofincontactnn	inside_informationnnsofincontactnn	theynnsget_hold_ofvb	contactnnofintheynns	
+
+BE: doctorsNNSdetailsNNS
+EQ class: themnnsdoctorvb	mdnnsdetailsnns	mdnnsinside_informationnns	mediconnsinside_informationnns	themnnsinside_informationnns	themnnsofinphysiciannns	dr.nnstheynns	mediconnsthemnns	detailsnnsofindoctornns	doctorialjjthemnns	detailsnnsofindocnns	doctorsnnsthemnns	theynnsdoctorvb	detailsnnsofindoctorsnns	theynnsofinphysiciannns	mediconnstheynns	dr.nnsthemnns	themnnsofindoctorialjj	themnnsofindr.nns	inside_informationnnsofinmdnns	inside_informationnnsofindr.nns	mdnnstheynns	detailsnnsofinmdnns	theynnstheynns	detailsnnsofindr.nns	physiciannnstheynns	inside_informationnnsofindocnns	themnnsdoctor_upvb	inside_informationnnsdoctor_upvb	doctorialjjinside_informationnns	theynnsofinmediconns	inside_informationnnsofindoctornns	docnnstheynns	physiciannnsinside_informationnns	inside_informationnnsdoctorvb	doctorialjjdetailsnns	doctorialjjtheynns	inside_informationnnsofinthemnns	doctorsnnstheynns	mdnnsthemnns	theynnsdetailsnns	theynnsdoctor_upvb	theynnssophisticatevb	doctornnstheynns	docnnsthemnns	themnnstheynns	themnnsthemnns	detailsnnsofinphysiciannns	inside_informationnnsofindoctorsnns	inside_informationnnsofinmediconns	doctornnsinside_informationnns	detailsnnsofindoctorialjj	theynnsofindocnns	inside_informationnnsofinphysiciannns	physiciannnsdetailsnns	theynnsofindoctorialjj	themnnssophisticatevb	theynnsinside_informationnns	themnnsofinthemnns	dr.nnsdetailsnns	inside_informationnnsofintheynns	mediconnsdetailsnns	physiciannnsthemnns	themnnsofinmdnns	themnnsofindoctornns	themnnsdetailsnns	detailsnnsofintheynns	theynnsofinmdnns	themnnsofintheynns	theynnsthemnns	themnnsofindoctorsnns	doctorsnnsinside_informationnns	theynnsofindoctornns	docnnsinside_informationnns	detailsnnssophisticatevb	doctornnsdetailsnns	detailsnnsofinthemnns	themnnsofindocnns	doctornnsthemnns	themnnsofinmediconns	detailsnnsofinmediconns	inside_informationnnssophisticatevb	theynnsofinthemnns	dr.nnsinside_informationnns	theynnsofindoctorsnns	theynnsofindr.nns	theynnsofintheynns	detailsnnsdoctor_upvb	inside_informationnnsofindoctorialjj	detailsnnsdoctorvb	docnnsdetailsnns	
+
+BE: iPRPfellVBD
+EQ class: iprpdropvbd	iprpcut_downvbd	fallernniprp	lumberjacknnofiniprp	lumberjacknniprp	fellernnofiniprp	loggernniprp	iprpstrike_downvbd	fellernniprp	loggernnofiniprp	hidennofiniprp	fellnnofiniprp	fallernnofiniprp	lumbermannniprp	lumbermannnofiniprp	
+
+BE: iPRPamAUX
+EQ class: iprpbeaux	
+
+BE: tNNPhaveAUX
+EQ class: thyminennphave_gotaux	wealthy_personnnofintnnp	havennofinthyminennp	thyminennpholdaux	tnnpholdaux	thyminennphaveaux	wealthy_personnnofinthyminennp	havennofintnnp	rich_personnnofinthyminennp	rich_personnnofintnnp	tnnphave_gotaux	
+
+BE: haveAUXdetailsNNS
+EQ class: holdauxtheynns	havennofintheynns	wealthy_personnnofintheynns	havennofinthemnns	rich_personnnofindetailsnns	holdauxthemnns	haveauxinside_informationnns	have_gotauxtheynns	haveauxtheynns	wealthy_personnnofinthemnns	wealthy_personnnofindetailsnns	rich_personnnofininside_informationnns	wealthy_personnnofininside_informationnns	holdauxinside_informationnns	haveauxthemnns	havennofininside_informationnns	holdauxdetailsnns	have_gotauxthemnns	have_gotauxinside_informationnns	have_gotauxdetailsnns	havennofindetailsnns	rich_personnnofintheynns	rich_personnnofinthemnns	
+
+BE: doctorNNoverINtreatmentNN
+EQ class: doctornnoverininterventionnn	treatmentnnmediconn	doctorialvbinterventionnn	treatmentnndocnn	treatmentnndoctorialjj	mediconnoverininterventionnn	doctorvbtreatmentnn	interventionnnmediconn	dr.nnoverintreatmentnn	docnnoverintreatmentnn	sophisticatevbtreatmentnn	treatmentnndoctorialvb	mdnnoverintreatmentnn	treatmentnnmdnn	doctorialvbtreatmentnn	mediconnoverintreatmentnn	interventionnndoctornn	doctor_upvbinterventionnn	treatmentnndoctornn	docnnoverininterventionnn	sophisticatevbinterventionnn	interventionnnmdnn	interventionnndoctorvb	doctorvbinterventionnn	treatmentnndr.nn	treatmentnnsophisticatevb	mdnnoverininterventionnn	physiciannnoverintreatmentnn	interventionnndoctor_upvb	doctor_upvbtreatmentnn	interventionnndoctorialjj	interventionnnphysiciannn	treatmentnndoctorvb	treatmentnndoctor_upvb	interventionnndoctorialvb	doctorialjjoverintreatmentnn	physiciannnoverininterventionnn	doctorialjjoverininterventionnn	treatmentnnphysiciannn	interventionnndr.nn	interventionnndocnn	dr.nnoverininterventionnn	interventionnnsophisticatevb	
+
+BE: fellVBDwithINdoctorNN
+EQ class: dropvbdwithindocnn	cut_downvbdwithindoctorialjj	dropvbdwithinphysiciannn	strike_downvbdwithinphysiciannn	fellvbdwithinmdnn	strike_downvbdwithindoctorialjj	strike_downvbdwithindocnn	cut_downvbdwithindr.nn	dropvbdwithindoctorialjj	dropvbdwithindr.nn	fellvbdwithindoctorialjj	fellvbdwithinmediconn	strike_downvbdwithindoctornn	cut_downvbdwithindoctornn	strike_downvbdwithinmediconn	cut_downvbdwithindocnn	dropvbdwithindoctornn	dropvbdwithinmediconn	dropvbdwithinmdnn	fellvbdwithinphysiciannn	strike_downvbdwithinmdnn	strike_downvbdwithindr.nn	cut_downvbdwithinphysiciannn	fellvbdwithindocnn	cut_downvbdwithinmediconn	cut_downvbdwithinmdnn	fellvbdwithindr.nn	
+
+BE: amAUXnotRB
+EQ class: beauxnotrb	
+
+BE: goingVBGthereRB
+EQ class: locomotevbgthererb	travelvbgthererb	movevbgthererb	govbgthererb	
+
+BE: lifeNN
+EQ class: 
+
+BE: tearsNNS
+EQ class: weepingnns	theynns	cryingnns	themnns	
+
+BE: thingNN
+EQ class: 
+
+BE: thingsNNS
+EQ class: theynns	themnns	
+
+BE: doorNN
+EQ class: 
+
+BE: timesNNS
+EQ class: theynns	themnns	
+
+BE: mNNP
+EQ class: meternnp	metrennp	
+
+BE: timeNN
+EQ class: clipnn	
+
+BE: helpNN
+EQ class: assistancenn	aidnn	assistnn	
+
+BE: worryingVBG
+EQ class: worryvbg	
+
+BE: interferingVBG
+EQ class: interferevbg	
+
+BE: goVB
+EQ class: locomotevb	movevb	travelvb	
+
+BE: checkVB
+EQ class: suss_outvb	look_intovb	check_overvb	go_overvb	check_outvb	check_up_onvb	check_intovb	
+
+BE: lockedVBN
+EQ class: lockvbn	
+
+BE: panicingVBG
+EQ class: panicvbg	
+
+BE: exhaustedVBD
+EQ class: wash_upvbd	beatvbd	exhaustvbd	tucker_outvbd	tuckervbd	
+
+BE: startVB
+EQ class: set_outvb	beginvb	get_downvb	commencevb	start_outvb	set_aboutvb	getvb	
+
+BE: lookingVBG
+EQ class: lookvbg	
+
+BE: carryVBonRP
+EQ class: carriernnofinonrp	bearernnofinonrp	transportvbonrp	toternnofinonrp	carrynnofinonrp	
+
+BE: excessiveJJ
+EQ class: unduejj	unreasonablejj	inordinatejj	excessivenessnn	
+
+BE: dailyJJ
+EQ class: day-to-dayjj	day-by-dayjj	day-after-dayjj	daynn	
+
+BE: smallestJJS
+EQ class: littlejjs	smalljjs	smallnessnn	
+
+BE: lateJJ
+EQ class: latenessnn	
+
+BE: sureJJ
+EQ class: surenessnn	certainjj	
+
+BE: dailyJJlifeNN
+EQ class: daynnlifenn	day-after-dayjjlifenn	day-by-dayjjlifenn	day-to-dayjjlifenn	
+
+BE: smallestJJSthingNN
+EQ class: smalljjsthingnn	smallnessnnthingnn	littlejjsthingnn	
+
+BE: 200CDtimesNNS
+EQ class: 200cdthemnns	2.0.0.cdtheynns	2.0.0.cdtimesnns	200cdtheynns	2.0.0.cdthemnns	
+
+BE: myPRP$lifeNN
+EQ class: lifennofinmyprp$	
+
+BE: worryingVBGinterferingVBG
+EQ class: inconveniencennofininterferingvbg	concernnnofininterventionnn	worryingvbginterferevbg	fuss-budgetnnofininterferevbg	inconveniencennofininterventionnn	headachennofininterferencenn	troublesomenessnnofininterventionnn	interventionnnworryingvbg	troublesomenessnnofininterferevbg	fuss-budgetnnofininterferencenn	vexationnnofininterferencenn	headachennofininterventionnn	fusspotnnofininterferencenn	concernnnofininterferencenn	fuss-budgetnnofininterventionnn	worryvbginterferingvbg	worrimentnnofininterferevbg	worrywartnnofininterferingvbg	interventionnnworryvbg	vexationnnofininterferevbg	inconveniencennofininterferevbg	headachennofininterferevbg	worriernnofininterferevbg	worrynnofininterventionnn	worrimentnnofininterventionnn	concernnnofininterferingvbg	fuss-budgetnnofininterferingvbg	worrimentnnofininterferencenn	worrywartnnofininterventionnn	troublesomenessnnofininterferingvbg	worriernnofininterferingvbg	vexationnnofininterventionnn	worrywartnnofininterferencenn	fusspotnnofininterventionnn	interferencennworryingvbg	worrynnofininterferevbg	worrynnofininterferencenn	vexationnnofininterferingvbg	concernnnofininterferevbg	worrimentnnofininterferingvbg	fusspotnnofininterferevbg	troublesomenessnnofininterferencenn	inconveniencennofininterferencenn	headachennofininterferingvbg	worriernnofininterventionnn	worryvbginterferevbg	worrynnofininterferingvbg	worrywartnnofininterferevbg	fusspotnnofininterferingvbg	worriernnofininterferencenn	interferencennworryvbg	
+
+BE: worryingVBGisAUX
+EQ class: worrynnofinisaux	fuss-budgetnnofinbeaux	worryvbgbeaux	vexationnnofinisaux	worriernnofinisaux	worryingvbgbeaux	concernnnofinisaux	troublesomenessnnofinbeaux	fusspotnnofinbeaux	worrynnofinbeaux	vexationnnofinbeaux	inconveniencennofinbeaux	worrimentnnofinisaux	worriernnofinbeaux	fuss-budgetnnofinisaux	worrywartnnofinisaux	worryvbgisaux	headachennofinbeaux	fusspotnnofinisaux	headachennofinisaux	troublesomenessnnofinisaux	inconveniencennofinisaux	worrywartnnofinbeaux	worrimentnnofinbeaux	concernnnofinbeaux	
+
+BE: iPRPhaveAUX
+EQ class: iprphave_gotaux	rich_personnnofiniprp	iprpholdaux	wealthy_personnnofiniprp	havennofiniprp	
+
+BE: iPRPexhaustedVBD
+EQ class: iprpbeatvbd	exhaustionnnofiniprp	iprptucker_outvbd	iprpexhaustvbd	iprpwash_upvbd	iprptuckervbd	exhaustionnniprp	
+
+BE: mNNPexhaustedVBD
+EQ class: metrennpbeatvbd	metrennpexhaustedvbd	metrennpwash_upvbd	exhaustionnnofinmeternnp	exhaustionnnmeternnp	meternnptuckervbd	metrennpexhaustvbd	meternnptucker_outvbd	metrennptucker_outvbd	mnnpbeatvbd	meternnpwash_upvbd	mnnpwash_upvbd	exhaustionnnmetrennp	exhaustionnnofinmetrennp	mnnptucker_outvbd	meternnpexhaustvbd	meternnpbeatvbd	exhaustionnnofinmnnp	metrennptuckervbd	mnnpexhaustvbd	mnnptuckervbd	meternnpexhaustedvbd	exhaustionnnmnnp	
+
+BE: iPRPcarryVB
+EQ class: carrynnofiniprp	carriernnofiniprp	toternniprp	bearernniprp	iprptransportvb	toternnofiniprp	bearernnofiniprp	carriernniprp	
+
+BE: lockedVBNtimesNNS
+EQ class: locknnofinthemnns	storage_lockernnofintheynns	cabinetnnofintheynns	lockvbntimesnns	storage_lockernnofintimesnns	storage_lockernnofinthemnns	cabinetnnofintimesnns	lockernnofintheynns	lockernnofinthemnns	lockedvbnthemnns	lockvbnthemnns	lockvbntheynns	locknnofintimesnns	cabinetnnofinthemnns	locknnofintheynns	lockernnofintimesnns	lockedvbntheynns	
+
+BE: exhaustedVBDtimeNN
+EQ class: exhaustionnnofintimenn	exhaustionnnofinclipnn	exhaustedvbdclipnn	wash_upvbdtimenn	tucker_outvbdtimenn	tuckervbdclipnn	tucker_outvbdclipnn	exhaustvbdclipnn	tuckervbdtimenn	beatvbdtimenn	beatvbdclipnn	wash_upvbdclipnn	exhaustvbdtimenn	
+
+BE: lockedVBNdoorNN
+EQ class: lockvbndoornn	cabinetnnofindoornn	storage_lockernnofindoornn	lockernnofindoornn	locknnofindoornn	
+
+BE: isAUXexcessiveJJ
+EQ class: beauxexcessivenessnn	isauxunreasonablejj	beauxinordinatejj	beauxunduejj	isauxinordinatejj	beauxexcessivejj	beauxunreasonablejj	isauxexcessivenessnn	isauxunduejj	
+
+BE: interferingVBGwithINlifeNN
+EQ class: interferevbgwithinlifenn	
+
+BE: carryVBlikeINthisDT
+EQ class: transportvblikeinthisdt	
+
+BE: lookingVBGforINhelpNN
+EQ class: lookvbgforinaidnn	lookvbgforinassistnn	lookingvbgforinaidnn	lookvbgforinhelpnn	lookingvbgforinassistnn	lookvbgforinassistancenn	lookingvbgforinassistancenn	
+
+BE: lateJJbecauseINhaveAUX
+EQ class: latenessnnbecauseinhaveaux	haveauxlatelyrb	latejjbecauseinhave_gotaux	holdauxlatelyrb	latejjbecauseinholdaux	latenessnnbecauseinhave_gotaux	have_gotauxlatelyrb	latenessnnbecauseinholdaux	
+
+BE: lockedVBNpanicingVBG
+EQ class: cabinetnnofinpanicvbg	locknnofinpanicvbg	lockernnofinpanicvbg	lockvbnpanicvbg	locknnofinpanicingvbg	storage_lockernnofinpanicingvbg	lockedvbnpanicvbg	storage_lockernnofinpanicvbg	cabinetnnofinpanicingvbg	lockernnofinpanicingvbg	lockvbnpanicingvbg	
+
+BE: isAUXnowRB
+EQ class: beauxnowrb	
+
+BE: panicingVBGsoRB
+EQ class: affrightnnofinsorb	panicvbgsorb	panicnnofinsorb	panickyjjofinsorb	terrornnofinsorb	
+
+BE: panicingVBGmuchRB
+EQ class: panicnnofinmuchrb	panickyjjofinmuchrb	affrightnnofinmuchrb	terrornnofinmuchrb	panicvbgmuchrb	
+
+BE: ProzacOrganizationAnnotation
+EQ class: 
+
+BE: mumNN
+EQ class: florists'_chrysanthemumnn	florist's_chrysanthemumnn	dendranthema_grandifloruomnn	chrysanthemum_morifoliumnn	
+
+BE: boyfriendNN
+EQ class: fellownn	swainnn	beaunn	young_mannn	
+
+BE: arenNNS
+EQ class: theynns	themnns	
+
+BE: likeVB
+EQ class: wishvb	carevb	
+
+BE: goVB
+EQ class: locomotevb	movevb	travelvb	
+
+BE: tOrganizationAnnotation
+EQ class: 
+
+BE: keenJJ
+EQ class: incisivejj	discriminatingjj	sharpjj	penetratingjj	keennessnn	knifelikejj	acutejj	piercingjj	penetrativejj	
+
+BE: boyfriendNNarenNNS
+EQ class: beaunntheynns	young_mannnthemnns	fellownntheynns	young_mannntheynns	boyfriendnnthemnns	swainnnarennns	beaunnarennns	fellownnthemnns	young_mannnarennns	boyfriendnntheynns	beaunnthemnns	fellownnarennns	swainnntheynns	swainnnthemnns	
+
+BE: iPRPlikeVB
+EQ class: iprpwishvb	iprpcarevb	
+
+BE: arenNNStOrganizationAnnotation
+EQ class: themnnstorganizationannotation	theynnstorganizationannotation	
+
+BE: mePRPdoAUX
+EQ class: meprpmakeaux	
+
+BE: doAUXthisDT
+EQ class: makeauxthisdt	
+
+BE: goVBonINProzacOrganizationAnnotation
+EQ class: travelvboninprozacorganizationannotation	locomotevboninprozacorganizationannotation	movevboninprozacorganizationannotation	
+
+BE: likeVBgoVB
+EQ class: likevbmovevb	likevblocomotevb	carevbmovevb	carevbgovb	wishvbmovevb	wishvbtravelvb	wishvblocomotevb	carevblocomotevb	wishvbgovb	likevbtravelvb	carevbtravelvb	
+
+BE: goVBbackRB
+EQ class: travelvbbackrb	movevbbackrb	locomotevbbackrb	
+
+BE: doctorNN
+EQ class: physiciannn	dr.nn	doctorialjj	docnn	mediconn	mdnn	
+
+BE: NewJJ
+EQ class: newnessnn	
+
+BE: therapistNN
+EQ class: healernn	
+
+BE: PrivateJJ
+EQ class: privatenessnn	
+
+BE: SelfNN
+EQ class: egonn	
+
+BE: bookNN
+EQ class: 
+
+BE: helpVB
+EQ class: aidvb	assistvb	
+
+BE: SelfNNhelpVB
+EQ class: helpernnofinselfnn	egonnassistvb	egonnaidvb	helpnnofinselfnn	aidnnofinegonn	selfnnassistvb	helpnnofinegonn	helpnnegonn	supporternnofinegonn	helpnnselfnn	helpernnofinegonn	supporternnegonn	helpernnegonn	assistantnnselfnn	assistantnnofinselfnn	aidnnofinselfnn	supporternnselfnn	supporternnofinselfnn	assistnnofinselfnn	assistancennofinegonn	assistantnnofinegonn	assistnnofinegonn	egonnhelpvb	selfnnaidvb	assistancennofinselfnn	helpernnselfnn	assistantnnegonn	
+
+BE: helpVBbookNN
+EQ class: aidvbbooknn	assistvbbooknn	supporternnofinbooknn	assistantnnofinbooknn	helpernnofinbooknn	assistancennofinbooknn	aidnnofinbooknn	helpnnofinbooknn	assistnnofinbooknn	
+
+BE: experiencesNNS
+EQ class: experientjj	theynns	experientialjj	experiencenns	themnns	
+
+BE: recommendationsNNS
+EQ class: theynns	recommendationnns	themnns	
+
+BE: welcomedVBD
+EQ class: welcomevbd	
+
+BE: personalJJ
+EQ class: 
+
+BE: personalJJexperiencesNNS
+EQ class: personaljjexperientjj	seevbpersonallyrb	experientialvbpersonallyrb	experientvbpersonallyrb	personaljjthemnns	go_throughvbpersonallyrb	personaljjexperientialjj	personaljjexperiencenns	personaljjtheynns	experiencevbpersonallyrb	
+
+BE: experiencesNNSwelcomedVBD
+EQ class: themnnswelcomedvbd	welcomennofinthemnns	experientjjwelcomevbd	welcomejjofinthemnns	welcomejjofinexperiencenns	experiencennswelcomevbd	welcomennofinexperiencesnns	welcomennofintheynns	welcomejjofinexperientjj	themnnswelcomevbd	welcomejjofinexperientialjj	theynnswelcomevbd	welcomennofinexperientjj	welcomennofinexperiencenns	experientialjjwelcomedvbd	welcomejjofinexperiencesnns	experientjjwelcomedvbd	welcomennofinexperientialjj	welcomejjofintheynns	theynnswelcomedvbd	experiencesnnswelcomevbd	experientialjjwelcomevbd	experiencennswelcomedvbd	
+
+BE: recommendationsNNSwelcomedVBD
+EQ class: welcomejjofinrecommendationsnns	themnnswelcomedvbd	welcomennofinthemnns	welcomejjofinthemnns	welcomennofinrecommendationnns	welcomennofintheynns	welcomejjofinrecommendationnns	themnnswelcomevbd	recommendationsnnswelcomevbd	welcomennofinrecommendationsnns	theynnswelcomevbd	recommendationnnswelcomedvbd	recommendationnnswelcomevbd	welcomejjofintheynns	theynnswelcomedvbd	
+
+BE: thankVB
+EQ class: give_thanksvb	
+
+BE: thankVByouPRP
+EQ class: give_thanksvbyouprp	
+

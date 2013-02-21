@@ -1,0 +1,86 @@
+#I think that is possible. So in avg you have to make 700/month..
+#(S1 (S (NP (PRP I)) (VP (VBP think) (SBAR (S (NP (DT that)) (VP (AUX is) (VP (VBG possible.) (SBAR (RB So) (S (PP (IN in) (NP (CD avg))) (NP (PRP you)) (VP (AUX have) (S (VP (TO to) (VP (VB make) (S (ADJP (JJ 700/month))))))) (. .)))))))) (. .)))
+#Rule:Verbs
+r2thinkVBP
+r2possibleVBG
+r2makeVB
+
+#Rule:Adjs
+r4700/monthJJ
+
+#Rule:HeadNoun-V
+r11iPRPthinkVBP
+r11thatDTpossibleVBG
+r11youPRPhaveAUX
+
+#Rule:PPinS
+r36haveAUXinINavgLocationAnnotation
+
+#I think if you dont have a great idea for business, just go work as a waiter in any restaurant. Especially those with good business, you are likely to make avg 60-70 dolalrs per night..
+#(S1 (S (S (NP (PRP I)) (VP (VBP think) (SBAR (IN if) (S (NP (PRP you)) (VP (VBP dont) (SBAR (S (VP (AUX have) (NP (DT a) (JJ great) (NN idea)) (PP (IN for) (NP (NN business))))))))))) (, ,) (ADVP (RB just)) (VP (VB go) (VP (VB work) (PP (IN as) (NP (NP (DT a) (NN waiter)) (PP (IN in) (NP (DT any) (NN restaurant.) (S (NP (NP (RB Especially) (DT those)) (PP (IN with) (NP (JJ good) (NN business)))) (, ,) (NP (PRP you)) (VP (AUX are) (ADJP (JJ likely) (S (VP (TO to) (VP (VB make) (NP (NP (QP (CD avg) (CD 60-70)) (NNS dolalrs)) (PP (IN per) (NP (NN night))))))))) (. .)))))))) (. .)))
+#Rule:Nouns
+r1ideaNN
+r1businessNN
+r1waiterNN
+r1restaurantNN
+r1businessNN
+r1dolalrsNNS
+r1nightNN
+
+#Rule:Verbs
+r2thinkVBP
+r2dontVBP
+r2goVB
+r2workVB
+r2makeVB
+
+#Rule:Adjs
+r4greatJJ
+r4goodJJ
+r4likelyJJ
+
+#Rule:Adj-Noun
+r5greatJJideaNN
+r5goodJJbusinessNN
+r5avgCDdolalrsNNS
+r560-70CDdolalrsNNS
+
+#Rule:HeadNoun-V
+r11iPRPthinkVBP
+r11youPRPdontVBP
+r11EspeciallyRBareAUX
+r11youPRPareAUX
+
+#Rule:V-HeadNoun
+r21haveAUXideaNN
+r21makeVBdolalrsNNS
+
+#Rule:V-ADJ
+r25areAUXlikelyJJ
+
+#Rule:PPinNP
+r26waiterNNinINrestaurantNN
+r26EspeciallyRBwithINbusinessNN
+r26dolalrsNNSperINnightNN
+
+#Rule:PPinVP
+r30haveAUXforINbusinessNN
+r30workVBasINwaiterNN
+
+#Rule:V-IN-V
+r43thinkVBPifINdontVBP
+
+#Rule:V-ADV
+r46goVBjustRB
+
+#Good luck !!
+#(S1 (INTJ (JJ Good) (NN luck) (. !) (. !)))
+#Rule:Nouns
+r1luckNN
+
+#Rule:Adjs
+r4GoodJJ
+
+@lemmas-left	Good	Especially	idea	have	good	restaurant	business	possible	are	especially	possible.	avg	waiter	restaurant.	be	work	think	luck	likely	60-70	you	700/month	i	dolalrs	that	great	dont	month	night	make	go	
+@lemmas-right	just	think	idea	have	likely	restaurant	business	dolalrs	possible	are	dont	night	possible.	avg	waiter	restaurant.	be	
+@lemmas-center	with	per	for	if	as	in	

@@ -1,0 +1,47 @@
+#Depends on your perspective, k@lled lots of people; made a big film!!!
+#(S1 (S (S (VP (VBZ Depends) (PP (IN on) (NP (PRP$ your) (NN perspective))))) (, ,) (NP (NNP k) (SYM @)) (VP (VP (VBN lled) (NP (NP (NNS lots)) (PP (IN of) (NP (NNS people))))) (: ;) (VP (VBN made) (NP (DT a) (JJ big) (NN film) (NN !!)))) (. !)))
+#Rule:Nouns
+r1perspectiveNN
+r1k@PersonAnnotation
+r1lotsNNS
+r1peopleNNS
+r1filmNN
+r1!!NN
+
+#Rule:Verbs
+r2dependsVBZ
+r2lledVBN
+r2madeVBN
+
+#Rule:Adjs
+r4bigJJ
+
+#Rule:Adj-Noun
+r5bigJJ!!NN
+
+#Rule:PRP-Noun
+r6yourPRP$perspectiveNN
+
+#Rule:N-HeadNoun
+r8filmNN!!NN
+
+#Rule:V-HeadNoun
+r21lledVBNlotsNNS
+r21madeVBN!!NN
+
+#Rule:V-HeadNoun(passive)
+r24lledVBNk@PersonAnnotation
+r24madeVBNk@PersonAnnotation
+
+#Rule:PPinNP
+r26lotsNNSofINpeopleNNS
+
+#Rule:PPinVP
+r30dependsVBZonINperspectiveNN
+
+#Rule:SubVerbClause
+r50k@PersonAnnotationdependsVBZ
+
+@lemmas-left	film	lots	depend	your	made	!!	people	lled	perspective	k@	depends	big	make	
+@lemmas-right	lots	depend	perspective	!!	depends	k@	people	
+@lemmas-center	of	on	

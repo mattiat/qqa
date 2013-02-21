@@ -1,0 +1,110 @@
+#How does a busy mother of 3 loose 10kg?????
+#(S1 (SBARQ (WHADVP (WRB How)) (SQ (AUX does) (NP (NP (DT a) (JJ busy) (NN mother)) (PP (IN of) (NP (CD 3) (JJ loose) (NNS 10kg)))) (VP (VB ????))) (. ?)))
+#Rule:Nouns
+r1motherNN
+r110kgNNS
+
+#Rule:Verbs
+r2????VB
+
+#Rule:Adjs
+r4busyJJ
+r4looseJJ
+
+#Rule:Adj-Noun
+r5busyJJmotherNN
+r53CD10kgNNS
+r5looseJJ10kgNNS
+
+#Rule:PPinNP
+r26motherNNofIN10kgNNS
+
+#I work full time during the day&my gym doesn t have a creche at night. 
+#(S1 (S (NP (PRP I)) (VP (VBP work) (NP (JJ full) (NN time)) (PP (IN during) (NP (NP (DT the) (JJ day&my) (NN gym)) (SBAR (S (NP (JJ doesn) (NNS t)) (VP (AUX have) (NP (DT a) (NN creche)) (PP (IN at) (NP (NN night))))))))) (. .)))
+#Rule:Nouns
+r1timeNN
+r1gymNN
+r1tNNS
+r1crecheNN
+r1nightNN
+
+#Rule:Verbs
+r2workVBP
+
+#Rule:Adjs
+r4fullJJ
+r4day&myOrganizationAnnotation
+r4doesnJJ
+
+#Rule:Adj-Noun
+r5fullJJtimeNN
+r5day&myOrganizationAnnotationgymNN
+r5doesnJJtNNS
+
+#Rule:HeadNoun-V
+r11iPRPworkVBP
+r11tNNShaveAUX
+
+#Rule:V-HeadNoun
+r21workVBPtimeNN
+r21haveAUXcrecheNN
+
+#Rule:PPinVP
+r30workVBPduringINgymNN
+r30haveAUXatINnightNN
+
+#My youngest is in bed at 7pm&i m not home from work till 6pm.  
+#(S1 (S (NP (PRP$ My) (JJS youngest)) (VP (AUX is) (PP (IN in) (NP (NN bed))) (PP (IN at) (S (VP (VBG 7pm&i) (NP (NNP m)) (ADVP (ADVP (RB not) (RB home)) (PP (IN from) (NP (NN work)))) (PP (IN till) (NP (NN 6pm))))))) (. .)))
+#Rule:Nouns
+r1bedNN
+r17pm&i mOrganizationAnnotation
+r1workNN
+r16pmNN
+
+#Rule:Adjs
+r4youngestJJS
+
+#Rule:PRP-Noun
+r6myPRP$youngestJJS
+
+#Rule:HeadNoun-V
+r11youngestJJSisAUX
+
+#Rule:PPinVP
+r30isAUXinINbedNN
+r307pm&i mOrganizationAnnotationtillIN6pmNN
+
+#Rule:V-ADV
+r467pm&i mOrganizationAnnotationnotRB
+r467pm&i mOrganizationAnnotationhomeRB
+
+#I don t have a partner living with me. very complicated i know.
+#(S1 (S (NP (PRP I)) (VP (VB don) (SBAR (S (NP (NNS t)) (VP (AUX have) (NP (NP (DT a) (NN partner)) (VP (VBG living) (PP (IN with) (NP (NP (FW me.)) (ADJP (RB very) (VBN complicated)) (SBAR (S (NP (PRP i)) (VP (VBP know)))))))))))) (. .)))
+#Rule:Nouns
+r1tNNS
+r1partnerNN
+
+#Rule:Verbs
+r2donVB
+r2livingVBG
+r2complicatedVBN
+r2knowVBP
+
+#Rule:Adj-Noun
+r5complicatedVBNmeFW
+
+#Rule:HeadNoun-V
+r11iPRPdonVB
+r11tNNShaveAUX
+r11partnerNNlivingVBG
+r11iPersonAnnotationknowVBP
+
+#Rule:V-HeadNoun
+r21haveAUXpartnerNN
+
+#Rule:PPinVP
+r30livingVBGwithINmeFW
+
+@lemmas-left	don	6pm	have	busy	complicated	loose	doesn	time	kg	????	full	youngest	partner	gym	live	be	work	complicate	day&my	is	bed	creche	10kg	living	know	young	my	7pm&i m	i	3	t	mother	pm	night	
+@lemmas-right	home	6pm	don	have	time	kg	youngest	partner	me	gym	be	me.	live	work	is	bed	creche	10kg	living	young	know	not	t	mother	pm	night	
+@lemmas-center	of	with	during	at	till	in	

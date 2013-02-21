@@ -1,0 +1,22 @@
+#how many weights do i have to pump to get muscles?
+#(S1 (SBARQ (WHNP (WHADJP (WRB how) (JJ many)) (NNS weights)) (SQ (AUX do) (NP (PRP i)) (VP (AUX have) (S (VP (TO to) (VP (VB pump) (S (VP (TO to) (VP (VB get) (NP (NNS muscles)))))))))) (. ?)))
+#Rule:Nouns
+r1weightsNNS
+r1musclesNNS
+
+#Rule:Verbs
+r2pumpVB
+r2getVB
+
+#Rule:Adjs
+r4manyJJ
+
+#Rule:V-HeadNoun
+r21getVBmusclesNNS
+
+#Rule:V-V
+r44pumpVBgetVB
+
+@lemmas-left	many	weight	get	weights	muscles	muscle	pump	
+@lemmas-right	get	muscles	muscle	
+@lemmas-center	

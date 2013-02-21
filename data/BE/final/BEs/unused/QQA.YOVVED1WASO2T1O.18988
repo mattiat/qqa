@@ -1,0 +1,85 @@
+#There are many reasons, among them the ability to teach   our children proper grammar, spelling and punctuation..
+#(S1 (S (NP (EX There)) (VP (AUX are) (NP (NP (JJ many) (NNS reasons)) (, ,) (SBAR (S (PP (IN among) (NP (PRP them))) (NP (DT the) (NN ability)) (VP (TO to) (VP (VB teach) (NP (PRP$ our) (NNS children)) (NP (JJ proper) (NN grammar) (, ,) (NN spelling) (CC and) (NN punctuation)))) (. .))))) (. .)))
+#Rule:Nouns
+r1reasonsNNS
+r1abilityNN
+r1childrenNNS
+r1grammarNN
+r1spellingNN
+r1punctuationNN
+
+#Rule:Verbs
+r2teachVB
+
+#Rule:Adjs
+r4manyJJ
+r4properJJ
+
+#Rule:Adj-Noun
+r5manyJJreasonsNNS
+r5properJJspellingNN
+
+#Rule:PRP-Noun
+r6ourPRP$childrenNNS
+
+#Rule:HeadNoun-V
+r11thereEXareAUX
+r11abilityNNteachVB
+
+#Rule:V-HeadNoun
+r21areAUXreasonsNNS
+r21teachVBchildrenNNS
+r21teachVBspellingNN
+
+#Rule:PPinS
+r36toTOamongINthemPRP
+
+#I m sure you will hear many, many other reasons, but that is the main one that came to mind when I read your question.
+#(S1 (S (NP (PRP I)) (ADJP (NNP m) (JJ sure)) (S (NP (PRP you)) (VP (MD will) (VP (VB hear) (NP (JJ many) (, ,) (JJ many) (JJ other) (NNS reasons))))) (, ,) (CC but) (S (NP (DT that)) (VP (AUX is) (NP (NP (DT the) (JJ main) (NN one)) (SBAR (WHNP (WDT that)) (S (VP (VBD came) (PP (TO to) (NP (NN mind))) (SBAR (WHADVP (WRB when)) (S (NP (PRP I)) (VP (VBP read) (NP (PRP$ your) (NN question))))))))))) (. .)))
+#Rule:Nouns
+r1mNNP
+r1reasonsNNS
+r1oneNN
+r1mindNN
+r1questionNN
+
+#Rule:Verbs
+r2hearVB
+r2cameVBD
+r2readVBP
+
+#Rule:Adjs
+r4sureJJ
+r4manyJJ
+r4manyJJ
+r4otherJJ
+r4mainJJ
+
+#Rule:Adj-Noun
+r5manyJJreasonsNNS
+r5manyJJreasonsNNS
+r5otherJJreasonsNNS
+r5mainJJoneNN
+
+#Rule:PRP-Noun
+r6yourPRP$questionNN
+
+#Rule:HeadNoun-V
+r11youPRPhearVB
+r11thatDTisAUX
+r11iPRPreadVBP
+
+#Rule:HeadNoun-(who/that)-V
+r14oneNNcameVBD
+
+#Rule:V-HeadNoun
+r21hearVBreasonsNNS
+r21isAUXoneNN
+r21readVBPquestionNN
+
+#Rule:PPinVP
+r30cameVBDtoTOmindNN
+
+@lemmas-left	to	other	reason	one	children	reasons	child	hear	are	read	proper	mind	question	ability	be	sure	is	your	spelling	come	you	m	came	teach	i	main	grammar	many	that	there	our	punctuation	
+@lemmas-right	is	reason	one	spelling	come	children	came	reasons	teach	child	hear	are	them	read	mind	question	be	
+@lemmas-center	to	among	

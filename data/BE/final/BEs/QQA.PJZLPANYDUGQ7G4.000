@@ -1,0 +1,25 @@
+#how do you get your abs to show without dieting?
+#(S1 (SBARQ (WHADVP (WRB how)) (SQ (AUX do) (NP (PRP you)) (VP (VB get) (NP (PRP$ your) (NNS abs)) (S (VP (TO to) (VP (VB show) (PP (IN without) (NP (NN dieting)))))))) (. ?)))
+#Rule:Nouns
+r1absNNS
+r1dietingNN
+
+#Rule:Verbs
+r2getVB
+r2showVB
+
+#Rule:PRP-Noun
+r6yourPRP$absNNS
+
+#Rule:V-HeadNoun
+r21getVBabsNNS
+
+#Rule:PPinVP
+r30showVBwithoutINdietingNN
+
+#Rule:V-V
+r44getVBshowVB
+
+@lemmas-left	dieting	abs	get	your	show	
+@lemmas-right	dieting	abs	show	
+@lemmas-center	without	

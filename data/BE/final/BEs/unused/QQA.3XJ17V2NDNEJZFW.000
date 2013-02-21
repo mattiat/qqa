@@ -1,0 +1,28 @@
+#How are plateaus formed??
+#(S1 (SBARQ (WHADVP (WRB How)) (SQ (AUX are) (ADJP (JJ plateaus) (JJ formed)) (. ?)) (. ?)))
+#Rule:Adjs
+r4plateausJJ
+r4formedJJ
+
+#Such as the ones in the desert Southwest of the U.S.
+#(S1 (NP (NP (JJ Such)) (PP (IN as) (NP (NP (DT the) (NNS ones)) (PP (IN in) (NP (NP (DT the) (NN desert) (NNP Southwest)) (PP (IN of) (NP (DT the) (NNP U.S.))))))) (. .)))
+#Rule:Nouns
+r1onesNNS
+r1desertNN
+r1SouthwestOrganizationAnnotation
+r1the U.S.LocationAnnotation
+
+#Rule:Adjs
+r4SuchJJ
+
+#Rule:N-HeadNoun
+r8desertNNSouthwestOrganizationAnnotation
+
+#Rule:PPinNP
+r26SuchJJasINonesNNS
+r26onesNNSinINSouthwestOrganizationAnnotation
+r26SouthwestOrganizationAnnotationofINthe U.S.LocationAnnotation
+
+@lemmas-left	plateaus	desert	such	the U.S.	plateau	one	formed	Such	ones	Southwest	
+@lemmas-right	the U.S.	one	ones	Southwest	
+@lemmas-center	of	as	in	

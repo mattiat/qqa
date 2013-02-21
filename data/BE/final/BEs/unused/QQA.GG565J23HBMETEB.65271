@@ -1,0 +1,93 @@
+#Have you watched the movie Sicko by Michael Moore? It really makes Canada s health care system look so great! It s about the USA s health care and it s a excellent movie. Some Americans think that our country stinks just because we are Canadian..
+#(S1 (S (SQ (AUX Have) (NP (PRP you)) (VP (VBD watched) (NP (DT the) (NN movie)) (NP (NNP Sicko)) (PP (IN by) (NP (NNP Michael) (NNP Moore)))) (. ?)) (S (NP (PRP It)) (ADVP (RB really)) (VP (VBZ makes) (S (NP (NNP Canada) (NNP s) (NN health) (NN care) (NN system)) (VP (VB look) (ADJP (RB so) (JJ great))))) (. !)) (NP (PRP It)) (VP (VBZ s) (PP (IN about) (NP (NP (DT the) (NNP USA) (NNP s) (NN health) (NN care)) (CC and) (S (NP (PRP it)) (VP (VBZ s) (NP (NP (DT a) (JJ excellent) (NN movie.)) (SBAR (S (NP (DT Some) (NNPS Americans)) (VP (VBP think) (SBAR (IN that) (S (NP (PRP$ our) (NN country)) (VP (VBZ stinks) (SBAR (ADVP (RB just)) (IN because) (S (NP (PRP we)) (VP (AUX are) (ADJP (JJ Canadian))))))))))))) (. .))))) (. .)))
+#Rule:Nouns
+r1movieNN
+r1SickoNNP
+r1Michael MoorePersonAnnotation
+r1CanadaLocationAnnotation
+r1sNNP
+r1healthNN
+r1careNN
+r1systemNN
+r1USAOrganizationAnnotation
+r1sNNP
+r1healthNN
+r1careNN
+r1movieNN
+r1AmericansNNPS
+r1countryNN
+
+#Rule:Verbs
+r2watchedVBD
+r2makesVBZ
+r2lookVB
+r2sVBZ
+r2sVBZ
+r2thinkVBP
+r2stinksVBZ
+
+#Rule:Adjs
+r4greatJJ
+r4excellentJJ
+r4Canadian..OrganizationAnnotation
+
+#Rule:Adj-Noun
+r5excellentJJmovieNN
+
+#Rule:PRP-Noun
+r6ourPRP$countryNN
+
+#Rule:N-HeadNoun
+r8careNNsystemNN
+r8healthNNsystemNN
+r8sNNPsystemNN
+r8CanadaLocationAnnotationsystemNN
+r8healthNNcareNN
+r8sNNPcareNN
+r8USAOrganizationAnnotationcareNN
+
+#Rule:HeadNoun-V
+r11itPRPsVBZ
+r11itPRPmakesVBZ
+r11systemNNlookVB
+r11itPRPsVBZ
+r11AmericansNNPSthinkVBP
+r11countryNNstinksVBZ
+r11wePRPareAUX
+
+#Rule:NP(NP(z) SBAR(S(NP(x)VP(y))))
+r19thinkVBPmovieNN
+
+#Rule:V-HeadNoun
+r21watchedVBDmovieNN
+r21watchedVBDSickoNNP
+r21sVBZmovieNN
+
+#Rule:V-HeadNoun
+r22makesVBZsystemNN
+
+#Rule:V-ADJ
+r25areAUXCanadian..OrganizationAnnotation
+
+#Rule:PPinVP
+r30watchedVBDbyINMichael MoorePersonAnnotation
+r30sVBZaboutINcareNN
+
+#Rule:V-IN-V
+r43thinkVBPthatINstinksVBZ
+r43stinksVBZbecauseINareAUX
+
+#Rule:V-ADV
+r46makesVBZreallyRB
+
+#It s wacked!
+#(S1 (S (NP (PRP It)) (VP (VBZ s) (ADJP (JJ wacked))) (. !)))
+#Rule:Verbs
+r2s wacked!PersonAnnotation
+
+#Rule:HeadNoun-V
+r11itPRPs wacked!PersonAnnotation
+
+@lemmas-left	stinks	excellent	watched	are	american	care	be	look	movie.	think	it	stink	watch	makes	movie	health	sicko	Canadian..	country	USA	system	Michael Moore	great	s	Canada	Sicko	s wacked!	Americans	our	make	we	
+@lemmas-right	look	movie.	think	stink	makes	movie	stinks	Canadian..	sicko	country	really	Michael Moore	system	are	s	Sicko	care	s wacked!	make	be	
+@lemmas-center	because	that	about	by	

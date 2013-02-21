@@ -1,0 +1,87 @@
+#As Cancer grows, it invades the surrounding structures and causes damage.  
+#(S1 (S (SBAR (IN As) (S (NP (NN Cancer)) (VP (VBZ grows)))) (, ,) (NP (PRP it)) (VP (VP (VBZ invades) (NP (DT the) (VBG surrounding) (NNS structures))) (CC and) (VP (VBZ causes) (NP (NN damage)))) (. .)))
+#Rule:Nouns
+r1As CancerOrganizationAnnotation
+r1structuresNNS
+r1damageNN
+
+#Rule:Verbs
+r2growsVBZ
+r2invadesVBZ
+r2surroundingVBG
+r2causesVBZ
+
+#Rule:Adj-Noun
+r5surroundingVBGstructuresNNS
+
+#Rule:HeadNoun-V
+r11itPRPinvadesVBZ
+r11itPRPcausesVBZ
+r11As CancerOrganizationAnnotationgrowsVBZ
+
+#Rule:V-HeadNoun
+r21invadesVBZstructuresNNS
+r21causesVBZdamageNN
+
+#It spreads to the draining lymph nodes. 
+#(S1 (S (NP (PRP It)) (VP (VBZ spreads) (PP (TO to) (NP (DT the) (VBG draining) (NN lymph) (NNS nodes)))) (. .)))
+#Rule:Nouns
+r1lymphOrganizationAnnotation
+r1nodesNNS
+
+#Rule:Verbs
+r2spreadsVBZ
+r2drainingVBG
+
+#Rule:Adj-Noun
+r5drainingVBGnodesNNS
+
+#Rule:N-HeadNoun
+r8lymphOrganizationAnnotationnodesNNS
+
+#Rule:HeadNoun-V
+r11itPRPspreadsVBZ
+
+#Rule:PPinVP
+r30spreadsVBZtoTOnodesNNS
+
+#Through the blood stream it spreads to the others parts of the body like lung, liver, bones, brain etc.
+#(S1 (S (PP (IN Through) (NP (DT the) (NN blood) (NN stream))) (NP (PRP it)) (VP (VBZ spreads) (PP (TO to) (NP (DT the) (NNS others))) (NP (NP (NNS parts)) (PP (IN of) (NP (DT the) (NN body)))) (PP (IN like) (NP (NN lung) (, ,) (NN liver) (, ,) (NNS bones) (, ,) (NN brain) (NN etc)))) (. .)))
+#Rule:Nouns
+r1bloodNN
+r1streamNN
+r1othersNNS
+r1partsNNS
+r1bodyNN
+r1lungNN
+r1liverNN
+r1bonesNNS
+r1brainNN
+r1etcNN
+
+#Rule:Verbs
+r2spreadsVBZ
+
+#Rule:N-HeadNoun
+r8bloodNNstreamNN
+r8brainNNetcNN
+
+#Rule:HeadNoun-V
+r11itPRPspreadsVBZ
+
+#Rule:V-HeadNoun
+r21spreadsVBZpartsNNS
+
+#Rule:PPinNP
+r26partsNNSofINbodyNN
+
+#Rule:PPinVP
+r30spreadsVBZtoTOothersNNS
+r30spreadsVBZlikeINetcNN
+
+#Rule:PPinS
+r36spreadsVBZthroughINstreamNN
+
+@lemmas-left	invades	body	stream	cause	etc	grows	parts	surround	surrounding	bones	lymph	brain	structure	it	others	As Cancer	damage	draining	blood	drain	structures	lung	node	nodes	spreads	grow	liver	invade	spread	causes	
+@lemmas-right	invades	body	stream	structure	others	cause	etc	damage	grows	parts	structures	node	nodes	spreads	grow	invade	spread	causes	
+@lemmas-center	to	of	through	like	

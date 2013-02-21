@@ -1,0 +1,22 @@
+#Your not over weight..
+#(S1 (S (SINV (NP (PRP$ Your) (RB not) (IN over) (NN weight)) (. .)) (. .)))
+#Rule:Nouns
+r1weightNN
+
+#Rule:PRP-Noun
+r6yourPRP$weightNN
+
+#I am 15.Your not over weight..
+#(S1 (S (NP (PRP I)) (VP (AUX am) (VP (VB 15.Your) (FRAG (RB not) (PP (IN over) (NP (NN weight))) (. .)))) (. .)))
+#Rule:Nouns
+r1weightNN
+
+#Rule:Verbs
+r215.yourVB
+
+#Rule:HeadNoun-V
+r11iPRP15.yourVB
+
+@lemmas-left	weight	your	15.your	i	
+@lemmas-right	weight	15.your	
+@lemmas-center	

@@ -1,0 +1,110 @@
+#If you know you have a test ahead of time, study everyday. 
+#(S1 (S (SBAR (IN If) (S (NP (PRP you)) (VP (VBP know) (SBAR (S (NP (PRP you)) (VP (AUX have) (NP (DT a) (NN test))))) (ADVP (RB ahead) (PP (IN of) (NP (NN time))))))) (, ,) (VP (VB study) (ADJP (JJ everyday))) (. .)))
+#Rule:Nouns
+r1testNN
+r1timeNN
+
+#Rule:Verbs
+r2knowVBP
+r2studyVB
+
+#Rule:Adjs
+r4everydayJJ
+
+#Rule:HeadNoun-V
+r11youPRPknowVBP
+r11youPRPhaveAUX
+
+#Rule:V-HeadNoun
+r21haveAUXtestNN
+
+#Rule:V-ADV
+r46knowVBPaheadRB
+
+#Repeat your notes three times a day aloud so you can hear it. 
+#(S1 (S (VP (VB Repeat) (NP (PRP$ your) (NNS notes)) (ADVP (NP (NP (CD three) (NNS times)) (NP (DT a) (NN day))) (RB aloud)) (SBAR (IN so) (S (NP (PRP you)) (VP (MD can) (VP (VB hear) (NP (PRP it))))))) (. .)))
+#Rule:Nouns
+r1notesNNS
+r1timesNNS
+r1dayNN
+
+#Rule:Verbs
+r2repeatVB
+r2hearVB
+
+#Rule:Adj-Noun
+r5threeCDtimesNNS
+
+#Rule:PRP-Noun
+r6yourPRP$notesNNS
+
+#Rule:HeadNoun-V
+r11youPRPhearVB
+
+#Rule:V-HeadNoun
+r21repeatVBnotesNNS
+r21hearVBitPRP
+
+#Rule:V-IN-V
+r43repeatVBsoINhearVB
+
+#Rule:V-ADV
+r46repeatVBaloudRB
+
+#Don t get off track. 
+#(S1 (S (NP (NNP Don) (NNP t)) (VP (VB get) (PRT (RP off)) (NP (NN track))) (. .)))
+#Rule:Nouns
+r1Don tPersonAnnotation
+r1trackNN
+
+#Rule:V-PRT
+r3getVBoffRP
+
+#Rule:HeadNoun-V
+r11Don tPersonAnnotationgetVB
+
+#Rule:V-HeadNoun
+r21getVBtrackNN
+
+#Turn off your computer, cell phone, tv. 
+#(S1 (S (VP (VB Turn) (PRT (RP off)) (NP (PRP$ your) (NN computer) (, ,) (NN cell) (NN phone) (, ,) (NN tv))) (. .)))
+#Rule:Nouns
+r1computerNN
+r1cellNN
+r1phoneNN
+r1tvLocationAnnotation
+
+#Rule:V-PRT
+r3turnVBoffRP
+
+#Rule:PRP-Noun
+r6yourPRP$tvLocationAnnotation
+
+#Rule:N-Noun
+r9cellNNphoneNN
+
+#Rule:V-HeadNoun
+r21turnVBtvLocationAnnotation
+
+#Get away from this distractions! 
+#(S1 (S (VP (VB Get) (ADVP (RB away) (PP (IN from) (NP (DT this) (NNS distractions))))) (. !)))
+#Rule:Nouns
+r1distractionsNNS
+
+#Rule:Verbs
+r2getVB
+
+#Rule:V-ADV
+r46getVBawayRB
+
+#Good luck!
+#(S1 (INTJ (JJ Good) (NN luck) (. !)))
+#Rule:Nouns
+r1luckNN
+
+#Rule:Adjs
+r4GoodJJ
+
+@lemmas-left	Don t	computer	Good	phone	distractions	have	test	everyday	good	study	repeat	hear	time	times	three	distraction	note	turn	get	luck	your	cell	track	you	know	tv	day	notes	
+@lemmas-right	aloud	phone	it	get	have	test	ahead	track	know	away	hear	times	tv	off	notes	note	
+@lemmas-center	so	

@@ -1,0 +1,49 @@
+#Keeping some guys alive in the vacuum (and weightlessness) of space is exceptionally tricky.  especially if we want them to come home..
+#(S1 (S (S (VP (VBG Keeping) (S (NP (DT some) (NNS guys)) (ADJP (JJ alive)) (PP (IN in) (NP (NP (DT the) (NN vacuum)) (PRN (-LRB- -LRB-) (CC and) (NP (NN weightlessness)) (-RRB- -RRB-))))) (PP (IN of) (NP (NN space))))) (VP (AUX is) (ADJP (RB exceptionally) (JJ tricky.)) (SBAR (ADVP (RB especially)) (IN if) (S (NP (PRP we)) (VP (VBP want) (S (NP (PRP them)) (VP (TO to) (VP (VB come) (NP (NN home)))) (. .)))))) (. .)))
+#Rule:Nouns
+r1guysNNS
+r1vacuumPersonAnnotation
+r1weightlessnessNN
+r1spaceNN
+r1homeNN
+
+#Rule:Verbs
+r2keepingVBG
+r2wantVBP
+r2comeVB
+
+#Rule:Adjs
+r4aliveJJ
+r4trickyJJ
+
+#Rule:HeadNoun-V
+r11wePRPwantVBP
+r11themPRPcomeVB
+
+#Rule:V-HeadNoun
+r21comeVBhomeNN
+
+#Rule:V-HeadNoun
+r22keepingVBGguysNNS
+r22wantVBPthemPRP
+
+#Rule:V-ADJ
+r25isAUXtrickyJJ
+
+#Rule:PPinVP
+r30keepingVBGofINspaceNN
+
+#Rule:PPinS
+r36aliveJJinINvacuumPersonAnnotation
+
+#Rule:V-IN-V
+r43isAUXifINwantVBP
+
+#Patience
+#(S1 (NP (NN Patience)))
+#Rule:Nouns
+r1PatienceLocationAnnotation
+
+@lemmas-left	home	is	tricky	guy	come	space	alive	guys	Patience	tricky.	them	weightlessness	keeping	vacuum	want	be	we	keep	
+@lemmas-right	home	tricky	tricky.	guy	them	come	space	vacuum	guys	want	
+@lemmas-center	of	if	in	

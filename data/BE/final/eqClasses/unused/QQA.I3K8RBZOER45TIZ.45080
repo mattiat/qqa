@@ -1,0 +1,690 @@
+BE: drugNN
+EQ class: 
+
+BE: FDAOrganizationAnnotation
+EQ class: f.d.a.organizationannotation	
+
+BE: doctorNN
+EQ class: physiciannn	dr.nn	doctorialjj	docnn	mediconn	mdnn	
+
+BE: perscriptionNN
+EQ class: 
+
+BE: drugNN
+EQ class: 
+
+BE: Clinical TrialsOrganizationAnnotation
+EQ class: 
+
+BE: companyNN
+EQ class: 
+
+BE: useNN
+EQ class: utilisationnn	usagenn	exercisenn	employmentnn	utilizationnn	
+
+BE: researchNN
+EQ class: 
+
+BE: investigatorNN
+EQ class: research_workernn	researchernn	
+
+BE: trialNN
+EQ class: runnn	testnn	
+
+BE: drugNN
+EQ class: 
+
+BE: trialNN
+EQ class: runnn	testnn	
+
+BE: approvedVBN
+EQ class: sanctionvbn	o.k.vbn	okayvbn	approvevbn	
+
+BE: askVB
+EQ class: enquirevb	inquirevb	
+
+BE: contactVB
+EQ class: get_hold_ofvb	reachvb	get_throughvb	
+
+BE: includedVBN
+EQ class: includevbn	
+
+BE: seeVB
+EQ class: 
+
+BE: compassionateJJ
+EQ class: compassionatenessnn	compassionnn	
+
+BE: compassionateJJuseNN
+EQ class: utilisevbcompassionatelyrb	compassionatenessnnutilisationnn	compassionnnexercisenn	applyvbcompassionatelyrb	compassionatejjutilisationnn	compassionatejjexercisenn	usevbcompassionatelyrb	compassionatenessnnutilizationnn	compassionnnutilizationnn	compassionatenessnnemploymentnn	compassionnnusagenn	utilizevbcompassionatelyrb	compassionnnemploymentnn	compassionatejjusagenn	compassionatejjutilizationnn	compassionatenessnnexercisenn	compassionnnusenn	compassionatenessnnusenn	compassionatenessnnusagenn	compassionatejjemploymentnn	employvbcompassionatelyrb	compassionnnutilisationnn	
+
+BE: researchNNinvestigatorNN
+EQ class: investigatevbresearchnn	investigatornnofininvestigatornn	research_workernnofinresearch_workernn	researchnnresearch_workernn	researchernnresearchvb	researchernnofinresearchernn	look_intovbresearchnn	researchnninvestigatevb	investigatornnofinresearch_workernn	investigatornnofinresearchnn	researchnnofinresearch_workernn	research_workernnofinresearchernn	research_workernnofinresearchnn	research_workernnresearchvb	researchernnofinresearchnn	researchnnlook_intovb	researchernnofinresearch_workernn	researchnnofininvestigatornn	researchnnofinresearchernn	research_workernnofininvestigatornn	investigatornnofinresearchernn	investigatornnresearchvb	researchnnresearchernn	researchernnofininvestigatornn	
+
+BE: youPRPneedAUX
+EQ class: youprpaskaux	youprppostulateaux	youprprequireaux	youprptakeaux	youprpnecessitateaux	demandnnofinyouprp	neednnofinyouprp	youprpdemandaux	youprpcall_foraux	youprpinvolveaux	
+
+BE: drugNNisAUX
+EQ class: drugnnbeaux	
+
+BE: youPRPcontactVB
+EQ class: contactnnofinyouprp	youprpreachvb	youprpget_throughvb	youprpget_hold_ofvb	
+
+BE: youPRPhaveAUX
+EQ class: youprphave_gotaux	rich_personnnofinyouprp	havennofinyouprp	youprpholdaux	wealthy_personnnofinyouprp	
+
+BE: FDAOrganizationAnnotationapprovedVBN
+EQ class: f.d.a.organizationannotationo.k.vbn	fdaorganizationannotationapprovevbn	approbativennofinf.d.a.organizationannotation	approbationnnf.d.a.organizationannotation	f.d.a.organizationannotationapprovedvbn	f.d.a.organizationannotationokayvbn	blessingnnfdaorganizationannotation	approvernnofinfdaorganizationannotation	approbationnnfdaorganizationannotation	fdaorganizationannotationokayvbn	approbationnnofinfdaorganizationannotation	approvernnfdaorganizationannotation	approvernnf.d.a.organizationannotation	f.d.a.organizationannotationapprovevbn	approvingnnofinfdaorganizationannotation	approbativennofinfdaorganizationannotation	blessingnnofinfdaorganizationannotation	approvingnnf.d.a.organizationannotation	approvalnnofinf.d.a.organizationannotation	fdaorganizationannotationsanctionvbn	blessingnnf.d.a.organizationannotation	approvalnnofinfdaorganizationannotation	approbationnnofinf.d.a.organizationannotation	blessingnnofinf.d.a.organizationannotation	approvalnnf.d.a.organizationannotation	approvingnnfdaorganizationannotation	approvalnnfdaorganizationannotation	f.d.a.organizationannotationsanctionvbn	fdaorganizationannotationo.k.vbn	approvingnnofinf.d.a.organizationannotation	approvernnofinf.d.a.organizationannotation	
+
+BE: askVBdoctorNN
+EQ class: inquirevbdoctorialjj	inquirernnofindocnn	queriernnofindoctorialjj	enquirevbdoctorialjj	inquirevbmediconn	askvbmdnn	enquirernnofindoctornn	enquirevbmediconn	enquirernnofindocnn	enquirevbphysiciannn	enquirernnofinmediconn	enquirernnofinphysiciannn	questionernnofinmediconn	queriernnofindoctornn	askernnofinmdnn	inquirernnofindr.nn	inquirernnofinmediconn	askernnofinmediconn	askernnofindoctorialjj	enquirernnofinmdnn	questionernnofinphysiciannn	enquirevbmdnn	askvbdocnn	inquirernnofinmdnn	questionernnofindr.nn	enquirevbdocnn	queriernnofinmediconn	queriernnofinphysiciannn	questionernnofindoctornn	inquirevbmdnn	enquirevbdr.nn	askvbdoctorialjj	questionernnofinmdnn	queriernnofindr.nn	inquirevbphysiciannn	queriernnofindocnn	inquirevbdr.nn	askernnofindr.nn	inquirernnofinphysiciannn	inquirernnofindoctornn	askvbdr.nn	askernnofindoctornn	queriernnofinmdnn	inquirevbdoctornn	askvbphysiciannn	inquirernnofindoctorialjj	askernnofindocnn	inquirevbdocnn	enquirernnofindoctorialjj	questionernnofindocnn	askernnofinphysiciannn	enquirevbdoctornn	askvbmediconn	enquirernnofindr.nn	questionernnofindoctorialjj	
+
+BE: contactVBcompanyNN
+EQ class: get_hold_ofvbcompanynn	reachvbcompanynn	get_throughvbcompanynn	contactnnofincompanynn	
+
+BE: haveAUXdrugNN
+EQ class: rich_personnnofindrugnn	havennofindrugnn	have_gotauxdrugnn	wealthy_personnnofindrugnn	holdauxdrugnn	
+
+BE: approvedVBNdrugNN
+EQ class: approvingnnofindrugnn	approbativennofindrugnn	approbationnnofindrugnn	okayvbndrugnn	approvernnofindrugnn	approvevbndrugnn	blessingnnofindrugnn	o.k.vbndrugnn	sanctionvbndrugnn	approvalnnofindrugnn	
+
+BE: doctorNNforINperscriptionNN
+EQ class: mediconnforinperscriptionnn	perscriptionnnmediconn	perscriptionnnphysiciannn	perscriptionnndoctornn	doctorialjjforinperscriptionnn	perscriptionnndoctorialvb	physiciannnforinperscriptionnn	mdnnforinperscriptionnn	perscriptionnndoctorialjj	doctor_upvbperscriptionnn	perscriptionnndr.nn	perscriptionnnsophisticatevb	doctorvbperscriptionnn	perscriptionnnmdnn	perscriptionnndoctorvb	perscriptionnndocnn	docnnforinperscriptionnn	sophisticatevbperscriptionnn	perscriptionnndoctor_upvb	dr.nnforinperscriptionnn	doctorialvbperscriptionnn	
+
+BE: doctorNNforINinvestigatorNN
+EQ class: research_workernndocnn	investigatornndoctorvb	researchernnmdnn	researchernndoctorvb	doctorvbresearch_workernn	docnnforinresearchernn	research_workernndoctorialvb	doctorvbinvestigatornn	investigatornnmdnn	doctorialvbresearch_workernn	mediconnforinresearchernn	doctornnforinresearchernn	investigatornndr.nn	doctorialvbinvestigatornn	researchernnmediconn	researchernndoctorialjj	researchernnsophisticatevb	mdnnforininvestigatornn	research_workernndoctornn	physiciannnforininvestigatornn	research_workernndoctor_upvb	mediconnforininvestigatornn	docnnforininvestigatornn	researchernndoctornn	researchernndocnn	research_workernndoctorvb	doctorialvbresearchernn	dr.nnforininvestigatornn	research_workernndr.nn	research_workernnsophisticatevb	researchernndr.nn	doctornnforinresearch_workernn	doctorialjjforinresearch_workernn	docnnforinresearch_workernn	research_workernnmediconn	mdnnforinresearch_workernn	doctor_upvbresearch_workernn	doctorialjjforinresearchernn	investigatornnphysiciannn	investigatornndoctor_upvb	investigatornnmediconn	researchernnphysiciannn	sophisticatevbresearchernn	doctor_upvbinvestigatornn	mdnnforinresearchernn	doctor_upvbresearchernn	investigatornndoctornn	investigatornndoctorialvb	investigatornndoctorialjj	investigatornnsophisticatevb	dr.nnforinresearchernn	research_workernndoctorialjj	doctorvbresearchernn	doctorialjjforininvestigatornn	dr.nnforinresearch_workernn	researchernndoctorialvb	investigatornndocnn	sophisticatevbinvestigatornn	physiciannnforinresearchernn	sophisticatevbresearch_workernn	research_workernnphysiciannn	researchernndoctor_upvb	mediconnforinresearch_workernn	research_workernnmdnn	physiciannnforinresearch_workernn	
+
+BE: isAUXinINClinical TrialsOrganizationAnnotation
+EQ class: beauxininclinical trialsorganizationannotation	
+
+BE: contactVBforINuseNN
+EQ class: get_throughvbforinusagenn	contactvbforinutilizationnn	get_hold_ofvbforinusagenn	reachvbforinutilisationnn	get_hold_ofvbforinusenn	get_hold_ofvbforinutilizationnn	get_throughvbforinutilisationnn	get_throughvbforinutilizationnn	contactvbforinutilisationnn	reachvbforinexercisenn	get_throughvbforinemploymentnn	get_hold_ofvbforinemploymentnn	get_hold_ofvbforinexercisenn	reachvbforinemploymentnn	get_throughvbforinexercisenn	contactvbforinusagenn	get_hold_ofvbforinutilisationnn	reachvbforinusenn	reachvbforinutilizationnn	get_throughvbforinusenn	reachvbforinusagenn	contactvbforinexercisenn	contactvbforinemploymentnn	
+
+BE: haveAUXoffINtrialNN
+EQ class: holdauxoffintestnn	holdauxoffintrialnn	holdauxoffinrunnn	haveauxoffintestnn	have_gotauxoffintrialnn	haveauxoffinrunnn	have_gotauxoffinrunnn	have_gotauxoffintestnn	
+
+BE: includedVBNinINtrialNN
+EQ class: includevbninintestnn	includedvbnininrunnn	includevbninintrialnn	includevbnininrunnn	includedvbninintestnn	
+
+BE: seeVBifINhaveAUX
+EQ class: seevbifinholdaux	seevbifinhave_gotaux	
+
+BE: isAUXstillRB
+EQ class: beauxstillrb	
+
+BE: FDAOrganizationAnnotation
+EQ class: f.d.a.organizationannotation	
+
+BE: AccessNN
+EQ class: admissionnn	admittancenn	accessionnn	entreenn	
+
+BE: UnapprovedNNP
+EQ class: 
+
+BE: Drugshttp://www.fda.OrganizationAnnotation
+EQ class: drugshttp://wwwfdaorganizationannotation	
+
+BE: //www.fda.gov/cder/cancer/access.htmINN
+EQ class: //wwwfdagov/cder/cancer/accesshtminn	
+
+BE: oncologistsNNS
+EQ class: oncologistnns	theynns	themnns	
+
+BE: sonNN
+EQ class: boynn	
+
+BE: trialNN
+EQ class: runnn	testnn	
+
+BE: drugsNNS
+EQ class: drugnns	theynns	themnns	
+
+BE: typeNN
+EQ class: 
+
+BE: cancerNN
+EQ class: cancerousjj	malignant_neoplastic_diseasenn	
+
+BE: issueNN
+EQ class: 
+
+BE: cureNN
+EQ class: remedynn	curativenn	therapeuticnn	
+
+BE: cancerNN
+EQ class: cancerousjj	malignant_neoplastic_diseasenn	
+
+BE: treatmentNN
+EQ class: interventionnn	
+
+BE: jugglingNN
+EQ class: jugglenn	
+
+BE: combinationNN
+EQ class: 
+
+BE: meanVBP
+EQ class: intendvbp	
+
+BE: offeredVBN
+EQ class: offervbn	
+
+BE: investigatedVBN
+EQ class: look_intovbn	investigatevbn	
+
+BE: sVBZ
+EQ class: 
+
+BE: tryVB
+EQ class: seekvb	essayvb	attemptvb	assayvb	
+
+BE: fineVB
+EQ class: ticketvb	
+
+BE: workVB
+EQ class: 
+
+BE: sureJJ
+EQ class: surenessnn	certainjj	
+
+BE: manyJJ
+EQ class: 
+
+BE: particularJJ
+EQ class: particularitynn	specialjj	peculiarjj	
+
+BE: constantJJ
+EQ class: constancynn	invariantjj	unvaryingjj	changelessjj	
+
+BE: rightJJ
+EQ class: 
+
+BE: particularJJtypeNN
+EQ class: peculiarjjtypenn	typewritevbparticularlyrb	particularitynntypenn	specialjjtypenn	epitomisevbparticularlyrb	typevbparticularlyrb	typifyvbparticularlyrb	epitomizevbparticularlyrb	
+
+BE: constantJJjugglingNN
+EQ class: constantjjjugglenn	constancynnjugglenn	unvaryingjjjugglingnn	beguilevbconstantlyrb	invariantjjjugglenn	hoodwinkvbconstantlyrb	constancynnjugglingnn	jugglevbconstantlyrb	invariantjjjugglingnn	unvaryingjjjugglenn	changelessjjjugglenn	changelessjjjugglingnn	
+
+BE: rightJJcombinationNN
+EQ class: unitevbrightlyrb	combinevbrightlyrb	
+
+BE: myPRP$sonNN
+EQ class: sonnnofinmyprp$	myprp$boynn	boynnofinmyprp$	
+
+BE: hisPRP$typeNN
+EQ class: epitomisevbmichael mooreprp$	epitomizevbmichael mooreprp$	httpprp$typenn	michael mooreprp$epitomizevb	typewritevbhisprp$	typifyvbhttpprp$	typevbhttpprp$	typennofinhttpprp$	hisprp$typevb	michael mooreprp$typevb	typewritevbhttpprp$	epitomizevbhttpprp$	httpprp$typewritevb	httpprp$epitomizevb	michael mooreprp$typenn	michael mooreprp$epitomisevb	epitomisevbhisprp$	typevbmichael mooreprp$	michael mooreprp$typewritevb	httpprp$epitomisevb	typennofinhisprp$	epitomisevbhttpprp$	httpprp$typevb	typennofinmichael mooreprp$	hisprp$epitomisevb	typifyvbhisprp$	typewritevbmichael mooreprp$	hisprp$typewritevb	hisprp$epitomizevb	hisprp$typifyvb	michael mooreprp$typifyvb	typifyvbmichael mooreprp$	typevbhisprp$	httpprp$typifyvb	epitomizevbhisprp$	
+
+BE: UnapprovedNNPDrugshttp://www.fda.OrganizationAnnotation
+EQ class: drugshttp://www.fda.organizationannotationofinunapprovednnp	unapprovednnpdrugshttp://wwwfdaorganizationannotation	
+
+BE: trialNNdrugsNNS
+EQ class: testnntheynns	theynnsofintestnn	drugsnnsofintestnn	theynnsofinrunnn	trialnnthemnns	drugnnsofintrialnn	runnndruggistvb	drugvbtrialnn	drugsnnsofinrunnn	testnndruggistvb	themnnsofinrunnn	drugsnnsofintrialnn	themnnsofintestnn	dosevbtrialnn	drugnnsofinrunnn	testnndrugvb	trialnndrugnns	trialnndosevb	drugvbtestnn	themnnsofintrialnn	trialnntheynns	testnnthemnns	testnndrugnns	testnndrugsnns	druggistvbtrialnn	trialnndruggistvb	testnndosevb	runnntheynns	trialnndrugvb	druggistvbrunnn	dosevbtestnn	drugnnsofintestnn	runnndrugnns	runnnthemnns	dosevbrunnn	runnndrugvb	drugvbrunnn	runnndrugsnns	druggistvbtestnn	theynnsofintrialnn	runnndosevb	
+
+BE: //www.fda.gov/cder/cancer/access.htmINNamAUX
+EQ class: //wwwfdagov/cder/cancer/accesshtminnamaux	//www.fda.gov/cder/cancer/access.htminnbeaux	//wwwfdagov/cder/cancer/accesshtminnbeaux	
+
+BE: youPRPmeanVBP
+EQ class: significancennyouprp	significancennofinyouprp	meaningnnofinyouprp	significationnnyouprp	meaningnnyouprp	importnnofinyouprp	significationnnofinyouprp	importnnyouprp	youprpintendvbp	
+
+BE: itPRPsVBZ
+EQ class: 
+
+BE: issueNNisAUX
+EQ class: issuennbeaux	
+
+BE: thereEXisAUX
+EQ class: thereexbeaux	
+
+BE: wePRPinvestigatedVBN
+EQ class: probennweprp	researchernnweprp	investigatornnweprp	research_workernnofinweprp	researchernnofinweprp	investigatingnnweprp	investigationnnofinweprp	weprplook_intovbn	investigatornnofinweprp	weprpinvestigatevbn	research_workernnweprp	investigatingnnofinweprp	probennofinweprp	investigationnnweprp	
+
+BE: jugglingNNtryVB
+EQ class: jugglingnnassayvb	effortnnofinjugglingnn	jugglennassayvb	endeavournnofinjugglingnn	jugglennseekvb	triernnjugglingnn	trynnofinjugglingnn	jugglennessayvb	endeavournnofinjugglenn	jugglennattemptvb	triernnofinjugglenn	attemptnnofinjugglingnn	jugglingnnattemptvb	endeavornnofinjugglingnn	triernnjugglenn	trynnofinjugglenn	triernnofinjugglingnn	jugglenntryvb	jugglingnnseekvb	attemptnnofinjugglenn	effortnnofinjugglenn	jugglingnnessayvb	endeavornnofinjugglenn	
+
+BE: combinationNNworkVB
+EQ class: workernncombinationnn	worknnofincombinationnn	workernnofincombinationnn	
+
+BE: sVBZtypeNN
+EQ class: 
+
+BE: isAUXcureNN
+EQ class: beauxtherapeuticnn	beauxremedynn	isauxremedynn	beauxcurenn	isauxtherapeuticnn	beauxcurativenn	isauxcurativenn	
+
+BE: isAUXjugglingNN
+EQ class: beauxjugglingnn	beauxjugglenn	isauxjugglenn	
+
+BE: tryVBcombinationNN
+EQ class: effortnnofincombinationnn	essayvbcombinationnn	endeavournnofincombinationnn	assayvbcombinationnn	attemptnnofincombinationnn	attemptvbcombinationnn	triernnofincombinationnn	endeavornnofincombinationnn	trynnofincombinationnn	seekvbcombinationnn	
+
+BE: sVBZissueNN
+EQ class: 
+
+BE: offeredVBNsonNN
+EQ class: offeringnnofinsonnn	offeringnnofinboynn	offervbnsonnn	offeredvbnboynn	offervbnboynn	offernnofinboynn	offernnofinsonnn	
+
+BE: AccessNNtoTODrugshttp://www.fda.OrganizationAnnotation
+EQ class: drugshttp://www.fda.organizationannotationentreenn	drugshttp://www.fda.organizationannotationaccessnn	admittancenntotodrugshttp://www.fda.organizationannotation	accessnntotodrugshttp://wwwfdaorganizationannotation	drugshttp://www.fda.organizationannotationaccessionnn	drugshttp://www.fda.organizationannotationadmissionnn	drugshttp://wwwfdaorganizationannotationaccessionnn	drugshttp://wwwfdaorganizationannotationadmittancenn	admissionnntotodrugshttp://wwwfdaorganizationannotation	admittancenntotodrugshttp://wwwfdaorganizationannotation	entreenntotodrugshttp://wwwfdaorganizationannotation	admissionnntotodrugshttp://www.fda.organizationannotation	entreenntotodrugshttp://www.fda.organizationannotation	accessionnntotodrugshttp://www.fda.organizationannotation	drugshttp://www.fda.organizationannotationadmittancenn	drugshttp://wwwfdaorganizationannotationadmissionnn	drugshttp://wwwfdaorganizationannotationentreenn	drugshttp://wwwfdaorganizationannotationaccessnn	accessionnntotodrugshttp://wwwfdaorganizationannotation	
+
+BE: typeNNofINcancerNN
+EQ class: malignant_neoplastic_diseasenntypewritevb	typifyvbcancerousjj	malignant_neoplastic_diseasenntypenn	cancerousjjtypewritevb	malignant_neoplastic_diseasennepitomisevb	cancerousjjepitomisevb	typevbcancerousjj	malignant_neoplastic_diseasennepitomizevb	cancernnepitomizevb	epitomizevbcancerousjj	cancernntypenn	cancerousjjepitomizevb	epitomizevbcancernn	typewritevbmalignant_neoplastic_diseasenn	typevbcancernn	epitomisevbcancerousjj	typewritevbcancernn	epitomisevbcancernn	epitomizevbmalignant_neoplastic_diseasenn	typevbmalignant_neoplastic_diseasenn	cancernntypewritevb	cancernntypevb	typennofincancerousjj	cancernntypifyvb	malignant_neoplastic_diseasenntypevb	cancerousjjtypenn	epitomisevbmalignant_neoplastic_diseasenn	cancernnepitomisevb	cancerousjjtypifyvb	typewritevbcancerousjj	typifyvbmalignant_neoplastic_diseasenn	typennofinmalignant_neoplastic_diseasenn	typifyvbcancernn	cancerousjjtypevb	malignant_neoplastic_diseasenntypifyvb	
+
+BE: cureNNforINcancerNN
+EQ class: malignant_neoplastic_diseasenntherapeuticnn	curevbmalignant_neoplastic_diseasenn	cancerousjjcurativenn	healvbmalignant_neoplastic_diseasenn	remedynnforincancerousjj	cancerousjjtherapeuticnn	curevbcancernn	therapeuticnnforincancerousjj	cancernncurenn	cancernnhealvb	curennforincancerousjj	cancernnbring_aroundvb	malignant_neoplastic_diseasenncurenn	curativennforincancernn	bring_aroundvbcancerousjj	malignant_neoplastic_diseasennremedynn	curevbcancerousjj	cancernncurativenn	curativennforinmalignant_neoplastic_diseasenn	bring_aroundvbcancernn	healvbcancernn	therapeuticnnforincancernn	cancerousjjcurevb	cancerousjjcurenn	malignant_neoplastic_diseasennhealvb	curennforinmalignant_neoplastic_diseasenn	remedynnforinmalignant_neoplastic_diseasenn	remedynnforincancernn	cancerousjjremedynn	malignant_neoplastic_diseasenncurativenn	cancernnremedynn	cancerousjjbring_aroundvb	malignant_neoplastic_diseasenncurevb	cancerousjjhealvb	bring_aroundvbmalignant_neoplastic_diseasenn	cancernncurevb	curativennforincancerousjj	cancernntherapeuticnn	malignant_neoplastic_diseasennbring_aroundvb	healvbcancerousjj	therapeuticnnforinmalignant_neoplastic_diseasenn	
+
+BE: meanVBPaboutINoncologistsNNS
+EQ class: intendvbpaboutinthemnns	intendvbpaboutintheynns	meanvbpaboutinoncologistnns	intendvbpaboutinoncologistnns	meanvbpaboutintheynns	intendvbpaboutinoncologistsnns	meanvbpaboutinthemnns	
+
+BE: investigatedVBNforINtypeNN
+EQ class: investigatevbnforintypenn	look_intovbnforintypenn	
+
+BE: manyJJoffINdrugsNNS
+EQ class: manyjjoffindrugnns	manyjjoffintheynns	manyjjoffinthemnns	
+
+BE: amAUXexactlyRB
+EQ class: exactjjininbeaux	exactnessnnininbeaux	beauxexactlyrb	exactnessnnininamaux	exactjjininamaux	
+
+BE: isAUXnotRB
+EQ class: beauxnotrb	
+
+BE: isAUXevenRB
+EQ class: beauxevenrb	
+
+BE: jugglingNNissueNN
+EQ class: issuennjugglenn	issuennjugglingnn	issuennbeguilevb	jugglerynnofinissuenn	issuennhoodwinkvb	jugglennissuenn	issuennjugglevb	
+
+BE: diseaseNN
+EQ class: 
+
+BE: drugsNNS
+EQ class: drugnns	theynns	themnns	
+
+BE: patientsNNS
+EQ class: patientnns	theynns	themnns	
+
+BE: treatmentNN
+EQ class: interventionnn	
+
+BE: oncologistNN
+EQ class: 
+
+BE: recommendationsNNS
+EQ class: theynns	recommendationnns	themnns	
+
+BE: patientNN
+EQ class: 
+
+BE: decisionsNNS
+EQ class: determinationnns	decisionnns	conclusionnns	theynns	themnns	
+
+BE: dealingVBG
+EQ class: covervbg	treatvbg	plowvbg	handlevbg	dealvbg	addressvbg	
+
+BE: getVB
+EQ class: acquirevb	
+
+BE: needVBP
+EQ class: postulatevbp	takevbp	askvbp	requirevbp	demandvbp	necessitatevbp	involvevbp	call_forvbp	
+
+BE: knowVB
+EQ class: cognizevb	cognisevb	
+
+BE: guideVB
+EQ class: maneuvervb	manoeuvrevb	manoeuvervb	pointvb	directvb	channelizevb	steervb	channelisevb	headvb	
+
+BE: guideVB
+EQ class: maneuvervb	manoeuvrevb	manoeuvervb	pointvb	directvb	channelizevb	steervb	channelisevb	headvb	
+
+BE: makeVB
+EQ class: dovb	
+
+BE: makesVBZ
+EQ class: makevbz	dovbz	
+
+BE: non-HodgkinsJJ
+EQ class: 
+
+BE: manyJJ
+EQ class: 
+
+BE: pro-activeJJ
+EQ class: activejj	activenessnn	activitynn	
+
+BE: ownJJ
+EQ class: ainjj	
+
+BE: finalJJ
+EQ class: finalitynn	lastjj	finalnn	concludingjj	terminaljj	
+
+BE: non-HodgkinsJJdiseaseNN
+EQ class: 
+
+BE: manyJJpatientsNNS
+EQ class: manyjjtheynns	manyjjpatientnns	manyjjthemnns	
+
+BE: ownJJtreatmentNN
+EQ class: ownjjinterventionnn	ainjjinterventionnn	ainjjtreatmentnn	
+
+BE: finalJJdecisionsNNS
+EQ class: finaljjdecisionnns	finalnndecisionsnns	finalnnthemnns	finalitynnconclusionnns	terminaljjthemnns	lastjjdecisionnns	concludingjjdeterminationnns	make_up_one's_mindvbfinallyrb	terminaljjdeterminationnns	finaljjdeterminationnns	lastjjthemnns	finalnndeterminationnns	finalnnconclusionnns	determinevbfinallyrb	finalitynndeterminationnns	terminaljjconclusionnns	decidevbfinallyrb	terminaljjtheynns	lastjjdecisionsnns	concludingjjconclusionnns	finaljjthemnns	terminaljjdecisionsnns	lastjjdeterminationnns	finalitynntheynns	finaljjconclusionnns	concludingjjtheynns	concludingjjdecisionsnns	concludingjjthemnns	finalitynnthemnns	finalnntheynns	lastjjtheynns	finalitynndecisionsnns	finaljjtheynns	finalnndecisionnns	finalitynndecisionnns	concludingjjdecisionnns	lastjjconclusionnns	terminaljjdecisionnns	
+
+BE: theirPRP$treatmentNN
+EQ class: treatmentnnofintheirprp$	interventionnnofintheirprp$	theirprp$treatvb	treatvbtheirprp$	handlevbtheirprp$	theirprp$do_byvb	theirprp$interventionnn	do_byvbtheirprp$	theirprp$handlevb	
+
+BE: youPRPgetVB
+EQ class: gettingnnofinyouprp	acquiringnnofinyouprp	gettingnnyouprp	youprpacquirevb	acquiringnnyouprp	
+
+BE: thatDTisAUX
+EQ class: thatdtbeaux	
+
+BE: youPRPneedVBP
+EQ class: youprpaskvbp	youprpcall_forvbp	youprpinvolvevbp	youprptakevbp	youprppostulatevbp	demandnnofinyouprp	neednnofinyouprp	youprpdemandvbp	youprpnecessitatevbp	youprprequirevbp	
+
+BE: youPRPknowVB
+EQ class: knowablennofinyouprp	youprpcognizevb	knowingnnyouprp	knowernnofinyouprp	apprehendernnyouprp	youprpcognisevb	knowingnnofinyouprp	knowernnyouprp	apprehendernnofinyouprp	
+
+BE: patientsNNSguideVB
+EQ class: patientsnnschannelizevb	patientnnschannelizevb	theynnschannelisevb	themnnssteervb	theynnssteervb	themnnsguidevb	themnnsheadvb	theynnsdirectvb	patientsnnschannelisevb	theynnsmanoeuvervb	ushernnofinpatientnns	patientsnnsmanoeuvrevb	guidennofintheynns	patientnnspointvb	patientsnnsdirectvb	patientnnsheadvb	patientsnnsmaneuvervb	patientnnsmanoeuvervb	ushernnofinpatientsnns	ushernnofinthemnns	guidennofinpatientsnns	patientnnsdirectvb	patientnnssteervb	ushernnofintheynns	patientsnnsheadvb	guidennofinpatientnns	patientnnsguidevb	patientnnsmaneuvervb	patientnnschannelisevb	themnnsmanoeuvervb	themnnspointvb	themnnsmaneuvervb	patientsnnssteervb	theynnsguidevb	themnnsmanoeuvrevb	patientsnnsmanoeuvervb	theynnsheadvb	themnnsdirectvb	themnnschannelizevb	theynnschannelizevb	guidennofinthemnns	theynnsmanoeuvrevb	themnnschannelisevb	patientnnsmanoeuvrevb	theynnspointvb	theynnsmaneuvervb	patientsnnspointvb	
+
+BE: patientsNNSareAUX
+EQ class: themnnsbeaux	patientnnsareaux	theynnsareaux	patientnnsbeaux	themnnsareaux	patientsnnsbeaux	theynnsbeaux	
+
+BE: oncologistNNguideVB
+EQ class: guidennofinoncologistnn	ushernnofinoncologistnn	oncologistnnmaneuvervb	oncologistnnsteervb	oncologistnnchannelizevb	oncologistnnpointvb	oncologistnnmanoeuvervb	oncologistnnmanoeuvrevb	oncologistnnheadvb	oncologistnnchannelisevb	oncologistnndirectvb	
+
+BE: oncologistNNmakeVB
+EQ class: oncologistnndovb	
+
+BE: patientNNmakesVBZ
+EQ class: patientnnmakevbz	patientnndovbz	
+
+BE: getVBdrugsNNS
+EQ class: gettingnnofindrugnns	acquiringnnofindrugsnns	acquirevbthemnns	gettingnnofinthemnns	getvbdrugnns	getvbtheynns	gettingnnofintheynns	acquirevbtheynns	acquiringnnofindrugnns	acquiringnnofintheynns	gettingnnofindrugsnns	getvbthemnns	acquirevbdrugsnns	acquirevbdrugnns	acquiringnnofinthemnns	
+
+BE: guideVBtreatmentNN
+EQ class: pointvbtreatmentnn	steervbinterventionnn	manoeuvrevbtreatmentnn	ushernnofintreatmentnn	manoeuvrevbinterventionnn	maneuvervbtreatmentnn	steervbtreatmentnn	guidennofintreatmentnn	guidevbinterventionnn	channelisevbinterventionnn	channelisevbtreatmentnn	maneuvervbinterventionnn	headvbinterventionnn	manoeuvervbtreatmentnn	ushernnofininterventionnn	manoeuvervbinterventionnn	channelizevbinterventionnn	directvbinterventionnn	pointvbinterventionnn	headvbtreatmentnn	guidennofininterventionnn	directvbtreatmentnn	channelizevbtreatmentnn	
+
+BE: guideVByouPRP
+EQ class: ushernnofinyouprp	steervbyouprp	channelizevbyouprp	channelisevbyouprp	headvbyouprp	manoeuvrevbyouprp	maneuvervbyouprp	pointvbyouprp	guidennofinyouprp	manoeuvervbyouprp	directvbyouprp	
+
+BE: makeVBrecommendationsNNS
+EQ class: makevbtheynns	dovbrecommendationnns	dovbthemnns	dovbtheynns	dovbrecommendationsnns	makevbthemnns	makevbrecommendationnns	
+
+BE: makesVBZdecisionsNNS
+EQ class: dovbztheynns	makesvbzdeterminationnns	makesvbzthemnns	makesvbztheynns	makevbzdeterminationnns	makesvbzconclusionnns	makevbzdecisionnns	dovbzdeterminationnns	makesvbzdecisionnns	dovbzdecisionsnns	dovbzconclusionnns	makevbzdecisionsnns	dovbzthemnns	makevbzconclusionnns	makevbztheynns	dovbzdecisionnns	makevbzthemnns	
+
+BE: areAUXpro-activeJJ
+EQ class: areauxactivejj	beauxpro-activejj	areauxactivenessnn	beauxactivejj	beauxactivenessnn	areauxactivitynn	beauxactivitynn	
+
+BE: dealingVBGwithINdiseaseNN
+EQ class: treatvbgwithindiseasenn	plowvbgwithindiseasenn	handlevbgwithindiseasenn	covervbgwithindiseasenn	addressvbgwithindiseasenn	dealvbgwithindiseasenn	
+
+BE: getVBifINisAUX
+EQ class: acquirevbifinisaux	acquirevbifinbeaux	getvbifinbeaux	
+
+BE: areAUXnowRB
+EQ class: beauxnowrb	
+
+BE: Michael MoorePersonAnnotation
+EQ class: 
+
+BE: documentarianNN
+EQ class: 
+
+BE: insuranceNN
+EQ class: 
+
+BE: industryNN
+EQ class: 
+
+BE: areasNNS
+EQ class: arealjj	countrynns	areanns	theynns	themnns	
+
+BE: oncologistNN
+EQ class: 
+
+BE: childNN
+EQ class: tiddlernn	minornn	tikenn	small_frynn	frynn	shavernn	youngsternn	childlyjj	kidnn	nestlingnn	nippernn	tykenn	
+
+BE: compassionNN
+EQ class: compassionatenessnn	
+
+BE: expertiseNN
+EQ class: expertnessnn	expertjj	
+
+BE: knowledgeNN
+EQ class: cognitionnn	noesisnn	
+
+BE: tumorsNNS
+EQ class: theynns	tumornns	tumournns	neoplasmnns	themnns	
+
+BE: thinkVBP
+EQ class: conceivevbp	believevbp	considervbp	
+
+BE: enjoyVBP
+EQ class: baskvbp	relishvbp	savorvbp	savourvbp	
+
+BE: needsVBZ
+EQ class: involvevbz	demandvbz	requirevbz	askvbz	postulatevbz	necessitatevbz	takevbz	needvbz	call_forvbz	
+
+BE: fixedVBN
+EQ class: doctorvbn	restorevbn	touch_onvbn	fixvbn	bushelvbn	repairvbn	furbish_upvbn	mendvbn	
+
+BE: seenVBN
+EQ class: seevbn	
+
+BE: fightVB
+EQ class: contendvb	strugglevb	
+
+BE: keepVB
+EQ class: maintainvb	holdvb	
+
+BE: seenVBN
+EQ class: seevbn	
+
+BE: consultedVBN
+EQ class: consultvbn	confer_withvbn	
+
+BE: treatingVBG
+EQ class: do_byvbg	treatvbg	handlevbg	
+
+BE: knowVB
+EQ class: cognizevb	cognisevb	
+
+BE: brilliantJJ
+EQ class: superbjj	brilliancenn	brilliancynn	
+
+BE: workJJ
+EQ class: 
+
+BE: medicalJJ
+EQ class: medicinenn	medicalnn	
+
+BE: otherJJ
+EQ class: 
+
+BE: aliveJJ
+EQ class: alivenessnn	livejj	
+
+BE: brilliantJJdocumentarianNN
+EQ class: brilliancenndocumentariannn	brilliancynndocumentariannn	superbjjdocumentariannn	
+
+BE: medicalJJindustryNN
+EQ class: industrialistvbmedicallyrb	medicinennindustrynn	medicalnnindustrynn	
+
+BE: otherJJareasNNS
+EQ class: otherjjcountrynns	otherjjarealjj	otherjjareanns	otherjjtheynns	otherjjthemnns	
+
+BE: hisPRP$workJJ
+EQ class: michael mooreprp$workjj	workjjofinhisprp$	workjjofinmichael mooreprp$	httpprp$workjj	workjjofinhttpprp$	
+
+BE: yourPRP$childNN
+EQ class: yourprp$childhoodvb	youngsternnofinyourprp$	yourprp$tikenn	tiddlernnofinyourprp$	yourprp$youngsternn	nestlingnnofinyourprp$	tikennofinyourprp$	yourprp$tiddlernn	yourprp$kidnn	shavernnofinyourprp$	yourprp$childlyjj	childlyvbyourprp$	frynnofinyourprp$	small_frynnofinyourprp$	yourprp$minornn	nippernnofinyourprp$	yourprp$small_frynn	yourprp$nippernn	tykennofinyourprp$	childhoodvbyourprp$	yourprp$frynn	kidnnofinyourprp$	minornnofinyourprp$	yourprp$tykenn	yourprp$shavernn	childnnofinyourprp$	yourprp$nestlingnn	yourprp$childlyvb	childlyjjofinyourprp$	
+
+BE: theirPRP$compassionNN
+EQ class: feel_forvbtheirprp$	theirprp$pityvb	compassionnnofintheirprp$	theirprp$compassionatevb	theirprp$compassionatenessnn	theirprp$condole_withvb	theirprp$sympathize_withvb	pityvbtheirprp$	condole_withvbtheirprp$	compassionatevbtheirprp$	sympathize_withvbtheirprp$	theirprp$feel_forvb	compassionatenessnnofintheirprp$	
+
+BE: theirPRP$expertiseNN
+EQ class: expertjjofintheirprp$	theirprp$expertnessnn	expertnessnnofintheirprp$	expertisennofintheirprp$	theirprp$expertjj	expertvbtheirprp$	theirprp$expertvb	
+
+BE: insuranceNNindustryNN
+EQ class: industrynnsee_to_itvb	industrynnascertainvb	insurancennindustrialistvb	industrynncheckvb	industrynnensurevb	industrynninsurevb	industrynnofininsurancenn	industrynncontrolvb	industrialistvbinsurancenn	industrynnassurevb	industrynnseevb	
+
+BE: iPRPthinkVBP
+EQ class: iprpbelievevbp	iprpconceivevbp	thoughtnnofiniprp	ideanniprp	iprpconsidervbp	ideannofiniprp	thoughtnniprp	
+
+BE: Michael MoorePersonAnnotationisAUX
+EQ class: michael moorepersonannotationbeaux	
+
+BE: iPRPenjoyVBP
+EQ class: iprpbaskvbp	iprpsavorvbp	enjoymentnnofiniprp	iprpsavourvbp	enjoymentnniprp	enjoyernnofiniprp	enjoyernniprp	iprprelishvbp	
+
+BE: youPRPneedAUX
+EQ class: youprpaskaux	youprppostulateaux	youprprequireaux	youprptakeaux	youprpnecessitateaux	demandnnofinyouprp	neednnofinyouprp	youprpdemandaux	youprpcall_foraux	youprpinvolveaux	
+
+BE: themPRPfightVB
+EQ class: battlernnofinpatientsprp	fightnndrugshttp://www.fda.prp	combatnnofinrecommendationsprp	battlernnthemprp	battlernnofintumorsprp	fighternnpatientsprp	fightingnnfdaprp	battlennofinareasprp	scrapnnofinpatientsprp	conflictnnofinfdaprp	combatnnofinfdaprp	fightnncombinationsprp	combatnnofinthemprp	belligerentnnoncologistsprp	engagementnnofinareasprp	scrappernncombinationsprp	belligerentnntrialsprp	engagementnnofinpatientsprp	fightingnnofintrialsprp	scrapnntrialsprp	battlernnfdaprp	fightingnnpatientsprp	combatantnnofindrugsprp	fighternnofintrialsprp	belligerentnnofincombinationsprp	fighternnofinoncologistsprp	battlernncombinationsprp	fightnnofindrugshttp://www.fda.prp	combatantnncombinationsprp	combatantnnofincombinationsprp	patientsprpstrugglevb	recommendationsprpfightvb	fightingnnofinareasprp	fighternnofinrecommendationsprp	fighternnrecommendationsprp	combatantnnareasprp	combatantnnofinpatientsprp	scrapnnofindrugshttp://www.fda.prp	combatantnnofinoncologistsprp	fighternnofinpatientsprp	belligerentnnpatientsprp	battlernnofintrialsprp	conflictnnofinthemprp	fightingnnofinrecommendationsprp	fighternnfdaprp	scrappernnpatientsprp	drugsprpfightvb	combatantnnofinthemprp	belligerentnntumorsprp	combatantnnofinrecommendationsprp	belligerentnnrecommendationsprp	tumorsprpstrugglevb	combatnnofintrialsprp	fightingnnofinclinical trialsprp	decisionsprpfightvb	fighternnofindecisionsprp	scrappernnofintrialsprp	fighternnofindrugshttp://www.fda.prp	battlennofintrialsprp	belligerentnnofintumorsprp	combatantnndecisionsprp	fdaprpfightvb	scrapnntumorsprp	scrapnnofindecisionsprp	battlernndrugshttp://www.fda.prp	clinical trialsprpstrugglevb	fightnnthemprp	combatantnnthemprp	combatnnofinpatientsprp	tumorsprpfightvb	belligerentnnofindecisionsprp	battlernnofindrugshttp://www.fda.prp	battlennofinoncologistsprp	patientsprpcontendvb	fightnnofinoncologistsprp	tumorsprpcontendvb	scrapnnofinclinical trialsprp	fightingnnofintumorsprp	fightingnnofinpatientsprp	battlennofindrugshttp://www.fda.prp	trialsprpfightvb	combatantnntumorsprp	belligerentnncombinationsprp	scrappernnthemprp	battlernnofincombinationsprp	combatantnnofinfdaprp	combinationsprpstrugglevb	fightingnncombinationsprp	fightingnnthemprp	fightnnofindrugsprp	engagementnnofincombinationsprp	belligerentnnofindrugsprp	battlernntumorsprp	belligerentnnclinical trialsprp	fightnnofinclinical trialsprp	fightingnnofindrugsprp	fighternnofinthemprp	belligerentnndecisionsprp	scrappernnofinclinical trialsprp	fighternndrugshttp://www.fda.prp	scrapnncombinationsprp	combinationsprpfightvb	scrappernnareasprp	belligerentnnareasprp	fightnntrialsprp	scrapnnofinareasprp	scrapnnareasprp	scrapnnfdaprp	combatnntumorsprp	combatantnnofinclinical trialsprp	fightingnnareasprp	scrapnnofinfdaprp	fightingnntumorsprp	scrappernnofinpatientsprp	combatantnnpatientsprp	scrapnnclinical trialsprp	fightingnnofincombinationsprp	fightingnnofinfdaprp	combatnntrialsprp	combatnnpatientsprp	conflictnnofinoncologistsprp	combatnnofinclinical trialsprp	fighternndrugsprp	belligerentnnofinoncologistsprp	scrapnndrugsprp	scrapnnofincombinationsprp	fightnnpatientsprp	themprpstrugglevb	scrappernnofinareasprp	engagementnnofindrugsprp	battlernnrecommendationsprp	battlernnofindrugsprp	belligerentnnofinfdaprp	battlernnofinoncologistsprp	conflictnnofinrecommendationsprp	fightnnrecommendationsprp	scrappernnofinthemprp	combatantnnclinical trialsprp	oncologistsprpstrugglevb	combatantnnofinareasprp	fightingnnoncologistsprp	fightnnfdaprp	scrappernnofindrugsprp	belligerentnnofinpatientsprp	battlernnofinclinical trialsprp	battlernnclinical trialsprp	fighternnofincombinationsprp	belligerentnnofinthemprp	clinical trialsprpfightvb	recommendationsprpcontendvb	fdaprpcontendvb	combatantnndrugshttp://www.fda.prp	engagementnnofinrecommendationsprp	combinationsprpcontendvb	fightnnofinpatientsprp	engagementnnofinoncologistsprp	battlernnofinareasprp	battlennofindecisionsprp	battlennofindrugsprp	scrappernndrugshttp://www.fda.prp	scrappernndrugsprp	areasprpstrugglevb	battlennofincombinationsprp	decisionsprpcontendvb	fightingnntrialsprp	fighternnofinfdaprp	combatantnnrecommendationsprp	fightingnndrugshttp://www.fda.prp	combatnncombinationsprp	scrapnnpatientsprp	fightingnnclinical trialsprp	conflictnnofinareasprp	drugsprpstrugglevb	combatnnoncologistsprp	combatnnofinareasprp	combatantnnfdaprp	scrappernndecisionsprp	scrappernnfdaprp	fightnndrugsprp	drugshttp://www.fda.prpcontendvb	engagementnnofintrialsprp	drugshttp://www.fda.prpfightvb	combatantnnofindrugshttp://www.fda.prp	fightnnclinical trialsprp	fightnnofinrecommendationsprp	fighternnclinical trialsprp	scrapnnofintumorsprp	combatnnofindrugshttp://www.fda.prp	belligerentnnofintrialsprp	combatnndecisionsprp	combatnndrugsprp	belligerentnnthemprp	scrappernnofinrecommendationsprp	scrapnnofinoncologistsprp	fightnnofinthemprp	engagementnnofindrugshttp://www.fda.prp	combatnnclinical trialsprp	scrappernnofindrugshttp://www.fda.prp	combatnndrugshttp://www.fda.prp	battlernnofindecisionsprp	fightingnnofinoncologistsprp	combatantnnofintumorsprp	conflictnnofindecisionsprp	conflictnnofindrugsprp	fightnnofintrialsprp	engagementnnofintumorsprp	fightingnnofindrugshttp://www.fda.prp	battlernntrialsprp	fighternnofintumorsprp	fighternnareasprp	fighternnofinclinical trialsprp	scrapnnofinrecommendationsprp	scrappernnclinical trialsprp	battlernnofinrecommendationsprp	combatnnofintumorsprp	combatnnofincombinationsprp	fightnnofinfdaprp	scrapnnofintrialsprp	battlernndecisionsprp	scrappernntrialsprp	belligerentnnofinareasprp	fighternncombinationsprp	fightnnoncologistsprp	scrappernntumorsprp	fightnntumorsprp	fdaprpstrugglevb	recommendationsprpstrugglevb	battlernnofinthemprp	scrappernnrecommendationsprp	fighternndecisionsprp	drugshttp://www.fda.prpstrugglevb	combatnnareasprp	conflictnnofincombinationsprp	oncologistsprpfightvb	combatantnnofintrialsprp	scrappernnofinfdaprp	fightingnnrecommendationsprp	combatnnthemprp	conflictnnofinclinical trialsprp	scrapnndrugshttp://www.fda.prp	belligerentnnofinclinical trialsprp	fighternntrialsprp	trialsprpcontendvb	belligerentnnofinrecommendationsprp	battlennofinfdaprp	engagementnnofinfdaprp	oncologistsprpcontendvb	combatnnfdaprp	scrappernnofinoncologistsprp	battlernnareasprp	fightnnofinareasprp	scrappernnofintumorsprp	battlennofintumorsprp	battlernndrugsprp	fightnnofindecisionsprp	conflictnnofindrugshttp://www.fda.prp	battlennofinrecommendationsprp	combatantnnofindecisionsprp	fightnnofincombinationsprp	scrapnnrecommendationsprp	fighternnthemprp	battlernnofinfdaprp	trialsprpstrugglevb	decisionsprpstrugglevb	belligerentnndrugsprp	areasprpfightvb	combatnnofindrugsprp	belligerentnnofindrugshttp://www.fda.prp	battlennofinthemprp	engagementnnofinclinical trialsprp	fighternntumorsprp	fighternnoncologistsprp	fightnndecisionsprp	fightnnofintumorsprp	battlennofinclinical trialsprp	fightingnnofinthemprp	fightingnndecisionsprp	combatnnrecommendationsprp	fightingnnofindecisionsprp	fighternnofindrugsprp	scrappernnofindecisionsprp	combatantnndrugsprp	scrapnnthemprp	scrapnndecisionsprp	combatantnntrialsprp	engagementnnofinthemprp	themprpcontendvb	combatantnnoncologistsprp	scrapnnoncologistsprp	scrapnnofinthemprp	battlernnoncologistsprp	battlernnpatientsprp	scrappernnoncologistsprp	fightingnndrugsprp	combatnnofindecisionsprp	clinical trialsprpcontendvb	conflictnnofintumorsprp	scrapnnofindrugsprp	patientsprpfightvb	areasprpcontendvb	drugsprpcontendvb	conflictnnofinpatientsprp	scrappernnofincombinationsprp	fightnnareasprp	engagementnnofindecisionsprp	conflictnnofintrialsprp	fighternnofinareasprp	battlennofinpatientsprp	belligerentnnfdaprp	belligerentnndrugshttp://www.fda.prp	combatnnofinoncologistsprp	
+
+BE: youPRPseenVBN
+EQ class: seeingnnyouprp	visionarynnyouprp	seernnofinyouprp	visionarynnofinyouprp	seeingnnofinyouprp	visual_perceptionnnofinyouprp	illusionistnnyouprp	visual_perceptionnnyouprp	illusionistnnofinyouprp	beholdingnnyouprp	youprpseevbn	seernnyouprp	beholdingnnofinyouprp	
+
+BE: documentarianNNseenVBN
+EQ class: seernndocumentariannn	beholdingnndocumentariannn	illusionistnndocumentariannn	seeingnndocumentariannn	seernnofindocumentariannn	visual_perceptionnndocumentariannn	illusionistnnofindocumentariannn	seeingnnofindocumentariannn	visual_perceptionnnofindocumentariannn	visionarynndocumentariannn	visionarynnofindocumentariannn	beholdingnnofindocumentariannn	documentariannnseevbn	
+
+BE: isAUXdocumentarianNN
+EQ class: beauxdocumentariannn	
+
+BE: keepVBchildNN
+EQ class: maintainvbnestlingnn	maintainvbtiddlernn	maintainvbkidnn	maintainvbyoungsternn	keepvbfrynn	holdvbyoungsternn	holdvbchildlyjj	holdvbshavernn	holdvbfrynn	keepvbshavernn	holdvbsmall_frynn	holdvbtykenn	keepvbsmall_frynn	keepvbtykenn	keepvbtiddlernn	maintainvbtykenn	holdvbtikenn	holdvbnestlingnn	maintainvbshavernn	maintainvbchildnn	keepvbyoungsternn	keepvbkidnn	maintainvbminornn	keepvbtikenn	keepvbnippernn	maintainvbsmall_frynn	holdvbtiddlernn	maintainvbtikenn	keepvbchildlyjj	maintainvbchildlyjj	maintainvbnippernn	maintainvbfrynn	holdvbchildnn	holdvbminornn	holdvbkidnn	keepvbnestlingnn	keepvbminornn	holdvbnippernn	
+
+BE: seenVBNcompassionNN
+EQ class: visual_perceptionnnofincompassionatenessnn	visionarynnofincompassionatenessnn	visual_perceptionnnofincompassionnn	seernnofincompassionatenessnn	beholdingnnofincompassionnn	illusionistnnofincompassionnn	seenvbncompassionatenessnn	seeingnnofincompassionatenessnn	seevbncompassionatenessnn	beholdingnnofincompassionatenessnn	seernnofincompassionnn	seeingnnofincompassionnn	illusionistnnofincompassionatenessnn	visionarynnofincompassionnn	seevbncompassionnn	
+
+BE: treatingVBGtumorsNNS
+EQ class: treatingvbgtumournns	treatvbgtumornns	treatingvbgneoplasmnns	handlevbgtumournns	treatvbgtheynns	handlevbgtheynns	treatvbgtumournns	handlevbgthemnns	handlevbgtumorsnns	do_byvbgneoplasmnns	do_byvbgtumournns	do_byvbgtumorsnns	treatingvbgtumornns	do_byvbgtheynns	do_byvbgtumornns	do_byvbgthemnns	treatingvbgtheynns	handlevbgneoplasmnns	handlevbgtumornns	treatingvbgthemnns	treatvbgtumorsnns	treatvbgthemnns	treatvbgneoplasmnns	
+
+BE: seenVBNthemPRP
+EQ class: visionarynnofinpatientsprp	seenvbncombinationsprp	seenvbnclinical trialsprp	seernnofinthemprp	visual_perceptionnnofinareasprp	beholdingnnofinoncologistsprp	beholdingnnofincombinationsprp	seenvbndrugsprp	visionarynnofinfdaprp	seeingnnofindrugshttp://www.fda.prp	seevbndrugshttp://www.fda.prp	illusionistnnofindrugshttp://www.fda.prp	seevbnclinical trialsprp	seernnofintumorsprp	beholdingnnofinrecommendationsprp	beholdingnnofindrugshttp://www.fda.prp	illusionistnnofinareasprp	seeingnnofinfdaprp	illusionistnnofindecisionsprp	seernnofindrugsprp	seevbnfdaprp	visionarynnofinrecommendationsprp	visionarynnofinareasprp	seeingnnofinareasprp	illusionistnnofinpatientsprp	seenvbnoncologistsprp	seeingnnofinrecommendationsprp	seernnofinareasprp	visionarynnofinclinical trialsprp	beholdingnnofinthemprp	illusionistnnofindrugsprp	seeingnnofindecisionsprp	visual_perceptionnnofintrialsprp	seenvbnareasprp	visionarynnofindrugshttp://www.fda.prp	visual_perceptionnnofindrugsprp	visual_perceptionnnofintumorsprp	seenvbntrialsprp	illusionistnnofinthemprp	beholdingnnofinclinical trialsprp	seenvbntumorsprp	illusionistnnofinfdaprp	visual_perceptionnnofinfdaprp	seevbnthemprp	visual_perceptionnnofinoncologistsprp	visionarynnofintrialsprp	seeingnnofinclinical trialsprp	illusionistnnofincombinationsprp	visionarynnofinoncologistsprp	seevbndrugsprp	seernnofinoncologistsprp	seernnofincombinationsprp	beholdingnnofinpatientsprp	seenvbndrugshttp://www.fda.prp	seeingnnofindrugsprp	seernnofindecisionsprp	seernnofindrugshttp://www.fda.prp	visual_perceptionnnofinpatientsprp	seeingnnofinthemprp	seeingnnofintrialsprp	visionarynnofintumorsprp	illusionistnnofinrecommendationsprp	beholdingnnofindrugsprp	visual_perceptionnnofindrugshttp://www.fda.prp	visionarynnofindecisionsprp	seevbntrialsprp	seenvbndecisionsprp	seernnofinrecommendationsprp	illusionistnnofintumorsprp	beholdingnnofinfdaprp	seevbncombinationsprp	seeingnnofincombinationsprp	seeingnnofintumorsprp	seenvbnrecommendationsprp	illusionistnnofinoncologistsprp	seenvbnfdaprp	seeingnnofinoncologistsprp	illusionistnnofinclinical trialsprp	visual_perceptionnnofinthemprp	seevbnareasprp	seernnofinpatientsprp	beholdingnnofinareasprp	seevbnoncologistsprp	seernnofinclinical trialsprp	seernnofinfdaprp	visionarynnofindrugsprp	visionarynnofincombinationsprp	visual_perceptionnnofincombinationsprp	seevbndecisionsprp	visionarynnofinthemprp	illusionistnnofintrialsprp	beholdingnnofintumorsprp	beholdingnnofintrialsprp	visual_perceptionnnofinrecommendationsprp	seeingnnofinpatientsprp	seenvbnpatientsprp	visual_perceptionnnofinclinical trialsprp	seevbntumorsprp	visual_perceptionnnofindecisionsprp	seevbnrecommendationsprp	seevbnpatientsprp	beholdingnnofindecisionsprp	seernnofintrialsprp	
+
+BE: areasNNSofINhealthcareFW
+EQ class: healthcarefwarealjj	healthcarefwarealvb	areannsofinhealthcarefw	healthcarefwthemnns	healthcarefwareasnns	arealjjofinhealthcarefw	healthcarefwtheynns	arealvbhealthcarefw	themnnsofinhealthcarefw	healthcarefwareanns	countrynnsofinhealthcarefw	healthcarefwcountrynns	theynnsofinhealthcarefw	
+
+BE: themPRPforINexpertiseNN
+EQ class: patientsprpforinexpertnessnn	drugsprpforinexpertjj	areasprpforinexpertnessnn	fdaprpforinexpertnessnn	fdaprpforinexpertjj	tumorsprpforinexpertisenn	decisionsprpforinexpertjj	areasprpforinexpertjj	clinical trialsprpforinexpertnessnn	trialsprpforinexpertjj	patientsprpforinexpertjj	tumorsprpforinexpertnessnn	areasprpforinexpertisenn	themprpforinexpertnessnn	trialsprpforinexpertnessnn	oncologistsprpforinexpertnessnn	combinationsprpforinexpertjj	recommendationsprpforinexpertisenn	clinical trialsprpforinexpertisenn	fdaprpforinexpertisenn	oncologistsprpforinexpertisenn	recommendationsprpforinexpertjj	combinationsprpforinexpertisenn	recommendationsprpforinexpertnessnn	themprpforinexpertjj	drugshttp://www.fda.prpforinexpertjj	decisionsprpforinexpertisenn	tumorsprpforinexpertjj	patientsprpforinexpertisenn	drugsprpforinexpertisenn	oncologistsprpforinexpertjj	combinationsprpforinexpertnessnn	drugsprpforinexpertnessnn	clinical trialsprpforinexpertjj	decisionsprpforinexpertnessnn	trialsprpforinexpertisenn	drugshttp://www.fda.prpforinexpertnessnn	drugshttp://www.fda.prpforinexpertisenn	
+
+BE: needAUXofINoncologistNN
+EQ class: demandauxofinoncologistnn	necessitateauxofinoncologistnn	takeauxofinoncologistnn	askauxofinoncologistnn	involveauxofinoncologistnn	postulateauxofinoncologistnn	requireauxofinoncologistnn	call_forauxofinoncologistnn	
+
+BE: fixedVBNinINindustryNN
+EQ class: touch_onvbnininindustrynn	mendvbnininindustrynn	repairvbnininindustrynn	furbish_upvbnininindustrynn	bushelvbnininindustrynn	fixvbnininindustrynn	doctorvbnininindustrynn	restorevbnininindustrynn	
+
+BE: fixedVBNinINareasNNS
+EQ class: doctorvbnininarealjj	restorevbnininareanns	mendvbnininarealjj	fixvbninincountrynns	doctorvbninintheynns	furbish_upvbninincountrynns	doctorvbnininthemnns	touch_onvbninintheynns	restorevbnininthemnns	touch_onvbnininthemnns	fixedvbninincountrynns	fixedvbninintheynns	bushelvbninincountrynns	fixvbnininareanns	fixedvbnininthemnns	touch_onvbnininarealjj	restorevbnininarealjj	repairvbnininareasnns	fixvbnininarealjj	restorevbninintheynns	restorevbnininareasnns	repairvbnininarealjj	repairvbnininthemnns	fixedvbnininareanns	bushelvbninintheynns	touch_onvbnininareasnns	repairvbninincountrynns	fixvbnininareasnns	touch_onvbninincountrynns	bushelvbnininareanns	fixvbninintheynns	repairvbninintheynns	doctorvbninincountrynns	furbish_upvbnininarealjj	fixvbnininthemnns	mendvbninincountrynns	furbish_upvbninintheynns	restorevbninincountrynns	bushelvbnininareasnns	furbish_upvbnininareanns	bushelvbnininarealjj	mendvbnininareanns	mendvbninintheynns	repairvbnininareanns	mendvbnininthemnns	furbish_upvbnininareasnns	furbish_upvbnininthemnns	doctorvbnininareasnns	touch_onvbnininareanns	mendvbnininareasnns	bushelvbnininthemnns	fixedvbnininarealjj	doctorvbnininareanns	
+
+BE: beAUXuntilINseenVBN
+EQ class: beauxuntilinseevbn	
+
+BE: beAUXuntilINneedAUX
+EQ class: beauxuntilinnecessitateaux	beauxuntilindemandaux	beauxuntilincall_foraux	beauxuntilininvolveaux	beauxuntilinpostulateaux	beauxuntilinrequireaux	beauxuntilintakeaux	beauxuntilinaskaux	
+
+BE: fightVBkeepVB
+EQ class: fightingnnofinmaintainvb	conflictnnofinkeepvb	battlennofinkeepvb	battlernnofinholdvb	scrapnnofinmaintainvb	scrappernnofinmaintainvb	contendvbholdvb	contendvbkeepvb	conflictnnofinholdvb	fightnnofinkeepvb	belligerentnnofinkeepvb	fighternnofinholdvb	scrapnnofinholdvb	engagementnnofinmaintainvb	battlernnofinkeepvb	belligerentnnofinholdvb	strugglevbkeepvb	combatnnofinholdvb	combatnnofinkeepvb	fighternnofinmaintainvb	engagementnnofinholdvb	fightingnnofinkeepvb	contendvbmaintainvb	fighternnofinkeepvb	fightvbholdvb	engagementnnofinkeepvb	fightnnofinholdvb	battlernnofinmaintainvb	battlennofinholdvb	combatantnnofinmaintainvb	combatantnnofinholdvb	conflictnnofinmaintainvb	strugglevbmaintainvb	battlennofinmaintainvb	fightingnnofinholdvb	fightvbmaintainvb	combatnnofinmaintainvb	scrappernnofinkeepvb	scrappernnofinholdvb	fightnnofinmaintainvb	strugglevbholdvb	scrapnnofinkeepvb	combatantnnofinkeepvb	belligerentnnofinmaintainvb	
+
+BE: isAUXmuchRB
+EQ class: beauxmuchrb	
+
+BE: documentarianNNMichael MoorePersonAnnotation
+EQ class: michael moorepersonannotationdocumentariannn	
+
+BE: drugsNNS
+EQ class: drugnns	theynns	themnns	
+
+BE: trialsNNS
+EQ class: runnns	testnns	theynns	trialnns	themnns	
+
+BE: efficacyNN
+EQ class: efficaciousjj	efficaciousnessnn	
+
+BE: dosageNN
+EQ class: dosenn	
+
+BE: combinationsNNS
+EQ class: combinationnns	theynns	themnns	
+
+BE: agentNN
+EQ class: 
+
+BE: httpPersonAnnotation
+EQ class: 
+
+BE: //clinicaltrials.gov/ct/searchNN
+EQ class: huntingnn	huntnn	//clinicaltrialsgov/ct/searchnn	searchnn	
+
+BE: //clinicaltrials.gov/ct/searchNN
+EQ class: huntingnn	huntnn	//clinicaltrialsgov/ct/searchnn	searchnn	
+
+BE: term=Zevalin&submit=SearchNN
+EQ class: huntingnn	huntnn	searchnn	
+
+BE: undergoingVBG
+EQ class: undergovbg	
+
+BE: establishVB
+EQ class: foundvb	launchvb	set_upvb	
+
+BE: clincialJJ
+EQ class: 
+
+BE: differentJJ
+EQ class: differencenn	
+
+BE: betterJJR
+EQ class: 
+
+BE: singleJJ
+EQ class: individualjj	
+
+BE: twoCDdrugsNNS
+EQ class: 2cddrugsnns	2cdthemnns	iicdtheynns	deucecddrugsnns	deucecddrugnns	deucecdtheynns	twocdthemnns	deucecdthemnns	iicdthemnns	iicddrugsnns	2cddrugnns	2cdtheynns	twocddrugnns	twocdtheynns	iicddrugnns	
+
+BE: clincialJJtrialsNNS
+EQ class: clincialjjtheynns	clincialjjrunnns	clincialjjtestnns	clincialjjthemnns	clincialjjtrialnns	
+
+BE: differentJJcombinationsNNS
+EQ class: differencenncombinationsnns	unitevbdifferentlyrb	differencenntheynns	differentjjtheynns	differencenncombinationnns	differentjjthemnns	combinevbdifferentlyrb	differentjjcombinationnns	differencennthemnns	
+
+BE: singleJJagentNN
+EQ class: individualjjagentnn	agencyvbsinglyrb	
+
+BE: drugsNNSundergoingVBG
+EQ class: drugnnsundergovbg	drugnnsundergoingvbg	themnnsundergoingvbg	theynnsundergoingvbg	drugsnnsundergovbg	themnnsundergovbg	theynnsundergovbg	
+
+BE: trialsNNSestablishVB
+EQ class: establishmentnntheynns	testnnslaunchvb	testnnsfoundvb	themnnsestablishvb	organizationnnofintrialsnns	runnnsestablishvb	establishmentnnofintrialsnns	runnnsset_upvb	organisationnnthemnns	organizationnntrialnns	organisationnnofintestnns	runnnsfoundvb	constitutionnnofinrunnns	themnnslaunchvb	organizationnnofinthemnns	organizationnnthemnns	constitutionnnofintestnns	establishmentnntestnns	trialnnslaunchvb	trialsnnsset_upvb	constitutionnnrunnns	trialnnsfoundvb	organisationnntrialnns	constitutionnntestnns	organisationnntestnns	organizationnntheynns	formationnnthemnns	themnnsset_upvb	organizationnnofintheynns	formationnnrunnns	organisationnnofintrialnns	theynnsestablishvb	testnnsset_upvb	formationnnofintestnns	establishmentnnofintheynns	establishmentnnofinrunnns	establishmentnnofintestnns	trialsnnsfoundvb	organizationnnrunnns	organisationnnofinthemnns	organisationnnofinrunnns	themnnsfoundvb	establishmentnnofinthemnns	testnnsestablishvb	formationnnofintrialsnns	constitutionnnofintheynns	trialsnnslaunchvb	constitutionnnthemnns	formationnntrialsnns	organizationnnofinrunnns	constitutionnntrialnns	constitutionnnofintrialsnns	organizationnnofintrialnns	establishmentnnrunnns	formationnntrialnns	establishmentnntrialsnns	constitutionnntheynns	organisationnnofintheynns	establishmentnnofintrialnns	constitutionnnofinthemnns	runnnslaunchvb	formationnnofinrunnns	establishmentnnthemnns	organisationnntheynns	formationnnofintheynns	organizationnntestnns	organizationnntrialsnns	trialnnsset_upvb	theynnsfoundvb	trialnnsestablishvb	theynnslaunchvb	constitutionnnofintrialnns	establishmentnntrialnns	formationnnofintrialnns	organizationnnofintestnns	formationnntheynns	theynnsset_upvb	formationnnofinthemnns	formationnntestnns	organisationnnrunnns	organisationnntrialsnns	organisationnnofintrialsnns	constitutionnntrialsnns	
+
+BE: dosageNNareAUX
+EQ class: dosagennbeaux	dosennbeaux	dosennareaux	
+
+BE: combinationsNNSareAUX
+EQ class: themnnsbeaux	theynnsareaux	themnnsareaux	combinationnnsareaux	theynnsbeaux	combinationnnsbeaux	combinationsnnsbeaux	
+
+BE: establishVBefficacyNN
+EQ class: organisationnnofinefficaciousnessnn	establishmentnnofinefficaciousnessnn	constitutionnnofinefficaciousjj	constitutionnnofinefficaciousnessnn	foundvbefficaciousnessnn	constitutionnnofinefficacynn	set_upvbefficaciousnessnn	establishmentnnofinefficacynn	formationnnofinefficacynn	organizationnnofinefficaciousnessnn	organizationnnofinefficaciousjj	launchvbefficaciousnessnn	set_upvbefficacynn	foundvbefficacynn	formationnnofinefficaciousnessnn	organizationnnofinefficacynn	launchvbefficaciousjj	organisationnnofinefficacynn	set_upvbefficaciousjj	establishvbefficaciousjj	establishmentnnofinefficaciousjj	launchvbefficacynn	formationnnofinefficaciousjj	organisationnnofinefficaciousjj	establishvbefficaciousnessnn	foundvbefficaciousjj	
+
+BE: establishVBterm=Zevalin&submit=SearchNN
+EQ class: foundvbhuntnn	set_upvbsearchnn	foundvbsearchnn	organizationnnofinhuntingnn	launchvbterm=zevalin&submit=searchnn	launchvbhuntingnn	set_upvbhuntnn	organizationnnofinterm=zevalin&submit=searchnn	constitutionnnofinhuntingnn	organisationnnofinsearchnn	constitutionnnofinsearchnn	establishvbhuntnn	establishmentnnofinhuntnn	set_upvbterm=zevalin&submit=searchnn	foundvbhuntingnn	organizationnnofinsearchnn	formationnnofinterm=zevalin&submit=searchnn	launchvbsearchnn	organizationnnofinhuntnn	establishmentnnofinhuntingnn	establishvbsearchnn	organisationnnofinhuntingnn	formationnnofinsearchnn	set_upvbhuntingnn	foundvbterm=zevalin&submit=searchnn	launchvbhuntnn	constitutionnnofinhuntnn	formationnnofinhuntingnn	establishvbhuntingnn	organisationnnofinhuntnn	formationnnofinhuntnn	constitutionnnofinterm=zevalin&submit=searchnn	establishmentnnofinterm=zevalin&submit=searchnn	establishmentnnofinsearchnn	organisationnnofinterm=zevalin&submit=searchnn	
+
+BE: undergoingVBGtrialsNNS
+EQ class: undergoingvbgrunnns	undergoingvbgtrialnns	undergovbgtrialnns	undergovbgrunnns	undergoingvbgthemnns	undergovbgtrialsnns	undergovbgthemnns	undergoingvbgtestnns	undergovbgtestnns	undergovbgtheynns	undergoingvbgtheynns	
+
+BE: areAUXbetterJJR
+EQ class: beauxbetterjjr	
+
+BE: betterJJRthanINagentNN
+EQ class: 
+
+BE: areAUXstillRB
+EQ class: beauxstillrb	
+
+BE: undergoingVBGstillRB
+EQ class: undergovbgstillrb	
+

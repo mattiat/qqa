@@ -1,0 +1,69 @@
+BE: saturnNNP
+EQ class: 
+
+BE: sunNN
+EQ class: 
+
+BE: goVB
+EQ class: locomotevb	movevb	travelvb	
+
+BE: goVBaroundINsunNN
+EQ class: movevbaroundinsunnn	travelvbaroundinsunnn	locomotevbaroundinsunnn	
+
+BE: saturnNNP
+EQ class: 
+
+BE: takeVB
+EQ class: 
+
+BE: goVB
+EQ class: locomotevb	movevb	travelvb	
+
+BE: goVBtoTOsaturnNNP
+EQ class: movevbtotosaturnnnp	locomotevbtotosaturnnnp	travelvbtotosaturnnnp	
+
+BE: takeVBgoVB
+EQ class: takevbtravelvb	takevblocomotevb	takevbmovevb	
+
+BE: ringsNNS
+EQ class: theynns	themnns	
+
+BE: manyJJ
+EQ class: 
+
+BE: manyJJringsNNS
+EQ class: manyjjtheynns	manyjjthemnns	
+
+BE: saturnNNP
+EQ class: 
+
+BE: nameVB
+EQ class: callvb	
+
+BE: nameVBitPRP
+EQ class: callvbitprp	namingnnofinitprp	namennofinitprp	namernnofinitprp	
+
+BE: nameVBsaturnNNP
+EQ class: namernnofinsaturnnnp	callvbsaturnnnp	namennofinsaturnnnp	namingnnofinsaturnnnp	
+
+BE: ringsNNS
+EQ class: theynns	themnns	
+
+BE: saturnNNP
+EQ class: 
+
+BE: takeVB
+EQ class: 
+
+BE: goVB
+EQ class: locomotevb	movevb	travelvb	
+
+BE: ringsNNSgoVB
+EQ class: ringsnnslocomotevb	themnnsmovevb	themnnslocomotevb	ringsnnstravelvb	theynnstravelvb	themnnstravelvb	theynnsmovevb	theynnslocomotevb	theynnsgovb	ringsnnsmovevb	themnnsgovb	
+
+BE: goVBaroundINsaturnNNP
+EQ class: movevbaroundinsaturnnnp	locomotevbaroundinsaturnnnp	travelvbaroundinsaturnnnp	
+
+BE: takeVBforINgoVB
+EQ class: takevbforinlocomotevb	takevbforintravelvb	takevbforinmovevb	
+

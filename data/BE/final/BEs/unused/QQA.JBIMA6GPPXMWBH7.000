@@ -1,0 +1,50 @@
+#Just How Did ANTHONY COLPO Misinterperet The Women s Health Initiative 2006 Harmony - HE DID NOT?
+#(S1 (SBARQ (RB Just) (WHADVP (WRB How)) (SQ (AUX Did) (NP (NNP ANTHONY) (NNP COLPO) (NNP Misinterperet) (NNP The) (NNP Women) (NNP s) (NNP Health) (NNP Initiative) (CD 2006)) (VP (NN Harmony) (: -) (S (NP (PRP HE)) (VP (AUX DID) (RB NOT))))) (. ?)))
+#Rule:Nouns
+r1Just How Did ANTHONY COLPO Misinterperet The Women s HealthOrganizationAnnotation
+r1InitiativeNNP
+r1HarmonyNN
+
+#Rule:Adj-Noun
+r52006CDInitiativeNNP
+
+#Rule:N-HeadNoun
+r8Just How Did ANTHONY COLPO Misinterperet The Women s HealthOrganizationAnnotationInitiativeNNP
+
+#Rule:HeadNoun-V
+r11hePRPdidAUX
+
+#Rule:V-HeadNoun
+r22HarmonyNNhePRP
+
+#Rule:V-ADV
+r46didAUXNOTRB
+
+#You really should get your facts STRAIGHT before attacking Anthony ColpoYOU are the AMATUER.
+#(S1 (S (NP (PRP You)) (ADVP (RB really)) (VP (MD should) (VP (VB get) (NP (PRP$ your) (NNS facts)) (PP (RB STRAIGHT) (IN before) (S (VP (VBG attacking) (SBAR (S (NP (NNP Anthony) (NNP ColpoYOU)) (VP (AUX are) (NP (DT the) (NN AMATUER)))))))))) (. .)))
+#Rule:Nouns
+r1factsNNS
+r1Anthony ColpoYOUPersonAnnotation
+r1AMATUEROrganizationAnnotation
+
+#Rule:Verbs
+r2getVB
+r2attackingVBG
+
+#Rule:PRP-Noun
+r6yourPRP$factsNNS
+
+#Rule:HeadNoun-V
+r11youPRPgetVB
+r11Anthony ColpoYOUPersonAnnotationareAUX
+
+#Rule:V-HeadNoun
+r21getVBfactsNNS
+r21areAUXAMATUEROrganizationAnnotation
+
+#Rule:IS-RULE
+r47AMATUEROrganizationAnnotationAnthony ColpoYOUPersonAnnotation
+
+@lemmas-left	attacking	2006	get	Initiative	your	Harmony	AMATUER	did	you	he	are	Just How Did ANTHONY COLPO Misinterperet The Women s Health	fact	facts	harmony	do	Anthony ColpoYOU	attack	be	initiative	
+@lemmas-right	Initiative	get	AMATUER	did	he	not	fact	are	facts	NOT	Anthony ColpoYOU	do	initiative	be	
+@lemmas-center	

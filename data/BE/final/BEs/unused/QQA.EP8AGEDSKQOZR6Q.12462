@@ -1,0 +1,24 @@
+#By running around after 3 children all day !!!
+#(S1 (S (PP (IN By) (S (VP (VBG running) (PRT (RP around)) (PP (IN after) (NP (CD 3) (NNS children)))))) (NP (DT all) (NN day)) (VP (VBZ !!)) (. !)))
+#Rule:Nouns
+r1childrenNNS
+r1dayNN
+
+#Rule:Verbs
+r2!!!LocationAnnotation
+
+#Rule:V-PRT
+r3runningVBGaroundRP
+
+#Rule:Adj-Noun
+r53CDchildrenNNS
+
+#Rule:HeadNoun-V
+r11dayNN!!!LocationAnnotation
+
+#Rule:PPinVP
+r30runningVBGafterINchildrenNNS
+
+@lemmas-left	3	child	!!!	children	day	run	running	
+@lemmas-right	child	!!!	children	around	
+@lemmas-center	after	

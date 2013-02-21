@@ -1,0 +1,51 @@
+#Try getting an account on reunion.com. 
+#(S1 (S (VP (VB Try) (VP (VBG getting) (NP (DT an) (NN account)) (PP (IN on) (NP (NN reunion.com))))) (. .)))
+#Rule:Nouns
+r1accountNN
+r1reunion.comNN
+
+#Rule:Verbs
+r2tryVB
+r2gettingVBG
+
+#Rule:V-HeadNoun
+r21gettingVBGaccountNN
+
+#Rule:PPinVP
+r30gettingVBGonINreunion.comNN
+
+#It s not just for high schools it s for long lost family and friends.
+#(S1 (S (NP (PRP It)) (VP (VBZ s) (PP (ADVP (RB not) (RB just)) (IN for) (NP (NP (JJ high) (NNS schools)) (SBAR (S (NP (PRP it)) (VP (VBZ s) (PP (IN for) (NP (JJ long) (VBN lost) (NN family) (CC and) (NNS friends))))))))) (. .)))
+#Rule:Nouns
+r1schoolsNNS
+r1familyNN
+r1friendsNNS
+
+#Rule:Verbs
+r2sVBZ
+r2sVBZ
+r2lostVBN
+
+#Rule:Adjs
+r4highJJ
+r4longJJ
+
+#Rule:Adj-Noun
+r5highJJschoolsNNS
+r5longJJfamilyNN
+r5lostVBNfamilyNN
+
+#Rule:HeadNoun-V
+r11itPRPsVBZ
+r11itPRPsVBZ
+
+#Rule:NP(NP(z) SBAR(S(NP(x)VP(y))))
+r19sVBZschoolsNNS
+
+#Rule:PPinVP
+r30sVBZforINschoolsNNS
+r30sVBZforINfamilyNN
+
+@lemmas-left	getting	it	reunion.com	lost	get	long	lose	school	friends	schools	s	family	account	high	try	friend	
+@lemmas-right	school	reunion.com	s	schools	family	account	
+@lemmas-center	for	on	

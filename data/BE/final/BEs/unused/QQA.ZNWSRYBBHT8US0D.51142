@@ -1,0 +1,65 @@
+#Dude ok is short for okay.  
+#(S1 (S (NP (JJ Dude) (NN ok)) (VP (AUX is) (ADJP (JJ short) (PP (IN for) (ADJP (JJ okay))))) (. .)))
+#Rule:Nouns
+r1okLocationAnnotation
+
+#Rule:Adjs
+r4DudeJJ
+r4shortJJ
+r4okayLocationAnnotation
+
+#Rule:Adj-Noun
+r5DudeJJokLocationAnnotation
+
+#Rule:HeadNoun-V
+r11okLocationAnnotationisAUX
+
+#Rule:V-ADJ
+r25isAUXshortJJ
+
+#What else.  
+#(S1 (X (SBARQ (WHNP (WP What)) (ADVP (RB else))) (. .)))
+#You see poeple through the years shorten things so that it won t take as much time.
+#(S1 (S (NP (PRP You)) (VP (VBP see) (NP (NN poeple)) (PP (IN through) (NP (DT the) (NNS years))) (VP (VB shorten) (NP (NNS things)) (SBAR (RB so) (IN that) (S (NP (PRP it)) (VP (VBD won) (S (NP (NNP t)) (VP (VB take) (NP (ADJP (RB as) (JJ much)) (NN time))))))))) (. .)))
+#Rule:Nouns
+r1poepleNN
+r1yearsNNS
+r1thingsNNS
+r1tLocationAnnotation
+r1timeNN
+
+#Rule:Verbs
+r2seeVBP
+r2shortenVB
+r2wonVBD
+r2takeVB
+
+#Rule:Adjs
+r4muchJJ
+
+#Rule:Adj-Noun
+r5muchJJtimeNN
+
+#Rule:HeadNoun-V
+r11youPRPseeVBP
+r11youPRPshortenVB
+r11itPRPwonVBD
+r11tLocationAnnotationtakeVB
+
+#Rule:V-HeadNoun
+r21seeVBPpoepleNN
+r21shortenVBthingsNNS
+r21takeVBtimeNN
+
+#Rule:V-HeadNoun
+r22wonVBDtLocationAnnotation
+
+#Rule:PPinVP
+r30seeVBPthroughINyearsNNS
+
+#Rule:V-IN-V
+r43shortenVBthatINwonVBD
+
+@lemmas-left	is	it	Dude	you	win	much	short	shorten	time	okay	t	see	dude	take	ok	won	poeple	years	things	be	
+@lemmas-right	is	win	short	time	shorten	t	see	take	ok	years	won	poeple	things	be	
+@lemmas-center	that	through	

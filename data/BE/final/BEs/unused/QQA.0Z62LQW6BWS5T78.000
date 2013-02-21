@@ -1,0 +1,40 @@
+#Evolution says that we evolved from Monkeys, if this is true then why are the monkys still here?
+#(S1 (S (NP (NN Evolution)) (VP (VBZ says) (SBAR (IN that) (S (NP (PRP we)) (VP (VBD evolved) (PP (IN from) (NP (NNS Monkeys))) (, ,) (SBAR (IN if) (S (NP (DT this)) (VP (AUX is) (ADJP (JJ true)) (ADVP (RB then)) (SBAR (WHADVP (WRB why)) (S (VP (AUX are) (NP (DT the) (NNS monkys)) (ADVP (RB still)) (ADVP (RB here)))))))))))) (. ?)))
+#Rule:Nouns
+r1EvolutionNN
+r1MonkeysPersonAnnotation
+r1monkysOrganizationAnnotation
+
+#Rule:Verbs
+r2saysVBZ
+r2evolvedVBD
+
+#Rule:Adjs
+r4trueJJ
+
+#Rule:HeadNoun-V
+r11EvolutionNNsaysVBZ
+r11wePRPevolvedVBD
+r11thisDTisAUX
+
+#Rule:V-HeadNoun
+r21areAUXmonkysOrganizationAnnotation
+
+#Rule:V-ADJ
+r25isAUXtrueJJ
+
+#Rule:PPinVP
+r30evolvedVBDfromINMonkeysPersonAnnotation
+
+#Rule:V-IN-V
+r43saysVBZthatINevolvedVBD
+r43evolvedVBDifINisAUX
+
+#Rule:V-ADV
+r46isAUXthenRB
+r46areAUXstillRB
+r46areAUXhereRB
+
+@lemmas-left	monkys	is	Monkeys	true	evolution	are	say	says	evolved	this	Evolution	evolve	we	be	
+@lemmas-right	monkys	is	Monkeys	then	say	here	true	says	still	evolved	evolve	be	
+@lemmas-center	that	if	from	

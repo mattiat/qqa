@@ -1,0 +1,72 @@
+#how long do saturn go around the sun?
+#(S1 (SBARQ (WHADVP (WRB how) (RB long)) (SQ (AUX do) (NP (NNP saturn)) (VP (VB go) (PP (IN around) (NP (DT the) (NN sun))))) (. ?)))
+#Rule:Nouns
+r1saturnNNP
+r1sunNN
+
+#Rule:Verbs
+r2goVB
+
+#Rule:PPinVP
+r30goVBaroundINsunNN
+
+#how long does it take to go to saturn?
+#(S1 (SBARQ (WHADVP (WRB how) (RB long)) (SQ (AUX does) (NP (PRP it)) (VP (VB take) (S (VP (TO to) (VP (VB go) (PP (TO to) (NP (NNP saturn)))))))) (. ?)))
+#Rule:Nouns
+r1saturnNNP
+
+#Rule:Verbs
+r2takeVB
+r2goVB
+
+#Rule:PPinVP
+r30goVBtoTOsaturnNNP
+
+#Rule:V-V
+r44takeVBgoVB
+
+#how many rings?
+#(S1 (FRAG (WHADVP (WRB how)) (NP (JJ many) (NNS rings)) (. ?)))
+#Rule:Nouns
+r1ringsNNS
+
+#Rule:Adjs
+r4manyJJ
+
+#Rule:Adj-Noun
+r5manyJJringsNNS
+
+#why did they name it saturn?
+#(S1 (SBARQ (WHADVP (WRB why)) (SQ (AUX did) (NP (PRP they)) (VP (VB name) (NP (PRP it)) (NP (NNP saturn)))) (. ?)))
+#Rule:Nouns
+r1saturnNNP
+
+#Rule:Verbs
+r2nameVB
+
+#Rule:V-HeadNoun
+r21nameVBitPRP
+r21nameVBsaturnNNP
+
+#how long does it take for the rings to go around saturn?
+#(S1 (SBARQ (WHADVP (WRB how) (RB long)) (SQ (AUX does) (NP (PRP it)) (VP (VB take) (SBAR (IN for) (S (NP (DT the) (NNS rings)) (VP (TO to) (VP (VB go) (PP (IN around) (NP (NNP saturn))))))))) (. ?)))
+#Rule:Nouns
+r1ringsNNS
+r1saturnNNP
+
+#Rule:Verbs
+r2takeVB
+r2goVB
+
+#Rule:HeadNoun-V
+r11ringsNNSgoVB
+
+#Rule:PPinVP
+r30goVBaroundINsaturnNNP
+
+#Rule:V-IN-V
+r43takeVBforINgoVB
+
+@lemmas-left	many	take	name	rings	saturn	sun	go	
+@lemmas-right	it	rings	saturn	sun	go	
+@lemmas-center	to	for	around	

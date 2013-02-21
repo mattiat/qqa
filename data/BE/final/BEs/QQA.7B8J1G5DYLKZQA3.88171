@@ -1,0 +1,66 @@
+#Love him, assure him, just be there for him..
+#(S1 (S (VP (VB Love) (S (NP (PRP him)) (, ,) (VP (VP (VB assure) (NP (PRP him))) (, ,) (ADVP (RB just)) (VP (AUX be) (ADVP (RB there)) (PP (IN for) (NP (PRP him))))) (. .))) (. .)))
+#Rule:Verbs
+r2loveVB
+r2assureVB
+
+#Rule:HeadNoun-V
+r11himPRPassureVB
+r11himPRPbeAUX
+
+#Rule:V-HeadNoun
+r21assureVBhimPRP
+
+#Rule:V-HeadNoun
+r22loveVBhimPRP
+
+#Rule:PPinVP
+r30beAUXforINhimPRP
+
+#Rule:V-ADV
+r46assureVBjustRB
+r46beAUXjustRB
+r46beAUXthereRB
+
+#Cancer has affected my life a lot, and i understand how hard it is..
+#(S1 (S (S (NP (NN Cancer)) (VP (AUX has) (VP (VBN affected) (NP (PRP$ my) (NN life)) (NP (DT a) (NN lot))))) (, ,) (CC and) (S (NP (PRP i)) (VP (VBP understand) (SBAR (WHADJP (WRB how) (JJ hard)) (S (NP (PRP it)) (VP (AUX is))) (. .)))) (. .)))
+#Rule:Nouns
+r1CancerOrganizationAnnotation
+r1lifeNN
+r1lotNN
+
+#Rule:Verbs
+r2affectedVBN
+r2understandVBP
+
+#Rule:Adjs
+r4hardJJ
+
+#Rule:PRP-Noun
+r6myPRP$lifeNN
+
+#Rule:HeadNoun-V
+r11iPersonAnnotationunderstandVBP
+r11itPRPisAUX
+
+#Rule:HeadNoun-V
+r12CancerOrganizationAnnotationaffectedVBN
+
+#Rule:V-HeadNoun
+r21affectedVBNlifeNN
+r21affectedVBNlotNN
+
+#Listen to him allyou can.
+#(S1 (S (VP (VB Listen) (PP (TO to) (NP (PRP him))) (SBAR (S (NP (NN allyou)) (VP (MD can))))) (. .)))
+#Rule:Nouns
+r1allyouNN
+
+#Rule:Verbs
+r2listenVB
+
+#Rule:PPinVP
+r30listenVBtoTOhimPRP
+
+@lemmas-left	it	understand	him	assure	affect	my	Cancer	i	love	affected	allyou	life	lot	listen	hard	be	
+@lemmas-right	affected	just	is	understand	life	there	lot	him	affect	assure	be	
+@lemmas-center	to	for	

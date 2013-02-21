@@ -1,0 +1,158 @@
+#no one can answer this question. 
+#(S1 (S (NP (DT no) (PRP one)) (VP (MD can) (VP (VB answer) (NP (DT this) (NN question)))) (. .)))
+#Rule:Nouns
+r1questionNN
+
+#Rule:Verbs
+r2answerVB
+
+#Rule:HeadNoun-V
+r11onePRPanswerVB
+
+#Rule:V-HeadNoun
+r21answerVBquestionNN
+
+#When its our time we will go. 
+#(S1 (S (SBAR (WHADVP (WRB When)) (S (NP (PRP$ its)) (NP (PRP$ our) (NN time)))) (NP (PRP we)) (VP (MD will) (VP (VB go))) (. .)))
+#Rule:Nouns
+r1timeNN
+
+#Rule:Verbs
+r2goVB
+
+#Rule:PRP-Noun
+r6ourPRP$timeNN
+
+#Rule:HeadNoun-V
+r11wePRPgoVB
+
+#Oncologist can give an estimation but they don t know either. 
+#(S1 (S (S (NP (NNP Oncologist)) (VP (MD can) (VP (VB give) (NP (DT an) (NN estimation))))) (CC but) (S (NP (PRP they)) (VP (VB don) (S (NP (NNS t)) (VP (VB know) (ADVP (RB either)))))) (. .)))
+#Rule:Nouns
+r1OncologistNNP
+r1estimationNN
+r1tNNS
+
+#Rule:Verbs
+r2giveVB
+r2donVB
+r2knowVB
+
+#Rule:HeadNoun-V
+r11OncologistNNPgiveVB
+r11theyPRPdonVB
+r11tNNSknowVB
+
+#Rule:V-HeadNoun
+r21giveVBestimationNN
+
+#Rule:V-HeadNoun
+r22donVBtNNS
+
+#Rule:V-ADV
+r46knowVBeitherRB
+
+#Dr s don t like to be put in this situation because they don tknow either. 
+#(S1 (S (NP (NNP Dr) (NNP s) (NNP don) (NNS t)) (VP (VBP like) (S (VP (TO to) (VP (AUX be) (VP (VBN put) (PP (IN in) (NP (DT this) (NN situation))) (SBAR (IN because) (S (NP (PRP they)) (VP (VB don) (S (VP (VB tknow) (ADVP (RB either)))))))))))) (. .)))
+#Rule:Nouns
+r1Dr s don tPersonAnnotation
+r1situationNN
+
+#Rule:Verbs
+r2likeVBP
+r2putVBN
+r2donVB
+r2tknowVB
+
+#Rule:HeadNoun-V
+r11Dr s don tPersonAnnotationlikeVBP
+r11theyPRPdonVB
+
+#Rule:PPinVP
+r32putVBNinINsituationNN
+
+#Rule:V-IN-V
+r43putVBNbecauseINdonVB
+
+#Rule:V-ADV
+r46tknowVBeitherRB
+
+#I was told that I would die from cancer but not tomorrow. 
+#(S1 (S (NP (PRP I)) (VP (AUX was) (VP (VBN told) (SBAR (IN that) (S (NP (PRP I)) (VP (MD would) (VP (VB die) (PP (PP (IN from) (NP (NN cancer))) (CONJP (CC but) (RB not)) (NP (NN tomorrow))))))))) (. .)))
+#Rule:Nouns
+r1cancerNN
+r1tomorrowNN
+
+#Rule:Verbs
+r2toldVBN
+r2dieVB
+
+#Rule:HeadNoun-V
+r11iPRPdieVB
+
+#Rule:V-HeadNoun(passive)
+r23toldVBNiPRP
+
+#Rule:V-IN-V
+r43toldVBNthatINdieVB
+
+#I feel as if i could possible die from something else before cancer gets me. 
+#(S1 (S (NP (PRP I)) (VP (VBP feel) (SBAR (IN as) (IN if) (S (NP (PRP i)) (VP (MD could) (RB possible) (VP (VB die) (PP (IN from) (NP (NP (NN something)) (ADJP (RB else)))) (SBAR (IN before) (S (NP (NN cancer)) (VP (VBZ gets) (NP (PRP me)))))))))) (. .)))
+#Rule:Nouns
+r1somethingNN
+r1cancerNN
+
+#Rule:Verbs
+r2feelVBP
+r2dieVB
+r2getsVBZ
+
+#Rule:HeadNoun-V
+r11iPRPfeelVBP
+r11iLocationAnnotationdieVB
+r11cancerNNgetsVBZ
+
+#Rule:V-HeadNoun
+r21getsVBZmePRP
+
+#Rule:PPinVP
+r30dieVBfromINsomethingNN
+
+#Rule:V-IN-V
+r43feelVBPasINdieVB
+r43dieVBbeforeINgetsVBZ
+
+#You just have to keep on living and treating the next day like it will be your last.
+#(S1 (S (NP (PRP You)) (ADVP (RB just)) (VP (AUX have) (S (VP (TO to) (VP (VB keep) (PP (IN on) (S (VP (VBG living) (CC and) (VBG treating) (NP (DT the) (JJ next) (NN day) (SBAR (IN like) (S (NP (PRP it)) (VP (MD will) (VP (AUX be) (NP (PRP$ your) (JJ last)))))))))))))) (. .)))
+#Rule:Nouns
+r1dayNN
+
+#Rule:Verbs
+r2keepVB
+r2livingVBG
+r2treatingVBG
+
+#Rule:Adjs
+r4nextJJ
+r4lastJJ
+
+#Rule:Adj-Noun
+r5nextJJdayNN
+
+#Rule:PRP-Noun
+r6yourPRP$lastJJ
+
+#Rule:HeadNoun-V
+r11youPRPhaveAUX
+r11itPRPbeAUX
+
+#Rule:V-HeadNoun
+r21livingVBGdayNN
+r21beAUXlastJJ
+
+#Rule:V-ADV
+r46haveAUXjustRB
+
+@lemmas-left	they	put	last	don	tomorrow	have	give	estimation	next	one	treating	time	Dr s don t	die	tell	something	question	situation	be	live	feel	it	get	your	gets	told	answer	oncologist	you	living	like	know	i	t	Oncologist	day	our	cancer	treat	keep	we	go	tknow	
+@lemmas-right	just	feel	last	get	don	have	give	estimation	gets	answer	like	know	i	time	either	t	die	me	day	something	question	situation	be	go	
+@lemmas-center	because	that	before	as	from	in	

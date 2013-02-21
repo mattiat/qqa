@@ -1,0 +1,75 @@
+#Get a good sleep and then commit to something that will make a difference in people lives. 
+#(S1 (S (VP (VP (VB Get) (NP (DT a) (JJ good) (NN sleep))) (CC and) (RB then) (VP (VB commit) (PP (TO to) (NP (NP (NN something)) (SBAR (WHNP (WDT that)) (S (VP (MD will) (VP (VB make) (NP (NP (DT a) (NN difference)) (PP (IN in) (NP (NNS people) (NNS lives)))))))))))) (. .)))
+#Rule:Nouns
+r1sleepNN
+r1somethingNN
+r1differenceNN
+r1peopleNNS
+r1livesNNS
+
+#Rule:Verbs
+r2getVB
+r2commitVB
+r2makeVB
+
+#Rule:Adjs
+r4goodJJ
+
+#Rule:Adj-Noun
+r5goodJJsleepNN
+
+#Rule:N-HeadNoun
+r8peopleNNSlivesNNS
+
+#Rule:HeadNoun-(who/that)-V
+r14somethingNNmakeVB
+
+#Rule:V-HeadNoun
+r21getVBsleepNN
+r21makeVBdifferenceNN
+
+#Rule:PPinNP
+r26differenceNNinINlivesNNS
+
+#Rule:PPinVP
+r30commitVBtoTOsomethingNN
+
+#Work creative things. 
+#(S1 (S (VP (VB Work) (NP (JJ creative) (NNS things))) (. .)))
+#Rule:Nouns
+r1thingsNNS
+
+#Rule:Verbs
+r2workVB
+
+#Rule:Adjs
+r4creativeJJ
+
+#Rule:Adj-Noun
+r5creativeJJthingsNNS
+
+#Rule:V-HeadNoun
+r21workVBthingsNNS
+
+#Deserve to be important. 
+#(S1 (S (VP (VB Deserve) (S (VP (TO to) (VP (AUX be) (ADJP (JJ important)))))) (. .)))
+#Rule:Verbs
+r2deserveVB
+
+#Rule:Adjs
+r4importantJJ
+
+#Rule:V-ADJ
+r25beAUXimportantJJ
+
+#That s all.
+#(S1 (S (NP (DT That)) (VP (VBZ s) (NP (DT all))) (. .)))
+#Rule:Verbs
+r2s aLocationAnnotation
+
+#Rule:HeadNoun-V
+r11thatDTs aLocationAnnotation
+
+@lemmas-left	deserve	work	get	creative	important	good	sleep	people	difference	that	life	commit	s a	lives	something	things	make	be	
+@lemmas-right	difference	life	s a	important	lives	things	something	sleep	make	
+@lemmas-center	to	in	

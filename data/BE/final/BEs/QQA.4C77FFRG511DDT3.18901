@@ -1,0 +1,282 @@
+#no youreamong thousands of adolescents.
+#(S1 (NP (NP (DT no) (VBG youreamong) (NNS thousands)) (PP (IN of) (NP (NNS adolescents))) (. .)))
+#Rule:Nouns
+r1thousandsNNS
+r1adolescentsLocationAnnotation
+
+#Rule:Verbs
+r2youreamongVBG
+
+#Rule:Adj-Noun
+r5youreamongVBGthousandsNNS
+
+#Rule:PPinNP
+r26thousandsNNSofINadolescentsLocationAnnotation
+
+# who are diagnosed as being bi-polar.
+#(S1 (SBARQ (WHNP (WP who)) (SQ (VP (AUX are) (VP (VBN diagnosed) (PP (IN as) (S (VP (AUXG being) (ADJP (JJ bi-polar)))))))) (. .)))
+#Rule:Verbs
+r2diagnosedVBN
+
+#Rule:Adjs
+r4bi-polarJJ
+
+#Rule:V-ADJ
+r25beingAUXGbi-polarJJ
+
+# you need to go mental health.
+#(S1 (S (NP (PRP you)) (VP (AUX need) (S (VP (TO to) (VP (VB go) (NP (JJ mental) (NN health)))))) (. .)))
+#Rule:Nouns
+r1healthNN
+
+#Rule:Verbs
+r2goVB
+
+#Rule:Adjs
+r4mentalJJ
+
+#Rule:Adj-Noun
+r5mentalJJhealthNN
+
+#Rule:HeadNoun-V
+r11youPRPneedAUX
+
+#Rule:V-HeadNoun
+r21goVBhealthNN
+
+# ask to be seen by a counselor.
+#(S1 (S (VP (VB ask) (S (VP (TO to) (VP (AUX be) (VP (VBN seen) (PP (IN by) (NP (DT a) (NN counselor)))))))) (. .)))
+#Rule:Nouns
+r1counselorNN
+
+#Rule:Verbs
+r2askVB
+r2seenVBN
+
+#Rule:V-By-Agent
+r13counselorNNseenVBN
+
+# when you start thinking about suicide you definately need advice.
+#(S1 (S (SBAR (WHADVP (WRB when)) (S (NP (PRP you)) (VP (VBP start) (VP (VBG thinking) (PP (IN about) (NP (NN suicide))))))) (NP (PRP you)) (ADVP (RB definately)) (VP (AUX need) (NP (NN advice))) (. .)))
+#Rule:Nouns
+r1suicideNN
+r1adviceNN
+
+#Rule:Verbs
+r2startVBP
+r2thinkingVBG
+
+#Rule:HeadNoun-V
+r11youPRPneedAUX
+r11youPRPstartVBP
+r11youPRPthinkingVBG
+
+#Rule:V-HeadNoun
+r21needAUXadviceNN
+
+#Rule:PPinVP
+r30thinkingVBGaboutINsuicideNN
+
+#Rule:(SBAR+WHADVP)inS
+r42needAUXwhenWRBthinkingVBG
+
+#Rule:V-ADV
+r46needAUXdefinatelyRB
+
+# and you cannot really get this on yahoo answers.
+#(S1 (S (CC and) (NP (PRP you)) (VP (VBP cannot) (SBAR (S (ADVP (RB really)) (VP (VBP get) (NP (DT this)) (PP (IN on) (NP (NN yahoo) (NNS answers))))))) (. .)))
+#Rule:Nouns
+r1yahooLocationAnnotation
+r1answersNNS
+
+#Rule:Verbs
+r2cannotVBP
+r2getVBP
+
+#Rule:N-HeadNoun
+r8yahooLocationAnnotationanswersNNS
+
+#Rule:HeadNoun-V
+r11youPRPcannotVBP
+
+#Rule:V-HeadNoun
+r21getVBPthisDT
+
+#Rule:PPinVP
+r30getVBPonINanswersNNS
+
+#Rule:V-ADV
+r46getVBPreallyRB
+
+# the thing you need to think about is who and how many will still be here grieving theirselves to death missing someone whom they loved very much.
+#(S1 (S (NP (NP (DT the) (NN thing)) (SBAR (S (NP (PRP you)) (VP (AUX need) (VP (TO to) (VP (VB think) (ADVP (RB about)))))))) (VP (AUX is) (SBARQ (WHNP (WP who)) (CC and) (WHADJP (WRB how) (JJ many)) (SQ (VP (MD will) (ADVP (RB still)) (VP (AUX be) (VP (ADVP (RB here)) (VBG grieving) (NP (NNS theirselves)) (PP (TO to) (NP (NP (NN death) (VBG missing) (NN someone)) (SBAR (WHNP (WP whom)) (S (NP (PRP they)) (VP (VBD loved) (ADVP (RB very) (RB much))))))))))))) (. .)))
+#Rule:Nouns
+r1thingNN
+r1theirselvesNNS
+r1deathNN
+r1someoneNN
+
+#Rule:Verbs
+r2thinkVB
+r2grievingVBG
+r2missingVBG
+r2lovedVBD
+
+#Rule:Adjs
+r4manyJJ
+
+#Rule:Adj-Noun
+r5missingVBGsomeoneNN
+
+#Rule:HeadNoun-V
+r11thingNNisAUX
+r11youPRPthinkVB
+r11theyPRPlovedVBD
+
+#Rule:NP(NP(z) SBAR(S(NP(x)VP(y))))
+r19thinkVBthingNN
+
+#Rule:V-HeadNoun
+r21grievingVBGtheirselvesNNS
+
+#Rule:PPinVP
+r30grievingVBGtoTOsomeoneNN
+
+#Rule:V-ADV
+r46thinkVBaboutRB
+r46beAUXstillRB
+r46grievingVBGhereRB
+r46lovedVBDveryRB
+r46lovedVBDmuchRB
+
+# suicide isnt the answer, believe me.
+#(S1 (S (NP (NN suicide)) (VP (VBD isnt) (NP (DT the) (NN answer)) (, ,) (S (VP (VB believe) (NP (PRP me))))) (. .)))
+#Rule:Nouns
+r1suicideNN
+r1answerNN
+
+#Rule:Verbs
+r2isntVBD
+r2believeVB
+
+#Rule:HeadNoun-V
+r11suicideNNisntVBD
+
+#Rule:V-HeadNoun
+r21isntVBDanswerNN
+r21believeVBmePRP
+
+#Rule:V-MOD
+r45isntVBDbelieveVB
+
+# if you are this bad off please tell your parents if they will not listen you call rescue squad and tell them you need help and you need it now.
+#(S1 (S (SBAR (IN if) (S (NP (PRP you)) (VP (AUX are) (ADJP (RB this) (JJ bad))))) (ADVP (RB off)) (VP (VB please) (VP (VB tell) (NP (PRP$ your) (NNS parents)) (SBAR (IN if) (S (NP (PRP they)) (VP (MD will) (RB not) (VP (VB listen) (S (NP (PRP you)) (VP (VP (VB call) (NP (NN rescue) (NN squad))) (CC and) (VP (VB tell) (NP (PRP them)) (SBAR (S (S (NP (PRP you)) (VP (AUX need) (NP (NN help)))) (CC and) (S (NP (PRP you)) (VP (AUX need) (NP (PRP it)) (ADVP (RB now))))))))))))))) (. .)))
+#Rule:Nouns
+r1parentsNNS
+r1rescueNN
+r1squadNN
+r1helpNN
+
+#Rule:Verbs
+r2pleaseVB
+r2tellVB
+r2listenVB
+r2callVB
+r2tellVB
+
+#Rule:Adjs
+r4badJJ
+
+#Rule:PRP-Noun
+r6yourPRP$parentsNNS
+
+#Rule:N-HeadNoun
+r8rescueNNsquadNN
+
+#Rule:HeadNoun-V
+r11youPRPareAUX
+r11theyPRPlistenVB
+r11youPRPcallVB
+r11youPRPtellVB
+r11youPRPneedAUX
+r11youPRPneedAUX
+
+#Rule:V-HeadNoun
+r21tellVBparentsNNS
+r21callVBsquadNN
+r21tellVBthemPRP
+r21needAUXhelpNN
+r21needAUXitPRP
+
+#Rule:V-HeadNoun
+r22listenVByouPRP
+
+#Rule:V-ADJ
+r25areAUXbadJJ
+
+#Rule:V-IN-V
+r43tellVBifINlistenVB
+
+#Rule:V-ADV
+r46pleaseVBoffRB
+r46needAUXnowRB
+
+# you can commit yourself.
+#(S1 (S (NP (PRP you)) (VP (MD can) (VP (VB commit) (NP (PRP yourself)))) (. .)))
+#Rule:Verbs
+r2commitVB
+
+#Rule:HeadNoun-V
+r11youPRPcommitVB
+
+#Rule:V-HeadNoun
+r21commitVByourselfPRP
+
+# do it before its to late.
+#(S1 (SQ (AUX do) (NP (PRP it)) (ADVP (RB before)) (ADJP (PRP$ its) (TO to) (JJ late)) (. .)))
+#Rule:Adjs
+r4lateJJ
+
+# and if you need someone to talk to im here email me or message me either one.
+#(S1 (FRAG (CC and) (SBAR (IN if) (S (NP (PRP you)) (VP (AUX need) (NP (NP (NN someone)) (SBAR (S (VP (TO to) (VP (VB talk) (S (VP (TO to) (VP (VP (ADVP (RB im) (RB here)) (VB email) (NP (PRP me))) (CC or) (VP (NN message) (S (NP (PRP me)) (NP (DT either) (CD one))))))))))))))) (. .)))
+#Rule:Nouns
+r1someoneNN
+r1messageNN
+
+#Rule:Verbs
+r2talkVB
+r2emailVB
+
+#Rule:HeadNoun-V
+r11youPRPneedAUX
+
+#Rule:HeadNoun-(who/that)-V
+r14someoneNNtalkVB
+
+#Rule:V-HeadNoun
+r21needAUXsomeoneNN
+r21emailVBmePRP
+
+#Rule:V-HeadNoun
+r22messageNNmePRP
+r22messageNNoneCD
+
+#Rule:V-ADV
+r46emailVBimRB
+r46emailVBhereRB
+
+# wish you the best.
+#(S1 (S (VP (VBP wish) (NP (PRP you)) (NP (DT the) (JJS best))) (. .)))
+#Rule:Verbs
+r2wishVBP
+
+#Rule:Adjs
+r4bestJJS
+
+#Rule:V-HeadNoun
+r21wishVBPyouPRP
+r21wishVBPbestJJS
+
+@lemmas-left	need	they	wish	being	answers	rescue	counselor	missing	love	help	are	please	commit	diagnosed	someone	suicide	thousands	be	think	get	isnt	bi-polar	death	answer	parent	bad	health	grieve	grieving	many	email	thinking	start	late	adolescents	ask	go	thing	call	parents	believe	best	tell	listen	talk	yahoo	polar	your	you	loved	seen	thousand	youreamong	diagnose	cannot	message	see	squad	mental	advice	theirselves	miss	
+@lemmas-right	need	answers	love	help	are	commit	someone	yourself	suicide	be	thousands	think	isnt	bi-polar	answer	here	parent	bad	health	definately	much	start	thinking	now	them	adolescents	this	thing	call	parents	one	about	believe	best	me	tell	listen	talk	polar	is	it	still	you	loved	im	thousand	seen	cannot	really	see	squad	off	advice	theirselves	very	
+@lemmas-center	to	of	if	when	about	on	

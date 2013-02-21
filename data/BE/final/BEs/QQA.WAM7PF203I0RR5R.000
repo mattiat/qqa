@@ -1,0 +1,24 @@
+#how do i get a better attitude about exercise?
+#(S1 (SBARQ (WHADVP (WRB how)) (SQ (AUX do) (NP (PRP i)) (VP (VB get) (NP (NP (DT a) (JJR better) (NN attitude)) (PP (IN about) (NP (NN exercise)))))) (. ?)))
+#Rule:Nouns
+r1attitudeNN
+r1exerciseNN
+
+#Rule:Verbs
+r2getVB
+
+#Rule:Adjs
+r4betterJJR
+
+#Rule:Adj-Noun
+r5betterJJRattitudeNN
+
+#Rule:V-HeadNoun
+r21getVBattitudeNN
+
+#Rule:PPinNP
+r26attitudeNNaboutINexerciseNN
+
+@lemmas-left	attitude	get	better	exercise	
+@lemmas-right	attitude	exercise	
+@lemmas-center	about	

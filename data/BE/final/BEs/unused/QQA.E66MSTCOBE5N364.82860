@@ -1,0 +1,25 @@
+#B/c they re in denial . or they re just that d@mn ignorant LOL
+#(S1 (S (S (VP (VB B/c) (S (NP (PRP they)) (VP (NNP re) (PP (IN in) (NP (NN denial)))) (. .)))) (CC or) (S (NP (PRP they)) (VP (NNP re) (SBAR (RB just) (IN that) (S (NP (NNP d)) (VP (SYM @) (NP (JJ mn) (JJ ignorant) (NN LOL)))))))))
+#Rule:Nouns
+r1reNNP
+r1denialNN
+r1reNNP
+r1d@mnLocationAnnotation
+r1LOLNN
+
+#Rule:Verbs
+r2b/cVB
+
+#Rule:Adjs
+r4ignorantJJ
+
+#Rule:Adj-Noun
+r5d@mnLocationAnnotationLOLNN
+r5ignorantJJLOLNN
+
+#Rule:V-HeadNoun
+r22b/cVBtheyPRP
+
+@lemmas-left	lol	b/c	c	LOL	ignorant	d@mn	re	denial	
+@lemmas-right	lol	they	LOL	
+@lemmas-center	

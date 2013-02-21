@@ -1,0 +1,50 @@
+#This link will answer any questions you have on the subject of publishing.http://www.anotherealm.com/prededitors/Morris Publishing specialize in short-run printing for self-published authors.http://www.morrispublishing.com/http://www.soyouwanna.com/site/syws/publishbook/publishbook2.html
+#(S1 (S (NP (DT This) (NN link)) (VP (MD will) (VP (VB answer) (NP (DT any) (NNS questions)))) (S (S (NP (PRP you)) (VP (AUX have) (PP (IN on) (NP (NP (DT the) (NN subject)) (PP (IN of) (NP (NNS publishing.http))))))) (: :) (S (NP (NNP //www.anotherealm.com/prededitors/Morris) (NNP Publishing)) (VP (VB specialize) (PP (IN in) (NP (JJ short-run) (NN printing))) (PP (IN for) (NP (NP (JJ self-published) (NNS authors.http)) (: :) (NP (NNS //www.morrispublishing.com/http)) (: :) (NP (NNS //www.soyouwanna.com/site/syws/publishbook/publishbook2.html)))))))))
+#Rule:Nouns
+r1linkNN
+r1questionsNNS
+r1subjectNN
+r1publishing.httpNNS
+r1//www.anotherealm.com/prededitors/MorrisNNP
+r1PublishingNNP
+r1printingNN
+r1authors.httpNNS
+r1//www.morrispublishing.com/httpNNS
+r1//www.soyouwanna.com/site/syws/publishbook/publishbook2.htmlNNS
+
+#Rule:Verbs
+r2answerVB
+r2specializeVB
+
+#Rule:Adjs
+r4short-runJJ
+r4self-publishedJJ
+
+#Rule:Adj-Noun
+r5short-runJJprintingNN
+r5self-publishedJJauthors.httpNNS
+
+#Rule:N-HeadNoun
+r8//www.anotherealm.com/prededitors/MorrisNNPPublishingNNP
+
+#Rule:HeadNoun-V
+r11linkNNanswerVB
+r11youPRPhaveAUX
+r11PublishingNNPspecializeVB
+
+#Rule:V-HeadNoun
+r21answerVBquestionsNNS
+
+#Rule:PPinNP
+r26subjectNNofINpublishing.httpNNS
+
+#Rule:PPinVP
+r30haveAUXonINsubjectNN
+r30specializeVBinINprintingNN
+r30specializeVBforINauthors.httpNNS
+r30specializeVBforIN//www.morrispublishing.com/httpNNS
+r30specializeVBforIN//www.soyouwanna.com/site/syws/publishbook/publishbook2.htmlNNS
+
+@lemmas-left	specialize	authors.http	//www.morrispublishing.com/http	have	morris	subject	publishing.http	link	answer	questions	you	printing	Publishing	//www.soyouwanna.com/site/syws/publishbook/publishbook2.html	short-run	http	self-published	html	question	published	//www.anotherealm.com/prededitors/Morris	publishing	
+@lemmas-right	specialize	authors.http	//www.morrispublishing.com/http	have	publishing.http	subject	answer	questions	printing	Publishing	//www.soyouwanna.com/site/syws/publishbook/publishbook2.html	http	html	question	publishing	
+@lemmas-center	of	for	on	in	

@@ -1,0 +1,15 @@
+#How is cancer in the abdomen diagnosed?
+#(S1 (SBARQ (WHADVP (WRB How)) (SQ (AUX is) (NP (NP (NN cancer)) (PP (IN in) (NP (DT the) (NN abdomen)))) (VP (VBN diagnosed))) (. ?)))
+#Rule:Nouns
+r1cancerNN
+r1abdomenNN
+
+#Rule:Verbs
+r2diagnosedVBN
+
+#Rule:PPinNP
+r26cancerNNinINabdomenNN
+
+@lemmas-left	diagnosed	abdomen	diagnose	cancer	
+@lemmas-right	abdomen	
+@lemmas-center	in	

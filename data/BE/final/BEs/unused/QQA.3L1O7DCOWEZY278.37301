@@ -1,0 +1,101 @@
+#Hello ,There are 10 ways in which you can get out :-CaughtBowledLeg before wicket (LBW) Run out Stumped Hit wicket Hit the ball twice Timed out Handled the ballObstructing the ballThere is also one another way :-retired out; no player is credited with the dismissal..
+#(S1 (S (INTJ (UH Hello)) (, ,) (NP (EX There)) (VP (AUX are) (NP (NP (CD 10) (NNS ways)) (SBAR (WHPP (IN in) (WHNP (WDT which))) (S (S (NP (PRP you)) (VP (MD can) (VP (VB get) (PRT (RP out))))) (: :) (S (NP (NNS -CaughtBowledLeg)) (PP (IN before) (NP (NP (NN wicket)) (PRN (-LRB- -LRB-) (NP (NNP LBW)) (-RRB- -RRB-)))) (VP (VB Run) (PRT (RP out)) (NP (NP (JJ Stumped) (NN Hit) (NN wicket) (NN Hit)) (SBAR (S (NP (DT the) (NN ball)) (VP (ADVP (RB twice)) (VBD Timed) (PRT (RP out)) (S (VP (VBN Handled) (NP (NP (DT the) (NN ballObstructing)) (SBAR (S (NP (DT the) (NN ballThere)) (VP (AUX is) (NP (NP (QP (RB also) (CD one)) (DT another) (NN way)) (PRN (: :) (VP (VBN -retired) (PRT (RP out))) (: ;)) (SBAR (S (NP (DT no) (NN player)) (VP (AUX is) (VP (VBN credited) (PP (IN with) (NP (DT the) (NN dismissal))))))))))))))))))) (. .)))))) (. .)))
+#Rule:Nouns
+r1waysNNS
+r1:-CaughtBowledLegOrganizationAnnotation
+r1wicketNN
+r1LBW) RunOrganizationAnnotation
+r1HitNN
+r1wicketNN
+r1HitNN
+r1ballNN
+r1ballObstructingNN
+r1ballThereNN
+r1wayNN
+r1playerNN
+r1dismissalNN
+
+#Rule:Verbs
+r2handledVBN
+r2creditedVBN
+
+#Rule:V-PRT
+r3getVBoutRP
+r3LBW) RunOrganizationAnnotationoutRP
+r3timedVBDoutRP
+r3-retiredVBNoutRP
+
+#Rule:Adjs
+r4StumpedJJ
+
+#Rule:Adj-Noun
+r510CDwaysNNS
+r5StumpedJJHitNN
+r5oneCDwayNN
+
+#Rule:N-HeadNoun
+r8wicketNNHitNN
+r8HitNNHitNN
+
+#Rule:HeadNoun-V
+r11thereEXareAUX
+r11youPRPgetVB
+r11:-CaughtBowledLegOrganizationAnnotationLBW) RunOrganizationAnnotation
+r11ballNNtimedVBD
+r11ballThereNNisAUX
+
+#Rule:NP(NP(z) SBAR(S(NP(x)VP(y))))
+r19timedVBDHitNN
+r19creditedVBNwayNN
+
+#Rule:V-HeadNoun
+r21areAUXwaysNNS
+r21LBW) RunOrganizationAnnotationHitNN
+r21handledVBNballObstructingNN
+r21isAUXwayNN
+
+#Rule:V-HeadNoun(passive)
+r23creditedVBNplayerNN
+
+#Rule:PPinVP
+r32creditedVBNwithINdismissalNN
+
+#Rule:PPinS
+r36LBW) RunOrganizationAnnotationbeforeINwicketNN
+
+#Rule:V-ADV
+r46timedVBDtwiceRB
+
+#Rule:IS-RULE
+r47wayNNballThereNN
+
+#Thanks , I will continuously keep on answering your questions..
+#(S1 (S (ADVP (NNS Thanks)) (, ,) (NP (PRP I)) (VP (MD will) (ADVP (RB continuously)) (VP (VB keep) (PP (IN on) (S (VP (VBG answering) (NP (PRP$ your) (NNS questions)))) (. .)))) (. .)))
+#Rule:Nouns
+r1ThanksNNS
+r1questionsNNS
+
+#Rule:Verbs
+r2keepVB
+r2answeringVBG
+
+#Rule:PRP-Noun
+r6yourPRP$questionsNNS
+
+#Rule:HeadNoun-V
+r11iPRPkeepVB
+
+#Rule:V-HeadNoun
+r21answeringVBGquestionsNNS
+
+#Rule:V-ADV
+r46keepVBcontinuouslyRB
+
+#Autograph please .
+#(S1 (INTJ (VB Autograph) (UH please) (. .)))
+#Rule:Verbs
+r2autographVB
+
+@lemmas-left	handle	credited	player	ballthere	one	way	retire	dismissal	Stumped	:-CaughtBowledLeg	-retired	handled	thanks	time	autograph	are	hit	question	wicket	credit	be	answering	is	ball	Hit	timed	stump	get	your	answer	LBW) Run	questions	Thanks	you	ballobstructing	i	10	there	ballObstructing	ballThere	keep	ways	
+@lemmas-right	Hit	is	timed	ballthere	player	get	LBW) Run	questions	way	dismissal	ballobstructing	continuously	time	twice	are	hit	ballObstructing	ballThere	question	wicket	keep	out	ways	be	
+@lemmas-center	with	before	

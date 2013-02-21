@@ -1,0 +1,108 @@
+#I think home schooling is a great option, especially if he already so advanced.  
+#(S1 (S (NP (PRP I)) (VP (VBP think) (SBAR (S (NP (NN home) (NN schooling)) (VP (AUX is) (NP (DT a) (JJ great) (NN option)) (, ,) (SBAR (ADVP (RB especially)) (IN if) (S (NP (PRP he)) (ADVP (RB already)) (ADJP (RB so) (JJ advanced)))))))) (. .)))
+#Rule:Nouns
+r1homeNN
+r1schoolingNN
+r1optionNN
+
+#Rule:Verbs
+r2thinkVBP
+
+#Rule:Adjs
+r4greatJJ
+r4advancedJJ
+
+#Rule:Adj-Noun
+r5greatJJoptionNN
+
+#Rule:N-HeadNoun
+r8homeNNschoolingNN
+
+#Rule:HeadNoun-V
+r11iPRPthinkVBP
+r11schoolingNNisAUX
+
+#Rule:V-HeadNoun
+r21isAUXoptionNN
+
+#Rule:IS-RULE
+r47optionNNschoolingNN
+
+#You can call the school district in your area to find out what you need to do.  
+#(S1 (S (NP (PRP You)) (VP (MD can) (VP (VB call) (NP (NP (DT the) (NN school) (NN district)) (PP (IN in) (NP (PRP$ your) (NN area) (S (VP (TO to) (VP (VB find) (PRT (RP out)) (SBAR (WHNP (WP what)) (S (NP (PRP you)) (VP (AUX need) (S (VP (TO to) (VP (AUX do))))))))))))))) (. .)))
+#Rule:Nouns
+r1schoolNN
+r1districtNN
+r1areaNN
+
+#Rule:Verbs
+r2callVB
+
+#Rule:V-PRT
+r3findVBoutRP
+
+#Rule:PRP-Noun
+r6yourPRP$areaNN
+
+#Rule:N-HeadNoun
+r8schoolNNdistrictNN
+
+#Rule:HeadNoun-V
+r11youPRPcallVB
+r11youPRPneedAUX
+
+#Rule:V-HeadNoun
+r21callVBdistrictNN
+
+#Rule:PPinNP
+r26districtNNinINareaNN
+
+#Just make sure that he s involved some kind of activities with other children so he can develop the social skills he needs.
+#(S1 (S (ADVP (RB Just)) (VP (VB make) (ADJP (JJ sure) (SBAR (IN that) (S (NP (PRP he)) (VP (VBZ s) (S (VP (VBN involved) (NP (NP (DT some) (NN kind)) (PP (IN of) (NP (NP (NNS activities)) (PP (IN with) (NP (JJ other) (NNS children)))))) (SBAR (IN so) (S (NP (PRP he)) (VP (MD can) (VP (VB develop) (NP (NP (DT the) (JJ social) (NNS skills)) (SBAR (S (NP (PRP he)) (VP (VBZ needs)))))))))))))))) (. .)))
+#Rule:Nouns
+r1kindNN
+r1activitiesNNS
+r1childrenNNS
+r1skillsNNS
+
+#Rule:Verbs
+r2makeVB
+r2sVBZ
+r2involvedVBN
+r2developVB
+r2needsVBZ
+
+#Rule:Adjs
+r4sureJJ
+r4otherJJ
+r4socialJJ
+
+#Rule:Adj-Noun
+r5otherJJchildrenNNS
+r5socialJJskillsNNS
+
+#Rule:HeadNoun-V
+r11hePRPsVBZ
+r11hePRPdevelopVB
+r11hePRPneedsVBZ
+
+#Rule:NP(NP(z) SBAR(S(NP(x)VP(y))))
+r19needsVBZskillsNNS
+
+#Rule:V-HeadNoun
+r21involvedVBNkindNN
+r21developVBskillsNNS
+
+#Rule:PPinNP
+r26kindNNofINactivitiesNNS
+r26activitiesNNSwithINchildrenNNS
+
+#Rule:V-IN-V
+r43involvedVBNsoINdevelopVB
+
+#Rule:V-ADV
+r46makeVBJustRB
+
+@lemmas-left	need	skills	call	home	other	involve	children	kind	child	area	social	schooling	advanced	develop	activities	district	option	find	activity	sure	be	is	think	needs	your	you	he	i	involved	school	great	skill	s	make	
+@lemmas-right	just	skills	need	call	think	is	needs	children	kind	child	area	s	skill	schooling	activities	develop	district	Just	activity	option	be	out	
+@lemmas-center	of	with	so	in	

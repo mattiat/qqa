@@ -1,0 +1,642 @@
+BE: situationNN
+EQ class: state_of_affairsnn	
+
+BE: friendNN
+EQ class: friendlyjj	
+
+BE: terminalNN
+EQ class: depotnn	terminusnn	
+
+BE: cancerNN
+EQ class: cancerousjj	malignant_neoplastic_diseasenn	
+
+BE: goingVBG
+EQ class: movevbg	govbg	travelvbg	locomotevbg	
+
+BE: myPRP$friendNN
+EQ class: friendshipvbmyprp$	friendlyjjofinmyprp$	friendlyvbmyprp$	friendnnofinmyprp$	myprp$friendlyjj	myprp$friendshipvb	myprp$friendlyvb	
+
+BE: terminalNNcancerNN
+EQ class: terminalnnmalignant_neoplastic_diseasenn	cancernnofinterminalnn	depotnncancerousvb	terminusnncancerousvb	cancerousjjofinterminusnn	terminalnncancerousvb	depotnnmalignant_neoplastic_diseasenn	cancernnofinterminusnn	cancerousvbterminusnn	terminusnnmalignant_neoplastic_diseasenn	terminusnncancernn	depotnncancerousjj	cancerousvbdepotnn	terminusnncancerousjj	malignant_neoplastic_diseasennofinterminalnn	cancernnofindepotnn	malignant_neoplastic_diseasennofindepotnn	depotnncancernn	cancerousjjofinterminalnn	cancerousjjofindepotnn	terminalnncancerousjj	cancerousvbterminalnn	malignant_neoplastic_diseasennofinterminusnn	
+
+BE: iPRPgoingVBG
+EQ class: iprptravelvbg	iprplocomotevbg	iprpmovevbg	iprpgovbg	
+
+BE: friendNNhasAUX
+EQ class: havennofinfriendnn	friendnnhave_gotaux	friendlyjjhaveaux	friendnnholdaux	friendlyjjholdaux	friendlyjjhave_gotaux	havennofinfriendlyjj	friendlyjjhasaux	rich_personnnofinfriendlyjj	wealthy_personnnofinfriendnn	wealthy_personnnofinfriendlyjj	friendnnhaveaux	rich_personnnofinfriendnn	
+
+BE: hasAUXcancerNN
+EQ class: hasauxcancerousjj	have_gotauxcancerousjj	have_gotauxmalignant_neoplastic_diseasenn	wealthy_personnnofincancerousjj	rich_personnnofinmalignant_neoplastic_diseasenn	rich_personnnofincancernn	haveauxcancerousjj	holdauxcancerousjj	holdauxmalignant_neoplastic_diseasenn	rich_personnnofincancerousjj	wealthy_personnnofincancernn	havennofinmalignant_neoplastic_diseasenn	wealthy_personnnofinmalignant_neoplastic_diseasenn	holdauxcancernn	havennofincancernn	have_gotauxcancernn	havennofincancerousjj	haveauxcancernn	haveauxmalignant_neoplastic_diseasenn	hasauxmalignant_neoplastic_diseasenn	
+
+BE: goingVBGthoughINsituationNN
+EQ class: locomotevbgthoughinsituationnn	locomotevbgthoughinstate_of_affairsnn	movevbgthoughinsituationnn	govbgthoughinstate_of_affairsnn	govbgthoughinsituationnn	goingvbgthoughinstate_of_affairsnn	travelvbgthoughinsituationnn	movevbgthoughinstate_of_affairsnn	travelvbgthoughinstate_of_affairsnn	
+
+BE: situationNNwhereWRBhasAUX
+EQ class: situationnnwherewrbhave_gotaux	situationnnwherewrbhaveaux	state_of_affairsnnwherewrbhaveaux	situationnnwherewrbholdaux	state_of_affairsnnwherewrbhave_gotaux	state_of_affairsnnwherewrbhasaux	state_of_affairsnnwherewrbholdaux	
+
+BE: boyfriendNN
+EQ class: fellownn	swainnn	beaunn	young_mannn	
+
+BE: fatherNN
+EQ class: male_parentnn	begetternn	fatherlyjj	
+
+BE: sVBZ
+EQ class: 
+
+BE: yourPRP$boyfriendNN
+EQ class: yourprp$fellownn	yourprp$beaunn	young_mannnofinyourprp$	yourprp$swainnn	beaunnofinyourprp$	swainnnofinyourprp$	yourprp$young_mannn	fellownnofinyourprp$	boyfriendnnofinyourprp$	
+
+BE: hisPRP$fatherNN
+EQ class: fathervbhisprp$	hisprp$begetternn	fatherlyvbhisprp$	engendervbhisprp$	begetternnofinhisprp$	male_parentnnofinhisprp$	getvbhisprp$	hisprp$getvb	hisprp$fatherlyjj	generatevbhisprp$	begetvbhisprp$	sirevbhisprp$	hisprp$sirevb	hisprp$begetvb	fatherlyjjofinhisprp$	hisprp$male_parentnn	bring_forthvbhisprp$	mothervbhisprp$	hisprp$fathervb	hisprp$fatherlyvb	hisprp$engendervb	hisprp$bring_forthvb	hisprp$mothervb	hisprp$generatevb	fathernnofinhisprp$	
+
+BE: thatDTsVBZ
+EQ class: 
+
+BE: youPRPdoAUX
+EQ class: youprpmakeaux	
+
+BE: doAUXforINboyfriendNN
+EQ class: doauxforinyoung_mannn	doauxforinbeaunn	makeauxforinyoung_mannn	doauxforinfellownn	makeauxforinfellownn	makeauxforinbeaunn	doauxforinswainnn	makeauxforinboyfriendnn	makeauxforinswainnn	
+
+BE: doAUXforINfatherNN
+EQ class: makeauxforinbegetternn	makeauxforinmale_parentnn	makeauxforinfathernn	doauxforinmale_parentnn	makeauxforinfatherlyjj	doauxforinfatherlyjj	doauxforinbegetternn	
+
+BE: thingsNNS
+EQ class: theynns	themnns	
+
+BE: familyNN
+EQ class: homenn	menagenn	householdnn	housenn	
+
+BE: offerVB
+EQ class: 
+
+BE: helpVB
+EQ class: aidvb	assistvb	
+
+BE: hisPRP$familyNN
+EQ class: hisprp$householdnn	familynnofinhisprp$	hisprp$housenn	hisprp$homenn	housennofinhisprp$	homennofinhisprp$	hisprp$menagenn	menagennofinhisprp$	householdnnofinhisprp$	
+
+BE: thingsNNShelpVB
+EQ class: thingsnnsassistvb	helpernntheynns	theynnsaidvb	theynnshelpvb	helpernnofinthingsnns	assistnnofinthemnns	themnnshelpvb	helpernnofintheynns	assistancennofinthingsnns	helpnnthemnns	assistantnnthemnns	aidnnofintheynns	helpernnthingsnns	supporternnofinthingsnns	supporternnthemnns	assistnnofintheynns	helpernnofinthemnns	assistantnntheynns	theynnsassistvb	supporternnofintheynns	themnnsaidvb	themnnsassistvb	helpernnthemnns	aidnnofinthingsnns	assistantnnthingsnns	helpnnthingsnns	helpnnofinthemnns	helpnnofintheynns	assistantnnofintheynns	supporternnthingsnns	helpnnofinthingsnns	assistantnnofinthingsnns	assistnnofinthingsnns	helpnntheynns	assistancennofintheynns	aidnnofinthemnns	thingsnnsaidvb	assistantnnofinthemnns	supporternnofinthemnns	assistancennofinthemnns	supporternntheynns	
+
+BE: doAUXthingsNNS
+EQ class: makeauxthemnns	makeauxthingsnns	doauxthemnns	doauxtheynns	makeauxtheynns	
+
+BE: helpVBfamilyNN
+EQ class: assistancennofinhouseholdnn	assistancennofinfamilynn	assistnnofinhouseholdnn	aidnnofinhousenn	supporternnofinhouseholdnn	assistvbhouseholdnn	assistvbfamilynn	helpvbmenagenn	aidvbmenagenn	assistnnofinhomenn	helpernnofinfamilynn	helpernnofinhomenn	assistvbhomenn	helpnnofinhomenn	aidvbhousenn	assistnnofinmenagenn	helpnnofinmenagenn	assistantnnofinhomenn	assistvbmenagenn	supporternnofinhomenn	aidnnofinhouseholdnn	aidvbhouseholdnn	helpernnofinhousenn	supporternnofinmenagenn	assistnnofinfamilynn	supporternnofinhousenn	aidvbfamilynn	helpernnofinhouseholdnn	supporternnofinfamilynn	assistantnnofinmenagenn	helpnnofinhousenn	assistnnofinhousenn	aidnnofinmenagenn	aidvbhomenn	helpvbhousenn	assistancennofinmenagenn	assistantnnofinfamilynn	assistancennofinhomenn	helpernnofinmenagenn	assistantnnofinhouseholdnn	assistvbhousenn	assistancennofinhousenn	helpvbhouseholdnn	helpnnofinfamilynn	assistantnnofinhousenn	helpvbhomenn	aidnnofinfamilynn	aidnnofinhomenn	helpnnofinhouseholdnn	
+
+BE: helpVBreallyRB
+EQ class: realjjininaidvb	aidnnofinreallyrb	existentjjsupporternn	realjjaidnn	realnessnnassistancenn	realjjininassistantnn	assistancennofinreallyrb	existentjjininaidnn	existentjjaidnn	realitynnininhelpvb	assistvbreallyrb	realnessnnininhelpnn	realitynnininhelpernn	realitynnassistnn	realnessnnhelpnn	helpnnofinreallyrb	realnessnnininassistantnn	aidvbreallyrb	realitynnhelpnn	realjjininhelpernn	realnessnnininaidnn	realjjininsupporternn	realitynnhelpernn	realjjininaidnn	realnessnnassistnn	assistnnofinreallyrb	realnessnnaidnn	realitynnininaidnn	realitynnininassistvb	realitynnassistancenn	existentjjininhelpnn	realitynnsupporternn	realjjininhelpnn	realnessnnhelpernn	existentjjininassistancenn	realitynnininsupporternn	existentjjininhelpvb	realjjhelpnn	realitynnininassistnn	existentjjassistantnn	realjjininhelpvb	realnessnnininaidvb	existentjjininassistvb	realjjassistancenn	helpernnofinreallyrb	realnessnnininhelpvb	realjjininassistancenn	realitynnininassistancenn	realitynnaidnn	realitynnininassistantnn	existentjjassistnn	assistantnnofinreallyrb	realjjsupporternn	realjjassistnn	realjjassistantnn	realnessnnininassistancenn	existentjjininsupporternn	realjjhelpernn	realnessnnininsupporternn	realnessnnsupporternn	realitynnininaidvb	supporternnofinreallyrb	realnessnnassistantnn	existentjjininassistantnn	realnessnnininassistnn	realitynnassistantnn	existentjjininassistnn	existentjjhelpernn	realnessnnininassistvb	existentjjhelpnn	realjjininassistvb	realitynnininhelpnn	existentjjininaidvb	realnessnnininhelpernn	existentjjininhelpernn	existentjjassistancenn	realjjininassistnn	
+
+BE: helpVBoutRB
+EQ class: supporternnofinoutrb	helpnnofinoutrb	assistancennofinoutrb	assistantnnofinoutrb	aidvboutrb	helpernnofinoutrb	assistvboutrb	aidnnofinoutrb	assistnnofinoutrb	
+
+BE: laundryNN
+EQ class: washnn	washingnn	washablesnn	
+
+BE: cookieNN
+EQ class: cookynn	biscuitnn	
+
+BE: pieNN
+EQ class: 
+
+BE: pillowNN
+EQ class: 
+
+BE: fleeceNN
+EQ class: 
+
+BE: blanketNN
+EQ class: covernn	
+
+BE: bakingVBG
+EQ class: bakevbg	
+
+BE: makingVBG
+EQ class: makevbg	dovbg	
+
+BE: favoriteJJ
+EQ class: favouritejj	
+
+BE: comfortableJJ
+EQ class: comfortablenessnn	comfyjj	
+
+BE: softJJ
+EQ class: softnessnn	
+
+BE: favoriteJJcookieNN
+EQ class: favoritejjcookynn	favouritejjbiscuitnn	favouritejjcookienn	favoritejjbiscuitnn	favouritejjcookynn	
+
+BE: comfortableJJpillowNN
+EQ class: comfyjjpillownn	pillowvbcomfortablyrb	restvbcomfortablyrb	comfortablenessnnpillownn	
+
+BE: softJJblanketNN
+EQ class: softjjcovernn	softnessnncovernn	softnessnnblanketnn	
+
+BE: fleeceNNblanketNN
+EQ class: fleecenncovernn	blanketnngazumpvb	blanketnnhookvb	blanketnnsurchargevb	covernngazumpvb	covernnsurchargevb	blanketnnpluckvb	blanketnnoverchargevb	blanketnnfleecevb	covernnhookvb	covernnplumevb	blanketnnplumevb	covernnrobvb	covernnpluckvb	blanketnnsoakvb	blanketnnrobvb	blanketnnofinfleecenn	covernnfleecevb	covernnofinfleecenn	covernnoverchargevb	covernnsoakvb	
+
+BE: itPRPbeAUX
+EQ class: 
+
+BE: beAUXlaundryNN
+EQ class: beauxwashablesnn	beauxwashingnn	beauxwashnn	
+
+BE: bakingVBGcookieNN
+EQ class: bakevbgcookynn	bakingnnofincookynn	bakevbgcookienn	bakingnnofinbiscuitnn	bakingvbgbiscuitnn	bakingvbgcookynn	bakingnnofincookienn	bakevbgbiscuitnn	
+
+BE: makingVBGpillowNN
+EQ class: dovbgpillownn	makevbgpillownn	
+
+BE: beAUXbakingVBG
+EQ class: beauxbakevbg	
+
+BE: thingNN
+EQ class: 
+
+BE: boyfriendNN
+EQ class: fellownn	swainnn	beaunn	young_mannn	
+
+BE: timesNNS
+EQ class: theynns	themnns	
+
+BE: dadNN
+EQ class: popnn	papann	pappann	pann	daddynn	dadann	
+
+BE: photosNNS
+EQ class: picnns	exposurenns	picturenns	theynns	photographnns	photonns	themnns	
+
+BE: scrapNN
+EQ class: flakenn	bitnn	chipnn	flecknn	
+
+BE: bookNN
+EQ class: 
+
+BE: dadNN
+EQ class: popnn	papann	pappann	pann	daddynn	dadann	
+
+BE: tellVB
+EQ class: sayvb	statevb	
+
+BE: getVB
+EQ class: acquirevb	
+
+BE: workVB
+EQ class: 
+
+BE: makingVBG
+EQ class: makevbg	dovbg	
+
+BE: presentVB
+EQ class: showvb	demonstratevb	exhibitvb	demovb	
+
+BE: readVB
+EQ class: 
+
+BE: favoriteJJ
+EQ class: favouritejj	
+
+BE: OneCDthingNN
+EQ class: icdthingnn	singlecdthingnn	acecdthingnn	unitycdthingnn	1cdthingnn	
+
+BE: favoriteJJtimesNNS
+EQ class: favouritejjthemnns	favoritejjtheynns	favoritejjthemnns	favouritejjtheynns	favouritejjtimesnns	
+
+BE: yourPRP$boyfriendNN
+EQ class: yourprp$fellownn	yourprp$beaunn	young_mannnofinyourprp$	yourprp$swainnn	beaunnofinyourprp$	swainnnofinyourprp$	yourprp$young_mannn	fellownnofinyourprp$	boyfriendnnofinyourprp$	
+
+BE: hisPRP$timesNNS
+EQ class: timesnnsofinhisprp$	hisprp$theynns	themnnsofinhisprp$	hisprp$themnns	theynnsofinhisprp$	
+
+BE: hisPRP$dadNN
+EQ class: hisprp$daddynn	daddynnofinhisprp$	pannofinhisprp$	hisprp$popnn	hisprp$pann	dadnnofinhisprp$	pappannofinhisprp$	hisprp$pappann	papannofinhisprp$	hisprp$papann	dadannofinhisprp$	popnnofinhisprp$	hisprp$dadann	
+
+BE: hisPRP$dadNN
+EQ class: hisprp$daddynn	daddynnofinhisprp$	pannofinhisprp$	hisprp$popnn	hisprp$pann	dadnnofinhisprp$	pappannofinhisprp$	hisprp$pappann	papannofinhisprp$	hisprp$papann	dadannofinhisprp$	popnnofinhisprp$	hisprp$dadann	
+
+BE: scrapNNbookNN
+EQ class: flakennbooknn	flecknnbookletvb	booknnofinbitnn	flakennbookletvb	booknnofinscrapnn	bookletvbscrapnn	bookletvbbitnn	bookletvbflakenn	scrapnnbookletvb	bitnnbooknn	flecknnbooknn	bitnnbookletvb	chipnnbookletvb	booknnofinchipnn	bookletvbflecknn	booknnofinflakenn	chipnnbooknn	bookletvbchipnn	booknnofinflecknn	
+
+BE: thingNNpresentVB
+EQ class: thingnndemonstratevb	notificationnnofinthingnn	thingnnshowvb	presentmentnnofinthingnn	notificationnnthingnn	presentmentnnthingnn	presentationnnthingnn	thingnnexhibitvb	thingnndemovb	presentationnnofinthingnn	
+
+BE: youPRPworkVB
+EQ class: workernnyouprp	worknnofinyouprp	workernnofinyouprp	
+
+BE: youPRPhaveAUX
+EQ class: youprphave_gotaux	rich_personnnofinyouprp	havennofinyouprp	youprpholdaux	wealthy_personnnofinyouprp	
+
+BE: boyfriendNNtellVB
+EQ class: edward_tellernnswainnn	tellernnofinboyfriendnn	tellingnnofinfellownn	fellownnstatevb	fellownntellvb	tellingnnofinswainnn	swainnntellvb	boyfriendnnstatevb	relationnnswainnn	tellingnnfellownn	relationnnfellownn	tellernnfellownn	young_mannnsayvb	young_mannntellvb	relationnnofinswainnn	young_mannnstatevb	beaunnstatevb	edward_tellernnofinfellownn	recountingnnofinfellownn	swainnnsayvb	tellingnnboyfriendnn	recountingnnfellownn	tellernnbeaunn	tellernnofinswainnn	recountingnnofinswainnn	tellernnyoung_mannn	edward_tellernnofinyoung_mannn	recountingnnofinbeaunn	edward_tellernnyoung_mannn	relationnnofinboyfriendnn	recountingnnyoung_mannn	relationnnboyfriendnn	recountingnnofinyoung_mannn	edward_tellernnofinbeaunn	tellernnofinfellownn	edward_tellernnfellownn	beaunnsayvb	tellernnofinyoung_mannn	edward_tellernnbeaunn	fellownnsayvb	tellernnswainnn	edward_tellernnofinboyfriendnn	recountingnnboyfriendnn	recountingnnbeaunn	tellingnnswainnn	tellernnboyfriendnn	boyfriendnnsayvb	relationnnofinbeaunn	recountingnnswainnn	edward_tellernnofinswainnn	tellingnnofinyoung_mannn	relationnnofinyoung_mannn	beaunntellvb	relationnnyoung_mannn	recountingnnofinboyfriendnn	swainnnstatevb	edward_tellernnboyfriendnn	tellingnnofinboyfriendnn	tellernnofinbeaunn	relationnnofinfellownn	tellingnnbeaunn	relationnnbeaunn	tellingnnyoung_mannn	tellingnnofinbeaunn	
+
+BE: boyfriendNNgetVB
+EQ class: gettingnnofinbeaunn	acquiringnnofinswainnn	acquiringnnswainnn	acquiringnnfellownn	swainnngetvb	fellownngetvb	acquiringnnyoung_mannn	beaunngetvb	fellownnacquirevb	gettingnnswainnn	acquiringnnofinfellownn	acquiringnnboyfriendnn	gettingnnofinswainnn	acquiringnnofinbeaunn	acquiringnnofinboyfriendnn	gettingnnboyfriendnn	young_mannngetvb	gettingnnbeaunn	gettingnnfellownn	boyfriendnnacquirevb	gettingnnyoung_mannn	acquiringnnofinyoung_mannn	acquiringnnbeaunn	young_mannnacquirevb	gettingnnofinboyfriendnn	swainnnacquirevb	gettingnnofinyoung_mannn	gettingnnofinfellownn	beaunnacquirevb	
+
+BE: tellVByouPRP
+EQ class: relationnnofinyouprp	tellingnnofinyouprp	sayvbyouprp	recountingnnofinyouprp	edward_tellernnofinyouprp	tellernnofinyouprp	statevbyouprp	
+
+BE: tellVBsomeDT
+EQ class: sayvbsomedt	tellingnnofinsomedt	edward_tellernnofinsomedt	statevbsomedt	relationnnofinsomedt	tellernnofinsomedt	recountingnnofinsomedt	
+
+BE: getVBphotosNNS
+EQ class: acquiringnnofinpicnns	getvbpicnns	acquirevbpicturenns	acquirevbphotosnns	gettingnnofinphotonns	acquiringnnofinexposurenns	acquirevbpicnns	gettingnnofinthemnns	gettingnnofinpicnns	getvbtheynns	gettingnnofintheynns	acquirevbtheynns	acquiringnnofintheynns	acquirevbphotographnns	getvbthemnns	getvbphotographnns	gettingnnofinpicturenns	acquirevbexposurenns	acquiringnnofinphotosnns	acquiringnnofinphotographnns	acquiringnnofinpicturenns	acquirevbphotonns	acquirevbthemnns	acquiringnnofinphotonns	gettingnnofinphotosnns	gettingnnofinphotographnns	getvbpicturenns	getvbphotonns	getvbexposurenns	gettingnnofinexposurenns	acquiringnnofinthemnns	
+
+BE: makingVBGbookNN
+EQ class: dovbgbooknn	makevbgbooknn	
+
+BE: haveAUXboyfriendNN
+EQ class: rich_personnnofinyoung_mannn	haveauxswainnn	have_gotauxbeaunn	rich_personnnofinswainnn	have_gotauxboyfriendnn	havennofinboyfriendnn	haveauxyoung_mannn	haveauxbeaunn	holdauxboyfriendnn	rich_personnnofinboyfriendnn	rich_personnnofinbeaunn	haveauxfellownn	holdauxswainnn	rich_personnnofinfellownn	wealthy_personnnofinbeaunn	wealthy_personnnofinfellownn	holdauxbeaunn	holdauxyoung_mannn	holdauxfellownn	havennofinbeaunn	havennofinyoung_mannn	wealthy_personnnofinboyfriendnn	have_gotauxyoung_mannn	wealthy_personnnofinswainnn	have_gotauxfellownn	havennofinfellownn	wealthy_personnnofinyoung_mannn	havennofinswainnn	have_gotauxswainnn	
+
+BE: someDTofINtimesNNS
+EQ class: somedtofinthemnns	somedtofintheynns	
+
+BE: tellVBwithINdadNN
+EQ class: tellvbwithinpappann	statevbwithinpappann	sayvbwithinpopnn	statevbwithinpann	sayvbwithinpann	tellvbwithindaddynn	sayvbwithindadnn	statevbwithinpopnn	statevbwithindadann	tellvbwithindadann	sayvbwithindaddynn	sayvbwithinpappann	statevbwithinpapann	tellvbwithinpopnn	sayvbwithindadann	tellvbwithinpapann	statevbwithindadnn	tellvbwithinpann	statevbwithindaddynn	sayvbwithinpapann	
+
+BE: presentVBtoTOdadNN
+EQ class: demonstratevbtotopappann	exhibitvbtotopann	showvbtotopapann	demovbtotopappann	exhibitvbtotopopnn	showvbtotodadnn	exhibitvbtotopappann	demonstratevbtotopopnn	demonstratevbtotopann	demovbtotopann	demonstratevbtotopapann	presentvbtotodadann	showvbtotodaddynn	presentvbtotopappann	showvbtotopopnn	demovbtotodadann	demovbtotopopnn	presentvbtotopapann	exhibitvbtotodadann	presentvbtotodaddynn	demovbtotodadnn	showvbtotopann	demovbtotopapann	demonstratevbtotodadann	demonstratevbtotodaddynn	presentvbtotopopnn	exhibitvbtotodaddynn	showvbtotopappann	showvbtotodadann	presentvbtotopann	demonstratevbtotodadnn	demovbtotodaddynn	exhibitvbtotodadnn	exhibitvbtotopapann	
+
+BE: getVBtogetherRB
+EQ class: gettingnnofintogetherrb	acquirevbtogetherrb	acquiringnnofintogetherrb	
+
+BE: makingVBGtogetherRB
+EQ class: dovbgtogetherrb	makevbgtogetherrb	
+
+BE: timesNNS
+EQ class: theynns	themnns	
+
+BE: appreciationsNNS
+EQ class: holdnns	graspnns	theynns	appreciationnns	themnns	
+
+BE: fatherNN
+EQ class: male_parentnn	begetternn	fatherlyjj	
+
+BE: sonNN
+EQ class: boynn	
+
+BE: letVB
+EQ class: allowvb	permitvb	
+
+BE: knowVB
+EQ class: cognizevb	cognisevb	
+
+BE: mostJJS
+EQ class: 
+
+BE: wonderfulJJ
+EQ class: grandjj	marvellousjj	rattlingjj	wondrousjj	terrificjj	fantasticjj	wonderfulnessnn	tremendousjj	marvelousjj	howlingjj	
+
+BE: mostJJStimesNNS
+EQ class: mostjjsthemnns	mostjjstheynns	
+
+BE: wonderfulJJtimesNNS
+EQ class: wonderfulnessnntimesnns	howlingjjthemnns	howlingjjtheynns	wondrousjjtimesnns	rattlingjjtimesnns	fantasticjjtheynns	rattlingjjthemnns	wonderfulnessnntheynns	grandjjtimesnns	wonderfuljjtheynns	marvellousjjtheynns	terrificjjthemnns	fantasticjjtimesnns	fantasticjjthemnns	marvellousjjthemnns	marvelousjjtimesnns	tremendousjjthemnns	wondrousjjthemnns	rattlingjjtheynns	terrificjjtheynns	grandjjtheynns	tremendousjjtheynns	marvelousjjtheynns	wonderfuljjthemnns	marvelousjjthemnns	marvellousjjtimesnns	tremendousjjtimesnns	terrificjjtimesnns	wondrousjjtheynns	howlingjjtimesnns	grandjjthemnns	wonderfulnessnnthemnns	
+
+BE: thisDTletVB
+EQ class: thisdtpermitvb	thisdtallowvb	
+
+BE: himPRPknowVB
+EQ class: apprehendernnofinhimprp	knowingnnhimprp	himprpcognizevb	knowernnofinhimprp	knowingnnofinhimprp	himprpcognisevb	knowablennofinhimprp	apprehendernnhimprp	knowernnhimprp	
+
+BE: letVBhimPRP
+EQ class: allowvbhimprp	permitvbhimprp	
+
+BE: someDTofINtimesNNS
+EQ class: somedtofinthemnns	somedtofintheynns	
+
+BE: timesNNSofINfatherNN
+EQ class: themnnsofinfathernn	theynnsofinfathernn	fathernnthemnns	male_parentnntimesnns	timesnnsofinmale_parentnn	themnnsofinfatherlyjj	theynnsofinmale_parentnn	begetternntheynns	timesnnsofinfatherlyjj	timesnnsofinbegetternn	theynnsofinfatherlyjj	fatherlyjjtheynns	fatherlyjjtimesnns	fathernntimesnns	begetternnthemnns	fathernntheynns	fatherlyjjthemnns	themnnsofinbegetternn	male_parentnnthemnns	male_parentnntheynns	theynnsofinbegetternn	begetternntimesnns	themnnsofinmale_parentnn	
+
+BE: knowVBofINsomeDT
+EQ class: cognisevbofinsomedt	cognizevbofinsomedt	
+
+BE: timeNN
+EQ class: clipnn	
+
+BE: bookNN
+EQ class: 
+
+BE: giveVB
+EQ class: 
+
+BE: reminiseVB
+EQ class: 
+
+BE: sharedVBD
+EQ class: sharevbd	
+
+BE: livingVBG
+EQ class: inhabitvbg	livevbg	dwellvbg	populatevbg	
+
+BE: invaluableJJ
+EQ class: pricelessjj	invaluablenessnn	
+
+BE: invaluableJJbookNN
+EQ class: invaluablenessnnbooknn	pricelessjjbooknn	
+
+BE: itPRPgiveVB
+EQ class: 
+
+BE: theyPRPsharedVBD
+EQ class: sharingnnofinappreciationsprp	photosprpsharedvbd	sharingnnofinthingsprp	sharingnnbunniesprp	sharingnnofintimesprp	photosprpsharevbd	sharingnntheyprp	sharingnntimesprp	sharingnnofinphotosprp	momentsprpsharedvbd	sharingnnofintheyprp	sharingnnofinmomentsprp	bunniesprpsharedvbd	appreciationsprpsharevbd	thingsprpsharedvbd	effectsprpsharevbd	sharingnnmomentsprp	sharingnnofinbunniesprp	sharingnnphotosprp	bunniesprpsharevbd	timesprpsharevbd	appreciationsprpsharedvbd	theyprpsharevbd	thingsprpsharevbd	effectsprpsharedvbd	timesprpsharedvbd	sharingnnofineffectsprp	sharingnnthingsprp	sharingnnappreciationsprp	sharingnneffectsprp	momentsprpsharevbd	
+
+BE: bothDTsharedVBD
+EQ class: sharingnnofinbothdt	sharingnnbothdt	bothdtsharevbd	
+
+BE: hePRPlivingVBG
+EQ class: heprppopulatevbg	livernnheprp	livablennofinheprp	liveryjjofinheprp	livernnofinheprp	liveablennofinheprp	heprpdwellvbg	heprplivevbg	heprpinhabitvbg	liveryjjheprp	
+
+BE: timeNNreminiseVB
+EQ class: clipnnreminisevb	
+
+BE: timeNNbeAUX
+EQ class: clipnnbeaux	
+
+BE: giveVBthemPRP
+EQ class: givevbeffectsprp	givevbbunniesprp	givevbappreciationsprp	givevbmomentsprp	givevbphotosprp	givevbtimesprp	givevbthingsprp	
+
+BE: giveVBtimeNN
+EQ class: givevbclipnn	
+
+BE: beAUXbookNN
+EQ class: 
+
+BE: sharedVBDwhileINlivingVBG
+EQ class: sharedvbdwhileininhabitvbg	sharedvbdwhileindwellvbg	sharevbdwhileininhabitvbg	sharevbdwhileinpopulatevbg	sharedvbdwhileinlivevbg	sharevbdwhileinlivingvbg	sharevbdwhileindwellvbg	sharevbdwhileinlivevbg	sharedvbdwhileinpopulatevbg	
+
+BE: sharedVBDtogetherRB
+EQ class: sharevbdtogetherrb	sharingnnofintogetherrb	
+
+BE: nothingNN
+EQ class: cyphernn	zipponn	nilnn	aughtnn	nixnn	ciphernn	zipnn	goose_eggnn	zeronn	zilchnn	nullnn	nadann	naughtnn	
+
+BE: effectsNNS
+EQ class: personal_effectsnns	theynns	themnns	
+
+BE: conditionNN
+EQ class: statusnn	
+
+BE: thingsNNS
+EQ class: theynns	themnns	
+
+BE: lifeNN
+EQ class: 
+
+BE: bitNN
+EQ class: bittyjj	spotnn	
+
+BE: reverseVB
+EQ class: turnvb	change_by_reversalvb	
+
+BE: sVBZ
+EQ class: 
+
+BE: makesVBZ
+EQ class: makevbz	dovbz	
+
+BE: manageVB
+EQ class: negociatevb	pull_offvb	carry_offvb	bring_offvb	
+
+BE: terminalJJ
+EQ class: terminusnn	
+
+BE: littleJJ
+EQ class: littlenessnn	smalljj	
+
+BE: terminalJJconditionNN
+EQ class: terminusnnconditionnn	terminaljjstatusnn	conditionvbterminallyrb	terminusnnstatusnn	
+
+BE: littleJJthingsNNS
+EQ class: littlenessnnthingsnns	littlejjthemnns	smalljjthemnns	littlejjtheynns	smalljjthingsnns	littlenessnnthemnns	smalljjtheynns	littlenessnntheynns	
+
+BE: hisPRP$conditionNN
+EQ class: statusnnofinhisprp$	hisprp$statusnn	conditionvbhisprp$	conditionnnofinhisprp$	hisprp$conditionvb	
+
+BE: thereEXisAUX
+EQ class: thereexbeaux	
+
+BE: youPRPdoAUX
+EQ class: youprpmakeaux	
+
+BE: itPRPsVBZ
+EQ class: 
+
+BE: itPRPmanageVB
+EQ class: itprpcarry_offvb	itprpnegociatevb	itprppull_offvb	itprpbring_offvb	
+
+BE: thingsNNSmakesVBZ
+EQ class: thingsnnsmakevbz	themnnsmakevbz	theynnsdovbz	themnnsdovbz	theynnsmakevbz	thingsnnsdovbz	themnnsmakesvbz	theynnsmakesvbz	
+
+BE: isAUXnothingNN
+EQ class: beauxzilchnn	isauxaughtnn	beauxciphernn	beauxgoose_eggnn	beauxcyphernn	beauxnaughtnn	isauxciphernn	isauxgoose_eggnn	isauxnilnn	isauxcyphernn	isauxzipponn	isauxzeronn	isauxnixnn	beauxzeronn	beauxaughtnn	beauxzipnn	beauxnothingnn	isauxzipnn	beauxnullnn	isauxnadann	beauxzipponn	beauxnilnn	isauxzilchnn	isauxnaughtnn	isauxnullnn	beauxnadann	beauxnixnn	
+
+BE: reverseVBeffectsNNS
+EQ class: reversennofintheynns	reversevbpersonal_effectsnns	reversejjofintheynns	reversalnnofinpersonal_effectsnns	reversejjofinthemnns	turnvbeffectsnns	reversennofineffectsnns	contrarynnofintheynns	reversennofinthemnns	reversennofinpersonal_effectsnns	oppositennofintheynns	reversalnnofinthemnns	reversiblejjofinpersonal_effectsnns	turnvbtheynns	oppositennofinthemnns	reversiblejjofineffectsnns	reversiblejjofintheynns	contrarynnofineffectsnns	reversiblennofineffectsnns	reversalnnofineffectsnns	oppositennofineffectsnns	oppositennofinpersonal_effectsnns	change_by_reversalvbtheynns	reversiblennofinthemnns	change_by_reversalvbthemnns	reversiblejjofinthemnns	change_by_reversalvbpersonal_effectsnns	turnvbthemnns	change_by_reversalvbeffectsnns	reversiblennofintheynns	turnvbpersonal_effectsnns	reversevbtheynns	reversevbthemnns	reversejjofinpersonal_effectsnns	reversiblennofinpersonal_effectsnns	contrarynnofinthemnns	reversejjofineffectsnns	reversalnnofintheynns	contrarynnofinpersonal_effectsnns	
+
+BE: sVBZthingsNNS
+EQ class: svbzthemnns	svbztheynns	
+
+BE: makesVBZitPRP
+EQ class: dovbzitprp	makevbzitprp	
+
+BE: effectsNNSofINconditionNN
+EQ class: conditionnneffectsnns	theynnsofinstatusnn	conditionnnpersonal_effectsnns	theynnsofinconditionnn	statusnnthemnns	effectsnnsofinstatusnn	personal_effectsnnsofinstatusnn	themnnsofinstatusnn	statusnnpersonal_effectsnns	personal_effectsnnsofinconditionnn	conditionnnthemnns	conditionnntheynns	statusnneffectsnns	statusnntheynns	themnnsofinconditionnn	
+
+BE: thingsNNSinINlifeNN
+EQ class: lifenntheynns	themnnsininlifenn	lifennthemnns	theynnsininlifenn	lifennthingsnns	
+
+BE: BILNN
+EQ class: lnn	b.i.l.nn	cubic_decimeternn	liternn	cubic_decimetrenn	litrenn	
+
+BE: cancerNN
+EQ class: cancerousjj	malignant_neoplastic_diseasenn	
+
+BE: energizerNN
+EQ class: vitalizernn	animatornn	vitalisernn	energisernn	
+
+BE: bunniesNNS
+EQ class: theynns	bunnynns	bunny_girlnns	themnns	
+
+BE: boughtVBD
+EQ class: buyvbd	purchasevbd	
+
+BE: myPRP$BILNN
+EQ class: myprp$cubic_decimetrenn	cubic_decimeternnofinmyprp$	lnnofinmyprp$	myprp$lnn	myprp$litrenn	b.i.l.nnofinmyprp$	myprp$cubic_decimeternn	cubic_decimetrennofinmyprp$	litrennofinmyprp$	liternnofinmyprp$	myprp$liternn	myprp$b.i.l.nn	
+
+BE: energizerNNbunniesNNS
+EQ class: activationnnofinbunniesnns	energizernnbunnynns	themnnsofinenergisernn	bunny_girlnnsenergizevb	animatornnofinthemnns	bunny_girlnnsofinvitalizernn	themnnsofinvitalisernn	theynnsofinvitalisernn	activationnnofintheynns	activationnnofinbunnynns	energizernnofinthemnns	vitalizernnofintheynns	bunniesnnsbracevb	vitalizernnofinthemnns	energynnofinthemnns	animatornnofinbunniesnns	bunniesnnsstimulatevb	vitalizernnofinbunny_girlnns	vitalizernnofinbunnynns	energizernnofinbunniesnns	bunnynnsperk_upvb	themnnsofinanimatornn	energizernnofintheynns	vitalizernnbunniesnns	theynnsbracevb	bunnynnsarousevb	theynnsstimulatevb	bunny_girlnnsstimulatevb	bunniesnnsofinenergizernn	bunny_girlnnsofinenergizernn	bunnynnsstimulatevb	animatornnofinbunny_girlnns	bunnynnsenergisevb	themnnsstimulatevb	energisernnofintheynns	activatingnnofinbunnynns	bunnynnsofinvitalisernn	free_energynnofintheynns	animatornntheynns	free_energynnofinbunnynns	vitalisernnbunny_girlnns	energizernnthemnns	bunniesnnsofinvitalizernn	theynnsofinenergizernn	vitalizernnbunnynns	energizingnnofintheynns	animatornnbunniesnns	bunnynnsbracevb	bunnynnsenergizevb	bunniesnnsofinanimatornn	bunnynnsofinenergisernn	bunny_girlnnsofinanimatornn	bunniesnnsperk_upvb	bunniesnnsenergizevb	energizingnnofinbunnynns	energisernnthemnns	vitalisernnbunnynns	activationnnofinbunny_girlnns	bunny_girlnnsofinvitalisernn	energisernnofinbunniesnns	themnnsperk_upvb	activatingnnofinbunny_girlnns	animatornnthemnns	energizernnofinbunny_girlnns	vitalisernnofinthemnns	energynnofinbunnynns	themnnsbracevb	energizernnbunny_girlnns	vitalisernnofinbunnynns	theynnsofinenergisernn	bunniesnnsofinenergisernn	vitalizernntheynns	energynnofinbunniesnns	free_energynnofinbunniesnns	bunny_girlnnsarousevb	energizernntheynns	bunnynnsofinvitalizernn	themnnsofinenergizernn	energizingnnofinthemnns	energisernnbunny_girlnns	activationnnofinthemnns	vitalizernnbunny_girlnns	themnnsarousevb	bunniesnnsenergisevb	vitalisernnofinbunny_girlnns	themnnsofinvitalizernn	energizernnofinbunnynns	energynnofinbunny_girlnns	animatornnbunnynns	vitalisernntheynns	themnnsenergizevb	vitalisernnbunniesnns	theynnsenergisevb	energisernnbunnynns	theynnsperk_upvb	activatingnnofinbunniesnns	animatornnofintheynns	bunniesnnsofinvitalisernn	vitalisernnthemnns	vitalisernnofintheynns	free_energynnofinthemnns	energisernnbunniesnns	vitalisernnofinbunniesnns	theynnsofinvitalizernn	theynnsofinanimatornn	energisernntheynns	bunnynnsofinenergizernn	bunnynnsofinanimatornn	animatornnbunny_girlnns	animatornnofinbunnynns	energynnofintheynns	themnnsenergisevb	bunniesnnsarousevb	bunny_girlnnsbracevb	theynnsenergizevb	bunny_girlnnsperk_upvb	energisernnofinthemnns	energizingnnofinbunniesnns	activatingnnofintheynns	vitalizernnthemnns	free_energynnofinbunny_girlnns	bunny_girlnnsofinenergisernn	activatingnnofinthemnns	energisernnofinbunnynns	energisernnofinbunny_girlnns	theynnsarousevb	bunny_girlnnsenergisevb	energizingnnofinbunny_girlnns	vitalizernnofinbunniesnns	
+
+BE: iPRPboughtVBD
+EQ class: buyingnnofiniprp	purchasingnniprp	buyernniprp	buyingnniprp	purchasernnofiniprp	vendeenniprp	purchasingnnofiniprp	buynnofiniprp	stealnnofiniprp	emptornnofiniprp	purchasernniprp	bargainnnofiniprp	buyernnofiniprp	vendeennofiniprp	emptornniprp	iprppurchasevbd	iprpbuyvbd	
+
+BE: BILNNhadAUX
+EQ class: cubic_decimeternnholdaux	wealthy_personnnofinliternn	rich_personnnofinliternn	litrennhadaux	wealthy_personnnofinlitrenn	havennofinb.i.l.nn	wealthy_personnnofinbilnn	b.i.l.nnhaveaux	cubic_decimetrennhadaux	bilnnhaveaux	b.i.l.nnholdaux	cubic_decimeternnhave_gotaux	wealthy_personnnofincubic_decimeternn	b.i.l.nnhave_gotaux	liternnhaveaux	wealthy_personnnofincubic_decimetrenn	rich_personnnofinbilnn	lnnhave_gotaux	litrennhaveaux	cubic_decimetrennholdaux	litrennholdaux	rich_personnnofinb.i.l.nn	havennofinliternn	lnnhaveaux	cubic_decimetrennhaveaux	rich_personnnofinlnn	cubic_decimeternnhaveaux	liternnhadaux	litrennhave_gotaux	havennofincubic_decimeternn	liternnholdaux	rich_personnnofinlitrenn	havennofincubic_decimetrenn	havennofinlnn	havennofinlitrenn	bilnnholdaux	b.i.l.nnhadaux	rich_personnnofincubic_decimeternn	lnnholdaux	havennofinbilnn	lnnhadaux	bilnnhave_gotaux	wealthy_personnnofinlnn	cubic_decimeternnhadaux	wealthy_personnnofinb.i.l.nn	liternnhave_gotaux	rich_personnnofincubic_decimetrenn	cubic_decimetrennhave_gotaux	
+
+BE: hadAUXcancerNN
+EQ class: hadauxcancerousjj	have_gotauxcancerousjj	have_gotauxmalignant_neoplastic_diseasenn	wealthy_personnnofincancerousjj	rich_personnnofinmalignant_neoplastic_diseasenn	hadauxmalignant_neoplastic_diseasenn	rich_personnnofincancernn	haveauxcancerousjj	holdauxcancerousjj	holdauxmalignant_neoplastic_diseasenn	rich_personnnofincancerousjj	wealthy_personnnofincancernn	havennofinmalignant_neoplastic_diseasenn	wealthy_personnnofinmalignant_neoplastic_diseasenn	holdauxcancernn	havennofincancernn	have_gotauxcancernn	havennofincancerousjj	haveauxcancernn	haveauxmalignant_neoplastic_diseasenn	
+
+BE: boughtVBDhimPRP
+EQ class: buynnofinhimprp	buyernnofinhimprp	bargainnnofinhimprp	purchasernnofinhimprp	stealnnofinhimprp	vendeennofinhimprp	buyvbdhimprp	purchasingnnofinhimprp	buyingnnofinhimprp	emptornnofinhimprp	purchasevbdhimprp	
+
+BE: boughtVBDoneCD
+EQ class: vendeennofinacecd	bargainnnofin1cd	bargainnnofinicd	bargainnnofinacecd	stealnnofin1cd	boughtvbdsinglecd	buynnofinacecd	buyernnofinonecd	buyvbdacecd	purchasevbdicd	buyingnnofinonecd	purchasingnnofinunitycd	buyernnofin1cd	buynnofinonecd	buynnofinicd	buyvbdonecd	buyingnnofin1cd	buynnofinsinglecd	buyvbdicd	purchasevbdsinglecd	emptornnofin1cd	buyingnnofinacecd	vendeennofinunitycd	purchasevbd1cd	purchasingnnofinicd	purchasevbdonecd	stealnnofinsinglecd	stealnnofinunitycd	bargainnnofinunitycd	buyvbd1cd	boughtvbd1cd	vendeennofinsinglecd	purchasevbdunitycd	boughtvbdunitycd	stealnnofinacecd	buyingnnofinunitycd	bargainnnofinsinglecd	purchasernnofinicd	vendeennofinonecd	purchasernnofinonecd	purchasernnofinacecd	buyernnofinacecd	emptornnofinacecd	purchasingnnofinacecd	bargainnnofinonecd	emptornnofinunitycd	buynnofin1cd	purchasingnnofinonecd	buyernnofinicd	vendeennofin1cd	emptornnofinsinglecd	stealnnofinonecd	purchasevbdacecd	emptornnofinonecd	boughtvbdicd	vendeennofinicd	purchasingnnofinsinglecd	buynnofinunitycd	buyvbdunitycd	buyernnofinsinglecd	stealnnofinicd	buyingnnofinicd	purchasernnofin1cd	boughtvbdacecd	buyvbdsinglecd	purchasernnofinunitycd	purchasernnofinsinglecd	purchasingnnofin1cd	buyingnnofinsinglecd	buyernnofinunitycd	emptornnofinicd	
+
+BE: oneCDofINbunniesNNS
+EQ class: bunny_girlnnssinglecd	1cdofinbunnynns	bunny_girlnnsicd	theynns1cd	bunny_girlnnsunitycd	onecdofinbunny_girlnns	acecdofintheynns	acecdofinbunny_girlnns	singlecdofintheynns	singlecdofinthemnns	bunniesnnssinglecd	bunnynnsicd	icdofinbunnynns	singlecdofinbunniesnns	bunniesnnsonecd	bunnynnsonecd	singlecdofinbunnynns	unitycdofinbunnynns	themnnsicd	unitycdofinbunny_girlnns	icdofinbunniesnns	bunniesnns1cd	onecdofinthemnns	1cdofinthemnns	singlecdofinbunny_girlnns	bunnynnssinglecd	unitycdofintheynns	themnnsonecd	1cdofinbunny_girlnns	theynnsacecd	bunniesnnsacecd	icdofinthemnns	theynnsicd	bunny_girlnnsonecd	themnnsunitycd	theynnsunitycd	themnns1cd	1cdofintheynns	acecdofinbunnynns	bunniesnnsunitycd	bunnynns1cd	themnnsacecd	icdofinbunny_girlnns	acecdofinbunniesnns	bunny_girlnns1cd	bunny_girlnnsacecd	themnnssinglecd	bunniesnnsicd	onecdofinbunnynns	unitycdofinthemnns	1cdofinbunniesnns	theynnsonecd	bunnynnsunitycd	bunnynnsacecd	acecdofinthemnns	onecdofintheynns	theynnssinglecd	icdofintheynns	unitycdofinbunniesnns	
+
+BE: boughtVBDwhenWRBhadAUX
+EQ class: buyvbdwhenwrbholdaux	boughtvbdwhenwrbhave_gotaux	purchasevbdwhenwrbhadaux	buyvbdwhenwrbhave_gotaux	purchasevbdwhenwrbholdaux	purchasevbdwhenwrbhave_gotaux	purchasevbdwhenwrbhaveaux	buyvbdwhenwrbhadaux	boughtvbdwhenwrbhaveaux	boughtvbdwhenwrbholdaux	buyvbdwhenwrbhaveaux	
+
+BE: cardNN
+EQ class: 
+
+BE: sentVBD
+EQ class: directvbd	sendvbd	
+
+BE: saidVBD
+EQ class: statevbd	tellvbd	sayvbd	
+
+BE: wantedVBD
+EQ class: desirevbd	wantvbd	
+
+BE: keepVB
+EQ class: maintainvb	holdvb	
+
+BE: goingVBG
+EQ class: movevbg	govbg	travelvbg	locomotevbg	
+
+BE: goingVBG
+EQ class: movevbg	govbg	travelvbg	locomotevbg	
+
+BE: madeVBDupRP
+EQ class: makevbduprp	dovbduprp	
+
+BE: iPRPmadeVBD
+EQ class: iprpdovbd	iprpmakevbd	
+
+BE: iPRPwantedVBD
+EQ class: needernniprp	deprivationnnofiniprp	wantnnofiniprp	needernnofiniprp	wanternniprp	needinessnnofiniprp	iprpwantvbd	privationnnofiniprp	iprpdesirevbd	wanternnofiniprp	
+
+BE: youPRPkeepVB
+EQ class: youprpholdvb	youprpmaintainvb	
+
+BE: sentVBDitPRP
+EQ class: sendvbditprp	sendingnnofinitprp	directvbditprp	
+
+BE: wantedVBDyouPRP
+EQ class: wantnnofinyouprp	deprivationnnofinyouprp	wanternnofinyouprp	needinessnnofinyouprp	privationnnofinyouprp	wantvbdyouprp	needernnofinyouprp	desirevbdyouprp	
+
+BE: sentVBDwithINcardNN
+EQ class: directvbdwithincardnn	sendvbdwithincardnn	
+
+BE: madeVBDthatINsaidVBD
+EQ class: dovbdthatinsayvbd	madevbdthatinstatevbd	madevbdthatinsayvbd	dovbdthatintellvbd	makevbdthatinsaidvbd	dovbdthatinsaidvbd	makevbdthatintellvbd	dovbdthatinstatevbd	makevbdthatinstatevbd	madevbdthatintellvbd	makevbdthatinsayvbd	
+
+BE: wantedVBDjustRB
+EQ class: desirevbdjustrb	needinessnnofinjustrb	needernnofinjustrb	wanternnofinjustrb	deprivationnnofinjustrb	wantnnofinjustrb	privationnnofinjustrb	wantvbdjustrb	
+
+BE: giftNN
+EQ class: 
+
+BE: saidVBD
+EQ class: statevbd	tellvbd	sayvbd	
+
+BE: bestJJS
+EQ class: bestnn	
+
+BE: bestJJSgiftNN
+EQ class: bestnngiftnn	
+
+BE: hePRPsaidVBD
+EQ class: heprptellvbd	saynnofinheprp	heprpstatevbd	heprpsayvbd	
+
+BE: itPRPwasAUX
+EQ class: itprpbeaux	
+
+BE: hePRPhadAUX
+EQ class: wealthy_personnnofinheprp	havennofinheprp	heprpholdaux	heprphave_gotaux	heprphaveaux	rich_personnnofinheprp	
+
+BE: wasAUXgiftNN
+EQ class: beauxgiftnn	
+
+BE: thingsNNS
+EQ class: theynns	themnns	
+
+BE: thoughtfulnessNN
+EQ class: reflectionnn	ruminationnn	reflexionnn	contemplationnn	thoughtfuljj	musingnn	
+
+BE: smileNN
+EQ class: grinningnn	grinnn	smilingnn	
+
+BE: someoneNN
+EQ class: personnn	soulnn	individualnn	somebodynn	mortalnn	
+
+BE: momentsNNS
+EQ class: momentnns	instantnns	theynns	secondnns	minutenns	themnns	
+
+BE: rememberVB
+EQ class: retrievevb	recollectvb	recallvb	call_upvb	call_backvb	thinkvb	
+
+BE: sVBZ
+EQ class: 
+
+BE: putVB
+EQ class: posevb	placevb	positionvb	layvb	setvb	
+
+BE: faceVBP
+EQ class: confrontvbp	face_upvbp	
+
+BE: littleJJ
+EQ class: littlenessnn	smalljj	
+
+BE: briefJJ
+EQ class: brevitynn	briefnessnn	
+
+BE: littleJJthingsNNS
+EQ class: littlenessnnthingsnns	littlejjthemnns	smalljjthemnns	littlejjtheynns	smalljjthingsnns	littlenessnnthemnns	smalljjtheynns	littlenessnntheynns	
+
+BE: briefJJmomentsNNS
+EQ class: briefjjinstantnns	brevitynnsecondnns	brevitynnthemnns	briefnessnnmomentsnns	briefnessnntheynns	brevitynnmomentsnns	briefnessnninstantnns	briefjjtheynns	briefnessnnminutenns	brevitynnmomentnns	briefjjsecondnns	brevitynninstantnns	brevitynntheynns	briefjjmomentnns	briefnessnnthemnns	briefnessnnsecondnns	briefjjthemnns	briefjjminutenns	brevitynnminutenns	briefnessnnmomentnns	
+
+BE: yourPRP$thoughtfulnessNN
+EQ class: yourprp$reflectionnn	musingnnofinyourprp$	thoughtfulnessnnofinyourprp$	ruminationnnofinyourprp$	yourprp$thoughtfulvb	yourprp$thoughtfuljj	thoughtfuljjofinyourprp$	contemplationnnofinyourprp$	yourprp$ruminationnn	thoughtfulvbyourprp$	yourprp$musingnn	reflectionnnofinyourprp$	reflexionnnofinyourprp$	yourprp$contemplationnn	yourprp$reflexionnn	
+
+BE: itPRPsVBZ
+EQ class: 
+
+BE: youPRPdoAUX
+EQ class: youprpmakeaux	
+
+BE: sPRPfaceVBP
+EQ class: sprpface_upvbp	sprpconfrontvbp	
+
+BE: theyPRPbeAUX
+EQ class: photosprpbeaux	effectsprpbeaux	thingsprpbeaux	momentsprpbeaux	appreciationsprpbeaux	timesprpbeaux	bunniesprpbeaux	
+
+BE: thoughtfulnessNNputVB
+EQ class: thoughtfuljjputvb	musingnnsetvb	reflexionnnposevb	ruminationnnpositionvb	contemplationnnsetvb	thoughtfuljjlayvb	thoughtfuljjplacevb	contemplationnnposevb	reflectionnnplacevb	reflexionnnpositionvb	musingnnpositionvb	thoughtfuljjposevb	thoughtfulnessnnlayvb	reflectionnnsetvb	reflectionnnpositionvb	contemplationnnpositionvb	reflectionnnlayvb	ruminationnnlayvb	reflexionnnplacevb	thoughtfulnessnnsetvb	ruminationnnplacevb	musingnnlayvb	thoughtfulnessnnposevb	reflexionnnsetvb	thoughtfulnessnnplacevb	reflexionnnlayvb	thoughtfuljjpositionvb	ruminationnnposevb	musingnnplacevb	ruminationnnsetvb	ruminationnnputvb	thoughtfulnessnnpositionvb	musingnnposevb	contemplationnnputvb	musingnnputvb	reflectionnnposevb	reflectionnnputvb	thoughtfuljjsetvb	contemplationnnlayvb	contemplationnnplacevb	reflexionnnputvb	
+
+BE: faceVBPsomeoneNN
+EQ class: confrontvbpmortalnn	confrontvbpsomebodynn	face_upvbpsomebodynn	confrontvbpsoulnn	face_upvbpsomeonenn	facevbppersonnn	face_upvbpsoulnn	facevbpindividualnn	face_upvbpmortalnn	confrontvbppersonnn	confrontvbpindividualnn	facevbpsomebodynn	face_upvbpindividualnn	confrontvbpsomeonenn	facevbpmortalnn	face_upvbppersonnn	facevbpsoulnn	
+
+BE: doAUXthoughtfulnessNN
+EQ class: doauxmusingnn	makeauxmusingnn	makeauxthoughtfuljj	makeauxruminationnn	doauxreflectionnn	makeauxcontemplationnn	doauxreflexionnn	makeauxreflectionnn	doauxcontemplationnn	makeauxreflexionnn	doauxruminationnn	doauxthoughtfuljj	makeauxthoughtfulnessnn	
+
+BE: putVBsmileNN
+EQ class: setvbgrinnn	positionvbsmilenn	setvbgrinningnn	layvbgrinningnn	placevbsmilingnn	placevbgrinningnn	posevbgrinnn	placevbgrinnn	layvbgrinnn	setvbsmilenn	positionvbgrinnn	putvbgrinnn	layvbsmilingnn	posevbsmilingnn	putvbsmilingnn	positionvbsmilingnn	posevbgrinningnn	layvbsmilenn	setvbsmilingnn	putvbgrinningnn	positionvbgrinningnn	placevbsmilenn	posevbsmilenn	
+
+BE: beAUXmomentsNNS
+EQ class: beauxsecondnns	beauxminutenns	beauxinstantnns	beauxthemnns	beauxmomentnns	beauxtheynns	
+
+BE: sVBZaboutINthingsNNS
+EQ class: svbzaboutintheynns	svbzaboutinthemnns	
+
+BE: putVBonINsomeoneNN
+EQ class: placevboninindividualnn	layvboninsomeonenn	posevboninmortalnn	posevboninindividualnn	placevboninsomeonenn	layvboninsomebodynn	setvboninpersonnn	placevboninsoulnn	posevboninsomeonenn	positionvboninsomebodynn	placevboninpersonnn	positionvboninsomeonenn	setvboninsoulnn	putvboninpersonnn	posevboninsomebodynn	positionvboninpersonnn	placevboninsomebodynn	layvboninpersonnn	layvboninindividualnn	posevboninpersonnn	setvboninsomebodynn	putvboninmortalnn	putvboninsomebodynn	putvboninsoulnn	positionvboninmortalnn	posevboninsoulnn	setvboninmortalnn	setvboninindividualnn	layvboninmortalnn	layvboninsoulnn	positionvboninindividualnn	placevboninmortalnn	positionvboninsoulnn	putvboninindividualnn	setvboninsomeonenn	
+
+BE: faceVBPifINbeAUX
+EQ class: face_upvbpifinbeaux	confrontvbpifinbeaux	
+
+BE: itPRPrememberVB
+EQ class: itprpcall_backvb	recollectionnnofinitprp	rememberingnnitprp	itprprecallvb	itprprecollectvb	itprpcall_upvb	remembrancennofinitprp	recollectionnnitprp	itprpretrievevb	memorynnitprp	anamnesisnnofinitprp	anamnesisnnitprp	memorynnofinitprp	itprpthinkvb	remembrancennitprp	rememberingnnofinitprp	
+

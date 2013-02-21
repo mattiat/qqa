@@ -1,0 +1,66 @@
+#how can i help my dad reduce cholestrol??
+#(S1 (SBARQ (WHADVP (WRB how)) (SQ (MD can) (NP (PRP i)) (VP (VB help) (S (NP (PRP$ my) (NN dad)) (VP (VB reduce) (NP (NN cholestrol))))) (. ?)) (. ?)))
+#Rule:Nouns
+r1dadNN
+r1cholestrolNN
+
+#Rule:Verbs
+r2helpVB
+r2reduceVB
+
+#Rule:PRP-Noun
+r6myPRP$dadNN
+
+#Rule:HeadNoun-V
+r11dadNNreduceVB
+
+#Rule:V-HeadNoun
+r21reduceVBcholestrolNN
+
+#Rule:V-HeadNoun
+r22helpVBdadNN
+
+#WHAT TYPES OF DIETS OR FOODS SHOULD HE EAT OR WHAT SHOULD HE DO?he also thinks that he might die how can i help to increase hes self esteem
+#(S1 (S (SBARQ (SBARQ (WHNP (WHNP (WDT WHAT) (NNS TYPES)) (PP (IN OF) (NP (NNS DIETS) (CC OR) (NNS FOODS)))) (SQ (MD SHOULD) (NP (PRP HE)) (VP (VB EAT)))) (CC OR) (WHNP (WP WHAT)) (SQ (MD SHOULD) (NP (PRP HE)) (VP (AUX DO))) (. ?)) (NP (PRP he)) (VP (ADVP (RB also)) (VBZ thinks) (SBAR (IN that) (S (NP (PRP he)) (VP (MD might) (VP (VB die) (SBAR (WHADVP (WRB how)) (S (VP (MD can) (ADVP (PRP i)) (VP (VB help) (S (VP (TO to) (VP (VB increase) (NP (JJ hes) (NN self) (NN esteem))))))))))))))))
+#Rule:Nouns
+r1TYPESNNS
+r1DIETSNNS
+r1FOODSNNS
+r1selfNN
+r1esteemNN
+
+#Rule:Verbs
+r2eatVB
+r2thinksVBZ
+r2dieVB
+r2helpVB
+r2increaseVB
+
+#Rule:Adjs
+r4hesJJ
+
+#Rule:Adj-Noun
+r5hesJJesteemNN
+
+#Rule:N-HeadNoun
+r8selfNNesteemNN
+
+#Rule:HeadNoun-V
+r11hePRPthinksVBZ
+r11hePRPdieVB
+
+#Rule:V-HeadNoun
+r21increaseVBesteemNN
+
+#Rule:V-IN-V
+r43thinksVBZthatINdieVB
+
+#Rule:V-V
+r44helpVBincreaseVB
+
+#Rule:V-ADV
+r46thinksVBZalsoRB
+
+@lemmas-left	dad	DIETS	think	diet	FOODS	esteem	self	he	cholestrol	type	my	reduce	help	TYPES	thinks	food	die	hes	increase	eat	
+@lemmas-right	dad	think	thinks	die	esteem	increase	cholestrol	also	reduce	
+@lemmas-center	that	

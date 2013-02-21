@@ -1,0 +1,411 @@
+BE: PeopleNNS
+EQ class: 
+
+BE: faceNN
+EQ class: facialjj	human_facenn	
+
+BE: dangerNN
+EQ class: 
+
+BE: dropNN
+EQ class: beadnn	pearlnn	
+
+BE: bloodNN
+EQ class: bloodyjj	
+
+BE: pressureNN
+EQ class: pressure_levelnn	force_per_unit_areann	
+
+BE: sufferingVBG
+EQ class: endurevbg	suffervbg	
+
+BE: faintJJ
+EQ class: weakjj	faintnessnn	
+
+BE: significantJJ
+EQ class: importantjj	significancenn	
+
+BE: significantJJdropNN
+EQ class: significantjjbeadnn	significantjjpearlnn	importantjjpearlnn	importantjjdropnn	dropletvbsignificantlyrb	importantjjbeadnn	significancennbeadnn	significancennpearlnn	significancenndropnn	
+
+BE: bloodNNpressureNN
+EQ class: bloodyjjpressvb	force_per_unit_areannofinbloodnn	bloodnnpressurisevb	bloodnnpressurizevb	bloodnnsuperchargevb	pressurisevbbloodnn	force_per_unit_areannbloodvb	pressurisevbbloodyjj	bloodnnofinforce_per_unit_areann	bloodnnofinpressure_levelnn	pressure_levelnnofinbloodnn	superchargevbbloodyjj	force_per_unit_areannofinbloodyjj	pressure_levelnnbloodvb	bloodyjjofinforce_per_unit_areann	pressurizevbbloodyjj	bloodyjjpressurenn	bloodnnforce_per_unit_areann	bloodyjjforce_per_unit_areann	pressurennofinbloodyjj	bloodnnpressvb	bloodnnpressure_levelnn	pressurizevbbloodnn	bloodyjjofinpressurenn	pressvbbloodnn	bloodyjjpressurisevb	bloodyjjpressurizevb	pressurennbloodvb	bloodnnofinpressurenn	pressvbbloodyjj	superchargevbbloodnn	bloodyjjpressure_levelnn	bloodyjjsuperchargevb	pressurennofinbloodnn	bloodyjjofinpressure_levelnn	pressure_levelnnofinbloodyjj	
+
+BE: faceNNofINdangerNN
+EQ class: dangernnfacialjj	dangernnhuman_facenn	dangernnfacenn	facialjjofindangernn	facialvbdangernn	dangernnfacialvb	human_facennofindangernn	
+
+BE: sufferingVBGfromINsuddenlyRB
+EQ class: suffervbgfrominsuddenlyrb	endurevbgfrominsuddenlyrb	
+
+BE: sufferingVBGfromINdropNN
+EQ class: endurevbgfromindropnn	suffervbgfrominpearlnn	suffervbgfromindropnn	suffervbgfrominbeadnn	endurevbgfrominpearlnn	sufferingvbgfrominbeadnn	endurevbgfrominbeadnn	sufferingvbgfrominpearlnn	
+
+BE: sufferingVBGinINpressureNN
+EQ class: sufferingvbgininforce_per_unit_areann	suffervbgininforce_per_unit_areann	suffervbgininpressure_levelnn	endurevbgininforce_per_unit_areann	sufferingvbgininpressure_levelnn	endurevbgininpressure_levelnn	suffervbgininpressurenn	endurevbgininpressurenn	
+
+BE: areAUXinINfaceNN
+EQ class: beauxininhuman_facenn	areauxininfacialjj	areauxininhuman_facenn	beauxininfacialjj	beauxininfacenn	
+
+BE: PeopleNNSsufferingVBG
+EQ class: peoplennsendurevbg	peoplennssuffervbg	
+
+BE: FaintingNN
+EQ class: 
+
+BE: selfNN
+EQ class: egonn	
+
+BE: responseNN
+EQ class: 
+
+BE: valuableJJ
+EQ class: valuablenessnn	valuablenn	
+
+BE: protectiveJJ
+EQ class: protectivenessnn	
+
+BE: valuableJJselfNN
+EQ class: valuablejjegonn	valuablenessnnegonn	valuablenessnnselfnn	valuablennegonn	valuablennselfnn	
+
+BE: protectiveJJresponseNN
+EQ class: protectivenessnnresponsenn	
+
+BE: FaintingNNisAUX
+EQ class: faintingnnbeaux	
+
+BE: isAUXselfNN
+EQ class: beauxegonn	isauxegonn	beauxselfnn	
+
+BE: isAUXresponseNN
+EQ class: beauxresponsenn	
+
+BE: isAUXactuallyRB
+EQ class: existentjjininisaux	actualitynnininisaux	beauxactuallyrb	actualitynnininbeaux	existentjjininbeaux	actualjjininisaux	actualjjininbeaux	
+
+BE: selfNNFaintingNN
+EQ class: faintingnnegonn	egonnfaintingnn	faintingnnselfnn	
+
+BE: responseNNFaintingNN
+EQ class: faintingnnresponsenn	
+
+BE: bloodNN
+EQ class: bloodyjj	
+
+BE: pressureNN
+EQ class: pressure_levelnn	force_per_unit_areann	
+
+BE: wayNN
+EQ class: stylenn	fashionnn	modenn	mannernn	
+
+BE: chanceNN
+EQ class: opportunitynn	
+
+BE: brainNN
+EQ class: encephalonnn	
+
+BE: wonNN
+EQ class: south_korean_wonnn	
+
+BE: tLocationAnnotation
+EQ class: themlocationannotation	theylocationannotation	
+
+BE: bloodNN
+EQ class: bloodyjj	
+
+BE: pointNN
+EQ class: 
+
+BE: bodyNN
+EQ class: physical_structurenn	bodilyjj	organic_structurenn	
+
+BE: dropsVBZ
+EQ class: dropvbz	
+
+BE: getVBP
+EQ class: acquirevbp	
+
+BE: sVBZ
+EQ class: 
+
+BE: highestJJS
+EQ class: highnessnn	highjjs	
+
+BE: highestJJSpointNN
+EQ class: highjjspointnn	highnessnnpointnn	
+
+BE: bloodNNpressureNN
+EQ class: bloodyjjpressvb	force_per_unit_areannofinbloodnn	bloodnnpressurisevb	bloodnnpressurizevb	bloodnnsuperchargevb	pressurisevbbloodnn	force_per_unit_areannbloodvb	pressurisevbbloodyjj	bloodnnofinforce_per_unit_areann	bloodnnofinpressure_levelnn	pressure_levelnnofinbloodnn	superchargevbbloodyjj	force_per_unit_areannofinbloodyjj	pressure_levelnnbloodvb	bloodyjjofinforce_per_unit_areann	pressurizevbbloodyjj	bloodyjjpressurenn	bloodnnforce_per_unit_areann	bloodyjjforce_per_unit_areann	pressurennofinbloodyjj	bloodnnpressvb	bloodnnpressure_levelnn	pressurizevbbloodnn	bloodyjjofinpressurenn	pressvbbloodnn	bloodyjjpressurisevb	bloodyjjpressurizevb	pressurennbloodvb	bloodnnofinpressurenn	pressvbbloodyjj	superchargevbbloodnn	bloodyjjpressure_levelnn	bloodyjjsuperchargevb	pressurennofinbloodnn	bloodyjjofinpressure_levelnn	pressure_levelnnofinbloodyjj	
+
+BE: wonNNtLocationAnnotation
+EQ class: tlocationannotationofinsouth_korean_wonnn	theylocationannotationofinwonnn	wonnnthemlocationannotation	south_korean_wonnntlocationannotation	south_korean_wonnnthemlocationannotation	tlocationannotationofinwonnn	wonnntheylocationannotation	themlocationannotationofinsouth_korean_wonnn	themlocationannotationofinwonnn	theylocationannotationofinsouth_korean_wonnn	south_korean_wonnntheylocationannotation	
+
+BE: brainNNtLocationAnnotation
+EQ class: encephalonnntlocationannotation	themlocationannotationofinencephalonnn	themlocationannotationofinbrainnn	brainnnofinthemlocationannotation	theylocationannotationbrainvb	theylocationannotationofinbrainnn	encephalonnnofinthemlocationannotation	theylocationannotationofinencephalonnn	tlocationannotationofinencephalonnn	brainnnofintheylocationannotation	encephalonnntheylocationannotation	brainnnthemlocationannotation	themlocationannotationbrainvb	tlocationannotationofinbrainnn	brainnnofintlocationannotation	encephalonnnofintheylocationannotation	brainnntheylocationannotation	encephalonnnofintlocationannotation	encephalonnnthemlocationannotation	tlocationannotationbrainvb	
+
+BE: thereEXisAUX
+EQ class: thereexbeaux	
+
+BE: pressureNNdropsVBZ
+EQ class: pressure_levelnndropvbz	pearlnnofinpressurenn	pressure_levelnndropsvbz	dropnnofinpressurenn	beadnnofinforce_per_unit_areann	beadnnofinpressure_levelnn	force_per_unit_areanndropvbz	dropnnofinforce_per_unit_areann	force_per_unit_areanndropsvbz	pearlnnofinpressure_levelnn	beadnnofinpressurenn	pearlnnofinforce_per_unit_areann	dropnnofinpressure_levelnn	pressurenndropvbz	
+
+BE: tLocationAnnotationgetVBP
+EQ class: acquiringnnofinthemlocationannotation	gettingnntlocationannotation	acquiringnnthemlocationannotation	gettingnnofinthemlocationannotation	gettingnnofintlocationannotation	themlocationannotationgetvbp	theylocationannotationacquirevbp	acquiringnnofintheylocationannotation	gettingnnthemlocationannotation	acquiringnnofintlocationannotation	gettingnnofintheylocationannotation	tlocationannotationacquirevbp	theylocationannotationgetvbp	gettingnntheylocationannotation	acquiringnntlocationannotation	themlocationannotationacquirevbp	acquiringnntheylocationannotation	
+
+BE: itPRPsVBZ
+EQ class: 
+
+BE: getVBPchanceNN
+EQ class: acquirevbpchancenn	getvbpopportunitynn	acquiringnnofinopportunitynn	acquiringnnofinchancenn	acquirevbpopportunitynn	gettingnnofinopportunitynn	gettingnnofinchancenn	
+
+BE: dropsVBZwayNN
+EQ class: dropvbzmodenn	dropvbzmannernn	pearlnnofinmannernn	dropsvbzstylenn	dropnnofinmodenn	dropsvbzmannernn	pearlnnofinwaynn	beadnnofinmodenn	dropnnofinfashionnn	dropsvbzmodenn	pearlnnofinmodenn	dropsvbzfashionnn	beadnnofinstylenn	dropnnofinmannernn	beadnnofinwaynn	dropnnofinstylenn	pearlnnofinfashionnn	pearlnnofinstylenn	dropvbzstylenn	dropvbzfashionnn	dropvbzwaynn	dropnnofinwaynn	beadnnofinfashionnn	beadnnofinmannernn	
+
+BE: isAUXchanceNN
+EQ class: beauxopportunitynn	isauxopportunitynn	beauxchancenn	
+
+BE: pointNNofINbodyNN
+EQ class: organic_structurennpointnn	bodilyjjpointnn	bodynnpointnn	pointnnofinbodilyjj	pointnnofinorganic_structurenn	pointnnofinphysical_structurenn	physical_structurennpointnn	
+
+BE: sVBZatINpointNN
+EQ class: 
+
+BE: isAUXwhenWRBdropsVBZ
+EQ class: beauxwhenwrbdropsvbz	isauxwhenwrbdropvbz	beauxwhenwrbdropvbz	
+
+BE: getVBPbecauseINsVBZ
+EQ class: acquirevbpbecauseinsvbz	
+
+BE: brainNN
+EQ class: encephalonnn	
+
+BE: supplyNN
+EQ class: 
+
+BE: oxygenPersonAnnotation
+EQ class: 
+
+BE: bloodNN
+EQ class: bloodyjj	
+
+BE: sVBZ
+EQ class: 
+
+BE: needsVBZ
+EQ class: involvevbz	demandvbz	requirevbz	askvbz	postulatevbz	necessitatevbz	takevbz	needvbz	call_forvbz	
+
+BE: carriesVBZ
+EQ class: transportvbz	carryvbz	
+
+BE: goodJJ
+EQ class: goodnessnn	
+
+BE: steadyJJ
+EQ class: steadinessnn	
+
+BE: steadyJJsupplyNN
+EQ class: rendervbsteadilyrb	steadinessnnsupplynn	supplyvbsteadilyrb	providevbsteadilyrb	furnishvbsteadilyrb	
+
+BE: yourPRP$brainNN
+EQ class: brainnnofinyourprp$	encephalonnnofinyourprp$	yourprp$brainvb	brainvbyourprp$	yourprp$encephalonnn	
+
+BE: thatDTsVBZ
+EQ class: 
+
+BE: brainNNneedsVBZ
+EQ class: neednnofinencephalonnn	demandnnofinbrainnn	brainnnpostulatevbz	encephalonnnnecessitatevbz	demandnnofinencephalonnn	encephalonnnneedvbz	brainnntakevbz	brainnnneedvbz	encephalonnnneedsvbz	encephalonnncall_forvbz	encephalonnnpostulatevbz	neednnofinbrainnn	encephalonnninvolvevbz	encephalonnnaskvbz	encephalonnntakevbz	encephalonnndemandvbz	encephalonnnrequirevbz	brainnnaskvbz	brainnncall_forvbz	brainnninvolvevbz	brainnnnecessitatevbz	brainnndemandvbz	brainnnrequirevbz	
+
+BE: bloodNNcarriesVBZ
+EQ class: carrynnofinbloodyjj	carriernnbloodnn	bearernnofinbloodyjj	toternnbloodyjj	bloodyjjtransportvbz	carrynnofinbloodnn	bloodyjjcarryvbz	carriernnofinbloodnn	carriernnofinbloodyjj	bloodnncarryvbz	toternnbloodnn	bearernnofinbloodnn	bearernnbloodnn	bloodyjjcarriesvbz	bearernnbloodyjj	carriernnbloodyjj	toternnofinbloodnn	bloodnntransportvbz	toternnofinbloodyjj	
+
+BE: carriesVBZoxygenPersonAnnotation
+EQ class: carriernnofinoxygenpersonannotation	carryvbzoxygenpersonannotation	toternnofinoxygenpersonannotation	transportvbzoxygenpersonannotation	carrynnofinoxygenpersonannotation	bearernnofinoxygenpersonannotation	
+
+BE: needsVBZsupplyNN
+EQ class: demandvbzsupplynn	needvbzsupplynn	postulatevbzsupplynn	takevbzsupplynn	call_forvbzsupplynn	involvevbzsupplynn	requirevbzsupplynn	neednnofinsupplynn	askvbzsupplynn	necessitatevbzsupplynn	demandnnofinsupplynn	
+
+BE: supplyNNofINoxygenPersonAnnotation
+EQ class: furnishvboxygenpersonannotation	providevboxygenpersonannotation	oxygenpersonannotationrendervb	oxygenpersonannotationprovidevb	oxygenpersonannotationfurnishvb	supplyvboxygenpersonannotation	rendervboxygenpersonannotation	oxygenpersonannotationsupplyvb	oxygenpersonannotationsupplynn	
+
+BE: bodyNN
+EQ class: physical_structurenn	bodilyjj	organic_structurenn	
+
+BE: bloodNN
+EQ class: bloodyjj	
+
+BE: brainNN
+EQ class: encephalonnn	
+
+BE: bloodNN
+EQ class: bloodyjj	
+
+BE: pressureNN
+EQ class: pressure_levelnn	force_per_unit_areann	
+
+BE: brainNN
+EQ class: encephalonnn	
+
+BE: bloodNN
+EQ class: bloodyjj	
+
+BE: getVB
+EQ class: acquirevb	
+
+BE: protectsVBZ
+EQ class: protectvbz	
+
+BE: bringingVBG
+EQ class: bringvbg	conveyvbg	takevbg	
+
+BE: bringingVBGdownRP
+EQ class: takevbgdownrp	conveyvbgdownrp	bringvbgdownrp	
+
+BE: enoughJJ
+EQ class: adequatejj	enoughnn	decentjj	
+
+BE: lowJJ
+EQ class: lownessnn	
+
+BE: enoughJJbloodNN
+EQ class: enoughnnbloodnn	enoughnnbloodyjj	decentjjbloodyjj	enoughjjbloodyjj	adequatejjbloodnn	adequatejjbloodyjj	decentjjbloodnn	
+
+BE: lowJJpressureNN
+EQ class: lowjjpressure_levelnn	lownessnnforce_per_unit_areann	lownessnnpressure_levelnn	lownessnnpressurenn	lowjjforce_per_unit_areann	
+
+BE: yourPRP$bodyNN
+EQ class: physical_structurennofinyourprp$	yourprp$bodilyvb	yourprp$bodilyjj	yourprp$organic_structurenn	bodilyvbyourprp$	bodynnofinyourprp$	bodilyjjofinyourprp$	organic_structurennofinyourprp$	yourprp$physical_structurenn	
+
+BE: yourPRP$brainNN
+EQ class: brainnnofinyourprp$	encephalonnnofinyourprp$	yourprp$brainvb	brainvbyourprp$	yourprp$encephalonnn	
+
+BE: yourPRP$brainNN
+EQ class: brainnnofinyourprp$	encephalonnnofinyourprp$	yourprp$brainvb	brainvbyourprp$	yourprp$encephalonnn	
+
+BE: bloodNNpressureNN
+EQ class: bloodyjjpressvb	force_per_unit_areannofinbloodnn	bloodnnpressurisevb	bloodnnpressurizevb	bloodnnsuperchargevb	pressurisevbbloodnn	force_per_unit_areannbloodvb	pressurisevbbloodyjj	bloodnnofinforce_per_unit_areann	bloodnnofinpressure_levelnn	pressure_levelnnofinbloodnn	superchargevbbloodyjj	force_per_unit_areannofinbloodyjj	pressure_levelnnbloodvb	bloodyjjofinforce_per_unit_areann	pressurizevbbloodyjj	bloodyjjpressurenn	bloodnnforce_per_unit_areann	bloodyjjforce_per_unit_areann	pressurennofinbloodyjj	bloodnnpressvb	bloodnnpressure_levelnn	pressurizevbbloodnn	bloodyjjofinpressurenn	pressvbbloodnn	bloodyjjpressurisevb	bloodyjjpressurizevb	pressurennbloodvb	bloodnnofinpressurenn	pressvbbloodyjj	superchargevbbloodnn	bloodyjjpressure_levelnn	bloodyjjsuperchargevb	pressurennofinbloodnn	bloodyjjofinpressure_levelnn	pressure_levelnnofinbloodyjj	
+
+BE: itPRPprotectsVBZ
+EQ class: protectornnofinitprp	itprpprotectvbz	guardiannnitprp	protectionnnofinitprp	protectivennofinitprp	protectornnitprp	guardiannnofinitprp	shieldernnitprp	defendernnofinitprp	shieldernnofinitprp	defendernnitprp	protectionnnitprp	
+
+BE: bodyNNgetVB
+EQ class: bodilyjjgetvb	physical_structurennacquirevb	bodynnacquirevb	acquiringnnbodynn	organic_structurennacquirevb	organic_structurenngetvb	acquiringnnofinbodilyjj	gettingnnofinbodynn	acquiringnnorganic_structurenn	acquiringnnofinphysical_structurenn	gettingnnofinorganic_structurenn	gettingnnphysical_structurenn	gettingnnofinphysical_structurenn	gettingnnorganic_structurenn	gettingnnbodynn	bodilyjjacquirevb	gettingnnofinbodilyjj	acquiringnnphysical_structurenn	acquiringnnofinorganic_structurenn	acquiringnnofinbodynn	acquiringnnbodilyjj	physical_structurenngetvb	gettingnnbodilyjj	
+
+BE: getVBbloodNN
+EQ class: gettingnnofinbloodnn	acquirevbbloodyjj	gettingnnofinbloodyjj	acquiringnnofinbloodyjj	getvbbloodyjj	acquiringnnofinbloodnn	acquirevbbloodnn	
+
+BE: protectsVBZyouPRP
+EQ class: defendernnofinyouprp	guardiannnofinyouprp	shieldernnofinyouprp	protectivennofinyouprp	protectornnofinyouprp	protectvbzyouprp	protectionnnofinyouprp	
+
+BE: bringingVBGbrainNN
+EQ class: bringvbgencephalonnn	bringingvbgencephalonnn	takevbgbrainnn	conveyvbgencephalonnn	conveyvbgbrainnn	bringvbgbrainnn	takevbgencephalonnn	
+
+BE: getVBtoTObrainNN
+EQ class: acquirevbtotobrainnn	getvbtotoencephalonnn	acquirevbtotoencephalonnn	
+
+BE: getVBofINpressureNN
+EQ class: acquirevbofinpressurenn	getvbofinpressure_levelnn	acquirevbofinpressure_levelnn	acquirevbofinforce_per_unit_areann	getvbofinforce_per_unit_areann	
+
+BE: bringingVBGtoTObloodNN
+EQ class: bringvbgtotobloodnn	conveyvbgtotobloodyjj	conveyvbgtotobloodnn	bringvbgtotobloodyjj	takevbgtotobloodyjj	bringingvbgtotobloodyjj	takevbgtotobloodnn	
+
+BE: protectsVBZwhenWRBgetVB
+EQ class: protectvbzwhenwrbacquirevb	protectvbzwhenwrbgetvb	protectsvbzwhenwrbacquirevb	
+
+BE: getVBtLocationAnnotation
+EQ class: acquirevbtlocationannotation	getvbthemlocationannotation	acquiringnnofintheylocationannotation	acquiringnnofintlocationannotation	acquiringnnofinthemlocationannotation	getvbtheylocationannotation	gettingnnofintheylocationannotation	gettingnnofinthemlocationannotation	acquirevbthemlocationannotation	acquirevbtheylocationannotation	gettingnnofintlocationannotation	
+
+BE: wordsNNS
+EQ class: theynns	themnns	
+
+BE: purposeNN
+EQ class: intentionnn	designnn	intentnn	aimnn	
+
+BE: bloodNN
+EQ class: bloodyjj	
+
+BE: supplyNN
+EQ class: 
+
+BE: brainNN
+EQ class: encephalonnn	
+
+BE: headNN
+EQ class: caputnn	
+
+BE: groundNN
+EQ class: earthnn	dry_landnn	terra_firmann	solid_groundnn	landnn	
+
+BE: heartNN
+EQ class: bosomnn	
+
+BE: tNNS
+EQ class: thyminenns	theynns	themnns	
+
+BE: gravityNN
+EQ class: gravitational_forcenn	gravitational_attractionnn	gravitationnn	
+
+BE: ensureVB
+EQ class: guaranteevb	insurevb	assurevb	securevb	
+
+BE: bringingVBG
+EQ class: bringvbg	conveyvbg	takevbg	
+
+BE: doesnVBZ
+EQ class: 
+
+BE: overcomeVB
+EQ class: get_the_better_ofvb	defeatvb	
+
+BE: bringingVBGdownRP
+EQ class: takevbgdownrp	conveyvbgdownrp	bringvbgdownrp	
+
+BE: otherJJ
+EQ class: 
+
+BE: faintJJ
+EQ class: weakjj	faintnessnn	
+
+BE: otherJJwordsNNS
+EQ class: otherjjtheynns	otherjjthemnns	
+
+BE: yourPRP$headNN
+EQ class: headnnofinyourprp$	yourprp$caputnn	caputnnofinyourprp$	
+
+BE: yourPRP$heartNN
+EQ class: bosomnnofinyourprp$	yourprp$bosomnn	heartnnofinyourprp$	
+
+BE: bloodNNsupplyNN
+EQ class: bloodyjjofinsupplynn	supplynnofinbloodyjj	providevbbloodnn	bloodyjjsupplyvb	bloodnnfurnishvb	furnishvbbloodnn	bloodnnsupplyvb	supplyvbbloodyjj	supplynnofinbloodnn	bloodnnprovidevb	bloodyjjprovidevb	furnishvbbloodyjj	supplyvbbloodnn	bloodnnrendervb	bloodyjjsupplynn	bloodyjjfurnishvb	rendervbbloodyjj	supplynnbloodvb	providevbbloodyjj	bloodnnofinsupplynn	rendervbbloodnn	bloodyjjrendervb	
+
+BE: purposeNNisAUX
+EQ class: intentnnisaux	intentnnbeaux	aimnnbeaux	intentionnnbeaux	designnnbeaux	aimnnisaux	intentionnnisaux	designnnisaux	purposennbeaux	
+
+BE: heartNNdoesnVBZ
+EQ class: bosomnndoesnvbz	
+
+BE: tNNShaveAUX
+EQ class: tnnshave_gotaux	havennofintheynns	rich_personnnofintnns	theynnshave_gotaux	thyminennshave_gotaux	wealthy_personnnofintheynns	theynnshaveaux	havennofinthemnns	tnnsholdaux	wealthy_personnnofinthemnns	wealthy_personnnofintnns	themnnshave_gotaux	themnnsholdaux	theynnsholdaux	themnnshaveaux	havennofintnns	thyminennshaveaux	wealthy_personnnofinthyminenns	havennofinthyminenns	thyminennsholdaux	rich_personnnofintheynns	rich_personnnofinthemnns	rich_personnnofinthyminenns	
+
+BE: ensureVBsupplyNN
+EQ class: insurevbsupplynn	guaranteevbsupplynn	securevbsupplynn	assurevbsupplynn	
+
+BE: bringingVBGheadNN
+EQ class: bringvbgheadnn	bringingvbgcaputnn	conveyvbgheadnn	conveyvbgcaputnn	takevbgcaputnn	bringvbgcaputnn	takevbgheadnn	
+
+BE: overcomeVBgravityNN
+EQ class: overcomernnofingravitationnn	surmounternnofingravitynn	surmounternnofingravitational_forcenn	get_the_better_ofvbgravitynn	defeatvbgravitationnn	subduernnofingravitationnn	overcomernnofingravitational_attractionnn	get_the_better_ofvbgravitational_attractionnn	overcomernnofingravitynn	subduernnofingravitational_attractionnn	subduernnofingravitynn	surmounternnofingravitationnn	overcomevbgravitationnn	get_the_better_ofvbgravitational_forcenn	surmounternnofingravitational_attractionnn	overcomevbgravitational_attractionnn	defeatvbgravitynn	get_the_better_ofvbgravitationnn	overcomevbgravitational_forcenn	defeatvbgravitational_attractionnn	defeatvbgravitational_forcenn	subduernnofingravitational_forcenn	overcomernnofingravitational_forcenn	
+
+BE: purposeNNofINfaintJJ
+EQ class: faintnessnndesignnn	faintnessnnpurportvb	purposennofinfaintnessnn	purposennofinweakjj	aimnnofinfaintjj	faintjjaimnn	weakjjproposevb	faintnessnnpurposenn	intentnnofinweakjj	faintnessnnproposevb	faintjjdesignnn	faintjjintentionnn	faintnessnnaimvb	weakjjaimvb	purportvbweakjj	intentnnofinfaintnessnn	aimvbweakjj	intentnnofinfaintjj	faintnessnnpurposevb	weakjjpurposenn	intentionnnofinfaintnessnn	aimvbfaintjj	weakjjpurposevb	purposevbweakjj	purposevbfaintjj	purportvbfaintjj	proposevbfaintjj	weakjjpurportvb	faintnessnnintentionnn	purportvbfaintnessnn	faintjjpurposevb	faintjjintentnn	purposevbfaintnessnn	aimvbfaintnessnn	designnnofinfaintjj	weakjjintentnn	faintjjproposevb	intentionnnofinfaintjj	designnnofinfaintnessnn	faintnessnnintentnn	proposevbfaintlyrb	weakjjdesignnn	faintnessnnaimnn	intentionnnofinweakjj	purposevbfaintlyrb	purportvbfaintlyrb	faintjjaimvb	aimnnofinweakjj	faintjjpurposenn	weakjjintentionnn	aimvbfaintlyrb	designnnofinweakjj	weakjjaimnn	faintjjpurportvb	proposevbweakjj	proposevbfaintnessnn	aimnnofinfaintnessnn	
+
+BE: supplyNNtoTObrainNN
+EQ class: brainnnsupplynn	supplynntotoencephalonnn	supplyvbencephalonnn	encephalonnnsupplynn	encephalonnnsupplyvb	encephalonnnrendervb	furnishvbencephalonnn	providevbbrainnn	encephalonnnprovidevb	providevbencephalonnn	furnishvbbrainnn	supplyvbbrainnn	brainnnrendervb	brainnnprovidevb	brainnnsupplyvb	encephalonnnfurnishvb	rendervbbrainnn	rendervbencephalonnn	brainnnfurnishvb	
+
+BE: bringingVBGtoTOgroundNN
+EQ class: conveyvbgtototerra_firmann	conveyvbgtotolandnn	bringingvbgtotodry_landnn	takevbgtotodry_landnn	takevbgtotosolid_groundnn	bringvbgtotodry_landnn	takevbgtotolandnn	bringvbgtototerra_firmann	bringingvbgtotoearthnn	bringvbgtotogroundnn	takevbgtototerra_firmann	conveyvbgtotoearthnn	bringingvbgtotosolid_groundnn	conveyvbgtotogroundnn	bringingvbgtototerra_firmann	conveyvbgtotodry_landnn	takevbgtotogroundnn	takevbgtotoearthnn	bringvbgtotoearthnn	conveyvbgtotosolid_groundnn	bringvbgtotolandnn	bringvbgtotosolid_groundnn	bringingvbgtotolandnn	
+
+BE: isAUXinINwordsNNS
+EQ class: beauxininthemnns	beauxininwordsnns	isauxinintheynns	isauxininthemnns	beauxinintheynns	
+
+BE: ensureVBsoINdoesnVBZ
+EQ class: securevbsoindoesnvbz	insurevbsoindoesnvbz	assurevbsoindoesnvbz	guaranteevbsoindoesnvbz	
+

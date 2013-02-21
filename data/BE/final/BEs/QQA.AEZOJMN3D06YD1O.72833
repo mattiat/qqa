@@ -1,0 +1,90 @@
+#If you eat a high fiber diet, you ll get fuller faster, so you won t have a desire to eat as much. 
+#(S1 (S (S (SBAR (IN If) (S (NP (PRP you)) (VP (VBP eat) (NP (DT a) (JJ high) (NN fiber) (NN diet))))) (, ,) (NP (PRP you)) (ADVP (RB ll)) (VP (VBP get) (NP (NNP fuller)) (ADVP (RBR faster)))) (, ,) (IN so) (S (NP (PRP you)) (VP (VBP won) (SBAR (S (NP (NNS t)) (VP (AUX have) (NP (DT a) (NN desire) (S (VP (TO to) (VP (VB eat) (ADVP (RB as) (RB much))))))))))) (. .)))
+#Rule:Nouns
+r1fiberNN
+r1dietNN
+r1fullerNNP
+r1tOrganizationAnnotation
+r1desireNN
+
+#Rule:Verbs
+r2eatVBP
+r2getVBP
+r2wonVBP
+r2eatVB
+
+#Rule:Adjs
+r4highJJ
+
+#Rule:Adj-Noun
+r5highJJdietNN
+
+#Rule:N-HeadNoun
+r8fiberNNdietNN
+
+#Rule:HeadNoun-V
+r11youPRPgetVBP
+r11youPRPeatVBP
+r11youPRPwonVBP
+r11tOrganizationAnnotationhaveAUX
+
+#Rule:V-HeadNoun
+r21eatVBPdietNN
+r21getVBPfullerNNP
+r21haveAUXdesireNN
+
+#Rule:V-ADV
+r46getVBPllRB
+r46eatVBasRB
+r46eatVBmuchRB
+
+#Also, the fiber will bind with toxins to remove impurities from your system. 
+#(S1 (S (ADVP (RB Also)) (, ,) (NP (DT the) (NN fiber)) (VP (MD will) (NP (NP (NN bind)) (PP (IN with) (NP (NNS toxins)))) (S (VP (TO to) (VP (VB remove) (NP (NNS impurities)) (PP (IN from) (NP (PRP$ your) (NN system))))))) (. .)))
+#Rule:Nouns
+r1fiberNN
+r1bindNN
+r1toxinsNNS
+r1impuritiesNNS
+r1systemNN
+
+#Rule:Verbs
+r2removeVB
+
+#Rule:PRP-Noun
+r6yourPRP$systemNN
+
+#Rule:V-HeadNoun
+r21willMDbindNN
+r21removeVBimpuritiesNNS
+
+#Rule:PPinNP
+r26bindNNwithINtoxinsNNS
+
+#Rule:PPinVP
+r30removeVBfromINsystemNN
+
+#So eat your fruits, nuts, grains, and veggies!!! 
+#(S1 (S (RB So) (VP (VB eat) (NP (PRP$ your) (NNS fruits) (, ,) (NNS nuts) (, ,) (NNS grains) (, ,) (CC and) (NNS veggies) (NNS !!))) (. !)))
+#Rule:Nouns
+r1fruitsNNS
+r1nutsNNS
+r1grainsNNS
+r1veggies!!!PersonAnnotation
+
+#Rule:Verbs
+r2eatVB
+
+#Rule:PRP-Noun
+r6yourPRP$veggies!!!PersonAnnotation
+
+#Rule:V-HeadNoun
+r21eatVBveggies!!!PersonAnnotation
+
+#:P :)
+#(S1 (PRN (: :) (FRAG (ADJP (VBN P)) (: :)) (-RRB- -RRB-)))
+#Rule:Verbs
+r2P :LocationAnnotation
+
+@lemmas-left	diet	remove	have	veggies!!!	fiber	fuller	won	P :	fruit	get	desire	toxins	toxin	impurities	your	fruits	nuts	you	win	system	t	grains	grain	will	nut	eat	high	bind	impurity	
+@lemmas-right	ll	toxins	diet	get	desire	toxin	have	impurities	as	win	veggies!!!	much	system	fuller	eat	won	impurity	bind	
+@lemmas-center	with	from	

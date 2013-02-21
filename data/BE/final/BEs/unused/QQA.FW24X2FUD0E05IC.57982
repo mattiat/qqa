@@ -1,0 +1,99 @@
+#This is not something you catch .  
+#(S1 (S (NP (DT This)) (VP (AUX is) (RB not) (NP (NP (NN something)) (SBAR (S (NP (PRP you)) (VP (VBP catch)))))) (. .)))
+#Rule:Nouns
+r1somethingNN
+
+#Rule:Verbs
+r2catchVBP
+
+#Rule:HeadNoun-V
+r11thisDTisAUX
+r11youPRPcatchVBP
+
+#Rule:NP(NP(z) SBAR(S(NP(x)VP(y))))
+r19catchVBPsomethingNN
+
+#Rule:V-HeadNoun
+r21isAUXsomethingNN
+
+#Rule:V-ADV
+r46isAUXnotRB
+
+#At any given time, something changes in your body and starts producing rapidly growing, abnormal cells which are cancerous.  
+#(S1 (S (PP (IN At) (NP (DT any) (VBN given) (NN time))) (, ,) (NP (NN something)) (VP (VP (VBZ changes) (PP (IN in) (NP (PRP$ your) (NN body)))) (CC and) (VP (VBZ starts) (S (VP (VBG producing) (NP (NP (ADJP (RB rapidly) (VBG growing)) (, ,) (JJ abnormal) (NNS cells)) (SBAR (WHNP (WDT which)) (S (VP (AUX are) (ADJP (JJ cancerous)))))))))) (. .)))
+#Rule:Nouns
+r1timeNN
+r1somethingNN
+r1bodyNN
+r1cellsNNS
+
+#Rule:Verbs
+r2givenVBN
+r2changesVBZ
+r2startsVBZ
+r2producingVBG
+r2growingVBG
+
+#Rule:Adjs
+r4abnormalJJ
+r4cancerousJJ
+
+#Rule:Adj-Noun
+r5givenVBNtimeNN
+r5growingVBGcellsNNS
+r5abnormalJJcellsNNS
+
+#Rule:PRP-Noun
+r6yourPRP$bodyNN
+
+#Rule:HeadNoun-V
+r11somethingNNchangesVBZ
+r11somethingNNstartsVBZ
+
+#Rule:HeadNoun-(who/that)-V
+r14cellsNNSareAUX
+
+#Rule:V-HeadNoun
+r21producingVBGcellsNNS
+
+#Rule:V-ADJ
+r25areAUXcancerousJJ
+
+#Rule:PPinVP
+r30changesVBZinINbodyNN
+
+#Rule:PPinS
+r36changesVBZatINtimeNN
+
+#Scientists have yet to identify that trigger that causes this and why it only occurs in some people and not others.
+#(S1 (S (NP (NNS Scientists)) (VP (AUX have) (ADVP (RB yet)) (S (VP (TO to) (VP (VB identify) (NP (NP (DT that) (NN trigger)) (SBAR (SBAR (WHNP (WDT that)) (S (VP (VBZ causes) (NP (DT this))))) (CC and) (SBAR (WHADVP (WRB why)) (S (NP (PRP it)) (ADVP (RB only)) (VP (VBZ occurs) (PP (IN in) (NP (NP (DT some) (NNS people)) (CC and) (NP (RB not) (NNS others))))))))))))) (. .)))
+#Rule:Nouns
+r1ScientistsNNS
+r1triggerNN
+r1peopleNNS
+r1othersNNS
+
+#Rule:Verbs
+r2identifyVB
+r2causesVBZ
+r2occursVBZ
+
+#Rule:HeadNoun-V
+r11ScientistsNNShaveAUX
+r11itPRPoccursVBZ
+
+#Rule:V-HeadNoun
+r21identifyVBtriggerNN
+r21causesVBZthisDT
+
+#Rule:PPinVP
+r30occursVBZinINpeopleNNS
+r30occursVBZinINothersNNS
+
+#Rule:V-ADV
+r46haveAUXyetRB
+r46occursVBZonlyRB
+
+@lemmas-left	cells	body	cause	have	give	change	catch	scientist	people	occurs	time	Scientists	are	given	something	be	trigger	is	it	others	abnormal	identify	cell	your	you	growing	producing	cancerous	starts	start	grow	causes	this	occur	changes	produce	
+@lemmas-right	trigger	cells	body	is	others	have	change	cell	catch	people	occurs	not	cancerous	time	are	starts	start	only	something	this	yet	occur	be	changes	
+@lemmas-center	at	in	

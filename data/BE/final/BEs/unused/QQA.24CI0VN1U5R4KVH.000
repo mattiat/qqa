@@ -1,0 +1,24 @@
+#What is the reason behind premature ejaculations and how to get around it?
+#(S1 (SBARQ (WHNP (WP What)) (SQ (VP (AUX is) (NP (NP (DT the) (NN reason)) (UCP (PP (IN behind) (NP (JJ premature) (NNS ejaculations))) (CC and) (SBAR (WHADVP (WRB how)) (S (VP (TO to) (VP (VB get) (PP (IN around) (NP (PRP it))))))))))) (. ?)))
+#Rule:Nouns
+r1reasonNN
+r1ejaculationsNNS
+
+#Rule:Verbs
+r2getVB
+
+#Rule:Adjs
+r4prematureJJ
+
+#Rule:Adj-Noun
+r5prematureJJejaculationsNNS
+
+#Rule:V-HeadNoun
+r21isAUXreasonNN
+
+#Rule:PPinVP
+r30getVBaroundINitLocationAnnotation
+
+@lemmas-left	ejaculation	is	get	ejaculations	reason	premature	be	
+@lemmas-right	ejaculation	it	reason	ejaculations	
+@lemmas-center	around	

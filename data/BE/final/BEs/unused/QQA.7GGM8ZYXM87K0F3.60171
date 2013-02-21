@@ -1,0 +1,85 @@
+#I don t know what Elvis Presley has to do with it, but I think LBJ simply could not believe that we would be defeated.  
+#(S1 (S (S (NP (PRP I)) (VP (VB don) (S (NP (NNS t)) (VP (VB know) (SBAR (WHNP (WP what)) (S (NP (NNP Elvis) (NNP Presley)) (VP (AUX has) (S (VP (TO to) (VP (AUX do) (PP (IN with) (NP (PRP it))))))))))))) (, ,) (CC but) (S (NP (PRP I)) (VP (VBP think) (SBAR (S (NP (NNP LBJ)) (ADVP (RB simply)) (VP (MD could) (RB not) (VP (VB believe) (SBAR (IN that) (S (NP (PRP we)) (VP (MD would) (VP (AUX be) (VP (VBN defeated)))))))))))) (. .)))
+#Rule:Nouns
+r1tNNS
+r1Elvis PresleyPersonAnnotation
+r1LBJOrganizationAnnotation
+
+#Rule:Verbs
+r2donVB
+r2knowVB
+r2thinkVBP
+r2believeVB
+r2defeatedVBN
+
+#Rule:HeadNoun-V
+r11iPRPdonVB
+r11tNNSknowVB
+r11Elvis PresleyPersonAnnotationhasAUX
+r11iPRPthinkVBP
+r11LBJOrganizationAnnotationbelieveVB
+
+#Rule:V-HeadNoun
+r22donVBtNNS
+
+#Rule:V-HeadNoun(passive)
+r23defeatedVBNwePRP
+
+#Rule:PPinVP
+r30doAUXwithINitPRP
+
+#Rule:V-IN-V
+r43believeVBthatINdefeatedVBN
+
+#He was accustomed to a different concept of war, basically WW2.  
+#(S1 (S (NP (PRP He)) (VP (AUX was) (VP (VBN accustomed) (PP (TO to) (NP (NP (DT a) (JJ different) (NN concept)) (PP (IN of) (NP (NN war))) (, ,) (ADJP (RB basically) (JJ WW2)))))) (. .)))
+#Rule:Nouns
+r1conceptNN
+r1warNN
+
+#Rule:Verbs
+r2accustomedVBN
+
+#Rule:Adjs
+r4differentJJ
+r4WW2LocationAnnotation
+
+#Rule:Adj-Noun
+r5WW2LocationAnnotationconceptNN
+r5differentJJconceptNN
+
+#Rule:V-HeadNoun(passive)
+r23accustomedVBNhePRP
+
+#Rule:PPinNP
+r26conceptNNofINwarNN
+
+#Rule:PPinVP
+r32accustomedVBNtoTOconceptNN
+
+#This was guerrilla warfare, and he didn t understand it.
+#(S1 (S (S (NP (DT This)) (VP (AUX was) (NP (NN guerrilla) (NN warfare)))) (, ,) (CC and) (S (NP (PRP he)) (VP (VBD didn) (SBAR (S (NP (NNS t)) (VP (VBP understand) (NP (PRP it))))))) (. .)))
+#Rule:Nouns
+r1guerrillaNN
+r1warfareNN
+r1tNNS
+
+#Rule:Verbs
+r2didnVBD
+r2understandVBP
+
+#Rule:N-HeadNoun
+r8guerrillaNNwarfareNN
+
+#Rule:HeadNoun-V
+r11thisDTwasAUX
+r11hePRPdidnVBD
+r11tNNSunderstandVBP
+
+#Rule:V-HeadNoun
+r21wasAUXwarfareNN
+r21understandVBPitPRP
+
+@lemmas-left	different	defeat	concept	defeated	understand	don	believe	war	Elvis Presley	was	LBJ	do	be	think	guerrilla	he	know	i	WW2	t	accustomed	accustom	didn	warfare	this	
+@lemmas-right	defeat	think	concept	understand	it	defeated	don	have	he	believe	know	war	has	was	t	didn	warfare	be	we	
+@lemmas-center	to	of	that	with	

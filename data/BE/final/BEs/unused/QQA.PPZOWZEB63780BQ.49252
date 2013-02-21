@@ -1,0 +1,40 @@
+#i have cancer i dont no why all you hear is breast they sure dont do nothing to help out
+#(S1 (S (S (NP (PRP i)) (VP (AUX have) (NP (NN cancer)))) (NP (PRP i)) (VP (VBP dont) (SBAR (WHADVP (RB no) (WRB why)) (S (NP (NP (DT all)) (SBAR (S (NP (PRP you)) (VP (VBP hear))))) (VP (AUX is) (NP (NP (NN breast)) (SBAR (S (NP (PRP they)) (ADVP (RB sure) (JJ dont)) (VP (AUX do) (NP (NP (NN nothing)) (SBAR (S (VP (TO to) (VP (VB help) (ADVP (RB out)))))))))))))))))
+#Rule:Nouns
+r1cancerNN
+r1breastNN
+r1nothingNN
+
+#Rule:Verbs
+r2dontVBP
+r2hearVBP
+r2helpVB
+
+#Rule:Adjs
+r4dontJJ
+
+#Rule:HeadNoun-V
+r11iPersonAnnotationdontVBP
+r11iPRPhaveAUX
+r11allDTisAUX
+r11youPRPhearVBP
+r11theyPRPdoAUX
+
+#Rule:HeadNoun-(who/that)-V
+r14nothingNNhelpVB
+
+#Rule:V-HeadNoun
+r21haveAUXcancerNN
+r21isAUXbreastNN
+r21doAUXnothingNN
+
+#Rule:V-ADV
+r46doAUXsureRB
+r46helpVBoutRB
+
+#Rule:IS-RULE
+r47breastNNallDT
+
+@lemmas-left	they	is	have	you	i	breast	hear	help	dont	nothing	do	cancer	all	be	
+@lemmas-right	is	have	breast	hear	help	dont	nothing	do	cancer	all	be	sure	out	
+@lemmas-center	

@@ -1,0 +1,55 @@
+#Mine don t.  
+#(S1 (S (NP (PRP Mine)) (VP (VB don) (NP (NN t))) (. .)))
+#Rule:Nouns
+r1MOrganizationAnnotation
+
+#If anything the other kids we know who go to school are veeeerrrryyy jealousof mine and wish they were home-schooled, too.
+#(S1 (S (PP (IN If) (NP (NN anything))) (NP (NP (DT the) (JJ other) (NNS kids)) (SBAR (S (NP (PRP we)) (VP (VBP know) (SBAR (WHNP (WP who)) (S (VP (VBP go) (PP (TO to) (NP (NN school)))))))))) (VP (AUX are) (VP (VP (VBG veeeerrrryyy) (NP (JJ jealousof) (NN mine))) (CC and) (VP (VBP wish) (SBAR (S (NP (PRP they)) (VP (AUX were) (ADJP (JJ home-schooled)) (, ,) (ADVP (RB too)))))))) (. .)))
+#Rule:Nouns
+r1anythingNN
+r1kidsNNS
+r1schoolNN
+r1mineNN
+
+#Rule:Verbs
+r2knowVBP
+r2goVBP
+r2veeeerrrryyyPersonAnnotation
+r2wishVBP
+
+#Rule:Adjs
+r4otherJJ
+r4jealousofJJ
+r4home-schooledJJ
+
+#Rule:Adj-Noun
+r5otherJJkidsNNS
+r5jealousofJJmineNN
+
+#Rule:HeadNoun-V
+r11kidsNNSveeeerrrryyyPersonAnnotation
+r11kidsNNSwishVBP
+r11wePRPknowVBP
+r11theyPRPwereAUX
+
+#Rule:NP(NP(z) SBAR(S(NP(x)VP(y))))
+r19knowVBPkidsNNS
+
+#Rule:V-HeadNoun
+r21veeeerrrryyyPersonAnnotationmineNN
+
+#Rule:V-ADJ
+r25wereAUXhome-schooledJJ
+
+#Rule:PPinVP
+r30goVBPtoTOschoolNN
+
+#Rule:PPinS
+r36areAUXifINanythingNN
+
+#Rule:V-ADV
+r46wereAUXtooRB
+
+@lemmas-left	they	other	wish	veeeerrrryyy	M	kids	know	home-school	kid	were	are	anything	school	home-schooled	mine	jealousof	be	we	go	
+@lemmas-right	wish	veeeerrrryyy	kids	know	home-school	kid	were	school	anything	home-schooled	mine	too	be	
+@lemmas-center	to	if	

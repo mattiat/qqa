@@ -1,0 +1,112 @@
+#At the Declaration of Independence, the United States consisted of 13 states. 
+#(S1 (S (PP (IN At) (NP (NP (DT the) (NNP Declaration)) (PP (IN of) (NP (NNP Independence))))) (, ,) (NP (DT the) (NNP United) (NNPS States)) (VP (VBD consisted) (PP (IN of) (NP (CD 13) (NNS states)))) (. .)))
+#Rule:Nouns
+r1DeclarationNNP
+r1IndependenceLocationAnnotation
+r1the United StatesLocationAnnotation
+r1statesNNS
+
+#Rule:Verbs
+r2consistedVBD
+
+#Rule:Adj-Noun
+r513CDstatesNNS
+
+#Rule:HeadNoun-V
+r11the United StatesLocationAnnotationconsistedVBD
+
+#Rule:PPinNP
+r26DeclarationNNPofINIndependenceLocationAnnotation
+
+#Rule:PPinVP
+r30consistedVBDofINstatesNNS
+
+#Rule:PPinS
+r36consistedVBDatINDeclarationNNP
+
+#In the following years, this number has grown steadily due to expansion to the west, conquest and purchase of lands by the American government, and division of existing states to the current number of 50 U.S. states:    * Alabama    * Alaska    * Arizona    * Arkansas    * California    * Colorado    * Connecticut    * Delaware    * Florida    * Georgia    * Hawaii    * Idaho    * Illinois    * Indiana    * Iowa    * Kansas    * Kentucky    * Louisiana    * Maine  
+#(S1 (S (PP (IN In) (NP (DT the) (JJ following) (NNS years))) (, ,) (NP (DT this) (NN number)) (VP (AUX has) (VP (VBN grown) (ADJP (RB steadily) (JJ due) (PP (TO to) (NP (NP (NP (NP (NN expansion)) (PP (TO to) (NP (DT the) (NN west)))) (, ,) (NP (NP (NN conquest) (CC and) (NN purchase)) (PP (IN of) (NP (NNS lands))) (PP (IN by) (NP (DT the) (NNP American) (NN government)))) (, ,) (CC and) (NP (NN division))) (PP (IN of) (NP (VBG existing) (NNS states)))))) (PP (TO to) (NP (NP (DT the) (JJ current) (NN number)) (PP (IN of) (NP (NP (CD 50) (NNP U.S.) (NNS states)) (: :) (NP (NNP *) (NNP Alabama) (FW *) (NNP Alaska) (FW *) (NNP Arizona) (FW *) (NNP Arkansas) (FW *) (NNP California) (FW *) (NNP Colorado) (FW *) (NNP Connecticut) (FW *) (NNP Delaware) (FW *) (NNP Florida) (FW *) (NNP Georgia) (FW *) (NNP Hawaii) (FW *) (NNP Idaho) (FW *) (NNP Illinois) (FW *) (NNP Indiana) (FW *) (NNP Iowa) (FW *) (NNP Kansas) (FW *) (NNP Kentucky) (FW *) (NNP Louisiana) (FW *) (NNP Maine))))))))))
+#Rule:Nouns
+r1yearsNNS
+r1numberNN
+r1expansionNN
+r1westOrganizationAnnotation
+r1conquestNN
+r1purchaseNN
+r1landsNNS
+r1AmericanNNP
+r1governmentNN
+r1divisionNN
+r1statesNNS
+r1numberNN
+r1U.S.LocationAnnotation
+r1statesNNS
+r1*NNP
+r1AlabamaLocationAnnotation
+r1AlaskaLocationAnnotation
+r1ArizonaLocationAnnotation
+r1ArkansasLocationAnnotation
+r1CaliforniaLocationAnnotation
+r1Colorado    *LocationAnnotation
+r1ConnecticutLocationAnnotation
+r1DelawareLocationAnnotation
+r1FloridaLocationAnnotation
+r1GeorgiaLocationAnnotation
+r1HawaiiLocationAnnotation
+r1IdahoLocationAnnotation
+r1IllinoisLocationAnnotation
+r1IndianaLocationAnnotation
+r1IowaLocationAnnotation
+r1Kansas    * KentuckyOrganizationAnnotation
+r1LouisianaLocationAnnotation
+r1MaineLocationAnnotation
+
+#Rule:Verbs
+r2grownVBN
+r2existingVBG
+
+#Rule:Adjs
+r4followingJJ
+r4dueJJ
+r4currentJJ
+
+#Rule:Adj-Noun
+r5followingJJyearsNNS
+r5existingVBGstatesNNS
+r5currentJJnumberNN
+r550CDstatesNNS
+
+#Rule:N-HeadNoun
+r8AmericanNNPgovernmentNN
+r8U.S.LocationAnnotationstatesNNS
+
+#Rule:N-ApposN
+r10expansionNNconquestNN
+
+#Rule:HeadNoun-V
+r12numberNNgrownVBN
+
+#Rule:PPinNP
+r26expansionNNofINstatesNNS
+r26expansionNNtoTOwestOrganizationAnnotation
+r26conquestNNofINlandsNNS
+r26conquestNNbyINgovernmentNN
+r26numberNNofINstatesNNS
+r26numberNNofINMaineLocationAnnotation
+
+#Rule:PPinVP
+r32grownVBNtoTOnumberNN
+
+#Rule:PPinS
+r36hasAUXinINyearsNNS
+
+#Rule:PPinADJP
+r37dueJJtoTOexpansionNN
+r37dueJJtoTOconquestNN
+r37dueJJtoTOdivisionNN
+
+# * Maryland    * Massachusetts    * Michigan    * Minnesota    * Mississippi    * Missouri    * Montana    * Nebraska    * Nevada    * New Hampshire    * New Jersey    * New Mexico    * New York    * North Carolina    * North Dakota    * Ohio    * Oklahoma    * Oregon    * Pennsylvania    * Rhode Island    * South Carolina    * South Dakota    * Tennessee    * Texas    * Utah    * Vermont    * Virginia    * Washington    * West Virginia    * Wisconsin    * Wyoming
+#
+@lemmas-left	Colorado    *	Kansas    * Kentucky	Alabama	Florida	has	California	consisted	government	Louisiana	Idaho	declaration	consist	American	*	Declaration	number	Independence	U.S.	grown	due	years	Maine	west	Arkansas	lands	expansion	have	land	state	existing	states	purchase	13	the United States	Iowa	following	division	american	Indiana	current	exist	Delaware	Illinois	Hawaii	Connecticut	conquest	Arizona	grow	Alaska	Georgia	50	
+@lemmas-right	lands	expansion	declaration	consist	land	state	states	Declaration	number	Independence	conquest	division	grown	consisted	grow	years	government	Maine	west	
+@lemmas-center	to	of	at	by	in	

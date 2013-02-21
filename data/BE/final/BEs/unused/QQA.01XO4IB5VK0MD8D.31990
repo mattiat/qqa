@@ -1,0 +1,28 @@
+#According to Napolean, 7 hours is excellent for a woman.
+#(S1 (S (PP (VBG According) (PP (TO to) (NP (NNP Napolean)))) (, ,) (NP (CD 7) (NNS hours)) (VP (AUX is) (ADJP (JJ excellent) (PP (IN for) (NP (DT a) (NN woman))))) (. .)))
+#Rule:Nouns
+r1NapoleanPersonAnnotation
+r1hoursNNS
+r1womanNN
+
+#Rule:Verbs
+r2accordingVBG
+
+#Rule:Adjs
+r4excellentJJ
+
+#Rule:Adj-Noun
+r57CDhoursNNS
+
+#Rule:HeadNoun-V
+r11hoursNNSisAUX
+
+#Rule:V-ADJ
+r25isAUXexcellentJJ
+
+#Rule:PPinADJP
+r37excellentJJforINwomanNN
+
+@lemmas-left	is	7	woman	hours	excellent	accord	Napolean	be	according	
+@lemmas-right	is	woman	hours	excellent	be	
+@lemmas-center	for	

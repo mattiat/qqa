@@ -1,0 +1,28 @@
+#Where are Jews originally from?  
+#(S1 (SBARQ (WHADVP (WRB Where)) (SQ (AUX are) (NP (NNPS Jews)) (ADVP (RB originally)) (ADJP (IN from))) (. ?)))
+#Rule:Nouns
+r1JewsNNPS
+
+#Why did they leave their country and immigrate all over the world?
+#(S1 (SBARQ (WHADVP (WRB Why)) (SQ (AUX did) (NP (PRP they)) (VP (VP (VB leave) (NP (PRP$ their) (NN country))) (CC and) (VP (VB immigrate) (NP (NP (DT all)) (PP (IN over) (NP (DT the) (NN world))))))) (. ?)))
+#Rule:Nouns
+r1countryNN
+r1worldNN
+
+#Rule:Verbs
+r2leaveVB
+r2immigrateVB
+
+#Rule:PRP-Noun
+r6theirPRP$countryNN
+
+#Rule:V-HeadNoun
+r21leaveVBcountryNN
+r21immigrateVBallDT
+
+#Rule:PPinNP
+r26allDToverINworldNN
+
+@lemmas-left	leave	immigrate	jew	their	Jews	all	world	country	
+@lemmas-right	world	all	country	
+@lemmas-center	over	

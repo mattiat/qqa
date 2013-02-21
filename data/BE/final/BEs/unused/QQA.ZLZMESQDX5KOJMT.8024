@@ -1,0 +1,18 @@
+#Water falling off something.
+#(S1 (S (NP (NN Water)) (VP (VBG falling) (PRT (RP off)) (NP (NN something))) (. .)))
+#Rule:Nouns
+r1WaterPersonAnnotation
+r1somethingNN
+
+#Rule:V-PRT
+r3fallingVBGoffRP
+
+#Rule:HeadNoun-V
+r11WaterPersonAnnotationfallingVBG
+
+#Rule:V-HeadNoun
+r21fallingVBGsomethingNN
+
+@lemmas-left	fall	falling	something	Water	
+@lemmas-right	fall	off	falling	something	
+@lemmas-center	

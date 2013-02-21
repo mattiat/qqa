@@ -1,0 +1,25 @@
+#Rinse with White Wine..
+#(S1 (S (VP (VB Rinse) (PP (IN with) (NP (NNP White) (NNP Wine))) (. .)) (. .)))
+#Rule:Nouns
+r1White WineOrganizationAnnotation
+
+#Rule:Verbs
+r2RinsePersonAnnotation
+
+#Rule:PPinVP
+r30RinsePersonAnnotationwithINWhite WineOrganizationAnnotation
+
+#Sparking Chardanay
+#(S1 (S (VP (VBG Sparking) (NP (NNP Chardanay)))))
+#Rule:Nouns
+r1ChardanayLocationAnnotation
+
+#Rule:Verbs
+r2sparkingVBG
+
+#Rule:V-HeadNoun
+r21sparkingVBGChardanayLocationAnnotation
+
+@lemmas-left	Chardanay	Rinse	White Wine	sparking	spark	
+@lemmas-right	Chardanay	White Wine	
+@lemmas-center	with	

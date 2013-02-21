@@ -1,0 +1,99 @@
+#Why did apes stop evolving into humans- if they ever have??
+#(S1 (SBARQ (WHADVP (WRB Why)) (SQ (AUX did) (NP (NNS apes)) (VP (VB stop) (S (VP (VBG evolving) (PP (IN into) (NP (NN humans-))))) (SBAR (IN if) (S (NP (PRP they)) (ADVP (RB ever)) (VP (AUX have))))) (. ?)) (. ?)))
+#Rule:Nouns
+r1apesNNS
+r1humans-NN
+
+#Rule:Verbs
+r2stopVB
+r2evolvingVBG
+
+#Rule:HeadNoun-V
+r11theyPRPhaveAUX
+
+#Rule:PPinVP
+r30evolvingVBGintoINhumans-NN
+
+#Rule:V-IN-V
+r43stopVBifINhaveAUX
+
+#Rule:V-ADV
+r46haveAUXeverRB
+
+#According to Darwin s theory, if an animal has a more beneficial charcteristic, this will survive while other s without this will die and eventually the only charcteristics past on will be the beneficial ones. Obviously, human charcteristics are more beneficial than those of apes so why are there still apes around as well as humans, why did they not all evolve?
+#(S1 (S (PP (VBG According) (PP (TO to) (NP (NNP Darwin) (NNP s) (NN theory)))) (, ,) (SBAR (IN if) (S (NP (DT an) (NN animal)) (VP (AUX has) (NP (DT a) (ADJP (RBR more) (JJ beneficial)) (NN charcteristic))))) (, ,) (NP (DT this)) (VP (MD will) (VP (VB survive) (SBAR (IN while) (S (NP (JJ other)) (VP (VBZ s) (SBAR (IN without) (S (NP (DT this)) (VP (MD will) (VP (VP (VB die)) (CC and) (VP (ADVP (RB eventually)) (NP (DT the) (RB only) (JJ charcteristics) (NN past)) (SBAR (IN on) (S (VP (MD will) (VP (AUX be) (NP (DT the) (JJ beneficial) (NN ones.) (S (ADVP (RB Obviously)) (, ,) (NP (JJ human) (NNS charcteristics)) (VP (AUX are) (ADJP (ADJP (RBR more) (JJ beneficial)) (PP (IN than) (NP (NP (DT those)) (PP (IN of) (NP (NP (NNS apes)) (SBAR (RB so) (SBARQ (WHADVP (WRB why)) (SQ (AUX are) (NP (EX there)) (VP (ADVP (RB still)) (VBZ apes) (PRT (RP around)) (ADVP (RB as) (RB well)) (PP (IN as) (NP (NNS humans))) (, ,) (SBARQ (WHADVP (WRB why)) (SQ (AUX did) (NP (PRP they)) (ADVP (RB not) (RB all)) (VP (VB evolve)))))))))))))))))))))))))))))) (. ?)))
+#Rule:Nouns
+r1Darwin sPersonAnnotation
+r1theoryNN
+r1animalNN
+r1charcteristicNN
+r1pastNN
+r1onesNN
+r1charcteristicsNNS
+r1apesNNS
+r1humansNNS
+
+#Rule:Verbs
+r2accordingVBG
+r2surviveVB
+r2sVBZ
+r2dieVB
+r2evolveVB
+
+#Rule:V-PRT
+r3apesVBZaroundRP
+
+#Rule:Adjs
+r4beneficialJJ
+r4otherJJ
+r4charcteristicsJJ
+r4beneficialJJ
+r4humanJJ
+r4beneficialJJ
+
+#Rule:Adj-Noun
+r5beneficialJJcharcteristicNN
+r5charcteristicsJJpastNN
+r5beneficialJJonesNN
+r5humanJJcharcteristicsNNS
+
+#Rule:N-HeadNoun
+r8Darwin sPersonAnnotationtheoryNN
+
+#Rule:HeadNoun-V
+r11thisDTsurviveVB
+r11animalNNhasAUX
+r11otherJJsVBZ
+r11thisDTdieVB
+r11charcteristicsNNSareAUX
+
+#Rule:V-HeadNoun
+r21hasAUXcharcteristicNN
+r21beAUXonesNN
+
+#Rule:V-ADJ
+r25areAUXbeneficialJJ
+
+#Rule:PPinNP
+r26thoseDTofINapesNNS
+
+#Rule:PPinVP
+r30apesVBZasINhumansNNS
+
+#Rule:PPinADJP
+r37beneficialJJthanINthoseDT
+
+#Rule:V-IN-V
+r43surviveVBwhileINsVBZ
+r43sVBZwithoutINdieVB
+r43pastNNonINbeAUX
+
+#Rule:V-ADV
+r46areAUXObviouslyRB
+r46apesVBZstillRB
+r46apesVBZasRB
+r46apesVBZwellRB
+
+@lemmas-left	they	stop	other	have	Darwin s	theory	beneficial	has	according	charcteristic	are	survive	ape	charcteristics	ones.	die	evolve	be	animal	those	apes	humans	accord	past	evolving	ones	human	s	humans-	this	
+@lemmas-right	have	theory	beneficial	well	has	charcteristic	are	survive	ape	charcteristics	Obviously	ones.	die	be	those	obviously	apes	as	still	humans	ones	past	around	s	humans-	ever	
+@lemmas-center	of	if	than	into	on	as	without	while	

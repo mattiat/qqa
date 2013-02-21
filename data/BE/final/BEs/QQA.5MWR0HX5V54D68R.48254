@@ -1,0 +1,339 @@
+#Don t think of cancer as a case of getting older Cancer strikes the young as well the older people. 
+#(S1 (S (NP (NNP Don) (NNS t)) (VP (VBP think) (PP (IN of) (NP (NN cancer))) (PP (IN as) (NP (NP (DT a) (NN case)) (PP (IN of) (S (VP (VBG getting) (SBAR (S (NP (JJR older) (NN Cancer)) (VP (VBZ strikes) (NP (NP (DT the) (JJ young)) (PP (IN as) (RB well) (NP (DT the) (JJR older) (NNS people))))))))))))) (. .)))
+#Rule:Nouns
+r1DonOrganizationAnnotation
+r1tNNS
+r1cancerNN
+r1caseNN
+r1older CancerOrganizationAnnotation
+r1peopleNNS
+
+#Rule:Verbs
+r2thinkVBP
+r2gettingVBG
+r2strikesVBZ
+
+#Rule:Adjs
+r4youngJJ
+r4olderJJR
+
+#Rule:Adj-Noun
+r5olderJJRpeopleNNS
+
+#Rule:N-HeadNoun
+r8DonOrganizationAnnotationtNNS
+
+#Rule:HeadNoun-V
+r11tNNSthinkVBP
+r11older CancerOrganizationAnnotationstrikesVBZ
+
+#Rule:V-HeadNoun
+r21strikesVBZyoungJJ
+
+#Rule:PPinNP
+r26youngJJasINpeopleNNS
+
+#Rule:PPinVP
+r30thinkVBPofINcancerNN
+r30thinkVBPasINcaseNN
+
+#It is also not a death sentence . 
+#(S1 (S (NP (PRP It)) (VP (AUX is) (ADVP (RB also)) (NP (RB not) (DT a) (NN death) (NN sentence))) (. .)))
+#Rule:Nouns
+r1deathNN
+r1sentenceNN
+
+#Rule:N-HeadNoun
+r8deathNNsentenceNN
+
+#Rule:HeadNoun-V
+r11itPRPisAUX
+
+#Rule:V-HeadNoun
+r21isAUXsentenceNN
+
+#Rule:V-ADV
+r46isAUXalsoRB
+
+#Was it caught early? 
+#(S1 (SQ (AUX Was) (NP (PRP it)) (VP (VBN caught) (ADVP (RB early))) (. ?)))
+#Rule:Verbs
+r2caughtVBN
+
+#Rule:V-ADV
+r46caughtVBNearlyRB
+
+#was it caught late? 
+#(S1 (SQ (AUX was) (NP (PRP it)) (VP (VBN caught) (ADVP (RB late))) (. ?)))
+#Rule:Verbs
+r2caughtVBN
+
+#Rule:V-ADV
+r46caughtVBNlateRB
+
+#Is he seekig a second opinion? 
+#(S1 (SQ (AUX Is) (NP (PRP he)) (VP (VBG seekig) (NP (DT a) (JJ second) (NN opinion))) (. ?)))
+#Rule:Nouns
+r1opinionNN
+
+#Rule:Verbs
+r2seekigVBG
+
+#Rule:Adjs
+r4secondJJ
+
+#Rule:Adj-Noun
+r5secondJJopinionNN
+
+#Rule:V-HeadNoun
+r21seekigVBGopinionNN
+
+#Apparently yours is a deep friendship, for you to care this much. 
+#(S1 (S (ADVP (RB Apparently)) (NP (NNS yours)) (VP (AUX is) (NP (DT a) (JJ deep) (NN friendship)) (, ,) (SBAR (IN for) (S (NP (PRP you)) (VP (TO to) (VP (VB care) (NP (DT this)) (ADVP (RB much))))))) (. .)))
+#Rule:Nouns
+r1yoursNNS
+r1friendshipNN
+
+#Rule:Verbs
+r2careVB
+
+#Rule:Adjs
+r4deepJJ
+
+#Rule:Adj-Noun
+r5deepJJfriendshipNN
+
+#Rule:HeadNoun-V
+r11yoursNNSisAUX
+r11youPRPcareVB
+
+#Rule:V-HeadNoun
+r21isAUXfriendshipNN
+r21careVBthisDT
+
+#Rule:V-IN-V
+r43isAUXforINcareVB
+
+#Rule:V-ADV
+r46isAUXApparentlyRB
+r46careVBmuchRB
+
+#Rule:IS-RULE
+r47friendshipNNyoursNNS
+
+#Some things to remember. 
+#(S1 (S (NP (DT Some) (NNS things)) (VP (TO to) (VP (VB remember))) (. .)))
+#Rule:Nouns
+r1thingsNNS
+
+#Rule:Verbs
+r2rememberVB
+
+#Rule:HeadNoun-V
+r11thingsNNSrememberVB
+
+#This is still your friend, he hasn t changed. 
+#(S1 (S (S (NP (DT This)) (VP (AUX is) (ADVP (RB still)) (NP (PRP$ your) (NN friend)))) (, ,) (NP (PRP he)) (VP (VBZ hasn) (ADJP (RB t) (VBN changed))) (. .)))
+#Rule:Nouns
+r1friendNN
+
+#Rule:Verbs
+r2hasnVBZ
+r2changedVBN
+
+#Rule:PRP-Noun
+r6yourPRP$friendNN
+
+#Rule:HeadNoun-V
+r11hePRPhasnVBZ
+r11thisDTisAUX
+
+#Rule:V-HeadNoun
+r21isAUXfriendNN
+
+#Rule:V-ADV
+r46isAUXstillRB
+
+#Yes, he has a disease, and things will be different. 
+#(S1 (S (S (INTJ (UH Yes)) (, ,) (NP (PRP he)) (VP (AUX has) (NP (DT a) (NN disease)))) (, ,) (CC and) (S (NP (NNS things)) (VP (MD will) (VP (AUX be) (ADJP (JJ different))))) (. .)))
+#Rule:Nouns
+r1diseaseNN
+r1thingsNNS
+
+#Rule:Adjs
+r4differentJJ
+
+#Rule:HeadNoun-V
+r11hePRPhasAUX
+r11thingsNNSbeAUX
+
+#Rule:V-HeadNoun
+r21hasAUXdiseaseNN
+
+#Rule:V-ADJ
+r25beAUXdifferentJJ
+
+#He may not be able to do things you used to do in the past. 
+#(S1 (S (NP (PRP He)) (VP (MD may) (RB not) (VP (AUX be) (ADJP (JJ able) (S (VP (TO to) (VP (AUX do) (NP (NP (NNS things)) (SBAR (S (NP (PRP you)) (VP (VBD used) (S (VP (TO to) (VP (AUX do) (PP (IN in) (NP (DT the) (NN past)))))))))))))))) (. .)))
+#Rule:Nouns
+r1thingsNNS
+r1pastNN
+
+#Rule:Verbs
+r2usedVBD
+
+#Rule:Adjs
+r4ableJJ
+
+#Rule:HeadNoun-V
+r11hePRPbeAUX
+r11youPRPusedVBD
+
+#Rule:NP(NP(z) SBAR(S(NP(x)VP(y))))
+r19usedVBDthingsNNS
+
+#Rule:V-HeadNoun
+r21doAUXthingsNNS
+
+#Rule:V-ADJ
+r25beAUXableJJ
+
+#Rule:PPinVP
+r30doAUXinINpastNN
+
+#But now would be the time to explore different things.  
+#(S1 (S (CC But) (NP (RB now)) (VP (MD would) (VP (AUX be) (NP (NP (DT the) (NN time)) (SBAR (S (VP (TO to) (VP (VB explore) (NP (JJ different) (NNS things))))))))) (. .)))
+#Rule:Nouns
+r1timeNN
+r1thingsNNS
+
+#Rule:Verbs
+r2exploreVB
+
+#Rule:Adjs
+r4differentJJ
+
+#Rule:Adj-Noun
+r5differentJJthingsNNS
+
+#Rule:HeadNoun-(who/that)-V
+r14timeNNexploreVB
+
+#Rule:V-HeadNoun
+r21beAUXtimeNN
+r21exploreVBthingsNNS
+
+#Rule:IS-RULE
+r47timeNNnowRB
+
+#offer to help, but don t push yourself on him. 
+#(S1 (S (S (VP (VB offer) (S (VP (TO to) (VP (VB help)))))) (, ,) (CC but) (S (VP (VB don) (S (NP (NNS t)) (VP (VB push) (NP (PRP yourself)) (PP (IN on) (NP (PRP him))))))) (. .)))
+#Rule:Nouns
+r1tLocationAnnotation
+
+#Rule:Verbs
+r2offerVB
+r2helpVB
+r2donVB
+r2pushVB
+
+#Rule:HeadNoun-V
+r11tLocationAnnotationpushVB
+
+#Rule:V-HeadNoun
+r21pushVByourselfPRP
+
+#Rule:V-HeadNoun
+r22donVBtLocationAnnotation
+
+#Rule:PPinVP
+r30pushVBonINhimPRP
+
+#Rule:V-V
+r44offerVBhelpVB
+
+#As hard as this is for you to accept, it is even harder for him, and his family to accept. 
+#(S1 (S (ADVP (ADVP (RB As) (RB hard)) (SBAR (IN as) (S (NP (DT this)) (VP (AUX is) (SBAR (IN for) (S (NP (PRP you)) (VP (TO to) (VP (VB accept))))))))) (, ,) (NP (PRP it)) (VP (AUX is) (ADJP (RB even) (JJR harder) (SBAR (IN for) (S (NP (NP (PRP him)) (, ,) (CC and) (NP (PRP$ his) (NN family))) (VP (TO to) (VP (VB accept))))))) (. .)))
+#Rule:Nouns
+r1familyNN
+
+#Rule:Verbs
+r2acceptVB
+r2acceptVB
+
+#Rule:Adjs
+r4harderJJR
+
+#Rule:PRP-Noun
+r6hisPRP$familyNN
+
+#Rule:HeadNoun-V
+r11itPRPisAUX
+r11thisDTisAUX
+r11youPRPacceptVB
+r11himPRPacceptVB
+r11familyNNacceptVB
+
+#Rule:V-ADJ
+r25isAUXharderJJR
+
+#Rule:V-IN-V
+r43isAUXforINacceptVB
+
+#Be yourself, if you went fishing with him, continue to go fishing, go bowling, have a bbq! 
+#(S1 (SQ (AUX Be) (NP (PRP yourself)) (, ,) (SBAR (IN if) (S (NP (PRP you)) (VP (VBD went) (S (VP (VBG fishing) (PP (IN with) (NP (PRP him)))))))) (, ,) (VP (VP (VBP continue) (S (VP (TO to) (VP (VB go) (NP (NN fishing)))))) (, ,) (VP (VBP go) (NP (NN bowling))) (, ,) (VP (AUX have) (NP (DT a) (NN bbq)))) (. !)))
+#Rule:Nouns
+r1fishingNN
+r1bowlingNN
+r1bbq!LocationAnnotation
+
+#Rule:Verbs
+r2wentVBD
+r2fishingVBG
+r2continueVBP
+r2goVB
+r2goVBP
+
+#Rule:HeadNoun-V
+r11youPRPwentVBD
+
+#Rule:V-HeadNoun
+r21goVBfishingNN
+r21goVBPbowlingNN
+r21haveAUXbbq!LocationAnnotation
+
+#Rule:PPinVP
+r30fishingVBGwithINhimPRP
+
+#Rule:V-V
+r44continueVBPgoVB
+
+#(once treatments start, it may be hard), but continue to be his friend.
+#(S1 (S (PRN (-LRB- -LRB-) (S (SBAR (IN once) (S (NP (NNS treatments)) (VP (VBP start)))) (, ,) (NP (PRP it)) (VP (MD may) (VP (AUX be) (ADJP (JJ hard))))) (-RRB- -RRB-)) (, ,) (CC but) (S (VP (VBP continue) (S (VP (TO to) (VP (AUX be) (NP (PRP$ his) (NN friend))))))) (. .)))
+#Rule:Nouns
+r1treatmentsNNS
+r1friendNN
+
+#Rule:Verbs
+r2startVBP
+r2continueVBP
+
+#Rule:Adjs
+r4hardJJ
+
+#Rule:PRP-Noun
+r6hisPRP$friendNN
+
+#Rule:HeadNoun-V
+r11itPRPbeAUX
+r11treatmentsNNSstartVBP
+
+#Rule:V-HeadNoun
+r21beAUXfriendNN
+
+#Rule:V-ADJ
+r25beAUXhardJJ
+
+@lemmas-left	don	second	treatment	fish	accept	change	him	used	people	has	went	changed	help	time	his	family	friendship	care	opinion	deep	be	think	get	death	he	start	seekig	case	this	harder	friend	hasn	go	different	getting	remember	explore	have	catch	sentence	use	disease	push	older Cancer	strike	older	able	do	caught	hard	yours	is	it	your	you	offer	bbq!	past	young	t	continue	strikes	Don	bowling	fishing	things	cancer	treatments	
+@lemmas-right	Apparently	accept	him	used	people	has	went	time	help	family	care	friendship	opinion	yourself	be	think	much	start	now	late	case	this	hasn	friend	early	harder	go	different	remember	explore	have	sentence	use	disease	push	strike	able	apparently	hard	yours	is	still	bbq!	past	young	t	strikes	bowling	things	fishing	also	cancer	
+@lemmas-center	of	with	for	on	as	in	

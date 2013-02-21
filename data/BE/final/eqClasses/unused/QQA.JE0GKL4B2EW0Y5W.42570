@@ -1,0 +1,405 @@
+BE: BoxingNNP
+EQ class: fisticuffsnnp	pugilismnnp	
+
+BE: sportNN
+EQ class: athleticsnn	
+
+BE: eliminatedVBN
+EQ class: extinguishvbn	eliminatevbn	do_away_withvbn	get_rid_ofvbn	
+
+BE: allowedVBN
+EQ class: permitvbn	letvbn	allowvbn	
+
+BE: eliminatedVBNBoxingNNP
+EQ class: get_rid_ofvbnpugilismnnp	eliminationnnofinfisticuffsnnp	extinguishvbnfisticuffsnnp	eliminatornnofinboxingnnp	do_away_withvbnfisticuffsnnp	eliminationnnofinpugilismnnp	eliminatevbnpugilismnnp	eliminatedvbnfisticuffsnnp	do_away_withvbnboxingnnp	eliminatevbnfisticuffsnnp	extinguishvbnpugilismnnp	extinguishvbnboxingnnp	eliminatornnofinpugilismnnp	riddancennofinboxingnnp	eliminatornnofinfisticuffsnnp	get_rid_ofvbnboxingnnp	eliminatedvbnpugilismnnp	riddancennofinpugilismnnp	eliminatevbnboxingnnp	get_rid_ofvbnfisticuffsnnp	eliminationnnofinboxingnnp	do_away_withvbnpugilismnnp	riddancennofinfisticuffsnnp	
+
+BE: allowedVBNBoxingNNP
+EQ class: allowvbnpugilismnnp	permitvbnpugilismnnp	letvbnpugilismnnp	allowvbnfisticuffsnnp	allowedvbnfisticuffsnnp	permitvbnfisticuffsnnp	allowvbnboxingnnp	letvbnboxingnnp	allowedvbnpugilismnnp	permitvbnboxingnnp	letvbnfisticuffsnnp	
+
+BE: eliminatedVBNfromINsportNN
+EQ class: do_away_withvbnfrominathleticsnn	get_rid_ofvbnfrominsportnn	eliminatedvbnfrominathleticsnn	extinguishvbnfrominathleticsnn	eliminatevbnfrominathleticsnn	get_rid_ofvbnfrominathleticsnn	eliminatevbnfrominsportnn	do_away_withvbnfrominsportnn	extinguishvbnfrominsportnn	
+
+BE: allowedVBNnotRB
+EQ class: letvbnnotrb	allowvbnnotrb	permitvbnnotrb	
+
+BE: tNNS
+EQ class: thyminenns	theynns	themnns	
+
+BE: personNN
+EQ class: someonenn	soulnn	individualnn	somebodynn	mortalnn	
+
+BE: questionNN
+EQ class: enquirynn	interrogationnn	querynn	inquirynn	
+
+BE: respectNN
+EQ class: regardnn	
+
+BE: beingNN
+EQ class: beingnessnn	existencenn	
+
+BE: donVB
+EQ class: assumevb	put_onvb	wearvb	get_intovb	
+
+BE: knowVB
+EQ class: cognizevb	cognisevb	
+
+BE: postVB
+EQ class: 
+
+BE: fullJJ
+EQ class: fullnessnn	
+
+BE: fullJJrespectNN
+EQ class: fullnessnnregardnn	fullnessnnrespectnn	fulljjregardnn	
+
+BE: yourPRP$beingNN
+EQ class: yourprp$beingnessnn	yourprp$bevb	bevbyourprp$	beingnnofinyourprp$	beingnessnnofinyourprp$	yourprp$existencenn	existencennofinyourprp$	
+
+BE: iPRPdonVB
+EQ class: iprpget_intovb	iprpassumevb	iprpwearvb	iprpput_onvb	
+
+BE: tNNSknowVB
+EQ class: apprehendernntnns	knowingnnofinthemnns	knowernnofintheynns	knowingnnofintnns	knowingnnofinthyminenns	thyminennsknowvb	knowingnntnns	knowernnofinthemnns	tnnscognizevb	knowablennofintheynns	knowingnnofintheynns	themnnscognisevb	theynnscognizevb	knowingnntheynns	theynnsknowvb	apprehendernnthyminenns	apprehendernnthemnns	apprehendernnofintheynns	thyminennscognizevb	knowingnnthyminenns	knowernntheynns	knowernntnns	apprehendernnofinthyminenns	thyminennscognisevb	apprehendernnofinthemnns	knowingnnthemnns	themnnscognizevb	apprehendernntheynns	tnnscognisevb	themnnsknowvb	theynnscognisevb	knowernnofintnns	knowernnofinthyminenns	knowernnthemnns	knowablennofintnns	knowablennofinthemnns	knowablennofinthyminenns	knowernnthyminenns	apprehendernnofintnns	
+
+BE: personNNpostVB
+EQ class: noticennofinindividualnn	cardnnofinsoulnn	postingnnofinindividualnn	noticennsomeonenn	placardnnofinindividualnn	billnnofinpersonnn	postingnnindividualnn	billnnofinsomeonenn	cardnnofinpersonnn	posternnsomeonenn	postingnnofinpersonnn	billnnpersonnn	billnnsomeonenn	placardnnsomeonenn	placardnnofinsoulnn	posternnofinsomeonenn	noticennsoulnn	placardnnofinsomebodynn	noticennsomebodynn	placardnnmortalnn	billnnindividualnn	postingnnofinsomebodynn	posternnofinsoulnn	cardnnofinsomeonenn	noticennmortalnn	placardnnpersonnn	cardnnindividualnn	cardnnmortalnn	billnnsomebodynn	cardnnsoulnn	posternnindividualnn	noticennofinsomeonenn	noticennpersonnn	placardnnsomebodynn	placardnnindividualnn	cardnnofinmortalnn	individualnnpostvb	noticennofinpersonnn	mortalnnpostvb	somebodynnpostvb	cardnnsomebodynn	cardnnsomeonenn	posternnofinindividualnn	postingnnofinsoulnn	placardnnofinmortalnn	cardnnofinindividualnn	billnnofinsoulnn	noticennindividualnn	posternnmortalnn	posternnofinpersonnn	placardnnofinsomeonenn	cardnnofinsomebodynn	postingnnofinmortalnn	posternnpersonnn	postingnnsoulnn	billnnmortalnn	placardnnsoulnn	noticennofinsomebodynn	posternnofinsomebodynn	noticennofinsoulnn	billnnofinmortalnn	postingnnofinsomeonenn	billnnsoulnn	postingnnsomebodynn	billnnofinindividualnn	posternnofinmortalnn	cardnnpersonnn	soulnnpostvb	someonennpostvb	postingnnmortalnn	postingnnpersonnn	noticennofinmortalnn	posternnsoulnn	posternnsomebodynn	postingnnsomeonenn	placardnnofinpersonnn	billnnofinsomebodynn	
+
+BE: knowVBpersonNN
+EQ class: knowingnnofinmortalnn	apprehendernnofinsoulnn	knowernnofinsomebodynn	cognizevbsomebodynn	apprehendernnofinsomebodynn	cognizevbpersonnn	knowablennofinsoulnn	knowablennofinmortalnn	knowingnnofinpersonnn	knowingnnofinsomeonenn	apprehendernnofinsomeonenn	knowablennofinpersonnn	knowvbsomeonenn	knowvbmortalnn	knowvbsoulnn	cognisevbsomebodynn	knowvbindividualnn	cognizevbindividualnn	knowablennofinsomeonenn	cognisevbmortalnn	knowernnofinpersonnn	cognizevbsomeonenn	knowernnofinsoulnn	cognisevbsomeonenn	apprehendernnofinpersonnn	knowablennofinsomebodynn	knowvbsomebodynn	cognisevbindividualnn	apprehendernnofinindividualnn	knowingnnofinindividualnn	knowingnnofinsoulnn	knowingnnofinsomebodynn	cognizevbsoulnn	knowablennofinindividualnn	knowernnofinindividualnn	knowernnofinsomeonenn	cognisevbsoulnn	apprehendernnofinmortalnn	knowernnofinmortalnn	cognizevbmortalnn	cognisevbpersonnn	
+
+BE: postVBquestionNN
+EQ class: billnnofinenquirynn	posternnofininquirynn	posternnofinquestionnn	noticennofininterrogationnn	postvbenquirynn	placardnnofinenquirynn	noticennofinquerynn	billnnofinquestionnn	placardnnofininterrogationnn	postvbinquirynn	placardnnofinquerynn	placardnnofininquirynn	cardnnofinquestionnn	cardnnofininquirynn	postingnnofinenquirynn	posternnofinquerynn	posternnofininterrogationnn	postingnnofinquerynn	postvbinterrogationnn	noticennofinenquirynn	postvbquerynn	placardnnofinquestionnn	noticennofinquestionnn	postingnnofinquestionnn	cardnnofinquerynn	postingnnofininterrogationnn	posternnofinenquirynn	cardnnofininterrogationnn	billnnofininquirynn	noticennofininquirynn	cardnnofinenquirynn	postingnnofininquirynn	billnnofinquerynn	billnnofininterrogationnn	
+
+BE: donVBtNNS
+EQ class: wearvbtnns	wearvbtheynns	wearvbthemnns	put_onvbtnns	wearvbthyminenns	get_intovbthemnns	donvbthyminenns	get_intovbthyminenns	put_onvbthyminenns	put_onvbthemnns	assumevbthyminenns	get_intovbtheynns	assumevbthemnns	assumevbtnns	assumevbtheynns	donvbthemnns	get_intovbtnns	donvbtheynns	put_onvbtheynns	
+
+BE: respectNNtoTObeingNN
+EQ class: regardnntotobeingnn	beingnnregardnn	beingnnrespectnn	beingnessnnregardnn	respectnntotoexistencenn	respectnntotobeingnessnn	regardnntotoexistencenn	regardnntotobeingnessnn	beingnessnnrespectnn	existencennregardnn	existencennrespectnn	
+
+BE: boxingNN
+EQ class: fisticuffsnn	pugilismnn	
+
+BE: sportNN
+EQ class: athleticsnn	
+
+BE: personsNNS
+EQ class: soulnns	mortalnns	personnns	somebodynns	theynns	individualnns	themnns	someonenns	
+
+BE: callVB
+EQ class: namevb	
+
+BE: bunchingVBG
+EQ class: bunch_upvbg	bunchvbg	bunch_togethervbg	
+
+BE: otherJJ
+EQ class: 
+
+BE: twoCDpersonsNNS
+EQ class: iicdsomebodynns	2cdthemnns	deucecdmortalnns	deucecdtheynns	2cdpersonsnns	deucecdsoulnns	twocdmortalnns	2cdpersonnns	twocdsomeonenns	iicdpersonnns	2cdtheynns	twocdtheynns	2cdsomeonenns	2cdsoulnns	iicdindividualnns	iicdpersonsnns	deucecdsomebodynns	deucecdsomeonenns	deucecdpersonnns	iicdmortalnns	2cdmortalnns	twocdpersonnns	iicdtheynns	twocdsomebodynns	twocdthemnns	2cdindividualnns	deucecdthemnns	iicdthemnns	iicdsoulnns	deucecdindividualnns	2cdsomebodynns	twocdsoulnns	twocdindividualnns	iicdsomeonenns	deucecdpersonsnns	
+
+BE: personsNNSbunchingVBG
+EQ class: soulnnsbunchingvbg	clusteringnnofinindividualnns	personsnnsbunchvbg	clusteringnnofinmortalnns	bunchyjjofinindividualnns	bunchyjjofintheynns	personnnsbunchvbg	clumpnnofinpersonnns	bunchnnofinsomebodynns	mortalnnsbunchvbg	personnnsbunch_togethervbg	individualnnsbunchvbg	clusternnofinpersonnns	bunchyjjofinsomebodynns	bunchnnofinpersonnns	mortalnnsbunch_upvbg	bunchnnofinsomeonenns	clusteringnnofinsomeonenns	themnnsbunch_togethervbg	personsnnsbunch_togethervbg	bunchyjjofinsomeonenns	bunchyjjofinpersonnns	personnnsbunch_upvbg	theynnsbunch_upvbg	clusteringnnofinpersonnns	clusteringnnofinsomebodynns	soulnnsbunchvbg	bunchnnofinthemnns	clumpnnofintheynns	mortalnnsbunch_togethervbg	clusternnofintheynns	somebodynnsbunchingvbg	clusteringnnofinsoulnns	themnnsbunchvbg	theynnsbunch_togethervbg	someonennsbunch_upvbg	individualnnsbunchingvbg	clusternnofinsomebodynns	clumpnnofinmortalnns	themnnsbunch_upvbg	someonennsbunch_togethervbg	clusternnofinthemnns	individualnnsbunch_upvbg	somebodynnsbunch_upvbg	clumpnnofinsoulnns	theynnsbunchvbg	personnnsbunchingvbg	bunchyjjofinmortalnns	clusteringnnofintheynns	someonennsbunchvbg	clumpnnofinthemnns	clusternnofinmortalnns	clusteringnnofinthemnns	soulnnsbunch_upvbg	theynnsbunchingvbg	bunchnnofintheynns	bunchnnofinmortalnns	bunchnnofinsoulnns	clusternnofinsomeonenns	bunchyjjofinsoulnns	clumpnnofinindividualnns	somebodynnsbunchvbg	themnnsbunchingvbg	someonennsbunchingvbg	bunchyjjofinpersonsnns	bunchnnofinpersonsnns	somebodynnsbunch_togethervbg	personsnnsbunch_upvbg	clusternnofinsoulnns	bunchnnofinindividualnns	clusternnofinindividualnns	clusternnofinpersonsnns	clusteringnnofinpersonsnns	clumpnnofinsomebodynns	individualnnsbunch_togethervbg	clumpnnofinpersonsnns	mortalnnsbunchingvbg	bunchyjjofinthemnns	soulnnsbunch_togethervbg	clumpnnofinsomeonenns	
+
+BE: callVBboxingNN
+EQ class: namevbboxingnn	namevbpugilismnn	namevbfisticuffsnn	callvbpugilismnn	callvbfisticuffsnn	
+
+BE: bunchingVBGotherJJ
+EQ class: bunchvbgotherjj	bunch_upvbgotherjj	clusternnofinotherjj	clumpnnofinotherjj	bunchyjjofinotherjj	bunch_togethervbgotherjj	clusteringnnofinotherjj	bunchnnofinotherjj	
+
+BE: HEADNN
+EQ class: caputnn	dnn	calciferolnn	vitamin_dnn	cholecalciferolnn	viosterolnn	h.e.a.d.nn	ergocalciferolnn	
+
+BE: partNN
+EQ class: constituentnn	componentnn	component_partnn	partialjj	portionnn	
+
+BE: bodyNN
+EQ class: physical_structurenn	bodilyjj	organic_structurenn	
+
+BE: sensitiveJJ
+EQ class: sensitivenessnn	sensitivitynn	
+
+BE: sensitiveJJpartNN
+EQ class: sensitivejjportionnn	sensitivejjconstituentnn	sensitivitynncomponentnn	sensitivenessnnconstituentnn	sensitivejjpartialjj	sensitivitynncomponent_partnn	sensitivitynnconstituentnn	sensitivenessnnpartnn	sensitivenessnncomponentnn	sensitivenessnncomponent_partnn	sensitivitynnpartnn	sensitivenessnnpartialjj	sensitivitynnportionnn	sensitivitynnpartialjj	sensitivejjcomponent_partnn	sensitivejjcomponentnn	sensitivenessnnportionnn	partialvbsensitivelyrb	
+
+BE: partNNinINbodyNN
+EQ class: bodynnpartialvb	component_partnnininbodilyjj	partialjjininorganic_structurenn	physical_structurennpartialjj	organic_structurennportionnn	portionnnininbodynn	partialvbphysical_structurenn	partialvbbodilyjj	constituentnnininbodynn	bodilyjjpartialvb	physical_structurenncomponentnn	partialvborganic_structurenn	portionnnininorganic_structurenn	physical_structurennpartialvb	bodilyjjcomponentnn	organic_structurenncomponent_partnn	component_partnnininorganic_structurenn	bodilyjjportionnn	physical_structurennconstituentnn	bodilyjjcomponent_partnn	partialjjininphysical_structurenn	organic_structurennconstituentnn	bodilyjjpartialjj	partnnininorganic_structurenn	bodynncomponentnn	portionnnininphysical_structurenn	bodynnconstituentnn	physical_structurenncomponent_partnn	bodilyjjconstituentnn	bodynnpartialjj	bodynnportionnn	physical_structurennpartnn	componentnnininbodilyjj	bodynnpartnn	constituentnnininbodilyjj	partialjjininbodynn	organic_structurennpartialjj	componentnnininorganic_structurenn	partialjjininbodilyjj	partnnininphysical_structurenn	organic_structurennpartnn	partialvbbodynn	constituentnnininorganic_structurenn	constituentnnininphysical_structurenn	partnnininbodilyjj	bodynncomponent_partnn	component_partnnininphysical_structurenn	organic_structurenncomponentnn	componentnnininbodynn	bodilyjjpartnn	physical_structurennportionnn	component_partnnininbodynn	portionnnininbodilyjj	componentnnininphysical_structurenn	organic_structurennpartialvb	
+
+BE: visionNN
+EQ class: visionaryjj	
+
+BE: damageNN
+EQ class: impairmentnn	harmnn	
+
+BE: plusNN
+EQ class: assetnn	
+
+BE: termNN
+EQ class: 
+
+BE: diseasesNNS
+EQ class: theynns	diseasenns	themnns	
+
+BE: respectNN
+EQ class: regardnn	
+
+BE: peopleNNS
+EQ class: theynns	themnns	
+
+BE: itNN
+EQ class: information_technologynn	
+
+BE: peopleNNS
+EQ class: theynns	themnns	
+
+BE: historyNN
+EQ class: historicjj	
+
+BE: itNN
+EQ class: information_technologynn	
+
+BE: heartNN
+EQ class: bosomnn	
+
+BE: bodyNN
+EQ class: physical_structurenn	bodilyjj	organic_structurenn	
+
+BE: purposelyNN
+EQ class: 
+
+BE: worldNN
+EQ class: cosmosnn	macrocosmnn	creationnn	existencenn	universenn	
+
+BE: violenceNN
+EQ class: violentjj	forcenn	
+
+BE: mediaNNS
+EQ class: mediumnns	theynns	themnns	
+
+BE: violenceNN
+EQ class: violentjj	forcenn	
+
+BE: looseVB
+EQ class: liberatevb	unloosevb	freevb	releasevb	unloosenvb	
+
+BE: hearingVBG
+EQ class: hearvbg	
+
+BE: causeVB
+EQ class: makevb	dovb	
+
+BE: causeVB
+EQ class: makevb	dovb	
+
+BE: playVBP
+EQ class: 
+
+BE: madeVBD
+EQ class: dovbd	makevbd	
+
+BE: watchVBP
+EQ class: 
+
+BE: supportVB
+EQ class: back_upvb	
+
+BE: sVBZ
+EQ class: 
+
+BE: breakingVBG
+EQ class: interruptvbg	breakvbg	
+
+BE: devastatingVBG
+EQ class: desolatevbg	wastevbg	devastatevbg	ravagevbg	lay_waste_tovbg	scourgevbg	
+
+BE: seeingVBG
+EQ class: seevbg	
+
+BE: smashedVBN
+EQ class: nailvbn	boomvbn	smashvbn	blastvbn	
+
+BE: severeJJ
+EQ class: severitynn	severenessnn	wickedjj	terriblejj	
+
+BE: internalJJ
+EQ class: 
+
+BE: headJJ
+EQ class: 
+
+BE: longJJ
+EQ class: longnessnn	
+
+BE: mentalJJ
+EQ class: mentalitynn	
+
+BE: psychologicalJJ
+EQ class: 
+
+BE: onesJJ
+EQ class: 
+
+BE: humanJJ
+EQ class: humannessnn	humanitynn	humannn	
+
+BE: humanJJ
+EQ class: humannessnn	humanitynn	humannn	
+
+BE: realJJ
+EQ class: realnessnn	existentjj	realitynn	
+
+BE: fullJJ
+EQ class: fullnessnn	
+
+BE: severeJJdamageNN
+EQ class: severejjimpairmentnn	damagevbseverelyrb	severitynnimpairmentnn	terriblejjdamagenn	severenessnnimpairmentnn	severejjharmnn	severenessnndamagenn	wickedjjdamagenn	wickedjjimpairmentnn	severitynnharmnn	severenessnnharmnn	severitynndamagenn	terriblejjharmnn	wickedjjharmnn	terriblejjimpairmentnn	
+
+BE: internalJJplusNN
+EQ class: internaljjassetnn	
+
+BE: headJJplusNN
+EQ class: headjjassetnn	
+
+BE: mentalJJdiseasesNNS
+EQ class: mentalitynndiseasenns	mentaljjtheynns	mentaljjdiseasenns	mentalitynnthemnns	mentalitynntheynns	mentalitynndiseasesnns	mentaljjthemnns	
+
+BE: psychologicalJJdiseasesNNS
+EQ class: psychologicaljjtheynns	psychologicaljjdiseasenns	psychologicaljjthemnns	
+
+BE: onesJJdiseasesNNS
+EQ class: onesjjtheynns	onesjjdiseasenns	onesjjthemnns	
+
+BE: longJJdiseasesNNS
+EQ class: longnessnnthemnns	longnessnntheynns	longjjtheynns	longjjthemnns	longnessnndiseasesnns	longjjdiseasenns	longnessnndiseasenns	
+
+BE: humanJJbodyNN
+EQ class: humannessnnorganic_structurenn	humanjjbodilyjj	humannessnnbodilyjj	humanitynnphysical_structurenn	humanitynnbodilyjj	humannnorganic_structurenn	humannessnnbodynn	humanitynnbodynn	humannnbodilyjj	bodilyvbhumanlyrb	humanjjorganic_structurenn	humannnphysical_structurenn	humannnbodynn	humanitynnorganic_structurenn	humanjjphysical_structurenn	humannessnnphysical_structurenn	
+
+BE: humanJJpurposelyNN
+EQ class: humanitynnpurposelynn	humannessnnpurposelynn	humannnpurposelynn	
+
+BE: realJJworldNN
+EQ class: realjjuniversenn	existentjjuniversenn	realjjexistencenn	realitynnmacrocosmnn	existentjjcreationnn	realnessnnexistencenn	realitynnworldnn	realnessnncosmosnn	existentjjmacrocosmnn	realnessnncreationnn	realjjcosmosnn	realitynncreationnn	existentjjexistencenn	realitynnexistencenn	realnessnnmacrocosmnn	realitynncosmosnn	realjjcreationnn	realnessnnuniversenn	existentjjworldnn	existentjjcosmosnn	realnessnnworldnn	realitynnuniversenn	realjjmacrocosmnn	
+
+BE: fullJJmediaNNS
+EQ class: fullnessnnmediumnns	fullnessnntheynns	fulljjmediumnns	fullnessnnthemnns	fullnessnnmedianns	fulljjthemnns	fulljjtheynns	
+
+BE: yourPRP$visionNN
+EQ class: visionaryjjofinyourprp$	visionaryvbyourprp$	yourprp$visionaryjj	yourprp$visionaryvb	visionnnofinyourprp$	
+
+BE: termNNdiseasesNNS
+EQ class: termnndiseasenns	themnnsofintermnn	termnnofindiseasenns	diseasesnnsofintermnn	termnntheynns	termnnofintheynns	themnnstermvb	diseasennsofintermnn	termnnofinthemnns	termnnofindiseasesnns	termnnthemnns	diseasesnnstermvb	theynnsofintermnn	theynnstermvb	diseasennstermvb	
+
+BE: youPRPlooseVB
+EQ class: youprpliberatevb	youprpreleasevb	youprpunloosevb	youprpunloosenvb	youprpfreevb	
+
+BE: visionNNcauseVB
+EQ class: causationnnvisionnn	causingnnvisionaryjj	causativennofinvisionaryjj	causennofinvisionnn	visionaryjjmakevb	visionaryjjcausevb	causaljjofinvisionnn	visionnnmakevb	causingnnofinvisionnn	causationnnvisionaryjj	causingnnofinvisionaryjj	causationnnofinvisionaryjj	causaljjofinvisionaryjj	visionnndovb	causationnnofinvisionnn	visionaryjjdovb	causennofinvisionaryjj	causingnnvisionnn	causativennofinvisionnn	
+
+BE: itPRPsVBZ
+EQ class: 
+
+BE: wePRPhadAUX
+EQ class: weprpholdaux	weprphave_gotaux	havennofinweprp	wealthy_personnnofinweprp	rich_personnnofinweprp	weprphaveaux	
+
+BE: purposelyNNsmashedVBN
+EQ class: beltnnofinpurposelynn	purposelynnnailvbn	knocknnofinpurposelynn	purposelynnsmashvbn	smashernnpurposelynn	bangnnofinpurposelynn	bashnnofinpurposelynn	smashernnofinpurposelynn	smashnnofinpurposelynn	purposelynnboomvbn	purposelynnblastvbn	
+
+BE: peopleNNSplayVBP
+EQ class: playingnnpeoplenns	playernnofinpeoplenns	participantnnpeoplenns	participantnnofinthemnns	playernntheynns	playingnnofintheynns	playingnnthemnns	playernnofinthemnns	participantnnthemnns	themnnsplayvbp	dramannofintheynns	playnnofinpeoplenns	playernnthemnns	dramatic_playnnofintheynns	participantnnofinpeoplenns	dramannofinpeoplenns	playingnnofinthemnns	playnnofintheynns	dramatic_playnnofinpeoplenns	participantnntheynns	participantnnofintheynns	theynnsplayvbp	playingnnofinpeoplenns	dramannofinthemnns	playingnntheynns	dramatic_playnnofinthemnns	playernnofintheynns	playernnpeoplenns	playnnofinthemnns	
+
+BE: peopleNNSwatchVBP
+EQ class: witnessnnofintheynns	tickernnofinpeoplenns	viewernnthemnns	watchnnofinpeoplenns	watchernnofintheynns	lookernnthemnns	tickernnofintheynns	spectatornntheynns	lookernntheynns	spectatornnofinpeoplenns	spectatornnofintheynns	viewernnpeoplenns	spectatornnpeoplenns	viewernntheynns	lookernnofinpeoplenns	watchernnthemnns	watchernntheynns	witnessnntheynns	witnessnnofinpeoplenns	witnessnnofinthemnns	spectatornnofinthemnns	watchnnofinthemnns	viewernnofintheynns	tickernnofinthemnns	watchnnofintheynns	watchernnofinpeoplenns	theynnswatchvbp	lookernnofintheynns	lookernnofinthemnns	spectatornnthemnns	witnessnnpeoplenns	watchernnofinthemnns	viewernnofinpeoplenns	viewernnofinthemnns	lookernnpeoplenns	themnnswatchvbp	watchernnpeoplenns	witnessnnthemnns	
+
+BE: peopleNNSsupportVB
+EQ class: protagonistnnpeoplenns	themnnsback_upvb	boosternnthemnns	theynnssupportvb	supportivennofintheynns	supportnnofintheynns	peoplennsback_upvb	friendnnofinpeoplenns	supporternnofinpeoplenns	protagonistnnofinpeoplenns	protagonistnnofintheynns	supporternnpeoplenns	friendnnofintheynns	boosternnofintheynns	boosternnpeoplenns	theynnsback_upvb	friendnnofinthemnns	boosternntheynns	supporternnthemnns	admirernntheynns	admirernnpeoplenns	protagonistnnofinthemnns	admirernnofinpeoplenns	supportivennofinthemnns	admirernnofinthemnns	supporternnofintheynns	supportivennofinpeoplenns	admirernnthemnns	protagonistnntheynns	boosternnofinpeoplenns	championnnofinpeoplenns	supportnnofinthemnns	championnnofinthemnns	protagonistnnthemnns	admirernnofintheynns	championnnofintheynns	supportnnofinpeoplenns	championnnpeoplenns	friendnnthemnns	friendnntheynns	championnntheynns	friendnnpeoplenns	boosternnofinthemnns	supporternnofinthemnns	championnnthemnns	themnnssupportvb	supporternntheynns	
+
+BE: itNNmadeVBD
+EQ class: itnnmakevbd	information_technologynnmadevbd	itnndovbd	information_technologynnmakevbd	information_technologynndovbd	
+
+BE: causeVBdamageNN
+EQ class: makevbimpairmentnn	makevbharmnn	dovbdamagenn	makevbdamagenn	causativennofindamagenn	causativennofinimpairmentnn	causationnnofinimpairmentnn	causevbimpairmentnn	causennofinharmnn	causaljjofinharmnn	causaljjofindamagenn	dovbharmnn	causingnnofindamagenn	causevbharmnn	causingnnofinimpairmentnn	causativennofinharmnn	causaljjofinimpairmentnn	causationnnofindamagenn	dovbimpairmentnn	causennofindamagenn	causingnnofinharmnn	causennofinimpairmentnn	causationnnofinharmnn	
+
+BE: causeVBdiseasesNNS
+EQ class: causingnnofindiseasenns	causativennofindiseasesnns	causaljjofinthemnns	causingnnofinthemnns	causaljjofintheynns	dovbdiseasesnns	causevbthemnns	causationnnofinthemnns	causingnnofindiseasesnns	causationnnofindiseasesnns	causationnnofindiseasenns	causevbtheynns	causennofindiseasesnns	makevbthemnns	causaljjofindiseasenns	causaljjofindiseasesnns	dovbdiseasenns	dovbtheynns	dovbthemnns	causativennofindiseasenns	causennofindiseasenns	causevbdiseasenns	causingnnofintheynns	causennofinthemnns	causativennofintheynns	makevbtheynns	makevbdiseasenns	makevbdiseasesnns	causationnnofintheynns	causennofintheynns	causativennofinthemnns	
+
+BE: playVBPitNN
+EQ class: playnnofininformation_technologynn	playvbpinformation_technologynn	playingnnofininformation_technologynn	dramatic_playnnofinitnn	playingnnofinitnn	playnnofinitnn	playernnofinitnn	participantnnofinitnn	playernnofininformation_technologynn	dramannofinitnn	participantnnofininformation_technologynn	dramatic_playnnofininformation_technologynn	dramannofininformation_technologynn	
+
+BE: madeVBDhistoryNN
+EQ class: dovbdhistoricjj	makevbdhistoricjj	makevbdhistorynn	dovbdhistorynn	madevbdhistoricjj	
+
+BE: watchVBPitPRP
+EQ class: viewernnofinitprp	witnessnnofinitprp	watchnnofinitprp	tickernnofinitprp	spectatornnofinitprp	watchernnofinitprp	lookernnofinitprp	
+
+BE: supportVBitNN
+EQ class: admirernnofininformation_technologynn	championnnofininformation_technologynn	championnnofinitnn	supportnnofinitnn	admirernnofinitnn	back_upvbinformation_technologynn	supportivennofininformation_technologynn	back_upvbitnn	supportnnofininformation_technologynn	boosternnofininformation_technologynn	protagonistnnofinitnn	supportvbinformation_technologynn	boosternnofinitnn	protagonistnnofininformation_technologynn	supportivennofinitnn	friendnnofinitnn	friendnnofininformation_technologynn	supporternnofininformation_technologynn	supporternnofinitnn	
+
+BE: sVBZheartNN
+EQ class: svbzbosomnn	
+
+BE: seeingVBGbodyNN
+EQ class: visionarynnofinbodilyjj	seernnofinbodilyjj	seeingvbgphysical_structurenn	visual_perceptionnnofinorganic_structurenn	seeingnnofinbodilyjj	seevbgphysical_structurenn	illusionistnnofinorganic_structurenn	seeingvbgbodilyjj	beholdingnnofinbodynn	visual_perceptionnnofinbodynn	visionarynnofinbodynn	seevbgbodilyjj	seeingnnofinorganic_structurenn	illusionistnnofinbodynn	seeingvbgorganic_structurenn	beholdingnnofinphysical_structurenn	seernnofinorganic_structurenn	seernnofinbodynn	visionarynnofinphysical_structurenn	seevbgbodynn	visual_perceptionnnofinbodilyjj	seeingnnofinbodynn	seernnofinphysical_structurenn	illusionistnnofinphysical_structurenn	beholdingnnofinorganic_structurenn	seeingnnofinphysical_structurenn	visual_perceptionnnofinphysical_structurenn	visionarynnofinorganic_structurenn	illusionistnnofinbodilyjj	beholdingnnofinbodilyjj	seevbgorganic_structurenn	
+
+BE: hadAUXworldNN
+EQ class: hadauxexistencenn	hadauxcreationnn	have_gotauxcreationnn	havennofincosmosnn	wealthy_personnnofinuniversenn	haveauxcosmosnn	holdauxmacrocosmnn	rich_personnnofinmacrocosmnn	have_gotauxuniversenn	haveauxworldnn	wealthy_personnnofincreationnn	have_gotauxexistencenn	haveauxexistencenn	have_gotauxworldnn	wealthy_personnnofinexistencenn	wealthy_personnnofincosmosnn	holdauxcreationnn	rich_personnnofinuniversenn	hadauxuniversenn	hadauxmacrocosmnn	rich_personnnofincreationnn	wealthy_personnnofinworldnn	havennofinmacrocosmnn	holdauxworldnn	hadauxcosmosnn	havennofincreationnn	havennofinexistencenn	have_gotauxmacrocosmnn	have_gotauxcosmosnn	wealthy_personnnofinmacrocosmnn	haveauxuniversenn	havennofinuniversenn	rich_personnnofinworldnn	holdauxuniversenn	haveauxmacrocosmnn	rich_personnnofincosmosnn	havennofinworldnn	haveauxcreationnn	rich_personnnofinexistencenn	holdauxcosmosnn	holdauxexistencenn	
+
+BE: damageNNtoTOplusNN
+EQ class: harmnntotoassetnn	impairmentnntotoplusnn	assetnndamagenn	plusnndamagenn	assetnnharmnn	damagenntotoassetnn	assetnnimpairmentnn	damagevbplusnn	harmnntotoplusnn	plusnndamagevb	plusnnharmnn	damagevbassetnn	impairmentnntotoassetnn	plusnnimpairmentnn	assetnndamagevb	
+
+BE: respectNNtoTOpeopleNNS
+EQ class: regardnntotopeoplenns	themnnsregardnn	regardnntotothemnns	peoplennsregardnn	peoplennsrespectnn	theynnsrespectnn	respectnntototheynns	themnnsrespectnn	regardnntototheynns	respectnntotothemnns	theynnsregardnn	
+
+BE: worldNNofINviolenceNN
+EQ class: creationnnofinviolentjj	forcennmacrocosmnn	forcenncreationnn	forcennworldnn	violencenncosmosnn	universennofinviolencenn	violentjjworldnn	forcennexistencenn	universennofinviolentjj	violencennuniversenn	creationnnofinforcenn	worldnnofinforcenn	existencennofinviolencenn	macrocosmnnofinviolencenn	violentjjcosmosnn	forcenncosmosnn	macrocosmnnofinforcenn	universennofinforcenn	forcennuniversenn	violencenncreationnn	violentjjexistencenn	cosmosnnofinviolencenn	cosmosnnofinforcenn	macrocosmnnofinviolentjj	violencennworldnn	violentjjmacrocosmnn	existencennofinforcenn	violencennexistencenn	worldnnofinviolentjj	violentjjcreationnn	cosmosnnofinviolentjj	violentjjuniversenn	creationnnofinviolencenn	violencennmacrocosmnn	existencennofinviolentjj	
+
+BE: worldNNofINmediaNNS
+EQ class: mediumnnscreationnn	worldnnofinthemnns	mediannsmacrocosmnn	themnnsuniversenn	theynnsuniversenn	creationnnofintheynns	existencennofinmedianns	cosmosnnofinmediumnns	theynnscreationnn	mediumnnsexistencenn	macrocosmnnofinmedianns	themnnscreationnn	existencennofintheynns	mediannscreationnn	worldnnofinmediumnns	mediannsworldnn	mediumnnsworldnn	theynnsmacrocosmnn	mediumnnsuniversenn	creationnnofinmedianns	mediumnnsmacrocosmnn	cosmosnnofinmedianns	cosmosnnofintheynns	themnnsworldnn	mediumnnscosmosnn	mediannsuniversenn	universennofinmedianns	worldnnofintheynns	existencennofinmediumnns	macrocosmnnofinmediumnns	existencennofinthemnns	theynnsworldnn	mediannsexistencenn	themnnsexistencenn	universennofintheynns	theynnscosmosnn	cosmosnnofinthemnns	creationnnofinthemnns	macrocosmnnofintheynns	macrocosmnnofinthemnns	creationnnofinmediumnns	universennofinthemnns	themnnsmacrocosmnn	universennofinmediumnns	mediannscosmosnn	themnnscosmosnn	theynnsexistencenn	
+
+BE: mentalJJwithINrespectNN
+EQ class: mentalitynnwithinrespectnn	mentalitynnwithinregardnn	mentaljjwithinregardnn	
+
+BE: fullJJofINviolenceNN
+EQ class: fulljjofinviolentjj	violentvbfullyrb	fullnessnnofinviolentjj	fulljjofinforcenn	fullnessnnofinviolencenn	fullnessnnofinforcenn	
+
+BE: sVBZbreakingVBG
+EQ class: svbzbreakvbg	svbzinterruptvbg	
+
+BE: sVBZdevastatingVBG
+EQ class: svbzscourgevbg	svbzwastevbg	svbzdevastatevbg	svbzlay_waste_tovbg	svbzravagevbg	svbzdesolatevbg	
+
+BE: visionNNcauseVB
+EQ class: causationnnvisionnn	causingnnvisionaryjj	causativennofinvisionaryjj	causennofinvisionnn	visionaryjjmakevb	visionaryjjcausevb	causaljjofinvisionnn	visionnnmakevb	causingnnofinvisionnn	causationnnvisionaryjj	causingnnofinvisionaryjj	causationnnofinvisionaryjj	causaljjofinvisionaryjj	visionnndovb	causationnnofinvisionnn	visionaryjjdovb	causennofinvisionaryjj	causingnnvisionnn	causativennofinvisionnn	
+
+BE: sportNN
+EQ class: athleticsnn	
+
+BE: sportNN
+EQ class: athleticsnn	
+
+BE: cannotVBP
+EQ class: 
+
+BE: thinkVB
+EQ class: believevb	conceivevb	considervb	
+
+BE: associatedVBN
+EQ class: link_upvbn	colligatevbn	connectvbn	tie_invbn	relatevbn	linkvbn	associatevbn	
+
+BE: cleanJJ
+EQ class: cleannessnn	
+
+BE: cleanJJsportNN
+EQ class: cleannessnnathleticsnn	cleannessnnsportnn	cleanjjathleticsnn	boastvbcleanlyrb	sportvbcleanlyrb	featurevbcleanlyrb	
+
+BE: iPRPcannotVBP
+EQ class: 
+
+BE: associatedVBNsportNN
+EQ class: link_upvbnathleticsnn	associablennofinsportnn	linkvbnathleticsnn	associablennofinathleticsnn	associativennofinsportnn	associatorynnofinsportnn	associatedvbnathleticsnn	link_upvbnsportnn	connectvbnsportnn	associatevbnathleticsnn	associatevbnsportnn	relatevbnathleticsnn	tie_invbnathleticsnn	associationnnofinsportnn	associationnnofinathleticsnn	colligatevbnsportnn	tie_invbnsportnn	connectvbnathleticsnn	relatevbnsportnn	linkvbnsportnn	associatorynnofinathleticsnn	colligatevbnathleticsnn	associativennofinathleticsnn	
+
+BE: associatedVBNwithINsportNN
+EQ class: associatedvbnwithinathleticsnn	tie_invbnwithinathleticsnn	linkvbnwithinsportnn	tie_invbnwithinsportnn	connectvbnwithinathleticsnn	link_upvbnwithinsportnn	connectvbnwithinsportnn	colligatevbnwithinathleticsnn	link_upvbnwithinathleticsnn	relatevbnwithinathleticsnn	colligatevbnwithinsportnn	associatevbnwithinathleticsnn	linkvbnwithinathleticsnn	associatevbnwithinsportnn	relatevbnwithinsportnn	
+
+BE: associatedVBNnotRB
+EQ class: colligatevbnnotrb	link_upvbnnotrb	associatevbnnotrb	linkvbnnotrb	connectvbnnotrb	associativennofinnotrb	associationnnofinnotrb	relatevbnnotrb	associatorynnofinnotrb	associablennofinnotrb	tie_invbnnotrb	
+

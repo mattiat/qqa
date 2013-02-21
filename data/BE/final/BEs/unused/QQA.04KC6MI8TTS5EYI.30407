@@ -1,0 +1,24 @@
+#they surrendered i think !?
+#(S1 (S (NP (PRP they)) (VP (VBD surrendered) (SBAR (S (NP (PRP i)) (VP (VBP think)) (. !)))) (. ?)))
+#Rule:Verbs
+r2surrenderedVBD
+r2thinkVBP
+
+#Rule:HeadNoun-V
+r11theyPRPsurrenderedVBD
+r11iPersonAnnotationthinkVBP
+
+#because they re wussies
+#(S1 (FRAG (SBAR (IN because) (S (NP (PRP they) (NNP re)) (VP (VBZ wussies))))))
+#Rule:Nouns
+r1reNNP
+
+#Rule:Verbs
+r2wussiesOrganizationAnnotation
+
+#Rule:HeadNoun-V
+r11reNNPwussiesOrganizationAnnotation
+
+@lemmas-left	they	think	surrendered	surrender	wussies	re	i	
+@lemmas-right	think	surrendered	surrender	wussies	
+@lemmas-center	

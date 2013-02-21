@@ -1,0 +1,55 @@
+#The world began when you drew your first breath.  
+#(S1 (S (NP (DT The) (NN world)) (VP (VBD began) (SBAR (WHADVP (WRB when)) (S (NP (PRP you)) (VP (VBD drew) (NP (PRP$ your) (JJ first) (NN breath)))))) (. .)))
+#Rule:Nouns
+r1worldNN
+r1breathNN
+
+#Rule:Verbs
+r2beganVBD
+r2drewVBD
+
+#Rule:Adjs
+r4firstJJ
+
+#Rule:Adj-Noun
+r5firstJJbreathNN
+
+#Rule:PRP-Noun
+r6yourPRP$breathNN
+
+#Rule:HeadNoun-V
+r11worldNNbeganVBD
+r11youPRPdrewVBD
+
+#Rule:V-HeadNoun
+r21drewVBDbreathNN
+
+#It is renewed every time you wake up from dream and remember who you really are.
+#(S1 (S (NP (PRP It)) (VP (AUX is) (VP (VBN renewed) (NP (NP (DT every) (NN time)) (SBAR (S (NP (PRP you)) (VP (VP (VBP wake) (ADVP (RB up) (PP (IN from) (NP (NN dream))))) (CC and) (VP (VBP remember) (SBAR (WHNP (WP who)) (S (NP (PRP you)) (ADVP (RB really)) (VP (AUX are))))))))))) (. .)))
+#Rule:Nouns
+r1timeNN
+r1dreamNN
+
+#Rule:Verbs
+r2renewedVBN
+r2wakeVBP
+r2rememberVBP
+
+#Rule:HeadNoun-V
+r11youPRPwakeVBP
+r11youPRPrememberVBP
+r11youPRPareAUX
+
+#Rule:V-HeadNoun
+r21renewedVBNtimeNN
+
+#Rule:V-HeadNoun(passive)
+r23renewedVBNitPRP
+
+#Rule:V-ADV
+r46wakeVBPupRB
+r46areAUXreallyRB
+
+@lemmas-left	remember	renewed	dream	your	renew	you	begin	draw	time	are	wake	began	drew	first	world	be	breath	
+@lemmas-right	remember	it	begin	up	draw	really	time	are	wake	began	drew	breath	be	
+@lemmas-center	

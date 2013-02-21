@@ -1,0 +1,58 @@
+#Why would anyone want to homeschool their kids??
+#(S1 (SBARQ (WHADVP (WRB Why)) (SQ (MD would) (NP (NN anyone)) (VP (VB want) (S (VP (TO to) (VP (VB homeschool) (NP (PRP$ their) (NNS kids)))))) (. ?)) (. ?)))
+#Rule:Nouns
+r1anyoneNN
+r1kidsNNS
+
+#Rule:Verbs
+r2wantVB
+r2homeschoolVB
+
+#Rule:PRP-Noun
+r6theirPRP$kidsNNS
+
+#Rule:V-HeadNoun
+r21homeschoolVBkidsNNS
+
+#Rule:V-V
+r44wantVBhomeschoolVB
+
+#Don t we need a break from our kids?  It seems they need a break from us parents.  They also need to get socialized.
+#(S1 (S (S (NP (NNP Don)) (VP (VBZ t) (SBAR (S (NP (PRP we)) (VP (AUX need) (NP (NP (DT a) (NN break)) (PP (IN from) (NP (PRP$ our) (NNS kids)))))))) (. ?)) (NP (PRP It)) (VP (VBZ seems) (SBAR (S (NP (PRP they)) (VP (AUX need) (NP (NP (DT a) (NN break)) (PP (IN from) (NP (PRP us)))) (SBAR (IN parents.) (S (NP (PRP They)) (ADVP (RB also)) (VP (AUX need) (S (VP (TO to) (VP (VB get) (VP (VBN socialized)))))))))))) (. .)))
+#Rule:Nouns
+r1Don tPersonAnnotation
+r1breakNN
+r1kidsNNS
+r1breakNN
+
+#Rule:Verbs
+r2seemsVBZ
+r2getVB
+r2socializedVBN
+
+#Rule:PRP-Noun
+r6ourPRP$kidsNNS
+
+#Rule:HeadNoun-V
+r11itPRPseemsVBZ
+r11wePRPneedAUX
+r11theyPRPneedAUX
+r11theyPRPneedAUX
+
+#Rule:V-HeadNoun
+r21needAUXbreakNN
+r21needAUXbreakNN
+
+#Rule:PPinNP
+r26breakNNfromINkidsNNS
+r26breakNNfromINusPRP
+
+#Rule:V-IN-V
+r43needAUXparentsINneedAUX
+
+#Rule:V-ADV
+r46needAUXalsoRB
+
+@lemmas-left	need	Don t	they	it	get	socialize	kids	seem	kid	socialized	break	seems	anyone	homeschool	their	our	want	we	
+@lemmas-right	need	break	seems	us	homeschool	kids	also	seem	kid	
+@lemmas-center	parents	parents.	from	

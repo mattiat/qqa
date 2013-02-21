@@ -1,0 +1,28 @@
+#How would I solve 2X/5 - 1/2 (X-3) is less than or equal to 2X/3 - 3/10 (X+2) ?
+#(S1 (SBARQ (WHADVP (WRB How)) (SQ (MD would) (NP (PRP I)) (VP (VB solve) (NP (NP (CD 2X/5)) (: -) (NP (NP (CD 1/2)) (SBAR (S (-LRB- -LRB-) (NP (NNP X-3)) (-RRB- -RRB-) (VP (AUX is) (ADJP (ADJP (JJR less) (PP (IN than))) (CC or) (ADJP (JJ equal) (PP (TO to) (NP (CD 2X/3))))))))) (: -) (NP (NP (CD 3/10)) (PRN (-LRB- -LRB-) (NP (NNP X+2)) (-RRB- -RRB-)))))) (. ?)))
+#Rule:Nouns
+r1X-3NNP
+r1X+2NNP
+
+#Rule:Verbs
+r2solveVB
+
+#Rule:Adjs
+r4lessJJR
+r4equalJJ
+
+#Rule:HeadNoun-V
+r11X-3NNPisAUX
+
+#Rule:V-HeadNoun
+r21solveVB2X/5CD
+
+#Rule:V-ADJ
+r25isAUXlessJJR
+
+#Rule:PPinADJP
+r37equalJJtoTO2X/3CD
+
+@lemmas-left	x+2	solve	is	x-3	equal	X-3	less	X+2	be	
+@lemmas-right	is	2X/3	less	2X/5	x	be	
+@lemmas-center	to	

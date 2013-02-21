@@ -1,0 +1,19 @@
+#Why do people faint in the face of danger?
+#(S1 (SBARQ (WHADVP (WRB Why)) (SQ (AUX do) (NP (NNS people)) (ADJP (JJ faint) (PP (IN in) (NP (NP (DT the) (NN face)) (PP (IN of) (NP (NN danger))))))) (. ?)))
+#Rule:Nouns
+r1peopleNNS
+r1faceNN
+r1dangerNN
+
+#Rule:Adjs
+r4faintJJ
+
+#Rule:PPinNP
+r26faceNNofINdangerNN
+
+#Rule:PPinADJP
+r37faintJJinINfaceNN
+
+@lemmas-left	faint	face	danger	people	
+@lemmas-right	face	danger	
+@lemmas-center	of	in	

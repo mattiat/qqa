@@ -1,0 +1,70 @@
+#How many hours a day do you homeschool your children??
+#(S1 (SBARQ (WHADVP (WRB How) (NP (NP (JJ many) (NNS hours)) (NP (DT a) (NN day)))) (SQ (AUX do) (NP (PRP you)) (VP (NN homeschool) (NP (PRP$ your) (NNS children))) (. ?)) (. ?)))
+#Rule:Nouns
+r1hoursNNS
+r1dayNN
+r1homeschoolNN
+r1childrenNNS
+
+#Rule:Adjs
+r4manyJJ
+
+#Rule:Adj-Noun
+r5manyJJhoursNNS
+
+#Rule:PRP-Noun
+r6yourPRP$childrenNNS
+
+#Rule:V-HeadNoun
+r21homeschoolNNchildrenNNS
+
+#I think I tend to overdo work with my 1st and 3rd graders.  I was wondering how much time do others take to teach their children?
+#(S1 (S (NP (PRP I)) (VP (VBP think) (SBAR (S (NP (PRP I)) (VP (VBP tend) (S (VP (TO to) (VP (VB overdo) (S (VP (VP (VB work) (PP (IN with) (NP (PRP$ my) (NN 1st)))) (CC and) (VP (VB 3rd) (ADJP (JJ graders.) (SBAR (S (NP (PRP I)) (VP (AUX was) (VP (VBG wondering) (SBAR (WHNP (WHADJP (WRB how) (JJ much)) (NN time)) (S (VP (AUX do) (S (NP (NNS others)) (VP (VB take) (S (VP (TO to) (VP (VB teach) (NP (PRP$ their) (NNS children))))))))))))))))))))))))) (. ?)))
+#Rule:Nouns
+r11stNN
+r1timeNN
+r1othersNNS
+r1childrenNNS
+
+#Rule:Verbs
+r2thinkVBP
+r2tendVBP
+r2overdoVB
+r2workVB
+r23rdVB
+r2wonderingVBG
+r2takeVB
+r2teachVB
+
+#Rule:Adjs
+r4gradersJJ
+r4muchJJ
+
+#Rule:PRP-Noun
+r6myPRP$1stNN
+r6theirPRP$childrenNNS
+
+#Rule:HeadNoun-V
+r11iPRPthinkVBP
+r11iPRPtendVBP
+r11iPRPwonderingVBG
+r11othersNNStakeVB
+
+#Rule:V-HeadNoun
+r21teachVBchildrenNNS
+
+#Rule:V-HeadNoun
+r22doAUXothersNNS
+
+#Rule:PPinVP
+r30workVBwithIN1stNN
+
+#Rule:V-V
+r44tendVBPoverdoVB
+r44overdoVBworkVB
+r44overdoVB3rdVB
+r44takeVBteachVB
+
+@lemmas-left	tend	children	graders	wondering	child	overdo	time	wonder	do	graders.	work	think	others	hours	your	3rd	teach	my	much	i	many	take	1st	homeschool	day	their	
+@lemmas-right	work	think	others	hours	3rd	children	tend	wondering	teach	child	overdo	take	1st	wonder	
+@lemmas-center	with	

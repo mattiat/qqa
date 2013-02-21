@@ -1,0 +1,147 @@
+#for the first one:write tan^3x=sin^3x/cos^3xwrite sin^3x= sinx(1-cos^2x)this gives you two integrals:???
+#(S1 (FRAG (PP (IN for) (NP (DT the) (JJ first) (CD one))) (: :) (S (VP (VB write) (S (VP (VB tan^3x=sin^3x/cos^3xwrite) (ADJP (RB sin^3x=) (JJ sinx) (PRN (-LRB- -LRB-) (ADJP (JJ 1-cos^2x)) (-RRB- -RRB-)) (SBAR (S (NP (DT this)) (VP (VBZ gives) (NP (PRP you)) (NP (NP (CD two) (NNS integrals)) (: :) (NP (CD ??))))))))))) (. ?)))
+#Rule:Nouns
+r1integralsNNS
+
+#Rule:Verbs
+r2writeVB
+r2tan^3x=sin^3x/cos^3xwriteVB
+r2givesVBZ
+
+#Rule:Adjs
+r4firstJJ
+r4^3x=sin^3x/cos^3xwrite sin^3x= sinxPersonAnnotation
+r41-cos^2xJJ
+
+#Rule:Adj-Noun
+r5firstJJoneCD
+r5twoCDintegralsNNS
+
+#Rule:HeadNoun-V
+r11thisDTgivesVBZ
+
+#Rule:V-HeadNoun
+r21givesVBZyouPRP
+r21givesVBZintegralsNNS
+
+#sinx/cos^3x dx -???
+#(S1 (NP (NP (CD sinx/cos^3x) (NNS dx)) (: -) (NP (CD ??)) (. ?)))
+#Rule:Nouns
+r1sinx/cos^3x dxLocationAnnotation
+
+#sinx/cos x dxfor the first integral, set u=cos^3x and your integral becomes:-???
+#(S1 (FRAG (NP (NNP sinx/cos)) (X (SYM x) (PP (FW dxfor) (NP (NP (DT the) (JJ first) (JJ integral) (, ,) (JJ set) (NN u=cos^3x)) (CC and) (NP (PRP$ your) (JJ integral) (VBZ becomes)))) (: :)) (: -) (NP (NN ??)) (. ?)))
+#Rule:Nouns
+r1sinx/cos xOrganizationAnnotation
+r1u=cos^3xPersonAnnotation
+r1??NN
+
+#Rule:Verbs
+r2becomesVBZ
+
+#Rule:Adjs
+r4firstJJ
+r4integralJJ
+r4setJJ
+r4integralJJ
+
+#Rule:Adj-Noun
+r5firstJJu=cos^3xPersonAnnotation
+r5integralJJu=cos^3xPersonAnnotation
+r5setJJu=cos^3xPersonAnnotation
+
+#Rule:PRP-Noun
+r6yourPRP$integralJJ
+
+#du/u^3the second integral is just -???
+#(S1 (S (NP (NP (NNP du/u^3the)) (ADJP (JJ second) (JJ integral))) (VP (AUX is) (ADVP (RB just) (: -) (RB ??))) (. ?)))
+#Rule:Nouns
+r1du/u^3theNNP
+
+#Rule:Adjs
+r4secondJJ
+r4integralJJ
+
+#Rule:Adj-Noun
+r5secondJJdu/u^3theNNP
+r5integralJJdu/u^3theNNP
+
+#Rule:HeadNoun-V
+r11du/u^3theNNPisAUX
+
+#Rule:V-ADV
+r46isAUXjustRB
+r46isAUX??RB
+
+#sinx/cosx dx = Log[Cos[x]]so the integral for the first one is simply:Log[Cos[x]]+1/2 Sec^2[x]Second one:set u=x^2u^1/2=xdu=2x dx or dx = du/2u^1/2the integral then becomes:???
+#(S1 (FRAG (NP (NNP sinx/cosx) (CD dx)) (X (SYM =) (X (S (NP (NNP Log[Cos[x)) (VP (VBZ ]]) (SBAR (S (NP (NP (RB so) (DT the) (JJ integral)) (PP (IN for) (NP (DT the) (JJ first) (CD one)))) (VP (AUX is) (ADVP (RB simply))))))) (: :) (NP (NP (NNP Log[Cos[x) (FW ]]) (FW +1/2) (NNP Sec^2[x) (FW -RSB-) (NNP Second)) (NP (CD one))) (: :) (S (VP (VBD set) (NP (CD u=x^2u^1/2=xdu=2x) (NN dx)))) (CC or) (NNS dx) (SYM =)) (S (NP (NN du/2u^1/2the) (JJ integral)) (ADVP (RB then)) (VP (VBZ becomes)))) (: :) (NP (NN ??)) (. ?)))
+#Rule:Nouns
+r1sinx/cosxNNP
+r1Log[Cos[xNNP
+r1Log[Cos[xNNP
+r1Sec^2[xNNP
+r1SecondNNP
+r1u=x^2u^1/2=xdu=2x dx or dx = du/2uPersonAnnotation
+r1du/2u^1/2theNN
+r1??NN
+
+#Rule:Verbs
+r2]]VBZ
+r2setVBD
+r2becomesVBZ
+
+#Rule:Adjs
+r4integralJJ
+r4firstJJ
+r4integralJJ
+
+#Rule:Adj-Noun
+r5dx = LogPersonAnnotationsinx/cosxNNP
+r5firstJJoneCD
+r5integralJJdu/2u^1/2theNN
+
+#Rule:HeadNoun-V
+r11Log[Cos[xNNP]]VBZ
+r11integralJJisAUX
+r11du/2u^1/2theNNbecomesVBZ
+
+#Rule:V-HeadNoun
+r21setVBDu=x^2u^1/2=xdu=2x dx or dx = du/2uPersonAnnotation
+
+#Rule:PPinNP
+r26integralJJforINoneCD
+
+#Rule:V-ADV
+r46isAUXsimplyRB
+r46becomesVBZthenRB
+
+#du/Sqrt[3-u^2]= 1/2 ArcSin[u/Sqrt[3]]substituting, back you get:1/2 ArcSin[x^2/&Sqrt[3]]
+#(S1 (S (S (NP (JJ du/Sqrt[3-u^2) (NN -RSB-)) (VP (SYM =) (NP (JJ 1/2) (NNP ArcSin[u/Sqrt[3) (CD ]]) (VBG substituting)))) (, ,) (RB back) (S (NP (PRP you)) (VP (VBP get:1/2) (NP (NNP ArcSin[x^2/&Sqrt[3) (JJ -RSB-) (NN -RSB-))))))
+#Rule:Nouns
+r1du/Sqrt[3-u^2]= 1/2 ArcSinPersonAnnotation
+r1ArcSin[u/Sqrt[3NNP
+r1ArcSin[x^2/&Sqrt[3NNP
+r1]NN
+
+#Rule:Verbs
+r2substitutingVBG
+r2get:1/2VBP
+
+#Rule:Adjs
+r4]JJ
+
+#Rule:Adj-Noun
+r5du/Sqrt[3-u^2]= 1/2 ArcSinPersonAnnotationArcSin[u/Sqrt[3NNP
+r5]]CDArcSin[u/Sqrt[3NNP
+r5substitutingVBGArcSin[u/Sqrt[3NNP
+r5]JJ]NN
+
+#Rule:HeadNoun-V
+r11youPRPget:1/2VBP
+
+#Rule:V-HeadNoun
+r21get:1/2VBP]NN
+
+@lemmas-left	get:1/2	tan^3x=sin^3x/cos^3xwrite	du/u^3the	integrals	1-cos^2x	Second	second	Sec^2[x	give	arcsin[u/sqrt[3	dx = Log	set	become	becomes	sinx/cos x	substitute	]]	du/Sqrt[3-u^2]= 1/2 ArcSin	integral	??	du/2u^1/2the	]	write	be	^3x=sin^3x/cos^3xwrite sin^3x= sinx	substituting	is	sinx/cos^3x dx	arcsin[x^2/&sqrt[3	gives	your	ArcSin[x^2/&Sqrt[3	Log[Cos[x	you	u=x^2u^1/2=xdu=2x dx or dx = du/2u	two	u=cos^3x	sinx/cosx	ArcSin[u/Sqrt[3	this	first	x	
+@lemmas-right	just	get:1/2	du/u^3the	integrals	is	give	gives	arcsin[u/sqrt[3	becomes	become	one	you	u=x^2u^1/2=xdu=2x dx or dx = du/2u	]]	integral	u=cos^3x	??	sinx/cosx	simply	ArcSin[u/Sqrt[3	du/2u^1/2the	then	]	be	
+@lemmas-center	for	

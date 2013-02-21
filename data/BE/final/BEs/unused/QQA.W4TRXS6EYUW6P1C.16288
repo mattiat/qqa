@@ -1,0 +1,40 @@
+#uncut have their beauty and pros, , y u want it that way for all. think only of yr bf.
+#(S1 (S (S (NP (NNP uncut)) (VP (AUX have) (NP (PRP$ their) (NN beauty) (CC and) (NNS pros))) (, ,)) (, ,) (S (NP (NNP y) (NNP u)) (VP (VBP want) (S (NP (PRP it)) (NP (NP (DT that) (NN way)) (SBAR (IN for) (S (NP (NNS all.)) (VP (VB think) (PP (RB only) (IN of) (NP (JJ yr) (NNS bf)))))))))) (. .)))
+#Rule:Nouns
+r1uncutNNP
+r1beautyNN
+r1prosNNS
+r1yOrganizationAnnotation
+r1uNNP
+r1wayNN
+r1allNNS
+r1yrLocationAnnotation
+
+#Rule:Verbs
+r2wantVBP
+r2thinkVB
+
+#Rule:PRP-Noun
+r6theirPRP$beautyNN
+
+#Rule:N-HeadNoun
+r8yOrganizationAnnotationuNNP
+
+#Rule:HeadNoun-V
+r11uncutNNPhaveAUX
+r11uNNPwantVBP
+r11allNNSthinkVB
+
+#Rule:V-HeadNoun
+r21haveAUXbeautyNN
+
+#Rule:V-HeadNoun
+r22wantVBPitPRP
+r22wantVBPwayNN
+
+#Rule:PPinVP
+r30thinkVBofINyrLocationAnnotation
+
+@lemmas-left	think	uncut	all.	have	way	beauty	pros	u	yr	pro	their	y	all	want	
+@lemmas-right	think	u	it	have	yr	way	beauty	want	
+@lemmas-center	of	

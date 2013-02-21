@@ -1,0 +1,229 @@
+#Ah. maybe you are looking at it the wrong way.  
+#(S1 (S (ADVP (RB Ah.) (RB maybe)) (NP (PRP you)) (VP (AUX are) (VP (VBG looking) (PP (IN at) (NP (PRP it))) (NP (DT the) (JJ wrong) (NN way)))) (. .)))
+#Rule:Nouns
+r1wayNN
+
+#Rule:Verbs
+r2lookingVBG
+
+#Rule:Adjs
+r4wrongJJ
+
+#Rule:Adj-Noun
+r5wrongJJwayNN
+
+#Rule:HeadNoun-V
+r11youPRPlookingVBG
+
+#Rule:V-HeadNoun
+r21lookingVBGwayNN
+
+#Rule:PPinVP
+r30lookingVBGatINitPRP
+
+#Rule:V-ADV
+r46areAUXAhLocationAnnotation
+r46areAUXmaybeRB
+
+#It is going wrong because you are wanting the opposite of what God wants for you.    
+#(S1 (S (NP (PRP It)) (VP (AUX is) (VP (VBG going) (ADJP (JJ wrong) (SBAR (IN because) (S (NP (PRP you)) (VP (AUX are) (VP (VBG wanting) (NP (NP (DT the) (NN opposite)) (PP (IN of) (SBAR (WHNP (WP what)) (S (NP (NNP God)) (VP (VBZ wants) (PP (IN for) (NP (PRP you))))))))))))))) (. .)))
+#Rule:Nouns
+r1oppositeNN
+r1GodNNP
+
+#Rule:Verbs
+r2goingVBG
+r2wantingVBG
+r2wantsVBZ
+
+#Rule:Adjs
+r4wrongJJ
+
+#Rule:HeadNoun-V
+r11itPRPgoingVBG
+r11youPRPwantingVBG
+r11GodNNPwantsVBZ
+
+#Rule:V-HeadNoun
+r21wantingVBGoppositeNN
+
+#Rule:PPinVP
+r30wantsVBZforINyouPRP
+
+#Stress?  
+#(S1 (FRAG (NP (NN Stress)) (. ?)))
+#Rule:Nouns
+r1StressPersonAnnotation
+
+#welcome to the real world.  
+#(S1 (S (VP (VB welcome) (PP (TO to) (NP (DT the) (JJ real) (NN world)))) (. .)))
+#Rule:Nouns
+r1worldNN
+
+#Rule:Verbs
+r2welcomeVB
+
+#Rule:Adjs
+r4realJJ
+
+#Rule:Adj-Noun
+r5realJJworldNN
+
+#Rule:PPinVP
+r30welcomeVBtoTOworldNN
+
+#without any stress you would die.  
+#(S1 (S (PP (IN without) (NP (DT any) (NN stress))) (NP (PRP you)) (VP (MD would) (VP (VB die))) (. .)))
+#Rule:Nouns
+r1stressNN
+
+#Rule:Verbs
+r2dieVB
+
+#Rule:HeadNoun-V
+r11youPRPdieVB
+
+#Rule:PPinS
+r36wouldMDwithoutINstressNN
+
+#Stress keeps us going.   
+#(S1 (S (NP (NN Stress)) (VP (VBZ keeps) (S (NP (PRP us)) (VP (VBG going)))) (. .)))
+#Rule:Nouns
+r1StressOrganizationAnnotation
+
+#Rule:Verbs
+r2keepsVBZ
+r2goingVBG
+
+#Rule:HeadNoun-V
+r11StressOrganizationAnnotationkeepsVBZ
+r11usPRPgoingVBG
+
+#Rule:V-HeadNoun
+r22keepsVBZusPRP
+
+#And what is a normal life???  
+#(S1 (SBARQ (CC And) (WHNP (WP what)) (SQ (VP (AUX is) (NP (DT a) (JJ normal) (NN life) (NN ??)))) (. ?)))
+#Rule:Nouns
+r1lifeNN
+r1??NN
+
+#Rule:Adjs
+r4normalJJ
+
+#Rule:Adj-Noun
+r5normalJJ??NN
+
+#Rule:N-HeadNoun
+r8lifeNN??NN
+
+#Rule:V-HeadNoun
+r21isAUX??NN
+
+#many marriages end in divorce.  
+#(S1 (S (NP (JJ many) (NNS marriages)) (VP (VBP end) (PP (IN in) (NP (NN divorce)))) (. .)))
+#Rule:Nouns
+r1marriagesNNS
+r1divorceNN
+
+#Rule:Verbs
+r2endVBP
+
+#Rule:Adjs
+r4manyJJ
+
+#Rule:Adj-Noun
+r5manyJJmarriagesNNS
+
+#Rule:HeadNoun-V
+r11marriagesNNSendVBP
+
+#Rule:PPinVP
+r30endVBPinINdivorceNN
+
+#children get shuffled around. 
+#(S1 (S (NP (NNS children)) (VP (VBP get) (VP (VBD shuffled) (ADVP (RB around)))) (. .)))
+#Rule:Nouns
+r1childrenNNS
+
+#Rule:Verbs
+r2getVBP
+r2shuffledVBD
+
+#Rule:HeadNoun-V
+r11childrenNNSgetVBP
+r11childrenNNSshuffledVBD
+
+#Rule:V-ADV
+r46shuffledVBDaroundRB
+
+#Have multiple of parents, so live with grandparents.  
+#(S1 (SQ (AUX Have) (NP (NP (NN multiple)) (PP (IN of) (NP (NNS parents)))) (, ,) (ADVP (RB so)) (VP (VB live) (PP (IN with) (NP (NNS grandparents)))) (. .)))
+#Rule:Nouns
+r1multipleNN
+r1parentsNNS
+r1grandparentsNNS
+
+#Rule:Verbs
+r2liveVB
+
+#Rule:PPinNP
+r26multipleNNofINparentsNNS
+
+#Rule:PPinVP
+r30liveVBwithINgrandparentsNNS
+
+#So children have bisexual parents.. so tell me where does normal fit in?  
+#(S1 (S (S (IN So) (NP (NNS children)) (VP (AUX have) (NP (JJ bisexual) (NNS parents))) (. .)) (. .) (ADVP (RB so)) (VP (VB tell) (NP (PRP me)) (SBAR (WHADVP (WRB where)) (S (VP (AUX does) (RB normal) (VP (VB fit) (PRT (RP in))))))) (. ?)))
+#Rule:Nouns
+r1childrenNNS
+r1parentsNNS
+
+#Rule:Verbs
+r2tellVB
+
+#Rule:V-PRT
+r3fitVBinRP
+
+#Rule:Adjs
+r4bisexualJJ
+
+#Rule:Adj-Noun
+r5bisexualJJparentsNNS
+
+#Rule:HeadNoun-V
+r11childrenNNShaveAUX
+
+#Rule:V-HeadNoun
+r21haveAUXparentsNNS
+r21tellVBmePRP
+
+#Rule:V-ADV
+r46tellVBsoRB
+r46doesAUXnormalRB
+
+#This country anyway in the US, there is no definiation of NORMAL.
+#(S1 (S (PP (ADVP (NP (DT This) (NN country)) (RB anyway)) (IN in) (NP (DT the) (NNP US))) (, ,) (NP (EX there)) (VP (AUX is) (NP (NP (DT no) (NN definiation)) (PP (IN of) (NP (JJ NORMAL))))) (. .)))
+#Rule:Nouns
+r1countryNN
+r1USLocationAnnotation
+r1definiationNN
+
+#Rule:Adjs
+r4NORMALOrganizationAnnotation
+
+#Rule:HeadNoun-V
+r11thereEXisAUX
+
+#Rule:V-HeadNoun
+r21isAUXdefiniationNN
+
+#Rule:PPinNP
+r26definiationNNofINNORMALOrganizationAnnotation
+
+#Rule:PPinS
+r36isAUXinINUSLocationAnnotation
+
+@lemmas-left	normal	??	are	bisexual	would	wanting	divorce	welcome	be	live	US	going	get	stress	Stress	parent	wants	country	many	shuffled	NORMAL	grandparents	go	definiation	does	parents	god	have	opposite	way	children	looking	child	real	fit	life	die	do	tell	multiple	want	end	keeps	marriages	look	is	it	you	us	marriage	grandparent	shuffle	there	God	wrong	world	keep	
+@lemmas-right	definiation	parents	have	opposite	normal	way	looking	??	Ah	wanting	die	divorce	me	want	end	be	keeps	marriages	look	US	is	going	it	maybe	get	so	stress	parent	you	us	marriage	in	grandparent	wants	around	shuffled	shuffle	NORMAL	grandparents	world	go	keep	
+@lemmas-center	to	of	with	for	at	in	without	

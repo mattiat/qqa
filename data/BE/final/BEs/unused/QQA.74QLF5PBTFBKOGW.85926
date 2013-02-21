@@ -1,0 +1,75 @@
+#dada sab se accha hain rahul is not good captin he is not experisned as dada dada is the most succesful captin of indian cricket team if he will be the captin i think india will mwon the wc and he is in form also
+#(S1 (S (NP (NNP dada) (FW sab) (FW se) (FW accha) (FW hain) (NN rahul)) (VP (AUX is) (RB not) (NP (NP (JJ good) (NN captin)) (SBAR (S (NP (PRP he)) (VP (AUX is) (RB not) (ADJP (VBN experisned) (SBAR (IN as) (S (NP (NNP dada) (NNP dada)) (VP (AUX is) (NP (NP (DT the) (RBS most) (JJ succesful) (NN captin)) (PP (IN of) (NP (JJ indian) (NN cricket) (NN team)))))))) (SBAR (IN if) (S (NP (PRP he)) (VP (MD will) (VP (AUX be) (NP (NP (DT the) (NN captin)) (SBAR (S (NP (PRP i)) (VP (VBP think) (SBAR (S (S (NP (NNP india)) (VP (MD will) (VP (VB mwon) (NP (DT the) (NN wc))))) (CC and) (S (NP (PRP he)) (VP (AUX is) (PP (IN in) (NP (NN form))) (ADVP (RB also)))))))))))))))))))))
+#Rule:Nouns
+r1dadaLocationAnnotation
+r1hain rahulPersonAnnotation
+r1captinNN
+r1dada dadaLocationAnnotation
+r1captinNN
+r1cricketNN
+r1teamNN
+r1captinNN
+r1indiaNNP
+r1wcOrganizationAnnotation
+r1formNN
+
+#Rule:Verbs
+r2experisnedVBN
+r2thinkVBP
+r2mwonVB
+
+#Rule:Adjs
+r4goodJJ
+r4succesfulJJ
+r4indianJJ
+
+#Rule:Adj-Noun
+r5goodJJcaptinNN
+r5succesfulJJcaptinNN
+r5indianJJteamNN
+
+#Rule:N-HeadNoun
+r8cricketNNteamNN
+
+#Rule:HeadNoun-V
+r11hain rahulPersonAnnotationisAUX
+r11hePRPisAUX
+r11dada dadaLocationAnnotationisAUX
+r11hePRPbeAUX
+r11iPRPthinkVBP
+r11indiaNNPmwonVB
+r11hePRPisAUX
+
+#Rule:NP(NP(z) SBAR(S(NP(x)VP(y))))
+r19thinkVBPcaptinNN
+
+#Rule:V-HeadNoun
+r21isAUXcaptinNN
+r21isAUXcaptinNN
+r21beAUXcaptinNN
+r21mwonVBwcOrganizationAnnotation
+
+#Rule:V-ADJ
+r25isAUXexperisnedVBN
+
+#Rule:PPinNP
+r26captinNNofINteamNN
+
+#Rule:PPinVP
+r30isAUXinINformNN
+
+#Rule:V-IN-V
+r43isAUXifINbeAUX
+
+#Rule:V-ADV
+r46isAUXnotRB
+r46isAUXnotRB
+r46isAUXalsoLocationAnnotation
+
+#Rule:IS-RULE
+r47captinNNhain rahulPersonAnnotation
+r47captinNNdada dadaLocationAnnotation
+
+@lemmas-left	is	think	form	cricket	hain rahul	experisned	mwon	indian	good	he	team	succesful	captin	i	india	dada	wc	be	dada dada	
+@lemmas-right	is	think	form	mwon	experisned	hain rahul	team	captin	not	wc	also	be	dada dada	
+@lemmas-center	of	if	in	

@@ -1,0 +1,50 @@
+#You can practice by consciously using the opposite hand and arm for everyday activities, such as pouring milk, stirring coffee, sweeping the floor, and (of course) writing.
+#(S1 (S (NP (PRP You)) (VP (MD can) (VP (VP (VB practice) (PP (IN by) (S (ADVP (RB consciously)) (VP (VBG using) (NP (DT the) (JJ opposite) (NN hand)))))) (CC and) (VP (VB arm) (PP (IN for) (NP (NP (JJ everyday) (NNS activities)) (, ,) (PP (JJ such) (IN as) (NP (VBG pouring) (NN milk))) (, ,) (PP (VBG stirring) (NP (NP (NP (NN coffee)) (, ,) (VP (VBG sweeping) (NP (DT the) (NN floor))) (, ,)) (CC and) (PRN (-LRB- -LRB-) (PP (IN of) (NP (NN course))) (-RRB- -RRB-)) (NP (NN writing))))))))) (. .)))
+#Rule:Nouns
+r1handNN
+r1activitiesNNS
+r1milkNN
+r1coffeeNN
+r1floorNN
+r1courseNN
+r1writingNN
+
+#Rule:Verbs
+r2practiceVB
+r2usingVBG
+r2armVB
+r2pouringVBG
+r2stirringVBG
+r2sweepingVBG
+
+#Rule:Adjs
+r4oppositeJJ
+r4everydayJJ
+r4suchJJ
+
+#Rule:Adj-Noun
+r5oppositeJJhandNN
+r5everydayJJactivitiesNNS
+r5pouringVBGmilkNN
+
+#Rule:HeadNoun-V
+r11youPRPpracticeVB
+r11youPRParmVB
+r11coffeeNNsweepingVBG
+
+#Rule:V-HeadNoun
+r21usingVBGhandNN
+r21sweepingVBGfloorNN
+
+#Rule:PPinNP
+r26activitiesNNSasINmilkNN
+
+#Rule:PPinVP
+r30armVBforINactivitiesNNS
+
+#Rule:V-ADV
+r46usingVBGconsciouslyRB
+
+@lemmas-left	using	stir	such	opposite	sweeping	coffee	everyday	writing	use	you	sweep	hand	course	floor	milk	practice	pouring	pour	activities	arm	stirring	activity	
+@lemmas-right	hand	consciously	floor	sweeping	practice	milk	arm	activities	sweep	activity	
+@lemmas-center	for	as	

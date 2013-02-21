@@ -1,0 +1,64 @@
+#each angle is 60??
+#(S1 (S (NP (DT each) (NN angle)) (VP (AUX is) (NP (CD 60) (. ?))) (. ?)))
+#Rule:Nouns
+r1angleNN
+
+#Rule:HeadNoun-V
+r11angleNNisAUX
+
+#Rule:V-HeadNoun
+r21isAUX60CD
+
+#Rule:IS-RULE
+r4760CDangleNN
+
+#sin(60??) 
+#(S1 (NP (NP (NNP sin)) (PRN (-LRB- -LRB-) (NP (CD 60) (NN ??)) (-RRB- -RRB-))))
+#Rule:Nouns
+r1sinNNP
+r1??NN
+
+#Rule:Adj-Noun
+r560CD??NN
+
+#= height/6height = 6sin(60??)
+#(S1 (S (X (SYM =)) (NP (NN height/6height)) (VP (SYM =) (NP (NP (NN 6sin)) (PRN (-LRB- -LRB-) (NP (CD 60) (NNS ??)) (-RRB- -RRB-))))))
+#Rule:Nouns
+r1height/6heightNN
+r1= 6sinLocationAnnotation
+r1??NNS
+
+#Rule:Adj-Noun
+r560CD??NNS
+
+#= 6*0.8660= 5.2area = 0.5*base*height= 0.5*6*5.2= 15.6 cm??
+#(S1 (S (NP (QP (SYM =) (CD 6) (CD *)) (JJ 0.8660=) (NN 5.2area)) (VP (SYM =) (NP (NP (ADJP (CD 0.5) (NN *)) (NN base) (NNS *)) (PP (VBG height=) (NP (NP (CD 0.5) (NN *)) (NP (QP (CD 6) (CD *)) (NNS 5.2=) (QP (CD 15.6) (CD cm)) (. ?)))))) (. ?)))
+#Rule:Nouns
+r15.2areaNN
+r1*NN
+r1base*heightPersonAnnotation
+r1*NN
+r15.2=NNS
+
+#Rule:Verbs
+r2height=VBG
+
+#Rule:Adjs
+r40.8660=JJ
+
+#Rule:Adj-Noun
+r56CD5.2areaNN
+r5*CD5.2areaNN
+r50.8660=JJ5.2areaNN
+r50.5CDbase*heightPersonAnnotation
+r50.5CD*NN
+r56CD5.2=NNS
+r5*CD5.2=NNS
+r515.6CD5.2=NNS
+r5cmCD5.2=NNS
+
+#= 5.1961524227066318805823390245176
+#(S1 (X (X (SYM =)) (NP (CD 5.1961524227066318805823390245176))))
+@lemmas-left	15.6	height=	is	*	5.2area	5.2=	angle	0.5	height/6height	??	height	area	cm	6	0.8660=	sin	= 6sin	60	base*height	be	
+@lemmas-right	??	is	area	*	5.2area	60	5.2=	base*height	angle	be	
+@lemmas-center	

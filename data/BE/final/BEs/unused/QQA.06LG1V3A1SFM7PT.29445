@@ -1,0 +1,64 @@
+#50.
+#(S1 (FRAG (NP (CD 50)) (. .)))
+#Alabama, Alaska, Arizona, Arkansas, California, Colorado, Conncecticut, Delaware, Florida, Georgia, Hawaii, Idaho, Illionois, Indiana, Iowa, Kansas, Kentucky, Louisana, Maine, Maryland, Massachusetts, Michigan, Minnesota, Mississippi, Missouri, Montana, Nebraska,
+#(S1 (NP (NNP Alabama) (, ,) (NNP Alaska) (, ,) (NNP Arizona) (, ,) (NNP Arkansas) (, ,) (NNP California) (, ,) (NNP Colorado) (, ,) (NNP Conncecticut) (, ,) (NNP Delaware) (, ,) (NNP Florida) (, ,) (NNP Georgia) (, ,) (NNP Hawaii) (, ,) (NNP Idaho) (, ,) (NNP Illionois) (, ,) (NNP Indiana) (, ,) (NNP Iowa) (, ,) (NNP Kansas) (, ,) (NNP Kentucky) (, ,) (NNP Louisana) (, ,) (NNP Maine) (, ,) (NNP Maryland) (, ,) (NNP Massachusetts) (, ,) (NNP Michigan) (, ,) (NNP Minnesota) (, ,) (NNP Mississippi) (, ,) (NNP Missouri) (, ,) (NNP Montana) (, ,) (NNP Nebraska) (, ,)))
+#Rule:Nouns
+r1AlabamaLocationAnnotation
+r1AlaskaLocationAnnotation
+r1ArizonaLocationAnnotation
+r1ArkansasLocationAnnotation
+r1CaliforniaLocationAnnotation
+r1ColoradoLocationAnnotation
+r1ConncecticutLocationAnnotation
+r1DelawareLocationAnnotation
+r1FloridaLocationAnnotation
+r1GeorgiaLocationAnnotation
+r1HawaiiLocationAnnotation
+r1IdahoLocationAnnotation
+r1IllionoisLocationAnnotation
+r1IndianaLocationAnnotation
+r1IowaLocationAnnotation
+r1Kansas, KentuckyOrganizationAnnotation
+r1LouisanaLocationAnnotation
+r1MaineLocationAnnotation
+r1MarylandLocationAnnotation
+r1MassachusettsLocationAnnotation
+r1MichiganLocationAnnotation
+r1MinnesotaLocationAnnotation
+r1MississippiLocationAnnotation
+r1MissouriLocationAnnotation
+r1MontanaLocationAnnotation
+r1NebraskaLocationAnnotation
+
+#Nevada, New Hampshire, New Jersey, New Mexico, New York, North Carolina, North Dakota, Ohio, Oklahoma, Oregon, Pennsylvania, Rhode Island, South Carolina, South Dakota, Tennesee, Texas, Utah, Vermont, Virginia, Washington, West Virginia, Wisconsin, and Wyoming.
+#(S1 (FRAG (NP (NNP Nevada)) (, ,) (NP (NNP New) (NNP Hampshire)) (, ,) (NP (NNP New) (NNP Jersey)) (, ,) (NP (NP (NNP New) (NNP Mexico)) (, ,) (NP (NNP New) (NNP York)) (, ,) (NP (NNP North) (NNP Carolina)) (, ,) (NP (NNP North) (NNP Dakota)) (, ,) (NP (NNP Ohio)) (, ,) (NP (NNP Oklahoma) (, ,) (NNP Oregon) (, ,) (NNP Pennsylvania) (, ,) (NNP Rhode) (NNP Island) (, ,) (NNP South) (NNP Carolina) (, ,) (NNP South) (NNP Dakota) (, ,) (NNP Tennesee) (, ,) (NNP Texas) (, ,) (NNP Utah) (, ,) (NNP Vermont) (, ,) (NNP Virginia)) (, ,) (NP (NNP Washington)) (, ,) (NP (NNP West) (NNP Virginia)) (, ,) (NP (NNP Wisconsin)) (, ,) (CC and) (NP (NNP Wyoming))) (. .)))
+#Rule:Nouns
+r1NevadaLocationAnnotation
+r1New HampshireOrganizationAnnotation
+r1New JerseyLocationAnnotation
+r1New MexicoLocationAnnotation
+r1New YorkLocationAnnotation
+r1North CarolinaLocationAnnotation
+r1North DakotaLocationAnnotation
+r1OhioLocationAnnotation
+r1OklahomaLocationAnnotation
+r1OregonOrganizationAnnotation
+r1PennsylvaniaLocationAnnotation
+r1Rhode IslandLocationAnnotation
+r1South CarolinaLocationAnnotation
+r1South DakotaLocationAnnotation
+r1TenneseeLocationAnnotation
+r1TexasLocationAnnotation
+r1UtahLocationAnnotation
+r1VermontLocationAnnotation
+r1VirginiaLocationAnnotation
+r1WashingtonLocationAnnotation
+r1West VirginiaLocationAnnotation
+r1Wisconsin, and WyomingOrganizationAnnotation
+
+#Rule:N-ApposN
+r10New MexicoLocationAnnotationNew YorkLocationAnnotation
+
+@lemmas-left	South Carolina	Rhode Island	Missouri	Tennesee	New Mexico	Florida	Alabama	Iowa	Wisconsin, and Wyoming	New Hampshire	California	Oregon	North Dakota	Kansas, Kentucky	Massachusetts	Indiana	Maryland	Nevada	West Virginia	Ohio	Idaho	Louisana	Minnesota	Washington	Delaware	Conncecticut	Virginia	Mississippi	Hawaii	Texas	Illionois	Vermont	Montana	Oklahoma	New York	North Carolina	Arizona	Alaska	Utah	New Jersey	Georgia	Michigan	Pennsylvania	Colorado	Maine	Nebraska	Arkansas	South Dakota	
+@lemmas-right	New York	
+@lemmas-center	

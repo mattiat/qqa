@@ -1,0 +1,555 @@
+BE: schoolNN
+EQ class: scholasticjj	
+
+BE: teachersNNS
+EQ class: instructornns	theynns	teachernns	themnns	
+
+BE: othersNNS
+EQ class: theynns	themnns	
+
+BE: publicJJ
+EQ class: publicitynn	
+
+BE: greatJJ
+EQ class: greatnessnn	
+
+BE: publicJJteachersNNS
+EQ class: publicitynninstructornns	teachvbpubliclyrb	learnvbpubliclyrb	publicitynnteachersnns	publicjjtheynns	publicjjthemnns	publicitynntheynns	publicjjinstructornns	teachershipvbpubliclyrb	publicitynnthemnns	publicjjteachernns	publicitynnteachernns	instructvbpubliclyrb	
+
+BE: schoolNNteachersNNS
+EQ class: schoolnnofintheynns	scholasticjjthemnns	teachernnsofinscholasticjj	learnvbschoolnn	teachernnsschoolvb	theynnsofinscholasticjj	scholasticjjlearnvb	schoolnnofinteachernns	scholasticjjofininstructornns	teachvbscholasticjj	teachersnnsofinschoolnn	scholasticjjofinteachernns	teachersnnsofinscholasticjj	schoolnnofininstructornns	learnvbscholasticjj	instructornnsofinschoolnn	instructvbschoolnn	schoolnnthemnns	schoolnntheynns	themnnsofinschoolnn	schoolnnofinteachersnns	scholasticjjinstructvb	teachershipvbschoolnn	schoolnnteachernns	teachersnnsschoolvb	scholasticjjtheynns	themnnsofinscholasticjj	scholasticjjteachernns	schoolingnnofininstructornns	schoolnnteachvb	scholasticjjofinthemnns	themnnsschoolvb	schoolingnnofinthemnns	teachernnsofinschoolnn	scholasticjjinstructornns	schoolnnofinthemnns	teachvbschoolnn	instructornnsschoolvb	theynnsofinschoolnn	instructornnsofinscholasticjj	teachershipvbscholasticjj	schoolnnlearnvb	scholasticjjofintheynns	schoolingnnofinteachersnns	schoolnninstructvb	schoolnnteachershipvb	scholasticjjofinteachersnns	instructvbscholasticjj	theynnsschoolvb	scholasticjjteachvb	schoolingnnofinteachernns	schoolnninstructornns	scholasticjjteachersnns	scholasticjjteachershipvb	schoolingnnofintheynns	
+
+BE: teachersNNSareAUX
+EQ class: teachersnnsbeaux	themnnsbeaux	theynnsareaux	themnnsareaux	instructornnsbeaux	teachernnsareaux	theynnsbeaux	instructornnsareaux	teachernnsbeaux	
+
+BE: othersNNSareAUX
+EQ class: themnnsbeaux	theynnsareaux	themnnsareaux	theynnsbeaux	othersnnsbeaux	
+
+BE: areAUXgreatJJ
+EQ class: areauxgreatnessnn	beauxgreatnessnn	beauxgreatjj	
+
+BE: areAUXwhileINareAUX
+EQ class: beauxwhileinareaux	areauxwhileinbeaux	beauxwhileinbeaux	
+
+BE: areAUXnotRB
+EQ class: beauxnotrb	
+
+BE: teacherNN
+EQ class: instructornn	
+
+BE: studentsNNS
+EQ class: pupilnns	educateenns	studentnns	theynns	themnns	
+
+BE: testNN
+EQ class: trial_runnn	trialnn	tryoutnn	
+
+BE: fallVB
+EQ class: 
+
+BE: tookVBD
+EQ class: takevbd	
+
+BE: theirPRP$studentsNNS
+EQ class: analyzevbtheirprp$	theirprp$examinevb	theirprp$studentshipvb	educateennsofintheirprp$	theirprp$pupilnns	theirprp$canvasvb	studentnnsofintheirprp$	theirprp$canvassvb	theynnsofintheirprp$	analysevbtheirprp$	themnnsofintheirprp$	examinevbtheirprp$	theirprp$educateenns	studentsnnsofintheirprp$	canvasvbtheirprp$	theirprp$analysevb	studyvbtheirprp$	canvassvbtheirprp$	theirprp$studyvb	theirprp$themnns	theirprp$analyzevb	theirprp$studentnns	studentshipvbtheirprp$	theirprp$theynns	pupilnnsofintheirprp$	
+
+BE: iPRPhadAUX
+EQ class: iprphave_gotaux	rich_personnnofiniprp	iprpholdaux	wealthy_personnnofiniprp	iprphaveaux	havennofiniprp	
+
+BE: studentsNNStookVBD
+EQ class: pupilnnstakevbd	pupilnnstookvbd	themnnstakevbd	theynnstakevbd	studentsnnstakevbd	educateennstakevbd	studentnnstakevbd	educateennstookvbd	studentnnstookvbd	themnnstookvbd	theynnstookvbd	
+
+BE: teacherNNfallVB
+EQ class: fallernninstructornn	fallnnofinteachernn	lumbermannnofinteachernn	autumnnnofininstructornn	fellernnteachernn	loggernnteachernn	lumberjacknnofinteachernn	fallernnofininstructornn	fallernnteachernn	fallernnofinteachernn	lumberjacknnteachernn	fellernnofininstructornn	lumbermannninstructornn	fallnnofininstructornn	lumbermannnofininstructornn	lumbermannnteachernn	fellernninstructornn	loggernnofininstructornn	autumnnnofinteachernn	fellernnofinteachernn	loggernnofinteachernn	loggernninstructornn	instructornnfallvb	lumberjacknnofininstructornn	lumberjacknninstructornn	
+
+BE: hadAUXteacherNN
+EQ class: rich_personnnofinteachernn	wealthy_personnnofininstructornn	haveauxinstructornn	haveauxteachernn	hadauxinstructornn	rich_personnnofininstructornn	have_gotauxteachernn	holdauxteachernn	havennofininstructornn	have_gotauxinstructornn	holdauxinstructornn	wealthy_personnnofinteachernn	havennofinteachernn	
+
+BE: tookVBDtestNN
+EQ class: tookvbdtryoutnn	takevbdtryoutnn	tookvbdtrialnn	takevbdtrial_runnn	takevbdtestnn	tookvbdtrial_runnn	takevbdtrialnn	
+
+BE: fallVBwhileINtookVBD
+EQ class: fallvbwhileintakevbd	
+
+BE: fallVBasleepRB
+EQ class: asleepjjautumnnn	asleepjjininfellernn	asleepjjininfallernn	asleepjjlumberjacknn	lumberjacknnofinasleeprb	lumbermannnofinasleeprb	fellernnofinasleeprb	asleepjjininfallnn	asleepjjfallernn	autumnnnofinasleeprb	fallernnofinasleeprb	asleepjjininloggernn	asleepjjininlumbermannn	asleepjjininfallvb	asleepjjlumbermannn	asleepjjfallnn	asleepjjfellernn	fallnnofinasleeprb	asleepjjloggernn	loggernnofinasleeprb	asleepjjininautumnnn	asleepjjininlumberjacknn	
+
+BE: teachersNNS
+EQ class: instructornns	theynns	teachernns	themnns	
+
+BE: classNN
+EQ class: familynn	categorynn	
+
+BE: letVB
+EQ class: allowvb	permitvb	
+
+BE: skipVB
+EQ class: skip_overvb	jumpvb	pass_overvb	
+
+BE: theirPRP$classNN
+EQ class: sortvbtheirprp$	theirprp$classifyvb	theirprp$sortvb	assortvbtheirprp$	classifyvbtheirprp$	categorynnofintheirprp$	theirprp$categorynn	theirprp$separatevb	separatevbtheirprp$	classnnofintheirprp$	sort_outvbtheirprp$	theirprp$familynn	theirprp$assortvb	theirprp$sort_outvb	theirprp$classvb	familynnofintheirprp$	classvbtheirprp$	
+
+BE: iPRPhadAUX
+EQ class: iprphave_gotaux	rich_personnnofiniprp	iprpholdaux	wealthy_personnnofiniprp	iprphaveaux	havennofiniprp	
+
+BE: mePRPskipVB
+EQ class: meprpjumpvb	meprppass_overvb	meprpskip_overvb	
+
+BE: teachersNNSletVB
+EQ class: theynnsallowvb	instructornnsallowvb	teachersnnspermitvb	theynnspermitvb	teachernnsallowvb	teachersnnsallowvb	instructornnspermitvb	themnnsletvb	instructornnsletvb	teachernnspermitvb	themnnspermitvb	teachernnsletvb	theynnsletvb	themnnsallowvb	
+
+BE: hadAUXteachersNNS
+EQ class: havennofinteachernns	havennofintheynns	holdauxtheynns	wealthy_personnnofintheynns	have_gotauxteachernns	holdauxthemnns	haveauxtheynns	have_gotauxtheynns	wealthy_personnnofininstructornns	holdauxinstructornns	wealthy_personnnofinteachernns	rich_personnnofinteachernns	holdauxteachernns	wealthy_personnnofinteachersnns	hadauxteachernns	hadauxtheynns	haveauxteachersnns	hadauxthemnns	rich_personnnofinthemnns	havennofinteachersnns	haveauxteachernns	rich_personnnofininstructornns	rich_personnnofinteachersnns	havennofinthemnns	wealthy_personnnofinthemnns	holdauxteachersnns	have_gotauxteachersnns	haveauxthemnns	have_gotauxthemnns	hadauxinstructornns	have_gotauxinstructornns	havennofininstructornns	haveauxinstructornns	rich_personnnofintheynns	
+
+BE: letVBmePRP
+EQ class: permitvbmeprp	allowvbmeprp	
+
+BE: skipVBinINclassNN
+EQ class: skipvbininfamilynn	skipvbinincategorynn	skip_overvbinincategorynn	jumpvbinincategorynn	pass_overvbininclassnn	jumpvbininfamilynn	pass_overvbininfamilynn	pass_overvbinincategorynn	jumpvbininclassnn	skip_overvbininfamilynn	skip_overvbininclassnn	
+
+BE: hadAUXalsoRB
+EQ class: wealthy_personnnofinalsorb	havennofinalsorb	haveauxalsorb	have_gotauxalsorb	rich_personnnofinalsorb	holdauxalsorb	
+
+BE: teachersNNS
+EQ class: instructornns	theynns	teachernns	themnns	
+
+BE: goodJJ
+EQ class: goodnessnn	
+
+BE: goodJJteachersNNS
+EQ class: goodnessnnthemnns	goodnessnnteachernns	goodnessnninstructornns	goodjjteachernns	goodjjtheynns	goodjjinstructornns	goodnessnntheynns	goodnessnnteachersnns	goodjjthemnns	
+
+BE: iPRPhaveAUX
+EQ class: iprphave_gotaux	rich_personnnofiniprp	iprpholdaux	wealthy_personnnofiniprp	havennofiniprp	
+
+BE: haveAUXteachersNNS
+EQ class: havennofinteachernns	havennofintheynns	holdauxtheynns	wealthy_personnnofintheynns	holdauxthemnns	have_gotauxteachernns	haveauxtheynns	have_gotauxtheynns	wealthy_personnnofininstructornns	holdauxinstructornns	wealthy_personnnofinteachernns	rich_personnnofinteachernns	holdauxteachernns	wealthy_personnnofinteachersnns	rich_personnnofinthemnns	havennofinteachersnns	haveauxteachernns	rich_personnnofininstructornns	rich_personnnofinteachersnns	havennofinthemnns	wealthy_personnnofinthemnns	holdauxteachersnns	have_gotauxteachersnns	haveauxthemnns	have_gotauxthemnns	have_gotauxinstructornns	havennofininstructornns	haveauxinstructornns	rich_personnnofintheynns	
+
+BE: didAUXhoweverRB
+EQ class: doauxhoweverrb	makeauxhoweverrb	
+
+BE: haveAUXhoweverRB
+EQ class: have_gotauxhoweverrb	rich_personnnofinhoweverrb	havennofinhoweverrb	wealthy_personnnofinhoweverrb	holdauxhoweverrb	
+
+BE: reasonNN
+EQ class: groundnn	
+
+BE: highschoolNN
+EQ class: senior_high_schoolnn	senior_highnn	highnn	high_schoolnn	
+
+BE: workNN
+EQ class: 
+
+BE: finishVB
+EQ class: completevb	
+
+BE: homeschoolingVBG
+EQ class: 
+
+BE: getVBP
+EQ class: acquirevbp	
+
+BE: moreJJR
+EQ class: more_thanjjr	
+
+BE: moreJJRworkNN
+EQ class: more_thanjjrworknn	
+
+BE: myPRP$reasonNN
+EQ class: reasonnnofinmyprp$	myprp$groundnn	groundnnofinmyprp$	reason_outvbmyprp$	concludevbmyprp$	reasonvbmyprp$	myprp$concludevb	myprp$reasonvb	myprp$reason_outvb	
+
+BE: reasonNNisAUX
+EQ class: reasonnnbeaux	groundnnbeaux	groundnnisaux	
+
+BE: iPRPgetVBP
+EQ class: gettingnnofiniprp	acquiringnnofiniprp	gettingnniprp	acquiringnniprp	iprpacquirevbp	
+
+BE: finishVBhighschoolNN
+EQ class: finishernnofinhighnn	finishnnofinhigh_schoolnn	finishingnnofinhigh_schoolnn	completevbsenior_highnn	closernnofinsenior_highnn	finishingnnofinhighschoolnn	finishingnnofinsenior_high_schoolnn	coatingnnofinhighnn	finishernnofinsenior_high_schoolnn	coatingnnofinsenior_high_schoolnn	closernnofinhighschoolnn	finishnnofinsenior_highnn	finishvbsenior_highnn	finishernnofinhighschoolnn	completevbhighschoolnn	finishingnnofinsenior_highnn	finishvbhighnn	closernnofinhigh_schoolnn	completevbhigh_schoolnn	finishnnofinhighnn	finishnnofinsenior_high_schoolnn	finishernnofinhigh_schoolnn	closernnofinsenior_high_schoolnn	completevbhighnn	finishingnnofinhighnn	completevbsenior_high_schoolnn	finishernnofinsenior_highnn	finishvbhigh_schoolnn	coatingnnofinsenior_highnn	finishvbsenior_high_schoolnn	coatingnnofinhigh_schoolnn	coatingnnofinhighschoolnn	finishnnofinhighschoolnn	closernnofinhighnn	
+
+BE: getVBPworkNN
+EQ class: acquirevbpworknn	acquiringnnofinworknn	gettingnnofinworknn	
+
+BE: isAUXbecauseINgetVBP
+EQ class: beauxbecauseingetvbp	beauxbecauseinacquirevbp	isauxbecauseinacquirevbp	
+
+BE: getVBPdoneRB
+EQ class: gettingnnofindonerb	acquirevbpdonerb	acquiringnnofindonerb	
+
+BE: classNN
+EQ class: familynn	categorynn	
+
+BE: chaptersNNS
+EQ class: chapternns	theynns	themnns	
+
+BE: bookNN
+EQ class: 
+
+BE: yearNN
+EQ class: twelvemonthnn	yearlyjj	yrnn	
+
+BE: tookVBD
+EQ class: takevbd	
+
+BE: doingVBG
+EQ class: makevbg	dovbg	
+
+BE: endedVBDupRP
+EQ class: ceasevbduprp	finishvbduprp	endvbduprp	stopvbduprp	terminatevbduprp	terminalnnofinuprp	endnnofinuprp	
+
+BE: entireJJ
+EQ class: entirenessnn	fulljj	totaljj	
+
+BE: twoCDchaptersNNS
+EQ class: twocdchapternns	2cdchaptersnns	2cdthemnns	iicdchapternns	iicdtheynns	deucecdtheynns	twocdthemnns	deucecdthemnns	iicdthemnns	deucecdchaptersnns	iicdchaptersnns	2cdtheynns	deucecdchapternns	twocdtheynns	2cdchapternns	
+
+BE: entireJJyearNN
+EQ class: fulljjyearnn	totaljjtwelvemonthnn	totaljjyearlyjj	entirejjyrnn	totaljjyrnn	entirejjyearlyjj	fulljjtwelvemonthnn	fulljjyearlyjj	fulljjyrnn	entirenessnnyearnn	totaljjyearnn	entirejjtwelvemonthnn	entirenessnntwelvemonthnn	yearlyvbentirelyrb	entirenessnnyrnn	entirenessnnyearlyjj	
+
+BE: iPRPtookVBD
+EQ class: iprptakevbd	
+
+BE: wePRPendedVBD
+EQ class: terminalnnofinweprp	weprpstopvbd	weprpendvbd	weprpterminatevbd	weprpfinishvbd	endnnofinweprp	weprpceasevbd	
+
+BE: tookVBDclassNN
+EQ class: tookvbdfamilynn	tookvbdcategorynn	takevbdclassnn	takevbdcategorynn	takevbdfamilynn	
+
+BE: doingVBGchaptersNNS
+EQ class: doingvbgchapternns	dovbgthemnns	makevbgtheynns	doingvbgtheynns	dovbgchapternns	doingvbgthemnns	dovbgchaptersnns	makevbgchapternns	makevbgchaptersnns	makevbgthemnns	dovbgtheynns	
+
+BE: chaptersNNSinINbookNN
+EQ class: themnnsininbooknn	booknntheynns	theynnsininbooknn	booknnthemnns	booknnchaptersnns	chapternnsininbooknn	booknnchapternns	
+
+BE: doingVBGforINyearNN
+EQ class: dovbgforinyrnn	makevbgforintwelvemonthnn	doingvbgforintwelvemonthnn	dovbgforinyearnn	makevbgforinyearnn	doingvbgforinyearlyjj	dovbgforinyearlyjj	dovbgforintwelvemonthnn	makevbgforinyearlyjj	makevbgforinyrnn	doingvbgforinyrnn	
+
+BE: tookVBDthatINendedVBD
+EQ class: tookvbdthatinfinishvbd	takevbdthatinendvbd	takevbdthatinceasevbd	takevbdthatinstopvbd	tookvbdthatinceasevbd	tookvbdthatinstopvbd	tookvbdthatinendvbd	takevbdthatinterminatevbd	takevbdthatinfinishvbd	tookvbdthatinterminatevbd	takevbdthatinendedvbd	
+
+BE: tookVBDonceRB
+EQ class: takevbdoncerb	
+
+BE: isnNNS
+EQ class: international_relations_and_security_networknns	theynns	themnns	
+
+BE: tVBP
+EQ class: 
+
+BE: HomeschoolingJJ
+EQ class: 
+
+BE: expensiveJJ
+EQ class: expensivenessnn	
+
+BE: HomeschoolingJJisnNNS
+EQ class: homeschoolingjjtheynns	homeschoolingjjinternational_relations_and_security_networknns	homeschoolingjjthemnns	
+
+BE: isnNNStVBP
+EQ class: theynnstvbp	themnnstvbp	international_relations_and_security_networknnstvbp	
+
+BE: momsNNS
+EQ class: mammynns	mammanns	manns	mamanns	mummynns	theynns	mumnns	mommanns	mommynns	themnns	momnns	
+
+BE: websitesNNS
+EQ class: internet_sitenns	web_sitenns	websitenns	sitenns	theynns	themnns	
+
+BE: worksheetsNNS
+EQ class: worksheetnns	theynns	themnns	
+
+BE: readVBN
+EQ class: 
+
+BE: homeschooledVBN
+EQ class: 
+
+BE: provideVBP
+EQ class: rendervbp	supplyvbp	furnishvbp	
+
+BE: freeJJ
+EQ class: 
+
+BE: freeJJ
+EQ class: 
+
+BE: freeJJwebsitesNNS
+EQ class: freejjtheynns	freejjwebsitenns	freejjthemnns	freejjweb_sitenns	freejjsitenns	freejjinternet_sitenns	
+
+BE: freeJJworksheetsNNS
+EQ class: freejjtheynns	freejjthemnns	freejjworksheetnns	
+
+BE: iPRPreadVBN
+EQ class: readernniprp	readingnniprp	readingnnofiniprp	readernnofiniprp	readnnofiniprp	
+
+BE: websitesNNSprovideVBP
+EQ class: web_sitennsrendervbp	provisionaryjjwebsitenns	providernnofinsitenns	provisionaryjjofinwebsitenns	websitennssupplyvbp	provisonnwebsitenns	web_sitennssupplyvbp	suppliernnwebsitesnns	provisonnofinsitenns	themnnsrendervbp	provisionnnsitenns	provisionaryjjofinsitenns	internet_sitennsprovidevbp	websitesnnssupplyvbp	provisionaryjjofinwebsitesnns	provisionaryjjweb_sitenns	provisionaryjjofininternet_sitenns	provisionaryjjsitenns	suppliernntheynns	providernnwebsitenns	provisionaryjjinternet_sitenns	providernnofinthemnns	suppliernnofinthemnns	suppliernnwebsitenns	provisonntheynns	provisionnninternet_sitenns	providernnsitenns	provisonnwebsitesnns	suppliernnofinwebsitesnns	web_sitennsprovidevbp	provisonnofinwebsitenns	websitesnnsfurnishvbp	provisionnnofinweb_sitenns	suppliernnofintheynns	providernnofinweb_sitenns	theynnsprovidevbp	provisionaryjjofintheynns	providernnofintheynns	themnnssupplyvbp	provisonnthemnns	internet_sitennsrendervbp	provisionaryjjthemnns	websitennsprovidevbp	sitennsprovidevbp	providernninternet_sitenns	suppliernnofinsitenns	providernnofinwebsitenns	provisionnnwebsitesnns	provisonnofinwebsitesnns	provisionaryjjofinthemnns	provisionnnofintheynns	provisonnofininternet_sitenns	internet_sitennsfurnishvbp	provisionnnofinthemnns	themnnsfurnishvbp	websitesnnsrendervbp	suppliernnsitenns	theynnsrendervbp	provisionnnthemnns	websitennsrendervbp	provisionaryjjofinweb_sitenns	sitennsfurnishvbp	provisonnofinthemnns	providernnofininternet_sitenns	provisonnofintheynns	provisionnntheynns	web_sitennsfurnishvbp	providernnofinwebsitesnns	provisionaryjjtheynns	provisionnnwebsitenns	sitennsrendervbp	suppliernnofininternet_sitenns	provisonnofinweb_sitenns	suppliernnofinwebsitenns	provisonnsitenns	suppliernnofinweb_sitenns	suppliernninternet_sitenns	providernnthemnns	websitennsfurnishvbp	provisonninternet_sitenns	theynnssupplyvbp	provisionnnofininternet_sitenns	provisionnnweb_sitenns	provisionaryjjwebsitesnns	suppliernnthemnns	suppliernnweb_sitenns	themnnsprovidevbp	provisionnnofinwebsitenns	provisionnnofinsitenns	providernntheynns	internet_sitennssupplyvbp	provisionnnofinwebsitesnns	provisonnweb_sitenns	providernnwebsitesnns	theynnsfurnishvbp	sitennssupplyvbp	providernnweb_sitenns	
+
+BE: momsNNShomeschooledVBN
+EQ class: mommannshomeschooledvbn	mummynnshomeschooledvbn	mammannshomeschooledvbn	mumnnshomeschooledvbn	mommynnshomeschooledvbn	momnnshomeschooledvbn	mammynnshomeschooledvbn	mannshomeschooledvbn	mamannshomeschooledvbn	theynnshomeschooledvbn	themnnshomeschooledvbn	
+
+BE: provideVBPworksheetsNNS
+EQ class: providevbptheynns	furnishvbpworksheetnns	suppliernnofintheynns	provisionnnofinworksheetnns	furnishvbptheynns	rendervbpworksheetsnns	provisionaryjjofintheynns	provisonnofinthemnns	providernnofintheynns	providernnofinworksheetsnns	provisonnofinworksheetsnns	provisonnofintheynns	suppliernnofinworksheetsnns	furnishvbpthemnns	suppliernnofinworksheetnns	rendervbpthemnns	rendervbpworksheetnns	providevbpworksheetnns	supplyvbpworksheetnns	providernnofinworksheetnns	provisionaryjjofinthemnns	supplyvbpthemnns	providernnofinthemnns	suppliernnofinthemnns	supplyvbptheynns	provisionnnofintheynns	supplyvbpworksheetsnns	provisionnnofinthemnns	provisionaryjjofinworksheetsnns	furnishvbpworksheetsnns	rendervbptheynns	provisionnnofinworksheetsnns	provisionaryjjofinworksheetnns	providevbpthemnns	provisonnofinworksheetnns	
+
+BE: momsNNSonINhereRB
+EQ class: hererbmommynns	mammannsoninhererb	hererbmammanns	mannsoninhererb	hererbmomnns	hererbmommanns	mumnnsoninhererb	mummynnsoninhererb	mammynnsoninhererb	hererbtheynns	mamannsoninhererb	hererbmamanns	hererbthemnns	hererbmanns	theynnsoninhererb	momnnsoninhererb	hererbmomsnns	hererbmumnns	themnnsoninhererb	mommynnsoninhererb	hererbmummynns	mommannsoninhererb	hererbmammynns	
+
+BE: readVBNaboutINmomsNNS
+EQ class: readvbnaboutinmommynns	readvbnaboutinmammynns	readvbnaboutinmomnns	readvbnaboutinmammanns	readvbnaboutinmummynns	readvbnaboutintheynns	readvbnaboutinmommanns	readvbnaboutinmumnns	readvbnaboutinmanns	readvbnaboutinmamanns	readvbnaboutinthemnns	
+
+BE: homeschooledVBNthroughINwebsitesNNS
+EQ class: homeschooledvbnthroughininternet_sitenns	homeschooledvbnthroughinweb_sitenns	homeschooledvbnthroughinwebsitenns	homeschooledvbnthroughintheynns	homeschooledvbnthroughinsitenns	homeschooledvbnthroughinthemnns	
+
+BE: parentNN
+EQ class: parentaljj	
+
+BE: sNNP
+EQ class: secnnp	secondnnp	
+
+BE: kidsNNS
+EQ class: kidnns	tykenns	small_frynns	minornns	youngsternns	nestlingnns	theynns	frynns	tiddlernns	nippernns	shavernns	tikenns	themnns	childnns	
+
+BE: booksNNS
+EQ class: theynns	booknns	themnns	
+
+BE: spendVB
+EQ class: passvb	
+
+BE: finishVBP
+EQ class: completevbp	
+
+BE: OtherJJ
+EQ class: 
+
+BE: ableJJ
+EQ class: abilitynn	
+
+BE: OtherJJsNNP
+EQ class: otherjjsecnnp	otherjjsecondnnp	
+
+BE: 3000CD$$
+EQ class: 3.0.0.0.cd$$	3.0.0.0.cd$.$	3000cd$.$	
+
+BE: theirPRP$kidsNNS
+EQ class: minornnsofintheirprp$	shavernnsofintheirprp$	youngsternnsofintheirprp$	tikennsofintheirprp$	frynnsofintheirprp$	theirprp$tikenns	kidnnsofintheirprp$	theirprp$nippernns	theirprp$small_frynns	tiddlernnsofintheirprp$	theynnsofintheirprp$	theirprp$shavernns	themnnsofintheirprp$	tykennsofintheirprp$	theirprp$minornns	theirprp$tiddlernns	childnnsofintheirprp$	theirprp$themnns	theirprp$frynns	kidsnnsofintheirprp$	theirprp$tykenns	small_frynnsofintheirprp$	theirprp$youngsternns	nippernnsofintheirprp$	theirprp$kidnns	theirprp$nestlingnns	nestlingnnsofintheirprp$	theirprp$theynns	theirprp$childnns	
+
+BE: parentNNsNNP
+EQ class: parentaljjsecnnp	parentagennofinsecnnp	snnpraisevb	secondnnpofinparentnn	snnprearvb	secnnpparentvb	secondnnpnurturevb	parentnnsecnnp	secnnprearvb	snnpofinparentaljj	parentaljjsecondnnp	parentnnofinsnnp	secnnpbring_upvb	secondnnpbring_upvb	snnpbring_upvb	parentnnofinsecnnp	parentaljjofinsecondnnp	parentagennofinsnnp	secondnnpofinparentaljj	secondnnpparentvb	parentnnsecondnnp	secondnnprearvb	parentagennofinsecondnnp	snnpnurturevb	parentaljjofinsecnnp	parenthoodnnofinsecondnnp	snnpparentvb	secnnpofinparentnn	parenthoodnnofinsecnnp	secondnnpraisevb	snnpofinparentnn	secnnpnurturevb	parentaljjsnnp	parentaljjofinsnnp	parentnnofinsecondnnp	secnnpraisevb	secnnpofinparentaljj	parenthoodnnofinsnnp	
+
+BE: sNNPareAUX
+EQ class: secnnpbeaux	secondnnpareaux	secondnnpbeaux	snnpbeaux	secnnpareaux	
+
+BE: theyPRPfinishVBP
+EQ class: closernnofinparentsprp	finishernnofinkidsprp	isnprpcompletevbp	finishingnnofinwebsitesprp	coatingnnpeopleprp	closernnofinchildrenprp	coatingnnofinisnprp	websitesprpcompletevbp	finishnnofinothersprp	coatingnnisnprp	coatingnnteachersprp	coatingnnofinmomsprp	finishingnnofinbooksprp	finishnnofintheyprp	finishingnnofinpeopleprp	closernnisnprp	finishingnnofinisnprp	closernnstudentsprp	finishnnisnprp	closernntheyprp	finishernnkidsprp	finishernnofintheyprp	studentsprpfinishvbp	finishingnnofinmomsprp	closernnkidsprp	closernnofinisnprp	coatingnnofinothersprp	finishernnbooksprp	coatingnnofinschoolsprp	coatingnnofinkidsprp	finishnnofinstudentsprp	finishingnnteachersprp	finishingnnofinteachersprp	coatingnnofinwebsitesprp	schoolsprpfinishvbp	closernnofinschoolsprp	finishnnschoolsprp	closernnofinpeopleprp	coatingnnbooksprp	finishingnnchaptersprp	closernnbooksprp	finishernnofinteachersprp	finishingnnparentsprp	finishnnpeopleprp	finishnnofinbooksprp	closernnmomsprp	theyprpcompletevbp	coatingnnofinchildrenprp	finishnnbooksprp	childrenprpcompletevbp	finishnnofinteachersprp	peopleprpfinishvbp	finishingnnworksheetsprp	teachersprpcompletevbp	coatingnnstudentsprp	othersprpcompletevbp	closernnofinbooksprp	finishernnofinwebsitesprp	finishingnnwebsitesprp	finishernnpeopleprp	parentsprpfinishvbp	coatingnnofinparentsprp	finishingnnofinparentsprp	finishernntheyprp	schoolsprpcompletevbp	chaptersprpcompletevbp	momsprpfinishvbp	finishernnothersprp	worksheetsprpcompletevbp	finishingnnofinworksheetsprp	finishnntheyprp	finishernnwebsitesprp	worksheetsprpfinishvbp	finishingnnofinschoolsprp	isnprpfinishvbp	studentsprpcompletevbp	finishnnofinparentsprp	coatingnnworksheetsprp	finishernnschoolsprp	coatingnnofinchaptersprp	finishnnchaptersprp	coatingnnschoolsprp	finishnnmomsprp	finishnnofinisnprp	closernnofinteachersprp	finishnnkidsprp	finishernnofinpeopleprp	coatingnnofinbooksprp	coatingnnparentsprp	closernnschoolsprp	closernnparentsprp	coatingnnchaptersprp	coatingnnwebsitesprp	finishnnofinpeopleprp	coatingnntheyprp	closernnofinkidsprp	finishnnofinmomsprp	finishnnofinschoolsprp	finishernnofinothersprp	closernnteachersprp	momsprpcompletevbp	closernnofinwebsitesprp	finishernnofinmomsprp	coatingnnmomsprp	othersprpfinishvbp	finishernnofinbooksprp	finishnnteachersprp	finishnnchildrenprp	booksprpfinishvbp	childrenprpfinishvbp	finishingnnofinchildrenprp	closernnothersprp	closernnofinothersprp	finishernnstudentsprp	finishnnstudentsprp	finishernnofinstudentsprp	finishernnchaptersprp	closernnchildrenprp	parentsprpcompletevbp	kidsprpfinishvbp	websitesprpfinishvbp	finishnnofinkidsprp	finishingnnschoolsprp	finishingnnstudentsprp	coatingnnofinworksheetsprp	finishnnparentsprp	finishernnofinparentsprp	booksprpcompletevbp	closernnofinmomsprp	finishingnnisnprp	finishingnnothersprp	finishingnnbooksprp	finishernnofinchaptersprp	closernnworksheetsprp	finishernnofinchildrenprp	finishnnofinwebsitesprp	finishernnparentsprp	finishnnworksheetsprp	coatingnnofinstudentsprp	finishingnnofinkidsprp	finishnnwebsitesprp	finishingnnofinothersprp	finishingnnkidsprp	finishernnofinisnprp	kidsprpcompletevbp	coatingnnchildrenprp	closernnofinchaptersprp	finishernnmomsprp	finishernnisnprp	finishernnteachersprp	coatingnnkidsprp	finishnnofinchildrenprp	finishingnnofinstudentsprp	finishingnnchildrenprp	coatingnnofintheyprp	coatingnnofinteachersprp	finishingnnmomsprp	teachersprpfinishvbp	coatingnnothersprp	finishingnnofinchaptersprp	finishingnntheyprp	closernnofinworksheetsprp	finishingnnofintheyprp	finishernnofinschoolsprp	finishernnchildrenprp	closernnchaptersprp	closernnpeopleprp	closernnwebsitesprp	finishingnnpeopleprp	finishnnofinchaptersprp	closernnofinstudentsprp	chaptersprpfinishvbp	finishernnworksheetsprp	finishnnothersprp	peopleprpcompletevbp	coatingnnofinpeopleprp	finishnnofinworksheetsprp	finishernnofinworksheetsprp	closernnofintheyprp	
+
+BE: spendVB$$
+EQ class: spendvb$.$	passvb$$	passvb$.$	
+
+BE: finishVBPbooksNNS
+EQ class: closernnofinthemnns	coatingnnofinbooknns	finishingnnofinbooknns	finishvbpthemnns	finishnnofintheynns	finishernnofinbooknns	finishnnofinthemnns	coatingnnofinthemnns	finishingnnofinbooksnns	finishingnnofinthemnns	coatingnnofinbooksnns	finishvbpbooknns	finishingnnofintheynns	finishnnofinbooksnns	finishernnofinbooksnns	completevbpbooksnns	coatingnnofintheynns	completevbptheynns	finishnnofinbooknns	finishernnofintheynns	closernnofinbooksnns	finishernnofinthemnns	closernnofintheynns	completevbpbooknns	closernnofinbooknns	completevbpthemnns	finishvbptheynns	
+
+BE: areAUXableJJ
+EQ class: areauxabilitynn	beauxablejj	beauxabilitynn	
+
+BE: spendVBonINkidsNNS
+EQ class: spendvbonintiddlernns	passvboninminornns	passvbonintiddlernns	passvboninthemnns	spendvboninthemnns	spendvboninchildnns	spendvbonintheynns	passvboninnippernns	passvboninchildnns	passvboninkidnns	spendvboninnestlingnns	spendvboninfrynns	passvboninyoungsternns	spendvboninsmall_frynns	passvboninshavernns	passvboninsmall_frynns	spendvbonintikenns	passvbonintikenns	spendvboninminornns	spendvboninnippernns	passvboninfrynns	spendvboninshavernns	passvbonintheynns	spendvboninkidnns	spendvbonintykenns	passvbonintykenns	passvboninkidsnns	spendvboninyoungsternns	passvboninnestlingnns	
+
+BE: spendVBbecauseINfinishVBP
+EQ class: passvbbecauseincompletevbp	spendvbbecauseincompletevbp	passvbbecauseinfinishvbp	
+
+BE: finishVBPquicklyRB
+EQ class: quicknessnninincoatingnn	finishingnnofinquicklyrb	quicknessnnininclosernn	speedyjjinincompletevbp	quickjjininclosernn	quicknessnncoatingnn	quickjjininfinishingnn	speedyjjininfinishingnn	quickjjinincompletevbp	quicknessnnininfinishnn	speedyjjfinishnn	quickjjcoatingnn	speedyjjininclosernn	quickjjininfinishnn	quicknessnnfinishernn	finishernnofinquicklyrb	completevbpquicklyrb	speedyjjininfinishnn	finishnnofinquicklyrb	quickjjfinishernn	quicknessnnclosernn	quickjjininfinishernn	closernnofinquicklyrb	speedyjjininfinishvbp	quickjjininfinishvbp	speedyjjfinishernn	quickjjinincoatingnn	quicknessnnininfinishingnn	speedyjjclosernn	speedyjjininfinishernn	quicknessnnininfinishvbp	quicknessnninincompletevbp	coatingnnofinquicklyrb	speedyjjcoatingnn	quicknessnnfinishingnn	quickjjclosernn	quickjjfinishnn	speedyjjinincoatingnn	quickjjfinishingnn	quicknessnnininfinishernn	speedyjjfinishingnn	quicknessnnfinishnn	
+
+BE: peopleNNS
+EQ class: theynns	themnns	
+
+BE: kidsNNS
+EQ class: kidnns	tykenns	small_frynns	minornns	youngsternns	nestlingnns	theynns	frynns	tiddlernns	nippernns	shavernns	tikenns	themnns	childnns	
+
+BE: schoolNN
+EQ class: scholasticjj	
+
+BE: childrenNNS
+EQ class: kidnns	tykenns	small_frynns	minornns	youngsternns	nestlingnns	childlyjj	theynns	frynns	tiddlernns	nippernns	shavernns	tikenns	themnns	childnns	
+
+BE: homeschoolVBP
+EQ class: 
+
+BE: localJJ
+EQ class: 
+
+BE: publicJJ
+EQ class: publicitynn	
+
+BE: slowJJ
+EQ class: slownessnn	
+
+BE: localJJschoolNN
+EQ class: schoolvblocallyrb	scholasticvblocallyrb	localjjscholasticjj	
+
+BE: publicJJschoolNN
+EQ class: publicitynnscholasticjj	publicjjscholasticjj	schoolvbpubliclyrb	scholasticvbpubliclyrb	publicitynnschoolnn	
+
+BE: theirPRP$kidsNNS
+EQ class: minornnsofintheirprp$	shavernnsofintheirprp$	youngsternnsofintheirprp$	tikennsofintheirprp$	frynnsofintheirprp$	theirprp$tikenns	kidnnsofintheirprp$	theirprp$nippernns	theirprp$small_frynns	tiddlernnsofintheirprp$	theynnsofintheirprp$	theirprp$shavernns	themnnsofintheirprp$	tykennsofintheirprp$	theirprp$minornns	theirprp$tiddlernns	childnnsofintheirprp$	theirprp$themnns	theirprp$frynns	kidsnnsofintheirprp$	theirprp$tykenns	small_frynnsofintheirprp$	theirprp$youngsternns	nippernnsofintheirprp$	theirprp$kidnns	theirprp$nestlingnns	nestlingnnsofintheirprp$	theirprp$theynns	theirprp$childnns	
+
+BE: theirPRP$childrenNNS
+EQ class: theirprp$childlyvb	theirprp$childlyjj	childrennnsofintheirprp$	minornnsofintheirprp$	shavernnsofintheirprp$	youngsternnsofintheirprp$	theirprp$tikenns	tikennsofintheirprp$	frynnsofintheirprp$	kidnnsofintheirprp$	theirprp$nippernns	theirprp$small_frynns	tiddlernnsofintheirprp$	theynnsofintheirprp$	theirprp$shavernns	themnnsofintheirprp$	tykennsofintheirprp$	childhoodvbtheirprp$	theirprp$childhoodvb	theirprp$minornns	theirprp$tiddlernns	childnnsofintheirprp$	theirprp$themnns	theirprp$frynns	theirprp$tykenns	small_frynnsofintheirprp$	theirprp$youngsternns	nippernnsofintheirprp$	theirprp$kidnns	theirprp$nestlingnns	nestlingnnsofintheirprp$	childlyvbtheirprp$	childlyjjofintheirprp$	theirprp$theynns	theirprp$childnns	
+
+BE: peopleNNShomeschoolVBP
+EQ class: themnnshomeschoolvbp	theynnshomeschoolvbp	
+
+BE: thereEXisAUX
+EQ class: thereexbeaux	
+
+BE: schoolNNisAUX
+EQ class: scholasticjjisaux	schoolnnbeaux	scholasticjjbeaux	
+
+BE: homeschoolVBPkidsNNS
+EQ class: homeschoolvbpyoungsternns	homeschoolvbpnestlingnns	homeschoolvbpthemnns	homeschoolvbpnippernns	homeschoolvbpminornns	homeschoolvbpchildnns	homeschoolvbptheynns	homeschoolvbpsmall_frynns	homeschoolvbptykenns	homeschoolvbptikenns	homeschoolvbpfrynns	homeschoolvbpkidnns	homeschoolvbptiddlernns	homeschoolvbpshavernns	
+
+BE: isAUXslowJJ
+EQ class: isauxslownessnn	beauxslowjj	beauxslownessnn	
+
+BE: slowJJforINchildrenNNS
+EQ class: slowjjforintiddlernns	childhoodvbslowlyrb	slownessnnforintykenns	slowjjforinnippernns	slownessnnforinnestlingnns	slowjjforinchildnns	slowjjforinminornns	childlyvbslowlyrb	slownessnnforinkidnns	slownessnnforinchildrennns	slowjjforintykenns	slownessnnforintikenns	slownessnnforintiddlernns	slownessnnforintheynns	slowjjforinthemnns	slowjjforinyoungsternns	slownessnnforinyoungsternns	slowjjforintheynns	slownessnnforinchildnns	slownessnnforinchildlyjj	slownessnnforinnippernns	slownessnnforinshavernns	slowjjforinfrynns	slownessnnforinminornns	slownessnnforinsmall_frynns	slowjjforintikenns	slownessnnforinfrynns	slowjjforinkidnns	slowjjforinsmall_frynns	slowjjforinnestlingnns	slownessnnforinthemnns	slowjjforinchildlyjj	slowjjforinshavernns	
+
+BE: homeschoolVBPbecauseINisAUX
+EQ class: homeschoolvbpbecauseinbeaux	
+
+BE: parentsNNS
+EQ class: theynns	parentaljj	parentnns	themnns	
+
+BE: childrenNNS
+EQ class: kidnns	tykenns	small_frynns	minornns	youngsternns	nestlingnns	childlyjj	theynns	frynns	tiddlernns	nippernns	shavernns	tikenns	themnns	childnns	
+
+BE: schoolsNNS
+EQ class: schoolnns	theynns	scholasticjj	themnns	
+
+BE: areaNN
+EQ class: arealjj	countrynn	
+
+BE: wantVB
+EQ class: desirevb	
+
+BE: attendVB
+EQ class: go_tovb	
+
+BE: locatedVBN
+EQ class: locatevbn	turn_upvbn	
+
+BE: publicJJ
+EQ class: publicitynn	
+
+BE: badJJ
+EQ class: badnessnn	
+
+BE: publicJJschoolsNNS
+EQ class: publicitynnscholasticjj	publicjjscholasticjj	schoolvbpubliclyrb	publicjjtheynns	publicjjschoolnns	publicitynnschoolnns	publicjjthemnns	scholasticvbpubliclyrb	publicitynntheynns	publicitynnthemnns	publicitynnschoolsnns	
+
+BE: badJJareaNN
+EQ class: badjjarealjj	badjjcountrynn	badnessnnareann	arealvbbadlyrb	badnessnncountrynn	badnessnnarealjj	
+
+BE: theirPRP$childrenNNS
+EQ class: theirprp$childlyvb	theirprp$childlyjj	childrennnsofintheirprp$	minornnsofintheirprp$	shavernnsofintheirprp$	youngsternnsofintheirprp$	theirprp$tikenns	tikennsofintheirprp$	frynnsofintheirprp$	kidnnsofintheirprp$	theirprp$nippernns	theirprp$small_frynns	tiddlernnsofintheirprp$	theynnsofintheirprp$	theirprp$shavernns	themnnsofintheirprp$	tykennsofintheirprp$	childhoodvbtheirprp$	theirprp$childhoodvb	theirprp$minornns	theirprp$tiddlernns	childnnsofintheirprp$	theirprp$themnns	theirprp$frynns	theirprp$tykenns	small_frynnsofintheirprp$	theirprp$youngsternns	nippernnsofintheirprp$	theirprp$kidnns	theirprp$nestlingnns	nestlingnnsofintheirprp$	childlyvbtheirprp$	childlyjjofintheirprp$	theirprp$theynns	theirprp$childnns	
+
+BE: parentsNNSwantVB
+EQ class: wanternnparentaljj	deprivationnnofinparentsnns	needernnparentnns	needinessnnofinparentnns	deprivationnnofinparentnns	wantnnofinparentnns	wanternnofinparentnns	parentnnswantvb	parentnnsdesirevb	needernnparentsnns	privationnnofinparentnns	needernnofinparentsnns	themnnswantvb	theynnsdesirevb	wanternnparentsnns	parentaljjdesirevb	needinessnnofinthemnns	needernnthemnns	wanternnofinparentaljj	wanternnofinparentsnns	deprivationnnofintheynns	deprivationnnofinthemnns	needernntheynns	wanternnthemnns	wantnnofintheynns	wanternntheynns	wantnnofinparentsnns	needernnofinparentaljj	wanternnofinthemnns	themnnsdesirevb	needernnofintheynns	needernnparentaljj	needernnofinthemnns	privationnnofintheynns	theynnswantvb	wantnnofinparentaljj	parentsnnsdesirevb	needinessnnofintheynns	wanternnofintheynns	wantnnofinthemnns	parentaljjwantvb	deprivationnnofinparentaljj	privationnnofinparentaljj	needinessnnofinparentaljj	wanternnparentnns	needernnofinparentnns	privationnnofinthemnns	privationnnofinparentsnns	needinessnnofinparentsnns	
+
+BE: childrenNNSattendVB
+EQ class: attendancennofinnestlingnns	auditornnkidnns	tendernnofinthemnns	attendingnntheynns	tendernnchildnns	attendantnnofinyoungsternns	listenernnofinkidnns	auditornnofinthemnns	hearernnnippernns	attendancennyoungsternns	attendantjjofintiddlernns	attendingnnofinfrynns	attendernnofinchildrennns	listenernntiddlernns	hearernnofinkidnns	listenernnofinthemnns	tendernnofinchildrennns	listenernnofinsmall_frynns	listenernnofintykenns	auditornnofinfrynns	attendancennofinshavernns	attendingnnsmall_frynns	listenernnshavernns	listenernnnippernns	attendantnnofintheynns	listenernnofinchildlyjj	auditornnofinsmall_frynns	attendancennminornns	attendantnnyoungsternns	hearernnofintheynns	attendernnofinchildnns	childlyjjattendvb	auditornnofinnippernns	attendantnntiddlernns	attendantjjofinnestlingnns	attendingnntiddlernns	hearernnofinchildlyjj	listenernnthemnns	attendantjjtykenns	tiddlernnsgo_tovb	auditornnchildnns	attendingnnofinchildnns	attendernnsmall_frynns	hearernnyoungsternns	attendernnofinnippernns	attendantnnminornns	attendingnnofinsmall_frynns	attendernntykenns	attendantnnofinchildrennns	hearernntheynns	attendernntiddlernns	tendernnofinshavernns	attendantjjchildnns	tendernnkidnns	auditornnofinkidnns	hearernnofinthemnns	attendantjjnippernns	auditornnofinminornns	attendancennchildrennns	auditornnofinchildlyjj	attendantjjofintikenns	tendernnthemnns	attendantjjyoungsternns	tendernnofinchildnns	attendantnnthemnns	listenernnofinnippernns	attendancennofintiddlernns	attendantnnofinchildnns	hearernnchildrennns	attendernnofinshavernns	auditornnofinshavernns	attendernnofinminornns	tendernnofintheynns	hearernnofintikenns	attendantjjsmall_frynns	listenernnminornns	hearernnofinshavernns	listenernnofintheynns	tikennsgo_tovb	attendancennofintykenns	attendernnchildrennns	attendancennofinyoungsternns	hearernnofinyoungsternns	attendingnnkidnns	auditornnfrynns	tendernnofintikenns	hearernnsmall_frynns	attendernnofinyoungsternns	attendantnnofinchildlyjj	attendantnnofinnestlingnns	small_frynnsgo_tovb	attendernnofintikenns	attendingnnofinminornns	attendernnofintheynns	attendantjjofinyoungsternns	attendancenntykenns	attendingnntikenns	attendingnntykenns	attendantnnofinfrynns	hearernnchildnns	nestlingnnsgo_tovb	attendernnkidnns	attendantjjchildrennns	tykennsgo_tovb	listenernntikenns	attendancennofintikenns	shavernnsgo_tovb	tendernntiddlernns	listenernnofinminornns	tendernnofinkidnns	attendantnnofintikenns	attendancenntheynns	tendernnshavernns	attendantnnshavernns	childrennnsgo_tovb	attendingnnofinkidnns	youngsternnsgo_tovb	hearernnminornns	attendingnnofintikenns	listenernntheynns	attendernnshavernns	listenernntykenns	attendantnnnestlingnns	hearernntykenns	attendernnchildlyjj	hearernnofintykenns	attendancennchildnns	attendancennnestlingnns	tendernnyoungsternns	attendingnnminornns	attendantjjkidnns	listenernnsmall_frynns	tendernntykenns	attendantjjchildlyjj	theynnsattendvb	attendantnnchildlyjj	listenernnkidnns	attendingnnfrynns	attendantnntykenns	attendantjjtikenns	listenernnchildnns	attendingnnofinthemnns	attendancennofinkidnns	tendernnchildlyjj	themnnsattendvb	attendernnofinthemnns	attendantjjfrynns	tendernnofinchildlyjj	listenernnofinshavernns	hearernnofinsmall_frynns	listenernnchildlyjj	attendernnyoungsternns	attendancenntikenns	tendernnofinyoungsternns	frynnsattendvb	tiddlernnsattendvb	kidnnsattendvb	attendancennofinchildrennns	listenernnofinyoungsternns	attendancennofinfrynns	attendancennofinchildnns	attendantjjofinchildnns	attendingnnthemnns	minornnsattendvb	minornnsgo_tovb	attendantnntheynns	tikennsattendvb	listenernnyoungsternns	attendantnnchildnns	listenernnofinfrynns	attendantjjofinshavernns	auditornnthemnns	attendancennfrynns	attendantnnofinthemnns	attendantnnofinshavernns	attendingnnofinchildrennns	attendingnnofintykenns	attendancennofinminornns	hearernntikenns	attendernnfrynns	attendantjjofinminornns	hearernnofintiddlernns	attendantjjofinnippernns	tendernnofintykenns	listenernnofinchildnns	attendernnminornns	attendantnnnippernns	auditornnsmall_frynns	attendantjjofinchildrennns	attendingnnofinshavernns	attendantjjtheynns	attendingnnofinchildlyjj	attendantnnsmall_frynns	childnnsattendvb	nippernnsgo_tovb	attendantjjofinkidnns	listenernnofintiddlernns	attendernnnippernns	attendantnnofintiddlernns	attendingnnofinyoungsternns	attendantnnofinminornns	nippernnsattendvb	attendancenntiddlernns	listenernnofinchildrennns	attendingnnnestlingnns	childlyjjgo_tovb	tendernnfrynns	listenernnofintikenns	listenernnfrynns	auditornnofintykenns	hearernntiddlernns	hearernnfrynns	auditornnnippernns	attendingnnofinnippernns	attendancennofinchildlyjj	attendancennsmall_frynns	nestlingnnsattendvb	attendancennofinsmall_frynns	tendernnofinnestlingnns	attendernnofinnestlingnns	attendantjjofinfrynns	attendantjjofinchildlyjj	auditornnofintikenns	attendancennchildlyjj	listenernnchildrennns	attendingnnshavernns	attendingnnchildrennns	attendantnnkidnns	hearernnshavernns	hearernnofinnestlingnns	attendantjjnestlingnns	auditornnofintiddlernns	auditornnshavernns	youngsternnsattendvb	tendernnofintiddlernns	tendernnofinminornns	attendantnnofintykenns	attendantjjthemnns	attendernnofinkidnns	auditornntikenns	small_frynnsattendvb	attendernntikenns	hearernnnestlingnns	hearernnofinfrynns	attendancennthemnns	tendernntikenns	tendernnnestlingnns	tendernnofinsmall_frynns	frynnsgo_tovb	auditornnnestlingnns	hearernnofinchildnns	hearernnchildlyjj	attendernnofinfrynns	attendingnnofinnestlingnns	attendernnofinchildlyjj	auditornntiddlernns	auditornnminornns	tendernnminornns	attendantnnofinkidnns	attendingnnchildlyjj	auditornnofintheynns	attendingnnofintiddlernns	hearernnofinchildrennns	attendantnnofinnippernns	attendernnofinsmall_frynns	attendantjjofintykenns	auditornnofinchildrennns	attendernnthemnns	attendingnnofintheynns	attendancennofinthemnns	tendernnofinnippernns	theynnsgo_tovb	attendancennofintheynns	attendernntheynns	auditornnchildlyjj	kidnnsgo_tovb	auditornntheynns	attendantjjminornns	attendingnnchildnns	attendernnofintykenns	attendantjjofintheynns	attendantjjshavernns	auditornnofinyoungsternns	auditornnyoungsternns	tykennsattendvb	attendantnnfrynns	themnnsgo_tovb	attendantjjofinsmall_frynns	childnnsgo_tovb	attendancennofinnippernns	tendernnchildrennns	shavernnsattendvb	attendernnnestlingnns	auditornnchildrennns	attendantnnofinsmall_frynns	hearernnofinminornns	attendingnnyoungsternns	attendernnofintiddlernns	tendernnofinfrynns	attendancennnippernns	hearernnkidnns	hearernnofinnippernns	attendancennshavernns	attendingnnnippernns	listenernnnestlingnns	listenernnofinnestlingnns	auditornnofinnestlingnns	auditornntykenns	attendantjjofinthemnns	attendantnnchildrennns	tendernnnippernns	attendancennkidnns	tendernnsmall_frynns	hearernnthemnns	attendernnchildnns	attendantjjtiddlernns	auditornnofinchildnns	tendernntheynns	attendantnntikenns	
+
+BE: attendVBschoolsNNS
+EQ class: attendvbscholasticjj	attendancennofinscholasticjj	attendvbtheynns	tendernnofinthemnns	attendingnnofinscholasticjj	attendernnofinschoolsnns	auditornnofinschoolnns	attendernnofinscholasticjj	auditornnofinthemnns	auditornnofinscholasticjj	attendernnofintheynns	attendingnnofinschoolsnns	auditornnofinschoolsnns	attendantnnofinthemnns	listenernnofinthemnns	listenernnofinschoolnns	attendantnnofinschoolnns	attendantnnofintheynns	attendantjjofinschoolnns	go_tovbschoolsnns	attendancennofinschoolsnns	hearernnofinscholasticjj	go_tovbthemnns	hearernnofintheynns	attendingnnofinschoolnns	auditornnofintheynns	attendantnnofinscholasticjj	attendernnofinschoolnns	listenernnofinschoolsnns	attendantjjofinscholasticjj	attendingnnofintheynns	attendantnnofinschoolsnns	attendancennofinthemnns	go_tovbschoolnns	hearernnofinschoolnns	attendancennofintheynns	attendantjjofinschoolsnns	tendernnofinschoolnns	go_tovbtheynns	hearernnofinthemnns	attendantjjofintheynns	tendernnofinschoolsnns	attendancennofinschoolnns	attendvbschoolnns	attendingnnofinthemnns	attendernnofinthemnns	hearernnofinschoolsnns	listenernnofinscholasticjj	tendernnofintheynns	go_tovbscholasticjj	attendvbthemnns	listenernnofintheynns	attendantjjofinthemnns	tendernnofinscholasticjj	
+
+BE: haveAUXchildrenNNS
+EQ class: have_gotauxsmall_frynns	rich_personnnofinsmall_frynns	wealthy_personnnofintheynns	havennofinnippernns	have_gotauxfrynns	holdauxyoungsternns	wealthy_personnnofinchildlyjj	havennofinsmall_frynns	holdauxtiddlernns	holdauxnippernns	wealthy_personnnofintikenns	wealthy_personnnofinfrynns	haveauxnestlingnns	wealthy_personnnofinminornns	haveauxnippernns	haveauxfrynns	wealthy_personnnofinnippernns	haveauxsmall_frynns	havennofinminornns	have_gotauxkidnns	holdauxtykenns	rich_personnnofintiddlernns	havennofintikenns	have_gotauxminornns	wealthy_personnnofinnestlingnns	holdauxkidnns	havennofinthemnns	rich_personnnofinminornns	wealthy_personnnofintykenns	wealthy_personnnofinthemnns	have_gotauxtykenns	haveauxchildlyjj	have_gotauxchildnns	have_gotauxthemnns	haveauxtykenns	holdauxshavernns	havennofinkidnns	haveauxyoungsternns	holdauxchildlyjj	wealthy_personnnofinshavernns	holdauxfrynns	holdauxtikenns	rich_personnnofintheynns	rich_personnnofinnestlingnns	havennofinchildnns	havennofinshavernns	holdauxtheynns	havennofintheynns	havennofintykenns	haveauxminornns	rich_personnnofinfrynns	holdauxthemnns	have_gotauxnestlingnns	havennofinnestlingnns	have_gotauxtheynns	haveauxtheynns	have_gotauxshavernns	haveauxtiddlernns	wealthy_personnnofintiddlernns	haveauxkidnns	havennofinfrynns	rich_personnnofinyoungsternns	holdauxnestlingnns	rich_personnnofinkidnns	rich_personnnofinthemnns	holdauxchildrennns	rich_personnnofintykenns	wealthy_personnnofinchildnns	wealthy_personnnofinkidnns	wealthy_personnnofinyoungsternns	have_gotauxchildrennns	have_gotauxchildlyjj	have_gotauxtikenns	havennofinchildlyjj	havennofintiddlernns	have_gotauxyoungsternns	holdauxminornns	holdauxsmall_frynns	have_gotauxnippernns	have_gotauxtiddlernns	rich_personnnofinchildlyjj	wealthy_personnnofinchildrennns	rich_personnnofinchildrennns	rich_personnnofinnippernns	holdauxchildnns	haveauxthemnns	rich_personnnofinshavernns	wealthy_personnnofinsmall_frynns	havennofinyoungsternns	haveauxchildnns	haveauxtikenns	rich_personnnofinchildnns	rich_personnnofintikenns	haveauxshavernns	havennofinchildrennns	
+
+BE: locatedVBNtheyPRP
+EQ class: locatedvbnpeopleprp	locationnnofinisnprp	locationnnofinworksheetsprp	turn_upvbnothersprp	locatevbnparentsprp	locatedvbnmomsprp	locatevbnstudentsprp	locatedvbnothersprp	turn_upvbnisnprp	locatedvbnchildrenprp	locatevbnbooksprp	turn_upvbnstudentsprp	turn_upvbnparentsprp	turn_upvbnkidsprp	locationnnofinchaptersprp	locatedvbnwebsitesprp	locatedvbnparentsprp	turn_upvbnmomsprp	locatedvbnchaptersprp	locationnnofinchildrenprp	locationnnofinteachersprp	locatevbnteachersprp	turn_upvbnschoolsprp	turn_upvbnwebsitesprp	locationnnofinparentsprp	locatevbnkidsprp	locationnnofinschoolsprp	turn_upvbnbooksprp	locationnnofinothersprp	locatevbnschoolsprp	locatedvbnschoolsprp	turn_upvbnworksheetsprp	locatedvbnkidsprp	locatevbnisnprp	locationnnofinpeopleprp	locationnnofinstudentsprp	locationnnofinwebsitesprp	locationnnofintheyprp	turn_upvbntheyprp	locatedvbnstudentsprp	locationnnofinbooksprp	locatedvbnworksheetsprp	locatedvbnisnprp	locatedvbnteachersprp	turn_upvbnpeopleprp	locatevbnworksheetsprp	locationnnofinmomsprp	locatevbntheyprp	locatevbnchildrenprp	locatevbnwebsitesprp	locatevbnpeopleprp	locationnnofinkidsprp	turn_upvbnteachersprp	locatevbnmomsprp	turn_upvbnchildrenprp	locatevbnchaptersprp	turn_upvbnchaptersprp	locatedvbnbooksprp	locatevbnothersprp	
+
+BE: locatedVBNinINareaNN
+EQ class: locatedvbnininarealjj	locatevbnininarealjj	locatedvbninincountrynn	locatevbninincountrynn	turn_upvbnininarealjj	turn_upvbnininareann	turn_upvbninincountrynn	locatevbnininareann	
+
+BE: haveAUXbecauseINlocatedVBN
+EQ class: holdauxbecauseinlocatevbn	haveauxbecauseinlocatevbn	holdauxbecauseinturn_upvbn	haveauxbecauseinturn_upvbn	holdauxbecauseinlocatedvbn	have_gotauxbecauseinlocatedvbn	have_gotauxbecauseinturn_upvbn	have_gotauxbecauseinlocatevbn	
+
+BE: parentsNNS
+EQ class: theynns	parentaljj	parentnns	themnns	
+
+BE: schoolNN
+EQ class: scholasticjj	
+
+BE: homeschoolVBD
+EQ class: 
+
+BE: liveVB
+EQ class: inhabitvb	populatevb	dwellvb	
+
+BE: localJJ
+EQ class: 
+
+BE: publicJJ
+EQ class: publicitynn	
+
+BE: localJJschoolNN
+EQ class: schoolvblocallyrb	scholasticvblocallyrb	localjjscholasticjj	
+
+BE: publicJJschoolNN
+EQ class: publicitynnscholasticjj	publicjjscholasticjj	schoolvbpubliclyrb	scholasticvbpubliclyrb	publicitynnschoolnn	
+
+BE: parentsNNShomeschoolVBD
+EQ class: parentaljjhomeschoolvbd	themnnshomeschoolvbd	theynnshomeschoolvbd	parentnnshomeschoolvbd	
+
+BE: theyPRPliveVB
+EQ class: livernnbooksprp	livernnofinothersprp	booksprpinhabitvb	kidsprppopulatevb	parentsprpdwellvb	liveablennofinkidsprp	liveryjjchaptersprp	liveryjjpeopleprp	peopleprpinhabitvb	livernnofinbooksprp	peopleprplivevb	kidsprpinhabitvb	childrenprplivevb	parentsprpinhabitvb	livernnmomsprp	liveryjjofintheyprp	liveablennofinmomsprp	booksprpdwellvb	studentsprplivevb	liveryjjofinwebsitesprp	livernnparentsprp	liveryjjofinparentsprp	worksheetsprpdwellvb	teachersprpdwellvb	worksheetsprplivevb	livernnofinschoolsprp	schoolsprpdwellvb	momsprplivevb	chaptersprppopulatevb	isnprplivevb	liveablennofinschoolsprp	liveablennofinchaptersprp	livernnofinwebsitesprp	livablennofinisnprp	livablennofintheyprp	livernnofinkidsprp	livernnofinmomsprp	livablennofinpeopleprp	studentsprppopulatevb	websitesprpinhabitvb	chaptersprpinhabitvb	websitesprpdwellvb	livablennofinworksheetsprp	livablennofinothersprp	liveablennofintheyprp	liveryjjparentsprp	liveryjjbooksprp	livernnteachersprp	schoolsprplivevb	livernnothersprp	liveablennofinpeopleprp	liveryjjofinothersprp	liveryjjworksheetsprp	liveryjjchildrenprp	livernnofinworksheetsprp	livernnofinpeopleprp	liveryjjofinschoolsprp	liveablennofinteachersprp	worksheetsprpinhabitvb	studentsprpinhabitvb	liveryjjwebsitesprp	livernnofinstudentsprp	livernnofinparentsprp	othersprplivevb	liveryjjofinworksheetsprp	livablennofinbooksprp	liveryjjofinstudentsprp	livernnofinchildrenprp	liveryjjschoolsprp	teachersprpinhabitvb	peopleprppopulatevb	websitesprppopulatevb	liveryjjofinbooksprp	isnprpinhabitvb	livablennofinwebsitesprp	liveryjjteachersprp	childrenprpdwellvb	liveablennofinwebsitesprp	liveryjjofinisnprp	liveryjjofinkidsprp	isnprpdwellvb	livernnchildrenprp	booksprplivevb	othersprppopulatevb	liveablennofinothersprp	schoolsprppopulatevb	parentsprppopulatevb	livernnpeopleprp	kidsprplivevb	momsprppopulatevb	livablennofinmomsprp	liveryjjtheyprp	livernntheyprp	livernnisnprp	worksheetsprppopulatevb	livablennofinstudentsprp	livablennofinschoolsprp	theyprpdwellvb	momsprpdwellvb	liveryjjstudentsprp	liveryjjofinteachersprp	liveryjjofinchaptersprp	livernnofinteachersprp	liveablennofinparentsprp	liveablennofinchildrenprp	liveryjjothersprp	livablennofinchaptersprp	liveryjjmomsprp	livernnchaptersprp	livernnofintheyprp	theyprppopulatevb	chaptersprpdwellvb	liveryjjkidsprp	websitesprplivevb	liveryjjofinchildrenprp	liveryjjofinpeopleprp	livablennofinteachersprp	childrenprppopulatevb	livablennofinparentsprp	livernnofinchaptersprp	kidsprpdwellvb	chaptersprplivevb	liveablennofinbooksprp	liveryjjofinmomsprp	livernnschoolsprp	liveablennofinworksheetsprp	liveablennofinisnprp	liveryjjisnprp	livernnstudentsprp	childrenprpinhabitvb	theyprpinhabitvb	livernnwebsitesprp	livernnkidsprp	schoolsprpinhabitvb	parentsprplivevb	studentsprpdwellvb	livernnofinisnprp	peopleprpdwellvb	teachersprppopulatevb	booksprppopulatevb	livablennofinchildrenprp	livablennofinkidsprp	othersprpdwellvb	isnprppopulatevb	momsprpinhabitvb	teachersprplivevb	liveablennofinstudentsprp	livernnworksheetsprp	othersprpinhabitvb	
+
+BE: liveVBfromINschoolNN
+EQ class: populatevbfrominscholasticjj	livevbfrominscholasticjj	dwellvbfrominscholasticjj	populatevbfrominschoolnn	inhabitvbfrominscholasticjj	inhabitvbfrominschoolnn	dwellvbfrominschoolnn	
+
+BE: homeschoolVBDbecauseINliveVB
+EQ class: homeschoolvbdbecauseininhabitvb	homeschoolvbdbecauseinpopulatevb	homeschoolvbdbecauseindwellvb	
+
+BE: liveVBtooRB
+EQ class: liveryjjofintoorb	dwellvbtoorb	inhabitvbtoorb	livablennofintoorb	livernnofintoorb	populatevbtoorb	liveablennofintoorb	
+
+BE: liveVBfarRB
+EQ class: inhabitvbfarrb	populatevbfarrb	liveryjjofinfarrb	livablennofinfarrb	dwellvbfarrb	liveablennofinfarrb	livernnofinfarrb	
+
+BE: peopleNNS
+EQ class: theynns	themnns	
+
+BE: childrenNNS
+EQ class: kidnns	tykenns	small_frynns	minornns	youngsternns	nestlingnns	childlyjj	theynns	frynns	tiddlernns	nippernns	shavernns	tikenns	themnns	childnns	
+
+BE: thinkVBP
+EQ class: conceivevbp	believevbp	considervbp	
+
+BE: wantVBP
+EQ class: desirevbp	
+
+BE: generalJJ
+EQ class: generalitynn	generalnn	
+
+BE: bestJJS
+EQ class: bestnn	
+
+BE: theirPRP$childrenNNS
+EQ class: theirprp$childlyvb	theirprp$childlyjj	childrennnsofintheirprp$	minornnsofintheirprp$	shavernnsofintheirprp$	youngsternnsofintheirprp$	theirprp$tikenns	tikennsofintheirprp$	frynnsofintheirprp$	kidnnsofintheirprp$	theirprp$nippernns	theirprp$small_frynns	tiddlernnsofintheirprp$	theynnsofintheirprp$	theirprp$shavernns	themnnsofintheirprp$	tykennsofintheirprp$	childhoodvbtheirprp$	theirprp$childhoodvb	theirprp$minornns	theirprp$tiddlernns	childnnsofintheirprp$	theirprp$themnns	theirprp$frynns	theirprp$tykenns	small_frynnsofintheirprp$	theirprp$youngsternns	nippernnsofintheirprp$	theirprp$kidnns	theirprp$nestlingnns	nestlingnnsofintheirprp$	childlyvbtheirprp$	childlyjjofintheirprp$	theirprp$theynns	theirprp$childnns	
+
+BE: iPRPthinkVBP
+EQ class: iprpbelievevbp	iprpconceivevbp	thoughtnnofiniprp	ideanniprp	iprpconsidervbp	ideannofiniprp	thoughtnniprp	
+
+BE: peopleNNSwantVBP
+EQ class: needernnofintheynns	theynnswantvbp	wantnnofinpeoplenns	themnnsdesirevbp	needernnofinthemnns	needernnpeoplenns	privationnnofintheynns	wanternnofinpeoplenns	wanternnpeoplenns	needinessnnofintheynns	theynnsdesirevbp	wanternnofintheynns	wantnnofinthemnns	deprivationnnofinpeoplenns	needinessnnofinpeoplenns	needinessnnofinthemnns	peoplennsdesirevbp	themnnswantvbp	needernnthemnns	privationnnofinpeoplenns	deprivationnnofintheynns	deprivationnnofinthemnns	privationnnofinthemnns	needernntheynns	wanternnthemnns	wanternntheynns	wantnnofintheynns	needernnofinpeoplenns	wanternnofinthemnns	
+
+BE: wantVBPbestJJS
+EQ class: deprivationnnofinbestjjs	wantnnofinbestjjs	privationnnofinbestjjs	needinessnnofinbestnn	privationnnofinbestnn	needernnofinbestnn	wantvbpbestnn	wantnnofinbestnn	deprivationnnofinbestnn	needinessnnofinbestjjs	desirevbpbestjjs	wanternnofinbestjjs	desirevbpbestnn	wanternnofinbestnn	needernnofinbestjjs	
+
+BE: wantVBPforINchildrenNNS
+EQ class: desirevbpforinfrynns	desirevbpforinshavernns	desirevbpforintiddlernns	wantvbpforintykenns	wantvbpforinsmall_frynns	desirevbpforintikenns	wantvbpforinshavernns	wantvbpforinnestlingnns	desirevbpforinchildrennns	wantvbpforinminornns	wantvbpforinchildnns	wantvbpforintiddlernns	desirevbpforinyoungsternns	wantvbpforinthemnns	desirevbpforinminornns	wantvbpforintikenns	wantvbpforinchildlyjj	wantvbpforinyoungsternns	desirevbpforinchildnns	wantvbpforintheynns	wantvbpforinkidnns	desirevbpforintykenns	desirevbpforinnippernns	desirevbpforinkidnns	desirevbpforintheynns	desirevbpforinnestlingnns	wantvbpforinfrynns	desirevbpforinthemnns	wantvbpforinnippernns	desirevbpforinsmall_frynns	desirevbpforinchildlyjj	
+
+BE: thinkVBPthatINwantVBP
+EQ class: believevbpthatindesirevbp	considervbpthatindesirevbp	considervbpthatinwantvbp	thinkvbpthatindesirevbp	conceivevbpthatinwantvbp	conceivevbpthatindesirevbp	believevbpthatinwantvbp	
+
+BE: wantVBPjustRB
+EQ class: needinessnnofinjustrb	needernnofinjustrb	wanternnofinjustrb	deprivationnnofinjustrb	wantnnofinjustrb	privationnnofinjustrb	desirevbpjustrb	
+

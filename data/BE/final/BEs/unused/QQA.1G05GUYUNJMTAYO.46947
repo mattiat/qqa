@@ -1,0 +1,16 @@
+#Unto yourself.  
+#(S1 (NP (NP (NNP Unto)) (NP (PRP yourself)) (. .)))
+#Rule:Nouns
+r1UntoNNP
+
+#And none other.
+#(S1 (S (CC And) (NP (NN none)) (VP (JJ other)) (. .)))
+#Rule:Nouns
+r1noneNN
+
+#Rule:Adjs
+r4otherJJ
+
+@lemmas-left	unto	other	none	Unto	
+@lemmas-right	
+@lemmas-center	

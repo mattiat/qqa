@@ -1,0 +1,42 @@
+#Their jaw is differentTheir teeth(they re adapted to a vegetarian way of living)
+#(S1 (S (NP (PRP$ Their) (NN jaw)) (VP (AUX is) (NP (NP (JJ differentTheir) (NNS teeth)) (PRN (-LRB- -LRB-) (S (NP (PRP they)) (ADVP (NNP re)) (VP (VBD adapted) (PP (TO to) (NP (NP (DT a) (JJ vegetarian) (NN way)) (PP (IN of) (NP (NN living))))))) (-RRB- -RRB-))))))
+#Rule:Nouns
+r1jawNN
+r1teethNNS
+r1reNNP
+r1wayNN
+r1livingNN
+
+#Rule:Verbs
+r2adaptedVBD
+
+#Rule:Adjs
+r4differentTheirJJ
+r4vegetarianJJ
+
+#Rule:Adj-Noun
+r5differentTheirJJteethNNS
+r5vegetarianJJwayNN
+
+#Rule:PRP-Noun
+r6theirPRP$jawNN
+
+#Rule:HeadNoun-V
+r11jawNNisAUX
+r11theyPRPadaptedVBD
+
+#Rule:V-HeadNoun
+r21isAUXteethNNS
+
+#Rule:PPinNP
+r26wayNNofINlivingNN
+
+#Rule:PPinVP
+r30adaptedVBDtoTOwayNN
+
+#Rule:IS-RULE
+r47teethNNSjawNN
+
+@lemmas-left	they	is	adapted	differenttheir	way	adapt	re	living	teeth	jaw	differentTheir	vegetarian	their	be	
+@lemmas-right	adapted	is	way	adapt	living	teeth	jaw	be	
+@lemmas-center	to	of	

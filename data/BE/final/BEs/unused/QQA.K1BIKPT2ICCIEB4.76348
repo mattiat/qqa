@@ -1,0 +1,239 @@
+#The exact origins of Uncle Sam as a symbol for the United States are unknown. 
+#(S1 (S (NP (NP (DT The) (JJ exact) (NNS origins)) (PP (IN of) (NP (NP (NNP Uncle) (NNP Sam)) (PP (IN as) (NP (NP (DT a) (NN symbol)) (PP (IN for) (NP (DT the) (NNP United) (NNPS States)))))))) (VP (AUX are) (ADJP (JJ unknown))) (. .)))
+#Rule:Nouns
+r1originsNNS
+r1UncleNNP
+r1SamPersonAnnotation
+r1symbolNN
+r1United StatesLocationAnnotation
+
+#Rule:Adjs
+r4exactJJ
+r4unknownJJ
+
+#Rule:Adj-Noun
+r5exactJJoriginsNNS
+
+#Rule:N-HeadNoun
+r8UncleNNPSamPersonAnnotation
+
+#Rule:HeadNoun-V
+r11originsNNSareAUX
+
+#Rule:V-ADJ
+r25areAUXunknownJJ
+
+#Rule:PPinNP
+r26originsNNSofINSamPersonAnnotation
+r26SamPersonAnnotationasINsymbolNN
+r26symbolNNforINUnited StatesLocationAnnotation
+
+#But the most widely accepted theory is that Uncle Sam was named after Samuel Wilson. 
+#(S1 (S (CC But) (NP (DT the) (ADJP (RBS most) (RB widely) (VBN accepted)) (NN theory)) (VP (AUX is) (SBAR (IN that) (S (NP (NNP Uncle) (NNP Sam)) (VP (AUX was) (VP (VBN named) (PP (IN after) (NP (NNP Samuel) (NNP Wilson)))))))) (. .)))
+#Rule:Nouns
+r1theoryNN
+r1Uncle SamPersonAnnotation
+r1Samuel WilsonPersonAnnotation
+
+#Rule:Verbs
+r2acceptedVBN
+r2namedVBN
+
+#Rule:Adj-Noun
+r5acceptedVBNtheoryNN
+
+#Rule:HeadNoun-V
+r11theoryNNisAUX
+
+#Rule:V-HeadNoun(passive)
+r23namedVBNUncle SamPersonAnnotation
+
+#Rule:PPinVP
+r32namedVBNafterINSamuel WilsonPersonAnnotation
+
+#Rule:V-IN-V
+r43isAUXthatINnamedVBN
+
+#During the War of 1812, Samuel Wilson was a businessman from Troy, NY that supplied the U.S. 
+#(S1 (S (PP (IN During) (NP (NP (DT the) (NNP War)) (PP (IN of) (NP (CD 1812))))) (, ,) (NP (NNP Samuel) (NNP Wilson)) (VP (AUX was) (NP (NP (DT a) (NN businessman)) (PP (IN from) (NP (NP (NNP Troy)) (, ,) (NP (NNP NY)))) (SBAR (WHNP (WDT that)) (S (VP (VBD supplied) (NP (DT the) (NNP U.S.))))))) (. .)))
+#Rule:Nouns
+r1WarOrganizationAnnotation
+r1Samuel WilsonPersonAnnotation
+r1businessmanNN
+r1TroyOrganizationAnnotation
+r1NYOrganizationAnnotation
+r1U.S.LocationAnnotation
+
+#Rule:Verbs
+r2suppliedVBD
+
+#Rule:N-ApposN
+r10TroyOrganizationAnnotationNYOrganizationAnnotation
+
+#Rule:HeadNoun-V
+r11Samuel WilsonPersonAnnotationwasAUX
+
+#Rule:HeadNoun-(who/that)-V
+r14businessmanNNsuppliedVBD
+
+#Rule:V-HeadNoun
+r21wasAUXbusinessmanNN
+r21suppliedVBDU.S.LocationAnnotation
+
+#Rule:PPinNP
+r26WarOrganizationAnnotationofIN1812CD
+r26businessmanNNfromINTroyOrganizationAnnotation
+r26businessmanNNfromINNYOrganizationAnnotation
+
+#Rule:PPinS
+r36wasAUXduringINWarOrganizationAnnotation
+
+#Rule:IS-RULE
+r47businessmanNNSamuel WilsonPersonAnnotation
+
+#Army with beef in barrels. 
+#(S1 (NP (NP (NNP Army)) (PP (IN with) (NP (NN beef))) (PP (IN in) (NP (NNS barrels))) (. .)))
+#Rule:Nouns
+r1ArmyOrganizationAnnotation
+r1beefNN
+r1barrelsNNS
+
+#Rule:PPinNP
+r26ArmyOrganizationAnnotationwithINbeefNN
+r26ArmyOrganizationAnnotationinINbarrelsNNS
+
+#The barrels were labeled U.S. 
+#(S1 (S (NP (DT The) (NNS barrels)) (VP (AUX were) (VP (VBN labeled) (S (NP (NNP U.S.))))) (. .)))
+#Rule:Nouns
+r1barrelsNNS
+r1U.S.LocationAnnotation
+
+#Rule:Verbs
+r2labeledVBN
+
+#Rule:V-HeadNoun
+r22labeledVBNU.S.LocationAnnotation
+
+#Rule:V-HeadNoun(passive)
+r23labeledVBNbarrelsNNS
+
+#When asked what the initials stood for, one of Wilson s workers said it stood for Uncle Sam Wilson. 
+#(S1 (S (SBAR (WHADVP (WRB When)) (S (VP (VBN asked) (SBAR (WHNP (WP what)) (S (NP (DT the) (NNS initials)) (VP (VBD stood) (PP (IN for)))))))) (, ,) (NP (NP (CD one)) (PP (IN of) (NP (NNP Wilson) (NNP s) (NNS workers)))) (VP (VBD said) (SBAR (S (NP (PRP it)) (VP (VBD stood) (PP (IN for) (NP (NNP Uncle) (NNP Sam))) (NP (NNP Wilson)))))) (. .)))
+#Rule:Nouns
+r1initialsNNS
+r1WilsonPersonAnnotation
+r1sNNP
+r1workersNNS
+r1Uncle Sam WilsonPersonAnnotation
+
+#Rule:Verbs
+r2askedVBN
+r2stoodVBD
+r2saidVBD
+r2stoodVBD
+
+#Rule:N-HeadNoun
+r8sNNPworkersNNS
+r8WilsonPersonAnnotationworkersNNS
+
+#Rule:HeadNoun-V
+r11oneCDsaidVBD
+r11initialsNNSstoodVBD
+r11itPRPstoodVBD
+
+#Rule:V-HeadNoun
+r21stoodVBDUncle Sam WilsonPersonAnnotation
+
+#Rule:PPinNP
+r26oneCDofINworkersNNS
+
+#Rule:PPinVP
+r30stoodVBDforINUncle Sam WilsonPersonAnnotation
+
+#Rule:(SBAR+WHADVP)inS
+r42saidVBDwhenWRBaskedVBN
+
+#The suggestion that the meat shipments came from Uncle Sam led to the idea that Uncle Sam symbolized the Federal Government and association stuck. 
+#(S1 (S (NP (DT The) (NN suggestion) (SBAR (WHNP (IN that)) (S (NP (DT the) (NN meat) (NNS shipments)) (VP (VBD came) (PP (IN from) (NP (NNP Uncle) (NNP Sam))))))) (VP (VBD led) (PP (TO to) (NP (DT the) (NN idea) (SBAR (IN that) (S (NP (NNP Uncle) (NNP Sam)) (VP (VBN symbolized) (S (NP (DT the) (JJ Federal) (NN Government) (CC and) (NN association)) (ADJP (JJ stuck))))))))) (. .)))
+#Rule:Nouns
+r1suggestionNN
+r1meatNN
+r1shipmentsNNS
+r1Uncle SamLocationAnnotation
+r1ideaNN
+r1UncleLocationAnnotation
+r1SamNNP
+r1GovernmentNN
+r1associationNN
+
+#Rule:Verbs
+r2cameVBD
+r2ledVBD
+r2symbolizedVBN
+
+#Rule:Adjs
+r4FederalJJ
+r4stuckJJ
+
+#Rule:Adj-Noun
+r5FederalJJGovernmentNN
+
+#Rule:N-HeadNoun
+r8meatNNshipmentsNNS
+r8UncleLocationAnnotationSamNNP
+
+#Rule:HeadNoun-V
+r11suggestionNNledVBD
+r11shipmentsNNScameVBD
+
+#Rule:V-HeadNoun
+r22symbolizedVBNGovernmentNN
+
+#Rule:V-HeadNoun(passive)
+r24symbolizedVBNSamNNP
+
+#Rule:PPinVP
+r30cameVBDfromINUncle SamLocationAnnotation
+r30ledVBDtoTOideaNN
+
+#In 1961, Congress passed a resolution that recognized Samuel Wilson as the inspiration for the symbol Uncle Sam.
+#(S1 (S (PP (IN In) (NP (CD 1961))) (, ,) (NP (NNP Congress)) (VP (VBD passed) (NP (NP (DT a) (NN resolution)) (SBAR (WHNP (WDT that)) (S (VP (VBD recognized) (NP (NNP Samuel) (NNP Wilson)) (PP (IN as) (NP (NP (DT the) (NN inspiration)) (PP (IN for) (NP (NP (DT the) (NN symbol)) (NP (NNP Uncle) (NNP Sam))))))))))) (. .)))
+#Rule:Nouns
+r1CongressOrganizationAnnotation
+r1resolutionNN
+r1Samuel WilsonPersonAnnotation
+r1inspirationNN
+r1symbolNN
+r1UncleNNP
+r1SamLocationAnnotation
+
+#Rule:Verbs
+r2passedVBD
+r2recognizedVBD
+
+#Rule:N-HeadNoun
+r8UncleNNPSamLocationAnnotation
+
+#Rule:HeadNoun-V
+r11CongressOrganizationAnnotationpassedVBD
+
+#Rule:HeadNoun-(who/that)-V
+r14resolutionNNrecognizedVBD
+
+#Rule:V-HeadNoun
+r21passedVBDresolutionNN
+r21recognizedVBDSamuel WilsonPersonAnnotation
+
+#Rule:PPinNP
+r26inspirationNNforINsymbolNN
+r26inspirationNNforINSamLocationAnnotation
+
+#Rule:PPinVP
+r30recognizedVBDasINinspirationNN
+
+#Rule:PPinS
+r36passedVBDinIN1961CD
+
+@lemmas-left	Uncle	said	passed	Army	accept	beef	shipment	lead	Federal	workers	sam	inspiration	are	accepted	Troy	initials	Sam	initial	exact	government	Uncle Sam	be	asked	symbol	barrels	association	shipments	label	U.S.	origins	say	suggestion	ask	uncle	named	Samuel Wilson	United States	idea	recognized	NY	one	theory	resolution	Uncle Sam Wilson	was	federal	businessman	symbolize	War	recognize	name	meat	supply	worker	stuck	Wilson	stood	symbolized	is	labeled	it	Congress	origin	come	came	unknown	supplied	pass	Government	led	s	stand	
+@lemmas-right	said	passed	beef	shipment	lead	workers	sam	inspiration	are	Troy	Sam	Uncle Sam	government	be	asked	barrels	symbol	shipments	U.S.	origins	1812	say	ask	named	United States	Samuel Wilson	idea	recognized	NY	theory	resolution	Uncle Sam Wilson	was	businessman	War	recognize	name	supply	worker	stood	is	origin	come	supplied	unknown	came	1961	pass	Government	led	stand	
+@lemmas-center	to	after	that	of	with	during	for	when	as	from	in	

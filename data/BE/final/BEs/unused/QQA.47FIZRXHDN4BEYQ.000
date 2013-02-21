@@ -1,0 +1,64 @@
+#I will be going to radiation treatment and i would like to know how do you feel after treatment??
+#(S1 (S (S (NP (PRP I)) (VP (MD will) (VP (AUX be) (VP (VBG going) (PP (TO to) (NP (NN radiation) (NN treatment))))))) (CC and) (S (NP (PRP i)) (VP (MD would) (VP (VB like) (S (VP (TO to) (VP (VB know) (SBARQ (WHADVP (WRB how)) (SQ (AUX do) (NP (PRP you)) (VP (VB feel) (PP (IN after) (NP (NN treatment))))) (. ?)))))))) (. ?)))
+#Rule:Nouns
+r1radiationNN
+r1treatmentNN
+r1treatmentNN
+
+#Rule:Verbs
+r2goingVBG
+r2likeVB
+r2knowVB
+r2feelVB
+
+#Rule:N-HeadNoun
+r8radiationNNtreatmentNN
+
+#Rule:HeadNoun-V
+r11iPRPgoingVBG
+r11iPersonAnnotationlikeVB
+
+#Rule:PPinVP
+r30goingVBGtoTOtreatmentNN
+r30feelVBafterINtreatmentNN
+
+#Rule:V-V
+r44likeVBknowVB
+
+#I just want some information just to get my sefl ready etc
+#(S1 (S (NP (PRP I)) (ADVP (RB just)) (VP (VBP want) (S (NP (DT some) (NN information)) (ADVP (RB just)) (VP (TO to) (VP (VB get) (NP (PRP$ my) (JJ sefl) (JJ ready) (NN etc))))))))
+#Rule:Nouns
+r1informationNN
+r1etcNN
+
+#Rule:Verbs
+r2wantVBP
+r2getVB
+
+#Rule:Adjs
+r4seflJJ
+r4readyJJ
+
+#Rule:Adj-Noun
+r5seflJJetcNN
+r5readyJJetcNN
+
+#Rule:PRP-Noun
+r6myPRP$etcNN
+
+#Rule:HeadNoun-V
+r11iPRPwantVBP
+r11informationNNgetVB
+
+#Rule:V-HeadNoun
+r21getVBetcNN
+
+#Rule:V-HeadNoun
+r22wantVBPinformationNN
+
+#Rule:V-ADV
+r46wantVBPjustRB
+
+@lemmas-left	sefl	feel	information	radiation	going	get	treatment	etc	like	my	ready	know	i	want	go	
+@lemmas-right	just	information	going	get	treatment	etc	like	know	want	go	
+@lemmas-center	after	to	

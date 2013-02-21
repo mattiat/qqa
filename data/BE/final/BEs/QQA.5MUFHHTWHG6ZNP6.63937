@@ -1,0 +1,96 @@
+#B-complex vitamins are really good to keep u calm&focussed.  
+#(S1 (S (NP (JJ B-complex) (NNS vitamins)) (VP (AUX are) (ADJP (RB really) (JJ good) (S (VP (TO to) (VP (VB keep) (S (NP (NNP u)) (ADJP (JJ calm&focussed)))))))) (. .)))
+#Rule:Nouns
+r1vitaminsNNS
+r1uNNP
+
+#Rule:Verbs
+r2keepVB
+
+#Rule:Adjs
+r4B-complexJJ
+r4goodJJ
+r4calm&focussedJJ
+
+#Rule:Adj-Noun
+r5B-complexJJvitaminsNNS
+
+#Rule:HeadNoun-V
+r11vitaminsNNSareAUX
+
+#Rule:V-HeadNoun
+r22keepVBuNNP
+
+#Rule:V-ADJ
+r25areAUXgoodJJ
+
+#They also give u an enegry boost.  
+#(S1 (S (NP (PRP They)) (ADVP (RB also)) (VP (VB give) (NP (NNP u)) (NP (DT an) (JJ enegry) (NN boost))) (. .)))
+#Rule:Nouns
+r1uNNP
+r1boostNN
+
+#Rule:Verbs
+r2giveVB
+
+#Rule:Adjs
+r4enegryJJ
+
+#Rule:Adj-Noun
+r5enegryJJboostNN
+
+#Rule:HeadNoun-V
+r11theyPRPgiveVB
+
+#Rule:V-HeadNoun
+r21giveVBuNNP
+r21giveVBboostNN
+
+#Rule:V-ADV
+r46giveVBalsoRB
+
+#Just make sure u take them with food so u don t get nauseated.
+#(S1 (S (ADVP (RB Just)) (VP (VB make) (ADJP (JJ sure) (SBAR (S (NP (NNP u)) (VP (VBP take) (NP (PRP them)) (PP (IN with) (NP (NN food))))))) (SBAR (IN so) (S (NP (NNP u) (NNP don) (NNS t)) (VP (VBP get) (VP (VBN nauseated)))))) (. .)))
+#Rule:Nouns
+r1uOrganizationAnnotation
+r1foodNN
+r1uNNP
+r1donNNP
+r1tLocationAnnotation
+
+#Rule:Verbs
+r2makeVB
+r2takeVBP
+r2getVBP
+r2nauseatedVBN
+
+#Rule:Adjs
+r4sureJJ
+
+#Rule:N-HeadNoun
+r8donNNPtLocationAnnotation
+r8uNNPtLocationAnnotation
+
+#Rule:HeadNoun-V
+r11uOrganizationAnnotationtakeVBP
+r11tLocationAnnotationgetVBP
+
+#Rule:V-HeadNoun
+r21takeVBPthemPRP
+
+#Rule:V-HeadNoun(passive)
+r24nauseatedVBNtLocationAnnotation
+
+#Rule:PPinVP
+r30takeVBPwithINfoodNN
+
+#Rule:V-IN-V
+r43makeVBsoINgetVBP
+r43makeVBsoINnauseatedVBN
+
+#Rule:V-ADV
+r46makeVBJustRB
+
+@lemmas-left	they	complex	get	don	give	nauseate	good	u	t	vitamins	are	B-complex	take	food	enegry	calm&focussed	nauseated	boost	focussed	vitamin	make	sure	keep	be	
+@lemmas-right	just	get	give	nauseate	good	u	vitamins	are	t	food	take	them	nauseated	boost	vitamin	Just	also	be	
+@lemmas-center	with	so	

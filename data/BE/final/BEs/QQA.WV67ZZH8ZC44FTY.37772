@@ -1,0 +1,17 @@
+#Taking a shower and wearing deodorant.
+#(S1 (S (VP (VP (VBG Taking) (NP (DT a) (VB shower))) (CC and) (VP (VBG wearing) (NP (NN deodorant)))) (. .)))
+#Rule:Nouns
+r1deodorantPersonAnnotation
+
+#Rule:Verbs
+r2takingVBG
+r2showerVB
+r2wearingVBG
+
+#Rule:V-HeadNoun
+r21takingVBGshowerVB
+r21wearingVBGdeodorantPersonAnnotation
+
+@lemmas-left	deodorant	take	wearing	shower	wear	taking	
+@lemmas-right	deodorant	shower	
+@lemmas-center	

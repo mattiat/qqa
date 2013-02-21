@@ -1,0 +1,35 @@
+#how accurate is dna testing? 
+#(S1 (SBARQ (WHNP (WRB how) (JJ accurate)) (SQ (AUX is) (NP (NN dna)) (VP (VBG testing))) (. ?)))
+#Rule:Nouns
+r1dnaLocationAnnotation
+
+#Rule:Verbs
+r2testingVBG
+
+#Rule:Adjs
+r4accurateJJ
+
+#Why more accurate then carbs, lipids proteins?
+#(S1 (FRAG (WHADVP (WRB Why)) (NP (NP (ADJP (RBR more) (JJ accurate)) (JJ then) (NNS carbs)) (, ,) (NP (NNS lipids) (NNS proteins))) (. ?)))
+#Rule:Nouns
+r1carbsNNS
+r1lipidsNNS
+r1proteinsNNS
+
+#Rule:Adjs
+r4accurateJJ
+r4thenJJ
+
+#Rule:Adj-Noun
+r5accurateJJcarbsNNS
+r5thenJJcarbsNNS
+
+#Rule:N-HeadNoun
+r8lipidsNNSproteinsNNS
+
+#Rule:N-ApposN
+r10carbsNNSproteinsNNS
+
+@lemmas-left	accurate	lipids	test	dna	protein	then	testing	lipid	carbs	proteins	
+@lemmas-right	protein	carbs	proteins	
+@lemmas-center	

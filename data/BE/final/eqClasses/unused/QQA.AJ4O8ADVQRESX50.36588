@@ -1,0 +1,123 @@
+BE: doctorNN
+EQ class: physiciannn	dr.nn	doctorialjj	docnn	mediconn	mdnn	
+
+BE: carerNN
+EQ class: 
+
+BE: homeNN
+EQ class: homelyjj	placenn	
+
+BE: clientsNNS
+EQ class: theynns	clientnns	themnns	
+
+BE: corridorsNNS
+EQ class: theynns	corridornns	themnns	
+
+BE: daysNNS
+EQ class: yearsnns	theynns	themnns	
+
+BE: luckNN
+EQ class: lotnn	fortunenn	portionnn	fatenn	destinynn	circumstancesnn	
+
+BE: partnerNN
+EQ class: married_personnn	spousenn	matenn	better_halfnn	
+
+BE: tellVB
+EQ class: sayvb	statevb	
+
+BE: worksVBZ
+EQ class: workvbz	
+
+BE: workedVBD
+EQ class: workvbd	
+
+BE: chasedVBD
+EQ class: chasevbd	tailvbd	trailvbd	chase_aftervbd	trackvbd	tagvbd	go_aftervbd	give_chasevbd	dogvbd	
+
+BE: seemedVBD
+EQ class: appearvbd	seemvbd	lookvbd	
+
+BE: docileJJ
+EQ class: docilitynn	
+
+BE: goodJJ
+EQ class: goodnessnn	
+
+BE: goodJJluckNN
+EQ class: goodjjfatenn	goodnessnnfatenn	goodnessnnlotnn	goodnessnnfortunenn	goodjjportionnn	goodjjcircumstancesnn	goodnessnnlucknn	goodjjdestinynn	goodjjfortunenn	goodjjlotnn	goodnessnncircumstancesnn	goodnessnndestinynn	goodnessnnportionnn	
+
+BE: ourPRP$clientsNNS
+EQ class: ourprp$themnns	theynnsofinourprp$	clientnnsofinourprp$	themnnsofinourprp$	ourprp$theynns	ourprp$clientnns	clientsnnsofinourprp$	
+
+BE: yourPRP$partnerNN
+EQ class: spousennofinyourprp$	yourprp$spousenn	yourprp$better_halfnn	partnernnofinyourprp$	matennofinyourprp$	yourprp$married_personnn	better_halfnnofinyourprp$	yourprp$matenn	married_personnnofinyourprp$	
+
+BE: iPRPtellVB
+EQ class: tellernnofiniprp	tellingnniprp	iprpsayvb	edward_tellernniprp	tellingnnofiniprp	relationnniprp	iprpstatevb	recountingnniprp	relationnnofiniprp	recountingnnofiniprp	edward_tellernnofiniprp	tellernniprp	
+
+BE: itPRPworksVBZ
+EQ class: workernnofinitprp	worknnofinitprp	itprpworkvbz	workernnitprp	
+
+BE: iPRPamAUX
+EQ class: iprpbeaux	
+
+BE: iPRPworkedVBD
+EQ class: worknnofiniprp	workernniprp	workernnofiniprp	iprpworkvbd	
+
+BE: oneCDhadAUX
+EQ class: 1cdhaveaux	acecdhadaux	rich_personnnofinacecd	acecdhaveaux	rich_personnnofinsinglecd	wealthy_personnnofinsinglecd	wealthy_personnnofinicd	1cdholdaux	singlecdholdaux	wealthy_personnnofin1cd	singlecdhave_gotaux	rich_personnnofin1cd	rich_personnnofinunitycd	rich_personnnofinicd	rich_personnnofinonecd	unitycdholdaux	havennofinacecd	onecdhaveaux	havennofin1cd	wealthy_personnnofinacecd	wealthy_personnnofinonecd	havennofinicd	singlecdhadaux	icdhadaux	1cdhadaux	havennofinsinglecd	unitycdhadaux	onecdholdaux	wealthy_personnnofinunitycd	havennofinunitycd	singlecdhaveaux	icdhaveaux	1cdhave_gotaux	unitycdhave_gotaux	havennofinonecd	onecdhave_gotaux	acecdhave_gotaux	icdholdaux	acecdholdaux	unitycdhaveaux	icdhave_gotaux	
+
+BE: hePRPchasedVBD
+EQ class: pursuernnheprp	heprptailvbd	heprpdogvbd	heprptrackvbd	followingnnofinheprp	chasennofinheprp	pursualnnofinheprp	heprpgive_chasevbd	heprptagvbd	heprptrailvbd	pursuitnnofinheprp	pursuernnofinheprp	heprpchase_aftervbd	chasernnofinheprp	chasernnheprp	heprpgo_aftervbd	heprpchasevbd	
+
+BE: hePRPseemedVBD
+EQ class: heprpseemvbd	heprpappearvbd	heprplookvbd	
+
+BE: itPRP'sAUX
+EQ class: 
+
+BE: tellVByouPRP
+EQ class: relationnnofinyouprp	tellingnnofinyouprp	sayvbyouprp	recountingnnofinyouprp	edward_tellernnofinyouprp	tellernnofinyouprp	statevbyouprp	
+
+BE: amAUXdoctorNN
+EQ class: amauxdoctorialjj	beauxdoctornn	beauxdocnn	beauxdoctorialjj	amauxphysiciannn	beauxmdnn	amauxmediconn	beauxmediconn	beauxphysiciannn	beauxdr.nn	amauxdr.nn	amauxdocnn	amauxmdnn	
+
+BE: hadAUXoneCD
+EQ class: haveaux1cd	rich_personnnofinacecd	rich_personnnofinsinglecd	holdaux1cd	holdauxunitycd	wealthy_personnnofinsinglecd	wealthy_personnnofinicd	hadauxunitycd	holdauxsinglecd	have_gotauxsinglecd	hadauxsinglecd	have_gotauxunitycd	have_gotaux1cd	haveauxsinglecd	wealthy_personnnofin1cd	rich_personnnofin1cd	rich_personnnofinunitycd	haveauxunitycd	haveauxicd	rich_personnnofinicd	rich_personnnofinonecd	havennofinacecd	havennofin1cd	wealthy_personnnofinacecd	wealthy_personnnofinonecd	holdauxonecd	haveauxacecd	have_gotauxicd	havennofinicd	have_gotauxacecd	havennofinsinglecd	hadauxacecd	wealthy_personnnofinunitycd	havennofinunitycd	havennofinonecd	haveauxonecd	holdauxicd	have_gotauxonecd	hadauxicd	hadaux1cd	holdauxacecd	
+
+BE: chasedVBDusPRP
+EQ class: chasernnofinusprp	chase_aftervbdusprp	pursualnnofinusprp	tagvbdusprp	go_aftervbdusprp	dogvbdusprp	trailvbdusprp	chasevbdusprp	pursuernnofinusprp	pursuitnnofinusprp	tailvbdusprp	chasennofinusprp	give_chasevbdusprp	trackvbdusprp	followingnnofinusprp	
+
+BE: chasedVBDcorridorsNNS
+EQ class: chasernnofinthemnns	followingnnofinthemnns	pursuitnnofincorridornns	tailvbdcorridornns	chasevbdthemnns	trailvbdcorridorsnns	chasevbdcorridornns	followingnnofincorridornns	followingnnofincorridorsnns	chasernnofintheynns	pursualnnofinthemnns	chasedvbdthemnns	pursuernnofincorridornns	trackvbdthemnns	give_chasevbdthemnns	chasernnofincorridornns	go_aftervbdcorridornns	pursuitnnofintheynns	trailvbdtheynns	tagvbdthemnns	chasennofinthemnns	chasennofincorridorsnns	pursuernnofintheynns	chasernnofincorridorsnns	go_aftervbdcorridorsnns	chasennofincorridornns	pursuernnofincorridorsnns	chasennofintheynns	tagvbdtheynns	tagvbdcorridornns	go_aftervbdtheynns	trackvbdcorridorsnns	pursuernnofinthemnns	tailvbdtheynns	followingnnofintheynns	go_aftervbdthemnns	give_chasevbdcorridornns	pursuitnnofinthemnns	chase_aftervbdcorridornns	dogvbdthemnns	trackvbdcorridornns	dogvbdcorridorsnns	chasevbdcorridorsnns	chasedvbdcorridornns	chase_aftervbdtheynns	trailvbdcorridornns	give_chasevbdcorridorsnns	tailvbdcorridorsnns	chase_aftervbdcorridorsnns	chasedvbdtheynns	pursualnnofintheynns	pursuitnnofincorridorsnns	tagvbdcorridorsnns	chase_aftervbdthemnns	trailvbdthemnns	chasevbdtheynns	give_chasevbdtheynns	dogvbdtheynns	tailvbdthemnns	dogvbdcorridornns	pursualnnofincorridorsnns	pursualnnofincorridornns	trackvbdtheynns	
+
+BE: seemedVBDluckNN
+EQ class: seemvbdfatenn	appearvbdlucknn	seemedvbdportionnn	lookvbdcircumstancesnn	appearvbddestinynn	seemedvbddestinynn	lookvbdfatenn	lookvbdportionnn	seemedvbdlotnn	lookvbdfortunenn	seemvbdfortunenn	seemvbdportionnn	lookvbddestinynn	seemvbdlucknn	seemedvbdcircumstancesnn	seemedvbdfortunenn	appearvbdcircumstancesnn	seemvbdlotnn	seemvbdcircumstancesnn	appearvbdlotnn	appearvbdfatenn	seemedvbdfatenn	seemvbddestinynn	lookvbdlotnn	appearvbdfortunenn	appearvbdportionnn	lookvbdlucknn	
+
+BE: 'sAUXpartnerNN
+EQ class: 'sauxmatenn	'sauxspousenn	'sauxbetter_halfnn	'sauxmarried_personnn	
+
+BE: carerNNinINhomeNN
+EQ class: carernnininhomelyjj	carernnininplacenn	
+
+BE: oneCDofINclientsNNS
+EQ class: clientnnsacecd	clientnnsonecd	clientsnnsonecd	acecdofinclientnns	theynnsacecd	clientsnnssinglecd	clientsnnsunitycd	icdofinthemnns	theynnsicd	themnnsunitycd	themnns1cd	theynnsunitycd	theynns1cd	acecdofintheynns	1cdofintheynns	clientnnsunitycd	1cdofinclientsnns	onecdofinclientnns	1cdofinclientnns	unitycdofinclientnns	singlecdofintheynns	singlecdofinthemnns	themnnsacecd	clientnnssinglecd	themnnssinglecd	unitycdofinthemnns	icdofinclientnns	acecdofinclientsnns	singlecdofinclientsnns	clientnns1cd	unitycdofinclientsnns	theynnsonecd	singlecdofinclientnns	clientnnsicd	themnnsicd	icdofinclientsnns	clientsnnsicd	acecdofinthemnns	1cdofinthemnns	onecdofinthemnns	onecdofintheynns	theynnssinglecd	icdofintheynns	unitycdofintheynns	clientsnns1cd	themnnsonecd	clientsnnsacecd	
+
+BE: workedVBDasINcarerNN
+EQ class: workvbdasincarernn	
+
+BE: amAUXnotRB
+EQ class: beauxnotrb	
+
+BE: chasedVBDupRB
+EQ class: pursualnnofinuprb	pursuernnofinuprb	chasevbduprb	give_chasevbduprb	tailvbduprb	trackvbduprb	dogvbduprb	chasernnofinuprb	chase_aftervbduprb	chasennofinuprb	pursuitnnofinuprb	trailvbduprb	go_aftervbduprb	followingnnofinuprb	tagvbduprb	
+
+BE: chasedVBDdownRB
+EQ class: chase_aftervbddownrb	chasennofindownrb	trailvbddownrb	go_aftervbddownrb	followingnnofindownrb	chasernnofindownrb	chasevbddownrb	tailvbddownrb	pursuernnofindownrb	tagvbddownrb	give_chasevbddownrb	pursuitnnofindownrb	trackvbddownrb	dogvbddownrb	pursualnnofindownrb	
+
+BE: chasedVBDafterwardsRB
+EQ class: tailvbdafterwardsrb	pursualnnofinafterwardsrb	chasevbdafterwardsrb	chasernnofinafterwardsrb	pursuernnofinafterwardsrb	tagvbdafterwardsrb	chase_aftervbdafterwardsrb	go_aftervbdafterwardsrb	trailvbdafterwardsrb	chasennofinafterwardsrb	followingnnofinafterwardsrb	pursuitnnofinafterwardsrb	dogvbdafterwardsrb	give_chasevbdafterwardsrb	trackvbdafterwardsrb	
+
+BE: seemedVBDbeforeRB
+EQ class: appearvbdbeforerb	seemvbdbeforerb	lookvbdbeforerb	
+

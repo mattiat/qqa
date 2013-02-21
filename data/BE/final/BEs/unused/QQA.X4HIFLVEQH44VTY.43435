@@ -1,0 +1,50 @@
+#Sorry, no can do,not here, or Society and Culture..
+#(S1 (S (ADVP (RB Sorry)) (, ,) (S (ADVP (RB no)) (VP (MD can) (VP (AUX do)))) (, ,) (FRAG (RB not) (NP (NP (RB here)) (, ,) (CC or) (NP (NNP Society) (CC and) (NNP Culture))) (. .)) (. .)))
+#Rule:Nouns
+r1SocietyNNP
+r1CultureNNP
+
+#Crazy claims will be questioned..
+#(S1 (FRAG (ADJP (JJ Crazy)) (S (NP (NNS claims)) (VP (MD will) (VP (AUX be) (VP (VBN questioned)))) (. .)) (. .)))
+#Rule:Nouns
+r1claimsNNS
+
+#Rule:Verbs
+r2questionedVBN
+
+#Rule:Adjs
+r4CrazyJJ
+
+#Rule:V-HeadNoun(passive)
+r23questionedVBNclaimsNNS
+
+#Make an argument,there s a lot of us who will  listen.
+#(S1 (S (S (VP (VBP Make) (NP (DT an) (NN argument)))) (, ,) (NP (EX there)) (VP (VBZ s) (NP (NP (DT a) (NN lot)) (PP (IN of) (NP (NP (PRP us)) (SBAR (WHNP (WP who)) (S (VP (MD will) (VP (VB listen))))))))) (. .)))
+#Rule:Nouns
+r1argumentNN
+r1lotNN
+
+#Rule:Verbs
+r2makeVBP
+r2sVBZ
+r2listenVB
+
+#Rule:HeadNoun-V
+r11thereEXsVBZ
+
+#Rule:HeadNoun-(who/that)-V
+r14usPRPlistenVB
+
+#Rule:V-HeadNoun
+r21makeVBPargumentNN
+r21sVBZlotNN
+
+#Rule:PPinNP
+r26lotNNofINusPRP
+
+#Rule:SubVerbClause
+r50thereEXmakeVBP
+
+@lemmas-left	Society	argument	Culture	claims	questioned	society	us	Crazy	s	crazy	there	lot	claim	question	listen	make	culture	
+@lemmas-right	argument	claims	s	lot	us	claim	make	listen	
+@lemmas-center	of	

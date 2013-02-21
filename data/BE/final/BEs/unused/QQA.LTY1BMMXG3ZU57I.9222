@@ -1,0 +1,42 @@
+#because theres a bunch of that shhit out there that they never saw before,and they didnt wanna have 200 planets and evathang
+#(S1 (FRAG (SBAR (IN because) (S (VP (VBZ theres) (NP (NP (DT a) (NN bunch)) (PP (IN of) (NP (DT that) (NN shhit)))) (PP (IN out) (NP (EX there))) (SBAR (IN that) (S (NP (PRP they)) (ADVP (RB never)) (VP (VBD saw) (SBAR (IN before) (, ,) (CC and) (S (NP (PRP they)) (VP (VBP didnt) (SBAR (S (NP (NNP wanna)) (VP (AUX have) (NP (NP (CD 200) (NNS planets)) (CC and) (NP (NN evathang)))))))))))))))))
+#Rule:Nouns
+r1bunchNN
+r1shhitLocationAnnotation
+r1wannaLocationAnnotation
+r1planetsNNS
+r1evathangLocationAnnotation
+
+#Rule:Verbs
+r2theresVBZ
+r2sawVBD
+r2didntVBP
+
+#Rule:Adj-Noun
+r5200CDplanetsNNS
+
+#Rule:HeadNoun-V
+r11theyPRPsawVBD
+r11theyPRPdidntVBP
+r11wannaLocationAnnotationhaveAUX
+
+#Rule:V-HeadNoun
+r21theresVBZbunchNN
+r21haveAUXplanetsNNS
+
+#Rule:PPinNP
+r26bunchNNofINshhitLocationAnnotation
+
+#Rule:PPinVP
+r30theresVBZoutINthereEX
+
+#Rule:V-IN-V
+r43theresVBZthatINsawVBD
+r43sawVBDbeforeINdidntVBP
+
+#Rule:V-ADV
+r46sawVBDneverRB
+
+@lemmas-left	they	have	200	evathang	didnt	shhit	theres	planets	planet	there	saw	bunch	wanna	
+@lemmas-right	shhit	planets	never	planet	have	there	saw	bunch	didnt	
+@lemmas-center	that	of	before	out	

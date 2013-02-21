@@ -1,0 +1,861 @@
+BE: painterNN
+EQ class: painterlyjj	
+
+BE: partNN
+EQ class: constituentnn	componentnn	component_partnn	partialjj	portionnn	
+
+BE: timeNN
+EQ class: clipnn	
+
+BE: studioNN
+EQ class: 
+
+BE: artNN
+EQ class: artyjj	artisticjj	fine_artnn	
+
+BE: collegeNN
+EQ class: collegialjj	
+
+BE: instructorNN
+EQ class: teachernn	
+
+BE: artsNNS
+EQ class: humanitiesnns	liberal_artsnns	humanistic_disciplinenns	theynns	themnns	
+
+BE: mindNN
+EQ class: headnn	brainnn	psychenn	nousnn	
+
+BE: kindsNNS
+EQ class: formnns	kindnns	sortnns	varietynns	theynns	themnns	
+
+BE: subjectsNNS
+EQ class: themenns	topicnns	theynns	subjectnns	themnns	
+
+BE: artNN
+EQ class: artyjj	artisticjj	fine_artnn	
+
+BE: findVBP
+EQ class: happenvbp	encountervbp	chancevbp	bumpvbp	
+
+BE: openingVBG
+EQ class: open_upvbg	openvbg	
+
+BE: professionalJJ
+EQ class: 
+
+BE: importantJJ
+EQ class: of_importjj	importancenn	
+
+BE: professionalJJtimeNN
+EQ class: professionaljjclipnn	
+
+BE: partNNtimeNN
+EQ class: componentnnclipnn	timennofinpartnn	component_partnnclipnn	timennofinpartialjj	componentnntimenn	clipnnofinconstituentnn	constituentnnclipnn	clipnnofinportionnn	partialjjclipnn	partnnclipnn	component_partnntimenn	clipnnofinpartialjj	timennofincomponent_partnn	constituentnntimenn	clipnnofincomponentnn	partialjjtimenn	clipnnofinpartnn	clipnnofincomponent_partnn	portionnnclipnn	timennofinconstituentnn	timennofinportionnn	portionnntimenn	timennofincomponentnn	
+
+BE: collegeNNinstructorNN
+EQ class: collegialjjlearnvb	learnvbcollegialjj	collegenninstructvb	teachernnofincollegialjj	instructorshipvbcollegenn	collegialjjinstructornn	instructvbcollegenn	collegennteachernn	collegenninstructorshipvb	collegialjjinstructorshipvb	learnvbcollegenn	collegialjjteachvb	instructornnofincollegenn	collegialjjteachernn	teachvbcollegialjj	collegialjjinstructvb	teachernnofincollegenn	instructvbcollegialjj	instructorshipvbcollegialjj	teachvbcollegenn	collegennlearnvb	instructornnofincollegialjj	collegennteachvb	
+
+BE: artNNinstructorNN
+EQ class: instructornnofinartyjj	teachvbfine_artnn	teachernnofinartyjj	artnninstructvb	instructvbartnn	teachvbartisticjj	artyjjteachernn	instructorshipvbartnn	teachernnofinartisticjj	fine_artnnlearnvb	artisticjjinstructvb	instructvbartyjj	instructvbfine_artnn	teachernnofinfine_artnn	instructornnofinartnn	artyjjinstructorshipvb	teachernnofinartnn	fine_artnnteachvb	artyjjinstructornn	fine_artnninstructvb	instructorshipvbartisticjj	instructorshipvbfine_artnn	artyjjlearnvb	instructornnofinartisticjj	artisticjjteachvb	artyjjinstructvb	fine_artnninstructorshipvb	artnnlearnvb	artnnteachvb	artisticjjinstructornn	fine_artnnteachernn	instructvbartisticjj	artnninstructorshipvb	learnvbartyjj	artisticjjlearnvb	instructorshipvbartyjj	artisticjjteachernn	fine_artnninstructornn	instructornnofinfine_artnn	learnvbartnn	teachvbartyjj	teachvbartnn	learnvbartisticjj	artisticjjinstructorshipvb	artnnteachernn	artyjjteachvb	learnvbfine_artnn	
+
+BE: studioNNinstructorNN
+EQ class: studionnteachernn	instructvbstudionn	studionnlearnvb	instructorshipvbstudionn	studionnteachvb	instructornnofinstudionn	teachvbstudionn	studionninstructorshipvb	teachernnofinstudionn	learnvbstudionn	studionninstructvb	
+
+BE: iPRPfindVBP
+EQ class: findernnofiniprp	iprphappenvbp	breakthroughnnofiniprp	findnnofiniprp	findernniprp	iprpchancevbp	iprpbumpvbp	discoverynnofiniprp	iprpencountervbp	
+
+BE: artsNNSareAUX
+EQ class: themnnsbeaux	liberal_artsnnsareaux	humanistic_disciplinennsareaux	theynnsareaux	artsnnsbeaux	humanistic_disciplinennsbeaux	themnnsareaux	humanitiesnnsareaux	theynnsbeaux	humanitiesnnsbeaux	liberal_artsnnsbeaux	
+
+BE: openingVBGmindNN
+EQ class: openingnnofinbrainnn	openingnnofinpsychenn	openingnnofinheadnn	openernnofinpsychenn	openvbgmindnn	open_upvbgpsychenn	gapnnofinmindnn	open_upvbgheadnn	openernnofinmindnn	gapnnofinpsychenn	open_upvbgnousnn	openingvbgnousnn	openingnnofinmindnn	openingvbgpsychenn	openernnofinheadnn	openvbgnousnn	openingvbgbrainnn	openingvbgheadnn	openingnnofinnousnn	openvbgheadnn	openernnofinbrainnn	open_upvbgmindnn	open_upvbgbrainnn	openernnofinnousnn	openvbgpsychenn	openvbgbrainnn	gapnnofinheadnn	gapnnofinbrainnn	gapnnofinnousnn	
+
+BE: areAUXimportantJJ
+EQ class: beauximportancenn	beauximportantjj	beauxof_importjj	areauxof_importjj	areauximportancenn	
+
+BE: mindNNtoTOkindsNNS
+EQ class: psychenntotosortnns	theynnsheadnn	sortnnspsychenn	themnnsbrainnn	psychenntototheynns	nousnntotoformnns	nousnntotosortnns	sortnnsmindnn	kindsnnsnousnn	brainnntotovarietynns	headnntotokindsnns	headnntotothemnns	kindnnsbrainnn	theynnsmindnn	kindsnnsheadnn	psychenntotothemnns	mindvbthemnns	brainnntotokindnns	sortnnsnousnn	themnnspsychenn	nousnntotokindnns	psychenntotovarietynns	mindnntotosortnns	headnntotoformnns	nousnntotothemnns	nousnntototheynns	headnntotokindnns	themnnsmindvb	themnnsnousnn	varietynnsheadnn	formnnsnousnn	theynnsbrainnn	sortnnsmindvb	varietynnsmindvb	kindnnspsychenn	theynnspsychenn	kindnnsnousnn	themnnsmindnn	varietynnsmindnn	sortnnsbrainnn	formnnsmindnn	mindvbsortnns	kindsnnsmindvb	brainnntotokindsnns	theynnsnousnn	psychenntotokindnns	sortnnsheadnn	mindnntotoformnns	brainnntotosortnns	varietynnsnousnn	formnnspsychenn	mindnntototheynns	varietynnsbrainnn	kindsnnsbrainnn	psychenntotokindsnns	formnnsbrainnn	psychenntotoformnns	mindvbvarietynns	nousnntotokindsnns	formnnsheadnn	mindnntotokindnns	kindnnsmindvb	brainnntotoformnns	formnnsmindvb	mindnntotovarietynns	headnntotosortnns	headnntotovarietynns	headnntototheynns	mindvbformnns	kindsnnsmindnn	kindnnsmindnn	varietynnspsychenn	nousnntotovarietynns	themnnsheadnn	kindnnsheadnn	theynnsmindvb	mindvbkindsnns	kindsnnspsychenn	brainnntototheynns	brainnntotothemnns	mindvbkindnns	mindnntotothemnns	mindvbtheynns	
+
+BE: kindsNNSofINsubjectsNNS
+EQ class: sortnnsofinsubjectsnns	formnnsofintheynns	formnnsofinsubjectnns	subjectsnnsvarietynns	topicnnssortnns	kindsnnsofinsubjectnns	kindnnsofintopicnns	themnnsvarietynns	themnnskindsnns	topicnnskindsnns	sortnnsofintopicnns	theynnssortnns	varietynnsofinsubjectsnns	kindsnnsofinthemenns	subjectnnskindsnns	topicnnsvarietynns	theynnsofinsubjectsnns	subjectsnnsformnns	themennskindnns	themnnskindnns	sortnnsofintheynns	kindsnnsofintopicnns	theynnstheynns	kindnnsofinthemenns	sortnnsofinthemenns	formnnsofintopicnns	kindnnsofinsubjectsnns	subjectnnsformnns	themennsvarietynns	kindnnsofinsubjectnns	theynnsofinthemenns	theynnsofintopicnns	subjectsnnsthemnns	theynnsvarietynns	formnnsofinsubjectsnns	topicnnstheynns	theynnsofinsubjectnns	subjectnnstheynns	themnnstheynns	varietynnsofinsubjectnns	themnnsthemnns	varietynnsofinthemnns	varietynnsofintheynns	themnnsofinsubjectsnns	subjectnnskindnns	themennsformnns	themnnsofinthemenns	theynnskindsnns	subjectsnnssortnns	themnnssortnns	subjectnnssortnns	themnnsofinthemnns	subjectnnsthemnns	kindnnsofinthemnns	themnnsofinsubjectnns	kindnnsofintheynns	topicnnsthemnns	themnnsofintheynns	themnnsformnns	sortnnsofinthemnns	subjectsnnskindsnns	theynnsthemnns	theynnskindnns	subjectsnnstheynns	varietynnsofinthemenns	kindsnnsofinthemnns	varietynnsofintopicnns	kindsnnsofintheynns	themennskindsnns	themennsthemnns	themennssortnns	sortnnsofinsubjectnns	themennstheynns	theynnsofinthemnns	topicnnskindnns	subjectsnnskindnns	theynnsformnns	theynnsofintheynns	topicnnsformnns	subjectnnsvarietynns	themnnsofintopicnns	formnnsofinthemenns	formnnsofinthemnns	
+
+BE: findVBPasINtimeNN
+EQ class: chancevbpasintimenn	findvbpasinclipnn	happenvbpasinclipnn	encountervbpasintimenn	encountervbpasinclipnn	happenvbpasintimenn	bumpvbpasinclipnn	bumpvbpasintimenn	chancevbpasinclipnn	
+
+BE: findVBPasINinstructorNN
+EQ class: findvbpasinteachernn	encountervbpasinteachernn	bumpvbpasininstructornn	encountervbpasininstructornn	happenvbpasininstructornn	happenvbpasinteachernn	bumpvbpasinteachernn	chancevbpasininstructornn	chancevbpasinteachernn	
+
+BE: importantJJtoTOopeningVBG
+EQ class: openvbgimportantlyrb	importancenntotoopen_upvbg	of_importjjtotoopen_upvbg	of_importjjtotoopenvbg	open_upvbgimportantlyrb	importancenntotoopenvbg	importancenntotoopeningvbg	importantjjtotoopenvbg	importantjjtotoopen_upvbg	of_importjjtotoopeningvbg	openingvbgimportantlyrb	
+
+BE: findVBPthatINareAUX
+EQ class: chancevbpthatinareaux	happenvbpthatinareaux	chancevbpthatinbeaux	bumpvbpthatinbeaux	encountervbpthatinareaux	findvbpthatinbeaux	happenvbpthatinbeaux	encountervbpthatinbeaux	bumpvbpthatinareaux	
+
+BE: artsNNSopeningVBG
+EQ class: openvbghumanistic_disciplinenns	openingnnofinhumanistic_disciplinenns	gapnnartsnns	themnnsopen_upvbg	humanistic_disciplinennsopeningvbg	openernnhumanitiesnns	open_upvbgartsnns	artsnnsopen_upvbg	openingnntheynns	gapnnliberal_artsnns	liberal_artsnnsopeningvbg	themnnsopeningvbg	gapnnofinhumanistic_disciplinenns	open_upvbgtheynns	gapnnhumanistic_disciplinenns	openernnliberal_artsnns	openernnofinartsnns	openernnofinthemnns	gapnnofinartsnns	openingnnliberal_artsnns	humanitiesnnsopeningvbg	gapnnofinliberal_artsnns	openernnofinhumanitiesnns	theynnsopen_upvbg	artsnnsopenvbg	openingnnofintheynns	openvbgtheynns	openvbgliberal_artsnns	openingnnhumanitiesnns	gapnntheynns	gapnnthemnns	openernnhumanistic_disciplinenns	liberal_artsnnsopen_upvbg	gapnnofinthemnns	open_upvbgliberal_artsnns	open_upvbghumanistic_disciplinenns	openingvbgliberal_artsnns	theynnsopeningvbg	openingvbgtheynns	openernnofintheynns	theynnsopenvbg	openernnofinhumanistic_disciplinenns	openvbghumanitiesnns	openingnnofinthemnns	gapnnhumanitiesnns	humanistic_disciplinennsopenvbg	openingnnofinliberal_artsnns	gapnnofinhumanitiesnns	humanitiesnnsopenvbg	openvbgthemnns	openvbgartsnns	openernntheynns	openingnnthemnns	openernnthemnns	liberal_artsnnsopenvbg	openingnnhumanistic_disciplinenns	openernnartsnns	humanistic_disciplinennsopen_upvbg	openingvbghumanitiesnns	openingvbgthemnns	openingvbghumanistic_disciplinenns	openingnnartsnns	open_upvbgthemnns	openingvbgartsnns	themnnsopenvbg	openingnnofinartsnns	openernnofinliberal_artsnns	gapnnofintheynns	openingnnofinhumanitiesnns	open_upvbghumanitiesnns	humanitiesnnsopen_upvbg	
+
+BE: tNN
+EQ class: thyminenn	
+
+BE: valueNN
+EQ class: 
+
+BE: knowledgeNN
+EQ class: cognitionnn	noesisnn	
+
+BE: cultureNN
+EQ class: civilisationnn	civilizationnn	
+
+BE: donVB
+EQ class: assumevb	put_onvb	wearvb	get_intovb	
+
+BE: intuitiveJJ
+EQ class: 
+
+BE: intuitiveJJknowledgeNN
+EQ class: intuitivejjnoesisnn	intuitivejjcognitionnn	
+
+BE: ourPRP$cultureNN
+EQ class: acculturatevbourprp$	ourprp$civilizationnn	civilizationnnofinourprp$	culturennofinourprp$	ourprp$civilisationnn	civilisationnnofinourprp$	ourprp$acculturatevb	
+
+BE: tNNvalueNN
+EQ class: thyminennvaluenn	valuennofinthyminenn	valuennofintnn	
+
+BE: wePRPdonVB
+EQ class: weprpassumevb	weprpwearvb	weprpget_intovb	weprpput_onvb	
+
+BE: donVBvalueNN
+EQ class: put_onvbvaluenn	get_intovbvaluenn	assumevbvaluenn	wearvbvaluenn	
+
+BE: donVBknowledgeNN
+EQ class: get_intovbcognitionnn	assumevbnoesisnn	put_onvbknowledgenn	wearvbknowledgenn	get_intovbknowledgenn	wearvbcognitionnn	donvbnoesisnn	put_onvbcognitionnn	get_intovbnoesisnn	wearvbnoesisnn	put_onvbnoesisnn	assumevbcognitionnn	donvbcognitionnn	assumevbknowledgenn	
+
+BE: donVBinINcultureNN
+EQ class: assumevbinincivilizationnn	donvbinincivilisationnn	get_intovbinincivilizationnn	wearvbininculturenn	put_onvbinincivilizationnn	assumevbinincivilisationnn	wearvbinincivilisationnn	put_onvbinincivilisationnn	assumevbininculturenn	wearvbinincivilizationnn	put_onvbininculturenn	donvbinincivilizationnn	get_intovbinincivilisationnn	get_intovbininculturenn	
+
+BE: intelligenceNN
+EQ class: intelligentjj	
+
+BE: scientistsNNS
+EQ class: theynns	scientistnns	themnns	
+
+BE: inventorsNNS
+EQ class: artificernns	inventornns	theynns	discoverernns	themnns	
+
+BE: engineersNNS
+EQ class: technologistnns	engineernns	theynns	themnns	applied_scientistnns	
+
+BE: researchersNNS
+EQ class: research_workernns	investigatornns	theynns	researchernns	themnns	
+
+BE: theoristsNNS
+EQ class: theorizernns	theorisernns	theoristnns	theoreticiannns	idealoguenns	theynns	themnns	
+
+BE: philosophersNNS
+EQ class: philosophicjj	theynns	philosophernns	themnns	
+
+BE: mathmeticiansNNS
+EQ class: theynns	themnns	
+
+BE: artistsNNS
+EQ class: creative_personnns	theynns	artisticjj	artistnns	themnns	
+
+BE: doctorsNNS
+EQ class: physiciannns	doctorialjj	mdnns	mediconns	theynns	docnns	doctornns	dr.nns	themnns	
+
+BE: decisionsNNS
+EQ class: determinationnns	decisionnns	conclusionnns	theynns	themnns	
+
+BE: fieldsNNS
+EQ class: william_claude_dukenfieldnns	theynns	w._c._fieldsnns	themnns	
+
+BE: helpsVBZ
+EQ class: helpvbz	aidvbz	assistvbz	
+
+BE: makeVBP
+EQ class: dovbp	
+
+BE: findsVBZ
+EQ class: happenvbz	encountervbz	chancevbz	findvbz	bumpvbz	
+
+BE: intuitiveJJ
+EQ class: 
+
+BE: importantJJ
+EQ class: of_importjj	importancenn	
+
+BE: intuitiveJJintelligenceNN
+EQ class: intelligentvbintuitivelyrb	intuitivejjintelligentjj	
+
+BE: importantJJdecisionsNNS
+EQ class: determinevbimportantlyrb	importancenndecisionnns	of_importjjconclusionnns	importancenntheynns	importantjjthemnns	importantjjconclusionnns	importantjjdeterminationnns	importantjjtheynns	importancenndeterminationnns	of_importjjtheynns	importancennconclusionnns	make_up_one's_mindvbimportantlyrb	of_importjjdecisionsnns	of_importjjthemnns	importancennthemnns	importancenndecisionsnns	importantjjdecisionnns	decidevbimportantlyrb	of_importjjdecisionnns	of_importjjdeterminationnns	
+
+BE: theirPRP$fieldsNNS
+EQ class: william_claude_dukenfieldnnsofintheirprp$	theynnsofintheirprp$	themnnsofintheirprp$	theirprp$themnns	fieldsnnsofintheirprp$	theirprp$theynns	theirprp$william_claude_dukenfieldnns	theirprp$w._c._fieldsnns	w._c._fieldsnnsofintheirprp$	
+
+BE: itPRPisAUX
+EQ class: itprpbeaux	
+
+BE: artistsNNSmakeVBP
+EQ class: creative_personnnsmakevbp	themnnsdovbp	artisticjjdovbp	artisticjjmakevbp	artistnnsdovbp	theynnsdovbp	themnnsmakevbp	artistnnsmakevbp	artistsnnsdovbp	creative_personnnsdovbp	theynnsmakevbp	
+
+BE: intelligenceNNhelpsVBZ
+EQ class: helpernnintelligencenn	aidnnofinintelligentjj	helpnnofinintelligentjj	helpnnintelligentjj	supporternnofinintelligencenn	assistancennofinintelligentjj	intelligentjjhelpsvbz	supporternnintelligentjj	assistnnofinintelligencenn	helpnnintelligencenn	intelligencennaidvbz	supporternnofinintelligentjj	supporternnintelligencenn	assistancennofinintelligencenn	assistantnnintelligentjj	aidnnofinintelligencenn	helpernnintelligentjj	intelligentjjaidvbz	helpernnofinintelligentjj	intelligencennhelpvbz	assistnnofinintelligentjj	assistantnnintelligencenn	intelligentjjhelpvbz	helpernnofinintelligencenn	assistantnnofinintelligentjj	helpnnofinintelligencenn	intelligentjjassistvbz	intelligencennassistvbz	assistantnnofinintelligencenn	
+
+BE: intelligenceNNfindsVBZ
+EQ class: findernnintelligencenn	intelligentjjchancevbz	intelligencennfindvbz	findernnintelligentjj	findernnofinintelligencenn	intelligentjjencountervbz	findernnofinintelligentjj	breakthroughnnofinintelligentjj	intelligencennencountervbz	intelligentjjfindvbz	intelligencennhappenvbz	intelligentjjfindsvbz	breakthroughnnofinintelligencenn	intelligentjjhappenvbz	intelligencennbumpvbz	findnnofinintelligentjj	intelligencennchancevbz	discoverynnofinintelligentjj	findnnofinintelligencenn	discoverynnofinintelligencenn	intelligentjjbumpvbz	
+
+BE: isAUXintelligenceNN
+EQ class: beauxintelligentjj	beauxintelligencenn	isauxintelligentjj	
+
+BE: makeVBPdecisionsNNS
+EQ class: makevbpconclusionnns	dovbptheynns	makevbpdeterminationnns	makevbpdecisionnns	dovbpdecisionnns	dovbpthemnns	dovbpconclusionnns	dovbpdecisionsnns	makevbpthemnns	dovbpdeterminationnns	makevbptheynns	
+
+BE: findsVBZinINfieldsNNS
+EQ class: findsvbzininthemnns	bumpvbzininthemnns	chancevbzininw._c._fieldsnns	happenvbzininfieldsnns	chancevbzininthemnns	happenvbzininwilliam_claude_dukenfieldnns	bumpvbzininw._c._fieldsnns	bumpvbzininwilliam_claude_dukenfieldnns	bumpvbzininfieldsnns	bumpvbzinintheynns	findvbzininwilliam_claude_dukenfieldnns	happenvbzinintheynns	encountervbzininthemnns	findsvbzinintheynns	encountervbzininfieldsnns	chancevbzinintheynns	encountervbzininw._c._fieldsnns	happenvbzininthemnns	findvbzinintheynns	happenvbzininw._c._fieldsnns	chancevbzininwilliam_claude_dukenfieldnns	findsvbzininwilliam_claude_dukenfieldnns	findvbzininthemnns	findvbzininw._c._fieldsnns	findvbzininfieldsnns	encountervbzininwilliam_claude_dukenfieldnns	encountervbzinintheynns	findsvbzininw._c._fieldsnns	chancevbzininfieldsnns	
+
+BE: wayNN
+EQ class: stylenn	fashionnn	modenn	mannernn	
+
+BE: artNN
+EQ class: artyjj	artisticjj	fine_artnn	
+
+BE: processesNNS
+EQ class: procedurenns	processnns	theynns	themnns	
+
+BE: artNN
+EQ class: artyjj	artisticjj	fine_artnn	
+
+BE: formsNNS
+EQ class: formnns	word_formnns	signifiernns	descriptornns	theynns	themnns	
+
+BE: professionsNNS
+EQ class: professionnns	theynns	themnns	
+
+BE: learnedVBN
+EQ class: larnvbn	learnvbn	acquirevbn	
+
+BE: touchVB
+EQ class: 
+
+BE: artNNformsNNS
+EQ class: artisticjjformsnns	artyjjword_formnns	artisticjjword_formnns	signifiernnsofinartnn	descriptornnsofinfine_artnn	themnnsofinartisticjj	formsnnsofinartisticjj	fine_artnntheynns	formnnsofinartnn	formsnnsofinartyjj	artnndescriptornns	word_formnnsofinfine_artnn	artnnformnns	theynnsofinfine_artnn	artnntheynns	signifiernnsofinfine_artnn	themnnsofinfine_artnn	fine_artnnsignifiernns	descriptornnsofinartyjj	formnnsofinartyjj	fine_artnnformnns	artyjjformsnns	formsnnsofinartnn	artnnword_formnns	artyjjdescriptornns	artisticjjsignifiernns	fine_artnnthemnns	themnnsofinartyjj	formsnnsofinfine_artnn	artisticjjthemnns	word_formnnsofinartnn	artisticjjformnns	theynnsofinartisticjj	theynnsofinartyjj	artyjjformnns	formnnsofinartisticjj	theynnsofinartnn	artisticjjdescriptornns	artisticjjtheynns	word_formnnsofinartisticjj	signifiernnsofinartisticjj	signifiernnsofinartyjj	themnnsofinartnn	descriptornnsofinartisticjj	artnnsignifiernns	formnnsofinfine_artnn	artnnthemnns	descriptornnsofinartnn	artyjjthemnns	fine_artnnword_formnns	fine_artnndescriptornns	fine_artnnformsnns	artyjjsignifiernns	artyjjtheynns	word_formnnsofinartyjj	
+
+BE: artNNtouchVB
+EQ class: touchingnnartnn	touchingnnofinfine_artnn	touchnnofinfine_artnn	touchnnofinartnn	fine_artnntouchvb	touchnnofinartisticjj	artisticjjtouchvb	touchernnofinartyjj	touchnnartnn	touchingnnofinartisticjj	touchnnartisticjj	touchnnartyjj	touchingnnofinartyjj	touchernnofinfine_artnn	touchernnfine_artnn	touchernnartyjj	touchnnfine_artnn	artyjjtouchvb	touchnnofinartyjj	touchernnartnn	touchingnnartisticjj	touchernnofinartnn	touchernnofinartisticjj	touchingnnfine_artnn	touchingnnofinartnn	touchingnnartyjj	touchernnartisticjj	
+
+BE: processesNNStouchVB
+EQ class: touchnnofinprocedurenns	touchernnofinprocessnns	touchnnofinprocessesnns	themnnstouchvb	procedurennstouchvb	processnnstouchvb	touchingnnofinprocedurenns	touchingnnofinprocessesnns	touchernntheynns	touchnnofinprocessnns	touchernnofinprocedurenns	touchnnthemnns	touchnnprocessesnns	touchnnofinthemnns	touchingnnofinprocessnns	touchnnprocessnns	touchingnnthemnns	touchingnnofinthemnns	touchingnntheynns	touchernnprocedurenns	touchernnprocessesnns	touchernnprocessnns	touchnnofintheynns	touchernnthemnns	touchnntheynns	touchingnnofintheynns	touchernnofintheynns	touchingnnprocessesnns	touchernnofinthemnns	theynnstouchvb	touchernnofinprocessesnns	touchingnnprocessnns	touchingnnprocedurenns	touchnnprocedurenns	
+
+BE: learnedVBNprocessesNNS
+EQ class: learnedvbnthemnns	learnvbnprocessnns	assimilatornnofinprocessnns	larnvbnprocedurenns	learnedvbnprocedurenns	assimilatornnofinprocessesnns	learnernnofintheynns	larnvbnthemnns	scholarnnofintheynns	assimilatornnofintheynns	acquirevbntheynns	scholarnnofinthemnns	learnvbnthemnns	scholarnnofinprocessnns	larnvbnprocessnns	assimilatornnofinthemnns	scholarnnofinprocedurenns	scholarnnofinprocessesnns	assimilatornnofinprocedurenns	learnedvbntheynns	learnernnofinthemnns	learnernnofinprocessnns	acquirevbnprocedurenns	learnvbnprocedurenns	learnernnofinprocessesnns	larnvbnprocessesnns	acquirevbnprocessesnns	acquirevbnthemnns	acquirevbnprocessnns	learnedvbnprocessnns	learnernnofinprocedurenns	learnvbntheynns	larnvbntheynns	learnvbnprocessesnns	
+
+BE: touchVBprofessionsNNS
+EQ class: touchnnofintheynns	touchingnnofinprofessionnns	touchernnofinprofessionsnns	touchvbthemnns	touchnnofinprofessionsnns	touchingnnofinprofessionsnns	touchernnofinprofessionnns	touchingnnofintheynns	touchernnofintheynns	touchvbprofessionnns	touchnnofinprofessionnns	touchernnofinthemnns	touchnnofinthemnns	touchvbtheynns	touchingnnofinthemnns	
+
+BE: learnedVBNinINformsNNS
+EQ class: larnvbnininthemnns	larnvbnininsignifiernns	learnvbnininformsnns	larnvbnininword_formnns	learnedvbnininthemnns	learnedvbninindescriptornns	learnvbnininformnns	larnvbninindescriptornns	acquirevbninintheynns	learnvbnininthemnns	learnvbnininword_formnns	learnvbninintheynns	larnvbninintheynns	learnedvbninintheynns	learnedvbnininformnns	learnvbninindescriptornns	acquirevbnininword_formnns	larnvbnininformsnns	larnvbnininformnns	learnedvbnininword_formnns	acquirevbnininformnns	acquirevbnininformsnns	acquirevbninindescriptornns	acquirevbnininsignifiernns	learnvbnininsignifiernns	learnedvbnininsignifiernns	acquirevbnininthemnns	
+
+BE: touchVBinINwayNN
+EQ class: touchvbininmannernn	touchvbininfashionnn	touchvbininmodenn	touchvbininstylenn	
+
+BE: ArtNN
+EQ class: artyjj	artisticjj	fine_artnn	
+
+BE: formsNNS
+EQ class: formnns	word_formnns	signifiernns	descriptornns	theynns	themnns	
+
+BE: processesNNS
+EQ class: procedurenns	processnns	theynns	themnns	
+
+BE: helpsVBZ
+EQ class: helpvbz	aidvbz	assistvbz	
+
+BE: openVB
+EQ class: open_upvb	
+
+BE: openVBupRP
+EQ class: openernnofinuprp	openingnnofinuprp	open_upvbuprp	gapnnofinuprp	
+
+BE: intuitiveJJ
+EQ class: 
+
+BE: intuitiveJJprocessesNNS
+EQ class: intuitivejjthemnns	intuitivejjtheynns	processvbintuitivelyrb	treatvbintuitivelyrb	intuitivejjprocedurenns	intuitivejjprocessnns	
+
+BE: ArtNNhelpsVBZ
+EQ class: assistantnnartisticjj	helpernnofinfine_artnn	artisticjjaidvbz	helpernnofinartisticjj	assistantnnofinartnn	assistantnnfine_artnn	helpernnartisticjj	fine_artnnaidvbz	artnnassistvbz	assistnnofinfine_artnn	helpnnartnn	aidnnofinartisticjj	helpnnofinartisticjj	assistnnofinartyjj	helpnnofinartyjj	helpernnofinartnn	helpernnfine_artnn	helpnnfine_artnn	assistancennofinartnn	helpnnartyjj	helpernnofinartyjj	artyjjaidvbz	aidnnofinartnn	assistantnnofinfine_artnn	supporternnofinfine_artnn	aidnnofinartyjj	aidnnofinfine_artnn	assistantnnartyjj	helpernnartyjj	artisticjjassistvbz	assistancennofinartyjj	assistnnofinartisticjj	helpnnartisticjj	artisticjjhelpvbz	supporternnartyjj	supporternnofinartnn	assistantnnartnn	artisticjjhelpsvbz	fine_artnnassistvbz	artyjjassistvbz	assistancennofinfine_artnn	assistantnnofinartisticjj	artnnaidvbz	fine_artnnhelpvbz	helpnnofinfine_artnn	helpernnartnn	supporternnartisticjj	supporternnofinartyjj	helpnnofinartnn	supporternnfine_artnn	supporternnartnn	assistnnofinartnn	artnnhelpvbz	supporternnofinartisticjj	artyjjhelpvbz	assistantnnofinartyjj	assistancennofinartisticjj	fine_artnnhelpsvbz	artyjjhelpsvbz	
+
+BE: ArtNNopenVB
+EQ class: openingnnofinfine_artnn	artisticjjopenvb	openernnofinfine_artnn	gapnnofinfine_artnn	artyjjopenvb	gapnnartisticjj	openingnnofinartnn	gapnnartnn	openernnartnn	artyjjopen_upvb	openernnofinartnn	openernnofinartisticjj	openingnnofinartyjj	gapnnartyjj	openernnartyjj	openingnnartisticjj	openingnnfine_artnn	gapnnofinartisticjj	openingnnofinartisticjj	artnnopen_upvb	openernnfine_artnn	gapnnofinartnn	openingnnartyjj	fine_artnnopen_upvb	openernnofinartyjj	openernnartisticjj	artisticjjopen_upvb	gapnnofinartyjj	openingnnartnn	gapnnfine_artnn	fine_artnnopenvb	
+
+BE: openVBusPRP
+EQ class: open_upvbusprp	gapnnofinusprp	openingnnofinusprp	openernnofinusprp	
+
+BE: ArtNNinINformsNNS
+EQ class: signifiernnsartisticvb	word_formnnsartistvb	artnnininsignifiernns	signifiernnsfine_artnn	descriptornnsartisticvb	artisticjjinindescriptornns	theynnsartyjj	word_formnnsartyvb	signifiernnsartistvb	artnnininformnns	fine_artnnininword_formnns	artisticjjininword_formnns	descriptornnsartistvb	theynnsartisticjj	artistvbformsnns	fine_artnnininformnns	word_formnnsartyjj	fine_artnnininthemnns	theynnsartisticvb	artnninintheynns	artyvbthemnns	formnnsartisticvb	fine_artnninintheynns	signifiernnsartisticjj	artyjjinindescriptornns	artistvbthemnns	word_formnnsfine_artnn	formnnsartyjj	artyvbdescriptornns	formnnsartistvb	formsnnsartyvb	themnnsartistvb	artisticjjininformnns	formsnnsartnn	themnnsfine_artnn	word_formnnsartisticvb	descriptornnsartyjj	artistvbtheynns	artyvbsignifiernns	artyjjinintheynns	artisticvbdescriptornns	formnnsartisticjj	artisticjjinintheynns	artisticvbformsnns	formsnnsartistvb	artisticvbthemnns	fine_artnninindescriptornns	descriptornnsartisticjj	artnninindescriptornns	formsnnsartisticvb	artnnininword_formnns	artyvbtheynns	themnnsartyjj	themnnsartisticvb	descriptornnsartnn	word_formnnsartisticjj	themnnsartnn	artisticjjininsignifiernns	artistvbformnns	themnnsartyvb	theynnsartyvb	descriptornnsfine_artnn	artyjjininformnns	artistvbdescriptornns	formsnnsartisticjj	themnnsartisticjj	descriptornnsartyvb	formsnnsartyjj	artyjjininthemnns	signifiernnsartnn	artyjjininsignifiernns	formnnsartnn	formnnsfine_artnn	artistvbword_formnns	formnnsartyvb	signifiernnsartyvb	artyvbword_formnns	theynnsartistvb	fine_artnnininformsnns	word_formnnsartnn	artisticvbword_formnns	artisticvbformnns	fine_artnnininsignifiernns	artyvbformnns	artyjjininword_formnns	theynnsartnn	signifiernnsartyjj	artistvbsignifiernns	artisticvbtheynns	artisticvbsignifiernns	theynnsfine_artnn	artnnininthemnns	formsnnsfine_artnn	artyvbformsnns	artisticjjininformsnns	artisticjjininthemnns	artyjjininformsnns	
+
+BE: openVBtoTOprocessesNNS
+EQ class: open_upvbtotoprocessnns	open_upvbtotoprocedurenns	openvbtotoprocedurenns	open_upvbtotothemnns	openvbtotothemnns	open_upvbtototheynns	openvbtototheynns	openvbtotoprocessnns	open_upvbtotoprocessesnns	
+
+BE: artsNNS
+EQ class: humanitiesnns	liberal_artsnns	humanistic_disciplinenns	theynns	themnns	
+
+BE: aspectsNNS
+EQ class: aspectnns	theynns	themnns	facetnns	
+
+BE: educationNN
+EQ class: didacticsnn	instructionnn	educational_activitynn	pedagogynn	teachingnn	educationaljj	
+
+BE: thinkVBP
+EQ class: conceivevbp	believevbp	considervbp	
+
+BE: importantJJ
+EQ class: of_importjj	importancenn	
+
+BE: importantJJaspectsNNS
+EQ class: importancennaspectnns	importantjjfacetnns	importancenntheynns	importantjjthemnns	of_importjjaspectnns	importantjjaspectnns	of_importjjaspectsnns	importantjjtheynns	of_importjjfacetnns	of_importjjtheynns	of_importjjthemnns	importancennthemnns	importancennaspectsnns	importancennfacetnns	
+
+BE: iPRPthinkVBP
+EQ class: iprpbelievevbp	iprpconceivevbp	thoughtnnofiniprp	ideanniprp	iprpconsidervbp	ideannofiniprp	thoughtnniprp	
+
+BE: artsNNSareAUX
+EQ class: themnnsbeaux	liberal_artsnnsareaux	humanistic_disciplinennsareaux	theynnsareaux	artsnnsbeaux	humanistic_disciplinennsbeaux	themnnsareaux	humanitiesnnsareaux	theynnsbeaux	humanitiesnnsbeaux	liberal_artsnnsbeaux	
+
+BE: areAUXsomeDT
+EQ class: beauxsomedt	
+
+BE: someDTofINaspectsNNS
+EQ class: somedtofinfacetnns	somedtofinaspectnns	somedtofinthemnns	somedtofintheynns	
+
+BE: aspectsNNSofINeducationNN
+EQ class: themnnsofineducationnn	pedagogynnaspectsnns	educationaljjaspectsnns	facetnnsofinteachingnn	themnnsofinteachingnn	themnnsofininstructionnn	educationaljjfacetnns	theynnsofininstructionnn	aspectnnsofinpedagogynn	educational_activitynntheynns	aspectsnnsofinpedagogynn	aspectsnnsofindidacticsnn	aspectnnsofineducationaljj	theynnsofineducationnn	themnnsofindidacticsnn	instructionnntheynns	educationnnaspectnns	pedagogynnthemnns	didacticsnnaspectnns	aspectnnsofineducationnn	pedagogynntheynns	theynnsofineducational_activitynn	educational_activitynnfacetnns	educationnnthemnns	themnnsofineducationaljj	aspectnnsofindidacticsnn	instructionnnaspectnns	instructionnnaspectsnns	instructionnnthemnns	didacticsnntheynns	teachingnnfacetnns	teachingnntheynns	aspectnnsofininstructionnn	educationnnfacetnns	pedagogynnfacetnns	aspectsnnsofineducational_activitynn	facetnnsofindidacticsnn	educationaljjthemnns	educational_activitynnaspectnns	aspectsnnsofininstructionnn	facetnnsofineducationaljj	pedagogynnaspectnns	facetnnsofineducational_activitynn	facetnnsofineducationnn	teachingnnaspectsnns	aspectsnnsofineducationaljj	theynnsofindidacticsnn	themnnsofineducational_activitynn	facetnnsofininstructionnn	didacticsnnaspectsnns	instructionnnfacetnns	didacticsnnthemnns	teachingnnthemnns	facetnnsofinpedagogynn	educational_activitynnthemnns	theynnsofineducationaljj	theynnsofinpedagogynn	aspectsnnsofinteachingnn	didacticsnnfacetnns	themnnsofinpedagogynn	theynnsofinteachingnn	educationnnaspectsnns	educationaljjtheynns	educationaljjaspectnns	aspectnnsofineducational_activitynn	teachingnnaspectnns	aspectnnsofinteachingnn	educationnntheynns	educational_activitynnaspectsnns	
+
+BE: thinkVBPthatINareAUX
+EQ class: believevbpthatinareaux	conceivevbpthatinareaux	conceivevbpthatinbeaux	considervbpthatinbeaux	thinkvbpthatinbeaux	believevbpthatinbeaux	considervbpthatinareaux	
+
+BE: someDTartsNNS
+EQ class: somedthumanitiesnns	themnnssomedt	artsnnssomedt	somedtthemnns	somedttheynns	liberal_artsnnssomedt	humanistic_disciplinennssomedt	somedtliberal_artsnns	humanitiesnnssomedt	theynnssomedt	somedthumanistic_disciplinenns	
+
+BE: deficiencyNN
+EQ class: deficientjj	wantnn	lacknn	
+
+BE: educationNN
+EQ class: didacticsnn	instructionnn	educational_activitynn	pedagogynn	teachingnn	educationaljj	
+
+BE: systemNN
+EQ class: 
+
+BE: classesNNS
+EQ class: familynns	classnns	categorynns	theynns	themnns	
+
+BE: opportunitiesNNS
+EQ class: opportunejj	theynns	opportunitynns	chancenns	themnns	
+
+BE: studentsNNS
+EQ class: pupilnns	educateenns	studentnns	theynns	themnns	
+
+BE: artsNNS
+EQ class: humanitiesnns	liberal_artsnns	humanistic_disciplinenns	theynns	themnns	
+
+BE: studentsNNS
+EQ class: pupilnns	educateenns	studentnns	theynns	themnns	
+
+BE: artsNNS
+EQ class: humanitiesnns	liberal_artsnns	humanistic_disciplinenns	theynns	themnns	
+
+BE: communityNN
+EQ class: 
+
+BE: cureVB
+EQ class: bring_aroundvb	healvb	
+
+BE: offerVB
+EQ class: 
+
+BE: participateVB
+EQ class: take_partvb	
+
+BE: allowVB
+EQ class: letvb	permitvb	
+
+BE: bringVB
+EQ class: conveyvb	takevb	
+
+BE: bringVBoutRP
+EQ class: conveyvboutrp	takevboutrp	
+
+BE: moreJJR
+EQ class: more_thanjjr	
+
+BE: moreJJRclassesNNS
+EQ class: more_thanjjrclassesnns	morejjrcategorynns	morejjrclassnns	morejjrtheynns	more_thanjjrthemnns	morejjrfamilynns	more_thanjjrclassnns	more_thanjjrcategorynns	morejjrthemnns	more_thanjjrtheynns	more_thanjjrfamilynns	
+
+BE: ourPRP$systemNN
+EQ class: systemnnofinourprp$	
+
+BE: educationNNsystemNN
+EQ class: pupilnnofinsystemnn	systemnnofinteachingnn	pedagoguennofinsystemnn	educatornnofinsystemnn	systemnnofindidacticsnn	systemnnofineducationaljj	educational_activitynnofinsystemnn	educationaljjsystemnn	didacticsnnofinsystemnn	instructionnnsystemnn	systemnneducatevb	systemnnofininstructionnn	pedagogynnofinsystemnn	teachingnnsystemnn	systemnnofineducational_activitynn	educateennofinsystemnn	studentnnofinsystemnn	instructionnnofinsystemnn	educationaljjofinsystemnn	systemnnofineducationnn	teachingnnofinsystemnn	pedagognnofinsystemnn	educationnnofinsystemnn	systemnnofinpedagogynn	didacticsnnsystemnn	pedagogynnsystemnn	educational_activitynnsystemnn	educativennofinsystemnn	
+
+BE: wePRPneedAUX
+EQ class: weprpnecessitateaux	weprppostulateaux	weprpdemandaux	weprpinvolveaux	weprpaskaux	demandnnofinweprp	weprpcall_foraux	neednnofinweprp	weprprequireaux	weprptakeaux	
+
+BE: studentsNNSparticipateVB
+EQ class: involvementnnofinpupilnns	participationnnofintheynns	participationnneducateenns	involvementnnofineducateenns	participationnnofinpupilnns	studentnnstake_partvb	participationnnofinthemnns	engagementnnstudentnns	engagementnnthemnns	involutionnnofinthemnns	pupilnnstake_partvb	participationnnpupilnns	involutionnnthemnns	themnnstake_partvb	involvementnnstudentsnns	involvementnnstudentnns	participationnnthemnns	theynnsparticipatevb	involutionnnofintheynns	engagementnnofinstudentnns	involvementnntheynns	engagementnnofineducateenns	participationnnofinstudentsnns	involutionnnofineducateenns	involvementnneducateenns	engagementnntheynns	involutionnnstudentnns	educateennsparticipatevb	participationnnstudentnns	engagementnnofinthemnns	involutionnnofinstudentnns	themnnsparticipatevb	engagementnneducateenns	participationnntheynns	engagementnnofintheynns	involutionnnpupilnns	involutionnnstudentsnns	involvementnnpupilnns	participationnnofineducateenns	participationnnstudentsnns	engagementnnofinpupilnns	involvementnnofinstudentsnns	studentnnsparticipatevb	involvementnnofinstudentnns	involutionnntheynns	engagementnnpupilnns	engagementnnstudentsnns	involutionnneducateenns	involutionnnofinpupilnns	studentsnnstake_partvb	theynnstake_partvb	involvementnnofinthemnns	educateennstake_partvb	participationnnofinstudentnns	pupilnnsparticipatevb	involvementnnofintheynns	involutionnnofinstudentsnns	engagementnnofinstudentsnns	involvementnnthemnns	
+
+BE: studentsNNSbringVB
+EQ class: studentsnnstakevb	studentnnsconveyvb	theynnsconveyvb	theynnsbringvb	studentsnnsconveyvb	studentnnstakevb	pupilnnstakevb	themnnsbringvb	studentnnsbringvb	educateennsconveyvb	pupilnnsconveyvb	pupilnnsbringvb	educateennsbringvb	theynnstakevb	themnnsconveyvb	educateennstakevb	themnnstakevb	
+
+BE: cureVBdeficiencyNN
+EQ class: bring_aroundvblacknn	remedynnofinwantnn	curativennofindeficiencynn	remedynnofinlacknn	curennofinwantnn	curablennofinlacknn	therapeuticnnofindeficiencynn	curennofindeficientjj	therapeuticnnofinwantnn	therapeuticnnofindeficientjj	therapeuticnnofinlacknn	remedynnofindeficiencynn	curablennofinwantnn	curativennofinwantnn	curativennofinlacknn	healvblacknn	healvbdeficiencynn	bring_aroundvbdeficientjj	healvbdeficientjj	healvbwantnn	curevbdeficientjj	curevbwantnn	curevblacknn	remedynnofindeficientjj	curablennofindeficiencynn	curennofindeficiencynn	bring_aroundvbwantnn	curennofinlacknn	curativennofindeficientjj	bring_aroundvbdeficiencynn	curablennofindeficientjj	
+
+BE: offerVBclassesNNS
+EQ class: offeringnnofinclassesnns	offernnofinclassesnns	offeringnnofinfamilynns	offervbcategorynns	offernnofinfamilynns	offeringnnofinthemnns	offernnofinthemnns	offeringnnofincategorynns	offervbthemnns	offeringnnofintheynns	offernnofinclassnns	offeringnnofinclassnns	offernnofintheynns	offervbfamilynns	offernnofincategorynns	offervbtheynns	offervbclassnns	
+
+BE: offerVBopportunitiesNNS
+EQ class: offernnofinopportunejj	offeringnnofinopportunejj	offernnofinchancenns	offervbopportunejj	offeringnnofinthemnns	offernnofinthemnns	offervbopportunitynns	offeringnnofinchancenns	offervbthemnns	offernnofinopportunitiesnns	offeringnnofintheynns	offeringnnofinopportunitynns	offernnofintheynns	offervbchancenns	offeringnnofinopportunitiesnns	offernnofinopportunitynns	offervbtheynns	
+
+BE: bringVBartsNNS
+EQ class: bringvbhumanitiesnns	conveyvbtheynns	takevbtheynns	takevbthemnns	takevbhumanistic_disciplinenns	conveyvbartsnns	conveyvbhumanitiesnns	takevbhumanitiesnns	bringvbtheynns	conveyvbthemnns	bringvbhumanistic_disciplinenns	bringvbliberal_artsnns	bringvbthemnns	takevbliberal_artsnns	takevbartsnns	conveyvbhumanistic_disciplinenns	conveyvbliberal_artsnns	
+
+BE: allowVBstudentsNNS
+EQ class: permitvbthemnns	letvbeducateenns	allowvbtheynns	letvbstudentsnns	permitvbstudentnns	letvbthemnns	letvbpupilnns	allowvbthemnns	permitvbstudentsnns	allowvbeducateenns	allowvbstudentnns	permitvbpupilnns	permitvbtheynns	letvbtheynns	letvbstudentnns	allowvbpupilnns	permitvbeducateenns	
+
+BE: cureVBinINsystemNN
+EQ class: healvbininsystemnn	bring_aroundvbininsystemnn	
+
+BE: participateVBinINartsNNS
+EQ class: take_partvbinintheynns	participatevbinintheynns	participatevbininhumanistic_disciplinenns	take_partvbininhumanistic_disciplinenns	take_partvbininartsnns	participatevbininhumanitiesnns	participatevbininliberal_artsnns	take_partvbininliberal_artsnns	participatevbininthemnns	take_partvbininhumanitiesnns	take_partvbininthemnns	
+
+BE: bringVBintoINcommunityNN
+EQ class: conveyvbintoincommunitynn	takevbintoincommunitynn	
+
+BE: needAUXsimplyRB
+EQ class: takeauxsimplyrb	askauxsimplyrb	simplejjinintakeaux	simplicitynninincall_foraux	simplenessnnneednn	simplejjininnecessitateaux	simplicitynnininaskaux	simplejjinincall_foraux	simplicitynndemandnn	simplicitynninindemandaux	simplicitynnininneedaux	simplejjininrequireaux	simplicitynninintakeaux	call_forauxsimplyrb	simplejjinindemandnn	simplenessnnininaskaux	demandnnofinsimplyrb	simplejjneednn	involveauxsimplyrb	simplejjininneedaux	simplejjdemandnn	simplenessnninintakeaux	simplicitynninininvolveaux	simplenessnnininnecessitateaux	demandauxsimplyrb	necessitateauxsimplyrb	requireauxsimplyrb	simplenessnninindemandnn	simplejjininaskaux	neednnofinsimplyrb	simplenessnndemandnn	simplejjinindemandaux	simplenessnnininpostulateaux	simplicitynnininpostulateaux	simplenessnninincall_foraux	simplicitynnneednn	postulateauxsimplyrb	simplicitynnininneednn	simplicitynnininrequireaux	simplejjinininvolveaux	simplicitynnininnecessitateaux	simplejjininpostulateaux	simplenessnnininneedaux	simplenessnnininrequireaux	simplejjininneednn	simplenessnninindemandaux	simplicitynninindemandnn	simplenessnnininneednn	simplenessnninininvolveaux	
+
+BE: wePRPcureVB
+EQ class: weprphealvb	weprpbring_aroundvb	curativennofinweprp	remedynnofinweprp	therapeuticnnofinweprp	curennofinweprp	curablennofinweprp	
+
+BE: schoolsNNS
+EQ class: schoolnns	theynns	scholasticjj	themnns	
+
+BE: fundingNN
+EQ class: financial_supportnn	backingnn	financial_backingnn	supportnn	
+
+BE: artsNNS
+EQ class: humanitiesnns	liberal_artsnns	humanistic_disciplinenns	theynns	themnns	
+
+BE: cuttingVBG
+EQ class: cutvbg	
+
+BE: wePRPdoAUX
+EQ class: weprpmakeaux	
+
+BE: schoolsNNScuttingVBG
+EQ class: stonecutternnofinschoolnns	stonecutternnofintheynns	film_editingnnofinschoolnns	film_editingnnofinschoolsnns	cuttingnnschoolnns	film_editingnntheynns	cuttingnnthemnns	cuttingnnofinthemnns	film_editingnnscholasticjj	theynnscuttingvbg	cutternnthemnns	film_editingnnofinthemnns	stonecutternnthemnns	stonecutternnofinthemnns	film_editingnnofinscholasticjj	film_editingnnofintheynns	stonecutternnscholasticjj	themnnscuttingvbg	schoolnnscuttingvbg	stonecutternnofinschoolsnns	cutternnofinscholasticjj	cuttingnnofintheynns	cuttingnnschoolsnns	stonecutternnofinscholasticjj	cutternnofinthemnns	cuttingnnofinschoolsnns	cuttingnnofinschoolnns	cutternnofintheynns	cuttingnntheynns	scholasticjjcuttingvbg	film_editingnnschoolnns	cutternnofinschoolnns	cutternnschoolsnns	theynnscutvbg	stonecutternntheynns	stonecutternnschoolnns	cutternnschoolnns	film_editingnnthemnns	cutternnscholasticjj	themnnscutvbg	cuttingnnofinscholasticjj	schoolnnscutvbg	cutternnofinschoolsnns	stonecutternnschoolsnns	cuttingnnscholasticjj	schoolsnnscutvbg	scholasticjjcutvbg	film_editingnnschoolsnns	cutternntheynns	
+
+BE: doAUXthisDT
+EQ class: makeauxthisdt	
+
+BE: cuttingVBGfundingNN
+EQ class: cutternnofinbackingnn	cutternnofinsupportnn	film_editingnnofinfundingnn	cuttingnnofinfinancial_supportnn	cutvbgfinancial_supportnn	cutternnofinfinancial_supportnn	cutternnofinfinancial_backingnn	film_editingnnofinbackingnn	cutvbgbackingnn	stonecutternnofinfinancial_supportnn	cuttingvbgfinancial_backingnn	cuttingnnofinbackingnn	cuttingnnofinsupportnn	cutvbgfinancial_backingnn	cutternnofinfundingnn	cuttingvbgsupportnn	stonecutternnofinsupportnn	film_editingnnofinfinancial_backingnn	cutvbgfundingnn	cutvbgsupportnn	cuttingvbgfinancial_supportnn	cuttingnnofinfundingnn	film_editingnnofinfinancial_supportnn	film_editingnnofinsupportnn	stonecutternnofinfinancial_backingnn	cuttingnnofinfinancial_backingnn	stonecutternnofinfundingnn	cuttingvbgbackingnn	stonecutternnofinbackingnn	
+
+BE: cuttingVBGtoTOartsNNS
+EQ class: cutvbgtotoliberal_artsnns	cuttingvbgtototheynns	cutvbgtotothemnns	cutvbgtototheynns	cuttingvbgtotohumanistic_disciplinenns	cutvbgtotoartsnns	cuttingvbgtotoliberal_artsnns	cuttingvbgtotohumanitiesnns	cutvbgtotohumanitiesnns	cutvbgtotohumanistic_disciplinenns	cuttingvbgtotothemnns	
+
+BE: areAUXconstantlyRB
+EQ class: constancynnininbeaux	invariantjjininareaux	changelessjjininbeaux	invariantjjininbeaux	constancynnininareaux	changelessjjininareaux	constantjjininareaux	constantjjininbeaux	unvaryingjjininbeaux	unvaryingjjininareaux	beauxconstantlyrb	
+
+BE: cuttingVBGconstantlyRB
+EQ class: unvaryingjjinincutvbg	stonecutternnofinconstantlyrb	cutternnofinconstantlyrb	constancynninincutternn	changelessjjininfilm_editingnn	changelessjjinincuttingnn	invariantjjcuttingnn	changelessjjcutternn	constantjjininstonecutternn	constancynninincutvbg	unvaryingjjfilm_editingnn	invariantjjininstonecutternn	constantjjininfilm_editingnn	unvaryingjjinincuttingvbg	constantjjstonecutternn	constancynninincuttingvbg	changelessjjstonecutternn	cuttingnnofinconstantlyrb	changelessjjinincutvbg	unvaryingjjcutternn	constancynnfilm_editingnn	changelessjjininstonecutternn	constancynnstonecutternn	constantjjfilm_editingnn	unvaryingjjcuttingnn	constantjjinincuttingnn	invariantjjinincuttingvbg	constancynncuttingnn	constancynncutternn	invariantjjinincutvbg	constantjjinincutternn	changelessjjfilm_editingnn	invariantjjfilm_editingnn	film_editingnnofinconstantlyrb	constantjjcutternn	constancynnininfilm_editingnn	constantjjinincuttingvbg	invariantjjininfilm_editingnn	changelessjjinincutternn	unvaryingjjinincutternn	cutvbgconstantlyrb	unvaryingjjstonecutternn	changelessjjcuttingnn	unvaryingjjininfilm_editingnn	unvaryingjjininstonecutternn	invariantjjcutternn	invariantjjinincutternn	invariantjjinincuttingnn	constancynninincuttingnn	unvaryingjjinincuttingnn	invariantjjstonecutternn	constancynnininstonecutternn	changelessjjinincuttingvbg	constantjjcuttingnn	constantjjinincutvbg	
+
+BE: artsNNS
+EQ class: humanitiesnns	liberal_artsnns	humanistic_disciplinenns	theynns	themnns	
+
+BE: artsNNS
+EQ class: humanitiesnns	liberal_artsnns	humanistic_disciplinenns	theynns	themnns	
+
+BE: curriculumNN
+EQ class: course_of_studynn	programnn	syllabusnn	programmenn	curricularjj	
+
+BE: KindergartenNNP
+EQ class: 
+
+BE: thruNN
+EQ class: 
+
+BE: collegeNN
+EQ class: collegialjj	
+
+BE: believeVBP
+EQ class: 
+
+BE: integratedVBN
+EQ class: integratevbn	incorporatevbn	
+
+BE: overallJJ
+EQ class: 
+
+BE: liberalJJ
+EQ class: broadjj	tolerantjj	large-mindedjj	liberalnessnn	
+
+BE: overallJJcurriculumNN
+EQ class: overalljjsyllabusnn	overalljjcourse_of_studynn	overalljjprogrammenn	overalljjcurricularjj	overalljjprogramnn	
+
+BE: liberalJJcurriculumNN
+EQ class: large-mindedjjcurricularjj	curricularvbliberallyrb	liberaljjprogrammenn	liberalnessnncurriculumnn	liberalnessnnprogrammenn	broadjjprogramnn	broadjjcourse_of_studynn	liberaljjprogramnn	liberaljjsyllabusnn	broadjjprogrammenn	large-mindedjjsyllabusnn	large-mindedjjprogrammenn	liberalnessnncourse_of_studynn	broadjjcurriculumnn	liberaljjcourse_of_studynn	tolerantjjcurricularjj	tolerantjjprogramnn	tolerantjjprogrammenn	large-mindedjjprogramnn	liberaljjcurricularjj	liberalnessnncurricularjj	broadjjcurricularjj	tolerantjjcurriculumnn	large-mindedjjcurriculumnn	liberalnessnnprogramnn	tolerantjjcourse_of_studynn	liberalnessnnsyllabusnn	tolerantjjsyllabusnn	broadjjsyllabusnn	large-mindedjjcourse_of_studynn	
+
+BE: artsNNScurriculumNN
+EQ class: curricularvbliberal_artsnns	curricularvbtheynns	theynnssyllabusnn	syllabusnnofinhumanistic_disciplinenns	curriculumnnofinhumanistic_disciplinenns	programmennofinthemnns	themnnscurricularvb	programmennofinhumanitiesnns	programnnofinartsnns	artsnnsprogrammenn	liberal_artsnnssyllabusnn	humanistic_disciplinennscurricularjj	theynnsprogrammenn	curriculumnnofintheynns	course_of_studynnofinthemnns	programmennofinartsnns	programnnofinhumanitiesnns	curricularvbhumanistic_disciplinenns	theynnscourse_of_studynn	curricularjjofinartsnns	syllabusnnofinthemnns	humanistic_disciplinennsprogrammenn	curriculumnnofinhumanitiesnns	syllabusnnofinliberal_artsnns	curricularjjofintheynns	theynnsprogramnn	artsnnssyllabusnn	themnnscurricularjj	humanitiesnnsprogramnn	humanitiesnnscourse_of_studynn	curricularjjofinthemnns	liberal_artsnnsprogramnn	themnnscourse_of_studynn	programnnofinliberal_artsnns	themnnsprogramnn	liberal_artsnnscurriculumnn	course_of_studynnofinhumanistic_disciplinenns	curricularvbhumanitiesnns	humanitiesnnscurriculumnn	course_of_studynnofinartsnns	programnnofinhumanistic_disciplinenns	themnnsprogrammenn	humanistic_disciplinennscurricularvb	theynnscurricularjj	curriculumnnofinartsnns	curriculumnnofinliberal_artsnns	humanistic_disciplinennsprogramnn	liberal_artsnnsprogrammenn	curricularvbthemnns	programnnofintheynns	programmennofinhumanistic_disciplinenns	humanitiesnnscurricularvb	syllabusnnofinartsnns	artsnnscurricularjj	humanistic_disciplinennscurriculumnn	curriculumnnofinthemnns	themnnscurriculumnn	humanistic_disciplinennscourse_of_studynn	programnnofinthemnns	theynnscurricularvb	themnnssyllabusnn	curricularjjofinliberal_artsnns	liberal_artsnnscourse_of_studynn	course_of_studynnofintheynns	theynnscurriculumnn	curricularjjofinhumanistic_disciplinenns	liberal_artsnnscurricularvb	syllabusnnofinhumanitiesnns	curricularjjofinhumanitiesnns	artsnnscourse_of_studynn	humanitiesnnscurricularjj	course_of_studynnofinliberal_artsnns	curricularvbartsnns	programmennofintheynns	humanitiesnnssyllabusnn	humanitiesnnsprogrammenn	humanistic_disciplinennssyllabusnn	artsnnsprogramnn	programmennofinliberal_artsnns	liberal_artsnnscurricularjj	course_of_studynnofinhumanitiesnns	artsnnscurricularvb	syllabusnnofintheynns	
+
+BE: thruNNcollegeNN
+EQ class: collegialjjofinthrunn	thrunncollegialjj	collegennofinthrunn	thrunncollegialvb	collegialvbthrunn	
+
+BE: KindergartenNNPcollegeNN
+EQ class: collegialvbkindergartennnp	kindergartennnpcollegialjj	kindergartennnpcollegialvb	collegialjjofinkindergartennnp	collegennofinkindergartennnp	
+
+BE: iPRPbelieveVBP
+EQ class: believernnofiniprp	trusternniprp	believablennofiniprp	beliefnnofiniprp	trusternnofiniprp	believernniprp	beliefnniprp	
+
+BE: integratedVBNartsNNS
+EQ class: integratingnnofinhumanitiesnns	integratingnnofinthemnns	incorporatevbnhumanitiesnns	incorporatevbnthemnns	integrationnnofintheynns	integratevbnhumanitiesnns	integratingnnofinliberal_artsnns	integrationnnofinhumanitiesnns	integrationnnofinartsnns	desegregationnnofinhumanitiesnns	integrativennofinartsnns	desegregationnnofinartsnns	integrativennofintheynns	integratevbnartsnns	incorporatevbnartsnns	incorporatevbnhumanistic_disciplinenns	integratedvbnhumanitiesnns	integratingnnofinartsnns	integrativennofinliberal_artsnns	integratedvbnhumanistic_disciplinenns	integratevbntheynns	integrationnnofinliberal_artsnns	integrativennofinthemnns	desegregationnnofinliberal_artsnns	integratevbnthemnns	desegregationnnofinthemnns	integratevbnhumanistic_disciplinenns	integrationnnofinthemnns	incorporatevbnliberal_artsnns	desegregationnnofintheynns	desegregationnnofinhumanistic_disciplinenns	integrativennofinhumanitiesnns	integratevbnliberal_artsnns	integrationnnofinhumanistic_disciplinenns	integratedvbnthemnns	integratedvbntheynns	integrativennofinhumanistic_disciplinenns	integratingnnofinhumanistic_disciplinenns	integratedvbnliberal_artsnns	incorporatevbntheynns	integratingnnofintheynns	
+
+BE: curriculumNNfromINcollegeNN
+EQ class: collegenncourse_of_studynn	programnnfromincollegialjj	programnnfromincollegenn	collegialjjcurricularjj	collegenncurriculumnn	course_of_studynnfromincollegenn	curricularjjfromincollegialjj	programmennfromincollegenn	collegenncurricularjj	course_of_studynnfromincollegialjj	syllabusnnfromincollegialjj	collegialjjcurricularvb	curriculumnnfromincollegialjj	curricularvbcollegenn	collegialjjprogramnn	collegialjjsyllabusnn	collegenncurricularvb	collegennsyllabusnn	collegennprogramnn	collegennprogrammenn	syllabusnnfromincollegenn	collegialjjcourse_of_studynn	collegialjjcurriculumnn	curricularjjfromincollegenn	programmennfromincollegialjj	collegialjjprogrammenn	curricularvbcollegialjj	
+
+BE: integratedVBNintoINcurriculumNN
+EQ class: integratedvbnintoincourse_of_studynn	incorporatevbnintoinprogrammenn	integratedvbnintoinsyllabusnn	integratevbnintoincourse_of_studynn	incorporatevbnintoinsyllabusnn	integratedvbnintoinprogramnn	integratedvbnintoincurricularjj	integratevbnintoinsyllabusnn	incorporatevbnintoincurriculumnn	incorporatevbnintoinprogramnn	incorporatevbnintoincourse_of_studynn	incorporatevbnintoincurricularjj	integratevbnintoincurriculumnn	integratevbnintoincurricularjj	integratedvbnintoinprogrammenn	integratevbnintoinprogrammenn	integratevbnintoinprogramnn	
+
+BE: believeVBPthatINintegratedVBN
+EQ class: believevbpthatinincorporatevbn	believevbpthatinintegratevbn	
+
+BE: commitmentNN
+EQ class: committednessnn	
+
+BE: schoolNN
+EQ class: scholasticjj	
+
+BE: districtsNNS
+EQ class: territorynns	dominionnns	theynns	districtnns	themnns	territorial_dominionnns	
+
+BE: politiciansNNS
+EQ class: theynns	politiciannns	themnns	
+
+BE: parentsNNS
+EQ class: theynns	parentaljj	parentnns	themnns	
+
+BE: educatorsNNS
+EQ class: pedagoguenns	pedagognns	theynns	themnns	educatornns	
+
+BE: schoolNNdistrictsNNS
+EQ class: schoolnnofintheynns	scholasticjjthemnns	theynnsofinscholasticjj	districtnnsschoolvb	dominionnnsofinschoolnn	schoolnnthemnns	schoolnntheynns	themnnsofinschoolnn	schoolnnterritorial_dominionnns	schoolingnnofindistrictsnns	districtnnsofinscholasticjj	zonevbschoolnn	schoolnndominionnns	scholasticjjtheynns	themnnsofinscholasticjj	schoolnnofinterritorial_dominionnns	schoolnnofindistrictnns	territorial_dominionnnsofinscholasticjj	schoolnnofindistrictsnns	territorynnsofinschoolnn	scholasticjjofindistrictsnns	scholasticjjofindominionnns	schoolnnofinterritorynns	schoolnnterritorynns	territorynnsschoolvb	scholasticjjdistrictvb	scholasticjjofinthemnns	schoolingnnofinterritorynns	themnnsschoolvb	scholasticjjterritorial_dominionnns	schoolingnnofindistrictnns	districtsnnsofinschoolnn	schoolingnnofinthemnns	scholasticjjzonevb	scholasticjjofindistrictnns	dominionnnsofinscholasticjj	schoolingnnofindominionnns	schoolnnofinthemnns	territorial_dominionnnsofinschoolnn	districtnnsofinschoolnn	theynnsofinschoolnn	schoolnnzonevb	scholasticjjterritorynns	schoolingnnofinterritorial_dominionnns	territorial_dominionnnsschoolvb	scholasticjjofintheynns	scholasticjjofinterritorynns	districtvbschoolnn	dominionnnsschoolvb	theynnsschoolvb	scholasticjjdistrictnns	scholasticjjdistrictsnns	territorynnsofinscholasticjj	schoolnndistrictnns	scholasticjjdominionnns	zonevbscholasticjj	schoolnnofindominionnns	scholasticjjofinterritorial_dominionnns	schoolnndistrictvb	districtvbscholasticjj	districtsnnsschoolvb	districtsnnsofinscholasticjj	schoolingnnofintheynns	
+
+BE: wePRPneedAUX
+EQ class: weprpnecessitateaux	weprppostulateaux	weprpdemandaux	weprpinvolveaux	weprpaskaux	demandnnofinweprp	weprpcall_foraux	neednnofinweprp	weprprequireaux	weprptakeaux	
+
+BE: doAUXthisDT
+EQ class: makeauxthisdt	
+
+BE: needAUXcommitmentNN
+EQ class: neednnofincommitmentnn	postulateauxcommittednessnn	postulateauxcommitmentnn	neednnofincommittednessnn	involveauxcommitmentnn	demandnnofincommittednessnn	necessitateauxcommittednessnn	takeauxcommitmentnn	takeauxcommittednessnn	askauxcommittednessnn	requireauxcommitmentnn	call_forauxcommitmentnn	needauxcommittednessnn	demandnnofincommitmentnn	involveauxcommittednessnn	requireauxcommittednessnn	askauxcommitmentnn	demandauxcommitmentnn	call_forauxcommittednessnn	demandauxcommittednessnn	necessitateauxcommitmentnn	
+
+BE: doAUXthisDT
+EQ class: makeauxthisdt	
+
+BE: commitmentNNfromINparentsNNS
+EQ class: parentsnnscommitmentnn	theynnscommittednessnn	committednessnnfrominthemnns	committednessnnfrominparentsnns	parentnnscommittednessnn	commitmentnnfrominparentnns	parentnnscommitmentnn	committednessnnfrominparentaljj	commitmentnnfromintheynns	parentsnnscommittednessnn	parentaljjcommittednessnn	committednessnnfromintheynns	commitmentnnfrominthemnns	themnnscommitmentnn	parentaljjcommitmentnn	themnnscommittednessnn	commitmentnnfrominparentaljj	committednessnnfrominparentnns	theynnscommitmentnn	
+
+BE: wePRPdoAUX
+EQ class: weprpmakeaux	
+
+BE: allocationNN
+EQ class: allotmentnn	
+
+BE: taxNN
+EQ class: taxationnn	revenue_enhancementnn	
+
+BE: dollarsNNS
+EQ class: dollarnns	theynns	themnns	
+
+BE: educationNN
+EQ class: didacticsnn	instructionnn	educational_activitynn	pedagogynn	teachingnn	educationaljj	
+
+BE: art educationOrganizationAnnotation
+EQ class: 
+
+BE: goVBP
+EQ class: movevbp	travelvbp	locomotevbp	
+
+BE: fundVB
+EQ class: 
+
+BE: taxNNdollarsNNS
+EQ class: themnnsofintaxnn	dollarnnsofinrevenue_enhancementnn	taxationnnofintheynns	taxablennofindollarsnns	taxationnntheynns	taxernnofindollarsnns	themnnsofintaxationnn	themnnstaxvb	dollarsnnsofinrevenue_enhancementnn	taxnndollarnns	taxernnofinthemnns	taxablennofindollarnns	theynnstaxvb	revenue_enhancementnndollarsnns	revenue_enhancementnnofintheynns	taxnntheynns	theynnsofinrevenue_enhancementnn	dollarnnstaxvb	taxationnnofindollarsnns	taxationnnofindollarnns	theynnsofintaxationnn	taxablennofinthemnns	dollarsnnstaxvb	dollarnnsofintaxnn	revenue_enhancementnntheynns	taxernnofindollarnns	taxnnofintheynns	revenue_enhancementnnofindollarsnns	taxnnofindollarsnns	revenue_enhancementnndollarnns	themnnsofinrevenue_enhancementnn	taxnnthemnns	taxationnnofinthemnns	taxablennofintheynns	revenue_enhancementnnofindollarnns	revenue_enhancementnnthemnns	dollarnnsofintaxationnn	taxationnndollarnns	dollarsnnsofintaxationnn	taxnnofindollarnns	dollarsnnsofintaxnn	revenue_enhancementnnofinthemnns	taxationnndollarsnns	theynnsofintaxnn	taxnnofinthemnns	taxationnnthemnns	taxernnofintheynns	
+
+BE: wePRPneedAUX
+EQ class: weprpnecessitateaux	weprppostulateaux	weprpdemandaux	weprpinvolveaux	weprpaskaux	demandnnofinweprp	weprpcall_foraux	neednnofinweprp	weprprequireaux	weprptakeaux	
+
+BE: dollarsNNSgoVBP
+EQ class: theynnstravelvbp	themnnstravelvbp	theynnsmovevbp	dollarnnsgovbp	dollarnnslocomotevbp	themnnsgovbp	themnnsmovevbp	dollarsnnstravelvbp	dollarsnnsmovevbp	dollarnnsmovevbp	dollarsnnslocomotevbp	themnnslocomotevbp	theynnslocomotevbp	theynnsgovbp	dollarnnstravelvbp	
+
+BE: needAUXallocationNN
+EQ class: takeauxallotmentnn	askauxallotmentnn	demandnnofinallotmentnn	necessitateauxallocationnn	neednnofinallotmentnn	askauxallocationnn	postulateauxallocationnn	demandnnofinallocationnn	call_forauxallocationnn	call_forauxallotmentnn	requireauxallotmentnn	takeauxallocationnn	demandauxallotmentnn	demandauxallocationnn	involveauxallocationnn	involveauxallotmentnn	requireauxallocationnn	necessitateauxallotmentnn	needauxallotmentnn	neednnofinallocationnn	postulateauxallotmentnn	
+
+BE: fundVBart educationOrganizationAnnotation
+EQ class: 
+
+BE: allocationNNofINsomeDT
+EQ class: allotmentnnofinsomedt	allocatevbsomedt	somedtallocatevb	somedtapportionvb	somedtallocationnn	somedtallotmentnn	apportionvbsomedt	
+
+BE: someDTofINdollarsNNS
+EQ class: somedtofindollarnns	somedtofinthemnns	somedtofintheynns	
+
+BE: goVBPtoTOeducationNN
+EQ class: travelvbptotoeducationnn	govbptotoeducational_activitynn	movevbptototeachingnn	travelvbptotopedagogynn	travelvbptotoeducational_activitynn	movevbptotoeducationnn	locomotevbptotoeducationnn	govbptotopedagogynn	travelvbptototeachingnn	travelvbptotodidacticsnn	locomotevbptotopedagogynn	locomotevbptotoeducational_activitynn	movevbptotoeducational_activitynn	locomotevbptotoinstructionnn	locomotevbptototeachingnn	govbptotoinstructionnn	movevbptotoinstructionnn	govbptototeachingnn	movevbptotoeducationaljj	locomotevbptotodidacticsnn	travelvbptotoeducationaljj	travelvbptotoinstructionnn	movevbptotodidacticsnn	locomotevbptotoeducationaljj	govbptotoeducationaljj	movevbptotopedagogynn	govbptotodidacticsnn	
+
+BE: goVBPfundVB
+EQ class: locomotevbpfundvb	travelvbpfundvb	movevbpfundvb	
+
+BE: relationsNNS
+EQ class: dealingsnns	theynns	themnns	
+
+BE: campaignNN
+EQ class: runnn	political_campaignnn	
+
+BE: levelNN
+EQ class: degreenn	gradenn	
+
+BE: benefitsNNS
+EQ class: theynns	themnns	benefitnns	
+
+BE: artsNNS
+EQ class: humanitiesnns	liberal_artsnns	humanistic_disciplinenns	theynns	themnns	
+
+BE: educationNN
+EQ class: didacticsnn	instructionnn	educational_activitynn	pedagogynn	teachingnn	educationaljj	
+
+BE: systemNN
+EQ class: 
+
+BE: publicNN
+EQ class: worldnn	populacenn	
+
+BE: thinkVBP
+EQ class: conceivevbp	believevbp	considervbp	
+
+BE: helpVB
+EQ class: aidvb	assistvb	
+
+BE: getVB
+EQ class: acquirevb	
+
+BE: spellsVBZoutRP
+EQ class: spellernnofinoutrp	spellvbzoutrp	spellingnnofinoutrp	poor_spellernnofinoutrp	spell_outvbzoutrp	good_spellernnofinoutrp	
+
+BE: publicJJ
+EQ class: publicitynn	
+
+BE: nationalJJ
+EQ class: nationnn	nationalnn	nationalitynn	
+
+BE: publicJJcampaignNN
+EQ class: runvbpubliclyrb	publicitynnrunnn	publicjjpolitical_campaignnn	publicitynncampaignnn	campaignvbpubliclyrb	publicjjrunnn	publicitynnpolitical_campaignnn	
+
+BE: nationalJJlevelNN
+EQ class: nationalitynngradenn	nationalitynndegreenn	nationaljjdegreenn	nationalitynnlevelnn	nationnngradenn	nationaljjgradenn	nationalnndegreenn	nationalnngradenn	nationalnnlevelnn	nationnnlevelnn	nationnndegreenn	
+
+BE: ourPRP$systemNN
+EQ class: systemnnofinourprp$	
+
+BE: relationsNNScampaignNN
+EQ class: runvbdealingsnns	campaignvbtheynns	campaignvbdealingsnns	relationsnnsrunvb	runnnofinthemnns	runnnofintheynns	runnnofindealingsnns	dealingsnnscampaignnn	campaignnnofinrelationsnns	runvbthemnns	theynnspolitical_campaignnn	themnnsrunvb	campaignnnofintheynns	relationsnnsrunnn	theynnscampaignvb	political_campaignnnofinrelationsnns	dealingsnnspolitical_campaignnn	runvbtheynns	themnnscampaignvb	relationsnnscampaignvb	themnnspolitical_campaignnn	theynnsrunvb	relationsnnspolitical_campaignnn	dealingsnnsrunnn	campaignvbthemnns	themnnsrunnn	theynnsrunnn	campaignnnofindealingsnns	runvbrelationsnns	campaignvbrelationsnns	political_campaignnnofintheynns	theynnscampaignnn	political_campaignnnofinthemnns	dealingsnnsrunvb	runnnofinrelationsnns	campaignnnofinthemnns	political_campaignnnofindealingsnns	themnnscampaignnn	dealingsnnscampaignvb	
+
+BE: educationNNsystemNN
+EQ class: pupilnnofinsystemnn	systemnnofinteachingnn	pedagoguennofinsystemnn	educatornnofinsystemnn	systemnnofindidacticsnn	systemnnofineducationaljj	educational_activitynnofinsystemnn	educationaljjsystemnn	didacticsnnofinsystemnn	instructionnnsystemnn	systemnneducatevb	systemnnofininstructionnn	pedagogynnofinsystemnn	teachingnnsystemnn	systemnnofineducational_activitynn	educateennofinsystemnn	studentnnofinsystemnn	instructionnnofinsystemnn	educationaljjofinsystemnn	systemnnofineducationnn	teachingnnofinsystemnn	pedagognnofinsystemnn	educationnnofinsystemnn	systemnnofinpedagogynn	didacticsnnsystemnn	pedagogynnsystemnn	educational_activitynnsystemnn	educativennofinsystemnn	
+
+BE: iPRPthinkVBP
+EQ class: iprpbelievevbp	iprpconceivevbp	thoughtnnofiniprp	ideanniprp	iprpconsidervbp	ideannofiniprp	thoughtnniprp	
+
+BE: campaignNNhelpVB
+EQ class: runnnaidvb	helpnnofinrunnn	political_campaignnnhelpvb	assistantnnofinpolitical_campaignnn	assistnnofinrunnn	supporternncampaignnn	political_campaignnnaidvb	assistantnncampaignnn	assistantnnrunnn	assistancennofinpolitical_campaignnn	assistnnofinpolitical_campaignnn	aidnnofinpolitical_campaignnn	assistancennofincampaignnn	helpernnofinpolitical_campaignnn	campaignnnassistvb	campaignnnaidvb	aidnnofinrunnn	helpernncampaignnn	runnnassistvb	aidnnofincampaignnn	helpernnrunnn	helpnnrunnn	assistancennofinrunnn	helpnnofincampaignnn	helpernnofinrunnn	helpernnpolitical_campaignnn	runnnhelpvb	assistnnofincampaignnn	helpernnofincampaignnn	assistantnnofinrunnn	supporternnofincampaignnn	helpnnofinpolitical_campaignnn	political_campaignnnassistvb	helpnnpolitical_campaignnn	assistantnnofincampaignnn	helpnncampaignnn	supporternnrunnn	supporternnpolitical_campaignnn	assistantnnpolitical_campaignnn	supporternnofinpolitical_campaignnn	supporternnofinrunnn	
+
+BE: levelNNspellsVBZ
+EQ class: spellernnlevelnn	levelnnspellvbz	degreennspellvbz	poor_spellernnofinlevelnn	spellernnofingradenn	gradennspell_outvbz	spellingnngradenn	poor_spellernnlevelnn	spellingnnlevelnn	good_spellernnofingradenn	spellingnnofinlevelnn	spellernnofinlevelnn	good_spellernndegreenn	poor_spellernngradenn	spellernnofindegreenn	degreennspell_outvbz	spellingnnofingradenn	degreennspellsvbz	poor_spellernnofingradenn	gradennspellvbz	spellernngradenn	poor_spellernnofindegreenn	spellingnndegreenn	good_spellernnofindegreenn	good_spellernnofinlevelnn	spellingnnofindegreenn	good_spellernngradenn	good_spellernnlevelnn	levelnnspell_outvbz	gradennspellsvbz	poor_spellernndegreenn	spellernndegreenn	
+
+BE: spellsVBZbenefitsNNS
+EQ class: spellsvbztheynns	spellernnofintheynns	spellvbzbenefitnns	spellernnofinthemnns	spellvbzthemnns	spellvbztheynns	spell_outvbzbenefitnns	poor_spellernnofinthemnns	good_spellernnofintheynns	spellernnofinbenefitsnns	good_spellernnofinbenefitsnns	poor_spellernnofintheynns	good_spellernnofinbenefitnns	spellsvbzbenefitnns	poor_spellernnofinbenefitnns	spell_outvbzbenefitsnns	spellingnnofinbenefitnns	poor_spellernnofinbenefitsnns	spellingnnofinthemnns	spellsvbzthemnns	spellingnnofinbenefitsnns	spell_outvbzthemnns	spellernnofinbenefitnns	spellvbzbenefitsnns	spellingnnofintheynns	good_spellernnofinthemnns	spell_outvbztheynns	
+
+BE: getVBpublicNN
+EQ class: getvbworldnn	acquirevbpublicnn	acquiringnnofinpopulacenn	getvbpopulacenn	acquiringnnofinworldnn	acquiringnnofinpublicnn	acquirevbworldnn	acquirevbpopulacenn	gettingnnofinworldnn	gettingnnofinpopulacenn	gettingnnofinpublicnn	
+
+BE: campaignNNonINlevelNN
+EQ class: campaignnnoningradenn	degreennrunnn	levelnncampaignvb	degreennrunvb	gradenncampaignvb	levelnncampaignnn	runnnoninlevelnn	runnnoningradenn	gradennrunnn	runvblevelnn	degreenncampaignnn	runvbdegreenn	political_campaignnnonindegreenn	levelnnrunvb	political_campaignnnoningradenn	political_campaignnnoninlevelnn	runnnonindegreenn	gradenncampaignnn	runvbgradenn	campaignnnonindegreenn	campaignvblevelnn	campaignvbgradenn	degreennpolitical_campaignnn	gradennrunvb	degreenncampaignvb	campaignvbdegreenn	levelnnrunnn	levelnnpolitical_campaignnn	gradennpolitical_campaignnn	
+
+BE: benefitsNNSofINartsNNS
+EQ class: benefitsnnsofinliberal_artsnns	themnnsbenefitsnns	humanistic_disciplinennsbenefitsnns	benefitsnnsofintheynns	humanitiesnnsthemnns	humanistic_disciplinennstheynns	themnnstheynns	themnnsthemnns	benefitsnnsofinthemnns	theynnsbenefitsnns	benefitsnnsofinhumanitiesnns	benefitnnsofinartsnns	benefitsnnsofinhumanistic_disciplinenns	themnnsofinliberal_artsnns	benefitnnsofinhumanitiesnns	themnnsofinthemnns	liberal_artsnnsbenefitsnns	themnnsbenefitnns	theynnsofinliberal_artsnns	benefitnnsofintheynns	humanitiesnnstheynns	themnnsofinhumanitiesnns	benefitnnsofinliberal_artsnns	themnnsofintheynns	theynnsthemnns	benefitnnsofinthemnns	artsnnstheynns	themnnsofinartsnns	theynnstheynns	liberal_artsnnsbenefitnns	humanitiesnnsbenefitnns	artsnnsbenefitsnns	humanistic_disciplinennsbenefitnns	artsnnsbenefitnns	liberal_artsnnstheynns	theynnsofinhumanitiesnns	theynnsofinthemnns	theynnsofinartsnns	theynnsofintheynns	liberal_artsnnsthemnns	benefitnnsofinhumanistic_disciplinenns	themnnsofinhumanistic_disciplinenns	theynnsbenefitnns	theynnsofinhumanistic_disciplinenns	humanistic_disciplinennsthemnns	artsnnsthemnns	humanitiesnnsbenefitsnns	
+
+BE: artsNNSinINsystemNN
+EQ class: liberal_artsnnsininsystemnn	themnnsininsystemnn	systemnnliberal_artsnns	humanistic_disciplinennsininsystemnn	systemnnhumanitiesnns	systemnntheynns	systemnnartsnns	humanitiesnnsininsystemnn	systemnnthemnns	systemnnhumanistic_disciplinenns	theynnsininsystemnn	
+
+BE: getVBbehindINitPRP
+EQ class: acquirevbbehindinitprp	
+
+BE: thinkVBPalsoRB
+EQ class: thoughtnnofinalsorb	considervbpalsorb	ideannofinalsorb	believevbpalsorb	conceivevbpalsorb	
+
+BE: levelNN
+EQ class: degreenn	gradenn	
+
+BE: artNN
+EQ class: artyjj	artisticjj	fine_artnn	
+
+BE: touchesNNS
+EQ class: theynns	touchnns	touchingnns	themnns	
+
+BE: livesNNS
+EQ class: theynns	themnns	lifenns	
+
+BE: beneficialJJ
+EQ class: benefitnn	goodjj	
+
+BE: ourPRP$livesNNS
+EQ class: ourprp$themnns	theynnsofinourprp$	lifennsofinourprp$	themnnsofinourprp$	ourprp$theynns	ourprp$lifenns	livesnnsofinourprp$	
+
+BE: artNNtouchesNNS
+EQ class: touchvbartyjj	fine_artnntouchvb	artisticjjtouchingnns	touchesnnsofinartnn	theynnsofinartisticjj	touchnnsofinartnn	theynnsofinartyjj	artisticjjtouchvb	touchesnnsofinartyjj	artnntouchvb	touchnnsofinartyjj	fine_artnntheynns	theynnsofinartnn	themnnsofinartisticjj	touchingnnsofinartnn	artisticjjtheynns	touchingnnsofinartyjj	theynnsofinfine_artnn	artnntheynns	touchingnnsofinfine_artnn	themnnsofinartnn	themnnsofinfine_artnn	touchvbfine_artnn	artnntouchnns	artisticjjtouchnns	touchesnnsofinfine_artnn	artyjjtouchesnns	artyjjtouchvb	touchesnnsofinartisticjj	touchvbartisticjj	artnntouchingnns	artyjjtouchnns	artnnthemnns	touchnnsofinfine_artnn	artyjjthemnns	fine_artnntouchingnns	fine_artnntouchnns	fine_artnnthemnns	themnnsofinartyjj	touchnnsofinartisticjj	artisticjjthemnns	artisticjjtouchesnns	fine_artnntouchesnns	touchingnnsofinartisticjj	touchvbartnn	artyjjtouchingnns	artyjjtheynns	
+
+BE: itPRPhaveAUX
+EQ class: rich_personnnofinitprp	havennofinitprp	wealthy_personnnofinitprp	itprphave_gotaux	itprpholdaux	
+
+BE: itPRPisAUX
+EQ class: itprpbeaux	
+
+BE: isAUXbeneficialJJ
+EQ class: isauxbenefitnn	beauxbenefitnn	isauxgoodjj	beauxbeneficialjj	beauxgoodjj	
+
+BE: allDTofINlivesNNS
+EQ class: alldtofinthemnns	alldtofintheynns	alldtofinlifenns	
+
+BE: beAUXonINlevelNN
+EQ class: beauxonindegreenn	beauxoningradenn	
+
+BE: isAUXinINitselfPRP
+EQ class: beauxininitselfprp	
+
+BE: isAUXnotRB
+EQ class: beauxnotrb	
+
+BE: expressionNN
+EQ class: facial_expressionnn	aspectnn	facenn	looknn	
+
+BE: communicationNN
+EQ class: communicatingnn	communicationaljj	
+
+BE: importantJJ
+EQ class: of_importjj	importancenn	
+
+BE: personalJJ
+EQ class: 
+
+BE: humanJJ
+EQ class: humannessnn	humanitynn	humannn	
+
+BE: personalJJexpressionNN
+EQ class: personaljjaspectnn	personaljjlooknn	personaljjfacial_expressionnn	personaljjfacenn	
+
+BE: humanJJcommunicationNN
+EQ class: humannessnncommunicationnn	humannncommunicationaljj	communicatevbhumanlyrb	humanitynncommunicatingnn	humannessnncommunicatingnn	passvbhumanlyrb	humannncommunicationnn	put_acrossvbhumanlyrb	pass_alongvbhumanlyrb	communicationalvbhumanlyrb	humanitynncommunicationaljj	humanitynncommunicationnn	humanjjcommunicationaljj	pass_onvbhumanlyrb	humannessnncommunicationaljj	humanjjcommunicatingnn	humannncommunicatingnn	
+
+BE: itPRPisAUX
+EQ class: itprpbeaux	
+
+BE: isAUXimportantJJ
+EQ class: beauximportancenn	beauximportantjj	beauxof_importjj	isauxof_importjj	isauximportancenn	
+
+BE: artNN
+EQ class: artyjj	artisticjj	fine_artnn	
+
+BE: formNN
+EQ class: signifiernn	word_formnn	descriptornn	
+
+BE: subjectsNNS
+EQ class: themenns	topicnns	theynns	subjectnns	themnns	
+
+BE: throughsNNS
+EQ class: theynns	themnns	
+
+BE: professionsNNS
+EQ class: professionnns	theynns	themnns	
+
+BE: learningVBG
+EQ class: larnvbg	learnvbg	acquirevbg	
+
+BE: practicingVBG
+EQ class: practisevbg	exercisevbg	practicevbg	dovbg	
+
+BE: learningVBG
+EQ class: larnvbg	learnvbg	acquirevbg	
+
+BE: makingVBG
+EQ class: makevbg	dovbg	
+
+BE: breakVB
+EQ class: interruptvb	
+
+BE: greatJJ
+EQ class: greatnessnn	
+
+BE: otherJJ
+EQ class: 
+
+BE: otherJJsubjectsNNS
+EQ class: otherjjtopicnns	otherjjtheynns	otherjjsubjectnns	otherjjthemenns	otherjjthemnns	
+
+BE: artNNformNN
+EQ class: artnnsignifiernn	artyjjdescriptornn	signifiernnofinartnn	word_formnnofinfine_artnn	fine_artnndescriptornn	fine_artnnword_formnn	signifiernnofinartyjj	artyjjformnn	word_formnnofinartnn	word_formnnofinartisticjj	artnnword_formnn	descriptornnofinartyjj	formnnofinartnn	descriptornnofinartisticjj	formnnofinfine_artnn	formnnofinartyjj	signifiernnofinfine_artnn	formnnofinartisticjj	descriptornnofinfine_artnn	artyjjsignifiernn	artisticjjformnn	artnndescriptornn	artisticjjword_formnn	fine_artnnformnn	signifiernnofinartisticjj	artisticjjdescriptornn	fine_artnnsignifiernn	descriptornnofinartnn	word_formnnofinartyjj	artyjjword_formnn	artisticjjsignifiernn	
+
+BE: learningVBGformNN
+EQ class: scholarnnofindescriptornn	learnernnofinsignifiernn	learnvbgsignifiernn	larnvbgdescriptornn	larnvbgsignifiernn	assimilatornnofinsignifiernn	acquirevbgsignifiernn	acquirevbgword_formnn	scholarnnofinformnn	learnernnofinformnn	learnernnofinword_formnn	learnvbgdescriptornn	larnvbgformnn	scholarnnofinsignifiernn	larnvbgword_formnn	scholarnnofinword_formnn	acquirevbgformnn	acquirevbgdescriptornn	learnvbgformnn	learnernnofindescriptornn	assimilatornnofinword_formnn	learningvbgdescriptornn	assimilatornnofindescriptornn	learnvbgword_formnn	learningvbgword_formnn	assimilatornnofinformnn	learningvbgsignifiernn	
+
+BE: learningVBGsubjectsNNS
+EQ class: acquirevbgthemnns	larnvbgsubjectnns	learnvbgtopicnns	scholarnnofinsubjectnns	learnernnofintheynns	scholarnnofinsubjectsnns	learnernnofinsubjectnns	scholarnnofintheynns	assimilatornnofintheynns	learningvbgtheynns	scholarnnofintopicnns	acquirevbgtheynns	learningvbgtopicnns	larnvbgsubjectsnns	acquirevbgsubjectnns	scholarnnofinthemnns	acquirevbgsubjectsnns	learnernnofinsubjectsnns	learnernnofinthemenns	larnvbgthemnns	learnvbgsubjectnns	assimilatornnofinthemenns	assimilatornnofinthemnns	learningvbgthemenns	learnvbgthemnns	learnvbgthemenns	learnvbgtheynns	assimilatornnofintopicnns	learnernnofinthemnns	assimilatornnofinsubjectsnns	scholarnnofinthemenns	learningvbgthemnns	larnvbgthemenns	learnernnofintopicnns	learnvbgsubjectsnns	larnvbgtheynns	assimilatornnofinsubjectnns	acquirevbgthemenns	larnvbgtopicnns	acquirevbgtopicnns	learningvbgsubjectnns	
+
+BE: breakVBthroughsNNS
+EQ class: breakvbtheynns	interruptvbthroughsnns	interruptvbtheynns	breakvbthemnns	interruptvbthemnns	
+
+BE: isAUXgreatJJ
+EQ class: beauxgreatnessnn	isauxgreatnessnn	beauxgreatjj	
+
+BE: throughsNNSinINprofessionsNNS
+EQ class: themnnsinintheynns	theynnsinintheynns	theynnsininthemnns	theynnsininprofessionsnns	themnnsininprofessionnns	themnnsininprofessionsnns	throughsnnsininprofessionnns	throughsnnsinintheynns	throughsnnsininthemnns	theynnsininprofessionnns	themnnsininthemnns	
+
+BE: greatJJforINlearningVBG
+EQ class: greatnessnnforinacquirevbg	learningvbggreatlyrb	acquirevbggreatlyrb	greatnessnnforinlarnvbg	greatnessnnforinlearnvbg	greatjjforinacquirevbg	learnvbggreatlyrb	greatjjforinlearnvbg	larnvbggreatlyrb	greatnessnnforinlearningvbg	greatjjforinlarnvbg	
+
+BE: greatJJforINmakingVBG
+EQ class: greatnessnnforindovbg	greatjjforindovbg	greatnessnnforinmakingvbg	greatnessnnforinmakevbg	makingvbggreatlyrb	greatjjforinmakevbg	dovbggreatlyrb	makevbggreatlyrb	
+
+BE: isAUXhowWRBlearningVBG
+EQ class: isauxhowwrblarnvbg	isauxhowwrbacquirevbg	isauxhowwrblearnvbg	beauxhowwrblearnvbg	beauxhowwrbacquirevbg	beauxhowwrblearningvbg	beauxhowwrblarnvbg	
+
+BE: EinsteinPersonAnnotation
+EQ class: 
+
+BE: violinNN
+EQ class: fiddlenn	
+
+BE: playedVBD
+EQ class: playvbd	
+
+BE: EinsteinPersonAnnotationplayedVBD
+EQ class: playernnofineinsteinpersonannotation	participantnneinsteinpersonannotation	dramannofineinsteinpersonannotation	participantnnofineinsteinpersonannotation	playnnofineinsteinpersonannotation	einsteinpersonannotationplayvbd	dramatic_playnnofineinsteinpersonannotation	playingnnofineinsteinpersonannotation	playingnneinsteinpersonannotation	playernneinsteinpersonannotation	
+
+BE: playedVBDviolinNN
+EQ class: playedvbdfiddlenn	playvbdviolinnn	dramannofinviolinnn	playnnofinviolinnn	playnnofinfiddlenn	playingnnofinviolinnn	playvbdfiddlenn	dramannofinfiddlenn	dramatic_playnnofinfiddlenn	participantnnofinfiddlenn	participantnnofinviolinnn	playernnofinfiddlenn	dramatic_playnnofinviolinnn	playernnofinviolinnn	playingnnofinfiddlenn	
+
+BE: playedVBDAfterallRB
+EQ class: playingnnofinafterallrb	playernnofinafterallrb	dramannofinafterallrb	participantnnofinafterallrb	playnnofinafterallrb	dramatic_playnnofinafterallrb	playvbdafterallrb	
+
+BE: playedVBDbeautifullyRB
+EQ class: beautifuljjdramatic_playnn	beautifuljjdramann	dramatic_playnnofinbeautifullyrb	beautifuljjininplaynn	beautifuljjininplayernn	participantnnofinbeautifullyrb	playnnofinbeautifullyrb	playingnnofinbeautifullyrb	beautifuljjininplayedvbd	beautifuljjinindramann	playernnofinbeautifullyrb	playvbdbeautifullyrb	beautifuljjinindramatic_playnn	beautifuljjparticipantnn	beautifuljjplayingnn	beautifuljjplayernn	beautifuljjininplayvbd	beautifuljjininplayingnn	beautifuljjplaynn	beautifuljjininparticipantnn	dramannofinbeautifullyrb	
+

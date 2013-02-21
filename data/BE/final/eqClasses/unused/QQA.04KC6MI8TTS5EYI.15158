@@ -1,0 +1,96 @@
+BE: PeopleNNS
+EQ class: 
+
+BE: offenseNN
+EQ class: discourtesynn	offencenn	offensive_activitynn	
+
+BE: peopleNNS
+EQ class: theynns	themnns	
+
+BE: peopleNNS
+EQ class: theynns	themnns	
+
+BE: warsNNS
+EQ class: warnns	theynns	warfarenns	themnns	
+
+BE: comesVBZ
+EQ class: comevbz	come_upvbz	
+
+BE: FrenchJJ
+EQ class: gallicjj	francenn	
+
+BE: FrenchJJ
+EQ class: gallicjj	francenn	
+
+BE: mightyJJ
+EQ class: mightinessnn	mightnn	
+
+BE: gayJJ
+EQ class: sunnyjj	cheeryjj	
+
+BE: FrenchJJPeopleNNS
+EQ class: gallicjjpeoplenns	francennpeoplenns	
+
+BE: FrenchJJpeopleNNS
+EQ class: gallicjjthemnns	francenntheynns	gallicjjpeoplenns	frenchjjtheynns	francennthemnns	gallicjjtheynns	frenchjjthemnns	francennpeoplenns	
+
+BE: mightyJJpeopleNNS
+EQ class: themvbmightilyrb	theyvbmightilyrb	mightinessnnpeoplenns	peoplevbmightilyrb	mightnnpeoplenns	mightnnthemnns	mightinessnnthemnns	mightyjjtheynns	mightyjjthemnns	mightnntheynns	mightinessnntheynns	
+
+BE: peopleNNSareAUX
+EQ class: themnnsbeaux	peoplennsbeaux	theynnsareaux	themnnsareaux	theynnsbeaux	
+
+BE: theyPRPareAUX
+EQ class: frenchprpareaux	theyprpbeaux	peopleprpbeaux	warsprpareaux	frenchprpbeaux	warsprpbeaux	peopleprpareaux	
+
+BE: itPRPcomesVBZ
+EQ class: approachnnitprp	comingnnofinitprp	itprpcome_upvbz	approachingnnofinitprp	approachingnnitprp	comingnnitprp	approachnnofinitprp	itprpcomevbz	
+
+BE: areAUXpeopleNNS
+EQ class: beauxthemnns	areauxthemnns	beauxpeoplenns	beauxtheynns	areauxtheynns	
+
+BE: areAUXgayJJ
+EQ class: areauxcheeryjj	areauxsunnyjj	beauxsunnyjj	beauxcheeryjj	beauxgayjj	
+
+BE: comesVBZtoTOwarsNNS
+EQ class: come_upvbztototheynns	comevbztototheynns	comevbztotothemnns	come_upvbztotowarnns	comevbztotowarnns	comesvbztototheynns	comesvbztotowarnns	comevbztotowarfarenns	come_upvbztotowarfarenns	come_upvbztotothemnns	comesvbztotowarfarenns	comesvbztotothemnns	comevbztotowarsnns	come_upvbztotowarsnns	
+
+BE: areAUXwhenWRBcomesVBZ
+EQ class: areauxwhenwrbcomevbz	beauxwhenwrbcomevbz	beauxwhenwrbcomesvbz	areauxwhenwrbcome_upvbz	beauxwhenwrbcome_upvbz	
+
+BE: peopleNNSpeopleNNS
+EQ class: peoplennsthemnns	peoplennofintheynns	peoplennofinpeoplenns	themnnstheynns	themnnofinpeoplenns	themnnsthemnns	themnnofinthemnns	themnnofintheynns	theynnstheyvb	theynnofinthemnns	peoplennofinthemnns	theynnspeoplevb	theynnsthemvb	theynnofintheynns	themnnstheyvb	peoplennsthemvb	theynnsthemnns	peoplennstheynns	peoplennspeoplevb	theynnspeoplenns	themnnspeoplevb	theynnstheynns	themnnspeoplenns	peoplennstheyvb	theynnofinpeoplenns	themnnsthemvb	
+
+BE: FrenchNNPS
+EQ class: 
+
+BE: militaryNN
+EQ class: war_machinenn	armed_forcesnn	military_machinenn	militaristicjj	armed_servicesnn	
+
+BE: timeNN
+EQ class: clipnn	
+
+BE: meanVBP
+EQ class: intendvbp	
+
+BE: poorJJ
+EQ class: wretchedjj	miserablejj	haplessjj	piteousjj	pitiablejj	patheticjj	pitifuljj	misfortunatejj	
+
+BE: iPRPmeanVBP
+EQ class: significationnniprp	iprpintendvbp	meaningnnofiniprp	meaningnniprp	significancenniprp	significancennofiniprp	importnnofiniprp	importnniprp	significationnnofiniprp	
+
+BE: FrenchNNPSwereAUX
+EQ class: frenchnnpsbeaux	
+
+BE: wereAUXpoorJJ
+EQ class: beauxpatheticjj	wereauxpitiablejj	beauxmisfortunatejj	wereauxmiserablejj	beauxpiteousjj	beauxwretchedjj	beauxhaplessjj	beauxmiserablejj	wereauxpiteousjj	wereauxmisfortunatejj	wereauxhaplessjj	wereauxpitifuljj	wereauxwretchedjj	wereauxpatheticjj	beauxpitifuljj	beauxpitiablejj	beauxpoorjj	
+
+BE: wereAUXatINtimeNN
+EQ class: beauxatinclipnn	wereauxatinclipnn	beauxatintimenn	
+
+BE: poorJJonINmilitaryNN
+EQ class: misfortunatejjoninarmed_forcesnn	misfortunatejjoninmilitarynn	piteousjjoninarmed_forcesnn	pitiablejjoninarmed_forcesnn	pitiablejjoninwar_machinenn	poorjjoninmilitary_machinenn	piteousjjoninmilitarynn	haplessjjoninmilitarynn	militarizevbpoorlyrb	wretchedjjoninmilitary_machinenn	miserablejjoninwar_machinenn	patheticjjoninarmed_servicesnn	misfortunatejjoninarmed_servicesnn	militaristicvbpoorlyrb	wretchedjjoninmilitarynn	pitifuljjoninarmed_servicesnn	piteousjjoninarmed_servicesnn	misfortunatejjoninmilitaristicjj	misfortunatejjoninmilitary_machinenn	miserablejjoninmilitaristicjj	wretchedjjoninwar_machinenn	militarisevbpoorlyrb	pitifuljjoninmilitarynn	wretchedjjoninarmed_servicesnn	pitifuljjoninwar_machinenn	haplessjjoninmilitary_machinenn	wretchedjjoninmilitaristicjj	haplessjjoninarmed_servicesnn	pitifuljjoninmilitary_machinenn	haplessjjoninarmed_forcesnn	haplessjjoninwar_machinenn	pitiablejjoninmilitarynn	patheticjjoninmilitary_machinenn	wretchedjjoninarmed_forcesnn	miserablejjoninarmed_forcesnn	poorjjoninmilitaristicjj	pitifuljjoninmilitaristicjj	patheticjjoninmilitaristicjj	poorjjoninwar_machinenn	pitiablejjoninmilitaristicjj	haplessjjoninmilitaristicjj	miserablejjoninmilitarynn	poorjjoninarmed_forcesnn	misfortunatejjoninwar_machinenn	pitiablejjoninarmed_servicesnn	miserablejjoninmilitary_machinenn	pitifuljjoninarmed_forcesnn	piteousjjoninmilitary_machinenn	piteousjjoninwar_machinenn	patheticjjoninwar_machinenn	piteousjjoninmilitaristicjj	patheticjjoninmilitarynn	patheticjjoninarmed_forcesnn	pitiablejjoninmilitary_machinenn	miserablejjoninarmed_servicesnn	poorjjoninarmed_servicesnn	
+
+BE: wereAUX..RB
+EQ class: beauxrb	beaux..rb	wereauxrb	
+

@@ -1,0 +1,41 @@
+#http://en.wikipedia.org/wiki/Waterfallsthe answer is here.read up.but yeh, water falling off something.
+#(S1 (NP (NP (NNP http)) (: :) (S (NP (NN //en.wikipedia.org/wiki/Waterfallsthe) (NN answer)) (VP (AUX is) (VP (VBN here.read) (NP (JJ up.but) (NNS yeh)) (, ,) (S (NP (NN water)) (VP (VBG falling) (PRT (RP off)) (NP (NN something))))))) (. .)))
+#Rule:Nouns
+r1httpNNP
+r1//en.wikipedia.org/wiki/WaterfallstheNN
+r1answerNN
+r1yehPersonAnnotation
+r1waterNN
+r1somethingNN
+
+#Rule:Verbs
+r2here.readVBN
+
+#Rule:V-PRT
+r3fallingVBGoffRP
+
+#Rule:Adjs
+r4up.butJJ
+
+#Rule:Adj-Noun
+r5up.butJJyehPersonAnnotation
+
+#Rule:N-HeadNoun
+r8//en.wikipedia.org/wiki/WaterfallstheNNanswerNN
+
+#Rule:HeadNoun-V
+r11waterNNfallingVBG
+
+#Rule:V-HeadNoun
+r21here.readVBNyehPersonAnnotation
+r21fallingVBGsomethingNN
+
+#Rule:V-HeadNoun
+r22here.readVBNwaterNN
+
+#Rule:V-HeadNoun(passive)
+r23here.readVBNanswerNN
+
+@lemmas-left	water	//en.wikipedia.org/wiki/Waterfallsthe	http	fall	yeh	answer	//en.wikipedia.org/wiki/waterfallsthe	read	falling	something	here.read	up.but	
+@lemmas-right	water	fall	answer	yeh	off	falling	something	
+@lemmas-center	

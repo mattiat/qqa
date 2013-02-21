@@ -1,0 +1,582 @@
+BE: scienceNN
+EQ class: scientific_disciplinenn	
+
+BE: sortNN
+EQ class: kindnn	varietynn	formnn	
+
+BE: biologyNN
+EQ class: biologicjj	biological_sciencenn	biologicaljj	
+
+BE: mathsNNS
+EQ class: mathnns	theynns	mathematicsnns	themnns	
+
+BE: dealsNNS
+EQ class: business_dealnns	dealnns	theynns	tradenns	themnns	
+
+BE: proofNN
+EQ class: cogent_evidencenn	
+
+BE: *ProveLocationAnnotation
+EQ class: 
+
+BE: possibleJJ
+EQ class: possiblenessnn	possibilitynn	
+
+BE: OnlyJJ
+EQ class: lonesomejj	solejj	lonejj	solitaryjj	
+
+BE: *CDdealsNNS
+EQ class: *cddealnns	*.cdbusiness_dealnns	*.cddealsnns	*cdbusiness_dealnns	*.cdtradenns	*cdtheynns	*.cdtheynns	*.cddealnns	*cdtradenns	*cdthemnns	*.cdthemnns	
+
+BE: anythingCDdealsNNS
+EQ class: anythingcdtradenns	anythingcdtheynns	anythingcdbusiness_dealnns	anythingcddealnns	anythingcdthemnns	
+
+BE: OnlyJJdealsNNS
+EQ class: solejjtheynns	lonesomejjthemnns	solitaryjjbusiness_dealnns	onlyjjtradenns	solejjtradenns	lonesomejjtradenns	onlyjjbusiness_dealnns	solejjbusiness_dealnns	solejjdealsnns	lonesomejjdealsnns	solitaryjjdealsnns	onlyjjthemnns	lonejjtheynns	solejjthemnns	solitaryjjdealnns	lonesomejjbusiness_dealnns	lonejjthemnns	solitaryjjtheynns	lonejjtradenns	lonejjdealnns	solitaryjjtradenns	lonejjdealsnns	lonejjbusiness_dealnns	onlyjjtheynns	lonesomejjtheynns	lonesomejjdealnns	solitaryjjthemnns	solejjdealnns	onlyjjdealnns	
+
+BE: mathsNNSdealsNNS
+EQ class: dealsnnsofinmathsnns	mathsnnstradenns	tradennsofintheynns	mathematicsnnsaddressvb	handlevbmathematicsnns	theynnsdealsnns	mathnnsdealsnns	mathnnstradenns	treatvbmathnns	mathnnscovervb	tradennsofinmathnns	dealsnnsofintheynns	themnnsdealnns	mathnnstheynns	theynnstheynns	theynnsofinmathnns	covervbthemnns	mathsnnsplowvb	theynnshandlevb	themnnsbusiness_dealnns	mathematicsnnsdealsnns	theynnsdealvb	mathematicsnnsdealnns	dealsnnsofinmathematicsnns	handlevbthemnns	themnnsofinmathsnns	themnnsaddressvb	mathnnsplowvb	themnnstheynns	themnnscovervb	dealvbmathnns	plowvbthemnns	theynnstradenns	handlevbmathnns	themnnsofinmathematicsnns	mathsnnsaddressvb	theynnsaddressvb	themnnstreatvb	mathsnnsthemnns	addressvbthemnns	dealnnsofintheynns	theynnsthemnns	mathsnnstreatvb	business_dealnnsofinthemnns	treatvbthemnns	dealvbtheynns	business_dealnnsofinmathsnns	mathematicsnnsplowvb	theynnsofinthemnns	theynnsofinmathsnns	theynnsofintheynns	dealnnsofinmathsnns	addressvbmathematicsnns	mathsnnshandlevb	mathnnsbusiness_dealnns	mathnnsaddressvb	mathematicsnnstheynns	dealvbmathematicsnns	treatvbtheynns	mathematicsnnsthemnns	covervbmathematicsnns	theynnsofinmathematicsnns	mathsnnstheynns	themnnsdealsnns	addressvbtheynns	business_dealnnsofinmathnns	mathnnsdealnns	mathsnnsdealvb	plowvbmathnns	tradennsofinmathsnns	mathnnshandlevb	theynnsplowvb	themnnstradenns	themnnsofinmathnns	treatvbmathsnns	treatvbmathematicsnns	themnnshandlevb	dealvbthemnns	mathsnnscovervb	mathnnsdealvb	mathematicsnnshandlevb	handlevbmathsnns	covervbtheynns	plowvbmathsnns	mathematicsnnstradenns	dealsnnsofinthemnns	themnnsthemnns	dealvbmathsnns	addressvbmathnns	plowvbmathematicsnns	theynnsbusiness_dealnns	business_dealnnsofintheynns	covervbmathnns	themnnsdealvb	themnnsofinthemnns	mathnnstreatvb	dealnnsofinmathnns	mathsnnsdealnns	mathematicsnnsbusiness_dealnns	theynnstreatvb	mathsnnsbusiness_dealnns	themnnsofintheynns	plowvbtheynns	business_dealnnsofinmathematicsnns	dealsnnsofinmathnns	theynnsdealnns	dealnnsofinthemnns	theynnscovervb	themnnsplowvb	dealnnsofinmathematicsnns	handlevbtheynns	mathematicsnnstreatvb	tradennsofinthemnns	mathnnsthemnns	covervbmathsnns	mathematicsnnscovervb	mathematicsnnsdealvb	addressvbmathsnns	tradennsofinmathematicsnns	
+
+BE: itPRPisAUX
+EQ class: itprpbeaux	
+
+BE: *ProveLocationAnnotationdealsNNS
+EQ class: *provelocationannotationbusiness_dealnns	*provelocationannotationdealnns	*provelocationannotationthemnns	*provelocationannotationtradenns	*provelocationannotationtheynns	
+
+BE: isAUXpossibleJJ
+EQ class: beauxpossibilitynn	beauxpossiblenessnn	beauxpossiblejj	isauxpossiblenessnn	isauxpossibilitynn	
+
+BE: dealsNNSwithINproofNN
+EQ class: proofnnhandlevb	addressvbproofnn	covervbproofnn	proofnndealsnns	cogent_evidencenncovervb	proofnncovervb	theynnswithincogent_evidencenn	cogent_evidencenntradenns	dealvbproofnn	proofnndealvb	proofnnthemnns	dealsnnswithincogent_evidencenn	proofnntradenns	cogent_evidencennplowvb	plowvbproofnn	proofnntheynns	handlevbproofnn	treatvbcogent_evidencenn	proofnnaddressvb	themnnswithinproofnn	cogent_evidencennthemnns	tradennswithincogent_evidencenn	business_dealnnswithinproofnn	cogent_evidencennaddressvb	proofnnplowvb	dealnnswithincogent_evidencenn	cogent_evidencennbusiness_dealnns	cogent_evidencenntheynns	addressvbcogent_evidencenn	cogent_evidencenndealvb	cogent_evidencenntreatvb	dealvbcogent_evidencenn	plowvbcogent_evidencenn	cogent_evidencennhandlevb	theynnswithinproofnn	handlevbcogent_evidencenn	proofnntreatvb	cogent_evidencenndealnns	treatvbproofnn	covervbcogent_evidencenn	proofnndealnns	business_dealnnswithincogent_evidencenn	dealnnswithinproofnn	themnnswithincogent_evidencenn	cogent_evidencenndealsnns	proofnnbusiness_dealnns	tradennswithinproofnn	
+
+BE: isAUX*neverLocationAnnotation
+EQ class: beaux*neverlocationannotation	
+
+BE: questionNN
+EQ class: enquirynn	interrogationnn	querynn	inquirynn	
+
+BE: speciationNN
+EQ class: 
+
+BE: creationistsNNS
+EQ class: theynns	themnns	
+
+BE: macroevolutionNN
+EQ class: 
+
+BE: speciationNN
+EQ class: 
+
+BE: populationsNNS
+EQ class: theynns	populationnns	themnns	
+
+BE: speciesNNS
+EQ class: theynns	themnns	
+
+BE: moreNN
+EQ class: thomas_morenn	sir_thomas_morenn	
+
+BE: routesNNS
+EQ class: routenns	pathnns	theynns	itinerarynns	themnns	
+
+BE: genesNNS
+EQ class: factornns	cistronnns	genenns	geneticaljj	geneticjj	theynns	themnns	genicjj	
+
+BE: answerVB
+EQ class: respondvb	replyvb	
+
+BE: callVB
+EQ class: namevb	
+
+BE: meansVBZ
+EQ class: meanvbz	intendvbz	
+
+BE: becomeVBP
+EQ class: govbp	getvbp	
+
+BE: interbreedVB
+EQ class: crossbreedvb	hybridizevb	crossvb	hybridisevb	
+
+BE: happenedVBN
+EQ class: fall_outvbn	occurvbn	hapvbn	take_placevbn	passvbn	pass_offvbn	come_aboutvbn	go_onvbn	happenvbn	
+
+BE: isolatedVBN
+EQ class: isolatevbn	insulatevbn	
+
+BE: mixVB
+EQ class: comminglevb	coalescevb	meldvb	conflatevb	fusevb	immixvb	combinevb	blendvb	mergevb	fluxvb	
+
+BE: evolveVBdownRP
+EQ class: developvbdownrp	germinatevbdownrp	
+
+BE: sameJJ
+EQ class: 
+
+BE: unableJJ
+EQ class: 
+
+BE: otherJJ
+EQ class: 
+
+BE: differentJJ
+EQ class: differencenn	
+
+BE: twoCDpopulationsNNS
+EQ class: deucecdpopulationsnns	2cdthemnns	iicdtheynns	iicdpopulationsnns	deucecdtheynns	twocdthemnns	iicdpopulationnns	2cdpopulationsnns	deucecdthemnns	iicdthemnns	twocdpopulationnns	2cdtheynns	2cdpopulationnns	twocdtheynns	deucecdpopulationnns	
+
+BE: sameJJspeciesNNS
+EQ class: samejjthemnns	samejjtheynns	
+
+BE: differentJJroutesNNS
+EQ class: differencennpathnns	routevbdifferentlyrb	differencenntheynns	differentjjitinerarynns	differentjjtheynns	differentjjroutenns	differentjjpathnns	differencennitinerarynns	differentjjthemnns	differencennroutesnns	differencennroutenns	differencennthemnns	
+
+BE: yourPRP$questionNN
+EQ class: yourprp$call_into_questionvb	querynnofinyourprp$	yourprp$inquirynn	yourprp$interrogationnn	interrogationnnofinyourprp$	oppugnvbyourprp$	call_into_questionvbyourprp$	questionnnofinyourprp$	yourprp$enquirynn	yourprp$oppugnvb	questionvbyourprp$	yourprp$questionvb	inquirynnofinyourprp$	yourprp$querynn	enquirynnofinyourprp$	
+
+BE: theirPRP$genesNNS
+EQ class: cistronnnsofintheirprp$	theirprp$geneticjj	theirprp$cistronnns	theirprp$themnns	genennsofintheirprp$	geneticvbtheirprp$	theirprp$geneticvb	geneticalvbtheirprp$	theirprp$geneticaljj	geneticaljjofintheirprp$	theirprp$genicjj	theynnsofintheirprp$	theirprp$factornns	themnnsofintheirprp$	theirprp$genenns	theirprp$theynns	theirprp$geneticalvb	genicjjofintheirprp$	geneticjjofintheirprp$	genicvbtheirprp$	factornnsofintheirprp$	genesnnsofintheirprp$	theirprp$genicvb	
+
+BE: speciationNNmeansVBZ
+EQ class: significancennspeciationnn	importnnspeciationnn	speciationnnmeanvbz	significationnnspeciationnn	significancennofinspeciationnn	significationnnofinspeciationnn	meaningnnspeciationnn	speciationnnintendvbz	importnnofinspeciationnn	meaningnnofinspeciationnn	
+
+BE: populationsNNSbecomeVBP
+EQ class: themnnsbecomevbp	theynnsgetvbp	themnnsgetvbp	populationnnsbecomevbp	themnnsgovbp	theynnsgovbp	populationnnsgetvbp	populationsnnsgovbp	populationsnnsgetvbp	populationnnsgovbp	theynnsbecomevbp	
+
+BE: theyPRPevolveVB
+EQ class: mathsprpevolvevb	speciesprpdevelopvb	routesprpdevelopvb	anti-evolutionistsprpdevelopvb	fruitfliesprpevolvevb	eventsprpevolvevb	fruitfliesprpgerminatevb	genesprpevolvevb	creationistsprpgerminatevb	routesprpevolvevb	speciesprpevolvevb	dealsprpdevelopvb	eventsprpdevelopvb	genesprpdevelopvb	mathsprpdevelopvb	populationsprpdevelopvb	mathsprpgerminatevb	fruitfliesprpdevelopvb	sub-speciesprpdevelopvb	sub-speciesprpgerminatevb	routesprpgerminatevb	changesprpgerminatevb	theyprpgerminatevb	sub-speciesprpevolvevb	dealsprpevolvevb	anti-evolutionistsprpevolvevb	populationsprpevolvevb	anti-evolutionistsprpgerminatevb	eventsprpgerminatevb	populationsprpgerminatevb	speciesprpgerminatevb	creationistsprpevolvevb	changesprpdevelopvb	changesprpevolvevb	theyprpdevelopvb	dealsprpgerminatevb	genesprpgerminatevb	creationistsprpdevelopvb	
+
+BE: theyPRPareAUX
+EQ class: mathsprpareaux	anti-evolutionistsprpareaux	anti-evolutionistsprpbeaux	mathsprpbeaux	speciesprpbeaux	creationistsprpbeaux	creationistsprpareaux	sub-speciesprpareaux	changesprpareaux	eventsprpareaux	fruitfliesprpbeaux	routesprpbeaux	populationsprpbeaux	eventsprpbeaux	speciesprpareaux	fruitfliesprpareaux	dealsprpareaux	populationsprpareaux	sub-speciesprpbeaux	routesprpareaux	theyprpbeaux	dealsprpbeaux	genesprpbeaux	changesprpbeaux	genesprpareaux	
+
+BE: theyPRPmixVB
+EQ class: mixernnofinpopulationsprp	socialnngenesprp	fruitfliesprpfusevb	mixturennofineventsprp	sub-speciesprpmixvb	anti-evolutionistsprpfluxvb	mathsprpimmixvb	theyprpcombinevb	sub-speciesprpimmixvb	theyprpmergevb	fruitfliesprpcoalescevb	creationistsprpcomminglevb	sub-speciesprpblendvb	genesprpimmixvb	creationistsprpfusevb	mixernnofinsub-speciesprp	mixablennofinroutesprp	genesprpfluxvb	dealsprpcoalescevb	speciesprpcomminglevb	mixturennanti-evolutionistsprp	theyprpfusevb	genesprpcoalescevb	routesprpblendvb	populationsprpcoalescevb	routesprpcomminglevb	mixernnofincreationistsprp	mixnnofinmathsprp	anti-evolutionistsprpmixvb	sociablennanti-evolutionistsprp	fruitfliesprpmixvb	dealsprpmixvb	mixturennchangesprp	sub-speciesprpfluxvb	sociablennspeciesprp	sociablennofinpopulationsprp	speciesprpcombinevb	mixablennofingenesprp	anti-evolutionistsprpconflatevb	creationistsprpconflatevb	eventsprpmeldvb	anti-evolutionistsprpcoalescevb	creationistsprpmergevb	mixablennofindealsprp	mixturennroutesprp	creationistsprpmeldvb	sociablennofincreationistsprp	premixnnofinmathsprp	changesprpcombinevb	creationistsprpfluxvb	socialnnsub-speciesprp	fruitfliesprpcombinevb	changesprpblendvb	mixturennspeciesprp	populationsprpconflatevb	mixernnofinchangesprp	eventsprpcoalescevb	sub-speciesprpmeldvb	mixablennofinanti-evolutionistsprp	genesprpmeldvb	eventsprpcomminglevb	premixnnofingenesprp	populationsprpfluxvb	sociablennofindealsprp	mixturennsub-speciesprp	routesprpmixvb	fruitfliesprpcomminglevb	socialnnofinroutesprp	mixernnchangesprp	dealsprpblendvb	eventsprpmergevb	mixablennofineventsprp	sociablennmathsprp	speciesprpmixvb	mixernndealsprp	mixernnofinspeciesprp	sociablennofineventsprp	socialnnofineventsprp	mixablennofinmathsprp	socialnnanti-evolutionistsprp	mixernntheyprp	dealsprpmeldvb	mixnnofineventsprp	eventsprpconflatevb	fruitfliesprpmergevb	premixnnofinspeciesprp	mixablennofinchangesprp	socialnnofinanti-evolutionistsprp	changesprpfusevb	socialnnpopulationsprp	socialnnroutesprp	mathsprpmeldvb	mixablennofinpopulationsprp	socialnnfruitfliesprp	socialnnofingenesprp	socialnneventsprp	mixernnofindealsprp	creationistsprpimmixvb	mixernnmathsprp	mixernncreationistsprp	sociablennchangesprp	mixernngenesprp	eventsprpblendvb	anti-evolutionistsprpcombinevb	mathsprpconflatevb	sub-speciesprpcombinevb	mixturennofinmathsprp	sociablennofinspeciesprp	socialnncreationistsprp	theyprpimmixvb	sociablenntheyprp	mixturennofindealsprp	premixnnofinroutesprp	populationsprpcomminglevb	mixernnofinanti-evolutionistsprp	premixnnofincreationistsprp	mixturenngenesprp	speciesprpfluxvb	mixturenneventsprp	speciesprpcoalescevb	mixnnofinsub-speciesprp	mixnnofinchangesprp	mixturennofinchangesprp	mixturennpopulationsprp	mathsprpfluxvb	changesprpmeldvb	mixernnspeciesprp	mixernnpopulationsprp	dealsprpfusevb	theyprpcoalescevb	changesprpmergevb	anti-evolutionistsprpimmixvb	sociablennofinmathsprp	mixnnofinspeciesprp	routesprpfusevb	dealsprpmergevb	socialnnofinchangesprp	mixturennofinanti-evolutionistsprp	populationsprpcombinevb	socialnnofinmathsprp	sociablennfruitfliesprp	mixnnofinanti-evolutionistsprp	sociablennofinsub-speciesprp	socialnnofincreationistsprp	mixernnroutesprp	anti-evolutionistsprpcomminglevb	sociablennroutesprp	mixernnofinfruitfliesprp	mixablennofinsub-speciesprp	mathsprpblendvb	routesprpcombinevb	mixernnanti-evolutionistsprp	mixernnfruitfliesprp	mixablennofinfruitfliesprp	mixnnofintheyprp	changesprpfluxvb	changesprpmixvb	sociablenngenesprp	anti-evolutionistsprpmeldvb	routesprpmergevb	premixnnofinchangesprp	genesprpfusevb	mixernnofinmathsprp	mixturennofinspeciesprp	mixturennfruitfliesprp	populationsprpmixvb	mixturennofingenesprp	routesprpconflatevb	dealsprpfluxvb	populationsprpimmixvb	premixnnofineventsprp	populationsprpfusevb	speciesprpconflatevb	mixernnsub-speciesprp	socialnnofindealsprp	dealsprpconflatevb	mixnnofinroutesprp	routesprpmeldvb	dealsprpcombinevb	routesprpimmixvb	sub-speciesprpconflatevb	mixturennofinfruitfliesprp	sociablennsub-speciesprp	populationsprpmeldvb	sociablenneventsprp	dealsprpcomminglevb	speciesprpblendvb	premixnnofinsub-speciesprp	mixablennofincreationistsprp	populationsprpblendvb	socialnnspeciesprp	sub-speciesprpcomminglevb	anti-evolutionistsprpmergevb	mathsprpcomminglevb	speciesprpfusevb	mixturennofinsub-speciesprp	mixnnofinpopulationsprp	mixturenndealsprp	mixablennofinspeciesprp	premixnnofintheyprp	eventsprpfluxvb	sub-speciesprpmergevb	changesprpimmixvb	eventsprpmixvb	sociablennofinroutesprp	mixnnofinfruitfliesprp	mathsprpcombinevb	genesprpcomminglevb	eventsprpcombinevb	mixturennofintheyprp	changesprpcoalescevb	anti-evolutionistsprpfusevb	speciesprpimmixvb	genesprpconflatevb	sub-speciesprpcoalescevb	premixnnofinanti-evolutionistsprp	changesprpconflatevb	speciesprpmergevb	creationistsprpblendvb	sociablennofinchangesprp	genesprpblendvb	eventsprpimmixvb	speciesprpmeldvb	socialnnofinsub-speciesprp	sociablennofintheyprp	mixturenntheyprp	theyprpcomminglevb	socialnnofinpopulationsprp	mixturenncreationistsprp	mixnnofindealsprp	genesprpmergevb	premixnnofinpopulationsprp	mixnnofincreationistsprp	mixablennofintheyprp	mixernnofintheyprp	theyprpblendvb	mathsprpmergevb	sociablennofinanti-evolutionistsprp	genesprpcombinevb	mixernnofingenesprp	theyprpmeldvb	fruitfliesprpblendvb	sociablennofingenesprp	changesprpcomminglevb	mixernneventsprp	creationistsprpcombinevb	mixturennofinroutesprp	creationistsprpcoalescevb	fruitfliesprpmeldvb	fruitfliesprpfluxvb	routesprpcoalescevb	mathsprpfusevb	socialnntheyprp	mixturennmathsprp	theyprpconflatevb	socialnnofinspeciesprp	sociablenndealsprp	populationsprpmergevb	socialnnchangesprp	mixturennofincreationistsprp	anti-evolutionistsprpblendvb	mathsprpmixvb	socialnnofinfruitfliesprp	sociablennpopulationsprp	mixturennofinpopulationsprp	theyprpfluxvb	premixnnofinfruitfliesprp	sociablenncreationistsprp	sub-speciesprpfusevb	socialnnofintheyprp	eventsprpfusevb	socialnnmathsprp	socialnndealsprp	sociablennofinfruitfliesprp	premixnnofindealsprp	routesprpfluxvb	fruitfliesprpconflatevb	mathsprpcoalescevb	genesprpmixvb	mixnnofingenesprp	dealsprpimmixvb	mixernnofineventsprp	fruitfliesprpimmixvb	creationistsprpmixvb	mixernnofinroutesprp	
+
+BE: thisDThappenedVBN
+EQ class: thisdtgo_onvbn	thisdtpassvbn	natural_eventnnofinthisdt	happeningnnofinthisdt	occurrentnnthisdt	thisdtoccurvbn	occurrencennofinthisdt	thisdtpass_offvbn	thisdtfall_outvbn	occurrencennthisdt	natural_eventnnthisdt	thisdttake_placevbn	happeningnnthisdt	thisdthappenvbn	occurrentnnofinthisdt	thisdtcome_aboutvbn	thisdthapvbn	
+
+BE: answerVBquestionNN
+EQ class: replynnofinenquirynn	responsennofinenquirynn	respondentnnofinquestionnn	responsennofinquerynn	replyvbinquirynn	replynnofininterrogationnn	respondentnnofininterrogationnn	answernnofinquestionnn	respondentnnofinenquirynn	respondernnofinquestionnn	answervbquerynn	answernnofininterrogationnn	replyvbinterrogationnn	respondernnofininquirynn	answerernnofininquirynn	answervbinterrogationnn	respondentnnofinquerynn	replyvbquestionnn	responsennofinquestionnn	answernnofinquerynn	respondvbenquirynn	respondvbquestionnn	answerernnofinenquirynn	replynnofinquerynn	answernnofinenquirynn	respondernnofinenquirynn	respondvbquerynn	respondernnofininterrogationnn	respondernnofinquerynn	answervbinquirynn	answervbenquirynn	replyvbquerynn	answerernnofinquestionnn	replyvbenquirynn	replynnofinquestionnn	replynnofininquirynn	respondvbinquirynn	responsennofininquirynn	respondvbinterrogationnn	answerernnofinquerynn	answernnofininquirynn	respondentnnofininquirynn	answerernnofininterrogationnn	responsennofininterrogationnn	
+
+BE: callVBmacroevolutionNN
+EQ class: namevbmacroevolutionnn	
+
+BE: interbreedVBmoreNN
+EQ class: crossbreedvbmorenn	crossnnofinmorenn	hybridizationnnofinthomas_morenn	crossingnnofinthomas_morenn	hybridizingnnofinsir_thomas_morenn	hybridizevbmorenn	hybridizationnnofinsir_thomas_morenn	crossnnofinthomas_morenn	interbreedvbthomas_morenn	hybridizevbthomas_morenn	crossbreedingnnofinsir_thomas_morenn	crossingnnofinmorenn	crossvbmorenn	crossbreedingnnofinthomas_morenn	interbreedingnnofinsir_thomas_morenn	crossbreedingnnofinmorenn	hybridisevbsir_thomas_morenn	hybridisationnnofinthomas_morenn	interbreedingnnofinthomas_morenn	hybridizevbsir_thomas_morenn	hybridisevbthomas_morenn	hybridizingnnofinthomas_morenn	crossbreedvbthomas_morenn	interbreedingnnofinmorenn	hybridisationnnofinmorenn	hybridisationnnofinsir_thomas_morenn	hybridizingnnofinmorenn	crossingnnofinsir_thomas_morenn	interbreedvbsir_thomas_morenn	crossbreedvbsir_thomas_morenn	crossnnofinsir_thomas_morenn	hybridisevbmorenn	crossvbthomas_morenn	crossvbsir_thomas_morenn	hybridizationnnofinmorenn	
+
+BE: evolveVBroutesNNS
+EQ class: germinatevbtheynns	evolvevbthemnns	developvbroutenns	evolvevbroutenns	germinatevbpathnns	developvbtheynns	developvbroutesnns	developvbthemnns	developvbpathnns	evolvevbitinerarynns	germinatevbthemnns	evolvevbpathnns	germinatevbitinerarynns	evolvevbtheynns	germinatevbroutesnns	germinatevbroutenns	developvbitinerarynns	
+
+BE: mixVBgenesNNS
+EQ class: mergevbgeneticjj	fusevbtheynns	premixnnofingeneticjj	premixnnofincistronnns	comminglevbcistronnns	blendvbgeneticjj	mixturennofingenesnns	blendvbcistronnns	coalescevbgenicjj	premixnnofingenicjj	premixnnofingenenns	socialnnofingenenns	conflatevbgenenns	fluxvbgenicjj	mergevbgenenns	conflatevbgeneticaljj	sociablennofintheynns	coalescevbgeneticaljj	immixvbtheynns	sociablennofingeneticjj	immixvbthemnns	premixnnofingeneticaljj	sociablennofingenesnns	meldvbtheynns	mergevbgenicjj	coalescevbgenesnns	mixernnofingenicjj	mixvbcistronnns	mixnnofingeneticjj	mixernnofingeneticaljj	mixernnofingeneticjj	socialnnofincistronnns	meldvbgenesnns	combinevbgenenns	comminglevbgenicjj	conflatevbtheynns	mixvbgenicjj	coalescevbtheynns	socialnnofingeneticaljj	comminglevbgeneticjj	socialnnofinthemnns	blendvbfactornns	fluxvbgeneticjj	mixturennofintheynns	mixturennofingenicjj	fluxvbthemnns	mergevbthemnns	socialnnofinfactornns	blendvbthemnns	combinevbthemnns	fluxvbgenesnns	premixnnofinthemnns	sociablennofinthemnns	fusevbgenicjj	mixturennofingenenns	conflatevbgenicjj	immixvbcistronnns	mixvbtheynns	comminglevbtheynns	coalescevbcistronnns	mixablennofinthemnns	mixernnofinfactornns	meldvbgeneticaljj	fluxvbfactornns	comminglevbgeneticaljj	mixablennofingenesnns	comminglevbgenenns	mixnnofinthemnns	socialnnofingenesnns	immixvbgeneticaljj	meldvbgenicjj	mixturennofincistronnns	conflatevbcistronnns	meldvbfactornns	premixnnofinfactornns	meldvbcistronnns	conflatevbfactornns	premixnnofintheynns	conflatevbgenesnns	mixablennofincistronnns	combinevbfactornns	mixernnofintheynns	mixnnofinfactornns	mergevbtheynns	coalescevbfactornns	immixvbfactornns	combinevbgeneticaljj	blendvbgenenns	fusevbfactornns	mixernnofingenenns	mixvbgeneticjj	mergevbgeneticaljj	mixernnofincistronnns	blendvbtheynns	coalescevbgeneticjj	mixablennofingenicjj	combinevbcistronnns	mixernnofingenesnns	fluxvbtheynns	comminglevbfactornns	combinevbgenesnns	immixvbgeneticjj	fusevbcistronnns	fusevbgenenns	mixnnofingenenns	fusevbgenesnns	comminglevbgenesnns	blendvbgenicjj	sociablennofingenicjj	socialnnofintheynns	comminglevbthemnns	immixvbgenenns	mixablennofingeneticjj	blendvbgenesnns	mergevbcistronnns	immixvbgenicjj	mixablennofinfactornns	fluxvbgeneticaljj	blendvbgeneticaljj	meldvbgeneticjj	meldvbthemnns	mixnnofingenesnns	socialnnofingeneticjj	mixnnofintheynns	meldvbgenenns	sociablennofingenenns	mixablennofingenenns	mixvbgeneticaljj	combinevbgeneticjj	combinevbgenicjj	coalescevbgenenns	mergevbgenesnns	mixablennofintheynns	premixnnofingenesnns	mixturennofingeneticjj	fusevbgeneticaljj	socialnnofingenicjj	mixturennofinthemnns	mixnnofingeneticaljj	mixnnofingenicjj	fluxvbgenenns	immixvbgenesnns	sociablennofinfactornns	mixernnofinthemnns	mixvbfactornns	sociablennofingeneticaljj	mixnnofincistronnns	coalescevbthemnns	mixvbthemnns	mixturennofingeneticaljj	fluxvbcistronnns	conflatevbthemnns	mixvbgenenns	fusevbgeneticjj	mixturennofinfactornns	mergevbfactornns	combinevbtheynns	fusevbthemnns	conflatevbgeneticjj	sociablennofincistronnns	mixablennofingeneticaljj	
+
+BE: areAUXisolatedVBN
+EQ class: beauxinsulatevbn	areauxisolatevbn	beauxisolatedvbn	areauxinsulatevbn	beauxisolatevbn	
+
+BE: questionNNaboutINspeciationNN
+EQ class: speciationnnenquirynn	speciationnninquirynn	speciationnnquerynn	speciationnnquestionnn	speciationnnquestionvb	interrogationnnaboutinspeciationnn	inquirynnaboutinspeciationnn	speciationnninterrogationnn	speciationnnoppugnvb	querynnaboutinspeciationnn	enquirynnaboutinspeciationnn	speciationnncall_into_questionvb	questionvbspeciationnn	oppugnvbspeciationnn	call_into_questionvbspeciationnn	
+
+BE: populationsNNSofINspeciesNNS
+EQ class: livevbspeciesnns	inhabitvbthemnns	theynnspopulationnns	populationnnsofintheynns	theynnspopulationsnns	theynnsdwellvb	livevbthemnns	themnnstheynns	populationsnnsofintheynns	inhabitvbspeciesnns	themnnsthemnns	themnnslivevb	theynnslivevb	themnnsinhabitvb	speciesnnspopulationnns	livevbtheynns	themnnsdwellvb	themnnspopulationnns	dwellvbthemnns	theynnsinhabitvb	themnnsofinthemnns	populatevbtheynns	populationnnsofinspeciesnns	populationsnnsofinthemnns	speciesnnslivevb	inhabitvbtheynns	speciesnnsdwellvb	themnnsofintheynns	speciesnnsthemnns	themnnspopulationsnns	theynnsthemnns	themnnspopulatevb	speciesnnsinhabitvb	dwellvbtheynns	populatevbspeciesnns	theynnstheynns	populationnnsofinthemnns	theynnsofinspeciesnns	speciesnnspopulatevb	theynnspopulatevb	themnnsofinspeciesnns	dwellvbspeciesnns	theynnsofinthemnns	theynnsofintheynns	speciesnnstheynns	populatevbthemnns	speciesnnspopulationsnns	
+
+BE: interbreedVBwithINotherJJ
+EQ class: crossvbwithinotherjj	crossbreedvbwithinotherjj	hybridisevbwithinotherjj	hybridizevbwithinotherjj	
+
+BE: isAUXthatINbecomeVBP
+EQ class: beauxthatinbecomevbp	beauxthatingetvbp	isauxthatingetvbp	beauxthatingovbp	isauxthatingovbp	
+
+BE: interbreedVBonceINhappenedVBN
+EQ class: crossbreedvbonceincome_aboutvbn	crossvbonceinpassvbn	hybridizevbonceinhapvbn	hybridizevbonceinhappenedvbn	hybridisevbonceinpassvbn	hybridisevbonceinhappenedvbn	interbreedvbonceinfall_outvbn	hybridizevbonceinfall_outvbn	hybridizevbonceinpass_offvbn	crossvbonceinhappenvbn	crossbreedvbonceingo_onvbn	interbreedvbonceingo_onvbn	interbreedvbonceinhapvbn	hybridisevbonceinpass_offvbn	hybridisevbonceingo_onvbn	hybridisevbonceinhappenvbn	hybridisevbonceinhapvbn	interbreedvbonceintake_placevbn	crossbreedvbonceinhapvbn	hybridizevbonceinhappenvbn	interbreedvbonceincome_aboutvbn	crossbreedvbonceinfall_outvbn	crossbreedvbonceinpassvbn	hybridisevbonceinfall_outvbn	interbreedvbonceinhappenvbn	interbreedvbonceinoccurvbn	hybridizevbonceinpassvbn	crossvbonceinoccurvbn	hybridisevbonceintake_placevbn	hybridizevbonceinoccurvbn	crossvbonceingo_onvbn	crossvbonceintake_placevbn	crossbreedvbonceinhappenedvbn	interbreedvbonceinpass_offvbn	hybridizevbonceintake_placevbn	hybridisevbonceincome_aboutvbn	crossvbonceinhappenedvbn	crossvbonceincome_aboutvbn	hybridisevbonceinoccurvbn	crossvbonceinfall_outvbn	interbreedvbonceinpassvbn	crossvbonceinhapvbn	crossvbonceinpass_offvbn	hybridizevbonceincome_aboutvbn	crossbreedvbonceinpass_offvbn	crossbreedvbonceinhappenvbn	crossbreedvbonceinoccurvbn	hybridizevbonceingo_onvbn	crossbreedvbonceintake_placevbn	
+
+BE: happenedVBNasINmixVB
+EQ class: passvbnasinfluxvb	happenedvbnasincoalescevb	take_placevbnasincoalescevb	come_aboutvbnasinfusevb	come_aboutvbnasinmixvb	hapvbnasincoalescevb	passvbnasinconflatevb	pass_offvbnasinmeldvb	occurvbnasinfluxvb	occurvbnasincombinevb	take_placevbnasinmixvb	happenvbnasincoalescevb	take_placevbnasinblendvb	happenvbnasinblendvb	take_placevbnasincombinevb	happenedvbnasinmeldvb	go_onvbnasincomminglevb	passvbnasincomminglevb	occurvbnasincoalescevb	fall_outvbnasinmixvb	pass_offvbnasinimmixvb	take_placevbnasinfusevb	happenvbnasinimmixvb	occurvbnasinimmixvb	come_aboutvbnasinconflatevb	pass_offvbnasinfusevb	happenedvbnasincombinevb	go_onvbnasincoalescevb	fall_outvbnasincoalescevb	hapvbnasinconflatevb	happenvbnasincomminglevb	go_onvbnasincombinevb	fall_outvbnasinconflatevb	hapvbnasinblendvb	hapvbnasincombinevb	happenedvbnasinblendvb	take_placevbnasinmergevb	fall_outvbnasincombinevb	go_onvbnasinmeldvb	passvbnasinimmixvb	go_onvbnasinblendvb	go_onvbnasinmergevb	happenedvbnasinmergevb	happenvbnasinfluxvb	go_onvbnasinmixvb	happenvbnasinmixvb	passvbnasinfusevb	go_onvbnasinfluxvb	pass_offvbnasincombinevb	passvbnasinmixvb	passvbnasincombinevb	come_aboutvbnasinblendvb	happenedvbnasincomminglevb	pass_offvbnasincomminglevb	take_placevbnasinmeldvb	passvbnasinblendvb	happenvbnasinmeldvb	happenvbnasincombinevb	take_placevbnasinfluxvb	hapvbnasinimmixvb	pass_offvbnasinmergevb	come_aboutvbnasinimmixvb	pass_offvbnasinfluxvb	come_aboutvbnasincoalescevb	come_aboutvbnasincomminglevb	fall_outvbnasincomminglevb	fall_outvbnasinblendvb	happenvbnasinconflatevb	happenvbnasinfusevb	occurvbnasincomminglevb	happenedvbnasinfusevb	fall_outvbnasinimmixvb	fall_outvbnasinfluxvb	occurvbnasinblendvb	hapvbnasincomminglevb	come_aboutvbnasinfluxvb	occurvbnasinmergevb	take_placevbnasinconflatevb	passvbnasinmergevb	passvbnasincoalescevb	fall_outvbnasinmergevb	go_onvbnasinconflatevb	hapvbnasinfluxvb	passvbnasinmeldvb	take_placevbnasincomminglevb	occurvbnasinmeldvb	fall_outvbnasinfusevb	go_onvbnasinfusevb	hapvbnasinmeldvb	fall_outvbnasinmeldvb	occurvbnasinconflatevb	come_aboutvbnasinmergevb	pass_offvbnasinconflatevb	happenedvbnasinconflatevb	come_aboutvbnasincombinevb	pass_offvbnasincoalescevb	hapvbnasinmergevb	happenedvbnasinimmixvb	occurvbnasinfusevb	pass_offvbnasinmixvb	happenvbnasinmergevb	go_onvbnasinimmixvb	hapvbnasinfusevb	happenedvbnasinfluxvb	come_aboutvbnasinmeldvb	hapvbnasinmixvb	pass_offvbnasinblendvb	take_placevbnasinimmixvb	occurvbnasinmixvb	
+
+BE: mixVBlongerRB
+EQ class: longjjininfusevb	mixernnofinlongerrb	premixnnofinlongerrb	longjjininmixvb	longnessnninincomminglevb	longnessnnmixturenn	longjjininmeldvb	longjjininfluxvb	mixablennofinlongerrb	longjjininmergevb	longjjininmixturenn	longnessnnsocialnn	longjjininconflatevb	longjjsocialnn	longnessnnininmixturenn	longnessnnininpremixnn	longjjinincombinevb	longjjmixturenn	immixvblongerrb	meldvblongerrb	longjjmixernn	longjjpremixnn	longjjsociablenn	longjjininmixnn	longnessnnsociablenn	longnessnnininmeldvb	longjjmixnn	blendvblongerrb	longnessnninincoalescevb	longjjininimmixvb	longjjininsociablenn	longnessnnininconflatevb	longnessnnininsociablenn	longnessnnmixnn	longjjininpremixnn	longnessnnininfluxvb	longnessnnininmixernn	longjjininsocialnn	longnessnnininimmixvb	fluxvblongerrb	conflatevblongerrb	longnessnnmixernn	longjjinincomminglevb	fusevblongerrb	longnessnnininsocialnn	sociablennofinlongerrb	longnessnnininmergevb	mixturennofinlongerrb	mixnnofinlongerrb	coalescevblongerrb	longjjinincoalescevb	socialnnofinlongerrb	longnessnninincombinevb	longjjininblendvb	combinevblongerrb	comminglevblongerrb	longnessnnpremixnn	longnessnnininmixnn	mergevblongerrb	longnessnnininmixvb	longjjininmixernn	longnessnnininfusevb	longnessnnininblendvb	
+
+BE: speciationNNanswerVB
+EQ class: respondentnnofinspeciationnn	respondernnspeciationnn	speciationnnrespondvb	respondernnofinspeciationnn	replynnofinspeciationnn	speciationnnreplyvb	answerernnofinspeciationnn	answernnofinspeciationnn	answerernnspeciationnn	respondentnnspeciationnn	responsennofinspeciationnn	
+
+BE: isolationNN
+EQ class: 
+
+BE: timeNN
+EQ class: clipnn	
+
+BE: natureNN
+EQ class: 
+
+BE: labNN
+EQ class: science_laboratorynn	research_laboratorynn	laboratorynn	research_labnn	science_labnn	
+
+BE: exampleNN
+EQ class: exemplaryjj	instancenn	illustrationnn	representativenn	
+
+BE: populationsNNS
+EQ class: theynns	populationnns	themnns	
+
+BE: DrosophilaLocationAnnotation
+EQ class: genus_drosophilann	
+
+BE: fruitfliesNNS
+EQ class: theynns	themnns	
+
+BE: linkNN
+EQ class: nexusnn	
+
+BE: listNN
+EQ class: listingnn	
+
+BE: speciationNN
+EQ class: 
+
+BE: eventsNNS
+EQ class: theynns	eventnns	themnns	
+
+BE: observedVBN
+EQ class: findvbn	detectvbn	discovervbn	noticevbn	observevbn	
+
+BE: becomeVBN
+EQ class: govbn	getvbn	
+
+BE: SeePersonAnnotation
+EQ class: 
+
+BE: reproductiveJJ
+EQ class: procreativejj	generativejj	
+
+BE: multipleJJ
+EQ class: multiplenn	multiplicitynn	
+
+BE: unableJJ
+EQ class: 
+
+BE: interbreedJJ
+EQ class: 
+
+BE: detailedJJ
+EQ class: elaboratedjj	elaboratejj	
+
+BE: suchJJ
+EQ class: 
+
+BE: observedJJ
+EQ class: ascertainedjj	discoveredjj	
+
+BE: reproductiveJJisolationNN
+EQ class: procreativejjisolationnn	generativejjisolationnn	
+
+BE: multipleJJtimeNN
+EQ class: multiplejjclipnn	multiplicitynnclipnn	multiplennclipnn	multiplicitynntimenn	multiplenntimenn	
+
+BE: detailedJJlistNN
+EQ class: elaboratedjjlistnn	elaboratejjlistnn	detailedjjlistingnn	elaboratedjjlistingnn	elaboratejjlistingnn	
+
+BE: suchJJeventsNNS
+EQ class: suchjjtheynns	suchjjeventnns	suchjjthemnns	
+
+BE: observedJJeventsNNS
+EQ class: ascertainedjjeventnns	ascertainedjjthemnns	observedjjthemnns	observedjjeventnns	ascertainedjjeventsnns	observedjjtheynns	discoveredjjtheynns	ascertainedjjtheynns	discoveredjjeventnns	discoveredjjeventsnns	discoveredjjthemnns	
+
+BE: DrosophilaLocationAnnotationfruitfliesNNS
+EQ class: genus_drosophilannfruitfliesnns	genus_drosophilanntheynns	drosophilalocationannotationtheynns	genus_drosophilannthemnns	drosophilalocationannotationthemnns	
+
+BE: speciationNNeventsNNS
+EQ class: theynnsspecializevb	theynnsdifferentiatevb	eventsnnsspeciatevb	speciationnnofintheynns	speciationnneventnns	theynnsspeciatevb	speciationnntheynns	eventnnsdifferentiatevb	speciationnnthemnns	themnnsspecialisevb	themnnsofinspeciationnn	eventsnnsspecializevb	eventsnnsofinspeciationnn	themnnsspecializevb	eventnnsspecialisevb	theynnsofinspeciationnn	themnnsspeciatevb	eventnnsspeciatevb	speciationnnofineventsnns	themnnsdifferentiatevb	eventnnsspecializevb	eventsnnsdifferentiatevb	eventsnnsspecialisevb	theynnsspecialisevb	speciationnnofinthemnns	eventnnsofinspeciationnn	speciationnnofineventnns	
+
+BE: fruitfliesNNSbecomeVBN
+EQ class: themnnsgovbn	themnnsgetvbn	theynnsbecomevbn	themnnsbecomevbn	theynnsgovbn	fruitfliesnnsgovbn	fruitfliesnnsgetvbn	theynnsgetvbn	
+
+BE: observedVBNtimeNN
+EQ class: watchingnnofinclipnn	detectvbntimenn	detectvbnclipnn	observablennofintimenn	observevbntimenn	discovervbntimenn	beholdernnofintimenn	observantnnofintimenn	observancennofintimenn	discovervbnclipnn	noticevbntimenn	noticevbnclipnn	observablennofinclipnn	observevbnclipnn	beholdernnofinclipnn	observationnnofintimenn	perceivernnofinclipnn	observationnnofinclipnn	perceivernnofintimenn	observernnofintimenn	findvbnclipnn	observantnnofinclipnn	observernnofinclipnn	percipientnnofintimenn	findvbntimenn	watchingnnofintimenn	observancennofinclipnn	observedvbnclipnn	percipientnnofinclipnn	
+
+BE: SeePersonAnnotationlinkNN
+EQ class: seepersonannotationnexusnn	
+
+BE: observedVBNisolationNN
+EQ class: findvbnisolationnn	observancennofinisolationnn	observernnofinisolationnn	percipientnnofinisolationnn	perceivernnofinisolationnn	observationnnofinisolationnn	detectvbnisolationnn	observantnnofinisolationnn	observablennofinisolationnn	observevbnisolationnn	watchingnnofinisolationnn	noticevbnisolationnn	beholdernnofinisolationnn	discovervbnisolationnn	
+
+BE: populationsNNSofINfruitfliesNNS
+EQ class: fruitfliesnnsthemnns	inhabitvbthemnns	theynnspopulationnns	populationnnsofintheynns	theynnspopulationsnns	theynnsdwellvb	livevbthemnns	themnnstheynns	populationsnnsofintheynns	themnnsthemnns	themnnslivevb	theynnslivevb	themnnsinhabitvb	populatevbfruitfliesnns	fruitfliesnnslivevb	livevbtheynns	themnnsdwellvb	themnnspopulationnns	dwellvbthemnns	theynnsinhabitvb	themnnsofinthemnns	populatevbtheynns	theynnsofinfruitfliesnns	fruitfliesnnspopulationsnns	populationsnnsofinthemnns	livevbfruitfliesnns	populationnnsofinfruitfliesnns	inhabitvbtheynns	themnnsofintheynns	themnnsofinfruitfliesnns	themnnspopulationsnns	theynnsthemnns	themnnspopulatevb	inhabitvbfruitfliesnns	dwellvbtheynns	fruitfliesnnstheynns	theynnstheynns	populationnnsofinthemnns	dwellvbfruitfliesnns	theynnspopulatevb	fruitfliesnnsinhabitvb	theynnsofinthemnns	theynnsofintheynns	fruitfliesnnspopulatevb	fruitfliesnnspopulationnns	populatevbthemnns	fruitfliesnnsdwellvb	
+
+BE: listNNofINeventsNNS
+EQ class: listvbthemnns	theynnsnamevb	listnnofinthemnns	themnnslistnn	eventnnslistingnn	listvbeventsnns	themnnslistingnn	theynnslistvb	eventnnsnamevb	theynnslistingnn	themnnslistvb	eventsnnslistvb	eventnnslistvb	listnnofineventnns	listingnnofinthemnns	listvbtheynns	themnnsnamevb	listingnnofineventnns	listvbeventnns	eventsnnslistnn	namevbthemnns	eventsnnslistingnn	theynnslistnn	namevbtheynns	namevbeventnns	listingnnofineventsnns	listingnnofintheynns	listnnofintheynns	namevbeventsnns	eventnnslistnn	eventsnnsnamevb	
+
+BE: SeePersonAnnotationforINlistNN
+EQ class: seepersonannotationforinlistingnn	
+
+BE: becomeVBNanyRB
+EQ class: govbnanyrb	getvbnanyrb	
+
+BE: creationistsNNS
+EQ class: theynns	themnns	
+
+BE: microevolutionNN
+EQ class: 
+
+BE: changesNNS
+EQ class: alterationnns	changenns	theynns	modificationnns	themnns	
+
+BE: geneNN
+EQ class: geneticaljj	geneticjj	cistronnn	factornn	genicjj	
+
+BE: frequencyNN
+EQ class: oftennessnn	frequencenn	
+
+BE: populationNN
+EQ class: 
+
+BE: melanismNN
+EQ class: melanosisnn	
+
+BE: mothNN
+EQ class: mothyjj	
+
+BE: emergenceNN
+EQ class: outgrowthnn	growthnn	
+
+BE: resistanceNN
+EQ class: oppositionnn	
+
+BE: bacteriaLocationAnnotation
+EQ class: bacterialjj	
+
+BE: anti-evolutionistsNNS
+EQ class: theynns	evolutionistnns	themnns	
+
+BE: tNN
+EQ class: thyminenn	
+
+BE: callVBP
+EQ class: namevbp	
+
+BE: observedVBN
+EQ class: findvbn	detectvbn	discovervbn	noticevbn	observevbn	
+
+BE: argueVBP
+EQ class: reasonvbp	
+
+BE: occurVB
+EQ class: come_aboutvb	happenvb	fall_outvb	go_onvb	pass_offvb	hapvb	take_placevb	passvb	
+
+BE: observedJJ
+EQ class: ascertainedjj	discoveredjj	
+
+BE: industrialJJ
+EQ class: industrynn	
+
+BE: pepperedJJ
+EQ class: 
+
+BE: antibioticJJ
+EQ class: antibioticnn	
+
+BE: fewJJ
+EQ class: fewnn	fewnessnn	
+
+BE: doesnJJ
+EQ class: 
+
+BE: observedJJchangesNNS
+EQ class: observedjjthemnns	discoveredjjalterationnns	ascertainedjjmodificationnns	observedjjtheynns	observedjjalterationnns	discoveredjjtheynns	discoveredjjmodificationnns	ascertainedjjtheynns	ascertainedjjchangesnns	ascertainedjjthemnns	ascertainedjjchangenns	discoveredjjchangenns	discoveredjjchangesnns	ascertainedjjalterationnns	observedjjchangenns	observedjjmodificationnns	discoveredjjthemnns	
+
+BE: industrialJJmelanismNN
+EQ class: industrynnmelanismnn	industrynnmelanosisnn	industrialjjmelanosisnn	
+
+BE: pepperedJJmothNN
+EQ class: pepperedjjmothyjj	
+
+BE: antibioticJJresistanceNN
+EQ class: antibioticnnoppositionnn	antibioticnnresistancenn	antibioticjjoppositionnn	
+
+BE: fewJJanti-evolutionistsNNS
+EQ class: fewnessnnevolutionistnns	fewjjthemnns	fewnessnntheynns	fewnnanti-evolutionistsnns	fewjjevolutionistnns	fewnessnnthemnns	fewnnthemnns	fewnessnnanti-evolutionistsnns	fewnntheynns	fewnnevolutionistnns	fewjjtheynns	
+
+BE: doesnJJtNN
+EQ class: doesnjjthyminenn	
+
+BE: geneNNfrequencyNN
+EQ class: cistronnnoftennessnn	frequencennofinfactornn	oftennessnnofingeneticjj	oftennessnnofingeneticaljj	frequencynnofingeneticaljj	oftennessnnofingenicjj	geneticaljjoftennessnn	genicjjfrequencenn	genicjjfrequencynn	frequencennofingenenn	factornnfrequencynn	genennoftennessnn	frequencynnofinfactornn	factornnfrequencenn	frequencennofingenicjj	frequencynnofingenenn	factornnoftennessnn	geneticaljjfrequencenn	geneticjjoftennessnn	frequencennofingeneticjj	geneticjjfrequencenn	genicjjoftennessnn	frequencennofingeneticaljj	frequencynnofincistronnn	geneticaljjfrequencynn	frequencynnofingenicjj	oftennessnnofinfactornn	genennfrequencenn	oftennessnnofingenenn	cistronnnfrequencynn	geneticjjfrequencynn	cistronnnfrequencenn	frequencynnofingeneticjj	frequencennofincistronnn	oftennessnnofincistronnn	
+
+BE: anti-evolutionistsNNSargueVBP
+EQ class: argumentnnofinthemnns	arguernnofinevolutionistnns	debatennevolutionistnns	debaternnofintheynns	debaternntheynns	debaternnevolutionistnns	debatennofinanti-evolutionistsnns	statementnnofinthemnns	themnnsreasonvbp	debatenntheynns	theynnsreasonvbp	statementnnevolutionistnns	arguernnofinanti-evolutionistsnns	argumentationnnthemnns	argumentnntheynns	arguablennofintheynns	debatennofintheynns	themnnsarguevbp	arguernnthemnns	argumentnnthemnns	argumentnnofinevolutionistnns	statementnnthemnns	debaternnofinanti-evolutionistsnns	arguablennofinanti-evolutionistsnns	arguablennofinthemnns	argumentnnevolutionistnns	debaternnthemnns	statementnnanti-evolutionistsnns	theynnsarguevbp	debatennofinthemnns	argumentnnofinanti-evolutionistsnns	evolutionistnnsarguevbp	argumentnnofintheynns	evolutionistnnsreasonvbp	debaternnofinevolutionistnns	debatennanti-evolutionistsnns	argumentationnnofintheynns	statementnnofintheynns	statementnnofinevolutionistnns	argumentationnnevolutionistnns	debaternnanti-evolutionistsnns	arguablennofinevolutionistnns	argumentationnntheynns	arguernnevolutionistnns	debatennofinevolutionistnns	argumentationnnofinanti-evolutionistsnns	debaternnofinthemnns	anti-evolutionistsnnsreasonvbp	statementnntheynns	arguernnofintheynns	arguernntheynns	argumentnnanti-evolutionistsnns	statementnnofinanti-evolutionistsnns	argumentationnnofinthemnns	arguernnanti-evolutionistsnns	argumentationnnofinevolutionistnns	argumentationnnanti-evolutionistsnns	debatennthemnns	arguernnofinthemnns	
+
+BE: creationistsNNScallVBP
+EQ class: themnnsnamevbp	themnnscallvbp	creationistsnnsnamevbp	theynnsnamevbp	theynnscallvbp	
+
+BE: microevolutionNNisAUX
+EQ class: microevolutionnnbeaux	
+
+BE: tNNoccurVB
+EQ class: tnnhappenvb	tnncome_aboutvb	tnnpass_offvb	tnntake_placevb	thyminenntake_placevb	tnngo_onvb	thyminennoccurvb	thyminennpassvb	tnnhapvb	thyminenngo_onvb	tnnpassvb	thyminenncome_aboutvb	thyminennfall_outvb	thyminennpass_offvb	tnnfall_outvb	thyminennhappenvb	thyminennhapvb	
+
+BE: isAUXchangesNNS
+EQ class: isauxalterationnns	isauxtheynns	isauxmodificationnns	isauxchangenns	isauxthemnns	beauxthemnns	beauxmodificationnns	beauxalterationnns	beauxchangenns	beauxtheynns	beauxchangesnns	
+
+BE: observedVBNthisDT
+EQ class: observablennofinthisdt	observevbnthisdt	beholdernnofinthisdt	discovervbnthisdt	watchingnnofinthisdt	observationnnofinthisdt	observancennofinthisdt	noticevbnthisdt	percipientnnofinthisdt	observernnofinthisdt	perceivernnofinthisdt	observantnnofinthisdt	findvbnthisdt	detectvbnthisdt	
+
+BE: changesNNSinINfrequencyNN
+EQ class: themnnsininfrequencenn	modifyvbfrequencynn	frequencennaltervb	oftennessnntheynns	oftennessnnchangevb	oftennessnnaltervb	altervbfrequencenn	themnnsininfrequencynn	changesnnsininoftennessnn	frequencennalterationnns	changesnnsininfrequencenn	oftennessnnmodificationnns	frequencynnmodifyvb	frequencynntheynns	frequencennchangenns	oftennessnnchangenns	frequencennchangevb	changevboftennessnn	theynnsininoftennessnn	alterationnnsininfrequencynn	changennsininfrequencenn	oftennessnnalterationnns	themnnsininoftennessnn	frequencennmodifyvb	frequencynnmodificationnns	frequencynnthemnns	frequencenntheynns	altervboftennessnn	frequencennmodificationnns	frequencynnchangesnns	frequencennchangesnns	modificationnnsininfrequencynn	alterationnnsininoftennessnn	oftennessnnmodifyvb	theynnsininfrequencenn	oftennessnnthemnns	frequencynnaltervb	oftennessnnchangesnns	changevbfrequencenn	changennsininoftennessnn	modifyvboftennessnn	theynnsininfrequencynn	modifyvbfrequencenn	frequencynnchangevb	frequencynnchangenns	modificationnnsininoftennessnn	frequencynnalterationnns	frequencennthemnns	changennsininfrequencynn	altervbfrequencynn	alterationnnsininfrequencenn	modificationnnsininfrequencenn	changevbfrequencynn	
+
+BE: changesNNSwithinINpopulationNN
+EQ class: modifyvbpopulationnn	changevbpopulationnn	populationnnaltervb	modificationnnswithininpopulationnn	populationnnchangesnns	changennswithininpopulationnn	themnnswithininpopulationnn	populationnnmodifyvb	alterationnnswithininpopulationnn	populationnntheynns	populationnnchangenns	populationnnmodificationnns	populationnnalterationnns	altervbpopulationnn	populationnnthemnns	populationnnchangevb	theynnswithininpopulationnn	
+
+BE: melanismNNofINmothNN
+EQ class: mothyjjmelanosisnn	melanosisnnofinmothnn	melanismnnofinmothyjj	mothnnmelanismnn	melanosisnnofinmothyjj	mothyjjmelanismnn	mothnnmelanosisnn	
+
+BE: emergenceNNofINresistanceNN
+EQ class: resistancennemergencenn	resistancennemergevb	outgrowthnnofinresistancenn	emergevboppositionnn	resistancennoutgrowthnn	oppositionnnoutgrowthnn	oppositionnngrowthnn	emergevbresistancenn	emergencennofinoppositionnn	outgrowthnnofinoppositionnn	growthnnofinresistancenn	growthnnofinoppositionnn	oppositionnnemergencenn	resistancenngrowthnn	oppositionnnemergevb	
+
+BE: emergenceNNinINbacteriaLocationAnnotation
+EQ class: emergevbbacterialocationannotation	emergencennininbacterialjj	bacterialocationannotationemergevb	growthnnininbacterialocationannotation	growthnnininbacterialjj	bacterialjjemergencenn	emergevbbacterialjj	bacterialjjemergevb	outgrowthnnininbacterialjj	bacterialocationannotationemergencenn	bacterialocationannotationgrowthnn	bacterialjjgrowthnn	bacterialocationannotationoutgrowthnn	bacterialjjoutgrowthnn	outgrowthnnininbacterialocationannotation	
+
+BE: argueVBPthatINoccurVB
+EQ class: reasonvbpthatintake_placevb	arguevbpthatintake_placevb	arguevbpthatinpass_offvb	reasonvbpthatingo_onvb	arguevbpthatinfall_outvb	arguevbpthatinhappenvb	reasonvbpthatinfall_outvb	reasonvbpthatinhappenvb	arguevbpthatincome_aboutvb	reasonvbpthatinpassvb	reasonvbpthatinoccurvb	reasonvbpthatincome_aboutvb	arguevbpthatinpassvb	arguevbpthatingo_onvb	reasonvbpthatinpass_offvb	reasonvbpthatinhapvb	arguevbpthatinhapvb	
+
+BE: observedVBNsoRB
+EQ class: findvbnsorb	perceivernnofinsorb	noticevbnsorb	observernnofinsorb	detectvbnsorb	observationnnofinsorb	beholdernnofinsorb	percipientnnofinsorb	discovervbnsorb	observancennofinsorb	observevbnsorb	observantnnofinsorb	observablennofinsorb	watchingnnofinsorb	
+
+BE: observedVBNfrequentlyRB
+EQ class: frequencennpercipientnn	frequentjjininobservedvbn	frequencynnwatchingnn	discovervbnfrequentlyrb	detectvbnfrequentlyrb	frequencynnininperceivernn	frequentjjininbeholdernn	frequentjjininobservancenn	frequencynnininwatchingnn	observationnnofinfrequentlyrb	frequencennininpercipientnn	frequencennininbeholdernn	frequencynnininobservedvbn	observernnofinfrequentlyrb	frequencynnininpercipientnn	frequentjjininobservernn	frequencennobservernn	frequencynnbeholdernn	frequencennobservancenn	frequentjjininobservationnn	frequentjjperceivernn	frequentjjininperceivernn	frequencenninindiscovervbn	watchingnnofinfrequentlyrb	noticevbnfrequentlyrb	frequencennobservationnn	frequentjjobservernn	percipientnnofinfrequentlyrb	frequencennininobservancenn	frequentjjininnoticevbn	frequencynnobservernn	frequencynnininbeholdernn	frequencynnininobservernn	frequencennininperceivernn	frequencennininobservevbn	frequencynnininobservationnn	observancennofinfrequentlyrb	frequentjjobservancenn	frequentjjbeholdernn	frequencynnobservancenn	frequencennininnoticevbn	frequencynnobservationnn	frequencynnpercipientnn	frequencynnperceivernn	frequentjjininobservevbn	frequencennininfindvbn	frequencennininobservedvbn	frequencynninindiscovervbn	frequentjjininfindvbn	frequencennbeholdernn	frequencynnininfindvbn	frequencynnininobservancenn	observantnnofinfrequentlyrb	frequentjjobservationnn	frequencennperceivernn	beholdernnofinfrequentlyrb	frequencynnininobservevbn	frequencynninindetectvbn	frequencenninindetectvbn	frequentjjinindiscovervbn	frequencennininwatchingnn	frequentjjininpercipientnn	frequencynnininnoticevbn	frequencennininobservernn	frequentjjpercipientnn	frequentjjininwatchingnn	frequentjjinindetectvbn	frequencennininobservationnn	perceivernnofinfrequentlyrb	findvbnfrequentlyrb	frequencennwatchingnn	observablennofinfrequentlyrb	observevbnfrequentlyrb	frequentjjwatchingnn	
+
+BE: changesNNSmicroevolutionNN
+EQ class: microevolutionnnaltervb	modificationnnsmicroevolutionnn	alterationnnofinmicroevolutionnn	microevolutionnnmodificationnns	themnnsmicroevolutionnn	microevolutionnnthemnns	microevolutionnnchangesnns	microevolutionnntheynns	microevolutionnnalterationnns	changennofinmicroevolutionnn	changernnofinmicroevolutionnn	changennsmicroevolutionnn	microevolutionnnchangevb	microevolutionnnchangenns	modifiernnofinmicroevolutionnn	theynnsmicroevolutionnn	microevolutionnnmodifyvb	modificationnnofinmicroevolutionnn	alterationnnsmicroevolutionnn	
+
+BE: speciationNN
+EQ class: 
+
+BE: speciationNN
+EQ class: 
+
+BE: microevolutionNN
+EQ class: 
+
+BE: sub-speciesNNS
+EQ class: speciesnns	theynns	themnns	
+
+BE: macroevolutionNN
+EQ class: 
+
+BE: populationsNNS
+EQ class: theynns	populationnns	themnns	
+
+BE: routeNN
+EQ class: itinerarynn	pathnn	
+
+BE: veVBP
+EQ class: 
+
+BE: describedVBN
+EQ class: drawvbn	depictvbn	describevbn	
+
+BE: happenVB
+EQ class: come_aboutvb	occurvb	fall_outvb	go_onvb	pass_offvb	hapvb	take_placevb	passvb	
+
+BE: takeVB
+EQ class: 
+
+BE: addVB
+EQ class: 
+
+BE: llVBP
+EQ class: 
+
+BE: getVB
+EQ class: acquirevb	
+
+BE: evolvesVBZ
+EQ class: evolvevbz	developvbz	germinatevbz	
+
+BE: ActualJJ
+EQ class: existentjj	actualitynn	
+
+BE: rarerJJR
+EQ class: rarejjr	
+
+BE: newJJ
+EQ class: newnessnn	
+
+BE: differentJJ
+EQ class: differencenn	
+
+BE: ActualJJspeciationNN
+EQ class: specializevbactuallyrb	specialisevbactuallyrb	differentiatevbactuallyrb	existentjjspeciationnn	actualitynnspeciationnn	speciatevbactuallyrb	
+
+BE: newJJsub-speciesNNS
+EQ class: newnessnnspeciesnns	newjjtheynns	newnessnntheynns	newjjspeciesnns	newnessnnthemnns	newnessnnsub-speciesnns	newjjthemnns	
+
+BE: differentJJrouteNN
+EQ class: differencennpathnn	routevbdifferentlyrb	differentjjpathnn	differencennroutenn	differentjjitinerarynn	differencennitinerarynn	
+
+BE: yourPRP$macroevolutionNN
+EQ class: macroevolutionnnofinyourprp$	
+
+BE: speciationNNisAUX
+EQ class: speciationnnbeaux	
+
+BE: iPRPveVBP
+EQ class: 
+
+BE: itPRPhappenVB
+EQ class: itprpfall_outvb	natural_eventnnitprp	itprphapvb	itprppassvb	occurrencennofinitprp	itprpoccurvb	itprppass_offvb	occurrentnnofinitprp	happeningnnitprp	itprptake_placevb	itprpcome_aboutvb	itprpgo_onvb	happeningnnofinitprp	natural_eventnnofinitprp	occurrentnnitprp	occurrencennitprp	
+
+BE: youPRPtakeVB
+EQ class: 
+
+BE: youPRPaddVB
+EQ class: additivejjofinyouprp	add-onnnyouprp	additivennofinyouprp	additionnnyouprp	improvernnofinyouprp	additionnnofinyouprp	add-onnnofinyouprp	improvernnyouprp	
+
+BE: youPRPllVBP
+EQ class: 
+
+BE: eachDTevolvesVBZ
+EQ class: eachdtevolvevbz	eachdtdevelopvbz	eachdtgerminatevbz	
+
+BE: takeVBspeciationNN
+EQ class: 
+
+BE: getVBmacroevolutionNN
+EQ class: gettingnnofinmacroevolutionnn	acquiringnnofinmacroevolutionnn	acquirevbmacroevolutionnn	
+
+BE: describedVBNiPRP
+EQ class: describevbniprp	verbal_descriptionnnofiniprp	drawvbniprp	descriptionnnofiniprp	depictvbniprp	
+
+BE: isAUXrarerJJR
+EQ class: isauxrarejjr	beauxrarerjjr	beauxrarejjr	
+
+BE: microevolutionNNofINeachDT
+EQ class: eachdtmicroevolutionnn	
+
+BE: eachDTofINsub-speciesNNS
+EQ class: eachdtofintheynns	eachdtofinspeciesnns	eachdtofinthemnns	
+
+BE: eachDTofINpopulationsNNS
+EQ class: eachdtofintheynns	eachdtofinpopulationnns	eachdtofinthemnns	
+
+BE: addVBinINmicroevolutionNN
+EQ class: 
+
+BE: evolvesVBZdownINrouteNN
+EQ class: developvbzdowninitinerarynn	evolvevbzdowninroutenn	developvbzdowninroutenn	germinatevbzdowninitinerarynn	germinatevbzdowninroutenn	germinatevbzdowninpathnn	evolvesvbzdowninitinerarynn	evolvesvbzdowninpathnn	evolvevbzdowninitinerarynn	developvbzdowninpathnn	evolvevbzdowninpathnn	
+
+BE: happenVBifINtakeVB
+EQ class: passvbifintakevb	take_placevbifintakevb	fall_outvbifintakevb	come_aboutvbifintakevb	go_onvbifintakevb	pass_offvbifintakevb	occurvbifintakevb	hapvbifintakevb	
+
+BE: happenVBifINaddVB
+EQ class: pass_offvbifinaddvb	go_onvbifinaddvb	passvbifinaddvb	come_aboutvbifinaddvb	occurvbifinaddvb	hapvbifinaddvb	take_placevbifinaddvb	fall_outvbifinaddvb	
+
+BE: getVBasINevolvesVBZ
+EQ class: acquirevbasingerminatevbz	acquirevbasinevolvesvbz	acquirevbasinevolvevbz	getvbasindevelopvbz	acquirevbasindevelopvbz	getvbasingerminatevbz	getvbasinevolvevbz	
+
+BE: describedVBNaboveRB
+EQ class: describevbnaboverb	verbal_descriptionnnofinaboverb	drawvbnaboverb	descriptionnnofinaboverb	depictvbnaboverb	
+
+BE: *doesPersonAnnotation*RB
+EQ class: *doespersonannotation*.rb	
+
+BE: getVBprettyRB
+EQ class: acquirevbprettyrb	acquiringnnofinprettyrb	gettingnnofinprettyrb	
+
+BE: getVBquicklyRB
+EQ class: quickjjacquiringnn	quickjjgettingnn	acquirevbquicklyrb	quicknessnnininacquiringnn	speedyjjininacquirevb	speedyjjacquiringnn	speedyjjiningettingnn	quicknessnniningettingnn	quickjjininacquirevb	speedyjjininacquiringnn	quicknessnniningetvb	quickjjininacquiringnn	quicknessnnacquiringnn	speedyjjgettingnn	gettingnnofinquicklyrb	quicknessnngettingnn	acquiringnnofinquicklyrb	quickjjiningetvb	speedyjjiningetvb	quicknessnnininacquirevb	quickjjiningettingnn	
+

@@ -1,0 +1,264 @@
+BE: DoctorNN
+EQ class: physiciannn	dr.nn	doctorialjj	docnn	mediconn	mdnn	
+
+BE: cancerNN
+EQ class: cancerousjj	malignant_neoplastic_diseasenn	
+
+BE: diagnoseVB
+EQ class: namevb	
+
+BE: DoctorNNdiagnoseVB
+EQ class: diagnosticjjofindoctornn	diagnosticjjofinmdnn	diagnosticjjofinmediconn	diagnosisnndocnn	docnnnamevb	diagnosisnndoctornn	doctornnnamevb	diagnosticjjphysiciannn	mdnndiagnosevb	diagnosingnndoctorialjj	diagnosisnnofindoctorialjj	diagnosticjjofindocnn	dr.nndiagnosevb	doctorialjjnamevb	mediconnnamevb	diagnosisnnofindocnn	diagnosisnnmediconn	diagnosingnnofindoctornn	diagnosisnnofinmdnn	diagnosisnndoctorialjj	mdnnnamevb	diagnosingnnmdnn	diagnosingnnofindr.nn	diagnosticjjmdnn	diagnosingnnofindocnn	diagnosisnndr.nn	diagnosticjjofindr.nn	diagnosticjjdocnn	diagnosticjjdr.nn	docnndiagnosevb	diagnosisnnofindoctornn	diagnosticjjofinphysiciannn	diagnosisnnofinphysiciannn	diagnosisnnmdnn	diagnosingnnofinphysiciannn	diagnosisnnofindr.nn	diagnosisnnphysiciannn	diagnosingnndocnn	diagnosingnnmediconn	diagnosingnndr.nn	diagnosingnnphysiciannn	diagnosingnnofinmdnn	diagnosingnnofindoctorialjj	mediconndiagnosevb	physiciannnnamevb	doctorialjjdiagnosevb	diagnosticjjmediconn	physiciannndiagnosevb	diagnosisnnofinmediconn	diagnosingnndoctornn	diagnosingnnofinmediconn	dr.nnnamevb	diagnosticjjdoctornn	diagnosticjjdoctorialjj	diagnosticjjofindoctorialjj	
+
+BE: diagnoseVBcancerNN
+EQ class: diagnosingnnofincancernn	diagnosticjjofinmalignant_neoplastic_diseasenn	diagnosisnnofincancernn	diagnosingnnofinmalignant_neoplastic_diseasenn	diagnosticjjofincancerousjj	diagnosisnnofincancerousjj	namevbcancernn	diagnosevbcancerousjj	namevbmalignant_neoplastic_diseasenn	namevbcancerousjj	diagnosevbmalignant_neoplastic_diseasenn	diagnosingnnofincancerousjj	diagnosisnnofinmalignant_neoplastic_diseasenn	diagnosticjjofincancernn	
+
+BE: helpNN
+EQ class: assistancenn	aidnn	assistnn	
+
+BE: breastNN
+EQ class: chestnn	
+
+BE: cancerNN
+EQ class: cancerousjj	malignant_neoplastic_diseasenn	
+
+BE: painNN
+EQ class: hurtingnn	
+
+BE: causeVB
+EQ class: makevb	dovb	
+
+BE: EarlyJJ
+EQ class: earlinessnn	
+
+BE: EarlyJJcancerNN
+EQ class: earlinessnnmalignant_neoplastic_diseasenn	earlyjjcancerousjj	earlinessnncancerousjj	earlinessnncancernn	earlyjjmalignant_neoplastic_diseasenn	
+
+BE: breastNNcancerNN
+EQ class: chestnncancernn	malignant_neoplastic_diseasennbreastvb	breastnncancerousvb	chestnnofincancernn	cancerousvbbreastnn	cancerousjjofinbreastnn	cancerousjjofinchestnn	malignant_neoplastic_diseasennofinchestnn	breastnnofincancernn	chestnncancerousjj	chestnncancerousvb	cancerousvbchestnn	cancernnofinbreastnn	cancernnofinchestnn	chestnnmalignant_neoplastic_diseasenn	breastnnofincancerousjj	breastnnofinmalignant_neoplastic_diseasenn	breastnncancerousjj	breastnnmalignant_neoplastic_diseasenn	cancerousjjbreastvb	cancernnbreastvb	chestnnofinmalignant_neoplastic_diseasenn	chestnnofincancerousjj	malignant_neoplastic_diseasennofinbreastnn	
+
+BE: cancerNNcauseVB
+EQ class: causationnnofinmalignant_neoplastic_diseasenn	causingnnmalignant_neoplastic_diseasenn	cancernnmakevb	causationnnofincancerousjj	causaljjofincancerousjj	causationnncancerousjj	causativennofincancernn	causingnnofincancernn	cancerousjjmakevb	causativennofinmalignant_neoplastic_diseasenn	causingnncancerousjj	causationnnmalignant_neoplastic_diseasenn	malignant_neoplastic_diseasenncausevb	cancernndovb	causaljjofinmalignant_neoplastic_diseasenn	causennofincancerousjj	causingnnofincancerousjj	causaljjofincancernn	causationnnofincancernn	malignant_neoplastic_diseasenndovb	causationnncancernn	malignant_neoplastic_diseasennmakevb	cancerousjjdovb	causativennofincancerousjj	causingnncancernn	causennofincancernn	causennofinmalignant_neoplastic_diseasenn	causingnnofinmalignant_neoplastic_diseasenn	cancerousjjcausevb	
+
+BE: causeVBpainNN
+EQ class: makevbhurtingnn	causationnnofinhurtingnn	causativennofinhurtingnn	causevbhurtingnn	causaljjofinpainnn	dovbpainnn	causingnnofinhurtingnn	makevbpainnn	causingnnofinpainnn	causativennofinpainnn	dovbhurtingnn	causennofinhurtingnn	causaljjofinhurtingnn	causennofinpainnn	causationnnofinpainnn	
+
+BE: doesAUXusuallyRB
+EQ class: doauxusuallyrb	usualjjinindoaux	usualnessnninindoaux	usualjjininmakeaux	usualnessnninindoesaux	usualjjinindoesaux	makeauxusuallyrb	usualnessnnininmakeaux	
+
+BE: doesAUXnotRB
+EQ class: doauxnotrb	makeauxnotrb	
+
+BE: factNN
+EQ class: 
+
+BE: breastNN
+EQ class: chestnn	
+
+BE: cancerNN
+EQ class: cancerousjj	malignant_neoplastic_diseasenn	
+
+BE: symptomsNNS
+EQ class: symptomnns	theynns	symptomaticjj	themnns	
+
+BE: developsVBZ
+EQ class: developvbz	
+
+BE: breastNNcancerNN
+EQ class: chestnncancernn	malignant_neoplastic_diseasennbreastvb	breastnncancerousvb	chestnnofincancernn	cancerousvbbreastnn	cancerousjjofinbreastnn	cancerousjjofinchestnn	malignant_neoplastic_diseasennofinchestnn	breastnnofincancernn	chestnncancerousjj	chestnncancerousvb	cancerousvbchestnn	cancernnofinbreastnn	cancernnofinchestnn	chestnnmalignant_neoplastic_diseasenn	breastnnofincancerousjj	breastnnofinmalignant_neoplastic_diseasenn	breastnncancerousjj	breastnnmalignant_neoplastic_diseasenn	cancerousjjbreastvb	cancernnbreastvb	chestnnofinmalignant_neoplastic_diseasenn	chestnnofincancerousjj	malignant_neoplastic_diseasennofinbreastnn	
+
+BE: thereEXbeAUX
+EQ class: 
+
+BE: cancerNNdevelopsVBZ
+EQ class: cancerousjjdevelopsvbz	developmentnncancernn	malignant_neoplastic_diseasenndevelopsvbz	malignant_neoplastic_diseasenndevelopvbz	developmentnnofincancerousjj	developmentnncancerousjj	cancerousjjdevelopvbz	developmentnnofincancernn	cancernndevelopvbz	developmentnnmalignant_neoplastic_diseasenn	developmentnnofinmalignant_neoplastic_diseasenn	
+
+BE: beAUXsymptomsNNS
+EQ class: beauxsymptomnns	beauxthemnns	beauxsymptomaticjj	beauxtheynns	
+
+BE: mayMDinINfactNN
+EQ class: 
+
+BE: beAUXwhenWRBdevelopsVBZ
+EQ class: beauxwhenwrbdevelopvbz	
+
+BE: developsVBZfirstRB
+EQ class: developvbzfirstrb	developmentnnofinfirstrb	
+
+BE: cancerNN
+EQ class: cancerousjj	malignant_neoplastic_diseasenn	
+
+BE: changesNNS
+EQ class: alterationnns	changenns	theynns	modificationnns	themnns	
+
+BE: womenNNS
+EQ class: womannns	womanlyjj	theynns	adult_femalenns	themnns	
+
+BE: lumpNN
+EQ class: ballnn	chunknn	globnn	clumpnn	lumpyjj	clodnn	
+
+BE: thickeningNN
+EQ class: thickenernn	
+
+BE: breastNN
+EQ class: chestnn	
+
+BE: areaNN
+EQ class: arealjj	countrynn	
+
+BE: growsVBZ
+EQ class: turnvbz	growvbz	
+
+BE: causeVB
+EQ class: makevb	dovb	
+
+BE: watchVB
+EQ class: 
+
+BE: underarmJJ
+EQ class: underhandjj	underhandedjj	
+
+BE: underarmJJareaNN
+EQ class: underarmjjcountrynn	underhandjjcountrynn	underhandedjjcountrynn	underhandjjarealjj	underhandedjjareann	underhandjjareann	underarmjjarealjj	underhandedjjarealjj	
+
+BE: itPRPcauseVB
+EQ class: causaljjofinitprp	causingnnitprp	causennofinitprp	causativennofinitprp	causationnnitprp	itprpdovb	itprpmakevb	causingnnofinitprp	causationnnofinitprp	
+
+BE: cancerNNgrowsVBZ
+EQ class: ontogenesisnncancernn	maturationnncancerousjj	growthnnofinmalignant_neoplastic_diseasenn	developmentnnofincancerousjj	growthnnofincancerousjj	developmentnncancerousjj	ontogenynnofinmalignant_neoplastic_diseasenn	maturationnnofincancernn	ontogenesisnnofinmalignant_neoplastic_diseasenn	growingnnofinmalignant_neoplastic_diseasenn	developmentnnmalignant_neoplastic_diseasenn	growingnncancernn	maturationnnofinmalignant_neoplastic_diseasenn	maturationnnofincancerousjj	maturationnncancernn	cancernngrowvbz	ontogenesisnnofincancerousjj	ontogenynnmalignant_neoplastic_diseasenn	ontogenesisnnmalignant_neoplastic_diseasenn	growthnncancerousjj	ontogenesisnncancerousjj	growthnncancernn	growthnnmalignant_neoplastic_diseasenn	ontogenynncancerousjj	ontogenynnofincancerousjj	growingnncancerousjj	developmentnnofinmalignant_neoplastic_diseasenn	developmentnncancernn	cancernnturnvbz	malignant_neoplastic_diseasennturnvbz	malignant_neoplastic_diseasenngrowsvbz	growthnnofincancernn	cancerousjjgrowsvbz	cancerousjjgrowvbz	ontogenesisnnofincancernn	maturationnnmalignant_neoplastic_diseasenn	ontogenynncancernn	malignant_neoplastic_diseasenngrowvbz	ontogenynnofincancernn	cancerousjjturnvbz	growingnnmalignant_neoplastic_diseasenn	growingnnofincancernn	developmentnnofincancernn	growingnnofincancerousjj	
+
+BE: womenNNSwatchVB
+EQ class: witnessnnofintheynns	watchernnofinwomennns	watchernnofintheynns	watchernnofinwomanlyjj	lookernnthemnns	viewernnwomannns	lookernntheynns	themnnswatchvb	lookernnofinwomanlyjj	spectatornnofinwomennns	watchernnofinwomannns	viewernntheynns	watchernnthemnns	spectatornnwomennns	watchernntheynns	witnessnntheynns	watchnnofinthemnns	lookernnofinadult_femalenns	witnessnnadult_femalenns	watchnnofinadult_femalenns	viewernnofintheynns	viewernnofinwomannns	lookernnofinwomennns	watchnnofintheynns	spectatornnofinadult_femalenns	spectatornnofinwomanlyjj	lookernnofinthemnns	spectatornnofinwomannns	lookernnwomanlyjj	spectatornnthemnns	watchernnofinthemnns	spectatornnadult_femalenns	watchernnwomennns	tickernnofinwomanlyjj	viewernnofinwomanlyjj	lookernnwomannns	witnessnnwomennns	spectatornnwomanlyjj	watchernnwomannns	adult_femalennswatchvb	tickernnofinadult_femalenns	lookernnofinwomannns	viewernnthemnns	witnessnnofinwomennns	witnessnnofinwomannns	lookernnwomennns	watchnnofinwomennns	tickernnofintheynns	spectatornntheynns	watchnnofinwomanlyjj	tickernnofinwomennns	watchnnofinwomannns	spectatornnofintheynns	viewernnofinadult_femalenns	spectatornnwomannns	watchernnofinadult_femalenns	witnessnnofinthemnns	spectatornnofinthemnns	watchernnadult_femalenns	womanlyjjwatchvb	viewernnwomennns	witnessnnofinadult_femalenns	witnessnnwomanlyjj	tickernnofinthemnns	tickernnofinwomannns	theynnswatchvb	lookernnofintheynns	viewernnwomanlyjj	witnessnnofinwomanlyjj	lookernnadult_femalenns	viewernnofinthemnns	watchernnwomanlyjj	womannnswatchvb	viewernnadult_femalenns	witnessnnwomannns	witnessnnthemnns	viewernnofinwomennns	
+
+BE: causeVBchangesNNS
+EQ class: causennofinalterationnns	causaljjofinalterationnns	causingnnofinchangenns	causaljjofinthemnns	causevbalterationnns	causennofinmodificationnns	causingnnofinthemnns	causativennofinchangenns	causaljjofinchangenns	makevbalterationnns	causingnnofinchangesnns	dovbmodificationnns	causaljjofintheynns	causevbthemnns	dovbchangesnns	causationnnofinthemnns	causationnnofinmodificationnns	causevbchangenns	makevbchangenns	causevbtheynns	makevbmodificationnns	makevbthemnns	causennofinchangenns	causativennofinalterationnns	causativennofinchangesnns	causaljjofinchangesnns	dovbalterationnns	causevbmodificationnns	dovbthemnns	dovbtheynns	makevbchangesnns	causennofinchangesnns	causingnnofintheynns	causativennofinmodificationnns	causennofinthemnns	causativennofintheynns	dovbchangenns	makevbtheynns	causingnnofinmodificationnns	causationnnofinchangenns	causationnnofinalterationnns	causationnnofintheynns	causaljjofinmodificationnns	causationnnofinchangesnns	causingnnofinalterationnns	causennofintheynns	causativennofinthemnns	
+
+BE: lumpNNinINbreastNN
+EQ class: breastnnclodnn	chunknnininchestnn	chestnnlumpnn	lumpnnininchestnn	chestnnglobnn	breastnnballnn	lumpyvbbreastnn	breastnnchunknn	breastnnlumpyvb	breastnnclumpnn	chunknnininbreastnn	clodnnininbreastnn	lumpyjjininchestnn	breastnnlumpnn	globnnininbreastnn	clumpnnininbreastnn	ballnnininbreastnn	lumpyjjininbreastnn	globnnininchestnn	chestnnballnn	clumpnnininchestnn	chestnnlumpyvb	chestnnlumpyjj	chestnnclodnn	breastnnlumpyjj	chestnnchunknn	chestnnclumpnn	breastnnglobnn	lumpyvbchestnn	clodnnininchestnn	ballnnininchestnn	
+
+BE: watchVBforINlumpNN
+EQ class: watchvbforinclumpnn	watchvbforinballnn	watchvbforinglobnn	watchvbforinclodnn	watchvbforinlumpyjj	watchvbforinchunknn	
+
+BE: causeVBthatINwatchVB
+EQ class: dovbthatinwatchvb	makevbthatinwatchvb	
+
+BE: changeNN
+EQ class: modificationnn	alterationnn	
+
+BE: sizeNN
+EQ class: 
+
+BE: shapeNN
+EQ class: conformationnn	configurationnn	formnn	contournn	
+
+BE: breastNN
+EQ class: chestnn	
+
+BE: changeNNinINsizeNN
+EQ class: sizennaltervb	altervbsizenn	changevbsizenn	modifyvbsizenn	sizennalterationnn	sizennchangevb	sizennmodificationnn	modificationnnininsizenn	sizennmodifyvb	sizennchangenn	alterationnnininsizenn	
+
+BE: sizeNNofINbreastNN
+EQ class: sizennofinchestnn	chestnnsizenn	breastnnsizenn	breastnnsizevb	chestnnsizevb	sizevbbreastnn	sizevbchestnn	
+
+BE: dischargeNN
+EQ class: 
+
+BE: nippleNN
+EQ class: teatnn	mammillann	titnn	papnn	mamillann	
+
+BE: dischargeNNfromINnippleNN
+EQ class: dischargennfrominteatnn	teatnndischargenn	papnndischargenn	dischargennfrominmamillann	mamillanndischargenn	dischargennfrominpapnn	dischargennfromintitnn	dischargennfrominmammillann	mammillanndischargenn	titnndischargenn	nipplenndischargenn	
+
+BE: changeNN
+EQ class: modificationnn	alterationnn	
+
+BE: colorNN
+EQ class: colournn	coloringnn	colouringnn	
+
+BE: feelNN
+EQ class: 
+
+BE: skinNN
+EQ class: tegumentnn	skinnyjj	cutisnn	
+
+BE: breastNN
+EQ class: chestnn	
+
+BE: areolaOrganizationAnnotation
+EQ class: 
+
+BE: nippleOrganizationAnnotation
+EQ class: 
+
+BE: dimpledJJ
+EQ class: 
+
+BE: puckeredJJ
+EQ class: 
+
+BE: scalyLocationAnnotation
+EQ class: 
+
+BE: changeNNinINcolorNN
+EQ class: colornnmodificationnn	colornnalterationnn	colouringnnchangevb	changenninincoloringnn	changevbcolornn	changenninincolournn	altervbcolournn	colouringnnchangenn	colournnmodificationnn	modificationnninincolournn	colournnmodifyvb	colornnchangevb	colouringnnalterationnn	altervbcolouringnn	modificationnninincoloringnn	coloringnnmodifyvb	modifyvbcoloringnn	modifyvbcolornn	alterationnninincolouringnn	alterationnninincoloringnn	modificationnninincolornn	colournnaltervb	changevbcoloringnn	colournnchangevb	alterationnninincolournn	alterationnninincolornn	modifyvbcolournn	colouringnnmodifyvb	modificationnninincolouringnn	changenninincolouringnn	colornnmodifyvb	colouringnnmodificationnn	colornnaltervb	colornnchangenn	altervbcoloringnn	colournnchangenn	changevbcolournn	coloringnnchangenn	coloringnnaltervb	changevbcolouringnn	modifyvbcolouringnn	coloringnnmodificationnn	coloringnnalterationnn	altervbcolornn	colournnalterationnn	coloringnnchangevb	colouringnnaltervb	
+
+BE: colorNNofINskinNN
+EQ class: skinnyjjcolornn	skinnncolouringnn	skinnyjjcolorvb	skinnncolourvb	skinnncolorvb	colornnofintegumentnn	colorizevbskinnyjj	colourisevbtegumentnn	colorvbtegumentnn	coloristvbcutisnn	colorisevbcutisnn	cutisnncolornn	colouringnnofincutisnn	skinnyjjcoloringnn	skinnncoloringnn	color_invbtegumentnn	colourvbskinnyjj	skinnncolorizevb	colorisevbskinnn	skinnyjjcolournn	color_invbskinnn	colournnofinskinnyjj	skinnyjjcolouringnn	skinnncolourizevb	coloringnnofinskinnn	coloringnnofincutisnn	colouringnnofinskinnn	color_invbskinnyjj	cutisnncoloristvb	colouringnnofinskinnyjj	tegumentnncolouringnn	skinnyjjcoloristvb	colouringnnofintegumentnn	colourisevbskinnn	coloristvbskinnyjj	colourizevbcutisnn	skinnyjjcolour_invb	colourisevbcutisnn	colour_invbtegumentnn	colour_invbskinnn	cutisnncolorvb	cutisnncolourizevb	colournnofintegumentnn	colorvbskinnn	skinnyjjcolorizevb	tegumentnncolornn	tegumentnncoloristvb	tegumentnncolor_invb	tegumentnncolourisevb	skinnyjjcolourvb	skinnncolournn	tegumentnncolour_invb	cutisnncolournn	colorisevbskinnyjj	colorizevbcutisnn	tegumentnncolournn	cutisnncolour_invb	colourizevbtegumentnn	colorvbskinnyjj	coloringnnofinskinnyjj	skinnyjjcolourizevb	tegumentnncoloringnn	colourisevbskinnyjj	cutisnncolouringnn	colournnofinskinnn	colorisevbtegumentnn	colorizevbtegumentnn	skinnncolour_invb	colourvbtegumentnn	skinnncoloristvb	coloristvbtegumentnn	colornnofincutisnn	cutisnncolourisevb	colourvbcutisnn	cutisnncolorizevb	skinnncolor_invb	colourvbskinnn	colournnofincutisnn	colour_invbskinnyjj	colornnofinskinnyjj	skinnyjjcolorisevb	color_invbcutisnn	skinnncolourisevb	tegumentnncolorizevb	colorizevbskinnn	cutisnncolor_invb	cutisnncoloringnn	coloringnnofintegumentnn	skinnyjjcolourisevb	tegumentnncolorisevb	colorvbcutisnn	colourizevbskinnyjj	tegumentnncolourizevb	skinnncolornn	tegumentnncolourvb	tegumentnncolorvb	colourizevbskinnn	skinnyjjcolor_invb	coloristvbskinnn	colour_invbcutisnn	cutisnncolorisevb	cutisnncolourvb	skinnncolorisevb	
+
+BE: skinNNofINnippleOrganizationAnnotation
+EQ class: nippleorganizationannotationscramblevb	scramblevbnippleorganizationannotation	tegumentnnofinnippleorganizationannotation	nippleorganizationannotationshinvb	cutisnnofinnippleorganizationannotation	skinvbnippleorganizationannotation	nippleorganizationannotationcutisnn	nippleorganizationannotationclambervb	clambervbnippleorganizationannotation	sputtervbnippleorganizationannotation	nippleorganizationannotationskinnyjj	nippleorganizationannotationsputtervb	skinnyjjofinnippleorganizationannotation	nippleorganizationannotationshinnyvb	nippleorganizationannotationskinnn	nippleorganizationannotationtegumentnn	strugglevbnippleorganizationannotation	nippleorganizationannotationskinvb	nippleorganizationannotationskinnyvb	shinnyvbnippleorganizationannotation	shinvbnippleorganizationannotation	nippleorganizationannotationstrugglevb	skinnyvbnippleorganizationannotation	
+
+BE: womanNN
+EQ class: adult_femalenn	womanlyjj	
+
+BE: doctorNN
+EQ class: physiciannn	dr.nn	doctorialjj	docnn	mediconn	mdnn	
+
+BE: noticesNNS
+EQ class: theynns	noticenns	themnns	
+
+BE: changesNNS
+EQ class: alterationnns	changenns	theynns	modificationnns	themnns	
+
+BE: seeVB
+EQ class: 
+
+BE: herPRP$doctorNN
+EQ class: herprp$docnn	herprp$doctor_upvb	doctor_upvbherprp$	herprp$doctorialvb	herprp$mediconn	sophisticatevbherprp$	dr.nnofinherprp$	doctorialvbherprp$	herprp$physiciannn	mdnnofinherprp$	doctornnofinherprp$	docnnofinherprp$	herprp$mdnn	doctorialjjofinherprp$	herprp$doctorvb	herprp$doctorialjj	doctorvbherprp$	mediconnofinherprp$	herprp$dr.nn	herprp$sophisticatevb	physiciannnofinherprp$	
+
+BE: womanNNseeVB
+EQ class: beholdingnnadult_femalenn	beholdingnnofinadult_femalenn	illusionistnnwomanlyjj	seeingnnwomanlyjj	beholdingnnwomanlyjj	seeingnnofinwomannn	seernnwomanlyjj	illusionistnnofinwomannn	visual_perceptionnnofinadult_femalenn	seeingnnadult_femalenn	visual_perceptionnnofinwomannn	visual_perceptionnnadult_femalenn	illusionistnnofinadult_femalenn	seernnofinwomannn	visionarynnofinwomannn	seeingnnofinwomanlyjj	visionarynnofinadult_femalenn	visionarynnadult_femalenn	seernnofinwomanlyjj	seeingnnwomannn	illusionistnnwomannn	visionarynnofinwomanlyjj	seernnwomannn	beholdingnnwomannn	adult_femalennseevb	visual_perceptionnnofinwomanlyjj	visual_perceptionnnwomannn	visionarynnwomannn	womanlyjjseevb	seernnofinadult_femalenn	seernnadult_femalenn	seeingnnofinadult_femalenn	illusionistnnadult_femalenn	visual_perceptionnnwomanlyjj	illusionistnnofinwomanlyjj	beholdingnnofinwomanlyjj	beholdingnnofinwomannn	visionarynnwomanlyjj	
+
+BE: seeVBdoctorNN
+EQ class: visionarynnofindoctorialjj	seernnofindocnn	seevbdocnn	illusionistnnofindoctornn	seevbphysiciannn	seeingnnofinmediconn	beholdingnnofindr.nn	seeingnnofindoctorialjj	beholdingnnofinmediconn	seernnofindoctornn	visionarynnofindoctornn	visionarynnofindr.nn	illusionistnnofinphysiciannn	seernnofindoctorialjj	visual_perceptionnnofindocnn	seeingnnofinphysiciannn	illusionistnnofindocnn	seeingnnofindoctornn	seernnofindr.nn	beholdingnnofindoctorialjj	visionarynnofinmediconn	illusionistnnofindr.nn	seevbmdnn	beholdingnnofinphysiciannn	seernnofinmediconn	visual_perceptionnnofindr.nn	beholdingnnofindocnn	visual_perceptionnnofindoctorialjj	seevbdoctorialjj	visual_perceptionnnofindoctornn	visionarynnofinmdnn	seernnofinphysiciannn	seevbdr.nn	seeingnnofindr.nn	illusionistnnofindoctorialjj	illusionistnnofinmdnn	seeingnnofindocnn	visionarynnofinphysiciannn	visual_perceptionnnofinmediconn	visual_perceptionnnofinphysiciannn	seeingnnofinmdnn	visual_perceptionnnofinmdnn	illusionistnnofinmediconn	seernnofinmdnn	beholdingnnofindoctornn	seevbmediconn	beholdingnnofinmdnn	visionarynnofindocnn	
+
+BE: noticesNNSanyDT
+EQ class: noticennsanydt	theynnsanydt	themnnsanydt	
+
+BE: anyDTofINchangesNNS
+EQ class: anydtofinmodificationnns	anydtofinchangenns	anydtofinalterationnns	anydtofintheynns	anydtofinthemnns	
+
+BE: cancerNN
+EQ class: cancerousjj	malignant_neoplastic_diseasenn	
+
+BE: doctorNN
+EQ class: physiciannn	dr.nn	doctorialjj	docnn	mediconn	mdnn	
+
+BE: tellVB
+EQ class: sayvb	statevb	
+
+BE: sureJJ
+EQ class: surenessnn	certainjj	
+
+BE: theyPRPareAUX
+EQ class: womenprpbeaux	theyprpbeaux	womenprpareaux	symptomsprpareaux	noticesprpareaux	changesprpareaux	nippleprpbeaux	noticesprpbeaux	nippleprpareaux	areolaprpareaux	changesprpbeaux	symptomsprpbeaux	areolaprpbeaux	
+
+BE: doctorNNtellVB
+EQ class: mediconnsayvb	edward_tellernnofindocnn	physiciannntellvb	tellernnofinmdnn	docnntellvb	docnnstatevb	relationnndr.nn	edward_tellernnofindoctornn	doctornnsayvb	tellingnnofindocnn	recountingnnofindoctornn	tellernnofindoctorialjj	relationnnofindocnn	edward_tellernnofindoctorialjj	doctorialjjsayvb	edward_tellernndocnn	recountingnnmdnn	mediconnstatevb	doctornnstatevb	recountingnndr.nn	tellernnmdnn	relationnnphysiciannn	tellingnnmediconn	edward_tellernnofinphysiciannn	mdnnstatevb	tellingnnphysiciannn	edward_tellernnofindr.nn	edward_tellernndr.nn	edward_tellernndoctorialjj	recountingnnofinphysiciannn	tellingnnmdnn	mdnntellvb	tellernnmediconn	relationnndoctorialjj	physiciannnsayvb	tellingnnofindoctorialjj	edward_tellernndoctornn	dr.nnsayvb	tellingnnofinmediconn	doctorialjjtellvb	tellingnnofinphysiciannn	tellingnnofindr.nn	recountingnndocnn	recountingnnofinmediconn	relationnnmdnn	recountingnnphysiciannn	relationnnofinphysiciannn	relationnnofindoctornn	tellingnndr.nn	relationnnofinmediconn	tellernndoctornn	edward_tellernnofinmdnn	recountingnnmediconn	relationnnofinmdnn	tellernnphysiciannn	mediconntellvb	relationnndocnn	relationnndoctornn	edward_tellernnmediconn	recountingnnofindocnn	doctorialjjstatevb	recountingnnofindr.nn	mdnnsayvb	tellingnndoctornn	edward_tellernnofinmediconn	tellernndr.nn	tellernndocnn	dr.nntellvb	tellernnofinphysiciannn	tellingnnofindoctornn	relationnnmediconn	recountingnnofindoctorialjj	relationnnofindoctorialjj	recountingnndoctorialjj	tellingnndocnn	tellernnofindoctornn	relationnnofindr.nn	tellingnndoctorialjj	recountingnndoctornn	tellernndoctorialjj	dr.nnstatevb	physiciannnstatevb	edward_tellernnphysiciannn	tellernnofinmediconn	docnnsayvb	tellingnnofinmdnn	recountingnnofinmdnn	tellernnofindocnn	tellernnofindr.nn	edward_tellernnmdnn	
+
+BE: areAUXcancerNN
+EQ class: beauxmalignant_neoplastic_diseasenn	areauxcancerousjj	beauxcancernn	beauxcancerousjj	areauxmalignant_neoplastic_diseasenn	
+
+BE: areAUXnotRB
+EQ class: beauxnotrb	
+

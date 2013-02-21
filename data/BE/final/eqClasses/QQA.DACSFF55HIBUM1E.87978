@@ -1,0 +1,360 @@
+BE: hypertensionNN
+EQ class: high_blood_pressurenn	
+
+BE: dashNN
+EQ class: stylenn	elannn	flairnn	panachenn	
+
+BE: dietNN
+EQ class: dieteticaljj	dieteticjj	dietaryjj	
+
+BE: mildJJ
+EQ class: mildnessnn	
+
+BE: mildJJhypertensionNN
+EQ class: mildnessnnhypertensionnn	mildjjhigh_blood_pressurenn	mildnessnnhigh_blood_pressurenn	
+
+BE: dashNNdietNN
+EQ class: panachenndietnn	panachenndietaryjj	stylenndieteticvb	elannndieteticvb	elannndieteticaljj	flairnndietvb	flairnndietnn	dietaryvbstylenn	elannndietvb	dietaryjjofinelannn	dieteticjjofinflairnn	dieteticvbflairnn	elannndieteticjj	dietnnofinpanachenn	dieticianvbpanachenn	stylenndietaryvb	dashnndieteticvb	dietaryvbelannn	dieteticjjofindashnn	dieteticvbelannn	stylenndietaryjj	dietaryjjofinpanachenn	dieteticalvbpanachenn	elannndietnn	stylenndietvb	flairnndieticianvb	dashnndietaryjj	flairnndieteticjj	flairnndieteticvb	dashnndietaryvb	dieteticaljjofinflairnn	panachenndieteticvb	dieteticalvbelannn	stylenndietnn	dieticianvbstylenn	elannndieteticalvb	dieteticjjofinpanachenn	dieteticaljjofinpanachenn	dieteticjjofinstylenn	dietaryjjofinflairnn	dieteticvbdashnn	dietvbflairnn	panachenndietvb	flairnndietaryjj	dieteticaljjofinelannn	dietaryjjofindashnn	dieteticvbpanachenn	dieteticalvbdashnn	dietvbdashnn	dashnndieteticjj	panachenndieteticalvb	dietvbelannn	stylenndieticianvb	elannndieticianvb	stylenndieteticaljj	flairnndietaryvb	dietaryjjofinstylenn	dieticianvbelannn	dieteticjjofinelannn	dieteticalvbstylenn	dieteticvbstylenn	dietnnofinelannn	panachenndietaryvb	stylenndieteticjj	panachenndieticianvb	flairnndieteticalvb	dietvbstylenn	dashnndieteticalvb	dashnndietvb	dietvbpanachenn	dieteticaljjofindashnn	dieticianvbflairnn	dashnndieteticaljj	flairnndieteticaljj	panachenndieteticaljj	dietaryvbdashnn	dietaryvbpanachenn	dieteticaljjofinstylenn	elannndietaryvb	dietaryvbflairnn	panachenndieteticjj	dietnnofinstylenn	stylenndieteticalvb	dieteticalvbflairnn	elannndietaryjj	dieticianvbdashnn	dietnnofindashnn	dietnnofinflairnn	dashnndieticianvb	
+
+BE: hypertensionNN
+EQ class: high_blood_pressurenn	
+
+BE: approachVBP
+EQ class: nearvbp	go_upvbp	draw_nearvbp	come_nearvbp	come_onvbp	draw_closevbp	
+
+BE: stopVB
+EQ class: haltvb	
+
+BE: DietaryJJ
+EQ class: dietarynn	dieteticaljj	dietnn	dieteticjj	
+
+BE: DietaryJJapproachVBP
+EQ class: plan_of_attacknnofindieteticaljj	dieteticaljjdraw_nearvbp	dieteticaljjcome_nearvbp	dietaryjjcome_nearvbp	dietarynndraw_nearvbp	dietnnnearvbp	dieteticjjcome_nearvbp	dieteticaljjnearvbp	plan_of_attacknnofindietarynn	dietnncome_onvbp	dieteticjjdraw_nearvbp	dietnncome_nearvbp	plan_of_attacknnofindieteticjj	approachablennofindieteticjj	dieteticjjgo_upvbp	dieteticaljjapproachvbp	approachnnofindietnn	dietnndraw_nearvbp	approachnnofindietaryjj	approachablennofindietaryjj	approachablennofindietnn	plan_of_attacknnofindietaryjj	dietnnapproachvbp	attacknnofindieteticjj	dietaryjjgo_upvbp	dietaryjjdraw_nearvbp	dietnngo_upvbp	attacknnofindietnn	dietarynncome_onvbp	dietarynnnearvbp	dietnndraw_closevbp	approachnnofindieteticaljj	dietarynncome_nearvbp	approachablennofindietarynn	dietaryjjdraw_closevbp	approachnnofindietarynn	attacknnofindieteticaljj	dietarynndraw_closevbp	attacknnofindietaryjj	approachnnofindieteticjj	dietarynngo_upvbp	approachablennofindieteticaljj	dieteticjjapproachvbp	dietaryjjnearvbp	dietaryjjcome_onvbp	dieteticaljjgo_upvbp	dieteticaljjcome_onvbp	attacknnofindietarynn	dieteticjjdraw_closevbp	plan_of_attacknnofindietnn	dieteticjjcome_onvbp	dieteticjjnearvbp	dieteticaljjdraw_closevbp	dietarynnapproachvbp	
+
+BE: stopVBhypertensionNN
+EQ class: haltvbhigh_blood_pressurenn	stopvbhigh_blood_pressurenn	stopnnofinhigh_blood_pressurenn	haltnnofinhigh_blood_pressurenn	haltnnofinhypertensionnn	haltvbhypertensionnn	stopnnofinhypertensionnn	
+
+BE: approachVBPstopVB
+EQ class: go_upvbpstopvb	go_upvbphaltvb	nearvbpstopvb	plan_of_attacknnofinstopvb	nearvbphaltvb	come_onvbpstopvb	approachnnofinhaltvb	come_nearvbphaltvb	draw_closevbphaltvb	approachablennofinhaltvb	come_nearvbpstopvb	draw_nearvbphaltvb	attacknnofinstopvb	approachnnofinstopvb	plan_of_attacknnofinhaltvb	draw_closevbpstopvb	attacknnofinhaltvb	draw_nearvbpstopvb	approachablennofinstopvb	come_onvbphaltvb	approachvbphaltvb	
+
+BE: servingsNNS
+EQ class: servingnns	theynns	portionnns	helpingnns	themnns	
+
+BE: fruits/vegiesNNS
+EQ class: theynns	themnns	
+
+BE: dayNN
+EQ class: dailyjj	24-hour_intervalnn	twenty-four_hoursnn	twenty-four_hour_periodnn	mean_solar_daynn	solar_daynn	
+
+BE: grainsNNS
+EQ class: grainnns	theynns	grainyjj	themnns	granularjj	
+
+BE: riceNN
+EQ class: 
+
+BE: saltNN
+EQ class: saltyjj	
+
+BE: beansNNS
+EQ class: theynns	beannns	edible_beannns	themnns	
+
+BE: syrupOrganizationAnnotation
+EQ class: 
+
+BE: saltOrganizationAnnotation
+EQ class: 
+
+BE: legumesVBZ
+EQ class: 
+
+BE: rinseVBP
+EQ class: rinse_offvbp	
+
+BE: getVB
+EQ class: acquirevb	
+
+BE: 5-7JJ
+EQ class: 5.-.7.jj	
+
+BE: freshJJ
+EQ class: freshnessnn	
+
+BE: wholeJJ
+EQ class: wholenn	
+
+BE: brownJJ
+EQ class: chocolate-brownjj	dark-brownjj	brownnessnn	brownishjj	
+
+BE: lowJJ
+EQ class: lownessnn	
+
+BE: cannedJJ
+EQ class: transcribedjj	
+
+BE: goodJJ
+EQ class: goodnessnn	
+
+BE: ridJJ
+EQ class: 
+
+BE: 5-7JJservingsNNS
+EQ class: 5-7jjtheynns	5.-.7.jjtheynns	5.-.7.jjhelpingnns	5.-.7.jjthemnns	5.-.7.jjservingsnns	5.-.7.jjportionnns	5-7jjhelpingnns	5-7jjservingnns	5.-.7.jjservingnns	5-7jjportionnns	5-7jjthemnns	
+
+BE: wholeJJgrainsNNS
+EQ class: wholenngrainnns	granularvbwhollyrb	wholenngranularjj	wholejjgranularjj	wholenngrainyjj	ingrainvbwhollyrb	wholejjgrainyjj	wholennthemnns	wholenngrainsnns	wholejjtheynns	wholejjgrainnns	grainvbwhollyrb	wholenntheynns	wholejjthemnns	grainyvbwhollyrb	
+
+BE: brownJJriceNN
+EQ class: brownishjjricenn	chocolate-brownjjricenn	brownnessnnricenn	dark-brownjjricenn	
+
+BE: lowJJsaltNN
+EQ class: lownessnnsaltnn	lowjjsaltyjj	lownessnnsaltyjj	
+
+BE: goodJJbeansNNS
+EQ class: goodnessnnedible_beannns	goodnessnnthemnns	goodjjbeannns	goodjjtheynns	goodjjedible_beannns	goodnessnnbeansnns	goodnessnntheynns	goodnessnnbeannns	goodjjthemnns	
+
+BE: cannedJJbeansNNS
+EQ class: cannedjjbeannns	cannedjjthemnns	cannedjjedible_beannns	transcribedjjtheynns	transcribedjjbeansnns	transcribedjjedible_beannns	cannedjjtheynns	transcribedjjthemnns	transcribedjjbeannns	
+
+BE: servingsNNSgrainsNNS
+EQ class: grainyjjtheynns	grainyjjhelpingnns	granularjjservingnns	servingnnstheynns	grainnnsservevb	helpingnnsgrainyjj	servingnnsgrainnns	themnnsgrainnns	grainsnnsservingsnns	themnnsingrainvb	granularjjfunctionvb	grainnnsfunctionvb	granularjjportionnns	granularjjhelpingnns	themnnshelpingnns	themnnsgrainsnns	servingnnsingrainvb	grainsnnsthemnns	grainnnsservingsnns	portionnnsthemnns	grainnnstheynns	helpingnnstheynns	grainyjjportionnns	portionnnsgrainyjj	grainsnnsservingnns	grainnnsthemnns	themnnsportionnns	theynnsservingnns	theynnsgrainvb	grainsnnstheynns	servingsnnsgrainyjj	servingsnnsthemnns	theynnsgranularjj	theynnstheynns	theynnshelpingnns	theynnsgrainnns	helpingnnsgrainnns	themnnsgrainyjj	servingsnnstheynns	grainyjjservingsnns	themnnsservingsnns	grainsnnsservevb	theynnsingrainvb	portionnnsgrainvb	granularjjtheynns	themnnsgranularjj	servingsnnsgranularjj	theynnsservingsnns	grainyjjthemnns	granularjjservingsnns	grainyjjservingnns	servingnnsgranularjj	granularjjservevb	servingsnnsgrainnns	grainsnnsfunctionvb	themnnstheynns	themnnsgrainvb	themnnsthemnns	theynnsservevb	themnnsservevb	servingnnsthemnns	theynnsfunctionvb	theynnsgrainsnns	helpingnnsthemnns	theynnsportionnns	portionnnsgranularjj	helpingnnsgranularjj	servingsnnsgrainvb	portionnnsingrainvb	portionnnsgrainnns	helpingnnsingrainvb	servingsnnsingrainvb	servingnnsgrainyjj	grainyjjfunctionvb	grainsnnsportionnns	theynnsthemnns	servingnnsgrainvb	portionnnsgrainsnns	portionnnstheynns	grainyjjservevb	grainsnnshelpingnns	grainnnsservingnns	helpingnnsgrainsnns	themnnsfunctionvb	helpingnnsgrainvb	theynnsgrainyjj	grainnnshelpingnns	granularjjthemnns	grainnnsportionnns	themnnsservingnns	servingnnsgrainsnns	
+
+BE: itPRPisAUX
+EQ class: itprpbeaux	
+
+BE: iPRPrinseVBP
+EQ class: rinsenniprp	rinsingnniprp	rinsingnnofiniprp	rinsennofiniprp	iprprinse_offvbp	
+
+BE: isAUXservingsNNS
+EQ class: isauxtheynns	beauxportionnns	isauxthemnns	beauxhelpingnns	beauxthemnns	beauxservingsnns	isauxservingnns	isauxhelpingnns	beauxtheynns	beauxservingnns	isauxportionnns	
+
+BE: rinseVBPbeansNNS
+EQ class: rinse_offvbpedible_beannns	rinsennofinbeannns	rinsingnnofinbeannns	rinsevbpedible_beannns	rinsingnnofinedible_beannns	rinsingnnofinbeansnns	rinsennofintheynns	rinsennofinedible_beannns	rinsingnnofintheynns	rinsevbptheynns	rinsevbpthemnns	rinsennofinthemnns	rinse_offvbptheynns	rinse_offvbpbeannns	rinse_offvbpbeansnns	rinse_offvbpthemnns	rinsingnnofinthemnns	rinsennofinbeansnns	rinsevbpbeannns	
+
+BE: servingsNNSofINfruits/vegiesNNS
+EQ class: functionvbtheynns	fruits/vegiesnnstheynns	themnnstheynns	helpingnnsofintheynns	themnnsthemnns	theynnsservevb	themnnshelpingnns	themnnsservevb	fruits/vegiesnnsfunctionvb	portionnnsofintheynns	theynnsfunctionvb	servevbthemnns	servingnnsofinfruits/vegiesnns	themnnsofinthemnns	themnnsofinfruits/vegiesnns	fruits/vegiesnnsservingnns	functionvbthemnns	theynnsportionnns	servingsnnsofinthemnns	helpingnnsofinfruits/vegiesnns	functionvbfruits/vegiesnns	fruits/vegiesnnsservevb	servingnnsofinthemnns	themnnsportionnns	theynnsservingnns	themnnsofintheynns	fruits/vegiesnnsservingsnns	theynnsofinfruits/vegiesnns	theynnsthemnns	portionnnsofinfruits/vegiesnns	helpingnnsofinthemnns	servevbtheynns	theynnstheynns	servevbfruits/vegiesnns	theynnshelpingnns	fruits/vegiesnnsthemnns	themnnsfunctionvb	portionnnsofinthemnns	fruits/vegiesnnsportionnns	theynnsofinthemnns	servingnnsofintheynns	theynnsofintheynns	themnnsservingsnns	theynnsservingsnns	fruits/vegiesnnshelpingnns	themnnsservingnns	servingsnnsofintheynns	
+
+BE: fruits/vegiesNNSperINdayNN
+EQ class: fruits/vegiesnnsperinmean_solar_daynn	theynnsperin24-hour_intervalnn	themnnsperintwenty-four_hoursnn	theynnsperintwenty-four_hoursnn	fruits/vegiesnnsperin24-hour_intervalnn	fruits/vegiesnnsperindailyjj	fruits/vegiesnnsperinsolar_daynn	theynnsperindailyjj	fruits/vegiesnnsperintwenty-four_hoursnn	themnnsperindaynn	theynnsperinsolar_daynn	themnnsperinmean_solar_daynn	theynnsperinmean_solar_daynn	themnnsperintwenty-four_hour_periodnn	theynnsperintwenty-four_hour_periodnn	themnnsperin24-hour_intervalnn	themnnsperinsolar_daynn	theynnsperindaynn	fruits/vegiesnnsperintwenty-four_hour_periodnn	themnnsperindailyjj	
+
+BE: ridJJofINsyrupOrganizationAnnotation
+EQ class: 
+
+BE: rinseVBPgetVB
+EQ class: rinsennofinacquirevb	rinsingnnofingetvb	rinse_offvbpgetvb	rinsingnnofinacquirevb	rinsevbpacquirevb	rinsennofingetvb	rinse_offvbpacquirevb	
+
+BE: rinseVBPalwaysRB
+EQ class: rinse_offvbpalwaysrb	rinsingnnofinalwaysrb	rinsennofinalwaysrb	
+
+BE: donNNP
+EQ class: 
+
+BE: tLocationAnnotation
+EQ class: themlocationannotation	theylocationannotation	
+
+BE: saltNN
+EQ class: saltyjj	
+
+BE: stuffNN
+EQ class: materialnn	
+
+BE: worryVBP
+EQ class: 
+
+BE: eatVBP
+EQ class: 
+
+BE: dashVB
+EQ class: scootvb	scudvb	flashvb	dartvb	shootvb	
+
+BE: eatVB
+EQ class: 
+
+BE: eatingVBG
+EQ class: eatvbg	
+
+BE: fillingVBGupRP
+EQ class: fillernnofinuprp	fillnnofinuprp	make_fullvbguprp	fill_upvbguprp	fillingnnofinuprp	fillvbguprp	
+
+BE: endVBPupRP
+EQ class: finishvbpuprp	ceasevbpuprp	stopvbpuprp	terminalnnofinuprp	endnnofinuprp	terminatevbpuprp	
+
+BE: lessJJR
+EQ class: 
+
+BE: goodJJ
+EQ class: goodnessnn	
+
+BE: lessJJR
+EQ class: 
+
+BE: badJJ
+EQ class: badnessnn	
+
+BE: goodJJstuffNN
+EQ class: goodjjmaterialnn	goodnessnnmaterialnn	goodnessnnstuffnn	
+
+BE: donNNPtLocationAnnotation
+EQ class: theylocationannotationofindonnnp	donnnptheylocationannotation	themlocationannotationofindonnnp	donnnpthemlocationannotation	tlocationannotationofindonnnp	
+
+BE: tLocationAnnotationworryVBP
+EQ class: worrynnofintheylocationannotation	worrywartnnthemlocationannotation	inconveniencennofinthemlocationannotation	troublesomenessnntlocationannotation	headachennofinthemlocationannotation	inconveniencenntlocationannotation	fuss-budgetnnofintlocationannotation	concernnnofinthemlocationannotation	troublesomenessnntheylocationannotation	fuss-budgetnntlocationannotation	troublesomenessnnthemlocationannotation	worrywartnnofintlocationannotation	vexationnnofintlocationannotation	worrynnofinthemlocationannotation	headachennofintlocationannotation	worriernntheylocationannotation	fusspotnnofintheylocationannotation	worrynnofintlocationannotation	concernnnofintlocationannotation	fusspotnntlocationannotation	worrywartnnofintheylocationannotation	vexationnnofintheylocationannotation	theylocationannotationworryvbp	worriernnofintheylocationannotation	fusspotnnofinthemlocationannotation	troublesomenessnnofintheylocationannotation	troublesomenessnnofintlocationannotation	worriernnthemlocationannotation	worriernnofinthemlocationannotation	vexationnnofinthemlocationannotation	worrimentnnofintlocationannotation	inconveniencennofintlocationannotation	fusspotnntheylocationannotation	troublesomenessnnofinthemlocationannotation	fuss-budgetnnofinthemlocationannotation	inconveniencennthemlocationannotation	worrywartnntlocationannotation	worriernntlocationannotation	worrywartnnofinthemlocationannotation	inconveniencenntheylocationannotation	worrimentnnthemlocationannotation	fuss-budgetnnofintheylocationannotation	worriernnofintlocationannotation	worrimentnnofintheylocationannotation	fuss-budgetnntheylocationannotation	worrywartnntheylocationannotation	worrimentnnofinthemlocationannotation	inconveniencennofintheylocationannotation	themlocationannotationworryvbp	fuss-budgetnnthemlocationannotation	concernnnofintheylocationannotation	worrimentnntheylocationannotation	fusspotnnthemlocationannotation	worrimentnntlocationannotation	fusspotnnofintlocationannotation	headachennofintheylocationannotation	
+
+BE: youPRPeatVBP
+EQ class: eaternnyouprp	eatingnnofinyouprp	feedernnyouprp	feedingnnofinyouprp	eatingnnyouprp	feedernnofinyouprp	eaternnofinyouprp	feedingnnyouprp	
+
+BE: youPRPeatVB
+EQ class: eaternnyouprp	eatingnnofinyouprp	feedernnyouprp	feedingnnofinyouprp	eatingnnyouprp	feedernnofinyouprp	eaternnofinyouprp	feedingnnyouprp	
+
+BE: yourPRP$fillingVBG
+EQ class: yourprp$fillvbg	fillnnofinyourprp$	fillnnyourprp$	yourprp$fill_upvbg	fillernnofinyourprp$	fillingnnofinyourprp$	fillingnnyourprp$	yourprp$make_fullvbg	fillernnyourprp$	
+
+BE: youPRPendVBP
+EQ class: youprpterminatevbp	endnnofinyouprp	youprpceasevbp	youprpfinishvbp	terminalnnofinyouprp	youprpstopvbp	
+
+BE: endVBPstuffNN
+EQ class: endvbpmaterialnn	finishvbpmaterialnn	stopvbpstuffnn	endnnofinstuffnn	terminatevbpstuffnn	terminatevbpmaterialnn	endnnofinmaterialnn	ceasevbpstuffnn	terminalnnofinmaterialnn	stopvbpmaterialnn	ceasevbpmaterialnn	finishvbpstuffnn	terminalnnofinstuffnn	
+
+BE: eatVBlessJJR
+EQ class: feedingnnofinlessjjr	eatingnnofinlessjjr	eaternnofinlessjjr	feedernnofinlessjjr	
+
+BE: eatingVBGlessJJR
+EQ class: feedingnnofinlessjjr	eatingnnofinlessjjr	eatvbglessjjr	eaternnofinlessjjr	feedernnofinlessjjr	
+
+BE: dashVByouPRP
+EQ class: flashvbyouprp	elannnofinyouprp	dashnnofinyouprp	scootvbyouprp	shootvbyouprp	stylennofinyouprp	dartvbyouprp	panachennofinyouprp	scudvbyouprp	flairnnofinyouprp	
+
+BE: lessJJRofINbadJJ
+EQ class: lessjjrofinbadnessnn	
+
+BE: worryVBPaboutINsaltNN
+EQ class: worryvbpaboutinsaltyjj	
+
+BE: fillingVBGonINstuffNN
+EQ class: fillvbgoninmaterialnn	make_fullvbgoninstuffnn	fill_upvbgoninmaterialnn	fillvbgoninstuffnn	fillingvbgoninmaterialnn	make_fullvbgoninmaterialnn	fill_upvbgoninstuffnn	
+
+BE: saltNNwhenWRBeatVBP
+EQ class: saltyjjwhenwrbeatvbp	
+
+BE: eatVBautomaticallyRB
+EQ class: automaticjjininfeedernn	automatonnnfeedingnn	automaticnnininfeedingnn	automaticjjinineaternn	automaticnninineaternn	feedernnofinautomaticallyrb	automaticnneaternn	automaticnnfeedernn	automatonnninineatvb	automatonnnininfeedingnn	automaticjjeatingnn	automaticnninineatvb	automaticjjinineatvb	eaternnofinautomaticallyrb	feedingnnofinautomaticallyrb	automaticjjfeedernn	automatonnnininfeedernn	automaticnneatingnn	automaticnnfeedingnn	automatonnnfeedernn	eatingnnofinautomaticallyrb	automatonnneaternn	automaticjjininfeedingnn	automatonnninineatingnn	automaticjjeaternn	automatonnninineaternn	automatonnneatingnn	automaticnnininfeedernn	automaticjjfeedingnn	automaticjjinineatingnn	automaticnninineatingnn	
+
+BE: saltNN
+EQ class: saltyjj	
+
+BE: doesnNN
+EQ class: 
+
+BE: tNNS
+EQ class: thyminenns	theynns	themnns	
+
+BE: hypertensionNN
+EQ class: high_blood_pressurenn	
+
+BE: imbalanceNN
+EQ class: unbalancenn	instabilitynn	
+
+BE: saltNN
+EQ class: saltyjj	
+
+BE: potassiumLocationAnnotation
+EQ class: 
+
+BE: calciumNN
+EQ class: cann	atomic_number_20nn	
+
+BE: problemNN
+EQ class: jobnn	problematicaljj	problematicjj	
+
+BE: causeVBP
+EQ class: dovbp	makevbp	
+
+BE: causesVBZ
+EQ class: makevbz	dovbz	causevbz	
+
+BE: mostJJS
+EQ class: 
+
+BE: magnesium/CDpotassiumLocationAnnotation
+EQ class: 
+
+BE: tehCDproblemNN
+EQ class: tehcdproblematicaljj	tehcdjobnn	tehcdproblematicjj	
+
+BE: doesnNNtNNS
+EQ class: theynnsofindoesnnn	themnnsofindoesnnn	doesnnnthemnns	doesnnntheynns	thyminennsofindoesnnn	tnnsofindoesnnn	doesnnnthyminenns	
+
+BE: saltNNtNNS
+EQ class: tnnsofinsaltyjj	themnnsofinsaltnn	thyminennsofinsaltyjj	saltyjjthyminenns	saltyjjtnns	tnnsofinsaltnn	themnnsofinsaltyjj	saltyjjthemnns	thyminennsofinsaltnn	saltnntheynns	theynnsofinsaltyjj	saltyjjtheynns	saltnnthemnns	theynnsofinsaltnn	saltnnthyminenns	
+
+BE: saltNNpotassiumLocationAnnotation
+EQ class: potassiumlocationannotationofinsaltnn	saltyjjpotassiumlocationannotation	potassiumlocationannotationofinsaltyjj	
+
+BE: tNNScauseVBP
+EQ class: causaljjofinthemnns	thyminennsmakevbp	themnnsdovbp	causingnnofinthemnns	causingnntnns	themnnscausevbp	causingnnofintnns	causingnntheynns	causaljjofintheynns	causationnnofinthemnns	causingnnthyminenns	causingnnofinthyminenns	causativennofinthyminenns	causativennofintnns	tnnsdovbp	causingnnthemnns	theynnsdovbp	thyminennsdovbp	causennofinthyminenns	causationnntheynns	causationnnofintnns	themnnsmakevbp	causationnnthemnns	causaljjofintnns	thyminennscausevbp	causaljjofinthyminenns	theynnscausevbp	causationnnthyminenns	causationnntnns	causingnnofintheynns	causennofinthemnns	tnnsmakevbp	theynnsmakevbp	causativennofintheynns	causationnnofintheynns	causennofintnns	causationnnofinthyminenns	causennofintheynns	causativennofinthemnns	
+
+BE: imbalanceNNcausesVBZ
+EQ class: causativennofinimbalancenn	causaljjofininstabilitynn	causennofininstabilitynn	causennofinimbalancenn	causaljjofinunbalancenn	instabilitynndovbz	unbalancenncausevbz	instabilitynnmakevbz	causationnnunbalancenn	causationnninstabilitynn	causingnnofinunbalancenn	causationnnofinunbalancenn	causingnninstabilitynn	causativennofininstabilitynn	causingnnimbalancenn	causingnnofinimbalancenn	causingnnofininstabilitynn	causennofinunbalancenn	unbalancenndovbz	causingnnunbalancenn	imbalancenndovbz	unbalancenncausesvbz	imbalancennmakevbz	instabilitynncausesvbz	unbalancennmakevbz	causationnnimbalancenn	causaljjofinimbalancenn	causationnnofininstabilitynn	instabilitynncausevbz	imbalancenncausevbz	causativennofinunbalancenn	causationnnofinimbalancenn	
+
+BE: causeVBPhypertensionNN
+EQ class: causativennofinhypertensionnn	dovbphypertensionnn	makevbphigh_blood_pressurenn	causingnnofinhigh_blood_pressurenn	causennofinhigh_blood_pressurenn	causingnnofinhypertensionnn	causaljjofinhigh_blood_pressurenn	causationnnofinhigh_blood_pressurenn	makevbphypertensionnn	causennofinhypertensionnn	causaljjofinhypertensionnn	causativennofinhigh_blood_pressurenn	causationnnofinhypertensionnn	dovbphigh_blood_pressurenn	causevbphigh_blood_pressurenn	
+
+BE: causesVBZproblemNN
+EQ class: makevbzproblematicaljj	causevbzproblemnn	causingnnofinproblemnn	makevbzproblemnn	dovbzproblemnn	causaljjofinproblematicaljj	causingnnofinjobnn	causationnnofinproblematicjj	causationnnofinjobnn	causennofinproblematicjj	causesvbzjobnn	causativennofinproblemnn	causevbzproblematicaljj	causesvbzproblematicjj	causennofinproblemnn	causativennofinproblematicaljj	causennofinjobnn	causaljjofinproblemnn	causativennofinjobnn	causingnnofinproblematicaljj	makevbzproblematicjj	causaljjofinproblematicjj	dovbzjobnn	dovbzproblematicjj	causaljjofinjobnn	dovbzproblematicaljj	causesvbzproblematicaljj	causativennofinproblematicjj	causevbzjobnn	causevbzproblematicjj	causationnnofinproblematicaljj	causennofinproblematicaljj	causingnnofinproblematicjj	causationnnofinproblemnn	makevbzjobnn	
+
+BE: hypertensionNNforINmostJJS
+EQ class: high_blood_pressurennforinmostjjs	mostjjshypertensionnn	mostjjshigh_blood_pressurenn	
+
+BE: imbalanceNNofINpotassiumLocationAnnotation
+EQ class: potassiumlocationannotationinstabilitynn	potassiumlocationannotationunbalancenn	potassiumlocationannotationimbalancenn	instabilitynnofinpotassiumlocationannotation	unbalancennofinpotassiumlocationannotation	
+
+BE: causeVBPreallyRB
+EQ class: realjjcausationnn	causennofinreallyrb	realitynninincausationnn	realitynnininmakevbp	existentjjinincausaljj	realitynninincausevbp	existentjjinincausevbp	causingnnofinreallyrb	realnessnninincausaljj	existentjjinincausenn	realitynncausaljj	existentjjcausenn	causativennofinreallyrb	existentjjcausationnn	makevbpreallyrb	realjjinincausationnn	realitynninincausingnn	dovbpreallyrb	realitynninindovbp	existentjjcausaljj	causaljjofinreallyrb	realnessnninincausingnn	existentjjinincausingnn	realnessnncausationnn	realjjinincausingnn	existentjjcausingnn	realjjinincausevbp	causationnnofinreallyrb	realitynninincausenn	realnessnncausenn	existentjjinincausationnn	realitynninincausaljj	realnessnninincausenn	realjjinincausenn	realnessnncausaljj	realitynncausationnn	realnessnncausingnn	realjjcausaljj	realnessnninincausevbp	realnessnninincausationnn	realjjinincausaljj	realjjcausingnn	existentjjinindovbp	realitynncausingnn	realnessnnininmakevbp	existentjjininmakevbp	realnessnninindovbp	realitynncausenn	realjjinindovbp	realjjininmakevbp	realjjcausenn	
+
+BE: imbalancesNNS
+EQ class: unbalancenns	instabilitynns	theynns	imbalancenns	themnns	
+
+BE: insulinLocationAnnotation
+EQ class: 
+
+BE: resistanceNN
+EQ class: oppositionnn	
+
+BE: ..NNS
+EQ class: theynns	themnns	nns	
+
+BE: contributeVBP
+EQ class: impartvbp	lendvbp	bestowvbp	addvbp	bringvbp	
+
+BE: causeVBP
+EQ class: dovbp	makevbp	
+
+BE: rrrVBP
+EQ class: 
+
+BE: resistanceNN..NNS
+EQ class: oppositionnntheynns	oppositionnn..nns	resistancennthemnns	resistancenntheynns	oppositionnnnns	resistancennnns	oppositionnnthemnns	
+
+BE: insulinLocationAnnotation..NNS
+EQ class: insulinlocationannotationtheynns	insulinlocationannotationnns	insulinlocationannotationthemnns	
+
+BE: imbalancesNNScontributeVBP
+EQ class: themnnsaddvbp	instabilitynnsbringvbp	theynnsbringvbp	themnnsimpartvbp	theynnsaddvbp	imbalancennsimpartvbp	theynnscontributevbp	instabilitynnsaddvbp	unbalancennsbestowvbp	imbalancennsaddvbp	imbalancennsbringvbp	unbalancennscontributevbp	themnnscontributevbp	themnnslendvbp	unbalancennsimpartvbp	instabilitynnslendvbp	themnnsbestowvbp	theynnslendvbp	theynnsbestowvbp	imbalancesnnsaddvbp	instabilitynnscontributevbp	unbalancennslendvbp	imbalancesnnsbestowvbp	unbalancennsaddvbp	imbalancennsbestowvbp	imbalancennslendvbp	imbalancesnnslendvbp	imbalancesnnsimpartvbp	themnnsbringvbp	instabilitynnsimpartvbp	instabilitynnsbestowvbp	unbalancennsbringvbp	imbalancesnnsbringvbp	imbalancennscontributevbp	theynnsimpartvbp	
+
+BE: ..NNSrrrVBP
+EQ class: theynnsrrrvbp	themnnsrrrvbp	nnsrrrvbp	
+
+BE: contributeVBPifINcauseVBP
+EQ class: contributevbpifinmakevbp	contributevbpifindovbp	bestowvbpifindovbp	impartvbpifinmakevbp	lendvbpifinmakevbp	bringvbpifincausevbp	bringvbpifindovbp	bestowvbpifinmakevbp	addvbpifindovbp	addvbpifincausevbp	addvbpifinmakevbp	lendvbpifindovbp	lendvbpifincausevbp	bestowvbpifincausevbp	impartvbpifindovbp	impartvbpifincausevbp	bringvbpifinmakevbp	
+
+BE: contributeVBPalsoRB
+EQ class: bringvbpalsorb	lendvbpalsorb	addvbpalsorb	impartvbpalsorb	bestowvbpalsorb	
+
+BE: causeVBPnotRB
+EQ class: causingnnofinnotrb	makevbpnotrb	causaljjofinnotrb	causationnnofinnotrb	causativennofinnotrb	dovbpnotrb	causennofinnotrb	
+
+BE: causeVBPdownrightRB
+EQ class: causingnnofindownrightrb	makevbpdownrightrb	causativennofindownrightrb	dovbpdownrightrb	causennofindownrightrb	causaljjofindownrightrb	causationnnofindownrightrb	
+
+BE: RRRRNNP
+EQ class: roentgennnp	rnnp	r.r.r.r.nnp	
+

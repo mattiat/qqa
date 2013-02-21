@@ -1,0 +1,20 @@
+#dravid is understanding and responsible
+#(S1 (S (NP (NNP dravid)) (VP (AUX is) (ADJP (VBG understanding) (CC and) (JJ responsible)))))
+#Rule:Nouns
+r1dravidNNP
+
+#Rule:Verbs
+r2understandingVBG
+
+#Rule:Adjs
+r4responsibleJJ
+
+#Rule:HeadNoun-V
+r11dravidNNPisAUX
+
+#Rule:V-ADJ
+r25isAUXunderstandingVBG
+
+@lemmas-left	is	understand	responsible	understanding	dravid	be	
+@lemmas-right	is	understand	understanding	be	
+@lemmas-center	

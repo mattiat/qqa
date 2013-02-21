@@ -1,0 +1,186 @@
+BE: ThatsNNS
+EQ class: 
+
+BE: lightNN
+EQ class: visible_lightnn	visible_radiationnn	
+
+BE: sunNN
+EQ class: 
+
+BE: airNN
+EQ class: 
+
+BE: lightNN
+EQ class: visible_lightnn	visible_radiationnn	
+
+BE: comesVBZ
+EQ class: comevbz	come_upvbz	
+
+BE: passesVBZ
+EQ class: go_throughvbz	passvbz	go_acrossvbz	
+
+BE: scattersVBZ
+EQ class: break_upvbz	dissipatevbz	scattervbz	dispersevbz	dispelvbz	
+
+BE: dividesVBZ
+EQ class: dissevervbz	separatevbz	splitvbz	carve_upvbz	split_upvbz	dividevbz	
+
+BE: manyJJ
+EQ class: 
+
+BE: lightNNscattersVBZ
+EQ class: visible_radiationnnscattervbz	scatternnofinlightnn	scatteringnnofinlightnn	scatteringnnofinvisible_lightnn	visible_radiationnndispersevbz	visible_lightnndispersevbz	scatternnofinvisible_radiationnn	scatteringnnvisible_lightnn	sprinklingnnofinvisible_lightnn	lightnnbreak_upvbz	visible_lightnnbreak_upvbz	spreadnnofinvisible_radiationnn	scatteringnnlightnn	sprinklingnnlightnn	spreadnnofinvisible_lightnn	sprinklingnnvisible_lightnn	sprinklingnnvisible_radiationnn	visible_lightnndispelvbz	scatternnofinvisible_lightnn	visible_lightnnscattersvbz	scatteringnnofinvisible_radiationnn	lightnndispersevbz	spreadnnofinlightnn	scatteringnnvisible_radiationnn	sprinklingnnofinvisible_radiationnn	visible_lightnnscattervbz	visible_radiationnnscattersvbz	lightnndispelvbz	visible_radiationnnbreak_upvbz	lightnndissipatevbz	visible_radiationnndispelvbz	visible_lightnndissipatevbz	sprinklingnnofinlightnn	lightnnscattervbz	visible_radiationnndissipatevbz	
+
+BE: sunNNpassesVBZ
+EQ class: sunnnpassvbz	sunnngo_acrossvbz	sunnngo_throughvbz	
+
+BE: lightNNcomesVBZ
+EQ class: visible_lightnncomesvbz	approachingnnvisible_radiationnn	approachingnnvisible_lightnn	visible_radiationnncomevbz	approachnnofinvisible_radiationnn	approachnnvisible_radiationnn	approachingnnlightnn	approachnnvisible_lightnn	comingnnofinvisible_lightnn	comingnnvisible_radiationnn	approachnnlightnn	visible_lightnncomevbz	visible_lightnncome_upvbz	comingnnlightnn	comingnnvisible_lightnn	approachnnofinvisible_lightnn	approachnnofinlightnn	approachingnnofinvisible_lightnn	lightnncomevbz	visible_radiationnncomesvbz	approachingnnofinlightnn	visible_radiationnncome_upvbz	approachingnnofinvisible_radiationnn	comingnnofinvisible_radiationnn	lightnncome_upvbz	comingnnofinlightnn	
+
+BE: passesVBZthroughINairNN
+EQ class: go_throughvbzthroughinairnn	go_acrossvbzthroughinairnn	passvbzthroughinairnn	
+
+BE: scattersVBZintoINmanyJJ
+EQ class: dissipatevbzintoinmanyjj	scattervbzintoinmanyjj	break_upvbzintoinmanyjj	dispelvbzintoinmanyjj	dispersevbzintoinmanyjj	
+
+BE: scattersVBZbecauseINThatsNNS
+EQ class: break_upvbzbecauseinthatsnns	dispersevbzbecauseinthatsnns	scattervbzbecauseinthatsnns	dissipatevbzbecauseinthatsnns	dispelvbzbecauseinthatsnns	
+
+BE: scattersVBZbecauseINlightNN
+EQ class: break_upvbzbecauseinvisible_radiationnn	dispelvbzbecauseinvisible_lightnn	dispersevbzbecauseinvisible_lightnn	dispelvbzbecauseinlightnn	dissipatevbzbecauseinvisible_lightnn	break_upvbzbecauseinvisible_lightnn	scattervbzbecauseinvisible_radiationnn	dispersevbzbecauseinlightnn	break_upvbzbecauseinlightnn	dispelvbzbecauseinvisible_radiationnn	scattervbzbecauseinlightnn	dissipatevbzbecauseinvisible_radiationnn	dissipatevbzbecauseinlightnn	dispersevbzbecauseinvisible_radiationnn	scattersvbzbecauseinvisible_radiationnn	scattersvbzbecauseinvisible_lightnn	scattervbzbecauseinvisible_lightnn	
+
+BE: comesVBZfromtINpassesVBZ
+EQ class: comevbzfromtinpassesvbz	come_upvbzfromtingo_acrossvbz	comevbzfromtingo_acrossvbz	comevbzfromtinpassvbz	come_upvbzfromtinpassesvbz	comesvbzfromtingo_throughvbz	comevbzfromtingo_throughvbz	comesvbzfromtinpassvbz	come_upvbzfromtingo_throughvbz	comesvbzfromtingo_acrossvbz	come_upvbzfromtinpassvbz	
+
+BE: colorsNNS
+EQ class: theynns	coloursnns	themnns	
+
+BE: frequencyNN
+EQ class: oftennessnn	frequencenn	
+
+BE: distanceNN
+EQ class: distantjj	
+
+BE: highJJ
+EQ class: highnessnn	
+
+BE: visibleJJ
+EQ class: visibilitynn	seeablejj	visiblenessnn	
+
+BE: longerJJR
+EQ class: longnessnn	longjjr	
+
+BE: highJJfrequencyNN
+EQ class: highnessnnfrequencenn	highjjoftennessnn	highjjfrequencenn	highnessnnoftennessnn	highnessnnfrequencynn	
+
+BE: longerJJRdistanceNN
+EQ class: longnessnndistantjj	longerjjrdistantjj	longjjrdistantjj	longnessnndistancenn	longjjrdistancenn	
+
+BE: colorsNNSbeAUX
+EQ class: themnnsbeaux	coloursnnsbeaux	theynnsbeaux	
+
+BE: colorsNNShaveAUX
+EQ class: havennofintheynns	theynnshave_gotaux	wealthy_personnnofintheynns	rich_personnnofincoloursnns	theynnshaveaux	havennofinthemnns	rich_personnnofincolorsnns	havennofincoloursnns	colorsnnsholdaux	wealthy_personnnofincoloursnns	wealthy_personnnofinthemnns	colorsnnshave_gotaux	coloursnnshaveaux	themnnshave_gotaux	havennofincolorsnns	wealthy_personnnofincolorsnns	themnnsholdaux	theynnsholdaux	coloursnnsholdaux	themnnshaveaux	coloursnnshave_gotaux	rich_personnnofintheynns	rich_personnnofinthemnns	
+
+BE: haveAUXfrequencyNN
+EQ class: wealthy_personnnofinoftennessnn	wealthy_personnnofinfrequencenn	haveauxoftennessnn	haveauxfrequencenn	wealthy_personnnofinfrequencynn	have_gotauxoftennessnn	rich_personnnofinfrequencenn	havennofinoftennessnn	holdauxfrequencynn	holdauxfrequencenn	have_gotauxfrequencynn	rich_personnnofinfrequencynn	havennofinfrequencenn	holdauxoftennessnn	havennofinfrequencynn	rich_personnnofinoftennessnn	have_gotauxfrequencenn	
+
+BE: beAUXvisibleJJ
+EQ class: beauxvisiblenessnn	beauxseeablejj	beauxvisibilitynn	
+
+BE: beAUXforINdistanceNN
+EQ class: beauxforindistantjj	
+
+BE: caseNN
+EQ class: instancenn	examplenn	
+
+BE: violetNN
+EQ class: 
+
+BE: indigoNN
+EQ class: anilnn	indigotinnn	
+
+BE: blueNN
+EQ class: bluenessnn	
+
+BE: onesNNS
+EQ class: inns	acenns	theynns	1nns	onenns	unitynns	singlenns	themnns	
+
+BE: frequencyNN
+EQ class: oftennessnn	frequencenn	
+
+BE: havPersonAnnotation
+EQ class: 
+
+BE: highJJ
+EQ class: highnessnn	
+
+BE: highJJfrequencyNN
+EQ class: highnessnnfrequencenn	highjjoftennessnn	highjjfrequencenn	highnessnnoftennessnn	highnessnnfrequencynn	
+
+BE: indigoNNareAUX
+EQ class: indigotinnnareaux	anilnnareaux	anilnnbeaux	indigonnbeaux	indigotinnnbeaux	
+
+BE: onesNNShavPersonAnnotation
+EQ class: singlennshavpersonannotation	acennshavpersonannotation	themnnshavpersonannotation	1nnshavpersonannotation	theynnshavpersonannotation	unitynnshavpersonannotation	innshavpersonannotation	onennshavpersonannotation	
+
+BE: areAUXonesNNS
+EQ class: beauxthemnns	beauxacenns	areauxthemnns	areauxacenns	beauxonesnns	beauxtheynns	beauxinns	areauxunitynns	areauxtheynns	beauxunitynns	areauxonenns	areauxsinglenns	beauxsinglenns	areaux1nns	areauxinns	beauxonenns	beaux1nns	
+
+BE: havPersonAnnotationfrequencyNN
+EQ class: havpersonannotationfrequencenn	havpersonannotationoftennessnn	
+
+BE: areAUXinINcaseNN
+EQ class: areauxininexamplenn	beauxinininstancenn	beauxininexamplenn	areauxinininstancenn	beauxinincasenn	
+
+BE: onesNNSindigoNN
+EQ class: indigotinnnunitynns	1nnsindigonn	unitynnsanilnn	unitynnsindigonn	theynnsanilnn	1nnsindigotinnn	acennsindigonn	innsindigonn	indigonnonesnns	indigonninns	indigotinnnthemnns	anilnntheynns	onennsindigonn	theynnsindigonn	singlennsindigonn	innsanilnn	anilnn1nns	acennsanilnn	onesnnsindigotinnn	indigonnthemnns	anilnnsinglenns	anilnnacenns	theynnsindigotinnn	singlennsindigotinnn	singlennsanilnn	anilnnonesnns	onennsanilnn	indigotinnnonesnns	acennsindigotinnn	innsindigotinnn	anilnninns	indigotinnnsinglenns	indigonnsinglenns	indigonn1nns	indigonnunitynns	indigonnacenns	indigotinnnonenns	anilnnthemnns	themnnsindigonn	anilnnonenns	anilnnunitynns	indigotinnntheynns	indigotinnninns	themnnsindigotinnn	1nnsanilnn	onesnnsanilnn	unitynnsindigotinnn	indigotinnnacenns	onennsindigotinnn	indigonntheynns	indigonnonenns	indigotinnn1nns	themnnsanilnn	
+
+BE: colorNN
+EQ class: colournn	coloringnn	colouringnn	
+
+BE: skyNN
+EQ class: 
+
+BE: skyNN
+EQ class: 
+
+BE: mixNN
+EQ class: premixnn	
+
+BE: violetNN
+EQ class: 
+
+BE: indigoNN
+EQ class: anilnn	indigotinnn	
+
+BE: blueNN
+EQ class: bluenessnn	
+
+BE: blueJJ
+EQ class: bluenessnn	blueishjj	bluishjj	
+
+BE: blueJJskyNN
+EQ class: bluenessnnskynn	blueishjjskynn	bluishjjskynn	
+
+BE: colorNNisAUX
+EQ class: coloringnnisaux	colournnbeaux	colornnbeaux	colouringnnbeaux	colouringnnisaux	coloringnnbeaux	colournnisaux	
+
+BE: skyNNisAUX
+EQ class: skynnbeaux	
+
+BE: isAUXskyNN
+EQ class: beauxskynn	
+
+BE: isAUXmixNN
+EQ class: isauxpremixnn	beauxmixnn	beauxpremixnn	
+
+BE: colorNNofINskyNN
+EQ class: skynncolourvb	coloringnnofinskynn	skynncolorvb	skynncolourisevb	skynncoloristvb	colorizevbskynn	skynncolorizevb	skynncolournn	colour_invbskynn	colourisevbskynn	colourvbskynn	coloristvbskynn	skynncolornn	skynncolouringnn	colorisevbskynn	colouringnnofinskynn	colorvbskynn	colourizevbskynn	colournnofinskynn	color_invbskynn	skynncolorisevb	skynncoloringnn	skynncolor_invb	skynncolourizevb	skynncolour_invb	
+
+BE: mixNNofINindigoNN
+EQ class: anilnnmixnn	indigotinnnmixnn	mixnnofinanilnn	anilnnpremixnn	premixnnofinindigonn	indigotinnnpremixnn	premixnnofinanilnn	indigonnmixnn	mixnnofinindigotinnn	premixnnofinindigotinnn	indigonnpremixnn	
+
+BE: mixNNcolorNN
+EQ class: colournnofinpremixnn	mixnncolouringnn	premixnncolourvb	premixnncolourisevb	food_coloringnnofinmixnn	colouringnnofinmixnn	mixnncolourvb	colournnpremixnn	mixnncolor_invb	mixnncoloringnn	premixnncolournn	food_colouringnnofinpremixnn	premixnncolorisevb	mixnncolorizevb	food_colornnofinmixnn	colorationnnofinmixnn	coloringnnofinpremixnn	colornnofinpremixnn	colournnmixnn	premixnncolorizevb	mixnncolour_invb	mixnncolourisevb	food_colornnofinpremixnn	colornnpremixnn	premixnncolour_invb	premixnncolor_invb	premixnncolorvb	food_colouringnnofinmixnn	colourationnnofinmixnn	coloringnnmixnn	colorationnnofinpremixnn	food_colournnofinpremixnn	colornnofinmixnn	premixnncoloringnn	food_colournnofinmixnn	coloringnnofinmixnn	coloringnnpremixnn	premixnncolouringnn	colouringnnmixnn	colournnofinmixnn	colouringnnpremixnn	premixnncolourizevb	mixnncolorisevb	premixnncolornn	colouringnnofinpremixnn	colornnmixnn	mixnncolorvb	colourationnnofinpremixnn	mixnncolourizevb	mixnncolournn	food_coloringnnofinpremixnn	
+

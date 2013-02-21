@@ -1,0 +1,40 @@
+#cut your leg off?
+#(S1 (SQ (VP (VB cut) (NP (PRP$ your) (NN leg)) (PRT (RP off))) (. ?)))
+#Rule:Nouns
+r1legNN
+
+#Rule:Verbs
+r2cutVB
+
+#Rule:V-PRT
+r3cutVBoffRP
+
+#Rule:PRP-Noun
+r6yourPRP$legNN
+
+#Rule:V-HeadNoun
+r21cutVBlegNN
+
+#,a bit extreme i know,but you will lose weight
+#(S1 (FRAG (, ,) (ADJP (NP (DT a) (NN bit)) (JJ extreme)) (S (S (NP (PRP i)) (VP (VBP know))) (, ,) (CC but) (S (NP (PRP you)) (VP (MD will) (VP (VB lose) (NP (NN weight))))))))
+#Rule:Nouns
+r1bitNN
+r1weightNN
+
+#Rule:Verbs
+r2knowVBP
+r2loseVB
+
+#Rule:Adjs
+r4extremeJJ
+
+#Rule:HeadNoun-V
+r11iPersonAnnotationknowVBP
+r11youPRPloseVB
+
+#Rule:V-HeadNoun
+r21loseVBweightNN
+
+@lemmas-left	lose	bit	leg	extreme	weight	your	you	cut	know	i	
+@lemmas-right	lose	leg	weight	off	know	
+@lemmas-center	

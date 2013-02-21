@@ -1,0 +1,155 @@
+#Iwouldn t burn young kids out..
+#(S1 (FRAG (S (NP (NNP Iwouldn) (NNP t)) (VP (VB burn) (NP (JJ young) (NNS kids)) (PRT (RP out))) (. .)) (. .)))
+#Rule:Nouns
+r1IwouldnNNP
+r1tNNP
+r1kidsNNS
+
+#Rule:Verbs
+r2burnVB
+
+#Rule:V-PRT
+r3burnVBoutRP
+
+#Rule:Adjs
+r4youngJJ
+
+#Rule:Adj-Noun
+r5youngJJkidsNNS
+
+#Rule:N-HeadNoun
+r8IwouldnNNPtNNP
+
+#Rule:HeadNoun-V
+r11tNNPburnVB
+
+#Rule:V-HeadNoun
+r21burnVBkidsNNS
+
+#I d let them free draw for an hour to so..
+#(S1 (S (NP (PRP I)) (ADVP (LS d)) (VP (VBP let) (S (NP (PRP them)) (ADJP (JJ free) (S (NP (NP (NN draw)) (PP (IN for) (NP (DT an) (NN hour)))) (VP (TO to) (VP (ADVP (RB so)))) (. .))))) (. .)))
+#Rule:Nouns
+r1drawNN
+r1hourNN
+
+#Rule:Verbs
+r2letVBP
+
+#Rule:Adjs
+r4freeJJ
+
+#Rule:HeadNoun-V
+r11iPRPletVBP
+
+#Rule:V-HeadNoun
+r22letVBPthemPRP
+
+#Rule:PPinNP
+r26drawNNforINhourNN
+
+#I d let them play games for 45 minutes to so later on.  Anything they want to..
+#(S1 (S (NP (PRP I)) (ADVP (LS d)) (VP (VBP let) (S (NP (PRP them)) (VP (VB play) (NP (NNS games)) (PP (IN for) (NP (NP (CD 45) (NNS minutes)) (SBAR (S (VP (TO to) (VP (ADVP (RB so) (RB later)) (VB on.) (NP (NP (NN Anything)) (SBAR (S (NP (PRP they)) (VP (VBP want) (S (VP (TO to)))))))))))))) (. .))) (. .)))
+#Rule:Nouns
+r1gamesNNS
+r1minutesNNS
+r1AnythingNN
+
+#Rule:Verbs
+r2letVBP
+r2playVB
+r2onVB
+r2wantVBP
+
+#Rule:Adj-Noun
+r545CDminutesNNS
+
+#Rule:HeadNoun-V
+r11iPRPletVBP
+r11themPRPplayVB
+r11theyPRPwantVBP
+
+#Rule:HeadNoun-(who/that)-V
+r14minutesNNSonVB
+
+#Rule:NP(NP(z) SBAR(S(NP(x)VP(y))))
+r19wantVBPAnythingNN
+
+#Rule:V-HeadNoun
+r21playVBgamesNNS
+r21onVBAnythingNN
+
+#Rule:V-HeadNoun
+r22letVBPthemPRP
+
+#Rule:PPinVP
+r30playVBforINminutesNNS
+
+#Rule:V-ADV
+r46onVBsoRB
+r46onVBlaterRB
+
+#One nice thing to do is sit down together and watch something like Where in the World is Carmen Santiago..
+#(S1 (S (NP (CD One) (JJ nice) (NN thing)) (VP (TO to) (VP (AUX do) (SBAR (S (VP (AUX is) (S (VP (VP (VB sit) (PRT (RP down)) (ADVP (RB together))) (CC and) (VP (VB watch) (NP (NP (NN something)) (PP (IN like) (SBAR (WHADVP (WRB Where)) (S (PP (IN in) (NP (DT the) (NN World))) (VP (AUX is) (NP (NNP Carmen) (NNP Santiago))) (. .))))))))))))) (. .)))
+#Rule:Nouns
+r1thingNN
+r1somethingNN
+r1WorldNN
+r1Carmen SantiagoLocationAnnotation
+
+#Rule:Verbs
+r2watchVB
+
+#Rule:V-PRT
+r3sitVBdownRP
+
+#Rule:Adjs
+r4niceJJ
+
+#Rule:Adj-Noun
+r5OneCDthingNN
+r5niceJJthingNN
+
+#Rule:HeadNoun-V
+r11thingNNdoAUX
+
+#Rule:V-HeadNoun
+r21watchVBsomethingNN
+r21isAUXCarmen SantiagoLocationAnnotation
+
+#Rule:PPinS
+r36isAUXinINWorldNN
+
+#Rule:V-ADV
+r46sitVBtogetherRB
+
+#Then discuss it..
+#(S1 (S (RB Then) (VP (VB discuss) (NP (PRP it)) (. .)) (. .)))
+#Rule:Verbs
+r2discussVB
+
+#Rule:V-HeadNoun
+r21discussVBitPRP
+
+#Kids today are horrible at geography
+#(S1 (S (NP (NNS Kids)) (NP (NN today)) (VP (AUX are) (ADJP (JJ horrible)) (PP (IN at) (NP (NN geography))))))
+#Rule:Nouns
+r1KidsOrganizationAnnotation
+r1todayNN
+r1geographyNN
+
+#Rule:Adjs
+r4horribleJJ
+
+#Rule:HeadNoun-V
+r11KidsOrganizationAnnotationareAUX
+r11todayNNareAUX
+
+#Rule:V-ADJ
+r25areAUXhorribleJJ
+
+#Rule:PPinVP
+r30areAUXatINgeographyNN
+
+@lemmas-left	they	one	today	nice	on.	horrible	kid	draw	free	are	geography	iwouldn	on	World	something	One	want	be	Carmen Santiago	games	is	minutes	Iwouldn	45	let	watch	Kids	play	game	hour	kids	young	i	sit	t	anything	discuss	them	burn	world	Anything	thing	
+@lemmas-right	on.	horrible	together	kid	geography	are	on	do	World	something	want	be	games	Carmen Santiago	it	minutes	let	so	later	play	hour	kids	game	t	anything	them	down	burn	Anything	world	out	thing	
+@lemmas-center	for	at	in	

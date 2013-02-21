@@ -1,0 +1,39 @@
+#You don t dig up your great, great grandfather- why dig up Tutankhamen?
+#(S1 (S (NP (PRP You)) (VP (VB don) (S (NP (NNS t)) (VP (VB dig) (PRT (RP up)) (NP (PRP$ your) (JJ great) (, ,) (JJ great) (NN grandfather-)))) (SBAR (WHADVP (WRB why)) (S (VP (VB dig) (PRT (RP up)) (NP (NNP Tutankhamen)))))) (. ?)))
+#Rule:Nouns
+r1tLocationAnnotation
+r1grandfather-NN
+r1TutankhamenLocationAnnotation
+
+#Rule:Verbs
+r2donVB
+
+#Rule:V-PRT
+r3digVBupRP
+r3digVBupRP
+
+#Rule:Adjs
+r4greatJJ
+r4greatJJ
+
+#Rule:Adj-Noun
+r5greatJJgrandfather-NN
+r5greatJJgrandfather-NN
+
+#Rule:PRP-Noun
+r6yourPRP$grandfather-NN
+
+#Rule:HeadNoun-V
+r11youPRPdonVB
+r11tLocationAnnotationdigVB
+
+#Rule:V-HeadNoun
+r21digVBgrandfather-NN
+r21digVBTutankhamenLocationAnnotation
+
+#Rule:V-HeadNoun
+r22donVBtLocationAnnotation
+
+@lemmas-left	great	t	don	your	you	dig	grandfather-	Tutankhamen	
+@lemmas-right	t	don	dig	grandfather-	Tutankhamen	up	
+@lemmas-center	

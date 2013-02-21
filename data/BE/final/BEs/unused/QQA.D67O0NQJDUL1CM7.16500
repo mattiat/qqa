@@ -1,0 +1,52 @@
+#I think people already said some stuff, but bascially there is a updraft from the bird in front and they save about 15% more energy I think.
+#(S1 (S (S (NP (PRP I)) (VP (VBP think) (SBAR (S (NP (NNS people)) (ADVP (RB already)) (VP (VBN said) (NP (DT some) (NN stuff))))))) (, ,) (CC but) (S (S (ADVP (RB bascially)) (NP (EX there)) (VP (AUX is) (NP (NP (DT a) (NN updraft)) (PP (IN from) (NP (NP (DT the) (NN bird)) (PP (IN in) (NP (NN front)))))))) (CC and) (S (NP (PRP they)) (VP (VBP save) (NP (NP (ADJP (NP (QP (RB about) (CD 15)) (NN %)) (JJR more)) (NN energy)) (SBAR (S (NP (PRP I)) (VP (VBP think)))))))) (. .)))
+#Rule:Nouns
+r1peopleNNS
+r1stuffNN
+r1updraftNN
+r1birdNN
+r1frontNN
+r1%NN
+r1energyNN
+
+#Rule:Verbs
+r2thinkVBP
+r2saidVBN
+r2saveVBP
+r2thinkVBP
+
+#Rule:Adjs
+r4moreJJR
+
+#Rule:Adj-Noun
+r5moreJJRenergyNN
+r515CD%NN
+
+#Rule:HeadNoun-V
+r11iPRPthinkVBP
+r11thereEXisAUX
+r11theyPRPsaveVBP
+r11iPRPthinkVBP
+
+#Rule:NP(NP(z) SBAR(S(NP(x)VP(y))))
+r19thinkVBPenergyNN
+
+#Rule:V-HeadNoun
+r21saidVBNstuffNN
+r21isAUXupdraftNN
+r21saveVBPenergyNN
+
+#Rule:V-HeadNoun(passive)
+r24saidVBNpeopleNNS
+
+#Rule:PPinNP
+r26updraftNNfromINbirdNN
+r26birdNNinINfrontNN
+
+#Rule:V-ADV
+r46saidVBNalreadyRB
+r46isAUXbasciallyRB
+
+@lemmas-left	they	is	think	said	save	%	front	15	people	i	bird	more	stuff	there	say	updraft	energy	be	
+@lemmas-right	bascially	think	is	save	%	front	already	people	bird	stuff	updraft	energy	be	
+@lemmas-center	from	in	

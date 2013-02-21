@@ -1,0 +1,636 @@
+#Once again no one knows what they are talking about..
+#(S1 (S (ADVP (RB Once) (RB again)) (NP (DT no) (NN one)) (VP (VBZ knows) (SBAR (WHNP (WP what)) (S (NP (PRP they)) (VP (AUX are) (VP (VBG talking) (PP (IN about))))) (. .))) (. .)))
+#Rule:Nouns
+r1oneNN
+
+#Rule:Verbs
+r2knowsVBZ
+r2talkingVBG
+
+#Rule:HeadNoun-V
+r11oneNNknowsVBZ
+r11theyPRPtalkingVBG
+
+#Rule:V-ADV
+r46knowsVBZOnceRB
+r46knowsVBZagainRB
+
+#While the TERM Big Bang came from scientist Fred Hoyle it was meant to be a put down, a joke..
+#(S1 (S (SBAR (IN While) (S (NP (DT the) (NNP TERM) (NNP Big) (NNP Bang)) (VP (VBD came) (PP (IN from) (NP (NN scientist) (NNP Fred) (NNP Hoyle)))))) (NP (PRP it)) (VP (AUX was) (VP (VBN meant) (S (VP (TO to) (VP (AUX be) (NP (NP (DT a) (NN put)) (FRAG (ADVP (RB down)) (, ,) (NP (DT a) (NN joke)) (. .)))))))) (. .)))
+#Rule:Nouns
+r1TERM Big BangOrganizationAnnotation
+r1scientistNN
+r1FredNNP
+r1HoyleOrganizationAnnotation
+r1putNN
+r1jokeNN
+
+#Rule:Verbs
+r2cameVBD
+r2meantVBN
+
+#Rule:N-HeadNoun
+r8FredNNPHoyleOrganizationAnnotation
+r8scientistNNHoyleOrganizationAnnotation
+
+#Rule:HeadNoun-V
+r11TERM Big BangOrganizationAnnotationcameVBD
+
+#Rule:V-HeadNoun
+r21beAUXputNN
+
+#Rule:V-HeadNoun(passive)
+r23meantVBNitPRP
+
+#Rule:PPinVP
+r30cameVBDfromINHoyleOrganizationAnnotation
+
+#The Big Bang theory is properly called the Theory of the Primordial Atom and it was proposed by a Catholic Priest who held degrees in Phsyics and Astronomy..
+#(S1 (S (NP (DT The) (NNP Big) (NNP Bang) (NN theory)) (VP (AUX is) (ADVP (RB properly)) (VP (VBN called) (S (NP (NP (DT the) (NN Theory)) (PP (IN of) (NP (NP (DT the) (JJ Primordial) (NNP Atom)) (CC and) (S (NP (PRP it)) (VP (AUX was) (VP (VBN proposed) (PP (IN by) (NP (NP (DT a) (NNP Catholic) (NN Priest)) (SBAR (WHNP (WP who)) (S (VP (VBD held) (NP (NP (NNS degrees)) (PP (IN in) (NP (NNP Phsyics) (CC and) (NNP Astronomy))))))))))) (. .)))))))) (. .)))
+#Rule:Nouns
+r1Big BangOrganizationAnnotation
+r1theoryNN
+r1TheoryPersonAnnotation
+r1Primordial AtomOrganizationAnnotation
+r1Catholic PriestOrganizationAnnotation
+r1degreesNNS
+r1PhsyicsLocationAnnotation
+r1AstronomyNNP
+
+#Rule:Verbs
+r2calledVBN
+r2proposedVBN
+r2heldVBD
+
+#Rule:N-HeadNoun
+r8Big BangOrganizationAnnotationtheoryNN
+
+#Rule:V-By-Agent
+r13Catholic PriestOrganizationAnnotationproposedVBN
+
+#Rule:HeadNoun-(who/that)-V
+r14Catholic PriestOrganizationAnnotationheldVBD
+
+#Rule:V-HeadNoun
+r21heldVBDdegreesNNS
+
+#Rule:V-HeadNoun
+r22calledVBNTheoryPersonAnnotation
+
+#Rule:V-HeadNoun(passive)
+r23calledVBNtheoryNN
+r23proposedVBNitPRP
+
+#Rule:PPinNP
+r26TheoryPersonAnnotationofINPrimordial AtomOrganizationAnnotation
+r26degreesNNSinINPhsyicsLocationAnnotation
+
+#Rule:V-ADV
+r46isAUXproperlyRB
+r46calledVBNproperlyRB
+
+#It was held in low esteem because it sounded too much like Genesis..
+#(S1 (S (NP (PRP It)) (VP (AUX was) (VP (VBN held) (PP (IN in) (NP (JJ low) (NN esteem))) (SBAR (IN because) (S (NP (PRP it)) (VP (VBD sounded) (PP (ADVP (RB too) (RB much)) (IN like) (NP (NN Genesis)))) (. .))))) (. .)))
+#Rule:Nouns
+r1esteemNN
+r1Genesis..LocationAnnotation
+
+#Rule:Verbs
+r2heldVBN
+r2soundedVBD
+
+#Rule:Adjs
+r4lowJJ
+
+#Rule:Adj-Noun
+r5lowJJesteemNN
+
+#Rule:HeadNoun-V
+r11itPRPsoundedVBD
+
+#Rule:V-HeadNoun(passive)
+r23heldVBNitPRP
+
+#Rule:PPinVP
+r30soundedVBDlikeINGenesis..LocationAnnotation
+
+#Rule:PPinVP
+r32heldVBNinINesteemNN
+
+#Rule:V-IN-V
+r43heldVBNbecauseINsoundedVBD
+
+#The unfortunate thing was the Priest postulated some thing would occur and they did!!
+#(S1 (S (NP (DT The) (JJ unfortunate) (NN thing)) (VP (AUX was) (S (S (NP (DT the) (NN Priest)) (VP (VBN postulated) (SBAR (S (NP (DT some) (NN thing)) (VP (MD would) (VP (VB occur))))))) (CC and) (S (NP (PRP they)) (VP (AUX did))) (. !))) (. !)))
+#Rule:Nouns
+r1thingNN
+r1PriestOrganizationAnnotation
+r1thingNN
+
+#Rule:Verbs
+r2postulatedVBN
+r2occurVB
+
+#Rule:Adjs
+r4unfortunateJJ
+
+#Rule:Adj-Noun
+r5unfortunateJJthingNN
+
+#Rule:HeadNoun-V
+r11thingNNwasAUX
+r11thingNNoccurVB
+r11theyPRPdidAUX
+
+#Rule:V-HeadNoun(passive)
+r24postulatedVBNPriestOrganizationAnnotation
+
+#Hubble discovered stars and galaxies were moving away from us..
+#(S1 (S (NP (NNP Hubble)) (VP (VBD discovered) (SBAR (S (NP (NNS stars) (CC and) (NNS galaxies)) (VP (AUX were) (VP (VBG moving) (ADVP (RB away) (PP (IN from) (NP (PRP us)))))) (. .)))) (. .)))
+#Rule:Nouns
+r1HubblePersonAnnotation
+r1starsNNS
+r1galaxiesNNS
+
+#Rule:Verbs
+r2discoveredVBD
+r2movingVBG
+
+#Rule:HeadNoun-V
+r11HubblePersonAnnotationdiscoveredVBD
+r11starsNNSmovingVBG
+
+#Rule:V-ADV
+r46movingVBGawayRB
+
+#Bell Labs found the Cosmic or Gamma ray signature all around us in space at 3.6 degrees Kelvin, which is, basically, the event horizon of the expanding universe..
+#(S1 (S (NP (NNP Bell) (NNPS Labs)) (VP (VBD found) (NP (NP (DT the) (JJ Cosmic) (CC or) (NN Gamma) (NN ray) (NN signature)) (PP (RB all) (IN around) (NP (PRP us)))) (PP (IN in) (NP (NN space))) (PP (IN at) (NP (NP (CD 3.6) (NNS degrees)) (NP (NP (NNP Kelvin)) (, ,) (SBAR (WHNP (WDT which)) (S (VP (AUX is) (, ,) (FRAG (ADVP (RB basically)) (, ,) (NP (NP (DT the) (NN event) (NN horizon)) (PP (IN of) (NP (DT the) (VBG expanding) (NN universe)))) (. .))))))))) (. .)))
+#Rule:Nouns
+r1Bell LabsOrganizationAnnotation
+r1GammaLocationAnnotation
+r1rayNN
+r1signatureNN
+r1spaceNN
+r1degreesNNS
+r1KelvinPersonAnnotation
+r1eventNN
+r1horizonNN
+r1universeNN
+
+#Rule:Verbs
+r2foundVBD
+r2expandingVBG
+
+#Rule:Adjs
+r4CosmicJJ
+
+#Rule:Adj-Noun
+r5CosmicJJsignatureNN
+r53.6CDdegreesNNS
+r5expandingVBGuniverseNN
+
+#Rule:N-HeadNoun
+r8rayNNsignatureNN
+r8GammaLocationAnnotationsignatureNN
+r8eventNNhorizonNN
+
+#Rule:HeadNoun-V
+r11Bell LabsOrganizationAnnotationfoundVBD
+
+#Rule:HeadNoun-(who/that)-V
+r14KelvinPersonAnnotationisAUX
+
+#Rule:V-HeadNoun
+r21foundVBDsignatureNN
+
+#Rule:PPinNP
+r26signatureNNaroundINusPRP
+r26horizonNNofINuniverseNN
+
+#Rule:PPinVP
+r30foundVBDinINspaceNN
+r30foundVBDatINdegreesNNS
+r30foundVBDatINKelvinPersonAnnotation
+
+#Two other scientists, independently, came up with the same math of motions..
+#(S1 (S (NP (CD Two) (JJ other) (NNS scientists)) (, ,) (ADVP (RB independently)) (, ,) (VP (VBD came) (PRT (RP up)) (PP (IN with) (NP (NP (DT the) (JJ same) (NN math)) (PP (IN of) (NP (NNS motions))))) (. .)) (. .)))
+#Rule:Nouns
+r1scientistsNNS
+r1mathNN
+r1motionsNNS
+
+#Rule:V-PRT
+r3cameVBDupRP
+
+#Rule:Adjs
+r4otherJJ
+r4sameJJ
+
+#Rule:Adj-Noun
+r5TwoCDscientistsNNS
+r5otherJJscientistsNNS
+r5sameJJmathNN
+
+#Rule:HeadNoun-V
+r11scientistsNNScameVBD
+
+#Rule:PPinNP
+r26mathNNofINmotionsNNS
+
+#Rule:PPinVP
+r30cameVBDwithINmathNN
+
+#Rule:V-ADV
+r46cameVBDindependentlyRB
+
+#At the time the Priest was lecurting his white paper on the Primordial Atom science believed the universe was stagnet, in a steady state of existance..
+#(S1 (S (PP (IN At) (NP (DT the) (NN time))) (NP (DT the) (NN Priest)) (VP (AUX was) (VP (VBG lecurting) (S (NP (NP (PRP$ his) (JJ white) (NN paper)) (PP (IN on) (NP (DT the) (JJ Primordial) (NNP Atom) (NN science)))) (VP (VBD believed) (SBAR (S (NP (DT the) (NN universe)) (VP (AUX was) (ADJP (JJ stagnet)) (, ,) (PP (IN in) (NP (NP (DT a) (JJ steady) (NN state)) (PP (IN of) (NP (NN existance))))))))) (. .)))) (. .)))
+#Rule:Nouns
+r1timeNN
+r1PriestOrganizationAnnotation
+r1paperNN
+r1Primordial AtomOrganizationAnnotation
+r1scienceNN
+r1universeNN
+r1stateNN
+r1existanceNN
+
+#Rule:Verbs
+r2lecurtingVBG
+r2believedVBD
+
+#Rule:Adjs
+r4whiteJJ
+r4stagnetJJ
+r4steadyJJ
+
+#Rule:Adj-Noun
+r5whiteJJpaperNN
+r5Primordial AtomOrganizationAnnotationscienceNN
+r5steadyJJstateNN
+
+#Rule:PRP-Noun
+r6hisPRP$paperNN
+
+#Rule:HeadNoun-V
+r11PriestOrganizationAnnotationlecurtingVBG
+r11paperNNbelievedVBD
+r11universeNNwasAUX
+
+#Rule:V-HeadNoun
+r22lecurtingVBGpaperNN
+
+#Rule:V-ADJ
+r25wasAUXstagnetJJ
+
+#Rule:PPinNP
+r26paperNNonINscienceNN
+r26stateNNofINexistanceNN
+
+#Rule:PPinVP
+r30wasAUXinINstateNN
+
+#Rule:PPinS
+r36wasAUXatINtimeNN
+
+#Einstein, in fact, came across the math that proved the universe was expanding and changed that math because he and others were under the impression the Universe was not in expansion but in steady state..
+#(S1 (S (NP (NNP Einstein)) (, ,) (PP (IN in) (NP (NN fact))) (, ,) (VP (VBD came) (PP (IN across) (NP (NP (DT the) (NN math)) (SBAR (WHNP (WDT that)) (S (VP (VP (VBD proved) (SBAR (S (NP (DT the) (NN universe)) (VP (AUX was) (VP (VBG expanding)))))) (CC and) (VP (VBD changed) (NP (DT that) (NN math)) (S (SBAR (IN because) (S (NP (NP (PRP he)) (CC and) (NP (NNS others))) (VP (AUX were) (PP (IN under) (NP (DT the) (NN impression)))))) (NP (DT the) (NN Universe)) (VP (AUX was) (PP (RB not) (PP (IN in) (NP (NN expansion))) (CC but) (PP (IN in) (NP (JJ steady) (NN state))))) (. .))))))))) (. .)))
+#Rule:Nouns
+r1EinsteinPersonAnnotation
+r1factNN
+r1mathNN
+r1universeNN
+r1mathNN
+r1othersNNS
+r1impressionNN
+r1UniverseOrganizationAnnotation
+r1expansionNN
+r1stateNN
+
+#Rule:Verbs
+r2cameVBD
+r2provedVBD
+r2expandingVBG
+r2changedVBD
+
+#Rule:Adjs
+r4steadyJJ
+
+#Rule:Adj-Noun
+r5steadyJJstateNN
+
+#Rule:HeadNoun-V
+r11EinsteinPersonAnnotationcameVBD
+r11universeNNexpandingVBG
+r11UniverseOrganizationAnnotationwasAUX
+r11hePRPwereAUX
+r11othersNNSwereAUX
+
+#Rule:HeadNoun-(who/that)-V
+r14mathNNprovedVBD
+r14mathNNchangedVBD
+
+#Rule:V-HeadNoun
+r21changedVBDmathNN
+
+#Rule:V-HeadNoun
+r22changedVBDUniverseOrganizationAnnotation
+
+#Rule:PPinVP
+r30cameVBDacrossINmathNN
+r30wereAUXunderINimpressionNN
+
+#Rule:PPinS
+r36cameVBDinINfactNN
+
+#Einstein said that was the biggest mistake he ever made..
+#(S1 (S (NP (NNP Einstein)) (VP (VBD said) (SBAR (S (NP (DT that)) (VP (AUX was) (NP (NP (DT the) (JJS biggest) (NN mistake)) (SBAR (S (NP (PRP he)) (ADVP (RB ever)) (VP (VBD made)) (. .)))))))) (. .)))
+#Rule:Nouns
+r1EinsteinPersonAnnotation
+r1mistakeNN
+
+#Rule:Verbs
+r2saidVBD
+r2madeVBD
+
+#Rule:Adjs
+r4biggestJJS
+
+#Rule:Adj-Noun
+r5biggestJJSmistakeNN
+
+#Rule:HeadNoun-V
+r11EinsteinPersonAnnotationsaidVBD
+r11thatDTwasAUX
+r11hePRPmadeVBD
+
+#Rule:NP(NP(z) SBAR(S(NP(x)VP(y))))
+r19madeVBDmistakeNN
+
+#Rule:V-HeadNoun
+r21wasAUXmistakeNN
+
+#Rule:V-ADV
+r46madeVBDeverRB
+
+#The funny thing is Sciencesays the Universe is 14 billion years old and the Earth and Sun are about 4.5 billion..
+#(S1 (S (NP (DT The) (JJ funny) (NN thing)) (VP (AUX is) (NP (NP (NNP Sciencesays)) (S (S (NP (DT the) (NN Universe)) (VP (AUX is) (ADJP (NP (QP (CD 14) (CD billion)) (NNS years)) (JJ old)))) (CC and) (S (NP (DT the) (NNP Earth) (CC and) (NNP Sun)) (VP (AUX are) (NP (QP (IN about) (CD 4.5) (CD billion))))) (. .)))) (. .)))
+#Rule:Nouns
+r1thingNN
+r1SciencesaysNNP
+r1the UniverseOrganizationAnnotation
+r1yearsNNS
+r1Earth and SunOrganizationAnnotation
+
+#Rule:Adjs
+r4funnyJJ
+r4oldJJ
+
+#Rule:Adj-Noun
+r5funnyJJthingNN
+r514CDyearsNNS
+r5billionCDyearsNNS
+r54.5CDaboutIN
+r5billionCDaboutIN
+
+#Rule:HeadNoun-V
+r11thingNNisAUX
+r11the UniverseOrganizationAnnotationisAUX
+r11Earth and SunOrganizationAnnotationareAUX
+
+#Rule:V-HeadNoun
+r21isAUXSciencesaysNNP
+r21areAUXaboutIN
+
+#Rule:V-ADJ
+r25isAUXoldJJ
+
+#Rule:IS-RULE
+r47SciencesaysNNPthingNN
+r47aboutINEarth and SunOrganizationAnnotation
+
+#That s about 2/3 the way from the big bangThe Old Testiment in Gensis says the Earth and Sun came into being on the 4th dayThat s 2/3 the way from let there be light..
+#(S1 (S (NP (DT That)) (VP (VBZ s) (NP (NP (QP (RB about) (CD 2/3)) (DT the) (NN way)) (PP (IN from) (NP (NP (DT the) (JJ big) (NN bangThe)) (SBAR (S (NP (NNP Old) (NNP Testiment)) (PP (IN in) (NP (NNP Gensis))) (VP (VBZ says) (SBAR (S (NP (DT the) (NNP Earth) (CC and) (NNP Sun)) (VP (VBD came) (PP (IN into) (S (VP (AUXG being) (PP (IN on) (NP (NP (DT the) (JJ 4th) (NN dayThat)) (SBAR (S (NP (PRP s)) (VP (VBZ 2/3) (NP (DT the) (NN way)) (PP (IN from) (S (VP (VB let) (S (NP (EX there)) (VP (AUX be) (ADJP (JJ light))))))))))))))))))) (. .))))))) (. .)))
+#Rule:Nouns
+r1wayNN
+r1bangTheNN
+r1OldNNP
+r1TestimentNNP
+r1GensisLocationAnnotation
+r1Earth and SunOrganizationAnnotation
+r1dayThatNN
+r1wayNN
+
+#Rule:Verbs
+r2sVBZ
+r2saysVBZ
+r2cameVBD
+r22/3VBZ
+r2letVB
+
+#Rule:Adjs
+r4bigJJ
+r44thJJ
+r4lightJJ
+
+#Rule:Adj-Noun
+r52/3CDwayNN
+r5bigJJbangTheNN
+r54thJJdayThatNN
+
+#Rule:N-HeadNoun
+r8OldNNPTestimentNNP
+
+#Rule:HeadNoun-V
+r11thatDTsVBZ
+r11TestimentNNPsaysVBZ
+r11Earth and SunOrganizationAnnotationcameVBD
+r11sPRP2/3VBZ
+r11thereEXbeAUX
+
+#Rule:NP(NP(z) SBAR(S(NP(x)VP(y))))
+r19saysVBZbangTheNN
+
+#Rule:V-HeadNoun
+r21sVBZwayNN
+r212/3VBZwayNN
+
+#Rule:V-HeadNoun
+r22letVBthereEX
+
+#Rule:V-ADJ
+r25beAUXlightJJ
+
+#Rule:PPinNP
+r26wayNNfromINbangTheNN
+
+#Rule:PPinS
+r36saysVBZinINGensisLocationAnnotation
+
+#Funny how the Bible got that ratio correct 3,000+ years ago!!
+#(S1 (FRAG (ADJP (JJ Funny)) (SBAR (WHADVP (WRB how)) (S (NP (DT the) (NNP Bible)) (VP (VBD got) (S (NP (DT that) (NN ratio)) (VP (VB correct) (ADVP (NP (CD 3,000+) (NNS years)) (RB ago))) (. !))))) (. !)))
+#Rule:Nouns
+r1BibleNNP
+r1ratioNN
+r1yearsNNS
+
+#Rule:Verbs
+r2gotVBD
+r2correctVB
+
+#Rule:Adjs
+r4FunnyJJ
+
+#Rule:Adj-Noun
+r53,000+CDyearsNNS
+
+#Rule:HeadNoun-V
+r11BibleNNPgotVBD
+r11ratioNNcorrectVB
+
+#Rule:V-HeadNoun
+r22gotVBDratioNN
+
+#Rule:V-ADV
+r46correctVBagoRB
+
+#The Bible also says man came about in the last moments of the 6th day..
+#(S1 (S (NP (DT The) (NNP Bible)) (ADVP (RB also)) (VP (VBZ says) (S (NP (NN man)) (VP (VBD came) (PRT (RP about)) (PP (IN in) (NP (NP (DT the) (JJ last) (NNS moments)) (PP (IN of) (NP (DT the) (JJ 6th) (NN day)))))) (. .))) (. .)))
+#Rule:Nouns
+r1BibleNNP
+r1manPersonAnnotation
+r1momentsNNS
+r1dayNN
+
+#Rule:Verbs
+r2saysVBZ
+
+#Rule:V-PRT
+r3cameVBDaboutRP
+
+#Rule:Adjs
+r4lastJJ
+r46thJJ
+
+#Rule:Adj-Noun
+r5lastJJmomentsNNS
+r56thJJdayNN
+
+#Rule:HeadNoun-V
+r11BibleNNPsaysVBZ
+r11manPersonAnnotationcameVBD
+
+#Rule:V-HeadNoun
+r22saysVBZmanPersonAnnotation
+
+#Rule:PPinNP
+r26momentsNNSofINdayNN
+
+#Rule:PPinVP
+r30cameVBDinINmomentsNNS
+
+#Rule:V-ADV
+r46saysVBZalsoRB
+
+#Science also agrees with that..
+#(S1 (S (NP (NNP Science)) (ADVP (RB also)) (VP (VBZ agrees) (SBAR (IN with) (FRAG (NP (DT that)) (. .)))) (. .)))
+#Rule:Nouns
+r1ScienceNNP
+
+#Rule:Verbs
+r2agreesVBZ
+
+#Rule:HeadNoun-V
+r11ScienceNNPagreesVBZ
+
+#Rule:V-ADV
+r46agreesVBZalsoRB
+
+#Dr. CArl Sagan s cosmic calendar says that the Universe began on the first second of day one of the first comsmic month and Man came about on the first second of the first minute of the first hour of the 30th or last cosmic day of the first month and we are still in that same hour right now.
+#(S1 (S (NP (NNP Dr.) (NNP CArl) (NNP Sagan)) (VP (VBZ s) (SBAR (S (NP (JJ cosmic) (NN calendar)) (VP (VBZ says) (SBAR (IN that) (S (NP (DT the) (NN Universe)) (VP (VBD began) (PP (IN on) (NP (NP (DT the) (JJ first) (NN second)) (PP (IN of) (NP (NP (NN day)) (SBAR (S (S (NP (NP (CD one)) (PP (IN of) (NP (DT the) (JJ first) (JJ comsmic) (NN month) (CC and) (NN Man)))) (VP (VBD came) (PRT (RP about)) (PP (IN on) (NP (NP (DT the) (JJ first) (NN second)) (PP (IN of) (NP (DT the) (JJ first) (NN minute))) (PP (IN of) (NP (NP (DT the) (JJ first) (NN hour)) (PP (IN of) (NP (DT the) (ADJP (JJ 30th) (CC or) (JJ last)) (JJ cosmic) (NN day))) (PP (IN of) (NP (DT the) (JJ first) (NN month))))))))) (CC and) (S (NP (PRP we)) (VP (AUX are) (ADVP (RB still)) (PP (IN in) (NP (DT that) (JJ same) (NN hour))) (ADVP (RB right) (RB now))))))))))))))))) (. .)))
+#Rule:Nouns
+r1DrNNP
+r1CArl SaganPersonAnnotation
+r1calendarNN
+r1UniverseOrganizationAnnotation
+r1secondNN
+r1dayNN
+r1monthNN
+r1ManNN
+r1secondNN
+r1minuteNN
+r1hourNN
+r1dayNN
+r1monthNN
+r1hourNN
+
+#Rule:Verbs
+r2sVBZ
+r2saysVBZ
+r2beganVBD
+
+#Rule:V-PRT
+r3cameVBDaboutRP
+
+#Rule:Adjs
+r4cosmicJJ
+r4firstJJ
+r4firstJJ
+r4comsmicJJ
+r4firstJJ
+r4firstJJ
+r4firstJJ
+r430thJJ
+r4lastJJ
+r4cosmicJJ
+r4firstJJ
+r4sameJJ
+
+#Rule:Adj-Noun
+r5cosmicJJcalendarNN
+r5firstJJsecondNN
+r5firstJJmonthNN
+r5comsmicJJmonthNN
+r5firstJJsecondNN
+r5firstJJminuteNN
+r5firstJJhourNN
+r530thJJdayNN
+r5lastJJdayNN
+r5cosmicJJdayNN
+r5firstJJmonthNN
+r5sameJJhourNN
+
+#Rule:N-HeadNoun
+r8DrNNPCArl SaganPersonAnnotation
+
+#Rule:HeadNoun-V
+r11CArl SaganPersonAnnotationsVBZ
+r11calendarNNsaysVBZ
+r11UniverseOrganizationAnnotationbeganVBD
+r11oneCDcameVBD
+r11wePRPareAUX
+
+#Rule:PPinNP
+r26secondNNofINdayNN
+r26oneCDofINmonthNN
+r26secondNNofINminuteNN
+r26secondNNofINhourNN
+r26hourNNofINdayNN
+r26hourNNofINmonthNN
+
+#Rule:PPinVP
+r30beganVBDonINsecondNN
+r30cameVBDonINsecondNN
+r30areAUXinINhourNN
+
+#Rule:V-IN-V
+r43saysVBZthatINbeganVBD
+
+#Rule:V-ADV
+r46areAUXstillRB
+r46areAUXrightRB
+r46areAUXnowRB
+
+@lemmas-left	30th	2/3	they	said	6th	Fred	Phsyics	Universe	Two	unfortunate	time	are	stagnet	correct	sciencesays	fred	propose	event	began	says	Old	joke	4th	Einstein	move	signature	Hubble	prove	others	moving	dr.	Catholic Priest	Sciencesays	hold	Astronomy	he	astronomy	universe	Bell Labs	Dr	ratio	stars	month	say	bangThe	years	Big Bang	big	low	we	steady	put	moment	Kelvin	made	biggest	space	14	Funny	believed	postulate	man	held	existance	let	star	come	cosmic	the Universe	hour	Science	math	talking	sounded	degree	fact	s	Genesis..	discovered	agree	Priest	CArl Sagan	old	galaxies	second	last	change	scientist	same	Gamma	changed	science	motions	were	his	Earth and Sun	expand	3,000+	motion	light	proved	be	Primordial Atom	Man	get	comsmic	impression	billion	testiment	discover	white	meant	horizon	moments	knows	bangthe	that	postulated	sound	called	day	bible	got	make	thing	galaxy	Bible	call	ray	expansion	other	Cosmic	paper	one	about	state	way	theory	scientists	believe	was	minute	agrees	mean	daythat	calendar	talk	Theory	Gensis	mistake	is	Testiment	it	lecurting	funny	esteem	expanding	4.5	came	dayThat	degrees	know	3.6	begin	two	Hoyle	there	proposed	first	occur	TERM Big Bang	found	
+@lemmas-right	2/3	said	Phsyics	Universe	time	stagnet	are	correct	sciencesays	propose	began	says	right	signature	move	prove	moving	once	hold	Sciencesays	did	again	universe	independently	now	ratio	month	say	years	bangThe	put	moment	Kelvin	made	space	believed	do	man	held	existance	come	us	hour	up	math	talking	sounded	degree	fact	s	Genesis..	ago	discovered	agree	Priest	CArl Sagan	old	second	change	scientist	science	changed	motions	were	Earth and Sun	expand	motion	light	proved	be	Primordial Atom	get	impression	discover	testiment	horizon	moments	knows	properly	bangthe	sound	day	got	make	ever	thing	paper	state	about	theory	way	scientists	believe	was	minute	Once	agrees	daythat	calendar	talk	Theory	Gensis	is	mistake	it	Testiment	lecurting	esteem	expanding	still	came	degrees	dayThat	know	begin	away	Hoyle	there	proposed	also	found	occur	
+@lemmas-center	because	that	of	with	under	at	on	from	like	across	in	around	

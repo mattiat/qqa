@@ -1,0 +1,210 @@
+BE: warmupNN
+EQ class: 
+
+BE: consideredVBN
+EQ class: regardvbn	seevbn	reckonvbn	viewvbn	considervbn	
+
+BE: goodJJ
+EQ class: goodnessnn	
+
+BE: goodJJwarmupNN
+EQ class: goodnessnnwarmupnn	
+
+BE: consideredVBNwarmupNN
+EQ class: seevbnwarmupnn	reckonvbnwarmupnn	considervbnwarmupnn	regardvbnwarmupnn	viewvbnwarmupnn	
+
+BE: consideredVBNthatDT
+EQ class: regardvbnthatdt	viewvbnthatdt	reckonvbnthatdt	seevbnthatdt	considervbnthatdt	
+
+BE: practiceNN
+EQ class: patternnn	practicaljj	
+
+BE: dayNN
+EQ class: dailyjj	24-hour_intervalnn	twenty-four_hoursnn	twenty-four_hour_periodnn	mean_solar_daynn	solar_daynn	
+
+BE: wrestlingVBG
+EQ class: wrestlevbg	
+
+BE: sameJJ
+EQ class: 
+
+BE: itsPRP$sameJJ
+EQ class: samejjofinitsprp$	
+
+BE: wePRPdidAUX
+EQ class: weprpdoaux	weprpmakeaux	
+
+BE: wrestlingVBGpracticeNN
+EQ class: grapplernnofinpracticaljj	matmannnofinpatternnn	wrestlingvbgpracticaljj	matmannnofinpracticaljj	grapplernnofinpracticenn	wrestlingvbgpatternnn	wrestlevbgpracticenn	wrestlernnofinpatternnn	wrestlevbgpatternnn	wrestlernnofinpracticaljj	grapplernnofinpatternnn	wrestlernnofinpracticenn	wrestlevbgpracticaljj	matmannnofinpracticenn	
+
+BE: wrestlingVBGbackRB
+EQ class: wrestlernnofinbackrb	wrestlevbgbackrb	matmannnofinbackrb	grapplernnofinbackrb	
+
+BE: Edit:  RunPersonAnnotation
+EQ class: edit: runpersonannotation	
+
+BE: -----EditJJ
+EQ class: 
+
+BE: BikePersonAnnotation
+EQ class: 
+
+BE: walkVB
+EQ class: 
+
+BE: pointNN
+EQ class: 
+
+BE: reNNP
+EQ class: rheniumnnp	atomic_number_75nnp	
+
+BE: exerciseNN
+EQ class: workoutnn	physical_exercisenn	physical_exertionnn	exercisingnn	
+
+BE: hoursNNS
+EQ class: theynns	themnns	
+
+BE: weekNN
+EQ class: hebdomadnn	weeklyjj	
+
+BE: and/orNN
+EQ class: beaver_statenn	ornn	oregonnn	
+
+BE: cyclingNN
+EQ class: 
+
+BE: weightNN
+EQ class: weightyjj	
+
+BE: lossNN
+EQ class: 
+
+BE: restrictionNN
+EQ class: limitationnn	
+
+BE: doingVBG
+EQ class: makevbg	dovbg	
+
+BE: runningVBG
+EQ class: runvbg	
+
+BE: goingVBG
+EQ class: movevbg	govbg	travelvbg	locomotevbg	
+
+BE: comeVB
+EQ class: come_upvb	
+
+BE: significantJJ
+EQ class: importantjj	significancenn	
+
+BE: aerobicJJ
+EQ class: aerophilousjj	aerophilicjj	
+
+BE: calorieLocationAnnotation
+EQ class: caloricjj	
+
+BE: significantJJexerciseNN
+EQ class: significancennphysical_exercisenn	significancennexercisingnn	importantjjphysical_exercisenn	significancennworkoutnn	significantjjphysical_exercisenn	significantjjphysical_exertionnn	importantjjexercisenn	importantjjphysical_exertionnn	exertvbsignificantlyrb	importantjjworkoutnn	significancennphysical_exertionnn	significantjjexercisingnn	significantjjworkoutnn	significancennexercisenn	importantjjexercisingnn	exercisevbsignificantlyrb	
+
+BE: aerobicJJexerciseNN
+EQ class: aerophilicjjexercisingnn	aerophilousjjphysical_exercisenn	aerobicjjphysical_exercisenn	aerophilicjjphysical_exertionnn	aerophilousjjexercisingnn	aerophilousjjworkoutnn	aerobicjjexercisingnn	aerobicjjphysical_exertionnn	aerobicjjworkoutnn	aerophilicjjexercisenn	aerophilicjjworkoutnn	aerophilicjjphysical_exercisenn	aerophilousjjphysical_exertionnn	aerophilousjjexercisenn	
+
+BE: 10+CDhoursNNS
+EQ class: 1.0.+.cdtheynns	1.0.+.cdhoursnns	10+cdthemnns	1.0.+.cdthemnns	10+cdtheynns	
+
+BE: calorieLocationAnnotationrestrictionNN
+EQ class: calorielocationannotationlimitationnn	caloricjjrestrictionnn	caloricjjlimitationnn	
+
+BE: and/orNNcyclingNN
+EQ class: cyclevboregonnn	ornncyclingnn	and/ornncyclevb	cyclingnnofinbeaver_statenn	beaver_statenncyclevb	cyclevbornn	cyclingnnofinand/ornn	cyclevband/ornn	ornncyclevb	cyclevbbeaver_statenn	cyclingnnofinoregonnn	beaver_statenncyclingnn	oregonnncyclingnn	cyclingnnofinornn	oregonnncyclevb	
+
+BE: weightNNlossNN
+EQ class: lossnnofinweightyjj	lossnnofinweightnn	weightyjjlossnn	
+
+BE: pointNNisAUX
+EQ class: pointnnbeaux	
+
+BE: lossNNgoingVBG
+EQ class: lossnnmovevbg	lossnnlocomotevbg	lossnngovbg	lossnntravelvbg	
+
+BE: reNNPdoingVBG
+EQ class: rennpmakevbg	rheniumnnpdovbg	rheniumnnpdoingvbg	rennpdovbg	rheniumnnpmakevbg	atomic_number_75nnpdovbg	atomic_number_75nnpmakevbg	atomic_number_75nnpdoingvbg	
+
+BE: weekNNrunningVBG
+EQ class: running_gamennofinhebdomadnn	moon-cursernnofinweeknn	tallynnofinweeklyjj	smugglernnweeknn	contrabandistnnofinhebdomadnn	moon-cursernnhebdomadnn	running_playnnweeknn	moon-cursernnofinweeklyjj	running_playnnofinhebdomadnn	running_playnnhebdomadnn	contrabandistnnofinweeklyjj	runnnweeklyjj	runnnofinhebdomadnn	weeklyjjrunningvbg	runningnnofinweeknn	running_gamennweeknn	runnernnweeknn	running_gamennweeklyjj	moon_cursernnofinhebdomadnn	running_gamennofinweeknn	hebdomadnnrunvbg	runnnhebdomadnn	runnernnofinweeklyjj	runnernnofinweeknn	runningnnhebdomadnn	running_gamennofinweeklyjj	runnernnhebdomadnn	runnnweeknn	weeklyjjrunvbg	moon-cursernnofinhebdomadnn	running_playnnofinweeknn	smugglernnofinweeklyjj	hebdomadnnrunningvbg	runnernnweeklyjj	runningnnweeklyjj	moon-cursernnweeklyjj	contrabandistnnweeknn	running_playnnofinweeklyjj	runnnofinweeknn	moon_cursernnhebdomadnn	moon_cursernnweeklyjj	smugglernnweeklyjj	tallynnofinhebdomadnn	runningnnofinhebdomadnn	runnnofinweeklyjj	running_gamennhebdomadnn	moon_cursernnweeknn	moon_cursernnofinweeknn	moon-cursernnweeknn	running_playnnweeklyjj	runningnnweeknn	weeknnrunvbg	runningnnofinweeklyjj	contrabandistnnofinweeknn	tallynnofinweeknn	smugglernnofinhebdomadnn	contrabandistnnweeklyjj	smugglernnhebdomadnn	smugglernnofinweeknn	moon_cursernnofinweeklyjj	contrabandistnnhebdomadnn	runnernnofinhebdomadnn	
+
+BE: doingVBGexerciseNN
+EQ class: doingvbgexercisingnn	makevbgexercisenn	doingvbgphysical_exercisenn	dovbgexercisenn	dovbgphysical_exercisenn	doingvbgworkoutnn	makevbgexercisingnn	dovbgexercisingnn	dovbgphysical_exertionnn	doingvbgphysical_exertionnn	dovbgworkoutnn	makevbgphysical_exercisenn	makevbgworkoutnn	makevbgphysical_exertionnn	
+
+BE: runningVBGcyclingNN
+EQ class: running_gamennofincyclingnn	tallynnofincyclingnn	runningnnofincyclingnn	runnnofincyclingnn	moon_cursernnofincyclingnn	contrabandistnnofincyclingnn	runvbgcyclingnn	smugglernnofincyclingnn	runnernnofincyclingnn	running_playnnofincyclingnn	moon-cursernnofincyclingnn	
+
+BE: hoursNNSperINweekNN
+EQ class: hoursnnsperinweeklyjj	weeknnhoursnns	weeklyjjhoursnns	themnnsperinweeklyjj	themnnsperinhebdomadnn	theynnsperinweeknn	weeknntheynns	weeknnthemnns	theynnsperinweeklyjj	hoursnnsperinhebdomadnn	theynnsperinhebdomadnn	hebdomadnnthemnns	hebdomadnnhoursnns	weeklyjjthemnns	hebdomadnntheynns	themnnsperinweeknn	weeklyjjtheynns	
+
+BE: comeVBfromINrestrictionNN
+EQ class: comevbfrominlimitationnn	come_upvbfrominlimitationnn	come_upvbfrominrestrictionnn	
+
+BE: isAUXlikeINhoursNNS
+EQ class: beauxlikeinhoursnns	beauxlikeinthemnns	isauxlikeinthemnns	isauxlikeintheynns	beauxlikeintheynns	
+
+BE: isAUXunlessINgoingVBG
+EQ class: isauxunlessingovbg	isauxunlessintravelvbg	beauxunlessintravelvbg	beauxunlessinlocomotevbg	beauxunlessingovbg	isauxunlessinmovevbg	isauxunlessinlocomotevbg	beauxunlessingoingvbg	beauxunlessinmovevbg	
+
+BE: goingVBGcomeVB
+EQ class: goingvbgcome_upvb	travelvbgcomevb	travelvbgcome_upvb	movevbgcomevb	locomotevbgcomevb	govbgcomevb	movevbgcome_upvb	govbgcome_upvb	locomotevbgcome_upvb	
+
+BE: comeVBmostlyRB
+EQ class: approachingnnofinmostlyrb	comingnnofinmostlyrb	mostjjcomingnn	mostjjinincome_upvb	mostjjapproachnn	mostjjinincomingnn	mostjjinincomevb	come_upvbmostlyrb	mostjjininapproachingnn	mostjjininapproachnn	approachnnofinmostlyrb	mostjjapproachingnn	
+
+BE: caloriesNNS
+EQ class: kilocalorienns	calorienns	kilogram_calorienns	large_calorienns	theynns	nutritionist's_calorienns	themnns	caloricjj	
+
+BE: sessionsNNS
+EQ class: roger_huntington_sessionsnns	theynns	roger_sessionsnns	themnns	
+
+BE: impactNN
+EQ class: 
+
+BE: burnVB
+EQ class: firevb	burn_downvb	
+
+BE: enoughJJ
+EQ class: adequatejj	enoughnn	decentjj	
+
+BE: littleJJ
+EQ class: littlenessnn	smalljj	
+
+BE: minuteJJ
+EQ class: minutenessnn	infinitesimaljj	
+
+BE: enoughJJcaloriesNNS
+EQ class: enoughnnkilocalorienns	enoughnncaloricjj	enoughnntheynns	decentjjtheynns	enoughjjcalorienns	decentjjkilocalorienns	adequatejjkilogram_calorienns	enoughjjcaloricjj	adequatejjcaloricjj	adequatejjlarge_calorienns	decentjjcaloriesnns	adequatejjcalorienns	enoughnnthemnns	enoughjjthemnns	enoughjjkilocalorienns	enoughnnlarge_calorienns	decentjjlarge_calorienns	enoughjjnutritionist's_calorienns	decentjjthemnns	adequatejjthemnns	enoughjjlarge_calorienns	adequatejjtheynns	enoughnncalorienns	adequatejjkilocalorienns	enoughnnkilogram_calorienns	enoughjjkilogram_calorienns	enoughnncaloriesnns	adequatejjnutritionist's_calorienns	enoughjjtheynns	decentjjcalorienns	adequatejjcaloriesnns	decentjjkilogram_calorienns	decentjjcaloricjj	enoughnnnutritionist's_calorienns	decentjjnutritionist's_calorienns	
+
+BE: littleJJsessionsNNS
+EQ class: littlejjthemnns	littlenessnnroger_huntington_sessionsnns	smalljjsessionsnns	littlenessnnroger_sessionsnns	smalljjtheynns	smalljjroger_sessionsnns	littlenessnnsessionsnns	smalljjroger_huntington_sessionsnns	littlejjroger_sessionsnns	smalljjthemnns	littlejjroger_huntington_sessionsnns	littlejjtheynns	littlenessnnthemnns	littlenessnntheynns	
+
+BE: 20CDsessionsNNS
+EQ class: xxcdroger_sessionsnns	xxcdsessionsnns	twentycdroger_huntington_sessionsnns	20cdroger_huntington_sessionsnns	2.0.cdtheynns	2.0.cdroger_huntington_sessionsnns	20cdroger_sessionsnns	twentycdsessionsnns	20cdtheynns	20cdthemnns	2.0.cdthemnns	xxcdthemnns	twentycdtheynns	twentycdroger_sessionsnns	2.0.cdsessionsnns	twentycdthemnns	xxcdtheynns	xxcdroger_huntington_sessionsnns	2.0.cdroger_sessionsnns	
+
+BE: 30CDsessionsNNS
+EQ class: xxxcdthemnns	thirtycdroger_huntington_sessionsnns	30cdroger_sessionsnns	3.0.cdtheynns	30cdroger_huntington_sessionsnns	xxxcdsessionsnns	thirtycdsessionsnns	xxxcdroger_huntington_sessionsnns	3.0.cdsessionsnns	3.0.cdthemnns	xxxcdroger_sessionsnns	3.0.cdroger_huntington_sessionsnns	30cdthemnns	30cdtheynns	thirtycdthemnns	3.0.cdroger_sessionsnns	xxxcdtheynns	thirtycdroger_sessionsnns	thirtycdtheynns	
+
+BE: minuteJJsessionsNNS
+EQ class: infinitesimaljjsessionsnns	minutejjroger_huntington_sessionsnns	infinitesimaljjroger_sessionsnns	infinitesimaljjroger_huntington_sessionsnns	minutejjroger_sessionsnns	minutenessnnroger_sessionsnns	infinitesimaljjtheynns	minutejjthemnns	minutenessnnsessionsnns	minutenessnnroger_huntington_sessionsnns	infinitesimaljjthemnns	minutenessnnthemnns	minutejjtheynns	minutenessnntheynns	
+
+BE: youPRPburnVB
+EQ class: burningnnofinyouprp	burnablennofinyouprp	burnnnofinyouprp	youprpfirevb	youprpburn_downvb	
+
+BE: burnVBcaloriesNNS
+EQ class: burn_downvbcalorienns	burningnnofincalorienns	burnnnofincaloricjj	burn_downvbkilocalorienns	burningnnofinkilogram_calorienns	burnvbtheynns	firevbcaloricjj	burnvbnutritionist's_calorienns	burn_downvbnutritionist's_calorienns	burnvblarge_calorienns	burningnnofinkilocalorienns	burnablennofincalorienns	burnvbkilogram_calorienns	burnnnofinkilocalorienns	burningnnofinthemnns	burnablennofinkilocalorienns	burningnnofintheynns	burn_downvbcaloriesnns	burnablennofinthemnns	firevbcaloriesnns	burnablennofinkilogram_calorienns	burn_downvbcaloricjj	burningnnofinlarge_calorienns	firevbtheynns	firevbcalorienns	burnnnofincaloriesnns	firevblarge_calorienns	burnnnofinthemnns	burnnnofinlarge_calorienns	firevbkilogram_calorienns	burn_downvbkilogram_calorienns	burnablennofintheynns	burnvbthemnns	burnvbcalorienns	burnnnofinnutritionist's_calorienns	burningnnofincaloricjj	burnvbkilocalorienns	burnablennofincaloricjj	burnablennofinnutritionist's_calorienns	burningnnofincaloriesnns	burningnnofinnutritionist's_calorienns	burnnnofintheynns	burn_downvblarge_calorienns	burnnnofincalorienns	burn_downvbtheynns	firevbnutritionist's_calorienns	firevbthemnns	burnvbcaloricjj	burnablennofincaloriesnns	burnnnofinkilogram_calorienns	burn_downvbthemnns	firevbkilocalorienns	burnablennofinlarge_calorienns	
+
+BE: haveAUXimpactNN
+EQ class: wealthy_personnnofinimpactnn	have_gotauximpactnn	rich_personnnofinimpactnn	havennofinimpactnn	holdauximpactnn	
+
+BE: burnVBinINsessionsNNS
+EQ class: firevbinintheynns	burnvbininroger_sessionsnns	burn_downvbininroger_huntington_sessionsnns	burnvbinintheynns	firevbininroger_huntington_sessionsnns	burn_downvbininthemnns	burnvbininthemnns	firevbininroger_sessionsnns	burn_downvbininroger_sessionsnns	firevbininsessionsnns	burnvbininroger_huntington_sessionsnns	burn_downvbininsessionsnns	burn_downvbinintheynns	firevbininthemnns	
+
+BE: burnVBtRB
+EQ class: burningnnofintrb	burnablennofintrb	firevbtrb	burn_downvbtrb	burnnnofintrb	
+

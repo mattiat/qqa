@@ -1,0 +1,402 @@
+BE: oneNN
+EQ class: inn	acenn	unitynn	singlenn	1nn	
+
+BE: cancerNN
+EQ class: cancerousjj	malignant_neoplastic_diseasenn	
+
+BE: ignorantJJ
+EQ class: unletteredjj	nescientjj	ignorancenn	unlearnedjj	ignorantnessnn	
+
+BE: oneNNisAUX
+EQ class: innisaux	unitynnisaux	singlennbeaux	innbeaux	1nnisaux	unitynnbeaux	acennisaux	singlennisaux	onennbeaux	1nnbeaux	acennbeaux	
+
+BE: isAUXignorantJJ
+EQ class: beauxignorancenn	isauxignorantnessnn	isauxnescientjj	isauxunletteredjj	isauxunlearnedjj	isauxignorancenn	beauxunletteredjj	beauxignorantnessnn	beauxunlearnedjj	beauxnescientjj	beauxignorantjj	
+
+BE: ignorantJJtoTOcancerNN
+EQ class: ignorancenntotocancernn	unlearnedjjtotocancerousjj	unlearnedjjtotocancernn	nescientjjtotocancernn	ignorancenntotocancerousjj	ignorantnessnntotomalignant_neoplastic_diseasenn	nescientjjtotocancerousjj	nescientjjtotomalignant_neoplastic_diseasenn	ignorancenntotomalignant_neoplastic_diseasenn	unlearnedjjtotomalignant_neoplastic_diseasenn	unletteredjjtotocancernn	ignorantjjtotocancerousjj	ignorantjjtotomalignant_neoplastic_diseasenn	ignorantnessnntotocancerousjj	unletteredjjtotomalignant_neoplastic_diseasenn	unletteredjjtotocancerousjj	ignorantnessnntotocancernn	cancerousvbignorantlyrb	
+
+BE: isAUXSurelyRB
+EQ class: surejjininisaux	certainjjininbeaux	surejjininbeaux	surenessnnininbeaux	surenessnnininisaux	certainjjininisaux	beauxsurelyrb	
+
+BE: everyoneNN
+EQ class: 
+
+BE: someoneNN
+EQ class: personnn	soulnn	individualnn	somebodynn	mortalnn	
+
+BE: cancerNN
+EQ class: cancerousjj	malignant_neoplastic_diseasenn	
+
+BE: knowVBP
+EQ class: cognizevbp	cognisevbp	
+
+BE: speakingVBG
+EQ class: speakvbg	verbalizevbg	talkvbg	verbalisevbg	mouthvbg	uttervbg	
+
+BE: thinkVBP
+EQ class: conceivevbp	believevbp	considervbp	
+
+BE: knowsVBZ
+EQ class: cognisevbz	knowvbz	cognizevbz	
+
+BE: diedVBD
+EQ class: conkvbd	passvbd	pass_awayvbd	deceasevbd	croakvbd	chokevbd	govbd	give-up_the_ghostvbd	buy_the_farmvbd	pop_offvbd	expirevbd	cash_in_one's_chipsvbd	exitvbd	snuff_itvbd	kick_the_bucketvbd	dievbd	drop_deadvbd	perishvbd	
+
+BE: wePRPknowVBP
+EQ class: weprpcognizevbp	knowingnnweprp	knowernnweprp	apprehendernnofinweprp	knowingnnofinweprp	weprpcognisevbp	knowablennofinweprp	knowernnofinweprp	apprehendernnweprp	
+
+BE: allDTknowVBP
+EQ class: knowablennofinalldt	apprehendernnofinalldt	knowingnnalldt	apprehendernnalldt	knowernnalldt	alldtcognisevbp	alldtcognizevbp	knowingnnofinalldt	knowernnofinalldt	
+
+BE: itPRPspeakingVBG
+EQ class: itprpspeakvbg	speech_productionnnitprp	verbalisernnofinitprp	speakernnofinitprp	speechnnofinitprp	verbalizernnitprp	speakingnnitprp	speakingnnofinitprp	utterernnitprp	talkernnofinitprp	addressnnofinitprp	itprpverbalisevbg	itprpmouthvbg	speechnnitprp	speech_productionnnofinitprp	speakernnitprp	talkernnitprp	addressnnitprp	itprptalkvbg	itprputtervbg	verbalizernnofinitprp	utterernnofinitprp	verbalisernnitprp	itprpverbalizevbg	
+
+BE: iPRPthinkVBP
+EQ class: iprpbelievevbp	iprpconceivevbp	thoughtnnofiniprp	ideanniprp	iprpconsidervbp	ideannofiniprp	thoughtnniprp	
+
+BE: everyoneNNknowsVBZ
+EQ class: knowingnnofineveryonenn	knowablennofineveryonenn	apprehendernneveryonenn	knowernneveryonenn	everyonenncognizevbz	everyonennknowvbz	knowernnofineveryonenn	knowingnneveryonenn	apprehendernnofineveryonenn	everyonenncognisevbz	
+
+BE: someoneNNdiedVBD
+EQ class: deathnnofinsomebodynn	somebodynnexitvbd	individualnndeceasevbd	individualnnpop_offvbd	somebodynnexpirevbd	mortalnnexitvbd	someonenngive-up_the_ghostvbd	personnnsnuff_itvbd	somebodynnchokevbd	soulnnexitvbd	personnnpop_offvbd	somebodynncroakvbd	individualnnpass_awayvbd	somebodynnbuy_the_farmvbd	deceasennofinsoulnn	personnnchokevbd	expirynnsoulnn	personnnkick_the_bucketvbd	expirynnofinmortalnn	somebodynncash_in_one's_chipsvbd	mortalnnbuy_the_farmvbd	individualnngovbd	mortalnnpassvbd	deathnnofinsoulnn	deathnnmortalnn	personnnperishvbd	mortalnncash_in_one's_chipsvbd	mortalnncroakvbd	individualnnbuy_the_farmvbd	somebodynnkick_the_bucketvbd	soulnndrop_deadvbd	mortalnnchokevbd	personnnpassvbd	mortalnnsnuff_itvbd	deceasennmortalnn	individualnnsnuff_itvbd	mortalnnpop_offvbd	expirynnofinpersonnn	individualnngive-up_the_ghostvbd	soulnncroakvbd	expirynnpersonnn	soulnnsnuff_itvbd	someonennsnuff_itvbd	deathnnofinindividualnn	soulnnpassvbd	personnnexitvbd	expirynnmortalnn	someonennpass_awayvbd	someonennchokevbd	someonenncroakvbd	expirynnofinsomeonenn	expirynnofinindividualnn	deceasennsomebodynn	somebodynngovbd	deceasennofinsomebodynn	individualnnperishvbd	expirynnofinsomebodynn	deceasennpersonnn	personnngive-up_the_ghostvbd	deathnnsomeonenn	deathnnindividualnn	someonenndeceasevbd	someonennbuy_the_farmvbd	someonenndievbd	individualnncroakvbd	soulnndeceasevbd	somebodynndievbd	individualnnexpirevbd	individualnnpassvbd	someonenngovbd	mortalnnconkvbd	someonennpassvbd	soulnnconkvbd	personnnpass_awayvbd	deathnnofinpersonnn	individualnnconkvbd	personnndeceasevbd	deceasennofinindividualnn	somebodynndeceasevbd	somebodynnpop_offvbd	somebodynnconkvbd	soulnnperishvbd	expirynnofinsoulnn	individualnnkick_the_bucketvbd	somebodynnpass_awayvbd	somebodynngive-up_the_ghostvbd	soulnnexpirevbd	expirynnsomeonenn	soulnngovbd	mortalnnexpirevbd	individualnndrop_deadvbd	deathnnofinmortalnn	personnndrop_deadvbd	somebodynndrop_deadvbd	somebodynnsnuff_itvbd	mortalnngive-up_the_ghostvbd	deceasennsomeonenn	personnndiedvbd	deathnnsoulnn	personnngovbd	someonenndrop_deadvbd	soulnncash_in_one's_chipsvbd	deathnnsomebodynn	soulnndievbd	personnnconkvbd	personnnbuy_the_farmvbd	somebodynnpassvbd	individualnncash_in_one's_chipsvbd	someonenncash_in_one's_chipsvbd	individualnndievbd	someonennperishvbd	soulnnkick_the_bucketvbd	soulnnpass_awayvbd	someonennexpirevbd	mortalnndeceasevbd	mortalnnpass_awayvbd	deceasennofinmortalnn	deceasennsoulnn	soulnndiedvbd	deceasennofinsomeonenn	personnncroakvbd	expirynnindividualnn	deathnnpersonnn	personnndievbd	personnncash_in_one's_chipsvbd	soulnnbuy_the_farmvbd	individualnnexitvbd	individualnndiedvbd	someonennconkvbd	someonennkick_the_bucketvbd	personnnexpirevbd	soulnngive-up_the_ghostvbd	someonennexitvbd	somebodynndiedvbd	deathnnofinsomeonenn	somebodynnperishvbd	deceasennofinpersonnn	mortalnndievbd	mortalnndiedvbd	expirynnsomebodynn	someonennpop_offvbd	soulnnchokevbd	mortalnnperishvbd	mortalnnkick_the_bucketvbd	deceasennindividualnn	soulnnpop_offvbd	mortalnndrop_deadvbd	mortalnngovbd	individualnnchokevbd	
+
+BE: knowsVBZsomeoneNN
+EQ class: knowingnnofinmortalnn	cognizevbzindividualnn	apprehendernnofinsoulnn	knowernnofinsomebodynn	apprehendernnofinsomebodynn	knowablennofinsoulnn	knowablennofinmortalnn	knowingnnofinsomeonenn	knowingnnofinpersonnn	knowvbzsomebodynn	cognizevbzsomebodynn	apprehendernnofinsomeonenn	cognisevbzmortalnn	knowsvbzpersonnn	knowablennofinpersonnn	knowsvbzsoulnn	knowsvbzsomebodynn	cognisevbzsomeonenn	cognizevbzmortalnn	knowvbzsoulnn	knowvbzindividualnn	cognizevbzpersonnn	knowvbzpersonnn	knowablennofinsomeonenn	knowvbzsomeonenn	knowsvbzmortalnn	cognisevbzsomebodynn	knowernnofinpersonnn	knowernnofinsoulnn	cognizevbzsomeonenn	knowvbzmortalnn	apprehendernnofinpersonnn	knowsvbzindividualnn	cognisevbzsoulnn	knowablennofinsomebodynn	apprehendernnofinindividualnn	knowingnnofinindividualnn	knowingnnofinsoulnn	cognisevbzindividualnn	knowingnnofinsomebodynn	knowernnofinsomeonenn	knowablennofinindividualnn	knowernnofinindividualnn	apprehendernnofinmortalnn	knowernnofinmortalnn	cognisevbzpersonnn	cognizevbzsoulnn	
+
+BE: diedVBDfromINcancerNN
+EQ class: cash_in_one's_chipsvbdfromincancerousjj	give-up_the_ghostvbdfromincancernn	snuff_itvbdfromincancernn	perishvbdfromincancerousjj	govbdfromincancerousjj	passvbdfrominmalignant_neoplastic_diseasenn	dievbdfrominmalignant_neoplastic_diseasenn	exitvbdfromincancerousjj	conkvbdfromincancerousjj	expirevbdfromincancernn	buy_the_farmvbdfromincancernn	buy_the_farmvbdfrominmalignant_neoplastic_diseasenn	pop_offvbdfrominmalignant_neoplastic_diseasenn	perishvbdfrominmalignant_neoplastic_diseasenn	give-up_the_ghostvbdfrominmalignant_neoplastic_diseasenn	give-up_the_ghostvbdfromincancerousjj	dievbdfromincancernn	pop_offvbdfromincancerousjj	pass_awayvbdfromincancernn	govbdfromincancernn	croakvbdfromincancerousjj	drop_deadvbdfromincancerousjj	govbdfrominmalignant_neoplastic_diseasenn	perishvbdfromincancernn	snuff_itvbdfromincancerousjj	croakvbdfromincancernn	pass_awayvbdfromincancerousjj	passvbdfromincancerousjj	kick_the_bucketvbdfromincancernn	snuff_itvbdfrominmalignant_neoplastic_diseasenn	expirevbdfrominmalignant_neoplastic_diseasenn	dievbdfromincancerousjj	exitvbdfromincancernn	passvbdfromincancernn	diedvbdfrominmalignant_neoplastic_diseasenn	kick_the_bucketvbdfromincancerousjj	deceasevbdfromincancernn	drop_deadvbdfrominmalignant_neoplastic_diseasenn	diedvbdfromincancerousjj	deceasevbdfrominmalignant_neoplastic_diseasenn	chokevbdfromincancerousjj	cash_in_one's_chipsvbdfromincancernn	pop_offvbdfromincancernn	pass_awayvbdfrominmalignant_neoplastic_diseasenn	kick_the_bucketvbdfrominmalignant_neoplastic_diseasenn	expirevbdfromincancerousjj	conkvbdfrominmalignant_neoplastic_diseasenn	croakvbdfrominmalignant_neoplastic_diseasenn	conkvbdfromincancernn	deceasevbdfromincancerousjj	exitvbdfrominmalignant_neoplastic_diseasenn	cash_in_one's_chipsvbdfrominmalignant_neoplastic_diseasenn	chokevbdfromincancernn	chokevbdfrominmalignant_neoplastic_diseasenn	drop_deadvbdfromincancernn	buy_the_farmvbdfromincancerousjj	
+
+BE: isAUXgenerallyRB
+EQ class: beauxgenerallyrb	
+
+BE: speakingVBGgenerallyRB
+EQ class: utterernnofingenerallyrb	speakingnnofingenerallyrb	verbalisevbggenerallyrb	addressnnofingenerallyrb	speechnnofingenerallyrb	verbalisernnofingenerallyrb	verbalizevbggenerallyrb	speech_productionnnofingenerallyrb	talkernnofingenerallyrb	speakernnofingenerallyrb	speakvbggenerallyrb	talkvbggenerallyrb	mouthvbggenerallyrb	verbalizernnofingenerallyrb	uttervbggenerallyrb	
+
+BE: knowsVBZhereRB
+EQ class: knowernnofinhererb	knowvbzhererb	knowingnnofinhererb	knowablennofinhererb	cognisevbzhererb	apprehendernnofinhererb	cognizevbzhererb	
+
+BE: GrandmotherNN
+EQ class: grannienn	grannn	grandmann	nannn	grannynn	nannann	
+
+BE: GrandfatherNN
+EQ class: granddaddynn	granddadnn	grandpann	grandadnn	grampsnn	
+
+BE: lungNN
+EQ class: 
+
+BE: cancerNN
+EQ class: cancerousjj	malignant_neoplastic_diseasenn	
+
+BE: termNN
+EQ class: 
+
+BE: diedVBD
+EQ class: conkvbd	passvbd	pass_awayvbd	deceasevbd	croakvbd	chokevbd	govbd	give-up_the_ghostvbd	buy_the_farmvbd	pop_offvbd	expirevbd	cash_in_one's_chipsvbd	exitvbd	snuff_itvbd	kick_the_bucketvbd	dievbd	drop_deadvbd	perishvbd	
+
+BE: isnVBZ
+EQ class: 
+
+BE: tVBG
+EQ class: 
+
+BE: newJJ
+EQ class: newnessnn	
+
+BE: newJJtermNN
+EQ class: newnessnntermnn	termvbnewlyrb	
+
+BE: myPRP$GrandmotherNN
+EQ class: myprp$nannann	myprp$grannynn	myprp$nannn	grannnofinmyprp$	myprp$grannienn	nannnofinmyprp$	grandmannofinmyprp$	nannannofinmyprp$	grannynnofinmyprp$	granniennofinmyprp$	grandmothernnofinmyprp$	myprp$grannn	myprp$grandmann	
+
+BE: lungNNcancerNN
+EQ class: cancernnofinlungnn	malignant_neoplastic_diseasennofinlungnn	cancerousvblungnn	lungnncancerousvb	lungnncancerousjj	lungnnmalignant_neoplastic_diseasenn	cancerousjjofinlungnn	
+
+BE: GrandmotherNNdiedVBD
+EQ class: expirynngrannn	expirynnnannn	deceasennofinnannann	deceasennofingrandmann	deceasennofingrandmothernn	nannanngive-up_the_ghostvbd	grandmannkick_the_bucketvbd	nannannperishvbd	grandmannperishvbd	grannienndeceasevbd	grannnpop_offvbd	grandmothernnexpirevbd	granniennpass_awayvbd	grannynndrop_deadvbd	nannndrop_deadvbd	nannnpassvbd	grandmanncash_in_one's_chipsvbd	grandmothernnsnuff_itvbd	grannienndrop_deadvbd	grannngovbd	expirynnofingrannienn	grannienncash_in_one's_chipsvbd	grannnpass_awayvbd	nannannexpirevbd	granniennexpirevbd	deathnngrannienn	grannynnperishvbd	expirynnofinnannann	nannannchokevbd	grandmannexitvbd	nannnpop_offvbd	deathnnofingrannynn	deceasenngrannynn	grannynnconkvbd	deceasennofingrannn	deathnnnannn	grannienndievbd	grannynnexitvbd	grandmothernnexitvbd	nannnexpirevbd	granniennpop_offvbd	grandmannchokevbd	grandmannpop_offvbd	grannynngive-up_the_ghostvbd	nannndeceasevbd	grandmanndeceasevbd	grannienndiedvbd	grandmothernngovbd	nannngive-up_the_ghostvbd	grannynnexpirevbd	nannnbuy_the_farmvbd	expirynnofingrandmothernn	nannannkick_the_bucketvbd	grandmothernnconkvbd	nannncash_in_one's_chipsvbd	granniennexitvbd	nannanndiedvbd	grannndeceasevbd	grandmannpassvbd	grannnpassvbd	nannndiedvbd	grandmothernnbuy_the_farmvbd	grandmanncroakvbd	nannnpass_awayvbd	nannnperishvbd	grandmanndrop_deadvbd	grandmothernncash_in_one's_chipsvbd	grandmannconkvbd	grannncroakvbd	nannannpass_awayvbd	expirynngrannynn	grannynndiedvbd	deathnngrannn	expirynnnannann	grannynnpass_awayvbd	nannannbuy_the_farmvbd	grannienngive-up_the_ghostvbd	grannnexpirevbd	granniennsnuff_itvbd	grannngive-up_the_ghostvbd	grandmanngive-up_the_ghostvbd	nannndievbd	expirynnofinnannn	grannncash_in_one's_chipsvbd	grandmothernndievbd	grandmothernncroakvbd	deceasenngrannn	nannncroakvbd	grannnsnuff_itvbd	granniennkick_the_bucketvbd	deceasennnannn	nannannpassvbd	grannynncroakvbd	expirynnofingrannynn	grannynnpassvbd	deathnngrannynn	nannngovbd	nannannconkvbd	grannnchokevbd	grannynngovbd	grandmothernnpop_offvbd	deathnnofingrandmothernn	granniennperishvbd	deathnngrandmann	grandmothernnperishvbd	nannannpop_offvbd	expirynngrandmann	grannynndeceasevbd	grannynnchokevbd	nannanndievbd	grandmothernnkick_the_bucketvbd	grandmothernndeceasevbd	grandmannbuy_the_farmvbd	grannienngovbd	grannynncash_in_one's_chipsvbd	expirynnofingrannn	grandmanndiedvbd	grandmothernngive-up_the_ghostvbd	grannndrop_deadvbd	nannanngovbd	expirynngrannienn	nannanndeceasevbd	grannynnsnuff_itvbd	grandmothernnpassvbd	nannnkick_the_bucketvbd	nannanndrop_deadvbd	nannnchokevbd	expirynnofingrandmann	deceasennofingrannynn	deceasenngrandmann	deathnnnannann	granniennchokevbd	deathnnofingrannn	deathnnofingrandmann	grannnperishvbd	nannnexitvbd	grandmannpass_awayvbd	granniennconkvbd	deceasennofinnannn	expirynngrandmothernn	grandmothernnpass_awayvbd	grannynnbuy_the_farmvbd	nannnsnuff_itvbd	nannannexitvbd	grandmanngovbd	grandmannsnuff_itvbd	deathnnofinnannann	grannynnpop_offvbd	grannynndievbd	deceasennnannann	deathnnofinnannn	grannynnkick_the_bucketvbd	grandmannexpirevbd	grannnkick_the_bucketvbd	grannnconkvbd	nannanncroakvbd	deathnnofingrannienn	grannndiedvbd	grannnbuy_the_farmvbd	deceasenngrannienn	nannannsnuff_itvbd	grannnexitvbd	nannnconkvbd	nannanncash_in_one's_chipsvbd	grandmothernndrop_deadvbd	grandmothernnchokevbd	deathnngrandmothernn	granniennbuy_the_farmvbd	grannienncroakvbd	deceasenngrandmothernn	deceasennofingrannienn	grandmanndievbd	grannndievbd	granniennpassvbd	
+
+BE: itPRPisnVBZ
+EQ class: 
+
+BE: tVBGtermNN
+EQ class: 
+
+BE: diedVBDfromINcancerNN
+EQ class: cash_in_one's_chipsvbdfromincancerousjj	give-up_the_ghostvbdfromincancernn	snuff_itvbdfromincancernn	perishvbdfromincancerousjj	govbdfromincancerousjj	passvbdfrominmalignant_neoplastic_diseasenn	dievbdfrominmalignant_neoplastic_diseasenn	exitvbdfromincancerousjj	conkvbdfromincancerousjj	expirevbdfromincancernn	buy_the_farmvbdfromincancernn	buy_the_farmvbdfrominmalignant_neoplastic_diseasenn	pop_offvbdfrominmalignant_neoplastic_diseasenn	perishvbdfrominmalignant_neoplastic_diseasenn	give-up_the_ghostvbdfrominmalignant_neoplastic_diseasenn	give-up_the_ghostvbdfromincancerousjj	dievbdfromincancernn	pop_offvbdfromincancerousjj	pass_awayvbdfromincancernn	govbdfromincancernn	croakvbdfromincancerousjj	drop_deadvbdfromincancerousjj	govbdfrominmalignant_neoplastic_diseasenn	perishvbdfromincancernn	snuff_itvbdfromincancerousjj	croakvbdfromincancernn	pass_awayvbdfromincancerousjj	passvbdfromincancerousjj	kick_the_bucketvbdfromincancernn	snuff_itvbdfrominmalignant_neoplastic_diseasenn	expirevbdfrominmalignant_neoplastic_diseasenn	dievbdfromincancerousjj	exitvbdfromincancernn	passvbdfromincancernn	diedvbdfrominmalignant_neoplastic_diseasenn	kick_the_bucketvbdfromincancerousjj	deceasevbdfromincancernn	drop_deadvbdfrominmalignant_neoplastic_diseasenn	diedvbdfromincancerousjj	deceasevbdfrominmalignant_neoplastic_diseasenn	chokevbdfromincancerousjj	cash_in_one's_chipsvbdfromincancernn	pop_offvbdfromincancernn	pass_awayvbdfrominmalignant_neoplastic_diseasenn	kick_the_bucketvbdfrominmalignant_neoplastic_diseasenn	expirevbdfromincancerousjj	conkvbdfrominmalignant_neoplastic_diseasenn	croakvbdfrominmalignant_neoplastic_diseasenn	conkvbdfromincancernn	deceasevbdfromincancerousjj	exitvbdfrominmalignant_neoplastic_diseasenn	cash_in_one's_chipsvbdfrominmalignant_neoplastic_diseasenn	chokevbdfromincancernn	chokevbdfrominmalignant_neoplastic_diseasenn	drop_deadvbdfromincancernn	buy_the_farmvbdfromincancerousjj	
+
+BE: tVBGtoTOmePRP
+EQ class: 
+
+BE: diedVBDsoINisnVBZ
+EQ class: snuff_itvbdsoinisnvbz	govbdsoinisnvbz	passvbdsoinisnvbz	dievbdsoinisnvbz	kick_the_bucketvbdsoinisnvbz	perishvbdsoinisnvbz	give-up_the_ghostvbdsoinisnvbz	cash_in_one's_chipsvbdsoinisnvbz	buy_the_farmvbdsoinisnvbz	deceasevbdsoinisnvbz	exitvbdsoinisnvbz	pass_awayvbdsoinisnvbz	croakvbdsoinisnvbz	chokevbdsoinisnvbz	expirevbdsoinisnvbz	conkvbdsoinisnvbz	pop_offvbdsoinisnvbz	drop_deadvbdsoinisnvbz	
+
+BE: killersNNS
+EQ class: killernns	theynns	slayernns	themnns	
+
+BE: cancerNN
+EQ class: cancerousjj	malignant_neoplastic_diseasenn	
+
+BE: heartNN
+EQ class: bosomnn	
+
+BE: attacksNNS
+EQ class: attacknns	theynns	onrushnns	onsetnns	onslaughtnns	themnns	
+
+BE: peopleNNS
+EQ class: theynns	themnns	
+
+BE: doubtVBP
+EQ class: 
+
+BE: biggestJJS
+EQ class: bignessnn	largejjs	bigjjs	
+
+BE: manyJJ
+EQ class: 
+
+BE: ignorantJJ
+EQ class: unletteredjj	nescientjj	ignorancenn	unlearnedjj	ignorantnessnn	
+
+BE: twoCDkillersNNS
+EQ class: deucecdslayernns	2cdkillernns	2cdthemnns	deucecdkillersnns	iicdtheynns	iicdkillernns	deucecdtheynns	twocdthemnns	twocdslayernns	deucecdkillernns	deucecdthemnns	iicdthemnns	twocdkillernns	2cdslayernns	2cdtheynns	twocdtheynns	iicdslayernns	2cdkillersnns	iicdkillersnns	
+
+BE: biggestJJSkillersNNS
+EQ class: bignessnnslayernns	bigjjskillersnns	biggestjjstheynns	largejjsslayernns	largejjstheynns	largejjskillernns	bigjjstheynns	bigjjsslayernns	largejjskillersnns	biggestjjskillernns	bignessnntheynns	bignessnnthemnns	bignessnnkillersnns	bignessnnkillernns	biggestjjsslayernns	biggestjjsthemnns	bigjjskillernns	bigjjsthemnns	largejjsthemnns	
+
+BE: manyJJpeopleNNS
+EQ class: manyjjtheynns	manyjjthemnns	
+
+BE: heartNNattacksNNS
+EQ class: heartnnthemnns	assailvbbosomnn	attacknnsofinbosomnn	bosomnnonslaughtnns	bosomnnattacknns	heartnnattackvb	bosomnnassailvb	heartnnonslaughtnns	bosomnnthemnns	onrushnnsofinbosomnn	theynnsofinheartnn	themnnsofinheartnn	heartnntheynns	onsetnnsofinheartnn	bosomnnonrushnns	onslaughtnnsofinheartnn	themnnsofinbosomnn	heartnnonsetnns	attacksnnsofinheartnn	heartnnattacknns	bosomnnattacksnns	bosomnnattackvb	onslaughtnnsofinbosomnn	heartnnonrushnns	theynnsofinbosomnn	attackvbbosomnn	attackvbheartnn	onrushnnsofinheartnn	bosomnntheynns	bosomnnonsetnns	onsetnnsofinbosomnn	heartnnassailvb	attacknnsofinheartnn	assailvbheartnn	attacksnnsofinbosomnn	
+
+BE: killersNNSareAUX
+EQ class: themnnsbeaux	slayernnsareaux	killernnsareaux	killersnnsbeaux	theynnsareaux	themnnsareaux	theynnsbeaux	slayernnsbeaux	killernnsbeaux	
+
+BE: iPRPdoubtVBP
+EQ class: scepticnniprp	dubiousnessnnofiniprp	dubietynnofiniprp	doubtfulnessnnofiniprp	scepticnnofiniprp	uncertaintynnofiniprp	doubternniprp	incertitudennofiniprp	skepticnniprp	doubternnofiniprp	doubtnnofiniprp	skepticnnofiniprp	
+
+BE: thereEXareAUX
+EQ class: thereexbeaux	
+
+BE: peopleNNSareAUX
+EQ class: themnnsbeaux	peoplennsbeaux	theynnsareaux	themnnsareaux	theynnsbeaux	
+
+BE: areAUXattacksNNS
+EQ class: beauxonslaughtnns	areauxattacknns	beauxattacknns	beauxthemnns	areauxthemnns	areauxonrushnns	beauxtheynns	areauxtheynns	beauxonrushnns	beauxattacksnns	areauxonslaughtnns	areauxonsetnns	beauxonsetnns	
+
+BE: areAUXpeopleNNS
+EQ class: beauxthemnns	areauxthemnns	beauxpeoplenns	beauxtheynns	areauxtheynns	
+
+BE: areAUXignorantJJ
+EQ class: beauxignorancenn	areauxignorantnessnn	beauxunletteredjj	beauxignorantnessnn	areauxnescientjj	beauxunlearnedjj	beauxnescientjj	areauxignorancenn	areauxunletteredjj	areauxunlearnedjj	beauxignorantjj	
+
+BE: eitherDTofINtheseDT
+EQ class: 
+
+BE: ignorantJJaboutINeitherDT
+EQ class: ignorancennaboutineitherdt	unlearnedjjaboutineitherdt	nescientjjaboutineitherdt	unletteredjjaboutineitherdt	ignorantnessnnaboutineitherdt	
+
+BE: doubtVBPthatINareAUX
+EQ class: doubtvbpthatinbeaux	
+
+BE: doubtVBPseriouslyRB
+EQ class: seriousnessnninindoubtnn	uncertaintynnofinseriouslyrb	seriousjjskepticnn	seriousnessnninindubiousnessnn	seriousjjuncertaintynn	seriousnessnnskepticnn	seriousnessnninindoubtfulnessnn	doubtnnofinseriouslyrb	seriousjjinindoubtfulnessnn	seriousnessnnininincertitudenn	seriousjjininincertitudenn	seriousnessnnininscepticnn	seriousjjinindoubtnn	seriousnessnndoubtfulnessnn	seriousnessnnininuncertaintynn	seriousjjdubiousnessnn	seriousjjinindubietynn	seriousjjinindoubtvbp	seriousnessnnininskepticnn	seriousnessnndoubternn	seriousjjdoubtnn	seriousjjininuncertaintynn	scepticnnofinseriouslyrb	seriousjjdubietynn	seriousnessnninindoubternn	seriousnessnnincertitudenn	seriousjjscepticnn	seriousjjininscepticnn	seriousnessnndoubtnn	doubternnofinseriouslyrb	seriousjjinindoubternn	seriousnessnndubietynn	seriousnessnndubiousnessnn	seriousjjincertitudenn	seriousjjdoubternn	dubietynnofinseriouslyrb	seriousnessnninindoubtvbp	seriousnessnnuncertaintynn	seriousjjininskepticnn	seriousnessnnscepticnn	skepticnnofinseriouslyrb	dubiousnessnnofinseriouslyrb	seriousjjinindubiousnessnn	doubtfulnessnnofinseriouslyrb	incertitudennofinseriouslyrb	seriousnessnninindubietynn	seriousjjdoubtfulnessnn	
+
+BE: attacksNNSkillersNNS
+EQ class: killnnofinattacknns	violent_deathnnofinonslaughtnns	aggressornnofinthemnns	attacknnskillernns	killersnnsonrushnns	onsetnnofinkillersnns	onsetnnofinslayernns	killersnnsattacknns	attacksnnskillvb	putting_to_deathnnofinthemnns	killernnsonslaughtnns	onrushnnofinkillernns	killernnofintheynns	killnnofinattacksnns	theynnstheynns	onrushnnstheynns	killersnnsonsetnns	slayernnsonslaughtnns	attacksnnstheynns	killernnstheynns	onslaughtnnofintheynns	putting_to_deathnnofinattacksnns	theynnsattacksnns	themnnsattacknns	themnnsslayernns	killablennofinonsetnns	aggressornnofinkillernns	assaulternnofintheynns	killernnsattackvb	onsetnnskillersnns	onsetnnskillernns	assailantnnofinkillersnns	violent_deathnnofinonrushnns	killersnnsattackvb	onrushnnofinslayernns	killablennofinthemnns	theynnsonrushnns	attackernnofintheynns	themnnstheynns	onsetnnofinthemnns	slayernnofinonrushnns	themnnskillernns	killablennofinattacksnns	killingnnofintheynns	onslaughtnnsslayernns	attacknnofinslayernns	onrushnnsthemnns	onslaughtnnskillvb	onrushnnofinthemnns	onrushnnofintheynns	onslaughtnnstheynns	attacknnofintheynns	assailantnnofintheynns	attacksnnsthemnns	theynnsattackvb	theynnsslayernns	killernnofinattacksnns	theynnsthemnns	onslaughtnnskillernns	attackernnofinkillernns	killernnsattacksnns	killernnsonsetnns	themnnsassailvb	slayernnsthemnns	attacknnsthemnns	theynnskillvb	violent_deathnnofinattacknns	killingnnofinattacknns	slayernnofinattacksnns	killernnofinthemnns	killablennofinattacknns	killingnnofinonsetnns	theynnskillernns	killnnofinthemnns	onsetnnofintheynns	killnnofinonslaughtnns	slayernnsonsetnns	attacksnnskillernns	attacknnofinkillernns	killernnofinonsetnns	killernnsassailvb	onrushnnskillvb	attackernnofinslayernns	killingnnofinattacksnns	onslaughtnnofinslayernns	killernnofinattacknns	assaulternnofinthemnns	killingnnofinonrushnns	assailantnnofinkillernns	attacknnofinthemnns	onrushnnskillersnns	killersnnsonslaughtnns	assaulternnofinslayernns	killernnsthemnns	attacknnofinkillersnns	putting_to_deathnnofinattacknns	violent_deathnnofinattacksnns	violent_deathnnofinonsetnns	attacknnskillvb	onslaughtnnofinkillernns	onslaughtnnskillersnns	onsetnnsslayernns	attacknnstheynns	onslaughtnnofinkillersnns	themnnskillersnns	aggressornnofintheynns	putting_to_deathnnofinonrushnns	slayernnsattacknns	theynnsassailvb	killingnnofinthemnns	themnnsonsetnns	slayernnofinonslaughtnns	onsetnnsthemnns	killnnofinonrushnns	theynnsattacknns	attacknnskillersnns	violent_deathnnofintheynns	themnnskillvb	killersnnsthemnns	theynnsonslaughtnns	putting_to_deathnnofinonsetnns	onsetnnskillvb	killnnofintheynns	themnnsattacksnns	slayernnsattackvb	slayernnsassailvb	slayernnofinattacknns	themnnsattackvb	assaulternnofinkillernns	killnnofinonsetnns	onslaughtnnsthemnns	slayernnofintheynns	attacknnsslayernns	killablennofinonrushnns	killingnnofinonslaughtnns	themnnsonrushnns	slayernnsonrushnns	theynnskillersnns	themnnsthemnns	aggressornnofinkillersnns	assailantnnofinthemnns	killersnnsattacksnns	putting_to_deathnnofinonslaughtnns	killersnnstheynns	slayernnstheynns	killernnsonrushnns	onrushnnskillernns	killernnofinonrushnns	killernnofinonslaughtnns	onsetnnstheynns	themnnsonslaughtnns	assaulternnofinkillersnns	aggressornnofinslayernns	onrushnnofinkillersnns	onsetnnofinkillernns	theynnsonsetnns	violent_deathnnofinthemnns	slayernnsattacksnns	onrushnnsslayernns	onslaughtnnofinthemnns	killersnnsassailvb	killablennofintheynns	attackernnofinkillersnns	assailantnnofinslayernns	slayernnofinthemnns	killablennofinonslaughtnns	killernnsattacknns	slayernnofinonsetnns	attacksnnsslayernns	putting_to_deathnnofintheynns	attackernnofinthemnns	
+
+BE: dangersNNS
+EQ class: dangernns	theynns	themnns	
+
+BE: foodsNNS
+EQ class: foodnns	theynns	nutrientnns	themnns	
+
+BE: smokeVBP
+EQ class: 
+
+BE: knowVBP
+EQ class: cognizevbp	cognisevbp	
+
+BE: eatVBP
+EQ class: 
+
+BE: MostJJS
+EQ class: 
+
+BE: badJJ
+EQ class: badnessnn	
+
+BE: badJJfoodsNNS
+EQ class: badnessnnfoodsnns	badnessnnnutrientnns	badnessnnthemnns	badjjfoodnns	badnessnnfoodnns	badjjthemnns	badjjtheynns	badnessnntheynns	badjjnutrientnns	
+
+BE: MostJJSknowVBP
+EQ class: knowablennofinmostjjs	mostjjscognisevbp	mostjjscognizevbp	knowingnnofinmostjjs	knowernnmostjjs	knowingnnmostjjs	apprehendernnofinmostjjs	knowernnofinmostjjs	apprehendernnmostjjs	
+
+BE: MostJJSdoAUX
+EQ class: mostjjsmakeaux	
+
+BE: MostJJSsmokeVBP
+EQ class: tobacco_usernnofinmostjjs	smokennofinmostjjs	tobacco_usernnmostjjs	smokingnnofinmostjjs	smokernnmostjjs	smokennmostjjs	smokingnnmostjjs	fumennofinmostjjs	smokernnofinmostjjs	smokyjjofinmostjjs	
+
+BE: thoseDTeatVBP
+EQ class: eaternnthosedt	feedernnofinthosedt	feedingnnthosedt	feedernnthosedt	eatingnnofinthosedt	eatingnnthosedt	feedingnnofinthosedt	eaternnofinthosedt	
+
+BE: knowVBPdangersNNS
+EQ class: apprehendernnofindangersnns	knowingnnofinthemnns	apprehendernnofindangernns	knowernnofindangersnns	knowernnofintheynns	knowablennofindangersnns	cognisevbptheynns	knowernnofinthemnns	knowvbptheynns	knowablennofintheynns	knowingnnofintheynns	knowingnnofindangersnns	apprehendernnofintheynns	cognizevbpthemnns	cognizevbpdangernns	knowablennofindangernns	apprehendernnofinthemnns	cognisevbpdangersnns	cognizevbptheynns	knowingnnofindangernns	knowernnofindangernns	knowvbpthemnns	cognisevbpdangernns	knowvbpdangernns	knowablennofinthemnns	cognisevbpthemnns	cognizevbpdangersnns	
+
+BE: doAUXthoseDT
+EQ class: makeauxthosedt	
+
+BE: eatVBPfoodsNNS
+EQ class: eatvbptheynns	eatvbpnutrientnns	feedingnnofinfoodsnns	feedernnofinthemnns	feedernnofintheynns	feedernnofinfoodsnns	eatvbpfoodnns	eatvbpthemnns	eatingnnofintheynns	eatingnnofinnutrientnns	eatingnnofinfoodnns	feedingnnofinnutrientnns	feedingnnofinfoodnns	feedernnofinfoodnns	eatingnnofinfoodsnns	feedernnofinnutrientnns	eaternnofinfoodsnns	eaternnofinthemnns	feedingnnofintheynns	feedingnnofinthemnns	eaternnofintheynns	eaternnofinnutrientnns	eaternnofinfoodnns	eatingnnofinthemnns	
+
+BE: doAUXsoRB
+EQ class: makeauxsorb	
+
+BE: ignoranceNN
+EQ class: ignorantjj	
+
+BE: sVBZ
+EQ class: 
+
+BE: sVBZ
+EQ class: 
+
+BE: caringVBG
+EQ class: carevbg	
+
+BE: dieVBP
+EQ class: expirevbp	buy_the_farmvbp	govbp	cash_in_one's_chipsvbp	exitvbp	passvbp	drop_deadvbp	pop_offvbp	give-up_the_ghostvbp	deceasevbp	chokevbp	croakvbp	conkvbp	perishvbp	pass_awayvbp	snuff_itvbp	kick_the_bucketvbp	
+
+BE: itPRPsVBZ
+EQ class: 
+
+BE: itPRPsVBZ
+EQ class: 
+
+BE: youPRPdieVBP
+EQ class: youprpdrop_deadvbp	youprpexpirevbp	expirynnyouprp	youprpconkvbp	youprpsnuff_itvbp	youprpbuy_the_farmvbp	youprppop_offvbp	youprpcash_in_one's_chipsvbp	youprpkick_the_bucketvbp	youprpgovbp	youprpexitvbp	deathnnyouprp	youprpcroakvbp	youprpdeceasevbp	youprpperishvbp	deathnnofinyouprp	expirynnofinyouprp	youprppass_awayvbp	deceasennyouprp	youprpgive-up_the_ghostvbp	youprppassvbp	deceasennofinyouprp	youprpchokevbp	
+
+BE: sVBZnotRB
+EQ class: 
+
+BE: sVBZaboutINignoranceNN
+EQ class: svbzaboutinignorantjj	
+
+BE: sVBZsometimesRB
+EQ class: 
+
+BE: caringVBGnotRB
+EQ class: attentionnnofinnotrb	tendingnnofinnotrb	caringjjofinnotrb	lovingnessnnofinnotrb	aidnnofinnotrb	carennofinnotrb	caringnnofinnotrb	carevbgnotrb	
+
+BE: warningsNNS
+EQ class: theynns	warningnns	themnns	
+
+BE: cigaretteNN
+EQ class: buttnn	coffin_nailnn	fagnn	cigaretnn	
+
+BE: packetsNNS
+EQ class: packagenns	theynns	bundlenns	packetnns	parcelnns	themnns	
+
+BE: cancerNN
+EQ class: cancerousjj	malignant_neoplastic_diseasenn	
+
+BE: commentsNNS
+EQ class: remarknns	inputnns	theynns	commentnns	themnns	
+
+BE: nonNN
+EQ class: 
+
+BE: smokersNNS
+EQ class: theynns	tobacco_usernns	smokernns	themnns	
+
+BE: cancerNN
+EQ class: cancerousjj	malignant_neoplastic_diseasenn	
+
+BE: thinkVB
+EQ class: believevb	conceivevb	considervb	
+
+BE: knowVB
+EQ class: cognizevb	cognisevb	
+
+BE: causeVB
+EQ class: makevb	dovb	
+
+BE: eventhenVBN
+EQ class: 
+
+BE: tellingVBG
+EQ class: sayvbg	statevbg	tellvbg	
+
+BE: getVB
+EQ class: acquirevb	
+
+BE: impossibleJJ
+EQ class: impossibilitynn	impossiblenessnn	
+
+BE: illiterateJJ
+EQ class: 
+
+BE: dailyJJ
+EQ class: day-to-dayjj	day-by-dayjj	day-after-dayjj	daynn	
+
+BE: dailyJJcommentsNNS
+EQ class: dailyjjremarknns	day-by-dayjjinputnns	day-to-dayjjcommentnns	day-after-dayjjtheynns	day-after-dayjjcommentsnns	daynnthemnns	daynninputnns	day-to-dayjjremarknns	day-after-dayjjremarknns	daynncommentsnns	dailyjjcommentnns	daynncommentnns	dailyjjtheynns	day-after-dayjjcommentnns	day-to-dayjjtheynns	day-after-dayjjthemnns	day-by-dayjjtheynns	day-by-dayjjcommentnns	day-by-dayjjremarknns	daynnremarknns	day-by-dayjjthemnns	dailyjjinputnns	day-to-dayjjthemnns	dailyjjthemnns	day-by-dayjjcommentsnns	daynntheynns	day-to-dayjjinputnns	day-to-dayjjcommentsnns	day-after-dayjjinputnns	
+
+BE: cigaretteNNpacketsNNS
+EQ class: packagennsofinbuttnn	themnnsofincigarettenn	packetsnnsofincigarettenn	buttnnpacketsnns	packetsnnsofincoffin_nailnn	fagnntheynns	fagnnpackagenns	themnnsofincigaretnn	packetsnnsofinfagnn	fagnnparcelnns	cigaretnnthemnns	packetnnsofincigaretnn	packetnnsofincoffin_nailnn	bundlennsofinfagnn	parcelnnsofincigaretnn	theynnsofinfagnn	themnnsofincoffin_nailnn	coffin_nailnnthemnns	packagennsofincoffin_nailnn	packetsnnsofincigaretnn	fagnnpacketsnns	buttnnpacketnns	fagnnthemnns	cigarettennbundlenns	cigaretnnpackagenns	cigarettenntheynns	cigarettennpackagenns	theynnsofincoffin_nailnn	buttnnparcelnns	coffin_nailnnpacketsnns	themnnsofinfagnn	coffin_nailnnparcelnns	bundlennsofinbuttnn	buttnnpackagenns	packetnnsofincigarettenn	fagnnpacketnns	coffin_nailnnbundlenns	packetsnnsofinbuttnn	parcelnnsofinbuttnn	coffin_nailnntheynns	themnnsofinbuttnn	packagennsofincigarettenn	cigaretnnpacketsnns	theynnsofinbuttnn	packagennsofincigaretnn	parcelnnsofincigarettenn	coffin_nailnnpackagenns	buttnnbundlenns	bundlennsofincigarettenn	buttnntheynns	packagennsofinfagnn	fagnnbundlenns	parcelnnsofinfagnn	bundlennsofincoffin_nailnn	cigarettennparcelnns	buttnnthemnns	cigaretnntheynns	packetnnsofinbuttnn	cigarettennthemnns	cigaretnnparcelnns	cigaretnnpacketnns	bundlennsofincigaretnn	theynnsofincigaretnn	cigarettennpacketnns	cigaretnnbundlenns	coffin_nailnnpacketnns	theynnsofincigarettenn	parcelnnsofincoffin_nailnn	packetnnsofinfagnn	
+
+BE: nonNNsmokersNNS
+EQ class: themnnsofinnonnn	nonnnsmokevb	nonnntobacco_usernns	nonnnthemnns	nonnnsmokernns	smokernnsofinnonnn	theynnsofinnonnn	smokersnnsofinnonnn	smokevbnonnn	nonnntheynns	tobacco_usernnsofinnonnn	
+
+BE: iPRPthinkVB
+EQ class: iprpconsidervb	thoughtnnofiniprp	iprpbelievevb	ideanniprp	iprpconceivevb	ideannofiniprp	thoughtnniprp	
+
+BE: theyPRPcauseVB
+EQ class: causingnnofinkillersprp	causationnnpacketsprp	peopleprpmakevb	causennofinpeopleprp	causingnnofincommentsprp	causationnncommentsprp	causennofinkillersprp	dangersprpcausevb	causennofintheyprp	commentsprpcausevb	causativennofinsmokersprp	causingnndangersprp	causennofinpacketsprp	dangersprpdovb	warningsprpdovb	causativennofinpacketsprp	causativennofinwarningsprp	causationnnofinattacksprp	causennofindangersprp	causaljjofincommentsprp	killersprpcausevb	smokersprpmakevb	causationnnkillersprp	causingnnpeopleprp	causationnnofindangersprp	causativennofinpeopleprp	causennofinattacksprp	causationnnofinkillersprp	causingnnofinattacksprp	causingnnofintheyprp	causingnnofinfoodsprp	causingnnfoodsprp	causaljjofintheyprp	causationnnwarningsprp	causationnndangersprp	causingnnpacketsprp	causennofinwarningsprp	causationnnofinsmokersprp	causationnnofinpacketsprp	causaljjofinwarningsprp	causingnnofindangersprp	causingnntheyprp	causennofincommentsprp	causationnnofincommentsprp	causaljjofinattacksprp	warningsprpmakevb	attacksprpmakevb	smokersprpdovb	causativennofinattacksprp	commentsprpdovb	commentsprpmakevb	causaljjofinfoodsprp	causativennofinkillersprp	causingnncommentsprp	causingnnofinsmokersprp	causationnnsmokersprp	peopleprpdovb	causennofinfoodsprp	causaljjofinpeopleprp	foodsprpdovb	causingnnofinpacketsprp	causativennofincommentsprp	causingnnofinwarningsprp	causationnnfoodsprp	causaljjofinkillersprp	theyprpmakevb	causaljjofinsmokersprp	killersprpdovb	causennofinsmokersprp	theyprpdovb	causationnnofintheyprp	causationnntheyprp	causingnnofinpeopleprp	causativennofindangersprp	causingnnwarningsprp	smokersprpcausevb	foodsprpmakevb	dangersprpmakevb	attacksprpcausevb	causationnnofinwarningsprp	causationnnofinpeopleprp	causingnnattacksprp	packetsprpmakevb	packetsprpcausevb	causingnnsmokersprp	causativennofintheyprp	packetsprpdovb	peopleprpcausevb	causativennofinfoodsprp	killersprpmakevb	causationnnpeopleprp	foodsprpcausevb	warningsprpcausevb	causationnnofinfoodsprp	causationnnattacksprp	causaljjofindangersprp	attacksprpdovb	causingnnkillersprp	causaljjofinpacketsprp	
+
+BE: youPRPareAUX
+EQ class: youprpbeaux	
+
+BE: youPRPhaveAUX
+EQ class: youprphave_gotaux	rich_personnnofinyouprp	havennofinyouprp	youprpholdaux	wealthy_personnnofinyouprp	
+
+BE: commentsNNStellingVBG
+EQ class: tellingnnremarknns	commentnnsstatevbg	tellernnofinthemnns	tellingnninputnns	remarknnstellvbg	commentsnnsstatevbg	recountingnncommentnns	theynnsstatevbg	relationnnofincommentsnns	edward_tellernnofinremarknns	commentsnnssayvbg	tellingnnofininputnns	relationnnofinremarknns	edward_tellernntheynns	tellernnthemnns	inputnnstellvbg	tellingnnthemnns	recountingnnremarknns	remarknnssayvbg	relationnnofincommentnns	relationnntheynns	tellernnofincommentsnns	remarknnsstatevbg	recountingnntheynns	themnnssayvbg	commentnnssayvbg	edward_tellernncommentnns	tellingnnofintheynns	theynnssayvbg	recountingnnofininputnns	tellernncommentsnns	recountingnninputnns	inputnnstellingvbg	recountingnnthemnns	tellernncommentnns	commentnnstellingvbg	theynnstellvbg	tellingnncommentnns	recountingnnofinthemnns	edward_tellernncommentsnns	edward_tellernninputnns	edward_tellernnthemnns	themnnsstatevbg	recountingnnofincommentnns	relationnncommentnns	relationnnremarknns	inputnnssayvbg	edward_tellernnofincommentnns	tellernnofincommentnns	themnnstellvbg	recountingnncommentsnns	recountingnnofintheynns	tellingnnofincommentsnns	commentnnstellvbg	commentsnnstellvbg	tellernnremarknns	recountingnnofinremarknns	relationnnofininputnns	tellernninputnns	tellingnncommentsnns	relationnnofinthemnns	edward_tellernnofintheynns	edward_tellernnofininputnns	inputnnsstatevbg	relationnncommentsnns	tellernntheynns	edward_tellernnremarknns	tellernnofinremarknns	tellernnofininputnns	relationnninputnns	remarknnstellingvbg	relationnnthemnns	tellingnnofincommentnns	tellernnofintheynns	recountingnnofincommentsnns	edward_tellernnofincommentsnns	themnnstellingvbg	tellingnnofinthemnns	theynnstellingvbg	tellingnnofinremarknns	edward_tellernnofinthemnns	tellingnntheynns	relationnnofintheynns	
+
+BE: youPRPgetVB
+EQ class: gettingnnofinyouprp	acquiringnnofinyouprp	gettingnnyouprp	youprpacquirevb	acquiringnnyouprp	
+
+BE: causeVBcancerNN
+EQ class: causationnnofinmalignant_neoplastic_diseasenn	dovbmalignant_neoplastic_diseasenn	causationnnofincancerousjj	causaljjofincancerousjj	dovbcancerousjj	causaljjofinmalignant_neoplastic_diseasenn	causennofincancerousjj	causingnnofincancerousjj	causaljjofincancernn	causevbmalignant_neoplastic_diseasenn	dovbcancernn	makevbcancernn	causativennofincancernn	causationnnofincancernn	causingnnofincancernn	causativennofincancerousjj	makevbmalignant_neoplastic_diseasenn	causennofincancernn	makevbcancerousjj	causennofinmalignant_neoplastic_diseasenn	causativennofinmalignant_neoplastic_diseasenn	causingnnofinmalignant_neoplastic_diseasenn	causevbcancerousjj	
+
+BE: tellingVBGyouPRP
+EQ class: tellvbgyouprp	relationnnofinyouprp	sayvbgyouprp	statevbgyouprp	tellingnnofinyouprp	recountingnnofinyouprp	edward_tellernnofinyouprp	tellernnofinyouprp	
+
+BE: getVBcancerNN
+EQ class: acquiringnnofincancerousjj	getvbmalignant_neoplastic_diseasenn	gettingnnofinmalignant_neoplastic_diseasenn	gettingnnofincancernn	acquiringnnofincancernn	acquirevbcancernn	gettingnnofincancerousjj	getvbcancerousjj	acquirevbcancerousjj	acquiringnnofinmalignant_neoplastic_diseasenn	acquirevbmalignant_neoplastic_diseasenn	
+
+BE: thinkVBitPRP
+EQ class: believevbitprp	considervbitprp	thoughtnnofinitprp	conceivevbitprp	ideannofinitprp	
+
+BE: haveAUXcommentsNNS
+EQ class: wealthy_personnnofinremarknns	havennofintheynns	holdauxtheynns	haveauxcommentnns	have_gotauxinputnns	wealthy_personnnofintheynns	holdauxinputnns	wealthy_personnnofincommentsnns	holdauxthemnns	haveauxtheynns	have_gotauxtheynns	holdauxcommentsnns	rich_personnnofincommentsnns	havennofinremarknns	havennofininputnns	rich_personnnofininputnns	rich_personnnofinthemnns	havennofincommentsnns	have_gotauxcommentnns	holdauxcommentnns	wealthy_personnnofininputnns	haveauxinputnns	havennofincommentnns	have_gotauxremarknns	have_gotauxcommentsnns	havennofinthemnns	wealthy_personnnofinthemnns	rich_personnnofinremarknns	haveauxthemnns	holdauxremarknns	have_gotauxthemnns	rich_personnnofincommentnns	haveauxremarknns	wealthy_personnnofincommentnns	rich_personnnofintheynns	
+
+BE: areAUXilliterateJJ
+EQ class: beauxilliteratejj	
+
+BE: warningsNNSonINpacketsNNS
+EQ class: themnnsoninpacketsnns	parcelnnswarningnns	parcelnnstheynns	themnnsoninthemnns	parcelnnswarningsnns	warnvbparcelnns	warnvbpacketnns	packagennstheynns	packetsnnswarnvb	warningnnsoninpacketnns	bundlennsthemnns	packagennswarningsnns	warnvbpacketsnns	warningnnsoninbundlenns	bundlennswarningnns	packetnnswarningsnns	packagennswarnvb	warningsnnsoninthemnns	warningnnsonintheynns	theynnswarningsnns	theynnsoninpacketnns	themnnswarningsnns	themnnsoninpackagenns	theynnstheynns	themnnswarningnns	theynnswarnvb	warningsnnsoninpacketnns	bundlennswarningsnns	warningnnsoninthemnns	warnvbpackagenns	warningnnsoninpacketsnns	packagennsthemnns	theynnsoninpackagenns	parcelnnsthemnns	theynnsonintheynns	theynnsoninthemnns	themnnsoninpacketnns	themnnstheynns	themnnsthemnns	themnnsoninbundlenns	warningsnnsoninpackagenns	theynnsoninbundlenns	theynnsoninpacketsnns	packetsnnswarningnns	warnvbbundlenns	warningsnnsoninparcelnns	themnnsoninparcelnns	packetnnswarnvb	packetnnsthemnns	bundlennstheynns	themnnsonintheynns	packetnnstheynns	packetsnnsthemnns	warnvbtheynns	themnnswarnvb	warnvbthemnns	theynnsthemnns	packagennswarningnns	theynnswarningnns	warningsnnsoninbundlenns	packetsnnstheynns	bundlennswarnvb	warningsnnsonintheynns	warningnnsoninparcelnns	warningnnsoninpackagenns	theynnsoninparcelnns	packetsnnswarningsnns	parcelnnswarnvb	packetnnswarningnns	
+
+BE: commentsNNSfromINsmokersNNS
+EQ class: themnnsnoticevb	tobacco_usernnscommentnns	smokernnscommentsnns	theynnsfromintheynns	commentvbtobacco_usernns	themnnsremarkvb	smokersnnsnoticevb	smokernnspoint_outvb	theynnspoint_outvb	commentvbtheynns	tobacco_usernnsinputnns	smokernnscommentnns	smokersnnsthemnns	smokernnstheynns	themnnsremarknns	commentvbsmokersnns	tobacco_usernnsnoticevb	themnnsinputnns	remarkvbthemnns	smokernnscommentvb	tobacco_usernnsthemnns	theynnstheynns	commentsnnsfromintobacco_usernns	tobacco_usernnsremarkvb	theynnsfrominsmokernns	tobacco_usernnsremarknns	remarknnsfromintobacco_usernns	themnnscommentvb	smokernnsnoticevb	commentnnsfrominsmokernns	commentnnsfromintheynns	smokersnnsremarknns	themnnstheynns	tobacco_usernnspoint_outvb	commentatevbtheynns	themnnscommentsnns	smokersnnscommentnns	point_outvbtobacco_usernns	smokernnsinputnns	commentatevbsmokersnns	tobacco_usernnscommentsnns	point_outvbsmokersnns	commentnnsfrominthemnns	commentatevbsmokernns	themnnscommentnns	theynnsthemnns	remarkvbsmokernns	smokersnnstheynns	tobacco_usernnscommentvb	point_outvbtheynns	noticevbthemnns	commentvbsmokernns	theynnscommentatevb	remarknnsfrominsmokersnns	remarkvbtobacco_usernns	commentnnsfrominsmokersnns	smokersnnscommentatevb	theynnscommentnns	theynnsremarkvb	point_outvbthemnns	commentnnsfromintobacco_usernns	smokersnnsinputnns	remarkvbtheynns	smokersnnspoint_outvb	theynnsfrominsmokersnns	remarkvbsmokersnns	remarknnsfrominsmokernns	inputnnsfromintheynns	remarknnsfromintheynns	smokersnnscommentsnns	theynnsremarknns	theynnsfromintobacco_usernns	themnnsfrominsmokersnns	commentsnnsfrominsmokernns	theynnscommentsnns	smokersnnsremarkvb	inputnnsfrominsmokernns	smokernnscommentatevb	theynnsnoticevb	themnnsfrominthemnns	theynnsfrominthemnns	noticevbtobacco_usernns	inputnnsfrominthemnns	commentsnnsfromintheynns	tobacco_usernnstheynns	commentsnnsfrominthemnns	themnnsthemnns	smokernnsremarknns	theynnscommentvb	themnnsfromintheynns	point_outvbsmokernns	inputnnsfromintobacco_usernns	smokersnnscommentvb	inputnnsfrominsmokersnns	smokernnsthemnns	smokernnsremarkvb	themnnspoint_outvb	commentatevbthemnns	tobacco_usernnscommentatevb	noticevbtheynns	themnnsfrominsmokernns	themnnsfromintobacco_usernns	commentatevbtobacco_usernns	commentvbthemnns	remarknnsfrominthemnns	themnnscommentatevb	noticevbsmokersnns	theynnsinputnns	noticevbsmokernns	
+
+BE: wouldMDwithINwarningsNNS
+EQ class: wouldmdwithintheynns	wouldmdwithinthemnns	wouldmdwithinwarningnns	
+
+BE: causeVBunlessINareAUX
+EQ class: makevbunlessinareaux	dovbunlessinareaux	dovbunlessinbeaux	causevbunlessinbeaux	makevbunlessinbeaux	
+
+BE: tellingVBGthatINgetVB
+EQ class: sayvbgthatingetvb	statevbgthatinacquirevb	sayvbgthatinacquirevb	tellvbgthatingetvb	tellingvbgthatinacquirevb	tellvbgthatinacquirevb	statevbgthatingetvb	
+

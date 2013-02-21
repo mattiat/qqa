@@ -1,0 +1,408 @@
+BE: smokingNN
+EQ class: smokenn	
+
+BE: quitVB
+EQ class: give_upvb	stopvb	ceasevb	discontinuevb	lay_offvb	
+
+BE: quitVBsmokingNN
+EQ class: discontinuevbsmokingnn	lay_offvbsmokenn	stopvbsmokingnn	lay_offvbsmokingnn	ceasevbsmokenn	discontinuevbsmokenn	give_upvbsmokingnn	ceasevbsmokingnn	quitvbsmokenn	give_upvbsmokenn	stopvbsmokenn	
+
+BE: desireNN
+EQ class: 
+
+BE: quitVB
+EQ class: give_upvb	stopvb	ceasevb	discontinuevb	lay_offvb	
+
+BE: desireNNquitVB
+EQ class: desirennstopvb	desirenndiscontinuevb	desirenngive_upvb	desirennceasevb	desirennlay_offvb	
+
+BE: determinationNN
+EQ class: findingnn	
+
+BE: neededVBD
+EQ class: postulatevbd	involvevbd	takevbd	call_forvbd	askvbd	demandvbd	necessitatevbd	requirevbd	needvbd	
+
+BE: quitVB
+EQ class: give_upvb	stopvb	ceasevb	discontinuevb	lay_offvb	
+
+BE: determinationNNneededVBD
+EQ class: determinationnncall_forvbd	determinationnndemandvbd	demandnnofindeterminationnn	determinationnnrequirevbd	findingnncall_forvbd	findingnnpostulatevbd	neednnofindeterminationnn	findingnnnecessitatevbd	determinationnnneedvbd	findingnndemandvbd	findingnnneedvbd	determinationnninvolvevbd	findingnntakevbd	determinationnnaskvbd	findingnnaskvbd	findingnnneededvbd	findingnninvolvevbd	determinationnnnecessitatevbd	demandnnofinfindingnn	neednnofinfindingnn	determinationnnpostulatevbd	determinationnntakevbd	findingnnrequirevbd	
+
+BE: neededVBDquitVB
+EQ class: demandvbdlay_offvb	requirevbdquitvb	postulatevbdstopvb	askvbdceasevb	demandnnofinquitvb	demandnnofinstopvb	demandnnofinceasevb	demandnnofingive_upvb	call_forvbdlay_offvb	neednnofinlay_offvb	necessitatevbdceasevb	postulatevbddiscontinuevb	necessitatevbdquitvb	demandnnofindiscontinuevb	neednnofinstopvb	call_forvbdquitvb	needvbdlay_offvb	necessitatevbdgive_upvb	askvbdquitvb	demandvbdceasevb	demandvbdgive_upvb	call_forvbddiscontinuevb	necessitatevbddiscontinuevb	needvbdgive_upvb	involvevbdquitvb	takevbdgive_upvb	neednnofinquitvb	demandvbdstopvb	neednnofinceasevb	takevbdlay_offvb	demandnnofinlay_offvb	involvevbdceasevb	necessitatevbdlay_offvb	needvbdstopvb	takevbddiscontinuevb	askvbdlay_offvb	neednnofindiscontinuevb	neededvbdstopvb	involvevbdlay_offvb	requirevbdgive_upvb	involvevbdstopvb	takevbdquitvb	necessitatevbdstopvb	requirevbdceasevb	askvbdstopvb	demandvbddiscontinuevb	postulatevbdgive_upvb	requirevbdlay_offvb	postulatevbdquitvb	postulatevbdceasevb	neededvbdceasevb	neededvbdgive_upvb	call_forvbdceasevb	askvbddiscontinuevb	needvbdquitvb	involvevbddiscontinuevb	call_forvbdgive_upvb	postulatevbdlay_offvb	takevbdceasevb	requirevbddiscontinuevb	requirevbdstopvb	needvbddiscontinuevb	involvevbdgive_upvb	demandvbdquitvb	takevbdstopvb	neededvbdlay_offvb	askvbdgive_upvb	call_forvbdstopvb	needvbdceasevb	neededvbddiscontinuevb	neednnofingive_upvb	
+
+BE: neededVBDSecondlyRB
+EQ class: demandnnofinsecondlyrb	call_forvbdsecondlyrb	postulatevbdsecondlyrb	takevbdsecondlyrb	neednnofinsecondlyrb	requirevbdsecondlyrb	needvbdsecondlyrb	involvevbdsecondlyrb	necessitatevbdsecondlyrb	demandvbdsecondlyrb	askvbdsecondlyrb	
+
+BE: someoneNN
+EQ class: personnn	soulnn	individualnn	somebodynn	mortalnn	
+
+BE: supportNN
+EQ class: 
+
+BE: sVBZ
+EQ class: 
+
+BE: someoneNNsVBZ
+EQ class: soulnnsvbz	somebodynnsvbz	mortalnnsvbz	personnnsvbz	individualnnsvbz	
+
+BE: sVBZsupportNN
+EQ class: 
+
+BE: sVBZThirdlyRB
+EQ class: 
+
+BE: smokelessNN
+EQ class: 
+
+BE: dayNN
+EQ class: dailyjj	24-hour_intervalnn	twenty-four_hoursnn	twenty-four_hour_periodnn	mean_solar_daynn	solar_daynn	
+
+BE: nightsNNS
+EQ class: nightlyjj	darknns	nightnns	theynns	nighttimenns	themnns	
+
+BE: sleepNN
+EQ class: sleepyjj	slumbernn	
+
+BE: turkeyNN
+EQ class: genus_meleagrisnn	meleagris_gallopavonn	meleagrisnn	
+
+BE: wakeVBP
+EQ class: 
+
+BE: decidedVBD
+EQ class: decidevbd	determinevbd	make_up_one's_mindvbd	
+
+BE: quitVB
+EQ class: give_upvb	stopvb	ceasevb	discontinuevb	lay_offvb	
+
+BE: firstJJ
+EQ class: 
+
+BE: fullJJ
+EQ class: fullnessnn	
+
+BE: coldJJ
+EQ class: coldnn	coldnessnn	
+
+BE: firstJJdayNN
+EQ class: firstjjdailyjj	firstjjmean_solar_daynn	firstjjtwenty-four_hour_periodnn	dailyvbfirstlyrb	firstjjtwenty-four_hoursnn	firstjj24-hour_intervalnn	firstjjsolar_daynn	
+
+BE: fullJJsleepNN
+EQ class: fulljjslumbernn	sleepvbfullyrb	fulljjsleepyjj	slumbervbfullyrb	kipvbfullyrb	catch_some_z'svbfullyrb	sleepyvbfullyrb	log_z'svbfullyrb	fullnessnnsleepyjj	fullnessnnslumbernn	fullnessnnsleepnn	
+
+BE: coldJJturkeyNN
+EQ class: coldnessnngenus_meleagrisnn	coldnnmeleagrisnn	coldjjmeleagris_gallopavonn	coldjjmeleagrisnn	coldnngenus_meleagrisnn	coldnnmeleagris_gallopavonn	coldjjgenus_meleagrisnn	coldnessnnmeleagrisnn	coldnessnnmeleagris_gallopavonn	coldnessnnturkeynn	coldnnturkeynn	
+
+BE: yourPRP$dayNN
+EQ class: 24-hour_intervalnnofinyourprp$	yourprp$twenty-four_hour_periodnn	yourprp$mean_solar_daynn	daynnofinyourprp$	yourprp$dailyvb	twenty-four_hour_periodnnofinyourprp$	yourprp$solar_daynn	yourprp$twenty-four_hoursnn	mean_solar_daynnofinyourprp$	dailyjjofinyourprp$	yourprp$24-hour_intervalnn	twenty-four_hoursnnofinyourprp$	yourprp$dailyjj	solar_daynnofinyourprp$	dailyvbyourprp$	
+
+BE: smokelessNNdayNN
+EQ class: smokelessnn24-hour_intervalnn	twenty-four_hoursnnofinsmokelessnn	smokelessnnsolar_daynn	solar_daynnofinsmokelessnn	smokelessnnmean_solar_daynn	twenty-four_hour_periodnnofinsmokelessnn	dailyjjofinsmokelessnn	smokelessnntwenty-four_hour_periodnn	smokelessnndailyvb	24-hour_intervalnnofinsmokelessnn	smokelessnntwenty-four_hoursnn	daynnofinsmokelessnn	smokelessnndailyjj	mean_solar_daynnofinsmokelessnn	dailyvbsmokelessnn	
+
+BE: nightsNNSsleepNN
+EQ class: nightnnscatch_some_z'svb	darknnsslumbernn	kipvbnighttimenns	darknnsslumbervb	darknnssleepyjj	darknnssleepvb	darknnssleepnn	theynnssleepnn	themnnsslumbervb	sleepvbthemnns	nightnnssleepvb	sleepyjjofinnightsnns	themnnsslumbernn	nightnnsslumbernn	slumbernnofinnighttimenns	themnnssleepnn	theynnssleepyvb	nightlyjjslumbernn	darknnslog_z'svb	sleepnnofinnightlyjj	themnnslog_z'svb	darknnssleepyvb	slumbervbdarknns	sleepvbnightlyjj	kipvbdarknns	sleepnnofintheynns	sleepyjjofinthemnns	sleepyjjofinnightlyjj	nightlyjjslumbervb	nightlyjjsleepnn	nightsnnscatch_some_z'svb	catch_some_z'svbtheynns	sleepvbtheynns	sleepyvbnighttimenns	themnnssleepvb	nightsnnsslumbernn	nightnnssleepyjj	kipvbnightsnns	slumbernnofinnightsnns	slumbernnofinnightlyjj	sleepyvbnightlyjj	slumbernnofindarknns	theynnsslumbernn	nightsnnsslumbervb	sleepyjjofintheynns	nighttimennssleepyjj	theynnslog_z'svb	sleepvbnightnns	theynnssleepyjj	sleepnnofinthemnns	nightsnnssleepyjj	theynnskipvb	nightsnnskipvb	nightlyjjkipvb	sleepyvbdarknns	sleepyjjofinnighttimenns	sleepyvbtheynns	sleepyvbnightsnns	slumbervbthemnns	slumbernnofinthemnns	darknnskipvb	themnnskipvb	kipvbnightlyjj	slumbervbnightsnns	nighttimennsslumbernn	log_z'svbthemnns	catch_some_z'svbnighttimenns	catch_some_z'svbnightnns	nightnnsslumbervb	nightsnnslog_z'svb	themnnscatch_some_z'svb	sleepvbnighttimenns	catch_some_z'svbthemnns	nightnnssleepnn	log_z'svbnighttimenns	log_z'svbnightlyjj	nighttimennssleepnn	nighttimennssleepyvb	sleepyvbthemnns	catch_some_z'svbnightsnns	sleepyjjofinnightnns	nighttimennsslumbervb	nightlyjjsleepyvb	nightnnssleepyvb	log_z'svbtheynns	nighttimennslog_z'svb	nighttimennscatch_some_z'svb	nightlyjjcatch_some_z'svb	sleepyjjofindarknns	slumbernnofintheynns	sleepyvbnightnns	kipvbthemnns	sleepvbnightsnns	slumbervbtheynns	nightlyjjsleepyjj	slumbervbnightlyjj	nightsnnssleepyvb	theynnsslumbervb	themnnssleepyvb	nightnnslog_z'svb	nightlyjjlog_z'svb	log_z'svbdarknns	sleepnnofindarknns	themnnssleepyjj	nightsnnssleepvb	sleepnnofinnighttimenns	kipvbtheynns	log_z'svbnightsnns	catch_some_z'svbdarknns	nightlyjjsleepvb	darknnscatch_some_z'svb	nighttimennskipvb	slumbernnofinnightnns	sleepnnofinnightnns	slumbervbnightnns	nighttimennssleepvb	nightnnskipvb	slumbervbnighttimenns	sleepnnofinnightsnns	kipvbnightnns	theynnscatch_some_z'svb	catch_some_z'svbnightlyjj	sleepvbdarknns	theynnssleepvb	log_z'svbnightnns	
+
+BE: dayNNbeAUX
+EQ class: twenty-four_hoursnnbeaux	24-hour_intervalnnbeaux	twenty-four_hour_periodnnbeaux	solar_daynnbeaux	mean_solar_daynnbeaux	dailyjjbeaux	
+
+BE: beAUXturkeyNN
+EQ class: beauxgenus_meleagrisnn	beauxmeleagris_gallopavonn	beauxmeleagrisnn	
+
+BE: beAUXafterINsleepNN
+EQ class: beauxafterinslumbernn	beauxafterinsleepyjj	
+
+BE: decidedVBDquitVB
+EQ class: conclusionnnofinlay_offvb	decisionnnofinlay_offvb	make_up_one's_mindvbddiscontinuevb	determinevbdceasevb	make_up_one's_mindvbdquitvb	determinationnnofindiscontinuevb	decidingnnofindiscontinuevb	decisivennofinquitvb	decidingjjofinquitvb	conclusionnnofinceasevb	decision_makingnnofinstopvb	decidingjjofinceasevb	decidingnnofingive_upvb	decidevbdgive_upvb	conclusionnnofinstopvb	determinevbdgive_upvb	determinationnnofinceasevb	decidingjjofinlay_offvb	determinationnnofinquitvb	determinationnnofinlay_offvb	decidevbdstopvb	decisionnnofindiscontinuevb	decisivennofindiscontinuevb	decision_makingnnofingive_upvb	decidingnnofinstopvb	decidingnnofinceasevb	decidedvbddiscontinuevb	conclusionnnofindiscontinuevb	conclusionnnofingive_upvb	make_up_one's_mindvbdlay_offvb	decisivennofinlay_offvb	decidingjjofingive_upvb	decisionnnofinstopvb	decision_makingnnofinquitvb	determinationnnofingive_upvb	decidedvbdgive_upvb	determinevbdlay_offvb	decidevbdceasevb	decidedvbdlay_offvb	make_up_one's_mindvbdgive_upvb	determinevbddiscontinuevb	determinevbdquitvb	determinationnnofinstopvb	decidedvbdstopvb	decisionnnofinquitvb	decidingjjofinstopvb	decisivennofinceasevb	make_up_one's_mindvbdstopvb	decision_makingnnofindiscontinuevb	decidevbdquitvb	decidingjjofindiscontinuevb	determinevbdstopvb	decisionnnofingive_upvb	decidevbdlay_offvb	decisivennofinstopvb	decidingnnofinquitvb	decisivennofingive_upvb	decidingnnofinlay_offvb	decision_makingnnofinlay_offvb	decidevbddiscontinuevb	decidedvbdceasevb	decision_makingnnofinceasevb	make_up_one's_mindvbdceasevb	decisionnnofinceasevb	conclusionnnofinquitvb	
+
+BE: wakeVBPupRB
+EQ class: wakingnnofinuprb	
+
+BE: turkeyNNdayNN
+EQ class: genus_meleagrisnn24-hour_intervalnn	24-hour_intervalnnmeleagris_gallopavonn	solar_daynnturkeynn	solar_daynnmeleagris_gallopavonn	meleagris_gallopavonntwenty-four_hour_periodnn	meleagris_gallopavonn24-hour_intervalnn	twenty-four_hoursnngenus_meleagrisnn	mean_solar_daynnmeleagris_gallopavonn	dailyjjgenus_meleagrisnn	daynnturkeynn	twenty-four_hour_periodnnmeleagrisnn	turkeynndailyjj	mean_solar_daynnturkeynn	turkeynn24-hour_intervalnn	genus_meleagrisnndailyjj	genus_meleagrisnndaynn	meleagrisnnsolar_daynn	daynnmeleagrisnn	meleagris_gallopavonndailyjj	twenty-four_hour_periodnngenus_meleagrisnn	genus_meleagrisnntwenty-four_hoursnn	meleagris_gallopavonndaynn	twenty-four_hoursnnmeleagris_gallopavonn	solar_daynngenus_meleagrisnn	meleagrisnn24-hour_intervalnn	meleagris_gallopavonntwenty-four_hoursnn	mean_solar_daynnmeleagrisnn	dailyjjturkeynn	twenty-four_hour_periodnnturkeynn	genus_meleagrisnntwenty-four_hour_periodnn	genus_meleagrisnnsolar_daynn	mean_solar_daynngenus_meleagrisnn	genus_meleagrisnnmean_solar_daynn	twenty-four_hour_periodnnmeleagris_gallopavonn	twenty-four_hoursnnmeleagrisnn	meleagris_gallopavonnsolar_daynn	meleagrisnntwenty-four_hour_periodnn	24-hour_intervalnngenus_meleagrisnn	24-hour_intervalnnmeleagrisnn	daynnmeleagris_gallopavonn	solar_daynnmeleagrisnn	daynngenus_meleagrisnn	turkeynntwenty-four_hoursnn	meleagrisnntwenty-four_hoursnn	dailyjjmeleagris_gallopavonn	turkeynnsolar_daynn	turkeynnmean_solar_daynn	twenty-four_hoursnnturkeynn	meleagrisnndaynn	turkeynntwenty-four_hour_periodnn	24-hour_intervalnnturkeynn	meleagris_gallopavonnmean_solar_daynn	dailyjjmeleagrisnn	meleagrisnnmean_solar_daynn	meleagrisnndailyjj	
+
+BE: sleepNNwakeVBP
+EQ class: slumbernnwakevbp	wakingnnofinsleepnn	wakingnnsleepyjj	sleepyjjwakevbp	wakingnnofinsleepyjj	wakingnnofinslumbernn	wakingnnsleepnn	wakingnnslumbernn	
+
+BE: sleepNNdecidedVBD
+EQ class: determinationnnsleepnn	decisionnnofinsleepyjj	sleepnndecidevbd	decision_makingnnofinsleepyjj	decisionnnsleepnn	determinationnnofinslumbernn	decision_makingnnslumbernn	conclusionnnofinsleepyjj	decidingnnofinsleepyjj	sleepyjjmake_up_one's_mindvbd	sleepyjjdeterminevbd	decision_makingnnsleepyjj	decidingjjslumbernn	conclusionnnofinslumbernn	decidingnnofinslumbernn	decision_makingnnofinslumbernn	decisionnnsleepyjj	decision_makingnnofinsleepnn	determinationnnslumbernn	decisivennofinslumbernn	sleepnnmake_up_one's_mindvbd	decidingnnsleepnn	decidingnnsleepyjj	conclusionnnofinsleepnn	decidingnnofinsleepnn	slumbernndeterminevbd	decisionnnslumbernn	decisionnnofinsleepnn	sleepyjjdecidevbd	conclusionnnsleepnn	decidingnnslumbernn	decidingjjofinslumbernn	conclusionnnsleepyjj	decidingjjsleepnn	decisivennofinsleepnn	slumbernndecidevbd	decisivennofinsleepyjj	decisionnnofinslumbernn	conclusionnnslumbernn	determinationnnofinsleepyjj	sleepyjjdecidedvbd	decidingjjofinsleepyjj	decidingjjsleepyjj	slumbernnmake_up_one's_mindvbd	determinationnnsleepyjj	determinationnnofinsleepnn	decidingjjofinsleepnn	decision_makingnnsleepnn	slumbernndecidedvbd	sleepnndeterminevbd	
+
+BE: proofNN
+EQ class: cogent_evidencenn	
+
+BE: livingVBG
+EQ class: inhabitvbg	livevbg	dwellvbg	populatevbg	
+
+BE: possibleJJ
+EQ class: possiblenessnn	possibilitynn	
+
+BE: livingVBGproofNN
+EQ class: inhabitvbgproofnn	liveablennofincogent_evidencenn	dwellvbgcogent_evidencenn	livernnofincogent_evidencenn	populatevbgcogent_evidencenn	dwellvbgproofnn	livernnofinproofnn	populatevbgproofnn	livablennofincogent_evidencenn	inhabitvbgcogent_evidencenn	liveablennofinproofnn	livingvbgcogent_evidencenn	liveryjjofinproofnn	livevbgcogent_evidencenn	livablennofinproofnn	liveryjjofincogent_evidencenn	livevbgproofnn	
+
+BE: itPRPisAUX
+EQ class: itprpbeaux	
+
+BE: iPRPamAUX
+EQ class: iprpbeaux	
+
+BE: amAUXproofNN
+EQ class: beauxproofnn	beauxcogent_evidencenn	amauxcogent_evidencenn	
+
+BE: isAUXpossibleJJ
+EQ class: beauxpossibilitynn	beauxpossiblenessnn	beauxpossiblejj	isauxpossiblenessnn	isauxpossibilitynn	
+
+BE: isAUXasINamAUX
+EQ class: beauxasinamaux	isauxasinbeaux	beauxasinbeaux	
+
+BE: coupleNN
+EQ class: twosomenn	duetnn	duonn	
+
+BE: weeksNNS
+EQ class: theynns	hebdomadnns	weeknns	themnns	weeklyjj	
+
+BE: timesNNS
+EQ class: theynns	themnns	
+
+BE: smokingNN
+EQ class: smokenn	
+
+BE: activityNN
+EQ class: activejj	
+
+BE: somethingNN
+EQ class: 
+
+BE: activityNN
+EQ class: activejj	
+
+BE: seeVBP
+EQ class: 
+
+BE: replaceVB
+EQ class: 
+
+BE: firstJJ
+EQ class: 
+
+BE: difficultJJ
+EQ class: hardjj	difficultnessnn	
+
+BE: firstJJweeksNNS
+EQ class: firstjjtheynns	firstjjthemnns	firstjjhebdomadnns	firstjjweeklyjj	weeklyvbfirstlyrb	firstjjweeknns	
+
+BE: difficultJJtimesNNS
+EQ class: hardjjtheynns	hardjjtimesnns	difficultjjthemnns	hardjjthemnns	difficultjjtheynns	difficultnessnntimesnns	difficultnessnnthemnns	difficultnessnntheynns	
+
+BE: coupleNNweeksNNS
+EQ class: duetnnweeklyvb	weeknnsofincouplenn	duetnnofinweeknns	weeksnnsofintwosomenn	weeksnnscouplevb	hebdomadnnsofintwosomenn	weeknnstwinvb	couplennweeklyjj	couplingnnofinweeklyjj	duetnnofinhebdomadnns	duonnhebdomadnns	hebdomadnnscouplevb	duetnnofinthemnns	weeklyjjofintwosomenn	couplennofinweeklyjj	weeknnsofinduetnn	twosomennofinweeklyjj	weeknnspairvb	duonnofinthemnns	theynnspairvb	duetnnofinweeksnns	hebdomadnnsmatchvb	weeklyvbduetnn	couplingnnofinthemnns	hebdomadnnspairvb	themnnsofincouplenn	weeksnnsmatevb	themnnsmatchvb	yokennofinhebdomadnns	weeknnsmatchvb	hebdomadnnsofincouplenn	yokennofinweeksnns	weeknnsofintwosomenn	weeklyjjofinduonn	weeknnsmatevb	couplingnnofintheynns	yokennofintheynns	weeklyjjcouplevb	couplennweeknns	twosomennofinweeknns	themnnsofinduetnn	duonnofinweeknns	duetnnthemnns	twosomennofinweeksnns	theynnsofincouplenn	weeklyjjmatchvb	weeksnnsofincouplenn	couplennofinweeknns	weeklyvbduonn	duonnofinhebdomadnns	hebdomadnnsmatevb	weeklyjjtwinvb	twosomenntheynns	twosomennweeknns	duetnnweeknns	duonntheynns	duetnnweeklyjj	themnnscouplevb	duetnnweeksnns	duonnofinweeklyjj	couplennofintheynns	duonnofinweeksnns	theynnsmatchvb	themnnstwinvb	weeksnnsofinduetnn	theynnsofinduetnn	hebdomadnnstwinvb	duonnweeknns	duonnofintheynns	duonnweeklyjj	couplingnnofinweeknns	couplennthemnns	duonnweeksnns	themnnsmatevb	weeksnnsmatchvb	couplennofinweeksnns	weeksnnspairvb	couplennofinhebdomadnns	twosomennofintheynns	theynnsofinduonn	theynnsofintwosomenn	twosomennweeklyjj	weeklyjjofincouplenn	weeklyvbtwosomenn	hebdomadnnsofinduetnn	theynnscouplevb	weeksnnsofinduonn	twosomennofinhebdomadnns	twosomennofinthemnns	couplennweeklyvb	duetnnofinweeklyjj	weeklyjjmatevb	twosomennweeklyvb	themnnsofinduonn	yokennofinweeklyjj	yokennofinthemnns	couplennofinthemnns	yokennofinweeknns	weeklyjjofinduetnn	couplennhebdomadnns	duetnnofintheynns	duonnthemnns	weeklyjjpairvb	couplenntheynns	couplingnnofinweeksnns	twosomennweeksnns	twosomennhebdomadnns	theynnsmatevb	weeklyvbcouplenn	duetnntheynns	hebdomadnnsofinduonn	weeksnnstwinvb	weeknnsofinduonn	duetnnhebdomadnns	duonnweeklyvb	themnnsofintwosomenn	theynnstwinvb	couplingnnofinhebdomadnns	themnnspairvb	twosomennthemnns	weeknnscouplevb	
+
+BE: weeksNNSareAUX
+EQ class: weeklyjjareaux	hebdomadnnsbeaux	themnnsbeaux	weeklyjjbeaux	theynnsareaux	hebdomadnnsareaux	themnnsareaux	weeknnsbeaux	theynnsbeaux	weeksnnsbeaux	weeknnsareaux	
+
+BE: youPRPseeVBP
+EQ class: illusionistnnofinyouprp	beholdingnnyouprp	seeingnnyouprp	visionarynnyouprp	seernnofinyouprp	visionarynnofinyouprp	seernnyouprp	beholdingnnofinyouprp	visual_perceptionnnofinyouprp	seeingnnofinyouprp	illusionistnnyouprp	visual_perceptionnnyouprp	
+
+BE: smokingNNwasAUX
+EQ class: smokennwasaux	smokingnnbeaux	smokennbeaux	
+
+BE: youPRPdidAUX
+EQ class: youprpdoaux	youprpmakeaux	
+
+BE: youPRPneedAUX
+EQ class: youprpaskaux	youprppostulateaux	youprprequireaux	youprptakeaux	youprpnecessitateaux	demandnnofinyouprp	neednnofinyouprp	youprpdemandaux	youprpcall_foraux	youprpinvolveaux	
+
+BE: areAUXtimesNNS
+EQ class: beauxtimesnns	beauxthemnns	areauxthemnns	beauxtheynns	areauxtheynns	
+
+BE: wasAUXactivityNN
+EQ class: beauxactivejj	wasauxactivejj	beauxactivitynn	
+
+BE: needAUXsomethingNN
+EQ class: requireauxsomethingnn	takeauxsomethingnn	necessitateauxsomethingnn	call_forauxsomethingnn	involveauxsomethingnn	askauxsomethingnn	demandauxsomethingnn	postulateauxsomethingnn	demandnnofinsomethingnn	neednnofinsomethingnn	
+
+BE: replaceVBactivityNN
+EQ class: replacingnnofinactivitynn	replacingnnofinactivejj	replacementnnofinactivitynn	replacevbactivejj	replacementnnofinactivejj	
+
+BE: didAUXregularlyRB
+EQ class: regularjjinindoaux	regularitynninindoaux	regularjjinindidaux	regularitynninindidaux	makeauxregularlyrb	doauxregularlyrb	regularjjininmakeaux	regularitynnininmakeaux	
+
+BE: needAUXnowRB
+EQ class: askauxnowrb	call_forauxnowrb	involveauxnowrb	demandnnofinnowrb	necessitateauxnowrb	postulateauxnowrb	requireauxnowrb	neednnofinnowrb	demandauxnowrb	takeauxnowrb	
+
+BE: timesNNSweeksNNS
+EQ class: weeknnstheynns	weeksnnstheynns	hebdomadnnstimesnns	themnnstheynns	theynnsweeksnns	themnnsthemnns	themnnsweeknns	theynnsweeknns	theynnsweeklyjj	themnnstimesnns	weeknnstimesnns	weeklyjjthemnns	weeknnsthemnns	weeklyjjtheynns	timesnnsweeknns	hebdomadnnsthemnns	timesnnshebdomadnns	weeksnnstimesnns	weeklyjjtimesnns	timesnnsthemnns	timesnnstheynns	theynnsthemnns	weeksnnsthemnns	hebdomadnnstheynns	theynnstheynns	themnnshebdomadnns	themnnsweeklyjj	themnnsweeksnns	theynnstimesnns	theynnshebdomadnns	timesnnsweeklyjj	
+
+BE: activityNNsmokingNN
+EQ class: smokennofinactivejj	activejjsmokevb	smokyjjofinactivejj	activejjsmokingnn	smokingnnofinactivitynn	smokingnnactivejj	activitynnsmokevb	smokernnofinactivejj	tobacco_usernnofinactivitynn	tobacco_usernnofinactivejj	smokernnofinactivitynn	smokennactivejj	smokennactivitynn	smokyjjofinactivitynn	fumennofinactivejj	activejjsmokenn	smokingnnactivitynn	smokingnnofinactivejj	fumennofinactivitynn	activitynnsmokenn	smokennofinactivitynn	
+
+BE: trickNN
+EQ class: trickyjj	tricksyjj	fast_onenn	
+
+BE: activitiesNNS
+EQ class: activitynns	activejj	theynns	themnns	
+
+BE: rewardsNNS
+EQ class: payoffnns	wagesnns	rewardnns	theynns	themnns	
+
+BE: stayVB
+EQ class: restvb	remainvb	
+
+BE: likeVBP
+EQ class: wishvbp	carevbp	
+
+BE: missVB
+EQ class: losevb	
+
+BE: seeVB
+EQ class: 
+
+BE: busyJJ
+EQ class: busynessnn	
+
+BE: otherJJ
+EQ class: 
+
+BE: financialJJ
+EQ class: fiscaljj	financenn	
+
+BE: otherJJactivitiesNNS
+EQ class: otherjjtheynns	otherjjactivitynns	otherjjactivejj	otherjjthemnns	
+
+BE: financialJJrewardsNNS
+EQ class: financialjjpayoffnns	financialjjtheynns	fiscaljjthemnns	fiscaljjtheynns	financennwagesnns	honourvbfinanciallyrb	financialjjthemnns	financialjjwagesnns	honorvbfinanciallyrb	financennrewardnns	financennrewardsnns	fiscaljjwagesnns	financenntheynns	financennthemnns	rewardvbfinanciallyrb	fiscaljjrewardsnns	financialjjrewardnns	financennpayoffnns	fiscaljjpayoffnns	fiscaljjrewardnns	
+
+BE: trickNNisAUX
+EQ class: tricknnbeaux	tricksyjjisaux	trickyjjisaux	fast_onennbeaux	fast_onennisaux	tricksyjjbeaux	trickyjjbeaux	
+
+BE: youPRPlikeVBP
+EQ class: youprpwishvbp	youprpcarevbp	
+
+BE: youPRPmissVB
+EQ class: youprplosevb	
+
+BE: youPRPseeVB
+EQ class: illusionistnnofinyouprp	beholdingnnyouprp	seeingnnyouprp	visionarynnyouprp	seernnofinyouprp	visionarynnofinyouprp	seernnyouprp	beholdingnnofinyouprp	visual_perceptionnnofinyouprp	seeingnnofinyouprp	illusionistnnyouprp	visual_perceptionnnyouprp	
+
+BE: missVBitPRP
+EQ class: losevbitprp	
+
+BE: seeVBrewardsNNS
+EQ class: seevbrewardnns	visual_perceptionnnofinrewardnns	seeingnnofinpayoffnns	seeingnnofinwagesnns	visual_perceptionnnofinrewardsnns	illusionistnnofinrewardsnns	seevbtheynns	visionarynnofinrewardsnns	seernnofinrewardnns	visual_perceptionnnofintheynns	visionarynnofintheynns	beholdingnnofinwagesnns	beholdingnnofinthemnns	illusionistnnofintheynns	seernnofinpayoffnns	visual_perceptionnnofinpayoffnns	seevbwagesnns	seernnofinwagesnns	beholdingnnofinrewardsnns	seeingnnofinthemnns	visionarynnofinpayoffnns	seeingnnofinrewardnns	seernnofinthemnns	seeingnnofinrewardsnns	beholdingnnofinrewardnns	illusionistnnofinrewardnns	visionarynnofinrewardnns	seernnofinrewardsnns	visual_perceptionnnofinwagesnns	seevbpayoffnns	illusionistnnofinthemnns	seernnofintheynns	visionarynnofinthemnns	seeingnnofintheynns	illusionistnnofinpayoffnns	seevbthemnns	beholdingnnofintheynns	visual_perceptionnnofinthemnns	beholdingnnofinpayoffnns	visionarynnofinwagesnns	illusionistnnofinwagesnns	
+
+BE: stayVBwithINactivitiesNNS
+EQ class: restvbwithinactivitynns	restvbwithintheynns	remainvbwithintheynns	restvbwithinthemnns	remainvbwithinactivejj	remainvbwithinthemnns	remainvbwithinactivitynns	remainvbwithinactivitiesnns	stayvbwithinactivitynns	stayvbwithintheynns	stayvbwithinactivejj	restvbwithinactivejj	restvbwithinactivitiesnns	stayvbwithinthemnns	
+
+BE: likeVBPalsoRB
+EQ class: wishvbpalsorb	carevbpalsorb	
+
+BE: missVBevenRB
+EQ class: losevbevenrb	
+
+BE: seeVBasRB
+EQ class: seernnofinasrb	seeingnnofinasrb	visionarynnofinasrb	beholdingnnofinasrb	illusionistnnofinasrb	visual_perceptionnnofinasrb	
+
+BE: seeVBwellRB
+EQ class: illusionistnnofinwellrb	beholdingnnofinwellrb	visionarynnofinwellrb	seernnofinwellrb	seeingnnofinwellrb	visual_perceptionnnofinwellrb	
+
+BE: teethNNS
+EQ class: theynns	dentitionnns	themnns	
+
+BE: toothNN
+EQ class: toothyjj	
+
+BE: brushNN
+EQ class: brushyjj	brushwoodnn	coppicenn	thicketnn	copsenn	
+
+BE: roofNN
+EQ class: 
+
+BE: mouthNN
+EQ class: oral_cavitynn	oral_fissurenn	rima_orisnn	
+
+BE: tongueNN
+EQ class: glossann	clappernn	linguann	
+
+BE: lotsNNS
+EQ class: dozensnns	loadsnns	heapsnns	scoresnns	gobsnns	lashingsnns	slewsnns	stacksnns	pilesnns	tonsnns	oodlesnns	theynns	wadsnns	scadsnns	raftsnns	themnns	
+
+BE: waterNN
+EQ class: wateryjj	h2onn	
+
+BE: brushingVBG
+EQ class: brushvbg	
+
+BE: helpsVBZ
+EQ class: helpvbz	aidvbz	assistvbz	
+
+BE: drinkingVBG
+EQ class: imbibevbg	drinkvbg	
+
+BE: softJJ
+EQ class: softnessnn	
+
+BE: softJJbrushNN
+EQ class: softjjcopsenn	softjjbrushyjj	softjjbrushwoodnn	softnessnnbrushyjj	brushyvbsoftlyrb	softnessnncoppicenn	softnessnnbrushwoodnn	softnessnnthicketnn	softnessnncopsenn	softjjcoppicenn	softnessnnbrushnn	softjjthicketnn	
+
+BE: yourPRP$teethNNS
+EQ class: yourprp$themnns	themnnsofinyourprp$	theynnsofinyourprp$	yourprp$theynns	teethnnsofinyourprp$	yourprp$dentitionnns	dentitionnnsofinyourprp$	
+
+BE: yourPRP$mouthNN
+EQ class: rima_orisnnofinyourprp$	yourprp$oral_fissurenn	yourprp$rima_orisnn	talkvbyourprp$	uttervbyourprp$	yourprp$uttervb	yourprp$talkvb	mouthvbyourprp$	yourprp$verbalisevb	oral_fissurennofinyourprp$	mouthnnofinyourprp$	yourprp$verbalizevb	yourprp$oral_cavitynn	oral_cavitynnofinyourprp$	yourprp$speakvb	verbalisevbyourprp$	verbalizevbyourprp$	yourprp$mouthvb	speakvbyourprp$	
+
+BE: yourPRP$tongueNN
+EQ class: tonguevbyourprp$	yourprp$tonguevb	yourprp$glossann	tonguennofinyourprp$	yourprp$clappernn	yourprp$linguann	linguannofinyourprp$	glossannofinyourprp$	clappernnofinyourprp$	
+
+BE: toothNNbrushNN
+EQ class: toothnnbrushwoodnn	copsennofintoothnn	brushwoodnnofintoothnn	coppicennofintoothyjj	toothnnbrushyvb	brushyvbtoothyjj	toothnncopsenn	toothyjjbrushyjj	toothyjjcopsenn	brushyvbtoothnn	brushyjjofintoothnn	brushnnofintoothyjj	toothyjjthicketnn	toothyjjbrushwoodnn	toothnncoppicenn	brushyjjofintoothyjj	toothyjjcoppicenn	toothyjjbrushyvb	brushnnofintoothnn	toothyjjbrushnn	thicketnnofintoothyjj	coppicennofintoothnn	copsennofintoothyjj	toothnnbrushyjj	brushwoodnnofintoothyjj	thicketnnofintoothnn	toothnnthicketnn	
+
+BE: brushingVBGteethNNS
+EQ class: coppicennofinthemnns	brushnnofinteethnns	copsennofinteethnns	brushingvbgthemnns	brushnnofindentitionnns	brushingvbgdentitionnns	copsennofintheynns	thicketnnofintheynns	thicketnnofinteethnns	thicketnnofindentitionnns	brushvbgtheynns	brushnnofintheynns	coppicennofinteethnns	brushvbgthemnns	brushwoodnnofindentitionnns	brushyjjofinthemnns	copsennofindentitionnns	brushwoodnnofintheynns	brushvbgdentitionnns	brushyjjofinteethnns	brushyjjofintheynns	brushyjjofindentitionnns	thicketnnofinthemnns	brushvbgteethnns	coppicennofindentitionnns	copsennofinthemnns	coppicennofintheynns	brushnnofinthemnns	brushingvbgtheynns	brushwoodnnofinthemnns	brushwoodnnofinteethnns	
+
+BE: drinkingVBGlotsNNS
+EQ class: drinkingvbgdozensnns	drinkernnofinthemnns	drinkvbglashingsnns	drinknnofinslewsnns	imbibingnnofintonsnns	drinkvbgstacksnns	drinkernnofintonsnns	imbibingnnofinpilesnns	drinkernnofintheynns	drinkvbgthemnns	imbibevbgraftsnns	drinknnofinpilesnns	drinkernnofinstacksnns	drinkingvbgloadsnns	drinkingnnofintheynns	imbibingnnofinlotsnns	drinkernnofinscoresnns	imbibevbgslewsnns	drinknnofingobsnns	drinknnofinwadsnns	imbibitionnnofinheapsnns	drinkvbgoodlesnns	drinkingnnofinscoresnns	drinkvbgraftsnns	imbibevbgtheynns	imbibingnnofinraftsnns	imbibingnnofinlashingsnns	drinkvbgscadsnns	imbibingnnofinoodlesnns	imbibingnnofinstacksnns	drinkernnofinslewsnns	drinkingnnofinraftsnns	drinkingnnofinstacksnns	drinkingnnofinscadsnns	imbibingnnofintheynns	drinkernnofinloadsnns	drinknnofinthemnns	drinkvbggobsnns	drinkernnofinlotsnns	imbibevbgheapsnns	drinknnofinraftsnns	drinkvbgpilesnns	drinkernnofingobsnns	drinkvbgtonsnns	drinkingvbgthemnns	imbibevbggobsnns	drinknnofinscadsnns	imbibevbgscoresnns	imbibitionnnofinthemnns	drinkingnnofinheapsnns	imbibingnnofindozensnns	imbibitionnnofinoodlesnns	imbibitionnnofinstacksnns	drinkingnnofinpilesnns	drinkingvbgtheynns	imbibevbgtonsnns	drinkvbglotsnns	imbibitionnnofintonsnns	drinkvbgdozensnns	drinkingvbglashingsnns	drinkingvbgraftsnns	imbibitionnnofinlashingsnns	imbibevbgscadsnns	drinknnofinoodlesnns	drinkernnofindozensnns	drinkvbgheapsnns	drinkingvbgscoresnns	drinknnofinheapsnns	drinkvbgslewsnns	drinknnofindozensnns	imbibingnnofinheapsnns	drinkingvbgwadsnns	imbibingnnofinslewsnns	drinkingvbgslewsnns	drinkvbgtheynns	drinkingnnofinoodlesnns	imbibingnnofinscadsnns	imbibingnnofinthemnns	imbibevbgthemnns	drinkingnnofintonsnns	drinkernnofinpilesnns	imbibevbgoodlesnns	drinkernnofinheapsnns	imbibevbgpilesnns	drinkvbgwadsnns	imbibitionnnofingobsnns	drinkingvbggobsnns	drinkingvbgpilesnns	drinkingnnofinslewsnns	imbibitionnnofindozensnns	drinkernnofinwadsnns	drinknnofintheynns	imbibitionnnofinslewsnns	drinkingnnofinthemnns	drinkingvbgheapsnns	imbibevbgloadsnns	drinknnofinloadsnns	drinkingnnofingobsnns	drinkingnnofinlotsnns	imbibevbgdozensnns	drinkvbgscoresnns	drinkingnnofinwadsnns	imbibitionnnofinlotsnns	imbibitionnnofinloadsnns	drinkingnnofinlashingsnns	drinkernnofinlashingsnns	imbibevbgstacksnns	imbibingnnofinloadsnns	imbibingnnofinscoresnns	drinkingvbgoodlesnns	drinkingvbgscadsnns	drinkingnnofinloadsnns	imbibevbglotsnns	drinknnofinlashingsnns	imbibevbglashingsnns	imbibitionnnofinscoresnns	drinkernnofinoodlesnns	imbibitionnnofinpilesnns	imbibitionnnofinraftsnns	imbibitionnnofinscadsnns	drinkingvbgstacksnns	imbibingnnofingobsnns	imbibingnnofinwadsnns	imbibitionnnofinwadsnns	drinkingnnofindozensnns	drinkingvbgtonsnns	drinkernnofinscadsnns	drinknnofinscoresnns	drinkvbgloadsnns	drinknnofinstacksnns	drinkernnofinraftsnns	drinknnofintonsnns	imbibitionnnofintheynns	drinknnofinlotsnns	imbibevbgwadsnns	
+
+BE: roofNNofINmouthNN
+EQ class: rima_orisnnroofnn	oral_fissurennroofnn	roofnnofinoral_fissurenn	oral_cavitynnroofnn	roofvbmouthnn	roofnnofinoral_cavitynn	roofvboral_fissurenn	roofvboral_cavitynn	mouthnnroofnn	roofvbrima_orisnn	rima_orisnnroofvb	oral_fissurennroofvb	roofnnofinrima_orisnn	mouthnnroofvb	oral_cavitynnroofvb	
+
+BE: lotsNNSofINwaterNN
+EQ class: scoresnnsofinwateryjj	dozensnnsofinwaternn	stacksnnsofinwateryjj	h2onngobsnns	wateryjjtonsnns	h2onnlashingsnns	h2onnstacksnns	h2onnthemnns	waternnthemnns	waternnstacksnns	h2onntheynns	wateryjjwadsnns	theynnsofinh2onn	waternntheynns	waternnlotsnns	wateryjjpilesnns	h2onnheapsnns	tonsnnsofinwaternn	wateryjjslewsnns	wateryjjthemnns	heapsnnsofinh2onn	oodlesnnsofinh2onn	wateryjjscadsnns	heapsnnsofinwateryjj	themnnsofinwaternn	gobsnnsofinwaternn	wadsnnsofinwaternn	wateryjjlashingsnns	slewsnnsofinwaternn	waternnlashingsnns	heapsnnsofinwaternn	raftsnnsofinh2onn	waternnscadsnns	scadsnnsofinwaternn	pilesnnsofinwaternn	h2onnscadsnns	lotsnnsofinwateryjj	h2onnlotsnns	lotsnnsofinh2onn	wadsnnsofinwateryjj	h2onnslewsnns	loadsnnsofinwaternn	h2onnscoresnns	waternnheapsnns	raftsnnsofinwaternn	oodlesnnsofinwaternn	h2onntonsnns	slewsnnsofinh2onn	waternndozensnns	wateryjjoodlesnns	waternnoodlesnns	h2onnraftsnns	tonsnnsofinwateryjj	waternnloadsnns	wateryjjgobsnns	wateryjjraftsnns	waternngobsnns	wateryjjtheynns	wadsnnsofinh2onn	gobsnnsofinwateryjj	h2onnpilesnns	waternnraftsnns	theynnsofinwaternn	gobsnnsofinh2onn	stacksnnsofinwaternn	loadsnnsofinh2onn	pilesnnsofinwateryjj	tonsnnsofinh2onn	dozensnnsofinwateryjj	lashingsnnsofinwateryjj	waternnscoresnns	waternnslewsnns	themnnsofinwateryjj	stacksnnsofinh2onn	scoresnnsofinh2onn	scoresnnsofinwaternn	waternnpilesnns	h2onndozensnns	h2onnloadsnns	raftsnnsofinwateryjj	slewsnnsofinwateryjj	theynnsofinwateryjj	wateryjjscoresnns	wateryjjstacksnns	oodlesnnsofinwateryjj	h2onnoodlesnns	scadsnnsofinwateryjj	wateryjjloadsnns	loadsnnsofinwateryjj	pilesnnsofinh2onn	h2onnwadsnns	waternntonsnns	themnnsofinh2onn	dozensnnsofinh2onn	wateryjjheapsnns	wateryjjdozensnns	lashingsnnsofinwaternn	lashingsnnsofinh2onn	wateryjjlotsnns	waternnwadsnns	scadsnnsofinh2onn	
+
+BE: brushingVBGwithINbrushNN
+EQ class: brushingvbgwithincoppicenn	brushvbgwithincopsenn	brushvbgwithinbrushyjj	brushingvbgwithincopsenn	brushvbgwithinbrushwoodnn	brushingvbgwithinthicketnn	brushingvbgwithinbrushyjj	brushvbgwithinbrushnn	brushingvbgwithinbrushwoodnn	brushvbgwithincoppicenn	brushvbgwithinthicketnn	
+
+BE: brushingVBGwithINroofNN
+EQ class: brushvbgwithinroofnn	
+
+BE: brushingVBGwithINtongueNN
+EQ class: brushingvbgwithinglossann	brushingvbgwithinlinguann	brushvbgwithintonguenn	brushvbgwithinlinguann	brushingvbgwithinclappernn	brushvbgwithinclappernn	brushvbgwithinglossann	
+
+BE: helpsVBZAdditionallyRB
+EQ class: aidnnofinadditionallyrb	helpernnofinadditionallyrb	supporternnofinadditionallyrb	assistvbzadditionallyrb	helpvbzadditionallyrb	assistantnnofinadditionallyrb	assistancennofinadditionallyrb	assistnnofinadditionallyrb	helpnnofinadditionallyrb	aidvbzadditionallyrb	
+
+BE: helpsVBZasRB
+EQ class: supporternnofinasrb	assistvbzasrb	aidvbzasrb	aidnnofinasrb	assistantnnofinasrb	assistnnofinasrb	helpernnofinasrb	helpnnofinasrb	assistancennofinasrb	helpvbzasrb	
+
+BE: helpsVBZwellRB
+EQ class: assistnnofinwellrb	supporternnofinwellrb	helpvbzwellrb	assistantnnofinwellrb	assistvbzwellrb	helpernnofinwellrb	aidnnofinwellrb	helpnnofinwellrb	aidvbzwellrb	assistancennofinwellrb	
+
+BE: luckNN
+EQ class: lotnn	fortunenn	portionnn	fatenn	destinynn	circumstancesnn	
+
+BE: stickVB
+EQ class: lodgevb	wedgevb	depositvb	
+
+BE: goodJJ
+EQ class: goodnessnn	
+
+BE: goodJJluckNN
+EQ class: goodjjfatenn	goodnessnnfatenn	goodnessnnlotnn	goodnessnnfortunenn	goodjjportionnn	goodjjcircumstancesnn	goodnessnnlucknn	goodjjdestinynn	goodjjfortunenn	goodjjlotnn	goodnessnncircumstancesnn	goodnessnndestinynn	goodnessnnportionnn	
+
+BE: doAUXitPRP
+EQ class: makeauxitprp	
+
+BE: stickVBluckNN
+EQ class: stickvbcircumstancesnn	stickvbdestinynn	wedgevblucknn	depositvbfatenn	lodgevbdestinynn	stickvbportionnn	wedgevbportionnn	wedgevbdestinynn	lodgevbfortunenn	depositvbcircumstancesnn	stickvbfatenn	depositvbfortunenn	stickvblotnn	lodgevbcircumstancesnn	lodgevbportionnn	depositvblotnn	depositvblucknn	wedgevbfortunenn	wedgevbcircumstancesnn	depositvbportionnn	depositvbdestinynn	lodgevblucknn	lodgevblotnn	stickvbfortunenn	wedgevbfatenn	lodgevbfatenn	wedgevblotnn	
+
+BE: stickVBtoTOitPRP
+EQ class: depositvbtotoitprp	wedgevbtotoitprp	lodgevbtotoitprp	
+

@@ -1,0 +1,250 @@
+#Science is advancing all the time.
+#(S1 (S (NP (NNP Science)) (VP (AUX is) (VP (VBG advancing) (NP (PDT all) (DT the) (NN time)))) (. .)))
+#Rule:Nouns
+r1ScienceNNP
+r1timeNN
+
+#Rule:Verbs
+r2advancingVBG
+
+#Rule:HeadNoun-V
+r11ScienceNNPadvancingVBG
+
+#Rule:V-HeadNoun
+r21advancingVBGtimeNN
+
+# We will know in the future things that are still enigmatic to us now.
+#(S1 (S (NP (PRP We)) (VP (MD will) (VP (VB know) (PP (IN in) (NP (NP (DT the) (JJ future) (NNS things)) (SBAR (WHNP (WDT that)) (S (VP (AUX are) (ADVP (RB still)) (ADJP (JJ enigmatic) (PP (TO to) (NP (PRP us)))) (ADVP (RB now))))))))) (. .)))
+#Rule:Nouns
+r1thingsNNS
+
+#Rule:Verbs
+r2knowVB
+
+#Rule:Adjs
+r4futureJJ
+r4enigmaticJJ
+
+#Rule:Adj-Noun
+r5futureJJthingsNNS
+
+#Rule:HeadNoun-V
+r11wePRPknowVB
+
+#Rule:HeadNoun-(who/that)-V
+r14thingsNNSareAUX
+
+#Rule:V-ADJ
+r25areAUXenigmaticJJ
+
+#Rule:PPinVP
+r30knowVBinINthingsNNS
+
+#Rule:PPinADJP
+r37enigmaticJJtoTOusPRP
+
+#Rule:V-ADV
+r46areAUXstillRB
+r46areAUXnowRB
+
+# What can some religions do forus except to tell us that we should follow it blindly and without question ?
+#(S1 (SBARQ (WHNP (WP What)) (SQ (MD can) (NP (DT some) (NNS religions)) (VP (AUX do) (ADJP (JJ forus) (SBAR (IN except) (S (VP (TO to) (VP (VB tell) (NP (PRP us)) (SBAR (IN that) (S (NP (PRP we)) (VP (MD should) (VP (VB follow) (NP (PRP it)) (UCP (ADVP (RB blindly)) (CC and) (PP (IN without) (NP (NN question))))))))))))))) (. ?)))
+#Rule:Nouns
+r1religionsNNS
+r1questionNN
+
+#Rule:Verbs
+r2tellVB
+r2followVB
+
+#Rule:Adjs
+r4forusJJ
+
+#Rule:HeadNoun-V
+r11wePRPfollowVB
+
+#Rule:V-HeadNoun
+r21tellVBusPRP
+r21followVBitPRP
+
+#Rule:V-IN-V
+r43tellVBthatINfollowVB
+
+# I know god didn t make me because if he did, why the heck didn t he make me equal with others ?
+#(S1 (S (NP (PRP I)) (VP (VBP know) (SBAR (S (NP (NNP god)) (VP (MD didn) (RB t) (VP (VB make) (NP (PRP me)) (SBAR (RB because) (IN if) (S (NP (PRP he)) (VP (AUX did) (, ,) (SBAR (WHADVP (WRB why)) (S (NP (DT the) (NN heck)) (VP (MD didn) (VP (VB t) (S (NP (PRP he)) (VP (VB make) (S (NP (PRP me)) (ADJP (JJ equal) (PP (IN with) (NP (NNS others))))))))))))))))))) (. ?)))
+#Rule:Nouns
+r1godNNP
+r1heckNN
+r1othersNNS
+
+#Rule:Verbs
+r2knowVBP
+r2makeVB
+r2tVB
+r2makeVB
+
+#Rule:Adjs
+r4equalJJ
+
+#Rule:HeadNoun-V
+r11iPRPknowVBP
+r11godNNPmakeVB
+r11hePRPdidAUX
+r11heckNNtVB
+r11hePRPmakeVB
+
+#Rule:V-HeadNoun
+r21makeVBmePRP
+
+#Rule:V-HeadNoun
+r22tVBhePRP
+r22makeVBmePRP
+
+#Rule:PPinADJP
+r37equalJJwithINothersNNS
+
+#Rule:V-IN-V
+r43makeVBifINdidAUX
+
+# Why couldn t he make me a superstar celebrity ?
+#(S1 (SBARQ (WHADVP (WRB Why)) (SQ (MD couldn) (RB t) (NP (PRP he)) (VP (VB make) (NP (PRP me)) (NP (DT a) (JJ superstar) (NN celebrity)))) (. ?)))
+#Rule:Nouns
+r1celebrityNN
+
+#Rule:Verbs
+r2makeVB
+
+#Rule:Adjs
+r4superstarJJ
+
+#Rule:Adj-Noun
+r5superstarJJcelebrityNN
+
+#Rule:V-HeadNoun
+r21makeVBmePRP
+r21makeVBcelebrityNN
+
+# why wasn t I born into a filthy rich family ?
+#(S1 (SBARQ (WHADVP (WRB why)) (SQ (RB wasn) (VP (VB t) (S (NP (PRP I)) (VP (VBN born) (PP (IN into) (NP (DT a) (JJ filthy) (JJ rich) (NN family))))))) (. ?)))
+#Rule:Nouns
+r1familyNN
+
+#Rule:Verbs
+r2t ILocationAnnotation
+r2bornVBN
+
+#Rule:Adjs
+r4filthyJJ
+r4richJJ
+
+#Rule:Adj-Noun
+r5filthyJJfamilyNN
+r5richJJfamilyNN
+
+#Rule:V-HeadNoun(passive)
+r24bornVBNt ILocationAnnotation
+
+#Rule:PPinVP
+r32bornVBNintoINfamilyNN
+
+# Why couldn t he make me a millionaire?
+#(S1 (SBARQ (WHADVP (WRB Why)) (SQ (MD couldn) (RB t) (NP (PRP he)) (VP (VB make) (NP (PRP me)) (NP (DT a) (NN millionaire)))) (. ?)))
+#Rule:Nouns
+r1millionaireNN
+
+#Rule:Verbs
+r2makeVB
+
+#Rule:V-HeadNoun
+r21makeVBmePRP
+r21makeVBmillionaireNN
+
+# Why is there rich and poor and sick and healthy ?
+#(S1 (SBARQ (WHADVP (WRB Why)) (SQ (AUX is) (NP (RB there)) (ADJP (JJ rich) (CC and) (JJ poor) (CC and) (JJ sick) (CC and) (JJ healthy))) (. ?)))
+#Rule:Adjs
+r4richJJ
+r4poorJJ
+r4sickJJ
+r4healthyJJ
+
+# If I am god s creation, what an unfair creation this is, I would have said no in the first place..Thi
+#(S1 (S (S (SBAR (IN If) (S (NP (PRP I)) (VP (AUX am) (NP (NNP god) (NNP s) (NN creation)) (, ,) (SBAR (WHNP (WP what) (DT an) (JJ unfair) (NN creation)) (S (NP (DT this)) (VP (AUX is))))))) (, ,) (NP (PRP I)) (VP (MD would) (VP (AUX have) (VP (VBN said) (ADVP (RB no)) (PP (IN in) (NP (DT the) (JJ first) (NN place))))))) (VP (VBZ ..) (NP (NNP Thi)))))
+#Rule:Nouns
+r1godNNP
+r1sNNP
+r1creationNN
+r1creationNN
+r1placeNN
+r1ThiNNP
+
+#Rule:Verbs
+r2saidVBN
+r2..VBZ
+
+#Rule:Adjs
+r4unfairJJ
+r4firstJJ
+
+#Rule:Adj-Noun
+r5firstJJplaceNN
+
+#Rule:N-HeadNoun
+r8sNNPcreationNN
+r8godNNPcreationNN
+
+#Rule:HeadNoun-V
+r11iPRPamAUX
+r11thisDTisAUX
+
+#Rule:HeadNoun-V
+r12iPRPsaidVBN
+
+#Rule:V-HeadNoun
+r21amAUXcreationNN
+r21..VBZThiNNP
+
+#Rule:PPinVP
+r32saidVBNinINplaceNN
+
+#Rule:V-ADV
+r46saidVBNnoRB
+
+#This is why I am a staunch believer in facts and Science. I also love the Buddhist concept of Kahmer.
+#(S1 (S (NP (DT This)) (VP (AUX is) (SBAR (WHADVP (WRB why)) (S (NP (PRP I)) (VP (AUX am) (NP (NP (DT a) (JJ staunch) (NN believer)) (PP (IN in) (NP (NNS facts) (CC and) (NNP Science.))) (SBAR (S (NP (PRP I)) (ADVP (RB also)) (VP (VBP love) (NP (NP (DT the) (JJ Buddhist) (NN concept)) (PP (IN of) (NP (NNP Kahmer)))))))))))) (. .)))
+#Rule:Nouns
+r1believerNN
+r1factsNNS
+r1ScienceNNP
+r1conceptNN
+r1KahmerPersonAnnotation
+
+#Rule:Verbs
+r2loveVBP
+
+#Rule:Adjs
+r4staunchJJ
+r4BuddhistOrganizationAnnotation
+
+#Rule:Adj-Noun
+r5staunchJJbelieverNN
+r5BuddhistOrganizationAnnotationconceptNN
+
+#Rule:HeadNoun-V
+r11thisDTisAUX
+r11iPRPamAUX
+r11IPersonAnnotationloveVBP
+
+#Rule:V-HeadNoun
+r21amAUXbelieverNN
+r21loveVBPconceptNN
+
+#Rule:PPinNP
+r26believerNNinINfactsNNS
+r26conceptNNofINKahmerPersonAnnotation
+
+#Rule:V-ADV
+r46loveVBPalsoRB
+
+@lemmas-left	said	science	love	religion	celebrity	t I	filthy	time	are	facts	future	family	..	Kahmer	place	follow	be	others	millionaire	he	science.	staunch	say	sick	make	this	superstar	we	born	creation	concept	god	forus	I	unfair	religions	Thi	tell	question	believer	advancing	bear	heck	rich	poor	equal	Science	know	i	thi	fact	t	s	am	Buddhist	healthy	things	enigmatic	first	advance	
+@lemmas-right	creation	concept	said	no	love	celebrity	t I	time	are	facts	Thi	family	Kahmer	do	me	believer	place	follow	be	advancing	is	it	others	millionaire	did	still	us	he	know	thi	fact	t	now	am	say	enigmatic	things	also	make	advance	
+@lemmas-center	to	of	that	with	if	into	in	

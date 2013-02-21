@@ -1,0 +1,114 @@
+#Re evaluate your Relationship with the Person Who did So. 
+#(S1 (S (NP (NNP Re)) (VP (VB evaluate) (NP (NP (PRP$ your) (NN Relationship)) (PP (IN with) (NP (NP (DT the) (NN Person)) (SBAR (WHNP (WP Who)) (S (VP (AUX did) (ADVP (RB So))))))))) (. .)))
+#Rule:Nouns
+r1ReNNP
+r1RelationshipNN
+r1PersonNN
+
+#Rule:Verbs
+r2evaluateVB
+
+#Rule:PRP-Noun
+r6yourPRP$RelationshipNN
+
+#Rule:HeadNoun-V
+r11ReNNPevaluateVB
+
+#Rule:HeadNoun-(who/that)-V
+r14PersonNNdidAUX
+
+#Rule:V-HeadNoun
+r21evaluateVBRelationshipNN
+
+#Rule:PPinNP
+r26RelationshipNNwithINPersonNN
+
+#Rule:V-ADV
+r46didAUXSoLocationAnnotation
+
+#If your Friendship Turns out Not So important.then Dont even bother with that Person. 
+#(S1 (S (SBAR (IN If) (S (NP (PRP$ your) (NN Friendship)) (VP (VBZ Turns) (PRT (RP out)) (ADVP (RB Not) (RB So))))) (VP (VB important.then) (NP (NNP Dont)) (RB even) (VP (VB bother) (PP (IN with) (NP (DT that) (NN Person))))) (. .)))
+#Rule:Nouns
+r1FriendshipNN
+r1DontOrganizationAnnotation
+r1PersonNN
+
+#Rule:Verbs
+r2important.thenVB
+r2botherVB
+
+#Rule:V-PRT
+r3turnsVBZoutRP
+
+#Rule:PRP-Noun
+r6yourPRP$FriendshipNN
+
+#Rule:HeadNoun-V
+r11FriendshipNNturnsVBZ
+
+#Rule:V-HeadNoun
+r21important.thenVBDontOrganizationAnnotation
+
+#Rule:PPinVP
+r30botherVBwithINPersonNN
+
+#Rule:V-ADV
+r46turnsVBZNotRB
+r46turnsVBZSoRB
+r46important.thenVBevenRB
+
+#If Its From SOmeone you DO care about, then tell them that what they said hurt. 
+#(S1 (S (SBAR (IN If) (S (NP (PRP$ Its) (ADJP (IN From)) (NN SOmeone)) (NP (PRP you)) (VP (AUX DO) (VP (VB care) (PP (IN about)))))) (, ,) (ADVP (RB then)) (VP (VB tell) (NP (NP (PRP them)) (NP (DT that))) (SBAR (WHNP (WP what)) (S (NP (PRP they)) (VP (VBD said) (SBAR (S (VP (VB hurt)))))))) (. .)))
+#Rule:Nouns
+r1SOmeoneNN
+
+#Rule:Verbs
+r2careVB
+r2tellVB
+r2saidVBD
+r2hurtVB
+
+#Rule:PRP-Noun
+r6itsPRP$SOmeoneNN
+
+#Rule:HeadNoun-V
+r11SOmeoneNNcareVB
+r11youPRPcareVB
+r11theyPRPsaidVBD
+
+#Rule:V-HeadNoun
+r21tellVBthemPRP
+
+#Rule:V-ADV
+r46tellVBthenRB
+
+#Just Talk to them about it. 
+#(S1 (S (ADVP (RB Just)) (VP (VB Talk) (PP (TO to) (NP (PRP them))) (PP (IN about) (NP (PRP it)))) (. .)))
+#Rule:Verbs
+r2talkVB
+
+#Rule:PPinVP
+r30talkVBtoTOthemPRP
+r30talkVBaboutINitPRP
+
+#Rule:V-ADV
+r46talkVBJustRB
+
+#If they Really Care about you, they will understand and listen.
+#(S1 (S (SBAR (IN If) (S (NP (PRP they)) (ADVP (RB Really)) (VP (VBP Care) (PP (IN about) (NP (PRP you)))))) (, ,) (NP (PRP they)) (VP (MD will) (VP (VP (VB understand)) (CC and) (VP (VB listen)))) (. .)))
+#Rule:Verbs
+r2Really CareOrganizationAnnotation
+r2understandVB
+r2listenVB
+
+#Rule:HeadNoun-V
+r11theyPRPunderstandVB
+r11theyPRPlistenVB
+r11theyPRPReally CareOrganizationAnnotation
+
+#Rule:PPinVP
+r30Really CareOrganizationAnnotationaboutINyouPRP
+
+@lemmas-left	they	evaluate	person	understand	said	Dont	important.then	its	re	bother	turns	Friendship	someone	friendship	care	do	tell	listen	SOmeone	talk	turn	Re	your	did	you	Really Care	relationship	hurt	then	Relationship	say	Person	
+@lemmas-right	evaluate	person	understand	said	Dont	turns	So	Friendship	someone	friendship	care	do	listen	Just	SOmeone	just	turn	it	so	did	you	Really Care	Not	relationship	not	them	then	Relationship	say	even	Person	out	
+@lemmas-center	to	with	about	

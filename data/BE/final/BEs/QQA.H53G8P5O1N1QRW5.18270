@@ -1,0 +1,44 @@
+#You could be anaemic, if you re really concerned consult your GP, few on here are qualified to answer your question!
+#(S1 (S (NP (PRP You)) (VP (MD could) (VP (AUX be) (ADJP (JJ anaemic)) (, ,) (SBAR (IN if) (S (NP (PRP you) (NNP re)) (ADVP (RB really)) (VP (VBD concerned) (VP (VB consult) (NP (PRP$ your) (ADJP (NNP GP) (, ,) (JJ few))) (PP (IN on) (SBAR (RB here) (S (VP (AUX are) (ADJP (JJ qualified) (S (VP (TO to) (VP (VB answer) (NP (PRP$ your) (NN question)))))))))))))))) (. !)))
+#Rule:Nouns
+r1reNNP
+r1GPOrganizationAnnotation
+r1questionNN
+
+#Rule:Verbs
+r2concernedVBD
+r2consultVB
+r2answerVB
+
+#Rule:Adjs
+r4anaemicJJ
+r4fewJJ
+r4qualifiedJJ
+
+#Rule:PRP-Noun
+r6yourPRP$fewJJ
+r6yourPRP$questionNN
+
+#Rule:HeadNoun-V
+r11youPRPbeAUX
+r11reNNPconcernedVBD
+r11reNNPconsultVB
+
+#Rule:V-HeadNoun
+r21consultVBfewJJ
+r21answerVBquestionNN
+
+#Rule:V-ADJ
+r25beAUXanaemicJJ
+r25areAUXqualifiedJJ
+
+#Rule:V-IN-V
+r43beAUXifINconcernedVBD
+r43beAUXifINconsultVB
+
+#Rule:V-ADV
+r46concernedVBDreallyRB
+
+@lemmas-left	anaemic	concern	your	answer	you	re	few	are	concerned	GP	question	consult	qualified	be	
+@lemmas-right	really	concerned	anaemic	concern	question	consult	qualified	be	few	
+@lemmas-center	if	

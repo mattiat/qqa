@@ -1,0 +1,47 @@
+#It means adequate, which is just average. 
+#(S1 (S (NP (PRP It)) (VP (VBZ means) (ADJP (JJ adequate)) (, ,) (SBAR (WHNP (WDT which)) (S (VP (AUX is) (NP (RB just) (NN average)))))) (. .)))
+#Rule:Nouns
+r1averageNN
+
+#Rule:Verbs
+r2meansVBZ
+
+#Rule:Adjs
+r4adequateJJ
+
+#Rule:HeadNoun-V
+r11itPRPmeansVBZ
+
+#Rule:V-HeadNoun
+r21isAUXaverageNN
+
+#Good enough, but not that good. 
+#(S1 (FRAG (NP (JJ Good) (NN enough)) (, ,) (CC but) (FRAG (RB not) (ADJP (RB that) (JJ good))) (. .)))
+#Rule:Nouns
+r1enoughNN
+
+#Rule:Adjs
+r4GoodJJ
+r4goodJJ
+
+#Rule:Adj-Noun
+r5GoodJJenoughNN
+
+#Good means above adequate, or better.
+#(S1 (S (NP (NNP Good)) (VP (VBZ means) (UCP (PP (RB above) (ADJP (JJ adequate))) (, ,) (CC or) (ADJP (JJR better)))) (. .)))
+#Rule:Nouns
+r1GoodNNP
+
+#Rule:Verbs
+r2meansVBZ
+
+#Rule:Adjs
+r4adequateJJ
+r4betterJJR
+
+#Rule:HeadNoun-V
+r11GoodNNPmeansVBZ
+
+@lemmas-left	Good	is	it	adequate	better	means	mean	good	enough	average	be	
+@lemmas-right	means	mean	enough	average	
+@lemmas-center	

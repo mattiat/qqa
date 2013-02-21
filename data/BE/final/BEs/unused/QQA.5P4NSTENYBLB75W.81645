@@ -1,0 +1,46 @@
+#Because otherwise they would have to be taught that we were magic-ed up by an invisible wizard. 
+#(S1 (S (ADVP (RB Because) (RB otherwise)) (NP (PRP they)) (VP (MD would) (VP (AUX have) (S (VP (TO to) (VP (AUX be) (VP (VBN taught) (SBAR (IN that) (S (NP (PRP we)) (VP (AUX were) (VP (VBN magic-ed) (PRT (RP up)) (PP (IN by) (NP (DT an) (JJ invisible) (NNP wizard))))))))))))) (. .)))
+#Rule:Nouns
+r1wizardNNP
+
+#Rule:Verbs
+r2taughtVBN
+
+#Rule:V-PRT
+r3magic-edVBNupRP
+
+#Rule:Adjs
+r4invisibleJJ
+
+#Rule:Adj-Noun
+r5invisibleJJwizardNNP
+
+#Rule:HeadNoun-V
+r11theyPRPhaveAUX
+
+#Rule:V-By-Agent
+r13wizardNNPmagic-edVBN
+
+#Rule:V-HeadNoun(passive)
+r23magic-edVBNwePRP
+
+#Rule:V-IN-V
+r43taughtVBNthatINmagic-edVBN
+
+#Now that s stupid!
+#(S1 (S (ADVP (RB Now)) (NP (DT that)) (VP (VBZ s) (ADJP (JJ stupid))) (. !)))
+#Rule:Verbs
+r2sOrganizationAnnotation
+
+#Rule:Adjs
+r4stupidJJ
+
+#Rule:HeadNoun-V
+r11thatDTsOrganizationAnnotation
+
+#Rule:V-ADV
+r46sOrganizationAnnotationNowRB
+
+@lemmas-left	that	they	magic-ed	s	invisible	stupid	wizard	taught	teach	ed	
+@lemmas-right	magic-ed	s	now	have	Now	wizard	we	ed	up	
+@lemmas-center	that	

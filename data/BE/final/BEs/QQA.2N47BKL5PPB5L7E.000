@@ -1,0 +1,107 @@
+#Why is it so hard to get to Mars when we have sent unmanned probes there all the time??
+#(S1 (SBARQ (WHADVP (WRB Why)) (SQ (AUX is) (NP (PRP it)) (ADVP (RB so)) (ADJP (JJ hard) (S (VP (TO to) (VP (VB get) (PP (TO to) (NP (NNP Mars))) (SBAR (WHADVP (WRB when)) (S (NP (PRP we)) (VP (AUX have) (VP (VBN sent) (NP (NP (JJ unmanned) (NNS probes)) (ADVP (RB there))) (NP (PDT all) (DT the) (NN time)))))))))) (. ?)) (. ?)))
+#Rule:Nouns
+r1MarsNNP
+r1probesNNS
+r1timeNN
+
+#Rule:Verbs
+r2getVB
+r2sentVBN
+
+#Rule:Adjs
+r4hardJJ
+r4unmannedJJ
+
+#Rule:Adj-Noun
+r5unmannedJJprobesNNS
+
+#Rule:HeadNoun-V
+r12wePRPsentVBN
+
+#Rule:V-HeadNoun
+r21sentVBNprobesNNS
+r21sentVBNtimeNN
+
+#Rule:PPinVP
+r30getVBtoTOMarsNNP
+
+#Moon landing was old news. When the hell are we getting to Mars??
+#(S1 (S (NP (NNP Moon) (NN landing)) (VP (AUX was) (NP (NP (JJ old) (NN news.)) (SBAR (WHADVP (WRB When)) (S (NP (DT the) (NN hell)) (VP (AUX are) (S (NP (PRP we)) (VP (VBG getting) (PP (TO to) (NP (NNP Mars)))) (. ?))))))) (. ?)))
+#Rule:Nouns
+r1MoonPersonAnnotation
+r1landingNN
+r1newsNN
+r1hellNN
+r1MarsNNP
+
+#Rule:Verbs
+r2gettingVBG
+
+#Rule:Adjs
+r4oldJJ
+
+#Rule:Adj-Noun
+r5oldJJnewsNN
+
+#Rule:N-HeadNoun
+r8MoonPersonAnnotationlandingNN
+
+#Rule:HeadNoun-V
+r11landingNNwasAUX
+r11hellNNareAUX
+r11wePRPgettingVBG
+
+#Rule:V-HeadNoun
+r21wasAUXnewsNN
+
+#Rule:V-HeadNoun
+r22areAUXwePRP
+
+#Rule:PPinVP
+r30gettingVBGtoTOMarsNNP
+
+#Rule:(SBAR+WHADVP)inNP
+r41newsNNwhenWRBareAUX
+
+#Rule:IS-RULE
+r47newsNNlandingNN
+
+#Don t we keep guys in the International Space Station alive for a really long time before sending them home?
+#(S1 (S (NP (NNP Don)) (VP (VBD t) (SBAR (S (NP (PRP we)) (VP (VBP keep) (S (NP (NP (NNS guys)) (PP (IN in) (NP (DT the) (NNP International) (NNP Space) (NNP Station)))) (ADJP (JJ alive)) (PP (IN for) (NP (NP (DT a) (RB really) (JJ long) (NN time)) (PP (IN before) (S (VP (VBG sending) (NP (PRP them)) (ADVP (NN home)))))))))))) (. ?)))
+#Rule:Nouns
+r1Don tPersonAnnotation
+r1guysNNS
+r1International Space StationOrganizationAnnotation
+r1timeNN
+r1homeNN
+
+#Rule:Verbs
+r2keepVBP
+r2sendingVBG
+
+#Rule:Adjs
+r4aliveJJ
+r4longJJ
+
+#Rule:Adj-Noun
+r5longJJtimeNN
+
+#Rule:HeadNoun-V
+r11wePRPkeepVBP
+
+#Rule:V-HeadNoun
+r21sendingVBGthemPRP
+
+#Rule:V-HeadNoun
+r22keepVBPguysNNS
+
+#Rule:PPinNP
+r26guysNNSinINInternational Space StationOrganizationAnnotation
+
+#Rule:PPinS
+r36aliveJJforINtimeNN
+
+@lemmas-left	Don t	home	getting	old	send	unmanned	International Space Station	Mars	long	alive	guys	probes	probe	was	sent	time	are	landing	news.	hard	be	get	Moon	news	guy	hell	sending	mars	keep	we	
+@lemmas-right	getting	send	get	guy	news	International Space Station	Mars	guys	probes	probe	was	sent	time	mars	are	landing	them	news.	keep	we	be	
+@lemmas-center	to	for	when	in	

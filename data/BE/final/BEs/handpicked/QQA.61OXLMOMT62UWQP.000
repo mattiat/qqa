@@ -1,0 +1,83 @@
+#Why does smoking increase the risk of bladder cancer??
+#(S1 (SBARQ (WHADVP (WRB Why)) (SQ (AUX does) (NP (NN smoking)) (VP (VB increase) (NP (NP (DT the) (NN risk)) (PP (IN of) (NP (NN bladder) (NN cancer))))) (. ?)) (. ?)))
+#Rule:Nouns
+r1smokingNN
+r1riskNN
+r1bladderNN
+r1cancerNN
+
+#Rule:Verbs
+r2increaseVB
+
+#Rule:N-HeadNoun
+r8bladderNNcancerNN
+
+#Rule:V-HeadNoun
+r21increaseVBriskNN
+
+#Rule:PPinNP
+r26riskNNofINcancerNN
+
+#It seemd obvious why it would cause lung ca, oesphageal ca, and oral cavity ca, but why bladder ca??
+#(S1 (S (NP (PRP It)) (VP (VBZ seemd) (ADJP (JJ obvious)) (SBAR (WHADVP (WRB why)) (S (NP (PRP it)) (VP (MD would) (VP (VB cause) (NP (NN lung)) (UCP (ADJP (JJ ca)) (, ,) (ADJP (JJ oesphageal) (JJ ca)) (, ,) (CC and) (S (S (NP (JJ oral) (NN cavity)) (VP (MD ca))) (, ,) (CC but) (SBARQ (WHADVP (WRB why)) (S (NP (NN bladder)) (VP (MD ca))) (. ?))))))))) (. ?)))
+#Rule:Nouns
+r1lungNN
+r1cavityNN
+r1bladderNN
+
+#Rule:Verbs
+r2seemdVBZ
+r2causeVB
+
+#Rule:Adjs
+r4obviousJJ
+r4caJJ
+r4oesphageal caPersonAnnotation
+r4oralJJ
+
+#Rule:Adj-Noun
+r5oralJJcavityNN
+
+#Rule:HeadNoun-V
+r11itPRPseemdVBZ
+r11itPRPcauseVB
+
+#Rule:V-HeadNoun
+r21causeVBlungNN
+
+#Is there a particular carcinogen responsible or reason why it causes transitional cell carcinoma of the bladder?
+#(S1 (SQ (AUX Is) (NP (EX there)) (NP (NP (DT a) (JJ particular) (NN carcinogen)) (UCP (JJ responsible) (CC or) (NN reason))) (SBAR (WHADVP (WRB why)) (S (NP (PRP it)) (VP (VBZ causes) (NP (NP (JJ transitional) (NN cell) (NN carcinoma)) (PP (IN of) (NP (DT the) (NN bladder))))))) (. ?)))
+#Rule:Nouns
+r1carcinogenNN
+r1reasonNN
+r1cellNN
+r1carcinomaNN
+r1bladderNN
+
+#Rule:Verbs
+r2causesVBZ
+
+#Rule:Adjs
+r4particularJJ
+r4responsibleJJ
+r4transitionalJJ
+
+#Rule:Adj-Noun
+r5particularJJcarcinogenNN
+r5transitionalJJcarcinomaNN
+
+#Rule:N-HeadNoun
+r8cellNNcarcinomaNN
+
+#Rule:HeadNoun-V
+r11itPRPcausesVBZ
+
+#Rule:V-HeadNoun
+r21causesVBZcarcinomaNN
+
+#Rule:PPinNP
+r26carcinomaNNofINbladderNN
+
+@lemmas-left	seemd	it	cause	ca	responsible	reason	cell	cavity	particular	transitional	risk	carcinogen	obvious	lung	oral	smoking	increase	oesphageal ca	causes	bladder	cancer	carcinoma	
+@lemmas-right	seemd	risk	carcinogen	lung	cause	cavity	bladder	causes	cancer	carcinoma	
+@lemmas-center	of	

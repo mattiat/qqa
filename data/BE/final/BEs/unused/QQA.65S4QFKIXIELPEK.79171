@@ -1,0 +1,1843 @@
+#He would be heel and on SD!  
+#(S1 (S (NP (PRP He)) (VP (MD would) (VP (AUX be) (UCP (NP (NN heel)) (CC and) (PP (IN on) (NP (NNP SD)))))) (. !)))
+#Rule:Nouns
+r1heelNN
+r1SDNNP
+
+#Rule:HeadNoun-V
+r11hePRPbeAUX
+
+#Ok, Batista is going to put Edge in the Batista Bomb.  
+#(S1 (S (INTJ (UH Ok)) (, ,) (NP (NNP Batista)) (VP (AUX is) (VP (VBG going) (S (VP (TO to) (VP (VB put) (NP (NN Edge)) (PP (IN in) (NP (DT the) (NNP Batista) (NN Bomb)))))))) (. .)))
+#Rule:Nouns
+r1BatistaLocationAnnotation
+r1EdgeNN
+r1BatiOrganizationAnnotation
+
+#Rule:Verbs
+r2goingVBG
+r2putVB
+
+#Rule:HeadNoun-V
+r11BatistaLocationAnnotationgoingVBG
+
+#Rule:V-HeadNoun
+r21putVBEdgeNN
+
+#Rule:PPinVP
+r30putVBinINBatiOrganizationAnnotation
+
+#Rule:V-V
+r44goingVBGputVB
+
+#The ref is down, someone runs from the audience.  
+#(S1 (S (S (NP (DT The) (NN ref)) (VP (AUX is) (ADJP (RP down)))) (, ,) (NP (NN someone)) (VP (VBZ runs) (PP (IN from) (NP (DT the) (NN audience)))) (. .)))
+#Rule:Nouns
+r1refNN
+r1someoneNN
+r1audienceNN
+
+#Rule:Verbs
+r2runsVBZ
+
+#Rule:HeadNoun-V
+r11someoneNNrunsVBZ
+r11refNNisAUX
+
+#Rule:V-ADJ
+r25isAUXdownRP
+
+#Rule:PPinVP
+r30runsVBZfromINaudienceNN
+
+#It s Brock Lesnar, he spears Batista.  
+#(S1 (S (S (NP (PRP It)) (VP (VBZ s) (NP (NNP Brock) (NNP Lesnar)))) (, ,) (NP (PRP he)) (VP (VBZ spears) (NP (NNP Batista))) (. .)))
+#Rule:Nouns
+r1s Brock LesnarPersonAnnotation
+r1BatistaLocationAnnotation
+
+#Rule:Verbs
+r2spearsVBZ
+
+#Rule:HeadNoun-V
+r11hePRPspearsVBZ
+r11itPRPs Brock LesnarPersonAnnotation
+
+#Rule:V-HeadNoun
+r21spearsVBZBatistaLocationAnnotation
+
+#Then he picks him up and does the F5.  
+#(S1 (S (ADVP (RB Then)) (NP (PRP he)) (VP (VP (VBZ picks) (NP (PRP him)) (PRT (RP up))) (CC and) (VP (AUX does) (NP (DT the) (NN F5)))) (. .)))
+#Rule:Nouns
+r1F5LocationAnnotation
+
+#Rule:Verbs
+r2picksVBZ
+
+#Rule:V-PRT
+r3picksVBZupRP
+
+#Rule:HeadNoun-V
+r11hePRPpicksVBZ
+r11hePRPdoesAUX
+
+#Rule:V-HeadNoun
+r21picksVBZhimPRP
+r21doesAUXF5LocationAnnotation
+
+#He puts Edge on Batista, the ref gets up and count.  
+#(S1 (S (S (NP (PRP He)) (VP (VBZ puts) (NP (NNP Edge)) (PP (IN on) (NP (NNP Batista))))) (, ,) (NP (DT the) (NN ref)) (VP (VBZ gets) (PRT (RP up)) (NP (CC and) (NN count))) (. .)))
+#Rule:Nouns
+r1EdgeNNP
+r1BatistaLocationAnnotation
+r1refNN
+r1countNN
+
+#Rule:Verbs
+r2putsVBZ
+
+#Rule:V-PRT
+r3getsVBZupRP
+
+#Rule:HeadNoun-V
+r11refNNgetsVBZ
+r11hePRPputsVBZ
+
+#Rule:V-HeadNoun
+r21putsVBZEdgeNNP
+r21getsVBZcountNN
+
+#Rule:PPinVP
+r30putsVBZonINBatistaLocationAnnotation
+
+#Your winner Edge.  
+#(S1 (S (NP (PRP$ Your) (NN winner)) (VP (VB Edge)) (. .)))
+#Rule:Nouns
+r1winnerNN
+
+#Rule:Verbs
+r2EdgeOrganizationAnnotation
+
+#Rule:PRP-Noun
+r6yourPRP$winnerNN
+
+#Rule:HeadNoun-V
+r11winnerNNEdgeOrganizationAnnotation
+
+#Brock isn t finished, he gets back in and throws Batista out the ring.  
+#(S1 (S (S (NP (NNP Brock) (NNP isn) (NNP t)) (VP (VBD finished))) (, ,) (NP (PRP he)) (VP (VP (VBZ gets) (ADVP (RB back) (RB in))) (CC and) (VP (VBZ throws) (NP (NNP Batista)) (PP (IN out) (NP (DT the) (NN ring))))) (. .)))
+#Rule:Nouns
+r1Brock isnPersonAnnotation
+r1tNNP
+r1BatistaOrganizationAnnotation
+r1ringNN
+
+#Rule:Verbs
+r2finishedVBD
+r2getsVBZ
+r2throwsVBZ
+
+#Rule:N-HeadNoun
+r8Brock isnPersonAnnotationtNNP
+
+#Rule:HeadNoun-V
+r11hePRPgetsVBZ
+r11hePRPthrowsVBZ
+r11tNNPfinishedVBD
+
+#Rule:V-HeadNoun
+r21throwsVBZBatistaOrganizationAnnotation
+
+#Rule:PPinVP
+r30throwsVBZoutINringNN
+
+#Rule:V-ADV
+r46getsVBZbackRB
+r46getsVBZinRB
+
+#He moves the monitors from the announcer table, then he powerbombs Batista.  
+#(S1 (S (S (NP (PRP He)) (VP (VBZ moves) (NP (DT the) (NNS monitors)) (PP (IN from) (NP (DT the) (NN announcer) (NN table))))) (, ,) (RB then) (S (NP (PRP he)) (VP (VBZ powerbombs) (NP (NNP Batista)))) (. .)))
+#Rule:Nouns
+r1monitorsNNS
+r1announcerNN
+r1tableNN
+r1BatistaLocationAnnotation
+
+#Rule:Verbs
+r2movesVBZ
+r2powerbombsVBZ
+
+#Rule:N-HeadNoun
+r8announcerNNtableNN
+
+#Rule:HeadNoun-V
+r11hePRPmovesVBZ
+r11hePRPpowerbombsVBZ
+
+#Rule:V-HeadNoun
+r21movesVBZmonitorsNNS
+r21powerbombsVBZBatistaLocationAnnotation
+
+#Rule:PPinVP
+r30movesVBZfromINtableNN
+
+#So, a feud has been set at Unforgiven it will be Batista vs. 
+#(S1 (S (ADVP (RB So)) (, ,) (NP (DT a) (NN feud)) (VP (AUX has) (VP (AUX been) (VP (VBN set) (PP (IN at) (NP (NNP Unforgiven))) (SBAR (S (NP (PRP it)) (VP (MD will) (VP (AUX be) (NP (NNP Batista) (NNP vs))))))))) (. .)))
+#Rule:Nouns
+r1feudNN
+r1UnforgivenNNP
+r1BatistaLocationAnnotation
+r1vsNNP
+
+#Rule:Verbs
+r2setVBN
+
+#Rule:N-HeadNoun
+r8BatistaLocationAnnotationvsNNP
+
+#Rule:HeadNoun-V
+r11itPRPbeAUX
+
+#Rule:V-HeadNoun
+r21beAUXvsNNP
+
+#Rule:V-HeadNoun(passive)
+r23setVBNfeudNN
+
+#Rule:PPinVP
+r32setVBNatINUnforgivenNNP
+
+#Rule:V-ADV
+r46hasAUXSoRB
+
+#Brock Lesnar.  
+#(S1 (NP (NNP Brock) (NNP Lesnar) (. .)))
+#Rule:Nouns
+r1Brock PersonAnnotation
+
+#Then at Unforgiven, Batista is going to spear Brock, Brock moves and Batista hurts his shoulder.  
+#(S1 (S (RB Then) (PP (IN at) (NP (NNP Unforgiven))) (, ,) (NP (NNP Batista)) (VP (AUX is) (VP (VBG going) (S (VP (TO to) (VP (VB spear) (SBAR (S (NP (NP (NNP Brock)) (, ,) (NP (NNP Brock) (NNS moves)) (CC and) (NP (NNP Batista))) (VP (VBZ hurts) (NP (PRP$ his) (NN shoulder)))))))))) (. .)))
+#Rule:Nouns
+r1UnforgivenNNP
+r1BatistaOrganizationAnnotation
+r1BrockLocationAnnotation
+r1BrockLocationAnnotation
+r1movesNNS
+r1BatistaLocationAnnotation
+r1shoulderNN
+
+#Rule:Verbs
+r2goingVBG
+r2spearVB
+r2hurtsVBZ
+
+#Rule:PRP-Noun
+r6hisPRP$shoulderNN
+
+#Rule:N-HeadNoun
+r8BrockLocationAnnotationmovesNNS
+
+#Rule:N-ApposN
+r10BrockLocationAnnotationmovesNNS
+
+#Rule:HeadNoun-V
+r11BatistaOrganizationAnnotationgoingVBG
+r11BrockLocationAnnotationhurtsVBZ
+r11movesNNShurtsVBZ
+r11BatistaLocationAnnotationhurtsVBZ
+
+#Rule:V-HeadNoun
+r21hurtsVBZshoulderNN
+
+#Rule:PPinS
+r36isAUXatINUnforgivenNNP
+
+#Rule:V-V
+r44goingVBGspearVB
+
+#Lesnar works on his shoulder.  
+#(S1 (S (NP (NNP Lesnar)) (VP (VBZ works) (PP (IN on) (NP (PRP$ his) (NN shoulder)))) (. .)))
+#Rule:Nouns
+r1LesnarPersonAnnotation
+r1shoulderNN
+
+#Rule:Verbs
+r2worksVBZ
+
+#Rule:PRP-Noun
+r6hisPRP$shoulderNN
+
+#Rule:HeadNoun-V
+r11LesnarPersonAnnotationworksVBZ
+
+#Rule:PPinVP
+r30worksVBZonINshoulderNN
+
+#Batista rolls out the ring.  
+#(S1 (S (NP (NNP Batista)) (VP (VBZ rolls) (PRT (RP out)) (NP (DT the) (NN ring))) (. .)))
+#Rule:Nouns
+r1BatistaNNP
+r1ringNN
+
+#Rule:V-PRT
+r3rollsVBZoutRP
+
+#Rule:HeadNoun-V
+r11BatistaNNProllsVBZ
+
+#Rule:V-HeadNoun
+r21rollsVBZringNN
+
+#Lesnar comes behind him and gives him a hard clothesline.  
+#(S1 (S (NP (NNP Lesnar)) (VP (VP (VBZ comes) (PP (IN behind) (NP (PRP him)))) (CC and) (VP (VBZ gives) (NP (PRP him)) (NP (DT a) (JJ hard) (NN clothesline)))) (. .)))
+#Rule:Nouns
+r1LesnarPersonAnnotation
+r1clotheslineNN
+
+#Rule:Verbs
+r2comesVBZ
+r2givesVBZ
+
+#Rule:Adjs
+r4hardJJ
+
+#Rule:Adj-Noun
+r5hardJJclotheslineNN
+
+#Rule:HeadNoun-V
+r11LesnarPersonAnnotationcomesVBZ
+r11LesnarPersonAnnotationgivesVBZ
+
+#Rule:V-HeadNoun
+r21givesVBZhimPRP
+r21givesVBZclotheslineNN
+
+#Rule:PPinVP
+r30comesVBZbehindINhimPRP
+
+#He picks Batista up in an F5 and throws him shoulder first into the ring post.  
+#(S1 (S (NP (PRP He)) (VP (VP (VBZ picks) (NP (NNP Batista)) (PRT (RP up)) (PP (IN in) (NP (DT an) (NNP F5)))) (CC and) (VP (VBZ throws) (S (NP (PRP him)) (VP (VB shoulder) (ADVP (RB first)) (PP (IN into) (NP (DT the) (NN ring) (NN post))))))) (. .)))
+#Rule:Nouns
+r1BatistaOrganizationAnnotation
+r1F5NNP
+r1ringNN
+r1postNN
+
+#Rule:Verbs
+r2picksVBZ
+r2throwsVBZ
+r2shoulderVB
+
+#Rule:V-PRT
+r3picksVBZupRP
+
+#Rule:N-HeadNoun
+r8ringNNpostNN
+
+#Rule:HeadNoun-V
+r11hePRPpicksVBZ
+r11hePRPthrowsVBZ
+r11himPRPshoulderVB
+
+#Rule:V-HeadNoun
+r21picksVBZBatistaOrganizationAnnotation
+
+#Rule:V-HeadNoun
+r22throwsVBZhimPRP
+
+#Rule:PPinVP
+r30picksVBZinINF5NNP
+r30shoulderVBintoINpostNN
+
+#Rule:V-ADV
+r46shoulderVBfirstRB
+
+#He then picks Batista up and throws him into the steps. 
+#(S1 (S (NP (PRP He)) (ADVP (RB then)) (VP (VP (VBZ picks) (NP (NNP Batista)) (PRT (RP up))) (CC and) (VP (VBZ throws) (NP (PRP him)) (PP (IN into) (NP (DT the) (NNS steps))))) (. .)))
+#Rule:Nouns
+r1BatistaOrganizationAnnotation
+r1stepsNNS
+
+#Rule:Verbs
+r2picksVBZ
+r2throwsVBZ
+
+#Rule:V-PRT
+r3picksVBZupRP
+
+#Rule:HeadNoun-V
+r11hePRPpicksVBZ
+r11hePRPthrowsVBZ
+
+#Rule:V-HeadNoun
+r21picksVBZBatistaOrganizationAnnotation
+r21throwsVBZhimPRP
+
+#Rule:PPinVP
+r30throwsVBZintoINstepsNNS
+
+#The ref rings the bell and DQs Lesnar.  
+#(S1 (NP (NP (DT The) (JJ ref) (NNS rings)) (NP (NP (DT the) (NNP bell)) (CC and) (NP (NNP DQs) (NNP Lesnar))) (. .)))
+#Rule:Nouns
+r1ringsNNS
+r1bellNNP
+r1DQs LePersonAnnotation
+
+#Rule:Adjs
+r4refJJ
+
+#Rule:Adj-Noun
+r5refJJringsNNS
+
+#Then Brock comes out on SD.  
+#(S1 (S (RB Then) (NP (NNP Brock)) (VP (VBZ comes) (PRT (RP out)) (PP (IN on) (NP (NNP SD)))) (. .)))
+#Rule:Nouns
+r1BrockLocationAnnotation
+r1SDOrganizationAnnotation
+
+#Rule:V-PRT
+r3comesVBZoutRP
+
+#Rule:HeadNoun-V
+r11BrockLocationAnnotationcomesVBZ
+
+#Rule:PPinVP
+r30comesVBZonINSDOrganizationAnnotation
+
+#Brock: I have came back for 2 reasons.  1 to destroy Batista and show him how a real Animal olays.  
+#(S1 (NP (NP (NN Brock)) (: :) (S (NP (PRP I)) (VP (AUX have) (VP (VBD came) (ADVP (RB back) (PP (IN for) (NP (CD 2) (NN reasons.)))) (NP (CD 1)) (S (VP (TO to) (VP (VP (VB destroy) (NP (NNP Batista))) (CC and) (VP (VB show) (NP (PRP him)) (SBAR (WHADVP (WRB how)) (S (NP (DT a) (JJ real) (NN Animal)) (VP (VBZ olays))))))))))) (. .)))
+#Rule:Nouns
+r1BrockNN
+r1reasonsNN
+r1BatistaNNP
+r1AnimalNN
+
+#Rule:Verbs
+r2cameVBD
+r2destroyVB
+r2showVB
+r2olaysLocationAnnotation
+
+#Rule:Adjs
+r4realJJ
+
+#Rule:Adj-Noun
+r52CDreasonsNN
+r5realJJAnimalNN
+
+#Rule:HeadNoun-V
+r11iPRPcameVBD
+r11AnimalNNolaysLocationAnnotation
+
+#Rule:V-HeadNoun
+r21cameVBD1CD
+r21destroyVBBatistaNNP
+r21showVBhimPRP
+
+#Rule:V-ADV
+r46cameVBDbackRB
+
+#And 2 to reclaimmy World Heavyweight Title.  
+#(S1 (FRAG (CC And) (NP (NP (QP (CD 2) (TO to) (CD reclaimmy)) (NN World)) (NP (JJ Heavyweight) (NNP Title))) (. .)))
+#Rule:Nouns
+r1World Heavyweight TitleOrganizationAnnotation
+
+#Rule:Adj-Noun
+r52CDWorld Heavyweight TitleOrganizationAnnotation
+r5reclaimmyCDWorld Heavyweight TitleOrganizationAnnotation
+
+#Edge comes out.  
+#(S1 (S (NP (NN Edge)) (VP (VBZ comes) (PRT (RP out))) (. .)))
+#Rule:Nouns
+r1EdgeNN
+
+#Rule:V-PRT
+r3comesVBZoutRP
+
+#Rule:HeadNoun-V
+r11EdgeNNcomesVBZ
+
+#Edge: Lesnar this title is mine.  
+#(S1 (NP (NP (NN Edge)) (: :) (SQ (NNP Lesnar) (NP (DT this) (NN title)) (VP (AUX is) (NP (NN mine))) (. .))))
+#Rule:Nouns
+r1EdgeNN
+r1LesnarNNP
+r1titleNN
+r1mineNN
+
+#Rule:V-HeadNoun
+r21isAUXmineNN
+
+#You may be bigger than me but I never back down from a fight.  
+#(S1 (S (S (NP (PRP You)) (VP (MD may) (VP (AUX be) (ADJP (ADJP (JJR bigger)) (PP (IN than) (NP (PRP me))))))) (CC but) (S (NP (PRP I)) (ADVP (RB never)) (VP (VB back) (PRT (RP down)) (PP (IN from) (NP (DT a) (NN fight))))) (. .)))
+#Rule:Nouns
+r1fightNN
+
+#Rule:V-PRT
+r3backVBdownRP
+
+#Rule:Adjs
+r4biggerJJR
+
+#Rule:HeadNoun-V
+r11youPRPbeAUX
+r11iPRPbackVB
+
+#Rule:V-ADJ
+r25beAUXbiggerJJR
+
+#Rule:PPinVP
+r30backVBfromINfightNN
+
+#Rule:PPinADJP
+r37biggerJJRthanINmePRP
+
+#Rule:V-ADV
+r46backVBneverRB
+
+#Lesnar: Less talk more action Edge, so if it s a fight you want you got one.  
+#(S1 (FRAG (NP (NNP Lesnar)) (: :) (S (NP (NNP Less)) (VP (VB talk) (NP (JJR more) (NN action) (NN Edge)) (, ,) (SBAR (IN so) (IN if) (S (NP (PRP it)) (VP (VBZ s) (NP (NP (DT a) (NN fight)) (SBAR (S (NP (PRP you)) (VP (VBP want) (SBAR (S (NP (PRP you)) (VP (VBD got) (NP (CD one)))))))))))))) (. .)))
+#Rule:Nouns
+r1LesnarNNP
+r1LessNNP
+r1actionNN
+r1EdgeNN
+r1fightNN
+
+#Rule:Verbs
+r2talkVB
+r2sVBZ
+r2wantVBP
+r2gotVBD
+
+#Rule:Adjs
+r4moreJJR
+
+#Rule:Adj-Noun
+r5moreJJREdgeNN
+
+#Rule:N-HeadNoun
+r8actionNNEdgeNN
+
+#Rule:HeadNoun-V
+r11LessNNPtalkVB
+r11itPRPsVBZ
+r11youPRPwantVBP
+r11youPRPgotVBD
+
+#Rule:NP(NP(z) SBAR(S(NP(x)VP(y))))
+r19wantVBPfightNN
+
+#Rule:V-HeadNoun
+r21talkVBEdgeNN
+r21sVBZfightNN
+r21gotVBDoneCD
+
+#Rule:V-IN-V
+r43talkVBsoINsVBZ
+
+#No it isn t a fight I want. 
+#(S1 (S (NP (DT No) (PRP it)) (ADVP (RB isn)) (VP (VBZ t) (NP (NP (DT a) (NN fight)) (SBAR (S (NP (PRP I)) (VP (VBP want)))))) (. .)))
+#Rule:Nouns
+r1fightNN
+
+#Rule:Verbs
+r2tVBZ
+r2wantVBP
+
+#Rule:HeadNoun-V
+r11itPRPtVBZ
+r11iPRPwantVBP
+
+#Rule:NP(NP(z) SBAR(S(NP(x)VP(y))))
+r19wantVBPfightNN
+
+#Rule:V-HeadNoun
+r21tVBZfightNN
+
+#Rule:V-ADV
+r46tVBZisnRB
+
+#Actually I came to make you a proposition.  
+#(S1 (S (ADVP (RB Actually)) (NP (PRP I)) (VP (VBD came) (S (VP (TO to) (VP (VB make) (S (NP (PRP you)) (NP (DT a) (NN proposition))))))) (. .)))
+#Rule:Nouns
+r1propositionNN
+
+#Rule:Verbs
+r2cameVBD
+r2makeVB
+
+#Rule:HeadNoun-V
+r11iPRPcameVBD
+
+#Rule:V-HeadNoun
+r22makeVByouPRP
+r22makeVBpropositionNN
+
+#Rule:V-V
+r44cameVBDmakeVB
+
+#Rule:V-ADV
+r46cameVBDActuallyRB
+
+#Me&U both hate Batista so how about we, take him down tonite.  
+#(S1 (S (NP (NNS Me&U)) (DT both) (VP (VBP hate) (NP (NNP Batista)) (SBAR (WHADVP (RB so) (WRB how) (RB about)) (S (NP (PRP we)) (, ,) (VP (VBP take) (NP (PRP him)) (PP (IN down) (NP (NN tonite))))))) (. .)))
+#Rule:Nouns
+r1Me&UOrganizationAnnotation
+r1BatistaOrganizationAnnotation
+r1toniteLocationAnnotation
+
+#Rule:Verbs
+r2hateVBP
+r2takeVBP
+
+#Rule:HeadNoun-V
+r11Me&UOrganizationAnnotationhateVBP
+r11wePRPtakeVBP
+
+#Rule:V-HeadNoun
+r21hateVBPBatistaOrganizationAnnotation
+r21takeVBPhimPRP
+
+#Rule:PPinVP
+r30takeVBPdownINtoniteLocationAnnotation
+
+#Then it will be U&me for the World Heavyweight Championship.  
+#(S1 (S (ADVP (RB Then)) (NP (PRP it)) (VP (MD will) (VP (AUX be) (ADJP (JJ U&me) (PP (IN for) (NP (DT the) (NNP World) (JJ Heavyweight) (NN Championship)))))) (. .)))
+#Rule:Nouns
+r1U&me for theOrganizationAnnotation
+
+#Rule:HeadNoun-V
+r11itPRPbeAUX
+
+#Rule:V-ADJ
+r25beAUXU&me for theOrganizationAnnotation
+
+#Lesnar: Edge I don t like you but you got urself a deal.  
+#(S1 (NP (NP (NNP Lesnar)) (: :) (S (S (VP (VB Edge) (S (NP (PRP I)) (VP (VB don) (NP (NN t)) (PP (IN like) (NP (PRP you))))))) (CC but) (S (NP (PRP you)) (VP (VBP got) (S (VP (VBG urself) (NP (DT a) (NN deal))))))) (. .)))
+#Rule:Nouns
+r1LesnarPersonAnnotation
+r1I don tPersonAnnotation
+r1dealNN
+
+#Rule:Verbs
+r2edgeVB
+r2gotVBP
+r2urselfVBG
+
+#Rule:HeadNoun-V
+r11youPRPgotVBP
+
+#Rule:V-HeadNoun
+r21urselfVBGdealNN
+
+#Rule:V-HeadNoun
+r22edgeVBI don tPersonAnnotation
+
+#Rule:PPinVP
+r30I don tPersonAnnotationlikeINyouPRP
+
+#Edge&Lesnar vs. 
+#(S1 (NP (NNP Edge&Lesnar) (NNP vs) (. .)))
+#Rule:Nouns
+r1Edge&LesnarPersonAnnotation
+r1vsNNP
+
+#Rule:N-HeadNoun
+r8Edge&LesnarPersonAnnotationvsNNP
+
+#Batista.  
+#(S1 (X (NNP Batista) (. .)))
+#Rule:Nouns
+r1BatistaLocationAnnotation
+
+#Vickie G. comes out and says it s a NO DQ match.  
+#(S1 (S (NP (NNP Vickie) (NNP G.)) (VP (VP (VBZ comes) (PRT (RP out))) (CC and) (VP (VBZ says) (SBAR (S (NP (PRP it)) (VP (VBZ s) (NP (DT a) (DT NO) (JJ DQ) (NN match))))))) (. .)))
+#Rule:Nouns
+r1VPersonAnnotation
+r1matchNN
+
+#Rule:Verbs
+r2saysVBZ
+r2sVBZ
+
+#Rule:V-PRT
+r3comesVBZoutRP
+
+#Rule:Adjs
+r4NO DQOrganizationAnnotation
+
+#Rule:Adj-Noun
+r5NO DQOrganizationAnnotationmatchNN
+
+#Rule:HeadNoun-V
+r11VPersonAnnotationcomesVBZ
+r11VPersonAnnotationsaysVBZ
+r11itPRPsVBZ
+
+#Rule:V-HeadNoun
+r21sVBZmatchNN
+
+#In the middle of the match Batista has took out Edge with a spear.  
+#(S1 (S (PP (IN In) (NP (NP (DT the) (NN middle)) (PP (IN of) (NP (DT the) (NN match))))) (NP (NNP Batista)) (VP (AUX has) (VP (VBD took) (PP (IN out) (NP (NN Edge))) (PP (IN with) (NP (DT a) (NN spear))))) (. .)))
+#Rule:Nouns
+r1middleNN
+r1matchNN
+r1BatistaOrganizationAnnotation
+r1EdgeOrganizationAnnotation
+r1spearNN
+
+#Rule:Verbs
+r2tookVBD
+
+#Rule:HeadNoun-V
+r11BatistaOrganizationAnnotationtookVBD
+
+#Rule:PPinNP
+r26middleNNofINmatchNN
+
+#Rule:PPinVP
+r30tookVBDoutINEdgeOrganizationAnnotation
+r30tookVBDwithINspearNN
+
+#Rule:PPinS
+r36hasAUXinINmiddleNN
+
+#Brock jumps in and Batista clothesline him.  
+#(S1 (S (NP (NP (JJ Brock) (NNS jumps)) (PP (IN in) (CC and) (NP (NNP Batista)))) (VP (VBP clothesline) (NP (PRP him))) (. .)))
+#Rule:Nouns
+r1jumpsNNS
+r1BatistaOrganizationAnnotation
+
+#Rule:Verbs
+r2clotheslineVBP
+
+#Rule:Adjs
+r4BrockJJ
+
+#Rule:Adj-Noun
+r5BrockJJjumpsNNS
+
+#Rule:HeadNoun-V
+r11jumpsNNSclotheslineVBP
+
+#Rule:V-HeadNoun
+r21clotheslineVBPhimPRP
+
+#Rule:PPinNP
+r26jumpsNNSinINBatistaOrganizationAnnotation
+
+#But Brock is still standing, Batista hits him again and Brock almost goes over the rope.  
+#(S1 (S (S (CC But) (NP (NNP Brock)) (VP (AUX is) (ADVP (RB still)) (VP (VBG standing)))) (, ,) (S (NP (NNP Batista)) (VP (VBZ hits) (NP (PRP him)) (ADVP (RB again)))) (CC and) (S (NP (NNP Brock)) (ADVP (RB almost)) (VP (VBZ goes) (PP (IN over) (NP (DT the) (NN rope))))) (. .)))
+#Rule:Nouns
+r1BrockOrganizationAnnotation
+r1BatistaOrganizationAnnotation
+r1BrockNNP
+r1ropeLocationAnnotation
+
+#Rule:Verbs
+r2standingVBG
+r2hitsVBZ
+r2goesVBZ
+
+#Rule:HeadNoun-V
+r11BrockOrganizationAnnotationstandingVBG
+r11BatistaOrganizationAnnotationhitsVBZ
+r11BrockNNPgoesVBZ
+
+#Rule:V-HeadNoun
+r21hitsVBZhimPRP
+
+#Rule:PPinVP
+r30goesVBZoverINropeLocationAnnotation
+
+#Rule:V-ADV
+r46isAUXstillRB
+r46standingVBGstillRB
+r46hitsVBZagainRB
+r46goesVBZalmostRB
+
+#Batista hits him a 3rd time and Brock goes out.  
+#(S1 (S (S (NP (NNP Batista)) (VP (VBZ hits) (NP (PRP him)) (NP (DT a) (JJ 3rd) (NN time)))) (CC and) (S (NP (NNP Brock)) (VP (VBZ goes) (PRT (RP out)))) (. .)))
+#Rule:Nouns
+r1BatistaNNP
+r1timeNN
+r1BrockLocationAnnotation
+
+#Rule:Verbs
+r2hitsVBZ
+
+#Rule:V-PRT
+r3goesVBZoutRP
+
+#Rule:Adjs
+r43rdJJ
+
+#Rule:Adj-Noun
+r53rdJJtimeNN
+
+#Rule:HeadNoun-V
+r11BatistaNNPhitsVBZ
+r11BrockLocationAnnotationgoesVBZ
+
+#Rule:V-HeadNoun
+r21hitsVBZhimPRP
+r21hitsVBZtimeNN
+
+#Batista shakes the ropes.  
+#(S1 (S (NP (NNP Batista)) (VP (VBZ shakes) (NP (DT the) (NNS ropes))) (. .)))
+#Rule:Nouns
+r1BatistaNNP
+r1ropesNNS
+
+#Rule:Verbs
+r2shakesVBZ
+
+#Rule:HeadNoun-V
+r11BatistaNNPshakesVBZ
+
+#Rule:V-HeadNoun
+r21shakesVBZropesNNS
+
+#He waits for Edge to get up and he kicks him.  
+#(S1 (S (S (NP (PRP He)) (VP (VBZ waits) (SBAR (IN for) (S (NP (NNP Edge)) (VP (TO to) (VP (VB get) (ADVP (RB up)))))))) (CC and) (S (NP (PRP he)) (VP (VBZ kicks) (NP (PRP him)))) (. .)))
+#Rule:Nouns
+r1EdgeOrganizationAnnotation
+
+#Rule:Verbs
+r2waitsVBZ
+r2getVB
+r2kicksVBZ
+
+#Rule:HeadNoun-V
+r11hePRPwaitsVBZ
+r11EdgeOrganizationAnnotationgetVB
+r11hePRPkicksVBZ
+
+#Rule:V-HeadNoun
+r21kicksVBZhimPRP
+
+#Rule:V-IN-V
+r43waitsVBZforINgetVB
+
+#Rule:V-ADV
+r46getVBupRB
+
+#He picks him up for the Batista Bomb, Brock comes in and hits Batista in the back with a chair.  
+#(S1 (S (NP (PRP He)) (VP (VP (VBZ picks) (NP (PRP him)) (PRT (RP up)) (PP (IN for) (NP (DT the) (NNP Batista) (NN Bomb))) (, ,) (S (NP (NNP Brock)) (VP (VBZ comes) (PRT (RP in))))) (CC and) (VP (VBZ hits) (NP (NNP Batista)) (PP (IN in) (NP (NP (DT the) (NN back)) (PP (IN with) (NP (DT a) (NN chair))))))) (. .)))
+#Rule:Nouns
+r1Batista BombLocationAnnotation
+r1BrockLocationAnnotation
+r1BatistaOrganizationAnnotation
+r1backNN
+r1chairNN
+
+#Rule:Verbs
+r2picksVBZ
+r2hitsVBZ
+
+#Rule:V-PRT
+r3picksVBZupRP
+r3comesVBZinRP
+
+#Rule:HeadNoun-V
+r11hePRPpicksVBZ
+r11hePRPhitsVBZ
+r11BrockLocationAnnotationcomesVBZ
+
+#Rule:V-HeadNoun
+r21picksVBZhimPRP
+r21hitsVBZBatistaOrganizationAnnotation
+
+#Rule:V-HeadNoun
+r22picksVBZBrockLocationAnnotation
+
+#Rule:PPinNP
+r26backNNwithINchairNN
+
+#Rule:PPinVP
+r30picksVBZforINBatista BombLocationAnnotation
+r30hitsVBZinINbackNN
+
+#Edge tells Brock to hold Batista down.  
+#(S1 (S (NP (NN Edge)) (VP (VBZ tells) (S (NP (NNP Brock)) (VP (TO to) (VP (VB hold) (NP (NNP Batista)) (PRT (RP down)))))) (. .)))
+#Rule:Nouns
+r1EdgeNN
+r1BrockNNP
+r1BatistaOrganizationAnnotation
+
+#Rule:Verbs
+r2tellsVBZ
+r2holdVB
+
+#Rule:V-PRT
+r3holdVBdownRP
+
+#Rule:HeadNoun-V
+r11EdgeNNtellsVBZ
+r11BrockNNPholdVB
+
+#Rule:V-HeadNoun
+r21holdVBBatistaOrganizationAnnotation
+
+#Rule:V-HeadNoun
+r22tellsVBZBrockNNP
+
+#Edge gets another chair.  
+#(S1 (S (NP (NN Edge)) (VP (VBZ gets) (NP (DT another) (NN chair))) (. .)))
+#Rule:Nouns
+r1EdgeNN
+r1chairNN
+
+#Rule:Verbs
+r2getsVBZ
+
+#Rule:HeadNoun-V
+r11EdgeNNgetsVBZ
+
+#Rule:V-HeadNoun
+r21getsVBZchairNN
+
+#Edge hits the Conchairto on Batista.  
+#(S1 (S (NP (NN Edge)) (VP (VBZ hits) (NP (DT the) (NNP Conchairto)) (PP (IN on) (NP (NNP Batista)))) (. .)))
+#Rule:Nouns
+r1EdgeNN
+r1ConchairtoLocationAnnotation
+r1BatistaLocationAnnotation
+
+#Rule:Verbs
+r2hitsVBZ
+
+#Rule:HeadNoun-V
+r11EdgeNNhitsVBZ
+
+#Rule:V-HeadNoun
+r21hitsVBZConchairtoLocationAnnotation
+
+#Rule:PPinVP
+r30hitsVBZonINBatistaLocationAnnotation
+
+#They are not done yet, Brock gets a table and F5 s Batista on the table.  
+#(S1 (S (S (NP (PRP They)) (VP (AUX are) (RB not) (VP (AUX done) (ADVP (RB yet))))) (, ,) (NP (NNP Brock)) (VP (VBZ gets) (NP (NP (DT a) (NN table)) (CC and) (NP (NNP F5) (NNP s) (NNP Batista))) (PP (IN on) (NP (DT the) (NN table)))) (. .)))
+#Rule:Nouns
+r1BrockOrganizationAnnotation
+r1tableNN
+r1F5 s BatistaOrganizationAnnotation
+r1tableNN
+
+#Rule:Verbs
+r2getsVBZ
+
+#Rule:HeadNoun-V
+r11BrockOrganizationAnnotationgetsVBZ
+r11theyPRPdoneAUX
+
+#Rule:V-HeadNoun
+r21getsVBZtableNN
+
+#Rule:PPinVP
+r30getsVBZonINtableNN
+
+#Rule:V-ADV
+r46areAUXnotRB
+r46doneAUXyetRB
+
+#Brock pins Batista.  
+#(S1 (S (NP (NNP Brock)) (VP (NNS pins) (NP (NNP Batista))) (. .)))
+#Rule:Nouns
+r1BrockNNP
+r1pinsNNS
+r1BatistaLocationAnnotation
+
+#Rule:V-HeadNoun
+r21pinsNNSBatistaLocationAnnotation
+
+#Him and Edge shakes hands.  
+#(S1 (S (NP (PRP Him) (CC and) (NNP Edge)) (VP (VBZ shakes) (NP (NNS hands))) (. .)))
+#Rule:Nouns
+r1EdgeNNP
+r1handsNNS
+
+#Rule:Verbs
+r2shakesVBZ
+
+#Rule:HeadNoun-V
+r11HimPersonAnnotationshakesVBZ
+
+#Rule:V-HeadNoun
+r21shakesVBZhandsNNS
+
+#Edge gets a mic.  
+#(S1 (S (NP (NN Edge)) (VP (VBZ gets) (NP (DT a) (NN mic))) (. .)))
+#Rule:Nouns
+r1EdgeNN
+r1micNN
+
+#Rule:Verbs
+r2getsVBZ
+
+#Rule:HeadNoun-V
+r11EdgeNNgetsVBZ
+
+#Rule:V-HeadNoun
+r21getsVBZmicNN
+
+#Edge: Brock U know about that title match, well I lied.  
+#(S1 (FRAG (NP (NN Edge)) (: :) (S (NP (NNP Brock) (NNP U)) (VP (VB know) (PP (IN about) (NP (DT that) (NN title) (NN match))) (, ,) (ADVP (ADVP (RB well)) (SBAR (S (NP (PRP I)) (VP (VBD lied))))))) (. .)))
+#Rule:Nouns
+r1EdgeNN
+r1Brock UOrganizationAnnotation
+r1titleNN
+r1matchNN
+
+#Rule:Verbs
+r2knowVB
+r2liedVBD
+
+#Rule:N-HeadNoun
+r8titleNNmatchNN
+
+#Rule:HeadNoun-V
+r11Brock UOrganizationAnnotationknowVB
+r11iPRPliedVBD
+
+#Rule:PPinVP
+r30knowVBaboutINmatchNN
+
+#Rule:V-ADV
+r46knowVBwellRB
+
+#You will never touch my title.  
+#(S1 (S (NP (PRP You)) (VP (MD will) (ADVP (RB never)) (VP (VB touch) (NP (PRP$ my) (NN title)))) (. .)))
+#Rule:Nouns
+r1titleNN
+
+#Rule:Verbs
+r2touchVB
+
+#Rule:PRP-Noun
+r6myPRP$titleNN
+
+#Rule:HeadNoun-V
+r11youPRPtouchVB
+
+#Rule:V-HeadNoun
+r21touchVBtitleNN
+
+#Rule:V-ADV
+r46touchVBneverRB
+
+#Brock is furious.  
+#(S1 (S (NP (NNP Brock)) (VP (AUX is) (ADJP (JJ furious))) (. .)))
+#Rule:Nouns
+r1BrockNNP
+
+#Rule:Adjs
+r4furiousJJ
+
+#Rule:HeadNoun-V
+r11BrockNNPisAUX
+
+#Rule:V-ADJ
+r25isAUXfuriousJJ
+
+#Vince McMahon music hits.  
+#(S1 (S (NP (NNP Vince) (NNP McMahon)) (VP (NN music) (NP (NNS hits))) (. .)))
+#Rule:Nouns
+r1Vince McMahonPersonAnnotation
+r1musicNN
+r1hitsNNS
+
+#Rule:V-HeadNoun
+r21musicNNhitsNNS
+
+#Vince: Edge, out of some of the guys in WWE I respect U alot.  
+#(S1 (FRAG (NP (NN Vince)) (: :) (S (NP (NNP Edge)) (, ,) (PP (IN out) (PP (IN of) (NP (NP (DT some)) (PP (IN of) (NP (DT the) (NNS guys)))))) (PP (IN in) (NP (NNP WWE))) (NP (PRP I)) (VP (VB respect) (NP (NNP U) (NN alot)))) (. .)))
+#Rule:Nouns
+r1VinceNN
+r1EdgeOrganizationAnnotation
+r1guysNNS
+r1WWELocationAnnotation
+r1UOrganizationAnnotation
+r1alotNN
+
+#Rule:Verbs
+r2respectVB
+
+#Rule:N-HeadNoun
+r8UOrganizationAnnotationalotNN
+
+#Rule:HeadNoun-V
+r11EdgeOrganizationAnnotationrespectVB
+r11iPRPrespectVB
+
+#Rule:V-HeadNoun
+r21respectVBalotNN
+
+#Rule:PPinNP
+r26someDTofINguysNNS
+
+#Rule:PPinS
+r36respectVBinINWWELocationAnnotation
+
+#You are no doubt the biggest star on SD.  
+#(S1 (S (NP (PRP You)) (VP (AUX are) (ADVP (DT no) (NN doubt)) (NP (NP (DT the) (JJS biggest) (NN star)) (PP (IN on) (NP (NNP SD))))) (. .)))
+#Rule:Nouns
+r1doubtNN
+r1starNN
+r1SDNNP
+
+#Rule:Adjs
+r4biggestJJS
+
+#Rule:Adj-Noun
+r5biggestJJSstarNN
+
+#Rule:HeadNoun-V
+r11youPRPareAUX
+
+#Rule:V-HeadNoun
+r21areAUXstarNN
+
+#Rule:PPinNP
+r26starNNonINSDNNP
+
+#And you are right, the fans don t want to see you vs. brock.  
+#(S1 (S (S (CC And) (NP (PRP you)) (VP (AUX are) (ADJP (JJ right)))) (, ,) (NP (DT the) (NNS fans)) (VP (VB don) (SBAR (S (NP (NNS t)) (VP (VBP want) (S (VP (TO to) (VP (VB see) (NP (PRP you)) (PP (CC vs.) (NP (NN brock)))))))))) (. .)))
+#Rule:Nouns
+r1fansNNS
+r1tLocationAnnotation
+r1brockNN
+
+#Rule:Verbs
+r2donVB
+r2wantVBP
+r2seeVB
+
+#Rule:Adjs
+r4rightJJ
+
+#Rule:HeadNoun-V
+r11fansNNSdonVB
+r11youPRPareAUX
+r11tLocationAnnotationwantVBP
+
+#Rule:V-HeadNoun
+r21seeVByouPRP
+
+#Rule:V-ADJ
+r25areAUXrightJJ
+
+#Rule:V-V
+r44wantVBPseeVB
+
+#Oh no, but at Wrestlemania in that very ring it will be Edge vs. 
+#(S1 (S (INTJ (UH Oh) (UH no)) (, ,) (CC but) (S (PP (IN at) (NP (NP (NNP Wrestlemania)) (PP (IN in) (NP (DT that) (JJ very) (NN ring))))) (NP (PRP it)) (VP (MD will) (VP (AUX be) (NP (NNP Edge) (NNP vs))))) (. .)))
+#Rule:Nouns
+r1WrestlemaniaLocationAnnotation
+r1ringNN
+r1EdgeNNP
+r1vsNNP
+
+#Rule:Adjs
+r4veryJJ
+
+#Rule:Adj-Noun
+r5veryJJringNN
+
+#Rule:N-HeadNoun
+r8EdgeNNPvsNNP
+
+#Rule:HeadNoun-V
+r11itPRPbeAUX
+
+#Rule:V-HeadNoun
+r21beAUXvsNNP
+
+#Rule:PPinNP
+r26WrestlemaniaLocationAnnotationinINringNN
+
+#Rule:PPinS
+r36willMDatINWrestlemaniaLocationAnnotation
+
+#Batista vs. 
+#(S1 (NP (NNP Batista) (NNP vs) (. .)))
+#Rule:Nouns
+r1BatistaNNP
+r1vsNNP
+
+#Rule:N-HeadNoun
+r8BatistaNNPvsNNP
+
+#Brock Lesnar for the World Heavyweight Title.  
+#(S1 (NP (NP (NNP Brock) (NNP Lesnar)) (PP (IN for) (NP (DT the) (ADJP (NNP World) (JJ Heavyweight)) (NNP Title))) (. .)))
+#Rule:Nouns
+r1Brock LesnarPersonAnnotation
+r1the World Heavyweight TitleOrganizationAnnotation
+
+#Rule:PPinNP
+r26Brock LesnarPersonAnnotationforINthe World Heavyweight TitleOrganizationAnnotation
+
+#Edge is shocked. 
+#(S1 (S (NP (NN Edge)) (VP (AUX is) (ADJP (JJ shocked))) (. .)))
+#Rule:Nouns
+r1EdgeNN
+
+#Rule:Adjs
+r4shockedJJ
+
+#Rule:HeadNoun-V
+r11EdgeNNisAUX
+
+#Rule:V-ADJ
+r25isAUXshockedJJ
+
+#Lesnar smiles.  
+#(S1 (S (NP (NNP Lesnar)) (VP (VBZ smiles)) (. .)))
+#Rule:Nouns
+r1LesnarNNP
+
+#Rule:Verbs
+r2smilesVBZ
+
+#Rule:HeadNoun-V
+r11LesnarNNPsmilesVBZ
+
+#Lesnar: Shine my belt for me Edge I want to see my face.  
+#(S1 (NP (NP (NNP Lesnar)) (: :) (S (VP (VB Shine) (NP (PRP$ my) (NN belt)) (PP (IN for) (NP (NP (PRP me) (NN Edge)) (SBAR (S (NP (PRP I)) (VP (VBP want) (S (VP (TO to) (VP (VB see) (NP (PRP$ my) (NN face)))))))))))) (. .)))
+#Rule:Nouns
+r1LesnarPersonAnnotation
+r1beltNN
+r1EdgeNN
+r1faceNN
+
+#Rule:Verbs
+r2shineVB
+r2wantVBP
+r2seeVB
+
+#Rule:PRP-Noun
+r6myPRP$beltNN
+r6myPRP$faceNN
+
+#Rule:HeadNoun-V
+r11iPRPwantVBP
+
+#Rule:NP(NP(z) SBAR(S(NP(x)VP(y))))
+r19wantVBPEdgeNN
+
+#Rule:V-HeadNoun
+r21shineVBbeltNN
+r21seeVBfaceNN
+
+#Rule:PPinVP
+r30shineVBforINEdgeNN
+
+#Rule:V-V
+r44wantVBPseeVB
+
+#Rule:SubVerbClause
+r50LesnarPersonAnnotationshineVB
+
+#And one more thing here comes the pain!  
+#(S1 (S (CC And) (NP (NP (CD one) (JJR more) (NN thing)) (ADVP (RB here))) (VP (VBZ comes) (NP (DT the) (NN pain))) (. !)))
+#Rule:Nouns
+r1thingNN
+r1painLocationAnnotation
+
+#Rule:Verbs
+r2comesVBZ
+
+#Rule:Adjs
+r4moreJJR
+
+#Rule:Adj-Noun
+r5oneCDthingNN
+r5moreJJRthingNN
+
+#Rule:HeadNoun-V
+r11thingNNcomesVBZ
+
+#Rule:V-HeadNoun
+r21comesVBZpainLocationAnnotation
+
+#Ok, Wrestlemania is here.  
+#(S1 (S (INTJ (UH Ok)) (, ,) (NP (NNP Wrestlemania)) (VP (AUX is) (ADVP (RB here))) (. .)))
+#Rule:Nouns
+r1WrestlemaniaLocationAnnotation
+
+#Rule:HeadNoun-V
+r11WrestlemaniaLocationAnnotationisAUX
+
+#Rule:V-ADV
+r46isAUXhereRB
+
+#The match was changed to a 3 way Cage match.  
+#(S1 (S (NP (DT The) (NN match)) (VP (AUX was) (VP (VBN changed) (PP (TO to) (NP (DT a) (ADJP (CD 3) (NN way)) (NNP Cage) (NN match))))) (. .)))
+#Rule:Nouns
+r1matchNN
+r1wayNN
+r1CageNNP
+r1matchNN
+
+#Rule:Verbs
+r2changedVBN
+
+#Rule:Adj-Noun
+r53CDmatchNN
+
+#Rule:N-HeadNoun
+r8CageNNPmatchNN
+
+#Rule:V-HeadNoun(passive)
+r23changedVBNmatchNN
+
+#Rule:PPinVP
+r32changedVBNtoTOmatchNN
+
+#B4 the match Batista was attacked by Ryder&Hawkins.  
+#(S1 (S (PP (VBG B4) (NP (DT the) (NN match))) (NP (NNP Batista)) (VP (AUX was) (VP (VBN attacked) (PP (IN by) (NP (NNP Ryder&Hawkins))))) (. .)))
+#Rule:Nouns
+r1matchNN
+r1BatistaOrganizationAnnotation
+r1Ryder&HawkinsPersonAnnotation
+
+#Rule:Verbs
+r2b4VBG
+r2attackedVBN
+
+#Rule:V-By-Agent
+r13Ryder&HawkinsPersonAnnotationattackedVBN
+
+#Rule:V-HeadNoun(passive)
+r23attackedVBNBatistaOrganizationAnnotation
+
+#So he was told he couldn t compete.  
+#(S1 (S (RB So) (NP (PRP he)) (VP (AUX was) (VP (VBN told) (SBAR (S (NP (PRP he)) (VP (MD couldn) (RB t) (VP (VB compete))))))) (. .)))
+#Rule:Verbs
+r2toldVBN
+r2competeVB
+
+#Rule:HeadNoun-V
+r11hePRPcompeteVB
+
+#Rule:V-HeadNoun(passive)
+r23toldVBNhePRP
+
+#He comes out anyway.  
+#(S1 (S (NP (PRP He)) (VP (VBZ comes) (PRT (RP out)) (ADVP (RB anyway))) (. .)))
+#Rule:V-PRT
+r3comesVBZoutRP
+
+#Rule:HeadNoun-V
+r11hePRPcomesVBZ
+
+#Rule:V-ADV
+r46comesVBZanywayRB
+
+#The match starts and Edge&Lesnar quickly takes out Batista.  
+#(S1 (S (S (NP (DT The) (NN match)) (VP (VBZ starts))) (CC and) (S (NP (NNP Edge&Lesnar)) (ADVP (RB quickly)) (VP (VBZ takes) (PRT (RP out)) (NP (NNP Batista)))) (. .)))
+#Rule:Nouns
+r1matchNN
+r1Edge&LesnarPersonAnnotation
+r1BatistaLocationAnnotation
+
+#Rule:Verbs
+r2startsVBZ
+
+#Rule:V-PRT
+r3takesVBZoutRP
+
+#Rule:HeadNoun-V
+r11matchNNstartsVBZ
+r11Edge&LesnarPersonAnnotationtakesVBZ
+
+#Rule:V-HeadNoun
+r21takesVBZBatistaLocationAnnotation
+
+#Rule:V-ADV
+r46takesVBZquicklyRB
+
+#They throw him to the cage and busts him open.  
+#(S1 (S (NP (PRP They)) (VP (VBP throw) (NP (PRP him)) (PP (TO to) (NP (DT the) (NN cage) (CC and) (NNS busts))) (S (NP (PRP him)) (ADJP (JJ open)))) (. .)))
+#Rule:Nouns
+r1cageNN
+r1bustsNNS
+
+#Rule:Verbs
+r2throwVBP
+
+#Rule:Adjs
+r4openJJ
+
+#Rule:HeadNoun-V
+r11theyPRPthrowVBP
+
+#Rule:V-HeadNoun
+r21throwVBPhimPRP
+
+#Rule:V-HeadNoun
+r22throwVBPhimPRP
+
+#Rule:PPinVP
+r30throwVBPtoTOcageNN
+
+#Edge looks at Lesnar and tries to escape the cage.  
+#(S1 (S (NP (NN Edge)) (VP (VP (VBZ looks) (PP (IN at) (NP (NNP Lesnar)))) (CC and) (VP (VBZ tries) (S (VP (TO to) (VP (VB escape) (NP (DT the) (NN cage))))))) (. .)))
+#Rule:Nouns
+r1EdgeNN
+r1LesnarOrganizationAnnotation
+r1cageOrganizationAnnotation
+
+#Rule:Verbs
+r2looksVBZ
+r2triesVBZ
+r2escapeVB
+
+#Rule:HeadNoun-V
+r11EdgeNNlooksVBZ
+r11EdgeNNtriesVBZ
+
+#Rule:V-HeadNoun
+r21escapeVBcageOrganizationAnnotation
+
+#Rule:PPinVP
+r30looksVBZatINLesnarOrganizationAnnotation
+
+#Rule:V-V
+r44triesVBZescapeVB
+
+#Lesnar jumps up and takes Edge down.  
+#(S1 (S (NP (NNP Lesnar)) (VP (VP (VBZ jumps) (PRT (RP up))) (CC and) (VP (VBZ takes) (NP (NN Edge)) (ADVP (IN down)))) (. .)))
+#Rule:Nouns
+r1LesnarNNP
+r1EdgeNN
+
+#Rule:Verbs
+r2takesVBZ
+
+#Rule:V-PRT
+r3jumpsVBZupRP
+
+#Rule:HeadNoun-V
+r11LesnarNNPjumpsVBZ
+r11LesnarNNPtakesVBZ
+
+#Rule:V-HeadNoun
+r21takesVBZEdgeNN
+
+#He gives Edge three german suplexes.  
+#(S1 (S (NP (PRP He)) (VP (VBZ gives) (NP (NNP Edge)) (NP (CD three) (JJ german) (NNS suplexes))) (. .)))
+#Rule:Nouns
+r1EdgeNNP
+r1suplexesNNS
+
+#Rule:Verbs
+r2givesVBZ
+
+#Rule:Adjs
+r4germanPersonAnnotation
+
+#Rule:Adj-Noun
+r5threeCDsuplexesNNS
+r5germanPersonAnnotationsuplexesNNS
+
+#Rule:HeadNoun-V
+r11hePRPgivesVBZ
+
+#Rule:V-HeadNoun
+r21givesVBZEdgeNNP
+r21givesVBZsuplexesNNS
+
+#He waits for Edge to get up and then goes for the F5.  
+#(S1 (S (NP (PRP He)) (VP (VBZ waits) (SBAR (IN for) (S (S (NP (NNP Edge)) (VP (TO to) (VP (VB get) (ADVP (RB up))))) (CC and) (S (ADVP (RB then)) (VP (VBZ goes) (PP (IN for) (NP (DT the) (NNP F5)))))))) (. .)))
+#Rule:Nouns
+r1EdgeOrganizationAnnotation
+r1F5LocationAnnotation
+
+#Rule:Verbs
+r2waitsVBZ
+r2getVB
+r2goesVBZ
+
+#Rule:HeadNoun-V
+r11hePRPwaitsVBZ
+r11EdgeOrganizationAnnotationgetVB
+
+#Rule:PPinVP
+r30goesVBZforINF5LocationAnnotation
+
+#Rule:V-ADV
+r46getVBupRB
+r46goesVBZthenRB
+
+#Batista spears Lesnar.  
+#(S1 (S (NP (NNP Batista)) (VP (VBZ spears) (NP (NNP Lesnar))) (. .)))
+#Rule:Nouns
+r1BatistaOrganizationAnnotation
+r1LesnarPersonAnnotation
+
+#Rule:Verbs
+r2spearsVBZ
+
+#Rule:HeadNoun-V
+r11BatistaOrganizationAnnotationspearsVBZ
+
+#Rule:V-HeadNoun
+r21spearsVBZLesnarPersonAnnotation
+
+#All 3 guys are down.  
+#(S1 (S (NP (DT All) (CD 3) (NNS guys)) (VP (AUX are) (ADJP (RP down))) (. .)))
+#Rule:Nouns
+r1guysNNS
+
+#Rule:Adj-Noun
+r53CDguysNNS
+
+#Rule:HeadNoun-V
+r11guysNNSareAUX
+
+#Rule:V-ADJ
+r25areAUXdownRP
+
+#Edge picks Batista up and gives him the impaler DDT, but he kicks up.  
+#(S1 (S (S (NP (NN Edge)) (VP (VP (VBZ picks) (NP (NNP Batista)) (PRT (RP up))) (CC and) (VP (VBZ gives) (NP (PRP him)) (NP (DT the) (JJ impaler) (NNP DDT))))) (, ,) (CC but) (S (NP (PRP he)) (VP (VBZ kicks) (PRT (RP up)))) (. .)))
+#Rule:Nouns
+r1EdgeNN
+r1BatistaOrganizationAnnotation
+r1DDTOrganizationAnnotation
+
+#Rule:Verbs
+r2picksVBZ
+r2givesVBZ
+
+#Rule:V-PRT
+r3picksVBZupRP
+r3kicksVBZupRP
+
+#Rule:Adjs
+r4impalerJJ
+
+#Rule:Adj-Noun
+r5impalerJJDDTOrganizationAnnotation
+
+#Rule:HeadNoun-V
+r11EdgeNNpicksVBZ
+r11EdgeNNgivesVBZ
+r11hePRPkicksVBZ
+
+#Rule:V-HeadNoun
+r21picksVBZBatistaOrganizationAnnotation
+r21givesVBZhimPRP
+r21givesVBZDDTOrganizationAnnotation
+
+#Then he waits for Lesnar and hits the spear.  
+#(S1 (S (RB Then) (NP (PRP he)) (VP (VP (VBZ waits) (PP (IN for) (NP (NNP Lesnar)))) (CC and) (VP (VBZ hits) (NP (DT the) (NN spear)))) (. .)))
+#Rule:Nouns
+r1LesnarNNP
+r1spearNN
+
+#Rule:Verbs
+r2waitsVBZ
+r2hitsVBZ
+
+#Rule:HeadNoun-V
+r11hePRPwaitsVBZ
+r11hePRPhitsVBZ
+
+#Rule:V-HeadNoun
+r21hitsVBZspearNN
+
+#Rule:PPinVP
+r30waitsVBZforINLesnarNNP
+
+#Lesnar kicks up.  
+#(S1 (S (NP (NNP Lesnar)) (VP (VBZ kicks) (PRT (RP up))) (. .)))
+#Rule:Nouns
+r1LesnarPersonAnnotation
+
+#Rule:V-PRT
+r3kicksVBZupRP
+
+#Rule:HeadNoun-V
+r11LesnarPersonAnnotationkicksVBZ
+
+#Hawkins and Ryder come out and they beat up the ref and unlocks the cage.  
+#(S1 (S (S (NP (NP (NNP Hawkins)) (CC and) (NP (NNP Ryder))) (VP (VBP come) (PRT (RP out)))) (CC and) (S (NP (PRP they)) (VP (VP (VBP beat) (PRT (RP up)) (NP (DT the) (NN ref))) (CC and) (VP (VBZ unlocks) (NP (DT the) (NN cage))))) (. .)))
+#Rule:Nouns
+r1HawkinsPersonAnnotation
+r1RyderPersonAnnotation
+r1refNN
+r1cageOrganizationAnnotation
+
+#Rule:Verbs
+r2unlocksVBZ
+
+#Rule:V-PRT
+r3comeVBPoutRP
+r3beatVBPupRP
+
+#Rule:HeadNoun-V
+r11HawkinsPersonAnnotationcomeVBP
+r11RyderPersonAnnotationcomeVBP
+r11theyPRPbeatVBP
+r11theyPRPunlocksVBZ
+
+#Rule:V-HeadNoun
+r21beatVBPrefNN
+r21unlocksVBZcageOrganizationAnnotation
+
+#They get in and they help beat up Lesnar and Batista.  
+#(S1 (S (S (NP (PRP They)) (VP (VBP get) (ADVP (IN in)))) (CC and) (S (NP (PRP they)) (VP (VBP help) (S (VP (VB beat) (PRT (RP up)) (NP (NNP Lesnar) (CC and) (NNP Batista)))))) (. .)))
+#Rule:Nouns
+r1LesnarLocationAnnotation
+r1BatistaLocationAnnotation
+
+#Rule:Verbs
+r2getVBP
+r2helpVBP
+
+#Rule:V-PRT
+r3beatVBupRP
+
+#Rule:HeadNoun-V
+r11theyPRPgetVBP
+r11theyPRPhelpVBP
+
+#Rule:V-HeadNoun
+r21beatVBLesnarLocationAnnotation
+
+#Then Batista and Lesnar team up for a bit and cleans the house with Ryder&Hawkins. 
+#(S1 (S (ADVP (RB Then)) (NP (NNP Batista) (CC and) (NNP Lesnar)) (VP (VP (NN team) (PRT (RP up)) (PP (IN for) (NP (DT a) (NN bit)))) (CC and) (VP (VBZ cleans) (NP (DT the) (NN house)) (PP (IN with) (NP (NNP Ryder&Hawkins))))) (. .)))
+#Rule:Nouns
+r1BatistaOrganizationAnnotation
+r1LesnarOrganizationAnnotation
+r1teamNN
+r1bitNN
+r1houseNN
+r1Ryder&HawkinsPersonAnnotation
+
+#Rule:Verbs
+r2cleansVBZ
+
+#Rule:V-PRT
+r3teamNNupRP
+
+#Rule:HeadNoun-V
+r11BatistaOrganizationAnnotationcleansVBZ
+
+#Rule:V-HeadNoun
+r21cleansVBZhouseNN
+
+#Rule:PPinVP
+r30cleansVBZwithINRyder&HawkinsPersonAnnotation
+
+#They take out Edge and Batista is ready to Batista Bomb Edge.  
+#(S1 (S (NP (PRP They)) (VP (VBP take) (PRT (RP out)) (SBAR (S (NP (NNP Edge) (CC and) (NNP Batista)) (VP (AUX is) (ADJP (JJ ready) (PP (TO to) (NP (NNP Batista) (NN Bomb) (NNP Edge)))))))) (. .)))
+#Rule:Nouns
+r1EdgeOrganizationAnnotation
+r1BatistaOrganizationAnnotation
+r1Batista Bomb EdgeOrganizationAnnotation
+
+#Rule:V-PRT
+r3takeVBPoutRP
+
+#Rule:Adjs
+r4readyJJ
+
+#Rule:HeadNoun-V
+r11theyPRPtakeVBP
+r11EdgeOrganizationAnnotationisAUX
+
+#Rule:V-ADJ
+r25isAUXreadyJJ
+
+#Rule:PPinADJP
+r37readyJJtoTOBatista Bomb EdgeOrganizationAnnotation
+
+#Batista turns around and F5 on Batista.  
+#(S1 (S (NP (NNP Batista)) (VP (VP (VBZ turns) (ADVP (RB around))) (CC and) (VP (VBZ F5) (PP (IN on) (NP (NNP Batista))))) (. .)))
+#Rule:Nouns
+r1BatistaOrganizationAnnotation
+r1F5 on BatistaOrganizationAnnotation
+
+#Rule:Verbs
+r2turnsVBZ
+
+#Rule:HeadNoun-V
+r11BatistaOrganizationAnnotationturnsVBZ
+r11BatistaOrganizationAnnotationF5 on BatistaOrganizationAnnotation
+
+#Rule:V-ADV
+r46turnsVBZaroundRB
+
+#Lesnar then gets Edge and gives him an F5.  
+#(S1 (S (NP (NNP Lesnar)) (ADVP (RB then)) (VP (VP (VBZ gets) (NP (NN Edge))) (CC and) (VP (VBZ gives) (NP (PRP him)) (NP (DT an) (NNPS F5)))) (. .)))
+#Rule:Nouns
+r1LesnarPersonAnnotation
+r1EdgeNN
+r1F5NNPS
+
+#Rule:Verbs
+r2getsVBZ
+r2givesVBZ
+
+#Rule:HeadNoun-V
+r11LesnarPersonAnnotationgetsVBZ
+r11LesnarPersonAnnotationgivesVBZ
+
+#Rule:V-HeadNoun
+r21getsVBZEdgeNN
+r21givesVBZhimPRP
+r21givesVBZF5NNPS
+
+#Lesnar climbs out.  
+#(S1 (S (NP (NNP Lesnar)) (VP (VBZ climbs) (PRT (RP out))) (. .)))
+#Rule:Nouns
+r1LesnarNNP
+
+#Rule:V-PRT
+r3climbsVBZoutRP
+
+#Rule:HeadNoun-V
+r11LesnarNNPclimbsVBZ
+
+#Your new World Heavyweight Champion Brock Lesnar.  
+#(S1 (NP (PRP$ Your) (JJ new) (ADJP (NNP World) (JJ Heavyweight)) (NNP Champion) (NNP Brock) (NNP Lesnar) (. .)))
+#Rule:Nouns
+r1World Heavyweight Champion Brock LesnarOrganizationAnnotation
+
+#Rule:Adjs
+r4newJJ
+
+#Rule:Adj-Noun
+r5newJJWorld Heavyweight Champion Brock LesnarOrganizationAnnotation
+
+#Rule:PRP-Noun
+r6yourPRP$World Heavyweight Champion Brock LesnarOrganizationAnnotation
+
+#Then at Armageddon, Brock takes on Batista one last time in a stretcher match.  
+#(S1 (S (PP (ADVP (RB Then)) (IN at) (NP (NNP Armageddon))) (, ,) (NP (NNP Brock)) (VP (VBZ takes) (PP (IN on) (NP (NNP Batista))) (NP (NP (CD one) (JJ last) (NN time)) (PP (IN in) (NP (DT a) (JJ stretcher) (NN match))))) (. .)))
+#Rule:Nouns
+r1Armageddon, BrockOrganizationAnnotation
+r1BatistaOrganizationAnnotation
+r1timeNN
+r1matchNN
+
+#Rule:Verbs
+r2takesVBZ
+
+#Rule:Adjs
+r4lastJJ
+r4stretcherJJ
+
+#Rule:Adj-Noun
+r5oneCDtimeNN
+r5lastJJtimeNN
+r5stretcherJJmatchNN
+
+#Rule:HeadNoun-V
+r11Armageddon, BrockOrganizationAnnotationtakesVBZ
+
+#Rule:V-HeadNoun
+r21takesVBZtimeNN
+
+#Rule:PPinNP
+r26timeNNinINmatchNN
+
+#Rule:PPinVP
+r30takesVBZonINBatistaOrganizationAnnotation
+
+#Rule:PPinS
+r36takesVBZatINArmageddon, BrockOrganizationAnnotation
+
+#Brock offers Edge the same deal he did.  
+#(S1 (S (NP (JJ Brock) (NNS offers)) (VP (VB Edge) (NP (NP (DT the) (JJ same) (NN deal)) (SBAR (S (NP (PRP he)) (VP (AUX did)))))) (. .)))
+#Rule:Nouns
+r1offersNNS
+r1dealNN
+
+#Rule:Verbs
+r2edgeVB
+
+#Rule:Adjs
+r4BrockJJ
+r4sameJJ
+
+#Rule:Adj-Noun
+r5BrockJJoffersNNS
+r5sameJJdealNN
+
+#Rule:HeadNoun-V
+r11offersNNSedgeVB
+r11hePRPdidAUX
+
+#Rule:V-HeadNoun
+r21edgeVBdealNN
+
+#Edge helps Brock defeat Batista in a stretcher match.  
+#(S1 (S (NP (NN Edge)) (VP (VBZ helps) (S (NP (NNP Brock)) (VP (VB defeat) (NP (NNP Batista)) (PP (IN in) (NP (DT a) (JJ stretcher) (NN match)))))) (. .)))
+#Rule:Nouns
+r1EdgeNN
+r1BrockPersonAnnotation
+r1BatistaOrganizationAnnotation
+r1matchNN
+
+#Rule:Verbs
+r2helpsVBZ
+r2defeatVB
+
+#Rule:Adjs
+r4stretcherJJ
+
+#Rule:Adj-Noun
+r5stretcherJJmatchNN
+
+#Rule:HeadNoun-V
+r11EdgeNNhelpsVBZ
+r11BrockPersonAnnotationdefeatVB
+
+#Rule:V-HeadNoun
+r21defeatVBBatistaOrganizationAnnotation
+
+#Rule:V-HeadNoun
+r22helpsVBZBrockPersonAnnotation
+
+#Rule:PPinVP
+r30defeatVBinINmatchNN
+
+#Which puts Batista out of the picture and starts a new feud with Brock vs Edge.
+#(S1 (S (NP (WDT Which)) (VP (VP (VBZ puts) (NP (NNP Batista)) (PP (IN out) (PP (IN of) (NP (DT the) (NN picture))))) (CC and) (VP (VBZ starts) (NP (NP (DT a) (JJ new) (NN feud)) (PP (IN with) (NP (NNP Brock) (NNP vs) (NNP Edge)))))) (. .)))
+#Rule:Nouns
+r1BatistaOrganizationAnnotation
+r1pictureNN
+r1feudNN
+r1Brock vs EdgeOrganizationAnnotation
+
+#Rule:Verbs
+r2putsVBZ
+r2startsVBZ
+
+#Rule:Adjs
+r4newJJ
+
+#Rule:Adj-Noun
+r5newJJfeudNN
+
+#Rule:HeadNoun-V
+r11whichWDTputsVBZ
+r11whichWDTstartsVBZ
+
+#Rule:V-HeadNoun
+r21putsVBZBatistaOrganizationAnnotation
+r21startsVBZfeudNN
+
+#Rule:PPinNP
+r26feudNNwithINBrock vs EdgeOrganizationAnnotation
+
+#Rule:PPComboInVP
+r34putsVBZoutINpictureNN
+
+@lemmas-left	don	fight	winner	wait	stretcher	ready	compete	roll	time	suplexes	cage	right	turn	going	I don t	offers	told	heel	Hawkins	he	Edge	3	bit	2	hits	F5	touch	big	try	go	we	climb	face	give	biggest	vs	reasons	run	U	V	pick	do	tell	ropes	hard	f5	look	beat	jumps	come	back	smiles	i	works	v	ref	lied	new	starts	t	s	picks	urself	runs	F5 s Batista	respect	kick	bust	change	moves	took	attacked	same	has	takes	unlocks	deal	rope	be	s Brock Lesnar	monitor	get	tells	german	Brock Lesnar	sd	World Heavyweight Title	Less	Batista	fan	World Heavyweight Champion Brock Lesnar	bell	finish	DQs Le	belt	reasons.	got	make	Batista Bomb Edge	thing	does	Wrestlemania	WWE	set	b4	unforgiven	destroy	throw	monitors	waits	hands	tries	animal	talk	SD	music	3rd	finished	you	feud	climbs	which	Armageddon, Brock	see	stand	take	Him	very	they	brock	batista	announcer	F5 on Batista	NO DQ	shake	shine	house	rolls	guys	open	help	pins	are	says	smile	move	ring	unlock	busts	spears	hold	done	steps	table	U&me for the	Ryder	start	say	will	Cage	Unforgiven	some	Edge&Lesnar	put	bigger	Animal	pain	escape	title	clean	mine	vince	want	tonite	alot	post	spear	edge	guy	star	helps	my	chair	shakes	mic	Vince	attack	standing	Lesnar	Brock vs Edge	hate	last	count	the World Heavyweight Title	clothesline	show	shocked	him	proposition	middle	changed	reclaimmy	looks	more	his	puts	hit	Batista Bomb	someone	three	action	Brock isn	rings	work	goes	throws	Brock U	doubt	team	comes	Ryder&Hawkins	jump	picture	powerbombs	DDT	stretch	Bati	Brock	match	defeat	have	Me&U	fans	one	way	turns	Conchairto	real	less	hurts	is	it	audience	gives	Brock 	gets	your	offer	impaler	lesnar	came	know	cleans	hurt	pin	shoulder	furious	olays	kicks	lie	Vince McMahon	
+@lemmas-right	don	fight	winner	wait	ready	compete	roll	time	suplexes	cage	right	turn	going	isn	I don t	offers	Edge	he	1	hits	F5	touch	try	go	climb	face	give	vs	reasons	run	do	pick	tell	ropes	f5	look	beat	jumps	come	back	smiles	works	up	v	lied	ref	t	starts	s	picks	runs	down	quickly	respect	yet	kick	moves	took	attacked	takes	unlocks	deal	rope	be	s Brock Lesnar	monitor	get	so	tells	sd	World Heavyweight Title	Batista	World Heavyweight Champion Brock Lesnar	finish	belt	reasons.	make	got	Batista Bomb Edge	thing	does	Wrestlemania	WWE	well	unforgiven	So	throw	monitors	waits	hands	tries	talk	animal	SD	you	finished	still	feud	climbs	never	Armageddon, Brock	see	stand	take	out	batista	brock	F5 on Batista	shake	shine	house	rolls	guys	help	are	says	smile	move	ring	unlock	spears	hold	done	did	again	steps	table	U&me for the	not	start	then	say	Unforgiven	put	bigger	Animal	pain	escape	title	clean	me	mine	want	tonite	alot	post	edge	spear	guy	star	helps	chair	shakes	mic	attack	standing	Lesnar	Brock vs Edge	hate	count	the World Heavyweight Title	clothesline	shocked	actually	him	proposition	middle	anyway	almost	looks	Actually	puts	hit	Batista Bomb	rings	work	goes	throws	here	comes	Ryder&Hawkins	jump	picture	powerbombs	DDT	Bati	match	Brock	defeat	one	turns	Conchairto	hurts	is	audience	gives	gets	offer	came	lesnar	in	know	around	cleans	hurt	shoulder	furious	olays	first	kicks	lie	
+@lemmas-center	to	with	for	so	about	at	behind	into	from	like	in	of	over	than	on	down	out	

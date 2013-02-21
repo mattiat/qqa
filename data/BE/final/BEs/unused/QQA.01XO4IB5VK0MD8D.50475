@@ -1,0 +1,18 @@
+#6-8 hours per night.
+#(S1 (NP (NP (JJ 6-8) (NNS hours)) (PP (IN per) (NP (NN night))) (. .)))
+#Rule:Nouns
+r1hoursNNS
+r1nightNN
+
+#Rule:Adjs
+r46-8JJ
+
+#Rule:Adj-Noun
+r56-8JJhoursNNS
+
+#Rule:PPinNP
+r26hoursNNSperINnightNN
+
+@lemmas-left	hours	6-8	night	
+@lemmas-right	hours	night	
+@lemmas-center	per	

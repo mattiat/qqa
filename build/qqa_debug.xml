@@ -1,0 +1,443 @@
+<project name="BEwT-E" basedir="..">
+
+	<target name="init">
+		<tstamp />
+		<!-- ***RESOURCE FILES - THESE MUST BE SET PROPERLY BEFORE USE ***-->
+		<!-- FILES containing the dataset -->
+		<property name="DATASET_ANSWERS" value="../../Desktop/resources/dataset_emory/y_answers" />
+		<property name="DATASET_CATEGORIES" value="../../Desktop/resources/dataset_emory/y_category" />
+		<property name="DATASET_QUESTIONS" value="../../Desktop/resources/dataset_emory/y_questions" />
+		<property name="DATASET_USERS" value="../../Desktop/resources/dataset_emory/y_user" />
+		<!-- ***END OF RESOURCE FILES ***-->
+
+		<property name="QQA" value="qqa.QQA" />
+		<property name="CLASSES" location="build/classes" />
+		<property name="LIB" location="lib"/>
+		<property name="SRC" location="src"/>
+
+		<path id="project.classpath">
+			<pathelement path="${CLASSES}" />
+			<fileset dir="${LIB}">
+				<include name="**/*.jar" />
+			</fileset>
+		</path>
+
+		<antcall target="jar">
+		</antcall>
+	</target>
+
+	<target name="jar">
+		<delete dir="${CLASSES}" />
+		<mkdir dir="${CLASSES}" />
+		<javac srcdir="${SRC}" destdir="${CLASSES}" debug="on">
+			<classpath>
+				<fileset dir="${LIB}">
+					<include name="**/*.jar" />
+				</fileset>
+			</classpath>
+		</javac>
+		<copy todir="${CLASSES}">
+			<fileset dir="${SRC}">
+				<include name="**/*" />
+				<exclude name="**/*.java" />
+			</fileset>
+		</copy>
+		<jar destfile="QQA.jar" basedir="${CLASSES}">
+		</jar>
+	</target>
+
+	<!--********************************************************************-->
+	<!-- PI scoring function                                                -->
+	<!-- answer questions combining algebraically the weights               -->
+	<!--********************************************************************-->
+	<target name="E_Answer_Questions_BA" depends="init">
+			<java classname="qqa.E_Answer_Questions" fork="true">
+			<classpath refid="project.classpath" />
+			<jvmarg value="-Xms128m" />
+			<jvmarg value="-Xmx2000m" />
+			<!-- JVM debug options -->
+			<jvmarg value="-Xdebug"/>
+			<jvmarg value="-Xnoagent"/>
+			<jvmarg value="-Djava.compiler=NONE"/>
+			<jvmarg value="-Xrunjdwp:transport=dt_socket,server=y,suspend=y,address=8000"/>
+			<!-- parameters to main -->
+			<arg value="BA" />
+			<arg value="PIE" />
+		</java>
+	</target>
+
+	<target name="E_Answer_Questions_R" depends="init">
+		<java classname="qqa.E_Answer_Questions" fork="true">
+			<classpath refid="project.classpath" />
+			<jvmarg value="-Xms128m" />
+			<jvmarg value="-Xmx2000m" />
+			<!-- JVM debug options -->
+			<jvmarg value="-Xdebug"/>
+			<jvmarg value="-Xnoagent"/>
+			<jvmarg value="-Djava.compiler=NONE"/>
+			<jvmarg value="-Xrunjdwp:transport=dt_socket,server=y,suspend=y,address=8000"/>
+			<!-- parameters to main -->
+			<arg value="R" />
+			<arg value="PIE" />
+		</java>
+	</target>
+	
+	<target name="E_Answer_Questions_Q" depends="init">
+		<java classname="qqa.E_Answer_Questions" fork="true">
+			<classpath refid="project.classpath" />
+			<jvmarg value="-Xms128m" />
+			<jvmarg value="-Xmx2000m" />
+			<!-- JVM debug options -->
+			<jvmarg value="-Xdebug"/>
+			<jvmarg value="-Xnoagent"/>
+			<jvmarg value="-Djava.compiler=NONE"/>
+			<jvmarg value="-Xrunjdwp:transport=dt_socket,server=y,suspend=y,address=8000"/>
+			<!-- parameters to main -->
+			<arg value="Q" />
+			<arg value="PIE" />
+		</java>
+	</target>
+	
+	<target name="E_Answer_Questions_RQ_Pie" depends="init">
+		<java classname="qqa.E_Answer_Questions" fork="true">
+			<classpath refid="project.classpath" />
+			<jvmarg value="-Xms128m" />
+			<jvmarg value="-Xmx2000m" />
+			<!-- JVM debug options -->
+			<jvmarg value="-Xdebug"/>
+			<jvmarg value="-Xnoagent"/>
+			<jvmarg value="-Djava.compiler=NONE"/>
+			<jvmarg value="-Xrunjdwp:transport=dt_socket,server=y,suspend=y,address=8000"/>
+			<!-- parameters to main -->
+			<arg value="RQ" />
+			<arg value="PIE" />
+		</java>
+	</target>
+	
+	<target name="E_Answer_Questions_RC_Pie" depends="init">
+		<java classname="qqa.E_Answer_Questions" fork="true">
+			<classpath refid="project.classpath" />
+			<jvmarg value="-Xms128m" />
+			<jvmarg value="-Xmx2000m" />
+			<!-- JVM debug options -->
+			<jvmarg value="-Xdebug"/>
+			<jvmarg value="-Xnoagent"/>
+			<jvmarg value="-Djava.compiler=NONE"/>
+			<jvmarg value="-Xrunjdwp:transport=dt_socket,server=y,suspend=y,address=8000"/>
+			<!-- parameters to main -->
+			<arg value="RC" />
+			<arg value="PIE" />
+		</java>
+	</target>
+	
+	<target name="E_Answer_Questions_RN_Pie" depends="init">
+		<java classname="qqa.E_Answer_Questions" fork="true">
+			<classpath refid="project.classpath" />
+			<jvmarg value="-Xms128m" />
+			<jvmarg value="-Xmx2000m" />
+			<!-- JVM debug options -->
+			<jvmarg value="-Xdebug"/>
+			<jvmarg value="-Xnoagent"/>
+			<jvmarg value="-Djava.compiler=NONE"/>
+			<jvmarg value="-Xrunjdwp:transport=dt_socket,server=y,suspend=y,address=8000"/>
+			<!-- parameters to main -->
+			<arg value="RN" />
+			<arg value="PIE" />
+		</java>
+	</target>
+	
+	<target name="E_Answer_Questions_RQC_Pie" depends="init">
+		<java classname="qqa.E_Answer_Questions" fork="true">
+			<classpath refid="project.classpath" />
+			<jvmarg value="-Xms128m" />
+			<jvmarg value="-Xmx2000m" />
+			<!-- JVM debug options -->
+			<jvmarg value="-Xdebug"/>
+			<jvmarg value="-Xnoagent"/>
+			<jvmarg value="-Djava.compiler=NONE"/>
+			<jvmarg value="-Xrunjdwp:transport=dt_socket,server=y,suspend=y,address=8000"/>
+			<!-- parameters to main -->
+			<arg value="RQC" />
+			<arg value="PIE" />
+		</java>
+	</target>
+	
+	<target name="E_Answer_Questions_RQN_Pie" depends="init">
+		<java classname="qqa.E_Answer_Questions" fork="true">
+			<classpath refid="project.classpath" />
+			<jvmarg value="-Xms128m" />
+			<jvmarg value="-Xmx2000m" />
+			<!-- JVM debug options -->
+			<jvmarg value="-Xdebug"/>
+			<jvmarg value="-Xnoagent"/>
+			<jvmarg value="-Djava.compiler=NONE"/>
+			<jvmarg value="-Xrunjdwp:transport=dt_socket,server=y,suspend=y,address=8000"/>
+			<!-- parameters to main -->
+			<arg value="RQN" />
+			<arg value="PIE" />
+		</java>
+	</target>
+	
+	<target name="E_Answer_Questions_RCN_Pie" depends="init">
+			<java classname="qqa.E_Answer_Questions" fork="true">
+				<classpath refid="project.classpath" />
+				<jvmarg value="-Xms128m" />
+				<jvmarg value="-Xmx2000m" />
+				<!-- JVM debug options -->
+				<jvmarg value="-Xdebug"/>
+				<jvmarg value="-Xnoagent"/>
+				<jvmarg value="-Djava.compiler=NONE"/>
+				<jvmarg value="-Xrunjdwp:transport=dt_socket,server=y,suspend=y,address=8000"/>
+				<!-- parameters to main -->
+				<arg value="RCN" />
+				<arg value="PIE" />
+			</java>
+		</target>
+	
+	<target name="E_Answer_Questions_RQCN_Pie" depends="init">
+		<java classname="qqa.E_Answer_Questions" fork="true">
+			<classpath refid="project.classpath" />
+			<jvmarg value="-Xms128m" />
+			<jvmarg value="-Xmx2000m" />
+			<!-- JVM debug options -->
+			<jvmarg value="-Xdebug"/>
+			<jvmarg value="-Xnoagent"/>
+			<jvmarg value="-Djava.compiler=NONE"/>
+			<jvmarg value="-Xrunjdwp:transport=dt_socket,server=y,suspend=y,address=8000"/>
+			<!-- parameters to main -->
+			<arg value="RQCN" />
+			<arg value="PIE" />
+		</java>
+	</target>
+
+
+
+	<!--********************************************************************-->
+	<!-- SIGMA scoring function                                             -->
+	<!-- learns how to combine concept weights                              -->
+	<!--********************************************************************-->
+
+	<target name="E_Answer_Questions_RQCN_Sigma" depends="init">
+		<java classname="qqa.E_Answer_Questions" fork="true">
+			<classpath refid="project.classpath" />
+			<jvmarg value="-Xms128m" />
+			<jvmarg value="-Xmx2000m" />
+			<!-- JVM debug options -->
+			<jvmarg value="-Xdebug"/>
+			<jvmarg value="-Xnoagent"/>
+			<jvmarg value="-Djava.compiler=NONE"/>
+			<jvmarg value="-Xrunjdwp:transport=dt_socket,server=y,suspend=y,address=8000"/>
+			<!-- parameters to main -->
+			<arg value="RQCN" />
+			<arg value="SIGMA" />
+		</java>
+	</target>
+	<!-- learns how to combine concept weights -->
+	<target name="F_Learn_Weights" depends="init">
+		<java classname="qqa.F_Learn_Weights" fork="true">
+			<classpath refid="project.classpath" />
+			<jvmarg value="-Xms128m" />
+			<jvmarg value="-Xmx2000m" />
+			<!-- JVM debug options -->
+			<jvmarg value="-Xdebug"/>
+			<jvmarg value="-Xnoagent"/>
+			<jvmarg value="-Djava.compiler=NONE"/>
+			<jvmarg value="-Xrunjdwp:transport=dt_socket,server=y,suspend=y,address=8000"/>
+			<!-- parameters to main: none -->
+		</java>
+	</target>
+	
+	
+	
+	<!--********************************************************************-->
+	<!-- EXPERIMENTS                                                        -->
+	<!--********************************************************************-->
+	
+	<!-- Linear Regression -->
+	<target name="QualityLR_Evaluation" depends="init">
+		<java classname="qqa.experiments.QualityEvaluation" fork="true">
+			<classpath refid="project.classpath" />
+			<jvmarg value="-Xms128m" />
+			<jvmarg value="-Xmx2000m" />
+			<!-- JVM debug options -->
+			<jvmarg value="-Xdebug"/>
+			<jvmarg value="-Xnoagent"/>
+			<jvmarg value="-Djava.compiler=NONE"/>
+			<jvmarg value="-Xrunjdwp:transport=dt_socket,server=y,suspend=y,address=8000"/>
+			<!-- parameters to main: -->
+			<arg value="LR" />
+		</java>
+	</target>
+
+	<!-- Listwise Learning to Rank -->
+	<target name="QualityLLR_Evaluation" depends="init">
+		<java classname="qqa.experiments.QualityEvaluation" fork="true">
+			<classpath refid="project.classpath" />
+			<jvmarg value="-Xms128m" />
+			<jvmarg value="-Xmx2000m" />
+			<!-- JVM debug options -->
+			<jvmarg value="-Xdebug"/>
+			<jvmarg value="-Xnoagent"/>
+			<jvmarg value="-Djava.compiler=NONE"/>
+			<jvmarg value="-Xrunjdwp:transport=dt_socket,server=y,suspend=y,address=8000"/>
+			<!-- parameters to main: -->
+			<arg value="LLR" />
+		</java>
+	</target>
+
+	<!-- RougeEvaluation -->
+	<target name="Rouge_Evaluation" depends="init">
+		<java classname="qqa.experiments.RougeEvaluation" fork="true">
+			<classpath refid="project.classpath" />
+			<jvmarg value="-Xms128m" />
+			<jvmarg value="-Xmx2000m" />
+			<!-- JVM debug options -->
+			<jvmarg value="-Xdebug"/>
+			<jvmarg value="-Xnoagent"/>
+			<jvmarg value="-Djava.compiler=NONE"/>
+			<jvmarg value="-Xrunjdwp:transport=dt_socket,server=y,suspend=y,address=8000"/>
+			<!-- parameters to main -->
+			<arg value="-n 2" />
+		</java>
+	</target>
+	<!-- Rouge-BE Evaluation -->
+	<target name="RougeBE_Evaluation" depends="init">
+		<java classname="qqa.experiments.RougeEvaluation" fork="true">
+			<classpath refid="project.classpath" />
+			<jvmarg value="-Xms128m" />
+			<jvmarg value="-Xmx2000m" />
+			<!-- JVM debug options -->
+			<jvmarg value="-Xdebug"/>
+			<jvmarg value="-Xnoagent"/>
+			<jvmarg value="-Djava.compiler=NONE"/>
+			<jvmarg value="-Xrunjdwp:transport=dt_socket,server=y,suspend=y,address=8000"/>
+			<!-- parameters to main -->
+			<arg value="-3 HMR" />
+		</java>
+	</target>
+	<!-- RougeAnnotation (preparation for RougeEvaluation) -->
+	<target name="RougeAnnotation" depends="init">
+		<java classname="qqa.experiments.RougeAnnotation" fork="true">
+			<classpath refid="project.classpath" />
+			<jvmarg value="-Xms128m" />
+			<jvmarg value="-Xmx2000m" />
+			<!-- JVM debug options -->
+			<jvmarg value="-Xdebug"/>
+			<jvmarg value="-Xnoagent"/>
+			<jvmarg value="-Djava.compiler=NONE"/>
+			<jvmarg value="-Xrunjdwp:transport=dt_socket,server=y,suspend=y,address=8000"/>
+			<!-- parameters to main: none -->
+		</java>
+	</target>
+	
+	<!-- HumanEvaluation -->
+	<target name="Human_Evaluation" depends="init">
+		<java classname="qqa.experiments.HumanEvaluation" fork="true">
+			<classpath refid="project.classpath" />
+			<jvmarg value="-Xms128m" />
+			<jvmarg value="-Xmx2000m" />
+			<!-- JVM debug options -->
+			<jvmarg value="-Xdebug"/>
+			<jvmarg value="-Xnoagent"/>
+			<jvmarg value="-Djava.compiler=NONE"/>
+			<jvmarg value="-Xrunjdwp:transport=dt_socket,server=y,suspend=y,address=8000"/>
+			<!-- parameters to main: none -->
+		</java>
+	</target>
+
+
+	
+	<!--********************************************************************-->
+	<!-- DATASET PREPROCESSING STEPS                                        -->
+	<!--********************************************************************-->
+	
+	<!-- upload dataset to database -->
+	<!-- WARNING VERY TIME CONSUMING -->
+	<!-- invoke it once and then rely on database -->
+	<target name="A_Upload_Database" depends="init">
+		<java classname="qqa.A_Upload_Database" fork="true">
+			<classpath refid="project.classpath" />
+			<jvmarg value="-Xms128m" />
+			<jvmarg value="-Xmx2000m" />
+			<!-- JVM debug options -->
+			<jvmarg value="-Xdebug"/>
+			<jvmarg value="-Xnoagent"/>
+			<jvmarg value="-Djava.compiler=NONE"/>
+			<jvmarg value="-Xrunjdwp:transport=dt_socket,server=y,suspend=y,address=8000"/>
+			<!-- parameters to main: dataset files -->
+			<arg value="${DATASET_ANSWERS}" />
+			<arg value="${DATASET_CATEGORIES}" />
+			<arg value="${DATASET_QUESTIONS}" />
+			<arg value="${DATASET_USERS}" />
+		</java>
+	</target>
+
+	<!-- compute quality features -->
+	<!-- WARNING VERY TIME CONSUMING -->
+	<!-- invoke it once and then rely on database -->
+	<target name="B_Compute_Quality_Features" depends="init">
+		<java classname="qqa.B_Compute_Quality_Features" fork="true">
+			<classpath refid="project.classpath" />
+			<jvmarg value="-Xms128m" />
+			<jvmarg value="-Xmx2000m" />
+			<!-- JVM debug options -->
+			<jvmarg value="-Xdebug"/>
+			<jvmarg value="-Xnoagent"/>
+			<jvmarg value="-Djava.compiler=NONE"/>
+			<jvmarg value="-Xrunjdwp:transport=dt_socket,server=y,suspend=y,address=8000"/>
+			<!-- parameters to main: none -->
+		</java>
+	</target>
+
+	<!-- filter a dataset -->
+	<!-- WARNING VERY TIME CONSUMING -->
+	<!-- invoke it once and then rely on database -->
+	<target name="C_Filter_Dataset" depends="init">
+		<java classname="qqa.C_Filter_Dataset" fork="true">
+			<classpath refid="project.classpath" />
+			<jvmarg value="-Xms128m" />
+			<jvmarg value="-Xmx2000m" />
+			<!-- JVM debug options -->
+			<jvmarg value="-Xdebug"/>
+			<jvmarg value="-Xnoagent"/>
+			<jvmarg value="-Djava.compiler=NONE"/>
+			<jvmarg value="-Xrunjdwp:transport=dt_socket,server=y,suspend=y,address=8000"/>
+			<!-- parameters to main: none -->
+		</java>
+	</target>
+
+	<!-- extract BEs -->
+	<!-- WARNING VERY TIME CONSUMING -->
+	<!-- invoke it once and then rely on files in data/BE/final -->
+	<target name="D_Extract_BEs" depends="init">
+		<java classname="qqa.D_Extract_BEs" fork="true">
+			<classpath refid="project.classpath" />
+			<jvmarg value="-Xms128m" />
+			<jvmarg value="-Xmx2000m" />
+			<!-- JVM debug options -->
+			<jvmarg value="-Xdebug"/>
+			<jvmarg value="-Xnoagent"/>
+			<jvmarg value="-Djava.compiler=NONE"/>
+			<jvmarg value="-Xrunjdwp:transport=dt_socket,server=y,suspend=y,address=8000"/>
+			<!-- parameters to main: none -->
+		</java>
+	</target>
+
+	<!-- TEST extract BEs -->
+	<!-- WARNING VERY TIME CONSUMING -->
+	<!-- invoke it once and then rely on files in data/BE/final -->
+	<target name="TEST_D_Extract_BEs" depends="init">
+		<java classname="qqa.TEST_D_Extract_BEs" fork="true">
+			<classpath refid="project.classpath" />
+			<jvmarg value="-Xms128m" />
+			<jvmarg value="-Xmx2000m" />
+			<!-- JVM debug options -->
+			<jvmarg value="-Xdebug"/>
+			<jvmarg value="-Xnoagent"/>
+			<jvmarg value="-Djava.compiler=NONE"/>
+			<jvmarg value="-Xrunjdwp:transport=dt_socket,server=y,suspend=y,address=8000"/>
+			<!-- parameters to main: none -->
+		</java>
+	</target>
+	
+</project>

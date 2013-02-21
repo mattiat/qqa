@@ -1,0 +1,152 @@
+#Why do people say health care is bad in Canada? 
+#(S1 (SBARQ (WHADVP (WRB Why)) (SQ (AUX do) (NP (NNS people)) (VP (VB say) (SBAR (S (NP (NN health) (NN care)) (VP (AUX is) (ADJP (JJ bad)) (PP (IN in) (NP (NNP Canada)))))))) (. ?)))
+#Rule:Nouns
+r1peopleNNS
+r1healthNN
+r1careNN
+r1CanadaLocationAnnotation
+
+#Rule:Verbs
+r2sayVB
+
+#Rule:Adjs
+r4badJJ
+
+#Rule:N-HeadNoun
+r8healthNNcareNN
+
+#Rule:HeadNoun-V
+r11careNNisAUX
+
+#Rule:V-ADJ
+r25isAUXbadJJ
+
+#Rule:PPinVP
+r30isAUXinINCanadaLocationAnnotation
+
+#it is not.?
+#(S1 (S (NP (PRP it)) (VP (AUX is) (RB not) (. .)) (. ?)))
+#Rule:HeadNoun-V
+r11itPRPisAUX
+
+#Rule:V-ADV
+r46isAUXnotRB
+
+#if u have a bad illness you see a doctor fast. 
+#(S1 (S (SBAR (IN if) (S (NP (NNP u)) (VP (AUX have) (NP (DT a) (JJ bad) (NN illness))))) (NP (PRP you)) (VP (VBP see) (NP (DT a) (NN doctor)) (ADVP (RB fast))) (. .)))
+#Rule:Nouns
+r1uNNP
+r1illnessNN
+r1doctorNN
+
+#Rule:Verbs
+r2seeVBP
+
+#Rule:Adjs
+r4badJJ
+
+#Rule:Adj-Noun
+r5badJJillnessNN
+
+#Rule:HeadNoun-V
+r11youPRPseeVBP
+r11uNNPhaveAUX
+
+#Rule:V-HeadNoun
+r21haveAUXillnessNN
+r21seeVBPdoctorNN
+
+#Rule:V-ADV
+r46seeVBPfastRB
+
+#You only wait 2 or 3 weeks if is not serious here in the US u will die if you dont have health insrance. on the rich can have it not us poor. 
+#(S1 (S (NP (PRP You)) (ADVP (RB only)) (VP (VB wait) (NP (QP (CD 2) (CC or) (CD 3)) (NNS weeks)) (SBAR (IN if) (S (VP (AUX is) (RB not) (ADJP (JJ serious) (SBAR (ADVP (RB here)) (IN in) (S (NP (DT the) (NNP US) (NNP u)) (VP (MD will) (VP (VB die) (SBAR (IN if) (S (NP (PRP you)) (VP (VBP dont) (SBAR (S (VP (AUX have) (S (ADJP (NN health) (FW insrance.)) (SBAR (IN on) (S (NP (DT the) (JJ rich)) (VP (MD can) (VP (AUX have) (NP (PRP it)) (SBAR (RB not) (S (NP (PRP us)) (ADJP (JJ poor)))))))))))))))))))))))) (. .)))
+#Rule:Nouns
+r1weeksNNS
+r1USLocationAnnotation
+r1uNNP
+r1healthNN
+
+#Rule:Verbs
+r2waitVB
+r2dieVB
+r2dontVBP
+
+#Rule:Adjs
+r4seriousJJ
+r4richJJ
+r4poorJJ
+
+#Rule:Adj-Noun
+r52CDweeksNNS
+r53CDweeksNNS
+
+#Rule:N-HeadNoun
+r8USLocationAnnotationuNNP
+
+#Rule:HeadNoun-V
+r11youPRPwaitVB
+r11uNNPdieVB
+r11youPRPdontVBP
+r11richJJhaveAUX
+
+#Rule:V-HeadNoun
+r21waitVBweeksNNS
+r21haveAUXitPRP
+
+#Rule:V-ADJ
+r25isAUXseriousJJ
+
+#Rule:V-IN-V
+r43waitVBifINisAUX
+r43dieVBifINdontVBP
+
+#Rule:V-ADV
+r46waitVBonlyRB
+r46isAUXnotRB
+
+#Go Canada. 
+#(S1 (S (VP (VB Go) (NP (NNP Canada))) (. .)))
+#Rule:Nouns
+r1CanadaLocationAnnotation
+
+#Rule:Verbs
+r2goVB
+
+#Rule:V-HeadNoun
+r21goVBCanadaLocationAnnotation
+
+#Oh i am a US born person live here and need good heath care.
+#(S1 (S (S (INTJ (UH Oh)) (NP (PRP i)) (VP (AUX am) (NP (DT a) (PRP US) (VBN born) (NN person)))) (VP (VP (VBP live) (ADVP (RB here))) (CC and) (VP (AUX need) (NP (JJ good) (NN heath) (NN care)))) (. .)))
+#Rule:Nouns
+r1personNN
+r1heathNN
+r1careNN
+
+#Rule:Verbs
+r2bornVBN
+r2liveVBP
+
+#Rule:Adjs
+r4goodJJ
+
+#Rule:Adj-Noun
+r5bornVBNpersonNN
+r5goodJJcareNN
+
+#Rule:N-HeadNoun
+r8heathNNcareNN
+
+#Rule:HeadNoun-V
+r11Oh iLocationAnnotationamAUX
+
+#Rule:V-HeadNoun
+r21amAUXpersonNN
+r21needAUXcareNN
+
+#Rule:V-ADV
+r46liveVBPhereRB
+
+@lemmas-left	need	born	person	have	good	wait	people	doctor	illness	care	die	serious	Oh i	heath	live	be	bear	is	US	it	rich	poor	you	bad	health	weeks	3	2	u	see	Canada	dont	am	say	go	week	
+@lemmas-right	person	is	it	have	here	wait	bad	weeks	doctor	not	u	Canada	see	dont	am	illness	die	care	only	fast	serious	be	week	
+@lemmas-center	if	in	

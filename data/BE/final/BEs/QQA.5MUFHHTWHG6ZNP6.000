@@ -1,0 +1,50 @@
+#How To Control Stress And Anxiety??
+#(S1 (FRAG (FRAG (WHADVP (WRB How)) (PP (TO To) (NP (NNP Control) (NN Stress) (CC And) (NN Anxiety))) (. ?)) (. ?)))
+#Rule:Nouns
+r1To Control StressOrganizationAnnotation
+r1AnxietyNN
+
+#What are some good ways to reduce stress and anxiety and be able to focus/concentrate better? Thanks for any advice, it is GREATLY appreciated!
+#(S1 (S (SBAR (WHNP (WP What)) (S (VP (AUX are) (NP (NP (DT some) (ADJP (JJ good) (S (NP (NNS ways)) (VP (TO to) (VP (VP (VB reduce) (NP (NN stress) (CC and) (NN anxiety))) (CC and) (VP (AUX be) (ADJP (JJ able) (S (VP (TO to) (VP (VB focus/concentrate) (ADVP (RBR better))))))))) (. ?))) (NNS Thanks)) (PP (IN for) (NP (DT any) (NN advice))))))) (, ,) (NP (PRP it)) (VP (AUX is) (VP (ADVP (RB GREATLY)) (VBN appreciated))) (. !)))
+#Rule:Nouns
+r1waysNNS
+r1stressNN
+r1anxietyNN
+r1ThanksNNS
+r1adviceNN
+
+#Rule:Verbs
+r2reduceVB
+r2focus/concentrateVB
+r2appreciatedVBN
+
+#Rule:Adjs
+r4goodJJ
+r4ableJJ
+
+#Rule:Adj-Noun
+r5goodJJThanksNNS
+
+#Rule:HeadNoun-V
+r11waysNNSreduceVB
+r11waysNNSbeAUX
+
+#Rule:V-HeadNoun
+r21areAUXThanksNNS
+r21reduceVBstressNN
+
+#Rule:V-HeadNoun(passive)
+r23appreciatedVBNitPRP
+
+#Rule:V-ADJ
+r25beAUXableJJ
+
+#Rule:PPinNP
+r26ThanksNNSforINadviceNN
+
+#Rule:V-ADV
+r46appreciatedVBNGREATLYRB
+
+@lemmas-left	appreciate	concentrate	Anxiety	anxiety	stress	Thanks	good	To Control Stress	reduce	appreciated	thanks	are	able	focus/concentrate	advice	be	ways	
+@lemmas-right	thanks	it	able	stress	Thanks	GREATLY	advice	reduce	greatly	be	
+@lemmas-center	for	

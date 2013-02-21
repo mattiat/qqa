@@ -1,0 +1,287 @@
+#I think the people who believe are the narrow minded..
+#(S1 (S (NP (PRP I)) (VP (VBP think) (S (NP (NP (DT the) (NNS people)) (SBAR (WHNP (WP who)) (S (VP (VBP believe))))) (VP (AUX are) (NP (DT the) (JJ narrow) (JJ minded))) (. .))) (. .)))
+#Rule:Nouns
+r1peopleNNS
+
+#Rule:Verbs
+r2thinkVBP
+r2believeVBP
+
+#Rule:Adjs
+r4narrowJJ
+r4mindedJJ
+
+#Rule:Adj-Noun
+r5narrowJJmindedJJ
+
+#Rule:HeadNoun-V
+r11iPRPthinkVBP
+r11peopleNNSareAUX
+
+#Rule:HeadNoun-(who/that)-V
+r14peopleNNSbelieveVBP
+
+#Rule:V-HeadNoun
+r21areAUXmindedJJ
+
+#Rule:V-HeadNoun
+r22thinkVBPpeopleNNS
+
+#You in the face of overwhelming evidence,continue to believe. I m not against it..
+#(S1 (S (NP (PRP You)) (PP (IN in) (NP (NP (DT the) (NN face)) (PP (IN of) (NP (JJ overwhelming) (NN evidence))))) (, ,) (VP (VBP continue) (S (VP (TO to) (VP (VB believe.) (S (NP (PRP I)) (VP (NNP m) (PP (RB not) (IN against) (NP (PRP it)))) (. .)))))) (. .)))
+#Rule:Nouns
+r1faceNN
+r1evidenceNN
+r1I mPersonAnnotation
+
+#Rule:Verbs
+r2continueVBP
+r2believeVB
+
+#Rule:Adjs
+r4overwhelmingJJ
+
+#Rule:Adj-Noun
+r5overwhelmingJJevidenceNN
+
+#Rule:HeadNoun-V
+r11youPRPcontinueVBP
+
+#Rule:V-HeadNoun
+r22believeVBI mPersonAnnotation
+
+#Rule:PPinNP
+r26faceNNofINevidenceNN
+
+#Rule:PPinS
+r36continueVBPinINfaceNN
+
+#Rule:V-V
+r44continueVBPbelieveVB
+
+#In fact I d like to see a real ghost or psychic..
+#(S1 (S (PP (IN In) (NP (NN fact))) (S (NP (PRP I)) (ADVP (LS d)) (VP (VBP like) (S (VP (TO to) (VP (VB see) (UCP (NP (DT a) (JJ real) (NN ghost)) (CC or) (ADJP (JJ psychic))))))) (. .)) (. .)))
+#Rule:Nouns
+r1factNN
+r1ghostNN
+
+#Rule:Verbs
+r2likeVBP
+r2seeVB
+
+#Rule:Adjs
+r4realJJ
+r4psychicJJ
+
+#Rule:Adj-Noun
+r5realJJghostNN
+
+#Rule:HeadNoun-V
+r11iPRPlikeVBP
+
+#Rule:PPinS
+r36likeVBPinINfactNN
+
+#Rule:V-V
+r44likeVBPseeVB
+
+#I d love to see a UFO or Bigfoot..
+#(S1 (S (NP (PRP I)) (ADVP (LS d)) (VP (VBP love) (S (VP (TO to) (VP (VB see) (NP (DT a) (NNP UFO) (CC or) (NNP Bigfoot) (. .)))))) (. .)))
+#Rule:Nouns
+r1UFOLocationAnnotation
+r1Bigfoot..LocationAnnotation
+
+#Rule:Verbs
+r2loveVBP
+r2seeVB
+
+#Rule:HeadNoun-V
+r11iPRPloveVBP
+
+#Rule:V-HeadNoun
+r21seeVBUFOLocationAnnotation
+
+#Rule:V-V
+r44loveVBPseeVB
+
+#It s just not possible,at least so far..
+#(S1 (S (NP (PRP It)) (VP (VBZ s) (ADJP (RB just) (RB not) (JJ possible)) (, ,) (ADVP (ADVP (IN at) (JJS least)) (RB so) (RB far) (. .))) (. .)))
+#Rule:Verbs
+r2sVBZ
+
+#Rule:Adjs
+r4possibleJJ
+r4leastJJS
+
+#Rule:HeadNoun-V
+r11itPRPsVBZ
+
+#Rule:V-ADV
+r46sVBZsoRB
+r46sVBZfarRB
+
+#If you check out paranormal claims,they always fall apart..
+#(S1 (S (S (SBAR (IN If) (S (NP (PRP you)) (VP (VBP check) (PRT (RP out))))) (NP (NNP paranormal)) (VP (VBZ claims))) (, ,) (S (NP (PRP they)) (ADVP (RB always)) (VP (VBP fall) (PRT (RP apart))) (. .)) (. .)))
+#Rule:Nouns
+r1paranormalNNP
+
+#Rule:Verbs
+r2claimsVBZ
+
+#Rule:V-PRT
+r3checkVBPoutRP
+r3fallVBPapartRP
+
+#Rule:HeadNoun-V
+r11paranormalNNPclaimsVBZ
+r11youPRPcheckVBP
+r11theyPRPfallVBP
+
+#Rule:V-ADV
+r46fallVBPalwaysRB
+
+#You re always left someone says they saw-------- .If you want to believe fine,go ahead..
+#(S1 (S (NP (PRP You) (NNP re)) (ADVP (RB always)) (VP (VBD left) (S (NP (NN someone)) (VP (VBZ says) (SBAR (S (NP (PRP they)) (VP (VBP saw--------) (NP (NN .If)) (SBAR (S (NP (PRP you)) (VP (VBP want) (S (VP (TO to) (VP (VP (VB believe) (ADJP (JJ fine))) (, ,) (VP (VB go) (ADVP (RB ahead))))))))))))) (. .))) (. .)))
+#Rule:Nouns
+r1reNNP
+r1someoneNN
+r1.IfNN
+
+#Rule:Verbs
+r2leftVBD
+r2saysVBZ
+r2saw--------VBP
+r2wantVBP
+r2believeVB
+r2goVB
+
+#Rule:Adjs
+r4fineJJ
+
+#Rule:HeadNoun-V
+r11reNNPleftVBD
+r11someoneNNsaysVBZ
+r11theyPRPsaw--------VBP
+r11youPRPwantVBP
+
+#Rule:V-HeadNoun
+r21saw--------VBP.IfNN
+
+#Rule:V-HeadNoun
+r22leftVBDsomeoneNN
+
+#Rule:V-ADV
+r46leftVBDalwaysRB
+r46goVBaheadRB
+
+#When you ask a question in Science and Math. You ll get an opposing view..
+#(S1 (SBARQ (WHADVP (WRB When)) (SQ (NP (PRP you)) (VP (VB ask) (NP (NP (DT a) (NN question)) (PP (IN in) (NP (NNP Science) (CC and) (NNP Math.)))) (SBAR (S (NP (PRP You)) (ADVP (RB ll)) (VP (VBP get) (NP (DT an) (JJ opposing) (NN view)))))) (. .)) (. .)))
+#Rule:Nouns
+r1questionNN
+r1ScienceNNP
+r1MathLocationAnnotation
+r1viewNN
+
+#Rule:Verbs
+r2askVB
+r2getVBP
+
+#Rule:Adjs
+r4opposingJJ
+
+#Rule:Adj-Noun
+r5opposingJJviewNN
+
+#Rule:HeadNoun-V
+r11youPRPgetVBP
+
+#Rule:V-HeadNoun
+r21askVBquestionNN
+r21getVBPviewNN
+
+#Rule:PPinNP
+r26questionNNinINScienceNNP
+
+#Rule:V-ADV
+r46getVBPllRB
+
+#Not for your benefit,but for others..
+#(S1 (FRAG (RB Not) (PP (PP (IN for) (NP (PRP$ your) (NN benefit))) (, ,) (CC but) (PP (IN for) (NP (NNS others))) (. .)) (. .)))
+#Rule:Nouns
+r1benefitNN
+r1othersNNS
+
+#Rule:PRP-Noun
+r6yourPRP$benefitNN
+
+#Some one standing on the fence between rationality and nonsense..
+#(S1 (FRAG (NP (QP (RB Some) (CD one)) (NN standing)) (PP (IN on) (NP (NP (DT the) (NN fence)) (PP (IN between) (NP (NN rationality) (CC and) (NN nonsense)))) (. .)) (. .)))
+#Rule:Nouns
+r1standingNN
+r1fenceNN
+r1rationalityNN
+r1nonsenseNN
+
+#Rule:Adj-Noun
+r5oneCDstandingNN
+
+#Rule:PPinNP
+r26fenceNNbetweenINrationalityNN
+
+#I m going to try and influence them with facts whenever possible..
+#(S1 (S (NP (PRP I)) (VP (NNP m) (VP (VBG going) (S (VP (TO to) (VP (VB try) (CC and) (VB influence) (NP (PRP them)) (PP (IN with) (NP (NNS facts))) (SBAR (WHADVP (WRB whenever)) (FRAG (ADJP (JJ possible)) (. .)))))))) (. .)))
+#Rule:Nouns
+r1mNNP
+r1factsNNS
+
+#Rule:Verbs
+r2goingVBG
+r2tryVB
+r2influenceVB
+
+#Rule:Adjs
+r4possibleJJ
+
+#Rule:HeadNoun-V
+r11iPRPgoingVBG
+
+#Rule:V-HeadNoun
+r21tryVBthemPRP
+
+#Rule:PPinVP
+r30tryVBwithINfactsNNS
+
+#Rule:V-V
+r44goingVBGtryVB
+
+#Frankly, the world is a better place without superstition.
+#(S1 (S (ADVP (RB Frankly)) (, ,) (NP (DT the) (NN world)) (VP (AUX is) (NP (NP (DT a) (JJR better) (NN place)) (PP (IN without) (NP (NN superstition))))) (. .)))
+#Rule:Nouns
+r1worldNN
+r1placeNN
+r1superstitionOrganizationAnnotation
+
+#Rule:Adjs
+r4betterJJR
+
+#Rule:Adj-Noun
+r5betterJJRplaceNN
+
+#Rule:HeadNoun-V
+r11worldNNisAUX
+
+#Rule:V-HeadNoun
+r21isAUXplaceNN
+
+#Rule:PPinNP
+r26placeNNwithoutINsuperstitionOrganizationAnnotation
+
+#Rule:V-ADV
+r46isAUXFranklyRB
+
+#Rule:IS-RULE
+r47placeNNworldNN
+
+@lemmas-left	opposing	Bigfoot..	they	benefit	least	Math	ghost	people	I m	science	love	are	facts	someone	says	minded	place	rationality	be	going	think	claims	others	believe.	get	like	.if	fence	better	overwhelming	say	UFO	view	ask	try	go	face	one	evidence	influence	believe	re	real	possible	leave	nonsense	.If	left	psychic	question	paranormal	fine	want	is	saw--------	it	check	your	you	m	Science	i	narrow	superstition	fact	s	see	continue	fall	claim	standing	world	
+@lemmas-right	benefit	ghost	people	I m	science	love	are	facts	someone	says	minded	place	rationality	be	frankly	claims	think	going	believe.	get	so	far	like	always	apart	.if	them	say	UFO	view	try	go	face	ll	evidence	believe	leave	.If	left	question	want	Frankly	is	saw--------	check	ahead	Science	superstition	fact	s	see	continue	fall	claim	standing	world	out	
+@lemmas-center	of	with	without	in	between	

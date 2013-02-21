@@ -1,0 +1,606 @@
+BE: wayNN
+EQ class: stylenn	fashionnn	modenn	mannernn	
+
+BE: weightNN
+EQ class: weightyjj	
+
+BE: dietNN
+EQ class: dieteticaljj	dieteticjj	dietaryjj	
+
+BE: sweetsNNS
+EQ class: henry_sweetnns	sweetnns	theynns	themnns	
+
+BE: junkNN
+EQ class: dustnn	debrisnn	detritusnn	rubblenn	
+
+BE: foodsNNS
+EQ class: foodnns	theynns	nutrientnns	themnns	
+
+BE: amountNN
+EQ class: sum_of_moneynn	sumnn	amount_of_moneynn	
+
+BE: exerciseNN
+EQ class: workoutnn	physical_exercisenn	physical_exertionnn	exercisingnn	
+
+BE: loseVB
+EQ class: 
+
+BE: eatVB
+EQ class: 
+
+BE: stayingVBG
+EQ class: stayvbg	restvbg	remainvbg	
+
+BE: gettingVBG
+EQ class: getvbg	acquirevbg	
+
+BE: simpleJJ
+EQ class: simplenessnn	simplicitynn	
+
+BE: healthyJJ
+EQ class: healthnn	healthinessnn	
+
+BE: balancedJJ
+EQ class: 
+
+BE: modersteJJ
+EQ class: 
+
+BE: dailyJJ
+EQ class: day-to-dayjj	day-by-dayjj	day-after-dayjj	daynn	
+
+BE: simpleJJwayNN
+EQ class: simplejjfashionnn	simplicitynnmodenn	simplicitynnstylenn	simplenessnnstylenn	simplicitynnfashionnn	simplenessnnfashionnn	simplicitynnwaynn	simplenessnnmannernn	simplenessnnmodenn	simplenessnnwaynn	simplejjstylenn	simplejjmodenn	simplicitynnmannernn	simplejjmannernn	
+
+BE: healthyJJwayNN
+EQ class: healthinessnnwaynn	healthinessnnstylenn	healthyjjfashionnn	healthnnwaynn	healthinessnnmodenn	healthnnmannernn	healthinessnnmannernn	healthinessnnfashionnn	healthnnfashionnn	healthnnstylenn	healthnnmodenn	healthyjjmodenn	healthyjjmannernn	healthyjjstylenn	
+
+BE: balancedJJdietNN
+EQ class: balancedjjdieteticaljj	balancedjjdieteticjj	balancedjjdietaryjj	
+
+BE: modersteJJamountNN
+EQ class: moderstejjamount_of_moneynn	moderstejjsum_of_moneynn	moderstejjsumnn	
+
+BE: dailyJJexerciseNN
+EQ class: daynnphysical_exertionnn	day-to-dayjjexercisenn	day-by-dayjjexercisenn	dailyjjworkoutnn	daynnexercisingnn	day-to-dayjjexercisingnn	dailyjjexercisingnn	day-to-dayjjphysical_exercisenn	dailyjjphysical_exertionnn	day-by-dayjjexercisingnn	day-after-dayjjexercisenn	day-after-dayjjphysical_exertionnn	day-to-dayjjworkoutnn	day-after-dayjjexercisingnn	daynnphysical_exercisenn	day-after-dayjjphysical_exercisenn	dailyjjphysical_exercisenn	daynnexercisenn	day-by-dayjjphysical_exercisenn	daynnworkoutnn	day-by-dayjjphysical_exertionnn	day-to-dayjjphysical_exertionnn	day-by-dayjjworkoutnn	day-after-dayjjworkoutnn	
+
+BE: junkNNfoodsNNS
+EQ class: nutrientnnsjunkvb	foodnnsscrapvb	themnnsofindebrisnn	debrisnnofinthemnns	foodnnsofindustnn	junknnofinthemnns	foodsnnsofindebrisnn	detritusnnofinthemnns	debrisnntheynns	detritusnntheynns	nutrientnnsofindebrisnn	debrisnnfoodsnns	detritusnnfoodsnns	theynnsofindustnn	junknntheynns	nutrientnnsofinjunknn	themnnsjunkvb	detritusnnofinnutrientnns	rubblennofinfoodsnns	debrisnnthemnns	nutrientnnsscrapvb	rubblennfoodnns	foodsnnsofindetritusnn	nutrientnnsofinrubblenn	detritusnnofinfoodnns	junknnofinfoodsnns	dustnnfoodsnns	rubblennfoodsnns	nutrientnnstrashvb	rubblennofintheynns	detritusnnofintheynns	theynnsjunkvb	themnnsofindetritusnn	rubblennofinnutrientnns	foodnnsofinrubblenn	dustnnthemnns	themnnstrashvb	themnnsofindustnn	nutrientnnsofindustnn	dustnnofinfoodnns	foodsnnsofinjunknn	detritusnnthemnns	foodsnnsscrapvb	junknnofinnutrientnns	junknnofinfoodnns	themnnsofinjunknn	detritusnnofinfoodsnns	dustnnofinfoodsnns	dustnnofinthemnns	foodsnnstrashvb	theynnsofinrubblenn	junknnfoodnns	theynnsofindebrisnn	rubblennofinfoodnns	theynnstrashvb	detritusnnfoodnns	foodnnsofindetritusnn	debrisnnnutrientnns	rubblenntheynns	foodnnsofindebrisnn	foodnnsofinjunknn	themnnsscrapvb	rubblennnutrientnns	foodnnsjunkvb	junknnofintheynns	nutrientnnsofindetritusnn	dustnnofintheynns	dustnnnutrientnns	dustnnfoodnns	theynnsofindetritusnn	theynnsofinjunknn	dustnntheynns	detritusnnnutrientnns	debrisnnfoodnns	debrisnnofinfoodnns	foodsnnsjunkvb	dustnnofinnutrientnns	themnnsofinrubblenn	debrisnnofinnutrientnns	rubblennthemnns	junknnnutrientnns	junknnthemnns	foodsnnsofindustnn	debrisnnofinfoodsnns	foodsnnsofinrubblenn	foodnnstrashvb	debrisnnofintheynns	theynnsscrapvb	rubblennofinthemnns	
+
+BE: wayNNeatVB
+EQ class: eaternnfashionnn	eatingnnofinstylenn	feedernnmodenn	eatingnnofinwaynn	eatingnnofinmannernn	feedingnnofinmodenn	eaternnstylenn	feedernnmannernn	feedingnnwaynn	eatingnnwaynn	mannernneatvb	eaternnofinmodenn	eatingnnfashionnn	eaternnofinfashionnn	feedernnfashionnn	eaternnmannernn	eaternnmodenn	feedingnnofinmannernn	eatingnnstylenn	feedingnnofinstylenn	feedernnwaynn	feedernnofinstylenn	feedernnofinfashionnn	stylenneatvb	feedingnnstylenn	eatingnnmannernn	feedingnnfashionnn	modenneatvb	eatingnnofinmodenn	eaternnwaynn	feedingnnmodenn	eatingnnofinfashionnn	feedingnnmannernn	feedernnstylenn	feedingnnofinfashionnn	eaternnofinwaynn	feedernnofinmodenn	feedernnofinwaynn	eatingnnmodenn	feedingnnofinwaynn	eaternnofinmannernn	fashionnneatvb	feedernnofinmannernn	eaternnofinstylenn	
+
+BE: wayNNloseVB
+EQ class: mannernnlosevb	stylennlosevb	modennlosevb	fashionnnlosevb	
+
+BE: loseVBweightNN
+EQ class: losevbweightyjj	
+
+BE: eatVBdietNN
+EQ class: eatingnnofindieteticaljj	eaternnofindietnn	feedingnnofindieteticaljj	feedernnofindieteticjj	feedingnnofindietaryjj	feedernnofindietnn	feedernnofindieteticaljj	eatvbdietaryjj	feedernnofindietaryjj	eaternnofindietaryjj	eatvbdieteticaljj	eaternnofindieteticjj	eatvbdieteticjj	eatingnnofindietaryjj	feedingnnofindietnn	eaternnofindieteticaljj	eatingnnofindieteticjj	feedingnnofindieteticjj	eatingnnofindietnn	
+
+BE: gettingVBGamountNN
+EQ class: acquirevbgamountnn	getvbgsum_of_moneynn	acquiringnnofinsumnn	gettingvbgsum_of_moneynn	acquirevbgsumnn	gettingvbgamount_of_moneynn	acquirevbgsum_of_moneynn	acquiringnnofinsum_of_moneynn	acquiringnnofinamountnn	gettingvbgsumnn	gettingnnofinsum_of_moneynn	acquirevbgamount_of_moneynn	acquiringnnofinamount_of_moneynn	getvbgamountnn	gettingnnofinamountnn	getvbgamount_of_moneynn	getvbgsumnn	gettingnnofinsumnn	gettingnnofinamount_of_moneynn	
+
+BE: amountNNofINexerciseNN
+EQ class: sumnnofinexercisenn	amountnnofinexercisingnn	physical_exercisennamountnn	exercisingnnsumnn	physical_exertionnnamount_of_moneynn	exercisingnnamountnn	sum_of_moneynnofinexercisingnn	amount_of_moneynnofinexercisingnn	exercisennsum_of_moneynn	sum_of_moneynnofinworkoutnn	amount_of_moneynnofinphysical_exercisenn	exercisingnnamount_of_moneynn	exercisennamount_of_moneynn	amountnnofinworkoutnn	physical_exertionnnsumnn	physical_exercisennsumnn	sumnnofinexercisingnn	amount_of_moneynnofinexercisenn	sumnnofinworkoutnn	sum_of_moneynnofinphysical_exercisenn	workoutnnsum_of_moneynn	amount_of_moneynnofinworkoutnn	amount_of_moneynnofinphysical_exertionnn	exercisennamountnn	workoutnnsumnn	sumnnofinphysical_exertionnn	physical_exertionnnamountnn	exercisingnnsum_of_moneynn	sumnnofinphysical_exercisenn	workoutnnamount_of_moneynn	amountnnofinphysical_exercisenn	amountnnofinphysical_exertionnn	sum_of_moneynnofinexercisenn	physical_exercisennamount_of_moneynn	physical_exercisennsum_of_moneynn	workoutnnamountnn	sum_of_moneynnofinphysical_exertionnn	physical_exertionnnsum_of_moneynn	exercisennsumnn	
+
+BE: stayingVBGwhileINgettingVBG
+EQ class: remainvbgwhileingettingvbg	stayvbgwhileingetvbg	stayvbgwhileinacquirevbg	restvbgwhileinacquirevbg	restvbgwhileingettingvbg	stayingvbgwhileinacquirevbg	stayingvbgwhileingetvbg	restvbgwhileingetvbg	remainvbgwhileinacquirevbg	remainvbgwhileingetvbg	stayvbgwhileingettingvbg	
+
+BE: eatVBstayingVBG
+EQ class: eaternnofinstayvbg	eatingnnofinremainvbg	feedingnnofinstayingvbg	eatingnnofinstayvbg	feedernnofinremainvbg	feedingnnofinstayvbg	feedingnnofinremainvbg	eaternnofinremainvbg	eatingnnofinstayingvbg	eatvbrestvbg	eatvbremainvbg	eaternnofinstayingvbg	eaternnofinrestvbg	eatvbstayvbg	eatingnnofinrestvbg	feedernnofinstayvbg	feedingnnofinrestvbg	feedernnofinstayingvbg	feedernnofinrestvbg	
+
+BE: isAUXjustRB
+EQ class: beauxjustrb	
+
+BE: eatVBjustRB
+EQ class: eaternnofinjustrb	feedernnofinjustrb	feedingnnofinjustrb	eatingnnofinjustrb	
+
+BE: stayingVBGawayRB
+EQ class: staynnofinawayrb	stayvbgawayrb	restvbgawayrb	remainvbgawayrb	
+
+BE: DonPersonAnnotation
+EQ class: 
+
+BE: tNNP
+EQ class: thyminennp	themnnp	theynnp	
+
+BE: effectNN
+EQ class: upshotnn	eventnn	resultnn	outcomenn	consequencenn	issuenn	
+
+BE: discouragementNN
+EQ class: dismaynn	disheartenmentnn	
+
+BE: resultsNNS
+EQ class: outcomenns	resultnns	upshotnns	theynns	consequencenns	issuenns	eventnns	effectnns	themnns	
+
+BE: overdoVB
+EQ class: exaggeratevb	
+
+BE: getVBP
+EQ class: acquirevbp	
+
+BE: disappointedJJ
+EQ class: defeatedjj	thwartedjj	frustratedjj	discomfitedjj	foiledjj	
+
+BE: DonPersonAnnotationtNNP
+EQ class: donpersonannotationthemnnp	tnnpofindonpersonannotation	theynnpofindonpersonannotation	thyminennpofindonpersonannotation	donpersonannotationthyminennp	donpersonannotationtheynnp	themnnpofindonpersonannotation	
+
+BE: tNNPoverdoVB
+EQ class: themnnpexaggeratevb	themnnpoverdovb	theynnpoverdovb	tnnpexaggeratevb	thyminennpoverdovb	theynnpexaggeratevb	thyminennpexaggeratevb	
+
+BE: itPRPhaveAUX
+EQ class: rich_personnnofinitprp	havennofinitprp	wealthy_personnnofinitprp	itprphave_gotaux	itprpholdaux	
+
+BE: youPRPgetVBP
+EQ class: gettingnnofinyouprp	youprpacquirevbp	acquiringnnofinyouprp	gettingnnyouprp	acquiringnnyouprp	
+
+BE: overdoVBitPRP
+EQ class: exaggeratevbitprp	
+
+BE: haveAUXeffectNN
+EQ class: have_gotauxresultnn	holdauxupshotnn	wealthy_personnnofineffectnn	rich_personnnofinresultnn	have_gotauxconsequencenn	rich_personnnofineffectnn	havennofineventnn	holdauxissuenn	holdauxconsequencenn	wealthy_personnnofinupshotnn	havennofinissuenn	holdauxoutcomenn	holdauxeventnn	havennofinconsequencenn	rich_personnnofinupshotnn	rich_personnnofineventnn	haveauxeventnn	have_gotauxupshotnn	wealthy_personnnofinresultnn	havennofinresultnn	have_gotauxeffectnn	have_gotauxissuenn	havennofinoutcomenn	havennofineffectnn	haveauxoutcomenn	rich_personnnofinconsequencenn	rich_personnnofinissuenn	haveauxresultnn	havennofinupshotnn	have_gotauxeventnn	rich_personnnofinoutcomenn	have_gotauxoutcomenn	haveauxissuenn	holdauxresultnn	wealthy_personnnofinoutcomenn	wealthy_personnnofinissuenn	haveauxupshotnn	haveauxconsequencenn	wealthy_personnnofineventnn	wealthy_personnnofinconsequencenn	holdauxeffectnn	
+
+BE: effectNNofINdiscouragementNN
+EQ class: dismaynneffectuatevb	dismaynnresultnn	outcomennofindismaynn	disheartenmentnneffectnn	disheartenmentnnupshotnn	effectnnofindisheartenmentnn	discouragementnneventnn	resultnnofindisheartenmentnn	issuennofindismaynn	issuennofindisheartenmentnn	effectvbdisheartenmentnn	upshotnnofindisheartenmentnn	discouragementnnconsequencenn	disheartenmentnnresultnn	effectvbdismaynn	eventnnofindisheartenmentnn	outcomennofindisheartenmentnn	discouragementnnupshotnn	dismaynnoutcomenn	discouragementnneffectnn	set_upvbdismaynn	discouragementnnoutcomenn	disheartenmentnneffectuatevb	discouragementnnissuenn	disheartenmentnneffectvb	disheartenmentnneventnn	eventnnofindiscouragementnn	consequencennofindiscouragementnn	dismaynnset_upvb	consequencennofindismaynn	disheartenmentnnset_upvb	discouragementnnset_upvb	issuennofindiscouragementnn	effectuatevbdiscouragementnn	eventnnofindismaynn	discouragementnneffectvb	dismaynnconsequencenn	set_upvbdisheartenmentnn	dismaynnissuenn	resultnnofindiscouragementnn	effectuatevbdismaynn	set_upvbdiscouragementnn	consequencennofindisheartenmentnn	effectnnofindismaynn	dismaynnupshotnn	effectuatevbdisheartenmentnn	upshotnnofindismaynn	outcomennofindiscouragementnn	resultnnofindismaynn	discouragementnnresultnn	upshotnnofindiscouragementnn	dismaynneventnn	disheartenmentnnissuenn	dismaynneffectvb	disheartenmentnnoutcomenn	dismaynneffectnn	disheartenmentnnconsequencenn	effectvbdiscouragementnn	discouragementnneffectuatevb	
+
+BE: disappointedJJwithINresultsNNS
+EQ class: defeatedjjwithinresultsnns	thwartedjjwithinthemnns	frustratedjjwithinconsequencenns	defeatedjjwithinoutcomenns	discomfitedjjwithintheynns	discomfitedjjwithinissuenns	thwartedjjwithineventnns	discomfitedjjwithineventnns	discomfitedjjwithinthemnns	foiledjjwithineffectnns	defeatedjjwithinissuenns	thwartedjjwithintheynns	foiledjjwithinissuenns	disappointedjjwithinconsequencenns	defeatedjjwithinresultnns	resultvbdisappointedlyrb	discomfitedjjwithinresultsnns	defeatedjjwithinthemnns	discomfitedjjwithinupshotnns	disappointedjjwithintheynns	disappointedjjwithineventnns	foiledjjwithinupshotnns	defeatedjjwithineffectnns	disappointedjjwithinissuenns	foiledjjwithinthemnns	disappointedjjwithinresultnns	thwartedjjwithinconsequencenns	foiledjjwithinoutcomenns	foiledjjwithinresultnns	frustratedjjwithinissuenns	defeatedjjwithineventnns	discomfitedjjwithineffectnns	foiledjjwithinresultsnns	thwartedjjwithinoutcomenns	defeatedjjwithinupshotnns	discomfitedjjwithinresultnns	thwartedjjwithinissuenns	frustratedjjwithinresultnns	defeatedjjwithinconsequencenns	frustratedjjwithinupshotnns	ensuevbdisappointedlyrb	frustratedjjwithineffectnns	disappointedjjwithinoutcomenns	frustratedjjwithinthemnns	defeatedjjwithintheynns	foiledjjwithintheynns	thwartedjjwithinresultnns	frustratedjjwithinoutcomenns	disappointedjjwithineffectnns	thwartedjjwithinresultsnns	disappointedjjwithinupshotnns	disappointedjjwithinthemnns	frustratedjjwithineventnns	discomfitedjjwithinoutcomenns	foiledjjwithineventnns	frustratedjjwithintheynns	frustratedjjwithinresultsnns	thwartedjjwithineffectnns	foiledjjwithinconsequencenns	discomfitedjjwithinconsequencenns	thwartedjjwithinupshotnns	
+
+BE: overdoVBasINhaveAUX
+EQ class: exaggeratevbasinhave_gotaux	overdovbasinholdaux	exaggeratevbasinholdaux	exaggeratevbasinhaveaux	overdovbasinhave_gotaux	
+
+BE: weightNN
+EQ class: weightyjj	
+
+BE: lossNN
+EQ class: 
+
+BE: processNN
+EQ class: procedurenn	
+
+BE: realizeVB
+EQ class: realisevb	recognizevb	agnizevb	recognisevb	agnisevb	
+
+BE: healthyJJ
+EQ class: healthnn	healthinessnn	
+
+BE: slowJJ
+EQ class: slownessnn	
+
+BE: gradualJJ
+EQ class: gradualnessnn	gradualitynn	
+
+BE: healthyJJlossNN
+EQ class: healthnnlossnn	healthinessnnlossnn	
+
+BE: slowJJprocessNN
+EQ class: processvbslowlyrb	slownessnnprocedurenn	slowjjprocedurenn	slownessnnprocessnn	treatvbslowlyrb	
+
+BE: gradualJJprocessNN
+EQ class: processvbgraduallyrb	treatvbgraduallyrb	gradualitynnprocessnn	gradualitynnprocedurenn	gradualjjprocedurenn	gradualnessnnprocedurenn	gradualnessnnprocessnn	
+
+BE: weightNNlossNN
+EQ class: lossnnofinweightyjj	lossnnofinweightnn	weightyjjlossnn	
+
+BE: lossNNisAUX
+EQ class: lossnnbeaux	
+
+BE: isAUXprocessNN
+EQ class: isauxprocedurenn	beauxprocedurenn	beauxprocessnn	
+
+BE: realizeVBJustRB
+EQ class: recognitionnnofinjustrb	realisationnnofinjustrb	agnisevbjustrb	realizationnnofinjustrb	realisevbjustrb	agnizevbjustrb	recognizevbjustrb	recognisevbjustrb	
+
+BE: processNNlossNN
+EQ class: lossnnprocessnn	procedurennlossnn	processingnnofinlossnn	lossnnprocessvb	lossnntreatvb	processornnofinlossnn	lossnnprocedurenn	
+
+BE: resultsNNS
+EQ class: outcomenns	resultnns	upshotnns	theynns	consequencenns	issuenns	eventnns	effectnns	themnns	
+
+BE: obtainedVBN
+EQ class: obtainvbn	
+
+BE: bestJJS
+EQ class: bestnn	
+
+BE: consistentJJ
+EQ class: consistencynn	
+
+BE: patientJJ
+EQ class: patiencenn	
+
+BE: bestJJSresultsNNS
+EQ class: bestnnoutcomenns	bestjjsoutcomenns	bestnnupshotnns	bestnnthemnns	bestjjseffectnns	bestjjseventnns	bestnnresultsnns	bestnnresultnns	bestjjsupshotnns	bestjjsresultnns	bestjjsthemnns	bestnntheynns	bestnneffectnns	bestnnissuenns	bestnneventnns	bestjjstheynns	bestnnconsequencenns	bestjjsconsequencenns	bestjjsissuenns	
+
+BE: obtainedVBNresultsNNS
+EQ class: obtainvbnresultnns	obtainmentnnofineventnns	obtainablennofinupshotnns	obtainedvbnoutcomenns	obtainmentnnofinresultnns	obtainvbnconsequencenns	obtainmentnnofinissuenns	obtainedvbnresultnns	obtentionnnofinissuenns	obtainablennofineventnns	obtentionnnofineventnns	obtainablennofinthemnns	obtentionnnofintheynns	obtainedvbntheynns	obtentionnnofinoutcomenns	obtentionnnofinupshotnns	obtentionnnofinresultsnns	obtainmentnnofintheynns	obtainablennofinconsequencenns	obtainvbnupshotnns	obtainablennofinoutcomenns	obtainvbnthemnns	obtainablennofinissuenns	obtainmentnnofinupshotnns	obtentionnnofineffectnns	obtainablennofinresultsnns	obtentionnnofinconsequencenns	obtainablennofinresultnns	obtainvbnresultsnns	obtainedvbnupshotnns	obtainvbneffectnns	obtainablennofintheynns	obtentionnnofinthemnns	obtainedvbnissuenns	obtainmentnnofinthemnns	obtainmentnnofinresultsnns	obtainvbntheynns	obtainedvbneventnns	obtentionnnofinresultnns	obtainedvbnthemnns	obtainmentnnofineffectnns	obtainedvbnconsequencenns	obtainvbneventnns	obtainvbnissuenns	obtainmentnnofinoutcomenns	obtainedvbneffectnns	obtainablennofineffectnns	obtainvbnoutcomenns	obtainmentnnofinconsequencenns	
+
+BE: beingAUXGconsistentJJ
+EQ class: beingauxgconsistencynn	
+
+BE: weightNN
+EQ class: weightyjj	
+
+BE: lossNN
+EQ class: 
+
+BE: programsNNS
+EQ class: programnns	theynns	programmenns	plannns	themnns	
+
+BE: resultsNNS
+EQ class: outcomenns	resultnns	upshotnns	theynns	consequencenns	issuenns	eventnns	effectnns	themnns	
+
+BE: runNN
+EQ class: tallynn	
+
+BE: weightNN
+EQ class: weightyjj	
+
+BE: timesNNS
+EQ class: theynns	themnns	
+
+BE: weightNN
+EQ class: weightyjj	
+
+BE: produceVBP
+EQ class: bring_forthvbp	
+
+BE: putVBN
+EQ class: positionvbn	posevbn	placevbn	setvbn	layvbn	
+
+BE: regainedVBN
+EQ class: findvbn	recovervbn	retrievevbn	regainvbn	
+
+BE: MostJJS
+EQ class: 
+
+BE: fasterJJR
+EQ class: fastjjr	fastnessnn	
+
+BE: effectiveJJ
+EQ class: efficaciousjj	effectivenessnn	effectualjj	effectivitynn	
+
+BE: longJJ
+EQ class: longnessnn	
+
+BE: manyJJ
+EQ class: 
+
+BE: additionalJJ
+EQ class: extrajj	
+
+BE: MostJJSprogramsNNS
+EQ class: mostjjsthemnns	mostjjsplannns	mostjjsprogrammenns	mostjjsprogramnns	mostjjstheynns	programmevbmostlyrb	programvbmostlyrb	
+
+BE: fasterJJRresultsNNS
+EQ class: fasterjjrissuenns	fasterjjrupshotnns	fasterjjreventnns	fasterjjrconsequencenns	fastnessnneffectnns	fastjjrtheynns	fastnessnnupshotnns	fastjjrissuenns	fastnessnneventnns	fastjjreffectnns	fasterjjroutcomenns	fastjjrupshotnns	fastnessnnresultnns	fasterjjrthemnns	fastnessnnresultsnns	fastjjreventnns	fastnessnntheynns	fastjjrconsequencenns	fastjjroutcomenns	fasterjjrtheynns	fastnessnnissuenns	fastjjrresultsnns	fasterjjrresultnns	fastjjrresultnns	fastnessnnconsequencenns	fastjjrthemnns	fastnessnnoutcomenns	fasterjjreffectnns	fastnessnnthemnns	
+
+BE: longJJrunNN
+EQ class: longnessnntallynn	longjjtallynn	longnessnnrunnn	
+
+BE: additionalJJweightNN
+EQ class: weightyvbadditionallyrb	extrajjweightyjj	extrajjweightnn	additionaljjweightyjj	
+
+BE: manyJJtimesNNS
+EQ class: manyjjtheynns	manyjjthemnns	
+
+BE: lossNNprogramsNNS
+EQ class: programnnsofinlossnn	programmennsofinlossnn	plannnsofinlossnn	programsnnsofinlossnn	lossnnplannns	lossnnprogramvb	lossnnprogrammevb	theynnsofinlossnn	programmevblossnn	lossnnprogrammenns	themnnsofinlossnn	lossnnthemnns	programvblossnn	lossnnprogramnns	lossnntheynns	
+
+BE: weightNNprogramsNNS
+EQ class: programmennsofinweightnn	plannnsofinweightnn	programvbweightyjj	programmevbweightnn	weightnnprogrammevb	theynnsofinweightnn	themnnsofinweightnn	programvbweightnn	weightyjjtheynns	weightnntheynns	weightyjjprogrammenns	weightyjjprogramvb	programnnsofinweightnn	theynnsofinweightyjj	programmennsofinweightyjj	plannnsofinweightyjj	weightyjjprogramsnns	weightnnprogramvb	weightyjjthemnns	weightnnplannns	weightnnprogramnns	weightyjjprogrammevb	weightyjjprogramnns	programnnsofinweightyjj	weightnnthemnns	programsnnsofinweightnn	weightnnprogrammenns	themnnsofinweightyjj	programsnnsofinweightyjj	weightyjjplannns	programmevbweightyjj	
+
+BE: programsNNSareAUX
+EQ class: themnnsbeaux	theynnsareaux	programsnnsbeaux	programmennsareaux	themnnsareaux	programnnsbeaux	theynnsbeaux	programnnsareaux	plannnsareaux	plannnsbeaux	programmennsbeaux	
+
+BE: programsNNSproduceVBP
+EQ class: programnnsbring_forthvbp	manufacturernnofinprogramsnns	producernnplannns	manufacturernnprogramsnns	programnnsproducevbp	manufacturernnofintheynns	plannnsbring_forthvbp	manufacturernntheynns	manufacturernnofinprogrammenns	theynnsproducevbp	producernnofinprogramnns	producernnthemnns	producernnprogramnns	manufacturernnofinthemnns	themnnsproducevbp	producernnprogrammenns	programmennsproducevbp	programmennsbring_forthvbp	producernnofinprogramsnns	producernntheynns	manufacturernnprogrammenns	producernnofinthemnns	manufacturernnplannns	producernnofinprogrammenns	producernnprogramsnns	producernnofintheynns	themnnsbring_forthvbp	manufacturernnofinprogramnns	plannnsproducevbp	programsnnsbring_forthvbp	theynnsbring_forthvbp	manufacturernnthemnns	producernnofinplannns	manufacturernnofinplannns	manufacturernnprogramnns	
+
+BE: produceVBPresultsNNS
+EQ class: producernnofinresultnns	bring_forthvbpresultsnns	producevbpissuenns	bring_forthvbptheynns	producernnofinissuenns	producernnofinresultsnns	manufacturernnofineventnns	manufacturernnofineffectnns	manufacturernnofinupshotnns	manufacturernnofinresultsnns	manufacturernnofintheynns	manufacturernnofinoutcomenns	bring_forthvbpeventnns	producernnofinconsequencenns	producernnofineffectnns	manufacturernnofinthemnns	bring_forthvbpissuenns	manufacturernnofinissuenns	producevbpthemnns	producernnofinoutcomenns	manufacturernnofinconsequencenns	producernnofinthemnns	bring_forthvbpresultnns	producernnofineventnns	producevbpeffectnns	bring_forthvbpoutcomenns	manufacturernnofinresultnns	bring_forthvbpeffectnns	bring_forthvbpupshotnns	producevbpeventnns	producevbpresultnns	producevbpconsequencenns	producernnofintheynns	producevbptheynns	producevbpupshotnns	bring_forthvbpconsequencenns	bring_forthvbpthemnns	producernnofinupshotnns	producevbpoutcomenns	
+
+BE: putVBNweightNN
+EQ class: putvbnweightyjj	placevbnweightyjj	setvbnweightyjj	positionvbnweightyjj	posevbnweightyjj	layvbnweightyjj	layvbnweightnn	positionvbnweightnn	posevbnweightnn	placevbnweightnn	setvbnweightnn	
+
+BE: regainedVBNweightNN
+EQ class: returnnnofinweightnn	regainingnnofinweightnn	restorationnnofinweightyjj	restorationnnofinweightnn	retrievevbnweightnn	recovervbnweightnn	returnnnofinweightyjj	findvbnweightyjj	retrievevbnweightyjj	restitutionnnofinweightnn	findvbnweightnn	regainvbnweightyjj	recovervbnweightyjj	restitutionnnofinweightyjj	regainedvbnweightyjj	regainingnnofinweightyjj	regainvbnweightnn	
+
+BE: regainedVBNtimesNNS
+EQ class: restitutionnnofintheynns	restorationnnofintimesnns	retrievevbntheynns	restorationnnofintheynns	regainingnnofinthemnns	recovervbnthemnns	retrievevbntimesnns	restitutionnnofintimesnns	restorationnnofinthemnns	returnnnofintheynns	findvbntimesnns	returnnnofintimesnns	findvbntheynns	restitutionnnofinthemnns	retrievevbnthemnns	regainvbnthemnns	findvbnthemnns	regainvbntimesnns	recovervbntimesnns	recovervbntheynns	returnnnofinthemnns	regainvbntheynns	regainingnnofintheynns	regainedvbnthemnns	regainedvbntheynns	regainingnnofintimesnns	
+
+BE: areAUXeffectiveJJ
+EQ class: areauxeffectualjj	beauxeffectivejj	beauxeffectualjj	areauxeffectivitynn	beauxeffectivenessnn	areauxeffectivenessnn	areauxefficaciousjj	beauxeffectivitynn	beauxefficaciousjj	
+
+BE: effectiveJJinINrunNN
+EQ class: effectivitynninintallynn	runvbeffectivelyrb	efficaciousjjininrunnn	effectivitynnininrunnn	efficaciousjjinintallynn	effectivejjinintallynn	effectualjjininrunnn	effectivenessnninintallynn	effectualjjinintallynn	effectivenessnnininrunnn	
+
+BE: areAUXnotRB
+EQ class: beauxnotrb	
+
+BE: putVBNbackRB
+EQ class: layvbnbackrb	posevbnbackrb	setvbnbackrb	positionvbnbackrb	placevbnbackrb	
+
+BE: beAUXalsoRB
+EQ class: 
+
+BE: mindNN
+EQ class: headnn	brainnn	psychenn	nousnn	
+
+BE: weightNN
+EQ class: weightyjj	
+
+BE: lossNN
+EQ class: 
+
+BE: programNN
+EQ class: plannn	programmenn	
+
+BE: doctorNN
+EQ class: physiciannn	dr.nn	doctorialjj	docnn	mediconn	mdnn	
+
+BE: professionalNN
+EQ class: professional_personnn	
+
+BE: dieticianNN
+EQ class: dietitiannn	nutritionistnn	
+
+BE: programNN
+EQ class: plannn	programmenn	
+
+BE: ..NN
+EQ class: nn	
+
+BE: PS..LocationAnnotation
+EQ class: pslocationannotation	
+
+BE: keepVB
+EQ class: maintainvb	holdvb	
+
+BE: consultVB
+EQ class: confer_withvb	
+
+BE: beginningVBG
+EQ class: startvbg	set_aboutvbg	commencevbg	start_outvbg	getvbg	get_downvbg	set_outvbg	beginvbg	
+
+BE: advisableJJ
+EQ class: advisabilitynn	
+
+BE: otherJJ
+EQ class: 
+
+BE: medicalJJ
+EQ class: medicinenn	medicalnn	
+
+BE: suchJJ
+EQ class: 
+
+BE: professionalJJ
+EQ class: 
+
+BE: otherJJprofessionalNN
+EQ class: otherjjprofessional_personnn	
+
+BE: medicalJJprofessionalNN
+EQ class: medicalnnprofessionalnn	medicalnnprofessional_personnn	medicinennprofessional_personnn	medicaljjprofessional_personnn	medicinennprofessionalnn	
+
+BE: professionalJJdieticianNN
+EQ class: professionaljjnutritionistnn	professionaljjdietitiannn	dietvbprofessionallyrb	
+
+BE: yourPRP$professionalNN
+EQ class: professional_personnnofinyourprp$	professionalnnofinyourprp$	yourprp$professional_personnn	
+
+BE: lossNNprogramNN
+EQ class: lossnnplannn	programvblossnn	lossnnprogrammenn	lossnnprogramvb	programmennofinlossnn	programnnofinlossnn	plannnofinlossnn	lossnnprogrammevb	programmevblossnn	
+
+BE: weightNNprogramNN
+EQ class: weightnnprogrammenn	plannnofinweightnn	weightnnprogrammevb	programmevbweightnn	programvbweightyjj	weightyjjprogrammevb	programnnofinweightyjj	programnnofinweightnn	programvbweightnn	programmennofinweightnn	weightyjjprogramnn	weightyjjprogramvb	weightnnplannn	weightyjjprogrammenn	programmennofinweightyjj	weightyjjplannn	plannnofinweightyjj	weightnnprogramvb	programmevbweightyjj	
+
+BE: programNN..NN
+EQ class: programmennnn	nnprogramvb	programingnnofin..nn	schedulingnnofinnn	nnprogrammevb	programmennofinnn	plannnofin..nn	programmennofin..nn	programmenn..nn	programmingnnofinnn	programnnofin..nn	..nnprogrammevb	plannnofinnn	programmingnnofin..nn	programnnnn	programnnofinnn	plannnnn	plannn..nn	schedulingnnofin..nn	..nnprogramvb	programingnnofinnn	
+
+BE: itPRPisAUX
+EQ class: itprpbeaux	
+
+BE: beginningVBG..NN
+EQ class: start_outvbg..nn	novicennofin..nn	tironnofin..nn	getvbgnn	get_downvbg..nn	tironnofinnn	commencevbgnn	getvbg..nn	set_outvbgnn	start_outvbgnn	beginvbgnn	startvbg..nn	get_downvbgnn	beginningnnofin..nn	novicennofinnn	initiatennofin..nn	beginningnnofinnn	initiatennofinnn	beginnernnofin..nn	beginnernnofinnn	set_aboutvbgnn	beginningvbgnn	commencevbg..nn	tyronnofin..nn	set_aboutvbg..nn	startvbgnn	tyronnofinnn	set_outvbg..nn	beginvbg..nn	
+
+BE: beginningVBGPS..LocationAnnotation
+EQ class: startvbgpslocationannotation	beginnernnofinpslocationannotation	novicennofinps..locationannotation	beginvbgpslocationannotation	start_outvbgps..locationannotation	initiatennofinps..locationannotation	startvbgps..locationannotation	beginvbgps..locationannotation	tyronnofinpslocationannotation	start_outvbgpslocationannotation	set_aboutvbgps..locationannotation	set_outvbgps..locationannotation	initiatennofinpslocationannotation	beginningvbgpslocationannotation	get_downvbgpslocationannotation	tironnofinpslocationannotation	beginnernnofinps..locationannotation	set_aboutvbgpslocationannotation	tironnofinps..locationannotation	tyronnofinps..locationannotation	commencevbgps..locationannotation	set_outvbgpslocationannotation	novicennofinpslocationannotation	beginningnnofinps..locationannotation	get_downvbgps..locationannotation	getvbgps..locationannotation	commencevbgpslocationannotation	getvbgpslocationannotation	beginningnnofinpslocationannotation	
+
+BE: isAUXadvisableJJ
+EQ class: beauxadvisablejj	isauxadvisabilitynn	beauxadvisabilitynn	
+
+BE: professionalNNasINdieticianNN
+EQ class: nutritionistnnprofessional_personnn	dietitiannnprofessionalnn	dietitiannnprofessional_personnn	dieticiannnprofessional_personnn	nutritionistnnprofessionalnn	professionalnnasindietitiannn	professional_personnnasinnutritionistnn	professional_personnnasindietitiannn	professionalnnasinnutritionistnn	professional_personnnasindieticiannn	dieticiannnprofessionalnn	
+
+BE: keepVBinINmindNN
+EQ class: holdvbininbrainnn	holdvbininmindnn	maintainvbininbrainnn	holdvbininheadnn	maintainvbininmindnn	keepvbininbrainnn	keepvbininnousnn	keepvbininheadnn	maintainvbininheadnn	maintainvbininnousnn	holdvbininnousnn	holdvbininpsychenn	keepvbininpsychenn	maintainvbininpsychenn	
+
+BE: consultVBwithINprofessionalNN
+EQ class: consultvbwithinprofessional_personnn	confer_withvbwithinprofessionalnn	confer_withvbwithinprofessional_personnn	
+
+BE: isAUXwithINprogramNN
+EQ class: isauxwithinplannn	beauxwithinprogrammenn	beauxwithinprogramnn	isauxwithinprogrammenn	beauxwithinplannn	
+
+BE: keepVBthatINisAUX
+EQ class: keepvbthatinbeaux	maintainvbthatinisaux	maintainvbthatinbeaux	holdvbthatinbeaux	holdvbthatinisaux	
+
+BE: keepVBJustRB
+EQ class: maintainvbjustrb	holdvbjustrb	
+
+BE: PS..LocationAnnotation
+EQ class: pslocationannotation	
+
+BE: tNNS
+EQ class: thyminenns	theynns	themnns	
+
+BE: dietingNNS
+EQ class: dietnns	theynns	themnns	
+
+BE: weightNN
+EQ class: weightyjj	
+
+BE: doctorNN
+EQ class: physiciannn	dr.nn	doctorialjj	docnn	mediconn	mdnn	
+
+BE: pharmacistNN
+EQ class: apothecarynn	pill_rollernn	chemistnn	pharmaceuticjj	pill_pushernn	druggistnn	
+
+BE: weightNN
+EQ class: weightyjj	
+
+BE: heightNN
+EQ class: tallnessnn	
+
+BE: comparisonNN
+EQ class: comparingnn	
+
+BE: weightNN
+EQ class: weightyjj	
+
+BE: didnVB
+EQ class: 
+
+BE: sayVB
+EQ class: tellvb	statevb	
+
+BE: considerVB
+EQ class: reckonvb	seevb	viewvb	regardvb	
+
+BE: loseVB
+EQ class: 
+
+BE: askVB
+EQ class: enquirevb	inquirevb	
+
+BE: /VBG
+EQ class: /.vbg	
+
+BE: chartVB
+EQ class: 
+
+BE: showVB
+EQ class: demonstratevb	exhibitvb	presentvb	demovb	
+
+BE: tallJJ
+EQ class: tallnessnn	
+
+BE: importantJJ
+EQ class: of_importjj	importancenn	
+
+BE: shortJJ
+EQ class: shortnessnn	
+
+BE: lessJJR
+EQ class: 
+
+BE: overweightJJ
+EQ class: fleshyjj	overweightnn	heavyjj	
+
+BE: unhealthyJJ
+EQ class: unhealthinessnn	
+
+BE: idealJJ
+EQ class: idealitynn	
+
+BE: lessJJRthanIN
+EQ class: 
+
+BE: 5CDthanIN
+EQ class: pentadcdthanin	quintcdthanin	fivecdthanin	fivesomecdthanin	phoebecdthanin	little_phoebecdthanin	fincdthanin	5.cdthanin	vcdthanin	quintetcdthanin	quintupletcdthanin	cinquecdthanin	
+
+BE: idealJJweightNN
+EQ class: idealitynnweightyjj	idealitynnweightnn	weightyvbideallyrb	idealjjweightyjj	
+
+BE: yourPRP$weightNN
+EQ class: weightnnofinyourprp$	weightyjjofinyourprp$	yourprp$weightyvb	weightyvbyourprp$	yourprp$weightyjj	
+
+BE: heightNNcomparisonNN
+EQ class: comparevbtallnessnn	tallnessnncomparevb	tallnessnncomparisonnn	comparisonnnofinheightnn	comparisonnnofintallnessnn	comparevbheightnn	comparingnnofinheightnn	heightnncomparingnn	comparingnnofintallnessnn	tallnessnncomparingnn	heightnncomparevb	
+
+BE: youPRPdidnVB
+EQ class: 
+
+BE: tNNSsayVB
+EQ class: themnnssayvb	saynnofintheynns	thyminennssayvb	saynnofinthyminenns	themnnsstatevb	thyminennstellvb	theynnstellvb	theynnsstatevb	thyminennsstatevb	tnnstellvb	saynnofinthemnns	tnnsstatevb	theynnssayvb	themnnstellvb	saynnofintnns	
+
+BE: youPRPareAUX
+EQ class: youprpbeaux	
+
+BE: youPRPneedAUX
+EQ class: youprpaskaux	youprppostulateaux	youprprequireaux	youprptakeaux	youprpnecessitateaux	demandnnofinyouprp	neednnofinyouprp	youprpdemandaux	youprpcall_foraux	youprpinvolveaux	
+
+BE: youPRPareAUX
+EQ class: youprpbeaux	
+
+BE: youPRPareAUX
+EQ class: youprpbeaux	
+
+BE: itPRPbeAUX
+EQ class: 
+
+BE: youPRPloseVB
+EQ class: 
+
+BE: weightNNaskVB
+EQ class: queriernnofinweightyjj	weightnnenquirevb	askernnofinweightnn	enquirernnweightyjj	queriernnweightyjj	inquirernnofinweightyjj	inquirernnofinweightnn	inquirernnweightyjj	queriernnofinweightnn	questionernnweightnn	enquirernnofinweightyjj	enquirernnweightnn	enquirernnofinweightnn	askernnofinweightyjj	questionernnweightyjj	weightyjjenquirevb	weightyjjaskvb	inquirernnweightnn	questionernnofinweightnn	questionernnofinweightyjj	askernnweightyjj	weightyjjinquirevb	queriernnweightnn	askernnweightnn	weightnninquirevb	
+
+BE: weightNN/VBG
+EQ class: weightnn/.vbg	weightyjj/vbg	weightyjj/.vbg	
+
+BE: comparisonNNchartVB
+EQ class: comparingnnchartvb	chartnnofincomparingnn	chartnnofincomparisonnn	
+
+BE: weightNNbeAUX
+EQ class: weightyjjbeaux	
+
+BE: considerVBdietingNNS
+EQ class: viewvbdietnns	reckonvbtheynns	considervbdietnns	considervbthemnns	viewvbthemnns	seevbtheynns	regardvbthemnns	regardvbdietingnns	seevbdietingnns	considervbtheynns	regardvbtheynns	reckonvbdietingnns	reckonvbdietnns	seevbdietnns	reckonvbthemnns	seevbthemnns	regardvbdietnns	viewvbdietingnns	viewvbtheynns	
+
+BE: askVBdoctorNN
+EQ class: inquirevbdoctorialjj	inquirernnofindocnn	queriernnofindoctorialjj	enquirevbdoctorialjj	inquirevbmediconn	askvbmdnn	enquirernnofindoctornn	enquirevbmediconn	enquirernnofindocnn	enquirevbphysiciannn	enquirernnofinmediconn	enquirernnofinphysiciannn	questionernnofinmediconn	queriernnofindoctornn	askernnofinmdnn	inquirernnofindr.nn	inquirernnofinmediconn	askernnofinmediconn	askernnofindoctorialjj	enquirernnofinmdnn	questionernnofinphysiciannn	enquirevbmdnn	askvbdocnn	inquirernnofinmdnn	questionernnofindr.nn	enquirevbdocnn	queriernnofinmediconn	queriernnofinphysiciannn	questionernnofindoctornn	inquirevbmdnn	enquirevbdr.nn	askvbdoctorialjj	questionernnofinmdnn	queriernnofindr.nn	inquirevbphysiciannn	queriernnofindocnn	inquirevbdr.nn	askernnofindr.nn	inquirernnofinphysiciannn	inquirernnofindoctornn	askvbdr.nn	askernnofindoctornn	queriernnofinmdnn	inquirevbdoctornn	askvbphysiciannn	inquirernnofindoctorialjj	askernnofindocnn	inquirevbdocnn	enquirernnofindoctorialjj	questionernnofindocnn	askernnofinphysiciannn	enquirevbdoctornn	askvbmediconn	enquirernnofindr.nn	questionernnofindoctorialjj	
+
+BE: showVByouPRP
+EQ class: showingnnofinyouprp	demovbyouprp	viewingnnofinyouprp	showyjjofinyouprp	presentvbyouprp	shownnofinyouprp	demonstratevbyouprp	exhibitvbyouprp	screeningnnofinyouprp	
+
+BE: didnVBtNNS
+EQ class: didnvbthemnns	didnvbthyminenns	didnvbtheynns	
+
+BE: loseVBweightNN
+EQ class: losevbweightyjj	
+
+BE: /VBGcomparisonNN
+EQ class: /.vbgcomparingnn	/.vbgcomparisonnn	/vbgcomparingnn	
+
+BE: isAUXimportantJJ
+EQ class: beauximportancenn	beauximportantjj	beauxof_importjj	isauxof_importjj	isauximportancenn	
+
+BE: areAUXshortJJ
+EQ class: beauxshortnessnn	areauxshortnessnn	beauxshortjj	
+
+BE: areAUXoverweightJJ
+EQ class: areauxoverweightnn	beauxoverweightjj	areauxheavyjj	beauxfleshyjj	beauxheavyjj	beauxoverweightnn	areauxfleshyjj	
+
+BE: beAUXunhealthyJJ
+EQ class: beauxunhealthinessnn	
+
+BE: askVBforINweightNN
+EQ class: askvbforinweightyjj	enquirevbforinweightnn	inquirevbforinweightnn	inquirevbforinweightyjj	enquirevbforinweightyjj	
+
+BE: beAUXforINloseVB
+EQ class: 
+
+BE: chartVBshowVB
+EQ class: chartnnofinpresentvb	chartnnofindemovb	chartnnofinexhibitvb	chartvbexhibitvb	chartvbpresentvb	chartvbdemovb	chartvbdemonstratevb	chartnnofindemonstratevb	chartnnofinshowvb	
+
+BE: needAUXevenRB
+EQ class: askauxevenrb	takeauxevenrb	demandnnofinevenrb	necessitateauxevenrb	postulateauxevenrb	involveauxevenrb	demandauxevenrb	neednnofinevenrb	requireauxevenrb	call_forauxevenrb	
+
+BE: areAUXnotRB
+EQ class: beauxnotrb	
+
+BE: showVBexactlyRB
+EQ class: screeningnnofinexactlyrb	exactjjviewingnn	exactnessnnininviewingnn	exactjjscreeningnn	exactnessnnviewingnn	exactnessnninindemovb	exactjjininpresentvb	exactnessnnininscreeningnn	showyjjofinexactlyrb	exactjjininviewingnn	demonstratevbexactlyrb	exactjjshowyjj	showingnnofinexactlyrb	exactnessnnshowingnn	exactnessnnshownn	exactnessnnininshownn	exactjjininshowvb	viewingnnofinexactlyrb	shownnofinexactlyrb	exactjjininshowingnn	exactjjininexhibitvb	exactjjininshowyjj	exactjjinindemovb	exhibitvbexactlyrb	exactnessnninindemonstratevb	exactjjshowingnn	presentvbexactlyrb	exactjjininscreeningnn	exactnessnnininexhibitvb	exactnessnnininpresentvb	exactnessnnscreeningnn	exactnessnnininshowingnn	exactjjininshownn	exactnessnnshowyjj	exactjjshownn	exactjjinindemonstratevb	demovbexactlyrb	exactnessnnininshowyjj	exactnessnnininshowvb	
+

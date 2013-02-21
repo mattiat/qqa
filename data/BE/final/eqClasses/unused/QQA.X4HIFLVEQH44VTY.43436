@@ -1,0 +1,237 @@
+BE: someoneNN
+EQ class: personnn	soulnn	individualnn	somebodynn	mortalnn	
+
+BE: personNN
+EQ class: someonenn	soulnn	individualnn	somebodynn	mortalnn	
+
+BE: priestNN
+EQ class: priestlyjj	
+
+BE: childNN
+EQ class: tiddlernn	minornn	tikenn	small_frynn	frynn	shavernn	youngsternn	childlyjj	kidnn	nestlingnn	nippernn	tykenn	
+
+BE: doctorNN
+EQ class: physiciannn	dr.nn	doctorialjj	docnn	mediconn	mdnn	
+
+BE: thinkVB
+EQ class: believevb	conceivevb	considervb	
+
+BE: ignoreVB
+EQ class: snubvb	cutvb	disregardvb	
+
+BE: saysVBZ
+EQ class: statevbz	tellvbz	sayvbz	
+
+BE: getVB
+EQ class: acquirevb	
+
+BE: takingVBG
+EQ class: takevbg	
+
+BE: prayVBoverRP
+EQ class: prayernnofinoverrp	supplicationnnofinoverrp	
+
+BE: illJJ
+EQ class: sickjj	illnessnn	
+
+BE: illJJchildNN
+EQ class: sickjjtiddlernn	sickjjnippernn	sickjjshavernn	illjjkidnn	sickjjtikenn	sickjjchildlyjj	illnessnnfrynn	illjjtykenn	sickjjchildnn	illnessnnnestlingnn	illnessnnnippernn	sickjjfrynn	illjjyoungsternn	illjjnippernn	illjjfrynn	illjjsmall_frynn	illjjshavernn	illnessnntikenn	sickjjyoungsternn	sickjjsmall_frynn	illnessnnkidnn	illnessnnsmall_frynn	sickjjtykenn	sickjjkidnn	illjjminornn	illnessnnchildlyjj	sickjjminornn	illjjchildlyjj	illjjtikenn	illjjtiddlernn	illnessnnyoungsternn	illnessnntiddlernn	sickjjnestlingnn	illnessnntykenn	illnessnnshavernn	illjjnestlingnn	illnessnnminornn	illnessnnchildnn	
+
+BE: theirPRP$childNN
+EQ class: theirprp$childlyvb	theirprp$childlyjj	tikennofintheirprp$	nippernnofintheirprp$	youngsternnofintheirprp$	minornnofintheirprp$	theirprp$small_frynn	nestlingnnofintheirprp$	theirprp$tikenn	theirprp$nestlingnn	small_frynnofintheirprp$	theirprp$tykenn	theirprp$kidnn	theirprp$shavernn	childhoodvbtheirprp$	theirprp$childhoodvb	theirprp$tiddlernn	theirprp$youngsternn	tykennofintheirprp$	childnnofintheirprp$	kidnnofintheirprp$	theirprp$frynn	frynnofintheirprp$	tiddlernnofintheirprp$	theirprp$minornn	shavernnofintheirprp$	childlyvbtheirprp$	childlyjjofintheirprp$	theirprp$nippernn	
+
+BE: iPRPignoreVB
+EQ class: iprpcutvb	iprpdisregardvb	iprpsnubvb	
+
+BE: someoneNNsaysVBZ
+EQ class: personnnstatevbz	soulnnsayvbz	saynnofinsomeonenn	individualnntellvbz	soulnnsaysvbz	personnnsayvbz	saynnofinsomebodynn	someonennstatevbz	someonennsayvbz	individualnnsayvbz	mortalnnsaysvbz	somebodynnsaysvbz	mortalnntellvbz	individualnnstatevbz	soulnnstatevbz	saynnofinmortalnn	somebodynnsayvbz	someonenntellvbz	mortalnnstatevbz	saynnofinsoulnn	personnntellvbz	personnnsaysvbz	mortalnnsayvbz	soulnntellvbz	somebodynntellvbz	individualnnsaysvbz	somebodynnstatevbz	saynnofinpersonnn	saynnofinindividualnn	
+
+BE: personNNgetVB
+EQ class: acquiringnnindividualnn	acquiringnnsomebodynn	individualnngetvb	gettingnnofinmortalnn	gettingnnofinsoulnn	gettingnnofinsomebodynn	individualnnacquirevb	mortalnnacquirevb	acquiringnnsomeonenn	soulnngetvb	someonenngetvb	gettingnnofinpersonnn	gettingnnofinindividualnn	gettingnnmortalnn	acquiringnnsoulnn	someonennacquirevb	acquiringnnofinpersonnn	acquiringnnofinsoulnn	gettingnnsomebodynn	gettingnnpersonnn	personnnacquirevb	somebodynngetvb	acquiringnnmortalnn	gettingnnsomeonenn	gettingnnofinsomeonenn	soulnnacquirevb	acquiringnnpersonnn	somebodynnacquirevb	gettingnnindividualnn	acquiringnnofinindividualnn	acquiringnnofinmortalnn	acquiringnnofinsomeonenn	mortalnngetvb	gettingnnsoulnn	acquiringnnofinsomebodynn	
+
+BE: priestNNprayVB
+EQ class: prayernnofinpriestlyjj	supplicationnnpriestlyjj	prayernnofinpriestnn	supplicationnnpriestnn	priestlyjjprayvb	prayernnpriestnn	prayernnpriestlyjj	supplicationnnofinpriestlyjj	supplicationnnofinpriestnn	
+
+BE: ignoreVBitPRP
+EQ class: disregardvbitprp	snubvbitprp	cutvbitprp	
+
+BE: prayVBchildNN
+EQ class: prayernnofinminornn	prayernnofinshavernn	prayernnofinchildnn	prayernnofintiddlernn	prayvbminornn	prayvbtikenn	prayernnofintikenn	prayernnofinnippernn	prayvbtiddlernn	prayvbnestlingnn	prayvbyoungsternn	supplicationnnofinnestlingnn	prayernnofinyoungsternn	supplicationnnofinsmall_frynn	prayvbchildlyjj	supplicationnnofintiddlernn	prayernnofintykenn	prayvbtykenn	prayernnofinchildlyjj	supplicationnnofinnippernn	prayvbfrynn	prayernnofinfrynn	prayvbshavernn	supplicationnnofintikenn	supplicationnnofintykenn	prayernnofinkidnn	supplicationnnofinfrynn	supplicationnnofinkidnn	supplicationnnofinshavernn	prayvbnippernn	supplicationnnofinchildnn	supplicationnnofinchildlyjj	supplicationnnofinminornn	prayernnofinnestlingnn	prayvbsmall_frynn	prayernnofinsmall_frynn	prayvbkidnn	supplicationnnofinyoungsternn	
+
+BE: takingVBGthemPRP
+EQ class: takevbgthingsprp	takevbgaidsprp	takingvbgaidsprp	takevbgthemprp	takingvbgthingsprp	
+
+BE: getVBpriestNN
+EQ class: acquirevbpriestnn	gettingnnofinpriestlyjj	acquiringnnofinpriestlyjj	acquirevbpriestlyjj	acquiringnnofinpriestnn	getvbpriestlyjj	gettingnnofinpriestnn	
+
+BE: takingVBGtoTOdoctorNN
+EQ class: takingvbgtotophysiciannn	takingvbgtotodoctorialjj	takevbgtotodoctornn	takevbgtotodoctorialjj	takevbgtotomdnn	takevbgtotodr.nn	takingvbgtotomdnn	takingvbgtotodr.nn	takevbgtotodocnn	takevbgtotomediconn	takingvbgtotomediconn	takingvbgtotodocnn	takevbgtotophysiciannn	
+
+BE: saysVBZthatINgetVB
+EQ class: sayvbzthatinacquirevb	saysvbzthatinacquirevb	tellvbzthatingetvb	sayvbzthatingetvb	tellvbzthatinacquirevb	statevbzthatinacquirevb	statevbzthatingetvb	
+
+BE: ignoreVBjustRB
+EQ class: disregardvbjustrb	cutvbjustrb	snubvbjustrb	
+
+BE: someoneNN
+EQ class: personnn	soulnn	individualnn	somebodynn	mortalnn	
+
+BE: barkNN
+EQ class: barkyjj	
+
+BE: AIDSNNS
+EQ class: acquired_immune_deficiency_syndromenns	snns	a.i.d.s.nns	secondnns	secnns	
+
+BE: thinkVB
+EQ class: believevb	conceivevb	considervb	
+
+BE: ignoreVB
+EQ class: snubvb	cutvb	disregardvb	
+
+BE: claimsVBZ
+EQ class: claimvbz	
+
+BE: cureVB
+EQ class: bring_aroundvb	healvb	
+
+BE: iPRPignoreVB
+EQ class: iprpcutvb	iprpdisregardvb	iprpsnubvb	
+
+BE: someoneNNclaimsVBZ
+EQ class: claimnnofinmortalnn	mortalnnclaimsvbz	individualnnclaimsvbz	personnnclaimvbz	mortalnnclaimvbz	soulnnclaimsvbz	claimnnofinindividualnn	personnnclaimsvbz	individualnnclaimvbz	somebodynnclaimvbz	claimnnofinpersonnn	somebodynnclaimsvbz	claimnnofinsomeonenn	soulnnclaimvbz	someonennclaimvbz	claimnnofinsomebodynn	claimnnofinsoulnn	
+
+BE: barkNNcureVB
+EQ class: barkyjjhealvb	curativennofinbarknn	curennofinbarknn	barkyjjcurevb	remedynnofinbarknn	remedynnofinbarkyjj	therapeuticnnofinbarknn	barknnbring_aroundvb	therapeuticnnofinbarkyjj	curativennofinbarkyjj	curablennofinbarkyjj	curennofinbarkyjj	barkyjjbring_aroundvb	barknnhealvb	curablennofinbarknn	
+
+BE: ignoreVBitPRP
+EQ class: disregardvbitprp	snubvbitprp	cutvbitprp	
+
+BE: cureVBAIDSNNS
+EQ class: curativennofinacquired_immune_deficiency_syndromenns	curevbsecondnns	bring_aroundvbsnns	therapeuticnnofinsnns	curennofinsecondnns	curablennofinsecondnns	remedynnofina.i.d.s.nns	curennofinsecnns	remedynnofinsnns	healvbacquired_immune_deficiency_syndromenns	curevbsnns	therapeuticnnofinsecondnns	bring_aroundvbaidsnns	curablennofinsecnns	bring_aroundvbsecondnns	curevba.i.d.s.nns	healvbaidsnns	remedynnofinsecnns	therapeuticnnofinaidsnns	healvba.i.d.s.nns	curennofinacquired_immune_deficiency_syndromenns	curablennofina.i.d.s.nns	curativennofina.i.d.s.nns	curativennofinsecnns	curativennofinsecondnns	bring_aroundvbsecnns	curablennofinsnns	curativennofinaidsnns	curevbacquired_immune_deficiency_syndromenns	therapeuticnnofina.i.d.s.nns	healvbsnns	therapeuticnnofinacquired_immune_deficiency_syndromenns	curennofinaidsnns	bring_aroundvba.i.d.s.nns	curennofina.i.d.s.nns	curativennofinsnns	curablennofinacquired_immune_deficiency_syndromenns	remedynnofinaidsnns	remedynnofinacquired_immune_deficiency_syndromenns	remedynnofinsecondnns	healvbsecondnns	curennofinsnns	bring_aroundvbacquired_immune_deficiency_syndromenns	therapeuticnnofinsecnns	healvbsecnns	curablennofinaidsnns	curevbsecnns	
+
+BE: claimsVBZthatINcureVB
+EQ class: claimsvbzthatinhealvb	claimvbzthatinbring_aroundvb	claimsvbzthatinbring_aroundvb	claimvbzthatinhealvb	claimvbzthatincurevb	
+
+BE: someoneNN
+EQ class: personnn	soulnn	individualnn	somebodynn	mortalnn	
+
+BE: holeNN
+EQ class: holeyjj	
+
+BE: oceanNN
+EQ class: oceanicjj	
+
+BE: thinkVB
+EQ class: believevb	conceivevb	considervb	
+
+BE: ignoreVB
+EQ class: snubvb	cutvb	disregardvb	
+
+BE: claimsVBZ
+EQ class: claimvbz	
+
+BE: sVBZ
+EQ class: 
+
+BE: blackJJ
+EQ class: blacknessnn	
+
+BE: blackJJholeNN
+EQ class: blacknessnnholeyjj	blackjjholeyjj	blacknessnnholenn	
+
+BE: iPRPignoreVB
+EQ class: iprpcutvb	iprpdisregardvb	iprpsnubvb	
+
+BE: someoneNNclaimsVBZ
+EQ class: claimnnofinmortalnn	mortalnnclaimsvbz	individualnnclaimsvbz	personnnclaimvbz	mortalnnclaimvbz	soulnnclaimsvbz	claimnnofinindividualnn	personnnclaimsvbz	individualnnclaimvbz	somebodynnclaimvbz	claimnnofinpersonnn	somebodynnclaimsvbz	claimnnofinsomeonenn	soulnnclaimvbz	someonennclaimvbz	claimnnofinsomebodynn	claimnnofinsoulnn	
+
+BE: thereEXsVBZ
+EQ class: 
+
+BE: ignoreVBitPRP
+EQ class: disregardvbitprp	snubvbitprp	cutvbitprp	
+
+BE: sVBZholeNN
+EQ class: svbzholeyjj	
+
+BE: holeNNinINoceanNN
+EQ class: oceannnhole_outvb	holennininoceanicjj	oceannnholenn	hole_outvboceanicjj	holevboceanicjj	oceanicjjholeyjj	holeyjjininoceannn	holevboceannn	hole_outvboceannn	oceanicjjholevb	holeyjjininoceanicjj	oceannnholevb	holeyvboceannn	holeyvboceanicjj	oceannnholeyjj	oceannnholeyvb	oceanicjjholenn	oceanicjjholeyvb	oceanicjjhole_outvb	
+
+BE: claimsVBZthatINsVBZ
+EQ class: claimvbzthatinsvbz	
+
+BE: ThingsNNS
+EQ class: 
+
+BE: someoneNN
+EQ class: personnn	soulnn	individualnn	somebodynn	mortalnn	
+
+BE: healthNN
+EQ class: wellnessnn	healthyjj	
+
+BE: someoneNN
+EQ class: personnn	soulnn	individualnn	somebodynn	mortalnn	
+
+BE: opinionNN
+EQ class: thoughtnn	viewnn	persuasionnn	sentimentnn	
+
+BE: provedVBN
+EQ class: turn_outvbn	turn_upvbn	provevbn	
+
+BE: sVBZ
+EQ class: 
+
+BE: goVB
+EQ class: locomotevb	movevb	travelvb	
+
+BE: unremarkedVBN
+EQ class: 
+
+BE: sVBZ
+EQ class: 
+
+BE: sVBZ
+EQ class: 
+
+BE: wrongJJ
+EQ class: incorrectjj	wrongnessnn	
+
+BE: badJJ
+EQ class: badnessnn	
+
+BE: ThingsNNSgoVB
+EQ class: thingsnnstravelvb	thingsnnsmovevb	thingsnnslocomotevb	
+
+BE: someoneNNsVBZ
+EQ class: soulnnsvbz	somebodynnsvbz	mortalnnsvbz	personnnsvbz	individualnnsvbz	
+
+BE: itPRPsVBZ
+EQ class: 
+
+BE: someoneNNsVBZ
+EQ class: soulnnsvbz	somebodynnsvbz	mortalnnsvbz	personnnsvbz	individualnnsvbz	
+
+BE: ThingsNNSareAUX
+EQ class: thingsnnsbeaux	
+
+BE: provedVBNThingsNNS
+EQ class: turn_upvbnthingsnns	provevbnthingsnns	turn_outvbnthingsnns	
+
+BE: sVBZhealthNN
+EQ class: svbzwellnessnn	svbzhealthyjj	
+
+BE: sVBZopinionNN
+EQ class: svbzviewnn	svbzpersuasionnn	svbzsentimentnn	svbzthoughtnn	
+
+BE: areAUXbadJJ
+EQ class: beauxbadnessnn	beauxbadjj	areauxbadnessnn	
+
+BE: areAUXforINsVBZ
+EQ class: beauxforinsvbz	
+
+BE: areAUXeasilyRB
+EQ class: easyjjininareaux	easyjjininbeaux	easinessnnininareaux	easinessnnininbeaux	beauxeasilyrb	
+
+BE: provedVBNeasilyRB
+EQ class: turn_upvbneasilyrb	easinessnnininturn_outvbn	easyjjininturn_outvbn	turn_outvbneasilyrb	easyjjininturn_upvbn	easyjjininprovedvbn	easinessnnininprovevbn	provevbneasilyrb	easyjjininprovevbn	easinessnnininturn_upvbn	easinessnnininprovedvbn	
+

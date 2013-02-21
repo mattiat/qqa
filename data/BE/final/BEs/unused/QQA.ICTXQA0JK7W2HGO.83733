@@ -1,0 +1,73 @@
+#Doesn t it vary?  
+#(S1 (S (NP (NNP Doesn)) (VP (VBD t) (S (NP (PRP it)) (VP (VB vary)))) (. ?)))
+#Rule:Nouns
+r1DoesnPersonAnnotation
+
+#Rule:Verbs
+r2tVBD
+r2varyVB
+
+#Rule:HeadNoun-V
+r11DoesnPersonAnnotationtVBD
+r11itPRPvaryVB
+
+#Rule:V-HeadNoun
+r22tVBDitPRP
+
+#The River Nile for example?  
+#(S1 (NP (NP (DT The) (NNP River) (NNP Nile)) (PP (IN for) (NP (NN example))) (. ?)))
+#Rule:Nouns
+r1RiverLocationAnnotation
+r1NileNNP
+r1exampleNN
+
+#Rule:N-HeadNoun
+r8RiverLocationAnnotationNileNNP
+
+#Rule:PPinNP
+r26NileNNPforINexampleNN
+
+#There is a lake near me called Hawley Lake.  
+#(S1 (S (NP (EX There)) (VP (AUX is) (NP (NP (DT a) (NN lake)) (PP (IN near) (NP (PRP me))) (VP (VBN called) (S (NP (NNP Hawley) (NNP Lake)))))) (. .)))
+#Rule:Nouns
+r1lakeNN
+r1Hawley LakePersonAnnotation
+
+#Rule:Verbs
+r2calledVBN
+
+#Rule:HeadNoun-V
+r11thereEXisAUX
+
+#Rule:V-HeadNoun
+r21isAUXlakeNN
+
+#Rule:V-HeadNoun
+r22calledVBNHawley LakePersonAnnotation
+
+#Rule:V-HeadNoun(passive)
+r24calledVBNlakeNN
+
+#Rule:PPinNP
+r26lakeNNnearINmePRP
+
+#I think it depends on the river or lake.
+#(S1 (S (NP (PRP I)) (VP (VBP think) (SBAR (S (NP (PRP it)) (VP (VBZ depends) (PP (IN on) (NP (DT the) (NN river) (CC or) (NN lake))))))) (. .)))
+#Rule:Nouns
+r1riverNN
+r1lakeNN
+
+#Rule:Verbs
+r2thinkVBP
+r2dependsVBZ
+
+#Rule:HeadNoun-V
+r11iPRPthinkVBP
+r11itPRPdependsVBZ
+
+#Rule:PPinVP
+r30dependsVBZonINriverNN
+
+@lemmas-left	call	think	is	it	depend	lake	nile	vary	i	Doesn	t	Nile	there	Hawley Lake	called	example	depends	River	river	be	
+@lemmas-right	is	think	it	depend	lake	nile	vary	t	Nile	Hawley Lake	me	example	depends	river	be	
+@lemmas-center	near	for	on	

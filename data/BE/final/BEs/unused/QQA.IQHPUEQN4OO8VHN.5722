@@ -1,0 +1,1199 @@
+#Hindus declare that there is only one Supreme Being and He is the God of all religions.
+#(S1 (S (NP (NNS Hindus)) (VP (VBP declare) (SBAR (IN that) (S (S (NP (EX there)) (VP (AUX is) (NP (NP (RB only) (CD one)) (ADJP (NNP Supreme) (JJ Being))))) (CC and) (S (NP (PRP He)) (VP (AUX is) (NP (NP (DT the) (NNP God)) (PP (IN of) (NP (DT all) (NNS religions))))))))) (. .)))
+#Rule:Nouns
+r1HindusPersonAnnotation
+r1Supreme BeingOrganizationAnnotation
+r1GodNNP
+r1religionsNNS
+
+#Rule:Verbs
+r2declareVBP
+
+#Rule:Adj-Noun
+r5Supreme BeingOrganizationAnnotationoneCD
+
+#Rule:HeadNoun-V
+r11HindusPersonAnnotationdeclareVBP
+r11thereEXisAUX
+r11HeOrganizationAnnotationisAUX
+
+#Rule:V-HeadNoun
+r21isAUXoneCD
+r21isAUXGodNNP
+
+#Rule:PPinNP
+r26GodNNPofINreligionsNNS
+
+# There is no other God.
+#(S1 (S (NP (EX There)) (VP (AUX is) (NP (DT no) (JJ other) (NNP God))) (. .)))
+#Rule:Nouns
+r1GodOrganizationAnnotation
+
+#Rule:Adjs
+r4otherJJ
+
+#Rule:Adj-Noun
+r5otherJJGodOrganizationAnnotation
+
+#Rule:HeadNoun-V
+r11thereEXisAUX
+
+#Rule:V-HeadNoun
+r21isAUXGodOrganizationAnnotation
+
+# Thus the Biblical Commandment Thou shalt have no other God before me, really means, Thou shalt not deny the Ultimate Reality or worship any power other than the Ultimate Reality.
+#(S1 (S (SBAR (RB Thus) (S (NP (NP (DT the) (JJ Biblical) (NN Commandment)) (SBAR (S (NP (NNP Thou) (NN shalt)) (VP (AUX have) (NP (DT no) (JJ other) (NNP God)) (PP (IN before) (NP (PRP me))) (, ,) (ADVP (RB really)))))) (VP (VBZ means)))) (, ,) (NP (NNP Thou)) (VP (VBP shalt) (RB not) (VP (VB deny) (NP (DT the) (JJ Ultimate) (NN Reality) (CC or) (NN worship)) (NP (NP (DT any) (NN power)) (ADJP (JJ other) (PP (IN than) (NP (DT the) (JJ Ultimate) (NN Reality))))))) (. .)))
+#Rule:Nouns
+r1CommandmentNN
+r1ThouPersonAnnotation
+r1shaltNN
+r1GodNNP
+r1ThouPersonAnnotation
+r1RealityNN
+r1worshipNN
+r1powerNN
+r1RealityNN
+
+#Rule:Verbs
+r2meansVBZ
+r2shaltVBP
+r2denyVB
+
+#Rule:Adjs
+r4BiblicalOrganizationAnnotation
+r4otherJJ
+r4UltimateJJ
+r4otherJJ
+r4UltimateJJ
+
+#Rule:Adj-Noun
+r5BiblicalOrganizationAnnotationCommandmentNN
+r5otherJJGodNNP
+r5UltimateJJRealityNN
+r5otherJJpowerNN
+r5UltimateJJRealityNN
+
+#Rule:N-HeadNoun
+r8ThouPersonAnnotationshaltNN
+
+#Rule:HeadNoun-V
+r11ThouPersonAnnotationshaltVBP
+r11ThouPersonAnnotationdenyVB
+r11CommandmentNNmeansVBZ
+r11shaltNNhaveAUX
+
+#Rule:V-HeadNoun
+r21haveAUXGodNNP
+r21denyVBRealityNN
+r21denyVBpowerNN
+
+#Rule:PPinVP
+r30haveAUXbeforeINmePRP
+
+#Rule:PPinADJP
+r37otherJJthanINRealityNN
+
+#Rule:V-ADV
+r46haveAUXreallyRB
+r46shaltVBPnotRB
+
+# So, like most of the other religions, Hindus believe in God and only one God.
+#(S1 (S (ADVP (RB So)) (, ,) (PP (IN like) (NP (NP (JJS most)) (PP (IN of) (NP (DT the) (JJ other) (NNS religions))))) (, ,) (NP (JJ Hindus)) (VP (VBP believe) (PP (IN in) (NP (NP (NNP God)) (CC and) (NP (NP (QP (RB only) (CD one))) (NP (NNP God)))))) (. .)))
+#Rule:Nouns
+r1religionsNNS
+r1GodOrganizationAnnotation
+r1GodNNP
+
+#Rule:Verbs
+r2believeVBP
+
+#Rule:Adjs
+r4mostJJS
+r4otherJJ
+r4HindusPersonAnnotation
+
+#Rule:Adj-Noun
+r5otherJJreligionsNNS
+r5oneCDonlyRB
+
+#Rule:HeadNoun-V
+r11HindusPersonAnnotationbelieveVBP
+
+#Rule:PPinNP
+r26mostJJSofINreligionsNNS
+
+#Rule:PPinVP
+r30believeVBPinINGodOrganizationAnnotation
+r30believeVBPinINonlyRB
+r30believeVBPinINGodNNP
+
+#Rule:PPinS
+r36believeVBPlikeINmostJJS
+
+#Rule:V-ADV
+r46believeVBPSoRB
+
+#  Their view of God is much like the Christian Holy Trinity.
+#(S1 (S (NP (NP (PRP$ Their) (NN view)) (PP (IN of) (NP (NNP God)))) (VP (AUX is) (PP (RB much) (IN like) (NP (DT the) (NNP Christian) (NNP Holy) (NNP Trinity)))) (. .)))
+#Rule:Nouns
+r1viewNN
+r1GodNNP
+r1Christian Holy TrinityOrganizationAnnotation
+
+#Rule:PRP-Noun
+r6theirPRP$viewNN
+
+#Rule:HeadNoun-V
+r11viewNNisAUX
+
+#Rule:PPinNP
+r26viewNNofINGodNNP
+
+#Rule:PPinVP
+r30isAUXlikeINChristian Holy TrinityOrganizationAnnotation
+
+#  Hindus view cosmic activity of the Supreme Being as comprised of three tasks: creation, preservation, and dissolution and recreation.
+#(S1 (S (NP (NNS Hindus)) (VP (VBP view) (NP (NP (JJ cosmic) (NN activity)) (PP (IN of) (NP (DT the) (NNP Supreme) (NN Being)))) (PP (IN as) (S (VP (VBN comprised) (PP (IN of) (NP (NP (CD three) (NNS tasks)) (: :) (NP (NP (NN creation)) (, ,) (NP (NN preservation)) (, ,) (CC and) (NP (NN dissolution) (CC and) (NN recreation))))))))) (. .)))
+#Rule:Nouns
+r1HindusPersonAnnotation
+r1activityNN
+r1the Supreme BeingOrganizationAnnotation
+r1tasksNNS
+r1creationNN
+r1preservationNN
+r1dissolutionNN
+r1recreationNN
+
+#Rule:Verbs
+r2viewVBP
+r2comprisedVBN
+
+#Rule:Adjs
+r4cosmicJJ
+
+#Rule:Adj-Noun
+r5cosmicJJactivityNN
+r5threeCDtasksNNS
+
+#Rule:N-ApposN
+r10creationNNpreservationNN
+
+#Rule:HeadNoun-V
+r11HindusPersonAnnotationviewVBP
+
+#Rule:V-HeadNoun
+r21viewVBPactivityNN
+
+#Rule:PPinNP
+r26activityNNofINthe Supreme BeingOrganizationAnnotation
+
+#Rule:PPinVP
+r32comprisedVBNofINtasksNNS
+r32comprisedVBNofINcreationNN
+r32comprisedVBNofINpreservationNN
+r32comprisedVBNofINdissolutionNN
+
+# Hindus associate these three cosmic tasks with the three deities, Brahma, Vishnu and Shiva.
+#(S1 (S (NP (NNS Hindus)) (VP (VBP associate) (NP (NP (DT these) (CD three) (JJ cosmic) (NNS tasks)) (PP (IN with) (NP (NP (DT the) (CD three) (NNS deities)) (, ,) (NP (NNP Brahma) (, ,) (NNP Vishnu) (CC and) (NNP Shiva)))))) (. .)))
+#Rule:Nouns
+r1HindusNNS
+r1tasksNNS
+r1deitiesNNS
+r1BrahmaPersonAnnotation
+r1VishnuLocationAnnotation
+r1ShivaLocationAnnotation
+
+#Rule:Verbs
+r2associateVBP
+
+#Rule:Adjs
+r4cosmicJJ
+
+#Rule:Adj-Noun
+r5threeCDtasksNNS
+r5cosmicJJtasksNNS
+r5threeCDdeitiesNNS
+
+#Rule:N-ApposN
+r10deitiesNNSVishnuLocationAnnotation
+
+#Rule:HeadNoun-V
+r11HindusNNSassociateVBP
+
+#Rule:V-HeadNoun
+r21associateVBPtasksNNS
+
+#Rule:PPinNP
+r26tasksNNSwithINdeitiesNNS
+r26tasksNNSwithINVishnuLocationAnnotation
+
+# Lord Brahma brings forth the creation and represents the creative principle of the Supreme Being.
+#(S1 (S (NP (NNP Lord) (NNP Brahma)) (VP (VP (VBZ brings) (PRT (RP forth)) (NP (DT the) (NN creation))) (CC and) (VP (VBZ represents) (NP (NP (DT the) (JJ creative) (NN principle)) (PP (IN of) (NP (DT the) (NNP Supreme) (AUXG Being)))))) (. .)))
+#Rule:Nouns
+r1Lord BrahmaPersonAnnotation
+r1creationNN
+r1principleNN
+r1the Supreme BeingOrganizationAnnotation
+
+#Rule:Verbs
+r2representsVBZ
+
+#Rule:V-PRT
+r3bringsVBZforthRP
+
+#Rule:Adjs
+r4creativeJJ
+
+#Rule:Adj-Noun
+r5creativeJJprincipleNN
+
+#Rule:HeadNoun-V
+r11Lord BrahmaPersonAnnotationbringsVBZ
+r11Lord BrahmaPersonAnnotationrepresentsVBZ
+
+#Rule:V-HeadNoun
+r21bringsVBZcreationNN
+r21representsVBZprincipleNN
+
+#Rule:PPinNP
+r26principleNNofINthe Supreme BeingOrganizationAnnotation
+
+# Lord Vishnu maintains the universe and represents the eternal principle of preservation.
+#(S1 (S (NP (NNP Lord) (NNP Vishnu)) (VP (VP (VBZ maintains) (NP (DT the) (NN universe))) (CC and) (VP (VBZ represents) (NP (NP (DT the) (JJ eternal) (NN principle)) (PP (IN of) (NP (NN preservation)))))) (. .)))
+#Rule:Nouns
+r1Lord VishnuPersonAnnotation
+r1universeNN
+r1principleNN
+r1preservationNN
+
+#Rule:Verbs
+r2maintainsVBZ
+r2representsVBZ
+
+#Rule:Adjs
+r4eternalJJ
+
+#Rule:Adj-Noun
+r5eternalJJprincipleNN
+
+#Rule:HeadNoun-V
+r11Lord VishnuPersonAnnotationmaintainsVBZ
+r11Lord VishnuPersonAnnotationrepresentsVBZ
+
+#Rule:V-HeadNoun
+r21maintainsVBZuniverseNN
+r21representsVBZprincipleNN
+
+#Rule:PPinNP
+r26principleNNofINpreservationNN
+
+# Lord Shiva represents the principle of dissolution and recreation.
+#(S1 (S (NP (NNP Lord) (NNP Shiva)) (VP (VBZ represents) (NP (NP (DT the) (NN principle)) (PP (IN of) (NP (NN dissolution) (CC and) (NN recreation))))) (. .)))
+#Rule:Nouns
+r1Lord ShivaPersonAnnotation
+r1principleNN
+r1dissolutionNN
+r1recreationNN
+
+#Rule:Verbs
+r2representsVBZ
+
+#Rule:HeadNoun-V
+r11Lord ShivaPersonAnnotationrepresentsVBZ
+
+#Rule:V-HeadNoun
+r21representsVBZprincipleNN
+
+#Rule:PPinNP
+r26principleNNofINdissolutionNN
+
+# These three deities together form the Hindu Trinity.
+#(S1 (S (NP (DT These) (CD three) (NNS deities)) (ADVP (RB together)) (VP (VBP form) (NP (DT the) (NNP Hindu) (NNP Trinity))) (. .)))
+#Rule:Nouns
+r1deitiesOrganizationAnnotation
+r1Hindu TrinityOrganizationAnnotation
+
+#Rule:Verbs
+r2formVBP
+
+#Rule:Adj-Noun
+r5threeCDdeitiesOrganizationAnnotation
+
+#Rule:HeadNoun-V
+r11deitiesOrganizationAnnotationformVBP
+
+#Rule:V-HeadNoun
+r21formVBPHindu TrinityOrganizationAnnotation
+
+#Rule:V-ADV
+r46formVBPtogetherRB
+
+# One must clearly understand that Brahma, Vishnu and Shiva are not three independent deities.
+#(S1 (S (NP (PRP One)) (VP (MD must) (ADVP (RB clearly)) (VP (VB understand) (SBAR (IN that) (S (NP (NNP Brahma) (, ,) (NNP Vishnu) (CC and) (NNP Shiva)) (VP (AUX are) (RB not) (NP (CD three) (JJ independent) (NNS deities))))))) (. .)))
+#Rule:Nouns
+r1BrahmaPersonAnnotation
+r1VishnuLocationAnnotation
+r1ShivaLocationAnnotation
+r1deitiesOrganizationAnnotation
+
+#Rule:Verbs
+r2understandVB
+
+#Rule:Adjs
+r4independentJJ
+
+#Rule:Adj-Noun
+r5threeCDdeitiesOrganizationAnnotation
+r5independentJJdeitiesOrganizationAnnotation
+
+#Rule:HeadNoun-V
+r11onePRPunderstandVB
+r11VishnuLocationAnnotationareAUX
+
+#Rule:V-HeadNoun
+r21areAUXdeitiesOrganizationAnnotation
+
+#Rule:V-IN-V
+r43understandVBthatINareAUX
+
+#Rule:V-ADV
+r46understandVBclearlyRB
+r46areAUXnotRB
+
+#Rule:IS-RULE
+r47deitiesOrganizationAnnotationVishnuLocationAnnotation
+
+# They represent the same power (the Supreme Being), but in three different aspects.
+#(S1 (S (NP (PRP They)) (VP (VBP represent) (NP (NP (DT the) (JJ same) (NN power)) (PRN (-LRB- -LRB-) (NP (DT the) (NNP Supreme) (NN Being)) (-RRB- -RRB-))) (, ,) (CC but) (PP (IN in) (NP (CD three) (JJ different) (NNS aspects)))) (. .)))
+#Rule:Nouns
+r1powerNN
+r1the Supreme BeingOrganizationAnnotation
+r1aspectsNNS
+
+#Rule:Verbs
+r2representVBP
+
+#Rule:Adjs
+r4sameJJ
+r4differentJJ
+
+#Rule:Adj-Noun
+r5sameJJpowerNN
+r5threeCDaspectsNNS
+r5differentJJaspectsNNS
+
+#Rule:HeadNoun-V
+r11theyPRPrepresentVBP
+
+#Rule:V-HeadNoun
+r21representVBPpowerNN
+
+#Rule:PPinVP
+r30representVBPinINaspectsNNS
+
+# Just as a man may be called a doctor, father or husband based upon the tasks he performs, the Supreme Being is called Brahma, Vishnu or Shiva when conceived as performing the three different cosmic tasks of creation, preser-vation, and dissolution/recreation.
+#(S1 (S (SBAR (RB Just) (IN as) (S (NP (DT a) (NN man)) (VP (MD may) (VP (AUX be) (VP (VBN called) (NP (DT a) (NN doctor))))))) (, ,) (NP (NN father) (CC or) (NN husband)) (VP (VBN based) (PP (IN upon) (NP (NP (DT the) (NNS tasks)) (SBAR (S (NP (PRP he)) (VP (VBZ performs) (, ,) (SBAR (S (NP (DT the) (NNP Supreme) (NN Being)) (VP (AUX is) (VP (VBN called) (S (NP (NNP Brahma) (, ,) (NNP Vishnu) (CC or) (NNP Shiva))) (SBAR (WHADVP (WRB when)) (S (VP (VBN conceived) (PP (IN as) (S (VP (VBG performing) (NP (NP (DT the) (CD three) (JJ different) (JJ cosmic) (NNS tasks)) (PP (IN of) (NP (NP (NN creation)) (, ,) (NP (NN preser-vation)) (, ,) (CC and) (NP (NN dissolution/recreation))))))))))))))))))))) (. .)))
+#Rule:Nouns
+r1manNN
+r1doctorNN
+r1fatherNN
+r1husbandNN
+r1tasksNNS
+r1the Supreme BeingOrganizationAnnotation
+r1BrahmaPersonAnnotation
+r1VishnuPersonAnnotation
+r1ShivaPersonAnnotation
+r1tasksNNS
+r1creationNN
+r1preser-vationNN
+r1dissolution/recreationNN
+
+#Rule:Verbs
+r2calledVBN
+r2basedVBN
+r2performsVBZ
+r2calledVBN
+r2conceivedVBN
+r2performingVBG
+
+#Rule:Adjs
+r4differentJJ
+r4cosmicJJ
+
+#Rule:Adj-Noun
+r5threeCDtasksNNS
+r5differentJJtasksNNS
+r5cosmicJJtasksNNS
+
+#Rule:N-ApposN
+r10creationNNpreser-vationNN
+
+#Rule:HeadNoun-V
+r11hePRPperformsVBZ
+
+#Rule:NP(NP(z) SBAR(S(NP(x)VP(y))))
+r19performsVBZtasksNNS
+
+#Rule:V-HeadNoun
+r21calledVBNdoctorNN
+r21performingVBGtasksNNS
+
+#Rule:V-HeadNoun
+r22calledVBNVishnuPersonAnnotation
+
+#Rule:V-HeadNoun(passive)
+r23calledVBNmanNN
+r23calledVBNthe Supreme BeingOrganizationAnnotation
+
+#Rule:V-HeadNoun(passive)
+r24basedVBNfatherNN
+
+#Rule:PPinNP
+r26tasksNNSofINcreationNN
+r26tasksNNSofINpreser-vationNN
+r26tasksNNSofINdissolution/recreationNN
+
+#Rule:PPinVP
+r32basedVBNuponINtasksNNS
+
+# The oneness of the three gods Brahma, Vishnu and Shiva is brought out by the mystic symbol AUM where A represents Vishnu, U Shiva and M Brahma.
+#(S1 (S (NP (NP (DT The) (NN oneness)) (PP (IN of) (NP (NP (DT the) (CD three) (NNS gods)) (NP (NNP Brahma) (, ,) (NNP Vishnu) (CC and) (NNP Shiva))))) (VP (AUX is) (VP (VBN brought) (PRT (RP out)) (PP (IN by) (NP (NP (DT the) (JJ mystic) (NN symbol) (NN AUM)) (SBAR (WHADVP (WRB where)) (S (DT A) (VP (VBZ represents) (NP (NP (NNP Vishnu)) (, ,) (NP (NNP U) (NNP Shiva)) (CC and) (NP (NNP M) (NNP Brahma)))))))))) (. .)))
+#Rule:Nouns
+r1onenessNN
+r1godsNNS
+r1BrahmaPersonAnnotation
+r1VishnuOrganizationAnnotation
+r1ShivaOrganizationAnnotation
+r1symbolNN
+r1AUMNN
+r1VishnuOrganizationAnnotation
+r1U ShivaLocationAnnotation
+r1M BrahmaPersonAnnotation
+
+#Rule:Verbs
+r2representsVBZ
+
+#Rule:V-PRT
+r3broughtVBNoutRP
+
+#Rule:Adjs
+r4mysticJJ
+
+#Rule:Adj-Noun
+r5threeCDgodsNNS
+r5mysticJJAUMNN
+
+#Rule:N-HeadNoun
+r8symbolNNAUMNN
+
+#Rule:N-ApposN
+r10VishnuOrganizationAnnotationU ShivaLocationAnnotation
+
+#Rule:V-By-Agent
+r13AUMNNbroughtVBN
+
+#Rule:HeadNoun-(who/that)-V
+r14AUMNNrepresentsVBZ
+
+#Rule:V-HeadNoun
+r21representsVBZVishnuOrganizationAnnotation
+
+#Rule:V-HeadNoun(passive)
+r23broughtVBNonenessNN
+
+#Rule:PPinNP
+r26onenessNNofINgodsNNS
+r26onenessNNofINVishnuOrganizationAnnotation
+
+#Rule:(SBAR+WHADVP)inNP
+r41AUMNNwhereWRBrepresentsVBZ
+
+# Hindu religion is often labeled as a religion of 330 million gods.
+#(S1 (S (NP (NNP Hindu) (NN religion)) (VP (AUX is) (ADVP (RB often)) (VP (VBN labeled) (PP (IN as) (NP (NP (DT a) (NN religion)) (PP (IN of) (NP (QP (CD 330) (CD million)) (NNS gods))))))) (. .)))
+#Rule:Nouns
+r1HinduPersonAnnotation
+r1religionNN
+r1religionNN
+r1godsNNS
+
+#Rule:Verbs
+r2labeledVBN
+
+#Rule:Adj-Noun
+r5330CDgodsNNS
+r5millionCDgodsNNS
+
+#Rule:N-HeadNoun
+r8HinduPersonAnnotationreligionNN
+
+#Rule:V-HeadNoun(passive)
+r23labeledVBNreligionNN
+
+#Rule:PPinNP
+r26religionNNofINgodsNNS
+
+#Rule:PPinVP
+r32labeledVBNasINreligionNN
+
+#Rule:V-ADV
+r46isAUXoftenRB
+r46labeledVBNoftenRB
+
+# This misunderstanding arises when people fail to grasp the symbolism of the Hindu pantheon.
+#(S1 (S (NP (DT This) (VBG misunderstanding)) (VP (VBZ arises) (SBAR (WHADVP (WRB when)) (S (NP (NNS people)) (VP (VBP fail) (S (VP (TO to) (VP (VB grasp) (NP (NP (DT the) (NN symbolism)) (PP (IN of) (NP (DT the) (NNP Hindu) (NNP pantheon))))))))))) (. .)))
+#Rule:Nouns
+r1peopleNNS
+r1symbolismNN
+r1Hindu paLocationAnnotation
+
+#Rule:Verbs
+r2misunderstandingVBG
+r2arisesVBZ
+r2failVBP
+r2graspVB
+
+#Rule:HeadNoun-V
+r11misunderstandingVBGarisesVBZ
+r11peopleNNSfailVBP
+
+#Rule:V-HeadNoun
+r21graspVBsymbolismNN
+
+#Rule:PPinNP
+r26symbolismNNofINHindu paLocationAnnotation
+
+#Rule:V-V
+r44failVBPgraspVB
+
+# According to the Hindu scriptures, living beings are not apart from God, since He lives in each and every one of them in the form of atman (BG 10.39).
+#(S1 (S (PP (VBG According) (PP (TO to) (NP (DT the) (NNP Hindu) (NNS scriptures)))) (, ,) (NP (NN living) (NNS beings)) (VP (AUX are) (RB not) (ADVP (RB apart)) (PP (IN from) (NP (NNP God))) (, ,) (SBAR (IN since) (S (NP (PRP He)) (VP (VBZ lives) (PP (IN in) (NP (NP (DT each)) (CC and) (NP (NP (DT every) (CD one)) (PP (IN of) (NP (PRP them)))))) (PP (IN in) (NP (NP (DT the) (NN form)) (PP (IN of) (NP (NP (JJ atman)) (PRN (-LRB- -LRB-) (NP (NNP BG) (CD 10.39)) (-RRB- -RRB-)))))))))) (. .)))
+#Rule:Nouns
+r1HinduOrganizationAnnotation
+r1scripturesNNS
+r1livingNN
+r1beingsNNS
+r1GodNNP
+r1formNN
+r1BGOrganizationAnnotation
+
+#Rule:Verbs
+r2accordingVBG
+r2livesVBZ
+
+#Rule:Adjs
+r4atmanJJ
+
+#Rule:Adj-Noun
+r510.39CDBGOrganizationAnnotation
+
+#Rule:N-HeadNoun
+r8HinduOrganizationAnnotationscripturesNNS
+r8livingNNbeingsNNS
+
+#Rule:HeadNoun-V
+r11beingsNNSareAUX
+r11hePRPlivesVBZ
+
+#Rule:PPinNP
+r26oneCDofINthemPRP
+r26formNNofINatmanJJ
+
+#Rule:PPinVP
+r30areAUXfromINGodNNP
+r30livesVBZinINeachDT
+r30livesVBZinINoneCD
+r30livesVBZinINformNN
+
+#Rule:V-IN-V
+r43areAUXsinceINlivesVBZ
+
+#Rule:V-ADV
+r46areAUXnotRB
+r46areAUXapartRB
+
+# Thus each living being is a unique manifestation of God.
+#(S1 (S (ADVP (RB Thus)) (NP (DT each) (NN living) (AUXG being)) (VP (AUX is) (NP (NP (DT a) (JJ unique) (NN manifestation)) (PP (IN of) (NP (NNP God))))) (. .)))
+#Rule:Nouns
+r1livingNN
+r1manifestationNN
+r1GodOrganizationAnnotation
+
+#Rule:Adjs
+r4uniqueJJ
+
+#Rule:Adj-Noun
+r5uniqueJJmanifestationNN
+
+#Rule:HeadNoun-V
+r11livingNNisAUX
+
+#Rule:V-HeadNoun
+r21isAUXmanifestationNN
+
+#Rule:PPinNP
+r26manifestationNNofINGodOrganizationAnnotation
+
+#Rule:V-ADV
+r46isAUXThusRB
+
+#Rule:IS-RULE
+r47manifestationNNlivingNN
+
+# In ancient times it was believed that there were 330 million living beings.
+#(S1 (S (PP (IN In) (NP (JJ ancient) (NNS times))) (NP (PRP it)) (VP (AUX was) (VP (VBN believed) (SBAR (IN that) (S (NP (EX there)) (VP (AUX were) (NP (QP (CD 330) (CD million)) (NN living) (NNS beings))))))) (. .)))
+#Rule:Nouns
+r1timesNNS
+r1livingNN
+r1beingsNNS
+
+#Rule:Verbs
+r2believedVBN
+
+#Rule:Adjs
+r4ancientJJ
+
+#Rule:Adj-Noun
+r5ancientJJtimesNNS
+r5330CDbeingsNNS
+r5millionCDbeingsNNS
+
+#Rule:N-HeadNoun
+r8livingNNbeingsNNS
+
+#Rule:HeadNoun-V
+r11thereEXwereAUX
+
+#Rule:V-HeadNoun
+r21wereAUXbeingsNNS
+
+#Rule:V-HeadNoun(passive)
+r23believedVBNitPRP
+
+#Rule:PPinS
+r36wasAUXinINtimesNNS
+
+#Rule:V-IN-V
+r43believedVBNthatINwereAUX
+
+# This gave rise to the idea of 330 million deities or gods.
+#(S1 (S (NP (DT This)) (VP (VBD gave) (NP (NN rise)) (PP (TO to) (NP (NP (DT the) (NN idea)) (PP (IN of) (NP (NP (QP (CD 330) (CD million)) (NNS deities)) (CC or) (NP (NNS gods))))))) (. .)))
+#Rule:Nouns
+r1riseNN
+r1ideaNN
+r1deitiesNNS
+r1godsNNS
+
+#Rule:Verbs
+r2gaveVBD
+
+#Rule:Adj-Noun
+r5330CDdeitiesNNS
+r5millionCDdeitiesNNS
+
+#Rule:HeadNoun-V
+r11thisDTgaveVBD
+
+#Rule:V-HeadNoun
+r21gaveVBDriseNN
+
+#Rule:PPinNP
+r26ideaNNofINdeitiesNNS
+r26ideaNNofINgodsNNS
+
+#Rule:PPinVP
+r30gaveVBDtoTOideaNN
+
+# Actually, this vast number of gods could not have been possibly worshiped, since 330 million names could not have been designed for them.
+#(S1 (S (ADVP (RB Actually)) (, ,) (NP (NP (DT this) (JJ vast) (NN number)) (PP (IN of) (NP (NNS gods)))) (VP (MD could) (RB not) (VP (AUX have) (VP (AUX been) (ADVP (RB possibly)) (VP (VBN worshiped) (, ,) (SBAR (IN since) (S (NP (QP (CD 330) (CD million)) (NNS names)) (VP (MD could) (RB not) (VP (AUX have) (VP (AUX been) (VP (VBN designed) (PP (IN for) (NP (PRP them))))))))))))) (. .)))
+#Rule:Nouns
+r1numberNN
+r1godsNNS
+r1namesNNS
+
+#Rule:Verbs
+r2worshipedVBN
+r2designedVBN
+
+#Rule:Adjs
+r4vastJJ
+
+#Rule:Adj-Noun
+r5vastJJnumberNN
+r5330CDnamesNNS
+r5millionCDnamesNNS
+
+#Rule:V-HeadNoun(passive)
+r23worshipedVBNnumberNN
+r23designedVBNnamesNNS
+
+#Rule:PPinNP
+r26numberNNofINgodsNNS
+
+#Rule:PPinVP
+r32designedVBNforINthemPRP
+
+#Rule:V-IN-V
+r43worshipedVBNsinceINdesignedVBN
+
+#Rule:V-ADV
+r46beenAUXpossiblyRB
+r46worshipedVBNpossiblyRB
+
+# The number 330 million was simply used to give a symbolic expression to the fundamental Hindu doctrine that God lives in the hearts of all living beings.
+#(S1 (S (NP (DT The) (NN number) (QP (CD 330) (CD million))) (VP (AUX was) (ADVP (RB simply)) (VP (VBN used) (S (VP (TO to) (VP (VB give) (NP (DT a) (JJ symbolic) (NN expression)) (PP (TO to) (NP (DT the) (JJ fundamental) (NNP Hindu) (NN doctrine))) (SBAR (IN that) (S (NP (NNP God)) (VP (VBZ lives) (PP (IN in) (NP (NP (DT the) (NNS hearts)) (PP (IN of) (NP (DT all) (NN living) (NNS beings))))))))))))) (. .)))
+#Rule:Nouns
+r1numberNN
+r1expressionNN
+r1HinduPersonAnnotation
+r1doctrineNN
+r1GodNNP
+r1heartsNNS
+r1livingNN
+r1beingsNNS
+
+#Rule:Verbs
+r2usedVBN
+r2giveVB
+r2livesVBZ
+
+#Rule:Adjs
+r4symbolicJJ
+r4fundamentalJJ
+
+#Rule:Adj-Noun
+r5330CDnumberNN
+r5millionCDnumberNN
+r5symbolicJJexpressionNN
+r5fundamentalJJdoctrineNN
+
+#Rule:N-HeadNoun
+r8HinduPersonAnnotationdoctrineNN
+r8livingNNbeingsNNS
+
+#Rule:HeadNoun-V
+r11GodNNPlivesVBZ
+
+#Rule:V-HeadNoun
+r21giveVBexpressionNN
+
+#Rule:V-HeadNoun(passive)
+r23usedVBNnumberNN
+
+#Rule:PPinNP
+r26heartsNNSofINbeingsNNS
+
+#Rule:PPinVP
+r30giveVBtoTOdoctrineNN
+r30livesVBZinINheartsNNS
+
+#Rule:V-IN-V
+r43giveVBthatINlivesVBZ
+
+#Rule:V-V
+r44usedVBNgiveVB
+
+#Rule:V-ADV
+r46wasAUXsimplyRB
+r46usedVBNsimplyRB
+
+# The Hindu trinity is of Brahma, Vishnu  and Shiva.
+#(S1 (S (NP (DT The) (NNP Hindu) (NN trinity)) (VP (AUX is) (PP (IN of) (NP (NNP Brahma) (, ,) (NNP Vishnu) (CC and) (NNP Shiva)))) (. .)))
+#Rule:Nouns
+r1Hindu trinityOrganizationAnnotation
+r1BrahmaPersonAnnotation
+r1VishnOrganizationAnnotation
+
+#Rule:HeadNoun-V
+r11Hindu trinityOrganizationAnnotationisAUX
+
+#Rule:PPinVP
+r30isAUXofINVishnOrganizationAnnotation
+
+# They are respectively the creator, preserver and destroyer of the universe.
+#(S1 (S (NP (PRP They)) (VP (AUX are) (ADVP (RB respectively)) (NP (NP (DT the) (NN creator) (, ,) (NN preserver) (CC and) (NN destroyer)) (PP (IN of) (NP (DT the) (NN universe))))) (. .)))
+#Rule:Nouns
+r1creatorNN
+r1preserverNN
+r1destroyerNN
+r1universeNN
+
+#Rule:HeadNoun-V
+r11theyPRPareAUX
+
+#Rule:V-HeadNoun
+r21areAUXpreserverNN
+
+#Rule:PPinNP
+r26preserverNNofINuniverseNN
+
+#Rule:V-ADV
+r46areAUXrespectivelyRB
+
+# They are also aligned as the transcendent Godhead, Shiva, the cosmic lord, Vishnu and the cosmic mind, Brahma.
+#(S1 (S (NP (PRP They)) (VP (AUX are) (ADVP (RB also)) (VP (VBN aligned) (PP (IN as) (NP (NP (DT the) (JJ transcendent) (NNP Godhead)) (, ,) (NP (NNP Shiva)) (, ,) (NP (DT the) (JJ cosmic) (NNP lord)) (, ,) (NP (NNP Vishnu)) (CC and) (NP (NP (DT the) (JJ cosmic) (NN mind)) (, ,) (NP (NNP Brahma))))))) (. .)))
+#Rule:Nouns
+r1GodheadOrganizationAnnotation
+r1ShivaOrganizationAnnotation
+r1lordNNP
+r1VishnuPersonAnnotation
+r1mindNN
+r1BrahmaPersonAnnotation
+
+#Rule:Verbs
+r2alignedVBN
+
+#Rule:Adjs
+r4transcendentJJ
+r4cosmicJJ
+r4cosmicJJ
+
+#Rule:Adj-Noun
+r5transcendentJJGodheadOrganizationAnnotation
+r5cosmicJJlordNNP
+r5cosmicJJmindNN
+
+#Rule:N-ApposN
+r10GodheadOrganizationAnnotationShivaOrganizationAnnotation
+r10mindNNBrahmaPersonAnnotation
+
+#Rule:V-HeadNoun(passive)
+r23alignedVBNtheyPRP
+
+#Rule:PPinVP
+r32alignedVBNasINGodheadOrganizationAnnotation
+r32alignedVBNasINShivaOrganizationAnnotation
+r32alignedVBNasINlordNNP
+r32alignedVBNasINVishnuPersonAnnotation
+r32alignedVBNasINmindNN
+r32alignedVBNasINBrahmaPersonAnnotation
+
+#Rule:V-ADV
+r46areAUXalsoRB
+r46alignedVBNalsoRB
+
+# In this regard they are called Sat-Tat-Aum, the Being, the Thatness or immanence and the Word or holy spirit.
+#(S1 (S (PP (IN In) (NP (DT this) (NN regard))) (NP (PRP they)) (VP (AUX are) (VP (VBN called) (S (NP (NP (NNP Sat-Tat-Aum)) (, ,) (NP (NP (DT the) (NN Being)) (, ,) (NP (DT the) (NNP Thatness)) (CC or) (NP (NN immanence))) (CC and) (NP (NP (DT the) (NN Word)) (CC or) (NP (JJ holy) (NN spirit))))))) (. .)))
+#Rule:Nouns
+r1regardNN
+r1Sat-Tat-AumPersonAnnotation
+r1BeingLocationAnnotation
+r1ThatnessOrganizationAnnotation
+r1immanenceNN
+r1WordNN
+r1spiritNN
+
+#Rule:Verbs
+r2calledVBN
+
+#Rule:Adjs
+r4holyJJ
+
+#Rule:Adj-Noun
+r5holyJJspiritNN
+
+#Rule:N-ApposN
+r10Sat-Tat-AumPersonAnnotationBeingLocationAnnotation
+r10BeingLocationAnnotationThatnessOrganizationAnnotation
+
+#Rule:V-HeadNoun
+r22calledVBNSat-Tat-AumPersonAnnotation
+
+#Rule:V-HeadNoun(passive)
+r23calledVBNtheyPRP
+
+#Rule:PPinS
+r36areAUXinINregardNN
+
+# This is much like the Christian trinity of God as the Father, Son and Holy Ghost.
+#(S1 (S (NP (DT This)) (VP (AUX is) (NP (NP (JJ much)) (PP (IN like) (NP (DT the) (NNP Christian) (NN trinity))) (PP (IN of) (NP (NNP God))) (PP (IN as) (NP (DT the) (NNP Father) (, ,) (NNP Son) (CC and) (NNP Holy) (NN Ghost))))) (. .)))
+#Rule:Nouns
+r1Christian trinity of GodOrganizationAnnotation
+r1FatherNNP
+r1SonPersonAnnotation
+r1Holy GhostPersonAnnotation
+
+#Rule:Adjs
+r4muchJJ
+
+#Rule:HeadNoun-V
+r11thisDTisAUX
+
+#Rule:V-HeadNoun
+r21isAUXmuchJJ
+
+#Rule:PPinNP
+r26muchJJlikeINChristian trinity of GodOrganizationAnnotation
+r26muchJJasINHoly GhostPersonAnnotation
+
+# The trinity represents the Divine in its threefold nature and function.
+#(S1 (S (NP (DT The) (NN trinity)) (VP (VBZ represents) (NP (DT the) (NNP Divine)) (PP (IN in) (NP (NP (PRP$ its) (RB threefold) (NN nature)) (CC and) (NP (NN function))))) (. .)))
+#Rule:Nouns
+r1trinityOrganizationAnnotation
+r1DivineOrganizationAnnotation
+r1natureNN
+r1functionNN
+
+#Rule:Verbs
+r2representsVBZ
+
+#Rule:PRP-Noun
+r6itsPRP$natureNN
+
+#Rule:HeadNoun-V
+r11trinityOrganizationAnnotationrepresentsVBZ
+
+#Rule:V-HeadNoun
+r21representsVBZDivineOrganizationAnnotation
+
+#Rule:PPinVP
+r30representsVBZinINnatureNN
+r30representsVBZinINfunctionNN
+
+# Each aspect of the trinity contains and includes the others..Hin
+#(S1 (S (NP (NP (DT Each) (NN aspect)) (PP (IN of) (NP (DT the) (NN trinity)))) (VP (VBZ contains) (CC and) (VBZ includes) (NP (NP (DT the) (NNS others)) (VP (VBG ..) (NP (NNP Hin)))))))
+#Rule:Nouns
+r1aspectNN
+r1trinityOrganizationAnnotation
+r1others..HinLocationAnnotation
+r1Hindu TrimurtiPersonAnnotation
+
+#Rule:Verbs
+r2containsVBZ
+r2includesVBZ
+
+#Rule:HeadNoun-V
+r11aspectNNcontainsVBZ
+
+#Rule:V-HeadNoun
+r21containsVBZothers..HinLocationAnnotation
+r21others..HinLocationAnnotationHindu TrimurtiPersonAnnotation
+
+#Rule:PPinNP
+r26aspectNNofINtrinityOrganizationAnnotation
+
+#Hindu Trimurti is just the name of the Hindu Holy Trinity.
+#(S1 (S (NP (NNP Hindu) (NNP Trimurti)) (VP (AUX is) (ADVP (RB just)) (NP (NP (DT the) (NN name)) (PP (IN of) (NP (DT the) (NNP Hindu) (NNP Holy) (NNP Trinity))))) (. .)))
+#Rule:Nouns
+r1Hindu TrimurtiPersonAnnotation
+r1nameNN
+r1Hindu Holy TrinityOrganizationAnnotation
+
+#Rule:HeadNoun-V
+r11Hindu TrimurtiPersonAnnotationisAUX
+
+#Rule:V-HeadNoun
+r21isAUXnameNN
+
+#Rule:PPinNP
+r26nameNNofINHindu Holy TrinityOrganizationAnnotation
+
+#Rule:V-ADV
+r46isAUXjustRB
+
+#Rule:IS-RULE
+r47nameNNHindu TrimurtiPersonAnnotation
+
+#  Trimurti, meaning having three forms , is the term applied to the three main Hindu gods: Brahma, Vishnu and Shiva.
+#(S1 (S (NP (NP (NNP Trimurti)) (, ,) (NP (NP (NN meaning)) (VP (AUXG having) (NP (CD three) (NNS forms)))) (, ,)) (VP (AUX is) (NP (NP (DT the) (NN term)) (VP (VBN applied) (PP (TO to) (NP (NP (DT the) (CD three) (JJ main) (NNP Hindu) (NNS gods)) (: :) (NP (NNP Brahma) (, ,) (NNP Vishnu) (CC and) (NNP Shiva))))))) (. .)))
+#Rule:Nouns
+r1TrimurtiPersonAnnotation
+r1meaningNN
+r1formsNNS
+r1termNN
+r1HinduLocationAnnotation
+r1godsNNS
+r1BrahmaPersonAnnotation
+r1VishnuOrganizationAnnotation
+r1ShivaOrganizationAnnotation
+
+#Rule:Verbs
+r2appliedVBN
+
+#Rule:Adjs
+r4mainJJ
+
+#Rule:Adj-Noun
+r5threeCDformsNNS
+r5threeCDgodsNNS
+r5mainJJgodsNNS
+
+#Rule:N-HeadNoun
+r8HinduLocationAnnotationgodsNNS
+
+#Rule:N-ApposN
+r10TrimurtiPersonAnnotationmeaningNN
+
+#Rule:HeadNoun-V
+r11TrimurtiPersonAnnotationisAUX
+r11meaningNNisAUX
+
+#Rule:V-HeadNoun
+r21havingAUXGformsNNS
+r21isAUXtermNN
+
+#Rule:V-HeadNoun(passive)
+r24appliedVBNtermNN
+
+#Rule:PPinVP
+r32appliedVBNtoTOgodsNNS
+r32appliedVBNtoTOVishnuOrganizationAnnotation
+
+#Rule:IS-RULE
+r47termNNTrimurtiPersonAnnotation
+r47termNNmeaningNN
+
+# This Trimurti or triad represents all aspects of the Supreme Being.
+#(S1 (S (NP (DT This) (NNP Trimurti) (CC or) (NNP triad)) (VP (VBZ represents) (NP (NP (DT all) (NNS aspects)) (PP (IN of) (NP (DT the) (NNP Supreme) (AUXG Being))))) (. .)))
+#Rule:Nouns
+r1TrimurtiPersonAnnotation
+r1triadNNP
+r1aspectsNNS
+r1the Supreme BeingOrganizationAnnotation
+
+#Rule:Verbs
+r2representsVBZ
+
+#Rule:HeadNoun-V
+r11TrimurtiPersonAnnotationrepresentsVBZ
+
+#Rule:V-HeadNoun
+r21representsVBZaspectsNNS
+
+#Rule:PPinNP
+r26aspectsNNSofINthe Supreme BeingOrganizationAnnotation
+
+# The Trimurti is depicted as a single-bodied, three-headed man.
+#(S1 (S (NP (DT The) (NNP Trimurti)) (VP (AUX is) (VP (VBN depicted) (PP (IN as) (NP (DT a) (JJ single-bodied) (, ,) (JJ three-headed) (NN man))))) (. .)))
+#Rule:Nouns
+r1TrimurtiPersonAnnotation
+r1manNN
+
+#Rule:Verbs
+r2depictedVBN
+
+#Rule:Adjs
+r4single-bodiedJJ
+r4three-headedJJ
+
+#Rule:Adj-Noun
+r5single-bodiedJJmanNN
+r5three-headedJJmanNN
+
+#Rule:V-HeadNoun(passive)
+r23depictedVBNTrimurtiPersonAnnotation
+
+#Rule:PPinVP
+r32depictedVBNasINmanNN
+
+# This symbolises the fact that the three forms are aspects of one Supreme Being.
+#(S1 (S (NP (DT This)) (VP (VBZ symbolises) (NP (DT the) (NN fact) (SBAR (IN that) (S (NP (DT the) (CD three) (NNS forms)) (VP (AUX are) (NP (NP (NNS aspects)) (PP (IN of) (NP (CD one) (NNP Supreme) (AUXG Being))))))))) (. .)))
+#Rule:Nouns
+r1factNN
+r1formsNNS
+r1aspectsNNS
+r1Supreme BeingOrganizationAnnotation
+
+#Rule:Verbs
+r2symbolisesVBZ
+
+#Rule:Adj-Noun
+r5threeCDformsNNS
+r5oneCDSupreme BeingOrganizationAnnotation
+
+#Rule:HeadNoun-V
+r11thisDTsymbolisesVBZ
+r11formsNNSareAUX
+
+#Rule:V-HeadNoun
+r21symbolisesVBZfactNN
+r21areAUXaspectsNNS
+
+#Rule:PPinNP
+r26aspectsNNSofINSupreme BeingOrganizationAnnotation
+
+#Rule:IS-RULE
+r47aspectsNNSformsNNS
+
+# Nothing in the universe is created, preserved, or destroyed without the mutual agreement and approval of the three aspects of the Supreme Being, for they are unitedly essential for the production and reproduction of all forms of life..Rea
+#(S1 (S (NP (NP (NN Nothing)) (PP (IN in) (NP (DT the) (NN universe)))) (VP (AUX is) (VP (VBN created) (, ,) (VBN preserved) (, ,) (CC or) (VBN destroyed) (PP (IN without) (NP (NP (DT the) (JJ mutual) (NN agreement)) (CC and) (NP (NP (NN approval)) (PP (IN of) (NP (NP (DT the) (CD three) (NNS aspects)) (PP (IN of) (NP (DT the) (NNP Supreme) (NN Being)))))))) (, ,) (SBAR (IN for) (S (NP (PRP they)) (VP (AUX are) (RB unitedly) (ADJP (JJ essential) (PP (IN for) (NP (NP (DT the) (NN production) (CC and) (NN reproduction)) (PP (IN of) (NP (NP (DT all) (NNS forms)) (PP (IN of) (NP (NN life) (NN ..) (NNP Rea)))))))))))))))
+#Rule:Nouns
+r1NothingNN
+r1universeNN
+r1agreementNN
+r1approvalNN
+r1aspectsNNS
+r1the Supreme BeingOrganizationAnnotation
+r1productionNN
+r1reproductionNN
+r1formsNNS
+r1life..ReaLocationAnnotation
+
+#Rule:Verbs
+r2createdVBN
+r2preservedVBN
+r2destroyedVBN
+
+#Rule:Adjs
+r4mutualJJ
+r4essentialJJ
+
+#Rule:Adj-Noun
+r5mutualJJagreementNN
+r5threeCDaspectsNNS
+
+#Rule:HeadNoun-V
+r11theyPRPareAUX
+
+#Rule:V-HeadNoun(passive)
+r23createdVBNNothingNN
+
+#Rule:V-ADJ
+r25areAUXessentialJJ
+
+#Rule:PPinNP
+r26NothingNNinINuniverseNN
+r26approvalNNofINaspectsNNS
+r26aspectsNNSofINthe Supreme BeingOrganizationAnnotation
+r26productionNNofINformsNNS
+r26formsNNSofINlife..ReaLocationAnnotation
+
+#Rule:PPinVP
+r32createdVBNwithoutINagreementNN
+r32createdVBNwithoutINapprovalNN
+
+#Rule:PPinADJP
+r37essentialJJforINproductionNN
+
+#Rule:V-IN-V
+r43createdVBNforINareAUX
+
+#Rule:V-ADV
+r46areAUXunitedlyRB
+
+#Read the sources below for more information.
+#(S1 (S (VP (VB Read) (NP (DT the) (NNS sources)) (ADVP (RB below)) (PP (IN for) (NP (JJR more) (NN information)))) (. .)))
+#Rule:Nouns
+r1sourcesNNS
+r1informationNN
+
+#Rule:Verbs
+r2readVB
+
+#Rule:Adjs
+r4moreJJR
+
+#Rule:Adj-Noun
+r5moreJJRinformationNN
+
+#Rule:V-HeadNoun
+r21readVBsourcesNNS
+
+#Rule:PPinVP
+r30readVBforINinformationNN
+
+#Rule:V-ADV
+r46readVBbelowRB
+
+@lemmas-left	hearts	understand	misunderstand	maintain	330	its	lord	production	commandment	associate	preser-vation	religion	nature	created	scriptures	essential	Nothing	creative	number	regard	he	universe	worship	declare	aspect	view	Being	transcendent	idea	god	unique	triad	give	Lord Vishnu	use	brought	mystic	designed	three-headed	Word	times	man	arises	cosmic	meaning	living	represent	worshiped	Thatness	immanence	life..Rea	symbolise	independent	gave	fact	nothing	base	symbolism	having	conceive	Hindu Holy Trinity	arise	expression	AUM	Vishn	M Brahma	perform	same	recreation	doctor	Thou	preserved	comprised	others..Hin	be	Sat-Tat-Aum	preserver	align	label	much	symbolises	names	deity	scripture	comprise	dissolution/recreation	husband	creator	destroy	BG	headed	deny	vast	name	Supreme Being	activity	Hindu	manifestation	approval	accord	misunderstanding	main	source	there	Hindu trinity	dissolution	10.39	Hindu Trimurti	eternal	they	aligned	U Shiva	bring	ultimate	people	are	ancient	fail	Shiva	performing	trinity	grasp	information	million	form	Biblical	reality	create	include	Ultimate	shalt	different	creation	aspects	most	holy	gods	bodied	according	principle	believed	destroyed	maintains	mind	depicted	performs	labeled	destroyer	beings	brings	represents	mutual	Hindu Trinity	spirit	based	design	apply	Lord Shiva	the Supreme Being	being	contains	conceived	reproduction	used	Father	sources	preserve	been	function	hindu	were	more	Brahma	three	power	Divine	Christian trinity of God	Christian Holy Trinity	He	live	Commandment	symbol	oneness	Vishnu	means	symbolic	Holy Ghost	contain	called	lives	Hindu pa	word	Son	doctrine	this	call	Lord Brahma	other	have	one	believe	includes	Godhead	father	was	religions	rise	read	mean	forms	depict	is	deities	task	atman	agreement	tasks	aum	Hindus	term	Trimurti	applied	God	fundamental	Reality	their	preservation	single-bodied	
+@lemmas-right	forth	they	hearts	understand	maintain	U Shiva	bring	lord	production	commandment	associate	religion	preser-vation	are	nature	fail	Shiva	scriptures	only	trinity	grasp	information	essential	Nothing	form	possibly	respectively	regard	number	reality	universe	apart	declare	not	aspect	simply	shalt	them	Being	view	each	creation	idea	god	give	aspects	most	brought	gods	principle	designed	times	maintains	me	mind	man	performs	arises	just	unitedly	beings	brings	meaning	living	represent	Thatness	life..Rea	symbolise	really	gave	represents	fact	Hindu Trinity	nothing	spirit	symbolism	clearly	Hindu Holy Trinity	design	expression	arise	AUM	Vishn	the Supreme Being	being	contains	perform	recreation	sources	together	function	doctor	were	Brahma	power	Divine	others..Hin	Christian trinity of God	Christian Holy Trinity	be	live	Commandment	Sat-Tat-Aum	Thus	preserver	so	oneness	Vishnu	means	much	symbolises	Holy Ghost	names	often	contain	deity	scripture	lives	Hindu pa	doctrine	dissolution/recreation	have	one	believe	Godhead	So	father	BG	religions	rise	deny	name	below	mean	Supreme Being	forms	activity	manifestation	deities	is	it	thus	task	atman	approval	agreement	tasks	aum	source	term	Trimurti	dissolution	God	Reality	Hindu Trimurti	also	preservation	out	
+@lemmas-center	to	with	for	before	as	from	since	like	where	without	in	of	that	than	upon	

@@ -1,0 +1,18 @@
+#how to fix an aneurism in the aorta?
+#(S1 (FRAG (SBAR (WHADVP (WRB how)) (S (VP (TO to) (VP (VB fix) (NP (NP (DT an) (NN aneurism)) (PP (IN in) (NP (DT the) (NN aorta)))))))) (. ?)))
+#Rule:Nouns
+r1aneurismNN
+r1aortaLocationAnnotation
+
+#Rule:Verbs
+r2fixVB
+
+#Rule:V-HeadNoun
+r21fixVBaneurismNN
+
+#Rule:PPinNP
+r26aneurismNNinINaortaLocationAnnotation
+
+@lemmas-left	aneurism	fix	aorta	
+@lemmas-right	aneurism	aorta	
+@lemmas-center	in	

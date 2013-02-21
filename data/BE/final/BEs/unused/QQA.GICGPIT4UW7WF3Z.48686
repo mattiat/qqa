@@ -1,0 +1,18 @@
+#look up albert einsteins discoveries!
+#(S1 (S (VP (VB look) (PRT (RP up)) (NP (NNP albert) (NNS einsteins) (NNS discoveries))) (. !)))
+#Rule:Nouns
+r1albert einsteinsPersonAnnotation
+r1discoveriesNNS
+
+#Rule:V-PRT
+r3lookVBupRP
+
+#Rule:N-HeadNoun
+r8albert einsteinsPersonAnnotationdiscoveriesNNS
+
+#Rule:V-HeadNoun
+r21lookVBdiscoveriesNNS
+
+@lemmas-left	look	discoveries	albert einsteins	discovery	
+@lemmas-right	discoveries	discovery	up	
+@lemmas-center	

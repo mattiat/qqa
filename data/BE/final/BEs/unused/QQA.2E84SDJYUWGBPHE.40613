@@ -1,0 +1,166 @@
+#Having a diabetes millitus is not just by consuming too much of sugar and fat.also carbohydrates, cause carbohydrates will turn into simple sugars like, maltose, lactose, fructose, galactose and glucose..and too much of that can cause diabetes..I will give to you how Carbohyrates will be digested.                            
+#(S1 (S (S (VP (AUXG Having) (S (NP (DT a) (NN diabetes) (NN millitus)) (VP (AUX is) (RB not) (ADVP (RB just)) (PP (IN by) (NP (NP (NN consuming)) (ADJP (RB too) (JJ much)) (PP (IN of) (NP (NN sugar) (CC and) (NN fat.also) (NNS carbohydrates))))))))) (, ,) (NP (NN cause) (NNS carbohydrates)) (VP (MD will) (VP (VB turn) (PP (IN into) (NP (NP (JJ simple) (NNS sugars)) (UCP (NP (JJ like) (, ,) (NN maltose) (, ,) (NN lactose) (, ,) (NN fructose) (, ,) (NN galactose) (CC and) (NN glucose) (NNS ..)) (CC and) (ADJP (RB too) (JJ much) (PP (IN of) (SBAR (WHNP (WDT that)) (S (VP (MD can) (VP (VB cause) (NP (NN diabetes) (NNS ..)) (SBAR (S (NP (PRP I)) (VP (MD will) (VP (VB give) (PP (TO to) (NP (PRP you))) (SBAR (WHADVP (WRB how)) (S (NP (NNP Carbohyrates)) (VP (MD will) (VP (AUX be) (VP (VBN digested))))))))))))))))))))) (. .)))
+#Rule:Nouns
+r1diabetesNN
+r1millitusNN
+r1consumingNN
+r1sugarNN
+r1fat.alsoNN
+r1carbohydratesNNS
+r1causeNN
+r1carbohydratesNNS
+r1sugarsNNS
+r1maltoseLocationAnnotation
+r1lactoseLocationAnnotation
+r1fructoseNN
+r1galactoseLocationAnnotation
+r1glucose..LocationAnnotation
+r1diabetesNN
+r1..NNS
+r1CarbohyratesLocationAnnotation
+
+#Rule:Verbs
+r2turnVB
+r2causeVB
+r2giveVB
+r2digestedVBN
+
+#Rule:Adjs
+r4muchJJ
+r4simpleJJ
+r4likeJJ
+r4muchJJ
+
+#Rule:Adj-Noun
+r5muchJJconsumingNN
+r5simpleJJsugarsNNS
+r5likeJJglucose..LocationAnnotation
+
+#Rule:N-HeadNoun
+r8diabetesNNmillitusNN
+r8fat.alsoNNcarbohydratesNNS
+r8causeNNcarbohydratesNNS
+r8diabetesNN..NNS
+
+#Rule:HeadNoun-V
+r11carbohydratesNNSturnVB
+r11millitusNNisAUX
+r11iPRPgiveVB
+
+#Rule:V-HeadNoun
+r21causeVB..NNS
+
+#Rule:V-HeadNoun
+r22HavingAUXGmillitusNN
+
+#Rule:V-HeadNoun(passive)
+r23digestedVBNCarbohyratesLocationAnnotation
+
+#Rule:PPinNP
+r26consumingNNofINcarbohydratesNNS
+
+#Rule:PPinVP
+r30isAUXbyINconsumingNN
+r30turnVBintoINsugarsNNS
+r30giveVBtoTOyouPRP
+
+#Rule:V-ADV
+r46isAUXnotRB
+r46isAUXjustRB
+
+#Rule:SubVerbClause
+r50carbohydratesNNSHavingAUXG
+
+#CARBOHYDRATE DIGESTION                                               ENZYME               SITE OF ACTION  STARCH                         salivary amylase                    mouth         !
+#(S1 (S (VP (VB CARBOHYDRATE) (NP (NP (NNP DIGESTION) (NNP ENZYME) (NN SITE)) (PP (IN OF) (NP (NN ACTION) (NN STARCH) (NN salivary) (NN amylase) (NN mouth))))) (. !)))
+#Rule:Nouns
+r1DIGESTIONNNP
+r1ENZYMENNP
+r1SITENN
+r1ACTIONNN
+r1STARCHNN
+r1salivary amylasePersonAnnotation
+r1mouthNN
+
+#Rule:Verbs
+r2carbohydrateVB
+
+#Rule:N-HeadNoun
+r8ENZYMENNPSITENN
+r8DIGESTIONNNPSITENN
+r8salivary amylasePersonAnnotationmouthNN
+r8STARCHNNmouthNN
+r8ACTIONNNmouthNN
+
+#Rule:V-HeadNoun
+r21carbohydrateVBSITENN
+
+#Rule:PPinNP
+r26SITENNofINmouthNN
+
+#dextrin dissacharide -      pancreatic amylase                 stomachDissacharide            -       intestinal enzymes                    small           !                           
+#(S1 (NP (NP (NN dextrin) (NN dissacharide)) (: -) (NP (JJ pancreatic) (NN amylase) (NN stomachDissacharide)) (: -) (NP (JJ intestinal) (NNS enzymes) (JJ small)) (. !)))
+#Rule:Nouns
+r1dextrinNN
+r1dissacharideLocationAnnotation
+r1amylaseNN
+r1stomachDissacharideOrganizationAnnotation
+r1enzymesNNS
+
+#Rule:Adjs
+r4pancreaticJJ
+r4intestinalJJ
+r4smallJJ
+
+#Rule:Adj-Noun
+r5pancreaticJJstomachDissacharideOrganizationAnnotation
+r5intestinalJJenzymesNNS
+r5smallJJenzymesNNS
+
+#Rule:N-HeadNoun
+r8dextrinNNdissacharideLocationAnnotation
+r8amylaseNNstomachDissacharideOrganizationAnnotation
+
+#(maltose, lactose, fructose)        intestine                 !
+#(S1 (S (PRN (-LRB- -LRB-) (INTJ (VB maltose) (, ,) (VB lactose) (, ,) (VB fructose)) (-RRB- -RRB-)) (VP (VB intestine)) (. !)))
+#Rule:Verbs
+r2maltoseLocationAnnotation
+r2lactoseLocationAnnotation
+r2fructoseLocationAnnotation
+r2intestineVB
+
+#Glucose, Galactose,  and these are the siple sugars and the Villi s will now absove it..
+#(S1 (FRAG (NP (NN Glucose)) (, ,) (NP (NNP Galactose)) (, ,) (CC and) (S (S (NP (DT these)) (VP (AUX are) (NP (DT the) (JJ siple) (NNS sugars)))) (CC and) (S (NP (DT the) (NNP Villi) (NNP s)) (VP (MD will) (ADVP (RB now)) (VP (VB absove) (NP (PRP it))))) (. .)) (. .)))
+#Rule:Nouns
+r1GlucosePersonAnnotation
+r1GalactoseLocationAnnotation
+r1sugarsNNS
+r1VilliPersonAnnotation
+r1sNNP
+
+#Rule:Verbs
+r2absoveVB
+
+#Rule:Adjs
+r4sipleJJ
+
+#Rule:Adj-Noun
+r5sipleJJsugarsNNS
+
+#Rule:N-HeadNoun
+r8VilliPersonAnnotationsNNP
+
+#Rule:HeadNoun-V
+r11theseDTareAUX
+r11sNNPabsoveVB
+
+#Rule:V-HeadNoun
+r21areAUXsugarsNNS
+r21absoveVBitPRP
+
+#Rule:V-ADV
+r46absoveVBnowRB
+
+@lemmas-left	Galactose	cause	carbohydrate	galactose	enzymes	lactose	consuming	enzyme	ENZYME	are	salivary amylase	..	action	ACTION	these	be	Having	turn	mouth	like	much	glucose..	amylase	Carbohyrates	small	intestinal	give	simple	diabetes	dextrin	Glucose	intestine	digest	consume	sugars	SITE	DIGESTION	carbohydrates	maltose	site	STARCH	is	digested	fat.also	dissacharide	stomachDissacharide	Villi	millitus	i	starch	s	digestion	pancreatic	fructose	having	absove	siple	sugar	
+@lemmas-right	give	carbohydrate	enzymes	sugars	consume	consuming	SITE	enzyme	are	..	carbohydrates	be	just	Having	site	turn	is	it	mouth	you	dissacharide	stomachDissacharide	millitus	not	glucose..	s	now	Carbohyrates	having	absove	sugar	
+@lemmas-center	to	of	into	by	

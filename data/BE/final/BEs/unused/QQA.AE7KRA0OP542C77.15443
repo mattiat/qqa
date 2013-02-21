@@ -1,0 +1,158 @@
+#For many decades the precise taxonomic classification of the panda was under debate as both the Giant Panda and the distantly related Red Panda share characteristics of both bears and raccoons. 
+#(S1 (S (PP (IN For) (NP (JJ many) (NNS decades))) (NP (NP (DT the) (JJ precise) (JJ taxonomic) (NN classification)) (PP (IN of) (NP (DT the) (NN panda)))) (VP (AUX was) (PP (IN under) (NP (NP (NN debate)) (PP (IN as) (NP (DT both) (NP (DT the) (NNP Giant) (NNP Panda)) (CC and) (NP (NP (DT the) (ADJP (RB distantly) (VBN related)) (NNP Red) (NNP Panda) (NN share) (NNS characteristics)) (PP (IN of) (NP (DT both) (NNS bears) (CC and) (NNS raccoons))))))))) (. .)))
+#Rule:Nouns
+r1decadesNNS
+r1classificationNN
+r1pandaLocationAnnotation
+r1debateNN
+r1Giant PandaOrganizationAnnotation
+r1Red PandaOrganizationAnnotation
+r1shareNN
+r1characteristicsNNS
+r1bearsNNS
+r1raccoonsNNS
+
+#Rule:Verbs
+r2relatedVBN
+
+#Rule:Adjs
+r4manyJJ
+r4preciseJJ
+r4taxonomicJJ
+
+#Rule:Adj-Noun
+r5manyJJdecadesNNS
+r5preciseJJclassificationNN
+r5taxonomicJJclassificationNN
+r5relatedVBNcharacteristicsNNS
+
+#Rule:N-HeadNoun
+r8shareNNcharacteristicsNNS
+r8Red PandaOrganizationAnnotationcharacteristicsNNS
+
+#Rule:HeadNoun-V
+r11classificationNNwasAUX
+
+#Rule:PPinNP
+r26classificationNNofINpandaLocationAnnotation
+r26debateNNasINGiant PandaOrganizationAnnotation
+r26debateNNasINcharacteristicsNNS
+r26characteristicsNNSofINbearsNNS
+
+#Rule:PPinVP
+r30wasAUXunderINdebateNN
+
+#Rule:PPinS
+r36wasAUXforINdecadesNNS
+
+#However, genetic testing has revealed that Giant Pandas are true bears and part of the Ursidae family. 
+#(S1 (S (ADVP (RB However)) (, ,) (NP (JJ genetic) (NN testing)) (VP (AUX has) (VP (VBN revealed) (SBAR (IN that) (S (NP (NNP Giant) (NNP Pandas)) (VP (AUX are) (NP (NP (JJ true) (NNS bears) (CC and) (NN part)) (PP (IN of) (NP (DT the) (NNP Ursidae) (NN family))))))))) (. .)))
+#Rule:Nouns
+r1testingNN
+r1Giant PandasOrganizationAnnotation
+r1bearsNNS
+r1partNN
+r1UrsidaeOrganizationAnnotation
+r1familyNN
+
+#Rule:Verbs
+r2revealedVBN
+
+#Rule:Adjs
+r4geneticJJ
+r4trueJJ
+
+#Rule:Adj-Noun
+r5geneticJJtestingNN
+r5trueJJbearsNNS
+
+#Rule:N-HeadNoun
+r8UrsidaeOrganizationAnnotationfamilyNN
+
+#Rule:HeadNoun-V
+r11Giant PandasOrganizationAnnotationareAUX
+
+#Rule:HeadNoun-V
+r12testingNNrevealedVBN
+
+#Rule:V-HeadNoun
+r21areAUXbearsNNS
+
+#Rule:PPinNP
+r26bearsNNSofINfamilyNN
+
+#Rule:V-IN-V
+r43revealedVBNthatINareAUX
+
+#Rule:V-ADV
+r46hasAUXHoweverRB
+
+#Rule:IS-RULE
+r47bearsNNSGiant PandasOrganizationAnnotation
+
+#Its closest bear relative is the Spectacled Bear of South America. 
+#(S1 (S (NP (PRP$ Its) (JJS closest) (NN bear) (NN relative)) (VP (AUX is) (NP (NP (DT the) (NNP Spectacled) (NNP Bear)) (PP (IN of) (NP (NNP South) (NNP America))))) (. .)))
+#Rule:Nouns
+r1bearNN
+r1relativeNN
+r1SpectacledNNP
+r1BearNNP
+r1South AmericaLocationAnnotation
+
+#Rule:Adjs
+r4closestJJS
+
+#Rule:Adj-Noun
+r5closestJJSrelativeNN
+
+#Rule:PRP-Noun
+r6itsPRP$relativeNN
+
+#Rule:N-HeadNoun
+r8bearNNrelativeNN
+r8SpectacledNNPBearNNP
+
+#Rule:HeadNoun-V
+r11relativeNNisAUX
+
+#Rule:V-HeadNoun
+r21isAUXBearNNP
+
+#Rule:PPinNP
+r26BearNNPofINSouth AmericaLocationAnnotation
+
+#Rule:IS-RULE
+r47BearNNPrelativeNN
+
+#Disagreement remains about whether or not the Red Panda belongs in Ursidae or the raccoon family, Procyonidae.
+#(S1 (S (NP (NN Disagreement)) (VP (VBZ remains) (PP (IN about) (SBAR (IN whether) (CC or) (RB not) (S (NP (DT the) (NNP Red) (NNP Panda)) (VP (VBZ belongs) (PP (IN in) (NP (NP (NNP Ursidae)) (CC or) (NP (NP (DT the) (NN raccoon) (NN family)) (, ,) (NP (NNP Procyonidae)))))))))) (. .)))
+#Rule:Nouns
+r1DisagreementNN
+r1Red PandaOrganizationAnnotation
+r1UrsidaeLocationAnnotation
+r1raccoonPersonAnnotation
+r1familyNN
+r1ProcyonidaeOrganizationAnnotation
+
+#Rule:Verbs
+r2remainsVBZ
+r2belongsVBZ
+
+#Rule:N-HeadNoun
+r8raccoonPersonAnnotationfamilyNN
+
+#Rule:N-ApposN
+r10familyNNProcyonidaeOrganizationAnnotation
+
+#Rule:HeadNoun-V
+r11DisagreementNNremainsVBZ
+r11Red PandaOrganizationAnnotationbelongsVBZ
+
+#Rule:PPinVP
+r30belongsVBZinINUrsidaeLocationAnnotation
+r30belongsVBZinINfamilyNN
+r30belongsVBZinINProcyonidaeOrganizationAnnotation
+
+@lemmas-left	relate	reveal	belong	remains	revealed	its	has	related	close	decades	Procyonidae	are	family	closest	be	Spectacled	panda	belongs	Red Panda	raccoon	relative	many	spectacled	taxonomic	Disagreement	Bear	have	was	Giant Panda	share	Ursidae	debate	disagreement	bear	is	decade	raccoons	characteristics	true	South America	remain	bears	genetic	classification	testing	part	characteristic	Giant Pandas	precise	
+@lemmas-right	reveal	Bear	belong	remains	However	revealed	was	Giant Panda	decades	Procyonidae	Ursidae	are	family	debate	be	bear	is	however	panda	decade	characteristics	belongs	relative	South America	remain	bears	classification	testing	characteristic	Giant Pandas	
+@lemmas-center	that	of	for	under	as	in	

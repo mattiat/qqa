@@ -1,0 +1,414 @@
+BE: heartNN
+EQ class: bosomnn	
+
+BE: beatNN
+EQ class: roundnn	
+
+BE: beatNN
+EQ class: roundnn	
+
+BE: skippingVBG
+EQ class: jumpvbg	pass_overvbg	skip_overvbg	skipvbg	
+
+BE: ..VBG
+EQ class: vbg	
+
+BE: feelingVBG
+EQ class: feelvbg	experiencevbg	
+
+BE: calledVBN
+EQ class: callvbn	namevbn	
+
+BE: prematureJJ
+EQ class: prematurenessnn	prematuritynn	
+
+BE: prematureJJbeatNN
+EQ class: prematuritynnroundnn	prematurenessnnroundnn	prematurejjroundnn	prematuritynnbeatnn	prematurenessnnbeatnn	
+
+BE: yourPRP$heartNN
+EQ class: bosomnnofinyourprp$	yourprp$bosomnn	heartnnofinyourprp$	
+
+BE: heartNNskippingVBG
+EQ class: bosomnnskippingvbg	heartnnskip_overvbg	heartnnpass_overvbg	bosomnnpass_overvbg	bosomnnskipvbg	bosomnnskip_overvbg	heartnnskipvbg	heartnnjumpvbg	bosomnnjumpvbg	
+
+BE: beatNN..VBG
+EQ class: roundnnvbg	roundnn..vbg	beatnnvbg	
+
+BE: youPRPfeelingVBG
+EQ class: youprpexperiencevbg	youprpfeelvbg	feelingsnnyouprp	feelingnnyouprp	feelingsnnofinyouprp	feelingnnofinyouprp	
+
+BE: skippingVBGbeatNN
+EQ class: skippingvbgroundnn	pass_overvbgroundnn	pass_overvbgbeatnn	skipvbgroundnn	jumpvbgroundnn	skip_overvbgbeatnn	skip_overvbgroundnn	jumpvbgbeatnn	skipvbgbeatnn	
+
+BE: calledVBNbeatNN
+EQ class: namevbnbeatnn	namevbnroundnn	calledvbnroundnn	callvbnbeatnn	callvbnroundnn	
+
+BE: isAUXActuallyRB
+EQ class: existentjjininisaux	actualitynnininisaux	beauxactuallyrb	actualitynnininbeaux	existentjjininbeaux	actualjjininisaux	actualjjininbeaux	
+
+BE: isAUXnotRB
+EQ class: beauxnotrb	
+
+BE: heartNN
+EQ class: bosomnn	
+
+BE: natureNN
+EQ class: 
+
+BE: pacemakerNN
+EQ class: pacesetternn	
+
+BE: SANNP
+EQ class: angstromnnp	angstrom_unitnnp	storm_troopsnnp	brownshirtnn	annp	s.a.nnp	sturmabteilungnnp	
+
+BE: nodeLocationAnnotation
+EQ class: 
+
+BE: partNN
+EQ class: constituentnn	componentnn	component_partnn	partialjj	portionnn	
+
+BE: myocardiumNN
+EQ class: myocardialjj	
+
+BE: tissueNN
+EQ class: 
+
+BE: abilityNN
+EQ class: ablejj	
+
+BE: heartNN
+EQ class: bosomnn	
+
+BE: kindNN
+EQ class: varietynn	sortnn	formnn	
+
+BE: backNN
+EQ class: dorsumnn	
+
+BE: pacerNN
+EQ class: pacesetternn	pacemakernn	
+
+BE: fireNN
+EQ class: 
+
+BE: SANNP
+EQ class: angstromnnp	angstrom_unitnnp	storm_troopsnnp	brownshirtnn	annp	s.a.nnp	sturmabteilungnnp	
+
+BE: nodesNNS
+EQ class: theynns	nodenns	themnns	
+
+BE: pacingNN
+EQ class: temponn	
+
+BE: sVBZ
+EQ class: 
+
+BE: paceVB
+EQ class: 
+
+BE: pacersVBZ
+EQ class: 
+
+BE: ownVBP
+EQ class: havevbp	possessvbp	
+
+BE: bypassingVBG
+EQ class: go_aroundvbg	get_aroundvbg	bypassvbg	short-circuitvbg	
+
+BE: natureNNpacemakerNN
+EQ class: pacesetternnofinnaturenn	pacemakernnofinnaturenn	naturennpacesetternn	
+
+BE: SANNPnodeLocationAnnotation
+EQ class: nodelocationannotationofinbrownshirtnn	nodelocationannotationofinangstromnnp	nodelocationannotationofinangstrom_unitnnp	nodelocationannotationofinsannp	angstromnnpnodelocationannotation	annpnodelocationannotation	storm_troopsnnpnodelocationannotation	nodelocationannotationofinsturmabteilungnnp	brownshirtnnnodelocationannotation	s.a.nnpnodelocationannotation	nodelocationannotationofinstorm_troopsnnp	sturmabteilungnnpnodelocationannotation	nodelocationannotationofins.a.nnp	nodelocationannotationofinannp	angstrom_unitnnpnodelocationannotation	
+
+BE: myocardiumNNtissueNN
+EQ class: myocardialjjtissuenn	tissuennofinmyocardiumnn	tissuennofinmyocardialjj	
+
+BE: nodesNNSpacingNN
+EQ class: theynnstemponn	nodennspacingnn	temponnofintheynns	pacingnnofinnodesnns	pacingnnofinnodenns	pacingnnofintheynns	nodesnnstemponn	temponnofinnodenns	themnnspacingnn	temponnofinthemnns	themnnstemponn	pacingnnofinthemnns	nodennstemponn	temponnofinnodesnns	theynnspacingnn	
+
+BE: SANNPpacingNN
+EQ class: temponnofinannp	temponnofins.a.nnp	pacingnnofinangstrom_unitnnp	sturmabteilungnnppacingnn	annptemponn	pacingnnofinannp	temponnofinangstromnnp	storm_troopsnnptemponn	s.a.nnppacingnn	annppacingnn	temponnofinbrownshirtnn	pacingnnofinsturmabteilungnnp	brownshirtnntemponn	angstrom_unitnnptemponn	pacingnnofinsannp	brownshirtnnpacingnn	temponnofinangstrom_unitnnp	storm_troopsnnppacingnn	angstromnnptemponn	s.a.nnptemponn	temponnofinsturmabteilungnnp	temponnofinsannp	sannptemponn	pacingnnofins.a.nnp	pacingnnofinangstromnnp	pacingnnofinbrownshirtnn	temponnofinstorm_troopsnnp	pacingnnofinstorm_troopsnnp	sturmabteilungnnptemponn	angstrom_unitnnppacingnn	angstromnnppacingnn	
+
+BE: heartNNhasAUX
+EQ class: bosomnnhave_gotaux	wealthy_personnnofinbosomnn	rich_personnnofinbosomnn	heartnnholdaux	wealthy_personnnofinheartnn	bosomnnhasaux	rich_personnnofinheartnn	bosomnnhaveaux	havennofinbosomnn	bosomnnholdaux	havennofinheartnn	heartnnhaveaux	heartnnhave_gotaux	
+
+BE: itPRPsVBZ
+EQ class: 
+
+BE: partNNhasAUX
+EQ class: wealthy_personnnofinpartialjj	portionnnhasaux	partialjjhaveaux	rich_personnnofincomponentnn	wealthy_personnnofincomponent_partnn	portionnnholdaux	componentnnhasaux	partnnholdaux	partnnhaveaux	rich_personnnofinpartialjj	rich_personnnofinconstituentnn	havennofincomponent_partnn	wealthy_personnnofincomponentnn	havennofinportionnn	component_partnnhaveaux	wealthy_personnnofinpartnn	partialjjholdaux	partnnhave_gotaux	constituentnnholdaux	havennofinpartialjj	wealthy_personnnofinportionnn	havennofinconstituentnn	portionnnhaveaux	componentnnholdaux	componentnnhaveaux	componentnnhave_gotaux	partialjjhave_gotaux	rich_personnnofinportionnn	wealthy_personnnofinconstituentnn	constituentnnhave_gotaux	rich_personnnofinpartnn	rich_personnnofincomponent_partnn	partialjjhasaux	component_partnnhasaux	havennofinpartnn	constituentnnhasaux	portionnnhave_gotaux	component_partnnholdaux	constituentnnhaveaux	component_partnnhave_gotaux	havennofincomponentnn	
+
+BE: heartNNpacersVBZ
+EQ class: bosomnnpacersvbz	
+
+BE: thereEXownVBP
+EQ class: proprietornnthereex	ownernnthereex	thereexhavevbp	ownernnofinthereex	thereexpossessvbp	proprietornnofinthereex	
+
+BE: sVBZpacemakerNN
+EQ class: svbzpacesetternn	
+
+BE: hasAUXabilityNN
+EQ class: rich_personnnofinablejj	wealthy_personnnofinablejj	have_gotauxabilitynn	havennofinabilitynn	hasauxablejj	haveauxabilitynn	havennofinablejj	holdauxablejj	holdauxabilitynn	have_gotauxablejj	wealthy_personnnofinabilitynn	haveauxablejj	rich_personnnofinabilitynn	
+
+BE: pacersVBZfireNN
+EQ class: 
+
+BE: bypassingVBGpacingNN
+EQ class: bypassvbgpacingnn	ringwaynnofintemponn	go_aroundvbgpacingnn	beltwaynnofinpacingnn	ring_roadnnofinpacingnn	ring_roadnnofintemponn	beltwaynnofintemponn	short-circuitvbgtemponn	go_aroundvbgtemponn	ringwaynnofinpacingnn	bypassvbgtemponn	short-circuitvbgpacingnn	get_aroundvbgtemponn	bypassnnofinpacingnn	bypassingvbgtemponn	get_aroundvbgpacingnn	bypassnnofintemponn	
+
+BE: partNNofINtissueNN
+EQ class: tissuennconstituentnn	tissuenncomponentnn	tissuennportionnn	tissuennpartialjj	componentnnofintissuenn	tissuennpartialvb	partialvbtissuenn	tissuenncomponent_partnn	portionnnofintissuenn	tissuennpartnn	component_partnnofintissuenn	partialjjofintissuenn	constituentnnofintissuenn	
+
+BE: backNNupINpacerNN
+EQ class: dorsumnnupinpacernn	backnnupinpacesetternn	pacernnbacknn	backnnupinpacemakernn	pacernndorsumnn	pacesetternndorsumnn	pacesetternnbacknn	dorsumnnupinpacemakernn	pacemakernndorsumnn	dorsumnnupinpacesetternn	pacemakernnbacknn	
+
+BE: kindNNofINbackNN
+EQ class: dorsumnnkindnn	backnnsortnn	varietynnofinbacknn	varietynnofindorsumnn	dorsumnnvarietynn	dorsumnnsortnn	sortnnofinbacknn	formnnofinbacknn	kindnnofindorsumnn	formnnofindorsumnn	backnnformnn	sortnnofindorsumnn	backnnvarietynn	backnnkindnn	dorsumnnformnn	
+
+BE: pacersVBZsometimesRB
+EQ class: 
+
+BE: pacersVBZbackRB
+EQ class: 
+
+BE: pacersVBZupRB
+EQ class: 
+
+BE: beatsNN
+EQ class: beatniksnn	beat_generationnn	
+
+BE: areaNN
+EQ class: arealjj	countrynn	
+
+BE: heartNN
+EQ class: bosomnn	
+
+BE: beatNN
+EQ class: roundnn	
+
+BE: instanceNN
+EQ class: examplenn	casenn	
+
+BE: atriumNN
+EQ class: atrialjj	
+
+BE: PACOrganizationAnnotation
+EQ class: p.a.c.organizationannotation	
+
+BE: ATRIALNN
+EQ class: 
+
+BE: CONTRACTIONNN
+EQ class: muscle_contractionnn	muscular_contractionnn	
+
+BE: SUPRAVENTRICULANN
+EQ class: 
+
+BE: meaningNN
+EQ class: importnn	significationnn	significancenn	
+
+BE: ventricleNN
+EQ class: ventricularjj	
+
+BE: PVCOrganizationAnnotation
+EQ class: p.v.c.organizationannotation	
+
+BE: VENTRICULARNN
+EQ class: 
+
+BE: CONTRACTIONNN
+EQ class: muscle_contractionnn	muscular_contractionnn	
+
+BE: PJCLocationAnnotation
+EQ class: p.j.c.locationannotation	
+
+BE: JUNCTIONALNN
+EQ class: 
+
+BE: CONTRACTIONNN
+EQ class: muscle_contractionnn	muscular_contractionnn	
+
+BE: nodeNN
+EQ class: 
+
+BE: middleNN
+EQ class: centernn	eyenn	heartnn	centrenn	
+
+BE: heartNN
+EQ class: bosomnn	
+
+BE: referredVBN
+EQ class: bring_upvbn	namevbn	citevbn	advertvbn	mentionvbn	refervbn	
+
+BE: dependingVBG
+EQ class: dependvbg	
+
+BE: originatesVBZ
+EQ class: uprisevbz	arisevbz	developvbz	growvbz	spring_upvbz	risevbz	originatevbz	
+
+BE: classifyVB
+EQ class: classvb	assortvb	sort_outvb	separatevb	sortvb	
+
+BE: typeVBZ
+EQ class: typewritevbz	
+
+BE: originatesVBZ
+EQ class: uprisevbz	arisevbz	developvbz	growvbz	spring_upvbz	risevbz	originatevbz	
+
+BE: sVBZ
+EQ class: 
+
+BE: comingVBG
+EQ class: comevbg	come_upvbg	
+
+BE: comingVBG
+EQ class: comevbg	come_upvbg	
+
+BE: ectopicJJ
+EQ class: ectopiann	
+
+BE: ectopicJJ
+EQ class: ectopiann	
+
+BE: PREMATUREJJ
+EQ class: prematurenessnn	prematuritynn	
+
+BE: SVEJJ
+EQ class: s.v.e.jj	
+
+BE: ECTOPYJJ
+EQ class: 
+
+BE: PREMATUREJJ
+EQ class: prematurenessnn	prematuritynn	
+
+BE: lastJJ
+EQ class: 
+
+BE: leastJJS
+EQ class: 
+
+BE: PREMATUREJJ
+EQ class: prematurenessnn	prematuritynn	
+
+BE: likelyJJ
+EQ class: likelinessnn	
+
+BE: AVLocationAnnotation
+EQ class: a.v.locationannotation	
+
+BE: ectopicJJbeatsNN
+EQ class: ectopicjjbeatniksnn	ectopicjjbeat_generationnn	ectopiannbeat_generationnn	ectopiannbeatsnn	ectopiannbeatniksnn	
+
+BE: ectopicJJbeatNN
+EQ class: ectopicjjroundnn	ectopiannbeatnn	ectopiannroundnn	
+
+BE: ECTOPYJJmeaningNN
+EQ class: ectopyjjimportnn	ectopyjjsignificationnn	ectopyjjsignificancenn	
+
+BE: PREMATUREJJCONTRACTIONNN
+EQ class: prematurejjmuscular_contractionnn	prematurenessnnmuscle_contractionnn	prematurejjmuscle_contractionnn	prematurenessnnmuscular_contractionnn	contractvbprematurelyrb	prematurenessnncontractionnn	prematuritynnmuscle_contractionnn	prematuritynncontractionnn	undertakevbprematurelyrb	prematuritynnmuscular_contractionnn	
+
+BE: PREMATUREJJCONTRACTIONNN
+EQ class: prematurejjmuscular_contractionnn	prematurenessnnmuscle_contractionnn	prematurejjmuscle_contractionnn	prematurenessnnmuscular_contractionnn	contractvbprematurelyrb	prematurenessnncontractionnn	prematuritynnmuscle_contractionnn	prematuritynncontractionnn	undertakevbprematurelyrb	prematuritynnmuscular_contractionnn	
+
+BE: PREMATUREJJCONTRACTIONNN
+EQ class: prematurejjmuscular_contractionnn	prematurenessnnmuscle_contractionnn	prematurejjmuscle_contractionnn	prematurenessnnmuscular_contractionnn	contractvbprematurelyrb	prematurenessnncontractionnn	prematuritynnmuscle_contractionnn	prematuritynncontractionnn	undertakevbprematurelyrb	prematuritynnmuscular_contractionnn	
+
+BE: likelyJJnodeNN
+EQ class: likelinessnnnodenn	
+
+BE: AVLocationAnnotationnodeNN
+EQ class: a.v.locationannotationnodenn	
+
+BE: ATRIALNNCONTRACTIONNN
+EQ class: atrialnncontractvb	undertakevbatrialnn	contractvbatrialnn	atrialnnundertakevb	atrialnnmuscle_contractionnn	muscle_contractionnnofinatrialnn	muscular_contractionnnofinatrialnn	contractionnnofinatrialnn	atrialnnmuscular_contractionnn	
+
+BE: VENTRICULARNNCONTRACTIONNN
+EQ class: ventricularnncontractvb	ventricularnnmuscular_contractionnn	contractionnnofinventricularnn	muscular_contractionnnofinventricularnn	ventricularnnmuscle_contractionnn	muscle_contractionnnofinventricularnn	ventricularnnundertakevb	undertakevbventricularnn	contractvbventricularnn	
+
+BE: JUNCTIONALNNCONTRACTIONNN
+EQ class: junctionalnnundertakevb	junctionalnncontractvb	contractvbjunctionalnn	contractionnnofinjunctionalnn	junctionalnnmuscular_contractionnn	junctionalnnmuscle_contractionnn	undertakevbjunctionalnn	muscular_contractionnnofinjunctionalnn	muscle_contractionnnofinjunctionalnn	
+
+BE: beatsNNdependingVBG
+EQ class: beat_generationnndependingvbg	beatsnndependvbg	dependentjjofinbeat_generationnn	dependentnnofinbeatsnn	dependantnnofinbeatniksnn	dependentnnofinbeatniksnn	beatniksnndependingvbg	beat_generationnndependvbg	dependantnnofinbeatsnn	dependentjjofinbeatniksnn	dependentnnofinbeat_generationnn	beatniksnndependvbg	dependantnnofinbeat_generationnn	dependentjjofinbeatsnn	
+
+BE: beatNNoriginatesVBZ
+EQ class: originnnbeatnn	originationnnbeatnn	roundnngrowvbz	inceptionnnofinbeatnn	beatnnarisevbz	sourcennroundnn	rootagennbeatnn	originationnnofinbeatnn	originnnroundnn	rootnnofinbeatnn	roundnnspring_upvbz	rootagennofinbeatnn	beatnnrisevbz	beginningnnroundnn	roundnndevelopvbz	rootnnbeatnn	roundnnoriginatevbz	inceptionnnroundnn	sourcennofinroundnn	beatnnuprisevbz	rootagennofinroundnn	originativennofinbeatnn	beginningnnofinroundnn	roundnnuprisevbz	beatnnoriginatevbz	originativennofinroundnn	roundnnrisevbz	originnnofinbeatnn	beginningnnofinbeatnn	originationnnofinroundnn	beatnndevelopvbz	originationnnroundnn	sourcennofinbeatnn	roundnnarisevbz	rootnnroundnn	inceptionnnofinroundnn	beatnngrowvbz	originnnofinroundnn	rootnnofinroundnn	beatnnspring_upvbz	beginningnnbeatnn	sourcennbeatnn	roundnnoriginatesvbz	rootagennroundnn	inceptionnnbeatnn	
+
+BE: wePRPclassifyVB
+EQ class: classifiernnofinweprp	compartmentalisationnnofinweprp	compartmentalizationnnofinweprp	categorisationnnweprp	classnnofinweprp	classificationnnofinweprp	weprpseparatevb	categorizationnnofinweprp	weprpclassvb	assortmentnnweprp	classifiernnweprp	categorizationnnweprp	weprpsort_outvb	classificatorynnofinweprp	compartmentalizationnnweprp	categorisationnnofinweprp	weprpsortvb	classificationnnweprp	compartmentalisationnnweprp	weprpassortvb	familynnofinweprp	assortmentnnofinweprp	categorynnofinweprp	
+
+BE: itPRPoriginatesVBZ
+EQ class: inceptionnnitprp	originnnofinitprp	rootnnofinitprp	rootagennitprp	itprpdevelopvbz	originationnnitprp	beginningnnofinitprp	itprpgrowvbz	sourcennitprp	originnnitprp	itprporiginatevbz	sourcennofinitprp	itprpspring_upvbz	rootnnitprp	beginningnnitprp	inceptionnnofinitprp	originativennofinitprp	itprprisevbz	originationnnofinitprp	itprpuprisevbz	itprparisevbz	rootagennofinitprp	
+
+BE: itPRPsVBZ
+EQ class: 
+
+BE: meaningNNcomingVBG
+EQ class: approachnnmeaningnn	approachingnnofinmeaningnn	approachnnsignificancenn	approachingnnofinimportnn	approachnnofinsignificancenn	significancenncome_upvbg	approachingnnsignificationnn	approachingnnofinsignificancenn	approachingnnsignificancenn	approachnnimportnn	approachnnsignificationnn	approachnnofinsignificationnn	meaningnncomevbg	approachingnnmeaningnn	meaningnncome_upvbg	comingnnsignificancenn	comingnnmeaningnn	approachnnofinmeaningnn	comingnnofinsignificationnn	comingnnofinmeaningnn	approachnnofinimportnn	significancenncomingvbg	comingnnofinsignificancenn	importnncomingvbg	importnncomevbg	approachingnnimportnn	comingnnimportnn	comingnnofinimportnn	approachingnnofinsignificationnn	significationnncome_upvbg	comingnnsignificationnn	significancenncomevbg	significationnncomevbg	significationnncomingvbg	importnncome_upvbg	
+
+BE: CONTRACTIONNNcomingVBG
+EQ class: contractionnncome_upvbg	muscle_contractionnncome_upvbg	comingnnofinmuscular_contractionnn	approachingnnmuscular_contractionnn	approachnncontractionnn	approachingnnofincontractionnn	approachnnmuscle_contractionnn	approachnnofinmuscular_contractionnn	approachnnofincontractionnn	comingnnmuscular_contractionnn	approachingnnofinmuscle_contractionnn	contractionnncomevbg	approachingnnmuscle_contractionnn	muscle_contractionnncomingvbg	comingnnofincontractionnn	comingnncontractionnn	comingnnofinmuscle_contractionnn	approachnnofinmuscle_contractionnn	muscular_contractionnncomingvbg	muscle_contractionnncomevbg	approachingnncontractionnn	comingnnmuscle_contractionnn	approachingnnofinmuscular_contractionnn	approachnnmuscular_contractionnn	muscular_contractionnncomevbg	muscular_contractionnncome_upvbg	
+
+BE: SUPRAVENTRICULANNcomingVBG
+EQ class: approachingnnsupraventriculann	comingnnofinsupraventriculann	approachingnnofinsupraventriculann	supraventriculanncomevbg	approachnnofinsupraventriculann	approachnnsupraventriculann	comingnnsupraventriculann	supraventriculanncome_upvbg	
+
+BE: CONTRACTIONNNcomingVBG
+EQ class: contractionnncome_upvbg	muscle_contractionnncome_upvbg	comingnnofinmuscular_contractionnn	approachingnnmuscular_contractionnn	approachnncontractionnn	approachingnnofincontractionnn	approachnnmuscle_contractionnn	approachnnofinmuscular_contractionnn	approachnnofincontractionnn	comingnnmuscular_contractionnn	approachingnnofinmuscle_contractionnn	contractionnncomevbg	approachingnnmuscle_contractionnn	muscle_contractionnncomingvbg	comingnnofincontractionnn	comingnncontractionnn	comingnnofinmuscle_contractionnn	approachnnofinmuscle_contractionnn	muscular_contractionnncomingvbg	muscle_contractionnncomevbg	approachingnncontractionnn	comingnnmuscle_contractionnn	approachingnnofinmuscular_contractionnn	approachnnmuscular_contractionnn	muscular_contractionnncomevbg	muscular_contractionnncome_upvbg	
+
+BE: sVBZmeaningNN
+EQ class: svbzsignificationnn	svbzimportnn	svbzsignificancenn	
+
+BE: referredVBNtheyPRP
+EQ class: mentionnnofinnodesprp	citevbntheyprp	mentionnnofinpvcprp	advertvbnpacprp	advertvbntheyprp	namevbnnodesprp	advertvbnnodesprp	namevbnpvcprp	referredvbnnodesprp	mentionvbnpacprp	referencennofinpvcprp	advertvbnpvcprp	mentionnnofinpacprp	refervbnnodesprp	bring_upvbnpvcprp	citevbnpacprp	mentionvbnpvcprp	citevbnnodesprp	refervbnpvcprp	referencennofinnodesprp	refervbntheyprp	citevbnpvcprp	mentionnnofintheyprp	bring_upvbntheyprp	referencennofintheyprp	namevbntheyprp	namevbnpacprp	referredvbnpvcprp	mentionvbntheyprp	refervbnpacprp	bring_upvbnpacprp	bring_upvbnnodesprp	referredvbnpacprp	referencennofinpacprp	mentionvbnnodesprp	
+
+BE: middleNNofINheartNN
+EQ class: centernnofinbosomnn	bosomnnmiddlevb	eyennofinbosomnn	bosomnncenternn	heartnnofinbosomnn	middlevbbosomnn	bosomnncentrenn	bosomnneyenn	heartnncenternn	eyennofinheartnn	centrennofinheartnn	bosomnnmiddlenn	heartnnmiddlevb	centernnofinheartnn	heartnnmiddlenn	centrennofinbosomnn	bosomnnheartnn	heartnnheartnn	heartnneyenn	middlennofinbosomnn	heartnnofinheartnn	heartnncentrenn	middlevbheartnn	
+
+BE: typeVBZforINinstanceNN
+EQ class: typevbzforincasenn	typewritevbzforincasenn	typewritevbzforinexamplenn	typevbzforinexamplenn	typewritevbzforininstancenn	
+
+BE: originatesVBZinINatriumNN
+EQ class: uprisevbzininatrialjj	risevbzininatriumnn	developvbzininatriumnn	spring_upvbzininatrialjj	growvbzininatriumnn	developvbzininatrialjj	originatevbzininatrialjj	arisevbzininatrialjj	risevbzininatrialjj	uprisevbzininatriumnn	originatesvbzininatrialjj	originatevbzininatriumnn	arisevbzininatriumnn	spring_upvbzininatriumnn	growvbzininatrialjj	
+
+BE: typeVBZifINoriginatesVBZ
+EQ class: typewritevbzifinspring_upvbz	typewritevbzifinoriginatesvbz	typevbzifinuprisevbz	typewritevbzifinoriginatevbz	typevbzifingrowvbz	typewritevbzifinrisevbz	typewritevbzifinuprisevbz	typevbzifindevelopvbz	typewritevbzifinarisevbz	typevbzifinarisevbz	typevbzifinspring_upvbz	typewritevbzifindevelopvbz	typewritevbzifingrowvbz	typevbzifinoriginatevbz	typevbzifinrisevbz	
+
+BE: kindNN
+EQ class: varietynn	sortnn	formnn	
+
+BE: activityNN
+EQ class: activejj	
+
+BE: heartNN
+EQ class: bosomnn	
+
+BE: commonJJ
+EQ class: commonnessnn	commonnn	commonalitynn	
+
+BE: unharmfulJJ
+EQ class: 
+
+BE: kindNNisAUX
+EQ class: formnnbeaux	sortnnisaux	varietynnisaux	kindnnbeaux	sortnnbeaux	formnnisaux	varietynnbeaux	
+
+BE: isAUXcommonJJ
+EQ class: beauxcommonnessnn	beauxcommonalitynn	isauxcommonalitynn	isauxcommonnessnn	beauxcommonjj	isauxcommonnn	beauxcommonnn	
+
+BE: kindNNofINactivityNN
+EQ class: activitynnsortnn	sortnnofinactivejj	varietynnofinactivitynn	activejjformnn	formnnofinactivitynn	formnnofinactivejj	activejjsortnn	sortnnofinactivitynn	kindnnofinactivejj	activitynnkindnn	activejjvarietynn	activitynnvarietynn	activitynnformnn	varietynnofinactivejj	activejjkindnn	
+
+BE: activityNNofINheartNN
+EQ class: bosomnnactivejj	activevbheartnn	activevbbosomnn	activejjofinheartnn	bosomnnactivevb	heartnnactivitynn	heartnnactivejj	activitynnofinbosomnn	activejjofinbosomnn	heartnnactivevb	bosomnnactivitynn	
+
+BE: checkedVBNoutRP
+EQ class: check_intovbnoutrp	checkernnofinoutrp	bank_checknnofinoutrp	check_overvbnoutrp	chequennofinoutrp	check_outvbnoutrp	look_intovbnoutrp	checkvbnoutrp	suss_outvbnoutrp	checknnofinoutrp	check_up_onvbnoutrp	go_overvbnoutrp	
+
+BE: sureJJ
+EQ class: surenessnn	certainjj	
+
+BE: beAUXsureJJ
+EQ class: beauxsurenessnn	beauxcertainjj	
+

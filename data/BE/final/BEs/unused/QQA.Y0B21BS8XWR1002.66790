@@ -1,0 +1,27 @@
+#By the time the waves washed over them,very wet.
+#(S1 (S (PP (IN By) (NP (DT the) (NN time))) (NP (DT the) (NNS waves)) (VP (VBD washed) (PRT (RP over)) (NP (PRP them)) (, ,) (S (ADJP (RB very) (JJ wet)))) (. .)))
+#Rule:Nouns
+r1timeNN
+r1wavesNNS
+
+#Rule:V-PRT
+r3washedVBDoverRP
+
+#Rule:Adjs
+r4wetJJ
+
+#Rule:HeadNoun-V
+r11wavesNNSwashedVBD
+
+#Rule:V-HeadNoun
+r21washedVBDthemPRP
+
+#Rule:PPinS
+r36washedVBDbyINtimeNN
+
+#Rule:V-MOD
+r45washedVBDwetJJ
+
+@lemmas-left	time	washed	waves	wash	wave	wet	
+@lemmas-right	time	over	washed	them	wash	wet	
+@lemmas-center	by	

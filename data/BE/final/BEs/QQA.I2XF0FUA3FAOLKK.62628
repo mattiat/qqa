@@ -1,0 +1,29 @@
+#dont take first food and chocolate..
+#(S1 (S (NP (JJ dont)) (VP (VBP take) (FRAG (ADVP (RB first)) (NP (NN food) (CC and) (NN chocolate)) (. .))) (. .)))
+#Rule:Nouns
+r1foodNN
+r1chocolateNN
+
+#Rule:Verbs
+r2takeVBP
+
+#Rule:Adjs
+r4dontJJ
+
+#Rule:HeadNoun-V
+r11dontJJtakeVBP
+
+#Continue exercise
+#(S1 (S (VP (VB Continue) (NP (NN exercise)))))
+#Rule:Nouns
+r1exerciseNN
+
+#Rule:Verbs
+r2continueVB
+
+#Rule:V-HeadNoun
+r21continueVBexerciseNN
+
+@lemmas-left	chocolate	dont	take	food	continue	exercise	
+@lemmas-right	take	exercise	
+@lemmas-center	

@@ -1,0 +1,150 @@
+#Drink lots of water 8 glasses per day (64 ounces) start your day by having a healthy breakfast.  don t skip any meals.  Eat healthy snacks between meals, so you won t be starving when you eat you lunch or dinner..
+#(S1 (S (VP (VB Drink) (NP (NP (NNS lots)) (PP (IN of) (NP (NP (NN water)) (SBAR (S (NP (NP (CD 8) (NNS glasses)) (PP (IN per) (NP (NN day))) (PRN (-LRB- -LRB-) (NP (CD 64) (NNS ounces)) (-RRB- -RRB-))) (VP (VBP start) (NP (PRP$ your) (NN day)) (PP (IN by) (S (VP (AUXG having) (S (NP (DT a) (JJ healthy) (NN breakfast.)) (VP (VB don) (S (NP (NNS t)) (VP (VB skip) (NP (DT any) (NN meals.))) (VP (VB Eat) (NP (NP (JJ healthy) (NNS snacks)) (PP (IN between) (NP (NNS meals)))) (, ,) (SBAR (IN so) (S (NP (PRP you)) (VP (VBD won) (SBAR (S (NP (NNS t)) (VP (AUX be) (VP (VBG starving) (SBAR (WHADVP (WRB when)) (S (NP (PRP you)) (VP (VBP eat) (NP (PRP you)) (NP (NN lunch) (CC or) (NN dinner))))))))))))) (. .)))))))))))))) (. .)))
+#Rule:Nouns
+r1lotsNNS
+r1waterNN
+r1glassesNNS
+r1dayNN
+r1ouncesNNS
+r1dayNN
+r1breakfastNN
+r1don tPersonAnnotation
+r1mealsNN
+r1snacksNNS
+r1mealsNNS
+r1tNNS
+r1lunchNN
+r1dinnerNN
+
+#Rule:Verbs
+r2drinkVB
+r2startVBP
+r2skipVB
+r2eatVB
+r2wonVBD
+r2starvingVBG
+r2eatVBP
+
+#Rule:Adjs
+r4healthyJJ
+r4healthyJJ
+
+#Rule:Adj-Noun
+r58CDglassesNNS
+r564CDouncesNNS
+r5healthyJJbreakfastNN
+r5healthyJJsnacksNNS
+
+#Rule:PRP-Noun
+r6yourPRP$dayNN
+
+#Rule:HeadNoun-V
+r11glassesNNSstartVBP
+r11breakfastNNdon tPersonAnnotation
+r11don tPersonAnnotationskipVB
+r11don tPersonAnnotationeatVB
+r11youPRPwonVBD
+r11tNNSstarvingVBG
+r11youPRPeatVBP
+
+#Rule:V-HeadNoun
+r21drinkVBlotsNNS
+r21startVBPdayNN
+r21skipVBmealsNN
+r21eatVBsnacksNNS
+r21eatVBPyouPRP
+r21eatVBPlunchNN
+
+#Rule:V-HeadNoun
+r22havingAUXGbreakfastNN
+
+#Rule:PPinNP
+r26lotsNNSofINwaterNN
+r26glassesNNSperINdayNN
+r26snacksNNSbetweenINmealsNNS
+
+#Rule:V-IN-V
+r43eatVBsoINwonVBD
+
+#Eat vegetables and fruits..
+#(S1 (SINV (SINV (VBP Eat) (NP (NNS vegetables) (CC and) (NNS fruits)) (. .)) (. .)))
+#Rule:Nouns
+r1vegetablesNNS
+r1fruitsNNS
+
+#Rule:Verbs
+r2eatVBP
+
+#Read nutrient labels on the foods you eat, make sure not high in sugars..
+#(S1 (S (VP (VB Read) (S (NP (NP (JJ nutrient) (NNS labels)) (PP (IN on) (NP (DT the) (NNS foods)))) (PRN (S (NP (PRP you)) (VP (VBP eat))) (, ,)) (VP (VB make) (ADJP (JJ sure)) (PP (ADVP (RB not) (RB high)) (IN in) (NP (NNS sugars)))) (. .))) (. .)))
+#Rule:Nouns
+r1labelsNNS
+r1foodsNNS
+r1sugarsNNS
+
+#Rule:Verbs
+r2readVB
+r2eatVBP
+r2makeVB
+
+#Rule:Adjs
+r4nutrientJJ
+r4sureJJ
+
+#Rule:Adj-Noun
+r5nutrientJJlabelsNNS
+
+#Rule:HeadNoun-V
+r11labelsNNSmakeVB
+r11youPRPeatVBP
+
+#Rule:V-HeadNoun
+r22readVBlabelsNNS
+
+#Rule:PPinNP
+r26labelsNNSonINfoodsNNS
+
+#Rule:PPinVP
+r30makeVBinINsugarsNNS
+
+#NO SWEETS! NOCHIPS! NO SODAS!Exercise even if for only 15 minutes.   Make sure to start every day with a good healthy breakfast and drink water
+#(S1 (FRAG (NP (DT NO) (NNS SWEETS)) (. !) (NP (NNS NOCHIPS)) (. !) (NP (DT NO) (NNS SODAS)) (. !) (VP (VP (VB Exercise) (SBAR (RB even) (IN if) (S (PP (IN for) (NP (QP (RB only) (CD 15)) (NN minutes.))) (VP (VB Make) (ADJP (JJ sure) (S (VP (TO to) (VP (VB start) (NP (DT every) (NN day)) (PP (IN with) (NP (DT a) (JJ good) (JJ healthy) (NN breakfast))))))))))) (CC and) (VP (VB drink) (NP (NN water))))))
+#Rule:Nouns
+r1NO SWEETS! NOCHIPS! NO SODASOrganizationAnnotation
+r1minutesNN
+r1dayNN
+r1breakfastNN
+r1waterNN
+
+#Rule:Verbs
+r2exerciseVB
+r2makeVB
+r2startVB
+r2drinkVB
+
+#Rule:Adjs
+r4sureJJ
+r4goodJJ
+r4healthyJJ
+
+#Rule:Adj-Noun
+r515CDminutesNN
+r5goodJJbreakfastNN
+r5healthyJJbreakfastNN
+
+#Rule:V-HeadNoun
+r21startVBdayNN
+r21drinkVBwaterNN
+
+#Rule:PPinVP
+r30startVBwithINbreakfastNN
+
+#Rule:PPinS
+r36makeVBforINminutesNN
+
+#Rule:V-IN-V
+r43exerciseVBifINmakeVB
+
+@lemmas-left	nutrient	good	skip	drink	don t	lunch	minutes.	sure	fruit	lots	labels	snacks	label	starving	starve	dinner	start	food	eat	day	8	breakfast.	vegetable	make	NO SWEETS! NOCHIPS! NO SODAS	glasses	breakfast	exercise	15	sugars	64	read	won	meal	water	ounces	minutes	your	fruits	vegetables	ounce	you	win	snack	t	meals	foods	healthy	having	meals.	sugar	
+@lemmas-right	glasses	breakfast	skip	sugars	don t	minutes.	won	lunch	meal	ounces	water	minutes	lots	labels	ounce	snacks	you	label	win	snack	starving	starve	foods	meals	start	food	eat	day	breakfast.	make	sugar	meals.	
+@lemmas-center	of	with	per	for	so	if	on	in	between	

@@ -1,0 +1,57 @@
+#This can be done by :- Joining some regular evening classes for learning the things.- Can employ an expert on part time basis for learning/teaching the intricacies;- Hiring services of service providers on periodic basis.
+#(S1 (S (NP (DT This)) (VP (MD can) (VP (AUX be) (VP (AUX done) (PP (IN by) (S (LST (: :)) (: -) (S (VP (VBG Joining) (NP (DT some) (JJ regular) (NN evening) (NNS classes)) (PP (IN for) (S (VP (VBG learning) (SBAR (S (NP (DT the) (NN things.-)) (VP (MD Can) (VP (VB employ) (NP (NP (DT an) (NN expert)) (PP (IN on) (NP (NP (NN part) (NN time) (NN basis)) (PP (IN for) (S (VP (VBG learning/teaching) (NP (DT the) (NNS intricacies))))))))))))))))) (: ;) (: -) (S (VP (VBG Hiring) (NP (NP (NNS services)) (PP (IN of) (NP (NN service) (NNS providers)))) (PP (IN on) (NP (JJ periodic) (NN basis)))))))))) (. .)))
+#Rule:Nouns
+r1eveningNN
+r1classesNNS
+r1things.-NN
+r1expertNN
+r1partNN
+r1timeNN
+r1basisNN
+r1intricaciesNNS
+r1servicesNNS
+r1serviceNN
+r1providersNNS
+r1basisNN
+
+#Rule:Verbs
+r2joiningVBG
+r2learningVBG
+r2employVB
+r2learning/teachingVBG
+r2hiringVBG
+
+#Rule:Adjs
+r4regularJJ
+r4periodicJJ
+
+#Rule:Adj-Noun
+r5regularJJclassesNNS
+r5periodicJJbasisNN
+
+#Rule:N-HeadNoun
+r8eveningNNclassesNNS
+r8timeNNbasisNN
+r8partNNbasisNN
+r8serviceNNprovidersNNS
+
+#Rule:HeadNoun-V
+r11thisDTdoneAUX
+r11things.-NNemployVB
+
+#Rule:V-HeadNoun
+r21joiningVBGclassesNNS
+r21employVBexpertNN
+r21learning/teachingVBGintricaciesNNS
+r21hiringVBGservicesNNS
+
+#Rule:PPinNP
+r26expertNNonINbasisNN
+r26servicesNNSofINprovidersNNS
+
+#Rule:PPinVP
+r30hiringVBGonINbasisNN
+
+@lemmas-left	expert	basis	intricacies	things.-	time	intricacy	providers	joining	hiring	evening	hire	classes	services	regular	learning/teaching	class	learn	provider	join	learning	teach	employ	periodic	service	part	this	
+@lemmas-right	expert	classes	services	intricacy	providers	basis	done	class	do	provider	intricacies	employ	
+@lemmas-center	of	on	

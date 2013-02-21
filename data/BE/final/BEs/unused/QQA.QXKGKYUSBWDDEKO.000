@@ -1,0 +1,18 @@
+#how to create nature poem?
+#(S1 (FRAG (SBAR (WHADVP (WRB how)) (S (VP (TO to) (VP (VB create) (NP (NN nature) (NN poem)))))) (. ?)))
+#Rule:Nouns
+r1natureNN
+r1poemLocationAnnotation
+
+#Rule:Verbs
+r2createVB
+
+#Rule:N-HeadNoun
+r8natureNNpoemLocationAnnotation
+
+#Rule:V-HeadNoun
+r21createVBpoemLocationAnnotation
+
+@lemmas-left	nature	poem	create	
+@lemmas-right	poem	
+@lemmas-center	

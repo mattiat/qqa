@@ -1,0 +1,61 @@
+#HHMM. 
+#(S1 (X (NNP HHMM) (. .)))
+#Rule:Nouns
+r1HHMMOrganizationAnnotation
+
+#I HS, and I am all for those who do, but your statement is a bit askew. 
+#(S1 (S (S (NP (PRP I)) (VP (VBP HS))) (, ,) (CC and) (S (NP (PRP I)) (VP (AUX am) (DT all) (PP (IN for) (NP (NP (DT those)) (SBAR (WHNP (WP who)) (S (VP (AUX do)))))))) (, ,) (CC but) (S (NP (PRP$ your) (NN statement)) (VP (AUX is) (ADJP (NP (DT a) (NN bit)) (JJ askew)))) (. .)))
+#Rule:Nouns
+r1statementNN
+r1bitNN
+
+#Rule:Verbs
+r2HSOrganizationAnnotation
+
+#Rule:Adjs
+r4askewJJ
+
+#Rule:PRP-Noun
+r6yourPRP$statementNN
+
+#Rule:HeadNoun-V
+r11iPRPHSOrganizationAnnotation
+r11iPRPamAUX
+r11statementNNisAUX
+
+#Rule:HeadNoun-(who/that)-V
+r14thoseDTdoAUX
+
+#Rule:V-ADJ
+r25isAUXaskewJJ
+
+#Rule:PPinVP
+r30amAUXforINthoseDT
+
+#Generalizations like that are just plain bubkis.
+#(S1 (S (NP (NP (NNS Generalizations)) (PP (IN like) (NP (DT that)))) (VP (AUX are) (ADVP (RB just) (JJ plain)) (NP (NNS bubkis))) (. .)))
+#Rule:Nouns
+r1GeneralizationsNNS
+r1bubkisLocationAnnotation
+
+#Rule:Adjs
+r4plainJJ
+
+#Rule:HeadNoun-V
+r11GeneralizationsNNSareAUX
+
+#Rule:V-HeadNoun
+r21areAUXbubkisLocationAnnotation
+
+#Rule:PPinNP
+r26GeneralizationsNNSlikeINthatDT
+
+#Rule:V-ADV
+r46areAUXjustRB
+
+#Rule:IS-RULE
+r47bubkisLocationAnnotationGeneralizationsNNS
+
+@lemmas-left	those	is	your	HS	i	bubkis	statement	askew	bit	are	HHMM	am	generalization	Generalizations	plain	be	
+@lemmas-right	just	is	those	HS	statement	askew	bubkis	that	are	Generalizations	am	generalization	do	be	
+@lemmas-center	for	like	

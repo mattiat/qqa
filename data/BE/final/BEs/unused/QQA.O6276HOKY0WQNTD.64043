@@ -1,0 +1,78 @@
+#The age of the universe, in physics, is the time elapsed between the Big Bang and the present day. 
+#(S1 (S (NP (NP (DT The) (NN age)) (PP (IN of) (NP (DT the) (NN universe)))) (, ,) (PP (IN in) (NP (NNS physics))) (, ,) (VP (AUX is) (NP (NP (DT the) (NN time)) (VP (VBN elapsed) (PP (IN between) (NP (DT the) (NNP Big) (NNP Bang) (CC and) (DT the) (JJ present) (NN day)))))) (. .)))
+#Rule:Nouns
+r1ageNN
+r1universeNN
+r1physicsNNS
+r1timeNN
+r1Big BangOrganizationAnnotation
+r1dayNN
+
+#Rule:Verbs
+r2elapsedVBN
+
+#Rule:Adjs
+r4presentJJ
+
+#Rule:Adj-Noun
+r5presentJJdayNN
+
+#Rule:HeadNoun-V
+r11ageNNisAUX
+
+#Rule:V-HeadNoun
+r21isAUXtimeNN
+
+#Rule:V-HeadNoun(passive)
+r24elapsedVBNtimeNN
+
+#Rule:PPinNP
+r26ageNNofINuniverseNN
+
+#Rule:PPinVP
+r32elapsedVBNbetweenINdayNN
+
+#Rule:PPinS
+r36isAUXinINphysicsNNS
+
+#Rule:IS-RULE
+r47timeNNageNN
+
+#Current observations suggest that this is about 13.7 billion years, with an uncertainty of about 200 million years.
+#(S1 (S (NP (JJ Current) (NNS observations)) (VP (VBP suggest) (SBAR (IN that) (S (NP (DT this)) (VP (AUX is) (PP (IN about) (NP (QP (CD 13.7) (CD billion)) (NNS years))) (, ,) (PP (IN with) (NP (NP (DT an) (NN uncertainty)) (PP (IN of) (NP (QP (RB about) (CD 200) (CD million)) (NNS years))))))))) (. .)))
+#Rule:Nouns
+r1observationsNNS
+r1yearsNNS
+r1uncertaintyNN
+r1yearsNNS
+
+#Rule:Verbs
+r2suggestVBP
+
+#Rule:Adjs
+r4CurrentJJ
+
+#Rule:Adj-Noun
+r5CurrentJJobservationsNNS
+r513.7CDyearsNNS
+r5billionCDyearsNNS
+r5200CDyearsNNS
+r5millionCDyearsNNS
+
+#Rule:HeadNoun-V
+r11observationsNNSsuggestVBP
+r11thisDTisAUX
+
+#Rule:PPinNP
+r26uncertaintyNNofINyearsNNS
+
+#Rule:PPinVP
+r30isAUXaboutINyearsNNS
+r30isAUXwithINuncertaintyNN
+
+#Rule:V-IN-V
+r43suggestVBPthatINisAUX
+
+@lemmas-left	million	is	observation	physics	200	elapse	billion	suggest	universe	13.7	observations	elapsed	present	time	age	current	years	Big Bang	day	this	uncertainty	Current	be	
+@lemmas-right	time	is	observation	physics	age	suggest	years	day	universe	uncertainty	observations	be	
+@lemmas-center	that	of	with	about	in	between	

@@ -1,0 +1,47 @@
+#It s a living organism that feed off of healthy cells, so it grows or spreads to other areas..Terrible, terrible disease.
+#(S1 (S (S (NP (PRP It)) (VP (VBZ s) (NP (DT a) (VBG living) (NN organism) (SBAR (IN that) (S (VP (VB feed) (PRT (RP off)) (PP (IN of) (NP (JJ healthy) (NNS cells))))))))) (, ,) (CC so) (S (NP (PRP it)) (VP (VBZ grows) (CC or) (VBZ spreads) (PP (TO to) (NP (NP (JJ other) (NNS areas)) (VP (VBG ..) (NP (JJ Terrible) (, ,) (JJ terrible) (NN disease))))))) (. .)))
+#Rule:Nouns
+r1organismNN
+r1cellsNNS
+r1areasNNS
+r1diseaseNN
+
+#Rule:Verbs
+r2sVBZ
+r2livingVBG
+r2growsVBZ
+r2spreadsVBZ
+r2..VBG
+
+#Rule:V-PRT
+r3feedVBoffRP
+
+#Rule:Adjs
+r4healthyJJ
+r4otherJJ
+r4TerribleJJ
+r4terribleJJ
+
+#Rule:Adj-Noun
+r5livingVBGorganismNN
+r5healthyJJcellsNNS
+r5otherJJareasNNS
+r5TerribleJJdiseaseNN
+r5terribleJJdiseaseNN
+
+#Rule:HeadNoun-V
+r11itPRPsVBZ
+r11itPRPgrowsVBZ
+r11areasNNS..VBG
+
+#Rule:V-HeadNoun
+r21sVBZorganismNN
+r21..VBGdiseaseNN
+
+#Rule:PPinVP
+r30feedVBofINcellsNNS
+r30growsVBZtoTOareasNNS
+
+@lemmas-left	cells	it	other	cell	grows	disease	living	organism	area	s	spreads	terrible	..	grow	healthy	areas	feed	spread	Terrible	live	
+@lemmas-right	cells	area	s	..	grow	cell	off	grows	areas	disease	organism	
+@lemmas-center	to	of	

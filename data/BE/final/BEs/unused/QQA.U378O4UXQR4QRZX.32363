@@ -1,0 +1,253 @@
+#There is no evidence whatsoever that any kind of ape evolved into man..
+#(S1 (S (NP (EX There)) (VP (AUX is) (NP (DT no) (NN evidence) (SBAR (RB whatsoever) (IN that) (S (NP (NP (DT any) (NN kind)) (PP (IN of) (NP (NN ape)))) (VP (VBD evolved) (PP (IN into) (NP (NN man))))) (. .)))) (. .)))
+#Rule:Nouns
+r1evidenceNN
+r1kindNN
+r1apeNN
+r1manNN
+
+#Rule:Verbs
+r2evolvedVBD
+
+#Rule:HeadNoun-V
+r11thereEXisAUX
+r11kindNNevolvedVBD
+
+#Rule:V-HeadNoun
+r21isAUXevidenceNN
+
+#Rule:PPinNP
+r26kindNNofINapeNN
+
+#Rule:PPinVP
+r30evolvedVBDintoINmanNN
+
+#Every hominid fossil is clearly ape or clearly man..
+#(S1 (S (NP (DT Every) (JJ hominid) (NN fossil)) (VP (AUX is) (ADJP (ADJP (RB clearly) (JJ ape)) (FRAG (CC or) (RB clearly) (NP (NN man)) (. .)))) (. .)))
+#Rule:Nouns
+r1fossilPersonAnnotation
+r1manNN
+
+#Rule:Adjs
+r4hominidJJ
+r4apeJJ
+
+#Rule:Adj-Noun
+r5hominidJJfossilPersonAnnotation
+
+#Rule:HeadNoun-V
+r11fossilPersonAnnotationisAUX
+
+#Rule:V-ADJ
+r25isAUXapeJJ
+
+#Unfortunately there is a lot of deceipt practiced by scientists that should know better. The Natural History Museum in London has a model of Lucy an australopithecene. Lucy was founf without hands and feet, but other australopithecene fossils have been found with ape like hands and feet. The NH Museum model has human hands and feet - deliberate deception!!
+#(S1 (S (ADVP (RB Unfortunately)) (NP (EX there)) (VP (AUX is) (NP (NP (DT a) (NN lot)) (PP (IN of) (NP (NP (NN deceipt)) (VP (VBN practiced) (PP (IN by) (NP (NP (NNS scientists)) (SBAR (WHNP (WDT that)) (S (VP (MD should) (VP (VB know) (NP (NN better.)) (SBAR (S (S (NP (NP (DT The) (JJ Natural) (NN History)) (SBAR (S (NP (NP (NNP Museum)) (PP (IN in) (NP (NNP London)))) (VP (AUX has) (NP (NP (DT a) (NN model)) (PP (IN of) (NP (NNP Lucy)))))))) (NP (DT an) (FW australopithecene.) (NNP Lucy)) (VP (AUX was) (VP (VBN founf) (PP (IN without) (NP (NP (NNS hands)) (CC and) (NP (NNS feet))))))) (, ,) (CC but) (S (NP (JJ other) (NN australopithecene) (NNS fossils)) (VP (AUX have) (VP (AUX been) (VP (VBN found) (PP (IN with) (NP (NP (NN ape)) (PP (IN like) (NP (NP (NNS hands)) (CC and) (NP (NP (NN feet.)) (SBAR (S (NP (DT The) (NNP NH) (NNP Museum) (NN model)) (VP (AUX has) (NP (NP (JJ human) (NNS hands)) (CC and) (NP (NP (NNS feet)) (: -) (NP (JJ deliberate) (NN deception)) (. !)))))))))))))))))))))))))))) (. !)))
+#Rule:Nouns
+r1lotNN
+r1deceiptNN
+r1scientistsNNS
+r1betterNN
+r1HistoryNN
+r1MuseumNNP
+r1LondonLocationAnnotation
+r1modelNN
+r1Lucy an australopithecene. LucyPersonAnnotation
+r1handsNNS
+r1feetNNS
+r1australopitheceneLocationAnnotation
+r1fossilsNNS
+r1apeNN
+r1handsNNS
+r1feetNN
+r1NHNNP
+r1MuseumNNP
+r1modelNN
+r1handsNNS
+r1feetNNS
+r1deceptionNN
+
+#Rule:Verbs
+r2practicedVBN
+r2knowVB
+r2founfVBN
+r2foundVBN
+
+#Rule:Adjs
+r4NaturalJJ
+r4otherJJ
+r4humanJJ
+r4deliberateJJ
+
+#Rule:Adj-Noun
+r5NaturalJJHistoryNN
+r5otherJJfossilsNNS
+r5humanJJhandsNNS
+r5deliberateJJdeceptionNN
+
+#Rule:N-HeadNoun
+r8australopitheceneLocationAnnotationfossilsNNS
+r8MuseumNNPmodelNN
+r8NHNNPmodelNN
+
+#Rule:HeadNoun-V
+r11thereEXisAUX
+r11MuseumNNPhasAUX
+r11modelNNhasAUX
+
+#Rule:V-By-Agent
+r13scientistsNNSpracticedVBN
+
+#Rule:HeadNoun-(who/that)-V
+r14scientistsNNSknowVB
+
+#Rule:V-HeadNoun
+r21isAUXlotNN
+r21knowVBbetterNN
+r21hasAUXmodelNN
+r21hasAUXhandsNNS
+
+#Rule:V-HeadNoun(passive)
+r23founfVBNHistoryNN
+r23founfVBNLucy an australopithecene. LucyPersonAnnotation
+r23foundVBNfossilsNNS
+
+#Rule:V-HeadNoun(passive)
+r24practicedVBNdeceiptNN
+
+#Rule:PPinNP
+r26lotNNofINdeceiptNN
+r26MuseumNNPinINLondonLocationAnnotation
+r26modelNNofINLucy an australopithecene. LucyPersonAnnotation
+r26apeNNlikeINhandsNNS
+r26apeNNlikeINfeetNN
+
+#Rule:PPinVP
+r32founfVBNwithoutINhandsNNS
+r32founfVBNwithoutINfeetNNS
+r32foundVBNwithINapeNN
+
+#Rule:V-ADV
+r46isAUXUnfortunatelyRB
+
+#There have been numerous other deceptions like Piltdown man - complete fraud. Java man - declared to be a human fossil on the basis of a thigh bone, a skull cap and 3 teeth - not even found in the same place..
+#(S1 (S (S (NP (EX There)) (VP (AUX have) (VP (AUX been) (NP (NP (JJ numerous) (JJ other) (NNS deceptions)) (PP (IN like) (NP (NNP Piltdown) (NN man))))))) (: -) (S (NP (NP (JJ complete) (NNP fraud.) (NNP Java) (NN man)) (PRN (: -) (VP (VBN declared) (S (VP (TO to) (VP (AUX be) (NP (DT a) (JJ human) (NN fossil)) (PP (IN on) (NP (NP (DT the) (NN basis)) (PP (IN of) (NP (NP (DT a) (NN thigh) (NN bone)) (, ,) (NP (DT a) (NN skull) (NN cap)) (CC and) (NP (CD 3) (NNS teeth)))))))))) (: -))) (ADVP (RB not) (RB even)) (VP (VBD found) (PP (IN in) (NP (DT the) (JJ same) (NN place)))) (. .)) (. .)))
+#Rule:Nouns
+r1deceptionsNNS
+r1Piltdown manPersonAnnotation
+r1fraudNNP
+r1Java manPersonAnnotation
+r1fossilNN
+r1basisNN
+r1thighNN
+r1boneNN
+r1skullNN
+r1capNN
+r1teethNNS
+r1placeNN
+
+#Rule:Verbs
+r2declaredVBN
+r2foundVBD
+
+#Rule:Adjs
+r4numerousJJ
+r4otherJJ
+r4completeJJ
+r4humanJJ
+r4sameJJ
+
+#Rule:Adj-Noun
+r5numerousJJdeceptionsNNS
+r5otherJJdeceptionsNNS
+r5completeJJJava manPersonAnnotation
+r5humanJJfossilNN
+r53CDteethNNS
+r5sameJJplaceNN
+
+#Rule:N-HeadNoun
+r8fraudNNPJava manPersonAnnotation
+r8thighNNboneNN
+r8skullNNcapNN
+
+#Rule:N-ApposN
+r10boneNNcapNN
+
+#Rule:HeadNoun-V
+r11thereEXbeenAUX
+r11Java manPersonAnnotationfoundVBD
+
+#Rule:V-HeadNoun
+r21beenAUXdeceptionsNNS
+r21beAUXfossilNN
+
+#Rule:PPinNP
+r26deceptionsNNSlikeINPiltdown manPersonAnnotation
+r26basisNNofINboneNN
+r26basisNNofINcapNN
+r26basisNNofINteethNNS
+
+#Rule:PPinVP
+r30beAUXonINbasisNN
+r30foundVBDinINplaceNN
+
+#Rule:V-ADV
+r46foundVBDnotRB
+r46foundVBDevenRB
+
+#Nebraska man - based on a pigs tooth!!
+#(S1 (X (NP (NNP Nebraska) (NN man)) (: -) (VP (VBN based) (PP (IN on) (NP (DT a) (NNS pigs) (NN tooth)))) (. !) (. !)))
+#Rule:Nouns
+r1NebraskaLocationAnnotation
+r1manNN
+r1pigsNNS
+r1toothNN
+
+#Rule:Verbs
+r2basedVBN
+
+#Rule:N-HeadNoun
+r8NebraskaLocationAnnotationmanNN
+r8pigsNNStoothNN
+
+#Rule:PPinVP
+r32basedVBNonINtoothNN
+
+#Check out the evidence for yourself, but don t believe what evolutionists (or creationists) tell you without looking for yourself at the evidence.
+#(S1 (S (S (VP (VB Check) (PRT (RP out)) (NP (NP (DT the) (NN evidence)) (PP (IN for) (NP (PRP yourself)))))) (, ,) (CC but) (S (VP (VB don) (S (NP (NNS t)) (VP (VB believe) (SBAR (WHNP (WP what)) (S (VP (VBZ evolutionists) (PRN (-LRB- -LRB-) (CC or) (VP (VBZ creationists)) (-RRB- -RRB-)) (S (VP (VB tell) (NP (PRP you)) (PP (IN without) (S (VP (VBG looking) (PP (IN for) (NP (PRP yourself))) (PP (IN at) (NP (DT the) (NN evidence))))))))))))))) (. .)))
+#Rule:Nouns
+r1evidenceNN
+r1tLocationAnnotation
+r1evidenceNN
+
+#Rule:Verbs
+r2donVB
+r2believeVB
+r2evolutionistsVBZ
+r2creationistsVBZ
+r2tellVB
+r2lookingVBG
+
+#Rule:V-PRT
+r3checkVBoutRP
+
+#Rule:HeadNoun-V
+r11tLocationAnnotationbelieveVB
+
+#Rule:V-HeadNoun
+r21checkVBevidenceNN
+r21tellVByouPRP
+
+#Rule:V-HeadNoun
+r22donVBtLocationAnnotation
+
+#Rule:PPinNP
+r26evidenceNNforINyourselfPRP
+
+#Rule:PPinVP
+r30lookingVBGforINyourselfPRP
+r30lookingVBGatINevidenceNN
+
+@lemmas-left	practiced	don	basis	hominid	foot	feet.	deliberate	scientist	same	fraud	been	has	skull	evolutionist	declared	Java man	deceptions	creationists	place	be	numerous	Piltdown man	australopithecene	museum	teeth	declare	3	deception	NH	tooth	better	lot	fossils	evolutionists	evolved	natural	model	deceipt	other	have	cap	evidence	Natural	thigh	scientists	believe	London	kind	looking	complete	hands	History	ape	Lucy an australopithecene. Lucy	pigs	bone	tell	man	evolve	look	is	check	better.	feet	know	pig	human	history	t	practice	Museum	there	fossil	base	fraud.	founf	nh	Nebraska	based	found	
+@lemmas-right	practiced	Unfortunately	model	deceipt	basis	foot	feet.	have	cap	evidence	believe	been	has	London	hands	History	ape	Lucy an australopithecene. Lucy	bone	Java man	deceptions	yourself	place	man	evolve	be	unfortunately	is	better.	Piltdown man	feet	you	teeth	know	not	history	deception	t	tooth	practice	better	fossil	lot	even	fossils	evolved	out	found	
+@lemmas-center	of	with	for	at	into	on	like	without	in	

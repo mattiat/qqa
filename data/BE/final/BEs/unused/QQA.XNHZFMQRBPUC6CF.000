@@ -1,0 +1,83 @@
+#how can i loss wieght the right way?
+#(S1 (SBARQ (WHADVP (WRB how)) (SQ (MD can) (NP (PRP i)) (VP (ADVP (NN loss)) (VB wieght) (NP (DT the) (JJ right) (NN way)))) (. ?)))
+#Rule:Nouns
+r1lossNN
+r1wayNN
+
+#Rule:Verbs
+r2wieghtVB
+
+#Rule:Adjs
+r4rightJJ
+
+#Rule:Adj-Noun
+r5rightJJwayNN
+
+#Rule:V-HeadNoun
+r21wieghtVBwayNN
+
+#i wanna get in shape, but i dont know the first thing about being healthy. does anyone know how to diet and get wieght off fast? 
+#(S1 (S (S (NP (PRP i)) (ADVP (NNP wanna)) (VP (VB get) (PP (IN in) (NP (NN shape))))) (, ,) (CC but) (S (NP (PRP i)) (VP (VBP dont) (SBAR (S (VP (VBP know) (SBAR (S (NP (NP (DT the) (JJ first) (NN thing)) (PP (IN about) (S (VP (AUXG being) (VP (VBN healthy.)))))) (VP (AUX does) (NP (NN anyone)) (VP (VB know) (SBAR (WHADVP (WRB how)) (S (VP (TO to) (VP (VP (NN diet)) (CC and) (VP (VB get) (VP (VBN wieght) (PRT (RP off)) (ADVP (RB fast))))))))))))))))) (. ?)))
+#Rule:Nouns
+r1wannaLocationAnnotation
+r1shapeNN
+r1thingNN
+r1anyoneNN
+r1dietNN
+
+#Rule:Verbs
+r2getVB
+r2dontVBP
+r2knowVBP
+r2healthyVBN
+r2knowVB
+r2getVB
+
+#Rule:V-PRT
+r3wieghtVBNoffRP
+
+#Rule:Adjs
+r4firstJJ
+
+#Rule:Adj-Noun
+r5firstJJthingNN
+
+#Rule:HeadNoun-V
+r11iPRPgetVB
+r11iPersonAnnotationdontVBP
+r11thingNNknowVB
+
+#Rule:V-HeadNoun
+r21doesAUXanyoneNN
+
+#Rule:PPinVP
+r30getVBinINshapeNN
+
+#Rule:V-ADV
+r46wieghtVBNfastRB
+
+#what kind of exercises are best for women in there mid 20 s?
+#(S1 (SBARQ (WHNP (WHNP (WP what) (NN kind)) (PP (IN of) (NP (NNS exercises)))) (SQ (VP (AUX are) (ADVP (RB best)) (PP (IN for) (NP (NP (NP (NNS women)) (PP (IN in) (NP (RB there)))) (NP (NNP mid) (CD 20) (NNP s)))))) (. ?)))
+#Rule:Nouns
+r1kindNN
+r1exercisesNNS
+r1womenNNS
+r1midNNP
+r1sNNP
+
+#Rule:Adj-Noun
+r520CDsNNP
+
+#Rule:PPinNP
+r26womenNNSinINthereRB
+
+#Rule:PPinVP
+r30areAUXforINwomenNNS
+r30areAUXforINsNNP
+
+#Rule:V-ADV
+r46areAUXbestRB
+
+@lemmas-left	does	diet	loss	way	exercise	exercises	kind	20	are	woman	do	wanna	right	be	get	shape	know	women	wieght	healthy.	i	s	dont	anyone	healthy	mid	first	thing	
+@lemmas-right	get	way	shape	know	women	s	dont	anyone	woman	there	off	best	fast	thing	
+@lemmas-center	for	in	

@@ -1,0 +1,291 @@
+BE: SmokingNN
+EQ class: smokenn	
+
+BE: riskNN
+EQ class: perilnn	endangermentnn	hazardnn	jeopardynn	riskyjj	
+
+BE: factorsNNS
+EQ class: factornns	theynns	themnns	
+
+BE: bladderNN
+EQ class: vesicann	bladderyjj	
+
+BE: cancerNN
+EQ class: cancerousjj	malignant_neoplastic_diseasenn	
+
+BE: consideredVBN
+EQ class: regardvbn	seevbn	reckonvbn	viewvbn	considervbn	
+
+BE: greatestJJS
+EQ class: sterlingjjs	superlativejjs	
+
+BE: greatestJJSriskNN
+EQ class: superlativejjsjeopardynn	superlativejjsendangermentnn	greatestjjsendangermentnn	sterlingjjsriskyjj	superlativejjsrisknn	sterlingjjsperilnn	greatestjjsperilnn	sterlingjjsjeopardynn	greatestjjsriskyjj	superlativejjsriskyjj	sterlingjjsrisknn	sterlingjjsendangermentnn	superlativejjshazardnn	greatestjjsjeopardynn	superlativejjsperilnn	greatestjjshazardnn	sterlingjjshazardnn	
+
+BE: bladderNNcancerNN
+EQ class: vesicanncancernn	malignant_neoplastic_diseasennofinbladderyjj	cancernnofinbladdernn	bladdernnmalignant_neoplastic_diseasenn	bladderyjjcancerousjj	cancerousvbbladderyjj	bladderyjjcancerousvb	cancernnofinvesicann	vesicanncancerousvb	cancerousvbvesicann	cancerousjjofinvesicann	bladdernncancerousjj	cancernnofinbladderyjj	vesicannmalignant_neoplastic_diseasenn	cancerousvbbladdernn	malignant_neoplastic_diseasennofinbladdernn	bladderyjjcancernn	malignant_neoplastic_diseasennofinvesicann	cancerousjjofinbladdernn	bladderyjjmalignant_neoplastic_diseasenn	vesicanncancerousjj	cancerousjjofinbladderyjj	bladdernncancerousvb	
+
+BE: consideredVBNoneCD
+EQ class: regardvbnsinglecd	reckonvbnunitycd	seevbn1cd	consideredvbnicd	reckonvbn1cd	seevbnicd	considervbnsinglecd	considervbnonecd	regardvbn1cd	considervbn1cd	considervbnunitycd	reckonvbnacecd	reckonvbnicd	regardvbnacecd	seevbnsinglecd	consideredvbnunitycd	viewvbnicd	viewvbnunitycd	viewvbnsinglecd	considervbnicd	regardvbnicd	consideredvbn1cd	reckonvbnonecd	seevbnonecd	seevbnunitycd	regardvbnonecd	viewvbnacecd	viewvbn1cd	viewvbnonecd	consideredvbnsinglecd	consideredvbnacecd	reckonvbnsinglecd	seevbnacecd	considervbnacecd	regardvbnunitycd	
+
+BE: consideredVBNfactorsNNS
+EQ class: regardvbntheynns	reckonvbnthemnns	considervbnfactorsnns	reckonvbnfactornns	seevbnfactorsnns	reckonvbnfactorsnns	consideredvbntheynns	viewvbnfactornns	consideredvbnthemnns	considervbnfactornns	considervbntheynns	seevbntheynns	considervbnthemnns	viewvbnthemnns	regardvbnthemnns	regardvbnfactorsnns	viewvbnfactorsnns	reckonvbntheynns	viewvbntheynns	seevbnthemnns	consideredvbnfactornns	regardvbnfactornns	seevbnfactornns	
+
+BE: consideredVBNSmokingNN
+EQ class: considervbnsmokingnn	viewvbnsmokenn	regardvbnsmokingnn	regardvbnsmokenn	seevbnsmokenn	seevbnsmokingnn	reckonvbnsmokingnn	viewvbnsmokingnn	reckonvbnsmokenn	consideredvbnsmokenn	considervbnsmokenn	
+
+BE: oneCDofINriskNN
+EQ class: riskyjj1cd	icdofinrisknn	hazardnnsinglecd	unitycdofinjeopardynn	1cdofinhazardnn	unitycdofinriskyjj	hazardnnicd	singlecdofinrisknn	jeopardynnunitycd	endangermentnn1cd	risknnunitycd	perilnn1cd	singlecdofinperilnn	icdofinperilnn	acecdofinendangermentnn	risknnsinglecd	riskyjjsinglecd	endangermentnnunitycd	icdofinjeopardynn	riskyjjonecd	jeopardynnonecd	acecdofinjeopardynn	risknnicd	1cdofinperilnn	hazardnnonecd	jeopardynnsinglecd	unitycdofinperilnn	unitycdofinhazardnn	onecdofinhazardnn	risknnacecd	onecdofinendangermentnn	jeopardynnacecd	perilnnacecd	singlecdofinendangermentnn	1cdofinrisknn	singlecdofinjeopardynn	onecdofinperilnn	endangermentnnonecd	acecdofinperilnn	perilnnonecd	perilnnicd	icdofinendangermentnn	singlecdofinriskyjj	jeopardynn1cd	riskyjjacecd	endangermentnnicd	risknn1cd	1cdofinjeopardynn	perilnnsinglecd	perilnnunitycd	endangermentnnsinglecd	hazardnn1cd	acecdofinriskyjj	hazardnnunitycd	unitycdofinrisknn	acecdofinrisknn	acecdofinhazardnn	icdofinhazardnn	riskyjjicd	icdofinriskyjj	onecdofinjeopardynn	unitycdofinendangermentnn	onecdofinriskyjj	risknnonecd	jeopardynnicd	1cdofinriskyjj	singlecdofinhazardnn	hazardnnacecd	endangermentnnacecd	riskyjjunitycd	1cdofinendangermentnn	
+
+BE: factorsNNSforINcancerNN
+EQ class: malignant_neoplastic_diseasennthemnns	factornnsforincancerousjj	theynnsforincancerousjj	cancerousjjthemnns	factornnsforinmalignant_neoplastic_diseasenn	themnnsforincancerousjj	themnnsforinmalignant_neoplastic_diseasenn	theynnsforinmalignant_neoplastic_diseasenn	theynnsforincancernn	factorsnnsforincancerousjj	factornnsforincancernn	themnnsforincancernn	malignant_neoplastic_diseasenntheynns	malignant_neoplastic_diseasennfactorsnns	cancernnfactornns	cancernntheynns	cancernnthemnns	factorsnnsforinmalignant_neoplastic_diseasenn	malignant_neoplastic_diseasennfactornns	cancernnfactorsnns	cancerousjjtheynns	cancerousjjfactornns	cancerousjjfactorsnns	
+
+BE: riskNN
+EQ class: perilnn	endangermentnn	hazardnn	jeopardynn	riskyjj	
+
+BE: factNN
+EQ class: 
+
+BE: substancesNNS
+EQ class: substancenns	substantialjj	theynns	themnns	
+
+BE: tobaccoNN
+EQ class: baccynn	
+
+BE: urineOrganizationAnnotation
+EQ class: 
+
+BE: bladderNN
+EQ class: vesicann	bladderyjj	
+
+BE: excretionNN
+EQ class: excretingnn	eliminationnn	evacuationnn	voidingnn	
+
+BE: foundVBN
+EQ class: set_upvbn	launchvbn	establishvbn	
+
+BE: tendVBP
+EQ class: runvbp	inclinevbp	be_givenvbp	leanvbp	
+
+BE: collectVB
+EQ class: roll_upvb	pile_upvb	compilevb	accumulatevb	amassvb	hoardvb	
+
+BE: becomeVB
+EQ class: govb	getvb	
+
+BE: awaitingVBG
+EQ class: awaitvbg	expectvbg	lookvbg	waitvbg	
+
+BE: dueJJ
+EQ class: 
+
+BE: cancer-promotingJJ
+EQ class: 
+
+BE: concentratedJJ
+EQ class: 
+
+BE: cancer-promotingJJsubstancesNNS
+EQ class: cancer-promotingjjtheynns	cancer-promotingjjsubstantialjj	cancer-promotingjjthemnns	cancer-promotingjjsubstancenns	
+
+BE: riskNNisAUX
+EQ class: jeopardynnbeaux	perilnnbeaux	hazardnnbeaux	hazardnnisaux	perilnnisaux	risknnbeaux	riskyjjbeaux	riskyjjisaux	endangermentnnbeaux	endangermentnnisaux	jeopardynnisaux	
+
+BE: substancesNNStendVBP
+EQ class: themnnsbe_givenvbp	substancesnnsrunvbp	tendenciousjjthemnns	tendenciousjjofinthemnns	tendencynntheynns	inclinationnnofinthemnns	inclinationnnthemnns	tendencynnofinsubstancenns	tendenciousjjsubstantialjj	tendenciousjjofintheynns	tendentiousjjsubstancenns	tendentiousjjofinsubstancenns	tendenciousjjofinsubstancesnns	substancesnnsbe_givenvbp	tendentiousjjofinthemnns	inclinationnnofinsubstantialjj	substancesnnsinclinevbp	substancesnnsleanvbp	tendenciousjjofinsubstantialjj	themnnsinclinevbp	inclinationnnsubstantialjj	substantialjjinclinevbp	tendenciousjjtheynns	inclinationnnsubstancenns	dispositionnnofinsubstantialjj	theynnsrunvbp	dispositionnnthemnns	substancennsrunvbp	tendencynnofinsubstantialjj	dispositionnnofinthemnns	tendencynnsubstancesnns	themnnstendvbp	tendentiousjjofinsubstantialjj	tendentiousjjsubstancesnns	tendencynnofinthemnns	tendencynnofinsubstancesnns	tendenciousjjsubstancesnns	tendencynnthemnns	tendencynnsubstancenns	theynnstendvbp	theynnsbe_givenvbp	dispositionnnsubstancesnns	dispositionnnofinsubstancesnns	dispositionnnofintheynns	dispositionnnofinsubstancenns	tendencynnsubstantialjj	substantialjjbe_givenvbp	dispositionnntheynns	tendentiousjjthemnns	tendentiousjjofinsubstancesnns	substantialjjrunvbp	tendentiousjjsubstantialjj	substancennsinclinevbp	inclinationnnsubstancesnns	tendentiousjjofintheynns	theynnsinclinevbp	tendencynnofintheynns	substantialjjtendvbp	tendentiousjjtheynns	substantialjjleanvbp	substancennstendvbp	substancennsleanvbp	inclinationnntheynns	tendenciousjjofinsubstancenns	tendenciousjjsubstancenns	themnnsleanvbp	dispositionnnsubstantialjj	themnnsrunvbp	dispositionnnsubstancenns	inclinationnnofintheynns	inclinationnnofinsubstancenns	substancennsbe_givenvbp	inclinationnnofinsubstancesnns	theynnsleanvbp	
+
+BE: awaitingVBGexcretionNN
+EQ class: awaitvbgexcretingnn	expectvbgvoidingnn	awaitingvbgevacuationnn	waitvbgeliminationnn	awaitvbgeliminationnn	awaitingvbgexcretingnn	awaitvbgvoidingnn	waitvbgvoidingnn	waitvbgexcretionnn	lookvbgevacuationnn	expectvbgexcretingnn	awaitvbgevacuationnn	lookvbgvoidingnn	awaitvbgexcretionnn	awaitingvbgeliminationnn	lookvbgexcretionnn	waitvbgevacuationnn	awaitingvbgvoidingnn	waitvbgexcretingnn	expectvbgevacuationnn	expectvbgeliminationnn	lookvbgexcretingnn	expectvbgexcretionnn	lookvbgeliminationnn	
+
+BE: foundVBNsubstancesNNS
+EQ class: innovationnnofinsubstantialjj	foundationnnofinsubstantialjj	foundvbnsubstantialjj	foundingnnofintheynns	foundingnnofinthemnns	foundingnnofinsubstantialjj	foundvbnsubstancenns	innovationnnofinsubstancenns	launchvbnsubstantialjj	initiationnnofinthemnns	foundationnnofinsubstancesnns	initiationnnofinsubstantialjj	institutionnnofinsubstancenns	originationnnofintheynns	originationnnofinsubstantialjj	creationnnofinsubstantialjj	institutionnnofinsubstantialjj	launchvbnthemnns	innovationnnofinsubstancesnns	introductionnnofinsubstancenns	set_upvbntheynns	foundingnnofinsubstancenns	originationnnofinsubstancesnns	instaurationnnofintheynns	creationnnofinthemnns	establishvbnsubstancesnns	institutionnnofinsubstancesnns	foundationnnofinsubstancenns	introductionnnofinsubstancesnns	foundernnofinsubstantialjj	laminitisnnofinsubstancenns	foundernnofinsubstancenns	foundernnofinthemnns	foundernnofinsubstancesnns	establishvbnsubstantialjj	foundingnnofinsubstancesnns	initiationnnofintheynns	launchvbnsubstancenns	innovationnnofinthemnns	introductionnnofinthemnns	institutionnnofinthemnns	set_upvbnthemnns	foundvbntheynns	originationnnofinsubstancenns	set_upvbnsubstantialjj	creationnnofinsubstancenns	creationnnofintheynns	foundernnofintheynns	initiationnnofinsubstancesnns	introductionnnofintheynns	establishvbnthemnns	launchvbnsubstancesnns	instaurationnnofinsubstancesnns	creationnnofinsubstancesnns	instaurationnnofinsubstancenns	foundationnnofintheynns	set_upvbnsubstancesnns	foundvbnthemnns	establishvbntheynns	establishvbnsubstancenns	institutionnnofintheynns	instaurationnnofinsubstantialjj	laminitisnnofinthemnns	foundationnnofinthemnns	innovationnnofintheynns	introductionnnofinsubstantialjj	set_upvbnsubstancenns	instaurationnnofinthemnns	laminitisnnofinsubstantialjj	initiationnnofinsubstancenns	launchvbntheynns	originationnnofinthemnns	laminitisnnofintheynns	laminitisnnofinsubstancesnns	
+
+BE: isAUXdueJJ
+EQ class: beauxduejj	
+
+BE: collectVBinINurineOrganizationAnnotation
+EQ class: hoardvbininurineorganizationannotation	roll_upvbininurineorganizationannotation	accumulatevbininurineorganizationannotation	compilevbininurineorganizationannotation	amassvbininurineorganizationannotation	pile_upvbininurineorganizationannotation	
+
+BE: foundVBNinINtobaccoNN
+EQ class: launchvbnininbaccynn	set_upvbninintobacconn	establishvbnininbaccynn	foundvbnininbaccynn	launchvbninintobacconn	set_upvbnininbaccynn	establishvbninintobacconn	
+
+BE: dueJJtoTOfactNN
+EQ class: 
+
+BE: concentratedJJinINbladderNN
+EQ class: concentratedjjininbladderyjj	concentratedjjininvesicann	
+
+BE: becomeVBwhileINawaitingVBG
+EQ class: becomevbwhileinexpectvbg	becomevbwhileinlookvbg	govbwhileinlookvbg	getvbwhileinexpectvbg	becomevbwhileinwaitvbg	getvbwhileinawaitingvbg	govbwhileinexpectvbg	getvbwhileinawaitvbg	becomevbwhileinawaitvbg	getvbwhileinwaitvbg	govbwhileinwaitvbg	govbwhileinawaitingvbg	getvbwhileinlookvbg	govbwhileinawaitvbg	
+
+BE: isAUXprobablyRB
+EQ class: probabilitynnininbeaux	likelyjjininbeaux	probablejjininbeaux	probablejjininisaux	beauxprobablyrb	probabilitynnininisaux	likelyjjininisaux	
+
+BE: chemicalsNNS
+EQ class: chemicaljj	chemical_substancenns	chemicalnns	theynns	themnns	
+
+BE: aniline dyesPersonAnnotation
+EQ class: 
+
+BE: saltsNNS
+EQ class: theynns	saltyjj	saltnns	themnns	
+
+BE: mixturesNNS
+EQ class: theynns	mixturenns	themnns	
+
+BE: hydrocarbonsNNS
+EQ class: hydrocarbonnns	theynns	themnns	
+
+BE: agentsNNS
+EQ class: agentnns	theynns	themnns	
+
+BE: includingVBG
+EQ class: includevbg	
+
+BE: believedVBN
+EQ class: believevbn	
+
+BE: OtherJJ
+EQ class: 
+
+BE: beta-napthylaminePersonAnnotation
+EQ class: 
+
+BE: benzadinePersonAnnotation
+EQ class: 
+
+BE: aromaticJJ
+EQ class: aromatic_compoundnn	aromann	
+
+BE: cancer-causingJJ
+EQ class: 
+
+BE: beta-napthylaminePersonAnnotationchemicalsNNS
+EQ class: beta-napthylaminepersonannotationchemicalnns	beta-napthylaminepersonannotationchemical_substancenns	beta-napthylaminepersonannotationthemnns	beta-napthylaminepersonannotationchemicaljj	beta-napthylaminepersonannotationtheynns	
+
+BE: OtherJJchemicalsNNS
+EQ class: otherjjchemicaljj	otherjjchemical_substancenns	otherjjtheynns	otherjjchemicalnns	otherjjthemnns	
+
+BE: benzadinePersonAnnotationsaltsNNS
+EQ class: benzadinepersonannotationsaltyjj	benzadinepersonannotationthemnns	benzadinepersonannotationtheynns	benzadinepersonannotationsaltnns	
+
+BE: aromaticJJhydrocarbonsNNS
+EQ class: aromatic_compoundnnthemnns	aromatic_compoundnnhydrocarbonsnns	aromannhydrocarbonnns	aromaticjjhydrocarbonnns	aromatic_compoundnnhydrocarbonnns	aromaticjjtheynns	aromannthemnns	aromaticjjthemnns	aromanntheynns	aromannhydrocarbonsnns	aromatic_compoundnntheynns	
+
+BE: cancer-causingJJagentsNNS
+EQ class: cancer-causingjjagentnns	cancer-causingjjthemnns	cancer-causingjjtheynns	
+
+BE: beAUXagentsNNS
+EQ class: beauxagentnns	beauxthemnns	beauxtheynns	
+
+BE: believedVBNchemicalsNNS
+EQ class: trusternnofintheynns	trusternnofinthemnns	beliefnnofinchemicalnns	trusternnofinchemicalnns	believablennofintheynns	beliefnnofinthemnns	believevbntheynns	believevbnchemicaljj	believedvbnthemnns	believernnofinthemnns	believedvbnchemical_substancenns	believevbnchemicalnns	believablennofinthemnns	believablennofinchemicalsnns	believedvbnchemicalnns	believevbnchemicalsnns	believablennofinchemicalnns	believedvbnchemicaljj	believernnofinchemical_substancenns	trusternnofinchemicaljj	beliefnnofinchemicalsnns	believernnofinchemicaljj	believernnofintheynns	believevbnchemical_substancenns	believablennofinchemicaljj	believevbnthemnns	believablennofinchemical_substancenns	trusternnofinchemical_substancenns	trusternnofinchemicalsnns	believernnofinchemicalnns	believernnofinchemicalsnns	believedvbntheynns	beliefnnofinchemicaljj	beliefnnofintheynns	beliefnnofinchemical_substancenns	
+
+BE: believedVBNsaltsNNS
+EQ class: trusternnofintheynns	trusternnofinthemnns	believernnofinsaltnns	believablennofintheynns	believernnofinsaltsnns	believablennofinsaltsnns	beliefnnofinsaltyjj	beliefnnofinthemnns	believevbntheynns	believernnofinthemnns	believedvbnthemnns	believedvbnsaltnns	believablennofinthemnns	trusternnofinsaltnns	trusternnofinsaltyjj	beliefnnofinsaltnns	believablennofinsaltyjj	believedvbnsaltyjj	believevbnsaltyjj	believablennofinsaltnns	believevbnsaltnns	believernnofintheynns	believernnofinsaltyjj	believevbnsaltsnns	beliefnnofinsaltsnns	believevbnthemnns	trusternnofinsaltsnns	believedvbntheynns	beliefnnofintheynns	
+
+BE: believedVBNmixturesNNS
+EQ class: trusternnofintheynns	trusternnofinthemnns	believablennofintheynns	beliefnnofinmixturesnns	believernnofintheynns	believevbnmixturenns	believablennofinmixturesnns	believernnofinmixturenns	beliefnnofinthemnns	believevbnthemnns	believevbntheynns	trusternnofinmixturenns	believedvbnthemnns	believernnofinthemnns	believablennofinthemnns	believedvbnmixturenns	beliefnnofinmixturenns	believablennofinmixturenns	believedvbntheynns	believevbnmixturesnns	believernnofinmixturesnns	beliefnnofintheynns	trusternnofinmixturesnns	
+
+BE: mixturesNNSofINhydrocarbonsNNS
+EQ class: fusevbtheynns	hydrocarbonsnnstheynns	mixturennsofinthemnns	theynnsmixvb	mixvbhydrocarbonnns	themnnsimmixvb	comminglevbhydrocarbonsnns	hydrocarbonsnnscoalescevb	theynnsmixturesnns	immixvbtheynns	theynnsfluxvb	hydrocarbonsnnscombinevb	immixvbthemnns	meldvbtheynns	theynnsblendvb	comminglevbhydrocarbonnns	theynnstheynns	themnnscombinevb	hydrocarbonsnnsfluxvb	coalescevbhydrocarbonnns	conflatevbtheynns	hydrocarbonsnnsmixvb	themnnsofinhydrocarbonsnns	coalescevbtheynns	theynnscombinevb	themnnsconflatevb	hydrocarbonnnsmixvb	hydrocarbonsnnsmixturenns	theynnsofinhydrocarbonnns	hydrocarbonsnnsthemnns	mixturesnnsofinhydrocarbonnns	themnnstheynns	fluxvbhydrocarbonsnns	mixturennsofinhydrocarbonsnns	themnnsfusevb	fluxvbthemnns	mergevbthemnns	meldvbhydrocarbonsnns	hydrocarbonsnnscomminglevb	hydrocarbonnnsconflatevb	hydrocarbonnnsmeldvb	blendvbthemnns	immixvbhydrocarbonnns	combinevbthemnns	mixvbtheynns	comminglevbtheynns	theynnscomminglevb	hydrocarbonnnscoalescevb	hydrocarbonsnnsmergevb	blendvbhydrocarbonsnns	theynnsthemnns	coalescevbhydrocarbonsnns	mergevbhydrocarbonnns	hydrocarbonsnnsimmixvb	hydrocarbonsnnsmeldvb	mixturesnnsofinthemnns	hydrocarbonnnstheynns	fusevbhydrocarbonsnns	theynnsconflatevb	hydrocarbonnnsblendvb	hydrocarbonnnsmixturesnns	theynnsofinthemnns	theynnsofintheynns	conflatevbhydrocarbonnns	hydrocarbonnnsimmixvb	themnnscomminglevb	themnnsofinhydrocarbonnns	meldvbhydrocarbonnns	combinevbhydrocarbonsnns	fusevbhydrocarbonnns	theynnsofinhydrocarbonsnns	mergevbtheynns	conflatevbhydrocarbonsnns	hydrocarbonsnnsmixturesnns	themnnsfluxvb	themnnsblendvb	blendvbtheynns	fluxvbtheynns	hydrocarbonnnsthemnns	theynnscoalescevb	hydrocarbonsnnsblendvb	hydrocarbonnnscomminglevb	mixturesnnsofintheynns	comminglevbthemnns	hydrocarbonnnsfusevb	theynnsimmixvb	theynnsfusevb	themnnsmixturesnns	immixvbhydrocarbonsnns	themnnsmeldvb	meldvbthemnns	themnnsthemnns	hydrocarbonsnnsconflatevb	themnnsmixturenns	theynnsmergevb	combinevbhydrocarbonnns	themnnsofinthemnns	theynnsmixturenns	mixvbhydrocarbonsnns	hydrocarbonnnsfluxvb	themnnscoalescevb	hydrocarbonnnsmixturenns	themnnsmixvb	mixturennsofinhydrocarbonnns	themnnsofintheynns	mergevbhydrocarbonsnns	mixturennsofintheynns	hydrocarbonnnscombinevb	coalescevbthemnns	mixvbthemnns	conflatevbthemnns	hydrocarbonnnsmergevb	theynnsmeldvb	fluxvbhydrocarbonnns	combinevbtheynns	themnnsmergevb	blendvbhydrocarbonnns	fusevbthemnns	hydrocarbonsnnsfusevb	
+
+BE: areAUXalsoRB
+EQ class: beauxalsorb	
+
+BE: chemicalsNNS
+EQ class: chemicaljj	chemical_substancenns	chemicalnns	theynns	themnns	
+
+BE: rubberNN
+EQ class: india_rubbernn	natural_rubbernn	caoutchoucnn	gum_elasticnn	rubberyjj	
+
+BE: leatherNN
+EQ class: leatheryjj	
+
+BE: textileNN
+EQ class: clothnn	fabricnn	materialnn	
+
+BE: chemicalNN
+EQ class: chemical_substancenn	chemicaljj	
+
+BE: plasticsNNS
+EQ class: theynns	plasticnns	themnns	
+
+BE: petroleumNN
+EQ class: oilnn	rock_oilnn	crudenn	fossil_oilnn	crude_oilnn	
+
+BE: woodNN
+EQ class: woodyjj	
+
+BE: paintNN
+EQ class: pigmentnn	
+
+BE: industriesNNS
+EQ class: theynns	industrynns	themnns	
+
+BE: usedVBN
+EQ class: employvbn	utilisevbn	utilizevbn	usevbn	applyvbn	
+
+BE: paintNNindustriesNNS
+EQ class: industrynnsofinpaintnn	pigmentnnofinindustriesnns	theynnsofinpigmentnn	themnnsofinpaintnn	paintingnnofinindustrynns	paintnnindustrynns	theynnsofinpaintnn	paintnnindustrialistvb	picturennofinindustriesnns	theynnspaintvb	picturennofinindustrynns	picturennofintheynns	paintingnnofinindustriesnns	pigmentnntheynns	industriesnnspaintvb	paintnnofinindustriesnns	painterlyjjofinindustrynns	industrialistvbpaintnn	industriesnnsofinpaintnn	industrynnspaintvb	paintingnnofintheynns	industrynnsofinpigmentnn	pigmentnnofintheynns	paintingnnofinthemnns	themnnspaintvb	paintnnofinthemnns	painternnofinthemnns	picturennofinthemnns	pigmentnnindustrynns	paintnnofintheynns	industriesnnsofinpigmentnn	painterlyjjofinindustriesnns	paintnnofinindustrynns	pigmentnnofinthemnns	painternnofinindustriesnns	pigmentnnindustrialistvb	industrialistvbpigmentnn	paintnntheynns	pigmentnnindustriesnns	pigmentnnthemnns	paintnnthemnns	painternnofintheynns	pigmentnnofinindustrynns	themnnsofinpigmentnn	painternnofinindustrynns	painterlyjjofintheynns	painterlyjjofinthemnns	
+
+BE: usedVBNchemicalsNNS
+EQ class: usagennofinchemicaljj	usevbnthemnns	utilizevbnchemicaljj	utilisevbnthemnns	utilisevbnchemicaljj	usedvbntheynns	usablennofinchemical_substancenns	employmentnnofinchemicaljj	employvbnchemicalsnns	usennofinchemicalnns	utilizationnnofinchemicalnns	utilizevbnchemical_substancenns	usevbnchemical_substancenns	usennofinchemical_substancenns	employvbnchemicaljj	utilizevbnthemnns	useablennofinchemical_substancenns	employmentnnofinthemnns	exercisennofinchemicalnns	usernnofinchemicalnns	applyvbnchemicalnns	usagennofinchemicalsnns	usernnofinchemicalsnns	usablennofintheynns	utilisationnnofinchemicalsnns	exercisennofinthemnns	utilizationnnofinchemicaljj	usernnofinchemicaljj	usennofinthemnns	utilisevbntheynns	exercisennofinchemicaljj	usernnofinchemical_substancenns	usablennofinthemnns	utilisationnnofinthemnns	useablennofinchemicalsnns	useablennofinchemicalnns	usedvbnchemical_substancenns	exercisennofinchemical_substancenns	applyvbnchemicaljj	usedvbnchemicalnns	usablennofinchemicaljj	applyvbntheynns	utilisationnnofintheynns	usernnofinthemnns	utilisationnnofinchemicalnns	usennofinchemicaljj	utilisevbnchemicalsnns	utilisevbnchemicalnns	utilizationnnofintheynns	usevbntheynns	utilizationnnofinthemnns	utilisationnnofinchemicaljj	utilizevbnchemicalnns	employmentnnofintheynns	utilisationnnofinchemical_substancenns	applyvbnthemnns	employvbntheynns	utilizationnnofinchemicalsnns	utilizevbntheynns	exercisennofinchemicalsnns	usevbnchemicalnns	useablennofintheynns	employvbnchemicalnns	utilizationnnofinchemical_substancenns	usagennofintheynns	usagennofinchemical_substancenns	usevbnchemicalsnns	usedvbnthemnns	exercisennofintheynns	usablennofinchemicalsnns	usablennofinchemicalnns	useablennofinthemnns	employmentnnofinchemicalnns	usernnofintheynns	useablennofinchemicaljj	applyvbnchemical_substancenns	usennofinchemicalsnns	usagennofinthemnns	utilisevbnchemical_substancenns	usevbnchemicaljj	utilizevbnchemicalsnns	applyvbnchemicalsnns	employmentnnofinchemicalsnns	employmentnnofinchemical_substancenns	usennofintheynns	usagennofinchemicalnns	usedvbnchemicaljj	employvbnchemical_substancenns	employvbnthemnns	
+
+BE: usedVBNinINindustriesNNS
+EQ class: utilisevbnininindustrynns	utilisevbnininindustriesnns	utilizevbnininthemnns	employvbnininthemnns	utilizevbnininindustriesnns	applyvbnininindustrynns	usedvbninintheynns	usevbnininthemnns	applyvbnininthemnns	utilisevbnininthemnns	usevbnininindustrynns	usevbnininindustriesnns	usedvbnininindustrynns	usedvbnininthemnns	utilizevbnininindustrynns	applyvbninintheynns	utilisevbninintheynns	utilizevbninintheynns	employvbninintheynns	employvbnininindustrynns	applyvbnininindustriesnns	employvbnininindustriesnns	usevbninintheynns	
+
+BE: usedVBNwidelyRB
+EQ class: exercisennofinwidelyrb	utilisationnnofinwidelyrb	useablennofinwidelyrb	usagennofinwidelyrb	usernnofinwidelyrb	utilisevbnwidelyrb	usablennofinwidelyrb	applyvbnwidelyrb	usevbnwidelyrb	employvbnwidelyrb	utilizevbnwidelyrb	utilizationnnofinwidelyrb	employmentnnofinwidelyrb	usennofinwidelyrb	
+
+BE: yearsNNS
+EQ class: old_agenns	geezerhoodnns	eldnns	theynns	themnns	agenns	
+
+BE: chemicalNN
+EQ class: chemical_substancenn	chemicaljj	
+
+BE: exposureNN
+EQ class: 
+
+BE: bladderNN
+EQ class: vesicann	bladderyjj	
+
+BE: cancerNN
+EQ class: cancerousjj	malignant_neoplastic_diseasenn	
+
+BE: takeVB
+EQ class: 
+
+BE: developVB
+EQ class: 
+
+BE: originalJJ
+EQ class: 
+
+BE: 50CDyearsNNS
+EQ class: 5.0.cdyearsnns	5.0.cdagenns	50cdgeezerhoodnns	5.0.cdold_agenns	5.0.cdgeezerhoodnns	5.0.cdtheynns	fiftycdagenns	fiftycdyearsnns	5.0.cdeldnns	fiftycdtheynns	fiftycdeldnns	50cdold_agenns	5.0.cdthemnns	fiftycdold_agenns	fiftycdgeezerhoodnns	50cdeldnns	fiftycdthemnns	lcdagenns	lcdyearsnns	lcdold_agenns	lcdtheynns	lcdgeezerhoodnns	50cdagenns	lcdeldnns	lcdthemnns	50cdthemnns	50cdtheynns	
+
+BE: originalJJexposureNN
+EQ class: exposevboriginallyrb	
+
+BE: chemicalNNexposureNN
+EQ class: chemicaljjexposurenn	exposurennofinchemicaljj	chemicaljjexposevb	chemical_substancennexposevb	exposurennofinchemical_substancenn	chemical_substancennexposurenn	exposevbchemical_substancenn	exposurennofinchemicalnn	exposevbchemicalnn	chemicalnnexposevb	exposevbchemicaljj	
+
+BE: bladderNNcancerNN
+EQ class: vesicanncancernn	malignant_neoplastic_diseasennofinbladderyjj	cancernnofinbladdernn	bladdernnmalignant_neoplastic_diseasenn	bladderyjjcancerousjj	cancerousvbbladderyjj	bladderyjjcancerousvb	cancernnofinvesicann	vesicanncancerousvb	cancerousvbvesicann	cancerousjjofinvesicann	bladdernncancerousjj	cancernnofinbladderyjj	vesicannmalignant_neoplastic_diseasenn	cancerousvbbladdernn	malignant_neoplastic_diseasennofinbladdernn	bladderyjjcancernn	malignant_neoplastic_diseasennofinvesicann	cancerousjjofinbladdernn	bladderyjjmalignant_neoplastic_diseasenn	vesicanncancerousjj	cancerousjjofinbladderyjj	bladdernncancerousvb	
+
+BE: itPRPtakeVB
+EQ class: 
+
+BE: cancerNNdevelopVB
+EQ class: developmentnncancernn	cancerousjjdevelopvb	malignant_neoplastic_diseasenndevelopvb	developmentnnofincancerousjj	developmentnncancerousjj	developmentnnofincancernn	developmentnnmalignant_neoplastic_diseasenn	developmentnnofinmalignant_neoplastic_diseasenn	
+
+BE: takeVByearsNNS
+EQ class: takevbthemnns	takevbtheynns	takevbgeezerhoodnns	takevbeldnns	takevbold_agenns	takevbagenns	
+
+BE: yearsNNSafterINexposureNN
+EQ class: exposurennthemnns	eldnnsafterinexposurenn	exposurennyearsnns	exposurenngeezerhoodnns	geezerhoodnnsafterinexposurenn	exposurennold_agenns	exposurennagenns	agennsafterinexposurenn	themnnsafterinexposurenn	old_agennsafterinexposurenn	exposurenneldnns	theynnsafterinexposurenn	exposurenntheynns	
+
+BE: takeVBforINdevelopVB
+EQ class: 
+

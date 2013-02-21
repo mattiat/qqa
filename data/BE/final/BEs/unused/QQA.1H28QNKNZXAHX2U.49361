@@ -1,0 +1,60 @@
+#because she wanted him to be. it s not like it makes him a bad person. besides, it s not like the world is made up of straight people. variety is the spice of life
+#(S1 (S (SBAR (IN because) (S (NP (PRP she)) (VP (VBD wanted) (S (NP (PRP him)) (VP (TO to) (VP (VB be.) (SBAR (S (NP (PRP it)) (VP (VBZ s) (SBAR (RB not) (IN like) (S (NP (PRP it)) (VP (VBZ makes) (S (NP (PRP him)) (NP (NP (DT a) (JJ bad) (NN person.)) (ADVP (IN besides)))))))))))))))) (, ,) (S (NP (PRP it)) (VP (VBZ s) (SBAR (RB not) (IN like) (S (NP (DT the) (NN world)) (VP (AUX is) (VP (VBN made) (PRT (RP up)) (PP (IN of) (NP (JJ straight) (JJ people.) (NN variety))))))))) (VP (AUX is) (NP (NP (DT the) (NN spice)) (PP (IN of) (NP (NN life)))))))
+#Rule:Nouns
+r1personNN
+r1worldNN
+r1varietyNN
+r1spiceNN
+r1lifeNN
+
+#Rule:Verbs
+r2wantedVBD
+r2beVB
+r2sVBZ
+r2makesVBZ
+r2sVBZ
+
+#Rule:V-PRT
+r3madeVBNupRP
+
+#Rule:Adjs
+r4badJJ
+r4straightJJ
+r4peopleJJ
+
+#Rule:Adj-Noun
+r5badJJpersonNN
+r5straightJJvarietyNN
+r5peopleJJvarietyNN
+
+#Rule:HeadNoun-V
+r11shePRPwantedVBD
+r11himPRPbeVB
+r11itPRPsVBZ
+r11itPRPmakesVBZ
+r11itPRPsVBZ
+
+#Rule:V-HeadNoun
+r21isAUXspiceNN
+
+#Rule:V-HeadNoun
+r22wantedVBDhimPRP
+r22makesVBZhimPRP
+r22makesVBZpersonNN
+
+#Rule:V-HeadNoun(passive)
+r23madeVBNworldNN
+
+#Rule:PPinNP
+r26spiceNNofINlifeNN
+
+#Rule:PPinVP
+r32madeVBNofINvarietyNN
+
+#Rule:V-IN-V
+r43sVBZlikeINmakesVBZ
+r43sVBZlikeINmadeVBN
+
+@lemmas-left	be.	is	person	it	people.	spice	makes	person.	made	him	bad	people	variety	wanted	life	s	she	make	straight	world	want	be	
+@lemmas-right	be.	person	makes	spice	person.	made	him	variety	wanted	up	life	s	make	world	want	be	
+@lemmas-center	of	like	

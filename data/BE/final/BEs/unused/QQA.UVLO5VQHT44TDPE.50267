@@ -1,0 +1,18 @@
+#Because the Sun rises in the East!
+#(S1 (FRAG (SBAR (IN Because) (S (NP (DT the) (NNP Sun)) (VP (VBZ rises) (PP (IN in) (NP (DT the) (NNP East)))))) (. !)))
+#Rule:Nouns
+r1SunNNP
+r1EastLocationAnnotation
+
+#Rule:Verbs
+r2risesVBZ
+
+#Rule:HeadNoun-V
+r11SunNNPrisesVBZ
+
+#Rule:PPinVP
+r30risesVBZinINEastLocationAnnotation
+
+@lemmas-left	rise	East	Sun	rises	sun	
+@lemmas-right	rise	East	rises	
+@lemmas-center	in	

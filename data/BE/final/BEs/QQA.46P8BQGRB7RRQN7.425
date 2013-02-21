@@ -1,0 +1,663 @@
+#There are support groups for families and children of cancer patients. You should start with your oncologist and ask for a medical social worker. Usually the social workers known all the local support groups or may even be involved with them. That is the first place to start. There are also online groups that can be of assistance..
+#(S1 (S (NP (EX There)) (VP (AUX are) (NP (NP (NN support) (NNS groups)) (PP (IN for) (NP (NP (NNS families) (CC and) (NNS children)) (PP (IN of) (NP (NP (NN cancer) (NN patients.)) (SBAR (S (NP (PRP You)) (VP (MD should) (VP (VP (VB start) (PP (IN with) (NP (PRP$ your) (NN oncologist)))) (CC and) (VP (VB ask) (PP (IN for) (NP (DT a) (JJ medical) (JJ social) (NN worker.))) (S (ADVP (RB Usually)) (NP (DT the) (JJ social) (NNS workers)) (VP (VP (VBN known) (NP (PDT all) (DT the) (JJ local) (NN support) (NNS groups))) (CC or) (VP (MD may) (ADVP (RB even)) (VP (AUX be) (VP (VBN involved) (PP (IN with) (NP (NP (NNS them.)) (SBAR (WHNP (WDT That)) (S (VP (AUX is) (NP (NP (DT the) (JJ first) (NN place)) (SBAR (S (VP (TO to) (VP (VB start.) (SBAR (S (NP (EX There)) (VP (AUX are) (ADVP (RB also)) (NP (NP (NN online) (NNS groups)) (SBAR (WHNP (WDT that)) (S (VP (MD can) (VP (AUX be) (PP (IN of) (NP (NN assistance))))))))))))))))))))))))) (. .))))))))))))) (. .)))
+#Rule:Nouns
+r1supportNN
+r1groupsNNS
+r1familiesNNS
+r1childrenNNS
+r1cancerNN
+r1patientsNN
+r1oncologistNN
+r1workerNN
+r1workersNNS
+r1supportNN
+r1groupsNNS
+r1themNNS
+r1placeNN
+r1onlineNN
+r1groupsNNS
+r1assistanceNN
+
+#Rule:Verbs
+r2startVB
+r2askVB
+r2knownVBN
+r2involvedVBN
+r2startVB
+
+#Rule:Adjs
+r4medicalJJ
+r4socialJJ
+r4socialJJ
+r4localJJ
+r4firstJJ
+
+#Rule:Adj-Noun
+r5medicalJJworkerNN
+r5socialJJworkerNN
+r5socialJJworkersNNS
+r5localJJgroupsNNS
+r5firstJJplaceNN
+
+#Rule:PRP-Noun
+r6yourPRP$oncologistNN
+
+#Rule:N-HeadNoun
+r8supportNNgroupsNNS
+r8cancerNNpatientsNN
+r8supportNNgroupsNNS
+r8onlineNNgroupsNNS
+
+#Rule:HeadNoun-V
+r11thereEXareAUX
+r11YouPersonAnnotationstartVB
+r11YouPersonAnnotationaskVB
+r11thereEXareAUX
+
+#Rule:HeadNoun-(who/that)-V
+r14themNNSisAUX
+r14placeNNstartVB
+r14groupsNNSbeAUX
+
+#Rule:NP(NP(z) SBAR(S(NP(x)VP(y))))
+r19startVBpatientsNN
+r19askVBpatientsNN
+
+#Rule:V-HeadNoun
+r21areAUXgroupsNNS
+r21knownVBNgroupsNNS
+r21isAUXplaceNN
+r21areAUXgroupsNNS
+
+#Rule:V-HeadNoun
+r22askVBworkersNNS
+
+#Rule:V-HeadNoun(passive)
+r23involvedVBNworkersNNS
+
+#Rule:PPinNP
+r26groupsNNSforINfamiliesNNS
+r26familiesNNSofINpatientsNN
+
+#Rule:PPinVP
+r30startVBwithINoncologistNN
+r30askVBforINworkerNN
+r30beAUXofINassistanceNN
+
+#Rule:PPinVP
+r32involvedVBNwithINthemNNS
+
+#Rule:V-ADV
+r46beAUXevenRB
+r46areAUXalsoRB
+
+#However, you may be surprised by your daughter . .she may be stronger than you imagine.
+#(S1 (S (ADVP (RB However)) (PRN (, ,) (S (NP (PRP you)) (VP (MD may) (VP (AUX be) (VP (VBN surprised) (PP (IN by) (NP (PRP$ your) (NN daughter)))))) (. .))) (NP (NN .she)) (VP (MD may) (VP (AUX be) (ADJP (ADJP (JJR stronger)) (SBAR (IN than) (S (NP (PRP you)) (VP (VB imagine))))))) (. .)))
+#Rule:Nouns
+r1daughterNN
+r1.sheNN
+
+#Rule:Verbs
+r2surprisedVBN
+r2imagineVB
+
+#Rule:Adjs
+r4strongerJJR
+
+#Rule:PRP-Noun
+r6yourPRP$daughterNN
+
+#Rule:HeadNoun-V
+r11.sheNNbeAUX
+r11youPRPimagineVB
+
+#Rule:V-By-Agent
+r13daughterNNsurprisedVBN
+
+#Rule:V-HeadNoun(passive)
+r23surprisedVBNyouPRP
+
+#Rule:V-ADJ
+r25beAUXstrongerJJR
+
+# To begin with the best way to deal with her fear is to tell her the truth . . always.
+#(S1 (S (VP (TO To) (VP (VB begin) (PP (IN with) (NP (NP (DT the) (JJS best) (NN way) (S (VP (TO to) (VP (VB deal) (PP (IN with) (NP (S (NP (PRP$ her) (NN fear)) (VP (AUX is) (S (VP (TO to) (VP (VB tell) (NP (PRP her)) (NP (DT the) (NN truth)))))) (. .)) (. .))))))) (ADVP (RB always)))))) (. .)))
+#Rule:Nouns
+r1wayNN
+r1fearNN
+r1truthNN
+
+#Rule:Verbs
+r2beginVB
+r2dealVB
+r2tellVB
+
+#Rule:Adjs
+r4bestJJS
+
+#Rule:Adj-Noun
+r5bestJJSwayNN
+
+#Rule:PRP-Noun
+r6herPRP$fearNN
+
+#Rule:HeadNoun-V
+r11fearNNisAUX
+
+#Rule:V-HeadNoun
+r21tellVBherPRP
+r21tellVBtruthNN
+
+#Rule:PPinVP
+r30beginVBwithINwayNN
+r30dealVBwithIN..
+
+# The imagination is far worse .
+#(S1 (S (NP (DT The) (NN imagination)) (VP (AUX is) (ADJP (RB far) (JJR worse))) (. .)))
+#Rule:Nouns
+r1imaginationNN
+
+#Rule:Adjs
+r4worseJJR
+
+#Rule:HeadNoun-V
+r11imaginationNNisAUX
+
+#Rule:V-ADJ
+r25isAUXworseJJR
+
+# tell her exactly what is happening.
+#(S1 (S (VP (VB tell) (NP (PRP her)) (SBAR (WHNP (RB exactly) (WP what)) (S (VP (AUX is) (VP (VBG happening)))))) (. .)))
+#Rule:Verbs
+r2tellVB
+r2happeningVBG
+
+#Rule:V-HeadNoun
+r21tellVBherPRP
+
+# If you go to the doctor, tell her why.
+#(S1 (S (SBAR (IN If) (S (NP (PRP you)) (VP (VBP go) (PP (TO to) (NP (DT the) (NN doctor)))))) (, ,) (VP (VB tell) (NP (PRP her)) (FRAG (WHADVP (WRB why)))) (. .)))
+#Rule:Nouns
+r1doctorNN
+
+#Rule:Verbs
+r2goVBP
+r2tellVB
+
+#Rule:HeadNoun-V
+r11youPRPgoVBP
+
+#Rule:V-HeadNoun
+r21tellVBherPRP
+
+#Rule:PPinVP
+r30goVBPtoTOdoctorNN
+
+# Tell her if you are having treatment.
+#(S1 (S (VP (VB Tell) (NP (PRP her)) (SBAR (IN if) (S (NP (PRP you)) (VP (AUX are) (VP (AUXG having) (NP (NN treatment))))))) (. .)))
+#Rule:Nouns
+r1treatmentNN
+
+#Rule:Verbs
+r2TellOrganizationAnnotation
+
+#Rule:V-HeadNoun
+r21TellOrganizationAnnotationherPRP
+r21havingAUXGtreatmentNN
+
+# Explain the treatment.
+#(S1 (S (VP (VB Explain) (NP (DT the) (NN treatment))) (. .)))
+#Rule:Nouns
+r1treatmentNN
+
+#Rule:Verbs
+r2explainVB
+
+#Rule:V-HeadNoun
+r21explainVBtreatmentNN
+
+# Include your daughter as much as she wants to be included.
+#(S1 (S (VP (VB Include) (NP (PRP$ your) (NN daughter)) (ADVP (ADVP (RB as) (RB much)) (SBAR (IN as) (S (NP (PRP she)) (VP (VBZ wants) (S (VP (TO to) (VP (AUX be) (VP (VBN included)))))))))) (. .)))
+#Rule:Nouns
+r1daughterNN
+
+#Rule:Verbs
+r2includeVB
+r2wantsVBZ
+r2includedVBN
+
+#Rule:PRP-Noun
+r6yourPRP$daughterNN
+
+#Rule:HeadNoun-V
+r11shePRPwantsVBZ
+
+#Rule:V-HeadNoun
+r21includeVBdaughterNN
+
+#Rule:V-ADV
+r46includeVBasRB
+r46includeVBmuchRB
+
+# Obviously if she does not want to be involved or hear this . . than back away a bit.
+#(S1 (FRAG (ADVP (RB Obviously)) (SBAR (IN if) (S (NP (PRP she)) (VP (AUX does) (RB not) (VP (VB want) (S (VP (TO to) (VP (VP (AUX be) (VP (VBN involved))) (CC or) (VP (VB hear) (NP (DT this))))))))) (. .)) (. .) (IN than) (RB back) (ADVP (RB away) (NP (DT a) (NN bit))) (. .)))
+#Rule:Nouns
+r1bitNN
+
+#Rule:Verbs
+r2wantVB
+r2involvedVBN
+r2hearVB
+
+#Rule:HeadNoun-V
+r11shePRPwantVB
+
+#Rule:V-HeadNoun
+r21hearVBthisDT
+
+#Rule:V-ADV
+r46doesAUXnotRB
+
+# But always make sure she hears the truth from you.
+#(S1 (S (CC But) (NP (RB always)) (VP (VB make) (ADJP (JJ sure) (SBAR (S (NP (PRP she)) (VP (VBZ hears) (NP (DT the) (NN truth)) (PP (IN from) (NP (PRP you)))))))) (. .)))
+#Rule:Nouns
+r1truthNN
+
+#Rule:Verbs
+r2makeVB
+r2hearsVBZ
+
+#Rule:Adjs
+r4sureJJ
+
+#Rule:HeadNoun-V
+r11shePRPhearsVBZ
+
+#Rule:V-HeadNoun
+r21hearsVBZtruthNN
+
+#Rule:PPinVP
+r30hearsVBZfromINyouPRP
+
+# There is no substitute for honesty . . share the good news and the bad.
+#(S1 (S (NP (S (NP (EX There)) (VP (AUX is) (NP (NP (DT no) (NN substitute)) (PP (IN for) (NP (NN honesty))))) (. .)) (. .)) (VP (VBP share) (NP (NP (DT the) (JJ good) (NN news)) (CC and) (NP (DT the) (JJ bad)))) (. .)))
+#Rule:Nouns
+r1substituteNN
+r1honestyLocationAnnotation
+r1newsNN
+
+#Rule:Verbs
+r2shareVBP
+
+#Rule:Adjs
+r4goodJJ
+r4badJJ
+
+#Rule:Adj-Noun
+r5goodJJnewsNN
+
+#Rule:HeadNoun-V
+r11..shareVBP
+r11thereEXisAUX
+
+#Rule:V-HeadNoun
+r21isAUXsubstituteNN
+r21shareVBPnewsNN
+
+#Rule:PPinNP
+r26substituteNNforINhonestyLocationAnnotation
+
+# Your daughter will feel included and not left out.
+#(S1 (S (NP (PRP$ Your) (NN daughter)) (VP (MD will) (VP (VB feel) (VP (VP (VBN included)) (CC and) (RB not) (VP (VBN left) (PRT (RP out)))))) (. .)))
+#Rule:Nouns
+r1daughterNN
+
+#Rule:Verbs
+r2feelVB
+r2includedVBN
+
+#Rule:V-PRT
+r3leftVBNoutRP
+
+#Rule:PRP-Noun
+r6yourPRP$daughterNN
+
+#Rule:HeadNoun-V
+r11daughterNNfeelVB
+
+#Rule:V-HeadNoun(passive)
+r24includedVBNdaughterNN
+r24leftVBNdaughterNN
+
+# She will appreciate your honesty and learn about courage and strength from you..To 
+#(S1 (S (NP (PRP She)) (VP (MD will) (VP (VP (VB appreciate) (NP (PRP$ your) (NN honesty))) (CC and) (VP (VB learn) (PP (IN about) (NP (NN courage) (CC and) (NN strength))) (PP (IN from) (S (NP (PRP you)) (VP (VBG ..) (S (VP (TO To)))))))))))
+#Rule:Nouns
+r1honestyNN
+r1courageNN
+r1strengthNN
+
+#Rule:Verbs
+r2appreciateVB
+r2learnVB
+r2..VBG
+
+#Rule:PRP-Noun
+r6yourPRP$honestyNN
+
+#Rule:HeadNoun-V
+r11shePRPappreciateVB
+r11shePRPlearnVB
+r11youPRP..VBG
+
+#Rule:V-HeadNoun
+r21appreciateVBhonestyNN
+
+#Rule:PPinVP
+r30learnVBaboutINcourageNN
+
+#To help guide you through any of this, you can use the following online resources:Cancer Care - free online counseling for cancer patients and familieshttp://www.
+#(S1 (S (S (VP (TO To) (VP (VB help) (VP (VB guide) (NP (PRP you)) (PP (IN through) (NP (NP (DT any)) (PP (IN of) (NP (DT this))))))))) (, ,) (NP (PRP you)) (VP (MD can) (VP (VB use) (NP (NP (DT the) (VBG following) (JJ online) (NNS resources)) (: :) (NP (NNP Cancer) (NNP Care)) (: -) (NP (NP (JJ free) (JJ online) (NN counseling)) (PP (IN for) (NP (NP (NN cancer) (NNS patients)) (CC and) (NP (NNS familieshttp))))) (: :)) (ADVP (RB //www)))) (. .)))
+#Rule:Nouns
+r1resourcesNNS
+r1Cancer CareOrganizationAnnotation
+r1counselingNN
+r1cancerNN
+r1patientsNNS
+r1familieshttpNNS
+
+#Rule:Verbs
+r2helpVB
+r2guideVB
+r2useVB
+r2followingVBG
+
+#Rule:Adjs
+r4onlineJJ
+r4freeJJ
+r4onlineJJ
+
+#Rule:Adj-Noun
+r5followingVBGresourcesNNS
+r5onlineJJresourcesNNS
+r5freeJJcounselingNN
+r5onlineJJcounselingNN
+
+#Rule:N-HeadNoun
+r8cancerNNpatientsNNS
+
+#Rule:HeadNoun-V
+r11youPRPuseVB
+
+#Rule:V-HeadNoun
+r21guideVByouPRP
+r21useVBresourcesNNS
+
+#Rule:PPinNP
+r26anyDTofINthisDT
+r26counselingNNforINpatientsNNS
+r26counselingNNforINfamilieshttpNNS
+
+#Rule:PPinVP
+r30guideVBthroughINanyDT
+
+#Rule:V-ADV
+r46useVB//wwwRB
+
+#Rule:SubVerbClause
+r50youPRPguideVB
+
+#cancercare.
+#(S1 (NP (FW cancercare) (. .)))
+#org/Cancer Care - Talking to kids about cancerhttp://www.
+#(S1 (S (NP (NNP org/Cancer) (NNP Care)) (PRN (: -) (S (VP (VBG Talking) (PP (TO to) (NP (NNS kids))) (PP (IN about) (NP (NN cancerhttp))))) (: :)) (VP (VBD //www)) (. .)))
+#Rule:Nouns
+r1org/Cancer CareOrganizationAnnotation
+r1kidsNNS
+r1cancerhttp://wwwOrganizationAnnotation
+
+#Rule:Verbs
+r2talkingVBG
+
+#Rule:HeadNoun-V
+r11org/Cancer CareOrganizationAnnotationcancerhttp://wwwOrganizationAnnotation
+
+#Rule:PPinVP
+r30talkingVBGtoTOkidsNNS
+r30talkingVBGaboutINcancerhttp://wwwOrganizationAnnotation
+
+#cancercare.
+#(S1 (NP (FW cancercare) (. .)))
+#org/get_help/special_progs/cc_for_kids.
+#(S1 (INTJ (UH org/get_help/special_progs/cc_for_kids) (. .)))
+#phpACS: Be Honest with children about breast cancerhttp://www.
+#(S1 (FRAG (NP (NNS phpACS)) (: :) (VP (AUX Be) (ADJP (JJ Honest) (PP (IN with) (NP (NP (NNS children)) (PP (IN about) (NP (NN breast) (NNS cancerhttp))))))) (: :) (NP (CD //www)) (. .)))
+#Rule:Nouns
+r1phpACSNNS
+r1childrenNNS
+r1breastNN
+r1cancerhttpNNS
+
+#Rule:Adjs
+r4Be HonestOrganizationAnnotation
+
+#Rule:N-HeadNoun
+r8breastNNcancerhttpNNS
+
+#Rule:PPinNP
+r26childrenNNSaboutINcancerhttpNNS
+
+#Rule:PPinADJP
+r37Be HonestOrganizationAnnotationwithINchildrenNNS
+
+#cancer.
+#(S1 (FRAG (NP (NN cancer)) (. .)))
+#Rule:Nouns
+r1cancerNN
+
+#org/docroot/NWS/content/NWS_1_1x_Be_Honest_with_Children_About_Breast_Cancer.
+#(S1 (S (VP (VB org/docroot/NWS/content/NWS_1_1x_Be_Honest_with_Children_About_Breast_Cancer)) (. .)))
+#Rule:Verbs
+r2org/docroot/nws/content/nws_1_1x_be_honest_with_children_about_breast_cancerVB
+
+#aspKids Konnectedhttp://www.
+#(S1 (NP (NP (NNP aspKids) (NNP Konnectedhttp)) (: :) (NP (CD //www)) (. .)))
+#Rule:Nouns
+r1aspKids KonnectedhttpLocationAnnotation
+
+#kidskonnected.
+#(S1 (S (VP (VBN kidskonnected)) (. .)))
+#Rule:Verbs
+r2kidskonnectedLocationAnnotation
+
+#org/NCI: When your parent has cancer - a guide for teenshttp://www.
+#(S1 (S (NP (NP (NNP org/NCI)) (: :) (SBAR (WHADVP (WRB When)) (S (NP (PRP$ your) (NN parent)) (VP (AUX has) (NP (NN cancer))))) (: -) (NP (NP (DT a) (NN guide)) (PP (IN for) (NP (NN teenshttp)))) (: :)) (VP (VBD //www)) (. .)))
+#Rule:Nouns
+r1org/NCIOrganizationAnnotation
+r1parentNN
+r1cancerNN
+r1guideNN
+r1teenshttp://wwwLocationAnnotation
+
+#Rule:PRP-Noun
+r6yourPRP$parentNN
+
+#Rule:HeadNoun-V
+r11org/NCIOrganizationAnnotationteenshttp://wwwLocationAnnotation
+r11guideNNteenshttp://wwwLocationAnnotation
+r11parentNNhasAUX
+
+#Rule:V-HeadNoun
+r21hasAUXcancerNN
+
+#Rule:PPinNP
+r26guideNNforINteenshttp://wwwLocationAnnotation
+
+#Rule:(SBAR+WHADVP)inNP
+r41org/NCIOrganizationAnnotationwhenWRBhasAUX
+
+#cancer.
+#(S1 (FRAG (NP (NN cancer)) (. .)))
+#Rule:Nouns
+r1cancerNN
+
+#gov/cancertopics/When-Your-Parent-Has-Cancer-Guide-for-Teens/page2Cancer Connection - Teens with Mom who has cancerhttp://www.
+#(S1 (NP (NP (JJ gov/cancertopics/When-Your-Parent-Has-Cancer-Guide-for-Teens/page2Cancer) (NN Connection)) (: -) (NP (NP (NNS Teens)) (PP (IN with) (NP (NN Mom))) (SBAR (WHNP (WP who)) (S (VP (AUX has) (VP (VBN cancerhttp)))))) (: :) (NP (NN //www)) (. .)))
+#Rule:Nouns
+r1Teens/page2Cancer ConnectionOrganizationAnnotation
+r1TeensNNS
+r1MomOrganizationAnnotation
+r1//wwwNN
+
+#Rule:Verbs
+r2cancerhttpVBN
+
+#Rule:Adjs
+r4gov/cancertopics/When-Your-Parent-Has-Cancer-Guide-for-Teens/page2CancerJJ
+
+#Rule:Adj-Noun
+r5gov/cancertopics/When-Your-Parent-Has-Cancer-Guide-for-Teens/page2CancerJJTeens/page2Cancer ConnectionOrganizationAnnotation
+
+#Rule:HeadNoun-(who/that)-V
+r15TeensNNScancerhttpVBN
+
+#Rule:PPinNP
+r26TeensNNSwithINMomOrganizationAnnotation
+
+#gillettecancerconnect.
+#(S1 (S (VP (VB gillettecancerconnect)) (. .)))
+#Rule:Verbs
+r2gillettecancerconnectOrganizationAnnotation
+
+#org/women/family_friends/for_kids.
+#(S1 (INTJ (UH org/women/family_friends/for_kids) (. .)))
+#aspMy Parent s Cancerhttp://www.
+#(S1 (NP (NP (NNP aspMy) (NN Parent) (NNP s) (NNP Cancerhttp)) (: :) (NP (CD //www)) (. .)))
+#Rule:Nouns
+r1aspMyNNP
+r1ParentNN
+r1s Cancerhttp://wOrganizationAnnotation
+
+#Rule:N-HeadNoun
+r8ParentNNs Cancerhttp://wOrganizationAnnotation
+r8aspMyNNPs Cancerhttp://wOrganizationAnnotation
+
+#myparentscancer.
+#(S1 (S (VP (VB myparentscancer)) (. .)))
+#Rule:Verbs
+r2myparentscancerVB
+
+#com.au/home.
+#(S1 (S (VP (VB com.au/home)) (. .)))
+#Rule:Verbs
+r2com.au/homeLocationAnnotation
+
+#htmlStraight Talk: How to Talk to your Kids about Cancerhttp://www.
+#(S1 (NP (NNP htmlStraight) (NNP Talk) (: :) (SBAR (WHADVP (WRB How)) (S (VP (TO to) (VP (VB Talk) (PP (TO to) (NP (PRP$ your) (NNS Kids))) (PP (IN about) (NP (NNP Cancerhttp))))))) (: :) (NP (NNS //www)) (. .)))
+#Rule:Nouns
+r1htmlStraightNNP
+r1TalkNNP
+r1KidsNNS
+r1Cancerhttp://wwwOrganizationAnnotation
+
+#Rule:Verbs
+r2talkVB
+
+#Rule:PRP-Noun
+r6yourPRP$KidsNNS
+
+#Rule:N-HeadNoun
+r8htmlStraightNNPTalkNNP
+
+#Rule:HeadNoun-(who/that)-V
+r14Cancerhttp://wwwOrganizationAnnotationtalkVB
+
+#Rule:PPinVP
+r30talkVBtoTOKidsNNS
+r30talkVBaboutINCancerhttp://wwwOrganizationAnnotation
+
+#Rule:(SBAR+WHADVP)inNP
+r41TalkNNPhowWRBtalkVB
+
+#med.nyu.
+#(S1 (X (NNP med.nyu) (. .)))
+#Rule:Nouns
+r1med.nyu.LocationAnnotation
+
+#edu/nyuci/patientcare/support_services/straight_talk/Rip Rap - When a parent has cancerhttp://www.
+#(S1 (S (NP (NP (NN edu/nyuci/patientcare/support_services/straight_talk/Rip) (NN Rap)) (: -) (SBAR (WHADVP (WRB When)) (S (NP (DT a) (NN parent)) (VP (AUX has) (VP (VBN cancerhttp))))) (: :)) (VP (VBZ //www)) (. .)))
+#Rule:Nouns
+r1edu/nyuci/patientcare/support_services/straight_talk/RipNN
+r1Rip RapPersonAnnotation
+r1parentNN
+
+#Rule:Verbs
+r2cancerhttpVBN
+r2//wwwVBZ
+
+#Rule:N-HeadNoun
+r8edu/nyuci/patientcare/support_services/straight_talk/RipNNRip RapPersonAnnotation
+
+#Rule:HeadNoun-V
+r11Rip RapPersonAnnotation//wwwVBZ
+
+#Rule:HeadNoun-V
+r12parentNNcancerhttpVBN
+
+#Rule:(SBAR+WHADVP)inNP
+r41Rip RapPersonAnnotationwhenWRBcancerhttpVBN
+
+#riprap.
+#(S1 (S (VP (VB riprap)) (. .)))
+#Rule:Verbs
+r2riprapVB
+
+#org.uk/index.
+#(S1 (X (NNP org.uk/index) (. .)))
+#Rule:Nouns
+r1org.uk/indexNNP
+
+#htmlTeen Centralhttp://www.
+#(S1 (NP (NP (NNP htmlTeen) (NNP Centralhttp)) (: :) (NP (CD //www)) (. .)))
+#Rule:Nouns
+r1htmlTeenNNP
+r1Centralhttp://wwwLocationAnnotation
+
+#Rule:N-HeadNoun
+r8htmlTeenNNPCentralhttp://wwwLocationAnnotation
+
+#teencentral.
+#(S1 (FRAG (ADJP (JJ teencentral)) (. .)))
+#Rule:Adjs
+r4teencentralJJ
+
+#net/Hope that helps get you started.
+#(S1 (S (NP (NP (NN net/Hope)) (SBAR (WHNP (WDT that)) (S (VP (VBZ helps) (VP (VB get) (NP (PRP you))))))) (VP (VBD started)) (. .)))
+#Rule:Nouns
+r1net/HopeNN
+
+#Rule:Verbs
+r2helpsVBZ
+r2getVB
+r2startedVBD
+
+#Rule:HeadNoun-V
+r11net/HopeNNstartedVBD
+
+#Rule:HeadNoun-(who/that)-V
+r14net/HopeNNhelpsVBZ
+r14net/HopeNNgetVB
+
+#Rule:V-HeadNoun
+r21getVByouPRP
+
+# Best of luck.
+#(S1 (FRAG (ADVP (JJS Best) (PP (IN of) (NP (NN luck)))) (. .)))
+#Rule:Nouns
+r1luckNN
+
+#Rule:Adjs
+r4BestJJS
+
+@lemmas-left	guide	org/docroot/nws/content/nws_1_1x_be_honest_with_children_about_breast_cancer	treatment	involve	phpACS	kid	aspMy	free	help	are	social	she	her	Rip Rap	place	happen	groups	hears	Parent	htmlStraight	support	teenshttp://www	Be Honest	patients.	Kids	familieshttp	parent	org/Cancer Care	start.	bad	.	include	breast	bit	start	them	Centralhttp://www	them.	ask	explain	surprise	go	worker.	assistance	daughter	use	Talk	Mom	kidskonnected	imagination	htmlstraight	riprap	s Cancerhttp://w	honesty	patients	patient	leave	Best	truth	worker	best	tell	do	left	want	teencentral	news	htmlTeen	Teens/page2Cancer Connection	helps	teens	surprised	org/NCI	Cancer Care	gov/cancertopics/When-Your-Parent-Has-Cancer-Guide-for-Teens/page2Cancer	talking	having	cancer	fear	resources	courage	substitute	good	myparentscancer	workers	has	Teens	doctor	hear	medical	deal	family	any	..	Tell	follow	be	sure	index	imagine	get	luck	stronger	edu/nyuci/patientcare/support_services/straight_talk/Rip	learn	med.nyu.	.she	kids	wants	involved	org.uk/index	strong	htmlteen	known	included	make	hope	does	appreciate	net/Hope	have	aspKids Konnectedhttp	www	way	children	cancerhttp://www	gillettecancerconnect	aspmy	online	child	Cancerhttp://www	following	share	phpacs	counseling	talk	rip	feel	is	You	happening	strength	your	resource	oncologist	you	cancerhttp	families	com.au/home	know	begin	worse	there	started	local	//www	group	first	
+@lemmas-right	guide	resources	treatment	courage	substitute	workers	has	kid	doctor	help	hear	are	family	any	..	her	Rip Rap	place	groups	be	hears	imagine	get	teenshttp://www	patients.	Kids	stronger	familieshttp	parent	learn	kids	start.	.	wants	much	not	start	strong	them	Centralhttp://www	them.	even	ask	surprise	this	go	appreciate	worker.	have	assistance	www	daughter	children	use	way	Talk	Mom	cancerhttp://www	s Cancerhttp://w	child	honesty	Cancerhttp://www	share	patient	patients	truth	worker	counseling	want	talk	feel	is	news	Teens/page2Cancer Connection	resource	oncologist	as	you	helps	cancerhttp	families	surprised	worse	started	//www	group	also	cancer	out	fear	
+@lemmas-center	to	of	with	how	for	when	about	through	from	

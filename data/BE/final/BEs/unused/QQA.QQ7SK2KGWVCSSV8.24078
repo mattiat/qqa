@@ -1,0 +1,97 @@
+#By my count, 38Comedies (16)The TempestThe Two Gentlemen of VeronaThe Merry Wives of WindsorMeasure for MeasureThe Comedy of ErrorsMuch Ado About NothingLove s Labour s LostA Midsummer Night s DreamThe Merchant of VeniceAs You Like ItTaming of the ShrewAll s Well That Ends WellTwelfth Night or What You WillThe Winter s Tale Pericles, Prince
+#(S1 (S (PP (IN By) (NP (PRP$ my) (NN count))) (, ,) (VP (VBZ 38Comedies) (PRN (-LRB- -LRB-) (NP (CD 16)) (-RRB- -RRB-)) (NP (NP (DT The) (NNP TempestThe) (CD Two) (NNS Gentlemen)) (PP (IN of) (NP (NP (NNP VeronaThe) (NNP Merry) (NNS Wives)) (PP (IN of) (NP (NNP WindsorMeasure))))) (PP (IN for) (NP (NP (NNP MeasureThe) (NNP Comedy)) (PP (IN of) (NP (NNP ErrorsMuch) (NNP Ado))))) (PP (IN About) (NP (NP (NP (NNP NothingLove) (NNP s) (NNP Labour) (NNP s) (NNP LostA) (NN Midsummer) (NNP Night) (NNP s) (NNP DreamThe) (NN Merchant)) (PP (IN of) (NP (NNP VeniceAs))) (SBAR (SBAR (S (NP (PRP You)) (VP (VBP Like) (NP (NP (NNP ItTaming)) (PP (IN of) (NP (NP (DT the) (NNP ShrewAll) (NNP s) (NNP Well)) (NP (DT That) (NNPS Ends) (NNP WellTwelfth) (NNP Night)))))))) (CC or) (SBAR (WHNP (WP What)) (S (NP (PRP You)) (NP (NNP WillThe) (NNP Winter) (NNP s) (NNP Tale) (NNPS Pericles)))))) (, ,) (NP (NNP Prince))))))))
+#Rule:Nouns
+r1countNN
+r1TempestThe Two GentlemenOrganizationAnnotation
+r1VeronaThe Merry Wives of WindsorMeasure for MeasureThe Comedy of ErrorsMuch AdoOrganizationAnnotation
+r1NothingLove s Labour s LostAOrganizationAnnotation
+r1MidsummerNN
+r1NightNNP
+r1sNNP
+r1DreamThe Merchant of VeniceAs YouOrganizationAnnotation
+r1ItTamingOrganizationAnnotation
+r1ShrewAll s WellPersonAnnotation
+r1Ends WellTwelfthPersonAnnotation
+r1NightNNP
+r1WillTheNNP
+r1Winter s Tale PericlesOrganizationAnnotation
+r1PrinceLocationAnnotation
+
+#Rule:Verbs
+r238comediesVBZ
+r2likeVBP
+
+#Rule:PRP-Noun
+r6myPRP$countNN
+
+#Rule:N-HeadNoun
+r8sNNPDreamThe Merchant of VeniceAs YouOrganizationAnnotation
+r8NightNNPDreamThe Merchant of VeniceAs YouOrganizationAnnotation
+r8MidsummerNNDreamThe Merchant of VeniceAs YouOrganizationAnnotation
+r8Ends WellTwelfthPersonAnnotationNightNNP
+r8WillTheNNPWinter s Tale PericlesOrganizationAnnotation
+
+#Rule:N-ApposN
+r10DreamThe Merchant of VeniceAs YouOrganizationAnnotationPrinceLocationAnnotation
+
+#Rule:HeadNoun-V
+r11DreamThe Merchant of VeniceAs YouOrganizationAnnotationlikeVBP
+
+#Rule:V-HeadNoun
+r2138comediesVBZTempestThe Two GentlemenOrganizationAnnotation
+r21likeVBPItTamingOrganizationAnnotation
+
+#Rule:PPinNP
+r26TempestThe Two GentlemenOrganizationAnnotationofINVeronaThe Merry Wives of WindsorMeasure for MeasureThe Comedy of ErrorsMuch AdoOrganizationAnnotation
+r26TempestThe Two GentlemenOrganizationAnnotationaboutINDreamThe Merchant of VeniceAs YouOrganizationAnnotation
+r26TempestThe Two GentlemenOrganizationAnnotationaboutINPrinceLocationAnnotation
+r26ItTamingOrganizationAnnotationofINShrewAll s WellPersonAnnotation
+r26ItTamingOrganizationAnnotationofINNightNNP
+
+#Rule:PPinS
+r3638comediesVBZbyINcountNN
+
+#of TyreThe Two Noble Kinsmen Histories (10)King JohnRichard IIHenry IV, part 1HenryIV, part 2Henry VHenry VI, part 1Henry VI, part 2Henry VI, part 3Richard IIIHenry VIIITragedies (12)Troilus and CressidaCoriolanusTitus AndronicusRomeo and JulietTimon of AthensJulius CaesarMacbethHamletKing LearOthelloAntony and CleopatraCymbeline
+#(S1 (FRAG (PP (IN of) (NP (NNP TyreThe) (CD Two))) (NP (NP (NNP Noble) (NNP Kinsmen) (NNP Histories) (PRN (-LRB- -LRB-) (NP (CD 10)) (-RRB- -RRB-)) (NNP King) (NNP JohnRichard) (NNP IIHenry) (NNP IV)) (, ,) (NP (NN part) (NN 1HenryIV)) (, ,) (NP (NN part) (NN 2Henry) (NNP VHenry) (NNP VI)) (, ,) (NP (NN part) (NN 1Henry) (NNP VI)) (, ,) (NP (NN part) (NN 2Henry) (NNP VI)) (, ,) (NP (NN part) (NN 3Richard) (NNP IIIHenry) (NNP VIIITragedies) (PRN (-LRB- -LRB-) (NP (CD 12)) (-RRB- -RRB-)) (NNP Troilus)) (CC and) (NP (NP (NNP CressidaCoriolanusTitus) (NNP AndronicusRomeo) (CC and) (NNP JulietTimon)) (PP (IN of) (NP (NP (NNP AthensJulius) (NNP CaesarMacbethHamletKing) (NNP LearOthelloAntony)) (CC and) (NP (NNP CleopatraCymbeline))))))))
+#Rule:Nouns
+r1TyreThe Two Noble Kinsmen HistoriesOrganizationAnnotation
+r1KingNNP
+r1JohnRichard IIHenry IVPersonAnnotation
+r1partNN
+r11HenryIVOrganizationAnnotation
+r1partNN
+r12HenryNN
+r1VHenryNNP
+r1VINNP
+r1partNN
+r11HenryNN
+r1VINNP
+r1partNN
+r12HenryNN
+r1VINNP
+r1partNN
+r13Richard IIIHenry VIIITragediesPersonAnnotation
+r1TroilusOrganizationAnnotation
+r1CressidaCoriolanusTitus AndronicusRomeo and JulietTimonOrganizationAnnotation
+r1AthensJulius CaesarMacbethHamletKing LearOthelloAntony and CleopatraCymbelineOrganizationAnnotation
+
+#Rule:N-HeadNoun
+r8KingNNPJohnRichard IIHenry IVPersonAnnotation
+r8partNN1HenryIVOrganizationAnnotation
+r8VHenryNNPVINNP
+r82HenryNNVINNP
+r8partNNVINNP
+r81HenryNNVINNP
+r8partNNVINNP
+r82HenryNNVINNP
+r8partNNVINNP
+
+#Rule:N-ApposN
+r10JohnRichard IIHenry IVPersonAnnotation1HenryIVOrganizationAnnotation
+
+#Rule:PPinNP
+r26CressidaCoriolanusTitus AndronicusRomeo and JulietTimonOrganizationAnnotationofINAthensJulius CaesarMacbethHamletKing LearOthelloAntony and CleopatraCymbelineOrganizationAnnotation
+
+@lemmas-left	count	comedy	JohnRichard IIHenry IV	vi	Prince	3Richard IIIHenry VIIITragedies	ShrewAll s Well	King	VI	VeronaThe Merry Wives of WindsorMeasure for MeasureThe Comedy of ErrorsMuch Ado	king	CressidaCoriolanusTitus AndronicusRomeo and JulietTimon	Midsummer	TempestThe Two Gentlemen	willthe	henry	VHenry	Night	2Henry	1HenryIV	TyreThe Two Noble Kinsmen Histories	midsummer	ItTaming	AthensJulius CaesarMacbethHamletKing LearOthelloAntony and CleopatraCymbeline	Winter s Tale Pericles	like	NothingLove s Labour s LostA	my	vhenry	s	Ends WellTwelfth	WillThe	night	DreamThe Merchant of VeniceAs You	part	38comedies	Troilus	1Henry	
+@lemmas-right	count	JohnRichard IIHenry IV	vi	ItTaming	AthensJulius CaesarMacbethHamletKing LearOthelloAntony and CleopatraCymbeline	Prince	Winter s Tale Pericles	like	ShrewAll s Well	VI	VeronaThe Merry Wives of WindsorMeasure for MeasureThe Comedy of ErrorsMuch Ado	TempestThe Two Gentlemen	Night	night	DreamThe Merchant of VeniceAs You	1HenryIV	
+@lemmas-center	of	about	by	

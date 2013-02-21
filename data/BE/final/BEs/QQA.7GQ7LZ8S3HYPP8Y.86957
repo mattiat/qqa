@@ -1,0 +1,71 @@
+#just quit and forget about it. there s nothing special about quitting, its when you put some importance that it worsens, like when in stressed situations.  
+#(S1 (S (S (ADVP (RB just)) (VP (VP (VB quit)) (CC and) (VP (VB forget) (PP (IN about) (NP (NN it.)))))) (NP (EX there)) (VP (VBZ s) (NP (NN nothing) (JJ special)) (PP (IN about) (S (VP (VBG quitting) (S (INTJ (, ,) (PRP$ its) (WRB when)) (NP (PRP you)) (VP (VB put) (NP (DT some) (NN importance) (SBAR (IN that) (S (NP (PRP it)) (VP (VBZ worsens) (, ,) (PP (IN like) (FRAG (WHADVP (WRB when)))))))) (PP (IN in) (NP (VBN stressed) (NNS situations))))))))) (. .)))
+#Rule:Nouns
+r1itNN
+r1nothingNN
+r1importanceNN
+r1situationsNNS
+
+#Rule:Verbs
+r2quitVB
+r2forgetVB
+r2sVBZ
+r2quittingVBG
+r2putVB
+r2worsensVBZ
+r2stressedVBN
+
+#Rule:Adjs
+r4specialJJ
+
+#Rule:Adj-Noun
+r5specialJJnothingNN
+r5stressedVBNsituationsNNS
+
+#Rule:HeadNoun-V
+r11thereEXsVBZ
+r11youPRPputVB
+r11itPRPworsensVBZ
+
+#Rule:V-HeadNoun
+r21sVBZnothingNN
+r21putVBimportanceNN
+
+#Rule:V-HeadNoun
+r22quittingVBGyouPRP
+
+#Rule:PPinVP
+r30forgetVBaboutINitNN
+r30putVBinINsituationsNNS
+
+#Rule:SubVerbClause
+r50thereEXquitVB
+r50thereEXforgetVB
+
+#Its only a cigarette.   
+#(S1 (NP (PRP$ Its) (RB only) (DT a) (NN cigarette) (. .)))
+#Rule:Nouns
+r1cigaretteNN
+
+#Rule:PRP-Noun
+r6itsPRP$cigaretteNN
+
+#quit. 
+#(S1 (S (VP (VB quit)) (. .)))
+#Rule:Verbs
+r2quitVB
+
+#No big deal.
+#(S1 (NP (DT No) (JJ big) (NN deal) (. .)))
+#Rule:Nouns
+r1dealNN
+
+#Rule:Adjs
+r4bigJJ
+
+#Rule:Adj-Noun
+r5bigJJdealNN
+
+@lemmas-left	cigarette	situations	it	put	stress	you	its	stressed	it.	quit	worsen	worsens	deal	importance	s	quitting	there	nothing	special	big	situation	forget	
+@lemmas-right	cigarette	situations	put	it	you	worsen	it.	quit	worsens	deal	s	importance	nothing	situation	forget	
+@lemmas-center	about	in	

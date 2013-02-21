@@ -1,0 +1,76 @@
+#I say get rid of the seazinessDon King etc...peole like that have no business in Pro SportsI am a huge fan of the sport and am tired of it being maligned by questionable descisions(de La Hoya and trinidad) etcClean it up and people will come to watch it
+#(S1 (S (S (NP (PRP I)) (VP (VBP say) (S (VP (VB get) (ADJP (JJ rid) (PP (IN of) (NP (DT the) (JJ seazinessDon) (NNP King) (NN etc)))))))) (: ...) (S (NP (NP (JJ peole)) (PP (IN like) (SBAR (WHNP (WDT that)) (S (VP (AUX have) (NP (DT no) (NN business)) (PP (IN in) (NP (JJ Pro) (NNP SportsI)))))))) (VP (VP (AUX am) (NP (NP (DT a) (JJ huge) (NN fan)) (PP (IN of) (NP (DT the) (NN sport))))) (CC and) (VP (AUX am) (ADJP (VBN tired) (PP (IN of) (S (NP (PRP it)) (VP (AUXG being) (VP (VBN maligned) (PP (IN by) (NP (JJ questionable) (NNS descisions))) (PRN (-LRB- -LRB-) (PP (FW de) (FW La) (NP (NNP Hoya) (CC and) (NNP trinidad))) (-RRB- -RRB-)))))))) (VP (VB etcClean) (NP (PRP it)) (PRT (RP up))))) (CC and) (S (NP (NNS people)) (VP (MD will) (VP (VB come) (S (VP (TO to) (VP (VB watch) (NP (PRP it))))))))))
+#Rule:Nouns
+r1seazinessDon KingPersonAnnotation
+r1etcNN
+r1businessNN
+r1SportsINNP
+r1fanNN
+r1sportNN
+r1descisionsNNS
+r1La HoyaOrganizationAnnotation
+r1trinidadLocationAnnotation
+r1peopleNNS
+
+#Rule:Verbs
+r2sayVBP
+r2getVB
+r2tiredVBN
+r2malignedVBN
+r2etccleanVB
+r2comeVB
+r2watchVB
+
+#Rule:V-PRT
+r3etccleanVBupRP
+
+#Rule:Adjs
+r4ridJJ
+r4peoleJJ
+r4ProLocationAnnotation
+r4hugeJJ
+r4questionableJJ
+
+#Rule:Adj-Noun
+r5seazinessDon KingPersonAnnotationetcNN
+r5ProLocationAnnotationSportsINNP
+r5hugeJJfanNN
+r5questionableJJdescisionsNNS
+
+#Rule:HeadNoun-V
+r11iPRPsayVBP
+r11peoleJJetccleanVB
+r11peoleJJamAUX
+r11peoleJJamAUX
+r11peopleNNScomeVB
+
+#Rule:V-By-Agent
+r13descisionsNNSmalignedVBN
+
+#Rule:V-HeadNoun
+r21haveAUXbusinessNN
+r21amAUXfanNN
+r21etccleanVBitPRP
+r21watchVBitPRP
+
+#Rule:V-HeadNoun(passive)
+r24malignedVBNitPRP
+
+#Rule:PPinNP
+r26fanNNofINsportNN
+
+#Rule:PPinVP
+r30haveAUXinINSportsINNP
+
+#Rule:PPinADJP
+r37ridJJofINetcNN
+
+#Rule:PPinADJP
+r38tiredVBNofINmalignedVBN
+
+#Rule:V-V
+r44comeVBwatchVB
+
+@lemmas-left	Pro	questionable	malign	have	trinidad	etc	people	business	maligned	descisions	sportsi	be	get	watch	seazinessDon King	sport	come	fan	tire	i	huge	etcclean	rid	am	La Hoya	say	SportsI	tired	peole	
+@lemmas-right	it	malign	watch	etc	sport	come	fan	business	up	maligned	etcclean	descisions	am	sportsi	SportsI	say	be	
+@lemmas-center	of	in	

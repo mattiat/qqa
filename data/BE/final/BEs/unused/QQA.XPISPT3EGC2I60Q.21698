@@ -1,0 +1,28 @@
+#Excess Burden = Amount of work to be accomplished - Total Capacity
+#(S1 (S (S (NP (JJ Excess) (NN Burden)) (VP (SYM =) (NP (NP (NN Amount)) (PP (IN of) (NP (NN work))) (SBAR (S (VP (TO to) (VP (AUX be) (VP (VBN accomplished))))))))) (: -) (NP (JJ Total) (NN Capacity))))
+#Rule:Nouns
+r1BurdenPersonAnnotation
+r1AmountNN
+r1workNN
+r1CapacityNN
+
+#Rule:Verbs
+r2accomplishedVBN
+
+#Rule:Adjs
+r4ExcessJJ
+r4TotalJJ
+
+#Rule:Adj-Noun
+r5ExcessJJBurdenPersonAnnotation
+r5TotalJJCapacityNN
+
+#Rule:V-(who/that)-HeadNoun
+r18accomplishedVBNAmountNN
+
+#Rule:PPinNP
+r26AmountNNofINworkNN
+
+@lemmas-left	total	work	amount	accomplish	Amount	accomplished	excess	capacity	Capacity	Excess	Total	Burden	
+@lemmas-right	work	amount	Amount	capacity	Capacity	Burden	
+@lemmas-center	of	

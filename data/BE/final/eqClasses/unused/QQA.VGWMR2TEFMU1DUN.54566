@@ -1,0 +1,180 @@
+BE: tOrganizationAnnotation
+EQ class: 
+
+BE: donVB
+EQ class: assumevb	put_onvb	wearvb	get_intovb	
+
+BE: hateVB
+EQ class: detestvb	
+
+BE: iPRPdonVB
+EQ class: iprpget_intovb	iprpassumevb	iprpwearvb	iprpput_onvb	
+
+BE: tOrganizationAnnotationhateVB
+EQ class: hatrednnofintorganizationannotation	haternnofintorganizationannotation	haternntorganizationannotation	torganizationannotationdetestvb	hatennofintorganizationannotation	
+
+BE: hateVBthemPRP
+EQ class: haternnofinsharksprp	detestvbwingsprp	haternnofinwingsprp	haternnofinthemprp	hatevbsharksprp	hatrednnofinteamsprp	hatennofingodsprp	hatrednnofinsharksprp	hatrednnofinthemprp	hatrednnofingodsprp	haternnofingodsprp	detestvbteamsprp	hatrednnofinwingsprp	haternnofintprp	detestvbtprp	hatennofinwingsprp	detestvbgodsprp	hatevbtprp	detestvbsharksprp	hatevbteamsprp	hatevbgodsprp	hatrednnofintprp	haternnofinteamsprp	detestvbthemprp	hatennofintprp	hatevbwingsprp	hatennofinsharksprp	hatennofinteamsprp	hatennofinthemprp	
+
+BE: donVBtOrganizationAnnotation
+EQ class: wearvbtorganizationannotation	put_onvbtorganizationannotation	get_intovbtorganizationannotation	assumevbtorganizationannotation	
+
+BE: ..NNP
+EQ class: nnp	
+
+BE: ButNNP
+EQ class: 
+
+BE: kindNN
+EQ class: varietynn	sortnn	formnn	
+
+BE: crewNN
+EQ class: 
+
+BE: godsNNS
+EQ class: supreme_beingnns	godnns	godlyjj	theynns	themnns	
+
+BE: gameNN
+EQ class: 
+
+BE: teamsNNS
+EQ class: teamnns	theynns	squadnns	themnns	
+
+BE: wingsNNS
+EQ class: theynns	themnns	
+
+BE: loveNN
+EQ class: 
+
+BE: .....NN
+EQ class: nn	
+
+BE: sharksNNS
+EQ class: sharknns	theynns	themnns	
+
+BE: ..NN
+EQ class: nn	
+
+BE: actsVBZ
+EQ class: actvbz	movevbz	
+
+BE: ..VBG
+EQ class: vbg	
+
+BE: watchVBP
+EQ class: 
+
+BE: wantVBP
+EQ class: desirevbp	
+
+BE: coveredVBN
+EQ class: covervbn	
+
+BE: wantVBP
+EQ class: desirevbp	
+
+BE: beatVB
+EQ class: shellvb	crushvb	vanquishvb	trouncevb	beat_outvb	
+
+BE: annoyedJJ
+EQ class: roiledjj	steamedjj	peevedjj	pissedjj	irritatedjj	nettledjj	pissed_offjj	miffedjj	stungjj	riledjj	
+
+BE: redJJ
+EQ class: cherryjj	rednn	ruddyjj	reddishjj	ruby-redjj	rednessnn	crimsonjj	blood-redjj	rubyjj	cerisejj	scarletjj	cherry-redjj	carminejj	
+
+BE: festJJS
+EQ class: 
+
+BE: dontJJ
+EQ class: 
+
+BE: festJJS.....NN
+EQ class: festjjsnn	
+
+BE: redJJloveNN
+EQ class: blood-redjjlovenn	cerisejjlovenn	lovevbredlyrb	rednessnnlovenn	crimsonjjlovenn	rednnlovenn	rubyjjlovenn	carminejjlovenn	reddishjjlovenn	cherry-redjjlovenn	ruddyjjlovenn	cherryjjlovenn	scarletjjlovenn	ruby-redjjlovenn	
+
+BE: myPRP$..NN
+EQ class: myprp$nn	
+
+BE: ..NNPButNNP
+EQ class: nnpbutnnp	
+
+BE: wingsNNSloveNN
+EQ class: lovevbthemnns	lovevbwingsnns	theynnslovenn	theynnslovevb	lovennofinwingsnns	lovevbtheynns	wingsnnslovevb	themnnslovevb	themnnslovenn	lovennofinthemnns	lovennofintheynns	
+
+BE: sharksNNS..NN
+EQ class: ..nnsharkvb	sharknnsnn	sharknns..nn	theynnsnn	sharksnnsnn	nnsharkvb	theynns..nn	themnns..nn	themnnsnn	
+
+BE: ButNNPwasAUX
+EQ class: butnnpbeaux	
+
+BE: iPRPwasAUX
+EQ class: iprpbeaux	
+
+BE: crewNNactsVBZ
+EQ class: actionnnofincrewnn	actnnofincrewnn	actionnncrewnn	enactmentnnofincrewnn	crewnnmovevbz	crewnnactvbz	
+
+BE: VersusFWactsVBZ
+EQ class: actnnofinversusfw	actionnnversusfw	versusfwmovevbz	enactmentnnofinversusfw	actionnnofinversusfw	versusfwactvbz	
+
+BE: theyPRPareAUX
+EQ class: sharksprpareaux	godsprpbeaux	wingsprpareaux	theyprpbeaux	godsprpareaux	tprpareaux	tprpbeaux	teamsprpbeaux	sharksprpbeaux	teamsprpareaux	wingsprpbeaux	
+
+BE: godsNNS..VBG
+EQ class: theynnsvbg	godnns..vbg	themnns..vbg	theynns..vbg	godsnnsvbg	godlyjj..vbg	supreme_beingnnsvbg	godnnsvbg	themnnsvbg	supreme_beingnns..vbg	godlyjjvbg	
+
+BE: WHen iLocationAnnotationwatchVBP
+EQ class: spectatornnwhen ilocationannotation	tickernnofinwhen ilocationannotation	lookernnwhen ilocationannotation	witnessnnofinwhen ilocationannotation	spectatornnofinwhen ilocationannotation	watchernnofinwhen ilocationannotation	watchnnofinwhen ilocationannotation	watchernnwhen ilocationannotation	viewernnofinwhen ilocationannotation	witnessnnwhen ilocationannotation	viewernnwhen ilocationannotation	lookernnofinwhen ilocationannotation	
+
+BE: iPRPwantVBP
+EQ class: needernniprp	deprivationnnofiniprp	wantnnofiniprp	needernnofiniprp	wanternniprp	needinessnnofiniprp	iprpdesirevbp	privationnnofiniprp	wanternnofiniprp	
+
+BE: iPRPwantVBP
+EQ class: needernniprp	deprivationnnofiniprp	wantnnofiniprp	needernnofiniprp	wanternniprp	needinessnnofiniprp	iprpdesirevbp	privationnnofiniprp	wanternnofiniprp	
+
+BE: themPRPbeatVB
+EQ class: teamsprpshellvb	wingsprpshellvb	beatingnnwingsprp	tprpshellvb	beatingnnsharksprp	beatablennofinwingsprp	themprpshellvb	beatingnnofingodsprp	tprpcrushvb	teamsprpcrushvb	themprptrouncevb	themprpvanquishvb	sharksprpbeat_outvb	whippingnntprp	beatingnnthemprp	sharksprptrouncevb	tprptrouncevb	whippingnnofinthemprp	godsprpcrushvb	whippingnnofingodsprp	sharksprpbeatvb	wingsprpbeat_outvb	godsprpvanquishvb	whippingnnwingsprp	beatablennofinteamsprp	tprpbeatvb	beatingnntprp	wingsprpvanquishvb	themprpbeat_outvb	whippingnnofinsharksprp	teamsprptrouncevb	beatingnnofinwingsprp	tprpvanquishvb	godsprptrouncevb	beatingnnteamsprp	whippingnnsharksprp	beatablennofinthemprp	teamsprpbeatvb	godsprpshellvb	beatablennofingodsprp	whippingnngodsprp	whippingnnofintprp	sharksprpcrushvb	beatingnnofintprp	whippingnnofinteamsprp	wingsprptrouncevb	wingsprpbeatvb	beatablennofinsharksprp	themprpcrushvb	beatingnnofinteamsprp	whippingnnthemprp	sharksprpshellvb	wingsprpcrushvb	godsprpbeatvb	beatingnnofinsharksprp	beatingnngodsprp	teamsprpbeat_outvb	godsprpbeat_outvb	beatingnnofinthemprp	whippingnnofinwingsprp	sharksprpvanquishvb	teamsprpvanquishvb	whippingnnteamsprp	tprpbeat_outvb	beatablennofintprp	
+
+BE: wantVBPgameNN
+EQ class: needernnofingamenn	wantnnofingamenn	wanternnofingamenn	desirevbpgamenn	privationnnofingamenn	deprivationnnofingamenn	needinessnnofingamenn	
+
+BE: wantVBP.....NN
+EQ class: wantnnofinnn	desirevbpnn	wantvbpnn	deprivationnnofin.....nn	wanternnofin.....nn	needernnofinnn	desirevbp.....nn	needinessnnofin.....nn	needernnofin.....nn	privationnnofinnn	wantnnofin.....nn	privationnnofin.....nn	needinessnnofinnn	deprivationnnofinnn	wanternnofinnn	
+
+BE: areAUXgodsNNS
+EQ class: areauxgodnns	beauxgodsnns	beauxthemnns	areauxthemnns	beauxgodlyjj	areauxgodlyjj	beauxsupreme_beingnns	beauxtheynns	areauxsupreme_beingnns	areauxtheynns	beauxgodnns	
+
+BE: watchVBPgameNN
+EQ class: spectatornnofingamenn	watchnnofingamenn	watchernnofingamenn	lookernnofingamenn	witnessnnofingamenn	tickernnofingamenn	viewernnofingamenn	
+
+BE: beatVB..NN
+EQ class: beatablennofin..nn	shellvbnn	whippingnnofin..nn	vanquishvb..nn	beatingnnofin..nn	whippingnnofinnn	beat_outvb..nn	crushvb..nn	beat_outvbnn	beatablennofinnn	vanquishvbnn	crushvbnn	shellvb..nn	trouncevbnn	beatingnnofinnn	beatvbnn	trouncevb..nn	
+
+BE: wantVBPteamsNNS
+EQ class: needernnofintheynns	needernnofinteamnns	desirevbpteamnns	wantnnofinteamsnns	deprivationnnofinteamsnns	wantvbpsquadnns	privationnnofinteamsnns	needernnofinsquadnns	needernnofinthemnns	privationnnofintheynns	wantnnofinsquadnns	desirevbpsquadnns	needinessnnofinteamnns	desirevbptheynns	desirevbpthemnns	needinessnnofintheynns	privationnnofinsquadnns	wanternnofinteamnns	wanternnofintheynns	wantnnofinthemnns	wantvbpthemnns	needernnofinteamsnns	needinessnnofinsquadnns	deprivationnnofinteamnns	needinessnnofinthemnns	privationnnofinteamnns	deprivationnnofintheynns	deprivationnnofinsquadnns	wantnnofinteamnns	wantvbptheynns	deprivationnnofinthemnns	privationnnofinthemnns	wanternnofinsquadnns	wantnnofintheynns	needinessnnofinteamsnns	wanternnofinteamsnns	desirevbpteamsnns	wanternnofinthemnns	wantvbpteamnns	
+
+BE: wantVBPthemPRP
+EQ class: deprivationnnofinwingsprp	wanternnofingodsprp	wantnnofintprp	needernnofinthemprp	wantvbpteamsprp	deprivationnnofingodsprp	wantnnofinsharksprp	privationnnofinteamsprp	needinessnnofinsharksprp	desirevbpgodsprp	needernnofingodsprp	needinessnnofingodsprp	wanternnofinteamsprp	needinessnnofinteamsprp	needinessnnofinwingsprp	privationnnofinwingsprp	privationnnofinsharksprp	wantnnofingodsprp	deprivationnnofinthemprp	wanternnofinsharksprp	desirevbpsharksprp	desirevbpwingsprp	needinessnnofinthemprp	wantvbptprp	desirevbpthemprp	desirevbptprp	wantvbpwingsprp	wanternnofinthemprp	desirevbpteamsprp	wantnnofinwingsprp	wantvbpgodsprp	deprivationnnofinsharksprp	wanternnofintprp	needernnofinteamsprp	wantnnofinteamsprp	needernnofinsharksprp	privationnnofintprp	wanternnofinwingsprp	needernnofintprp	privationnnofinthemprp	needinessnnofintprp	wantnnofinthemprp	needernnofinwingsprp	deprivationnnofinteamsprp	wantvbpsharksprp	privationnnofingodsprp	deprivationnnofintprp	
+
+BE: coveredVBNteamsNNS
+EQ class: screennnofintheynns	concealmentnnofinteamnns	covervbnthemnns	natural_coveringnnofinteamsnns	screennnofinteamsnns	covernnofinthemnns	covervbnsquadnns	coveringnnofinthemnns	covervbntheynns	concealmentnnofinthemnns	covertnnofinteamnns	natural_coveringnnofintheynns	coveredvbnsquadnns	coveringnnofinteamnns	natural_coveringnnofinsquadnns	covernnofinteamsnns	natural_coveringnnofinteamnns	natural_coveringnnofinthemnns	coveringnnofintheynns	screennnofinsquadnns	covernnofintheynns	covervbnteamsnns	covertnnofintheynns	coveredvbntheynns	screennnofinteamnns	covernnofinteamnns	covertnnofinthemnns	concealmentnnofinteamsnns	covernnofinsquadnns	coveredvbnthemnns	covertnnofinteamsnns	screennnofinthemnns	coveredvbnteamnns	concealmentnnofintheynns	covertnnofinsquadnns	coveringnnofinsquadnns	coveringnnofinteamsnns	concealmentnnofinsquadnns	covervbnteamnns	
+
+BE: wasAUXofIN
+EQ class: beauxofin	
+
+BE: coveredVBN....IN.....NN
+EQ class: covervbn....in.....nn	covervbn....innn	coveredvbn....innn	
+
+BE: coveredVBN....INloveNN
+EQ class: covervbn....inlovenn	
+
+BE: actsVBZlikeINareAUX
+EQ class: actsvbzlikeinbeaux	movevbzlikeinbeaux	actvbzlikeinareaux	actvbzlikeinbeaux	movevbzlikeinareaux	
+
+BE: coveredVBNevenlyRB
+EQ class: evenjjininscreennn	evenjjconcealmentnn	evenjjininnatural_coveringnn	covernnofinevenlyrb	covertnnofinevenlyrb	evenjjcovernn	concealmentnnofinevenlyrb	evenjjinincovervbn	covervbnevenlyrb	evenjjinincoveringnn	evenjjcoveringnn	evenjjinincovertnn	screennnofinevenlyrb	evenjjinincoveredvbn	evenjjinincovernn	evenjjnatural_coveringnn	evenjjininconcealmentnn	evenjjscreennn	coveringnnofinevenlyrb	natural_coveringnnofinevenlyrb	evenjjcovertnn	
+
+BE: wantVBPjustRB
+EQ class: needinessnnofinjustrb	needernnofinjustrb	wanternnofinjustrb	deprivationnnofinjustrb	wantnnofinjustrb	privationnnofinjustrb	desirevbpjustrb	
+

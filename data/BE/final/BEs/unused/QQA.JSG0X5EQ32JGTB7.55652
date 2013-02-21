@@ -1,0 +1,185 @@
+#Really important. 
+#(S1 (FRAG (RB Really) (ADJP (JJ important)) (. .)))
+#Rule:Adjs
+r4importantJJ
+
+#If there were no complication as marriage, people wouldn t even bother resolving the conflicts. 
+#(S1 (S (SBAR (IN If) (S (NP (EX there)) (VP (AUX were) (NP (NP (DT no) (NN complication)) (PP (IN as) (NP (NN marriage))))))) (, ,) (NP (NNS people)) (VP (MD wouldn) (RB t) (ADVP (RB even)) (VP (VB bother) (S (VP (VBG resolving) (NP (DT the) (NNS conflicts)))))) (. .)))
+#Rule:Nouns
+r1complicationNN
+r1marriageNN
+r1peopleNNS
+r1conflictsNNS
+
+#Rule:Verbs
+r2botherVB
+r2resolvingVBG
+
+#Rule:HeadNoun-V
+r11peopleNNSbotherVB
+r11thereEXwereAUX
+
+#Rule:V-HeadNoun
+r21wereAUXcomplicationNN
+r21resolvingVBGconflictsNNS
+
+#Rule:PPinNP
+r26complicationNNasINmarriageNN
+
+#Rule:V-ADV
+r46botherVBevenRB
+
+#They just simply separate. 
+#(S1 (S (NP (PRP They)) (ADVP (RB just)) (ADVP (RB simply)) (VP (VB separate)) (. .)))
+#Rule:Verbs
+r2separateVB
+
+#Rule:HeadNoun-V
+r11theyPRPseparateVB
+
+#Rule:V-ADV
+r46separateVBjustRB
+r46separateVBsimplyRB
+
+#You should learn conflict resolution and be able to handle difficulty. 
+#(S1 (S (NP (PRP You)) (VP (MD should) (VP (VP (VB learn) (NP (NN conflict) (NN resolution))) (CC and) (VP (AUX be) (ADJP (JJ able) (S (VP (TO to) (VP (VB handle) (NP (NN difficulty))))))))) (. .)))
+#Rule:Nouns
+r1conflictNN
+r1resolutionNN
+r1difficultyNN
+
+#Rule:Verbs
+r2learnVB
+r2handleVB
+
+#Rule:Adjs
+r4ableJJ
+
+#Rule:N-HeadNoun
+r8conflictNNresolutionNN
+
+#Rule:HeadNoun-V
+r11youPRPlearnVB
+r11youPRPbeAUX
+
+#Rule:V-HeadNoun
+r21learnVBresolutionNN
+r21handleVBdifficultyNN
+
+#Rule:V-ADJ
+r25beAUXableJJ
+
+#There is no legal bond when you are having a long lasting affair. 
+#(S1 (S (NP (EX There)) (VP (AUX is) (NP (NP (DT no) (JJ legal) (NN bond)) (SBAR (WHADVP (WRB when)) (S (NP (PRP you)) (VP (AUX are) (VP (AUXG having) (NP (DT a) (JJ long) (JJ lasting) (NN affair)))))))) (. .)))
+#Rule:Nouns
+r1bondNN
+r1affairNN
+
+#Rule:Adjs
+r4legalJJ
+r4longJJ
+r4lastingJJ
+
+#Rule:Adj-Noun
+r5legalJJbondNN
+r5longJJaffairNN
+r5lastingJJaffairNN
+
+#Rule:HeadNoun-V
+r11thereEXisAUX
+
+#Rule:V-HeadNoun
+r21isAUXbondNN
+r21havingAUXGaffairNN
+
+#Rule:(SBAR+WHADVP)inNP
+r41bondNNwhenWRBhavingAUXG
+
+#That makes people have no commitment. 
+#(S1 (S (NP (DT That)) (VP (VBZ makes) (SBAR (S (NP (NNS people)) (VP (AUX have) (NP (DT no) (NN commitment)))))) (. .)))
+#Rule:Nouns
+r1peopleNNS
+r1commitmentNN
+
+#Rule:Verbs
+r2makesVBZ
+
+#Rule:HeadNoun-V
+r11thatDTmakesVBZ
+r11peopleNNShaveAUX
+
+#Rule:V-HeadNoun
+r21haveAUXcommitmentNN
+
+#If you want your love to last for eternity, especially to somebody you are sure about, you should be able to handle the differences. 
+#(S1 (S (SBAR (IN If) (S (NP (PRP you)) (VP (VBP want) (NP (PRP$ your) (NN love) (S (VP (TO to) (VP (VB last) (PP (IN for) (NP (NN eternity))))))) (, ,) (ADVP (RB especially) (PP (TO to) (NP (NP (NN somebody)) (SBAR (S (NP (PRP you)) (VP (AUX are) (ADJP (JJ sure) (PP (IN about)))))))))))) (, ,) (NP (PRP you)) (VP (MD should) (VP (AUX be) (ADJP (JJ able) (S (VP (TO to) (VP (VB handle) (NP (DT the) (NNS differences)))))))) (. .)))
+#Rule:Nouns
+r1loveNN
+r1eternityNN
+r1somebodyNN
+r1differencesNNS
+
+#Rule:Verbs
+r2wantVBP
+r2lastVB
+r2handleVB
+
+#Rule:Adjs
+r4sureJJ
+r4ableJJ
+
+#Rule:PRP-Noun
+r6yourPRP$loveNN
+
+#Rule:HeadNoun-V
+r11youPRPbeAUX
+r11youPRPwantVBP
+r11youPRPareAUX
+
+#Rule:V-HeadNoun
+r21wantVBPloveNN
+r21handleVBdifferencesNNS
+
+#Rule:V-ADJ
+r25areAUXsureJJ
+r25beAUXableJJ
+
+#Rule:PPinVP
+r30lastVBforINeternityNN
+
+#Rule:V-ADV
+r46wantVBPespeciallyRB
+
+#Those differences make you separate and also make you adore each other.
+#(S1 (S (NP (DT Those) (NNS differences)) (VP (VP (VBP make) (S (NP (PRP you)) (ADJP (JJ separate)))) (CC and) (ADVP (RB also)) (VP (VB make) (S (NP (PRP you)) (VP (VB adore) (NP (DT each) (JJ other)))))) (. .)))
+#Rule:Nouns
+r1differencesNNS
+
+#Rule:Verbs
+r2makeVBP
+r2makeVB
+r2adoreVB
+
+#Rule:Adjs
+r4separateJJ
+r4otherJJ
+
+#Rule:HeadNoun-V
+r11differencesNNSmakeVBP
+r11differencesNNSmakeVB
+r11youPRPadoreVB
+
+#Rule:V-HeadNoun
+r21adoreVBotherJJ
+
+#Rule:V-HeadNoun
+r22makeVBPyouPRP
+r22makeVByouPRP
+
+#Rule:V-ADV
+r46makeVBPalsoRB
+r46makeVBalsoRB
+
+@lemmas-left	legal	they	other	handle	last	have	lasting	eternity	difficulty	resolution	long	differences	bother	people	love	bond	were	affair	are	able	want	sure	be	conflicts	is	separate	resolving	resolve	commitment	makes	important	your	learn	you	marriage	difference	that	complication	there	somebody	having	conflict	make	adore	
+@lemmas-right	other	have	eternity	difficulty	resolution	differences	bother	bond	love	were	affair	are	especially	able	want	sure	be	just	conflicts	separate	is	commitment	makes	learn	you	marriage	difference	complication	simply	even	conflict	having	also	make	adore	
+@lemmas-center	for	when	as	

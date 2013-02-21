@@ -1,0 +1,185 @@
+#A lot of people feel as you do..
+#(S1 (S (NP (NP (DT A) (NN lot)) (PP (IN of) (NP (NNS people)))) (VP (VBP feel) (SBAR (IN as) (S (NP (PRP you)) (VP (AUX do)) (. .)))) (. .)))
+#Rule:Nouns
+r1lotNN
+r1peopleNNS
+
+#Rule:Verbs
+r2feelVBP
+
+#Rule:HeadNoun-V
+r11lotNNfeelVBP
+r11youPRPdoAUX
+
+#Rule:PPinNP
+r26lotNNofINpeopleNNS
+
+#Rule:V-IN-V
+r43feelVBPasINdoAUX
+
+#I think it s a mistake..
+#(S1 (S (NP (PRP I)) (VP (VBP think) (SBAR (S (NP (PRP it)) (VP (VBZ s) (NP (DT a) (NN mistake))) (. .)))) (. .)))
+#Rule:Nouns
+r1mistakeNN
+
+#Rule:Verbs
+r2thinkVBP
+r2sVBZ
+
+#Rule:HeadNoun-V
+r11iPRPthinkVBP
+r11itPRPsVBZ
+
+#Rule:V-HeadNoun
+r21sVBZmistakeNN
+
+#There s no guarantee that money would be spent on the poor or starving..
+#(S1 (S (NP (EX There)) (VP (VBZ s) (NP (DT no) (NN guarantee) (SBAR (IN that) (S (NP (NN money)) (VP (MD would) (VP (AUX be) (VP (VBN spent) (PP (IN on) (NP (DT the) (ADJP (JJ poor) (CC or) (VBG starving))))))))) (. .))) (. .)))
+#Rule:Nouns
+r1guaranteeNN
+r1moneyNN
+
+#Rule:Verbs
+r2sVBZ
+r2spentVBN
+r2starvingVBG
+
+#Rule:Adjs
+r4poorJJ
+
+#Rule:Adj-Noun
+r5starvingVBGpoorJJ
+
+#Rule:HeadNoun-V
+r11thereEXsVBZ
+
+#Rule:V-HeadNoun
+r21sVBZguaranteeNN
+
+#Rule:V-HeadNoun(passive)
+r23spentVBNmoneyNN
+
+#Rule:PPinVP
+r32spentVBNonINpoorJJ
+
+#Besides History has taught us throwing money at these things,does not really help at all..
+#(S1 (S (ADVP (RB Besides)) (NP (NN History)) (VP (AUX has) (VP (VBN taught) (NP (PRP us)) (SBAR (S (S (VP (VBG throwing) (NP (NN money)) (PP (IN at) (NP (DT these) (NNS things))))) (, ,) (VP (AUX does) (RB not) (ADVP (RB really)) (VP (VB help) (ADVP (IN at) (DT all)))) (. .))))) (. .)))
+#Rule:Nouns
+r1HistoryNN
+r1moneyNN
+r1thingsNNS
+
+#Rule:Verbs
+r2taughtVBN
+r2throwingVBG
+r2helpVB
+
+#Rule:HeadNoun-V
+r12HistoryNNtaughtVBN
+
+#Rule:V-HeadNoun
+r21taughtVBNusPRP
+r21throwingVBGmoneyNN
+
+#Rule:PPinVP
+r30throwingVBGatINthingsNNS
+
+#Rule:V-ADV
+r46hasAUXBesidesRB
+r46doesAUXnotRB
+r46doesAUXreallyRB
+r46helpVBreallyRB
+
+#Plus do you like cell phones,cable TV,GPS? all of it the fruits of the Space program..
+#(S1 (X (SBARQ (CC Plus) (SQ (AUX do) (NP (PRP you)) (VP (VB like) (NP (NP (NN cell) (NNS phones)) (, ,) (NP (NN cable) (NN TV)) (, ,) (NP (NNS GPS)) (. ?) (NP (DT all)) (PP (IN of) (NP (PRP it)))) (NP (NP (DT the) (NNS fruits)) (PP (IN of) (NP (DT the) (NNP Space) (NN program)))))) (. .)) (. .)))
+#Rule:Nouns
+r1cellNN
+r1phonesNNS
+r1cableNN
+r1TV,GPSLocationAnnotation
+r1fruitsNNS
+r1SpaceNNP
+r1programNN
+
+#Rule:Verbs
+r2likeVB
+
+#Rule:N-HeadNoun
+r8cellNNphonesNNS
+r8cableNNTV,GPSLocationAnnotation
+r8SpaceNNPprogramNN
+
+#Rule:N-ApposN
+r10phonesNNSTV,GPSLocationAnnotation
+
+#Rule:V-HeadNoun
+r21likeVBphonesNNS
+r21likeVBfruitsNNS
+
+#Rule:PPinNP
+r26phonesNNSofINitPRP
+r26fruitsNNSofINprogramNN
+
+#In addition many medicines have been developed in space..
+#(S1 (S (PP (IN In) (NP (NN addition))) (NP (JJ many) (NNS medicines)) (VP (AUX have) (VP (AUX been) (VP (VBN developed) (PP (IN in) (NP (NN space))) (. .)))) (. .)))
+#Rule:Nouns
+r1additionNN
+r1medicinesNNS
+r1spaceNN
+
+#Rule:Verbs
+r2developedVBN
+
+#Rule:Adjs
+r4manyJJ
+
+#Rule:Adj-Noun
+r5manyJJmedicinesNNS
+
+#Rule:V-HeadNoun(passive)
+r23developedVBNmedicinesNNS
+
+#Rule:PPinVP
+r32developedVBNinINspaceNN
+
+#Rule:PPinS
+r36haveAUXinINadditionNN
+
+#A broader look at the Space Program is a good idea for everyone.
+#(S1 (S (NP (NP (DT A) (JJR broader) (NN look)) (PP (IN at) (NP (DT the) (NNP Space) (NNP Program)))) (VP (AUX is) (NP (DT a) (JJ good) (NN idea)) (PP (IN for) (NP (NN everyone)))) (. .)))
+#Rule:Nouns
+r1lookNN
+r1SpaceNNP
+r1ProgramNNP
+r1ideaNN
+r1everyoneNN
+
+#Rule:Adjs
+r4broaderJJR
+r4goodJJ
+
+#Rule:Adj-Noun
+r5broaderJJRlookNN
+r5goodJJideaNN
+
+#Rule:N-HeadNoun
+r8SpaceNNPProgramNNP
+
+#Rule:HeadNoun-V
+r11lookNNisAUX
+
+#Rule:V-HeadNoun
+r21isAUXideaNN
+
+#Rule:PPinNP
+r26lookNNatINProgramNNP
+
+#Rule:PPinVP
+r30isAUXforINeveryoneNN
+
+#Rule:IS-RULE
+r47ideaNNlookNN
+
+@lemmas-left	phone	developed	good	people	has	help	everyone	medicine	Program	be	Space	think	fruit	cell	like	starving	starve	many	program	lot	does	idea	broader	broad	have	space	throwing	phones	throw	History	money	do	develop	spent	look	feel	is	mistake	it	cable	fruits	poor	you	taught	addition	teach	medicines	i	spend	history	TV,GPS	s	there	guarantee	things	
+@lemmas-right	idea	phone	space	people	phones	money	do	everyone	Program	medicine	be	look	feel	is	mistake	think	fruit	it	besides	fruits	poor	us	addition	taught	medicines	teach	not	really	Besides	TV,GPS	s	program	guarantee	things	
+@lemmas-center	of	for	at	on	as	in	

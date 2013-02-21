@@ -1,0 +1,97 @@
+#Sorry about the sad news..
+#(S1 (FRAG (RB Sorry) (PP (IN about) (NP (DT the) (JJ sad) (NN news)) (. .)) (. .)))
+#Rule:Nouns
+r1newsNN
+
+#Rule:Adjs
+r4sadJJ
+
+#Rule:Adj-Noun
+r5sadJJnewsNN
+
+#The very warm water from the spraying caused the inelasticity of blood vessels; BP jumped and so heart must work very hard for a blocking plaque and triggered a massive heart attack because of lack of oxygen from the steam.  It must happen too fast to get a fresh air!  Source from few books of Dr Dean Omish, and others.
+#(S1 (S (S (NP (NP (DT The) (ADJP (RB very) (JJ warm)) (NN water)) (PP (IN from) (NP (DT the) (VBG spraying)))) (VP (VBD caused) (NP (NP (DT the) (NN inelasticity)) (PP (IN of) (NP (NN blood) (NNS vessels)))))) (: ;) (S (NP (NNP BP)) (VP (VBD jumped) (NP (S (CC and) (NP (RB so) (RB heart)) (VP (VP (MD must) (VP (VB work) (ADVP (RB very) (RB hard)) (PP (IN for) (NP (DT a) (VBG blocking) (NN plaque))))) (CC and) (VP (VBD triggered) (NP (DT a) (JJ massive) (NN heart) (NN attack)) (PP (IN because) (IN of) (NP (NP (NN lack)) (PP (IN of) (NP (NN oxygen))))) (PP (IN from) (NP (NP (DT the) (NN steam.)) (SBAR (S (NP (PRP It)) (VP (MD must) (VP (VB happen) (ADVP (RB too) (RB fast)) (S (VP (TO to) (VP (VB get) (NP (DT a) (JJ fresh) (NN air))))))))))))) (. !)) (NN Source)) (PP (IN from) (NP (NP (JJ few) (NNS books)) (PP (IN of) (NP (NP (NNP Dr) (NNP Dean) (NNP Omish)) (, ,) (CC and) (NP (NNS others)))))))) (. .)))
+#Rule:Nouns
+r1waterNN
+r1inelasticityNN
+r1bloodNN
+r1vesselsNNS
+r1BPOrganizationAnnotation
+r1plaqueNN
+r1heartNN
+r1attackNN
+r1lackNN
+r1oxygenPersonAnnotation
+r1steamNN
+r1airNN
+r1SourceNN
+r1booksNNS
+r1Dr Dean OmishPersonAnnotation
+r1othersNNS
+
+#Rule:Verbs
+r2sprayingVBG
+r2causedVBD
+r2jumpedVBD
+r2workVB
+r2blockingVBG
+r2triggeredVBD
+r2happenVB
+r2getVB
+
+#Rule:Adjs
+r4warmJJ
+r4massiveJJ
+r4freshJJ
+r4fewJJ
+
+#Rule:Adj-Noun
+r5warmJJwaterNN
+r5blockingVBGplaqueNN
+r5massiveJJattackNN
+r5freshJJairNN
+r5fewJJbooksNNS
+
+#Rule:N-HeadNoun
+r8bloodNNvesselsNNS
+r8heartNNattackNN
+
+#Rule:HeadNoun-V
+r11waterNNcausedVBD
+r11BPOrganizationAnnotationjumpedVBD
+r11itPRPhappenVB
+
+#Rule:NP(NP(z) SBAR(S(NP(x)VP(y))))
+r19happenVBsteamNN
+
+#Rule:V-HeadNoun
+r21causedVBDinelasticityNN
+r21jumpedVBDSourceNN
+r21triggeredVBDattackNN
+r21getVBairNN
+
+#Rule:PPinNP
+r26waterNNfromINsprayingVBG
+r26inelasticityNNofINvesselsNNS
+r26lackNNofINoxygenPersonAnnotation
+r26booksNNSofINDr Dean OmishPersonAnnotation
+r26booksNNSofINothersNNS
+
+#Rule:PPinVP
+r30jumpedVBDfromINbooksNNS
+r30workVBforINplaqueNN
+r30triggeredVBDofINlackNN
+r30triggeredVBDfromINsteamNN
+
+#Rule:V-V
+r44happenVBgetVB
+
+#Rule:V-ADV
+r46workVBveryRB
+r46workVBhardRB
+r46happenVBtooRB
+r46happenVBfastRB
+
+@lemmas-left	warm	cause	oxygen	sad	block	caused	spraying	fresh	plaque	BP	happen	triggered	work	water	trigger	books	vessel	it	heart	others	spray	get	news	lack	blood	vessels	few	jump	Source	blocking	massive	inelasticity	source	Dr Dean Omish	jumped	book	air	attack	steam.	steam	
+@lemmas-right	cause	oxygen	caused	spraying	plaque	happen	hard	too	water	books	vessel	spray	others	get	news	lack	vessels	jump	Source	inelasticity	source	Dr Dean Omish	jumped	book	air	attack	fast	steam.	very	steam	
+@lemmas-center	of	for	from	

@@ -1,0 +1,17 @@
+#Does Microsoft have a hand in this? 
+#(S1 (SQ (AUX Does) (NP (NNP Microsoft)) (VP (AUX have) (NP (NP (DT a) (NN hand)) (PP (IN in) (NP (DT this))))) (. ?)))
+#Rule:Nouns
+r1MicrosoftNNP
+r1handNN
+
+#Rule:V-HeadNoun
+r21haveAUXhandNN
+
+#Rule:PPinNP
+r26handNNinINthisLocationAnnotation
+
+#;-)
+#
+@lemmas-left	hand	have	Microsoft	microsoft	
+@lemmas-right	hand	this	
+@lemmas-center	in	

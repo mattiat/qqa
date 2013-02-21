@@ -1,0 +1,27 @@
+BE: personNN
+EQ class: someonenn	soulnn	individualnn	somebodynn	mortalnn	
+
+BE: cancerNN
+EQ class: cancerousjj	malignant_neoplastic_diseasenn	
+
+BE: lymphOrganizationAnnotation
+EQ class: 
+
+BE: nodesNNS
+EQ class: theynns	nodenns	themnns	
+
+BE: liveVB
+EQ class: inhabitvb	populatevb	dwellvb	
+
+BE: lymphOrganizationAnnotationnodesNNS
+EQ class: lymphorganizationannotationthemnns	themnnsofinlymphorganizationannotation	nodesnnsofinlymphorganizationannotation	lymphorganizationannotationtheynns	theynnsofinlymphorganizationannotation	lymphorganizationannotationnodenns	nodennsofinlymphorganizationannotation	
+
+BE: personNNhasAUX
+EQ class: rich_personnnofinpersonnn	individualnnhave_gotaux	somebodynnhasaux	havennofinsomebodynn	someonennhaveaux	wealthy_personnnofinpersonnn	someonennhave_gotaux	individualnnhasaux	personnnhaveaux	rich_personnnofinsoulnn	personnnholdaux	wealthy_personnnofinsomebodynn	wealthy_personnnofinsoulnn	mortalnnhave_gotaux	someonennhasaux	havennofinindividualnn	somebodynnhave_gotaux	wealthy_personnnofinsomeonenn	rich_personnnofinindividualnn	mortalnnhaveaux	individualnnhaveaux	soulnnhasaux	rich_personnnofinsomeonenn	havennofinpersonnn	mortalnnholdaux	soulnnholdaux	soulnnhaveaux	wealthy_personnnofinindividualnn	havennofinsomeonenn	somebodynnhaveaux	individualnnholdaux	somebodynnholdaux	rich_personnnofinmortalnn	havennofinsoulnn	soulnnhave_gotaux	rich_personnnofinsomebodynn	havennofinmortalnn	wealthy_personnnofinmortalnn	personnnhave_gotaux	someonennholdaux	mortalnnhasaux	
+
+BE: hasAUXcancerNN
+EQ class: hasauxcancerousjj	have_gotauxcancerousjj	have_gotauxmalignant_neoplastic_diseasenn	wealthy_personnnofincancerousjj	rich_personnnofinmalignant_neoplastic_diseasenn	rich_personnnofincancernn	haveauxcancerousjj	holdauxcancerousjj	holdauxmalignant_neoplastic_diseasenn	rich_personnnofincancerousjj	wealthy_personnnofincancernn	havennofinmalignant_neoplastic_diseasenn	wealthy_personnnofinmalignant_neoplastic_diseasenn	holdauxcancernn	havennofincancernn	have_gotauxcancernn	havennofincancerousjj	haveauxcancernn	haveauxmalignant_neoplastic_diseasenn	hasauxmalignant_neoplastic_diseasenn	
+
+BE: hasAUXinINnodesNNS
+EQ class: holdauxininnodenns	have_gotauxinintheynns	hasauxininnodenns	haveauxininnodenns	haveauxininthemnns	hasauxinintheynns	holdauxininnodesnns	holdauxininthemnns	haveauxinintheynns	have_gotauxininnodenns	have_gotauxininthemnns	holdauxinintheynns	hasauxininthemnns	have_gotauxininnodesnns	haveauxininnodesnns	
+

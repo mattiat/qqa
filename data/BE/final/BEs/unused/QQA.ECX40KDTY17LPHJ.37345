@@ -1,0 +1,115 @@
+#Am truly sorry to hear that. 
+#(S1 (S (VP (AUX Am) (ADJP (RB truly) (JJ sorry) (S (VP (TO to) (VP (VB hear) (NP (DT that))))))) (. .)))
+#Rule:Verbs
+r2hearVB
+
+#Rule:Adjs
+r4sorryJJ
+
+#Rule:V-HeadNoun
+r21hearVBthatDT
+
+#I do believe in God. 
+#(S1 (S (NP (PRP I)) (VP (AUX do) (VP (VB believe) (PP (IN in) (NP (NNP God))))) (. .)))
+#Rule:Nouns
+r1GodOrganizationAnnotation
+
+#Rule:Verbs
+r2believeVB
+
+#Rule:HeadNoun-V
+r11iPRPbelieveVB
+
+#Rule:PPinVP
+r30believeVBinINGodOrganizationAnnotation
+
+#Is it enough to be happy? 
+#(S1 (SQ (AUX Is) (NP (PRP it)) (ADJP (RB enough) (S (VP (TO to) (VP (AUX be) (ADJP (JJ happy)))))) (. ?)))
+#Rule:Adjs
+r4happyJJ
+
+#Rule:V-ADJ
+r25beAUXhappyJJ
+
+#Maybe we only learn through pain and suffering horrible though it is, according to the bible even God as Jesus had to endure the worst kind of pain and suffering for our sakes, so God definitely knows and understands your pain. make some right choices today. 
+#(S1 (S (ADVP (RB Maybe)) (NP (PRP we)) (VP (VP (ADVP (RB only)) (VBP learn) (PP (IN through) (NP (NN pain)))) (CC and) (VP (VBG suffering) (ADJP (JJ horrible)) (SBAR (IN though) (S (NP (PRP it)) (VP (AUX is) (, ,) (PP (VBG according) (PP (TO to) (NP (NP (DT the) (NN bible)) (SBAR (S (NP (RB even) (NNP God)) (PP (IN as) (NP (NNP Jesus))) (VP (AUX had) (S (VP (TO to) (VP (VB endure) (NP (NP (DT the) (JJS worst) (NN kind)) (PP (IN of) (NP (NN pain) (CC and) (NN suffering)))) (PP (IN for) (NP (PRP$ our) (NNS sakes))) (, ,) (SBAR (IN so) (S (NP (NNP God)) (VP (VP (ADVP (RB definitely)) (VBZ knows)) (CC and) (VP (VBZ understands) (S (NP (PRP$ your) (NNS pain.)) (VP (VB make) (NP (DT some) (JJ right) (NNS choices)) (NP (NN today)))))))))))))))))))))) (. .)))
+#Rule:Nouns
+r1painNN
+r1bibleNN
+r1GodNNP
+r1JesusPersonAnnotation
+r1kindNN
+r1painNN
+r1sufferingNN
+r1sakesNNS
+r1GodNNP
+r1painNNS
+r1choicesNNS
+r1todayNN
+
+#Rule:Verbs
+r2learnVBP
+r2sufferingVBG
+r2accordingVBG
+r2endureVB
+r2knowsVBZ
+r2understandsVBZ
+r2makeVB
+
+#Rule:Adjs
+r4horribleJJ
+r4worstJJS
+r4rightJJ
+
+#Rule:Adj-Noun
+r5worstJJSkindNN
+r5rightJJchoicesNNS
+
+#Rule:PRP-Noun
+r6ourPRP$sakesNNS
+r6yourPRP$painNNS
+
+#Rule:HeadNoun-V
+r11wePRPlearnVBP
+r11wePRPsufferingVBG
+r11itPRPisAUX
+r11GodNNPhadAUX
+r11GodNNPknowsVBZ
+r11GodNNPunderstandsVBZ
+r11painNNSmakeVB
+
+#Rule:V-HeadNoun
+r21endureVBkindNN
+r21makeVBchoicesNNS
+r21makeVBtodayNN
+
+#Rule:V-HeadNoun
+r22understandsVBZpainNNS
+
+#Rule:PPinNP
+r26kindNNofINpainNN
+
+#Rule:PPinVP
+r30learnVBPthroughINpainNN
+r30endureVBforINsakesNNS
+
+#Rule:PPinS
+r36hadAUXasINJesusPersonAnnotation
+
+#Rule:V-IN-V
+r43sufferingVBGthoughINisAUX
+r43endureVBsoINknowsVBZ
+r43endureVBsoINunderstandsVBZ
+
+#Rule:V-ADV
+r46learnVBPonlyRB
+r46knowsVBZdefinitelyRB
+
+#God Blezz
+#(S1 (NP (NNP God) (NNP Blezz)))
+#Rule:Nouns
+r1God BlezzPersonAnnotation
+
+@lemmas-left	understand	god	have	suffering	choice	sake	pain	today	horrible	believe	sakes	kind	according	understands	hear	happy	right	had	be	it	worst	your	choices	pain.	learn	suffer	accord	Jesus	know	i	knows	endure	sorry	God	God Blezz	bible	our	make	we	
+@lemmas-right	understand	choice	suffering	have	sake	pain	today	believe	sakes	kind	understands	happy	only	had	be	definitely	is	choices	pain.	suffer	learn	Jesus	know	knows	that	God	make	
+@lemmas-center	of	so	for	as	through	in	though	

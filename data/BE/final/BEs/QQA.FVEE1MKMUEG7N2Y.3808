@@ -1,0 +1,163 @@
+#That would be considered a good warmup.    
+#(S1 (S (NP (DT That)) (VP (MD would) (VP (AUX be) (VP (VBN considered) (S (NP (DT a) (JJ good) (NN warmup)))))) (. .)))
+#Rule:Nouns
+r1warmupNN
+
+#Rule:Verbs
+r2consideredVBN
+
+#Rule:Adjs
+r4goodJJ
+
+#Rule:Adj-Noun
+r5goodJJwarmupNN
+
+#Rule:V-HeadNoun
+r22consideredVBNwarmupNN
+
+#Rule:V-HeadNoun(passive)
+r23consideredVBNthatDT
+
+#Its about the same as what we did before wrestling practice back in the day.
+#(S1 (NP (NP (PRP$ Its) (IN about) (DT the) (JJ same)) (PP (IN as) (SBAR (WHNP (WP what)) (S (NP (PRP we)) (VP (AUX did) (PP (IN before) (S (VP (VBG wrestling) (NP (NN practice)) (ADVP (RB back) (PP (IN in) (NP (DT the) (NN day))))))))))) (. .)))
+#Rule:Nouns
+r1practiceNN
+r1dayNN
+
+#Rule:Verbs
+r2wrestlingVBG
+
+#Rule:Adjs
+r4sameJJ
+
+#Rule:PRP-Noun
+r6itsPRP$sameJJ
+
+#Rule:HeadNoun-V
+r11wePRPdidAUX
+
+#Rule:V-HeadNoun
+r21wrestlingVBGpracticeNN
+
+#Rule:V-ADV
+r46wrestlingVBGbackRB
+
+#-----Edit:  Run?  
+#(S1 (FRAG (ADJP (JJ -----Edit)) (: :) (NP (NNP Run)) (. ?)))
+#Rule:Nouns
+r1Edit:  RunPersonAnnotation
+
+#Rule:Adjs
+r4-----EditJJ
+
+#Bike?  
+#(S1 (FRAG (NP (NN Bike)) (. ?)))
+#Rule:Nouns
+r1BikePersonAnnotation
+
+#Walk?    
+#(S1 (SQ (VP (VB Walk)) (. ?)))
+#Rule:Verbs
+r2walkVB
+
+#The point is, unless you re doing really significant aerobic exercise, like 10+ hours per week running and/or cycling,  weight loss is going to come mostly from calorie restriction.    
+#(S1 (S (NP (DT The) (NN point)) (VP (AUX is) (, ,) (SBAR (IN unless) (S (S (NP (PRP you) (NNP re)) (VP (VBG doing) (NP (ADJP (RB really) (JJ significant)) (JJ aerobic) (NN exercise)))) (, ,) (PP (IN like) (NP (NP (CD 10+) (NNS hours)) (PP (IN per) (NP (NP (NN week)) (VP (VBG running) (NP (NN and/or) (NN cycling))))))) (, ,) (NP (NN weight) (NN loss)) (VP (AUX is) (VP (VBG going) (S (VP (TO to) (VP (VB come) (ADVP (RB mostly)) (PP (IN from) (NP (JJ calorie) (NN restriction))))))))))) (. .)))
+#Rule:Nouns
+r1pointNN
+r1reNNP
+r1exerciseNN
+r1hoursNNS
+r1weekNN
+r1and/orNN
+r1cyclingNN
+r1weightNN
+r1lossNN
+r1restrictionNN
+
+#Rule:Verbs
+r2doingVBG
+r2runningVBG
+r2goingVBG
+r2comeVB
+
+#Rule:Adjs
+r4significantJJ
+r4aerobicJJ
+r4calorieLocationAnnotation
+
+#Rule:Adj-Noun
+r5significantJJexerciseNN
+r5aerobicJJexerciseNN
+r510+CDhoursNNS
+r5calorieLocationAnnotationrestrictionNN
+
+#Rule:N-HeadNoun
+r8and/orNNcyclingNN
+r8weightNNlossNN
+
+#Rule:HeadNoun-V
+r11pointNNisAUX
+r11lossNNgoingVBG
+r11reNNPdoingVBG
+r11weekNNrunningVBG
+
+#Rule:V-HeadNoun
+r21doingVBGexerciseNN
+r21runningVBGcyclingNN
+
+#Rule:PPinNP
+r26hoursNNSperINweekNN
+
+#Rule:PPinVP
+r30comeVBfromINrestrictionNN
+
+#Rule:PPinS
+r36isAUXlikeINhoursNNS
+
+#Rule:V-IN-V
+r43isAUXunlessINgoingVBG
+
+#Rule:V-V
+r44goingVBGcomeVB
+
+#Rule:V-ADV
+r46comeVBmostlyRB
+
+#You can t burn enough calories in these little 20 or 30 minute sessions to have an impact.
+#(S1 (S (NP (PRP You)) (VP (MD can) (ADVP (RB t)) (VP (VB burn) (NP (JJ enough) (NNS calories)) (PP (IN in) (NP (DT these) (QP (JJ little) (CD 20) (CC or) (CD 30)) (JJ minute) (NNS sessions))) (S (VP (TO to) (VP (AUX have) (NP (DT an) (NN impact))))))) (. .)))
+#Rule:Nouns
+r1caloriesNNS
+r1sessionsNNS
+r1impactNN
+
+#Rule:Verbs
+r2burnVB
+
+#Rule:Adjs
+r4enoughJJ
+r4littleJJ
+r4minuteJJ
+
+#Rule:Adj-Noun
+r5enoughJJcaloriesNNS
+r5littleJJsessionsNNS
+r520CDsessionsNNS
+r530CDsessionsNNS
+r5minuteJJsessionsNNS
+
+#Rule:HeadNoun-V
+r11youPRPburnVB
+
+#Rule:V-HeadNoun
+r21burnVBcaloriesNNS
+r21haveAUXimpactNN
+
+#Rule:PPinVP
+r30burnVBinINsessionsNNS
+
+#Rule:V-ADV
+r46burnVBtRB
+
+@lemmas-left	cycling	little	good	its	same	enough	calorie	impact	calories	be	going	restriction	or	hours	30	doing	day	burn	walk	we	go	10+	weight	loss	have	exercise	re	run	running	considered	wrestle	minute	20	significant	Bike	and/or	consider	do	Edit:  Run	is	sessions	warmup	wrestling	edit	come	you	point	-----Edit	practice	aerobic	week	
+@lemmas-right	loss	cycling	exercise	same	run	running	impact	calorie	calories	do	be	mostly	is	going	sessions	restriction	warmup	hours	back	did	come	that	t	practice	doing	burn	go	week	
+@lemmas-center	unless	per	from	like	in	

@@ -1,0 +1,63 @@
+#You and I are in the same boat. 
+#(S1 (S (NP (PRP You) (CC and) (PRP I)) (VP (AUX are) (PP (IN in) (NP (DT the) (JJ same) (NN boat)))) (. .)))
+#Rule:Nouns
+r1boatNN
+
+#Rule:Adjs
+r4sameJJ
+
+#Rule:Adj-Noun
+r5sameJJboatNN
+
+#Rule:HeadNoun-V
+r11youPRPareAUX
+
+#Rule:PPinVP
+r30areAUXinINboatNN
+
+#I was 15, 5 4  and 103 pounds. 
+#(S1 (S (NP (PRP I)) (VP (AUX was) (NP (NP (CD 15)) (, ,) (NP (QP (CD 5) (CD 4) (CC and) (CD 103)) (NNS pounds)))) (. .)))
+#Rule:Nouns
+r1poundsNNS
+
+#Rule:Adj-Noun
+r55CDpoundsNNS
+r54CDpoundsNNS
+r5103CDpoundsNNS
+
+#Rule:N-ApposN
+r1015CDpoundsNNS
+
+#Rule:HeadNoun-V
+r11iPRPwasAUX
+
+#Rule:V-HeadNoun
+r21wasAUX15CD
+
+#Now I m 16, 5 6 and 115. 
+#(S1 (X (ADVP (RB Now)) (NP (PRP I)) (NP (NP (NNP m) (CD 16) (, ,) (CD 5)) (NP (CD 6) (CC and) (CD 115))) (. .)))
+#Rule:Nouns
+r1mNNP
+
+#Rule:Adj-Noun
+r516CDmNNP
+r55CDmNNP
+r5115CD6CD
+
+#I think you just have to keep practicing.
+#(S1 (S (NP (PRP I)) (VP (VBP think) (SBAR (S (NP (PRP you)) (ADVP (RB just)) (VP (AUX have) (S (VP (TO to) (VP (VB keep) (S (VP (VBG practicing)))))))))) (. .)))
+#Rule:Verbs
+r2thinkVBP
+r2keepVB
+r2practicingVBG
+
+#Rule:HeadNoun-V
+r11iPRPthinkVBP
+r11youPRPhaveAUX
+
+#Rule:V-ADV
+r46haveAUXjustRB
+
+@lemmas-left	think	115	have	pounds	you	15	16	m	boat	same	i	was	are	practicing	practice	5	4	103	keep	be	pound	
+@lemmas-right	just	think	are	have	6	pounds	15	m	boat	was	pound	be	
+@lemmas-center	in	

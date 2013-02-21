@@ -1,0 +1,28 @@
+#Why does lake come first (Lake Michigan) and river come second (Mississippi River)?
+#(S1 (SBARQ (WHADVP (WRB Why)) (SQ (AUX does) (NP (NN lake)) (VP (VP (VB come) (ADVP (RB first)) (PRN (-LRB- -LRB-) (NP (NNP Lake) (NNP Michigan)) (-RRB- -RRB-))) (CC and) (VP (NN river) (VB come) (NP (NP (JJ second)) (PRN (-LRB- -LRB-) (NP (NNP Mississippi) (NNP River)) (-RRB- -RRB-)))))) (. ?)))
+#Rule:Nouns
+r1lakeNN
+r1LakeNNP
+r1MichiganLocationAnnotation
+r1riverNN
+r1Mississippi RiverLocationAnnotation
+
+#Rule:Verbs
+r2comeVB
+r2comeVB
+
+#Rule:Adjs
+r4secondJJ
+
+#Rule:N-HeadNoun
+r8LakeNNPMichiganLocationAnnotation
+
+#Rule:V-HeadNoun
+r21comeVBsecondJJ
+
+#Rule:V-ADV
+r46comeVBfirstRB
+
+@lemmas-left	second	come	lake	Mississippi River	Michigan	Lake	river	
+@lemmas-right	second	Michigan	first	
+@lemmas-center	

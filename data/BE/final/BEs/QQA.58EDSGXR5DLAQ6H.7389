@@ -1,0 +1,95 @@
+#Hi.  
+#(S1 (INTJ (UH Hi) (. .)))
+#I lost 3 stone in 3 months with weight watchers, the thing is i can never keep the weight off and it goes back on so quick. 
+#(S1 (S (S (NP (PRP I)) (VP (VBD lost) (NP (CD 3) (NN stone)) (PP (IN in) (NP (CD 3) (NNS months))) (PP (IN with) (NP (NN weight) (NNS watchers))))) (, ,) (S (NP (DT the) (NN thing)) (VP (AUX is) (SBAR (S (NP (PRP i)) (VP (MD can) (ADVP (RB never)) (VP (VB keep) (NP (DT the) (NN weight)) (PRT (RP off)))))))) (CC and) (S (NP (PRP it)) (VP (VBZ goes) (ADVP (RB back) (PP (IN on) (ADJP (RB so) (JJ quick)))))) (. .)))
+#Rule:Nouns
+r1stoneNN
+r1monthsNNS
+r1weightNN
+r1watchersNNS
+r1thingNN
+r1weightNN
+
+#Rule:Verbs
+r2lostVBD
+r2keepVB
+r2goesVBZ
+
+#Rule:V-PRT
+r3keepVBoffRP
+
+#Rule:Adjs
+r4quickJJ
+
+#Rule:Adj-Noun
+r53CDstoneNN
+r53CDmonthsNNS
+
+#Rule:N-HeadNoun
+r8weightNNwatchersNNS
+
+#Rule:HeadNoun-V
+r11iPRPlostVBD
+r11thingNNisAUX
+r11iLocationAnnotationkeepVB
+r11itPRPgoesVBZ
+
+#Rule:V-HeadNoun
+r21lostVBDstoneNN
+r21keepVBweightNN
+
+#Rule:PPinVP
+r30lostVBDinINmonthsNNS
+r30lostVBDwithINwatchersNNS
+
+#Rule:V-ADV
+r46keepVBneverRB
+r46goesVBZbackRB
+
+#The best way to keep the weight off is loose weight slowly and it will stay off, the quicker you loose it the quicker it goes back on.
+#(S1 (S (S (NP (NP (DT The) (JJS best) (NN way)) (SBAR (S (VP (TO to) (VP (VB keep) (NP (DT the) (NN weight)) (PRT (RP off))))))) (VP (AUX is) (NP (JJ loose) (NN weight)) (ADVP (RB slowly)))) (CC and) (S (S (NP (PRP it)) (VP (MD will) (VP (VB stay) (PRT (RP off))))) (, ,) (X (DT the) (JJR quicker) (ADVP (PRP you) (RB loose)) (NP (PRP it)) (DT the) (RBR quicker)) (NP (PRP it)) (VP (VBZ goes) (ADVP (RB back)) (ADVP (RB on)))) (. .)))
+#Rule:Nouns
+r1wayNN
+r1weightNN
+r1weightNN
+
+#Rule:Verbs
+r2keepVB
+r2goesVBZ
+
+#Rule:V-PRT
+r3keepVBoffRP
+r3stayVBoffRP
+
+#Rule:Adjs
+r4bestJJS
+r4looseJJ
+r4quickerJJR
+
+#Rule:Adj-Noun
+r5bestJJSwayNN
+r5looseJJweightNN
+
+#Rule:HeadNoun-V
+r11wayNNisAUX
+r11itPRPgoesVBZ
+r11itPRPstayVB
+
+#Rule:HeadNoun-(who/that)-V
+r14wayNNkeepVB
+
+#Rule:V-HeadNoun
+r21keepVBweightNN
+r21isAUXweightNN
+
+#Rule:V-ADV
+r46isAUXslowlyRB
+r46goesVBZbackRB
+r46goesVBZonLocationAnnotation
+
+#Rule:IS-RULE
+r47weightNNwayNN
+
+@lemmas-left	is	goes	stay	it	weight	lost	quicker	quick	way	stone	loose	i	3	lose	months	month	best	watcher	be	watchers	thing	keep	go	
+@lemmas-right	slowly	is	goes	stay	weight	lost	way	back	stone	lose	never	months	off	month	on	watcher	watchers	be	keep	go	
+@lemmas-center	with	in	

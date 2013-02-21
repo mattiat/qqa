@@ -1,0 +1,31 @@
+#in bible times, why did people live so long and now people live on average 73 years?
+#(S1 (SBARQ (PP (IN in) (NP (JJ bible) (NNS times))) (, ,) (WHADVP (WRB why)) (SQ (AUX did) (NP (NNS people)) (VP (VBP live) (ADVP (ADVP (RB so) (RB long)) (CC and) (ADVP (RB now))) (SBAR (S (NP (NNS people)) (VP (VBP live) (PP (IN on) (ADJP (JJ average) (NP (CD 73) (NNS years))))))))) (. ?)))
+#Rule:Nouns
+r1timesNNS
+r1peopleNNS
+r1peopleNNS
+r1yearsNNS
+
+#Rule:Verbs
+r2liveVBP
+r2liveVBP
+
+#Rule:Adjs
+r4bibleJJ
+r4averageJJ
+
+#Rule:Adj-Noun
+r5bibleJJtimesNNS
+r573CDyearsNNS
+
+#Rule:HeadNoun-V
+r11peopleNNSliveVBP
+
+#Rule:V-ADV
+r46liveVBPsoRB
+r46liveVBPlongRB
+r46liveVBPnowRB
+
+@lemmas-left	times	bible	years	73	people	average	live	
+@lemmas-right	now	so	times	years	long	live	
+@lemmas-center	

@@ -1,0 +1,46 @@
+#Get killed by one . 
+#(S1 (S (VP (VB Get) (VP (VBN killed) (PP (IN by) (NP (CD one))))) (. .)))
+#Rule:Verbs
+r2getVB
+r2killedVBN
+
+#Rule:V-By-Agent
+r13oneCDkilledVBN
+
+#Which is what will happen when you aint afraid of them. sometimes fear is a good thing
+#(S1 (SBAR (WHNP (WDT Which)) (S (VP (AUX is) (SBAR (WHNP (WP what)) (S (VP (MD will) (VP (VB happen) (SBAR (WHADVP (WRB when)) (S (NP (PRP you)) (VP (VBP aint) (ADJP (JJ afraid) (PP (IN of) (S (VP (VBG them.) (ADVP (RB sometimes)) (SBAR (S (NP (NN fear)) (VP (AUX is) (NP (DT a) (JJ good) (NN thing))))))))))))))))))))
+#Rule:Nouns
+r1fearNN
+r1thingNN
+
+#Rule:Verbs
+r2happenVB
+r2aintVBP
+r2themVBG
+
+#Rule:Adjs
+r4afraidJJ
+r4goodJJ
+
+#Rule:Adj-Noun
+r5goodJJthingNN
+
+#Rule:HeadNoun-V
+r11youPRPaintVBP
+r11fearNNisAUX
+
+#Rule:V-HeadNoun
+r21isAUXthingNN
+
+#Rule:PPinADJP
+r38afraidJJofINthemVBG
+
+#Rule:V-ADV
+r46themVBGsometimesRB
+
+#Rule:IS-RULE
+r47thingNNfearNN
+
+@lemmas-left	is	get	killed	one	kill	good	you	afraid	them	them.	happen	be	fear	thing	aint	
+@lemmas-right	is	killed	sometimes	them	them.	kill	fear	be	aint	thing	
+@lemmas-center	of	

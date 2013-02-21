@@ -1,0 +1,47 @@
+#You might have a job producing benzoyl-peroxide at home. 
+#(S1 (S (NP (PRP You)) (VP (MD might) (VP (AUX have) (NP (NP (DT a) (NN job)) (VP (VBG producing) (NP (NN benzoyl-peroxide)) (PP (IN at) (NP (NN home))))))) (. .)))
+#Rule:Nouns
+r1jobNN
+r1benzoyl-peroxideNN
+r1homeNN
+
+#Rule:Verbs
+r2producingVBG
+
+#Rule:HeadNoun-V
+r11youPRPhaveAUX
+r11jobNNproducingVBG
+
+#Rule:V-HeadNoun
+r21haveAUXjobNN
+r21producingVBGbenzoyl-peroxideNN
+
+#Rule:PPinVP
+r30producingVBGatINhomeNN
+
+#Unless you ve got a chemical lab in the basement.
+#(S1 (S (SBAR (IN Unless) (S (NP (PRP you)) (VP (VBP ve)))) (VP (VBD got) (NP (NP (DT a) (NN chemical) (NN lab)) (PP (IN in) (NP (DT the) (NN basement))))) (. .)))
+#Rule:Nouns
+r1chemicalNN
+r1labNN
+r1basementNN
+
+#Rule:Verbs
+r2veVBP
+r2gotVBD
+
+#Rule:N-HeadNoun
+r8chemicalNNlabNN
+
+#Rule:HeadNoun-V
+r11youPRPveVBP
+
+#Rule:V-HeadNoun
+r21gotVBDlabNN
+
+#Rule:PPinNP
+r26labNNinINbasementNN
+
+@lemmas-left	home	get	have	basement	job	you	lab	producing	benzoyl-peroxide	chemical	ve	peroxide	got	produce	
+@lemmas-right	home	have	benzoyl-peroxide	basement	ve	peroxide	job	lab	producing	produce	
+@lemmas-center	at	in	

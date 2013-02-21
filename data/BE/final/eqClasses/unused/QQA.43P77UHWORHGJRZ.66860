@@ -1,0 +1,66 @@
+BE: cancerNN
+EQ class: cancerousjj	malignant_neoplastic_diseasenn	
+
+BE: cellsNNS
+EQ class: cellnns	cellularjj	theynns	themnns	
+
+BE: startingNN
+EQ class: startnn	
+
+BE: pointNN
+EQ class: 
+
+BE: tumourNN
+EQ class: tumornn	neoplasmnn	
+
+BE: bodyNN
+EQ class: physical_structurenn	bodilyjj	organic_structurenn	
+
+BE: tissueNN
+EQ class: 
+
+BE: systemNN
+EQ class: 
+
+BE: breakVB
+EQ class: interruptvb	
+
+BE: spreadVBN
+EQ class: distributevbn	
+
+BE: neighbouringJJ
+EQ class: 
+
+BE: lymphaticOrganizationAnnotation
+EQ class: 
+
+BE: neighbouringJJtissueNN
+EQ class: 
+
+BE: lymphaticOrganizationAnnotationsystemNN
+EQ class: 
+
+BE: cancerNNcellsNNS
+EQ class: malignant_neoplastic_diseasennthemnns	themnnsofincancerousjj	cancerousjjcellularjj	cancerousjjthemnns	theynnsofincancernn	cancerousjjcellnns	malignant_neoplastic_diseasenncellularvb	cellularjjofincancerousjj	cancernncellularvb	cellularvbcancerousjj	malignant_neoplastic_diseasenntheynns	cancernnthemnns	cellularjjofincancernn	cellularvbcancernn	cellularjjofinmalignant_neoplastic_diseasenn	themnnsofincancernn	cancerousjjtheynns	malignant_neoplastic_diseasenncellsnns	cellnnsofinmalignant_neoplastic_diseasenn	cellsnnsofinmalignant_neoplastic_diseasenn	theynnsofincancerousjj	cancerousjjcellularvb	cancernncellularjj	malignant_neoplastic_diseasenncellnns	theynnsofinmalignant_neoplastic_diseasenn	cellsnnsofincancernn	cellnnsofincancerousjj	cellsnnsofincancerousjj	cancernntheynns	cellularvbmalignant_neoplastic_diseasenn	malignant_neoplastic_diseasenncellularjj	cellnnsofincancernn	cancerousjjcellsnns	cancernncellnns	themnnsofinmalignant_neoplastic_diseasenn	
+
+BE: startingNNpointNN
+EQ class: pointnnstart_outvb	pointnnofinstartnn	starternnofinpointnn	pointnnbeginvb	pointnnset_aboutvb	pointnnget_downvb	starter_motornnofinpointnn	pointnngetvb	startnnpointnn	pointnnstartvb	starting_motornnofinpointnn	pointnncommencevb	pointnnofinstartingnn	startnnofinpointnn	pointnnset_outvb	
+
+BE: cellsNNSbreakVB
+EQ class: theynnsbreakvb	cellnnsinterruptvb	cellularjjinterruptvb	cellnnsbreakvb	cellsnnsinterruptvb	themnnsinterruptvb	themnnsbreakvb	theynnsinterruptvb	cellularjjbreakvb	
+
+BE: spreadVBNcellsNNS
+EQ class: distributevbncellularjj	spreadernnofincellsnns	spreadnnofincellsnns	spreadnnofincellularjj	spreadernnofinthemnns	distributevbntheynns	spreadnnofincellnns	spreadingnnofincellsnns	spreadingnnofintheynns	spreadvbncellnns	spreadnnofintheynns	spreadingnnofincellularjj	spreadvbnthemnns	distributevbncellnns	spreadnnofinthemnns	distributevbncellsnns	spreadernnofincellnns	spreadernnofintheynns	distributevbnthemnns	spreadingnnofincellnns	spreadvbncellularjj	spreadvbntheynns	spreadernnofincellularjj	spreadingnnofinthemnns	
+
+BE: breakVBfromINpointNN
+EQ class: interruptvbfrominpointnn	
+
+BE: spreadVBNaroundINbodyNN
+EQ class: spreadvbnaroundinphysical_structurenn	distributevbnaroundinbodilyjj	distributevbnaroundinbodynn	distributevbnaroundinphysical_structurenn	spreadvbnaroundinbodilyjj	spreadvbnaroundinorganic_structurenn	distributevbnaroundinorganic_structurenn	
+
+BE: breakVBawayRB
+EQ class: interruptvbawayrb	
+
+BE: spreadVBNawayRB
+EQ class: spreadnnofinawayrb	spreadernnofinawayrb	spreadingnnofinawayrb	distributevbnawayrb	
+

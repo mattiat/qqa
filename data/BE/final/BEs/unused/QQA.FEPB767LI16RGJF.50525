@@ -1,0 +1,58 @@
+#I think you re smokin way too much, dude.  
+#(S1 (S (NP (PRP I)) (VP (VBP think) (NP (PRP you)) (NP (NP (NNP re) (FW smokin) (NN way)) (ADJP (RB too) (JJ much))) (, ,) (ADVP (RB dude))) (. .)))
+#Rule:Nouns
+r1reNNP
+r1wayNN
+
+#Rule:Verbs
+r2thinkVBP
+
+#Rule:Adjs
+r4muchJJ
+
+#Rule:Adj-Noun
+r5muchJJwayNN
+
+#Rule:HeadNoun-V
+r11iPRPthinkVBP
+
+#Rule:V-HeadNoun
+r21thinkVBPyouPRP
+r21thinkVBPwayNN
+
+#Rule:V-ADV
+r46thinkVBPdudeRB
+
+#Life isn t that complicated. 
+#(S1 (S (NP (NN Life) (NNS isn)) (VP (VBP t) (SBAR (IN that) (S (VP (VBN complicated))))) (. .)))
+#Rule:Nouns
+r1Life isn tOrganizationAnnotation
+
+#Rule:Verbs
+r2complicatedVBN
+
+#Rule:V-IN-V
+r43Life isn tOrganizationAnnotationthatINcomplicatedVBN
+
+#Just take it all in and enjoy.......mb
+#(S1 (S (ADVP (RB Just)) (VP (VP (VB take) (NP (NP (PRP it)) (NP (DT all))) (PRT (RP in))) (CC and) (VP (VB enjoy) (NP (CD .......) (NN mb))))))
+#Rule:Nouns
+r1mbNN
+
+#Rule:Verbs
+r2takeVB
+r2enjoyVB
+
+#Rule:V-PRT
+r3takeVBinRP
+
+#Rule:Adj-Noun
+r5.......CDmbNN
+
+#Rule:V-HeadNoun
+r21takeVBitPRP
+r21enjoyVBmbNN
+
+@lemmas-left	.......	complicate	think	take	Life isn t	mb	way	enjoy	complicated	re	much	i	
+@lemmas-right	complicate	think	it	dude	mb	way	you	complicated	in	
+@lemmas-center	that	

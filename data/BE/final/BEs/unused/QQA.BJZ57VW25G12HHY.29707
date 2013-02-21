@@ -1,0 +1,44 @@
+#It is athletic, but with exceptions there is no element of competition.  
+#(S1 (S (S (NP (PRP It)) (VP (AUX is) (ADJP (JJ athletic)))) (, ,) (CC but) (S (PP (IN with) (NP (NNS exceptions))) (NP (EX there)) (VP (AUX is) (NP (NP (DT no) (NN element)) (PP (IN of) (NP (NN competition)))))) (. .)))
+#Rule:Nouns
+r1exceptionsNNS
+r1elementNN
+r1competitionNN
+
+#Rule:Adjs
+r4athleticJJ
+
+#Rule:HeadNoun-V
+r11itPRPisAUX
+r11thereEXisAUX
+
+#Rule:V-HeadNoun
+r21isAUXelementNN
+
+#Rule:V-ADJ
+r25isAUXathleticJJ
+
+#Rule:PPinNP
+r26elementNNofINcompetitionNN
+
+#Rule:PPinS
+r36isAUXwithINexceptionsNNS
+
+#It is more like dance; worthy, but not a sport.
+#(S1 (S (S (NP (PRP It)) (VP (AUX is) (PP (ADVP (RBR more)) (IN like) (NP (NN dance))))) (: ;) (S (UCP (ADJP (JJ worthy)) (, ,) (CC but) (NP (RB not) (DT a) (NN sport)))) (. .)))
+#Rule:Nouns
+r1danceNN
+r1sportNN
+
+#Rule:Adjs
+r4worthyJJ
+
+#Rule:HeadNoun-V
+r11itPRPisAUX
+
+#Rule:PPinVP
+r30isAUXlikeINdanceNN
+
+@lemmas-left	element	exceptions	is	it	there	exception	sport	dance	worthy	be	athletic	competition	
+@lemmas-right	exceptions	element	is	exception	dance	competition	athletic	be	
+@lemmas-center	of	with	like	

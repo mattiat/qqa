@@ -1,0 +1,18 @@
+#open heart surgery
+#(S1 (NP (JJ open) (NN heart) (NN surgery)))
+#Rule:Nouns
+r1heartNN
+r1surgeryNN
+
+#Rule:Adjs
+r4openJJ
+
+#Rule:Adj-Noun
+r5openJJsurgeryNN
+
+#Rule:N-HeadNoun
+r8heartNNsurgeryNN
+
+@lemmas-left	open	heart	surgery	
+@lemmas-right	surgery	
+@lemmas-center	

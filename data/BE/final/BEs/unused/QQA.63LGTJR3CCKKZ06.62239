@@ -1,0 +1,251 @@
+#Julius Caesar created leap years in 46 B.C.  Caesar s astronomer, Sosigenes, did the actual math to determine how often it was required..
+#(S1 (S (NP (NNP Julius) (NNP Caesar)) (VP (VBD created) (NP (NN leap) (NNS years)) (PP (IN in) (NP (CD 46))) (SBAR (S (NP (NP (NNP B.C.) (NNP Caesar) (NNP s) (NN astronomer)) (, ,) (NP (NNP Sosigenes)) (, ,)) (VP (AUX did) (NP (DT the) (JJ actual) (NN math)) (S (VP (TO to) (VP (VB determine) (SBAR (WHADVP (WRB how) (RB often)) (S (NP (PRP it)) (VP (AUX was) (VP (VBN required)))) (. .))))))))) (. .)))
+#Rule:Nouns
+r1Julius CaesarOrganizationAnnotation
+r1leapNN
+r1yearsNNS
+r1B.C.  CaesarOrganizationAnnotation
+r1sNNP
+r1astronomerNN
+r1SosigenesPersonAnnotation
+r1mathNN
+
+#Rule:Verbs
+r2createdVBD
+r2determineVB
+r2requiredVBN
+
+#Rule:Adjs
+r4actualJJ
+
+#Rule:Adj-Noun
+r5actualJJmathNN
+
+#Rule:N-HeadNoun
+r8leapNNyearsNNS
+r8sNNPastronomerNN
+r8B.C.  CaesarOrganizationAnnotationastronomerNN
+
+#Rule:N-ApposN
+r10astronomerNNSosigenesPersonAnnotation
+
+#Rule:HeadNoun-V
+r11Julius CaesarOrganizationAnnotationcreatedVBD
+r11astronomerNNdidAUX
+r11SosigenesPersonAnnotationdidAUX
+
+#Rule:V-HeadNoun
+r21createdVBDyearsNNS
+r21didAUXmathNN
+
+#Rule:V-HeadNoun(passive)
+r23requiredVBNitPRP
+
+#Rule:PPinVP
+r30createdVBDinIN46CD
+
+#In 1582, Pope Gregory XIII refined the leap years system slightly, when it had been determined that Caesar s calendar still created an error of 3 days every 400 years.
+#(S1 (S (PP (IN In) (NP (CD 1582))) (, ,) (NP (NNP Pope) (NNP Gregory) (NNP XIII)) (VP (VBN refined) (NP (DT the) (NN leap) (NNS years) (NN system)) (ADVP (RB slightly)) (, ,) (SBAR (WHADVP (WRB when)) (S (NP (PRP it)) (VP (AUX had) (VP (AUX been) (VP (VBN determined) (SBAR (IN that) (S (NP (NNP Caesar) (NNP s) (NN calendar)) (ADVP (RB still)) (VP (VBD created) (NP (NP (DT an) (NN error)) (PP (IN of) (NP (CD 3) (NNS days)))) (NP (DT every) (CD 400) (NNS years))))))))))) (. .)))
+#Rule:Nouns
+r1PopeNNP
+r1Gregory XIIIPersonAnnotation
+r1leapNN
+r1yearsNNS
+r1systemNN
+r1Caesar s calendarOrganizationAnnotation
+r1errorNN
+r1daysNNS
+r1yearsNNS
+
+#Rule:Verbs
+r2refinedVBN
+r2determinedVBN
+r2createdVBD
+
+#Rule:Adj-Noun
+r53CDdaysNNS
+r5400CDyearsNNS
+
+#Rule:N-HeadNoun
+r8PopeNNPGregory XIIIPersonAnnotation
+r8yearsNNSsystemNN
+r8leapNNsystemNN
+
+#Rule:HeadNoun-V
+r11Caesar s calendarOrganizationAnnotationcreatedVBD
+
+#Rule:V-HeadNoun
+r21refinedVBNsystemNN
+r21createdVBDerrorNN
+r21createdVBDyearsNNS
+
+#Rule:V-HeadNoun(passive)
+r23determinedVBNitPRP
+
+#Rule:V-HeadNoun(passive)
+r24refinedVBNGregory XIIIPersonAnnotation
+
+#Rule:PPinNP
+r26errorNNofINdaysNNS
+
+#Rule:PPinS
+r36refinedVBNinIN1582CD
+
+#Rule:V-IN-V
+r43determinedVBNthatINcreatedVBD
+
+#Rule:V-ADV
+r46refinedVBNslightlyRB
+r46createdVBDstillRB
+
+#  Gregory also skipped ten days of the calendar that year to compensate for the errors that had already occured.
+#(S1 (S (NP (NNP Gregory)) (ADVP (RB also)) (VP (VBD skipped) (NP (NP (NP (CD ten) (NNS days)) (PP (IN of) (NP (DT the) (NN calendar)))) (NP (DT that) (NN year))) (S (VP (TO to) (VP (VB compensate) (PP (IN for) (NP (NP (DT the) (NNS errors)) (SBAR (WHNP (WDT that)) (S (VP (AUX had) (ADVP (RB already)) (VP (VBN occured))))))))))) (. .)))
+#Rule:Nouns
+r1GregoryPersonAnnotation
+r1daysNNS
+r1calendarNN
+r1yearNN
+r1errorsNNS
+
+#Rule:Verbs
+r2skippedVBD
+r2compensateVB
+r2occuredVBN
+
+#Rule:Adj-Noun
+r5tenCDdaysNNS
+
+#Rule:HeadNoun-V
+r11GregoryPersonAnnotationskippedVBD
+
+#Rule:HeadNoun-(who/that)-V
+r15errorsNNSoccuredVBN
+
+#Rule:V-HeadNoun
+r21skippedVBDdaysNNS
+
+#Rule:PPinNP
+r26daysNNSofINcalendarNN
+
+#Rule:PPinVP
+r30compensateVBforINerrorsNNS
+
+#Rule:V-V
+r44skippedVBDcompensateVB
+
+#Rule:V-ADV
+r46skippedVBDalsoRB
+r46hadAUXalreadyRB
+r46occuredVBNalreadyRB
+
+#  Thursday, October 4th 1582 was followed by Friday, October 15th, 1582.
+#(S1 (S (NP (NNP Thursday)) (, ,) (NP (NNP October) (JJ 4th) (CD 1582)) (VP (AUX was) (VP (VBN followed) (PP (IN by) (NP (NP (NNP Friday)) (, ,) (NP (NP (NNP October) (JJ 15th)) (, ,) (NP (CD 1582))))))) (. .)))
+#Rule:Nouns
+r1ThursdayNNP
+r1OctoberNNP
+r1FridayNNP
+r1OctoberNNP
+
+#Rule:Verbs
+r2followedVBN
+
+#Rule:Adjs
+r44thJJ
+r415thJJ
+
+#Rule:Adj-Noun
+r54thJJOctoberNNP
+r51582CDOctoberNNP
+r515thJJOctoberNNP
+
+#Rule:N-ApposN
+r10FridayNNPOctoberNNP
+r10OctoberNNP1582CD
+
+#Rule:V-By-Agent
+r13FridayNNPfollowedVBN
+r13OctoberNNPfollowedVBN
+r131582CDfollowedVBN
+
+#Rule:V-HeadNoun(passive)
+r23followedVBNThursdayNNP
+r23followedVBNOctoberNNP
+
+#The effect of not having a leap day is that the seasons would slowly drift around the calender in a cycle of about 1500 years.
+#(S1 (S (NP (NP (DT The) (NN effect)) (PP (IN of) (S (VP (RB not) (AUXG having) (NP (DT a) (NN leap) (NN day)))))) (VP (AUX is) (SBAR (IN that) (S (NP (DT the) (NNS seasons)) (VP (MD would) (ADVP (RB slowly)) (VP (VB drift) (PP (IN around) (NP (NP (DT the) (NN calender)) (PP (IN in) (NP (NP (DT a) (NN cycle)) (PP (IN of) (NP (QP (RB about) (CD 1500)) (NNS years)))))))))))) (. .)))
+#Rule:Nouns
+r1effectNN
+r1leapNN
+r1dayNN
+r1seasonsNNS
+r1calenderNN
+r1cycleNN
+r1yearsNNS
+
+#Rule:Verbs
+r2driftVB
+
+#Rule:Adj-Noun
+r51500CDyearsNNS
+
+#Rule:N-HeadNoun
+r8leapNNdayNN
+
+#Rule:HeadNoun-V
+r11effectNNisAUX
+r11seasonsNNSdriftVB
+
+#Rule:V-HeadNoun
+r21havingAUXGdayNN
+
+#Rule:PPinNP
+r26calenderNNinINcycleNN
+r26cycleNNofINyearsNNS
+
+#Rule:PPinVP
+r30driftVBaroundINcalenderNN
+
+#Rule:V-IN-V
+r43isAUXthatINdriftVB
+
+#Rule:V-ADV
+r46driftVBslowlyRB
+
+#  People tend to notice such things, even if it takes a few hundred years.
+#(S1 (S (NP (NNS People)) (VP (VBP tend) (S (VP (TO to) (VP (VB notice) (NP (JJ such) (NNS things)) (, ,) (SBAR (RB even) (IN if) (S (NP (PRP it)) (VP (VBZ takes) (NP (QP (DT a) (JJ few) (CD hundred)) (NNS years))))))))) (. .)))
+#Rule:Nouns
+r1PeopleNNS
+r1thingsNNS
+r1yearsNNS
+
+#Rule:Verbs
+r2tendVBP
+r2noticeVB
+r2takesVBZ
+
+#Rule:Adjs
+r4suchJJ
+r4fewJJ
+
+#Rule:Adj-Noun
+r5suchJJthingsNNS
+r5fewJJyearsNNS
+r5hundredCDyearsNNS
+
+#Rule:HeadNoun-V
+r11PeopleNNStendVBP
+r11itPRPtakesVBZ
+
+#Rule:V-HeadNoun
+r21noticeVBthingsNNS
+r21takesVBZyearsNNS
+
+#Rule:V-IN-V
+r43noticeVBifINtakesVBZ
+
+#Rule:V-V
+r44tendVBPnoticeVB
+
+@lemmas-left	Julius Caesar	ten	Sosigenes	hundred	determine	tend	refined	skip	people	takes	1582	B.C.  Caesar	errors	Thursday	created	year	required	friday	4th	had	be	follow	October	cycle	such	occured	thursday	did	astronomer	create	few	3	system	season	400	require	day	years	compensate	leap	have	Pope	Gregory	drift	followed	refine	calender	1500	Caesar s calendar	do	notice	Friday	calendar	is	it	error	Gregory XIII	math	15th	effect	days	s	skipped	seasons	take	determined	actual	having	things	october	People	pope	occur	
+@lemmas-right	Sosigenes	tend	drift	skip	followed	takes	calender	1582	errors	Thursday	slightly	created	do	notice	be	follow	calendar	October	slowly	cycle	is	it	Gregory XIII	error	occured	thursday	46	did	still	already	astronomer	create	math	system	days	skipped	take	things	day	october	years	compensate	also	occur	
+@lemmas-center	that	of	for	if	in	around	

@@ -1,0 +1,303 @@
+#Probably because Breast Cancer is the most prevalent cancer concerning women, just as Prostate Cancer is amongst men..
+#(S1 (FRAG (ADVP (RB Probably)) (SBAR (IN because) (S (NP (NN Breast) (NN Cancer)) (VP (AUX is) (NP (NP (DT the) (ADJP (RBS most) (JJ prevalent)) (NN cancer)) (VP (VBG concerning) (NP (NNS women)))) (, ,) (SBAR (RB just) (IN as) (S (NP (NN Prostate) (NN Cancer)) (VP (AUX is) (PP (IN amongst) (NP (NNS men))))) (. .))))) (. .)))
+#Rule:Nouns
+r1Breast CancerOrganizationAnnotation
+r1cancerNN
+r1womenNNS
+r1Prostate CancerOrganizationAnnotation
+r1menNNS
+
+#Rule:Verbs
+r2concerningVBG
+
+#Rule:Adjs
+r4prevalentJJ
+
+#Rule:Adj-Noun
+r5prevalentJJcancerNN
+
+#Rule:HeadNoun-V
+r11Breast CancerOrganizationAnnotationisAUX
+r11cancerNNconcerningVBG
+r11Prostate CancerOrganizationAnnotationisAUX
+
+#Rule:V-HeadNoun
+r21isAUXcancerNN
+r21concerningVBGwomenNNS
+
+#Rule:PPinVP
+r30isAUXamongstINmenNNS
+
+#Rule:V-IN-V
+r43isAUXasINisAUX
+
+#Rule:IS-RULE
+r47cancerNNBreast CancerOrganizationAnnotation
+
+#The other Cancers are not PUSHED ASIDE, all new treatments, etc ,go towards the treatment ofall the other forms of Cancer..
+#(S1 (S (S (NP (DT The) (JJ other) (NNS Cancers)) (VP (AUX are) (RB not) (VP (VBN PUSHED) (ADVP (RB ASIDE))))) (, ,) (NP (NP (DT all) (JJ new) (NNS treatments)) (, ,) (NP (FW etc)) (, ,)) (VP (VBP go) (SBAR (IN towards) (S (NP (DT the) (NN treatment)) (VP (VB ofall) (NP (NP (DT the) (JJ other) (NNS forms)) (PP (IN of) (NP (NNP Cancer))))) (. .)))) (. .)))
+#Rule:Nouns
+r1CancersNNS
+r1treatmentsNNS
+r1treatmentNN
+r1formsNNS
+r1CancerOrganizationAnnotation
+
+#Rule:Verbs
+r2PUSHED ASIDEOrganizationAnnotation
+r2goVBP
+r2ofallVB
+
+#Rule:Adjs
+r4otherJJ
+r4newJJ
+r4otherJJ
+
+#Rule:Adj-Noun
+r5otherJJCancersNNS
+r5newJJtreatmentsNNS
+r5otherJJformsNNS
+
+#Rule:N-ApposN
+r10treatmentsNNSetcFW
+
+#Rule:HeadNoun-V
+r11treatmentsNNSgoVBP
+r11etcFWgoVBP
+r11treatmentNNofallVB
+
+#Rule:V-HeadNoun
+r21ofallVBformsNNS
+
+#Rule:V-HeadNoun(passive)
+r23PUSHED ASIDEOrganizationAnnotationCancersNNS
+
+#Rule:PPinNP
+r26formsNNSofINCancerOrganizationAnnotation
+
+#Rule:V-IN-V
+r43goVBPtowardsINofallVB
+
+#Rule:V-ADV
+r46areAUXnotRB
+
+#My wife is a 4 year survivor of Breast Cancer, she has more relatives dead through Cancer(not just Breast) than she has living..
+#(S1 (S (S (NP (PRP$ My) (NN wife)) (VP (AUX is) (NP (NP (DT a) (ADJP (CD 4) (NN year)) (NN survivor)) (PP (IN of) (NP (NN Breast) (NN Cancer)))))) (, ,) (S (NP (PRP she)) (VP (AUX has) (NP (NP (NP (JJR more) (NNS relatives)) (PP (JJ dead) (IN through) (NP (NNP Cancer)))) (PRN (-LRB- -LRB-) (NP (RB not) (RB just) (NN Breast)) (-RRB- -RRB-)) (SBAR (IN than) (S (NP (PRP she)) (VP (AUX has) (VP (VBG living))))) (. .)))) (. .)))
+#Rule:Nouns
+r1wifeNN
+r1yearNN
+r1survivorNN
+r1Breast CancerOrganizationAnnotation
+r1relativesNNS
+r1CancerOrganizationAnnotation
+r1BreastLocationAnnotation
+
+#Rule:Verbs
+r2livingVBG
+
+#Rule:Adjs
+r4moreJJR
+r4deadJJ
+
+#Rule:Adj-Noun
+r54CDsurvivorNN
+r5moreJJRrelativesNNS
+
+#Rule:PRP-Noun
+r6myPRP$wifeNN
+
+#Rule:HeadNoun-V
+r11wifeNNisAUX
+r11shePRPhasAUX
+r11shePRPlivingVBG
+
+#Rule:V-HeadNoun
+r21isAUXsurvivorNN
+r21hasAUXrelativesNNS
+
+#Rule:PPinNP
+r26survivorNNofINBreast CancerOrganizationAnnotation
+r26relativesNNSthroughINCancerOrganizationAnnotation
+
+#Rule:IS-RULE
+r47survivorNNwifeNN
+
+#Some of them are, Brain Cancer, Kidney, Liver, Bone, Colon, Lung, need i go on??
+#(S1 (S (NP (NP (DT Some)) (PP (IN of) (NP (PRP them)))) (VP (AUX are) (, ,) (SQ (PP (NN Brain) (NP (NNP Cancer) (, ,) (NN Kidney) (, ,) (NN Liver) (, ,) (NN Bone) (, ,) (NNP Colon) (, ,) (NNP Lung))) (, ,) (AUX need) (NP (PRP i)) (VP (VB go) (PRT (RP on))) (. ?))) (. ?)))
+#Rule:Nouns
+r1Brain CancerOrganizationAnnotation
+r1KidneyLocationAnnotation
+r1LiverLocationAnnotation
+r1BoneLocationAnnotation
+r1ColonLocationAnnotation
+r1LungLocationAnnotation
+
+#Rule:V-PRT
+r3goVBonRP
+
+#Rule:HeadNoun-V
+r11someDTareAUX
+
+#Rule:PPinNP
+r26someDTofINthemPRP
+
+#If all of these were continually being pumped across the airwaves, what would your next complaints be (Why all the adds for different cancers? why cant they choose just one?)Breast cancer/Prostate Cancer are the prevalent ones as i said before..
+#(S1 (SBARQ (SBAR (IN If) (S (NP (NP (DT all)) (PP (IN of) (NP (DT these)))) (VP (AUX were) (ADVP (RB continually)) (VP (AUXG being) (VP (VBN pumped) (PP (IN across) (NP (DT the) (NNS airwaves)))))))) (, ,) (WHNP (WP what)) (SQ (MD would) (NP (PRP$ your) (JJ next) (NNS complaints)) (VP (AUX be) (-LRB- -LRB-) (SBAR (WHADVP (WRB Why)) (S (NP (PDT all) (DT the)) (VP (VBZ adds) (PP (IN for) (NP (JJ different) (NNS cancers))))))) (. ?) (SBAR (WHADVP (WRB why)) (S (NP (NN cant) (PRN (S (NP (PRP they)) (VP (VBP choose) (NP (QP (RB just) (CD one)))) (. ?)) (-RRB- -RRB-)) (NN Breast) (NN cancer/Prostate) (NN Cancer)) (VP (AUX are) (NP (DT the) (JJ prevalent) (NNS ones)) (SBAR (IN as) (S (NP (PRP i)) (VP (VBD said) (ADVP (RB before)))))))) (. .)) (. .)))
+#Rule:Nouns
+r1airwavesNNS
+r1complaintsNNS
+r1cancersNNS
+r1cantNN
+r1Breast cancer/Prostate CancerOrganizationAnnotation
+r1onesNNS
+
+#Rule:Verbs
+r2pumpedVBN
+r2addsVBZ
+r2chooseVBP
+r2saidVBD
+
+#Rule:Adjs
+r4nextJJ
+r4differentJJ
+r4prevalentJJ
+
+#Rule:Adj-Noun
+r5nextJJcomplaintsNNS
+r5differentJJcancersNNS
+r5oneCDjustRB
+r5prevalentJJonesNNS
+
+#Rule:PRP-Noun
+r6yourPRP$complaintsNNS
+
+#Rule:HeadNoun-V
+r11theDTaddsVBZ
+r11Breast cancer/Prostate CancerOrganizationAnnotationareAUX
+r11theyPRPchooseVBP
+r11iPersonAnnotationsaidVBD
+
+#Rule:V-HeadNoun
+r21chooseVBPjustRB
+r21areAUXonesNNS
+
+#Rule:V-HeadNoun(passive)
+r23pumpedVBNallDT
+
+#Rule:PPinNP
+r26allDTofINtheseDT
+
+#Rule:PPinVP
+r30addsVBZforINcancersNNS
+
+#Rule:PPinVP
+r32pumpedVBNacrossINairwavesNNS
+
+#Rule:V-IN-V
+r43areAUXasINsaidVBD
+
+#Rule:V-ADV
+r46wereAUXcontinuallyRB
+r46saidVBDbeforeRB
+
+#Rule:IS-RULE
+r47onesNNSBreast cancer/Prostate CancerOrganizationAnnotation
+
+#Would you buy a pen/magnet/shirt,etc, for each&every one of the other forms of Cancer that are out there??
+#(S1 (SQ (SQ (MD Would) (NP (PRP you)) (VP (VB buy) (NP (DT a) (NN pen/magnet/shirt)) (, ,) (NP (FW etc)) (, ,) (PP (IN for) (NP (NP (NN each&every) (CD one)) (PP (IN of) (NP (NP (DT the) (JJ other) (NNS forms)) (PP (IN of) (NP (NNP Cancer))) (SBAR (WHNP (WDT that)) (S (VP (AUX are) (ADVP (IN out) (RB there)))))))))) (. ?)) (. ?)))
+#Rule:Nouns
+r1pen/magnet/shirtOrganizationAnnotation
+r1each&everyNN
+r1formsNNS
+r1CancerNNP
+
+#Rule:Verbs
+r2buyVB
+
+#Rule:Adjs
+r4otherJJ
+
+#Rule:Adj-Noun
+r5oneCDeach&everyNN
+r5otherJJformsNNS
+
+#Rule:HeadNoun-(who/that)-V
+r14formsNNSareAUX
+
+#Rule:V-HeadNoun
+r21buyVBpen/magnet/shirtOrganizationAnnotation
+r21buyVBetcFW
+
+#Rule:PPinNP
+r26each&everyNNofINformsNNS
+r26formsNNSofINCancerNNP
+
+#Rule:PPinVP
+r30buyVBforINeach&everyNN
+
+#Rule:V-ADV
+r46areAUXthereRB
+
+#The answer is more than likely to be NO, because of the overkill!!
+#(S1 (S (NP (DT The) (NN answer)) (VP (AUX is) (ADJP (ADVP (RBR more) (IN than)) (JJ likely) (S (VP (TO to) (VP (AUX be) (NP (RB NO)) (, ,) (PP (IN because) (IN of) (NP (DT the) (NN overkill)))))) (. !))) (. !)))
+#Rule:Nouns
+r1answerNN
+r1overkill!!LocationAnnotation
+
+#Rule:Adjs
+r4likelyJJ
+
+#Rule:HeadNoun-V
+r11answerNNisAUX
+
+#Rule:V-HeadNoun
+r21beAUXNOOrganizationAnnotation
+
+#Rule:V-ADJ
+r25isAUXmoreRBR
+
+#Rule:PPinVP
+r30beAUXofINoverkill!!LocationAnnotation
+
+#I hope this rant does not offend you, it s a subject VERY close to my, my wifes&our kid s hearts
+#(S1 (S (S (NP (PRP I)) (VP (VBP hope) (SBAR (S (NP (DT this) (NN rant)) (VP (AUX does) (RB not) (VP (VB offend) (NP (PRP you)))))) (, ,) (SBAR (S (NP (PRP it)) (VP (VBZ s) (NP (DT a) (NN subject)) (ADVP (RB VERY) (RB close) (PP (TO to) (NP (PRP$ my))))))))) (, ,) (NP (PRP$ my) (JJ wifes&our) (NN kid)) (VP (VBZ s) (NP (NNS hearts)))))
+#Rule:Nouns
+r1rantNN
+r1subjectNN
+r1kidNN
+r1heartsNNS
+
+#Rule:Verbs
+r2hopeVBP
+r2offendVB
+r2sVBZ
+r2sVBZ
+
+#Rule:Adjs
+r4wifes&ourJJ
+
+#Rule:Adj-Noun
+r5wifes&ourJJkidNN
+
+#Rule:PRP-Noun
+r6myPRP$kidNN
+
+#Rule:HeadNoun-V
+r11kidNNsVBZ
+r11iPRPhopeVBP
+r11rantNNoffendVB
+r11itPRPsVBZ
+
+#Rule:V-HeadNoun
+r21offendVByouPRP
+r21sVBZsubjectNN
+r21sVBZheartsNNS
+
+#Rule:V-ADV
+r46doesAUXnotRB
+r46sVBZVERYRB
+r46sVBZcloseRB
+
+@lemmas-left	they	hearts	said	buy	airwave	treatment	etc	concern	survivor	each&every	adds	rant	every	has	kid	were	are	more	Breast cancer/Prostate Cancer	woman	she	year	dead	choose	concerning	be	live	form	likely	answer	prevalent	pump	relative	Cancers	Bone	offend	cant	4	say	Prostate Cancer	relatives	some	hope	go	does	different	pumped	other	have	subject	next	one	Breast Cancer	add	wifes&our	complaints	PUSHED ASIDE	airwaves	Brain Cancer	Colon	do	ofall	men	all	forms	complaint	is	it	overkill!!	pen/magnet/shirt	your	Breast	the	ones	living	women	my	Cancer	i	cancers	new	s	Lung	wife	Kidney	Liver	cancer	treatments	
+@lemmas-right	VERY	hearts	said	airwave	treatment	survivor	etc	concern	each&every	adds	every	has	close	kid	more	are	Breast cancer/Prostate Cancer	woman	on	concerning	choose	be	live	these	form	relative	Cancers	not	offend	them	continually	say	relatives	hope	go	have	subject	before	one	Breast Cancer	add	complaints	NO	airwaves	ofall	men	forms	complaint	all	just	is	overkill!!	pen/magnet/shirt	you	living	ones	women	Cancer	cancers	s	wife	there	cancer	very	treatments	
+@lemmas-center	of	for	amongst	as	through	towards	across	

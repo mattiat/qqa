@@ -1,0 +1,78 @@
+#No money needs to be paid if you use LuLu. 
+#(S1 (S (NP (DT No) (NN money)) (VP (VBZ needs) (S (VP (TO to) (VP (AUX be) (VP (VBN paid) (SBAR (IN if) (S (NP (PRP you)) (VP (VBP use) (NP (NNP LuLu)))))))))) (. .)))
+#Rule:Nouns
+r1moneyNN
+r1LuLuLocationAnnotation
+
+#Rule:Verbs
+r2needsVBZ
+r2paidVBN
+r2useVBP
+
+#Rule:HeadNoun-V
+r11moneyNNneedsVBZ
+r11youPRPuseVBP
+
+#Rule:V-HeadNoun
+r21useVBPLuLuLocationAnnotation
+
+#Rule:V-IN-V
+r43paidVBNifINuseVBP
+
+#It works really well! 
+#(S1 (S (NP (PRP It)) (VP (VBZ works) (ADVP (RB really) (RB well))) (. !)))
+#Rule:Verbs
+r2worksVBZ
+
+#Rule:HeadNoun-V
+r11itPRPworksVBZ
+
+#Rule:V-ADV
+r46worksVBZreallyRB
+r46worksVBZwellRB
+
+#For all other companies like Random House and stuff, you need an agent to get it done for you. 
+#(S1 (S (PP (IN For) (NP (NP (DT all) (JJ other) (NNS companies)) (PP (IN like) (NP (NP (NNP Random) (NNP House)) (CC and) (NP (NN stuff)))))) (, ,) (NP (PRP you)) (VP (AUX need) (NP (DT an) (NN agent)) (S (VP (TO to) (VP (VB get) (S (NP (PRP it)) (VP (AUX done) (PP (IN for) (NP (PRP you))))))))) (. .)))
+#Rule:Nouns
+r1companiesNNS
+r1Random HouseOrganizationAnnotation
+r1stuffNN
+r1agentNN
+
+#Rule:Verbs
+r2getVB
+
+#Rule:Adjs
+r4otherJJ
+
+#Rule:Adj-Noun
+r5otherJJcompaniesNNS
+
+#Rule:HeadNoun-V
+r11youPRPneedAUX
+r11itPRPdoneAUX
+
+#Rule:V-HeadNoun
+r21needAUXagentNN
+
+#Rule:V-HeadNoun
+r22getVBitPRP
+
+#Rule:PPinNP
+r26companiesNNSlikeINRandom HouseOrganizationAnnotation
+r26companiesNNSlikeINstuffNN
+
+#Rule:PPinVP
+r30doneAUXforINyouPRP
+
+#Rule:PPinS
+r36needAUXforINcompaniesNNS
+
+#Good Luck!
+#(S1 (INTJ (JJ Good) (NN Luck) (. !)))
+#Rule:Nouns
+r1Good Luck!PersonAnnotation
+
+@lemmas-left	need	work	other	it	get	needs	done	use	companies	you	agent	works	paid	Good Luck!	stuff	company	money	pay	do	Random House	LuLu	
+@lemmas-right	need	work	it	needs	done	use	companies	you	well	agent	works	really	stuff	company	do	Random House	LuLu	
+@lemmas-center	for	if	like	

@@ -1,0 +1,40 @@
+#They give you good drugs. 
+#(S1 (S (NP (PRP They)) (VP (VBP give) (NP (PRP you)) (NP (JJ good) (NNS drugs))) (. .)))
+#Rule:Nouns
+r1drugsNNS
+
+#Rule:Verbs
+r2giveVBP
+
+#Rule:Adjs
+r4goodJJ
+
+#Rule:Adj-Noun
+r5goodJJdrugsNNS
+
+#Rule:HeadNoun-V
+r11theyPRPgiveVBP
+
+#Rule:V-HeadNoun
+r21giveVBPyouPRP
+r21giveVBPdrugsNNS
+
+#Does feel bad, but not as bad as other things might,
+#(S1 (S (VP (AUX Does) (VP (VB feel) (ADJP (ADJP (JJ bad)) (, ,) (CC but) (ADJP (RB not) (RB as) (JJ bad) (SBAR (IN as) (S (NP (JJ other) (NNS things)) (VP (MD might))))) (, ,))))))
+#Rule:Nouns
+r1thingsNNS
+
+#Rule:Verbs
+r2feelVB
+
+#Rule:Adjs
+r4badJJ
+r4badJJ
+r4otherJJ
+
+#Rule:Adj-Noun
+r5otherJJthingsNNS
+
+@lemmas-left	feel	they	other	give	drugs	good	bad	things	drug	
+@lemmas-right	give	drugs	you	things	drug	
+@lemmas-center	

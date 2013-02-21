@@ -1,0 +1,39 @@
+#It mostly has to do with people acting out of passion and not out of responsibility.  
+#(S1 (S (NP (PRP It)) (ADVP (RB mostly)) (VP (AUX has) (S (VP (TO to) (VP (AUX do) (PP (IN with) (S (NP (NNS people)) (VP (VBG acting) (PP (PP (IN out) (PP (IN of) (NP (NN passion)))) (CC and) (RB not) (PP (IN out) (PP (IN of) (NP (NN responsibility)))))))))))) (. .)))
+#Rule:Nouns
+r1peopleNNS
+r1passionNN
+r1responsibilityNN
+
+#Rule:Verbs
+r2actingVBG
+
+#Rule:HeadNoun-V
+r11itPRPhasAUX
+r11peopleNNSactingVBG
+
+#Rule:V-ADV
+r46hasAUXmostlyRB
+
+#Lust not love.  
+#(S1 (S (NP (JJS Lust)) (VP (RB not) (VP (VBP love))) (. .)))
+#Rule:Verbs
+r2loveVBP
+
+#Rule:Adjs
+r4LustJJS
+
+#Rule:HeadNoun-V
+r11LustJJSloveVBP
+
+#Google it.
+#(S1 (S (VP (VB Google) (NP (PRP it))) (. .)))
+#Rule:Verbs
+r2googleVB
+
+#Rule:V-HeadNoun
+r21googleVBitPRP
+
+@lemmas-left	love	lust	Lust	google	it	have	acting	act	passion	people	has	responsibility	
+@lemmas-right	love	it	have	acting	act	has	mostly	
+@lemmas-center	

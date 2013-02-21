@@ -1,0 +1,17 @@
+#Kalimara..Greek CyprusGood site here.http://www.elite.net/~runner/jennifers/gmorning.htm
+#(S1 (FRAG (X (FW Kalimara) (FW ..) (NP (JJ Greek) (NNP CyprusGood) (NN site) (NNS here.http))) (: :) (NP (NN //www.elite.net/~runner/jennifers/gmorning.htm))))
+#Rule:Nouns
+r1Kalimara..Greek CyprusGoodPersonAnnotation
+r1siteNN
+r1here.httpNNS
+r1//www.elite.net/~runner/jennifers/gmorning.htmNN
+
+#Rule:Adj-Noun
+r5Kalimara..Greek CyprusGoodPersonAnnotationhere.httpNNS
+
+#Rule:N-HeadNoun
+r8siteNNhere.httpNNS
+
+@lemmas-left	site	//www.elite.net/~runner/jennifers/gmorning.htm	http	here.http	Kalimara..Greek CyprusGood	
+@lemmas-right	http	here.http	
+@lemmas-center	

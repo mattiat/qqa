@@ -1,0 +1,28 @@
+#It was a Disney copyright thing. 
+#(S1 (S (NP (PRP It)) (VP (AUX was) (NP (DT a) (NNP Disney) (NN copyright) (NN thing))) (. .)))
+#Rule:Nouns
+r1DisneyLocationAnnotation
+r1copyrightNN
+r1thingNN
+
+#Rule:N-HeadNoun
+r8copyrightNNthingNN
+r8DisneyLocationAnnotationthingNN
+
+#Rule:HeadNoun-V
+r11itPRPwasAUX
+
+#Rule:V-HeadNoun
+r21wasAUXthingNN
+
+#You understand.
+#(S1 (S (NP (PRP You)) (VP (VBP understand)) (. .)))
+#Rule:Verbs
+r2understandVBP
+
+#Rule:HeadNoun-V
+r11youPRPunderstandVBP
+
+@lemmas-left	understand	it	you	copyright	Disney	was	be	thing	
+@lemmas-right	understand	was	be	thing	
+@lemmas-center	

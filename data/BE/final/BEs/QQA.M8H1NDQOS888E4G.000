@@ -1,0 +1,22 @@
+#How do you lose weight?...
+#(S1 (SBARQ (WHADVP (WRB How)) (SQ (SQ (AUX do) (NP (PRP you)) (VP (VB lose) (NP (NN weight))) (. ?)) (FRAG (ADJP (JJ ..)))) (. .)))
+#Rule:Nouns
+r1weightNN
+
+#Rule:Verbs
+r2loseVB
+
+#Rule:Adjs
+r4..JJ
+
+#Rule:V-HeadNoun
+r21loseVBweightNN
+
+#And does it work?
+#(S1 (SQ (CC And) (AUX does) (NP (PRP it)) (VP (VB work)) (. ?)))
+#Rule:Verbs
+r2workVB
+
+@lemmas-left	work	lose	weight	..	
+@lemmas-right	weight	
+@lemmas-center	

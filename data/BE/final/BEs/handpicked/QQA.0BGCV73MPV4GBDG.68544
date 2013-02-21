@@ -1,0 +1,16 @@
+#use sandpaper to sand them down.
+#(S1 (S (VP (VB use) (NP (NN sandpaper)) (S (VP (TO to) (VP (NN sand) (NP (PRP them)) (ADVP (RB down)))))) (. .)))
+#Rule:Nouns
+r1sandpaperNN
+r1sandNN
+
+#Rule:Verbs
+r2useVB
+
+#Rule:V-HeadNoun
+r21useVBsandpaperNN
+r21sandNNthemPRP
+
+@lemmas-left	sand	sandpaper	use	
+@lemmas-right	sandpaper	them	
+@lemmas-center	

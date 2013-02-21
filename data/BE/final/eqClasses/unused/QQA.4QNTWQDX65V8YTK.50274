@@ -1,0 +1,543 @@
+BE: restNN
+EQ class: remaindernn	residuumnn	balancenn	residualnn	residuenn	
+
+BE: livesNNS
+EQ class: theynns	themnns	lifenns	
+
+BE: theirPRP$livesNNS
+EQ class: lifennsofintheirprp$	theirprp$lifenns	theynnsofintheirprp$	themnnsofintheirprp$	theirprp$themnns	livesnnsofintheirprp$	theirprp$theynns	
+
+BE: restNNofINlivesNNS
+EQ class: livesnnsremaindernn	lifennsremaindernn	lifennsresiduumnn	themnnsremaindernn	theynnsresiduenn	residualnnofinthemnns	theynnsresiduumnn	balancennofinlivesnns	balancennofintheynns	themnnsrestnn	theynnsresidualnn	theynnsrestnn	themnnsbalancenn	residuennofinthemnns	residuennofinlivesnns	residuumnnofinthemnns	livesnnsresidualnn	remaindernnofinthemnns	restnnofinthemnns	restnnofinlifenns	lifennsresidualnn	lifennsbalancenn	themnnsresidualnn	remaindernnofintheynns	livesnnsbalancenn	remaindernnofinlifenns	theynnsremaindernn	restnnofintheynns	remaindernnofinlivesnns	livesnnsrestnn	residuennofintheynns	residuumnnofintheynns	livesnnsresiduumnn	lifennsresiduenn	themnnsresiduumnn	residuumnnofinlivesnns	residualnnofinlifenns	lifennsrestnn	residualnnofinlivesnns	residualnnofintheynns	balancennofinthemnns	residuumnnofinlifenns	residuennofinlifenns	themnnsresiduenn	theynnsbalancenn	balancennofinlifenns	livesnnsresiduenn	
+
+BE: lymphOrganizationAnnotation
+EQ class: 
+
+BE: cancersNNS
+EQ class: cancernns	cancerousjj	theynns	malignant_neoplastic_diseasenns	themnns	
+
+BE: therapyNN
+EQ class: therapeuticjj	therapeuticaljj	
+
+BE: drugsNNS
+EQ class: drugnns	theynns	themnns	
+
+BE: partsNNS
+EQ class: theynns	themnns	
+
+BE: cancerNN
+EQ class: cancerousjj	malignant_neoplastic_diseasenn	
+
+BE: cellsNNS
+EQ class: cellnns	cellularjj	theynns	themnns	
+
+BE: othersNNS
+EQ class: theynns	themnns	
+
+BE: chemotherapiesNNS
+EQ class: chemotherapeuticaljj	chemotherapynns	theynns	chemotherapeuticjj	themnns	
+
+BE: treatmentsNNS
+EQ class: interventionnns	theynns	treatmentnns	themnns	
+
+BE: treatedVBN
+EQ class: do_byvbn	treatvbn	handlevbn	
+
+BE: getVBP
+EQ class: acquirevbp	
+
+BE: treatVB
+EQ class: handlevb	do_byvb	
+
+BE: treatedVBN
+EQ class: do_byvbn	treatvbn	handlevbn	
+
+BE: targetVBP
+EQ class: placevbp	directvbp	aimvbp	pointvbp	
+
+BE: treatedVBN
+EQ class: do_byvbn	treatvbn	handlevbn	
+
+BE: easyJJ
+EQ class: easinessnn	
+
+BE: targetedJJ
+EQ class: 
+
+BE: certainJJ
+EQ class: 
+
+BE: particularJJ
+EQ class: particularitynn	specialjj	peculiarjj	
+
+BE: moreJJR
+EQ class: more_thanjjr	
+
+BE: generalJJ
+EQ class: generalitynn	generalnn	
+
+BE: otherJJ
+EQ class: 
+
+BE: targetedJJtherapyNN
+EQ class: targetedjjtherapeuticaljj	targetedjjtherapeuticjj	
+
+BE: certainJJpartsNNS
+EQ class: certainjjthemnns	certainjjtheynns	
+
+BE: particularJJcellsNNS
+EQ class: peculiarjjtheynns	specialjjtheynns	peculiarjjthemnns	particularitynncellnns	particularitynntheynns	peculiarjjcellnns	particularjjtheynns	particularjjcellularjj	particularitynnthemnns	specialjjcellnns	peculiarjjcellsnns	specialjjthemnns	particularjjcellnns	cellularvbparticularlyrb	particularitynncellularjj	particularjjthemnns	specialjjcellsnns	peculiarjjcellularjj	particularitynncellsnns	specialjjcellularjj	
+
+BE: moreJJRgeneralJJ
+EQ class: morejjrgeneralitynn	more_thanjjrgeneralnn	more_thanjjrgeneralitynn	morejjrgeneralnn	more_thanjjrgeneraljj	
+
+BE: lymphOrganizationAnnotationcancersNNS
+EQ class: lymphorganizationannotationcancernns	cancernnsofinlymphorganizationannotation	cancerousjjofinlymphorganizationannotation	lymphorganizationannotationthemnns	themnnsofinlymphorganizationannotation	cancersnnsofinlymphorganizationannotation	lymphorganizationannotationmalignant_neoplastic_diseasenns	lymphorganizationannotationcancerousvb	lymphorganizationannotationcancerousjj	theynnsofinlymphorganizationannotation	lymphorganizationannotationtheynns	malignant_neoplastic_diseasennsofinlymphorganizationannotation	cancerousvblymphorganizationannotation	
+
+BE: cancerNNcellsNNS
+EQ class: malignant_neoplastic_diseasennthemnns	themnnsofincancerousjj	cancerousjjcellularjj	cancerousjjthemnns	theynnsofincancernn	cancerousjjcellnns	malignant_neoplastic_diseasenncellularvb	cellularjjofincancerousjj	cancernncellularvb	cellularvbcancerousjj	malignant_neoplastic_diseasenntheynns	cancernnthemnns	cellularjjofincancernn	cellularvbcancernn	cellularjjofinmalignant_neoplastic_diseasenn	themnnsofincancernn	cancerousjjtheynns	malignant_neoplastic_diseasenncellsnns	cellnnsofinmalignant_neoplastic_diseasenn	cellsnnsofinmalignant_neoplastic_diseasenn	theynnsofincancerousjj	cancerousjjcellularvb	cancernncellularjj	malignant_neoplastic_diseasenncellnns	theynnsofinmalignant_neoplastic_diseasenn	cellsnnsofincancernn	cellnnsofincancerousjj	cellsnnsofincancerousjj	cancernntheynns	cellularvbmalignant_neoplastic_diseasenn	malignant_neoplastic_diseasenncellularjj	cellnnsofincancernn	cancerousjjcellsnns	cancernncellnns	themnnsofinmalignant_neoplastic_diseasenn	
+
+BE: cancersNNSgetVBP
+EQ class: themnnsacquirevbp	acquiringnntheynns	acquiringnnofincancerousjj	cancerousjjacquirevbp	cancernnsacquirevbp	gettingnnofincancersnns	gettingnncancersnns	gettingnnofinthemnns	cancerousjjgetvbp	malignant_neoplastic_diseasennsacquirevbp	gettingnncancernns	gettingnnofintheynns	gettingnnofincancerousjj	gettingnnthemnns	acquiringnnofintheynns	acquiringnncancernns	malignant_neoplastic_diseasennsgetvbp	cancernnsgetvbp	gettingnncancerousjj	gettingnnofinmalignant_neoplastic_diseasenns	acquiringnnmalignant_neoplastic_diseasenns	acquiringnnofincancernns	cancersnnsacquirevbp	theynnsacquirevbp	acquiringnnofinmalignant_neoplastic_diseasenns	gettingnnofincancernns	gettingnnmalignant_neoplastic_diseasenns	acquiringnncancersnns	acquiringnnofincancersnns	theynnsgetvbp	themnnsgetvbp	gettingnntheynns	acquiringnnthemnns	acquiringnncancerousjj	acquiringnnofinthemnns	
+
+BE: someDTareAUX
+EQ class: somedtbeaux	
+
+BE: drugsNNStargetVBP
+EQ class: targetnnofintheynns	theynnsplacevbp	targetnnofindrugnns	marknnofindrugsnns	themnnspointvbp	drugsnnsplacevbp	themnnsaimvbp	targetnnofinthemnns	themnnsplacevbp	drugnnstargetvbp	theynnstargetvbp	drugsnnsdirectvbp	drugnnsplacevbp	drugnnsaimvbp	theynnspointvbp	targetnnofindrugsnns	marknnofinthemnns	drugnnsdirectvbp	drugsnnsaimvbp	marknnofindrugnns	theynnsaimvbp	theynnsdirectvbp	marknnofintheynns	drugnnspointvbp	themnnstargetvbp	drugsnnspointvbp	themnnsdirectvbp	
+
+BE: targetVBPpartsNNS
+EQ class: targetnnofintheynns	marknnofinpartsnns	aimvbptheynns	placevbppartsnns	pointvbpthemnns	placevbpthemnns	directvbptheynns	marknnofinthemnns	placevbptheynns	targetvbpthemnns	aimvbppartsnns	targetnnofinpartsnns	targetnnofinthemnns	directvbppartsnns	aimvbpthemnns	marknnofintheynns	targetvbptheynns	pointvbptheynns	pointvbppartsnns	directvbpthemnns	
+
+BE: treatedVBNcancersNNS
+EQ class: do_byvbncancernns	handlevbnthemnns	do_byvbncancerousjj	do_byvbnmalignant_neoplastic_diseasenns	treatedvbncancernns	treatvbnthemnns	treatvbncancernns	handlevbntheynns	treatedvbnthemnns	do_byvbnthemnns	treatedvbntheynns	treatvbncancerousjj	treatedvbncancerousjj	handlevbncancersnns	treatedvbnmalignant_neoplastic_diseasenns	treatvbnmalignant_neoplastic_diseasenns	treatvbntheynns	treatvbncancersnns	do_byvbncancersnns	handlevbncancerousjj	handlevbncancernns	handlevbnmalignant_neoplastic_diseasenns	do_byvbntheynns	
+
+BE: treatedVBNsomeDT
+EQ class: handlevbnsomedt	do_byvbnsomedt	treatvbnsomedt	
+
+BE: treatedVBNothersNNS
+EQ class: treatvbnothersnns	do_byvbnthemnns	treatedvbnthemnns	treatedvbntheynns	handlevbnthemnns	do_byvbnothersnns	treatvbnthemnns	treatvbntheynns	handlevbnothersnns	handlevbntheynns	do_byvbntheynns	
+
+BE: areAUXeasyJJ
+EQ class: beauxeasinessnn	areauxeasinessnn	beauxeasyjj	
+
+BE: partsNNSofINcellsNNS
+EQ class: themnnsofincellnns	themnnstheynns	cellsnnspartsnns	theynnsofincellsnns	themnnsofincellsnns	theynnsofincellularjj	themnnsthemnns	partsnnsofincellularjj	cellnnspartsnns	themnnsofinthemnns	cellularjjpartsnns	theynnsofincellnns	partsnnsofinthemnns	theynnspartsnns	partsnnsofintheynns	cellnnstheynns	themnnsofintheynns	theynnsthemnns	themnnsofincellularjj	cellsnnsthemnns	theynnstheynns	themnnspartsnns	cellnnsthemnns	cellsnnstheynns	cellularjjtheynns	theynnsofinthemnns	theynnsofintheynns	cellularjjthemnns	partsnnsofincellnns	
+
+BE: treatedVBNwithINtherapyNN
+EQ class: handlevbnwithintherapeuticaljj	do_byvbnwithintherapeuticaljj	treatedvbnwithintherapeuticaljj	do_byvbnwithintherapynn	treatvbnwithintherapynn	handlevbnwithintherapeuticjj	treatvbnwithintherapeuticjj	treatvbnwithintherapeuticaljj	handlevbnwithintherapynn	treatedvbnwithintherapeuticjj	do_byvbnwithintherapeuticjj	
+
+BE: treatedVBNwithINgeneralJJ
+EQ class: treatvbnwithingeneralnn	treatedvbnwithingeneralnn	treatedvbnwithingeneralitynn	do_byvbnwithingeneralnn	handlevbnwithingeneralitynn	handlevbnwithingeneralnn	do_byvbnwithingeneralitynn	do_byvbnwithingeneraljj	treatvbnwithingeneralitynn	treatvbnwithingeneraljj	handlevbnwithingeneraljj	
+
+BE: areAUXfrequentlyRB
+EQ class: frequencynnininbeaux	frequencynnininareaux	beauxfrequentlyrb	frequencennininareaux	frequentjjininbeaux	frequentjjininareaux	frequencennininbeaux	
+
+BE: getVBPfrequentlyRB
+EQ class: frequentjjiningettingnn	frequencennininacquirevbp	frequencennacquiringnn	frequentjjacquiringnn	frequencynnininacquirevbp	frequencenniningettingnn	frequentjjininacquirevbp	frequencynnininacquiringnn	acquiringnnofinfrequentlyrb	frequencenngettingnn	frequencynngettingnn	frequencynnacquiringnn	frequencennininacquiringnn	frequencenniningetvbp	acquirevbpfrequentlyrb	frequentjjiningetvbp	frequentjjgettingnn	frequencynniningettingnn	frequentjjininacquiringnn	frequencynniningetvbp	gettingnnofinfrequentlyrb	
+
+BE: treatedVBNeasilyRB
+EQ class: easinessnninindo_byvbn	handlevbneasilyrb	easyjjinintreatvbn	treatvbneasilyrb	do_byvbneasilyrb	easinessnnininhandlevbn	easyjjinindo_byvbn	easyjjininhandlevbn	easyjjinintreatedvbn	easinessnninintreatvbn	easinessnninintreatedvbn	
+
+BE: areAUXnotRB
+EQ class: beauxnotrb	
+
+BE: informationNN
+EQ class: infonn	
+
+BE: personNN
+EQ class: someonenn	soulnn	individualnn	somebodynn	mortalnn	
+
+BE: chancesNNS
+EQ class: theynns	opportunitynns	chancenns	themnns	
+
+BE: chancesNNS
+EQ class: theynns	opportunitynns	chancenns	themnns	
+
+BE: anythingNN
+EQ class: 
+
+BE: %NN
+EQ class: %.nn	
+
+BE: diseaseNN
+EQ class: 
+
+BE: chanceNN
+EQ class: opportunitynn	
+
+BE: itNN
+EQ class: information_technologynn	
+
+BE: personNN
+EQ class: someonenn	soulnn	individualnn	somebodynn	mortalnn	
+
+BE: cancerNN
+EQ class: cancerousjj	malignant_neoplastic_diseasenn	
+
+BE: succumbNN
+EQ class: 
+
+BE: numbersNNS
+EQ class: book_of_numbersnns	theynns	themnns	
+
+BE: individualsNNS
+EQ class: soulnns	mortalnns	personnns	somebodynns	theynns	individualnns	themnns	someonenns	
+
+BE: sVBZ
+EQ class: 
+
+BE: rememberVBP
+EQ class: call_backvbp	retrievevbp	recollectvbp	call_upvbp	recallvbp	thinkvbp	
+
+BE: dieVB
+EQ class: deceasevb	kick_the_bucketvb	exitvb	pop_offvb	conkvb	give-up_the_ghostvb	snuff_itvb	perishvb	buy_the_farmvb	govb	passvb	chokevb	drop_deadvb	croakvb	cash_in_one's_chipsvb	expirevb	pass_awayvb	
+
+BE: sVBZ
+EQ class: 
+
+BE: beatVB
+EQ class: shellvb	crushvb	vanquishvb	trouncevb	beat_outvb	
+
+BE: beatVB
+EQ class: shellvb	crushvb	vanquishvb	trouncevb	beat_outvb	
+
+BE: findVBoutRP
+EQ class: findnnofinoutrp	chancevboutrp	discoverynnofinoutrp	bumpvboutrp	breakthroughnnofinoutrp	happenvboutrp	encountervboutrp	findernnofinoutrp	
+
+BE: specificJJ
+EQ class: 
+
+BE: particularJJ
+EQ class: particularitynn	specialjj	peculiarjj	
+
+BE: lessJJR
+EQ class: 
+
+BE: irrelevantJJ
+EQ class: irrelevancynn	irrelevancenn	
+
+BE: specificJJinformationNN
+EQ class: specificjjinfonn	
+
+BE: particularJJpersonNN
+EQ class: specialjjsomeonenn	personifyvbparticularlyrb	specialjjsomebodynn	particularitynnindividualnn	specialjjindividualnn	peculiarjjmortalnn	particularjjmortalnn	peculiarjjsoulnn	particularitynnsomebodynn	peculiarjjindividualnn	specialjjmortalnn	specialjjsoulnn	peculiarjjsomeonenn	bodyvbparticularlyrb	particularitynnsoulnn	personhoodvbparticularlyrb	particularjjsomeonenn	particularjjsoulnn	particularitynnpersonnn	particularjjsomebodynn	specialjjpersonnn	particularjjindividualnn	particularitynnmortalnn	peculiarjjsomebodynn	particularitynnsomeonenn	peculiarjjpersonnn	
+
+BE: 100CD%NN
+EQ class: one_ccd%.nn	ccd%nn	100cd%.nn	hundredcd%nn	1.0.0.cd%.nn	centurycd%.nn	one_ccd%nn	1.0.0.cd%nn	centurycd%nn	hundredcd%.nn	ccd%.nn	
+
+BE: theirPRP$cancerNN
+EQ class: theirprp$cancerousjj	cancerousvbtheirprp$	theirprp$cancerousvb	cancerousjjofintheirprp$	theirprp$malignant_neoplastic_diseasenn	malignant_neoplastic_diseasennofintheirprp$	cancernnofintheirprp$	
+
+BE: youPRPneedAUX
+EQ class: youprpaskaux	youprppostulateaux	youprprequireaux	youprptakeaux	youprpnecessitateaux	demandnnofinyouprp	neednnofinyouprp	youprpdemandaux	youprpcall_foraux	youprpinvolveaux	
+
+BE: personNNsVBZ
+EQ class: someonennsvbz	soulnnsvbz	somebodynnsvbz	mortalnnsvbz	individualnnsvbz	
+
+BE: personNNrememberVBP
+EQ class: memorynnofinpersonnn	anamnesisnnofinpersonnn	personnnthinkvbp	individualnnrecallvbp	recollectionnnofinsomebodynn	mortalnnrecollectvbp	individualnncall_backvbp	mortalnncall_upvbp	rememberingnnofinpersonnn	anamnesisnnofinsomebodynn	mortalnnthinkvbp	rememberingnnsomeonenn	rememberingnnofinsoulnn	memorynnofinindividualnn	rememberingnnsomebodynn	remembrancennsomeonenn	personnnretrievevbp	individualnncall_upvbp	rememberingnnofinsomebodynn	mortalnncall_backvbp	someonennthinkvbp	someonenncall_backvbp	personnnrecollectvbp	individualnnrecollectvbp	recollectionnnofinsoulnn	soulnnretrievevbp	recollectionnnmortalnn	remembrancennofinpersonnn	soulnnremembervbp	recollectionnnofinmortalnn	somebodynnrecollectvbp	personnncall_backvbp	memorynnmortalnn	someonennremembervbp	recollectionnnsomebodynn	anamnesisnnofinsomeonenn	mortalnnrecallvbp	recollectionnnsomeonenn	somebodynnretrievevbp	memorynnofinsomeonenn	somebodynnrecallvbp	recollectionnnofinpersonnn	anamnesisnnpersonnn	someonennrecallvbp	somebodynncall_upvbp	recollectionnnofinindividualnn	rememberingnnsoulnn	anamnesisnnsomeonenn	someonennrecollectvbp	soulnnrecallvbp	remembrancennofinsomebodynn	remembrancennsoulnn	rememberingnnofinmortalnn	memorynnsoulnn	anamnesisnnsomebodynn	recollectionnnindividualnn	someonenncall_upvbp	memorynnofinsoulnn	somebodynncall_backvbp	remembrancennmortalnn	remembrancennpersonnn	soulnncall_backvbp	remembrancennsomebodynn	somebodynnthinkvbp	somebodynnremembervbp	recollectionnnofinsomeonenn	individualnnremembervbp	rememberingnnindividualnn	individualnnretrievevbp	someonennretrievevbp	memorynnsomebodynn	rememberingnnofinindividualnn	memorynnsomeonenn	remembrancennofinsomeonenn	anamnesisnnofinsoulnn	remembrancennofinsoulnn	anamnesisnnofinindividualnn	rememberingnnpersonnn	recollectionnnsoulnn	anamnesisnnofinmortalnn	anamnesisnnindividualnn	soulnncall_upvbp	remembrancennofinindividualnn	remembrancennofinmortalnn	mortalnnremembervbp	memorynnpersonnn	personnncall_upvbp	anamnesisnnsoulnn	rememberingnnofinsomeonenn	memorynnindividualnn	rememberingnnmortalnn	soulnnrecollectvbp	individualnnthinkvbp	soulnnthinkvbp	memorynnofinsomebodynn	mortalnnretrievevbp	personnnrecallvbp	anamnesisnnmortalnn	memorynnofinmortalnn	recollectionnnpersonnn	remembrancennindividualnn	
+
+BE: thereEXsVBZ
+EQ class: 
+
+BE: chancesNNSareAUX
+EQ class: themnnsbeaux	theynnsareaux	themnnsareaux	opportunitynnsbeaux	chancesnnsbeaux	theynnsbeaux	chancennsbeaux	opportunitynnsareaux	chancennsareaux	
+
+BE: hePRPdieVB
+EQ class: heprpchokevb	expirynnofin***edit***asprp	heprpbuy_the_farmvb	heprpconkvb	***edit***asprpperishvb	expirynnheprp	heprppass_awayvb	***edit***asprpdievb	deathnnheprp	***edit***asprppop_offvb	***edit***asprpgovb	***edit***asprpdeceasevb	heprpdrop_deadvb	***edit***asprpcroakvb	heprpexpirevb	***edit***asprppass_awayvb	heprppop_offvb	***edit***asprpchokevb	***edit***asprppassvb	expirynn***edit***asprp	***edit***asprpcash_in_one's_chipsvb	heprppassvb	expirynnofinheprp	heprpcash_in_one's_chipsvb	***edit***asprpdrop_deadvb	heprpdeceasevb	***edit***asprpexpirevb	deceasennheprp	***edit***asprpconkvb	***edit***asprpkick_the_bucketvb	heprpgovb	heprpperishvb	heprpexitvb	heprpgive-up_the_ghostvb	deathnnofin***edit***asprp	***edit***asprpgive-up_the_ghostvb	deathnnofinheprp	heprpcroakvb	heprpkick_the_bucketvb	deceasennofin***edit***asprp	heprpsnuff_itvb	deceasennofinheprp	***edit***asprpsnuff_itvb	deceasenn***edit***asprp	***edit***asprpbuy_the_farmvb	deathnn***edit***asprp	***edit***asprpexitvb	
+
+BE: theyPRPbeatVB
+EQ class: theyprpcrushvb	cancersprpbeatvb	beatablennofintreatmentsprp	whippingnnofinchemotherapiesprp	beatingnnofindocsprp	chancesprpshellvb	lymphprpshellvb	chancesprpvanquishvb	beatingnnofinguaranteesprp	whippingnnofinpartsprp	whippingnncancersprp	beatablennofinhoursprp	patientsprpcrushvb	hoursprpvanquishvb	beatingnnofinlivesprp	whippingnnofinothersprp	treatmentsprpbeatvb	beatablennofinlivesprp	beatingnnofinpatientsprp	lymphprpcrushvb	whippingnnlivesprp	whippingnnofinlymphprp	whippingnnchemotherapiesprp	partsprpbeat_outvb	whippingnnofinchancesprp	childrenprptrouncevb	whippingnncasesprp	individualsprpbeatvb	numbersprpshellvb	livesprpshellvb	beatablennofincasesprp	docsprpvanquishvb	beatingnnofinothersprp	beatingnnofinchildrenprp	beatingnnpartsprp	casesprpshellvb	chancesprpcrushvb	beatablennofinnumbersprp	whippingnnofincasesprp	beatingnnothersprp	partsprpvanquishvb	partsprpbeatvb	beatingnnnumbersprp	chemotherapiesprpshellvb	guaranteesprpbeat_outvb	drugsprptrouncevb	docsprpbeat_outvb	beatingnnofincasesprp	beatingnnchancesprp	beatablennofinchildrenprp	patientsprpshellvb	docsprptrouncevb	whippingnnofinindividualsprp	whippingnnofinpatientsprp	casesprpbeatvb	whippingnnofintheyprp	beatingnnofindrugsprp	whippingnnpartsprp	lymphprpvanquishvb	whippingnnofintreatmentsprp	cancersprpshellvb	beatablennofinlymphprp	whippingnndocsprp	drugsprpbeat_outvb	cellsprptrouncevb	cellsprpcrushvb	cellsprpvanquishvb	whippingnnhoursprp	patientsprpvanquishvb	beatingnnchemotherapiesprp	whippingnnofinguaranteesprp	beatingnnofincancersprp	othersprpbeatvb	childrenprpshellvb	theyprpbeat_outvb	whippingnnofinchildrenprp	beatingnnofinchancesprp	cellsprpbeat_outvb	cancersprptrouncevb	docsprpbeatvb	beatingnncellsprp	whippingnnofinhoursprp	beatingnnofincellsprp	whippingnnofincancersprp	beatingnntheyprp	docsprpshellvb	beatablennofinguaranteesprp	whippingnntheyprp	individualsprptrouncevb	cellsprpbeatvb	whippingnnindividualsprp	theyprpshellvb	childrenprpcrushvb	theyprptrouncevb	childrenprpvanquishvb	numbersprptrouncevb	lymphprpbeat_outvb	chancesprpbeat_outvb	whippingnnlymphprp	whippingnnguaranteesprp	whippingnnofindrugsprp	whippingnnofinlivesprp	othersprptrouncevb	partsprpshellvb	drugsprpbeatvb	drugsprpvanquishvb	livesprpbeat_outvb	whippingnncellsprp	beatingnncasesprp	whippingnnothersprp	individualsprpbeat_outvb	individualsprpcrushvb	beatingnnofinnumbersprp	childrenprpbeat_outvb	chemotherapiesprptrouncevb	beatablennofindrugsprp	numbersprpbeat_outvb	beatingnnguaranteesprp	beatablennofinchemotherapiesprp	partsprpcrushvb	whippingnnpatientsprp	treatmentsprpbeat_outvb	theyprpvanquishvb	beatablennofincancersprp	numbersprpbeatvb	guaranteesprpshellvb	treatmentsprptrouncevb	beatablennofinpatientsprp	beatingnnofintheyprp	othersprpcrushvb	hoursprpbeatvb	treatmentsprpvanquishvb	numbersprpvanquishvb	guaranteesprpcrushvb	beatingnnofinhoursprp	beatingnndrugsprp	chemotherapiesprpvanquishvb	livesprpcrushvb	beatingnndocsprp	whippingnnofincellsprp	beatingnnlivesprp	hoursprptrouncevb	chancesprptrouncevb	patientsprpbeat_outvb	casesprptrouncevb	livesprptrouncevb	treatmentsprpcrushvb	hoursprpshellvb	chemotherapiesprpcrushvb	beatablennofindocsprp	livesprpbeatvb	beatingnnofinpartsprp	patientsprptrouncevb	whippingnnofinnumbersprp	patientsprpbeatvb	drugsprpcrushvb	guaranteesprpbeatvb	beatingnnofintreatmentsprp	casesprpvanquishvb	beatablennofinpartsprp	drugsprpshellvb	partsprptrouncevb	guaranteesprptrouncevb	individualsprpshellvb	beatingnnlymphprp	chemotherapiesprpbeatvb	othersprpshellvb	beatingnncancersprp	childrenprpbeatvb	cancersprpvanquishvb	cellsprpshellvb	beatingnntreatmentsprp	docsprpcrushvb	lymphprpbeatvb	casesprpbeat_outvb	beatingnnindividualsprp	beatingnnofinlymphprp	beatingnnhoursprp	beatablennofintheyprp	beatingnnchildrenprp	lymphprptrouncevb	cancersprpcrushvb	othersprpbeat_outvb	whippingnnnumbersprp	whippingnnchildrenprp	whippingnndrugsprp	individualsprpvanquishvb	hoursprpbeat_outvb	beatingnnofinchemotherapiesprp	beatablennofincellsprp	hoursprpcrushvb	beatablennofinindividualsprp	whippingnntreatmentsprp	chemotherapiesprpbeat_outvb	beatingnnofinindividualsprp	numbersprpcrushvb	beatablennofinchancesprp	casesprpcrushvb	whippingnnofindocsprp	livesprpvanquishvb	beatingnnpatientsprp	chancesprpbeatvb	othersprpvanquishvb	treatmentsprpshellvb	whippingnnchancesprp	cancersprpbeat_outvb	beatablennofinothersprp	guaranteesprpvanquishvb	
+
+BE: personNNbeatVB
+EQ class: soulnntrouncevb	personnnvanquishvb	beatablennofinsomebodynn	beatingnnofinsomeonenn	beatablennofinmortalnn	whippingnnsomeonenn	someonennbeatvb	someonenntrouncevb	somebodynnbeatvb	someonennbeat_outvb	beatingnnsoulnn	someonennshellvb	soulnncrushvb	mortalnnshellvb	whippingnnofinmortalnn	beatingnnmortalnn	beatablennofinsomeonenn	whippingnnofinsomeonenn	somebodynnshellvb	soulnnbeat_outvb	individualnncrushvb	beatingnnindividualnn	mortalnntrouncevb	whippingnnmortalnn	whippingnnofinsoulnn	beatablennofinpersonnn	individualnnbeat_outvb	personnntrouncevb	beatingnnofinsomebodynn	individualnnvanquishvb	beatingnnsomebodynn	individualnnshellvb	whippingnnindividualnn	mortalnncrushvb	someonennvanquishvb	beatablennofinsoulnn	somebodynnbeat_outvb	whippingnnsoulnn	personnncrushvb	personnnbeat_outvb	beatingnnsomeonenn	mortalnnvanquishvb	soulnnbeatvb	whippingnnofinindividualnn	beatablennofinindividualnn	somebodynntrouncevb	whippingnnpersonnn	soulnnshellvb	beatingnnofinpersonnn	beatingnnofinsoulnn	someonenncrushvb	beatingnnpersonnn	individualnntrouncevb	somebodynncrushvb	individualnnbeatvb	soulnnvanquishvb	whippingnnsomebodynn	beatingnnofinmortalnn	personnnshellvb	somebodynnvanquishvb	whippingnnofinsomebodynn	whippingnnofinpersonnn	mortalnnbeat_outvb	beatingnnofinindividualnn	mortalnnbeatvb	
+
+BE: numbersNNSareAUX
+EQ class: themnnsbeaux	numbersnnsbeaux	theynnsareaux	themnnsareaux	book_of_numbersnnsareaux	book_of_numbersnnsbeaux	theynnsbeaux	
+
+BE: needAUXinformationNN
+EQ class: necessitateauxinformationnn	neednnofininfonn	takeauxinformationnn	needauxinfonn	demandauxinformationnn	requireauxinfonn	involveauxinfonn	takeauxinfonn	call_forauxinfonn	demandauxinfonn	neednnofininformationnn	demandnnofininformationnn	askauxinfonn	postulateauxinfonn	requireauxinformationnn	demandnnofininfonn	involveauxinformationnn	postulateauxinformationnn	askauxinformationnn	call_forauxinformationnn	necessitateauxinfonn	
+
+BE: sVBZchancesNNS
+EQ class: svbzthemnns	svbztheynns	svbzchancenns	svbzopportunitynns	
+
+BE: sVBZchanceNN
+EQ class: svbzopportunitynn	
+
+BE: beatVBitNN
+EQ class: vanquishvbinformation_technologynn	shellvbitnn	trouncevbinformation_technologynn	beatingnnofininformation_technologynn	beatvbinformation_technologynn	beatingnnofinitnn	whippingnnofinitnn	beat_outvbinformation_technologynn	beat_outvbitnn	trouncevbitnn	vanquishvbitnn	beatablennofininformation_technologynn	whippingnnofininformation_technologynn	crushvbitnn	crushvbinformation_technologynn	beatablennofinitnn	shellvbinformation_technologynn	
+
+BE: beatVBcancerNN
+EQ class: whippingnnofinmalignant_neoplastic_diseasenn	whippingnnofincancerousjj	trouncevbcancerousjj	crushvbcancerousjj	shellvbmalignant_neoplastic_diseasenn	beatvbcancerousjj	crushvbcancernn	vanquishvbmalignant_neoplastic_diseasenn	trouncevbcancernn	beatingnnofincancernn	whippingnnofincancernn	crushvbmalignant_neoplastic_diseasenn	trouncevbmalignant_neoplastic_diseasenn	beatingnnofincancerousjj	shellvbcancernn	beatablennofincancerousjj	beat_outvbcancerousjj	beatvbmalignant_neoplastic_diseasenn	beatablennofinmalignant_neoplastic_diseasenn	vanquishvbcancerousjj	beat_outvbcancernn	beatablennofincancernn	beatingnnofinmalignant_neoplastic_diseasenn	vanquishvbcancernn	shellvbcancerousjj	beat_outvbmalignant_neoplastic_diseasenn	
+
+BE: areAUXlessJJR
+EQ class: beauxlessjjr	
+
+BE: areAUXirrelevantJJ
+EQ class: areauxirrelevancynn	beauxirrelevantjj	beauxirrelevancenn	areauxirrelevancenn	beauxirrelevancynn	
+
+BE: dieVBfromINdiseaseNN
+EQ class: deceasevbfromindiseasenn	croakvbfromindiseasenn	snuff_itvbfromindiseasenn	chokevbfromindiseasenn	perishvbfromindiseasenn	buy_the_farmvbfromindiseasenn	exitvbfromindiseasenn	pop_offvbfromindiseasenn	expirevbfromindiseasenn	kick_the_bucketvbfromindiseasenn	drop_deadvbfromindiseasenn	cash_in_one's_chipsvbfromindiseasenn	conkvbfromindiseasenn	pass_awayvbfromindiseasenn	passvbfromindiseasenn	govbfromindiseasenn	give-up_the_ghostvbfromindiseasenn	
+
+BE: beatVBtoTOitPRP
+EQ class: shellvbtotoitprp	crushvbtotoitprp	vanquishvbtotoitprp	beat_outvbtotoitprp	trouncevbtotoitprp	
+
+BE: lessJJRthanIN%NN
+EQ class: lessjjrthanin%.nn	
+
+BE: irrelevantJJtoTOindividualsNNS
+EQ class: irrelevantjjtotothemnns	irrelevantjjtotosomeonenns	irrelevancenntotosomebodynns	irrelevancenntotothemnns	irrelevancenntotoindividualsnns	irrelevancynntotosomebodynns	irrelevantjjtotomortalnns	irrelevancenntotopersonnns	irrelevancynntotomortalnns	irrelevancynntotosoulnns	irrelevancenntotoindividualnns	irrelevancynntototheynns	individualizevbirrelevantlyrb	individualisevbirrelevantlyrb	irrelevancynntotoindividualnns	irrelevancynntotopersonnns	irrelevantjjtotopersonnns	irrelevancynntotosomeonenns	irrelevancenntotomortalnns	irrelevantjjtotosoulnns	irrelevancynntotoindividualsnns	irrelevantjjtotoindividualnns	irrelevantjjtotosomebodynns	irrelevancenntototheynns	irrelevancenntotosoulnns	irrelevancynntotothemnns	irrelevancenntotosomeonenns	irrelevantjjtototheynns	
+
+BE: findVBaboutINsVBZ
+EQ class: encountervbaboutinsvbz	happenvbaboutinsvbz	chancevbaboutinsvbz	bumpvbaboutinsvbz	
+
+BE: findVBaboutINrememberVBP
+EQ class: bumpvbaboutinremembervbp	findvbaboutinrecallvbp	findvbaboutincall_backvbp	findvbaboutinrecollectvbp	happenvbaboutincall_upvbp	bumpvbaboutinrecollectvbp	chancevbaboutinthinkvbp	happenvbaboutinremembervbp	bumpvbaboutincall_upvbp	encountervbaboutinrecallvbp	findvbaboutincall_upvbp	happenvbaboutinrecollectvbp	chancevbaboutinretrievevbp	encountervbaboutinremembervbp	chancevbaboutincall_backvbp	chancevbaboutincall_upvbp	chancevbaboutinrecallvbp	chancevbaboutinremembervbp	bumpvbaboutinrecallvbp	happenvbaboutinretrievevbp	bumpvbaboutinthinkvbp	encountervbaboutinretrievevbp	encountervbaboutinrecollectvbp	happenvbaboutinrecallvbp	happenvbaboutincall_backvbp	encountervbaboutincall_backvbp	encountervbaboutincall_upvbp	happenvbaboutinthinkvbp	bumpvbaboutincall_backvbp	findvbaboutinthinkvbp	findvbaboutinretrievevbp	bumpvbaboutinretrievevbp	encountervbaboutinthinkvbp	chancevbaboutinrecollectvbp	
+
+BE: beatVBeitherRB
+EQ class: beat_outvbeitherrb	crushvbeitherrb	trouncevbeitherrb	beatablennofineitherrb	whippingnnofineitherrb	beatingnnofineitherrb	vanquishvbeitherrb	shellvbeitherrb	
+
+BE: docsNNS
+EQ class: physiciannns	mdnns	mediconns	theynns	doctornns	docnns	dr.nns	themnns	
+
+BE: individualNN
+EQ class: personnn	someonenn	soulnn	somebodynn	mortalnn	
+
+BE: tellVB
+EQ class: sayvb	statevb	
+
+BE: liveVB
+EQ class: inhabitvb	populatevb	dwellvb	
+
+BE: docsNNStellVB
+EQ class: tellernndocnns	tellernnofindocnns	tellingnndoctornns	relationnnofindr.nns	tellingnnofinmdnns	relationnnofindocsnns	tellernnofinphysiciannns	tellingnnmediconns	tellingnnofinphysiciannns	mdnnsstatevb	mdnnstellvb	tellernnphysiciannns	docnnstellvb	relationnnmediconns	edward_tellernnmediconns	edward_tellernnofindocsnns	edward_tellernnofinphysiciannns	relationnntheynns	recountingnntheynns	tellernnofindr.nns	docsnnsstatevb	recountingnndocnns	relationnndoctornns	tellingnnofinmediconns	tellingnnphysiciannns	recountingnnphysiciannns	doctornnstellvb	relationnndocnns	mediconnsstatevb	edward_tellernnofinmdnns	relationnnofindocnns	dr.nnsstatevb	recountingnnofintheynns	edward_tellernnmdnns	themnnsstatevb	recountingnnofinphysiciannns	relationnnofinthemnns	edward_tellernnofintheynns	tellingnnofindocnns	theynnssayvb	tellernnmdnns	edward_tellernndr.nns	mediconnstellvb	tellernnofintheynns	dr.nnssayvb	edward_tellernndocnns	tellingnnofindocsnns	recountingnnofinmdnns	edward_tellernnofindoctornns	edward_tellernnofinmediconns	docnnsstatevb	physiciannnsstatevb	edward_tellernnofinthemnns	tellingnntheynns	relationnnofintheynns	relationnndr.nns	relationnnphysiciannns	relationnnofindoctornns	recountingnnofinmediconns	tellernnofinthemnns	theynnstellvb	docsnnssayvb	recountingnndocsnns	recountingnnofindoctornns	theynnsstatevb	edward_tellernndoctornns	tellernnthemnns	edward_tellernntheynns	relationnnofinmdnns	recountingnnofindocsnns	tellingnnofindoctornns	tellingnndocnns	tellingnnthemnns	physiciannnstellvb	dr.nnstellvb	doctornnsstatevb	edward_tellernndocsnns	tellingnnofintheynns	relationnnofinphysiciannns	recountingnnthemnns	recountingnnofinthemnns	tellernndoctornns	tellernndr.nns	tellingnndr.nns	tellingnnmdnns	edward_tellernnthemnns	recountingnndr.nns	relationnnmdnns	tellernndocsnns	tellernnofinmdnns	tellingnndocsnns	docnnssayvb	tellernnmediconns	edward_tellernnofindr.nns	tellernnofindocsnns	tellernnofinmediconns	physiciannnssayvb	tellernnofindoctornns	doctornnssayvb	mediconnssayvb	relationnnofinmediconns	themnnstellvb	recountingnnofindr.nns	tellernntheynns	edward_tellernnphysiciannns	relationnnthemnns	themnnssayvb	recountingnnmediconns	relationnndocsnns	tellingnnofindr.nns	edward_tellernnofindocnns	mdnnssayvb	recountingnndoctornns	tellingnnofinthemnns	recountingnnofindocnns	recountingnnmdnns	
+
+BE: individualNNliveVB
+EQ class: liveryjjofinindividualnn	livablennofinsoulnn	livablennofinpersonnn	livernnofinsomeonenn	liveryjjpersonnn	soulnndwellvb	somebodynnpopulatevb	livernnmortalnn	mortalnninhabitvb	somebodynnlivevb	mortalnnpopulatevb	liveryjjindividualnn	liveryjjofinsomebodynn	livablennofinindividualnn	someonennpopulatevb	liveablennofinmortalnn	soulnninhabitvb	liveryjjofinsomeonenn	liveablennofinsomebodynn	someonenndwellvb	mortalnnlivevb	livernnofinsomebodynn	livablennofinmortalnn	soulnnlivevb	personnnpopulatevb	someonenninhabitvb	liveryjjofinsoulnn	livernnindividualnn	liveryjjmortalnn	individualnndwellvb	liveablennofinindividualnn	liveryjjsoulnn	livernnofinpersonnn	liveablennofinpersonnn	liveryjjofinpersonnn	personnninhabitvb	individualnninhabitvb	soulnnpopulatevb	livernnofinmortalnn	livernnsoulnn	personnnlivevb	livernnpersonnn	liveryjjsomebodynn	someonennlivevb	individualnnpopulatevb	livernnofinindividualnn	livernnofinsoulnn	livablennofinsomebodynn	liveryjjsomeonenn	liveryjjofinmortalnn	mortalnndwellvb	personnndwellvb	liveablennofinsoulnn	livablennofinsomeonenn	liveablennofinsomeonenn	livernnsomeonenn	somebodynninhabitvb	livernnsomebodynn	somebodynndwellvb	
+
+BE: tellVByouPRP
+EQ class: relationnnofinyouprp	tellingnnofinyouprp	sayvbyouprp	recountingnnofinyouprp	edward_tellernnofinyouprp	tellernnofinyouprp	statevbyouprp	
+
+BE: tLocationAnnotation
+EQ class: 
+
+BE: informationNN
+EQ class: infonn	
+
+BE: universeNN
+EQ class: cosmosnn	worldnn	universaljj	macrocosmnn	creationnn	existencenn	
+
+BE: arenVBP
+EQ class: 
+
+BE: givenVBN
+EQ class: givevbn	
+
+BE: theyPRParenVBP
+EQ class: lymphprparenvbp	docsprparenvbp	livesprparenvbp	patientsprparenvbp	chancesprparenvbp	partsprparenvbp	individualsprparenvbp	numbersprparenvbp	othersprparenvbp	casesprparenvbp	cellsprparenvbp	drugsprparenvbp	chemotherapiesprparenvbp	guaranteesprparenvbp	childrenprparenvbp	treatmentsprparenvbp	hoursprparenvbp	cancersprparenvbp	
+
+BE: universeNNgivenVBN
+EQ class: universaljjgivenvbn	creationnngivevbn	macrocosmnngivevbn	existencenngivenvbn	macrocosmnngivenvbn	existencenngivevbn	cosmosnngivevbn	cosmosnngivenvbn	worldnngivenvbn	universaljjgivevbn	creationnngivenvbn	universenngivevbn	worldnngivevbn	
+
+BE: givenVBNinformationNN
+EQ class: givevbninformationnn	givevbninfonn	givenvbninfonn	
+
+BE: arenVBPtLocationAnnotation
+EQ class: 
+
+BE: givenVBNtLocationAnnotation
+EQ class: givevbntlocationannotation	
+
+BE: casesNNS
+EQ class: examplenns	theynns	casenns	instancenns	themnns	
+
+BE: endLocationAnnotation
+EQ class: 
+
+BE: tellVB
+EQ class: sayvb	statevb	
+
+BE: happenedVBD
+EQ class: passvbd	happenvbd	come_aboutvbd	occurvbd	go_onvbd	pass_offvbd	fall_outvbd	take_placevbd	hapvbd	
+
+BE: looksVBZ
+EQ class: lookvbz	
+
+BE: sVBZ
+EQ class: 
+
+BE: gettingVBG
+EQ class: getvbg	acquirevbg	
+
+BE: bestJJS
+EQ class: bestnn	
+
+BE: similarJJ
+EQ class: similaritynn	
+
+BE: closeJJ
+EQ class: closenessnn	
+
+BE: similarJJcasesNNS
+EQ class: similaritynncasesnns	similaritynncasenns	similaritynntheynns	similarjjcasenns	similaritynnthemnns	similarjjinstancenns	similaritynnexamplenns	similarjjexamplenns	similaritynninstancenns	similarjjthemnns	similarjjtheynns	
+
+BE: bestJJSdoAUX
+EQ class: bestnndoaux	bestjjsmakeaux	bestnnmakeaux	
+
+BE: theyPRPdoAUX
+EQ class: chemotherapiesprpdoaux	docsprpdoaux	treatmentsprpdoaux	chemotherapiesprpmakeaux	docsprpmakeaux	treatmentsprpmakeaux	drugsprpmakeaux	lymphprpmakeaux	cancersprpdoaux	livesprpmakeaux	hoursprpdoaux	childrenprpmakeaux	numbersprpmakeaux	othersprpdoaux	drugsprpdoaux	cellsprpmakeaux	casesprpmakeaux	individualsprpmakeaux	patientsprpdoaux	cancersprpmakeaux	lymphprpdoaux	patientsprpmakeaux	guaranteesprpmakeaux	casesprpdoaux	individualsprpdoaux	livesprpdoaux	cellsprpdoaux	partsprpdoaux	childrenprpdoaux	hoursprpmakeaux	chancesprpdoaux	partsprpmakeaux	theyprpmakeaux	guaranteesprpdoaux	chancesprpmakeaux	othersprpmakeaux	numbersprpdoaux	
+
+BE: sPRPhappenedVBD
+EQ class: natural_eventnnofinsprp	occurrentnnsprp	sprppassvbd	happeningnnofinsprp	sprpfall_outvbd	sprpgo_onvbd	occurrentnnofinsprp	occurrencennsprp	sprpoccurvbd	sprphappenvbd	natural_eventnnsprp	happeningnnsprp	sprpcome_aboutvbd	sprppass_offvbd	sprphapvbd	occurrencennofinsprp	sprptake_placevbd	
+
+BE: itPRPlooksVBZ
+EQ class: witnessnnitprp	expressionnnofinitprp	watchernnitprp	aspectnnofinitprp	facennofinitprp	looknnofinitprp	lookernnitprp	spectatornnitprp	lookernnofinitprp	viewernnofinitprp	facial_expressionnnofinitprp	witnessnnofinitprp	watchernnofinitprp	spectatornnofinitprp	viewernnitprp	itprplookvbz	
+
+BE: hePRPsVBZ
+EQ class: ***edit***asprpsvbz	
+
+BE: tellVByouPRP
+EQ class: relationnnofinyouprp	tellingnnofinyouprp	sayvbyouprp	recountingnnofinyouprp	edward_tellernnofinyouprp	tellernnofinyouprp	statevbyouprp	
+
+BE: happenedVBDinINcasesNNS
+EQ class: pass_offvbdinintheynns	occurvbdininexamplenns	pass_offvbdinininstancenns	passvbdininexamplenns	occurvbdinininstancenns	occurvbdininthemnns	passvbdininthemnns	fall_outvbdinincasesnns	happenvbdininexamplenns	fall_outvbdinininstancenns	happenvbdinincasesnns	happenedvbdininthemnns	come_aboutvbdininexamplenns	happenedvbdinincasenns	take_placevbdinininstancenns	come_aboutvbdinintheynns	fall_outvbdinintheynns	take_placevbdinincasesnns	hapvbdinincasenns	go_onvbdinincasesnns	passvbdinintheynns	happenvbdininthemnns	fall_outvbdinincasenns	pass_offvbdininthemnns	happenedvbdinintheynns	happenvbdinintheynns	happenedvbdinininstancenns	pass_offvbdininexamplenns	go_onvbdinininstancenns	fall_outvbdininthemnns	occurvbdinincasesnns	come_aboutvbdinincasenns	go_onvbdininexamplenns	take_placevbdininthemnns	happenvbdinininstancenns	hapvbdininthemnns	hapvbdinincasesnns	take_placevbdinincasenns	hapvbdinininstancenns	go_onvbdinincasenns	hapvbdininexamplenns	passvbdinincasesnns	happenvbdinincasenns	happenedvbdininexamplenns	pass_offvbdinincasesnns	come_aboutvbdinincasesnns	take_placevbdininexamplenns	hapvbdinintheynns	pass_offvbdinincasenns	passvbdinininstancenns	go_onvbdininthemnns	go_onvbdinintheynns	passvbdinincasenns	come_aboutvbdinininstancenns	occurvbdinincasenns	take_placevbdinintheynns	come_aboutvbdininthemnns	fall_outvbdininexamplenns	occurvbdinintheynns	
+
+BE: closeJJtoTOendLocationAnnotation
+EQ class: closenessnntotoendlocationannotation	
+
+BE: looksVBZasINsVBZ
+EQ class: lookvbzasinsvbz	
+
+BE: ***Edit***AsPersonAnnotation
+EQ class: 
+
+BE: guaranteesNNS
+EQ class: warrantnns	theynns	warrantynns	guaranteenns	warranteenns	themnns	
+
+BE: defeatNN
+EQ class: lickingnn	
+
+BE: cancerNN
+EQ class: cancerousjj	malignant_neoplastic_diseasenn	
+
+BE: patientsNNS
+EQ class: patientnns	theynns	themnns	
+
+BE: optimismNN
+EQ class: optimisticjj	
+
+BE: hopelessnessNN
+EQ class: hopelessjj	
+
+BE: goVBP
+EQ class: movevbp	travelvbp	locomotevbp	
+
+BE: greatJJ
+EQ class: greatnessnn	
+
+BE: greatJJ
+EQ class: greatnessnn	
+
+BE: greatJJoptimismNN
+EQ class: greatnessnnoptimisticjj	greatjjoptimisticjj	optimisticvbgreatlyrb	optimistvbgreatlyrb	greatnessnnoptimismnn	
+
+BE: greatJJhopelessnessNN
+EQ class: greatnessnnhopelessjj	greatnessnnhopelessnessnn	greatjjhopelessjj	hopelessvbgreatlyrb	
+
+BE: cancerNNpatientsNNS
+EQ class: cancernnpatientnns	malignant_neoplastic_diseasennthemnns	themnnsofincancerousjj	patientnnsofincancerousjj	malignant_neoplastic_diseasennpatientsnns	cancerousjjthemnns	theynnsofincancernn	theynnsofincancerousjj	cancerousjjpatientnns	patientsnnsofinmalignant_neoplastic_diseasenn	patientnnsofincancernn	theynnsofinmalignant_neoplastic_diseasenn	malignant_neoplastic_diseasenntheynns	patientsnnsofincancerousjj	cancernnthemnns	cancernntheynns	cancerousjjtheynns	themnnsofincancernn	patientsnnsofincancernn	cancerousjjpatientsnns	malignant_neoplastic_diseasennpatientnns	themnnsofinmalignant_neoplastic_diseasenn	patientnnsofinmalignant_neoplastic_diseasenn	
+
+BE: patientsNNSgoVBP
+EQ class: theynnstravelvbp	themnnstravelvbp	theynnsmovevbp	patientsnnslocomotevbp	themnnsgovbp	patientnnsgovbp	themnnsmovevbp	patientnnsmovevbp	patientsnnstravelvbp	patientnnstravelvbp	themnnslocomotevbp	theynnslocomotevbp	patientnnslocomotevbp	theynnsgovbp	patientsnnsmovevbp	
+
+BE: goVBPbetweenINoptimismNN
+EQ class: travelvbpbetweeninoptimisticjj	travelvbpbetweeninoptimismnn	movevbpbetweeninoptimisticjj	movevbpbetweeninoptimismnn	locomotevbpbetweeninoptimismnn	govbpbetweeninoptimisticjj	locomotevbpbetweeninoptimisticjj	
+
+BE: goVBPbetweenINhopelessnessNN
+EQ class: govbpbetweeninhopelessjj	travelvbpbetweeninhopelessnessnn	locomotevbpbetweeninhopelessnessnn	locomotevbpbetweeninhopelessjj	movevbpbetweeninhopelessnessnn	travelvbpbetweeninhopelessjj	movevbpbetweeninhopelessjj	
+
+BE: hoursNNS
+EQ class: theynns	themnns	
+
+BE: ChildrenNNS
+EQ class: kidnns	tykenns	small_frynns	minornns	youngsternns	nestlingnns	childlyjj	frynns	tiddlernns	nippernns	shavernns	tikenns	childnns	
+
+BE: cancerNN
+EQ class: cancerousjj	malignant_neoplastic_diseasenn	
+
+BE: arenVBP
+EQ class: 
+
+BE: tLocationAnnotation
+EQ class: 
+
+BE: understandVB
+EQ class: 
+
+BE: dieVB
+EQ class: deceasevb	kick_the_bucketvb	exitvb	pop_offvb	conkvb	give-up_the_ghostvb	snuff_itvb	perishvb	buy_the_farmvb	govb	passvb	chokevb	drop_deadvb	croakvb	cash_in_one's_chipsvb	expirevb	pass_awayvb	
+
+BE: getVB
+EQ class: acquirevb	
+
+BE: oldJJ
+EQ class: oldnessnn	
+
+BE: ChildrenNNStLocationAnnotation
+EQ class: youngsternnstlocationannotation	nippernnstlocationannotation	childlyjjtlocationannotation	frynnstlocationannotation	tikennstlocationannotation	small_frynnstlocationannotation	kidnnstlocationannotation	nestlingnnstlocationannotation	minornnstlocationannotation	shavernnstlocationannotation	tykennstlocationannotation	childnnstlocationannotation	tiddlernnstlocationannotation	
+
+BE: cancerNNdieVB
+EQ class: malignant_neoplastic_diseasennkick_the_bucketvb	cancerousjjdeceasevb	deceasenncancerousjj	deathnnofinmalignant_neoplastic_diseasenn	malignant_neoplastic_diseasenncash_in_one's_chipsvb	malignant_neoplastic_diseasenndeceasevb	cancernnpassvb	cancernnkick_the_bucketvb	cancerousjjpop_offvb	cancerousjjperishvb	cancerousjjpassvb	cancerousjjchokevb	deceasenncancernn	cancernndrop_deadvb	malignant_neoplastic_diseasenngive-up_the_ghostvb	malignant_neoplastic_diseasenndrop_deadvb	cancernnchokevb	cancernngovb	malignant_neoplastic_diseasennconkvb	malignant_neoplastic_diseasennpop_offvb	cancerousjjkick_the_bucketvb	cancerousjjconkvb	expirynnofinmalignant_neoplastic_diseasenn	cancernnsnuff_itvb	malignant_neoplastic_diseasennexitvb	cancerousjjgive-up_the_ghostvb	cancernngive-up_the_ghostvb	malignant_neoplastic_diseasenngovb	expirynnofincancernn	cancerousjjcroakvb	cancernncroakvb	expirynnmalignant_neoplastic_diseasenn	cancerousjjdrop_deadvb	cancerousjjexpirevb	cancerousjjsnuff_itvb	deathnnofincancernn	deceasennofincancerousjj	cancerousjjexitvb	cancernncash_in_one's_chipsvb	cancerousjjcash_in_one's_chipsvb	deceasennofincancernn	malignant_neoplastic_diseasenndievb	cancernnpass_awayvb	cancernnperishvb	cancerousjjpass_awayvb	malignant_neoplastic_diseasennpass_awayvb	deathnncancernn	malignant_neoplastic_diseasennpassvb	malignant_neoplastic_diseasennperishvb	cancerousjjbuy_the_farmvb	cancernnbuy_the_farmvb	cancerousjjgovb	cancernnconkvb	cancerousjjdievb	malignant_neoplastic_diseasennchokevb	expirynnofincancerousjj	cancernnexpirevb	cancernnexitvb	deathnnofincancerousjj	cancernnpop_offvb	deceasennmalignant_neoplastic_diseasenn	deathnncancerousjj	deathnnmalignant_neoplastic_diseasenn	malignant_neoplastic_diseasennbuy_the_farmvb	malignant_neoplastic_diseasenncroakvb	malignant_neoplastic_diseasennexpirevb	expirynncancerousjj	malignant_neoplastic_diseasennsnuff_itvb	deceasennofinmalignant_neoplastic_diseasenn	cancernndeceasevb	expirynncancernn	
+
+BE: ChildrenNNSarenVBP
+EQ class: childlyjjarenvbp	tikennsarenvbp	youngsternnsarenvbp	kidnnsarenvbp	nestlingnnsarenvbp	tiddlernnsarenvbp	shavernnsarenvbp	nippernnsarenvbp	frynnsarenvbp	tykennsarenvbp	minornnsarenvbp	small_frynnsarenvbp	childnnsarenvbp	
+
+BE: understandVBcancerNN
+EQ class: understandingnnofincancerousjj	understandvbmalignant_neoplastic_diseasenn	apprehensionnnofinmalignant_neoplastic_diseasenn	understandablennofinmalignant_neoplastic_diseasenn	savvynnofincancerousjj	savvynnofincancernn	apprehensionnnofincancerousjj	understandingnnofinmalignant_neoplastic_diseasenn	understandablennofincancernn	apprehensionnnofincancernn	understandablennofincancerousjj	discernmentnnofinmalignant_neoplastic_diseasenn	savvynnofinmalignant_neoplastic_diseasenn	understandvbcancerousjj	discernmentnnofincancernn	discernmentnnofincancerousjj	understandingnnofincancernn	
+
+BE: dieVBofINitPRP
+EQ class: exitvbofinitprp	deceasevbofinitprp	chokevbofinitprp	perishvbofinitprp	snuff_itvbofinitprp	passvbofinitprp	buy_the_farmvbofinitprp	expirevbofinitprp	drop_deadvbofinitprp	pass_awayvbofinitprp	pop_offvbofinitprp	cash_in_one's_chipsvbofinitprp	kick_the_bucketvbofinitprp	give-up_the_ghostvbofinitprp	croakvbofinitprp	conkvbofinitprp	govbofinitprp	
+
+BE: getVBwellRB
+EQ class: acquirevbwellrb	gettingnnofinwellrb	acquiringnnofinwellrb	
+
+BE: cancerNN
+EQ class: cancerousjj	malignant_neoplastic_diseasenn	
+
+BE: letVB
+EQ class: allowvb	permitvb	
+
+BE: blametheVB
+EQ class: 
+
+BE: dyingVBG
+EQ class: pass_awayvbg	buy_the_farmvbg	drop_deadvbg	passvbg	pop_offvbg	conkvbg	croakvbg	deceasevbg	expirevbg	perishvbg	give-up_the_ghostvbg	govbg	cash_in_one's_chipsvbg	chokevbg	kick_the_bucketvbg	snuff_itvbg	exitvbg	dievbg	
+
+BE: letVB
+EQ class: allowvb	permitvb	
+
+BE: blameVB
+EQ class: faultvb	
+
+BE: sickJJ
+EQ class: illjj	sicknessnn	sicknn	
+
+BE: letVBsPRP
+EQ class: allowvbsprp	permitvbsprp	
+
+BE: letVBsPRP
+EQ class: allowvbsprp	permitvbsprp	
+
+BE: blameVBcancerNN
+EQ class: faultvbcancernn	inculpationnnofincancerousjj	blamevbcancerousjj	blamablennofincancernn	blamennofinmalignant_neoplastic_diseasenn	blameablennofincancerousjj	blamablennofincancerousjj	incriminationnnofinmalignant_neoplastic_diseasenn	incriminationnnofincancernn	blameablennofincancernn	blamennofincancernn	blamennofincancerousjj	inculpationnnofincancernn	incriminationnnofincancerousjj	inculpationnnofinmalignant_neoplastic_diseasenn	blameablennofinmalignant_neoplastic_diseasenn	blamevbmalignant_neoplastic_diseasenn	blamablennofinmalignant_neoplastic_diseasenn	faultvbcancerousjj	faultvbmalignant_neoplastic_diseasenn	
+
+BE: letVBforINdyingVBG
+EQ class: permitvbforinpop_offvbg	allowvbforincash_in_one's_chipsvbg	letvbforindievbg	allowvbforingive-up_the_ghostvbg	permitvbforinkick_the_bucketvbg	permitvbforinconkvbg	allowvbforingovbg	letvbforinconkvbg	allowvbforinpass_awayvbg	letvbforindeceasevbg	letvbforinsnuff_itvbg	letvbforincash_in_one's_chipsvbg	permitvbforingive-up_the_ghostvbg	allowvbforinpop_offvbg	allowvbforinperishvbg	letvbforincroakvbg	permitvbforingovbg	allowvbforinpassvbg	letvbforinchokevbg	allowvbforindeceasevbg	allowvbforinchokevbg	allowvbforindyingvbg	allowvbforindievbg	allowvbforinbuy_the_farmvbg	letvbforingovbg	permitvbforinexitvbg	permitvbforinperishvbg	permitvbforincash_in_one's_chipsvbg	letvbforinpop_offvbg	permitvbforincroakvbg	letvbforingive-up_the_ghostvbg	permitvbforindievbg	permitvbforinpassvbg	letvbforinpass_awayvbg	allowvbforindrop_deadvbg	letvbforinpassvbg	allowvbforinsnuff_itvbg	permitvbforinpass_awayvbg	allowvbforinconkvbg	permitvbforinsnuff_itvbg	allowvbforinkick_the_bucketvbg	letvbforinbuy_the_farmvbg	letvbforinexitvbg	permitvbforinbuy_the_farmvbg	letvbforinkick_the_bucketvbg	letvbforindrop_deadvbg	letvbforinexpirevbg	permitvbforindeceasevbg	permitvbforinchokevbg	allowvbforinexitvbg	allowvbforincroakvbg	allowvbforinexpirevbg	letvbforinperishvbg	permitvbforindrop_deadvbg	permitvbforinexpirevbg	permitvbforindyingvbg	
+
+BE: blametheVBblameVB
+EQ class: blamethevbfaultvb	
+
+BE: letVBnotRB
+EQ class: permitvbnotrb	allowvbnotrb	
+

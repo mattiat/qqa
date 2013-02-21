@@ -1,0 +1,14 @@
+#Oh come on now.
+#(S1 (S (NP (UH Oh)) (VP (VBP come) (PP (IN on) (NP (RB now)))) (. .)))
+#Rule:Verbs
+r2comeVBP
+
+#Rule:HeadNoun-V
+r11OhUHcomeVBP
+
+#Rule:PPinVP
+r30comeVBPonINnowRB
+
+@lemmas-left	Oh	come	oh	
+@lemmas-right	now	come	
+@lemmas-center	on	

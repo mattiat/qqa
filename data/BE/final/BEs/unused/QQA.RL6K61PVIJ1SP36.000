@@ -1,0 +1,90 @@
+#How to reduce Colestral and LDL level??
+#(S1 (FRAG (SBAR (WHADVP (WRB How)) (S (VP (TO to) (VP (VB reduce) (NP (NNP Colestral) (CC and) (NNP LDL) (NN level))))) (. ?)) (. ?)))
+#Rule:Nouns
+r1ColestralOrganizationAnnotation
+r1LDL levelLocationAnnotation
+
+#Rule:Verbs
+r2reduceVB
+
+#Rule:V-HeadNoun
+r21reduceVBLDL levelLocationAnnotation
+
+#I am 41 years old male vegitarian, my total Colestral is 229 and LDL is 150 HDl is 41. I am on  strict diet for the past 2 years, taking Omega 3 tab (2) daily. How to increase HDL level naturally by food intake.
+#(S1 (S (S (NP (PRP I)) (VP (AUX am) (NP (ADJP (NP (CD 41) (NNS years)) (JJ old)) (JJ male) (NN vegitarian)))) (, ,) (S (NP (PRP$ my) (JJ total) (NN Colestral)) (VP (AUX is) (NP (CD 229)))) (CC and) (S (NP (NNP LDL)) (VP (AUX is) (NP (NP (CD 150)) (SBAR (S (NP (NNP HDl)) (VP (AUX is) (VP (VBG 41.) (S (NP (PRP I)) (VP (AUX am) (PP (IN on) (NP (JJ strict) (NN diet))) (PP (IN for) (NP (DT the) (JJ past) (CD 2) (NNS years))))) (, ,) (S (VP (VBG taking) (NP (NP (NNP Omega) (CD 3) (NN tab)) (PRN (-LRB- -LRB-) (NP (CD 2)) (-RRB- -RRB-))) (PP (IN daily.) (SBAR (WHADVP (WRB How)) (S (VP (TO to) (VP (VB increase) (NP (NNP HDL) (NN level)) (ADVP (RB naturally)) (PP (IN by) (NP (NN food) (NN intake))))))))))))))))) (. .)))
+#Rule:Nouns
+r1yearsNNS
+r1vegitarianNN
+r1ColestralOrganizationAnnotation
+r1LDLOrganizationAnnotation
+r1HDlNNP
+r1dietNN
+r1yearsNNS
+r1Omega 3OrganizationAnnotation
+r1tabNN
+r1HDLOrganizationAnnotation
+r1levelNN
+r1foodNN
+r1intakeNN
+
+#Rule:Verbs
+r241VBG
+r2takingVBG
+r2increaseVB
+
+#Rule:Adjs
+r4oldJJ
+r4maleJJ
+r4totalJJ
+r4strictJJ
+r4pastJJ
+
+#Rule:Adj-Noun
+r5oldJJvegitarianNN
+r5maleJJvegitarianNN
+r541CDyearsNNS
+r5totalJJColestralOrganizationAnnotation
+r5strictJJdietNN
+r5pastJJyearsNNS
+r52CDyearsNNS
+r5Omega 3OrganizationAnnotationtabNN
+
+#Rule:PRP-Noun
+r6myPRP$ColestralOrganizationAnnotation
+
+#Rule:N-HeadNoun
+r8HDLOrganizationAnnotationlevelNN
+r8foodNNintakeNN
+
+#Rule:HeadNoun-V
+r11iPRPamAUX
+r11ColestralOrganizationAnnotationisAUX
+r11LDLOrganizationAnnotationisAUX
+r11HDlNNP41VBG
+r11iPRPamAUX
+
+#Rule:V-HeadNoun
+r21amAUXvegitarianNN
+r21isAUX229CD
+r21isAUX150CD
+r21takingVBGtabNN
+r21increaseVBlevelNN
+
+#Rule:V-HeadNoun
+r2241VBGiPRP
+
+#Rule:PPinVP
+r30amAUXonINdietNN
+r30amAUXforINyearsNNS
+r30increaseVBbyINintakeNN
+
+#Rule:V-ADV
+r46increaseVBnaturallyRB
+
+#Rule:IS-RULE
+r47229CDColestralOrganizationAnnotation
+r47150CDLDLOrganizationAnnotation
+
+@lemmas-left	HDL	total	old	diet	tab	LDL	150	level	41	41.	be	is	HDl	hdl	Colestral	intake	male	229	past	my	reduce	taking	i	2	am	Omega 3	food	take	increase	years	LDL level	vegitarian	strict	
+@lemmas-right	is	Colestral	diet	intake	naturally	229	tab	i	LDL	150	level	am	41	41.	LDL level	years	vegitarian	be	
+@lemmas-center	for	on	by	

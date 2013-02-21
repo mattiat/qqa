@@ -1,0 +1,19 @@
+#How long does someone with Stage 4 Breast Cancer have to live?
+#(S1 (SBARQ (WHADVP (WRB How) (RB long)) (SQ (AUX does) (NP (NP (NN someone)) (PP (IN with) (NP (NNP Stage) (CD 4) (NN Breast) (NN Cancer)))) (VP (AUX have) (S (VP (TO to) (VP (VB live)))))) (. ?)))
+#Rule:Nouns
+r1someoneNN
+r1StageOrganizationAnnotation
+r1Breast CancerOrganizationAnnotation
+
+#Rule:Verbs
+r2liveLocationAnnotation
+
+#Rule:Adj-Noun
+r54CDBreast CancerOrganizationAnnotation
+
+#Rule:PPinNP
+r26someoneNNwithINBreast CancerOrganizationAnnotation
+
+@lemmas-left	4	someone	Breast Cancer	Stage	live	
+@lemmas-right	Breast Cancer	
+@lemmas-center	with	

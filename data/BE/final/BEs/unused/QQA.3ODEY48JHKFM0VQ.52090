@@ -1,0 +1,211 @@
+#The Creator of Life, Disease, Relief, Cure, . blessed with options . always . 
+#(S1 (FRAG (NP (NP (DT The) (NNP Creator)) (PP (IN of) (NP (NNP Life) (, ,) (NNP Disease) (, ,) (NNP Relief)))) (, ,) (NP (NN Cure)) (, ,) (. .) (VP (VBN blessed) (PP (IN with) (NP (NNS options)))) (. .) (ADVP (RB always)) (. .)))
+#Rule:Nouns
+r1CreatorNNP
+r1Life, DiseaseOrganizationAnnotation
+r1ReliefNNP
+r1CureNN
+r1optionsNNS
+
+#Rule:Verbs
+r2blessedVBN
+
+#Rule:PPinNP
+r26CreatorNNPofINReliefNNP
+
+#Rule:PPinVP
+r32blessedVBNwithINoptionsNNS
+
+#Seek and you ll find answers to all our questions Carcincure??? 
+#(S1 (S (S (VP (VB Seek))) (CC and) (S (NP (PRP you)) (ADVP (RB ll)) (VP (VB find) (NP (NP (NNS answers)) (PP (TO to) (NP (NP (PDT all) (PRP$ our) (NNS questions)) (NP (NNP Carcincure) (CD ??))))))) (. ?)))
+#Rule:Nouns
+r1answersNNS
+r1questionsNNS
+r1CarcincurePersonAnnotation
+
+#Rule:Verbs
+r2seekVB
+r2findVB
+
+#Rule:Adj-Noun
+r5??CDCarcincurePersonAnnotation
+
+#Rule:PRP-Noun
+r6ourPRP$questionsNNS
+
+#Rule:HeadNoun-V
+r11youPRPfindVB
+
+#Rule:V-HeadNoun
+r21findVBanswersNNS
+
+#Rule:PPinNP
+r26answersNNStoTOquestionsNNS
+r26answersNNStoTOCarcincurePersonAnnotation
+
+#Rule:V-ADV
+r46findVBllRB
+
+#This herbal formulation is prepared to relieve patients  from dreaded effects of the cancer chemotherapy and radiation. 
+#(S1 (S (NP (DT This) (JJ herbal) (NN formulation)) (VP (AUX is) (ADJP (JJ prepared) (S (VP (TO to) (VP (VB relieve) (NP (NP (NNS patients)) (PP (IN from) (NP (NP (JJ dreaded) (NNS effects)) (PP (IN of) (NP (DT the) (NN cancer) (NN chemotherapy) (CC and) (NN radiation))))))))))) (. .)))
+#Rule:Nouns
+r1formulationNN
+r1patientsNNS
+r1effectsNNS
+r1cancerNN
+r1chemotherapyNN
+r1radiationNN
+
+#Rule:Verbs
+r2relieveVB
+
+#Rule:Adjs
+r4herbalJJ
+r4preparedJJ
+r4dreadedJJ
+
+#Rule:Adj-Noun
+r5herbalJJformulationNN
+r5dreadedJJeffectsNNS
+
+#Rule:N-HeadNoun
+r8cancerNNchemotherapyNN
+
+#Rule:HeadNoun-V
+r11formulationNNisAUX
+
+#Rule:V-HeadNoun
+r21relieveVBpatientsNNS
+
+#Rule:V-ADJ
+r25isAUXpreparedJJ
+
+#Rule:PPinNP
+r26patientsNNSfromINeffectsNNS
+r26effectsNNSofINchemotherapyNN
+
+#And also as you see from the info provided it has proven direct effects on the cancer cells. 
+#(S1 (FRAG (CC And) (RB also) (SBAR (IN as) (S (NP (PRP you)) (VP (VBP see) (PP (IN from) (NP (DT the) (NN info))) (PP (VBN provided) (SBAR (S (NP (PRP it)) (VP (AUX has) (VP (VBN proven) (NP (NP (JJ direct) (NNS effects)) (PP (IN on) (NP (DT the) (NN cancer) (NNS cells)))))))))))) (. .)))
+#Rule:Nouns
+r1infoNN
+r1effectsNNS
+r1cancerNN
+r1cellsNNS
+
+#Rule:Verbs
+r2seeVBP
+r2providedVBN
+r2provenVBN
+
+#Rule:Adjs
+r4directJJ
+
+#Rule:Adj-Noun
+r5directJJeffectsNNS
+
+#Rule:N-HeadNoun
+r8cancerNNcellsNNS
+
+#Rule:HeadNoun-V
+r11youPRPseeVBP
+
+#Rule:HeadNoun-V
+r12itPRPprovenVBN
+
+#Rule:V-HeadNoun
+r21provenVBNeffectsNNS
+
+#Rule:PPinNP
+r26effectsNNSonINcellsNNS
+
+#Rule:PPinVP
+r30seeVBPfromINinfoNN
+
+#And they don???
+#(S1 (S (CC And) (NP (PRP they)) (VP (VB don) (NP (NN ??))) (. ?)))
+#Rule:Nouns
+r1??NN
+
+#Rule:Verbs
+r2donVB
+
+#Rule:HeadNoun-V
+r11theyPRPdonVB
+
+#Rule:V-HeadNoun
+r21donVB??NN
+
+#t charge anything for this SOURCEhttp://www.saigangapanacea.com/products.htmlCANCER Treatments weblinksAyurvedahttp://www.cancer-treat.comsurvived patientshttp://www.cancer-treat.com/patiens.htmlAyurvedahttp://www.gpinstitute.comsurvived patientshttp://www.gpinstitute.com/cases/cases.htmHomeopathy survived patientshttp://www.drchaitanyas.com/cancer.htmAyurved + Allopathy (Herbal)http://www.saigangapanacea.com/products.htmlSurvived patients Travelling around the world educating others to prevent cancerhttp://www.whattimetuesday.comControlling&Preventing Cancer10 Food Habitshttp://healthyfoodandliving.com/2007/05/05/10-facts-about-cancer/10 FACTShttp://healthyfoodandliving.com/2007/05/15/facts-about-cancer/Toxicity&pharmaceuticalshttp://healthyfoodandliving.com/2007/06/23/a-short-reminder/Brain&Painhttp://www.uppercervicalillustrations.com/simple_explanation.htm
+#(S1 (NP (NP (NP (JJ t) (NN charge) (NN anything)) (PP (IN for) (NP (DT this) (NN SOURCEhttp)))) (: :) (NP (NP (JJR //www.saigangapanacea.com/products.htmlCANCER) (NNS Treatments)) (VP (VBN weblinksAyurvedahttp))) (: :) (NP (JJ //www.cancer-treat.comsurvived) (NNS patientshttp)) (: :) (ADJP (JJ //www.cancer-treat.com/patiens.htmlAyurvedahttp)) (: :) (NP (JJ //www.gpinstitute.comsurvived) (NNS patientshttp)) (: :) (S (NP (NN //www.gpinstitute.com/cases/cases.htmHomeopathy)) (VP (VBD survived) (S (NP (NP (NP (CD patientshttp)) (: :) (NP (JJ //www.drchaitanyas.com/cancer.htmAyurved) (NNP +) (NNP Allopathy) (PRN (-LRB- -LRB-) (JJ Herbal) (-RRB- -RRB-)) (NN http)) (: :) (NP (NP (JJ //www.saigangapanacea.com/products.htmlSurvived) (NNS patients)) (PP (JJ Travelling) (IN around) (NP (DT the) (NN world))))) (VBG educating) (NNS others)) (VP (TO to) (VP (VB prevent) (NP (NNS cancerhttp))))))) (: :) (PP (VBG //www.whattimetuesday.comControlling&Preventing) (NP (NNP Cancer10) (NNP Food) (NNP Habitshttp))) (: :) (NP (JJ //healthyfoodandliving.com/2007/05/05/10-facts-about-cancer/10) (NNS FACTShttp)) (: :) (ADJP (JJ //healthyfoodandliving.com/2007/05/15/facts-about-cancer/Toxicity&pharmaceuticalshttp)) (: :) (NP (NN //healthyfoodandliving.com/2007/06/23/a-short-reminder/Brain&Painhttp)) (: :) (NP (NN //www.uppercervicalillustrations.com/simple_explanation.htm))))
+#Rule:Nouns
+r1chargeNN
+r1anythingNN
+r1SOURCEhttpNN
+r1saigangapanacea.com/products.htmlCANCER Treatments weblinksAyurvedahttp://wwwOrganizationAnnotation
+r1patientshttpNNS
+r1patientshttpNNS
+r1//www.gpinstitute.com/cases/cases.htmHomeopathyNN
+r1htmAyurved + AllopathyPersonAnnotation
+r1Herbal)httpOrganizationAnnotation
+r1patientsNNS
+r1worldNN
+r1othersNNS
+r1cancerhttpNNS
+r1comControlling&Preventing Cancer10 Food HabitshttpOrganizationAnnotation
+r1FACTShttpOrganizationAnnotation
+r1//healthyfoodandliving.com/2007/06/23/a-short-reminder/Brain&PainhttpNN
+r1//www.uppercervicalillustrations.com/simple_explanation.htmNN
+
+#Rule:Verbs
+r2survivedVBD
+r2educatingVBG
+r2preventVB
+r2//www.whattimetuesday.comcontrolling&preventingVBG
+
+#Rule:Adjs
+r4tJJ
+r4//www.saigangapanacea.com/products.htmlCANCERJJR
+r4//www.cancer-treat.comsurvivedJJ
+r4//www.cancer-treat.com/patiens.htmlAyurvedahttpJJ
+r4//www.gpinstitute.comsurvivedJJ
+r4//www.drchaitanyas.com/cancer.htmAyurvedJJ
+r4//www.saigangapanacea.com/products.htmlSurvivedJJ
+r4TravellingJJ
+r4//healthyfoodandliving.com/2007/05/05/10-facts-about-cancer/10JJ
+r4//healthyfoodandliving.com/2007/05/15/facts-about-cancer/Toxicity&pharmaceuticalshttpJJ
+
+#Rule:Adj-Noun
+r5//www.cancer-treat.com/patiens.htmlAyurvedahttpJJanythingNN
+r5//healthyfoodandliving.com/2007/05/15/facts-about-cancer/Toxicity&pharmaceuticalshttpJJanythingNN
+r5tJJanythingNN
+r5//www.saigangapanacea.com/products.htmlCANCERJJRsaigangapanacea.com/products.htmlCANCER Treatments weblinksAyurvedahttp://wwwOrganizationAnnotation
+r5//www.cancer-treat.comsurvivedJJpatientshttpNNS
+r5//www.gpinstitute.comsurvivedJJpatientshttpNNS
+r5educatingVBGothersNNS
+r5//www.drchaitanyas.com/cancer.htmAyurvedJJHerbal)httpOrganizationAnnotation
+r5//www.saigangapanacea.com/products.htmlSurvivedJJpatientsNNS
+r5//healthyfoodandliving.com/2007/05/05/10-facts-about-cancer/10JJFACTShttpOrganizationAnnotation
+
+#Rule:N-HeadNoun
+r8chargeNNanythingNN
+
+#Rule:HeadNoun-V
+r11//www.gpinstitute.com/cases/cases.htmHomeopathyNNsurvivedVBD
+r11othersNNSpreventVB
+r11patientshttpCDpreventVB
+r11Herbal)httpOrganizationAnnotationpreventVB
+r11patientsNNSpreventVB
+
+#Rule:V-HeadNoun
+r21preventVBcancerhttpNNS
+
+#Rule:V-HeadNoun
+r22survivedVBDothersNNS
+
+#Rule:PPinNP
+r26anythingNNforINSOURCEhttpNN
+r26patientsNNSaroundINworldNN
+
+@lemmas-left	blessed	they	//www.saigangapanacea.com/products.htmlcancer	provide	don	htmAyurved + Allopathy	proven	answers	//www.cancer-treat.com/patiens.htmlAyurvedahttp	//healthyfoodandliving.com/2007/05/15/facts-about-cancer/Toxicity&pharmaceuticalshttp	//healthyfoodandliving.com/2007/06/23/a-short-reminder/Brain&Painhttp	cure	info	??	//www.gpinstitute.com/cases/cases.htmhomeopathy	Relief	Travelling	travelling	//healthyfoodandliving.com/2007/05/15/facts-about-cancer/toxicity&pharmaceuticalshttp	formulation	option	be	prove	others	//www.uppercervicalillustrations.com/simple_explanation.htm	//www.drchaitanyas.com/cancer.htmAyurved	cell	//www.gpinstitute.comsurvived	answer	questions	prevent	effects	chemotherapy	Cure	relieve	//www.cancer-treat.comsurvived	Life, Disease	SOURCEhttp	bless	survived	Herbal)http	prepared	cells	radiation	//www.saigangapanacea.com/products.htmlCANCER	//healthyfoodandliving.com/2007/05/05/10-facts-about-cancer/10	creator	relief	patients	patient	survive	//www.saigangapanacea.com/products.htmlsurvived	//healthyfoodandliving.com/2007/06/23/a-short-reminder/brain&painhttp	question	//www.drchaitanyas.com/cancer.htmayurved	patientshttp	find	options	sourcehttp	//www.whattimetuesday.comcontrolling&preventing	direct	//www.saigangapanacea.com/products.htmlSurvived	is	it	educating	Creator	you	cancerhttp	dreaded	seek	//www.cancer-treat.com/patiens.htmlayurvedahttp	//www.gpinstitute.com/cases/cases.htmHomeopathy	Carcincure	t	charge	anything	comControlling&Preventing Cancer10 Food Habitshttp	see	saigangapanacea.com/products.htmlCANCER Treatments weblinksAyurvedahttp://www	provided	FACTShttp	herbal	our	world	cancer	educate	
+@lemmas-right	cells	ll	don	proven	answers	relief	info	??	Relief	patient	patients	survive	formulation	question	patientshttp	find	option	sourcehttp	options	be	is	prove	others	cell	answer	questions	prevent	effects	cancerhttp	chemotherapy	Carcincure	anything	see	SOURCEhttp	saigangapanacea.com/products.htmlCANCER Treatments weblinksAyurvedahttp://www	survived	FACTShttp	Herbal)http	prepared	world	
+@lemmas-center	to	of	with	for	on	from	around	

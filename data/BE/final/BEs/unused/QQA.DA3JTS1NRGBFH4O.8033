@@ -1,0 +1,20 @@
+#2x(2)+(3-k)x+3=04x+3x-kx+3=0(7-k)x= -37-k=-3/xk=7+3/x
+#(S1 (S (NP (NP (NNP 2x) (PRN (-LRB- -LRB-) (NP (CD 2)) (-RRB- -RRB-)) (NNP +)) (PRN (-LRB- -LRB-) (NP (NN 3-k)) (-RRB- -RRB-))) (NP (JJ x+3=04x+3x-kx+3=0) (PRN (-LRB- -LRB-) (JJ 7-k) (-RRB- -RRB-)) (JJ x=) (NNS -37-k=-3/xk=7+3/x))))
+#Rule:Nouns
+r12xNNP
+r1+NNP
+r13-kNN
+r1-37-k=-3/xk=7+3/xNNS
+
+#Rule:Adjs
+r4k)x+3=04x+3x-kx+3=0PersonAnnotation
+r47-kJJ
+r4x=JJ
+
+#Rule:Adj-Noun
+r5k)x+3=04x+3x-kx+3=0PersonAnnotation-37-k=-3/xk=7+3/xNNS
+r5x=JJ-37-k=-3/xk=7+3/xNNS
+
+@lemmas-left	3-k	-37-k=-3/xk=7+3/x	2x	x=	7-k	+	k)x+3=04x+3x-kx+3=0	k	x	
+@lemmas-right	-37-k=-3/xk=7+3/x	x	
+@lemmas-center	

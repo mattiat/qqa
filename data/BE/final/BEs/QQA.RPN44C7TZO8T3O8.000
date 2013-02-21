@@ -1,0 +1,258 @@
+#What is Existential Angst?
+#(S1 (SBARQ (WHNP (WP What)) (SQ (AUX is) (NP (NNP Existential) (NN Angst))) (. ?)))
+#Rule:Nouns
+r1ExistentialNNP
+r1AngstNN
+
+#Rule:N-HeadNoun
+r8ExistentialNNPAngstNN
+
+#  And why are some more prone to it than others?
+#(S1 (SBARQ (CC And) (WHADVP (WRB why)) (SQ (VP (AUX are) (NP (NP (DT some)) (ADJP (ADJP (RBR more) (JJ prone) (PP (TO to) (NP (PRP it)))) (PP (IN than) (NP (NNS others))))))) (. ?)))
+#Rule:Nouns
+r1othersNNS
+
+#Rule:Adjs
+r4proneJJ
+
+#Rule:Adj-Noun
+r5proneJJsomeDT
+
+#Rule:V-HeadNoun
+r21areAUXsomeDT
+
+#Rule:PPinADJP
+r37proneJJthanINothersNNS
+r37proneJJtoTOitPRP
+
+# (NO GLIB ANSWERS.
+#(S1 (S (-LRB- -LRB-) (NP (DT NO) (JJ GLIB)) (VP (VBZ ANSWERS)) (. .)))
+#Rule:Verbs
+r2NO GLIBOrganizationAnnotation
+
+#EXPOUND!)?PLEASE NO SMART-@SS ANSWERS.
+#(S1 (S (LST (JJ EXPOUND) (. !) (-RRB- -RRB-) (. ?)) (VP (VB PLEASE) (NP (DT NO) (JJ SMART-) (SYM @) (NNP SS) (NNS ANSWERS))) (. .)))
+#Rule:Nouns
+r1PLEASE OrganizationAnnotation
+
+#Rule:Adjs
+r4EXPOUNDJJ
+
+#  BE REAL.
+#(S1 (S (VP (AUX BE) (ADJP (JJ REAL))) (. .)))
+#Rule:Adjs
+r4REALJJ
+
+#TRY AT LEAST.
+#(S1 (S (VP (VB TRY) (ADVP (IN AT) (JJS LEAST))) (. .)))
+#Rule:Verbs
+r2tryVB
+
+#Rule:Adjs
+r4AT LEOrganizationAnnotation
+
+#  Is existential angst self-obsession or legitimate angst?
+#(S1 (SQ (AUX Is) (NP (JJ existential) (NN angst)) (NP (NP (NN self-obsession)) (CC or) (NP (JJ legitimate) (NN angst))) (. ?)))
+#Rule:Nouns
+r1angstNN
+r1self-obsessionNN
+r1angstNN
+
+#Rule:Adjs
+r4existentialJJ
+r4legitimateJJ
+
+#Rule:Adj-Noun
+r5existentialJJangstNN
+r5legitimateJJangstNN
+
+#   Is it feeling sorry for oneself or questioning the status quo of life and looking for more meaning?
+#(S1 (SQ (AUX Is) (NP (PRP it)) (VP (VP (VBG feeling) (ADVP (RB sorry)) (PP (IN for) (NP (PRP oneself)))) (CC or) (VP (VBG questioning) (NP (NP (DT the) (NN status) (NN quo)) (PP (IN of) (NP (NN life))))) (CC and) (VP (VBG looking) (PP (IN for) (ADJP (RBR more) (VBG meaning))))) (. ?)))
+#Rule:Nouns
+r1statusNN
+r1quoNN
+r1lifeNN
+
+#Rule:Verbs
+r2feelingVBG
+r2questioningVBG
+r2lookingVBG
+r2meaningVBG
+
+#Rule:N-HeadNoun
+r8statusNNquoNN
+
+#Rule:V-HeadNoun
+r21questioningVBGquoNN
+
+#Rule:PPinNP
+r26quoNNofINlifeNN
+
+#Rule:PPinVP
+r30feelingVBGforINoneselfPRP
+
+#Rule:V-ADV
+r46feelingVBGsorryRB
+
+#  Why are some people more prone to it than others who don t seemed worried/in wonder of their role or destiny in life at all?
+#(S1 (SBARQ (WHADVP (WRB Why)) (SQ (AUX are) (NP (DT some) (NNS people)) (ADJP (ADJP (RBR more) (JJ prone) (PP (TO to) (NP (PRP it)))) (PP (IN than) (NP (NP (NNS others)) (SBAR (WHNP (WP who)) (S (NP (NNP don) (NNP t)) (VP (VBD seemed) (S (NP (NN worried/in)) (VP (VB wonder) (PP (IN of) (NP (NP (PRP$ their) (NN role) (CC or) (NN destiny)) (PP (IN in) (NP (NN life))))) (ADVP (IN at) (DT all))))))))))) (. ?)))
+#Rule:Nouns
+r1peopleNNS
+r1othersNNS
+r1donNNP
+r1tOrganizationAnnotation
+r1worried/inNN
+r1roleNN
+r1destinyNN
+r1lifeNN
+
+#Rule:Verbs
+r2seemedVBD
+r2wonderVB
+
+#Rule:Adjs
+r4proneJJ
+
+#Rule:PRP-Noun
+r6theirPRP$roleNN
+
+#Rule:N-HeadNoun
+r8donNNPtOrganizationAnnotation
+
+#Rule:HeadNoun-V
+r11tOrganizationAnnotationseemedVBD
+r11worried/inNNwonderVB
+
+#Rule:V-HeadNoun
+r22seemedVBDworried/inNN
+
+#Rule:PPinNP
+r26roleNNinINlifeNN
+
+#Rule:PPinVP
+r30wonderVBofINroleNN
+
+#Rule:PPinADJP
+r37proneJJthanINothersNNS
+r37proneJJtoTOitPRP
+
+# And then, if you get that far.
+#(S1 (FRAG (CC And) (ADVP (RB then)) (, ,) (SBAR (IN if) (S (NP (PRP you)) (VP (VBP get) (ADVP (RB that) (RB far))))) (. .)))
+#Rule:Verbs
+r2getVBP
+
+#Rule:HeadNoun-V
+r11youPRPgetVBP
+
+#Rule:V-ADV
+r46getVBPthatRB
+r46getVBPfarRB
+
+#  How does one get out of it?
+#(S1 (SBARQ (WHADVP (WRB How)) (SQ (AUX does) (NP (PRP one)) (VP (VB get) (PP (IN out) (PP (IN of) (NP (PRP it)))))) (. ?)))
+#Rule:Verbs
+r2getVB
+
+#Rule:PPComboInVP
+r34getVBoutINitLocationAnnotation
+
+#  Move past worrying about destiny and being and then to the next step of living with that awareness??I a
+#(S1 (S (VP (VB Move) (ADJP (RB past) (S (VP (VP (VBG worrying) (PP (IN about) (NP (NN destiny)))) (CC and) (VP (AUXG being) (ADVP (CC and) (ADVP (RB then)) (PP (TO to) (NP (NP (DT the) (JJ next) (NN step)) (PP (IN of) (NP (NN living))) (PP (IN with) (NP (DT that) (NN awareness)))))) (VP (VBN ??) (NP (PRP I) (DT a))))))))))
+#Rule:Nouns
+r1destinyNN
+r1stepNN
+r1livingNN
+r1awarenessNN
+
+#Rule:Verbs
+r2moveVB
+r2worryingVBG
+r2??VBN
+
+#Rule:Adjs
+r4nextJJ
+
+#Rule:Adj-Noun
+r5nextJJstepNN
+
+#Rule:V-HeadNoun
+r21??VBNaDT
+
+#Rule:PPinNP
+r26stepNNofINlivingNN
+r26stepNNwithINawarenessNN
+
+#Rule:PPinVP
+r30worryingVBGaboutINdestinyNN
+
+#I am loving these answers!! Thank you all thus far.especially the ones that really thought about it and went off!! I am getting a little clearer from some of the comments already but will keep it open just a bit longer to see what else pops up! thanks! Good thinking folks!
+#(S1 (FRAG (S (NP (PRP I)) (VP (AUX am) (VP (VBG loving) (NP (DT these) (NNS answers)))) (. !)) (. !) (VP (VB Thank) (SBAR (S (NP (PRP you)) (RB all) (ADVP (RB thus)) (VP (VB far.especially) (NP (NP (DT the) (NNS ones)) (SBAR (WHNP (WDT that)) (S (ADVP (RB really)) (VP (VP (VBD thought) (PP (IN about) (NP (PRP it)))) (CC and) (VP (VBD went) (PRT (RP off)))))))) (. !)))) (. !) (S (NP (PRP I)) (VP (AUX am) (VP (VBG getting) (NP (DT a) (ADJP (ADJP (RB little) (JJR clearer)) (PP (IN from) (NP (NP (DT some)) (PP (IN of) (NP (NP (DT the) (NNS comments)) (UCP (ADVP (RB already)) (CC but) (S (VP (MD will) (VP (VB keep) (S (NP (PRP it)) (VP (VB open) (ADVP (NP (RB just) (DT a) (NN bit)) (RBR longer)) (S (VP (TO to) (VP (VB see) (SBAR (WHNP (WP what)) (S (ADVP (RB else)) (VP (VBZ pops) (PRT (RP up))))))))))))) (. !) (NP (NNS thanks))))))) (. !)) (JJ Good) (VBG thinking) (NNS folks))))) (. !)))
+#Rule:Nouns
+r1answersNNS
+r1onesNNS
+r1commentsNNS
+r1bitNN
+r1thanksNNS
+r1folksNNS
+
+#Rule:Verbs
+r2lovingVBG
+r2thankVB
+r2far.especiallyVB
+r2thoughtVBD
+r2gettingVBG
+r2keepVB
+r2openVB
+r2seeVB
+r2thinkingVBG
+
+#Rule:V-PRT
+r3wentVBDoff!! IPersonAnnotation
+r3popsVBZupRP
+
+#Rule:Adjs
+r4clearerJJR
+r4GoodJJ
+
+#Rule:Adj-Noun
+r5clearerJJRfolksNNS
+r5GoodJJfolksNNS
+r5thinkingVBGfolksNNS
+
+#Rule:HeadNoun-V
+r11iPRPlovingVBG
+r11youPRPfar.especiallyVB
+r11off!! IPersonAnnotationgettingVBG
+r11itPRPopenVB
+
+#Rule:HeadNoun-(who/that)-V
+r14onesNNSthoughtVBD
+r14onesNNSwentVBD
+
+#Rule:V-HeadNoun
+r21lovingVBGanswersNNS
+r21far.especiallyVBonesNNS
+r21gettingVBGfolksNNS
+
+#Rule:V-HeadNoun
+r22keepVBitPRP
+
+#Rule:PPinNP
+r26someDTofINcommentsNNS
+
+#Rule:PPinVP
+r30thoughtVBDaboutINitPRP
+
+#Rule:PPinADJP
+r37clearerJJRfromINsomeDT
+
+#Rule:V-V
+r44openVBseeVB
+
+#Rule:V-ADV
+r46far.especiallyVBthusRB
+r46popsVBZelseRB
+
+@lemmas-left	AT LE	don	answers	good	pop	awareness	existential	people	pops	went	love	open	??	thanks	angst	are	wonder	role	Existential	move	be	think	others	get	status	clearer	answer	loving	prone	bit	thinking	far.especially	comment	some	try	go	Good	getting	one	next	legitimate	NO GLIB	thought	clear	quo	looking	thank	expound	real	life	obsession	questioning	seemed	mean	question	look	feel	REAL	worried/in	it	self-obsession	Angst	you	EXPOUND	meaning	destiny	ones	living	in	seem	i	folks	t	see	worrying	feeling	off!! I	PLEASE 	their	worry	comments	step	keep	
+@lemmas-right	getting	one	answers	thought	awareness	went	love	quo	open	angst	life	seemed	wonder	role	else	think	worried/in	it	others	get	thus	oneself	a	answer	Angst	far	loving	destiny	ones	living	seem	in	up	that	folks	t	see	far.especially	sorry	off!! I	comment	some	comments	step	go	
+@lemmas-center	to	of	with	for	than	about	from	in	out	

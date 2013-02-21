@@ -1,0 +1,38 @@
+#See a dietician for some healthy ways to meet your goal! 
+#(S1 (S (VP (VB See) (NP (NP (DT a) (NN dietician)) (PP (IN for) (NP (NP (DT some) (JJ healthy) (NNS ways)) (SBAR (S (VP (TO to) (VP (VB meet) (NP (PRP$ your) (NN goal)))))))))) (. !)))
+#Rule:Nouns
+r1dieticianNN
+r1waysNNS
+r1goalNN
+
+#Rule:Verbs
+r2seeVB
+r2meetVB
+
+#Rule:Adjs
+r4healthyJJ
+
+#Rule:Adj-Noun
+r5healthyJJwaysNNS
+
+#Rule:PRP-Noun
+r6yourPRP$goalNN
+
+#Rule:HeadNoun-(who/that)-V
+r14waysNNSmeetVB
+
+#Rule:V-HeadNoun
+r21seeVBdieticianNN
+r21meetVBgoalNN
+
+#Rule:PPinNP
+r26dieticianNNforINwaysNNS
+
+#KJL
+#(S1 (NP (NNP KJL)))
+#Rule:Nouns
+r1KJLOrganizationAnnotation
+
+@lemmas-left	dietician	see	KJL	your	healthy	meet	goal	ways	
+@lemmas-right	dietician	meet	goal	ways	
+@lemmas-center	for	

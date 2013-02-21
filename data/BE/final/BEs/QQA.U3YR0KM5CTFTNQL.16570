@@ -1,0 +1,107 @@
+#personally all i drink is bottled water.  
+#(S1 (S (NP (NP (RB personally) (DT all)) (SBAR (S (NP (PRP i)) (VP (VBP drink))))) (VP (AUX is) (NP (JJ bottled) (NN water))) (. .)))
+#Rule:Nouns
+r1waterNN
+
+#Rule:Verbs
+r2drinkVBP
+
+#Rule:Adjs
+r4bottledJJ
+
+#Rule:Adj-Noun
+r5bottledJJwaterNN
+
+#Rule:HeadNoun-V
+r11personallyRBisAUX
+r11iLocationAnnotationdrinkVBP
+
+#Rule:V-HeadNoun
+r21isAUXwaterNN
+
+#Rule:IS-RULE
+r47waterNNpersonallyRB
+
+#i hate the tast of anyother water. although it might be all in the head. and it is for me cause im sort of OCD, and bottled water is more sanitary to me.  
+#(S1 (S (NP (PRP i)) (VP (VBP hate) (NP (NP (DT the) (JJS tast)) (PP (IN of) (NP (NN anyother) (NN water.)))) (SBAR (IN although) (S (NP (PRP it)) (VP (MD might) (VP (AUX be) (DT all) (UCP (PP (IN in) (NP (DT the) (NN head.))) (CC and) (S (S (NP (PRP it)) (VP (AUX is) (SBAR (IN for) (S (NP (PRP me)) (VP (VB cause) (NP (NP (CD im) (NN sort)) (PP (IN of) (NP (NNP OCD))))))))) (, ,) (CC and) (S (NP (JJ bottled) (NN water)) (VP (AUX is) (ADJP (RBR more) (JJ sanitary) (PP (TO to) (NP (PRP me))))))))))))) (. .)))
+#Rule:Nouns
+r1anyotherNN
+r1waterNN
+r1headNN
+r1sortNN
+r1OCDOrganizationAnnotation
+r1waterNN
+
+#Rule:Verbs
+r2hateVBP
+r2causeVB
+
+#Rule:Adjs
+r4tastJJS
+r4bottledJJ
+r4sanitaryJJ
+
+#Rule:Adj-Noun
+r5imCDsortNN
+r5bottledJJwaterNN
+
+#Rule:N-HeadNoun
+r8anyotherNNwaterNN
+
+#Rule:HeadNoun-V
+r11iPRPhateVBP
+r11itPRPbeAUX
+r11itPRPisAUX
+r11mePRPcauseVB
+r11waterNNisAUX
+
+#Rule:V-HeadNoun
+r21hateVBPtastJJS
+r21causeVBsortNN
+
+#Rule:V-ADJ
+r25isAUXsanitaryJJ
+
+#Rule:PPinNP
+r26tastJJSofINwaterNN
+r26sortNNofINOCDOrganizationAnnotation
+
+#Rule:PPinADJP
+r37sanitaryJJtoTOmePRP
+
+#Rule:V-IN-V
+r43hateVBPalthoughINbeAUX
+r43isAUXforINcauseVB
+
+#also its more convinient if you drink water on the go or somthing.
+#(S1 (S (ADVP (RB also)) (NP (NP (PRP$ its) (ADJP (RBR more) (JJ convinient))) (PP (IN if) (NP (PRP you)))) (VP (VBP drink) (NP (NP (NN water)) (PP (IN on) (NP (DT the) (NN go) (CC or) (NN somthing))))) (. .)))
+#Rule:Nouns
+r1waterNN
+r1goLocationAnnotation
+r1somthingLocationAnnotation
+
+#Rule:Verbs
+r2drinkVBP
+
+#Rule:Adjs
+r4convinientJJ
+
+#Rule:PRP-Noun
+r6itsPRP$convinientJJ
+
+#Rule:HeadNoun-V
+r11convinientJJdrinkVBP
+
+#Rule:V-HeadNoun
+r21drinkVBPwaterNN
+
+#Rule:PPinNP
+r26convinientJJifINyouPRP
+r26waterNNonINgoLocationAnnotation
+
+#Rule:V-ADV
+r46drinkVBPalsoRB
+
+@lemmas-left	sort	water.	hate	cause	its	OCD	drink	me	head	somthing	be	water	is	it	anyother	bottled	bottle	sanitary	im	tast	i	personally	head.	convinient	go	
+@lemmas-right	water	is	sort	water.	hate	cause	you	sanitary	OCD	tast	personally	convinient	drink	me	also	go	be	
+@lemmas-center	to	of	although	for	if	on	

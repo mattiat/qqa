@@ -1,0 +1,40 @@
+#you best bet to get an accurate measure is to purchase a food scale.
+#(S1 (S (NP (PRP you)) (VP (ADVP (RB best)) (VBP bet) (S (VP (TO to) (VP (VB get) (S (NP (DT an) (JJ accurate) (NN measure)) (VP (AUX is) (S (VP (TO to) (VP (VB purchase) (NP (DT a) (NN food) (NN scale))))))))))) (. .)))
+#Rule:Nouns
+r1measureNN
+r1foodNN
+r1scaleNN
+
+#Rule:Verbs
+r2betVBP
+r2getVB
+r2purchaseVB
+
+#Rule:Adjs
+r4accurateJJ
+
+#Rule:Adj-Noun
+r5accurateJJmeasureNN
+
+#Rule:N-HeadNoun
+r8foodNNscaleNN
+
+#Rule:HeadNoun-V
+r11youPRPbetVBP
+r11measureNNisAUX
+
+#Rule:V-HeadNoun
+r21purchaseVBscaleNN
+
+#Rule:V-HeadNoun
+r22getVBmeasureNN
+
+#Rule:V-V
+r44betVBPgetVB
+
+#Rule:V-ADV
+r46betVBPbestRB
+
+@lemmas-left	scale	accurate	get	measure	food	bet	you	purchase	
+@lemmas-right	scale	is	get	measure	bet	best	be	
+@lemmas-center	

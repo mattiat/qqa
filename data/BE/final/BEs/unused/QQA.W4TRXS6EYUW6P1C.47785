@@ -1,0 +1,95 @@
+#As long as the person has good hygiene there is no difference. 
+#(S1 (S (ADVP (ADVP (RB As) (RB long)) (SBAR (IN as) (S (NP (DT the) (NN person)) (VP (AUX has) (NP (JJ good) (NN hygiene)))))) (NP (EX there)) (VP (AUX is) (NP (DT no) (NN difference))) (. .)))
+#Rule:Nouns
+r1personNN
+r1hygienePersonAnnotation
+r1differenceNN
+
+#Rule:Adjs
+r4goodJJ
+
+#Rule:Adj-Noun
+r5goodJJhygienePersonAnnotation
+
+#Rule:HeadNoun-V
+r11thereEXisAUX
+r11personNNhasAUX
+
+#Rule:V-HeadNoun
+r21hasAUXhygienePersonAnnotation
+r21isAUXdifferenceNN
+
+#Why have a child go through the pain and trauma because it was once believed to be healthier. 
+#(S1 (SBARQ (WHADVP (WRB Why)) (SQ (AUX have) (NP (DT a) (NN child)) (VP (VB go) (PP (IN through) (NP (NP (DT the) (NN pain)) (CC and) (NP (NN trauma)))) (SBAR (IN because) (S (NP (PRP it)) (VP (AUX was) (ADVP (RB once)) (VP (VBN believed) (S (VP (TO to) (VP (AUX be) (ADJP (RBR healthier))))))))))) (. .)))
+#Rule:Nouns
+r1childNN
+r1painNN
+r1traumaLocationAnnotation
+
+#Rule:Verbs
+r2goVB
+r2believedVBN
+
+#Rule:V-HeadNoun(passive)
+r23believedVBNitPRP
+
+#Rule:V-ADJ
+r25beAUXhealthierRBR
+
+#Rule:PPinVP
+r30goVBthroughINpainNN
+r30goVBthroughINtraumaLocationAnnotation
+
+#Rule:V-IN-V
+r43goVBbecauseINbelievedVBN
+
+#Rule:V-ADV
+r46wasAUXonceRB
+r46believedVBNonceRB
+
+#This is not the practice in Europe or in Latin America. 
+#(S1 (S (NP (DT This)) (VP (AUX is) (RB not) (NP (NP (DT the) (NN practice)) (PP (PP (IN in) (NP (NNP Europe))) (CC or) (PP (IN in) (NP (NNP Latin) (NNP America)))))) (. .)))
+#Rule:Nouns
+r1practiceNN
+r1EuropeLocationAnnotation
+r1Latin AmericaLocationAnnotation
+
+#Rule:HeadNoun-V
+r11thisDTisAUX
+
+#Rule:V-HeadNoun
+r21isAUXpracticeNN
+
+#Rule:V-ADV
+r46isAUXnotRB
+
+#Of course there are religions who believe in circumcision, not for health reasons.
+#(S1 (S (PP (IN Of) (NP (NN course))) (NP (EX there)) (VP (AUX are) (NP (NP (NNS religions)) (SBAR (WHNP (WP who)) (S (VP (VBP believe) (PP (PP (IN in) (NP (NN circumcision))) (, ,) (RB not) (PP (IN for) (NP (NN health) (NNS reasons))))))))) (. .)))
+#Rule:Nouns
+r1courseNN
+r1religionsNNS
+r1circumcisionNN
+r1healthNN
+r1reasonsNNS
+
+#Rule:Verbs
+r2believeVBP
+
+#Rule:N-HeadNoun
+r8healthNNreasonsNNS
+
+#Rule:HeadNoun-V
+r11thereEXareAUX
+
+#Rule:HeadNoun-(who/that)-V
+r14religionsNNSbelieveVBP
+
+#Rule:V-HeadNoun
+r21areAUXreligionsNNS
+
+#Rule:PPinS
+r36areAUXofINcourseNN
+
+@lemmas-left	person	reason	have	pain	good	Europe	reasons	believe	has	was	child	course	religion	believed	are	religions	be	hygiene	is	trauma	Latin America	health	difference	circumcision	practice	there	this	go	
+@lemmas-right	hygiene	is	it	trauma	once	reason	have	pain	reasons	believe	has	course	religion	not	difference	believed	are	religions	practice	healthier	be	
+@lemmas-center	because	of	through	

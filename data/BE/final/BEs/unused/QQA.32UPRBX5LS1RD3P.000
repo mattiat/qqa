@@ -1,0 +1,37 @@
+#how do i loose wight?
+#(S1 (SBARQ (WHADVP (WRB how)) (SQ (AUX do) (NP (PRP i)) (VP (VB loose) (NP (NNP wight)))) (. ?)))
+#Rule:Nouns
+r1wightNNP
+
+#Rule:Verbs
+r2looseVB
+
+#Rule:V-HeadNoun
+r21looseVBwightNNP
+
+#i need to loose 60 pounds but how without hurting my body
+#(S1 (S (S (NP (PRP i)) (VP (AUX need) (S (VP (TO to) (VP (VB loose) (NP (CD 60) (NNS pounds))))))) (CC but) (ADVP (WRB how)) (PP (IN without) (S (VP (VBG hurting) (NP (PRP$ my) (NN body)))))))
+#Rule:Nouns
+r1poundsNNS
+r1bodyNN
+
+#Rule:Verbs
+r2looseVB
+r2hurtingVBG
+
+#Rule:Adj-Noun
+r560CDpoundsNNS
+
+#Rule:PRP-Noun
+r6myPRP$bodyNN
+
+#Rule:HeadNoun-V
+r11iPRPneedAUX
+
+#Rule:V-HeadNoun
+r21looseVBpoundsNNS
+r21hurtingVBGbodyNN
+
+@lemmas-left	body	hurt	wight	hurting	pounds	60	loose	my	i	pound	
+@lemmas-right	need	body	wight	pounds	pound	
+@lemmas-center	

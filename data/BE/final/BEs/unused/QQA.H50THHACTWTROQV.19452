@@ -1,0 +1,22 @@
+#probably there is a need to train people!
+#(S1 (S (ADVP (RB probably)) (NP (EX there)) (VP (AUX is) (NP (DT a) (NN need) (S (VP (TO to) (VP (VB train) (NP (NNS people))))))) (. !)))
+#Rule:Nouns
+r1needNN
+r1peopleNNS
+
+#Rule:Verbs
+r2trainVB
+
+#Rule:HeadNoun-V
+r11thereEXisAUX
+
+#Rule:V-HeadNoun
+r21isAUXneedNN
+r21trainVBpeopleNNS
+
+#Rule:V-ADV
+r46isAUXprobablyRB
+
+@lemmas-left	need	is	there	train	people	be	
+@lemmas-right	need	is	probably	people	be	
+@lemmas-center	

@@ -1,0 +1,438 @@
+BE: aspectNN
+EQ class: facetnn	
+
+BE: cholesterolNN
+EQ class: cholesterinnn	
+
+BE: issueNN
+EQ class: 
+
+BE: doctorNN
+EQ class: physiciannn	dr.nn	doctorialjj	docnn	mediconn	mdnn	
+
+BE: dietNN
+EQ class: dieteticaljj	dieteticjj	dietaryjj	
+
+BE: medicationNN
+EQ class: medicinenn	medicinal_drugnn	medicamentnn	
+
+BE: planNN
+EQ class: programnn	programmenn	
+
+BE: consultVB
+EQ class: confer_withvb	
+
+BE: workVBoutRP
+EQ class: worknnofinoutrp	workernnofinoutrp	
+
+BE: medicalJJ
+EQ class: medicinenn	medicalnn	
+
+BE: medicalJJaspectNN
+EQ class: medicinennfacetnn	medicaljjfacetnn	medicinennaspectnn	medicalnnaspectnn	medicalnnfacetnn	
+
+BE: /OrganizationAnnotationplanNN
+EQ class: /.organizationannotationprogrammenn	/.organizationannotationplannn	/organizationannotationprogrammenn	/organizationannotationprogramnn	/.organizationannotationprogramnn	
+
+BE: hisPRP$doctorNN
+EQ class: hisprp$dr.nn	doctorialvbhisprp$	hisprp$sophisticatevb	hisprp$doctorialvb	hisprp$doctorvb	mediconnofinhisprp$	hisprp$doctor_upvb	hisprp$physiciannn	sophisticatevbhisprp$	doctornnofinhisprp$	docnnofinhisprp$	doctor_upvbhisprp$	doctorvbhisprp$	hisprp$mdnn	hisprp$docnn	dr.nnofinhisprp$	mdnnofinhisprp$	hisprp$mediconn	physiciannnofinhisprp$	hisprp$doctorialjj	doctorialjjofinhisprp$	
+
+BE: cholesterolNNissueNN
+EQ class: cholesterinnnissuenn	issuennofincholesterinnn	issuennofincholesterolnn	
+
+BE: medicationNNplanNN
+EQ class: medicamentnnofinprogrammenn	programnnmedicatevb	medicinennplanvb	plannnofinmedicinenn	medicinal_drugnnprogramnn	programmennofinmedicinenn	plannnofinmedicinal_drugnn	medical_specialtynnofinplannn	be_aftervbmedicationnn	medical_specialtynnofinprogramnn	medicationnnbe_aftervb	be_aftervbmedicamentnn	medicationnnprogramnn	planvbmedicationnn	medicinennplannn	medicamentnnprogrammenn	programmennofinmedicinal_drugnn	medicationnnplanvb	medicinal_drugnnplanvb	plannnmedicatevb	medicinennofinplannn	medicativennofinprogramnn	programnnofinmedicamentnn	planvbmedicinenn	be_aftervbmedicinal_drugnn	programnnofinmedicationnn	planvbmedicinal_drugnn	medicationnnprogrammenn	medicativennofinprogrammenn	medicinal_drugnnofinprogramnn	medicinennofinprogrammenn	medicinennofinprogramnn	medicaljjofinplannn	medicinal_drugnnplannn	plannnofinmedicamentnn	planvbmedicamentnn	medicinal_drugnnbe_aftervb	plannnofinmedicationnn	medicinennbe_aftervb	medicinal_drugnnprogrammenn	medicamentnnprogramnn	medicamentnnofinplannn	medicinennprogrammenn	programnnofinmedicinenn	programmennmedicatevb	medicationnnofinplannn	medicamentnnplannn	programmennofinmedicamentnn	medicamentnnbe_aftervb	medicinal_drugnnofinplannn	programmennofinmedicationnn	medicamentnnplanvb	medical_specialtynnofinprogrammenn	programnnofinmedicinal_drugnn	medicationnnofinprogrammenn	medicativennofinplannn	medicinal_drugnnofinprogrammenn	medicamentnnofinprogramnn	be_aftervbmedicinenn	medicaljjofinprogrammenn	medicaljjofinprogramnn	medicinennprogramnn	medicationnnofinprogramnn	
+
+BE: hePRPconsultVB
+EQ class: audiencennheprp	consultatorynnofinheprp	consultationnnofinheprp	consultationnnheprp	heprpconfer_withvb	consultativennofinheprp	audiencennofinheprp	interviewnnheprp	consultivennofinheprp	interviewnnofinheprp	
+
+BE: workVBplanNN
+EQ class: workvbprogrammenn	workernnofinprogramnn	worknnofinplannn	workvbprogramnn	worknnofinprogramnn	workernnofinprogrammenn	workernnofinplannn	worknnofinprogrammenn	
+
+BE: consultVBwithINdoctorNN
+EQ class: confer_withvbwithindocnn	consultvbwithindr.nn	confer_withvbwithindoctorialjj	confer_withvbwithinphysiciannn	confer_withvbwithindr.nn	consultvbwithinmediconn	confer_withvbwithinmdnn	consultvbwithinphysiciannn	consultvbwithindocnn	consultvbwithindoctorialjj	consultvbwithinmdnn	confer_withvbwithinmediconn	confer_withvbwithindoctornn	
+
+BE: shouldMDfromINaspectNN
+EQ class: shouldmdfrominfacetnn	
+
+BE: dietNN
+EQ class: dieteticaljj	dieteticjj	dietaryjj	
+
+BE: lowNN
+EQ class: depressionnn	
+
+BE: fatsNNS
+EQ class: fatjj	theynns	fatnns	themnns	
+
+BE: cholesterolNN
+EQ class: cholesterinnn	
+
+BE: recommendedVBN
+EQ class: recommendvbn	advocatevbn	urgevbn	
+
+BE: reducingVBG
+EQ class: trim_downvbg	trim_backvbg	trimvbg	cutvbg	bring_downvbg	cut_downvbg	cut_backvbg	reducevbg	
+
+BE: dietNNlowNN
+EQ class: dietarynnofinlownn	dietnnofindepressionnn	depressionnnofindietnn	dietaryjjofindepressionnn	dieteticjjlownn	dietnndepressionnn	dietaryjjlownn	depressionnnofindieteticjj	dieteticaljjofindepressionnn	dieteticjjdepressionnn	dieteticaljjdepressionnn	lownnofindieteticaljj	dieteticjjofindepressionnn	depressionnnofindietaryjj	dietaryjjofinlownn	dieteticaljjlownn	dietarynnofindepressionnn	dieteticjjofinlownn	dieternnofindepressionnn	depressionnndietvb	dietingnnofindepressionnn	dieteticaljjofinlownn	dietaryjjdepressionnn	dietingnnofinlownn	dieternnofinlownn	lownnofindietaryjj	lownnofindieteticjj	depressionnnofindieteticaljj	lownndietvb	lownnofindietnn	dietnnofinlownn	
+
+BE: reducingVBGcholesterolNN
+EQ class: decreasennofincholesterolnn	reductionnnofincholesterolnn	cutvbgcholesterinnn	bring_downvbgcholesterolnn	cut_downvbgcholesterolnn	trimvbgcholesterolnn	reductionnnofincholesterinnn	trim_backvbgcholesterolnn	reducevbgcholesterolnn	reductivennofincholesterinnn	decreasennofincholesterinnn	cut_backvbgcholesterolnn	step-downnnofincholesterolnn	trim_backvbgcholesterinnn	trimvbgcholesterinnn	trim_downvbgcholesterinnn	cutvbgcholesterolnn	reducevbgcholesterinnn	step-downnnofincholesterinnn	diminutionnnofincholesterinnn	cut_downvbgcholesterinnn	cut_backvbgcholesterinnn	trim_downvbgcholesterolnn	diminutionnnofincholesterolnn	reductivennofincholesterolnn	reducingvbgcholesterinnn	bring_downvbgcholesterinnn	
+
+BE: recommendedVBNlowNN
+EQ class: urgevbnlownn	recommendvbndepressionnn	recommendvbnlownn	recommendationnnofinlownn	recommendationnnofindepressionnn	recommendedvbndepressionnn	advocatevbnlownn	advocatevbndepressionnn	urgevbndepressionnn	
+
+BE: lowNNinINfatsNNS
+EQ class: depressionnnininfatsnns	depressionnninintheynns	themnnslownn	fatjjlownn	themnnsdepressionnn	fatsnnsdepressionnn	fatnnslownn	lownnininthemnns	lownnininfatnns	fatsnnslownn	theynnsdepressionnn	depressionnnininfatjj	fatjjdepressionnn	lownnininfatjj	theynnslownn	fatnnsdepressionnn	depressionnnininthemnns	lownninintheynns	depressionnnininfatnns	
+
+BE: medicationsNNS
+EQ class: medicationnns	medicamentnns	medicinenns	theynns	themnns	medicinal_drugnns	
+
+BE: marketNN
+EQ class: marketplacenn	market_placenn	
+
+BE: dietNN
+EQ class: dieteticaljj	dieteticjj	dietaryjj	
+
+BE: enoughNN
+EQ class: enoughjj	sufficiencynn	
+
+BE: helpVB
+EQ class: aidvb	assistvb	
+
+BE: isnVBZ
+EQ class: 
+
+BE: numerousJJ
+EQ class: numerositynn	numerousnessnn	legionjj	
+
+BE: cholesterol-loweringJJ
+EQ class: sullenjj	loweringjj	heavyjj	threateningjj	
+
+BE: numerousJJmedicationsNNS
+EQ class: legionjjmedicinal_drugnns	numerositynnmedicationnns	numerousnessnnmedicinenns	numerositynntheynns	numerousnessnnmedicationnns	numerousjjmedicamentnns	legionjjmedicamentnns	legionjjthemnns	numerositynnmedicinal_drugnns	numerositynnthemnns	numerositynnmedicamentnns	numerousnessnnmedicamentnns	numerositynnmedicinenns	numerousnessnnmedicinal_drugnns	numerousnessnntheynns	legionjjtheynns	numerousnessnnmedicationsnns	numerousjjmedicationnns	legionjjmedicationnns	legionjjmedicationsnns	numerousjjthemnns	legionjjmedicinenns	numerousjjtheynns	numerousjjmedicinal_drugnns	numerositynnmedicationsnns	numerousjjmedicinenns	numerousnessnnthemnns	
+
+BE: cholesterol-loweringJJmedicationsNNS
+EQ class: heavyjjmedicationnns	sullenjjthemnns	sullenjjmedicinal_drugnns	medicatevbloweringlyrb	heavyjjmedicationsnns	cholesterol-loweringjjtheynns	threateningjjtheynns	sullenjjmedicationsnns	loweringjjmedicinal_drugnns	heavyjjmedicinal_drugnns	threateningjjmedicinal_drugnns	threateningjjmedicinenns	cholesterol-loweringjjmedicationnns	threateningjjmedicationnns	cholesterol-loweringjjthemnns	loweringjjmedicationsnns	loweringjjtheynns	loweringjjmedicinenns	cholesterol-loweringjjmedicinenns	threateningjjthemnns	heavyjjmedicinenns	threateningjjmedicamentnns	sullenjjmedicinenns	threateningjjmedicationsnns	cholesterol-loweringjjmedicinal_drugnns	heavyjjtheynns	sullenjjtheynns	cholesterol-loweringjjmedicamentnns	loweringjjthemnns	sullenjjmedicamentnns	sullenjjmedicationnns	loweringjjmedicationnns	heavyjjthemnns	heavyjjmedicamentnns	loweringjjmedicamentnns	
+
+BE: tCDenoughNN
+EQ class: tcdsufficiencynn	thyminecdenoughjj	thyminecdsufficiencynn	tcdenoughjj	thyminecdenoughnn	
+
+BE: thereEXareAUX
+EQ class: thereexbeaux	
+
+BE: dietNNisnVBZ
+EQ class: dietaryjjisnvbz	dieteticaljjisnvbz	dieteticjjisnvbz	
+
+BE: marketNNhelpVB
+EQ class: marketnnassistvb	assistancennofinmarketplacenn	assistnnofinmarket_placenn	supporternnofinmarketnn	assistantnnmarket_placenn	aidnnofinmarketplacenn	assistantnnmarketnn	marketplacennhelpvb	assistnnofinmarketnn	helpernnofinmarketplacenn	helpernnofinmarketnn	supporternnmarket_placenn	helpnnofinmarketplacenn	market_placennassistvb	helpernnmarketplacenn	marketplacennassistvb	assistancennofinmarketnn	helpernnmarket_placenn	helpnnmarket_placenn	assistantnnofinmarketplacenn	marketnnaidvb	supporternnofinmarketplacenn	assistnnofinmarketplacenn	helpernnofinmarket_placenn	supporternnmarketplacenn	supporternnmarketnn	market_placennhelpvb	helpnnofinmarket_placenn	helpnnmarketplacenn	helpernnmarketnn	marketplacennaidvb	helpnnofinmarketnn	aidnnofinmarketnn	assistancennofinmarket_placenn	assistantnnofinmarketnn	aidnnofinmarket_placenn	helpnnmarketnn	market_placennaidvb	assistantnnmarketplacenn	supporternnofinmarket_placenn	assistantnnofinmarket_placenn	
+
+BE: areAUXmedicationsNNS
+EQ class: areauxmedicinal_drugnns	areauxmedicationnns	beauxmedicationnns	beauxthemnns	areauxthemnns	beauxmedicamentnns	areauxmedicinenns	beauxmedicinenns	beauxtheynns	areauxtheynns	beauxmedicationsnns	beauxmedicinal_drugnns	areauxmedicamentnns	
+
+BE: isnVBZenoughNN
+EQ class: isnvbzenoughjj	isnvbzsufficiencynn	
+
+BE: areAUXonINmarketNN
+EQ class: beauxoninmarket_placenn	areauxoninmarket_placenn	beauxoninmarketplacenn	beauxoninmarketnn	areauxoninmarketplacenn	
+
+BE: areAUXalsoRB
+EQ class: beauxalsorb	
+
+BE: areAUXthereRB
+EQ class: beauxthererb	
+
+BE: isnVBZaloneRB
+EQ class: 
+
+BE: questionNN
+EQ class: enquirynn	interrogationnn	querynn	inquirynn	
+
+BE: dadNN
+EQ class: popnn	papann	pappann	pann	daddynn	dadann	
+
+BE: depressionNN
+EQ class: 
+
+BE: soundsVBZ
+EQ class: soundvbz	
+
+BE: sufferingVBG
+EQ class: endurevbg	suffervbg	
+
+BE: otherJJ
+EQ class: 
+
+BE: otherJJquestionNN
+EQ class: otherjjinterrogationnn	otherjjenquirynn	otherjjquerynn	otherjjinquirynn	
+
+BE: yourPRP$dadNN
+EQ class: yourprp$pappann	pannofinyourprp$	dadannofinyourprp$	yourprp$papann	yourprp$popnn	pappannofinyourprp$	popnnofinyourprp$	dadnnofinyourprp$	papannofinyourprp$	daddynnofinyourprp$	yourprp$daddynn	yourprp$dadann	yourprp$pann	
+
+BE: itPRPsoundsVBZ
+EQ class: itprpsoundvbz	
+
+BE: dadNNsufferingVBG
+EQ class: pannsuffervbg	pannendurevbg	papannsuffervbg	pappannsuffervbg	dadnnendurevbg	popnnsufferingvbg	pannsufferingvbg	dadannsuffervbg	pappannsufferingvbg	daddynnsufferingvbg	papannendurevbg	dadannsufferingvbg	popnnendurevbg	daddynnsuffervbg	dadannendurevbg	daddynnendurevbg	papannsufferingvbg	popnnsuffervbg	pappannendurevbg	dadnnsuffervbg	
+
+BE: sufferingVBGfromINdepressionNN
+EQ class: suffervbgfromindepressionnn	endurevbgfromindepressionnn	
+
+BE: soundsVBZforINquestionNN
+EQ class: soundsvbzforininquirynn	soundvbzforinquerynn	soundvbzforininquirynn	soundvbzforininterrogationnn	soundvbzforinenquirynn	soundvbzforinquestionnn	soundsvbzforinquerynn	soundsvbzforininterrogationnn	soundsvbzforinenquirynn	
+
+BE: soundsVBZasINsufferingVBG
+EQ class: soundsvbzasinendurevbg	soundsvbzasinsuffervbg	soundvbzasinsuffervbg	soundvbzasinendurevbg	soundvbzasinsufferingvbg	
+
+BE: doctorNN
+EQ class: physiciannn	dr.nn	doctorialjj	docnn	mediconn	mdnn	
+
+BE: treatmentNN
+EQ class: interventionnn	
+
+BE: planNN
+EQ class: programnn	programmenn	
+
+BE: consultVB
+EQ class: confer_withvb	
+
+BE: workVBoutRP
+EQ class: worknnofinoutrp	workernnofinoutrp	
+
+BE: hisPRP$doctorNN
+EQ class: hisprp$dr.nn	doctorialvbhisprp$	hisprp$sophisticatevb	hisprp$doctorialvb	hisprp$doctorvb	mediconnofinhisprp$	hisprp$doctor_upvb	hisprp$physiciannn	sophisticatevbhisprp$	doctornnofinhisprp$	docnnofinhisprp$	doctor_upvbhisprp$	doctorvbhisprp$	hisprp$mdnn	hisprp$docnn	dr.nnofinhisprp$	mdnnofinhisprp$	hisprp$mediconn	physiciannnofinhisprp$	hisprp$doctorialjj	doctorialjjofinhisprp$	
+
+BE: treatmentNNplanNN
+EQ class: interventionnnbe_aftervb	plannnofininterventionnn	treatmentnnbe_aftervb	programnndo_byvb	plannndo_byvb	plannnhandlevb	interventionnnplannn	programmennofintreatmentnn	planvbinterventionnn	programmennofininterventionnn	programnnhandlevb	programnnofininterventionnn	programnnofintreatmentnn	treatmentnnprogramnn	interventionnnplanvb	programmenndo_byvb	interventionnnprogrammenn	interventionnnprogramnn	be_aftervbtreatmentnn	treatmentnnprogrammenn	plannnofintreatmentnn	programmennhandlevb	programmenntreatvb	plannntreatvb	programnntreatvb	treatmentnnplanvb	be_aftervbinterventionnn	planvbtreatmentnn	
+
+BE: hePRPconsultVB
+EQ class: audiencennheprp	consultatorynnofinheprp	consultationnnofinheprp	consultationnnheprp	heprpconfer_withvb	consultativennofinheprp	audiencennofinheprp	interviewnnheprp	consultivennofinheprp	interviewnnofinheprp	
+
+BE: hePRPworkVB
+EQ class: workernnheprp	worknnofinheprp	workernnofinheprp	
+
+BE: workVBplanNN
+EQ class: workvbprogrammenn	workernnofinprogramnn	worknnofinplannn	workvbprogramnn	worknnofinprogramnn	workernnofinprogrammenn	workernnofinplannn	worknnofinprogrammenn	
+
+BE: planNNforINthisDT
+EQ class: thisdtplanvb	planvbthisdt	thisdtprogrammenn	thisdtplannn	programmennforinthisdt	be_aftervbthisdt	thisdtprogramnn	thisdtbe_aftervb	programnnforinthisdt	
+
+BE: consultVBwithINdoctorNN
+EQ class: confer_withvbwithindocnn	consultvbwithindr.nn	confer_withvbwithindoctorialjj	confer_withvbwithinphysiciannn	confer_withvbwithindr.nn	consultvbwithinmediconn	confer_withvbwithinmdnn	consultvbwithinphysiciannn	consultvbwithindocnn	consultvbwithindoctorialjj	consultvbwithinmdnn	confer_withvbwithinmediconn	confer_withvbwithindoctornn	
+
+BE: workVBasRB
+EQ class: workernnofinasrb	worknnofinasrb	
+
+BE: workVBwellRB
+EQ class: worknnofinwellrb	workernnofinwellrb	
+
+BE: therapyNN
+EQ class: therapeuticjj	therapeuticaljj	
+
+BE: treatmentNN
+EQ class: interventionnn	
+
+BE: seekVB
+EQ class: 
+
+BE: professionalJJ
+EQ class: 
+
+BE: medicalJJ
+EQ class: medicinenn	medicalnn	
+
+BE: professionalJJtherapyNN
+EQ class: professionaljjtherapeuticaljj	professionaljjtherapeuticjj	therapeuticalvbprofessionallyrb	therapistvbprofessionallyrb	therapeuticvbprofessionallyrb	
+
+BE: medicalJJtreatmentNN
+EQ class: medicaljjinterventionnn	handlevbmedicallyrb	medicinenninterventionnn	medicalnninterventionnn	treatvbmedicallyrb	do_byvbmedicallyrb	medicinenntreatmentnn	medicalnntreatmentnn	
+
+BE: hePRPneedAUX
+EQ class: heprptakeaux	heprpaskaux	heprprequireaux	demandnnofinheprp	heprpinvolveaux	neednnofinheprp	heprppostulateaux	heprpnecessitateaux	heprpcall_foraux	heprpdemandaux	
+
+BE: seekVBtherapyNN
+EQ class: seekvbtherapeuticaljj	questnnofintherapeuticaljj	questnnofintherapeuticjj	seekingnnofintherapeuticaljj	questnnofintherapynn	seekingnnofintherapeuticjj	seekingnnofintherapynn	seekvbtherapeuticjj	
+
+BE: thingNN
+EQ class: 
+
+BE: caseNN
+EQ class: instancenn	examplenn	
+
+BE: bestJJS
+EQ class: bestnn	
+
+BE: bestJJSthingNN
+EQ class: bestnnthingnn	
+
+BE: thingNNbeAUX
+EQ class: 
+
+BE: youPRPdoAUX
+EQ class: youprpmakeaux	
+
+BE: thingNNinINcaseNN
+EQ class: thingnnininexamplenn	casennthingnn	instancennthingnn	examplennthingnn	thingnninininstancenn	
+
+BE: doAUXforINhimPRP
+EQ class: makeauxforinhimprp	
+
+BE: isAUXjustRB
+EQ class: beauxjustrb	
+
+BE: beAUXjustRB
+EQ class: 
+
+BE: beAUXthereRB
+EQ class: 
+
+BE: listenVB
+EQ class: 
+
+BE: talkVB
+EQ class: speakvb	
+
+BE: loveVB
+EQ class: 
+
+BE: loveVBhimPRP
+EQ class: lovernnofinhimprp	loveablennofinhimprp	lovablennofinhimprp	lovennofinhimprp	
+
+BE: listenVBtoTOhimPRP
+EQ class: 
+
+BE: talkVBtoTOhimPRP
+EQ class: speakvbtotohimprp	
+
+BE: routinesNNS
+EQ class: theynns	routinenns	modus_operandinns	themnns	
+
+BE: /NNS
+EQ class: /.nns	
+
+BE: lotsNNS
+EQ class: dozensnns	loadsnns	heapsnns	scoresnns	gobsnns	lashingsnns	slewsnns	stacksnns	pilesnns	tonsnns	oodlesnns	theynns	wadsnns	scadsnns	raftsnns	themnns	
+
+BE: praiseNN
+EQ class: extolmentnn	kudosnn	congratulationsnn	
+
+BE: helpNN
+EQ class: assistancenn	aidnn	assistnn	
+
+BE: includeVB
+EQ class: 
+
+BE: makeVB
+EQ class: dovb	
+
+BE: feelVB
+EQ class: experiencevb	
+
+BE: neededVBN
+EQ class: involvevbn	call_forvbn	requirevbn	necessitatevbn	needvbn	postulatevbn	takevbn	askvbn	demandvbn	
+
+BE: appreciatedVBN
+EQ class: appreciatevbn	
+
+BE: makeVB
+EQ class: dovb	
+
+BE: giveVB
+EQ class: 
+
+BE: givesVBZ
+EQ class: givevbz	
+
+BE: everydayJJ
+EQ class: unremarkablejj	routinejj	mundanejj	workadayjj	quotidianjj	everydaynessnn	
+
+BE: sureJJ
+EQ class: surenessnn	certainjj	
+
+BE: verbalJJ
+EQ class: 
+
+BE: everydayJJroutinesNNS
+EQ class: everydayjjtheynns	workadayjjroutinesnns	everydaynessnnmodus_operandinns	routinejjmodus_operandinns	unremarkablejjroutinesnns	everydaynessnntheynns	unremarkablejjmodus_operandinns	everydayjjthemnns	everydaynessnnthemnns	quotidianjjroutinesnns	mundanejjroutinesnns	routinejjtheynns	quotidianjjmodus_operandinns	quotidianjjtheynns	mundanejjroutinenns	mundanejjtheynns	workadayjjroutinenns	unremarkablejjtheynns	unremarkablejjroutinenns	everydayjjroutinenns	workadayjjtheynns	everydaynessnnroutinesnns	everydayjjmodus_operandinns	workadayjjthemnns	routinejjroutinenns	everydaynessnnroutinenns	quotidianjjroutinenns	routinejjroutinesnns	mundanejjthemnns	workadayjjmodus_operandinns	unremarkablejjthemnns	routinejjthemnns	quotidianjjthemnns	mundanejjmodus_operandinns	
+
+BE: neededVBN/NNS
+EQ class: necessitatevbn/.nns	postulatevbn/nns	requirevbn/.nns	necessitatevbn/nns	involvevbn/.nns	askvbn/.nns	neednnofin/nns	demandnnofin/nns	involvevbn/nns	takevbn/.nns	demandvbn/nns	postulatevbn/.nns	needvbn/nns	call_forvbn/nns	askvbn/nns	demandvbn/.nns	requirevbn/nns	neednnofin/.nns	call_forvbn/.nns	neededvbn/.nns	demandnnofin/.nns	needvbn/.nns	takevbn/nns	
+
+BE: yourPRP$routinesNNS
+EQ class: yourprp$themnns	themnnsofinyourprp$	theynnsofinyourprp$	yourprp$theynns	routinennsofinyourprp$	yourprp$modus_operandinns	modus_operandinnsofinyourprp$	yourprp$routinenns	routinesnnsofinyourprp$	
+
+BE: himPRPfeelVB
+EQ class: feelingsnnhimprp	feelingnnhimprp	himprpexperiencevb	feelingsnnofinhimprp	feelingnnofinhimprp	
+
+BE: himPRPmakeVB
+EQ class: himprpdovb	
+
+BE: hePRPgivesVBZ
+EQ class: heprpgivevbz	
+
+BE: includeVBhimPRP
+EQ class: 
+
+BE: giveVBhimPRP
+EQ class: 
+
+BE: giveVBlotsNNS
+EQ class: givevbgobsnns	givevblashingsnns	givevboodlesnns	givevbloadsnns	givevbstacksnns	givevbpilesnns	givevbtonsnns	givevbraftsnns	givevbscadsnns	givevbscoresnns	givevbheapsnns	givevbtheynns	givevbslewsnns	givevbdozensnns	givevbthemnns	givevbwadsnns	
+
+BE: givesVBZyouPRP
+EQ class: givevbzyouprp	
+
+BE: makeVBhimPRP
+EQ class: dovbhimprp	
+
+BE: feelVB/NNS
+EQ class: feelingsnnofin/nns	feelingsnnofin/.nns	feelingnnofin/nns	feelvb/.nns	experiencevb/.nns	experiencevb/nns	feelingnnofin/.nns	
+
+BE: appreciatedVBN/NNS
+EQ class: appreciativennofin/nns	appreciativennofin/.nns	appreciatedvbn/.nns	appreciatevbn/nns	appreciatevbn/.nns	
+
+BE: lotsNNSofINpraiseNN
+EQ class: tonsnnsofinextolmentnn	praisennoodlesnns	theynnsofinkudosnn	tonsnnsofinkudosnn	praisenntonsnns	kudosnntheynns	kudosnnslewsnns	kudosnnthemnns	extolmentnntonsnns	praisennlashingsnns	kudosnnlashingsnns	wadsnnsofinextolmentnn	extolmentnngobsnns	lashingsnnsofinkudosnn	lashingsnnsofinpraisenn	congratulationsnntonsnns	kudosnndozensnns	scadsnnsofinpraisenn	kudosnngobsnns	praisennloadsnns	congratulationsnnstacksnns	extolmentnnscoresnns	congratulationsnnlotsnns	raftsnnsofinkudosnn	praisenntheynns	loadsnnsofinextolmentnn	dozensnnsofinextolmentnn	extolmentnnheapsnns	loadsnnsofinkudosnn	extolmentnnscadsnns	extolmentnntheynns	praisennlotsnns	congratulationsnnslewsnns	praisennwadsnns	pilesnnsofinextolmentnn	oodlesnnsofinpraisenn	praisennraftsnns	dozensnnsofinkudosnn	kudosnnraftsnns	extolmentnnoodlesnns	stacksnnsofinpraisenn	themnnsofinpraisenn	heapsnnsofinextolmentnn	gobsnnsofinpraisenn	themnnsofincongratulationsnn	kudosnnstacksnns	slewsnnsofinkudosnn	congratulationsnnscoresnns	praisennpilesnns	loadsnnsofincongratulationsnn	gobsnnsofincongratulationsnn	praisennscadsnns	praisennslewsnns	congratulationsnnoodlesnns	extolmentnnlashingsnns	congratulationsnntheynns	congratulationsnnwadsnns	extolmentnnstacksnns	extolmentnnlotsnns	congratulationsnngobsnns	lashingsnnsofinextolmentnn	kudosnnscoresnns	congratulationsnnraftsnns	theynnsofinpraisenn	scadsnnsofinextolmentnn	kudosnnheapsnns	heapsnnsofincongratulationsnn	slewsnnsofinpraisenn	extolmentnnthemnns	lotsnnsofinkudosnn	kudosnnlotsnns	dozensnnsofinpraisenn	kudosnnoodlesnns	raftsnnsofinpraisenn	praisennthemnns	congratulationsnnloadsnns	tonsnnsofincongratulationsnn	wadsnnsofincongratulationsnn	congratulationsnnpilesnns	theynnsofinextolmentnn	extolmentnnslewsnns	pilesnnsofinpraisenn	congratulationsnnheapsnns	praisennstacksnns	scadsnnsofinkudosnn	extolmentnnraftsnns	praisennscoresnns	heapsnnsofinpraisenn	praisenndozensnns	scoresnnsofinkudosnn	oodlesnnsofinkudosnn	wadsnnsofinpraisenn	stacksnnsofinkudosnn	heapsnnsofinkudosnn	extolmentnnloadsnns	wadsnnsofinkudosnn	congratulationsnnscadsnns	congratulationsnnlashingsnns	kudosnntonsnns	gobsnnsofinextolmentnn	slewsnnsofincongratulationsnn	scoresnnsofinpraisenn	themnnsofinkudosnn	lashingsnnsofincongratulationsnn	stacksnnsofincongratulationsnn	praisennheapsnns	themnnsofinextolmentnn	slewsnnsofinextolmentnn	raftsnnsofincongratulationsnn	pilesnnsofinkudosnn	theynnsofincongratulationsnn	kudosnnscadsnns	loadsnnsofinpraisenn	extolmentnnpilesnns	tonsnnsofinpraisenn	oodlesnnsofinextolmentnn	extolmentnndozensnns	scoresnnsofincongratulationsnn	kudosnnloadsnns	congratulationsnnthemnns	raftsnnsofinextolmentnn	oodlesnnsofincongratulationsnn	scoresnnsofinextolmentnn	praisenngobsnns	scadsnnsofincongratulationsnn	gobsnnsofinkudosnn	stacksnnsofinextolmentnn	lotsnnsofincongratulationsnn	extolmentnnwadsnns	kudosnnwadsnns	dozensnnsofincongratulationsnn	pilesnnsofincongratulationsnn	kudosnnpilesnns	lotsnnsofinextolmentnn	congratulationsnndozensnns	
+
+BE: includeVBinINroutinesNNS
+EQ class: includevbininroutinenns	includevbinintheynns	includevbininmodus_operandinns	includevbininthemnns	
+
+BE: giveVBforINhelpNN
+EQ class: givevbforinassistnn	givevbforinaidnn	givevbforinassistancenn	
+
+BE: givesVBZdailyRB
+EQ class: dailyjjiningivevbz	dailyjjiningivesvbz	givevbzdailyrb	daynniningivevbz	day-after-dayjjiningivesvbz	day-after-dayjjiningivevbz	day-by-dayjjiningivevbz	daynniningivesvbz	day-by-dayjjiningivesvbz	day-to-dayjjiningivevbz	day-to-dayjjiningivesvbz	
+
+BE: luckNN
+EQ class: lotnn	fortunenn	portionnn	fatenn	destinynn	circumstancesnn	
+
+BE: everythingNN
+EQ class: 
+
+BE: hopeVBP
+EQ class: desirevbp	trustvbp	
+
+BE: worksVBZoutRP
+EQ class: worknnofinoutrp	workernnofinoutrp	workvbzoutrp	
+
+BE: GoodJJ
+EQ class: goodnessnn	
+
+BE: bestJJS
+EQ class: bestnn	
+
+BE: GoodJJluckNN
+EQ class: goodjjfatenn	goodnessnnfatenn	goodnessnnlotnn	goodnessnnfortunenn	goodjjportionnn	goodjjcircumstancesnn	goodnessnnlucknn	goodjjdestinynn	goodjjfortunenn	goodjjlotnn	goodnessnncircumstancesnn	goodnessnndestinynn	goodnessnnportionnn	
+
+BE: luckNNhopeVBP
+EQ class: hopennofinlotnn	hopennofincircumstancesnn	hopernnportionnn	portionnnhopevbp	destinynntrustvbp	lotnndesirevbp	hopernnofinfatenn	circumstancesnnhopevbp	portionnndesirevbp	fatenndesirevbp	fortunenntrustvbp	hopennofindestinynn	hopernnofinportionnn	hopennofinlucknn	hopernnofinlotnn	hopennofinfortunenn	hopernnlotnn	hopernncircumstancesnn	hopernnlucknn	hopernnfatenn	hopernnofinfortunenn	fatenntrustvbp	fatennhopevbp	circumstancesnntrustvbp	lucknndesirevbp	fortunennhopevbp	lotnntrustvbp	destinynnhopevbp	hopernnofinlucknn	fortunenndesirevbp	hopernnofincircumstancesnn	hopernnfortunenn	hopernnofindestinynn	lotnnhopevbp	lucknntrustvbp	hopennofinfatenn	hopennofinportionnn	destinynndesirevbp	hopernndestinynn	portionnntrustvbp	circumstancesnndesirevbp	
+
+BE: iPRPhopeVBP
+EQ class: hopennofiniprp	iprptrustvbp	hopernnofiniprp	iprpdesirevbp	hopernniprp	
+
+BE: everythingNNworksVBZ
+EQ class: worknnofineverythingnn	everythingnnworkvbz	workernnofineverythingnn	workernneverythingnn	
+
+BE: worksVBZforINbestJJS
+EQ class: worksvbzforinbestnn	workvbzforinbestjjs	workvbzforinbestnn	
+

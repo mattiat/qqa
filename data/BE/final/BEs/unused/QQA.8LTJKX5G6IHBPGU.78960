@@ -1,0 +1,45 @@
+#search in the yahoo answer. u will find plenty of answer. this Q has been asked many many times.
+#(S1 (S (NP (NP (NN search)) (PP (IN in) (NP (DT the) (NN yahoo) (NN answer.) (NNP u)))) (VP (MD will) (VP (VB find) (NP (NP (NN plenty)) (PP (IN of) (NP (NN answer.))) (SBAR (S (NP (DT this) (NNP Q)) (VP (AUX has) (VP (AUX been) (VP (VBN asked) (NP (JJ many) (JJ many) (NNS times)))))))))) (. .)))
+#Rule:Nouns
+r1searchNN
+r1yahooLocationAnnotation
+r1answerNN
+r1uPersonAnnotation
+r1plentyNN
+r1answerNN
+r1this QPersonAnnotation
+r1timesNNS
+
+#Rule:Verbs
+r2findVB
+r2askedVBN
+
+#Rule:Adjs
+r4manyJJ
+r4manyJJ
+
+#Rule:Adj-Noun
+r5manyJJtimesNNS
+r5manyJJtimesNNS
+
+#Rule:N-HeadNoun
+r8answerNNuPersonAnnotation
+r8yahooLocationAnnotationuPersonAnnotation
+
+#Rule:HeadNoun-V
+r11searchNNfindVB
+
+#Rule:V-HeadNoun
+r21findVBplentyNN
+r21askedVBNtimesNNS
+
+#Rule:V-HeadNoun(passive)
+r23askedVBNthis QPersonAnnotation
+
+#Rule:PPinNP
+r26searchNNinINuPersonAnnotation
+r26plentyNNofINanswerNN
+
+@lemmas-left	many	asked	u	times	search	this Q	plenty	answer	answer.	ask	find	yahoo	
+@lemmas-right	u	times	this Q	answer	plenty	answer.	find	
+@lemmas-center	of	in	

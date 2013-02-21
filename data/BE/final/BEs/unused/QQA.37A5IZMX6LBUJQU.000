@@ -1,0 +1,38 @@
+#I want to get into working on my family tree, but how and where should I start? 
+#(S1 (S (S (NP (PRP I)) (VP (VBP want) (S (VP (TO to) (VP (VB get) (PP (IN into) (S (VP (VBG working) (PP (IN on) (NP (PRP$ my) (NN family) (NN tree))))))))))) (, ,) (CC but) (SBARQ (WHADVP (WRB how) (CC and) (WRB where)) (SQ (MD should) (NP (PRP I)) (VP (VB start))) (. ?))))
+#Rule:Nouns
+r1familyNN
+r1treeNN
+
+#Rule:Verbs
+r2wantVBP
+r2getVB
+r2workingVBG
+r2startVB
+
+#Rule:PRP-Noun
+r6myPRP$treeNN
+
+#Rule:N-HeadNoun
+r8familyNNtreeNN
+
+#Rule:HeadNoun-V
+r11iPRPwantVBP
+
+#Rule:PPinVP
+r30workingVBGonINtreeNN
+
+#Rule:V-V
+r44wantVBPgetVB
+
+#is there anywhere free to go?
+#(S1 (SQ (AUX is) (NP (EX there)) (ADJP (RB anywhere) (JJ free) (S (VP (TO to) (VP (VB go))))) (. ?)))
+#Rule:Verbs
+r2goVB
+
+#Rule:Adjs
+r4freeJJ
+
+@lemmas-left	work	free	get	tree	start	family	working	my	want	go	i	
+@lemmas-right	get	tree	want	
+@lemmas-center	on	

@@ -1,0 +1,54 @@
+#Because it originated from the two words  ...oll korrect....2 old english slangs meaning  all correct . 
+#(S1 (S (SBAR (IN Because) (S (NP (PRP it)) (VP (VBP originated) (PP (IN from) (NP (DT the) (CD two) (NNS words)))))) (: ...) (NP (NN oll) (NN korrect)) (VP (VBZ ....) (NP (NP (CD 2) (JJ old) (JJ english) (NNS slangs)) (VP (VBG meaning) (NP (DT all) (JJ correct))))) (. .)))
+#Rule:Nouns
+r1wordsNNS
+r1ollNN
+r1korrectNN
+r1slangsNNS
+
+#Rule:Verbs
+r2originatedVBP
+r2....VBZ
+r2meaningVBG
+
+#Rule:Adjs
+r4oldJJ
+r4englishJJ
+r4correctJJ
+
+#Rule:Adj-Noun
+r5twoCDwordsNNS
+r52CDslangsNNS
+r5oldJJslangsNNS
+r5englishJJslangsNNS
+
+#Rule:N-HeadNoun
+r8ollNNkorrectNN
+
+#Rule:HeadNoun-V
+r11korrectNN....VBZ
+r11itPRPoriginatedVBP
+r11slangsNNSmeaningVBG
+
+#Rule:V-HeadNoun
+r21....VBZslangsNNS
+r21meaningVBGcorrectJJ
+
+#Rule:PPinVP
+r30originatedVBPfromINwordsNNS
+
+#So it means good or adequate.
+#(S1 (S (RB So) (NP (PRP it)) (VP (VBZ means) (ADJP (JJ good) (CC or) (JJ adequate))) (. .)))
+#Rule:Verbs
+r2meansVBZ
+
+#Rule:Adjs
+r4goodJJ
+r4adequateJJ
+
+#Rule:HeadNoun-V
+r11itPRPmeansVBZ
+
+@lemmas-left	....	old	it	korrect	adequate	slang	means	originate	good	oll	meaning	originated	slangs	2	two	words	correct	mean	english	
+@lemmas-right	....	slangs	korrect	correct	words	slang	means	originate	mean	meaning	originated	
+@lemmas-center	from	

@@ -1,0 +1,23 @@
+#EgyptMoses let his people go
+#(S1 (S (NP (NNS EgyptMoses)) (VP (VB let) (S (NP (PRP$ his) (NNS people)) (VP (VB go))))))
+#Rule:Nouns
+r1EgyptMosesLocationAnnotation
+r1peopleNNS
+
+#Rule:Verbs
+r2letVB
+r2goVB
+
+#Rule:PRP-Noun
+r6hisPRP$peopleNNS
+
+#Rule:HeadNoun-V
+r11EgyptMosesLocationAnnotationletVB
+r11peopleNNSgoVB
+
+#Rule:V-HeadNoun
+r22letVBpeopleNNS
+
+@lemmas-left	his	let	EgyptMoses	people	go	
+@lemmas-right	let	people	go	
+@lemmas-center	

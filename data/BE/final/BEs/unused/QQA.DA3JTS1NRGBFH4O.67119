@@ -1,0 +1,168 @@
+#For there to be two real roots, we need the discriminant to be positive..
+#(S1 (S (SBAR (IN For) (S (NP (EX there)) (VP (TO to) (VP (AUX be) (NP (CD two) (JJ real) (NNS roots)))))) (, ,) (NP (PRP we)) (VP (AUX need) (S (NP (DT the) (NN discriminant)) (VP (TO to) (VP (AUX be) (ADJP (JJ positive)))) (. .))) (. .)))
+#Rule:Nouns
+r1rootsNNS
+r1discriminantNN
+
+#Rule:Adjs
+r4realJJ
+r4positiveJJ
+
+#Rule:Adj-Noun
+r5twoCDrootsNNS
+r5realJJrootsNNS
+
+#Rule:HeadNoun-V
+r11wePRPneedAUX
+r11thereEXbeAUX
+r11discriminantNNbeAUX
+
+#Rule:V-HeadNoun
+r21beAUXrootsNNS
+
+#Rule:V-HeadNoun
+r22needAUXdiscriminantNN
+
+#Rule:V-ADJ
+r25beAUXpositiveJJ
+
+#Discriminant is b^2 - 4ac.(3-k)^2 - 4(2)(3)>09 - 6k + k^2 - 24>0k^2 - 6k - 15>0Solving for k we getk = (6 +/- sqrt(6^2 - 4(1)(-15)))/2   = (6 +/- sqrt(36 + 60))/2   = (6 +/- sqrt(96))/2   = (6 +/- 4 sqrt(6))/2   = 3 +/- 2 sqrt(6)So
+#(S1 (S (S (NP (NN Discriminant)) (VP (AUX is) (ADJP (JJ b^2)))) (: -) (NP (NP (NP (NP (NP (NP (NP (NP (NP (NP (CD 4ac.)) (PRN (-LRB- -LRB-) (JJ 3-k) (-RRB- -RRB-)) (NP (CD ^2))) (: -) (NP (CD 4))) (-LRB- -LRB-) (NP (CD 2)) (-RRB- -RRB-) (-LRB- -LRB-) (NP (LST (LS 3) (-RRB- -RRB-)) (NP (CD >09))) (: -) (NP (QP (CD 6k) (CD +)) (NN k^2)) (: -) (NP (CD 24>0k^2)) (: -) (NP (CD 6k)) (: -) (S (VP (VBG 15>0Solving) (PP (IN for) (NP (NN k)))))) (NP (NP (PRP we)) (JJ getk) (SYM =))) (-LRB- -LRB-) (NP (CD 6) (JJ +/-) (NN sqrt)) (-LRB- -LRB-) (NP (CD 6^2)) (: -) (NP (NP (CD 4)) (-LRB- -LRB-) (NP (CD 1)) (-RRB- -RRB-) (-LRB- -LRB-) (NP (CD -15)) (-RRB- -RRB-) (FW /2) (NP (NP (NP (NP (SYM =)) (-LRB- -LRB-) (NP (CD 6) (JJ +/-) (NN sqrt)) (PRN (-LRB- -LRB-) (NP (QP (CD 36) (CD +)) (CD 60)) (-RRB- -RRB-))) (JJ /2) (SYM =)) (-LRB- -LRB-) (NP (CD 6) (JJ +/-) (NN sqrt)) (PRN (-LRB- -LRB-) (NP (CD 96)) (-RRB- -RRB-))))) (JJ /2) (SYM =) (-LRB- -LRB-) (NP (CD 6) (JJ +/-) (ADJP (CD 4) (NN sqrt)) (PRN (-LRB- -LRB-) (NP (CD 6)) (-RRB- -RRB-)) (NN /2)) (QP (SYM =) (CD 3) (CD +/-))) (NP (CD 2) (NN sqrt))) (PRN (-LRB- -LRB-) (NP (CD 6)) (-RRB- -RRB-))) (ADVP (RB So)))))
+#Rule:Nouns
+r1DiscriminantNN
+r1k^2NN
+r1kNN
+r1sqrtNN
+r1sqrtNN
+r1sqrtNN
+r1sqrtNN
+r1/2NN
+r1sqrtNN
+
+#Rule:Verbs
+r215>0solvingVBG
+
+#Rule:Adjs
+r4b^2JJ
+r43-kJJ
+r4getk =PersonAnnotation
+r4+/-JJ
+r4+/-JJ
+r4/2JJ
+r4+/-JJ
+r4/2JJ
+r4+/-JJ
+
+#Rule:Adj-Noun
+r5/2JJ^2 PersonAnnotation
+r53CD^2 PersonAnnotation
+r5+/-CD^2 PersonAnnotation
+r56kCDk^2NN
+r5+ kLocationAnnotationk^2NN
+r5getk =PersonAnnotationwePRP
+r56CDsqrtNN
+r5+/-JJsqrtNN
+r5/2JJ=SYM
+r56CDsqrtNN
+r5+/-JJsqrtNN
+r536CD60CD
+r5+CD60CD
+r56CDsqrtNN
+r5+/-JJsqrtNN
+r56CD/2NN
+r5+/-JJ/2NN
+r54CD/2NN
+r52CDsqrtNN
+
+#Rule:HeadNoun-V
+r11DiscriminantNNisAUX
+
+#Rule:V-ADJ
+r25isAUXb^2JJ
+
+#Rule:PPinVP
+r3015>0solvingVBGforINkNN
+
+#Rule:SubVerbClause
+r50^2 PersonAnnotation15>0solvingVBG
+r50^2CD15>0solvingVBG
+r504CD15>0solvingVBG
+r502CD15>0solvingVBG
+r50>09CD15>0solvingVBG
+r50k^2NN15>0solvingVBG
+r5024>0k^2CD15>0solvingVBG
+r506kCD15>0solvingVBG
+
+#for k = 3 + 2 sqrt(6) or k = 3 - 2 sqrt(6), k^2 - 6k - 15 = 0For k>3 + 2 sqrt(6) or k<k = 3 - 2 sqrt(6), k^2 - 6k - 15>0So for k>3 + 2 sqrt(6) or k<k = 3 - 2 sqrt(6),  2x*2 +(3-k)x + 3 = 0 will have two real roots
+#(S1 (S (S (PP (IN for) (NP (NNP k) (QP (SYM =) (CD 3) (CD +)) (NP (NP (NP (NP (CD 2) (NN sqrt)) (PRN (-LRB- -LRB-) (NP (CD 6)) (-RRB- -RRB-))) (CC or) (NP (NP (NP (NP (NNP k) (SYM =) (CD 3)) (: -) (NP (NP (CD 2) (NN sqrt)) (PRN (-LRB- -LRB-) (NP (CD 6)) (-RRB- -RRB-)) (, ,) (NP (CD k^2))) (: -) (NP (NNS 6k)) (: -) (NP (CD 15)) (X (SYM =))) (JJ 0For) (NN k>3) (NN +)) (ADJP (CD 2) (NN sqrt)))) (PRN (-LRB- -LRB-) (NP (CD 6)) (-RRB- -RRB-))) (CC or) (NP (NN k<k)))) (NP (NP (NP (NP (SYM =) (CD 3)) (: -) (NP (NP (CD 2) (NN sqrt)) (PRN (-LRB- -LRB-) (NP (CD 6)) (-RRB- -RRB-)) (, ,) (NP (CD k^2))) (: -) (NP (NNS 6k)) (: -) (NP (NN 15>0So))) (PP (IN for) (S (VP (VBG k>3) (NP (NP (QP (CD +) (CD 2)) (NN sqrt)) (PRN (-LRB- -LRB-) (NP (CD 6)) (-RRB- -RRB-))))))) (CC or) (NP (NNS k<k))) (VP (SYM =) (NP (CD 3)))) (: -) (S (NP (NP (CD 2) (NN sqrt)) (PRN (-LRB- -LRB-) (NP (CD 6)) (-RRB- -RRB-)) (, ,) (PP (VBG 2x) (NP (NP (QP (CD *) (CD 2)) (NN +)) (PRN (-LRB- -LRB-) (JJ 3-k) (-RRB- -RRB-))))) (VP (SYM x) (NP (NNP +) (CD 3)) (SBAR (S (NP (SYM =) (CD 0)) (VP (MD will) (VP (AUX have) (NP (CD two) (JJ real) (NNS roots))))))))))
+#Rule:Nouns
+r1kOrganizationAnnotation
+r1sqrtNN
+r1kNNP
+r1sqrtNN
+r16kNNS
+r1k>3NN
+r1+NN
+r1sqrtNN
+r1k<kLocationAnnotation
+r1sqrtNN
+r16kNNS
+r115>0SoNN
+r1sqrtNN
+r1k<kNNS
+r1sqrtNN
+r1+NN
+r1+NNP
+r1rootsNNS
+
+#Rule:Verbs
+r2k>3VBG
+r22xVBG
+
+#Rule:Adjs
+r40For kOrganizationAnnotation
+r43-kJJ
+r4realJJ
+
+#Rule:Adj-Noun
+r53CDkOrganizationAnnotation
+r5+CDkOrganizationAnnotation
+r52CDsqrtNN
+r52CD+NN
+r50For kOrganizationAnnotation+NN
+r53CDkNNP
+r52CDsqrtNN
+r52CDsqrtNN
+r5+CDsqrtNN
+r52CDsqrtNN
+r52CDsqrtNN
+r5*CD+NN
+r52CD+NN
+r53CD+NNP
+r5twoCDrootsNNS
+r5realJJrootsNNS
+
+#Rule:N-HeadNoun
+r8k>3NN+NN
+
+#Rule:HeadNoun-V
+r110CDhaveAUX
+
+#Rule:V-HeadNoun
+r21k>3VBGsqrtNN
+r21haveAUXrootsNNS
+
+#Rule:PPinS
+r363CDforINkOrganizationAnnotation
+r363CDforINsqrtNN
+r363CDforIN+NN
+r363CDforINkNNP
+r363CDforINsqrtNN
+r363CDforINk^2CD
+r363CDforIN6kNNS
+r363CDforIN15CD
+r363CDforINk<kLocationAnnotation
+
+@lemmas-left	need	3-k	have	15>0solving	36	k^2	real	solve	0For k	6k	k>3	positive	15>0So	be	b^2	is	2x	so	k<k	^2 	discriminant	roots	sqrt	*	+	+ k	k	getk =	3	2	two	0	24>0k^2	Discriminant	6	/2	4	there	>09	+/-	^2	x	we	
+@lemmas-right	need	b^2	is	k<k	have	discriminant	^2 	roots	sqrt	15>0solving	+	15	k	k^2	solve	/2	6k	positive	60	=	be	we	
+@lemmas-center	for	

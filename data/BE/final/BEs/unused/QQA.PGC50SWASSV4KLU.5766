@@ -1,0 +1,534 @@
+#Ok, here goes.  this is a lot, so please pay attention:Note:  i ll be using S for integral notation:S(tan^3x dx)  ok, so this is a trig integral.  when we have tangents raised to exponents, we also need sec..
+#(S1 (S (INTJ (UH Ok)) (, ,) (ADVP (RB here) (JJ goes.)) (NP (DT this)) (VP (AUX is) (NP (DT a) (NN lot)) (, ,) (S (RB so) (VP (VB please) (VP (VB pay) (NP (NN attention)) (: :) (FRAG (NP (NN Note)) (: :) (S (NP (PRP i)) (ADVP (RB ll)) (VP (AUX be) (VP (VBG using) (NP (PRP S)) (PP (IN for) (NP (NP (JJ integral) (NN notation)) (: :) (NP (NNP S) (PRN (-LRB- -LRB-) (NP (CD tan^3x) (NN dx)) (-RRB- -RRB-)) (NN ok)))) (, ,) (SBAR (IN so) (S (NP (DT this)) (VP (AUX is) (NP (NP (DT a) (NN trig) (NN integral.)) (SBAR (WHADVP (WRB when)) (S (NP (PRP we)) (VP (AUX have) (S (NP (NNS tangents)) (VP (VBD raised) (SBAR (S (PP (TO to) (NP (NNS exponents))) (, ,) (NP (PRP we)) (ADVP (RB also)) (VP (AUX need) (NP (NNP sec))))))))))))))))) (. .)))))) (. .)))
+#Rule:Nouns
+r1lotNN
+r1attentionNN
+r1NoteNN
+r1notationNN
+r1S(tan^3x dx)  okPersonAnnotation
+r1trigNN
+r1integralNN
+r1tangentsNNS
+r1exponentsNNS
+r1secNNP
+
+#Rule:Verbs
+r2pleaseVB
+r2payVB
+r2usingVBG
+r2raisedVBD
+
+#Rule:Adjs
+r4goesJJ
+r4integralJJ
+
+#Rule:Adj-Noun
+r5integralJJnotationNN
+
+#Rule:N-HeadNoun
+r8trigNNintegralNN
+
+#Rule:HeadNoun-V
+r11thisDTisAUX
+r11iOrganizationAnnotationusingVBG
+r11thisDTisAUX
+r11wePRPhaveAUX
+r11tangentsNNSraisedVBD
+r11wePRPneedAUX
+
+#Rule:V-HeadNoun
+r21isAUXlotNN
+r21payVBattentionNN
+r21usingVBGsPRP
+r21isAUXintegralNN
+r21needAUXsecNNP
+
+#Rule:V-HeadNoun
+r22haveAUXtangentsNNS
+
+#Rule:PPinVP
+r30usingVBGforINnotationNN
+r30usingVBGforINS(tan^3x dx)  okPersonAnnotation
+
+#Rule:PPinS
+r36needAUXtoTOexponentsNNS
+
+#Rule:(SBAR+WHADVP)inNP
+r41integralNNwhenWRBhaveAUX
+
+#Rule:V-IN-V
+r43usingVBGsoINisAUX
+
+#Rule:V-MOD
+r45isAUXpleaseVB
+
+#Rule:V-ADV
+r46isAUXhereRB
+r46beAUXllRB
+r46needAUXalsoRB
+
+#So, using tan^2x = sec^2x-1, we get:S(tanx*tan^2xdx) = S(tanx(sec^2x-1)dx)  break into individual integralsS(tanx*sec^2x dx) - S(tanx dx)For the first one, let s do a u-sub by saying u = secxdu = secxtanx dxdx =
+#(S1 (FRAG (ADVP (RB So)) (, ,) (VP (VBG using) (NP (NNS tan^2x))) (X (SYM =)) (ADJP (JJ sec^2x-1)) (, ,) (SBAR (S (S (NP (PRP we)) (VP (VBP get))) (: :) (S (VP (VBZ S) (S (-LRB- -LRB-) (NP (QP (CD tanx) (CD *)) (NN tan^2xdx)) (-RRB- -RRB-) (VP (SYM =) (NP (NP (NNP S) (PRN (-LRB- -LRB-) (NP (NN tanx) (PRN (-LRB- -LRB-) (JJ sec^2x-1) (-RRB- -RRB-)) (NN dx)) (-RRB- -RRB-)) (NN break)) (PP (IN into) (NP (JJ individual) (NN integralsS)))) (PRN (-LRB- -LRB-) (NP (NN tanx) (NN *)) (NP (CD sec^2x) (NN dx)) (-RRB- -RRB-)))))) (: -) (S (NP (NP (PRP S)) (PRN (-LRB- -LRB-) (NP (NN tanx) (NNS dx)) (-RRB- -RRB-)) (PP (IN For) (NP (DT the) (JJ first) (CD one))) (, ,) (VP (VB let) (NP (PRP s)))) (VP (AUX do) (NP (DT a) (NN u-sub)) (PP (IN by) (S (VP (VBG saying) (NP (NNP u) (SYM =))))))))) (X (FW secxdu) (SYM =)) (NP (NN secxtanx) (NNS dxdx)) (X (SYM =))))
+#Rule:Nouns
+r1tan^2xNNS
+r1tan^2xdx) = SPersonAnnotation
+r1tanx(sec^OrganizationAnnotation
+r1dxNN
+r1breakNN
+r1integralsSOrganizationAnnotation
+r1tanxOrganizationAnnotation
+r1*NN
+r1sec^2x dx) - SPersonAnnotation
+r1tanxOrganizationAnnotation
+r1dxNNS
+r1u-subNN
+r1uNNP
+r1secxtanxOrganizationAnnotation
+r1dxdxNNS
+
+#Rule:Verbs
+r2usingVBG
+r2getVBP
+r2SOrganizationAnnotation
+r2letVB
+r2sayingVBG
+
+#Rule:Adjs
+r4sec^2x-1JJ
+r4sec^2x-1JJ
+r4individualJJ
+r4firstJJ
+
+#Rule:Adj-Noun
+r5tanxOrganizationAnnotationtan^2xdx) = SPersonAnnotation
+r5*CDtan^2xdx) = SPersonAnnotation
+r5individualJJintegralsSOrganizationAnnotation
+r5firstJJoneCD
+
+#Rule:N-HeadNoun
+r8tanxOrganizationAnnotation*NN
+r8tanxOrganizationAnnotationdxNNS
+r8secxtanxOrganizationAnnotationdxdxNNS
+
+#Rule:HeadNoun-V
+r11wePRPgetVBP
+r11sec^2x dx) - SPersonAnnotationdoAUX
+r11sec^2x dx) - SPersonAnnotationletVB
+
+#Rule:V-HeadNoun
+r21usingVBGtan^2xNNS
+r21letVBsPRP
+r21doAUXu-subNN
+r21sayingVBGuNNP
+
+#Rule:V-HeadNoun
+r22SOrganizationAnnotationtan^2xdx) = SPersonAnnotation
+
+#Rule:PPinNP
+r26breakNNintoINintegralsSOrganizationAnnotation
+r26sec^2x dx) - SPersonAnnotationforINoneCD
+
+#du/secxtanxFor the 2nd one, let s say u = cosxdu = -sinx dxdx = du/(-sinx)Now we have:S(u*secx*tanx*du/(secxtanx)) + S((sinx/u)du/sinx)cancel the terms we canS(u du) + S(du/u)(1/2)u^2 + ln(u) + C(1/2)(secx)^2
+#(S1 (FRAG (NP (NN du/secxtanxFor)) (NP (DT the) (JJ 2nd) (NN one)) (, ,) (VP (VBD let) (SBAR (S (NP (PRP s)) (VP (VBP say) (SBAR (S (NP (NNP u) (SYM =) (CD cosxdu)) (VP (X (SYM =) (X (JJ -sinx) (NNS dxdx) (SYM =)) (NP (NP (CD du/) (-LRB- -LRB-) (NN -sinx) (-RRB- -RRB-) (NNP Now)) (SBAR (S (NP (PRP we)) (VP (AUX have)))))) (: :) (VP (VBZ S) (S (-LRB- -LRB-) (NP (NNP u) (NNP *) (FW secx) (FW *) (FW tanx) (FW *) (FW du/) (PRN (-LRB- -LRB-) (NN secxtanx) (-RRB- -RRB-)) (NNP +) (NNP S) (PRN (-LRB- -LRB-) (NN sinx/u) (-RRB- -RRB-)) (NN du/sinx)) (-RRB- -RRB-) (VP (VB cancel) (SBAR (S (NP (DT the) (NNS terms)) (VP (VBP we) (NP (NP (NNS canS)) (SBAR (S (NP (NP (NP (-LRB- -LRB-) (NNP u) (NNP du) (-RRB- -RRB-) (NNP +) (NNP S)) (-LRB- -LRB-) (NP (CD du/u)) (-RRB- -RRB-)) (-LRB- -LRB-) (NP (CD 1/2)) (-RRB- -RRB-)) (VP (VBZ u^2) (NP (QP (CD +) (CD ln)) (NP (NP (NP (PRN (-LRB- -LRB-) (NP (NNP u)) (-RRB- -RRB-)) (NNP +) (NNP C)) (-LRB- -LRB-) (NP (CD 1/2)) (-RRB- -RRB-)) (PRN (-LRB- -LRB-) (NP (CD secx)) (-RRB- -RRB-))) (NN ^2)))))))))))))))))))))
+#Rule:Nouns
+r1du/secxtanxForNN
+r1oneNN
+r1u = cosxdu = -sinx dxdx =PersonAnnotation
+r1-sinxNN
+r1NowNNP
+r1S(u*secx*tanx*PersonAnnotation
+r1secxtanxLocationAnnotation
+r1+NNP
+r1SNNP
+r1sinx/uOrganizationAnnotation
+r1du/sinxNN
+r1termsNNS
+r1canS(uOrganizationAnnotation
+r1duNNP
+r1+NNP
+r1SNNP
+r1uLocationAnnotation
+r1+NNP
+r1CNNP
+r1^2NN
+
+#Rule:Verbs
+r2letVBD
+r2sayVBP
+r2cancelVB
+r2weVBP
+r2u^2VBZ
+
+#Rule:Adjs
+r42ndJJ
+
+#Rule:Adj-Noun
+r52ndJJoneNN
+r5du/CDNowNNP
+r5^2 + lnPersonAnnotation^2NN
+
+#Rule:N-HeadNoun
+r8+NNPSNNP
+r8+NNPCNNP
+
+#Rule:HeadNoun-V
+r11sPRPsayVBP
+r11u = cosxdu = -sinx dxdx =PersonAnnotationS(u*secx*tanx*PersonAnnotation
+r11wePRPhaveAUX
+r11du/sinxNNcancelVB
+r11termsNNSweVBP
+r11SNNPu^2VBZ
+r11du/uOrganizationAnnotationu^2VBZ
+r111/2CDu^2VBZ
+
+#Rule:V-HeadNoun
+r21weVBPcanS(uOrganizationAnnotation
+r21u^2VBZ^2NN
+
+#Rule:V-HeadNoun
+r22S(u*secx*tanx*PersonAnnotationdu/sinxNN
+
+#+ ln(cosx) + COk, 2nd problem:S(x/Sqrt(3-x^4)dx)This is close to arcsin x, so let s try and matchS(x/Sqrt(3(1-(x^2/sqrt(3))^2))dx)  pull out the sqrt(3) from denom(1/sqrt3)S(x/sqrt(1-(x^2/sqrt(3))^2)dx)  now
+#(S1 (NP (NP (NNP +) (CD ln)) (PRN (-LRB- -LRB-) (NP (NNP cosx)) (-RRB- -RRB-)) (NP (NP (NNP +) (NNP COk) (PRN (, ,) (NP (JJ 2nd) (NN problem)) (: :) (NP (NP (PRP S)) (PRN (-LRB- -LRB-) (NP (JJ x/Sqrt) (PRN (-LRB- -LRB-) (JJ 3-x^4) (-RRB- -RRB-)) (NN dx)) (-RRB- -RRB-)) (SBAR (S (NP (DT This)) (VP (AUX is) (ADVP (RB close)) (VP (TO to) (VP (VB arcsin) (NP (NNP x)) (, ,) (S (RB so) (VP (VB let) (S (NP (PRP s)) (VP (VBP try) (S (CC and) (NP (NNS matchS)) (PRN (-LRB- -LRB-) (NN x/Sqrt) (-LRB- -LRB-) (NP (NP (NP (CD 3)) (PRN (-LRB- -LRB-) (NP (JJ 1-) (PRN (-LRB- -LRB-) (NN x^2/sqrt) (-LRB- -LRB-) (NP (CD 3)) (-RRB- -RRB-)) (NN ^2)) (-RRB- -RRB-))) (NN dx)) (-RRB- -RRB-)) (VP (VB pull) (PRT (RP out)) (NP (NP (DT the) (NN sqrt)) (PRN (-LRB- -LRB-) (NP (CD 3)) (-RRB- -RRB-))) (PP (IN from) (NP (NP (NN denom)) (PRN (-LRB- -LRB-) (NP (CD 1/sqrt3)) (-RRB- -RRB-))))))))))))))))) (NNP S)) (PRN (-LRB- -LRB-) (NP (JJ x/sqrt) (PRN (-LRB- -LRB-) (NP (JJ 1-) (PRN (-LRB- -LRB-) (NN x^2/sqrt) (-LRB- -LRB-) (NP (CD 3)) (-RRB- -RRB-)) (NN ^2)) (-RRB- -RRB-)) (NN dx)) (-RRB- -RRB-))) (ADVP (RB now))))
+#Rule:Nouns
+r1+NNP
+r1cosxLocationAnnotation
+r1+NNP
+r1COkNNP
+r1problemNN
+r13-x^4)dxLocationAnnotation
+r1xLocationAnnotation
+r1matchS(x/SqrtPersonAnnotation
+r1x^2/sqrtNN
+r1^2NN
+r12))dxOrganizationAnnotation
+r1sqrtNN
+r1denomNN
+r1)S(LocationAnnotation
+r1x^2/sqrtNN
+r1^2NN
+r12)dx)  nowOrganizationAnnotation
+
+#Rule:Verbs
+r2arcsinVB
+r2letVB
+r2tryVBP
+
+#Rule:V-PRT
+r3pullVBoutRP
+
+#Rule:Adjs
+r42ndJJ
+r4S(x/SqrtOrganizationAnnotation
+r41-JJ
+r4x/sqrtJJ
+r41-JJ
+
+#Rule:Adj-Noun
+r5lnLocationAnnotation+NNP
+r52ndJJproblemNN
+r5S(x/SqrtOrganizationAnnotation3-x^4)dxLocationAnnotation
+r51-JJ^2NN
+r5x/sqrtJJ2)dx)  nowOrganizationAnnotation
+r51-JJ^2NN
+
+#Rule:HeadNoun-V
+r11thisDTarcsinVB
+r11sPRPtryVBP
+r11matchS(x/SqrtPersonAnnotationpullVB
+
+#Rule:V-HeadNoun
+r21arcsinVBxLocationAnnotation
+r21pullVBsqrtNN
+
+#Rule:V-HeadNoun
+r22letVBsPRP
+r22tryVBPmatchS(x/SqrtPersonAnnotation
+
+#Rule:PPinVP
+r30pullVBfromINdenomNN
+
+#Rule:V-MOD
+r45arcsinVBletVB
+
+#Rule:V-ADV
+r46isAUXcloseRB
+
+#say u = x^2/sqrt3du = 2x/sqrt3 dxdx = sqrt3*du/2xSo,(1/sqrt3)S(x/sqrt(1-u^2)*sqrt3*du/2x)  cancelterms(1/2)S(1/sqrt(1-u^2)du)(1/2)arsin(u) + C(1/2)arcsin(x^2/sqrt3) + CThe fourth problem is:S(x/x^2-4x-5dx)
+#(S1 (S (VP (VBP say) (SBAR (S (NP (NP (NP (NNP u) (SYM =) (CD x^2/sqrt3du)) (NP (QP (SYM =) (CD 2x/sqrt3) (CD dxdx) (SYM =) (CD sqrt3) (CD *)) (NN du/2xSo))) (PRN (, ,) (-LRB- -LRB-) (NP (CD 1/sqrt3)) (-RRB- -RRB-))) (VP (VBZ S) (SBAR (S (NP (PRN (-LRB- -LRB-) (NP (NP (JJ x/sqrt) (PRN (-LRB- -LRB-) (JJ 1-u^2) (-RRB- -RRB-)) (NNS *)) (JJ sqrt3) (JJ *) (NN du/2x) (-RRB- -RRB-) (NNS cancelterms) (NP (NP (NP (NP (PRN (-LRB- -LRB-) (NP (CD 1/2)) (-RRB- -RRB-)) (NNP S)) (PRN (-LRB- -LRB-) (NP (JJ 1/sqrt) (-LRB- -LRB-) (JJ 1-u^2) (-RRB- -RRB-) (NNP du)) (-RRB- -RRB-))) (-LRB- -LRB-) (NP (CD 1/2)) (-RRB- -RRB-) (FW arsin) (PRN (-LRB- -LRB-) (NP (NNP u)) (-RRB- -RRB-))) (NNP +) (NNP C)) (PRN (-LRB- -LRB-) (NN 1/2) (-RRB- -RRB-)) (NN arcsin)) (-LRB- -LRB-) (JJ x^2/sqrt3) (-RRB- -RRB-)) (NNP +) (NNP CThe) (JJ fourth) (NN problem)) (VP (AUX is) (: :) (NP (NP (NNP S)) (PRN (-LRB- -LRB-) (NP (NN x/x^2-4x-5dx)) (-RRB- -RRB-))))))))))))
+#Rule:Nouns
+r1u = x^2/sqrt3du = 2x/sqrt3 dxdx = sqrt3*du/2xSoPersonAnnotation
+r1)S(x/sqrt(1-u^2)*sqrt3*PersonAnnotation
+r1du/2xNN
+r1canceltermsNNS
+r1SNNP
+r1duNNP
+r1(uLocationAnnotation
+r1+NNP
+r1CNNP
+r11/2NN
+r1arcsinNN
+r1+NNP
+r1CTheNNP
+r1problemNN
+r1S(x/xOrganizationAnnotation
+r1x/x^2-4x-5dxNN
+
+#Rule:Verbs
+r2sayVBP
+
+#Rule:Adjs
+r41/sqrtJJ
+r41-u^2JJ
+r4(x^2/sqrt3LocationAnnotation
+r4fourthJJ
+
+#Rule:Adj-Noun
+r5fourthJJproblemNN
+r5)S(x/sqrt(1-u^2)*sqrt3*PersonAnnotationarcsinNN
+r51/sqrtJJduNNP
+r51-u^2JJduNNP
+
+#Rule:N-HeadNoun
+r8+NNPCNNP
+
+#Rule:HeadNoun-V
+r11u = x^2/sqrt3du = 2x/sqrt3 dxdx = sqrt3*du/2xSoPersonAnnotation)S(x/sqrt(1-u^2)*sqrt3*PersonAnnotation
+r11problemNNisAUX
+
+#Rule:V-HeadNoun
+r21isAUXS(x/xOrganizationAnnotation
+
+#Rule:IS-RULE
+r47S(x/xOrganizationAnnotationproblemNN
+
+# ok, since the denominator has a degree of one less than numerator, try partial fractions:factor denominatorS(x/((x-5)(x+1))dx)break into partial fractions:x/(x-5)(x+1) = A/(x-5) + B/(x+1)  mutliply by the common
+#(S1 (S (INTJ (UH ok)) (, ,) (SBAR (IN since) (S (NP (DT the) (NN denominator)) (VP (AUX has) (NP (NP (DT a) (NN degree)) (PP (IN of) (NP (NP (QP (CD one) (JJR less))) (PP (IN than) (NP (NN numerator))))))))) (, ,) (S (VP (VB try) (NP (NP (NP (JJ partial) (NNS fractions)) (: :) (NP (NP (NN factor) (NNS denominatorS)) (SBAR (S (-LRB- -LRB-) (NP (NP (NNS x/)) (PRN (-LRB- -LRB-) (JJ x-5) (-RRB- -RRB-) (NP (-LRB- -LRB-) (NN x+1) (-RRB- -RRB-) (NN dx)) (-RRB- -RRB-))) (VP (VBP break) (PP (IN into) (NP (JJ partial) (NNS fractions))))))) (: :) (NP (NNS x/))) (-LRB- -LRB-) (NP (CD x-5)) (-RRB- -RRB-)))) (-LRB- -LRB-) (NP (NN x+1)) (-RRB- -RRB-) (VP (SYM =) (NP (NP (NNP A/) (PRN (-LRB- -LRB-) (NP (CD x-5)) (-RRB- -RRB-)) (NNP +) (NNP B/)) (PRN (-LRB- -LRB-) (NP (CD x+1)) (-RRB- -RRB-))) (ADVP (RB mutliply)) (PP (IN by) (NP (DT the) (JJ common))))))
+#Rule:Nouns
+r1denominatorNN
+r1degreeNN
+r1numeratorNN
+r1fractionsNNS
+r1factorNN
+r1denominatorSNNS
+r1x/NNS
+r1x+1NN
+r1dxNN
+r1fractionsNNS
+r1x/NNS
+r1x+1NN
+r1A/NNP
+r1+NNP
+r1B/NNP
+
+#Rule:Verbs
+r2tryVB
+r2breakVBP
+
+#Rule:Adjs
+r4lessJJR
+r4partialJJ
+r4x-5JJ
+r4partialJJ
+r4the commonOrganizationAnnotation
+
+#Rule:Adj-Noun
+r5lessJJRoneCD
+r5partialJJfractionsNNS
+r5partialJJfractionsNNS
+
+#Rule:N-HeadNoun
+r8factorNNdenominatorSNNS
+r8+NNPB/NNP
+
+#Rule:HeadNoun-V
+r11denominatorNNhasAUX
+r11x/NNSbreakVBP
+
+#Rule:NP(NP(z) SBAR(S(NP(x)VP(y))))
+r19breakVBPdenominatorSNNS
+
+#Rule:V-HeadNoun
+r21hasAUXdegreeNN
+r21tryVBfractionsNNS
+
+#Rule:PPinNP
+r26degreeNNofINoneCD
+r26oneCDthanINnumeratorNN
+
+#Rule:PPinVP
+r30breakVBPintoINfractionsNNS
+
+#Rule:SubVerbClause
+r50x+1NNtryVB
+
+#denomx = A(x+1) + B(x-5)x = x(A+B) + A - 5Bmatch terms1 = A + B0 = A - 5B5B = A5B + B =16B = 1B = 1/6A = 5/6So, we have the follwoing integrals:S((5/6)/(x-5)dx) + S((1/6)/(x+1)dx)(5/6)ln(x-5) + (1/6)ln(x+1)
+#(S1 (FRAG (NP (NN denomx)) (X (SYM =)) (DT A) (PRN (-LRB- -LRB-) (JJ x+1) (-RRB- -RRB-)) (NP (NNP +) (NNP B) (PRN (-LRB- -LRB-) (NP (CD x-5)) (-RRB- -RRB-)) (NNP x)) (X (SYM =)) (X (S (NP (NP (SYM x)) (PRN (-LRB- -LRB-) (NP (NNP A+B)) (-RRB- -RRB-))) (VP (VBZ +) (NP (DT A)))) (: -) (NP (JJ 5Bmatch) (NNS terms1)) (SYM =)) (X (DT A) (NNP +) (NNP B0) (SYM =)) (X (DT A) (: -) (NP (NN 5B5B)) (SYM =)) (NP (NNP A5B) (NNP +) (NNP B) (NN =16B)) (X (SYM =)) (X (FW 1B) (SYM =)) (X (FW 1/6A) (SYM =)) (NP (NP (JJ 5/6So) (PRN (, ,) (S (NP (PRP we)) (VP (AUX have) (NP (NP (NP (DT the) (VBG follwoing) (NNS integrals)) (PRN (: :) (NP (NNP S) (PRN (-LRB- -LRB-) (NP (CD 5/6)) (-RRB- -RRB-)) (NNP /) (PRN (-LRB- -LRB-) (NP (CD x-5)) (-RRB- -RRB-)) (NNS dx)) (-RRB- -RRB-)) (NP (NNP +) (NNP S) (PRN (-LRB- -LRB-) (NN 1/6) (-RRB- -RRB-)) (NNP /) (PRN (-LRB- -LRB-) (NN x+1) (-RRB- -RRB-)) (NN dx)) (-RRB- -RRB-)) (PRN (-LRB- -LRB-) (NP (CD 5/6)) (-RRB- -RRB-)) (NP (JJ ln) (PRN (-LRB- -LRB-) (CD x-5) (-RRB- -RRB-)) (NNS +))))) (-LRB- -LRB-) (VBG 1/6) (-RRB- -RRB-)) (NN ln)) (PRN (-LRB- -LRB-) (NP (CD x+1)) (-RRB- -RRB-)))))
+#Rule:Nouns
+r1denomxNN
+r1+NNP
+r1BNNP
+r1xNNP
+r1= x(A+B) + A - 5BmatchPersonAnnotation
+r1terms1NNS
+r1= A + B0 = A - 5B5B = A5B + B =16B = 1B = 1/6A = 5/6SoPersonAnnotation
+r1integralsNNS
+r1SNNP
+r1/NNP
+r1dxNNS
+r1+NNP
+r1SNNP
+r11/6NN
+r1/NNP
+r1x+1NN
+r1dxNN
+r1+NNS
+r1lnNN
+
+#Rule:Verbs
+r2follwoingVBG
+r21/6VBG
+
+#Rule:Adjs
+r4x+1JJ
+r4lnJJ
+
+#Rule:Adj-Noun
+r5= x(A+B) + A - 5BmatchPersonAnnotationterms1NNS
+r5= A + B0 = A - 5B5B = A5B + B =16B = 1B = 1/6A = 5/6SoPersonAnnotationlnNN
+r5follwoingVBGintegralsNNS
+r5lnJJ+NNS
+
+#Rule:HeadNoun-V
+r11wePRPhaveAUX
+
+#Rule:V-HeadNoun
+r21haveAUXintegralsNNS
+
+#+ C3rd problem:S(x*cscx*cotx)dx  change all them to sinx and cosxS(x*(1/sinx)*(cosx/sinx)dx)S(xcosx/sin^2xdx)use integration by parts:u = xdu = dxdv = cosx/sin^2x dx, to get v, we need to use u-sub hereu
+#(S1 (NP (NP (NNP +) (NNP C3rd) (NN problem)) (: :) (NP (NP (NNP S) (PRN (-LRB- -LRB-) (S (NP (NNP x) (NNP *)) (VP (VBD cscx) (SBAR (S (NP (CD *) (NN cotx)) (-RRB- -RRB-) (VP (VBZ dx) (VP (VB change) (NP (DT all)) (NP (PRP them)) (PP (TO to) (NP (NN sinx) (CC and) (NN cosxS) (PRN (-LRB- -LRB-) (NP (NNP x) (NNP *) (PRN (-LRB- -LRB-) (NP (NN 1/sinx)) (-RRB- -RRB-)) (NNP *)) (-LRB- -LRB-) (NN cosx/sinx) (-RRB- -RRB-)) (NN dx))))))))) (-RRB- -RRB-)) (NNP S) (PRN (-LRB- -LRB-) (NN xcosx/sin^2xdx) (-RRB- -RRB-)) (NN use) (NN integration)) (PP (IN by) (NP (NNS parts)))) (: :) (NP (NNP u) (SYM =) (CD xdu)) (S (NP (QP (SYM =) (CD dxdv) (SYM =) (CD cosx/sin^2x) (CD dx))) (, ,) (S (VP (TO to) (VP (VB get) (NP (NNS v))))) (, ,) (NP (PRP we)) (VP (AUX need) (S (VP (TO to) (VP (VB use) (NP (JJ u-sub) (NN hereu)))))))))
+#Rule:Nouns
+r1+NNP
+r1C3rdNNP
+r1problemNN
+r1S(xOrganizationAnnotation
+r1*NNP
+r1cotxLocationAnnotation
+r1sinxLocationAnnotation
+r1cosxSLocationAnnotation
+r1x*LocationAnnotation
+r11/sinxLocationAnnotation
+r1*NNP
+r1cosx/sinxLocationAnnotation
+r1dxNN
+r1)S(LocationAnnotation
+r1xcosx/sin^2xdxNN
+r1useNN
+r1integrationNN
+r1partsNNS
+r1u = xdu = dxdv = cosx/sin^2x dxPersonAnnotation
+r1vNNS
+r1hereuNN
+
+#Rule:Verbs
+r2cscxLocationAnnotation
+r2dxVBZ
+r2changeVB
+r2getVB
+r2useVB
+
+#Rule:Adjs
+r4u-subJJ
+
+#Rule:Adj-Noun
+r5*CDcotxLocationAnnotation
+r5u-subJJhereuNN
+
+#Rule:N-HeadNoun
+r8C3rdNNPproblemNN
+r8+NNPproblemNN
+r8useNNintegrationNN
+r8S(xOrganizationAnnotation*NNP
+
+#Rule:HeadNoun-V
+r11*NNPcscxLocationAnnotation
+r11cotxLocationAnnotationdxVBZ
+r11cotxLocationAnnotationchangeVB
+r11u = xdu = dxdv = cosx/sin^2x dxPersonAnnotationneedAUX
+r11wePRPneedAUX
+
+#Rule:V-HeadNoun
+r21changeVBallDT
+r21changeVBthemPRP
+r21getVBvNNS
+r21useVBhereuNN
+
+#Rule:PPinNP
+r26integrationNNbyINpartsNNS
+
+#Rule:PPinVP
+r30changeVBtoTOdxNN
+
+#Rule:SubVerbClause
+r50u = xdu = dxdv = cosx/sin^2x dxPersonAnnotationgetVB
+r50wePRPgetVB
+
+#= sinxdu = cosx dxdx = du/cosxdv = cosx/(u^2)*du/cosxdv = du/u^2v = -1/uv = -1/sinxSo we get:uv - S(vdu)-x/sinx + S(cscx dx)  using trig tables we get integral of cscx-x/sinx + ln(cscx - cotx) + Cvoila.
+#(S1 (FRAG (X (SYM =)) (RB sinxdu) (X (SYM =)) (X (FW cosx) (FW dxdx) (SYM =)) (X (FW du/cosxdv) (SYM =)) (NP (JJ cosx/) (PRN (-LRB- -LRB-) (VBG u^2) (-RRB- -RRB-)) (JJ *) (NN du/cosxdv)) (X (SYM =)) (X (FW du/u^2v) (SYM =) (X (JJ -1/uv) (SYM =)) (NP (NP (NN -1/sinxSo)) (SBAR (S (NP (PRP we)) (VP (VBP get)))))) (: :) (NP (CD uv)) (: -) (S (NP (NNP S) (PRN (-LRB- -LRB-) (NN vdu) (-RRB- -RRB-)) (NN -x/sinx) (NN +)) (VP (VBZ S) (PRN (-LRB- -LRB-) (NP (CD cscx) (NNS dx)) (-RRB- -RRB-)) (S (VP (VBG using) (NP (NP (NN trig) (NNS tables)) (SBAR (S (NP (PRP we)) (VP (VBP get) (ADJP (JJ integral) (PP (IN of) (NP (NP (JJ cscx-x/sinx) (JJ +) (NNS ln)) (PRN (-LRB- -LRB-) (NP (CD cscx)) (: -) (NP (CD cotx)) (-RRB- -RRB-)) (NP (NNP +) (NNP Cvoila))))))))))))) (. .)))
+#Rule:Nouns
+r1du/cosxdv =OrganizationAnnotation
+r1= -1/sinxSoLocationAnnotation
+r1uv - S(vdu)-x/sinxOrganizationAnnotation
+r1+NN
+r1cscx dxLocationAnnotation
+r1trigNN
+r1tablesNNS
+r1lnLocationAnnotation
+r1+NNP
+r1CvoilaLocationAnnotation
+
+#Rule:Verbs
+r2u^2LocationAnnotation
+r2getVBP
+r2SLocationAnnotation
+r2usingVBG
+r2getVBP
+
+#Rule:Adjs
+r4cosx/JJ
+r4*JJ
+r4-1/uvJJ
+r4integralJJ
+r4cscx-x/sinxOrganizationAnnotation
+r4+JJ
+
+#Rule:Adj-Noun
+r5cosx/JJdu/cosxdv =OrganizationAnnotation
+r5*JJdu/cosxdv =OrganizationAnnotation
+r5cscx-x/sinxOrganizationAnnotationlnLocationAnnotation
+r5+JJlnLocationAnnotation
+
+#Rule:N-HeadNoun
+r8uv - S(vdu)-x/sinxOrganizationAnnotation+NN
+r8trigNNtablesNNS
+r8+NNPCvoilaLocationAnnotation
+
+#Rule:HeadNoun-V
+r11wePRPgetVBP
+r11+NNSLocationAnnotation
+r11wePRPgetVBP
+
+#Rule:NP(NP(z) SBAR(S(NP(x)VP(y))))
+r19getVBP= -1/sinxSoLocationAnnotation
+r19getVBPtablesNNS
+
+#Rule:V-HeadNoun
+r21usingVBGtablesNNS
+
+#Rule:PPinADJP
+r37integralJJofINlnLocationAnnotation
+r37integralJJofINCvoilaLocationAnnotation
+
+@lemmas-left	need	using	integral.	canS(u	1-u^2	tangents	S(x/Sqrt	parts	secxtanx	integral	break	(u	sec^2x-1	)S(	x/x^2-4x-5dx	S(x/x	exponent	*	+	numerator	exponents	table	partial	/	x-5	x+1	denominatorS	COk	x/sqrt	-1/uv	the common	now	say	lot	^2	cscx-x/sinx	dxdx	try	we	goes.	x/	du	ln	integrals	S(tan^3x dx)  ok	Cvoila	raised	x*	dx	raise	S(x	B	a/	C	x^2/sqrt	use	follwoing	u-sub	denom	fractions	u = cosxdu = -sinx dxdx =	uv	S	du/sinx	3-x^4)dx	do	notation	note	S(u*secx*tanx*	CThe	2nd	b	let	c	2)dx)  now	sqrt	denominator	Note	factor	du/secxtanxfor	i	fourth	v	tan^2xdx) = S	arcsin	1-	u	degree	cok	s	cosx/	1/6	1/2	cthe	)S(x/sqrt(1-u^2)*sqrt3*	u^2	= -1/sinxSo	x	= A + B0 = A - 5B5B = A5B + B =16B = 1B = 1/6A = 5/6So	tanx	individual	change	-sinx	pull	terms	cscx dx	cancel	denomx	cosx/sinx	has	u = x^2/sqrt3du = 2x/sqrt3 dxdx = sqrt3*du/2xSo	du/2x	cscx	cotx	please	sinx	A/	be	goes	du/cosxdv =	get	cosxS	1/sinx	hereu	sec^2x dx) - S	cosx	u = xdu = dxdv = cosx/sin^2x dx	2))dx	uv - S(vdu)-x/sinx	xcosx/sin^2xdx	tangent	^2 + ln	this	B/	(x^2/sqrt3	saying	sub	have	C3rd	one	integralsS	cancelterms	matchS(x/Sqrt	b/	integration	= x(A+B) + A - 5Bmatch	tanx(sec^	pay	attention	less	tan^2x	trig	fraction	is	du/secxtanxFor	Now	problem	c3rd	du/u	tables	sec	1/sqrt	sinx/u	du/	terms1	first	
+@lemmas-right	need	using	canS(u	integral.	change	pull	tangents	parts	cancel	has	close	integral	cscx	break	cotx	please	be	S(x/x	du/cosxdv =	get	exponent	*	+	here	numerator	exponents	table	hereu	denominatorS	now	them	tangent	say	lot	^2	try	dxdx	B/	we	ln	du	integrals	S(tan^3x dx)  ok	sub	Cvoila	ll	raised	raise	dx	have	one	C	integralsS	use	matchS(x/Sqrt	denom	u-sub	b/	fractions	integration	du/sinx	S	3-x^4)dx	do	notation	attention	all	S(u*secx*tanx*	tan^2x	fraction	is	2)dx)  now	let	c	sqrt	denominator	problem	Now	tables	v	arcsin	tan^2xdx) = S	u	degree	s	sec	terms1	)S(x/sqrt(1-u^2)*sqrt3*	also	u^2	= -1/sinxSo	out	x	
+@lemmas-center	to	of	so	for	than	when	into	by	from	

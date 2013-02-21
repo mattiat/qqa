@@ -1,0 +1,16 @@
+#why did USC lose lose to Texas?
+#(S1 (SBARQ (WHADVP (WRB why)) (SQ (AUX did) (NP (NNP USC)) (VP (VB lose) (S (VP (VB lose) (PP (TO to) (NP (NNP Texas))))))) (. ?)))
+#Rule:Nouns
+r1USCOrganizationAnnotation
+r1TexasLocationAnnotation
+
+#Rule:Verbs
+r2loseVB
+r2loseVB
+
+#Rule:PPinVP
+r30loseVBtoTOTexasLocationAnnotation
+
+@lemmas-left	lose	USC	Texas	
+@lemmas-right	Texas	
+@lemmas-center	to	

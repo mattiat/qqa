@@ -1,0 +1,99 @@
+#all depends on wot kind of beargrizzla bears wont attack if u play dead while brown bears will run away if u stand tall and make a noisesome bears can climb trees toofind out wot kind of bear it is and check out some proper websiteif its a teddy bear i woodnt worry too much
+#(S1 (S (DT all) (VP (VBZ depends) (PP (IN on) (NP (NP (JJ wot) (NN kind)) (PP (IN of) (NP (NN beargrizzla) (NNS bears))))) (NP (JJ wont) (NN attack)) (SBAR (IN if) (S (NP (NNP u)) (VP (VB play) (ADJP (JJ dead)) (SBAR (IN while) (S (NP (JJ brown) (NNS bears)) (VP (MD will) (VP (VP (VB run) (ADVP (RB away)) (SBAR (IN if) (S (NP (NNP u)) (VP (VB stand) (ADJP (JJ tall)))))) (CC and) (VP (VB make) (NP (NP (DT a) (NN noisesome)) (SBAR (S (NP (NNS bears)) (VP (MD can) (VP (VB climb) (S (NP (NNS trees)) (VP (VB toofind) (PRT (RP out)) (NP (NP (JJ wot) (NN kind)) (PP (IN of) (VP (VP (VB bear) (S (NP (PRP it)) (VP (AUX is)))) (CC and) (VP (VB check) (PRT (RP out)) (NP (DT some) (JJ proper) (NN websiteif)))) (NP (PRP$ its) (NNP a) (NNP teddy) (NN bear))) (SBAR (S (NP (PRP i)) (VP (VBP woodnt) (S (VP (VB worry) (ADVP (RB too) (RB much))))))))))))))))))))))))))
+#Rule:Nouns
+r1kindNN
+r1beargrizzlaNN
+r1bearsNNS
+r1attackNN
+r1uNNP
+r1bearsNNS
+r1uOrganizationAnnotation
+r1noisesomeNN
+r1bearsNNS
+r1treesNNS
+r1kindNN
+r1websiteifNN
+r1aNNP
+r1teddy bear i woodntPersonAnnotation
+
+#Rule:Verbs
+r2dependsVBZ
+r2playVB
+r2runVB
+r2standVB
+r2makeVB
+r2climbVB
+r2bearVB
+r2worryVB
+
+#Rule:V-PRT
+r3toofindVBoutRP
+r3checkVBoutRP
+
+#Rule:Adjs
+r4wotJJ
+r4wontJJ
+r4deadJJ
+r4brownJJ
+r4tallJJ
+r4wotJJ
+r4properJJ
+
+#Rule:Adj-Noun
+r5wotJJkindNN
+r5wontJJattackNN
+r5brownJJbearsNNS
+r5wotJJkindNN
+r5properJJwebsiteifNN
+
+#Rule:PRP-Noun
+r6itsPRP$teddy bear i woodntPersonAnnotation
+
+#Rule:N-HeadNoun
+r8beargrizzlaNNbearsNNS
+r8aNNPteddy bear i woodntPersonAnnotation
+
+#Rule:HeadNoun-V
+r11uNNPplayVB
+r11bearsNNSrunVB
+r11bearsNNSmakeVB
+r11uOrganizationAnnotationstandVB
+r11bearsNNSclimbVB
+r11treesNNStoofindVB
+r11itPRPisAUX
+
+#Rule:NP(NP(z) SBAR(S(NP(x)VP(y))))
+r19climbVBnoisesomeNN
+r19teddy bear i woodntPersonAnnotationkindNN
+
+#Rule:V-HeadNoun
+r21dependsVBZattackNN
+r21makeVBnoisesomeNN
+r21toofindVBkindNN
+r21checkVBwebsiteifNN
+
+#Rule:V-HeadNoun
+r22climbVBtreesNNS
+r22bearVBitPRP
+
+#Rule:PPinNP
+r26kindNNofINbearsNNS
+r26kindNNofINteddy bear i woodntPersonAnnotation
+
+#Rule:PPinVP
+r30dependsVBZonINkindNN
+
+#Rule:V-IN-V
+r43dependsVBZifINplayVB
+r43playVBwhileINrunVB
+r43playVBwhileINmakeVB
+r43runVBifINstandVB
+
+#Rule:V-ADV
+r46runVBawayRB
+r46worryVBtooRB
+r46worryVBmuchRB
+
+@lemmas-left	climb	beargrizzla	its	run	kind	wot	tree	proper	depends	dead	tall	bear	it	check	teddy bear i woodnt	depend	noisesome	a	play	toofind	u	wont	stand	bears	websiteif	trees	brown	attack	make	worry	
+@lemmas-right	bear	climb	is	it	teddy bear i woodnt	noisesome	play	toofind	run	much	kind	away	tree	stand	bears	trees	websiteif	attack	make	too	be	out	
+@lemmas-center	of	if	on	while	

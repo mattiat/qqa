@@ -1,0 +1,39 @@
+#The V formation gives every bird behind the lead bird the same sort of assistance and push.
+#(S1 (S (NP (DT The) (NN V) (NN formation)) (VP (VBZ gives) (NP (NP (DT every) (NN bird)) (PP (IN behind) (NP (DT the) (JJ lead) (NN bird)))) (NP (NP (DT the) (JJ same) (NN sort)) (PP (IN of) (NP (NN assistance) (CC and) (NN push))))) (. .)))
+#Rule:Nouns
+r1VNN
+r1formationNN
+r1birdNN
+r1birdNN
+r1sortNN
+r1assistanceNN
+r1pushNN
+
+#Rule:Verbs
+r2givesVBZ
+
+#Rule:Adjs
+r4leadJJ
+r4sameJJ
+
+#Rule:Adj-Noun
+r5leadJJbirdNN
+r5sameJJsortNN
+
+#Rule:N-HeadNoun
+r8VNNformationNN
+
+#Rule:HeadNoun-V
+r11formationNNgivesVBZ
+
+#Rule:V-HeadNoun
+r21givesVBZbirdNN
+r21givesVBZsortNN
+
+#Rule:PPinNP
+r26birdNNbehindINbirdNN
+r26sortNNofINassistanceNN
+
+@lemmas-left	bird	v	sort	V	gives	give	assistance	lead	same	push	formation	
+@lemmas-right	bird	sort	assistance	gives	give	formation	
+@lemmas-center	of	behind	

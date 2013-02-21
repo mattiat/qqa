@@ -1,0 +1,33 @@
+#because ur stressed. u should see a doc u could be sick .. very sick.
+#(S1 (FRAG (PP (IN because) (NP (NP (NNS ur) (S (NP (NNP stressed.) (NNP u)) (VP (MD should) (VP (VB see) (SBAR (S (NP (DT a) (NNP doc) (NNP u)) (VP (MD could) (VP (AUX be) (ADJP (JJ sick)))))))) (. .)) (. .)) (ADJP (RB very) (JJ sick)))) (. .)))
+#Rule:Nouns
+r1urOrganizationAnnotation
+r1stressedNNP
+r1uPersonAnnotation
+r1docNNP
+r1uNNP
+
+#Rule:Verbs
+r2seeVB
+
+#Rule:Adjs
+r4sickJJ
+r4sickJJ
+
+#Rule:Adj-Noun
+r5sickJJurOrganizationAnnotation
+
+#Rule:N-HeadNoun
+r8stressedNNPuPersonAnnotation
+r8docNNPuNNP
+
+#Rule:HeadNoun-V
+r11uPersonAnnotationseeVB
+r11uNNPbeAUX
+
+#Rule:V-ADJ
+r25beAUXsickJJ
+
+@lemmas-left	u	see	doc	ur	sick	stressed.	stressed	be	
+@lemmas-right	u	see	ur	sick	be	
+@lemmas-center	

@@ -1,0 +1,39 @@
+#why does OK mean good or adequate?
+#(S1 (SBARQ (WHADVP (WRB why)) (SQ (AUX does) (NP (NN OK)) (VP (VB mean) (ADJP (JJ good) (CC or) (JJ adequate)))) (. ?)))
+#Rule:Nouns
+r1OKNN
+
+#Rule:Verbs
+r2meanVB
+
+#Rule:Adjs
+r4goodJJ
+r4adequateJJ
+
+#why the letters O and K? 
+#(S1 (FRAG (WHADVP (WRB why)) (NP (DT the) (NNS letters) (NNP O) (CC and) (NNP K)) (. ?)))
+#Rule:Nouns
+r1lettersNNS
+r1OPersonAnnotation
+r1KPersonAnnotation
+
+#Rule:N-HeadNoun
+r8lettersNNSOPersonAnnotation
+
+#Whats the history behind it?
+#(S1 (FRAG (VP (VBZ Whats) (NP (NP (DT the) (NN history)) (PP (IN behind) (NP (PRP it))))) (. ?)))
+#Rule:Nouns
+r1historyNN
+
+#Rule:Verbs
+r2whatsVBZ
+
+#Rule:V-HeadNoun
+r21whatsVBZhistoryNN
+
+#Rule:PPinNP
+r26historyNNbehindINitPRP
+
+@lemmas-left	history	OK	adequate	mean	good	ok	O	whats	letters	K	
+@lemmas-right	history	it	O	
+@lemmas-center	behind	

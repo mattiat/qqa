@@ -1,0 +1,72 @@
+#How can i lose weight???
+#(S1 (SBARQ (WHADVP (WRB How)) (SQ (MD can) (NP (PRP i)) (VP (VB lose) (NP (NN weight) (CD ??)))) (. ?)))
+#Rule:Nouns
+r1weightNN
+
+#Rule:Verbs
+r2loseVB
+
+#Rule:Adj-Noun
+r5??CDweightNN
+
+#Rule:V-HeadNoun
+r21loseVBweightNN
+
+#I m 140lbs and I m only 5 3. is that over weight? 
+#(S1 (S (NP (PRP I)) (VP (NNP m) (NP (NNS 140lbs)) (S (CC and) (NP (PRP I)) (VP (NNP m) (SBAR (S (NP (QP (RB only) (CD 5)) (NN 3.)) (VP (AUX is) (ADVP (IN that) (RB over)) (NP (NN weight)))))))) (. ?)))
+#Rule:Nouns
+r1mNNP
+r1140lbsNNS
+r1mNNP
+r13NN
+r1weightNN
+
+#Rule:Adj-Noun
+r55CD3NN
+
+#Rule:HeadNoun-V
+r113NNisAUX
+
+#Rule:V-HeadNoun
+r21isAUXweightNN
+
+#Rule:V-HeadNoun
+r22140lbsNNSiPRP
+
+#Rule:V-ADV
+r46isAUXoverRB
+
+#Rule:IS-RULE
+r47weightNN3NN
+
+#I m only 14. if i am over weight how can i lose weight????
+#(S1 (S (S (NP (PRP I) (NNP m)) (ADVP (RB only)) (VP (VBZ 14.) (SBAR (IN if) (S (NP (PRP i)) (VP (AUX am) (NP (IN over) (NN weight))))))) (SBARQ (WHADVP (WRB how)) (SQ (MD can) (NP (PRP i)) (VP (VB lose) (NP (NN weight) (CD ???)))) (. ?))))
+#Rule:Nouns
+r1mNNP
+r1weightNN
+r1weightNN
+
+#Rule:Verbs
+r214VBZ
+r2loseVB
+
+#Rule:Adj-Noun
+r5???CDweightNN
+
+#Rule:HeadNoun-V
+r11mNNP14VBZ
+r11iLocationAnnotationamAUX
+
+#Rule:V-HeadNoun
+r21amAUXweightNN
+r21loseVBweightNN
+
+#Rule:V-IN-V
+r4314VBZifINamAUX
+
+#Rule:V-ADV
+r4614VBZonlyRB
+
+@lemmas-left	is	weight	m	14	i	3	lose	??	3.	am	5	14.	lb	???	140lbs	be	
+@lemmas-right	3	over	is	3.	weight	am	only	14.	14	i	be	
+@lemmas-center	if	

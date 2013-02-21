@@ -1,0 +1,1297 @@
+#At Kickapoo High School, Pitt was involved in sports, debating, student government and school musicals.
+#(S1 (S (PP (IN At) (NP (NNP Kickapoo) (NNP High) (NNP School))) (, ,) (NP (NNP Pitt)) (VP (AUX was) (VP (VBN involved) (PP (IN in) (NP (NNS sports) (, ,) (ADJP (VBG debating)) (, ,) (NN student) (NN government) (CC and) (NN school) (NNS musicals))))) (. .)))
+#Rule:Nouns
+r1Kickapoo High SchoolOrganizationAnnotation
+r1PittLocationAnnotation
+r1sportsNNS
+r1studentNN
+r1governmentNN
+r1schoolNN
+r1musicalsNNS
+
+#Rule:Verbs
+r2involvedVBN
+r2debatingVBG
+
+#Rule:Adj-Noun
+r5debatingVBGmusicalsNNS
+
+#Rule:N-HeadNoun
+r8schoolNNmusicalsNNS
+
+#Rule:N-Noun
+r9studentNNgovernmentNN
+
+#Rule:V-HeadNoun(passive)
+r23involvedVBNPittLocationAnnotation
+
+#Rule:PPinVP
+r32involvedVBNinINmusicalsNNS
+
+#Rule:PPinS
+r36wasAUXatINKickapoo High SchoolOrganizationAnnotation
+
+# Pitt attended the University of Missouri, where he majored in journalism with a focus on advertising.
+#(S1 (S (NP (NNP Pitt)) (VP (VBD attended) (NP (NP (DT the) (NNP University)) (PP (IN of) (NP (NP (NNP Missouri)) (, ,) (SBAR (WHADVP (WRB where)) (S (NP (PRP he)) (VP (VBD majored) (PP (IN in) (NP (NN journalism))) (PP (IN with) (NP (NP (DT a) (NN focus)) (PP (IN on) (NP (NN advertising)))))))))))) (. .)))
+#Rule:Nouns
+r1PittOrganizationAnnotation
+r1the UniversityOrganizationAnnotation
+r1MissouriLocationAnnotation
+r1journalismNN
+r1focusNN
+r1advertisingNN
+
+#Rule:Verbs
+r2attendedVBD
+r2majoredVBD
+
+#Rule:HeadNoun-V
+r11PittOrganizationAnnotationattendedVBD
+r11hePRPmajoredVBD
+
+#Rule:V-HeadNoun
+r21attendedVBDthe UniversityOrganizationAnnotation
+
+#Rule:PPinNP
+r26the UniversityOrganizationAnnotationofINMissouriLocationAnnotation
+r26focusNNonINadvertisingNN
+
+#Rule:PPinVP
+r30majoredVBDinINjournalismNN
+r30majoredVBDwithINfocusNN
+
+#Rule:(SBAR+WHADVP)inNP
+r41MissouriLocationAnnotationwhereWRBmajoredVBD
+
+# He occasionally acted in fraternity shows.
+#(S1 (S (NP (PRP He)) (ADVP (RB occasionally)) (VP (VBD acted) (PP (IN in) (NP (JJ fraternity) (NNS shows)))) (. .)))
+#Rule:Nouns
+r1showsNNS
+
+#Rule:Verbs
+r2actedVBD
+
+#Rule:Adjs
+r4fraternityJJ
+
+#Rule:Adj-Noun
+r5fraternityJJshowsNNS
+
+#Rule:HeadNoun-V
+r11hePRPactedVBD
+
+#Rule:PPinVP
+r30actedVBDinINshowsNNS
+
+#Rule:V-ADV
+r46actedVBDoccasionallyRB
+
+# He left college two credits short of graduating to move to California.
+#(S1 (S (NP (PRP He)) (VP (VBD left) (NP (NN college)) (ADVP (NP (CD two) (NNS credits)) (JJ short) (PP (IN of) (S (VP (VBG graduating) (S (VP (TO to) (VP (VB move) (PP (TO to) (NP (NNP California))))))))))) (. .)))
+#Rule:Nouns
+r1collegeNN
+r1creditsNNS
+r1CaliforniaLocationAnnotation
+
+#Rule:Verbs
+r2leftVBD
+r2graduatingVBG
+r2moveVB
+
+#Rule:Adjs
+r4shortJJ
+
+#Rule:Adj-Noun
+r5twoCDcreditsNNS
+
+#Rule:HeadNoun-V
+r11hePRPleftVBD
+
+#Rule:V-HeadNoun
+r21leftVBDcollegeNN
+
+#Rule:PPinVP
+r30moveVBtoTOCaliforniaLocationAnnotation
+
+#Rule:V-V
+r44graduatingVBGmoveVB
+
+# Before he became successful at acting, Pitt supported himself by driving strippers in limos, moving refrigerators and dressing as a giant chicken while working for el Pollo Loco.
+#(S1 (S (SBAR (IN Before) (S (NP (PRP he)) (VP (VBD became) (ADJP (JJ successful) (PP (IN at) (S (VP (VBG acting)))))))) (, ,) (NP (NNP Pitt)) (VP (VBD supported) (NP (PRP himself)) (PP (IN by) (S (VP (VP (VBG driving) (NP (NP (NNS strippers)) (PP (IN in) (NP (NNS limos))))) (, ,) (VP (VBG moving) (NP (NNS refrigerators))) (CC and) (VP (VBG dressing) (PP (IN as) (NP (DT a) (JJ giant) (NN chicken))) (SBAR (IN while) (S (VP (VBG working) (PP (IN for) (NP (NNP el) (NNP Pollo) (NNP Loco))))))))))) (. .)))
+#Rule:Nouns
+r1PittOrganizationAnnotation
+r1strippersNNS
+r1limosLocationAnnotation
+r1refrigeratorsNNS
+r1chickenNN
+r1el POrganizationAnnotation
+
+#Rule:Verbs
+r2becameVBD
+r2actingVBG
+r2supportedVBD
+r2drivingVBG
+r2movingVBG
+r2dressingVBG
+r2workingVBG
+
+#Rule:Adjs
+r4successfulJJ
+r4giantJJ
+
+#Rule:Adj-Noun
+r5giantJJchickenNN
+
+#Rule:HeadNoun-V
+r11PittOrganizationAnnotationsupportedVBD
+r11hePRPbecameVBD
+
+#Rule:V-HeadNoun
+r21supportedVBDhimselfPRP
+r21drivingVBGstrippersNNS
+r21movingVBGrefrigeratorsNNS
+
+#Rule:PPinNP
+r26strippersNNSinINlimosLocationAnnotation
+
+#Rule:PPinVP
+r30dressingVBGasINchickenNN
+r30workingVBGforINel POrganizationAnnotation
+
+#Rule:PPinADJP
+r38successfulJJatINactingVBG
+
+#Rule:V-IN-V
+r43dressingVBGwhileINworkingVBG
+
+# Johnny Depp  dropped out of school at age 15 (1978) in the hopes of becoming a rock musician.
+#(S1 (S (NP (NNP Johnny) (NNP Depp)) (VP (VBD dropped) (PP (IN out) (PP (IN of) (NP (NP (NN school)) (PP (IN at) (NP (NN age) (CD 15))) (PRN (-LRB- -LRB-) (NP (CD 1978)) (-RRB- -RRB-))))) (PP (IN in) (NP (NP (DT the) (NNS hopes)) (PP (IN of) (S (VP (VBG becoming) (NP (DT a) (NN rock) (NN musician)))))))) (. .)))
+#Rule:Nouns
+r1Johnny DeppOrganizationAnnotation
+r1schoolNN
+r1ageNN
+r1hopesNNS
+r1rockNN
+r1musicianNN
+
+#Rule:Verbs
+r2droppedVBD
+r2becomingVBG
+
+#Rule:Adj-Noun
+r515CDageNN
+
+#Rule:N-HeadNoun
+r8rockNNmusicianNN
+
+#Rule:HeadNoun-V
+r11Johnny DeppOrganizationAnnotationdroppedVBD
+
+#Rule:V-HeadNoun
+r21becomingVBGmusicianNN
+
+#Rule:PPinNP
+r26schoolNNatINageNN
+
+#Rule:PPinVP
+r30droppedVBDinINhopesNNS
+
+#Rule:PPComboInVP
+r34droppedVBDoutINschoolNN
+
+# He fronted a series of garage bands including The Kids, which once opened for Iggy Pop.
+#(S1 (S (NP (PRP He)) (VP (VBD fronted) (NP (NP (DT a) (NN series)) (PP (IN of) (NP (NN garage) (NNS bands))) (PP (VBG including) (NP (NP (DT The) (NNP Kids)) (, ,) (SBAR (WHNP (WDT which)) (S (ADVP (RB once)) (VP (VBD opened) (PP (IN for) (NP (JJ Iggy) (NN Pop)))))))))) (. .)))
+#Rule:Nouns
+r1seriesNN
+r1garageNN
+r1bandsNNS
+r1KidsOrganizationAnnotation
+r1IggOrganizationAnnotation
+
+#Rule:Verbs
+r2frontedVBD
+r2includingVBG
+r2openedVBD
+
+#Rule:N-HeadNoun
+r8garageNNbandsNNS
+
+#Rule:HeadNoun-V
+r11hePRPfrontedVBD
+
+#Rule:HeadNoun-(who/that)-V
+r14KidsOrganizationAnnotationopenedVBD
+
+#Rule:V-HeadNoun
+r21frontedVBDseriesNN
+
+#Rule:PPinNP
+r26seriesNNofINbandsNNS
+
+#Rule:PPinVP
+r30openedVBDforINIggOrganizationAnnotation
+
+#Rule:V-ADV
+r46openedVBDonceRB
+
+# Depp got into acting after a visit to Los Angeles, California, with his former wife, Lori Anne Allison, who introduced him to actor Nicolas Cage.
+#(S1 (S (NP (NNP Depp)) (VP (VBD got) (PP (IN into) (S (VP (VBG acting) (PP (IN after) (NP (NP (DT a) (NN visit)) (PP (TO to) (NP (NP (NNP Los) (NNP Angeles)) (, ,) (NP (NNP California)) (, ,)))))))) (PP (IN with) (NP (NP (PRP$ his) (JJ former) (NN wife)) (, ,) (NP (NNP Lori) (NNP Anne) (NNP Allison)) (, ,) (SBAR (WHNP (WP who)) (S (VP (VBD introduced) (NP (PRP him)) (PP (TO to) (NP (NN actor) (NNP Nicolas) (NNP Cage))))))))) (. .)))
+#Rule:Nouns
+r1DeppOrganizationAnnotation
+r1visitNN
+r1Los AngelesLocationAnnotation
+r1CaliforniaLocationAnnotation
+r1wifeNN
+r1Lori Anne AllisonPersonAnnotation
+r1actorNN
+r1Nicolas CagePersonAnnotation
+
+#Rule:Verbs
+r2gotVBD
+r2actingVBG
+r2introducedVBD
+
+#Rule:Adjs
+r4formerJJ
+
+#Rule:Adj-Noun
+r5formerJJwifeNN
+
+#Rule:PRP-Noun
+r6hisPRP$wifeNN
+
+#Rule:N-HeadNoun
+r8actorNNNicolas CagePersonAnnotation
+
+#Rule:N-ApposN
+r10Los AngelesLocationAnnotationCaliforniaLocationAnnotation
+r10wifeNNLori Anne AllisonPersonAnnotation
+
+#Rule:HeadNoun-V
+r11DeppOrganizationAnnotationgotVBD
+
+#Rule:HeadNoun-(who/that)-V
+r14wifeNNintroducedVBD
+r14Lori Anne AllisonPersonAnnotationintroducedVBD
+
+#Rule:V-HeadNoun
+r21introducedVBDhimPRP
+
+#Rule:PPinNP
+r26visitNNtoTOLos AngelesLocationAnnotation
+r26visitNNtoTOCaliforniaLocationAnnotation
+
+#Rule:PPinVP
+r30gotVBDwithINwifeNN
+r30gotVBDwithINLori Anne AllisonPersonAnnotation
+r30actingVBGafterINvisitNN
+r30introducedVBDtoTONicolas CagePersonAnnotation
+
+# He made his film debut in A Nightmare on Elm Street (1984).
+#(S1 (S (NP (PRP He)) (VP (VBD made) (NP (PRP$ his) (NN film) (NN debut)) (PP (IN in) (NP (NP (DT A) (NN Nightmare)) (PP (IN on) (NP (NP (NNP Elm) (NNP Street)) (PRN (-LRB- -LRB-) (NP (CD 1984)) (-RRB- -RRB-))))))) (. .)))
+#Rule:Nouns
+r1filmNN
+r1debutNN
+r1NightmareNN
+r1ElmLocationAnnotation
+r1StreetNNP
+
+#Rule:Verbs
+r2madeVBD
+
+#Rule:PRP-Noun
+r6hisPRP$debutNN
+
+#Rule:N-HeadNoun
+r8filmNNdebutNN
+r8ElmLocationAnnotationStreetNNP
+
+#Rule:HeadNoun-V
+r11hePRPmadeVBD
+
+#Rule:V-HeadNoun
+r21madeVBDdebutNN
+
+#Rule:PPinNP
+r26NightmareNNonINStreetNNP
+
+#Rule:PPinVP
+r30madeVBDinINNightmareNN
+
+# In 1987 he shot to stardom when he replaced Jeff Yagher in the role of undercover cop Tommy Hanson in the popular TV series 21 Jump Street (1987).
+#(S1 (S (PP (IN In) (NP (CD 1987))) (NP (PRP he)) (VP (VBD shot) (PP (TO to) (NP (NN stardom))) (SBAR (WHADVP (WRB when)) (S (NP (PRP he)) (VP (VBD replaced) (NP (NNP Jeff) (NNP Yagher)) (PP (IN in) (NP (NP (DT the) (NN role)) (PP (IN of) (NP (NP (JJ undercover) (NN cop) (NNP Tommy) (NNP Hanson)) (PP (IN in) (NP (NP (DT the) (JJ popular) (NN TV) (NN series) (CD 21) (NN Jump) (NNP Street)) (PRN (-LRB- -LRB-) (NP (CD 1987)) (-RRB- -RRB-)))))))))))) (. .)))
+#Rule:Nouns
+r1stardomNN
+r1Jeff YagherPersonAnnotation
+r1roleNN
+r1copNN
+r1Tommy HansonPersonAnnotation
+r1TVNN
+r1seriesNN
+r1JumpNN
+r1StreetNNP
+
+#Rule:Verbs
+r2shotVBD
+r2replacedVBD
+
+#Rule:Adjs
+r4undercoverJJ
+r4popularJJ
+
+#Rule:Adj-Noun
+r5undercoverJJTommy HansonPersonAnnotation
+r5popularJJStreetNNP
+r521CDStreetNNP
+
+#Rule:N-HeadNoun
+r8copNNTommy HansonPersonAnnotation
+r8JumpNNStreetNNP
+
+#Rule:HeadNoun-V
+r11hePRPshotVBD
+r11hePRPreplacedVBD
+
+#Rule:V-HeadNoun
+r21replacedVBDJeff YagherPersonAnnotation
+
+#Rule:PPinNP
+r26roleNNofINTommy HansonPersonAnnotation
+r26Tommy HansonPersonAnnotationinINStreetNNP
+
+#Rule:PPinVP
+r30shotVBDtoTOstardomNN
+r30replacedVBDinINroleNN
+
+#Rule:PPinS
+r36shotVBDinIN1987CD
+
+#In 1990, after numerous roles in teen-oriented films, his first of a handful of great collaborations with director Tim Burton came about when Depp played the title role in Edward Scissorhands (1990).
+#(S1 (S (PP (IN In) (NP (CD 1990))) (, ,) (PP (IN after) (NP (NP (JJ numerous) (NNS roles)) (PP (IN in) (NP (JJ teen-oriented) (NNS films))))) (, ,) (NP (NP (PRP$ his) (JJ first)) (PP (IN of) (NP (NP (DT a) (NN handful)) (PP (IN of) (NP (NP (JJ great) (NNS collaborations)) (PP (IN with) (NP (NN director) (NNP Tim) (NNP Burton)))))))) (VP (VBD came) (PRT (RP about)) (SBAR (WHADVP (WRB when)) (S (NP (NNP Depp)) (VP (VBD played) (NP (NP (DT the) (NN title) (NN role)) (PP (IN in) (NP (NP (NNP Edward) (NNP Scissorhands)) (PRN (-LRB- -LRB-) (NP (CD 1990)) (-RRB- -RRB-))))))))) (. .)))
+#Rule:Nouns
+r1rolesNNS
+r1filmsNNS
+r1handfulNN
+r1collaborationsNNS
+r1directorNN
+r1Tim BurtonPersonAnnotation
+r1DeppOrganizationAnnotation
+r1titleNN
+r1roleNN
+r1Edward ScissorhandsPersonAnnotation
+
+#Rule:Verbs
+r2playedVBD
+
+#Rule:V-PRT
+r3cameVBDaboutRP
+
+#Rule:Adjs
+r4numerousJJ
+r4teen-orientedJJ
+r4firstJJ
+r4greatJJ
+
+#Rule:Adj-Noun
+r5numerousJJrolesNNS
+r5teen-orientedJJfilmsNNS
+r5greatJJcollaborationsNNS
+
+#Rule:PRP-Noun
+r6hisPRP$firstJJ
+
+#Rule:N-HeadNoun
+r8directorNNTim BurtonPersonAnnotation
+r8titleNNroleNN
+
+#Rule:HeadNoun-V
+r11firstJJcameVBD
+r11DeppOrganizationAnnotationplayedVBD
+
+#Rule:V-HeadNoun
+r21playedVBDroleNN
+
+#Rule:PPinNP
+r26rolesNNSinINfilmsNNS
+r26firstJJofINhandfulNN
+r26handfulNNofINcollaborationsNNS
+r26collaborationsNNSwithINTim BurtonPersonAnnotation
+r26roleNNinINEdward ScissorhandsPersonAnnotation
+
+#Rule:PPinS
+r36cameVBDinIN1990CD
+r36cameVBDafterINrolesNNS
+
+# Following the film s success, Depp carved a niche for himself as a serious, somewhat dark, idiosyncratic performer, consistently selecting roles that surprised critics and audiences alike.
+#(S1 (S (S (VP (VBG Following) (NP (DT the) (NN film) (NNP s) (NN success)))) (, ,) (NP (NNP Depp)) (VP (VBD carved) (NP (NP (DT a) (NN niche)) (PP (IN for) (NP (PRP himself)))) (PP (IN as) (NP (DT a) (JJ serious) (, ,) (ADJP (RB somewhat) (JJ dark)) (, ,) (JJ idiosyncratic) (NN performer))) (, ,) (S (VP (ADVP (RB consistently)) (VBG selecting) (NP (NP (NNS roles)) (SBAR (WHNP (WDT that)) (S (VP (VBD surprised) (NP (NP (NNS critics) (CC and) (NNS audiences)) (ADVP (RB alike)))))))))) (. .)))
+#Rule:Nouns
+r1filmNN
+r1sNNP
+r1successNN
+r1DeppOrganizationAnnotation
+r1nicheNN
+r1performerNN
+r1rolesNNS
+r1criticsNNS
+r1audiencesNNS
+
+#Rule:Verbs
+r2followingVBG
+r2carvedVBD
+r2selectingVBG
+r2surprisedVBD
+
+#Rule:Adjs
+r4seriousJJ
+r4darkJJ
+r4idiosyncraticJJ
+
+#Rule:Adj-Noun
+r5seriousJJperformerNN
+r5darkJJperformerNN
+r5idiosyncraticJJperformerNN
+
+#Rule:N-HeadNoun
+r8sNNPsuccessNN
+r8filmNNsuccessNN
+
+#Rule:HeadNoun-V
+r11DeppOrganizationAnnotationcarvedVBD
+
+#Rule:HeadNoun-(who/that)-V
+r14rolesNNSsurprisedVBD
+
+#Rule:V-HeadNoun
+r21followingVBGsuccessNN
+r21carvedVBDnicheNN
+r21selectingVBGrolesNNS
+r21surprisedVBDcriticsNNS
+
+#Rule:PPinNP
+r26nicheNNforINhimselfPRP
+
+#Rule:PPinVP
+r30carvedVBDasINperformerNN
+
+#Rule:V-ADV
+r46selectingVBGconsistentlyRB
+
+#Rule:SubVerbClause
+r50DeppOrganizationAnnotationfollowingVBG
+
+# He continued to gain critical acclaim and increasing popularity by appearing in many features before re-joining with Burton in the lead role of Ed Wood (1994).
+#(S1 (S (NP (PRP He)) (VP (VBD continued) (S (VP (TO to) (VP (VB gain) (NP (NP (JJ critical) (NN acclaim)) (CC and) (NP (VBG increasing) (NN popularity))) (PP (IN by) (S (VP (VBG appearing) (PP (IN in) (NP (JJ many) (NNS features))) (PP (IN before) (S (VP (VBG re-joining) (PP (IN with) (NP (NNP Burton))) (PP (IN in) (NP (NP (DT the) (JJ lead) (NN role)) (PP (IN of) (NP (NNP Ed) (NNP Wood)))))))) (PRN (-LRB- -LRB-) (NP (CD 1994)) (-RRB- -RRB-))))))))) (. .)))
+#Rule:Nouns
+r1acclaimNN
+r1popularityNN
+r1featuresNNS
+r1BurtonPersonAnnotation
+r1roleNN
+r1Ed WoodPersonAnnotation
+
+#Rule:Verbs
+r2continuedVBD
+r2gainVB
+r2increasingVBG
+r2appearingVBG
+r2re-joiningVBG
+
+#Rule:Adjs
+r4criticalJJ
+r4manyJJ
+r4leadJJ
+
+#Rule:Adj-Noun
+r5criticalJJacclaimNN
+r5increasingVBGpopularityNN
+r5manyJJfeaturesNNS
+r5leadJJroleNN
+
+#Rule:HeadNoun-V
+r11hePRPcontinuedVBD
+
+#Rule:V-HeadNoun
+r21gainVBacclaimNN
+
+#Rule:PPinNP
+r26roleNNofINEd WoodPersonAnnotation
+
+#Rule:PPinVP
+r30appearingVBGinINfeaturesNNS
+r30re-joiningVBGwithINBurtonPersonAnnotation
+r30re-joiningVBGinINroleNN
+
+#Rule:V-V
+r44continuedVBDgainVB
+
+# In 1997 he played an undercover FBI agent in the fact-based film Donnie Brasco (1997), opposite Al Pacino;
+#(S1 (S (PP (IN In) (NP (CD 1997))) (NP (PRP he)) (VP (VBD played) (NP (NP (DT an) (JJ undercover) (NNP FBI) (NN agent)) (PP (IN in) (NP (NP (DT the) (JJ fact-based) (NN film) (NNP Donnie) (NNP Brasco)) (PRN (-LRB- -LRB-) (NP (CD 1997)) (-RRB- -RRB-)))) (, ,) (PP (IN opposite) (NP (NNP Al) (NNP Pacino))))) (: ;)))
+#Rule:Nouns
+r1FBIOrganizationAnnotation
+r1agentNN
+r1filmNN
+r1Donnie BrascoPersonAnnotation
+r1Al PacinoOrganizationAnnotation
+
+#Rule:Verbs
+r2playedVBD
+
+#Rule:Adjs
+r4undercoverJJ
+r4fact-basedJJ
+
+#Rule:Adj-Noun
+r5undercoverJJagentNN
+r5fact-basedJJDonnie BrascoPersonAnnotation
+
+#Rule:N-HeadNoun
+r8FBIOrganizationAnnotationagentNN
+r8filmNNDonnie BrascoPersonAnnotation
+
+#Rule:HeadNoun-V
+r11hePRPplayedVBD
+
+#Rule:V-HeadNoun
+r21playedVBDagentNN
+
+#Rule:PPinNP
+r26agentNNinINDonnie BrascoPersonAnnotation
+r26agentNNoppositeINAl PacinoOrganizationAnnotation
+
+#Rule:PPinS
+r36playedVBDinIN1997CD
+
+# in 1998 he appeared in Fear and Loathing in Las Vegas (1998), directed by Terry Gilliam;
+#(S1 (S (PP (IN in) (NP (CD 1998))) (NP (PRP he)) (VP (VBD appeared) (PP (IN in) (NP (NP (NN Fear) (CC and) (NN Loathing)) (PP (IN in) (NP (NP (NNP Las) (NNP Vegas)) (PRN (-LRB- -LRB-) (NP (CD 1998)) (-RRB- -RRB-)))) (, ,) (VP (VBN directed) (PP (IN by) (NP (NNP Terry) (NNP Gilliam))))))) (: ;)))
+#Rule:Nouns
+r1FearNN
+r1LoathingNN
+r1Las VegasLocationAnnotation
+r1Terry Gilliam;PersonAnnotation
+
+#Rule:Verbs
+r2appearedVBD
+r2directedVBN
+
+#Rule:HeadNoun-V
+r11hePRPappearedVBD
+
+#Rule:V-By-Agent
+r13Terry Gilliam;PersonAnnotationdirectedVBN
+
+#Rule:V-HeadNoun(passive)
+r24directedVBNFearNN
+
+#Rule:PPinNP
+r26FearNNinINLas VegasLocationAnnotation
+
+#Rule:PPinVP
+r30appearedVBDinINFearNN
+
+#Rule:PPinS
+r36appearedVBDinIN1998CD
+
+# and then, in 1999, he appeared in the sci-fi/horror film The Astronaut s Wife (1999).
+#(S1 (S (CC and) (ADVP (RB then)) (, ,) (PP (IN in) (NP (CD 1999))) (, ,) (NP (PRP he)) (VP (VBD appeared) (PP (IN in) (NP (DT the) (JJ sci-fi/horror) (NN film))) (NP (NP (DT The) (NNP Astronaut) (NNP s) (NN Wife)) (PRN (-LRB- -LRB-) (NP (CD 1999)) (-RRB- -RRB-)))) (. .)))
+#Rule:Nouns
+r1filmNN
+r1AstronautNNP
+r1sNNP
+r1WifePersonAnnotation
+
+#Rule:Verbs
+r2appearedVBD
+
+#Rule:Adjs
+r4sci-fi/horrorJJ
+
+#Rule:Adj-Noun
+r5sci-fi/horrorJJfilmNN
+
+#Rule:N-HeadNoun
+r8sNNPWifePersonAnnotation
+r8AstronautNNPWifePersonAnnotation
+
+#Rule:HeadNoun-V
+r11hePRPappearedVBD
+
+#Rule:V-HeadNoun
+r21appearedVBDWifePersonAnnotation
+
+#Rule:PPinVP
+r30appearedVBDinINfilmNN
+
+#Rule:PPinS
+r36appearedVBDinIN1999CD
+
+#Rule:V-ADV
+r46appearedVBDthenRB
+
+# The same year he teamed up again with Burton in Sleepy Hollow (1999), brilliantly portraying Ichabod Crane..Dep
+#(S1 (NP (NP (DT The) (JJ same) (NN year)) (SBAR (S (NP (PRP he)) (VP (VBD teamed) (PRT (RP up)) (ADVP (RB again)) (PP (IN with) (NP (NNP Burton))) (PP (IN in) (NP (NP (JJ Sleepy) (JJ Hollow)) (PRN (-LRB- -LRB-) (NP (CD 1999)) (-RRB- -RRB-)))) (, ,) (S (VP (ADVP (RB brilliantly)) (VBG portraying) (NP (NNP Ichabod) (NNP Crane) (FW ..) (NNP Dep)))))))))
+#Rule:Nouns
+r1yearNN
+r1Burton in Sleepy HollowPersonAnnotation
+r1Ichabod CranePersonAnnotation
+r1DeppOrganizationAnnotation
+
+#Rule:Verbs
+r2portrayingVBG
+
+#Rule:V-PRT
+r3teamedVBDupRP
+
+#Rule:Adjs
+r4sameJJ
+
+#Rule:Adj-Noun
+r5sameJJyearNN
+
+#Rule:HeadNoun-V
+r11hePRPteamedVBD
+
+#Rule:NP(NP(z) SBAR(S(NP(x)VP(y))))
+r19teamedVBDyearNN
+
+#Rule:V-HeadNoun
+r21portrayingVBGDeppOrganizationAnnotation
+
+#Rule:PPinVP
+r30teamedVBDwithINBurton in Sleepy HollowPersonAnnotation
+
+#Rule:V-ADV
+r46teamedVBDagainRB
+r46portrayingVBGbrilliantlyRB
+
+#Depp has played many characters in his career, including another fact-based one, Insp.
+#(S1 (S (NP (NNP Depp)) (VP (AUX has) (VP (VBN played) (NP (NP (JJ many) (NNS characters)) (PP (IN in) (NP (PRP$ his) (NN career))) (, ,) (PP (VBG including) (NP (NP (DT another) (JJ fact-based) (CD one)) (, ,) (NP (NNP Insp))))))) (. .)))
+#Rule:Nouns
+r1DeppOrganizationAnnotation
+r1charactersNNS
+r1careerNN
+r1InspOrganizationAnnotation
+
+#Rule:Verbs
+r2playedVBN
+r2includingVBG
+
+#Rule:Adjs
+r4manyJJ
+r4fact-basedJJ
+
+#Rule:Adj-Noun
+r5manyJJcharactersNNS
+r5fact-basedJJoneCD
+
+#Rule:PRP-Noun
+r6hisPRP$careerNN
+
+#Rule:N-ApposN
+r10oneCDInspOrganizationAnnotation
+
+#Rule:HeadNoun-V
+r12DeppOrganizationAnnotationplayedVBN
+
+#Rule:V-HeadNoun
+r21playedVBNcharactersNNS
+
+#Rule:PPinNP
+r26charactersNNSinINcareerNN
+
+# Fred Abberline in From Hell (2001).
+#(S1 (FRAG (NP (NNP Fred) (NNP Abberline)) (ADVP (IN in) (PP (IN From) (NP (NP (NN Hell)) (PRN (-LRB- -LRB-) (NP (CD 2001)) (-RRB- -RRB-))))) (. .)))
+#Rule:Nouns
+r1Fred AbberlineOrganizationAnnotation
+r1HellPersonAnnotation
+
+# He stole the show from screen greats such as Antonio Banderas in the finale to Robert Rodriguez s mariachi trilogy, Once Upon a Time in Mexico (2003).
+#(S1 (S (NP (PRP He)) (VP (VBD stole) (NP (DT the) (NN show)) (PP (IN from) (NP (NP (NN screen) (NNS greats)) (PP (JJ such) (IN as) (NP (NP (NNP Antonio) (NNP Banderas)) (PP (IN in) (NP (NP (DT the) (NN finale)) (PP (TO to) (NP (NNP Robert) (NNP Rodriguez) (NNP s) (JJ mariachi) (NN trilogy))))) (, ,) (ADVP (RB Once)))))) (PP (IN Upon) (NP (NP (DT a) (NN Time)) (PP (IN in) (NP (NP (NNP Mexico)) (PRN (-LRB- -LRB-) (NP (CD 2003)) (-RRB- -RRB-))))))) (. .)))
+#Rule:Nouns
+r1showNN
+r1screenNN
+r1greatsNNS
+r1Antonio BanderasPersonAnnotation
+r1finaleNN
+r1Robert RodriguezPersonAnnotation
+r1sNNP
+r1trilogyNN
+r1TimeOrganizationAnnotation
+r1MexicoLocationAnnotation
+
+#Rule:Verbs
+r2stoleVBD
+
+#Rule:Adjs
+r4suchJJ
+r4mariachiJJ
+
+#Rule:Adj-Noun
+r5mariachiJJtrilogyNN
+
+#Rule:N-HeadNoun
+r8screenNNgreatsNNS
+
+#Rule:HeadNoun-V
+r11hePRPstoleVBD
+
+#Rule:V-HeadNoun
+r21stoleVBDshowNN
+
+#Rule:PPinNP
+r26greatsNNSasINAntonio BanderasPersonAnnotation
+r26Antonio BanderasPersonAnnotationinINfinaleNN
+r26finaleNNtoTOtrilogyNN
+r26TimeOrganizationAnnotationinINMexicoLocationAnnotation
+
+#Rule:PPinVP
+r30stoleVBDfromINgreatsNNS
+r30stoleVBDUponLocationAnnotationTimeOrganizationAnnotation
+
+# In that same year he starred in the marvelous family blockbuster Pirates of the Caribbean: The Curse of the Black Pearl (2003), playing a character that only the likes of Depp could pull off: the charming, conniving and roguish Capt.
+#(S1 (S (PP (IN In) (NP (DT that) (JJ same) (NN year))) (NP (PRP he)) (VP (VBD starred) (PP (IN in) (NP (NP (NP (DT the) (JJ marvelous) (NN family) (NN blockbuster) (NNS Pirates)) (PP (IN of) (NP (DT the) (NNP Caribbean)))) (: :) (NP (NP (DT The) (NNP Curse)) (PP (IN of) (NP (NP (DT the) (NNP Black) (NNP Pearl)) (PRN (-LRB- -LRB-) (NP (CD 2003)) (-RRB- -RRB-))))))) (, ,) (S (VP (VBG playing) (NP (DT a) (NN character)) (SBAR (IN that) (S (NP (NP (RB only) (DT the) (NNS likes)) (PP (IN of) (NP (NNP Depp)))) (VP (MD could) (VP (VB pull) (PRT (RP off)))))) (: :) (NP (DT the) (ADJP (JJ charming) (, ,) (JJ conniving) (CC and) (JJ roguish)) (NNP Capt))))) (. .)))
+#Rule:Nouns
+r1yearNN
+r1familyNN
+r1blockbusterNN
+r1PiratesNNS
+r1CaribbeanLocationAnnotation
+r1CurseNNP
+r1Black PearlPersonAnnotation
+r1characterNN
+r1likesNNS
+r1DeppOrganizationAnnotation
+r1CaptNNP
+
+#Rule:Verbs
+r2starredVBD
+r2playingVBG
+
+#Rule:V-PRT
+r3pullVBoffRP
+
+#Rule:Adjs
+r4sameJJ
+r4marvelousJJ
+r4charmingJJ
+r4connivingJJ
+r4roguishJJ
+
+#Rule:Adj-Noun
+r5sameJJyearNN
+r5marvelousJJPiratesNNS
+r5charmingJJCaptNNP
+r5connivingJJCaptNNP
+r5roguishJJCaptNNP
+
+#Rule:N-HeadNoun
+r8blockbusterNNPiratesNNS
+r8familyNNPiratesNNS
+
+#Rule:HeadNoun-V
+r11hePRPstarredVBD
+r11likesNNSpullVB
+
+#Rule:V-HeadNoun
+r21playingVBGcharacterNN
+r21playingVBGCaptNNP
+
+#Rule:PPinNP
+r26PiratesNNSofINCaribbeanLocationAnnotation
+r26CurseNNPofINBlack PearlPersonAnnotation
+r26likesNNSofINDeppOrganizationAnnotation
+
+#Rule:PPinVP
+r30starredVBDinINPiratesNNS
+r30starredVBDinINCurseNNP
+
+#Rule:PPinS
+r36starredVBDinINyearNN
+
+#Rule:V-IN-V
+r43playingVBGthatINpullVB
+
+# Jack Sparrow.
+#(S1 (NP (NNP Jack) (NNP Sparrow) (. .)))
+#Rule:Nouns
+r1Jack SparrowPersonAnnotation
+
+# Now Depp is collaborating again with Burton in a screen adaptation of Roald Dahl s novel, Charlie and the Chocolate Factory (2005).
+#(S1 (S (ADVP (RB Now)) (NP (NNP Depp)) (VP (AUX is) (VP (VBG collaborating) (ADVP (RB again)) (PP (IN with) (NP (NP (NP (NNP Burton)) (PP (IN in) (NP (NP (DT a) (NN screen) (NN adaptation)) (PP (IN of) (NP (NNP Roald) (NNP Dahl) (NNP s) (NN novel)))))) (, ,) (NP (NNP Charlie)) (CC and) (NP (NP (DT the) (NN Chocolate) (NN Factory)) (PRN (-LRB- -LRB-) (NP (CD 2005)) (-RRB- -RRB-))))))) (. .)))
+#Rule:Nouns
+r1DeppOrganizationAnnotation
+r1BurtonPersonAnnotation
+r1screenNN
+r1adaptationNN
+r1Roald DahlPersonAnnotation
+r1sNNP
+r1novelNN
+r1CharliePersonAnnotation
+r1ChocolateNN
+r1FactoryNN
+
+#Rule:Verbs
+r2collaboratingVBG
+
+#Rule:N-HeadNoun
+r8screenNNadaptationNN
+r8sNNPnovelNN
+r8Roald DahlPersonAnnotationnovelNN
+r8ChocolateNNFactoryNN
+
+#Rule:N-ApposN
+r10BurtonPersonAnnotationCharliePersonAnnotation
+
+#Rule:HeadNoun-V
+r11DeppOrganizationAnnotationcollaboratingVBG
+
+#Rule:PPinNP
+r26BurtonPersonAnnotationinINadaptationNN
+r26adaptationNNofINnovelNN
+
+#Rule:PPinVP
+r30collaboratingVBGwithINBurtonPersonAnnotation
+r30collaboratingVBGwithINCharliePersonAnnotation
+r30collaboratingVBGwithINFactoryNN
+
+#Rule:V-ADV
+r46isAUXNowRB
+r46collaboratingVBGagainRB
+
+#==============Neither of them got big agents until they were in big demand..Bot
+#(S1 (S (NP (NP (NNP ==============Neither)) (PP (IN of) (NP (PRP them)))) (VP (VBD got) (NP (JJ big) (NNS agents)) (SBAR (IN until) (S (NP (PRP they)) (VP (AUX were) (PP (IN in) (NP (NP (JJ big) (NN demand)) (VP (VBN ..) (NP (NNP Bot)))))))))))
+#Rule:Nouns
+r1==============NeitherNNP
+r1agentsNNS
+r1demandNN
+r1BotNNP
+
+#Rule:Verbs
+r2gotVBD
+r2..VBN
+
+#Rule:Adjs
+r4bigJJ
+r4bigJJ
+
+#Rule:Adj-Noun
+r5bigJJagentsNNS
+r5bigJJdemandNN
+
+#Rule:HeadNoun-V
+r11==============NeitherNNPgotVBD
+r11theyPRPwereAUX
+
+#Rule:V-HeadNoun
+r21gotVBDagentsNNS
+r21..VBNBotNNP
+
+#Rule:V-HeadNoun(passive)
+r24..VBNdemandNN
+
+#Rule:PPinNP
+r26==============NeitherNNPofINthemPRP
+
+#Rule:PPinVP
+r30wereAUXinINdemandNN
+
+#Rule:V-IN-V
+r43gotVBDuntilINwereAUX
+
+#Both bummed around hollywood, networking, meeting people and finally getting somewhere after a few years of trying..
+#(S1 (S (NP (DT Both)) (VP (VBN bummed) (PP (IN around) (NP (NNP hollywood))) (, ,) (S (NP (NN networking)) (, ,) (VP (VP (VBG meeting) (NP (NNS people))) (CC and) (VP (ADVP (RB finally)) (VBG getting) (PP (ADVP (RB somewhere)) (IN after) (NP (NP (DT a) (JJ few) (NNS years)) (PP (IN of) (S (VP (VBG trying)))))))) (. .))) (. .)))
+#Rule:Nouns
+r1hollywoodLocationAnnotation
+r1networkingNN
+r1peopleNNS
+r1yearsNNS
+
+#Rule:Verbs
+r2bummedVBN
+r2meetingVBG
+r2gettingVBG
+r2tryingVBG
+
+#Rule:Adjs
+r4fewJJ
+
+#Rule:Adj-Noun
+r5fewJJyearsNNS
+
+#Rule:HeadNoun-V
+r11networkingNNmeetingVBG
+r11networkingNNgettingVBG
+
+#Rule:V-HeadNoun
+r21meetingVBGpeopleNNS
+
+#Rule:V-HeadNoun
+r22bummedVBNnetworkingNN
+
+#Rule:V-HeadNoun(passive)
+r24bummedVBNbothDT
+
+#Rule:PPinVP
+r30gettingVBGafterINyearsNNS
+
+#Rule:PPinVP
+r32bummedVBNaroundINhollywoodLocationAnnotation
+
+#Rule:V-ADV
+r46gettingVBGfinallyRB
+
+#Pitt is almost a college graudate..
+#(S1 (S (NP (NNP Pitt)) (VP (AUX is) (ADVP (RB almost)) (NP (DT a) (NN college) (NN graudate) (. .))) (. .)))
+#Rule:Nouns
+r1PittOrganizationAnnotation
+r1collegeNN
+r1graudateNN
+
+#Rule:N-HeadNoun
+r8collegeNNgraudateNN
+
+#Rule:HeadNoun-V
+r11PittOrganizationAnnotationisAUX
+
+#Rule:V-HeadNoun
+r21isAUXgraudateNN
+
+#Rule:V-ADV
+r46isAUXalmostRB
+
+#Rule:IS-RULE
+r47graudateNNPittOrganizationAnnotation
+
+#And you have to go to Los Angeles..
+#(S1 (S (CC And) (NP (PRP you)) (VP (AUX have) (S (VP (TO to) (VP (VB go) (PP (TO to) (NP (NNP Los) (NNP Angeles) (. .))))))) (. .)))
+#Rule:Nouns
+r1Los AngelesLocationAnnotation
+
+#Rule:Verbs
+r2goVB
+
+#Rule:HeadNoun-V
+r11youPRPhaveAUX
+
+#Rule:PPinVP
+r30goVBtoTOLos AngelesLocationAnnotation
+
+#I knew Bill Bob Thronton when he was hanging around the studio while Cynda Williams was singing with the band.  He had his script, which he had to star and and direct..
+#(S1 (S (NP (PRP I)) (VP (VBD knew) (NP (NP (NNP Bill) (NNP Bob) (NNP Thronton)) (SBAR (WHADVP (WRB when)) (S (NP (PRP he)) (VP (AUX was) (VP (VBG hanging) (PP (IN around) (NP (DT the) (NN studio))) (SBAR (IN while) (S (NP (NNP Cynda) (NNP Williams)) (VP (AUX was) (VP (VBG singing) (PP (IN with) (NP (DT the) (NN band.) (SBAR (S (NP (PRP He)) (VP (AUX had) (NP (NP (PRP$ his) (NN script)) (, ,) (SBAR (WHNP (WDT which)) (S (NP (PRP he)) (VP (AUX had) (S (VP (TO to) (VP (VB star) (CC and) (CC and) (VB direct))))))))))) (. .))))))))))))) (. .)))
+#Rule:Nouns
+r1Bill Bob ThrontonPersonAnnotation
+r1studioNN
+r1Cynda WilliamsPersonAnnotation
+r1bandNN
+r1scriptNN
+
+#Rule:Verbs
+r2knewVBD
+r2hangingVBG
+r2singingVBG
+r2starVB
+r2directVB
+
+#Rule:PRP-Noun
+r6hisPRP$scriptNN
+
+#Rule:HeadNoun-V
+r11iPRPknewVBD
+r11hePRPhangingVBG
+r11Cynda WilliamsPersonAnnotationsingingVBG
+r11hePRPhadAUX
+r11hePRPhadAUX
+
+#Rule:V-HeadNoun
+r21knewVBDBill Bob ThrontonPersonAnnotation
+r21hadAUXscriptNN
+
+#Rule:PPinVP
+r30hangingVBGaroundINstudioNN
+r30singingVBGwithINbandNN
+
+#Rule:(SBAR+WHADVP)inNP
+r41Bill Bob ThrontonPersonAnnotationwhenWRBhangingVBG
+
+#Rule:V-IN-V
+r43hangingVBGwhileINsingingVBG
+
+#A couple of years later he did it and got an Oscar nomination..
+#(S1 (S (ADVP (NP (NP (DT A) (NN couple)) (PP (IN of) (NP (NNS years)))) (RB later)) (NP (PRP he)) (VP (VP (AUX did) (NP (PRP it))) (CC and) (VP (VBD got) (NP (DT an) (NNP Oscar) (NN nomination)))) (. .) (. .)))
+#Rule:Nouns
+r1coupleNN
+r1yearsNNS
+r1OscarOrganizationAnnotation
+r1nominationNN
+
+#Rule:Verbs
+r2gotVBD
+
+#Rule:N-HeadNoun
+r8OscarOrganizationAnnotationnominationNN
+
+#Rule:HeadNoun-V
+r11hePRPgotVBD
+r11hePRPdidAUX
+
+#Rule:V-HeadNoun
+r21didAUXitPRP
+r21gotVBDnominationNN
+
+#Rule:PPinNP
+r26coupleNNofINyearsNNS
+
+#But it took years and he did bit parts in Wyatt Earp and other films learning the trade..
+#(S1 (S (CC But) (S (NP (PRP it)) (VP (VBD took) (NP (NNS years)))) (CC and) (S (NP (PRP he)) (VP (AUX did) (S (NP (NN bit) (NNS parts)) (PP (IN in) (NP (NP (NNP Wyatt) (NNP Earp)) (CC and) (NP (JJ other) (NNS films)))) (VP (VBG learning) (NP (DT the) (NN trade))) (. .)))) (. .)))
+#Rule:Nouns
+r1yearsNNS
+r1bitNN
+r1partsNNS
+r1Wyatt EarpOrganizationAnnotation
+r1filmsNNS
+r1tradeNN
+
+#Rule:Verbs
+r2tookVBD
+r2learningVBG
+
+#Rule:Adjs
+r4otherJJ
+
+#Rule:Adj-Noun
+r5otherJJfilmsNNS
+
+#Rule:N-HeadNoun
+r8bitNNpartsNNS
+
+#Rule:HeadNoun-V
+r11itPRPtookVBD
+r11hePRPdidAUX
+r11partsNNSlearningVBG
+
+#Rule:V-HeadNoun
+r21tookVBDyearsNNS
+r21learningVBGtradeNN
+
+#Rule:V-HeadNoun
+r22didAUXpartsNNS
+
+#Rule:PPinS
+r36learningVBGinINWyatt EarpOrganizationAnnotation
+r36learningVBGinINfilmsNNS
+
+#Another friend of mine (whose ex-husband played guitar with Iggy Pop) went from non-union extra to SAG actor but lost $20K a year when she joined the union because she couldn t to non-union work anymore and SAG work is not easy to get..
+#(S1 (S (NP (NP (DT Another) (NN friend)) (PP (IN of) (NP (NN mine)))) (PRN (-LRB- -LRB-) (SBAR (WHNP (WP$ whose) (NN ex-husband)) (S (VP (VBD played) (NP (NN guitar)) (PP (IN with) (NP (JJ Iggy) (NN Pop)))))) (-RRB- -RRB-)) (VP (VP (VBD went) (PP (IN from) (NP (JJ non-union) (JJ extra))) (PP (TO to) (NP (NN SAG) (NN actor)))) (CC but) (VP (VBD lost) (NP (NP ($ $) (CD 20K)) (NP (DT a) (NN year))) (SBAR (WHADVP (WRB when)) (S (NP (PRP she)) (VP (VBD joined) (NP (DT the) (NN union)) (SBAR (IN because) (S (S (NP (PRP she)) (VP (VBZ couldn) (NP (NP (NNS t)) (PP (TO to) (NP (JJ non-union) (NN work)))) (ADVP (RB anymore)))) (CC and) (S (NP (NN SAG) (NN work)) (VP (AUX is) (RB not) (ADJP (JJ easy) (S (VP (TO to) (VP (VB get))))))) (. .)))))))) (. .)))
+#Rule:Nouns
+r1friendNN
+r1mineNN
+r1ex-husbandNN
+r1guitarNN
+r1Iggy PopOrganizationAnnotation
+r1SAGOrganizationAnnotation
+r1actorNN
+r1yearNN
+r1unionNN
+r1tNNS
+r1workNN
+r1SAGOrganizationAnnotation
+r1workNN
+
+#Rule:Verbs
+r2playedVBD
+r2wentVBD
+r2lostVBD
+r2joinedVBD
+r2couldnVBZ
+r2getVB
+
+#Rule:Adjs
+r4non-unionJJ
+r4extraJJ
+r4non-unionJJ
+r4easyJJ
+
+#Rule:Adj-Noun
+r5non-unionJJextraJJ
+r520KCD$$
+r5non-unionJJworkNN
+
+#Rule:N-HeadNoun
+r8SAGOrganizationAnnotationactorNN
+r8SAGOrganizationAnnotationworkNN
+
+#Rule:HeadNoun-V
+r11friendNNwentVBD
+r11friendNNlostVBD
+r11shePRPjoinedVBD
+r11shePRPcouldnVBZ
+r11workNNisAUX
+
+#Rule:V-HeadNoun
+r21playedVBDguitarNN
+r21lostVBD$$
+r21joinedVBDunionNN
+r21couldnVBZtNNS
+
+#Rule:V-ADJ
+r25isAUXeasyJJ
+
+#Rule:PPinNP
+r26friendNNofINmineNN
+r26tNNStoTOworkNN
+
+#Rule:PPinVP
+r30playedVBDwithINIggy PopOrganizationAnnotation
+r30wentVBDfromINextraJJ
+r30wentVBDtoTOactorNN
+
+#Rule:V-ADV
+r46couldnVBZanymoreRB
+r46isAUXnotRB
+
+#Also have $2,500 ready to buy your SAG card in one payment, certified check.  You need it to work a second day..
+#(S1 (S (ADVP (RB Also)) (VP (AUX have) (ADJP (NP ($ $) (CD 2,500)) (JJ ready)) (S (VP (TO to) (VP (VB buy) (NP (PRP$ your) (NN SAG) (NN card)) (PP (IN in) (NP (NP (CD one) (NN payment)) (, ,) (NP (NP (JJ certified) (NN check.)) (SBAR (S (NP (PRP You)) (VP (AUX need) (S (NP (PRP it)) (VP (TO to) (VP (VB work) (NP (DT a) (JJ second) (NN day)))) (. .)))))))))))) (. .)))
+#Rule:Nouns
+r1SAGOrganizationAnnotation
+r1cardNN
+r1paymentNN
+r1checkNN
+r1dayNN
+
+#Rule:Verbs
+r2buyVB
+r2workVB
+
+#Rule:Adjs
+r4readyJJ
+r4certifiedJJ
+r4secondJJ
+
+#Rule:Adj-Noun
+r52,500CD$$
+r5oneCDpaymentNN
+r5certifiedJJcheckNN
+r5secondJJdayNN
+
+#Rule:PRP-Noun
+r6yourPRP$cardNN
+
+#Rule:N-HeadNoun
+r8SAGOrganizationAnnotationcardNN
+
+#Rule:N-ApposN
+r10paymentNNcheckNN
+
+#Rule:HeadNoun-V
+r11youPRPneedAUX
+r11itPRPworkVB
+
+#Rule:V-HeadNoun
+r21buyVBcardNN
+r21workVBdayNN
+
+#Rule:V-HeadNoun
+r22needAUXitPRP
+
+#Rule:PPinVP
+r30buyVBinINpaymentNN
+r30buyVBinINcheckNN
+
+#Rule:V-ADV
+r46haveAUXAlsoRB
+
+#Also understand the work days are 10-14 hours, sometimes 6 days a week (minimum pay for that is around $5,000 a week before taxes and agent fees, about $3,000 take home and on a feature that s 4 weeks shooting and your out of work again with $12,000 in your pocket and $500 a week in unemployment insurnace for 26 weeks)
+#(S1 (S (ADVP (RB Also)) (VP (VB understand) (SBAR (S (NP (DT the) (NN work) (NNS days)) (VP (AUX are) (NP (NP (CD 10-14) (NNS hours)) (, ,) (NP (NP (NP (QP (RB sometimes) (CD 6)) (NNS days)) (NP (DT a) (NN week))) (PRN (-LRB- -LRB-) (S (NP (NP (JJ minimum) (NN pay)) (PP (IN for) (NP (DT that)))) (VP (AUX is) (PP (IN around) (NP (NP ($ $) (CD 5,000)) (NP (DT a) (NN week)))) (PP (IN before) (NP (NP (NNS taxes)) (CC and) (NP (NN agent) (NNS fees)))) (, ,) (PP (PP (IN about) (NP (NP ($ $) (CD 3,000)) (SBAR (S (VP (VBP take) (NP (NN home))))))) (CC and) (PP (IN on) (NP (NP (DT a) (NN feature)) (SBAR (WHNP (WDT that)) (S (VP (VBZ s) (NP (NP (CD 4) (NNS weeks) (NN shooting)) (CC and) (NP (NP (PRP$ your) (NN out)) (PP (IN of) (NP (NN work))))) (ADVP (RB again)) (PP (IN with) (NP (NP (NP (NP ($ $) (CD 12,000)) (PP (IN in) (NP (PRP$ your) (NN pocket)))) (CC and) (NP (NP ($ $) (CD 500)) (NP (DT a) (NN week)))) (PP (IN in) (NP (NN unemployment) (NN insurnace))))) (PP (IN for) (NP (CD 26) (NNS weeks))))))))))) (-RRB- -RRB-))))))))))
+#Rule:Nouns
+r1workNN
+r1daysNNS
+r1hoursNNS
+r1daysNNS
+r1weekNN
+r1payNN
+r1weekNN
+r1taxesNNS
+r1agentNN
+r1feesNNS
+r1homeNN
+r1featureNN
+r1weeksNNS
+r1shootingNN
+r1outNN
+r1workNN
+r1pocketNN
+r1weekNN
+r1unemploymentNN
+r1insurnaceNN
+r1weeksNNS
+
+#Rule:Verbs
+r2understandVB
+r2takeVBP
+r2sLocationAnnotation
+
+#Rule:Adjs
+r4minimumJJ
+
+#Rule:Adj-Noun
+r510-14CDhoursNNS
+r56CDdaysNNS
+r5minimumJJpayNN
+r55,000CD$$
+r53,000CD$$
+r54CDshootingNN
+r512,000CD$$
+r5500CD$$
+r526CDweeksNNS
+
+#Rule:PRP-Noun
+r6yourPRP$outNN
+r6yourPRP$pocketNN
+
+#Rule:N-HeadNoun
+r8workNNdaysNNS
+r8agentNNfeesNNS
+r8weeksNNSshootingNN
+r8unemploymentNNinsurnaceNN
+
+#Rule:N-ApposN
+r10hoursNNSdaysNNS
+
+#Rule:HeadNoun-V
+r11daysNNSareAUX
+r11payNNisAUX
+
+#Rule:HeadNoun-(who/that)-V
+r14$$takeVBP
+r14featureNNsLocationAnnotation
+
+#Rule:V-HeadNoun
+r21areAUXhoursNNS
+r21takeVBPhomeNN
+r21sLocationAnnotationshootingNN
+
+#Rule:PPinNP
+r26payNNforINthatDT
+r26outNNofINworkNN
+r26$$inINinsurnaceNN
+r26$$inINpocketNN
+
+#Rule:PPinVP
+r30isAUXaroundIN$$
+r30isAUXaroundINweekNN
+r30isAUXbeforeINtaxesNNS
+r30isAUXbeforeINfeesNNS
+r30sLocationAnnotationwithIN$$
+r30sLocationAnnotationwithIN$$
+r30sLocationAnnotationwithINweekNN
+r30sLocationAnnotationforINweeksNNS
+
+#Rule:V-ADV
+r46understandVBAlsoRB
+r46sLocationAnnotationagainRB
+
+#Rule:IS-RULE
+r47hoursNNSdaysNNS
+
+@lemmas-left	need	Burton in Sleepy Hollow	understand	appear	attended	portray	college	knew	Jump	astronaut	parts	visit	ready	continued	becoming	majored	joined	stardom	she	features	role	year	feature	government	serious	opened	moving	$	hollywood	he	became	26	meet	shows	SAG	few	fee	bit	marvelous	pocket	Mexico	dropped	6	4	roles	big	surprise	try	go	TV	critic	check.	minimum	Fear	non-union	advertising	made	15	acclaim	trilogy	21	critical	finale	musicals	easy	leave	graduate	debate	fact-based	acted	do	Pirates	left	Kickapoo High School	20K	Las Vegas	direct	payment	come	front	films	Edward Scissorhands	increasing	learning	graduating	join	k	surprised	weeks	i	adaptation	handful	gain	replace	chocolate	t	including	days	s	tv	introduced	Insp	Cynda Williams	successful	debut	conniving	shooting	week	fear	studio	blockbuster	Curse	attend	pull	drop	cop	become	took	driving	sports	lead	selecting	same	Tommy Hanson	Al Pacino	band	bummed	student	dark	card	strippers	limos	critics	had	Iggy Pop	demand	be	follow	dressing	get	select	idiosyncratic	learn	Chocolate	Burton	Johnny Depp	Terry Gilliam;	script	collaborate	Pitt	replaced	agent	Ed Wood	charming	involved	teen-oriented	played	10-14	factory	day	got	make	hope	sci-fi/horror	trade	Bill Bob Thronton	garage	former	hang	stole	following	pay	appeared	pirate	popularity	refrigerators	roguish	Black Pearl	Tim Burton	fees	you	neither	el P	Roald Dahl	school	great	starred	couldn	take	bot	meeting	directed	loathing	increase	success	out	giant	journalism	they	2,500	bands	street	involve	audiences	rock	actor	people	went	teamed	California	==============Neither	open	are	greats	drive	insurnace	oriented	musician	focus	collaborating	working	move	screen	support	singing	hours	extra	numerous	Kids	career	did	hopes	undercover	Jack Sparrow	Igg	like	director	include	many	debating	tax	Antonio Banderas	shoot	nightmare	performer	years	novel	home	band.	getting	series	Street	Astronaut	collaboration	Missouri	Caribbean	credits	trying	character	short	chicken	title	Time	union	supported	mine	Jeff Yagher	networking	steal	Lori Anne Allison	star	refrigerator	appearing	ex-husband	bum	capt	mariachi	guitar	curse	graudate	horror	taxes	based	fronted	Nicolas Cage	Depp	unemployment	Charlie	second	buy	introduce	Oscar	show	nomination	shot	carve	carved	were	his	family	..	age	niche	stripper	12,000	work	Donnie Brasco	certified	such	musical	portraying	Factory	team	500	jump	Robert Rodriguez	dress	sing	likes	popular	acting	friend	characters	Elm	re-joining	lost	other	have	Nightmare	agents	one	Loathing	the University	collaborations	network	fraternity	Capt	was	hanging	playing	3,000	Ichabod Crane	Wyatt Earp	couple	major	film	is	it	audience	check	your	Bot	play	sport	came	know	Hell	Fred Abberline	lose	two	FBI	wife	continue	Wife	act	first	5,000	Los Angeles	
+@lemmas-right	need	Burton in Sleepy Hollow	appear	attended	college	knew	parts	visit	continued	majored	joined	stardom	features	role	feature	year	government	opened	once	$	hollywood	became	1990	meet	shows	fee	pocket	Mexico	dropped	1987	roles	surprise	go	critic	check.	Fear	made	advertising	acclaim	trilogy	1997	finale	musicals	1998	easy	leave	acted	do	left	Pirates	1999	Kickapoo High School	direct	Las Vegas	payment	come	Edward Scissorhands	films	front	join	learning	surprised	weeks	brilliantly	handful	gain	up	adaptation	replace	t	s	days	introduced	Insp	debut	week	shooting	fear	studio	Curse	attend	both	drop	consistently	pull	become	took	Tommy Hanson	Al Pacino	band	card	strippers	limos	critics	had	Iggy Pop	follow	demand	be	occasionally	get	Also	learn	Burton	script	replaced	Pitt	collaborate	agent	Ed Wood	that	played	factory	day	make	got	hope	trade	Bill Bob Thronton	about	hang	stole	following	pay	appeared	popularity	pirate	refrigerators	Black Pearl	Tim Burton	fees	el P	school	great	starred	couldn	take	bot	directed	meeting	off	success	out	journalism	bands	street	actor	people	went	California	teamed	open	are	greats	insurnace	focus	musician	working	collaborating	move	support	singing	hours	extra	career	did	hopes	again	Igg	not	tax	Antonio Banderas	shoot	now	nightmare	them	then	performer	years	novel	home	band.	series	getting	Street	collaboration	Missouri	Caribbean	credits	finally	character	chicken	Time	union	supported	mine	Jeff Yagher	steal	networking	Lori Anne Allison	star	refrigerator	capt	guitar	curse	graudate	taxes	fronted	Nicolas Cage	Depp	Charlie	introduce	show	him	nomination	shot	carve	carved	almost	were	age	niche	stripper	work	Donnie Brasco	musical	anymore	Factory	team	himself	sing	acting	characters	lost	have	Nightmare	agents	one	the University	collaborations	network	Capt	hanging	Wyatt Earp	major	film	is	it	check	Bot	play	Now	came	know	lose	wife	continue	Wife	act	also	first	Los Angeles	
+@lemmas-center	to	with	for	opposite	before	Upon	at	as	from	where	in	until	around	while	after	that	of	when	on	out	

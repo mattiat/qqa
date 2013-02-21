@@ -1,0 +1,39 @@
+#Because you have two hands full of fingers to pick your nose with.
+#(S1 (FRAG (SBAR (IN Because) (S (NP (PRP you)) (VP (AUX have) (NP (NP (CD two) (NNS hands)) (ADJP (JJ full) (PP (IN of) (NP (NP (NNS fingers)) (SBAR (S (VP (TO to) (VP (VB pick) (NP (PRP$ your) (NN nose)) (PRT (IN with))))))))))))) (. .)))
+#Rule:Nouns
+r1handsNNS
+r1fingersNNS
+r1noseNN
+
+#Rule:Verbs
+r2pickVB
+
+#Rule:V-PRT
+r3pickVBwithIN
+
+#Rule:Adjs
+r4fullJJ
+
+#Rule:Adj-Noun
+r5fullJJhandsNNS
+r5twoCDhandsNNS
+
+#Rule:PRP-Noun
+r6yourPRP$noseNN
+
+#Rule:HeadNoun-V
+r11youPRPhaveAUX
+
+#Rule:HeadNoun-(who/that)-V
+r14fingersNNSpickVB
+
+#Rule:V-HeadNoun
+r21haveAUXhandsNNS
+r21pickVBnoseNN
+
+#Rule:PPinADJP
+r37fullJJofINfingersNNS
+
+@lemmas-left	two	have	full	hands	fingers	your	you	pick	finger	nose	
+@lemmas-right	with	have	hands	fingers	pick	finger	nose	
+@lemmas-center	of	

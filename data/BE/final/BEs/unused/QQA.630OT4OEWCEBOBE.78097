@@ -1,0 +1,50 @@
+#HEY!!!! 
+#(S1 (S (NP (NNP HEY)) (VP (VBD !!!)) (. !)))
+#Rule:Nouns
+r1HEY!!!!LocationAnnotation
+
+#I myself do not know the answer, But  He doesnot need a 10 page letter of writings which most won t read anyway.
+#(S1 (S (S (NP (NP (PRP I)) (NP (PRP myself))) (VP (AUX do) (RB not) (VP (VB know) (NP (DT the) (NN answer))))) (, ,) (CC But) (S (NP (PRP He)) (VP (ADVP (RB doesnot)) (AUX need) (NP (NP (DT a) (ADJP (CD 10) (NN page)) (NN letter)) (PP (IN of) (NP (NP (NNS writings)) (SBAR (WHNP (WDT which)) (S (NP (JJS most) (NN won) (NNS t)) (VP (VBP read) (ADVP (RB anyway)))))))))) (. .)))
+#Rule:Nouns
+r1answerNN
+r1pageNN
+r1letterNN
+r1writingsNNS
+r1wonNN
+r1tOrganizationAnnotation
+
+#Rule:Verbs
+r2knowVB
+r2readVBP
+
+#Rule:Adjs
+r4mostJJS
+
+#Rule:Adj-Noun
+r510CDletterNN
+r5mostJJStOrganizationAnnotation
+
+#Rule:N-HeadNoun
+r8wonNNtOrganizationAnnotation
+
+#Rule:HeadNoun-V
+r11iPRPknowVB
+r11myselfPRPknowVB
+r11But  HePersonAnnotationneedAUX
+r11tOrganizationAnnotationreadVBP
+
+#Rule:V-HeadNoun
+r21knowVBanswerNN
+r21needAUXletterNN
+
+#Rule:PPinNP
+r26letterNNofINwritingsNNS
+
+#Rule:V-ADV
+r46doAUXnotRB
+r46needAUXdoesnotRB
+r46readVBPanywayRB
+
+@lemmas-left	need	writings	letter	answer	most	HEY!!!!	know	But  He	i	10	t	page	read	myself	do	won	
+@lemmas-right	anyway	not	need	writings	t	letter	answer	read	doesnot	know	
+@lemmas-center	of	

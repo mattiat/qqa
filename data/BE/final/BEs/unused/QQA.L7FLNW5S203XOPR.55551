@@ -1,0 +1,28 @@
+#the cooling of gasses to solids.some people do.some people are.
+#(S1 (S (NP (NP (DT the) (NN cooling)) (PP (IN of) (NP (NP (NNS gasses)) (PP (TO to) (NP (JJ solids.some) (NNS people)))))) (VP (VBD do.some) (SBAR (S (NP (NNS people)) (VP (AUX are))))) (. .)))
+#Rule:Nouns
+r1coolingNN
+r1gassesNNS
+r1peopleNNS
+r1peopleNNS
+
+#Rule:Verbs
+r2do.someVBD
+
+#Rule:Adjs
+r4solids.someJJ
+
+#Rule:Adj-Noun
+r5solids.someJJpeopleNNS
+
+#Rule:HeadNoun-V
+r11coolingNNdo.someVBD
+r11peopleNNSareAUX
+
+#Rule:PPinNP
+r26coolingNNofINgassesNNS
+r26gassesNNStoTOpeopleNNS
+
+@lemmas-left	gas	solids.some	do.some	cooling	some	people	gasses	
+@lemmas-right	gas	are	do.some	some	people	gasses	be	
+@lemmas-center	to	of	

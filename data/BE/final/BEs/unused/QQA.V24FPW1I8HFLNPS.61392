@@ -1,0 +1,125 @@
+#Jews are from Mesopotamea.  
+#(S1 (S (NP (NNPS Jews)) (VP (AUX are) (PP (IN from) (NP (NNP Mesopotamea)))) (. .)))
+#Rule:Nouns
+r1JewsNNPS
+r1MesopotameaLocationAnnotation
+
+#Rule:HeadNoun-V
+r11JewsNNPSareAUX
+
+#Rule:PPinVP
+r30areAUXfromINMesopotameaLocationAnnotation
+
+#Abraham first led them out towards Israel.  
+#(S1 (S (NP (NNP Abraham)) (ADVP (RB first)) (VP (VBD led) (NP (PRP them)) (PP (IN out) (PP (IN towards) (NP (NNP Israel))))) (. .)))
+#Rule:Nouns
+r1AbrahamPersonAnnotation
+r1IsraelLocationAnnotation
+
+#Rule:Verbs
+r2ledVBD
+
+#Rule:HeadNoun-V
+r11AbrahamPersonAnnotationledVBD
+
+#Rule:V-HeadNoun
+r21ledVBDthemPRP
+
+#Rule:PPComboInVP
+r34ledVBDoutINIsraelLocationAnnotation
+
+#Rule:V-ADV
+r46ledVBDfirstRB
+
+#Then a Famin led many of them to Egypt.  
+#(S1 (S (RB Then) (NP (DT a) (NNP Famin)) (VP (VBD led) (NP (NP (JJ many)) (PP (IN of) (NP (PRP them)))) (PP (TO to) (NP (NNP Egypt)))) (. .)))
+#Rule:Nouns
+r1FaminLocationAnnotation
+r1EgyptLocationAnnotation
+
+#Rule:Verbs
+r2ledVBD
+
+#Rule:Adjs
+r4manyJJ
+
+#Rule:HeadNoun-V
+r11FaminLocationAnnotationledVBD
+
+#Rule:V-HeadNoun
+r21ledVBDmanyJJ
+
+#Rule:PPinNP
+r26manyJJofINthemPRP
+
+#Rule:PPinVP
+r30ledVBDtoTOEgyptLocationAnnotation
+
+#Moses freed them.  
+#(S1 (S (NP (NNS Moses)) (VP (VBD freed) (NP (PRP them))) (. .)))
+#Rule:Nouns
+r1MosesNNS
+
+#Rule:Verbs
+r2freedVBD
+
+#Rule:HeadNoun-V
+r11MosesNNSfreedVBD
+
+#Rule:V-HeadNoun
+r21freedVBDthemPRP
+
+#They went back to Israel, then assyrians, and babylonians fought over their lands.  
+#(S1 (S (S (NP (PRP They)) (VP (VBD went) (ADVP (RB back)) (PP (TO to) (NP (NNP Israel))))) (, ,) (RB then) (S (NP (NP (NNS assyrians)) (, ,) (CC and) (NP (NNS babylonians))) (VP (VBD fought) (PP (IN over) (NP (PRP$ their) (NNS lands))))) (. .)))
+#Rule:Nouns
+r1IsraelLocationAnnotation
+r1assyriansNNS
+r1babyloniansNNS
+r1landsNNS
+
+#Rule:Verbs
+r2wentVBD
+r2foughtVBD
+
+#Rule:PRP-Noun
+r6theirPRP$landsNNS
+
+#Rule:HeadNoun-V
+r11theyPRPwentVBD
+r11assyriansNNSfoughtVBD
+r11babyloniansNNSfoughtVBD
+
+#Rule:PPinVP
+r30wentVBDtoTOIsraelLocationAnnotation
+r30foughtVBDoverINlandsNNS
+
+#Rule:V-ADV
+r46wentVBDbackRB
+
+#Then there was the Diaspora - scattering of the jews.
+#(S1 (S (ADVP (RB Then)) (NP (EX there)) (VP (AUX was) (NP (NP (DT the) (NNP Diaspora)) (: -) (S (VP (VBG scattering) (PP (IN of) (NP (DT the) (NN jews))))))) (. .)))
+#Rule:Nouns
+r1DiasporaOrganizationAnnotation
+r1jewsNN
+
+#Rule:Verbs
+r2scatteringVBG
+
+#Rule:HeadNoun-V
+r11thereEXwasAUX
+
+#Rule:V-HeadNoun
+r21wasAUXDiasporaOrganizationAnnotation
+
+#Rule:PPinVP
+r30scatteringVBGofINjewsNN
+
+#Rule:V-ADV
+r46wasAUXThenRB
+
+#Rule:SubVerbClause
+r50DiasporaOrganizationAnnotationscatteringVBG
+
+@lemmas-left	lands	they	Moses	fight	land	lead	Abraham	Israel	assyrian	was	went	free	are	assyrians	jew	babylonian	jews	be	scattering	Jews	many	Egypt	scatter	led	fought	Famin	there	moses	freed	Diaspora	their	babylonians	Mesopotamea	go	
+@lemmas-right	lands	fight	Then	land	lead	Israel	went	was	free	are	jew	be	jews	scattering	back	Egypt	many	scatter	led	fought	them	then	freed	Diaspora	first	Mesopotamea	go	
+@lemmas-center	to	of	over	from	out	

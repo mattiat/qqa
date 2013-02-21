@@ -1,0 +1,42 @@
+#why the sky is seen blue - you all know that there s nothing such colour out there - then why colour BLUE?
+#(S1 (FRAG (SBAR (WHADVP (WRB why)) (S (NP (DT the) (NN sky)) (VP (AUX is) (VP (VBN seen) (S (ADJP (JJ blue))))))) (: -) (S (NP (NP (PRP you)) (NP (DT all))) (VP (VBP know) (SBAR (IN that) (S (NP (EX there)) (VP (VBZ s) (NP (NP (NN nothing)) (ADJP (JJ such) (JJ colour))) (PP (IN out) (NP (EX there)))))))) (: -) (FRAG (WHADJP (RB then) (WRB why) (JJ colour)) (ADJP (JJ BLUE))) (. ?)))
+#Rule:Nouns
+r1skyPersonAnnotation
+r1nothingNN
+
+#Rule:Verbs
+r2seenVBN
+r2knowVBP
+r2sVBZ
+
+#Rule:Adjs
+r4blueJJ
+r4suchJJ
+r4colourJJ
+r4colourJJ
+r4BLUELocationAnnotation
+
+#Rule:Adj-Noun
+r5suchJJnothingNN
+r5colourJJnothingNN
+
+#Rule:HeadNoun-V
+r11youPRPknowVBP
+r11allDTknowVBP
+r11thereEXsVBZ
+
+#Rule:V-HeadNoun
+r21sVBZnothingNN
+
+#Rule:V-HeadNoun(passive)
+r23seenVBNskyPersonAnnotation
+
+#Rule:PPinVP
+r30sVBZoutINthereEX
+
+#Rule:V-IN-V
+r43knowVBPthatINsVBZ
+
+@lemmas-left	BLUE	such	you	seen	know	colour	sky	see	s	blue	there	nothing	all	
+@lemmas-right	sky	s	there	nothing	know	
+@lemmas-center	that	out	

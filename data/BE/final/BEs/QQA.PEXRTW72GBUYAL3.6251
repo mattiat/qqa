@@ -1,0 +1,61 @@
+#absolutely impossible they can take like 3-6months with healthy lifestyle change and like 1-2hours of hardcore training..
+#(S1 (FRAG (ADJP (RB absolutely) (JJ impossible)) (S (NP (PRP they)) (VP (MD can) (VP (VB take) (PP (IN like) (NP (NP (NNS 3-6months)) (PP (IN with) (NP (JJ healthy) (NN lifestyle))))) (NP (NP (VB change) (CC and) (VB like) (NNS 1-2hours)) (PP (IN of) (NP (NN hardcore) (NN training)))))) (. .)) (. .)))
+#Rule:Nouns
+r13-6monthsNNS
+r1lifestyleNN
+r11-2hoursNNS
+r1hardcoreNN
+r1trainingNN
+
+#Rule:Verbs
+r2takeVB
+r2changeVB
+r2likeVB
+
+#Rule:Adjs
+r4impossibleJJ
+r4healthyJJ
+
+#Rule:Adj-Noun
+r5healthyJJlifestyleNN
+
+#Rule:N-HeadNoun
+r8hardcoreNNtrainingNN
+
+#Rule:HeadNoun-V
+r11theyPRPtakeVB
+
+#Rule:V-HeadNoun
+r21takeVB1-2hoursNNS
+
+#Rule:PPinNP
+r263-6monthsNNSwithINlifestyleNN
+r261-2hoursNNSofINtrainingNN
+
+#Rule:PPinVP
+r30takeVBlikeIN3-6monthsNNS
+
+#I m currently working towards losing 10-15 kilos then getting ripped.
+#(S1 (S (NP (PRP I)) (VP (NNP m) (S (ADVP (RB currently)) (VP (VBG working) (PP (IN towards) (S (VP (VBG losing) (NP (NP (CD 10-15) (NNS kilos)) (PP (RB then) (S (VP (VBG getting) (VP (VBN ripped)))))))))))) (. .)))
+#Rule:Nouns
+r1mNNP
+r1kilosNNS
+
+#Rule:Verbs
+r2workingVBG
+r2losingVBG
+r2gettingVBG
+r2rippedVBN
+
+#Rule:Adj-Noun
+r510-15CDkilosNNS
+
+#Rule:V-HeadNoun
+r21losingVBGkilosNNS
+
+#Rule:V-ADV
+r46workingVBGcurrentlyRB
+
+@lemmas-left	they	getting	change	losing	impossible	3-6months	training	hardcore	lifestyle	working	kilos	work	rip	get	hours	1-2hours	m	like	ripped	lose	10-15	kilo	take	month	healthy	
+@lemmas-right	kilos	training	kilo	hours	take	lifestyle	month	1-2hours	currently	3-6months	
+@lemmas-center	of	with	like	

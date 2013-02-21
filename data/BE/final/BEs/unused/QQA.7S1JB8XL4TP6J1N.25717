@@ -1,0 +1,66 @@
+#Although science is based on fact, religion is based on faith..
+#(S1 (S (SBAR (IN Although) (S (NP (NN science)) (VP (AUX is) (VP (VBN based) (PP (IN on) (NP (NN fact))))))) (, ,) (NP (NN religion)) (VP (AUX is) (VP (VBN based) (PP (IN on) (NP (NN faith))) (. .))) (. .)))
+#Rule:Nouns
+r1scienceNN
+r1factNN
+r1religionNN
+r1faithNN
+
+#Rule:Verbs
+r2basedVBN
+r2basedVBN
+
+#Rule:V-HeadNoun(passive)
+r23basedVBNreligionNN
+r23basedVBNscienceNN
+
+#Rule:PPinVP
+r32basedVBNonINfactNN
+r32basedVBNonINfaithNN
+
+#Take faith away and the world would be chaotic.  People need moral standards, not just information found in a geological dig.
+#(S1 (S (S (VP (VB Take) (NP (NN faith)) (ADVP (RB away)))) (CC and) (S (NP (DT the) (NN world)) (VP (MD would) (VP (AUX be) (ADJP (JJ chaotic.) (SBAR (S (NP (NNS People)) (VP (AUX need) (NP (NP (JJ moral) (NNS standards)) (, ,) (CONJP (RB not) (RB just)) (NP (NP (NN information)) (VP (VBN found) (PP (IN in) (NP (DT a) (JJ geological) (NN dig))))))))))))) (. .)))
+#Rule:Nouns
+r1faithNN
+r1worldNN
+r1PeopleNNS
+r1standardsNNS
+r1informationNN
+r1digNN
+
+#Rule:Verbs
+r2takeVB
+r2foundVBN
+
+#Rule:Adjs
+r4chaoticJJ
+r4moralJJ
+r4geologicalJJ
+
+#Rule:Adj-Noun
+r5moralJJstandardsNNS
+r5geologicalJJdigNN
+
+#Rule:HeadNoun-V
+r11worldNNbeAUX
+r11PeopleNNSneedAUX
+
+#Rule:V-HeadNoun
+r21takeVBfaithNN
+r21needAUXstandardsNNS
+
+#Rule:V-HeadNoun(passive)
+r24foundVBNinformationNN
+
+#Rule:V-ADJ
+r25beAUXchaoticJJ
+
+#Rule:PPinVP
+r32foundVBNinINdigNN
+
+#Rule:V-ADV
+r46takeVBawayRB
+
+@lemmas-left	need	information	moral	standard	chaotic.	faith	chaotic	people	science	religion	standards	fact	take	base	dig	geological	People	based	world	be	found	
+@lemmas-right	need	information	standard	faith	chaotic.	chaotic	science	religion	standards	away	fact	dig	be	
+@lemmas-center	on	in	

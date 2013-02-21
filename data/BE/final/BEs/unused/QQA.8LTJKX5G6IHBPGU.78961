@@ -1,0 +1,23 @@
+#God ran out of orange when creating the world :)
+#(S1 (S (S (NP (NNP God)) (VP (VBD ran) (PP (IN out) (PP (IN of) (NP (NN orange)))) (SBAR (WHADVP (WRB when)) (S (VP (VBG creating) (NP (DT the) (NN world))))))) (: :) (-RRB- -RRB-)))
+#Rule:Nouns
+r1GodNNP
+r1orangeNN
+r1worldNN
+
+#Rule:Verbs
+r2ranVBD
+r2creatingVBG
+
+#Rule:HeadNoun-V
+r11GodNNPranVBD
+
+#Rule:V-HeadNoun
+r21creatingVBGworldNN
+
+#Rule:PPComboInVP
+r34ranVBDoutINorangeNN
+
+@lemmas-left	creating	orange	god	ran	God	run	create	world	
+@lemmas-right	orange	ran	run	world	
+@lemmas-center	out	

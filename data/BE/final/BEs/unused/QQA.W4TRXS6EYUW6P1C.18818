@@ -1,0 +1,23 @@
+#Their parents don t request it.
+#(S1 (S (NP (PRP$ Their) (NNS parents)) (VP (VB don) (SBAR (S (NP (NNS t)) (VP (VBP request) (NP (PRP it)))))) (. .)))
+#Rule:Nouns
+r1parentsNNS
+r1tLocationAnnotation
+
+#Rule:Verbs
+r2donVB
+r2requestVBP
+
+#Rule:PRP-Noun
+r6theirPRP$parentsNNS
+
+#Rule:HeadNoun-V
+r11parentsNNSdonVB
+r11tLocationAnnotationrequestVBP
+
+#Rule:V-HeadNoun
+r21requestVBPitPRP
+
+@lemmas-left	parents	t	don	request	parent	their	
+@lemmas-right	parents	it	don	request	parent	
+@lemmas-center	

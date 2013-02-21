@@ -1,0 +1,51 @@
+#you can start walking anywhere and time it s possible.  
+#(S1 (S (NP (PRP you)) (VP (MD can) (VP (VB start) (S (VP (VBG walking) (ADVP (RB anywhere) (CC and) (NN time)) (SBAR (S (NP (PRP it)) (VP (VBZ s) (ADJP (JJ possible))))))))) (. .)))
+#Rule:Nouns
+r1timeNN
+
+#Rule:Verbs
+r2startVB
+r2walkingVBG
+r2sVBZ
+
+#Rule:Adjs
+r4possibleJJ
+
+#Rule:HeadNoun-V
+r11youPRPstartVB
+r11itPRPsVBZ
+
+#Rule:V-ADV
+r46walkingVBGanywhereRB
+
+#try to eat veggies with every meal.  
+#(S1 (S (VP (VB try) (S (VP (TO to) (VP (VB eat) (NP (NNS veggies)) (PP (IN with) (NP (DT every) (NN meal))))))) (. .)))
+#Rule:Nouns
+r1veggiesNNS
+r1mealNN
+
+#Rule:Verbs
+r2tryVB
+r2eatVB
+
+#Rule:V-HeadNoun
+r21eatVBveggiesNNS
+
+#Rule:PPinVP
+r30eatVBwithINmealNN
+
+#Rule:V-V
+r44tryVBeatVB
+
+#and lots of water!
+#(S1 (FRAG (CC and) (NP (NP (NNS lots)) (PP (IN of) (NP (NN water)))) (. !)))
+#Rule:Nouns
+r1lotsNNS
+r1waterNN
+
+#Rule:PPinNP
+r26lotsNNSofINwaterNN
+
+@lemmas-left	water	walking	lots	it	you	veggies	time	possible	s	start	eat	veggie	walk	try	meal	
+@lemmas-right	water	s	start	anywhere	eat	veggies	veggie	meal	
+@lemmas-center	of	with	

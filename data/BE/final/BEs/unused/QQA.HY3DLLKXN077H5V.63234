@@ -1,0 +1,26 @@
+#10100  base 2=    ?  
+#(S1 (S (NP (CD 10100) (NN base)) (VP (VBZ 2=)) (. ?)))
+#Rule:Nouns
+r1baseNN
+
+#Rule:Verbs
+r22=VBZ
+
+#Rule:Adj-Noun
+r510100CDbaseNN
+
+#Rule:HeadNoun-V
+r11baseNN2=VBZ
+
+#base 102^2=42^4=1610100= 20
+#(S1 (NP (NNP base) (CD 102^2=42^4=1610100=) (CD 20)))
+#Rule:Nouns
+r1baseNNP
+
+#Rule:Adj-Noun
+r5102^2=42^4=1610100=CDbaseNNP
+r520CDbaseNNP
+
+@lemmas-left	20	2=	10100	102^2=42^4=1610100=	base	
+@lemmas-right	2=	base	
+@lemmas-center	

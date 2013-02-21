@@ -1,0 +1,549 @@
+BE: indigestionNN
+EQ class: dyspepsiann	upset_stomachnn	stomach_upsetnn	
+
+BE: lackNN
+EQ class: deficiencynn	wantnn	
+
+BE: fiberNN
+EQ class: fibrousjj	fibrenn	
+
+BE: dietNN
+EQ class: dieteticaljj	dieteticjj	dietaryjj	
+
+BE: experiencingVBG
+EQ class: seevbg	go_throughvbg	experiencevbg	
+
+BE: yourPRP$dietNN
+EQ class: yourprp$dieteticjj	yourprp$dietaryjj	yourprp$dieteticalvb	yourprp$dietaryvb	dieteticvbyourprp$	yourprp$dieticianvb	yourprp$dieteticaljj	dieteticaljjofinyourprp$	yourprp$dietvb	dietaryjjofinyourprp$	dietaryvbyourprp$	dieteticjjofinyourprp$	dietvbyourprp$	dietnnofinyourprp$	dieteticalvbyourprp$	yourprp$dieteticvb	dieticianvbyourprp$	
+
+BE: youPRPexperiencingVBG
+EQ class: youprpseevbg	youprpexperiencevbg	experiencennofinyouprp	experientialjjofinyouprp	youprpgo_throughvbg	experientjjofinyouprp	
+
+BE: isAUXindigestionNN
+EQ class: isauxstomach_upsetnn	isauxupset_stomachnn	beauxstomach_upsetnn	beauxindigestionnn	beauxupset_stomachnn	beauxdyspepsiann	isauxdyspepsiann	
+
+BE: lackNNofINfiberNN
+EQ class: missvbfibrenn	deficiencynnofinfibernn	fibrennlacknn	fibrousjjwantnn	fibrenndeficiencynn	lacknnofinfibrenn	fibrennwantnn	fibrousjjmissvb	fibernnlacknn	fibrousjjdeficiencynn	missvbfibernn	lackvbfibrenn	deficiencynnofinfibrenn	lacknnofinfibrousjj	wantnnofinfibernn	fibrennlackvb	fibrousjjlackvb	wantnnofinfibrousjj	fibernndeficiencynn	lackvbfibrousjj	fibernnlackvb	wantnnofinfibrenn	fibernnmissvb	fibrennmissvb	lackvbfibernn	fibernnwantnn	missvbfibrousjj	deficiencynnofinfibrousjj	fibrousjjlacknn	
+
+BE: isAUXinINdietNN
+EQ class: isauxinindieteticaljj	beauxinindieteticjj	beauxinindieteticaljj	isauxinindieteticjj	beauxinindietaryjj	isauxinindietaryjj	beauxinindietnn	
+
+BE: isAUXnotRB
+EQ class: beauxnotrb	
+
+BE: foodsNNS
+EQ class: foodnns	theynns	nutrientnns	themnns	
+
+BE: fruitNN
+EQ class: fruityjj	
+
+BE: vegetableNN
+EQ class: veggienn	vegnn	
+
+BE: groupNN
+EQ class: groupingnn	
+
+BE: thingsNNS
+EQ class: theynns	themnns	
+
+BE: startVB
+EQ class: set_outvb	beginvb	get_downvb	commencevb	start_outvb	set_aboutvb	getvb	
+
+BE: eatingVBG
+EQ class: eatvbg	
+
+BE: beginVB
+EQ class: set_outvb	get_downvb	commencevb	start_outvb	set_aboutvb	startvb	getvb	
+
+BE: improveVB
+EQ class: bettervb	amelioratevb	amendvb	melioratevb	
+
+BE: moreJJR
+EQ class: more_thanjjr	
+
+BE: moreJJRfoodsNNS
+EQ class: morejjrtheynns	more_thanjjrnutrientnns	more_thanjjrfoodsnns	more_thanjjrthemnns	morejjrfoodnns	morejjrthemnns	more_thanjjrtheynns	morejjrnutrientnns	more_thanjjrfoodnns	
+
+BE: vegetableNNgroupNN
+EQ class: vegetablenngroupingnn	groupingnnofinvegetablenn	groupingnnofinveggienn	groupnnofinvegnn	vegnngroupingnn	groupingnnofinvegnn	groupvbvegetablenn	groupvbvegnn	vegnngroupvb	veggienngroupvb	groupvbveggienn	groupnnofinveggienn	veggienngroupnn	vegnngroupnn	veggienngroupingnn	groupnnofinvegetablenn	vegetablenngroupvb	
+
+BE: thingsNNSbeginVB
+EQ class: theynnsbeginvb	beginningnntheynns	theynnsset_aboutvb	tyronnofinthemnns	themnnsstartvb	thingsnnsstart_outvb	beginningnnthingsnns	themnnsgetvb	tyronnofintheynns	novicennofintheynns	tyronnthemnns	theynnsstart_outvb	initiatennthemnns	theynnsset_outvb	thingsnnscommencevb	tyronnthingsnns	thingsnnsset_aboutvb	theynnsgetvb	tironnofintheynns	beginnernnofinthemnns	initiatennofinthemnns	theynnsget_downvb	novicennofinthemnns	themnnsget_downvb	initiatennthingsnns	thingsnnsset_outvb	beginnernnthingsnns	beginningnnofinthingsnns	beginnernnofintheynns	beginningnnofinthemnns	novicennthingsnns	tironnthingsnns	beginningnnthemnns	thingsnnsget_downvb	themnnsset_outvb	tyronnofinthingsnns	tironnofinthingsnns	tyronntheynns	theynnsstartvb	novicennofinthingsnns	initiatennofintheynns	beginnernnthemnns	beginningnnofintheynns	themnnsbeginvb	tironntheynns	theynnscommencevb	beginnernntheynns	initiatennofinthingsnns	thingsnnsstartvb	themnnscommencevb	themnnsset_aboutvb	novicenntheynns	novicennthemnns	thingsnnsgetvb	themnnsstart_outvb	beginnernnofinthingsnns	initiatenntheynns	tironnthemnns	tironnofinthemnns	
+
+BE: eatingVBGfoodsNNS
+EQ class: eatvbgnutrientnns	feedingnnofinfoodsnns	eatingvbgtheynns	feedernnofintheynns	eatingvbgthemnns	feedernnofinfoodsnns	eatingnnofintheynns	eatingnnofinfoodsnns	eaternnofinfoodsnns	eatvbgthemnns	eatvbgfoodsnns	eatingnnofinthemnns	eatingvbgnutrientnns	eatvbgfoodnns	eatvbgtheynns	feedernnofinthemnns	eatingvbgfoodnns	eatingnnofinnutrientnns	eatingnnofinfoodnns	feedernnofinfoodnns	feedingnnofinfoodnns	feedingnnofinnutrientnns	feedernnofinnutrientnns	eaternnofinthemnns	feedingnnofintheynns	eaternnofinnutrientnns	eaternnofintheynns	feedingnnofinthemnns	eaternnofinfoodnns	
+
+BE: foodsNNSfromINgroupNN
+EQ class: groupnnfoodsnns	groupingnntheynns	groupingnnnutrientnns	groupnnfoodnns	foodsnnsfromingroupingnn	groupnnthemnns	themnnsfromingroupnn	foodnnsfromingroupnn	groupingnnfoodnns	theynnsfromingroupnn	themnnsfromingroupingnn	foodnnsfromingroupingnn	groupnntheynns	groupnnnutrientnns	theynnsfromingroupingnn	nutrientnnsfromingroupingnn	groupingnnthemnns	groupingnnfoodsnns	nutrientnnsfromingroupnn	
+
+BE: beginVBimproveVB
+EQ class: novicennofinimprovevb	startvbamendvb	tyronnofinamelioratevb	novicennofinamelioratevb	getvbbettervb	startvbimprovevb	start_outvbamelioratevb	commencevbbettervb	get_downvbamelioratevb	start_outvbimprovevb	startvbbettervb	tyronnofinamendvb	getvbamendvb	initiatennofinbettervb	start_outvbmelioratevb	getvbmelioratevb	set_outvbmelioratevb	beginningnnofinamendvb	get_downvbimprovevb	startvbamelioratevb	beginvbamendvb	beginvbbettervb	set_aboutvbamelioratevb	beginnernnofinbettervb	set_aboutvbimprovevb	tyronnofinimprovevb	set_aboutvbamendvb	tyronnofinbettervb	get_downvbamendvb	beginvbamelioratevb	tironnofinmelioratevb	tironnofinbettervb	beginnernnofinmelioratevb	commencevbmelioratevb	set_aboutvbbettervb	set_aboutvbmelioratevb	get_downvbmelioratevb	initiatennofinamendvb	set_outvbamelioratevb	tironnofinamelioratevb	initiatennofinamelioratevb	beginningnnofinamelioratevb	get_downvbbettervb	set_outvbbettervb	beginningnnofinbettervb	beginningnnofinimprovevb	initiatennofinimprovevb	novicennofinamendvb	commencevbimprovevb	getvbimprovevb	beginvbmelioratevb	getvbamelioratevb	beginningnnofinmelioratevb	beginnernnofinamelioratevb	set_outvbamendvb	beginnernnofinamendvb	set_outvbimprovevb	tironnofinamendvb	novicennofinbettervb	commencevbamendvb	startvbmelioratevb	tyronnofinmelioratevb	initiatennofinmelioratevb	start_outvbamendvb	beginnernnofinimprovevb	novicennofinmelioratevb	tironnofinimprovevb	commencevbamelioratevb	start_outvbbettervb	
+
+BE: dealNN
+EQ class: tradenn	business_dealnn	
+
+BE: meatNN
+EQ class: meatyjj	
+
+BE: foodsNNS
+EQ class: foodnns	theynns	nutrientnns	themnns	
+
+BE: digestionNN
+EQ class: 
+
+BE: foodsNNS
+EQ class: foodnns	theynns	nutrientnns	themnns	
+
+BE: trackNN
+EQ class: coursenn	pathnn	
+
+BE: eatingVBG
+EQ class: eatvbg	
+
+BE: movingVBG
+EQ class: movevbg	govbg	travelvbg	locomotevbg	
+
+BE: greatJJ
+EQ class: greatnessnn	
+
+BE: redJJ
+EQ class: cherryjj	rednn	ruddyjj	reddishjj	ruby-redjj	rednessnn	crimsonjj	blood-redjj	rubyjj	cerisejj	scarletjj	cherry-redjj	carminejj	
+
+BE: fastJJ
+EQ class: fastnessnn	
+
+BE: goodJJ
+EQ class: goodnessnn	
+
+BE: intestinalJJ
+EQ class: enteraljj	entericjj	intestinenn	
+
+BE: greatJJdealNN
+EQ class: plowvbgreatlyrb	greatjjtradenn	addressvbgreatlyrb	covervbgreatlyrb	greatjjbusiness_dealnn	greatnessnndealnn	greatnessnnbusiness_dealnn	greatnessnntradenn	handlevbgreatlyrb	dealvbgreatlyrb	treatvbgreatlyrb	
+
+BE: redJJmeatNN
+EQ class: rednessnnmeatyjj	cerisejjmeatnn	cerisejjmeatyjj	scarletjjmeatnn	ruddyjjmeatyjj	rednnmeatnn	blood-redjjmeatyjj	rednessnnmeatnn	cherryjjmeatnn	ruby-redjjmeatnn	ruddyjjmeatnn	rednnmeatyjj	meatyvbredlyrb	cherry-redjjmeatyjj	carminejjmeatyjj	redjjmeatyjj	scarletjjmeatyjj	rubyjjmeatnn	crimsonjjmeatnn	blood-redjjmeatnn	rubyjjmeatyjj	carminejjmeatnn	reddishjjmeatnn	crimsonjjmeatyjj	reddishjjmeatyjj	ruby-redjjmeatyjj	cherryjjmeatyjj	cherry-redjjmeatnn	
+
+BE: fastJJfoodsNNS
+EQ class: fastjjtheynns	fastnessnnfoodnns	fastnessnnfoodsnns	fastnessnntheynns	fastjjnutrientnns	fastnessnnnutrientnns	fastnessnnthemnns	fastjjthemnns	fastjjfoodnns	
+
+BE: intestinalJJtrackNN
+EQ class: intestinaljjcoursenn	intestinenntracknn	intestinennpathnn	enteraljjcoursenn	intestinenncoursenn	entericjjpathnn	entericjjcoursenn	intestinaljjpathnn	enteraljjtracknn	enteraljjpathnn	entericjjtracknn	
+
+BE: eatingVBGdealNN
+EQ class: eatingvbgbusiness_dealnn	eatingnnofinbusiness_dealnn	feedernnofindealnn	eatingnnofindealnn	feedernnofintradenn	eatvbgbusiness_dealnn	feedingnnofintradenn	eaternnofinbusiness_dealnn	eatingvbgtradenn	eatingnnofintradenn	eaternnofindealnn	feedernnofinbusiness_dealnn	feedingnnofindealnn	eatvbgtradenn	eaternnofintradenn	eatvbgdealnn	feedingnnofinbusiness_dealnn	
+
+BE: movingVBGthemPRP
+EQ class: motilitynnofinchoicesprp	travelvbggiftsprp	govbgchoicesprp	gesturennofingiftsprp	travelvbgthingsprp	gesturennofinfoodsprp	motilitynnofinlotsprp	movevbggiftsprp	movennofinthingsprp	motionnnofingiftsprp	motilitynnofinfoodsprp	movementnnofingiftsprp	motionnnofinthemprp	motilitynnofinmagazinesprp	movevbghabitsprp	govbgmagazinesprp	motilitynnofinthingsprp	govbgfruitsprp	movementnnofinvegetablesprp	movernnofinhabitsprp	movingvbggiftsprp	movennofinthemprp	travelvbgvegetablesprp	movernnofinchoicesprp	locomotevbgvegetablesprp	locomotevbgmagazinesprp	gesturennofinfruitsprp	movementnnofinlotsprp	motionnnofinfruitsprp	movementnnofinmagazinesprp	movennofinfruitsprp	gesturennofinlotsprp	locomotevbgthemprp	motilitynnofinvegetablesprp	govbgfoodsprp	movevbgfoodsprp	movingvbgvegetablesprp	movementnnofinthingsprp	movementnnofinfoodsprp	locomotevbghabitsprp	motilitynnofinfruitsprp	travelvbglotsprp	movementnnofinchoicesprp	movernnofinfoodsprp	movernnofinmagazinesprp	movevbglotsprp	gesturennofinchoicesprp	movernnofinlotsprp	movingvbgmagazinesprp	movevbgthingsprp	motionnnofinproductsprp	movernnofinproductsprp	motionnnofinfoodsprp	movementnnofinhabitsprp	movennofinchoicesprp	travelvbgmagazinesprp	movennofinlotsprp	govbgthemprp	movingvbgproductsprp	movingvbglotsprp	movevbgvegetablesprp	motilitynnofinproductsprp	movernnofinthemprp	gesturennofinthingsprp	motionnnofinhabitsprp	movennofinvegetablesprp	movennofinhabitsprp	gesturennofinvegetablesprp	motilitynnofinhabitsprp	movernnofinthingsprp	gesturennofinhabitsprp	gesturennofinproductsprp	travelvbgfoodsprp	movevbgchoicesprp	movevbgproductsprp	locomotevbggiftsprp	travelvbghabitsprp	travelvbgfruitsprp	movernnofinfruitsprp	movementnnofinproductsprp	movevbgfruitsprp	govbgthingsprp	movennofinmagazinesprp	locomotevbgfruitsprp	motionnnofinmagazinesprp	movingvbghabitsprp	locomotevbgproductsprp	movernnofingiftsprp	locomotevbgfoodsprp	gesturennofinmagazinesprp	movennofinfoodsprp	locomotevbgchoicesprp	motionnnofinlotsprp	movennofingiftsprp	motionnnofinthingsprp	movingvbgfruitsprp	locomotevbglotsprp	govbgvegetablesprp	movennofinproductsprp	motilitynnofingiftsprp	movernnofinvegetablesprp	gesturennofinthemprp	movingvbgthingsprp	movementnnofinthemprp	movevbgmagazinesprp	motionnnofinvegetablesprp	travelvbgthemprp	movingvbgfoodsprp	travelvbgchoicesprp	govbgproductsprp	movevbgthemprp	motionnnofinchoicesprp	movingvbgchoicesprp	locomotevbgthingsprp	movementnnofinfruitsprp	travelvbgproductsprp	motilitynnofinthemprp	govbghabitsprp	govbggiftsprp	govbglotsprp	
+
+BE: isAUXgoodJJ
+EQ class: isauxgoodnessnn	beauxgoodnessnn	beauxgoodjj	
+
+BE: dealNNofINmeatNN
+EQ class: meatyjjtradenn	meatyjjplowvb	meatnnhandlevb	plowvbmeatyjj	tradennofinmeatyjj	meatnncovervb	dealvbmeatyjj	treatvbmeatnn	addressvbmeatnn	business_dealnnofinmeatyjj	meatyjjtreatvb	meatyjjaddressvb	meatnnplowvb	meatnndealnn	meatyjjdealvb	meatnntreatvb	covervbmeatyjj	addressvbmeatyjj	meatnnbusiness_dealnn	meatyjjcovervb	meatyjjdealnn	dealnnofinmeatyjj	business_dealnnofinmeatnn	meatyjjbusiness_dealnn	treatvbmeatyjj	handlevbmeatnn	handlevbmeatyjj	meatyjjhandlevb	meatnnaddressvb	dealvbmeatnn	tradennofinmeatnn	covervbmeatnn	meatnndealvb	meatnntradenn	plowvbmeatnn	
+
+BE: digestionNNofINfoodsNNS
+EQ class: digestvbthemnns	themnnsdigestionnn	foodsnnsdigestionnn	digestionnnofinfoodnns	digestionnnofinthemnns	digestionnnofintheynns	nutrientnnsdigestionnn	foodsnnsdigestvb	themnnsdigestvb	theynnsdigestionnn	digestvbnutrientnns	theynnsdigestvb	digestionnnofinnutrientnns	digestvbfoodsnns	foodnnsdigestvb	digestvbfoodnns	digestvbtheynns	foodnnsdigestionnn	nutrientnnsdigestvb	
+
+BE: movingVBGalongINtrackNN
+EQ class: govbgalongintracknn	movevbgalongincoursenn	govbgalongincoursenn	locomotevbgalongintracknn	movevbgalongintracknn	movevbgalonginpathnn	locomotevbgalongincoursenn	locomotevbgalonginpathnn	movingvbgalonginpathnn	govbgalonginpathnn	movingvbgalongincoursenn	travelvbgalongincoursenn	travelvbgalonginpathnn	travelvbgalongintracknn	
+
+BE: goodJJforINdigestionNN
+EQ class: goodnessnnforindigestionnn	
+
+BE: isAUXnotRB
+EQ class: beauxnotrb	
+
+BE: foodsNNSmovingVBG
+EQ class: movementnnfoodnns	gesturennofinthemnns	foodnnsmovingvbg	movernnofinfoodnns	themnnsmovingvbg	gesturenntheynns	movementnnofintheynns	movennofintheynns	movennfoodsnns	gesturennofinfoodsnns	movennofinnutrientnns	motilitynnthemnns	movennofinfoodsnns	nutrientnnsmovingvbg	theynnsmovingvbg	motionnnofinthemnns	themnnslocomotevbg	gesturennfoodnns	foodsnnstravelvbg	movementnnthemnns	motionnnofintheynns	themnnstravelvbg	motionnntheynns	gesturennfoodsnns	motionnnofinnutrientnns	movementnnofinfoodnns	nutrientnnsgovbg	motilitynntheynns	movementnnnutrientnns	movementnntheynns	movementnnofinthemnns	movennofinfoodnns	motionnnnutrientnns	nutrientnnstravelvbg	gesturennofinnutrientnns	movernnfoodsnns	gesturennofinfoodnns	foodnnslocomotevbg	foodsnnsmovevbg	motilitynnfoodsnns	foodnnsmovevbg	theynnsgovbg	theynnslocomotevbg	movernnofinnutrientnns	movernnnutrientnns	gesturennthemnns	theynnsmovevbg	movennofinthemnns	foodnnsgovbg	motionnnofinfoodsnns	movementnnofinnutrientnns	motionnnfoodsnns	movennfoodnns	movenntheynns	motilitynnofinnutrientnns	motionnnofinfoodnns	gesturennnutrientnns	foodsnnsgovbg	nutrientnnslocomotevbg	movernnofintheynns	foodsnnslocomotevbg	themnnsgovbg	foodnnstravelvbg	motilitynnnutrientnns	motionnnfoodnns	movementnnofinfoodsnns	motilitynnofintheynns	themnnsmovevbg	movennthemnns	movernnofinfoodsnns	movennnutrientnns	motilitynnofinfoodsnns	movementnnfoodsnns	gesturennofintheynns	movernnofinthemnns	motilitynnfoodnns	movernnthemnns	motilitynnofinthemnns	motionnnthemnns	theynnstravelvbg	nutrientnnsmovevbg	motilitynnofinfoodnns	movernnfoodnns	movernntheynns	
+
+BE: orderNN
+EQ class: 
+
+BE: wayNN
+EQ class: stylenn	fashionnn	modenn	mannernn	
+
+BE: wasteNN
+EQ class: waste_productnn	waste_matternn	waste_materialnn	
+
+BE: productsNNS
+EQ class: warenns	theynns	merchandisenns	productnns	themnns	
+
+BE: bodyNN
+EQ class: physical_structurenn	bodilyjj	organic_structurenn	
+
+BE: fiberNN
+EQ class: fibrousjj	fibrenn	
+
+BE: habitsNNS
+EQ class: habitnns	theynns	wontnns	themnns	
+
+BE: lotsNNS
+EQ class: dozensnns	loadsnns	heapsnns	scoresnns	gobsnns	lashingsnns	slewsnns	stacksnns	pilesnns	tonsnns	oodlesnns	theynns	wadsnns	scadsnns	raftsnns	themnns	
+
+BE: fruitsNNS
+EQ class: theynns	fruityjj	fruitnns	themnns	
+
+BE: vegetablesNNS
+EQ class: veggienns	vegetablenns	theynns	vegnns	themnns	
+
+BE: junkNN
+EQ class: dustnn	debrisnn	detritusnn	rubblenn	
+
+BE: foodsNNS
+EQ class: foodnns	theynns	nutrientnns	themnns	
+
+BE: gettingVBG
+EQ class: getvbg	acquirevbg	
+
+BE: eatingVBG
+EQ class: eatvbg	
+
+BE: eatingVBG
+EQ class: eatvbg	
+
+BE: avoidingVBG
+EQ class: avoidvbg	
+
+BE: goodJJ
+EQ class: goodnessnn	
+
+BE: ridJJ
+EQ class: 
+
+BE: regularJJ
+EQ class: regularitynn	
+
+BE: eatingJJ
+EQ class: 
+
+BE: necessaryJJ
+EQ class: necessitynn	
+
+BE: goodJJwayNN
+EQ class: goodnessnnwaynn	goodjjmodenn	goodjjfashionnn	goodnessnnstylenn	goodnessnnfashionnn	goodjjmannernn	goodnessnnmodenn	goodjjstylenn	goodnessnnmannernn	
+
+BE: regularJJhabitsNNS
+EQ class: regularjjhabitnns	regularjjthemnns	regularitynntheynns	regularitynnhabitsnns	regularitynnwontnns	regularitynnhabitnns	regularitynnthemnns	habituatevbregularlyrb	regularjjwontnns	usevbregularlyrb	regularjjtheynns	
+
+BE: eatingJJhabitsNNS
+EQ class: eatingjjthemnns	eatingjjwontnns	eatingjjhabitnns	eatingjjtheynns	
+
+BE: wasteNNproductsNNS
+EQ class: waste_matternnofinmerchandisenns	waste_matternntheynns	theynnsofinwastenn	waste_matternnthemnns	waste_productnnofinwarenns	wastennofinmerchandisenns	wastrelnnofintheynns	wastrelnnofinwarenns	waste_matternnbring_forthvb	waste_materialnnbring_forthvb	warennsblowvb	wasternnofinmerchandisenns	themnnssquandervb	waste_matternnmerchandisenns	productnnswastevb	wasternnofinproductsnns	productnnssquandervb	theynnsofinwaste_matternn	theynnsblowvb	warennsofinwaste_productnn	waste_matternnofinthemnns	productsnnsofinwaste_matternn	warennsofinwaste_materialnn	theynnsofinwaste_materialnn	waste_productnnbring_forthvb	waste_materialnnofinproductnns	themnnsofinwaste_matternn	waste_materialnnofintheynns	waste_productnnthemnns	waste_productnnofintheynns	waste_matternnproducevb	waste_productnnofinproductsnns	waste_materialnnproductnns	waste_productnnofinthemnns	wastennofinthemnns	bring_forthvbwaste_productnn	wastennofintheynns	waste_materialnnofinthemnns	waste_materialnnproductsnns	waste_productnnofinproductnns	merchandisennsofinwaste_matternn	wasternnofinthemnns	waste_matternnproductnns	theynnsofinwaste_productnn	wastennofinproductnns	warennsofinwastenn	waste_matternnofinproductsnns	waste_materialnnthemnns	productsnnsofinwaste_materialnn	themnnsofinwaste_materialnn	wastrelnnofinproductnns	wastrelnnofinthemnns	merchandisennsofinwaste_productnn	warennsofinwaste_matternn	wasternnofinwarenns	wastennofinwarenns	themnnsblowvb	waste_materialnnofinwarenns	productnnsofinwaste_productnn	waste_matternnproductsnns	productnnsofinwaste_matternn	wastennproducevb	productsnnsblowvb	bring_forthvbwastenn	waste_matternnwarenns	wastennmerchandisenns	merchandisennsofinwastenn	merchandisennsofinwaste_materialnn	theynnssquandervb	merchandisennssquandervb	productsnnssquandervb	warennswastevb	waste_productnnwarenns	producevbwaste_materialnn	wasternnofinproductnns	wastennbring_forthvb	waste_materialnnwarenns	waste_materialnnofinproductsnns	waste_productnntheynns	waste_matternnofintheynns	wastrelnnofinproductsnns	productsnnsofinwaste_productnn	themnnsofinwastenn	waste_productnnproductnns	waste_materialnnproducevb	producevbwaste_productnn	productsnnswastevb	themnnsofinwaste_productnn	wastennproductnns	waste_materialnnmerchandisenns	bring_forthvbwaste_matternn	bring_forthvbwaste_materialnn	waste_matternnofinwarenns	merchandisennsblowvb	productnnsofinwaste_materialnn	productnnsblowvb	wastennofinproductsnns	waste_matternnofinproductnns	theynnswastevb	wastenntheynns	wastrelnnofinmerchandisenns	waste_materialnntheynns	wasternnofintheynns	waste_productnnproducevb	warennssquandervb	producevbwaste_matternn	waste_productnnmerchandisenns	wastennthemnns	productsnnsofinwastenn	themnnswastevb	producevbwastenn	wastennwarenns	merchandisennswastevb	productnnsofinwastenn	waste_productnnofinmerchandisenns	waste_materialnnofinmerchandisenns	waste_productnnproductsnns	
+
+BE: junkNNfoodsNNS
+EQ class: nutrientnnsjunkvb	foodnnsscrapvb	themnnsofindebrisnn	debrisnnofinthemnns	foodnnsofindustnn	junknnofinthemnns	foodsnnsofindebrisnn	detritusnnofinthemnns	debrisnntheynns	detritusnntheynns	nutrientnnsofindebrisnn	debrisnnfoodsnns	detritusnnfoodsnns	theynnsofindustnn	junknntheynns	nutrientnnsofinjunknn	themnnsjunkvb	detritusnnofinnutrientnns	rubblennofinfoodsnns	debrisnnthemnns	nutrientnnsscrapvb	rubblennfoodnns	foodsnnsofindetritusnn	nutrientnnsofinrubblenn	detritusnnofinfoodnns	junknnofinfoodsnns	dustnnfoodsnns	rubblennfoodsnns	nutrientnnstrashvb	rubblennofintheynns	detritusnnofintheynns	theynnsjunkvb	themnnsofindetritusnn	rubblennofinnutrientnns	foodnnsofinrubblenn	dustnnthemnns	themnnstrashvb	themnnsofindustnn	nutrientnnsofindustnn	dustnnofinfoodnns	foodsnnsofinjunknn	detritusnnthemnns	foodsnnsscrapvb	junknnofinnutrientnns	junknnofinfoodnns	themnnsofinjunknn	detritusnnofinfoodsnns	dustnnofinfoodsnns	dustnnofinthemnns	foodsnnstrashvb	theynnsofinrubblenn	junknnfoodnns	theynnsofindebrisnn	rubblennofinfoodnns	theynnstrashvb	detritusnnfoodnns	foodnnsofindetritusnn	debrisnnnutrientnns	rubblenntheynns	foodnnsofindebrisnn	foodnnsofinjunknn	themnnsscrapvb	rubblennnutrientnns	foodnnsjunkvb	junknnofintheynns	nutrientnnsofindetritusnn	dustnnofintheynns	dustnnnutrientnns	dustnnfoodnns	theynnsofindetritusnn	theynnsofinjunknn	dustnntheynns	detritusnnnutrientnns	debrisnnfoodnns	debrisnnofinfoodnns	foodsnnsjunkvb	dustnnofinnutrientnns	themnnsofinrubblenn	debrisnnofinnutrientnns	rubblennthemnns	junknnnutrientnns	junknnthemnns	foodsnnsofindustnn	debrisnnofinfoodsnns	foodsnnsofinrubblenn	foodnnstrashvb	debrisnnofintheynns	theynnsscrapvb	rubblennofinthemnns	
+
+BE: habitsNNSlotsNNS
+EQ class: habitnnofinwadsnns	gobsnnswontnns	tonsnnswontnns	themnnsslewsnns	tonsnnshabitsnns	oodlesnnshabitsnns	themnnshabitsnns	pilesnnsthemnns	scoresnnshabituatevb	habitsnnsloadsnns	gobsnnsusevb	lotsnnstheynns	wadsnnshabitnns	tonsnnstheynns	habitnnstonsnns	theynnsoodlesnns	dozensnnshabituatevb	wontnnsscadsnns	theynnsraftsnns	loadsnnshabitnns	theynnslashingsnns	habitsnnsslewsnns	raftsnnshabitsnns	oodlesnnsusevb	loadsnnstheynns	lotsnnsusevb	lashingsnnsusevb	wontnnofinscadsnns	wontnnofinwadsnns	themnnstheynns	stacksnnsusevb	habitnnofinlotsnns	habitnnslashingsnns	habitsnnsgobsnns	slewsnnsthemnns	scadsnnsthemnns	wadsnnsusevb	heapsnnshabitsnns	wadsnnswontnns	wontnnsstacksnns	theynnsthemnns	theynnshabituatevb	slewsnnstheynns	raftsnnsusevb	wontnnofinloadsnns	themnnshabitnns	wontnnofinslewsnns	lotsnnsthemnns	wontnnofinstacksnns	stacksnnshabitsnns	habitnnsloadsnns	habitnnsstacksnns	slewsnnshabituatevb	habitnnswadsnns	wontnnspilesnns	dozensnnstheynns	habitsnnspilesnns	gobsnnshabitnns	themnnsgobsnns	themnnsraftsnns	wontnnslotsnns	scadsnnsusevb	wontnnsoodlesnns	pilesnnsusevb	habitnnofinscoresnns	pilesnnstheynns	raftsnnsthemnns	slewsnnshabitsnns	habitnnslotsnns	wontnnofinheapsnns	habitnnsoodlesnns	scadsnnshabituatevb	scadsnnshabitnns	wontnnofingobsnns	stacksnnshabituatevb	lashingsnnstheynns	themnnslashingsnns	theynnsscadsnns	themnnsheapsnns	habitnnofinslewsnns	dozensnnshabitsnns	habitsnnsraftsnns	lashingsnnsthemnns	tonsnnsthemnns	habitnnsthemnns	themnnsscoresnns	wontnnsslewsnns	habitnnstheynns	wontnnofinscoresnns	oodlesnnshabitnns	wontnnstheynns	scoresnnshabitsnns	wontnnslashingsnns	wontnnofinthemnns	themnnstonsnns	wontnnsdozensnns	habitsnnsstacksnns	themnnsdozensnns	habitnnsdozensnns	wontnnswadsnns	habitsnnsthemnns	wontnnsheapsnns	habitsnnsscadsnns	themnnsusevb	wadsnnshabituatevb	raftsnnshabitnns	themnnshabituatevb	themnnsoodlesnns	wontnnofinlashingsnns	habitsnnsheapsnns	wontnnofintheynns	heapsnnsusevb	habitsnnstonsnns	themnnswadsnns	slewsnnshabitnns	habitnnofinscadsnns	gobsnnsthemnns	habitnnofinstacksnns	lotsnnswontnns	stacksnnstheynns	pilesnnshabitsnns	habitsnnswadsnns	habitnnofindozensnns	habitnnsscoresnns	wontnnsthemnns	wadsnnstheynns	theynnsscoresnns	habitnnsraftsnns	wontnnofindozensnns	wontnnofinraftsnns	wontnnofintonsnns	wadsnnshabitsnns	wontnnsscoresnns	habitnnofinloadsnns	dozensnnsusevb	scadsnnshabitsnns	wontnnofinoodlesnns	theynnswadsnns	theynnsloadsnns	themnnspilesnns	themnnslotsnns	theynnstheynns	loadsnnshabituatevb	wontnnsraftsnns	heapsnnswontnns	scoresnnstheynns	loadsnnsusevb	dozensnnswontnns	wontnnsloadsnns	slewsnnsusevb	heapsnnshabitnns	raftsnnstheynns	theynnswontnns	scoresnnsthemnns	lotsnnshabitnns	loadsnnshabitsnns	lashingsnnshabituatevb	habitnnspilesnns	habitnnofinheapsnns	themnnsloadsnns	lashingsnnshabitnns	oodlesnnshabituatevb	heapsnnshabituatevb	habitsnnslashingsnns	loadsnnswontnns	habitnnofinlashingsnns	theynnsgobsnns	theynnsusevb	pilesnnshabituatevb	dozensnnsthemnns	stacksnnshabitnns	raftsnnswontnns	wontnnstonsnns	scadsnnswontnns	tonsnnsusevb	heapsnnstheynns	theynnshabitsnns	habitnnofinoodlesnns	theynnsheapsnns	theynnsslewsnns	wontnnofinlotsnns	themnnswontnns	themnnsscadsnns	habitnnofintheynns	wontnnsgobsnns	slewsnnswontnns	habitsnnstheynns	oodlesnnswontnns	oodlesnnsthemnns	pilesnnswontnns	lotsnnshabitsnns	tonsnnshabitnns	gobsnnshabitsnns	theynnslotsnns	lotsnnshabituatevb	habitnnofintonsnns	gobsnnshabituatevb	scadsnnstheynns	habitsnnsscoresnns	habitnnsscadsnns	loadsnnsthemnns	lashingsnnshabitsnns	habitnnofinpilesnns	lashingsnnswontnns	gobsnnstheynns	stacksnnsthemnns	theynnsdozensnns	wadsnnsthemnns	theynnshabitnns	dozensnnshabitnns	scoresnnshabitnns	habitnnofinthemnns	heapsnnsthemnns	habitsnnsdozensnns	raftsnnshabituatevb	themnnsthemnns	scoresnnswontnns	habitsnnsoodlesnns	theynnsstacksnns	wontnnofinpilesnns	scoresnnsusevb	pilesnnshabitnns	stacksnnswontnns	oodlesnnstheynns	habitnnofingobsnns	habitnnsslewsnns	habitnnsgobsnns	theynnstonsnns	themnnsstacksnns	habitnnofinraftsnns	theynnspilesnns	habitnnsheapsnns	tonsnnshabituatevb	
+
+BE: bodyNNeatingVBG
+EQ class: eatingnnofinbodynn	eatingnnofinphysical_structurenn	feedingnnbodynn	feedernnofinbodilyjj	eaternnorganic_structurenn	feedingnnofinbodilyjj	eaternnbodynn	bodilyjjeatvbg	eaternnofinbodilyjj	eaternnofinorganic_structurenn	feedernnorganic_structurenn	eatingnnofinbodilyjj	eaternnofinbodynn	organic_structurenneatingvbg	bodynneatvbg	eatingnnbodynn	feedingnnofinorganic_structurenn	eatingnnorganic_structurenn	eatingnnphysical_structurenn	feedernnphysical_structurenn	feedingnnphysical_structurenn	feedingnnbodilyjj	feedernnofinorganic_structurenn	bodilyjjeatingvbg	feedernnofinbodynn	eaternnphysical_structurenn	eatingnnofinorganic_structurenn	feedernnbodynn	feedernnofinphysical_structurenn	physical_structurenneatingvbg	eaternnofinphysical_structurenn	eaternnbodilyjj	feedernnbodilyjj	feedingnnofinphysical_structurenn	feedingnnofinbodynn	feedingnnorganic_structurenn	physical_structurenneatvbg	organic_structurenneatvbg	eatingnnbodilyjj	
+
+BE: haveAUXwayNN
+EQ class: rich_personnnofinwaynn	haveauxfashionnn	have_gotauxwaynn	wealthy_personnnofinstylenn	haveauxmodenn	havennofinwaynn	holdauxmannernn	havennofinstylenn	wealthy_personnnofinfashionnn	holdauxmodenn	wealthy_personnnofinmodenn	rich_personnnofinstylenn	rich_personnnofinfashionnn	holdauxwaynn	have_gotauxstylenn	rich_personnnofinmodenn	wealthy_personnnofinwaynn	have_gotauxmannernn	wealthy_personnnofinmannernn	havennofinfashionnn	haveauxstylenn	haveauxmannernn	have_gotauxmodenn	holdauxfashionnn	have_gotauxfashionnn	havennofinmodenn	holdauxstylenn	havennofinmannernn	rich_personnnofinmannernn	
+
+BE: eatingVBGfiberNN
+EQ class: eaternnofinfibernn	eatvbgfibrenn	eaternnofinfibrenn	feedernnofinfibernn	feedingnnofinfibrenn	feedingnnofinfibrousjj	eatingnnofinfibrousjj	eatvbgfibrousjj	eatingvbgfibrenn	eatingnnofinfibernn	eatvbgfibernn	feedernnofinfibrousjj	eatingnnofinfibrenn	feedernnofinfibrenn	eatingvbgfibrousjj	feedingnnofinfibernn	eaternnofinfibrousjj	
+
+BE: havingAUXGhabitsNNS
+EQ class: havingauxgthemnns	havingauxgwontnns	havingauxghabitnns	havingauxgtheynns	
+
+BE: eatingVBGfoodsNNS
+EQ class: eatvbgnutrientnns	feedingnnofinfoodsnns	eatingvbgtheynns	feedernnofintheynns	eatingvbgthemnns	feedernnofinfoodsnns	eatingnnofintheynns	eatingnnofinfoodsnns	eaternnofinfoodsnns	eatvbgthemnns	eatvbgfoodsnns	eatingnnofinthemnns	eatingvbgnutrientnns	eatvbgfoodnns	eatvbgtheynns	feedernnofinthemnns	eatingvbgfoodnns	eatingnnofinnutrientnns	eatingnnofinfoodnns	feedernnofinfoodnns	feedingnnofinfoodnns	feedingnnofinnutrientnns	feedernnofinnutrientnns	eaternnofinthemnns	feedingnnofintheynns	eaternnofinnutrientnns	eaternnofintheynns	feedingnnofinthemnns	eaternnofinfoodnns	
+
+BE: isAUXnecessaryJJ
+EQ class: isauxnecessitynn	beauxnecessitynn	beauxnecessaryjj	
+
+BE: lotsNNSofINfruitsNNS
+EQ class: fruityjjpilesnns	gobsnnsofinthemnns	gobsnnsofinfruityjj	fruityjjwadsnns	theynnsscoresnns	fruitnnswadsnns	heapsnnsofinfruitnns	wadsnnsofinthemnns	fruitsnnslashingsnns	wadsnnsofintheynns	pilesnnsofintheynns	fruitnnsheapsnns	fruitnnsslewsnns	heapsnnsofintheynns	themnnsslewsnns	slewsnnsofinfruitsnns	tonsnnsofinfruityjj	scoresnnsofinfruitsnns	slewsnnsofinfruitnns	dozensnnsofinfruityjj	dozensnnsofinfruitnns	theynnswadsnns	lashingsnnsofinfruitsnns	scadsnnsofintheynns	theynnsloadsnns	themnnspilesnns	raftsnnsofinfruitnns	themnnslotsnns	fruitsnnsscoresnns	scoresnnsofinfruitnns	raftsnnsofinthemnns	theynnstheynns	theynnsoodlesnns	fruityjjlashingsnns	loadsnnsofinfruityjj	theynnsraftsnns	fruityjjtheynns	theynnslashingsnns	pilesnnsofinthemnns	lashingsnnsofinthemnns	stacksnnsofinthemnns	slewsnnsofintheynns	fruitsnnstonsnns	scoresnnsofinthemnns	gobsnnsofintheynns	lotsnnsofintheynns	fruitsnnspilesnns	fruityjjraftsnns	wadsnnsofinfruitnns	fruitnnsstacksnns	loadsnnsofinthemnns	themnnstheynns	fruitnnsdozensnns	wadsnnsofinfruityjj	gobsnnsofinfruitnns	stacksnnsofinfruitsnns	fruitnnstonsnns	heapsnnsofinfruityjj	fruitnnsthemnns	themnnsofinfruitnns	fruityjjscadsnns	themnnsofinfruitsnns	fruityjjoodlesnns	oodlesnnsofinfruityjj	fruitnnsraftsnns	dozensnnsofinfruitsnns	themnnsloadsnns	oodlesnnsofinthemnns	heapsnnsofinfruitsnns	fruitnnsloadsnns	oodlesnnsofinfruitsnns	fruityjjtonsnns	fruitsnnsoodlesnns	theynnsofinfruitnns	theynnsthemnns	pilesnnsofinfruitsnns	fruitnnsscoresnns	theynnsgobsnns	fruityjjgobsnns	raftsnnsofinfruitsnns	loadsnnsofinfruitnns	fruitsnnsloadsnns	theynnsofinthemnns	theynnsofintheynns	fruitnnsscadsnns	scadsnnsofinfruitnns	fruityjjslewsnns	themnnsgobsnns	theynnsofinfruityjj	themnnsraftsnns	scadsnnsofinfruitsnns	pilesnnsofinfruityjj	fruitnnspilesnns	theynnsslewsnns	theynnsheapsnns	fruitnnsgobsnns	themnnsscadsnns	gobsnnsofinfruitsnns	fruityjjscoresnns	fruitsnnsdozensnns	tonsnnsofinthemnns	fruitsnnsheapsnns	fruitsnnsscadsnns	scoresnnsofinfruityjj	theynnslotsnns	lotsnnsofinfruityjj	fruitsnnstheynns	themnnslashingsnns	stacksnnsofintheynns	theynnsscadsnns	themnnsheapsnns	fruitsnnswadsnns	fruityjjloadsnns	fruitsnnsgobsnns	dozensnnsofinthemnns	lotsnnsofinfruitnns	fruitsnnslotsnns	fruitnnstheynns	fruitsnnsslewsnns	stacksnnsofinfruityjj	raftsnnsofintheynns	stacksnnsofinfruitnns	slewsnnsofinfruityjj	lashingsnnsofintheynns	fruitnnslashingsnns	fruitnnslotsnns	scoresnnsofintheynns	themnnsscoresnns	heapsnnsofinthemnns	theynnsdozensnns	loadsnnsofinfruitsnns	fruityjjdozensnns	fruitsnnsstacksnns	oodlesnnsofinfruitnns	oodlesnnsofintheynns	lashingsnnsofinfruitnns	fruityjjheapsnns	themnnsthemnns	tonsnnsofinfruitnns	fruitsnnsthemnns	theynnsstacksnns	themnnstonsnns	themnnsdozensnns	pilesnnsofinfruitnns	theynnsofinfruitsnns	themnnsofinthemnns	fruitnnsoodlesnns	fruityjjthemnns	fruitsnnsraftsnns	fruityjjlotsnns	tonsnnsofinfruitsnns	loadsnnsofintheynns	themnnsoodlesnns	wadsnnsofinfruitsnns	slewsnnsofinthemnns	themnnsofintheynns	tonsnnsofintheynns	theynnstonsnns	fruityjjstacksnns	lashingsnnsofinfruityjj	themnnsstacksnns	dozensnnsofintheynns	raftsnnsofinfruityjj	lotsnnsofinthemnns	scadsnnsofinthemnns	themnnswadsnns	scadsnnsofinfruityjj	theynnspilesnns	themnnsofinfruityjj	
+
+BE: ridJJofINproductsNNS
+EQ class: ridjjofinmerchandisenns	ridjjofinwarenns	ridjjofinthemnns	ridjjofintheynns	ridjjofinproductnns	
+
+BE: eatingVBGoverRB
+EQ class: eaternnofinoverrb	feedernnofinoverrb	eatvbgoverrb	eatingnnofinoverrb	feedingnnofinoverrb	
+
+BE: consumptionNN
+EQ class: intakenn	ingestionnn	uptakenn	
+
+BE: magazinesNNS
+EQ class: magazinenns	theynns	themnns	magnns	
+
+BE: drinkNN
+EQ class: 
+
+BE: dayNN
+EQ class: dailyjj	24-hour_intervalnn	twenty-four_hoursnn	twenty-four_hour_periodnn	mean_solar_daynn	solar_daynn	
+
+BE: believeVBP
+EQ class: 
+
+BE: limitedVBN
+EQ class: trammelvbn	restrictvbn	boundvbn	throttlevbn	limitvbn	confinevbn	restrainvbn	
+
+BE: reportVBP
+EQ class: describevbp	accountvbp	
+
+BE: alcoholicJJ
+EQ class: alcoholnn	
+
+BE: goodJJ
+EQ class: goodnessnn	
+
+BE: alcoholicJJconsumptionNN
+EQ class: alcoholicjjuptakenn	alcoholicjjingestionnn	alcoholnningestionnn	alcoholicjjintakenn	alcoholnnuptakenn	alcoholnnintakenn	alcoholnnconsumptionnn	
+
+BE: iPRPbelieveVBP
+EQ class: believernnofiniprp	trusternniprp	believablennofiniprp	beliefnnofiniprp	trusternnofiniprp	believernniprp	beliefnniprp	
+
+BE: allDTreportVBP
+EQ class: studynnofinalldt	reportnnofinalldt	alldtaccountvbp	alldtdescribevbp	written_reportnnofinalldt	
+
+BE: haveAUXdrinkNN
+EQ class: have_gotauxdrinknn	wealthy_personnnofindrinknn	rich_personnnofindrinknn	havennofindrinknn	holdauxdrinknn	
+
+BE: haveAUXdayNN
+EQ class: rich_personnnofinsolar_daynn	havennofinsolar_daynn	have_gotauxdaynn	holdauxdailyjj	have_gotauxmean_solar_daynn	holdauxmean_solar_daynn	rich_personnnofintwenty-four_hoursnn	wealthy_personnnofinsolar_daynn	have_gotauxdailyjj	havennofin24-hour_intervalnn	have_gotaux24-hour_intervalnn	haveauxtwenty-four_hour_periodnn	haveauxtwenty-four_hoursnn	holdauxtwenty-four_hoursnn	wealthy_personnnofinmean_solar_daynn	havennofinmean_solar_daynn	haveauxsolar_daynn	holdauxtwenty-four_hour_periodnn	holdauxsolar_daynn	havennofindailyjj	wealthy_personnnofintwenty-four_hour_periodnn	have_gotauxtwenty-four_hour_periodnn	wealthy_personnnofindaynn	haveauxdailyjj	have_gotauxsolar_daynn	rich_personnnofin24-hour_intervalnn	wealthy_personnnofindailyjj	have_gotauxtwenty-four_hoursnn	rich_personnnofintwenty-four_hour_periodnn	rich_personnnofinmean_solar_daynn	havennofindaynn	holdaux24-hour_intervalnn	wealthy_personnnofin24-hour_intervalnn	havennofintwenty-four_hour_periodnn	haveauxmean_solar_daynn	haveaux24-hour_intervalnn	holdauxdaynn	rich_personnnofindailyjj	havennofintwenty-four_hoursnn	rich_personnnofindaynn	wealthy_personnnofintwenty-four_hoursnn	
+
+BE: limitedVBNconsumptionNN
+EQ class: limitedvbningestionnn	limitedvbnuptakenn	restrictionnnofiningestionnn	limitationnnofinuptakenn	boundnnofinconsumptionnn	restrictionnnofinuptakenn	limitnnofiningestionnn	limitedvbnintakenn	restrictvbnconsumptionnn	limitvbningestionnn	boundvbnconsumptionnn	limitvbnuptakenn	confinevbnuptakenn	restrictionnnofinconsumptionnn	boundnnofinuptakenn	clippernnofinuptakenn	boundvbnuptakenn	confinevbnconsumptionnn	restrainvbnuptakenn	boundvbnintakenn	restrainvbningestionnn	confinevbnintakenn	limiternnofinuptakenn	limitationnnofinintakenn	throttlevbningestionnn	trammelvbnuptakenn	clippernnofinintakenn	boundnnofiningestionnn	limitnnofinintakenn	boundarynnofinintakenn	boundarynnofinconsumptionnn	clippernnofiningestionnn	limiternnofinconsumptionnn	limiternnofiningestionnn	restrictvbnuptakenn	restrainvbnintakenn	boundarynnofinuptakenn	clippernnofinconsumptionnn	boundnnofinintakenn	limiternnofinintakenn	confinevbningestionnn	restrictionnnofinintakenn	limitnnofinconsumptionnn	trammelvbnconsumptionnn	throttlevbnconsumptionnn	limitationnnofiningestionnn	restrictvbningestionnn	limitnnofinuptakenn	trammelvbningestionnn	limitvbnconsumptionnn	limitationnnofinconsumptionnn	restrictvbnintakenn	boundvbningestionnn	throttlevbnintakenn	trammelvbnintakenn	limitvbnintakenn	boundarynnofiningestionnn	throttlevbnuptakenn	restrainvbnconsumptionnn	
+
+BE: beingAUXGgoodJJ
+EQ class: beingauxggoodnessnn	
+
+BE: allDTofINmagazinesNNS
+EQ class: alldtofinthemnns	alldtofintheynns	alldtofinmagazinenns	alldtofinmagnns	
+
+BE: believeVBPthatINlimitedVBN
+EQ class: believevbpthatinrestrainvbn	believevbpthatinboundvbn	believevbpthatinlimitvbn	believevbpthatinconfinevbn	believevbpthatintrammelvbn	believevbpthatinthrottlevbn	believevbpthatinrestrictvbn	
+
+BE: believeVBPalsoRB
+EQ class: believablennofinalsorb	trusternnofinalsorb	believernnofinalsorb	beliefnnofinalsorb	
+
+BE: drinkNN
+EQ class: 
+
+BE: alcoholNN
+EQ class: alcoholic_beveragenn	alcoholic_drinknn	intoxicantnn	alcoholicjj	inebriantnn	
+
+BE: orangeNN
+EQ class: 
+
+BE: juiceNN
+EQ class: juicyjj	
+
+BE: waterNN
+EQ class: wateryjj	h2onn	
+
+BE: milkNN
+EQ class: milkyjj	
+
+BE: drinkVBP
+EQ class: imbibevbp	
+
+BE: consumedVBN
+EQ class: devourvbn	downvbn	consumevbn	go_throughvbn	
+
+BE: containingVBG
+EQ class: comprisevbg	incorporatevbg	containvbg	
+
+BE: drinkVBP
+EQ class: imbibevbp	
+
+BE: containingVBG
+EQ class: comprisevbg	incorporatevbg	containvbg	
+
+BE: orangeNNjuiceNN
+EQ class: juicennofinorangenn	orangennjuicyjj	orangennjuicyvb	juicyvborangenn	juicyjjofinorangenn	
+
+BE: juiceNNwaterNN
+EQ class: h2onnjuicenn	juicennwateryjj	lacrimationnnofinjuicenn	waternnjuicenn	h2onnjuicyjj	juicyjjwaternn	waternnjuicyjj	waterernnofinjuicyjj	lachrymationnnofinjuicyjj	wateryjjofinjuicenn	juicyjjwateryjj	wateryjjofinjuicyjj	juicyjjirrigatevb	wateringnnofinjuicyjj	juicyjjwatervb	juicennh2onn	waterernnofinjuicenn	waternnofinjuicyjj	juicyjjh2onn	wateryjjjuicenn	wateryjjjuicyjj	lacrimationnnofinjuicyjj	juicennirrigatevb	tearingnnofinjuicyjj	lachrymationnnofinjuicenn	tearingnnofinjuicenn	h2onnofinjuicyjj	juicennwatervb	wateringnnofinjuicenn	h2onnofinjuicenn	waternnofinjuicenn	
+
+BE: youPRPdrinkVBP
+EQ class: youprpimbibevbp	imbibingnnyouprp	imbibitionnnyouprp	drinkernnyouprp	drinkernnofinyouprp	imbibingnnofinyouprp	imbibitionnnofinyouprp	drinkingnnofinyouprp	drinkingnnyouprp	drinknnofinyouprp	
+
+BE: oneCDcontainingVBG
+EQ class: acecdincorporatevbg	unitycdcontainvbg	onecdincorporatevbg	onecdcontainvbg	icdcontainvbg	singlecdcontainingvbg	unitycdincorporatevbg	1cdincorporatevbg	unitycdcontainingvbg	singlecdincorporatevbg	icdcomprisevbg	onecdcomprisevbg	1cdcontainvbg	acecdcomprisevbg	singlecdcontainvbg	unitycdcomprisevbg	icdincorporatevbg	icdcontainingvbg	singlecdcomprisevbg	acecdcontainvbg	1cdcomprisevbg	1cdcontainingvbg	acecdcontainingvbg	
+
+BE: drinkVBPoneCD
+EQ class: drinknnofinicd	imbibingnnofinonecd	imbibevbpicd	drinknnofinacecd	imbibingnnofinicd	drinkvbpunitycd	drinkernnofinsinglecd	drinkernnofin1cd	imbibitionnnofinacecd	drinknnofinsinglecd	imbibitionnnofinicd	imbibevbpacecd	drinkvbp1cd	imbibevbpunitycd	drinkingnnofinacecd	drinknnofinunitycd	drinknnofinonecd	imbibevbponecd	drinkingnnofinicd	drinkvbpsinglecd	imbibevbpsinglecd	drinkingnnofinonecd	imbibevbp1cd	imbibingnnofin1cd	drinkingnnofin1cd	imbibitionnnofinsinglecd	drinkingnnofinunitycd	imbibingnnofinsinglecd	imbibingnnofinunitycd	drinkvbpicd	imbibitionnnofin1cd	drinkvbpacecd	drinkernnofinacecd	drinkernnofinonecd	imbibingnnofinacecd	drinkernnofinunitycd	drinkingnnofinsinglecd	drinknnofin1cd	imbibitionnnofinonecd	drinkernnofinicd	imbibitionnnofinunitycd	
+
+BE: containingVBGjuiceNN
+EQ class: containvbgjuicyjj	incorporatevbgjuicenn	containingvbgjuicyjj	incorporatevbgjuicyjj	containvbgjuicenn	comprisevbgjuicenn	comprisevbgjuicyjj	
+
+BE: consumedVBNdrinkNN
+EQ class: go_throughvbndrinknn	downvbndrinknn	devourvbndrinknn	consumevbndrinknn	
+
+BE: drinkVBPforINdrinkNN
+EQ class: imbibevbpforindrinknn	
+
+BE: drinkVBPthenRB
+EQ class: imbibingnnofinthenrb	drinknnofinthenrb	imbibitionnnofinthenrb	drinkingnnofinthenrb	drinkernnofinthenrb	imbibevbpthenrb	
+
+BE: drinkVBPthenRB
+EQ class: imbibingnnofinthenrb	drinknnofinthenrb	imbibitionnnofinthenrb	drinkingnnofinthenrb	drinkernnofinthenrb	imbibevbpthenrb	
+
+BE: bodyNN
+EQ class: physical_structurenn	bodilyjj	organic_structurenn	
+
+BE: wayNN
+EQ class: stylenn	fashionnn	modenn	mannernn	
+
+BE: treatVB
+EQ class: handlevb	do_byvb	
+
+BE: treatVB
+EQ class: handlevb	do_byvb	
+
+BE: sameJJ
+EQ class: 
+
+BE: sameJJwayNN
+EQ class: samejjmodenn	samejjfashionnn	samejjmannernn	samejjstylenn	
+
+BE: yourPRP$bodyNN
+EQ class: physical_structurennofinyourprp$	yourprp$bodilyvb	yourprp$bodilyjj	yourprp$organic_structurenn	bodilyvbyourprp$	bodynnofinyourprp$	bodilyjjofinyourprp$	organic_structurennofinyourprp$	yourprp$physical_structurenn	
+
+BE: itPRPtreatVB
+EQ class: itprphandlevb	itprpdo_byvb	
+
+BE: treatVBbodyNN
+EQ class: treatvbbodilyjj	treatvbphysical_structurenn	handlevbbodilyjj	handlevbphysical_structurenn	do_byvborganic_structurenn	do_byvbbodynn	do_byvbphysical_structurenn	treatvborganic_structurenn	do_byvbbodilyjj	handlevborganic_structurenn	handlevbbodynn	
+
+BE: treatVByouPRP
+EQ class: do_byvbyouprp	handlevbyouprp	
+
+BE: treatVBwayNN
+EQ class: do_byvbmannernn	treatvbstylenn	treatvbmannernn	treatvbmodenn	do_byvbstylenn	do_byvbmodenn	treatvbfashionnn	handlevbmodenn	handlevbmannernn	handlevbwaynn	handlevbstylenn	handlevbfashionnn	do_byvbwaynn	do_byvbfashionnn	
+
+BE: treatVBwellRB
+EQ class: do_byvbwellrb	handlevbwellrb	
+
+BE: bodyNN
+EQ class: physical_structurenn	bodilyjj	organic_structurenn	
+
+BE: abuseNN
+EQ class: ill-usagenn	maltreatmentnn	ill-treatmentnn	
+
+BE: abuseVB
+EQ class: ill-usevb	stepvb	ill-treatvb	maltreatvb	mistreatvb	
+
+BE: expectVB
+EQ class: anticipatevb	
+
+BE: yourPRP$bodyNN
+EQ class: physical_structurennofinyourprp$	yourprp$bodilyvb	yourprp$bodilyjj	yourprp$organic_structurenn	bodilyvbyourprp$	bodynnofinyourprp$	bodilyjjofinyourprp$	organic_structurennofinyourprp$	yourprp$physical_structurenn	
+
+BE: abuseVBbodyNN
+EQ class: abusevborganic_structurenn	stepvbbodynn	ill-usagennofinbodynn	abusennofinorganic_structurenn	ill-treatvbbodynn	abusernnofinphysical_structurenn	ill-usagennofinphysical_structurenn	ill-treatmentnnofinbodynn	abusivennofinphysical_structurenn	abusernnofinorganic_structurenn	abusivennofinbodilyjj	maltreatvbphysical_structurenn	ill-usevborganic_structurenn	ill-treatmentnnofinbodilyjj	maltreatmentnnofinbodilyjj	abusennofinbodynn	ill-treatvbphysical_structurenn	mistreatvbphysical_structurenn	ill-usevbbodynn	maltreatvbbodynn	stepvborganic_structurenn	maltreatmentnnofinphysical_structurenn	maltreatmentnnofinbodynn	ill-usevbphysical_structurenn	maltreatvbbodilyjj	ill-treatmentnnofinphysical_structurenn	abusernnofinbodynn	abusevbphysical_structurenn	ill-treatvbbodilyjj	abusernnofinbodilyjj	maltreaternnofinbodilyjj	abusivennofinbodynn	stepvbbodilyjj	abusevbbodilyjj	mistreatvborganic_structurenn	maltreaternnofinphysical_structurenn	abusivennofinorganic_structurenn	mistreatvbbodynn	stepvbphysical_structurenn	maltreaternnofinbodynn	maltreatvborganic_structurenn	maltreatmentnnofinorganic_structurenn	abusennofinphysical_structurenn	ill-treatmentnnofinorganic_structurenn	ill-usagennofinbodilyjj	mistreatvbbodilyjj	ill-treatvborganic_structurenn	abusennofinbodilyjj	ill-usevbbodilyjj	ill-usagennofinorganic_structurenn	maltreaternnofinorganic_structurenn	
+
+BE: expectVBabuseNN
+EQ class: expectvbmaltreatmentnn	anticipatevbill-treatmentnn	prospectnnofinmaltreatmentnn	anticipatevbabusenn	outlooknnofinmaltreatmentnn	prospectnnofinill-treatmentnn	anticipatevbill-usagenn	expectantnnofinmaltreatmentnn	expectationnnofinabusenn	expectationnnofinill-treatmentnn	expectationnnofinmaltreatmentnn	outlooknnofinabusenn	expectvbill-usagenn	expectantnnofinill-treatmentnn	expectantnnofinabusenn	expectationnnofinill-usagenn	anticipatevbmaltreatmentnn	prospectnnofinabusenn	expectantnnofinill-usagenn	outlooknnofinill-treatmentnn	prospectnnofinill-usagenn	expectvbill-treatmentnn	outlooknnofinill-usagenn	
+
+BE: abuseNNfromINitLocationAnnotation
+EQ class: itlocationannotationstepvb	itlocationannotationabusenn	itlocationannotationill-usagenn	itlocationannotationabusevb	maltreatvbitlocationannotation	ill-treatvbitlocationannotation	ill-usagennfrominitlocationannotation	itlocationannotationmaltreatvb	itlocationannotationill-treatmentnn	itlocationannotationmistreatvb	itlocationannotationill-usevb	ill-treatmentnnfrominitlocationannotation	mistreatvbitlocationannotation	maltreatmentnnfrominitlocationannotation	itlocationannotationmaltreatmentnn	itlocationannotationill-treatvb	abusevbitlocationannotation	ill-usevbitlocationannotation	stepvbitlocationannotation	
+
+BE: simpleJJ
+EQ class: simplenessnn	simplicitynn	
+
+BE: itPRPbeAUX
+EQ class: 
+
+BE: beAUXsimpleJJ
+EQ class: beauxsimplicitynn	beauxsimplenessnn	
+
+BE: GodNNP
+EQ class: supreme_beingnnp	godlyjj	
+
+BE: willNN
+EQ class: volitionnn	
+
+BE: bodyNN
+EQ class: physical_structurenn	bodilyjj	organic_structurenn	
+
+BE: choicesNNS
+EQ class: selectionnns	choicenns	theynns	themnns	picknns	
+
+BE: giftsNNS
+EQ class: theynns	giftnns	themnns	
+
+BE: GooNNP
+EQ class: gunknnp	mucknnp	oozennp	gooeyjj	gooknnp	slimennp	sludgennp	gucknnp	goopnnp	
+
+BE: createdVBD
+EQ class: createvbd	makevbd	
+
+BE: makeVBP
+EQ class: dovbp	
+
+BE: useVB
+EQ class: employvb	utilizevb	utilisevb	applyvb	
+
+BE: ..VBP
+EQ class: vbp	
+
+BE: freeJJ
+EQ class: 
+
+BE: perfectJJ
+EQ class: 
+
+BE: freeJJwillNN
+EQ class: freejjvolitionnn	willvbfreelyrb	
+
+BE: perfectJJbodyNN
+EQ class: perfectjjorganic_structurenn	bodilyvbperfectlyrb	perfectjjbodilyjj	perfectjjphysical_structurenn	
+
+BE: GodNNPcreatedVBD
+EQ class: supreme_beingnnpcreatevbd	faunannsupreme_beingnnp	animaliannofinsupreme_beingnnp	kingdom_animalianngodnnp	supreme_beingnnpmakevbd	animate_beingnngodlyjj	supreme_beingnnpcreatedvbd	creaturenngodnnp	beastnngodnnp	animalnnofingodlyjj	animalnnsupreme_beingnnp	godlyjjcreatevbd	creaturennofingodnnp	creaturenngodlyjj	creaturennofinsupreme_beingnnp	animate_beingnnofinsupreme_beingnnp	godlyjjcreatedvbd	beastnnofingodnnp	animaliannofingodlyjj	animalnngodnnp	animalnngodlyjj	beastnngodlyjj	animalnnofingodnnp	faunannofingodlyjj	faunannofinsupreme_beingnnp	kingdom_animalianngodlyjj	godlyjjmakevbd	godnnpmakevbd	brutenngodlyjj	brutennofingodlyjj	animaliannsupreme_beingnnp	kingdom_animaliannsupreme_beingnnp	godnnpcreatevbd	kingdom_animaliannofinsupreme_beingnnp	kingdom_animaliannofingodlyjj	faunanngodnnp	brutennofingodnnp	faunannofingodnnp	creaturennofingodlyjj	animate_beingnnofingodlyjj	brutennofinsupreme_beingnnp	animaliannofingodnnp	faunanngodlyjj	animate_beingnnofingodnnp	kingdom_animaliannofingodnnp	animalianngodnnp	creaturennsupreme_beingnnp	animalnnofinsupreme_beingnnp	beastnnofinsupreme_beingnnp	animate_beingnngodnnp	brutennsupreme_beingnnp	beastnnofingodlyjj	animalianngodlyjj	animate_beingnnsupreme_beingnnp	beastnnsupreme_beingnnp	brutenngodnnp	
+
+BE: itPRPisAUX
+EQ class: itprpbeaux	
+
+BE: wePRP..VBP
+EQ class: weprpvbp	
+
+BE: wePRPuseVB
+EQ class: usablennofinweprp	utilisationnnweprp	useablennofinweprp	usernnweprp	employmentnnofinweprp	usernnofinweprp	weprpapplyvb	usagennofinweprp	weprpemployvb	weprputilisevb	usennofinweprp	utilisationnnofinweprp	utilizationnnweprp	exercisennofinweprp	weprputilizevb	employmentnnweprp	usagennweprp	utilizationnnofinweprp	usennweprp	exercisennweprp	
+
+BE: wePRPmakeVBP
+EQ class: weprpdovbp	
+
+BE: createdVBDusPRP
+EQ class: creaturennofinusprp	beastnnofinusprp	animaliannofinusprp	brutennofinusprp	animalnnofinusprp	faunannofinusprp	createvbdusprp	animate_beingnnofinusprp	kingdom_animaliannofinusprp	makevbdusprp	
+
+BE: makeVBPchoicesNNS
+EQ class: dovbptheynns	makevbpchoicenns	dovbpthemnns	makevbpselectionnns	makevbppicknns	dovbpselectionnns	dovbpchoicenns	makevbpthemnns	dovbpchoicesnns	makevbptheynns	dovbppicknns	
+
+BE: useVBgiftsNNS
+EQ class: usernnofingiftsnns	applyvbthemnns	utilisevbgiftsnns	usagennofingiftnns	exercisennofingiftsnns	employmentnnofinthemnns	utilisevbthemnns	usevbtheynns	usablennofintheynns	usennofingiftsnns	exercisennofinthemnns	usennofinthemnns	utilizevbthemnns	employvbthemnns	useablennofingiftnns	utilisationnnofingiftnns	usablennofinthemnns	utilisationnnofinthemnns	usevbgiftnns	utilizationnnofingiftnns	utilisationnnofintheynns	usernnofinthemnns	utilizationnnofintheynns	applyvbgiftsnns	utilizationnnofinthemnns	usernnofingiftnns	employvbgiftnns	employmentnnofintheynns	utilisationnnofingiftsnns	utilizationnnofingiftsnns	useablennofintheynns	utilizevbgiftnns	employmentnnofingiftnns	employvbgiftsnns	applyvbtheynns	usagennofintheynns	useablennofingiftsnns	usagennofingiftsnns	applyvbgiftnns	exercisennofintheynns	useablennofinthemnns	employmentnnofingiftsnns	usernnofintheynns	usablennofingiftnns	utilisevbgiftnns	usagennofinthemnns	usevbthemnns	utilizevbgiftsnns	utilisevbtheynns	usennofintheynns	usablennofingiftsnns	utilizevbtheynns	usennofingiftnns	exercisennofingiftnns	employvbtheynns	
+
+BE: ..VBPGooNNP
+EQ class: ..vbpgooknnp	vbpmucknnp	vbpgooeyjj	vbpsludgennp	vbpgoopnnp	..vbpsludgennp	..vbpoozennp	..vbpslimennp	vbpslimennp	vbpgooknnp	..vbpmucknnp	vbpgoonnp	vbpoozennp	vbpgucknnp	..vbpgunknnp	vbpgunknnp	..vbpgucknnp	..vbpgooeyjj	..vbpgoopnnp	
+
+BE: createdVBDwithINwillNN
+EQ class: createvbdwithinwillnn	createdvbdwithinvolitionnn	makevbdwithinwillnn	makevbdwithinvolitionnn	createvbdwithinvolitionnn	
+
+BE: createdVBDwithINbodyNN
+EQ class: createdvbdwithinbodilyjj	createvbdwithinphysical_structurenn	createdvbdwithinphysical_structurenn	createdvbdwithinorganic_structurenn	makevbdwithinbodynn	createvbdwithinbodilyjj	createvbdwithinbodynn	makevbdwithinorganic_structurenn	makevbdwithinphysical_structurenn	makevbdwithinbodilyjj	createvbdwithinorganic_structurenn	
+
+BE: luckNN
+EQ class: lotnn	fortunenn	portionnn	fatenn	destinynn	circumstancesnn	
+
+BE: eatingNN
+EQ class: feedingnn	
+
+BE: GoodJJ
+EQ class: goodnessnn	
+
+BE: goodJJ
+EQ class: goodnessnn	
+
+BE: GoodJJluckNN
+EQ class: goodjjfatenn	goodnessnnfatenn	goodnessnnlotnn	goodnessnnfortunenn	goodjjportionnn	goodjjcircumstancesnn	goodnessnnlucknn	goodjjdestinynn	goodjjfortunenn	goodjjlotnn	goodnessnncircumstancesnn	goodnessnndestinynn	goodnessnnportionnn	
+
+BE: goodJJeatingNN
+EQ class: goodnessnnfeedingnn	goodnessnneatingnn	goodjjfeedingnn	
+

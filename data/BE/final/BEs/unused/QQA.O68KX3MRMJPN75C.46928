@@ -1,0 +1,44 @@
+#it squeezes to pump blood out, then relaxes to let more blood in, then squeezes it out again
+#(S1 (S (NP (PRP it)) (VP (VP (VBZ squeezes) (S (VP (TO to) (VP (VB pump) (NP (NN blood)) (PRT (RP out)))))) (, ,) (RB then) (VP (VP (VBZ relaxes) (S (VP (TO to) (VP (VB let) (NP (JJR more) (NN blood)) (PRT (RP in)))))) (, ,) (RB then) (VP (VBZ squeezes) (NP (PRP it)) (PRT (RP out)) (ADVP (RB again)))))))
+#Rule:Nouns
+r1bloodNN
+r1bloodNN
+
+#Rule:Verbs
+r2squeezesVBZ
+r2pumpVB
+r2relaxesVBZ
+r2letVB
+r2squeezesVBZ
+
+#Rule:V-PRT
+r3pumpVBoutRP
+r3letVBinRP
+r3squeezesVBZoutRP
+
+#Rule:Adjs
+r4moreJJR
+
+#Rule:Adj-Noun
+r5moreJJRbloodNN
+
+#Rule:HeadNoun-V
+r11itPRPsqueezesVBZ
+r11itPRPrelaxesVBZ
+r11itPRPsqueezesVBZ
+
+#Rule:V-HeadNoun
+r21pumpVBbloodNN
+r21letVBbloodNN
+r21squeezesVBZitPRP
+
+#Rule:V-V
+r44squeezesVBZpumpVB
+r44relaxesVBZletVB
+
+#Rule:V-ADV
+r46squeezesVBZagainRB
+
+@lemmas-left	squeezes	it	more	squeeze	let	relax	relaxes	pump	blood	
+@lemmas-right	squeezes	it	squeeze	let	relax	relaxes	again	pump	blood	in	out	
+@lemmas-center	

@@ -1,0 +1,14 @@
+#How can people become ambidextrous?
+#(S1 (SBARQ (WHADVP (WRB How)) (SQ (MD can) (NP (NNS people)) (VP (VB become) (ADJP (JJ ambidextrous)))) (. ?)))
+#Rule:Nouns
+r1peopleNNS
+
+#Rule:Verbs
+r2becomeVB
+
+#Rule:Adjs
+r4ambidextrousJJ
+
+@lemmas-left	become	ambidextrous	people	
+@lemmas-right	
+@lemmas-center	

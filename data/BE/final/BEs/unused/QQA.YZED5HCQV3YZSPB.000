@@ -1,0 +1,37 @@
+#How Does a mood ring work??
+#(S1 (SBARQ (WHADVP (WRB How)) (SQ (AUX Does) (NP (DT a) (NN mood)) (VP (VB ring) (S (VP (VB work)))) (. ?)) (. ?)))
+#Rule:Nouns
+r1moodNN
+
+#Rule:Verbs
+r2ringVB
+r2workVB
+
+#I bought a mood ring an i dont know how it works.
+#(S1 (S (NP (PRP I)) (VP (VBD bought) (NP (NP (DT a) (NN mood) (NN ring)) (SBAR (S (NP (DT an) (FW i) (FW dont)) (VP (VBP know) (SBAR (WHADVP (WRB how)) (S (NP (PRP it)) (VP (VBZ works))))))))) (. .)))
+#Rule:Nouns
+r1moodNN
+r1ringNN
+
+#Rule:Verbs
+r2boughtVBD
+r2knowVBP
+r2worksVBZ
+
+#Rule:N-HeadNoun
+r8moodNNringNN
+
+#Rule:HeadNoun-V
+r11iPRPboughtVBD
+r11dontFWknowVBP
+r11itPRPworksVBZ
+
+#Rule:NP(NP(z) SBAR(S(NP(x)VP(y))))
+r19knowVBPringNN
+
+#Rule:V-HeadNoun
+r21boughtVBDringNN
+
+@lemmas-left	work	ring	it	dont	buy	mood	know	bought	i	works	
+@lemmas-right	work	ring	buy	know	bought	works	
+@lemmas-center	

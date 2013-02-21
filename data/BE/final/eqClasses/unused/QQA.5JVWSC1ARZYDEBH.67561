@@ -1,0 +1,21 @@
+BE: bookNN
+EQ class: 
+
+BE: publisherNN
+EQ class: publishing_firmnn	publishing_companynn	publishing_housenn	
+
+BE: writeVB
+EQ class: composevb	penvb	inditevb	
+
+BE: goVB
+EQ class: locomotevb	movevb	travelvb	
+
+BE: writeVBbookNN
+EQ class: authorshipnnofinbooknn	authornnofinbooknn	writernnofinbooknn	composevbbooknn	penningnnofinbooknn	writingnnofinbooknn	compositionnnofinbooknn	inditevbbooknn	penvbbooknn	
+
+BE: goVBtoTOpublisherNN
+EQ class: locomotevbtotopublishing_companynn	travelvbtotopublishing_firmnn	travelvbtotopublishernn	movevbtotopublishernn	movevbtotopublishing_firmnn	locomotevbtotopublishernn	govbtotopublishing_housenn	movevbtotopublishing_housenn	govbtotopublishing_firmnn	travelvbtotopublishing_companynn	movevbtotopublishing_companynn	locomotevbtotopublishing_firmnn	travelvbtotopublishing_housenn	locomotevbtotopublishing_housenn	govbtotopublishing_companynn	
+
+BE: littleJJ
+EQ class: littlenessnn	smalljj	
+

@@ -1,0 +1,78 @@
+#did you recently have a baby?  
+#(S1 (SQ (AUX did) (NP (PRP you)) (ADVP (RB recently)) (VP (AUX have) (NP (DT a) (NN baby))) (. ?)))
+#Rule:Nouns
+r1babyNN
+
+#Rule:V-HeadNoun
+r21haveAUXbabyNN
+
+#If so, it s normal.  
+#(S1 (S (SBAR (IN If) (FRAG (ADVP (RB so)))) (, ,) (NP (PRP it)) (VP (VBZ s) (ADJP (RB normal))) (. .)))
+#Rule:Verbs
+r2sVBZ
+
+#Rule:HeadNoun-V
+r11itPRPsVBZ
+
+#You re hormaones during pregnancy causes your hair to grow at a fast rate then a couple months after the baby is born the hormones are gone and your hair falls out to catch up.
+#(S1 (S (NP (PRP You) (NNP re)) (VP (VBZ hormaones) (PP (IN during) (NP (NN pregnancy) (VBZ causes))) (NP (PRP$ your) (NN hair) (S (VP (TO to) (VP (VB grow) (PP (IN at) (NP (NP (DT a) (JJ fast) (NN rate)) (ADVP (RB then)))) (SBAR (NP (DT a) (JJ couple) (NNS months)) (IN after) (S (NP (DT the) (NN baby)) (VP (AUX is) (VP (VBN born) (SBAR (S (S (NP (DT the) (NNS hormones)) (VP (AUX are) (ADJP (VBN gone)))) (CC and) (S (NP (PRP$ your) (NN hair)) (VP (VBZ falls) (PRT (RP out)) (S (VP (TO to) (VP (VB catch) (PRT (RP up)))))))))))))))))) (. .)))
+#Rule:Nouns
+r1reNNP
+r1pregnancyNN
+r1hairNN
+r1rateNN
+r1monthsNNS
+r1babyNN
+r1hormonesNNS
+r1hairNN
+
+#Rule:Verbs
+r2hormaonesVBZ
+r2causesVBZ
+r2growVB
+r2bornVBN
+r2goneVBN
+
+#Rule:V-PRT
+r3fallsVBZoutRP
+r3catchVBupRP
+
+#Rule:Adjs
+r4fastJJ
+r4coupleJJ
+
+#Rule:Adj-Noun
+r5fastJJrateNN
+r5coupleJJmonthsNNS
+
+#Rule:PRP-Noun
+r6yourPRP$hairNN
+r6yourPRP$hairNN
+
+#Rule:HeadNoun-V
+r11reNNPhormaonesVBZ
+r11hormonesNNSareAUX
+r11hairNNfallsVBZ
+
+#Rule:V-HeadNoun
+r21hormaonesVBZhairNN
+
+#Rule:V-HeadNoun(passive)
+r23bornVBNbabyNN
+
+#Rule:V-ADJ
+r25areAUXgoneVBN
+
+#Rule:PPinVP
+r30hormaonesVBZduringINpregnancyNN
+r30growVBatINrateNN
+
+#Rule:V-IN-V
+r43growVBafterINbornVBN
+
+#Rule:V-V
+r44fallsVBZcatchVB
+
+@lemmas-left	born	cause	have	catch	re	are	rate	couple	baby	hair	be	bear	hormaones	it	your	gone	hormones	months	s	pregnancy	grow	fall	falls	month	fast	causes	hormone	go	
+@lemmas-right	bear	born	hormaones	catch	gone	up	months	rate	are	s	pregnancy	fall	falls	month	baby	hair	go	out	be	
+@lemmas-center	after	during	at	

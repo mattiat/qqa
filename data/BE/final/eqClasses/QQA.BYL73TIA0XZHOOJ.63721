@@ -1,0 +1,138 @@
+BE: OCDNN
+EQ class: dnn	calciferolnn	o.c.d.nn	vitamin_dnn	cholecalciferolnn	viosterolnn	ergocalciferolnn	
+
+BE: doctorNN
+EQ class: physiciannn	dr.nn	doctorialjj	docnn	mediconn	mdnn	
+
+BE: soundVB
+EQ class: 
+
+BE: findVB
+EQ class: chancevb	happenvb	encountervb	bumpvb	
+
+BE: littleJJ
+EQ class: littlenessnn	smalljj	
+
+BE: littleJJOCDNN
+EQ class: littlejjcalciferolnn	littlenessnnocdnn	smalljjcholecalciferolnn	littlenessnncholecalciferolnn	smalljjo.c.d.nn	smalljjviosterolnn	littlenessnncalciferolnn	littlejjdnn	smalljjdnn	littlejjo.c.d.nn	smalljjergocalciferolnn	littlenessnnvitamin_dnn	littlejjviosterolnn	littlejjvitamin_dnn	smalljjcalciferolnn	littlenessnno.c.d.nn	smalljjocdnn	littlejjcholecalciferolnn	littlenessnndnn	littlenessnnviosterolnn	littlejjergocalciferolnn	littlenessnnergocalciferolnn	smalljjvitamin_dnn	
+
+BE: youPRPsoundVB
+EQ class: 
+
+BE: youPRPfindVB
+EQ class: findnnofinyouprp	youprphappenvb	youprpbumpvb	youprpencountervb	discoverynnofinyouprp	youprpchancevb	breakthroughnnofinyouprp	findernnyouprp	findernnofinyouprp	
+
+BE: soundVBOCDNN
+EQ class: soundvbo.c.d.nn	soundvbvitamin_dnn	soundvbcholecalciferolnn	soundvbdnn	soundvbergocalciferolnn	soundvbcalciferolnn	soundvbviosterolnn	
+
+BE: findVBdoctorNN
+EQ class: findnnofindocnn	breakthroughnnofinphysiciannn	findvbdocnn	breakthroughnnofindoctornn	findnnofindr.nn	bumpvbmediconn	breakthroughnnofindocnn	chancevbdoctornn	discoverynnofinphysiciannn	findernnofindoctornn	encountervbdocnn	encountervbmdnn	bumpvbdr.nn	findernnofindocnn	discoverynnofinmediconn	happenvbdoctorialjj	chancevbmdnn	bumpvbdocnn	findernnofindr.nn	findnnofindoctorialjj	happenvbdoctornn	discoverynnofindocnn	breakthroughnnofindr.nn	happenvbmdnn	chancevbphysiciannn	findernnofinmdnn	discoverynnofindoctornn	breakthroughnnofinmediconn	chancevbmediconn	findnnofindoctornn	encountervbdoctorialjj	bumpvbphysiciannn	happenvbmediconn	happenvbdr.nn	bumpvbdoctornn	happenvbphysiciannn	happenvbdocnn	findvbdoctorialjj	encountervbphysiciannn	findnnofinmediconn	bumpvbmdnn	discoverynnofinmdnn	findvbphysiciannn	findernnofinmediconn	chancevbdr.nn	encountervbmediconn	findnnofinmdnn	chancevbdocnn	chancevbdoctorialjj	findernnofinphysiciannn	discoverynnofindoctorialjj	findvbmediconn	breakthroughnnofindoctorialjj	findvbdr.nn	findnnofinphysiciannn	discoverynnofindr.nn	breakthroughnnofinmdnn	encountervbdoctornn	findvbmdnn	encountervbdr.nn	findernnofindoctorialjj	bumpvbdoctorialjj	
+
+BE: oneNN
+EQ class: inn	acenn	unitynn	singlenn	1nn	
+
+BE: momNN
+EQ class: mammynn	mummynn	mommann	mammann	mommynn	mamann	mumnn	mann	
+
+BE: medicationsNNS
+EQ class: medicationnns	medicamentnns	medicinenns	theynns	themnns	medicinal_drugnns	
+
+BE: ProzacPersonAnnotation
+EQ class: 
+
+BE: goingVBG
+EQ class: movevbg	govbg	travelvbg	locomotevbg	
+
+BE: helpVB
+EQ class: aidvb	assistvb	
+
+BE: otherJJ
+EQ class: 
+
+BE: otherJJmedicationsNNS
+EQ class: otherjjmedicationnns	otherjjmedicamentnns	otherjjmedicinenns	otherjjtheynns	otherjjthemnns	otherjjmedicinal_drugnns	
+
+BE: yourPRP$momNN
+EQ class: yourprp$mumnn	yourprp$mommann	mumnnofinyourprp$	mannofinyourprp$	momnnofinyourprp$	yourprp$mann	mommannofinyourprp$	yourprp$mummynn	mommynnofinyourprp$	yourprp$mamann	yourprp$mammynn	mammynnofinyourprp$	mamannofinyourprp$	yourprp$mommynn	yourprp$mammann	mammannofinyourprp$	mummynnofinyourprp$	
+
+BE: youPRPareAUX
+EQ class: youprpbeaux	
+
+BE: thereEXareAUX
+EQ class: thereexbeaux	
+
+BE: oneNNgoingVBG
+EQ class: singlenngoingvbg	unitynnmovevbg	acennmovevbg	unitynntravelvbg	acennlocomotevbg	singlenntravelvbg	1nnmovevbg	inntravelvbg	acenngoingvbg	unitynngovbg	inngoingvbg	acenntravelvbg	inngovbg	1nntravelvbg	innlocomotevbg	1nngovbg	onenngovbg	unitynnlocomotevbg	onennlocomotevbg	1nngoingvbg	innmovevbg	onenntravelvbg	singlennmovevbg	singlennlocomotevbg	1nnlocomotevbg	singlenngovbg	unitynngoingvbg	onennmovevbg	acenngovbg	
+
+BE: medicationsNNShelpVB
+EQ class: assistnnofinmedicamentnns	helpernnofinmedicinenns	supporternnmedicationnns	helpernnmedicinenns	assistancennofinmedicinal_drugnns	medicamentnnsassistvb	assistantnnofinmedicationnns	medicationnnsaidvb	assistantnnmedicamentnns	helpernnofintheynns	helpnnthemnns	aidnnofinmedicinal_drugnns	assistantnnofinmedicamentnns	medicamentnnshelpvb	supporternnthemnns	assistantnntheynns	supporternnofintheynns	helpnnmedicamentnns	helpernnofinmedicationnns	supporternnofinmedicinenns	aidnnofinmedicationnns	medicinal_drugnnshelpvb	medicinennsassistvb	helpernnmedicationsnns	supporternnofinmedicationnns	medicamentnnsaidvb	assistancennofinthemnns	assistantnnofinmedicinal_drugnns	assistantnnmedicinal_drugnns	assistantnnofinmedicinenns	aidnnofinmedicamentnns	helpernnmedicinal_drugnns	themnnshelpvb	assistantnnthemnns	medicinennshelpvb	aidnnofintheynns	assistancennofinmedicationnns	assistantnnmedicationnns	themnnsaidvb	helpnnofinmedicinal_drugnns	helpnnmedicinenns	helpnnmedicationnns	assistnnofinmedicinenns	supporternnofinmedicinal_drugnns	helpernnofinmedicinal_drugnns	medicationnnsassistvb	helpnnofinmedicamentnns	aidnnofinthemnns	assistantnnofinthemnns	assistnnofinmedicationsnns	helpernntheynns	assistancennofinmedicationsnns	helpernnofinmedicationsnns	theynnshelpvb	medicinennsaidvb	medicationnnshelpvb	helpernnofinmedicamentnns	aidnnofinmedicationsnns	helpnnofinmedicationnns	assistnnofinmedicationnns	helpernnmedicamentnns	helpernnmedicationnns	assistantnnofinmedicationsnns	helpernnofinthemnns	helpnnofinmedicinenns	themnnsassistvb	assistantnnmedicationsnns	assistantnnofintheynns	helpnnofintheynns	supporternnmedicinenns	helpnnmedicationsnns	assistancennofintheynns	supporternnofinthemnns	supporternntheynns	supporternnmedicationsnns	assistnnofinmedicinal_drugnns	medicationsnnsaidvb	theynnsaidvb	assistnnofinthemnns	aidnnofinmedicinenns	supporternnmedicamentnns	supporternnmedicinal_drugnns	assistancennofinmedicinenns	assistnnofintheynns	theynnsassistvb	assistancennofinmedicamentnns	supporternnofinmedicamentnns	helpernnthemnns	assistantnnmedicinenns	supporternnofinmedicationsnns	helpnnofinthemnns	medicationsnnsassistvb	helpnnmedicinal_drugnns	helpnnofinmedicationsnns	medicinal_drugnnsassistvb	medicinal_drugnnsaidvb	helpnntheynns	
+
+BE: areAUXoneNN
+EQ class: beauxinn	areauxinn	beauxacenn	beauxunitynn	beaux1nn	areaux1nn	beauxonenn	areauxsinglenn	areauxacenn	areauxunitynn	beauxsinglenn	
+
+BE: areAUXmedicationsNNS
+EQ class: areauxmedicinal_drugnns	areauxmedicationnns	beauxmedicationnns	beauxthemnns	areauxthemnns	beauxmedicamentnns	areauxmedicinenns	beauxmedicinenns	beauxtheynns	areauxtheynns	beauxmedicationsnns	beauxmedicinal_drugnns	areauxmedicamentnns	
+
+BE: helpVByouPRP
+EQ class: supporternnofinyouprp	helpnnofinyouprp	aidvbyouprp	assistantnnofinyouprp	aidnnofinyouprp	helpernnofinyouprp	assistvbyouprp	assistancennofinyouprp	assistnnofinyouprp	
+
+BE: medicationsNNSbesidesINProzacPersonAnnotation
+EQ class: medicatevbprozacpersonannotation	medicinal_drugnnsbesidesinprozacpersonannotation	medicinennsbesidesinprozacpersonannotation	prozacpersonannotationmedicinenns	prozacpersonannotationmedicationnns	prozacpersonannotationtheynns	prozacpersonannotationmedicinal_drugnns	prozacpersonannotationmedicamentnns	themnnsbesidesinprozacpersonannotation	prozacpersonannotationthemnns	medicationnnsbesidesinprozacpersonannotation	medicamentnnsbesidesinprozacpersonannotation	prozacpersonannotationmedicationsnns	prozacpersonannotationmedicatevb	theynnsbesidesinprozacpersonannotation	
+
+BE: goingVBGthroughINmomNN
+EQ class: locomotevbgthroughinmammynn	locomotevbgthroughinmommynn	travelvbgthroughinmamann	movevbgthroughinmann	locomotevbgthroughinmomnn	govbgthroughinmomnn	locomotevbgthroughinmumnn	goingvbgthroughinmumnn	movevbgthroughinmommann	goingvbgthroughinmammynn	travelvbgthroughinmammann	travelvbgthroughinmommynn	movevbgthroughinmamann	travelvbgthroughinmummynn	locomotevbgthroughinmammann	locomotevbgthroughinmummynn	locomotevbgthroughinmommann	movevbgthroughinmummynn	govbgthroughinmann	goingvbgthroughinmommann	govbgthroughinmommynn	movevbgthroughinmommynn	govbgthroughinmammynn	movevbgthroughinmomnn	govbgthroughinmammann	goingvbgthroughinmommynn	govbgthroughinmamann	travelvbgthroughinmomnn	movevbgthroughinmumnn	locomotevbgthroughinmann	govbgthroughinmommann	travelvbgthroughinmumnn	travelvbgthroughinmammynn	goingvbgthroughinmann	travelvbgthroughinmann	goingvbgthroughinmummynn	govbgthroughinmummynn	govbgthroughinmumnn	goingvbgthroughinmamann	locomotevbgthroughinmamann	goingvbgthroughinmammann	movevbgthroughinmammann	movevbgthroughinmammynn	travelvbgthroughinmommann	
+
+BE: thisisNN
+EQ class: 
+
+BE: lifeNN
+EQ class: 
+
+BE: doctorNN
+EQ class: physiciannn	dr.nn	doctorialjj	docnn	mediconn	mdnn	
+
+BE: affectingVBG
+EQ class: touchvbg	impactvbg	affectvbg	bear_onvbg	bear_uponvbg	touch_onvbg	
+
+BE: seeVB
+EQ class: 
+
+BE: everydayJJ
+EQ class: unremarkablejj	routinejj	mundanejj	workadayjj	quotidianjj	everydaynessnn	
+
+BE: everydayJJlifeNN
+EQ class: routinejjlifenn	everydaynessnnlifenn	mundanejjlifenn	unremarkablejjlifenn	quotidianjjlifenn	workadayjjlifenn	
+
+BE: yourPRP$lifeNN
+EQ class: lifennofinyourprp$	
+
+BE: iPRPseeVB
+EQ class: seeingnnofiniprp	visionarynniprp	visual_perceptionnniprp	beholdingnnofiniprp	illusionistnniprp	illusionistnnofiniprp	visionarynnofiniprp	beholdingnniprp	seernnofiniprp	seernniprp	seeingnniprp	visual_perceptionnnofiniprp	
+
+BE: thisisNNaffectingVBG
+EQ class: thisisnnbear_uponvbg	thisisnntouch_onvbg	thisisnnbear_onvbg	thisisnnaffectvbg	thisisnntouchvbg	thisisnnimpactvbg	
+
+BE: affectingVBGlifeNN
+EQ class: affectvbglifenn	impactvbglifenn	bear_uponvbglifenn	touch_onvbglifenn	touchvbglifenn	bear_onvbglifenn	
+
+BE: seeVBdoctorNN
+EQ class: visionarynnofindoctorialjj	seernnofindocnn	seevbdocnn	illusionistnnofindoctornn	seevbphysiciannn	seeingnnofinmediconn	beholdingnnofindr.nn	seeingnnofindoctorialjj	beholdingnnofinmediconn	seernnofindoctornn	visionarynnofindoctornn	visionarynnofindr.nn	illusionistnnofinphysiciannn	seernnofindoctorialjj	visual_perceptionnnofindocnn	seeingnnofinphysiciannn	illusionistnnofindocnn	seeingnnofindoctornn	seernnofindr.nn	beholdingnnofindoctorialjj	visionarynnofinmediconn	illusionistnnofindr.nn	seevbmdnn	beholdingnnofinphysiciannn	seernnofinmediconn	visual_perceptionnnofindr.nn	beholdingnnofindocnn	visual_perceptionnnofindoctorialjj	seevbdoctorialjj	visual_perceptionnnofindoctornn	visionarynnofinmdnn	seernnofinphysiciannn	seevbdr.nn	seeingnnofindr.nn	illusionistnnofindoctorialjj	illusionistnnofinmdnn	seeingnnofindocnn	visionarynnofinphysiciannn	visual_perceptionnnofinmediconn	visual_perceptionnnofinphysiciannn	seeingnnofinmdnn	visual_perceptionnnofinmdnn	illusionistnnofinmediconn	seernnofinmdnn	beholdingnnofindoctornn	seevbmediconn	beholdingnnofinmdnn	visionarynnofindocnn	
+
+BE: wouldMDsinceINthisisNN
+EQ class: 
+
+BE: seeVBdefinitelyRB
+EQ class: visual_perceptionnnofindefinitelyrb	illusionistnnofindefinitelyrb	visionarynnofindefinitelyrb	beholdingnnofindefinitelyrb	seernnofindefinitelyrb	seeingnnofindefinitelyrb	
+
+BE: Luck!!!!PersonAnnotation
+EQ class: 
+
+BE: BestJJS
+EQ class: bestnn	
+
+BE: BestJJSLuck!!!!PersonAnnotation
+EQ class: bestnnluck!!!!personannotation	
+
+BE: BestJJSofINLuck!!!!PersonAnnotation
+EQ class: luck!!!!personannotationbestjjs	bestnnofinluck!!!!personannotation	luck!!!!personannotationbestnn	
+

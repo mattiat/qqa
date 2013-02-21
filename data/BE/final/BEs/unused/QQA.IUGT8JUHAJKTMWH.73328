@@ -1,0 +1,53 @@
+#The headline of a major British newspaper on the day after the election said HOW CAN 50 MILLION AMERICANS BE SO IGNORANT. 
+#(S1 (S (NP (NP (DT The) (NN headline)) (PP (IN of) (NP (DT a) (JJ major) (JJ British) (NN newspaper))) (PP (IN on) (NP (DT the) (NN day))) (PP (IN after) (NP (DT the) (NN election)))) (VP (VBD said) (SBAR (WHADVP (WRB HOW)) (S (VP (MD CAN) (NP (QP (CD 50) (CD MILLION)) (NNPS AMERICANS)) (VP (AUX BE) (ADJP (RB SO) (JJ IGNORANT))))))) (. .)))
+#Rule:Nouns
+r1headlineNN
+r1newspaperNN
+r1dayNN
+r1electionNN
+r1MILLION AMERICANS BE SO IGNORANTOrganizationAnnotation
+
+#Rule:Verbs
+r2saidVBD
+
+#Rule:Adjs
+r4majorJJ
+r4BritishJJ
+
+#Rule:Adj-Noun
+r5majorJJnewspaperNN
+r5BritishJJnewspaperNN
+r550CDMILLION AMERICANS BE SO IGNORANTOrganizationAnnotation
+
+#Rule:HeadNoun-V
+r11headlineNNsaidVBD
+
+#Rule:V-HeadNoun
+r21HOW CANOrganizationAnnotationMILLION AMERICANS BE SO IGNORANTOrganizationAnnotation
+
+#Rule:PPinNP
+r26headlineNNofINnewspaperNN
+r26headlineNNonINdayNN
+r26headlineNNafterINelectionNN
+
+#I think that says it in a nutshell.
+#(S1 (S (NP (PRP I)) (VP (VBP think) (SBAR (DT that) (S (VP (VBZ says) (NP (PRP it)) (PP (IN in) (NP (DT a) (NN nutshell))))))) (. .)))
+#Rule:Nouns
+r1nutshellLocationAnnotation
+
+#Rule:Verbs
+r2thinkVBP
+r2saysVBZ
+
+#Rule:HeadNoun-V
+r11iPRPthinkVBP
+
+#Rule:V-HeadNoun
+r21saysVBZitPRP
+
+#Rule:PPinVP
+r30saysVBZinINnutshellLocationAnnotation
+
+@lemmas-left	headline	think	said	nutshell	MILLION AMERICANS BE SO IGNORANT	british	British	i	HOW CAN	election	say	says	day	major	newspaper	50	
+@lemmas-right	think	election	nutshell	it	said	MILLION AMERICANS BE SO IGNORANT	say	day	newspaper	
+@lemmas-center	after	of	on	in	

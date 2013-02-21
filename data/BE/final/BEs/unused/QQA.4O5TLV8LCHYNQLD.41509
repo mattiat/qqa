@@ -1,0 +1,82 @@
+#If you feel like that is because you re already dead!0!It is probably the other way around, He wants you to live, or maybe to discover life for the first time. It s an awsome feeling of stillness that you get when it happens for the first time..
+#(S1 (S (SBAR (IN If) (S (NP (PRP you)) (VP (VBP feel) (SBAR (IN like) (S (NP (DT that)) (VP (AUX is) (SBAR (IN because) (S (NP (NP (PRP you) (NNP re)) (ADJP (RB already) (JJ dead)) (. !) (NP (CD 0)) (. !)) (NP (PRP It)) (VP (AUX is) (ADVP (RB probably)) (NP (DT the) (JJ other) (NN way) (PRT (RP around)))))))))))) (, ,) (NP (PRP He)) (VP (VBZ wants) (S (NP (PRP you)) (VP (VP (TO to) (VP (VB live))) (, ,) (CC or) (ADVP (RB maybe)) (VP (TO to) (VP (VB discover) (NP (NN life)) (PP (IN for) (NP (NP (DT the) (JJ first) (FW time.)) (SBAR (S (NP (PRP It)) (VP (VBZ s) (NP (NP (DT an) (JJ awsome) (NN feeling)) (PP (IN of) (NP (NN stillness))) (SBAR (IN that) (S (NP (PRP you)) (VP (VB get) (SBAR (WHADVP (WRB when)) (S (NP (PRP it)) (VP (VBZ happens) (PP (IN for) (NP (DT the) (JJ first) (NN time))))))) (. .)))))))))))))) (. .)))
+#Rule:Nouns
+r1reNNP
+r1wayNN
+r1lifeNN
+r1feelingNN
+r1stillnessNN
+r1timeNN
+
+#Rule:Verbs
+r2feelVBP
+r2wantsVBZ
+r2liveVB
+r2discoverVB
+r2sVBZ
+r2getVB
+r2happensVBZ
+
+#Rule:Adjs
+r4deadJJ
+r4otherJJ
+r4firstJJ
+r4awsomeJJ
+r4firstJJ
+
+#Rule:Adj-Noun
+r5deadJJreNNP
+r5otherJJwayNN
+r5awsomeJJfeelingNN
+r5firstJJtimeNN
+
+#Rule:HeadNoun-V
+r11hePRPwantsVBZ
+r11youPRPfeelVBP
+r11thatDTisAUX
+r11reNNPisAUX
+r110CDisAUX
+r11itPRPisAUX
+r11youPRPliveVB
+r11youPRPdiscoverVB
+r11itPRPsVBZ
+r11youPRPgetVB
+r11itPRPhappensVBZ
+
+#Rule:V-HeadNoun
+r21isAUXwayNN
+r21discoverVBlifeNN
+r21sVBZfeelingNN
+
+#Rule:V-HeadNoun
+r22wantsVBZyouPRP
+
+#Rule:PPinNP
+r26feelingNNofINstillnessNN
+
+#Rule:PPinVP
+r30discoverVBforINfirstJJ
+r30happensVBZforINtimeNN
+
+#Rule:V-IN-V
+r43feelVBPlikeINisAUX
+r43isAUXbecauseINisAUX
+
+#Rule:V-ADV
+r46isAUXprobablyRB
+
+#Rule:IS-RULE
+r47wayNNreNNP
+r47wayNN0CD
+
+#Oh well, good luck!
+#(S1 (INTJ (UH Oh) (UH well) (, ,) (JJ good) (NN luck) (. !)))
+#Rule:Nouns
+r1luckNN
+
+#Rule:Adjs
+r4goodJJ
+
+@lemmas-left	other	way	good	re	time	life	awsome	happen	dead	want	live	be	feel	is	it	get	luck	discover	you	he	wants	stillness	that	0	s	feeling	first	happens	
+@lemmas-right	feel	is	get	discover	way	you	re	wants	stillness	time	0	life	s	feeling	probably	happen	first	happens	want	be	live	
+@lemmas-center	because	of	for	like	

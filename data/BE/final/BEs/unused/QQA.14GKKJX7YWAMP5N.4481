@@ -1,0 +1,227 @@
+#If it is that sensitive that you cannot wash it with a cloth, then you need to see a doctor.
+#(S1 (S (SBAR (IN If) (S (NP (PRP it)) (VP (AUX is) (ADJP (RB that) (JJ sensitive)) (SBAR (IN that) (S (NP (PRP you)) (ADVP (RB cannot)) (VP (VBP wash) (NP (PRP it)) (PP (IN with) (NP (DT a) (NN cloth))))))))) (, ,) (RB then) (NP (PRP you)) (VP (AUX need) (S (VP (TO to) (VP (VB see) (NP (DT a) (NN doctor)))))) (. .)))
+#Rule:Nouns
+r1clothNN
+r1doctorNN
+
+#Rule:Verbs
+r2washVBP
+r2seeVB
+
+#Rule:Adjs
+r4sensitiveJJ
+
+#Rule:HeadNoun-V
+r11youPRPneedAUX
+r11itPRPisAUX
+r11youPRPwashVBP
+
+#Rule:V-HeadNoun
+r21washVBPitPRP
+r21seeVBdoctorNN
+
+#Rule:V-ADJ
+r25isAUXsensitiveJJ
+
+#Rule:PPinVP
+r30washVBPwithINclothNN
+
+#Rule:V-IN-V
+r43isAUXthatINwashVBP
+
+#Rule:V-ADV
+r46washVBPcannotRB
+
+# It could be jock itch, or a bad infection.
+#(S1 (S (NP (PRP It)) (VP (MD could) (VP (AUX be) (NP (NP (NN jock) (NN itch)) (, ,) (CC or) (NP (DT a) (JJ bad) (NN infection))))) (. .)))
+#Rule:Nouns
+r1jockNN
+r1itchNN
+r1infectionNN
+
+#Rule:Adjs
+r4badJJ
+
+#Rule:Adj-Noun
+r5badJJinfectionNN
+
+#Rule:N-HeadNoun
+r8jockNNitchNN
+
+#Rule:HeadNoun-V
+r11itPRPbeAUX
+
+#Rule:V-HeadNoun
+r21beAUXitchNN
+
+# Don t try to have sex with it like this, it will probably burn.
+#(S1 (S (NP (NNP Don) (NNS t)) (VP (VBP try) (S (VP (TO to) (VP (AUX have) (NP (NP (NN sex)) (PP (IN with) (NP (PRP it)))) (PP (IN like) (NP (DT this)))))) (, ,) (SBAR (S (NP (PRP it)) (VP (MD will) (ADVP (RB probably)) (VP (VB burn)))))) (. .)))
+#Rule:Nouns
+r1Don tPersonAnnotation
+r1sexNN
+
+#Rule:Verbs
+r2tryVBP
+r2burnVB
+
+#Rule:HeadNoun-V
+r11Don tPersonAnnotationtryVBP
+r11itPRPburnVB
+
+#Rule:V-HeadNoun
+r21haveAUXsexNN
+
+#Rule:PPinNP
+r26sexNNwithINitPRP
+
+#Rule:PPinVP
+r30haveAUXlikeINthisDT
+
+#Rule:V-ADV
+r46burnVBprobablyRB
+
+# And if it is jock itch, you can give it to your girl (yeast infection).
+#(S1 (S (CC And) (SBAR (IN if) (S (NP (PRP it)) (VP (AUX is) (NP (NN jock) (NN itch))))) (, ,) (NP (PRP you)) (VP (MD can) (VP (VB give) (NP (PRP it)) (PP (TO to) (NP (NP (PRP$ your) (NN girl)) (PRN (-LRB- -LRB-) (NP (NN yeast) (NN infection)) (-RRB- -RRB-)))))) (. .)))
+#Rule:Nouns
+r1jockNN
+r1itchNN
+r1girlNN
+r1yeastNN
+r1infectionNN
+
+#Rule:Verbs
+r2giveVB
+
+#Rule:PRP-Noun
+r6yourPRP$girlNN
+
+#Rule:N-HeadNoun
+r8jockNNitchNN
+r8yeastNNinfectionNN
+
+#Rule:HeadNoun-V
+r11youPRPgiveVB
+r11itPRPisAUX
+
+#Rule:V-HeadNoun
+r21isAUXitchNN
+r21giveVBitPRP
+
+#Rule:PPinVP
+r30giveVBtoTOgirlNN
+
+#Get it checked out, and don t be embarrassed.
+#(S1 (S (S (VP (VB Get) (NP (PRP it)) (VP (VBN checked) (PRT (RP out))))) (, ,) (CC and) (S (VP (VB don) (S (NP (NNS t)) (VP (AUX be) (ADJP (JJ embarrassed)))))) (. .)))
+#Rule:Nouns
+r1tNNS
+
+#Rule:Verbs
+r2getVB
+r2donLocationAnnotation
+
+#Rule:V-PRT
+r3checkedVBNoutRP
+
+#Rule:Adjs
+r4embarrassedJJ
+
+#Rule:HeadNoun-V
+r11tNNSbeAUX
+
+#Rule:V-HeadNoun
+r21getVBitPRP
+
+#Rule:V-HeadNoun
+r22donLocationAnnotationtNNS
+
+#Rule:V-ADJ
+r25beAUXembarrassedJJ
+
+#and then your doctor will describe to you how to properly clean it.
+#(S1 (S (CC and) (ADVP (RB then)) (NP (PRP$ your) (NN doctor)) (VP (MD will) (VP (VB describe) (PP (TO to) (NP (PRP you))) (SBAR (WHADVP (WRB how)) (S (VP (TO to) (VP (ADVP (RB properly)) (VB clean) (NP (PRP it)))))))) (. .)))
+#Rule:Nouns
+r1doctorNN
+
+#Rule:Verbs
+r2describeVB
+r2cleanVB
+
+#Rule:PRP-Noun
+r6yourPRP$doctorNN
+
+#Rule:HeadNoun-V
+r11doctorNNdescribeVB
+
+#Rule:V-HeadNoun
+r21cleanVBitPRP
+
+#Rule:PPinVP
+r30describeVBtoTOyouPRP
+
+#Rule:V-ADV
+r46cleanVBproperlyRB
+
+# But yes, you have to pull the foreskin back all the way and clean the whole head, and rinse..If 
+#(S1 (S (CC But) (ADVP (RB yes)) (, ,) (NP (PRP you)) (VP (AUX have) (S (VP (TO to) (VP (VP (VB pull) (NP (DT the) (NN foreskin)) (ADVP (RB back)) (NP (PDT all) (DT the) (NN way))) (CC and) (VP (VB clean) (NP (DT the) (JJ whole) (NN head))) (, ,) (CC and) (VP (VB rinse) (ADVP (RB ..) (IN If)))))))))
+#Rule:Nouns
+r1foreskinNN
+r1wayNN
+r1headNN
+
+#Rule:Verbs
+r2pullVB
+r2cleanVB
+r2rinsePersonAnnotation
+
+#Rule:Adjs
+r4wholeJJ
+
+#Rule:Adj-Noun
+r5wholeJJheadNN
+
+#Rule:HeadNoun-V
+r11youPRPhaveAUX
+
+#Rule:V-HeadNoun
+r21pullVBforeskinNN
+r21pullVBwayNN
+r21cleanVBheadNN
+
+#Rule:V-ADV
+r46haveAUXyesRB
+r46pullVBbackRB
+r46rinsePersonAnnotation..RB
+
+#If you are unsure of how to clean it, you may not have been doing it properly, resulting in the infection.
+#(S1 (S (SBAR (IN If) (S (NP (PRP you)) (VP (AUX are) (ADJP (JJ unsure) (PP (IN of) (SBAR (WHADVP (WRB how)) (S (VP (TO to) (VP (VB clean) (NP (PRP it))))))))))) (, ,) (NP (PRP you)) (VP (MD may) (RB not) (VP (AUX have) (VP (AUX been) (VP (VBG doing) (NP (PRP it)) (ADVP (RB properly)) (, ,) (S (VP (VBG resulting) (PP (IN in) (NP (DT the) (NN infection))))))))) (. .)))
+#Rule:Nouns
+r1infectionNN
+
+#Rule:Verbs
+r2cleanVB
+r2doingVBG
+r2resultingVBG
+
+#Rule:Adjs
+r4unsureJJ
+
+#Rule:HeadNoun-V
+r11youPRPdoingVBG
+r11youPRPareAUX
+
+#Rule:V-HeadNoun
+r21cleanVBitPRP
+r21doingVBGitPRP
+
+#Rule:V-ADJ
+r25areAUXunsureJJ
+
+#Rule:PPinVP
+r30resultingVBGinINinfectionNN
+
+#Rule:V-ADV
+r46doingVBGproperlyRB
+
+@lemmas-left	Don t	result	sex	don	have	give	pull	foreskin	way	resulting	doctor	are	girl	clean	cloth	describe	infection	wash	yeast	do	head	be	sensitive	is	it	check	get	your	embarrassed	you	bad	itch	rinse	unsure	t	see	whole	doing	jock	burn	checked	try	
+@lemmas-right	need	sex	have	give	foreskin	way	doctor	are	girl	cloth	..	describe	infection	wash	probably	do	head	sensitive	be	is	it	back	embarrassed	you	itch	cannot	unsure	yes	properly	t	doing	burn	this	try	out	
+@lemmas-center	to	that	with	like	in	

@@ -1,0 +1,92 @@
+#how to prevent hair loss??
+#(S1 (FRAG (SBAR (WHADVP (WRB how)) (S (VP (TO to) (VP (VB prevent) (NP (NN hair) (NN loss))))) (. ?)) (. ?)))
+#Rule:Nouns
+r1hairNN
+r1lossNN
+
+#Rule:Verbs
+r2preventVB
+
+#Rule:N-HeadNoun
+r8hairNNlossNN
+
+#Rule:V-HeadNoun
+r21preventVBlossNN
+
+#My mother had a chemo embolization a couple weeks ago and her hair is starting to fall out a little. The doctor told her that all her hair will not fall out but i was just wondering how can i prevent this??
+#(S1 (S (S (NP (PRP$ My) (NN mother)) (VP (AUX had) (NP (NP (DT a) (NN chemo) (NN embolization)) (ADVP (NP (DT a) (JJ couple) (NNS weeks)) (RB ago))))) (CC and) (S (NP (PRP$ her) (NN hair)) (VP (AUX is) (VP (VBG starting) (S (VP (TO to) (VP (VB fall) (PRT (RP out)) (NP (NP (DT a) (NN little.)) (SBAR (S (S (NP (DT The) (NN doctor)) (VP (VBD told) (NP (PRP her)) (SBAR (IN that) (S (NP (PDT all) (PRP$ her) (NN hair)) (VP (MD will) (RB not) (VP (VB fall) (PRT (RP out)))))))) (CC but) (S (NP (PRP i)) (VP (AUX was) (ADVP (RB just)) (VP (VBG wondering) (SBAR (WHADVP (WRB how)) (S (VP (MD can) (S (NP (PRP i)) (VP (VB prevent) (NP (DT this))) (. ?))))))))))))))))) (. ?)))
+#Rule:Nouns
+r1motherNN
+r1chemoNN
+r1embolizationNN
+r1weeksNNS
+r1hairNN
+r1littleNN
+r1doctorNN
+r1hairNN
+
+#Rule:Verbs
+r2startingVBG
+r2toldVBD
+r2wonderingVBG
+r2preventVB
+
+#Rule:V-PRT
+r3fallVBoutRP
+r3fallVBoutRP
+
+#Rule:Adjs
+r4coupleJJ
+
+#Rule:Adj-Noun
+r5coupleJJweeksNNS
+
+#Rule:PRP-Noun
+r6myPRP$motherNN
+r6herPRP$hairNN
+r6herPRP$hairNN
+
+#Rule:N-HeadNoun
+r8chemoNNembolizationNN
+
+#Rule:HeadNoun-V
+r11motherNNhadAUX
+r11hairNNstartingVBG
+r11doctorNNtoldVBD
+r11hairNNfallVB
+r11iPersonAnnotationwonderingVBG
+r11iPersonAnnotationpreventVB
+
+#Rule:V-HeadNoun
+r21hadAUXembolizationNN
+r21fallVBlittleNN
+r21toldVBDherPRP
+r21preventVBthisDT
+
+#Rule:V-IN-V
+r43toldVBDthatINfallVB
+
+#Rule:V-V
+r44startingVBGfallVB
+
+#Rule:V-ADV
+r46wasAUXjustRB
+r46wonderingVBGjustRB
+
+#Maybe eating some foods or buying some vitamins?
+#(S1 (FRAG (RB Maybe) (VP (VP (VBG eating) (NP (DT some) (NNS foods))) (CC or) (VP (VBG buying) (NP (DT some) (NNS vitamins)))) (. ?)))
+#Rule:Nouns
+r1foodsNNS
+r1vitaminsPersonAnnotation
+
+#Rule:Verbs
+r2eatingVBG
+r2buyingVBG
+
+#Rule:V-HeadNoun
+r21eatingVBGfoodsNNS
+r21buyingVBGvitaminsPersonAnnotation
+
+@lemmas-left	little.	loss	buy	have	little	wondering	was	doctor	vitamins	buying	wonder	starting	tell	couple	her	chemo	hair	had	be	told	prevent	my	weeks	i	foods	embolization	mother	start	food	fall	eating	eat	week	
+@lemmas-right	little.	loss	have	little	wondering	vitamins	wonder	starting	tell	her	hair	had	just	told	prevent	weeks	embolization	foods	mother	start	food	fall	this	week	out	
+@lemmas-center	that	

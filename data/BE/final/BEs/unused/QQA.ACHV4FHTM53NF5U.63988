@@ -1,0 +1,75 @@
+#Actually it s the number SEVEN  with which people have been more fascinated throughout history, for instance to the Ancient Romans , Seven was considered to be as Lucky to them as the number 13 is considered to be UN-Lucky todays world  I imagine that this is where the saying to be at Sixes&Sevens probably comes from.
+#(S1 (S (SBAR (RB Actually) (S (NP (PRP it)) (VP (VBZ s) (NP (NP (DT the) (NN number)) (SBAR (WHNP (CD SEVEN) (WHPP (IN with) (WHNP (WDT which)))) (S (NP (NNS people)) (VP (AUX have) (VP (AUX been) (VP (RBR more) (VBN fascinated) (PP (IN throughout) (NP (NN history))) (, ,) (PP (IN for) (NP (NN instance))))))))) (PP (TO to) (NP (DT the) (JJ Ancient) (NNPS Romans)))))) (, ,) (NP (NNP Seven)) (VP (AUX was) (VP (VBN considered) (S (VP (TO to) (VP (AUX be) (ADJP (RB as) (JJ Lucky) (PP (TO to) (NP (PRP them)))) (SBAR (IN as) (S (NP (DT the) (NN number) (CD 13)) (VP (AUX is) (VP (VBN considered) (S (VP (TO to) (VP (AUX be) (NP (NP (JJ UN-Lucky) (NNS todays) (NN world)) (SBAR (S (NP (PRP I)) (VP (VBP imagine) (SBAR (IN that) (S (NP (DT this)) (VP (AUX is) (SBAR (WHADVP (WRB where)) (S (NP (DT the) (NN saying) (S (VP (TO to) (VP (AUX be) (PP (IN at) (NP (NNP Sixes&Sevens))))))) (ADVP (RB probably)) (VP (VBZ comes) (PP (IN from)))))))))))))))))))))))) (. .)))
+#Rule:Nouns
+r1numberNN
+r1peopleNNS
+r1historyNN
+r1instanceNN
+r1Ancient Romans , SevenOrganizationAnnotation
+r1numberNN
+r1todaysNNS
+r1worldNN
+r1sayingNN
+r1Sixes&SevensOrganizationAnnotation
+
+#Rule:Verbs
+r2sVBZ
+r2fascinatedVBN
+r2consideredVBN
+r2consideredVBN
+r2imagineVBP
+r2comesVBZ
+
+#Rule:Adjs
+r4LuckyJJ
+r4UN-LuckyOrganizationAnnotation
+
+#Rule:Adj-Noun
+r513CDnumberNN
+r5UN-LuckyOrganizationAnnotationworldNN
+
+#Rule:N-HeadNoun
+r8todaysNNSworldNN
+
+#Rule:HeadNoun-V
+r11itPRPsVBZ
+r11iPRPimagineVBP
+r11thisDTisAUX
+r11sayingNNcomesVBZ
+
+#Rule:NP(NP(z) SBAR(S(NP(x)VP(y))))
+r19imagineVBPworldNN
+
+#Rule:V-HeadNoun
+r21sVBZnumberNN
+r21beAUXworldNN
+
+#Rule:V-HeadNoun(passive)
+r23consideredVBNAncient Romans , SevenOrganizationAnnotation
+r23fascinatedVBNpeopleNNS
+r23consideredVBNnumberNN
+
+#Rule:V-ADJ
+r25beAUXLuckyJJ
+
+#Rule:PPinVP
+r30sVBZtoTOAncient Romans , SevenOrganizationAnnotation
+r30beAUXatINSixes&SevensOrganizationAnnotation
+
+#Rule:PPinVP
+r32fascinatedVBNthroughoutINhistoryNN
+r32fascinatedVBNforINinstanceNN
+
+#Rule:PPinADJP
+r37LuckyJJtoTOthemPRP
+
+#Rule:V-IN-V
+r43beAUXasINconsideredVBN
+r43imagineVBPthatINisAUX
+
+#Rule:V-ADV
+r46comesVBZprobablyRB
+
+@lemmas-left	Lucky	saying	today	13	people	considered	fascinated	Ancient Romans , Seven	consider	Sixes&Sevens	UN-Lucky	instance	be	imagine	it	come	number	todays	comes	fascinate	i	history	lucky	s	this	world	
+@lemmas-right	Lucky	is	imagine	come	number	comes	people	considered	history	Ancient Romans , Seven	lucky	s	consider	them	Sixes&Sevens	probably	instance	world	be	
+@lemmas-center	to	that	throughout	for	at	as	

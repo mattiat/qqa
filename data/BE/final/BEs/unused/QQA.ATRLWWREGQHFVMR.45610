@@ -1,0 +1,83 @@
+#Many people regard Shakespeare as worlds best writer.  They consider his plays to be dramatic perfection..
+#(S1 (S (NP (JJ Many) (NNS people)) (VP (VBP regard) (NP (NNP Shakespeare)) (PP (IN as) (NP (NP (NNS worlds)) (SBAR (S (NP (JJS best) (NNS writer.)) (NP (PRP They)) (VP (VBP consider) (S (NP (PRP$ his) (NNS plays)) (VP (TO to) (VP (AUX be) (NP (JJ dramatic) (NN perfection)))))) (. .)))))) (. .)))
+#Rule:Nouns
+r1peopleNNS
+r1ShakespeareNNP
+r1worldsNNS
+r1writerNNS
+r1playsNNS
+r1perfectionNN
+
+#Rule:Verbs
+r2regardVBP
+r2considerVBP
+
+#Rule:Adjs
+r4ManyJJ
+r4bestJJS
+r4dramaticJJ
+
+#Rule:Adj-Noun
+r5ManyJJpeopleNNS
+r5bestJJSwriterNNS
+r5dramaticJJperfectionNN
+
+#Rule:PRP-Noun
+r6hisPRP$playsNNS
+
+#Rule:HeadNoun-V
+r11peopleNNSregardVBP
+r11writerNNSconsiderVBP
+r11theyPRPconsiderVBP
+r11playsNNSbeAUX
+
+#Rule:NP(NP(z) SBAR(S(NP(x)VP(y))))
+r19considerVBPworldsNNS
+
+#Rule:V-HeadNoun
+r21regardVBPShakespeareNNP
+r21beAUXperfectionNN
+
+#Rule:V-HeadNoun
+r22considerVBPplaysNNS
+
+#Rule:PPinVP
+r30regardVBPasINworldsNNS
+
+#Rule:IS-RULE
+r47perfectionNNplaysNNS
+
+#And yet, these plays are filled with troubled, flawed and downright evil characters.  So where did Shakespeare go wrong?
+#(S1 (S (S (CC And) (ADVP (RB yet)) (, ,) (NP (DT these) (NNS plays)) (VP (AUX are) (VP (VBN filled) (PP (IN with) (NP (JJ troubled) (, ,) (ADJP (ADJP (JJ flawed)) (CC and) (ADJP (RB downright) (JJ evil))) (NN characters.)))))) (SBARQ (RB So) (WHADVP (WRB where)) (SQ (AUX did) (NP (NNP Shakespeare)) (VP (VB go) (ADJP (JJ wrong)))) (. ?))))
+#Rule:Nouns
+r1playsNNS
+r1charactersNN
+r1ShakespeareNNP
+
+#Rule:Verbs
+r2filledVBN
+r2goVB
+
+#Rule:Adjs
+r4troubledJJ
+r4flawedJJ
+r4evilJJ
+r4wrongJJ
+
+#Rule:Adj-Noun
+r5troubledJJcharactersNN
+r5flawedJJcharactersNN
+r5evilJJcharactersNN
+
+#Rule:V-HeadNoun(passive)
+r23filledVBNplaysNNS
+
+#Rule:PPinVP
+r32filledVBNwithINcharactersNN
+
+#Rule:V-ADV
+r46areAUXyetRB
+
+@lemmas-left	they	writer.	characters.	Many	plays	worlds	people	filled	are	perfection	his	consider	dramatic	best	flawed	writer	Shakespeare	shakespeare	be	troubled	fill	play	regard	many	wrong	evil	world	characters	go	
+@lemmas-right	writer.	characters.	play	plays	regard	worlds	people	perfection	consider	writer	Shakespeare	characters	world	yet	be	shakespeare	
+@lemmas-center	with	as	

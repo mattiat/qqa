@@ -1,0 +1,58 @@
+#The only thing that works for me is to take some Advil, have a really hot bath and then go to sleep.  
+#(S1 (S (NP (NP (DT The) (JJ only) (NN thing)) (SBAR (WHNP (WDT that)) (S (VP (VBZ works) (PP (IN for) (NP (PRP me))))))) (VP (AUX is) (S (VP (TO to) (VP (VP (VB take) (NP (DT some) (NN Advil))) (, ,) (VP (AUX have) (NP (DT a) (ADJP (RB really) (JJ hot)) (NN bath))) (CC and) (VP (RB then) (VB go) (S (VP (TO to) (VP (VB sleep))))))))) (. .)))
+#Rule:Nouns
+r1thingNN
+r1AdvilNN
+r1bathNN
+
+#Rule:Verbs
+r2worksVBZ
+r2takeVB
+r2goVB
+r2sleepVB
+
+#Rule:Adjs
+r4onlyJJ
+r4hotJJ
+
+#Rule:Adj-Noun
+r5onlyJJthingNN
+r5hotJJbathNN
+
+#Rule:HeadNoun-V
+r11thingNNisAUX
+
+#Rule:HeadNoun-(who/that)-V
+r14thingNNworksVBZ
+
+#Rule:V-HeadNoun
+r21takeVBAdvilNN
+r21haveAUXbathNN
+
+#Rule:PPinVP
+r30worksVBZforINmePRP
+
+#Rule:V-V
+r44goVBsleepVB
+
+#Rule:V-ADV
+r46goVBthenRB
+
+#When I wake up, I am fine.
+#(S1 (S (SBAR (WHADVP (WRB When)) (S (NP (PRP I)) (VP (VBP wake) (PRT (RP up))))) (, ,) (NP (PRP I)) (VP (AUX am) (ADJP (JJ fine))) (. .)))
+#Rule:V-PRT
+r3wakeVBPupRP
+
+#Rule:Adjs
+r4fineJJ
+
+#Rule:HeadNoun-V
+r11iPRPamAUX
+r11iPRPwakeVBP
+
+#Rule:(SBAR+WHADVP)inS
+r42amAUXwhenWRBwakeVBP
+
+@lemmas-left	work	advil	have	Advil	sleep	i	works	am	take	wake	bath	only	hot	fine	be	thing	go	
+@lemmas-right	work	is	advil	Advil	sleep	works	up	wake	am	then	bath	me	thing	be	
+@lemmas-center	for	when	

@@ -1,0 +1,82 @@
+#I asked a similar question a while ago and got some human rights type answers.  
+#(S1 (S (NP (PRP I)) (VP (VP (VBD asked) (NP (DT a) (JJ similar) (NN question)) (ADVP (NP (DT a) (NN while)) (RB ago))) (CC and) (VP (VBD got) (NP (DT some) (JJ human) (NNS rights))) (NP (NN type) (NNS answers))) (. .)))
+#Rule:Nouns
+r1questionNN
+r1whileNN
+r1rightsNNS
+r1typeNN
+r1answersNNS
+
+#Rule:Verbs
+r2askedVBD
+r2gotVBD
+
+#Rule:Adjs
+r4similarJJ
+r4humanJJ
+
+#Rule:Adj-Noun
+r5similarJJquestionNN
+r5humanJJrightsNNS
+
+#Rule:N-HeadNoun
+r8typeNNanswersNNS
+
+#Rule:HeadNoun-V
+r11iPRPaskedVBD
+r11iPRPgotVBD
+
+#Rule:V-HeadNoun
+r21askedVBDanswersNNS
+r21askedVBDquestionNN
+r21gotVBDrightsNNS
+
+#Rule:V-ADV
+r46askedVBDagoRB
+
+#People think they have the right to kill themselves and pollute the environment for everyone else.  
+#(S1 (S (NP (NNS People)) (VP (VBP think) (SBAR (S (NP (PRP they)) (VP (AUX have) (NP (DT the) (NN right) (S (VP (TO to) (VP (VP (VB kill) (NP (PRP themselves))) (CC and) (VP (VB pollute) (NP (NP (DT the) (NN environment)) (PP (IN for) (NP (NP (NN everyone)) (ADJP (RB else)))))))))))))) (. .)))
+#Rule:Nouns
+r1PeopleNNS
+r1rightNN
+r1environmentNN
+r1everyoneNN
+
+#Rule:Verbs
+r2thinkVBP
+r2killVB
+r2polluteVB
+
+#Rule:HeadNoun-V
+r11PeopleNNSthinkVBP
+r11theyPRPhaveAUX
+
+#Rule:V-HeadNoun
+r21haveAUXrightNN
+r21killVBthemselvesPRP
+r21polluteVBenvironmentNN
+
+#Rule:PPinNP
+r26environmentNNforINeveryoneNN
+
+#I guess they re just stupid.
+#(S1 (S (NP (PRP I)) (VP (VBP guess) (S (NP (PRP they)) (NP (NNP re)) (ADJP (RB just) (JJ stupid)))) (. .)))
+#Rule:Nouns
+r1reNNP
+
+#Rule:Verbs
+r2guessVBP
+
+#Rule:Adjs
+r4stupidJJ
+
+#Rule:HeadNoun-V
+r11iPRPguessVBP
+
+#Rule:V-HeadNoun
+r22guessVBPtheyPRP
+r22guessVBPreNNP
+
+@lemmas-left	they	have	stupid	answers	rights	kill	type	re	people	while	question	everyone	right	similar	asked	think	get	pollute	answer	human	i	environment	guess	ask	got	People	
+@lemmas-right	asked	they	think	get	have	rights	answer	answers	re	environment	guess	question	everyone	ask	themselves	right	got	ago	
+@lemmas-center	for	

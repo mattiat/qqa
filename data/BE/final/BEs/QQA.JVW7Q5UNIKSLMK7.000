@@ -1,0 +1,112 @@
+#I am 33 y.o. just diagnosed with mild MVP. how will i manage it? 
+#(S1 (S (S (NP (PRP I)) (VP (AUX am) (ADVP (NP (CD 33) (NNS y.o.)) (RB just)) (VP (VBN diagnosed) (PP (IN with) (NP (JJ mild) (NNP MVP.)))))) (SBARQ (WHADVP (WRB how)) (SQ (MD will) (NP (PRP i)) (VP (VB manage) (NP (PRP it)))) (. ?))))
+#Rule:Nouns
+r1y.o.OrganizationAnnotation
+r1MVPOrganizationAnnotation
+
+#Rule:Verbs
+r2diagnosedVBN
+r2manageVB
+
+#Rule:Adjs
+r4mildJJ
+
+#Rule:Adj-Noun
+r533CDy.o.OrganizationAnnotation
+r5mildJJMVPOrganizationAnnotation
+
+#Rule:V-HeadNoun
+r21manageVBitPRP
+
+#Rule:V-HeadNoun(passive)
+r23diagnosedVBNiPRP
+
+#Rule:PPinVP
+r32diagnosedVBNwithINMVPOrganizationAnnotation
+
+#Rule:V-ADV
+r46amAUXjustRB
+r46diagnosedVBNjustRB
+
+#and how could i manage my nervousness?
+#(S1 (SBARQ (CC and) (WHADVP (WRB how)) (SQ (MD could) (NP (PRP i)) (VP (VB manage) (NP (PRP$ my) (NN nervousness)))) (. ?)))
+#Rule:Nouns
+r1nervousnessNN
+
+#Rule:Verbs
+r2manageVB
+
+#Rule:PRP-Noun
+r6myPRP$nervousnessNN
+
+#Rule:V-HeadNoun
+r21manageVBnervousnessNN
+
+#i easily got nervous and thinking of weird things about MVP. 
+#(S1 (S (NP (PRP i)) (ADVP (RB easily)) (VP (VP (VBP got) (ADJP (JJ nervous))) (CC and) (VP (VBG thinking) (PP (IN of) (NP (JJ weird) (NNS things))) (PP (IN about) (NP (NN MVP))))) (. .)))
+#Rule:Nouns
+r1thingsNNS
+r1MVPOrganizationAnnotation
+
+#Rule:Verbs
+r2gotVBP
+r2thinkingVBG
+
+#Rule:Adjs
+r4nervousJJ
+r4weirdJJ
+
+#Rule:Adj-Noun
+r5weirdJJthingsNNS
+
+#Rule:HeadNoun-V
+r11iPRPgotVBP
+r11iPRPthinkingVBG
+
+#Rule:PPinVP
+r30thinkingVBGofINthingsNNS
+r30thinkingVBGaboutINMVPOrganizationAnnotation
+
+#I am afraid of my condition eventhough my doctor told me i have a mild case.
+#(S1 (S (S (NP (PRP I)) (VP (AUX am) (ADJP (JJ afraid) (PP (IN of) (NP (PRP$ my) (NN condition) (NN eventhough)))))) (NP (PRP$ my) (NN doctor)) (VP (VBD told) (NP (PRP me)) (S (NP (PRP i)) (VP (AUX have) (NP (DT a) (JJ mild) (NN case))))) (. .)))
+#Rule:Nouns
+r1conditionNN
+r1eventhoughNN
+r1doctorNN
+r1caseNN
+
+#Rule:Verbs
+r2toldVBD
+
+#Rule:Adjs
+r4afraidJJ
+r4mildJJ
+
+#Rule:Adj-Noun
+r5mildJJcaseNN
+
+#Rule:PRP-Noun
+r6myPRP$eventhoughNN
+r6myPRP$doctorNN
+
+#Rule:N-HeadNoun
+r8conditionNNeventhoughNN
+
+#Rule:HeadNoun-V
+r11doctorNNtoldVBD
+r11iPRPamAUX
+r11iOrganizationAnnotationhaveAUX
+
+#Rule:V-HeadNoun
+r21toldVBDmePRP
+r21haveAUXcaseNN
+
+#Rule:V-HeadNoun
+r22toldVBDiOrganizationAnnotation
+
+#Rule:PPinADJP
+r37afraidJJofINeventhoughNN
+
+@lemmas-left	have	nervousness	33	manage	doctor	diagnosed	mild	tell	be	think	get	nervous	condition	told	eventhough	my	diagnose	i	afraid	thinking	am	y.o.	things	case	weird	got	MVP	
+@lemmas-right	just	think	it	get	have	told	nervousness	eventhough	doctor	i	thinking	am	y.o.	me	tell	things	case	got	be	MVP	
+@lemmas-center	of	with	about	

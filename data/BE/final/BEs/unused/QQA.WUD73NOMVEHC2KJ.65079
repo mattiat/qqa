@@ -1,0 +1,37 @@
+#They don??
+#(S1 (SQ (NP (PRP They)) (VP (VB don)) (. ?) (. ?)))
+#Rule:Verbs
+r2donVB
+
+#t have one. 
+#(S1 (S (NP (NNS t)) (VP (AUX have) (NP (NN one))) (. .)))
+#Rule:Nouns
+r1tNNS
+r1oneNN
+
+#Rule:HeadNoun-V
+r11tNNShaveAUX
+
+#Rule:V-HeadNoun
+r21haveAUXoneNN
+
+#They poop through their nose.
+#(S1 (S (NP (PRP They)) (VP (VB poop) (PP (IN through) (NP (PRP$ their) (NN nose)))) (. .)))
+#Rule:Nouns
+r1noseNN
+
+#Rule:Verbs
+r2poopVB
+
+#Rule:PRP-Noun
+r6theirPRP$noseNN
+
+#Rule:HeadNoun-V
+r11theyPRPpoopVB
+
+#Rule:PPinVP
+r30poopVBthroughINnoseNN
+
+@lemmas-left	they	t	don	have	one	poop	their	nose	
+@lemmas-right	have	one	poop	nose	
+@lemmas-center	through	

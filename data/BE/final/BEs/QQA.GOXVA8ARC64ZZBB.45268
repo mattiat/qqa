@@ -1,0 +1,125 @@
+#Word has it, that trying to quit smoking is one of hardest addictions to accomplish. First off try cutting back slow. Cold turkey won t work. ! It s just to difficult to do by yourself..
+#(S1 (S (NP (NN Word)) (VP (AUX has) (NP (PRP it)) (, ,) (SBAR (IN that) (S (S (VP (VBG trying) (S (VP (TO to) (VP (VB quit) (SBAR (S (NP (NN smoking)) (VP (AUX is) (NP (NP (CD one)) (PP (IN of) (NP (NP (JJS hardest) (NNS addictions)) (SBAR (S (VP (TO to) (VP (VB accomplish.) (NP (NNP First)) (ADVP (RB off)) (S (VP (VB try) (VP (VBG cutting) (PRT (RP back)) (NP (NP (JJ slow.) (JJ Cold) (NN turkey)) (VP (VBD won) (NP (NNP t) (CD work.)))))))))))))))))))))) (. !) (NP (PRP It)) (VP (VBZ s) (ADJP (RB just) (TO to) (JJ difficult) (S (VP (TO to) (VP (AUX do) (PP (IN by) (NP (PRP yourself)))))))) (. .)))) (. .)))
+#Rule:Nouns
+r1WordOrganizationAnnotation
+r1smokingNN
+r1addictionsNNS
+r1FirstNNP
+r1turkeyNN
+r1tNNP
+
+#Rule:Verbs
+r2tryingVBG
+r2quitVB
+r2accomplishVB
+r2tryVB
+r2wonVBD
+r2sVBZ
+
+#Rule:V-PRT
+r3cuttingVBGbackRP
+
+#Rule:Adjs
+r4hardestJJS
+r4slowJJ
+r4ColdPersonAnnotation
+r4difficultJJ
+
+#Rule:Adj-Noun
+r5hardestJJSaddictionsNNS
+r5slowJJturkeyNN
+r5ColdPersonAnnotationturkeyNN
+r5workCDtNNP
+
+#Rule:HeadNoun-V
+r11WordOrganizationAnnotationhasAUX
+r11! ItPersonAnnotationsVBZ
+r11smokingNNisAUX
+r11turkeyNNwonVBD
+
+#Rule:HeadNoun-(who/that)-V
+r14addictionsNNSaccomplishVB
+
+#Rule:V-HeadNoun
+r21hasAUXitPRP
+r21isAUXoneCD
+r21accomplishVBFirstNNP
+r21cuttingVBGturkeyNN
+r21wonVBDtNNP
+
+#Rule:PPinNP
+r26oneCDofINaddictionsNNS
+
+#Rule:PPinVP
+r30doAUXbyINyourselfPRP
+
+#Rule:V-IN-V
+r43hasAUXthatINsVBZ
+
+#Rule:V-V
+r44tryingVBGquitVB
+r44accomplishVBcuttingVBG
+
+#Rule:V-ADV
+r46accomplishVBoffRB
+
+#Rule:IS-RULE
+r47oneCDsmokingNN
+
+#Rule:SubVerbClause
+r50! ItPersonAnnotationtryingVBG
+
+#Second, try hanging around friends that don t smoke. stay away from bar s&nightclubs etc..
+#(S1 (S (ADVP (LS Second)) (, ,) (VP (VB try) (VP (VBG hanging) (PP (IN around) (NP (NNS friends))) (SBAR (IN that) (S (NP (NNP don) (NNP t) (FW smoke.)) (VP (VB stay) (ADVP (RB away) (PP (IN from) (NP (NN bar) (NNS s&nightclubs)) (NP (FW etc) (. .))))))))) (. .)))
+#Rule:Nouns
+r1friendsNNS
+r1donLocationAnnotation
+r1tNNP
+r1barNN
+r1s&nightclubsOrganizationAnnotation
+
+#Rule:Verbs
+r2tryVB
+r2hangingVBG
+r2stayVB
+
+#Rule:N-HeadNoun
+r8donLocationAnnotationtNNP
+r8barNNs&nightclubsOrganizationAnnotation
+
+#Rule:HeadNoun-V
+r11tNNPstayVB
+
+#Rule:PPinVP
+r30hangingVBGaroundINfriendsNNS
+
+#Rule:V-IN-V
+r43hangingVBGthatINstayVB
+
+#Rule:V-ADV
+r46stayVBawayRB
+
+#Third, go to a doctor for better advice.  Good Luck and Godspeed.
+#(S1 (S (ADVP (LS Third)) (, ,) (VP (VB go) (PP (TO to) (NP (DT a) (NN doctor))) (PP (IN for) (NP (NP (JJR better) (FW advice.) (JJ Good) (NN Luck)) (CC and) (NP (NNP Godspeed))))) (. .)))
+#Rule:Nouns
+r1doctorNN
+r1Good LuckOrganizationAnnotation
+r1GodspeedNNP
+
+#Rule:Verbs
+r2goVB
+
+#Rule:Adjs
+r4betterJJR
+
+#Rule:Adj-Noun
+r5betterJJRGood LuckOrganizationAnnotation
+
+#Rule:PPinVP
+r30goVBtoTOdoctorNN
+r30goVBforINGood LuckOrganizationAnnotation
+r30goVBforINGodspeedNNP
+
+@lemmas-left	accomplish	don	have	! It	one	slow.	hang	First	difficult	quit	trying	has	doctor	hanging	friends	Word	smoking	Cold	addictions	addiction	do	work.	won	slow	hard	be	work	godspeed	is	stay	s&nightclubs	win	cutting	Godspeed	Good Luck	t	s	better	accomplish.	hardest	turkey	cut	bar	first	friend	try	go	
+@lemmas-right	accomplish	have	one	First	trying	quit	has	doctor	friends	smoking	addictions	addiction	won	yourself	be	godspeed	is	stay	s&nightclubs	it	back	win	cutting	Godspeed	Good Luck	away	t	s	accomplish.	off	turkey	cut	first	friend	try	
+@lemmas-center	to	that	of	for	by	around	

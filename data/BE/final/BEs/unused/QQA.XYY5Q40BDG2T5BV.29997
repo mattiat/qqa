@@ -1,0 +1,19 @@
+#Give ME proof of creation!!!
+#(S1 (S (VP (VB Give) (NP (PRP ME)) (NP (NP (NN proof)) (PP (IN of) (NP (NN creation) (NNS !!))))) (. !)))
+#Rule:Nouns
+r1proofNN
+r1creation!!!LocationAnnotation
+
+#Rule:Verbs
+r2giveVB
+
+#Rule:V-HeadNoun
+r21giveVBmePRP
+r21giveVBproofNN
+
+#Rule:PPinNP
+r26proofNNofINcreation!!!LocationAnnotation
+
+@lemmas-left	give	proof	creation!!!	
+@lemmas-right	proof	creation!!!	me	
+@lemmas-center	of	

@@ -1,0 +1,27 @@
+#If they don t care that they re slowly dying then why do you?
+#(S1 (FRAG (SBAR (IN If) (S (NP (PRP they)) (VP (VB don) (NP (CD t) (NN care)) (SBAR (IN that) (S (NP (PRP they)) (VP (NNP re) (S (VP (ADVP (RB slowly)) (VBG dying) (ADVP (RB then)) (SBAR (WHADVP (WRB why)) (S (VP (AUX do) (NP (PRP you))))))))))))) (. ?)))
+#Rule:Nouns
+r1careNN
+r1reNNP
+
+#Rule:Verbs
+r2donVB
+r2dyingVBG
+
+#Rule:Adj-Noun
+r5tLocationAnnotationcareNN
+
+#Rule:HeadNoun-V
+r11theyPRPdonVB
+
+#Rule:V-HeadNoun
+r21donVBcareNN
+r21doAUXyouPRP
+
+#Rule:V-ADV
+r46dyingVBGslowlyRB
+r46dyingVBGthenRB
+
+@lemmas-left	they	t	don	die	care	do	re	dying	
+@lemmas-right	slowly	don	then	care	you	
+@lemmas-center	

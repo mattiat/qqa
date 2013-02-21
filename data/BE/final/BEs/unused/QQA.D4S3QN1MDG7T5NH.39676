@@ -1,0 +1,50 @@
+#Pretty much.they weren t good enough for my children, and I had the option to homeschool. 
+#(S1 (S (S (NP (ADJP (RB Pretty) (JJ much.they)) (NNS weren)) (VP (VBP t) (ADJP (JJ good) (RB enough) (PP (IN for) (NP (PRP$ my) (NNS children)))))) (, ,) (CC and) (S (NP (PRP I)) (VP (AUX had) (NP (DT the) (NN option) (S (VP (TO to) (VP (NN homeschool))))))) (. .)))
+#Rule:Nouns
+r1werenNNS
+r1childrenNNS
+r1optionNN
+r1homeschoolNN
+
+#Rule:Verbs
+r2tLocationAnnotation
+
+#Rule:Adjs
+r4much.theyJJ
+r4goodJJ
+
+#Rule:Adj-Noun
+r5much.theyJJwerenNNS
+
+#Rule:PRP-Noun
+r6myPRP$childrenNNS
+
+#Rule:HeadNoun-V
+r11werenNNStLocationAnnotation
+r11iPRPhadAUX
+
+#Rule:V-HeadNoun
+r21hadAUXoptionNN
+
+#Rule:PPinADJP
+r37goodJJforINchildrenNNS
+
+#Reasons include academic, social and emotional.
+#(S1 (S (NP (NNS Reasons)) (VP (VBP include) (S (ADJP (JJ academic) (, ,) (JJ social) (CC and) (JJ emotional)))) (. .)))
+#Rule:Nouns
+r1ReasonsNNS
+
+#Rule:Verbs
+r2includeVBP
+
+#Rule:Adjs
+r4academicJJ
+r4socialJJ
+r4emotionalJJ
+
+#Rule:HeadNoun-V
+r11ReasonsNNSincludeVBP
+
+@lemmas-left	have	reason	children	good	weren	my	academic	include	much.they	i	child	Reasons	t	emotional	social	homeschool	option	had	
+@lemmas-right	child	t	have	children	weren	option	had	include	
+@lemmas-center	for	

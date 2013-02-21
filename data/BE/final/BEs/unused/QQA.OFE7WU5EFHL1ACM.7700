@@ -1,0 +1,24 @@
+#ibuprofen shouldnt make you feel anything but better.
+#(S1 (S (NP (NNS ibuprofen)) (VP (VBP shouldnt) (SBAR (S (VP (VBP make) (S (NP (PRP you)) (VP (VB feel) (UCP (NP (NN anything)) (CC but) (ADJP (JJR better))))))))) (. .)))
+#Rule:Nouns
+r1ibuprofenNNS
+r1anythingNN
+
+#Rule:Verbs
+r2shouldntVBP
+r2makeVBP
+r2feelVB
+
+#Rule:Adjs
+r4betterJJR
+
+#Rule:HeadNoun-V
+r11ibuprofenNNSshouldntVBP
+r11youPRPfeelVB
+
+#Rule:V-HeadNoun
+r22makeVBPyouPRP
+
+@lemmas-left	ibuprofen	feel	anything	better	shouldnt	you	make	
+@lemmas-right	feel	shouldnt	you	
+@lemmas-center	

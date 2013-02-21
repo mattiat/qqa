@@ -1,0 +1,144 @@
+#Start exercising, ok you can do 2 push up, ok do 2 push up every day,  and then start trying to do 3, do three for a couple days then do 4. 
+#(S1 (S (NP (VB Start) (VBG exercising)) (, ,) (S (INTJ (UH ok)) (NP (PRP you)) (VP (MD can) (VP (AUX do) (NP (CD 2)) (S (VP (VP (VB push) (PRT (RP up)) (, ,) (INTJ (UH ok)) (VP (AUX do))) (, 2) (VP (VB push) (PRT (RP up)) (NP (DT every) (NN day))) (, ,) (CC and) (RB then) (VP (VB start) (VP (VBG trying) (S (VP (TO to) (VP (AUX do) (NP (CD 3)))))))))))) (, ,) (VP (AUX do) (NP (CD three)) (PP (IN for) (NP (NP (DT a) (NN couple)) (SBAR (S (NP (NNS days)) (ADVP (RB then)) (VP (AUX do) (NP (CD 4)))))))) (. .)))
+#Rule:Nouns
+r1dayNN
+r1coupleNN
+r1daysNNS
+
+#Rule:Verbs
+r2startVB
+r2exercisingVBG
+r2startVB
+r2tryingVBG
+
+#Rule:V-PRT
+r3pushVBupRP
+r3pushVBupRP
+
+#Rule:HeadNoun-V
+r11exercisingVBGdoAUX
+r11youPRPdoAUX
+r11daysNNSdoAUX
+
+#Rule:V-HeadNoun
+r21doAUX2CD
+r21pushVBdayNN
+r21doAUX3CD
+r21doAUXthreeCD
+r21doAUX4CD
+
+#Rule:PPinVP
+r30doAUXforINcoupleNN
+
+#Rule:V-ADV
+r46doAUXthenRB
+
+#Also, run, or jog, that is good for you. 
+#(S1 (S (ADVP (RB Also)) (, ,) (S (VP (VB run))) (, ,) (CC or) (S (VP (VB jog) (, ,) (SBAR (WHNP (WDT that)) (S (VP (AUX is) (ADJP (JJ good) (PP (IN for) (NP (PRP you))))))))) (. .)))
+#Rule:Verbs
+r2runVB
+r2jogVB
+
+#Rule:Adjs
+r4goodJJ
+
+#Rule:V-ADJ
+r25isAUXgoodJJ
+
+#Rule:PPinADJP
+r37goodJJforINyouPRP
+
+#Jog one block,  then two blocks, work your way up to a mile, then 2 miles.   
+#(S1 (S (VP (VB Jog) (S (NP (NP (CD one) (NN block)) (, ,) (ADVP (RB then)) (NP (CD two) (NNS blocks)) (, ,)) (VP (VB work) (NP (PRP$ your) (NN way)) (ADVP (RB up) (PP (TO to) (NP (NP (DT a) (NN mile)) (, ,) (ADVP (RB then) (NP (CD 2) (NNS miles))))))))) (. .)))
+#Rule:Nouns
+r1blockNN
+r1blocksNNS
+r1wayNN
+r1mileNN
+r1milesNNS
+
+#Rule:Verbs
+r2jogVB
+r2workVB
+
+#Rule:Adj-Noun
+r5oneCDblockNN
+r5twoCDblocksNNS
+r52CDmilesNNS
+
+#Rule:PRP-Noun
+r6yourPRP$wayNN
+
+#Rule:HeadNoun-V
+r11blockNNworkVB
+r11blocksNNSworkVB
+
+#Rule:V-HeadNoun
+r21workVBwayNN
+
+#Rule:V-HeadNoun
+r22jogVBblockNN
+
+#Rule:V-ADV
+r46workVBupRB
+
+#Start out light, and work your way up.  
+#(S1 (S (S (VP (VB Start) (PRT (RP out)) (NP (NN light)))) (, ,) (CC and) (S (VP (VB work) (NP (PRP$ your) (NN way)) (ADVP (RB up)))) (. .)))
+#Rule:Nouns
+r1lightNN
+r1wayNN
+
+#Rule:Verbs
+r2workVB
+
+#Rule:V-PRT
+r3startVBoutRP
+
+#Rule:PRP-Noun
+r6yourPRP$wayNN
+
+#Rule:V-HeadNoun
+r21startVBlightNN
+r21workVBwayNN
+
+#Rule:V-ADV
+r46workVBupRB
+
+#Do a few sit up, and alway breath as you exercise, dont hold your breath.
+#(S1 (SINV (AUX Do) (NP (DT a) (JJ few)) (VP (VP (VB sit) (ADVP (RB up))) (, ,) (CC and) (VP (VB alway) (NP (NN breath)) (SBAR (IN as) (S (NP (PRP you)) (VP (VBP exercise) (, ,) (S (VP (VB dont) (VP (VB hold) (NP (PRP$ your) (NN breath)))))))))) (. .)))
+#Rule:Nouns
+r1breathNN
+r1breathNN
+
+#Rule:Verbs
+r2sitVB
+r2alwayVB
+r2exerciseVBP
+r2dontVB
+r2holdVB
+
+#Rule:Adjs
+r4fewJJ
+
+#Rule:PRP-Noun
+r6yourPRP$breathNN
+
+#Rule:HeadNoun-V
+r11youPRPexerciseVBP
+
+#Rule:V-HeadNoun
+r21alwayVBbreathNN
+r21holdVBbreathNN
+
+#Rule:V-IN-V
+r43alwayVBasINexerciseVBP
+
+#Rule:V-V
+r44exerciseVBPholdVB
+
+#Rule:V-ADV
+r46sitVBupRB
+
+@lemmas-left	one	exercise	block	way	good	run	trying	push	jog	mile	do	couple	light	breath	be	work	exercising	is	alway	hold	your	you	blocks	miles	few	sit	two	2	days	dont	start	day	try	
+@lemmas-right	work	hold	exercise	way	block	good	you	miles	blocks	up	3	2	4	then	mile	three	do	couple	day	light	breath	out	
+@lemmas-center	for	as	

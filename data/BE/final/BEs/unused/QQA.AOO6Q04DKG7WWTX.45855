@@ -1,0 +1,14 @@
+#http://health.groups.yahoo.com/group/TheOpenDoorForsupport/
+#(S1 (NP (NN http) (: :) (JJ //health.groups.yahoo.com/group/TheOpenDoorForsupport/)))
+#Rule:Nouns
+r1httpNN
+
+#Rule:Adjs
+r4//health.groups.yahoo.com/group/TheOpenDoorForsupport/JJ
+
+#Rule:Adj-Noun
+r5//health.groups.yahoo.com/group/TheOpenDoorForsupport/JJhttpNN
+
+@lemmas-left	//health.groups.yahoo.com/group/theopendoorforsupport/	http	//health.groups.yahoo.com/group/TheOpenDoorForsupport/	
+@lemmas-right	http	
+@lemmas-center	

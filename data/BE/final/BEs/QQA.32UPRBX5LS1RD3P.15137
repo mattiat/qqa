@@ -1,0 +1,77 @@
+#1200 calories daily (no junk food or soda)Drink atleast 8 glasses of water daily..
+#(S1 (S (NP (NP (CD 1200) (NNS calories)) (ADVP (RB daily))) (PRN (-LRB- -LRB-) (NP (DT no) (NN junk) (NN food) (CC or) (NN soda)) (-RRB- -RRB-)) (VP (VBP Drink) (NP (NP (QP (RB atleast) (CD 8)) (NNS glasses)) (PP (IN of) (NP (NN water)))) (ADVP (RB daily) (. .))) (. .)))
+#Rule:Nouns
+r1caloriesNNS
+r1junkNN
+r1foodNN
+r1sodaNN
+r1glassesNNS
+r1waterNN
+
+#Rule:Verbs
+r2drinkVBP
+
+#Rule:Adj-Noun
+r51200CDcaloriesNNS
+r58CDglassesNNS
+
+#Rule:N-HeadNoun
+r8junkNNfoodNN
+
+#Rule:HeadNoun-V
+r11caloriesNNSdrinkVBP
+
+#Rule:V-HeadNoun
+r21drinkVBPglassesNNS
+
+#Rule:PPinNP
+r26glassesNNSofINwaterNN
+
+#Rule:V-ADV
+r46drinkVBPdailyRB
+
+#Do atleast 30 minutes of cardio exercise daily..
+#(S1 (SINV (AUX Do) (NP (NP (QP (RB atleast) (CD 30)) (NNS minutes)) (PP (IN of) (NP (NN cardio)))) (VP (VBP exercise) (ADVP (RB daily))) (. .) (. .)))
+#Rule:Nouns
+r1minutesNNS
+r1cardioNN
+
+#Rule:Verbs
+r2exerciseVBP
+
+#Rule:Adj-Noun
+r530CDminutesNNS
+
+#Rule:PPinNP
+r26minutesNNSofINcardioNN
+
+#Rule:V-ADV
+r46exerciseVBPdailyRB
+
+#Get 7-8 hours of sleep nightly.
+#(S1 (S (VP (VB Get) (NP (NP (JJ 7-8) (NNS hours)) (PP (IN of) (NP (NN sleep)))) (ADVP (RB nightly))) (. .)))
+#Rule:Nouns
+r1hoursNNS
+r1sleepNN
+
+#Rule:Verbs
+r2getVB
+
+#Rule:Adjs
+r47-8JJ
+
+#Rule:Adj-Noun
+r57-8JJhoursNNS
+
+#Rule:V-HeadNoun
+r21getVBhoursNNS
+
+#Rule:PPinNP
+r26hoursNNSofINsleepNN
+
+#Rule:V-ADV
+r46getVBnightlyRB
+
+@lemmas-left	water	minutes	get	glasses	7-8	hours	exercise	sleep	soda	calorie	junk	cardio	30	1200	food	drink	calories	8	
+@lemmas-right	water	cardio	minutes	glasses	hours	food	drink	calories	sleep	daily	nightly	calorie	
+@lemmas-center	of	

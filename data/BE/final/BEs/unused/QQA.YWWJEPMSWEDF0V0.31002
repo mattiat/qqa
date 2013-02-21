@@ -1,0 +1,219 @@
+#taht s REDICULOUS.
+#(S1 (S (NP (NNP taht)) (VP (VBZ s) (ADJP (JJ REDICULOUS))) (. .)))
+#Rule:Nouns
+r1tahtNNP
+
+#Rule:Verbs
+r2s REDICULOOrganizationAnnotation
+
+#Rule:HeadNoun-V
+r11tahtNNPs REDICULOOrganizationAnnotation
+
+# i m young aswell but you re way too young to do loose 50-100 lbs THAT quickly .
+#(S1 (S (NP (PRP i)) (VP (NNP m) (NP (NP (JJ young) (NN aswell)) (CC but) (NP (NP (PRP you) (NNP re) (NN way)) (ADJP (RB too) (JJ young)))) (S (VP (TO to) (VP (AUX do) (ADVP (RB loose) (NP (CD 50-100) (NNS lbs))) (ADVP (RB THAT) (RB quickly)))))) (. .)))
+#Rule:Nouns
+r1mNNP
+r1aswellNN
+r1reNNP
+r1wayNN
+r1lbsLocationAnnotation
+
+#Rule:Adjs
+r4youngJJ
+r4youngJJ
+
+#Rule:Adj-Noun
+r5youngJJaswellNN
+r5youngJJwayNN
+r550-100CDlbsLocationAnnotation
+
+#Rule:N-HeadNoun
+r8reNNPwayNN
+
+#Rule:V-ADV
+r46doAUXlooseRB
+r46doAUXTHATRB
+r46doAUXquicklyRB
+
+# if you d like start off with a low carb diet , that will get you to loose weight quickly and start youoff to loosing more weight .
+#(S1 (S (SBAR (IN if) (S (NP (PRP you)) (ADVP (LS d)) (VP (VBP like) (S (VP (VB start) (PRT (RP off)) (PP (IN with) (NP (DT a) (JJ low) (NN carb) (NN diet)))))))) (, ,) (NP (WDT that)) (VP (MD will) (VP (VP (VB get) (S (NP (PRP you)) (VP (TO to) (VP (VB loose) (NP (NN weight)) (ADVP (RB quickly)))))) (CC and) (VP (VB start) (NP (NP (NN youoff)) (PP (TO to) (S (VP (VBG loosing) (NP (JJR more) (NN weight))))))))) (. .)))
+#Rule:Nouns
+r1carbNN
+r1dietNN
+r1weightNN
+r1youoffNN
+r1weightNN
+
+#Rule:Verbs
+r2likeVBP
+r2getVB
+r2looseVB
+r2startVB
+r2loosingVBG
+
+#Rule:V-PRT
+r3startVBoffRP
+
+#Rule:Adjs
+r4lowJJ
+r4moreJJR
+
+#Rule:Adj-Noun
+r5lowJJdietNN
+r5moreJJRweightNN
+
+#Rule:N-HeadNoun
+r8carbNNdietNN
+
+#Rule:HeadNoun-V
+r11thatWDTgetVB
+r11thatWDTstartVB
+r11youPRPlikeVBP
+r11youPRPlooseVB
+
+#Rule:V-HeadNoun
+r21looseVBweightNN
+r21startVByouoffNN
+r21loosingVBGweightNN
+
+#Rule:V-HeadNoun
+r22getVByouPRP
+
+#Rule:PPinVP
+r30startVBwithINdietNN
+
+#Rule:V-ADV
+r46looseVBquicklyRB
+
+# loosing tht much weight will take ATLEAST 6 months .
+#(S1 (S (S (VP (VBG loosing) (NP (JJ tht) (JJ much) (NN weight)))) (VP (MD will) (VP (VB take) (NP (QP (RB ATLEAST) (CD 6)) (NNS months)))) (. .)))
+#Rule:Nouns
+r1weightNN
+r1monthsNNS
+
+#Rule:Verbs
+r2loosingVBG
+r2takeVB
+
+#Rule:Adjs
+r4thtLocationAnnotation
+r4muchJJ
+
+#Rule:Adj-Noun
+r5thtLocationAnnotationweightNN
+r5muchJJweightNN
+r56CDmonthsNNS
+
+#Rule:V-HeadNoun
+r21loosingVBGweightNN
+r21takeVBmonthsNNS
+
+# if you re starting middle school join school teams , they re fun and a great way of making yourself feel better and not spend your time eating .
+#(S1 (S (SBAR (IN if) (S (NP (PRP you)) (NP (NP (NNP re)) (VP (VBG starting) (NP (JJ middle) (NN school)))) (VP (VB join) (NP (NN school) (NNS teams))))) (, ,) (NP (PRP they)) (VP (NNP re) (NP (NP (NN fun)) (CC and) (NP (NP (DT a) (JJ great) (NN way)) (PP (IN of) (S (VP (VBG making) (S (NP (PRP yourself)) (VP (VP (VB feel) (ADVP (RBR better))) (CC and) (RB not) (VP (VB spend) (NP (PRP$ your) (NN time)) (S (VP (VBG eating)))))))))))) (. .)))
+#Rule:Nouns
+r1reNNP
+r1schoolNN
+r1schoolNN
+r1teamsNNS
+r1reNNP
+r1funNN
+r1wayNN
+r1timeNN
+
+#Rule:Verbs
+r2startingVBG
+r2joinVB
+r2makingVBG
+r2feelVB
+r2spendVB
+r2eatingVBG
+
+#Rule:Adjs
+r4middleJJ
+r4greatJJ
+
+#Rule:Adj-Noun
+r5middleJJschoolNN
+r5greatJJwayNN
+
+#Rule:PRP-Noun
+r6yourPRP$timeNN
+
+#Rule:N-HeadNoun
+r8schoolNNteamsNNS
+
+#Rule:HeadNoun-V
+r11youPRPjoinVB
+r11reNNPjoinVB
+r11reNNPstartingVBG
+r11yourselfPRPfeelVB
+r11yourselfPRPspendVB
+
+#Rule:V-HeadNoun
+r21startingVBGschoolNN
+r21joinVBteamsNNS
+r21spendVBtimeNN
+
+#Rule:V-HeadNoun
+r22makingVBGyourselfPRP
+
+# perhaps ask your parents for some help too .
+#(S1 (S (ADVP (RB perhaps)) (VP (VB ask) (NP (PRP$ your) (NNS parents)) (PP (IN for) (NP (NP (DT some) (NN help)) (ADVP (RB too))))) (. .)))
+#Rule:Nouns
+r1parentsNNS
+r1helpNN
+
+#Rule:Verbs
+r2askVB
+
+#Rule:PRP-Noun
+r6yourPRP$parentsNNS
+
+#Rule:V-HeadNoun
+r21askVBparentsNNS
+
+#Rule:PPinVP
+r30askVBforINhelpNN
+
+#Rule:V-ADV
+r46askVBperhapsRB
+
+# goodluck in whatever you do .
+#(S1 (S (VP (VB goodluck) (PP (IN in) (SBAR (WHNP (WDT whatever)) (S (NP (PRP you)) (VP (AUX do)))))) (. .)))
+#Rule:Verbs
+r2goodluckVB
+
+#Rule:HeadNoun-V
+r11youPRPdoAUX
+
+# remmeber 50-100lbs in 6 months is still rather quick .
+#(S1 (S (NP (NP (JJR remmeber) (NNS 50-100lbs)) (PP (IN in) (NP (CD 6) (NNS months)))) (VP (AUX is) (ADVP (RB still)) (ADJP (RB rather) (JJ quick))) (. .)))
+#Rule:Nouns
+r150-100lbsNNS
+r1monthsNNS
+
+#Rule:Adjs
+r4remmeberOrganizationAnnotation
+r4quickJJ
+
+#Rule:Adj-Noun
+r5remmeberOrganizationAnnotation50-100lbsNNS
+r56CDmonthsNNS
+
+#Rule:HeadNoun-V
+r1150-100lbsNNSisAUX
+
+#Rule:V-ADJ
+r25isAUXquickJJ
+
+#Rule:PPinNP
+r2650-100lbsNNSinINmonthsNNS
+
+#Rule:V-ADV
+r46isAUXstillRB
+
+# goodluck.
+#(S1 (INTJ (UH goodluck) (. .)))
+@lemmas-left	aswell	diet	carb	loose	middle	time	help	more	tht	yourself	be	youoff	get	parent	team	fun	like	much	that	teams	goodluck	start	6	month	eat	lb	ask	low	make	remmeber	loosing	taht	parents	weight	quick	way	re	50-100	starting	do	making	50-100lbs	feel	is	your	you	m	join	young	spend	months	s REDICULO	school	great	take	eating	lbs	
+@lemmas-right	parents	weight	diet	aswell	quick	way	loose	help	time	starting	do	yourself	be	youoff	50-100lbs	feel	is	THAT	get	parent	still	you	team	join	like	spend	that	teams	months	s REDICULO	school	start	off	month	lb	perhaps	quickly	lbs	
+@lemmas-center	with	for	in	

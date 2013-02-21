@@ -1,0 +1,16 @@
+#Clean and clear advantage :)
+#(S1 (NP (NP (ADJP (JJ Clean) (CC and) (JJ clear)) (NN advantage)) (: :) (-RRB- -RRB-)))
+#Rule:Nouns
+r1advantageNN
+
+#Rule:Adjs
+r4CleanJJ
+r4clearJJ
+
+#Rule:Adj-Noun
+r5CleanJJadvantageNN
+r5clearJJadvantageNN
+
+@lemmas-left	clear	advantage	clean	Clean	
+@lemmas-right	advantage	
+@lemmas-center	

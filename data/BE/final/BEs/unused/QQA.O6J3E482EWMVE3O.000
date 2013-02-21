@@ -1,0 +1,44 @@
+#for how much time can we talk on cell phones without hurting ourselves?
+#(S1 (SBARQ (WHPP (IN for) (WHNP (WRB how) (JJ much) (NN time))) (SQ (MD can) (NP (PRP we)) (VP (VB talk) (PP (IN on) (NP (NN cell) (NNS phones))) (PP (IN without) (S (VP (VBG hurting) (NP (PRP ourselves))))))) (. ?)))
+#Rule:Nouns
+r1timeNN
+r1cellNN
+r1phonesNNS
+
+#Rule:Verbs
+r2talkVB
+r2hurtingVBG
+
+#Rule:Adjs
+r4muchJJ
+
+#Rule:N-HeadNoun
+r8cellNNphonesNNS
+
+#Rule:V-HeadNoun
+r21hurtingVBGourselvesPRP
+
+#Rule:PPinVP
+r30talkVBonINphonesNNS
+
+#i mean from cancer etc.
+#(S1 (S (NP (PRP i)) (VP (VBP mean) (PP (IN from) (NP (NN cancer) (NN etc)))) (. .)))
+#Rule:Nouns
+r1cancerNN
+r1etcNN
+
+#Rule:Verbs
+r2meanVBP
+
+#Rule:N-HeadNoun
+r8cancerNNetcNN
+
+#Rule:HeadNoun-V
+r11iPRPmeanVBP
+
+#Rule:PPinVP
+r30meanVBPfromINetcNN
+
+@lemmas-left	phone	time	hurt	hurting	etc	cell	mean	cancer	much	i	talk	phones	
+@lemmas-right	phone	ourselves	etc	mean	phones	
+@lemmas-center	on	from	

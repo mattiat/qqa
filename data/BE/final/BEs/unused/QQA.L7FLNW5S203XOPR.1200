@@ -1,0 +1,48 @@
+#It is a mystery only explainable though myth and assumption.  
+#(S1 (S (NP (PRP It)) (VP (AUX is) (NP (NP (DT a) (NN mystery)) (ADJP (RB only) (JJ explainable) (PP (IN though) (NP (NN myth) (CC and) (NN assumption)))))) (. .)))
+#Rule:Nouns
+r1mysteryNN
+r1mythNN
+r1assumptionNN
+
+#Rule:Adjs
+r4explainableJJ
+
+#Rule:Adj-Noun
+r5explainableJJmysteryNN
+
+#Rule:HeadNoun-V
+r11itPRPisAUX
+
+#Rule:V-HeadNoun
+r21isAUXmysteryNN
+
+#Rule:PPinADJP
+r37explainableJJthoughINmythNN
+
+#You have to research for yourself to find the answer that suits you.
+#(S1 (S (NP (PRP You)) (VP (AUX have) (S (VP (TO to) (VP (VB research) (PP (IN for) (NP (PRP yourself)))))) (S (VP (TO to) (VP (VB find) (NP (NP (DT the) (NN answer)) (SBAR (WHNP (WDT that)) (S (VP (VBZ suits) (NP (PRP you)))))))))) (. .)))
+#Rule:Nouns
+r1answerNN
+
+#Rule:Verbs
+r2researchVB
+r2findVB
+r2suitsVBZ
+
+#Rule:HeadNoun-V
+r11youPRPhaveAUX
+
+#Rule:HeadNoun-(who/that)-V
+r14answerNNsuitsVBZ
+
+#Rule:V-HeadNoun
+r21findVBanswerNN
+r21suitsVBZyouPRP
+
+#Rule:PPinVP
+r30researchVBforINyourselfPRP
+
+@lemmas-left	is	it	mystery	answer	explainable	you	research	myth	assumption	suit	suits	find	be	
+@lemmas-right	myth	is	mystery	have	answer	suit	suits	you	yourself	be	
+@lemmas-center	for	though	

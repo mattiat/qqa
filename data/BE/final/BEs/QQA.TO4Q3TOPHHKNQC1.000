@@ -1,0 +1,45 @@
+#If there is global warming, then why is it getting so much colder in the winter? 
+#(S1 (SBARQ (SBAR (IN If) (S (NP (EX there)) (VP (AUX is) (NP (JJ global) (NN warming))))) (, ,) (WHADVP (RB then) (WRB why)) (SQ (AUX is) (NP (PRP it)) (VP (VBG getting) (NP (ADJP (RB so) (JJ much)) (NN colder)) (PP (IN in) (NP (DT the) (NN winter))))) (. ?)))
+#Rule:Nouns
+r1warmingNN
+r1colderNN
+r1winterNN
+
+#Rule:Verbs
+r2gettingVBG
+
+#Rule:Adjs
+r4globalJJ
+r4muchJJ
+
+#Rule:Adj-Noun
+r5globalJJwarmingNN
+r5muchJJcolderNN
+
+#Rule:HeadNoun-V
+r11thereEXisAUX
+
+#Rule:V-HeadNoun
+r21isAUXwarmingNN
+r21gettingVBGcolderNN
+
+#Rule:PPinVP
+r30gettingVBGinINwinterNN
+
+#Come on, where s that warmth?
+#(S1 (SBARQ (S (VP (VBP Come) (PRT (RP on)))) (, ,) (WHADVP (WRB where)) (SQ (VP (VBZ s) (NP (DT that) (NN warmth)))) (. ?)))
+#Rule:Nouns
+r1warmthNN
+
+#Rule:Verbs
+r2sVBZ
+
+#Rule:V-PRT
+r3comeVBPonLocationAnnotation
+
+#Rule:V-HeadNoun
+r21sVBZwarmthNN
+
+@lemmas-left	getting	is	colder	get	global	come	much	winter	cold	s	warming	there	warmth	be	
+@lemmas-right	is	winter	colder	cold	warming	warmth	on	be	
+@lemmas-center	in	

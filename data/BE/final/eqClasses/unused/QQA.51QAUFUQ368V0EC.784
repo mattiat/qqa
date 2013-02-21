@@ -1,0 +1,237 @@
+BE: MarriageNN
+EQ class: spousal_relationshipnn	unionnn	matrimonynn	wedlocknn	
+
+BE: manNN
+EQ class: adult_malenn	manlyjj	
+
+BE: womanNN
+EQ class: adult_femalenn	womanlyjj	
+
+BE: certificateNN
+EQ class: credentialnn	credentialsnn	certificationnn	
+
+BE: pieceNN
+EQ class: 
+
+BE: paperNN
+EQ class: paperyjj	
+
+BE: trustNN
+EQ class: 
+
+BE: IntimacyNN
+EQ class: closenessnn	familiaritynn	
+
+BE: Respect..OrganizationAnnotation
+EQ class: respectorganizationannotation	
+
+BE: bringLoveLocationAnnotation
+EQ class: 
+
+BE: importantJJ
+EQ class: of_importjj	importancenn	
+
+BE: legalJJ
+EQ class: legalitynn	
+
+BE: legalJJcertificateNN
+EQ class: manifestvblegallyrb	legalitynncredentialnn	certifyvblegallyrb	legaljjcertificationnn	legaljjcredentialnn	evidencevblegallyrb	demonstratevblegallyrb	legalitynncredentialsnn	legalitynncertificatenn	legaljjcredentialsnn	attestvblegallyrb	legalitynncertificationnn	certificatevblegallyrb	
+
+BE: MarriageNNisAUX
+EQ class: wedlocknnisaux	marriagennbeaux	matrimonynnisaux	unionnnbeaux	spousal_relationshipnnbeaux	wedlocknnbeaux	matrimonynnbeaux	spousal_relationshipnnisaux	unionnnisaux	
+
+BE: pieceNNbringLoveLocationAnnotation
+EQ class: 
+
+BE: itPRPisAUX
+EQ class: itprpbeaux	
+
+BE: isAUXcertificateNN
+EQ class: beauxcertificationnn	isauxcredentialnn	beauxcredentialsnn	isauxcredentialsnn	beauxcredentialnn	beauxcertificatenn	isauxcertificationnn	
+
+BE: bringLoveLocationAnnotationIntimacyNN
+EQ class: bringlovelocationannotationfamiliaritynn	bringlovelocationannotationclosenessnn	
+
+BE: isAUXimportantJJ
+EQ class: beauximportancenn	beauximportantjj	beauxof_importjj	isauxof_importjj	isauximportancenn	
+
+BE: pieceNNofINpaperNN
+EQ class: papernnpatchvb	piecevbpaperyjj	paperyjjpiecenn	patchvbpaperyjj	piecevbpapernn	papernnpiecevb	papernnpiecenn	paperyjjpiecevb	patchvbpapernn	paperyjjpatchvb	piecennofinpaperyjj	
+
+BE: importantJJforINmanNN
+EQ class: importancennforinmanlyjj	importancennforinmannn	of_importjjforinmanlyjj	importantjjforinmanlyjj	importantjjforinadult_malenn	importancennforinadult_malenn	manlyvbimportantlyrb	of_importjjforinmannn	of_importjjforinadult_malenn	
+
+BE: importantJJforINwomanNN
+EQ class: importancennforinwomanlyjj	importancennforinadult_femalenn	of_importjjforinwomanlyjj	philandervbimportantlyrb	importancennforinwomannn	womanhoodvbimportantlyrb	of_importjjforinwomannn	of_importjjforinadult_femalenn	womanlyvbimportantlyrb	womanizevbimportantlyrb	importantjjforinadult_femalenn	womanisevbimportantlyrb	importantjjforinwomanlyjj	
+
+BE: isAUXNOTRB
+EQ class: isauxn.o.t.rb	beauxnotrb	beauxn.o.t.rb	
+
+BE: doesAUXnotRB
+EQ class: doauxnotrb	makeauxnotrb	
+
+BE: MarriageNN
+EQ class: spousal_relationshipnn	unionnn	matrimonynn	wedlocknn	
+
+BE: responsibilityNN
+EQ class: obligationnn	dutynn	
+
+BE: accountabilityNN
+EQ class: answerabilitynn	accountablejj	answerablenessnn	
+
+BE: childNN
+EQ class: tiddlernn	minornn	tikenn	small_frynn	frynn	shavernn	youngsternn	childlyjj	kidnn	nestlingnn	nippernn	tykenn	
+
+BE: careNN
+EQ class: tendingnn	attentionnn	aidnn	
+
+BE: marriageNN
+EQ class: spousal_relationshipnn	unionnn	matrimonynn	wedlocknn	
+
+BE: countriesNNS
+EQ class: body_politicnns	countrynns	statenns	theynns	commonwealthnns	nationnns	res_publicanns	landnns	themnns	
+
+BE: worldNN
+EQ class: cosmosnn	macrocosmnn	creationnn	existencenn	universenn	
+
+BE: europeLocationAnnotation
+EQ class: europeanjj	
+
+BE: stateNN
+EQ class: provincenn	
+
+BE: careNN
+EQ class: tendingnn	attentionnn	aidnn	
+
+BE: childNN
+EQ class: tiddlernn	minornn	tikenn	small_frynn	frynn	shavernn	youngsternn	childlyjj	kidnn	nestlingnn	nippernn	tykenn	
+
+BE: stateNN
+EQ class: provincenn	
+
+BE: motherNN
+EQ class: female_parentnn	motherlyjj	
+
+BE: situationNN
+EQ class: state_of_affairsnn	
+
+BE: marriageNN
+EQ class: spousal_relationshipnn	unionnn	matrimonynn	wedlocknn	
+
+BE: countriesNNS
+EQ class: body_politicnns	countrynns	statenns	theynns	commonwealthnns	nationnns	res_publicanns	landnns	themnns	
+
+BE: bringsVBZ
+EQ class: takevbz	conveyvbz	bringvbz	
+
+BE: bornVBN
+EQ class: bearvbn	
+
+BE: needsVBZ
+EQ class: involvevbz	demandvbz	requirevbz	askvbz	postulatevbz	necessitatevbz	takevbz	needvbz	call_forvbz	
+
+BE: takenVBN
+EQ class: takevbn	
+
+BE: becomesVBZ
+EQ class: becomevbz	govbz	getvbz	
+
+BE: takesVBZ
+EQ class: takevbz	
+
+BE: consideredVBN
+EQ class: regardvbn	seevbn	reckonvbn	viewvbn	considervbn	
+
+BE: certainJJ
+EQ class: 
+
+BE: .AJJ
+EQ class: ajj	
+
+BE: importantJJ
+EQ class: of_importjj	importancenn	
+
+BE: importantJJ
+EQ class: of_importjj	importancenn	
+
+BE: suchJJ
+EQ class: 
+
+BE: certainJJchildNN
+EQ class: certainjjnippernn	certainjjnestlingnn	childhoodvbcertainlyrb	certainjjtykenn	certainjjshavernn	certainjjtiddlernn	certainjjminornn	certainjjyoungsternn	certainjjtikenn	childlyvbcertainlyrb	certainjjkidnn	certainjjsmall_frynn	certainjjfrynn	certainjjchildlyjj	
+
+BE: .AJJchildNN
+EQ class: .ajjtiddlernn	.ajjminornn	.ajjkidnn	.ajjfrynn	ajjchildnn	ajjnestlingnn	ajjyoungsternn	ajjfrynn	ajjtiddlernn	.ajjnestlingnn	.ajjtikenn	.ajjsmall_frynn	ajjshavernn	.ajjchildlyjj	.ajjyoungsternn	ajjminornn	ajjchildlyjj	ajjtykenn	.ajjshavernn	.ajjtykenn	ajjnippernn	ajjtikenn	ajjkidnn	ajjsmall_frynn	.ajjnippernn	
+
+BE: suchJJcountriesNNS
+EQ class: suchjjstatenns	suchjjres_publicanns	suchjjcommonwealthnns	suchjjtheynns	suchjjlandnns	suchjjbody_politicnns	suchjjcountrynns	suchjjthemnns	suchjjnationnns	
+
+BE: MarriageNNbringsVBZ
+EQ class: unionnnconveyvbz	wedlocknnbringvbz	unionnnbringsvbz	spousal_relationshipnnconveyvbz	marriagennbringvbz	wedlocknntakevbz	unionnnbringvbz	unionnntakevbz	matrimonynnconveyvbz	spousal_relationshipnnbringvbz	matrimonynnbringvbz	wedlocknnconveyvbz	matrimonynntakevbz	spousal_relationshipnntakevbz	marriagenntakevbz	wedlocknnbringsvbz	spousal_relationshipnnbringsvbz	matrimonynnbringsvbz	marriagennconveyvbz	
+
+BE: itPRPisAUX
+EQ class: itprpbeaux	
+
+BE: marriageNNbecomesVBZ
+EQ class: unionnngetvbz	spousal_relationshipnnbecomevbz	wedlocknnbecomevbz	spousal_relationshipnngetvbz	matrimonynnbecomesvbz	spousal_relationshipnngovbz	wedlocknngovbz	matrimonynngovbz	marriagenngovbz	wedlocknngetvbz	spousal_relationshipnnbecomesvbz	unionnnbecomevbz	wedlocknnbecomesvbz	marriagennbecomevbz	unionnngovbz	matrimonynnbecomevbz	matrimonynngetvbz	unionnnbecomesvbz	marriagenngetvbz	
+
+BE: thereEXareAUX
+EQ class: thereexbeaux	
+
+BE: stateNNtakesVBZ
+EQ class: provincenntakevbz	provincenntakesvbz	statenntakevbz	
+
+BE: stateNNisAUX
+EQ class: provincennisaux	provincennbeaux	statennbeaux	
+
+BE: consideredVBNsituationNN
+EQ class: seevbnstate_of_affairsnn	reckonvbnstate_of_affairsnn	reckonvbnsituationnn	regardvbnstate_of_affairsnn	viewvbnsituationnn	viewvbnstate_of_affairsnn	consideredvbnstate_of_affairsnn	considervbnsituationnn	considervbnstate_of_affairsnn	seevbnsituationnn	regardvbnsituationnn	
+
+BE: takenVBNcareNN
+EQ class: takenvbnattentionnn	takevbntendingnn	takevbnaidnn	takevbnattentionnn	takevbncarenn	takenvbntendingnn	takenvbnaidnn	
+
+BE: areAUXcountriesNNS
+EQ class: beauxthemnns	areauxthemnns	beauxlandnns	beauxcountriesnns	beauxcommonwealthnns	areauxnationnns	beauxtheynns	beauxnationnns	areauxtheynns	areauxcommonwealthnns	beauxstatenns	areauxres_publicanns	areauxlandnns	beauxres_publicanns	beauxcountrynns	areauxbody_politicnns	beauxbody_politicnns	areauxstatenns	areauxcountrynns	
+
+BE: takesVBZcareNN
+EQ class: takesvbzattentionnn	takevbzcarenn	takesvbzaidnn	takesvbztendingnn	takevbzattentionnn	takevbztendingnn	takevbzaidnn	
+
+BE: isAUXmotherNN
+EQ class: isauxfemale_parentnn	beauxfemale_parentnn	beauxmothernn	isauxmotherlyjj	beauxmotherlyjj	
+
+BE: bornVBNchildNN
+EQ class: bornvbnnippernn	bearvbntiddlernn	bearvbnsmall_frynn	bornvbntiddlernn	bearvbnchildnn	bearvbnkidnn	bearvbntikenn	bornvbnminornn	bearvbnyoungsternn	bornvbntykenn	bornvbnyoungsternn	bornvbnchildlyjj	bornvbnfrynn	bearvbnchildlyjj	bearvbnnestlingnn	bornvbnsmall_frynn	bornvbnkidnn	bornvbnnestlingnn	bearvbnfrynn	bornvbnshavernn	bearvbntykenn	bearvbnminornn	bornvbntikenn	bearvbnnippernn	bearvbnshavernn	
+
+BE: consideredVBNmarriageNN
+EQ class: viewvbnmatrimonynn	consideredvbnwedlocknn	consideredvbnspousal_relationshipnn	reckonvbnmarriagenn	reckonvbnunionnn	consideredvbnunionnn	regardvbnunionnn	considervbnmatrimonynn	viewvbnspousal_relationshipnn	seevbnunionnn	seevbnmarriagenn	considervbnwedlocknn	reckonvbnmatrimonynn	regardvbnmarriagenn	considervbnspousal_relationshipnn	reckonvbnwedlocknn	viewvbnunionnn	regardvbnspousal_relationshipnn	viewvbnwedlocknn	consideredvbnmatrimonynn	considervbnmarriagenn	considervbnunionnn	viewvbnmarriagenn	reckonvbnspousal_relationshipnn	seevbnspousal_relationshipnn	regardvbnwedlocknn	seevbnwedlocknn	regardvbnmatrimonynn	seevbnmatrimonynn	
+
+BE: countriesNNSinINworldNN
+EQ class: landnnsininexistencenn	themnnsininworldnn	themnnsinincosmosnn	worldnnnationnns	commonwealthnnsininmacrocosmnn	existencennres_publicanns	macrocosmnncountriesnns	res_publicannsininmacrocosmnn	macrocosmnnstatenns	commonwealthnnsininexistencenn	countrynnsinincreationnn	landnnsininworldnn	statennsininworldnn	statennsininmacrocosmnn	nationnnsinincosmosnn	creationnncountriesnns	body_politicnnsininworldnn	commonwealthnnsinincreationnn	macrocosmnnres_publicanns	existencenncountrynns	cosmosnnbody_politicnns	universennres_publicanns	theynnsininexistencenn	cosmosnnres_publicanns	worldnnstatenns	themnnsinincreationnn	body_politicnnsininuniversenn	worldnntheynns	countrynnsinincosmosnn	existencennlandnns	countrynnsininworldnn	existencennnationnns	creationnnbody_politicnns	worldnncountriesnns	countriesnnsininmacrocosmnn	macrocosmnncountrynns	body_politicnnsinincreationnn	themnnsininuniversenn	countrynnsininmacrocosmnn	universennnationnns	universenncountrynns	nationnnsinincreationnn	countriesnnsininuniversenn	theynnsinincreationnn	res_publicannsininuniversenn	cosmosnnstatenns	nationnnsininworldnn	universennstatenns	countriesnnsinincreationnn	res_publicannsininexistencenn	landnnsininuniversenn	macrocosmnnthemnns	existencennthemnns	statennsinincosmosnn	body_politicnnsinincosmosnn	statennsininexistencenn	worldnnbody_politicnns	macrocosmnntheynns	worldnncommonwealthnns	body_politicnnsininexistencenn	creationnncountrynns	cosmosnnlandnns	worldnnthemnns	cosmosnntheynns	macrocosmnnlandnns	statennsininuniversenn	creationnncommonwealthnns	commonwealthnnsininuniversenn	macrocosmnnbody_politicnns	countriesnnsininexistencenn	existencennbody_politicnns	creationnnlandnns	nationnnsininexistencenn	universennlandnns	creationnnthemnns	creationnnres_publicanns	theynnsininworldnn	macrocosmnnnationnns	cosmosnncountrynns	cosmosnncommonwealthnns	countrynnsininuniversenn	commonwealthnnsininworldnn	res_publicannsinincosmosnn	existencenncountriesnns	universenntheynns	cosmosnncountriesnns	landnnsinincreationnn	themnnsininexistencenn	theynnsinincosmosnn	theynnsininuniversenn	themnnsininmacrocosmnn	creationnntheynns	macrocosmnncommonwealthnns	universennthemnns	worldnnres_publicanns	theynnsininmacrocosmnn	existencenncommonwealthnns	cosmosnnnationnns	statennsinincreationnn	universenncountriesnns	landnnsininmacrocosmnn	res_publicannsinincreationnn	universennbody_politicnns	existencenntheynns	existencennstatenns	worldnnlandnns	commonwealthnnsinincosmosnn	countriesnnsinincosmosnn	nationnnsininuniversenn	cosmosnnthemnns	universenncommonwealthnns	creationnnnationnns	body_politicnnsininmacrocosmnn	worldnncountrynns	creationnnstatenns	countrynnsininexistencenn	nationnnsininmacrocosmnn	landnnsinincosmosnn	res_publicannsininworldnn	
+
+BE: motherNNInPersonAnnotationsituationNN
+EQ class: female_parentnninpersonannotationsituationnn	situationnnmotherlyjj	motherlyjjinpersonannotationstate_of_affairsnn	mothernninpersonannotationstate_of_affairsnn	female_parentnninpersonannotationstate_of_affairsnn	state_of_affairsnnfemale_parentnn	situationnnmothernn	motherlyjjinpersonannotationsituationnn	state_of_affairsnnmotherlyjj	situationnnfemale_parentnn	state_of_affairsnnmothernn	
+
+BE: isAUXinINthisDT
+EQ class: beauxininthisdt	
+
+BE: takesVBZofINchildNN
+EQ class: takevbzofinminornn	takevbzofinkidnn	takesvbzofinsmall_frynn	takevbzofinyoungsternn	takevbzofinchildlyjj	takesvbzofinnestlingnn	takesvbzofintykenn	takesvbzofinchildlyjj	takesvbzofinyoungsternn	takevbzofinnippernn	takevbzofinsmall_frynn	takesvbzofinkidnn	takevbzofinnestlingnn	takevbzofintikenn	takesvbzofintikenn	takesvbzofinminornn	takesvbzofinfrynn	takevbzofintykenn	takevbzofinchildnn	takevbzofinshavernn	takevbzofintiddlernn	takesvbzofinnippernn	takesvbzofinshavernn	takevbzofinfrynn	takesvbzofintiddlernn	
+
+BE: importantJJinINcountriesNNS
+EQ class: importantjjininnationnns	importantjjininlandnns	of_importjjinincommonwealthnns	importancenninincountriesnns	importantjjinincommonwealthnns	importantjjininres_publicanns	of_importjjinincountriesnns	importancenninincommonwealthnns	of_importjjininlandnns	of_importjjininnationnns	of_importjjinintheynns	importantjjininbody_politicnns	importancennininbody_politicnns	importantjjinincountrynns	of_importjjinincountrynns	of_importjjininthemnns	importancenninincountrynns	importantjjininthemnns	of_importjjininres_publicanns	importancennininthemnns	importancenninintheynns	of_importjjininbody_politicnns	importantjjinintheynns	importancennininnationnns	importantjjininstatenns	importancennininres_publicanns	of_importjjininstatenns	importancennininstatenns	importancennininlandnns	
+
+BE: takenVBNofINisAUX
+EQ class: takenvbnofinbeaux	takevbnofinisaux	takevbnofinbeaux	
+
+BE: isAUXthatINbecomesVBZ
+EQ class: isauxthatingovbz	isauxthatinbecomevbz	beauxthatinbecomesvbz	beauxthatingovbz	isauxthatingetvbz	beauxthatinbecomevbz	beauxthatingetvbz	
+
+BE: takesVBZasINisAUX
+EQ class: takevbzasinisaux	takesvbzasinbeaux	takevbzasinbeaux	
+
+BE: isAUXnotRB
+EQ class: beauxnotrb	
+
+BE: motherNNstateNN
+EQ class: provincennmothernn	motherlyjjofinprovincenn	female_parentnnofinprovincenn	statennfussvb	provincennoverprotectvb	provincennfemale_parentnn	statennoverprotectvb	motherlyjjstatenn	provincennmothervb	statennmothervb	provincennmotherlyjj	mothernnofinstatenn	mothernnofinprovincenn	mothernnprovincenn	statennfemale_parentnn	motherlyjjprovincenn	statennmothernn	statennmotherlyjj	female_parentnnofinstatenn	female_parentnnstatenn	female_parentnnprovincenn	provincennfussvb	motherlyjjofinstatenn	
+

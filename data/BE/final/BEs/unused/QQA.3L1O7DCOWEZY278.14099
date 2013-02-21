@@ -1,0 +1,29 @@
+#4 and they are bowled,stumped, run out and lbw (leg before wicket)
+#(S1 (S (S (NP (CD 4))) (CC and) (S (NP (PRP they)) (VP (AUX are) (VP (VP (VBN bowled)) (, ,) (VP (VBN stumped)) (, ,) (VP (VBN run) (PRT (RP out))) (CC and) (VP (VBN lbw) (-LRB- -LRB-) (NP (NP (NN leg)) (PP (IN before) (NP (NN wicket)))) (-RRB- -RRB-)))))))
+#Rule:Nouns
+r1legNN
+r1wicketNN
+
+#Rule:Verbs
+r2bowledVBN
+r2stumpedVBN
+r2lbwPersonAnnotation
+
+#Rule:V-PRT
+r3runVBNoutRP
+
+#Rule:V-HeadNoun
+r21lbwPersonAnnotationlegNN
+
+#Rule:V-HeadNoun(passive)
+r23bowledVBNtheyPRP
+r23stumpedVBNtheyPRP
+r23runVBNtheyPRP
+r23lbwPersonAnnotationtheyPRP
+
+#Rule:PPinNP
+r26legNNbeforeINwicketNN
+
+@lemmas-left	bowl	leg	stumped	stump	bowled	lbw	run	wicket	
+@lemmas-right	they	leg	wicket	out	
+@lemmas-center	before	

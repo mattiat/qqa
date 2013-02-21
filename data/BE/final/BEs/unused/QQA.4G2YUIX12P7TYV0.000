@@ -1,0 +1,51 @@
+#How long does a recent diagnosed patent with stage 4 colon cancer live?
+#(S1 (SBARQ (WHADVP (WRB How) (RB long)) (SQ (AUX does) (NP (NP (DT a) (JJ recent) (VBN diagnosed) (NN patent)) (PP (IN with) (NP (NN stage) (CD 4) (NN colon) (NN cancer)))) (VP (VB live))) (. ?)))
+#Rule:Nouns
+r1patentNN
+r1stageNN
+r1colonNN
+r1cancerNN
+
+#Rule:Verbs
+r2diagnosedVBN
+r2liveVB
+
+#Rule:Adjs
+r4recentJJ
+
+#Rule:Adj-Noun
+r5recentJJpatentNN
+r5diagnosedVBNpatentNN
+r54CDcancerNN
+
+#Rule:N-HeadNoun
+r8colonNNcancerNN
+
+#Rule:PPinNP
+r26patentNNwithINcancerNN
+
+#a former teacher has that I was just curious.
+#(S1 (S (NP (DT a) (JJ former) (NN teacher)) (VP (AUX has) (SBAR (IN that) (S (NP (PRP I)) (VP (AUX was) (ADJP (RB just) (JJ curious)))))) (. .)))
+#Rule:Nouns
+r1teacherNN
+
+#Rule:Adjs
+r4formerJJ
+r4curiousJJ
+
+#Rule:Adj-Noun
+r5formerJJteacherNN
+
+#Rule:HeadNoun-V
+r11teacherNNhasAUX
+r11iPRPwasAUX
+
+#Rule:V-ADJ
+r25wasAUXcuriousJJ
+
+#Rule:V-IN-V
+r43hasAUXthatINwasAUX
+
+@lemmas-left	have	colon	former	patent	stage	diagnose	recent	has	was	i	curious	diagnosed	4	teacher	cancer	be	live	
+@lemmas-right	curious	have	patent	teacher	has	cancer	was	be	
+@lemmas-center	that	with	

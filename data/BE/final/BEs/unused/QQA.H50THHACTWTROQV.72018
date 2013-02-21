@@ -1,0 +1,36 @@
+#its simply because of four little words called  DIFFERENT POINT OF VIEW  .
+#(S1 (S (NP (NP (PRP$ its) (JJ simply)) (PP (RB because) (IN of) (NP (CD four) (JJ little) (NNS words)))) (VP (VBD called) (NP (NP (JJ DIFFERENT) (NN POINT)) (PP (IN OF) (NP (NN VIEW))))) (. .)))
+#Rule:Nouns
+r1wordsNNS
+r1POINTNN
+r1VIEW  .LocationAnnotation
+
+#Rule:Verbs
+r2calledVBD
+
+#Rule:Adjs
+r4simplyJJ
+r4littleJJ
+r4DIFFERENTJJ
+
+#Rule:Adj-Noun
+r5fourCDwordsNNS
+r5littleJJwordsNNS
+r5DIFFERENTJJPOINTNN
+
+#Rule:PRP-Noun
+r6itsPRP$simplyJJ
+
+#Rule:HeadNoun-V
+r11simplyJJcalledVBD
+
+#Rule:V-HeadNoun
+r21calledVBDPOINTNN
+
+#Rule:PPinNP
+r26simplyJJofINwordsNNS
+r26POINTNNofINVIEW  .LocationAnnotation
+
+@lemmas-left	different	call	point	DIFFERENT	words	simply	called	little	POINT	its	four	VIEW  .	
+@lemmas-right	call	point	words	simply	called	POINT	VIEW  .	
+@lemmas-center	of	

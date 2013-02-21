@@ -1,0 +1,28 @@
+#the reflection of the sun shining through the water droplets in the sky.
+#(S1 (S (NP (NP (DT the) (NN reflection)) (PP (IN of) (NP (DT the) (NN sun)))) (VP (VBG shining) (PP (IN through) (NP (NP (DT the) (NN water) (NNS droplets)) (PP (IN in) (NP (DT the) (NN sky)))))) (. .)))
+#Rule:Nouns
+r1reflectionNN
+r1sunNN
+r1waterNN
+r1dropletsNNS
+r1skyLocationAnnotation
+
+#Rule:Verbs
+r2shiningVBG
+
+#Rule:N-HeadNoun
+r8waterNNdropletsNNS
+
+#Rule:HeadNoun-V
+r11reflectionNNshiningVBG
+
+#Rule:PPinNP
+r26reflectionNNofINsunNN
+r26dropletsNNSinINskyLocationAnnotation
+
+#Rule:PPinVP
+r30shiningVBGthroughINdropletsNNS
+
+@lemmas-left	water	reflection	sky	droplet	shining	shine	sun	droplets	
+@lemmas-right	sky	droplet	shining	shine	sun	droplets	
+@lemmas-center	of	through	in	

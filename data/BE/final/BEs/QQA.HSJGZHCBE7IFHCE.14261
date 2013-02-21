@@ -1,0 +1,152 @@
+#what you just said in your questionsounds already great to me.  
+#(S1 (SBARQ (WHNP (WP what)) (SQ (NP (PRP you)) (VP (ADVP (RB just)) (VBD said) (PP (IN in) (NP (NP (PRP$ your) (NNS questionsounds)) (ADJP (RB already) (RB great) (PP (TO to) (NP (PRP me)))))))) (. .)))
+#Rule:Nouns
+r1questionsoundsNNS
+
+#Rule:Verbs
+r2saidVBD
+
+#Rule:PRP-Noun
+r6yourPRP$questionsoundsNNS
+
+#Rule:PPinVP
+r30saidVBDinINquestionsoundsNNS
+
+#Rule:PPinADJP
+r37alreadyRBtoTOmePRP
+
+#Rule:V-ADV
+r46saidVBDjustRB
+
+#sometimes its hard knowing what to say.  
+#(S1 (S (ADVP (RB sometimes)) (NP (PRP$ its) (JJ hard)) (VP (VBG knowing) (SBAR (WHNP (WP what)) (S (VP (TO to) (VP (VB say)))))) (. .)))
+#Rule:Verbs
+r2knowingVBG
+r2sayVB
+
+#Rule:Adjs
+r4hardJJ
+
+#Rule:PRP-Noun
+r6itsPRP$hardJJ
+
+#Rule:HeadNoun-V
+r11hardJJknowingVBG
+
+#Rule:V-ADV
+r46knowingVBGsometimesRB
+
+#just being there, loving her and helping around the house is great.  
+#(S1 (S (ADVP (RB just) (VP (AUXG being) (ADVP (RB there)))) (, ,) (S (VP (VP (VBG loving) (NP (PRP her))) (CC and) (VP (VBG helping) (PRT (RP around)) (NP (DT the) (NN house))))) (VP (AUX is) (ADJP (JJ great))) (. .)))
+#Rule:Nouns
+r1houseNN
+
+#Rule:Verbs
+r2lovingVBG
+
+#Rule:V-PRT
+r3helpingVBGaroundRP
+
+#Rule:Adjs
+r4greatJJ
+
+#Rule:V-HeadNoun
+r21lovingVBGherPRP
+r21helpingVBGhouseNN
+
+#Rule:V-ADJ
+r25isAUXgreatJJ
+
+#Rule:V-ADV
+r46isAUXjustRB
+
+#sounds like you are already helping her.  
+#(S1 (S (VP (VBZ sounds) (SBAR (IN like) (S (NP (PRP you)) (VP (AUX are) (ADVP (RB already)) (VP (VBG helping) (NP (PRP her))))))) (. .)))
+#Rule:Verbs
+r2soundsVBZ
+r2helpingVBG
+
+#Rule:HeadNoun-V
+r11youPRPhelpingVBG
+
+#Rule:V-HeadNoun
+r21helpingVBGherPRP
+
+#Rule:V-IN-V
+r43soundsVBZlikeINhelpingVBG
+
+#Rule:V-ADV
+r46areAUXalreadyRB
+r46helpingVBGalreadyRB
+
+#keep up the great work.  
+#(S1 (S (VP (VB keep) (PRT (RP up)) (NP (DT the) (JJ great) (NN work))) (. .)))
+#Rule:Nouns
+r1workNN
+
+#Rule:V-PRT
+r3keepVBupRP
+
+#Rule:Adjs
+r4greatJJ
+
+#Rule:Adj-Noun
+r5greatJJworkNN
+
+#Rule:V-HeadNoun
+r21keepVBworkNN
+
+#what your mom is going thru is hard and she needs to be sad  sometimes.  
+#(S1 (S (S (SBAR (WHNP (WP what)) (S (NP (PRP$ your) (NN mom)) (VP (AUX is) (VP (VBG going) (NP (NN thru)))))) (VP (AUX is) (ADJP (JJ hard)))) (CC and) (S (NP (PRP she)) (VP (VBZ needs) (S (VP (TO to) (VP (AUX be) (ADJP (JJ sad)) (ADVP (RB sometimes))))))) (. .)))
+#Rule:Nouns
+r1momNN
+r1thruNN
+
+#Rule:Verbs
+r2goingVBG
+r2needsVBZ
+
+#Rule:Adjs
+r4hardJJ
+r4sadJJ
+
+#Rule:PRP-Noun
+r6yourPRP$momNN
+
+#Rule:HeadNoun-V
+r11momNNgoingVBG
+r11shePRPneedsVBZ
+
+#Rule:V-HeadNoun
+r21goingVBGthruNN
+
+#Rule:V-ADJ
+r25isAUXhardJJ
+r25beAUXsadJJ
+
+#Rule:V-ADV
+r46beAUXsometimesRB
+
+#just take care of each other.
+#(S1 (S (ADVP (RB just)) (VP (VB take) (NP (NN care)) (PP (IN of) (NP (DT each) (JJ other)))) (. .)))
+#Rule:Nouns
+r1careNN
+
+#Rule:Verbs
+r2takeVB
+
+#Rule:Adjs
+r4otherJJ
+
+#Rule:V-HeadNoun
+r21takeVBcareNN
+
+#Rule:PPinVP
+r30takeVBofINotherJJ
+
+#Rule:V-ADV
+r46takeVBjustRB
+
+@lemmas-left	need	other	knowing	said	thru	sad	house	its	love	help	are	care	she	hard	be	sounds	work	going	is	needs	your	you	loving	already	questionsounds	know	mom	great	helping	take	sound	say	go	keep	
+@lemmas-right	need	knowing	other	thru	sometimes	sad	house	help	care	her	me	hard	just	work	going	needs	already	questionsounds	know	mom	around	up	great	helping	go	
+@lemmas-center	to	of	like	in	

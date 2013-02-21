@@ -1,0 +1,11 @@
+#Why was bush reelected?
+#(S1 (SBARQ (WHADVP (WRB Why)) (SQ (AUX was) (NP (NNP bush)) (VP (VBN reelected))) (. ?)))
+#Rule:Nouns
+r1bushNNP
+
+#Rule:Verbs
+r2reelectedVBN
+
+@lemmas-left	reelected	bush	reelect	
+@lemmas-right	
+@lemmas-center	

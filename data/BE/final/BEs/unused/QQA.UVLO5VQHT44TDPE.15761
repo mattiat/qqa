@@ -1,0 +1,117 @@
+#Japan lies to the east of the Eurasian continent, and beyond Japan lies the Pacific Ocean. 
+#(S1 (S (S (NP (NNP Japan)) (VP (VBZ lies) (PP (TO to) (NP (NP (DT the) (JJ east)) (PP (IN of) (NP (DT the) (NNP Eurasian) (NN continent))))))) (, ,) (CC and) (S (PP (IN beyond) (NP (NNP Japan))) (VP (VBZ lies) (NP (DT the) (NNP Pacific) (NNP Ocean)))) (. .)))
+#Rule:Nouns
+r1JapanLocationAnnotation
+r1EurasianLocationAnnotation
+r1continentNN
+r1JapanLocationAnnotation
+r1Pacific OceanOrganizationAnnotation
+
+#Rule:Verbs
+r2liesVBZ
+r2liesVBZ
+
+#Rule:Adjs
+r4eastJJ
+
+#Rule:N-HeadNoun
+r8EurasianLocationAnnotationcontinentNN
+
+#Rule:HeadNoun-V
+r11JapanLocationAnnotationliesVBZ
+
+#Rule:V-HeadNoun
+r21liesVBZPacific OceanOrganizationAnnotation
+
+#Rule:PPinNP
+r26eastJJofINcontinentNN
+
+#Rule:PPinVP
+r30liesVBZtoTOeastJJ
+
+#Rule:PPinS
+r36liesVBZbeyondINJapanLocationAnnotation
+
+#So from the continental point of view, Japan is in the direction of the sunrise. 
+#(S1 (S (RB So) (PP (IN from) (NP (NP (DT the) (JJ continental) (NN point)) (PP (IN of) (NP (NN view))))) (, ,) (NP (NNP Japan)) (VP (AUX is) (PP (IN in) (NP (NP (DT the) (NN direction)) (PP (IN of) (NP (DT the) (NN sunrise)))))) (. .)))
+#Rule:Nouns
+r1pointNN
+r1viewNN
+r1JapanLocationAnnotation
+r1directionNN
+r1sunriseNN
+
+#Rule:Adjs
+r4continentalJJ
+
+#Rule:Adj-Noun
+r5continentalJJpointNN
+
+#Rule:HeadNoun-V
+r11JapanLocationAnnotationisAUX
+
+#Rule:PPinNP
+r26pointNNofINviewNN
+r26directionNNofINsunriseNN
+
+#Rule:PPinVP
+r30isAUXinINdirectionNN
+
+#Rule:PPinS
+r36isAUXfromINpointNN
+
+#This is why the Japanese began to call their country Nihon or Nippon, literally meaning source of the sun and often translated into English as land of the rising sun.
+#(S1 (S (NP (DT This)) (VP (AUX is) (SBAR (WHADVP (WRB why)) (S (NP (DT the) (NNPS Japanese)) (VP (VBD began) (S (VP (TO to) (VP (VB call) (NP (PRP$ their) (NN country))))) (NP (NNP Nihon) (CC or) (NNP Nippon)) (, ,) (S (VP (VP (ADVP (RB literally)) (VBG meaning) (NP (NP (NN source)) (PP (IN of) (NP (DT the) (NN sun))))) (CC and) (VP (ADVP (RB often)) (VBN translated) (PP (IN into) (NP (NNP English))) (PP (IN as) (NP (NP (NN land)) (PP (IN of) (NP (DT the) (VBG rising) (NN sun)))))))))))) (. .)))
+#Rule:Nouns
+r1JapaneseNNPS
+r1countryNN
+r1NihonPersonAnnotation
+r1NipponOrganizationAnnotation
+r1sourceNN
+r1sunNN
+r1EnglishNNP
+r1landNN
+r1sunNN
+
+#Rule:Verbs
+r2beganVBD
+r2callVB
+r2meaningVBG
+r2translatedVBN
+r2risingVBG
+
+#Rule:Adj-Noun
+r5risingVBGsunNN
+
+#Rule:PRP-Noun
+r6theirPRP$countryNN
+
+#Rule:HeadNoun-V
+r11thisDTisAUX
+r11JapaneseNNPSbeganVBD
+
+#Rule:V-HeadNoun
+r21beganVBDNihonPersonAnnotation
+r21callVBcountryNN
+r21meaningVBGsourceNN
+
+#Rule:PPinNP
+r26sourceNNofINsunNN
+r26landNNofINsunNN
+
+#Rule:PPinVP
+r32translatedVBNintoINEnglishNNP
+r32translatedVBNasINlandNN
+
+#Rule:V-V
+r44beganVBDcallVB
+r44beganVBDmeaningVBG
+r44beganVBDtranslatedVBN
+
+#Rule:V-ADV
+r46meaningVBGliterallyRB
+r46translatedVBNoftenRB
+
+@lemmas-left	call	Nihon	Nippon	lies	direction	land	sun	translated	rise	began	mean	east	be	Japanese	is	Eurasian	meaning	continental	japanese	English	country	begin	point	rising	source	Pacific Ocean	continent	translate	sunrise	view	their	this	english	lie	Japan	
+@lemmas-right	literally	call	Nihon	lies	direction	land	sun	translated	began	mean	east	be	is	meaning	English	country	begin	point	source	often	Pacific Ocean	continent	translate	sunrise	view	english	Japan	lie	
+@lemmas-center	to	of	into	as	from	in	beyond	

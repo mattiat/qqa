@@ -1,0 +1,67 @@
+#Imperialism. The same reason the US invaded Iraq..
+#(S1 (FRAG (NP (RB Imperialism.) (DT The) (JJ same) (NN reason)) (S (NP (DT the) (NNP US)) (VP (VBD invaded) (NP (NNP Iraq))) (. .)) (. .)))
+#Rule:Nouns
+r1reasonNN
+r1USLocationAnnotation
+r1Iraq..LocationAnnotation
+
+#Rule:Verbs
+r2invadedVBD
+
+#Rule:Adjs
+r4sameJJ
+
+#Rule:Adj-Noun
+r5sameJJreasonNN
+
+#Rule:HeadNoun-V
+r11USLocationAnnotationinvadedVBD
+
+#Rule:V-HeadNoun
+r21invadedVBDIraq..LocationAnnotation
+
+#They wanted Manchuria for its rich natural resources. Japan has very little natural resources of its own.
+#(S1 (S (NP (PRP They)) (VP (VBD wanted) (NP (NNP Manchuria)) (PP (IN for) (NP (NP (PRP$ its) (JJ rich) (JJ natural) (NN resources.)) (SBAR (S (NP (NNP Japan)) (VP (AUX has) (NP (NP (ADJP (RB very) (JJ little)) (JJ natural) (NNS resources)) (PP (IN of) (NP (PRP$ its) (JJ own)))))))))) (. .)))
+#Rule:Nouns
+r1ManchuriaLocationAnnotation
+r1resourcesNN
+r1JapanLocationAnnotation
+r1resourcesNNS
+
+#Rule:Verbs
+r2wantedVBD
+
+#Rule:Adjs
+r4richJJ
+r4naturalJJ
+r4littleJJ
+r4naturalJJ
+r4ownJJ
+
+#Rule:Adj-Noun
+r5richJJresourcesNN
+r5naturalJJresourcesNN
+r5littleJJresourcesNNS
+r5naturalJJresourcesNNS
+
+#Rule:PRP-Noun
+r6itsPRP$resourcesNN
+r6itsPRP$ownJJ
+
+#Rule:HeadNoun-V
+r11theyPRPwantedVBD
+r11JapanLocationAnnotationhasAUX
+
+#Rule:V-HeadNoun
+r21wantedVBDManchuriaLocationAnnotation
+r21hasAUXresourcesNNS
+
+#Rule:PPinNP
+r26resourcesNNSofINownJJ
+
+#Rule:PPinVP
+r30wantedVBDforINresourcesNN
+
+@lemmas-left	they	resources	US	have	reason	rich	resource	little	resources.	its	same	has	wanted	Manchuria	Iraq..	own	invade	natural	Japan	want	invaded	
+@lemmas-right	resources	reason	have	resource	resources.	wanted	has	Manchuria	Iraq..	own	invade	want	invaded	
+@lemmas-center	of	for	

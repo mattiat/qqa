@@ -1,0 +1,15 @@
+#Why body needs vitamins?
+#(S1 (SBARQ (WHADVP (WRB Why)) (SQ (NP (NN body)) (VP (VBZ needs) (NP (NNS vitamins)))) (. ?)))
+#Rule:Nouns
+r1bodyNN
+r1vitaminsPersonAnnotation
+
+#Rule:Verbs
+r2needsVBZ
+
+#Rule:V-HeadNoun
+r21needsVBZvitaminsPersonAnnotation
+
+@lemmas-left	need	body	vitamins	needs	
+@lemmas-right	vitamins	
+@lemmas-center	

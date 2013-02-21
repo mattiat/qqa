@@ -1,0 +1,43 @@
+#sourav but wen he was the captain he never played gud so i think rahul should stay cuz hes guuuud too
+#(S1 (UCP (NNP sourav) (CC but) (ADJP (JJ wen) (SBAR (S (NP (PRP he)) (VP (AUX was) (NP (NP (DT the) (NN captain)) (SBAR (S (NP (PRP he)) (ADVP (RB never)) (VP (VBD played) (ADVP (RB gud)) (SBAR (IN so) (S (NP (PRP i)) (VP (VBP think) (SBAR (S (NP (NN rahul)) (VP (MD should) (VP (VB stay) (ADVP (NP (CD cuz) (NNS hes)) (RB guuuud)) (ADVP (RB too)))))))))))))))))))
+#Rule:Nouns
+r1souravNNP
+r1captainNN
+r1rahulOrganizationAnnotation
+r1hes guuuudPersonAnnotation
+
+#Rule:Verbs
+r2playedVBD
+r2thinkVBP
+r2stayVB
+
+#Rule:Adjs
+r4wenJJ
+
+#Rule:Adj-Noun
+r5cuzCDhes guuuudPersonAnnotation
+
+#Rule:HeadNoun-V
+r11hePRPwasAUX
+r11hePRPplayedVBD
+r11iPRPthinkVBP
+r11rahulOrganizationAnnotationstayVB
+
+#Rule:NP(NP(z) SBAR(S(NP(x)VP(y))))
+r19playedVBDcaptainNN
+
+#Rule:V-HeadNoun
+r21wasAUXcaptainNN
+
+#Rule:V-IN-V
+r43playedVBDsoINthinkVBP
+
+#Rule:V-ADV
+r46playedVBDneverRB
+r46playedVBDgudRB
+r46stayVBhes guuuudPersonAnnotation
+r46stayVBtooRB
+
+@lemmas-left	sourav	think	stay	rahul	play	he	was	captain	i	hes guuuud	cuz	played	wen	be	
+@lemmas-right	hes guuuud	never	think	stay	played	play	too	gud	captain	was	be	
+@lemmas-center	so	

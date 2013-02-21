@@ -1,0 +1,57 @@
+#only a doctor can do that by tests there are symptoms  like getting breathless when walking or running  if you think you have heart problems go to doctor  or end up like me triple bypass
+#(S1 (S (NP (RB only) (DT a) (NN doctor)) (VP (MD can) (VP (AUX do) (NP (DT that)) (PP (IN by) (NP (NP (NNS tests)) (SBAR (S (NP (EX there)) (VP (AUX are) (NP (NP (NNS symptoms)) (PP (IN like) (S (VP (VBG getting) (NP (NN breathless)) (SBAR (WHADVP (WRB when)) (S (VP (VBG walking) (CC or) (VBG running) (SBAR (IN if) (S (NP (PRP you)) (VP (VB think) (SBAR (S (NP (PRP you)) (VP (AUX have) (S (NP (NN heart) (NNS problems)) (VP (VB go) (S (VP (TO to) (VP (VP (VB doctor)) (CC or) (VP (VB end) (PRT (RP up)) (PP (IN like) (NP (PRP me)))) (NP (JJ triple) (NN bypass)))))))))))))))))))))))))))))
+#Rule:Nouns
+r1doctorNN
+r1testsNNS
+r1symptomsNNS
+r1breathlessNN
+r1heartNN
+r1problemsNNS
+r1bypassLocationAnnotation
+
+#Rule:Verbs
+r2gettingVBG
+r2walkingVBG
+r2runningVBG
+r2thinkVB
+r2goVB
+r2doctorVB
+
+#Rule:V-PRT
+r3endVBupRP
+
+#Rule:Adjs
+r4tripleJJ
+
+#Rule:Adj-Noun
+r5tripleJJbypassLocationAnnotation
+
+#Rule:N-HeadNoun
+r8heartNNproblemsNNS
+
+#Rule:HeadNoun-V
+r11doctorNNdoAUX
+r11thereEXareAUX
+r11youPRPthinkVB
+r11youPRPhaveAUX
+r11problemsNNSgoVB
+
+#Rule:V-HeadNoun
+r21doAUXthatDT
+r21areAUXsymptomsNNS
+r21gettingVBGbreathlessNN
+r21doctorVBbypassLocationAnnotation
+
+#Rule:V-HeadNoun
+r22haveAUXproblemsNNS
+
+#Rule:PPinVP
+r30doAUXbyINtestsNNS
+r30endVBlikeINmePRP
+
+#Rule:V-IN-V
+r43walkingVBGifINthinkVB
+
+@lemmas-left	getting	walking	have	test	run	running	doctor	are	tests	triple	do	end	be	breathless	think	problems	heart	get	problem	you	symptoms	there	bypass	walk	symptom	go	
+@lemmas-right	breathless	think	problems	test	have	problem	up	that	symptoms	are	tests	bypass	me	do	be	go	symptom	
+@lemmas-center	if	by	like	

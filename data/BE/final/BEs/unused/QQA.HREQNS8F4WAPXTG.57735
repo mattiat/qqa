@@ -1,0 +1,92 @@
+#It is just NOT possible. 
+#(S1 (S (NP (PRP It)) (VP (AUX is) (ADVP (RB just)) (ADJP (RB NOT) (JJ possible))) (. .)))
+#Rule:Adjs
+r4possibleJJ
+
+#Rule:HeadNoun-V
+r11itPRPisAUX
+
+#Rule:V-ADJ
+r25isAUXpossibleJJ
+
+#Rule:V-ADV
+r46isAUXjustRB
+
+#It requires qualification, experience, and a license. 
+#(S1 (S (NP (PRP It)) (VP (VBZ requires) (NP (NP (NN qualification)) (, ,) (NP (NN experience)) (, ,) (CC and) (NP (DT a) (NN license)))) (. .)))
+#Rule:Nouns
+r1qualificationNN
+r1experienceNN
+r1licenseNN
+
+#Rule:Verbs
+r2requiresVBZ
+
+#Rule:N-ApposN
+r10qualificationNNexperienceNN
+
+#Rule:HeadNoun-V
+r11itPRPrequiresVBZ
+
+#Rule:V-HeadNoun
+r21requiresVBZqualificationNN
+
+#Without valid license, a person making a chem lab of his own, and further trying to teach children, can be prosecuted by law.
+#(S1 (S (PP (IN Without) (NP (JJ valid) (NN license))) (, ,) (NP (NP (DT a) (NN person)) (VP (VP (VBG making) (NP (NP (DT a) (NNP chem) (NN lab)) (PP (IN of) (NP (PRP$ his) (JJ own))))) (, ,) (CC and) (ADVP (RB further)) (VP (VBG trying) (S (VP (TO to) (VP (VB teach) (NP (NNS children))))))) (, ,)) (VP (MD can) (VP (AUX be) (VP (VBN prosecuted) (PP (IN by) (NP (NN law)))))) (. .)))
+#Rule:Nouns
+r1licenseNN
+r1personNN
+r1chemNNP
+r1labNN
+r1childrenNNS
+r1lawNN
+
+#Rule:Verbs
+r2makingVBG
+r2tryingVBG
+r2teachVB
+r2prosecutedVBN
+
+#Rule:Adjs
+r4validJJ
+r4ownJJ
+
+#Rule:Adj-Noun
+r5validJJlicenseNN
+
+#Rule:PRP-Noun
+r6hisPRP$ownJJ
+
+#Rule:N-HeadNoun
+r8chemNNPlabNN
+
+#Rule:HeadNoun-V
+r11personNNmakingVBG
+r11personNNtryingVBG
+
+#Rule:V-By-Agent
+r13lawNNprosecutedVBN
+
+#Rule:V-HeadNoun
+r21makingVBGlabNN
+r21teachVBchildrenNNS
+
+#Rule:V-HeadNoun(passive)
+r23prosecutedVBNpersonNN
+
+#Rule:PPinNP
+r26labNNofINownJJ
+
+#Rule:PPinS
+r36canMDwithoutINlicenseNN
+
+#Rule:V-V
+r44tryingVBGteachVB
+
+#Rule:V-ADV
+r46makingVBGfurtherRB
+r46tryingVBGfurtherRB
+
+@lemmas-left	valid	person	can	children	lab	trying	child	qualification	possible	his	prosecuted	chem	experience	making	license	be	law	is	it	prosecute	teach	requires	require	own	make	try	
+@lemmas-right	just	person	is	prosecute	children	teach	trying	lab	requires	further	child	possible	qualification	prosecuted	experience	require	own	making	license	make	try	be	
+@lemmas-center	of	without	

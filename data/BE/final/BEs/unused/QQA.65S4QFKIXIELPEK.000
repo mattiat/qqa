@@ -1,0 +1,74 @@
+#How would you book Brock Lesnars return to WWE if he were to return??
+#(S1 (SBARQ (WHADVP (WRB How)) (SQ (MD would) (NP (PRP you)) (ADVP (NN book)) (NP (NNP Brock) (NNP Lesnars)) (VP (VB return) (PP (TO to) (NP (NNP WWE))) (SBAR (IN if) (S (NP (PRP he)) (VP (AUX were) (S (VP (TO to) (VP (VB return)))))))) (. ?)) (. ?)))
+#Rule:Nouns
+r1bookNN
+r1Brock LesnarsPersonAnnotation
+r1WWELocationAnnotation
+
+#Rule:Verbs
+r2returnVB
+r2returnVB
+
+#Rule:HeadNoun-V
+r11hePRPwereAUX
+
+#Rule:PPinVP
+r30returnVBtoTOWWELocationAnnotation
+
+#Rule:V-IN-V
+r43returnVBifINwereAUX
+
+#Go into detail of how youd book a long term angle with him. Would he be a heel or face and what brand would he be on? Best answer or idea of course gets those 10 points :-)
+#(S1 (S (S (VP (VB Go) (PP (IN into) (NP (NP (NN detail)) (PP (IN of) (SBAR (WHNP (WRB how) (JJ youd) (NN book)) (S (S (NP (NP (DT a) (JJ long) (NN term) (NN angle)) (PP (IN with) (NP (NNS him.)))) (VP (MD Would) (ADVP (PRP he)) (VP (AUX be) (NP (DT a) (NN heel) (CC or) (NN face) (CC and) (X (SBARQ (WHNP (WP what) (NN brand)) (SQ (MD would) (NP (PRP he)) (VP (AUX be) (PP (IN on))))) (. ?)) (JJS Best) (NN answer))))) (CC or) (S (NP (NP (NN idea)) (PP (IN of) (NP (NN course)))) (VP (VBZ gets) (NP (DT those) (CD 10) (NNS points))))))))))) (: :) (: -) (-RRB- -RRB-)))
+#Rule:Nouns
+r1detailNN
+r1bookNN
+r1termNN
+r1angleNN
+r1himNNS
+r1heelNN
+r1faceNN
+r1brandNN
+r1answerNN
+r1ideaNN
+r1courseNN
+r1pointsNNS
+
+#Rule:Verbs
+r2goVB
+r2getsVBZ
+
+#Rule:Adjs
+r4youdJJ
+r4longJJ
+r4BestLocationAnnotation
+
+#Rule:Adj-Noun
+r5longJJangleNN
+r5BestLocationAnnotationanswerNN
+r510CDpointsNNS
+
+#Rule:N-HeadNoun
+r8termNNangleNN
+
+#Rule:HeadNoun-V
+r11angleNNbeAUX
+r11ideaNNgetsVBZ
+
+#Rule:V-HeadNoun
+r21beAUXanswerNN
+r21getsVBZpointsNNS
+
+#Rule:PPinNP
+r26angleNNwithINhimNNS
+r26ideaNNofINcourseNN
+
+#Rule:PPinVP
+r30goVBintoINdetailNN
+
+#Rule:IS-RULE
+r47answerNNangleNN
+
+@lemmas-left	face	detail	idea	him.	WWE	him	long	course	Best	points	be	get	heel	gets	return	answer	he	angle	youd	Brock Lesnars	point	10	term	book	brand	go	
+@lemmas-right	detail	get	him.	WWE	gets	answer	him	angle	course	point	were	points	be	
+@lemmas-center	to	of	with	if	into	

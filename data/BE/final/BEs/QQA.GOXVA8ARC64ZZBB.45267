@@ -1,0 +1,72 @@
+#Do you really want to quit? If you re not 100% dedicated to quitting, it ll never work. Yeah, there s gum and patches and medicine, and all that other stuff, but you need the will power. Otherwise nothing will work, no matter how hard you try..
+#(S1 (SQ (AUX Do) (NP (PRP you)) (ADVP (RB really)) (VP (VB want) (S (VP (TO to) (VP (VB quit))))) (. ?) (S (SBAR (IN If) (S (NP (PRP you)) (NP (NNP re) (RB not) (CD 100) (NN %)) (VP (VBN dedicated) (PP (TO to) (NP (NN quitting)))))) (, ,) (NP (PRP it)) (VP (VBD ll) (SBAR (S (ADVP (RB never)) (VP (VBD work.) (SBAR (S (S (INTJ (UH Yeah)) (, ,) (NP (EX there)) (VP (VBZ s) (NP (NP (NN gum) (CC and) (NNS patches)) (CC and) (NP (NN medicine)) (, ,) (CC and) (NP (PDT all) (DT that) (JJ other) (NN stuff))))) (, ,) (CC but) (S (NP (PRP you)) (VP (AUX need) (NP (DT the) (NN will) (NN power.)) (SBAR (RB Otherwise) (S (NP (NN nothing)) (VP (MD will) (VP (VB work) (, ,) (ADVP (DT no) (NN matter) (SBAR (WHADJP (WRB how) (JJ hard)) (S (NP (PRP you)) (VP (VBP try))))))))))) (. .))))))) (. .))))
+#Rule:Nouns
+r1reNNP
+r1%NN
+r1quittingNN
+r1gumNN
+r1patchesNNS
+r1medicineNN
+r1stuffNN
+r1willNN
+r1powerNN
+r1nothingNN
+r1matterNN
+
+#Rule:Verbs
+r2wantVB
+r2quitVB
+r2dedicatedVBN
+r2llVBD
+r2workVBD
+r2sVBZ
+r2workVB
+r2tryVBP
+
+#Rule:Adjs
+r4otherJJ
+r4hardJJ
+
+#Rule:Adj-Noun
+r5100CD%NN
+r5otherJJstuffNN
+
+#Rule:N-HeadNoun
+r8willNNpowerNN
+
+#Rule:HeadNoun-V
+r11itPRPllVBD
+r11thereEXsVBZ
+r11youPRPneedAUX
+r11nothingNNworkVB
+r11youPRPtryVBP
+
+#Rule:V-HeadNoun
+r21sVBZgumNN
+r21needAUXpowerNN
+
+#Rule:V-HeadNoun(passive)
+r24dedicatedVBNyouPRP
+r24dedicatedVBN%NN
+
+#Rule:PPinVP
+r32dedicatedVBNtoTOquittingNN
+
+#Rule:V-V
+r44wantVBquitVB
+
+#Rule:V-ADV
+r46workVBDneverRB
+
+#Best of luck on quitting!
+#(S1 (FRAG (ADVP (JJS Best) (PP (IN of) (NP (NN luck)))) (PP (IN on) (NP (NN quitting))) (. !)))
+#Rule:Nouns
+r1luckNN
+r1quittingNN
+
+#Rule:Adjs
+r4BestJJS
+
+@lemmas-left	need	ll	other	re	dedicate	quit	Best	gum	dedicated	best	power	work.	medicine	hard	want	100	work	it	power.	matter	luck	%	you	patches	stuff	s	quitting	there	nothing	will	patch	try	
+@lemmas-right	need	work	ll	power.	%	you	quit	never	stuff	s	gum	quitting	power	try	
+@lemmas-center	to	

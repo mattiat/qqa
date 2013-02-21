@@ -1,0 +1,124 @@
+#In my case, I had terrible math and science teachers.  
+#(S1 (S (PP (IN In) (NP (PRP$ my) (NN case))) (, ,) (NP (PRP I)) (VP (AUX had) (NP (JJ terrible) (NN math) (CC and) (NN science) (NNS teachers))) (. .)))
+#Rule:Nouns
+r1caseNN
+r1mathNN
+r1scienceNN
+r1teachersNNS
+
+#Rule:Adjs
+r4terribleJJ
+
+#Rule:Adj-Noun
+r5terribleJJteachersNNS
+
+#Rule:PRP-Noun
+r6myPRP$caseNN
+
+#Rule:N-HeadNoun
+r8scienceNNteachersNNS
+
+#Rule:HeadNoun-V
+r11iPRPhadAUX
+
+#Rule:V-HeadNoun
+r21hadAUXteachersNNS
+
+#Rule:PPinS
+r36hadAUXinINcaseNN
+
+#It wasn t until college that I finally stumbled upon  professors who made it interesting.  
+#(S1 (S (NP (PRP It)) (ADVP (RB wasn)) (VP (VBZ t) (PP (IN until) (NP (NN college))) (SBAR (IN that) (S (NP (PRP I)) (ADVP (RB finally)) (VP (VBD stumbled) (PP (IN upon) (NP (NP (NNS professors)) (SBAR (WHNP (WP who)) (S (VP (VBD made) (S (NP (PRP it)) (ADJP (JJ interesting)))))))))))) (. .)))
+#Rule:Nouns
+r1collegeNN
+r1professorsNNS
+
+#Rule:Verbs
+r2tLocationAnnotation
+r2stumbledVBD
+r2madeVBD
+
+#Rule:Adjs
+r4interestingJJ
+
+#Rule:HeadNoun-V
+r11itPRPtLocationAnnotation
+r11iPRPstumbledVBD
+
+#Rule:HeadNoun-(who/that)-V
+r14professorsNNSmadeVBD
+
+#Rule:V-HeadNoun
+r22madeVBDitPRP
+
+#Rule:PPinVP
+r30tLocationAnnotationuntilINcollegeNN
+r30stumbledVBDuponINprofessorsNNS
+
+#Rule:V-IN-V
+r43tLocationAnnotationthatINstumbledVBD
+
+#Rule:V-ADV
+r46tLocationAnnotationwasnRB
+r46stumbledVBDfinallyRB
+
+#I guess the answer is for parents and the schools to push the importance of science and math.  
+#(S1 (S (NP (PRP I)) (VP (VBP guess) (SBAR (S (NP (DT the) (NN answer)) (VP (AUX is) (SBAR (IN for) (S (NP (NP (NNS parents)) (CC and) (NP (DT the) (NNS schools))) (VP (TO to) (VP (VB push) (NP (NP (DT the) (NN importance)) (PP (IN of) (NP (NN science) (CC and) (NN math)))))))))))) (. .)))
+#Rule:Nouns
+r1answerNN
+r1parentsNNS
+r1schoolsNNS
+r1importanceNN
+r1scienceNN
+r1mathNN
+
+#Rule:Verbs
+r2guessVBP
+r2pushVB
+
+#Rule:HeadNoun-V
+r11iPRPguessVBP
+r11answerNNisAUX
+r11parentsNNSpushVB
+r11schoolsNNSpushVB
+
+#Rule:V-HeadNoun
+r21pushVBimportanceNN
+
+#Rule:PPinNP
+r26importanceNNofINscienceNN
+
+#Rule:V-IN-V
+r43isAUXforINpushVB
+
+#And to provide qualifed tutors for those who may have trouble with it.
+#(S1 (S (CC And) (VP (TO to) (VP (VB provide) (NP (JJ qualifed) (NNS tutors)) (PP (IN for) (NP (NP (DT those)) (SBAR (WHNP (WP who)) (S (VP (MD may) (VP (AUX have) (NP (NP (NN trouble)) (PP (IN with) (NP (PRP it)))))))))))) (. .)))
+#Rule:Nouns
+r1tutorsNNS
+r1troubleNN
+
+#Rule:Verbs
+r2provideVB
+
+#Rule:Adjs
+r4qualifedJJ
+
+#Rule:Adj-Noun
+r5qualifedJJtutorsNNS
+
+#Rule:HeadNoun-(who/that)-V
+r14thoseDThaveAUX
+
+#Rule:V-HeadNoun
+r21provideVBtutorsNNS
+r21haveAUXtroubleNN
+
+#Rule:PPinNP
+r26troubleNNwithINitPRP
+
+#Rule:PPinVP
+r30provideVBforINthoseDT
+
+@lemmas-left	professors	parents	provide	have	college	made	push	teachers	science	trouble	qualifed	schools	stumble	tutor	interesting	had	tutors	be	those	is	stumbled	it	answer	parent	my	i	math	t	school	importance	guess	terrible	professor	case	teacher	make	
+@lemmas-right	professors	have	college	made	finally	teachers	push	science	trouble	stumble	tutor	had	be	tutors	wasn	those	stumbled	is	it	t	importance	guess	professor	case	teacher	make	
+@lemmas-center	of	that	with	for	in	until	upon	

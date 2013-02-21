@@ -1,0 +1,35 @@
+#I ve always thought it was because of the flag. 
+#(S1 (S (NP (PRP I)) (ADVP (RB ve) (RB always)) (VP (VBD thought) (SBAR (S (NP (PRP it)) (VP (AUX was) (PP (IN because) (IN of) (NP (DT the) (NN flag))))))) (. .)))
+#Rule:Nouns
+r1flagNN
+
+#Rule:Verbs
+r2thoughtVBD
+
+#Rule:HeadNoun-V
+r11iPRPthoughtVBD
+r11itPRPwasAUX
+
+#Rule:PPinVP
+r30wasAUXofINflagNN
+
+#Rule:V-ADV
+r46thoughtVBDveRB
+r46thoughtVBDalwaysRB
+
+#No, not Marvin the Martian s Mars flag. lol
+#(S1 (FRAG (INTJ (UH No)) (, ,) (ADVP (RB not) (PP (NNP Marvin) (NP (DT the) (NNP Martian) (NNP s) (NNP Mars) (JJ flag.) (NN lol))))))
+#Rule:Nouns
+r1MarvinPersonAnnotation
+r1Martian s MarsOrganizationAnnotation
+r1lolNN
+
+#Rule:Adjs
+r4flagJJ
+
+#Rule:Adj-Noun
+r5flagJJlolNN
+
+@lemmas-left	lol	think	it	flag	thought	Martian s Mars	flag.	Marvin	was	be	i	
+@lemmas-right	lol	think	flag	ve	thought	always	was	be	
+@lemmas-center	of	

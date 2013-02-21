@@ -1,0 +1,36 @@
+#how do you get cancer?.
+#(S1 (X (SBARQ (WHADVP (WRB how)) (SQ (AUX do) (NP (PRP you)) (VP (VB get) (NP (NN cancer)))) (. ?)) (. .)))
+#Rule:Nouns
+r1cancerNN
+
+#Rule:Verbs
+r2getVB
+
+#Rule:V-HeadNoun
+r21getVBcancerNN
+
+#I need to know how you get cancer, please help!!!!!!!!!!!!!!
+#(S1 (S (NP (PRP I)) (VP (AUX need) (S (VP (TO to) (VP (VB know) (SBAR (WHADVP (WRB how)) (S (NP (PRP you)) (VP (VBP get) (NP (NN cancer)) (, ,) (S (INTJ (UH please)) (VP (VB help) (NP (NNS !!!!!!!!!!!!!))))))))))) (. !)))
+#Rule:Nouns
+r1cancerNN
+r1!!!!!!!!!!!!!!LocationAnnotation
+
+#Rule:Verbs
+r2knowVB
+r2getVBP
+r2helpVB
+
+#Rule:HeadNoun-V
+r11iPRPneedAUX
+r11youPRPgetVBP
+
+#Rule:V-HeadNoun
+r21getVBPcancerNN
+r21helpVB!!!!!!!!!!!!!!LocationAnnotation
+
+#Rule:V-MOD
+r45getVBPhelpVB
+
+@lemmas-left	help	get	!!!!!!!!!!!!!!	you	know	cancer	i	
+@lemmas-right	need	help	get	!!!!!!!!!!!!!!	cancer	
+@lemmas-center	

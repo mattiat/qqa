@@ -1,0 +1,609 @@
+BE: dietNN
+EQ class: dieteticaljj	dieteticjj	dietaryjj	
+
+BE: eatVB
+EQ class: 
+
+BE: low-cholesterolJJ
+EQ class: 
+
+BE: low-fatJJ
+EQ class: fatjj	fatnessnn	fatnn	
+
+BE: low-cholesterolJJdietNN
+EQ class: low-cholesteroljjdietaryjj	low-cholesteroljjdieteticjj	low-cholesteroljjdieteticaljj	
+
+BE: low-fatJJdietNN
+EQ class: fatnndieteticjj	fatnndieteticaljj	fatjjdietnn	fatnndietnn	fatnessnndieteticaljj	low-fatjjdietaryjj	low-fatjjdieteticaljj	fatnessnndietnn	fatnndietaryjj	low-fatjjdieteticjj	fatjjdieteticaljj	fatjjdieteticjj	fatnessnndieteticjj	fatjjdietaryjj	fatnessnndietaryjj	
+
+BE: eatVBdietNN
+EQ class: eatingnnofindieteticaljj	eaternnofindietnn	feedingnnofindieteticaljj	feedernnofindieteticjj	feedingnnofindietaryjj	feedernnofindietnn	feedernnofindieteticaljj	eatvbdietaryjj	feedernnofindietaryjj	eaternnofindietaryjj	eatvbdieteticaljj	eaternnofindieteticjj	eatvbdieteticjj	eatingnnofindietaryjj	feedingnnofindietnn	eaternnofindieteticaljj	eatingnnofindieteticjj	feedingnnofindieteticjj	eatingnnofindietnn	
+
+BE: kindNN
+EQ class: varietynn	sortnn	formnn	
+
+BE: dietNN
+EQ class: dieteticaljj	dieteticjj	dietaryjj	
+
+BE: cottageNN
+EQ class: bungalownn	
+
+BE: cheeseNN
+EQ class: 
+
+BE: milkNN
+EQ class: milkyjj	
+
+BE: fishNN
+EQ class: piscesnn	fishyjj	
+
+BE: oilNN
+EQ class: oilyjj	
+
+BE: vegetablesNNS
+EQ class: veggienns	vegetablenns	theynns	vegnns	themnns	
+
+BE: poultryNN
+EQ class: fowlnn	genus_gallusnn	domestic_fowlnn	gallusnn	
+
+BE: eggNN
+EQ class: 
+
+BE: whitesNNS
+EQ class: white_personnns	whitenns	caucasian_racenn	caucasiannns	theynns	white_peoplenn	white_racenn	whitejj	caucasoid_racenn	themnns	
+
+BE: oilsNNS
+EQ class: oilyjj	theynns	oilnns	themnns	
+
+BE: margarinesNNS
+EQ class: margenns	oleonns	margarinnns	margarinenns	theynns	themnns	oleomargarinenns	
+
+BE: cornNN
+EQ class: zeann	zea_maysnn	genus_zeann	maizenn	indian_cornnn	
+
+BE: safflowerNN
+EQ class: genus_carthamusnn	false_saffronnn	carthamus_tinctoriusnn	carthamusnn	
+
+BE: canolaLocationAnnotation
+EQ class: 
+
+BE: soybeanNN
+EQ class: soya_beannn	soynn	
+
+BE: oilsNNS
+EQ class: oilyjj	theynns	oilnns	themnns	
+
+BE: includesVBZ
+EQ class: includevbz	
+
+BE: cannedVBN
+EQ class: tinvbn	canvbn	put_upvbn	
+
+BE: fat-freeJJ
+EQ class: fatlessjj	nonfatjj	
+
+BE: polyunsaturatedJJ
+EQ class: 
+
+BE: fat-freeJJmilkNN
+EQ class: fatlessjjmilkyjj	fat-freejjmilkyjj	nonfatjjmilknn	nonfatjjmilkyjj	fatlessjjmilknn	
+
+BE: polyunsaturatedJJoilsNNS
+EQ class: polyunsaturatedjjthemnns	polyunsaturatedjjoilyjj	polyunsaturatedjjtheynns	polyunsaturatedjjoilnns	
+
+BE: cottageNNcheeseNN
+EQ class: cheesennofinbungalownn	cheesennofincottagenn	bungalownncheesenn	
+
+BE: eggNNwhitesNNS
+EQ class: eggnncaucasian_racenn	caucasian_racennofineggnn	eggnnthemnns	whitesnnsofineggnn	whitejjofineggnn	white_personnnsofineggnn	caucasoid_racennofineggnn	white_peoplennofineggnn	whitevbeggnn	eggnnwhitenns	themnnsofineggnn	eggnncaucasiannns	eggnnwhite_racenn	eggnntheynns	theynnsofineggnn	caucasiannnsofineggnn	eggnnwhite_peoplenn	whitennsofineggnn	whitenvbeggnn	eggnncaucasoid_racenn	white_racennofineggnn	eggnnwhitenvb	eggnnwhitejj	eggnnwhite_personnns	eggnnwhitevb	
+
+BE: soybeanNNoilsNNS
+EQ class: soya_beannntheynns	oilvbsoya_beannn	soya_beannnoilsnns	soynnthemnns	oilervbsoybeannn	soynnoilnns	oilvbsoynn	soya_beannnoilvb	theynnsofinsoybeannn	oilyjjofinsoybeannn	oilyvbsoynn	soybeannnoilnns	oilsnnsofinsoybeannn	oilnnsofinsoya_beannn	soynnoilyvb	soynnoilyjj	oilnnsofinsoynn	soybeannnoilervb	theynnsofinsoya_beannn	themnnsofinsoybeannn	soya_beannnoilnns	soybeannnoilyjj	oilyvbsoybeannn	themnnsofinsoynn	soybeannntheynns	theynnsofinsoynn	oilyjjofinsoya_beannn	soya_beannnoilervb	soynnoilervb	soya_beannnoilyjj	soynnoilsnns	oilsnnsofinsoynn	oilyvbsoya_beannn	soynntheynns	oilyjjofinsoynn	soybeannnoilyvb	oilnnsofinsoybeannn	oilervbsoya_beannn	soya_beannnoilyvb	oilervbsoynn	soynnoilvb	soybeannnoilvb	soybeannnthemnns	oilvbsoybeannn	soya_beannnthemnns	themnnsofinsoya_beannn	oilsnnsofinsoya_beannn	
+
+BE: cheeseNNmilkNN
+EQ class: cheesennmilkyjj	milknnofincheesenn	milkyjjofincheesenn	cheesennmilkvb	milkyjjcheesenn	milknncheesenn	
+
+BE: kindNNincludesVBZ
+EQ class: kindnnincludevbz	varietynnincludevbz	sortnnincludesvbz	sortnnincludevbz	varietynnincludesvbz	formnnincludevbz	formnnincludesvbz	
+
+BE: includesVBZcheeseNN
+EQ class: includevbzcheesenn	
+
+BE: kindNNofINdietNN
+EQ class: dieteticjjsortnn	dietaryjjformnn	dieteticjjvarietynn	sortnnofindietaryjj	dietaryjjkindnn	dietnnkindnn	kindnnofindieteticaljj	formnnofindieteticaljj	dietnnvarietynn	varietynnofindieteticjj	dieteticaljjformnn	sortnnofindieteticaljj	dieteticjjformnn	formnnofindietaryjj	varietynnofindietnn	kindnnofindieteticjj	varietynnofindieteticaljj	sortnnofindieteticjj	dieteticaljjvarietynn	dietaryjjsortnn	formnnofindieteticjj	varietynnofindietaryjj	formnnofindietnn	dieteticaljjsortnn	dieteticjjkindnn	dieteticaljjkindnn	dietaryjjvarietynn	dietnnsortnn	dietnnformnn	kindnnofindietaryjj	sortnnofindietnn	
+
+BE: cannedVBNinINoilNN
+EQ class: canvbnininoilyjj	canvbnininoilnn	tinvbnininoilnn	put_upvbnininoilyjj	put_upvbnininoilnn	tinvbnininoilyjj	cannedvbnininoilyjj	
+
+BE: cannedVBNnotRB
+EQ class: put_upvbnnotrb	tinvbnnotrb	tin_cannnofinnotrb	tinnnofinnotrb	cannnofinnotrb	cannerynnofinnotrb	canvbnnotrb	
+
+BE: foodsNNS
+EQ class: foodnns	theynns	nutrientnns	themnns	
+
+BE: fatNN
+EQ class: fatjj	
+
+BE: meatNN
+EQ class: meatyjj	
+
+BE: liverNN
+EQ class: liveryjj	
+
+BE: fattyNN
+EQ class: fatsonn	fattyjj	roly-polynn	butterballnn	fat_personnn	
+
+BE: meatNN
+EQ class: meatyjj	
+
+BE: eggNN
+EQ class: 
+
+BE: yolksNNS
+EQ class: egg_yolknns	theynns	yolknns	themnns	
+
+BE: milkNN
+EQ class: milkyjj	
+
+BE: creamNN
+EQ class: picknn	
+
+BE: butterNN
+EQ class: butteryjj	butyraceousjj	
+
+BE: lardOrganizationAnnotation
+EQ class: 
+
+BE: cookiesNNS
+EQ class: biscuitnns	cookienns	theynns	cookynns	themnns	
+
+BE: gravyNN
+EQ class: 
+
+BE: peanutNN
+EQ class: 
+
+BE: butterNN
+EQ class: butteryjj	butyraceousjj	
+
+BE: chocolateNN
+EQ class: cocoann	hot_chocolatenn	drinking_chocolatenn	
+
+BE: olivesNNS
+EQ class: theynns	olivenns	themnns	
+
+BE: potatoNN
+EQ class: taternn	white_potatonn	murphynn	spudnn	irish_potatonn	
+
+BE: chipsNNS
+EQ class: friesnns	french-fried_potatoesnns	theynns	french_friesnns	themnns	
+
+BE: coconutLocationAnnotation
+EQ class: 
+
+BE: cheeseNN
+EQ class: 
+
+BE: cottageNN
+EQ class: bungalownn	
+
+BE: cheeseNN
+EQ class: 
+
+BE: coconutNN
+EQ class: coconut_meatnn	
+
+BE: oilNN
+EQ class: oilyjj	
+
+BE: palmNN
+EQ class: palmarjj	thenarnn	
+
+BE: oilNN
+EQ class: oilyjj	
+
+BE: foodsNNS
+EQ class: foodnns	theynns	nutrientnns	themnns	
+
+BE: avoidVB
+EQ class: 
+
+BE: shorteningVBG
+EQ class: shortenvbg	
+
+BE: pastriesVBZ
+EQ class: 
+
+BE: cakesVBZ
+EQ class: cakevbz	coatvbz	
+
+BE: excessJJ
+EQ class: sparejj	supererogatoryjj	supernumeraryjj	superfluousjj	surplusjj	extrajj	redundantjj	
+
+BE: suchJJ
+EQ class: 
+
+BE: wholeJJ
+EQ class: wholenn	
+
+BE: otherJJ
+EQ class: 
+
+BE: friedJJ
+EQ class: deep-friedjj	
+
+BE: LowJJ
+EQ class: lownessnn	
+
+BE: excessJJfatNN
+EQ class: redundantjjfatjj	supererogatoryjjfatjj	extrajjfatnn	excessjjfatjj	redundantjjfatnn	extrajjfatjj	superfluousjjfatjj	surplusjjfatjj	sparejjfatjj	superfluousjjfatnn	sparejjfatnn	supernumeraryjjfatnn	surplusjjfatnn	supererogatoryjjfatnn	supernumeraryjjfatjj	
+
+BE: shorteningVBGsuchJJ
+EQ class: shortenernnofinsuchjj	shortenvbgsuchjj	
+
+BE: wholeJJmilkNN
+EQ class: wholejjmilkyjj	milkvbwhollyrb	wholennmilknn	milkyvbwhollyrb	wholennmilkyjj	
+
+BE: friedJJfoodsNNS
+EQ class: friedjjfoodnns	deep-friedjjtheynns	friedjjtheynns	friedjjthemnns	friedjjnutrientnns	deep-friedjjfoodnns	deep-friedjjthemnns	deep-friedjjnutrientnns	deep-friedjjfoodsnns	
+
+BE: fattyNNmeatNN
+EQ class: fat_personnnmeatnn	fattynnmeatyvb	meatyvbfat_personnn	meatyjjofinfattynn	meatnnofinfattynn	meatyvbfatsonn	fat_personnnmeatyjj	fattyjjmeatyvb	fattyjjmeatyjj	fattyjjmeatnn	fattynnmeatyjj	meatyjjofinfat_personnn	meatyvbfattyjj	meatyjjofinfatsonn	meatyjjofinroly-polynn	meatnnofinfattyjj	fatsonnmeatnn	meatyvbroly-polynn	butterballnnmeatnn	meatyvbfattynn	meatyjjofinfattyjj	meatyvbbutterballnn	fatsonnmeatyjj	roly-polynnmeatnn	meatnnofinfat_personnn	roly-polynnmeatyjj	meatnnofinbutterballnn	meatnnofinfatsonn	butterballnnmeatyvb	meatyjjofinbutterballnn	roly-polynnmeatyvb	fatsonnmeatyvb	fat_personnnmeatyvb	meatnnofinroly-polynn	butterballnnmeatyjj	
+
+BE: eggNNyolksNNS
+EQ class: egg_yolknnsofineggnn	themnnsofineggnn	theynnsofineggnn	eggnnyolknns	eggnnegg_yolknns	eggnnthemnns	eggnntheynns	yolknnsofineggnn	yolksnnsofineggnn	
+
+BE: peanutNNbutterNN
+EQ class: peanutnnbuttervb	butyraceousvbpeanutnn	peanutnnbutteryjj	buttervbpeanutnn	butyraceousjjofinpeanutnn	butteryjjofinpeanutnn	butternnofinpeanutnn	butteryvbpeanutnn	peanutnnbutyraceousvb	peanutnnbutyraceousjj	peanutnnbutteryvb	
+
+BE: potatoNNchipsNNS
+EQ class: irish_potatonntheynns	theynnsofinirish_potatonn	theynnsofintaternn	french-fried_potatoesnnsofinmurphynn	friesnnsofinwhite_potatonn	chipsnnsofintaternn	themnnsofinspudnn	themnnsofinpotatonn	taternnchipsnns	white_potatonntheynns	themnnsofinirish_potatonn	murphynntheynns	murphynnfrench_friesnns	murphynnthemnns	theynnsofinpotatonn	potatonntheynns	themnnsofinmurphynn	murphynnfriesnns	spudnnfrench-fried_potatoesnns	spudnnchipsnns	potatonnthemnns	french_friesnnsofinirish_potatonn	taternnfrench_friesnns	white_potatonnchipsnns	potatonnfriesnns	spudnntheynns	theynnsofinspudnn	french-fried_potatoesnnsofinspudnn	white_potatonnthemnns	white_potatonnfriesnns	taternnfrench-fried_potatoesnns	potatonnfrench-fried_potatoesnns	friesnnsofinmurphynn	friesnnsofinpotatonn	themnnsofintaternn	white_potatonnfrench-fried_potatoesnns	irish_potatonnfriesnns	friesnnsofinspudnn	theynnsofinmurphynn	french_friesnnsofinmurphynn	chipsnnsofinpotatonn	irish_potatonnfrench_friesnns	taternnfriesnns	theynnsofinwhite_potatonn	french_friesnnsofintaternn	french-fried_potatoesnnsofinwhite_potatonn	french_friesnnsofinpotatonn	french-fried_potatoesnnsofinpotatonn	chipsnnsofinspudnn	murphynnchipsnns	white_potatonnfrench_friesnns	murphynnfrench-fried_potatoesnns	french-fried_potatoesnnsofinirish_potatonn	chipsnnsofinirish_potatonn	potatonnfrench_friesnns	friesnnsofintaternn	irish_potatonnthemnns	spudnnfriesnns	french-fried_potatoesnnsofintaternn	chipsnnsofinmurphynn	spudnnfrench_friesnns	spudnnthemnns	taternnthemnns	french_friesnnsofinspudnn	irish_potatonnchipsnns	irish_potatonnfrench-fried_potatoesnns	french_friesnnsofinwhite_potatonn	taternntheynns	friesnnsofinirish_potatonn	themnnsofinwhite_potatonn	chipsnnsofinwhite_potatonn	
+
+BE: cottageNNcheeseNN
+EQ class: cheesennofinbungalownn	cheesennofincottagenn	bungalownncheesenn	
+
+BE: coconutNNoilNN
+EQ class: coconut_meatnnoilervb	oilvbcoconut_meatnn	oilyjjofincoconutnn	coconut_meatnnoilnn	oilvbcoconutnn	coconut_meatnnoilyjj	coconutnnoilvb	oilnnofincoconutnn	oilyvbcoconutnn	coconutnnoilervb	coconutnnoilyvb	oilervbcoconutnn	oilyjjofincoconut_meatnn	coconutnnoilyjj	coconut_meatnnoilvb	coconut_meatnnoilyvb	oilyvbcoconut_meatnn	oilnnofincoconut_meatnn	oilervbcoconut_meatnn	
+
+BE: palmNNoilNN
+EQ class: palmarjjoilyjj	thenarnnoilvb	oilvbthenarnn	oilyvbpalmarjj	palmarjjofinoilyjj	palmnnofinoilnn	palmnnoilyjj	palmarjjoilvb	oilyjjpalmvb	thenarnnoilervb	oilyjjofinpalmnn	oilnnofinpalmarjj	palmarjjoilervb	oilvbpalmarjj	oilyvbpalmnn	palmarjjoilnn	oilervbpalmnn	oilnnhandlevb	palmnnoilvb	oilnnpalmvb	thenarnnoilyjj	oilnnofinthenarnn	palmnnoilyvb	palmnnoilervb	palmarjjofinoilnn	thenarnnoilnn	thenarnnofinoilnn	thenarnnoilyvb	oilnnofinpalmnn	oilyjjofinthenarnn	oilyjjhandlevb	thenarnnofinoilyjj	oilervbpalmarjj	oilyjjofinpalmarjj	oilyvbthenarnn	palmnnofinoilyjj	palmarjjoilyvb	oilervbthenarnn	oilvbpalmnn	
+
+BE: foodsNNScookiesNNS
+EQ class: cookiennsthemnns	theynnscookienns	foodnnstheynns	cookynnsfoodnns	foodnnsthemnns	cookynnsfoodsnns	biscuitnnstheynns	cookiesnnsthemnns	themnnscookienns	cookynnsnutrientnns	foodsnnstheynns	foodsnnscookynns	themnnsnutrientnns	foodnnscookynns	nutrientnnsbiscuitnns	cookiennsnutrientnns	foodsnnscookienns	foodnnsbiscuitnns	cookiennsfoodnns	nutrientnnstheynns	cookynnsthemnns	theynnstheynns	themnnscookiesnns	nutrientnnsthemnns	nutrientnnscookiesnns	theynnsfoodsnns	foodsnnsbiscuitnns	nutrientnnscookynns	themnnsfoodnns	cookiesnnsfoodnns	biscuitnnsnutrientnns	themnnstheynns	theynnsnutrientnns	themnnsthemnns	theynnsfoodnns	cookiennsfoodsnns	foodsnnsthemnns	biscuitnnsfoodnns	biscuitnnsfoodsnns	biscuitnnsthemnns	cookiesnnsfoodsnns	nutrientnnscookienns	cookiennstheynns	theynnscookynns	theynnsthemnns	cookynnstheynns	themnnsfoodsnns	foodnnscookiesnns	theynnscookiesnns	theynnsbiscuitnns	themnnsbiscuitnns	cookiesnnstheynns	cookiesnnsnutrientnns	foodnnscookienns	themnnscookynns	
+
+BE: suchJJlardOrganizationAnnotation
+EQ class: suchjjlardvb	lardnnofinsuchjj	lardorganizationannotationsuchjj	
+
+BE: suchJJcakesVBZ
+EQ class: suchjjcakevbz	suchjjcoatvbz	
+
+BE: lardOrganizationAnnotationcakesVBZ
+EQ class: lardorganizationannotationcakevbz	lardorganizationannotationcoatvbz	
+
+BE: suchJJpastriesVBZ
+EQ class: 
+
+BE: lardOrganizationAnnotationpastriesVBZ
+EQ class: 
+
+BE: avoidVBfoodsNNS
+EQ class: shunningnnofinfoodnns	avoidancennofinthemnns	dodgingnnofinfoodsnns	turning_awaynnofinnutrientnns	dodgingnnofintheynns	shunningnnofinnutrientnns	turning_awaynnofinfoodsnns	avoidancennofinfoodsnns	avoidancennofinfoodnns	shunningnnofintheynns	shunningnnofinfoodsnns	turning_awaynnofinfoodnns	dodgingnnofinnutrientnns	turning_awaynnofinthemnns	avoidancennofinnutrientnns	avoidancennofintheynns	avoidvbtheynns	dodgingnnofinfoodnns	avoidvbnutrientnns	avoidvbfoodnns	shunningnnofinthemnns	avoidvbthemnns	turning_awaynnofintheynns	dodgingnnofinthemnns	
+
+BE: foodsNNSwithINfatNN
+EQ class: fatnnfoodsnns	themnnswithinfatjj	fatjjfoodnns	theynnswithinfatnn	fatjjnutrientnns	fatnnfoodnns	fatjjthemnns	theynnswithinfatjj	foodsnnswithinfatjj	themnnswithinfatnn	foodnnswithinfatnn	nutrientnnswithinfatnn	fatjjtheynns	nutrientnnswithinfatjj	foodnnswithinfatjj	fatjjfoodsnns	fatnntheynns	fatnnnutrientnns	fatnnthemnns	
+
+BE: suchJJasINmeatNN
+EQ class: suchjjasinmeatyjj	
+
+BE: suchJJasINyolksNNS
+EQ class: suchjjasinegg_yolknns	suchjjasinyolknns	suchjjasintheynns	suchjjasinthemnns	
+
+BE: suchJJasINmilkNN
+EQ class: suchjjasinmilkyjj	
+
+BE: suchJJasINcreamNN
+EQ class: suchjjasinpicknn	
+
+BE: suchJJasINbutterNN
+EQ class: suchjjasinbutteryjj	suchjjasinbutyraceousjj	
+
+BE: avoidVB..RB
+EQ class: avoidvbrb	turning_awaynnofin..rb	dodgingnnofinrb	shunningnnofinrb	avoidancennofin..rb	dodgingnnofin..rb	turning_awaynnofinrb	avoidancennofinrb	shunningnnofin..rb	
+
+BE: sodiumNN
+EQ class: nann	atomic_number_11nn	
+
+BE: intakeNNS
+EQ class: consumptionnns	uptakenns	theynns	ingestionnns	themnns	
+
+BE: Sodium chlorideOrganizationAnnotation
+EQ class: 
+
+BE: Monosodium glutamateOrganizationAnnotation
+EQ class: 
+
+BE: SodiumNN
+EQ class: nann	atomic_number_11nn	
+
+BE: bicarbonateNN
+EQ class: hydrogen_carbonatenn	
+
+BE: StopNN
+EQ class: haltnn	
+
+BE: tobaccoNN
+EQ class: baccynn	
+
+BE: *NNP
+EQ class: themnnp	theynnp	*.nnp	
+
+BE: StopNNP
+EQ class: haltnnp	
+
+BE: consumingNN
+EQ class: 
+
+BE: alcoholNN
+EQ class: alcoholic_beveragenn	alcoholic_drinknn	intoxicantnn	alcoholicjj	inebriantnn	
+
+BE: *NNS
+EQ class: theynns	*.nns	themnns	
+
+BE: fatNN
+EQ class: fatjj	
+
+BE: oilsNNS
+EQ class: oilyjj	theynns	oilnns	themnns	
+
+BE: diet.*ObesityLocationAnnotation
+EQ class: diet*obesitylocationannotation	obesejj	
+
+BE: subjectsNNS
+EQ class: themenns	topicnns	theynns	subjectnns	themnns	
+
+BE: kilogramNN
+EQ class: kgnn	kilonn	
+
+BE: massNN
+EQ class: 
+
+BE: bloodNN
+EQ class: bloodyjj	
+
+BE: pressureNN
+EQ class: pressure_levelnn	force_per_unit_areann	
+
+BE: AbdominalNNP
+EQ class: abnnp	abdominal_musclennp	
+
+BE: circumferenceNN
+EQ class: perimeternn	
+
+BE: cmsNNP
+EQ class: centimetrennp	cmnnp	centimeternnp	
+
+BE: *NNP
+EQ class: themnnp	theynnp	*.nnp	
+
+BE: Control OrganizationAnnotation
+EQ class: controlorganizationannotation	
+
+BE: *NNP
+EQ class: themnnp	theynnp	*.nnp	
+
+BE: worryNN
+EQ class: vexationnn	headachenn	concernnn	
+
+BE: stressNN
+EQ class: accentnn	emphasisnn	
+
+BE: *NNS
+EQ class: theynns	*.nns	themnns	
+
+BE: aircraftNN
+EQ class: 
+
+BE: roadwayNN
+EQ class: 
+
+BE: noiseNN
+EQ class: 
+
+BE: exposureNN
+EQ class: 
+
+BE: *VBD
+EQ class: theyvbd	*.vbd	themvbd	
+
+BE: smokingVBZ
+EQ class: smokevbz	
+
+BE: reduceVB
+EQ class: trimvb	cutvb	cut_downvb	trim_downvb	cut_backvb	trim_backvb	bring_downvb	
+
+BE: losingVBG
+EQ class: losevbg	
+
+BE: reducesVBZ
+EQ class: reducevbz	cutvbz	bring_downvbz	trim_downvbz	cut_backvbz	cut_downvbz	trimvbz	trim_backvbz	
+
+BE: avoidVB
+EQ class: 
+
+BE: avoidVB
+EQ class: 
+
+BE: LowJJ
+EQ class: lownessnn	
+
+BE: RegularJJ
+EQ class: regularitynn	
+
+BE: obeseJJ
+EQ class: weightyjj	obesitynn	corpulentjj	rotundjj	
+
+BE: lessJJR
+EQ class: 
+
+BE: occupationalJJ
+EQ class: occupationnn	
+
+BE: LowJJintakeNNS
+EQ class: lowjjingestionnns	lownessnnconsumptionnns	lowjjconsumptionnns	lowjjuptakenns	lowjjthemnns	lowjjtheynns	lownessnningestionnns	lownessnnthemnns	lownessnnintakenns	lownessnntheynns	lownessnnuptakenns	
+
+BE: RegularJJtobaccoNN
+EQ class: tobacconistvbregularlyrb	regularitynntobacconn	regularitynnbaccynn	regularjjbaccynn	
+
+BE: obeseJJsubjectsNNS
+EQ class: rotundjjsubjectnns	corpulentjjthemnns	obesejjthemnns	obesitynnsubjectsnns	obesejjtheynns	weightyjjtheynns	weightyjjsubjectnns	rotundjjthemenns	rotundjjthemnns	obesitynntheynns	corpulentjjsubjectsnns	corpulentjjtheynns	weightyjjthemnns	rotundjjtopicnns	obesitynntopicnns	weightyjjthemenns	obesejjthemenns	obesitynnsubjectnns	obesitynnthemnns	weightyjjtopicnns	obesejjtopicnns	corpulentjjsubjectnns	obesejjsubjectnns	rotundjjsubjectsnns	weightyjjsubjectsnns	obesitynnthemenns	corpulentjjthemenns	rotundjjtheynns	corpulentjjtopicnns	
+
+BE: lessJJRcmsNNP
+EQ class: lessjjrcentimeternnp	lessjjrcmnnp	lessjjrcentimetrennp	
+
+BE: 100CDcmsNNP
+EQ class: hundredcdcmnnp	hundredcdcentimetrennp	ccdcentimetrennp	100cdcentimeternnp	ccdcmsnnp	centurycdcentimeternnp	ccdcmnnp	ccdcentimeternnp	one_ccdcentimeternnp	1.0.0.cdcmnnp	1.0.0.cdcentimetrennp	hundredcdcentimeternnp	1.0.0.cdcentimeternnp	one_ccdcmsnnp	hundredcdcmsnnp	centurycdcentimetrennp	centurycdcmsnnp	100cdcmnnp	100cdcentimetrennp	centurycdcmnnp	one_ccdcentimetrennp	one_ccdcmnnp	1.0.0.cdcmsnnp	
+
+BE: occupationalJJexposureNN
+EQ class: occupationnnexposurenn	
+
+BE: sodiumNNintakeNNS
+EQ class: ingestionnnsofinatomic_number_11nn	themnnsofinsodiumnn	uptakennsofinnann	theynnsofinnann	intakennsofinatomic_number_11nn	themnnsofinnann	ingestionnnsofinsodiumnn	consumptionnnsofinatomic_number_11nn	atomic_number_11nnintakenns	themnnsofinatomic_number_11nn	theynnsofinatomic_number_11nn	nannconsumptionnns	uptakennsofinatomic_number_11nn	nannintakenns	uptakennsofinsodiumnn	sodiumnnuptakenns	atomic_number_11nnconsumptionnns	nanningestionnns	intakennsofinnann	intakennsofinsodiumnn	nannuptakenns	atomic_number_11nntheynns	atomic_number_11nnthemnns	consumptionnnsofinsodiumnn	nanntheynns	theynnsofinsodiumnn	atomic_number_11nnuptakenns	atomic_number_11nningestionnns	sodiumnntheynns	sodiumnnconsumptionnns	sodiumnningestionnns	ingestionnnsofinnann	sodiumnnthemnns	nannthemnns	consumptionnnsofinnann	
+
+BE: SodiumNNbicarbonateNN
+EQ class: bicarbonatennofinsodiumnn	bicarbonatennofinnann	hydrogen_carbonatennofinatomic_number_11nn	hydrogen_carbonatennofinnann	sodiumnnhydrogen_carbonatenn	atomic_number_11nnhydrogen_carbonatenn	nannhydrogen_carbonatenn	nannbicarbonatenn	bicarbonatennofinatomic_number_11nn	atomic_number_11nnbicarbonatenn	hydrogen_carbonatennofinsodiumnn	
+
+BE: StopNNtobaccoNN
+EQ class: haltnntobacconistvb	haltnntobacconn	haltnnbaccynn	baccynnofinhaltnn	stopnnbaccynn	tobacconnhaltvb	haltnnofinbaccynn	stopnnofinbaccynn	tobacconnofinhaltnn	baccynnhaltvb	stopnntobacconistvb	baccynnofinstopnn	baccynnstopvb	tobacconistvbstopnn	tobacconistvbhaltnn	stopnnofintobacconn	tobacconnstopvb	haltnnofintobacconn	tobacconnofinstopnn	
+
+BE: alcoholNN*NNS
+EQ class: alcoholic_beveragenn*nns	alcoholicjj*nns	inebriantnntheynns	intoxicantnntheynns	intoxicantnnthemnns	alcoholic_beveragenn*.nns	alcoholic_drinknnthemnns	alcoholicjj*.nns	alcoholnntheynns	intoxicantnn*.nns	alcoholic_drinknntheynns	theynnsalcoholizevb	alcoholic_drinknn*.nns	alcoholic_drinknn*nns	alcoholnnthemnns	alcoholic_beveragennthemnns	*nnsalcoholizevb	alcoholicjjtheynns	inebriantnn*nns	themnnsalcoholizevb	intoxicantnn*nns	inebriantnn*.nns	alcoholicjjthemnns	alcoholnn*.nns	*.nnsalcoholizevb	inebriantnnthemnns	alcoholic_beveragenntheynns	
+
+BE: consumingNN*NNS
+EQ class: consumingnnthemnns	consumingnntheynns	consumingnn*.nns	
+
+BE: StopNNP*NNS
+EQ class: themnnshaltvb	stopnnp*.nns	stopnnptheynns	stopnnofin*nns	haltnnptheynns	themnnsstopvb	*.nnsstopvb	*nnshaltvb	haltnnp*nns	theynnsstopvb	haltnnp*.nns	*nnsstopvb	haltnnofintheynns	haltnnofin*nns	haltnnpthemnns	theynnshaltvb	haltnnofinthemnns	stopnnofinthemnns	haltnnofin*.nns	*.nnshaltvb	stopnnpthemnns	stopnnofin*.nns	stopnnofintheynns	
+
+BE: *NNP*NNS
+EQ class: themnnp*.nns	themnnpthemnns	theynnpthemnns	*nnptheynns	*.nnptheynns	*.nnp*.nns	theynnptheynns	themnnp*nns	*.nnp*nns	*nnpthemnns	theynnp*nns	*.nnpthemnns	*nnp*.nns	themnnptheynns	theynnp*.nns	
+
+BE: bloodNNpressureNN
+EQ class: bloodyjjpressvb	force_per_unit_areannofinbloodnn	bloodnnpressurisevb	bloodnnpressurizevb	bloodnnsuperchargevb	pressurisevbbloodnn	force_per_unit_areannbloodvb	pressurisevbbloodyjj	bloodnnofinforce_per_unit_areann	bloodnnofinpressure_levelnn	pressure_levelnnofinbloodnn	superchargevbbloodyjj	force_per_unit_areannofinbloodyjj	pressure_levelnnbloodvb	bloodyjjofinforce_per_unit_areann	pressurizevbbloodyjj	bloodyjjpressurenn	bloodnnforce_per_unit_areann	bloodyjjforce_per_unit_areann	pressurennofinbloodyjj	bloodnnpressvb	bloodnnpressure_levelnn	pressurizevbbloodnn	bloodyjjofinpressurenn	pressvbbloodnn	bloodyjjpressurisevb	bloodyjjpressurizevb	pressurennbloodvb	bloodnnofinpressurenn	pressvbbloodyjj	superchargevbbloodnn	bloodyjjpressure_levelnn	bloodyjjsuperchargevb	pressurennofinbloodnn	bloodyjjofinpressure_levelnn	pressure_levelnnofinbloodyjj	
+
+BE: AbdominalNNPcircumferenceNN
+EQ class: abdominal_musclennpcircumferencenn	circumferencennofinabnnp	perimeternnofinabdominalnnp	circumferencennofinabdominal_musclennp	perimeternnofinabnnp	abnnpcircumferencenn	abdominalnnpperimeternn	abdominal_musclennpperimeternn	perimeternnofinabdominal_musclennp	circumferencennofinabdominalnnp	abnnpperimeternn	
+
+BE: Control OrganizationAnnotation*NNP
+EQ class: controlnnofin*nnp	controlnnofintheynnp	themnnpcontrolvb	controllernnofin*nnp	comptrollernnofin*.nnp	comptrollernnofinthemnnp	*nnpcontrolvb	accountantnnofinthemnnp	*.nnpcommandvb	controllernnofin*.nnp	controlorganizationannotationthemnnp	controlnnofin*.nnp	controllernnofintheynnp	controlnnofinthemnnp	accountantnnofin*nnp	controlorganizationannotation*nnp	themnnpcommandvb	control organizationannotation*.nnp	accountantnnofintheynnp	controlorganizationannotation*.nnp	comptrollernnofintheynnp	controllernnofinthemnnp	controlorganizationannotationtheynnp	comptrollernnofin*nnp	theynnpcommandvb	control organizationannotationtheynnp	theynnpcontrolvb	*nnpcommandvb	*.nnpcontrolvb	accountantnnofin*.nnp	control organizationannotationthemnnp	
+
+BE: *NNP*NNP
+EQ class: theynnpthemnnp	*.nnp*nnp	themnnp*.nnp	*.nnpthemnnp	themnnp*nnp	*.nnptheynnp	theynnp*nnp	*nnpthemnnp	*nnptheynnp	theynnp*.nnp	*.nnp*.nnp	theynnptheynnp	*nnp*.nnp	themnnptheynnp	themnnpthemnnp	
+
+BE: stressNN*NNS
+EQ class: *.nnsemphasizevb	*nnsaccentvb	*.nnsaccentvb	stressnnofin*.nns	accentnnthemnns	themnnsemphasisevb	stressnn*.nns	*nnsemphasizevb	*nnsstressvb	emphasisnnofintheynns	emphasisnntheynns	stressnnofinthemnns	stressnnofin*nns	accentnnofin*nns	themnnsemphasizevb	stressnnofintheynns	themnnsaccentvb	themnnsstressvb	stressnntheynns	accentnn*nns	emphasisnn*nns	accentnn*.nns	*.nnsstressvb	*.nnsaccentuatevb	accentnnofinthemnns	theynnsemphasisevb	themnnsaccentuatevb	themnnspunctuatevb	theynnsstressvb	emphasisnnofin*nns	theynnspunctuatevb	*nnsemphasisevb	theynnsemphasizevb	theynnsaccentvb	accentnntheynns	*.nnsemphasisevb	emphasisnn*.nns	*.nnspunctuatevb	emphasisnnofinthemnns	accentnnofin*.nns	*nnsaccentuatevb	stressnnthemnns	accentnnofintheynns	theynnsaccentuatevb	*nnspunctuatevb	emphasisnnofin*.nns	emphasisnnthemnns	
+
+BE: noiseNNexposureNN
+EQ class: exposevbnoisenn	noisennofinexposurenn	exposurennresoundvb	exposurennmake_noisevb	exposurennnoisevb	exposurennofinnoisenn	noisennexposevb	
+
+BE: roadwayNNexposureNN
+EQ class: exposevbroadwaynn	exposurennofinroadwaynn	roadwaynnexposevb	
+
+BE: Sodium chlorideOrganizationAnnotationMonosodium glutamateOrganizationAnnotation
+EQ class: monosodium glutamateorganizationannotationsodium chlorideorganizationannotation	
+
+BE: intakeNNS*VBD
+EQ class: intakenns*.vbd	theynns*.vbd	theynnstheyvbd	consumptionnns*vbd	consumptionnnstheyvbd	uptakenns*vbd	theynns*vbd	themnnsthemvbd	intakennstheyvbd	ingestionnns*vbd	themnns*vbd	consumptionnns*.vbd	themnns*.vbd	theynnsthemvbd	themnnstheyvbd	uptakenns*.vbd	ingestionnnsthemvbd	intakennsthemvbd	ingestionnnstheyvbd	consumptionnnsthemvbd	ingestionnns*.vbd	uptakennsthemvbd	uptakennstheyvbd	
+
+BE: tobaccoNNsmokingVBZ
+EQ class: baccynnsmokevbz	smokingnnofinbaccynn	smokennofinbaccynn	tobacco_usernntobacconn	tobacco_usernnofintobacconn	tobacco_usernnofinbaccynn	smokyjjofinbaccynn	tobacconnsmokevbz	smokennofintobacconn	smokernnofinbaccynn	fumennofintobacconn	smokyjjofintobacconn	smokingnntobacconn	smokenntobacconn	fumennofinbaccynn	tobacco_usernnbaccynn	smokingnnbaccynn	smokennbaccynn	smokernnbaccynn	baccynnsmokingvbz	smokernntobacconn	smokernnofintobacconn	smokingnnofintobacconn	
+
+BE: *NNSreduceVB
+EQ class: diminutionnnofinthemnns	step-downnn*nns	*.nnsreducevb	decreasenntheynns	theynnsreducevb	*.nnscutvb	reductivennofin*.nns	*nnscut_backvb	reductionnn*nns	*nnstrim_downvb	reductivennofinthemnns	theynnstrim_backvb	step-downnnofinthemnns	reductivennofintheynns	diminutionnnofintheynns	decreasennofinthemnns	decreasennthemnns	*.nnsbring_downvb	diminutionnn*.nns	theynnscut_downvb	*.nnstrim_backvb	theynnscutvb	themnnstrim_backvb	*nnscut_downvb	reductionnntheynns	theynnsbring_downvb	themnnstrim_downvb	step-downnnofin*.nns	reductionnnofin*nns	*nnstrim_backvb	diminutionnn*nns	*nnscutvb	*nnsbring_downvb	*.nnstrim_downvb	decreasennofintheynns	decreasennofin*nns	reductionnnofinthemnns	reductionnnofintheynns	themnnscutvb	step-downnnofin*nns	theynnscut_backvb	diminutionnnofin*.nns	theynnstrim_downvb	step-downnntheynns	diminutionnnofin*nns	themnnstrimvb	decreasennofin*.nns	diminutionnnthemnns	step-downnnthemnns	*nnstrimvb	reductionnn*.nns	themnnscut_downvb	reductionnnofin*.nns	decreasenn*.nns	reductivennofin*nns	theynnstrimvb	diminutionnntheynns	decreasenn*nns	step-downnnofintheynns	themnnscut_backvb	*.nnstrimvb	step-downnn*.nns	themnnsreducevb	*.nnscut_backvb	themnnsbring_downvb	reductionnnthemnns	*.nnscut_downvb	
+
+BE: massNNreducesVBZ
+EQ class: decreasennmassnn	massnnreducevbz	step-downnnofinmassnn	decreasennofinmassnn	massnncut_downvbz	reductivennofinmassnn	massnncut_backvbz	diminutionnnmassnn	massnnbring_downvbz	massnntrim_backvbz	step-downnnmassnn	massnntrimvbz	massnncutvbz	reductionnnofinmassnn	diminutionnnofinmassnn	massnntrim_downvbz	reductionnnmassnn	
+
+BE: circumferenceNNbeAUX
+EQ class: perimeternnbeaux	
+
+BE: cmsNNPavoidVB
+EQ class: dodgingnnofincentimetrennp	dodgingnncmnnp	avoidancenncmsnnp	cmnnpavoidvb	avoidancenncentimetrennp	dodgingnnofincentimeternnp	turning_awaynnofincentimeternnp	turning_awaynncmnnp	shunningnncentimetrennp	turning_awaynncentimeternnp	avoidancennofincentimeternnp	shunningnncmsnnp	turning_awaynncentimetrennp	shunningnncentimeternnp	shunningnnofincmnnp	shunningnnofincentimeternnp	centimeternnpavoidvb	avoidancennofincmnnp	dodgingnncentimetrennp	avoidancenncmnnp	avoidancennofincmsnnp	dodgingnncmsnnp	dodgingnncentimeternnp	shunningnnofincmsnnp	shunningnnofincentimetrennp	centimetrennpavoidvb	turning_awaynnofincmsnnp	turning_awaynnofincmnnp	dodgingnnofincmsnnp	turning_awaynncmsnnp	avoidancennofincentimetrennp	turning_awaynnofincentimetrennp	shunningnncmnnp	dodgingnnofincmnnp	avoidancenncentimeternnp	
+
+BE: *NNPavoidVB
+EQ class: turning_awaynn*nnp	shunningnnofin*nnp	shunningnntheynnp	themnnpavoidvb	shunningnn*nnp	avoidancennofinthemnnp	dodgingnnthemnnp	dodgingnnofintheynnp	turning_awaynnofin*.nnp	turning_awaynnofinthemnnp	shunningnnofintheynnp	dodgingnn*.nnp	shunningnnthemnnp	turning_awaynnofin*nnp	dodgingnnofin*.nnp	avoidancennofin*.nnp	turning_awaynntheynnp	*.nnpavoidvb	dodgingnntheynnp	dodgingnn*nnp	avoidancenntheynnp	shunningnn*.nnp	dodgingnnofinthemnnp	turning_awaynnofintheynnp	shunningnnofinthemnnp	avoidancenn*nnp	shunningnnofin*.nnp	theynnpavoidvb	avoidancennofin*nnp	avoidancennofintheynnp	dodgingnnofin*nnp	avoidancennthemnnp	turning_awaynn*.nnp	turning_awaynnthemnnp	avoidancenn*.nnp	
+
+BE: *NNSavoidVB
+EQ class: dodgingnnofin*.nns	shunningnn*nns	shunningnnthemnns	avoidancenn*nns	themnnsavoidvb	dodgingnnofin*nns	shunningnnofintheynns	avoidancenntheynns	shunningnnofin*.nns	avoidancenn*.nns	theynnsavoidvb	avoidancennthemnns	avoidancennofintheynns	turning_awaynntheynns	shunningnn*.nns	turning_awaynnofin*.nns	dodgingnn*nns	avoidancennofin*nns	dodgingnntheynns	shunningnnofinthemnns	avoidancennofin*.nns	turning_awaynnofintheynns	avoidancennofinthemnns	turning_awaynn*.nns	dodgingnnofintheynns	shunningnnofin*nns	turning_awaynnthemnns	turning_awaynn*nns	turning_awaynnofinthemnns	*.nnsavoidvb	shunningnntheynns	dodgingnn*.nns	turning_awaynnofin*nns	dodgingnnofinthemnns	dodgingnnthemnns	
+
+BE: reduceVBfatNN
+EQ class: step-downnnofinfatnn	trim_backvbfatnn	cut_backvbfatnn	cut_downvbfatjj	reductionnnofinfatnn	trim_downvbfatnn	trimvbfatnn	bring_downvbfatnn	decreasennofinfatjj	reducevbfatjj	cut_downvbfatnn	trim_downvbfatjj	reductivennofinfatnn	cutvbfatjj	reductivennofinfatjj	diminutionnnofinfatnn	cut_backvbfatjj	trim_backvbfatjj	bring_downvbfatjj	decreasennofinfatnn	trimvbfatjj	reductionnnofinfatjj	cutvbfatnn	step-downnnofinfatjj	diminutionnnofinfatjj	
+
+BE: losingVBGkilogramNN
+EQ class: losingvbgkgnn	losevbgkgnn	losevbgkilogramnn	losevbgkilonn	losingvbgkilonn	
+
+BE: reducesVBZpressureNN
+EQ class: reductionnnofinpressurenn	cut_downvbzpressure_levelnn	trim_downvbzpressure_levelnn	diminutionnnofinforce_per_unit_areann	reductivennofinpressure_levelnn	trim_backvbzpressurenn	trim_backvbzpressure_levelnn	cut_backvbzpressurenn	cut_backvbzpressure_levelnn	reductionnnofinpressure_levelnn	cutvbzpressurenn	trim_downvbzforce_per_unit_areann	diminutionnnofinpressurenn	step-downnnofinforce_per_unit_areann	bring_downvbzforce_per_unit_areann	reductionnnofinforce_per_unit_areann	reductivennofinpressurenn	step-downnnofinpressurenn	reducevbzforce_per_unit_areann	decreasennofinpressure_levelnn	reducevbzpressurenn	bring_downvbzpressurenn	trim_downvbzpressurenn	step-downnnofinpressure_levelnn	reductivennofinforce_per_unit_areann	reducevbzpressure_levelnn	reducesvbzforce_per_unit_areann	cut_downvbzpressurenn	cut_backvbzforce_per_unit_areann	trim_backvbzforce_per_unit_areann	trimvbzpressurenn	diminutionnnofinpressure_levelnn	cutvbzpressure_levelnn	trimvbzforce_per_unit_areann	bring_downvbzpressure_levelnn	reducesvbzpressure_levelnn	cut_downvbzforce_per_unit_areann	trimvbzpressure_levelnn	decreasennofinpressurenn	decreasennofinforce_per_unit_areann	cutvbzforce_per_unit_areann	
+
+BE: avoidVBexposureNN
+EQ class: dodgingnnofinexposurenn	avoidancennofinexposurenn	shunningnnofinexposurenn	turning_awaynnofinexposurenn	
+
+BE: smokingVBZ*NNS
+EQ class: smokevbzthemnns	smokevbztheynns	fumennofin*.nns	smokyjjofinthemnns	smokyjjofin*.nns	smokernnofin*.nns	smokennofinthemnns	smokennofin*.nns	smokingnnofinthemnns	fumennofintheynns	smokingnnofin*.nns	smokyjjofin*nns	smokingnnofintheynns	fumennofin*nns	smokennofintheynns	smokingvbztheynns	smokyjjofintheynns	smokingvbz*.nns	smokernnofintheynns	tobacco_usernnofintheynns	tobacco_usernnofin*.nns	smokernnofinthemnns	smokingnnofin*nns	smokennofin*nns	tobacco_usernnofinthemnns	tobacco_usernnofin*nns	smokernnofin*nns	smokingvbzthemnns	fumennofinthemnns	smokevbz*.nns	smokevbz*nns	
+
+BE: beAUXcmsNNP
+EQ class: beauxcentimetrennp	beauxcmnnp	beauxcentimeternnp	
+
+BE: beAUX*NNP
+EQ class: beauxtheynnp	beaux*.nnp	beauxthemnnp	
+
+BE: avoidVB*NNS
+EQ class: dodgingnnofin*.nns	avoidancennofinthemnns	dodgingnnofintheynns	shunningnnofin*nns	dodgingnnofin*nns	shunningnnofintheynns	shunningnnofin*.nns	turning_awaynnofinthemnns	avoidvb*.nns	avoidancennofintheynns	turning_awaynnofin*.nns	avoidvbtheynns	avoidancennofin*nns	shunningnnofinthemnns	avoidvbthemnns	avoidancennofin*.nns	turning_awaynnofin*nns	dodgingnnofinthemnns	turning_awaynnofintheynns	
+
+BE: reducesVBZbyIN2 mmOrganizationAnnotation
+EQ class: cut_backvbzbyin2. mmorganizationannotation	trimvbzbyin2 mmorganizationannotation	reducesvbzbyin2. mmorganizationannotation	reducevbzbyin2. mmorganizationannotation	trimvbzbyin2. mmorganizationannotation	cut_backvbzbyin2 mmorganizationannotation	trim_downvbzbyin2. mmorganizationannotation	cutvbzbyin2. mmorganizationannotation	bring_downvbzbyin2. mmorganizationannotation	trim_backvbzbyin2. mmorganizationannotation	cut_downvbzbyin2 mmorganizationannotation	reducevbzbyin2 mmorganizationannotation	trim_downvbzbyin2 mmorganizationannotation	bring_downvbzbyin2 mmorganizationannotation	trim_backvbzbyin2 mmorganizationannotation	cut_downvbzbyin2. mmorganizationannotation	cutvbzbyin2 mmorganizationannotation	
+
+BE: reducesVBZgenerallyRB
+EQ class: trimvbzgenerallyrb	cut_backvbzgenerallyrb	cutvbzgenerallyrb	trim_downvbzgenerallyrb	decreasennofingenerallyrb	bring_downvbzgenerallyrb	diminutionnnofingenerallyrb	reductionnnofingenerallyrb	cut_downvbzgenerallyrb	reductivennofingenerallyrb	step-downnnofingenerallyrb	trim_backvbzgenerallyrb	reducevbzgenerallyrb	
+
+BE: pagesNNS
+EQ class: pagenns	theynns	themnns	
+
+BE: detailsNNS
+EQ class: inside_informationnns	theynns	themnns	
+
+BE: HypertensionOrganizationAnnotation
+EQ class: 
+
+BE: AtherosclerosisNNP
+EQ class: atheroscleroticjj	coronary_artery_diseasennp	
+
+BE: pleaseVB
+EQ class: delightvb	
+
+BE: seeVB
+EQ class: 
+
+BE: webJJ
+EQ class: 
+
+BE: moreJJR
+EQ class: more_thanjjr	
+
+BE: webJJpagesNNS
+EQ class: webjjtheynns	webjjthemnns	webjjpagenns	
+
+BE: moreJJRdetailsNNS
+EQ class: more_thanjjrinside_informationnns	morejjrtheynns	morejjrinside_informationnns	more_thanjjrdetailsnns	more_thanjjrthemnns	morejjrthemnns	more_thanjjrtheynns	
+
+BE: seeVBpagesNNS
+EQ class: seevbtheynns	visionarynnofinpagenns	visual_perceptionnnofintheynns	visionarynnofintheynns	beholdingnnofinthemnns	illusionistnnofintheynns	visual_perceptionnnofinpagesnns	seeingnnofinpagenns	seeingnnofinpagesnns	seeingnnofinthemnns	visionarynnofinpagesnns	seernnofinthemnns	seernnofinpagenns	seernnofinpagesnns	beholdingnnofinpagenns	beholdingnnofinpagesnns	visual_perceptionnnofinpagenns	illusionistnnofinpagesnns	illusionistnnofinthemnns	seernnofintheynns	visionarynnofinthemnns	seeingnnofintheynns	seevbpagenns	seevbthemnns	beholdingnnofintheynns	illusionistnnofinpagenns	visual_perceptionnnofinthemnns	
+
+BE: pagesNNSforINdetailsNNS
+EQ class: pagesnnsforininside_informationnns	detailsnnsthemnns	detailsnnspaginatevb	inside_informationnnspagenns	inside_informationnnspagesnns	pagesnnsforintheynns	theynnspagesnns	detailsnnspagenns	foliatevbdetailsnns	detailsnnspagesnns	inside_informationnnspagevb	pagevbinside_informationnns	detailsnnsfoliatevb	pagennsforintheynns	theynnsfoliatevb	themnnsforindetailsnns	foliatevbthemnns	themnnsforininside_informationnns	pagennsforindetailsnns	themnnsforinthemnns	inside_informationnnsthemnns	theynnstheynns	theynnsforindetailsnns	themnnspagesnns	theynnsforintheynns	pagennsforinthemnns	theynnspagenns	pagevbthemnns	themnnstheynns	pagesnnsforinthemnns	themnnsthemnns	theynnspaginatevb	inside_informationnnstheynns	themnnspaginatevb	detailsnnspagevb	theynnsforinthemnns	paginatevbtheynns	inside_informationnnsfoliatevb	foliatevbtheynns	themnnspagevb	theynnsthemnns	paginatevbthemnns	themnnsforintheynns	themnnspagenns	pagennsforininside_informationnns	paginatevbdetailsnns	theynnsforininside_informationnns	pagevbdetailsnns	paginatevbinside_informationnns	theynnspagevb	inside_informationnnspaginatevb	pagevbtheynns	detailsnnstheynns	themnnsfoliatevb	foliatevbinside_informationnns	
+
+BE: detailsNNSonINHypertensionOrganizationAnnotation
+EQ class: theynnsoninhypertensionorganizationannotation	hypertensionorganizationannotationdetailsnns	inside_informationnnsoninhypertensionorganizationannotation	hypertensionorganizationannotationinside_informationnns	themnnsoninhypertensionorganizationannotation	hypertensionorganizationannotationthemnns	hypertensionorganizationannotationtheynns	
+
+BE: detailsNNSonINAtherosclerosisNNP
+EQ class: inside_informationnnsoninatherosclerosisnnp	coronary_artery_diseasennptheynns	theynnsoninatherosclerosisnnp	coronary_artery_diseasennpinside_informationnns	atheroscleroticjjinside_informationnns	inside_informationnnsoninatheroscleroticjj	atheroscleroticjjdetailsnns	theynnsonincoronary_artery_diseasennp	atheroscleroticjjthemnns	detailsnnsoninatheroscleroticjj	theynnsoninatheroscleroticjj	coronary_artery_diseasennpthemnns	atherosclerosisnnpthemnns	detailsnnsonincoronary_artery_diseasennp	atheroscleroticjjtheynns	inside_informationnnsonincoronary_artery_diseasennp	atherosclerosisnnptheynns	themnnsonincoronary_artery_diseasennp	atherosclerosisnnpdetailsnns	coronary_artery_diseasennpdetailsnns	themnnsoninatheroscleroticjj	atherosclerosisnnpinside_informationnns	themnnsoninatherosclerosisnnp	
+

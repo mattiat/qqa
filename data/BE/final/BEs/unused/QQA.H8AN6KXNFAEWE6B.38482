@@ -1,0 +1,21 @@
+#It hit a iceberg at speed
+#(S1 (S (NP (PRP It)) (VP (VBD hit) (NP (DT a) (NN iceberg)) (PP (IN at) (NP (NN speed))))))
+#Rule:Nouns
+r1icebergPersonAnnotation
+r1speedNN
+
+#Rule:Verbs
+r2hitVBD
+
+#Rule:HeadNoun-V
+r11itPRPhitVBD
+
+#Rule:V-HeadNoun
+r21hitVBDicebergPersonAnnotation
+
+#Rule:PPinVP
+r30hitVBDatINspeedNN
+
+@lemmas-left	iceberg	it	hit	speed	
+@lemmas-right	iceberg	speed	hit	
+@lemmas-center	at	

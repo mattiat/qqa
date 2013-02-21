@@ -1,0 +1,25 @@
+#how did life change after the great depression during the past?
+#(S1 (SBARQ (WHADVP (WRB how)) (SQ (AUX did) (NP (NN life)) (VP (VB change) (PP (IN after) (NP (NP (DT the) (JJ great) (NN depression)) (PP (IN during) (NP (DT the) (NN past))))))) (. ?)))
+#Rule:Nouns
+r1lifeNN
+r1depressionNN
+r1pastNN
+
+#Rule:Verbs
+r2changeVB
+
+#Rule:Adjs
+r4greatJJ
+
+#Rule:Adj-Noun
+r5greatJJdepressionNN
+
+#Rule:PPinNP
+r26depressionNNduringINpastNN
+
+#Rule:PPinVP
+r30changeVBafterINdepressionNN
+
+@lemmas-left	great	life	change	past	depression	
+@lemmas-right	past	depression	
+@lemmas-center	after	during	

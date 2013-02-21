@@ -1,0 +1,17 @@
+#pills?? 
+#(S1 (SQ (NNS pills) (. ?) (. ?)))
+#Rule:Nouns
+r1pillsNNS
+
+#or maybe just self control.
+#(S1 (FRAG (CC or) (ADVP (RB maybe)) (NP (RB just) (NN self) (NN control)) (. .)))
+#Rule:Nouns
+r1selfNN
+r1controlNN
+
+#Rule:N-HeadNoun
+r8selfNNcontrolNN
+
+@lemmas-left	control	pill	self	pills	
+@lemmas-right	control	
+@lemmas-center	

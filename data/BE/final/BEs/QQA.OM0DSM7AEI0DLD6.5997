@@ -1,0 +1,28 @@
+#Here s a site for fitness for people your age:http://www.presidentschallenge.org/home_kids.aspxHope it helps!
+#(S1 (SINV (ADVP (RB Here)) (VP (VBZ s)) (NP (NP (NP (DT a) (NN site)) (PP (IN for) (NP (NN fitness))) (PP (IN for) (NP (NP (NNS people)) (NP (PRP$ your) (NN age))))) (: :) (NP (NN http)) (: :) (NP (NN //www.presidentschallenge.org/home_kids.aspxHope))) (S (NP (PRP it)) (VP (VBZ helps))) (. !)))
+#Rule:Nouns
+r1siteNN
+r1fitnessNN
+r1peopleNNS
+r1ageNN
+r1http://wwwOrganizationAnnotation
+r1//www.presidentschallenge.org/home_kids.aspxHopeNN
+
+#Rule:Verbs
+r2sVBZ
+r2helpsVBZ
+
+#Rule:PRP-Noun
+r6yourPRP$ageNN
+
+#Rule:HeadNoun-V
+r11itPRPhelpsVBZ
+
+#Rule:PPinNP
+r26siteNNforINfitnessNN
+r26siteNNforINpeopleNNS
+r26siteNNforINageNN
+
+@lemmas-left	site	http://www	help	//www.presidentschallenge.org/home_kids.aspxhope	it	s	fitness	your	//www.presidentschallenge.org/home_kids.aspxHope	age	helps	people	
+@lemmas-right	help	fitness	age	helps	people	
+@lemmas-center	for	

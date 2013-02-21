@@ -1,0 +1,28 @@
+#this is my honest answer.
+#(S1 (S (NP (DT this)) (VP (AUX is) (NP (PRP$ my) (JJ honest) (NN answer))) (. .)))
+#Rule:Nouns
+r1answerNN
+
+#Rule:Adjs
+r4honestJJ
+
+#Rule:Adj-Noun
+r5honestJJanswerNN
+
+#Rule:PRP-Noun
+r6myPRP$answerNN
+
+#Rule:HeadNoun-V
+r11thisDTisAUX
+
+#Rule:V-HeadNoun
+r21isAUXanswerNN
+
+#(sources)
+#(S1 (PRN (-LRB- -LRB-) (NP (NNS sources)) (-RRB- -RRB-)))
+#Rule:Nouns
+r1sourcesNNS
+
+@lemmas-left	is	source	answer	honest	this	my	sources	be	
+@lemmas-right	is	answer	be	
+@lemmas-center	

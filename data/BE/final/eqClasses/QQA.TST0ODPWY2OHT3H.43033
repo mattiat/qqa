@@ -1,0 +1,381 @@
+BE: TobaccoNN
+EQ class: baccynn	
+
+BE: smokeNN
+EQ class: smokyjj	fumenn	
+
+BE: ??VBZ
+EQ class: ?.?.vbz	
+
+BE: TobaccoNNsmokeNN
+EQ class: tobacconnsmokevb	smokennofinbaccynn	baccynnsmokevb	smokyjjofinbaccynn	smokennofintobacconn	fumennofintobacconn	smokyjjofintobacconn	baccynnsmokyjj	fumennofinbaccynn	smokyvbbaccynn	baccynnsmokyvb	smokyvbtobacconn	smokevbtobacconn	tobacconnsmokyvb	smokevbbaccynn	tobacconnfumenn	baccynnsmokenn	tobacconnsmokyjj	baccynnfumenn	
+
+BE: smokeNN??VBZ
+EQ class: smokyjj?.?.vbz	fumenn??vbz	smokyjj??vbz	fumenn?.?.vbz	smokenn?.?.vbz	
+
+BE: SmokersNNS
+EQ class: tobacco_usernns	smokernns	
+
+BE: riskNN
+EQ class: perilnn	endangermentnn	hazardnn	jeopardynn	riskyjj	
+
+BE: heartNN
+EQ class: bosomnn	
+
+BE: diseaseNN
+EQ class: 
+
+BE: developingVBG
+EQ class: developvbg	
+
+BE: coronaryJJ
+EQ class: coronann	
+
+BE: coronaryJJdiseaseNN
+EQ class: coronanndiseasenn	
+
+BE: ??CD2CD
+EQ class: ?.?.cd2.cd	?.?.cdtwocd	??cdiicd	??cdtwocd	?.?.cddeucecd	?.?.cdiicd	??cd2.cd	??cddeucecd	?.?.cd2cd	
+
+BE: SmokersNNSriskNN
+EQ class: fumennofinperilnn	smokernnofinhazardnn	fumennofinrisknn	smokersnnsriskyjj	riskyvbsmokersnns	fumennofinendangermentnn	smokernnsput_on_the_linevb	smokyjjofinperilnn	tobacco_usernnsjeopardynn	hazardnnofintobacco_usernns	risknnofintobacco_usernns	smokennofinhazardnn	put_on_the_linevbsmokernns	smokingnnofinjeopardynn	hazardnnsmokevb	smokernnshazardnn	tobacco_usernnsendangermentnn	smokingnnofinendangermentnn	hazardnnofinsmokernns	perilnnofinsmokernns	smokersnnsput_on_the_linevb	smokersnnsperilnn	riskyjjofinsmokernns	smokennofinriskyjj	riskvbtobacco_usernns	endangermentnnofinsmokernns	risknnofinsmokernns	riskyjjofinsmokersnns	smokingnnofinperilnn	endangermentnnsmokevb	smokernnsriskyvb	tobacco_usernnsput_on_the_linevb	jeopardynnofinsmokersnns	hazardnnofinsmokersnns	lay_on_the_linevbsmokernns	smokennofinrisknn	smokernnofinperilnn	smokyjjofinendangermentnn	smokernnsriskyjj	tobacco_usernnofinhazardnn	smokernnsendangermentnn	riskyjjofintobacco_usernns	smokernnslay_on_the_linevb	fumennofinjeopardynn	fumennofinriskyjj	smokersnnsriskvb	jeopardynnsmokevb	smokernnofinriskyjj	jeopardynnofinsmokernns	tobacco_usernnofinjeopardynn	smokersnnshazardnn	smokernnsrisknn	perilnnofinsmokersnns	smokyjjofinjeopardynn	riskvbsmokersnns	lay_on_the_linevbsmokersnns	tobacco_usernnsriskvb	smokennofinjeopardynn	smokyjjofinhazardnn	smokernnofinjeopardynn	tobacco_usernnofinperilnn	endangermentnnofinsmokersnns	riskvbsmokernns	put_on_the_linevbsmokersnns	put_on_the_linevbtobacco_usernns	smokersnnsjeopardynn	tobacco_usernnofinriskyjj	riskyvbtobacco_usernns	smokernnofinendangermentnn	riskyjjsmokevb	smokyjjofinriskyjj	smokersnnslay_on_the_linevb	smokersnnsendangermentnn	risknnsmokevb	perilnnsmokevb	smokernnsjeopardynn	risknnofinsmokersnns	smokennofinendangermentnn	tobacco_usernnsriskyjj	smokernnofinrisknn	perilnnofintobacco_usernns	fumennofinhazardnn	jeopardynnofintobacco_usernns	tobacco_usernnofinendangermentnn	endangermentnnofintobacco_usernns	tobacco_usernnofinrisknn	tobacco_usernnsperilnn	smokyjjofinrisknn	smokingnnofinrisknn	tobacco_usernnsriskyvb	tobacco_usernnsrisknn	smokernnsriskvb	tobacco_usernnshazardnn	riskyvbsmokernns	smokennofinperilnn	smokingnnofinriskyjj	lay_on_the_linevbtobacco_usernns	smokersnnsriskyvb	tobacco_usernnslay_on_the_linevb	smokingnnofinhazardnn	smokernnsperilnn	
+
+BE: heartNNdiseaseNN
+EQ class: diseasennofinbosomnn	bosomnndiseasenn	diseasennofinheartnn	
+
+BE: riskNNisAUX
+EQ class: jeopardynnbeaux	perilnnbeaux	hazardnnbeaux	hazardnnisaux	perilnnisaux	risknnbeaux	riskyjjbeaux	riskyjjisaux	endangermentnnbeaux	endangermentnnisaux	jeopardynnisaux	
+
+BE: developingVBGdiseaseNN
+EQ class: developvbgdiseasenn	developmentnnofindiseasenn	
+
+BE: isAUX2CD
+EQ class: beauxiicd	beaux2.cd	isaux2.cd	isauxdeucecd	beaux2cd	isauxtwocd	beauxtwocd	isauxiicd	beauxdeucecd	
+
+BE: 2CDriskNN
+EQ class: iicdendangermentnn	jeopardynnofiniicd	hazardnnofiniicd	iicdrisknn	jeopardynntwocd	risknnofintwocd	perilnntwocd	2cdjeopardynn	hazardnn2.cd	2.cdperilnn	2.cdjeopardynn	risknn2.cd	perilnn2.cd	risknnofiniicd	twocdjeopardynn	risknntwocd	twocdriskyjj	endangermentnnofindeucecd	hazardnniicd	twocdperilnn	riskyjjdeucecd	2cdhazardnn	iicdhazardnn	perilnnofindeucecd	2.cdput_on_the_linevb	perilnnofin2cd	twocdendangermentnn	deucecdendangermentnn	deucecdhazardnn	riskyjjofindeucecd	deucecdperilnn	hazardnnofin2cd	risknniicd	twocdput_on_the_linevb	deucecdput_on_the_linevb	iicdput_on_the_linevb	endangermentnnofin2.cd	riskyjjtwocd	riskyjjofin2cd	risknnofin2cd	endangermentnntwocd	iicdriskvb	twocdrisknn	risknnofin2.cd	riskyjj2.cd	2.cdendangermentnn	riskyjj2cd	iicdlay_on_the_linevb	2cdlay_on_the_linevb	perilnn2cd	hazardnn2cd	2cdriskyjj	2cdperilnn	2.cdrisknn	endangermentnnofiniicd	hazardnnofindeucecd	jeopardynndeucecd	2.cdhazardnn	2.cdriskyjj	endangermentnnofintwocd	jeopardynnofin2cd	deucecdjeopardynn	jeopardynnofin2.cd	hazardnntwocd	jeopardynnofindeucecd	2cdput_on_the_linevb	risknndeucecd	deucecdriskyjj	hazardnnofintwocd	endangermentnniicd	hazardnnofin2.cd	perilnnofintwocd	perilnndeucecd	iicdjeopardynn	twocdlay_on_the_linevb	riskyjjofiniicd	2.cdlay_on_the_linevb	2cdendangermentnn	deucecdriskvb	jeopardynn2cd	perilnniicd	endangermentnndeucecd	riskyjjofintwocd	2cdriskvb	endangermentnn2cd	twocdriskvb	hazardnndeucecd	endangermentnnofin2cd	iicdperilnn	jeopardynniicd	perilnnofiniicd	endangermentnn2.cd	perilnnofin2.cd	twocdhazardnn	deucecdlay_on_the_linevb	jeopardynnofintwocd	riskyjjiicd	risknn2cd	jeopardynn2.cd	riskyjjofin2.cd	iicdriskyjj	risknnofindeucecd	deucecdrisknn	2.cdriskvb	
+
+BE: timesNNS
+EQ class: theynns	themnns	
+
+BE: nonsmokersNNS
+EQ class: theynns	themnns	nonsmokernns	
+
+BE: 4CDtimesNNS
+EQ class: quadrupletcdtheynns	fourcdthemnns	foursomecdthemnns	quadrupletcdtimesnns	ivcdtheynns	4cdthemnns	quartetcdthemnns	quaternitycdtimesnns	fourcdtimesnns	quaterncdtheynns	quaternioncdtheynns	quaternarycdthemnns	tetradcdtimesnns	4.cdthemnns	4.cdtimesnns	little_joecdthemnns	quaterncdtimesnns	quaterncdthemnns	quaternitycdthemnns	quartetcdtheynns	quadrupletcdthemnns	tetradcdtheynns	4cdtheynns	little_joecdtimesnns	ivcdtimesnns	foursomecdtheynns	quaternarycdtheynns	ivcdthemnns	fourcdtheynns	4.cdtheynns	tetradcdthemnns	quaternioncdthemnns	quaternitycdtheynns	quaternioncdtimesnns	little_joecdtheynns	quartetcdtimesnns	quaternarycdtimesnns	foursomecdtimesnns	
+
+BE: thatDTofINnonsmokersNNS
+EQ class: thatdtofinnonsmokernns	thatdtofintheynns	thatdtofinthemnns	
+
+BE: CigaretteNN
+EQ class: buttnn	coffin_nailnn	fagnn	cigaretnn	
+
+BE: smokingNN
+EQ class: smokenn	
+
+BE: riskNN
+EQ class: perilnn	endangermentnn	hazardnn	jeopardynn	riskyjj	
+
+BE: factorNN
+EQ class: 
+
+BE: deathNN
+EQ class: deceasenn	expirynn	
+
+BE: patientsNNS
+EQ class: patientnns	theynns	themnns	
+
+BE: heartNN
+EQ class: bosomnn	
+
+BE: diseaseNN
+EQ class: 
+
+BE: smokersNNS
+EQ class: theynns	tobacco_usernns	smokernns	themnns	
+
+BE: riskNN
+EQ class: perilnn	endangermentnn	hazardnn	jeopardynn	riskyjj	
+
+BE: nonsmokersNNS
+EQ class: theynns	themnns	nonsmokernns	
+
+BE: powerfulJJ
+EQ class: powerfulnessnn	
+
+BE: independentJJ
+EQ class: independencynn	independencenn	
+
+BE: suddenJJ
+EQ class: suddennessnn	
+
+BE: cardiacJJ
+EQ class: heartnn	
+
+BE: coronaryJJ
+EQ class: coronann	
+
+BE: powerfulJJfactorNN
+EQ class: powerfulnessnnfactornn	
+
+BE: independentJJfactorNN
+EQ class: independencennfactornn	independencynnfactornn	
+
+BE: suddenJJdeathNN
+EQ class: suddenjjdeceasenn	suddennessnnexpirynn	passvbsuddenlyrb	cash_in_one's_chipsvbsuddenlyrb	croakvbsuddenlyrb	buy_the_farmvbsuddenlyrb	suddenjjexpirynn	pop_offvbsuddenlyrb	dievbsuddenlyrb	give-up_the_ghostvbsuddenlyrb	chokevbsuddenlyrb	exitvbsuddenlyrb	snuff_itvbsuddenlyrb	govbsuddenlyrb	suddennessnndeathnn	drop_deadvbsuddenlyrb	deceasevbsuddenlyrb	suddennessnndeceasenn	perishvbsuddenlyrb	conkvbsuddenlyrb	pass_awayvbsuddenlyrb	expirevbsuddenlyrb	kick_the_bucketvbsuddenlyrb	
+
+BE: cardiacJJdeathNN
+EQ class: heartnndeceasenn	cardiacjjdeceasenn	heartnndeathnn	heartnnexpirynn	cardiacjjexpirynn	
+
+BE: coronaryJJdiseaseNN
+EQ class: coronanndiseasenn	
+
+BE: CigaretteNNsmokingNN
+EQ class: cigarettennsmokenn	smokingnnofinbuttnn	smokevbcoffin_nailnn	smokevbfagnn	buttnnsmokenn	cigaretnnsmokingnn	smokingnnofincigarettenn	smokingnnofinfagnn	fagnnsmokingnn	smokennofinfagnn	coffin_nailnnsmokevb	smokennofinbuttnn	smokingnnofincigaretnn	cigaretnnsmokevb	smokingnnofincoffin_nailnn	smokevbcigaretnn	fagnnsmokevb	coffin_nailnnsmokingnn	cigaretnnsmokenn	smokennofincigaretnn	cigarettennsmokevb	smokennofincigarettenn	coffin_nailnnsmokenn	smokevbbuttnn	buttnnsmokevb	fagnnsmokenn	smokennofincoffin_nailnn	buttnnsmokingnn	smokevbcigarettenn	
+
+BE: riskNNfactorNN
+EQ class: risknnofinfactornn	factornnofinjeopardynn	jeopardynnofinfactornn	factornnofinrisknn	factornnofinperilnn	jeopardynnfactornn	factornnlay_on_the_linevb	endangermentnnofinfactornn	hazardnnfactornn	perilnnfactornn	factornnofinhazardnn	factornnput_on_the_linevb	factornnofinriskyjj	perilnnofinfactornn	endangermentnnfactornn	factornnriskvb	hazardnnofinfactornn	riskyjjofinfactornn	riskyjjfactornn	factornnofinendangermentnn	
+
+BE: heartNNdiseaseNN
+EQ class: diseasennofinbosomnn	bosomnndiseasenn	diseasennofinheartnn	
+
+BE: smokingNNisAUX
+EQ class: smokingnnbeaux	smokennbeaux	smokennisaux	
+
+BE: isAUXfactorNN
+EQ class: beauxfactornn	
+
+BE: factorNNforINdeathNN
+EQ class: deceasennfactornn	factornnforindeceasenn	expirynnfactornn	deathnnfactornn	factornnforinexpirynn	
+
+BE: deathNNinINpatientsNNS
+EQ class: buy_the_farmvbpatientnns	give-up_the_ghostvbpatientsnns	patientsnnspass_awayvb	govbpatientnns	govbpatientsnns	patientnnsperishvb	deceasenninintheynns	expirevbpatientsnns	patientnnscash_in_one's_chipsvb	buy_the_farmvbpatientsnns	chokevbpatientsnns	cash_in_one's_chipsvbtheynns	give-up_the_ghostvbthemnns	patientnnsexpirevb	exitvbpatientnns	theynnsbuy_the_farmvb	patientnnscroakvb	passvbpatientsnns	dievbtheynns	theynnscroakvb	expirynnininpatientnns	deathnnininthemnns	theynnsexitvb	themnnspop_offvb	patientsnnsbuy_the_farmvb	pop_offvbtheynns	patientsnnsperishvb	drop_deadvbtheynns	dievbpatientsnns	cash_in_one's_chipsvbpatientnns	theynnssnuff_itvb	deceasennininthemnns	chokevbthemnns	patientnnsgovb	themnnskick_the_bucketvb	expirynnininthemnns	patientsnnscash_in_one's_chipsvb	theynnsgovb	passvbthemnns	patientnnschokevb	themnnscash_in_one's_chipsvb	perishvbtheynns	themnnsexpirevb	themnnsexpirynn	croakvbthemnns	expirevbthemnns	deceasevbtheynns	patientsnnsdrop_deadvb	chokevbpatientnns	themnnsgovb	conkvbthemnns	themnnspass_awayvb	patientnnspassvb	patientsnnspassvb	patientnnskick_the_bucketvb	patientsnnspop_offvb	patientnnssnuff_itvb	passvbtheynns	expirevbpatientnns	snuff_itvbtheynns	kick_the_bucketvbthemnns	themnnssnuff_itvb	patientsnnschokevb	patientnnsdievb	croakvbpatientsnns	patientsnnsexitvb	pass_awayvbthemnns	exitvbthemnns	expirynninintheynns	themnnsdeceasevb	patientsnnsexpirevb	themnnsgive-up_the_ghostvb	patientsnnsexpirynn	patientsnnsdeathnn	patientnnsbuy_the_farmvb	patientnnsconkvb	pass_awayvbpatientsnns	theynnsperishvb	deceasevbpatientsnns	pass_awayvbtheynns	dievbthemnns	perishvbpatientsnns	theynnspass_awayvb	theynnspop_offvb	themnnsconkvb	patientsnnssnuff_itvb	theynnscash_in_one's_chipsvb	drop_deadvbthemnns	drop_deadvbpatientnns	pop_offvbthemnns	theynnspassvb	govbthemnns	conkvbtheynns	drop_deadvbpatientsnns	expirevbtheynns	themnnscroakvb	patientsnnsdeceasenn	themnnsexitvb	give-up_the_ghostvbtheynns	theynnsdeathnn	theynnsexpirevb	themnnschokevb	cash_in_one's_chipsvbthemnns	patientnnsdrop_deadvb	themnnsdievb	theynnsconkvb	expirynnininpatientsnns	theynnsdrop_deadvb	patientsnnsdievb	deceasennininpatientnns	cash_in_one's_chipsvbpatientsnns	themnnsdeathnn	patientsnnsdeceasevb	theynnsgive-up_the_ghostvb	themnnsperishvb	give-up_the_ghostvbpatientnns	deathnninintheynns	patientnnsexpirynn	theynnsdievb	snuff_itvbpatientnns	patientnnsdeceasevb	patientnnspop_offvb	govbtheynns	buy_the_farmvbtheynns	patientnnsdeceasenn	theynnsdeceasenn	pop_offvbpatientnns	passvbpatientnns	exitvbpatientsnns	patientsnnskick_the_bucketvb	themnnsbuy_the_farmvb	pop_offvbpatientsnns	themnnsdeceasenn	patientnnsexitvb	theynnsexpirynn	patientsnnsgovb	croakvbpatientnns	deceasennininpatientsnns	pass_awayvbpatientnns	exitvbtheynns	patientnnsgive-up_the_ghostvb	conkvbpatientnns	perishvbthemnns	patientsnnsgive-up_the_ghostvb	patientnnspass_awayvb	snuff_itvbthemnns	conkvbpatientsnns	theynnskick_the_bucketvb	kick_the_bucketvbpatientnns	themnnspassvb	snuff_itvbpatientsnns	deceasevbthemnns	kick_the_bucketvbpatientsnns	patientnnsdeathnn	kick_the_bucketvbtheynns	deathnnininpatientnns	patientsnnsconkvb	theynnsdeceasevb	theynnschokevb	chokevbtheynns	patientsnnscroakvb	deceasevbpatientnns	perishvbpatientnns	buy_the_farmvbthemnns	croakvbtheynns	themnnsdrop_deadvb	dievbpatientnns	
+
+BE: patientsNNSwithINdiseaseNN
+EQ class: theynnswithindiseasenn	themnnswithindiseasenn	patientnnswithindiseasenn	diseasennpatientnns	diseasenntheynns	diseasennpatientsnns	diseasennthemnns	
+
+BE: riskNNofINnonsmokersNNS
+EQ class: themnnsendangermentnn	theynnsriskyjj	nonsmokersnnslay_on_the_linevb	riskvbthemnns	endangermentnnofinnonsmokernns	endangermentnnofintheynns	perilnnofinnonsmokernns	riskvbtheynns	risknnofintheynns	riskvbnonsmokernns	themnnsriskyvb	riskyvbnonsmokernns	put_on_the_linevbthemnns	lay_on_the_linevbnonsmokernns	theynnsendangermentnn	riskyjjofinnonsmokersnns	themnnsput_on_the_linevb	nonsmokersnnsriskyjj	nonsmokersnnsput_on_the_linevb	riskyvbnonsmokersnns	riskvbnonsmokersnns	riskyjjofinthemnns	theynnsput_on_the_linevb	nonsmokersnnsperilnn	jeopardynnofinnonsmokersnns	nonsmokernnsriskyjj	nonsmokersnnsjeopardynn	hazardnnofintheynns	nonsmokersnnsendangermentnn	nonsmokernnsperilnn	nonsmokernnslay_on_the_linevb	nonsmokersnnsriskyvb	hazardnnofinnonsmokersnns	theynnsperilnn	jeopardynnofinnonsmokernns	lay_on_the_linevbnonsmokersnns	nonsmokernnsriskvb	nonsmokersnnsriskvb	nonsmokernnsput_on_the_linevb	hazardnnofinnonsmokernns	hazardnnofinthemnns	put_on_the_linevbtheynns	perilnnofinnonsmokersnns	endangermentnnofinthemnns	jeopardynnofinthemnns	riskyjjofinnonsmokernns	theynnslay_on_the_linevb	themnnsrisknn	nonsmokernnsjeopardynn	themnnsperilnn	perilnnofinthemnns	theynnsjeopardynn	theynnsriskyvb	riskyjjofintheynns	lay_on_the_linevbthemnns	themnnsriskvb	nonsmokersnnshazardnn	put_on_the_linevbnonsmokernns	theynnshazardnn	theynnsriskvb	riskyvbthemnns	riskyvbtheynns	put_on_the_linevbnonsmokersnns	nonsmokernnsrisknn	endangermentnnofinnonsmokersnns	themnnshazardnn	nonsmokersnnsrisknn	themnnsriskyjj	nonsmokernnsendangermentnn	jeopardynnofintheynns	themnnslay_on_the_linevb	lay_on_the_linevbtheynns	risknnofinthemnns	nonsmokernnsriskyvb	theynnsrisknn	themnnsjeopardynn	perilnnofintheynns	risknnofinnonsmokernns	nonsmokernnshazardnn	
+
+BE: factorNNsmokingNN
+EQ class: smokernnofinfactornn	smokennofinfactornn	smokingnnfactornn	fumennofinfactornn	tobacco_usernnofinfactornn	factornnsmokevb	smokingnnofinfactornn	smokyjjofinfactornn	factornnsmokenn	smokennfactornn	
+
+BE: CigaretteNN
+EQ class: buttnn	coffin_nailnn	fagnn	cigaretnn	
+
+BE: smokingNN
+EQ class: smokenn	
+
+BE: riskNN
+EQ class: perilnn	endangermentnn	hazardnn	jeopardynn	riskyjj	
+
+BE: factorsNNS
+EQ class: factornns	theynns	themnns	
+
+BE: riskNN
+EQ class: perilnn	endangermentnn	hazardnn	jeopardynn	riskyjj	
+
+BE: heartNN
+EQ class: bosomnn	
+
+BE: diseaseNN
+EQ class: 
+
+BE: actsVBZ
+EQ class: actvbz	movevbz	
+
+BE: increaseVB
+EQ class: 
+
+BE: otherJJ
+EQ class: 
+
+BE: coronaryJJ
+EQ class: coronann	
+
+BE: otherJJfactorsNNS
+EQ class: otherjjfactornns	otherjjtheynns	otherjjthemnns	
+
+BE: coronaryJJdiseaseNN
+EQ class: coronanndiseasenn	
+
+BE: CigaretteNNsmokingNN
+EQ class: cigarettennsmokenn	smokingnnofinbuttnn	smokevbcoffin_nailnn	smokevbfagnn	buttnnsmokenn	cigaretnnsmokingnn	smokingnnofincigarettenn	smokingnnofinfagnn	fagnnsmokingnn	smokennofinfagnn	coffin_nailnnsmokevb	smokennofinbuttnn	smokingnnofincigaretnn	cigaretnnsmokevb	smokingnnofincoffin_nailnn	smokevbcigaretnn	fagnnsmokevb	coffin_nailnnsmokingnn	cigaretnnsmokenn	smokennofincigaretnn	cigarettennsmokevb	smokennofincigarettenn	coffin_nailnnsmokenn	smokevbbuttnn	buttnnsmokevb	fagnnsmokenn	smokennofincoffin_nailnn	buttnnsmokingnn	smokevbcigarettenn	
+
+BE: riskNNfactorsNNS
+EQ class: riskyjjfactornns	perilnntheynns	themnnsofinperilnn	jeopardynnofinfactorsnns	endangermentnnofintheynns	factornnsriskvb	factorsnnslay_on_the_linevb	risknnofintheynns	themnnsofinjeopardynn	endangermentnnofinfactornns	perilnnofinfactorsnns	risknnfactornns	factorsnnsriskvb	factornnsofinendangermentnn	riskyjjtheynns	factornnsput_on_the_linevb	themnnsput_on_the_linevb	factorsnnsofinrisknn	factornnsofinperilnn	theynnsput_on_the_linevb	riskyjjofinthemnns	theynnsofinjeopardynn	endangermentnntheynns	hazardnnofintheynns	factorsnnsofinhazardnn	hazardnntheynns	factorsnnsofinriskyjj	themnnsofinriskyjj	factornnsofinriskyjj	factorsnnsofinendangermentnn	riskyjjofinfactornns	riskyjjfactorsnns	theynnsofinriskyjj	factornnsofinrisknn	perilnnthemnns	jeopardynnfactornns	hazardnnofinthemnns	theynnsofinrisknn	jeopardynnofinthemnns	endangermentnnofinthemnns	endangermentnnthemnns	jeopardynnofinfactornns	risknntheynns	theynnslay_on_the_linevb	jeopardynnthemnns	theynnsofinhazardnn	perilnnfactornns	jeopardynnfactorsnns	endangermentnnfactornns	factornnslay_on_the_linevb	perilnnofinthemnns	risknnofinfactornns	endangermentnnfactorsnns	jeopardynntheynns	riskyjjofintheynns	theynnsofinendangermentnn	factorsnnsofinperilnn	themnnsriskvb	hazardnnofinfactorsnns	theynnsriskvb	risknnthemnns	factornnsofinjeopardynn	factorsnnsofinjeopardynn	risknnofinfactorsnns	themnnsofinrisknn	theynnsofinperilnn	perilnnfactorsnns	hazardnnfactorsnns	themnnsofinhazardnn	riskyjjthemnns	themnnsofinendangermentnn	riskyjjofinfactorsnns	endangermentnnofinfactorsnns	jeopardynnofintheynns	hazardnnofinfactornns	factorsnnsput_on_the_linevb	themnnslay_on_the_linevb	factornnsofinhazardnn	risknnofinthemnns	hazardnnfactornns	perilnnofintheynns	hazardnnthemnns	perilnnofinfactornns	
+
+BE: heartNNdiseaseNN
+EQ class: diseasennofinbosomnn	bosomnndiseasenn	diseasennofinheartnn	
+
+BE: smokingNNactsVBZ
+EQ class: actionnnsmokingnn	actionnnsmokenn	smokennactsvbz	actionnnofinsmokingnn	enactmentnnofinsmokenn	smokingnnmovevbz	actionnnofinsmokenn	smokingnnactvbz	smokennmovevbz	actnnofinsmokingnn	smokennactvbz	actnnofinsmokenn	enactmentnnofinsmokingnn	
+
+BE: increaseVBriskNN
+EQ class: increasevbendangermentnn	additionnnofinhazardnn	increasevbperilnn	additionnnofinrisknn	increasennofinendangermentnn	increasevbriskyjj	additionnnofinriskyjj	increasennofinjeopardynn	increasennofinhazardnn	increasennofinrisknn	increasevbjeopardynn	increasevbhazardnn	additionnnofinperilnn	gainnnofinendangermentnn	gainnnofinhazardnn	gainnnofinrisknn	increasennofinriskyjj	gainnnofinjeopardynn	gainnnofinperilnn	gainnnofinriskyjj	additionnnofinendangermentnn	increasennofinperilnn	additionnnofinjeopardynn	
+
+BE: riskNNforINdiseaseNN
+EQ class: diseasennriskyjj	diseasennriskvb	jeopardynnforindiseasenn	put_on_the_linevbdiseasenn	riskyjjforindiseasenn	diseasennhazardnn	lay_on_the_linevbdiseasenn	diseasennperilnn	perilnnforindiseasenn	riskyvbdiseasenn	diseasennlay_on_the_linevb	diseasennriskyvb	diseasennjeopardynn	diseasennrisknn	riskvbdiseasenn	endangermentnnforindiseasenn	diseasennput_on_the_linevb	diseasennendangermentnn	hazardnnforindiseasenn	
+
+BE: actsVBZwithINfactorsNNS
+EQ class: movevbzwithinthemnns	movevbzwithintheynns	movevbzwithinfactornns	actsvbzwithinfactornns	movevbzwithinfactorsnns	actsvbzwithintheynns	actvbzwithinthemnns	actvbzwithinfactornns	actvbzwithinfactorsnns	actvbzwithintheynns	actsvbzwithinthemnns	
+
+BE: actsVBZincreaseVB
+EQ class: enactmentnnofinincreasevb	actnnofinincreasevb	movevbzincreasevb	actvbzincreasevb	actionnnofinincreasevb	
+
+BE: actsVBZalsoRB
+EQ class: actnnofinalsorb	movevbzalsorb	actvbzalsorb	actionnnofinalsorb	enactmentnnofinalsorb	
+
+BE: increaseVBgreatlyRB
+EQ class: greatjjininadditionnn	greatnessnnadditionnn	greatnessnngainnn	gainnnofingreatlyrb	greatjjgainnn	greatnessnniningainnn	greatnessnnininincreasevb	greatjjincreasenn	greatnessnnincreasenn	greatjjiningainnn	additionnnofingreatlyrb	greatnessnnininincreasenn	greatjjininincreasenn	greatjjadditionnn	increasennofingreatlyrb	greatjjininincreasevb	greatnessnnininadditionnn	
+
+BE: PeopleNNS
+EQ class: 
+
+BE: cigarsNNS
+EQ class: theynns	cigarnns	themnns	
+
+BE: pipesNNS
+EQ class: pipenns	theynns	tobacco_pipenns	themnns	
+
+BE: riskNN
+EQ class: perilnn	endangermentnn	hazardnn	jeopardynn	riskyjj	
+
+BE: deathNN
+EQ class: deceasenn	expirynn	
+
+BE: heartNN
+EQ class: bosomnn	
+
+BE: diseaseNN
+EQ class: 
+
+BE: strokeNN
+EQ class: shotnn	
+
+BE: riskNN
+EQ class: perilnn	endangermentnn	hazardnn	jeopardynn	riskyjj	
+
+BE: cigaretteNN
+EQ class: buttnn	coffin_nailnn	fagnn	cigaretnn	
+
+BE: smokersNNS
+EQ class: theynns	tobacco_usernns	smokernns	themnns	
+
+BE: smokeVBP
+EQ class: 
+
+BE: seemVBP
+EQ class: lookvbp	appearvbp	
+
+BE: tLocationAnnotation
+EQ class: 
+
+BE: higherJJR
+EQ class: 
+
+BE: coronaryJJ
+EQ class: coronann	
+
+BE: greatJJ
+EQ class: greatnessnn	
+
+BE: higherJJRriskNN
+EQ class: higherjjrperilnn	higherjjrhazardnn	higherjjrendangermentnn	higherjjrjeopardynn	higherjjrriskyjj	
+
+BE: coronaryJJdiseaseNN
+EQ class: coronanndiseasenn	
+
+BE: theirPRP$riskNN
+EQ class: endangermentnnofintheirprp$	theirprp$hazardnn	theirprp$riskyvb	theirprp$endangermentnn	theirprp$riskyjj	lay_on_the_linevbtheirprp$	perilnnofintheirprp$	riskvbtheirprp$	theirprp$lay_on_the_linevb	theirprp$put_on_the_linevb	theirprp$perilnn	riskyvbtheirprp$	riskyjjofintheirprp$	theirprp$riskvb	jeopardynnofintheirprp$	hazardnnofintheirprp$	theirprp$jeopardynn	risknnofintheirprp$	put_on_the_linevbtheirprp$	
+
+BE: heartNNdiseaseNN
+EQ class: diseasennofinbosomnn	bosomnndiseasenn	diseasennofinheartnn	
+
+BE: cigaretteNNsmokersNNS
+EQ class: themnnsofincigarettenn	smokernnsofincoffin_nailnn	smokevbfagnn	tobacco_usernnsofincoffin_nailnn	fagnntheynns	cigaretnnsmokersnns	coffin_nailnnsmokevb	tobacco_usernnsofinbuttnn	themnnsofincigaretnn	smokersnnsofincigarettenn	tobacco_usernnsofinfagnn	cigaretnnthemnns	theynnsofinfagnn	buttnntobacco_usernns	themnnsofincoffin_nailnn	coffin_nailnnthemnns	smokevbcigaretnn	buttnnsmokernns	cigarettenntobacco_usernns	buttnnsmokersnns	fagnnthemnns	cigaretnnsmokernns	smokernnsofincigarettenn	smokersnnsofinbuttnn	cigarettenntheynns	smokevbbuttnn	theynnsofincoffin_nailnn	fagnnsmokernns	themnnsofinfagnn	tobacco_usernnsofincigarettenn	smokevbcigarettenn	cigarettennsmokernns	smokernnsofinfagnn	coffin_nailnntobacco_usernns	smokevbcoffin_nailnn	cigaretnntobacco_usernns	smokersnnsofinfagnn	coffin_nailnntheynns	themnnsofinbuttnn	coffin_nailnnsmokersnns	fagnnsmokersnns	smokersnnsofincoffin_nailnn	smokernnsofinbuttnn	theynnsofinbuttnn	cigaretnnsmokevb	fagnnsmokevb	buttnntheynns	tobacco_usernnsofincigaretnn	buttnnthemnns	cigaretnntheynns	cigarettennthemnns	cigarettennsmokevb	theynnsofincigaretnn	fagnntobacco_usernns	buttnnsmokevb	coffin_nailnnsmokernns	smokernnsofincigaretnn	smokersnnsofincigaretnn	theynnsofincigarettenn	
+
+BE: PeopleNNSseemVBP
+EQ class: peoplennslookvbp	peoplennsappearvbp	
+
+BE: PeopleNNSsmokeVBP
+EQ class: smokingnnofinpeoplenns	tobacco_usernnofinpeoplenns	smokennofinpeoplenns	smokernnpeoplenns	smokennpeoplenns	tobacco_usernnpeoplenns	smokernnofinpeoplenns	fumennofinpeoplenns	smokyjjofinpeoplenns	smokingnnpeoplenns	
+
+BE: smokeVBPcigarsNNS
+EQ class: smokyjjofincigarnns	smokingnnofincigarsnns	fumennofincigarsnns	smokernnofincigarnns	smokyjjofinthemnns	smokevbptheynns	smokennofinthemnns	fumennofintheynns	smokingnnofinthemnns	tobacco_usernnofincigarsnns	smokingnnofintheynns	smokyjjofincigarsnns	fumennofincigarnns	smokennofintheynns	smokennofincigarsnns	smokyjjofintheynns	smokernnofintheynns	tobacco_usernnofintheynns	smokennofincigarnns	smokernnofinthemnns	smokernnofincigarsnns	smokevbpthemnns	smokevbpcigarnns	tobacco_usernnofinthemnns	smokingnnofincigarnns	fumennofinthemnns	tobacco_usernnofincigarnns	
+
+BE: haveAUXriskNN
+EQ class: have_gotauxjeopardynn	holdauxrisknn	have_gotauxrisknn	wealthy_personnnofinhazardnn	havennofinhazardnn	havennofinjeopardynn	holdauxhazardnn	wealthy_personnnofinperilnn	have_gotauxperilnn	rich_personnnofinriskyjj	holdauxendangermentnn	wealthy_personnnofinrisknn	haveauxriskyjj	wealthy_personnnofinendangermentnn	havennofinperilnn	wealthy_personnnofinriskyjj	haveauxhazardnn	have_gotauxendangermentnn	rich_personnnofinendangermentnn	holdauxperilnn	haveauxperilnn	haveauxjeopardynn	haveauxendangermentnn	holdauxjeopardynn	rich_personnnofinrisknn	havennofinendangermentnn	have_gotauxhazardnn	have_gotauxriskyjj	rich_personnnofinhazardnn	havennofinriskyjj	rich_personnnofinperilnn	wealthy_personnnofinjeopardynn	havennofinrisknn	holdauxriskyjj	rich_personnnofinjeopardynn	
+
+BE: tLocationAnnotationriskNN
+EQ class: tlocationannotationendangermentnn	tlocationannotationperilnn	tlocationannotationjeopardynn	tlocationannotationhazardnn	tlocationannotationriskyjj	
+
+BE: riskNNofINdeathNN
+EQ class: deathnnput_on_the_linevb	riskvbexpirynn	deathnnendangermentnn	expirynnrisknn	expirynnendangermentnn	hazardnnofindeathnn	riskyvbdeathnn	jeopardynnofindeceasenn	riskyjjofindeathnn	perilnnofindeathnn	perilnnofinexpirynn	riskyvbexpirynn	expirynnriskvb	riskyvbdeceasenn	endangermentnnofinexpirynn	perilnnofindeceasenn	deathnnperilnn	put_on_the_linevbdeceasenn	hazardnnofindeceasenn	risknnofinexpirynn	put_on_the_linevbexpirynn	endangermentnnofindeceasenn	expirynnput_on_the_linevb	deathnnriskyjj	expirynnriskyjj	deceasennlay_on_the_linevb	lay_on_the_linevbexpirynn	deceasennjeopardynn	risknnofindeceasenn	riskyjjofindeceasenn	deceasennrisknn	hazardnnofinexpirynn	deceasennendangermentnn	expirynnlay_on_the_linevb	deceasennperilnn	deceasennriskvb	deathnnriskvb	deceasennriskyvb	expirynnriskyvb	riskyjjofinexpirynn	endangermentnnofindeathnn	deathnnrisknn	jeopardynnofinexpirynn	deathnnriskyvb	deathnnlay_on_the_linevb	lay_on_the_linevbdeathnn	lay_on_the_linevbdeceasenn	expirynnjeopardynn	put_on_the_linevbdeathnn	jeopardynnofindeathnn	deathnnhazardnn	deceasennriskyjj	deceasennput_on_the_linevb	deathnnjeopardynn	expirynnperilnn	deceasennhazardnn	expirynnhazardnn	riskvbdeathnn	riskvbdeceasenn	
+
+BE: deathNNfromINdiseaseNN
+EQ class: diseasenncash_in_one's_chipsvb	diseasennpop_offvb	diseasennexpirevb	diseasennsnuff_itvb	diseasennperishvb	chokevbdiseasenn	diseasenndievb	diseasennkick_the_bucketvb	snuff_itvbdiseasenn	diseasennbuy_the_farmvb	dievbdiseasenn	diseasenndeathnn	diseasenndrop_deadvb	diseasennexpirynn	expirevbdiseasenn	give-up_the_ghostvbdiseasenn	diseasennchokevb	expirynnfromindiseasenn	deceasevbdiseasenn	cash_in_one's_chipsvbdiseasenn	buy_the_farmvbdiseasenn	diseasenndeceasevb	deceasennfromindiseasenn	diseasennpass_awayvb	drop_deadvbdiseasenn	diseasennexitvb	diseasenngive-up_the_ghostvb	conkvbdiseasenn	croakvbdiseasenn	kick_the_bucketvbdiseasenn	pass_awayvbdiseasenn	diseasennconkvb	passvbdiseasenn	diseasenngovb	govbdiseasenn	exitvbdiseasenn	diseasenndeceasenn	pop_offvbdiseasenn	diseasenncroakvb	diseasennpassvb	perishvbdiseasenn	
+
+BE: greatJJasINsmokersNNS
+EQ class: greatnessnnasinsmokersnns	greatjjasintheynns	smokevbgreatlyrb	greatjjasinthemnns	greatnessnnasintobacco_usernns	greatjjasintobacco_usernns	greatjjasinsmokernns	greatnessnnasintheynns	greatnessnnasinsmokernns	greatnessnnasinthemnns	
+
+BE: tLocationAnnotationisnRB
+EQ class: 
+
+BE: ExposureNN
+EQ class: 
+
+BE: peopleNNS
+EQ class: theynns	themnns	
+
+BE: smokeNN
+EQ class: smokyjj	fumenn	
+
+BE: increasesNNS
+EQ class: additionnns	theynns	gainnns	increasenns	themnns	
+
+BE: riskNN
+EQ class: perilnn	endangermentnn	hazardnn	jeopardynn	riskyjj	
+
+BE: heartNN
+EQ class: bosomnn	
+
+BE: diseaseNN
+EQ class: 
+
+BE: nonsmokersNNS
+EQ class: theynns	themnns	nonsmokernns	
+
+BE: sVBZ
+EQ class: 
+
+BE: otherJJ
+EQ class: 
+
+BE: otherJJpeopleNNS
+EQ class: otherjjtheynns	otherjjthemnns	
+
+BE: smokeNNincreasesNNS
+EQ class: increasennsofinsmokyjj	gainnnsofinsmokenn	smokyjjofinincreasenns	smokennincreasenns	smokyjjgainnns	smokyjjincreasevb	themnnsofinsmokyjj	smokennincreasevb	smokennofinincreasesnns	fumennincreasenns	fumennofinincreasesnns	smokennofinthemnns	fumennincreasevb	smokingnnofinthemnns	themnnssmokevb	fumennincreasesnns	fumennthemnns	smokyjjtheynns	increasennssmokevb	theynnsofinsmokenn	fumenntheynns	smokennofinadditionnns	smokyjjincreasenns	smokernnofinincreasenns	increasevbsmokyjj	fumennofingainnns	increasesnnsofinfumenn	smokennofinincreasenns	additionnnsofinsmokyjj	smokernnofingainnns	smokernnofintheynns	tobacco_usernnofintheynns	smokernnofinthemnns	additionnnsofinfumenn	smokennofingainnns	theynnssmokevb	smokennadditionnns	fumennofinincreasenns	tobacco_usernnofinincreasenns	increasennsofinsmokenn	tobacco_usernnofinthemnns	smokingnnofinincreasenns	theynnsofinfumenn	smokingnnofinincreasesnns	tobacco_usernnofinincreasesnns	smokingnnofinadditionnns	smokyjjadditionnns	additionnnssmokevb	additionnnsofinsmokenn	smokyjjofinadditionnns	smokyjjofinincreasesnns	smokenntheynns	smokenngainnns	increasesnnsofinsmokyjj	smokyjjofinthemnns	themnnsofinsmokenn	gainnnssmokevb	fumennofintheynns	smokennthemnns	theynnsofinsmokyjj	smokyjjthemnns	gainnnsofinsmokyjj	smokingnnofintheynns	increasesnnssmokevb	fumennofinadditionnns	smokingnnofingainnns	gainnnsofinfumenn	increasesnnsofinsmokenn	smokennofintheynns	smokernnofinincreasesnns	smokyjjofintheynns	fumenngainnns	smokyjjincreasesnns	tobacco_usernnofingainnns	increasevbfumenn	themnnsofinfumenn	increasevbsmokenn	smokyjjofingainnns	smokernnofinadditionnns	fumennadditionnns	increasennsofinfumenn	fumennofinthemnns	tobacco_usernnofinadditionnns	
+
+BE: heartNNdiseaseNN
+EQ class: diseasennofinbosomnn	bosomnndiseasenn	diseasennofinheartnn	
+
+BE: ExposureNNsVBZ
+EQ class: 
+
+BE: sVBZincreasesNNS
+EQ class: svbzgainnns	svbzincreasenns	svbzthemnns	svbzadditionnns	svbztheynns	
+
+BE: sVBZriskNN
+EQ class: svbzjeopardynn	svbzhazardnn	svbzriskyjj	svbzperilnn	svbzendangermentnn	
+
+BE: ExposureNNtoTOpeopleNNS
+EQ class: exposurenntototheynns	exposevbpeoplenns	exposevbtheynns	theynnsexposevb	theynnsexposurenn	peoplennsexposurenn	exposevbthemnns	themnnsexposevb	peoplennsexposevb	themnnsexposurenn	exposurenntotothemnns	
+
+BE: riskNNofINdiseaseNN
+EQ class: diseasennriskyjj	diseasennriskvb	perilnnofindiseasenn	jeopardynnofindiseasenn	put_on_the_linevbdiseasenn	endangermentnnofindiseasenn	diseasennhazardnn	lay_on_the_linevbdiseasenn	diseasennperilnn	hazardnnofindiseasenn	riskyvbdiseasenn	riskyjjofindiseasenn	diseasennlay_on_the_linevb	diseasennriskyvb	diseasennjeopardynn	diseasennrisknn	riskvbdiseasenn	diseasennput_on_the_linevb	diseasennendangermentnn	
+
+BE: sVBZforINnonsmokersNNS
+EQ class: svbzforinthemnns	svbzforinnonsmokernns	svbzforintheynns	
+

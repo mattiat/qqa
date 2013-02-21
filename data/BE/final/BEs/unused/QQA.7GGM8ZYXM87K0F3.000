@@ -1,0 +1,87 @@
+#Why did Lyndon Johnson chose to ignore The Wise Men in 1968, when they warned that the Vietnam War could ..?. 
+#(S1 (SBARQ (WHADVP (WRB Why)) (SQ (AUX did) (NP (NNP Lyndon) (NNP Johnson)) (S (VP (VBD chose) (S (VP (TO to) (VP (VB ignore) (NP (NP (DT The) (JJ Wise) (NNS Men)) (PP (IN in) (NP (NP (CD 1968)) (, ,) (SBAR (WHADVP (WRB when)) (S (NP (PRP they)) (VP (VBD warned) (SBAR (IN that) (S (NP (DT the) (NNP Vietnam) (NNP War)) (VP (MD could) (VP (VB ..)))))))))))))))) (. ?)) (. .)))
+#Rule:Nouns
+r1Lyndon JohnsonPersonAnnotation
+r1The Wise MenOrganizationAnnotation
+r1VietnamLocationAnnotation
+r1WarNNP
+
+#Rule:Verbs
+r2choseVBD
+r2ignoreVB
+r2warnedVBD
+r2..VB
+
+#Rule:N-HeadNoun
+r8VietnamLocationAnnotationWarNNP
+
+#Rule:HeadNoun-V
+r11theyPRPwarnedVBD
+r11WarNNP..VB
+
+#Rule:V-HeadNoun
+r21ignoreVBThe Wise MenOrganizationAnnotation
+
+#Rule:PPinNP
+r26The Wise MenOrganizationAnnotationinIN1968CD
+
+#Rule:(SBAR+WHADVP)inNP
+r411968CDwhenWRBwarnedVBD
+
+#Rule:V-IN-V
+r43warnedVBDthatIN..VB
+
+#Rule:V-V
+r44choseVBDignoreVB
+
+#not be won and recommended that American troops be withdrawn?
+#(S1 (S (RB not) (VP (AUX be) (VP (VP (VBN won)) (CC and) (VP (VBD recommended) (SBAR (IN that) (S (NP (JJ American) (NNS troops)) (VP (AUX be) (VP (VBN withdrawn)))))))) (. ?)))
+#Rule:Nouns
+r1troopsNNS
+
+#Rule:Verbs
+r2wonVBN
+r2recommendedVBD
+r2withdrawnVBN
+
+#Rule:Adjs
+r4AmericanJJ
+
+#Rule:Adj-Noun
+r5AmericanJJtroopsNNS
+
+#Rule:V-HeadNoun(passive)
+r23withdrawnVBNtroopsNNS
+
+#Rule:V-IN-V
+r43recommendedVBDthatINwithdrawnVBN
+
+#http://www.youtube.com/watch?
+#(S1 (FRAG (X (SYM http)) (: :) (NP (NN //www.youtube.com/watch)) (. ?)))
+#Rule:Nouns
+r1//www.youtube.com/watchNN
+
+#v=crfRcI6oeXw:-).Here s the missing O !  
+#(S1 (FRAG (NP (NNP v=crfRcI6oeXw)) (: :) (S (LST (: -)) (-RRB- -RRB-) (VP (ADVP (RB .Here)) (VBZ s) (NP (DT the) (VBG missing) (NN O)))) (. !)))
+#Rule:Nouns
+r1v=crfRcI6oeXw:-).HerePersonAnnotation
+r1O !LocationAnnotation
+
+#Rule:Verbs
+r2sVBZ
+r2missingVBG
+
+#Rule:Adj-Noun
+r5missingVBGO !LocationAnnotation
+
+#Rule:V-HeadNoun
+r21sVBZO !LocationAnnotation
+
+#Rule:V-ADV
+r46sVBZv=crfRcI6oeXw:-).HerePersonAnnotation
+
+#:-)
+#
+@lemmas-left	warn	they	withdrawn	warned	recommended	recommend	war	Vietnam	missing	O !	War	american	..	withdraw	won	choose	ignore	The Wise Men	American	watch	1968	v=crfRcI6oeXw:-).Here	Lyndon Johnson	win	//www.youtube.com/watch	chose	troops	s	miss	
+@lemmas-right	warn	The Wise Men	withdrawn	1968	v=crfRcI6oeXw:-).Here	warned	war	troops	O !	War	..	withdraw	ignore	
+@lemmas-center	that	when	in	

@@ -1,0 +1,22 @@
+#Do you believe in Darwinism (evolution)?  
+#(S1 (SQ (AUX Do) (NP (PRP you)) (VP (VB believe) (PP (IN in) (NP (NP (NNP Darwinism)) (PRN (-LRB- -LRB-) (NP (NN evolution)) (-RRB- -RRB-))))) (. ?)))
+#Rule:Nouns
+r1DarwinismPersonAnnotation
+r1evolutionNN
+
+#Rule:Verbs
+r2believeVB
+
+#Rule:PPinVP
+r30believeVBinINDarwinismPersonAnnotation
+
+#Why or why not? 
+#(S1 (FRAG (WHADVP (WRB Why)) (CC or) (WHADVP (WRB why)) (RB not) (. ?)))
+#Explain.?
+#(S1 (SBARQ (SINV (VB Explain) (. .)) (. ?)))
+#Rule:Verbs
+r2explainVB
+
+@lemmas-left	explain	believe	evolution	Darwinism	
+@lemmas-right	Darwinism	
+@lemmas-center	in	

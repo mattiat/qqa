@@ -1,0 +1,457 @@
+#Well good for you.  You re the exception..
+#(S1 (FRAG (ADVP (RB Well)) (ADJP (JJ good) (PP (IN for) (NP (NN you.)))) (S (NP (PRP You)) (VP (NNP re) (NP (DT the) (NN exception))) (. .)) (. .)))
+#Rule:Nouns
+r1youNN
+r1reNNP
+r1exceptionNN
+
+#Rule:Adjs
+r4goodJJ
+
+#Rule:PPinADJP
+r37goodJJforINyouNN
+
+#I come from Los Angeles and 80% of the students in the the bottom 60% of the Stanford Binet tests..
+#(S1 (S (NP (PRP I)) (VP (VP (VBP come) (PP (IN from) (NP (NNP Los) (NNP Angeles)))) (CC and) (VP (NP (NP (CD 80) (NN %)) (PP (IN of) (NP (DT the) (NNS students)))) (PP (IN in) (NP (NP (DT the) (DT the) (NN bottom)) (SBAR (S (NP (NP (CD 60) (NN %)) (PP (IN of) (NP (DT the) (NNP Stanford) (NNP Binet)))) (VP (VBZ tests)) (. .))))))) (. .)))
+#Rule:Nouns
+r1Los AngelesLocationAnnotation
+r1%NN
+r1studentsNNS
+r1bottomNN
+r1%NN
+r1StanfordOrganizationAnnotation
+r1BinetNNP
+
+#Rule:Verbs
+r2comeVBP
+r2testsVBZ
+
+#Rule:Adj-Noun
+r580CD%NN
+r560CD%NN
+
+#Rule:N-HeadNoun
+r8StanfordOrganizationAnnotationBinetNNP
+
+#Rule:HeadNoun-V
+r11iPRPcomeVBP
+r11%NNtestsVBZ
+
+#Rule:NP(NP(z) SBAR(S(NP(x)VP(y))))
+r19testsVBZbottomNN
+
+#Rule:PPinNP
+r26%NNofINstudentsNNS
+r26%NNofINBinetNNP
+
+#Rule:PPinVP
+r30comeVBPfromINLos AngelesLocationAnnotation
+
+#In New York three years ago they almost threw out the Regents Math exam because NO ONE PASSED ITI know a Girl from NY who has a High School Diploma who thinks DENMARK IS A CITYShe also couldn t tell me what 0.10 of 10 was!!
+#(S1 (FRAG (PP (IN In) (NP (NNP New) (NNP York))) (NP (NP (CD three) (NNS years)) (SBAR (IN ago) (S (NP (PRP they)) (ADVP (RB almost)) (VP (VBD threw) (PRT (RP out)) (NP (DT the) (NNP Regents) (NNP Math) (NN exam)) (SBAR (IN because) (S (NP (DT NO) (NN ONE)) (VP (VBD PASSED) (SBAR (S (NP (NNS ITI)) (VP (VBP know) (NP (NP (DT a) (NN Girl)) (PP (IN from) (NP (NP (NNS NY)) (SBAR (WHNP (WP who)) (S (VP (AUX has) (NP (NP (DT a) (NNP High) (NNP School) (NN Diploma)) (SBAR (WHNP (WP who)) (S (VP (VBZ thinks) (SBAR (S (NP (NNP DENMARK)) (VP (AUX IS) (NP (DT A) (NN CITYShe) (S (ADVP (RB also)) (NP (JJ couldn) (NNS t)) (VP (VB tell) (NP (PRP me)) (SBAR (WHNP (WP what)) (S (NP (NP (CD 0.10)) (PP (IN of) (NP (CD 10)))) (VP (AUX was))))) (. !)))))))))))))))))))))))))) (. !)))
+#Rule:Nouns
+r1New YorkLocationAnnotation
+r1yearsNNS
+r1the Regents MathOrganizationAnnotation
+r1examNN
+r1ONENN
+r1ITINNS
+r1GirlNN
+r1NYOrganizationAnnotation
+r1High School DiplomaOrganizationAnnotation
+r1DENMARK IS A CITYSheOrganizationAnnotation
+r1tNNS
+
+#Rule:Verbs
+r2passedVBD
+r2knowVBP
+r2thinksVBZ
+r2tellVB
+
+#Rule:V-PRT
+r3threwVBDoutRP
+
+#Rule:Adjs
+r4couldnJJ
+
+#Rule:Adj-Noun
+r5threeCDyearsNNS
+r5couldnJJtNNS
+
+#Rule:N-HeadNoun
+r8the Regents MathOrganizationAnnotationexamNN
+
+#Rule:HeadNoun-V
+r11theyPRPthrewVBD
+r11ONENNpassedVBD
+r11ITINNSknowVBP
+r11tNNStellVB
+r110.10CDwasAUX
+
+#Rule:HeadNoun-(who/that)-V
+r14NYOrganizationAnnotationhasAUX
+r14High School DiplomaOrganizationAnnotationthinksVBZ
+
+#Rule:V-HeadNoun
+r21threwVBDexamNN
+r21knowVBPGirlNN
+r21hasAUXHigh School DiplomaOrganizationAnnotation
+r21tellVBmePRP
+
+#Rule:PPinNP
+r26GirlNNfromINNYOrganizationAnnotation
+r260.10CDofIN10CD
+
+#Rule:V-IN-V
+r43threwVBDbecauseINpassedVBD
+
+#Rule:V-ADV
+r46threwVBDalmostRB
+r46tellVBalsoRB
+
+#Her father told her to use a calculator!!
+#(S1 (S (NP (PRP$ Her) (NN father)) (VP (VBD told) (S (NP (PRP her)) (VP (TO to) (VP (VB use) (NP (DT a) (NN calculator)))) (. !))) (. !)))
+#Rule:Nouns
+r1fatherNN
+r1calculatorNN
+
+#Rule:Verbs
+r2toldVBD
+r2useVB
+
+#Rule:PRP-Noun
+r6herPRP$fatherNN
+
+#Rule:HeadNoun-V
+r11fatherNNtoldVBD
+r11herPRPuseVB
+
+#Rule:V-HeadNoun
+r21useVBcalculatorNN
+
+#Rule:V-HeadNoun
+r22toldVBDherPRP
+
+#This is the STATE of EDUCATION in RURAL and URBAN America on the average..
+#(S1 (S (NP (DT This)) (VP (AUX is) (NP (NP (DT the) (NN STATE)) (PP (IN of) (NP (NP (NNP EDUCATION)) (PP (IN in) (NP (NNP RURAL) (CC and) (NNP URBAN) (NNP America))) (PP (IN on) (NP (DT the) (NN average))) (. .))))) (. .)))
+#Rule:Nouns
+r1STATENN
+r1EDUCATIONOrganizationAnnotation
+r1RURALOrganizationAnnotation
+r1URBAN AmericaOrganizationAnnotation
+r1averageNN
+
+#Rule:HeadNoun-V
+r11thisDTisAUX
+
+#Rule:V-HeadNoun
+r21isAUXSTATENN
+
+#Rule:PPinNP
+r26STATENNofINEDUCATIONOrganizationAnnotation
+r26EDUCATIONOrganizationAnnotationinINURBAN AmericaOrganizationAnnotation
+r26EDUCATIONOrganizationAnnotationonINaverageNN
+
+#JAPANESE PARENTS refuse to let their kids go to even an American Private school..
+#(S1 (S (NP (JJ JAPANESE) (NNS PARENTS)) (VP (VBP refuse) (S (VP (TO to) (VP (VB let) (S (NP (PRP$ their) (NNS kids)) (VP (VB go) (PP (TO to) (NP (RB even) (DT an) (NNP American) (NNP Private) (NN school))) (. .))))))) (. .)))
+#Rule:Nouns
+r1JAPANESE PARENTSOrganizationAnnotation
+r1kidsNNS
+r1AmericanNNP
+r1PrivateNNP
+r1schoolNN
+
+#Rule:Verbs
+r2refuseVBP
+r2letVB
+r2goVB
+
+#Rule:PRP-Noun
+r6theirPRP$kidsNNS
+
+#Rule:N-HeadNoun
+r8PrivateNNPschoolNN
+r8AmericanNNPschoolNN
+
+#Rule:HeadNoun-V
+r11JAPANESE PARENTSOrganizationAnnotationrefuseVBP
+r11kidsNNSgoVB
+
+#Rule:V-HeadNoun
+r22letVBkidsNNS
+
+#Rule:PPinVP
+r30goVBtoTOschoolNN
+
+#Rule:V-V
+r44refuseVBPletVB
+
+#BUT they all want their kids to go to UCLA, U Chicago and Harvard!!
+#(S1 (S (CC BUT) (NP (NP (PRP they)) (NP (DT all))) (VP (VBP want) (NP (PRP$ their) (NNS kids) (S (VP (TO to) (VP (VB go) (PP (TO to) (NP (NNP UCLA) (, ,) (NNP U) (NNP Chicago) (CC and) (NNP Harvard)))))) (. !))) (. !)))
+#Rule:Nouns
+r1kidsNNS
+r1UCLALocationAnnotation
+r1U ChicagoLocationAnnotation
+r1Harvard!!OrganizationAnnotation
+
+#Rule:Verbs
+r2wantVBP
+r2goVB
+
+#Rule:PRP-Noun
+r6theirPRP$kidsNNS
+
+#Rule:HeadNoun-V
+r11theyPRPwantVBP
+r11allDTwantVBP
+
+#Rule:V-HeadNoun
+r21wantVBPkidsNNS
+
+#Rule:PPinVP
+r30goVBtoTOU ChicagoLocationAnnotation
+
+#Every American I know who took Public School in England, Germany or Denmark has remarked how GOODthe schools are there and how INFERIOR the schools in America are..
+#(S1 (S (NP (NP (DT Every) (NNP American)) (SBAR (S (NP (PRP I)) (VP (VBP know) (SBAR (WHNP (WP who)) (S (VP (VBD took) (NP (NNP Public) (NNP School)) (PP (IN in) (NP (NNP England) (, ,) (NNP Germany) (CC or) (NNP Denmark)))))))))) (VP (AUX has) (VP (VBD remarked) (SBAR (SBAR (WHADVP (WRB how)) (S (NP (NNP GOODthe) (NNS schools)) (VP (AUX are) (ADVP (RB there))))) (CC and) (SBAR (WHADJP (WRB how) (JJ INFERIOR)) (S (NP (NP (DT the) (NNS schools)) (PP (IN in) (NP (NNP America)))) (VP (AUX are))) (. .))))) (. .)))
+#Rule:Nouns
+r1AmericanNNP
+r1Public SchoolOrganizationAnnotation
+r1EnglandLocationAnnotation
+r1GermanyLocationAnnotation
+r1DenmarkLocationAnnotation
+r1GOODtheNNP
+r1schoolsNNS
+r1schoolsNNS
+r1AmericaLocationAnnotation
+
+#Rule:Verbs
+r2knowVBP
+r2tookVBD
+r2remarkedVBD
+
+#Rule:Adjs
+r4INFERIORJJ
+
+#Rule:N-HeadNoun
+r8GOODtheNNPschoolsNNS
+
+#Rule:HeadNoun-V
+r11AmericanNNPremarkedVBD
+r11iPRPknowVBP
+r11schoolsNNSareAUX
+r11schoolsNNSareAUX
+
+#Rule:NP(NP(z) SBAR(S(NP(x)VP(y))))
+r19knowVBPAmericanNNP
+
+#Rule:V-HeadNoun
+r21tookVBDPublic SchoolOrganizationAnnotation
+
+#Rule:PPinNP
+r26schoolsNNSinINAmericaLocationAnnotation
+
+#Rule:PPinVP
+r30tookVBDinINGermanyLocationAnnotation
+
+#Rule:V-ADV
+r46areAUXthereRB
+
+#A man I know from San Salvador whose father was a teacher told me he was doing Geometry in 8th grade in San Salvador and when he came to America they put him into FRACTIONS.You might be great, but at the same time I think you better take off your ROSE COLORED GLASSESHOWARD STERN regularly proves that Pole Dancers and Strippers who ALL have High School dipolmas think the Capital of New York is New JerseyThis is documented by transcription voice tapes and video tapes..
+#(S1 (S (NP (NP (DT A) (NN man)) (SBAR (S (NP (PRP I)) (VP (VBP know) (PP (IN from) (NP (NNP San) (NNP Salvador))) (SBAR (WHNP (WP$ whose) (NN father)) (S (VP (AUX was) (NP (DT a) (NN teacher))))))))) (VP (VBD told) (NP (PRP me)) (SBAR (S (NP (PRP he)) (VP (AUX was) (VP (VBG doing) (NP (NP (NN Geometry)) (PP (IN in) (NP (JJ 8th) (NN grade))) (UCP (PP (IN in) (NP (NNP San) (NNP Salvador))) (CC and) (SBAR (WHADVP (WRB when)) (S (NP (PRP he)) (VP (VBD came) (PP (TO to) (NP (NNP America))) (S (S (NP (PRP they)) (VP (VBP put) (NP (PRP him)) (PP (IN into) (NP (NN FRACTIONS.You))) (SBAR (S (VP (MD might) (VP (AUX be) (ADJP (JJ great)))))))) (, ,) (CC but) (S (PP (IN at) (NP (DT the) (JJ same) (NN time))) (NP (PRP I)) (VP (VBP think) (SBAR (S (NP (PRP you)) (ADVP (RB better)) (VP (VBP take) (PRT (RP off)) (SBAR (S (NP (PRP$ your) (VBD ROSE) (NNP COLORED) (NNP GLASSESHOWARD) (NNP STERN)) (VP (ADVP (RB regularly)) (VBZ proves) (SBAR (IN that) (S (NP (NP (JJ Pole) (NNS Dancers) (CC and) (NNS Strippers)) (SBAR (WHNP (WP who)) (S (NP (DT ALL)) (VP (AUX have) (NP (JJ High) (NN School) (NNS dipolmas)))))) (VP (VBP think) (SBAR (S (NP (NP (DT the) (NN Capital)) (PP (IN of) (NP (NNP New) (NNP York)))) (VP (AUX is) (SBAR (S (NP (NNP New) (NNP JerseyThis)) (VP (AUX is) (VP (VBN documented) (PP (IN by) (NP (NP (NN transcription) (NN voice) (NNS tapes)) (CC and) (NP (JJ video) (NNS tapes)))))))))))))))))))))) (. .)))))))))))) (. .)))
+#Rule:Nouns
+r1manNN
+r1San SalvadorLocationAnnotation
+r1fatherNN
+r1teacherNN
+r1GeometryNN
+r1gradeNN
+r1San SalvadorLocationAnnotation
+r1AmericaLocationAnnotation
+r1FRACTIONS.YouNN
+r1timeNN
+r1COLOREDNNP
+r1GLASSESHOWARDNNP
+r1STERNNNP
+r1Pole DancersOrganizationAnnotation
+r1StrippersNNS
+r1High SchoolOrganizationAnnotation
+r1dipolmasNNS
+r1CapitalNN
+r1New YorkLocationAnnotation
+r1New JerseyThisLocationAnnotation
+r1transcriptionNN
+r1voiceNN
+r1tapesNNS
+r1tapesNNS
+
+#Rule:Verbs
+r2knowVBP
+r2toldVBD
+r2doingVBG
+r2cameVBD
+r2putVBP
+r2thinkVBP
+r2roseVBD
+r2provesVBZ
+r2thinkVBP
+r2documentedVBN
+
+#Rule:V-PRT
+r3takeVBPoffRP
+
+#Rule:Adjs
+r48thJJ
+r4greatJJ
+r4sameJJ
+r4videoJJ
+
+#Rule:Adj-Noun
+r58thJJgradeNN
+r5sameJJtimeNN
+r5High SchoolOrganizationAnnotationdipolmasNNS
+r5videoJJtapesNNS
+
+#Rule:PRP-Noun
+r6yourPRP$STERNNNP
+
+#Rule:N-HeadNoun
+r8GLASSESHOWARDNNPSTERNNNP
+r8COLOREDNNPSTERNNNP
+r8voiceNNtapesNNS
+r8transcriptionNNtapesNNS
+
+#Rule:HeadNoun-V
+r11manNNtoldVBD
+r11iPRPknowVBP
+r11hePRPdoingVBG
+r11hePRPcameVBD
+r11theyPRPputVBP
+r11iPRPthinkVBP
+r11youPRPtakeVBP
+r11STERNNNPprovesVBZ
+r11Pole DancersOrganizationAnnotationthinkVBP
+r11allDThaveAUX
+r11CapitalNNisAUX
+
+#Rule:V-By-Agent
+r13tapesNNSdocumentedVBN
+r13tapesNNSdocumentedVBN
+
+#Rule:NP(NP(z) SBAR(S(NP(x)VP(y))))
+r19knowVBPmanNN
+
+#Rule:V-HeadNoun
+r21wasAUXteacherNN
+r21toldVBDmePRP
+r21doingVBGGeometryNN
+r21putVBPhimPRP
+r21haveAUXdipolmasNNS
+
+#Rule:V-HeadNoun(passive)
+r23documentedVBNNew JerseyThisLocationAnnotation
+
+#Rule:V-ADJ
+r25beAUXgreatJJ
+
+#Rule:PPinNP
+r26GeometryNNinINgradeNN
+r26CapitalNNofINNew YorkLocationAnnotation
+
+#Rule:PPinVP
+r30knowVBPfromINSan SalvadorLocationAnnotation
+r30cameVBDtoTOAmericaLocationAnnotation
+r30putVBPintoINFRACTIONS.YouNN
+
+#Rule:PPinS
+r36thinkVBPatINtimeNN
+
+#Rule:V-IN-V
+r43provesVBZthatINthinkVBP
+
+#Rule:V-ADV
+r46takeVBPbetterRB
+r46provesVBZregularlyRB
+
+#Here s an experiment for youGo into class tomorrow with a map of the US with border for all the states but NO NAMES and ask someone to find SOUTH DAKOTA or MONTANAThen ASK THEM WHAT THE CAPITAL ISIt will change your whole opionion of the American Education process and I WANT TO BE THERE WITH A VIDEO CAMERA TO TAPE YOU DOING IT
+#(S1 (S (ADVP (RB Here)) (VP (VP (VBZ s) (NP (NP (DT an) (NN experiment)) (PP (IN for) (NP (NN youGo)))) (PP (IN into) (NP (NN class) (NN tomorrow))) (PP (IN with) (NP (NP (DT a) (NN map)) (PP (IN of) (NP (DT the) (NP (NP (PRP US)) (PP (IN with) (NP (NP (NN border)) (PP (IN for) (NP (PDT all) (DT the) (NNS states)))))) (CC but) (NP (DT NO) (NNPS NAMES))))))) (CC and) (VP (VBP ask) (S (NP (NN someone)) (VP (TO to) (VP (VB find) (S (NP (NP (NNP SOUTH) (NNP DAKOTA)) (CC or) (NP (NNP MONTANAThen))) (VP (VB ASK) (NP (PRP THEM)) (SBAR (WHNP (WP WHAT)) (S (S (NP (DT THE) (NN CAPITAL) (NN ISIt)) (VP (MD will) (VP (VB change) (NP (NP (PRP$ your) (JJ whole) (NN opionion)) (PP (IN of) (NP (DT the) (NNP American) (NNP Education) (NN process))))))) (CC and) (S (NP (PRP I)) (VP (VBP WANT) (S (VP (TO TO) (VP (AUX BE) (ADVP (RB THERE)) (PP (IN WITH) (NP (NP (DT A) (JJ VIDEO) (NN CAMERA)) (SBAR (S (VP (TO TO) (VP (NN TAPE) (NP (PRP YOU)) (S (VP (VBG DOING) (NP (PRP IT))))))))))))))))))))))))))
+#Rule:Nouns
+r1experimentNN
+r1youGoLocationAnnotation
+r1classNN
+r1tomorrowNN
+r1mapNN
+r1borderNN
+r1statesNNS
+r1NAMESNNPS
+r1someoneNN
+r1SOUTH DAKOTA or MONTANAThen ASKOrganizationAnnotation
+r1CAPITAL ISItOrganizationAnnotation
+r1opionionNN
+r1AmericanNNP
+r1EducationNNP
+r1processNN
+r1CAMERANN
+r1TAPENN
+
+#Rule:Verbs
+r2sVBZ
+r2askVBP
+r2findVB
+r2changeVB
+r2wantVBP
+r2doingVBG
+
+#Rule:Adjs
+r4wholeJJ
+r4VIDEOJJ
+
+#Rule:Adj-Noun
+r5wholeJJopionionNN
+r5VIDEOJJCAMERANN
+
+#Rule:PRP-Noun
+r6yourPRP$opionionNN
+
+#Rule:N-HeadNoun
+r8classNNtomorrowNN
+r8EducationNNPprocessNN
+r8AmericanNNPprocessNN
+
+#Rule:HeadNoun-V
+r11someoneNNfindVB
+r11CAPITAL ISItOrganizationAnnotationchangeVB
+r11iPRPwantVBP
+
+#Rule:HeadNoun-(who/that)-V
+r14CAMERANNTAPENN
+
+#Rule:V-HeadNoun
+r21sVBZexperimentNN
+r21SOUTH DAKOTA or MONTANAThen ASKOrganizationAnnotationthemPRP
+r21changeVBopionionNN
+r21TAPENNyouPRP
+r21doingVBGitPRP
+
+#Rule:V-HeadNoun
+r22askVBPsomeoneNN
+r22findVBSOUTH DAKOTA or MONTANAThen ASKOrganizationAnnotation
+
+#Rule:PPinNP
+r26experimentNNforINyouGoLocationAnnotation
+r26mapNNofINUSLocationAnnotation
+r26mapNNofINNAMESNNPS
+r26USLocationAnnotationwithINborderNN
+r26borderNNforINstatesNNS
+r26opionionNNofINprocessNN
+
+#Rule:PPinVP
+r30sVBZintoINtomorrowNN
+r30sVBZwithINmapNN
+r30beAUXwithINCAMERANN
+
+#Rule:V-ADV
+r46beAUXTHERERB
+
+@lemmas-left	they	UCLA	Public School	passed	test	kid	goodthe	binet	time	JAPANESE PARENTS	are	ONE	her	GLASSESHOWARD	Geometry	border	video	Strippers	US	prove	American	CAMERA	%	told	dipolmas	Capital	the Regents Math	he	U Chicago	geometry	rose	bottom	years	ask	exam	iti	go	DENMARK IS A CITYShe	opionion	CAPITAL ISIt	put	tomorrow	NY	states	use	England	tape	VIDEO	FRACTIONS.You	private	document	tests	american	map	grade	do	tell	want	man	NAMES	let	stern	8th	come	youGo	i	GOODthe	process	COLORED	t	s	thinks	Harvard!!	Germany	Private	proves	remark	San Salvador	change	fractions.you	exception	took	good	same	New JerseyThis	capital	has	SOUTH DAKOTA or MONTANAThen ASK	ITI	student	schools	someone	experiment	three	stripper	80	Denmark	tapes	calculator	transcription	be	documented	0.10	glasseshoward	think	class	kids	Binet	Pole Dancers	STERN	refuse	New York	threw	whole	names	doing	EDUCATION	RURAL	teacher	this	STATE	Stanford	voice	remarked	have	one	inferior	state	education	re	was	father	Girl	URBAN America	throw	girl	rise	colored	60	find	all	INFERIOR	High School	students	is	camera	your	you	came	know	pass	Education	America	great	school	couldn	take	you.	TAPE	their	High School Diploma	Los Angeles	average	
+@lemmas-right	Public School	passed	test	kid	binet	time	are	her	Geometry	border	US	prove	American	CAMERA	told	%	dipolmas	U Chicago	geometry	them	bottom	years	exam	go	opionion	put	tomorrow	NY	states	use	tape	FRACTIONS.You	document	tests	american	map	grade	THERE	me	tell	do	want	man	NAMES	let	stern	come	youGo	process	10	t	thinks	Germany	proves	remark	San Salvador	change	fractions.you	him	New JerseyThis	has	SOUTH DAKOTA or MONTANAThen ASK	almost	regularly	student	schools	someone	experiment	calculator	tapes	be	documented	think	kids	Binet	STERN	refuse	New York	threw	names	better	doing	EDUCATION	teacher	STATE	remarked	have	state	father	was	URBAN America	Girl	throw	girl	find	is	students	it	camera	you	came	know	pass	America	school	great	take	there	you.	off	TAPE	also	High School Diploma	average	Los Angeles	out	
+@lemmas-center	to	because	that	of	with	for	at	into	on	from	in	

@@ -1,0 +1,32 @@
+#Pick any answers you like from here: http://answers.yahoo.com/search/search_result;_ylt=Aka5oyRGMHau25LCt9o3BqPpy6IX?
+#(S1 (FRAG (VP (VB Pick) (NP (NP (DT any) (NNS answers)) (SBAR (S (NP (PRP you)) (VP (VBP like) (PP (IN from) (NP (RB here)))))))) (: :) (NP (NP (NN http)) (: :) (NP (NN //answers.yahoo.com/search/search_result)) (: ;) (NP (NN _ylt=Aka5oyRGMHau25LCt9o3BqPpy6IX))) (. ?)))
+#Rule:Nouns
+r1answersNNS
+r1httpPersonAnnotation
+r1//answers.yahoo.com/search/search_resultNN
+r1_ylt=Aka5oyRGMHau25LCt9o3BqPpy6IXNN
+
+#Rule:Verbs
+r2pickVB
+r2likeVBP
+
+#Rule:HeadNoun-V
+r11youPRPlikeVBP
+
+#Rule:NP(NP(z) SBAR(S(NP(x)VP(y))))
+r19likeVBPanswersNNS
+
+#Rule:V-HeadNoun
+r21pickVBanswersNNS
+
+#Rule:PPinVP
+r30likeVBPfromINhereRB
+
+#p=why+sky+blue
+#(S1 (NP (NNP p=why+sky+blue)))
+#Rule:Nouns
+r1p=why+sky+bluePersonAnnotation
+
+@lemmas-left	result	_ylt=Aka5oyRGMHau25LCt9o3BqPpy6IX	http	ix	p=why+sky+blue	answers	answer	you	pick	//answers.yahoo.com/search/search_result	like	
+@lemmas-right	answers	answer	here	like	
+@lemmas-center	from	

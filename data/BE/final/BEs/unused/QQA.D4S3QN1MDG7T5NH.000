@@ -1,0 +1,34 @@
+#Why do people home school their kids? 
+#(S1 (SBARQ (WHADVP (WRB Why)) (SQ (AUX do) (NP (NNS people)) (VP (ADVP (RB home)) (VB school) (NP (PRP$ their) (NNS kids)))) (. ?)))
+#Rule:Nouns
+r1peopleNNS
+r1kidsNNS
+
+#Rule:Verbs
+r2schoolVB
+
+#Rule:PRP-Noun
+r6theirPRP$kidsNNS
+
+#Rule:V-HeadNoun
+r21schoolVBkidsNNS
+
+#Rule:V-ADV
+r46schoolVBhomeRB
+
+#Are the public schools not good enough?
+#(S1 (SQ (AUX Are) (NP (NP (DT the) (JJ public) (NNS schools)) (ADJP (RB not) (JJ good))) (ADJP (RB enough)) (. ?)))
+#Rule:Nouns
+r1schoolsNNS
+
+#Rule:Adjs
+r4publicJJ
+r4goodJJ
+
+#Rule:Adj-Noun
+r5goodJJschoolsNNS
+r5publicJJschoolsNNS
+
+@lemmas-left	school	schools	good	kids	public	their	people	kid	
+@lemmas-right	home	school	schools	kids	kid	
+@lemmas-center	

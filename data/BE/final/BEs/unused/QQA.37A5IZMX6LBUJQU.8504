@@ -1,0 +1,22 @@
+#Here, some webpages where you can get started:www.genealogy.comwww.familysearch.orgwww.cyndislist.comwww.gengateway.com
+#(S1 (S (ADVP (RB Here)) (, ,) (NP (NP (DT some) (NNS webpages)) (SBAR (WHADVP (WRB where)) (S (NP (PRP you)) (VP (MD can) (VP (VB get) (VP (VBN started))))))) (: :) (NP (NN www.genealogy.comwww.familysearch.orgwww.cyndislist.comwww.gengateway.com))))
+#Rule:Nouns
+r1webpagesNNS
+r1www.genealogy.comwww.familysearch.orgwww.cyndislist.comwww.gengateway.comNN
+
+#Rule:Verbs
+r2getVB
+r2startedVBN
+
+#Rule:HeadNoun-V
+r11youPRPgetVB
+
+#Rule:V-HeadNoun(passive)
+r24startedVBNyouPRP
+
+#Rule:(SBAR+WHADVP)inNP
+r41webpagesNNSwhereWRBstartedVBN
+
+@lemmas-left	www.genealogy.comwww.familysearch.orgwww.cyndislist.comwww.gengateway.com	get	webpages	start	webpage	you	started	
+@lemmas-right	get	start	you	started	
+@lemmas-center	where	

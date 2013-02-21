@@ -1,0 +1,54 @@
+#Personally,I see circumcision as another form of mutilation..
+#(S1 (S (ADVP (RB Personally)) (, ,) (NP (PRP I)) (VP (VBP see) (NP (NN circumcision)) (PP (IN as) (NP (NP (DT another) (NN form)) (PP (IN of) (NP (FW mutilation) (. .)))))) (. .)))
+#Rule:Nouns
+r1circumcisionNN
+r1formNN
+
+#Rule:Verbs
+r2seeVBP
+
+#Rule:HeadNoun-V
+r11iPRPseeVBP
+
+#Rule:V-HeadNoun
+r21seeVBPcircumcisionNN
+
+#Rule:PPinNP
+r26formNNofIN..
+
+#Rule:PPinVP
+r30seeVBPasINformNN
+
+#Rule:V-ADV
+r46seeVBPPersonallyRB
+
+#Seriously,think about what they re actually doing. Yuck!!
+#(S1 (S (INTJ (RB Seriously)) (, ,) (VP (VB think) (PP (IN about) (SBAR (WHNP (WP what)) (S (NP (PRP they)) (NP (NNP re)) (ADVP (RB actually)) (VP (VBD doing.) (INTJ (UH Yuck) (. !))))))) (. !)))
+#Rule:Nouns
+r1reNNP
+
+#Rule:Verbs
+r2thinkVB
+r2doingVBD
+
+#Rule:HeadNoun-V
+r11theyPRPdoingVBD
+r11reNNPdoingVBD
+
+#Rule:V-ADV
+r46doingVBDactuallyRB
+
+#The poor baby.
+#(S1 (NP (DT The) (JJ poor) (NN baby) (. .)))
+#Rule:Nouns
+r1babyNN
+
+#Rule:Adjs
+r4poorJJ
+
+#Rule:Adj-Noun
+r5poorJJbabyNN
+
+@lemmas-left	circumcision	they	think	see	form	poor	doing	baby	re	doing.	i	
+@lemmas-right	personally	circumcision	Personally	form	see	doing	baby	actually	.	doing.	
+@lemmas-center	of	as	

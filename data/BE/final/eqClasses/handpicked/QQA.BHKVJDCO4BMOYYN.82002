@@ -1,0 +1,597 @@
+BE: BrainNN
+EQ class: encephalonnn	
+
+BE: cancerNN
+EQ class: cancerousjj	malignant_neoplastic_diseasenn	
+
+BE: gliomaNN
+EQ class: 
+
+BE: typeNN
+EQ class: 
+
+BE: cancerNN
+EQ class: cancerousjj	malignant_neoplastic_diseasenn	
+
+BE: familiesNNS
+EQ class: housenns	familynns	theynns	menagenns	homenns	householdnns	themnns	
+
+BE: breastNN
+EQ class: chestnn	
+
+BE: cancersNNS
+EQ class: cancernns	cancerousjj	theynns	malignant_neoplastic_diseasenns	themnns	
+
+BE: appearVB
+EQ class: seemvb	lookvb	
+
+BE: runVB
+EQ class: 
+
+BE: rareJJ
+EQ class: 
+
+BE: awareJJ
+EQ class: cognisantjj	cognizantjj	awarenessnn	
+
+BE: certainJJ
+EQ class: 
+
+BE: certainJJcancersNNS
+EQ class: certainjjmalignant_neoplastic_diseasenns	certainjjthemnns	cancerousvbcertainlyrb	certainjjcancernns	certainjjcancerousjj	certainjjtheynns	
+
+BE: BrainNNcancerNN
+EQ class: brainnnmalignant_neoplastic_diseasenn	cancerousjjofinencephalonnn	encephalonnncancerousvb	encephalonnncancerousjj	encephalonnnofinmalignant_neoplastic_diseasenn	brainnnofincancernn	malignant_neoplastic_diseasennofinbrainnn	cancernnofinencephalonnn	encephalonnncancernn	encephalonnnofincancernn	malignant_neoplastic_diseasennofinencephalonnn	cancernnbrainvb	encephalonnnmalignant_neoplastic_diseasenn	cancerousjjbrainvb	brainnnofinmalignant_neoplastic_diseasenn	cancernnofinbrainnn	cancerousvbbrainnn	brainnnofincancerousjj	encephalonnnofincancerousjj	malignant_neoplastic_diseasennbrainvb	cancerousvbencephalonnn	cancerousjjofinbrainnn	brainnncancerousvb	brainnncancerousjj	
+
+BE: breastNNcancersNNS
+EQ class: chestnnofinthemnns	chestnnmalignant_neoplastic_diseasenns	cancerousvbbreastnn	cancerousjjofinbreastnn	chestnnthemnns	breastnntheynns	themnnsofinbreastnn	theynnsbreastvb	breastnnthemnns	cancersnnsofinchestnn	breastnncancernns	breastnnofincancernns	cancernnsofinchestnn	cancerousvbchestnn	malignant_neoplastic_diseasennsofinbreastnn	breastnnofinthemnns	chestnnofincancernns	chestnntheynns	cancernnsofinbreastnn	breastnncancerousjj	breastnnofincancersnns	malignant_neoplastic_diseasennsbreastvb	chestnnofincancerousjj	malignant_neoplastic_diseasennsofinchestnn	cancersnnsbreastvb	breastnnofinmalignant_neoplastic_diseasenns	breastnncancerousvb	cancerousjjofinchestnn	theynnsofinchestnn	chestnncancernns	themnnsofinchestnn	chestnncancerousjj	chestnncancerousvb	themnnsbreastvb	chestnnofincancersnns	cancernnsbreastvb	theynnsofinbreastnn	breastnnofincancerousjj	chestnnofintheynns	breastnnofintheynns	chestnnofinmalignant_neoplastic_diseasenns	cancerousjjbreastvb	cancersnnsofinbreastnn	breastnnmalignant_neoplastic_diseasenns	chestnncancersnns	
+
+BE: cancerNNisAUX
+EQ class: cancernnbeaux	cancerousjjisaux	malignant_neoplastic_diseasennbeaux	malignant_neoplastic_diseasennisaux	cancerousjjbeaux	
+
+BE: typeNNappearVB
+EQ class: visual_aspectnntypenn	visual_aspectnnofintypenn	typennlookvb	typennseemvb	appearancenntypenn	appearancennofintypenn	
+
+BE: iPRPamAUX
+EQ class: iprpbeaux	
+
+BE: isAUXrareJJ
+EQ class: beauxrarejj	
+
+BE: typeNNofINcancerNN
+EQ class: malignant_neoplastic_diseasenntypewritevb	typifyvbcancerousjj	malignant_neoplastic_diseasenntypenn	cancerousjjtypewritevb	malignant_neoplastic_diseasennepitomisevb	cancerousjjepitomisevb	typevbcancerousjj	malignant_neoplastic_diseasennepitomizevb	cancernnepitomizevb	epitomizevbcancerousjj	cancernntypenn	cancerousjjepitomizevb	epitomizevbcancernn	typewritevbmalignant_neoplastic_diseasenn	typevbcancernn	epitomisevbcancerousjj	typewritevbcancernn	epitomisevbcancernn	epitomizevbmalignant_neoplastic_diseasenn	typevbmalignant_neoplastic_diseasenn	cancernntypewritevb	cancernntypevb	typennofincancerousjj	cancernntypifyvb	malignant_neoplastic_diseasenntypevb	cancerousjjtypenn	epitomisevbmalignant_neoplastic_diseasenn	cancernnepitomisevb	cancerousjjtypifyvb	typewritevbcancerousjj	typifyvbmalignant_neoplastic_diseasenn	typennofinmalignant_neoplastic_diseasenn	typifyvbcancernn	cancerousjjtypevb	malignant_neoplastic_diseasenntypifyvb	
+
+BE: runVBinINfamiliesNNS
+EQ class: runvbininhouseholdnns	runvbininhousenns	runvbininhomenns	runvbininthemnns	runvbininmenagenns	runvbinintheynns	runvbininfamilynns	
+
+BE: appearVBrunVB
+EQ class: visual_aspectnnofinrunvb	seemvbrunvb	lookvbrunvb	appearancennofinrunvb	
+
+BE: doesAUXasRB
+EQ class: makeauxasrb	doauxasrb	
+
+BE: doesAUXfarRB
+EQ class: makeauxfarrb	doauxfarrb	
+
+BE: doesAUXnotRB
+EQ class: doauxnotrb	makeauxnotrb	
+
+BE: caseNN
+EQ class: instancenn	examplenn	
+
+BE: cancerNN
+EQ class: cancerousjj	malignant_neoplastic_diseasenn	
+
+BE: heartNN
+EQ class: bosomnn	
+
+BE: problemsNNS
+EQ class: problemnns	problematicaljj	theynns	problematicjj	themnns	jobnns	
+
+BE: childNN
+EQ class: tiddlernn	minornn	tikenn	small_frynn	frynn	shavernn	youngsternn	childlyjj	kidnn	nestlingnn	nippernn	tykenn	
+
+BE: birthNN
+EQ class: 
+
+BE: accidentNN
+EQ class: 
+
+BE: liveVBP
+EQ class: dwellvbp	populatevbp	inhabitvbp	
+
+BE: dieVB
+EQ class: deceasevb	kick_the_bucketvb	exitvb	pop_offvb	conkvb	give-up_the_ghostvb	snuff_itvb	perishvb	buy_the_farmvb	govb	passvb	chokevb	drop_deadvb	croakvb	cash_in_one's_chipsvb	expirevb	pass_awayvb	
+
+BE: dieVB
+EQ class: deceasevb	kick_the_bucketvb	exitvb	pop_offvb	conkvb	give-up_the_ghostvb	snuff_itvb	perishvb	buy_the_farmvb	govb	passvb	chokevb	drop_deadvb	croakvb	cash_in_one's_chipsvb	expirevb	pass_awayvb	
+
+BE: awareJJ
+EQ class: cognisantjj	cognizantjj	awarenessnn	
+
+BE: heartNNproblemsNNS
+EQ class: heartnnthemnns	bosomnnproblematicaljj	problemsnnsofinheartnn	heartnnproblematicalvb	bosomnnproblematicvb	bosomnnproblematicalvb	heartnnproblematicvb	bosomnnthemnns	problematicvbheartnn	problematicvbbosomnn	theynnsofinheartnn	problematicalvbbosomnn	themnnsofinheartnn	heartnntheynns	problematicjjofinheartnn	bosomnnproblemsnns	themnnsofinbosomnn	heartnnjobnns	problemnnsofinheartnn	theynnsofinbosomnn	problemnnsofinbosomnn	bosomnntheynns	heartnnproblematicaljj	bosomnnproblematicjj	heartnnproblemnns	jobnnsofinheartnn	problematicaljjofinheartnn	jobnnsofinbosomnn	problematicalvbheartnn	problematicaljjofinbosomnn	bosomnnproblemnns	problemsnnsofinbosomnn	problematicjjofinbosomnn	heartnnproblematicjj	bosomnnjobnns	
+
+BE: childNNbirthNN
+EQ class: give_birthvbnippernn	bearvbtikenn	nestlingnnbearvb	bearvbtiddlernn	bearvbminornn	be_bornvbchildnn	tikennbirthvb	small_frynndelivervb	small_frynnbearvb	birthnnofinshavernn	kidnngive_birthvb	frynnbirthnn	be_bornvbshavernn	be_bornvbnestlingnn	nestlingnnhavevb	birthnnofinsmall_frynn	shavernnbe_bornvb	tiddlernndelivervb	tykennbirthnn	give_birthvbyoungsternn	birthnnofinfrynn	nippernnhavevb	birthnnofinnestlingnn	nestlingnnbe_bornvb	childnnbearvb	tiddlernnbirthvb	give_birthvbtikenn	delivervbshavernn	nestlingnnbirthnn	childnndelivervb	give_birthvbtiddlernn	kidnnbirthvb	youngsternngive_birthvb	birthnnofinnippernn	delivervbtikenn	tykennbirthvb	tykenndelivervb	birthnnofinchildlyjj	small_frynnbe_bornvb	give_birthvbtykenn	be_bornvbfrynn	shavernnbirthvb	delivervbyoungsternn	minornndelivervb	bearvbchildnn	delivervbtiddlernn	frynnbearvb	havevbtiddlernn	havevbkidnn	birthvbsmall_frynn	be_bornvbminornn	birthvbkidnn	shavernnhavevb	childlyjjbe_bornvb	havevbfrynn	birthvbtykenn	birthvbminornn	give_birthvbnestlingnn	be_bornvbchildlyjj	shavernngive_birthvb	minornnbe_bornvb	shavernnbirthnn	bearvbsmall_frynn	birthvbchildnn	kidnnbe_bornvb	nippernndelivervb	tiddlernnbe_bornvb	childnnhavevb	bearvbkidnn	birthvbtiddlernn	birthvbnestlingnn	youngsternnbearvb	childlyjjbirthnn	nippernnbe_bornvb	give_birthvbsmall_frynn	tykennbe_bornvb	minornnbearvb	youngsternndelivervb	childnnbirthvb	frynnhavevb	birthvbshavernn	birthvbtikenn	be_bornvbtykenn	small_frynnhavevb	youngsternnhavevb	tiddlernngive_birthvb	small_frynnbirthnn	youngsternnbirthnn	havevbchildlyjj	birthvbchildlyjj	childlyjjdelivervb	havevbnippernn	bearvbchildlyjj	give_birthvbchildnn	havevbyoungsternn	childnnbe_bornvb	give_birthvbminornn	be_bornvbnippernn	tykennhavevb	be_bornvbtiddlernn	delivervbchildnn	give_birthvbshavernn	give_birthvbfrynn	delivervbnestlingnn	tikennbirthnn	birthnnofintiddlernn	give_birthvbkidnn	be_bornvbkidnn	birthnnofintykenn	havevbshavernn	tikennbearvb	nippernnbirthnn	kidnndelivervb	be_bornvbyoungsternn	bearvbyoungsternn	small_frynngive_birthvb	give_birthvbchildlyjj	delivervbfrynn	bearvbnestlingnn	tiddlernnbirthnn	birthnnofintikenn	childlyjjgive_birthvb	minornnhavevb	birthnnofinminornn	tykennbearvb	be_bornvbsmall_frynn	frynnbe_bornvb	nestlingnndelivervb	tiddlernnbearvb	havevbminornn	bearvbnippernn	havevbchildnn	delivervbsmall_frynn	nippernnbirthvb	bearvbshavernn	bearvbtykenn	minornnbirthnn	minornngive_birthvb	birthnnofinkidnn	tikennbe_bornvb	tikennhavevb	tiddlernnhavevb	delivervbminornn	kidnnbirthnn	havevbtykenn	nippernngive_birthvb	be_bornvbtikenn	birthvbfrynn	nippernnbearvb	shavernnbearvb	youngsternnbe_bornvb	havevbnestlingnn	havevbsmall_frynn	minornnbirthvb	tykenngive_birthvb	youngsternnbirthvb	delivervbnippernn	birthvbyoungsternn	childnngive_birthvb	childlyjjbirthvb	shavernndelivervb	tikenngive_birthvb	tikenndelivervb	nestlingnngive_birthvb	small_frynnbirthvb	bearvbfrynn	nestlingnnbirthvb	frynndelivervb	delivervbkidnn	delivervbchildlyjj	havevbtikenn	frynnbirthvb	birthnnofinchildnn	childlyjjbearvb	delivervbtykenn	childlyjjhavevb	birthnnofinyoungsternn	frynngive_birthvb	kidnnbearvb	kidnnhavevb	birthvbnippernn	
+
+BE: youPRPareAUX
+EQ class: youprpbeaux	
+
+BE: youPRPdieVB
+EQ class: youprpkick_the_bucketvb	expirynnyouprp	youprpexpirevb	youprpconkvb	youprpcash_in_one's_chipsvb	youprpsnuff_itvb	youprpchokevb	youprpgovb	youprppassvb	deathnnyouprp	youprpperishvb	deathnnofinyouprp	expirynnofinyouprp	youprppass_awayvb	youprpexitvb	youprpgive-up_the_ghostvb	youprpdeceasevb	deceasennyouprp	youprppop_offvb	youprpcroakvb	youprpbuy_the_farmvb	youprpdrop_deadvb	deceasennofinyouprp	
+
+BE: youPRPliveVBP
+EQ class: liveryjjofinyouprp	youprpinhabitvbp	livernnofinyouprp	liveablennofinyouprp	liveryjjyouprp	livablennofinyouprp	youprppopulatevbp	youprpdwellvbp	livernnyouprp	
+
+BE: thatDTisAUX
+EQ class: thatdtbeaux	
+
+BE: youPRPdieVB
+EQ class: youprpkick_the_bucketvb	expirynnyouprp	youprpexpirevb	youprpconkvb	youprpcash_in_one's_chipsvb	youprpsnuff_itvb	youprpchokevb	youprpgovb	youprppassvb	deathnnyouprp	youprpperishvb	deathnnofinyouprp	expirynnofinyouprp	youprppass_awayvb	youprpexitvb	youprpgive-up_the_ghostvb	youprpdeceasevb	deceasennyouprp	youprppop_offvb	youprpcroakvb	youprpbuy_the_farmvb	youprpdrop_deadvb	deceasennofinyouprp	
+
+BE: areAUXyouPRP
+EQ class: beauxyouprp	
+
+BE: areAUXawareJJ
+EQ class: areauxawarenessnn	beauxawarenessnn	areauxcognisantjj	areauxcognizantjj	beauxcognisantjj	beauxawarejj	beauxcognizantjj	
+
+BE: problemsNNSinINbirthNN
+EQ class: birthnnproblematicjj	problematicalvbbirthnn	birthnnjobnns	birthnnthemnns	jobnnsininbirthnn	themnnsininbirthnn	problemnnsininbirthnn	birthnnproblemsnns	birthnnproblemnns	problematicjjininbirthnn	birthnnproblematicalvb	birthnnproblematicaljj	birthnnproblematicvb	theynnsininbirthnn	problematicaljjininbirthnn	birthnntheynns	problematicvbbirthnn	
+
+BE: dieVBofINcancerNN
+EQ class: passvbofincancerousjj	chokevbofinmalignant_neoplastic_diseasenn	deceasevbofincancernn	croakvbofinmalignant_neoplastic_diseasenn	expirevbofinmalignant_neoplastic_diseasenn	kick_the_bucketvbofincancernn	perishvbofincancernn	pass_awayvbofincancernn	snuff_itvbofinmalignant_neoplastic_diseasenn	pass_awayvbofincancerousjj	pop_offvbofinmalignant_neoplastic_diseasenn	chokevbofincancernn	perishvbofincancerousjj	cash_in_one's_chipsvbofincancerousjj	deceasevbofinmalignant_neoplastic_diseasenn	drop_deadvbofinmalignant_neoplastic_diseasenn	croakvbofincancernn	drop_deadvbofincancerousjj	pop_offvbofincancerousjj	perishvbofinmalignant_neoplastic_diseasenn	exitvbofincancerousjj	cash_in_one's_chipsvbofinmalignant_neoplastic_diseasenn	conkvbofincancerousjj	pop_offvbofincancernn	give-up_the_ghostvbofincancernn	expirevbofincancernn	exitvbofinmalignant_neoplastic_diseasenn	snuff_itvbofincancerousjj	dievbofinmalignant_neoplastic_diseasenn	pass_awayvbofinmalignant_neoplastic_diseasenn	buy_the_farmvbofincancerousjj	snuff_itvbofincancernn	expirevbofincancerousjj	chokevbofincancerousjj	croakvbofincancerousjj	drop_deadvbofincancernn	dievbofincancerousjj	conkvbofinmalignant_neoplastic_diseasenn	passvbofincancernn	kick_the_bucketvbofincancerousjj	govbofincancerousjj	give-up_the_ghostvbofincancerousjj	govbofincancernn	buy_the_farmvbofinmalignant_neoplastic_diseasenn	govbofinmalignant_neoplastic_diseasenn	kick_the_bucketvbofinmalignant_neoplastic_diseasenn	deceasevbofincancerousjj	conkvbofincancernn	exitvbofincancernn	passvbofinmalignant_neoplastic_diseasenn	give-up_the_ghostvbofinmalignant_neoplastic_diseasenn	cash_in_one's_chipsvbofincancernn	buy_the_farmvbofincancernn	
+
+BE: dieVBofINproblemsNNS
+EQ class: expirevbofinjobnns	give-up_the_ghostvbofinproblemsnns	perishvbofintheynns	deceasevbofinproblematicaljj	deceasevbofinproblemsnns	govbofinjobnns	croakvbofinproblematicjj	croakvbofinproblemsnns	perishvbofinproblemnns	chokevbofinproblematicjj	chokevbofinthemnns	drop_deadvbofinproblematicjj	buy_the_farmvbofinproblematicjj	perishvbofinproblematicjj	deceasevbofinproblematicjj	pass_awayvbofinproblemnns	buy_the_farmvbofinthemnns	passvbofinjobnns	give-up_the_ghostvbofinproblematicjj	chokevbofintheynns	expirevbofinproblematicjj	drop_deadvbofinproblematicaljj	conkvbofintheynns	chokevbofinproblemsnns	pop_offvbofinthemnns	croakvbofintheynns	kick_the_bucketvbofinjobnns	chokevbofinjobnns	cash_in_one's_chipsvbofinjobnns	kick_the_bucketvbofinproblematicaljj	pop_offvbofinproblematicaljj	pop_offvbofintheynns	kick_the_bucketvbofinproblemsnns	govbofinproblematicaljj	kick_the_bucketvbofinproblematicjj	give-up_the_ghostvbofinproblemnns	passvbofinproblematicjj	expirevbofinproblematicaljj	passvbofinproblemsnns	expirevbofinthemnns	exitvbofinproblematicjj	expirevbofintheynns	dievbofinproblematicaljj	cash_in_one's_chipsvbofinproblematicjj	exitvbofinthemnns	snuff_itvbofintheynns	pop_offvbofinjobnns	perishvbofinproblematicaljj	snuff_itvbofinproblematicjj	exitvbofintheynns	passvbofinproblemnns	croakvbofinproblematicaljj	snuff_itvbofinproblemsnns	conkvbofinproblemsnns	buy_the_farmvbofinjobnns	kick_the_bucketvbofinthemnns	cash_in_one's_chipsvbofinproblemnns	conkvbofinproblematicaljj	conkvbofinproblematicjj	snuff_itvbofinproblemnns	drop_deadvbofinproblemnns	govbofinproblematicjj	snuff_itvbofinthemnns	conkvbofinthemnns	chokevbofinproblemnns	exitvbofinproblematicaljj	cash_in_one's_chipsvbofintheynns	govbofinproblemsnns	cash_in_one's_chipsvbofinproblematicaljj	buy_the_farmvbofintheynns	give-up_the_ghostvbofintheynns	govbofinproblemnns	pass_awayvbofintheynns	pass_awayvbofinproblematicaljj	deceasevbofinjobnns	croakvbofinthemnns	croakvbofinproblemnns	conkvbofinjobnns	dievbofinproblematicjj	conkvbofinproblemnns	snuff_itvbofinjobnns	pop_offvbofinproblemnns	dievbofinthemnns	exitvbofinproblemnns	govbofintheynns	deceasevbofinthemnns	exitvbofinproblemsnns	drop_deadvbofinjobnns	deceasevbofinproblemnns	give-up_the_ghostvbofinthemnns	drop_deadvbofinproblemsnns	expirevbofinproblemnns	dievbofinjobnns	pass_awayvbofinthemnns	govbofinthemnns	give-up_the_ghostvbofinproblematicaljj	pass_awayvbofinproblematicjj	buy_the_farmvbofinproblemnns	buy_the_farmvbofinproblemsnns	passvbofinthemnns	chokevbofinproblematicaljj	give-up_the_ghostvbofinjobnns	buy_the_farmvbofinproblematicaljj	kick_the_bucketvbofintheynns	cash_in_one's_chipsvbofinthemnns	perishvbofinthemnns	dievbofinproblemnns	drop_deadvbofinthemnns	pass_awayvbofinjobnns	deceasevbofintheynns	kick_the_bucketvbofinproblemnns	pop_offvbofinproblematicjj	passvbofintheynns	drop_deadvbofintheynns	exitvbofinjobnns	cash_in_one's_chipsvbofinproblemsnns	passvbofinproblematicaljj	pass_awayvbofinproblemsnns	snuff_itvbofinproblematicaljj	perishvbofinjobnns	dievbofintheynns	perishvbofinproblemsnns	expirevbofinproblemsnns	pop_offvbofinproblemsnns	croakvbofinjobnns	
+
+BE: areAUXinINcaseNN
+EQ class: areauxininexamplenn	beauxinininstancenn	beauxininexamplenn	areauxinininstancenn	beauxinincasenn	
+
+BE: isAUXifINdieVB
+EQ class: beauxifinexpirevb	beauxifinsnuff_itvb	beauxifingive-up_the_ghostvb	isauxifinperishvb	beauxifindrop_deadvb	isauxifincroakvb	beauxifinpop_offvb	beauxifinpass_awayvb	beauxifindievb	beauxifinbuy_the_farmvb	beauxifinchokevb	isauxifinconkvb	beauxifinkick_the_bucketvb	isauxifinchokevb	isauxifinpassvb	beauxifincash_in_one's_chipsvb	beauxifinexitvb	isauxifingive-up_the_ghostvb	beauxifinperishvb	isauxifindrop_deadvb	beauxifindeceasevb	isauxifindeceasevb	isauxifincash_in_one's_chipsvb	isauxifingovb	beauxifinconkvb	isauxifinexitvb	isauxifinbuy_the_farmvb	isauxifinsnuff_itvb	beauxifinpassvb	isauxifinexpirevb	beauxifincroakvb	isauxifinkick_the_bucketvb	isauxifinpop_offvb	beauxifingovb	isauxifinpass_awayvb	
+
+BE: areAUXnotRB
+EQ class: beauxnotrb	
+
+BE: liveVBPlongRB
+EQ class: livablennofinlongrb	livernnofinlongrb	dwellvbplongrb	liveryjjofinlongrb	liveablennofinlongrb	inhabitvbplongrb	populatevbplongrb	
+
+BE: liveVBPenoughRB
+EQ class: dwellvbpenoughrb	livernnofinenoughrb	populatevbpenoughrb	livablennofinenoughrb	liveablennofinenoughrb	liveryjjofinenoughrb	inhabitvbpenoughrb	
+
+BE: doAUXnotRB
+EQ class: makeauxnotrb	
+
+BE: timesNNS
+EQ class: theynns	themnns	
+
+BE: cancersNNS
+EQ class: cancernns	cancerousjj	theynns	malignant_neoplastic_diseasenns	themnns	
+
+BE: GreeksNNPS
+EQ class: hellenicnnps	hellenic_languagennps	greeknnps	greekjj	
+
+BE: EgyptiansNNPS
+EQ class: egyptianjj	arab_republic_of_egyptnn	egyptnn	united_arab_republicnn	egyptiannnps	
+
+BE: lifeNN
+EQ class: 
+
+BE: spanNN
+EQ class: 
+
+BE: sNNP
+EQ class: secnnp	secondnnp	
+
+BE: cancersNNS
+EQ class: cancernns	cancerousjj	theynns	malignant_neoplastic_diseasenns	themnns	
+
+BE: causesNNS
+EQ class: theynns	causaljj	causenns	themnns	
+
+BE: deathNN
+EQ class: deceasenn	expirynn	
+
+BE: todayNN
+EQ class: 
+
+BE: recordedVBN
+EQ class: recordvbn	put_downvbn	entervbn	
+
+BE: documentedVBN
+EQ class: documentvbn	
+
+BE: ancientJJ
+EQ class: ancientnessnn	ancientnn	
+
+BE: averageJJ
+EQ class: meanjj	averagenn	averagenessnn	
+
+BE: commonJJ
+EQ class: commonnessnn	commonnn	commonalitynn	
+
+BE: ancientJJtimesNNS
+EQ class: ancientnessnntheynns	ancientnessnntimesnns	ancientnnthemnns	ancientnessnnthemnns	ancientnntimesnns	ancientjjthemnns	ancientnntheynns	ancientjjtheynns	
+
+BE: averageJJspanNN
+EQ class: averagenessnnspannn	meanjjspannn	averagennspannn	
+
+BE: commonJJcausesNNS
+EQ class: commonalitynntheynns	commonalitynncausesnns	dovbcommonlyrb	commonjjthemnns	causevbcommonlyrb	commonnessnncausesnns	commonnncausenns	makevbcommonlyrb	commonnntheynns	commonnessnntheynns	commonnnthemnns	commonalitynncausaljj	commonalitynncausenns	commonnncausesnns	commonalitynnthemnns	commonnessnncausenns	commonnncausaljj	causalvbcommonlyrb	commonnessnnthemnns	commonjjcausenns	commonnessnncausaljj	commonjjtheynns	commonjjcausaljj	
+
+BE: lifeNNspanNN
+EQ class: spannnofinlifenn	
+
+BE: cancersNNSwereAUX
+EQ class: themnnsbeaux	malignant_neoplastic_diseasennsbeaux	theynnswereaux	cancersnnsbeaux	cancerousjjwereaux	malignant_neoplastic_diseasennswereaux	cancerousjjbeaux	theynnsbeaux	cancernnsbeaux	cancernnswereaux	themnnswereaux	
+
+BE: spanNNwasAUX
+EQ class: spannnbeaux	
+
+BE: GreeksNNPSdocumentedVBN
+EQ class: documentaryjjofinhellenic_languagennps	documentary_filmnngreeksnnps	docudramanngreeknnps	corroborationnnofingreeknnps	certificationnngreekjj	corroborationnngreeksnnps	certificationnngreeksnnps	documentarynnofingreekjj	documentary_filmnnofinhellenic_languagennps	corroborationnnofingreekjj	documentaryjjhellenic_languagennps	hellenicnnpsdocumentvbn	documentarynnofinhellenicnnps	documentarynngreeksnnps	documentary_filmnnofingreeksnnps	documentaryjjofingreekjj	documentationnnhellenicnnps	documentarynngreekjj	hellenicnnpsdocumentedvbn	documentary_filmnngreeknnps	docudramannofinhellenicnnps	infotainmentnnhellenicnnps	infotainmentnnhellenic_languagennps	documentationnnofingreeksnnps	docudramanngreekjj	documentationnnofingreeknnps	infotainmentnnofingreeknnps	documentaryjjofingreeksnnps	documentationnngreekjj	documentationnngreeknnps	docudramannofingreeksnnps	corroborationnngreekjj	certificationnnofinhellenic_languagennps	documentarynngreeknnps	hellenic_languagennpsdocumentedvbn	certificationnnofingreeknnps	docudramannofinhellenic_languagennps	corroborationnnofingreeksnnps	documentaryjjofinhellenicnnps	documentaryjjgreekjj	greekjjdocumentedvbn	documentary_filmnnofingreeknnps	infotainmentnngreeknnps	corroborationnnhellenic_languagennps	documentary_filmnnofingreekjj	docudramannhellenicnnps	infotainmentnnofinhellenicnnps	infotainmentnngreekjj	documentary_filmnnofinhellenicnnps	greeknnpsdocumentedvbn	greeknnpsdocumentvbn	documentary_filmnnhellenicnnps	documentarynnhellenicnnps	documentarynnofingreeksnnps	documentarynnofingreeknnps	infotainmentnngreeksnnps	docudramannofingreeknnps	infotainmentnnofingreekjj	documentaryjjhellenicnnps	documentationnngreeksnnps	documentationnnofinhellenicnnps	documentaryjjgreeksnnps	infotainmentnnofingreeksnnps	docudramannofingreekjj	certificationnnofingreekjj	certificationnnhellenic_languagennps	documentationnnofingreekjj	documentationnnofinhellenic_languagennps	corroborationnnofinhellenic_languagennps	documentationnnhellenic_languagennps	corroborationnngreeknnps	certificationnngreeknnps	documentarynnhellenic_languagennps	infotainmentnnofinhellenic_languagennps	certificationnnhellenicnnps	certificationnnofinhellenicnnps	greeksnnpsdocumentvbn	documentaryjjofingreeknnps	documentarynnofinhellenic_languagennps	documentary_filmnngreekjj	documentary_filmnnhellenic_languagennps	greekjjdocumentvbn	corroborationnnofinhellenicnnps	corroborationnnhellenicnnps	docudramanngreeksnnps	docudramannhellenic_languagennps	documentaryjjgreeknnps	hellenic_languagennpsdocumentvbn	certificationnnofingreeksnnps	
+
+BE: EgyptiansNNPSdocumentedVBN
+EQ class: docudramannegyptiannnps	corroborationnnarab_republic_of_egyptnn	documentaryjjofinunited_arab_republicnn	documentarynnofinegyptianjj	certificationnnofinarab_republic_of_egyptnn	docudramannegyptnn	documentationnnofinegyptiannnps	documentarynnofinunited_arab_republicnn	documentaryjjunited_arab_republicnn	documentationnnofinunited_arab_republicnn	documentarynnegyptnn	documentationnnarab_republic_of_egyptnn	egyptianjjdocumentvbn	documentary_filmnnegyptiansnnps	docudramannofinegyptiansnnps	docudramannegyptiansnnps	docudramannofinunited_arab_republicnn	corroborationnnunited_arab_republicnn	certificationnnegyptianjj	infotainmentnnofinarab_republic_of_egyptnn	documentarynnofinegyptiansnnps	documentarynnofinarab_republic_of_egyptnn	docudramannofinarab_republic_of_egyptnn	documentary_filmnnofinegyptiansnnps	documentaryjjarab_republic_of_egyptnn	documentaryjjofinegyptiannnps	documentaryjjegyptiannnps	documentarynnunited_arab_republicnn	docudramannofinegyptiannnps	docudramannunited_arab_republicnn	documentary_filmnnofinunited_arab_republicnn	certificationnnofinegyptiansnnps	docudramannofinegyptnn	certificationnnofinunited_arab_republicnn	documentary_filmnnofinegyptiannnps	egyptnndocumentvbn	certificationnnofinegyptiannnps	documentary_filmnnegyptianjj	documentarynnofinegyptiannnps	docudramannarab_republic_of_egyptnn	documentationnnofinarab_republic_of_egyptnn	corroborationnnofinegyptianjj	documentarynnegyptiansnnps	documentationnnofinegyptiansnnps	certificationnnegyptiannnps	united_arab_republicnndocumentvbn	documentary_filmnnofinegyptianjj	infotainmentnnegyptianjj	documentationnnegyptianjj	documentationnnofinegyptianjj	corroborationnnegyptiansnnps	documentationnnegyptiansnnps	documentationnnunited_arab_republicnn	egyptianjjdocumentedvbn	corroborationnnofinegyptnn	arab_republic_of_egyptnndocumentedvbn	documentaryjjegyptiansnnps	documentaryjjegyptnn	corroborationnnofinegyptiansnnps	docudramannegyptianjj	infotainmentnnegyptnn	documentaryjjofinarab_republic_of_egyptnn	documentary_filmnnofinarab_republic_of_egyptnn	certificationnnofinegyptnn	certificationnnofinegyptianjj	egyptiannnpsdocumentedvbn	documentary_filmnnofinegyptnn	docudramannofinegyptianjj	corroborationnnegyptnn	documentarynnarab_republic_of_egyptnn	corroborationnnofinegyptiannnps	documentarynnegyptianjj	documentaryjjofinegyptiansnnps	infotainmentnnofinunited_arab_republicnn	documentaryjjofinegyptnn	corroborationnnegyptiannnps	certificationnnegyptnn	infotainmentnnofinegyptianjj	documentarynnofinegyptnn	infotainmentnnegyptiannnps	certificationnnegyptiansnnps	infotainmentnnofinegyptnn	corroborationnnofinunited_arab_republicnn	certificationnnarab_republic_of_egyptnn	egyptiansnnpsdocumentvbn	united_arab_republicnndocumentedvbn	documentary_filmnnunited_arab_republicnn	egyptnndocumentedvbn	egyptiannnpsdocumentvbn	documentaryjjofinegyptianjj	documentationnnofinegyptnn	certificationnnunited_arab_republicnn	documentationnnegyptnn	documentaryjjegyptianjj	documentary_filmnnarab_republic_of_egyptnn	documentary_filmnnegyptiannnps	corroborationnnofinarab_republic_of_egyptnn	infotainmentnnofinegyptiansnnps	arab_republic_of_egyptnndocumentvbn	documentarynnegyptiannnps	infotainmentnnofinegyptiannnps	infotainmentnnunited_arab_republicnn	corroborationnnegyptianjj	infotainmentnnegyptiansnnps	documentary_filmnnegyptnn	infotainmentnnarab_republic_of_egyptnn	documentationnnegyptiannnps	
+
+BE: wereAUXcausesNNS
+EQ class: wereauxcausenns	wereauxtheynns	beauxthemnns	wereauxthemnns	wereauxcausaljj	beauxtheynns	beauxcausaljj	beauxcausenns	beauxcausesnns	
+
+BE: recordedVBNcancersNNS
+EQ class: recordernnofincancerousjj	put_downvbnmalignant_neoplastic_diseasenns	recordernnofincancersnns	recordnnofintheynns	entervbncancersnns	recordernnofinmalignant_neoplastic_diseasenns	recordvbntheynns	recording_machinennofincancernns	recordedvbncancernns	recording_equipmentnnofintheynns	put_downvbntheynns	recording_machinennofinthemnns	recordedvbncancerousjj	recordvbnthemnns	recordedvbntheynns	recordedvbnmalignant_neoplastic_diseasenns	recordnnofinthemnns	recording_equipmentnnofinthemnns	recording_machinennofincancerousjj	recording_equipmentnnofinmalignant_neoplastic_diseasenns	put_downvbncancerousjj	put_downvbnthemnns	recording_machinennofinmalignant_neoplastic_diseasenns	recordnnofinmalignant_neoplastic_diseasenns	entervbnmalignant_neoplastic_diseasenns	entervbnthemnns	recordernnofincancernns	recordvbncancersnns	recording_equipmentnnofincancernns	entervbncancernns	recording_equipmentnnofincancersnns	put_downvbncancersnns	recording_equipmentnnofincancerousjj	entervbncancerousjj	recordernnofintheynns	recordvbncancerousjj	recordnnofincancerousjj	recordvbncancernns	recordedvbnthemnns	recording_machinennofintheynns	entervbntheynns	recordernnofinthemnns	put_downvbncancernns	recordvbnmalignant_neoplastic_diseasenns	recordnnofincancernns	recording_machinennofincancersnns	recordnnofincancersnns	
+
+BE: causesNNSofINdeathNN
+EQ class: deathnntheynns	themnnsofinexpirynn	causevbdeceasenn	deathnncausevb	causalvbdeathnn	causevbdeathnn	expirynncausaljj	deceasenntheynns	deceasennmakevb	expirynntheynns	deathnnmakevb	dovbdeathnn	makevbdeceasenn	deathnncausaljj	theynnsofindeathnn	themnnsofindeathnn	expirynncausesnns	dovbexpirynn	makevbexpirynn	deathnncausalvb	theynnsofinexpirynn	deathnnthemnns	deceasenncausevb	causennsofinexpirynn	causesnnsofindeceasenn	expirynnthemnns	causennsofindeceasenn	causennsofindeathnn	makevbdeathnn	causalvbexpirynn	dovbdeceasenn	deathnndovb	expirynncausalvb	deathnncausenns	expirynncausenns	deathnncausesnns	expirynncausevb	themnnsofindeceasenn	expirynndovb	causaljjofinexpirynn	deceasennthemnns	theynnsofindeceasenn	causalvbdeceasenn	causaljjofindeathnn	deceasenncausenns	deceasenncausaljj	deceasenncausesnns	causaljjofindeceasenn	deceasenncausalvb	causesnnsofinexpirynn	deceasenndovb	causevbexpirynn	expirynnmakevb	
+
+BE: wasAUXinIN30CD
+EQ class: beauxininxxxcd	beauxinin30cd	wasauxininthirtycd	beauxininthirtycd	beauxinin3.0.cd	wasauxinin3.0.cd	wasauxininxxxcd	
+
+BE: wasAUXinINsNNP
+EQ class: wasauxininsecnnp	beauxininsecnnp	wasauxininsecondnnp	beauxininsecondnnp	beauxininsnnp	
+
+BE: wereAUXthanINtodayNN
+EQ class: beauxthanintodaynn	
+
+BE: wereAUXinINtimesNNS
+EQ class: wereauxininthemnns	beauxininthemnns	wereauxinintheynns	beauxinintimesnns	beauxinintheynns	
+
+BE: wereAUXbecauseINwasAUX
+EQ class: wereauxbecauseinbeaux	beauxbecauseinwasaux	beauxbecauseinbeaux	
+
+BE: wasAUXonlyRB
+EQ class: beauxonlyrb	
+
+BE: causesNNScancersNNS
+EQ class: cancernnsmakevb	malignant_neoplastic_diseasennsdovb	causennstheynns	causaljjcancernns	causennscancernns	causesnnscancernns	themnnsmalignant_neoplastic_diseasenns	malignant_neoplastic_diseasennscausenns	causaljjofincancersnns	cancernnstheynns	theynnscausenns	cancerousjjcausenns	cancersnnstheynns	theynnscausaljj	causationnnofincancernns	cancerousjjmakevb	themnnscancerousjj	themnnscancernns	causesnnscancerousjj	themnnscausevb	theynnstheynns	causennsthemnns	causesnnstheynns	malignant_neoplastic_diseasennscausevb	causingnnofincancersnns	causativennofincancerousjj	cancerousjjdovb	cancernnscausesnns	causennsmalignant_neoplastic_diseasenns	causativennofincancernns	causativennofinmalignant_neoplastic_diseasenns	causaljjthemnns	causennofincancersnns	cancersnnsmakevb	causaljjofinthemnns	themnnstheynns	causingnnofinthemnns	causationnnofincancerousjj	cancernnsdovb	theynnscancerousjj	causationnnofincancersnns	causationnnofinthemnns	cancersnnscausenns	causaljjofincancernns	theynnsmakevb	malignant_neoplastic_diseasennstheynns	causaljjtheynns	cancersnnscausevb	theynnsthemnns	cancerousjjcausaljj	cancerousjjcausesnns	theynnscancernns	malignant_neoplastic_diseasennsthemnns	theynnsmalignant_neoplastic_diseasenns	cancersnnscausaljj	malignant_neoplastic_diseasennsmakevb	causennscancersnns	cancernnscausenns	causennofintheynns	cancerousjjcausevb	causennofincancernns	causennofinmalignant_neoplastic_diseasenns	causaljjmalignant_neoplastic_diseasenns	causaljjofincancerousjj	causaljjofintheynns	cancernnsthemnns	causennscancerousjj	cancernnscausaljj	theynnscausevb	themnnsdovb	malignant_neoplastic_diseasennscausesnns	theynnsdovb	theynnscancersnns	causingnnofintheynns	causennofincancerousjj	causingnnofincancerousjj	causennofinthemnns	cancersnnsdovb	causativennofintheynns	themnnscausaljj	malignant_neoplastic_diseasennscausaljj	cancersnnscausesnns	causationnnofintheynns	themnnscausesnns	theynnscausesnns	themnnsmakevb	causingnnofinmalignant_neoplastic_diseasenns	causativennofinthemnns	cancerousjjthemnns	causesnnsthemnns	cancernnscausevb	themnnsthemnns	themnnscancersnns	causingnnofincancernns	causaljjcancerousjj	causativennofincancersnns	cancerousjjtheynns	themnnscausenns	causesnnsmalignant_neoplastic_diseasenns	cancersnnsthemnns	causationnnofinmalignant_neoplastic_diseasenns	causaljjofinmalignant_neoplastic_diseasenns	causaljjcancersnns	
+
+BE: questionNN
+EQ class: enquirynn	interrogationnn	querynn	inquirynn	
+
+BE: riskNN
+EQ class: perilnn	endangermentnn	hazardnn	jeopardynn	riskyjj	
+
+BE: typeNN
+EQ class: 
+
+BE: cancerNN
+EQ class: cancerousjj	malignant_neoplastic_diseasenn	
+
+BE: answerVB
+EQ class: respondvb	replyvb	
+
+BE: gettingVBG
+EQ class: getvbg	acquirevbg	
+
+BE: yourPRP$questionNN
+EQ class: yourprp$call_into_questionvb	querynnofinyourprp$	yourprp$inquirynn	yourprp$interrogationnn	interrogationnnofinyourprp$	oppugnvbyourprp$	call_into_questionvbyourprp$	questionnnofinyourprp$	yourprp$enquirynn	yourprp$oppugnvb	questionvbyourprp$	yourprp$questionvb	inquirynnofinyourprp$	yourprp$querynn	enquirynnofinyourprp$	
+
+BE: youPRPareAUX
+EQ class: youprpbeaux	
+
+BE: answerVBquestionNN
+EQ class: replynnofinenquirynn	responsennofinenquirynn	respondentnnofinquestionnn	responsennofinquerynn	replyvbinquirynn	replynnofininterrogationnn	respondentnnofininterrogationnn	answernnofinquestionnn	respondentnnofinenquirynn	respondernnofinquestionnn	answervbquerynn	answernnofininterrogationnn	replyvbinterrogationnn	respondernnofininquirynn	answerernnofininquirynn	answervbinterrogationnn	respondentnnofinquerynn	replyvbquestionnn	responsennofinquestionnn	answernnofinquerynn	respondvbenquirynn	respondvbquestionnn	answerernnofinenquirynn	replynnofinquerynn	answernnofinenquirynn	respondernnofinenquirynn	respondvbquerynn	respondernnofininterrogationnn	respondernnofinquerynn	answervbinquirynn	answervbenquirynn	replyvbquerynn	answerernnofinquestionnn	replyvbenquirynn	replynnofinquestionnn	replynnofininquirynn	respondvbinquirynn	responsennofininquirynn	respondvbinterrogationnn	answerernnofinquerynn	answernnofininquirynn	respondentnnofininquirynn	answerernnofininterrogationnn	responsennofininterrogationnn	
+
+BE: gettingVBGtypeNN
+EQ class: getvbgtypenn	acquiringnnofintypenn	gettingnnofintypenn	acquirevbgtypenn	
+
+BE: typeNNofINcancerNN
+EQ class: malignant_neoplastic_diseasenntypewritevb	typifyvbcancerousjj	malignant_neoplastic_diseasenntypenn	cancerousjjtypewritevb	malignant_neoplastic_diseasennepitomisevb	cancerousjjepitomisevb	typevbcancerousjj	malignant_neoplastic_diseasennepitomizevb	cancernnepitomizevb	epitomizevbcancerousjj	cancernntypenn	cancerousjjepitomizevb	epitomizevbcancernn	typewritevbmalignant_neoplastic_diseasenn	typevbcancernn	epitomisevbcancerousjj	typewritevbcancernn	epitomisevbcancernn	epitomizevbmalignant_neoplastic_diseasenn	typevbmalignant_neoplastic_diseasenn	cancernntypewritevb	cancernntypevb	typennofincancerousjj	cancernntypifyvb	malignant_neoplastic_diseasenntypevb	cancerousjjtypenn	epitomisevbmalignant_neoplastic_diseasenn	cancernnepitomisevb	cancerousjjtypifyvb	typewritevbcancerousjj	typifyvbmalignant_neoplastic_diseasenn	typennofinmalignant_neoplastic_diseasenn	typifyvbcancernn	cancerousjjtypevb	malignant_neoplastic_diseasenntypifyvb	
+
+BE: areAUXatINriskNN
+EQ class: areauxatinhazardnn	areauxatinriskyjj	beauxatinperilnn	beauxatinrisknn	areauxatinendangermentnn	areauxatinjeopardynn	areauxatinperilnn	beauxatinriskyjj	beauxatinhazardnn	beauxatinjeopardynn	beauxatinendangermentnn	
+
+BE: areAUXprobablyRB
+EQ class: probabilitynnininareaux	probabilitynnininbeaux	likelyjjininbeaux	probablejjininbeaux	likelyjjininareaux	probablejjininareaux	beauxprobablyrb	
+
+BE: youPRPanswerVB
+EQ class: responsennofinyouprp	youprprespondvb	respondentnnyouprp	answerernnyouprp	respondentnnofinyouprp	respondernnyouprp	answernnofinyouprp	respondernnofinyouprp	youprpreplyvb	replynnofinyouprp	answerernnofinyouprp	
+
+BE: dadNN
+EQ class: popnn	papann	pappann	pann	daddynn	dadann	
+
+BE: questionNN
+EQ class: enquirynn	interrogationnn	querynn	inquirynn	
+
+BE: kidNN
+EQ class: tiddlernn	minornn	tikenn	small_frynn	frynn	shavernn	youngsternn	nestlingnn	nippernn	childnn	tykenn	
+
+BE: MDOrganizationAnnotation
+EQ class: m.d.organizationannotation	
+
+BE: answeredVBD
+EQ class: respondvbd	replyvbd	answervbd	
+
+BE: myPRP$dadNN
+EQ class: popnnofinmyprp$	dadannofinmyprp$	dadnnofinmyprp$	myprp$pappann	myprp$popnn	papannofinmyprp$	pannofinmyprp$	daddynnofinmyprp$	pappannofinmyprp$	myprp$pann	myprp$daddynn	myprp$papann	myprp$dadann	
+
+BE: dadNNansweredVBD
+EQ class: dadnnanswervbd	answernnofinpapann	replynnofinpann	papannansweredvbd	daddynnanswervbd	answernnofindadnn	respondentnnpappann	popnnanswervbd	answernnofinpann	answernnofindadann	pappannreplyvbd	responsennofindadann	dadnnreplyvbd	papannrespondvbd	dadnnrespondvbd	popnnansweredvbd	respondentnndadnn	replynnofinpopnn	respondernndadann	answerernnpann	respondentnnpapann	answerernnpappann	respondentnnpopnn	respondentnnofindadnn	daddynnreplyvbd	responsennofinpann	popnnreplyvbd	dadannrespondvbd	respondentnnpann	respondentnndaddynn	answerernnofindadnn	responsennofinpopnn	respondentnnofindaddynn	responsennofinpappann	respondernnofinpapann	answernnofinpappann	answerernnofinpapann	respondernnofinpopnn	respondentnnofinpappann	answerernnofinpappann	pappannansweredvbd	pannreplyvbd	respondentnnofindadann	replynnofindadnn	respondernndadnn	dadannanswervbd	replynnofinpapann	responsennofindaddynn	answernnofinpopnn	popnnrespondvbd	respondernnpapann	pannanswervbd	respondernnofindaddynn	respondentnnofinpann	respondentnndadann	replynnofindaddynn	dadannansweredvbd	answernnofindaddynn	answerernnofinpann	respondentnnofinpapann	replynnofindadann	respondernnpopnn	pappannanswervbd	answerernnofinpopnn	respondernndaddynn	respondernnofindadnn	responsennofindadnn	pannrespondvbd	pannansweredvbd	answerernndaddynn	papannanswervbd	answerernndadnn	answerernnofindaddynn	answerernnofindadann	respondernnofinpappann	answerernnpopnn	dadannreplyvbd	pappannrespondvbd	respondernnpappann	responsennofinpapann	daddynnansweredvbd	papannreplyvbd	replynnofinpappann	respondernnofinpann	respondernnpann	daddynnrespondvbd	respondernnofindadann	respondentnnofinpopnn	answerernnpapann	answerernndadann	
+
+BE: iPRPwasAUX
+EQ class: iprpbeaux	
+
+BE: hePRPwasAUX
+EQ class: heprpbeaux	
+
+BE: answeredVBDquestionNN
+EQ class: replynnofinenquirynn	answervbdinquirynn	respondvbdquestionnn	answeredvbdquerynn	respondentnnofinquestionnn	responsennofinquerynn	replynnofininterrogationnn	respondentnnofininterrogationnn	respondernnofinquestionnn	answernnofinquestionnn	answernnofininterrogationnn	respondernnofininquirynn	respondentnnofinquerynn	replyvbdquerynn	respondvbdinterrogationnn	responsennofinquestionnn	replyvbdquestionnn	answernnofinenquirynn	replyvbdinquirynn	answervbdquestionnn	respondernnofininterrogationnn	answervbdenquirynn	respondvbdenquirynn	answeredvbdinquirynn	answernnofininquirynn	answeredvbdinterrogationnn	responsennofinenquirynn	respondentnnofinenquirynn	answerernnofininquirynn	respondvbdquerynn	answervbdquerynn	answernnofinquerynn	answervbdinterrogationnn	replyvbdenquirynn	replynnofinquerynn	answerernnofinenquirynn	respondernnofinenquirynn	respondernnofinquerynn	replyvbdinterrogationnn	answerernnofinquestionnn	replynnofinquestionnn	replynnofininquirynn	responsennofininquirynn	respondvbdinquirynn	answeredvbdenquirynn	answerernnofinquerynn	respondentnnofininquirynn	answerernnofininterrogationnn	responsennofininterrogationnn	
+
+BE: wasAUXkidNN
+EQ class: wasauxtikenn	beauxtikenn	wasauxnestlingnn	beauxsmall_frynn	wasauxyoungsternn	beauxtykenn	beauxfrynn	beauxkidnn	wasauxnippernn	beauxminornn	wasauxfrynn	beauxnestlingnn	wasauxshavernn	beauxyoungsternn	wasauxchildnn	wasauxminornn	beauxtiddlernn	beauxshavernn	wasauxtykenn	wasauxtiddlernn	beauxchildnn	beauxnippernn	wasauxsmall_frynn	
+
+BE: wasAUXMDOrganizationAnnotation
+EQ class: beauxm.d.organizationannotation	wasauxm.d.organizationannotation	beauxmdorganizationannotation	
+
+BE: questionNNforINmePRP
+EQ class: meprpoppugnvb	meprpcall_into_questionvb	interrogationnnforinmeprp	enquirynnforinmeprp	meprpquerynn	querynnforinmeprp	meprpenquirynn	call_into_questionvbmeprp	meprpinterrogationnn	questionvbmeprp	inquirynnforinmeprp	oppugnvbmeprp	meprpinquirynn	meprpquestionvb	meprpquestionnn	
+
+BE: answeredVBDwhenWRBwasAUX
+EQ class: respondvbdwhenwrbbeaux	answervbdwhenwrbwasaux	replyvbdwhenwrbwasaux	respondvbdwhenwrbwasaux	answervbdwhenwrbbeaux	answeredvbdwhenwrbbeaux	replyvbdwhenwrbbeaux	
+
+BE: answeredVBDonceRB
+EQ class: answerernnofinoncerb	answervbdoncerb	respondentnnofinoncerb	replynnofinoncerb	answernnofinoncerb	respondvbdoncerb	replyvbdoncerb	respondernnofinoncerb	responsennofinoncerb	
+
+BE: tOrganizationAnnotation
+EQ class: 
+
+BE: cancerNN
+EQ class: cancerousjj	malignant_neoplastic_diseasenn	
+
+BE: knowVB
+EQ class: cognizevb	cognisevb	
+
+BE: donVB
+EQ class: assumevb	put_onvb	wearvb	get_intovb	
+
+BE: iPRPdonVB
+EQ class: iprpget_intovb	iprpassumevb	iprpwearvb	iprpput_onvb	
+
+BE: tOrganizationAnnotationhaveAUX
+EQ class: havennofintorganizationannotation	wealthy_personnnofintorganizationannotation	torganizationannotationhave_gotaux	torganizationannotationholdaux	rich_personnnofintorganizationannotation	
+
+BE: haveAUXcancerNN
+EQ class: wealthy_personnnofincancerousjj	have_gotauxmalignant_neoplastic_diseasenn	have_gotauxcancerousjj	rich_personnnofinmalignant_neoplastic_diseasenn	rich_personnnofincancernn	haveauxcancerousjj	holdauxcancerousjj	holdauxmalignant_neoplastic_diseasenn	rich_personnnofincancerousjj	wealthy_personnnofincancernn	havennofinmalignant_neoplastic_diseasenn	wealthy_personnnofinmalignant_neoplastic_diseasenn	havennofincancernn	holdauxcancernn	have_gotauxcancernn	haveauxmalignant_neoplastic_diseasenn	havennofincancerousjj	
+
+BE: knowVBiPRP
+EQ class: cognisevbiprp	cognizevbiprp	knowablennofiniprp	knowingnnofiniprp	apprehendernnofiniprp	knowernnofiniprp	
+
+BE: answerNN
+EQ class: replynn	responsenn	
+
+BE: tongueNN
+EQ class: glossann	clappernn	linguann	
+
+BE: cheekNN
+EQ class: 
+
+BE: autopsyNN
+EQ class: postmortemnn	post-mortemnn	pmnn	postmortem_examinationnn	post-mortem_examinationnn	necropsynn	
+
+BE: monthsNNS
+EQ class: calendar_monthnns	theynns	monthlyjj	monthnns	themnns	
+
+BE: performedVBN
+EQ class: executevbn	performvbn	dovbn	
+
+BE: sixCDmonthsNNS
+EQ class: captain_hickscdcalendar_monthnns	sestetcdtheynns	sixcdthemnns	half_a_dozencdmonthnns	sestetcdmonthlyjj	captain_hickscdmonthnns	hexadcdmonthnns	sisecdmonthlyjj	sisecdtheynns	vicdmonthnns	sextupletcdmonthnns	sextetcdcalendar_monthnns	hexadcdmonthlyjj	sixercdmonthlyjj	6cdcalendar_monthnns	vicdcalendar_monthnns	sextupletcdmonthlyjj	6cdmonthnns	sixcdmonthnns	sixercdtheynns	half_a_dozencdthemnns	6cdmonthlyjj	sextupletcdmonthsnns	captain_hickscdmonthsnns	captain_hickscdthemnns	sextetcdmonthnns	sisecdmonthsnns	sixercdmonthsnns	sestetcdcalendar_monthnns	sextetcdmonthsnns	sextupletcdtheynns	sixercdcalendar_monthnns	half_a_dozencdtheynns	captain_hickscdtheynns	sixcdcalendar_monthnns	sextupletcdcalendar_monthnns	sixercdthemnns	half_a_dozencdcalendar_monthnns	sixcdtheynns	hexadcdtheynns	sextupletcdthemnns	sestetcdthemnns	sixcdmonthlyjj	hexadcdthemnns	sixercdmonthnns	half_a_dozencdmonthsnns	6cdmonthsnns	sextetcdthemnns	sestetcdmonthsnns	vicdthemnns	hexadcdmonthsnns	sisecdmonthnns	sestetcdmonthnns	half_a_dozencdmonthlyjj	sisecdthemnns	6cdthemnns	6cdtheynns	hexadcdcalendar_monthnns	sextetcdtheynns	sextetcdmonthlyjj	vicdmonthlyjj	vicdtheynns	captain_hickscdmonthlyjj	sisecdcalendar_monthnns	vicdmonthsnns	
+
+BE: hisPRP$answerNN
+EQ class: replynnofinhisprp$	replyvbhisprp$	hisprp$replynn	respondvbhisprp$	answervbhisprp$	answernnofinhisprp$	hisprp$answervb	responsennofinhisprp$	hisprp$replyvb	hisprp$responsenn	hisprp$respondvb	
+
+BE: answerNNtongueNN
+EQ class: tonguennanswernn	tonguennofinresponsenn	respondentnnofintonguenn	tonguennanswervb	responsennofinclappernn	replynnofinclappernn	respondernnofintonguenn	linguannofinanswernn	responsennofintonguenn	answernnofinlinguann	clappernnrespondvb	answernnofintonguenn	linguannresponsenn	linguannofinreplynn	tonguennofinanswernn	linguannreplynn	replynntonguevb	tonguennrespondvb	tonguennreplynn	responsennclappernn	answernnofinclappernn	clappernnofinanswernn	glossannrespondvb	responsenntonguenn	answerernnofinglossann	glossannresponsenn	responsenntonguevb	glossannreplyvb	tonguennresponsenn	answernnglossann	answernntonguevb	answerernnofinlinguann	clappernnofinresponsenn	tonguennreplyvb	linguannreplyvb	clappernnanswernn	linguannanswernn	tonguennofinreplynn	answerernnofinclappernn	clappernnofinreplynn	clappernnanswervb	answernnofinglossann	glossannanswernn	respondernnofinclappernn	respondentnnofinlinguann	responsennglossann	replynntonguenn	replynnofintonguenn	respondernnofinlinguann	linguannrespondvb	answernnlinguann	linguannanswervb	respondentnnofinclappernn	linguannofinresponsenn	replynnclappernn	clappernnresponsenn	clappernnreplynn	respondentnnofinglossann	clappernnreplyvb	glossannofinresponsenn	glossannofinreplynn	responsennofinlinguann	responsennlinguann	replynnlinguann	answernnclappernn	replynnglossann	responsennofinglossann	answerernnofintonguenn	respondernnofinglossann	glossannreplynn	replynnofinglossann	replynnofinlinguann	glossannofinanswernn	glossannanswervb	
+
+BE: answerNNhaveAUX
+EQ class: answernnholdaux	replynnhave_gotaux	replynnhaveaux	answernnhave_gotaux	responsennhave_gotaux	wealthy_personnnofinanswernn	rich_personnnofinanswernn	havennofinanswernn	havennofinresponsenn	replynnholdaux	havennofinreplynn	responsennhaveaux	rich_personnnofinreplynn	wealthy_personnnofinreplynn	responsennholdaux	wealthy_personnnofinresponsenn	rich_personnnofinresponsenn	
+
+BE: tongueNNhaveAUX
+EQ class: rich_personnnofinclappernn	linguannhave_gotaux	glossannhave_gotaux	wealthy_personnnofintonguenn	wealthy_personnnofinglossann	rich_personnnofintonguenn	havennofinglossann	rich_personnnofinglossann	tonguennholdaux	glossannholdaux	wealthy_personnnofinlinguann	clappernnholdaux	havennofintonguenn	wealthy_personnnofinclappernn	havennofinlinguann	linguannhaveaux	glossannhaveaux	havennofinclappernn	clappernnhaveaux	clappernnhave_gotaux	rich_personnnofinlinguann	tonguennhave_gotaux	linguannholdaux	
+
+BE: haveAUXautopsyNN
+EQ class: holdauxnecropsynn	havennofinautopsynn	havennofinpmnn	have_gotauxpostmortemnn	rich_personnnofinpostmortemnn	haveauxpostmortem_examinationnn	holdauxpost-mortem_examinationnn	have_gotauxpost-mortemnn	rich_personnnofinpostmortem_examinationnn	wealthy_personnnofinautopsynn	wealthy_personnnofinpostmortem_examinationnn	haveauxpost-mortem_examinationnn	rich_personnnofinpost-mortemnn	havennofinpostmortemnn	have_gotauxpostmortem_examinationnn	havennofinpost-mortemnn	rich_personnnofinpost-mortem_examinationnn	haveauxnecropsynn	have_gotauxpmnn	holdauxpostmortemnn	rich_personnnofinpmnn	have_gotauxnecropsynn	wealthy_personnnofinpost-mortemnn	wealthy_personnnofinpmnn	wealthy_personnnofinpostmortemnn	holdauxpmnn	wealthy_personnnofinnecropsynn	wealthy_personnnofinpost-mortem_examinationnn	holdauxautopsynn	haveauxpost-mortemnn	rich_personnnofinautopsynn	have_gotauxautopsynn	haveauxpmnn	holdauxpostmortem_examinationnn	holdauxpost-mortemnn	haveauxpostmortemnn	have_gotauxpost-mortem_examinationnn	rich_personnnofinnecropsynn	havennofinnecropsynn	havennofinpost-mortem_examinationnn	havennofinpostmortem_examinationnn	
+
+BE: haveAUXmonthsNNS
+EQ class: havennofintheynns	holdauxtheynns	wealthy_personnnofincalendar_monthnns	rich_personnnofinmonthlyjj	havennofinmonthsnns	havennofinmonthnns	wealthy_personnnofintheynns	have_gotauxmonthnns	wealthy_personnnofinmonthnns	holdauxthemnns	haveauxtheynns	have_gotauxtheynns	wealthy_personnnofinmonthlyjj	havennofinmonthlyjj	holdauxmonthsnns	rich_personnnofincalendar_monthnns	haveauxcalendar_monthnns	havennofincalendar_monthnns	have_gotauxcalendar_monthnns	rich_personnnofinthemnns	rich_personnnofinmonthsnns	havennofinthemnns	haveauxmonthlyjj	holdauxmonthlyjj	wealthy_personnnofinthemnns	haveauxmonthnns	haveauxthemnns	have_gotauxthemnns	holdauxcalendar_monthnns	holdauxmonthnns	have_gotauxmonthlyjj	wealthy_personnnofinmonthsnns	rich_personnnofinmonthnns	rich_personnnofintheynns	have_gotauxmonthsnns	
+
+BE: performedVBNautopsyNN
+EQ class: performvbnpostmortem_examinationnn	performedvbnpmnn	dovbnpostmortemnn	performvbnnecropsynn	dovbnpost-mortem_examinationnn	performancennofinautopsynn	performvbnpmnn	performancennofinnecropsynn	dovbnpost-mortemnn	executevbnpmnn	dovbnautopsynn	performvbnpostmortemnn	executevbnnecropsynn	public_presentationnnofinpost-mortemnn	performedvbnpost-mortem_examinationnn	dovbnnecropsynn	performancennofinpostmortemnn	public_presentationnnofinpostmortem_examinationnn	performancennofinpost-mortem_examinationnn	performvbnautopsynn	executevbnpost-mortemnn	public_presentationnnofinpmnn	dovbnpostmortem_examinationnn	public_presentationnnofinnecropsynn	executevbnpostmortemnn	performancennofinpostmortem_examinationnn	dovbnpmnn	executevbnpostmortem_examinationnn	executevbnautopsynn	public_presentationnnofinautopsynn	performedvbnnecropsynn	performancennofinpost-mortemnn	public_presentationnnofinpost-mortem_examinationnn	public_presentationnnofinpostmortemnn	performvbnpost-mortemnn	performedvbnpostmortem_examinationnn	performedvbnpost-mortemnn	performedvbnpostmortemnn	performancennofinpmnn	performvbnpost-mortem_examinationnn	executevbnpost-mortem_examinationnn	
+
+BE: tongueNNinINcheekNN
+EQ class: cheeknnglossann	cheeknnclappernn	tonguevbcheeknn	cheeknntonguevb	linguanninincheeknn	cheeknnlinguann	cheeknntonguenn	glossanninincheeknn	clappernninincheeknn	
+
+BE: performedVBNonINyourselfPRP
+EQ class: performvbnoninyourselfprp	dovbnoninyourselfprp	executevbnoninyourselfprp	
+
+BE: cancerNN
+EQ class: cancerousjj	malignant_neoplastic_diseasenn	
+
+BE: timeNN
+EQ class: clipnn	
+
+BE: cancerNN
+EQ class: cancerousjj	malignant_neoplastic_diseasenn	
+
+BE: cellNN
+EQ class: cellularjj	
+
+BE: mistakeNN
+EQ class: faultnn	errornn	
+
+BE: waysNNS
+EQ class: shipwaynns	theynns	slipwaynns	themnns	
+
+BE: defineVB
+EQ class: delimitvb	specifyvb	delineatevb	delimitatevb	
+
+BE: madeVBN
+EQ class: makevbn	dovbn	
+
+BE: multiplyingVBG
+EQ class: multiplyvbg	
+
+BE: awareJJ
+EQ class: cognisantjj	cognizantjj	awarenessnn	
+
+BE: ordinaryJJ
+EQ class: ordinarinessnn	
+
+BE: ordinaryJJwaysNNS
+EQ class: ordinarinessnnthemnns	ordinaryjjslipwaynns	ordinaryjjthemnns	ordinaryjjtheynns	ordinarinessnntheynns	ordinarinessnnshipwaynns	ordinarinessnnslipwaynns	ordinaryjjshipwaynns	ordinarinessnnwaysnns	
+
+BE: youPRPbeAUX
+EQ class: 
+
+BE: wePRPhaveAUX
+EQ class: weprpholdaux	weprphave_gotaux	havennofinweprp	wealthy_personnnofinweprp	rich_personnnofinweprp	
+
+BE: allDThaveAUX
+EQ class: wealthy_personnnofinalldt	havennofinalldt	alldtholdaux	rich_personnnofinalldt	alldthave_gotaux	
+
+BE: thatDTisAUX
+EQ class: thatdtbeaux	
+
+BE: wePRPdefineVB
+EQ class: weprpspecifyvb	weprpdelineatevb	weprpdelimitatevb	weprpdelimitvb	
+
+BE: cellNNmultiplyingVBG
+EQ class: propagationnncellnn	multipliernnofincellularjj	propagationnncellularjj	multiplicationnnofincellularjj	cellularjjmultiplyvbg	multiplicationnnofincellnn	multiplier_factornnofincellularjj	multiplier_factornncellularjj	propagationnnofincellnn	multiplicativennofincellnn	multipliernncellularjj	cellularjjmultiplyingvbg	multiplier_factornnofincellnn	multipliernnofincellnn	generationnncellularjj	multiplier_factornncellnn	propagationnnofincellularjj	multiplicativennofincellularjj	generationnncellnn	multiplicationnncellnn	generationnnofincellularjj	multipliernncellnn	generationnnofincellnn	multiplicationnncellularjj	cellnnmultiplyvbg	
+
+BE: cellNNmadeVBN
+EQ class: cellnnmakevbn	cellularjjdovbn	cellularjjmakevbn	cellularjjmadevbn	cellnndovbn	
+
+BE: haveAUXcancerNN
+EQ class: wealthy_personnnofincancerousjj	have_gotauxmalignant_neoplastic_diseasenn	have_gotauxcancerousjj	rich_personnnofinmalignant_neoplastic_diseasenn	rich_personnnofincancernn	haveauxcancerousjj	holdauxcancerousjj	holdauxmalignant_neoplastic_diseasenn	rich_personnnofincancerousjj	wealthy_personnnofincancernn	havennofinmalignant_neoplastic_diseasenn	wealthy_personnnofinmalignant_neoplastic_diseasenn	havennofincancernn	holdauxcancernn	have_gotauxcancernn	haveauxmalignant_neoplastic_diseasenn	havennofincancerousjj	
+
+BE: haveAUXtimeNN
+EQ class: have_gotauxclipnn	rich_personnnofinclipnn	havennofinclipnn	holdauxclipnn	holdauxtimenn	rich_personnnofintimenn	have_gotauxtimenn	wealthy_personnnofintimenn	haveauxclipnn	wealthy_personnnofinclipnn	havennofintimenn	
+
+BE: defineVBcancerNN
+EQ class: delimitatevbcancerousjj	delineatevbcancernn	delineatevbcancerousjj	delimitvbmalignant_neoplastic_diseasenn	delimitatevbmalignant_neoplastic_diseasenn	delimitvbcancerousjj	specifyvbcancernn	delimitatevbcancernn	specifyvbcancerousjj	delimitvbcancernn	delineatevbmalignant_neoplastic_diseasenn	specifyvbmalignant_neoplastic_diseasenn	definevbmalignant_neoplastic_diseasenn	definevbcancerousjj	
+
+BE: madeVBNmistakeNN
+EQ class: dovbnerrornn	makevbnmistakenn	madevbnerrornn	makevbnfaultnn	dovbnfaultnn	madevbnfaultnn	makevbnerrornn	dovbnmistakenn	
+
+BE: beAUXawareJJ
+EQ class: beauxawarenessnn	beauxcognisantjj	beauxcognizantjj	
+
+BE: defineVBasINcellNN
+EQ class: delimitatevbasincellularjj	delineatevbasincellnn	definevbasincellularjj	specifyvbasincellnn	delimitvbasincellnn	specifyvbasincellularjj	delimitvbasincellularjj	delimitatevbasincellnn	delineatevbasincellularjj	
+
+BE: multiplyingVBGbeyondINwaysNNS
+EQ class: multiplyvbgbeyondinshipwaynns	multiplyingvbgbeyondintheynns	multiplyvbgbeyondinwaysnns	multiplyingvbgbeyondinthemnns	multiplyingvbgbeyondinslipwaynns	multiplyvbgbeyondinslipwaynns	multiplyvbgbeyondinthemnns	multiplyvbgbeyondintheynns	multiplyingvbgbeyondinshipwaynns	
+
+BE: isAUXifINdefineVB
+EQ class: beauxifindelimitatevb	beauxifindefinevb	beauxifindelimitvb	beauxifindelineatevb	isauxifindelineatevb	isauxifindelimitatevb	isauxifinspecifyvb	isauxifindelimitvb	beauxifinspecifyvb	
+
+BE: systemNN
+EQ class: 
+
+BE: problemNN
+EQ class: jobnn	problematicaljj	problematicjj	
+
+BE: recognizesVBZ
+EQ class: knowvbz	recognizevbz	recognisevbz	acknowledgevbz	
+
+BE: destroysVBZ
+EQ class: destroyvbz	destructvbz	
+
+BE: immuneJJ
+EQ class: immunitynn	
+
+BE: immuneJJsystemNN
+EQ class: immunitynnsystemnn	
+
+BE: ourPRP$systemNN
+EQ class: systemnnofinourprp$	
+
+BE: systemNNrecognizesVBZ
+EQ class: systemnnrecognisevbz	systemnnacknowledgevbz	systemnnrecognizevbz	systemnnknowvbz	
+
+BE: systemNNdestroysVBZ
+EQ class: systemnndestructvbz	devastationnnsystemnn	destructionnnsystemnn	destroyernnsystemnn	destructiblennofinsystemnn	guided_missile_destroyernnsystemnn	guided_missile_destroyernnofinsystemnn	destructivennofinsystemnn	systemnndestroyvbz	destructionnnofinsystemnn	destroyernnofinsystemnn	devastationnnofinsystemnn	
+
+BE: recognizesVBZproblemNN
+EQ class: acknowledgevbzproblemnn	recognizesvbzjobnn	recognisevbzjobnn	recognisevbzproblematicaljj	recognizevbzproblemnn	recognisevbzproblemnn	acknowledgevbzproblematicjj	recognizevbzjobnn	acknowledgevbzproblematicaljj	knowvbzproblematicjj	knowvbzjobnn	knowvbzproblemnn	acknowledgevbzjobnn	recognizesvbzproblematicaljj	recognizesvbzproblematicjj	recognizevbzproblematicaljj	recognizevbzproblematicjj	knowvbzproblematicaljj	recognisevbzproblematicjj	
+
+BE: destroysVBZitPRP
+EQ class: devastationnnofinitprp	destructvbzitprp	destructionnnofinitprp	destructivennofinitprp	destroyvbzitprp	guided_missile_destroyernnofinitprp	destroyernnofinitprp	destructiblennofinitprp	
+
+BE: systemNN
+EQ class: 
+
+BE: ageVBP
+EQ class: 
+
+BE: immuneJJ
+EQ class: immunitynn	
+
+BE: reliableJJ
+EQ class: dependablejj	reliabilitynn	reliablenessnn	
+
+BE: immuneJJsystemNN
+EQ class: immunitynnsystemnn	
+
+BE: systemNNisAUX
+EQ class: systemnnbeaux	
+
+BE: wePRPageVBP
+EQ class: 
+
+BE: isAUXreliableJJ
+EQ class: beauxdependablejj	isauxdependablejj	beauxreliablenessnn	isauxreliablenessnn	isauxreliabilitynn	beauxreliabilitynn	beauxreliablejj	
+
+BE: cancerNN
+EQ class: cancerousjj	malignant_neoplastic_diseasenn	
+
+BE: getVBP
+EQ class: acquirevbp	
+
+BE: foundVBN
+EQ class: set_upvbn	launchvbn	establishvbn	
+
+BE: largeJJ
+EQ class: bigjj	largenn	largenessnn	
+
+BE: largeJJcancerNN
+EQ class: bigjjmalignant_neoplastic_diseasenn	largejjcancerousjj	largenncancernn	cancerousvblargelyrb	bigjjcancernn	bigjjcancerousjj	largennmalignant_neoplastic_diseasenn	largenessnnmalignant_neoplastic_diseasenn	largejjmalignant_neoplastic_diseasenn	largenncancerousjj	largenessnncancerousjj	largenessnncancernn	
+
+BE: itPRPisAUX
+EQ class: itprpbeaux	
+
+BE: wePRPgetVBP
+EQ class: gettingnnofinweprp	weprpacquirevbp	acquiringnnweprp	gettingnnweprp	acquiringnnofinweprp	
+
+BE: getVBPcancerNN
+EQ class: getvbpmalignant_neoplastic_diseasenn	acquiringnnofincancerousjj	acquirevbpmalignant_neoplastic_diseasenn	getvbpcancerousjj	acquirevbpcancernn	gettingnnofinmalignant_neoplastic_diseasenn	gettingnnofincancernn	acquiringnnofincancernn	gettingnnofincancerousjj	acquiringnnofinmalignant_neoplastic_diseasenn	acquirevbpcancerousjj	
+
+BE: isAUXthatINgetVBP
+EQ class: beauxthatinacquirevbp	isauxthatinacquirevbp	beauxthatingetvbp	
+
+BE: isAUXthenRB
+EQ class: beauxthenrb	
+
+BE: HelpfulJJ
+EQ class: helpfulnessnn	
+

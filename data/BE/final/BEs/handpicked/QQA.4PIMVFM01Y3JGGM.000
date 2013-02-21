@@ -1,0 +1,37 @@
+#How does the moon affect our planet Earth? Why??
+#(S1 (SBARQ (WHADVP (WRB How)) (SQ (AUX does) (NP (DT the) (NN moon)) (VP (VB affect) (NP (PRP$ our) (NN planet)) (NP (NNP Earth)))) (. ?) (SBARQ (WHADVP (WRB Why)) (. ?)) (. ?)))
+#Rule:Nouns
+r1moonNN
+r1planetNN
+r1EarthPersonAnnotation
+
+#Rule:Verbs
+r2affectVB
+
+#Rule:PRP-Noun
+r6ourPRP$planetNN
+
+#Rule:V-HeadNoun
+r21affectVBplanetNN
+r21affectVBEarthPersonAnnotation
+
+#How does the moon affect our planet Earth?
+#(S1 (SBARQ (WHADVP (WRB How)) (SQ (AUX does) (NP (DT the) (NN moon)) (VP (VB affect) (NP (PRP$ our) (NN planet)) (NP (NNP Earth)))) (. ?)))
+#Rule:Nouns
+r1moonNN
+r1planetNN
+r1EarthPersonAnnotation
+
+#Rule:Verbs
+r2affectVB
+
+#Rule:PRP-Noun
+r6ourPRP$planetNN
+
+#Rule:V-HeadNoun
+r21affectVBplanetNN
+r21affectVBEarthPersonAnnotation
+
+@lemmas-left	planet	moon	Earth	our	affect	
+@lemmas-right	planet	Earth	
+@lemmas-center	

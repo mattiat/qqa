@@ -1,0 +1,186 @@
+BE: wayNN
+EQ class: stylenn	fashionnn	modenn	mannernn	
+
+BE: fearNN
+EQ class: fearfulnessnn	frightnn	
+
+BE: putVBN
+EQ class: positionvbn	posevbn	placevbn	setvbn	layvbn	
+
+BE: overcomeVB
+EQ class: get_the_better_ofvb	defeatvb	
+
+BE: forcedVBN
+EQ class: pressurevbn	squeezevbn	forcevbn	halevbn	coercevbn	
+
+BE: faceVB
+EQ class: confrontvb	face_upvb	
+
+BE: easiestJJS
+EQ class: easinessnn	easyjjs	
+
+BE: easiestJJSwayNN
+EQ class: easinessnnmannernn	easiestjjsfashionnn	easinessnnfashionnn	easiestjjsstylenn	easinessnnstylenn	easyjjswaynn	easyjjsfashionnn	easyjjsmannernn	easinessnnmodenn	easinessnnwaynn	easiestjjsmodenn	easyjjsstylenn	easyjjsmodenn	easiestjjsmannernn	
+
+BE: wayNNisAUX
+EQ class: mannernnisaux	stylennbeaux	waynnbeaux	fashionnnbeaux	fashionnnisaux	modennbeaux	mannernnbeaux	stylennisaux	modennisaux	
+
+BE: wayNNovercomeVB
+EQ class: overcomernnofinstylenn	subduernnstylenn	surmounternnwaynn	overcomernnfashionnn	surmounternnofinmodenn	mannernndefeatvb	subduernnwaynn	surmounternnmannernn	surmounternnofinwaynn	overcomernnofinmodenn	subduernnofinfashionnn	subduernnmannernn	subduernnfashionnn	waynnget_the_better_ofvb	surmounternnofinmannernn	subduernnofinmodenn	fashionnndefeatvb	overcomernnofinfashionnn	surmounternnfashionnn	subduernnofinmannernn	surmounternnofinstylenn	overcomernnmannernn	overcomernnofinwaynn	surmounternnmodenn	subduernnofinwaynn	surmounternnofinfashionnn	modennget_the_better_ofvb	waynndefeatvb	overcomernnofinmannernn	fashionnnovercomevb	overcomernnmodenn	surmounternnstylenn	fashionnnget_the_better_ofvb	mannernnovercomevb	modenndefeatvb	overcomernnstylenn	modennovercomevb	stylennovercomevb	stylennget_the_better_ofvb	subduernnmodenn	mannernnget_the_better_ofvb	stylenndefeatvb	subduernnofinstylenn	overcomernnwaynn	
+
+BE: overcomeVBfearNN
+EQ class: surmounternnofinfearnn	get_the_better_ofvbfearnn	overcomernnofinfrightnn	get_the_better_ofvbfearfulnessnn	surmounternnofinfrightnn	overcomevbfrightnn	get_the_better_ofvbfrightnn	defeatvbfearfulnessnn	overcomevbfearfulnessnn	subduernnofinfrightnn	defeatvbfearnn	surmounternnofinfearfulnessnn	overcomernnofinfearnn	overcomernnofinfearfulnessnn	subduernnofinfearnn	defeatvbfrightnn	subduernnofinfearfulnessnn	
+
+BE: faceVBitPRP
+EQ class: confrontvbitprp	face_upvbitprp	
+
+BE: forcedVBNfaceVB
+EQ class: halevbnface_upvb	forcevbnface_upvb	forcevbnfacevb	coercevbnconfrontvb	coercevbnfacevb	forcedvbnconfrontvb	squeezevbnconfrontvb	coercevbnface_upvb	pressurevbnconfrontvb	forcennofinfacevb	forcennofinface_upvb	halevbnfacevb	halevbnconfrontvb	pressurevbnfacevb	forcedvbnface_upvb	forcevbnconfrontvb	pressurevbnface_upvb	squeezevbnfacevb	forcennofinconfrontvb	squeezevbnface_upvb	
+
+BE: putVBNSimplyRB
+EQ class: simplicitynnininposevbn	simplicitynnininsetvbn	simplejjininpositionvbn	simplicitynnininpositionvbn	simplejjininsetvbn	simplenessnnininplacevbn	layvbnsimplyrb	simplejjininlayvbn	placevbnsimplyrb	simplenessnnininposevbn	simplicitynnininlayvbn	simplicitynnininplacevbn	simplejjininposevbn	simplenessnnininsetvbn	simplenessnnininputvbn	simplenessnnininpositionvbn	positionvbnsimplyrb	simplicitynnininputvbn	simplejjininplacevbn	setvbnsimplyrb	posevbnsimplyrb	simplejjininputvbn	simplenessnnininlayvbn	
+
+BE: tornadoesNNS
+EQ class: theynns	twisternns	tornadonns	themnns	
+
+BE: tornadoLocationAnnotation
+EQ class: 
+
+BE: situationNN
+EQ class: state_of_affairsnn	
+
+BE: protectVB
+EQ class: 
+
+BE: knowVBP
+EQ class: cognizevbp	cognisevbp	
+
+BE: protectVB
+EQ class: 
+
+BE: simulateVBP
+EQ class: imitatevbp	copyvbp	
+
+BE: goodJJ
+EQ class: goodnessnn	
+
+BE: tornadoLocationAnnotationsituationNN
+EQ class: tornadolocationannotationstate_of_affairsnn	situationnnofintornadolocationannotation	state_of_affairsnnofintornadolocationannotation	
+
+BE: tornadoesNNSareAUX
+EQ class: themnnsbeaux	theynnsareaux	twisternnsareaux	tornadonnsbeaux	twisternnsbeaux	themnnsareaux	tornadoesnnsbeaux	tornadonnsareaux	theynnsbeaux	
+
+BE: protectVByourselfPRP
+EQ class: protectivennofinyourselfprp	guardiannnofinyourselfprp	protectionnnofinyourselfprp	shieldernnofinyourselfprp	protectornnofinyourselfprp	defendernnofinyourselfprp	
+
+BE: protectVByourselfPRP
+EQ class: protectivennofinyourselfprp	guardiannnofinyourselfprp	protectionnnofinyourselfprp	shieldernnofinyourselfprp	protectornnofinyourselfprp	defendernnofinyourselfprp	
+
+BE: simulateVBPsituationNN
+EQ class: copyvbpstate_of_affairsnn	copyvbpsituationnn	imitatevbpsituationnn	simulatevbpstate_of_affairsnn	imitatevbpstate_of_affairsnn	
+
+BE: areAUXgoodJJ
+EQ class: areauxgoodnessnn	beauxgoodnessnn	beauxgoodjj	
+
+BE: areAUXdefinitelyRB
+EQ class: beauxdefinitelyrb	
+
+BE: wayNN
+EQ class: stylenn	fashionnn	modenn	mannernn	
+
+BE: mentionedVBN
+EQ class: bring_upvbn	namevbn	citevbn	advertvbn	refervbn	mentionvbn	
+
+BE: knowVB
+EQ class: cognizevb	cognisevb	
+
+BE: wayNNisAUX
+EQ class: mannernnisaux	stylennbeaux	waynnbeaux	fashionnnbeaux	fashionnnisaux	modennbeaux	mannernnbeaux	stylennisaux	modennisaux	
+
+BE: knowVBaboutINthemPRP
+EQ class: cognizevbaboutinchancesprp	knowvbaboutinchancesprp	cognisevbaboutintornadoesprp	cognizevbaboutinthemprp	knowvbaboutintprp	cognisevbaboutinthemprp	knowvbaboutintornadoesprp	cognisevbaboutinchancesprp	cognisevbaboutintprp	cognizevbaboutintprp	cognizevbaboutintornadoesprp	
+
+BE: RESEARCHNN
+EQ class: 
+
+BE: tornadoes donLocationAnnotation
+EQ class: 
+
+BE: tNNS
+EQ class: thyminenns	theynns	themnns	
+
+BE: strategyNN
+EQ class: strategicjj	schemenn	strategicaljj	
+
+BE: fearNN
+EQ class: fearfulnessnn	frightnn	
+
+BE: occurVB
+EQ class: come_aboutvb	happenvb	fall_outvb	go_onvb	pass_offvb	hapvb	take_placevb	passvb	
+
+BE: forgetVB
+EQ class: buryvb	
+
+BE: goodJJ
+EQ class: goodnessnn	
+
+BE: goodJJstrategyNN
+EQ class: goodnessnnstrategicjj	goodjjschemenn	goodnessnnstrategynn	goodjjstrategicjj	goodnessnnschemenn	goodjjstrategicaljj	goodnessnnstrategicaljj	
+
+BE: yourPRP$fearNN
+EQ class: fearfulnessnnofinyourprp$	fearnnofinyourprp$	frightnnofinyourprp$	fearvbyourprp$	yourprp$fearvb	yourprp$frightnn	yourprp$fearfulnessnn	
+
+BE: strategyNNbeAUX
+EQ class: strategicjjbeaux	schemennbeaux	strategicaljjbeaux	
+
+BE: tNNSoccurVB
+EQ class: theynnspassvb	themnnstake_placevb	themnnshapvb	thyminennsfall_outvb	thyminennstake_placevb	theynnshapvb	theynnspass_offvb	tnnspass_offvb	tnnscome_aboutvb	tnnsfall_outvb	thyminennsgo_onvb	thyminennscome_aboutvb	themnnspass_offvb	themnnscome_aboutvb	theynnsoccurvb	tnnsgo_onvb	themnnsgo_onvb	themnnspassvb	theynnstake_placevb	theynnscome_aboutvb	tnnshappenvb	thyminennshapvb	themnnsfall_outvb	theynnsfall_outvb	tnnspassvb	themnnsoccurvb	themnnshappenvb	tnnshapvb	thyminennshappenvb	thyminennspassvb	thyminennspass_offvb	theynnsgo_onvb	thyminennsoccurvb	tnnstake_placevb	theynnshappenvb	
+
+BE: forgetVBfearNN
+EQ class: buryvbfearnn	forgetvbfearfulnessnn	forgetvbfrightnn	buryvbfearfulnessnn	buryvbfrightnn	
+
+BE: tornadoes donLocationAnnotationtNNS
+EQ class: tornadoes donlocationannotationthemnns	tornadoes donlocationannotationtheynns	tornadoes donlocationannotationthyminenns	
+
+BE: occurVBdailyRB
+EQ class: day-to-dayjjininhappenvb	day-to-dayjjininfall_outvb	day-after-dayjjininoccurvb	day-to-dayjjininpass_offvb	daynninintake_placevb	day-after-dayjjininfall_outvb	day-to-dayjjininpassvb	day-to-dayjjinincome_aboutvb	go_onvbdailyrb	day-by-dayjjinincome_aboutvb	dailyjjininpass_offvb	day-by-dayjjinintake_placevb	day-after-dayjjininpassvb	daynninincome_aboutvb	pass_offvbdailyrb	day-to-dayjjininhapvb	dailyjjinincome_aboutvb	day-after-dayjjiningo_onvb	day-to-dayjjininoccurvb	dailyjjininfall_outvb	passvbdailyrb	day-to-dayjjiningo_onvb	day-by-dayjjininfall_outvb	hapvbdailyrb	day-by-dayjjininpass_offvb	day-by-dayjjininoccurvb	daynnininpass_offvb	day-after-dayjjinincome_aboutvb	dailyjjiningo_onvb	day-after-dayjjininhapvb	daynnininpassvb	daynnininoccurvb	daynniningo_onvb	happenvbdailyrb	day-by-dayjjininpassvb	daynnininfall_outvb	day-to-dayjjinintake_placevb	day-after-dayjjininpass_offvb	day-after-dayjjininhappenvb	come_aboutvbdailyrb	daynnininhapvb	day-by-dayjjininhapvb	dailyjjininhapvb	day-by-dayjjininhappenvb	dailyjjininhappenvb	take_placevbdailyrb	day-by-dayjjiningo_onvb	dailyjjininoccurvb	day-after-dayjjinintake_placevb	dailyjjinintake_placevb	fall_outvbdailyrb	daynnininhappenvb	dailyjjininpassvb	
+
+BE: beAUXsimplyRB
+EQ class: simplicitynnininbeaux	simplenessnnininbeaux	simplejjininbeaux	
+
+BE: ChancesNNS
+EQ class: opportunitynns	chancenns	
+
+BE: tornadoLocationAnnotation
+EQ class: 
+
+BE: situationNN
+EQ class: state_of_affairsnn	
+
+BE: whileNN
+EQ class: patchnn	spellnn	piecenn	
+
+BE: wonVBP
+EQ class: winvbp	
+
+BE: tornadoLocationAnnotationsituationNN
+EQ class: tornadolocationannotationstate_of_affairsnn	situationnnofintornadolocationannotation	state_of_affairsnnofintornadolocationannotation	
+
+BE: ChancesNNSareAUX
+EQ class: opportunitynnsbeaux	chancesnnsbeaux	chancennsbeaux	opportunitynnsareaux	chancennsareaux	
+
+BE: youPRPwonVBP
+EQ class: winnernnyouprp	youprpwinvbp	victornnyouprp	winnnyouprp	winningsnnofinyouprp	profitsnnofinyouprp	winnernnofinyouprp	profitsnnyouprp	victornnofinyouprp	winningsnnyouprp	winnnofinyouprp	
+
+BE: youPRPbeAUX
+EQ class: 
+
+BE: beAUXinINsituationNN
+EQ class: beauxininstate_of_affairsnn	
+
+BE: beAUXforINwhileNN
+EQ class: beauxforinpiecenn	beauxforinspellnn	beauxforinpatchnn	
+
+BE: wonVBPtLocationAnnotation
+EQ class: wonvbpthemlocationannotation	winnernnofintheylocationannotation	victornnofinthemlocationannotation	winvbptheylocationannotation	winnnofinthemlocationannotation	winningsnnofintheylocationannotation	profitsnnofintheylocationannotation	winnernnofintlocationannotation	winvbpthemlocationannotation	winnnofintlocationannotation	profitsnnofinthemlocationannotation	winningsnnofintlocationannotation	winvbptlocationannotation	wonvbptheylocationannotation	profitsnnofintlocationannotation	winnernnofinthemlocationannotation	victornnofintlocationannotation	winnnofintheylocationannotation	victornnofintheylocationannotation	winningsnnofinthemlocationannotation	
+

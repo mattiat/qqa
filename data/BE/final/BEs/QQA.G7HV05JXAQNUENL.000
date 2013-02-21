@@ -1,0 +1,61 @@
+#How do I force myself to go to the gym more??
+#(S1 (SBARQ (WHADVP (WRB How)) (SQ (AUX do) (NP (PRP I)) (VP (VB force) (NP (PRP myself)) (S (VP (TO to) (VP (VB go) (PP (TO to) (NP (DT the) (NN gym) (RBR more))))))) (. ?)) (. ?)))
+#Rule:Nouns
+r1gym moreLocationAnnotation
+
+#Rule:Verbs
+r2forceVB
+r2goVB
+
+#Rule:V-HeadNoun
+r21forceVBmyselfPRP
+
+#Rule:PPinVP
+r30goVBtoTOgym moreLocationAnnotation
+
+#Rule:V-V
+r44forceVBgoVB
+
+#I need to work out more and I joined an expensive gym and am always making lazy excuses not to go.
+#(S1 (S (S (NP (PRP I)) (VP (AUX need) (S (VP (TO to) (VP (VB work) (PRT (RP out)) (NP (JJR more))))))) (CC and) (S (NP (PRP I)) (VP (VP (VBD joined) (NP (DT an) (JJ expensive) (NN gym))) (CC and) (VP (AUX am) (ADVP (RB always)) (VP (VBG making) (NP (NP (JJ lazy) (NNS excuses)) (SBAR (S (RB not) (VP (TO to) (VP (VB go)))))))))) (. .)))
+#Rule:Nouns
+r1gymNN
+r1excusesNNS
+
+#Rule:Verbs
+r2joinedVBD
+r2makingVBG
+r2goVB
+
+#Rule:V-PRT
+r3workVBoutRP
+
+#Rule:Adjs
+r4moreJJR
+r4expensiveJJ
+r4lazyJJ
+
+#Rule:Adj-Noun
+r5expensiveJJgymNN
+r5lazyJJexcusesNNS
+
+#Rule:HeadNoun-V
+r11iPRPneedAUX
+r11iPRPjoinedVBD
+r11iPRPmakingVBG
+
+#Rule:HeadNoun-(who/that)-V
+r14excusesNNSgoVB
+
+#Rule:V-HeadNoun
+r21workVBmoreJJR
+r21joinedVBDgymNN
+r21makingVBGexcusesNNS
+
+#Rule:V-ADV
+r46amAUXalwaysRB
+r46makingVBGalwaysRB
+
+@lemmas-left	work	excuse	expensive	excuses	join	i	joined	more	am	making	lazy	gym more	force	gym	make	be	go	
+@lemmas-right	need	excuse	excuses	join	always	joined	more	myself	making	gym more	gym	make	go	out	
+@lemmas-center	to	

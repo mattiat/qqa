@@ -1,0 +1,60 @@
+#Our atmosphere is mostly nitrogen, and nitrogen scatters blue light. 
+#(S1 (S (S (NP (PRP$ Our) (NN atmosphere)) (VP (AUX is) (NP (RB mostly) (NN nitrogen)))) (, ,) (CC and) (S (NP (NN nitrogen) (NNS scatters)) (ADJP (JJ blue) (JJ light))) (. .)))
+#Rule:Nouns
+r1atmosphereNN
+r1nitrogenNN
+r1nitrogenNN
+r1scattersNNS
+
+#Rule:Adjs
+r4blueJJ
+r4lightJJ
+
+#Rule:PRP-Noun
+r6ourPRP$atmosphereNN
+
+#Rule:N-HeadNoun
+r8nitrogenNNscattersNNS
+
+#Rule:HeadNoun-V
+r11atmosphereNNisAUX
+
+#Rule:V-HeadNoun
+r21isAUXnitrogenNN
+
+#Rule:IS-RULE
+r47nitrogenNNatmosphereNN
+
+#The blue we observe is the result of Rayleigh scattering.
+#(S1 (S (NP (NP (DT The) (NN blue)) (SBAR (S (NP (PRP we)) (VP (VBP observe))))) (VP (AUX is) (NP (NP (DT the) (NN result)) (PP (IN of) (NP (NNP Rayleigh) (NN scattering))))) (. .)))
+#Rule:Nouns
+r1blueNN
+r1resultNN
+r1RayleighPersonAnnotation
+r1scatteringNN
+
+#Rule:Verbs
+r2observeVBP
+
+#Rule:N-HeadNoun
+r8RayleighPersonAnnotationscatteringNN
+
+#Rule:HeadNoun-V
+r11blueNNisAUX
+r11wePRPobserveVBP
+
+#Rule:NP(NP(z) SBAR(S(NP(x)VP(y))))
+r19observeVBPblueNN
+
+#Rule:V-HeadNoun
+r21isAUXresultNN
+
+#Rule:PPinNP
+r26resultNNofINscatteringNN
+
+#Rule:IS-RULE
+r47resultNNblueNN
+
+@lemmas-left	result	is	Rayleigh	scattering	atmosphere	nitrogen	scatter	scatters	blue	observe	light	our	we	be	
+@lemmas-right	result	scatters	scatter	is	blue	observe	scattering	atmosphere	nitrogen	be	
+@lemmas-center	of	

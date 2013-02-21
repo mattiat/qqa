@@ -1,0 +1,118 @@
+#Hi,You could get ur blood sugar check up. Many times diabetes is without symptoms..
+#(S1 (S (ADVP (RB Hi)) (, ,) (NP (PRP You)) (VP (MD could) (VP (VB get) (S (NP (JJ ur) (NN blood) (NN sugar)) (VP (VB check) (SBAR (S (S (VP (VBG up.) (NP (JJ Many) (NNS times)) (NP (NN diabetes)))) (VP (AUX is) (PP (IN without) (NP (NNS symptoms)))) (. .))))))) (. .)))
+#Rule:Nouns
+r1bloodNN
+r1sugarNN
+r1timesNNS
+r1diabetesNN
+r1symptomsNNS
+
+#Rule:Verbs
+r2getVB
+r2checkVB
+r2upVBG
+
+#Rule:Adjs
+r4urJJ
+r4ManyJJ
+
+#Rule:Adj-Noun
+r5urJJsugarNN
+r5ManyJJtimesNNS
+
+#Rule:N-HeadNoun
+r8bloodNNsugarNN
+
+#Rule:HeadNoun-V
+r11youPRPgetVB
+r11sugarNNcheckVB
+
+#Rule:V-HeadNoun
+r21upVBGtimesNNS
+r21upVBGdiabetesNN
+
+#Rule:V-HeadNoun
+r22getVBsugarNN
+
+#Rule:PPinVP
+r30isAUXwithoutINsymptomsNNS
+
+#The use of detox and tonic herbs is always helpful in these conditions.http://www.holistic-herbalist.com/natural-herbal-remedies.htmlTerminalia chebula is one such detox ayurvedic herb and Ashwagandha is another good herb with specific effect related to ur trouble..
+#(S1 (S (S (NP (NP (DT The) (NN use)) (PP (IN of) (NP (NN detox) (CC and) (NN tonic) (NNS herbs)))) (VP (AUX is) (ADVP (RB always)) (ADJP (JJ helpful) (PP (IN in) (NP (DT these) (NNS conditions.http)))))) (: :) (S (S (NP (NN //www.holistic-herbalist.com/natural-herbal-remedies.htmlTerminalia) (NN chebula)) (VP (AUX is) (NP (CD one) (JJ such) (NN detox) (NN ayurvedic) (NN herb)))) (CC and) (S (NP (NNP Ashwagandha)) (VP (AUX is) (NP (NP (DT another) (JJ good) (NN herb)) (PP (IN with) (NP (NP (JJ specific) (NN effect)) (VP (VBN related) (PP (TO to) (NP (JJ ur) (NN trouble))))))))) (. .)) (. .)))
+#Rule:Nouns
+r1useNN
+r1detoxNN
+r1tonicNN
+r1herbsNNS
+r1conditions.httpNNS
+r1//www.holistic-herbalist.com/natural-herbal-remedies.htmlTerminaliaNN
+r1chebulaNN
+r1detoxNN
+r1ayurvedic herbPersonAnnotation
+r1AshwagandhaPersonAnnotation
+r1herbNN
+r1effectNN
+r1troubleNN
+
+#Rule:Verbs
+r2relatedVBN
+
+#Rule:Adjs
+r4helpfulJJ
+r4suchJJ
+r4goodJJ
+r4specificJJ
+r4urJJ
+
+#Rule:Adj-Noun
+r5oneCDayurvedic herbPersonAnnotation
+r5suchJJayurvedic herbPersonAnnotation
+r5goodJJherbNN
+r5specificJJeffectNN
+r5urJJtroubleNN
+
+#Rule:N-HeadNoun
+r8tonicNNherbsNNS
+r8//www.holistic-herbalist.com/natural-herbal-remedies.htmlTerminaliaNNchebulaNN
+r8detoxNNayurvedic herbPersonAnnotation
+
+#Rule:HeadNoun-V
+r11useNNisAUX
+r11chebulaNNisAUX
+r11AshwagandhaPersonAnnotationisAUX
+
+#Rule:V-HeadNoun
+r21isAUXayurvedic herbPersonAnnotation
+r21isAUXherbNN
+
+#Rule:V-HeadNoun(passive)
+r24relatedVBNeffectNN
+
+#Rule:V-ADJ
+r25isAUXhelpfulJJ
+
+#Rule:PPinNP
+r26useNNofINherbsNNS
+r26herbNNwithINeffectNN
+
+#Rule:PPinVP
+r32relatedVBNtoTOtroubleNN
+
+#Rule:PPinADJP
+r37helpfulJJinINconditions.httpNNS
+
+#Rule:V-ADV
+r46isAUXalwaysRB
+
+#Rule:IS-RULE
+r47ayurvedic herbPersonAnnotationchebulaNN
+r47herbNNAshwagandhaPersonAnnotation
+
+#Regards,
+#(S1 (FRAG (VP (VBZ Regards)) (, ,)))
+#Rule:Verbs
+r2regardsVBZ
+
+@lemmas-left	relate	specific	herbs	one	diabetes	detox	Many	use	good	ayurvedic herb	chebula	Ashwagandha	related	conditions.http	trouble	times	be	is	such	check	get	regards	up.	ur	regard	you	blood	helpful	up	many	//www.holistic-herbalist.com/natural-herbal-remedies.htmlterminalia	symptoms	//www.holistic-herbalist.com/natural-herbal-remedies.htmlTerminalia	effect	herb	http	tonic	symptom	sugar	
+@lemmas-right	is	get	check	herbs	diabetes	ayurvedic herb	chebula	Ashwagandha	always	helpful	conditions.http	symptoms	trouble	effect	http	times	herb	be	sugar	symptom	
+@lemmas-center	to	of	with	in	without	

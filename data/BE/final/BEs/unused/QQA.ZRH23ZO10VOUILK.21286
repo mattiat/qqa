@@ -1,0 +1,219 @@
+#In a word: arrogance..
+#(S1 (FRAG (IN In) (NP (NP (DT a) (NN word)) (: :) (NP (NN arrogance)) (. .)) (. .)))
+#Rule:Nouns
+r1wordNN
+r1arroganceNN
+
+#The United States government passed Public Law 90-472 which authorized a 3-year study which was accepted in 1971.  The report concluded that the U.S. should, indeed, go metric deliberately and carefully through a coordinated national program..
+#(S1 (S (NP (DT The) (NNP United) (NNPS States)) (NP (NN government)) (VP (VBD passed) (NP (NP (NNP Public) (NNP Law)) (NP (CD 90-472)) (SBAR (WHNP (WDT which)) (S (VP (VBD authorized) (NP (NP (DT a) (JJ 3-year) (NN study)) (SBAR (WHNP (WDT which)) (S (VP (AUX was) (VP (VBN accepted) (SBAR (S (PP (IN in) (NP (CD 1971.))) (NP (DT The) (NN report)) (VP (VBD concluded) (SBAR (IN that) (S (NP (DT the) (NNP U.S.)) (VP (MD should) (, ,) (ADVP (RB indeed)) (, ,) (VP (VB go) (ADJP (JJ metric)) (ADVP (RB deliberately) (CC and) (RB carefully)) (PP (IN through) (NP (DT a) (VBN coordinated) (JJ national) (NN program)))))))) (. .))))))))))))) (. .)))
+#Rule:Nouns
+r1United StatesLocationAnnotation
+r1governmentNN
+r1Public LawOrganizationAnnotation
+r1studyNN
+r1reportNN
+r1U.S.LocationAnnotation
+r1programNN
+
+#Rule:Verbs
+r2passedVBD
+r2authorizedVBD
+r2acceptedVBN
+r2concludedVBD
+r2goVB
+r2coordinatedVBN
+
+#Rule:Adjs
+r43-yearJJ
+r4metricJJ
+r4nationalJJ
+
+#Rule:Adj-Noun
+r53-yearJJstudyNN
+r5coordinatedVBNprogramNN
+r5nationalJJprogramNN
+
+#Rule:HeadNoun-V
+r11United StatesLocationAnnotationpassedVBD
+r11governmentNNpassedVBD
+r11reportNNconcludedVBD
+r11U.S.LocationAnnotationgoVB
+
+#Rule:HeadNoun-(who/that)-V
+r14Public LawOrganizationAnnotationauthorizedVBD
+r1490-472CDauthorizedVBD
+
+#Rule:V-(who/that)-HeadNoun
+r18acceptedVBNstudyNN
+
+#Rule:V-HeadNoun
+r21passedVBDPublic LawOrganizationAnnotation
+r21authorizedVBDstudyNN
+
+#Rule:PPinVP
+r30goVBthroughINprogramNN
+
+#Rule:PPinS
+r36concludedVBDinIN1971CD
+
+#Rule:V-IN-V
+r43concludedVBDthatINgoVB
+
+#Rule:V-ADV
+r46goVBindeedRB
+r46goVBdeliberatelyRB
+r46goVBcarefullyRB
+
+#Progress was made until President Reagan disbanded the U.S. Metric Board and canceled its funding in 1984.Legally, the US must go to ???metric??? by December, 2009; but it looks like the deadline will get pushed back once again..
+#(S1 (S (S (NP (NN Progress)) (VP (AUX was) (VP (VBN made) (PP (IN until) (NP (NP (NNP President) (NNP Reagan)) (VP (VP (VBN disbanded) (NP (DT the) (NNP U.S.) (NNP Metric) (NNP Board))) (CC and) (VP (VBN canceled) (NP (PRP$ its) (NN funding) (SBAR (IN in) (S (ADVP (RB 1984.Legally)) (, ,) (NP (DT the) (NNP US)) (VP (MD must) (VP (VB go) (S (VP (TO to) (VP (VB ???) (NP (JJ metric) (NNS ??))))))) (. ?)))) (PP (IN by) (NP (NP (NNP December)) (, ,) (NP (CD 2009))))))))))) (: ;) (S (CC but) (NP (PRP it)) (VP (VBZ looks) (SBAR (IN like) (S (NP (DT the) (NN deadline)) (VP (MD will) (VP (VB get) (VP (VBN pushed) (PRT (RP back)) (ADVP (RB once) (RB again)))))))) (. .)) (. .)))
+#Rule:Nouns
+r1ProgressNN
+r1PresidentNNP
+r1ReaganPersonAnnotation
+r1U.S. Metric BoardOrganizationAnnotation
+r1fundingNN
+r1USLocationAnnotation
+r1??NNS
+r1DecemberNNP
+r1deadlineNN
+
+#Rule:Verbs
+r2madeVBN
+r2disbandedVBN
+r2canceledVBN
+r2goVB
+r2???VB
+r2looksVBZ
+r2getVB
+
+#Rule:V-PRT
+r3pushedVBNbackRP
+
+#Rule:Adjs
+r4metricJJ
+
+#Rule:Adj-Noun
+r5metricJJ??NNS
+
+#Rule:PRP-Noun
+r6itsPRP$fundingNN
+
+#Rule:N-HeadNoun
+r8PresidentNNPReaganPersonAnnotation
+
+#Rule:N-ApposN
+r10DecemberNNP2009CD
+
+#Rule:HeadNoun-V
+r11USLocationAnnotationgoVB
+r11itPRPlooksVBZ
+r11deadlineNNgetVB
+
+#Rule:V-By-Agent
+r13DecemberNNPcanceledVBN
+r132009CDcanceledVBN
+
+#Rule:V-HeadNoun
+r21disbandedVBNU.S. Metric BoardOrganizationAnnotation
+r21canceledVBNfundingNN
+r21???VB??NNS
+
+#Rule:V-HeadNoun(passive)
+r23madeVBNProgressNN
+
+#Rule:V-HeadNoun(passive)
+r24disbandedVBNReaganPersonAnnotation
+r24canceledVBNReaganPersonAnnotation
+r24pushedVBNdeadlineNN
+
+#Rule:PPinVP
+r32madeVBNuntilINReaganPersonAnnotation
+
+#Rule:V-IN-V
+r43looksVBZlikeINgetVB
+r43looksVBZlikeINpushedVBN
+
+#Rule:V-V
+r44goVB???VB
+
+#Rule:V-ADV
+r46pushedVBNonceRB
+r46pushedVBNagainRB
+
+#See the first site below for more details:The International System of Units, universally abbreviated SI (from the French Le Syst??me International d Unit??s), is the modern metric system of measurement.  It was adapted in 1961.
+#(S1 (S (S (VP (VB See) (NP (NP (DT the) (JJ first) (NN site)) (RB below)) (PP (IN for) (NP (JJR more) (NNS details))))) (: :) (S (NP (NP (DT The) (NNP International) (NNP System)) (PP (IN of) (NP (NNS Units))) (, ,) (VP (ADVP (RB universally)) (VBN abbreviated) (ADVP (RB SI)) (PRN (-LRB- -LRB-) (SBAR (IN from) (S (NP (DT the) (NNP French) (NNP Le) (NNP Syst)) (VP (VBD ??) (NP (PRP me)) (NP (NNP International) (NNP d) (NNP Unit) (FW ??) (NNP s))))) (-RRB- -RRB-))) (, ,)) (VP (AUX is) (NP (NP (DT the) (JJ modern) (JJ metric) (NN system)) (PP (IN of) (NP (NP (NN measurement.)) (SBAR (S (NP (PRP It)) (VP (AUX was) (VP (VBN adapted) (PP (IN in) (NP (CD 1961)))))))))))) (. .)))
+#Rule:Nouns
+r1siteNN
+r1detailsNNS
+r1The International SystemOrganizationAnnotation
+r1UnitsNNS
+r1FrenchNNP
+r1LeNNP
+r1SystNNP
+r1International dOrganizationAnnotation
+r1UnitNNP
+r1sNNP
+r1systemNN
+r1measurementNN
+
+#Rule:Verbs
+r2seeVB
+r2abbreviatedVBN
+r2??VBD
+r2adaptedVBN
+
+#Rule:Adjs
+r4firstJJ
+r4moreJJR
+r4modernJJ
+r4metricJJ
+
+#Rule:Adj-Noun
+r5firstJJsiteNN
+r5moreJJRdetailsNNS
+r5modernJJsystemNN
+r5metricJJsystemNN
+
+#Rule:N-HeadNoun
+r8LeNNPSystNNP
+r8FrenchNNPSystNNP
+
+#Rule:HeadNoun-V
+r11The International SystemOrganizationAnnotationisAUX
+r11SystNNP??VBD
+
+#Rule:NP(NP(z) SBAR(S(NP(x)VP(y))))
+r19adaptedVBNmeasurementNN
+
+#Rule:V-HeadNoun
+r21seeVBsiteNN
+r21??VBDmePRP
+r21??VBDsNNP
+r21isAUXsystemNN
+
+#Rule:V-HeadNoun(passive)
+r23adaptedVBNitPRP
+
+#Rule:V-HeadNoun(passive)
+r24abbreviatedVBNThe International SystemOrganizationAnnotation
+
+#Rule:PPinNP
+r26The International SystemOrganizationAnnotationofINUnitsNNS
+r26systemNNofINmeasurementNN
+
+#Rule:PPinVP
+r30seeVBforINdetailsNNS
+
+#Rule:PPinVP
+r32adaptedVBNinIN1961CD
+
+#Rule:V-ADV
+r46abbreviatedVBNuniversallyRB
+r46abbreviatedVBNSIRB
+
+#Rule:IS-RULE
+r47systemNNThe International SystemOrganizationAnnotation
+
+@lemmas-left	progress	2009	president	canceled	passed	French	accept	measurement.	study	disband	cancel	french	its	??	looks	more	Le	accepted	syst	report	year	government	be	conclude	US	abbreviate	get	national	measurement	december	system	U.S.	le	The International System	90-472	metric	program	arrogance	word	deadline	make	go	United States	Public Law	coordinated	made	abbreviated	adapt	Unit	push	International d	modern	U.S. Metric Board	Units	details	Syst	site	look	authorized	Reagan	is	adapted	it	funding	coordinate	disbanded	Progress	pass	authorize	unit	see	s	concluded	3-year	pushed	President	first	???	December	
+@lemmas-right	progress	canceled	2009	passed	measurement.	cancel	study	??	looks	1971	syst	be	conclude	get	once	1971.	again	si	measurement	system	The International System	program	deadline	go	indeed	Public Law	deliberately	carefully	push	U.S. Metric Board	details	Units	Syst	me	look	site	Reagan	authorized	is	funding	it	SI	universally	back	1961	Progress	pass	authorize	unit	s	concluded	pushed	???	
+@lemmas-center	of	that	for	through	like	in	until	

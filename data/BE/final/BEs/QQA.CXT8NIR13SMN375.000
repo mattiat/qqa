@@ -1,0 +1,40 @@
+#How does high cholesterol affect the heart??
+#(S1 (SBARQ (WHADVP (WRB How)) (SQ (AUX does) (NP (JJ high) (NN cholesterol)) (VP (VB affect) (NP (DT the) (NN heart))) (. ?)) (. ?)))
+#Rule:Nouns
+r1cholesterolNN
+r1heartNN
+
+#Rule:Verbs
+r2affectVB
+
+#Rule:Adjs
+r4highJJ
+
+#Rule:Adj-Noun
+r5highJJcholesterolNN
+
+#Rule:V-HeadNoun
+r21affectVBheartNN
+
+#And  what numbers are considered good and bad for the heart?
+#(S1 (FRAG (CC And) (SBAR (WHNP (WP what)) (S (NP (NNS numbers)) (VP (AUX are) (VP (VBN considered) (S (ADJP (JJ good) (CC and) (JJ bad)) (PP (IN for) (NP (DT the) (NN heart)))))))) (. ?)))
+#Rule:Nouns
+r1numbersNNS
+r1heartNN
+
+#Rule:Verbs
+r2consideredVBN
+
+#Rule:Adjs
+r4goodJJ
+r4badJJ
+
+#Rule:V-HeadNoun(passive)
+r23consideredVBNnumbersNNS
+
+#Rule:PPinS
+r36goodJJforINheartNN
+
+@lemmas-left	heart	numbers	consider	good	bad	high	affect	cholesterol	considered	
+@lemmas-right	heart	numbers	cholesterol	
+@lemmas-center	for	

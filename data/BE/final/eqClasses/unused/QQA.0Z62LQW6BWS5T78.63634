@@ -1,0 +1,84 @@
+BE: FROM monkeysOrganizationAnnotation
+EQ class: f.r.o.m. monkeysorganizationannotation	
+
+BE: monkeysNNS
+EQ class: monkeynns	theynns	themnns	
+
+BE: ancestorNN
+EQ class: rootnn	ascendantnn	antecedentnn	ancestraljj	ascendentnn	
+
+BE: evolveVB
+EQ class: developvb	germinatevb	
+
+BE: evolvedVBD
+EQ class: developvbd	evolvevbd	germinatevbd	
+
+BE: splitVB
+EQ class: carve_upvb	split_upvb	dividevb	dissevervb	separatevb	
+
+BE: livingVBG
+EQ class: inhabitvbg	livevbg	dwellvbg	populatevbg	
+
+BE: evolvedVBN
+EQ class: developvbn	germinatevbn	evolvevbn	
+
+BE: sameJJ
+EQ class: 
+
+BE: commonJJ
+EQ class: commonnessnn	commonnn	commonalitynn	
+
+BE: sameJJancestorNN
+EQ class: samejjascendantnn	samejjrootnn	samejjancestraljj	samejjascendentnn	samejjantecedentnn	
+
+BE: commonJJancestorNN
+EQ class: commonjjascendentnn	commonnnrootnn	commonnnancestornn	commonjjrootnn	commonalitynnrootnn	commonnnancestraljj	commonjjancestraljj	commonnessnnancestornn	commonnnascendantnn	commonalitynnascendentnn	commonnessnnancestraljj	commonalitynnancestornn	commonnnascendentnn	commonnessnnantecedentnn	commonnessnnascendantnn	commonjjantecedentnn	commonalitynnantecedentnn	commonjjascendantnn	commonalitynnascendantnn	commonalitynnancestraljj	commonnnantecedentnn	commonnessnnrootnn	commonnessnnascendentnn	ancestralvbcommonlyrb	
+
+BE: wePRPevolvedVBD
+EQ class: weprpgerminatevbd	weprpevolvevbd	weprpdevelopvbd	
+
+BE: wePRPevolveVB
+EQ class: weprpdevelopvb	weprpgerminatevb	
+
+BE: wePRPsplitVB
+EQ class: weprpdissevervb	weprpdividevb	weprpsplit_upvb	splitnnofinweprp	weprpcarve_upvb	weprpseparatevb	
+
+BE: wePRPlivingVBG
+EQ class: weprpinhabitvbg	liveryjjweprp	livernnweprp	weprppopulatevbg	livernnofinweprp	liveryjjofinweprp	weprpdwellvbg	liveablennofinweprp	weprplivevbg	livablennofinweprp	
+
+BE: wePRPareAUX
+EQ class: weprpbeaux	
+
+BE: evolvedVBNwePRP
+EQ class: developvbnweprp	evolvevbnweprp	germinatevbnweprp	
+
+BE: monkeysNNSfromINancestorNN
+EQ class: ascendantnnmonkeynns	themnnsfrominrootnn	themnnsfrominancestraljj	theynnsfrominascendentnn	theynnsfrominancestornn	monkeynnsfrominrootnn	theynnsfrominrootnn	monkeysnnsfrominascendentnn	ancestraljjtheynns	theynnsfrominancestraljj	ascendentnnmonkeysnns	ascendentnnthemnns	monkeynnsfrominascendantnn	rootnnmonkeysnns	monkeysnnsfrominrootnn	monkeysnnsfrominantecedentnn	theynnsfrominantecedentnn	monkeynnsfrominascendentnn	monkeynnsfrominantecedentnn	ascendentnntheynns	themnnsfrominancestornn	rootnnmonkeynns	ascendentnnmonkeynns	themnnsfrominascendentnn	monkeynnsfrominancestraljj	ascendantnntheynns	ancestornnmonkeysnns	antecedentnntheynns	rootnntheynns	ancestraljjmonkeysnns	themnnsfrominantecedentnn	ancestornnmonkeynns	monkeysnnsfrominancestraljj	ancestornnthemnns	ancestraljjmonkeynns	antecedentnnthemnns	ascendantnnmonkeysnns	ancestraljjthemnns	ancestornntheynns	antecedentnnmonkeysnns	themnnsfrominascendantnn	monkeynnsfrominancestornn	rootnnthemnns	monkeysnnsfrominascendantnn	ascendantnnthemnns	antecedentnnmonkeynns	theynnsfrominascendantnn	
+
+BE: evolvedVBDwithINmonkeysNNS
+EQ class: evolvedvbdwithinmonkeynns	developvbdwithintheynns	developvbdwithinthemnns	germinatevbdwithintheynns	germinatevbdwithinmonkeynns	developvbdwithinmonkeysnns	germinatevbdwithinmonkeysnns	evolvedvbdwithinthemnns	evolvevbdwithinmonkeysnns	evolvevbdwithinmonkeynns	evolvevbdwithinthemnns	evolvedvbdwithintheynns	developvbdwithinmonkeynns	evolvevbdwithintheynns	germinatevbdwithinthemnns	
+
+BE: evolvedVBDuntilINsplitVB
+EQ class: germinatevbduntilinsplitvb	evolvevbduntilindissevervb	developvbduntilindissevervb	developvbduntilincarve_upvb	developvbduntilindividevb	evolvedvbduntilinseparatevb	germinatevbduntilinsplit_upvb	developvbduntilinseparatevb	germinatevbduntilinseparatevb	evolvedvbduntilindissevervb	evolvevbduntilinseparatevb	developvbduntilinsplitvb	evolvedvbduntilincarve_upvb	evolvevbduntilincarve_upvb	germinatevbduntilindividevb	evolvedvbduntilindividevb	evolvedvbduntilinsplit_upvb	evolvevbduntilindividevb	germinatevbduntilindissevervb	evolvevbduntilinsplitvb	evolvevbduntilinsplit_upvb	germinatevbduntilincarve_upvb	developvbduntilinsplit_upvb	
+
+BE: evolvedVBDuntilINlivingVBG
+EQ class: developvbduntilinlivevbg	developvbduntilinpopulatevbg	germinatevbduntilininhabitvbg	evolvevbduntilinlivevbg	evolvevbduntilinlivingvbg	evolvevbduntilinpopulatevbg	germinatevbduntilindwellvbg	germinatevbduntilinpopulatevbg	evolvedvbduntilinpopulatevbg	evolvedvbduntilinlivevbg	developvbduntilininhabitvbg	germinatevbduntilinlivingvbg	evolvevbduntilininhabitvbg	evolvedvbduntilininhabitvbg	developvbduntilindwellvbg	evolvevbduntilindwellvbg	developvbduntilinlivingvbg	germinatevbduntilinlivevbg	evolvedvbduntilindwellvbg	
+
+BE: evolvedVBDuntilINevolvedVBN
+EQ class: evolvevbduntilingerminatevbn	germinatevbduntilinevolvedvbn	evolvevbduntilinevolvedvbn	developvbduntilindevelopvbn	evolvevbduntilinevolvevbn	germinatevbduntilindevelopvbn	developvbduntilinevolvedvbn	developvbduntilingerminatevbn	evolvevbduntilindevelopvbn	evolvedvbduntilingerminatevbn	evolvedvbduntilindevelopvbn	germinatevbduntilingerminatevbn	evolvedvbduntilinevolvevbn	developvbduntilinevolvevbn	germinatevbduntilinevolvevbn	
+
+BE: splitVBapartRB
+EQ class: splitnnofinapartrb	dissevervbapartrb	separatevbapartrb	split_upvbapartrb	carve_upvbapartrb	dividevbapartrb	
+
+BE: areAUXnowRB
+EQ class: beauxnowrb	
+
+BE: livingVBGnowRB
+EQ class: livevbgnowrb	dwellvbgnowrb	liveablennofinnowrb	livernnofinnowrb	liveryjjofinnowrb	inhabitvbgnowrb	livablennofinnowrb	populatevbgnowrb	
+
+BE: livingVBGpeacefullyRB
+EQ class: peacefuljjininpopulatevbg	peaceablejjininlivevbg	dwellvbgpeacefullyrb	peaceablejjininliveryjj	peaceablejjlivernn	peaceablejjinininhabitvbg	peacefuljjinindwellvbg	peaceablejjinindwellvbg	peaceablejjininlivernn	peacefuljjlivernn	peacefuljjininlivevbg	peacefuljjininlivingvbg	peaceablejjininlivingvbg	liveryjjofinpeacefullyrb	peaceablejjliveryjj	inhabitvbgpeacefullyrb	populatevbgpeacefullyrb	peacefuljjininlivernn	livevbgpeacefullyrb	peacefuljjinininhabitvbg	livablennofinpeacefullyrb	peacefuljjliveryjj	peaceablejjininpopulatevbg	livernnofinpeacefullyrb	peacefuljjininliveryjj	liveablennofinpeacefullyrb	
+
+BE: evolvedVBNpeacefullyRB
+EQ class: germinatevbnpeacefullyrb	peacefuljjiningerminatevbn	peaceablejjinindevelopvbn	evolvevbnpeacefullyrb	peacefuljjininevolvevbn	peaceablejjininevolvedvbn	peaceablejjiningerminatevbn	peaceablejjininevolvevbn	peacefuljjininevolvedvbn	developvbnpeacefullyrb	peacefuljjinindevelopvbn	
+

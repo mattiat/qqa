@@ -1,0 +1,123 @@
+#well idk about those questions but i can predict hows its going to end for you if thats ok? i think it could be one of these things..
+#(S1 (FRAG (ADJP (RB well) (JJ idk) (PP (IN about) (NP (DT those) (NNS questions)))) (S (CC but) (NP (PRP i)) (VP (MD can) (VP (VB predict) (NP (NNS hows)) (S (NP (PRP$ its) (NN going)) (VP (TO to) (VP (VB end) (PP (IN for) (NP (PRP you))) (SBAR (IN if) (S (VP (VBZ thats) (S (INTJ (UH ok) (. ?)) (NP (PRP i)) (VP (VBP think) (SBAR (S (NP (PRP it)) (VP (MD could) (VP (AUX be) (NP (NP (CD one)) (PP (IN of) (NP (DT these) (NNS things)))))))))))))))))) (. .)) (. .)))
+#Rule:Nouns
+r1questionsNNS
+r1howsNNS
+r1goingNN
+r1thingsNNS
+
+#Rule:Verbs
+r2predictVB
+r2endVB
+r2thatsVBZ
+r2thinkVBP
+
+#Rule:Adjs
+r4idkJJ
+
+#Rule:PRP-Noun
+r6itsPRP$goingNN
+
+#Rule:HeadNoun-V
+r11iLocationAnnotationpredictVB
+r11goingNNendVB
+r11ok? iPersonAnnotationthinkVBP
+r11itPRPbeAUX
+
+#Rule:V-HeadNoun
+r21predictVBhowsNNS
+r21beAUXoneCD
+
+#Rule:V-HeadNoun
+r22predictVBgoingNN
+r22thatsVBZok? iPersonAnnotation
+
+#Rule:PPinNP
+r26oneCDofINthingsNNS
+
+#Rule:PPinVP
+r30endVBforINyouPRP
+
+#Rule:PPinADJP
+r37idkJJaboutINquestionsNNS
+
+#Rule:V-IN-V
+r43endVBifINthatsVBZ
+
+#A) harry and voldemort kill eachother b) harry kills malfoy, voldemort kills harry, and neville kills voldemortc) malfoy becmes harry s friend and try to kill voldemort just as neville steps in and does it for them.d)dumbledore comes back and helps (who ever) kill voldemort once and for all
+#(S1 (S (S (NP (NP (DT A) (-RRB- -RRB-) (NNP harry)) (CC and) (NP (JJ voldemort) (NN kill) (NN eachother) (NNP b) (-RRB- -RRB-) (NNP harry))) (VP (VBZ kills) (NP (NN malfoy)))) (PRN (, ,) (S (NP (NN voldemort)) (VP (VBZ kills) (NP (NNP harry)))) (, ,)) (CC and) (S (NP (NN neville)) (VP (VBZ kills) (SBAR (S (NP (NN voldemortc) (-RRB- -RRB-) (NN malfoy)) (VP (VP (VBZ becmes) (NP (NNP harry) (NNP s) (NN friend))) (CC and) (VP (VBP try) (S (VP (TO to) (VP (VB kill) (NP (NN voldemort)) (SBAR (RB just) (IN as) (S (NP (NP (JJ neville) (NNS steps)) (PP (IN in))) (VP (CC and) (VP (AUX does) (NP (PRP it)) (SBAR (IN for) (S (NP (NN them.d) (-RRB- -RRB-) (NN dumbledore)) (VP (VBZ comes) (ADVP (RB back)))))) (CC and) (VP (VBZ helps) (S (VP (PRN (-LRB- -LRB-) (FRAG (WP who) (RB ever)) (-RRB- -RRB-)) (VB kill) (NP (NN voldemort)) (UCP (ADVP (RB once)) (CC and) (PP (IN for) (NP (DT all)))))))))))))))))))))
+#Rule:Nouns
+r1harryNNP
+r1killNN
+r1eachotherNN
+r1bOrganizationAnnotation
+r1harryNNP
+r1malfoyNN
+r1voldemortNN
+r1harryNNP
+r1nevilleLocationAnnotation
+r1voldemortcNN
+r1malfoyNN
+r1becmes harryPersonAnnotation
+r1sNNP
+r1friendNN
+r1voldemortNN
+r1stepsNNS
+r1them.dNN
+r1dumbledoreNN
+r1voldemortNN
+
+#Rule:Verbs
+r2killsVBZ
+r2killsVBZ
+r2killsVBZ
+r2tryVBP
+r2killVB
+r2comesVBZ
+r2helpsVBZ
+r2killVB
+
+#Rule:Adjs
+r4voldemortJJ
+r4nevilleLocationAnnotation
+
+#Rule:Adj-Noun
+r5voldemortJJharryNNP
+r5nevilleLocationAnnotationstepsNNS
+
+#Rule:N-HeadNoun
+r8sNNPfriendNN
+r8becmes harryPersonAnnotationfriendNN
+
+#Rule:HeadNoun-V
+r11harryNNPkillsVBZ
+r11harryNNPkillsVBZ
+r11voldemortNNkillsVBZ
+r11nevilleLocationAnnotationkillsVBZ
+r11malfoyNNbecmes harryPersonAnnotation
+r11malfoyNNtryVBP
+r11stepsNNShelpsVBZ
+r11stepsNNSdoesAUX
+r11dumbledoreNNcomesVBZ
+
+#Rule:V-HeadNoun
+r21killsVBZmalfoyNN
+r21killsVBZharryNNP
+r21killVBvoldemortNN
+r21doesAUXitPRP
+r21killVBvoldemortNN
+
+#Rule:V-IN-V
+r43killVBasINhelpsVBZ
+r43killVBasINdoesAUX
+r43doesAUXforINcomesVBZ
+
+#Rule:V-V
+r44tryVBPkillVB
+
+#Rule:V-ADV
+r46comesVBZbackRB
+
+@lemmas-left	does	thats	harry	becmes harry	them.d	one	kill	ok? i	its	voldemort	help	dumbledore	hows	do	kills	question	malfoy	voldemortc	end	be	d	think	going	it	b	eachother	come	questions	helps	steps	comes	idk	i	s	predict	things	neville	try	friend	
+@lemmas-right	does	thats	harry	becmes harry	one	kill	ok? i	voldemort	help	hows	kills	do	malfoy	question	end	be	think	going	it	back	questions	come	you	steps	helps	comes	predict	things	friend	try	
+@lemmas-center	of	for	if	about	as	

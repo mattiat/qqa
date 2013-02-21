@@ -1,0 +1,41 @@
+#It sure has not done much to make their fans happy or get to the World Series, so it is a failure.
+#(S1 (S (S (NP (PRP It)) (ADVP (RB sure)) (VP (AUX has) (RB not) (VP (AUX done) (ADJP (RB much) (S (VP (TO to) (VP (VP (VB make) (S (NP (PRP$ their) (NNS fans)) (ADJP (JJ happy)))) (CC or) (VP (VB get) (PP (TO to) (NP (DT the) (NNP World) (NNP Series))))))))))) (, ,) (CC so) (S (NP (PRP it)) (VP (AUX is) (NP (DT a) (NN failure)))) (. .)))
+#Rule:Nouns
+r1fansNNS
+r1WorldNNP
+r1SeriesNNP
+r1failureNN
+
+#Rule:Verbs
+r2makeVB
+r2getVB
+
+#Rule:Adjs
+r4happyJJ
+
+#Rule:PRP-Noun
+r6theirPRP$fansNNS
+
+#Rule:N-HeadNoun
+r8WorldNNPSeriesNNP
+
+#Rule:HeadNoun-V
+r11itPRPdoneAUX
+r11itPRPisAUX
+
+#Rule:V-HeadNoun
+r21isAUXfailureNN
+
+#Rule:V-HeadNoun
+r22makeVBfansNNS
+
+#Rule:PPinVP
+r30getVBtoTOSeriesNNP
+
+#Rule:V-ADV
+r46hasAUXsureRB
+r46hasAUXnotRB
+
+@lemmas-left	series	is	it	get	have	fans	fan	has	failure	happy	Series	World	their	make	world	be	
+@lemmas-right	not	series	failure	is	fans	done	Series	do	fan	sure	be	
+@lemmas-center	to	

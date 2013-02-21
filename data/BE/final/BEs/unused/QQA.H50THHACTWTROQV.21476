@@ -1,0 +1,73 @@
+#because you have to think out of the box! 
+#(S1 (FRAG (SBAR (IN because) (S (NP (PRP you)) (VP (AUX have) (S (VP (TO to) (VP (VB think) (PP (IN out) (PP (IN of) (NP (DT the) (NN box)))))))))) (. !)))
+#Rule:Nouns
+r1boxNN
+
+#Rule:Verbs
+r2thinkVB
+
+#Rule:HeadNoun-V
+r11youPRPhaveAUX
+
+#Rule:PPComboInVP
+r34thinkVBoutINboxNN
+
+#Now for me 1800 S and 1700 s is the best. 
+#(S1 (S (ADVP (RB Now)) (PP (IN for) (NP (PRP me))) (NP (NP (CD 1800)) (NX (NX (NNP S)) (CC and) (NX (CD 1700) (NNP s)))) (VP (AUX is) (NP (DT the) (JJS best))) (. .)))
+#Rule:Nouns
+r1SNNP
+r1sNNP
+
+#Rule:Adjs
+r4bestJJS
+
+#Rule:HeadNoun-V
+r11SNNPisAUX
+r111800CDisAUX
+
+#Rule:V-HeadNoun
+r21isAUXbestJJS
+
+#Rule:PPinS
+r36isAUXforINmePRP
+
+#Rule:V-ADV
+r46isAUXNowRB
+
+#But my answer for your question is that you have to look at great art and dream!
+#(S1 (S (CC But) (NP (NP (PRP$ my) (NN answer)) (PP (IN for) (NP (PRP$ your) (NN question)))) (VP (AUX is) (SBAR (IN that) (S (NP (PRP you)) (VP (AUX have) (S (VP (TO to) (VP (VB look) (PP (IN at) (NP (JJ great) (NN art) (CC and) (NN dream)))))))))) (. !)))
+#Rule:Nouns
+r1answerNN
+r1questionNN
+r1artNN
+r1dreamNN
+
+#Rule:Verbs
+r2lookVB
+
+#Rule:Adjs
+r4greatJJ
+
+#Rule:Adj-Noun
+r5greatJJartNN
+
+#Rule:PRP-Noun
+r6myPRP$answerNN
+r6yourPRP$questionNN
+
+#Rule:HeadNoun-V
+r11answerNNisAUX
+r11youPRPhaveAUX
+
+#Rule:PPinNP
+r26answerNNforINquestionNN
+
+#Rule:PPinVP
+r30lookVBatINartNN
+
+#Rule:V-IN-V
+r43isAUXthatINhaveAUX
+
+@lemmas-left	look	think	is	dream	your	art	answer	you	my	great	s	S	1800	best	box	question	be	
+@lemmas-right	is	now	have	art	answer	best	Now	me	box	question	be	
+@lemmas-center	that	for	at	out	

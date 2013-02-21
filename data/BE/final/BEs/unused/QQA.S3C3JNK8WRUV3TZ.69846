@@ -1,0 +1,55 @@
+#You should undergo complete medical checkup every year. 
+#(S1 (S (NP (PRP You)) (VP (MD should) (VP (VB undergo) (NP (NP (JJ complete) (JJ medical) (NNS checkup)) (NP (DT every) (NN year))))) (. .)))
+#Rule:Nouns
+r1checkupNNS
+r1yearNN
+
+#Rule:Verbs
+r2undergoVB
+
+#Rule:Adjs
+r4completeJJ
+r4medicalJJ
+
+#Rule:Adj-Noun
+r5completeJJcheckupNNS
+r5medicalJJcheckupNNS
+
+#Rule:HeadNoun-V
+r11youPRPundergoVB
+
+#Rule:V-HeadNoun
+r21undergoVBcheckupNNS
+
+#If there are abnormal signs and symptoms, then the doctor will conduct further tests including ultrasound scan.
+#(S1 (S (SBAR (IN If) (S (NP (EX there)) (VP (AUX are) (NP (NP (JJ abnormal) (NNS signs)) (CC and) (NP (NNS symptoms)))))) (, ,) (ADVP (RB then)) (NP (DT the) (NN doctor)) (VP (MD will) (VP (VB conduct) (NP (NP (JJ further) (NNS tests)) (PP (VBG including) (NP (NN ultrasound)))) (S (VP (VB scan))))) (. .)))
+#Rule:Nouns
+r1signsNNS
+r1symptomsNNS
+r1doctorNN
+r1testsNNS
+r1ultrLocationAnnotation
+
+#Rule:Verbs
+r2conductVB
+r2includingVBG
+
+#Rule:Adjs
+r4abnormalJJ
+r4furtherJJ
+
+#Rule:Adj-Noun
+r5abnormalJJsignsNNS
+r5furtherJJtestsNNS
+
+#Rule:HeadNoun-V
+r11doctorNNconductVB
+r11thereEXareAUX
+
+#Rule:V-HeadNoun
+r21areAUXsignsNNS
+r21conductVBtestsNNS
+
+@lemmas-left	signs	abnormal	checkup	test	you	include	doctor	further	sign	symptoms	conduct	are	including	medical	tests	complete	there	undergo	ultr	year	be	symptom	
+@lemmas-right	sign	signs	conduct	are	tests	checkup	test	undergo	be	
+@lemmas-center	

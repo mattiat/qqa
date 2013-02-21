@@ -1,0 +1,20 @@
+#10 but dont know all of em tho
+#(S1 (UCP (NP (CD 10)) (CC but) (S (NP (JJ dont)) (VP (VBP know) (NP (NP (DT all)) (PP (IN of) (NP (FW em) (FW tho))))))))
+#Rule:Verbs
+r2knowVBP
+
+#Rule:Adjs
+r4dontJJ
+
+#Rule:HeadNoun-V
+r11dontJJknowVBP
+
+#Rule:V-HeadNoun
+r21knowVBPallDT
+
+#Rule:PPinNP
+r26allDTofINthoFW
+
+@lemmas-left	dont	know	all	
+@lemmas-right	tho	know	all	
+@lemmas-center	of	

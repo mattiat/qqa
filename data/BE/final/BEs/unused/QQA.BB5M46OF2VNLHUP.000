@@ -1,0 +1,26 @@
+#Why is cancer so hard to find a cure for? 
+#(S1 (SBARQ (WHADVP (WRB Why)) (SQ (AUX is) (NP (NN cancer)) (ADJP (RB so) (JJ hard) (S (VP (TO to) (VP (VB find) (NP (DT a) (NN cure)) (PP (IN for))))))) (. ?)))
+#Rule:Nouns
+r1cancerNN
+r1cureNN
+
+#Rule:Verbs
+r2findVB
+
+#Rule:Adjs
+r4hardJJ
+
+#Rule:V-HeadNoun
+r21findVBcureNN
+
+#And how close are they to finding one?
+#(S1 (SBARQ (CC And) (WHADVP (WRB how) (RB close)) (SQ (AUX are) (NP (PRP they)) (PP (TO to) (NP (NN finding) (CD one)))) (. ?)))
+#Rule:Nouns
+r1findingNN
+
+#Rule:Adj-Noun
+r5oneCDfindingNN
+
+@lemmas-left	one	finding	hard	find	cure	cancer	
+@lemmas-right	finding	cure	
+@lemmas-center	

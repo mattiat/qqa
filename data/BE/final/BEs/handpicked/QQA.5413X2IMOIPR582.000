@@ -1,0 +1,63 @@
+#Why does depression happen??
+#(S1 (SBARQ (WHADVP (WRB Why)) (SQ (AUX does) (NP (NN depression)) (VP (VB happen)) (. ?)) (. ?)))
+#Rule:Nouns
+r1depressionNN
+
+#Rule:Verbs
+r2happenVB
+
+#Why? Especially to teenagers like me. I m only 16 and dealing with heavy depression. I want to know what are some of the actual causes besides chemical thingys in the brain .
+#(S1 (FRAG (WRB Why) (. ?) (ADVP (RB Especially)) (PP (TO to) (NP (NP (NNS teenagers)) (PP (IN like) (NP (NP (NP (FW me.) (FW I) (NNP m)) (QP (RB only) (CD 16))) (CC and) (S (VP (VBG dealing) (PP (IN with) (NP (NP (JJ heavy) (NNS depression.)) (SBAR (S (NP (PRP I)) (VP (VBP want) (S (VP (TO to) (VP (VB know) (SBAR (WHNP (WP what)) (S (VP (AUX are) (NP (NP (DT some)) (PP (IN of) (NP (NP (DT the) (JJ actual) (NNS causes)) (PP (IN besides) (NP (NP (NN chemical) (NNS thingys)) (PP (IN in) (NP (DT the) (NN brain))))))))))))))))))))))))) (. .)))
+#Rule:Nouns
+r1teenagersNNS
+r1I mPersonAnnotation
+r1depressionNNS
+r1causesNNS
+r1chemicalNN
+r1thingysNNS
+r1brainNN
+
+#Rule:Verbs
+r2dealingVBG
+r2wantVBP
+r2knowVB
+
+#Rule:Adjs
+r4heavyJJ
+r4actualJJ
+
+#Rule:Adj-Noun
+r516CDI mPersonAnnotation
+r5heavyJJdepressionNNS
+r5actualJJcausesNNS
+
+#Rule:N-HeadNoun
+r8chemicalNNthingysNNS
+
+#Rule:HeadNoun-V
+r11iPRPwantVBP
+
+#Rule:NP(NP(z) SBAR(S(NP(x)VP(y))))
+r19wantVBPdepressionNNS
+
+#Rule:V-HeadNoun
+r21areAUXsomeDT
+
+#Rule:PPinNP
+r26teenagersNNSlikeINI mPersonAnnotation
+r26someDTofINcausesNNS
+r26causesNNSbesidesINthingysNNS
+r26thingysNNSinINbrainNN
+
+#Rule:PPinVP
+r30dealingVBGwithINdepressionNNS
+
+#Rule:V-V
+r44wantVBPknowVB
+
+#Rule:SubVerbClause
+r50I mPersonAnnotationdealingVBG
+
+@lemmas-left	cause	dealing	16	heavy	know	depression	i	I m	are	deal	teenager	chemical	teenagers	thingys	actual	depression.	happen	some	causes	brain	want	be	
+@lemmas-right	cause	deal	dealing	thingys	depression.	know	brain	some	causes	depression	want	I m	
+@lemmas-center	of	with	besides	like	in	

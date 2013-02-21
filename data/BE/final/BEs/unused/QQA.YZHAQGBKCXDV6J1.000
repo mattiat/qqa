@@ -1,0 +1,17 @@
+#how do phosphtes effect plant life?
+#(S1 (SBARQ (WHADVP (WRB how)) (SQ (AUX do) (NP (NNS phosphtes)) (VP (NN effect) (NP (NN plant) (NN life)))) (. ?)))
+#Rule:Nouns
+r1phosphtesNNS
+r1effectNN
+r1plantNN
+r1lifeNN
+
+#Rule:N-HeadNoun
+r8plantNNlifeNN
+
+#Rule:V-HeadNoun
+r21effectNNlifeNN
+
+@lemmas-left	plant	life	effect	phosphtes	
+@lemmas-right	life	
+@lemmas-center	

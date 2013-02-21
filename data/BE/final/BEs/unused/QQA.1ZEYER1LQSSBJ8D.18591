@@ -1,0 +1,43 @@
+#adhd is a myth its an excuse used to explain away bad behaviour
+#(S1 (S (NP (NNP adhd)) (VP (AUX is) (NP (NP (DT a) (JJ myth) (ADJP (PRP$ its)) (DT an) (NN excuse)) (VP (VBN used) (S (VP (TO to) (VP (VB explain) (PRT (RP away)) (NP (JJ bad) (NN behaviour))))))))))
+#Rule:Nouns
+r1adhdNNP
+r1excuseNN
+r1behaviourNN
+
+#Rule:Verbs
+r2usedVBN
+
+#Rule:V-PRT
+r3explainVBawayRP
+
+#Rule:Adjs
+r4mythJJ
+r4badJJ
+
+#Rule:Adj-Noun
+r5mythJJexcuseNN
+r5badJJbehaviourNN
+
+#Rule:PRP-Noun
+r6itsPRP$excuseNN
+
+#Rule:HeadNoun-V
+r11adhdNNPisAUX
+
+#Rule:V-HeadNoun
+r21isAUXexcuseNN
+r21explainVBbehaviourNN
+
+#Rule:V-HeadNoun(passive)
+r24usedVBNexcuseNN
+
+#Rule:V-V
+r44usedVBNexplainVB
+
+#Rule:IS-RULE
+r47excuseNNadhdNNP
+
+@lemmas-left	myth	adhd	is	behaviour	excuse	use	its	bad	explain	used	be	
+@lemmas-right	adhd	away	is	behaviour	excuse	explain	be	
+@lemmas-center	

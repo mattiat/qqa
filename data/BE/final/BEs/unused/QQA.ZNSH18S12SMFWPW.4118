@@ -1,0 +1,250 @@
+#It sounds like you really miss your friend.  
+#(S1 (S (NP (PRP It)) (VP (VBZ sounds) (SBAR (IN like) (S (NP (PRP you)) (ADVP (RB really)) (VP (VBP miss) (NP (PRP$ your) (NN friend)))))) (. .)))
+#Rule:Nouns
+r1friendNN
+
+#Rule:Verbs
+r2soundsVBZ
+r2missVBP
+
+#Rule:PRP-Noun
+r6yourPRP$friendNN
+
+#Rule:HeadNoun-V
+r11itPRPsoundsVBZ
+r11youPRPmissVBP
+
+#Rule:V-HeadNoun
+r21missVBPfriendNN
+
+#Rule:V-IN-V
+r43soundsVBZlikeINmissVBP
+
+#Rule:V-ADV
+r46missVBPreallyRB
+
+#I d say make the first step and give him a call.  
+#(S1 (S (NP (PRP I)) (ADVP (LS d)) (VP (VBP say) (SBAR (S (VP (VP (VBP make) (NP (DT the) (JJ first) (NN step))) (CC and) (VP (VB give) (NP (PRP him)) (NP (DT a) (NN call))))))) (. .)))
+#Rule:Nouns
+r1stepNN
+r1callNN
+
+#Rule:Verbs
+r2sayVBP
+r2makeVBP
+r2giveVB
+
+#Rule:Adjs
+r4firstJJ
+
+#Rule:Adj-Noun
+r5firstJJstepNN
+
+#Rule:HeadNoun-V
+r11iPRPsayVBP
+
+#Rule:V-HeadNoun
+r21makeVBPstepNN
+r21giveVBhimPRP
+r21giveVBcallNN
+
+#I am also severely depressed and when people say hurtful things like that, it s because they just wanna be left alone.  
+#(S1 (S (S (NP (PRP I)) (VP (AUX am) (ADVP (RB also)) (ADJP (RB severely) (JJ depressed)))) (CC and) (S (SBAR (WHADVP (WRB when)) (S (NP (NNS people)) (VP (VBP say) (NP (NP (JJ hurtful) (NNS things)) (PP (IN like) (NP (DT that))))))) (, ,) (NP (PRP it)) (VP (VBZ s) (SBAR (IN because) (S (NP (PRP they)) (ADVP (RB just) (NP (NNP wanna))) (VP (AUX be) (VP (VBN left) (ADVP (RB alone)))))))) (. .)))
+#Rule:Nouns
+r1peopleNNS
+r1thingsNNS
+r1wannaNNP
+
+#Rule:Verbs
+r2sayVBP
+r2sVBZ
+r2leftVBN
+
+#Rule:Adjs
+r4depressedJJ
+r4hurtfulJJ
+
+#Rule:Adj-Noun
+r5hurtfulJJthingsNNS
+
+#Rule:HeadNoun-V
+r11iPRPamAUX
+r11itPRPsVBZ
+r11peopleNNSsayVBP
+
+#Rule:V-HeadNoun
+r21sayVBPthingsNNS
+
+#Rule:V-HeadNoun(passive)
+r23leftVBNtheyPRP
+
+#Rule:PPinNP
+r26thingsNNSlikeINthatDT
+
+#Rule:(SBAR+WHADVP)inS
+r42sVBZwhenWRBsayVBP
+
+#Rule:V-IN-V
+r43sVBZbecauseINleftVBN
+
+#Rule:V-ADV
+r46amAUXalsoRB
+r46beAUXjustRB
+r46leftVBNaloneRB
+
+#He probably pushed you away because he didn t feel worthy of being your friend.  
+#(S1 (S (NP (PRP He)) (ADVP (RB probably)) (VP (VBD pushed) (NP (PRP you)) (ADVP (RB away)) (SBAR (IN because) (S (NP (PRP he)) (VP (VBZ didn) (S (NP (NNS t)) (VP (VB feel) (ADJP (JJ worthy) (PP (IN of) (S (VP (AUXG being) (NP (PRP$ your) (NN friend)))))))))))) (. .)))
+#Rule:Nouns
+r1tNNS
+r1friendNN
+
+#Rule:Verbs
+r2pushedVBD
+r2didnVBZ
+r2feelVB
+
+#Rule:Adjs
+r4worthyJJ
+
+#Rule:PRP-Noun
+r6yourPRP$friendNN
+
+#Rule:HeadNoun-V
+r11hePRPpushedVBD
+r11hePRPdidnVBZ
+r11tNNSfeelVB
+
+#Rule:V-HeadNoun
+r21pushedVBDyouPRP
+r21beingAUXGfriendNN
+
+#Rule:V-HeadNoun
+r22didnVBZtNNS
+
+#Rule:PPinADJP
+r38worthyJJofINbeingAUXG
+
+#Rule:V-IN-V
+r43pushedVBDbecauseINdidnVBZ
+
+#Rule:V-ADV
+r46pushedVBDprobablyRB
+r46pushedVBDawayRB
+
+#Trust me.  
+#(S1 (S (VP (VB Trust) (NP (PRP me))) (. .)))
+#Rule:Verbs
+r2Trust meOrganizationAnnotation
+
+#I m sure it s nothing that you did.  
+#(S1 (S (NP (PRP I)) (VP (NNP m) (ADJP (JJ sure) (SBAR (S (NP (PRP it)) (VP (VBZ s) (NP (NP (NN nothing)) (SBAR (WHNP (IN that)) (S (NP (PRP you)) (VP (AUX did)))))))))) (. .)))
+#Rule:Nouns
+r1mNNP
+r1nothingNN
+
+#Rule:Verbs
+r2sVBZ
+
+#Rule:Adjs
+r4sureJJ
+
+#Rule:HeadNoun-V
+r11itPRPsVBZ
+r11youPRPdidAUX
+
+#Rule:V-HeadNoun
+r21sVBZnothingNN
+
+#It s very hard to understand a person with mental illness if you have never been there yourself.  
+#(S1 (S (NP (PRP It)) (VP (VBZ s) (ADJP (RB very) (JJ hard) (SBAR (S (VP (TO to) (VP (VB understand) (NP (NP (DT a) (NN person)) (PP (IN with) (NP (JJ mental) (NN illness)))) (SBAR (IN if) (S (NP (PRP you)) (VP (AUX have) (ADVP (RB never)) (VP (AUX been) (ADVP (RB there)) (NP (PRP yourself)))))))))))) (. .)))
+#Rule:Nouns
+r1personNN
+r1illnessNN
+
+#Rule:Verbs
+r2sVBZ
+r2understandVB
+
+#Rule:Adjs
+r4hardJJ
+r4mentalJJ
+
+#Rule:Adj-Noun
+r5mentalJJillnessNN
+
+#Rule:HeadNoun-V
+r11itPRPsVBZ
+r11youPRPbeenAUX
+
+#Rule:V-HeadNoun
+r21understandVBpersonNN
+r21beenAUXyourselfPRP
+
+#Rule:PPinNP
+r26personNNwithINillnessNN
+
+#Rule:V-IN-V
+r43understandVBifINbeenAUX
+
+#Rule:V-ADV
+r46haveAUXneverRB
+r46beenAUXneverRB
+r46beenAUXthereRB
+
+#You might think you know how he feels but honestly you never will.  
+#(S1 (S (NP (PRP You)) (VP (MD might) (VP (VB think) (SBAR (S (NP (PRP you)) (VP (VBP know) (SBAR (WHADVP (WRB how)) (S (NP (PRP he)) (VP (VBZ feels) (SBAR (S (CC but) (RB honestly) (NP (PRP you)) (ADVP (RB never)) (VP (MD will)))))))))))) (. .)))
+#Rule:Verbs
+r2thinkVB
+r2knowVBP
+r2feelsVBZ
+
+#Rule:HeadNoun-V
+r11youPRPthinkVB
+r11youPRPknowVBP
+r11hePRPfeelsVBZ
+
+#It s a horrible feeling.  
+#(S1 (S (NP (PRP It)) (VP (VBZ s) (NP (DT a) (JJ horrible) (NN feeling))) (. .)))
+#Rule:Nouns
+r1feelingNN
+
+#Rule:Verbs
+r2sVBZ
+
+#Rule:Adjs
+r4horribleJJ
+
+#Rule:Adj-Noun
+r5horribleJJfeelingNN
+
+#Rule:HeadNoun-V
+r11itPRPsVBZ
+
+#Rule:V-HeadNoun
+r21sVBZfeelingNN
+
+#Don t give up on him quite yet.
+#(S1 (S (NP (NNP Don) (NNP t)) (VP (VB give) (PRT (RP up)) (PP (IN on) (NP (PRP him))) (ADVP (RB quite) (RB yet))) (. .)))
+#Rule:Nouns
+r1DonPersonAnnotation
+r1tNNP
+
+#Rule:V-PRT
+r3giveVBupRP
+
+#Rule:N-HeadNoun
+r8DonPersonAnnotationtNNP
+
+#Rule:HeadNoun-V
+r11tNNPgiveVB
+
+#Rule:PPinVP
+r30giveVBonINhimPRP
+
+#Rule:V-ADV
+r46giveVBquiteRB
+r46giveVByetRB
+
+@lemmas-left	person	hurtful	understand	being	feels	people	been	Trust me	wanna	be	sure	think	he	worthy	depressed	sound	say	didn	make	friend	call	give	have	horrible	push	leave	illness	left	hard	sounds	feel	it	your	you	m	know	i	t	s	am	mental	feeling	nothing	pushed	Don	things	first	miss	step	
+@lemmas-right	call	they	person	give	being	feels	him	been	push	leave	illness	probably	do	left	yourself	alone	be	sounds	just	feel	think	did	you	know	up	away	really	that	never	t	s	quite	feeling	am	sound	there	nothing	say	pushed	things	didn	also	step	miss	friend	yet	
+@lemmas-center	because	of	with	if	when	on	like	

@@ -1,0 +1,113 @@
+#Am still Atheist-will always be..
+#(S1 (SQ (AUX Am) (RB still) (NP (NNP Atheist-will)) (ADVP (RB always)) (VP (AUX be)) (. .) (. .)))
+#Rule:Nouns
+r1Atheist-willNNP
+
+#Was very cold, distant and uncompassionate also..
+#(S1 (FRAG (X (VP (AUX Was) (ADJP (RB very) (JJ cold) (, ,) (JJ distant) (CC and) (JJ uncompassionate)) (ADVP (RB also))) (. .)) (. .)))
+#Rule:Adjs
+r4coldJJ
+r4distantJJ
+r4uncompassionateJJ
+
+#Rule:V-ADV
+r46wasAUXalsoRB
+
+#The decision to incorporate a philosophy into Life has made avery optimistic impact in Life forme. Am much more connectedto others, calm, peaceful, mindful,friendly, and happy in life..
+#(S1 (S (NP (DT The) (NN decision)) (VP (TO to) (VP (VB incorporate) (NP (DT a) (NN philosophy)) (PP (IN into) (NP (NNP Life))) (SBAR (S (VP (AUX has) (VP (VBN made) (S (NP (NNP avery)) (UCP (NP (NP (JJ optimistic) (NN impact)) (PP (IN in) (NP (NNP Life) (FW forme.) (NNP Am) (ADJP (RB much) (RBR more) (JJ connectedto)) (NNS others)))) (, ,) (ADJP (JJ calm)) (, ,) (ADJP (JJ peaceful)) (, ,) (ADJP (JJ mindful)) (, ,) (ADJP (JJ friendly)) (, ,) (CC and) (ADJP (JJ happy) (PP (IN in) (NP (NN life))))) (. .)))))))) (. .)))
+#Rule:Nouns
+r1decisionNN
+r1philosophyNN
+r1LifeOrganizationAnnotation
+r1averyNNP
+r1impactNN
+r1Life forme. AmOrganizationAnnotation
+r1othersNNS
+r1lifeNN
+
+#Rule:Verbs
+r2incorporateVB
+r2madeVBN
+
+#Rule:Adjs
+r4optimisticJJ
+r4connectedtoJJ
+r4calmJJ
+r4peacefulJJ
+r4mindfulJJ
+r4friendlyJJ
+r4happyJJ
+
+#Rule:Adj-Noun
+r5optimisticJJimpactNN
+r5connectedtoJJothersNNS
+
+#Rule:HeadNoun-V
+r11decisionNNincorporateVB
+
+#Rule:V-HeadNoun
+r21incorporateVBphilosophyNN
+
+#Rule:V-HeadNoun
+r22madeVBNaveryNNP
+
+#Rule:PPinNP
+r26impactNNinINothersNNS
+
+#Rule:PPinVP
+r30incorporateVBintoINLifeOrganizationAnnotation
+
+#Rule:PPinADJP
+r37happyJJinINlifeNN
+
+#Am not attempting to convert ya, this philosophy does not advocate such behavior, am simply sharing how this philosophy has had such anoptimistic impact in Life.*Buddhist, from the TheravadanTradition.
+#(S1 (S (S (VP (AUX Am) (RB not) (VP (VBG attempting) (S (VP (TO to) (VP (VB convert) (NP (PRP ya)))))))) (, ,) (S (NP (DT this) (NN philosophy)) (VP (AUX does) (RB not) (VP (VBP advocate) (NP (JJ such) (NN behavior))))) (, ,) (VP (AUX am) (ADVP (RB simply)) (VP (VBG sharing) (SBAR (WHADVP (WRB how)) (S (NP (DT this) (NN philosophy)) (VP (AUX has) (VP (AUX had) (NP (JJ such) (JJ anoptimistic) (NN impact)) (PP (IN in) (NP (NNP Life.) (NNP *) (NNP Buddhist))) (, ,) (PP (IN from) (NP (DT the) (NNP TheravadanTradition))))))))) (. .)))
+#Rule:Nouns
+r1philosophyNN
+r1behaviorNN
+r1philosophyNN
+r1impactNN
+r1Life.*BuddhistOrganizationAnnotation
+r1TheravadanTraditionOrganizationAnnotation
+
+#Rule:Verbs
+r2attemptingVBG
+r2convertVB
+r2advocateVBP
+r2sharingVBG
+
+#Rule:Adjs
+r4suchJJ
+r4suchJJ
+r4anoptimisticJJ
+
+#Rule:Adj-Noun
+r5suchJJbehaviorNN
+r5suchJJimpactNN
+r5anoptimisticJJimpactNN
+
+#Rule:HeadNoun-V
+r11philosophyNNadvocateVBP
+r11philosophyNNhadAUX
+
+#Rule:V-HeadNoun
+r21convertVByaPRP
+r21advocateVBPbehaviorNN
+r21hadAUXimpactNN
+
+#Rule:PPinVP
+r30hadAUXinINLife.*BuddhistOrganizationAnnotation
+r30hadAUXfromINTheravadanTraditionOrganizationAnnotation
+
+#Rule:V-V
+r44attemptingVBGconvertVB
+
+#Rule:V-ADV
+r46amAUXnotRB
+r46doesAUXnotRB
+r46amAUXsimplyRB
+r46sharingVBGsimplyRB
+
+@lemmas-left	does	attempt	calm	have	behavior	distant	anoptimistic	made	mindful	convert	uncompassionate	Life	optimistic	decision	impact	was	incorporate	share	sharing	life	cold	happy	do	Life.*Buddhist	had	be	attempting	others	peaceful	such	Life forme. Am	philosophy	friendly	Atheist-will	avery	TheravadanTradition	am	connectedto	will	advocate	make	
+@lemmas-right	others	have	behavior	ya	philosophy	convert	Life	impact	avery	not	incorporate	life	simply	TheravadanTradition	advocate	Life.*Buddhist	also	had	
+@lemmas-center	into	from	in	

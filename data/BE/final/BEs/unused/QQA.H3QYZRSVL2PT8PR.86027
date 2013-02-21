@@ -1,0 +1,86 @@
+#If you have had a course of antibiotics, and that hasn t phased the lymph nodes, you need to be tested for something more serious.  There are slow-growing [indolent]types of Lymphoma out there. But, there are also great treatments..
+#(S1 (S (SBAR (SBAR (IN If) (S (NP (PRP you)) (VP (AUX have) (VP (AUX had) (NP (NP (DT a) (NN course)) (PP (IN of) (NP (NNS antibiotics)))))))) (, ,) (CC and) (SBAR (IN that) (S (NP (NNP hasn) (NNP t)) (VP (VBD phased) (NP (DT the) (NN lymph) (NNS nodes)))))) (, ,) (NP (PRP you)) (VP (AUX need) (S (VP (TO to) (VP (AUX be) (VP (VBN tested) (PP (IN for) (NP (NP (NN something)) (ADJP (RBR more) (JJ serious.)) (SBAR (S (NP (EX There)) (VP (AUX are) (NP (NP (JJ slow-growing) (JJ [indolent) (JJ -RSB-) (NNS types)) (PP (IN of) (NP (NNP Lymphoma))) (SBAR (IN out) (S (PP (FW there.) (NP (NNP But))) (, ,) (NP (EX there)) (VP (AUX are) (ADVP (RB also)) (NP (JJ great) (NNS treatments))) (. .)))))))))))))) (. .)))
+#Rule:Nouns
+r1courseNN
+r1antibioticsNNS
+r1hasnNNP
+r1tNNP
+r1lymph nodesOrganizationAnnotation
+r1somethingNN
+r1typesNNS
+r1LymphomaLocationAnnotation
+r1ButPersonAnnotation
+r1treatmentsNNS
+
+#Rule:Verbs
+r2phasedVBD
+r2testedVBN
+
+#Rule:Adjs
+r4seriousJJ
+r4slow-growingJJ
+r4[indolentLocationAnnotation
+r4]JJ
+r4greatJJ
+
+#Rule:Adj-Noun
+r5seriousJJsomethingNN
+r5slow-growingJJtypesNNS
+r5[indolentLocationAnnotationtypesNNS
+r5]JJtypesNNS
+r5greatJJtreatmentsNNS
+
+#Rule:N-HeadNoun
+r8hasnNNPtNNP
+
+#Rule:HeadNoun-V
+r11youPRPneedAUX
+r11youPRPhadAUX
+r11tNNPphasedVBD
+r11thereEXareAUX
+r11thereEXareAUX
+
+#Rule:V-HeadNoun
+r21hadAUXcourseNN
+r21phasedVBDlymph nodesOrganizationAnnotation
+r21areAUXtypesNNS
+r21areAUXtreatmentsNNS
+
+#Rule:PPinNP
+r26courseNNofINantibioticsNNS
+r26typesNNSofINLymphomaLocationAnnotation
+
+#Rule:PPinVP
+r32testedVBNforINsomethingNN
+
+#Rule:V-ADV
+r46areAUXalsoRB
+
+#Check this site for the best info:http://www.leukemia-lymphoma.org/hm_llsBest wishes
+#(S1 (S (VP (VB Check) (NP (NP (NP (DT this) (NN site)) (PP (IN for) (NP (DT the) (JJS best) (NN info)))) (: :) (NP (NN http)) (: :) (NP (JJ //www.leukemia-lymphoma.org/hm_llsBest) (NNS wishes))))))
+#Rule:Nouns
+r1siteNN
+r1infoNN
+r1http://www.leukemiaPersonAnnotation
+r1lymphoma.org/hm_llsBest wishesPersonAnnotation
+
+#Rule:Verbs
+r2checkVB
+
+#Rule:Adjs
+r4bestJJS
+r4//www.leukemia-lymphoma.org/hm_llsBestJJ
+
+#Rule:Adj-Noun
+r5bestJJSinfoNN
+r5//www.leukemia-lymphoma.org/hm_llsBestJJlymphoma.org/hm_llsBest wishesPersonAnnotation
+
+#Rule:V-HeadNoun
+r21checkVBsiteNN
+
+#Rule:PPinNP
+r26siteNNforINinfoNN
+
+@lemmas-left	http://www.leukemia	have	test	treatment	type	tested	info	course	are	lymph nodes	]	best	But	something	types	Lymphoma	serious	had	be	site	antibiotics	check	phased	serious.	antibiotic	you	growing	//www.leukemia-lymphoma.org/hm_llsbest	//www.leukemia-lymphoma.org/hm_llsBest	t	great	[indolent	there	phase	slow-growing	lymphoma.org/hm_llsBest wishes	hasn	treatments	
+@lemmas-right	site	need	antibiotics	have	treatment	phased	antibiotic	type	info	course	t	are	lymph nodes	something	types	also	Lymphoma	phase	lymphoma.org/hm_llsBest wishes	had	treatments	be	
+@lemmas-center	of	for	

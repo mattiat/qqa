@@ -1,0 +1,97 @@
+#Pay attention to saturated fat content, and trans fat content. 
+#(S1 (S (VP (VB Pay) (NP (NN attention)) (PP (TO to) (NP (NP (VBN saturated) (NN fat) (NN content)) (, ,) (CC and) (NP (NNP trans) (NN fat) (NN content))))) (. .)))
+#Rule:Nouns
+r1attentionNN
+r1fatNN
+r1contentNN
+r1transNNP
+r1fatNN
+r1contentNN
+
+#Rule:Verbs
+r2payVB
+r2saturatedVBN
+
+#Rule:Adj-Noun
+r5saturatedVBNcontentNN
+
+#Rule:N-HeadNoun
+r8fatNNcontentNN
+r8fatNNcontentNN
+r8transNNPcontentNN
+
+#Rule:V-HeadNoun
+r21payVBattentionNN
+
+#Rule:PPinVP
+r30payVBtoTOcontentNN
+r30payVBtoTOcontentNN
+
+#The fewer grams per serving the better. 
+#(S1 (NP (NP (DT The) (JJR fewer) (NNS grams)) (PP (IN per) (S (VP (VBG serving) (NP (DT the) (JJR better))))) (. .)))
+#Rule:Nouns
+r1gramsNNS
+
+#Rule:Verbs
+r2servingVBG
+
+#Rule:Adjs
+r4fewerJJR
+r4betterJJR
+
+#Rule:Adj-Noun
+r5fewerJJRgramsNNS
+
+#Rule:V-HeadNoun
+r21servingVBGbetterJJR
+
+#Also take Omega3 fish oil pills, and try niacin. 
+#(S1 (S (ADVP (RB Also)) (VP (VP (VB take) (NP (JJ Omega3) (NN fish) (NN oil) (NNS pills))) (, ,) (CC and) (VP (VB try) (NP (NN niacin)))) (. .)))
+#Rule:Nouns
+r1fishNN
+r1oilNN
+r1pillsNNS
+r1niacinPersonAnnotation
+
+#Rule:Verbs
+r2takeVB
+r2tryVB
+
+#Rule:Adjs
+r4Omega3OrganizationAnnotation
+
+#Rule:Adj-Noun
+r5Omega3OrganizationAnnotationpillsNNS
+
+#Rule:N-HeadNoun
+r8oilNNpillsNNS
+r8fishNNpillsNNS
+
+#Rule:V-HeadNoun
+r21takeVBpillsNNS
+r21tryVBniacinPersonAnnotation
+
+#Eat lots and lots of fiber and drink plenty of water.
+#(S1 (S (VP (VP (VB Eat) (NP (NP (NNS lots)) (CC and) (NP (NP (NNS lots)) (PP (IN of) (NP (NN fiber)))))) (CC and) (VP (VB drink) (NP (NP (NN plenty)) (PP (IN of) (NP (NN water)))))) (. .)))
+#Rule:Nouns
+r1lotsNNS
+r1lotsNNS
+r1fiberNN
+r1plentyNN
+r1waterNN
+
+#Rule:Verbs
+r2eatVB
+r2drinkVB
+
+#Rule:V-HeadNoun
+r21eatVBlotsNNS
+r21drinkVBplentyNN
+
+#Rule:PPinNP
+r26lotsNNSofINfiberNN
+r26plentyNNofINwaterNN
+
+@lemmas-left	fish	plenty	niacin	fiber	oil	pill	Omega3	drink	pay	gram	attention	serve	water	lots	fat	saturate	saturated	content	trans	better	take	serving	fewer	grams	eat	pills	try	
+@lemmas-right	water	content	pill	lots	better	plenty	niacin	grams	pills	gram	fiber	attention	
+@lemmas-center	to	of	

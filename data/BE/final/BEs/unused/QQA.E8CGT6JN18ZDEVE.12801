@@ -1,0 +1,276 @@
+#I believe we have to completely rethink science education..
+#(S1 (S (NP (PRP I)) (VP (VBP believe) (S (NP (PRP we)) (VP (AUX have) (S (VP (TO to) (VP (ADVP (RB completely)) (VB rethink) (NP (NN science) (NN education)))))) (. .))) (. .)))
+#Rule:Nouns
+r1scienceNN
+r1educationOrganizationAnnotation
+
+#Rule:Verbs
+r2believeVBP
+r2rethinkVB
+
+#Rule:N-HeadNoun
+r8scienceNNeducationOrganizationAnnotation
+
+#Rule:HeadNoun-V
+r11iPRPbelieveVBP
+r11wePRPhaveAUX
+
+#Rule:V-HeadNoun
+r21rethinkVBeducationOrganizationAnnotation
+
+#Rule:V-HeadNoun
+r22believeVBPwePRP
+
+#Rule:V-ADV
+r46rethinkVBcompletelyRB
+
+#We spend too much time teaching kids the *results* of science (biology, chemistry, physics) etc.
+#(S1 (S (NP (PRP We)) (VP (VBP spend) (NP (ADJP (RB too) (JJ much)) (NN time)) (VP (VBG teaching) (NP (NNS kids)) (S (NP (DT the) (CD *) (NNS results)) (NP (NP (NP (CD *)) (PP (IN of) (NP (NN science)))) (-LRB- -LRB-) (NP (NN biology) (, ,) (NN chemistry) (, ,) (NNS physics)) (-RRB- -RRB-) (FW etc))))) (. .)))
+#Rule:Nouns
+r1timeNN
+r1kidsNNS
+r1*results*OrganizationAnnotation
+r1scienceNN
+r1biologyNN
+r1chemistryNN
+r1physicsNNS
+
+#Rule:Verbs
+r2spendVBP
+r2teachingVBG
+
+#Rule:Adjs
+r4muchJJ
+
+#Rule:Adj-Noun
+r5muchJJtimeNN
+
+#Rule:HeadNoun-V
+r11wePRPspendVBP
+r11wePRPteachingVBG
+
+#Rule:V-HeadNoun
+r21spendVBPtimeNN
+r21teachingVBGkidsNNS
+
+#Rule:V-HeadNoun
+r22teachingVBG*results*OrganizationAnnotation
+
+#Rule:PPinNP
+r26*results*OrganizationAnnotationofINscienceNN
+
+# without giving them a real foundation of WHAT SCIENCE *IS*.
+#(S1 (FRAG (PP (IN without) (S (VP (VBG giving) (NP (PRP them)) (NP (NP (DT a) (JJ real) (NN foundation)) (PP (IN of) (SBAR (WHNP (WP WHAT)) (S (NP (NNP SCIENCE) (NNP *)) (VP (AUX IS) (ADJP (JJ *)))))))))) (. .)))
+#Rule:Nouns
+r1foundationNN
+r1WHATOrganizationAnnotation
+
+#Rule:Verbs
+r2givingVBG
+
+#Rule:Adjs
+r4realJJ
+
+#Rule:Adj-Noun
+r5realJJfoundationNN
+
+#Rule:V-HeadNoun
+r21givingVBGthemPRP
+r21givingVBGfoundationNN
+
+#It is really easy to teach science as dogma .
+#(S1 (S (NP (PRP It)) (VP (AUX is) (ADJP (RB really) (JJ easy) (SBAR (S (VP (TO to) (VP (VB teach) (NP (NN science)) (PP (IN as) (NP (NN dogma))))))))) (. .)))
+#Rule:Nouns
+r1scienceNN
+r1dogma .LocationAnnotation
+
+#Rule:Verbs
+r2teachVB
+
+#Rule:Adjs
+r4easyJJ
+
+#Rule:HeadNoun-V
+r11itPRPisAUX
+
+#Rule:V-HeadNoun
+r21teachVBscienceNN
+
+#Rule:V-ADJ
+r25isAUXeasyJJ
+
+#Rule:PPinVP
+r30teachVBasINdogma .LocationAnnotation
+
+# this is the periodic table of elements.
+#(S1 (S (NP (DT this)) (VP (AUX is) (NP (NP (DT the) (JJ periodic) (NN table)) (PP (IN of) (NP (NNS elements))))) (. .)))
+#Rule:Nouns
+r1tableNN
+r1elementsNNS
+
+#Rule:Adjs
+r4periodicJJ
+
+#Rule:Adj-Noun
+r5periodicJJtableNN
+
+#Rule:HeadNoun-V
+r11thisDTisAUX
+
+#Rule:V-HeadNoun
+r21isAUXtableNN
+
+#Rule:PPinNP
+r26tableNNofINelementsNNS
+
+#  This is fluorine.
+#(S1 (S (NP (DT This)) (VP (AUX is) (ADJP (JJ fluorine))) (. .)))
+#Rule:Adjs
+r4fluorineLocationAnnotation
+
+#Rule:HeadNoun-V
+r11thisDTisAUX
+
+#Rule:V-ADJ
+r25isAUXfluorineLocationAnnotation
+
+#  Fluorine has atomic number 9.
+#(S1 (S (NP (NNP Fluorine)) (VP (AUX has) (VP (JJ atomic) (NP (NN number) (CD 9)))) (. .)))
+#Rule:Nouns
+r1FluorineOrganizationAnnotation
+r1numberNN
+
+#Rule:Adjs
+r4atomicJJ
+
+#Rule:Adj-Noun
+r59CDnumberNN
+
+#  That means it has 9 protons in the nucleus.
+#(S1 (S (NP (DT That)) (VP (VBZ means) (SBAR (S (NP (PRP it)) (VP (AUX has) (NP (CD 9) (NNS protons)) (PP (IN in) (NP (DT the) (NN nucleus))))))) (. .)))
+#Rule:Nouns
+r1protonsNNS
+r1nucleusNN
+
+#Rule:Verbs
+r2meansVBZ
+
+#Rule:Adj-Noun
+r59CDprotonsNNS
+
+#Rule:HeadNoun-V
+r11thatDTmeansVBZ
+r11itPRPhasAUX
+
+#Rule:V-HeadNoun
+r21hasAUXprotonsNNS
+
+#Rule:PPinVP
+r30hasAUXinINnucleusNN
+
+# Blah blah.
+#(S1 (FRAG (INTJ (UH Blah) (UH blah)) (. .)))
+# All well and good.
+#(S1 (FRAG (ADVP (DT All) (RB well) (CC and) (JJ good)) (. .)))
+#Rule:Adjs
+r4goodJJ
+
+#  But when kids don t know *why* we believe these things .
+#(S1 (FRAG (CC But) (SBAR (WHADVP (WRB when)) (S (NP (NNS kids)) (VP (VB don) (S (NP (NNS t)) (VP (VB know) (SBAR (WHADJP (RB *) (WRB why) (JJ *)) (S (NP (PRP we)) (VP (VBP believe) (NP (DT these) (NNS things)))))))))) (. .)))
+#Rule:Nouns
+r1kidsNNS
+r1tNNS
+r1thingsNNS
+
+#Rule:Verbs
+r2donVB
+r2knowVB
+r2believeVBP
+
+#Rule:Adjs
+r4*why*PersonAnnotation
+
+#Rule:HeadNoun-V
+r11kidsNNSdonVB
+r11tNNSknowVB
+r11wePRPbelieveVBP
+
+#Rule:V-HeadNoun
+r21believeVBPthingsNNS
+
+#Rule:V-HeadNoun
+r22donVBtNNS
+
+# when they don t know the difference between a hypothesis, a theory, or a law .
+#(S1 (SBARQ (WHADVP (WRB when)) (SQ (NP (PRP they)) (VP (VB don) (S (NP (NNS t)) (VP (VB know) (NP (NP (DT the) (NN difference)) (PP (IN between) (NP (NP (DT a) (NN hypothesis)) (, ,) (NP (DT a) (NN theory)) (, ,) (CC or) (NP (DT a) (NN law))))))))) (. .)))
+#Rule:Nouns
+r1tNNS
+r1differenceNN
+r1hypothesisNN
+r1theoryNN
+r1lawNN
+
+#Rule:Verbs
+r2donVB
+r2knowVB
+
+#Rule:N-ApposN
+r10hypothesisNNtheoryNN
+
+#Rule:HeadNoun-V
+r11tNNSknowVB
+
+#Rule:V-HeadNoun
+r21knowVBdifferenceNN
+
+#Rule:V-HeadNoun
+r22donVBtNNS
+
+#Rule:PPinNP
+r26differenceNNbetweenINhypothesisNN
+r26differenceNNbetweenINtheoryNN
+r26differenceNNbetweenINlawNN
+
+# then memorizing periodic tables, or the difference between mitosis and meiosis is pointless.
+#(S1 (S (S (RB then) (VP (VBG memorizing) (NP (NP (JJ periodic) (NNS tables)) (, ,) (CC or) (NP (NP (DT the) (NN difference)) (PP (IN between) (NP (FW mitosis) (CC and) (FW meiosis))))))) (VP (AUX is) (ADJP (JJ pointless))) (. .)))
+#Rule:Nouns
+r1tablesNNS
+r1differenceNN
+
+#Rule:Verbs
+r2memorizingVBG
+
+#Rule:Adjs
+r4periodicJJ
+r4pointlessJJ
+
+#Rule:Adj-Noun
+r5periodicJJtablesNNS
+
+#Rule:V-HeadNoun
+r21memorizingVBGtablesNNS
+
+#Rule:V-ADJ
+r25isAUXpointlessJJ
+
+#Rule:PPinNP
+r26differenceNNbetweenINmitosisOrganizationAnnotation
+
+#*Great* question!
+#(S1 (S (NP (NNP *) (NNP Great) (NNS *)) (VP (VBP question)) (. !)))
+#Rule:Nouns
+r1*NNP
+r1Great*LocationAnnotation
+
+#Rule:Verbs
+r2questionVBP
+
+#Rule:N-HeadNoun
+r8*NNPGreat*LocationAnnotation
+
+#Rule:HeadNoun-V
+r11Great*LocationAnnotationquestionVBP
+
+@lemmas-left	*results*	don	WHAT	good	has	science	kid	*why*	time	memorize	fluorine	elements	biology	be	*	means	number	kids	table	much	difference	that	9	this	dogma .	we	physics	give	have	theory	education	believe	protons	Great*	atomic	Fluorine	real	easy	mean	foundation	question	hypothesis	giving	pointless	memorizing	law	proton	is	it	teach	know	spend	i	periodic	tables	t	teaching	chemistry	things	rethink	nucleus	
+@lemmas-right	*results*	don	have	theory	believe	education	protons	has	Great*	science	kid	completely	time	easy	fluorine	mean	foundation	question	hypothesis	elements	pointless	be	law	proton	mitosis	is	means	number	kids	table	know	teach	spend	tables	difference	t	teaching	them	things	nucleus	dogma .	we	
+@lemmas-center	of	as	in	between	

@@ -1,0 +1,25 @@
+#Why is the period before 1000AD known as the dark ages?
+#(S1 (SBARQ (WHADVP (WRB Why)) (SQ (AUX is) (NP (DT the) (NN period)) (PP (IN before) (NP (NP (NN 1000AD)) (VP (VBN known) (PP (IN as) (NP (DT the) (JJ dark) (NNS ages))))))) (. ?)))
+#Rule:Nouns
+r1periodNN
+r11000ADNN
+r1agesNNS
+
+#Rule:Verbs
+r2knownVBN
+
+#Rule:Adjs
+r4darkJJ
+
+#Rule:Adj-Noun
+r5darkJJagesNNS
+
+#Rule:V-HeadNoun(passive)
+r24knownVBN1000ADNN
+
+#Rule:PPinVP
+r32knownVBNasINagesNNS
+
+@lemmas-left	age	dark	ad	known	1000AD	period	know	ages	
+@lemmas-right	age	ad	1000AD	ages	
+@lemmas-center	as	

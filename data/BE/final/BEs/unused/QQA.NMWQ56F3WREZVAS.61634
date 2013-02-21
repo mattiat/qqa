@@ -1,0 +1,56 @@
+#Area of an equilateral triangle = (side)?????
+#(S1 (S (NP (NP (NN Area)) (PP (IN of) (NP (DT an) (JJ equilateral) (NNP triangle)))) (VP (SYM =) (NP (-LRB- -LRB-) (NN side) (-RRB- -RRB-) (NNS ????))) (. ?)))
+#Rule:Nouns
+r1AreaNN
+r1triangleNNP
+r1= (sideOrganizationAnnotation
+r1????NNS
+
+#Rule:Adjs
+r4equilateralJJ
+
+#Rule:Adj-Noun
+r5equilateralJJtriangleNNP
+
+#Rule:PPinNP
+r26AreaNNofINtriangleNNP
+
+#3/4                                                     =6?????
+#(S1 (FRAG (NP (QP (CD 3/4) (CD =6)) (NN ????)) (. ?)))
+#Rule:Nouns
+r1????NN
+
+#Rule:Adj-Noun
+r53/4CD????NN
+r5=6LocationAnnotation????NN
+
+#3/4                                                     =  36 ???
+#(S1 (S (NP (NN 3/4)) (VP (SYM =) (NP (CD 36) (NN ??))) (. ?)))
+#Rule:Nouns
+r13/4NN
+r1??NN
+
+#Rule:Adj-Noun
+r536CD??NN
+
+#3/4                                                     = 9???
+#(S1 (S (NP (NN 3/4)) (VP (SYM =) (NP (CD 9) (NN ??))) (. ?)))
+#Rule:Nouns
+r13/4NN
+r1??NN
+
+#Rule:Adj-Noun
+r5= 9LocationAnnotation??NN
+
+#3 sq cm
+#(S1 (NP (QP (CD 3) (CD sq)) (NNS cm)))
+#Rule:Nouns
+r1cmNNS
+
+#Rule:Adj-Noun
+r53CDcmNNS
+r5sqCDcmNNS
+
+@lemmas-left	equilateral	sq	Area	36	3/4	=6	3	??	area	triangle	cm	????	= (side	= 9	
+@lemmas-right	??	cm	triangle	????	
+@lemmas-center	of	

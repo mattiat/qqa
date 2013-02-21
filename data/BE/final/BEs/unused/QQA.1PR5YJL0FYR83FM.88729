@@ -1,0 +1,169 @@
+#OK, first of all, if you re in seventh grade, then it s really, really unlikely for you to get breast cancer.  
+#(S1 (S (INTJ (UH OK)) (, ,) (ADVP (RB first) (PP (IN of) (NP (DT all)))) (, ,) (SBAR (IN if) (S (NP (PRP you)) (VP (NNP re) (PP (IN in) (NP (JJ seventh) (NN grade)))))) (, ,) (RB then) (NP (PRP it)) (VP (VBZ s) (ADJP (RB really) (, ,) (RB really) (JJ unlikely)) (SBAR (IN for) (S (NP (PRP you)) (VP (TO to) (VP (VB get) (NP (NN breast) (NN cancer))))))) (. .)))
+#Rule:Nouns
+r1reNNP
+r1gradeNN
+r1breastNN
+r1cancerNN
+
+#Rule:Verbs
+r2sVBZ
+r2getVB
+
+#Rule:Adjs
+r4seventhJJ
+r4unlikelyJJ
+
+#Rule:Adj-Noun
+r5seventhJJgradeNN
+
+#Rule:N-HeadNoun
+r8breastNNcancerNN
+
+#Rule:HeadNoun-V
+r11itPRPsVBZ
+r11youPRPgetVB
+
+#Rule:V-HeadNoun
+r21getVBcancerNN
+
+#Rule:V-IN-V
+r43sVBZforINgetVB
+
+#Rule:V-ADV
+r46sVBZfirstRB
+
+#Risk increases as you get older. 
+#(S1 (S (NP (NN Risk)) (VP (VBZ increases) (SBAR (IN as) (S (NP (PRP you)) (VP (VBP get) (ADJP (JJR older)))))) (. .)))
+#Rule:Nouns
+r1RiskNN
+
+#Rule:Verbs
+r2increasesVBZ
+r2getVBP
+
+#Rule:Adjs
+r4olderJJR
+
+#Rule:HeadNoun-V
+r11RiskNNincreasesVBZ
+r11youPRPgetVBP
+
+#Rule:V-IN-V
+r43increasesVBZasINgetVBP
+
+#Secondly, breast cancer usually shows itself in really hard lumps in the breast.  
+#(S1 (S (ADVP (RB Secondly)) (, ,) (S (NP (NN breast) (NN cancer)) (ADVP (RB usually)) (VP (VBZ shows) (NP (PRP itself)) (PP (IN in) (ADJP (RB really) (JJ hard))))) (VP (VBZ lumps) (PP (IN in) (NP (DT the) (NN breast)))) (. .)))
+#Rule:Nouns
+r1breastNN
+r1cancerNN
+r1breastNN
+
+#Rule:Verbs
+r2showsVBZ
+r2lumpsVBZ
+
+#Rule:Adjs
+r4hardJJ
+
+#Rule:N-HeadNoun
+r8breastNNcancerNN
+
+#Rule:HeadNoun-V
+r11cancerNNshowsVBZ
+
+#Rule:V-HeadNoun
+r21showsVBZitselfPRP
+
+#Rule:PPinVP
+r30lumpsVBZinINbreastNN
+
+#Rule:V-ADV
+r46lumpsVBZSecondlyRB
+r46showsVBZusuallyRB
+
+#They don t usually hurt.  
+#(S1 (S (NP (PRP They)) (VP (VB don) (S (NP (NNS t)) (ADJP (RB usually) (JJ hurt)))) (. .)))
+#Rule:Nouns
+r1tLocationAnnotation
+
+#Rule:Verbs
+r2donVB
+
+#Rule:Adjs
+r4hurtJJ
+
+#Rule:HeadNoun-V
+r11theyPRPdonVB
+
+#Rule:V-HeadNoun
+r22donVBtLocationAnnotation
+
+#They feel like hard, frozen peas, apparently.  
+#(S1 (S (NP (PRP They)) (VP (VBP feel) (PP (IN like) (NP (JJ hard) (, ,) (JJ frozen) (NNS peas))) (, ,) (ADVP (RB apparently))) (. .)))
+#Rule:Nouns
+r1peasNNS
+
+#Rule:Verbs
+r2feelVBP
+
+#Rule:Adjs
+r4hardJJ
+r4frozenJJ
+
+#Rule:Adj-Noun
+r5hardJJpeasNNS
+r5frozenJJpeasNNS
+
+#Rule:HeadNoun-V
+r11theyPRPfeelVBP
+
+#Rule:PPinVP
+r30feelVBPlikeINpeasNNS
+
+#Rule:V-ADV
+r46feelVBPapparentlyRB
+
+#But don t worry.  
+#(S1 (S (CC But) (NP (VB don) (NNS t)) (VP (VBP worry)) (. .)))
+#Rule:Nouns
+r1tLocationAnnotation
+
+#Rule:Verbs
+r2donVB
+r2worryVBP
+
+#Rule:HeadNoun-V
+r11tLocationAnnotationworryVBP
+
+#Hardly any seventh graders get breast cancer.
+#(S1 (S (ADVP (RB Hardly)) (NP (DT any) (JJ seventh) (NNS graders)) (VP (VBP get) (NP (NN breast) (NN cancer))) (. .)))
+#Rule:Nouns
+r1gradersNNS
+r1breastNN
+r1cancerNN
+
+#Rule:Verbs
+r2getVBP
+
+#Rule:Adjs
+r4seventhJJ
+
+#Rule:Adj-Noun
+r5seventhJJgradersNNS
+
+#Rule:N-HeadNoun
+r8breastNNcancerNN
+
+#Rule:HeadNoun-V
+r11gradersNNSgetVBP
+
+#Rule:V-HeadNoun
+r21getVBPcancerNN
+
+#Rule:V-ADV
+r46getVBPHardlyRB
+
+@lemmas-left	lump	they	don	graders	show	frozen	re	risk	lumps	older	increases	grade	hard	feel	it	get	pea	seventh	you	shows	breast	Risk	t	hurt	s	increase	unlikely	grader	worry	peas	cancer	
+@lemmas-right	don	graders	show	hardly	Hardly	increases	usually	grade	apparently	secondly	itself	feel	get	pea	Secondly	shows	breast	t	s	increase	grader	first	worry	cancer	peas	
+@lemmas-center	for	as	like	in	

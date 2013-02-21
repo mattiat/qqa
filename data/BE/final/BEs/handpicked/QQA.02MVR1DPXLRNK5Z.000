@@ -1,0 +1,80 @@
+#How do you cure Indigestion??
+#(S1 (SBARQ (WHADVP (WRB How)) (SQ (AUX do) (NP (PRP you)) (VP (VB cure) (NP (NNP Indigestion))) (. ?)) (. ?)))
+#Rule:Nouns
+r1IndigestionLocationAnnotation
+
+#Rule:Verbs
+r2cureVB
+
+#Rule:V-HeadNoun
+r21cureVBIndigestionLocationAnnotation
+
+#I have not been to the washroom in two days and there seems to no urge to do so. I am scared that this may couse other complictions.sorry it s ConstipationIt has been ove 20 days now and I am back to normal.all I did was have a Papay!thanks to all those who helped along the way.
+#(S1 (S (S (NP (PRP I)) (VP (AUX have) (RB not) (VP (AUX been) (PP (TO to) (NP (DT the) (NN washroom))) (PP (IN in) (NP (CD two) (NNS days)))))) (CC and) (S (NP (EX there)) (VP (VBZ seems) (S (VP (TO to) (NP (DT no) (NN urge) (S (VP (TO to) (VP (AUX do) (ADJP (JJ so.) (SBAR (S (NP (PRP I)) (VP (AUX am) (ADJP (VBN scared) (SBAR (IN that) (S (NP (DT this)) (VP (MD may) (VP (VB couse) (NP (NP (JJ other) (NN complictions.sorry)) (SBAR (S (S (NP (PRP it)) (VP (VBZ s) (SBAR (S (NP (NNP ConstipationIt)) (VP (AUX has) (VP (AUX been) (ADJP (JJ ove)) (ADVP (NP (CD 20) (NNS days)) (RB now)))))))) (CC and) (S (NP (PRP I)) (VP (AUX am) (ADVP (RB back)) (S (VP (TO to) (VP (VB normal.all) (SBAR (S (NP (PRP I)) (VP (AUX did) (VP (AUX was) (VP (AUX have) (NP (DT a) (NN Papay)))))))))))) (. !)))) (NP (NP (NNS thanks)) (PP (TO to) (NP (NP (PDT all) (DT those)) (SBAR (WHNP (WP who)) (S (VP (VBD helped) (PP (IN along) (NP (DT the) (NN way)))))))))))))))))))))))))) (. .)))
+#Rule:Nouns
+r1washroomNN
+r1daysNNS
+r1urgeNN
+r1complictions.sorryNN
+r1ConstipationItOrganizationAnnotation
+r1daysNNS
+r1Papay!LocationAnnotation
+r1thanksNNS
+r1wayNN
+
+#Rule:Verbs
+r2seemsVBZ
+r2scaredVBN
+r2couseVB
+r2sVBZ
+r2normal.allVB
+r2helpedVBD
+
+#Rule:Adjs
+r4soJJ
+r4otherJJ
+r4oveJJ
+
+#Rule:Adj-Noun
+r5twoCDdaysNNS
+r5otherJJcomplictions.sorryNN
+r520CDdaysNNS
+
+#Rule:HeadNoun-V
+r11iPRPbeenAUX
+r11thereEXseemsVBZ
+r11iPRPamAUX
+r11thisDTcouseVB
+r11itPRPsVBZ
+r11ConstipationItOrganizationAnnotationbeenAUX
+r11iPRPamAUX
+r11iPRPhaveAUX
+
+#Rule:HeadNoun-(who/that)-V
+r14thoseDThelpedVBD
+
+#Rule:V-HeadNoun
+r21toTOurgeNN
+r21couseVBcomplictions.sorryNN
+r21couseVBthanksNNS
+r21haveAUXPapay!LocationAnnotation
+
+#Rule:V-ADJ
+r25beenAUXoveJJ
+
+#Rule:PPinNP
+r26thanksNNStoTOthoseDT
+
+#Rule:PPinVP
+r30beenAUXtoTOwashroomNN
+r30beenAUXinINdaysNNS
+r30helpedVBDalongINwayNN
+
+#Rule:V-ADV
+r46haveAUXnotRB
+r46beenAUXnowRB
+r46amAUXbackRB
+
+@lemmas-left	to	washroom	other	have	way	Papay!	been	cure	normal.all	20	seems	thanks	help	couse	Indigestion	all	be	those	it	so	so.	scared	helped	seem	ove	i	two	days	s	urge	am	there	sorry	complictions.sorry	this	ConstipationIt	scare	
+@lemmas-right	those	washroom	have	back	way	Papay!	helped	seem	ove	been	not	thanks	seems	help	days	s	now	urge	am	sorry	couse	complictions.sorry	Indigestion	be	
+@lemmas-center	to	along	in	

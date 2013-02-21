@@ -1,0 +1,115 @@
+#You sound a little OCD - you could find another doctor.  
+#(S1 (S (S (NP (PRP You)) (VP (VB sound) (NP (DT a) (JJ little) (NN OCD)))) (: -) (S (NP (PRP you)) (VP (MD could) (VP (VB find) (NP (DT another) (NN doctor))))) (. .)))
+#Rule:Nouns
+r1OCDNN
+r1doctorNN
+
+#Rule:Verbs
+r2soundVB
+r2findVB
+
+#Rule:Adjs
+r4littleJJ
+
+#Rule:Adj-Noun
+r5littleJJOCDNN
+
+#Rule:HeadNoun-V
+r11youPRPsoundVB
+r11youPRPfindVB
+
+#Rule:V-HeadNoun
+r21soundVBOCDNN
+r21findVBdoctorNN
+
+#You are the one who is going through this not your mom and there are other medications besides Prozac that might help you.  
+#(S1 (S (S (NP (PRP You)) (VP (AUX are) (NP (NP (DT the) (NN one)) (SBAR (WHNP (WP who)) (S (VP (AUX is) (VP (VBG going) (PP (IN through) (NP (DT this) (RB not) (PRP$ your) (NN mom)))))))))) (CC and) (S (NP (EX there)) (VP (AUX are) (NP (NP (JJ other) (NNS medications)) (PP (IN besides) (NP (NNP Prozac))) (SBAR (WHNP (WDT that)) (S (VP (MD might) (VP (VB help) (NP (PRP you))))))))) (. .)))
+#Rule:Nouns
+r1oneNN
+r1momNN
+r1medicationsNNS
+r1ProzacPersonAnnotation
+
+#Rule:Verbs
+r2goingVBG
+r2helpVB
+
+#Rule:Adjs
+r4otherJJ
+
+#Rule:Adj-Noun
+r5otherJJmedicationsNNS
+
+#Rule:PRP-Noun
+r6yourPRP$momNN
+
+#Rule:HeadNoun-V
+r11youPRPareAUX
+r11thereEXareAUX
+
+#Rule:HeadNoun-(who/that)-V
+r14oneNNgoingVBG
+r14medicationsNNShelpVB
+
+#Rule:V-HeadNoun
+r21areAUXoneNN
+r21areAUXmedicationsNNS
+r21helpVByouPRP
+
+#Rule:PPinNP
+r26medicationsNNSbesidesINProzacPersonAnnotation
+
+#Rule:PPinVP
+r30goingVBGthroughINmomNN
+
+#Since thisis affecting your everyday life - I would definitely see a doctor.  
+#(S1 (S (PP (IN Since) (NP (NP (NN thisis)) (VP (VBG affecting) (NP (PRP$ your) (JJ everyday) (NN life))))) (: -) (NP (PRP I)) (VP (MD would) (ADVP (RB definitely)) (VP (VB see) (NP (DT a) (NN doctor)))) (. .)))
+#Rule:Nouns
+r1thisisNN
+r1lifeNN
+r1doctorNN
+
+#Rule:Verbs
+r2affectingVBG
+r2seeVB
+
+#Rule:Adjs
+r4everydayJJ
+
+#Rule:Adj-Noun
+r5everydayJJlifeNN
+
+#Rule:PRP-Noun
+r6yourPRP$lifeNN
+
+#Rule:HeadNoun-V
+r11iPRPseeVB
+r11thisisNNaffectingVBG
+
+#Rule:V-HeadNoun
+r21affectingVBGlifeNN
+r21seeVBdoctorNN
+
+#Rule:PPinS
+r36wouldMDsinceINthisisNN
+
+#Rule:V-ADV
+r46seeVBdefinitelyRB
+
+#Best of Luck!!!!
+#(S1 (S (NP (NP (JJS Best)) (PP (IN of) (NP (NNP Luck)))) (VP (VBP !!!)) (. !)))
+#Rule:Nouns
+r1Luck!!!!PersonAnnotation
+
+#Rule:Adjs
+r4BestJJS
+
+#Rule:HeadNoun-V
+r11BestJJSLuck!!!!PersonAnnotation
+
+#Rule:PPinNP
+r26BestJJSofINLuck!!!!PersonAnnotation
+
+@lemmas-left	ocd	medications	other	one	everyday	little	OCD	affect	doctor	thisis	help	are	life	would	Best	best	affecting	find	be	Luck!!!!	medication	going	your	you	mom	i	see	sound	Prozac	there	go	
+@lemmas-right	Luck!!!!	definitely	ocd	medication	going	medications	one	you	OCD	affect	mom	thisis	doctor	help	life	are	see	sound	Prozac	affecting	find	be	go	
+@lemmas-center	of	besides	since	through	

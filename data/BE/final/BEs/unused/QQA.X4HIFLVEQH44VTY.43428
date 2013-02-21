@@ -1,0 +1,74 @@
+#it s thumbs down all round today I m afraid! 
+#(S1 (S (NP (PRP it)) (VP (VBZ s) (SBAR (S (VP (VBZ thumbs) (PRT (RP down)) (NP (DT all) (JJ round) (NN today)) (S (NP (PRP I)) (ADJP (NNP m) (JJ afraid))))))) (. !)))
+#Rule:Nouns
+r1todayNN
+r1mNNP
+
+#Rule:Verbs
+r2sVBZ
+
+#Rule:V-PRT
+r3thumbsVBZdownRP
+
+#Rule:Adjs
+r4roundJJ
+r4afraidJJ
+
+#Rule:Adj-Noun
+r5roundJJtodayNN
+
+#Rule:HeadNoun-V
+r11itPRPsVBZ
+
+#Rule:V-HeadNoun
+r21thumbsVBZtodayNN
+
+#Rule:V-HeadNoun
+r22thumbsVBZiPRP
+
+#seems people aren t allowed an opinion these days!!!! 
+#(S1 (S (S (VP (VBZ seems) (S (NP (NNS people)) (VP (VB aren) (S (NP (NNS t)) (VP (VB allowed) (NP (DT an) (NN opinion)))))))) (NP (DT these) (NNS days)) (VP (VBP !!!)) (. !)))
+#Rule:Nouns
+r1peopleNNS
+r1tOrganizationAnnotation
+r1opinionNN
+r1daysNNS
+
+#Rule:Verbs
+r2seemsVBZ
+r2arenVB
+r2allowedVB
+r2!!!!LocationAnnotation
+
+#Rule:HeadNoun-V
+r11daysNNS!!!!LocationAnnotation
+r11peopleNNSarenVB
+r11tOrganizationAnnotationallowedVB
+
+#Rule:V-HeadNoun
+r21allowedVBopinionNN
+
+#Rule:V-HeadNoun
+r22seemsVBZpeopleNNS
+r22arenVBtOrganizationAnnotation
+
+#Rule:SubVerbClause
+r50daysNNSseemsVBZ
+
+#it s every category!
+#(S1 (S (NP (PRP it)) (VP (VBZ s) (NP (DT every) (NN category))) (. !)))
+#Rule:Nouns
+r1categoryNN
+
+#Rule:Verbs
+r2sVBZ
+
+#Rule:HeadNoun-V
+r11itPRPsVBZ
+
+#Rule:V-HeadNoun
+r21sVBZcategoryNN
+
+@lemmas-left	allowed	thumbs	it	allow	aren	today	round	m	people	seem	category	!!!!	seems	t	s	afraid	days	opinion	thumb	
+@lemmas-right	allowed	allow	aren	today	people	seem	i	category	!!!!	seems	t	s	opinion	down	
+@lemmas-center	

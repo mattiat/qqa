@@ -1,0 +1,26 @@
+#why japan is called land of rising sun ?
+#(S1 (SBARQ (WHADVP (WRB why)) (S (NP (NNP japan)) (VP (AUX is) (VP (VBN called) (S (NP (NP (NN land)) (PP (IN of) (NP (VBG rising) (NN sun)))))))) (. ?)))
+#Rule:Nouns
+r1japanLocationAnnotation
+r1landNN
+r1sunNN
+
+#Rule:Verbs
+r2calledVBN
+r2risingVBG
+
+#Rule:Adj-Noun
+r5risingVBGsunNN
+
+#Rule:V-HeadNoun
+r22calledVBNlandNN
+
+#Rule:V-HeadNoun(passive)
+r23calledVBNjapanLocationAnnotation
+
+#Rule:PPinNP
+r26landNNofINsunNN
+
+@lemmas-left	call	rising	japan	rise	called	land	sun	
+@lemmas-right	japan	land	sun	
+@lemmas-center	of	

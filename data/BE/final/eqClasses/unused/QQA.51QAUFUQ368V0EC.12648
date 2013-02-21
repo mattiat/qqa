@@ -1,0 +1,555 @@
+BE: MarriageNN
+EQ class: spousal_relationshipnn	unionnn	matrimonynn	wedlocknn	
+
+BE: importantJJ
+EQ class: of_importjj	importancenn	
+
+BE: MarriageNNisAUX
+EQ class: wedlocknnisaux	marriagennbeaux	matrimonynnisaux	unionnnbeaux	spousal_relationshipnnbeaux	wedlocknnbeaux	matrimonynnbeaux	spousal_relationshipnnisaux	unionnnisaux	
+
+BE: isAUXimportantJJ
+EQ class: beauximportancenn	beauximportantjj	beauxof_importjj	isauxof_importjj	isauximportancenn	
+
+BE: matterNN
+EQ class: thingnn	affairnn	
+
+BE: breakVB
+EQ class: interruptvb	
+
+BE: youPRPbreakVB
+EQ class: youprpinterruptvb	
+
+BE: itPRPisAUX
+EQ class: itprpbeaux	
+
+BE: itPRPisAUX
+EQ class: itprpbeaux	
+
+BE: isAUXmatterNN
+EQ class: beauxaffairnn	beauxthingnn	beauxmatternn	isauxaffairnn	isauxthingnn	
+
+BE: breakVBitPRP
+EQ class: interruptvbitprp	
+
+BE: breakVBitPRP
+EQ class: interruptvbitprp	
+
+BE: MarriageNN
+EQ class: spousal_relationshipnn	unionnn	matrimonynn	wedlocknn	
+
+BE: manNN
+EQ class: adult_malenn	manlyjj	
+
+BE: ambitNN
+EQ class: scopenn	reachnn	orbitnn	rangenn	compassnn	
+
+BE: familyNN
+EQ class: homenn	menagenn	householdnn	housenn	
+
+BE: lifeNN
+EQ class: 
+
+BE: bringsVBZ
+EQ class: takevbz	conveyvbz	bringvbz	
+
+BE: familyNNlifeNN
+EQ class: householdnnlifenn	lifennofinmenagenn	lifennofinhousenn	menagennlifenn	lifennofinhouseholdnn	housennlifenn	lifennofinhomenn	lifennofinfamilynn	homennlifenn	
+
+BE: MarriageNNbringsVBZ
+EQ class: unionnnconveyvbz	wedlocknnbringvbz	unionnnbringsvbz	spousal_relationshipnnconveyvbz	marriagennbringvbz	wedlocknntakevbz	unionnnbringvbz	unionnntakevbz	matrimonynnconveyvbz	spousal_relationshipnnbringvbz	matrimonynnbringvbz	wedlocknnconveyvbz	matrimonynntakevbz	spousal_relationshipnntakevbz	marriagenntakevbz	wedlocknnbringsvbz	spousal_relationshipnnbringsvbz	matrimonynnbringsvbz	marriagennconveyvbz	
+
+BE: bringsVBZmanNN
+EQ class: bringvbzmanlyjj	conveyvbzmanlyjj	takevbzmannn	bringvbzmannn	conveyvbzmannn	bringsvbzmanlyjj	bringsvbzadult_malenn	bringvbzadult_malenn	conveyvbzadult_malenn	takevbzmanlyjj	takevbzadult_malenn	
+
+BE: manNNwithinINambitNN
+EQ class: compassnnmanlyjj	adult_malennwithininreachnn	reachnnadult_malenn	ambitnnadult_malenn	mannnwithininrangenn	scopennmannn	orbitnnmanlyjj	manlyvbrangenn	adult_malennwithinincompassnn	orbitnnadult_malenn	orbitnnmanlyvb	mannnwithininreachnn	adult_malennwithininrangenn	reachnnmanlyjj	reachnnmanlyvb	manlyjjwithininambitnn	mannnwithinincompassnn	ambitnnmanlyvb	manlyjjwithininorbitnn	compassnnadult_malenn	mannnwithininorbitnn	manlyjjwithinincompassnn	adult_malennwithininambitnn	manlyvbreachnn	scopennadult_malenn	ambitnnmanlyjj	rangennmanlyvb	ambitnnmannn	adult_malennwithininscopenn	rangennmanlyjj	manlyjjwithininrangenn	rangennmannn	orbitnnmannn	manlyvbambitnn	rangennadult_malenn	adult_malennwithininorbitnn	manlyvbscopenn	scopennmanlyvb	scopennmanlyjj	compassnnmanlyvb	manlyjjwithininreachnn	compassnnmannn	reachnnmannn	mannnwithininscopenn	manlyvborbitnn	manlyjjwithininscopenn	manlyvbcompassnn	
+
+BE: ambitNNofINlifeNN
+EQ class: orbitnnofinlifenn	scopennofinlifenn	lifenncompassnn	lifennrangenn	lifennscopenn	lifennambitnn	lifennreachnn	reachnnofinlifenn	lifennorbitnn	compassnnofinlifenn	rangennofinlifenn	
+
+BE: senseNN
+EQ class: 
+
+BE: purposeNN
+EQ class: intentionnn	designnn	intentnn	aimnn	
+
+BE: dutiesNNS
+EQ class: duteousjj	obligationnns	theynns	responsibilitynns	dutynns	themnns	
+
+BE: givesVBZ
+EQ class: givevbz	
+
+BE: bindingVBG
+EQ class: adherevbg	bondvbg	stickvbg	bindvbg	stick_tovbg	hold_fastvbg	
+
+BE: certainJJ
+EQ class: 
+
+BE: certainJJdutiesNNS
+EQ class: certainjjthemnns	certainjjdutynns	certainjjduteousjj	duteousvbcertainlyrb	certainjjresponsibilitynns	certainjjobligationnns	certainjjtheynns	
+
+BE: itPRPgivesVBZ
+EQ class: itprpgivevbz	
+
+BE: givesVBZsenseNN
+EQ class: givevbzsensenn	
+
+BE: bindingVBGoneCD
+EQ class: stick_tovbgonecd	stickvbgicd	adherevbgunitycd	bindvbgunitycd	stickvbg1cd	stickvbgunitycd	bindingnnofinacecd	bindvbg1cd	bondvbgsinglecd	bindvbgacecd	stickvbgonecd	reaper_bindernnofinunitycd	bindingvbgsinglecd	bindingvbgicd	stick_tovbgicd	bondvbgunitycd	bindvbgicd	bondvbgacecd	stick_tovbg1cd	adherevbgsinglecd	bindernnofinonecd	adherevbgicd	reaper_bindernnofinonecd	bindingvbgacecd	bindingvbgunitycd	bindernnofinsinglecd	bindingnnofinonecd	bindingnnofin1cd	bondvbgicd	stickvbgacecd	reaper_bindernnofin1cd	hold_fastvbgicd	bondvbgonecd	hold_fastvbgsinglecd	bindernnofinunitycd	stickvbgsinglecd	bondvbg1cd	hold_fastvbg1cd	adherevbg1cd	stick_tovbgunitycd	stick_tovbgacecd	bindvbgonecd	bindernnofin1cd	bindingnnofinsinglecd	bindernnofinicd	adherevbgacecd	hold_fastvbgacecd	bindingnnofinicd	reaper_bindernnofinacecd	hold_fastvbgunitycd	reaper_bindernnofinicd	bindernnofinacecd	bindingnnofinunitycd	adherevbgonecd	bindingvbg1cd	hold_fastvbgonecd	stick_tovbgsinglecd	bindvbgsinglecd	reaper_bindernnofinsinglecd	
+
+BE: senseNNofINpurposeNN
+EQ class: sensevbpurposenn	designnnsensevb	purposennsensitisevb	sensennofinaimnn	designnnsensibilisevb	sensibilisevbintentnn	designnnsensenn	sensibilizevbintentnn	sensitisevbpurposenn	aimnnsensenn	feelvbaimnn	intentnnfeelvb	sensibilisevbdesignnn	intentionnnsensifyvb	intentionnnsensibilisevb	purposennfeelvb	sensitizevbpurposenn	aimnnsensitizevb	sensifyvbpurposenn	sensifyvbaimnn	sensitizevbintentionnn	sensitizevbdesignnn	intentionnnsensibilizevb	purposennsensitizevb	intentnnsensifyvb	intentnnsensitizevb	aimnnsensitisevb	intentnnsensenn	sensibilisevbpurposenn	feelvbintentionnn	sensibilizevbpurposenn	sensitisevbaimnn	sensibilizevbintentionnn	designnnfeelvb	sensitisevbintentnn	designnnsensifyvb	designnnsensitizevb	sensevbintentnn	sensennofindesignnn	sensitisevbdesignnn	sensitisevbintentionnn	purposennsensevb	sensitizevbintentnn	sensennofinintentionnn	purposennsensifyvb	intentnnsensibilisevb	intentnnsensibilizevb	sensifyvbdesignnn	intentionnnsensitizevb	sensevbintentionnn	sensibilisevbaimnn	aimnnsensibilizevb	intentnnsensitisevb	designnnsensitisevb	sensevbaimnn	sensibilizevbaimnn	sensifyvbintentnn	sensevbdesignnn	sensibilizevbdesignnn	sensitizevbaimnn	purposennsensenn	intentnnsensevb	feelvbpurposenn	feelvbdesignnn	purposennsensibilisevb	aimnnsensevb	intentionnnsensitisevb	feelvbintentnn	purposennsensibilizevb	sensibilisevbintentionnn	designnnsensibilizevb	sensennofinintentnn	intentionnnsensenn	intentionnnfeelvb	aimnnfeelvb	sensifyvbintentionnn	aimnnsensifyvb	intentionnnsensevb	aimnnsensibilisevb	
+
+BE: bindingVBGtoTOdutiesNNS
+EQ class: hold_fastvbgtototheynns	bindvbgtotoresponsibilitynns	adherevbgtotoduteousjj	adherevbgtotodutynns	bindvbgtotothemnns	hold_fastvbgtotoobligationnns	stickvbgtotoduteousjj	stickvbgtotoobligationnns	bondvbgtotoobligationnns	bindingvbgtotodutynns	hold_fastvbgtotothemnns	bondvbgtotodutiesnns	stickvbgtototheynns	stick_tovbgtotodutiesnns	hold_fastvbgtotoresponsibilitynns	adherevbgtotoobligationnns	stick_tovbgtototheynns	bindingvbgtotoobligationnns	stick_tovbgtotoresponsibilitynns	hold_fastvbgtotodutynns	bindvbgtotodutiesnns	stickvbgtotodutiesnns	adherevbgtototheynns	bindingvbgtotothemnns	bindvbgtotodutynns	bondvbgtotoduteousjj	bondvbgtotoresponsibilitynns	stickvbgtotothemnns	bindingvbgtotoresponsibilitynns	adherevbgtotoresponsibilitynns	bindingvbgtototheynns	bondvbgtotothemnns	hold_fastvbgtotoduteousjj	stick_tovbgtotoduteousjj	bindvbgtototheynns	adherevbgtotodutiesnns	hold_fastvbgtotodutiesnns	bondvbgtotodutynns	stick_tovbgtotodutynns	bindvbgtotoobligationnns	bindvbgtotoduteousjj	bondvbgtototheynns	bindingvbgtotoduteousjj	stickvbgtotoresponsibilitynns	stickvbgtotodutynns	stick_tovbgtotothemnns	stick_tovbgtotoobligationnns	adherevbgtotothemnns	
+
+BE: timesNNS
+EQ class: theynns	themnns	
+
+BE: manNN
+EQ class: adult_malenn	manlyjj	
+
+BE: he/sheNN
+EQ class: 
+
+BE: sliceNN
+EQ class: piecenn	
+
+BE: lifeNN
+EQ class: 
+
+BE: courseNN
+EQ class: classnn	course_of_instructionnn	course_of_studynn	
+
+BE: lifeNN
+EQ class: 
+
+BE: goingVBG
+EQ class: movevbg	govbg	travelvbg	locomotevbg	
+
+BE: makesVBZ
+EQ class: makevbz	dovbz	
+
+BE: getsVBZ
+EQ class: acquirevbz	getvbz	
+
+BE: goingVBG
+EQ class: movevbg	govbg	travelvbg	locomotevbg	
+
+BE: definingVBG
+EQ class: definevbg	delimitatevbg	specifyvbg	delineatevbg	delimitvbg	
+
+BE: disastrousJJ
+EQ class: calamitousjj	disasternn	fatefuljj	fataljj	blackjj	
+
+BE: tragicJJ
+EQ class: tragicaljj	tragedynn	
+
+BE: painfulJJ
+EQ class: painfulnessnn	
+
+BE: perfectJJ
+EQ class: 
+
+BE: importantJJ
+EQ class: of_importjj	importancenn	
+
+BE: itPRPgoingVBG
+EQ class: itprpgovbg	itprptravelvbg	itprpmovevbg	itprplocomotevbg	
+
+BE: itPRPbeAUX
+EQ class: 
+
+BE: itPRPmakesVBZ
+EQ class: itprpdovbz	itprpmakevbz	
+
+BE: perfectJJgetsVBZ
+EQ class: perfectjjgetvbz	perfectjjacquirevbz	acquiringnnofinperfectjj	gettingnnofinperfectjj	acquiringnnperfectjj	gettingnnperfectjj	
+
+BE: sliceNNisAUX
+EQ class: piecennbeaux	piecennisaux	slicennbeaux	
+
+BE: makesVBZmanNN
+EQ class: makesvbzmanlyjj	dovbzmannn	makevbzmanlyjj	dovbzadult_malenn	makevbzadult_malenn	makesvbzadult_malenn	dovbzmanlyjj	makevbzmannn	
+
+BE: getsVBZsliceNN
+EQ class: getsvbzpiecenn	acquirevbzslicenn	gettingnnofinpiecenn	gettingnnofinslicenn	acquirevbzpiecenn	getvbzpiecenn	acquiringnnofinpiecenn	getvbzslicenn	acquiringnnofinslicenn	
+
+BE: definingVBGcourseNN
+EQ class: delineatevbgcourse_of_instructionnn	definevbgcourse_of_instructionnn	definingvbgcourse_of_studynn	delimitatevbgclassnn	delimitatevbgcourse_of_studynn	specifyvbgclassnn	delimitvbgcourse_of_studynn	specifyvbgcourse_of_instructionnn	definingvbgclassnn	delimitvbgcoursenn	delimitvbgclassnn	delineatevbgcoursenn	delineatevbgcourse_of_studynn	delineatevbgclassnn	delimitatevbgcourse_of_instructionnn	definevbgcoursenn	definevbgcourse_of_studynn	specifyvbgcoursenn	specifyvbgcourse_of_studynn	definevbgclassnn	delimitatevbgcoursenn	delimitvbgcourse_of_instructionnn	definingvbgcourse_of_instructionnn	
+
+BE: beAUXdisastrousJJ
+EQ class: beauxfataljj	beauxblackjj	beauxdisasternn	beauxfatefuljj	beauxcalamitousjj	
+
+BE: isAUXimportantJJ
+EQ class: beauximportancenn	beauximportantjj	beauxof_importjj	isauxof_importjj	isauximportancenn	
+
+BE: sliceNNofINlifeNN
+EQ class: piecennofinlifenn	lifennslicenn	lifennpiecenn	
+
+BE: courseNNofINlifeNN
+EQ class: lifennclassnn	lifenncourse_of_studynn	classnnofinlifenn	course_of_instructionnnofinlifenn	course_of_studynnofinlifenn	lifenncourse_of_instructionnn	lifenncoursenn	
+
+BE: isAUXatINtimesNNS
+EQ class: isauxatintheynns	beauxatintheynns	beauxatinthemnns	isauxatinthemnns	beauxatintimesnns	
+
+BE: importantJJinINgoingVBG
+EQ class: of_importjjininlocomotevbg	importantjjininmovevbg	govbgimportantlyrb	of_importjjiningoingvbg	of_importjjinintravelvbg	importancennininlocomotevbg	importantjjinintravelvbg	importantjjininlocomotevbg	importancennininmovevbg	movevbgimportantlyrb	of_importjjiningovbg	importantjjiningovbg	locomotevbgimportantlyrb	importancenniningovbg	importancenniningoingvbg	importancenninintravelvbg	of_importjjininmovevbg	travelvbgimportantlyrb	goingvbgimportantlyrb	
+
+BE: importantJJinINdefiningVBG
+EQ class: importantjjinindelineatevbg	delineatevbgimportantlyrb	importancenninindelimitvbg	definingvbgimportantlyrb	importancenninindefinevbg	importancenninindefiningvbg	of_importjjinindelineatevbg	of_importjjinindelimitvbg	importantjjininspecifyvbg	of_importjjininspecifyvbg	importancennininspecifyvbg	importantjjinindelimitvbg	of_importjjinindelimitatevbg	importantjjinindefinevbg	definevbgimportantlyrb	importancenninindelineatevbg	of_importjjinindefiningvbg	of_importjjinindefinevbg	importantjjinindelimitatevbg	specifyvbgimportantlyrb	importancenninindelimitatevbg	delimitatevbgimportantlyrb	delimitvbgimportantlyrb	
+
+BE: goingVBGaheadRB
+EQ class: travelvbgaheadrb	govbgaheadrb	locomotevbgaheadrb	movevbgaheadrb	
+
+BE: marriageNN
+EQ class: spousal_relationshipnn	unionnn	matrimonynn	wedlocknn	
+
+BE: breaksNNS
+EQ class: interruptionnns	breaknns	theynns	themnns	
+
+BE: oneNN
+EQ class: inn	acenn	unitynn	singlenn	1nn	
+
+BE: learnsVBZ
+EQ class: acquirevbz	learnvbz	larnvbz	
+
+BE: triesVBZ
+EQ class: attemptvbz	tryvbz	essayvbz	assayvbz	seekvbz	
+
+BE: makeVB
+EQ class: dovb	
+
+BE: firstJJ
+EQ class: 
+
+BE: secondJJ
+EQ class: 2djj	secondnn	2ndjj	
+
+BE: betterJJR
+EQ class: 
+
+BE: firstJJbreaksNNS
+EQ class: firstjjtheynns	firstjjbreaknns	firstjjthemnns	interruptvbfirstlyrb	firstjjinterruptionnns	breakvbfirstlyrb	
+
+BE: secondJJoneNN
+EQ class: 2djjsinglenn	2djjinn	secondjjinn	secondjj1nn	secondnninn	2ndjjinn	2ndjj1nn	2ndjjsinglenn	2ndjjunitynn	2djjonenn	2djjunitynn	2ndjjonenn	secondjjacenn	secondnnsinglenn	2djj1nn	secondjjunitynn	secondnn1nn	secondnnonenn	secondjjsinglenn	secondnnacenn	secondnnunitynn	2ndjjacenn	2djjacenn	
+
+BE: marriageNNbreaksNNS
+EQ class: wedlocknnbreakvb	breaksnnsofinmarriagenn	interruptionnnsofinwedlocknn	breaksnnsofinmatrimonynn	theynnsofinspousal_relationshipnn	theynnsofinmatrimonynn	interruptionnnsofinmarriagenn	themnnsofinmatrimonynn	interruptionnnsofinunionnn	breakvbmarriagenn	breakvbunionnn	wedlocknnbreaksnns	matrimonynnbreaksnns	spousal_relationshipnnbreakvb	unionnninterruptionnns	marriagenninterruptvb	themnnsofinmarriagenn	spousal_relationshipnnbreaksnns	unionnnthemnns	breaksnnsofinwedlocknn	matrimonynnthemnns	spousal_relationshipnninterruptvb	interruptvbmarriagenn	breaknnsofinwedlocknn	wedlocknninterruptvb	breaknnsofinmatrimonynn	theynnsofinunionnn	wedlocknnbreaknns	matrimonynninterruptvb	interruptvbmatrimonynn	unionnninterruptvb	themnnsofinspousal_relationshipnn	breakvbspousal_relationshipnn	breaksnnsofinunionnn	themnnsofinunionnn	breakvbmatrimonynn	marriagennbreaknns	matrimonynnbreaknns	unionnnbreaknns	interruptvbunionnn	spousal_relationshipnnthemnns	marriagennbreakvb	themnnsofinwedlocknn	breakvbwedlocknn	matrimonynnbreakvb	interruptionnnsofinspousal_relationshipnn	matrimonynninterruptionnns	spousal_relationshipnnbreaknns	interruptionnnsofinmatrimonynn	wedlocknnthemnns	theynnsofinwedlocknn	breaksnnsofinspousal_relationshipnn	breaknnsofinspousal_relationshipnn	marriagenntheynns	spousal_relationshipnninterruptionnns	marriagennthemnns	theynnsofinmarriagenn	unionnnbreakvb	matrimonynntheynns	spousal_relationshipnntheynns	marriagenninterruptionnns	unionnnbreaksnns	wedlocknninterruptionnns	wedlocknntheynns	interruptvbwedlocknn	breaknnsofinmarriagenn	interruptvbspousal_relationshipnn	unionnntheynns	breaknnsofinunionnn	
+
+BE: onePRPlearnsVBZ
+EQ class: oneprplarnvbz	oneprplearnvbz	oneprpacquirevbz	scholarnnoneprp	assimilatornnofinoneprp	scholarnnofinoneprp	assimilatornnoneprp	learnernnoneprp	learnernnofinoneprp	
+
+BE: onePRPtriesVBZ
+EQ class: endeavornnofinoneprp	oneprpseekvbz	oneprpessayvbz	endeavournnofinoneprp	oneprpassayvbz	oneprpattemptvbz	trynnofinoneprp	oneprptryvbz	triernnofinoneprp	effortnnofinoneprp	triernnoneprp	attemptnnofinoneprp	
+
+BE: learnsVBZbreaksNNS
+EQ class: learnernnofinbreaksnns	learnsvbzinterruptionnns	assimilatornnofinbreaknns	larnvbzthemnns	learnvbztheynns	larnvbztheynns	learnernnofintheynns	acquirevbzinterruptionnns	scholarnnofintheynns	assimilatornnofintheynns	acquirevbztheynns	learnernnofininterruptionnns	learnvbzthemnns	scholarnnofinthemnns	learnsvbzthemnns	scholarnnofinbreaknns	assimilatornnofinthemnns	learnvbzbreaksnns	acquirevbzbreaksnns	learnvbzbreaknns	scholarnnofinbreaksnns	learnernnofinbreaknns	acquirevbzthemnns	learnernnofinthemnns	larnvbzinterruptionnns	learnsvbztheynns	acquirevbzbreaknns	learnsvbzbreaknns	assimilatornnofinbreaksnns	larnvbzbreaknns	scholarnnofininterruptionnns	assimilatornnofininterruptionnns	learnvbzinterruptionnns	larnvbzbreaksnns	
+
+BE: triesVBZbreaksNNS
+EQ class: tryvbztheynns	assayvbztheynns	essayvbzinterruptionnns	attemptvbzbreaksnns	attemptvbzbreaknns	assayvbzthemnns	assayvbzbreaksnns	essayvbztheynns	attemptvbzinterruptionnns	endeavornnofinbreaksnns	endeavornnofinbreaknns	attemptnnofinthemnns	essayvbzbreaknns	assayvbzinterruptionnns	triesvbzbreaknns	triesvbzinterruptionnns	triernnofintheynns	attemptnnofinbreaknns	endeavournnofinthemnns	seekvbzbreaknns	trynnofinbreaksnns	effortnnofinbreaksnns	endeavournnofintheynns	attemptnnofinbreaksnns	endeavornnofinthemnns	attemptnnofininterruptionnns	triernnofinthemnns	effortnnofintheynns	effortnnofininterruptionnns	tryvbzthemnns	seekvbzbreaksnns	effortnnofinthemnns	seekvbzthemnns	trynnofininterruptionnns	tryvbzinterruptionnns	effortnnofinbreaknns	endeavournnofininterruptionnns	attemptnnofintheynns	trynnofinthemnns	tryvbzbreaksnns	essayvbzbreaksnns	endeavornnofininterruptionnns	seekvbztheynns	triesvbzthemnns	essayvbzthemnns	endeavornnofintheynns	seekvbzinterruptionnns	assayvbzbreaknns	trynnofinbreaknns	triernnofinbreaknns	triernnofininterruptionnns	endeavournnofinbreaknns	triesvbztheynns	endeavournnofinbreaksnns	triernnofinbreaksnns	tryvbzbreaknns	attemptvbzthemnns	attemptvbztheynns	trynnofintheynns	
+
+BE: makeVBoneNN
+EQ class: makevbinn	makevbunitynn	makevbsinglenn	dovbinn	makevbacenn	makevb1nn	dovbunitynn	dovb1nn	dovbsinglenn	dovbonenn	dovbacenn	
+
+BE: learnsVBZfromINitPRP
+EQ class: larnvbzfrominitprp	acquirevbzfrominitprp	learnvbzfrominitprp	
+
+BE: triesVBZmakeVB
+EQ class: seekvbzdovb	trynnofinmakevb	essayvbzdovb	triernnofindovb	triesvbzdovb	triernnofinmakevb	assayvbzmakevb	attemptnnofinmakevb	endeavornnofinmakevb	essayvbzmakevb	endeavournnofindovb	tryvbzdovb	attemptnnofindovb	endeavournnofinmakevb	attemptvbzmakevb	effortnnofinmakevb	assayvbzdovb	attemptvbzdovb	effortnnofindovb	endeavornnofindovb	trynnofindovb	seekvbzmakevb	tryvbzmakevb	
+
+BE: lifeNN
+EQ class: 
+
+BE: togethernessNN
+EQ class: togetherjj	
+
+BE: stateNN
+EQ class: provincenn	
+
+BE: painNN
+EQ class: hurtingnn	
+
+BE: unfairnessNN
+EQ class: unfairjj	
+
+BE: circumstancesNNS
+EQ class: destinynns	lucknns	lotnns	fatenns	theynns	portionnns	fortunenns	themnns	
+
+BE: OneNNP
+EQ class: unitynnp	1nnp	innp	acennp	singlennp	
+
+BE: sharesNNS
+EQ class: partnns	percentagenns	theynns	portionnns	sharenns	themnns	
+
+BE: momentsNNS
+EQ class: momentnns	instantnns	theynns	secondnns	minutenns	themnns	
+
+BE: happinessNN
+EQ class: felicitynn	happyjj	
+
+BE: tragedyNN
+EQ class: tragicjj	disasternn	tragicaljj	calamitynn	cataclysmnn	catastrophenn	
+
+BE: dimensionNN
+EQ class: 
+
+BE: perfectionNN
+EQ class: flawlessnessnn	ne_plus_ultrann	
+
+BE: procreationNN
+EQ class: breedingnn	reproductionnn	facts_of_lifenn	
+
+BE: aspectNN
+EQ class: facetnn	
+
+BE: lifeNN
+EQ class: 
+
+BE: ensconcedVBN
+EQ class: ensconcevbn	settlevbn	
+
+BE: becomeVBN
+EQ class: govbn	getvbn	
+
+BE: addsVBZ
+EQ class: addvbz	
+
+BE: newJJ
+EQ class: newnessnn	
+
+BE: importantJJ
+EQ class: of_importjj	importancenn	
+
+BE: marriedJJ
+EQ class: 
+
+BE: newJJdimensionNN
+EQ class: newnessnndimensionnn	dimensionvbnewlyrb	
+
+BE: importantJJaspectNN
+EQ class: importancennaspectnn	importantjjfacetnn	of_importjjfacetnn	importancennfacetnn	of_importjjaspectnn	
+
+BE: marriedJJlifeNN
+EQ class: 
+
+BE: OneNNPsharesNNS
+EQ class: acennpportionnns	singlennppercentagenns	portionnnsofinonennp	theynnsofinunitynnp	1nnppercentagenns	sharesnnsofinonennp	percentagennsofinsinglennp	innpsharesnns	singlennpsharesnns	acennpsharevb	sharevb1nnp	singlennpthemnns	singlennpportionnns	sharevbinnp	sharesnnsofinsinglennp	partnnsofinonennp	unitynnpsharenns	singlennppartnns	unitynnppercentagenns	theynnsofinonennp	unitynnpsharesnns	acennptheynns	1nnppartnns	theynnsofinsinglennp	innpportionnns	theynnsofinacennp	theynnsofin1nnp	portionnnsofinsinglennp	innppercentagenns	acennpsharesnns	acennpthemnns	percentagennsofininnp	partnnsofinacennp	sharennsofinunitynnp	singlennpsharenns	1nnptheynns	percentagennsofinacennp	sharennsofininnp	sharevbunitynnp	sharennsofinsinglennp	onennpthemnns	unitynnpportionnns	innptheynns	acennppartnns	1nnpsharevb	themnnsofininnp	themnnsofinsinglennp	partnnsofininnp	unitynnpthemnns	sharennsofinonennp	sharesnnsofinacennp	sharesnnsofininnp	onennpsharevb	sharevbacennp	percentagennsofinunitynnp	innpsharevb	onennptheynns	sharennsofinacennp	percentagennsofinonennp	onennppercentagenns	onennpportionnns	unitynnptheynns	themnnsofinonennp	portionnnsofininnp	portionnnsofinacennp	1nnpsharesnns	themnnsofinunitynnp	singlennpsharevb	innpsharenns	partnnsofinunitynnp	acennppercentagenns	sharevbsinglennp	partnnsofin1nnp	percentagennsofin1nnp	themnnsofin1nnp	innpthemnns	1nnpthemnns	sharesnnsofin1nnp	theynnsofininnp	onennpsharenns	acennpsharenns	singlennptheynns	partnnsofinsinglennp	themnnsofinacennp	portionnnsofin1nnp	innppartnns	1nnpsharenns	sharesnnsofinunitynnp	sharennsofin1nnp	unitynnpsharevb	unitynnppartnns	sharevbonennp	onennppartnns	1nnpportionnns	portionnnsofinunitynnp	
+
+BE: thisDTaddsVBZ
+EQ class: add-onnnofinthisdt	improvernnofinthisdt	add-onnnthisdt	additionnnthisdt	thisdtaddvbz	additivejjofinthisdt	additionnnofinthisdt	additivennofinthisdt	improvernnthisdt	
+
+BE: procreationNNisAUX
+EQ class: facts_of_lifennisaux	reproductionnnbeaux	breedingnnisaux	reproductionnnisaux	procreationnnbeaux	facts_of_lifennbeaux	breedingnnbeaux	
+
+BE: becomeVBNmomentsNNS
+EQ class: getvbnthemnns	becomevbninstantnns	govbnminutenns	getvbntheynns	getvbnsecondnns	becomevbnmomentnns	govbntheynns	becomevbnthemnns	getvbnmomentnns	getvbnminutenns	getvbninstantnns	govbnmomentnns	govbnmomentsnns	becomevbntheynns	getvbnmomentsnns	becomevbnminutenns	govbnthemnns	becomevbnsecondnns	govbninstantnns	govbnsecondnns	
+
+BE: addsVBZdimensionNN
+EQ class: improvernnofindimensionnn	additivejjofindimensionnn	additionnnofindimensionnn	add-onnnofindimensionnn	addvbzdimensionnn	additivennofindimensionnn	
+
+BE: isAUXaspectNN
+EQ class: isauxfacetnn	beauxfacetnn	beauxaspectnn	
+
+BE: addsVBZprocreationNN
+EQ class: additivennofinprocreationnn	additionnnofinfacts_of_lifenn	additivejjofinprocreationnn	additivennofinreproductionnn	addsvbzreproductionnn	addvbzbreedingnn	additivejjofinfacts_of_lifenn	improvernnofinreproductionnn	improvernnofinbreedingnn	addvbzfacts_of_lifenn	additivennofinbreedingnn	additivejjofinbreedingnn	add-onnnofinreproductionnn	addsvbzbreedingnn	additionnnofinbreedingnn	additivejjofinreproductionnn	additionnnofinreproductionnn	improvernnofinprocreationnn	addvbzprocreationnn	add-onnnofinfacts_of_lifenn	addsvbzfacts_of_lifenn	add-onnnofinbreedingnn	add-onnnofinprocreationnn	additivennofinfacts_of_lifenn	addvbzreproductionnn	improvernnofinfacts_of_lifenn	additionnnofinprocreationnn	
+
+BE: ensconcedVBNOneCD
+EQ class: ensconcedvbnicd	ensconcevbnicd	ensconcedvbnacecd	settlevbn1cd	ensconcevbnsinglecd	ensconcevbn1cd	ensconcevbnunitycd	settlevbnicd	ensconcedvbn1cd	ensconcedvbnunitycd	settlevbnonecd	settlevbnsinglecd	ensconcevbnonecd	settlevbnunitycd	settlevbnacecd	ensconcedvbnsinglecd	ensconcevbnacecd	
+
+BE: becomeVBNpainNN
+EQ class: becomevbnhurtingnn	govbnhurtingnn	getvbnpainnn	getvbnhurtingnn	govbnpainnn	
+
+BE: lifeNNofINtogethernessNN
+EQ class: togetherjjlifenn	togethernessnnlifenn	lifennofintogetherjj	
+
+BE: painNNofINcircumstancesNNS
+EQ class: lotnnsailvb	hurtingnnofinthemnns	painvblotnns	hurtingnnofinlucknns	hurtingnnofincircumstancesnns	circumstancesnnspainnn	destinynnspainnn	painvblucknns	theynnstroublevb	destinynnshurtingnn	portionnnspainnn	fatennstroublevb	troublevbthemnns	lucknnstroublevb	destinynnspainvb	theynnshurtingnn	circumstancesnnspainvb	troublevbcircumstancesnns	themnnspainvb	lotnnshurtingnn	painnnofinlotnns	fortunennstroublevb	fortunennspainnn	portionnnsailvb	themnnsailvb	theynnsailvb	fatennspainnn	hurtingnnofintheynns	painnnofindestinynns	themnnspainnn	troublevbtheynns	ailvbfortunenns	circumstancesnnshurtingnn	ailvbportionnns	ailvblucknns	painvbfatenns	painnnofinfatenns	hurtingnnofinfatenns	painvbcircumstancesnns	ailvbthemnns	ailvbfatenns	troublevbportionnns	fortunennshurtingnn	theynnspainnn	circumstancesnnstroublevb	hurtingnnofindestinynns	fatennspainvb	painvbportionnns	troublevblucknns	painnnofinlucknns	painvbdestinynns	painvbfortunenns	portionnnspainvb	lucknnspainvb	fortunennspainvb	troublevblotnns	themnnstroublevb	theynnspainvb	destinynnstroublevb	fatennsailvb	ailvbdestinynns	hurtingnnofinfortunenns	painnnofintheynns	hurtingnnofinportionnns	ailvbcircumstancesnns	painvbthemnns	portionnnshurtingnn	lotnnspainnn	lotnnstroublevb	painnnofinthemnns	ailvbtheynns	painnnofinfortunenns	portionnnstroublevb	troublevbfortunenns	lucknnshurtingnn	fatennshurtingnn	painnnofinportionnns	troublevbfatenns	circumstancesnnsailvb	lotnnspainvb	ailvblotnns	themnnshurtingnn	troublevbdestinynns	lucknnsailvb	hurtingnnofinlotnns	lucknnspainnn	destinynnsailvb	fortunennsailvb	painvbtheynns	
+
+BE: momentsNNSofINhappinessNN
+EQ class: theynnsofinhappinessnn	happyjjmomentsnns	felicitynninstantnns	happinessnnmomentsnns	momentsnnsofinhappyjj	instantnnsofinhappyjj	theynnsofinfelicitynn	happyjjtheynns	secondnnsofinhappinessnn	felicitynntheynns	happinessnnmomentnns	momentsnnsofinfelicitynn	felicitynnsecondnns	happinessnnminutenns	happyjjmomentnns	happinessnninstantnns	minutennsofinhappyjj	theynnsofinhappyjj	minutennsofinhappinessnn	themnnsofinhappyjj	secondnnsofinfelicitynn	secondnnsofinhappyjj	felicitynnthemnns	happyjjminutenns	felicitynnmomentsnns	happyjjinstantnns	instantnnsofinfelicitynn	happinessnnthemnns	themnnsofinhappinessnn	felicitynnminutenns	instantnnsofinhappinessnn	momentnnsofinhappyjj	happyjjthemnns	momentnnsofinhappinessnn	minutennsofinfelicitynn	felicitynnmomentnns	momentnnsofinfelicitynn	happinessnntheynns	themnnsofinfelicitynn	happyjjsecondnns	happinessnnsecondnns	
+
+BE: aspectNNofINlifeNN
+EQ class: facetnnofinlifenn	lifennfacetnn	lifennaspectnn	
+
+BE: addsVBZtoTOperfectionNN
+EQ class: addvbztotone_plus_ultrann	addvbztotoperfectionnn	addsvbztotone_plus_ultrann	addsvbztotoflawlessnessnn	addvbztotoflawlessnessnn	
+
+BE: ensconcedVBNinINlifeNN
+EQ class: settlevbnininlifenn	ensconcevbnininlifenn	
+
+BE: becomeVBNinINstateNN
+EQ class: govbnininstatenn	getvbnininprovincenn	getvbnininstatenn	becomevbnininprovincenn	govbnininprovincenn	
+
+BE: aspectNNprocreationNN
+EQ class: facetnnprocreatevb	breedingnnofinfacetnn	reproductionnnfacetnn	reproductionnnaspectnn	breedingnnfacetnn	aspectnnprocreatevb	procreationnnofinfacetnn	aspectnnbreedingnn	procreativennofinaspectnn	reproductionnnofinfacetnn	reproductionnnofinaspectnn	procreativennofinfacetnn	aspectnnreproducevb	facetnnmultiplyvb	procreationnnfacetnn	aspectnnfacts_of_lifenn	facetnnreproducevb	breedingnnofinaspectnn	facetnnprocreationnn	facts_of_lifennofinfacetnn	facts_of_lifennfacetnn	procreationnnaspectnn	breedingnnaspectnn	aspectnnreproductionnn	aspectnnmultiplyvb	facetnnbreedingnn	facts_of_lifennofinaspectnn	facetnnfacts_of_lifenn	facts_of_lifennaspectnn	procreationnnofinaspectnn	facetnnreproductionnn	
+
+BE: coupleNN
+EQ class: twosomenn	duetnn	duonn	
+
+BE: loveNN
+EQ class: 
+
+BE: careNN
+EQ class: tendingnn	attentionnn	aidnn	
+
+BE: needsNNS
+EQ class: theynns	neednns	demandnns	themnns	
+
+BE: childNN
+EQ class: tiddlernn	minornn	tikenn	small_frynn	frynn	shavernn	youngsternn	childlyjj	kidnn	nestlingnn	nippernn	tykenn	
+
+BE: provideVB
+EQ class: furnishvb	supplyvb	rendervb	
+
+BE: bornVBN
+EQ class: bearvbn	
+
+BE: becomesVBZ
+EQ class: becomevbz	govbz	getvbz	
+
+BE: happyJJ
+EQ class: happinessnn	
+
+BE: newJJ
+EQ class: newnessnn	
+
+BE: adultJJ
+EQ class: grownjj	bigjj	grownupjj	adultnn	full-grownjj	fully_grownjj	
+
+BE: happyJJcoupleNN
+EQ class: happinessnncouplenn	twinvbhappilyrb	happyjjtwosomenn	happinessnntwosomenn	happyjjduonn	matevbhappilyrb	pairvbhappilyrb	matchvbhappilyrb	happinessnnduonn	happyjjduetnn	couplevbhappilyrb	happinessnnduetnn	
+
+BE: newJJneedsNNS
+EQ class: needvbnewlyrb	newjjtheynns	demandvbnewlyrb	postulatevbnewlyrb	newnessnnthemnns	necessitatevbnewlyrb	newjjthemnns	takevbnewlyrb	newnessnndemandnns	newnessnntheynns	newnessnnneednns	askvbnewlyrb	involvevbnewlyrb	newnessnnneedsnns	newjjdemandnns	newjjneednns	call_forvbnewlyrb	requirevbnewlyrb	
+
+BE: bornVBNneedsNNS
+EQ class: bearvbnthemnns	bornvbnneednns	bornvbntheynns	bornvbndemandnns	bornvbnthemnns	bearvbntheynns	bearvbnneedsnns	bearvbndemandnns	bearvbnneednns	
+
+BE: coupleNNprovideVB
+EQ class: provisionaryjjtwosomenn	provisionnnofinduonn	provisonnofintwosomenn	provisionaryjjofinduetnn	provisionnnduonn	duonnsupplyvb	suppliernnduonn	suppliernnofintwosomenn	duonnfurnishvb	suppliernncouplenn	providernnofinduonn	provisionaryjjofinduonn	duonnprovidevb	suppliernntwosomenn	provisonnduonn	duetnnrendervb	providernnduetnn	provisonnduetnn	couplennrendervb	provisionaryjjduonn	duetnnfurnishvb	providernncouplenn	duonnrendervb	provisionnnduetnn	duetnnsupplyvb	twosomennprovidevb	provisionnncouplenn	suppliernnofinduetnn	provisionaryjjduetnn	provisonnofincouplenn	provisionnnofinduetnn	providernnduonn	provisionnnofintwosomenn	twosomennrendervb	twosomennsupplyvb	providernnofintwosomenn	provisonnofinduetnn	suppliernnduetnn	provisionaryjjofintwosomenn	provisionaryjjofincouplenn	providernnofincouplenn	suppliernnofinduonn	provisonnofinduonn	couplennsupplyvb	duetnnprovidevb	providernnofinduetnn	twosomennfurnishvb	provisionnnofincouplenn	couplennfurnishvb	provisionnntwosomenn	provisionaryjjcouplenn	providernntwosomenn	provisonncouplenn	suppliernnofincouplenn	provisonntwosomenn	
+
+BE: childNNbecomesVBZ
+EQ class: tikenngovbz	tykennbecomesvbz	small_frynnbecomesvbz	kidnnbecomesvbz	minornnbecomevbz	shavernnbecomesvbz	frynnbecomesvbz	nippernnbecomesvbz	youngsternngovbz	tiddlernngovbz	frynngetvbz	youngsternngetvbz	nestlingnngovbz	nippernngetvbz	youngsternnbecomevbz	nippernnbecomevbz	minornnbecomesvbz	tykenngetvbz	childnngetvbz	childlyjjbecomesvbz	small_frynngetvbz	kidnnbecomevbz	tykennbecomevbz	tiddlernnbecomevbz	childlyjjbecomevbz	small_frynnbecomevbz	small_frynngovbz	frynngovbz	nestlingnnbecomevbz	childnnbecomevbz	tikennbecomevbz	minornngetvbz	kidnngetvbz	childnngovbz	tiddlernngetvbz	shavernngovbz	tikennbecomesvbz	nestlingnnbecomesvbz	nestlingnngetvbz	childlyjjgetvbz	tiddlernnbecomesvbz	frynnbecomevbz	kidnngovbz	youngsternnbecomesvbz	tykenngovbz	shavernnbecomevbz	tikenngetvbz	childlyjjgovbz	minornngovbz	nippernngovbz	shavernngetvbz	
+
+BE: provideVBloveNN
+EQ class: suppliernnofinlovenn	supplyvblovenn	providernnofinlovenn	provisionnnofinlovenn	rendervblovenn	furnishvblovenn	provisionaryjjofinlovenn	provisonnofinlovenn	
+
+BE: marriageNN
+EQ class: spousal_relationshipnn	unionnn	matrimonynn	wedlocknn	
+
+BE: failureNN
+EQ class: 
+
+BE: philosopherNN
+EQ class: philosophicjj	
+
+BE: nectarNN
+EQ class: 
+
+BE: God..OrganizationAnnotation
+EQ class: godorganizationannotation	
+
+BE: provesVBZ
+EQ class: turn_upvbz	provevbz	turn_outvbz	
+
+BE: becomeVBP
+EQ class: govbp	getvbp	
+
+BE: becomesVBZ
+EQ class: becomevbz	govbz	getvbz	
+
+BE: tasteVBP
+EQ class: savorvbp	savourvbp	
+
+BE: successfulJJ
+EQ class: successfulnessnn	
+
+BE: youPRPbecomeVBP
+EQ class: youprpgovbp	youprpgetvbp	
+
+BE: marriageNNprovesVBZ
+EQ class: unionnnprovesvbz	matrimonynnturn_outvbz	marriagennprovevbz	spousal_relationshipnnturn_upvbz	matrimonynnturn_upvbz	marriagennturn_outvbz	wedlocknnprovevbz	spousal_relationshipnnprovevbz	wedlocknnprovesvbz	wedlocknnturn_upvbz	wedlocknnturn_outvbz	unionnnprovevbz	marriagennturn_upvbz	spousal_relationshipnnturn_outvbz	unionnnturn_upvbz	matrimonynnprovevbz	unionnnturn_outvbz	spousal_relationshipnnprovesvbz	matrimonynnprovesvbz	
+
+BE: youPRPtasteVBP
+EQ class: youprpsavourvbp	gustatory_sensationnnofinyouprp	taste_perceptionnnofinyouprp	gustatory_perceptionnnofinyouprp	taste_sensationnnofinyouprp	tastennofinyouprp	youprpsavorvbp	
+
+BE: itPRPbecomesVBZ
+EQ class: itprpbecomevbz	itprpgetvbz	itprpgovbz	
+
+BE: beAUXfailureNN
+EQ class: 
+
+BE: becomeVBPphilosopherNN
+EQ class: getvbpphilosophicjj	becomevbpphilosophicjj	govbpphilosophicjj	govbpphilosophernn	getvbpphilosophernn	
+
+BE: tasteVBPnectarNN
+EQ class: taste_perceptionnnofinnectarnn	tastennofinnectarnn	gustatory_sensationnnofinnectarnn	savourvbpnectarnn	taste_sensationnnofinnectarnn	savorvbpnectarnn	gustatory_perceptionnnofinnectarnn	
+
+BE: nectarNNofINGod..OrganizationAnnotation
+EQ class: god..organizationannotationnectarnn	godorganizationannotationnectarnn	nectarnnofingodorganizationannotation	
+
+BE: ladduNN
+EQ class: 
+
+BE: DelhiLocationAnnotation
+EQ class: 
+
+BE: tLocationAnnotation
+EQ class: 
+
+BE: fudgeVBP
+EQ class: manipulatevbp	wanglevbp	falsifyvbp	misrepresentvbp	cookvbp	fakevbp	
+
+BE: eatVBP
+EQ class: 
+
+BE: regretVBP
+EQ class: ruevbp	repentvbp	
+
+BE: donVB
+EQ class: assumevb	put_onvb	wearvb	get_intovb	
+
+BE: eatVB
+EQ class: 
+
+BE: regretVB
+EQ class: ruevb	repentvb	
+
+BE: itPRPisAUX
+EQ class: itprpbeaux	
+
+BE: youPRPeatVBP
+EQ class: eaternnyouprp	eatingnnofinyouprp	feedernnyouprp	feedingnnofinyouprp	eatingnnyouprp	feedernnofinyouprp	eaternnofinyouprp	feedingnnyouprp	
+
+BE: youPRPregretVBP
+EQ class: ruennofinyouprp	sorrownnofinyouprp	ruefulnessnnofinyouprp	youprprepentvbp	regretnnofinyouprp	youprpruevbp	
+
+BE: youPRPdonVB
+EQ class: youprpget_intovb	youprpput_onvb	youprpassumevb	youprpwearvb	
+
+BE: tLocationAnnotationeatVB
+EQ class: feedingnntlocationannotation	eatingnntlocationannotation	feedingnnofintlocationannotation	eatingnnofintlocationannotation	feedernnofintlocationannotation	eaternnofintlocationannotation	feedernntlocationannotation	eaternntlocationannotation	
+
+BE: youPRPregretVB
+EQ class: ruennofinyouprp	sorrownnofinyouprp	youprprepentvb	ruefulnessnnofinyouprp	youprpruevb	regretnnofinyouprp	
+
+BE: regretVBPitPRP
+EQ class: repentvbpitprp	ruennofinitprp	ruefulnessnnofinitprp	regretnnofinitprp	ruevbpitprp	sorrownnofinitprp	
+
+BE: regretVBitPRP
+EQ class: ruennofinitprp	repentvbitprp	ruefulnessnnofinitprp	regretnnofinitprp	ruevbitprp	sorrownnofinitprp	
+
+BE: donVBtLocationAnnotation
+EQ class: wearvbtlocationannotation	get_intovbtlocationannotation	put_onvbtlocationannotation	assumevbtlocationannotation	
+
+BE: eatVByouPRP
+EQ class: eatingnnofinyouprp	feedingnnofinyouprp	feedernnofinyouprp	eaternnofinyouprp	
+
+BE: ladduNNofINDelhiLocationAnnotation
+EQ class: 
+
+BE: isAUXlikeINladduNN
+EQ class: beauxlikeinladdunn	
+

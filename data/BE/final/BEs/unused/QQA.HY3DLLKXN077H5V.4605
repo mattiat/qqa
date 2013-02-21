@@ -1,0 +1,133 @@
+#just like the decimal number (base 10) 123 is1* 10^2 + 2*10^1 + 3*10^0  or100+20+3binary numbers (base 2) can be converted1*2^4 + 0*2^3 + 1*2^2 + 0*2^1 + 0*2^016+0+4+0+020EDIT: Not sure
+#
+#if it s more simple or not but, but may be easier to followWrite out your binary number1 0 1 0 0 Starting with the right most digit write out the power of 2s (starting with 2^0).  
+#(S1 (S (SBAR (IN if) (S (NP (PRP it)) (VP (VBZ s) (ADJP (ADJP (RBR more) (JJ simple)) (CC or) (ADJP (RB not) (RB but)))))) (, ,) (CC but) (VP (MD may) (VP (AUX be) (ADJP (JJR easier) (SBAR (S (VP (TO to) (VP (VB followWrite) (PRT (RP out)) (NP (PRP$ your) (NN binary)) (PP (IN number1) (NP (QP (CD 0) (CD 1)) (QP (CD 0) (CD 0)))) (PP (VBG Starting) (PP (IN with) (NP (NP (DT the) (JJ right)) (ADJP (RBS most) (JJ digit))))) (S (VP (VB write) (PRT (RP out)) (NP (NP (DT the) (NN power)) (PP (IN of) (NP (NP (NNS 2s)) (PRN (-LRB- -LRB-) (VP (VBG starting) (PP (IN with) (NP (NN 2^0)))) (-RRB- -RRB-)))))))))))))) (. .)))
+#Rule:Nouns
+r1binaryNN
+r1powerNN
+r12sNNS
+r12^0NN
+
+#Rule:Verbs
+r2sVBZ
+r2startingVBG
+r2startingVBG
+
+#Rule:V-PRT
+r3followwriteVBoutRP
+r3writeVBoutRP
+
+#Rule:Adjs
+r4simpleJJ
+r4easierJJR
+r4rightJJ
+r4digitJJ
+
+#Rule:Adj-Noun
+r50CD0CD
+r51CD0CD
+r50CD0CD
+r5digitJJrightJJ
+
+#Rule:PRP-Noun
+r6yourPRP$binaryNN
+
+#Rule:HeadNoun-V
+r11itPRPsVBZ
+
+#Rule:V-HeadNoun
+r21followwriteVBbinaryNN
+r21writeVBpowerNN
+
+#Rule:V-ADJ
+r25beAUXeasierJJR
+
+#Rule:PPinNP
+r26powerNNofIN2sNNS
+
+#Rule:PPinVP
+r30followwriteVBnumber1IN0CD
+r30startingVBGwithIN2^0NN
+
+#one under each digit..1 0 1 0 0 16 8 4 2 1Now multiply each column (16x1, 0x0, 1x4, 0x0, 0x0) and
+#(S1 (S (NP (NP (NN one)) (PP (IN under) (NP (DT each) (NN digit)))) (VP (VBD ..) (NP (QP (CD 1) (CD 0)) (NP (QP (CD 1) (CD 0))) (QP (CD 0) (CD 16))) (S (NP (QP (CD 8) (CD 4) (CD 2)) (NN 1Now)) (VP (VB multiply) (NP (NP (DT each) (NN column)) (PRN (-LRB- -LRB-) (NP (CD 16x1) (, ,) (CD 0x0) (, ,) (CD 1x4) (, ,) (CD 0x0) (, ,) (CD 0x0)) (-RRB- -RRB-))) (CC and))))))
+#Rule:Nouns
+r1oneNN
+r1digitNN
+r11NowNN
+r1columnNN
+
+#Rule:Verbs
+r2..VBD
+r2multiplyVB
+
+#Rule:Adj-Noun
+r51CD1CD
+r50CD1CD
+r50CD1CD
+r516CD1CD
+r50CD1CD
+r58CD1NowNN
+r54CD1NowNN
+r52CD1NowNN
+r516x1CD0x0) andLocationAnnotation
+r50x0CD0x0) andLocationAnnotation
+r51x4CD0x0) andLocationAnnotation
+r50x0LocationAnnotation0x0) andLocationAnnotation
+
+#Rule:HeadNoun-V
+r11oneNN..VBD
+r111NowNNmultiplyVB
+
+#Rule:V-HeadNoun
+r21..VBD1CD
+r21multiplyVBcolumnNN
+
+#Rule:V-HeadNoun
+r22..VBD1NowNN
+
+#Rule:PPinNP
+r26oneNNunderINdigitNN
+
+#form a third row..1 0 1 0 016 0 4 0 0----------------16 0 4 0 0 Now add the third row16+0+4+0+020
+#(S1 (SINV (VP (VB form) (NP (DT a) (JJ third) (NN row))) (VP (VB ..) (NP (QP (CD 1) (CD 0)) (NP (QP (CD 1) (CD 0))) (QP (CD 016) (CD 0)))) (NP (NP (QP (CD 4) (CD 0)) (NP (QP (CD 0----------------16) (CD 0))) (QP (CD 4) (CD 0))) (SBAR (S (NP (CD 0)) (ADVP (RB Now)) (VP (VBP add) (NP (DT the) (JJ third) (CD row16+0+4+0+020))))))))
+#Rule:Nouns
+r1rowNN
+
+#Rule:Verbs
+r2formVB
+r2..VB
+r2addVBP
+
+#Rule:Adjs
+r4thirdJJ
+r4thirdJJ
+
+#Rule:Adj-Noun
+r5thirdJJrowNN
+r51CD1CD
+r50CD1CD
+r5016CD1CD
+r50CD1CD
+r50CD1CD
+r54CD0----------------16CD
+r50CD0----------------16CD
+r54CD0----------------16CD
+r50CD0----------------16CD
+r50CD0----------------16CD
+r5thirdJJrow16+0+4+0+020CD
+
+#Rule:HeadNoun-V
+r110CDaddVBP
+
+#Rule:V-HeadNoun
+r21formVBrowNN
+r21..VB1CD
+r21addVBProw16+0+4+0+020CD
+
+#Rule:V-ADV
+r46addVBPNowRB
+
+@lemmas-left	binary	followwrite	1x4	simple	one	16	add	016	0x0	easy	..	write	starting	power	right	be	it	form	2s	easier	your	multiply	third	row	digit	2	2^0	1	0	s	start	now	4	column	1Now	8	16x1	x	
+@lemmas-right	binary	2s	easier	Now	multiply	add	row16+0+4+0+020	row	digit	0x0) and	2	2^0	1	0	0----------------16	s	easy	now	..	column	1Now	power	right	out	
+@lemmas-center	of	with	number1	under	

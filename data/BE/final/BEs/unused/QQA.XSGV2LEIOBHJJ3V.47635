@@ -1,0 +1,269 @@
+#So you base your opinion of homeschooled kids not only on a South Park episode, but also on ONE homeschooled child you know? 
+#(S1 (S (IN So) (NP (PRP you)) (VP (VBP base) (NP (NP (PRP$ your) (NN opinion)) (PP (IN of) (NP (JJ homeschooled) (NNS kids)))) (PP (CONJP (RB not) (RB only)) (PP (IN on) (NP (DT a) (NNP South) (NNP Park) (NN episode))) (, ,) (CONJP (CC but) (RB also)) (PP (IN on) (NP (NP (CD ONE) (JJ homeschooled) (NN child)) (SBAR (S (NP (PRP you)) (VP (VBP know)))))))) (. ?)))
+#Rule:Nouns
+r1opinionNN
+r1kidsNNS
+r1South ParkLocationAnnotation
+r1episodeNN
+r1childNN
+
+#Rule:Verbs
+r2baseVBP
+r2knowVBP
+
+#Rule:Adjs
+r4homeschooledJJ
+r4homeschooledJJ
+
+#Rule:Adj-Noun
+r5homeschooledJJkidsNNS
+r5ONECDchildNN
+r5homeschooledJJchildNN
+
+#Rule:PRP-Noun
+r6yourPRP$opinionNN
+
+#Rule:N-HeadNoun
+r8South ParkLocationAnnotationepisodeNN
+
+#Rule:HeadNoun-V
+r11youPRPbaseVBP
+r11youPRPknowVBP
+
+#Rule:NP(NP(z) SBAR(S(NP(x)VP(y))))
+r19knowVBPchildNN
+
+#Rule:V-HeadNoun
+r21baseVBPopinionNN
+
+#Rule:PPinNP
+r26opinionNNofINkidsNNS
+
+#Maybe you need a bigger sampling before making a judgment.  
+#(S1 (S (ADVP (RB Maybe)) (NP (PRP you)) (VP (AUX need) (NP (DT a) (JJR bigger) (NN sampling)) (PP (IN before) (S (VP (VBG making) (NP (DT a) (NN judgment)))))) (. .)))
+#Rule:Nouns
+r1samplingNN
+r1judgmentNN
+
+#Rule:Verbs
+r2makingVBG
+
+#Rule:Adjs
+r4biggerJJR
+
+#Rule:Adj-Noun
+r5biggerJJRsamplingNN
+
+#Rule:HeadNoun-V
+r11youPRPneedAUX
+
+#Rule:V-HeadNoun
+r21needAUXsamplingNN
+r21makingVBGjudgmentNN
+
+#Rule:V-ADV
+r46needAUXMaybeRB
+
+#If I went down to the local Public School I am sure I could find 15 or so nerds as you put it.  
+#(S1 (S (SBAR (IN If) (S (NP (PRP I)) (VP (VBD went) (ADVP (RB down)) (PP (TO to) (NP (DT the) (JJ local) (NNP Public) (NNP School)))))) (NP (PRP I)) (VP (AUX am) (ADJP (JJ sure) (SBAR (S (NP (PRP I)) (VP (MD could) (VP (VB find) (NP (QP (CD 15) (CC or) (RB so)) (NNS nerds))))))) (SBAR (IN as) (S (NP (PRP you)) (VP (VB put) (NP (PRP it)))))) (. .)))
+#Rule:Nouns
+r1Public SchoolOrganizationAnnotation
+r1nerdsNNS
+
+#Rule:Verbs
+r2wentVBD
+r2findVB
+r2putVB
+
+#Rule:Adjs
+r4localJJ
+r4sureJJ
+
+#Rule:Adj-Noun
+r5localJJPublic SchoolOrganizationAnnotation
+r515CDnerdsNNS
+
+#Rule:HeadNoun-V
+r11iPRPamAUX
+r11iPRPwentVBD
+r11iPRPfindVB
+r11youPRPputVB
+
+#Rule:V-HeadNoun
+r21findVBnerdsNNS
+r21putVBitPRP
+
+#Rule:PPinVP
+r30wentVBDtoTOPublic SchoolOrganizationAnnotation
+
+#Rule:V-IN-V
+r43amAUXasINputVB
+
+#Rule:V-ADV
+r46wentVBDdownRB
+
+#Now, does that mean that public school produces nerds ?
+#(S1 (SQ (ADVP (RB Now)) (, ,) (AUX does) (NP (DT that)) (VP (VB mean) (SBAR (IN that) (S (NP (NN public) (NN school)) (VP (VBZ produces) (NP (NNS nerds)))))) (. ?)))
+#Rule:Nouns
+r1publicNN
+r1schoolNN
+r1nerdsOrganizationAnnotation
+
+#Rule:Verbs
+r2meanVB
+r2producesVBZ
+
+#Rule:N-HeadNoun
+r8publicNNschoolNN
+
+#Rule:HeadNoun-V
+r11schoolNNproducesVBZ
+
+#Rule:V-HeadNoun
+r21producesVBZnerdsOrganizationAnnotation
+
+#Rule:V-IN-V
+r43meanVBthatINproducesVBZ
+
+#Please take your judgmental, prejudicial, misinformed, ignorant, hateful, and arrogant attitudes somewhere else.  
+#(S1 (S (VP (VB Please) (VP (VB take) (NP (PRP$ your) (ADJP (JJ judgmental) (, ,) (JJ prejudicial) (, ,) (JJ misinformed) (, ,) (JJ ignorant) (, ,) (JJ hateful) (, ,) (CC and) (JJ arrogant)) (NNS attitudes)) (ADVP (RB somewhere) (RB else)))) (. .)))
+#Rule:Nouns
+r1attitudesNNS
+
+#Rule:Verbs
+r2pleaseVB
+r2takeVB
+
+#Rule:Adjs
+r4judgmentalJJ
+r4prejudicialJJ
+r4misinformedJJ
+r4ignorantJJ
+r4hatefulJJ
+r4arrogantJJ
+
+#Rule:Adj-Noun
+r5judgmentalJJattitudesNNS
+r5prejudicialJJattitudesNNS
+r5misinformedJJattitudesNNS
+r5ignorantJJattitudesNNS
+r5hatefulJJattitudesNNS
+r5arrogantJJattitudesNNS
+
+#Rule:PRP-Noun
+r6yourPRP$attitudesNNS
+
+#Rule:V-HeadNoun
+r21takeVBattitudesNNS
+
+#Rule:V-ADV
+r46takeVBsomewhereRB
+r46takeVBelseRB
+
+#And instead of judging your friend s son as a nerd see him as an individual who has strengths and weaknesses and is worthy of more respect than you are extending.  
+#(S1 (S (CC And) (ADVP (RB instead)) (PP (IN of) (S (VP (VBG judging) (NP (PRP$ your) (NN friend) (NNP s) (NN son)) (PP (IN as) (NP (DT a) (NN nerd)))))) (VP (VBP see) (NP (PRP him)) (PP (IN as) (NP (NP (DT an) (NN individual)) (SBAR (WHNP (WP who)) (S (VP (VP (AUX has) (NP (NP (NNS strengths)) (CC and) (NP (NNS weaknesses)))) (CC and) (VP (AUX is) (ADJP (JJ worthy) (PP (IN of) (NP (NP (JJR more) (NN respect)) (SBAR (IN than) (S (NP (PRP you)) (VP (AUX are) (VP (VBG extending))))))))))))))) (. .)))
+#Rule:Nouns
+r1friendNN
+r1s sonPersonAnnotation
+r1nerdNN
+r1individualNN
+r1strengthsNNS
+r1weaknessesNNS
+r1respectNN
+
+#Rule:Verbs
+r2judgingVBG
+r2seeVBP
+r2extendingVBG
+
+#Rule:Adjs
+r4worthyJJ
+r4moreJJR
+
+#Rule:Adj-Noun
+r5moreJJRrespectNN
+
+#Rule:PRP-Noun
+r6yourPRP$s sonPersonAnnotation
+
+#Rule:N-HeadNoun
+r8friendNNs sonPersonAnnotation
+
+#Rule:HeadNoun-V
+r11youPRPextendingVBG
+
+#Rule:HeadNoun-(who/that)-V
+r14individualNNhasAUX
+r14individualNNisAUX
+
+#Rule:V-HeadNoun
+r21judgingVBGs sonPersonAnnotation
+r21seeVBPhimPRP
+r21hasAUXstrengthsNNS
+
+#Rule:V-ADJ
+r25isAUXworthyJJ
+
+#Rule:PPinVP
+r30judgingVBGasINnerdNN
+r30seeVBPasINindividualNN
+
+#Rule:PPinADJP
+r37worthyJJofINrespectNN
+
+#Rule:V-ADV
+r46seeVBPinsteadRB
+
+#You don t seem to be much of a friend, I wouldn t want to continue a friendship with someone who called my kids names.
+#(S1 (S (S (NP (PRP You)) (VP (VB don) (S (NP (NNS t)) (VP (VB seem) (S (VP (TO to) (VP (AUX be) (NP (NP (JJ much)) (PP (IN of) (NP (DT a) (NN friend))))))))))) (, ,) (NP (PRP I)) (VP (VBP wouldn) (SBAR (S (NP (NNS t)) (VP (VBP want) (S (VP (TO to) (VP (VB continue) (NP (NP (DT a) (NN friendship)) (PP (IN with) (NP (NP (NN someone)) (SBAR (WHNP (WP who)) (S (VP (VBD called) (S (NP (PRP$ my) (NNS kids)) (NP (NNS names)))))))))))))))) (. .)))
+#Rule:Nouns
+r1tOrganizationAnnotation
+r1friendNN
+r1tNNS
+r1friendshipNN
+r1someoneNN
+r1kidsNNS
+r1namesNNS
+
+#Rule:Verbs
+r2donVB
+r2seemVB
+r2wouldnVBP
+r2wantVBP
+r2continueVB
+r2calledVBD
+
+#Rule:Adjs
+r4muchJJ
+
+#Rule:PRP-Noun
+r6myPRP$kidsNNS
+
+#Rule:HeadNoun-V
+r11iPRPwouldnVBP
+r11youPRPdonVB
+r11tOrganizationAnnotationseemVB
+r11tNNSwantVBP
+
+#Rule:HeadNoun-(who/that)-V
+r14someoneNNcalledVBD
+
+#Rule:V-HeadNoun
+r21beAUXmuchJJ
+r21continueVBfriendshipNN
+
+#Rule:V-HeadNoun
+r22donVBtOrganizationAnnotation
+r22calledVBDkidsNNS
+r22calledVBDnamesNNS
+
+#Rule:PPinNP
+r26muchJJofINfriendNN
+r26friendshipNNwithINsomeoneNN
+
+#Rule:V-V
+r44wantVBPcontinueVB
+
+@lemmas-left	need	Public School	don	individual	arrogant	has	attitudes	went	kid	nerd	more	please	ONE	someone	friendship	ignorant	strengths	opinion	sure	be	South Park	misinform	kids	much	worthy	weakness	names	called	wouldn	make	extending	friend	go	call	judgment	episode	put	have	bigger	judgmental	one	misinformed	weaknesses	15	child	attitude	judge	sampling	s son	mean	making	homeschooled	want	find	is	extend	strength	your	you	my	seem	know	nerds	i	t	judging	school	see	prejudicial	am	take	continue	base	produces	local	public	hateful	respect	produce	
+@lemmas-right	need	Public School	individual	don	somewhere	him	attitudes	has	went	kid	nerd	someone	friendship	opinion	strengths	be	else	maybe	kids	much	worthy	names	called	wouldn	friend	extending	go	judgment	call	put	episode	have	child	attitude	sampling	s son	find	want	is	it	extend	strength	know	seem	nerds	t	school	am	continue	base	instead	produces	down	Maybe	respect	produce	
+@lemmas-center	to	that	of	with	as	

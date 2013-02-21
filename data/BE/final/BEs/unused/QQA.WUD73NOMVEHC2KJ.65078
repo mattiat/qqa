@@ -1,0 +1,50 @@
+#I think it s more that HUMANS find the anal cavity so interesting that they feel the need to add it to all of their fantasies.
+#(S1 (S (NP (PRP I)) (VP (VBP think) (SBAR (S (NP (PRP it)) (VP (VBZ s) (ADJP (ADJP (JJR more)) (SBAR (IN that) (S (NP (NNS HUMANS)) (VP (VB find) (NP (NP (DT the) (JJ anal) (NN cavity)) (ADJP (RB so) (JJ interesting))) (SBAR (IN that) (S (NP (PRP they)) (VP (VBP feel) (NP (DT the) (NN need) (S (VP (TO to) (VP (VB add) (NP (PRP it)) (PP (TO to) (NP (NP (DT all)) (PP (IN of) (NP (PRP$ their) (NNS fantasies)))))))))))))))))))) (. .)))
+#Rule:Nouns
+r1HUMANSOrganizationAnnotation
+r1cavityNN
+r1needNN
+r1fantasiesNNS
+
+#Rule:Verbs
+r2thinkVBP
+r2sVBZ
+r2findVB
+r2feelVBP
+r2addVB
+
+#Rule:Adjs
+r4moreJJR
+r4analJJ
+r4interestingJJ
+
+#Rule:Adj-Noun
+r5interestingJJcavityNN
+r5analJJcavityNN
+
+#Rule:PRP-Noun
+r6theirPRP$fantasiesNNS
+
+#Rule:HeadNoun-V
+r11iPRPthinkVBP
+r11itPRPsVBZ
+r11HUMANSOrganizationAnnotationfindVB
+r11theyPRPfeelVBP
+
+#Rule:V-HeadNoun
+r21findVBcavityNN
+r21feelVBPneedNN
+r21addVBitPRP
+
+#Rule:PPinNP
+r26allDTofINfantasiesNNS
+
+#Rule:PPinVP
+r30addVBtoTOallDT
+
+#Rule:V-IN-V
+r43findVBthatINfeelVBP
+
+@lemmas-left	need	they	feel	think	it	HUMANS	cavity	add	i	fantasy	more	s	interesting	their	anal	all	find	fantasies	
+@lemmas-right	need	fantasy	feel	think	it	s	cavity	all	find	fantasies	
+@lemmas-center	to	that	of	

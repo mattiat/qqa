@@ -1,0 +1,17 @@
+#I totally agree with you
+#(S1 (S (NP (PRP I)) (ADVP (RB totally)) (VP (VBP agree) (PP (IN with) (NP (PRP you))))))
+#Rule:Verbs
+r2agreeVBP
+
+#Rule:HeadNoun-V
+r11iPRPagreeVBP
+
+#Rule:PPinVP
+r30agreeVBPwithINyouPRP
+
+#Rule:V-ADV
+r46agreeVBPtotallyRB
+
+@lemmas-left	agree	i	
+@lemmas-right	totally	you	agree	
+@lemmas-center	with	

@@ -1,0 +1,51 @@
+#My max weight is 186 i weight in at 205 and i stand 5 8 how much should i lose and whats the best why to go a
+#(S1 (S (NP (PRP$ My) (NNP max) (NN weight)) (VP (VP (AUX is) (NP (NP (CD 186)) (S (S (NP (PRP i)) (VP (VB weight) (PRT (RP in)) (PP (IN at) (NP (CD 205))))) (CC and) (S (NP (PRP i)) (VP (VBP stand) (SBAR (QP (CD 5) (CD 8)) (WHNP (WRB how) (JJ much)) (SINV (MD should) (NP (PRP i)) (VP (VB lose))))))))) (CC and) (VP (VBZ whats) (NP (NP (DT the) (JJS best)) (SBAR (WHADVP (WRB why)) (S (VP (TO to) (VP (VB go) (NP (DT a)))))))))))
+#Rule:Nouns
+r1maxNNP
+r1weightNN
+
+#Rule:Verbs
+r2standVBP
+r2loseVB
+r2whatsVBZ
+r2goVB
+
+#Rule:V-PRT
+r3weightVBinRP
+
+#Rule:Adjs
+r4muchJJ
+r4bestJJS
+
+#Rule:PRP-Noun
+r6myPRP$weightNN
+
+#Rule:N-HeadNoun
+r8maxNNPweightNN
+
+#Rule:HeadNoun-V
+r11weightNNwhatsVBZ
+r11weightNNisAUX
+r11iPRPweightVB
+r11iOrganizationAnnotationstandVBP
+
+#Rule:HeadNoun-(who/that)-V
+r14bestJJSgoVB
+
+#Rule:V-HeadNoun
+r21isAUX186CD
+r21whatsVBZbestJJS
+r21goVBaDT
+
+#Rule:PPinVP
+r30weightVBatIN205CD
+
+#Rule:(SBAR+WHADVP)inNP
+r41bestJJSwhyWRBgoVB
+
+#Rule:IS-RULE
+r47186CDweightNN
+
+@lemmas-left	is	max	weight	whats	my	much	i	lose	stand	186	best	go	be	
+@lemmas-right	is	205	weight	stand	a	186	best	whats	in	go	be	
+@lemmas-center	at	why	

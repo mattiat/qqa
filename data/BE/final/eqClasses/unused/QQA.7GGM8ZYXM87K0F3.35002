@@ -1,0 +1,36 @@
+BE: reasonNN
+EQ class: groundnn	
+
+BE: electionNN
+EQ class: electoraljj	
+
+BE: headNN
+EQ class: caputnn	
+
+BE: withdrewVBD
+EQ class: withdrawvbd	move_backvbd	pull_awayvbd	pull_backvbd	draw_backvbd	retreatvbd	retirevbd	recedevbd	
+
+BE: sameJJ
+EQ class: 
+
+BE: sameJJreasonNN
+EQ class: samejjgroundnn	
+
+BE: hisPRP$headNN
+EQ class: caputnnofinhisprp$	hisprp$caputnn	headnnofinhisprp$	
+
+BE: hePRPwithdrewVBD
+EQ class: climb-downnnheprp	withdrawalnnheprp	heprpdraw_backvbd	backdownnnheprp	heprpretreatvbd	climb-downnnofinheprp	heprpwithdrawvbd	backdownnnofinheprp	heprpretirevbd	heprppull_awayvbd	withdrawalnnofinheprp	heprprecedevbd	heprpmove_backvbd	heprppull_backvbd	
+
+BE: hePRPwasAUX
+EQ class: heprpbeaux	
+
+BE: withdrewVBDfromINelectionNN
+EQ class: retreatvbdfrominelectoraljj	draw_backvbdfrominelectoraljj	retirevbdfrominelectionnn	retreatvbdfrominelectionnn	pull_awayvbdfrominelectoraljj	recedevbdfrominelectionnn	withdrawvbdfrominelectoraljj	pull_awayvbdfrominelectionnn	pull_backvbdfrominelectionnn	withdrawvbdfrominelectionnn	move_backvbdfrominelectoraljj	retirevbdfrominelectoraljj	recedevbdfrominelectoraljj	draw_backvbdfrominelectionnn	move_backvbdfrominelectionnn	withdrewvbdfrominelectoraljj	pull_backvbdfrominelectoraljj	
+
+BE: withdrewVBDinIN68CD
+EQ class: withdrewvbdinin6.8.cd	draw_backvbdinin6.8.cd	move_backvbdinin68cd	pull_backvbdinin6.8.cd	pull_awayvbdinin6.8.cd	recedevbdinin68cd	draw_backvbdinin68cd	pull_awayvbdinin68cd	pull_backvbdinin68cd	retreatvbdinin6.8.cd	retirevbdinin6.8.cd	withdrawvbdinin6.8.cd	retreatvbdinin68cd	withdrawvbdinin68cd	move_backvbdinin6.8.cd	retirevbdinin68cd	recedevbdinin6.8.cd	
+
+BE: wasAUXinINheadNN
+EQ class: wasauxinincaputnn	beauxinincaputnn	beauxininheadnn	
+

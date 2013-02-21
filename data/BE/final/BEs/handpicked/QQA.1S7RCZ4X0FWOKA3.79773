@@ -1,0 +1,95 @@
+#Man up, Nancy-boy! At least they didn t stab you..
+#(S1 (FRAG (INTJ (UH Man) (RB up)) (, ,) (NP (NNP Nancy-boy)) (. !) (S (ADVP (IN At) (JJS least)) (NP (PRP they)) (VP (VBP didn) (NP (CD t) (NN stab)) (NP (PRP you))) (. .)) (. .)))
+#Rule:Nouns
+r1Nancy-boyNNP
+r1stabNN
+
+#Rule:Verbs
+r2didnVBP
+
+#Rule:Adjs
+r4leastJJS
+
+#Rule:Adj-Noun
+r5tCDstabNN
+
+#Rule:HeadNoun-V
+r11theyPRPdidnVBP
+
+#Rule:V-HeadNoun
+r21didnVBPstabNN
+r21didnVBPyouPRP
+
+#Or, maybe, think about why you felt hurt, and if appropriate, tell the person who hurt your feelings and why..
+#(S1 (S (CC Or) (, ,) (ADVP (RB maybe)) (, ,) (S (VP (VB think) (PP (IN about) (SBAR (WHADVP (WRB why)) (S (NP (PRP you)) (VP (VBD felt) (VP (VBN hurt)))))))) (, ,) (CC and) (S (SBAR (IN if) (FRAG (ADJP (JJ appropriate)))) (, ,) (VP (VB tell) (NP (NP (DT the) (NN person)) (SBAR (SBAR (WHNP (WP who)) (S (VP (VBP hurt) (NP (PRP$ your) (NNS feelings))))) (CC and) (FRAG (WHADVP (WRB why)))))) (. .)) (. .)))
+#Rule:Nouns
+r1personNN
+r1feelingsNNS
+
+#Rule:Verbs
+r2thinkVB
+r2feltVBD
+r2hurtVBN
+r2tellVB
+r2hurtVBP
+
+#Rule:Adjs
+r4appropriateJJ
+
+#Rule:PRP-Noun
+r6yourPRP$feelingsNNS
+
+#Rule:HeadNoun-V
+r11youPRPfeltVBD
+
+#Rule:V-HeadNoun
+r21tellVBpersonNN
+r21hurtVBPfeelingsNNS
+
+#Rule:V-HeadNoun(passive)
+r24hurtVBNyouPRP
+
+#You really don t give us much to go on here, Ace.  Why are your feelings hurt?
+#(S1 (S (NP (PRP You)) (ADVP (RB really)) (VP (VB don) (SBAR (S (NP (NNS t)) (VP (VBP give) (NP (PRP us)) (NP (RB much)) (S (VP (TO to) (VP (VB go) (PP (IN on) (NP (NP (RB here)) (, ,) (NP (NNP Ace.)))) (SBAR (WHADVP (WRB Why)) (S (VP (AUX are) (NP (NP (PRP$ your) (NNS feelings)) (VP (VBN hurt))))))))))))) (. ?)))
+#Rule:Nouns
+r1tNNS
+r1AceNNP
+r1feelingsNNS
+
+#Rule:Verbs
+r2donVB
+r2giveVBP
+r2goVB
+r2hurtVBN
+
+#Rule:PRP-Noun
+r6yourPRP$feelingsNNS
+
+#Rule:N-ApposN
+r10hereRBAceNNP
+
+#Rule:HeadNoun-V
+r11youPRPdonVB
+r11tNNSgiveVBP
+
+#Rule:V-HeadNoun
+r21giveVBPusPRP
+r21giveVBPmuchRB
+r21areAUXfeelingsNNS
+
+#Rule:V-HeadNoun(passive)
+r24hurtVBNfeelingsNNS
+
+#Rule:PPinVP
+r30goVBonINhereRB
+r30goVBonINAceNNP
+
+#Rule:V-V
+r44giveVBPgoVB
+
+#Rule:V-ADV
+r46donVBreallyRB
+
+@lemmas-left	they	person	think	appropriate	Nancy-boy	don	give	least	your	ace.	here	you	are	t	hurt	Ace	felt	stab	tell	didn	boy	feelings	be	go	
+@lemmas-right	person	don	give	ace.	here	you	us	much	really	felt	Ace	stab	didn	feelings	go	
+@lemmas-center	on	

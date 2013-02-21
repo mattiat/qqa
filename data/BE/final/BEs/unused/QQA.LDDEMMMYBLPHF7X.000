@@ -1,0 +1,174 @@
+#How will book seven of Harry Potter be? 
+#(S1 (SBARQ (WHADVP (WRB How)) (SQ (MD will) (NP (NP (NN book) (CD seven)) (PP (IN of) (NP (NNP Harry) (NNP Potter)))) (VP (AUX be))) (. ?)))
+#Rule:Nouns
+r1bookNN
+r1Harry Potter bePersonAnnotation
+
+#Rule:Adj-Noun
+r5sevenCDbookNN
+
+#Rule:PPinNP
+r26bookNNofINHarry Potter bePersonAnnotation
+
+#(read details, i have alot to ask)?
+#(S1 (S (-LRB- -LRB-) (S (VP (VB read) (NP (NNS details)))) (, ,) (S (NP (PRP i)) (VP (AUX have) (VP (VBN alot) (S (VP (TO to) (VP (VB ask) (-RRB- -RRB-))))))) (. ?)))
+#Rule:Nouns
+r1detailsNNS
+
+#Rule:Verbs
+r2readVB
+r2alotVBN
+r2askLocationAnnotation
+
+#Rule:HeadNoun-V
+r12iOrganizationAnnotationalotVBN
+
+#Rule:V-HeadNoun
+r21readVBdetailsNNS
+
+#Rule:V-V
+r44alotVBNaskLocationAnnotation
+
+#will harry be out of hogwarts all the time trying to destroy the horocuxes? 
+#(S1 (SQ (MD will) (NP (NNP harry)) (VP (AUX be) (PP (IN out) (PP (IN of) (NP (NNS hogwarts)))) (NP (PDT all) (DT the) (NN time)) (S (VP (VBG trying) (S (VP (TO to) (VP (VB destroy) (NP (DT the) (NNS horocuxes)))))))) (. ?)))
+#Rule:Nouns
+r1harryNNP
+r1hogwartsNNS
+r1timeNN
+r1horocuxesLocationAnnotation
+
+#Rule:Verbs
+r2tryingVBG
+r2destroyVB
+
+#Rule:V-HeadNoun
+r21beAUXtimeNN
+r21destroyVBhorocuxesLocationAnnotation
+
+#Rule:PPComboInVP
+r34beAUXoutINhogwartsNNS
+
+#Rule:V-V
+r44tryingVBGdestroyVB
+
+#or will he stay in hogwarts? 
+#(S1 (SQ (CC or) (MD will) (NP (PRP he)) (VP (VB stay) (PP (IN in) (NP (NNS hogwarts)))) (. ?)))
+#Rule:Nouns
+r1hogwartsLocationAnnotation
+
+#Rule:Verbs
+r2stayVB
+
+#Rule:PPinVP
+r30stayVBinINhogwartsLocationAnnotation
+
+#does he bring ron/hermionie/ginny with him anywhere? 
+#(S1 (SQ (AUX does) (NP (PRP he)) (VP (VB bring) (NP (NP (NN ron/hermionie/ginny)) (PP (IN with) (NP (PRP him)))) (ADVP (RB anywhere))) (. ?)))
+#Rule:Nouns
+r1ron/hermionie/ginnyOrganizationAnnotation
+
+#Rule:Verbs
+r2bringVB
+
+#Rule:V-HeadNoun
+r21bringVBron/hermionie/ginnyOrganizationAnnotation
+
+#Rule:PPinNP
+r26ron/hermionie/ginnyOrganizationAnnotationwithINhimPRP
+
+#Rule:V-ADV
+r46bringVBanywhereRB
+
+#how will minerva teach? 
+#(S1 (SBARQ (WHADVP (WRB how)) (SQ (MD will) (NP (NNP minerva)) (VP (VB teach))) (. ?)))
+#Rule:Nouns
+r1minervaNNP
+
+#Rule:Verbs
+r2teachVB
+
+#who will be the head of house for Harry then?
+#(S1 (SBARQ (WHNP (WP who)) (SQ (MD will) (VP (AUX be) (NP (NP (DT the) (NN head)) (PP (IN of) (NP (NN house)))) (PP (IN for) (NP (NNP Harry))) (ADVP (RB then)))) (. ?)))
+#Rule:Nouns
+r1headNN
+r1houseNN
+r1HarryPersonAnnotation
+
+#Rule:V-HeadNoun
+r21beAUXheadNN
+
+#Rule:PPinNP
+r26headNNofINhouseNN
+
+#Rule:PPinVP
+r30beAUXforINHarryPersonAnnotation
+
+#Rule:V-ADV
+r46beAUXthenRB
+
+#who is the new DADA teacher? 
+#(S1 (SBARQ (WHNP (WP who)) (SQ (VP (AUX is) (NP (DT the) (JJ new) (NNP DADA) (NN teacher)))) (. ?)))
+#Rule:Nouns
+r1DADAOrganizationAnnotation
+r1teacherNN
+
+#Rule:Adjs
+r4newJJ
+
+#Rule:Adj-Noun
+r5newJJteacherNN
+
+#Rule:N-HeadNoun
+r8DADAOrganizationAnnotationteacherNN
+
+#Rule:V-HeadNoun
+r21isAUXteacherNN
+
+#i think j.k. rowling s supposedly last book will be long. or will she make an eigth book? 
+#(S1 (S (NP (PRP i)) (VP (VBP think) (SBAR (S (NP (JJ j.k.) (NN rowling)) (VP (VBZ s) (SBAR (S (NP (RB supposedly) (JJ last) (NN book)) (VP (MD will) (VP (AUX be) (ADJP (JJ long.)) (SBAR (SINV (CC or) (MD will) (NP (PRP she)) (VP (VB make) (NP (DT an) (JJ eigth) (NN book))))))))))))) (. ?)))
+#Rule:Nouns
+r1rowlingNN
+r1bookNN
+r1bookNN
+
+#Rule:Verbs
+r2thinkVBP
+r2sVBZ
+r2makeVB
+
+#Rule:Adjs
+r4j.k.OrganizationAnnotation
+r4lastJJ
+r4longJJ
+r4eigthJJ
+
+#Rule:Adj-Noun
+r5j.k.OrganizationAnnotationrowlingNN
+r5lastJJbookNN
+r5eigthJJbookNN
+
+#Rule:HeadNoun-V
+r11iPRPthinkVBP
+r11rowlingNNsVBZ
+r11bookNNbeAUX
+
+#Rule:V-HeadNoun
+r21makeVBbookNN
+
+#Rule:V-ADJ
+r25beAUXlongJJ
+
+#when will book 7 come out?
+#(S1 (SBARQ (WHADVP (WRB when)) (SQ (MD will) (NP (NN book) (CD 7)) (VP (VB come) (PRT (RP out)))) (. ?)))
+#Rule:Nouns
+r1bookNN
+
+#Rule:V-PRT
+r3comeVBoutRP
+
+#Rule:Adj-Noun
+r57CDbookNN
+
+@lemmas-left	harry	last	DADA	bring	house	long	trying	destroy	time	Harry Potter be	minerva	details	long.	Harry	read	j.k.	head	be	think	is	hogwarts	alot	eigth	stay	come	teach	horocuxes	i	rowling	new	seven	7	s	book	teacher	ask	make	ron/hermionie/ginny	try	
+@lemmas-right	think	alot	hogwarts	anywhere	house	him	long	horocuxes	destroy	rowling	Harry Potter be	time	s	details	long.	Harry	then	book	teacher	ask	head	ron/hermionie/ginny	out	be	
+@lemmas-center	of	with	for	in	out	

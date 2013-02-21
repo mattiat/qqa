@@ -1,0 +1,247 @@
+#first the question is do you actually need to lose weight? 
+#(S1 (S (ADVP (RB first)) (NP (DT the) (NN question)) (VP (AUX is) (VP (AUX do) (SBAR (S (NP (PRP you)) (ADVP (RB actually)) (VP (AUX need) (S (VP (TO to) (VP (VB lose) (NP (NN weight)))))))))) (. ?)))
+#Rule:Nouns
+r1questionNN
+r1weightNN
+
+#Rule:Verbs
+r2loseVB
+
+#Rule:HeadNoun-V
+r11questionNNdoAUX
+r11youPRPneedAUX
+
+#Rule:V-HeadNoun
+r21loseVBweightNN
+
+#Rule:V-ADV
+r46isAUXfirstRB
+r46needAUXactuallyRB
+
+#or is it some kind of distortion you have.
+#(S1 (SINV (CC or) (AUX is) (NP (PRP it)) (NP (NP (DT some) (NN kind)) (PP (IN of) (NP (NP (NN distortion)) (SBAR (S (NP (PRP you)) (VP (AUX have))))))) (. .)))
+#Rule:Nouns
+r1kindNN
+r1distortionNN
+
+#Rule:HeadNoun-V
+r11youPRPhaveAUX
+
+#Rule:PPinNP
+r26kindNNofINdistortionNN
+
+# second if you do need to lose weight get your drs advice so you can lose it healthfully and not do any harm to your body.
+#(S1 (FRAG (ADJP (JJ second)) (SBAR (IN if) (S (NP (PRP you)) (VP (AUX do) (VP (AUX need) (S (VP (TO to) (VP (VB lose) (NP (NN weight)) (S (VP (VB get) (NP (PRP$ your) (NNS drs) (NN advice)) (SBAR (IN so) (S (NP (PRP you)) (VP (MD can) (VP (VP (VB lose) (NP (PRP it)) (ADVP (RB healthfully))) (CC and) (RB not) (VP (AUX do) (NP (NP (DT any) (NN harm)) (PP (TO to) (NP (PRP$ your) (NN body)))))))))))))))))) (. .)))
+#Rule:Nouns
+r1weightNN
+r1drsNNS
+r1adviceNN
+r1harmNN
+r1bodyNN
+
+#Rule:Verbs
+r2loseVB
+r2getVB
+r2loseVB
+
+#Rule:Adjs
+r4secondJJ
+
+#Rule:PRP-Noun
+r6yourPRP$adviceNN
+r6yourPRP$bodyNN
+
+#Rule:N-HeadNoun
+r8drsNNSadviceNN
+
+#Rule:HeadNoun-V
+r11youPRPneedAUX
+r11youPRPloseVB
+r11youPRPdoAUX
+
+#Rule:V-HeadNoun
+r21loseVBweightNN
+r21getVBadviceNN
+r21loseVBitPRP
+r21doAUXharmNN
+
+#Rule:PPinNP
+r26harmNNtoTObodyNN
+
+#Rule:V-IN-V
+r43getVBsoINloseVB
+r43getVBsoINdoAUX
+
+#Rule:V-ADV
+r46loseVBhealthfullyRB
+
+# what you really need to do is eat heathy, all of the food groups, not leaving any of them out.
+#(S1 (S (SBAR (WHNP (WP what)) (S (NP (PRP you)) (ADVP (RB really)) (VP (AUX need) (VP (TO to) (VP (AUX do)))))) (VP (AUX is) (VP (VP (VB eat) (NP (NN heathy))) (, ,) (NP (NP (DT all)) (PP (IN of) (NP (DT the) (NN food) (NNS groups)))) (, ,) (S (RB not) (VP (VBG leaving) (NP (NP (DT any)) (PP (IN of) (NP (PRP them)))) (PRT (RP out)))))) (. .)))
+#Rule:Nouns
+r1heathyNN
+r1foodNN
+r1groupsNNS
+
+#Rule:Verbs
+r2eatVB
+r2leavingVBG
+
+#Rule:V-PRT
+r3leavingVBGoutRP
+
+#Rule:N-HeadNoun
+r8foodNNgroupsNNS
+
+#Rule:HeadNoun-V
+r11youPRPdoAUX
+
+#Rule:V-HeadNoun
+r21eatVBallDT
+r21eatVBheathyNN
+r21leavingVBGanyDT
+
+#Rule:PPinNP
+r26allDTofINgroupsNNS
+r26anyDTofINthemPRP
+
+#Rule:V-MOD
+r45eatVBleavingVBG
+
+#Rule:V-ADV
+r46needAUXreallyRB
+
+# just in moderation.
+#(S1 (FRAG (RB just) (PP (IN in) (NP (NN moderation))) (. .)))
+#Rule:Nouns
+r1moderationNN
+
+# fill up on low calorie items such asfruits and vegetables.
+#(S1 (S (VP (VB fill) (PRT (RP up)) (PP (IN on) (NP (JJ low) (JJ calorie) (NNS items))) (NP (JJ such) (NNS asfruits) (CC and) (NNS vegetables))) (. .)))
+#Rule:Nouns
+r1itemsNNS
+r1asfruitsNNS
+r1vegetablesNNS
+
+#Rule:V-PRT
+r3fillVBupRP
+
+#Rule:Adjs
+r4lowJJ
+r4calorieJJ
+r4suchJJ
+
+#Rule:Adj-Noun
+r5lowJJitemsNNS
+r5calorieJJitemsNNS
+r5suchJJasfruitsNNS
+
+#Rule:V-HeadNoun
+r21fillVBasfruitsNNS
+
+#Rule:PPinVP
+r30fillVBonINitemsNNS
+
+# skip on the fruit juices.
+#(S1 (S (VP (VB skip) (PP (IN on) (NP (DT the) (NN fruit) (NNS juices)))) (. .)))
+#Rule:Nouns
+r1fruitNN
+r1juicesNNS
+
+#Rule:Verbs
+r2skipVB
+
+#Rule:N-HeadNoun
+r8fruitNNjuicesNNS
+
+#Rule:PPinVP
+r30skipVBonINjuicesNNS
+
+# exercise.
+#(S1 (S (VP (VB exercise)) (. .)))
+#Rule:Verbs
+r2exerciseVB
+
+# eat until you are satisfied, not full.
+#(S1 (S (VP (VB eat) (SBAR (IN until) (S (NP (PRP you)) (VP (AUX are) (ADJP (ADJP (JJ satisfied)) (, ,) (ADJP (RB not) (JJ full))))))) (. .)))
+#Rule:Verbs
+r2eatVB
+
+#Rule:Adjs
+r4satisfiedJJ
+r4fullJJ
+
+#Rule:HeadNoun-V
+r11youPRPareAUX
+
+#Rule:V-ADJ
+r25areAUXsatisfiedJJ
+
+#Rule:V-IN-V
+r43eatVBuntilINareAUX
+
+# make sure you eat breakfast.
+#(S1 (S (VP (VB make) (ADJP (JJ sure) (SBAR (S (NP (PRP you)) (VP (VBP eat) (NP (NN breakfast))))))) (. .)))
+#Rule:Nouns
+r1breakfastNN
+
+#Rule:Verbs
+r2makeVB
+r2eatVBP
+
+#Rule:Adjs
+r4sureJJ
+
+#Rule:HeadNoun-V
+r11youPRPeatVBP
+
+#Rule:V-HeadNoun
+r21eatVBPbreakfastNN
+
+# exercise regularly, not more then 6 times a week.
+#(S1 (S (S (VP (VBP exercise) (ADVP (RB regularly)))) (, ,) (FRAG (ADVP (RB not) (RBR more) (RB then)) (NP (NP (CD 6) (NNS times)) (NP (DT a) (NN week)))) (. .)))
+#Rule:Nouns
+r1timesNNS
+r1weekNN
+
+#Rule:Verbs
+r2exerciseVBP
+
+#Rule:Adj-Noun
+r56CDtimesNNS
+
+#Rule:V-ADV
+r46exerciseVBPregularlyRB
+
+# drink water and other no calorie beverages.
+#(S1 (S (VP (VB drink) (NP (NP (NN water)) (CC and) (NP (JJ other) (ADJP (RB no) (JJ calorie)) (NNS beverages)))) (. .)))
+#Rule:Nouns
+r1waterNN
+r1beveragesNNS
+
+#Rule:Verbs
+r2drinkVB
+
+#Rule:Adjs
+r4otherJJ
+r4calorieJJ
+
+#Rule:Adj-Noun
+r5otherJJbeveragesNNS
+r5calorieJJbeveragesNNS
+
+#Rule:V-HeadNoun
+r21drinkVBwaterNN
+
+# i hope that helps.
+#(S1 (S (NP (PRP i)) (VP (VBP hope) (SBAR (S (NP (DT that)) (VP (VBZ helps))))) (. .)))
+#Rule:Verbs
+r2hopeVBP
+r2helpsVBZ
+
+#Rule:HeadNoun-V
+r11iPersonAnnotationhopeVBP
+r11thatDThelpsVBZ
+
+@lemmas-left	need	body	satisfied	second	skip	calorie	distortion	help	are	drink	any	juice	groups	heathy	be	sure	fruit	get	such	beverages	juices	that	beverage	6	items	food	eat	vegetable	low	make	hope	other	weight	harm	breakfast	exercise	kind	leaving	leave	full	times	do	question	all	water	moderation	is	your	fill	vegetables	you	helps	drs	i	lose	item	asfruits	group	advice	week	
+@lemmas-right	need	body	satisfied	harm	weight	have	breakfast	actually	leaving	distortion	help	regularly	are	leave	times	juice	any	do	groups	all	be	heathy	water	it	beverages	juices	helps	up	lose	really	healthfully	beverage	items	them	item	asfruits	eat	group	advice	first	hope	out	
+@lemmas-center	to	of	so	on	until	

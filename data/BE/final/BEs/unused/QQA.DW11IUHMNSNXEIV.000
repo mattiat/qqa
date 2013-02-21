@@ -1,0 +1,73 @@
+#how do i get rid of zits fast!!?
+#(S1 (SBARQ (WHADVP (WRB how)) (SQ (AUX do) (NP (PRP i)) (VP (VB get) (VP (VB rid) (PP (IN of) (NP (NP (NNS zits)) (ADJP (JJ fast) (JJ !!))))))) (. ?)))
+#Rule:Nouns
+r1zitsNNS
+
+#Rule:Verbs
+r2getVB
+r2ridVB
+
+#Rule:Adjs
+r4fast!!LocationAnnotation
+
+#Rule:Adj-Noun
+r5fast!!LocationAnnotationzitsNNS
+
+#Rule:PPinVP
+r30ridVBofINzitsNNS
+
+#toothpaste doesnt work!
+#(S1 (S (NP (NN toothpaste) (NN doesnt)) (VP (VBP work)) (. !)))
+#Rule:Nouns
+r1toothpasteNN
+r1doesntNN
+
+#Rule:Verbs
+r2workVBP
+
+#Rule:N-HeadNoun
+r8toothpasteNNdoesntNN
+
+#Rule:HeadNoun-V
+r11doesntNNworkVBP
+
+#tea tree oil doesnt work for meand i wash my face everyday
+#(S1 (S (NP (NN tea) (NN tree)) (NP (NP (NN oil) (NN doesnt) (NN work)) (PP (IN for) (NP (NP (NN meand)) (SBAR (S (NP (PRP i)) (VP (VBP wash) (S (NP (PRP$ my) (NN face)) (ADJP (JJ everyday)))))))))))
+#Rule:Nouns
+r1teaNN
+r1treeNN
+r1oilNN
+r1doesntNN
+r1workNN
+r1meandNN
+r1faceNN
+
+#Rule:Verbs
+r2washVBP
+
+#Rule:Adjs
+r4everydayJJ
+
+#Rule:PRP-Noun
+r6myPRP$faceNN
+
+#Rule:N-HeadNoun
+r8teaNNtreeNN
+r8doesntNNworkNN
+r8oilNNworkNN
+
+#Rule:HeadNoun-V
+r11iLocationAnnotationwashVBP
+
+#Rule:NP(NP(z) SBAR(S(NP(x)VP(y))))
+r19washVBPmeandNN
+
+#Rule:V-HeadNoun
+r22washVBPfaceNN
+
+#Rule:PPinNP
+r26workNNforINmeandNN
+
+@lemmas-left	work	face	get	zit	zits	fast!!	everyday	doesnt	tea	my	i	oil	tree	rid	wash	toothpaste	meand	
+@lemmas-right	work	face	tree	zit	zits	wash	doesnt	meand	
+@lemmas-center	of	for	

@@ -1,0 +1,903 @@
+BE: typeNN
+EQ class: 
+
+BE: cancerNN
+EQ class: cancerousjj	malignant_neoplastic_diseasenn	
+
+BE: mentionVB
+EQ class: bring_upvb	namevb	refervb	citevb	advertvb	
+
+BE: fightingVBG
+EQ class: contendvbg	strugglevbg	fightvbg	
+
+BE: youPRPmentionVB
+EQ class: youprpcitevb	youprpnamevb	mentionernnyouprp	youprprefervb	youprpadvertvb	mentionernnofinyouprp	mentionnnofinyouprp	referencennofinyouprp	youprpbring_upvb	
+
+BE: shePRPfightingVBG
+EQ class: fightingnnsheprp	fighternnsheprp	fighternnofinheprp	fightnnsheprp	fightnnweprp	battlernnofinheprp	scrapnnofinsheprp	heprpfightvbg	combatantnnofinheprp	scrapnnofinweprp	belligerentnnsheprp	fightnnheprp	engagementnnofinsheprp	scrappernnweprp	heprpcontendvbg	scrappernnofinheprp	fighternnofinweprp	conflictnnofinheprp	fightnnofinsheprp	belligerentnnheprp	scrappernnheprp	combatantnnofinsheprp	fightingnnofinsheprp	combatnnheprp	sheprpcontendvbg	conflictnnofinweprp	sheprpstrugglevbg	combatnnofinheprp	battlernnsheprp	battlennofinsheprp	battlernnofinweprp	belligerentnnofinweprp	conflictnnofinsheprp	combatnnofinweprp	fightingnnofinweprp	battlernnheprp	belligerentnnofinsheprp	weprpfightvbg	scrappernnofinweprp	battlernnweprp	weprpcontendvbg	weprpfightingvbg	combatantnnheprp	battlennofinheprp	fightnnofinweprp	fighternnweprp	scrapnnsheprp	heprpfightingvbg	scrapnnweprp	fighternnofinsheprp	belligerentnnweprp	fightnnofinheprp	combatnnweprp	fightingnnweprp	combatantnnweprp	battlernnofinsheprp	combatnnsheprp	engagementnnofinheprp	battlennofinweprp	weprpstrugglevbg	scrapnnheprp	engagementnnofinweprp	fightingnnofinheprp	combatnnofinsheprp	scrappernnofinsheprp	combatantnnofinweprp	fightingnnheprp	scrappernnsheprp	sheprpfightvbg	heprpstrugglevbg	scrapnnofinheprp	combatantnnsheprp	belligerentnnofinheprp	fighternnheprp	
+
+BE: mentionVBtypeNN
+EQ class: advertvbtypenn	mentionernnofintypenn	referencennofintypenn	bring_upvbtypenn	mentionnnofintypenn	refervbtypenn	citevbtypenn	namevbtypenn	
+
+BE: typeNNofINcancerNN
+EQ class: malignant_neoplastic_diseasenntypewritevb	typifyvbcancerousjj	malignant_neoplastic_diseasenntypenn	cancerousjjtypewritevb	malignant_neoplastic_diseasennepitomisevb	cancerousjjepitomisevb	typevbcancerousjj	malignant_neoplastic_diseasennepitomizevb	cancernnepitomizevb	epitomizevbcancerousjj	cancernntypenn	cancerousjjepitomizevb	epitomizevbcancernn	typewritevbmalignant_neoplastic_diseasenn	typevbcancernn	epitomisevbcancerousjj	typewritevbcancernn	epitomisevbcancernn	epitomizevbmalignant_neoplastic_diseasenn	typevbmalignant_neoplastic_diseasenn	cancernntypewritevb	cancernntypevb	typennofincancerousjj	cancernntypifyvb	malignant_neoplastic_diseasenntypevb	cancerousjjtypenn	epitomisevbmalignant_neoplastic_diseasenn	cancernnepitomisevb	cancerousjjtypifyvb	typewritevbcancerousjj	typifyvbmalignant_neoplastic_diseasenn	typennofinmalignant_neoplastic_diseasenn	typifyvbcancernn	cancerousjjtypevb	malignant_neoplastic_diseasenntypifyvb	
+
+BE: doAUXnotRB
+EQ class: makeauxnotrb	
+
+BE: sonNN
+EQ class: boynn	
+
+BE: monthsNNS
+EQ class: calendar_monthnns	theynns	monthlyjj	monthnns	themnns	
+
+BE: sarcoma. HeOrganizationAnnotation
+EQ class: sarcoma heorganizationannotation	
+
+BE: doseNN
+EQ class: dosagenn	
+
+BE: tumorsNNS
+EQ class: theynns	tumornns	tumournns	neoplasmnns	themnns	
+
+BE: abdomenNN
+EQ class: bellynn	venternn	abdominaljj	stomachnn	
+
+BE: chestNN
+EQ class: chestyjj	pectusnn	thoraxnn	
+
+BE: wallNN
+EQ class: 
+
+BE: systemNN
+EQ class: 
+
+BE: intestineNN
+EQ class: bowelnn	gutnn	intestinaljj	
+
+BE: liverNN
+EQ class: liveryjj	
+
+BE: lungNN
+EQ class: 
+
+BE: diaphragmNNS
+EQ class: theynns	stopnns	themnns	
+
+BE: surgeryNNS
+EQ class: theynns	surgicaljj	themnns	
+
+BE: nodulesNNS
+EQ class: nodulenns	nodularjj	theynns	themnns	
+
+BE: liverNN
+EQ class: liveryjj	
+
+BE: diagnosedVBN
+EQ class: diagnosevbn	namevbn	
+
+BE: undergoVB
+EQ class: 
+
+BE: sVBZ
+EQ class: 
+
+BE: leftVBN
+EQ class: go_awayvbn	leavevbn	go_forthvbn	
+
+BE: teenageJJ
+EQ class: teenagedjj	teenjj	adolescentjj	
+
+BE: rareJJ
+EQ class: 
+
+BE: aggressiveJJ
+EQ class: aggressivenessnn	
+
+BE: abdominalJJ
+EQ class: abdomennn	
+
+BE: ableJJ
+EQ class: abilitynn	
+
+BE: highJJ
+EQ class: highnessnn	
+
+BE: chemotherapyJJ
+EQ class: 
+
+BE: multipleJJ
+EQ class: multiplenn	multiplicitynn	
+
+BE: lympthaticJJ
+EQ class: 
+
+BE: spleenJJ
+EQ class: 
+
+BE: largeJJ
+EQ class: bigjj	largenn	largenessnn	
+
+BE: smallJJ
+EQ class: littlejj	smallnessnn	
+
+BE: rightJJ
+EQ class: 
+
+BE: debulkingJJ
+EQ class: 
+
+BE: fewJJ
+EQ class: fewnn	fewnessnn	
+
+BE: teenageJJsonNN
+EQ class: teenjjboynn	teenagejjboynn	teenagedjjsonnn	adolescentjjsonnn	teenagedjjboynn	teenjjsonnn	adolescentjjboynn	
+
+BE: 22CDmonthsNNS
+EQ class: xxiicdthemnns	twenty-twocdtheynns	twenty-twocdthemnns	twenty-twocdmonthnns	2.2.cdtheynns	twenty-twocdmonthsnns	xxiicdmonthlyjj	xxiicdmonthsnns	xxiicdmonthnns	22cdcalendar_monthnns	2.2.cdthemnns	2.2.cdcalendar_monthnns	22cdmonthlyjj	twenty-twocdmonthlyjj	twenty-twocdcalendar_monthnns	xxiicdtheynns	xxiicdcalendar_monthnns	22cdtheynns	22cdthemnns	2.2.cdmonthnns	22cdmonthnns	2.2.cdmonthlyjj	2.2.cdmonthsnns	
+
+BE: rareJJsarcoma. HeOrganizationAnnotation
+EQ class: rarejjsarcoma heorganizationannotation	
+
+BE: aggressiveJJsarcoma. HeOrganizationAnnotation
+EQ class: aggressivenessnnsarcoma heorganizationannotation	aggressivenessnnsarcoma. heorganizationannotation	aggressivejjsarcoma heorganizationannotation	
+
+BE: abdominalJJsarcoma. HeOrganizationAnnotation
+EQ class: abdomennnsarcoma heorganizationannotation	abdomennnsarcoma. heorganizationannotation	abdominaljjsarcoma heorganizationannotation	
+
+BE: highJJdoseNN
+EQ class: dosevbhighlyrb	highnessnndosenn	highnessnndosagenn	highjjdosagenn	
+
+BE: multipleJJtumorsNNS
+EQ class: multiplenntumournns	multiplicitynntumournns	multiplejjtumournns	multiplejjtumornns	multiplicitynntheynns	multiplenntumorsnns	multiplenntumornns	multiplejjneoplasmnns	multiplennthemnns	multiplejjtheynns	multiplennneoplasmnns	multiplenntheynns	multiplicitynntumornns	multiplicitynnthemnns	multiplicitynntumorsnns	multiplejjthemnns	multiplicitynnneoplasmnns	
+
+BE: lympthaticJJsystemNN
+EQ class: 
+
+BE: spleenJJintestineNN
+EQ class: spleenjjgutnn	spleenjjintestinaljj	spleenjjbowelnn	
+
+BE: largeJJintestineNN
+EQ class: largejjintestinaljj	largennintestinaljj	intestinalvblargelyrb	largenessnnintestinaljj	largennbowelnn	largejjgutnn	largennintestinenn	bigjjintestinenn	largenessnnintestinenn	bigjjgutnn	bigjjintestinaljj	largejjbowelnn	bigjjbowelnn	largenngutnn	largenessnnbowelnn	largenessnngutnn	
+
+BE: smallJJintestineNN
+EQ class: littlejjgutnn	littlejjbowelnn	smalljjbowelnn	smallnessnnintestinenn	smalljjgutnn	smallnessnnintestinaljj	smallnessnngutnn	littlejjintestinaljj	littlejjintestinenn	smalljjintestinaljj	smallnessnnbowelnn	
+
+BE: rightJJdiaphragmNNS
+EQ class: rightjjtheynns	rightjjstopnns	rightjjthemnns	
+
+BE: twoCDsurgeryNNS
+EQ class: 2cdsurgicaljj	2cdthemnns	2cdsurgerynns	iicdtheynns	deucecdtheynns	twocdthemnns	deucecdthemnns	iicdthemnns	deucecdsurgicaljj	deucecdsurgerynns	iicdsurgicaljj	twocdsurgicaljj	2cdtheynns	twocdtheynns	iicdsurgerynns	
+
+BE: debulkingJJsurgeryNNS
+EQ class: debulkingjjthemnns	debulkingjjsurgicaljj	debulkingjjtheynns	
+
+BE: fewJJnodulesNNS
+EQ class: fewjjnodularjj	fewnnnodularjj	fewnnthemnns	fewnessnnnodularjj	fewnnnodulesnns	fewnnnodulenns	fewnntheynns	fewnessnntheynns	fewjjthemnns	fewnessnnthemnns	fewjjnodulenns	fewnessnnnodulenns	fewjjtheynns	fewnessnnnodulesnns	
+
+BE: myPRP$sonNN
+EQ class: sonnnofinmyprp$	myprp$boynn	boynnofinmyprp$	
+
+BE: chestNNwallNN
+EQ class: chestyjjfence_invb	chestyjjwallvb	fencevbchestnn	chestyjjwallnn	thoraxnnsurroundvb	fencevbpectusnn	fencevbchestyjj	pectusnnsurroundvb	palisadevbpectusnn	pectusnnwallnn	palisadevbthoraxnn	wallvbchestyjj	chestnnwallvb	surroundvbchestnn	fencevbthoraxnn	thoraxnnfence_invb	wallvbthoraxnn	fence_invbchestnn	chestnnfencevb	fence_invbchestyjj	wallnnofinchestyjj	pectusnnwallvb	chestnnpalisadevb	wallvbchestnn	pectusnnfence_invb	thoraxnnwallvb	chestyjjpalisadevb	chestnnfence_invb	thoraxnnwallnn	chestyjjfencevb	fence_invbthoraxnn	pectusnnpalisadevb	surroundvbthoraxnn	wallnnofinthoraxnn	fence_invbpectusnn	palisadevbchestyjj	surroundvbchestyjj	surroundvbpectusnn	wallvbpectusnn	chestyjjsurroundvb	pectusnnfencevb	wallnnofinpectusnn	palisadevbchestnn	chestnnsurroundvb	thoraxnnpalisadevb	thoraxnnfencevb	wallnnofinchestnn	
+
+BE: abdomenNNwallNN
+EQ class: bellynnsurroundvb	abdomennnsurroundvb	stomachnnfencevb	venternnwallnn	venternnwallvb	abdomennnfence_invb	stomachnnwallnn	stomachnnsurroundvb	wallnnabdomennn	bellynnfencevb	wallnnbellynn	abdominaljjfencevb	stomachnnfence_invb	abdominaljjwallnn	abdominaljjfence_invb	wallnnofinbellynn	wallnnstomachnn	venternnfencevb	abdominaljjsurroundvb	wallnnofinabdominaljj	abdomennnpalisadevb	abdominaljjwallvb	stomachnnwallvb	venternnsurroundvb	bellynnpalisadevb	venternnfence_invb	wallnnabdominaljj	wallnnofinstomachnn	abdominaljjpalisadevb	bellynnwallvb	bellynnfence_invb	abdomennnwallvb	bellynnwallnn	abdomennnfencevb	venternnpalisadevb	wallnnofinventernn	wallnnventernn	wallnnofinabdomennn	stomachnnpalisadevb	
+
+BE: systemNNintestineNN
+EQ class: intestinaljjsystemnn	intestinennsystemnn	systemnngutnn	systemnnbowelnn	gutnnsystemnn	bowelnnsystemnn	systemnnintestinaljj	
+
+BE: sarcoma. HeOrganizationAnnotationwasAUX
+EQ class: sarcoma heorganizationannotationbeaux	sarcoma heorganizationannotationwasaux	sarcoma. heorganizationannotationbeaux	
+
+BE: hePRPhadAUX
+EQ class: wealthy_personnnofinheprp	havennofinheprp	heprpholdaux	heprphave_gotaux	heprphaveaux	rich_personnnofinheprp	
+
+BE: HePersonAnnotationsVBZ
+EQ class: wepersonannotationsvbz	
+
+BE: HePersonAnnotationdoneAUX
+EQ class: hepersonannotationdoaux	wepersonannotationmakeaux	wepersonannotationdoneaux	wepersonannotationdoaux	hepersonannotationmakeaux	
+
+BE: HePersonAnnotationhasAUX
+EQ class: wealthy_personnnofinhepersonannotation	hepersonannotationhave_gotaux	wepersonannotationhaveaux	wepersonannotationhave_gotaux	rich_personnnofinhepersonannotation	havennofinwepersonannotation	rich_personnnofinwepersonannotation	wepersonannotationhasaux	havennofinhepersonannotation	wealthy_personnnofinwepersonannotation	hepersonannotationhaveaux	wepersonannotationholdaux	hepersonannotationholdaux	
+
+BE: hadAUXsurgeryNNS
+EQ class: havennofintheynns	holdauxtheynns	haveauxsurgicaljj	wealthy_personnnofintheynns	holdauxthemnns	holdauxsurgicaljj	haveauxtheynns	have_gotauxtheynns	wealthy_personnnofinsurgicaljj	haveauxsurgerynns	rich_personnnofinsurgicaljj	havennofinsurgicaljj	hadauxtheynns	have_gotauxsurgicaljj	rich_personnnofinsurgerynns	hadauxthemnns	rich_personnnofinthemnns	havennofinthemnns	have_gotauxsurgerynns	hadauxsurgicaljj	wealthy_personnnofinthemnns	wealthy_personnnofinsurgerynns	haveauxthemnns	have_gotauxthemnns	havennofinsurgerynns	rich_personnnofintheynns	holdauxsurgerynns	
+
+BE: undergoVBdoseNN
+EQ class: undergovbdosagenn	
+
+BE: hasAUXnodulesNNS
+EQ class: havennofintheynns	holdauxtheynns	wealthy_personnnofintheynns	wealthy_personnnofinnodulesnns	holdauxthemnns	hasauxtheynns	haveauxtheynns	have_gotauxtheynns	wealthy_personnnofinnodularjj	haveauxnodularjj	rich_personnnofinnodulenns	hasauxthemnns	wealthy_personnnofinnodulenns	rich_personnnofinnodulesnns	rich_personnnofinthemnns	haveauxnodulenns	holdauxnodulenns	holdauxnodulesnns	holdauxnodularjj	havennofinnodulenns	have_gotauxnodulenns	havennofinnodulesnns	have_gotauxnodularjj	havennofinthemnns	hasauxnodulenns	wealthy_personnnofinthemnns	rich_personnnofinnodularjj	haveauxthemnns	have_gotauxthemnns	hasauxnodularjj	havennofinnodularjj	have_gotauxnodulesnns	rich_personnnofintheynns	haveauxnodulesnns	
+
+BE: diagnosedVBNsonNN
+EQ class: diagnosingnnofinboynn	diagnosingnnofinsonnn	diagnosedvbnboynn	namevbnsonnn	diagnosisnnofinsonnn	diagnosisnnofinboynn	namevbnboynn	diagnosevbnboynn	diagnosticjjofinboynn	diagnosevbnsonnn	diagnosticjjofinsonnn	
+
+BE: leftVBNnodulesNNS
+EQ class: leavennofinnodulenns	leavernnofinnodulesnns	leavevbnnodularjj	leave_of_absencennofinnodularjj	goernnofinnodulesnns	leavevbntheynns	departernnofinthemnns	leave_of_absencennofinnodulesnns	go_awayvbnnodularjj	departernnofinnodulesnns	goernnofinthemnns	leavernnofinthemnns	leftvbnnodulenns	go_awayvbntheynns	leavevbnthemnns	go_forthvbntheynns	goernnofinnodulenns	leftvbnthemnns	go_awayvbnnodulenns	go_awayvbnthemnns	leftvbntheynns	leavernnofinnodularjj	leave_of_absencennofinnodulenns	leavernnofintheynns	goernnofinnodularjj	departernnofintheynns	leave_of_absencennofinthemnns	leavennofinnodulesnns	go_awayvbnnodulesnns	go_forthvbnnodularjj	leavennofintheynns	go_forthvbnnodulesnns	leavevbnnodulenns	departernnofinnodularjj	go_forthvbnnodulenns	departernnofinnodulenns	leavernnofinnodulenns	leftvbnnodularjj	goernnofintheynns	leave_of_absencennofintheynns	leavennofinthemnns	go_forthvbnthemnns	leavevbnnodulesnns	leavennofinnodularjj	
+
+BE: wasAUXableJJ
+EQ class: beauxablejj	beauxabilitynn	wasauxabilitynn	
+
+BE: tumorsNNSinINabdomenNN
+EQ class: tumornnsininstomachnn	stomachnntumornns	tumorsnnsininstomachnn	tumorsnnsininbellynn	abdominaljjtumorsnns	themnnsininventernn	bellynntheynns	theynnsininstomachnn	abdomennntumornns	venternntumornns	themnnsininstomachnn	tumournnsininbellynn	abdomennntheynns	theynnsininabdominaljj	tumournnsininabdominaljj	tumournnsininstomachnn	abdominaljjtheynns	neoplasmnnsininabdomennn	neoplasmnnsininbellynn	theynnsininabdomennn	bellynnneoplasmnns	stomachnntumorsnns	stomachnntheynns	bellynntumorsnns	abdomennnthemnns	venternntheynns	tumornnsininabdomennn	abdominaljjtumornns	tumorsnnsininabdominaljj	venternntumournns	venternnthemnns	abdomennnneoplasmnns	abdomennntumorsnns	neoplasmnnsininventernn	bellynntumornns	themnnsininbellynn	tumornnsininbellynn	theynnsininbellynn	abdomennntumournns	tumornnsininventernn	venternnneoplasmnns	neoplasmnnsininabdominaljj	venternntumorsnns	abdominaljjneoplasmnns	bellynnthemnns	stomachnntumournns	tumornnsininabdominaljj	neoplasmnnsininstomachnn	bellynntumournns	abdominaljjtumournns	abdominaljjthemnns	tumournnsininabdomennn	stomachnnneoplasmnns	tumorsnnsininventernn	themnnsininabdomennn	stomachnnthemnns	tumournnsininventernn	theynnsininventernn	themnnsininabdominaljj	
+
+BE: tumorsNNSinINwallNN
+EQ class: tumournnsininwallnn	theynnsininwallnn	wallnntumournns	wallnntumorsnns	wallnntumornns	wallnnthemnns	themnnsininwallnn	neoplasmnnsininwallnn	tumornnsininwallnn	wallnntheynns	wallnnneoplasmnns	
+
+BE: tumorsNNSinINsystemNN
+EQ class: themnnsininsystemnn	systemnntumournns	tumournnsininsystemnn	systemnnneoplasmnns	tumornnsininsystemnn	systemnntheynns	systemnnthemnns	systemnntumorsnns	neoplasmnnsininsystemnn	theynnsininsystemnn	systemnntumornns	
+
+BE: tumorsNNSinINintestineNN
+EQ class: tumorsnnsiningutnn	intestinennthemnns	tumournnsiningutnn	theynnsiningutnn	intestinaljjtheynns	neoplasmnnsininintestinaljj	theynnsininbowelnn	intestinennneoplasmnns	themnnsininintestinenn	intestinenntumorsnns	bowelnntumornns	intestinaljjneoplasmnns	tumornnsininbowelnn	gutnnthemnns	tumorsnnsininintestinaljj	tumournnsininbowelnn	tumournnsininintestinenn	neoplasmnnsiningutnn	theynnsininintestinenn	bowelnnneoplasmnns	intestinenntumournns	themnnsininbowelnn	tumornnsininintestinaljj	bowelnntheynns	bowelnntumournns	intestinaljjtumorsnns	theynnsininintestinaljj	intestinaljjthemnns	bowelnnthemnns	gutnntumornns	intestinaljjtumournns	neoplasmnnsininintestinenn	themnnsininintestinaljj	gutnntheynns	intestinenntheynns	gutnntumournns	neoplasmnnsininbowelnn	bowelnntumorsnns	intestinaljjtumornns	tumournnsininintestinaljj	gutnntumorsnns	themnnsiningutnn	tumorsnnsininbowelnn	intestinenntumornns	tumornnsiningutnn	gutnnneoplasmnns	tumornnsininintestinenn	
+
+BE: tumorsNNSinINliverNN
+EQ class: theynnsininlivernn	neoplasmnnsininlivernn	tumornnsininlivernn	themnnsininlivernn	livernnthemnns	livernntheynns	tumorsnnsininliveryjj	tumournnsininlivernn	theynnsininliveryjj	livernntumornns	livernnneoplasmnns	neoplasmnnsininliveryjj	liveryjjthemnns	liveryjjtumornns	liveryjjneoplasmnns	livernntumournns	livernntumorsnns	liveryjjtheynns	liveryjjtumorsnns	tumournnsininliveryjj	tumornnsininliveryjj	themnnsininliveryjj	liveryjjtumournns	
+
+BE: tumorsNNSinINlungNN
+EQ class: themnnsininlungnn	neoplasmnnsininlungnn	lungnntheynns	lungnnthemnns	tumournnsininlungnn	lungnntumornns	lungnnneoplasmnns	theynnsininlungnn	lungnntumorsnns	lungnntumournns	tumornnsininlungnn	
+
+BE: tumorsNNSinINdiaphragmNNS
+EQ class: neoplasmnnsinintheynns	themnnsinintheynns	theynnsininstopnns	theynnstumornns	themnnstheynns	themnnsthemnns	stopnnsthemnns	stopnnstheynns	themnnsinindiaphragmnns	tumornnsinindiaphragmnns	tumournnsinintheynns	theynnsinintheynns	stopnnstumorsnns	neoplasmnnsininthemnns	themnnsneoplasmnns	themnnsininstopnns	theynnsinindiaphragmnns	tumorsnnsinintheynns	theynnstumournns	tumorsnnsininthemnns	theynnsininthemnns	diaphragmnnstumornns	theynnsthemnns	stopnnsneoplasmnns	tumournnsininthemnns	theynnstheynns	themnnstumournns	diaphragmnnstumorsnns	diaphragmnnsthemnns	tumornnsininthemnns	themnnsininthemnns	stopnnstumornns	diaphragmnnsneoplasmnns	tumorsnnsininstopnns	tumournnsinindiaphragmnns	stopnnstumournns	tumournnsininstopnns	tumornnsinintheynns	neoplasmnnsininstopnns	tumornnsininstopnns	diaphragmnnstheynns	diaphragmnnstumournns	theynnsneoplasmnns	theynnstumorsnns	neoplasmnnsinindiaphragmnns	themnnstumornns	themnnstumorsnns	
+
+BE: diagnosedVBNwithINsarcoma. HeOrganizationAnnotation
+EQ class: namevbnwithinsarcoma heorganizationannotation	diagnosevbnwithinsarcoma. heorganizationannotation	namevbnwithinsarcoma. heorganizationannotation	diagnosevbnwithinsarcoma heorganizationannotation	diagnosedvbnwithinsarcoma heorganizationannotation	
+
+BE: leftVBNonINliverNN
+EQ class: go_forthvbnoninliveryjj	leavevbnoninlivernn	leavevbnoninliveryjj	go_awayvbnoninlivernn	go_forthvbnoninlivernn	leftvbnoninliveryjj	go_awayvbnoninliveryjj	
+
+BE: chemotherapyJJforINtumorsNNS
+EQ class: chemotherapyjjforintumournns	chemotherapyjjforinthemnns	chemotherapyjjforinneoplasmnns	chemotherapyjjforintheynns	chemotherapyjjforintumornns	
+
+BE: diagnosedVBNagoRB
+EQ class: namevbnagorb	diagnosticjjofinagorb	diagnosingnnofinagorb	diagnosisnnofinagorb	diagnosevbnagorb	
+
+BE: hadAUXalsoRB
+EQ class: wealthy_personnnofinalsorb	havennofinalsorb	haveauxalsorb	have_gotauxalsorb	rich_personnnofinalsorb	holdauxalsorb	
+
+BE: doneAUXveryRB
+EQ class: makeauxveryrb	doauxveryrb	
+
+BE: doneAUXwellRB
+EQ class: makeauxwellrb	doauxwellrb	
+
+BE: pointNN
+EQ class: 
+
+BE: oneNN
+EQ class: inn	acenn	unitynn	singlenn	1nn	
+
+BE: doctorNN
+EQ class: physiciannn	dr.nn	doctorialjj	docnn	mediconn	mdnn	
+
+BE: someoneNN
+EQ class: personnn	soulnn	individualnn	somebodynn	mortalnn	
+
+BE: knowsVBZ
+EQ class: cognisevbz	knowvbz	cognizevbz	
+
+BE: goingVBG
+EQ class: movevbg	govbg	travelvbg	locomotevbg	
+
+BE: dieVB
+EQ class: deceasevb	kick_the_bucketvb	exitvb	pop_offvb	conkvb	give-up_the_ghostvb	snuff_itvb	perishvb	buy_the_farmvb	govb	passvb	chokevb	drop_deadvb	croakvb	cash_in_one's_chipsvb	expirevb	pass_awayvb	
+
+BE: myPRP$pointNN
+EQ class: pointnnofinmyprp$	
+
+BE: pointNNisAUX
+EQ class: pointnnbeaux	
+
+BE: doctorNNknowsVBZ
+EQ class: mdnncognizevbz	knowernndoctornn	knowernndocnn	knowingnnmediconn	apprehendernndoctorialjj	knowernnofindocnn	knowingnnofinmediconn	doctornncognizevbz	knowingnnofinmdnn	apprehendernnofindocnn	apprehendernnmediconn	knowernnofinphysiciannn	mediconnknowvbz	knowernnofindr.nn	doctornncognisevbz	knowingnnphysiciannn	physiciannncognisevbz	knowingnnofindoctorialjj	dr.nncognisevbz	mdnnknowsvbz	knowingnndocnn	knowingnnofindr.nn	knowablennofinmediconn	docnnknowvbz	docnncognisevbz	knowernndr.nn	apprehendernnphysiciannn	knowernndoctorialjj	apprehendernnmdnn	knowablennofindocnn	apprehendernnofinphysiciannn	apprehendernndocnn	knowablennofindoctornn	apprehendernnofindoctorialjj	apprehendernndr.nn	mdnncognisevbz	apprehendernnofinmdnn	physiciannncognizevbz	knowingnndr.nn	doctorialjjknowsvbz	dr.nnknowsvbz	knowernnofinmdnn	dr.nncognizevbz	docnncognizevbz	apprehendernnofinmediconn	knowingnnmdnn	knowernnmediconn	physiciannnknowvbz	knowingnnofindocnn	knowablennofinphysiciannn	knowingnnofindoctornn	doctorialjjknowvbz	doctornnknowvbz	apprehendernnofindr.nn	knowernnphysiciannn	knowablennofindoctorialjj	dr.nnknowvbz	docnnknowsvbz	doctorialjjcognizevbz	knowingnndoctornn	knowernnofinmediconn	mediconncognizevbz	knowernnofindoctornn	mdnnknowvbz	doctorialjjcognisevbz	knowernnofindoctorialjj	knowingnndoctorialjj	knowablennofinmdnn	mediconnknowsvbz	physiciannnknowsvbz	knowernnmdnn	apprehendernnofindoctornn	knowingnnofinphysiciannn	apprehendernndoctornn	knowablennofindr.nn	mediconncognisevbz	
+
+BE: someoneNNgoingVBG
+EQ class: individualnngoingvbg	somebodynngovbg	individualnngovbg	soulnnlocomotevbg	soulnnmovevbg	mortalnnmovevbg	personnngovbg	personnnlocomotevbg	someonenntravelvbg	someonenngovbg	mortalnnlocomotevbg	individualnntravelvbg	mortalnngoingvbg	soulnntravelvbg	somebodynnlocomotevbg	individualnnlocomotevbg	somebodynnmovevbg	personnntravelvbg	mortalnntravelvbg	soulnngovbg	somebodynngoingvbg	individualnnmovevbg	personnnmovevbg	soulnngoingvbg	somebodynntravelvbg	mortalnngovbg	someonennlocomotevbg	someonennmovevbg	personnngoingvbg	
+
+BE: isAUXthatINknowsVBZ
+EQ class: beauxthatinknowsvbz	isauxthatincognizevbz	isauxthatinknowvbz	beauxthatincognisevbz	beauxthatinknowvbz	isauxthatincognisevbz	beauxthatincognizevbz	
+
+BE: goingVBGdieVB
+EQ class: govbgcroakvb	govbgpassvb	travelvbgkick_the_bucketvb	movevbgexpirevb	govbgcash_in_one's_chipsvb	govbgkick_the_bucketvb	locomotevbgpassvb	locomotevbgexpirevb	goingvbggovb	movevbgpass_awayvb	locomotevbgcroakvb	goingvbgbuy_the_farmvb	movevbgexitvb	locomotevbgexitvb	movevbgbuy_the_farmvb	movevbgchokevb	govbgperishvb	movevbggovb	goingvbgchokevb	movevbgpop_offvb	locomotevbgchokevb	locomotevbgsnuff_itvb	movevbgdrop_deadvb	movevbggive-up_the_ghostvb	travelvbgconkvb	movevbgconkvb	goingvbgcroakvb	travelvbgexitvb	movevbgdeceasevb	govbgexitvb	locomotevbgdievb	govbgchokevb	travelvbgdievb	govbggovb	goingvbgpass_awayvb	movevbgperishvb	govbgdeceasevb	locomotevbgpass_awayvb	travelvbgcash_in_one's_chipsvb	govbggive-up_the_ghostvb	travelvbggive-up_the_ghostvb	locomotevbggovb	goingvbgperishvb	movevbgkick_the_bucketvb	locomotevbgcash_in_one's_chipsvb	locomotevbgbuy_the_farmvb	govbgpass_awayvb	travelvbgpass_awayvb	goingvbgkick_the_bucketvb	govbgbuy_the_farmvb	travelvbgdrop_deadvb	govbgdievb	goingvbgconkvb	travelvbggovb	locomotevbggive-up_the_ghostvb	travelvbgcroakvb	movevbgdievb	locomotevbgconkvb	locomotevbgdeceasevb	goingvbgcash_in_one's_chipsvb	movevbgsnuff_itvb	travelvbgdeceasevb	goingvbgexitvb	govbgdrop_deadvb	movevbgpassvb	movevbgcash_in_one's_chipsvb	travelvbgexpirevb	travelvbgbuy_the_farmvb	travelvbgpassvb	goingvbggive-up_the_ghostvb	goingvbgexpirevb	locomotevbgperishvb	govbgexpirevb	travelvbgperishvb	goingvbgdrop_deadvb	locomotevbgpop_offvb	goingvbgpassvb	govbgpop_offvb	goingvbgpop_offvb	goingvbgsnuff_itvb	locomotevbgkick_the_bucketvb	travelvbgpop_offvb	goingvbgdeceasevb	govbgconkvb	govbgsnuff_itvb	travelvbgsnuff_itvb	travelvbgchokevb	movevbgcroakvb	locomotevbgdrop_deadvb	
+
+BE: MomNN
+EQ class: mammynn	mummynn	mommann	mammann	mommynn	mamann	mumnn	mann	
+
+BE: loveNN
+EQ class: 
+
+BE: respectNN
+EQ class: regardnn	
+
+BE: todayNN
+EQ class: 
+
+BE: momentNN
+EQ class: minutenn	secondnn	instantnn	
+
+BE: treatVB
+EQ class: handlevb	do_byvb	
+
+BE: concentrateVB
+EQ class: 
+
+BE: yourPRP$MomNN
+EQ class: yourprp$mumnn	yourprp$mommann	mumnnofinyourprp$	mannofinyourprp$	momnnofinyourprp$	yourprp$mann	mommannofinyourprp$	yourprp$mummynn	mommynnofinyourprp$	yourprp$mamann	yourprp$mammynn	mammynnofinyourprp$	mamannofinyourprp$	yourprp$mommynn	yourprp$mammann	mammannofinyourprp$	mummynnofinyourprp$	
+
+BE: shePRPisAUX
+EQ class: heprpbeaux	sheprpbeaux	heprpisaux	weprpisaux	weprpbeaux	
+
+BE: treatVBMomNN
+EQ class: do_byvbmammann	treatvbmammynn	handlevbmamann	do_byvbmummynn	treatvbmumnn	handlevbmummynn	do_byvbmomnn	treatvbmann	handlevbmann	treatvbmommann	do_byvbmann	handlevbmammann	do_byvbmumnn	do_byvbmamann	handlevbmommann	handlevbmammynn	handlevbmumnn	treatvbmummynn	treatvbmommynn	treatvbmammann	handlevbmommynn	treatvbmamann	handlevbmomnn	do_byvbmommann	do_byvbmammynn	do_byvbmommynn	
+
+BE: isAUXtodayNN
+EQ class: beauxtodaynn	
+
+BE: treatVBwithINloveNN
+EQ class: do_byvbwithinlovenn	handlevbwithinlovenn	
+
+BE: futureNN
+EQ class: time_to_comenn	futuritynn	hereafternn	
+
+BE: lookVB
+EQ class: 
+
+BE: lookVBintoINfutureNN
+EQ class: lookvbintoinfuturitynn	lookvbintointime_to_comenn	lookvbintoinhereafternn	
+
+BE: doAUXnotRB
+EQ class: makeauxnotrb	
+
+BE: timesNNS
+EQ class: theynns	themnns	
+
+BE: goVB
+EQ class: locomotevb	movevb	travelvb	
+
+BE: enjoyVB
+EQ class: baskvb	savourvb	relishvb	savorvb	
+
+BE: talkVB
+EQ class: speakvb	
+
+BE: laughVB
+EQ class: express_joyvb	express_mirthvb	
+
+BE: honestJJ
+EQ class: honestnessnn	honorablejj	
+
+BE: enjoyVBherPRP
+EQ class: enjoymentnnofinherprp	savourvbheprp	enjoymentnnofinweprp	baskvbheprp	enjoyernnofinherprp	relishvbheprp	savourvbweprp	savorvbherprp	savorvbheprp	relishvbherprp	enjoyvbweprp	baskvbherprp	savourvbherprp	baskvbweprp	enjoyernnofinweprp	relishvbweprp	savorvbweprp	enjoyernnofinheprp	enjoymentnnofinheprp	enjoyvbheprp	
+
+BE: beAUXcompletelyRB
+EQ class: completenessnnininbeaux	completejjininbeaux	
+
+BE: beAUXwithINherPRP
+EQ class: beauxwithinweprp	beauxwithinheprp	
+
+BE: beAUXatINtimesNNS
+EQ class: beauxatintheynns	beauxatinthemnns	
+
+BE: handNN
+EQ class: manusnn	pawnn	mittnn	
+
+BE: writeVB
+EQ class: composevb	penvb	inditevb	
+
+BE: writeVBoffRP
+EQ class: authornnofinoffrp	writernnofinoffrp	penningnnofinoffrp	composevboffrp	compositionnnofinoffrp	authorshipnnofinoffrp	penvboffrp	inditevboffrp	writingnnofinoffrp	
+
+BE: otherJJ
+EQ class: 
+
+BE: realisticJJ
+EQ class: realistnn	
+
+BE: otherJJhandNN
+EQ class: otherjjmittnn	otherjjpawnn	otherjjmanusnn	
+
+BE: writeVBherPRP
+EQ class: penvbheprp	composevbweprp	writernnofinherprp	writernnofinheprp	authornnofinweprp	inditevbweprp	authorshipnnofinheprp	compositionnnofinherprp	compositionnnofinweprp	authorshipnnofinherprp	penvbherprp	inditevbherprp	authorshipnnofinweprp	penvbweprp	composevbheprp	authornnofinheprp	penningnnofinweprp	inditevbheprp	writingnnofinweprp	compositionnnofinheprp	authornnofinherprp	writingnnofinheprp	penningnnofinheprp	penningnnofinherprp	composevbherprp	writingnnofinherprp	writernnofinweprp	writevbheprp	writevbweprp	
+
+BE: beAUXrealisticJJ
+EQ class: beauxrealistnn	
+
+BE: doAUXnotRB
+EQ class: makeauxnotrb	
+
+BE: sourceNN
+EQ class: rootnn	beginningnn	originnn	rootagenn	
+
+BE: strengthNN
+EQ class: 
+
+BE: championNN
+EQ class: title-holdernn	champnn	
+
+BE: smileVBP
+EQ class: 
+
+BE: encourageVB
+EQ class: advancevb	boostvb	furthervb	promotevb	
+
+BE: herPRP$sourceNN
+EQ class: originnnofinheprp$	rootnnofinheprp$	herprp$originnn	herprp$beginningnn	weprp$originnn	rootagennofinherprp$	heprp$beginningnn	originnnofinherprp$	beginningnnofinweprp$	rootnnofinherprp$	herprp$rootagenn	heprp$originnn	beginningnnofinherprp$	rootagennofinheprp$	sourcennofinherprp$	heprp$rootagenn	weprp$rootnn	weprp$rootagenn	beginningnnofinheprp$	sourcennofinheprp$	heprp$sourcenn	rootnnofinweprp$	heprp$rootnn	originnnofinweprp$	rootagennofinweprp$	sourcennofinweprp$	weprp$sourcenn	herprp$rootnn	weprp$beginningnn	
+
+BE: herPRP$championNN
+EQ class: championnnofinweprp$	title-holdernnofinherprp$	title-holdernnofinheprp$	champnnofinherprp$	herprp$title-holdernn	champnnofinheprp$	title-holdernnofinweprp$	herprp$champnn	weprp$champnn	championnnofinheprp$	heprp$champnn	heprp$championnn	weprp$title-holdernn	heprp$title-holdernn	weprp$championnn	championnnofinherprp$	champnnofinweprp$	
+
+BE: youPRPsmileVBP
+EQ class: smilennofinyouprp	smilingnnyouprp	smilingjjofinyouprp	grinnnofinyouprp	grinnnyouprp	smilennyouprp	grinningnnofinyouprp	smilingjjyouprp	grinningnnyouprp	smilernnyouprp	smilernnofinyouprp	smilingnnofinyouprp	
+
+BE: youPRPbeAUX
+EQ class: 
+
+BE: youPRPbeAUX
+EQ class: 
+
+BE: beAUXsourceNN
+EQ class: beauxrootnn	beauxbeginningnn	beauxrootagenn	beauxoriginnn	
+
+BE: beAUXchampionNN
+EQ class: beauxchampnn	beauxtitle-holdernn	
+
+BE: sourceNNofINstrengthNN
+EQ class: strengthnnsourcenn	beginningnnofinstrengthnn	rootnnofinstrengthnn	strengthnnrootnn	strengthnnrootagenn	strengthnnbeginningnn	strengthnnoriginnn	rootagennofinstrengthnn	originnnofinstrengthnn	
+
+BE: journeyNN
+EQ class: journeyingnn	
+
+BE: letVB
+EQ class: allowvb	permitvb	
+
+BE: walkVB
+EQ class: 
+
+BE: herPRPwalkVB
+EQ class: walknnofinweprp	walknnofinherprp	walknnofinheprp	john_walkernnofinweprp	heprpwalkvb	walkingnnherprp	john_walkernnherprp	walkernnofinweprp	john_walkernnofinherprp	walkingnnheprp	john_walkernnweprp	john_walkernnheprp	john_walkernnofinheprp	walkingnnofinheprp	walknnweprp	walkingnnofinherprp	walkingnnofinweprp	walkernnofinherprp	walkernnherprp	walkingnnweprp	walkernnheprp	walkernnweprp	weprpwalkvb	walknnheprp	walkernnofinheprp	walknnherprp	
+
+BE: walkVBjourneyNN
+EQ class: walkernnofinjourneyingnn	walkernnofinjourneynn	walkvbjourneyingnn	john_walkernnofinjourneyingnn	john_walkernnofinjourneynn	walkingnnofinjourneyingnn	walkingnnofinjourneynn	walknnofinjourneynn	walknnofinjourneyingnn	
+
+BE: letVBherPRP
+EQ class: permitvbweprp	letvbweprp	letvbheprp	permitvbheprp	allowvbweprp	permitvbherprp	allowvbherprp	allowvbheprp	
+
+BE: doAUXnotRB
+EQ class: makeauxnotrb	
+
+BE: walkVB..RB
+EQ class: john_walkernnofinrb	walkingnnofin..rb	walkvbrb	walknnofin..rb	walknnofinrb	john_walkernnofin..rb	walkernnofinrb	walkingnnofinrb	walkernnofin..rb	
+
+BE: walkVBInRB
+EQ class: walkernnofininrb	john_walkernnofininrb	walkingnnofininrb	walknnofininrb	
+
+BE: sonsNNS
+EQ class: theynns	sonnns	boynns	themnns	
+
+BE: caseNN
+EQ class: instancenn	examplenn	
+
+BE: oneNN
+EQ class: inn	acenn	unitynn	singlenn	1nn	
+
+BE: cancerNN
+EQ class: cancerousjj	malignant_neoplastic_diseasenn	
+
+BE: ascitesNNS
+EQ class: asciticjj	theynns	themnns	
+
+BE: attitudeNN
+EQ class: mental_attitudenn	
+
+BE: dayNN
+EQ class: dailyjj	24-hour_intervalnn	twenty-four_hoursnn	twenty-four_hour_periodnn	mean_solar_daynn	solar_daynn	
+
+BE: pathNN
+EQ class: way_of_lifenn	waynn	
+
+BE: matterNN
+EQ class: thingnn	affairnn	
+
+BE: directionNN
+EQ class: waynn	
+
+BE: sideNN
+EQ class: 
+
+BE: journeyNN
+EQ class: journeyingnn	
+
+BE: deathNN
+EQ class: deceasenn	expirynn	
+
+BE: everythingNN
+EQ class: 
+
+BE: powerNN
+EQ class: powerfulnessnn	
+
+BE: knewVBD
+EQ class: cognizevbd	knowvbd	cognisevbd	
+
+BE: surviveVB
+EQ class: live_onvb	lastvb	hold_outvb	livevb	hold_upvb	endurevb	govb	
+
+BE: notVBD
+EQ class: 
+
+BE: filledVBN
+EQ class: fillvbn	make_fullvbn	fill_upvbn	
+
+BE: maintainedVBD
+EQ class: holdvbd	keepvbd	maintainvbd	
+
+BE: livedVBD
+EQ class: inhabitvbd	populatevbd	dwellvbd	livevbd	
+
+BE: becameVBD
+EQ class: govbd	becomevbd	getvbd	
+
+BE: determinedVBN
+EQ class: find_outvbn	findvbn	determinevbn	ascertainvbn	
+
+BE: followVB
+EQ class: 
+
+BE: tookVBD
+EQ class: takevbd	
+
+BE: inVBZ
+EQ class: 
+
+BE: stayedVBD
+EQ class: restvbd	stayvbd	remainvbd	
+
+BE: feltVBD
+EQ class: 
+
+BE: helpingVBG
+EQ class: assistvbg	aidvbg	helpvbg	
+
+BE: includeVB
+EQ class: 
+
+BE: doingVBG
+EQ class: makevbg	dovbg	
+
+BE: seeVB
+EQ class: 
+
+BE: livedVBD
+EQ class: inhabitvbd	populatevbd	dwellvbd	livevbd	
+
+BE: cameVBDaroundRP
+EQ class: come_upvbdaroundrp	comingnnofinaroundrp	approachingnnofinaroundrp	comevbdaroundrp	approachnnofinaroundrp	
+
+BE: malignantJJ
+EQ class: malignancynn	malignancenn	
+
+BE: grimJJ
+EQ class: unforgivingjj	unrelentingjj	sternjj	relentlessjj	grimnessnn	unappeasablejj	inexorablejj	
+
+BE: positiveJJ
+EQ class: positivenessnn	positivitynn	
+
+BE: importantJJ
+EQ class: of_importjj	importancenn	
+
+BE: malignantJJascitesNNS
+EQ class: malignantjjasciticjj	malignancynnasciticjj	malignancynnthemnns	malignantjjthemnns	malignancennasciticjj	malignancynntheynns	malignantjjtheynns	malignancenntheynns	malignancennascitesnns	malignancennthemnns	malignancynnascitesnns	asciticvbmalignantlyrb	
+
+BE: positiveJJattitudeNN
+EQ class: positivitynnattitudenn	positivenessnnmental_attitudenn	positivitynnmental_attitudenn	positivejjmental_attitudenn	positivenessnnattitudenn	
+
+BE: myPRP$caseNN
+EQ class: myprp$instancenn	instancennofinmyprp$	examplennofinmyprp$	casennofinmyprp$	myprp$examplenn	
+
+BE: hisPRP$sideNN
+EQ class: sidennofinheprp$	weprp$sidenn	sidennofinweprp$	sidennofinhisprp$	heprp$sidenn	
+
+BE: ourPRP$powerNN
+EQ class: powerfulnessnnofinourprp$	ourprp$powerfulnessnn	powernnofinourprp$	
+
+BE: sonsNNScaseNN
+EQ class: sonnnsexamplenn	casennofinthemnns	sonsnnsinstancenn	casennofintheynns	casennofinsonnns	instancennofinboynns	boynnsinstancenn	examplennofinthemnns	themnnsinstancenn	boynnsexamplenn	instancennofinsonnns	theynnsexamplenn	examplennofinboynns	examplennofinsonnns	sonsnnsexamplenn	examplennofintheynns	theynnscasenn	casennofinboynns	theynnsinstancenn	sonnnscasenn	instancennofinthemnns	themnnscasenn	casennofinsonsnns	instancennofintheynns	themnnsexamplenn	instancennofinsonsnns	examplennofinsonsnns	sonnnsinstancenn	boynnscasenn	
+
+BE: oneNNknewVBD
+EQ class: unitynncognisevbd	unitynncognizevbd	1nncognisevbd	knowernnunitynn	knowingnnofininn	unitynnknewvbd	knowernnofinunitynn	knowablennofinonenn	1nncognizevbd	knowingnnacenn	apprehendernnofinunitynn	acennknowvbd	knowablennofinacenn	singlennknowvbd	singlenncognisevbd	knowernninn	knowablennofinunitynn	innknewvbd	inncognizevbd	knowernnsinglenn	apprehendernn1nn	apprehendernnsinglenn	knowingnnofin1nn	knowingnnofinsinglenn	knowernnofinonenn	knowingnnofinonenn	acenncognizevbd	knowingnn1nn	knowingnnunitynn	apprehendernninn	acenncognisevbd	knowablennofinsinglenn	knowernnacenn	apprehendernnunitynn	apprehendernnofininn	knowingnnsinglenn	knowernn1nn	knowernnofininn	knowablennofin1nn	apprehendernnofin1nn	knowernnofinsinglenn	apprehendernnofinsinglenn	knowingnnofinunitynn	unitynnknowvbd	knowablennofininn	innknowvbd	knowernnonenn	apprehendernnacenn	singlenncognizevbd	1nnknewvbd	onenncognisevbd	knowingnninn	knowernnofinacenn	acennknewvbd	knowingnnofinacenn	1nnknowvbd	apprehendernnofinonenn	onennknowvbd	inncognisevbd	onenncognizevbd	apprehendernnonenn	knowernnofin1nn	knowingnnonenn	apprehendernnofinacenn	singlennknewvbd	
+
+BE: oneNNnotVBD
+EQ class: singlennnotvbd	innnotvbd	unitynnnotvbd	acennnotvbd	1nnnotvbd	
+
+BE: hePRPsurviveVB
+EQ class: heprplastvb	heprplive_onvb	endurancennofinheprp	heprplivevb	heprpgovb	heprphold_upvb	heprpendurevb	endurancennheprp	survivalnnheprp	heprphold_outvb	survivalnnofinheprp	
+
+BE: itPRPwasAUX
+EQ class: itprpbeaux	
+
+BE: wePRPmaintainedVBD
+EQ class: weprpmaintainvbd	maintainernnofinweprp	weprpkeepvbd	weprpholdvbd	sustainernnweprp	maintainablennofinweprp	sustainernnofinweprp	upholdernnweprp	maintainernnweprp	upholdernnofinweprp	
+
+BE: wePRPlivedVBD
+EQ class: liveryjjweprp	livernnweprp	weprpinhabitvbd	livernnofinweprp	weprplivevbd	liveryjjofinweprp	liveablennofinweprp	livablennofinweprp	weprppopulatevbd	weprpdwellvbd	
+
+BE: wePRPbecameVBD
+EQ class: weprpgovbd	weprpgetvbd	weprpbecomevbd	
+
+BE: theyPRPcameVBD
+EQ class: comingnnbleomycin, etoposide and platinolprp	approachnnofinsurgeryprp	approachingnnplatinolprp	surgeryprpcomevbd	approachnnofinmonthsprp	comingnnroundsprp	approachnnofinsurgeriesprp	monthsprpcomevbd	surgeriesprpcamevbd	ascitesprpcomevbd	bleomycin, etoposide and platinolprpcamevbd	approachingnnofinnodulesprp	sonsprpcomevbd	tumorsprpcome_upvbd	comingnnofinsurgeryprp	approachnnofintimesprp	approachingnnofinmonthsprp	approachnnplatinolprp	comingnndiaphragmprp	comingnnofintheyprp	approachingnnofintimesprp	comingnnofinascitesprp	theyprpcomevbd	comingnnsarcoma. heprp	comingnnofinbleomycin, etoposide and platinolprp	ascitesprpcamevbd	approachingnnofinroundsprp	approachingnnbleomycin, etoposide and platinolprp	approachnntimesprp	surgeryprpcamevbd	comingnnsurgeriesprp	approachingnnofinascitesprp	comingnnmonthsprp	approachnnroundsprp	sonsprpcamevbd	approachingnntumorsprp	roundsprpcamevbd	approachnnofinnodulesprp	diaphragmprpcomevbd	comingnnofinroundsprp	approachnnsurgeryprp	approachingnnofinsonsprp	approachingnnofindiaphragmprp	nodulesprpcamevbd	comingnnsurgeryprp	diaphragmprpcome_upvbd	approachingnnsurgeryprp	approachingnnsonsprp	approachingnnofinsurgeryprp	approachnntheyprp	approachnnnodulesprp	platinolprpcome_upvbd	approachnntumorsprp	approachnnofinsonsprp	approachnnofinsarcoma. heprp	diaphragmprpcamevbd	comingnnascitesprp	bleomycin, etoposide and platinolprpcome_upvbd	comingnntumorsprp	tumorsprpcamevbd	comingnnofinsarcoma. heprp	approachnnofintumorsprp	comingnnofinmonthsprp	approachnnofintheyprp	approachingnnofinbleomycin, etoposide and platinolprp	comingnntimesprp	approachnnofinroundsprp	comingnnofinsurgeriesprp	approachingnndiaphragmprp	approachingnnofintheyprp	surgeriesprpcome_upvbd	theyprpcome_upvbd	platinolprpcomevbd	approachingnnmonthsprp	sarcoma. heprpcamevbd	roundsprpcome_upvbd	approachnnascitesprp	nodulesprpcome_upvbd	approachingnnsarcoma. heprp	approachnnmonthsprp	comingnnplatinolprp	comingnnsonsprp	approachnnsurgeriesprp	approachingnnroundsprp	approachingnnofinplatinolprp	approachingnnofinsurgeriesprp	bleomycin, etoposide and platinolprpcomevbd	monthsprpcome_upvbd	approachingnnascitesprp	comingnnnodulesprp	approachnnofinbleomycin, etoposide and platinolprp	comingnnofinnodulesprp	tumorsprpcomevbd	comingnnofintimesprp	sarcoma. heprpcomevbd	approachnnofinascitesprp	sarcoma. heprpcome_upvbd	timesprpcomevbd	approachnnsonsprp	surgeryprpcome_upvbd	approachingnnofinsarcoma. heprp	approachingnnofintumorsprp	surgeriesprpcomevbd	approachnnsarcoma. heprp	approachingnntimesprp	approachingnnsurgeriesprp	approachnndiaphragmprp	approachnnbleomycin, etoposide and platinolprp	platinolprpcamevbd	ascitesprpcome_upvbd	comingnnofinsonsprp	timesprpcamevbd	timesprpcome_upvbd	monthsprpcamevbd	approachnnofindiaphragmprp	sonsprpcome_upvbd	approachingnnnodulesprp	comingnntheyprp	comingnnofinplatinolprp	approachnnofinplatinolprp	comingnnofintumorsprp	roundsprpcomevbd	nodulesprpcomevbd	approachingnntheyprp	comingnnofindiaphragmprp	
+
+BE: matterNNinVBZ
+EQ class: thingnninvbz	affairnninvbz	
+
+BE: itPRPtookVBD
+EQ class: itprptakevbd	
+
+BE: WePersonAnnotationstayedVBD
+EQ class: wepersonannotationremainvbd	staynnofinwepersonannotation	wepersonannotationstayvbd	wepersonannotationrestvbd	
+
+BE: WePersonAnnotationfeltVBD
+EQ class: feltnnofinwepersonannotation	
+
+BE: deathNNwasAUX
+EQ class: expirynnbeaux	deceasennbeaux	deceasennwasaux	expirynnwasaux	deathnnbeaux	
+
+BE: hePRPlivedVBD
+EQ class: livernnheprp	heprplivevbd	livablennofinheprp	liveryjjofinheprp	livernnofinheprp	liveablennofinheprp	liveryjjheprp	heprppopulatevbd	heprpdwellvbd	heprpinhabitvbd	
+
+BE: journeyNNincludeVB
+EQ class: journeyingnnincludevb	
+
+BE: inVBZpathNN
+EQ class: invbzway_of_lifenn	invbzwaynn	
+
+BE: maintainedVBDattitudeNN
+EQ class: maintainvbdattitudenn	maintainedvbdmental_attitudenn	maintainablennofinmental_attitudenn	maintainernnofinmental_attitudenn	maintainernnofinattitudenn	maintainvbdmental_attitudenn	holdvbdmental_attitudenn	maintainablennofinattitudenn	upholdernnofinattitudenn	upholdernnofinmental_attitudenn	holdvbdattitudenn	sustainernnofinattitudenn	sustainernnofinmental_attitudenn	keepvbdattitudenn	keepvbdmental_attitudenn	
+
+BE: livedVBDdayNN
+EQ class: inhabitvbdmean_solar_daynn	dwellvbd24-hour_intervalnn	populatevbdtwenty-four_hoursnn	livernnofindailyjj	liveryjjofinsolar_daynn	liveablennofindailyjj	livernnofintwenty-four_hour_periodnn	inhabitvbdtwenty-four_hoursnn	inhabitvbd24-hour_intervalnn	livevbdsolar_daynn	inhabitvbdtwenty-four_hour_periodnn	livablennofinmean_solar_daynn	dwellvbddaynn	liveablennofin24-hour_intervalnn	populatevbdsolar_daynn	livernnofin24-hour_intervalnn	dwellvbddailyjj	populatevbd24-hour_intervalnn	livablennofintwenty-four_hoursnn	liveablennofinmean_solar_daynn	liveablennofintwenty-four_hour_periodnn	populatevbddaynn	liveryjjofin24-hour_intervalnn	livablennofinsolar_daynn	dwellvbdtwenty-four_hoursnn	liveablennofintwenty-four_hoursnn	livevbdtwenty-four_hoursnn	liveablennofinsolar_daynn	livablennofindaynn	populatevbddailyjj	dwellvbdtwenty-four_hour_periodnn	liveryjjofinmean_solar_daynn	livablennofintwenty-four_hour_periodnn	livedvbdtwenty-four_hour_periodnn	livernnofintwenty-four_hoursnn	liveryjjofintwenty-four_hour_periodnn	livernnofinsolar_daynn	livablennofin24-hour_intervalnn	livevbddaynn	livedvbdtwenty-four_hoursnn	dwellvbdsolar_daynn	livernnofinmean_solar_daynn	liveryjjofindailyjj	dwellvbdmean_solar_daynn	inhabitvbddaynn	livedvbddailyjj	livernnofindaynn	liveryjjofindaynn	populatevbdmean_solar_daynn	livedvbd24-hour_intervalnn	inhabitvbddailyjj	livevbd24-hour_intervalnn	populatevbdtwenty-four_hour_periodnn	livevbddailyjj	liveablennofindaynn	livedvbdsolar_daynn	livedvbdmean_solar_daynn	livevbdtwenty-four_hour_periodnn	livablennofindailyjj	livevbdmean_solar_daynn	liveryjjofintwenty-four_hoursnn	inhabitvbdsolar_daynn	
+
+BE: followVBpathNN
+EQ class: followvbway_of_lifenn	followingnnofinwaynn	followernnofinway_of_lifenn	followernnofinwaynn	followvbwaynn	followersnnofinway_of_lifenn	followingnnofinpathnn	followingnnofinway_of_lifenn	followersnnofinpathnn	followernnofinpathnn	followersnnofinwaynn	
+
+BE: tookVBDusPRP
+EQ class: takevbdusprp	
+
+BE: helpingVBGhimPRP
+EQ class: assistnnofinhimprp	aidvbgweprp	supporternnofinhimprp	assistantnnofinweprp	assistantnnofinheprp	assistancennofinhimprp	aidnnofinhimprp	helpvbgheprp	helpnnofinheprp	assistancennofinheprp	assistvbghimprp	helpernnofinhimprp	aidnnofinweprp	helpvbgweprp	aidvbghimprp	supporternnofinheprp	assistnnofinweprp	helpernnofinheprp	supporternnofinweprp	helpingvbgweprp	helpernnofinweprp	helpnnofinhimprp	assistvbgheprp	aidvbgheprp	aidnnofinheprp	assistancennofinweprp	assistvbgweprp	helpingvbgheprp	assistantnnofinhimprp	helpvbghimprp	assistnnofinheprp	helpnnofinweprp	
+
+BE: doingVBGeverythingNN
+EQ class: dovbgeverythingnn	makevbgeverythingnn	
+
+BE: filledVBNHePersonAnnotation
+EQ class: fillernnofinwepersonannotation	fillnnofinhepersonannotation	fillnnofinwepersonannotation	make_fullvbnwepersonannotation	filledvbnwepersonannotation	fillvbnhepersonannotation	make_fullvbnhepersonannotation	fillernnofinhepersonannotation	fill_upvbnhepersonannotation	fillvbnwepersonannotation	fillingnnofinhepersonannotation	fill_upvbnwepersonannotation	fillingnnofinwepersonannotation	
+
+BE: wasAUXgrimJJ
+EQ class: beauxgrimjj	wasauxgrimnessnn	beauxinexorablejj	wasauxunforgivingjj	wasauxunappeasablejj	beauxrelentlessjj	wasauxsternjj	wasauxinexorablejj	beauxsternjj	beauxunrelentingjj	beauxunforgivingjj	beauxunappeasablejj	wasauxrelentlessjj	wasauxunrelentingjj	beauxgrimnessnn	
+
+BE: wasAUXimportantJJ
+EQ class: beauximportancenn	beauximportantjj	wasauxof_importjj	beauxof_importjj	wasauximportancenn	
+
+BE: stayedVBDbyINsideNN
+EQ class: remainvbdbyinsidenn	stayvbdbyinsidenn	restvbdbyinsidenn	
+
+BE: helpingVBGonINjourneyNN
+EQ class: helpvbgoninjourneynn	aidvbgoninjourneynn	assistvbgoninjourneynn	assistvbgoninjourneyingnn	helpingvbgoninjourneyingnn	aidvbgoninjourneyingnn	helpvbgoninjourneyingnn	
+
+BE: doingVBGinINpowerNN
+EQ class: makevbgininpowernn	dovbgininpowerfulnessnn	dovbgininpowernn	doingvbgininpowerfulnessnn	makevbgininpowerfulnessnn	
+
+BE: filledVBNwithINcancerNN
+EQ class: make_fullvbnwithincancernn	filledvbnwithincancerousjj	make_fullvbnwithincancerousjj	make_fullvbnwithinmalignant_neoplastic_diseasenn	fill_upvbnwithincancerousjj	fill_upvbnwithincancernn	fillvbnwithinmalignant_neoplastic_diseasenn	fillvbnwithincancernn	filledvbnwithinmalignant_neoplastic_diseasenn	fill_upvbnwithinmalignant_neoplastic_diseasenn	fillvbnwithincancerousjj	
+
+BE: filledVBNwithINascitesNNS
+EQ class: make_fullvbnwithinascitesnns	filledvbnwithinthemnns	filledvbnwithintheynns	fillvbnwithinthemnns	make_fullvbnwithinasciticjj	fillvbnwithinascitesnns	fillvbnwithinasciticjj	fill_upvbnwithinasciticjj	make_fullvbnwithintheynns	filledvbnwithinasciticjj	fillvbnwithintheynns	fill_upvbnwithinthemnns	make_fullvbnwithinthemnns	fill_upvbnwithinascitesnns	fill_upvbnwithintheynns	
+
+BE: knewVBDinINcaseNN
+EQ class: knewvbdininexamplenn	cognisevbdinininstancenn	knewvbdinininstancenn	cognizevbdinininstancenn	cognizevbdininexamplenn	knowvbdinininstancenn	cognizevbdinincasenn	knowvbdinincasenn	cognisevbdininexamplenn	knowvbdininexamplenn	cognisevbdinincasenn	
+
+BE: importantJJasINdoingVBG
+EQ class: dovbgimportantlyrb	importantjjasinmakevbg	importancennasindovbg	of_importjjasinmakevbg	of_importjjasindoingvbg	importancennasinmakevbg	makevbgimportantlyrb	importancennasindoingvbg	doingvbgimportantlyrb	importantjjasindovbg	of_importjjasindovbg	
+
+BE: knewVBDifINsurviveVB
+EQ class: cognizevbdifinlastvb	knowvbdifinsurvivevb	cognisevbdifinendurevb	cognisevbdifinsurvivevb	knowvbdifinlivevb	knewvbdifinlivevb	knowvbdifinlive_onvb	knowvbdifinhold_outvb	cognizevbdifingovb	cognizevbdifinlivevb	cognisevbdifinlivevb	cognisevbdifinhold_upvb	knewvbdifinlastvb	knewvbdifinhold_upvb	knowvbdifinhold_upvb	cognisevbdifingovb	knewvbdifinendurevb	knowvbdifingovb	knowvbdifinendurevb	knowvbdifinlastvb	cognizevbdifinhold_upvb	cognizevbdifinlive_onvb	cognizevbdifinendurevb	knewvbdifingovb	knewvbdifinhold_outvb	knewvbdifinlive_onvb	cognizevbdifinhold_outvb	cognisevbdifinlive_onvb	cognisevbdifinhold_outvb	cognizevbdifinsurvivevb	cognisevbdifinlastvb	
+
+BE: livedVBDasINcameVBD
+EQ class: livevbdasincamevbd	dwellvbdasincome_upvbd	dwellvbdasincamevbd	livevbdasincome_upvbd	inhabitvbdasincamevbd	inhabitvbdasincome_upvbd	livedvbdasincomevbd	populatevbdasincamevbd	inhabitvbdasincomevbd	populatevbdasincome_upvbd	populatevbdasincomevbd	livedvbdasincome_upvbd	livevbdasincomevbd	dwellvbdasincomevbd	
+
+BE: feltVBDthatINhelpingVBG
+EQ class: feltvbdthatinhelpvbg	feltvbdthatinaidvbg	feltvbdthatinassistvbg	
+
+BE: seeVBthatINlivedVBD
+EQ class: seevbthatininhabitvbd	seevbthatinpopulatevbd	seevbthatindwellvbd	seevbthatinlivevbd	
+
+BE: wasAUXallRB
+EQ class: beauxallrb	
+
+BE: maintainedVBDjustRB
+EQ class: maintainvbdjustrb	maintainernnofinjustrb	holdvbdjustrb	maintainablennofinjustrb	sustainernnofinjustrb	upholdernnofinjustrb	keepvbdjustrb	
+
+BE: livedVBDjustRB
+EQ class: populatevbdjustrb	dwellvbdjustrb	liveryjjofinjustrb	livablennofinjustrb	livevbdjustrb	liveablennofinjustrb	livernnofinjustrb	inhabitvbdjustrb	
+
+BE: becameVBDjustRB
+EQ class: govbdjustrb	getvbdjustrb	becomevbdjustrb	
+
+BE: deathNNdoingVBG
+EQ class: deceasennmakevbg	deathnndovbg	dovbgexpirynn	deceasenndovbg	doingvbgdeceasenn	deathnnmakevbg	deceasenndoingvbg	expirynndoingvbg	expirynnmakevbg	doingvbgexpirynn	dovbgdeceasenn	doingvbgdeathnn	makevbgdeceasenn	expirynndovbg	dovbgdeathnn	makevbgexpirynn	makevbgdeathnn	
+
+BE: situationNN
+EQ class: state_of_affairsnn	
+
+BE: anyoneNN
+EQ class: 
+
+BE: canVBP
+EQ class: put_upvbp	tinvbp	
+
+BE: strongJJ
+EQ class: 
+
+BE: bestJJS
+EQ class: bestnn	
+
+BE: yourPRP$situationNN
+EQ class: state_of_affairsnnofinyourprp$	yourprp$state_of_affairsnn	situationnnofinyourprp$	
+
+BE: youPRPcanVBP
+EQ class: youprptinvbp	cannerynnofinyouprp	youprpput_upvbp	tin_cannnofinyouprp	tinnnofinyouprp	cannerynnyouprp	cannnofinyouprp	
+
+BE: anyoneNNdoAUX
+EQ class: anyonennmakeaux	
+
+BE: situationNNisAUX
+EQ class: situationnnbeaux	state_of_affairsnnbeaux	state_of_affairsnnisaux	
+
+BE: doAUXbestJJS
+EQ class: doauxbestnn	makeauxbestjjs	makeauxbestnn	
+
+BE: canVBPinINsituationNN
+EQ class: tinvbpininsituationnn	canvbpininstate_of_affairsnn	tinvbpininstate_of_affairsnn	put_upvbpininsituationnn	put_upvbpininstate_of_affairsnn	
+
+BE: isAUXthatINdoAUX
+EQ class: isauxthatinmakeaux	beauxthatindoaux	beauxthatinmakeaux	
+
+BE: isAUXallRB
+EQ class: beauxallrb	
+
+BE: PeaceNN
+EQ class: 
+
+BE: PeaceNNtoTOyouPRP
+EQ class: placatevbyouprp	youprpgentlevb	lenifyvbyouprp	youprpassuagevb	youprppeacenn	youprplenifyvb	conciliatevbyouprp	youprppacifyvb	assuagevbyouprp	mollifyvbyouprp	youprpmollifyvb	appeasevbyouprp	youprpconciliatevb	youprpplacatevb	youprpgruntlevb	gentlevbyouprp	youprpappeasevb	gruntlevbyouprp	pacifyvbyouprp	
+
+BE: P.S.LocationAnnotation
+EQ class: pslocationannotation	
+
+BE: misinformationNN
+EQ class: 
+
+BE: LanceNNP
+EQ class: spearnnp	shaftnnp	
+
+BE: ArmstrongNNP
+EQ class: neil_armstrongnnp	
+
+BE: doseNN
+EQ class: dosagenn	
+
+BE: BEPNNP
+EQ class: pnnp	b.e.p.nnp	phosphorusnnp	atomic_number_15nnp	
+
+BE: Bleomycin, Etoposide and PlatinolOrganizationAnnotation
+EQ class: 
+
+BE: roundsNNS
+EQ class: one_shotnns	theynns	roundnns	themnns	unit_of_ammunitionnns	
+
+BE: VIPNN
+EQ class: high_muckamucknn	pnn	atomic_number_15nn	v.i.p.nn	dignitarynn	panjandrumnn	high-upnn	very_important_personnn	phosphorusnn	
+
+BE: chemotherapyNN
+EQ class: chemotherapeuticaljj	chemotherapeuticjj	
+
+BE: IfosfamideLocationAnnotation
+EQ class: 
+
+BE: EtoposideNNP
+EQ class: 
+
+BE: PlatinolOrganizationAnnotation
+EQ class: 
+
+BE: surgeriesNNS
+EQ class: theynns	surgicaljj	themnns	surgerynns	
+
+BE: cancerNN
+EQ class: cancerousjj	malignant_neoplastic_diseasenn	
+
+BE: correctVB
+EQ class: rectifyvb	rightvb	
+
+BE: usedVBD
+EQ class: employvbd	utilizevbd	utilisevbd	usevbd	applyvbd	
+
+BE: followedVBN
+EQ class: followvbn	
+
+BE: combatVB
+EQ class: battlevb	
+
+BE: highJJ
+EQ class: highnessnn	
+
+BE: chemotherapyJJ
+EQ class: 
+
+BE: chemotherapyJJ
+EQ class: 
+
+BE: chemotherapyJJBEPNNP
+EQ class: chemotherapyjjb.e.p.nnp	chemotherapyjjatomic_number_15nnp	chemotherapyjjpnnp	chemotherapyjjphosphorusnnp	
+
+BE: chemotherapyJJBEPNNP
+EQ class: chemotherapyjjb.e.p.nnp	chemotherapyjjatomic_number_15nnp	chemotherapyjjpnnp	chemotherapyjjphosphorusnnp	
+
+BE: highJJdoseNN
+EQ class: dosevbhighlyrb	highnessnndosenn	highnessnndosagenn	highjjdosagenn	
+
+BE: threeCDroundsNNS
+EQ class: treycdunit_of_ammunitionnns	threesomecdroundnns	trinecdunit_of_ammunitionnns	threecdunit_of_ammunitionnns	ternarycdthemnns	leashcdroundnns	3cdthemnns	threecdthemnns	ternarycdroundsnns	trinitycdroundsnns	deuce-acecdroundnns	triocdroundsnns	leashcdtheynns	threecdone_shotnns	trinitycdtheynns	threesomecdtheynns	troikacdroundnns	trinitycdone_shotnns	tiercecdthemnns	trinecdthemnns	trinecdone_shotnns	ternarycdtheynns	tercetcdthemnns	iiicdtheynns	treycdtheynns	leashcdthemnns	deuce-acecdunit_of_ammunitionnns	ternarycdone_shotnns	3cdtheynns	threesomecdthemnns	deuce-acecdone_shotnns	tercetcdone_shotnns	triadcdroundnns	tripletcdone_shotnns	tiercecdtheynns	triocdthemnns	terzettocdroundsnns	threesomecdunit_of_ammunitionnns	leashcdone_shotnns	triadcdthemnns	trinitycdthemnns	iiicdunit_of_ammunitionnns	tiercecdroundsnns	terzettocdthemnns	triadcdroundsnns	troikacdunit_of_ammunitionnns	ternioncdone_shotnns	deuce-acecdroundsnns	trinitycdunit_of_ammunitionnns	threecdroundnns	tercetcdroundsnns	ternioncdthemnns	terzettocdtheynns	ternioncdtheynns	triocdone_shotnns	treycdthemnns	tripletcdroundsnns	3cdunit_of_ammunitionnns	ternarycdroundnns	tripletcdthemnns	troikacdtheynns	trinecdroundnns	treycdone_shotnns	deuce-acecdthemnns	threecdtheynns	3cdroundsnns	threesomecdroundsnns	leashcdroundsnns	terzettocdone_shotnns	terzettocdroundnns	iiicdroundsnns	treycdroundsnns	iiicdone_shotnns	threesomecdone_shotnns	troikacdone_shotnns	troikacdthemnns	iiicdthemnns	ternioncdunit_of_ammunitionnns	leashcdunit_of_ammunitionnns	iiicdroundnns	deuce-acecdtheynns	tercetcdunit_of_ammunitionnns	3cdroundnns	ternioncdroundnns	ternarycdunit_of_ammunitionnns	trinitycdroundnns	triocdtheynns	tiercecdone_shotnns	triocdunit_of_ammunitionnns	tiercecdunit_of_ammunitionnns	triocdroundnns	trinecdroundsnns	3cdone_shotnns	tripletcdunit_of_ammunitionnns	trinecdtheynns	ternioncdroundsnns	tripletcdtheynns	tripletcdroundnns	tiercecdroundnns	tercetcdroundnns	terzettocdunit_of_ammunitionnns	tercetcdtheynns	triadcdtheynns	triadcdunit_of_ammunitionnns	treycdroundnns	troikacdroundsnns	triadcdone_shotnns	
+
+BE: twoCDsurgeriesNNS
+EQ class: 2cdsurgicaljj	2cdsurgeriesnns	2cdthemnns	2cdsurgerynns	iicdtheynns	twocdsurgerynns	deucecdtheynns	twocdthemnns	deucecdthemnns	iicdthemnns	deucecdsurgicaljj	iicdsurgeriesnns	deucecdsurgerynns	deucecdsurgeriesnns	iicdsurgicaljj	twocdsurgicaljj	2cdtheynns	twocdtheynns	iicdsurgerynns	
+
+BE: hisPRP$cancerNN
+EQ class: hisprp$cancerousjj	weprp$cancerousjj	cancernnofinhisprp$	hisprp$cancerousvb	hisprp$malignant_neoplastic_diseasenn	weprp$cancerousvb	weprp$cancernn	weprp$malignant_neoplastic_diseasenn	cancerousjjofinhisprp$	heprp$cancerousvb	heprp$cancernn	cancernnofinweprp$	malignant_neoplastic_diseasennofinweprp$	cancerousvbheprp$	cancerousvbweprp$	malignant_neoplastic_diseasennofinheprp$	heprp$cancerousjj	cancerousjjofinheprp$	cancerousjjofinweprp$	heprp$malignant_neoplastic_diseasenn	cancernnofinheprp$	malignant_neoplastic_diseasennofinhisprp$	cancerousvbhisprp$	
+
+BE: LanceNNPArmstrongNNP
+EQ class: armstrongnnplancevb	neil_armstrongnnplancevb	shaftnnparmstrongnnp	shaftnnpneil_armstrongnnp	neil_armstrongnnpofinspearnnp	neil_armstrongnnpofinshaftnnp	armstrongnnpofinspearnnp	spearnnparmstrongnnp	spearnnpneil_armstrongnnp	neil_armstrongnnpofinlancennp	armstrongnnpofinshaftnnp	lancennpneil_armstrongnnp	armstrongnnpofinlancennp	
+
+BE: VIPNNchemotherapyNN
+EQ class: vipnnchemotherapeuticvb	pnnchemotherapeuticaljj	atomic_number_15nnchemotherapeuticalvb	chemotherapynnofinv.i.p.nn	panjandrumnnchemotherapynn	chemotherapeuticaljjofinv.i.p.nn	panjandrumnnchemotherapeuticjj	chemotherapeuticvbv.i.p.nn	chemotherapeuticaljjofinhigh_muckamucknn	chemotherapynnofinvery_important_personnn	dignitarynnchemotherapeuticaljj	high_muckamucknnchemotherapeuticvb	chemotherapeuticvbvipnn	high-upnnchemotherapeuticaljj	chemotherapeuticaljjofinpanjandrumnn	chemotherapeuticvbphosphorusnn	chemotherapeuticalvbdignitarynn	pnnchemotherapeuticjj	v.i.p.nnchemotherapeuticalvb	high_muckamucknnchemotherapeuticjj	chemotherapeuticalvbhigh-upnn	v.i.p.nnchemotherapeuticjj	chemotherapeuticjjofinpanjandrumnn	chemotherapeuticalvbatomic_number_15nn	atomic_number_15nnchemotherapeuticaljj	chemotherapeuticvbdignitarynn	dignitarynnchemotherapeuticvb	dignitarynnchemotherapeuticjj	high-upnnchemotherapynn	very_important_personnnchemotherapeuticaljj	chemotherapeuticvbpnn	vipnnchemotherapeuticaljj	chemotherapeuticjjofinatomic_number_15nn	chemotherapeuticjjofinphosphorusnn	chemotherapeuticjjofinpnn	chemotherapeuticaljjofinpnn	dignitarynnchemotherapynn	vipnnchemotherapeuticjj	pnnchemotherapynn	chemotherapeuticalvbhigh_muckamucknn	chemotherapynnofinphosphorusnn	pnnchemotherapeuticvb	phosphorusnnchemotherapeuticvb	chemotherapeuticalvbpnn	chemotherapeuticjjofinvipnn	chemotherapeuticaljjofinatomic_number_15nn	chemotherapynnofinatomic_number_15nn	chemotherapeuticjjofinvery_important_personnn	chemotherapynnofinhigh-upnn	very_important_personnnchemotherapeuticjj	very_important_personnnchemotherapynn	chemotherapeuticaljjofindignitarynn	chemotherapeuticjjofinhigh-upnn	very_important_personnnchemotherapeuticvb	dignitarynnchemotherapeuticalvb	chemotherapynnofinpanjandrumnn	panjandrumnnchemotherapeuticvb	atomic_number_15nnchemotherapynn	high_muckamucknnchemotherapeuticalvb	chemotherapynnofinpnn	atomic_number_15nnchemotherapeuticjj	chemotherapeuticalvbv.i.p.nn	chemotherapeuticaljjofinphosphorusnn	v.i.p.nnchemotherapynn	v.i.p.nnchemotherapeuticvb	high-upnnchemotherapeuticjj	chemotherapynnofinhigh_muckamucknn	panjandrumnnchemotherapeuticaljj	chemotherapeuticvbhigh_muckamucknn	chemotherapeuticjjofinv.i.p.nn	chemotherapeuticaljjofinhigh-upnn	phosphorusnnchemotherapynn	chemotherapeuticaljjofinvery_important_personnn	chemotherapynnofindignitarynn	chemotherapeuticvbatomic_number_15nn	very_important_personnnchemotherapeuticalvb	phosphorusnnchemotherapeuticalvb	chemotherapeuticalvbvery_important_personnn	high_muckamucknnchemotherapynn	phosphorusnnchemotherapeuticaljj	chemotherapeuticjjofinhigh_muckamucknn	chemotherapynnofinvipnn	v.i.p.nnchemotherapeuticaljj	chemotherapeuticalvbphosphorusnn	chemotherapeuticvbpanjandrumnn	atomic_number_15nnchemotherapeuticvb	high-upnnchemotherapeuticvb	panjandrumnnchemotherapeuticalvb	chemotherapeuticalvbpanjandrumnn	chemotherapeuticaljjofinvipnn	chemotherapeuticjjofindignitarynn	high_muckamucknnchemotherapeuticaljj	high-upnnchemotherapeuticalvb	pnnchemotherapeuticalvb	chemotherapeuticvbhigh-upnn	chemotherapeuticvbvery_important_personnn	phosphorusnnchemotherapeuticjj	vipnnchemotherapeuticalvb	chemotherapeuticalvbvipnn	
+
+BE: hePRPusedVBD
+EQ class: exercisennofinheprp	utilizationnnheprp	usagennofinheprp	heprputilizevbd	usennofinheprp	heprpusevbd	exercisennheprp	employmentnnheprp	heprputilisevbd	usennheprp	employmentnnofinheprp	usernnofinheprp	usablennofinheprp	usagennheprp	utilisationnnofinheprp	useablennofinheprp	heprpemployvbd	utilisationnnheprp	heprpapplyvbd	usernnheprp	utilizationnnofinheprp	
+
+BE: P.S.LocationAnnotationcorrectVB
+EQ class: correctionnnpslocationannotation	rectificationnnofinp.s.locationannotation	correctionaljjofinp.s.locationannotation	rectificationnnofinpslocationannotation	correctionaljjpslocationannotation	p.s.locationannotationrectifyvb	correctionnnofinp.s.locationannotation	rectificationnnp.s.locationannotation	correctionnnofinpslocationannotation	pslocationannotationrightvb	correctionaljjp.s.locationannotation	p.s.locationannotationrightvb	rectificationnnpslocationannotation	pslocationannotationrectifyvb	correctionaljjofinpslocationannotation	correctionnnp.s.locationannotation	pslocationannotationcorrectvb	
+
+BE: roundsNNSfollowedVBN
+EQ class: followersnnofinroundnns	roundsnnsfollowvbn	themnnsfollowedvbn	unit_of_ammunitionnnsfollowedvbn	followingnnofinthemnns	followersnnofintheynns	followersnnofinone_shotnns	followernnroundnns	followernnofinroundsnns	roundnnsfollowedvbn	followersnnofinunit_of_ammunitionnns	followingnnofintheynns	followernnroundsnns	one_shotnnsfollowvbn	followernnone_shotnns	followersnnofinthemnns	followernnunit_of_ammunitionnns	followingnnofinone_shotnns	followersnnroundsnns	followernntheynns	followingnnofinroundnns	followingnnunit_of_ammunitionnns	followingnnroundnns	followersnnunit_of_ammunitionnns	followingnntheynns	followernnthemnns	theynnsfollowedvbn	followernnofinunit_of_ammunitionnns	followersnnthemnns	one_shotnnsfollowedvbn	followingnnthemnns	followingnnroundsnns	followernnofinthemnns	followersnnofinroundsnns	unit_of_ammunitionnnsfollowvbn	followersnntheynns	roundnnsfollowvbn	followersnnroundnns	followernnofintheynns	themnnsfollowvbn	theynnsfollowvbn	followernnofinone_shotnns	followersnnone_shotnns	followernnofinroundnns	followingnnofinunit_of_ammunitionnns	followingnnone_shotnns	followingnnofinroundsnns	
+
+BE: surgeriesNNSfollowedVBN
+EQ class: themnnsfollowedvbn	surgerynnsfollowedvbn	followersnnofintheynns	followingnnofinthemnns	followersnnsurgeriesnns	followingnnofinsurgicaljj	followingnnofintheynns	surgicaljjfollowvbn	followersnnofinsurgerynns	followersnnofinthemnns	surgeriesnnsfollowvbn	followersnnofinsurgeriesnns	followersnnsurgicaljj	followernnsurgeriesnns	followersnnsurgerynns	surgerynnsfollowvbn	followernntheynns	followernnthemnns	followingnntheynns	theynnsfollowedvbn	followersnnthemnns	followernnsurgicaljj	followernnofinsurgerynns	followingnnsurgicaljj	followingnnthemnns	followingnnofinsurgerynns	followernnofinthemnns	followernnsurgerynns	followersnnofinsurgicaljj	followersnntheynns	followingnnofinsurgeriesnns	surgicaljjfollowedvbn	followernnofintheynns	themnnsfollowvbn	theynnsfollowvbn	followernnofinsurgicaljj	followernnofinsurgeriesnns	followingnnsurgeriesnns	followingnnsurgerynns	
+
+BE: correctVBmisinformationNN
+EQ class: rectifyvbmisinformationnn	rectificationnnofinmisinformationnn	correctionnnofinmisinformationnn	rightvbmisinformationnn	correctionaljjofinmisinformationnn	
+
+BE: usedVBDBEPNNP
+EQ class: utilisevbdpnnp	usablennofinbepnnp	usablennofinb.e.p.nnp	exercisennofinpnnp	utilisevbdphosphorusnnp	utilisationnnofinphosphorusnnp	usedvbdphosphorusnnp	employvbdpnnp	utilisevbdatomic_number_15nnp	utilisationnnofinbepnnp	utilizationnnofinphosphorusnnp	usablennofinphosphorusnnp	usernnofinbepnnp	applyvbdb.e.p.nnp	employmentnnofinatomic_number_15nnp	useablennofinatomic_number_15nnp	applyvbdatomic_number_15nnp	usedvbdpnnp	utilizevbdb.e.p.nnp	exercisennofinatomic_number_15nnp	usennofinbepnnp	usernnofinatomic_number_15nnp	employvbdatomic_number_15nnp	utilisevbdbepnnp	utilisationnnofinatomic_number_15nnp	usevbdb.e.p.nnp	usennofinpnnp	usevbdphosphorusnnp	usagennofinpnnp	usedvbdb.e.p.nnp	useablennofinb.e.p.nnp	utilizationnnofinb.e.p.nnp	utilizationnnofinatomic_number_15nnp	employmentnnofinbepnnp	applyvbdbepnnp	usevbdatomic_number_15nnp	utilizationnnofinbepnnp	usennofinatomic_number_15nnp	usablennofinatomic_number_15nnp	employvbdb.e.p.nnp	employvbdbepnnp	utilizevbdpnnp	utilizationnnofinpnnp	usagennofinatomic_number_15nnp	exercisennofinbepnnp	exercisennofinb.e.p.nnp	usernnofinb.e.p.nnp	usagennofinbepnnp	applyvbdpnnp	usennofinphosphorusnnp	utilisevbdb.e.p.nnp	utilizevbdphosphorusnnp	usagennofinphosphorusnnp	useablennofinphosphorusnnp	employvbdphosphorusnnp	employmentnnofinphosphorusnnp	exercisennofinphosphorusnnp	utilizevbdatomic_number_15nnp	usennofinb.e.p.nnp	usevbdbepnnp	usevbdpnnp	utilisationnnofinpnnp	usablennofinpnnp	utilisationnnofinb.e.p.nnp	useablennofinpnnp	useablennofinbepnnp	applyvbdphosphorusnnp	usedvbdatomic_number_15nnp	usernnofinphosphorusnnp	employmentnnofinpnnp	employmentnnofinb.e.p.nnp	utilizevbdbepnnp	usagennofinb.e.p.nnp	usernnofinpnnp	
+
+BE: combatVBcancerNN
+EQ class: scrappernnofincancerousjj	combatnnofinmalignant_neoplastic_diseasenn	belligerentnnofincancernn	armed_combatnnofincancerousjj	fighternnofincancernn	battlernnofincancernn	combativennofincancerousjj	combatantjjofinmalignant_neoplastic_diseasenn	combatantnnofincancerousjj	combatantjjofincancernn	fighternnofincancerousjj	battlevbcancerousjj	battlevbmalignant_neoplastic_diseasenn	battlevbcancernn	battlernnofinmalignant_neoplastic_diseasenn	combatantnnofincancernn	scrappernnofincancernn	fighternnofinmalignant_neoplastic_diseasenn	scrappernnofinmalignant_neoplastic_diseasenn	combatnnofincancerousjj	combatvbcancerousjj	combativennofincancernn	armed_combatnnofincancernn	belligerentnnofincancerousjj	combatantnnofinmalignant_neoplastic_diseasenn	battlernnofincancerousjj	armed_combatnnofinmalignant_neoplastic_diseasenn	combatvbmalignant_neoplastic_diseasenn	combatantjjofincancerousjj	belligerentnnofinmalignant_neoplastic_diseasenn	combativennofinmalignant_neoplastic_diseasenn	combatnnofincancernn	
+
+BE: followedVBNBEPNNP
+EQ class: followernnofinbepnnp	followedvbnpnnp	followersnnofinbepnnp	followingnnofinphosphorusnnp	followersnnofinphosphorusnnp	followvbnpnnp	followersnnofinpnnp	followedvbnphosphorusnnp	followedvbnb.e.p.nnp	followernnofinb.e.p.nnp	followvbnatomic_number_15nnp	followvbnbepnnp	followvbnb.e.p.nnp	followingnnofinb.e.p.nnp	followernnofinatomic_number_15nnp	followingnnofinatomic_number_15nnp	followingnnofinbepnnp	followedvbnatomic_number_15nnp	followersnnofinb.e.p.nnp	followingnnofinpnnp	followersnnofinatomic_number_15nnp	followernnofinpnnp	followernnofinphosphorusnnp	followvbnphosphorusnnp	
+
+BE: followedVBNdoseNN
+EQ class: followersnnofindosenn	followingnnofindosagenn	followernnofindosenn	followvbndosenn	followersnnofindosagenn	followedvbndosagenn	followernnofindosagenn	followvbndosagenn	followingnnofindosenn	
+
+BE: roundsNNSofINchemotherapyNN
+EQ class: chemotherapynnone_shotnns	chemotherapeuticjjroundsnns	chemotherapynnthemnns	unit_of_ammunitionnnsofinchemotherapynn	one_shotnnsofinchemotherapynn	chemotherapeuticaljjone_shotnns	chemotherapeuticaljjroundnns	chemotherapeuticjjunit_of_ammunitionnns	roundnnsofinchemotherapeuticaljj	chemotherapeuticaljjunit_of_ammunitionnns	themnnsofinchemotherapynn	chemotherapeuticjjone_shotnns	chemotherapynntheynns	chemotherapeuticaljjthemnns	chemotherapynnunit_of_ammunitionnns	roundnnsofinchemotherapynn	chemotherapeuticjjthemnns	chemotherapynnroundnns	roundsnnsofinchemotherapeuticaljj	chemotherapeuticaljjtheynns	one_shotnnsofinchemotherapeuticjj	themnnsofinchemotherapeuticaljj	one_shotnnsofinchemotherapeuticaljj	chemotherapeuticaljjroundsnns	chemotherapeuticjjtheynns	theynnsofinchemotherapeuticaljj	chemotherapynnroundsnns	unit_of_ammunitionnnsofinchemotherapeuticjj	themnnsofinchemotherapeuticjj	roundnnsofinchemotherapeuticjj	chemotherapeuticjjroundnns	theynnsofinchemotherapynn	theynnsofinchemotherapeuticjj	unit_of_ammunitionnnsofinchemotherapeuticaljj	roundsnnsofinchemotherapeuticjj	
+
+BE: correctVBaboutINArmstrongNNP
+EQ class: rectifyvbaboutinarmstrongnnp	rightvbaboutinneil_armstrongnnp	rightvbaboutinarmstrongnnp	correctvbaboutinneil_armstrongnnp	rectifyvbaboutinneil_armstrongnnp	
+
+BE: followedVBNcombatVB
+EQ class: followedvbnbattlevb	followingnnofinbattlevb	followvbncombatvb	followersnnofinbattlevb	followernnofinbattlevb	followersnnofincombatvb	followernnofincombatvb	followvbnbattlevb	followingnnofincombatvb	
+
+BE: C7AA/Lance.htmNN
+EQ class: c7aa/lancehtmnn	
+

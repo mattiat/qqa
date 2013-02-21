@@ -1,0 +1,257 @@
+#The point is Violence and Teaching Biblical study!!! 
+#(S1 (S (NP (DT The) (NN point)) (VP (AUX is) (NP (NP (NN Violence)) (CC and) (NP (VBG Teaching) (NNP Biblical) (NN study) (NNS !!)))) (. !)))
+#Rule:Nouns
+r1pointNN
+r1ViolenceNN
+r1Teaching Biblical study!!!OrganizationAnnotation
+
+#Rule:HeadNoun-V
+r11pointNNisAUX
+
+#Rule:V-HeadNoun
+r21isAUXViolenceNN
+
+#Rule:IS-RULE
+r47ViolenceNNpointNN
+
+#At least those are for me!! 
+#(S1 (S (ADVP (IN At) (JJS least)) (NP (DT those)) (VP (AUX are) (PP (IN for) (NP (PRP me)) (. !))) (. !)))
+#Rule:Adjs
+r4leastJJS
+
+#Rule:HeadNoun-V
+r11thoseDTareAUX
+
+#Rule:PPinVP
+r30areAUXforINme!!LocationAnnotation
+
+#I think All you here about guns,bombs,knives,etc Is a strong reason  to Homeschool!!! 
+#(S1 (S (NP (PRP I)) (VP (VBP think) (SBAR (S (NP (DT All) (NP (NP (PRP you)) (ADVP (RB here)) (PP (IN about) (NP (NNS guns) (, ,) (NNS bombs) (, ,) (NNS knives) (, ,) (FW etc))))) (VP (AUX Is) (NP (NP (DT a) (JJ strong) (NN reason)) (PP (TO to) (NP (NNP Homeschool) (CD !!)))))))) (. !)))
+#Rule:Nouns
+r1gunsNNS
+r1bombsNNS
+r1knivesNNS
+r1reasonNN
+r1Homeschool!!!OrganizationAnnotation
+
+#Rule:Verbs
+r2thinkVBP
+
+#Rule:Adjs
+r4strongJJ
+
+#Rule:Adj-Noun
+r5strongJJreasonNN
+
+#Rule:HeadNoun-V
+r11iPRPthinkVBP
+r11youPRPisAUX
+
+#Rule:V-HeadNoun
+r21isAUXreasonNN
+
+#Rule:PPinNP
+r26youPRPaboutINknivesNNS
+r26reasonNNtoTOHomeschool!!!OrganizationAnnotation
+
+#Also In public school NO Bible teaching is there! 
+#(S1 (S (ADVP (RB Also)) (PP (IN In) (NP (JJ public) (NN school))) (NP (DT NO) (NNP Bible) (NN teaching)) (VP (AUX is) (ADVP (RB there))) (. !)))
+#Rule:Nouns
+r1schoolNN
+r1BibleNNP
+r1teachingNN
+
+#Rule:Adjs
+r4publicJJ
+
+#Rule:Adj-Noun
+r5publicJJschoolNN
+
+#Rule:N-HeadNoun
+r8BibleNNPteachingNN
+
+#Rule:HeadNoun-V
+r11teachingNNisAUX
+
+#Rule:PPinS
+r36isAUXinINschoolNN
+
+#Rule:V-ADV
+r46isAUXAlsoRB
+r46isAUXthere!LocationAnnotation
+
+#And Last Sticking like 25 Kids in a clssroom 1 cookie cutter curriculum and1  teacher and trying to teach them something is Just Not right!!!
+#(S1 (S (CC And) (NP (NP (JJ Last) (NN Sticking)) (PP (IN like) (NP (NP (CD 25) (NNPS Kids)) (PP (IN in) (NP (NP (DT a) (NN clssroom) (CD 1) (NN cookie) (NN cutter) (NN curriculum)) (VP (VP (VBG and1) (NP (NN teacher))) (CC and) (VP (VBG trying) (S (VP (TO to) (VP (VB teach) (NP (PRP them)) (NP (NN something)))))))))))) (VP (AUX is) (ADJP (ADVP (RB Just) (RB Not) (RB right)) (JJ !!))) (. !)))
+#Rule:Nouns
+r1StickingNN
+r1KidsNNPS
+r1clssroomNN
+r1cookieNN
+r1cutterNN
+r1curriculumNN
+r1teacherNN
+r1somethingNN
+
+#Rule:Verbs
+r2and1VBG
+r2tryingVBG
+r2teachVB
+
+#Rule:Adjs
+r4LastJJ
+r4!!JJ
+
+#Rule:Adj-Noun
+r5LastJJStickingNN
+r525CDKidsNNPS
+r51CDcurriculumNN
+
+#Rule:N-HeadNoun
+r8cutterNNcurriculumNN
+r8cookieNNcurriculumNN
+
+#Rule:HeadNoun-V
+r11StickingNNisAUX
+r11curriculumNNand1VBG
+r11curriculumNNtryingVBG
+
+#Rule:V-HeadNoun
+r21and1VBGteacherNN
+r21teachVBthemPRP
+r21teachVBsomethingNN
+
+#Rule:V-ADJ
+r25isAUXrightRB
+
+#Rule:PPinNP
+r26StickingNNlikeINKidsNNPS
+r26KidsNNPSinINcurriculumNN
+
+#Rule:V-V
+r44tryingVBGteachVB
+
+#Mel W Over 1 million Kids in America Are Homeschooled!?!
+#(S1 (FRAG (NP (NP (NNP Mel) (NNP W)) (PP (IN Over) (NP (QP (CD 1) (CD million)) (NNPS Kids)))) (PP (IN in) (NP (NNP America) (NNP Are) (NNP Homeschooled)) (. !) (. ?)) (. !)))
+#Rule:Nouns
+r1Mel WOrganizationAnnotation
+r1KidsNNPS
+r1AmericaLocationAnnotation
+r1AreNNP
+r1HomeschooledOrganizationAnnotation
+
+#Rule:Adj-Noun
+r51CDKidsNNPS
+r5millionCDKidsNNPS
+
+#Rule:N-HeadNoun
+r8AreNNPHomeschooledOrganizationAnnotation
+r8AmericaLocationAnnotationHomeschooledOrganizationAnnotation
+
+#Rule:PPinNP
+r26Mel WOrganizationAnnotationoverINKidsNNPS
+
+#Saint Paris Hilton SHUT UP!!!! 
+#(S1 (S (NP (NNP Saint) (NNP Paris) (NNP Hilton)) (VP (VBD SHUT) (ADVP (RB UP) (NP (CD !!!)))) (. !)))
+#Rule:Nouns
+r1Saint Paris Hilton SHUT UP!!!!PersonAnnotation
+
+#I mean Just cause 1 kids asked his mom about his hair DOES NOT MEAN A THING!!! 
+#(S1 (S (NP (PRP I)) (VP (VBP mean) (SBAR (S (S (ADVP (RB Just)) (VP (VB cause) (S (NP (CD 1) (NNS kids)) (VP (VBN asked) (NP (PRP$ his) (NN mom)) (PP (IN about) (NP (PRP$ his) (NN hair))))))) (VP (AUX DOES) (RB NOT) (VP (VB MEAN) (S (NP (DT A) (NN THING)) (ADJP (JJ !!)))))))) (. !)))
+#Rule:Nouns
+r1kidsNNS
+r1momNN
+r1hairNN
+r1THING!!!LocationAnnotation
+
+#Rule:Verbs
+r2meanVBP
+r2causeVB
+r2askedVBN
+r2meanVB
+
+#Rule:Adj-Noun
+r51CDkidsNNS
+
+#Rule:PRP-Noun
+r6hisPRP$momNN
+r6hisPRP$hairNN
+
+#Rule:HeadNoun-V
+r11iPRPmeanVBP
+
+#Rule:V-HeadNoun
+r21askedVBNmomNN
+
+#Rule:V-HeadNoun
+r22causeVBkidsNNS
+r22meanVBTHING!!!LocationAnnotation
+
+#Rule:V-HeadNoun(passive)
+r24askedVBNkidsNNS
+
+#Rule:PPinVP
+r32askedVBNaboutINhairNN
+
+#Rule:V-ADV
+r46causeVBJustRB
+r46doesAUXNOTRB
+
+#You Generralize WAY to much!!!  
+#(S1 (S (NP (PRP You)) (VP (VBP Generralize) (NP (NN WAY)) (PP (TO to) (NP (QP (RB much) (CD !!))))) (. !)))
+#Rule:Nouns
+r1WAYNN
+
+#Rule:Verbs
+r2generralizeVBP
+
+#Rule:HeadNoun-V
+r11youPRPgenerralizeVBP
+
+#Rule:V-HeadNoun
+r21generralizeVBPWAYNN
+
+#Rule:PPinVP
+r30generralizeVBPtoTOmuch!!!LocationAnnotation
+
+#and I am Not sure I belive that 99 percent of the time you are right!! 
+#(S1 (S (CC and) (NP (PRP I)) (VP (AUX am) (RB Not) (ADJP (JJ sure) (SBAR (S (NP (PRP I)) (VP (VBP belive) (SBAR (IN that) (S (NP (NP (CD 99) (NN percent)) (PP (IN of) (NP (DT the) (NN time)))) (NP (PRP you)) (VP (AUX are) (ADJP (JJ right))) (. !)))))))) (. !)))
+#Rule:Nouns
+r1percentNN
+r1timeNN
+
+#Rule:Verbs
+r2beliveVBP
+
+#Rule:Adjs
+r4sureJJ
+r4rightJJ
+
+#Rule:Adj-Noun
+r599CDpercentNN
+
+#Rule:HeadNoun-V
+r11iPRPamAUX
+r11iPRPbeliveVBP
+r11percentNNareAUX
+r11youPRPareAUX
+
+#Rule:V-ADJ
+r25areAUXrightJJ
+
+#Rule:PPinNP
+r26percentNNofINtimeNN
+
+#Rule:V-IN-V
+r43beliveVBPthatINareAUX
+
+#Rule:V-ADV
+r46amAUXNotRB
+
+#FYI Paris Hilton IS NOT A SAINT!!!!
+#(S1 (S (NP (NNP FYI) (NNP Paris) (NNP Hilton)) (VP (AUX IS) (RB NOT) (NP (DT A) (JJ SAINT) (NN !!!))) (. !)))
+#Rule:Nouns
+r1FYI Paris Hilton IS NOT A SAINT!!!!OrganizationAnnotation
+
+@lemmas-left	Are	percent	cause	THING!!!	last	reason	least	belive	kid	time	are	his	something	right	knives	knife	sure	be	Homeschooled	asked	generralize	million	think	Kids	WAY	kids	25	mom	Homeschool!!!	cookie	Last	1	strong	FYI Paris Hilton IS NOT A SAINT!!!!	Teaching Biblical study!!!	bomb	bible	curriculum	ask	teacher	try	does	Bible	stick	cutter	way	Sticking	trying	guns	mean	do	99	hair	and1	is	those	bombs	clssroom	violence	Mel W	you	!!	Violence	teach	Saint Paris Hilton SHUT UP!!!!	gun	i	point	America	school	teaching	am	public	
+@lemmas-right	THING!!!	percent	reason	there!	belive	kid	me!!	time	are	NOT	something	knives	right	knife	be	Homeschooled	think	generralize	Kids	Also	kids	WAY	mom	much!!!	Homeschool!!!	not	them	curriculum	teacher	try	stick	way	Sticking	trying	mean	and1	hair	Just	just	is	violence	Violence	teach	Not	point	school	teaching	am	also	
+@lemmas-center	to	that	of	over	for	about	like	in	

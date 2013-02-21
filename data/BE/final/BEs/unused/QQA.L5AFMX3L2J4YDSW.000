@@ -1,0 +1,28 @@
+#Why have they found a potential cure for prostate cancer but not for breast cancer?
+#(S1 (SBARQ (WHADVP (WRB Why)) (SQ (AUX have) (NP (PRP they)) (VP (VBN found) (NP (NP (DT a) (JJ potential) (NN cure)) (PP (PP (IN for) (NP (NN prostate) (NN cancer))) (CC but) (RB not) (PP (IN for) (NP (NN breast) (NN cancer))))))) (. ?)))
+#Rule:Nouns
+r1cureNN
+r1prostateNN
+r1cancerNN
+r1breastNN
+r1cancerNN
+
+#Rule:Verbs
+r2foundVBN
+
+#Rule:Adjs
+r4potentialJJ
+
+#Rule:Adj-Noun
+r5potentialJJcureNN
+
+#Rule:N-HeadNoun
+r8prostateNNcancerNN
+r8breastNNcancerNN
+
+#Rule:V-HeadNoun
+r21foundVBNcureNN
+
+@lemmas-left	breast	prostate	potential	cancer	cure	found	
+@lemmas-right	cancer	cure	
+@lemmas-center	

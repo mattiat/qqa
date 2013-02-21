@@ -1,0 +1,119 @@
+#3500 calories = 1lbMeaning, eat 3500 calories more than you burn in 1 week and you ll gain 1lb. 
+#(S1 (S (NP (CD 3500) (NNS calories)) (VP (SYM =) (NP (NN 1lbMeaning)) (, ,) (S (S (VP (VB eat) (ADVP (ADVP (NP (CD 3500) (NNS calories)) (JJR more)) (SBAR (IN than) (S (NP (PRP you)) (VP (VBP burn) (PP (IN in) (NP (CD 1) (NN week))))))))) (CC and) (S (NP (PRP you)) (ADVP (RB ll)) (VP (VB gain) (NP (NN 1lb)))))) (. .)))
+#Rule:Nouns
+r1calories = 1lbMeaningOrganizationAnnotation
+r1caloriesNNS
+r1weekNN
+r11lbLocationAnnotation
+
+#Rule:Verbs
+r2eatVB
+r2burnVBP
+r2gainVB
+
+#Rule:Adjs
+r4moreJJR
+
+#Rule:Adj-Noun
+r53500CDcalories = 1lbMeaningOrganizationAnnotation
+r53500CDcaloriesNNS
+r51CDweekNN
+
+#Rule:HeadNoun-V
+r11youPRPburnVBP
+r11youPRPgainVB
+
+#Rule:V-HeadNoun
+r21gainVB1lbLocationAnnotation
+
+#Rule:PPinVP
+r30burnVBPinINweekNN
+
+#Rule:V-MOD
+r45calories = 1lbMeaningOrganizationAnnotationeatVB
+
+#Rule:V-ADV
+r46gainVBllRB
+
+#Vice versa. 
+#(S1 (FRAG (ADVP (RB Vice) (RB versa)) (. .)))
+#To lose a pound a week, you ll have to be 3500 calories below what you need. 
+#(S1 (S (S (VP (TO To) (VP (VB lose) (NP (DT a) (NN pound)) (NP (DT a) (NN week))))) (, ,) (NP (PRP you)) (ADVP (RB ll)) (VP (AUX have) (S (VP (TO to) (VP (AUX be) (NP (CD 3500) (NNS calories)) (PP (IN below) (SBAR (WHNP (WP what)) (S (NP (PRP you)) (VP (AUX need))))))))) (. .)))
+#Rule:Nouns
+r1poundNN
+r1weekNN
+r1caloriesNNS
+
+#Rule:Verbs
+r2loseVB
+
+#Rule:Adj-Noun
+r53500CDcaloriesNNS
+
+#Rule:HeadNoun-V
+r11youPRPhaveAUX
+r11youPRPneedAUX
+
+#Rule:V-HeadNoun
+r21loseVBpoundNN
+r21loseVBweekNN
+r21beAUXcaloriesNNS
+
+#Rule:V-ADV
+r46haveAUXllRB
+
+#Rule:SubVerbClause
+r50youPRPloseVB
+
+#Meaning more exercise and a little less food.  
+#(S1 (S (VP (VBG Meaning) (NP (NP (JJR more) (NN exercise)) (CC and) (NP (DT a) (ADJP (RB little) (JJR less)) (NN food)))) (. .)))
+#Rule:Nouns
+r1exerciseNN
+r1foodNN
+
+#Rule:Verbs
+r2meaningVBG
+
+#Rule:Adjs
+r4moreJJR
+r4lessJJR
+
+#Rule:Adj-Noun
+r5moreJJRexerciseNN
+r5lessJJRfoodNN
+
+#Rule:V-HeadNoun
+r21meaningVBGexerciseNN
+
+#You can lose up to 2lbs per week safely. 
+#(S1 (S (NP (PRP You)) (VP (MD can) (VP (VB lose) (PRT (RP up)) (PP (TO to) (NP (NP (NNS 2lbs)) (PP (IN per) (NP (NN week))))) (ADVP (RB safely)))) (. .)))
+#Rule:Nouns
+r12lbsNNS
+r1weekNN
+
+#Rule:V-PRT
+r3loseVBupRP
+
+#Rule:HeadNoun-V
+r11youPRPloseVB
+
+#Rule:PPinNP
+r262lbsNNSperINweekNN
+
+#Rule:PPinVP
+r30loseVBtoTO2lbsNNS
+
+#Rule:V-ADV
+r46loseVBsafelyRB
+
+#Good luck.
+#(S1 (INTJ (JJ Good) (NN luck) (. .)))
+#Rule:Nouns
+r1luckNN
+
+#Rule:Adjs
+r4GoodJJ
+
+@lemmas-left	3500	Good	have	exercise	good	calorie	more	calories	mean	less	be	luck	2lbs	you	meaning	calories = 1lbMeaning	gain	lose	1	food	1lb	eat	lb	burn	pound	week	
+@lemmas-right	need	ll	have	2lbs	exercise	safely	calories = 1lbMeaning	calorie	up	gain	lose	food	1lb	calories	eat	lb	burn	week	pound	
+@lemmas-center	to	per	in	

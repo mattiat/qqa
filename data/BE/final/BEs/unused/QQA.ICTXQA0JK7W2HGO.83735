@@ -1,0 +1,53 @@
+#It doesn t I live near the river trent and the river sense. Also Coniston Lake etc..
+#(S1 (S (NP (PRP It)) (ADVP (RB doesn)) (VP (VBZ t) (S (NP (PRP I)) (VP (VBP live) (PP (IN near) (NP (NP (DT the) (NNP river) (NNP trent)) (CC and) (NP (NP (DT the) (NN river)) (X (FW sense.) (ADVP (RB Also)) (NP (NNP Coniston) (NNP Lake) (FW etc)) (. .)))))))) (. .)))
+#Rule:Nouns
+r1riverNNP
+r1trentNNP
+r1riverNN
+r1ConistonOrganizationAnnotation
+r1LakeNNP
+
+#Rule:Verbs
+r2tVBZ
+r2liveVBP
+
+#Rule:N-HeadNoun
+r8riverNNPtrentNNP
+r8ConistonOrganizationAnnotationLakeNNP
+
+#Rule:HeadNoun-V
+r11itPRPtVBZ
+r11iPRPliveVBP
+
+#Rule:V-HeadNoun
+r22tVBZiPRP
+
+#Rule:PPinVP
+r30liveVBPnearINtrentNNP
+r30liveVBPnearINriverNN
+
+#Rule:V-ADV
+r46tVBZdoesnRB
+
+#So am not sure. but good question.
+#(S1 (S (RB So) (VP (AUX am) (RB not) (NP (ADJP (JJ sure.) (CC but) (JJ good)) (NN question))) (. .)))
+#Rule:Nouns
+r1questionNN
+
+#Rule:Adjs
+r4sureJJ
+r4goodJJ
+
+#Rule:Adj-Noun
+r5sureJJquestionNN
+r5goodJJquestionNN
+
+#Rule:V-HeadNoun
+r21amAUXquestionNN
+
+#Rule:V-ADV
+r46amAUXnotRB
+
+@lemmas-left	it	Coniston	lake	good	i	trent	t	am	question	Lake	sure.	be	river	live	sure	
+@lemmas-right	not	trent	doesn	t	lake	question	Lake	river	i	live	
+@lemmas-center	near	

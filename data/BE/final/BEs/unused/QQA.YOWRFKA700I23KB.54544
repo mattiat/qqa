@@ -1,0 +1,14 @@
+#It s not legal.
+#(S1 (S (NP (PRP It)) (VP (VBZ s) (ADJP (RB not) (JJ legal))) (. .)))
+#Rule:Verbs
+r2sVBZ
+
+#Rule:Adjs
+r4legalJJ
+
+#Rule:HeadNoun-V
+r11itPRPsVBZ
+
+@lemmas-left	legal	it	s	
+@lemmas-right	s	
+@lemmas-center	

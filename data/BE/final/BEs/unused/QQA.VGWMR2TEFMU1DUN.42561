@@ -1,0 +1,94 @@
+#1) Hasek2) Been a Leaf fan since 66, Wings are the enemy.3) Hasek (hate him so much I hate the team he s on)4) Chris Chelios (dirty player)5) Did I mention Hasek?
+#(S1 (S (S (LST (LS 1) (-RRB- -RRB-)) (NP (NNP Hasek2)) (-RRB- -RRB-) (VP (AUX Been) (NP (NP (DT a) (NNP Leaf) (NN fan)) (PP (IN since) (NP (CD 66)))))) (, ,) (S (NP (NNS Wings)) (VP (AUX are) (NP (NP (DT the) (CD enemy.3) (-RRB- -RRB-) (NNP Hasek)) (PRN (-LRB- -LRB-) (S (VP (VB hate) (NP (PRP him)) (ADVP (ADVP (RB so) (RB much)) (SBAR (S (NP (PRP I)) (VP (VBP hate) (NP (DT the) (NN team)) (SBAR (S (NP (PRP he)) (VP (VBZ s) (PP (IN on) (-RRB- -RRB-) (NP (CD 4)))))))))))) (-RRB- -RRB-)) (SBAR (S (NP (NP (NNP Chris) (NNP Chelios)) (PRN (-LRB- -LRB-) (NP (JJ dirty) (NN player) (-RRB- -RRB-) (CD 5)) (-RRB- -RRB-))) (VP (AUX Did) (SBAR (S (NP (PRP I)) (VP (VBP mention) (NP (NNP Hasek))))))))))) (. ?)))
+#Rule:Nouns
+r1Hasek2PersonAnnotation
+r1LeafNNP
+r1fanNN
+r1WingsNNS
+r1HasekPersonAnnotation
+r1teamNN
+r1Chris CheliosPersonAnnotation
+r1playerNN
+r1HasekLocationAnnotation
+
+#Rule:Verbs
+r2hateVB
+r2hateVBP
+r2sVBZ
+r2mentionVBP
+
+#Rule:Adjs
+r4dirtyJJ
+
+#Rule:Adj-Noun
+r5enemy.3CDHasekPersonAnnotation
+r5dirtyJJplayerNN
+r55CDplayerNN
+
+#Rule:N-HeadNoun
+r8LeafNNPfanNN
+
+#Rule:HeadNoun-V
+r11Hasek2PersonAnnotationbeenAUX
+r11WingsNNSareAUX
+r11iPRPhateVBP
+r11hePRPsVBZ
+r11Chris CheliosPersonAnnotationdidAUX
+r11iPRPmentionVBP
+
+#Rule:V-HeadNoun
+r21beenAUXfanNN
+r21areAUXHasekPersonAnnotation
+r21hateVBhimPRP
+r21hateVBPteamNN
+r21mentionVBPHasekLocationAnnotation
+
+#Rule:PPinNP
+r26fanNNsinceIN66CD
+
+#Rule:PPinVP
+r30sVBZonIN4CD
+
+#Rule:V-ADV
+r46hateVBsoRB
+r46hateVBmuchRB
+
+#Rule:IS-RULE
+r47HasekPersonAnnotationWingsNNS
+
+#6) Bertuzzi (almost forgot him)  Has no right to be playing7) Yup, you guessed it Hasek.
+#(S1 (S (NP (CD 6) (-RRB- -RRB-) (NNP Bertuzzi)) (PRN (-LRB- -LRB-) (VP (ADVP (RB almost)) (VBD forgot) (NP (PRP him))) (-RRB- -RRB-)) (VP (AUX Has) (NP (DT no) (NN right) (S (VP (TO to) (VP (AUX be) (NP (NP (JJ playing7) (-RRB- -RRB-) (NN Yup)) (, ,) (SBAR (S (NP (PRP you)) (VP (VBD guessed) (NP (PRP it)) (NP (NNP Hasek))))))))))) (. .)))
+#Rule:Nouns
+r1BertuzziPersonAnnotation
+r1rightNN
+r1YupNN
+r1HasekNNP
+
+#Rule:Verbs
+r2forgotVBD
+r2guessedVBD
+
+#Rule:Adjs
+r4playing7JJ
+
+#Rule:Adj-Noun
+r56CDBertuzziPersonAnnotation
+r5playing7JJYupNN
+
+#Rule:HeadNoun-V
+r11BertuzziPersonAnnotationhasAUX
+r11youPRPguessedVBD
+
+#Rule:V-HeadNoun
+r21forgotVBDhimPRP
+r21hasAUXrightNN
+r21beAUXYupNN
+r21guessedVBDitPRP
+r21guessedVBDHasekNNP
+
+#Rule:V-ADV
+r46forgotVBDalmostRB
+
+@lemmas-left	hate	Bertuzzi	player	Hasek2	have	leaf	Leaf	has	been	Yup	are	playing7	wings	Chris Chelios	dirty	forgot	mention	right	be	guessed	Wings	you	Hasek	team	he	yup	fan	i	s	6	guess	5	enemy.3	hasek	forget	
+@lemmas-right	hate	Bertuzzi	player	have	him	been	has	almost	Yup	are	wings	mention	do	right	be	66	it	guessed	so	Wings	did	Hasek	team	yup	fan	much	s	guess	4	hasek	
+@lemmas-center	on	since	

@@ -1,0 +1,27 @@
+#Here is a link. 
+#(S1 (SINV (ADVP (RB Here)) (VP (AUX is)) (NP (DT a) (NN link)) (. .)))
+#Rule:Nouns
+r1linkNN
+
+#Why don t you count the ways.
+#(S1 (SBARQ (WHADVP (WRB Why)) (SQ (VP (VB don) (S (VP (VBG t) (S (NP (PRP you)) (VP (VB count) (NP (DT the) (NNS ways)))))))) (. .)))
+#Rule:Nouns
+r1waysNNS
+
+#Rule:Verbs
+r2donVB
+r2tVBG
+r2countVB
+
+#Rule:HeadNoun-V
+r11youPRPcountVB
+
+#Rule:V-HeadNoun
+r21countVBwaysNNS
+
+#Rule:V-HeadNoun
+r22tVBGyouPRP
+
+@lemmas-left	t	count	don	link	you	ways	
+@lemmas-right	count	you	ways	
+@lemmas-center	

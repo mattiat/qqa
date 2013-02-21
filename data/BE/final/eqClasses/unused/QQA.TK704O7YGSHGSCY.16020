@@ -1,0 +1,54 @@
+BE: jobNN
+EQ class: businessnn	occupationnn	linenn	line_of_worknn	
+
+BE: benzoyl-peroxideNN
+EQ class: peroxidenn	hydrogen_peroxidenn	
+
+BE: homeNN
+EQ class: homelyjj	placenn	
+
+BE: producingVBG
+EQ class: producevbg	bring_forthvbg	
+
+BE: youPRPhaveAUX
+EQ class: youprphave_gotaux	rich_personnnofinyouprp	havennofinyouprp	youprpholdaux	wealthy_personnnofinyouprp	
+
+BE: jobNNproducingVBG
+EQ class: line_of_worknnbring_forthvbg	producernnlinenn	producernnbusinessnn	linennproducevbg	businessnnbring_forthvbg	linennbring_forthvbg	producernnofinjobnn	manufacturernnofinjobnn	producernnline_of_worknn	line_of_worknnproducingvbg	manufacturernnbusinessnn	manufacturernnofinline_of_worknn	manufacturernnofinoccupationnn	line_of_worknnproducevbg	businessnnproducevbg	jobnnproducevbg	occupationnnproducingvbg	producernnoccupationnn	manufacturernnjobnn	manufacturernnline_of_worknn	producernnofinbusinessnn	producernnofinlinenn	manufacturernnoccupationnn	producernnofinoccupationnn	manufacturernnofinbusinessnn	producernnofinline_of_worknn	manufacturernnlinenn	businessnnproducingvbg	manufacturernnofinlinenn	linennproducingvbg	jobnnbring_forthvbg	producernnjobnn	occupationnnproducevbg	occupationnnbring_forthvbg	
+
+BE: haveAUXjobNN
+EQ class: wealthy_personnnofinbusinessnn	havennofinjobnn	holdauxoccupationnn	have_gotauxline_of_worknn	havennofinoccupationnn	rich_personnnofinbusinessnn	haveauxlinenn	rich_personnnofinlinenn	havennofinlinenn	holdauxline_of_worknn	wealthy_personnnofinlinenn	holdauxjobnn	haveauxbusinessnn	have_gotauxlinenn	havennofinline_of_worknn	haveauxline_of_worknn	holdauxbusinessnn	haveauxoccupationnn	wealthy_personnnofinjobnn	holdauxlinenn	have_gotauxbusinessnn	have_gotauxoccupationnn	rich_personnnofinoccupationnn	wealthy_personnnofinline_of_worknn	rich_personnnofinline_of_worknn	have_gotauxjobnn	wealthy_personnnofinoccupationnn	havennofinbusinessnn	rich_personnnofinjobnn	
+
+BE: producingVBGbenzoyl-peroxideNN
+EQ class: producernnofinhydrogen_peroxidenn	manufacturernnofinperoxidenn	manufacturernnofinbenzoyl-peroxidenn	bring_forthvbgbenzoyl-peroxidenn	producingvbghydrogen_peroxidenn	producevbgperoxidenn	producernnofinperoxidenn	producevbghydrogen_peroxidenn	bring_forthvbghydrogen_peroxidenn	producernnofinbenzoyl-peroxidenn	manufacturernnofinhydrogen_peroxidenn	bring_forthvbgperoxidenn	producingvbgperoxidenn	producevbgbenzoyl-peroxidenn	
+
+BE: producingVBGatINhomeNN
+EQ class: producingvbgatinhomelyjj	bring_forthvbgatinplacenn	bring_forthvbgatinhomelyjj	producevbgatinhomenn	bring_forthvbgatinhomenn	producingvbgatinplacenn	producevbgatinhomelyjj	producevbgatinplacenn	
+
+BE: chemicalNN
+EQ class: chemical_substancenn	chemicaljj	
+
+BE: labNN
+EQ class: science_laboratorynn	research_laboratorynn	laboratorynn	research_labnn	science_labnn	
+
+BE: basementNN
+EQ class: cellarnn	
+
+BE: veVBP
+EQ class: 
+
+BE: gotVBD
+EQ class: getvbd	acquirevbd	
+
+BE: chemicalNNlabNN
+EQ class: research_laboratorynnofinchemicaljj	chemicaljjresearch_labnn	research_laboratorynnofinchemical_substancenn	chemicalnnresearch_labnn	chemical_substancennscience_labnn	science_labnnofinchemicalnn	research_labnnofinchemical_substancenn	science_laboratorynnofinchemical_substancenn	chemicaljjlabnn	laboratorynnofinchemicalnn	science_laboratorynnofinchemicaljj	labnnofinchemical_substancenn	laboratorynnofinchemical_substancenn	chemicalnnresearch_laboratorynn	research_labnnofinchemicaljj	chemicaljjscience_labnn	laboratorynnofinchemicaljj	science_labnnofinchemicaljj	labnnofinchemicalnn	chemical_substancennresearch_laboratorynn	research_labnnofinchemicalnn	science_laboratorynnofinchemicalnn	chemicaljjresearch_laboratorynn	science_labnnofinchemical_substancenn	chemical_substancennlabnn	chemicalnnscience_laboratorynn	chemicaljjlaboratorynn	chemical_substancennresearch_labnn	chemical_substancennlaboratorynn	chemicalnnscience_labnn	research_laboratorynnofinchemicalnn	labnnofinchemicaljj	chemical_substancennscience_laboratorynn	chemicaljjscience_laboratorynn	chemicalnnlaboratorynn	
+
+BE: youPRPveVBP
+EQ class: 
+
+BE: gotVBDlabNN
+EQ class: gotvbdlaboratorynn	acquirevbdresearch_laboratorynn	gettingnnofinlaboratorynn	acquirevbdscience_labnn	acquiringnnofinscience_labnn	gettingnnofinlabnn	getvbdscience_laboratorynn	acquiringnnofinresearch_labnn	getvbdscience_labnn	gettingnnofinresearch_labnn	gettingnnofinscience_labnn	acquirevbdlabnn	getvbdlaboratorynn	acquiringnnofinlaboratorynn	gotvbdscience_laboratorynn	acquiringnnofinlabnn	getvbdresearch_laboratorynn	acquirevbdlaboratorynn	gotvbdresearch_laboratorynn	getvbdlabnn	acquiringnnofinscience_laboratorynn	acquiringnnofinresearch_laboratorynn	getvbdresearch_labnn	gotvbdresearch_labnn	gettingnnofinscience_laboratorynn	gettingnnofinresearch_laboratorynn	acquirevbdresearch_labnn	acquirevbdscience_laboratorynn	gotvbdscience_labnn	
+
+BE: labNNinINbasementNN
+EQ class: cellarnnlaboratorynn	basementnnlaboratorynn	basementnnresearch_labnn	laboratorynninincellarnn	science_laboratorynnininbasementnn	basementnnresearch_laboratorynn	science_laboratorynninincellarnn	research_labnnininbasementnn	research_labnninincellarnn	cellarnnscience_laboratorynn	cellarnnscience_labnn	basementnnscience_laboratorynn	labnninincellarnn	science_labnninincellarnn	basementnnlabnn	cellarnnresearch_labnn	research_laboratorynninincellarnn	research_laboratorynnininbasementnn	cellarnnlabnn	science_labnnininbasementnn	cellarnnresearch_laboratorynn	basementnnscience_labnn	laboratorynnininbasementnn	
+

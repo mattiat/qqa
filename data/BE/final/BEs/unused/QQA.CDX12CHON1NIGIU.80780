@@ -1,0 +1,27 @@
+#because they aren t.  
+#(S1 (S (SBAR (IN because) (S (NP (PRP they)) (VP (VBP aren)))) (VP (VBZ t)) (. .)))
+#Rule:Verbs
+r2arenVBP
+r2tLocationAnnotation
+
+#Rule:HeadNoun-V
+r11theyPRParenVBP
+
+#case in point- this question.
+#(S1 (NP (NP (NN case)) (PP (IN in) (NP (JJ point-) (DT this) (NN question))) (. .)))
+#Rule:Nouns
+r1caseNN
+r1questionNN
+
+#Rule:Adjs
+r4point-JJ
+
+#Rule:Adj-Noun
+r5point-JJquestionNN
+
+#Rule:PPinNP
+r26caseNNinINquestionNN
+
+@lemmas-left	they	point-	t	aren	question	case	
+@lemmas-right	aren	question	
+@lemmas-center	in	

@@ -1,0 +1,95 @@
+#Buy hypoallergenic bedding (sheets, comforter, pillow) and an air purifier for your bedroom and work area.  
+#(S1 (S (VP (VB Buy) (NP (NP (NP (JJ hypoallergenic) (NN bedding)) (PRN (-LRB- -LRB-) (NP (NNS sheets) (, ,) (NN comforter) (, ,) (NN pillow)) (-RRB- -RRB-))) (CC and) (NP (DT an) (NN air) (NN purifier))) (PP (IN for) (NP (PRP$ your) (NX (NX (NN bedroom)) (CC and) (NX (NN work) (NN area)))))) (. .)))
+#Rule:Nouns
+r1beddingNN
+r1sheetsNNS
+r1comforterNN
+r1pillowLocationAnnotation
+r1airNN
+r1purifierNN
+r1bedroomNN
+r1workNN
+r1areaNN
+
+#Rule:Verbs
+r2buyVB
+
+#Rule:Adjs
+r4hypoallergenicOrganizationAnnotation
+
+#Rule:Adj-Noun
+r5hypoallergenicOrganizationAnnotationbeddingNN
+
+#Rule:PRP-Noun
+r6yourPRP$bedroomNN
+
+#Rule:N-HeadNoun
+r8airNNpurifierNN
+
+#Rule:V-HeadNoun
+r21buyVBbeddingNN
+
+#Rule:PPinVP
+r30buyVBforINbedroomNN
+
+#Also, make sure that your tissue box is fresh (i.e. not an old dusty one from the closet)!  
+#(S1 (S (ADVP (RB Also)) (, ,) (VP (VB make) (ADJP (JJ sure) (SBAR (IN that) (S (NP (PRP$ your) (NN tissue) (NN box)) (VP (AUX is) (ADJP (JJ fresh)) (PRN (-LRB- -LRB-) (PP (FW i.e.) (NP (NP (RB not) (DT an) (JJ old) (JJ dusty) (NN one)) (PP (IN from) (NP (DT the) (NN closet))))) (-RRB- -RRB-))))))) (. !)))
+#Rule:Nouns
+r1tissueNN
+r1boxNN
+r1oneNN
+r1closetNN
+
+#Rule:Verbs
+r2makeVB
+
+#Rule:Adjs
+r4sureJJ
+r4freshJJ
+r4oldJJ
+r4dustyJJ
+
+#Rule:Adj-Noun
+r5oldJJoneNN
+r5dustyJJoneNN
+
+#Rule:PRP-Noun
+r6yourPRP$boxNN
+
+#Rule:N-HeadNoun
+r8tissueNNboxNN
+
+#Rule:HeadNoun-V
+r11boxNNisAUX
+
+#Rule:V-ADJ
+r25isAUXfreshJJ
+
+#Rule:PPinNP
+r26oneNNfromINclosetNN
+
+#Rule:V-ADV
+r46makeVBAlsoRB
+
+#Otherwise you might be making yourself breathe dust.
+#(S1 (S (ADVP (RB Otherwise)) (NP (PRP you)) (VP (MD might) (VP (AUX be) (VP (VBG making) (S (NP (PRP yourself)) (NP (NN breathe) (NN dust)))))) (. .)))
+#Rule:Nouns
+r1breatheNN
+r1dustNN
+
+#Rule:Verbs
+r2makingVBG
+
+#Rule:N-HeadNoun
+r8breatheNNdustNN
+
+#Rule:HeadNoun-V
+r11youPRPmakingVBG
+
+#Rule:V-HeadNoun
+r22makingVBGyourselfPRP
+r22makingVBGdustNN
+
+@lemmas-left	pillow	old	buy	one	tissue	closet	bedding	area	fresh	making	comforter	sheet	sure	be	work	is	breathe	your	you	purifier	hypoallergenic	bedroom	dusty	sheets	dust	air	box	make	
+@lemmas-right	is	one	Also	closet	purifier	bedroom	bedding	fresh	dust	making	box	yourself	also	make	be	
+@lemmas-center	for	from	

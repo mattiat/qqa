@@ -1,0 +1,13 @@
+#how was plastic invented?
+#(S1 (SBARQ (WHADVP (WRB how)) (SQ (AUX was) (NP (NN plastic)) (VP (VBN invented))) (. ?)))
+#Rule:Nouns
+r1plasticNN
+
+#Rule:Verbs
+r2inventedVBN
+
+#how
+#(S1 (FRAG (WRB how)))
+@lemmas-left	invented	plastic	invent	
+@lemmas-right	
+@lemmas-center	

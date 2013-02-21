@@ -1,0 +1,33 @@
+#what s normal value of LDL and VLDL? 
+#(S1 (SBARQ (WHNP (WP what)) (SQ (VP (VBZ s) (NP (NP (JJ normal) (NN value)) (PP (IN of) (NP (NNP LDL) (CC and) (NNP VLDL)))))) (. ?)))
+#Rule:Nouns
+r1valueNN
+r1LDLLocationAnnotation
+r1VLDLLocationAnnotation
+
+#Rule:Verbs
+r2sVBZ
+
+#Rule:Adjs
+r4normalJJ
+
+#Rule:Adj-Noun
+r5normalJJvalueNN
+
+#Rule:V-HeadNoun
+r21sVBZvalueNN
+
+#Rule:PPinNP
+r26valueNNofINLDLLocationAnnotation
+
+#How to control it?
+#(S1 (FRAG (SBAR (WHADVP (WRB How)) (S (VP (TO to) (VP (VB control) (NP (PRP it)))))) (. ?)))
+#Rule:Verbs
+r2controlVB
+
+#Rule:V-HeadNoun
+r21controlVBitPRP
+
+@lemmas-left	control	LDL	VLDL	s	normal	value	
+@lemmas-right	LDL	it	value	
+@lemmas-center	of	

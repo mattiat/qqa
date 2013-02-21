@@ -1,0 +1,42 @@
+#why were jews targeted in the holocaust.(8th grade student)?
+#(S1 (SBARQ (WHADVP (WRB why)) (SQ (AUX were) (NP (NN jews)) (VP (VBN targeted) (PP (IN in) (NP (NP (DT the) (NN holocaust.)) (PRN (-LRB- -LRB-) (JJ 8th) (NN grade) (NN student) (-RRB- -RRB-)))))) (. ?)))
+#Rule:Nouns
+r1jewsNN
+r1holocaustNN
+r1gradeNN
+r1studentNN
+
+#Rule:Verbs
+r2targetedVBN
+
+#Rule:Adjs
+r48thJJ
+
+#Rule:PPinVP
+r32targetedVBNinINholocaustNN
+
+#This is for my National History Day project.
+#(S1 (S (NP (DT This)) (VP (AUX is) (PP (IN for) (NP (PRP$ my) (NNP National) (NN History) (NN Day) (NN project)))) (. .)))
+#Rule:Nouns
+r1NationalOrganizationAnnotation
+r1HistoryNN
+r1DayNN
+r1projectNN
+
+#Rule:PRP-Noun
+r6myPRP$projectNN
+
+#Rule:N-HeadNoun
+r8DayNNprojectNN
+r8HistoryNNprojectNN
+r8NationalOrganizationAnnotationprojectNN
+
+#Rule:HeadNoun-V
+r11thisDTisAUX
+
+#Rule:PPinVP
+r30isAUXforINprojectNN
+
+@lemmas-left	is	holocaust.	8th	Day	National	my	holocaust	targeted	history	project	student	History	jew	target	grade	day	this	be	jews	
+@lemmas-right	project	is	holocaust.	holocaust	be	
+@lemmas-center	for	in	

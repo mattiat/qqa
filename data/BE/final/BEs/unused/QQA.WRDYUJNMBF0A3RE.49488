@@ -1,0 +1,23 @@
+#goin 2 the doctor and ghettin a check up
+#(S1 (S (VP (VP (VB goin) (NP (QP (CD 2)) (DT the) (NN doctor))) (CC and) (VP (VB ghettin) (NP (DT a) (NN check)) (PRT (RP up))))))
+#Rule:Nouns
+r1doctorNN
+r1checkNN
+
+#Rule:Verbs
+r2goinVB
+r2ghettinOrganizationAnnotation
+
+#Rule:V-PRT
+r3ghettinOrganizationAnnotationupRP
+
+#Rule:Adj-Noun
+r52CDdoctorNN
+
+#Rule:V-HeadNoun
+r21goinVBdoctorNN
+r21ghettinOrganizationAnnotationcheckNN
+
+@lemmas-left	goin	2	check	ghettin	doctor	
+@lemmas-right	check	doctor	up	
+@lemmas-center	

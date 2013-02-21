@@ -1,0 +1,31 @@
+#If God wanted us to be vegetarians he wouldnt have made animals out of meat
+#(S1 (S (SBAR (IN If) (S (NP (NNP God)) (VP (VBD wanted) (S (NP (PRP us)) (VP (TO to) (VP (AUX be) (NP (NNS vegetarians)))))))) (NP (PRP he)) (VP (VBD wouldnt) (SBAR (S (VP (AUX have) (VP (VBN made) (NP (NNS animals)) (PP (IN out) (PP (IN of) (NP (NN meat)))))))))))
+#Rule:Nouns
+r1GodNNP
+r1vegetariansNNS
+r1animalsNNS
+r1meatNN
+
+#Rule:Verbs
+r2wantedVBD
+r2wouldntVBD
+r2madeVBN
+
+#Rule:HeadNoun-V
+r11hePRPwouldntVBD
+r11GodNNPwantedVBD
+r11usPRPbeAUX
+
+#Rule:V-HeadNoun
+r21beAUXvegetariansNNS
+r21madeVBNanimalsNNS
+
+#Rule:V-HeadNoun
+r22wantedVBDusPRP
+
+#Rule:PPComboInVP
+r34madeVBNoutINmeatNN
+
+@lemmas-left	animals	god	made	us	he	wanted	wouldnt	meat	God	vegetarian	vegetarians	make	want	be	animal	
+@lemmas-right	animals	wouldnt	meat	us	vegetarian	vegetarians	wanted	want	animal	be	
+@lemmas-center	out	

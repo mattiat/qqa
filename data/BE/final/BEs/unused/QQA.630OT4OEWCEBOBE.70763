@@ -1,0 +1,40 @@
+#This doesn t sound like a question; looks like you have all the answers already. 
+#(S1 (S (S (NP (DT This)) (VP (VBZ doesn) (S (NP (NNS t)) (VP (VB sound) (PP (IN like) (NP (DT a) (NN question))))))) (: ;) (S (VP (VBZ looks) (SBAR (IN like) (S (NP (PRP you)) (VP (AUX have) (NP (PDT all) (DT the) (NNS answers)) (ADVP (RB already))))))) (. .)))
+#Rule:Nouns
+r1tNNS
+r1questionNN
+r1answersNNS
+
+#Rule:Verbs
+r2doesnVBZ
+r2soundVB
+r2looksVBZ
+
+#Rule:HeadNoun-V
+r11thisDTdoesnVBZ
+r11tNNSsoundVB
+r11youPRPhaveAUX
+
+#Rule:V-HeadNoun
+r21haveAUXanswersNNS
+
+#Rule:V-HeadNoun
+r22doesnVBZtNNS
+
+#Rule:PPinVP
+r30soundVBlikeINquestionNN
+
+#Rule:V-IN-V
+r43looksVBZlikeINhaveAUX
+
+#Rule:V-ADV
+r46haveAUXalreadyRB
+
+#Congratulations.
+#(S1 (S (VP (VBZ Congratulations)) (. .)))
+#Rule:Verbs
+r2CongratulationsOrganizationAnnotation
+
+@lemmas-left	look	doesn	looks	t	have	sound	answers	answer	you	question	Congratulations	this	
+@lemmas-right	doesn	t	have	sound	answers	answer	already	question	
+@lemmas-center	like	

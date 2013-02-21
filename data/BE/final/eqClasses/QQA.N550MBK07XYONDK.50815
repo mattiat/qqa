@@ -1,0 +1,360 @@
+BE: medicationNN
+EQ class: medicinenn	medicinal_drugnn	medicamentnn	
+
+BE: PhysicianNN
+EQ class: dr.nn	docnn	mediconn	doctornn	mdnn	
+
+BE: testsNNS
+EQ class: tryoutnns	testnns	theynns	trialnns	trial_runnns	themnns	
+
+BE: ECGOrganizationAnnotation
+EQ class: e.c.g.organizationannotation	
+
+BE: BloodOrganizationAnnotation
+EQ class: 
+
+BE: UrineOrganizationAnnotation
+EQ class: 
+
+BE: causesNNS
+EQ class: theynns	causaljj	causenns	themnns	
+
+BE: gotVBN
+EQ class: acquirevbn	getvbn	
+
+BE: eliminatedVBD
+EQ class: do_away_withvbd	eliminatevbd	get_rid_ofvbd	extinguishvbd	
+
+BE: otherJJ
+EQ class: 
+
+BE: otherJJ
+EQ class: 
+
+BE: otherJJtestsNNS
+EQ class: otherjjtrial_runnns	otherjjtestnns	otherjjtheynns	otherjjtryoutnns	otherjjthemnns	otherjjtrialnns	
+
+BE: otherJJcausesNNS
+EQ class: otherjjtheynns	otherjjcausenns	otherjjcausaljj	otherjjthemnns	
+
+BE: yourPRP$PhysicianNN
+EQ class: yourprp$docnn	doctornnofinyourprp$	physiciannnofinyourprp$	mediconnofinyourprp$	yourprp$mediconn	mdnnofinyourprp$	yourprp$doctornn	yourprp$mdnn	docnnofinyourprp$	dr.nnofinyourprp$	yourprp$dr.nn	
+
+BE: ECGOrganizationAnnotationBloodOrganizationAnnotation
+EQ class: bloodnnofinecgorganizationannotation	bloodnnofine.c.g.organizationannotation	ecgorganizationannotationbloodvb	e.c.g.organizationannotationbloodorganizationannotation	bloodorganizationannotationecgorganizationannotation	bloodyjjofine.c.g.organizationannotation	e.c.g.organizationannotationbloodvb	bloodorganizationannotatione.c.g.organizationannotation	bloodyjjofinecgorganizationannotation	
+
+BE: PhysicianNNeliminatedVBD
+EQ class: riddancennofindoctornn	eliminationnnofindr.nn	eliminationnnofindoctornn	dr.nneliminatedvbd	eliminatornnofindocnn	mediconnget_rid_ofvbd	physiciannnextinguishvbd	riddancennofinmdnn	dr.nnget_rid_ofvbd	physiciannnget_rid_ofvbd	riddancenndoctornn	dr.nndo_away_withvbd	dr.nneliminatevbd	riddancennphysiciannn	mdnnextinguishvbd	eliminationnndoctornn	eliminationnndocnn	eliminatornndoctornn	docnnget_rid_ofvbd	mdnndo_away_withvbd	physiciannndo_away_withvbd	doctornnget_rid_ofvbd	eliminatornndocnn	eliminatornnofinmediconn	riddancennmdnn	physiciannneliminatevbd	eliminatornndr.nn	eliminatornnmdnn	mediconnextinguishvbd	eliminatornnphysiciannn	riddancennofinphysiciannn	eliminationnnofinphysiciannn	docnneliminatevbd	doctornneliminatevbd	riddancennofinmediconn	eliminationnnphysiciannn	riddancenndocnn	docnneliminatedvbd	docnnextinguishvbd	eliminationnnmediconn	riddancenndr.nn	eliminatornnofinphysiciannn	doctornneliminatedvbd	riddancennofindocnn	eliminationnnofindocnn	mdnneliminatedvbd	doctornndo_away_withvbd	riddancennofindr.nn	eliminationnnofinmediconn	dr.nnextinguishvbd	eliminatornnofindoctornn	mdnnget_rid_ofvbd	eliminationnnofinmdnn	eliminationnndr.nn	eliminatornnofindr.nn	mediconneliminatedvbd	mediconneliminatevbd	eliminatornnmediconn	doctornnextinguishvbd	riddancennmediconn	eliminatornnofinmdnn	mediconndo_away_withvbd	eliminationnnmdnn	mdnneliminatevbd	docnndo_away_withvbd	
+
+BE: youPRPareAUX
+EQ class: youprpbeaux	
+
+BE: testsNNSdoneAUX
+EQ class: trialnnsmakeaux	trial_runnnsdoneaux	themnnsmakeaux	testsnnsmakeaux	tryoutnnsdoneaux	testsnnsdoaux	tryoutnnsdoaux	testnnsmakeaux	trial_runnnsdoaux	trialnnsdoneaux	themnnsdoaux	themnnsdoneaux	trialnnsdoaux	theynnsdoneaux	theynnsmakeaux	trial_runnnsmakeaux	testnnsdoaux	theynnsdoaux	tryoutnnsmakeaux	testnnsdoneaux	
+
+BE: eliminatedVBDcausesNNS
+EQ class: do_away_withvbdcausesnns	eliminationnnofincausesnns	eliminatevbdcausaljj	do_away_withvbdtheynns	get_rid_ofvbdcausenns	riddancennofintheynns	do_away_withvbdcausaljj	eliminatornnofinthemnns	eliminatornnofincausenns	eliminatedvbdthemnns	do_away_withvbdcausenns	eliminatevbdthemnns	eliminationnnofintheynns	extinguishvbdcausenns	get_rid_ofvbdthemnns	extinguishvbdcausesnns	extinguishvbdthemnns	riddancennofinthemnns	get_rid_ofvbdtheynns	eliminatedvbdcausaljj	riddancennofincausenns	riddancennofincausesnns	eliminatornnofincausesnns	get_rid_ofvbdcausesnns	eliminatevbdtheynns	extinguishvbdcausaljj	eliminationnnofincausenns	eliminatedvbdcausenns	eliminatornnofincausaljj	extinguishvbdtheynns	riddancennofincausaljj	eliminationnnofincausaljj	do_away_withvbdthemnns	eliminationnnofinthemnns	eliminatedvbdtheynns	eliminatevbdcausenns	eliminatornnofintheynns	eliminatevbdcausesnns	get_rid_ofvbdcausaljj	
+
+BE: gotVBNtestsNNS
+EQ class: getvbnthemnns	getvbntheynns	gotvbntrial_runnns	acquiringnnofintryoutnns	gotvbntrialnns	acquiringnnofintestsnns	gettingnnofintestnns	acquiringnnofintrialnns	gotvbnthemnns	acquirevbntheynns	gettingnnofinthemnns	getvbntrial_runnns	gotvbntheynns	gettingnnofintheynns	acquiringnnofintheynns	gotvbntryoutnns	gettingnnofintrialnns	getvbntryoutnns	acquiringnnofintrial_runnns	gettingnnofintestsnns	getvbntestsnns	acquiringnnofintestnns	acquirevbntryoutnns	acquirevbntestsnns	acquirevbntrial_runnns	acquirevbntestnns	gotvbntestnns	getvbntestnns	acquirevbntrialnns	getvbntrialnns	acquirevbnthemnns	gettingnnofintryoutnns	gettingnnofintrial_runnns	acquiringnnofinthemnns	
+
+BE: testsNNSlikeINECGOrganizationAnnotation
+EQ class: trialnnslikeine.c.g.organizationannotation	e.c.g.organizationannotationessayvb	examinevbecgorganizationannotation	ecgorganizationannotationtestnns	e.c.g.organizationannotationtry_outvb	e.c.g.organizationannotationtestvb	ecgorganizationannotationtheynns	ecgorganizationannotationtryoutnns	provevbecgorganizationannotation	examinevbe.c.g.organizationannotation	testvbecgorganizationannotation	try_outvbecgorganizationannotation	e.c.g.organizationannotationtestnns	testnnslikeine.c.g.organizationannotation	ecgorganizationannotationtestvb	tryvbe.c.g.organizationannotation	testvbe.c.g.organizationannotation	ecgorganizationannotationthemnns	ecgorganizationannotationessayvb	ecgorganizationannotationtryvb	e.c.g.organizationannotationtrial_runnns	tryoutnnslikeine.c.g.organizationannotation	testnnslikeinecgorganizationannotation	e.c.g.organizationannotationtryvb	e.c.g.organizationannotationthemnns	theynnslikeinecgorganizationannotation	e.c.g.organizationannotationtestsnns	e.c.g.organizationannotationexaminevb	ecgorganizationannotationtestsnns	themnnslikeinecgorganizationannotation	ecgorganizationannotationtrialnns	ecgorganizationannotationexaminevb	trial_runnnslikeinecgorganizationannotation	tryvbecgorganizationannotation	ecgorganizationannotationtrial_runnns	ecgorganizationannotationprovevb	themnnslikeine.c.g.organizationannotation	essayvbe.c.g.organizationannotation	e.c.g.organizationannotationtrialnns	essayvbecgorganizationannotation	e.c.g.organizationannotationtheynns	e.c.g.organizationannotationprovevb	try_outvbe.c.g.organizationannotation	trial_runnnslikeine.c.g.organizationannotation	tryoutnnslikeinecgorganizationannotation	provevbe.c.g.organizationannotation	testsnnslikeine.c.g.organizationannotation	ecgorganizationannotationtry_outvb	trialnnslikeinecgorganizationannotation	theynnslikeine.c.g.organizationannotation	e.c.g.organizationannotationtryoutnns	
+
+BE: testsNNSlikeINBloodOrganizationAnnotation
+EQ class: essayvbbloodorganizationannotation	testnnslikeinbloodorganizationannotation	themnnslikeinbloodorganizationannotation	bloodorganizationannotationtrial_runnns	bloodorganizationannotationtryoutnns	bloodorganizationannotationtrialnns	provevbbloodorganizationannotation	bloodorganizationannotationtry_outvb	bloodorganizationannotationtestnns	testvbbloodorganizationannotation	bloodorganizationannotationtestsnns	bloodorganizationannotationtestvb	trial_runnnslikeinbloodorganizationannotation	tryoutnnslikeinbloodorganizationannotation	bloodorganizationannotationtheynns	bloodorganizationannotationprovevb	tryvbbloodorganizationannotation	trialnnslikeinbloodorganizationannotation	try_outvbbloodorganizationannotation	examinevbbloodorganizationannotation	bloodorganizationannotationexaminevb	theynnslikeinbloodorganizationannotation	bloodorganizationannotationessayvb	bloodorganizationannotationthemnns	bloodorganizationannotationtryvb	
+
+BE: testsNNSlikeINUrineOrganizationAnnotation
+EQ class: urineorganizationannotationtestnns	urineorganizationannotationtrialnns	trialnnslikeinurineorganizationannotation	urineorganizationannotationprovevb	urineorganizationannotationtestvb	urineorganizationannotationthemnns	urineorganizationannotationtrial_runnns	essayvburineorganizationannotation	theynnslikeinurineorganizationannotation	urineorganizationannotationtryvb	urineorganizationannotationtryoutnns	testnnslikeinurineorganizationannotation	provevburineorganizationannotation	urineorganizationannotationtry_outvb	testvburineorganizationannotation	try_outvburineorganizationannotation	urineorganizationannotationtestsnns	trial_runnnslikeinurineorganizationannotation	urineorganizationannotationexaminevb	urineorganizationannotationessayvb	urineorganizationannotationtheynns	themnnslikeinurineorganizationannotation	tryoutnnslikeinurineorganizationannotation	examinevburineorganizationannotation	tryvburineorganizationannotation	
+
+BE: areAUXunderINmedicationNN
+EQ class: beauxunderinmedicamentnn	areauxunderinmedicinenn	beauxunderinmedicinal_drugnn	beauxunderinmedicinenn	areauxunderinmedicinal_drugnn	areauxunderinmedicamentnn	beauxunderinmedicationnn	
+
+BE: lifeNN
+EQ class: 
+
+BE: styleNN
+EQ class: fashionnn	modenn	mannernn	waynn	
+
+BE: changeVB
+EQ class: modifyvb	altervb	
+
+BE: yourPRP$styleNN
+EQ class: yourprp$modenn	stylennofinyourprp$	yourprp$stylisevb	stylistvbyourprp$	mannernnofinyourprp$	modennofinyourprp$	yourprp$mannernn	yourprp$waynn	fashionnnofinyourprp$	yourprp$stylistvb	yourprp$stylizevb	yourprp$conventionalizevb	conventionalizevbyourprp$	stylizevbyourprp$	stylisevbyourprp$	yourprp$fashionnn	waynnofinyourprp$	
+
+BE: lifeNNstyleNN
+EQ class: mannernnofinlifenn	conventionalizevblifenn	modennofinlifenn	waynnofinlifenn	stylizevblifenn	stylennofinlifenn	stylisevblifenn	lifennmodenn	lifennstylistvb	stylistvblifenn	lifennstylisevb	lifennmannernn	lifennfashionnn	fashionnnofinlifenn	lifennwaynn	lifennstylizevb	lifennconventionalizevb	
+
+BE: youPRPhaveAUX
+EQ class: youprphave_gotaux	rich_personnnofinyouprp	havennofinyouprp	youprpholdaux	wealthy_personnnofinyouprp	
+
+BE: changeVBstyleNN
+EQ class: changevbmodenn	modificationnnofinmannernn	changennofinstylenn	altervbstylenn	alterationnnofinfashionnn	alterationnnofinstylenn	changernnofinfashionnn	modifiernnofinmodenn	altervbmodenn	modifyvbmodenn	changernnofinwaynn	changennofinwaynn	modifyvbfashionnn	alterationnnofinmannernn	modifyvbwaynn	changevbmannernn	modifyvbmannernn	alterationnnofinwaynn	altervbwaynn	modificationnnofinstylenn	modifiernnofinfashionnn	modificationnnofinwaynn	changevbfashionnn	alterationnnofinmodenn	changernnofinmannernn	modifiernnofinstylenn	changernnofinstylenn	modificationnnofinfashionnn	changennofinmodenn	modifiernnofinwaynn	modifiernnofinmannernn	changennofinmannernn	modifyvbstylenn	altervbfashionnn	changevbwaynn	altervbmannernn	changennofinfashionnn	changernnofinmodenn	modificationnnofinmodenn	
+
+BE: changeVBfirstRB
+EQ class: modificationnnofinfirstrb	alterationnnofinfirstrb	modifyvbfirstrb	changernnofinfirstrb	altervbfirstrb	changennofinfirstrb	modifiernnofinfirstrb	
+
+BE: ModerationNN
+EQ class: moderatenessnn	
+
+BE: mottoNN
+EQ class: shibbolethnn	slogannn	catchwordnn	
+
+BE: controlNN
+EQ class: 
+
+BE: BPOrganizationAnnotation
+EQ class: b.p.organizationannotation	
+
+BE: ModerationNNisAUX
+EQ class: moderatenessnnisaux	moderatenessnnbeaux	moderationnnbeaux	
+
+BE: isAUXmottoNN
+EQ class: isauxcatchwordnn	beauxslogannn	beauxmottonn	isauxslogannn	beauxshibbolethnn	isauxshibbolethnn	beauxcatchwordnn	
+
+BE: mottoNNforINcontrolNN
+EQ class: catchwordnnforincontrolnn	controlnncatchwordnn	slogannnforincontrolnn	controlnnshibbolethnn	shibbolethnnforincontrolnn	controlnnmottonn	controlnnslogannn	
+
+BE: controlNNofINBPOrganizationAnnotation
+EQ class: controlvbb.p.organizationannotation	b.p.organizationannotationcontrolvb	commandvbbporganizationannotation	b.p.organizationannotationcommandvb	commandvbb.p.organizationannotation	bporganizationannotationcontrolvb	b.p.organizationannotationcontrolnn	bporganizationannotationcontrolnn	bporganizationannotationcommandvb	controlvbbporganizationannotation	controlnnofinb.p.organizationannotation	
+
+BE: mottoNNModerationNN
+EQ class: shibbolethnnmoderationnn	moderationnnmottonn	moderatornnofinslogannn	slogannnmoderationnn	moderatornnofincatchwordnn	slogannnleadvb	shibbolethnnmoderatevb	mottonnleadvb	moderatenessnnslogannn	shibbolethnnmoderatenessnn	moderatenessnnmottonn	shibbolethnnchairvb	mottonnchairvb	catchwordnnchairvb	moderatenessnnshibbolethnn	moderationnncatchwordnn	slogannnmoderatenessnn	mottonnmoderatenessnn	slogannnchairvb	shibbolethnnleadvb	catchwordnnmoderatenessnn	mottonnmoderatevb	moderationnnslogannn	moderatenessnncatchwordnn	catchwordnnmoderationnn	moderatornnofinshibbolethnn	slogannnmoderatevb	moderatornnofinmottonn	moderationnnshibbolethnn	catchwordnnmoderatevb	catchwordnnleadvb	
+
+BE: exercisesNNS
+EQ class: exercisingnns	exercisenns	physical_exercisenns	theynns	workoutnns	physical_exertionnns	themnns	
+
+BE: ageNN
+EQ class: 
+
+BE: healthNN
+EQ class: wellnessnn	healthyjj	
+
+BE: conditionNN
+EQ class: statusnn	
+
+BE: takeVB
+EQ class: 
+
+BE: walkingVBG
+EQ class: walkvbg	
+
+BE: suitedVBN
+EQ class: fitvbn	suitvbn	accommodatevbn	
+
+BE: regularJJ
+EQ class: regularitynn	
+
+BE: regularJJexercisesNNS
+EQ class: exercisevbregularlyrb	regularitynnexercisingnns	regularjjworkoutnns	regularjjexercisingnns	regularjjthemnns	regularitynnexercisenns	regularjjphysical_exertionnns	regularitynnphysical_exertionnns	regularitynntheynns	exertvbregularlyrb	regularjjexercisenns	regularjjphysical_exercisenns	regularitynnexercisesnns	regularitynnphysical_exercisenns	regularitynnthemnns	regularitynnworkoutnns	regularjjtheynns	
+
+BE: yourPRP$conditionNN
+EQ class: yourprp$conditionvb	conditionvbyourprp$	statusnnofinyourprp$	yourprp$statusnn	conditionnnofinyourprp$	
+
+BE: healthNNconditionNN
+EQ class: conditionnnofinwellnessnn	conditionvbhealthyjj	statusnnofinhealthnn	statusnnofinhealthyjj	healthnnstatusnn	healthyjjstatusnn	healthyjjconditionvb	wellnessnnstatusnn	conditionvbhealthnn	conditionnnofinhealthnn	healthyjjconditionnn	statusnnofinwellnessnn	conditionnnofinhealthyjj	healthnnconditionvb	wellnessnnconditionvb	conditionvbwellnessnn	wellnessnnconditionnn	
+
+BE: takeVBexercisesNNS
+EQ class: takevbthemnns	takevbtheynns	takevbexercisenns	takevbexercisingnns	takevbworkoutnns	takevbphysical_exertionnns	takevbphysical_exercisenns	
+
+BE: suitedVBNtoTOconditionNN
+EQ class: accommodatevbntotostatusnn	suitedvbntotostatusnn	fitvbntotostatusnn	suitvbntotostatusnn	fitvbntotoconditionnn	accommodatevbntotoconditionnn	suitvbntotoconditionnn	
+
+BE: fatsNNS
+EQ class: fatjj	theynns	fatnns	themnns	
+
+BE: oilNN
+EQ class: oilyjj	
+
+BE: foodNN
+EQ class: nutrientnn	
+
+BE: reduceVB
+EQ class: trimvb	cutvb	cut_downvb	trim_downvb	cut_backvb	trim_backvb	bring_downvb	
+
+BE: yourPRP$foodNN
+EQ class: nutrientnnofinyourprp$	yourprp$nutrientnn	foodnnofinyourprp$	
+
+BE: reduceVBfatsNNS
+EQ class: diminutionnnofinthemnns	trimvbfatsnns	cut_downvbfatjj	step-downnnofinfatsnns	trim_backvbthemnns	cutvbfatnns	trim_backvbfatnns	reductivennofinfatsnns	reductivennofinthemnns	reducevbfatjj	step-downnnofinthemnns	reductivennofintheynns	diminutionnnofintheynns	decreasennofinthemnns	bring_downvbfatnns	reducevbfatnns	reductivennofinfatjj	trim_backvbfatsnns	reductionnnofinfatnns	cutvbthemnns	trim_downvbtheynns	bring_downvbfatjj	trimvbfatjj	decreasennofinfatsnns	bring_downvbthemnns	trim_downvbthemnns	trim_downvbfatsnns	step-downnnofinfatjj	trim_downvbfatnns	cutvbtheynns	decreasennofintheynns	cut_backvbfatsnns	reductionnnofinthemnns	reductionnnofintheynns	bring_downvbfatsnns	reducevbtheynns	trim_backvbtheynns	trimvbfatnns	diminutionnnofinfatsnns	cut_downvbthemnns	decreasennofinfatjj	reductionnnofinfatsnns	cut_backvbtheynns	trimvbthemnns	trim_downvbfatjj	cutvbfatjj	reductivennofinfatnns	diminutionnnofinfatnns	cut_downvbfatsnns	cut_backvbthemnns	step-downnnofinfatnns	cut_backvbfatjj	trim_backvbfatjj	cutvbfatsnns	step-downnnofintheynns	cut_backvbfatnns	reductionnnofinfatjj	decreasennofinfatnns	reducevbthemnns	cut_downvbtheynns	bring_downvbtheynns	cut_downvbfatnns	trimvbtheynns	diminutionnnofinfatjj	
+
+BE: BPOrganizationAnnotation
+EQ class: b.p.organizationannotation	
+
+BE: worryVB
+EQ class: 
+
+BE: allDTworryVB
+EQ class: worrimentnnalldt	worrywartnnofinalldt	inconveniencennofinalldt	fusspotnnofinalldt	troublesomenessnnofinalldt	worrywartnnalldt	fuss-budgetnnofinalldt	vexationnnofinalldt	worrynnofinalldt	fuss-budgetnnalldt	worriernnofinalldt	troublesomenessnnalldt	fusspotnnalldt	worriernnalldt	headachennofinalldt	worrimentnnofinalldt	concernnnofinalldt	inconveniencennalldt	
+
+BE: worryVBaboutINBPOrganizationAnnotation
+EQ class: worryvbaboutinb.p.organizationannotation	
+
+BE: doAUXAboveRB
+EQ class: makeauxaboverb	
+
+BE: doAUXnotRB
+EQ class: makeauxnotrb	
+
+BE: lotNN
+EQ class: spatenn	heapnn	passelnn	slewnn	flocknn	raftnn	dealnn	potnn	micklenn	pilenn	great_dealnn	mountainnn	sightnn	mintnn	stacknn	hatfulnn	mucklenn	tidy_sumnn	messnn	quite_a_littlenn	wadnn	massnn	plentynn	pecknn	good_dealnn	batchnn	
+
+BE: medicinesNNS
+EQ class: medicinenns	medicaljj	medical_specialtynns	theynns	themnns	
+
+BE: reductionNN
+EQ class: diminutionnn	decreasenn	step-downnn	
+
+BE: BPOrganizationAnnotation
+EQ class: b.p.organizationannotation	
+
+BE: availableJJ
+EQ class: availabilitynn	availablenessnn	
+
+BE: lotNNareAUX
+EQ class: slewnnbeaux	flocknnbeaux	good_dealnnbeaux	hatfulnnbeaux	hatfulnnareaux	plentynnareaux	spatennbeaux	mountainnnareaux	wadnnbeaux	pecknnareaux	good_dealnnareaux	slewnnareaux	raftnnareaux	mintnnbeaux	dealnnareaux	pecknnbeaux	batchnnareaux	stacknnbeaux	quite_a_littlennbeaux	tidy_sumnnbeaux	sightnnareaux	tidy_sumnnareaux	wadnnareaux	messnnbeaux	batchnnbeaux	heapnnbeaux	micklennbeaux	micklennareaux	great_dealnnbeaux	spatennareaux	passelnnbeaux	passelnnareaux	pilennbeaux	potnnbeaux	stacknnareaux	massnnareaux	flocknnareaux	heapnnareaux	massnnbeaux	mintnnareaux	dealnnbeaux	messnnareaux	plentynnbeaux	mountainnnbeaux	potnnareaux	mucklennbeaux	raftnnbeaux	lotnnbeaux	quite_a_littlennareaux	pilennareaux	great_dealnnareaux	sightnnbeaux	mucklennareaux	
+
+BE: areAUXavailableJJ
+EQ class: beauxavailablenessnn	areauxavailabilitynn	beauxavailablejj	areauxavailablenessnn	beauxavailabilitynn	
+
+BE: lotNNofINmedicinesNNS
+EQ class: flocknnofinmedicaljj	mintnnofintheynns	medicinennsmucklenn	messnnofinthemnns	medicinennsgreat_dealnn	passelnnofinmedicinenns	messnnofinmedical_specialtynns	theynnsstacknn	mountainnnofinmedicinesnns	spatennofinmedicaljj	medicaljjhatfulnn	medicinennsmountainnn	medicaljjwadnn	themnnsspatenn	medicinesnnsmountainnn	themnnsplentynn	flocknnofinmedical_specialtynns	medical_specialtynnsplentynn	pilennofinmedicaljj	stacknnofinthemnns	medicinesnnstidy_sumnn	dealnnofinmedical_specialtynns	medicinennsplentynn	good_dealnnofintheynns	medicinesnnsquite_a_littlenn	medicaljjslewnn	slewnnofinmedicinenns	medical_specialtynnsquite_a_littlenn	quite_a_littlennofintheynns	themnnsbatchnn	theynnstidy_sumnn	theynnswadnn	batchnnofinthemnns	lotnnofinmedicaljj	lotnnofinthemnns	wadnnofinmedical_specialtynns	good_dealnnofinmedical_specialtynns	theynnsflocknn	mountainnnofinmedical_specialtynns	medicinennstidy_sumnn	heapnnofinmedical_specialtynns	medicaljjheapnn	good_dealnnofinmedicinesnns	medical_specialtynnsgood_dealnn	themnnspotnn	themnnsmintnn	flocknnofinmedicinesnns	medicinesnnsmassnn	lotnnofinmedical_specialtynns	passelnnofintheynns	themnnsstacknn	sightnnofinmedicinesnns	medicaljjdealnn	mintnnofinmedicinenns	massnnofinmedicaljj	themnnsheapnn	medical_specialtynnstidy_sumnn	micklennofinmedicinesnns	pilennofinmedicinenns	great_dealnnofinmedicinesnns	wadnnofinthemnns	medicinesnnswadnn	pecknnofinmedicaljj	potnnofinmedicinenns	medicinesnnsdealnn	quite_a_littlennofinthemnns	medicinennspasselnn	spatennofinmedicinesnns	medicinennsraftnn	themnnsmountainnn	plentynnofinmedicaljj	theynnsbatchnn	medicaljjspatenn	medicinesnnsmessnn	great_dealnnofinmedicaljj	mucklennofinmedical_specialtynns	medical_specialtynnsmintnn	massnnofintheynns	hatfulnnofinmedicinesnns	good_dealnnofinthemnns	themnnsquite_a_littlenn	pilennofinthemnns	medicinennsheapnn	medicinesnnsbatchnn	heapnnofinmedicinenns	theynnspecknn	medicinesnnspecknn	raftnnofinthemnns	theynnsmassnn	flocknnofinmedicinenns	medical_specialtynnshatfulnn	theynnsmucklenn	mintnnofinmedicinesnns	messnnofinmedicinesnns	mucklennofinmedicaljj	medical_specialtynnsstacknn	themnnsslewnn	medicinesnnsmintnn	pecknnofintheynns	theynnsdealnn	medical_specialtynnspilenn	plentynnofinmedicinesnns	pecknnofinmedical_specialtynns	theynnsheapnn	flocknnofinthemnns	passelnnofinthemnns	passelnnofinmedicaljj	themnnswadnn	raftnnofinmedical_specialtynns	dealnnofinmedicaljj	batchnnofinmedicinenns	stacknnofinmedicinenns	slewnnofinthemnns	themnnstidy_sumnn	medicaljjbatchnn	theynnsquite_a_littlenn	medicinesnnshatfulnn	dealnnofinmedicinenns	hatfulnnofintheynns	pilennofintheynns	medicinesnnsgreat_dealnn	sightnnofinmedicinenns	medicaljjflocknn	mucklennofintheynns	stacknnofinmedicaljj	themnnsmassnn	mucklennofinthemnns	theynnsmessnn	medicaljjmountainnn	theynnsgreat_dealnn	medicinesnnspasselnn	themnnssightnn	batchnnofinmedicinesnns	themnnsmessnn	quite_a_littlennofinmedicinenns	mucklennofinmedicinesnns	pecknnofinthemnns	medical_specialtynnsheapnn	themnnslotnn	medicinennswadnn	themnnsmicklenn	quite_a_littlennofinmedicinesnns	medicaljjpasselnn	medicinennspotnn	batchnnofinmedicaljj	theynnspasselnn	dealnnofintheynns	themnnsgood_dealnn	medical_specialtynnsgreat_dealnn	flocknnofintheynns	heapnnofintheynns	medicinesnnsgood_dealnn	hatfulnnofinmedical_specialtynns	massnnofinmedicinenns	passelnnofinmedical_specialtynns	medicinesnnsplentynn	messnnofintheynns	spatennofinmedicinenns	theynnspilenn	micklennofinmedical_specialtynns	medical_specialtynnslotnn	tidy_sumnnofinmedicaljj	tidy_sumnnofinmedicinesnns	medicaljjpecknn	plentynnofinmedicinenns	medicaljjgood_dealnn	theynnsmicklenn	micklennofintheynns	wadnnofinmedicinenns	medicinennsmessnn	sightnnofinthemnns	medicinesnnsmucklenn	mountainnnofinmedicaljj	medicaljjmessnn	batchnnofinmedical_specialtynns	theynnspotnn	medicinennsmintnn	slewnnofinmedicaljj	sightnnofinmedicaljj	themnnspecknn	medical_specialtynnsbatchnn	theynnsplentynn	medicaljjmassnn	theynnsspatenn	tidy_sumnnofinmedicinenns	raftnnofinmedicinesnns	massnnofinthemnns	stacknnofintheynns	dealnnofinmedicinesnns	mintnnofinmedical_specialtynns	quite_a_littlennofinmedicaljj	medicaljjsightnn	raftnnofinmedicaljj	potnnofinmedicinesnns	medicinesnnsflocknn	medicinennspecknn	medicaljjtidy_sumnn	plentynnofinmedical_specialtynns	medicinesnnsheapnn	medicaljjmicklenn	pilennofinmedical_specialtynns	mintnnofinthemnns	medicaljjplentynn	medicinesnnsslewnn	plentynnofintheynns	medicinesnnslotnn	medical_specialtynnspecknn	medicaljjstacknn	micklennofinmedicinenns	lotnnofintheynns	medicinennsslewnn	themnnsdealnn	medicinesnnsmicklenn	raftnnofintheynns	hatfulnnofinmedicinenns	pecknnofinmedicinesnns	medical_specialtynnsmicklenn	medicaljjquite_a_littlenn	wadnnofinmedicaljj	medicinennsstacknn	massnnofinmedicinesnns	themnnsflocknn	medicinennssightnn	slewnnofinmedical_specialtynns	theynnsgood_dealnn	theynnslotnn	medicinennsbatchnn	themnnshatfulnn	themnnspilenn	heapnnofinthemnns	medicaljjmintnn	heapnnofinmedicaljj	wadnnofinmedicinesnns	slewnnofinmedicinesnns	dealnnofinthemnns	themnnspasselnn	spatennofintheynns	sightnnofinmedical_specialtynns	spatennofinthemnns	tidy_sumnnofinmedical_specialtynns	stacknnofinmedical_specialtynns	potnnofinthemnns	spatennofinmedical_specialtynns	great_dealnnofintheynns	theynnsmountainnn	medical_specialtynnsflocknn	medical_specialtynnsmountainnn	themnnsgreat_dealnn	mountainnnofinmedicinenns	medicinennsgood_dealnn	medical_specialtynnsdealnn	pecknnofinmedicinenns	medicaljjmucklenn	heapnnofinmedicinesnns	micklennofinthemnns	theynnsmintnn	micklennofinmedicaljj	medical_specialtynnsslewnn	medicinennsdealnn	themnnsmucklenn	mucklennofinmedicinenns	medicinesnnsraftnn	medicinennsmicklenn	raftnnofinmedicinenns	great_dealnnofinmedicinenns	medicaljjpilenn	potnnofinmedicaljj	stacknnofinmedicinesnns	passelnnofinmedicinesnns	tidy_sumnnofinthemnns	medical_specialtynnspotnn	quite_a_littlennofinmedical_specialtynns	medical_specialtynnssightnn	medicaljjpotnn	mintnnofinmedicaljj	hatfulnnofinmedicaljj	medical_specialtynnswadnn	medicinesnnspotnn	theynnsraftnn	medical_specialtynnsraftnn	theynnshatfulnn	hatfulnnofinthemnns	themnnsraftnn	sightnnofintheynns	potnnofintheynns	potnnofinmedical_specialtynns	wadnnofintheynns	medicinennspilenn	medical_specialtynnsmessnn	medicinennsflocknn	medicinennsmassnn	medical_specialtynnsmassnn	great_dealnnofinthemnns	medicinennsquite_a_littlenn	medicinesnnsspatenn	medicinesnnssightnn	mountainnnofinthemnns	medicinennslotnn	medicaljjgreat_dealnn	good_dealnnofinmedicaljj	theynnssightnn	medicinennshatfulnn	pilennofinmedicinesnns	medical_specialtynnsspatenn	medicinennsspatenn	lotnnofinmedicinenns	messnnofinmedicinenns	batchnnofintheynns	theynnsslewnn	good_dealnnofinmedicinenns	massnnofinmedical_specialtynns	medical_specialtynnsmucklenn	medicaljjlotnn	great_dealnnofinmedical_specialtynns	medicaljjraftnn	medicinesnnsstacknn	tidy_sumnnofintheynns	mountainnnofintheynns	medicinesnnspilenn	slewnnofintheynns	medical_specialtynnspasselnn	plentynnofinthemnns	messnnofinmedicaljj	
+
+BE: lotNNofINBPOrganizationAnnotation
+EQ class: bporganizationannotationmucklenn	pilennofinb.p.organizationannotation	bporganizationannotationpotnn	hatfulnnofinb.p.organizationannotation	bporganizationannotationmintnn	tidy_sumnnofinb.p.organizationannotation	b.p.organizationannotationplentynn	mountainnnofinb.p.organizationannotation	b.p.organizationannotationheapnn	bporganizationannotationtidy_sumnn	b.p.organizationannotationstacknn	bporganizationannotationquite_a_littlenn	b.p.organizationannotationdealnn	pilennofinbporganizationannotation	b.p.organizationannotationbatchnn	bporganizationannotationmicklenn	stacknnofinbporganizationannotation	batchnnofinb.p.organizationannotation	raftnnofinb.p.organizationannotation	bporganizationannotationflocknn	slewnnofinbporganizationannotation	good_dealnnofinbporganizationannotation	bporganizationannotationpecknn	b.p.organizationannotationpasselnn	b.p.organizationannotationlotnn	wadnnofinbporganizationannotation	micklennofinb.p.organizationannotation	mountainnnofinbporganizationannotation	bporganizationannotationdealnn	messnnofinb.p.organizationannotation	plentynnofinbporganizationannotation	raftnnofinbporganizationannotation	plentynnofinb.p.organizationannotation	b.p.organizationannotationmessnn	sightnnofinbporganizationannotation	b.p.organizationannotationspatenn	b.p.organizationannotationwadnn	b.p.organizationannotationquite_a_littlenn	b.p.organizationannotationraftnn	b.p.organizationannotationmassnn	mucklennofinb.p.organizationannotation	spatennofinb.p.organizationannotation	slewnnofinb.p.organizationannotation	passelnnofinb.p.organizationannotation	passelnnofinbporganizationannotation	mucklennofinbporganizationannotation	sightnnofinb.p.organizationannotation	massnnofinb.p.organizationannotation	potnnofinb.p.organizationannotation	lotnnofinb.p.organizationannotation	pecknnofinb.p.organizationannotation	b.p.organizationannotationflocknn	b.p.organizationannotationgreat_dealnn	bporganizationannotationhatfulnn	bporganizationannotationmountainnn	bporganizationannotationspatenn	mintnnofinb.p.organizationannotation	dealnnofinbporganizationannotation	bporganizationannotationpasselnn	good_dealnnofinb.p.organizationannotation	b.p.organizationannotationmucklenn	messnnofinbporganizationannotation	b.p.organizationannotationpotnn	b.p.organizationannotationpecknn	quite_a_littlennofinb.p.organizationannotation	wadnnofinb.p.organizationannotation	bporganizationannotationstacknn	b.p.organizationannotationhatfulnn	bporganizationannotationwadnn	bporganizationannotationraftnn	heapnnofinbporganizationannotation	flocknnofinbporganizationannotation	flocknnofinb.p.organizationannotation	bporganizationannotationmassnn	tidy_sumnnofinbporganizationannotation	mintnnofinbporganizationannotation	bporganizationannotationmessnn	bporganizationannotationheapnn	b.p.organizationannotationmintnn	heapnnofinb.p.organizationannotation	b.p.organizationannotationslewnn	pecknnofinbporganizationannotation	great_dealnnofinb.p.organizationannotation	b.p.organizationannotationpilenn	bporganizationannotationbatchnn	bporganizationannotationsightnn	spatennofinbporganizationannotation	stacknnofinb.p.organizationannotation	potnnofinbporganizationannotation	quite_a_littlennofinbporganizationannotation	bporganizationannotationpilenn	micklennofinbporganizationannotation	bporganizationannotationlotnn	b.p.organizationannotationtidy_sumnn	batchnnofinbporganizationannotation	great_dealnnofinbporganizationannotation	bporganizationannotationgreat_dealnn	b.p.organizationannotationsightnn	b.p.organizationannotationmountainnn	bporganizationannotationplentynn	bporganizationannotationslewnn	hatfulnnofinbporganizationannotation	bporganizationannotationgood_dealnn	b.p.organizationannotationmicklenn	b.p.organizationannotationgood_dealnn	massnnofinbporganizationannotation	dealnnofinb.p.organizationannotation	
+
+BE: medicinesNNSforINreductionNN
+EQ class: diminutionnnmedicinenns	step-downnnmedicinenns	reductionnnmedicaljj	medicatevbdecreasenn	medicinevbdiminutionnn	medicinevbdecreasenn	decreasenntheynns	diminutionnnmedicatevb	theynnsforinstep-downnn	step-downnnmedicatevb	medicatevbstep-downnn	themnnsforindecreasenn	decreasennthemnns	medicaljjforinstep-downnn	decreasennmedicaljj	diminutionnnmedicinevb	reductionnnmedicinesnns	medical_specialtynnsforinreductionnn	diminutionnnmedicinesnns	medicaljjforindecreasenn	step-downnnmedicaljj	medicalvbstep-downnn	decreasennmedicinenns	decreasennmedicalvb	medicinennsforindecreasenn	diminutionnnmedical_specialtynns	reductionnntheynns	reductionnnmedicinevb	medical_specialtynnsforindecreasenn	reductionnnmedical_specialtynns	medical_specialtynnsforinstep-downnn	decreasennmedicatevb	decreasennmedicinesnns	decreasennmedicinevb	medicinesnnsforindecreasenn	medicaljjforinreductionnn	medicalvbreductionnn	theynnsforinreductionnn	medicinesnnsforindiminutionnn	medicinennsforindiminutionnn	medicalvbdiminutionnn	medicinevbreductionnn	medicaljjforindiminutionnn	step-downnnmedical_specialtynns	medicalvbdecreasenn	step-downnntheynns	medical_specialtynnsforindiminutionnn	medicatevbdiminutionnn	reductionnnmedicalvb	reductionnnmedicatevb	diminutionnnthemnns	step-downnnthemnns	medicatevbreductionnn	medicinennsforinreductionnn	decreasennmedical_specialtynns	step-downnnmedicinevb	diminutionnntheynns	reductionnnmedicinenns	diminutionnnmedicalvb	medicinevbstep-downnn	diminutionnnmedicaljj	step-downnnmedicalvb	reductionnnthemnns	medicinesnnsforinstep-downnn	themnnsforinreductionnn	theynnsforindiminutionnn	step-downnnmedicinesnns	themnnsforinstep-downnn	themnnsforindiminutionnn	theynnsforindecreasenn	medicinennsforinstep-downnn	
+
+BE: areAUXNowadaysRB
+EQ class: beauxnowadaysrb	
+
+BE: YogaPersonAnnotation
+EQ class: 
+
+BE: MeditationOrganizationAnnotation
+EQ class: 
+
+BE: MasterNNP
+EQ class: maestronnp	masterlyjj	
+
+BE: lotNN
+EQ class: spatenn	heapnn	passelnn	slewnn	flocknn	raftnn	dealnn	potnn	micklenn	pilenn	great_dealnn	mountainnn	sightnn	mintnn	stacknn	hatfulnn	mucklenn	tidy_sumnn	messnn	quite_a_littlenn	wadnn	massnn	plentynn	pecknn	good_dealnn	batchnn	
+
+BE: BPOrganizationAnnotation
+EQ class: b.p.organizationannotation	
+
+BE: helpsVBZ
+EQ class: helpvbz	aidvbz	assistvbz	
+
+BE: reducingVBG
+EQ class: trim_downvbg	trim_backvbg	trimvbg	cutvbg	bring_downvbg	cut_downvbg	cut_backvbg	reducevbg	
+
+BE: properJJ
+EQ class: propernessnn	
+
+BE: properJJMasterNNP
+EQ class: get_the_hangvbproperlyrb	properjjmasterlyjj	propernessnnmasterlyjj	propernessnnmaestronnp	masterlyvbproperlyrb	propernessnnmasternnp	properjjmaestronnp	mastervbproperlyrb	mastershipvbproperlyrb	
+
+BE: YogaPersonAnnotationhelpsVBZ
+EQ class: assistantnnofinyogapersonannotation	yogapersonannotationhelpvbz	assistancennofinyogapersonannotation	aidnnofinyogapersonannotation	helpernnofinyogapersonannotation	helpnnyogapersonannotation	assistantnnyogapersonannotation	helpernnyogapersonannotation	supporternnyogapersonannotation	yogapersonannotationassistvbz	supporternnofinyogapersonannotation	assistnnofinyogapersonannotation	yogapersonannotationaidvbz	helpnnofinyogapersonannotation	
+
+BE: helpsVBZlotNN
+EQ class: aidnnofinbatchnn	supporternnofintidy_sumnn	aidvbzslewnn	assistvbztidy_sumnn	helpvbzdealnn	assistnnofinpasselnn	assistantnnofinmucklenn	helpnnofinsightnn	aidnnofinflocknn	supporternnofinpotnn	helpsvbzdealnn	assistantnnofinhatfulnn	aidvbzgreat_dealnn	assistancennofinwadnn	aidnnofinhatfulnn	helpsvbzwadnn	helpernnofinquite_a_littlenn	assistvbzbatchnn	helpvbzpecknn	assistvbzlotnn	helpnnofinpecknn	assistancennofinhatfulnn	assistvbzflocknn	supporternnofinquite_a_littlenn	assistancennofinmicklenn	assistvbzdealnn	assistancennofingreat_dealnn	supporternnofinpilenn	aidvbzbatchnn	assistantnnofinheapnn	assistantnnofinmessnn	supporternnofinmountainnn	assistancennofinslewnn	helpnnofindealnn	supporternnofinwadnn	assistnnofinslewnn	helpvbzslewnn	helpvbztidy_sumnn	assistnnofinmucklenn	assistnnofinstacknn	helpernnofinpasselnn	helpernnofinraftnn	assistantnnofinspatenn	helpsvbzbatchnn	aidvbzraftnn	assistvbzsightnn	aidnnofinmicklenn	aidnnofingood_dealnn	helpnnofinmessnn	aidvbzpilenn	aidnnofinslewnn	helpsvbzspatenn	helpvbzpilenn	helpvbzhatfulnn	helpernnofinpilenn	assistancennofinmintnn	assistnnofinhatfulnn	assistantnnofinsightnn	assistantnnofindealnn	helpernnofinlotnn	helpvbzraftnn	helpernnofinsightnn	aidvbzwadnn	assistnnofinspatenn	assistancennofinmucklenn	helpvbzplentynn	helpsvbzpecknn	assistnnofinpecknn	helpernnofindealnn	supporternnofinmucklenn	assistancennofinspatenn	helpernnofinmintnn	aidvbzflocknn	helpernnofinplentynn	helpvbzgreat_dealnn	assistnnofinquite_a_littlenn	assistantnnofinpotnn	aidnnofinlotnn	helpvbzmicklenn	aidnnofinmessnn	helpsvbzpilenn	supporternnofinmicklenn	assistancennofinsightnn	aidnnofinmucklenn	helpvbzspatenn	aidnnofinstacknn	helpsvbzflocknn	supporternnofinbatchnn	aidnnofinquite_a_littlenn	helpernnofinbatchnn	assistancennofinplentynn	helpnnofinplentynn	assistnnofinpilenn	helpvbzstacknn	assistantnnofinmassnn	aidvbzmucklenn	helpnnofinflocknn	helpsvbzheapnn	assistvbzstacknn	helpernnofinmountainnn	assistvbzraftnn	assistnnofinmessnn	assistnnofinmassnn	assistnnofingood_dealnn	assistvbzpilenn	helpernnofinhatfulnn	helpnnofinmicklenn	assistancennofingood_dealnn	helpernnofinmassnn	helpernnofinmessnn	helpernnofingood_dealnn	aidvbzpasselnn	assistancennofinpecknn	assistantnnofinmintnn	aidnnofintidy_sumnn	helpernnofinheapnn	helpvbzflocknn	helpnnofinwadnn	supporternnofinpasselnn	helpsvbzmessnn	assistnnofinbatchnn	supporternnofinplentynn	assistnnofinpotnn	assistvbzwadnn	aidnnofindealnn	assistvbzslewnn	aidnnofinpotnn	helpsvbzmintnn	assistvbzpotnn	supporternnofinmassnn	assistancennofintidy_sumnn	assistantnnofinwadnn	helpvbzwadnn	aidvbzmessnn	helpvbzgood_dealnn	helpnnofinmountainnn	helpvbzlotnn	assistvbzmintnn	helpernnofinmicklenn	helpnnofinstacknn	aidnnofinpasselnn	assistantnnofinlotnn	aidvbzsightnn	helpvbzquite_a_littlenn	supporternnofinstacknn	supporternnofinspatenn	helpernnofinmucklenn	helpsvbzmountainnn	assistantnnofinslewnn	supporternnofinraftnn	supporternnofinsightnn	assistvbzquite_a_littlenn	assistantnnofinquite_a_littlenn	assistvbzmountainnn	supporternnofinheapnn	assistantnnofinraftnn	helpnnofinlotnn	helpsvbzgreat_dealnn	aidnnofinplentynn	helpsvbzhatfulnn	supporternnofinflocknn	helpernnofinstacknn	helpernnofinpotnn	helpnnofingood_dealnn	helpsvbzslewnn	assistnnofinmountainnn	aidvbzpecknn	aidvbzplentynn	assistantnnofinpilenn	aidnnofinpecknn	helpnnofinraftnn	helpnnofinbatchnn	assistancennofinmountainnn	aidvbzdealnn	assistvbzpasselnn	supporternnofinmintnn	assistvbzpecknn	assistancennofinpasselnn	aidvbzhatfulnn	helpnnofingreat_dealnn	supporternnofindealnn	helpnnofinhatfulnn	helpernnofinwadnn	assistantnnofinmicklenn	supporternnofinpecknn	assistancennofinpilenn	aidvbzspatenn	supporternnofinhatfulnn	aidnnofingreat_dealnn	assistvbzspatenn	helpsvbzstacknn	helpsvbztidy_sumnn	assistvbzmessnn	assistnnofinlotnn	assistancennofinquite_a_littlenn	helpernnofintidy_sumnn	aidnnofinpilenn	aidnnofinmountainnn	helpsvbzsightnn	assistvbzplentynn	helpvbzsightnn	helpsvbzpasselnn	helpnnofintidy_sumnn	assistantnnofingreat_dealnn	helpvbzpotnn	assistantnnofintidy_sumnn	assistnnofintidy_sumnn	helpernnofinflocknn	assistancennofinraftnn	assistantnnofinpecknn	helpsvbzmassnn	assistancennofinflocknn	helpvbzheapnn	supporternnofingood_dealnn	helpernnofinpecknn	assistancennofinlotnn	helpnnofinpasselnn	helpnnofinspatenn	helpsvbzmicklenn	assistancennofinheapnn	assistancennofinbatchnn	assistnnofinraftnn	aidvbzgood_dealnn	aidvbzquite_a_littlenn	assistvbzmucklenn	assistnnofinplentynn	helpsvbzraftnn	aidnnofinraftnn	aidvbzmassnn	assistnnofinmicklenn	assistvbzmicklenn	assistnnofinflocknn	assistnnofinsightnn	helpnnofinmucklenn	assistancennofinpotnn	helpnnofinpotnn	helpvbzpasselnn	helpvbzmintnn	assistancennofinmessnn	helpernnofinslewnn	helpvbzmountainnn	aidvbzstacknn	assistantnnofinstacknn	aidvbzlotnn	assistvbzmassnn	assistnnofindealnn	supporternnofinlotnn	assistnnofinmintnn	assistnnofinheapnn	supporternnofingreat_dealnn	supporternnofinslewnn	aidvbzpotnn	supporternnofinmessnn	assistvbzgood_dealnn	helpvbzbatchnn	helpvbzmucklenn	aidvbzheapnn	assistantnnofingood_dealnn	assistancennofinstacknn	helpnnofinheapnn	helpnnofinpilenn	aidvbzmountainnn	helpernnofinspatenn	helpvbzmessnn	helpsvbzmucklenn	aidnnofinmassnn	helpsvbzgood_dealnn	aidnnofinspatenn	assistancennofinmassnn	assistvbzhatfulnn	assistvbzheapnn	assistancennofindealnn	aidvbzmicklenn	helpnnofinslewnn	helpsvbzquite_a_littlenn	aidvbzmintnn	aidnnofinheapnn	helpernnofingreat_dealnn	assistnnofinwadnn	helpsvbzplentynn	helpsvbzpotnn	assistantnnofinmountainnn	aidvbztidy_sumnn	assistantnnofinpasselnn	helpnnofinmassnn	helpvbzmassnn	aidnnofinsightnn	assistantnnofinbatchnn	assistnnofingreat_dealnn	helpnnofinquite_a_littlenn	aidnnofinwadnn	assistantnnofinplentynn	assistantnnofinflocknn	assistvbzgreat_dealnn	aidnnofinmintnn	helpnnofinmintnn	
+
+BE: reducingVBGBPOrganizationAnnotation
+EQ class: decreasennofinb.p.organizationannotation	reducingvbgb.p.organizationannotation	reducevbgbporganizationannotation	trim_downvbgbporganizationannotation	cut_backvbgb.p.organizationannotation	reducevbgb.p.organizationannotation	bring_downvbgb.p.organizationannotation	cutvbgb.p.organizationannotation	cutvbgbporganizationannotation	reductionnnofinbporganizationannotation	decreasennofinbporganizationannotation	trim_backvbgbporganizationannotation	cut_downvbgbporganizationannotation	trim_downvbgb.p.organizationannotation	diminutionnnofinb.p.organizationannotation	cut_backvbgbporganizationannotation	step-downnnofinb.p.organizationannotation	step-downnnofinbporganizationannotation	bring_downvbgbporganizationannotation	trimvbgbporganizationannotation	reductivennofinb.p.organizationannotation	reductivennofinbporganizationannotation	reductionnnofinb.p.organizationannotation	diminutionnnofinbporganizationannotation	trim_backvbgb.p.organizationannotation	trimvbgb.p.organizationannotation	cut_downvbgb.p.organizationannotation	
+
+BE: YogaPersonAnnotationunderINMasterNNP
+EQ class: masterlyjjyogapersonannotation	masternnpyogapersonannotation	yogapersonannotationunderinmasterlyjj	yogapersonannotationunderinmaestronnp	maestronnpyogapersonannotation	
+
+BE: ageNN
+EQ class: 
+
+BE: resultsNNS
+EQ class: outcomenns	resultnns	upshotnns	theynns	consequencenns	issuenns	eventnns	effectnns	themnns	
+
+BE: pleaseVB
+EQ class: delightvb	
+
+BE: noteVB
+EQ class: observevb	remarkvb	mentionvb	
+
+BE: getVB
+EQ class: acquirevb	
+
+BE: favorableJJ
+EQ class: favourablejj	
+
+BE: positiveJJ
+EQ class: positivenessnn	positivitynn	
+
+BE: positiveJJresultsNNS
+EQ class: positivenessnnresultnns	positivitynnoutcomenns	positivejjeventnns	positivenessnneventnns	positivenessnnoutcomenns	positivejjoutcomenns	positivenessnnconsequencenns	positivejjresultnns	resultvbpositivelyrb	positivitynneffectnns	positivenessnnresultsnns	positivitynnresultnns	positivejjissuenns	positivenessnnissuenns	positivitynnconsequencenns	positivitynnupshotnns	positivitynnthemnns	positivenessnneffectnns	positivitynneventnns	positivitynnresultsnns	positivejjupshotnns	ensuevbpositivelyrb	positivejjtheynns	positivenessnnupshotnns	positivitynntheynns	positivenessnntheynns	positivejjeffectnns	positivitynnissuenns	positivejjconsequencenns	positivenessnnthemnns	positivejjthemnns	
+
+BE: yourPRP$ageNN
+EQ class: agennofinyourprp$	
+
+BE: ageNNisAUX
+EQ class: agennbeaux	
+
+BE: youPRPgetVB
+EQ class: gettingnnofinyouprp	acquiringnnofinyouprp	gettingnnyouprp	youprpacquirevb	acquiringnnyouprp	
+
+BE: getVBresultsNNS
+EQ class: getvboutcomenns	acquirevbissuenns	acquiringnnofineffectnns	acquiringnnofinissuenns	acquiringnnofinupshotnns	gettingnnofineventnns	gettingnnofinissuenns	acquiringnnofinresultsnns	acquirevbresultnns	getvbupshotnns	gettingnnofineffectnns	acquiringnnofinoutcomenns	gettingnnofinthemnns	getvbconsequencenns	acquirevbconsequencenns	gettingnnofinoutcomenns	getvbtheynns	acquirevbresultsnns	gettingnnofintheynns	acquirevbtheynns	getvbresultnns	acquiringnnofintheynns	gettingnnofinconsequencenns	getvbeventnns	getvbthemnns	getvbeffectnns	getvbissuenns	acquiringnnofinconsequencenns	gettingnnofinupshotnns	acquirevbeventnns	gettingnnofinresultsnns	gettingnnofinresultnns	acquirevbthemnns	acquiringnnofinresultnns	acquirevbeffectnns	acquirevboutcomenns	acquiringnnofineventnns	acquirevbupshotnns	acquiringnnofinthemnns	
+
+BE: isAUXfavorableJJ
+EQ class: isauxfavourablejj	beauxfavorablejj	beauxfavourablejj	
+
+BE: LifeOrganizationAnnotation
+EQ class: 
+
+BE: medicationNN
+EQ class: medicinenn	medicinal_drugnn	medicamentnn	
+
+BE: lotNN
+EQ class: spatenn	heapnn	passelnn	slewnn	flocknn	raftnn	dealnn	potnn	micklenn	pilenn	great_dealnn	mountainnn	sightnn	mintnn	stacknn	hatfulnn	mucklenn	tidy_sumnn	messnn	quite_a_littlenn	wadnn	massnn	plentynn	pecknn	good_dealnn	batchnn	
+
+BE: helpVB
+EQ class: aidvb	assistvb	
+
+BE: DisciplinedJJ
+EQ class: 
+
+BE: DisciplinedJJLifeOrganizationAnnotation
+EQ class: 
+
+BE: LifeOrganizationAnnotationhelpVB
+EQ class: helpernnlifeorganizationannotation	supporternnlifeorganizationannotation	helpernnofinlifeorganizationannotation	assistantnnofinlifeorganizationannotation	assistnnofinlifeorganizationannotation	helpnnofinlifeorganizationannotation	lifeorganizationannotationassistvb	assistancennofinlifeorganizationannotation	supporternnofinlifeorganizationannotation	lifeorganizationannotationaidvb	helpnnlifeorganizationannotation	aidnnofinlifeorganizationannotation	assistantnnlifeorganizationannotation	
+
+BE: helpVBmedicationNN
+EQ class: helpvbmedicamentnn	assistancennofinmedicamentnn	assistvbmedicationnn	helpvbmedicinal_drugnn	supporternnofinmedicamentnn	assistancennofinmedicinal_drugnn	assistantnnofinmedicinenn	assistancennofinmedicinenn	assistantnnofinmedicationnn	aidvbmedicationnn	aidvbmedicinenn	assistnnofinmedicinenn	supporternnofinmedicationnn	assistantnnofinmedicamentnn	helpvbmedicinenn	helpnnofinmedicationnn	aidnnofinmedicationnn	aidnnofinmedicinal_drugnn	aidnnofinmedicinenn	assistantnnofinmedicinal_drugnn	supporternnofinmedicinenn	aidnnofinmedicamentnn	aidvbmedicamentnn	helpernnofinmedicationnn	helpnnofinmedicamentnn	assistvbmedicinenn	helpnnofinmedicinal_drugnn	assistnnofinmedicamentnn	assistvbmedicamentnn	helpernnofinmedicamentnn	assistnnofinmedicinal_drugnn	assistnnofinmedicationnn	assistvbmedicinal_drugnn	aidvbmedicinal_drugnn	helpnnofinmedicinenn	helpernnofinmedicinal_drugnn	assistancennofinmedicationnn	supporternnofinmedicinal_drugnn	helpernnofinmedicinenn	
+
+BE: helpVBlotNN
+EQ class: aidnnofinbatchnn	supporternnofintidy_sumnn	aidvbmassnn	assistnnofinpasselnn	assistvbmountainnn	assistantnnofinmucklenn	assistvbheapnn	assistvbbatchnn	helpnnofinsightnn	aidnnofinflocknn	supporternnofinpotnn	assistantnnofinhatfulnn	aidvbgood_dealnn	assistancennofinwadnn	aidnnofinhatfulnn	helpvbstacknn	helpernnofinquite_a_littlenn	helpnnofinpecknn	assistancennofinhatfulnn	aidvbheapnn	supporternnofinquite_a_littlenn	assistancennofinmicklenn	assistancennofingreat_dealnn	supporternnofinpilenn	assistantnnofinheapnn	assistantnnofinmessnn	supporternnofinmountainnn	assistancennofinslewnn	helpnnofindealnn	helpvbpilenn	supporternnofinwadnn	assistnnofinslewnn	assistnnofinmucklenn	assistnnofinstacknn	helpernnofinpasselnn	assistvbpilenn	helpernnofinraftnn	assistantnnofinspatenn	aidvbmintnn	helpvbbatchnn	aidnnofinmicklenn	aidnnofingood_dealnn	helpnnofinmessnn	aidnnofinslewnn	assistvbgreat_dealnn	assistvbtidy_sumnn	helpernnofinpilenn	assistancennofinmintnn	assistnnofinhatfulnn	assistantnnofinsightnn	assistantnnofindealnn	aidvbwadnn	helpernnofinlotnn	helpernnofinsightnn	assistvbraftnn	assistnnofinspatenn	helpvbhatfulnn	assistancennofinmucklenn	assistnnofinpecknn	helpernnofindealnn	supporternnofinmucklenn	helpvbgood_dealnn	helpvbmountainnn	assistvbmicklenn	assistancennofinspatenn	helpernnofinmintnn	helpernnofinplentynn	assistnnofinquite_a_littlenn	assistantnnofinpotnn	aidnnofinlotnn	helpvbplentynn	assistvbsightnn	aidnnofinmessnn	assistvblotnn	supporternnofinmicklenn	helpvbmintnn	assistancennofinsightnn	aidvbmountainnn	aidnnofinmucklenn	aidnnofinstacknn	supporternnofinbatchnn	aidnnofinquite_a_littlenn	helpernnofinbatchnn	assistancennofinplentynn	helpnnofinplentynn	assistvbgood_dealnn	assistnnofinpilenn	assistantnnofinmassnn	helpnnofinflocknn	helpvbspatenn	helpernnofinmountainnn	assistnnofinmessnn	assistnnofinmassnn	assistnnofingood_dealnn	helpernnofinhatfulnn	helpnnofinmicklenn	assistancennofingood_dealnn	helpernnofinmassnn	helpernnofinmessnn	helpernnofingood_dealnn	aidvbhatfulnn	helpvbheapnn	assistancennofinpecknn	assistantnnofinmintnn	aidnnofintidy_sumnn	aidvbstacknn	helpernnofinheapnn	helpnnofinwadnn	helpvbwadnn	aidvbflocknn	supporternnofinpasselnn	assistnnofinbatchnn	supporternnofinplentynn	assistnnofinpotnn	aidnnofindealnn	aidnnofinpotnn	supporternnofinmassnn	aidvbslewnn	assistancennofintidy_sumnn	assistantnnofinwadnn	helpnnofinmountainnn	helpernnofinmicklenn	helpnnofinstacknn	aidnnofinpasselnn	aidvblotnn	assistvbpecknn	assistantnnofinlotnn	supporternnofinstacknn	supporternnofinspatenn	helpernnofinmucklenn	helpvbslewnn	aidvbspatenn	assistantnnofinslewnn	supporternnofinraftnn	supporternnofinsightnn	aidvbtidy_sumnn	assistvbmintnn	aidvbmicklenn	assistantnnofinquite_a_littlenn	supporternnofinheapnn	assistantnnofinraftnn	helpnnofinlotnn	assistvbdealnn	helpvbpasselnn	aidnnofinplentynn	aidvbquite_a_littlenn	supporternnofinflocknn	helpernnofinstacknn	assistvbpasselnn	helpernnofinpotnn	helpvbpotnn	helpnnofingood_dealnn	assistnnofinmountainnn	assistvbstacknn	assistantnnofinpilenn	aidnnofinpecknn	helpnnofinraftnn	helpnnofinbatchnn	helpvbmessnn	assistancennofinmountainnn	supporternnofinmintnn	assistancennofinpasselnn	helpnnofingreat_dealnn	supporternnofindealnn	helpvbmucklenn	helpnnofinhatfulnn	helpernnofinwadnn	assistantnnofinmicklenn	assistvbhatfulnn	aidvbpotnn	supporternnofinpecknn	assistancennofinpilenn	aidvbdealnn	supporternnofinhatfulnn	aidnnofingreat_dealnn	assistnnofinlotnn	helpvbtidy_sumnn	assistvbflocknn	helpvbsightnn	assistvbquite_a_littlenn	assistancennofinquite_a_littlenn	assistvbspatenn	aidvbraftnn	assistvbslewnn	helpernnofintidy_sumnn	aidnnofinpilenn	aidnnofinmountainnn	aidvbpasselnn	aidvbmucklenn	helpnnofintidy_sumnn	assistantnnofingreat_dealnn	assistantnnofintidy_sumnn	assistnnofintidy_sumnn	helpernnofinflocknn	assistancennofinraftnn	assistantnnofinpecknn	assistancennofinflocknn	aidvbgreat_dealnn	assistvbmucklenn	supporternnofingood_dealnn	helpernnofinpecknn	assistancennofinlotnn	aidvbsightnn	helpnnofinpasselnn	helpnnofinspatenn	assistancennofinheapnn	assistancennofinbatchnn	assistnnofinraftnn	helpvbflocknn	aidvbplentynn	assistnnofinplentynn	helpvbdealnn	aidnnofinraftnn	assistnnofinmicklenn	assistnnofinflocknn	helpvbgreat_dealnn	assistnnofinsightnn	helpnnofinmucklenn	assistancennofinpotnn	assistvbmassnn	helpnnofinpotnn	aidvbpecknn	assistancennofinmessnn	helpernnofinslewnn	helpvbmicklenn	helpvbpecknn	assistantnnofinstacknn	assistvbpotnn	assistnnofindealnn	supporternnofinlotnn	assistnnofinmintnn	assistnnofinheapnn	supporternnofingreat_dealnn	supporternnofinslewnn	supporternnofinmessnn	aidvbbatchnn	assistvbmessnn	assistantnnofingood_dealnn	assistvbplentynn	assistancennofinstacknn	helpnnofinheapnn	helpnnofinpilenn	helpernnofinspatenn	aidnnofinmassnn	aidvbmessnn	helpvbmassnn	aidnnofinspatenn	assistancennofinmassnn	assistancennofindealnn	helpnnofinslewnn	aidnnofinheapnn	helpernnofingreat_dealnn	assistnnofinwadnn	assistantnnofinmountainnn	helpvbraftnn	assistantnnofinpasselnn	helpnnofinmassnn	aidnnofinsightnn	helpvbquite_a_littlenn	assistantnnofinbatchnn	assistnnofingreat_dealnn	helpnnofinquite_a_littlenn	aidnnofinwadnn	aidvbpilenn	assistantnnofinplentynn	assistantnnofinflocknn	aidnnofinmintnn	helpnnofinmintnn	assistvbwadnn	
+
+BE: Be CheerfulPersonAnnotation
+EQ class: 
+
+BE: High BPOrganizationAnnotation
+EQ class: high b.p.organizationannotation	
+
+BE: diseaseNN
+EQ class: 
+
+BE: ConditionOrganizationAnnotation
+EQ class: 
+
+BE: High BPOrganizationAnnotationisAUX
+EQ class: high bporganizationannotationbeaux	high b.p.organizationannotationisaux	high b.p.organizationannotationbeaux	
+
+BE: isAUXdiseaseNN
+EQ class: beauxdiseasenn	
+
+BE: isAUXnotRB
+EQ class: beauxnotrb	
+
+BE: diseaseNNHigh BPOrganizationAnnotation
+EQ class: diseasennhigh b.p.organizationannotation	high bporganizationannotationdiseasenn	high b.p.organizationannotationdiseasenn	
+

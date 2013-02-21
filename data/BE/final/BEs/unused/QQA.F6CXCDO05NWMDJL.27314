@@ -1,0 +1,19 @@
+#God made it that way
+#(S1 (S (NP (NNP God)) (VP (VBD made) (S (NP (PRP it)) (NP (DT that) (NN way))))))
+#Rule:Nouns
+r1GodNNP
+r1wayNN
+
+#Rule:Verbs
+r2madeVBD
+
+#Rule:HeadNoun-V
+r11GodNNPmadeVBD
+
+#Rule:V-HeadNoun
+r22madeVBDitPRP
+r22madeVBDwayNN
+
+@lemmas-left	god	made	way	God	make	
+@lemmas-right	it	made	way	make	
+@lemmas-center	

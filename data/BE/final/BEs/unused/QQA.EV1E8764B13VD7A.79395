@@ -1,0 +1,126 @@
+#Learn about them.  
+#(S1 (S (VP (VB Learn) (PP (IN about) (NP (PRP them)))) (. .)))
+#Rule:Verbs
+r2learnVB
+
+#Rule:PPinVP
+r30learnVBaboutINthemPRP
+
+#Here is a good place to start http://www.spc.noaa.gov/faq/tornado/  Also if you have money and time go on a chasing trip.  
+#(S1 (S (S (NP (RB Here)) (VP (AUX is) (NP (NP (DT a) (JJ good) (NN place)) (SBAR (S (VP (TO to) (VP (VB start) (NP (NNS http))))))))) (: :) (S (NP (NNS //www.spc.noaa.gov/faq/tornado/)) (ADVP (RB Also) (SBAR (IN if) (S (NP (PRP you)) (VP (AUX have) (NP (NN money) (CC and) (NN time)))))) (VP (VBP go) (PP (IN on) (NP (DT a) (NN chasing) (NN trip))))) (. .)))
+#Rule:Nouns
+r1placeNN
+r1httpNNS
+r1//www.spc.noaa.gov/faq/tornado/NNS
+r1moneyNN
+r1timeNN
+r1chasingNN
+r1tripNN
+
+#Rule:Verbs
+r2startVB
+r2goVBP
+
+#Rule:Adjs
+r4goodJJ
+
+#Rule:Adj-Noun
+r5goodJJplaceNN
+
+#Rule:N-HeadNoun
+r8chasingNNtripNN
+
+#Rule:HeadNoun-V
+r11//www.spc.noaa.gov/faq/tornado/NNSgoVBP
+r11youPRPhaveAUX
+
+#Rule:HeadNoun-(who/that)-V
+r14placeNNstartVB
+
+#Rule:V-HeadNoun
+r21isAUXplaceNN
+r21startVBhttpNNS
+r21haveAUXmoneyNN
+
+#Rule:PPinVP
+r30goVBPonINtripNN
+
+#Rule:V-ADV
+r46goVBPAlsoRB
+
+#Rule:IS-RULE
+r47placeNNHereRB
+
+#These might get you over your fear of tornadoes.  
+#(S1 (S (NP (DT These)) (VP (MD might) (VP (VB get) (NP (PRP you)) (PP (IN over) (NP (NP (PRP$ your) (NN fear)) (PP (IN of) (NP (NNS tornadoes))))))) (. .)))
+#Rule:Nouns
+r1fearNN
+r1tornadoesLocationAnnotation
+
+#Rule:Verbs
+r2getVB
+
+#Rule:PRP-Noun
+r6yourPRP$fearNN
+
+#Rule:HeadNoun-V
+r11theseDTgetVB
+
+#Rule:V-HeadNoun
+r21getVByouPRP
+
+#Rule:PPinNP
+r26fearNNofINtornadoesLocationAnnotation
+
+#Rule:PPinVP
+r30getVBoverINfearNN
+
+#If a tornado approaches your area don t panic and take cover in a basement or interior room and protect your head from flying debris.
+#(S1 (S (SBAR (IN If) (S (NP (DT a) (NN tornado)) (VP (VBZ approaches) (NP (PRP$ your) (NN area))))) (VP (VP (VB don) (NP (CD t) (NN panic))) (CC and) (VP (VB take) (S (VP (VP (VB cover) (PP (IN in) (NP (DT a) (NN basement) (CC or) (NN interior) (NN room)))) (CC and) (VP (VB protect) (NP (PRP$ your) (NN head)) (PP (IN from) (S (VP (VBG flying) (NP (NN debris)))))))))) (. .)))
+#Rule:Nouns
+r1tornadoLocationAnnotation
+r1areaNN
+r1panicNN
+r1basementNN
+r1interiorNN
+r1roomNN
+r1headNN
+r1debrisNN
+
+#Rule:Verbs
+r2approachesVBZ
+r2donVB
+r2takeVB
+r2coverVB
+r2protectVB
+r2flyingVBG
+
+#Rule:Adj-Noun
+r5tCDpanicNN
+
+#Rule:PRP-Noun
+r6yourPRP$areaNN
+r6yourPRP$headNN
+
+#Rule:N-HeadNoun
+r8interiorNNroomNN
+
+#Rule:HeadNoun-V
+r11tornadoLocationAnnotationapproachesVBZ
+
+#Rule:V-HeadNoun
+r21approachesVBZareaNN
+r21donVBpanicNN
+r21protectVBheadNN
+r21flyingVBGdebrisNN
+
+#Rule:PPinVP
+r30coverVBinINroomNN
+
+#Rule:V-V
+r44takeVBcoverVB
+r44takeVBprotectVB
+
+@lemmas-left	interior	don	have	good	chase	tornadoes	protect	flying	cover	debris	time	area	money	trip	head	place	//www.spc.noaa.gov/faq/tornado/	be	these	is	get	chasing	your	basement	learn	you	t	panic	fly	start	http	take	approach	approaches	tornado	room	go	fear	
+@lemmas-right	have	tornadoes	protect	debris	cover	area	money	Here	trip	place	head	get	here	Also	you	panic	http	start	them	approach	approaches	also	fear	go	room	
+@lemmas-center	of	over	about	on	in	

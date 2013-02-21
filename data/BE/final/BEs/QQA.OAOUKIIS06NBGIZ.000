@@ -1,0 +1,48 @@
+#I m training for a triatalon and   learning how to swim. 
+#(S1 (S (NP (PRP I)) (VP (VP (NNP m) (NP (NP (NN training)) (PP (IN for) (NP (DT a) (NN triatalon))))) (CC and) (VP (VBG learning) (SBAR (WHADVP (WRB how)) (S (TO to) (VP (VBP swim)))))) (. .)))
+#Rule:Nouns
+r1mNNP
+r1trainingNN
+r1triatalonNN
+
+#Rule:Verbs
+r2learningVBG
+r2swimVBP
+
+#Rule:HeadNoun-V
+r11iPRPlearningVBG
+
+#Rule:PPinNP
+r26trainingNNforINtriatalonNN
+
+#I can t get my breathing down. 
+#(S1 (S (NP (PRP I)) (VP (MD can) (ADVP (RB t)) (VP (VB get) (NP (PRP$ my) (NN breathing)) (PRT (RP down)))) (. .)))
+#Rule:Nouns
+r1breathingNN
+
+#Rule:Verbs
+r2getVB
+
+#Rule:V-PRT
+r3getVBdownRP
+
+#Rule:PRP-Noun
+r6myPRP$breathingNN
+
+#Rule:HeadNoun-V
+r11iPRPgetVB
+
+#Rule:V-HeadNoun
+r21getVBbreathingNN
+
+#Rule:V-ADV
+r46getVBtLocationAnnotation
+
+#Any ideas?
+#(S1 (NP (DT Any) (NNS ideas) (. ?)))
+#Rule:Nouns
+r1ideasNNS
+
+@lemmas-left	training	ideas	idea	get	triatalon	swim	breathing	learn	learning	m	my	i	
+@lemmas-right	t	get	triatalon	breathing	learn	down	learning	
+@lemmas-center	for	

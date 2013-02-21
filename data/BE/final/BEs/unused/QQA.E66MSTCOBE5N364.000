@@ -1,0 +1,81 @@
+#Why don t some people believe in global warming??
+#(S1 (SBARQ (WHADVP (WRB Why)) (SQ (VP (VB don) (S (VP (VBG t) (S (NP (DT some) (NNS people)) (VP (VB believe) (PP (IN in) (NP (JJ global) (NN warming)))))))) (. ?)) (. ?)))
+#Rule:Nouns
+r1peopleNNS
+r1warmingNN
+
+#Rule:Verbs
+r2donVB
+r2tVBG
+r2believeVB
+
+#Rule:Adjs
+r4globalJJ
+
+#Rule:Adj-Noun
+r5globalJJwarmingNN
+
+#Rule:HeadNoun-V
+r11peopleNNSbelieveVB
+
+#Rule:V-HeadNoun
+r22tVBGpeopleNNS
+
+#Rule:PPinVP
+r30believeVBinINwarmingNN
+
+#It s so obvious with every year giving record temperatures and all the scientific evidence. No, don t give me the pattern crap. I already know that isn t true.
+#(S1 (S (S (NP (PRP It)) (VP (VBZ s) (ADJP (RB so) (JJ obvious) (PP (IN with) (NP (NP (DT every) (NN year)) (VP (VBG giving) (NP (NP (NN record) (NNS temperatures)) (CC and) (NP (PDT all) (DT the) (JJ scientific) (NNS evidence.))) (NP (UH No)))))))) (, ,) (NP (VB don) (NNS t)) (VP (VBP give) (NP (PRP me)) (NP (NP (DT the) (NN pattern)) (SBAR (WHNP (IN crap.)) (S (NP (PRP I)) (ADVP (RB already)) (VP (VBP know) (SBAR (IN that) (S (NP (NNS isn)) (VP (VBP t) (ADJP (JJ true)))))))))) (. .)))
+#Rule:Nouns
+r1yearNN
+r1recordNN
+r1temperaturesNNS
+r1evidenceNNS
+r1tNNS
+r1patternNN
+r1isnNNS
+
+#Rule:Verbs
+r2sVBZ
+r2givingVBG
+r2donLocationAnnotation
+r2giveVBP
+r2knowVBP
+r2tVBP
+
+#Rule:Adjs
+r4obviousJJ
+r4scientificJJ
+r4trueJJ
+
+#Rule:Adj-Noun
+r5scientificJJevidenceNNS
+
+#Rule:N-HeadNoun
+r8recordNNtemperaturesNNS
+
+#Rule:HeadNoun-V
+r11tNNSgiveVBP
+r11itPRPsVBZ
+r11yearNNgivingVBG
+r11IPersonAnnotationknowVBP
+r11isnNNStVBP
+
+#Rule:V-HeadNoun
+r21givingVBGtemperaturesNNS
+r21givingVBGNoPersonAnnotation
+r21giveVBPmePRP
+r21giveVBPpatternNN
+
+#Rule:PPinADJP
+r37obviousJJwithINyearNN
+
+#Rule:V-IN-V
+r43knowVBPthatINtVBP
+
+#Rule:V-ADV
+r46knowVBPalreadyRB
+
+@lemmas-left	it	don	give	isn	global	evidence	true	believe	I	know	people	temperature	obvious	record	evidence.	t	s	pattern	warming	scientific	year	giving	temperatures	
+@lemmas-right	give	evidence	already	believe	No	people	know	temperature	evidence.	t	pattern	s	warming	year	me	temperatures	giving	
+@lemmas-center	that	with	in	

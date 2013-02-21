@@ -1,0 +1,16 @@
+#Equally good . 
+#(S1 (FRAG (ADJP (RB Equally) (JJ good)) (. .)))
+#Rule:Adjs
+r4goodJJ
+
+#Neither better nor waste .
+#(S1 (FRAG (CC Neither) (ADJP (ADJP (JJR better)) (CC nor) (NN waste)) (. .)))
+#Rule:Nouns
+r1wasteNN
+
+#Rule:Adjs
+r4betterJJR
+
+@lemmas-left	waste	better	good	
+@lemmas-right	
+@lemmas-center	

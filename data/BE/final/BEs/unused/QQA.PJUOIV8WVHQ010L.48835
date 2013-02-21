@@ -1,0 +1,16 @@
+#english..good morning
+#(S1 (NP (JJ english) (ADJP (RB ..) (JJ good)) (NN morning)))
+#Rule:Nouns
+r1morningNN
+
+#Rule:Adjs
+r4englishJJ
+r4goodJJ
+
+#Rule:Adj-Noun
+r5englishJJmorningNN
+r5goodJJmorningNN
+
+@lemmas-left	good	morning	english	
+@lemmas-right	morning	
+@lemmas-center	

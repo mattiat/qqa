@@ -1,0 +1,95 @@
+#It is mathematically impossible to prove a non-existence. 
+#(S1 (S (NP (PRP It)) (VP (AUX is) (ADJP (RB mathematically) (JJ impossible) (SBAR (S (VP (TO to) (VP (VB prove) (NP (DT a) (NN non-existence)))))))) (. .)))
+#Rule:Nouns
+r1non-existenceNN
+
+#Rule:Verbs
+r2proveVB
+
+#Rule:Adjs
+r4impossibleJJ
+
+#Rule:HeadNoun-V
+r11itPRPisAUX
+
+#Rule:V-HeadNoun
+r21proveVBnon-existenceNN
+
+#Rule:V-ADJ
+r25isAUXimpossibleJJ
+
+#However onus is on the claimant to prove existence, not the other way round. 
+#(S1 (S (ADVP (RB However)) (NP (NN onus)) (VP (AUX is) (PP (IN on) (NP (DT the) (NN claimant) (S (VP (TO to) (VP (VB prove) (NP (NP (NN existence)) (, ,) (RB not) (NP (DT the) (JJ other) (NN way))) (NP (NN round)))))))) (. .)))
+#Rule:Nouns
+r1onusNN
+r1claimantNN
+r1existenceNN
+r1wayNN
+r1roundNN
+
+#Rule:Verbs
+r2proveVB
+
+#Rule:Adjs
+r4otherJJ
+
+#Rule:Adj-Noun
+r5otherJJwayNN
+
+#Rule:HeadNoun-V
+r11onusNNisAUX
+
+#Rule:V-HeadNoun
+r21proveVBexistenceNN
+r21proveVBroundNN
+
+#Rule:PPinVP
+r30isAUXonINclaimantNN
+
+#Rule:V-ADV
+r46isAUXHoweverRB
+
+#Of course faith requires belief without proof. 
+#(S1 (S (PP (IN Of) (NP (NN course))) (NP (NN faith)) (VP (VBZ requires) (NP (NP (NN belief)) (PP (IN without) (NP (NN proof))))) (. .)))
+#Rule:Nouns
+r1courseNN
+r1faithNN
+r1beliefNN
+r1proofNN
+
+#Rule:Verbs
+r2requiresVBZ
+
+#Rule:HeadNoun-V
+r11faithNNrequiresVBZ
+
+#Rule:V-HeadNoun
+r21requiresVBZbeliefNN
+
+#Rule:PPinNP
+r26beliefNNwithoutINproofNN
+
+#Rule:PPinS
+r36requiresVBZofINcourseNN
+
+#I believe that is back to square one.
+#(S1 (S (NP (PRP I)) (VP (VBP believe) (SBAR (S (NP (DT that)) (VP (AUX is) (ADVP (RB back) (PP (TO to) (NP (NN square) (CD one)))))))) (. .)))
+#Rule:Nouns
+r1squareNN
+
+#Rule:Verbs
+r2believeVBP
+
+#Rule:Adj-Noun
+r5oneCDsquareNN
+
+#Rule:HeadNoun-V
+r11iPRPbelieveVBP
+r11thatDTisAUX
+
+#Rule:V-ADV
+r46isAUXbackRB
+
+@lemmas-left	prove	is	belief	it	other	onus	faith	one	proof	way	round	impossible	believe	non-existence	requires	i	existence	course	that	require	square	claimant	be	
+@lemmas-right	is	however	belief	However	back	proof	way	round	impossible	believe	non-existence	requires	existence	course	require	square	claimant	be	
+@lemmas-center	of	on	without	

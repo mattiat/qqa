@@ -1,0 +1,118 @@
+#one long term solution is to make yourself immunized to the cause of allergies..
+#(S1 (S (NP (CD one) (JJ long) (NN term) (NN solution)) (VP (AUX is) (S (VP (TO to) (VP (VB make) (S (NP (PRP yourself)) (VP (VBN immunized) (PP (TO to) (NP (NP (DT the) (NN cause)) (PP (IN of) (NP (NNS allergies)))))) (. .)))))) (. .)))
+#Rule:Nouns
+r1termNN
+r1solutionNN
+r1causeNN
+r1allergiesOrganizationAnnotation
+
+#Rule:Verbs
+r2makeVB
+r2immunizedVBN
+
+#Rule:Adjs
+r4longJJ
+
+#Rule:Adj-Noun
+r5oneCDsolutionNN
+r5longJJsolutionNN
+
+#Rule:N-HeadNoun
+r8termNNsolutionNN
+
+#Rule:HeadNoun-V
+r11solutionNNisAUX
+
+#Rule:V-HeadNoun
+r22makeVByourselfPRP
+
+#Rule:V-HeadNoun(passive)
+r24immunizedVBNyourselfPRP
+
+#Rule:PPinNP
+r26causeNNofINallergiesOrganizationAnnotation
+
+#Rule:PPinVP
+r32immunizedVBNtoTOcauseNN
+
+#Homeopathic medicine is definitely going to help a lot..
+#(S1 (S (NP (JJ Homeopathic) (NN medicine)) (VP (AUX is) (ADVP (RB definitely)) (VP (VBG going) (S (VP (TO to) (VP (VB help) (NP (DT a) (NN lot))))) (. .))) (. .)))
+#Rule:Nouns
+r1medicineNN
+r1lotNN
+
+#Rule:Verbs
+r2goingVBG
+r2helpVB
+
+#Rule:Adjs
+r4HomeopathicJJ
+
+#Rule:Adj-Noun
+r5HomeopathicJJmedicineNN
+
+#Rule:HeadNoun-V
+r11medicineNNgoingVBG
+
+#Rule:V-HeadNoun
+r21helpVBlotNN
+
+#Rule:V-V
+r44goingVBGhelpVB
+
+#Rule:V-ADV
+r46isAUXdefinitelyRB
+r46goingVBGdefinitelyRB
+
+#But it does not show its effect soon..
+#(S1 (S (CC But) (NP (PRP it)) (VP (AUX does) (RB not) (VP (VB show) (NP (NP (PRP$ its) (NN effect)) (ADVP (RB soon)) (. .)))) (. .)))
+#Rule:Nouns
+r1effectNN
+
+#Rule:Verbs
+r2showVB
+
+#Rule:PRP-Noun
+r6itsPRP$effectNN
+
+#Rule:HeadNoun-V
+r11itPRPshowVB
+
+#Rule:V-HeadNoun
+r21showVBeffectNN
+
+#Rule:V-ADV
+r46doesAUXnotRB
+
+#Results seen only after a few years..
+#(S1 (S (NP (NNS Results)) (VP (VBN seen) (PP (ADVP (RB only)) (IN after) (NP (DT a) (JJ few) (NNS years))) (. .)) (. .)))
+#Rule:Nouns
+r1ResultsNNS
+r1yearsNNS
+
+#Rule:Verbs
+r2seenVBN
+
+#Rule:Adjs
+r4fewJJ
+
+#Rule:Adj-Noun
+r5fewJJyearsNNS
+
+#Rule:V-HeadNoun(passive)
+r24seenVBNResultsNNS
+
+#Rule:PPinVP
+r32seenVBNafterINyearsNNS
+
+#Has worked for me.
+#(S1 (S (VP (AUX Has) (VP (VBN worked) (PP (IN for) (NP (PRP me))))) (. .)))
+#Rule:Verbs
+r2workedVBN
+
+#Rule:PPinVP
+r32workedVBNforINmePRP
+
+@lemmas-left	homeopathic	does	result	cause	one	show	its	long	solution	help	worked	do	medicine	allergies	be	work	going	is	it	Homeopathic	seen	immunized	immunize	few	see	effect	term	lot	years	Results	make	go	
+@lemmas-right	definitely	result	is	going	cause	show	solution	not	help	effect	lot	me	years	yourself	Results	medicine	allergies	be	go	
+@lemmas-center	after	to	of	for	

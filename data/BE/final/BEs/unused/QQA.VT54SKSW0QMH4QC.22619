@@ -1,0 +1,20 @@
+#Becoz its not red or of any other color
+#(S1 (NP (NP (NNP Becoz)) (NP (PRP$ its) (ADJP (ADJP (RB not) (JJ red)) (CC or) (ADJP (IN of) (DT any) (JJ other))) (NN color))))
+#Rule:Nouns
+r1BecozPersonAnnotation
+r1colorNN
+
+#Rule:Adjs
+r4redJJ
+r4otherJJ
+
+#Rule:Adj-Noun
+r5redJJcolorNN
+r5otherJJcolorNN
+
+#Rule:PRP-Noun
+r6itsPRP$colorNN
+
+@lemmas-left	other	red	color	Becoz	its	
+@lemmas-right	color	
+@lemmas-center	

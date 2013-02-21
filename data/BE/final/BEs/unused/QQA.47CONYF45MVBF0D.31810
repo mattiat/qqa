@@ -1,0 +1,212 @@
+#My heart does that almost everyday. 
+#(S1 (S (NP (PRP$ My) (NN heart)) (VP (AUX does) (ADJP (DT that) (RB almost) (JJ everyday))) (. .)))
+#Rule:Nouns
+r1heartNN
+
+#Rule:Adjs
+r4everydayJJ
+
+#Rule:PRP-Noun
+r6myPRP$heartNN
+
+#Rule:HeadNoun-V
+r11heartNNdoesAUX
+
+#I have Mitral Valve Prolapse. 
+#(S1 (S (NP (PRP I)) (VP (AUX have) (NP (JJ Mitral) (NN Valve) (NN Prolapse))) (. .)))
+#Rule:Nouns
+r1Mitral ValveLocationAnnotation
+r1ProlapseNN
+
+#Rule:Adj-Noun
+r5Mitral ValveLocationAnnotationProlapseNN
+
+#Rule:HeadNoun-V
+r11iPRPhaveAUX
+
+#Rule:V-HeadNoun
+r21haveAUXProlapseNN
+
+#My cardiologist says that my heart skips due to Premature Ventricular Contractions. 
+#(S1 (S (NP (PRP$ My) (NN cardiologist)) (VP (VBZ says) (SBAR (IN that) (S (NP (PRP$ my) (NN heart)) (VP (VBZ skips) (ADJP (JJ due) (PP (TO to) (NP (JJ Premature) (NNP Ventricular) (NNS Contractions)))))))) (. .)))
+#Rule:Nouns
+r1cardiologistNN
+r1heartNN
+r1VentricularNNP
+r1ContractionsNNS
+
+#Rule:Verbs
+r2saysVBZ
+r2skipsVBZ
+
+#Rule:Adjs
+r4dueJJ
+r4PrematureJJ
+
+#Rule:Adj-Noun
+r5PrematureJJContractionsNNS
+
+#Rule:PRP-Noun
+r6myPRP$cardiologistNN
+r6myPRP$heartNN
+
+#Rule:N-HeadNoun
+r8VentricularNNPContractionsNNS
+
+#Rule:HeadNoun-V
+r11cardiologistNNsaysVBZ
+r11heartNNskipsVBZ
+
+#Rule:PPinADJP
+r37dueJJtoTOContractionsNNS
+
+#Rule:V-IN-V
+r43saysVBZthatINskipsVBZ
+
+#They re early heart beats, and nothing to be concerned about. 
+#(S1 (S (NP (PRP They)) (VP (NNP re) (NP (NP (JJ early) (NN heart) (NNS beats)) (, ,) (CC and) (NP (NP (NN nothing)) (SBAR (S (VP (TO to) (VP (AUX be) (VP (VBN concerned) (PP (IN about)))))))))) (. .)))
+#Rule:Nouns
+r1reNNP
+r1heartNN
+r1beatsNNS
+r1nothingNN
+
+#Rule:Verbs
+r2concernedVBN
+
+#Rule:Adjs
+r4earlyJJ
+
+#Rule:Adj-Noun
+r5earlyJJbeatsNNS
+
+#Rule:N-HeadNoun
+r8heartNNbeatsNNS
+
+#Rule:V-(who/that)-HeadNoun
+r18concernedVBNnothingNN
+
+#They re normal. 
+#(S1 (S (NP (PRP They)) (VP (NNP re) (S (ADJP (JJ normal)))) (. .)))
+#Rule:Nouns
+r1reNNP
+
+#Rule:Adjs
+r4normalJJ
+
+#They simply occur when your heart triggers a beat too early, which briefly interupts the heart s normal rhythm. 
+#(S1 (S (NP (PRP They)) (ADVP (RB simply)) (VP (VBP occur) (SBAR (WHADVP (WRB when)) (S (NP (PRP$ your) (NN heart)) (VP (VBZ triggers) (NP (NP (DT a) (NN beat)) (ADJP (RB too) (JJ early)) (, ,) (SBAR (WHNP (WDT which)) (S (ADVP (RB briefly)) (VP (VBZ interupts) (SBAR (S (NP (DT the) (NN heart)) (VP (VBZ s) (NP (JJ normal) (NN rhythm))))))))))))) (. .)))
+#Rule:Nouns
+r1heartNN
+r1beatNN
+r1heartNN
+r1rhythmNN
+
+#Rule:Verbs
+r2occurVBP
+r2triggersVBZ
+r2interuptsVBZ
+r2sVBZ
+
+#Rule:Adjs
+r4earlyJJ
+r4normalJJ
+
+#Rule:Adj-Noun
+r5earlyJJbeatNN
+r5normalJJrhythmNN
+
+#Rule:PRP-Noun
+r6yourPRP$heartNN
+
+#Rule:HeadNoun-V
+r11theyPRPoccurVBP
+r11heartNNtriggersVBZ
+r11heartNNsVBZ
+
+#Rule:HeadNoun-(who/that)-V
+r14beatNNinteruptsVBZ
+
+#Rule:V-HeadNoun
+r21triggersVBZbeatNN
+r21sVBZrhythmNN
+
+#Rule:V-ADV
+r46occurVBPsimplyRB
+r46interuptsVBZbrieflyRB
+
+#That s why your heart briefly pauses. 
+#(S1 (S (NP (DT That)) (VP (VBZ s) (SBAR (WHADVP (WRB why)) (S (NP (PRP$ your) (NN heart)) (ADVP (RB briefly)) (VP (VBZ pauses))))) (. .)))
+#Rule:Nouns
+r1heartNN
+
+#Rule:Verbs
+r2sVBZ
+r2pausesVBZ
+
+#Rule:PRP-Noun
+r6yourPRP$heartNN
+
+#Rule:HeadNoun-V
+r11thatDTsVBZ
+r11heartNNpausesVBZ
+
+#Rule:V-ADV
+r46pausesVBZbrieflyRB
+
+#Avoid caffeine, high sugar, tobacco, and alcohol. 
+#(S1 (S (VP (VB Avoid) (NP (NP (NN caffeine)) (, ,) (NP (JJ high) (NN sugar)) (, ,) (NP (NN tobacco)) (, ,) (CC and) (NP (NN alcohol)))) (. .)))
+#Rule:Nouns
+r1caffeinePersonAnnotation
+r1sugarNN
+r1tobaccoNN
+r1alcoholNN
+
+#Rule:Verbs
+r2avoidVB
+
+#Rule:Adjs
+r4highJJ
+
+#Rule:Adj-Noun
+r5highJJsugarNN
+
+#Rule:N-ApposN
+r10caffeinePersonAnnotationsugarNN
+
+#Rule:V-HeadNoun
+r21avoidVBcaffeinePersonAnnotation
+
+#They will only make your problem worse, as they do me.
+#(S1 (S (NP (PRP They)) (VP (MD will) (ADVP (RB only)) (VP (VB make) (S (NP (PRP$ your) (NN problem)) (ADJP (JJR worse))) (, ,) (SBAR (IN as) (S (NP (PRP they)) (VP (AUX do) (NP (PRP me))))))) (. .)))
+#Rule:Nouns
+r1problemNN
+
+#Rule:Verbs
+r2makeVB
+
+#Rule:Adjs
+r4worseJJR
+
+#Rule:PRP-Noun
+r6yourPRP$problemNN
+
+#Rule:HeadNoun-V
+r11theyPRPmakeVB
+r11theyPRPdoAUX
+
+#Rule:V-HeadNoun
+r21doAUXmePRP
+
+#Rule:V-HeadNoun
+r22makeVBproblemNN
+
+#Rule:V-IN-V
+r43makeVBasINdoAUX
+
+#Rule:V-ADV
+r46makeVBonlyRB
+
+@lemmas-left	they	caffeine	concern	normal	everyday	skip	Premature	cardiologist	pause	avoid	interupts	says	Mitral Valve	Ventricular	heart	prolapse	Prolapse	beats	that	alcohol	skips	say	due	make	early	ventricular	have	re	concerned	rhythm	do	premature	trigger	beat	your	problem	my	i	worse	contraction	s	nothing	tobacco	Contractions	pauses	triggers	high	occur	sugar	
+@lemmas-right	does	caffeine	have	skip	cardiologist	pause	interupts	briefly	only	says	rhythm	me	do	trigger	beat	heart	prolapse	problem	Prolapse	beats	contraction	s	simply	skips	say	nothing	pauses	Contractions	triggers	make	sugar	occur	
+@lemmas-center	to	that	as	

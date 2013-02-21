@@ -1,0 +1,52 @@
+#How can I lose 10 pounds a month??
+#(S1 (SBARQ (WHADVP (WRB How)) (SQ (MD can) (NP (PRP I)) (VP (VB lose) (NP (NP (CD 10) (NNS pounds)) (NP (DT a) (NN month)))) (. ?)) (. ?)))
+#Rule:Nouns
+r1poundsNNS
+r1monthNN
+
+#Rule:Verbs
+r2loseVB
+
+#Rule:Adj-Noun
+r510CDpoundsNNS
+
+#Rule:V-HeadNoun
+r21loseVBpoundsNNS
+
+#And is there any fruits or veggies that ll help me speed up the process? I am so desperate! Please help! How much do I need to exercise?
+#(S1 (S (S (SBARQ (CC And) (SQ (VP (AUX is) (ADVP (RB there)) (NP (NP (DT any) (NNS fruits) (CC or) (NNS veggies)) (SBAR (WHNP (WDT that)) (S (NP (NNS ll)) (VP (VBP help) (S (NP (PRP me)) (VP (VB speed) (PRT (RP up)) (NP (DT the) (NN process)))))))))) (. ?)) (NP (PRP I)) (VP (AUX am) (ADJP (RB so) (JJ desperate))) (. !)) (SBARQ (INTJ (UH Please)) (INTJ (VB help) (. !)) (WHADVP (WRB How) (RB much)) (SQ (AUX do) (NP (PRP I)) (VP (AUX need) (S (VP (TO to) (VP (VB exercise)))))) (. ?))))
+#Rule:Nouns
+r1fruitsNNS
+r1veggiesNNS
+r1llNNS
+r1processNN
+
+#Rule:Verbs
+r2helpVBP
+r2helpVB
+r2exerciseVB
+
+#Rule:V-PRT
+r3speedVBupRP
+
+#Rule:Adjs
+r4desperateJJ
+
+#Rule:HeadNoun-V
+r11iPRPamAUX
+r11llNNShelpVBP
+r11mePRPspeedVB
+
+#Rule:V-HeadNoun
+r21isAUXfruitsNNS
+r21speedVBprocessNN
+
+#Rule:V-HeadNoun
+r22helpVBPmePRP
+
+#Rule:V-ADV
+r46isAUXthereRB
+
+@lemmas-left	is	fruit	ll	speed	pounds	fruits	exercise	veggies	i	process	lose	10	help	desperate	month	me	veggie	be	pound	
+@lemmas-right	process	fruit	help	speed	am	pounds	there	fruits	me	be	up	pound	
+@lemmas-center	

@@ -1,0 +1,31 @@
+#How does smoking cause heart disease? 
+#(S1 (SBARQ (WHADVP (WRB How)) (SQ (AUX does) (NP (NN smoking)) (VP (VB cause) (NP (NN heart) (NN disease)))) (. ?)))
+#Rule:Nouns
+r1smokingNN
+r1heartNN
+r1diseaseNN
+
+#Rule:Verbs
+r2causeVB
+
+#Rule:N-HeadNoun
+r8heartNNdiseaseNN
+
+#Rule:V-HeadNoun
+r21causeVBdiseaseNN
+
+#And what heart disease does it cause?
+#(S1 (SBARQ (CC And) (WHNP (WHNP (WP what)) (NP (NN heart) (NN disease))) (SQ (AUX does) (NP (PRP it)) (VP (VB cause))) (. ?)))
+#Rule:Nouns
+r1heartNN
+r1diseaseNN
+
+#Rule:Verbs
+r2causeVB
+
+#Rule:N-HeadNoun
+r8heartNNdiseaseNN
+
+@lemmas-left	cause	heart	smoking	disease	
+@lemmas-right	disease	
+@lemmas-center	

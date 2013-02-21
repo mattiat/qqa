@@ -1,0 +1,38 @@
+#Why would a newborn child get johndus??
+#(S1 (SBARQ (WHADVP (WRB Why)) (SQ (MD would) (NP (DT a) (JJ newborn) (NN child)) (VP (VB get) (NP (NN johndus))) (. ?)) (. ?)))
+#Rule:Nouns
+r1childNN
+r1johndusNN
+
+#Rule:Verbs
+r2getVB
+
+#Rule:Adjs
+r4newbornJJ
+
+#Rule:Adj-Noun
+r5newbornJJchildNN
+
+#Rule:V-HeadNoun
+r21getVBjohndusNN
+
+#Why yellow skin??
+#(S1 (FRAG (WHADVP (WRB Why)) (NP (JJ yellow) (NN skin) (. ?)) (. ?)))
+#Rule:Nouns
+r1skinNN
+
+#Rule:Adjs
+r4yellowJJ
+
+#Rule:Adj-Noun
+r5yellowJJskinNN
+
+#Whats the cure?
+#(S1 (NP (NP (NNS Whats)) (NP (DT the) (NN cure)) (. ?)))
+#Rule:Nouns
+r1WhatsNNS
+r1cureNN
+
+@lemmas-left	child	get	Whats	johndus	yellow	whats	cure	skin	newborn	
+@lemmas-right	child	johndus	skin	
+@lemmas-center	

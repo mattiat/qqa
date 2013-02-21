@@ -1,0 +1,31 @@
+#Hold them and hug them and let them know that you will always be there.
+#(S1 (S (VP (VP (VB Hold) (NP (PRP them))) (CC and) (VP (NN hug) (NP (PRP them))) (CC and) (VP (VB let) (S (NP (PRP them)) (VP (VB know) (SBAR (IN that) (S (NP (PRP you)) (VP (MD will) (ADVP (RB always)) (VP (AUX be) (ADVP (RB there)))))))))) (. .)))
+#Rule:Nouns
+r1hugNN
+
+#Rule:Verbs
+r2holdVB
+r2letVB
+r2knowVB
+
+#Rule:HeadNoun-V
+r11themPRPknowVB
+r11youPRPbeAUX
+
+#Rule:V-HeadNoun
+r21holdVBthemPRP
+r21hugNNthemPRP
+
+#Rule:V-HeadNoun
+r22letVBthemPRP
+
+#Rule:V-IN-V
+r43knowVBthatINbeAUX
+
+#Rule:V-ADV
+r46beAUXalwaysRB
+r46beAUXthereRB
+
+@lemmas-left	hug	let	them	hold	you	know	be	
+@lemmas-right	them	there	always	know	be	
+@lemmas-center	that	

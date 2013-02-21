@@ -1,0 +1,52 @@
+#How are active cultures in yogurt beneficial to your health??
+#(S1 (SBARQ (WHADVP (WRB How)) (SQ (AUX are) (NP (NP (JJ active) (NNS cultures)) (PP (IN in) (NP (NN yogurt)))) (ADJP (JJ beneficial) (PP (TO to) (NP (PRP$ your) (NN health)))) (. ?)) (. ?)))
+#Rule:Nouns
+r1culturesNNS
+r1yogurtLocationAnnotation
+r1healthNN
+
+#Rule:Adjs
+r4activeJJ
+r4beneficialJJ
+
+#Rule:Adj-Noun
+r5activeJJculturesNNS
+
+#Rule:PRP-Noun
+r6yourPRP$healthNN
+
+#Rule:PPinNP
+r26culturesNNSinINyogurtLocationAnnotation
+
+#Rule:PPinADJP
+r37beneficialJJtoTOhealthNN
+
+#I know the cultures in yogurt are good for the somach, but what do they do?
+#(S1 (S (S (NP (PRP I)) (VP (VBP know) (SBAR (S (NP (NP (DT the) (NNS cultures)) (PP (IN in) (NP (NN yogurt)))) (VP (AUX are) (ADJP (JJ good) (PP (IN for) (NP (DT the) (NN somach))))))))) (, ,) (CC but) (SBARQ (WHNP (WP what)) (SQ (AUX do) (NP (PRP they)) (VP (AUX do))) (. ?))))
+#Rule:Nouns
+r1culturesNNS
+r1yogurtLocationAnnotation
+r1somachOrganizationAnnotation
+
+#Rule:Verbs
+r2knowVBP
+
+#Rule:Adjs
+r4goodJJ
+
+#Rule:HeadNoun-V
+r11iPRPknowVBP
+r11culturesNNSareAUX
+
+#Rule:V-ADJ
+r25areAUXgoodJJ
+
+#Rule:PPinNP
+r26culturesNNSinINyogurtLocationAnnotation
+
+#Rule:PPinADJP
+r37goodJJforINsomachOrganizationAnnotation
+
+@lemmas-left	yogurt	somach	cultures	your	beneficial	good	health	know	i	are	active	culture	be	
+@lemmas-right	yogurt	are	somach	cultures	good	health	know	culture	be	
+@lemmas-center	to	for	in	

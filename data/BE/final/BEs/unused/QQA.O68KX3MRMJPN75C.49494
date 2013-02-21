@@ -1,0 +1,109 @@
+#why don t you look on the bbc s website in schools under science..
+#(S1 (SBARQ (WHADVP (WRB why)) (SQ (VP (VB don) (S (VP (VBG t) (S (NP (PRP you)) (VP (VB look) (PP (IN on) (NP (NP (DT the) (JJ bbc) (NNP s) (NN website)) (PP (IN in) (NP (NP (NNS schools)) (PP (IN under) (NP (NN science)))))))))))) (. .)) (. .)))
+#Rule:Nouns
+r1bbc sOrganizationAnnotation
+r1websiteNN
+r1schoolsNNS
+r1scienceNN
+
+#Rule:Verbs
+r2donVB
+r2tVBG
+r2lookVB
+
+#Rule:Adj-Noun
+r5bbc sOrganizationAnnotationwebsiteNN
+
+#Rule:HeadNoun-V
+r11youPRPlookVB
+
+#Rule:V-HeadNoun
+r22tVBGyouPRP
+
+#Rule:PPinNP
+r26websiteNNinINschoolsNNS
+r26schoolsNNSunderINscienceNN
+
+#Rule:PPinVP
+r30lookVBonINwebsiteNN
+
+#But basically, it is a pump that moves blood and therefore oxygen around the body..
+#(S1 (S (CC But) (ADVP (RB basically)) (, ,) (NP (PRP it)) (VP (AUX is) (NP (NP (DT a) (NN pump)) (SBAR (WHNP (WDT that)) (S (VP (VBZ moves) (NP (NP (NN blood)) (CC and) (RB therefore) (NP (NP (NN oxygen)) (PP (IN around) (NP (DT the) (NN body)))) (. .))))))) (. .)))
+#Rule:Nouns
+r1pumpNN
+r1bloodNN
+r1oxygenPersonAnnotation
+r1bodyNN
+
+#Rule:Verbs
+r2movesVBZ
+
+#Rule:HeadNoun-V
+r11itPRPisAUX
+
+#Rule:HeadNoun-(who/that)-V
+r14pumpNNmovesVBZ
+
+#Rule:V-HeadNoun
+r21isAUXpumpNN
+r21movesVBZbloodNN
+
+#Rule:PPinNP
+r26oxygenPersonAnnotationaroundINbodyNN
+
+#Rule:V-ADV
+r46isAUXbasicallyRB
+
+#Trust me I teach it!ps for a slightly more detailed answer why not ask any junior teacher for an info sheet, any decent one oughta have one. i know i do!:-)
+#(S1 (FRAG (FRAG (FRAG (NP (NN Trust)) (NP (PRP me)) (S (NP (PRP I)) (VP (VBP teach) (NP (PRP it))) (. !)) (NP (NP (NNP ps)) (PP (IN for) (NP (DT a) (ADJP (RB slightly) (RBR more) (JJ detailed)) (NN answer)))) (WHADVP (WRB why) (RB not)) (VP (VB ask) (NP (DT any) (JJ junior) (NN teacher)) (PP (IN for) (NP (NP (DT an) (JJ info) (NN sheet)) (, ,) (SBAR (S (NP (DT any) (JJ decent) (CD one) (NN oughta)) (VP (AUX have) (VP (VBN one.) (SBAR (S (NP (PRP i)) (VP (VBP know) (S (NP (PRP i)) (VP (AUX do)) (. !))))))))))))) (: :)) (: -) (-RRB- -RRB-)))
+#Rule:Nouns
+r1TrustOrganizationAnnotation
+r1psNNP
+r1answerNN
+r1teacherNN
+r1sheetNN
+r1oughtaNN
+
+#Rule:Verbs
+r2teachVBP
+r2askVB
+r2oneVBN
+r2knowVBP
+
+#Rule:Adjs
+r4detailedJJ
+r4juniorJJ
+r4infoJJ
+r4decentJJ
+
+#Rule:Adj-Noun
+r5detailedJJanswerNN
+r5juniorJJteacherNN
+r5infoJJsheetNN
+r5decentJJoughtaNN
+r5oneCDoughtaNN
+
+#Rule:HeadNoun-V
+r11iPRPteachVBP
+r11iPersonAnnotationknowVBP
+r11iPRPdo!LocationAnnotation
+
+#Rule:HeadNoun-V
+r12oughtaNNoneVBN
+
+#Rule:V-HeadNoun
+r21teachVBPitPRP
+r21askVBteacherNN
+
+#Rule:V-HeadNoun
+r22knowVBPiPRP
+
+#Rule:PPinNP
+r26psNNPforINanswerNN
+
+#Rule:PPinVP
+r30askVBforINsheetNN
+
+@lemmas-left	decent	body	oxygen	don	one	bbc s	moves	info	science	schools	Trust	detailed	move	sheet	be	look	is	it	website	answer	pump	you	blood	know	one.	teach	i	oughta	junior	t	school	ask	teacher	ps	
+@lemmas-right	body	moves	one	science	basically	schools	move	sheet	be	look	is	it	website	answer	pump	do!	you	blood	teach	know	one.	oughta	i	school	teacher	
+@lemmas-center	for	under	on	in	around	

@@ -1,0 +1,29 @@
+#the sky is blue because there is nothing blue
+#(S1 (S (NP (DT the) (NN sky)) (VP (AUX is) (ADJP (JJ blue)) (SBAR (IN because) (S (NP (EX there)) (VP (AUX is) (NP (NN nothing) (JJ blue))))))))
+#Rule:Nouns
+r1skyNN
+r1nothingNN
+
+#Rule:Adjs
+r4blueJJ
+r4blueJJ
+
+#Rule:Adj-Noun
+r5blueJJnothingNN
+
+#Rule:HeadNoun-V
+r11skyNNisAUX
+r11thereEXisAUX
+
+#Rule:V-HeadNoun
+r21isAUXnothingNN
+
+#Rule:V-ADJ
+r25isAUXblueJJ
+
+#Rule:V-IN-V
+r43isAUXbecauseINisAUX
+
+@lemmas-left	is	sky	blue	there	nothing	be	
+@lemmas-right	is	blue	nothing	be	
+@lemmas-center	because	

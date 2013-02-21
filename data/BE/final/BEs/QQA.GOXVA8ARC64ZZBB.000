@@ -1,0 +1,14 @@
+#how to quit smoking?
+#(S1 (FRAG (SBAR (WHADVP (WRB how)) (S (VP (TO to) (VP (VB quit) (NP (NN smoking)))))) (. ?)))
+#Rule:Nouns
+r1smokingNN
+
+#Rule:Verbs
+r2quitVB
+
+#Rule:V-HeadNoun
+r21quitVBsmokingNN
+
+@lemmas-left	smoking	quit	
+@lemmas-right	smoking	
+@lemmas-center	

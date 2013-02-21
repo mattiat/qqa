@@ -1,0 +1,86 @@
+#Asking a Colpo opponent to get his facts straight? 
+#(S1 (S (VP (VBG Asking) (NP (DT a) (NNP Colpo) (NN opponent)) (S (VP (TO to) (VP (VB get) (NP (PRP$ his) (NNS facts)) (ADVP (RB straight)))))) (. ?)))
+#Rule:Nouns
+r1ColpoLocationAnnotation
+r1opponentNN
+r1factsNNS
+
+#Rule:Verbs
+r2askingVBG
+r2getVB
+
+#Rule:PRP-Noun
+r6hisPRP$factsNNS
+
+#Rule:N-HeadNoun
+r8ColpoLocationAnnotationopponentNN
+
+#Rule:V-HeadNoun
+r21askingVBGopponentNN
+r21getVBfactsNNS
+
+#Rule:V-V
+r44askingVBGgetVB
+
+#Rule:V-ADV
+r46getVBstraightRB
+
+#That s rich!!!
+#(S1 (S (NP (DT That)) (VP (VBZ s) (NP (JJ rich) (NN !!))) (. !)))
+#Rule:Nouns
+r1s rich!!!PersonAnnotation
+
+#Rule:HeadNoun-V
+r11thatDTs rich!!!PersonAnnotation
+
+#You should read the community guidelines. 
+#(S1 (S (NP (PRP You)) (VP (MD should) (VP (VB read) (NP (DT the) (NN community) (NNS guidelines)))) (. .)))
+#Rule:Nouns
+r1communityNN
+r1guidelinesNNS
+
+#Rule:Verbs
+r2readVB
+
+#Rule:N-HeadNoun
+r8communityNNguidelinesNNS
+
+#Rule:HeadNoun-V
+r11youPRPreadVB
+
+#Rule:V-HeadNoun
+r21readVBguidelinesNNS
+
+#(and use the spell checker, it s amateur.)Wow, 3 violations from 3 personalities.
+#(S1 (S (-LRB- -LRB-) (S (CC and) (VP (VB use) (NP (DT the) (NN spell) (NN checker)))) (, ,) (NP (PRP it)) (VP (VBZ s) (NP (NN amateur.)) (-RRB- -RRB-) (ADVP (UH Wow) (, ,) (NP (CD 3) (NNS violations)) (PP (IN from) (NP (CD 3) (NNS personalities))))) (. .)))
+#Rule:Nouns
+r1spellNN
+r1checkerNN
+r1amateurNN
+r1violationsNNS
+r1personalitiesNNS
+
+#Rule:Verbs
+r2useVB
+r2sVBZ
+
+#Rule:Adj-Noun
+r53CDviolationsNNS
+r53CDpersonalitiesNNS
+
+#Rule:N-HeadNoun
+r8spellNNcheckerNN
+
+#Rule:HeadNoun-V
+r11itPRPsVBZ
+
+#Rule:V-HeadNoun
+r21useVBcheckerNN
+r21sVBZamateurNN
+
+#Rule:SubVerbClause
+r50itPRPuseVB
+
+@lemmas-left	personalities	guideline	amateur	use	personality	violations	opponent	his	guidelines	facts	amateur.	read	spell	asking	it	get	violation	community	you	checker	3	that	Colpo	s rich!!!	fact	s	ask	
+@lemmas-right	personalities	get	violation	use	amateur	guideline	personality	checker	violations	opponent	fact	s rich!!!	s	facts	guidelines	amateur.	read	straight	
+@lemmas-center	

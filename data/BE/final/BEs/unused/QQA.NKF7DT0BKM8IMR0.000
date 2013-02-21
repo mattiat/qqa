@@ -1,0 +1,21 @@
+#why is ldl cholesterol bad for your health?
+#(S1 (SBARQ (WHADVP (WRB why)) (SQ (AUX is) (NP (CD ldl) (NN cholesterol)) (ADJP (JJ bad) (PP (IN for) (NP (PRP$ your) (NN health))))) (. ?)))
+#Rule:Nouns
+r1cholesterolNN
+r1healthNN
+
+#Rule:Adjs
+r4badJJ
+
+#Rule:Adj-Noun
+r5ldlPersonAnnotationcholesterolNN
+
+#Rule:PRP-Noun
+r6yourPRP$healthNN
+
+#Rule:PPinADJP
+r37badJJforINhealthNN
+
+@lemmas-left	ldl	your	bad	health	cholesterol	
+@lemmas-right	health	cholesterol	
+@lemmas-center	for	

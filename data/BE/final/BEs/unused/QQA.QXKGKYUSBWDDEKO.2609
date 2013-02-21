@@ -1,0 +1,56 @@
+#poem is nothing but the feelings one who veiw from his point of view all u have to do is when you see a nature how do you feel discribe it  with short and sweat words
+#(S1 (S (NP (NNP poem)) (VP (AUX is) (NP (NP (NN nothing)) (CC but) (NP (NP (DT the) (NNS feelings) (NN one)) (SBAR (WHNP (WP who)) (S (VP (VBD veiw) (PP (IN from) (NP (NP (PRP$ his) (NN point)) (PP (IN of) (NP (NN view))))) (SBAR (DT all) (S (NP (NNP u)) (VP (AUX have) (S (VP (TO to) (VP (AUX do) (SBAR (S (VP (AUX is) (SBAR (WHADVP (WRB when)) (S (NP (PRP you)) (VP (VBP see) (NP (DT a) (NN nature)) (SBAR (WHADVP (WRB how)) (S (AUX do) (NP (PRP you)) (VP (VBP feel) (SBAR (S (VP (VBP discribe) (NP (PRP it)) (PP (IN with) (NP (UCP (JJ short) (CC and) (NN sweat)) (NNS words)))))))))))))))))))))))))))))
+#Rule:Nouns
+r1poemNNP
+r1nothingNN
+r1feelingsNNS
+r1oneNN
+r1pointNN
+r1viewNN
+r1uNNP
+r1natureNN
+r1sweatNN
+r1wordsNNS
+
+#Rule:Verbs
+r2veiwLocationAnnotation
+r2seeVBP
+r2feelVBP
+r2discribeVBP
+
+#Rule:Adjs
+r4shortJJ
+
+#Rule:PRP-Noun
+r6hisPRP$pointNN
+
+#Rule:N-HeadNoun
+r8feelingsNNSoneNN
+
+#Rule:HeadNoun-V
+r11poemNNPisAUX
+r11uNNPhaveAUX
+r11youPRPseeVBP
+r11youPRPfeelVBP
+
+#Rule:HeadNoun-(who/that)-V
+r14oneNNveiwLocationAnnotation
+
+#Rule:V-HeadNoun
+r21isAUXnothingNN
+r21seeVBPnatureNN
+r21discribeVBPitPRP
+
+#Rule:PPinNP
+r26pointNNofINviewNN
+
+#Rule:PPinVP
+r30veiwLocationAnnotationfromINpointNN
+r30discribeVBPwithINwordsNNS
+
+#Rule:IS-RULE
+r47nothingNNpoemNNP
+
+@lemmas-left	feel	is	veiw	one	you	short	point	u	his	nature	words	see	discribe	nothing	view	poem	feelings	sweat	be	
+@lemmas-right	feel	is	it	veiw	have	one	point	see	nature	words	nothing	view	poem	be	
+@lemmas-center	of	with	from	

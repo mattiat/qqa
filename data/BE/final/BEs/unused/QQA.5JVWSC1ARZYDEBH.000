@@ -1,0 +1,65 @@
+#How do I go about writing a children s book??
+#(S1 (SBARQ (WHADVP (WRB How)) (SQ (AUX do) (NP (PRP I)) (VP (VB go) (PP (IN about) (S (VP (VBG writing) (NP (DT a) (NNS children) (NNP s) (NN book)))))) (. ?)) (. ?)))
+#Rule:Nouns
+r1childrenNNS
+r1sNNP
+r1bookNN
+
+#Rule:Verbs
+r2goVB
+r2writingVBG
+
+#Rule:N-HeadNoun
+r8sNNPbookNN
+r8childrenNNSbookNN
+
+#Rule:V-HeadNoun
+r21writingVBGbookNN
+
+#I ve been thinking about it for a while. Where do I start? Once I have my story and illustrations, what kind of format do I need to put them in to send to publishers? Any advice would be post appreciated!
+#(S1 (S (NP (PRP I)) (ADVP (RB ve)) (VP (AUX been) (VP (VBG thinking) (PP (IN about) (NP (PRP it))) (PP (IN for) (NP (DT a) (FW while.))) (SBAR (S (SBARQ (WHADVP (WRB Where)) (SQ (AUX do) (NP (PRP I)) (VP (VB start)) (. ?) (RB Once) (NP (PRP I)) (VP (AUX have) (NP (NP (PRP$ my) (NN story)) (CC and) (NP (NP (NNS illustrations)) (, ,) (SBAR (WHNP (WP what) (NN kind) (PP (IN of) (NP (NN format)))) (S (VP (AUX do) (SBAR (S (NP (PRP I)) (VP (AUX need) (S (VP (TO to) (VP (VB put) (NP (PRP them)) (SBAR (IN in) (S (VP (TO to) (VP (VB send) (PP (TO to) (NP (NNS publishers)))))))))))))))))))) (. ?)) (NP (DT Any) (NN advice)) (VP (MD would) (VP (AUX be) (S (VP (VB post) (VP (VBN appreciated)))))))))) (. !)))
+#Rule:Nouns
+r1storyNN
+r1illustrationsNNS
+r1kindNN
+r1formatNN
+r1publishersNNS
+r1adviceNN
+
+#Rule:Verbs
+r2thinkingVBG
+r2startVB
+r2putVB
+r2sendVB
+r2postVB
+r2appreciatedVBN
+
+#Rule:PRP-Noun
+r6myPRP$storyNN
+
+#Rule:HeadNoun-V
+r11iPRPthinkingVBG
+r11adviceNNbeAUX
+r11iPRPneedAUX
+
+#Rule:HeadNoun-(who/that)-V
+r14illustrationsNNSdoAUX
+
+#Rule:V-HeadNoun
+r21haveAUXstoryNN
+r21putVBthemPRP
+
+#Rule:PPinVP
+r30thinkingVBGaboutINitPRP
+r30thinkingVBGforINwhileFW
+r30sendVBtoTOpublishersNNS
+
+#Rule:V-IN-V
+r43putVBinINsendVB
+
+#Rule:V-ADV
+r46beenAUXveRB
+
+@lemmas-left	appreciate	publishers	put	send	have	illustrations	illustration	writing	children	been	kind	appreciated	publisher	child	story	write	be	think	post	format	my	i	s	thinking	start	book	advice	go	
+@lemmas-right	need	think	while.	send	it	publishers	while	publisher	story	thinking	them	ve	book	do	be	
+@lemmas-center	to	for	about	in	

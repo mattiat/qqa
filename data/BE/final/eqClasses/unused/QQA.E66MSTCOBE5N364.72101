@@ -1,0 +1,54 @@
+BE: endNN
+EQ class: terminalnn	
+
+BE: warmingNNS
+EQ class: theynns	heatingnns	themnns	
+
+BE: helpVB
+EQ class: aidvb	assistvb	
+
+BE: putVB
+EQ class: posevb	placevb	positionvb	layvb	setvb	
+
+BE: GoPersonAnnotation
+EQ class: 
+
+BE: GlobalJJ
+EQ class: planetaryjj	globenn	worldwidejj	world-widejj	worldjj	
+
+BE: GlobalJJwarmingNNS
+EQ class: globennwarmingnns	globaljjheatingnns	planetaryjjtheynns	globaljjthemnns	worldwidejjheatingnns	worldwidejjthemnns	world-widejjthemnns	world-widejjtheynns	worldwidejjwarmingnns	worldwidejjtheynns	planetaryjjthemnns	worldjjtheynns	world-widejjwarmingnns	globennthemnns	world-widejjheatingnns	globaljjtheynns	globenntheynns	worldjjheatingnns	globennheatingnns	planetaryjjwarmingnns	planetaryjjheatingnns	worldjjthemnns	worldjjwarmingnns	warm_upvbgloballyrb	warmvbgloballyrb	
+
+BE: endNNGoPersonAnnotation
+EQ class: terminalnngopersonannotation	
+
+BE: putVBendNN
+EQ class: layvbterminalnn	setvbendnn	layvbendnn	putvbterminalnn	placevbendnn	positionvbterminalnn	placevbterminalnn	posevbterminalnn	positionvbendnn	posevbendnn	setvbterminalnn	
+
+BE: endNNtoTOwarmingNNS
+EQ class: warmingnnsstopvb	finishvbtheynns	terminalnntototheynns	theynnsendvb	terminatevbthemnns	themnnsstopvb	terminalnntotothemnns	stopvbwarmingnns	terminalnntotoheatingnns	warmingnnsterminatevb	heatingnnsterminalnn	heatingnnsterminatevb	stopvbthemnns	theynnsendnn	endnntotoheatingnns	finishvbwarmingnns	ceasevbheatingnns	theynnsterminatevb	theynnsterminalnn	ceasevbthemnns	warmingnnsendvb	endvbwarmingnns	themnnsfinishvb	themnnsendvb	warmingnnsterminalnn	finishvbheatingnns	endnntotothemnns	stopvbheatingnns	warmingnnsceasevb	themnnsceasevb	heatingnnsfinishvb	terminatevbheatingnns	themnnsterminalnn	warmingnnsfinishvb	terminatevbwarmingnns	stopvbtheynns	themnnsendnn	heatingnnsendvb	theynnsfinishvb	endvbtheynns	ceasevbwarmingnns	finishvbthemnns	endnntototheynns	theynnsstopvb	heatingnnsstopvb	endvbthemnns	endvbheatingnns	themnnsterminatevb	terminatevbtheynns	terminalnntotowarmingnns	heatingnnsceasevb	theynnsceasevb	warmingnnsendnn	ceasevbtheynns	heatingnnsendnn	
+
+BE: GoPersonAnnotationtoTOwww..LocationAnnotation
+EQ class: gopersonannotationtotowwwlocationannotation	
+
+BE: membershipNN
+EQ class: ranknn	
+
+BE: StopGlobalwarming.orgPersonAnnotation
+EQ class: stopglobalwarmingorgpersonannotation	
+
+BE: signVBupRP
+EQ class: subscribevbuprp	signernnofinuprp	signaturennofinuprp	
+
+BE: freeJJ
+EQ class: 
+
+BE: freeJJmembershipNN
+EQ class: freejjranknn	membervbfreelyrb	
+
+BE: yourPRP$membershipNN
+EQ class: yourprp$ranknn	ranknnofinyourprp$	yourprp$membervb	membershipnnofinyourprp$	membervbyourprp$	
+
+BE: signVBforINmembershipNN
+EQ class: subscribevbforinmembershipnn	signvbforinranknn	subscribevbforinranknn	
+

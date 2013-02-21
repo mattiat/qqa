@@ -1,0 +1,14 @@
+#how to loose weight?
+#(S1 (FRAG (SBAR (WHADVP (WRB how)) (S (VP (TO to) (VP (VB loose) (NP (NN weight)))))) (. ?)))
+#Rule:Nouns
+r1weightNN
+
+#Rule:Verbs
+r2looseVB
+
+#Rule:V-HeadNoun
+r21looseVBweightNN
+
+@lemmas-left	weight	loose	
+@lemmas-right	weight	
+@lemmas-center	

@@ -1,0 +1,56 @@
+#Their descendants are the American Indian. 
+#(S1 (S (NP (PRP$ Their) (NNS descendants)) (VP (AUX are) (NP (DT the) (NNP American) (NNP Indian))) (. .)))
+#Rule:Nouns
+r1descendantsNNS
+r1American IndianOrganizationAnnotation
+
+#Rule:PRP-Noun
+r6theirPRP$descendantsNNS
+
+#Rule:HeadNoun-V
+r11descendantsNNSareAUX
+
+#Rule:V-HeadNoun
+r21areAUXAmerican IndianOrganizationAnnotation
+
+#Rule:IS-RULE
+r47American IndianOrganizationAnnotationdescendantsNNS
+
+#They were washed up along the eastern seaboard&Gulf of Mexico after Atlantis finally sank beneath the Atlantic Ocean.
+#(S1 (S (NP (PRP They)) (VP (AUX were) (VP (VBN washed) (PRT (RP up)) (PP (IN along) (NP (NP (DT the) (JJ eastern) (NN seaboard&Gulf)) (PP (IN of) (NP (NNP Mexico))))) (SBAR (IN after) (S (NP (NNP Atlantis)) (ADVP (RB finally)) (VP (VBD sank) (PP (IN beneath) (NP (DT the) (NNP Atlantic) (NNP Ocean)))))))) (. .)))
+#Rule:Nouns
+r1eastern seaboard&GulfOrganizationAnnotation
+r1MexicoLocationAnnotation
+r1AtlantisLocationAnnotation
+r1Atlantic OceanOrganizationAnnotation
+
+#Rule:Verbs
+r2sankVBD
+
+#Rule:V-PRT
+r3washedVBNupRP
+
+#Rule:HeadNoun-V
+r11AtlantisLocationAnnotationsankVBD
+
+#Rule:V-HeadNoun(passive)
+r23washedVBNtheyPRP
+
+#Rule:PPinNP
+r26eastern seaboard&GulfOrganizationAnnotationofINMexicoLocationAnnotation
+
+#Rule:PPinVP
+r30sankVBDbeneathINAtlantic OceanOrganizationAnnotation
+
+#Rule:PPinVP
+r32washedVBNalongINeastern seaboard&GulfOrganizationAnnotation
+
+#Rule:V-IN-V
+r43washedVBNafterINsankVBD
+
+#Rule:V-ADV
+r46sankVBDfinallyRB
+
+@lemmas-left	sink	sank	eastern seaboard&Gulf	Atlantis	are	Mexico	washed	wash	descendants	American Indian	their	Atlantic Ocean	be	
+@lemmas-right	eastern seaboard&Gulf	they	Mexico	are	finally	sink	descendants	American Indian	Atlantic Ocean	sank	up	be	
+@lemmas-center	after	of	along	beneath	

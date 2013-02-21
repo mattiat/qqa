@@ -1,0 +1,65 @@
+#saline nasal spray as often as needed.  
+#(S1 (S (VP (VB saline) (NP (JJ nasal) (NN spray)) (ADVP (ADVP (RB as) (RB often)) (SBAR (IN as) (S (VP (VBN needed)))))) (. .)))
+#Rule:Nouns
+r1sprayNN
+
+#Rule:Verbs
+r2salineVB
+r2neededVBN
+
+#Rule:Adjs
+r4nasalJJ
+
+#Rule:Adj-Noun
+r5nasalJJsprayNN
+
+#Rule:V-HeadNoun
+r21salineVBsprayNN
+
+#Rule:V-ADV
+r46salineVBasRB
+r46salineVBoftenRB
+
+#Nasamist, or Ocean;Neti Pot 1/4-1/2 Tsp salt to 2 cups warm water;Hot compresses on outside of ear to jaw;See ENT MD
+#(S1 (NP (NP (NP (NP (NNP Nasamist)) (, ,) (CC or) (NP (NNP Ocean))) (: ;) (NP (NP (NNP Neti) (NNP Pot)) (NP (NP (JJ 1/4-1/2) (NNP Tsp) (NN salt)) (PP (TO to) (NP (NP (CD 2) (NNS cups)) (NP (JJ warm) (NN water)))))) (: ;) (NP (NP (JJ Hot) (NNS compresses)) (PP (IN on) (NP (NP (NN outside)) (PP (IN of) (NP (NN ear) (S (VP (TO to) (VP (VB jaw))))))))) (: ;) (NP (NNP See))) (NP (NNP ENT) (NNP MD))))
+#Rule:Nouns
+r1NasamistOrganizationAnnotation
+r1Ocean;Neti PotOrganizationAnnotation
+r1TspNNP
+r1saltNN
+r1cupsNNS
+r1waterNN
+r1compressesNNS
+r1outsideNN
+r1earNN
+r1SeeNNP
+r1ENTNNP
+r1MDNNP
+
+#Rule:Verbs
+r2jawVB
+
+#Rule:Adjs
+r41/4-1/2JJ
+r4warmJJ
+r4HotJJ
+
+#Rule:Adj-Noun
+r51/4-1/2JJsaltNN
+r52CDcupsNNS
+r5warmJJwaterNN
+r5HotJJcompressesNNS
+
+#Rule:N-HeadNoun
+r8TspNNPsaltNN
+r8ENTNNPMDNNP
+
+#Rule:PPinNP
+r26saltNNtoTOcupsNNS
+r26saltNNtoTOwaterNN
+r26compressesNNSonINoutsideNN
+r26outsideNNofINearNN
+
+@lemmas-left	cup	need	Nasamist	warm	Ocean;Neti Pot	Hot	1/4-1/2	ENT	tsp	md	MD	water	nasal	compresses	spray	cups	saline	Tsp	See	ent	needed	jaw	compress	2	ear	see	hot	outside	salt	
+@lemmas-right	cup	water	compresses	spray	cups	as	compress	ear	md	often	MD	outside	salt	
+@lemmas-center	to	of	on	

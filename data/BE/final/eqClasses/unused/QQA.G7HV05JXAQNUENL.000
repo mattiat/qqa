@@ -1,0 +1,78 @@
+BE: gym moreLocationAnnotation
+EQ class: 
+
+BE: forceVB
+EQ class: pressurevb	coercevb	squeezevb	halevb	
+
+BE: goVB
+EQ class: locomotevb	movevb	travelvb	
+
+BE: forceVBmyselfPRP
+EQ class: forcennofinmyselfprp	halevbmyselfprp	pressurevbmyselfprp	coercevbmyselfprp	squeezevbmyselfprp	
+
+BE: goVBtoTOgym moreLocationAnnotation
+EQ class: travelvbtotogym morelocationannotation	locomotevbtotogym morelocationannotation	movevbtotogym morelocationannotation	
+
+BE: forceVBgoVB
+EQ class: squeezevbmovevb	forcevblocomotevb	pressurevblocomotevb	squeezevbgovb	forcennofinmovevb	forcevbtravelvb	forcennofintravelvb	forcennofinlocomotevb	squeezevbtravelvb	coercevbtravelvb	pressurevbgovb	halevbmovevb	pressurevbmovevb	coercevblocomotevb	squeezevblocomotevb	halevbgovb	forcennofingovb	forcevbmovevb	coercevbgovb	halevblocomotevb	pressurevbtravelvb	halevbtravelvb	coercevbmovevb	
+
+BE: gymNN
+EQ class: gymnasiumnn	
+
+BE: excusesNNS
+EQ class: alibinns	exculpationnns	self-justificationnns	theynns	excusenns	themnns	
+
+BE: joinedVBD
+EQ class: joinvbd	fall_invbd	get_togethervbd	
+
+BE: makingVBG
+EQ class: makevbg	dovbg	
+
+BE: goVB
+EQ class: locomotevb	movevb	travelvb	
+
+BE: workVBoutRP
+EQ class: worknnofinoutrp	workernnofinoutrp	
+
+BE: moreJJR
+EQ class: more_thanjjr	
+
+BE: expensiveJJ
+EQ class: expensivenessnn	
+
+BE: lazyJJ
+EQ class: lazinessnn	
+
+BE: expensiveJJgymNN
+EQ class: expensivenessnngymnasiumnn	expensivejjgymnasiumnn	expensivenessnngymnn	
+
+BE: lazyJJexcusesNNS
+EQ class: lazyjjexcusenns	lazinessnnalibinns	lazyjjself-justificationnns	lazyjjalibinns	excusevblazilyrb	lazinessnntheynns	lazinessnnthemnns	pardonvblazilyrb	lazyjjthemnns	lazinessnnexcusesnns	lazinessnnexcusenns	lazyjjtheynns	lazinessnnself-justificationnns	lazinessnnexculpationnns	lazyjjexculpationnns	
+
+BE: iPRPneedAUX
+EQ class: iprpdemandaux	iprpaskaux	iprpinvolveaux	iprpnecessitateaux	iprpcall_foraux	demandnnofiniprp	iprprequireaux	iprppostulateaux	iprptakeaux	neednnofiniprp	
+
+BE: iPRPjoinedVBD
+EQ class: iprpfall_invbd	iprpget_togethervbd	iprpjoinvbd	joinernniprp	joinernnofiniprp	
+
+BE: iPRPmakingVBG
+EQ class: iprpdovbg	iprpmakevbg	
+
+BE: excusesNNSgoVB
+EQ class: self-justificationnnsmovevb	themnnslocomotevb	alibinnslocomotevb	alibinnsgovb	themnnsgovb	exculpationnnslocomotevb	theynnstravelvb	self-justificationnnstravelvb	exculpationnnsgovb	theynnsmovevb	excusennslocomotevb	self-justificationnnslocomotevb	exculpationnnsmovevb	excusennstravelvb	exculpationnnstravelvb	alibinnstravelvb	excusesnnsmovevb	excusesnnslocomotevb	excusesnnstravelvb	theynnslocomotevb	themnnsmovevb	excusennsmovevb	alibinnsmovevb	self-justificationnnsgovb	excusennsgovb	themnnstravelvb	theynnsgovb	
+
+BE: workVBmoreJJR
+EQ class: workvbmore_thanjjr	workernnofinmorejjr	workernnofinmore_thanjjr	worknnofinmorejjr	worknnofinmore_thanjjr	
+
+BE: joinedVBDgymNN
+EQ class: fall_invbdgymnasiumnn	joinvbdgymnn	get_togethervbdgymnasiumnn	joinernnofingymnasiumnn	joinedvbdgymnasiumnn	joinernnofingymnn	get_togethervbdgymnn	fall_invbdgymnn	joinvbdgymnasiumnn	
+
+BE: makingVBGexcusesNNS
+EQ class: dovbgexcusenns	makingvbgexcusenns	makingvbgtheynns	dovbgalibinns	makevbgself-justificationnns	makevbgalibinns	dovbgself-justificationnns	makevbgexcusesnns	makingvbgexculpationnns	dovbgexculpationnns	makingvbgself-justificationnns	dovbgthemnns	makevbgtheynns	makevbgexcusenns	dovbgexcusesnns	makingvbgthemnns	makevbgexculpationnns	dovbgtheynns	makevbgthemnns	makingvbgalibinns	
+
+BE: amAUXalwaysRB
+EQ class: beauxalwaysrb	
+
+BE: makingVBGalwaysRB
+EQ class: dovbgalwaysrb	makevbgalwaysrb	
+

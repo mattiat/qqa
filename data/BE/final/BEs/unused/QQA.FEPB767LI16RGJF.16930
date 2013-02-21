@@ -1,0 +1,74 @@
+#Maybe, and maybe not..
+#(S1 (FRAG (ADVP (RB Maybe)) (, ,) (CC and) (FRAG (ADVP (RB maybe) (RB not) (. .))) (. .)))
+#Anyway, I have to hand it to you because this is the first time I saw a science question as one of the featured questions.  Usually it s something like What s the best way to clean the ring out of my tub?
+#(S1 (S (ADVP (RB Anyway)) (, ,) (NP (PRP I)) (VP (AUX have) (S (VP (TO to) (VP (VB hand) (NP (PRP it)) (PP (TO to) (NP (PRP you))) (SBAR (IN because) (S (NP (DT this)) (VP (AUX is) (NP (NP (DT the) (JJ first) (NN time)) (SBAR (S (NP (PRP I)) (VP (VBD saw) (NP (DT a) (NN science) (NN question)) (PP (IN as) (NP (NP (CD one)) (PP (IN of) (NP (DT the) (JJ featured) (NN questions.))))))))) (ADVP (RB Usually)) (SBAR (S (NP (PRP it)) (VP (VBZ s) (NP (NP (NN something)) (PP (IN like) (SBAR (WHNP (WP What)) (S (VP (VBZ s) (NP (NP (DT the) (JJS best) (NN way)) (SBAR (S (VP (TO to) (VP (VB clean) (NP (DT the) (NN ring)) (PP (IN out) (PP (IN of) (NP (PRP$ my) (NN tub)))))))))))))))))))))))) (. ?)))
+#Rule:Nouns
+r1timeNN
+r1scienceNN
+r1questionNN
+r1questionsNN
+r1somethingNN
+r1wayNN
+r1ringNN
+r1tubNN
+
+#Rule:Verbs
+r2handVB
+r2sawVBD
+r2sVBZ
+r2sVBZ
+r2cleanVB
+
+#Rule:Adjs
+r4firstJJ
+r4featuredJJ
+r4bestJJS
+
+#Rule:Adj-Noun
+r5firstJJtimeNN
+r5featuredJJquestionsNN
+r5bestJJSwayNN
+
+#Rule:PRP-Noun
+r6myPRP$tubNN
+
+#Rule:N-HeadNoun
+r8scienceNNquestionNN
+
+#Rule:HeadNoun-V
+r11iPRPhaveAUX
+r11thisDTisAUX
+r11iPRPsawVBD
+r11itPRPsVBZ
+
+#Rule:HeadNoun-(who/that)-V
+r14wayNNcleanVB
+
+#Rule:V-HeadNoun
+r21handVBitPRP
+r21isAUXtimeNN
+r21sawVBDquestionNN
+r21sVBZsomethingNN
+r21sVBZwayNN
+r21cleanVBringNN
+
+#Rule:PPinNP
+r26oneCDofINquestionsNN
+
+#Rule:PPinVP
+r30handVBtoTOyouPRP
+r30sawVBDasINoneCD
+
+#Rule:PPComboInVP
+r34cleanVBoutINtubNN
+
+#Rule:V-IN-V
+r43handVBbecauseINisAUX
+
+#Rule:V-ADV
+r46haveAUXAnywayRB
+r46isAUXUsuallyRB
+
+@lemmas-left	questions.	ring	is	it	have	one	questions	way	featured	my	i	science	hand	time	s	clean	tub	best	saw	question	something	this	first	be	
+@lemmas-right	questions.	ring	is	it	have	one	questions	way	you	anyway	time	Anyway	s	clean	usually	tub	saw	something	question	Usually	be	
+@lemmas-center	because	to	of	as	out	

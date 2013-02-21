@@ -1,0 +1,38 @@
+#Why did Rowling have to make Dumbledore gay?    
+#(S1 (SBARQ (WHADVP (WRB Why)) (SQ (AUX did) (NP (NNP Rowling)) (VP (AUX have) (S (VP (TO to) (VP (VB make) (S (NP (NNP Dumbledore)) (ADJP (JJ gay)))))))) (. ?)))
+#Rule:Nouns
+r1RowlingPersonAnnotation
+r1DumbledoreOrganizationAnnotation
+
+#Rule:Verbs
+r2makeVB
+
+#Rule:Adjs
+r4gayJJ
+
+#Rule:V-HeadNoun
+r22makeVBDumbledoreOrganizationAnnotation
+
+#Please help me in my search to understand why!!!!!!?
+#(S1 (S (VP (VB Please) (VP (VB help) (NP (PRP me)) (PP (IN in) (NP (PRP$ my) (NN search) (S (VP (TO to) (VP (VB understand) (SBAR (WHADVP (WRB why)) (S (VP (VBN !!!!!!))))))))))) (. ?)))
+#Rule:Nouns
+r1searchNN
+
+#Rule:Verbs
+r2pleaseVB
+r2helpVB
+r2understandVB
+r2!!!!!!LocationAnnotation
+
+#Rule:PRP-Noun
+r6myPRP$searchNN
+
+#Rule:V-HeadNoun
+r21helpVBmePRP
+
+#Rule:PPinVP
+r30helpVBinINsearchNN
+
+@lemmas-left	!!!!!!	help	Rowling	understand	please	search	Dumbledore	gay	my	make	
+@lemmas-right	search	Dumbledore	me	
+@lemmas-center	in	

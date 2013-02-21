@@ -1,0 +1,72 @@
+BE: effusionNN
+EQ class: outburstnn	ebullitionnn	gushnn	blowupnn	
+
+BE: FailureNN
+EQ class: 
+
+BE: occurVB
+EQ class: come_aboutvb	happenvb	fall_outvb	go_onvb	pass_offvb	hapvb	take_placevb	passvb	
+
+BE: pleuralJJ
+EQ class: pleurann	
+
+BE: CongestiveJJ
+EQ class: congestionnn	
+
+BE: CardiacJJ
+EQ class: heartnn	
+
+BE: pleuralJJeffusionNN
+EQ class: pleurannebullitionnn	pleuranneffusionnn	pleurannblowupnn	pleuraljjgushnn	pleuraljjebullitionnn	pleurannoutburstnn	pleuraljjoutburstnn	pleuranngushnn	pleuraljjblowupnn	
+
+BE: CongestiveJJFailureNN
+EQ class: congestionnnfailurenn	
+
+BE: CardiacJJFailureNN
+EQ class: heartnnfailurenn	
+
+BE: occurVBinINFailureNN
+EQ class: go_onvbininfailurenn	happenvbininfailurenn	fall_outvbininfailurenn	come_aboutvbininfailurenn	passvbininfailurenn	take_placevbininfailurenn	pass_offvbininfailurenn	hapvbininfailurenn	
+
+BE: LeftNNP
+EQ class: 
+
+BE: lungNN
+EQ class: 
+
+BE: effusionNN
+EQ class: outburstnn	ebullitionnn	gushnn	blowupnn	
+
+BE: lungNN
+EQ class: 
+
+BE: RightNNP
+EQ class: 
+
+BE: affectedVBN
+EQ class: touch_onvbn	impactvbn	bear_onvbn	affectvbn	touchvbn	bear_uponvbn	
+
+BE: startsVBZ
+EQ class: beginvbz	commencevbz	get_downvbz	set_outvbz	startvbz	set_aboutvbz	start_outvbz	getvbz	
+
+BE: leftJJ
+EQ class: 
+
+BE: leftJJlungNN
+EQ class: 
+
+BE: LeftNNPlungNN
+EQ class: lungnnofinleftnnp	
+
+BE: effusionNNstartsVBZ
+EQ class: blowupnnget_downvbz	starting_motornneffusionnn	starter_motornnebullitionnn	blowupnnbeginvbz	effusionnnset_outvbz	starting_motornnofingushnn	starter_motornnofinblowupnn	effusionnnget_downvbz	outburstnnstartvbz	blowupnnstart_outvbz	outburstnnstartsvbz	starternnofinblowupnn	ebullitionnnbeginvbz	starternnebullitionnn	effusionnnstartvbz	starter_motornnofineffusionnn	starter_motornnofinebullitionnn	starternnoutburstnn	ebullitionnnstartsvbz	startnnofingushnn	starter_motornnofingushnn	effusionnnbeginvbz	gushnnstart_outvbz	gushnngetvbz	starternnofingushnn	ebullitionnngetvbz	blowupnnset_outvbz	outburstnnbeginvbz	ebullitionnnstart_outvbz	gushnncommencevbz	outburstnnset_outvbz	ebullitionnnset_outvbz	blowupnncommencevbz	gushnnstartsvbz	outburstnnget_downvbz	starter_motornneffusionnn	ebullitionnnget_downvbz	gushnnstartvbz	effusionnnstart_outvbz	gushnnset_outvbz	starter_motornnoutburstnn	outburstnncommencevbz	blowupnnset_aboutvbz	gushnnget_downvbz	starting_motornngushnn	starter_motornnblowupnn	blowupnnstartsvbz	effusionnngetvbz	starternnofineffusionnn	startnnofinoutburstnn	gushnnbeginvbz	starting_motornnoutburstnn	starter_motornnofinoutburstnn	effusionnnset_aboutvbz	starternngushnn	startnnofinblowupnn	starting_motornnblowupnn	starting_motornnofinebullitionnn	starternnblowupnn	starting_motornnebullitionnn	outburstnnset_aboutvbz	starternneffusionnn	startnnofineffusionnn	startnnofinebullitionnn	starternnofinebullitionnn	outburstnnstart_outvbz	outburstnngetvbz	blowupnngetvbz	starting_motornnofineffusionnn	starternnofinoutburstnn	ebullitionnnstartvbz	gushnnset_aboutvbz	starting_motornnofinblowupnn	blowupnnstartvbz	ebullitionnncommencevbz	starting_motornnofinoutburstnn	effusionnncommencevbz	ebullitionnnset_aboutvbz	starter_motornngushnn	
+
+BE: startsVBZfromINlungNN
+EQ class: getvbzfrominlungnn	start_outvbzfrominlungnn	commencevbzfrominlungnn	beginvbzfrominlungnn	get_downvbzfrominlungnn	startvbzfrominlungnn	set_aboutvbzfrominlungnn	set_outvbzfrominlungnn	
+
+BE: affectedVBNthenINRightNNP
+EQ class: impactvbntheninrightnnp	touch_onvbntheninrightnnp	bear_onvbntheninrightnnp	touchvbntheninrightnnp	bear_uponvbntheninrightnnp	affectvbntheninrightnnp	
+
+BE: affectedVBNfirstRB
+EQ class: bear_uponvbnfirstrb	impactvbnfirstrb	touch_onvbnfirstrb	touchvbnfirstrb	affectvbnfirstrb	bear_onvbnfirstrb	
+

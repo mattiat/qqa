@@ -1,0 +1,18 @@
+#It is a reflection of the sea!
+#(S1 (S (NP (PRP It)) (VP (AUX is) (NP (NP (DT a) (NN reflection)) (PP (IN of) (NP (DT the) (NN sea))))) (. !)))
+#Rule:Nouns
+r1reflectionNN
+r1seaNN
+
+#Rule:HeadNoun-V
+r11itPRPisAUX
+
+#Rule:V-HeadNoun
+r21isAUXreflectionNN
+
+#Rule:PPinNP
+r26reflectionNNofINseaNN
+
+@lemmas-left	is	reflection	it	sea	be	
+@lemmas-right	reflection	is	sea	be	
+@lemmas-center	of	

@@ -1,0 +1,308 @@
+#It is very well known cause  ! 
+#(S1 (S (NP (PRP It)) (VP (AUX is) (VP (ADVP (RB very) (RB well)) (VBN known) (S (NP (NN cause))))) (. !)))
+#Rule:Nouns
+r1causeNN
+
+#Rule:Verbs
+r2knownVBN
+
+#Rule:V-HeadNoun
+r22knownVBNcauseNN
+
+#Rule:V-HeadNoun(passive)
+r23knownVBNitPRP
+
+#Rule:V-ADV
+r46knownVBNveryRB
+r46knownVBNwellRB
+
+#Smoking makes all arteries hard and it promotes cholesterol deposition inside the wall of artery and hence it increases blood pressure also !
+#(S1 (S (S (NP (NN Smoking)) (VP (VBZ makes) (S (NP (DT all) (NNS arteries)) (ADJP (JJ hard))))) (CC and) (S (NP (PRP it)) (VP (VBZ promotes) (NP (NP (NN cholesterol) (NN deposition)) (PP (IN inside) (NP (NP (DT the) (NN wall)) (PP (IN of) (NP (NN artery)))))))) (CC and) (S (ADVP (RB hence)) (NP (PRP it)) (VP (VBZ increases) (NP (NN blood) (NN pressure)) (ADVP (RB also)))) (. !)))
+#Rule:Nouns
+r1SmokingNN
+r1arteriesNNS
+r1cholesterolNN
+r1depositionNN
+r1wallNN
+r1arteryNN
+r1bloodNN
+r1pressureNN
+
+#Rule:Verbs
+r2makesVBZ
+r2promotesVBZ
+r2increasesVBZ
+
+#Rule:Adjs
+r4hardJJ
+
+#Rule:N-HeadNoun
+r8cholesterolNNdepositionNN
+r8bloodNNpressureNN
+
+#Rule:HeadNoun-V
+r11SmokingNNmakesVBZ
+r11itPRPpromotesVBZ
+r11itPRPincreasesVBZ
+
+#Rule:V-HeadNoun
+r21promotesVBZdepositionNN
+r21increasesVBZpressureNN
+
+#Rule:V-HeadNoun
+r22makesVBZarteriesNNS
+
+#Rule:PPinNP
+r26depositionNNinsideINwallNN
+r26wallNNofINarteryNN
+
+#Rule:V-ADV
+r46increasesVBZhenceRB
+r46increasesVBZalsoRB
+
+#It accelerates heart rate !
+#(S1 (S (NP (PRP It)) (VP (VBZ accelerates) (NP (NN heart) (NN rate))) (. !)))
+#Rule:Nouns
+r1heartNN
+r1rateNN
+
+#Rule:Verbs
+r2acceleratesVBZ
+
+#Rule:N-HeadNoun
+r8heartNNrateNN
+
+#Rule:HeadNoun-V
+r11itPRPacceleratesVBZ
+
+#Rule:V-HeadNoun
+r21acceleratesVBZrateNN
+
+#If you will count pulse rate of smoker than you will find it is higher than normal !
+#(S1 (S (SBAR (IN If) (S (NP (PRP you)) (VP (MD will) (VP (VB count) (NP (NP (NN pulse) (NN rate)) (PP (IN of) (NP (NN smoker) (SBAR (IN than) (S (NP (PRP you)) (VP (MD will) (VP (VB find) (NP (PRP it))))))))))))) (VP (AUX is) (ADJP (ADJP (JJR higher)) (PP (IN than) (ADJP (JJ normal))))) (. !)))
+#Rule:Nouns
+r1pulseNN
+r1rateNN
+r1smokerNN
+
+#Rule:Verbs
+r2countVB
+r2findVB
+
+#Rule:Adjs
+r4higherJJR
+r4normalJJ
+
+#Rule:N-HeadNoun
+r8pulseNNrateNN
+
+#Rule:HeadNoun-V
+r11youPRPcountVB
+r11youPRPfindVB
+
+#Rule:V-HeadNoun
+r21countVBrateNN
+r21findVBitPRP
+
+#Rule:V-ADJ
+r25isAUXhigherJJR
+
+#Rule:PPinNP
+r26rateNNofINsmokerNN
+
+#Smoking of some filtered cigarette do give late injuries and less injuries but it do give ! 
+#(S1 (S (S (NP (NP (NN Smoking)) (PP (IN of) (NP (DT some) (VBN filtered) (NN cigarette)))) (VP (AUX do) (VP (VB give) (NP (JJ late) (NNS injuries)) (NP (QP (CC and) (JJR less)) (NNS injuries))))) (CC but) (S (NP (PRP it)) (VP (AUX do) (VP (VB give)))) (. !)))
+#Rule:Nouns
+r1SmokingNN
+r1cigaretteNN
+r1injuriesNNS
+r1injuriesNNS
+
+#Rule:Verbs
+r2filteredVBN
+r2giveVB
+r2giveVB
+
+#Rule:Adjs
+r4lateJJ
+r4lessJJR
+
+#Rule:Adj-Noun
+r5filteredVBNcigaretteNN
+r5lateJJinjuriesNNS
+r5lessJJRinjuriesNNS
+
+#Rule:HeadNoun-V
+r11SmokingNNgiveVB
+r11itPRPgiveVB
+
+#Rule:V-HeadNoun
+r21giveVBinjuriesNNS
+r21giveVBinjuriesNNS
+
+#Rule:PPinNP
+r26SmokingNNofINcigaretteNN
+
+#Smokers are 2 to 4 fold more prone to have brain strokes and heart attack and also gangrene of the foot so long that they have to under go amputation ! 
+#(S1 (S (NP (NNS Smokers)) (VP (AUX are) (ADVP (CD 2) (TO to) (CD 4)) (S (VP (VB fold) (ADJP (RBR more) (JJ prone) (S (VP (TO to) (VP (AUX have) (NP (NP (NN brain) (NNS strokes) (CC and) (NN heart) (NN attack)) (CC and) (RB also) (NP (NP (NN gangrene)) (PP (IN of) (NP (DT the) (NN foot))))) (ADVP (ADVP (RB so) (RB long)) (SBAR (IN that) (S (NP (PRP they)) (VP (AUX have) (PP (TO to) (NP (QP (IN under) (VB go)) (NN amputation)))))))))))))) (. !)))
+#Rule:Nouns
+r1SmokersNNS
+r1brainNN
+r1strokesNNS
+r1heartNN
+r1attackNN
+r1gangreneNN
+r1footNN
+r1amputation !OrganizationAnnotation
+
+#Rule:Verbs
+r2foldVB
+r2goVB
+
+#Rule:Adjs
+r4proneJJ
+
+#Rule:N-HeadNoun
+r8heartNNattackNN
+
+#Rule:N-Noun
+r9brainNNstrokesNNS
+
+#Rule:HeadNoun-V
+r11SmokersNNSareAUX
+r11theyPRPhaveAUX
+
+#Rule:V-HeadNoun
+r21haveAUXattackNN
+
+#Rule:PPinNP
+r26gangreneNNofINfootNN
+
+#Rule:PPinVP
+r30haveAUXtoTOamputation !OrganizationAnnotation
+
+#Rule:V-ADV
+r46haveAUXsoRB
+r46haveAUXlongRB
+
+#One of my patient sufferers burger s disease and suffered amputation ! 
+#(S1 (S (NP (NP (CD One)) (PP (IN of) (NP (PRP$ my) (NN patient) (NNS sufferers)))) (VP (VP (NN burger) (NP (NNP s) (NN disease))) (CC and) (VP (VBD suffered) (NP (NN amputation)))) (. !)))
+#Rule:Nouns
+r1patientNN
+r1sufferersNNS
+r1burgerNN
+r1sNNP
+r1diseaseNN
+r1amputationNN
+
+#Rule:Verbs
+r2sufferedVBD
+
+#Rule:PRP-Noun
+r6myPRP$sufferersNNS
+
+#Rule:N-HeadNoun
+r8patientNNsufferersNNS
+r8sNNPdiseaseNN
+
+#Rule:HeadNoun-V
+r11OneCDsufferedVBD
+
+#Rule:V-HeadNoun
+r21burgerNNdiseaseNN
+r21sufferedVBDamputationNN
+
+#Rule:PPinNP
+r26OneCDofINsufferersNNS
+
+#Renaud disease also happens in legs ! 
+#(S1 (S (NP (NN Renaud) (NN disease)) (ADVP (RB also)) (VP (VBZ happens) (PP (IN in) (NP (NNS legs)))) (. !)))
+#Rule:Nouns
+r1RenaudNN
+r1diseaseNN
+r1legsNNS
+
+#Rule:Verbs
+r2happensVBZ
+
+#Rule:N-HeadNoun
+r8RenaudNNdiseaseNN
+
+#Rule:HeadNoun-V
+r11diseaseNNhappensVBZ
+
+#Rule:PPinVP
+r30happensVBZinINlegsNNS
+
+#Rule:V-ADV
+r46happensVBZalsoRB
+
+#smoking gives deposits of carbon particles in the lungs and may give rise cancer of lungs !
+#(S1 (S (NP (NN smoking)) (VP (VP (VBZ gives) (NP (NP (NNS deposits)) (PP (IN of) (NP (NN carbon) (NNS particles)))) (PP (IN in) (NP (DT the) (NNS lungs)))) (CC and) (VP (MD may) (VP (VB give) (NP (NP (NN rise) (NN cancer)) (PP (IN of) (NP (NNS lungs))))))) (. !)))
+#Rule:Nouns
+r1smokingNN
+r1depositsNNS
+r1carbonNN
+r1particlesNNS
+r1lungsNNS
+r1riseNN
+r1cancerNN
+r1lungsNNS
+
+#Rule:Verbs
+r2givesVBZ
+r2giveVB
+
+#Rule:N-HeadNoun
+r8carbonNNparticlesNNS
+r8riseNNcancerNN
+
+#Rule:HeadNoun-V
+r11smokingNNgivesVBZ
+r11smokingNNgiveVB
+
+#Rule:V-HeadNoun
+r21givesVBZdepositsNNS
+r21giveVBcancerNN
+
+#Rule:PPinNP
+r26depositsNNSofINparticlesNNS
+r26cancerNNofINlungsNNS
+
+#Rule:PPinVP
+r30givesVBZinINlungsNNS
+
+#SO this is how it effects ! 
+#(S1 (S (IN SO) (NP (DT this)) (VP (AUX is) (SBAR (WHADVP (WRB how)) (S (NP (PRP it)) (VP (VBZ effects))))) (. !)))
+#Rule:Verbs
+r2effectsVBZ
+
+#Rule:HeadNoun-V
+r11thisDTisAUX
+r11itPRPeffectsVBZ
+
+#Don t smOKe for pleasure ok ! 
+#(S1 (S (NP (NNP Don) (NNS t)) (VP (VBP smOKe) (PP (IN for) (NP (NN pleasure) (NN ok)))) (. !)))
+#Rule:Nouns
+r1Don t smOKePersonAnnotation
+r1pleasureNN
+r1ok !OrganizationAnnotation
+
+#Rule:N-HeadNoun
+r8pleasureNNok !OrganizationAnnotation
+
+#Rule:PPinVP
+r30Don t smOKePersonAnnotationforINok !OrganizationAnnotation
+
+#Always YouRsmE
+#(S1 (NP (NNP Always) (NNP YouRsmE)))
+#Rule:Nouns
+r1AlwaysNNP
+r1YouRsmEOrganizationAnnotation
+
+#Rule:N-HeadNoun
+r8AlwaysNNPYouRsmEOrganizationAnnotation
+
+@lemmas-left	accelerates	burger	they	cause	filtered	count	deposit	foot	normal	lungs	higher	deposits	Don t smOKe	Smoking	stroke	ok !	carbon	happen	brain	be	accelerate	heart	pleasure	effects	blood	always	cholesterol	prone	injuries	promote	deposition	Smokers	late	smoker	known	this	make	particles	wall	filter	go	arteries	promotes	cigarette	Renaud	sufferers	have	give	one	amputation !	pulse	disease	amputation	suffered	particle	patient	rate	rise	smoking	increases	One	sufferer	hard	artery	find	less	strokes	renaud	is	it	pressure	gives	makes	suffer	Always	you	fold	YouRsmE	my	know	gangrene	lung	effect	s	increase	injury	legs	attack	cancer	happens	
+@lemmas-right	accelerates	cause	count	deposit	foot	lungs	higher	deposits	long	stroke	are	ok !	happen	be	accelerate	so	effects	injuries	deposition	promote	smoker	make	wall	particles	arteries	cigarette	promotes	give	have	sufferers	amputation !	well	disease	amputation	suffered	particle	rate	increases	artery	sufferer	find	strokes	hence	is	it	pressure	gives	makes	suffer	YouRsmE	lung	effect	increase	injury	legs	attack	also	cancer	happens	very	
+@lemmas-center	to	of	for	inside	in	

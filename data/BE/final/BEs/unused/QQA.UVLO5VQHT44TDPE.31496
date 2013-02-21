@@ -1,0 +1,65 @@
+#I don t remember 4 sure, but I think my teacher and textbook said it wuz mongolia. 
+#(S1 (S (S (NP (PRP I)) (VP (VB don) (S (NP (NNS t)) (VP (VB remember) (ADJP (NP (CD 4)) (JJ sure)))))) (, ,) (CC but) (S (NP (PRP I)) (VP (VBP think) (SBAR (S (NP (PRP$ my) (NX (NX (NN teacher)) (CC and) (NX (NN textbook)))) (VP (VBD said) (SBAR (S (NP (PRP it)) (VP (VBZ wuz) (NP (NNP mongolia)))))))))) (. .)))
+#Rule:Nouns
+r1tNNS
+r1teacherNN
+r1textbookNN
+r1wuz mongoliaLocationAnnotation
+
+#Rule:Verbs
+r2donVB
+r2rememberVB
+r2thinkVBP
+r2saidVBD
+
+#Rule:Adjs
+r4sureJJ
+
+#Rule:PRP-Noun
+r6myPRP$teacherNN
+
+#Rule:HeadNoun-V
+r11iPRPdonVB
+r11tNNSrememberVB
+r11iPRPthinkVBP
+r11teacherNNsaidVBD
+r11itPRPwuz mongoliaLocationAnnotation
+
+#Rule:V-HeadNoun
+r22donVBtNNS
+
+#I m sure Mongolia had a name 2 do with the sun, but I can t remember wut.
+#(S1 (S (NP (PRP I)) (ADJP (NNP m) (JJ sure)) (S (NP (NNP Mongolia)) (VP (AUX had) (NP (DT a) (NN name) (CD 2)) (VP (AUX do) (PP (IN with) (NP (DT the) (NN sun)))))) (, ,) (CC but) (S (NP (PRP I)) (VP (MD can) (ADVP (RB t)) (VP (VB remember) (NP (NN wut))))) (. .)))
+#Rule:Nouns
+r1mNNP
+r1MongoliaOrganizationAnnotation
+r1nameNN
+r1sunNN
+r1wutOrganizationAnnotation
+
+#Rule:Verbs
+r2rememberVB
+
+#Rule:Adjs
+r4sureJJ
+
+#Rule:Adj-Noun
+r52CDnameNN
+
+#Rule:HeadNoun-V
+r11MongoliaOrganizationAnnotationdoAUX
+r11iPRPrememberVB
+
+#Rule:V-HeadNoun
+r21hadAUXnameNN
+r21rememberVBwutOrganizationAnnotation
+
+#Rule:PPinVP
+r30doAUXwithINsunNN
+
+#Rule:V-ADV
+r46rememberVBtRB
+
+@lemmas-left	remember	think	textbook	said	it	wut	don	have	Mongolia	m	my	sun	wuz mongolia	i	2	t	name	say	do	teacher	had	sure	
+@lemmas-right	remember	think	t	said	wut	don	name	say	do	teacher	sun	wuz mongolia	
+@lemmas-center	with	

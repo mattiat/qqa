@@ -1,0 +1,244 @@
+#This may sound a little tough, but you need to do what needs to be done. Be strong. Be courageous. You have no choice in what is going on in your life right now, so you need to make the best of things for the sake of your children. You can do this. Human beings are amazing creatures. Make a pact with yourself, that you will get through all this one day at a time. That is all you can do for now..
+#(S1 (S (S (NP (DT This)) (VP (MD may) (VP (VB sound) (ADJP (DT a) (JJ little) (JJ tough))))) (, ,) (CC but) (S (NP (PRP you)) (VP (AUX need) (S (VP (TO to) (VP (AUX do) (SBAR (WHNP (WP what)) (S (VP (VBZ needs) (S (VP (TO to) (VP (AUX be) (NP (NP (FW done.)) (VP (AUX Be) (RB strong.) (VP (AUX Be) (ADJP (JJ courageous.) (SBAR (S (NP (PRP You)) (VP (AUX have) (NP (DT no) (NN choice)) (PP (IN in) (SBAR (WHNP (WP what)) (S (VP (AUX is) (VP (VBG going) (PRT (RP on)) (PP (IN in) (NP (PRP$ your) (NN life))) (ADVP (RB right) (RB now)) (, ,) (SBAR (IN so) (S (NP (PRP you)) (VP (AUX need) (S (VP (TO to) (VP (VB make) (NP (NP (DT the) (JJS best)) (PP (IN of) (NP (NP (NNS things)) (SBAR (S (PP (IN for) (NP (NP (DT the) (NN sake)) (PP (IN of) (NP (PRP$ your) (NN children.))))) (NP (PRP You)) (VP (MD can) (VP (AUX do) (ADJP (JJ this.) (SBAR (S (NP (JJ Human) (NNS beings)) (VP (AUX are) (SBAR (S (NP (JJ amazing) (NNS creatures.)) (VP (VBP Make) (NP (NP (DT a) (NN pact)) (PP (IN with) (NP (PRP yourself)))) (, ,) (SBAR (IN that) (S (NP (PRP you)) (VP (MD will) (VP (VB get) (PP (IN through) (NP (NP (PDT all) (DT this) (CD one) (NN day)) (PP (IN at) (NP (NP (DT a) (NN time.)) (SBAR (WHNP (WDT That)) (S (VP (AUX is) (SBAR (DT all) (S (NP (PRP you)) (VP (MD can) (VP (AUX do) (PP (IN for) (NP (RB now))))))))))))))))))))))))))) (. .))))))))))))))))))))))))))))))))))) (. .)))
+#Rule:Nouns
+r1choiceNN
+r1lifeNN
+r1thingsNNS
+r1sakeNN
+r1childrenNN
+r1beingsNNS
+r1creaturesNNS
+r1pactNN
+r1dayNN
+r1timeNN
+
+#Rule:Verbs
+r2soundVB
+r2needsVBZ
+r2makeVB
+r2MakePersonAnnotation
+r2getVB
+
+#Rule:V-PRT
+r3goingVBGonRP
+
+#Rule:Adjs
+r4littleJJ
+r4toughJJ
+r4courageousJJ
+r4bestJJS
+r4thisJJ
+r4HumanPersonAnnotation
+r4amazingJJ
+
+#Rule:Adj-Noun
+r5HumanPersonAnnotationbeingsNNS
+r5amazingJJcreaturesNNS
+r5oneCDdayNN
+
+#Rule:PRP-Noun
+r6yourPRP$lifeNN
+r6yourPRP$childrenNN
+
+#Rule:HeadNoun-V
+r11thisDTsoundVB
+r11youPRPneedAUX
+r11doneFWBePersonAnnotation
+r11youPRPhaveAUX
+r11youPRPneedAUX
+r11youPRPdoAUX
+r11beingsNNSareAUX
+r11creaturesNNSMakePersonAnnotation
+r11youPRPgetVB
+r11youPRPdoAUX
+
+#Rule:HeadNoun-(who/that)-V
+r14timeNNisAUX
+
+#Rule:V-HeadNoun
+r21beAUXdoneFW
+r21haveAUXchoiceNN
+r21makeVBbestJJS
+r21MakePersonAnnotationpactNN
+
+#Rule:PPinNP
+r26bestJJSofINthingsNNS
+r26sakeNNofINchildrenNN
+r26pactNNwithINyourselfPRP
+r26dayNNatINtimeNN
+
+#Rule:PPinVP
+r30goingVBGinINlifeNN
+r30getVBthroughINdayNN
+r30doAUXforINnowRB
+
+#Rule:PPinS
+r36canMDforINsakeNN
+
+#Rule:V-IN-V
+r43goingVBGsoINneedAUX
+r43MakePersonAnnotationthatINgetVB
+
+#Rule:V-ADV
+r46beAUXstrongRB
+r46goingVBGrightRB
+r46goingVBGnowRB
+
+#There is financial aide for people who meet the poverty guidelines. You need to contact your medical social workers to guide you through this maze. Ask your husbands doctor or the local hospital how to contact them. You can also contact the local American Cancer Society who will have suggestions for you on what to do financially..
+#(S1 (S (NP (EX There)) (VP (AUX is) (NP (NP (JJ financial) (NN aide)) (PP (IN for) (NP (NP (NNS people)) (SBAR (WHNP (WP who)) (S (VP (VBP meet) (NP (NP (DT the) (NN poverty) (NN guidelines.)) (SBAR (S (NP (PRP You)) (VP (AUX need) (S (VP (TO to) (VP (VB contact) (S (NP (PRP$ your) (JJ medical) (JJ social) (NNS workers)) (VP (TO to) (VP (VB guide) (NP (PRP you)) (PP (IN through) (NP (DT this) (FW maze.))) (S (VP (VB Ask) (NP (NP (PRP$ your) (NNS husbands) (NN doctor)) (CC or) (NP (DT the) (JJ local) (NN hospital))) (SBAR (WHADVP (WRB how)) (S (VP (TO to) (VP (VB contact) (S (VP (VBG them.) (SBAR (S (NP (PRP You)) (VP (MD can) (RB also) (VP (VB contact) (NP (NP (DT the) (JJ local) (NNP American) (NNP Cancer) (NNP Society)) (SBAR (WHNP (WP who)) (S (VP (MD will) (VP (AUX have) (NP (NP (NNS suggestions)) (PP (IN for) (NP (PRP you)))) (PP (IN on) (SBAR (WHNP (WP what)) (S (VP (TO to) (VP (AUX do) (ADVP (RB financially)))))))))))))))))))))))))) (. .)))))))))))))))) (. .)))
+#Rule:Nouns
+r1aideNN
+r1peopleNNS
+r1povertyNN
+r1guidelinesNN
+r1workersNNS
+r1husbandsNNS
+r1doctorNN
+r1hospitalNN
+r1American Cancer SocietyOrganizationAnnotation
+r1suggestionsNNS
+
+#Rule:Verbs
+r2meetVBP
+r2contactVB
+r2guideVB
+r2askVB
+r2contactVB
+r2themVBG
+r2contactVB
+
+#Rule:Adjs
+r4financialJJ
+r4medicalJJ
+r4socialJJ
+r4localJJ
+r4localJJ
+
+#Rule:Adj-Noun
+r5financialJJaideNN
+r5medicalJJworkersNNS
+r5socialJJworkersNNS
+r5localJJhospitalNN
+r5localJJAmerican Cancer SocietyOrganizationAnnotation
+
+#Rule:PRP-Noun
+r6yourPRP$workersNNS
+r6yourPRP$doctorNN
+
+#Rule:N-HeadNoun
+r8povertyNNguidelinesNN
+r8husbandsNNSdoctorNN
+
+#Rule:HeadNoun-V
+r11thereEXisAUX
+r11youPRPneedAUX
+r11workersNNSguideVB
+r11youPRPcontactVB
+
+#Rule:HeadNoun-(who/that)-V
+r14peopleNNSmeetVBP
+r14American Cancer SocietyOrganizationAnnotationhaveAUX
+
+#Rule:V-HeadNoun
+r21isAUXaideNN
+r21meetVBPguidelinesNN
+r21guideVByouPRP
+r21askVBdoctorNN
+r21contactVBAmerican Cancer SocietyOrganizationAnnotation
+r21haveAUXsuggestionsNNS
+
+#Rule:V-HeadNoun
+r22contactVBworkersNNS
+
+#Rule:PPinNP
+r26aideNNforINpeopleNNS
+r26suggestionsNNSforINyouPRP
+
+#Rule:PPinVP
+r30guideVBthroughINmazeFW
+
+#Rule:V-ADV
+r46doAUXfinanciallyRB
+
+#Medical Insurance and Financial Assistance for the Cancer Patienthttp://www.cancer.org/docroot/MIT/content/MIT_3_2X_Medical_Insurance_and_Financial_Assistance_for_the_Cancer_Patient.aspResourceshttp://www.cancer.org/docroot/MIT/content/MIT_3_2X_Medical_Insurance_and_Financial_Assistance_for_the_Cancer_Patient.asp#resourcesYou should also check out Medicare and Medicade and disability. Also be sure to check with your hospital about the Hill Burton Program that offers free or low cost service to those unable to pay..
+#(S1 (NP (NP (NP (NNP Medical) (NNP Insurance) (CC and) (NNP Financial) (NN Assistance)) (PP (IN for) (NP (DT the) (NNP Cancer) (NNP Patienthttp)))) (: :) (NP (NN //www.cancer.org/docroot/MIT/content/MIT_3_2X_Medical_Insurance_and_Financial_Assistance_for_the_Cancer_Patient.aspResourceshttp)) (: :) (S (S (NP (JJ //www.cancer.org/docroot/MIT/content/MIT_3_2X_Medical_Insurance_and_Financial_Assistance_for_the_Cancer_Patient.asp) (# #) (CD resourcesYou)) (VP (MD should) (ADVP (RB also)) (VP (VB check) (PRT (RP out)) (NP (NNP Medicare) (CC and) (NNP Medicade))))) (CC and) (S (NP (NNS disability.)) (ADVP (RB Also)) (VP (AUX be) (ADJP (JJ sure) (S (VP (TO to) (VP (VB check) (PP (IN with) (NP (NP (PRP$ your) (NN hospital)) (PP (IN about) (NP (NP (DT the) (NNP Hill) (NNP Burton) (NN Program)) (SBAR (WHNP (WDT that)) (S (VP (VBZ offers) (NP (ADJP (JJ free) (CC or) (JJ low)) (NN cost) (NN service)) (PP (TO to) (NP (DT those) (JJ unable))) (S (VP (TO to) (VP (VB pay))))))))))))))))) (. .)) (. .)))
+#Rule:Nouns
+r1Medical Insurance and Financial AssistanceOrganizationAnnotation
+r1the Cancer Patienthttp://www.cancer.OrganizationAnnotation
+r1//www.cancer.org/docroot/MIT/content/MIT_3_2X_Medical_Insurance_and_Financial_Assistance_for_the_Cancer_Patient.aspResourceshttpNN
+r1MedicareNNP
+r1MedicadeNNP
+r1disabilityNNS
+r1hospitalNN
+r1Hill Burton ProgramOrganizationAnnotation
+r1costNN
+r1serviceNN
+
+#Rule:Verbs
+r2checkVB
+r2offersVBZ
+r2payVB
+
+#Rule:V-PRT
+r3checkVBoutRP
+
+#Rule:Adjs
+r4//www.cancer.org/docroot/MIT/content/MIT_3_2X_Medical_Insurance_and_Financial_Assistance_for_the_Cancer_Patient.aspJJ
+r4sureJJ
+r4freeJJ
+r4lowJJ
+r4unableJJ
+
+#Rule:Adj-Noun
+r5//www.cancer.org/docroot/MIT/content/MIT_3_2X_Medical_Insurance_and_Financial_Assistance_for_the_Cancer_Patient.aspJJresourcesYouCD
+r5freeJJserviceNN
+r5lowJJserviceNN
+
+#Rule:PRP-Noun
+r6yourPRP$hospitalNN
+
+#Rule:N-HeadNoun
+r8costNNserviceNN
+
+#Rule:HeadNoun-V
+r11resourcesYouCDcheckVB
+r11disabilityNNSbeAUX
+
+#Rule:HeadNoun-(who/that)-V
+r14Hill Burton ProgramOrganizationAnnotationoffersVBZ
+
+#Rule:V-HeadNoun
+r21checkVBMedicareNNP
+r21offersVBZserviceNN
+
+#Rule:V-ADJ
+r25beAUXsureJJ
+
+#Rule:PPinNP
+r26Medical Insurance and Financial AssistanceOrganizationAnnotationforINthe Cancer Patienthttp://www.cancer.OrganizationAnnotation
+r26hospitalNNaboutINHill Burton ProgramOrganizationAnnotation
+
+#Rule:PPinVP
+r30checkVBwithINhospitalNN
+r30offersVBZtoTOunableJJ
+
+#Rule:V-V
+r44offersVBZpayVB
+
+#Rule:V-ADV
+r46checkVBalsoRB
+r46beAUXAlsoRB
+
+#Hill-Burton Free and Reduced Cost Health Carehttp://www.hrsa.gov/hillburton/
+#(S1 (NP (NP (NNP Hill-Burton) (NNP Free) (CC and) (NNP Reduced) (NN Cost) (NNP Health) (NNP Carehttp)) (: :) (RB //www.hrsa.gov/hillburton/)))
+#Rule:Nouns
+r1Hill-BurtonNNP
+r1Burton FreePersonAnnotation
+r1Reduced Cost Health CarehttpOrganizationAnnotation
+
+#Rule:N-Noun
+r9Hill-BurtonNNPBurton FreePersonAnnotation
+
+@lemmas-left	guide	need	//www.cancer.org/docroot/MIT/content/MIT_3_2X_Medical_Insurance_and_Financial_Assistance_for_the_Cancer_Patient.asp	being	little	workers	people	doctor	medicade	free	time	medical	children.	social	time.	this.	Burton Free	sure	be	financial	going	unable	//www.cancer.org/docroot/MIT/content/MIT_3_2X_Medical_Insurance_and_Financial_Assistance_for_the_Cancer_Patient.aspResourceshttp	get	offers	done	guidelines.	meet	cost	resourcesYou	done.	pact	//www.cancer.org/docroot/mit/content/mit_3_2x_medical_insurance_and_financial_assistance_for_the_cancer_patient.aspresourceshttp	them	courageous.	sound	them.	tough	medicare	suggestion	asp	day	low	ask	make	this	hospital	the Cancer Patienthttp://www.cancer.	go	Make	husbands	Hill-Burton	can	choice	have	sake	Human	burton	one	disability.	Medicare	creatures	children	husband	contact	creatures.	courageous	life	poverty	guidelines	Hill Burton Program	Medical Insurance and Financial Assistance	pay	disability	best	worker	do	Reduced Cost Health Carehttp	resourcesyou	is	check	American Cancer Society	needs	your	Medicade	beings	you	offer	suggestions	aide	amazing	there	service	local	things	
+@lemmas-right	need	guide	being	workers	people	doctor	time	are	children.	time.	on	yourself	right	Burton Free	sure	be	unable	get	offers	done	Also	guidelines.	meet	resourcesYou	done.	pact	now	strong	sound	medicare	suggestion	day	hospital	the Cancer Patienthttp://www.cancer.	Make	choice	have	sake	Medicare	creatures	children	financially	maze	creatures.	contact	life	guidelines	Hill Burton Program	pay	best	worker	do	strong.	resourcesyou	is	check	American Cancer Society	beings	you	offer	suggestions	aide	Be	service	maze.	things	also	out	
+@lemmas-center	to	that	of	with	so	for	about	at	through	in	

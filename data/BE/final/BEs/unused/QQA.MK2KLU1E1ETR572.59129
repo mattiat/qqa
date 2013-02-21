@@ -1,0 +1,139 @@
+#Anyone who believes in god should answer this question. 
+#(S1 (S (NP (NP (NN Anyone)) (SBAR (WHNP (WP who)) (S (VP (VBZ believes) (PP (IN in) (NP (NNP god))))))) (VP (MD should) (VP (VB answer) (NP (DT this) (NN question)))) (. .)))
+#Rule:Nouns
+r1AnyoneNN
+r1godLocationAnnotation
+r1questionNN
+
+#Rule:Verbs
+r2believesVBZ
+r2answerVB
+
+#Rule:HeadNoun-V
+r11AnyoneNNanswerVB
+
+#Rule:HeadNoun-(who/that)-V
+r14AnyoneNNbelievesVBZ
+
+#Rule:V-HeadNoun
+r21answerVBquestionNN
+
+#Rule:PPinVP
+r30believesVBZinINgodLocationAnnotation
+
+#If it were the will of all humans to destroy every living human, could it be done? 
+#(S1 (SQ (SBAR (IN If) (S (NP (PRP it)) (VP (AUX were) (NP (NP (DT the) (NN will)) (PP (IN of) (NP (NP (DT all) (NNS humans)) (SBAR (S (VP (TO to) (VP (VB destroy) (NP (DT every) (VBG living) (NN human)))))))))))) (, ,) (MD could) (NP (PRP it)) (VP (AUX be) (VP (AUX done))) (. ?)))
+#Rule:Nouns
+r1willNN
+r1humansNNS
+r1humanNN
+
+#Rule:Verbs
+r2destroyVB
+r2livingVBG
+
+#Rule:Adj-Noun
+r5livingVBGhumanNN
+
+#Rule:HeadNoun-V
+r11itPRPwereAUX
+
+#Rule:HeadNoun-(who/that)-V
+r14humansNNSdestroyVB
+
+#Rule:V-HeadNoun
+r21wereAUXwillNN
+r21destroyVBhumanNN
+
+#Rule:PPinNP
+r26willNNofINhumansNNS
+
+#The answer is yes. 
+#(S1 (S (NP (DT The) (NN answer)) (VP (AUX is) (NP (UH yes))) (. .)))
+#Rule:Nouns
+r1answerNN
+
+#Rule:HeadNoun-V
+r11answerNNisAUX
+
+#Rule:V-HeadNoun
+r21isAUXyesUH
+
+#Rule:IS-RULE
+r47yesUHanswerNN
+
+#Would this not mean we just killed god or at the very least undid in one day what , in your belief,  took your god to do in thousands of years? 
+#(S1 (SQ (MD Would) (NP (DT this)) (ADVP (RB not)) (VP (VB mean) (S (NP (PRP we)) (VP (VP (ADVP (RB just)) (VBD killed) (NP (NNP god))) (CC or) (VP (PP (IN at) (NP (DT the) (ADJP (RB very) (JJS least)))) (VBD undid) (PP (IN in) (NP (CD one) (NN day))) (SBAR (WHNP (WP what)) (, ,) (PP (IN in) (NP (PRP$ your) (NN belief))) (, ,) (S (VP (VBD took) (NP (PRP$ your) (NNP god)) (S (VP (TO to) (VP (AUX do) (PP (IN in) (NP (NP (NNS thousands)) (PP (IN of) (NP (NNS years))))))))))))))) (. ?)))
+#Rule:Nouns
+r1godNNP
+r1dayNN
+r1beliefNN
+r1godNNP
+r1thousandsNNS
+r1yearsNNS
+
+#Rule:Verbs
+r2meanVB
+r2killedVBD
+r2undidVBD
+r2tookVBD
+
+#Rule:Adjs
+r4leastJJS
+
+#Rule:Adj-Noun
+r5oneCDdayNN
+
+#Rule:PRP-Noun
+r6yourPRP$beliefNN
+r6yourPRP$godNNP
+
+#Rule:HeadNoun-V
+r11wePRPkilledVBD
+r11wePRPundidVBD
+
+#Rule:V-HeadNoun
+r21killedVBDgodNNP
+r21tookVBDgodNNP
+
+#Rule:V-HeadNoun
+r22meanVBwePRP
+
+#Rule:PPinNP
+r26thousandsNNSofINyearsNNS
+
+#Rule:PPinVP
+r30undidVBDatINleastJJS
+r30undidVBDinINdayNN
+r30doAUXinINthousandsNNS
+
+#Rule:V-ADV
+r46killedVBDjustRB
+
+#What do you think he has an easy button for do-overs?
+#(S1 (SBARQ (WHNP (WP What)) (SQ (AUX do) (NP (PRP you)) (VP (VB think) (SBAR (S (NP (PRP he)) (VP (AUX has) (NP (NP (DT an) (JJ easy) (NN button)) (PP (IN for) (NP (NNS do-overs))))))))) (. ?)))
+#Rule:Nouns
+r1buttonNN
+r1do-oversNNS
+
+#Rule:Verbs
+r2thinkVB
+
+#Rule:Adjs
+r4easyJJ
+
+#Rule:Adj-Noun
+r5easyJJbuttonNN
+
+#Rule:HeadNoun-V
+r11hePRPhasAUX
+
+#Rule:V-HeadNoun
+r21hasAUXbuttonNN
+
+#Rule:PPinNP
+r26buttonNNforINdo-oversNNS
+
+@lemmas-left	god	killed	have	undo	least	one	took	kill	believe	has	destroy	over	were	easy	button	mean	do	question	believes	do-overs	live	be	thousands	think	is	it	belief	your	answer	he	humans	undid	living	thousand	human	yes	take	anyone	will	Anyone	day	years	we	
+@lemmas-right	god	killed	have	undo	least	kill	believe	has	destroy	over	were	button	question	believes	do-overs	be	thousands	just	is	belief	answer	humans	undid	thousand	human	yes	will	day	years	we	
+@lemmas-center	of	for	at	in	

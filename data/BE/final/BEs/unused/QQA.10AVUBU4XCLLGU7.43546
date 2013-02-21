@@ -1,0 +1,99 @@
+#I find homeschool great. I am homeschooled an i should have been in 5th grade last year but i was in 6th. Also I took a CAT and was at 9th level. I Do think some homeschooled kids are smarter and better but not all..
+#(S1 (S (NP (PRP I)) (VP (VBP find) (NP (NP (JJ homeschool) (NN great.)) (SBAR (S (NP (PRP I)) (VP (AUX am) (VP (VBN homeschooled) (SBAR (DT an) (S (S (NP (PRP i)) (VP (MD should) (VP (AUX have) (VP (AUX been) (PP (IN in) (NP (JJ 5th) (NN grade))) (NP (JJ last) (NN year)))))) (CC but) (S (NP (PRP i)) (VP (AUX was) (PP (IN in) (NP (CD 6th.))) (SBAR (RB Also) (S (NP (PRP I)) (VP (VP (VBD took) (NP (DT a) (NN CAT))) (CC and) (VP (AUX was) (PP (IN at) (NP (NP (JJ 9th) (NNS level.)) (SBAR (S (NP (PRP I)) (VP (AUX Do) (VP (VB think) (SBAR (S (NP (DT some) (JJ homeschooled) (NNS kids)) (VP (AUX are) (ADJP (ADJP (ADJP (RBR smarter)) (CC and) (ADJP (JJR better))) (CC but) (ADJP (RB not) (DT all)))))))))))))))))) (. .))))))))) (. .)))
+#Rule:Nouns
+r1greatNN
+r1gradeNN
+r1yearNN
+r1CATNN
+r1levelNNS
+r1kidsNNS
+
+#Rule:Verbs
+r2findVBP
+r2homeschooledVBN
+r2tookVBD
+r2thinkVB
+
+#Rule:Adjs
+r4homeschoolJJ
+r45thJJ
+r4lastJJ
+r49thJJ
+r4homeschooledJJ
+r4betterJJR
+
+#Rule:Adj-Noun
+r5homeschoolJJgreatNN
+r55thJJgradeNN
+r5lastJJyearNN
+r59thJJlevelNNS
+r5homeschooledJJkidsNNS
+
+#Rule:HeadNoun-V
+r11iPRPfindVBP
+r11iPersonAnnotationbeenAUX
+r11iPersonAnnotationwasAUX
+r11iPRPtookVBD
+r11iPRPwasAUX
+r11I DoPersonAnnotationthinkVB
+r11kidsNNSareAUX
+
+#Rule:NP(NP(z) SBAR(S(NP(x)VP(y))))
+r19homeschooledVBNgreatNN
+r19thinkVBlevelNNS
+
+#Rule:V-HeadNoun
+r21findVBPgreatNN
+r21beenAUXyearNN
+r21tookVBDCATNN
+
+#Rule:V-HeadNoun(passive)
+r23homeschooledVBNiPRP
+
+#Rule:V-ADJ
+r25areAUXsmarterRBR
+
+#Rule:PPinVP
+r30beenAUXinINgradeNN
+r30wasAUXinIN6thLocationAnnotation
+r30wasAUXatINlevelNNS
+
+#They can go at there own pace and have a good time at home that si why!!!
+#(S1 (S (NP (PRP They)) (VP (MD can) (VP (VP (VB go) (ADVP (IN at) (RB there)) (NP (JJ own) (NN pace))) (CC and) (VP (AUX have) (NP (NP (DT a) (JJ good) (NN time)) (PP (IN at) (NP (NN home))) (SBAR (WHNP (WDT that)) (S (VP (VBZ si) (SBAR (WHADVP (WRB why)) (S (VP (VBN !!))))))))))) (. !)))
+#Rule:Nouns
+r1paceNN
+r1timeNN
+r1homeNN
+
+#Rule:Verbs
+r2goVB
+r2si why!!!LocationAnnotation
+
+#Rule:Adjs
+r4ownJJ
+r4goodJJ
+
+#Rule:Adj-Noun
+r5ownJJpaceNN
+r5goodJJtimeNN
+
+#Rule:HeadNoun-V
+r11theyPRPgoVB
+r11theyPRPhaveAUX
+
+#Rule:HeadNoun-(who/that)-V
+r14timeNNsi why!!!LocationAnnotation
+
+#Rule:V-HeadNoun
+r21goVBpaceNN
+r21haveAUXtimeNN
+
+#Rule:PPinNP
+r26timeNNatINhomeNN
+
+#Rule:V-ADV
+r46goVBthereRB
+
+@lemmas-left	they	home	pace	cat	last	have	took	good	been	was	kid	time	level	are	level.	5th	grade	year	CAT	homeschooled	find	great.	be	think	kids	9th	si why!!!	i	great	take	better	own	homeschool	I Do	go	
+@lemmas-right	home	pace	cat	have	6th	took	been	was	kid	time	level	are	smarter	level.	grade	year	CAT	find	great.	be	think	kids	si why!!!	i	great	take	there	smart	go	
+@lemmas-center	at	in	

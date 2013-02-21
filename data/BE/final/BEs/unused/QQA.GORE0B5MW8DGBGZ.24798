@@ -1,0 +1,46 @@
+#Gravity would crush it. 
+#(S1 (S (NP (NN Gravity)) (VP (MD would) (VP (VB crush) (NP (PRP it)))) (. .)))
+#Rule:Nouns
+r1GravityNN
+
+#Rule:Verbs
+r2crushVB
+
+#Rule:HeadNoun-V
+r11GravityNNcrushVB
+
+#Rule:V-HeadNoun
+r21crushVBitPRP
+
+#The exoskeleton couldn t support its own weight.
+#(S1 (S (NP (DT The) (NN exoskeleton) (NN couldn)) (VP (VBZ t) (S (VP (VB support) (NP (PRP$ its) (JJ own) (NN weight))))) (. .)))
+#Rule:Nouns
+r1exoskeletonLocationAnnotation
+r1couldnNN
+r1weightNN
+
+#Rule:Verbs
+r2tVBZ
+r2supportVB
+
+#Rule:Adjs
+r4ownJJ
+
+#Rule:Adj-Noun
+r5ownJJweightNN
+
+#Rule:PRP-Noun
+r6itsPRP$weightNN
+
+#Rule:N-HeadNoun
+r8exoskeletonLocationAnnotationcouldnNN
+
+#Rule:HeadNoun-V
+r11couldnNNtVBZ
+
+#Rule:V-HeadNoun
+r21supportVBweightNN
+
+@lemmas-left	support	t	weight	crush	Gravity	couldn	own	its	exoskeleton	gravity	
+@lemmas-right	t	weight	it	crush	couldn	
+@lemmas-center	

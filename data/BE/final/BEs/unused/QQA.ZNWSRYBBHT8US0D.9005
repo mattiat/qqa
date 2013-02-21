@@ -1,0 +1,14 @@
+#just adequate.all correct
+#(S1 (S (ADVP (RB just)) (VP (VB adequate.all) (ADJP (JJ correct)))))
+#Rule:Verbs
+r2adequate.allVB
+
+#Rule:Adjs
+r4correctJJ
+
+#Rule:V-ADV
+r46adequate.allVBjustRB
+
+@lemmas-left	correct	all	adequate.all	
+@lemmas-right	just	
+@lemmas-center	

@@ -1,0 +1,52 @@
+#Some people are book smart in certain academic disciplines, but unfortunately not in handling their own money. 
+#(S1 (S (NP (DT Some) (NNS people)) (VP (AUX are) (ADJP (NN book) (JJ smart) (PP (PP (IN in) (NP (JJ certain) (JJ academic) (NNS disciplines))) (, ,) (CONJP (CC but) (RB unfortunately)) (PP (RB not) (IN in) (S (VP (VBG handling) (NP (PRP$ their) (JJ own) (NN money)))))))) (. .)))
+#Rule:Nouns
+r1peopleNNS
+r1bookNN
+r1disciplinesNNS
+r1moneyNN
+
+#Rule:Verbs
+r2handlingVBG
+
+#Rule:Adjs
+r4smartJJ
+r4certainJJ
+r4academicJJ
+r4ownJJ
+
+#Rule:Adj-Noun
+r5certainJJdisciplinesNNS
+r5academicJJdisciplinesNNS
+r5ownJJmoneyNN
+
+#Rule:PRP-Noun
+r6theirPRP$moneyNN
+
+#Rule:HeadNoun-V
+r11peopleNNSareAUX
+
+#Rule:V-HeadNoun
+r21handlingVBGmoneyNN
+
+#Rule:V-ADJ
+r25areAUXbookNN
+
+#They cannot think past today.
+#(S1 (S (NP (PRP They)) (VP (VBP cannot) (S (VP (VB think) (PP (IN past) (NP (NN today)))))) (. .)))
+#Rule:Nouns
+r1todayNN
+
+#Rule:Verbs
+r2cannotVBP
+r2thinkVB
+
+#Rule:HeadNoun-V
+r11theyPRPcannotVBP
+
+#Rule:PPinVP
+r30thinkVBpastINtodayNN
+
+@lemmas-left	they	think	handle	today	cannot	people	handling	academic	are	disciplines	book	money	own	certain	discipline	their	smart	be	
+@lemmas-right	are	disciplines	book	money	today	discipline	cannot	be	
+@lemmas-center	past	

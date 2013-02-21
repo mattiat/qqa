@@ -1,0 +1,82 @@
+#Because God is a necessity for a person s metaphysical need (the need to know the origins of life and everything perceivable by the senses). 
+#(S1 (S (SBAR (IN Because) (S (NP (NNP God)) (VP (AUX is) (NP (NP (DT a) (NN necessity)) (PP (IN for) (NP (DT a) (NN person))))))) (VP (VBZ s) (NP (NP (JJ metaphysical) (NN need)) (PRN (-LRB- -LRB-) (NP (DT the) (NN need) (S (VP (TO to) (VP (VB know) (NP (NP (NP (DT the) (NNS origins)) (PP (IN of) (NP (NN life)))) (CC and) (NP (NP (NN everything)) (ADJP (JJ perceivable) (PP (IN by) (NP (DT the) (NNS senses)))))))))) (-RRB- -RRB-)))) (. .)))
+#Rule:Nouns
+r1GodPersonAnnotation
+r1necessityNN
+r1personNN
+r1needNN
+r1needNN
+r1originsNNS
+r1lifeNN
+r1everythingNN
+r1sensesNNS
+
+#Rule:Verbs
+r2sVBZ
+r2knowVB
+
+#Rule:Adjs
+r4metaphysicalJJ
+r4perceivableJJ
+
+#Rule:Adj-Noun
+r5metaphysicalJJneedNN
+r5perceivableJJeverythingNN
+
+#Rule:HeadNoun-V
+r11GodPersonAnnotationisAUX
+
+#Rule:V-HeadNoun
+r21isAUXnecessityNN
+r21sVBZneedNN
+r21knowVBoriginsNNS
+
+#Rule:PPinNP
+r26necessityNNforINpersonNN
+r26originsNNSofINlifeNN
+
+#Rule:PPinADJP
+r37perceivableJJbyINsensesNNS
+
+#Rule:IS-RULE
+r47necessityNNGodPersonAnnotation
+
+#God has been the only answer in all the centuries you mentioned in the details.
+#(S1 (S (NP (NNP God)) (VP (AUX has) (VP (AUX been) (NP (NP (DT the) (JJ only) (NN answer)) (PP (IN in) (NP (NP (PDT all) (DT the) (NNS centuries)) (SBAR (S (NP (PRP you)) (VP (VBD mentioned) (PP (IN in) (NP (DT the) (NNS details))))))))))) (. .)))
+#Rule:Nouns
+r1GodNNP
+r1answerNN
+r1centuriesNNS
+r1detailsNNS
+
+#Rule:Verbs
+r2mentionedVBD
+
+#Rule:Adjs
+r4onlyJJ
+
+#Rule:Adj-Noun
+r5onlyJJanswerNN
+
+#Rule:HeadNoun-V
+r11GodNNPbeenAUX
+r11youPRPmentionedVBD
+
+#Rule:NP(NP(z) SBAR(S(NP(x)VP(y))))
+r19mentionedVBDcenturiesNNS
+
+#Rule:V-HeadNoun
+r21beenAUXanswerNN
+
+#Rule:PPinNP
+r26answerNNinINcenturiesNNS
+
+#Rule:PPinVP
+r30mentionedVBDinINdetailsNNS
+
+#Rule:IS-RULE
+r47answerNNGodNNP
+
+@lemmas-left	need	person	god	everything	mentioned	necessity	been	life	details	centuries	only	mention	be	metaphysical	is	perceivable	origin	answer	century	you	sense	know	s	origins	God	senses	
+@lemmas-right	need	is	person	god	century	everything	origin	answer	mentioned	necessity	sense	been	life	details	origins	centuries	God	mention	senses	be	
+@lemmas-center	of	for	by	in	

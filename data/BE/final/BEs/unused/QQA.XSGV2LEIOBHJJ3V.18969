@@ -1,0 +1,151 @@
+#I m homeschool and I m not a nerd, but I m not stupid either. 
+#(S1 (S (NP (PRP I)) (VP (NNP m) (S (NP (NP (NN homeschool)) (CC and) (NP (PRP I))) (VP (NNP m) (NP (NP (RB not) (DT a) (NN nerd)) (, ,) (CC but) (NP (PRP I))) (S (VP (NNP m) (ADJP (RB not) (JJ stupid)) (ADVP (RB either))))))) (. .)))
+#Rule:Nouns
+r1mNNP
+r1homeschoolNN
+r1mNNP
+r1nerdNN
+r1mNNP
+
+#Rule:Adjs
+r4stupidJJ
+
+#Rule:V-HeadNoun
+r22mNNPhomeschoolNN
+
+#As far as social skills, mine are very well. 
+#(S1 (S (ADVP (ADVP (RB As) (RB far)) (PP (IN as) (NP (JJ social) (NNS skills)))) (, ,) (NP (PRP mine)) (VP (AUX are) (ADVP (RB very) (RB well))) (. .)))
+#Rule:Nouns
+r1skillsNNS
+
+#Rule:Adjs
+r4socialJJ
+
+#Rule:Adj-Noun
+r5socialJJskillsNNS
+
+#Rule:HeadNoun-V
+r11minePRPareAUX
+
+#Rule:V-ADV
+r46areAUXveryRB
+r46areAUXwellRB
+
+#Its a dumb stereotype that homeschooled kids aren t social. 
+#(S1 (S (NP (NP (PRP$ Its) (ADJP (DT a) (JJ dumb)) (NN stereotype)) (SBAR (WHNP (IN that)) (S (NP (JJ homeschooled) (NNS kids)) (VP (VBN aren))))) (VP (VBZ t) (ADJP (JJ social))) (. .)))
+#Rule:Nouns
+r1stereotypeNN
+r1kidsNNS
+
+#Rule:Verbs
+r2arenVBN
+r2tOrganizationAnnotation
+
+#Rule:Adjs
+r4dumbJJ
+r4homeschooledJJ
+r4socialJJ
+
+#Rule:Adj-Noun
+r5dumbJJstereotypeNN
+r5homeschooledJJkidsNNS
+
+#Rule:PRP-Noun
+r6itsPRP$stereotypeNN
+
+#Rule:HeadNoun-V
+r11stereotypeNNtOrganizationAnnotation
+
+#Rule:V-HeadNoun(passive)
+r24arenVBNkidsNNS
+
+#I ve never been happier, I went to public school for 9 years and I hated it, dealing with all the drama being put down everyday, I was depressed as h*ll. 
+#(S1 (S (S (NP (PRP I)) (VP (VBD ve) (SBAR (S (ADVP (RB never)) (VP (AUX been) (ADJP (JJR happier))))))) (, ,) (S (NP (PRP I)) (VP (VBD went) (PP (TO to) (NP (JJ public) (NN school))) (PP (IN for) (NP (CD 9) (NNS years))))) (CC and) (S (NP (PRP I)) (VP (VBN hated) (NP (PRP it)) (, ,) (S (VP (VBG dealing) (PP (IN with) (NP (NP (PDT all) (DT the) (NN drama)) (VP (AUXG being) (VP (VBD put) (ADVP (RB down) (JJ everyday)) (, ,) (SBAR (S (NP (PRP I)) (VP (AUX was) (VP (VBN depressed) (PP (IN as) (NP (NNP h) (NNP *) (NNS ll))))))))))))))) (. .)))
+#Rule:Nouns
+r1schoolNN
+r1yearsNNS
+r1dramaNN
+r1h*llPersonAnnotation
+
+#Rule:Verbs
+r2veVBD
+r2wentVBD
+r2hatedVBN
+r2dealingVBG
+r2putVBD
+r2depressedVBN
+
+#Rule:Adjs
+r4happierJJR
+r4publicJJ
+r4everydayJJ
+
+#Rule:Adj-Noun
+r5publicJJschoolNN
+r59CDyearsNNS
+
+#Rule:HeadNoun-V
+r11iPRPveVBD
+r11iPRPwentVBD
+r11dramaNNputVBD
+
+#Rule:V-HeadNoun
+r21hatedVBNitPRP
+
+#Rule:V-HeadNoun(passive)
+r23depressedVBNiPRP
+
+#Rule:V-HeadNoun(passive)
+r24hatedVBNiPRP
+
+#Rule:V-ADJ
+r25beenAUXhappierJJR
+
+#Rule:PPinVP
+r30wentVBDtoTOschoolNN
+r30wentVBDforINyearsNNS
+r30dealingVBGwithINdramaNN
+
+#Rule:PPinVP
+r32depressedVBNasINh*llPersonAnnotation
+
+#Rule:V-MOD
+r45hatedVBNdealingVBG
+
+#Rule:V-ADV
+r46beenAUXneverRB
+r46putVBDdownRB
+
+#Now I m really happy and confident in myself. 
+#(S1 (S (ADVP (RB Now)) (NP (PRP I)) (VP (NNP m) (ADJP (RB really) (JJ happy) (CC and) (JJ confident)) (PP (IN in) (NP (PRP myself)))) (. .)))
+#Rule:Nouns
+r1mNNP
+
+#Rule:Adjs
+r4happyJJ
+r4confidentJJ
+
+#You need to know what your talking about before you open your mouth.
+#(S1 (S (NP (PRP You)) (VP (AUX need) (S (VP (TO to) (VP (VB know) (SBAR (WHNP (WP what)) (S (NP (PRP$ your)) (VP (VBG talking) (PP (IN about) (SBAR (IN before) (S (NP (PRP you)) (VP (VBP open) (NP (PRP$ your) (NN mouth))))))))))))) (. .)))
+#Rule:Nouns
+r1mouthNN
+
+#Rule:Verbs
+r2knowVB
+r2talkingVBG
+r2openVBP
+
+#Rule:PRP-Noun
+r6yourPRP$mouthNN
+
+#Rule:HeadNoun-V
+r11youPRPneedAUX
+r11yourPRP$talkingVBG
+r11youPRPopenVBP
+
+#Rule:V-HeadNoun
+r21openVBPmouthNN
+
+@lemmas-left	depress	skills	put	hated	hate	aren	everyday	dealing	stupid	its	drama	been	kid	went	dumb	open	nerd	are	deal	stereotype	happy	social	ve	mine	homeschooled	talk	be	happier	mouth	your	you	h*ll	kids	m	know	i	talking	depressed	t	school	skill	confident	9	homeschool	years	public	go	
+@lemmas-right	need	skills	put	dealing	well	drama	kid	went	open	are	deal	stereotype	happy	ve	talk	be	happier	it	mouth	h*ll	kids	i	talking	never	school	t	skill	homeschool	down	years	very	go	
+@lemmas-center	to	with	for	as	

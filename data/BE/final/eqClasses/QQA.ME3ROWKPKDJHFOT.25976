@@ -1,0 +1,465 @@
+BE: TestNN
+EQ class: trial_runnn	trialnn	tryoutnn	
+
+BE: nightNN
+EQ class: darknn	nightlyjj	nighttimenn	
+
+BE: sNNP
+EQ class: secnnp	secondnnp	
+
+BE: restNN
+EQ class: remaindernn	residuumnn	balancenn	residualnn	residuenn	
+
+BE: getVB
+EQ class: acquirevb	
+
+BE: goodJJ
+EQ class: goodnessnn	
+
+BE: goodJJnightNN
+EQ class: goodnessnnnighttimenn	goodnessnndarknn	goodjjnighttimenn	goodjjdarknn	goodnessnnnightlyjj	goodnessnnnightnn	goodjjnightlyjj	
+
+BE: sNNPrestNN
+EQ class: residualnnofinsecondnnp	secondnnpbalancenn	remaindernnofinsecnnp	secnnpbalancenn	restnnofinsecondnnp	residuumnnofinsecondnnp	secondnnpresidualnn	remaindernnofinsnnp	residuumnnofinsecnnp	snnpresiduumnn	restnnofinsecnnp	snnpremaindernn	secondnnpremaindernn	residuennofinsnnp	snnpresiduenn	snnpresidualnn	residualnnofinsecnnp	restnnofinsnnp	residuumnnofinsnnp	balancennofinsecondnnp	secnnpresiduenn	secnnpremaindernn	secondnnpresiduenn	secnnprestnn	balancennofinsecnnp	remaindernnofinsecondnnp	secnnpresidualnn	secondnnpresiduumnn	residualnnofinsnnp	snnpbalancenn	secnnpresiduumnn	balancennofinsnnp	residuennofinsecondnnp	secondnnprestnn	residuennofinsecnnp	
+
+BE: getVBnightNN
+EQ class: acquiringnnofinnighttimenn	getvbdarknn	acquiringnnofindarknn	gettingnnofinnightnn	gettingnnofindarknn	acquirevbnighttimenn	acquirevbdarknn	gettingnnofinnighttimenn	acquirevbnightnn	getvbnighttimenn	getvbnightlyjj	acquiringnnofinnightlyjj	gettingnnofinnightlyjj	acquirevbnightlyjj	acquiringnnofinnightnn	
+
+BE: getVBrestNN
+EQ class: acquiringnnofinremaindernn	acquirevbresiduumnn	gettingnnofinrestnn	gettingnnofinresidualnn	getvbbalancenn	acquiringnnofinresidualnn	acquirevbrestnn	acquirevbbalancenn	acquiringnnofinbalancenn	getvbresidualnn	gettingnnofinresiduumnn	getvbresiduumnn	gettingnnofinresiduenn	acquirevbresidualnn	gettingnnofinremaindernn	acquirevbremaindernn	getvbresiduenn	gettingnnofinbalancenn	acquiringnnofinresiduumnn	getvbremaindernn	acquiringnnofinresiduenn	acquirevbresiduenn	acquiringnnofinrestnn	
+
+BE: getVBbeforeINTestNN
+EQ class: getvbbeforeintrialnn	acquirevbbeforeintestnn	getvbbeforeintrial_runnn	acquirevbbeforeintryoutnn	getvbbeforeintryoutnn	acquirevbbeforeintrialnn	acquirevbbeforeintrial_runnn	
+
+BE: breakfastDressNN
+EQ class: 
+
+BE: eatVB
+EQ class: 
+
+BE: healthyJJ
+EQ class: healthnn	healthinessnn	
+
+BE: healthyJJbreakfastDressNN
+EQ class: healthnnbreakfastdressnn	healthinessnnbreakfastdressnn	
+
+BE: eatVBbreakfastDressNN
+EQ class: eaternnofinbreakfastdressnn	feedernnofinbreakfastdressnn	eatingnnofinbreakfastdressnn	feedingnnofinbreakfastdressnn	
+
+BE: timeNN
+EQ class: clipnn	
+
+BE: schoolNN
+EQ class: scholasticjj	
+
+BE: timeNNtoTOschoolNN
+EQ class: clipnntotoschoolnn	scholasticjjtimenn	schoolnntimenn	timenntotoscholasticjj	clipnntotoscholasticjj	schoolnnclipnn	scholasticjjclipnn	
+
+BE: beAUXonINtimeNN
+EQ class: beauxoninclipnn	
+
+BE: situationsNNS
+EQ class: state_of_affairsnns	situationnns	theynns	themnns	
+
+BE: speakerNN
+EQ class: utterernn	talkernn	verbalizernn	verbalisernn	
+
+BE: classNN
+EQ class: familynn	categorynn	
+
+BE: avoidVB
+EQ class: 
+
+BE: ListenPersonAnnotation
+EQ class: 
+
+BE: stressfulJJ
+EQ class: nerve-rackingjj	nerve-wrackingjj	tryingjj	
+
+BE: situationsNNSListenPersonAnnotation
+EQ class: hearernnsituationnns	auditornnstate_of_affairsnns	attendernntheynns	auditornnsituationnns	auditornntheynns	hearernntheynns	situationnnslistenpersonannotation	auditornnthemnns	listeningnnstate_of_affairsnns	hearingnntheynns	auditornnsituationsnns	hearingnnsituationnns	listeningnntheynns	listeningnnthemnns	theynnslistenpersonannotation	listenernnsituationsnns	listenernnstate_of_affairsnns	state_of_affairsnnslistenpersonannotation	hearingnnstate_of_affairsnns	listenernnsituationnns	attendernnsituationsnns	themnnslistenpersonannotation	listeningnnsituationsnns	hearingnnsituationsnns	attendernnsituationnns	listeningnnsituationnns	hearernnsituationsnns	attendernnstate_of_affairsnns	hearernnstate_of_affairsnns	listenernnthemnns	attendernnthemnns	hearernnthemnns	listenernntheynns	hearingnnthemnns	
+
+BE: speakerNNinINclassNN
+EQ class: talkvbcategorynn	verbalisernnininfamilynn	mouthvbcategorynn	categorynnspeakvb	verbalizevbclassnn	classnntalkvb	talkvbclassnn	categorynntalkvb	verbalizernnininclassnn	familynnspeakvb	verbalizevbcategorynn	uttervbclassnn	utterernnininclassnn	verbalizernnininfamilynn	familynntalkernn	familynnspeakernn	verbalisevbclassnn	talkvbfamilynn	classnnspeakvb	verbalisernninincategorynn	categorynnverbalizevb	classnnspeakernn	categorynnutterernn	familynnutterernn	classnnverbalisernn	classnnuttervb	classnnmouthvb	mouthvbfamilynn	categorynnverbalisevb	speakvbcategorynn	categorynnspeakernn	verbalisevbcategorynn	talkernnininclassnn	categorynntalkernn	talkernnininfamilynn	categorynnuttervb	classnnverbalisevb	speakvbclassnn	mouthvbclassnn	familynnverbalisernn	classnnutterernn	categorynnmouthvb	speakernninincategorynn	verbalizevbfamilynn	classnntalkernn	familynnverbalizevb	speakernnininfamilynn	classnnverbalizernn	categorynnverbalizernn	talkernninincategorynn	speakvbfamilynn	verbalisevbfamilynn	familynnverbalisevb	categorynnverbalisernn	verbalizernninincategorynn	familynnuttervb	verbalisernnininclassnn	uttervbfamilynn	uttervbcategorynn	classnnverbalizevb	familynnverbalizernn	familynntalkvb	utterernnininfamilynn	utterernninincategorynn	familynnmouthvb	
+
+BE: ListenPersonAnnotationtoTOspeakerNN
+EQ class: listenpersonannotationtotoverbalizernn	listenpersonannotationtototalkernn	listenpersonannotationtotoutterernn	listenpersonannotationtotoverbalisernn	
+
+BE: ListenPersonAnnotationtestingRB
+EQ class: 
+
+BE: ListenPersonAnnotationcloselyRB
+EQ class: 
+
+BE: DAYSNNS
+EQ class: yearsnns	snns	d.a.y.s.nns	secondnns	secnns	
+
+BE: TESTNN
+EQ class: trial_runnn	t.e.s.t.nn	trialnn	thyminenn	tnn	tryoutnn	
+
+BE: minutesNNS
+EQ class: transactionsnns	proceedingsnns	theynns	themnns	
+
+BE: breakNN
+EQ class: interruptionnn	
+
+BE: studyVB
+EQ class: canvassvb	analysevb	canvasvb	examinevb	analyzevb	
+
+BE: takingVBG
+EQ class: takevbg	
+
+BE: followingJJ
+EQ class: undermentionedjj	
+
+BE: SHORTOrganizationAnnotation
+EQ class: 
+
+BE: followingJJDAYSNNS
+EQ class: followingjjd.a.y.s.nns	undermentionedjjsnns	followingjjyearsnns	undermentionedjjdaysnns	followingjjsecondnns	undermentionedjjyearsnns	followingjjsecnns	undermentionedjjd.a.y.s.nns	undermentionedjjsecnns	undermentionedjjsecondnns	followingjjsnns	
+
+BE: TWOCDDAYSNNS
+EQ class: ocdsecnns	2cdsnns	deucecdyearsnns	deucecddaysnns	oxygencdsnns	oxygencddaysnns	2cdd.a.y.s.nns	atomic_number_8cdyearsnns	t.w.o.cdsecondnns	iicdd.a.y.s.nns	ocdyearsnns	twocdyearsnns	2cdsecondnns	t.w.o.cdsnns	oxygencdsecnns	ocddaysnns	ocdsnns	atomic_number_8cdsecondnns	2cdyearsnns	deucecdsecondnns	iicdsecondnns	atomic_number_8cddaysnns	t.w.o.cdsecnns	oxygencdsecondnns	ocdsecondnns	twocdd.a.y.s.nns	ocdd.a.y.s.nns	atomic_number_8cdsecnns	t.w.o.cddaysnns	t.w.o.cdd.a.y.s.nns	oxygencdyearsnns	twocdsecondnns	deucecdsecnns	iicdsnns	atomic_number_8cdsnns	deucecdd.a.y.s.nns	atomic_number_8cdd.a.y.s.nns	t.w.o.cdyearsnns	2cdsecnns	2cddaysnns	twocdsecnns	iicddaysnns	deucecdsnns	iicdyearsnns	iicdsecnns	oxygencdd.a.y.s.nns	twocdsnns	
+
+BE: 20CDminutesNNS
+EQ class: 20cdproceedingsnns	twentycdproceedingsnns	2.0.cdtheynns	twentycdminutesnns	2.0.cdtransactionsnns	20cdtheynns	20cdthemnns	xxcdproceedingsnns	2.0.cdthemnns	xxcdthemnns	twentycdtheynns	2.0.cdminutesnns	twentycdtransactionsnns	xxcdminutesnns	20cdtransactionsnns	twentycdthemnns	2.0.cdproceedingsnns	xxcdtransactionsnns	xxcdtheynns	
+
+BE: SHORTOrganizationAnnotationbreakNN
+EQ class: shortorganizationannotationinterruptionnn	
+
+BE: doAUXDAYSNNS
+EQ class: makeauxsecnns	makeauxsnns	makeauxyearsnns	doauxsnns	makeauxdaysnns	doauxd.a.y.s.nns	makeauxsecondnns	makeauxd.a.y.s.nns	doauxsecondnns	doauxsecnns	doauxyearsnns	
+
+BE: takingVBGbreakNN
+EQ class: takevbgbreaknn	takingvbginterruptionnn	takevbginterruptionnn	
+
+BE: DAYSNNSbeforeINTESTNN
+EQ class: d.a.y.s.nnsbeforeintestnn	tryoutnnsecnns	d.a.y.s.nnsbeforeinthyminenn	secondnnsbeforeinthyminenn	secnnsbeforeinthyminenn	yearsnnsbeforeint.e.s.t.nn	tryoutnnd.a.y.s.nns	secondnnsbeforeintnn	trial_runnnyearsnns	secondnnsbeforeintrialnn	thyminennsnns	daysnnsbeforeinthyminenn	tnnsnns	thyminennyearsnns	t.e.s.t.nnsnns	trialnnyearsnns	secnnsbeforeintnn	yearsnnsbeforeintrial_runnn	secondnnsbeforeintestnn	testnnyearsnns	t.e.s.t.nnyearsnns	trialnndaysnns	trial_runnnsecondnns	thyminennsecondnns	tnnsecnns	secondnnsbeforeintryoutnn	daysnnsbeforeintrial_runnn	tryoutnnyearsnns	secondnnsbeforeint.e.s.t.nn	d.a.y.s.nnsbeforeint.e.s.t.nn	thyminenndaysnns	t.e.s.t.nnsecondnns	d.a.y.s.nnsbeforeintrial_runnn	testnnd.a.y.s.nns	testnnsecondnns	yearsnnsbeforeinthyminenn	yearsnnsbeforeintrialnn	daysnnsbeforeintrialnn	secnnsbeforeintrial_runnn	daysnnsbeforeintryoutnn	secnnsbeforeintrialnn	trial_runnnsecnns	tnnsecondnns	daysnnsbeforeintnn	yearsnnsbeforeintnn	daysnnsbeforeint.e.s.t.nn	secnnsbeforeintestnn	trialnnsnns	snnsbeforeintrial_runnn	tnnd.a.y.s.nns	snnsbeforeintestnn	snnsbeforeintryoutnn	trial_runnndaysnns	testnnsecnns	d.a.y.s.nnsbeforeintryoutnn	secondnnsbeforeintrial_runnn	testnndaysnns	snnsbeforeintnn	testnnsnns	t.e.s.t.nndaysnns	tnndaysnns	secnnsbeforeint.e.s.t.nn	yearsnnsbeforeintryoutnn	tryoutnndaysnns	trial_runnnsnns	secnnsbeforeintryoutnn	snnsbeforeint.e.s.t.nn	tryoutnnsecondnns	t.e.s.t.nnd.a.y.s.nns	snnsbeforeinthyminenn	trialnnsecnns	t.e.s.t.nnsecnns	d.a.y.s.nnsbeforeintrialnn	tnnyearsnns	tryoutnnsnns	trialnnsecondnns	yearsnnsbeforeintestnn	d.a.y.s.nnsbeforeintnn	thyminennd.a.y.s.nns	trialnnd.a.y.s.nns	snnsbeforeintrialnn	trial_runnnd.a.y.s.nns	thyminennsecnns	
+
+BE: studyVBforINminutesNNS
+EQ class: studyvbforinproceedingsnns	analyzevbforinminutesnns	analyzevbforintransactionsnns	analyzevbforinproceedingsnns	canvasvbforinthemnns	canvassvbforintheynns	analysevbforinminutesnns	canvassvbforinminutesnns	studyvbforinthemnns	canvasvbforinproceedingsnns	examinevbforinthemnns	analysevbforinthemnns	analysevbforintheynns	analyzevbforintheynns	studyvbforintheynns	canvassvbforinthemnns	canvasvbforintheynns	studyvbforintransactionsnns	canvassvbforintransactionsnns	canvasvbforintransactionsnns	analysevbforintransactionsnns	examinevbforinproceedingsnns	examinevbforintransactionsnns	examinevbforinminutesnns	canvasvbforinminutesnns	canvassvbforinproceedingsnns	analyzevbforinthemnns	examinevbforintheynns	analysevbforinproceedingsnns	
+
+BE: PeopleNNS
+EQ class: 
+
+BE: minutesNNS
+EQ class: transactionsnns	proceedingsnns	theynns	themnns	
+
+BE: minutesNNS
+EQ class: transactionsnns	proceedingsnns	theynns	themnns	
+
+BE: learnVBP
+EQ class: acquirevbp	larnvbp	
+
+BE: studyingVBG
+EQ class: canvasvbg	analysevbg	analyzevbg	examinevbg	canvassvbg	studyvbg	
+
+BE: learnVBP
+EQ class: acquirevbp	larnvbp	
+
+BE: studyingVBG
+EQ class: canvasvbg	analysevbg	analyzevbg	examinevbg	canvassvbg	studyvbg	
+
+BE: mostJJS
+EQ class: 
+
+BE: firstJJ
+EQ class: 
+
+BE: secondJJ
+EQ class: 2djj	secondnn	2ndjj	
+
+BE: firstJJminutesNNS
+EQ class: firstjjtheynns	firstjjthemnns	firstjjproceedingsnns	firstjjtransactionsnns	
+
+BE: 10CDminutesNNS
+EQ class: 10cdtransactionsnns	tencdtransactionsnns	xcdproceedingsnns	tennercdthemnns	1.0.cdtheynns	tencdthemnns	xcdminutesnns	xcdtheynns	decadecdtheynns	tennercdtheynns	decadecdtransactionsnns	1.0.cdproceedingsnns	1.0.cdtransactionsnns	xcdthemnns	tencdproceedingsnns	decadecdminutesnns	tencdtheynns	xcdtransactionsnns	tennercdminutesnns	decadecdthemnns	10cdproceedingsnns	10cdtheynns	1.0.cdthemnns	tennercdtransactionsnns	1.0.cdminutesnns	tennercdproceedingsnns	decadecdproceedingsnns	10cdthemnns	tencdminutesnns	
+
+BE: secondJJminutesNNS
+EQ class: secondjjtransactionsnns	secondnnminutesnns	secondnnproceedingsnns	2djjminutesnns	2ndjjtransactionsnns	2djjtransactionsnns	2djjproceedingsnns	2djjthemnns	2ndjjtheynns	2ndjjthemnns	2ndjjminutesnns	secondjjproceedingsnns	secondjjthemnns	secondjjtheynns	2djjtheynns	secondnntheynns	secondnnthemnns	secondnntransactionsnns	2ndjjproceedingsnns	
+
+BE: 10CDminutesNNS
+EQ class: 10cdtransactionsnns	tencdtransactionsnns	xcdproceedingsnns	tennercdthemnns	1.0.cdtheynns	tencdthemnns	xcdminutesnns	xcdtheynns	decadecdtheynns	tennercdtheynns	decadecdtransactionsnns	1.0.cdproceedingsnns	1.0.cdtransactionsnns	xcdthemnns	tencdproceedingsnns	decadecdminutesnns	tencdtheynns	xcdtransactionsnns	tennercdminutesnns	decadecdthemnns	10cdproceedingsnns	10cdtheynns	1.0.cdthemnns	tennercdtransactionsnns	1.0.cdminutesnns	tennercdproceedingsnns	decadecdproceedingsnns	10cdthemnns	tencdminutesnns	
+
+BE: PeopleNNSlearnVBP
+EQ class: assimilatornnofinpeoplenns	peoplennsacquirevbp	peoplennslarnvbp	assimilatornnpeoplenns	learnernnofinpeoplenns	scholarnnpeoplenns	scholarnnofinpeoplenns	learnernnpeoplenns	
+
+BE: PeopleNNSlearnVBP
+EQ class: assimilatornnofinpeoplenns	peoplennsacquirevbp	peoplennslarnvbp	assimilatornnpeoplenns	learnernnofinpeoplenns	scholarnnpeoplenns	scholarnnofinpeoplenns	learnernnpeoplenns	
+
+BE: learnVBPmostJJS
+EQ class: larnvbpmostjjs	assimilatornnofinmostjjs	learnernnofinmostjjs	scholarnnofinmostjjs	acquirevbpmostjjs	
+
+BE: minutesNNSofINstudyingVBG
+EQ class: studyingvbgtransactionsnns	minutesnnsofincanvasvbg	transactionsnnsofinanalyzevbg	analyzevbgtheynns	minutesnnsofinanalysevbg	studynnofintransactionsnns	themnnsofinanalyzevbg	themnnsofinexaminevbg	proceedingsnnsofinexaminevbg	transactionsnnsofinexaminevbg	canvassvbgthemnns	surveynnofinthemnns	proceedingsnnsofincanvassvbg	minutesnnsofinstudyvbg	minutesnnsofinexaminevbg	transactionsnnsofinstudyingvbg	examinevbgminutesnns	canvasvbgtransactionsnns	surveynnofintheynns	analyzevbgtransactionsnns	proceedingsnnsofinstudyvbg	studyvbgproceedingsnns	surveynnofintransactionsnns	themnnsofinstudyvbg	canvassvbgminutesnns	canvasvbgproceedingsnns	proceedingsnnsofinstudyingvbg	analyzevbgminutesnns	themnnsofinstudyingvbg	studynnofinthemnns	transactionsnnsofinstudyvbg	examinevbgproceedingsnns	themnnsofincanvasvbg	examinevbgtheynns	analysevbgtheynns	analyzevbgproceedingsnns	transactionsnnsofincanvasvbg	analysevbgthemnns	theynnsofinstudyingvbg	canvasvbgtheynns	studyingvbgminutesnns	analysevbgproceedingsnns	themnnsofinanalysevbg	canvassvbgtransactionsnns	analyzevbgthemnns	studyingvbgtheynns	canvasvbgthemnns	examinevbgtransactionsnns	proceedingsnnsofinanalysevbg	studynnofinminutesnns	canvassvbgtheynns	transactionsnnsofincanvassvbg	minutesnnsofinanalyzevbg	minutesnnsofincanvassvbg	analysevbgtransactionsnns	studyingvbgproceedingsnns	theynnsofinanalysevbg	canvassvbgproceedingsnns	canvasvbgminutesnns	theynnsofinanalyzevbg	studynnofinproceedingsnns	proceedingsnnsofincanvasvbg	proceedingsnnsofinanalyzevbg	transactionsnnsofinanalysevbg	surveynnofinproceedingsnns	themnnsofincanvassvbg	theynnsofinexaminevbg	studyingvbgthemnns	studyvbgtheynns	surveynnofinminutesnns	studyvbgminutesnns	examinevbgthemnns	studynnofintheynns	theynnsofincanvasvbg	theynnsofinstudyvbg	studyvbgthemnns	analysevbgminutesnns	studyvbgtransactionsnns	theynnsofincanvassvbg	
+
+BE: minutesNNSofINstudyingVBG
+EQ class: studyingvbgtransactionsnns	minutesnnsofincanvasvbg	transactionsnnsofinanalyzevbg	analyzevbgtheynns	minutesnnsofinanalysevbg	studynnofintransactionsnns	themnnsofinanalyzevbg	themnnsofinexaminevbg	proceedingsnnsofinexaminevbg	transactionsnnsofinexaminevbg	canvassvbgthemnns	surveynnofinthemnns	proceedingsnnsofincanvassvbg	minutesnnsofinstudyvbg	minutesnnsofinexaminevbg	transactionsnnsofinstudyingvbg	examinevbgminutesnns	canvasvbgtransactionsnns	surveynnofintheynns	analyzevbgtransactionsnns	proceedingsnnsofinstudyvbg	studyvbgproceedingsnns	surveynnofintransactionsnns	themnnsofinstudyvbg	canvassvbgminutesnns	canvasvbgproceedingsnns	proceedingsnnsofinstudyingvbg	analyzevbgminutesnns	themnnsofinstudyingvbg	studynnofinthemnns	transactionsnnsofinstudyvbg	examinevbgproceedingsnns	themnnsofincanvasvbg	examinevbgtheynns	analysevbgtheynns	analyzevbgproceedingsnns	transactionsnnsofincanvasvbg	analysevbgthemnns	theynnsofinstudyingvbg	canvasvbgtheynns	studyingvbgminutesnns	analysevbgproceedingsnns	themnnsofinanalysevbg	canvassvbgtransactionsnns	analyzevbgthemnns	studyingvbgtheynns	canvasvbgthemnns	examinevbgtransactionsnns	proceedingsnnsofinanalysevbg	studynnofinminutesnns	canvassvbgtheynns	transactionsnnsofincanvassvbg	minutesnnsofinanalyzevbg	minutesnnsofincanvassvbg	analysevbgtransactionsnns	studyingvbgproceedingsnns	theynnsofinanalysevbg	canvassvbgproceedingsnns	canvasvbgminutesnns	theynnsofinanalyzevbg	studynnofinproceedingsnns	proceedingsnnsofincanvasvbg	proceedingsnnsofinanalyzevbg	transactionsnnsofinanalysevbg	surveynnofinproceedingsnns	themnnsofincanvassvbg	theynnsofinexaminevbg	studyingvbgthemnns	studyvbgtheynns	surveynnofinminutesnns	studyvbgminutesnns	examinevbgthemnns	studynnofintheynns	theynnsofincanvasvbg	theynnsofinstudyvbg	studyvbgthemnns	analysevbgminutesnns	studyvbgtransactionsnns	theynnsofincanvassvbg	
+
+BE: learnVBPinINminutesNNS
+EQ class: acquirevbpinintheynns	larnvbpinintransactionsnns	larnvbpininproceedingsnns	learnvbpininthemnns	acquirevbpininminutesnns	acquirevbpinintransactionsnns	learnvbpinintheynns	larnvbpinintheynns	learnvbpinintransactionsnns	larnvbpininthemnns	acquirevbpininproceedingsnns	larnvbpininminutesnns	acquirevbpininthemnns	learnvbpininproceedingsnns	
+
+BE: learnVBPinINminutesNNS
+EQ class: acquirevbpinintheynns	larnvbpinintransactionsnns	larnvbpininproceedingsnns	learnvbpininthemnns	acquirevbpininminutesnns	acquirevbpinintransactionsnns	learnvbpinintheynns	larnvbpinintheynns	learnvbpinintransactionsnns	larnvbpininthemnns	acquirevbpininproceedingsnns	larnvbpininminutesnns	acquirevbpininthemnns	learnvbpininproceedingsnns	
+
+BE: learnVBPwellRB
+EQ class: scholarnnofinwellrb	larnvbpwellrb	acquirevbpwellrb	learnernnofinwellrb	assimilatornnofinwellrb	
+
+BE: minutesNNS
+EQ class: transactionsnns	proceedingsnns	theynns	themnns	
+
+BE: efficencyNN
+EQ class: 
+
+BE: decreaseNN
+EQ class: lesseningnn	drop-offnn	
+
+BE: learningVBG
+EQ class: larnvbg	learnvbg	acquirevbg	
+
+BE: 20CDminutesNNS
+EQ class: 20cdproceedingsnns	twentycdproceedingsnns	2.0.cdtheynns	twentycdminutesnns	2.0.cdtransactionsnns	20cdtheynns	20cdthemnns	xxcdproceedingsnns	2.0.cdthemnns	xxcdthemnns	twentycdtheynns	2.0.cdminutesnns	twentycdtransactionsnns	xxcdminutesnns	20cdtransactionsnns	twentycdthemnns	2.0.cdproceedingsnns	xxcdtransactionsnns	xxcdtheynns	
+
+BE: efficencyNNdecreaseNN
+EQ class: efficencynndecreasevb	efficencynndiminishvb	efficencynnfallvb	lesseningnnofinefficencynn	decreasennofinefficencynn	efficencynndrop-offnn	fallvbefficencynn	efficencynnlessenvb	decreasevbefficencynn	drop-offnnofinefficencynn	lessenvbefficencynn	diminishvbefficencynn	efficencynnlesseningnn	
+
+BE: learningVBGdecreaseNN
+EQ class: learnvbglesseningnn	learnvbgdrop-offnn	acquirevbglesseningnn	assimilatornnofindrop-offnn	learnernnofinlesseningnn	acquirevbgdecreasenn	assimilatornnofindecreasenn	scholarnnofindecreasenn	learnernnofindecreasenn	learningvbgdrop-offnn	learnvbgdecreasenn	larnvbgdrop-offnn	assimilatornnofinlesseningnn	larnvbglesseningnn	scholarnnofinlesseningnn	learningvbglesseningnn	scholarnnofindrop-offnn	larnvbgdecreasenn	acquirevbgdrop-offnn	learnernnofindrop-offnn	
+
+BE: learningVBGafterINminutesNNS
+EQ class: learnvbgafterinthemnns	acquirevbgafterintheynns	larnvbgafterintheynns	larnvbgafterinthemnns	learnvbgafterintransactionsnns	acquirevbgafterintransactionsnns	larnvbgafterinproceedingsnns	learningvbgafterinthemnns	learnvbgafterinproceedingsnns	acquirevbgafterinproceedingsnns	learningvbgafterintheynns	learnvbgafterintheynns	learningvbgafterintransactionsnns	acquirevbgafterinminutesnns	learnvbgafterinminutesnns	acquirevbgafterinthemnns	learningvbgafterinproceedingsnns	larnvbgafterinminutesnns	larnvbgafterintransactionsnns	
+
+BE: learningVBGsteadilyRB
+EQ class: steadyjjininlarnvbg	assimilatornnofinsteadilyrb	scholarnnofinsteadilyrb	steadinessnnininlarnvbg	steadyjjininlearnvbg	steadyjjlearnernn	steadyjjassimilatornn	steadyjjininscholarnn	steadinessnnininassimilatornn	steadyjjininlearnernn	steadinessnnininscholarnn	learnvbgsteadilyrb	steadyjjininacquirevbg	steadinessnnininlearnvbg	learnernnofinsteadilyrb	steadyjjininassimilatornn	steadinessnnassimilatornn	steadyjjininlearningvbg	acquirevbgsteadilyrb	steadinessnnscholarnn	steadinessnnininlearnernn	steadinessnnininacquirevbg	steadinessnnlearnernn	larnvbgsteadilyrb	steadyjjscholarnn	steadinessnnininlearningvbg	
+
+BE: minutesNNS
+EQ class: transactionsnns	proceedingsnns	theynns	themnns	
+
+BE: studyNN
+EQ class: surveynn	
+
+BE: drinkNN
+EQ class: 
+
+BE: etcNN
+EQ class: 
+
+BE: stretchVB
+EQ class: stretch_alongvb	
+
+BE: getVB
+EQ class: acquirevb	
+
+BE: 20CDminutesNNS
+EQ class: 20cdproceedingsnns	twentycdproceedingsnns	2.0.cdtheynns	twentycdminutesnns	2.0.cdtransactionsnns	20cdtheynns	20cdthemnns	xxcdproceedingsnns	2.0.cdthemnns	xxcdthemnns	twentycdtheynns	2.0.cdminutesnns	twentycdtransactionsnns	xxcdminutesnns	20cdtransactionsnns	twentycdthemnns	2.0.cdproceedingsnns	xxcdtransactionsnns	xxcdtheynns	
+
+BE: drinkNNetcNN
+EQ class: drinkingnnofinetcnn	drinkernnofinetcnn	imbibitionnnofinetcnn	etcnndrinkvb	imbibingnnofinetcnn	etcnnimbibevb	drinknnofinetcnn	
+
+BE: getVBetcNN
+EQ class: acquirevbetcnn	acquiringnnofinetcnn	gettingnnofinetcnn	
+
+BE: minutesNNSofINstudyNN
+EQ class: transactionsnnsofinsurveynn	surveynntheynns	studynnthemnns	themnnsofinsurveynn	surveynntransactionsnns	themnnsofinstudynn	studynnproceedingsnns	surveynnminutesnns	proceedingsnnsofinsurveynn	studynnminutesnns	proceedingsnnsofinstudynn	transactionsnnsofinstudynn	theynnsofinstudynn	surveynnproceedingsnns	studynntransactionsnns	minutesnnsofinsurveynn	surveynnthemnns	studynntheynns	theynnsofinsurveynn	
+
+BE: getVBafterINminutesNNS
+EQ class: acquirevbafterinproceedingsnns	acquirevbafterinthemnns	getvbafterintransactionsnns	getvbafterintheynns	getvbafterinproceedingsnns	acquirevbafterintheynns	acquirevbafterinminutesnns	acquirevbafterintransactionsnns	getvbafterinthemnns	
+
+BE: concentrationNN
+EQ class: 
+
+BE: reakVB
+EQ class: 
+
+BE: yourPRP$concentrationNN
+EQ class: concentratevbyourprp$	concentrationnnofinyourprp$	yourprp$concentratevb	
+
+BE: reakVBconcentrationNN
+EQ class: 
+
+BE: breakNN
+EQ class: interruptionnn	
+
+BE: minutesNNS
+EQ class: transactionsnns	proceedingsnns	theynns	themnns	
+
+BE: shortJJ
+EQ class: shortnessnn	
+
+BE: shortJJbreakNN
+EQ class: shortjjinterruptionnn	breakvbshortlyrb	shortnessnninterruptionnn	shortnessnnbreaknn	interruptvbshortlyrb	
+
+BE: 3-5CDminutesNNS
+EQ class: 3.-.5.cdthemnns	3.-.5.cdminutesnns	3-5cdproceedingsnns	3-5cdtransactionsnns	3.-.5.cdtransactionsnns	3.-.5.cdtheynns	3-5cdtheynns	3.-.5.cdproceedingsnns	3-5cdthemnns	
+
+BE: breakNNbeAUX
+EQ class: interruptionnnbeaux	
+
+BE: beAUXminutesNNS
+EQ class: beauxtransactionsnns	beauxthemnns	beauxtheynns	beauxproceedingsnns	
+
+BE: minutesNNSbreakNN
+EQ class: interruptionnntheynns	transactionsnnsbreakvb	breaknntransactionsnns	theynnsinterruptionnn	minutesnnsbreakvb	interruptionnnthemnns	breaknnproceedingsnns	themnnsinterruptionnn	theynnsbreaknn	interruptionnnproceedingsnns	themnnsbreakvb	minutesnnsinterruptionnn	proceedingsnnsbreaknn	breaknntheynns	transactionsnnsinterruptvb	minutesnnsinterruptvb	breaknnthemnns	interruptionnnminutesnns	proceedingsnnsinterruptvb	theynnsbreakvb	breaknnminutesnns	transactionsnnsinterruptionnn	proceedingsnnsbreakvb	themnnsbreaknn	interruptionnntransactionsnns	proceedingsnnsinterruptionnn	themnnsinterruptvb	theynnsinterruptvb	transactionsnnsbreaknn	
+
+BE: minutesNNS
+EQ class: transactionsnns	proceedingsnns	theynns	themnns	
+
+BE: beginVB
+EQ class: set_outvb	get_downvb	commencevb	start_outvb	set_aboutvb	startvb	getvb	
+
+BE: studyingVBG
+EQ class: canvasvbg	analysevbg	analyzevbg	examinevbg	canvassvbg	studyvbg	
+
+BE: 20-30CDminutesNNS
+EQ class: 20-30cdtransactionsnns	20-30cdthemnns	20-30cdproceedingsnns	20-30cdtheynns	
+
+BE: studyingVBGforINminutesNNS
+EQ class: studyingvbgforinthemnns	analysevbgforinthemnns	examinevbgforinthemnns	analysevbgforinproceedingsnns	canvasvbgforinthemnns	studyvbgforintransactionsnns	studyvbgforinproceedingsnns	analyzevbgforintransactionsnns	canvassvbgforinproceedingsnns	studyingvbgforintheynns	analyzevbgforinminutesnns	analyzevbgforintheynns	canvasvbgforinproceedingsnns	canvassvbgforintheynns	studyvbgforinminutesnns	analyzevbgforinproceedingsnns	analysevbgforintheynns	analysevbgforintransactionsnns	canvassvbgforinminutesnns	canvasvbgforinminutesnns	examinevbgforinproceedingsnns	canvasvbgforintheynns	studyingvbgforintransactionsnns	canvassvbgforintransactionsnns	studyvbgforintheynns	examinevbgforinminutesnns	examinevbgforintransactionsnns	analysevbgforinminutesnns	examinevbgforintheynns	analyzevbgforinthemnns	canvasvbgforintransactionsnns	canvassvbgforinthemnns	studyingvbgforinproceedingsnns	studyvbgforinthemnns	
+
+BE: studyingVBGagainRB
+EQ class: analysevbgagainrb	canvassvbgagainrb	examinevbgagainrb	studyvbgagainrb	surveynnofinagainrb	studynnofinagainrb	canvasvbgagainrb	analyzevbgagainrb	
+
+BE: minuteNN
+EQ class: minnn	
+
+BE: studyNN
+EQ class: surveynn	
+
+BE: timeNN
+EQ class: clipnn	
+
+BE: breaksNNS
+EQ class: interruptionnns	breaknns	theynns	themnns	
+
+BE: triplesNNS
+EQ class: triplenns	theynns	three-base_hitnns	three-baggernns	themnns	
+
+BE: ammountNN
+EQ class: 
+
+BE: timeNN
+EQ class: clipnn	
+
+BE: minuteNN
+EQ class: minnn	
+
+BE: studyNN
+EQ class: surveynn	
+
+BE: timeNN
+EQ class: clipnn	
+
+BE: breaksNNS
+EQ class: interruptionnns	breaknns	theynns	themnns	
+
+BE: includesVBZ
+EQ class: includevbz	
+
+BE: learnVB
+EQ class: acquirevb	larnvb	
+
+BE: SHORTOrganizationAnnotation
+EQ class: 
+
+BE: 65CDtimeNN
+EQ class: 6.5.cdtimenn	6.5.cdclipnn	65cdclipnn	
+
+BE: 2CDbreaksNNS
+EQ class: 2.cdbreaksnns	2cdthemnns	iicdtheynns	2cdbreaknns	2.cdthemnns	deucecdtheynns	twocdthemnns	deucecdbreaksnns	twocdbreaksnns	deucecdthemnns	iicdinterruptionnns	iicdthemnns	twocdbreaknns	twocdinterruptionnns	2cdinterruptionnns	2.cdtheynns	2cdtheynns	deucecdinterruptionnns	twocdtheynns	iicdbreaksnns	2.cdinterruptionnns	deucecdbreaknns	iicdbreaknns	2.cdbreaknns	
+
+BE: SHORTOrganizationAnnotationbreaksNNS
+EQ class: shortorganizationannotationthemnns	shortorganizationannotationtheynns	shortorganizationannotationbreaknns	shortorganizationannotationinterruptionnns	
+
+BE: 60CDtimeNN
+EQ class: 6.0.cdtimenn	6.0.cdclipnn	sixtycdclipnn	lxcdclipnn	60cdclipnn	lxcdtimenn	sixtycdtimenn	
+
+BE: youPRPlearnVB
+EQ class: assimilatornnofinyouprp	assimilatornnyouprp	youprplarnvb	scholarnnyouprp	learnernnyouprp	youprpacquirevb	scholarnnofinyouprp	learnernnofinyouprp	
+
+BE: timeNNincludesVBZ
+EQ class: clipnnincludevbz	clipnnincludesvbz	timennincludevbz	
+
+BE: includesVBZbreaksNNS
+EQ class: includesvbzbreaknns	includesvbzthemnns	includevbzbreaksnns	includevbzthemnns	includesvbztheynns	includesvbzinterruptionnns	includevbztheynns	includevbzinterruptionnns	includevbzbreaknns	
+
+BE: triplesNNSammountNN
+EQ class: theynnsammountnn	three-base_hitnnsammountnn	triplennsammountnn	three-baggernnsammountnn	themnnsammountnn	
+
+BE: ammountNNofINtimeNN
+EQ class: ammountnnofinclipnn	
+
+BE: timeNNwithoutINbreaksNNS
+EQ class: clipnnwithoutinbreaknns	clipnnwithoutinthemnns	themnnsclipnn	timennwithoutininterruptionnns	clipnnwithoutininterruptionnns	themnnstimenn	timennwithoutintheynns	clipnnwithoutintheynns	breaksnnstimenn	theynnsclipnn	interruptionnnsclipnn	theynnstimenn	breaknnsclipnn	breaksnnsclipnn	timennwithoutinbreaknns	clipnnwithoutinbreaksnns	timennwithoutinthemnns	breaknnstimenn	interruptionnnstimenn	
+
+BE: learnVBinINtimeNN
+EQ class: acquirevbinintimenn	learnvbininclipnn	larnvbininclipnn	acquirevbininclipnn	larnvbinintimenn	
+
+BE: FOLLOWINGNN
+EQ class: followersnn	
+
+BE: DAYNN
+EQ class: ynn	yttriumnn	dailyjj	24-hour_intervalnn	twenty-four_hoursnn	twenty-four_hour_periodnn	d.a.y.nn	atomic_number_39nn	mean_solar_daynn	solar_daynn	
+
+BE: TESTNN
+EQ class: trial_runnn	t.e.s.t.nn	trialnn	thyminenn	tnn	tryoutnn	
+
+BE: thinkingNN
+EQ class: cerebrationnn	thoughtnn	intellectionnn	mentationnn	thought_processnn	
+
+BE: eatVB
+EQ class: 
+
+BE: healthyJJ
+EQ class: healthnn	healthinessnn	
+
+BE: quickerJJR
+EQ class: quicknessnn	speedyjjr	quickjjr	
+
+BE: preciseJJ
+EQ class: precisenessnn	
+
+BE: yourPRP$thinkingNN
+EQ class: yourprp$thought_processnn	thinkingnnofinyourprp$	yourprp$conceivevb	yourprp$thinkvb	mentationnnofinyourprp$	yourprp$intellectionnn	thinkvbyourprp$	considervbyourprp$	yourprp$mentationnn	yourprp$considervb	cerebrationnnofinyourprp$	thought_processnnofinyourprp$	yourprp$thoughtnn	yourprp$believevb	conceivevbyourprp$	believevbyourprp$	thoughtnnofinyourprp$	yourprp$cerebrationnn	intellectionnnofinyourprp$	
+
+BE: thinkingNNbeAUX
+EQ class: thoughtnnbeaux	cerebrationnnbeaux	intellectionnnbeaux	mentationnnbeaux	thought_processnnbeaux	
+
+BE: doAUXFOLLOWINGNN
+EQ class: doauxfollowersnn	makeauxfollowingnn	makeauxfollowersnn	
+
+BE: doAUXDAYNN
+EQ class: doauxdailyjj	makeauxyttriumnn	makeauxsolar_daynn	doauxynn	makeauxtwenty-four_hour_periodnn	doauxmean_solar_daynn	makeauxtwenty-four_hoursnn	doaux24-hour_intervalnn	makeauxd.a.y.nn	doauxyttriumnn	makeauxynn	makeaux24-hour_intervalnn	doauxd.a.y.nn	makeauxatomic_number_39nn	doauxatomic_number_39nn	doauxtwenty-four_hour_periodnn	doauxsolar_daynn	makeauxmean_solar_daynn	doauxtwenty-four_hoursnn	makeauxdailyjj	makeauxdaynn	
+
+BE: beAUXquickerJJR
+EQ class: beauxquicknessnn	beauxspeedyjjr	beauxquickjjr	
+
+BE: DAYNNbeforeINTESTNN
+EQ class: tnndailyvb	ynnbeforeint.e.s.t.nn	dailyvbt.e.s.t.nn	ynnbeforeintrialnn	thyminenntwenty-four_hour_periodnn	thyminenndailyvb	trialnntwenty-four_hoursnn	thyminennd.a.y.nn	trialnnd.a.y.nn	dailyjjbeforeintestnn	twenty-four_hour_periodnnbeforeinthyminenn	atomic_number_39nnbeforeintryoutnn	tryoutnndaynn	atomic_number_39nnbeforeint.e.s.t.nn	t.e.s.t.nnd.a.y.nn	trial_runnnynn	mean_solar_daynnbeforeintrial_runnn	t.e.s.t.nn24-hour_intervalnn	t.e.s.t.nnsolar_daynn	mean_solar_daynnbeforeintnn	tryoutnnyttriumnn	thyminenntwenty-four_hoursnn	daynnbeforeinthyminenn	atomic_number_39nnbeforeintrialnn	dailyjjbeforeintrialnn	testnntwenty-four_hoursnn	dailyjjbeforeint.e.s.t.nn	twenty-four_hour_periodnnbeforeint.e.s.t.nn	testnndailyvb	tryoutnn24-hour_intervalnn	t.e.s.t.nnmean_solar_daynn	mean_solar_daynnbeforeint.e.s.t.nn	solar_daynnbeforeintnn	ynnbeforeintnn	t.e.s.t.nntwenty-four_hour_periodnn	d.a.y.nnbeforeint.e.s.t.nn	trialnndailyjj	testnnynn	dailyvbthyminenn	testnnyttriumnn	dailyjjbeforeintnn	yttriumnnbeforeintryoutnn	yttriumnnbeforeintrial_runnn	daynnbeforeintrial_runnn	tnnmean_solar_daynn	atomic_number_39nnbeforeinthyminenn	mean_solar_daynnbeforeintryoutnn	trialnntwenty-four_hour_periodnn	testnndailyjj	testnndaynn	trial_runnntwenty-four_hour_periodnn	trial_runnnyttriumnn	trial_runnnatomic_number_39nn	twenty-four_hour_periodnnbeforeintryoutnn	testnnmean_solar_daynn	thyminenndaynn	trial_runnntwenty-four_hoursnn	dailyjjbeforeintryoutnn	trialnnmean_solar_daynn	d.a.y.nnbeforeintnn	twenty-four_hoursnnbeforeintestnn	trial_runnnmean_solar_daynn	tnnsolar_daynn	trial_runnndailyvb	testnntwenty-four_hour_periodnn	thyminennsolar_daynn	mean_solar_daynnbeforeintrialnn	d.a.y.nnbeforeintryoutnn	daynnbeforeintryoutnn	twenty-four_hoursnnbeforeintrial_runnn	24-hour_intervalnnbeforeintryoutnn	dailyjjbeforeintrial_runnn	trialnnsolar_daynn	24-hour_intervalnnbeforeintestnn	dailyvbtrial_runnn	testnn24-hour_intervalnn	dailyvbtryoutnn	t.e.s.t.nntwenty-four_hoursnn	d.a.y.nnbeforeintestnn	twenty-four_hour_periodnnbeforeintrial_runnn	thyminenn24-hour_intervalnn	thyminennyttriumnn	tnnd.a.y.nn	twenty-four_hour_periodnnbeforeintrialnn	tryoutnntwenty-four_hoursnn	trial_runnndailyjj	tryoutnnd.a.y.nn	daynnbeforeintrialnn	24-hour_intervalnnbeforeinthyminenn	solar_daynnbeforeintrialnn	thyminennynn	trialnndailyvb	tnntwenty-four_hour_periodnn	tryoutnnynn	24-hour_intervalnnbeforeintrialnn	24-hour_intervalnnbeforeintrial_runnn	dailyvbtnn	trialnndaynn	t.e.s.t.nndailyvb	testnnd.a.y.nn	tryoutnndailyjj	t.e.s.t.nndailyjj	solar_daynnbeforeintrial_runnn	tnnatomic_number_39nn	24-hour_intervalnnbeforeintnn	ynnbeforeinthyminenn	yttriumnnbeforeintnn	dailyvbtrialnn	atomic_number_39nnbeforeintnn	atomic_number_39nnbeforeintrial_runnn	testnnatomic_number_39nn	ynnbeforeintrial_runnn	thyminennmean_solar_daynn	trial_runnndaynn	tryoutnntwenty-four_hour_periodnn	twenty-four_hoursnnbeforeintryoutnn	twenty-four_hour_periodnnbeforeintestnn	tryoutnndailyvb	tryoutnnmean_solar_daynn	trialnn24-hour_intervalnn	daynnbeforeint.e.s.t.nn	ynnbeforeintestnn	solar_daynnbeforeint.e.s.t.nn	twenty-four_hour_periodnnbeforeintnn	solar_daynnbeforeintryoutnn	twenty-four_hoursnnbeforeintnn	t.e.s.t.nnyttriumnn	ynnbeforeintryoutnn	daynnbeforeintnn	atomic_number_39nnbeforeintestnn	mean_solar_daynnbeforeintestnn	yttriumnnbeforeint.e.s.t.nn	trial_runnn24-hour_intervalnn	yttriumnnbeforeinthyminenn	twenty-four_hoursnnbeforeint.e.s.t.nn	testnnsolar_daynn	tnnynn	t.e.s.t.nnynn	t.e.s.t.nndaynn	trial_runnnsolar_daynn	dailyjjbeforeinthyminenn	t.e.s.t.nnatomic_number_39nn	twenty-four_hoursnnbeforeinthyminenn	yttriumnnbeforeintestnn	solar_daynnbeforeinthyminenn	thyminennatomic_number_39nn	d.a.y.nnbeforeintrial_runnn	24-hour_intervalnnbeforeint.e.s.t.nn	dailyvbtestnn	tnn24-hour_intervalnn	tryoutnnatomic_number_39nn	trialnnyttriumnn	d.a.y.nnbeforeinthyminenn	tnntwenty-four_hoursnn	tryoutnnsolar_daynn	yttriumnnbeforeintrialnn	solar_daynnbeforeintestnn	tnndailyjj	trialnnynn	trial_runnnd.a.y.nn	thyminenndailyjj	tnndaynn	d.a.y.nnbeforeintrialnn	tnnyttriumnn	trialnnatomic_number_39nn	twenty-four_hoursnnbeforeintrialnn	mean_solar_daynnbeforeinthyminenn	
+
+BE: eatVBsoINbeAUX
+EQ class: 
+
+BE: minutesNNS
+EQ class: transactionsnns	proceedingsnns	theynns	themnns	
+
+BE: breaksNNS
+EQ class: interruptionnns	breaknns	theynns	themnns	
+
+BE: studyVB
+EQ class: canvassvb	analysevb	canvasvb	examinevb	analyzevb	
+
+BE: subjectJJ
+EQ class: capablejj	openjj	
+
+BE: subjectJJminutesNNS
+EQ class: openjjthemnns	capablejjthemnns	openjjproceedingsnns	capablejjproceedingsnns	openjjtheynns	capablejjtheynns	subjectjjproceedingsnns	openjjtransactionsnns	subjectjjthemnns	capablejjtransactionsnns	capablejjminutesnns	subjectjjtransactionsnns	openjjminutesnns	subjectjjtheynns	
+
+BE: 15CDminutesNNS
+EQ class: 1.5.cdthemnns	xvcdthemnns	1.5.cdminutesnns	1.5.cdtheynns	xvcdtransactionsnns	fifteencdtransactionsnns	1.5.cdproceedingsnns	fifteencdthemnns	xvcdminutesnns	15cdtheynns	xvcdtheynns	15cdproceedingsnns	fifteencdproceedingsnns	fifteencdtheynns	1.5.cdtransactionsnns	15cdthemnns	15cdtransactionsnns	fifteencdminutesnns	xvcdproceedingsnns	
+
+BE: studyVBminutesNNS
+EQ class: canvassvbtransactionsnns	canvasvbtheynns	canvassvbproceedingsnns	studyvbthemnns	analyzevbthemnns	examinevbminutesnns	studynnofintransactionsnns	studyvbtransactionsnns	examinevbthemnns	studynnofinminutesnns	analyzevbminutesnns	analyzevbproceedingsnns	canvasvbtransactionsnns	analysevbtransactionsnns	surveynnofinthemnns	examinevbtheynns	studynnofinproceedingsnns	canvasvbthemnns	canvassvbthemnns	analysevbthemnns	analysevbproceedingsnns	canvassvbtheynns	canvasvbproceedingsnns	surveynnofinproceedingsnns	surveynnofintheynns	examinevbproceedingsnns	surveynnofintransactionsnns	surveynnofinminutesnns	examinevbtransactionsnns	studyvbtheynns	studynnofintheynns	studynnofinthemnns	analyzevbtransactionsnns	studyvbproceedingsnns	analyzevbtheynns	analysevbtheynns	canvasvbminutesnns	canvassvbminutesnns	analysevbminutesnns	
+
+BE: minutesNNSwithoutINbreaksNNS
+EQ class: breaknnstransactionsnns	theynnswithoutinthemnns	interruptionnnstransactionsnns	themnnswithoutintheynns	proceedingsnnswithoutinbreaksnns	transactionsnnswithoutinbreaknns	minutesnnswithoutininterruptionnns	theynnstheynns	transactionsnnswithoutininterruptionnns	minutesnnswithoutinbreaknns	minutesnnswithoutintheynns	themnnsminutesnns	breaksnnsproceedingsnns	theynnswithoutinbreaksnns	breaknnstheynns	breaknnsminutesnns	themnnswithoutinthemnns	themnnsproceedingsnns	theynnswithoutintheynns	themnnswithoutinbreaknns	transactionsnnswithoutinthemnns	themnnstheynns	themnnsthemnns	proceedingsnnswithoutintheynns	breaksnnsminutesnns	theynnstransactionsnns	theynnsproceedingsnns	proceedingsnnswithoutinbreaknns	interruptionnnstheynns	theynnswithoutininterruptionnns	minutesnnswithoutinthemnns	proceedingsnnswithoutinthemnns	interruptionnnsthemnns	breaknnsthemnns	themnnswithoutinbreaksnns	interruptionnnsminutesnns	theynnswithoutinbreaknns	theynnsthemnns	themnnstransactionsnns	proceedingsnnswithoutininterruptionnns	breaksnnstheynns	breaksnnsthemnns	breaksnnstransactionsnns	breaknnsproceedingsnns	theynnsminutesnns	themnnswithoutininterruptionnns	interruptionnnsproceedingsnns	transactionsnnswithoutinbreaksnns	transactionsnnswithoutintheynns	
+

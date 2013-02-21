@@ -1,0 +1,23 @@
+#They spread by entering the lymphatic or blood circulation.
+#(S1 (S (NP (PRP They)) (VP (VBD spread) (PP (IN by) (S (VP (VBG entering) (NP (DT the) (NN lymphatic) (CC or) (NN blood) (NN circulation)))))) (. .)))
+#Rule:Nouns
+r1lymphaticOrganizationAnnotation
+r1bloodNN
+r1circulationNN
+
+#Rule:Verbs
+r2spreadVBD
+r2enteringVBG
+
+#Rule:N-HeadNoun
+r8bloodNNcirculationNN
+
+#Rule:HeadNoun-V
+r11theyPRPspreadVBD
+
+#Rule:V-HeadNoun
+r21enteringVBGcirculationNN
+
+@lemmas-left	they	circulation	lymphatic	enter	blood	spread	entering	
+@lemmas-right	circulation	spread	
+@lemmas-center	

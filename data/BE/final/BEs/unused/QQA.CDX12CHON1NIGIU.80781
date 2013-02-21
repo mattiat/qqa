@@ -1,0 +1,40 @@
+#because its human nature! 
+#(S1 (FRAG (PP (IN because) (NP (PRP$ its) (JJ human) (NN nature))) (. !)))
+#Rule:Nouns
+r1natureNN
+
+#Rule:Adjs
+r4humanJJ
+
+#Rule:Adj-Noun
+r5humanJJnatureNN
+
+#Rule:PRP-Noun
+r6itsPRP$natureNN
+
+#the only smart man in the world is jesus and god!
+#(S1 (S (NP (NP (DT the) (RB only) (JJ smart) (NN man)) (PP (IN in) (NP (DT the) (NN world)))) (VP (AUX is) (ADJP (JJ jesus) (CC and) (NNP god))) (. !)))
+#Rule:Nouns
+r1manNN
+r1worldNN
+r1godNNP
+
+#Rule:Adjs
+r4smartJJ
+r4jesusJJ
+
+#Rule:Adj-Noun
+r5smartJJmanNN
+
+#Rule:HeadNoun-V
+r11manNNisAUX
+
+#Rule:V-ADJ
+r25isAUXjesusJJ
+
+#Rule:PPinNP
+r26manNNinINworldNN
+
+@lemmas-left	is	god	nature	jesus	its	smart	world	man	be	human	
+@lemmas-right	is	nature	jesus	world	man	be	
+@lemmas-center	in	

@@ -1,0 +1,127 @@
+#need vet to do an ekg to determine if heart rhythm is congenital in nature or a disease process. 
+#(S1 (S (VP (AUX need) (NP (NN vet)) (S (VP (TO to) (VP (AUX do) (NP (DT an) (NN ekg) (S (VP (TO to) (VP (VB determine) (SBAR (IN if) (S (NP (NN heart) (NN rhythm)) (VP (AUX is) (ADJP (JJ congenital) (PP (IN in) (NP (NP (NN nature)) (CC or) (NP (DT a) (NN disease) (NN process)))))))))))))))) (. .)))
+#Rule:Nouns
+r1vetNN
+r1ekgNN
+r1heartNN
+r1rhythmNN
+r1natureNN
+r1diseaseNN
+r1processNN
+
+#Rule:Verbs
+r2determineVB
+
+#Rule:Adjs
+r4congenitalJJ
+
+#Rule:N-HeadNoun
+r8heartNNrhythmNN
+r8diseaseNNprocessNN
+
+#Rule:HeadNoun-V
+r11rhythmNNisAUX
+
+#Rule:V-HeadNoun
+r21needAUXvetNN
+r21doAUXekgNN
+
+#Rule:V-ADJ
+r25isAUXcongenitalJJ
+
+#Rule:PPinADJP
+r37congenitalJJinINnatureNN
+r37congenitalJJinINprocessNN
+
+#Rule:V-IN-V
+r43determineVBifINisAUX
+
+#If it is not a disease process she could live as long as her life expectancy. 
+#(S1 (S (SBAR (IN If) (S (NP (PRP it)) (VP (AUX is) (RB not) (NP (DT a) (NN disease) (NN process))))) (NP (PRP she)) (VP (MD could) (VP (VB live) (ADVP (ADVP (RB as) (RB long)) (PP (IN as) (NP (PRP$ her) (NN life) (NN expectancy)))))) (. .)))
+#Rule:Nouns
+r1diseaseNN
+r1processNN
+r1lifeNN
+r1expectancyNN
+
+#Rule:Verbs
+r2liveVB
+
+#Rule:PRP-Noun
+r6herPRP$expectancyNN
+
+#Rule:N-HeadNoun
+r8diseaseNNprocessNN
+r8lifeNNexpectancyNN
+
+#Rule:HeadNoun-V
+r11shePRPliveVB
+r11itPRPisAUX
+
+#Rule:V-HeadNoun
+r21isAUXprocessNN
+
+#Rule:V-ADV
+r46isAUXnotRB
+r46liveVBasRB
+r46liveVBlongRB
+
+#I hope she lives a long time... 
+#(S1 (S (NP (PRP I)) (VP (VBP hope) (SBAR (S (NP (PRP she)) (VP (VBZ lives) (NP (NP (DT a) (JJ long) (NN time)) (S (VP (VBG ..)))))))) (. .)))
+#Rule:Nouns
+r1timeNN
+
+#Rule:Verbs
+r2hopeVBP
+r2livesVBZ
+r2..VBG
+
+#Rule:Adjs
+r4longJJ
+
+#Rule:Adj-Noun
+r5longJJtimeNN
+
+#Rule:HeadNoun-V
+r11iPRPhopeVBP
+r11shePRPlivesVBZ
+
+#Rule:V-HeadNoun
+r21livesVBZtimeNN
+
+#Rule:SubVerbClause
+r50timeNN..VBG
+
+#Knowing how much English Bulldogs cost but more importantly knowing the close companion they can be.
+#(S1 (S (S (VP (VBG Knowing) (SBAR (WHADVP (WRB how) (RB much)) (S (NP (NNP English) (NNP Bulldogs)) (ADVP (NN cost) (CC but) (RBR more) (RB importantly)) (VP (VBG knowing) (NP (DT the) (JJ close) (NN companion))))))) (NP (PRP they)) (VP (MD can) (VP (AUX be))) (. .)))
+#Rule:Nouns
+r1English BulldogsOrganizationAnnotation
+r1costNN
+r1companionNN
+
+#Rule:Verbs
+r2knowingVBG
+r2knowingVBG
+
+#Rule:Adjs
+r4closeJJ
+
+#Rule:Adj-Noun
+r5closeJJcompanionNN
+
+#Rule:HeadNoun-V
+r11theyPRPbeAUX
+r11English BulldogsOrganizationAnnotationknowingVBG
+
+#Rule:V-HeadNoun
+r21knowingVBGcompanionNN
+
+#Rule:V-ADV
+r46knowingVBGimportantlyRB
+
+#Rule:SubVerbClause
+r50theyPRPknowingVBG
+
+@lemmas-left	need	congenital	they	ekg	knowing	determine	expectancy	disease	long	vet	close	time	life	nature	companion	..	she	rhythm	do	her	be	live	is	heart	it	know	cost	English Bulldogs	i	process	lives	hope	
+@lemmas-right	congenital	ekg	is	knowing	importantly	expectancy	as	long	know	vet	process	not	time	nature	companion	..	lives	rhythm	hope	be	live	
+@lemmas-center	if	in	

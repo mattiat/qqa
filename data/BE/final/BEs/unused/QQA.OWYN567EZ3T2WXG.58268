@@ -1,0 +1,51 @@
+#I don t use them because I have been fixed,(vasectomy) and I have a death wish to die in an asylum for sexual transmitted diseases.
+#(S1 (S (NP (PRP I)) (VP (VB don) (SBAR (S (NP (NNS t)) (VP (VBP use) (NP (PRP them)) (SBAR (IN because) (S (S (NP (PRP I)) (VP (AUX have) (VP (AUX been) (VP (VBN fixed) (PRN (, ,) (-LRB- -LRB-) (NP (NN vasectomy)) (-RRB- -RRB-)))))) (CC and) (S (NP (PRP I)) (VP (AUX have) (NP (NP (DT a) (NN death) (NN wish)) (SBAR (S (VP (TO to) (VP (VB die) (PP (IN in) (NP (NP (DT an) (NN asylum)) (PP (IN for) (NP (JJ sexual) (JJ transmitted) (NNS diseases)))))))))))))))))) (. .)))
+#Rule:Nouns
+r1tNNS
+r1vasectomyLocationAnnotation
+r1deathNN
+r1wishNN
+r1asylumNN
+r1diseasesNNS
+
+#Rule:Verbs
+r2donVB
+r2useVBP
+r2fixedVBN
+r2dieVB
+
+#Rule:Adjs
+r4sexualJJ
+r4transmittedJJ
+
+#Rule:Adj-Noun
+r5sexualJJdiseasesNNS
+r5transmittedJJdiseasesNNS
+
+#Rule:N-HeadNoun
+r8deathNNwishNN
+
+#Rule:HeadNoun-V
+r11iPRPdonVB
+r11tNNSuseVBP
+r11iPRPhaveAUX
+
+#Rule:HeadNoun-(who/that)-V
+r14wishNNdieVB
+
+#Rule:V-HeadNoun
+r21useVBPthemPRP
+r21haveAUXwishNN
+
+#Rule:V-HeadNoun(passive)
+r23fixedVBNiPRP
+
+#Rule:PPinNP
+r26asylumNNforINdiseasesNNS
+
+#Rule:PPinVP
+r30dieVBinINasylumNN
+
+@lemmas-left	don	have	wish	death	use	disease	diseases	fixed	i	asylum	transmitted	t	fix	die	sexual	vasectomy	
+@lemmas-right	asylum	don	have	wish	them	die	use	disease	diseases	i	
+@lemmas-center	for	in	

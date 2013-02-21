@@ -1,0 +1,75 @@
+#French People, no offense but French people are a mighty people but when it comes to wars, they are somewhat gay. 
+#(S1 (S (NP (JJ French) (NNS People)) (, ,) (S (NP (DT no) (NN offense) (CC but) (JJ French) (NNS people)) (VP (AUX are) (NP (DT a) (JJ mighty) (NNS people)))) (CC but) (S (SBAR (WHADVP (WRB when)) (S (NP (PRP it)) (VP (VBZ comes) (PP (TO to) (NP (NNS wars)))))) (, ,) (NP (PRP they)) (VP (AUX are) (ADJP (RB somewhat) (JJ gay)))) (. .)))
+#Rule:Nouns
+r1PeopleNNS
+r1offenseNN
+r1peopleNNS
+r1peopleNNS
+r1warsNNS
+
+#Rule:Verbs
+r2comesVBZ
+
+#Rule:Adjs
+r4FrenchJJ
+r4FrenchJJ
+r4mightyJJ
+r4gayJJ
+
+#Rule:Adj-Noun
+r5FrenchJJPeopleNNS
+r5FrenchJJpeopleNNS
+r5mightyJJpeopleNNS
+
+#Rule:HeadNoun-V
+r11peopleNNSareAUX
+r11theyPRPareAUX
+r11itPRPcomesVBZ
+
+#Rule:V-HeadNoun
+r21areAUXpeopleNNS
+
+#Rule:V-ADJ
+r25areAUXgayJJ
+
+#Rule:PPinVP
+r30comesVBZtoTOwarsNNS
+
+#Rule:(SBAR+WHADVP)inS
+r42areAUXwhenWRBcomesVBZ
+
+#Rule:IS-RULE
+r47peopleNNSpeopleNNS
+
+#I mean the French were poor on military at that time,...
+#(S1 (S (NP (PRP I)) (VP (VBP mean) (SBAR (S (NP (DT the) (NNPS French)) (VP (AUX were) (ADJP (JJ poor) (PP (IN on) (NP (NN military)))) (PP (IN at) (NP (DT that) (NN time))) (, ,) (ADVP (RB ..)))))) (. .)))
+#Rule:Nouns
+r1FrenchNNPS
+r1militaryNN
+r1timeNN
+
+#Rule:Verbs
+r2meanVBP
+
+#Rule:Adjs
+r4poorJJ
+
+#Rule:HeadNoun-V
+r11iPRPmeanVBP
+r11FrenchNNPSwereAUX
+
+#Rule:V-ADJ
+r25wereAUXpoorJJ
+
+#Rule:PPinVP
+r30wereAUXatINtimeNN
+
+#Rule:PPinADJP
+r37poorJJonINmilitaryNN
+
+#Rule:V-ADV
+r46wereAUX..RB
+
+@lemmas-left	they	it	French	poor	come	french	people	wars	comes	war	i	military	were	time	are	gay	mighty	mean	offense	People	be	
+@lemmas-right	poor	come	people	comes	wars	war	military	were	time	are	gay	..	mean	People	be	
+@lemmas-center	to	when	at	on	

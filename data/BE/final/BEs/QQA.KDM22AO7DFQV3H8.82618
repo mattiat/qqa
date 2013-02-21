@@ -1,0 +1,26 @@
+#you shud drink about half a gallon of water a day
+#(S1 (S (NP (PRP you)) (ADVP (RB shud)) (VP (VBP drink) (NP (NP (QP (IN about) (PDT half) (DT a) (NN gallon))) (PP (IN of) (NP (NN water)))) (NP (DT a) (NN day)))))
+#Rule:Nouns
+r1gallonNN
+r1waterNN
+r1dayNN
+
+#Rule:Verbs
+r2drinkVBP
+
+#Rule:HeadNoun-V
+r11youPRPdrinkVBP
+
+#Rule:V-HeadNoun
+r21drinkVBPaboutIN
+r21drinkVBPdayNN
+
+#Rule:PPinNP
+r26aboutINofINwaterNN
+
+#Rule:V-ADV
+r46drinkVBPshudRB
+
+@lemmas-left	water	gallon	drink	about	you	day	
+@lemmas-right	water	shud	drink	about	day	
+@lemmas-center	of	

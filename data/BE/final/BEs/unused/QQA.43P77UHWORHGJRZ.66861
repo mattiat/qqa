@@ -1,0 +1,54 @@
+#cancer cells have a unique proporties in which they can divide in uncontrolable manner and some can detach and travel throgh blood or lymphatic system  and effect other cells ,,,,,,
+#(S1 (S (NP (NN cancer) (NNS cells)) (VP (AUX have) (NP (NP (DT a) (JJ unique) (NN proporties)) (SBAR (WHPP (IN in) (WHNP (WDT which))) (S (S (NP (PRP they)) (VP (MD can) (VP (VB divide) (PP (IN in) (NP (JJ uncontrolable) (NN manner)))))) (CC and) (S (NP (DT some)) (VP (MD can) (VP (VP (VB detach) (CC and) (VB travel) (NP (JJ throgh) (NN blood) (CC or) (JJ lymphatic) (NN system))) (CC and) (VP (VB effect) (NP (JJ other) (NNS cells)) (ADVP (RB ,,,,,)))))))))) (, ,)))
+#Rule:Nouns
+r1cancerNN
+r1cellsNNS
+r1proportiesNN
+r1mannerNN
+r1bloodNN
+r1systemNN
+r1cellsNNS
+
+#Rule:Verbs
+r2divideVB
+r2detachVB
+r2travelVB
+r2effectVB
+
+#Rule:Adjs
+r4uniqueJJ
+r4uncontrolableJJ
+r4throghJJ
+r4lymphaticOrganizationAnnotation
+r4otherJJ
+
+#Rule:Adj-Noun
+r5uniqueJJproportiesNN
+r5uncontrolableJJmannerNN
+r5throghJJsystemNN
+r5lymphaticOrganizationAnnotationsystemNN
+r5otherJJcellsNNS
+
+#Rule:N-HeadNoun
+r8cancerNNcellsNNS
+
+#Rule:HeadNoun-V
+r11cellsNNShaveAUX
+r11theyPRPdivideVB
+r11someDTdetachVB
+r11someDTeffectVB
+
+#Rule:V-HeadNoun
+r21haveAUXproportiesNN
+r21detachVBsystemNN
+r21effectVBcellsNNS
+
+#Rule:PPinVP
+r30divideVBinINmannerNN
+
+#Rule:V-ADV
+r46effectVB,,,,,RB
+
+@lemmas-left	they	cells	uncontrolable	other	proporties	detach	unique	have	lymphatic	cell	divide	blood	travel	system	effect	manner	some	throgh	cancer	
+@lemmas-right	cells	system	detach	proporties	effect	,,,,,	have	cell	divide	manner	
+@lemmas-center	in	

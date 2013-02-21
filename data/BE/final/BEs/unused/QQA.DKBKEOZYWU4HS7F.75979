@@ -1,0 +1,85 @@
+#A power plant burns coal and i believe they boil water and make steam.. The steam turns a turbine which turns a motor which generates electricity..
+#(S1 (S (S (NP (DT A) (NN power) (NN plant)) (VP (VBZ burns) (NP (NN coal)))) (CC and) (S (S (NP (PRP i)) (VP (VBP believe) (S (NP (PRP they)) (VP (VP (NN boil) (NP (NN water))) (CC and) (VP (VB make) (NP (NN steam)))) (. .))) (. .)) (NP (DT The) (NN steam)) (VP (VBZ turns) (NP (NP (DT a) (NN turbine)) (SBAR (WHNP (WDT which)) (S (VP (VBZ turns) (NP (NP (DT a) (NN motor)) (SBAR (WHNP (WDT which)) (S (VP (VBZ generates) (NP (NN electricity))))))))))) (. .)) (. .)))
+#Rule:Nouns
+r1powerNN
+r1plantNN
+r1coalNN
+r1boilNN
+r1waterNN
+r1steamNN
+r1steamNN
+r1turbineNN
+r1motorNN
+r1electricityNN
+
+#Rule:Verbs
+r2burnsVBZ
+r2believeVBP
+r2makeVB
+r2turnsVBZ
+r2turnsVBZ
+r2generatesVBZ
+
+#Rule:N-HeadNoun
+r8powerNNplantNN
+
+#Rule:HeadNoun-V
+r11plantNNburnsVBZ
+r11steamNNturnsVBZ
+r11iLocationAnnotationbelieveVBP
+r11theyPRPmakeVB
+
+#Rule:HeadNoun-(who/that)-V
+r14turbineNNturnsVBZ
+r14motorNNgeneratesVBZ
+
+#Rule:V-HeadNoun
+r21burnsVBZcoalNN
+r21boilNNwaterNN
+r21makeVBsteamNN
+r21turnsVBZturbineNN
+r21turnsVBZmotorNN
+r21generatesVBZelectricityNN
+
+#Rule:V-HeadNoun
+r22believeVBPtheyPRP
+
+#Heat energy is transformed into mechanical energy which is then transformed into eletrical energy.
+#(S1 (S (NP (NN Heat) (NN energy)) (VP (AUX is) (VP (VBN transformed) (PP (IN into) (NP (NP (JJ mechanical) (NN energy)) (SBAR (WHNP (WDT which)) (S (VP (AUX is) (VP (ADVP (RB then)) (VBN transformed) (PP (IN into) (NP (JJ eletrical) (NN energy))))))))))) (. .)))
+#Rule:Nouns
+r1HeatNN
+r1energyNN
+r1energyNN
+r1energyNN
+
+#Rule:Verbs
+r2transformedVBN
+r2transformedVBN
+
+#Rule:Adjs
+r4mechanicalJJ
+r4eletricalJJ
+
+#Rule:Adj-Noun
+r5mechanicalJJenergyNN
+r5eletricalJJenergyNN
+
+#Rule:N-HeadNoun
+r8HeatNNenergyNN
+
+#Rule:V-(who/that)-HeadNoun
+r18transformedVBNenergyNN
+
+#Rule:V-HeadNoun(passive)
+r23transformedVBNenergyNN
+
+#Rule:PPinVP
+r32transformedVBNintoINenergyNN
+r32transformedVBNintoINenergyNN
+
+#Rule:V-ADV
+r46transformedVBNthenRB
+
+@lemmas-left	plant	they	turbine	generate	transformed	believe	turns	heat	transform	motor	coal	burns	power	mechanical	electricity	water	turn	generates	boil	i	Heat	eletrical	burn	make	energy	steam	
+@lemmas-right	plant	water	they	turn	generate	turbine	generates	believe	turns	motor	coal	then	burns	electricity	burn	make	energy	steam	
+@lemmas-center	into	

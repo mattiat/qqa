@@ -1,0 +1,196 @@
+#Interesting question, and you have some interesting responses. 
+#(S1 (S (S (NP (JJ Interesting)) (VP (VBP question))) (, ,) (CC and) (S (NP (PRP you)) (VP (AUX have) (NP (DT some) (JJ interesting) (NNS responses)))) (. .)))
+#Rule:Nouns
+r1responsesNNS
+
+#Rule:Verbs
+r2questionVBP
+
+#Rule:Adjs
+r4InterestingJJ
+r4interestingJJ
+
+#Rule:Adj-Noun
+r5interestingJJresponsesNNS
+
+#Rule:HeadNoun-V
+r11InterestingJJquestionVBP
+r11youPRPhaveAUX
+
+#Rule:V-HeadNoun
+r21haveAUXresponsesNNS
+
+#I have to agree that too much emphasis is placed on rote learning, rather than on understanding why something is happening. 
+#(S1 (S (NP (PRP I)) (VP (AUX have) (S (VP (TO to) (VP (VB agree) (SBAR (IN that) (S (NP (ADJP (RB too) (JJ much)) (NN emphasis)) (VP (AUX is) (VP (VBN placed) (PP (PP (IN on) (NP (JJ rote) (NN learning))) (, ,) (CONJP (RB rather) (IN than)) (PP (IN on) (S (VP (VBG understanding) (SBAR (WHADVP (WRB why)) (S (NP (NN something)) (VP (AUX is) (VP (VBG happening))))))))))))))))) (. .)))
+#Rule:Nouns
+r1emphasisNN
+r1learningNN
+r1somethingNN
+
+#Rule:Verbs
+r2agreeVB
+r2placedVBN
+r2understandingVBG
+r2happeningVBG
+
+#Rule:Adjs
+r4muchJJ
+r4roteJJ
+
+#Rule:Adj-Noun
+r5muchJJemphasisNN
+r5roteJJlearningNN
+
+#Rule:HeadNoun-V
+r11iPRPhaveAUX
+r11somethingNNhappeningVBG
+
+#Rule:V-HeadNoun(passive)
+r23placedVBNemphasisNN
+
+#Rule:V-IN-V
+r43agreeVBthatINplacedVBN
+
+#Another part of the problem is that many people are becoming less and less inclined to do their own thinking. 
+#(S1 (S (NP (NP (DT Another) (NN part)) (PP (IN of) (NP (DT the) (NN problem)))) (VP (AUX is) (SBAR (IN that) (S (NP (JJ many) (NNS people)) (VP (AUX are) (VP (VBG becoming) (ADJP (ADJP (JJR less)) (CC and) (ADJP (RBR less) (JJ inclined) (S (VP (TO to) (VP (AUX do) (NP (PRP$ their) (JJ own) (NN thinking)))))))))))) (. .)))
+#Rule:Nouns
+r1partNN
+r1problemNN
+r1peopleNNS
+r1thinkingNN
+
+#Rule:Verbs
+r2becomingVBG
+
+#Rule:Adjs
+r4manyJJ
+r4lessJJR
+r4inclinedJJ
+r4ownJJ
+
+#Rule:Adj-Noun
+r5manyJJpeopleNNS
+r5ownJJthinkingNN
+
+#Rule:PRP-Noun
+r6theirPRP$thinkingNN
+
+#Rule:HeadNoun-V
+r11partNNisAUX
+r11peopleNNSbecomingVBG
+
+#Rule:V-HeadNoun
+r21doAUXthinkingNN
+
+#Rule:PPinNP
+r26partNNofINproblemNN
+
+#Rule:V-IN-V
+r43isAUXthatINbecomingVBG
+
+#Witness the Entertainment Tonight and National Enquirerer; phenomenon. 
+#(S1 (S (VP (VB Witness) (NP (NP (DT the) (NNP Entertainment) (NNP Tonight)) (CC and) (NP (NP (NNP National) (NNP Enquirerer)) (: ;) (NP (NN phenomenon))))) (. .)))
+#Rule:Nouns
+r1the Entertainment TonightOrganizationAnnotation
+r1National EnquirererOrganizationAnnotation
+r1phenomenonPersonAnnotation
+
+#Rule:Verbs
+r2witnessVB
+
+#Rule:V-HeadNoun
+r21witnessVBthe Entertainment TonightOrganizationAnnotation
+
+#Bits of gossip and inuendo, chopped into 30 second bites, because the audience loses interest after 30 seconds and wants to move on to something else. 
+#(S1 (S (NP (NP (NNS Bits)) (PP (IN of) (NP (NN gossip) (CC and) (NN inuendo)))) (, ,) (VP (VBD chopped) (PP (IN into) (NP (CD 30) (JJ second) (NNS bites))) (, ,) (SBAR (IN because) (S (NP (DT the) (NN audience)) (VP (VP (VBZ loses) (NP (NN interest)) (PP (IN after) (NP (CD 30) (NNS seconds)))) (CC and) (VP (VBZ wants) (S (VP (TO to) (VP (VB move) (ADVP (RB on)) (PP (TO to) (NP (NP (NN something)) (ADJP (RB else)))))))))))) (. .)))
+#Rule:Nouns
+r1BitsNNS
+r1gossipLocationAnnotation
+r1inuendoNN
+r1bitesNNS
+r1audienceNN
+r1interestNN
+r1secondsNNS
+r1somethingNN
+
+#Rule:Verbs
+r2choppedVBD
+r2losesVBZ
+r2wantsVBZ
+r2moveVB
+
+#Rule:Adjs
+r4secondJJ
+
+#Rule:Adj-Noun
+r530CDbitesNNS
+r5secondJJbitesNNS
+r530CDsecondsNNS
+
+#Rule:HeadNoun-V
+r11BitsNNSchoppedVBD
+r11audienceNNlosesVBZ
+r11audienceNNwantsVBZ
+
+#Rule:V-HeadNoun
+r21losesVBZinterestNN
+
+#Rule:PPinNP
+r26BitsNNSofINgossipLocationAnnotation
+
+#Rule:PPinVP
+r30choppedVBDintoINbitesNNS
+r30losesVBZafterINsecondsNNS
+r30moveVBtoTOsomethingNN
+
+#Rule:V-IN-V
+r43choppedVBDbecauseINlosesVBZ
+r43choppedVBDbecauseINwantsVBZ
+
+#Rule:V-V
+r44wantsVBZmoveVB
+
+#Rule:V-ADV
+r46moveVBonRB
+
+#Why are they using Yahoo Answers? 
+#(S1 (SBARQ (WHADVP (WRB Why)) (SQ (AUX are) (NP (PRP they)) (VP (VBG using) (NP (NNP Yahoo) (NNS Answers)))) (. ?)))
+#Rule:Nouns
+r1YahooPersonAnnotation
+r1AnswersNNS
+
+#Rule:Verbs
+r2usingVBG
+
+#Rule:N-HeadNoun
+r8YahooPersonAnnotationAnswersNNS
+
+#Rule:V-HeadNoun
+r21usingVBGAnswersNNS
+
+#Perhaps because it is a medium so readily accessible, and so totally uncritical of content.
+#(S1 (FRAG (ADVP (RB Perhaps)) (SBAR (IN because) (S (NP (PRP it)) (VP (AUX is) (NP (NP (DT a) (NN medium)) (ADJP (ADJP (RB so) (RB readily) (JJ accessible)) (, ,) (CC and) (ADJP (RB so) (RB totally) (JJ uncritical) (PP (IN of) (NP (NN content))))))))) (. .)))
+#Rule:Nouns
+r1mediumNN
+r1contentNN
+
+#Rule:Adjs
+r4accessibleJJ
+r4uncriticalJJ
+
+#Rule:Adj-Noun
+r5accessibleJJmediumNN
+r5uncriticalJJmediumNN
+
+#Rule:HeadNoun-V
+r11itPRPisAUX
+
+#Rule:V-HeadNoun
+r21isAUXmediumNN
+
+#Rule:PPinADJP
+r37uncriticalJJofINcontentNN
+
+@lemmas-left	using	understand	second	become	Answers	people	becoming	phenomenon	loses	rote	Interesting	interest	something	happen	place	move	be	answer	wants	much	responses	content	many	bit	inclined	30	thinking	bite	bites	own	National Enquirerer	chop	have	use	understanding	Yahoo	witness	response	gossip	emphasis	accessible	do	question	interesting	placed	want	less	is	Bits	it	audience	happening	the Entertainment Tonight	problem	you	learning	medium	i	lose	chopped	seconds	uncritical	inuendo	part	their	agree	
+@lemmas-right	second	have	become	Answers	people	response	becoming	loses	gossip	interest	emphasis	on	something	question	place	happen	placed	move	want	be	is	happening	the Entertainment Tonight	answer	problem	learning	medium	wants	responses	content	lose	thinking	bite	seconds	chopped	bites	chop	
+@lemmas-center	because	to	after	of	that	into	

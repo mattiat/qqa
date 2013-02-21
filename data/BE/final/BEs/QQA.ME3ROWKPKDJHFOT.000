@@ -1,0 +1,62 @@
+#Tips Of How To Study??
+#(S1 (FRAG (NP (NP (NNS Tips)) (PP (IN Of) (SBAR (WHADVP (WRB How)) (S (VP (TO To) (VP (VB Study)))) (. ?)))) (. ?)))
+#Rule:Nouns
+r1Tips Of How To StudyOrganizationAnnotation
+
+#I need a little help! I cannot find a good way to study for my exams. I tried a lot of ways but i just can t find a good one!
+#(S1 (S (S (NP (PRP I)) (VP (AUX need) (NP (DT a) (JJ little) (NN help)))) (. !) (NP (PRP I)) (VP (VBP cannot) (S (VP (VB find) (NP (NP (DT a) (JJ good) (NN way)) (SBAR (S (VP (TO to) (VP (VB study) (PP (IN for) (NP (NP (PRP$ my) (NN exams.)) (SBAR (S (NP (PRP I)) (VP (VBD tried) (NP (NP (DT a) (NN lot)) (PP (IN of) (NP (NP (NNS ways)) (SBAR (S (CC but) (NP (PRP i)) (ADVP (RB just)) (VP (MD can) (ADVP (RB t)) (VP (VB find) (NP (DT a) (JJ good) (NN one)))))))))))))))))))))) (. !)))
+#Rule:Nouns
+r1helpNN
+r1wayNN
+r1examsNN
+r1lotNN
+r1waysNNS
+r1oneNN
+
+#Rule:Verbs
+r2cannotVBP
+r2findVB
+r2studyVB
+r2triedVBD
+r2findVB
+
+#Rule:Adjs
+r4littleJJ
+r4goodJJ
+r4goodJJ
+
+#Rule:Adj-Noun
+r5littleJJhelpNN
+r5goodJJwayNN
+r5goodJJoneNN
+
+#Rule:PRP-Noun
+r6myPRP$examsNN
+
+#Rule:HeadNoun-V
+r11iPRPcannotVBP
+r11iPRPneedAUX
+r11IPersonAnnotationtriedVBD
+r11iPersonAnnotationfindVB
+
+#Rule:HeadNoun-(who/that)-V
+r14wayNNstudyVB
+
+#Rule:V-HeadNoun
+r21needAUXhelpNN
+r21findVBwayNN
+r21triedVBDlotNN
+r21findVBoneNN
+
+#Rule:PPinNP
+r26lotNNofINwaysNNS
+
+#Rule:PPinVP
+r30studyVBforINexamsNN
+
+#Rule:V-ADV
+r46findVBtRB
+
+@lemmas-left	need	one	little	way	tried	good	study	I	my	cannot	i	help	lot	exams.	Tips Of How To Study	exams	find	try	ways	
+@lemmas-right	need	one	way	tried	study	cannot	help	t	lot	exams.	exams	try	find	ways	
+@lemmas-center	of	for	

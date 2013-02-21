@@ -1,0 +1,55 @@
+#Help put an end to Global warming. Go to www..
+#(S1 (S (VP (VB Help) (S (VP (VB put) (S (NP (NP (DT an) (NN end)) (PP (TO to) (NP (JJ Global) (NNS warming.)))) (VP (VB Go) (PP (TO to) (NP (CD www))) (. .)))))) (. .)))
+#Rule:Nouns
+r1endNN
+r1warmingNNS
+
+#Rule:Verbs
+r2helpVB
+r2putVB
+r2GoPersonAnnotation
+
+#Rule:Adjs
+r4GlobalJJ
+
+#Rule:Adj-Noun
+r5GlobalJJwarmingNNS
+
+#Rule:HeadNoun-V
+r11endNNGoPersonAnnotation
+
+#Rule:V-HeadNoun
+r22putVBendNN
+
+#Rule:PPinNP
+r26endNNtoTOwarmingNNS
+
+#Rule:PPinVP
+r30GoPersonAnnotationtoTOwww..LocationAnnotation
+
+#StopGlobalwarming.org        and sign up for your free membership.
+#(S1 (S (VP (VP (VB StopGlobalwarming.org)) (CC and) (VP (VB sign) (PRT (RP up)) (PP (IN for) (NP (PRP$ your) (JJ free) (NN membership))))) (. .)))
+#Rule:Nouns
+r1membershipNN
+
+#Rule:Verbs
+r2StopGlobalwarming.orgPersonAnnotation
+
+#Rule:V-PRT
+r3signVBupRP
+
+#Rule:Adjs
+r4freeJJ
+
+#Rule:Adj-Noun
+r5freeJJmembershipNN
+
+#Rule:PRP-Noun
+r6yourPRP$membershipNN
+
+#Rule:PPinVP
+r30signVBforINmembershipNN
+
+@lemmas-left	put	membership	global	your	Go	sign	warming.	help	free	warming	end	Global	StopGlobalwarming.org	
+@lemmas-right	warming.	membership	warming	www..	Go	end	up	
+@lemmas-center	to	for	

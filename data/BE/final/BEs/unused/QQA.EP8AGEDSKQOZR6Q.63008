@@ -1,0 +1,49 @@
+#try losing i when u take your children out like go hiking with them or when going on a picnic walk instead  of taking the bus  and if you are snacking to mush, try to snack less
+#(S1 (S (VP (VB try) (VP (VBG losing) (NP (PRP i)) (SBAR (SBAR (WHADVP (WRB when)) (S (NP (NNP u)) (VP (VP (VB take) (NP (PRP$ your) (NNS children))) (CONJP (RB out) (IN like)) (VP (VB go) (NP (NN hiking)) (PP (IN with) (NP (PRP them))))))) (CC or) (SBAR (WHADVP (WRB when)) (S (VP (VBG going) (PP (IN on) (NP (DT a) (NN picnic) (NN walk))) (PP (RB instead) (IN of) (S (VP (VBG taking) (NP (DT the) (NN bus)))))))) (CC and) (SBAR (IN if) (S (NP (PRP you)) (VP (AUX are) (VP (VBG snacking) (S (VP (TO to) (VP (VB mush)))))))) (, ,) (S (VP (VBP try) (S (VP (TO to) (VP (NN snack) (ADVP (RBR less))))))))))))
+#Rule:Nouns
+r1uNNP
+r1childrenNNS
+r1hikingNN
+r1picnicNN
+r1walkNN
+r1busNN
+r1snack lessPersonAnnotation
+
+#Rule:Verbs
+r2tryVB
+r2losingVBG
+r2takeVB
+r2goVB
+r2goingVBG
+r2takingVBG
+r2snackingVBG
+r2mushVB
+r2tryVBP
+
+#Rule:PRP-Noun
+r6yourPRP$childrenNNS
+
+#Rule:N-HeadNoun
+r8picnicNNwalkNN
+
+#Rule:HeadNoun-V
+r11uNNPtakeVB
+r11uNNPgoVB
+r11youPRPsnackingVBG
+
+#Rule:V-HeadNoun
+r21losingVBGiLocationAnnotation
+r21takeVBchildrenNNS
+r21goVBhikingNN
+r21takingVBGbusNN
+
+#Rule:PPinVP
+r30goVBwithINthemPRP
+r30goingVBGonINwalkNN
+
+#Rule:V-V
+r44snackingVBGmushVB
+
+@lemmas-left	mush	going	bus	your	losing	children	you	snack	snacking	taking	hiking	child	lose	u	take	snack less	walk	try	picnic	go	
+@lemmas-right	child	mush	bus	them	take	children	snack	walk	hiking	snacking	i	go	
+@lemmas-center	with	on	

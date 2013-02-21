@@ -1,0 +1,282 @@
+#sit down and breathe try and see why u r having do much stress. 
+#(S1 (S (VP (VP (VB sit) (ADVP (RB down))) (CC and) (VP (VB breathe) (VP (VB try) (CC and) (VB see) (SBAR (WHADVP (WRB why)) (S (NP (NNP u) (SYM r)) (VP (AUXG having) (VP (AUX do) (NP (JJ much) (NN stress))))))))) (. .)))
+#Rule:Nouns
+r1u rOrganizationAnnotation
+r1stressNN
+
+#Rule:Verbs
+r2sitVB
+r2breatheVB
+r2tryVB
+r2seeVB
+
+#Rule:Adjs
+r4muchJJ
+
+#Rule:Adj-Noun
+r5muchJJstressNN
+
+#Rule:HeadNoun-V
+r11u rOrganizationAnnotationdoAUX
+
+#Rule:V-HeadNoun
+r21doAUXstressNN
+
+#Rule:V-ADV
+r46sitVBdownRB
+
+#Is it bcuz u r procrastinating and mis managing yuor time. 
+#(S1 (SQ (AUX Is) (NP (PRP it)) (VP (VBG bcuz) (NP (NP (NNP u) (NN r) (NN procrastinating)) (CC and) (NP (NN mis))) (NP (VBG managing) (NN yuor) (NN time))) (. .)))
+#Rule:Nouns
+r1bcuz u rPersonAnnotation
+r1procrastinatingNN
+r1misNN
+r1yuorNN
+r1timeNN
+
+#Rule:Verbs
+r2managingVBG
+
+#Rule:Adj-Noun
+r5managingVBGtimeNN
+
+#Rule:N-HeadNoun
+r8bcuz u rPersonAnnotationprocrastinatingNN
+r8yuorNNtimeNN
+
+#Rule:V-HeadNoun
+r21bcuz u rPersonAnnotationtimeNN
+
+#Is it irresponsible ppl? 
+#(S1 (SQ (AUX Is) (NP (PRP it)) (ADJP (JJ irresponsible) (JJ ppl)) (. ?)))
+#Rule:Adjs
+r4irresponsibleJJ
+r4pplLocationAnnotation
+
+#Whateevr it is try and stop it like if its not paying your bills when u have the money and you spend it on shoes instead , don t do that bcuz the bills will keep piling up. 
+#(S1 (S (ADVP (RB Whateevr)) (NP (PRP it)) (VP (AUX is) (S (VP (VB try) (CC and) (VB stop) (NP (PRP it)) (PP (IN like) (S (PP (IN if) (NP (PRP$ its))) (RB not) (VP (VBG paying) (NP (PRP$ your) (NNS bills)) (SBAR (WHADVP (WRB when)) (S (S (NP (NNP u)) (VP (AUX have) (NP (DT the) (NN money)))) (CC and) (S (S (NP (PRP you)) (VP (VBP spend) (NP (PRP it)) (PP (IN on) (NP (NP (NNS shoes)) (ADVP (RB instead)))))) (, ,) (NP (NNP don) (NNP t)) (VP (AUX do) (RB that) (VP (VB bcuz) (SBAR (S (NP (DT the) (NNS bills)) (VP (MD will) (VP (VB keep) (S (VP (VBG piling) (PRT (RP up))))))))))))))))))) (. .)))
+#Rule:Nouns
+r1billsNNS
+r1uNNP
+r1moneyNN
+r1shoesNNS
+r1donLocationAnnotation
+r1tNNP
+r1billsNNS
+
+#Rule:Verbs
+r2tryVB
+r2stopVB
+r2payingVBG
+r2spendVBP
+r2bcuzPersonAnnotation
+r2keepVB
+
+#Rule:V-PRT
+r3pilingVBGupRP
+
+#Rule:PRP-Noun
+r6yourPRP$billsNNS
+
+#Rule:N-HeadNoun
+r8donLocationAnnotationtNNP
+
+#Rule:HeadNoun-V
+r11itPRPisAUX
+r11uNNPhaveAUX
+r11tNNPbcuzPersonAnnotation
+r11youPRPspendVBP
+r11billsNNSkeepVB
+
+#Rule:V-HeadNoun
+r21tryVBitPRP
+r21payingVBGbillsNNS
+r21haveAUXmoneyNN
+r21spendVBPitPRP
+
+#Rule:PPinVP
+r30spendVBPonINshoesNNS
+
+#Rule:PPinS
+r36payingVBGifINitsPRP$
+
+#Rule:V-ADV
+r46isAUXWhateevrRB
+r46doAUXthatRB
+
+#Is it kids constanly fighting? 
+#(S1 (SQ (AUX Is) (NP (PRP it)) (NP (NNS kids)) (ADVP (RB constanly)) (VP (VBG fighting)) (. ?)))
+#Rule:Nouns
+r1kidsNNS
+
+#Rule:Verbs
+r2fightingVBG
+
+#gET family counseling.is it due to loniliness? 
+#(S1 (SQ (VP (VB gET) (NP (NN family) (NN counseling.is))) (NP (PRP it)) (ADJP (JJ due) (PP (TO to) (NP (NN loniliness)))) (. ?)))
+#Rule:Nouns
+r1familyNN
+r1counseling.isNN
+r1lonilinessLocationAnnotation
+
+#Rule:Verbs
+r2getVB
+
+#Rule:Adjs
+r4dueJJ
+
+#Rule:N-HeadNoun
+r8familyNNcounseling.isNN
+
+#Rule:V-HeadNoun
+r21getVBcounseling.isNN
+
+#Rule:PPinADJP
+r37dueJJtoTOlonilinessLocationAnnotation
+
+#try and reach out to others, talk to a counselor or psychiatrist..they have seen it all, u don t have to take meds if u don t need them. 
+#(S1 (S (VP (VP (VB try) (CC and) (VB reach) (PRT (RP out)) (PP (TO to) (NP (NNS others)))) (, ,) (VP (VB talk) (PP (TO to) (NP (DT a) (NN counselor)))) (CC or) (VP (VB psychiatrist) (NP (NP (NNS ..)) (SBAR (S (NP (PRP they)) (VP (AUX have) (VP (VBN seen) (NP (NP (PRP it)) (NP (NP (DT all)) (, ,) (SBAR (S (NP (NNP u) (NNP don) (NNS t)) (VP (AUX have) (S (VP (TO to) (VP (VB take) (NP (NNS meds)) (SBAR (IN if) (S (NP (NNP u) (NNP don) (NNP t)) (VP (AUX need) (NP (PRP them)))))))))))))))))))) (. .)))
+#Rule:Nouns
+r1othersNNS
+r1counselorNN
+r1..NNS
+r1u donLocationAnnotation
+r1tNNS
+r1medsNNS
+r1u donLocationAnnotation
+r1tNNP
+
+#Rule:Verbs
+r2tryVB
+r2talkVB
+r2psychiatristVB
+r2seenVBN
+r2takeVB
+
+#Rule:V-PRT
+r3tryVBoutRP
+
+#Rule:N-HeadNoun
+r8u donLocationAnnotationtNNS
+r8u donLocationAnnotationtNNP
+
+#Rule:HeadNoun-V
+r11tNNShaveAUX
+r11tNNPneedAUX
+
+#Rule:HeadNoun-V
+r12theyPRPseenVBN
+
+#Rule:V-HeadNoun
+r21psychiatristVB..NNS
+r21seenVBNitPRP
+r21takeVBmedsNNS
+r21needAUXthemPRP
+
+#Rule:PPinVP
+r30tryVBtoTOothersNNS
+r30talkVBtoTOcounselorNN
+
+#Rule:V-IN-V
+r43takeVBifINneedAUX
+
+#U can just go to vent and work out a game plan on wat can help u , and wat it is thats causing the stress. 
+#(S1 (S (NP (NNP U)) (VP (MD can) (ADVP (RB just)) (VP (VB go) (S (VP (TO to) (VP (VB vent) (CC and) (VB work) (PRT (RP out)) (NP (DT a) (NN game) (NN plan)) (PP (IN on) (NP (NP (NN wat)) (SBAR (S (VP (MD can) (VP (VP (VB help) (NP (NNP u))) (, ,) (CC and) (VP (VB wat) (SBAR (S (NP (PRP it)) (VP (AUX is) (ADVP (RB thats)) (VP (VBG causing) (NP (DT the) (NN stress)))))))))))))))))) (. .)))
+#Rule:Nouns
+r1UNNP
+r1gameNN
+r1planNN
+r1watNN
+r1uLocationAnnotation
+r1stressNN
+
+#Rule:Verbs
+r2goVB
+r2ventVB
+r2helpVB
+r2watVB
+r2causingVBG
+
+#Rule:V-PRT
+r3ventVBoutRP
+
+#Rule:N-HeadNoun
+r8gameNNplanNN
+
+#Rule:HeadNoun-V
+r11UNNPgoVB
+r11itPRPcausingVBG
+
+#Rule:HeadNoun-(who/that)-V
+r14watNNhelpVB
+r14watNNwatVB
+
+#Rule:V-HeadNoun
+r21ventVBplanNN
+r21helpVBuLocationAnnotation
+r21causingVBGstressNN
+
+#Rule:PPinVP
+r30ventVBonINwatNN
+
+#Rule:V-V
+r44goVBventVB
+
+#Rule:V-ADV
+r46goVBjustRB
+r46isAUXthatsRB
+r46causingVBGthatsRB
+
+#Also go to church and pray and think of positive out comes not negative things and put downs. 
+#(S1 (S (S (ADVP (RB Also)) (VP (VP (VB go) (PP (TO to) (NP (NN church) (CC and) (NN pray)))) (CC and) (VP (VB think) (PP (IN of) (ADJP (JJ positive))) (ADVP (RB out))))) (VP (VBZ comes) (NP (NP (ADJP (RB not) (JJ negative)) (NNS things)) (CC and) (NP (JJ put) (NNS downs)))) (. .)))
+#Rule:Nouns
+r1churchNN
+r1prayNN
+r1thingsNNS
+r1downsNNS
+
+#Rule:Verbs
+r2goVB
+r2thinkVB
+r2comesVBZ
+
+#Rule:Adjs
+r4positiveJJ
+r4negativeJJ
+r4putJJ
+
+#Rule:Adj-Noun
+r5negativeJJthingsNNS
+r5putJJdownsNNS
+
+#Rule:V-HeadNoun
+r21comesVBZthingsNNS
+
+#Rule:PPinVP
+r30goVBtoTOchurchNN
+
+#Rule:V-ADV
+r46thinkVBoutRB
+
+#Work on building self confidence and self esteem.
+#(S1 (S (VP (VB Work) (PP (IN on) (S (VP (VBG building) (NP (NP (NN self) (NN confidence)) (CC and) (NP (NN self) (NN esteem))))))) (. .)))
+#Rule:Nouns
+r1selfNN
+r1confidenceNN
+r1selfNN
+r1esteemNN
+
+#Rule:Verbs
+r2workVB
+r2buildingVBG
+
+#Rule:N-HeadNoun
+r8selfNNconfidenceNN
+r8selfNNesteemNN
+
+#Rule:V-HeadNoun
+r21buildingVBGconfidenceNN
+
+@lemmas-left	need	causing	they	cause	don	fight	counselor	managing	manage	procrastinating	kid	bcuz u r	help	time	family	..	bcuz	loniliness	pray	yuor	positive	paying	be	work	shoes	think	others	breathe	church	get	stress	kids	comes	much	ppl	due	fighting	irresponsible	try	go	bills	med	stop	put	bill	u don	have	self	meds	build	wat	U	u r	money	pay	psychiatrist	do	pile	mi	talk	procrastinate	building	is	it	mis	vent	your	esteem	come	you	confidence	game	seen	piling	spend	i	counseling.is	sit	u	t	plan	see	take	downs	negative	down	things	keep	
+@lemmas-right	need	causing	thats	cause	counselor	its	procrastinating	time	help	..	bcuz	loniliness	be	shoes	others	church	stress	that	them	bills	go	med	bill	have	meds	wat	money	do	just	procrastinate	is	it	Whateevr	vent	esteem	confidence	seen	counseling.is	i	spend	up	u	t	see	plan	whateevr	downs	down	things	keep	out	
+@lemmas-center	to	if	on	

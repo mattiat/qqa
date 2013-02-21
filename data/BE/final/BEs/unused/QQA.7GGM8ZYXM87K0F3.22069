@@ -1,0 +1,24 @@
+#Out of his fervent belief that the United States can not be defeated.
+#(S1 (SINV (PP (IN Out) (PP (IN of) (NP (PRP$ his) (JJ fervent) (NN belief)))) (SBAR (IN that) (S (NP (DT the) (NNP United) (NNPS States)) (VP (MD can) (RB not) (VP (AUX be) (VP (VBN defeated)))))) (. .)))
+#Rule:Nouns
+r1beliefNN
+r1United StatesLocationAnnotation
+
+#Rule:Verbs
+r2defeatedVBN
+
+#Rule:Adjs
+r4ferventJJ
+
+#Rule:Adj-Noun
+r5ferventJJbeliefNN
+
+#Rule:PRP-Noun
+r6hisPRP$beliefNN
+
+#Rule:V-HeadNoun(passive)
+r23defeatedVBNUnited StatesLocationAnnotation
+
+@lemmas-left	United States	defeat	defeated	belief	his	fervent	
+@lemmas-right	United States	belief	
+@lemmas-center	

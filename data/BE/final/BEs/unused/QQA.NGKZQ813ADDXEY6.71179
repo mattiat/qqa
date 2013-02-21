@@ -1,0 +1,105 @@
+#Because the Big Bang Theory was based on scientificially based evidence and used techniques such as inference and peer review in order to conform to the scientific method and obtain the best possible answer given the known data. 
+#(S1 (S (NP (RB Because) (DT the) (NNP Big) (NNP Bang) (NNP Theory)) (VP (AUX was) (VP (VP (VBN based) (PP (IN on) (NP (ADJP (RB scientificially) (VBN based)) (NN evidence)))) (CC and) (VP (VBN used) (NP (NP (NNS techniques)) (PP (JJ such) (IN as) (NP (NN inference) (CC and) (NN peer) (NN review))))) (SBAR (IN in) (NN order) (S (VP (TO to) (VP (VP (VB conform) (PP (TO to) (NP (DT the) (JJ scientific) (NN method)))) (CC and) (VP (VB obtain) (NP (DT the) (ADJP (JJS best) (JJ possible)) (NN answer)) (PP (VBN given) (NP (DT the) (VBN known) (NNS data)))))))))) (. .)))
+#Rule:Nouns
+r1Big Bang TheoryOrganizationAnnotation
+r1evidenceNN
+r1techniquesNNS
+r1inferenceNN
+r1peerNN
+r1reviewNN
+r1orderNN
+r1methodNN
+r1answerNN
+r1dataNNS
+
+#Rule:Verbs
+r2basedVBN
+r2basedVBN
+r2usedVBN
+r2conformVB
+r2obtainVB
+r2givenVBN
+r2knownVBN
+
+#Rule:Adjs
+r4suchJJ
+r4scientificJJ
+r4bestJJS
+r4possibleJJ
+
+#Rule:Adj-Noun
+r5basedVBNevidenceNN
+r5scientificJJmethodNN
+r5bestJJSanswerNN
+r5possibleJJanswerNN
+r5knownVBNdataNNS
+
+#Rule:N-HeadNoun
+r8peerNNreviewNN
+
+#Rule:V-HeadNoun
+r21usedVBNtechniquesNNS
+r21obtainVBanswerNN
+
+#Rule:V-HeadNoun(passive)
+r23basedVBNBig Bang TheoryOrganizationAnnotation
+r23usedVBNBig Bang TheoryOrganizationAnnotation
+
+#Rule:PPinNP
+r26techniquesNNSasINreviewNN
+
+#Rule:PPinVP
+r30conformVBtoTOmethodNN
+
+#Rule:PPinVP
+r32basedVBNonINevidenceNN
+
+#Rule:V-IN-V
+r43basedVBNinINconformVB
+r43basedVBNinINobtainVB
+
+#The Holy Books beginning stories are a mixture of assumptions, shallow logic and glorified fabrication.
+#(S1 (S (NP (DT The) (NNP Holy) (NNP Books) (NN beginning) (NNS stories)) (VP (AUX are) (NP (NP (DT a) (NN mixture)) (PP (IN of) (NP (NP (NNS assumptions)) (, ,) (NP (NN shallow) (NN logic)) (CC and) (NP (JJ glorified) (NN fabrication)))))) (. .)))
+#Rule:Nouns
+r1HolyOrganizationAnnotation
+r1BooksNNP
+r1beginningNN
+r1storiesNNS
+r1mixtureNN
+r1assumptionsNNS
+r1shallowNN
+r1logicNN
+r1fabricationNN
+
+#Rule:Adjs
+r4glorifiedJJ
+
+#Rule:Adj-Noun
+r5glorifiedJJfabricationNN
+
+#Rule:N-HeadNoun
+r8beginningNNstoriesNNS
+r8BooksNNPstoriesNNS
+r8HolyOrganizationAnnotationstoriesNNS
+r8shallowNNlogicNN
+
+#Rule:N-ApposN
+r10assumptionsNNSlogicNN
+
+#Rule:HeadNoun-V
+r11storiesNNSareAUX
+
+#Rule:V-HeadNoun
+r21areAUXmixtureNN
+
+#Rule:PPinNP
+r26mixtureNNofINassumptionsNNS
+r26mixtureNNofINlogicNN
+r26mixtureNNofINfabricationNN
+
+#Rule:IS-RULE
+r47mixtureNNstoriesNNS
+
+@lemmas-left	technique	Big Bang Theory	inference	give	evidence	data	use	techniques	used	story	possible	are	order	given	best	be	glorified	peer	beginning	such	shallow	fabrication	Holy	answer	know	logic	obtain	stories	conform	Books	assumptions	assumption	mixture	book	base	scientific	method	known	based	review	
+@lemmas-right	technique	Big Bang Theory	evidence	answer	data	fabrication	techniques	logic	story	obtain	are	stories	conform	assumptions	assumption	mixture	method	review	be	
+@lemmas-center	to	of	on	as	in	

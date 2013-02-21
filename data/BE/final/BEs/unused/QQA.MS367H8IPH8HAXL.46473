@@ -1,0 +1,101 @@
+#Hulk Hogan - Ehh. a 6.Ric Flair - 7.Roddy Piper - Don t knowUltimate Warrior - Don t knowBret Hart - 7Shawn Michaels - 9.5Stone Cold - 10The Rock - 8Triple H - 10Chris Benoit - 9Eddie Guerrero - Never watched him wrestle. 
+#(S1 (S (NP (NP (NN Hulk) (NNP Hogan)) (: -) (NP (NP (NNP Ehh.)) (NP (DT a) (JJ 6.Ric) (NN Flair))) (: -) (NP (JJ 7.Roddy) (NNP Piper)) (: -) (NP (NNP Don) (NNP t) (NN knowUltimate) (NN Warrior)) (: -) (NP (NNP Don) (NNP t) (NN knowBret) (NNP Hart)) (: -) (NP (JJ 7Shawn) (NNP Michaels)) (: -) (JJ 9.5Stone) (NP (NNP Cold)) (: -) (NP (NN 10The) (NNP Rock)) (: -) (NP (JJ 8Triple) (NNP H)) (: -) (ADVP (FW 10Chris) (FW Benoit)) (: -) (NP (JJ 9Eddie) (NNP Guerrero)) (: -)) (ADVP (RB Never)) (VP (VBD watched) (S (NP (PRP him)) (VP (VB wrestle)))) (. .)))
+#Rule:Nouns
+r1Hulk HoganPersonAnnotation
+r1EhhLocationAnnotation
+r1Ric FlairPersonAnnotation
+r1Roddy PiperPersonAnnotation
+r1Don tPersonAnnotation
+r1knowUltimateNN
+r1WarriorNN
+r1DonNNP
+r1tNNP
+r1knowBretNN
+r1HartPersonAnnotation
+r17Shawn MichaelsOrganizationAnnotation
+r1ColdNNP
+r110TheNN
+r1RockNNP
+r1HNNP
+r19Eddie GuerreroPersonAnnotation
+
+#Rule:Verbs
+r2watchedVBD
+r2wrestleVB
+
+#Rule:Adjs
+r46.RicJJ
+r47.RoddyJJ
+r49.5StoneJJ
+r48TripleJJ
+
+#Rule:Adj-Noun
+r59.5StoneJJHulk HoganPersonAnnotation
+r56.RicJJRic FlairPersonAnnotation
+r57.RoddyJJRoddy PiperPersonAnnotation
+r58TripleJJHNNP
+
+#Rule:N-HeadNoun
+r8knowUltimateNNWarriorNN
+r8Don tPersonAnnotationWarriorNN
+r8knowBretNNHartPersonAnnotation
+r8tNNPHartPersonAnnotation
+r8DonNNPHartPersonAnnotation
+r810TheNNRockNNP
+
+#Rule:HeadNoun-V
+r11Hulk HoganPersonAnnotationwatchedVBD
+r11EhhLocationAnnotationwatchedVBD
+r11Ric FlairPersonAnnotationwatchedVBD
+r11Roddy PiperPersonAnnotationwatchedVBD
+r11WarriorNNwatchedVBD
+r11HartPersonAnnotationwatchedVBD
+r117Shawn MichaelsOrganizationAnnotationwatchedVBD
+r11ColdNNPwatchedVBD
+r11RockNNPwatchedVBD
+r11HNNPwatchedVBD
+r119Eddie GuerreroPersonAnnotationwatchedVBD
+r11himPRPwrestleVB
+
+#Rule:V-HeadNoun
+r22watchedVBDhimPRP
+
+#Rule:V-ADV
+r46watchedVBDNeverRB
+
+#(Even though he s dead.)Undertaker - 10Kane - 9John Cena - 2Randy Orton - 3Batista - 7Mr. 
+#(S1 (S (-LRB- -LRB-) (ADVP (RB Even) (RB though)) (NP (PRP he)) (VP (VBZ s) (NP (NP (NNP dead.) (-RRB- -RRB-) (NNP Undertaker)) (: -) (NP (NP (CD 10Kane)) (: -) (NP (NNP 9John) (NNP Cena)) (: -) (NP (JJ 2Randy) (NNP Orton)) (: -) (NP (NN 3Batista)) (: -) (NP (CD 7Mr))))) (. .)))
+#Rule:Nouns
+r1s deLocationAnnotation
+r1UndertakerNNP
+r19John CenaPersonAnnotation
+r12Randy Orton - 3BatistaOrganizationAnnotation
+
+#Rule:HeadNoun-V
+r11hePRPs deLocationAnnotation
+
+#Rule:V-HeadNoun
+r21s deLocationAnnotationUndertakerNNP
+
+#Rule:V-ADV
+r46s deLocationAnnotationEvenRB
+r46s deLocationAnnotationthoughRB
+
+#Kennedy - 1The Great Khali - 5Big Show - 4
+#(S1 (FRAG (NP (NNP Kennedy)) (: -) (NP (NP (NN 1The) (NNP Great) (NNP Khali)) (: -) (NP (NNP 5Big) (NNP Show)) (: -) (NP (CD 4)))))
+#Rule:Nouns
+r1KennedyPersonAnnotation
+r11TheNN
+r1GreatNNP
+r1KhaliPersonAnnotation
+r15BigNNP
+r1ShowNNP
+
+#Rule:N-HeadNoun
+r8GreatNNPKhaliPersonAnnotation
+r81TheNNKhaliPersonAnnotation
+r85BigNNPShowNNP
+
+@lemmas-left	2Randy Orton - 3Batista	don	stone	show	rock	him	s de	undertaker	7.Roddy	cold	Rock	1The	watch	Show	Hart	Undertaker	6.ric	7.roddy	he	knowBret	warrior	Great	Ehh	knowUltimate	big	8Triple	Don t	knowultimate	9John Cena	H	watched	wrestle	10the	7Shawn Michaels	6.Ric	Cold	triple	9Eddie Guerrero	Kennedy	10The	Warrior	1the	Roddy Piper	knowbret	h	5Big	Hulk Hogan	t	great	Khali	Don	Ric Flair	9.5Stone	
+@lemmas-right	rock	show	him	H	though	wrestle	watched	s de	undertaker	Rock	Even	Warrior	Roddy Piper	Never	watch	Hart	Show	Undertaker	h	warrior	Hulk Hogan	never	Khali	even	Ric Flair	
+@lemmas-center	

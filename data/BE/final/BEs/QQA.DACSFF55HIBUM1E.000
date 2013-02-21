@@ -1,0 +1,21 @@
+#How to naturally lower blood pressure?
+#(S1 (FRAG (SBAR (WHADVP (WRB How)) (S (VP (TO to) (VP (ADVP (RB naturally)) (VB lower) (NP (NN blood) (NN pressure)))))) (. ?)))
+#Rule:Nouns
+r1bloodNN
+r1pressureNN
+
+#Rule:Verbs
+r2lowerVB
+
+#Rule:N-HeadNoun
+r8bloodNNpressureNN
+
+#Rule:V-HeadNoun
+r21lowerVBpressureNN
+
+#Rule:V-ADV
+r46lowerVBnaturallyRB
+
+@lemmas-left	lower	pressure	blood	
+@lemmas-right	pressure	naturally	
+@lemmas-center	

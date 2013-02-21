@@ -1,0 +1,35 @@
+#If you did a search, you wouldn t have to ask this question again, but thanks for the easy 2 points.
+#(S1 (S (SBAR (IN If) (S (NP (PRP you)) (VP (AUX did) (NP (DT a) (NN search))))) (, ,) (S (NP (PRP you)) (VP (MD wouldn) (RB t) (VP (AUX have) (S (VP (TO to) (VP (VB ask) (NP (DT this) (NN question)) (ADVP (RB again)))))))) (, ,) (CC but) (S (NP (NP (NNS thanks)) (PP (IN for) (NP (DT the) (JJ easy) (CD 2) (NNS points))))) (. .)))
+#Rule:Nouns
+r1searchNN
+r1questionNN
+r1thanksNNS
+r1pointsNNS
+
+#Rule:Verbs
+r2askVB
+
+#Rule:Adjs
+r4easyJJ
+
+#Rule:Adj-Noun
+r5easyJJpointsNNS
+r52CDpointsNNS
+
+#Rule:HeadNoun-V
+r11youPRPdidAUX
+r11youPRPhaveAUX
+
+#Rule:V-HeadNoun
+r21didAUXsearchNN
+r21askVBquestionNN
+
+#Rule:PPinNP
+r26thanksNNSforINpointsNNS
+
+#Rule:V-ADV
+r46askVBagainRB
+
+@lemmas-left	2	point	thanks	easy	search	did	do	you	points	question	ask	
+@lemmas-right	point	search	have	again	did	do	question	points	
+@lemmas-center	for	

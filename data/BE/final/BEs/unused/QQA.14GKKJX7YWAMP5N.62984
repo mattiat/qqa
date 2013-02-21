@@ -1,0 +1,27 @@
+#you shouldn t be feeling pain afaik. maybe see a doctor?
+#(S1 (S (NP (PRP you)) (VP (MD shouldn) (RB t) (VP (AUX be) (VP (VBG feeling) (SBAR (S (NP (NN pain) (NNS afaik.)) (ADVP (RB maybe)) (VP (VB see) (NP (DT a) (NN doctor)))))))) (. ?)))
+#Rule:Nouns
+r1painNN
+r1afaikLocationAnnotation
+r1doctorNN
+
+#Rule:Verbs
+r2feelingVBG
+r2seeVB
+
+#Rule:N-HeadNoun
+r8painNNafaikLocationAnnotation
+
+#Rule:HeadNoun-V
+r11youPRPfeelingVBG
+r11afaikLocationAnnotationseeVB
+
+#Rule:V-HeadNoun
+r21seeVBdoctorNN
+
+#Rule:V-ADV
+r46seeVBmaybeRB
+
+@lemmas-left	feel	see	feeling	pain	you	afaik	doctor	
+@lemmas-right	feel	maybe	see	feeling	afaik	doctor	
+@lemmas-center	

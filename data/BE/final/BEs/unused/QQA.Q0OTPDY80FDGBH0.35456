@@ -1,0 +1,26 @@
+#Use a douche..
+#(S1 (S (VP (VB Use) (NP (DT a) (NN douche)) (. .)) (. .)))
+#Rule:Nouns
+r1douche..LocationAnnotation
+
+#Rule:Verbs
+r2useVB
+
+#Rule:V-HeadNoun
+r21useVBdouche..LocationAnnotation
+
+#They are cheap,and effective.
+#(S1 (S (NP (PRP They)) (VP (AUX are) (ADJP (ADJP (JJ cheap)) (, ,) (CC and) (ADJP (JJ effective)))) (. .)))
+#Rule:Adjs
+r4cheapJJ
+r4effectiveJJ
+
+#Rule:HeadNoun-V
+r11theyPRPareAUX
+
+#Rule:V-ADJ
+r25areAUXcheapJJ
+
+@lemmas-left	douche..	they	are	use	cheap	effective	be	
+@lemmas-right	douche..	are	cheap	be	
+@lemmas-center	

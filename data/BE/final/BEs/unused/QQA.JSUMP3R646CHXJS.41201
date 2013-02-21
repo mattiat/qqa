@@ -1,0 +1,234 @@
+#Although I understand what you are saying, I must point out that my children, nor I, suffer from social rejection..
+#(S1 (S (SBAR (IN Although) (S (NP (PRP I)) (VP (VBP understand) (SBAR (WHNP (WP what)) (S (NP (PRP you)) (VP (AUX are) (VP (VBG saying)))))))) (, ,) (NP (PRP I)) (VP (MD must) (VP (VB point) (PRT (RP out)) (SBAR (IN that) (S (NP (PRP$ my) (NNS children) (, ,) (CC nor) (NP (PRP I)) (, ,)) (VP (VBP suffer) (PP (IN from) (NP (JJ social) (NN rejection)))) (. .))))) (. .)))
+#Rule:Nouns
+r1childrenNNS
+r1rejectionNN
+
+#Rule:Verbs
+r2understandVBP
+r2sayingVBG
+r2sufferVBP
+
+#Rule:V-PRT
+r3pointVBoutRP
+
+#Rule:Adjs
+r4socialJJ
+
+#Rule:Adj-Noun
+r5socialJJrejectionNN
+
+#Rule:PRP-Noun
+r6myPRP$childrenNNS
+
+#Rule:HeadNoun-V
+r11iPRPpointVB
+r11IOrganizationAnnotationunderstandVBP
+r11youPRPsayingVBG
+r11childrenNNSsufferVBP
+r11IOrganizationAnnotationsufferVBP
+
+#Rule:PPinVP
+r30sufferVBPfromINrejectionNN
+
+#Rule:V-IN-V
+r43pointVBthatINsufferVBP
+
+#Are we criticized? yesAre we judged? yesAre people hostile or angry toward us? yesAre we made fun of? yesDo we suffer? no..
+#(S1 (SQ (SQ (AUX Are) (NP (PRP we)) (VP (VBD criticized)) (. ?) (RB yesAre) (NP (PRP we)) (VP (VBN judged)) (. ?)) (VP (VB yesAre) (S (NP (NP (NNS people)) (ADJP (JJ hostile) (CC or) (JJ angry) (PP (IN toward) (NP (PRP us)))) (. ?)) (VP (VB yesAre) (SBAR (S (NP (PRP we)) (VP (VBD made) (NP (NN fun)) (PP (IN of)))))) (. ?))) (VP (VB yesDo) (S (NP (PRP we)) (VP (VB suffer) (INTJ (. ?) (UH no) (. .))))) (. .)))
+#Rule:Nouns
+r1peopleNNS
+r1funNN
+
+#Rule:Verbs
+r2criticizedVBD
+r2judgedVBN
+r2yesareVB
+r2yesareVB
+r2madeVBD
+r2yesDoPersonAnnotation
+r2sufferVB
+
+#Rule:Adjs
+r4hostileJJ
+r4angryJJ
+
+#Rule:Adj-Noun
+r5hostileJJpeopleNNS
+r5angryJJpeopleNNS
+
+#Rule:HeadNoun-V
+r11peopleNNSyesareVB
+r11wePRPmadeVBD
+r11wePRPsufferVB
+
+#Rule:V-HeadNoun
+r21madeVBDfunNN
+
+#Rule:V-HeadNoun
+r22yesareVBpeopleNNS
+r22yesDoPersonAnnotationwePRP
+
+#Rule:PPinADJP
+r37hostileJJtowardINusPRP
+
+#It makes us stronger..
+#(S1 (S (NP (PRP It)) (VP (VBZ makes) (S (NP (PRP us)) (ADJP (RBR stronger)) (. .))) (. .)))
+#Rule:Verbs
+r2makesVBZ
+
+#Rule:HeadNoun-V
+r11itPRPmakesVBZ
+
+#Rule:V-HeadNoun
+r22makesVBZusPRP
+
+#My favorite quote (non biblical) is by Walt Whitman:Have you learned the lessons only of those that admired you and were tender with you and stood aside for you??
+#(S1 (S (S (NP (NP (PRP$ My) (JJ favorite) (NN quote)) (PRN (-LRB- -LRB-) (NP (NN non) (NN biblical)) (-RRB- -RRB-))) (VP (AUX is) (PP (IN by) (NP (NNP Walt) (NNP Whitman))))) (: :) (SQ (AUX Have) (NP (PRP you)) (VP (VP (VBD learned) (NP (DT the) (NNS lessons)) (PP (RB only) (IN of) (NP (NP (DT those)) (SBAR (WHNP (WDT that)) (S (VP (VP (VBD admired) (NP (PRP you))) (CC and) (VP (AUX were) (NP (NN tender)) (PP (IN with) (NP (PRP you)))))))))) (CC and) (VP (VBD stood) (ADVP (RB aside)) (PP (IN for) (NP (PRP you))))) (. ?)) (. ?)))
+#Rule:Nouns
+r1quoteNN
+r1nonNN
+r1biblicalOrganizationAnnotation
+r1Walt WhitmanPersonAnnotation
+r1lessonsNNS
+r1tenderNN
+
+#Rule:Verbs
+r2learnedVBD
+r2admiredVBD
+r2stoodVBD
+
+#Rule:Adjs
+r4favoriteJJ
+
+#Rule:Adj-Noun
+r5favoriteJJquoteNN
+
+#Rule:PRP-Noun
+r6myPRP$quoteNN
+
+#Rule:N-HeadNoun
+r8nonNNbiblicalOrganizationAnnotation
+
+#Rule:HeadNoun-V
+r11quoteNNisAUX
+
+#Rule:HeadNoun-(who/that)-V
+r14thoseDTadmiredVBD
+r14thoseDTwereAUX
+
+#Rule:V-HeadNoun
+r21learnedVBDlessonsNNS
+r21admiredVBDyouPRP
+r21wereAUXtenderNN
+
+#Rule:PPinVP
+r30isAUXbyINWalt WhitmanPersonAnnotation
+r30learnedVBDofINthoseDT
+r30wereAUXwithINyouPRP
+r30stoodVBDforINyouLocationAnnotation
+
+#Rule:V-ADV
+r46stoodVBDasideRB
+
+#Have you not learned great lessons from those that braced themselves against you and disputed passage with you??
+#(S1 (SQ (SQ (AUX Have) (NP (PRP you)) (VP (RB not) (VBN learned) (NP (JJ great) (NNS lessons)) (PP (IN from) (NP (NP (DT those)) (VP (DT that) (VP (VBN braced) (NP (PRP themselves)) (PP (IN against) (NP (PRP you)))) (CC and) (VP (VBN disputed) (NP (NN passage)) (PP (IN with) (NP (PRP you)))))))) (. ?)) (. ?)))
+#Rule:Nouns
+r1lessonsNNS
+r1passageNN
+
+#Rule:Verbs
+r2learnedVBN
+r2bracedVBN
+r2disputedVBN
+
+#Rule:Adjs
+r4greatJJ
+
+#Rule:Adj-Noun
+r5greatJJlessonsNNS
+
+#Rule:V-HeadNoun
+r21learnedVBNlessonsNNS
+r21bracedVBNthemselvesPRP
+r21disputedVBNpassageNN
+
+#Rule:V-HeadNoun(passive)
+r24bracedVBNthoseDT
+r24disputedVBNthoseDT
+
+#Rule:PPinVP
+r32learnedVBNfromINthoseDT
+r32bracedVBNagainstINyouPRP
+r32disputedVBNwithINyouPRP
+
+#Rule:V-ADV
+r46learnedVBNnotRB
+
+#Haha, you know you ve really lived when you ve had to walk that one out..
+#(S1 (S (NP (NNP Haha)) (, ,) (NP (PRP you)) (VP (VBP know) (SBAR (S (NP (PRP you)) (VP (VBP ve) (SBAR (S (ADVP (RB really)) (VP (VBD lived) (SBAR (WHADVP (WRB when)) (S (NP (PRP you)) (VP (VBP ve) (SBAR (S (VP (AUX had) (S (VP (TO to) (VP (VB walk) (NP (DT that) (CD one)) (PRT (RP out)))))))))))) (. .))))))) (. .)))
+#Rule:Nouns
+r1HahaPersonAnnotation
+
+#Rule:Verbs
+r2knowVBP
+r2veVBP
+r2livedVBD
+r2veVBP
+r2walkVB
+
+#Rule:V-PRT
+r3walkVBoutRP
+
+#Rule:HeadNoun-V
+r11HahaPersonAnnotationknowVBP
+r11youPRPknowVBP
+r11youPRPveVBP
+r11youPRPveVBP
+
+#Rule:V-HeadNoun
+r21walkVBoneCD
+
+#Rule:V-ADV
+r46livedVBDreallyRB
+
+#Don t suffer doll, learn from it and grow stronger..
+#(S1 (S (NP (NNP Don) (NNP t)) (VP (VB suffer) (NP (NN doll)) (, ,) (S (S (VP (VB learn) (PP (IN from) (NP (PRP it))))) (CC and) (S (VP (VB grow) (ADJP (JJR stronger)))) (. .))) (. .)))
+#Rule:Nouns
+r1Don tPersonAnnotation
+r1dollNN
+
+#Rule:Verbs
+r2sufferVB
+r2learnVB
+r2growVB
+
+#Rule:Adjs
+r4strongerJJR
+
+#Rule:HeadNoun-V
+r11Don tPersonAnnotationsufferVB
+
+#Rule:V-HeadNoun
+r21sufferVBdollNN
+
+#Rule:PPinVP
+r30learnVBfromINitPRP
+
+#Rule:V-MOD
+r45sufferVBlearnVB
+
+#Then you will be unstoppable.
+#(S1 (S (ADVP (RB Then)) (NP (PRP you)) (VP (MD will) (VP (AUX be) (ADJP (JJ unstoppable)))) (. .)))
+#Rule:Adjs
+r4unstoppableJJ
+
+#Rule:HeadNoun-V
+r11youPRPbeAUX
+
+#Rule:V-ADJ
+r25beAUXunstoppableJJ
+
+@lemmas-left	understand	angry	people	Haha	were	passage	social	yesDo	admired	live	be	lesson	dispute	stronger	learn	fun	favorite	non	criticize	strong	braced	say	yesare	walk	make	biblical	admire	we	Don t	saying	made	criticized	rejection	children	unstoppable	I	child	judge	brace	quote	ve	lived	Walt Whitman	disputed	stood	those	is	doll	it	lessons	makes	suffer	you	know	my	i	point	great	judged	stand	learned	grow	hostile	tender	
+@lemmas-right	saying	understand	one	made	rejection	children	unstoppable	aside	people	child	were	passage	quote	ve	Walt Whitman	admired	be	lesson	those	is	it	doll	lessons	makes	learn	suffer	you	us	fun	know	not	really	point	tender	say	yesare	themselves	make	biblical	admire	out	we	
+@lemmas-center	of	that	with	toward	for	against	by	from	

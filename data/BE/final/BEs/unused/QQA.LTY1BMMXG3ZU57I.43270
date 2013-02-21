@@ -1,0 +1,96 @@
+#Because of it s size, but don t listen to those people size doesn t matter when it comes to planets..
+#(S1 (S (PP (IN Because) (IN of) (NP (PRP it) (NNP s) (NN size))) (, ,) (CC but) (VP (VB don) (S (NP (NNS t)) (VP (VB listen) (PP (TO to) (NP (NP (DT those) (NNS people)) (SBAR (S (NP (NN size)) (VP (VBZ doesn) (NP (NP (JJ t) (NN matter)) (SBAR (WHADVP (WRB when)) (S (NP (PRP it)) (VP (VBZ comes) (PP (TO to) (NP (NNS planets))))))))))))) (. .))) (. .)))
+#Rule:Nouns
+r1sNNP
+r1sizeNN
+r1tLocationAnnotation
+r1peopleNNS
+r1sizeNN
+r1matterNN
+r1planetsNNS
+
+#Rule:Verbs
+r2donVB
+r2listenVB
+r2doesnVBZ
+r2comesVBZ
+
+#Rule:Adjs
+r4tJJ
+
+#Rule:Adj-Noun
+r5tJJmatterNN
+
+#Rule:N-HeadNoun
+r8sNNPsizeNN
+
+#Rule:HeadNoun-V
+r11tLocationAnnotationlistenVB
+r11sizeNNdoesnVBZ
+r11itPRPcomesVBZ
+
+#Rule:V-HeadNoun
+r21doesnVBZmatterNN
+
+#Rule:V-HeadNoun
+r22donVBtLocationAnnotation
+
+#Rule:PPinVP
+r30listenVBtoTOpeopleNNS
+r30comesVBZtoTOplanetsNNS
+
+#Rule:PPinS
+r36donVBbecauseINsizeNN
+r36donVBofINsizeNN
+
+#Rule:(SBAR+WHADVP)inNP
+r41matterNNwhenWRBcomesVBZ
+
+#It s like saying a short person isn t a human..
+#(S1 (S (NP (PRP It)) (VP (VBZ s) (PP (IN like) (S (VP (VBG saying) (SBAR (S (NP (DT a) (JJ short) (NN person)) (ADVP (RB isn)) (VP (VBZ t) (NP (DT a) (NN human))) (. .))))))) (. .)))
+#Rule:Nouns
+r1personNN
+r1humanNN
+
+#Rule:Verbs
+r2sVBZ
+r2sayingVBG
+r2tVBZ
+
+#Rule:Adjs
+r4shortJJ
+
+#Rule:Adj-Noun
+r5shortJJpersonNN
+
+#Rule:HeadNoun-V
+r11itPRPsVBZ
+r11personNNtVBZ
+
+#Rule:V-HeadNoun
+r21tVBZhumanNN
+
+#Rule:V-ADV
+r46tVBZisnRB
+
+#Pluto is still a planet.
+#(S1 (S (NP (NNP Pluto)) (VP (AUX is) (ADVP (RB still)) (NP (DT a) (NN planet))) (. .)))
+#Rule:Nouns
+r1PlutoNNP
+r1planetNN
+
+#Rule:HeadNoun-V
+r11PlutoNNPisAUX
+
+#Rule:V-HeadNoun
+r21isAUXplanetNN
+
+#Rule:V-ADV
+r46isAUXstillRB
+
+#Rule:IS-RULE
+r47planetNNPlutoNNP
+
+@lemmas-left	is	saying	person	it	don	matter	come	people	comes	human	size	short	planets	doesn	planet	t	s	say	pluto	listen	Pluto	be	
+@lemmas-right	is	person	isn	matter	come	still	comes	people	size	human	doesn	planets	planet	t	s	pluto	listen	Pluto	be	
+@lemmas-center	because	to	of	when	

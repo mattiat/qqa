@@ -1,0 +1,47 @@
+#The cancer cells can break away from the starting point (usually a tumour) and spread around the body often into neighbouring tissue or through the lymphatic system.
+#(S1 (S (NP (DT The) (NN cancer) (NNS cells)) (VP (MD can) (VP (VB break) (ADVP (RB away)) (PP (IN from) (NP (DT the) (NN starting) (NN point))) (PRN (-LRB- -LRB-) (ADVP (RB usually)) (NP (DT a) (NN tumour)) (-RRB- -RRB-)) (CC and) (VP (VBN spread) (PP (IN around) (NP (DT the) (NN body))) (PP (PP (ADVP (RB often)) (IN into) (NP (JJ neighbouring) (NN tissue))) (CC or) (PP (IN through) (NP (DT the) (JJ lymphatic) (NN system))))))) (. .)))
+#Rule:Nouns
+r1cancerNN
+r1cellsNNS
+r1startingNN
+r1pointNN
+r1tumourNN
+r1bodyNN
+r1tissueNN
+r1systemNN
+
+#Rule:Verbs
+r2breakVB
+r2spreadVBN
+
+#Rule:Adjs
+r4neighbouringJJ
+r4lymphaticOrganizationAnnotation
+
+#Rule:Adj-Noun
+r5neighbouringJJtissueNN
+r5lymphaticOrganizationAnnotationsystemNN
+
+#Rule:N-HeadNoun
+r8cancerNNcellsNNS
+r8startingNNpointNN
+
+#Rule:HeadNoun-V
+r11cellsNNSbreakVB
+
+#Rule:V-HeadNoun(passive)
+r24spreadVBNcellsNNS
+
+#Rule:PPinVP
+r30breakVBfromINpointNN
+
+#Rule:PPinVP
+r32spreadVBNaroundINbodyNN
+
+#Rule:V-ADV
+r46breakVBawayRB
+r46spreadVBNawayRB
+
+@lemmas-left	cells	body	tumour	lymphatic	cell	tissue	point	break	system	neighbouring	starting	spread	neighbour	cancer	
+@lemmas-right	away	body	break	point	cells	system	cell	tissue	
+@lemmas-center	from	around	

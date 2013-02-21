@@ -1,0 +1,18 @@
+#How do relieve period cramps?
+#(S1 (SBARQ (WHADVP (WRB How)) (SQ (AUX do) (VP (VB relieve) (NP (NN period) (NNS cramps)))) (. ?)))
+#Rule:Nouns
+r1periodNN
+r1crampsNNS
+
+#Rule:Verbs
+r2relieveVB
+
+#Rule:N-HeadNoun
+r8periodNNcrampsNNS
+
+#Rule:V-HeadNoun
+r21relieveVBcrampsNNS
+
+@lemmas-left	relieve	cramps	cramp	period	
+@lemmas-right	cramps	cramp	
+@lemmas-center	

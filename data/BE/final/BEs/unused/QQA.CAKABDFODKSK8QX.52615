@@ -1,0 +1,11 @@
+#27 - works for me ;)
+#(S1 (FRAG (NP (CD 27)) (: -) (S (VP (VBZ works) (PP (IN for) (NP (PRP me))))) (: ;) (-RRB- -RRB-)))
+#Rule:Verbs
+r2worksVBZ
+
+#Rule:PPinVP
+r30worksVBZforINmePRP
+
+@lemmas-left	work	works	
+@lemmas-right	me	
+@lemmas-center	for	

@@ -1,0 +1,420 @@
+#Why is everyone so against homeschooling???
+#(S1 (SBARQ (WHADVP (WRB Why)) (SQ (AUX is) (NP (NN everyone)) (ADVP (RB so)) (PP (IN against) (S (VP (VBG homeschooling) (NP (NNS ??)))))) (. ?)))
+#Rule:Nouns
+r1everyoneNN
+r1??NNS
+
+#Rule:Verbs
+r2homeschoolingVBG
+
+#Rule:V-HeadNoun
+r21homeschoolingVBG??NNS
+
+#I am 15 and have been homeschooled my entire life. 
+#(S1 (S (NP (PRP I)) (VP (VP (AUX am) (NP (CD 15))) (CC and) (VP (AUX have) (VP (AUX been) (VP (VBN homeschooled) (S (NP (PRP$ my) (JJ entire) (NN life))))))) (. .)))
+#Rule:Nouns
+r1lifeNN
+
+#Rule:Verbs
+r2homeschooledVBN
+
+#Rule:Adjs
+r4entireJJ
+
+#Rule:Adj-Noun
+r5entireJJlifeNN
+
+#Rule:PRP-Noun
+r6myPRP$lifeNN
+
+#Rule:HeadNoun-V
+r11iPRPamAUX
+
+#Rule:V-HeadNoun
+r21amAUX15CD
+
+#Rule:V-HeadNoun
+r22homeschooledVBNlifeNN
+
+#Rule:V-HeadNoun(passive)
+r23homeschooledVBNiPRP
+
+#As I read Yahoo Answers, I wonder, why is everyone so opposed to it? 
+#(S1 (SBARQ (SBAR (IN As) (S (NP (PRP I)) (VP (VBP read) (NP (NNP Yahoo) (NNS Answers))))) (PRN (, ,) (S (NP (PRP I)) (VP (VBP wonder))) (, ,)) (WHADVP (WRB why)) (SQ (AUX is) (NP (NN everyone)) (ADJP (RB so) (JJ opposed) (PP (TO to) (NP (PRP it))))) (. ?)))
+#Rule:Nouns
+r1Yahoo AnswersPersonAnnotation
+r1everyoneNN
+
+#Rule:Verbs
+r2readVBP
+r2wonderVBP
+
+#Rule:Adjs
+r4opposedJJ
+
+#Rule:HeadNoun-V
+r11iPRPreadVBP
+r11iPRPwonderVBP
+
+#Rule:V-HeadNoun
+r21readVBPYahoo AnswersPersonAnnotation
+
+#Rule:PPinADJP
+r37opposedJJtoTOitLocationAnnotation
+
+#The people who naysay it are public-schooled, for the most part. 
+#(S1 (S (NP (NP (DT The) (NNS people)) (SBAR (WHNP (WP who)) (S (VP (VB naysay) (NP (PRP it)))))) (VP (AUX are) (ADJP (JJ public-schooled)) (, ,) (PP (IN for) (NP (DT the) (JJS most) (NN part)))) (. .)))
+#Rule:Nouns
+r1peopleNNS
+r1partNN
+
+#Rule:Verbs
+r2naysayVB
+
+#Rule:Adjs
+r4public-schooledJJ
+r4mostJJS
+
+#Rule:Adj-Noun
+r5mostJJSpartNN
+
+#Rule:HeadNoun-V
+r11peopleNNSareAUX
+
+#Rule:HeadNoun-(who/that)-V
+r14peopleNNSnaysayVB
+
+#Rule:V-HeadNoun
+r21naysayVBitPRP
+
+#Rule:V-ADJ
+r25areAUXpublic-schooledJJ
+
+#Rule:PPinVP
+r30areAUXforINpartNN
+
+#They are stupid, imbecilic, and can t even read right. 
+#(S1 (S (NP (PRP They)) (VP (VP (AUX are) (ADJP (JJ stupid) (, ,) (JJ imbecilic))) (, ,) (CC and) (VP (MD can) (RB t) (ADVP (RB even)) (VP (VB read) (ADVP (RB right))))) (. .)))
+#Rule:Verbs
+r2readVB
+
+#Rule:Adjs
+r4stupidJJ
+r4imbecilicOrganizationAnnotation
+
+#Rule:HeadNoun-V
+r11theyPRPreadVB
+r11theyPRPareAUX
+
+#Rule:V-ADJ
+r25areAUXstupidJJ
+
+#Rule:V-ADV
+r46readVBevenRB
+r46readVBrightRB
+
+#I have many accomplishments behind me, and because of certain things I accomplished, I have been often featured in the local paper. 
+#(S1 (S (S (NP (PRP I)) (VP (AUX have) (NP (JJ many) (NNS accomplishments)) (PP (IN behind) (NP (PRP me))))) (, ,) (CC and) (S (PP (IN because) (IN of) (NP (NP (JJ certain) (NNS things)) (SBAR (S (NP (PRP I)) (VP (VBN accomplished)))))) (, ,) (NP (PRP I)) (VP (AUX have) (VP (AUX been) (ADVP (RB often)) (VP (VBN featured) (PP (IN in) (NP (DT the) (JJ local) (NN paper))))))) (. .)))
+#Rule:Nouns
+r1accomplishmentsNNS
+r1thingsNNS
+r1paperNN
+
+#Rule:Verbs
+r2accomplishedVBN
+r2featuredVBN
+
+#Rule:Adjs
+r4manyJJ
+r4certainJJ
+r4localJJ
+
+#Rule:Adj-Noun
+r5manyJJaccomplishmentsNNS
+r5certainJJthingsNNS
+r5localJJpaperNN
+
+#Rule:HeadNoun-V
+r11iPRPhaveAUX
+
+#Rule:NP(NP(z) SBAR(S(NP(x)VP(y))))
+r19accomplishedVBNthingsNNS
+
+#Rule:V-HeadNoun
+r21haveAUXaccomplishmentsNNS
+
+#Rule:V-HeadNoun(passive)
+r23featuredVBNiPRP
+
+#Rule:V-HeadNoun(passive)
+r24accomplishedVBNiPRP
+
+#Rule:PPinVP
+r30haveAUXbehindINmePRP
+
+#Rule:PPinVP
+r32featuredVBNinINpaperNN
+
+#Rule:PPinS
+r36haveAUXbecauseINthingsNNS
+r36haveAUXofINthingsNNS
+
+#Rule:V-ADV
+r46beenAUXoftenRB
+r46featuredVBNoftenRB
+
+#I don t see any PS d kids in the paper! 
+#(S1 (S (NP (PRP I)) (VP (VB don) (S (NP (NNS t)) (VP (VB see) (NP (DT any) (NNP PS) (NNP d) (NNS kids)) (PP (IN in) (NP (DT the) (NN paper)))))) (. !)))
+#Rule:Nouns
+r1tNNS
+r1PS dOrganizationAnnotation
+r1kidsNNS
+r1paperNN
+
+#Rule:Verbs
+r2donVB
+r2seeVB
+
+#Rule:N-HeadNoun
+r8PS dOrganizationAnnotationkidsNNS
+
+#Rule:HeadNoun-V
+r11iPRPdonVB
+r11tNNSseeVB
+
+#Rule:V-HeadNoun
+r21seeVBkidsNNS
+
+#Rule:V-HeadNoun
+r22donVBtNNS
+
+#Rule:PPinVP
+r30seeVBinINpaperNN
+
+#And to those of you who would defile this question with your lies, I DO GET SOCIALIZATION!!! 
+#(S1 (S (CC And) (PP (TO to) (NP (NP (DT those)) (PP (IN of) (NP (PRP you))) (SBAR (WHNP (WP who)) (S (VP (MD would) (VP (VB defile) (NP (DT this) (NN question)) (PP (IN with) (NP (PRP$ your) (NNS lies))))))))) (, ,) (NP (PRP I)) (VP (AUX DO) (VP (VB GET) (NP (NN SOCIALIZATION) (NNS !!)))) (. !)))
+#Rule:Nouns
+r1questionNN
+r1liesNNS
+r1I DO GET SOCIALIZATION!!!OrganizationAnnotation
+
+#Rule:Verbs
+r2defileVB
+
+#Rule:PRP-Noun
+r6yourPRP$liesNNS
+
+#Rule:HeadNoun-(who/that)-V
+r14thoseDTdefileVB
+
+#Rule:V-HeadNoun
+r21defileVBquestionNN
+
+#Rule:PPinNP
+r26thoseDTofINyouPRP
+
+#Rule:PPinVP
+r30defileVBwithINliesNNS
+
+#Rule:PPinS
+r36I DO GET SOCIALIZATION!!!OrganizationAnnotationtoTOthoseDT
+
+#I get more that enough time to socialize with other homeschoolers because we are not sitting in a dark room doing homework all day and night like the public schooled kids. 
+#(S1 (S (NP (PRP I)) (VP (VBP get) (NP (JJR more)) (NP (NP (DT that) (JJ enough) (NN time)) (SBAR (S (VP (TO to) (VP (VB socialize) (PP (IN with) (NP (JJ other) (NNS homeschoolers))) (SBAR (IN because) (S (NP (PRP we)) (VP (AUX are) (RB not) (VP (VBG sitting) (PP (IN in) (NP (DT a) (JJ dark) (NN room))) (S (VP (VP (VBG doing) (NP (NN homework)) (NP (DT all) (NN day))) (CC and) (VP (NN night) (PP (IN like) (NP (DT the) (JJ public) (JJ schooled) (NNS kids)))))))))))))))) (. .)))
+#Rule:Nouns
+r1timeNN
+r1homeschoolersNNS
+r1roomNN
+r1homeworkNN
+r1dayNN
+r1nightNN
+r1kidsNNS
+
+#Rule:Verbs
+r2getVBP
+r2socializeVB
+r2sittingVBG
+r2doingVBG
+
+#Rule:Adjs
+r4moreJJR
+r4enoughJJ
+r4otherJJ
+r4darkJJ
+r4publicJJ
+r4schooledJJ
+
+#Rule:Adj-Noun
+r5enoughJJtimeNN
+r5otherJJhomeschoolersNNS
+r5darkJJroomNN
+r5publicJJkidsNNS
+r5schooledJJkidsNNS
+
+#Rule:HeadNoun-V
+r11iPRPgetVBP
+r11wePRPsittingVBG
+
+#Rule:HeadNoun-(who/that)-V
+r14timeNNsocializeVB
+
+#Rule:V-HeadNoun
+r21getVBPmoreJJR
+r21getVBPtimeNN
+r21doingVBGhomeworkNN
+r21doingVBGdayNN
+
+#Rule:PPinVP
+r30socializeVBwithINhomeschoolersNNS
+r30sittingVBGinINroomNN
+
+#Rule:V-IN-V
+r43socializeVBbecauseINsittingVBG
+
+#Rule:V-V
+r44sittingVBGdoingVBG
+
+#Rule:V-ADV
+r46areAUXnotRB
+
+#We get more time to socialize! 
+#(S1 (S (NP (PRP We)) (VP (VBP get) (NP (NP (JJR more) (NN time)) (SBAR (S (VP (TO to) (VP (VB socialize))))))) (. !)))
+#Rule:Nouns
+r1timeNN
+
+#Rule:Verbs
+r2getVBP
+r2socializeVB
+
+#Rule:Adjs
+r4moreJJR
+
+#Rule:Adj-Noun
+r5moreJJRtimeNN
+
+#Rule:HeadNoun-V
+r11wePRPgetVBP
+
+#Rule:HeadNoun-(who/that)-V
+r14timeNNsocializeVB
+
+#Rule:V-HeadNoun
+r21getVBPtimeNN
+
+#Why is the public so wary of us? 
+#(S1 (SBARQ (WHADVP (WRB Why)) (SQ (AUX is) (NP (DT the) (NN public)) (ADJP (RB so) (JJ wary) (PP (IN of) (NP (PRP us))))) (. ?)))
+#Rule:Nouns
+r1publicNN
+
+#Rule:Adjs
+r4waryJJ
+
+#Rule:PPinADJP
+r37waryJJofINusPRP
+
+#They look at me like I m either A) a genius, B) I m a minor celebrity, C) I m a monster, or D) I m a bad kid because I don t support the public school system. 
+#(S1 (S (NP (PRP They)) (VP (VBP look) (PP (IN at) (NP (PRP me))) (PP (IN like) (S (NP (PRP I)) (VP (NNP m) (S (ADVP (RB either)) (PRN (DT A) (-RRB- -RRB-)) (NP (NP (DT a) (NN genius)) (, ,) (X (SYM B))) (-RRB- -RRB-) (NP (PRP I)) (VP (NNP m) (NP (NP (DT a) (JJ minor) (NN celebrity)) (PRN (, ,) (NNP C) (-RRB- -RRB-))) (S (NP (PRP I)) (VP (NNP m) (NP (NP (DT a) (NN monster)) (PRN (, ,) (CC or) (NNP D) (-RRB- -RRB-))) (S (NP (PRP I)) (VP (NNP m) (NP (DT a) (JJ bad) (NN kid)) (SBAR (IN because) (S (NP (PRP I)) (VP (VB don) (NP (JJ t) (NN support)) (NP (DT the) (JJ public) (NN school) (NN system))))))))))))))) (. .)))
+#Rule:Nouns
+r1mNNP
+r1geniusNN
+r1mNNP
+r1celebrityNN
+r1COrganizationAnnotation
+r1mNNP
+r1monsterNN
+r1DOrganizationAnnotation
+r1mNNP
+r1kidNN
+r1supportNN
+r1schoolNN
+r1systemNN
+
+#Rule:Verbs
+r2lookVBP
+r2donVB
+
+#Rule:Adjs
+r4minorJJ
+r4badJJ
+r4tJJ
+r4publicJJ
+
+#Rule:Adj-Noun
+r5minorJJcelebrityNN
+r5badJJkidNN
+r5tJJsupportNN
+r5publicJJsystemNN
+
+#Rule:N-HeadNoun
+r8schoolNNsystemNN
+
+#Rule:HeadNoun-V
+r11theyPRPlookVBP
+r11iPRPdonVB
+
+#Rule:V-HeadNoun
+r21donVBsupportNN
+r21donVBsystemNN
+
+#Rule:V-HeadNoun
+r22mNNPgeniusNN
+r22mNNPiPRP
+r22celebrityNNiPRP
+r22monsterNNiPRP
+
+#Rule:PPinVP
+r30lookVBPatINmePRP
+
+#Rule:V-IN-V
+r43kidNNbecauseINdonVB
+
+#Hah! 
+#(S1 (INTJ (UH Hah) (. !)))
+#Please. 
+#(S1 (INTJ (UH Please) (. .)))
+#My words are running out, so please answer! 
+#(S1 (S (S (NP (PRP$ My) (NNS words)) (VP (AUX are) (VP (VBG running) (ADVP (RB out))))) (, ,) (ADVP (RB so)) (VP (VB please) (VP (VB answer))) (. !)))
+#Rule:Nouns
+r1wordsNNS
+
+#Rule:Verbs
+r2runningVBG
+r2pleaseVB
+r2answerVB
+
+#Rule:PRP-Noun
+r6myPRP$wordsNNS
+
+#Rule:HeadNoun-V
+r11wordsNNSrunningVBG
+
+#Rule:V-ADV
+r46pleaseVBsoRB
+r46runningVBGoutRB
+
+#10 point to wisest answerer! 
+#(S1 (S (NP (CD 10)) (VP (VBP point) (S (VP (TO to) (VP (VB wisest) (NP (NN answerer)))))) (. !)))
+#Rule:Nouns
+r1answererNN
+
+#Rule:Verbs
+r2pointVBP
+r2wisestVB
+
+#Rule:HeadNoun-V
+r1110CDpointVBP
+
+#Rule:V-HeadNoun
+r21wisestVBanswererNN
+
+#Rule:V-V
+r44pointVBPwisestVB
+
+#No naysayers!!
+#(S1 (NP (DT No) (NNS naysayers) (. !) (. !)))
+#Rule:Nouns
+r1naysayersNNS
+
+@lemmas-left	they	homeschooling	don	minor	wise	socialize	stupid	featured	enough	naysay	people	been	kid	celebrity	??	time	please	more	are	accomplished	schooled	dark	wonder	feature	everyone	naysayers	be	support	genius	monster	get	answer	defile	bad	kids	many	accomplishment	system	sitting	homework	doing	answerer	day	wisest	we	room	D	accomplish	other	imbecilic	have	lies	paper	C	most	run	running	homeschoolers	life	accomplishments	words	wary	PS d	read	do	I DO GET SOCIALIZATION!!!	opposed	question	homeschooled	look	those	your	m	my	i	sit	point	10	entire	Yahoo Answers	school	t	naysayer	see	am	public-schooled	night	things	certain	local	public	part	lie	
+@lemmas-right	don	wise	stupid	socialize	naysay	kid	celebrity	??	time	are	more	wonder	right	be	genius	support	get	so	defile	kids	not	accomplishment	system	sitting	homework	often	doing	answerer	even	day	wisest	room	have	lies	paper	15	run	running	homeschoolers	accomplishments	life	words	read	me	do	question	look	those	it	us	you	i	sit	point	Yahoo Answers	school	t	see	am	public-schooled	things	part	lie	out	
+@lemmas-center	because	to	of	with	for	at	behind	in	

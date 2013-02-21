@@ -1,0 +1,257 @@
+#Hi there small person. Guess what ! I ve been trying to do the same thing. I am 35, and I am 5 4 and weigh in at 99 lbs.  I had two children, so that did nt help put on weight either..
+#(S1 (S (S (ADVP (RB Hi)) (NP (RB there) (JJ small) (NNS person.)) (VP (VBP Guess) (NP (WP what))) (. !)) (NP (PRP I)) (VP (VBP ve) (VP (AUX been) (VP (VBG trying) (S (VP (TO to) (VP (AUX do) (NP (NP (DT the) (JJ same) (NN thing.)) (SBAR (S (NP (PRP I)) (VP (AUX am) (NP (NP (CD 35)) (PRN (, ,) (S (CC and) (NP (PRP I)) (VP (VP (AUX am) (NP (CD 5) (CD 4))) (CC and) (VP (VBP weigh) (PP (IN in) (NP (NP (QP (IN at) (CD 99)) (NN lbs.)) (SBAR (S (NP (PRP I)) (VP (AUX had) (NP (CD two) (NNS children)) (, ,) (SBAR (IN so) (S (NP (DT that)) (VP (AUX did) (RB nt) (VP (VB help) (S (VP (VB put) (PP (IN on) (NP (NN weight))) (ADVP (RB either))))))))))))))) (. .)))))))))))))) (. .)))
+#Rule:Nouns
+r1personNNS
+r1thingNN
+r1lbs.  IPersonAnnotation
+r1childrenNNS
+r1weightNN
+
+#Rule:Verbs
+r2guessVBP
+r2veVBP
+r2tryingVBG
+r2weighVBP
+r2helpVB
+r2putVB
+
+#Rule:Adjs
+r4smallJJ
+r4sameJJ
+
+#Rule:Adj-Noun
+r5smallJJpersonNNS
+r5sameJJthingNN
+r55CD4CD
+r599CDlbs.  IPersonAnnotation
+r5twoCDchildrenNNS
+
+#Rule:HeadNoun-V
+r11! IOrganizationAnnotationveVBP
+r11! IOrganizationAnnotationtryingVBG
+r11personNNSguessVBP
+r11iPRPamAUX
+r11iPRPweighVBP
+r11iPRPamAUX
+r11lbs.  IPersonAnnotationhadAUX
+r11thatDThelpVB
+
+#Rule:V-HeadNoun
+r21guessVBPwhatWP
+r21doAUXthingNN
+r21amAUX35CD
+r21amAUX4CD
+r21hadAUXchildrenNNS
+
+#Rule:PPinVP
+r30weighVBPinINlbs.  IPersonAnnotation
+r30putVBonINweightNN
+
+#Rule:V-IN-V
+r43hadAUXsoINhelpVB
+
+#Rule:V-ADV
+r46guessVBPHiRB
+r46didAUXntRB
+r46putVBeitherRB
+
+#While I was pregnant the Dr. said to eat more meat and veggies&have more healthy snacks between meals (I like apples and popcorn).My main problem is that I do not drink anything..
+#(S1 (S (SBAR (IN While) (S (NP (PRP I)) (VP (AUX was) (ADJP (JJ pregnant))))) (NP (DT the) (NNP Dr.)) (VP (VBD said) (S (VP (TO to) (VP (VP (VB eat) (NP (JJR more) (NN meat))) (CC and) (VP (VB veggies&have) (NP (NP (ADJP (RBR more) (JJ healthy)) (NNS snacks)) (PP (IN between) (NP (NP (NNS meals)) (SBAR (S (PRN (-LRB- -LRB-) (S (NP (PRP I)) (VP (VP (VB like) (NP (NNS apples))) (CC and) (VP (VB popcorn)))) (-RRB- -RRB-)) (NP (JJ .My) (JJ main) (NN problem)) (VP (AUX is) (SBAR (IN that) (S (NP (PRP I)) (VP (AUX do) (RB not) (VP (VB drink) (NP (NN anything))))))) (. .))))))))))) (. .)))
+#Rule:Nouns
+r1DrOrganizationAnnotation
+r1meatNN
+r1snacksNNS
+r1mealsNNS
+r1applesNNS
+r1problemNN
+r1anythingNN
+
+#Rule:Verbs
+r2saidVBD
+r2eatVB
+r2veggies&haveVB
+r2likeVB
+r2popcornVB
+r2drinkVB
+
+#Rule:Adjs
+r4pregnantJJ
+r4moreJJR
+r4healthyJJ
+r4.MyJJ
+r4mainJJ
+
+#Rule:Adj-Noun
+r5moreJJRmeatNN
+r5healthyJJsnacksNNS
+r5.MyJJproblemNN
+r5mainJJproblemNN
+
+#Rule:HeadNoun-V
+r11DrOrganizationAnnotationsaidVBD
+r11iPRPwasAUX
+r11problemNNisAUX
+r11iPRPlikeVB
+r11iPRPpopcornVB
+r11iPRPdrinkVB
+
+#Rule:V-HeadNoun
+r21eatVBmeatNN
+r21veggies&haveVBsnacksNNS
+r21likeVBapplesNNS
+r21drinkVBanythingNN
+
+#Rule:V-ADJ
+r25wasAUXpregnantJJ
+
+#Rule:PPinNP
+r26snacksNNSbetweenINmealsNNS
+
+#Rule:V-IN-V
+r43isAUXthatINdrinkVB
+
+#Rule:V-ADV
+r46doAUXnotRB
+
+#I bet I drink 12 oz of liquid in 1 whole day..
+#(S1 (S (NP (PRP I)) (VP (VBP bet) (S (NP (PRP I)) (VP (VBP drink) (NP (NP (CD 12) (NNP oz)) (PP (IN of) (NP (NN liquid)))) (PP (IN in) (NP (CD 1) (JJ whole) (NN day)))) (. .))) (. .)))
+#Rule:Nouns
+r1ozPersonAnnotation
+r1liquidNN
+r1dayNN
+
+#Rule:Verbs
+r2betVBP
+r2drinkVBP
+
+#Rule:Adjs
+r4wholeJJ
+
+#Rule:Adj-Noun
+r512CDozPersonAnnotation
+r51CDdayNN
+r5wholeJJdayNN
+
+#Rule:HeadNoun-V
+r11iPRPbetVBP
+r11iPRPdrinkVBP
+
+#Rule:V-HeadNoun
+r21drinkVBPozPersonAnnotation
+
+#Rule:V-HeadNoun
+r22betVBPiPRP
+
+#Rule:PPinNP
+r26ozPersonAnnotationofINliquidNN
+
+#Rule:PPinVP
+r30drinkVBPinINdayNN
+
+#Not good..
+#(S1 (FRAG (ADVP (RB Not) (RB good) (. .)) (. .)))
+#So keep yourself hydrated and eat all the time..
+#(S1 (S (RB So) (VP (VB keep) (S (NP (PRP yourself)) (VP (VBN hydrated) (CC and) (VB eat) (NP (PDT all) (DT the) (NN time))) (. .))) (. .)))
+#Rule:Nouns
+r1timeNN
+
+#Rule:Verbs
+r2keepVB
+r2hydratedVBN
+r2eatVB
+
+#Rule:V-HeadNoun
+r21hydratedVBNtimeNN
+
+#Rule:V-HeadNoun
+r22keepVByourselfPRP
+
+#Rule:V-HeadNoun(passive)
+r24hydratedVBNyourselfPRP
+
+#I ll try to take my own advice..
+#(S1 (S (NP (PRP I)) (ADVP (RB ll)) (VP (VBP try) (S (VP (TO to) (VP (VB take) (NP (PRP$ my) (JJ own) (NN advice) (. .)))))) (. .)))
+#Rule:Nouns
+r1adviceNN
+
+#Rule:Verbs
+r2tryVBP
+r2takeVB
+
+#Rule:Adjs
+r4ownJJ
+
+#Rule:Adj-Noun
+r5ownJJadviceNN
+
+#Rule:PRP-Noun
+r6myPRP$adviceNN
+
+#Rule:HeadNoun-V
+r11iPRPtryVBP
+
+#Rule:V-HeadNoun
+r21takeVBadviceNN
+
+#Rule:V-V
+r44tryVBPtakeVB
+
+#Rule:V-ADV
+r46tryVBPllRB
+
+#I m also going to start working out again..
+#(S1 (FRAG (NP (PRP I)) (S (NP (NNP m)) (ADVP (RB also)) (VP (VBG going) (S (VP (TO to) (VP (VB start) (VP (VBG working) (PRT (RP out)) (ADVP (RB again))))))) (. .)) (. .)))
+#Rule:Nouns
+r1mNNP
+
+#Rule:Verbs
+r2goingVBG
+r2startVB
+
+#Rule:V-PRT
+r3workingVBGoutRP
+
+#Rule:HeadNoun-V
+r11mNNPgoingVBG
+
+#Rule:V-V
+r44goingVBGstartVB
+
+#Rule:V-ADV
+r46goingVBGalsoRB
+r46workingVBGagainRB
+
+#When I was built up really nice ,I weighted in at 106.  Good luck!
+#(S1 (S (SBAR (WHADVP (WRB When)) (S (NP (PRP I)) (VP (AUX was) (VP (VBN built) (PRT (RP up)) (S (ADJP (RB really) (JJ nice))))))) (, ,) (NP (PRP I)) (VP (VBN weighted) (PRT (RP in)) (PP (IN at) (S (VP (VBG 106.) (NP (JJ Good) (NN luck)))))) (. !)))
+#Rule:Nouns
+r1luckNN
+
+#Rule:Verbs
+r2106VBG
+
+#Rule:V-PRT
+r3builtVBNupRP
+r3weightedVBNinRP
+
+#Rule:Adjs
+r4niceJJ
+r4GoodJJ
+
+#Rule:Adj-Noun
+r5GoodJJluckNN
+
+#Rule:V-HeadNoun
+r21106VBGluckNN
+
+#Rule:V-HeadNoun(passive)
+r23builtVBNiPRP
+
+#Rule:V-HeadNoun(passive)
+r24weightedVBN,IPersonAnnotation
+
+#Rule:(SBAR+WHADVP)inS
+r42weightedVBNwhenWRBbuiltVBN
+
+@lemmas-left	.my	popcorn	! I	person	said	nice	hydrated	good	same	time	help	more	veggies&have	drink	working	lbs.  I	had	be	work	going	luck	person.	did	snacks	like	oz	that	weigh	1	liquid	start	Dr	whole	5	apple	bet	say	pregnant	own	thing.	eat	day	small	try	go	thing	Good	put	weight	have	children	build	trying	12	was	child	weighted	meat	106	ve	do	apples	99	built	meal	106.	is	problem	m	my	snack	main	i	two	meals	anything	take	guess	am	healthy	.My	advice	hydrate	keep	
+@lemmas-right	popcorn	nt	person	said	35	help	time	drink	yourself	had	lbs.  I	be	Hi	going	luck	person.	again	snacks	like	oz	not	weigh	liquid	start	apple	4	bet	say	pregnant	thing.	day	try	go	thing	ll	weight	have	children	hi	build	trying	,I	was	child	meat	ve	apples	built	meal	is	problem	in	snack	up	i	either	anything	meals	what	take	am	guess	also	advice	out	
+@lemmas-center	of	that	so	when	on	in	between	

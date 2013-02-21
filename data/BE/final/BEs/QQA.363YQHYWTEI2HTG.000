@@ -1,0 +1,30 @@
+#How is the pressure cooker able to cook food within a short period of time.?
+#(S1 (SBARQ (WHADVP (WRB How)) (SQ (AUX is) (NP (DT the) (NN pressure)) (ADJP (RBR cooker) (JJ able) (S (VP (TO to) (VP (VB cook) (NP (NN food)) (PP (IN within) (NP (NP (DT a) (JJ short) (NN period)) (PP (IN of) (NP (NN time))))))))) (. .)) (. ?)))
+#Rule:Nouns
+r1pressureNN
+r1foodNN
+r1periodNN
+r1timeNN
+
+#Rule:Verbs
+r2cookVB
+
+#Rule:Adjs
+r4ableJJ
+r4shortJJ
+
+#Rule:Adj-Noun
+r5shortJJperiodNN
+
+#Rule:V-HeadNoun
+r21cookVBfoodNN
+
+#Rule:PPinNP
+r26periodNNofINtimeNN
+
+#Rule:PPinVP
+r30cookVBwithinINperiodNN
+
+@lemmas-left	short	cook	time	pressure	able	food	period	
+@lemmas-right	time	food	period	
+@lemmas-center	of	within	

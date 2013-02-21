@@ -1,0 +1,78 @@
+#The 5-year survival rate drops considerably (25%) once the cancer has spread. In most cases, stage IV cancer is not curable..
+#(S1 (S (NP (DT The) (JJ 5-year) (NN survival) (NN rate)) (VP (VBZ drops) (SBAR (S (ADVP (RB considerably)) (PRN (-LRB- -LRB-) (NP (CD 25) (NN %)) (-RRB- -RRB-)) (SBAR (IN once) (S (NP (DT the) (NN cancer)) (VP (AUX has) (VP (VBN spread.) (PP (IN In) (NP (JJS most) (NNS cases))))))) (, ,) (VP (VBP stage) (SBAR (S (NP (NNP IV) (NN cancer)) (VP (AUX is) (RB not) (ADJP (JJ curable)))))) (. .)))) (. .)))
+#Rule:Nouns
+r1survivalNN
+r1rateNN
+r1%NN
+r1cancerNN
+r1casesNNS
+r1IVNNP
+r1cancerNN
+
+#Rule:Verbs
+r2dropsVBZ
+r2spreadVBN
+r2stageVBP
+
+#Rule:Adjs
+r45-yearJJ
+r4mostJJS
+r4curableJJ
+
+#Rule:Adj-Noun
+r55-yearJJrateNN
+r525CD%NN
+r5mostJJScasesNNS
+
+#Rule:N-HeadNoun
+r8survivalNNrateNN
+r8IVNNPcancerNN
+
+#Rule:HeadNoun-V
+r11rateNNdropsVBZ
+r11cancerNNisAUX
+
+#Rule:HeadNoun-V
+r12cancerNNspreadVBN
+
+#Rule:V-ADJ
+r25isAUXcurableJJ
+
+#Rule:PPinVP
+r32spreadVBNinINcasesNNS
+
+#Rule:V-ADV
+r46stageVBPconsiderablyRB
+r46isAUXnotRB
+
+#Please see the web pages for more details on Colorectal cancer.
+#(S1 (S (VP (VB Please) (VP (VB see) (NP (NP (DT the) (JJ web) (NNS pages)) (PP (IN for) (NP (NP (JJR more) (NNS details)) (PP (IN on) (NP (JJ Colorectal) (NN cancer)))))))) (. .)))
+#Rule:Nouns
+r1pagesNNS
+r1detailsNNS
+r1cancerNN
+
+#Rule:Verbs
+r2pleaseVB
+r2seeVB
+
+#Rule:Adjs
+r4webJJ
+r4moreJJR
+r4ColorectalOrganizationAnnotation
+
+#Rule:Adj-Noun
+r5webJJpagesNNS
+r5moreJJRdetailsNNS
+r5ColorectalOrganizationAnnotationcancerNN
+
+#Rule:V-HeadNoun
+r21seeVBpagesNNS
+
+#Rule:PPinNP
+r26pagesNNSforINdetailsNNS
+r26detailsNNSonINcancerNN
+
+@lemmas-left	drop	5-year	most	spread.	stage	curable	more	rate	please	details	page	Colorectal	year	be	is	cases	iv	%	pages	web	25	IV	see	drops	case	spread	survival	cancer	
+@lemmas-right	is	cases	drop	pages	%	spread.	curable	not	considerably	rate	details	page	drops	case	spread	cancer	be	
+@lemmas-center	for	on	in	

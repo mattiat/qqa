@@ -1,0 +1,60 @@
+#How do i get abbs fast?
+#(S1 (SBARQ (WHADVP (WRB How)) (SQ (AUX do) (NP (PRP i)) (VP (VB get) (NP (NNS abbs)) (ADVP (RB fast)))) (. ?)))
+#Rule:Nouns
+r1abbsNNS
+
+#Rule:Verbs
+r2getVB
+
+#Rule:V-HeadNoun
+r21getVBabbsNNS
+
+#Rule:V-ADV
+r46getVBfastRB
+
+#my friends have abbs but im the only one who doesn t have abbs tell me what i can do to get those abbs fast
+#(S1 (S (NP (PRP$ my) (NNS friends)) (VP (AUX have) (NP (NNS abbs))) (CC but) (VP (VB im) (NP (NP (DT the) (RB only) (NN one)) (SBAR (WHNP (WP who)) (S (NP (JJ doesn) (NNS t)) (VP (AUX have) (S (NP (NNS abbs)) (VP (VB tell) (NP (PRP me)) (SBAR (WHNP (WP what)) (S (NP (PRP i)) (VP (MD can) (VP (AUX do) (S (VP (TO to) (VP (VB get) (NP (DT those) (NNS abbs)) (ADVP (RB fast))))))))))))))))))
+#Rule:Nouns
+r1friendsNNS
+r1abbsNNS
+r1oneNN
+r1tNNS
+r1abbsNNS
+r1abbsNNS
+
+#Rule:Verbs
+r2imVB
+r2tellVB
+r2getVB
+
+#Rule:Adjs
+r4doesnJJ
+
+#Rule:Adj-Noun
+r5doesnJJtNNS
+
+#Rule:PRP-Noun
+r6myPRP$friendsNNS
+
+#Rule:HeadNoun-V
+r11friendsNNSimVB
+r11friendsNNShaveAUX
+r11tNNShaveAUX
+r11abbsNNStellVB
+r11iLocationAnnotationdoAUX
+
+#Rule:V-HeadNoun
+r21haveAUXabbsNNS
+r21imVBoneNN
+r21tellVBmePRP
+r21getVBabbsNNS
+
+#Rule:V-HeadNoun
+r22haveAUXabbsNNS
+
+#Rule:V-ADV
+r46getVBfastRB
+
+@lemmas-left	abb	get	have	one	abbs	im	my	i	doesn	friends	t	tell	friend	
+@lemmas-right	abb	friends	t	have	one	me	do	tell	abbs	im	fast	friend	
+@lemmas-center	

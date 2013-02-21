@@ -1,0 +1,49 @@
+#I m not understanding your question completely I do know you gain a pound when you consume 3500 cal a day so to lose a pound you need to burn 3500 calories.
+#(S1 (S (NP (PRP I)) (VP (NNP m) (S (RB not) (VP (VBG understanding) (NP (PRP$ your) (NN question)) (SBAR (RB completely) (S (NP (PRP I)) (VP (AUX do) (VP (VB know) (S (NP (PRP you)) (VP (VB gain) (NP (DT a) (NN pound)) (SBAR (WHADVP (WRB when)) (S (NP (PRP you)) (VP (VBP consume) (NP (CD 3500) (NN cal)) (NP (DT a) (NN day)) (S (RB so) (VP (TO to) (VP (VB lose) (NP (NP (DT a) (NN pound)) (SBAR (S (NP (PRP you)) (VP (AUX need) (S (VP (TO to) (VP (VB burn) (NP (CD 3500) (NNS calories)))))))))))))))))))))))) (. .)))
+#Rule:Nouns
+r1mNNP
+r1questionNN
+r1poundNN
+r1calNN
+r1dayNN
+r1poundNN
+r1caloriesOrganizationAnnotation
+
+#Rule:Verbs
+r2understandingVBG
+r2knowVB
+r2gainVB
+r2consumeVBP
+r2loseVB
+r2burnVB
+
+#Rule:Adj-Noun
+r53500CDcalNN
+r53500CDcaloriesOrganizationAnnotation
+
+#Rule:PRP-Noun
+r6yourPRP$questionNN
+
+#Rule:HeadNoun-V
+r11iPRPknowVB
+r11youPRPgainVB
+r11youPRPconsumeVBP
+r11youPRPneedAUX
+
+#Rule:V-HeadNoun
+r21understandingVBGquestionNN
+r21gainVBpoundNN
+r21consumeVBPcalNN
+r21consumeVBPdayNN
+r21loseVBpoundNN
+r21burnVBcaloriesOrganizationAnnotation
+
+#Rule:V-HeadNoun
+r22knowVByouPRP
+
+#Rule:V-V
+r44consumeVBPloseVB
+
+@lemmas-left	3500	understand	your	understanding	you	m	know	i	gain	consume	lose	calories	question	cal	day	burn	pound	
+@lemmas-right	need	lose	calories	you	day	question	cal	know	pound	consume	gain	
+@lemmas-center	

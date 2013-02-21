@@ -1,0 +1,93 @@
+#LDL  is deposited into the blood where it settles and causes blockages. This leads to increased blood pressure and coronary artery disease (blocking the arteries around the heart) That is what causes a heart attack..
+#(S1 (S (NP (NNP LDL)) (VP (AUX is) (VP (VBD deposited) (PP (IN into) (NP (NP (DT the) (NN blood)) (SBAR (WHADVP (WRB where)) (S (NP (PRP it)) (VP (VBZ settles) (CC and) (VBZ causes) (NP (NP (NN blockages.)) (SBAR (S (NP (DT This)) (VP (VBZ leads) (PP (TO to) (NP (NP (VBN increased) (NN blood) (NN pressure)) (CC and) (NP (NP (JJ coronary) (NN artery) (NN disease)) (PRN (-LRB- -LRB-) (PP (VBG blocking) (NP (NP (DT the) (NNS arteries)) (PP (IN around) (NP (DT the) (NN heart))))) (-RRB- -RRB-)) (SBAR (WHNP (WDT That)) (S (VP (AUX is) (SBAR (WHNP (WP what)) (S (VP (VBZ causes) (NP (DT a) (NN heart) (NN attack)))))))) (. .))))))))))))))) (. .)))
+#Rule:Nouns
+r1LDLNNP
+r1bloodNN
+r1blockagesNN
+r1bloodNN
+r1pressureNN
+r1arteryNN
+r1diseaseNN
+r1arteriesNNS
+r1heartNN
+r1heartNN
+r1attackNN
+
+#Rule:Verbs
+r2depositedVBD
+r2settlesVBZ
+r2causesVBZ
+r2leadsVBZ
+r2increasedVBN
+r2blockingVBG
+r2causesVBZ
+
+#Rule:Adjs
+r4coronaryJJ
+
+#Rule:Adj-Noun
+r5increasedVBNpressureNN
+r5coronaryJJdiseaseNN
+
+#Rule:N-HeadNoun
+r8bloodNNpressureNN
+r8arteryNNdiseaseNN
+r8heartNNattackNN
+
+#Rule:HeadNoun-V
+r11LDLNNPdepositedVBD
+r11itPRPsettlesVBZ
+r11thisDTleadsVBZ
+
+#Rule:HeadNoun-(who/that)-V
+r14diseaseNNisAUX
+
+#Rule:NP(NP(z) SBAR(S(NP(x)VP(y))))
+r19leadsVBZblockagesNN
+
+#Rule:V-HeadNoun
+r21settlesVBZblockagesNN
+r21causesVBZattackNN
+
+#Rule:PPinNP
+r26arteriesNNSaroundINheartNN
+
+#Rule:PPinVP
+r30depositedVBDintoINbloodNN
+r30leadsVBZtoTOpressureNN
+r30leadsVBZtoTOdiseaseNN
+
+#Rule:(SBAR+WHADVP)inNP
+r41bloodNNwhereWRBsettlesVBZ
+
+#HDL (good cholesterol) takes the ldl cholesterol out of the blood.
+#(S1 (S (NP (NP (NNP HDL)) (PRN (-LRB- -LRB-) (NP (JJ good) (NN cholesterol)) (-RRB- -RRB-))) (VP (VBZ takes) (NP (DT the) (JJ ldl) (NN cholesterol)) (PP (IN out) (PP (IN of) (NP (DT the) (NN blood))))) (. .)))
+#Rule:Nouns
+r1HDLOrganizationAnnotation
+r1cholesterolNN
+r1cholesterolNN
+r1bloodNN
+
+#Rule:Verbs
+r2takesVBZ
+
+#Rule:Adjs
+r4goodJJ
+r4ldlPersonAnnotation
+
+#Rule:Adj-Noun
+r5goodJJcholesterolNN
+r5ldlPersonAnnotationcholesterolNN
+
+#Rule:HeadNoun-V
+r11HDLOrganizationAnnotationtakesVBZ
+
+#Rule:V-HeadNoun
+r21takesVBZcholesterolNN
+
+#Rule:PPComboInVP
+r34takesVBZoutINbloodNN
+
+@lemmas-left	HDL	cause	deposit	increased	settles	lead	block	good	disease	takes	LDL	leads	blockages	artery	blockages.	heart	it	pressure	deposited	blood	cholesterol	blocking	ldl	take	coronary	increase	attack	settle	this	causes	arteries	
+@lemmas-right	is	heart	pressure	deposit	deposited	settles	lead	blood	disease	cholesterol	takes	leads	take	attack	settle	blockages	blockages.	be	
+@lemmas-center	to	into	where	out	around	

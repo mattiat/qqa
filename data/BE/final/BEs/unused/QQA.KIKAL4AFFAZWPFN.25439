@@ -1,0 +1,62 @@
+#Congratulations, you are the 199th person to ask this question..
+#(S1 (S (NP (NNS Congratulations)) (, ,) (NP (PRP you)) (VP (AUX are) (S (NP (DT the) (JJ 199th) (NN person)) (VP (TO to) (VP (VB ask) (NP (DT this) (NN question)))) (. .))) (. .)))
+#Rule:Nouns
+r1CongratulationsNNS
+r1personNN
+r1questionNN
+
+#Rule:Verbs
+r2askVB
+
+#Rule:Adjs
+r4199thJJ
+
+#Rule:Adj-Noun
+r5199thJJpersonNN
+
+#Rule:HeadNoun-V
+r11CongratulationsNNSareAUX
+r11youPRPareAUX
+r11personNNaskVB
+
+#Rule:V-HeadNoun
+r21askVBquestionNN
+
+#Rule:V-HeadNoun
+r22areAUXpersonNN
+
+#Try to enter sky and blue in the search categories field to find a multitude of answers.
+#(S1 (S (VP (VB Try) (S (VP (TO to) (VP (VB enter) (NP (NP (NN sky) (CC and) (NN blue)) (PP (IN in) (NP (DT the) (NN search) (NNS categories) (NN field)))) (S (VP (TO to) (VP (VB find) (NP (NP (DT a) (NN multitude)) (PP (IN of) (NP (NNS answers))))))))))) (. .)))
+#Rule:Nouns
+r1skyNN
+r1blueNN
+r1searchNN
+r1categoriesNNS
+r1fieldNN
+r1multitudeNN
+r1answersNNS
+
+#Rule:Verbs
+r2tryVB
+r2enterVB
+r2findVB
+
+#Rule:N-HeadNoun
+r8categoriesNNSfieldNN
+r8searchNNfieldNN
+
+#Rule:V-HeadNoun
+r21enterVBskyNN
+r21findVBmultitudeNN
+
+#Rule:PPinNP
+r26skyNNinINfieldNN
+r26multitudeNNofINanswersNNS
+
+#Rule:V-V
+r44tryVBenterVB
+r44enterVBfindVB
+
+@lemmas-left	multitude	person	199th	answers	answer	enter	you	congratulations	Congratulations	th	field	category	are	sky	blue	search	categories	question	ask	find	try	be	
+@lemmas-right	field	multitude	person	sky	are	answers	answer	enter	question	ask	find	be	
+@lemmas-center	of	in	

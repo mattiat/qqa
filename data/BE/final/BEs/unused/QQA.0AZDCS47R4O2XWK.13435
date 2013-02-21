@@ -1,0 +1,38 @@
+#Darwin made a brave move which made a lot of people nerves.
+#(S1 (S (NP (NNP Darwin)) (VP (VBD made) (NP (NP (DT a) (JJ brave) (NN move)) (SBAR (WHNP (WDT which)) (S (VP (VBD made) (NP (NP (DT a) (NN lot)) (PP (IN of) (NP (NNS people) (NNS nerves))))))))) (. .)))
+#Rule:Nouns
+r1DarwinPersonAnnotation
+r1moveNN
+r1lotNN
+r1peopleNNS
+r1nervesNNS
+
+#Rule:Verbs
+r2madeVBD
+r2madeVBD
+
+#Rule:Adjs
+r4braveJJ
+
+#Rule:Adj-Noun
+r5braveJJmoveNN
+
+#Rule:N-HeadNoun
+r8peopleNNSnervesNNS
+
+#Rule:HeadNoun-V
+r11DarwinPersonAnnotationmadeVBD
+
+#Rule:HeadNoun-(who/that)-V
+r14moveNNmadeVBD
+
+#Rule:V-HeadNoun
+r21madeVBDmoveNN
+r21madeVBDlotNN
+
+#Rule:PPinNP
+r26lotNNofINnervesNNS
+
+@lemmas-left	brave	nerves	made	lot	Darwin	make	people	move	
+@lemmas-right	nerves	made	lot	make	move	
+@lemmas-center	of	

@@ -1,0 +1,45 @@
+#know anything about dying from leukemia?  
+#(S1 (S (VP (VB know) (NP (NN anything)) (PP (IN about) (S (VP (VBG dying) (PP (IN from) (NP (NN leukemia))))))) (. ?)))
+#Rule:Nouns
+r1anythingNN
+r1leukemiaLocationAnnotation
+
+#Rule:Verbs
+r2knowVB
+r2dyingVBG
+
+#Rule:V-HeadNoun
+r21knowVBanythingNN
+
+#Rule:PPinVP
+r30dyingVBGfromINleukemiaLocationAnnotation
+
+#my husband is on his way&i don t know how to deal with it?
+#(S1 (S (NP (PRP$ my) (NN husband)) (VP (AUX is) (PP (IN on) (NP (PRP$ his) (NN way&i) (S (VP (VB don) (S (NP (NNS t)) (VP (VB know) (SBAR (WHADVP (WRB how)) (S (VP (TO to) (VP (VB deal) (PP (IN with) (NP (PRP it)))))))))))))) (. ?)))
+#Rule:Nouns
+r1husbandNN
+r1way&i donLocationAnnotation
+r1tNNS
+
+#Rule:Verbs
+r2knowVB
+r2dealVB
+
+#Rule:PRP-Noun
+r6myPRP$husbandNN
+r6hisPRP$way&i donLocationAnnotation
+
+#Rule:HeadNoun-V
+r11husbandNNisAUX
+r11tNNSknowVB
+
+#Rule:V-HeadNoun
+r22way&i donLocationAnnotationtNNS
+
+#Rule:PPinVP
+r30isAUXonINway&i donLocationAnnotation
+r30dealVBwithINitPRP
+
+@lemmas-left	is	way&i don	husband	know	my	anything	t	deal	his	leukemia	die	dying	be	
+@lemmas-right	is	it	t	anything	way&i don	leukemia	husband	know	be	
+@lemmas-center	with	on	from	

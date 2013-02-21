@@ -1,0 +1,70 @@
+#Why is there no one yet, who proved that there is no God ? 
+#(S1 (SBARQ (WHADVP (WRB Why)) (S (VP (AUX is) (ADVP (RB there)) (NP (NP (DT no) (NN one)) (ADVP (RB yet))) (, ,) (SBAR (WHNP (WP who)) (S (VP (VBD proved) (SBAR (IN that) (S (NP (EX there)) (VP (AUX is) (NP (DT no) (NNP God)))))))))) (. ?)))
+#Rule:Nouns
+r1oneNN
+r1GodNNP
+
+#Rule:Verbs
+r2provedVBD
+
+#Rule:HeadNoun-V
+r11thereEXisAUX
+
+#Rule:V-HeadNoun
+r21isAUXoneNN
+r21isAUXGodNNP
+
+#Rule:V-IN-V
+r43provedVBDthatINisAUX
+
+#Rule:V-ADV
+r46isAUXthereRB
+
+#(There were only non-believers,no scientific proof)On the other hand, For centuries There were billions of people who had their proofs of God.
+#(S1 (S (PRN (-LRB- -LRB-) (S (NP (EX There)) (VP (AUX were) (NP (NP (RB only) (NNS non-believers)) (, ,) (NP (DT no) (JJ scientific) (NN proof))))) (-RRB- -RRB-)) (PP (IN On) (NP (DT the) (JJ other) (NN hand))) (, ,) (PP (IN For) (NP (NNS centuries))) (NP (EX There)) (VP (AUX were) (NP (NP (NNS billions)) (PP (IN of) (NP (NP (NNS people)) (SBAR (WHNP (WP who)) (S (VP (AUX had) (NP (NP (PRP$ their) (NNS proofs)) (PP (IN of) (NP (NNP God))))))))))) (. .)))
+#Rule:Nouns
+r1non-believersNNS
+r1proofNN
+r1handNN
+r1For centuriesOrganizationAnnotation
+r1billionsNNS
+r1peopleNNS
+r1proofsNNS
+r1GodOrganizationAnnotation
+
+#Rule:Adjs
+r4scientificJJ
+r4otherJJ
+
+#Rule:Adj-Noun
+r5scientificJJproofNN
+r5otherJJhandNN
+
+#Rule:PRP-Noun
+r6theirPRP$proofsNNS
+
+#Rule:N-ApposN
+r10non-believersNNSproofNN
+
+#Rule:HeadNoun-V
+r11thereEXwereAUX
+r11thereEXwereAUX
+
+#Rule:HeadNoun-(who/that)-V
+r14peopleNNShadAUX
+
+#Rule:V-HeadNoun
+r21wereAUXnon-believersNNS
+r21wereAUXbillionsNNS
+r21hadAUXproofsNNS
+
+#Rule:PPinNP
+r26billionsNNSofINpeopleNNS
+r26proofsNNSofINGodOrganizationAnnotation
+
+#Rule:PPinS
+r36wereAUXonINhandNN
+
+@lemmas-left	prove	is	other	god	have	billion	one	proof	people	hand	proofs	non-believers	For centuries	were	there	scientific	God	their	believer	billions	had	proved	be	
+@lemmas-right	is	god	have	billion	one	proof	people	hand	non-believers	proofs	were	there	God	believer	billions	had	be	
+@lemmas-center	of	that	on	

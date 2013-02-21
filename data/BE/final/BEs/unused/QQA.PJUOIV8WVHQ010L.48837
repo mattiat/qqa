@@ -1,0 +1,22 @@
+#Big smile and big hug. 
+#(S1 (FRAG (NP (NP (JJ Big) (NN smile)) (CC and) (NP (JJ big) (NN hug))) (. .)))
+#Rule:Nouns
+r1smileNN
+r1hugNN
+
+#Rule:Adjs
+r4BigJJ
+r4bigJJ
+
+#Rule:Adj-Noun
+r5BigJJsmileNN
+r5bigJJhugNN
+
+#Works everywhere.
+#(S1 (FRAG (NP (NNP Works)) (ADVP (RB everywhere)) (. .)))
+#Rule:Nouns
+r1WorksNNP
+
+@lemmas-left	hug	Big	Works	big	smile	works	
+@lemmas-right	hug	smile	
+@lemmas-center	

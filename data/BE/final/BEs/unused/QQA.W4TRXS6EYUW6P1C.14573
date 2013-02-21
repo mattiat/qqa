@@ -1,0 +1,61 @@
+#Let me see if I have this reasoning correct.  
+#(S1 (S (VP (VB Let) (NP (PRP me)) (VP (VB see) (SBAR (IN if) (S (NP (PRP I)) (VP (AUX have) (ADJP (NP (DT this) (NN reasoning)) (JJ correct))))))) (. .)))
+#Rule:Nouns
+r1reasoningNN
+
+#Rule:Verbs
+r2letVB
+r2seeVB
+
+#Rule:Adjs
+r4correctJJ
+
+#Rule:HeadNoun-V
+r11iPRPhaveAUX
+
+#Rule:V-HeadNoun
+r21letVBmePRP
+
+#Rule:V-IN-V
+r43seeVBifINhaveAUX
+
+#Because most American males were subjected to a cruel procedure that they do not need all should?
+#(S1 (FRAG (SBAR (IN Because) (S (NP (JJS most) (JJ American) (NNS males)) (VP (AUX were) (VP (VBN subjected) (PP (TO to) (NP (DT a) (JJ cruel) (NN procedure))) (SBAR (IN that) (S (NP (PRP they)) (VP (AUX do) (RB not) (VP (AUX need) (NP (DT all) (X (MD should))))))))))) (. ?)))
+#Rule:Nouns
+r1malesNNS
+r1procedureNN
+
+#Rule:Verbs
+r2subjectedVBN
+
+#Rule:Adjs
+r4mostJJS
+r4AmericanJJ
+r4cruelJJ
+
+#Rule:Adj-Noun
+r5mostJJSmalesNNS
+r5AmericanJJmalesNNS
+r5cruelJJprocedureNN
+
+#Rule:HeadNoun-V
+r11theyPRPneedAUX
+
+#Rule:V-HeadNoun
+r21needAUXshouldMD
+
+#Rule:V-HeadNoun(passive)
+r23subjectedVBNmalesNNS
+
+#Rule:PPinVP
+r32subjectedVBNtoTOprocedureNN
+
+#Rule:V-IN-V
+r43subjectedVBNthatINneedAUX
+
+#Rule:V-ADV
+r46doAUXnotRB
+
+@lemmas-left	need	they	let	subject	American	male	males	most	subjected	cruel	i	reasoning	see	correct	american	do	procedure	
+@lemmas-right	not	need	have	male	males	me	should	procedure	
+@lemmas-center	to	that	if	

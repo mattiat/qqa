@@ -1,0 +1,47 @@
+#think about it this way. minus five AND minus eightnot minus five (minus) positive 8. so, minus 5 and minus 8 = minus 13positive 5 and positive 8 = positive 13minus 5 and positve 8= positive 3positive 5 and minus 8= minus 3Hope that helps
+#(S1 (S (VP (VBP think) (PP (PP (IN about) (NP (PRP it)) (NP (DT this) (CD way.) (CC minus) (CD five))) (CC AND) (PP (IN minus) (NP (NP (NN eightnot)) (CC minus) (NP (CD five) (-LRB- -LRB-) (NN minus) (-RRB- -RRB-) (JJ positive) (NN 8.))))) (ADVP (RB so)) (, ,) (PP (IN minus) (NP (NP (CD 5)) (CC and) (NP (CC minus) (NP (NP (CD 8)) (X (SYM =))) (CC minus) (NP (NP (JJ 13positive) (CD 5)) (CC and) (NP (NP (JJ positive) (CD 8)) (X (X (SYM =)) (NP (JJ positive) (NX (NX (JJ 13minus) (CD 5) (CC and) (NX (JJ positve) (ADJP (RB 8=) (JJ positive)) (JJ 3positive) (CD 5) (CC and) (NX (NN minus) (NNS 8=)))) (CC minus) (NX (NN 3Hope))))) (SBAR (WHNP (WDT that)) (S (VP (VBZ helps))))))))))))
+#Rule:Nouns
+r1eightnotNN
+r1minusNN
+r18NN
+r1minusNN
+r18=NNS
+r13HopeNN
+
+#Rule:Verbs
+r2thinkVBP
+r2helpsVBZ
+
+#Rule:Adjs
+r4positiveJJ
+r413positiveJJ
+r4positiveJJ
+r4positiveJJ
+r413minusJJ
+r4positveJJ
+r4positiveJJ
+r43positiveJJ
+
+#Rule:Adj-Noun
+r5fiveCDwayCD
+r5fiveCD8NN
+r5positiveJJ8NN
+r513positiveJJ5CD
+r5positiveJJ8CD
+r5positiveJJ13minusJJ
+
+#Rule:HeadNoun-(who/that)-V
+r148CDhelpsVBZ
+
+#Rule:PPinVP
+r30thinkVBPminusIN5CD
+r30thinkVBPminusIN8CD
+r30thinkVBPminusIN5CD
+r30thinkVBPminusIN8CD
+
+#Rule:V-ADV
+r46thinkVBPsoRB
+
+@lemmas-left	13minus	think	five	minus	3positive	helps	13positive	3Hope	positve	help	8.	eightnot	8	8=	positive	hope	
+@lemmas-right	13minus	help	minus	way.	8.	so	5	way	helps	8	
+@lemmas-center	minus	

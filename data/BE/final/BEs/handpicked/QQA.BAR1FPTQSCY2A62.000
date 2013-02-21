@@ -1,0 +1,45 @@
+#How can we protect not to get various cancers..
+#(S1 (SBARQ (WHADVP (WRB How)) (SQ (MD can) (NP (PRP we)) (VP (VB protect) (S (RB not) (VP (TO to) (VP (VB get) (NP (JJ various) (NNS cancers)))))) (. .)) (. .)))
+#Rule:Nouns
+r1cancersNNS
+
+#Rule:Verbs
+r2protectVB
+r2getVB
+
+#Rule:Adjs
+r4variousJJ
+
+#Rule:Adj-Noun
+r5variousJJcancersNNS
+
+#Rule:V-HeadNoun
+r21getVBcancersNNS
+
+#Rule:V-V
+r44protectVBgetVB
+
+#Is it just bad luck which can fall to to anyone ?
+#(S1 (SQ (AUX Is) (NP (PRP it)) (NP (NP (ADJP (RB just) (JJ bad)) (NN luck)) (SBAR (WHNP (WDT which)) (S (VP (MD can) (VP (VB fall) (PP (TO to)) (PP (TO to) (NP (NN anyone)))))))) (. ?)))
+#Rule:Nouns
+r1luckNN
+r1anyoneNN
+
+#Rule:Verbs
+r2fallVB
+
+#Rule:Adjs
+r4badJJ
+
+#Rule:Adj-Noun
+r5badJJluckNN
+
+#Rule:HeadNoun-(who/that)-V
+r14luckNNfallVB
+
+#Rule:PPinVP
+r30fallVBtoTOanyoneNN
+
+@lemmas-left	get	anyone	fall	luck	various	bad	protect	cancer	cancers	
+@lemmas-right	get	anyone	fall	luck	cancer	cancers	
+@lemmas-center	to	

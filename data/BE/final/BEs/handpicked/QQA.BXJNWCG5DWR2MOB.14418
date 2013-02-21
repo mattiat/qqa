@@ -1,0 +1,83 @@
+#1.It makes us know the time, date, and season.2. 
+#(S1 (S (NP (NNP 1.It)) (VP (VBZ makes) (S (NP (PRP us)) (VP (VB know) (NP (NP (DT the) (NN time)) (, ,) (NP (NN date)) (, ,) (CC and) (NP (CD season.2)))))) (. .)))
+#Rule:Nouns
+r11.ItNNP
+r1timeNN
+r1dateNN
+
+#Rule:Verbs
+r2makesVBZ
+r2knowVB
+
+#Rule:N-ApposN
+r10timeNNdateNN
+
+#Rule:HeadNoun-V
+r111.ItNNPmakesVBZ
+r11usPRPknowVB
+
+#Rule:V-HeadNoun
+r21knowVBtimeNN
+
+#Rule:V-HeadNoun
+r22makesVBZusPRP
+
+#An asteroid maybe on it s way to earth and we don t have enough time to drop a nuclear bomb on it.3. 
+#(S1 (S (S (NP (NP (DT An) (NN asteroid)) (PP (RB maybe) (IN on) (NP (PRP it)))) (VP (VBZ s) (NP (NP (NN way)) (PP (TO to) (NP (NN earth)))))) (CC and) (S (NP (PRP we)) (VP (VB don) (SBAR (S (NP (NNS t)) (VP (AUX have) (NP (NP (JJ enough) (NN time)) (SBAR (S (VP (TO to) (VP (VB drop) (NP (NP (DT a) (JJ nuclear) (NN bomb)) (PP (IN on) (NP (CD it.3)))))))))))))) (. .)))
+#Rule:Nouns
+r1asteroidLocationAnnotation
+r1wayNN
+r1earthNN
+r1tNNS
+r1timeNN
+r1bombNN
+
+#Rule:Verbs
+r2sVBZ
+r2donVB
+r2dropVB
+
+#Rule:Adjs
+r4enoughJJ
+r4nuclearJJ
+
+#Rule:Adj-Noun
+r5enoughJJtimeNN
+r5nuclearJJbombNN
+
+#Rule:HeadNoun-V
+r11asteroidLocationAnnotationsVBZ
+r11wePRPdonVB
+r11tNNShaveAUX
+
+#Rule:HeadNoun-(who/that)-V
+r14timeNNdropVB
+
+#Rule:V-HeadNoun
+r21sVBZwayNN
+r21haveAUXtimeNN
+r21dropVBbombNN
+
+#Rule:PPinNP
+r26asteroidLocationAnnotationonINitPRP
+r26wayNNtoTOearthNN
+r26bombNNonINit.3CD
+
+#About Mars, there might be aliens.
+#(S1 (S (PP (IN About) (NP (NNP Mars))) (, ,) (NP (EX there)) (VP (MD might) (VP (AUX be) (NP (NNS aliens)))) (. .)))
+#Rule:Nouns
+r1MarsPersonAnnotation
+r1aliensNNS
+
+#Rule:HeadNoun-V
+r11thereEXbeAUX
+
+#Rule:V-HeadNoun
+r21beAUXaliensNNS
+
+#Rule:PPinS
+r36mightMDaboutINMarsPersonAnnotation
+
+@lemmas-left	might	don	have	drop	way	Mars	date	enough	time	be	it	makes	1.It	us	asteroid	know	aliens	t	s	nuclear	bomb	there	alien	earth	make	we	
+@lemmas-right	it	don	have	makes	drop	way	Mars	us	date	aliens	know	time	s	bomb	it.3	alien	earth	make	be	
+@lemmas-center	to	about	on	

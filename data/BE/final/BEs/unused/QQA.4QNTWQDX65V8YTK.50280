@@ -1,0 +1,50 @@
+#it depends on when the doctors  catch it.if they catch it early enough they will beable to do radiationif they catch it a little later it has probably spread.it alll depends on what the cancer is.
+#(S1 (S (NP (PRP it)) (VP (VBZ depends) (PP (IN on) (SBAR (WHADVP (WRB when)) (S (NP (DT the) (NNS doctors)) (VP (VBP catch) (SBAR (IN it.if) (S (NP (PRP they)) (VP (VBP catch) (NP (PRP it)) (ADVP (RB early) (RB enough)) (SBAR (S (NP (PRP they)) (VP (MD will) (VP (VB beable) (S (VP (TO to) (VP (AUX do) (NP (NP (NN radiationif)) (SBAR (S (NP (PRP they)) (VP (VBP catch) (NP (PRP it)) (ADVP (NP (DT a) (JJ little)) (RB later)) (SBAR (S (NP (PRP it)) (VP (AUX has) (ADVP (RB probably)) (VP (VBN spread.it) (SBAR (S (NP (NN alll)) (VP (VBZ depends) (PP (IN on) (SBAR (WHNP (WP what)) (S (NP (DT the) (NN cancer)) (VP (AUX is))))))))))))))))))))))))))))))) (. .)))
+#Rule:Nouns
+r1doctorsNNS
+r1radiationifNN
+r1alllNN
+r1cancerNN
+
+#Rule:Verbs
+r2dependsVBZ
+r2catchVBP
+r2catchVBP
+r2beableVB
+r2catchVBP
+r2spread.itVBN
+r2dependsVBZ
+
+#Rule:Adjs
+r4littleJJ
+
+#Rule:HeadNoun-V
+r11itPRPdependsVBZ
+r11doctorsNNScatchVBP
+r11theyPRPcatchVBP
+r11theyPRPbeableVB
+r11theyPRPcatchVBP
+r11alllNNdependsVBZ
+r11cancerNNisAUX
+
+#Rule:HeadNoun-V
+r12itPRPspread.itVBN
+
+#Rule:V-HeadNoun
+r21catchVBPitPRP
+r21doAUXradiationifNN
+r21catchVBPitPRP
+
+#Rule:V-IN-V
+r43catchVBPit.ifINcatchVBP
+
+#Rule:V-ADV
+r46catchVBPearlyRB
+r46catchVBPenoughRB
+r46catchVBPlaterRB
+r46hasAUXprobablyRB
+r46spread.itVBNprobablyRB
+
+@lemmas-left	alll	they	it	have	depend	catch	little	spread.it	has	doctor	beable	radiationif	do	doctors	depends	cancer	
+@lemmas-right	is	it	depend	later	catch	spread.it	enough	beable	radiationif	probably	depends	early	be	
+@lemmas-center	it.if	

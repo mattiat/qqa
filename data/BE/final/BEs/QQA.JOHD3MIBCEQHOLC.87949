@@ -1,0 +1,24 @@
+#..by sheer will power.
+#(S1 (S (VP (VBN ..) (PP (IN by) (NP (JJ sheer) (NN will) (NN power)))) (. .)))
+#Rule:Nouns
+r1willNN
+r1powerNN
+
+#Rule:Verbs
+r2..VBN
+
+#Rule:Adjs
+r4sheerJJ
+
+#Rule:Adj-Noun
+r5sheerJJpowerNN
+
+#Rule:N-HeadNoun
+r8willNNpowerNN
+
+#Rule:V-By-Agent
+r13powerNN..VBN
+
+@lemmas-left	..	will	power	sheer	
+@lemmas-right	..	power	
+@lemmas-center	

@@ -1,0 +1,26 @@
+#how can you tell that your heart is healthy?
+#(S1 (SBARQ (WHADVP (WRB how)) (SQ (MD can) (NP (PRP you)) (VP (VB tell) (SBAR (IN that) (S (NP (PRP$ your) (NN heart)) (VP (AUX is) (ADJP (JJ healthy))))))) (. ?)))
+#Rule:Nouns
+r1heartNN
+
+#Rule:Verbs
+r2tellVB
+
+#Rule:Adjs
+r4healthyJJ
+
+#Rule:PRP-Noun
+r6yourPRP$heartNN
+
+#Rule:HeadNoun-V
+r11heartNNisAUX
+
+#Rule:V-ADJ
+r25isAUXhealthyJJ
+
+#Rule:V-IN-V
+r43tellVBthatINisAUX
+
+@lemmas-left	is	heart	your	healthy	tell	be	
+@lemmas-right	is	heart	healthy	be	
+@lemmas-center	that	

@@ -1,0 +1,54 @@
+BE: cancerNN
+EQ class: cancerousjj	malignant_neoplastic_diseasenn	
+
+BE: cellsNNS
+EQ class: cellnns	cellularjj	theynns	themnns	
+
+BE: spreadVB
+EQ class: distributevb	
+
+BE: cancerNNcellsNNS
+EQ class: malignant_neoplastic_diseasennthemnns	themnnsofincancerousjj	cancerousjjcellularjj	cancerousjjthemnns	theynnsofincancernn	cancerousjjcellnns	malignant_neoplastic_diseasenncellularvb	cellularjjofincancerousjj	cancernncellularvb	cellularvbcancerousjj	malignant_neoplastic_diseasenntheynns	cancernnthemnns	cellularjjofincancernn	cellularvbcancernn	cellularjjofinmalignant_neoplastic_diseasenn	themnnsofincancernn	cancerousjjtheynns	malignant_neoplastic_diseasenncellsnns	cellnnsofinmalignant_neoplastic_diseasenn	cellsnnsofinmalignant_neoplastic_diseasenn	theynnsofincancerousjj	cancerousjjcellularvb	cancernncellularjj	malignant_neoplastic_diseasenncellnns	theynnsofinmalignant_neoplastic_diseasenn	cellsnnsofincancernn	cellnnsofincancerousjj	cellsnnsofincancerousjj	cancernntheynns	cellularvbmalignant_neoplastic_diseasenn	malignant_neoplastic_diseasenncellularjj	cellnnsofincancernn	cancerousjjcellsnns	cancernncellnns	themnnsofinmalignant_neoplastic_diseasenn	
+
+BE: someoneNN
+EQ class: personnn	soulnn	individualnn	somebodynn	mortalnn	
+
+BE: cancerNN
+EQ class: cancerousjj	malignant_neoplastic_diseasenn	
+
+BE: bodyNN
+EQ class: physical_structurenn	bodilyjj	organic_structurenn	
+
+BE: partNN
+EQ class: constituentnn	componentnn	component_partnn	partialjj	portionnn	
+
+BE: partNN
+EQ class: constituentnn	componentnn	component_partnn	partialjj	portionnn	
+
+BE: spreadsVBZ
+EQ class: distributevbz	spreadvbz	
+
+BE: spreadVB
+EQ class: distributevb	
+
+BE: otherJJ
+EQ class: 
+
+BE: itPRPspreadsVBZ
+EQ class: spreadnnitprp	spreadingnnofinitprp	itprpspreadvbz	spreadernnofinitprp	spreadnnofinitprp	spreadernnitprp	spreadingnnitprp	itprpdistributevbz	
+
+BE: someoneNNhasAUX
+EQ class: personnnhasaux	rich_personnnofinpersonnn	individualnnhave_gotaux	somebodynnhasaux	havennofinsomebodynn	someonennhaveaux	wealthy_personnnofinpersonnn	someonennhave_gotaux	individualnnhasaux	personnnhaveaux	rich_personnnofinsoulnn	wealthy_personnnofinsomebodynn	wealthy_personnnofinsoulnn	personnnholdaux	mortalnnhave_gotaux	havennofinindividualnn	somebodynnhave_gotaux	wealthy_personnnofinsomeonenn	rich_personnnofinindividualnn	individualnnhaveaux	mortalnnhaveaux	soulnnhasaux	rich_personnnofinsomeonenn	havennofinpersonnn	mortalnnholdaux	soulnnholdaux	soulnnhaveaux	wealthy_personnnofinindividualnn	havennofinsomeonenn	somebodynnhaveaux	individualnnholdaux	somebodynnholdaux	rich_personnnofinmortalnn	havennofinsoulnn	soulnnhave_gotaux	rich_personnnofinsomebodynn	havennofinmortalnn	wealthy_personnnofinmortalnn	personnnhave_gotaux	someonennholdaux	mortalnnhasaux	
+
+BE: hasAUXcancerNN
+EQ class: hasauxcancerousjj	have_gotauxcancerousjj	have_gotauxmalignant_neoplastic_diseasenn	wealthy_personnnofincancerousjj	rich_personnnofinmalignant_neoplastic_diseasenn	rich_personnnofincancernn	haveauxcancerousjj	holdauxcancerousjj	holdauxmalignant_neoplastic_diseasenn	rich_personnnofincancerousjj	wealthy_personnnofincancernn	havennofinmalignant_neoplastic_diseasenn	wealthy_personnnofinmalignant_neoplastic_diseasenn	holdauxcancernn	havennofincancernn	have_gotauxcancernn	havennofincancerousjj	haveauxcancernn	haveauxmalignant_neoplastic_diseasenn	hasauxmalignant_neoplastic_diseasenn	
+
+BE: hereRBofINbodyNN
+EQ class: hererbofinphysical_structurenn	physical_structurennhererb	hererbofinorganic_structurenn	bodilyjjhererb	organic_structurennhererb	hererbofinbodilyjj	bodynnhererb	
+
+BE: hereRBofINsomeoneNN
+EQ class: hererbofinsoulnn	personnnhererb	hererbofinsomebodynn	somebodynnhererb	soulnnhererb	hererbofinindividualnn	hererbofinmortalnn	mortalnnhererb	individualnnhererb	someonennhererb	hererbofinpersonnn	
+
+BE: spreadsVBZtoTOpartNN
+EQ class: spreadsvbztotocomponent_partnn	spreadvbztotocomponentnn	spreadsvbztotoconstituentnn	distributevbztotopartialjj	spreadsvbztotocomponentnn	spreadvbztotopartnn	spreadvbztotoconstituentnn	distributevbztotoconstituentnn	spreadvbztotocomponent_partnn	distributevbztotoportionnn	spreadvbztotopartialjj	distributevbztotocomponentnn	distributevbztotopartnn	spreadsvbztotopartialjj	spreadsvbztotoportionnn	spreadvbztotoportionnn	distributevbztotocomponent_partnn	
+

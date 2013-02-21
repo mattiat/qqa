@@ -1,0 +1,194 @@
+#If you mean like overseas influence like American Linguistic Influence in Puerto Rico, well it affects the language style and the way they say words, for example the American culture is so wide spread the that instead of calling cars automobiles (spanish) they call them carros decending from the word car . 
+#(S1 (S (SBAR (IN If) (S (NP (PRP you)) (VP (VBP mean) (PP (IN like) (NP (NP (JJ overseas) (NN influence)) (PP (IN like) (NP (NNP American) (NNP Linguistic) (NN Influence))) (PP (IN in) (NP (NNP Puerto) (NNP Rico)))))))) (, ,) (RB well) (NP (PRP it)) (VP (VBZ affects) (NP (NP (DT the) (NN language) (NN style)) (CC and) (NP (NP (DT the) (NN way)) (SBAR (S (NP (PRP they)) (VP (VBP say) (NP (NNS words)) (, ,) (S (PP (IN for) (NP (NN example))) (NP (DT the) (JJ American) (NN culture)) (VP (AUX is) (ADJP (RB so) (JJ wide)) (PP (VBN spread) (NP (NP (DT the)) (SBAR (WHNP (IN that)) (S (PP (RB instead) (IN of) (S (VP (VBG calling) (NP (NNS cars)) (NP (NP (NNS automobiles)) (PRN (-LRB- -LRB-) (JJ spanish) (-RRB- -RRB-)))))) (NP (PRP they)) (VP (VBP call) (S (NP (PRP them)) (NP (NP (NNS carros)) (VP (VBG decending) (PP (IN from) (NP (DT the) (NN word) (NN car))))))))))))))))))) (. .)))
+#Rule:Nouns
+r1influenceNN
+r1American LinguisticOrganizationAnnotation
+r1InfluenceNN
+r1Puerto RicoLocationAnnotation
+r1languageNN
+r1styleNN
+r1wayNN
+r1wordsNNS
+r1exampleNN
+r1cultureNN
+r1carsNNS
+r1automobilesNNS
+r1carrosNNS
+r1wordNN
+r1carNN
+
+#Rule:Verbs
+r2meanVBP
+r2affectsVBZ
+r2sayVBP
+r2spreadVBN
+r2callingVBG
+r2callVBP
+r2decendingVBG
+
+#Rule:Adjs
+r4overseasJJ
+r4AmericanJJ
+r4wideJJ
+r4spanishLocationAnnotation
+
+#Rule:Adj-Noun
+r5overseasJJinfluenceNN
+r5AmericanJJcultureNN
+
+#Rule:N-HeadNoun
+r8American LinguisticOrganizationAnnotationInfluenceNN
+r8languageNNstyleNN
+r8wordNNcarNN
+
+#Rule:HeadNoun-V
+r11itPRPaffectsVBZ
+r11youPRPmeanVBP
+r11theyPRPsayVBP
+r11cultureNNisAUX
+r11theyPRPcallVBP
+r11carrosNNSdecendingVBG
+
+#Rule:V-HeadNoun
+r21affectsVBZstyleNN
+r21sayVBPwordsNNS
+r21callingVBGcarsNNS
+r21callingVBGautomobilesNNS
+
+#Rule:V-HeadNoun
+r22sayVBPcultureNN
+r22callVBPthemPRP
+r22callVBPcarrosNNS
+
+#Rule:V-ADJ
+r25isAUXwideJJ
+
+#Rule:PPinNP
+r26influenceNNlikeINInfluenceNN
+r26influenceNNinINPuerto RicoLocationAnnotation
+
+#Rule:PPinVP
+r30meanVBPlikeINinfluenceNN
+r30decendingVBGfromINcarNN
+
+#Rule:PPinS
+r36isAUXforINexampleNN
+
+#They say e-mail instead of mensaje electronico . 
+#(S1 (S (NP (PRP They)) (VP (VBP say) (NP (NN e-mail)) (PP (RB instead) (IN of) (NP (CD mensaje) (NN electronico)))) (. .)))
+#Rule:Nouns
+r1e-mailNN
+r1electronicoNN
+
+#Rule:Verbs
+r2sayVBP
+
+#Rule:Adj-Noun
+r5mensajeLocationAnnotationelectronicoNN
+
+#Rule:HeadNoun-V
+r11theyPRPsayVBP
+
+#Rule:V-HeadNoun
+r21sayVBPe-mailNN
+
+#Rule:PPinVP
+r30sayVBPofINelectronicoNN
+
+#Pronounce TV with an English accent like this - ti vi instead of te ve , in spanish. 
+#(S1 (NP (NP (NP (NNP Pronounce) (NNP TV)) (PP (IN with) (NP (NP (DT an) (JJ English) (NN accent)) (PP (IN like) (NP (DT this)))))) (: -) (NP (NP (NNP ti) (NNP vi)) (PP (RB instead) (IN of) (NP (JJ te) (NNS ve)))) (, ,) (PP (IN in) (NP (NNP spanish))) (. .)))
+#Rule:Nouns
+r1PronounceNNP
+r1TVNNP
+r1accentNN
+r1- ti viLocationAnnotation
+r1veNNS
+r1spanishNNP
+
+#Rule:Adjs
+r4EnglishJJ
+r4teJJ
+
+#Rule:Adj-Noun
+r5EnglishJJaccentNN
+r5teJJveNNS
+
+#Rule:N-HeadNoun
+r8PronounceNNPTVNNP
+
+#Rule:PPinNP
+r26TVNNPinINspanishNNP
+r26TVNNPwithINaccentNN
+r26accentNNlikeINthisDT
+r26- ti viLocationAnnotationofINveNNS
+
+#Call tv screens screens instead of pantalla .    
+#(S1 (S (VP (VB Call) (NP (NN tv) (NNS screens)) (NP (NP (NNS screens)) (PP (RB instead) (IN of) (NP (NN pantalla))))) (. .)))
+#Rule:Nouns
+r1Call tvPersonAnnotation
+r1screensNNS
+r1screensNNS
+r1pantalla .LocationAnnotation
+
+#Rule:N-HeadNoun
+r8Call tvPersonAnnotationscreensNNS
+
+#Rule:V-HeadNoun
+r21Call tvPersonAnnotationscreensNNS
+
+#Rule:PPinNP
+r26screensNNSofINpantalla .LocationAnnotation
+
+#In addition because of this in most cases it is made easier for Puerto Ricans to learn English faster and more efficiently than for example Peruvians, Mexicans, or any South American population.
+#(S1 (S (PP (IN In) (NP (NN addition))) (PP (IN because) (IN of) (NP (NP (DT this)) (PP (IN in) (NP (JJS most) (NNS cases))))) (NP (PRP it)) (VP (AUX is) (VP (VBN made) (S (ADJP (ADJP (JJR easier) (SBAR (IN for) (S (NP (NNP Puerto) (NNS Ricans)) (VP (TO to) (VP (VB learn) (NP (NNP English)) (ADVP (RBR faster) (CC and) (RBR more) (RB efficiently))))))) (PP (IN than) (PP (IN for) (NP (NN example)) (NP (NP (NNPS Peruvians)) (, ,) (NP (NNPS Mexicans)) (, ,) (CC or) (NP (DT any) (NNP South) (NNP American) (NN population))))))))) (. .)))
+#Rule:Nouns
+r1additionNN
+r1casesNNS
+r1Puerto RicansLocationAnnotation
+r1EnglishNNP
+r1exampleNN
+r1PeruviansNNPS
+r1MexicansNNPS
+r1South AmericanOrganizationAnnotation
+r1populationNN
+
+#Rule:Verbs
+r2madeVBN
+r2learnVB
+
+#Rule:Adjs
+r4mostJJS
+r4easierJJR
+
+#Rule:Adj-Noun
+r5mostJJScasesNNS
+
+#Rule:N-HeadNoun
+r8South AmericanOrganizationAnnotationpopulationNN
+
+#Rule:N-ApposN
+r10PeruviansNNPSMexicansNNPS
+
+#Rule:HeadNoun-V
+r11Puerto RicansLocationAnnotationlearnVB
+
+#Rule:V-HeadNoun
+r21learnVBEnglishNNP
+
+#Rule:V-HeadNoun(passive)
+r23madeVBNitPRP
+
+#Rule:PPinNP
+r26thisDTinINcasesNNS
+
+#Rule:PPinS
+r36isAUXinINadditionNN
+r36isAUXbecauseINthisDT
+r36isAUXofINthisDT
+
+#Rule:V-ADV
+r46learnVBefficientlyRB
+
+@lemmas-left	automobiles	they	affects	automobile	e-mail	te	Influence	Puerto Rico	peruvian	cars	be	screen	spanish	easier	mexican	American	Call tv	learn	mensaje	wide	overseas	American Linguistic	say	screens	word	Puerto Ricans	case	pantalla .	language	example	Pronounce	this	make	english	culture	TV	car	South American	Mexicans	call	carros	made	most	influence	way	calling	affect	easy	style	words	american	- ti vi	ve	mean	accent	population	Peruvians	is	it	cases	you	addition	pronounce	English	tv	electronico	spread	decending	
+@lemmas-right	car	automobiles	Mexicans	call	affects	carros	automobile	e-mail	influence	affect	Influence	style	words	Puerto Rico	cars	ve	mean	accent	population	be	screen	is	it	spanish	cases	mexican	efficiently	learn	wide	addition	English	them	tv	say	screens	case	pantalla .	example	electronico	english	this	decending	culture	TV	
+@lemmas-center	because	of	with	for	from	like	in	

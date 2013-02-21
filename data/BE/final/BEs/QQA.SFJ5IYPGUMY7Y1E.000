@@ -1,0 +1,70 @@
+#this is my thesis how would you help, advice and counsel someone with depression ?
+#(S1 (S (S (NP (DT this)) (VP (AUX is) (NP (PRP$ my) (NN thesis)))) (SBARQ (WHADVP (WRB how)) (SQ (MD would) (NP (PRP you)) (VP (VB help) (, ,) (NP (NP (NN advice)) (CC and) (NP (NP (NN counsel) (NN someone)) (PP (IN with) (NP (NN depression))))))) (. ?))))
+#Rule:Nouns
+r1thesisNN
+r1adviceNN
+r1counselNN
+r1someoneNN
+r1depressionNN
+
+#Rule:Verbs
+r2helpVB
+
+#Rule:PRP-Noun
+r6myPRP$thesisNN
+
+#Rule:N-HeadNoun
+r8counselNNsomeoneNN
+
+#Rule:HeadNoun-V
+r11thisDTisAUX
+
+#Rule:V-HeadNoun
+r21isAUXthesisNN
+r21helpVBadviceNN
+
+#Rule:PPinNP
+r26someoneNNwithINdepressionNN
+
+#i have looked everywhere for help on  this but have not been succesful yet, is there anyone who can help me with this please.
+#(S1 (S (NP (PRP i)) (VP (VP (AUX have) (VP (VBD looked) (ADVP (RB everywhere)) (PP (IN for) (NP (NP (NN help)) (PP (IN on) (NP (DT this))))))) (CC but) (VP (AUX have) (RB not) (VP (AUX been) (VP (JJ succesful) (ADVP (RB yet)) (, ,) (SBAR (S (VP (AUX is) (ADVP (RB there)) (NP (NP (NN anyone)) (SBAR (WHNP (WP who)) (S (VP (MD can) (VP (VB help) (S (NP (NP (PRP me)) (PP (IN with) (NP (DT this)))) (VP (VB please))))))))))))))) (. .)))
+#Rule:Nouns
+r1helpNN
+r1anyoneNN
+
+#Rule:Verbs
+r2lookedVBD
+r2helpVB
+r2pleaseVB
+
+#Rule:Adjs
+r4succesfulJJ
+
+#Rule:HeadNoun-V
+r11iPRPlookedVBD
+r11mePRPpleaseVB
+
+#Rule:HeadNoun-(who/that)-V
+r14anyoneNNhelpVB
+
+#Rule:V-HeadNoun
+r21isAUXanyoneNN
+
+#Rule:V-HeadNoun
+r22helpVBmePRP
+
+#Rule:PPinNP
+r26helpNNonINthisDT
+r26mePRPwithINthisDT
+
+#Rule:PPinVP
+r30lookedVBDforINhelpNN
+
+#Rule:V-ADV
+r46lookedVBDeverywhereRB
+r46haveAUXnotRB
+r46isAUXthereRB
+
+@lemmas-left	look	is	have	succesful	depression	my	i	thesis	help	please	looked	anyone	someone	me	advice	counsel	this	be	
+@lemmas-right	everywhere	look	is	depression	thesis	not	help	please	looked	anyone	there	someone	me	advice	this	be	
+@lemmas-center	with	for	on	

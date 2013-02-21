@@ -1,0 +1,93 @@
+BE: peopleNNS
+EQ class: theynns	themnns	
+
+BE: destinationNN
+EQ class: goalnn	finishnn	
+
+BE: journeyNN
+EQ class: journeyingnn	
+
+BE: focusVBP
+EQ class: centrevbp	concentratevbp	centervbp	rivetvbp	porevbp	
+
+BE: peopleNNSfocusVBP
+EQ class: focal_pointnnofinpeoplenns	peoplennscentervbp	focusingnnpeoplenns	focusingnntheynns	theynnsporevbp	focussingnnpeoplenns	focussingnnofinthemnns	focusnnofinthemnns	themnnsconcentratevbp	focusnnthemnns	focusingnnofintheynns	theynnscentrevbp	focussingnnofintheynns	directionnnofintheynns	centeringnnofintheynns	theynnscentervbp	peoplennscentrevbp	themnnsporevbp	centeringnntheynns	directionnnpeoplenns	directionnntheynns	centeringnnofinpeoplenns	focussingnnthemnns	themnnscentrevbp	focusingnnthemnns	peoplennsporevbp	theynnsfocusvbp	focussingnntheynns	focussingnnofinpeoplenns	focal_pointnnpeoplenns	focal_pointnntheynns	focal_pointnnofintheynns	focal_pointnnofinthemnns	focusnnpeoplenns	focusnntheynns	focusnnofintheynns	centeringnnofinthemnns	centeringnnpeoplenns	peoplennsrivetvbp	focal_pointnnthemnns	themnnsfocusvbp	directionnnofinpeoplenns	theynnsrivetvbp	focusnnofinpeoplenns	directionnnofinthemnns	focusingnnofinpeoplenns	directionnnthemnns	centeringnnthemnns	peoplennsconcentratevbp	theynnsconcentratevbp	themnnscentervbp	themnnsrivetvbp	focusingnnofinthemnns	
+
+BE: focusVBPonINdestinationNN
+EQ class: centrevbponingoalnn	porevbponinfinishnn	rivetvbponinfinishnn	porevbponindestinationnn	focusvbponingoalnn	porevbponingoalnn	centervbponingoalnn	concentratevbponindestinationnn	concentratevbponinfinishnn	focusvbponinfinishnn	centervbponinfinishnn	centrevbponindestinationnn	rivetvbponindestinationnn	centrevbponinfinishnn	centervbponindestinationnn	rivetvbponingoalnn	concentratevbponingoalnn	
+
+BE: focusVBPSometimesRB
+EQ class: rivetvbpsometimesrb	centervbpsometimesrb	focal_pointnnofinsometimesrb	focussingnnofinsometimesrb	centeringnnofinsometimesrb	focusnnofinsometimesrb	concentratevbpsometimesrb	directionnnofinsometimesrb	centrevbpsometimesrb	focusingnnofinsometimesrb	porevbpsometimesrb	
+
+BE: focusVBPratherRB
+EQ class: focal_pointnnofinratherrb	rivetvbpratherrb	focussingnnofinratherrb	porevbpratherrb	centervbpratherrb	centrevbpratherrb	centeringnnofinratherrb	directionnnofinratherrb	focusingnnofinratherrb	concentratevbpratherrb	focusnnofinratherrb	
+
+BE: wayNN
+EQ class: stylenn	fashionnn	modenn	mannernn	
+
+BE: partNN
+EQ class: constituentnn	componentnn	component_partnn	partialjj	portionnn	
+
+BE: favoritNN
+EQ class: 
+
+BE: OLocationAnnotation
+EQ class: o.locationannotation	
+
+BE: thinkVB
+EQ class: believevb	conceivevb	considervb	
+
+BE: decideVB
+EQ class: make_up_one's_mindvb	determinevb	
+
+BE: pleasuringVBG
+EQ class: 
+
+BE: saysVBZ
+EQ class: statevbz	tellvbz	sayvbz	
+
+BE: bigJJ
+EQ class: largejj	bignessnn	
+
+BE: bigJJOLocationAnnotation
+EQ class: bignessnno.locationannotation	bigjjo.locationannotation	largejjolocationannotation	bignessnnolocationannotation	largejjo.locationannotation	
+
+BE: yourPRP$favoritNN
+EQ class: 
+
+BE: partNNisAUX
+EQ class: partialjjisaux	constituentnnisaux	partialjjbeaux	componentnnisaux	component_partnnbeaux	component_partnnisaux	constituentnnbeaux	portionnnbeaux	componentnnbeaux	partnnbeaux	portionnnisaux	
+
+BE: itPRPhasAUX
+EQ class: rich_personnnofinitprp	havennofinitprp	wealthy_personnnofinitprp	itprphave_gotaux	itprpholdaux	itprphaveaux	
+
+BE: favoritNNsaysVBZ
+EQ class: favoritnntellvbz	favoritnnstatevbz	favoritnnsayvbz	saynnofinfavoritnn	
+
+BE: thinkVBitPRP
+EQ class: believevbitprp	considervbitprp	thoughtnnofinitprp	conceivevbitprp	ideannofinitprp	
+
+BE: thinkVBwayNN
+EQ class: considervbwaynn	thoughtnnofinwaynn	thinkvbfashionnn	thoughtnnofinfashionnn	conceivevbmannernn	thoughtnnofinmannernn	considervbfashionnn	conceivevbstylenn	ideannofinmannernn	believevbmannernn	considervbmodenn	thoughtnnofinmodenn	believevbwaynn	conceivevbmodenn	believevbmodenn	conceivevbfashionnn	ideannofinwaynn	thinkvbmannernn	ideannofinmodenn	conceivevbwaynn	thoughtnnofinstylenn	thinkvbmodenn	considervbmannernn	believevbstylenn	considervbstylenn	ideannofinfashionnn	thinkvbstylenn	ideannofinstylenn	believevbfashionnn	
+
+BE: pleasuringVBGyourselfPRP
+EQ class: 
+
+BE: isAUXfavoritNN
+EQ class: beauxfavoritnn	
+
+BE: beAUXallDT
+EQ class: 
+
+BE: allDTaboutINOLocationAnnotation
+EQ class: alldtaboutino.locationannotation	
+
+BE: thinkVBthroughRB
+EQ class: thoughtnnofinthroughrb	considervbthroughrb	conceivevbthroughrb	ideannofinthroughrb	believevbthroughrb	
+
+BE: isAUXreallyRB
+EQ class: existentjjininisaux	realjjininbeaux	realnessnnininbeaux	existentjjininbeaux	realitynnininisaux	realitynnininbeaux	realnessnnininisaux	realjjininisaux	beauxreallyrb	
+
+BE: favoritNNpartNN
+EQ class: constituentnnfavoritnn	favoritnnportionnn	partnnfavoritnn	favoritnnpartialjj	component_partnnfavoritnn	favoritnncomponent_partnn	componentnnfavoritnn	favoritnnconstituentnn	favoritnncomponentnn	partialjjfavoritnn	portionnnfavoritnn	
+

@@ -1,0 +1,429 @@
+#Sorry to hear about your Coronary Heart Disease..
+#(S1 (FRAG (ADJP (JJ Sorry)) (S (VP (TO to) (VP (VB hear) (PP (IN about) (NP (PRP$ your) (JJ Coronary) (NN Heart) (NN Disease))))) (. .)) (. .)))
+#Rule:Nouns
+r1Heart DiseaseOrganizationAnnotation
+
+#Rule:Verbs
+r2hearVB
+
+#Rule:Adjs
+r4SorryJJ
+r4CoronaryJJ
+
+#Rule:Adj-Noun
+r5CoronaryJJHeart DiseaseOrganizationAnnotation
+
+#Rule:PRP-Noun
+r6yourPRP$Heart DiseaseOrganizationAnnotation
+
+#Rule:PPinVP
+r30hearVBaboutINHeart DiseaseOrganizationAnnotation
+
+#Whatever you do DON T  fall victim to the cholesterol SCAMKeep an eye on HOMOCYSTEINE, BLOOD SUGAR (hopefully you are not a diabetic)  WEIGHT, STRESSAlso when the time comes consistently excercise, but discuss with your doctor what type and what intensity.tecStatins might be beneficial for someone in YOUR  situation because of their anti clotting anti inflamatory properties..
+#(S1 (S (SBAR (WHNP (WDT Whatever)) (S (NP (PRP you)) (VP (AUX do) (S (NP (NNP DON) (NNP T)) (VP (VB fall) (NP (NN victim)) (PP (TO to) (NP (DT the) (NN cholesterol) (NN SCAMKeep))))) (NP (NP (DT an) (NN eye)) (PP (IN on) (NP (NNP HOMOCYSTEINE))))))) (, ,) (NP (NN BLOOD) (NN SUGAR)) (-LRB- -LRB-) (ADVP (RB hopefully)) (NP (PRP you)) (VP (AUX are) (RB not) (NP (NP (DT a) (NNP diabetic) (-RRB- -RRB-) (NN WEIGHT)) (, ,) (NP (NP (NNP STRESSAlso)) (SBAR (WHADVP (WRB when)) (S (NP (DT the) (NN time)) (VP (VBZ comes) (ADJP (RB consistently) (JJ excercise)) (, ,) (CC but) (VP (VB discuss) (PP (IN with) (NP (PRP$ your) (NN doctor))) (SBAR (WHNP (WP what)) (FRAG (NP (NN type)) (CC and) (SBAR (WHNP (WP what)) (S (NP (NNS intensity.tecStatins)) (VP (MD might) (VP (AUX be) (ADJP (JJ beneficial) (PP (IN for) (NP (NP (NN someone)) (PP (IN in) (NP (PRP$ YOUR) (NN situation)))))) (PP (IN because) (IN of) (NP (PRP$ their) (NNS anti))) (S (VP (VBG clotting) (NP (NNS anti)) (NP (JJ inflamatory) (NNS properties)))))))) (. .)))))))))) (. .)))
+#Rule:Nouns
+r1DONLocationAnnotation
+r1TNNP
+r1victimNN
+r1cholesterolNN
+r1SCAMKeepNN
+r1eyeNN
+r1HOMOCYSTEINEOrganizationAnnotation
+r1BLOOD SUGAROrganizationAnnotation
+r1diabeticNNP
+r1WEIGHTNN
+r1STRESSAlsoNNP
+r1timeNN
+r1doctorNN
+r1typeNN
+r1intensity.tecStatinsNNS
+r1someoneNN
+r1situationNN
+r1antiNNS
+r1antiNNS
+r1propertiesNNS
+
+#Rule:Verbs
+r2fallVB
+r2comesVBZ
+r2discussVB
+r2clottingVBG
+
+#Rule:Adjs
+r4excerciseJJ
+r4beneficialJJ
+r4inflamatoryJJ
+
+#Rule:Adj-Noun
+r5inflamatoryJJpropertiesNNS
+
+#Rule:PRP-Noun
+r6yourPRP$doctorNN
+r6yourPRP$situationNN
+r6theirPRP$antiNNS
+
+#Rule:N-HeadNoun
+r8DONLocationAnnotationTNNP
+r8cholesterolNNSCAMKeepNN
+
+#Rule:N-ApposN
+r10WEIGHTNNSTRESSAlsoNNP
+
+#Rule:HeadNoun-V
+r11BLOOD SUGAROrganizationAnnotationareAUX
+r11youPRPareAUX
+r11youPRPdoAUX
+r11TNNPfallVB
+r11timeNNcomesVBZ
+r11timeNNdiscussVB
+r11intensity.tecStatinsNNSbeAUX
+
+#Rule:V-HeadNoun
+r21doAUXeyeNN
+r21fallVBvictimNN
+r21areAUXWEIGHTNN
+r21clottingVBGantiNNS
+r21clottingVBGpropertiesNNS
+
+#Rule:V-HeadNoun
+r22doAUXTNNP
+
+#Rule:V-ADJ
+r25beAUXbeneficialJJ
+
+#Rule:PPinNP
+r26eyeNNonINHOMOCYSTEINEOrganizationAnnotation
+r26someoneNNinINsituationNN
+
+#Rule:PPinVP
+r30fallVBtoTOSCAMKeepNN
+r30discussVBwithINdoctorNN
+r30beAUXofINantiNNS
+
+#Rule:PPinADJP
+r37beneficialJJforINsomeoneNN
+
+#Rule:(SBAR+WHADVP)inNP
+r41STRESSAlsoNNPwhenWRBdiscussVB
+
+#Rule:V-ADV
+r46areAUXhopefullyRB
+r46areAUXnotRB
+
+#Rule:IS-RULE
+r47WEIGHTNNBLOOD SUGAROrganizationAnnotation
+
+#NORT  because of LDL loweringICholesterol does not cause CHD.
+#(S1 (S (NP (NNP NORT)) (PP (IN because) (IN of) (NP (NNP LDL) (NN loweringICholesterol))) (VP (AUX does) (RB not) (VP (VB cause) (NP (NNS CHD)))) (. .)))
+#Rule:Nouns
+r1NORTNNP
+r1LDLOrganizationAnnotation
+r1loweringICholesterolNN
+r1CHDLocationAnnotation
+
+#Rule:Verbs
+r2causeVB
+
+#Rule:N-HeadNoun
+r8LDLOrganizationAnnotationloweringICholesterolNN
+
+#Rule:HeadNoun-V
+r11NORTNNPcauseVB
+
+#Rule:V-HeadNoun
+r21causeVBCHDLocationAnnotation
+
+#Rule:PPinS
+r36doesAUXbecauseINloweringICholesterolNN
+r36doesAUXofINloweringICholesterolNN
+
+#Rule:V-ADV
+r46doesAUXnotRB
+
+# Read here www.
+#(S1 (S (VP (VB Read) (ADVP (RB here) (RB www))) (. .)))
+#Rule:Verbs
+r2readVB
+
+#Rule:V-ADV
+r46readVBhereRB
+r46readVBwwwLocationAnnotation
+
+#ravnskov.
+#(S1 (X (NNP ravnskov) (. .)))
+#Rule:Nouns
+r1ravnskovLocationAnnotation
+
+#nu/cholesterol.
+#(S1 (X (NNP nu/cholesterol) (. .)))
+#Rule:Nouns
+r1nu/cholesterolNNP
+
+#htmwww.
+#(S1 (INTJ (UH htmwww) (. .)))
+#theomnivore.
+#(S1 (NP (FW theomnivore) (. .)))
+#comI suggest you read all the 18 Clinical Dietary Intervention Trials in Colpo s boook which show NOE BENEFIT to replacing saturated fat with polyunsaturatedYour atherosclerosis was FIBEROUS SCAR TISSUE SMOOTH MUSCLE CELLS MAINLY.
+#(S1 (S (NP (NNP comI)) (VP (VBP suggest) (SBAR (S (NP (PRP you)) (VP (VBP read) (NP (PDT all) (DT the) (CD 18) (JJ Clinical) (NNP Dietary) (NN Intervention) (NNS Trials)) (PP (IN in) (NP (NP (NNP Colpo) (NNP s) (NN boook)) (SBAR (WHNP (WDT which)) (S (VP (VBP show) (SBAR (S (NP (NP (NNP NOE) (NN BENEFIT)) (PP (TO to) (S (VP (VBG replacing) (NP (VBN saturated) (NN fat)) (PP (IN with) (NP (FW polyunsaturatedYour) (FW atherosclerosis))))))) (VP (AUX was) (NP (NP (JJ FIBEROUS) (NN SCAR) (NN TISSUE)) (ADVP (NP (JJ SMOOTH) (NN MUSCLE) (NNS CELLS)) (RB MAINLY))))))))))))))) (. .)))
+#Rule:Nouns
+r1comINNP
+r1DietaryNNP
+r1InterventionNN
+r1TrialsNNS
+r1ColpoLocationAnnotation
+r1sNNP
+r1boookNN
+r1NOENNP
+r1BENEFITNN
+r1fatNN
+r1SCARNN
+r1TISSUENN
+r1MUSCLENN
+r1CELLSNNS
+
+#Rule:Verbs
+r2suggestVBP
+r2readVBP
+r2showVBP
+r2replacingVBG
+r2saturatedVBN
+
+#Rule:Adjs
+r4ClinicalJJ
+r4FIBEROUSJJ
+r4SMOOTHJJ
+
+#Rule:Adj-Noun
+r518CDTrialsNNS
+r5ClinicalJJTrialsNNS
+r5saturatedVBNfatNN
+r5FIBEROUSJJTISSUENN
+r5SMOOTHJJCELLSNNS
+
+#Rule:N-HeadNoun
+r8InterventionNNTrialsNNS
+r8DietaryNNPTrialsNNS
+r8sNNPboookNN
+r8ColpoLocationAnnotationboookNN
+r8NOENNPBENEFITNN
+r8SCARNNTISSUENN
+r8MUSCLENNCELLSNNS
+
+#Rule:HeadNoun-V
+r11comINNPsuggestVBP
+r11youPRPreadVBP
+r11BENEFITNNwasAUX
+
+#Rule:HeadNoun-(who/that)-V
+r14boookNNshowVBP
+
+#Rule:V-HeadNoun
+r21readVBPTrialsNNS
+r21replacingVBGfatNN
+r21wasAUXTISSUENN
+
+#Rule:PPinVP
+r30readVBPinINboookNN
+r30replacingVBGwithINatherosclerosisFW
+
+#Rule:IS-RULE
+r47TISSUENNBENEFITNN
+
+#It is NOT wads of fa t NOR wads of cholesterol THIS  is  a LIEHuman atherosclerosis contains very  little cholesterol.
+#(S1 (S (NP (PRP It)) (VP (AUX is) (RB NOT) (NP (NP (NNS wads)) (PP (IN of) (NP (NP (JJ fa) (NNS t)) (CC NOR) (NP (NP (NNS wads)) (PP (IN of) (NP (NN cholesterol) (SBAR (S (NP (DT THIS)) (VP (AUX is) (NP (NP (DT a) (JJ LIEHuman) (NN atherosclerosis)) (SBAR (S (VP (VBZ contains) (NP (ADJP (RB very) (JJ little)) (NN cholesterol)))))))))))))))) (. .)))
+#Rule:Nouns
+r1wadsNNS
+r1t NOROrganizationAnnotation
+r1wadsNNS
+r1cholesterolNN
+r1atherosclerosisNN
+r1cholesterolNN
+
+#Rule:Verbs
+r2containsVBZ
+
+#Rule:Adjs
+r4faJJ
+r4LIEHumanOrganizationAnnotation
+r4littleJJ
+
+#Rule:Adj-Noun
+r5faJJt NOROrganizationAnnotation
+r5LIEHumanOrganizationAnnotationatherosclerosisNN
+r5littleJJcholesterolNN
+
+#Rule:HeadNoun-V
+r11itPRPisAUX
+r11thisDTisAUX
+
+#Rule:HeadNoun-(who/that)-V
+r14atherosclerosisNNcontainsVBZ
+
+#Rule:V-HeadNoun
+r21isAUXwadsNNS
+r21isAUXatherosclerosisNN
+r21containsVBZcholesterolNN
+
+#Rule:PPinNP
+r26wadsNNSofINt NOROrganizationAnnotation
+r26wadsNNSofINwadsNNS
+r26wadsNNSofINcholesterolNN
+
+#Rule:V-ADV
+r46isAUXNOTOrganizationAnnotation
+
+# It also contains very little fat.
+#(S1 (S (NP (PRP It)) (ADVP (RB also)) (VP (VBZ contains) (NP (ADJP (RB very) (JJ little)) (NN fat))) (. .)))
+#Rule:Nouns
+r1fatNN
+
+#Rule:Verbs
+r2containsVBZ
+
+#Rule:Adjs
+r4littleJJ
+
+#Rule:Adj-Noun
+r5littleJJfatNN
+
+#Rule:HeadNoun-V
+r11itPRPcontainsVBZ
+
+#Rule:V-HeadNoun
+r21containsVBZfatNN
+
+#Rule:V-ADV
+r46containsVBZalsoRB
+
+# Like I said earlier it is 90% FIBROUS SCAR TISSUE,  SMOOTH MUSCLE CELLS.
+#(S1 (S (IN Like) (NP (PRP I)) (VP (VBD said) (ADVP (RBR earlier)) (SBAR (S (NP (PRP it)) (VP (AUX is) (NP (ADJP (CD 90) (NN %)) (JJ FIBROUS) (NN SCAR) (NN TISSUE)) (, ,) (S (VP (VB SMOOTH) (NP (NN MUSCLE) (NNS CELLS)))))))) (. .)))
+#Rule:Nouns
+r1%NN
+r1SCARNN
+r1TISSUENN
+r1MUSCLENN
+r1CELLSNNS
+
+#Rule:Verbs
+r2saidVBD
+r2smoothVB
+
+#Rule:Adjs
+r4FIBROUSJJ
+
+#Rule:Adj-Noun
+r590CDTISSUENN
+r5FIBROUSJJTISSUENN
+
+#Rule:N-HeadNoun
+r8SCARNNTISSUENN
+r8MUSCLENNCELLSNNS
+
+#Rule:HeadNoun-V
+r11IOrganizationAnnotationsaidVBD
+r11itPRPisAUX
+
+#Rule:V-HeadNoun
+r21isAUXTISSUENN
+r21smoothVBCELLSNNS
+
+#Rule:V-MOD
+r45isAUXsmoothVB
+
+# IT RESEMBLES A SCABOut of the SMALL percentage of fats that they do contain 80 percent IS POLYUUNSATURATED NEXT IS MONOUNSATURATED .
+#(S1 (S (NP (PRP IT)) (VP (VBZ RESEMBLES) (NP (NP (DT A) (NN SCABOut)) (PP (IN of) (NP (NP (DT the) (JJ SMALL) (NN percentage)) (PP (IN of) (NP (NNS fats) (SBAR (IN that) (S (NP (PRP they)) (VP (AUX do) (VP (VB contain) (SBAR (S (NP (CD 80) (NN percent)) (VP (AUX IS) (VP (VBN POLYUUNSATURATED) (SBAR (S (NP (NNP NEXT)) (VP (AUX IS) (VP (VBN MONOUNSATURATED))))))))))))))))))) (. .)))
+#Rule:Nouns
+r1SCABOutNN
+r1percentageNN
+r1fatsNNS
+r1percentNN
+r1IS POLYUUNSATURATED NEXT IS MONOUNSATURATED .OrganizationAnnotation
+
+#Rule:Verbs
+r2resemblesVBZ
+r2containVB
+
+#Rule:Adjs
+r4SMALLJJ
+
+#Rule:Adj-Noun
+r5SMALLJJpercentageNN
+r580CDpercentNN
+
+#Rule:HeadNoun-V
+r11itPRPresemblesVBZ
+r11theyPRPcontainVB
+
+#Rule:V-HeadNoun
+r21resemblesVBZSCABOutNN
+
+#Rule:V-HeadNoun(passive)
+r23IS POLYUUNSATURATED NEXT IS MONOUNSATURATED .OrganizationAnnotationpercentNN
+
+#Rule:PPinNP
+r26SCABOutNNofINpercentageNN
+r26percentageNNofINfatsNNS
+
+# Satuares make  up the LEAST Keep the stress LOW.
+#(S1 (S (NP (NNS Satuares)) (VP (VBP make) (PRT (RP up)) (NP (DT the) (JJS LEAST)) (S (VP (VB Keep) (S (NP (DT the) (NN stress)) (ADJP (JJ LOW)))))) (. .)))
+#Rule:Nouns
+r1SatuaresNNS
+r1stressNN
+
+#Rule:Verbs
+r2keepVB
+
+#Rule:V-PRT
+r3makeVBPupRP
+
+#Rule:Adjs
+r4LEASTOrganizationAnnotation
+r4LOWLocationAnnotation
+
+#Rule:HeadNoun-V
+r11SatuaresNNSmakeVBP
+
+#Rule:V-HeadNoun
+r21makeVBPLEASTOrganizationAnnotation
+
+#Rule:V-HeadNoun
+r22keepVBstressNN
+
+# Daily excercise (light to moderate , whichever you are able to do  Wtach BLOOD  SUGAR LEVELS Watch C-Ractive protein levels and HOMOCYSTEINEBest of luck!
+#(S1 (S (NP (JJ Daily) (NN excercise)) (-LRB- -LRB-) (VP (VB light) (S (VP (TO to) (VP (VB moderate) (, ,) (SBAR (WHNP (WDT whichever)) (S (NP (PRP you)) (VP (AUX are) (ADJP (JJ able) (S (VP (TO to) (VP (AUX do) (NP (NNP Wtach) (NN BLOOD) (NN SUGAR) (NNS LEVELS) (NX (NX (NNP Watch) (JJ C-Ractive) (NN protein) (NNS levels)) (CC and) (NX (NX (NN HOMOCYSTEINEBest)) (PP (IN of) (NP (NN luck))))))))))))))))) (. !)))
+#Rule:Nouns
+r1excerciseNN
+r1Wtach BLOOD  SUGAR LEVELS WatchOrganizationAnnotation
+r1proteinNN
+r1levelsNNS
+r1HOMOCYSTEINEBestOrganizationAnnotation
+r1luckNN
+
+#Rule:Verbs
+r2lightVB
+r2moderateVB
+
+#Rule:Adjs
+r4DailyJJ
+r4ableJJ
+r4C-RactiveJJ
+
+#Rule:Adj-Noun
+r5DailyJJexcerciseNN
+
+#Rule:HeadNoun-V
+r11excerciseNNlightVB
+r11youPRPareAUX
+
+#Rule:V-HeadNoun
+r21doAUXWtach BLOOD  SUGAR LEVELS WatchOrganizationAnnotation
+
+#Rule:V-ADJ
+r25areAUXableJJ
+
+#Rule:V-V
+r44lightVBmoderateVB
+
+@lemmas-left	NOE	they	said	loweringicholesterol	benefit	scar	Intervention	Sorry	time	are	levels	protein	LOW	CHD	intensity.tecStatins	anti	SMALL	noe	%	cell	suggest	t NOR	diabetic	Dietary	saturate	Colpo	FIBROUS	discuss	coronary	say	Heart Disease	intensity.tecstatins	small	smooth	TISSUE	SMOOTH	Clinical	tissue	18	CELLS	atherosclerosis	stressalso	I	excercise	T	BLOOD SUGAR	IS POLYUUNSATURATED NEXT IS MONOUNSATURATED .	WEIGHT	intervention	C-Ractive	BENEFIT	do	clinical	loweringICholesterol	situation	trial	SCAR	LIEHuman	comi	90	fa	come	nort	replace	dietary	t	s	nu/cholesterol	fall	sorry	STRESSAlso	ravnskov	keep	percent	cause	little	resembles	contains	show	type	boook	SCAMKeep	doctor	hear	level	someone	fats	NORT	comI	80	light	be	eye	scamkeep	c-ractive	victim	luck	fat	stress	property	properties	comes	cholesterol	saturated	DON	fibrous	contain	clotting	make	this	wads	does	weight	resemble	clot	beneficial	was	LDL	Coronary	able	FIBEROUS	read	inflamatory	Satuares	HOMOCYSTEINEBest	is	it	scabout	percentage	HOMOCYSTEINE	your	Daily	moderate	muscle	replacing	you	daily	satuares	SCABOut	LEAST	MUSCLE	Wtach BLOOD  SUGAR LEVELS Watch	their	fiberous	Trials	
+@lemmas-right	percent	said	cause	loweringicholesterol	benefit	resembles	contains	hopefully	show	boook	SCAMKeep	doctor	are	NOT	someone	fats	light	eye	be	CHD	anti	scamkeep	victim	fat	cell	stress	here	property	properties	suggest	t NOR	cholesterol	comes	not	discuss	contain	say	Heart Disease	make	wads	smooth	weight	resemble	TISSUE	www	beneficial	tissue	CELLS	atherosclerosis	stressalso	was	excercise	T	BLOOD SUGAR	WEIGHT	able	BENEFIT	read	do	loweringICholesterol	situation	trial	is	scabout	percentage	HOMOCYSTEINE	moderate	come	SCABOut	up	LEAST	t	Wtach BLOOD  SUGAR LEVELS Watch	fall	STRESSAlso	also	Trials	
+@lemmas-center	because	to	of	with	for	when	about	on	in	

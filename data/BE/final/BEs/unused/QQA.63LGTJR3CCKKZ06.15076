@@ -1,0 +1,153 @@
+#Who would have known? 
+#(S1 (SBARQ (WHNP (WP Who)) (SQ (MD would) (VP (AUX have) (VP (VBN known)))) (. ?)))
+#Rule:Verbs
+r2knownVBN
+
+#Well the farmers would have known. 
+#(S1 (S (NP (RB Well) (DT the) (NNS farmers)) (VP (MD would) (VP (AUX have) (VP (VBN known)))) (. .)))
+#Rule:Nouns
+r1farmersNNS
+
+#Rule:Verbs
+r2knownVBN
+
+#Rule:HeadNoun-V
+r12farmersNNSknownVBN
+
+#Knowing exactly when to plant and when to harvest was a matter of life and death. 
+#(S1 (S (S (VP (VBG Knowing) (SBAR (SBAR (WHADVP (RB exactly) (WRB when)) (S (VP (TO to) (VP (VB plant))))) (CC and) (SBAR (WHADVP (WRB when)) (S (TO to) (VP (VBP harvest))))))) (VP (AUX was) (NP (NP (DT a) (NN matter)) (PP (IN of) (NP (NN life) (CC and) (NN death))))) (. .)))
+#Rule:Nouns
+r1matterNN
+r1lifeNN
+r1deathNN
+
+#Rule:Verbs
+r2knowingVBG
+r2plantVB
+r2harvestVBP
+
+#Rule:V-HeadNoun
+r21wasAUXmatterNN
+
+#Rule:PPinNP
+r26matterNNofINlifeNN
+
+#So farmers started keeping tabs on the days. 
+#(S1 (S (IN So) (NP (NNS farmers)) (VP (VBD started) (VP (VBG keeping) (NP (NNS tabs)) (PP (IN on) (NP (DT the) (NNS days))))) (. .)))
+#Rule:Nouns
+r1farmersNNS
+r1tabsNNS
+r1daysNNS
+
+#Rule:Verbs
+r2startedVBD
+r2keepingVBG
+
+#Rule:HeadNoun-V
+r11farmersNNSstartedVBD
+r11farmersNNSkeepingVBG
+
+#Rule:V-HeadNoun
+r21keepingVBGtabsNNS
+
+#Rule:PPinVP
+r30keepingVBGonINdaysNNS
+
+#Especially important was this for farmers in ancient egypt. 
+#(S1 (SINV (ADJP (RB Especially) (JJ important)) (VP (AUX was)) (NP (NP (DT this)) (PP (IN for) (NP (NP (NNS farmers)) (PP (IN in) (NP (JJ ancient) (NNP egypt)))))) (. .)))
+#Rule:Nouns
+r1farmersNNS
+r1egyptNNP
+
+#Rule:Adjs
+r4importantJJ
+r4ancientJJ
+
+#Rule:Adj-Noun
+r5ancientJJegyptNNP
+
+#Rule:PPinNP
+r26thisDTforINfarmersNNS
+r26farmersNNSinINegyptNNP
+
+#The river Nile floods yearly at very regular times. 
+#(S1 (S (NP (DT The) (NN river) (NNP Nile)) (VP (VBZ floods) (ADVP (RB yearly)) (PP (IN at) (NP (ADJP (RB very) (JJ regular)) (NNS times)))) (. .)))
+#Rule:Nouns
+r1riverNN
+r1NileNNP
+r1timesNNS
+
+#Rule:Verbs
+r2floodsVBZ
+
+#Rule:Adjs
+r4regularJJ
+
+#Rule:Adj-Noun
+r5regularJJtimesNNS
+
+#Rule:N-HeadNoun
+r8riverNNNileNNP
+
+#Rule:HeadNoun-V
+r11NileNNPfloodsVBZ
+
+#Rule:PPinVP
+r30floodsVBZatINtimesNNS
+
+#Rule:V-ADV
+r46floodsVBZyearlyRB
+
+#If you harvest too late, if you are off by even a day, all the food will be washed away. 
+#(S1 (S (SBAR (IN If) (S (NP (PRP you)) (VP (VBP harvest) (ADVP (RB too) (RB late))))) (, ,) (SBAR (IN if) (S (NP (PRP you)) (VP (AUX are) (ADVP (RP off) (PP (IN by) (NP (RB even) (DT a) (NN day))))))) (, ,) (NP (PDT all) (DT the) (NN food)) (VP (MD will) (VP (AUX be) (VP (VBN washed) (ADVP (RB away))))) (. .)))
+#Rule:Nouns
+r1dayNN
+r1foodNN
+
+#Rule:Verbs
+r2harvestVBP
+r2washedVBN
+
+#Rule:HeadNoun-V
+r11youPRPharvestVBP
+r11youPRPareAUX
+
+#Rule:V-HeadNoun(passive)
+r23washedVBNfoodNN
+
+#Rule:V-ADV
+r46harvestVBPtooRB
+r46harvestVBPlateRB
+r46washedVBNawayRB
+
+#So if the year got longer than predicted it would surely have been noted as people would starve.
+#(S1 (FRAG (ADVP (RB So)) (SBAR (IN if) (S (NP (DT the) (NN year)) (VP (VBD got) (VP (ADVP (RBR longer) (IN than)) (VBN predicted) (SBAR (S (NP (PRP it)) (VP (MD would) (ADVP (RB surely)) (VP (AUX have) (VP (AUX been) (VP (VBN noted) (SBAR (IN as) (S (NP (NNS people)) (VP (MD would) (VP (VB starve))))))))))))))) (. .)))
+#Rule:Nouns
+r1yearNN
+r1peopleNNS
+
+#Rule:Verbs
+r2gotVBD
+r2predictedVBN
+r2notedVBN
+r2starveVB
+
+#Rule:HeadNoun-V
+r11yearNNgotVBD
+r11peopleNNSstarveVB
+
+#Rule:V-HeadNoun(passive)
+r23notedVBNitPRP
+
+#Rule:V-HeadNoun(passive)
+r24predictedVBNyearNN
+
+#Rule:V-IN-V
+r43notedVBNasINstarveVB
+
+#Rule:V-ADV
+r46haveAUXsurelyRB
+
+@lemmas-left	plant	knowing	have	noted	tab	nile	people	was	life	ancient	farmer	times	wash	floods	year	note	be	get	regular	matter	death	important	predicted	you	know	egypt	starve	farmers	days	washed	start	predict	food	flood	Nile	day	harvest	known	started	keeping	got	this	tabs	keep	river	
+@lemmas-right	surely	tab	nile	life	are	farmer	times	floods	year	yearly	too	be	it	get	matter	know	egypt	starve	away	farmers	days	start	flood	food	late	Nile	keeping	started	known	harvest	got	tabs	keep	
+@lemmas-center	of	for	at	as	on	in	

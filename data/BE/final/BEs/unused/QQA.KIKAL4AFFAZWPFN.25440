@@ -1,0 +1,19 @@
+#STOP IT!!!
+#(S1 (S (VP (VB STOP) (NP (PRP IT)) (ADVP (RB !!))) (. !)))
+#Rule:Verbs
+r2STOP IT!!!OrganizationAnnotation
+
+#12th today
+#(S1 (NP (JJ 12th) (NN today)))
+#Rule:Nouns
+r1todayNN
+
+#Rule:Adjs
+r412thJJ
+
+#Rule:Adj-Noun
+r512thJJtodayNN
+
+@lemmas-left	12th	STOP IT!!!	today	
+@lemmas-right	today	
+@lemmas-center	

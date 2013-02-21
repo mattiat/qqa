@@ -1,0 +1,30 @@
+#how do i pass gre with more than 1500 score in 30 days.?
+#(S1 (SBARQ (WHADVP (WRB how)) (SQ (AUX do) (NP (PRP i)) (VP (VB pass) (NP (NNP gre)) (PP (IN with) (NP (NP (QP (JJR more) (IN than) (CD 1500)) (NN score)) (PP (IN in) (NP (CD 30) (NNS days)))))) (. .)) (. ?)))
+#Rule:Nouns
+r1greNNP
+r1scoreNN
+r1daysNNS
+
+#Rule:Verbs
+r2passVB
+
+#Rule:Adjs
+r4moreJJR
+
+#Rule:Adj-Noun
+r5moreJJRscoreNN
+r51500CDscoreNN
+r530CDdaysNNS
+
+#Rule:V-HeadNoun
+r21passVBgreNNP
+
+#Rule:PPinNP
+r26scoreNNinINdaysNNS
+
+#Rule:PPinVP
+r30passVBwithINscoreNN
+
+@lemmas-left	more	30	days	1500	score	gre	pass	
+@lemmas-right	days	score	gre	
+@lemmas-center	with	in	

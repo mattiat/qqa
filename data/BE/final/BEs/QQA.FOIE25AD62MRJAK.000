@@ -1,0 +1,103 @@
+#How can i control my sleep??
+#(S1 (SBARQ (WHADVP (WRB How)) (SQ (MD can) (NP (PRP i)) (VP (VB control) (NP (PRP$ my) (NN sleep))) (. ?)) (. ?)))
+#Rule:Nouns
+r1sleepNN
+
+#Rule:Verbs
+r2controlVB
+
+#Rule:PRP-Noun
+r6myPRP$sleepNN
+
+#Rule:V-HeadNoun
+r21controlVBsleepNN
+
+#I like to sleep a lot. Sometimes i sleep for 10+ hours in a day. Some people say its not healthy. Is there any way for me to control my sleep?thanks for your info sir, to provide more info, I am 19 years old. But, usually while sleeping, I have these dreams, and i can t seem to get out of them easily.
+#(S1 (S (S (NP (PRP I)) (VP (VBP like) (S (VP (TO to) (VP (VB sleep) (ADVP (NP (DT a) (NN lot.)) (RB Sometimes)) (S (NP (PRP i)) (VP (VB sleep) (PP (IN for) (NP (NP (CD 10+) (NNS hours)) (PP (IN in) (NP (NP (DT a) (NN day.)) (SBAR (S (NP (DT Some) (NNS people)) (VP (VBP say) (SBAR (S (NP (PRP$ its) (RB not) (JJ healthy.)) (VP (AUX Is) (ADVP (RB there)) (NP (NP (DT any) (NN way)) (SBAR (IN for) (S (NP (PRP me)) (VP (TO to) (VP (VB control) (NP (PRP$ my) (NN sleep)))) (. ?)))))))))))))) (NP (NP (NNS thanks)) (PP (IN for) (NP (NP (PRP$ your) (NN info)) (NP (NNP sir))))) (, ,) (S (VP (TO to) (VP (VB provide) (NP (JJR more) (NNS info)))))))))))) (, ,) (S (NP (PRP I)) (VP (AUX am) (ADJP (NP (CD 19) (NNS years)) (JJ old.)))) (CC But) (, ,) (S (SBAR (ADVP (RB usually)) (IN while) (S (VP (VBG sleeping)))) (, ,) (NP (PRP I)) (VP (AUX have) (NP (DT these) (NNS dreams)))) (, ,) (CC and) (S (NP (PRP i)) (VP (MD can) (ADVP (RB t)) (VP (VB seem) (S (VP (TO to) (VP (VB get) (ADVP (RB out) (PP (IN of) (NP (PRP them)) (ADVP (RB easily)))))))))) (. .)))
+#Rule:Nouns
+r1lotNN
+r1hoursNNS
+r1dayNN
+r1peopleNNS
+r1wayNN
+r1sleepNN
+r1thanksNNS
+r1infoNN
+r1sirNNP
+r1infoNNS
+r1yearsNNS
+r1dreamsNNS
+
+#Rule:Verbs
+r2likeVBP
+r2sleepVB
+r2sleepVB
+r2sayVBP
+r2controlVB
+r2provideVB
+r2sleepingVBG
+r2seemVB
+r2getVB
+
+#Rule:Adjs
+r4healthyJJ
+r4moreJJR
+r4oldJJ
+
+#Rule:Adj-Noun
+r510+CDhoursNNS
+r5moreJJRinfoNNS
+r519CDyearsNNS
+
+#Rule:PRP-Noun
+r6itsPRP$healthyJJ
+r6myPRP$sleepNN
+r6yourPRP$infoNN
+
+#Rule:HeadNoun-V
+r11iPRPlikeVBP
+r11iPRPsleepVB
+r11peopleNNSsayVBP
+r11healthyJJisAUX
+r11mePRPcontrolVB
+r11iPRPamAUX
+r11iPRPhaveAUX
+r11i can tOrganizationAnnotationseemVB
+
+#Rule:NP(NP(z) SBAR(S(NP(x)VP(y))))
+r19sayVBPdayNN
+
+#Rule:V-HeadNoun
+r21sleepVBthanksNNS
+r21isAUXwayNN
+r21controlVBsleepNN
+r21provideVBinfoNNS
+r21haveAUXdreamsNNS
+
+#Rule:V-HeadNoun
+r22sleepVBiPRP
+
+#Rule:PPinNP
+r26hoursNNSinINdayNN
+r26thanksNNSforINinfoNN
+r26thanksNNSforINsirNNP
+
+#Rule:PPinVP
+r30sleepVBforINhoursNNS
+
+#Rule:V-V
+r44likeVBPsleepVB
+r44sleepVBprovideVB
+r44seemVBgetVB
+
+#Rule:V-MOD
+r45sleepVBtoTO
+
+#Rule:V-ADV
+r46sleepVBSometimesRB
+r46isAUXthereRB
+r46getVBoutRB
+
+@lemmas-left	10+	old	lot.	dreams	provide	have	19	way	its	sleeping	people	info	i can t	thanks	more	old.	me	be	control	is	get	dream	hours	your	sleep	like	my	seem	i	healthy.	sir	day.	say	lot	healthy	day	years	
+@lemmas-right	to	Sometimes	dreams	provide	sometimes	have	way	info	thanks	be	control	is	get	dream	hours	like	sleep	seem	healthy.	i	sir	day.	am	there	say	healthy	years	day	out	
+@lemmas-center	for	in	

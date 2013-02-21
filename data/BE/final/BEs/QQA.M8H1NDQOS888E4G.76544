@@ -1,0 +1,40 @@
+#Eat less, exercise more..
+#(S1 (S (VP (VB Eat) (ADVP (ADVP (RBR less)) (, ,) (ADVP (NN exercise) (JJR more)) (. .))) (. .)))
+#Rule:Nouns
+r1exerciseNN
+
+#Rule:Verbs
+r2eatVB
+
+#Rule:Adjs
+r4moreJJR
+
+#Yes, it works, ecpecially if this is a change in life style.
+#(S1 (S (INTJ (UH Yes)) (, ,) (NP (PRP it)) (VP (VBZ works) (, ,) (SBAR (RB ecpecially) (IN if) (S (NP (DT this)) (VP (AUX is) (NP (NP (DT a) (NN change)) (PP (IN in) (NP (NN life) (NN style)))))))) (. .)))
+#Rule:Nouns
+r1changeNN
+r1lifeNN
+r1styleNN
+
+#Rule:Verbs
+r2worksVBZ
+
+#Rule:N-HeadNoun
+r8lifeNNstyleNN
+
+#Rule:HeadNoun-V
+r11itPRPworksVBZ
+r11thisDTisAUX
+
+#Rule:V-HeadNoun
+r21isAUXchangeNN
+
+#Rule:PPinNP
+r26changeNNinINstyleNN
+
+#Rule:V-IN-V
+r43worksVBZifINisAUX
+
+@lemmas-left	work	is	it	life	more	style	change	exercise	eat	this	be	works	
+@lemmas-right	work	is	style	change	be	works	
+@lemmas-center	if	in	

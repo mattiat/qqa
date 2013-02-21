@@ -1,0 +1,55 @@
+#how can i quit smoking cigarrette?
+#(S1 (SBARQ (WHADVP (WRB how)) (SQ (MD can) (NP (PRP i)) (VP (VB quit) (NP (NN smoking) (NN cigarrette)))) (. ?)))
+#Rule:Nouns
+r1smokingNN
+r1cigarretteNN
+
+#Rule:Verbs
+r2quitVB
+
+#Rule:N-HeadNoun
+r8smokingNNcigarretteNN
+
+#Rule:V-HeadNoun
+r21quitVBcigarretteNN
+
+#its been years that im smoking cigarrette and now i wanna quit can u give me advise how to???
+#(S1 (S (S (NP (PRP$ its)) (VP (AUX been) (NP (NP (NNS years)) (SBAR (WHNP (WDT that)) (S (VP (VBZ im) (NP (NN smoking) (NN cigarrette)))))))) (CC and) (S (ADVP (RB now)) (NP (PRP i)) (VP (NNP wanna) (VP (VBP quit) (SBAR (SINV (MD can) (NP (NNP u)) (VP (VB give) (S (NP (PRP me)) (VP (VB advise) (SBAR (WHADVP (WRB how)) (S (VP (TO to) (VP (VB ??))))))))))))) (. ?)))
+#Rule:Nouns
+r1yearsNNS
+r1smokingNN
+r1cigarretteNN
+r1i wannaLocationAnnotation
+r1uNNP
+
+#Rule:Verbs
+r2imVBZ
+r2quitVBP
+r2giveVB
+r2adviseVB
+r2??VB
+
+#Rule:N-HeadNoun
+r8smokingNNcigarretteNN
+
+#Rule:HeadNoun-V
+r11itsPRP$beenAUX
+r11i wannaLocationAnnotationquitVBP
+r11mePRPadviseVB
+
+#Rule:HeadNoun-(who/that)-V
+r14yearsNNSimVBZ
+
+#Rule:V-HeadNoun
+r21beenAUXyearsNNS
+r21imVBZcigarretteNN
+
+#Rule:V-HeadNoun
+r22giveVBmePRP
+
+#Rule:IS-RULE
+r47yearsNNSitsPRP$
+
+@lemmas-left	i wanna	give	cigarrette	advise	its	im	quit	been	??	u	smoking	me	years	be	
+@lemmas-right	cigarrette	advise	me	its	years	im	quit	been	be	
+@lemmas-center	

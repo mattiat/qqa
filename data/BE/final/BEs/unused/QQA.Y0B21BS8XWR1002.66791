@@ -1,0 +1,62 @@
+#They had green gills with blue scales and membranes between their fingers and toes.  
+#(S1 (S (NP (PRP They)) (VP (AUX had) (NP (NP (JJ green) (NNS gills)) (PP (IN with) (NP (NP (JJ blue) (NNS scales)) (CC and) (NP (NP (NNS membranes)) (PP (IN between) (NP (PRP$ their) (NNS fingers) (CC and) (NNS toes)))))))) (. .)))
+#Rule:Nouns
+r1gillsNNS
+r1scalesNNS
+r1membranesNNS
+r1fingersNNS
+r1toesLocationAnnotation
+
+#Rule:Adjs
+r4greenJJ
+r4blueJJ
+
+#Rule:Adj-Noun
+r5greenJJgillsNNS
+r5blueJJscalesNNS
+
+#Rule:PRP-Noun
+r6theirPRP$fingersNNS
+
+#Rule:HeadNoun-V
+r11theyPRPhadAUX
+
+#Rule:V-HeadNoun
+r21hadAUXgillsNNS
+
+#Rule:PPinNP
+r26gillsNNSwithINscalesNNS
+r26gillsNNSwithINmembranesNNS
+r26membranesNNSbetweenINfingersNNS
+
+#Sort of like what s found in WATER WORLD or SHADOW OVER INNSMOUTH.
+#(S1 (S (NP (NP (NN Sort)) (PP (IN of) (NP (JJ like))) (SBAR (WHNP (WP what)) (S (VP (VBZ s))))) (VP (VBD found) (PP (IN in) (NP (NN WATER) (NN WORLD) (CC or) (NN SHADOW))) (PP (IN OVER) (NP (NN INNSMOUTH)))) (. .)))
+#Rule:Nouns
+r1SortNN
+r1WATER WORLDOrganizationAnnotation
+r1SHADOWOrganizationAnnotation
+r1INNSMOUTHNN
+
+#Rule:Verbs
+r2sVBZ
+r2foundVBD
+
+#Rule:Adjs
+r4likeJJ
+
+#Rule:HeadNoun-V
+r11SortNNfoundVBD
+
+#Rule:HeadNoun-(who/that)-V
+r14SortNNsVBZ
+
+#Rule:PPinNP
+r26SortNNofINlikeJJ
+
+#Rule:PPinVP
+r30foundVBDinINWATER WORLDOrganizationAnnotation
+r30foundVBDoverININNSMOUTHNN
+
+@lemmas-left	WATER WORLD	Sort	scale	they	membranes	sort	innsmouth	have	scales	green	SHADOW	toes	gills	finger	like	s	blue	membrane	fingers	INNSMOUTH	gill	their	had	found	
+@lemmas-right	WATER WORLD	scale	membranes	innsmouth	scales	have	gills	finger	like	s	fingers	membrane	INNSMOUTH	gill	had	found	
+@lemmas-center	of	over	with	in	between	

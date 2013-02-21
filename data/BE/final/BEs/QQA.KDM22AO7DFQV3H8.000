@@ -1,0 +1,31 @@
+#does drinking a lot of water kill your appetite? 
+#(S1 (SQ (AUX does) (NP (NN drinking)) (NP (NP (DT a) (NN lot)) (PP (IN of) (NP (NN water)))) (VP (VB kill) (NP (PRP$ your) (NN appetite))) (. ?)))
+#Rule:Nouns
+r1drinkingNN
+r1lotNN
+r1waterNN
+r1appetiteNN
+
+#Rule:Verbs
+r2killVB
+
+#Rule:PRP-Noun
+r6yourPRP$appetiteNN
+
+#Rule:V-HeadNoun
+r21killVBappetiteNN
+
+#Rule:PPinNP
+r26lotNNofINwaterNN
+
+#how often should i drink it?
+#(S1 (SBARQ (WHADVP (WRB how) (RB often)) (SQ (MD should) (NP (PRP i)) (VP (VB drink) (NP (PRP it)))) (. ?)))
+#Rule:Verbs
+r2drinkVB
+
+#Rule:V-HeadNoun
+r21drinkVBitPRP
+
+@lemmas-left	water	drinking	drink	your	kill	lot	appetite	
+@lemmas-right	water	it	appetite	
+@lemmas-center	of	

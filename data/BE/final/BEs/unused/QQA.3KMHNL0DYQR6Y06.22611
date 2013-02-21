@@ -1,0 +1,111 @@
+#There is no reliable way to prevent appendicitis that will avoid death. Go to the doctor, get it checked out and get it fixed.  However, I ve never heard of appendicitis flaring up .  IANAD, but from what I ve heard, you get it, you get it fixed or you die..
+#(S1 (S (NP (EX There)) (VP (AUX is) (NP (NP (DT no) (JJ reliable) (NN way)) (SBAR (S (VP (TO to) (VP (VB prevent) (NP (NP (NNS appendicitis)) (SBAR (WHNP (WDT that)) (S (VP (MD will) (VP (VB avoid) (NP (NNS death.) (S (S (VP (VP (VB Go) (PP (TO to) (NP (DT the) (NN doctor)))) (, ,) (VP (VB get) (S (NP (PRP it)) (VP (VBN checked) (PRT (RP out))))) (CC and) (VP (VB get) (S (NP (PRP it)) (VP (VBN fixed.) (S (ADVP (RB However)) (, ,) (NP (PRP I)) (VP (VBP ve) (ADVP (RB never)) (VP (VBN heard) (PP (IN of) (NP (NP (NNS appendicitis)) (VP (VBG flaring) (ADVP (RB up))))))) (. .))))) (NP (NNP IANAD)))) (, ,) (CC but) (S (PP (IN from) (SBAR (WHNP (WP what)) (S (NP (PRP I)) (ADVP (RB ve)) (VP (VBD heard))))) (, ,) (NP (PRP you)) (VP (VBP get) (NP (PRP it)))) (, ,) (S (NP (PRP you)) (VP (VBP get) (S (NP (PRP it)) (VP (VBN fixed))))) (CC or) (S (NP (PRP you)) (VP (VBP die))) (. .)))))))))))))) (. .)))
+#Rule:Nouns
+r1wayNN
+r1appendicitisNNS
+r1deathNNS
+r1doctorNN
+r1appendicitisNNS
+r1.  IANADOrganizationAnnotation
+
+#Rule:Verbs
+r2preventVB
+r2avoidVB
+r2GoPersonAnnotation
+r2getVB
+r2getVB
+r2fixedVBN
+r2veVBP
+r2heardVBN
+r2flaringVBG
+r2heardVBD
+r2getVBP
+r2getVBP
+r2fixedVBN
+r2dieVBP
+
+#Rule:V-PRT
+r3checkedVBNoutRP
+
+#Rule:Adjs
+r4reliableJJ
+
+#Rule:Adj-Noun
+r5reliableJJwayNN
+
+#Rule:HeadNoun-V
+r11thereEXisAUX
+r11iPRPveVBP
+r11appendicitisNNSflaringVBG
+r11youPRPgetVBP
+r11iPRPheardVBD
+r11youPRPgetVBP
+r11youPRPdieVBP
+
+#Rule:HeadNoun-(who/that)-V
+r14wayNNpreventVB
+r14appendicitisNNSavoidVB
+
+#Rule:V-HeadNoun
+r21isAUXwayNN
+r21preventVBappendicitisNNS
+r21avoidVBdeathNNS
+r21GoPersonAnnotation.  IANADOrganizationAnnotation
+r21getVBPitPRP
+
+#Rule:V-HeadNoun
+r22getVBitPRP
+r22getVBitPRP
+r22fixedVBNiPRP
+r22getVBPitPRP
+
+#Rule:V-HeadNoun(passive)
+r24checkedVBNitPRP
+r24fixedVBNitPRP
+r24heardVBNiPRP
+r24fixedVBNitPRP
+
+#Rule:PPinVP
+r30GoPersonAnnotationtoTOdoctorNN
+
+#Rule:PPinVP
+r32heardVBNofINappendicitisNNS
+
+#Rule:V-ADV
+r46veVBPHoweverRB
+r46veVBPneverRB
+r46heardVBNneverRB
+r46flaringVBGupRB
+r46heardVBDveRB
+
+#Hopefully you ve gone to the doctor already.  I ll bet it s gallstones.
+#(S1 (S (ADVP (RB Hopefully)) (NP (PRP you)) (VP (VBP ve) (ADJP (VBN gone) (PP (TO to) (NP (NP (DT the) (NN doctor)) (VP (VBG already.) (S (NP (PRP I)) (ADVP (RB ll)) (VP (VBP bet) (SBAR (S (NP (PRP it)) (VP (VBZ s) (NP (NNS gallstones)))))))))))) (. .)))
+#Rule:Nouns
+r1doctorNN
+r1s gallstonesOrganizationAnnotation
+
+#Rule:Verbs
+r2veVBP
+r2goneVBN
+r2alreadyVBG
+r2betVBP
+
+#Rule:HeadNoun-V
+r11youPRPveVBP
+r11doctorNNalreadyVBG
+r11iPRPbetVBP
+r11itPRPs gallstonesOrganizationAnnotation
+
+#Rule:V-HeadNoun
+r22alreadyVBGiPRP
+
+#Rule:PPinADJP
+r37goneVBNtoTOdoctorNN
+
+#Rule:V-ADV
+r46veVBPHopefullyRB
+r46betVBPllRB
+
+@lemmas-left	reliable	way	fixed.	Go	fixed	doctor	avoid	hear	heard	fix	death.	ve	die	s gallstones	be	.  IANAD	appendicitis	is	it	already.	get	check	death	gone	prevent	you	already	i	bet	there	flare	checked	go	flaring	
+@lemmas-right	ll	However	way	hopefully	doctor	avoid	hear	heard	death.	die	ve	s gallstones	be	appendicitis	.  IANAD	is	it	however	get	already.	Hopefully	death	prevent	already	i	up	never	bet	flare	flaring	out	
+@lemmas-center	to	of	

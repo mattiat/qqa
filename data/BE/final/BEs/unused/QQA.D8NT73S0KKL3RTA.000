@@ -1,0 +1,18 @@
+#How do you get ride of stress?
+#(S1 (SBARQ (WHADVP (WRB How)) (SQ (AUX do) (NP (PRP you)) (VP (VB get) (NP (NP (NN ride)) (PP (IN of) (NP (NN stress)))))) (. ?)))
+#Rule:Nouns
+r1rideNN
+r1stressNN
+
+#Rule:Verbs
+r2getVB
+
+#Rule:V-HeadNoun
+r21getVBrideNN
+
+#Rule:PPinNP
+r26rideNNofINstressNN
+
+@lemmas-left	ride	get	stress	
+@lemmas-right	ride	stress	
+@lemmas-center	of	

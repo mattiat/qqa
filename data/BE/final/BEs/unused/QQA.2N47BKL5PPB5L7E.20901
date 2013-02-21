@@ -1,0 +1,104 @@
+#Getting there is the easy part. 
+#(S1 (S (S (VP (VBG Getting) (ADVP (RB there)))) (VP (AUX is) (NP (DT the) (JJ easy) (NN part))) (. .)))
+#Rule:Nouns
+r1partNN
+
+#Rule:Verbs
+r2gettingVBG
+
+#Rule:Adjs
+r4easyJJ
+
+#Rule:Adj-Noun
+r5easyJJpartNN
+
+#Rule:V-HeadNoun
+r21isAUXpartNN
+
+#Rule:V-ADV
+r46gettingVBGthereRB
+
+#Lifting off and getting back is the hard part. 
+#(S1 (S (S (VP (VP (VBG Lifting) (PRT (RP off))) (CC and) (VP (VBG getting) (ADVP (RB back))))) (VP (AUX is) (NP (DT the) (JJ hard) (NN part))) (. .)))
+#Rule:Nouns
+r1partNN
+
+#Rule:Verbs
+r2gettingVBG
+
+#Rule:V-PRT
+r3liftingVBGoffRP
+
+#Rule:Adjs
+r4hardJJ
+
+#Rule:Adj-Noun
+r5hardJJpartNN
+
+#Rule:V-HeadNoun
+r21isAUXpartNN
+
+#Rule:V-ADV
+r46gettingVBGbackRB
+
+#They would have to carry enough fuel for the entire journey, not to mention food, air etc etc. 
+#(S1 (S (NP (PRP They)) (VP (MD would) (VP (AUX have) (S (VP (TO to) (VP (VB carry) (NP (JJ enough) (NN fuel)) (PP (IN for) (NP (NP (DT the) (JJ entire) (NN journey)) (, ,) (CONJP (RB not) (TO to) (VB mention)) (NP (NN food)) (, ,) (ADJP (NN air) (FW etc) (FW etc))))))))) (. .)))
+#Rule:Nouns
+r1fuelNN
+r1journeyNN
+r1foodNN
+r1airNN
+
+#Rule:Verbs
+r2carryVB
+r2mentionVB
+
+#Rule:Adjs
+r4enoughJJ
+r4entireJJ
+
+#Rule:Adj-Noun
+r5enoughJJfuelNN
+r5entireJJjourneyNN
+
+#Rule:HeadNoun-V
+r11theyPRPhaveAUX
+
+#Rule:V-HeadNoun
+r21carryVBfuelNN
+
+#Rule:PPinVP
+r30carryVBforINjourneyNN
+r30carryVBforINfoodNN
+
+#Remember, unmanned probes just have to survive a one-way trip and the landing.
+#(S1 (S (INTJ (VB Remember)) (, ,) (NP (JJ unmanned) (NNS probes)) (ADVP (RB just)) (VP (AUX have) (S (VP (TO to) (VP (VB survive) (NP (NP (DT a) (JJ one-way) (NN trip)) (CC and) (NP (DT the) (NN landing))))))) (. .)))
+#Rule:Nouns
+r1probesNNS
+r1tripNN
+r1landingNN
+
+#Rule:Verbs
+r2rememberVB
+r2surviveVB
+
+#Rule:Adjs
+r4unmannedJJ
+r4one-wayJJ
+
+#Rule:Adj-Noun
+r5unmannedJJprobesNNS
+r5one-wayJJtripNN
+
+#Rule:HeadNoun-V
+r11probesNNShaveAUX
+
+#Rule:V-HeadNoun
+r21surviveVBtripNN
+
+#Rule:V-ADV
+r46haveAUXjustRB
+
+@lemmas-left	getting	they	remember	have	unmanned	enough	probes	probe	easy	landing	survive	fuel	mention	trip	hard	carry	be	is	get	journey	entire	one-way	food	lift	air	part	lifting	
+@lemmas-right	just	have	food	there	off	journey	fuel	back	trip	part	probes	probe	
+@lemmas-center	for	

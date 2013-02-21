@@ -1,0 +1,68 @@
+#How much of the sunlight does earth receive??
+#(S1 (SBARQ (WHADVP (WRB How) (NP (NP (JJ much)) (PP (IN of) (NP (DT the) (NN sunlight))))) (SQ (AUX does) (NP (NN earth)) (VP (VB receive)) (. ?)) (. ?)))
+#Rule:Nouns
+r1sunlightNN
+r1earthNN
+
+#Rule:Verbs
+r2receiveVB
+
+#Rule:Adjs
+r4muchJJ
+
+#Rule:PPinNP
+r26muchJJofINsunlightNN
+
+#What percentage of the sun s total sunlight or energy does the earth receive during a typical day?  A range would be fine?  Is it less than 1% or could it be greater than 30% -typcially.?
+#(S1 (SBARQ (WHNP (WP What) (NN percentage)) (SQ (PP (IN of) (S (S (NP (DT the) (NN sun)) (VP (VBZ s) (SBAR (S (NP (NP (JJ total) (NN sunlight)) (CC or) (NP (NN energy))) (VP (AUX does) (S (NP (DT the) (NN earth)) (VP (VB receive) (PP (IN during) (NP (DT a) (JJ typical) (NN day))))))))) (. ?)) (NP (DT A) (NN range)) (VP (MD would) (VP (AUX be) (ADJP (JJ fine)))) (. ?))) (AUX Is) (NP (PRP it)) (NP (QP (JJR less) (IN than) (CD 1)) (NN %)) (CC or) (SQ (MD could) (NP (PRP it)) (VP (AUX be) (ADJP (NP (QP (JJR greater) (IN than) (CD 30)) (NN %)) (JJ -typcially)))) (. .)) (. ?)))
+#Rule:Nouns
+r1percentageNN
+r1sunNN
+r1sunlightNN
+r1energyNN
+r1earthNN
+r1dayNN
+r1rangeNN
+r1%NN
+r1%NN
+
+#Rule:Verbs
+r2sVBZ
+r2receiveVB
+
+#Rule:Adjs
+r4totalJJ
+r4typicalJJ
+r4fineJJ
+r4lessJJR
+r4greaterJJR
+r4-typciallyJJ
+
+#Rule:Adj-Noun
+r5totalJJsunlightNN
+r5typicalJJdayNN
+r5lessJJR%NN
+r51CD%NN
+r5greaterJJR%NN
+r530CD%NN
+
+#Rule:HeadNoun-V
+r11rangeNNbeAUX
+r11sunNNsVBZ
+r11sunlightNNdoesAUX
+r11energyNNdoesAUX
+r11earthNNreceiveVB
+
+#Rule:V-HeadNoun
+r22doesAUXearthNN
+
+#Rule:V-ADJ
+r25beAUXfineJJ
+r25beAUX-typciallyJJ
+
+#Rule:PPinVP
+r30receiveVBduringINdayNN
+
+@lemmas-left	does	total	greater	range	-typcially	percentage	%	sunlight	much	sun	1	typical	30	s	do	earth	day	fine	receive	less	energy	be	
+@lemmas-right	does	s	-typcially	%	do	earth	day	sunlight	fine	receive	be	
+@lemmas-center	of	during	

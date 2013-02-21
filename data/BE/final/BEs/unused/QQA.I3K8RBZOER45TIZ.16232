@@ -1,0 +1,102 @@
+#Bexxar has not proven itself the be a better medication than other available therapies. 
+#(S1 (S (NP (NNP Bexxar)) (VP (AUX has) (RB not) (VP (VBN proven) (NP (PRP itself) (DT the)) (VP (AUX be) (NP (NP (DT a) (JJR better) (NN medication)) (PP (IN than) (NP (JJ other) (JJ available) (NNS therapies))))))) (. .)))
+#Rule:Nouns
+r1BexxarOrganizationAnnotation
+r1medicationNN
+r1therapiesNNS
+
+#Rule:Verbs
+r2provenVBN
+
+#Rule:Adjs
+r4betterJJR
+r4otherJJ
+r4availableJJ
+
+#Rule:Adj-Noun
+r5betterJJRmedicationNN
+r5otherJJtherapiesNNS
+r5availableJJtherapiesNNS
+
+#Rule:HeadNoun-V
+r11BexxarOrganizationAnnotationbeAUX
+
+#Rule:HeadNoun-V
+r12BexxarOrganizationAnnotationprovenVBN
+
+#Rule:V-HeadNoun
+r21provenVBNtheDT
+r21beAUXmedicationNN
+
+#Rule:PPinNP
+r26medicationNNthanINtherapiesNNS
+
+#Rule:V-ADV
+r46hasAUXnotRB
+
+#Rule:IS-RULE
+r47medicationNNBexxarOrganizationAnnotation
+
+#Don t get angry with your oncologist, he/she may have a good reason for not prescribing this drug. 
+#(S1 (S (S (NP (NNP Don) (NNP t)) (VP (VB get) (ADJP (JJ angry) (PP (IN with) (NP (PRP$ your) (NN oncologist)))))) (, ,) (NP (NN he/she)) (VP (MD may) (VP (AUX have) (NP (NP (DT a) (JJ good) (NN reason)) (PP (IN for) (S (RB not) (VP (VBG prescribing) (NP (DT this) (NN drug)))))))) (. .)))
+#Rule:Nouns
+r1Don tPersonAnnotation
+r1oncologistNN
+r1he/sheNN
+r1reasonNN
+r1drugNN
+
+#Rule:Verbs
+r2getVB
+r2prescribingVBG
+
+#Rule:Adjs
+r4angryJJ
+r4goodJJ
+
+#Rule:Adj-Noun
+r5goodJJreasonNN
+
+#Rule:PRP-Noun
+r6yourPRP$oncologistNN
+
+#Rule:HeadNoun-V
+r11he/sheNNhaveAUX
+r11Don tPersonAnnotationgetVB
+
+#Rule:V-HeadNoun
+r21haveAUXreasonNN
+r21prescribingVBGdrugNN
+
+#Rule:PPinADJP
+r37angryJJwithINoncologistNN
+
+#Maybe if you talk them about it they can explain why they don t prescribe Bexxar for you.
+#(S1 (S (ADVP (ADVP (RB Maybe)) (SBAR (IN if) (S (NP (PRP you)) (VP (VBP talk) (NP (PRP them)) (PP (IN about) (NP (PRP it))))))) (NP (PRP they)) (VP (MD can) (VP (VB explain) (SBAR (WHADVP (WRB why)) (S (NP (PRP they)) (VP (VB don) (SBAR (S (NP (NNS t)) (VP (VBP prescribe) (NP (NNP Bexxar)) (PP (IN for) (NP (PRP you))))))))))) (. .)))
+#Rule:Nouns
+r1tNNS
+r1BexxarOrganizationAnnotation
+
+#Rule:Verbs
+r2talkVBP
+r2explainVB
+r2donVB
+r2prescribeVBP
+
+#Rule:HeadNoun-V
+r11theyPRPexplainVB
+r11youPRPtalkVBP
+r11theyPRPdonVB
+r11tNNSprescribeVBP
+
+#Rule:V-HeadNoun
+r21talkVBPthemPRP
+r21prescribeVBPBexxarOrganizationAnnotation
+
+#Rule:PPinVP
+r30talkVBPaboutINitPRP
+r30prescribeVBPforINyouPRP
+
+@lemmas-left	Don t	they	other	Bexxar	don	have	proven	reason	prescribe	angry	good	has	he/she	be	drug	talk	medication	prove	get	your	oncologist	you	available	therapies	t	better	explain	therapy	prescribing	
+@lemmas-right	medication	prove	it	Bexxar	don	get	proven	reason	have	prescribe	oncologist	you	the	therapies	not	them	explain	therapy	talk	drug	be	
+@lemmas-center	with	for	than	about	

@@ -1,0 +1,43 @@
+#Dear One, I m so very sorry about your husband..
+#(S1 (S (ADVP (RB Dear)) (NP (PRP One)) (, ,) (NP (PRP I)) (VP (NNP m) (ADJP (ADJP (RB so) (RB very) (JJ sorry)) (PP (IN about) (NP (PRP$ your) (NN husband))) (. .))) (. .)))
+#Rule:Nouns
+r1mNNP
+r1husbandNN
+
+#Rule:Adjs
+r4sorryJJ
+
+#Rule:PRP-Noun
+r6yourPRP$husbandNN
+
+#Rule:PPinADJP
+r37sorryJJaboutINhusbandNN
+
+#Here is a good site for disease info:http://www.leukemia-lymphoma.org/hm_llsBest wishes
+#(S1 (SINV (ADVP (RB Here)) (AUX is) (NP (NP (DT a) (JJ good) (NN site)) (PP (IN for) (NP (NP (NN disease) (NNS info)) (: :) (NP (NNS http)) (: :) (NP (JJ //www.leukemia-lymphoma.org/hm_llsBest) (NNS wishes)))))))
+#Rule:Nouns
+r1siteNN
+r1diseaseNN
+r1infoNNS
+r1http://www.leukemiaPersonAnnotation
+r1lymphoma.org/hm_llsBest wishesPersonAnnotation
+
+#Rule:Adjs
+r4goodJJ
+r4//www.leukemia-lymphoma.org/hm_llsBestJJ
+
+#Rule:Adj-Noun
+r5goodJJsiteNN
+r5//www.leukemia-lymphoma.org/hm_llsBestJJlymphoma.org/hm_llsBest wishesPersonAnnotation
+
+#Rule:N-HeadNoun
+r8diseaseNNinfoNNS
+
+#Rule:PPinNP
+r26siteNNforINinfoNNS
+r26siteNNforINhttp://www.leukemiaPersonAnnotation
+r26siteNNforINlymphoma.org/hm_llsBest wishesPersonAnnotation
+
+@lemmas-left	http://www.leukemia	site	your	sorry	good	m	//www.leukemia-lymphoma.org/hm_llsbest	disease	husband	lymphoma.org/hm_llsBest wishes	//www.leukemia-lymphoma.org/hm_llsBest	info	
+@lemmas-right	http://www.leukemia	site	husband	lymphoma.org/hm_llsBest wishes	info	
+@lemmas-center	for	about	

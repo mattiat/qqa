@@ -1,0 +1,68 @@
+#How do you start in showbiz??
+#(S1 (SBARQ (WHADVP (WRB How)) (SQ (AUX do) (NP (PRP you)) (VP (VB start) (PP (IN in) (NP (NNP showbiz)))) (. ?)) (. ?)))
+#Rule:Nouns
+r1showbizNNP
+
+#Rule:Verbs
+r2startVB
+
+#Rule:PPinVP
+r30startVBinINshowbizNNP
+
+#I always hear that you need to act in plays and the like, but c mon, I don t think Brad Pitt, Johnny Depp and others did that.  How do you get an agent then???
+#(S1 (S (NP (PRP I)) (ADVP (RB always)) (VP (VBP hear) (SBAR (IN that) (S (NP (PRP you)) (VP (AUX need) (S (VP (TO to) (VP (VB act) (PP (IN in) (NP (NP (NNS plays)) (CC and) (NP (DT the) (JJ like)))) (, ,) (S (CC but) (S (FRAG (X (SYM c)) (NP (NN mon))) (, ,) (NP (PRP I)) (VP (VB don) (S (NP (NNS t)) (VP (VB think) (SBAR (S (NP (NP (NNP Brad) (NNP Pitt)) (, ,) (NP (NNP Johnny) (NNP Depp)) (CC and) (NP (NNS others))) (VP (AUX did) (VP (VB that.) (SBARQ (WHADVP (WRB How)) (SQ (AUX do) (NP (PRP you)) (VP (VB get) (NP (NP (DT an) (NN agent)) (ADJP (RB then) (JJ ??)))))))))))))))))))))) (. ?)))
+#Rule:Nouns
+r1playsNNS
+r1c monPersonAnnotation
+r1tNNS
+r1Brad PittOrganizationAnnotation
+r1Johnny DeppOrganizationAnnotation
+r1othersNNS
+r1agentNN
+
+#Rule:Verbs
+r2hearVBP
+r2actVB
+r2donVB
+r2thinkVB
+r2thatVB
+r2getVB
+
+#Rule:Adjs
+r4likeJJ
+r4??JJ
+
+#Rule:Adj-Noun
+r5??JJagentNN
+
+#Rule:N-ApposN
+r10Brad PittOrganizationAnnotationJohnny DeppOrganizationAnnotation
+
+#Rule:HeadNoun-V
+r11iPRPhearVBP
+r11youPRPneedAUX
+r11iPRPdonVB
+r11tNNSthinkVB
+r11Brad PittOrganizationAnnotationthatVB
+r11Johnny DeppOrganizationAnnotationthatVB
+r11othersNNSthatVB
+
+#Rule:V-HeadNoun
+r21getVBagentNN
+
+#Rule:V-HeadNoun
+r22donVBtNNS
+
+#Rule:PPinVP
+r30actVBinINplaysNNS
+r30actVBinINlikeJJ
+
+#Rule:V-IN-V
+r43hearVBPthatINneedAUX
+
+#Rule:V-ADV
+r46hearVBPalwaysRB
+
+@lemmas-left	think	others	get	don	that.	play	you	plays	Johnny Depp	like	agent	showbiz	i	??	that	hear	t	start	c mon	Brad Pitt	act	
+@lemmas-right	need	think	don	that.	play	Johnny Depp	plays	always	like	agent	showbiz	that	hear	t	
+@lemmas-center	that	in	

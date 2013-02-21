@@ -1,0 +1,57 @@
+BE: LightNN
+EQ class: visible_lightnn	visible_radiationnn	
+
+BE: sunNN
+EQ class: 
+
+BE: chemicalNN
+EQ class: chemical_substancenn	chemicaljj	
+
+BE: airNN
+EQ class: 
+
+BE: skyNN
+EQ class: 
+
+BE: !!NNS
+EQ class: theynns	themnns	!.!.nns	
+
+BE: comesVBZ
+EQ class: comevbz	come_upvbz	
+
+BE: hittingVBG
+EQ class: hitvbg	
+
+BE: seeVBP
+EQ class: 
+
+BE: blueJJ
+EQ class: bluenessnn	blueishjj	bluishjj	
+
+BE: blueJJ!!NNS
+EQ class: bluejjthemnns	bluenessnn!!nns	bluishjj!!nns	blueishjj!.!.nns	bluenessnntheynns	blueishjjthemnns	bluenessnnthemnns	bluenessnn!.!.nns	bluishjjtheynns	bluejjtheynns	bluishjjthemnns	blueishjj!!nns	bluejj!.!.nns	bluishjj!.!.nns	blueishjjtheynns	
+
+BE: LightNNcomesVBZ
+EQ class: visible_lightnncomesvbz	approachingnnvisible_radiationnn	approachingnnvisible_lightnn	visible_radiationnncomevbz	approachnnofinvisible_radiationnn	approachnnvisible_radiationnn	approachingnnlightnn	approachnnvisible_lightnn	comingnnofinvisible_lightnn	comingnnvisible_radiationnn	approachnnlightnn	visible_lightnncomevbz	visible_lightnncome_upvbz	comingnnlightnn	comingnnvisible_lightnn	approachnnofinvisible_lightnn	approachnnofinlightnn	approachingnnofinvisible_lightnn	lightnncomevbz	visible_radiationnncomesvbz	approachingnnofinlightnn	visible_radiationnncome_upvbz	approachingnnofinvisible_radiationnn	comingnnofinvisible_radiationnn	lightnncome_upvbz	comingnnofinlightnn	
+
+BE: wePRPseeVBP
+EQ class: visionarynnofinweprp	beholdingnnofinweprp	seernnweprp	beholdingnnweprp	visionarynnweprp	visual_perceptionnnweprp	illusionistnnofinweprp	seeingnnofinweprp	seernnofinweprp	seeingnnweprp	visual_perceptionnnofinweprp	illusionistnnweprp	
+
+BE: hittingVBGchemicalNN
+EQ class: batsmannnofinchemicaljj	hittingnnofinchemicalnn	hittingvbgchemical_substancenn	hitvbgchemical_substancenn	hittingnnofinchemical_substancenn	hitvbgchemicaljj	hitternnofinchemical_substancenn	batternnofinchemicalnn	batsmannnofinchemical_substancenn	hitternnofinchemicaljj	hitnnofinchemical_substancenn	hittingnnofinchemicaljj	batternnofinchemical_substancenn	hitvbgchemicalnn	sluggernnofinchemicalnn	strikingnnofinchemicaljj	hitnnofinchemicaljj	sluggernnofinchemical_substancenn	strikingnnofinchemical_substancenn	hitnnofinchemicalnn	hitternnofinchemicalnn	batsmannnofinchemicalnn	strikingnnofinchemicalnn	sluggernnofinchemicaljj	batternnofinchemicaljj	hittingvbgchemicaljj	
+
+BE: seeVBPskyNN
+EQ class: illusionistnnofinskynn	visionarynnofinskynn	seernnofinskynn	beholdingnnofinskynn	seeingnnofinskynn	visual_perceptionnnofinskynn	
+
+BE: comesVBZfromINsunNN
+EQ class: comevbzfrominsunnn	come_upvbzfrominsunnn	
+
+BE: hittingVBGinINairNN
+EQ class: hitvbgininairnn	
+
+BE: seeVBPasIN!!NNS
+EQ class: seevbpasin!.!.nns	seevbpasintheynns	seevbpasinthemnns	
+
+BE: seeVBPwhenWRBhittingVBG
+EQ class: seevbpwhenwrbhitvbg	
+

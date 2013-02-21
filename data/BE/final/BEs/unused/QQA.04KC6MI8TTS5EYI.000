@@ -1,0 +1,44 @@
+#since i know France is a powerful country but why during the world war II it lost to Germany and being invaded
+#(S1 (S (SBAR (IN since) (S (NP (PRP i)) (VP (VBP know) (NP (NNP France))))) (VP (AUX is) (UCP (NP (DT a) (JJ powerful) (NN country)) (CC but) (SBAR (WHADVP (WRB why)) (S (PP (IN during) (NP (DT the) (NN world) (NN war) (NNP II))) (NP (PRP it)) (VP (VP (VBN lost) (PP (TO to) (NP (NNP Germany)))) (CC and) (VP (AUXG being) (VP (VBD invaded))))))))))
+#Rule:Nouns
+r1FranceLocationAnnotation
+r1countryNN
+r1worldNN
+r1warNN
+r1IINNP
+r1GermanyLocationAnnotation
+
+#Rule:Verbs
+r2knowVBP
+r2lostVBN
+r2invadedVBD
+
+#Rule:Adjs
+r4powerfulJJ
+
+#Rule:Adj-Noun
+r5powerfulJJcountryNN
+
+#Rule:N-HeadNoun
+r8warNNIINNP
+r8worldNNIINNP
+
+#Rule:HeadNoun-V
+r11iLocationAnnotationknowVBP
+r11itPRPinvadedVBD
+
+#Rule:V-HeadNoun
+r21knowVBPFranceLocationAnnotation
+
+#Rule:V-HeadNoun(passive)
+r24lostVBNitPRP
+
+#Rule:PPinVP
+r32lostVBNtoTOGermanyLocationAnnotation
+
+#Rule:PPinS
+r36lostVBNduringINIINNP
+
+@lemmas-left	II	it	lost	ii	know	powerful	war	i	country	France	lose	invade	Germany	world	invaded	
+@lemmas-right	France	II	it	ii	invade	Germany	know	invaded	country	
+@lemmas-center	to	during	

@@ -1,0 +1,67 @@
+#I believe you are right. Everything has a certain order that is in order..
+#(S1 (S (NP (PRP I)) (VP (VBP believe) (S (NP (PRP you)) (VP (AUX are) (VP (VBG right.) (NP (NP (NN Everything)) (SBAR (S (VP (AUX has) (NP (NP (DT a) (JJ certain) (NN order)) (SBAR (WHNP (WDT that)) (S (VP (AUX is) (PP (IN in) (NP (NN order))))))))))))) (. .))) (. .)))
+#Rule:Nouns
+r1EverythingNN
+r1orderNN
+r1orderNN
+
+#Rule:Verbs
+r2believeVBP
+r2rightVBG
+
+#Rule:Adjs
+r4certainJJ
+
+#Rule:Adj-Noun
+r5certainJJorderNN
+
+#Rule:HeadNoun-V
+r11iPRPbelieveVBP
+r11youPRPrightVBG
+
+#Rule:HeadNoun-(who/that)-V
+r14EverythingNNhasAUX
+r14orderNNisAUX
+
+#Rule:V-HeadNoun
+r21rightVBGEverythingNN
+r21hasAUXorderNN
+
+#Rule:V-HeadNoun
+r22believeVBPyouPRP
+
+#Rule:PPinVP
+r30isAUXinINorderNN
+
+#God made the universe to be orderly. Same with man.
+#(S1 (S (NP (NNP God)) (VP (VBD made) (S (NP (DT the) (NN universe)) (VP (TO to) (VP (AUX be) (NP (NP (RB orderly.) (JJ Same)) (PP (IN with) (NP (NN man)))))))) (. .)))
+#Rule:Nouns
+r1GodNNP
+r1universeNN
+r1manNN
+
+#Rule:Verbs
+r2madeVBD
+
+#Rule:Adjs
+r4SamePersonAnnotation
+
+#Rule:HeadNoun-V
+r11GodNNPmadeVBD
+r11universeNNbeAUX
+
+#Rule:V-HeadNoun
+r21beAUXSamePersonAnnotation
+
+#Rule:V-HeadNoun
+r22madeVBDuniverseNN
+
+#Rule:PPinNP
+r26SamePersonAnnotationwithINmanNN
+
+#Rule:IS-RULE
+r47SamePersonAnnotationuniverseNN
+
+@lemmas-left	is	god	Everything	have	made	everything	right.	you	believe	universe	has	i	order	Same	God	certain	make	right	man	be	
+@lemmas-right	is	Everything	have	everything	made	right.	you	believe	universe	has	order	Same	right	make	man	be	
+@lemmas-center	with	in	

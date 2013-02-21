@@ -1,0 +1,143 @@
+#Contrary to some of the responses above, France was powerful, it had more divisions than the Wehrmact, it s tanks were equal to and superior to the German Mark IIIs.  They lost, because of tactics..
+#(S1 (S (ADJP (JJ Contrary) (PP (TO to) (NP (NP (DT some)) (PP (IN of) (NP (NP (DT the) (NNS responses)) (ADVP (RB above))))))) (, ,) (NP (NNP France)) (VP (AUX was) (ADJP (ADJP (JJ powerful)) (PRN (, ,) (S (NP (PRP it)) (VP (AUX had) (NP (NP (JJR more) (NNS divisions)) (PP (IN than) (NP (DT the) (NNP Wehrmact)))))) (, ,)) (SBAR (S (NP (PRP it)) (VP (VBZ s) (SBAR (S (NP (NNS tanks)) (VP (AUX were) (ADJP (ADJP (JJ equal) (PP (TO to))) (CC and) (ADJP (JJ superior) (PP (TO to) (NP (NP (DT the) (NNP German) (NNP Mark) (NNPS IIIs.)) (SBAR (S (NP (PRP They)) (VP (VBD lost)))))))) (, ,) (PP (IN because) (IN of) (NP (NNS tactics)))) (. .)))))))) (. .)))
+#Rule:Nouns
+r1responsesNNS
+r1FranceLocationAnnotation
+r1divisionsNNS
+r1WehrmactOrganizationAnnotation
+r1tanksNNS
+r1GermanNNP
+r1Mark IIIsPersonAnnotation
+r1IIIsNNPS
+r1tacticsNNS
+
+#Rule:Verbs
+r2sVBZ
+r2lostVBD
+
+#Rule:Adjs
+r4ContraryJJ
+r4powerfulJJ
+r4moreJJR
+r4equalJJ
+r4superiorJJ
+
+#Rule:Adj-Noun
+r5moreJJRdivisionsNNS
+
+#Rule:N-HeadNoun
+r8Mark IIIsPersonAnnotationIIIsNNPS
+r8GermanNNPIIIsNNPS
+
+#Rule:HeadNoun-V
+r11FranceLocationAnnotationwasAUX
+r11itPRPhadAUX
+r11itPRPsVBZ
+r11tanksNNSwereAUX
+r11theyPRPlostVBD
+
+#Rule:NP(NP(z) SBAR(S(NP(x)VP(y))))
+r19lostVBDIIIsNNPS
+
+#Rule:V-HeadNoun
+r21hadAUXdivisionsNNS
+
+#Rule:V-ADJ
+r25wasAUXpowerfulJJ
+r25wereAUXequalJJ
+
+#Rule:PPinNP
+r26someDTofINresponsesNNS
+r26divisionsNNSthanINWehrmactOrganizationAnnotation
+
+#Rule:PPinVP
+r30wereAUXofINtacticsNNS
+
+#Rule:PPinADJP
+r37ContraryJJtoTOsomeDT
+r37superiorJJtoTOIIIsNNPS
+
+#The french fought the static war of WWI, relying heavily on the Maginot Line.  It s tanks were used in penny packets supporting the infantry, rather than the massed formations of the German panzers..
+#(S1 (S (NP (DT The) (JJ french)) (VP (VBD fought) (NP (NP (DT the) (JJ static) (NN war)) (PP (IN of) (NP (NNP WWI)))) (, ,) (S (VP (VBG relying) (ADVP (RB heavily)) (PP (IN on) (NP (DT the) (NNP Maginot) (NNP Line.))) (SBAR (S (NP (PRP It)) (VP (VBZ s) (SBAR (S (NP (NNS tanks)) (VP (AUX were) (VP (VBN used) (PP (IN in) (S (NP (NN penny) (NNS packets)) (VP (VBG supporting) (NP (NP (DT the) (NN infantry)) (, ,) (CONJP (RB rather) (IN than)) (NP (NP (DT the) (VBD massed) (NNS formations)) (PP (IN of) (NP (DT the) (NNP German) (NNS panzers)))))) (. .))))))))))))) (. .)))
+#Rule:Nouns
+r1warNN
+r1WWIOrganizationAnnotation
+r1Maginot Line.  ItOrganizationAnnotation
+r1tanksNNS
+r1pennyNN
+r1packetsNNS
+r1infantryNN
+r1formationsNNS
+r1GermanNNP
+r1panzersOrganizationAnnotation
+
+#Rule:Verbs
+r2foughtVBD
+r2relyingVBG
+r2sVBZ
+r2usedVBN
+r2supportingVBG
+r2massedVBD
+
+#Rule:Adjs
+r4frenchJJ
+r4staticJJ
+
+#Rule:Adj-Noun
+r5staticJJwarNN
+
+#Rule:N-HeadNoun
+r8pennyNNpacketsNNS
+r8GermanNNPpanzersOrganizationAnnotation
+
+#Rule:HeadNoun-V
+r11frenchJJfoughtVBD
+r11Maginot Line.  ItOrganizationAnnotationsVBZ
+r11packetsNNSsupportingVBG
+
+#Rule:V-HeadNoun
+r21foughtVBDwarNN
+r21supportingVBGinfantryNN
+
+#Rule:V-HeadNoun(passive)
+r23usedVBNtanksNNS
+
+#Rule:PPinNP
+r26warNNofINWWIOrganizationAnnotation
+r26formationsNNSofINpanzersOrganizationAnnotation
+
+#Rule:PPinVP
+r30relyingVBGonINMaginot Line.  ItOrganizationAnnotation
+
+#Rule:V-MOD
+r45foughtVBDrelyingVBG
+
+#Rule:V-ADV
+r46relyingVBGheavilyRB
+
+#The result was a complete german victory.
+#(S1 (S (NP (DT The) (NN result)) (VP (AUX was) (NP (DT a) (ADJP (JJ complete) (JJ german)) (NN victory))) (. .)))
+#Rule:Nouns
+r1resultNN
+r1victoryNN
+
+#Rule:Adjs
+r4completeJJ
+r4germanJJ
+
+#Rule:Adj-Noun
+r5completeJJvictoryNN
+r5germanJJvictoryNN
+
+#Rule:HeadNoun-V
+r11resultNNwasAUX
+
+#Rule:V-HeadNoun
+r21wasAUXvictoryNN
+
+#Rule:IS-RULE
+r47victoryNNresultNN
+
+@lemmas-left	they	fight	divisions	french	used	mass	France	were	more	tank	had	Mark IIIs	be	victory	static	support	german	infantry	iiis.	tactics	powerful	responses	Wehrmact	penny	packet	some	tanks	result	relying	lost	superior	have	massed	WWI	packets	use	war	was	response	panzers	division	complete	Maginot Line.  It	formations	IIIs	formation	it	rely	contrary	equal	Contrary	lose	s	fought	supporting	German	
+@lemmas-right	result	relying	lost	have	fight	WWI	packets	divisions	war	was	response	panzers	were	division	Maginot Line.  It	IIIs	tank	had	be	victory	rely	support	infantry	iiis.	equal	tactics	powerful	responses	heavily	lose	s	supporting	fought	Wehrmact	packet	some	tanks	
+@lemmas-center	to	of	than	on	

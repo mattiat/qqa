@@ -1,0 +1,75 @@
+#this question has been asked 275 times on yahoo answers already.http://answers.yahoo.com/search/search_result;_ylt=AlmXTwGl3PamiSEkRbNA0gVizKIX?
+#(S1 (S (NP (DT this) (NN question)) (VP (AUX has) (VP (AUX been) (VP (VBN asked) (NP (NP (NP (CD 275) (NNS times)) (PP (IN on) (NP (NN yahoo) (NNS answers)))) (NP (NP (NN already.http)) (: :) (NP (NN //answers.yahoo.com/search/search_result)) (: ;) (NP (NN _ylt=AlmXTwGl3PamiSEkRbNA0gVizKIX))))))) (. ?)))
+#Rule:Nouns
+r1questionNN
+r1timesNNS
+r1yahooNN
+r1answersNNS
+r1already.httpNN
+r1//answers.yahoo.com/search/search_resultNN
+r1_ylt=AlmXTwGl3PamiSEkRbNA0gVizKIXPersonAnnotation
+
+#Rule:Verbs
+r2askedVBN
+
+#Rule:Adj-Noun
+r5275CDtimesNNS
+
+#Rule:N-HeadNoun
+r8yahooNNanswersNNS
+
+#Rule:V-HeadNoun
+r21askedVBNtimesNNS
+
+#Rule:V-HeadNoun(passive)
+r23askedVBNquestionNN
+
+#Rule:PPinNP
+r26timesNNSonINanswersNNS
+
+#p=sky+bluesee if you can figure it out.  
+#(S1 (S (VP (VB p=sky+bluesee) (SBAR (IN if) (S (NP (PRP you)) (VP (MD can) (VP (VB figure) (NP (PRP it)) (PRT (RP out))))))) (. .)))
+#Rule:Verbs
+r2p=sky+blueseePersonAnnotation
+r2figureVB
+
+#Rule:V-PRT
+r3figureVBoutRP
+
+#Rule:HeadNoun-V
+r11youPRPfigureVB
+
+#Rule:V-HeadNoun
+r21figureVBitPRP
+
+#Rule:V-IN-V
+r43p=sky+blueseePersonAnnotationifINfigureVB
+
+#hint:  the correct answer has to do with light scattering in the atmosphers.
+#(S1 (FRAG (NP (NN hint)) (: :) (S (NP (DT the) (JJ correct) (NN answer)) (VP (AUX has) (S (VP (TO to) (VP (AUX do) (PP (IN with) (NP (NP (NN light)) (VP (VBG scattering) (PP (IN in) (NP (DT the) (NNS atmosphers))))))))))) (. .)))
+#Rule:Nouns
+r1hintNN
+r1answerNN
+r1lightNN
+r1atmosphersNNS
+
+#Rule:Verbs
+r2scatteringVBG
+
+#Rule:Adjs
+r4correctJJ
+
+#Rule:Adj-Noun
+r5correctJJanswerNN
+
+#Rule:HeadNoun-V
+r11answerNNhasAUX
+r11lightNNscatteringVBG
+
+#Rule:PPinVP
+r30doAUXwithINlightNN
+r30scatteringVBGinINatmosphersNNS
+
+@lemmas-left	asked	result	_ylt=AlmXTwGl3PamiSEkRbNA0gVizKIX	scattering	answer	answers	hint	you	//answers.yahoo.com/search/search_result	p=sky+bluesee	275	scatter	figure	correct	times	http	do	atmosphers	question	already.http	ask	light	yahoo	
+@lemmas-right	it	have	scattering	answer	answers	has	scatter	figure	times	atmosphers	question	light	out	
+@lemmas-center	with	if	on	in	

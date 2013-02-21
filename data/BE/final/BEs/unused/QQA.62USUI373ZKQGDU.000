@@ -1,0 +1,96 @@
+#how do you subrtact and add fractions ?
+#(S1 (SBARQ (WHADVP (WRB how)) (SQ (AUX do) (NP (PRP you)) (VP (VB subrtact) (CC and) (VB add) (NP (NNS fractions)))) (. ?)))
+#Rule:Nouns
+r1fractionsNNS
+
+#Rule:Verbs
+r2subrtactVB
+r2addVB
+
+#Rule:V-HeadNoun
+r21subrtactVBfractionsNNS
+
+#well i need help subtract ing this fraction and ppleassse eexplian word for word exactllyyy how you do it  7 5/6 - 2 =and in general how do you add fraactions that are mixed numbers for example like 6 7/10 + 9 3/5please i need elaborated detail, and step by step on how to do thesee thankks
+#(S1 (S (ADVP (RB well)) (NP (PRP i)) (VP (MD need) (VP (VB help) (VP (VB subtract) (NP (NNP ing)) (NP (DT this) (NN fraction))) (CC and) (VP (VB ppleassse) (NP (NP (JJ eexplian) (NN word)) (PP (IN for) (NP (NN word) (NNS exactllyyy)))) (SBAR (WHADVP (WRB how)) (S (NP (PRP you)) (VP (AUX do) (NP (PRP it)) (NP (NP (CD 7) (NN 5/6)) (: -) (NP (NP (CD 2) (NN =and)) (PP (IN in) (ADJP (JJ general))))) (SBAR (WHADVP (WRB how)) (S (AUX do) (NP (PRP you)) (VP (VBP add) (NP (NP (NNS fraactions)) (SBAR (WHNP (WDT that)) (S (VP (AUX are) (NP (NP (JJ mixed) (NNS numbers)) (PP (IN for) (NP (NN example)))) (PP (IN like) (NP (NP (QP (CD 6) (CD 7/10)) (NNP +) (CD 9) (NN 3/5please)) (SBAR (S (NP (PRP i)) (VP (VP (AUX need) (NP (JJ elaborated) (NN detail))) (, ,) (CC and) (VP (VB step) (PP (IN by) (NP (NN step))) (PP (IN on) (SBAR (WHADVP (WRB how)) (S (VP (TO to) (VP (AUX do) (NP (JJ thesee) (NNS thankks))))))))))))))))))))))))))))
+#Rule:Nouns
+r1ingNNP
+r1fractionNN
+r1wordNN
+r1wordNN
+r1exactllyyyNNS
+r15/6NN
+r1=andNN
+r1fraactionsNNS
+r1numbersNNS
+r1exampleNN
+r1+NNP
+r13/5pleaseNN
+r1detailNN
+r1stepNN
+r1thankksNNS
+
+#Rule:Verbs
+r2helpVB
+r2subtractVB
+r2ppleassseOrganizationAnnotation
+r2addVBP
+r2stepVB
+
+#Rule:Adjs
+r4eexplianJJ
+r4generalJJ
+r4mixedJJ
+r4elaboratedJJ
+r4theseeJJ
+
+#Rule:Adj-Noun
+r5eexplianJJwordNN
+r57CD5/6NN
+r52CD=andNN
+r5mixedJJnumbersNNS
+r56CD3/5pleaseNN
+r57/10CD3/5pleaseNN
+r59CD3/5pleaseNN
+r5elaboratedJJdetailNN
+r5theseeJJthankksNNS
+
+#Rule:N-HeadNoun
+r8wordNNexactllyyyNNS
+
+#Rule:HeadNoun-V
+r11well iPersonAnnotationhelpVB
+r11well iPersonAnnotationsubtractVB
+r11well iPersonAnnotationppleassseOrganizationAnnotation
+r11youPRPdoAUX
+r11youPRPaddVBP
+r11iOrganizationAnnotationstepVB
+r11iOrganizationAnnotationneedAUX
+
+#Rule:HeadNoun-(who/that)-V
+r14fraactionsNNSareAUX
+
+#Rule:NP(NP(z) SBAR(S(NP(x)VP(y))))
+r19stepVB3/5pleaseNN
+
+#Rule:V-HeadNoun
+r21subtractVBingNNP
+r21subtractVBfractionNN
+r21ppleassseOrganizationAnnotationwordNN
+r21doAUXitPRP
+r21doAUX5/6NN
+r21addVBPfraactionsNNS
+r21areAUXnumbersNNS
+r21needAUXdetailNN
+r21doAUXthankksNNS
+
+#Rule:PPinNP
+r26wordNNforINexactllyyyNNS
+r26numbersNNSforINexampleNN
+
+#Rule:PPinVP
+r30areAUXlikeIN3/5pleaseNN
+r30stepVBbyINstepNN
+
+@lemmas-left	need	detail	5/6	add	exactllyyy	help	are	fraactions	please	numbers	fractions	elaborated	=and	mixed	do	3/5please	ppleassse	be	fraction	thesee	+	you	thankks	ing	general	i	2	subtract	7	eexplian	7/10	6	well i	subrtact	9	word	example	step	
+@lemmas-right	need	fraction	detail	it	5/6	thankks	ing	add	exactllyyy	subtract	help	fraactions	are	please	fractions	numbers	=and	do	word	3/5please	example	ppleassse	step	be	
+@lemmas-center	for	by	like	

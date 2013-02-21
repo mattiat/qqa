@@ -1,0 +1,81 @@
+#Avoid sugar and high amounts of carbohydrates.  
+#(S1 (S (VP (VB Avoid) (NP (NP (NN sugar) (CC and) (JJ high) (NNS amounts)) (PP (IN of) (NP (NNS carbohydrates))))) (. .)))
+#Rule:Nouns
+r1sugarNN
+r1amountsNNS
+r1carbohydratesLocationAnnotation
+
+#Rule:Verbs
+r2avoidVB
+
+#Rule:Adjs
+r4highJJ
+
+#Rule:Adj-Noun
+r5highJJamountsNNS
+
+#Rule:V-HeadNoun
+r21avoidVBamountsNNS
+
+#Rule:PPinNP
+r26amountsNNSofINcarbohydratesLocationAnnotation
+
+#Eat balanced meals with whole grain carbohydrates at regular times.  
+#(S1 (S (VP (VB Eat) (NP (NP (JJ balanced) (NNS meals)) (PP (IN with) (NP (JJ whole) (NN grain) (NNS carbohydrates)))) (PP (IN at) (NP (JJ regular) (NNS times)))) (. .)))
+#Rule:Nouns
+r1mealsNNS
+r1grainNN
+r1carbohydratesNNS
+r1timesNNS
+
+#Rule:Verbs
+r2eatVB
+
+#Rule:Adjs
+r4balancedJJ
+r4wholeJJ
+r4regularJJ
+
+#Rule:Adj-Noun
+r5balancedJJmealsNNS
+r5wholeJJcarbohydratesNNS
+r5regularJJtimesNNS
+
+#Rule:N-HeadNoun
+r8grainNNcarbohydratesNNS
+
+#Rule:V-HeadNoun
+r21eatVBmealsNNS
+
+#Rule:PPinNP
+r26mealsNNSwithINcarbohydratesNNS
+
+#Rule:PPinVP
+r30eatVBatINtimesNNS
+
+#Losing weight helps control diabetes.
+#(S1 (S (NP (JJ Losing) (NN weight)) (VP (VBZ helps) (VP (VB control) (NP (NN diabetes)))) (. .)))
+#Rule:Nouns
+r1weightNN
+r1diabetesNN
+
+#Rule:Verbs
+r2helpsVBZ
+r2controlVB
+
+#Rule:Adjs
+r4LosingJJ
+
+#Rule:Adj-Noun
+r5LosingJJweightNN
+
+#Rule:HeadNoun-V
+r11weightNNhelpsVBZ
+r11weightNNcontrolVB
+
+#Rule:V-HeadNoun
+r21controlVBdiabetesNN
+
+@lemmas-left	control	weight	regular	carbohydrate	diabetes	helps	amount	lose	avoid	balanced	help	amounts	meals	times	whole	grain	carbohydrates	Losing	eat	high	sugar	meal	
+@lemmas-right	amount	control	help	weight	meals	amounts	times	carbohydrate	diabetes	carbohydrates	helps	meal	
+@lemmas-center	of	with	at	

@@ -1,0 +1,92 @@
+#The first man-made plastic was created by Alexander Parkes who publicly demonstrated it at the 1862 Great International Exhibition in London. 
+#(S1 (S (NP (DT The) (JJ first) (JJ man-made) (NN plastic)) (VP (AUX was) (VP (VBN created) (PP (IN by) (NP (NP (NNP Alexander) (NNPS Parkes)) (SBAR (WHNP (WP who)) (S (VP (ADVP (RB publicly)) (VBD demonstrated) (NP (PRP it)) (PP (IN at) (NP (NP (DT the) (CD 1862) (NNP Great) (NNP International) (NN Exhibition)) (PP (IN in) (NP (NNP London)))))))))))) (. .)))
+#Rule:Nouns
+r1plasticNN
+r1Alexander ParkesPersonAnnotation
+r1Great InternationalOrganizationAnnotation
+r1ExhibitionNN
+r1LondonLocationAnnotation
+
+#Rule:Verbs
+r2createdVBN
+r2demonstratedVBD
+
+#Rule:Adjs
+r4firstJJ
+r4man-madeJJ
+
+#Rule:Adj-Noun
+r5firstJJplasticNN
+r5man-madeJJplasticNN
+r51862CDExhibitionNN
+
+#Rule:N-HeadNoun
+r8Great InternationalOrganizationAnnotationExhibitionNN
+
+#Rule:V-By-Agent
+r13Alexander ParkesPersonAnnotationcreatedVBN
+
+#Rule:HeadNoun-(who/that)-V
+r14Alexander ParkesPersonAnnotationdemonstratedVBD
+
+#Rule:V-HeadNoun
+r21demonstratedVBDitPRP
+
+#Rule:V-HeadNoun(passive)
+r23createdVBNplasticNN
+
+#Rule:PPinNP
+r26ExhibitionNNinINLondonLocationAnnotation
+
+#Rule:PPinVP
+r30demonstratedVBDatINExhibitionNN
+
+#Rule:V-ADV
+r46demonstratedVBDpubliclyRB
+
+#The material called Parkesine was an organic material derived from cellulose that once heated could be molded and retained its shape when cooled.
+#(S1 (S (NP (DT The) (NN material)) (VP (VBD called) (SBAR (S (NP (NNP Parkesine)) (VP (AUX was) (NP (NP (DT an) (JJ organic) (NN material)) (VP (VBN derived) (PP (IN from) (NP (NN cellulose) (SBAR (IN that) (S (S (ADJP (RB once) (JJ heated))) (VP (MD could) (VP (AUX be) (VP (VBN molded) (CC and) (VBN retained) (NP (PRP$ its) (NN shape)) (SBAR (WHADVP (WRB when)) (S (VP (VBN cooled))))))))))))))))) (. .)))
+#Rule:Nouns
+r1materialNN
+r1ParkesinePersonAnnotation
+r1materialNN
+r1celluloseNN
+r1shapeNN
+
+#Rule:Verbs
+r2calledVBD
+r2derivedVBN
+r2moldedVBN
+r2retainedVBN
+r2cooledVBN
+
+#Rule:Adjs
+r4organicJJ
+r4heatedJJ
+
+#Rule:Adj-Noun
+r5organicJJmaterialNN
+
+#Rule:PRP-Noun
+r6itsPRP$shapeNN
+
+#Rule:HeadNoun-V
+r11materialNNcalledVBD
+r11ParkesinePersonAnnotationwasAUX
+
+#Rule:V-HeadNoun
+r21wasAUXmaterialNN
+r21moldedVBNshapeNN
+
+#Rule:V-HeadNoun(passive)
+r24derivedVBNmaterialNN
+
+#Rule:PPinVP
+r32derivedVBNfromINcelluloseNN
+
+#Rule:IS-RULE
+r47materialNNParkesinePersonAnnotation
+
+@lemmas-left	call	plastic	mold	Parkesine	molded	heated	1862	its	London	was	cooled	Alexander Parkes	created	derived	exhibition	derive	Great International	be	cool	retained	demonstrate	demonstrated	shape	create	material	organic	cellulose	called	retain	Exhibition	first	man-made	
+@lemmas-right	call	demonstrate	plastic	it	Parkesine	demonstrated	shape	create	London	material	was	cellulose	created	called	exhibition	Exhibition	publicly	be	
+@lemmas-center	at	from	in	

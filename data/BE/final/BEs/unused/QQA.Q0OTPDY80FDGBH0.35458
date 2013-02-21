@@ -1,0 +1,15 @@
+#Showering with soap does wonders.
+#(S1 (SINV (VP (VBG Showering) (PP (IN with) (NP (NN soap)))) (VP (AUX does)) (NP (NNS wonders)) (. .)))
+#Rule:Nouns
+r1soapNN
+r1wondersNNS
+
+#Rule:Verbs
+r2showeringVBG
+
+#Rule:PPinVP
+r30showeringVBGwithINsoapNN
+
+@lemmas-left	wonders	showering	wonder	shower	soap	
+@lemmas-right	soap	
+@lemmas-center	with	

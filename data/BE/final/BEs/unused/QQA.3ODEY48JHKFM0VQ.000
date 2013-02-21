@@ -1,0 +1,41 @@
+#Why isnt Cancer curable??
+#(S1 (SBARQ (WHADVP (WRB Why)) (SQ (VP (VB isnt) (NP (NNP Cancer) (NN curable))) (. ?)) (. ?)))
+#Rule:Nouns
+r1isnt CancerOrganizationAnnotation
+r1curableNN
+
+#Rule:N-HeadNoun
+r8isnt CancerOrganizationAnnotationcurableNN
+
+#Why?despite the fact there are many different kinds of cancer, but why isnt curable?
+#(S1 (FRAG (WRB Why) (. ?) (FRAG (PP (IN despite) (NP (DT the) (NN fact) (SBAR (S (NP (EX there)) (VP (AUX are) (NP (NP (JJ many) (JJ different) (NNS kinds)) (PP (IN of) (NP (NN cancer)))))))))) (, ,) (CC but) (FRAG (WHADVP (WRB why)) (NP (NN isnt) (NN curable)) (. ?))))
+#Rule:Nouns
+r1factNN
+r1kindsNNS
+r1cancerNN
+r1isntNN
+r1curableNN
+
+#Rule:Adjs
+r4manyJJ
+r4differentJJ
+
+#Rule:Adj-Noun
+r5manyJJkindsNNS
+r5differentJJkindsNNS
+
+#Rule:N-HeadNoun
+r8isntNNcurableNN
+
+#Rule:HeadNoun-V
+r11thereEXareAUX
+
+#Rule:V-HeadNoun
+r21areAUXkindsNNS
+
+#Rule:PPinNP
+r26kindsNNSofINcancerNN
+
+@lemmas-left	different	many	are	fact	isnt	there	kinds	isnt Cancer	curable	cancer	kind	be	
+@lemmas-right	are	kinds	curable	cancer	kind	be	
+@lemmas-center	of	

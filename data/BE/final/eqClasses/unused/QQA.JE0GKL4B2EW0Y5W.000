@@ -1,0 +1,30 @@
+BE: boxingNN
+EQ class: fisticuffsnn	pugilismnn	
+
+BE: sportNN
+EQ class: athleticsnn	
+
+BE: societyNN
+EQ class: societaljj	
+
+BE: todayNN
+EQ class: 
+
+BE: consideredVBN
+EQ class: regardvbn	seevbn	reckonvbn	viewvbn	considervbn	
+
+BE: relevantJJ
+EQ class: relevancenn	relevancynn	
+
+BE: relevantJJsportNN
+EQ class: relevancennsportnn	relevancynnsportnn	boastvbrelevantlyrb	sportvbrelevantlyrb	relevantjjathleticsnn	relevancennathleticsnn	relevancynnathleticsnn	featurevbrelevantlyrb	
+
+BE: consideredVBNsportNN
+EQ class: viewvbnathleticsnn	regardvbnsportnn	consideredvbnathleticsnn	reckonvbnathleticsnn	seevbnsportnn	reckonvbnsportnn	seevbnathleticsnn	viewvbnsportnn	regardvbnathleticsnn	considervbnsportnn	considervbnathleticsnn	
+
+BE: sportNNinINsocietyNN
+EQ class: societaljjfeaturevb	featurevbsocietynn	societynnboastvb	athleticsnnininsocietaljj	societynnsportnn	boastvbsocietaljj	sportnnininsocietaljj	societynnathleticsnn	societaljjsportvb	sportvbsocietaljj	boastvbsocietynn	societynnsportvb	sportvbsocietynn	societaljjsportnn	featurevbsocietaljj	societaljjathleticsnn	athleticsnnininsocietynn	societynnfeaturevb	societaljjboastvb	
+
+BE: sportNNinINtodayNN
+EQ class: athleticsnninintodaynn	todaynnsportnn	todaynnboastvb	sportvbtodaynn	todaynnsportvb	boastvbtodaynn	todaynnfeaturevb	featurevbtodaynn	todaynnathleticsnn	
+

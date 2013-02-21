@@ -1,0 +1,70 @@
+#1. 
+#(S1 (FRAG (NP (CD 1)) (. .)))
+#Burn something2.  
+#(S1 (S (VP (VB Burn) (NP (NNS something2))) (. .)))
+#Rule:Nouns
+r1something2NNS
+
+#Rule:Verbs
+r2burnVB
+
+#Rule:V-HeadNoun
+r21burnVBsomething2NNS
+
+#Living things breathe in oxygen and exhale carbon dioxide.3.  
+#(S1 (S (NP (NN Living) (NNS things)) (VP (NN breathe) (PP (IN in) (NP (NP (NN oxygen)) (CC and) (NP (JJ exhale) (NN carbon) (CD dioxide.3))))) (. .)))
+#Rule:Nouns
+r1LivingNN
+r1thingsNNS
+r1breatheNN
+r1oxygenLocationAnnotation
+r1carbonNN
+
+#Rule:Adjs
+r4exhaleJJ
+
+#Rule:Adj-Noun
+r5exhaleJJcarbonNN
+r5dioxide.3CDcarbonNN
+
+#Rule:N-HeadNoun
+r8LivingNNthingsNNS
+
+#Chemical reactions (vinegar and baking soda)4.  
+#(S1 (NP (NP (NP (JJ Chemical) (NNS reactions)) (PRN (-LRB- -LRB-) (NP (NP (NN vinegar)) (CC and) (NP (JJ baking) (NN soda))) (-RRB- -RRB-))) (NP (CD 4)) (. .)))
+#Rule:Nouns
+r1reactionsNNS
+r1vinegarNN
+r1sodaLocationAnnotation
+
+#Rule:Adjs
+r4ChemicalOrganizationAnnotation
+r4bakingJJ
+
+#Rule:Adj-Noun
+r5ChemicalOrganizationAnnotationreactionsNNS
+r5bakingJJsodaLocationAnnotation
+
+#Come out of solution in water (dissolved gas).
+#(S1 (S (VP (VB Come) (PP (IN out) (PP (IN of) (NP (NN solution)))) (PP (IN in) (NP (NP (NN water)) (PRN (-LRB- -LRB-) (VP (VBN dissolved) (NP (NN gas))) (-RRB- -RRB-))))) (. .)))
+#Rule:Nouns
+r1solutionNN
+r1waterNN
+r1gasNN
+
+#Rule:Verbs
+r2comeVB
+r2dissolvedVBN
+
+#Rule:V-HeadNoun
+r21dissolvedVBNgasNN
+
+#Rule:PPinVP
+r30comeVBinINwaterNN
+
+#Rule:PPComboInVP
+r34comeVBoutINsolutionNN
+
+@lemmas-left	water	exhale	reaction	breathe	oxygen	reactions	come	Chemical	soda	living	solution	gas	dissolved	carbon	vinegar	dioxide.3	baking	something2	things	burn	Living	dissolve	
+@lemmas-right	water	gas	reaction	reactions	carbon	things	something2	soda	solution	
+@lemmas-center	in	out	

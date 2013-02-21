@@ -1,0 +1,51 @@
+#Before you go and do anything, read my past answer to understand how your body process food.  
+#(S1 (S (SBAR (IN Before) (S (NP (PRP you)) (VP (VP (VBP go)) (CC and) (VP (AUX do) (NP (NN anything)))))) (, ,) (VP (VB read) (S (NP (PRP$ my) (JJ past) (NN answer)) (VP (TO to) (VP (VB understand) (SBAR (WHADVP (WRB how)) (S (NP (PRP$ your) (NN body)) (VP (VBP process) (NP (NN food))))))))) (. .)))
+#Rule:Nouns
+r1anythingNN
+r1answerNN
+r1bodyNN
+r1foodNN
+
+#Rule:Verbs
+r2goVBP
+r2readVB
+r2understandVB
+r2processVBP
+
+#Rule:Adjs
+r4pastJJ
+
+#Rule:Adj-Noun
+r5pastJJanswerNN
+
+#Rule:PRP-Noun
+r6myPRP$answerNN
+r6yourPRP$bodyNN
+
+#Rule:HeadNoun-V
+r11youPRPgoVBP
+r11youPRPdoAUX
+r11answerNNunderstandVB
+r11bodyNNprocessVBP
+
+#Rule:V-HeadNoun
+r21doAUXanythingNN
+r21processVBPfoodNN
+
+#Rule:V-HeadNoun
+r22readVBanswerNN
+
+#It s pretty long.
+#(S1 (S (NP (PRP It)) (VP (VBZ s) (ADJP (RB pretty) (JJ long))) (. .)))
+#Rule:Verbs
+r2sVBZ
+
+#Rule:Adjs
+r4longJJ
+
+#Rule:HeadNoun-V
+r11itPRPsVBZ
+
+@lemmas-left	body	it	understand	your	answer	you	long	past	my	process	anything	s	food	read	do	go	
+@lemmas-right	process	body	anything	understand	s	food	answer	do	go	
+@lemmas-center	

@@ -1,0 +1,28 @@
+#Swiss German hasn t been mentioned: Guet Morge.
+#(S1 (S (NP (ADJP (JJ Swiss) (JJ German)) (JJ hasn) (NNS t)) (VP (AUX been) (VP (VBN mentioned) (: :) (NP (NNP Guet) (NNP Morge)))) (. .)))
+#Rule:Nouns
+r1tNNS
+r1Guet MorgePersonAnnotation
+
+#Rule:Verbs
+r2mentionedVBN
+
+#Rule:Adjs
+r4SwissJJ
+r4GermanJJ
+r4hasnJJ
+
+#Rule:Adj-Noun
+r5SwissJJtNNS
+r5GermanJJtNNS
+r5hasnJJtNNS
+
+#Rule:V-HeadNoun
+r21mentionedVBNGuet MorgePersonAnnotation
+
+#Rule:V-HeadNoun(passive)
+r23mentionedVBNtNNS
+
+@lemmas-left	swiss	t	Guet Morge	german	mentioned	mention	German	hasn	Swiss	
+@lemmas-right	t	Guet Morge	
+@lemmas-center	

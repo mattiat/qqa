@@ -1,0 +1,91 @@
+#Why do Hindus believe in God? What is the Hindu Trimurti??
+#(S1 (SBARQ (WHADVP (WRB Why)) (SQ (AUX do) (NP (NNP Hindus)) (VP (VB believe) (PP (IN in) (NP (NNP God)))) (. ?) (SBAR (WHNP (WP What)) (S (VP (AUX is) (NP (DT the) (NNP Hindu) (NNP Trimurti))))) (. ?)) (. ?)))
+#Rule:Nouns
+r1HindusNNP
+r1GodLocationAnnotation
+r1Hindu TrimurtiPersonAnnotation
+
+#Rule:Verbs
+r2believeVB
+
+#Rule:V-HeadNoun
+r21isAUXHindu TrimurtiPersonAnnotation
+
+#Rule:PPinVP
+r30believeVBinINGodLocationAnnotation
+
+#I know it sounds like a really stupid question, because loads of people believe in God, but no-one asks why. But this question was given to me bymy teacher. I ve looked on the Internet, but I can t find anything useful..
+#(S1 (S (NP (PRP I)) (VP (VBP know) (SBAR (S (NP (PRP it)) (VP (VBZ sounds) (PP (IN like) (NP (DT a) (ADJP (RB really) (JJ stupid)) (NN question))) (, ,) (SBAR (IN because) (S (NP (NP (NNS loads)) (PP (IN of) (NP (NNS people)))) (VP (VBP believe) (PP (IN in) (NP (NNP God))) (, ,) (SBAR (S (CC but) (NP (NN no-one)) (VP (VBZ asks) (SBAR (IN why.) (S (S (CC But) (NP (DT this) (NN question)) (VP (AUX was) (VP (VBN given) (PP (TO to) (NP (PRP me))) (NP (JJ bymy) (NN teacher.)) (SBAR (S (NP (PRP I)) (ADVP (RB ve)) (VP (VBD looked) (PP (IN on) (NP (DT the) (NNP Internet))))))))) (, ,) (CC but) (S (NP (PRP I)) (VP (MD can) (ADVP (RB t)) (VP (VB find) (S (NP (NN anything)) (ADJP (JJ useful))))))))) (. .)))))))))) (. .)))
+#Rule:Nouns
+r1questionNN
+r1loadsNNS
+r1peopleNNS
+r1GodOrganizationAnnotation
+r1no-oneNN
+r1questionNN
+r1teacherNN
+r1InternetNNP
+r1anythingNN
+
+#Rule:Verbs
+r2knowVBP
+r2soundsVBZ
+r2believeVBP
+r2asksVBZ
+r2givenVBN
+r2lookedVBD
+r2findVB
+
+#Rule:Adjs
+r4stupidJJ
+r4bymyJJ
+r4usefulJJ
+
+#Rule:Adj-Noun
+r5stupidJJquestionNN
+r5bymyJJteacherNN
+
+#Rule:HeadNoun-V
+r11iPRPknowVBP
+r11itPRPsoundsVBZ
+r11loadsNNSbelieveVBP
+r11no-oneNNasksVBZ
+r11IPersonAnnotationlookedVBD
+r11iPRPfindVB
+
+#Rule:V-HeadNoun
+r21givenVBNteacherNN
+
+#Rule:V-HeadNoun
+r22findVBanythingNN
+
+#Rule:V-HeadNoun(passive)
+r23givenVBNquestionNN
+
+#Rule:PPinNP
+r26loadsNNSofINpeopleNNS
+
+#Rule:PPinVP
+r30soundsVBZlikeINquestionNN
+r30believeVBPinINGodOrganizationAnnotation
+r30lookedVBDonINInternetNNP
+
+#Rule:PPinVP
+r32givenVBNtoTOmePRP
+
+#Rule:V-IN-V
+r43soundsVBZbecauseINbelieveVBP
+
+#Rule:V-ADV
+r46lookedVBDveRB
+r46findVBtRB
+
+#So thanks in advance.
+#(S1 (S (RB So) (VP (NNS thanks) (PP (IN in) (NP (NN advance)))) (. .)))
+#Rule:Nouns
+r1thanksNNS
+r1advanceNN
+
+@lemmas-left	give	one	bymy	stupid	believe	I	people	hindu	thanks	given	teacher.	asks	useful	question	find	be	sounds	look	loads	is	it	no-one	know	i	Hindus	anything	looked	sound	God	teacher	ask	Hindu Trimurti	internet	advance	Internet	
+@lemmas-right	look	believe	people	know	t	anything	looked	teacher.	sound	asks	ve	God	me	question	teacher	ask	internet	Hindu Trimurti	Internet	find	sounds	
+@lemmas-center	because	to	of	on	like	in	

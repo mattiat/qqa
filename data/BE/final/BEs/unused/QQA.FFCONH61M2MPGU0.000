@@ -1,0 +1,47 @@
+#why did japan invade nanjing in 1937-1938?
+#(S1 (SBARQ (WHADVP (WRB why)) (SQ (AUX did) (NP (NNP japan)) (VP (VB invade) (S (VP (VBG nanjing) (PP (IN in) (NP (CD 1937-1938))))))) (. ?)))
+#Rule:Nouns
+r1japanLocationAnnotation
+
+#Rule:Verbs
+r2invadeVB
+r2nanjingLocationAnnotation
+
+#Rule:PPinVP
+r30nanjingLocationAnnotationinIN1937-1938CD
+
+#i know what japan did to china but i don t know why so pls help me, thank you!
+#(S1 (S (S (NP (PRP i)) (VP (VBP know) (SBAR (WHNP (WP what)) (S (NP (NNP japan)) (VP (AUX did) (PP (TO to) (NP (NN china)))))))) (CC but) (S (NP (PRP i)) (VP (VB don) (S (NP (NNS t)) (VP (VB know) (SBAR (WHADVP (WRB why) (RB so)) (S (NP (NNS pls)) (VP (VBP help) (S (NP (PRP me)) (, ,) (VP (VB thank) (NP (PRP you))))))))))) (. !)))
+#Rule:Nouns
+r1japanLocationAnnotation
+r1chinaLocationAnnotation
+r1tNNS
+r1plsNNS
+
+#Rule:Verbs
+r2knowVBP
+r2i donLocationAnnotation
+r2knowVB
+r2helpVBP
+r2thankVB
+
+#Rule:HeadNoun-V
+r11iPRPknowVBP
+r11japanLocationAnnotationdidAUX
+r11tNNSknowVB
+r11plsNNShelpVBP
+r11mePRPthankVB
+
+#Rule:V-HeadNoun
+r21thankVByouPRP
+
+#Rule:V-HeadNoun
+r22i donLocationAnnotationtNNS
+r22helpVBPmePRP
+
+#Rule:PPinVP
+r30didAUXtoTOchinaLocationAnnotation
+
+@lemmas-left	did	know	i	pls	thank	help	japan	t	i don	nanjing	me	do	invade	china	
+@lemmas-right	thank	help	t	did	me	you	do	know	china	1937-1938	
+@lemmas-center	to	in	

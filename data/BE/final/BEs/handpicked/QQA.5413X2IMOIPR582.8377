@@ -1,0 +1,70 @@
+#maybe ur under stress Another cause is substance abuse problems that create suicidal thinking and behaviors. 
+#(S1 (S (S (ADVP (RB maybe)) (VP (VBG ur) (PP (IN under) (NP (NN stress))) (NP (DT Another) (NN cause)))) (VP (AUX is) (NP (NP (NN substance) (NN abuse) (NNS problems)) (SBAR (WHNP (WDT that)) (S (VP (VBP create) (NP (JJ suicidal) (NN thinking) (CC and) (NNS behaviors))))))) (. .)))
+#Rule:Nouns
+r1stressNN
+r1causeNN
+r1substanceNN
+r1abuseNN
+r1problemsNNS
+r1thinkingNN
+r1behaviorsNNS
+
+#Rule:Verbs
+r2urVBG
+r2createVBP
+
+#Rule:Adjs
+r4suicidalJJ
+
+#Rule:Adj-Noun
+r5suicidalJJthinkingNN
+
+#Rule:N-HeadNoun
+r8abuseNNproblemsNNS
+r8substanceNNproblemsNNS
+
+#Rule:HeadNoun-(who/that)-V
+r14problemsNNScreateVBP
+
+#Rule:V-HeadNoun
+r21urVBGcauseNN
+r21isAUXproblemsNNS
+r21createVBPthinkingNN
+
+#Rule:PPinVP
+r30urVBGunderINstressNN
+
+#Rule:V-ADV
+r46urVBGmaybeRB
+
+#Addictions to alcohol or drugs can cause harmful effects on the brain.
+#(S1 (S (NP (NP (NNS Addictions)) (PP (TO to) (NP (NN alcohol) (CC or) (NNS drugs)))) (VP (MD can) (VP (VB cause) (NP (NP (JJ harmful) (NNS effects)) (PP (IN on) (NP (DT the) (NN brain)))))) (. .)))
+#Rule:Nouns
+r1AddictionsNNS
+r1alcoholNN
+r1drugsNNS
+r1effectsNNS
+r1brainNN
+
+#Rule:Verbs
+r2causeVB
+
+#Rule:Adjs
+r4harmfulJJ
+
+#Rule:Adj-Noun
+r5harmfulJJeffectsNNS
+
+#Rule:HeadNoun-V
+r11AddictionsNNScauseVB
+
+#Rule:V-HeadNoun
+r21causeVBeffectsNNS
+
+#Rule:PPinNP
+r26AddictionsNNStoTOalcoholNN
+r26effectsNNSonINbrainNN
+
+@lemmas-left	harmful	is	cause	problems	drugs	behavior	stress	Addictions	ur	effects	problem	create	suicidal	substance	abuse	thinking	alcohol	behaviors	addiction	brain	drug	be	
+@lemmas-right	cause	problems	maybe	thinking	alcohol	stress	effects	problem	brain	create	
+@lemmas-center	to	under	on	

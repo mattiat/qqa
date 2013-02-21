@@ -1,0 +1,84 @@
+#Eat Quaker oats(otameal), garlic and stay away from fatty foods! 
+#(S1 (S (VP (VP (VB Eat) (NP (NP (NNP Quaker) (NNS oats)) (PRN (-LRB- -LRB-) (JJ otameal) (-RRB- -RRB-)))) (, ,) (VP (JJ garlic)) (CC and) (VP (VB stay) (ADVP (RB away) (PP (IN from) (NP (JJ fatty) (NNS foods)))))) (. !)))
+#Rule:Nouns
+r1QuakerNNP
+r1oats(otamealPersonAnnotation
+r1foodsNNS
+
+#Rule:Verbs
+r2eatVB
+r2stayVB
+
+#Rule:Adjs
+r4garlicJJ
+r4fattyJJ
+
+#Rule:Adj-Noun
+r5fattyJJfoodsNNS
+
+#Rule:N-HeadNoun
+r8QuakerNNPoats(otamealPersonAnnotation
+
+#Rule:V-HeadNoun
+r21eatVBoats(otamealPersonAnnotation
+
+#Rule:V-ADV
+r46stayVBawayRB
+
+#Eat lots of fruits and vegetables. 
+#(S1 (S (VP (VB Eat) (NP (NP (NNS lots)) (PP (IN of) (NP (NNS fruits) (CC and) (NNS vegetables))))) (. .)))
+#Rule:Nouns
+r1lotsNNS
+r1fruitsNNS
+r1vegetablesNNS
+
+#Rule:Verbs
+r2eatVB
+
+#Rule:V-HeadNoun
+r21eatVBlotsNNS
+
+#Rule:PPinNP
+r26lotsNNSofINfruitsNNS
+
+#Eat lean meat (chicken and Fish). 
+#(S1 (S (VP (VB Eat) (NP (NP (JJ lean) (NN meat)) (PRN (-LRB- -LRB-) (NP (NN chicken) (CC and) (NN Fish)) (-RRB- -RRB-)))) (. .)))
+#Rule:Nouns
+r1meatNN
+r1chickenNN
+r1FishPersonAnnotation
+
+#Rule:Verbs
+r2eatVB
+
+#Rule:Adjs
+r4leanJJ
+
+#Rule:Adj-Noun
+r5leanJJmeatNN
+
+#Rule:V-HeadNoun
+r21eatVBmeatNN
+
+#Exercise at least 90 minutes a week.
+#(S1 (S (VP (VB Exercise) (NP (NP (QP (IN at) (JJS least) (CD 90)) (NNS minutes)) (NP (DT a) (NN week)))) (. .)))
+#Rule:Nouns
+r1minutesNNS
+r1weekNN
+
+#Rule:Verbs
+r2exerciseVB
+
+#Rule:Adjs
+r4leastJJS
+
+#Rule:Adj-Noun
+r5leastJJSminutesNNS
+r590CDminutesNNS
+
+#Rule:V-HeadNoun
+r21exerciseVBminutesNNS
+
+@lemmas-left	fruit	minutes	Quaker	stay	lots	garlic	least	fruits	90	vegetables	exercise	quaker	oats(otameal	lean	chicken	foods	food	meat	Fish	eat	vegetable	fatty	week	
+@lemmas-right	away	fruit	minutes	lots	foods	food	meat	fruits	oats(otameal	
+@lemmas-center	of	

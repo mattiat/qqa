@@ -1,0 +1,331 @@
+#Hi Maya...nature.
+#(S1 (S (NP (NNP Hi) (NNP Maya)) (: ...) (NP (NN nature)) (. .)))
+#Rule:Nouns
+r1Hi MayaPersonAnnotation
+r1natureNN
+
+#and nature poetry!
+#(S1 (FRAG (CC and) (NP (NN nature) (NN poetry)) (. !)))
+#Rule:Nouns
+r1natureNN
+r1poetryOrganizationAnnotation
+
+#Rule:N-HeadNoun
+r8natureNNpoetryOrganizationAnnotation
+
+# ok.to write a nature poem, you must observe the nature..you must observe what s going on in nature.
+#(S1 (S (S (NP (NNP ok.to)) (VP (VB write) (NP (DT a) (NN nature) (NN poem)))) (, ,) (NP (PRP you)) (VP (MD must) (VP (VB observe) (S (NP (DT the) (NN nature)) (VP (VB ..) (SBAR (S (NP (PRP you)) (VP (MD must) (VP (VB observe) (SBAR (WHNP (WP what)) (S (VP (VBZ s) (S (VP (VBG going) (PRT (RP on)) (PP (IN in) (NP (NN nature)))))))))))))))) (. .)))
+#Rule:Nouns
+r1ok.toNNP
+r1natureNN
+r1poemNN
+r1natureNN
+r1natureNN
+
+#Rule:Verbs
+r2writeVB
+r2observeVB
+r2..VB
+r2observeVB
+r2sLocationAnnotation
+
+#Rule:V-PRT
+r3goingVBGonRP
+
+#Rule:N-HeadNoun
+r8natureNNpoemNN
+
+#Rule:HeadNoun-V
+r11youPRPobserveVB
+r11ok.toNNPwriteVB
+r11natureNN..VB
+r11youPRPobserveVB
+
+#Rule:V-HeadNoun
+r21writeVBpoemNN
+
+#Rule:V-HeadNoun
+r22observeVBnatureNN
+
+#Rule:PPinVP
+r30goingVBGinINnatureNN
+
+#you must observe the changes in nature.
+#(S1 (S (NP (PRP you)) (VP (MD must) (VP (VB observe) (NP (DT the) (NNS changes)) (PP (IN in) (NP (NN nature))))) (. .)))
+#Rule:Nouns
+r1changesNNS
+r1natureNN
+
+#Rule:Verbs
+r2observeVB
+
+#Rule:HeadNoun-V
+r11youPRPobserveVB
+
+#Rule:V-HeadNoun
+r21observeVBchangesNNS
+
+#Rule:PPinVP
+r30observeVBinINnatureNN
+
+#nature exhibits itself in two forms.1. As a silent meditator2.
+#(S1 (S (NP (NN nature)) (VP (NNS exhibits) (NP (PRP itself)) (PP (IN in) (NP (NP (CD two) (NNS forms.1.)) (PP (IN As) (NP (DT a) (JJ silent) (NN meditator2)))))) (. .)))
+#Rule:Nouns
+r1natureNN
+r1exhibitsNNS
+r1forms.1.NNS
+r1meditator2NN
+
+#Rule:Adjs
+r4silentJJ
+
+#Rule:Adj-Noun
+r5twoCDforms.1.NNS
+r5silentJJmeditator2NN
+
+#Rule:V-HeadNoun
+r21exhibitsNNSitselfPRP
+
+#Rule:PPinNP
+r26forms.1.NNSasINmeditator2NN
+
+# And a violent revoutionaryAs Mr.
+#(S1 (FRAG (CC And) (NP (NP (DT a) (JJ violent) (NN revoutionaryAs)) (NP (NNP Mr))) (. .)))
+#Rule:Nouns
+r1revoutionaryAsNN
+r1MrPersonAnnotation
+
+#Rule:Adjs
+r4violentJJ
+
+#Rule:Adj-Noun
+r5violentJJrevoutionaryAsNN
+
+# Steven Wolf said above, nature is second only to Love.
+#(S1 (S (NP (NNP Steven) (NNP Wolf)) (VP (VBD said) (SBAR (S (PP (IN above)) (, ,) (NP (NN nature)) (VP (AUX is) (ADJP (JJ second) (RB only) (PP (TO to) (NP (NNP Love)))))))) (. .)))
+#Rule:Nouns
+r1Steven WolfPersonAnnotation
+r1natureNN
+r1LoveOrganizationAnnotation
+
+#Rule:Verbs
+r2saidVBD
+
+#Rule:Adjs
+r4secondJJ
+
+#Rule:HeadNoun-V
+r11Steven WolfPersonAnnotationsaidVBD
+r11natureNNisAUX
+
+#Rule:V-ADJ
+r25isAUXsecondJJ
+
+#Rule:PPinADJP
+r37secondJJtoTOLoveOrganizationAnnotation
+
+# And a poet first in love, will turn secondly to nature.
+#(S1 (S (CC And) (PP (ADVP (NP (DT a) (NN poet)) (RB first)) (IN in) (NP (NN love))) (, ,) (VP (MD will) (VP (VB turn) (ADVP (RB secondly) (PP (TO to) (NP (NN nature)))))) (. .)))
+#Rule:Nouns
+r1poetNN
+r1loveNN
+r1natureNN
+
+#Rule:Verbs
+r2turnVB
+
+#Rule:PPinS
+r36willMDinINloveNN
+
+#Rule:V-ADV
+r46turnVBsecondlyRB
+
+# The romance in his heart will tend him to the softer side of nature.
+#(S1 (S (NP (NP (DT The) (NN romance)) (PP (IN in) (NP (PRP$ his) (NN heart)))) (VP (MD will) (VP (VB tend) (NP (PRP him)) (PP (TO to) (NP (NP (DT the) (JJR softer) (NN side)) (PP (IN of) (NP (NN nature))))))) (. .)))
+#Rule:Nouns
+r1romanceNN
+r1heartNN
+r1sideNN
+r1natureNN
+
+#Rule:Verbs
+r2tendVB
+
+#Rule:Adjs
+r4softerJJR
+
+#Rule:Adj-Noun
+r5softerJJRsideNN
+
+#Rule:PRP-Noun
+r6hisPRP$heartNN
+
+#Rule:HeadNoun-V
+r11romanceNNtendVB
+
+#Rule:V-HeadNoun
+r21tendVBhimPRP
+
+#Rule:PPinNP
+r26romanceNNinINheartNN
+r26sideNNofINnatureNN
+
+#Rule:PPinVP
+r30tendVBtoTOsideNN
+
+# He will delight in the music of birds.
+#(S1 (S (NP (PRP He)) (VP (MD will) (VP (VB delight) (PP (IN in) (NP (NP (DT the) (NN music)) (PP (IN of) (NP (NNS birds))))))) (. .)))
+#Rule:Nouns
+r1musicNN
+r1birdsNNS
+
+#Rule:Verbs
+r2delightVB
+
+#Rule:HeadNoun-V
+r11hePRPdelightVB
+
+#Rule:PPinNP
+r26musicNNofINbirdsNNS
+
+#Rule:PPinVP
+r30delightVBinINmusicNN
+
+# So if you are a lover, be with the softer side of nature.
+#(S1 (FRAG (ADVP (RB So)) (SBAR (IN if) (S (NP (PRP you)) (VP (AUX are) (NP (NP (DT a) (NN lover)) (, ,) (VP (AUX be) (PP (IN with) (NP (NP (DT the) (JJR softer) (NN side)) (PP (IN of) (NP (NN nature)))))))))) (. .)))
+#Rule:Nouns
+r1loverNN
+r1sideNN
+r1natureNN
+
+#Rule:Adjs
+r4softerJJR
+
+#Rule:Adj-Noun
+r5softerJJRsideNN
+
+#Rule:HeadNoun-V
+r11youPRPareAUX
+r11loverNNbeAUX
+
+#Rule:V-HeadNoun
+r21areAUXloverNN
+
+#Rule:PPinNP
+r26sideNNofINnatureNN
+
+#Rule:PPinVP
+r30beAUXwithINsideNN
+
+#its pleasantness..as Wordsworth says I wandered lonely as a cloud But if your heart is a burning one, reacting to the contemporary situations---wars, cries, agonies, miseries, poverty and every deserted state..bring in the violence of nature..tornados, tempests, the engulfing waves and all..As 
+#(S1 (S (NP (PRP$ its) (NN pleasantness)) (VP (VBZ ..) (SBAR (IN as) (S (NP (NNP Wordsworth)) (VP (VBZ says) (SBAR (S (NP (PRP I)) (VP (VBD wandered) (ADJP (JJ lonely) (PP (IN as) (NP (DT a) (NN cloud)))) (SBAR (S (CC But) (SBAR (IN if) (S (NP (PRP$ your) (NN heart)) (VP (AUX is) (NP (DT a) (VBG burning) (NN one))))) (, ,) (S (VP (VBG reacting) (PP (TO to) (NP (DT the) (JJ contemporary) (NNS situations---wars))))) (, ,) (VP (VBZ cries) (, ,) (S (NP (NP (NNS agonies)) (, ,) (NP (NNS miseries)) (, ,) (NP (NN poverty)) (CC and) (NP (DT every) (VBN deserted) (NN state) (NNS ..))) (VP (VB bring) (PRT (RP in)) (NP (NP (DT the) (NN violence)) (PP (IN of) (NP (NP (NN nature) (NN ..) (NNS tornados)) (, ,) (NP (NNS tempests)) (, ,) (NP (DT the) (VBG engulfing) (NNS waves)) (CC and) (NP (NP (DT all) (NNS ..)) (PP (IN As))))))))))))))))))))
+#Rule:Nouns
+r1pleasantnessNN
+r1as WordsworthPersonAnnotation
+r1cloudNN
+r1heartNN
+r1oneNN
+r1situations---warsNNS
+r1agoniesNNS
+r1miseriesNNS
+r1povertyNN
+r1stateNN
+r1..NNS
+r1violenceNN
+r1natureNN
+r1..NN
+r1tornadosLocationAnnotation
+r1tempestsNNS
+r1wavesNNS
+r1..NNS
+
+#Rule:Verbs
+r2..VBZ
+r2saysVBZ
+r2wanderedVBD
+r2burningVBG
+r2reactingVBG
+r2criesVBZ
+r2desertedVBN
+r2engulfingOrganizationAnnotation
+
+#Rule:V-PRT
+r3bringVBinRP
+
+#Rule:Adjs
+r4lonelyJJ
+r4contemporaryJJ
+
+#Rule:Adj-Noun
+r5burningVBGoneNN
+r5contemporaryJJsituations---warsNNS
+r5desertedVBN..NNS
+r5engulfingOrganizationAnnotationwavesNNS
+
+#Rule:PRP-Noun
+r6itsPRP$pleasantnessNN
+r6yourPRP$heartNN
+
+#Rule:N-HeadNoun
+r8stateNN..NNS
+r8..NNtornadosLocationAnnotation
+r8natureNNtornadosLocationAnnotation
+
+#Rule:N-ApposN
+r10agoniesNNSmiseriesNNS
+r10tornadosLocationAnnotationtempestsNNS
+
+#Rule:HeadNoun-V
+r11pleasantnessNN..VBZ
+r11as WordsworthPersonAnnotationsaysVBZ
+r11iPRPwanderedVBD
+r11heartNNisAUX
+r11agoniesNNSbringVB
+r11miseriesNNSbringVB
+r11povertyNNbringVB
+r11..NNSbringVB
+
+#Rule:V-HeadNoun
+r21isAUXoneNN
+r21bringVBviolenceNN
+
+#Rule:V-HeadNoun
+r22criesVBZagoniesNNS
+
+#Rule:PPinNP
+r26violenceNNofINtornadosLocationAnnotation
+r26violenceNNofINtempestsNNS
+r26violenceNNofINwavesNNS
+r26violenceNNofIN..NNS
+
+#Rule:PPinVP
+r30reactingVBGtoTOsituations---warsNNS
+
+#Rule:PPinADJP
+r37lonelyJJasINcloudNN
+
+#Rule:V-IN-V
+r43..VBZas WordsworthPersonAnnotationsaysVBZ
+
+#Rule:IS-RULE
+r47oneNNheartNN
+
+#As you see in Shelley s poem Ode to the West Wind
+#(S1 (FRAG (SBAR (IN As) (S (NP (PRP you)) (VP (VBP see) (PP (IN in) (NP (NNP Shelley) (NNP s) (NNP poem) (NNP Ode))) (PP (TO to) (NP (DT the) (NNP West) (NN Wind))))))))
+#Rule:Nouns
+r1Shelley s poem OdeOrganizationAnnotation
+r1West WindLocationAnnotation
+
+#Rule:Verbs
+r2seeVBP
+
+#Rule:HeadNoun-V
+r11youPRPseeVBP
+
+#Rule:PPinVP
+r30seeVBPinINShelley s poem OdeOrganizationAnnotation
+r30seeVBPtoTOWest WindLocationAnnotation
+
+@lemmas-left	wander	tempests	said	second	change	revoutionaryAs	tend	Hi Maya	its	bring	poetry	Steven Wolf	birds	ok.to	love	exhibits	are	nature	his	..	says	misery	lover	be	meditator2	turn	going	heart	situations---wars	he	wandered	softer	contemporary	wave	say	will	engulfing	violent	burn	Love	go	silent	cries	miseries	Shelley s poem Ode	one	state	tempest	Mr	romance	war	delight	agony	poverty	as Wordsworth	poet	side	write	poem	lonely	react	music	West Wind	is	desert	revoutionaryas	violence	agonies	waves	your	reacting	pleasantness	you	burning	tornados	deserted	cry	i	exhibit	soft	bird	two	see	s	observe	cloud	forms.1.	changes	
+@lemmas-right	wander	tempests	said	second	change	tend	revoutionaryAs	poetry	him	bring	birds	love	are	nature	..	on	says	secondly	itself	lover	misery	be	meditator2	heart	situations---wars	wandered	say	wave	Love	miseries	Shelley s poem Ode	one	tempest	delight	war	agony	side	write	poem	music	West Wind	is	revoutionaryas	agonies	violence	waves	pleasantness	tornados	in	bird	see	observe	cloud	forms.1.	changes	
+@lemmas-center	to	of	with	as Wordsworth	as	in	

@@ -1,0 +1,92 @@
+#Why buy bottled water??
+#(S1 (SBARQ (WHADVP (WRB Why)) (SQ (VP (VB buy) (NP (JJ bottled) (NN water))) (. ?)) (. ?)))
+#Rule:Nouns
+r1waterNN
+
+#Rule:Verbs
+r2buyVB
+
+#Rule:Adjs
+r4bottledJJ
+
+#Rule:Adj-Noun
+r5bottledJJwaterNN
+
+#Rule:V-HeadNoun
+r21buyVBwaterNN
+
+#Is bottled water a scam?  In blind taste tests can anyone really notice a difference?  Aren t municipal water safeguards sufficient?  Bottled water is as expensive per gallon as gasoline.  Tap water has fluorine to protect from caries - bottled water does not.
+#(S1 (SQ (SQ (AUX Is) (NP (JJ bottled) (NN water)) (NP (DT a) (NN scam)) (. ?) (PP (IN In) (NP (NP (JJ blind) (NN taste) (NNS tests)) (SBAR (S (VP (MD can) (S (NP (NN anyone)) (ADVP (RB really)) (VP (VB notice) (NP (DT a) (NN difference))))))))) (. ?) (NP (NNP Aren) (NNP t)) (ADJP (NP (JJ municipal) (NN water) (NNS safeguards)) (JJ sufficient)) (. ?)) (SQ (NP (JJ Bottled) (NN water)) (VP (AUX is) (ADJP (ADJP (RB as) (JJ expensive)) (PP (IN per) (NP (NN gallon)))) (SBAR (IN as) (S (S (NP (NP (FW gasoline.)) (VP (VB Tap) (NP (NN water)))) (VP (AUX has) (VP (VBN fluorine) (S (VP (TO to) (VP (VB protect) (PP (IN from) (NP (NNS caries))))))))) (: -) (S (NP (JJ bottled) (NN water)) (VP (AUX does) (RB not))))))) (. .)))
+#Rule:Nouns
+r1waterNN
+r1scamNN
+r1tasteNN
+r1testsNNS
+r1anyoneNN
+r1differenceNN
+r1Aren tLocationAnnotation
+r1waterNN
+r1safeguardsNNS
+r1waterNN
+r1gallonNN
+r1waterNN
+r1cariesNNS
+r1waterNN
+
+#Rule:Verbs
+r2noticeVB
+r2tapVB
+r2fluorineVBN
+r2protectVB
+
+#Rule:Adjs
+r4bottledJJ
+r4blindJJ
+r4municipalJJ
+r4sufficientJJ
+r4BottledJJ
+r4expensiveJJ
+r4bottledJJ
+
+#Rule:Adj-Noun
+r5bottledJJwaterNN
+r5blindJJtestsNNS
+r5municipalJJsafeguardsNNS
+r5BottledJJwaterNN
+r5bottledJJwaterNN
+
+#Rule:N-HeadNoun
+r8tasteNNtestsNNS
+r8waterNNsafeguardsNNS
+
+#Rule:HeadNoun-V
+r11anyoneNNnoticeVB
+r11gasolineFWtapVB
+r11waterNNdoesAUX
+
+#Rule:HeadNoun-V
+r12gasolineFWfluorineVBN
+
+#Rule:V-HeadNoun
+r21noticeVBdifferenceNN
+r21tapVBwaterNN
+
+#Rule:V-ADJ
+r25isAUXexpensiveJJ
+
+#Rule:PPinVP
+r30protectVBfromINcariesNNS
+
+#Rule:PPinADJP
+r37expensiveJJperINgallonNN
+
+#Rule:V-V
+r44fluorineVBNprotectVB
+
+#Rule:V-ADV
+r46noticeVBreallyRB
+r46doesAUXnotRB
+
+@lemmas-left	does	gallon	test	buy	safeguards	expensive	protect	taste	gasoline.	sufficient	Aren t	tests	fluorine	do	notice	be	water	is	gasoline	caries	bottled	Bottled	bottle	difference	anyone	safeguard	municipal	scam	tap	blind	
+@lemmas-right	water	does	gallon	test	safeguards	caries	expensive	protect	not	difference	really	tests	fluorine	safeguard	do	notice	tap	
+@lemmas-center	per	from	

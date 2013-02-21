@@ -1,0 +1,112 @@
+#according to rayleigh s scattering law,the amount of scattering is inversely proportional to the fourth power of wavelength..
+#(S1 (S (PP (VBG according) (PP (TO to) (NP (JJ rayleigh) (NNP s) (NN scattering) (NN law)))) (, ,) (NP (NP (DT the) (NN amount)) (PP (IN of) (NP (NN scattering)))) (VP (AUX is) (ADJP (RB inversely) (JJ proportional) (PP (TO to) (NP (DT the) (JJ fourth) (NN power))) (PP (IN of) (NP (NN wavelength))) (. .))) (. .)))
+#Rule:Nouns
+r1rayleigh sPersonAnnotation
+r1scatteringNN
+r1lawNN
+r1amountNN
+r1scatteringNN
+r1powerNN
+r1wavelengthNN
+
+#Rule:Verbs
+r2accordingVBG
+
+#Rule:Adjs
+r4proportionalJJ
+r4fourthJJ
+
+#Rule:Adj-Noun
+r5rayleigh sPersonAnnotationlawNN
+r5fourthJJpowerNN
+
+#Rule:N-HeadNoun
+r8scatteringNNlawNN
+
+#Rule:HeadNoun-V
+r11amountNNisAUX
+
+#Rule:V-ADJ
+r25isAUXproportionalJJ
+
+#Rule:PPinNP
+r26amountNNofINscatteringNN
+
+#Rule:PPinADJP
+r37proportionalJJtoTOpowerNN
+r37proportionalJJofINwavelengthNN
+
+#Hence light with less wavelength is scattered more..
+#(S1 (FRAG (ADVP (RB Hence)) (ADJP (JJ light)) (SBAR (IN with) (S (S (ADJP (RBR less) (JJ wavelength))) (VP (AUX is) (VP (VBN scattered) (ADVP (RBR more)))) (. .))) (. .)))
+#Rule:Verbs
+r2scatteredVBN
+
+#Rule:Adjs
+r4lightJJ
+r4wavelengthJJ
+
+#Blue light has less wavelenth..
+#(S1 (S (NP (JJ Blue) (NN light)) (VP (AUX has) (FRAG (ADJP (RBR less) (JJ wavelenth)) (. .))) (. .)))
+#Rule:Nouns
+r1lightNN
+
+#Rule:Adjs
+r4BlueJJ
+r4wavelenthJJ
+
+#Rule:Adj-Noun
+r5BlueJJlightNN
+
+#Rule:HeadNoun-V
+r11lightNNhasAUX
+
+#Though Violet has less wavelenth than blue,i don t know why is blue scattered more than violet.as blue is scattered more than any other light,Sky appears blue.
+#(S1 (S (SBAR (IN Though) (S (NP (NN Violet)) (VP (AUX has) (ADJP (RBR less) (JJ wavelenth) (PP (IN than) (ADJP (JJ blue))))))) (PRN (, ,) (S (NP (PRP i)) (VP (VB don) (S (NP (NNS t)) (VP (VB know) (SBAR (WHADVP (WRB why)) (S (VP (AUX is) (ADJP (ADJP (NP (JJ blue) (JJ scattered)) (JJR more)) (SBAR (IN than) (S (NP (NN violet.as) (NN blue)) (VP (AUX is) (VP (VBN scattered) (ADVP (ADVP (RBR more)) (PP (IN than) (NP (DT any) (JJ other) (NN light)))))))))))))))) (, ,)) (NP (NNP Sky)) (VP (VBZ appears) (S (ADJP (JJ blue)))) (. .)))
+#Rule:Nouns
+r1VioletOrganizationAnnotation
+r1tNNS
+r1violet.asNN
+r1blueNN
+r1lightNN
+r1SkyNNP
+
+#Rule:Verbs
+r2donVB
+r2knowVB
+r2scatteredVBN
+r2appearsVBZ
+
+#Rule:Adjs
+r4wavelenthJJ
+r4blueJJ
+r4blueJJ
+r4scatteredJJ
+r4moreJJR
+r4otherJJ
+r4blueJJ
+
+#Rule:Adj-Noun
+r5blueJJscatteredJJ
+r5otherJJlightNN
+
+#Rule:N-HeadNoun
+r8violet.asNNblueNN
+
+#Rule:HeadNoun-V
+r11SkyNNPappearsVBZ
+r11VioletOrganizationAnnotationhasAUX
+r11iPRPdonVB
+r11tNNSknowVB
+
+#Rule:V-HeadNoun
+r22donVBtNNS
+
+#Rule:V-HeadNoun(passive)
+r23scatteredVBNblueNN
+
+#Rule:V-ADJ
+r25isAUXmoreJJR
+
+@lemmas-left	other	appear	scattered	don	violet.as	appears	Sky	according	amount	Blue	more	sky	power	light	be	law	is	scattering	as	accord	know	i	fourth	wavelength	scatter	t	Violet	proportional	blue	wavelenth	rayleigh s	
+@lemmas-right	law	is	scattered	appear	don	have	scattering	know	appears	has	wavelength	more	t	proportional	blue	power	light	be	
+@lemmas-center	to	of	

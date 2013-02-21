@@ -1,0 +1,50 @@
+#keep busy - exercise - eat healthy - do things you enjoy - or that you used to enjoy before you were fighting depression!  
+#(S1 (S (S (VP (VB keep) (S (ADJP (JJ busy))))) (: -) (S (VP (VB exercise))) (: -) (S (VP (VB eat) (ADJP (JJ healthy)))) (: -) (S (VP (AUX do) (NP (NP (NNS things)) (SBAR (SBAR (S (NP (PRP you)) (VP (VBP enjoy)))) (: -) (CC or) (SBAR (IN that) (S (NP (PRP you)) (VP (VBD used) (S (VP (TO to) (VP (VB enjoy) (SBAR (IN before) (S (NP (PRP you)) (VP (AUX were) (VP (VBG fighting) (NP (NN depression)))))))))))))))) (. !)))
+#Rule:Nouns
+r1thingsNNS
+r1depressionNN
+
+#Rule:Verbs
+r2keepVB
+r2exerciseVB
+r2eatVB
+r2enjoyVBP
+r2usedVBD
+r2enjoyVB
+r2fightingVBG
+
+#Rule:Adjs
+r4busyJJ
+r4healthyJJ
+
+#Rule:HeadNoun-V
+r11youPRPenjoyVBP
+r11youPRPusedVBD
+r11youPRPfightingVBG
+
+#Rule:V-HeadNoun
+r21doAUXthingsNNS
+r21fightingVBGdepressionNN
+
+#Rule:V-IN-V
+r43enjoyVBbeforeINfightingVBG
+
+#Rule:V-V
+r44usedVBDenjoyVB
+
+#Call some friends and have a night out.
+#(S1 (S (VP (VP (VB Call) (NP (DT some) (NNS friends))) (CC and) (VP (AUX have) (NP (DT a) (NN night) (RP out)))) (. .)))
+#Rule:Nouns
+r1friendsNNS
+r1nightNN
+
+#Rule:Verbs
+r2callVB
+
+#Rule:V-HeadNoun
+r21callVBfriendsNNS
+r21haveAUXnightNN
+
+@lemmas-left	call	have	fight	exercise	use	busy	you	enjoy	used	depression	friends	healthy	night	do	eat	fighting	things	friend	keep	
+@lemmas-right	friends	fight	use	night	fighting	things	enjoy	used	depression	friend	
+@lemmas-center	before	

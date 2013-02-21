@@ -1,0 +1,89 @@
+#Smoking inserts hundreds of carcinogenic substances into the body as a whole, increasing cancer risks in general, not just the localised sites you mention. 
+#(S1 (S (NP (NN Smoking)) (VP (NNS inserts) (NP (NP (NNS hundreds)) (PP (IN of) (NP (JJ carcinogenic) (NNS substances)))) (PP (IN into) (NP (DT the) (NN body))) (PP (IN as) (NP (DT a) (NN whole))) (, ,) (S (VP (VBG increasing) (NP (NP (NP (NN cancer) (NNS risks)) (PP (IN in) (ADJP (JJ general)))) (, ,) (CONJP (RB not) (RB just)) (NP (NP (DT the) (JJ localised) (NNS sites)) (SBAR (S (NP (PRP you)) (VP (VBP mention))))))))) (. .)))
+#Rule:Nouns
+r1SmokingNN
+r1insertsNNS
+r1hundredsNNS
+r1substancesNNS
+r1bodyNN
+r1wholeNN
+r1cancerNN
+r1risksNNS
+r1sitesNNS
+
+#Rule:Verbs
+r2increasingVBG
+r2mentionVBP
+
+#Rule:Adjs
+r4carcinogenicOrganizationAnnotation
+r4generalJJ
+r4localisedJJ
+
+#Rule:Adj-Noun
+r5carcinogenicOrganizationAnnotationsubstancesNNS
+r5localisedJJsitesNNS
+
+#Rule:N-HeadNoun
+r8cancerNNrisksNNS
+
+#Rule:HeadNoun-V
+r11youPRPmentionVBP
+
+#Rule:NP(NP(z) SBAR(S(NP(x)VP(y))))
+r19mentionVBPsitesNNS
+
+#Rule:V-HeadNoun
+r21insertsNNShundredsNNS
+r21increasingVBGrisksNNS
+
+#Rule:PPinNP
+r26hundredsNNSofINsubstancesNNS
+
+#Transitional cell cancer is the type the bladder is most prone to anyway, it makes up 90% of all bladder cancers.
+#(S1 (S (NP (JJ Transitional) (NN cell) (NN cancer)) (VP (AUX is) (NP (NP (DT the) (NN type)) (SBAR (S (NP (DT the) (NN bladder)) (VP (AUX is) (ADJP (RBS most) (JJ prone) (PP (TO to) (ADVP (RB anyway))) (, ,) (SBAR (S (NP (PRP it)) (VP (VBZ makes) (PRT (RP up)) (NP (NP (CD 90) (NN %)) (PP (IN of) (NP (DT all) (NN bladder) (NNS cancers))))))))))))) (. .)))
+#Rule:Nouns
+r1cellNN
+r1cancerNN
+r1typeNN
+r1bladderNN
+r1%NN
+r1bladderNN
+r1cancersNNS
+
+#Rule:V-PRT
+r3makesVBZupRP
+
+#Rule:Adjs
+r4TransitionalJJ
+r4proneJJ
+
+#Rule:Adj-Noun
+r5TransitionalJJcancerNN
+r590CD%NN
+
+#Rule:N-HeadNoun
+r8cellNNcancerNN
+r8bladderNNcancersNNS
+
+#Rule:HeadNoun-V
+r11cancerNNisAUX
+r11bladderNNisAUX
+r11itPRPmakesVBZ
+
+#Rule:V-HeadNoun
+r21isAUXtypeNN
+r21makesVBZ%NN
+
+#Rule:V-ADJ
+r25isAUXproneJJ
+
+#Rule:PPinNP
+r26%NNofINcancersNNS
+
+#Rule:IS-RULE
+r47typeNNcancerNN
+
+@lemmas-left	body	inserts	risks	hundred	transitional	type	risk	substance	Smoking	smoking	localised	mention	bladder	be	site	sites	is	it	makes	%	cell	90	hundreds	increasing	you	carcinogenic	general	prone	cancers	whole	Transitional	increase	substances	insert	make	cancer	
+@lemmas-right	site	sites	is	risks	makes	%	hundred	hundreds	type	prone	up	cancers	risk	substance	mention	substances	make	cancer	be	
+@lemmas-center	of	

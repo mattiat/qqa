@@ -1,0 +1,59 @@
+#how will my thiny varicous veins in my legs and disappear and how much it cost to remove it.?
+#(S1 (SBARQ (SBARQ (WHADVP (WRB how)) (SQ (MD will) (NP (PRP$ my) (NN thiny)) (VP (VP (VB varicous) (NP (NNS veins)) (PP (IN in) (NP (PRP$ my) (NNS legs)))) (CC and) (VP (VB disappear))))) (CC and) (WHADVP (WRB how) (RB much)) (SQ (NP (PRP it)) (VP (VB cost) (S (VP (TO to) (VP (VB remove) (NP (PRP it)))))) (. .)) (. ?)))
+#Rule:Nouns
+r1thinyNN
+r1veinsNNS
+r1legsNNS
+
+#Rule:Verbs
+r2varicousVB
+r2disappearVB
+r2costVB
+r2removeVB
+
+#Rule:PRP-Noun
+r6myPRP$thinyNN
+r6myPRP$legsNNS
+
+#Rule:V-HeadNoun
+r21varicousVBveinsNNS
+r21removeVBitLocationAnnotation
+
+#Rule:PPinVP
+r30varicousVBinINlegsNNS
+
+#Rule:V-V
+r44costVBremoveVB
+
+#what is the best whitening lotion ??
+#(S1 (SBARQ (WHNP (WP what)) (SQ (VP (AUX is) (NP (DT the) (JJS best) (NN whitening) (NN lotion))) (. ?)) (. ?)))
+#Rule:Nouns
+r1whiteningNN
+r1lotionNN
+
+#Rule:Adjs
+r4bestJJS
+
+#Rule:Adj-Noun
+r5bestJJSlotionNN
+
+#Rule:N-HeadNoun
+r8whiteningNNlotionNN
+
+#Rule:V-HeadNoun
+r21isAUXlotionNN
+
+#in local made
+#(S1 (FRAG (SBAR (IN in) (S (NP (JJ local)) (VP (VBD made))))))
+#Rule:Verbs
+r2madeVBD
+
+#Rule:Adjs
+r4localJJ
+
+#Rule:HeadNoun-V
+r11localJJmadeVBD
+
+@lemmas-left	is	whitening	remove	made	thiny	vein	veins	cost	my	varicous	lotion	best	legs	local	disappear	make	be	
+@lemmas-right	it	remove	made	lotion	legs	thiny	make	veins	vein	
+@lemmas-center	in	

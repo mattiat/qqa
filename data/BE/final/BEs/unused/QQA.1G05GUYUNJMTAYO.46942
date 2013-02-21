@@ -1,0 +1,104 @@
+#In Philosophy, most Philosophers like Kierkegaard and others believed that all humans are born with an innate sense of knowing that God exists. Others believed that we are born with a deep void or sense of loneliness that only God can fill..
+#(S1 (S (PP (IN In) (NP (NN Philosophy))) (, ,) (NP (NP (JJS most) (NNS Philosophers)) (PP (IN like) (NP (NNP Kierkegaard) (CC and) (NNS others)))) (VP (VBD believed) (SBAR (IN that) (S (NP (DT all) (NNS humans)) (VP (AUX are) (VP (VBN born) (PP (IN with) (NP (NP (DT an) (JJ innate) (NN sense)) (PP (IN of) (S (VP (VBG knowing) (SBAR (IN that) (S (NP (NNP God) (NN exists.) (NNS Others)) (VP (VBD believed) (SBAR (IN that) (S (NP (PRP we)) (VP (AUX are) (VP (VBN born) (PP (IN with) (NP (NP (DT a) (JJ deep) (NN void) (CC or) (NN sense)) (PP (IN of) (NP (NN loneliness) (SBAR (IN that) (S (NP (RB only) (NNP God)) (VP (MD can) (VP (VB fill))) (. .)))))))))))))))))))))))) (. .)))
+#Rule:Nouns
+r1PhilosophyNN
+r1PhilosophersNNS
+r1KierkegaardPersonAnnotation
+r1othersNNS
+r1humansNNS
+r1senseNN
+r1GodNNP
+r1existsNN
+r1OthersNNS
+r1voidNN
+r1senseNN
+r1lonelinessNN
+r1GodNNP
+
+#Rule:Verbs
+r2believedVBD
+r2bornVBN
+r2knowingVBG
+r2believedVBD
+r2bornVBN
+r2fillVB
+
+#Rule:Adjs
+r4mostJJS
+r4innateJJ
+r4deepJJ
+
+#Rule:Adj-Noun
+r5mostJJSPhilosophersNNS
+r5innateJJsenseNN
+r5deepJJvoidNN
+
+#Rule:N-HeadNoun
+r8existsNNOthersNNS
+r8GodNNPOthersNNS
+
+#Rule:HeadNoun-V
+r11PhilosophersNNSbelievedVBD
+r11OthersNNSbelievedVBD
+r11GodNNPfillVB
+
+#Rule:V-HeadNoun(passive)
+r23bornVBNhumansNNS
+r23bornVBNwePRP
+
+#Rule:PPinNP
+r26PhilosophersNNSlikeINKierkegaardPersonAnnotation
+r26voidNNofINlonelinessNN
+
+#Rule:PPinVP
+r32bornVBNwithINsenseNN
+r32bornVBNwithINvoidNN
+
+#Rule:PPinS
+r36believedVBDinINPhilosophyNN
+
+#Rule:V-IN-V
+r43believedVBDthatINbornVBN
+r43knowingVBGthatINbelievedVBD
+r43believedVBDthatINbornVBN
+
+#A famous saying is, Don t ask me if God exists, I KNOW that God exists!
+#(S1 (S (S (NP (DT A) (JJ famous) (NN saying)) (VP (AUX is) (, ,) (S (NP (NNP Don) (NNP t)) (VP (VB ask) (NP (PRP me)) (SBAR (IN if) (S (NP (NNP God)) (VP (VBZ exists)))))))) (, ,) (NP (PRP I)) (VP (VBP KNOW) (SBAR (IN that) (S (NP (NNP God)) (VP (VBZ exists))))) (. !)))
+#Rule:Nouns
+r1sayingNN
+r1Don tPersonAnnotation
+r1GodNNP
+r1GodNNP
+
+#Rule:Verbs
+r2askVB
+r2existsVBZ
+r2knowVBP
+r2existsVBZ
+
+#Rule:Adjs
+r4famousJJ
+
+#Rule:Adj-Noun
+r5famousJJsayingNN
+
+#Rule:HeadNoun-V
+r11iPRPknowVBP
+r11sayingNNisAUX
+r11Don tPersonAnnotationaskVB
+r11GodNNPexistsVBZ
+r11GodNNPexistsVBZ
+
+#Rule:V-HeadNoun
+r21askVBmePRP
+
+#Rule:V-HeadNoun
+r22isAUXDon tPersonAnnotation
+
+#Rule:V-IN-V
+r43askVBifINexistsVBZ
+r43knowVBPthatINexistsVBZ
+
+@lemmas-left	Don t	famous	born	saying	god	knowing	Others	most	believe	believed	exists.	Kierkegaard	Philosophy	exist	deep	be	bear	is	philosopher	others	loneliness	philosophy	fill	innate	void	sense	humans	know	i	Philosophers	exists	God	ask	
+@lemmas-right	Don t	born	saying	Others	believe	believed	Kierkegaard	me	Philosophy	exist	be	bear	philosopher	is	others	loneliness	fill	philosophy	void	humans	sense	know	Philosophers	exists	ask	we	
+@lemmas-center	that	of	with	if	like	in	

@@ -1,0 +1,33 @@
+#before you try pills try breathing techniques,they work wonders,this link might help.http://www.buzzle.com/articles/power-breathing-dissolves-stress.html
+#(S1 (S (SBAR (IN before) (S (NP (PRP you)) (VP (VBP try) (SBAR (S (NP (NNS pills)) (VP (VBP try) (NP (NN breathing) (NNS techniques)))))))) (PRN (, ,) (S (NP (PRP they)) (VP (VBP work) (NP (NNS wonders)))) (, ,)) (NP (DT this) (NN link)) (VP (MD might) (VP (VB help.http) (: :) (NP (NN //www.buzzle.com/articles/power-breathing-dissolves-stress.html))))))
+#Rule:Nouns
+r1pillsNNS
+r1breathingNN
+r1techniquesNNS
+r1wondersNNS
+r1linkNN
+r1//www.buzzle.com/articles/power-breathing-dissolves-stress.htmlNN
+
+#Rule:Verbs
+r2tryVBP
+r2tryVBP
+r2workVBP
+r2help.httpVB
+
+#Rule:N-HeadNoun
+r8breathingNNtechniquesNNS
+
+#Rule:HeadNoun-V
+r11linkNNhelp.httpVB
+r11youPRPtryVBP
+r11pillsNNStryVBP
+r11theyPRPworkVBP
+
+#Rule:V-HeadNoun
+r21tryVBPtechniquesNNS
+r21workVBPwondersNNS
+r21help.httpVB//www.buzzle.com/articles/power-breathing-dissolves-stress.htmlNN
+
+@lemmas-left	technique	work	they	link	breathing	you	help.http	techniques	//www.buzzle.com/articles/power-breathing-dissolves-stress.html	pill	wonders	http	wonder	pills	html	try	
+@lemmas-right	work	technique	wonders	http	wonder	html	help.http	techniques	//www.buzzle.com/articles/power-breathing-dissolves-stress.html	try	
+@lemmas-center	

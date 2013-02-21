@@ -1,0 +1,70 @@
+#Sometimes people focus on the destination rather then the journey..
+#(S1 (S (ADVP (RB Sometimes)) (NP (NNS people)) (VP (VBP focus) (PP (IN on) (NP (DT the) (NN destination))) (ADVP (RB rather)) (FRAG (ADVP (RB then)) (NP (DT the) (NN journey)) (. .))) (. .)))
+#Rule:Nouns
+r1peopleNNS
+r1destinationNN
+r1journeyNN
+
+#Rule:Verbs
+r2focusVBP
+
+#Rule:HeadNoun-V
+r11peopleNNSfocusVBP
+
+#Rule:PPinVP
+r30focusVBPonINdestinationNN
+
+#Rule:V-ADV
+r46focusVBPSometimesRB
+r46focusVBPratherRB
+
+#Think it all the way through and decide what part of pleasuring yourself is really your favorit. Who says it has to be all about the big O.
+#(S1 (S (VP (VP (VB Think) (NP (PRP it)) (NP (PDT all) (DT the) (NN way)) (ADVP (RB through))) (CC and) (VP (VB decide) (SBAR (WHNP (WP what)) (S (NP (NP (NN part)) (PP (IN of) (S (VP (VBG pleasuring) (NP (PRP yourself)))))) (VP (AUX is) (ADVP (RB really)) (NP (NP (PRP$ your) (NN favorit.)) (SBAR (WHNP (WP Who)) (S (VP (VBZ says) (SBAR (S (NP (PRP it)) (VP (AUX has) (S (VP (TO to) (VP (AUX be) (NP (NP (DT all)) (PP (IN about) (NP (DT the) (JJ big) (NN O))))))))))))))))))) (. .)))
+#Rule:Nouns
+r1wayNN
+r1partNN
+r1favoritNN
+r1OLocationAnnotation
+
+#Rule:Verbs
+r2thinkVB
+r2decideVB
+r2pleasuringVBG
+r2saysVBZ
+
+#Rule:Adjs
+r4bigJJ
+
+#Rule:Adj-Noun
+r5bigJJOLocationAnnotation
+
+#Rule:PRP-Noun
+r6yourPRP$favoritNN
+
+#Rule:HeadNoun-V
+r11partNNisAUX
+r11itPRPhasAUX
+
+#Rule:HeadNoun-(who/that)-V
+r14favoritNNsaysVBZ
+
+#Rule:V-HeadNoun
+r21thinkVBitPRP
+r21thinkVBwayNN
+r21pleasuringVBGyourselfPRP
+r21isAUXfavoritNN
+r21beAUXallDT
+
+#Rule:PPinNP
+r26allDTaboutINOLocationAnnotation
+
+#Rule:V-ADV
+r46thinkVBthroughRB
+r46isAUXreallyRB
+
+#Rule:IS-RULE
+r47favoritNNpartNN
+
+@lemmas-left	decide	is	think	it	favorit	your	journey	way	O	pleasuring	people	destination	say	says	focus	favorit.	big	part	all	be	
+@lemmas-right	Sometimes	is	it	sometimes	have	favorit	way	through	O	has	destination	really	say	says	rather	focus	yourself	favorit.	part	all	be	
+@lemmas-center	about	on	

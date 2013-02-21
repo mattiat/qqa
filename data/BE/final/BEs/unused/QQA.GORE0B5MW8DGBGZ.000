@@ -1,0 +1,24 @@
+#Why can t a praying mantis be enlarged 80 times its size and survive?
+#(S1 (SBARQ (WHADVP (WRB Why)) (SQ (MD can) (RB t) (NP (DT a) (VBG praying) (NN mantis)) (VP (AUX be) (VP (VP (JJ enlarged) (NP (NP (CD 80) (NNS times)) (NP (PRP$ its) (NN size)))) (CC and) (VP (VBP survive))))) (. ?)))
+#Rule:Nouns
+r1mantisNN
+r1timesNNS
+r1sizeNN
+
+#Rule:Verbs
+r2prayingVBG
+r2surviveVBP
+
+#Rule:Adjs
+r4enlargedJJ
+
+#Rule:Adj-Noun
+r5prayingVBGmantisNN
+r580CDtimesNNS
+
+#Rule:PRP-Noun
+r6itsPRP$sizeNN
+
+@lemmas-left	survive	times	praying	pray	80	its	mantis	enlarged	size	
+@lemmas-right	times	mantis	size	
+@lemmas-center	

@@ -1,0 +1,41 @@
+#Eat lots of nuts.  
+#(S1 (S (VP (VB Eat) (NP (NP (NNS lots)) (PP (IN of) (NP (NNS nuts))))) (. .)))
+#Rule:Nouns
+r1lotsNNS
+r1nutsNNS
+
+#Rule:Verbs
+r2eatVB
+
+#Rule:V-HeadNoun
+r21eatVBlotsNNS
+
+#Rule:PPinNP
+r26lotsNNSofINnutsNNS
+
+#They are high in calories and packed with protein.
+#(S1 (S (NP (PRP They)) (VP (VP (AUX are) (ADJP (JJ high)) (PP (IN in) (NP (NNS calories)))) (CC and) (VP (VBD packed) (PP (IN with) (NP (NN protein))))) (. .)))
+#Rule:Nouns
+r1caloriesNNS
+r1proteinNN
+
+#Rule:Verbs
+r2packedVBD
+
+#Rule:Adjs
+r4highJJ
+
+#Rule:HeadNoun-V
+r11theyPRPpackedVBD
+r11theyPRPareAUX
+
+#Rule:V-ADJ
+r25areAUXhighJJ
+
+#Rule:PPinVP
+r30areAUXinINcaloriesNNS
+r30packedVBDwithINproteinNN
+
+@lemmas-left	they	lots	packed	nuts	pack	calorie	are	protein	nut	calories	eat	high	be	
+@lemmas-right	are	lots	packed	protein	calories	nuts	nut	high	pack	calorie	be	
+@lemmas-center	of	with	in	

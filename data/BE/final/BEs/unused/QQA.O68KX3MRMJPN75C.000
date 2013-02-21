@@ -1,0 +1,29 @@
+#how does the heart work in simple terms for children to understand?
+#(S1 (SBARQ (WHADVP (WRB how)) (SQ (AUX does) (NP (DT the) (NN heart)) (VP (VB work) (PP (IN in) (NP (JJ simple) (NNS terms))) (SBAR (IN for) (S (NP (NNS children)) (VP (TO to) (VP (VB understand))))))) (. ?)))
+#Rule:Nouns
+r1heartNN
+r1termsNNS
+r1childrenNNS
+
+#Rule:Verbs
+r2workVB
+r2understandVB
+
+#Rule:Adjs
+r4simpleJJ
+
+#Rule:Adj-Noun
+r5simpleJJtermsNNS
+
+#Rule:HeadNoun-V
+r11childrenNNSunderstandVB
+
+#Rule:PPinVP
+r30workVBinINtermsNNS
+
+#Rule:V-IN-V
+r43workVBforINunderstandVB
+
+@lemmas-left	work	child	understand	heart	simple	terms	children	
+@lemmas-right	understand	terms	
+@lemmas-center	for	in	

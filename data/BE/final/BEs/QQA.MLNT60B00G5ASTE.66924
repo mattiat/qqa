@@ -1,0 +1,89 @@
+#It took you 9 months to gain that weight. 
+#(S1 (S (NP (PRP It)) (VP (VBD took) (NP (PRP you) (CD 9) (NNS months)) (S (VP (TO to) (VP (VB gain) (NP (DT that) (NN weight)))))) (. .)))
+#Rule:Nouns
+r1monthsNNS
+r1weightNN
+
+#Rule:Verbs
+r2tookVBD
+r2gainVB
+
+#Rule:Adj-Noun
+r59CDmonthsNNS
+
+#Rule:HeadNoun-V
+r11itPRPtookVBD
+
+#Rule:V-HeadNoun
+r21tookVBDmonthsNNS
+r21gainVBweightNN
+
+#Rule:V-V
+r44tookVBDgainVB
+
+#Expect at least 9 months or more to lose it. 
+#(S1 (S (VP (VB Expect) (NP (NP (QP (IN at) (JJS least) (CD 9)) (NNS months) (QP (CC or) (JJR more))) (SBAR (S (VP (TO to) (VP (VB lose) (NP (PRP it)))))))) (. .)))
+#Rule:Nouns
+r1monthsNNS
+
+#Rule:Verbs
+r2expectVB
+r2loseVB
+
+#Rule:Adjs
+r4leastJJS
+r4moreJJR
+
+#Rule:Adj-Noun
+r5leastJJSmonthsNNS
+r59CDmonthsNNS
+r5moreJJRmonthsNNS
+
+#Rule:HeadNoun-(who/that)-V
+r14monthsNNSloseVB
+
+#Rule:V-HeadNoun
+r21expectVBmonthsNNS
+r21loseVBitPRP
+
+#As your baby grows and you carry the child around more you will lose the fat on your back side.
+#(S1 (S (SBAR (IN As) (S (S (NP (PRP$ your) (NN baby)) (VP (VBZ grows))) (CC and) (S (NP (PRP you)) (VP (VBP carry) (NP (DT the) (NN child)) (ADVP (RB around) (RBR more)))))) (NP (PRP you)) (VP (MD will) (VP (VB lose) (NP (DT the) (NN fat)) (PP (IN on) (NP (PRP$ your) (JJ back) (NN side))))) (. .)))
+#Rule:Nouns
+r1babyNN
+r1childNN
+r1fatNN
+r1sideNN
+
+#Rule:Verbs
+r2growsVBZ
+r2carryVBP
+r2loseVB
+
+#Rule:Adjs
+r4backJJ
+
+#Rule:Adj-Noun
+r5backJJsideNN
+
+#Rule:PRP-Noun
+r6yourPRP$babyNN
+r6yourPRP$sideNN
+
+#Rule:HeadNoun-V
+r11youPRPloseVB
+r11babyNNgrowsVBZ
+r11youPRPcarryVBP
+
+#Rule:V-HeadNoun
+r21carryVBPchildNN
+r21loseVBfatNN
+
+#Rule:PPinVP
+r30loseVBonINsideNN
+
+#Rule:V-ADV
+r46carryVBParoundRB
+
+@lemmas-left	weight	it	least	your	fat	took	back	grows	you	gain	child	expect	lose	months	more	side	take	grow	month	9	baby	carry	
+@lemmas-right	weight	it	fat	took	grows	around	gain	child	lose	months	side	take	grow	month	baby	carry	
+@lemmas-center	on	

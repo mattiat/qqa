@@ -1,0 +1,34 @@
+#when i was that young i gt about 5 or 6 hours and i was great
+#(S1 (S (S (SBAR (WHADVP (WRB when)) (S (NP (PRP i)) (VP (AUX was) (ADJP (RB that) (JJ young))))) (NP (PRP i)) (VP (VBD gt) (NP (QP (IN about) (CD 5) (CC or) (CD 6)) (NNS hours)))) (CC and) (S (NP (PRP i)) (VP (AUX was) (ADJP (JJ great))))))
+#Rule:Nouns
+r1hoursNNS
+
+#Rule:Verbs
+r2gtVBD
+
+#Rule:Adjs
+r4youngJJ
+r4greatJJ
+
+#Rule:Adj-Noun
+r55CDhoursNNS
+r56CDhoursNNS
+
+#Rule:HeadNoun-V
+r11iLocationAnnotationgtVBD
+r11iPersonAnnotationwasAUX
+r11iPersonAnnotationwasAUX
+
+#Rule:V-HeadNoun
+r21gtVBDhoursNNS
+
+#Rule:V-ADJ
+r25wasAUXyoungJJ
+r25wasAUXgreatJJ
+
+#Rule:(SBAR+WHADVP)inS
+r42gtVBDwhenWRBwasAUX
+
+@lemmas-left	great	6	5	hours	gt	young	was	be	i	
+@lemmas-right	great	hours	gt	young	was	be	
+@lemmas-center	when	

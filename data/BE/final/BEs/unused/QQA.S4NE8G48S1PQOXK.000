@@ -1,0 +1,16 @@
+#how are cyclones caused?
+#(S1 (SBARQ (WHADVP (WRB how)) (SQ (AUX are) (NP (NNS cyclones)) (VP (VBN caused))) (. ?)))
+#Rule:Nouns
+r1cyclonesNNS
+
+#Rule:Verbs
+r2causedVBN
+
+#pics also
+#(S1 (NP (NP (NNS pics)) (ADVP (RB also))))
+#Rule:Nouns
+r1picsNNS
+
+@lemmas-left	pics	cause	cyclone	pic	cyclones	caused	
+@lemmas-right	
+@lemmas-center	

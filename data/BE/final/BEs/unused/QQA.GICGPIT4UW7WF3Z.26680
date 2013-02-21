@@ -1,0 +1,47 @@
+#miguel is correct, you can also do a yahoo search or use the search bar to find this out also.
+#(S1 (S (S (NP (NNP miguel)) (VP (AUX is) (ADJP (JJ correct)))) (, ,) (S (NP (PRP you)) (VP (MD can) (ADVP (RB also)) (VP (VP (AUX do) (NP (DT a) (JJ yahoo) (NN search))) (CC or) (VP (VB use) (NP (DT the) (NN search) (NN bar)) (S (VP (TO to) (VP (VB find) (NP (DT this)) (PRT (RP out)) (ADVP (RB also))))))))) (. .)))
+#Rule:Nouns
+r1miguelNNP
+r1searchNN
+r1searchNN
+r1barNN
+
+#Rule:Verbs
+r2useVB
+r2findVB
+
+#Rule:V-PRT
+r3findVBoutRP
+
+#Rule:Adjs
+r4correctJJ
+r4yahooLocationAnnotation
+
+#Rule:Adj-Noun
+r5yahooLocationAnnotationsearchNN
+
+#Rule:N-HeadNoun
+r8searchNNbarNN
+
+#Rule:HeadNoun-V
+r11miguelNNPisAUX
+r11youPRPuseVB
+r11youPRPdoAUX
+
+#Rule:V-HeadNoun
+r21doAUXsearchNN
+r21useVBbarNN
+r21findVBthisDT
+
+#Rule:V-ADJ
+r25isAUXcorrectJJ
+
+#Rule:V-V
+r44useVBfindVB
+
+#Rule:V-ADV
+r46findVBalsoRB
+
+@lemmas-left	is	correct	search	miguel	use	do	you	bar	find	be	yahoo	
+@lemmas-right	is	correct	search	use	do	bar	also	this	find	be	out	
+@lemmas-center	

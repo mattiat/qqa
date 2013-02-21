@@ -1,0 +1,135 @@
+BE: y.o.OrganizationAnnotation
+EQ class: yoorganizationannotation	
+
+BE: MVPOrganizationAnnotation
+EQ class: m.v.p.organizationannotation	
+
+BE: diagnosedVBN
+EQ class: diagnosevbn	namevbn	
+
+BE: manageVB
+EQ class: negociatevb	pull_offvb	carry_offvb	bring_offvb	
+
+BE: mildJJ
+EQ class: mildnessnn	
+
+BE: 33CDy.o.OrganizationAnnotation
+EQ class: 3.3.cdy.o.organizationannotation	3.3.cdyoorganizationannotation	33cdyoorganizationannotation	
+
+BE: mildJJMVPOrganizationAnnotation
+EQ class: mildjjm.v.p.organizationannotation	mildnessnnm.v.p.organizationannotation	mildnessnnmvporganizationannotation	
+
+BE: manageVBitPRP
+EQ class: pull_offvbitprp	carry_offvbitprp	negociatevbitprp	bring_offvbitprp	
+
+BE: diagnosedVBNiPRP
+EQ class: namevbniprp	diagnosticjjofiniprp	diagnosisnnofiniprp	diagnosevbniprp	diagnosingnnofiniprp	
+
+BE: diagnosedVBNwithINMVPOrganizationAnnotation
+EQ class: diagnosedvbnwithinm.v.p.organizationannotation	namevbnwithinm.v.p.organizationannotation	diagnosevbnwithinmvporganizationannotation	namevbnwithinmvporganizationannotation	diagnosevbnwithinm.v.p.organizationannotation	
+
+BE: amAUXjustRB
+EQ class: beauxjustrb	
+
+BE: diagnosedVBNjustRB
+EQ class: diagnosticjjofinjustrb	namevbnjustrb	diagnosevbnjustrb	diagnosisnnofinjustrb	diagnosingnnofinjustrb	
+
+BE: nervousnessNN
+EQ class: jumpinessnn	nervousjj	jitterinessnn	restivenessnn	
+
+BE: manageVB
+EQ class: negociatevb	pull_offvb	carry_offvb	bring_offvb	
+
+BE: myPRP$nervousnessNN
+EQ class: myprp$restivenessnn	myprp$nervousvb	jitterinessnnofinmyprp$	myprp$jumpinessnn	jumpinessnnofinmyprp$	nervousvbmyprp$	nervousjjofinmyprp$	nervousnessnnofinmyprp$	restivenessnnofinmyprp$	myprp$jitterinessnn	myprp$nervousjj	
+
+BE: manageVBnervousnessNN
+EQ class: bring_offvbnervousjj	negociatevbjumpinessnn	pull_offvbnervousnessnn	bring_offvbjumpinessnn	pull_offvbjitterinessnn	managevbjitterinessnn	pull_offvbjumpinessnn	pull_offvbnervousjj	carry_offvbnervousnessnn	carry_offvbjumpinessnn	negociatevbjitterinessnn	managevbnervousjj	negociatevbnervousjj	carry_offvbnervousjj	managevbrestivenessnn	negociatevbnervousnessnn	bring_offvbnervousnessnn	pull_offvbrestivenessnn	bring_offvbrestivenessnn	carry_offvbrestivenessnn	negociatevbrestivenessnn	bring_offvbjitterinessnn	managevbjumpinessnn	carry_offvbjitterinessnn	
+
+BE: thingsNNS
+EQ class: theynns	themnns	
+
+BE: MVPOrganizationAnnotation
+EQ class: m.v.p.organizationannotation	
+
+BE: gotVBP
+EQ class: acquirevbp	getvbp	
+
+BE: thinkingVBG
+EQ class: considervbg	conceivevbg	thinkvbg	believevbg	
+
+BE: nervousJJ
+EQ class: nervousnessnn	
+
+BE: weirdJJ
+EQ class: weirdnessnn	eldritchjj	uncannyjj	unearthlyjj	
+
+BE: weirdJJthingsNNS
+EQ class: weirdnessnntheynns	eldritchjjthingsnns	uncannyjjtheynns	uncannyjjthemnns	unearthlyjjtheynns	eldritchjjthemnns	weirdnessnnthingsnns	eldritchjjtheynns	weirdjjthemnns	unearthlyjjthemnns	unearthlyjjthingsnns	uncannyjjthingsnns	weirdnessnnthemnns	weirdjjtheynns	
+
+BE: iPRPgotVBP
+EQ class: gettingnnofiniprp	acquiringnnofiniprp	gettingnniprp	acquiringnniprp	iprpacquirevbp	iprpgetvbp	
+
+BE: iPRPthinkingVBG
+EQ class: iprpconceivevbg	iprpconsidervbg	thoughtnnofiniprp	ideanniprp	iprpbelievevbg	iprpthinkvbg	ideannofiniprp	thoughtnniprp	
+
+BE: thinkingVBGofINthingsNNS
+EQ class: conceivevbgofinthingsnns	thinkingvbgofintheynns	considervbgofintheynns	conceivevbgofintheynns	believevbgofinthingsnns	believevbgofintheynns	considervbgofinthingsnns	thinkingvbgofinthemnns	considervbgofinthemnns	believevbgofinthemnns	thinkvbgofinthingsnns	thinkvbgofintheynns	conceivevbgofinthemnns	thinkvbgofinthemnns	
+
+BE: thinkingVBGaboutINMVPOrganizationAnnotation
+EQ class: believevbgaboutinm.v.p.organizationannotation	conceivevbgaboutinmvporganizationannotation	conceivevbgaboutinm.v.p.organizationannotation	thinkvbgaboutinm.v.p.organizationannotation	believevbgaboutinmvporganizationannotation	thinkvbgaboutinmvporganizationannotation	considervbgaboutinmvporganizationannotation	considervbgaboutinm.v.p.organizationannotation	thinkingvbgaboutinm.v.p.organizationannotation	
+
+BE: conditionNN
+EQ class: statusnn	
+
+BE: eventhoughNN
+EQ class: 
+
+BE: doctorNN
+EQ class: physiciannn	dr.nn	doctorialjj	docnn	mediconn	mdnn	
+
+BE: caseNN
+EQ class: instancenn	examplenn	
+
+BE: toldVBD
+EQ class: statevbd	tellvbd	sayvbd	
+
+BE: afraidJJ
+EQ class: 
+
+BE: mildJJ
+EQ class: mildnessnn	
+
+BE: mildJJcaseNN
+EQ class: mildnessnninstancenn	mildnessnncasenn	mildnessnnexamplenn	mildjjinstancenn	mildjjexamplenn	
+
+BE: myPRP$eventhoughNN
+EQ class: 
+
+BE: myPRP$doctorNN
+EQ class: myprp$dr.nn	myprp$mdnn	myprp$doctorialjj	dr.nnofinmyprp$	mdnnofinmyprp$	docnnofinmyprp$	myprp$doctorialvb	doctorvbmyprp$	myprp$docnn	doctorialvbmyprp$	sophisticatevbmyprp$	physiciannnofinmyprp$	doctorialjjofinmyprp$	doctor_upvbmyprp$	myprp$doctor_upvb	mediconnofinmyprp$	myprp$sophisticatevb	myprp$doctorvb	myprp$mediconn	doctornnofinmyprp$	myprp$physiciannn	
+
+BE: conditionNNeventhoughNN
+EQ class: conditioningnnofineventhoughnn	eventhoughnnconditionvb	statusnneventhoughnn	
+
+BE: doctorNNtoldVBD
+EQ class: tellernnofinmdnn	relationnnofindocnn	docnnstatevbd	edward_tellernndocnn	recountingnndr.nn	tellernnmdnn	relationnnphysiciannn	physiciannntoldvbd	tellingnnphysiciannn	edward_tellernndoctorialjj	edward_tellernndr.nn	recountingnnofinphysiciannn	mediconnstatevbd	tellernnmediconn	edward_tellernndoctornn	tellingnnofindoctorialjj	tellingnnofinmediconn	docnntellvbd	tellingnnofinphysiciannn	tellingnnofindr.nn	recountingnndocnn	docnntoldvbd	dr.nnstatevbd	recountingnnphysiciannn	relationnnmdnn	relationnnofinphysiciannn	relationnnofinmediconn	relationnnofinmdnn	relationnndoctornn	edward_tellernnmediconn	doctorialjjtoldvbd	mediconntellvbd	mdnntoldvbd	edward_tellernnofinmediconn	mdnnstatevbd	doctornnstatevbd	tellernndr.nn	tellernndocnn	relationnnmediconn	relationnnofindoctorialjj	doctorialjjstatevbd	dr.nntellvbd	recountingnndoctornn	edward_tellernnphysiciannn	tellernnofinmediconn	recountingnnofinmdnn	tellernnofindr.nn	edward_tellernnmdnn	edward_tellernnofindocnn	relationnndr.nn	edward_tellernnofindoctornn	tellingnnofindocnn	recountingnnofindoctornn	tellernnofindoctorialjj	edward_tellernnofindoctorialjj	recountingnnmdnn	tellingnnmediconn	edward_tellernnofinphysiciannn	edward_tellernnofindr.nn	tellingnnmdnn	relationnndoctorialjj	doctorialjjtellvbd	recountingnnofinmediconn	mdnnsayvbd	relationnnofindoctornn	tellingnndr.nn	dr.nntoldvbd	tellernndoctornn	edward_tellernnofinmdnn	recountingnnmediconn	tellernnphysiciannn	relationnndocnn	recountingnnofindocnn	doctornnsayvbd	physiciannnstatevbd	mediconntoldvbd	recountingnnofindr.nn	mdnntellvbd	tellingnndoctornn	tellernnofinphysiciannn	tellingnnofindoctornn	recountingnnofindoctorialjj	physiciannnsayvbd	tellingnndocnn	recountingnndoctorialjj	doctornntellvbd	tellernnofindoctornn	relationnnofindr.nn	doctorialjjsayvbd	mediconnsayvbd	tellingnndoctorialjj	physiciannntellvbd	tellernndoctorialjj	docnnsayvbd	tellingnnofinmdnn	dr.nnsayvbd	tellernnofindocnn	
+
+BE: iPRPamAUX
+EQ class: iprpbeaux	
+
+BE: iOrganizationAnnotationhaveAUX
+EQ class: rich_personnnofiniorganizationannotation	wealthy_personnnofiniorganizationannotation	havennofiniorganizationannotation	iorganizationannotationholdaux	iorganizationannotationhave_gotaux	
+
+BE: toldVBDmePRP
+EQ class: edward_tellernnofinmeprp	relationnnofinmeprp	tellingnnofinmeprp	recountingnnofinmeprp	tellernnofinmeprp	statevbdmeprp	tellvbdmeprp	sayvbdmeprp	
+
+BE: haveAUXcaseNN
+EQ class: haveauxinstancenn	rich_personnnofincasenn	wealthy_personnnofincasenn	havennofinexamplenn	haveauxexamplenn	rich_personnnofininstancenn	holdauxcasenn	have_gotauxinstancenn	wealthy_personnnofinexamplenn	havennofininstancenn	holdauxexamplenn	havennofincasenn	wealthy_personnnofininstancenn	rich_personnnofinexamplenn	holdauxinstancenn	have_gotauxcasenn	have_gotauxexamplenn	
+
+BE: toldVBDiOrganizationAnnotation
+EQ class: sayvbdiorganizationannotation	edward_tellernnofiniorganizationannotation	recountingnnofiniorganizationannotation	tellingnnofiniorganizationannotation	tellvbdiorganizationannotation	statevbdiorganizationannotation	tellernnofiniorganizationannotation	relationnnofiniorganizationannotation	
+
+BE: afraidJJofINeventhoughNN
+EQ class: 
+

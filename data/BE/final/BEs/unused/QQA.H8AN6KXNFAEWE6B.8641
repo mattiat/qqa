@@ -1,0 +1,50 @@
+#Very badly designed ice bucket. 
+#(S1 (S (VP (ADVP (RB Very) (RB badly)) (VBN designed) (NP (NN ice) (NN bucket))) (. .)))
+#Rule:Nouns
+r1iceOrganizationAnnotation
+r1bucketNN
+
+#Rule:Verbs
+r2designedVBN
+
+#Rule:N-HeadNoun
+r8iceOrganizationAnnotationbucketNN
+
+#Rule:V-HeadNoun
+r21designedVBNbucketNN
+
+#Rule:V-ADV
+r46designedVBNVeryRB
+r46designedVBNbadlyRB
+
+#Not fit for purpose! 
+#(S1 (S (RB Not) (VP (VBP fit) (PP (IN for) (NP (NN purpose)))) (. !)))
+#Rule:Nouns
+r1purposeNN
+
+#Rule:Verbs
+r2fitVBP
+
+#Rule:PPinVP
+r30fitVBPforINpurposeNN
+
+#Should have been reported to the local Trading Standards Office.
+#(S1 (S (VP (MD Should) (VP (AUX have) (VP (AUX been) (VP (VBN reported) (PP (TO to) (NP (DT the) (JJ local) (NNP Trading) (NNP Standards) (NNP Office))))))) (. .)))
+#Rule:Nouns
+r1Trading Standards OfficeOrganizationAnnotation
+
+#Rule:Verbs
+r2reportedVBN
+
+#Rule:Adjs
+r4localJJ
+
+#Rule:Adj-Noun
+r5localJJTrading Standards OfficeOrganizationAnnotation
+
+#Rule:PPinVP
+r32reportedVBNtoTOTrading Standards OfficeOrganizationAnnotation
+
+@lemmas-left	reported	fit	designed	Trading Standards Office	ice	bucket	report	local	purpose	design	
+@lemmas-right	Very	Trading Standards Office	bucket	badly	purpose	very	
+@lemmas-center	to	for	

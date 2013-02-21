@@ -1,0 +1,205 @@
+#Only a Doctor can diagnose cancer. 
+#(S1 (S (NP (RB Only) (DT a) (NN Doctor)) (VP (MD can) (VP (VB diagnose) (NP (NN cancer)))) (. .)))
+#Rule:Nouns
+r1DoctorNN
+r1cancerNN
+
+#Rule:Verbs
+r2diagnoseVB
+
+#Rule:HeadNoun-V
+r11DoctorNNdiagnoseVB
+
+#Rule:V-HeadNoun
+r21diagnoseVBcancerNN
+
+#But here is some help:Early breast cancer usually does not cause pain. 
+#(S1 (SINV (CC But) (ADVP (RB here)) (VP (AUX is)) (NP (DT some) (NN help)) (: :) (S (NP (JJ Early) (NN breast) (NN cancer)) (ADVP (RB usually)) (VP (AUX does) (RB not) (VP (VB cause) (NP (NN pain))))) (. .)))
+#Rule:Nouns
+r1helpNN
+r1breastNN
+r1cancerNN
+r1painNN
+
+#Rule:Verbs
+r2causeVB
+
+#Rule:Adjs
+r4EarlyJJ
+
+#Rule:Adj-Noun
+r5EarlyJJcancerNN
+
+#Rule:N-HeadNoun
+r8breastNNcancerNN
+
+#Rule:HeadNoun-V
+r11cancerNNcauseVB
+
+#Rule:V-HeadNoun
+r21causeVBpainNN
+
+#Rule:V-ADV
+r46doesAUXusuallyRB
+r46doesAUXnotRB
+
+#In fact, when breast cancer first develops, there may be no symptoms at all. 
+#(S1 (S (PP (IN In) (NP (NN fact))) (, ,) (SBAR (WHADVP (WRB when)) (S (NP (NN breast) (NN cancer)) (ADVP (RB first)) (VP (VBZ develops)))) (, ,) (NP (EX there)) (VP (MD may) (VP (AUX be) (NP (DT no) (NNS symptoms)) (ADVP (IN at) (DT all)))) (. .)))
+#Rule:Nouns
+r1factNN
+r1breastNN
+r1cancerNN
+r1symptomsNNS
+
+#Rule:Verbs
+r2developsVBZ
+
+#Rule:N-HeadNoun
+r8breastNNcancerNN
+
+#Rule:HeadNoun-V
+r11thereEXbeAUX
+r11cancerNNdevelopsVBZ
+
+#Rule:V-HeadNoun
+r21beAUXsymptomsNNS
+
+#Rule:PPinS
+r36mayMDinINfactNN
+
+#Rule:(SBAR+WHADVP)inS
+r42beAUXwhenWRBdevelopsVBZ
+
+#Rule:V-ADV
+r46developsVBZfirstRB
+
+#But as the cancer grows, it can cause changes that women should watch for: A lump or thickening in or near the breast or in the underarm area. 
+#(S1 (S (CC But) (SBAR (IN as) (S (NP (DT the) (NN cancer)) (VP (VBZ grows)))) (, ,) (NP (PRP it)) (VP (MD can) (VP (VB cause) (NP (NNS changes)) (SBAR (IN that) (S (NP (NNS women)) (VP (MD should) (VP (VB watch) (PP (IN for) (: :) (NP (NP (DT A) (NN lump) (CC or) (NN thickening)) (PP (IN in) (CC or) (IN near) (NP (DT the) (NN breast)) (CC or) (PP (IN in) (NP (DT the) (JJ underarm) (NN area)))))))))))) (. .)))
+#Rule:Nouns
+r1cancerNN
+r1changesNNS
+r1womenNNS
+r1lumpNN
+r1thickeningNN
+r1breastNN
+r1areaNN
+
+#Rule:Verbs
+r2growsVBZ
+r2causeVB
+r2watchVB
+
+#Rule:Adjs
+r4underarmJJ
+
+#Rule:Adj-Noun
+r5underarmJJareaNN
+
+#Rule:HeadNoun-V
+r11itPRPcauseVB
+r11cancerNNgrowsVBZ
+r11womenNNSwatchVB
+
+#Rule:V-HeadNoun
+r21causeVBchangesNNS
+
+#Rule:PPinNP
+r26lumpNNinINbreastNN
+
+#Rule:PPinVP
+r30watchVBforINlumpNN
+
+#Rule:V-IN-V
+r43causeVBthatINwatchVB
+
+#A change in the size or shape of the breast. 
+#(S1 (NP (NP (DT A) (NN change)) (PP (IN in) (NP (NP (DT the) (NN size) (CC or) (NN shape)) (PP (IN of) (NP (DT the) (NN breast))))) (. .)))
+#Rule:Nouns
+r1changeNN
+r1sizeNN
+r1shapeNN
+r1breastNN
+
+#Rule:PPinNP
+r26changeNNinINsizeNN
+r26sizeNNofINbreastNN
+
+#A discharge from the nipple. 
+#(S1 (NP (NP (DT A) (NN discharge)) (PP (IN from) (NP (DT the) (NN nipple))) (. .)))
+#Rule:Nouns
+r1dischargeNN
+r1nippleNN
+
+#Rule:PPinNP
+r26dischargeNNfromINnippleNN
+
+#A change in the color or feel of the skin of the breast, areola, or nipple (dimpled, puckered, or scaly). 
+#(S1 (NP (NP (DT A) (NN change)) (PP (IN in) (NP (NP (DT the) (NN color) (CC or) (NN feel)) (PP (IN of) (NP (NP (DT the) (NN skin)) (PP (IN of) (NP (NP (DT the) (NN breast) (, ,) (NN areola) (, ,) (CC or) (NN nipple)) (PRN (-LRB- -LRB-) (ADJP (JJ dimpled) (, ,) (JJ puckered) (, ,) (CC or) (JJ scaly)) (-RRB- -RRB-)))))))) (. .)))
+#Rule:Nouns
+r1changeNN
+r1colorNN
+r1feelNN
+r1skinNN
+r1breastNN
+r1areolaOrganizationAnnotation
+r1nippleOrganizationAnnotation
+
+#Rule:Adjs
+r4dimpledJJ
+r4puckeredJJ
+r4scalyLocationAnnotation
+
+#Rule:PPinNP
+r26changeNNinINcolorNN
+r26colorNNofINskinNN
+r26skinNNofINnippleOrganizationAnnotation
+
+#A woman should see her doctor if she notices any of these changes. 
+#(S1 (S (NP (DT A) (NN woman)) (VP (MD should) (VP (VB see) (NP (PRP$ her) (NN doctor)) (SBAR (IN if) (S (NP (PRP she)) (VP (NNS notices) (NP (NP (DT any)) (PP (IN of) (NP (DT these) (NNS changes))))))))) (. .)))
+#Rule:Nouns
+r1womanNN
+r1doctorNN
+r1noticesNNS
+r1changesNNS
+
+#Rule:Verbs
+r2seeVB
+
+#Rule:PRP-Noun
+r6herPRP$doctorNN
+
+#Rule:HeadNoun-V
+r11womanNNseeVB
+
+#Rule:V-HeadNoun
+r21seeVBdoctorNN
+r21noticesNNSanyDT
+
+#Rule:PPinNP
+r26anyDTofINchangesNNS
+
+#Most often, they are not cancer, but only a doctor can tell for sure.
+#(S1 (S (ADVP (RBS Most) (RB often)) (, ,) (S (NP (PRP they)) (VP (AUX are) (RB not) (NP (NN cancer)))) (, ,) (CC but) (S (NP (RB only) (DT a) (NN doctor)) (VP (MD can) (VP (VB tell) (PP (IN for) (ADJP (JJ sure)))))) (. .)))
+#Rule:Nouns
+r1cancerNN
+r1doctorNN
+
+#Rule:Verbs
+r2tellVB
+
+#Rule:Adjs
+r4sureJJ
+
+#Rule:HeadNoun-V
+r11theyPRPareAUX
+r11doctorNNtellVB
+
+#Rule:V-HeadNoun
+r21areAUXcancerNN
+
+#Rule:V-ADV
+r46areAUXnotRB
+
+@lemmas-left	they	lump	cause	change	skin	doctor	dimpled	help	are	woman	any	underarm	her	pucker	discharge	thickening	sure	be	Doctor	watch	shape	size	breast	dimple	early	symptom	does	notices	pain	grows	area	scaly	tell	do	develop	notice	feel	may	Early	it	areola	puckered	women	diagnose	symptoms	fact	see	color	there	grow	develops	nipple	cancer	changes	
+@lemmas-right	lump	cause	change	pain	grows	skin	doctor	are	area	any	usually	tell	develop	be	watch	diagnose	size	not	breast	symptoms	fact	see	color	grow	develops	nipple	first	cancer	symptom	changes	
+@lemmas-center	of	that	for	when	from	in	

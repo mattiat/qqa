@@ -1,0 +1,148 @@
+#i m 16, how many calories should i take in, want to lose weight, too?
+#(S1 (S (NP (PRP i)) (VP (NP (NNP m) (CD 16)) (, ,) (SBAR (WHNP (WHADJP (WRB how) (JJ many)) (NNS calories)) (S (MD should) (NP (PRP i)) (VP (VP (VBP take) (PRT (RP in))) (, ,) (VP (VBP want) (S (VP (TO to) (VP (VB lose) (NP (NN weight)))))) (, ,) (ADVP (RB too)))))) (. ?)))
+#Rule:Nouns
+r1mNNP
+r1caloriesNNS
+r1weightNN
+
+#Rule:Verbs
+r2wantVBP
+r2loseVB
+
+#Rule:V-PRT
+r3takeVBPinRP
+
+#Rule:Adjs
+r4manyJJ
+
+#Rule:Adj-Noun
+r516CDmNNP
+
+#Rule:HeadNoun-V
+r11iOrganizationAnnotationtakeVBP
+r11iOrganizationAnnotationwantVBP
+
+#Rule:V-HeadNoun
+r21loseVBweightNN
+
+#Rule:V-V
+r44wantVBPloseVB
+
+#Rule:V-ADV
+r46takeVBPtooRB
+r46wantVBPtooRB
+
+#whats the number of calories you should never go below. how do i eat to lose weight? 
+#(S1 (S (S (VP (VBZ whats) (NP (NP (DT the) (NN number)) (PP (IN of) (NP (NNS calories))) (SBAR (S (NP (PRP you)) (VP (MD should) (ADVP (RB never)) (VP (VB go) (ADVP (RB below.))))))))) (SBARQ (WHADVP (WRB how)) (SQ (AUX do) (NP (PRP i)) (VP (VB eat) (S (VP (TO to) (VP (VB lose) (NP (NN weight))))))) (. ?))))
+#Rule:Nouns
+r1numberNN
+r1caloriesNNS
+r1weightNN
+
+#Rule:Verbs
+r2whatsVBZ
+r2goVB
+r2eatVB
+r2loseVB
+
+#Rule:HeadNoun-V
+r11youPRPgoVB
+
+#Rule:NP(NP(z) SBAR(S(NP(x)VP(y))))
+r19goVBnumberNN
+
+#Rule:V-HeadNoun
+r21whatsVBZnumberNN
+r21loseVBweightNN
+
+#Rule:PPinNP
+r26numberNNofINcaloriesNNS
+
+#Rule:V-V
+r44eatVBloseVB
+
+#Rule:V-ADV
+r46goVBneverRB
+r46goVBbelowRB
+
+#is it breakfast, snack, lunch, snack, dinner? 
+#(S1 (SQ (AUX is) (NP (PRP it)) (NP (NN breakfast) (, ,) (NN snack) (, ,) (NN lunch) (, ,) (NN snack) (, ,) (NN dinner)) (. ?)))
+#Rule:Nouns
+r1breakfastNN
+r1snackNN
+r1lunchNN
+r1snackNN
+r1dinnerNN
+
+#or b, l, d, no snack, or 1 snack.? 
+#(S1 (SQ (CC or) (FRAG (NP (NNP b)) (, ,) (NP (NNP l)) (, ,) (NP (NNP d)) (, ,) (NP (DT no) (NN snack)) (, ,) (NP (QP (CC or) (CD 1)) (NN snack)) (. .)) (. ?)))
+#Rule:Nouns
+r1bLocationAnnotation
+r1lLocationAnnotation
+r1dLocationAnnotation
+r1snackNN
+r1snackNN
+
+#Rule:Adj-Noun
+r51CDsnackNN
+
+#for exercise, i m just gonna do 30 minutes, slowly work my way up to 1 hr. i m looking to lose a good 15 lbs. by april 1st.
+#(S1 (S (PP (IN for) (NP (NN exercise))) (, ,) (NP (NP (PRP i)) (NP (NNP m) (RB just) (NNS gonna))) (VP (AUX do) (NP (CD 30) (NNS minutes)) (, ,) (S (RB slowly) (VP (VB work) (NP (PRP$ my) (NN way)) (ADVP (RB up) (PP (TO to) (NP (QP (CD 1) (CD hr.))))) (S (NP (PRP i)) (VP (NNP m) (S (VP (VBG looking) (S (VP (TO to) (VP (VB lose) (NP (DT a) (JJ good) (CD 15) (NN lbs.)) (PP (IN by) (NP (NNP april) (CD 1st))))))))))))) (. .)))
+#Rule:Nouns
+r1exerciseNN
+r1i mOrganizationAnnotation
+r1gonnaNNS
+r1minutesNNS
+r1wayNN
+r1mNNP
+r1lbsOrganizationAnnotation
+r1aprilNNP
+
+#Rule:Verbs
+r2workVB
+r2lookingVBG
+r2loseVB
+
+#Rule:Adjs
+r4goodJJ
+
+#Rule:Adj-Noun
+r530CDminutesNNS
+r5hrCD1CD
+r5goodJJlbsOrganizationAnnotation
+r515CDlbsOrganizationAnnotation
+r51stCDaprilNNP
+
+#Rule:PRP-Noun
+r6myPRP$wayNN
+
+#Rule:HeadNoun-V
+r11i mOrganizationAnnotationdoAUX
+r11gonnaNNSdoAUX
+
+#Rule:V-HeadNoun
+r21doAUXminutesNNS
+r21workVBwayNN
+r21loseVBlbsOrganizationAnnotation
+
+#Rule:V-HeadNoun
+r22workVBiPersonAnnotation
+
+#Rule:PPinVP
+r30loseVBbyINaprilNNP
+
+#Rule:PPinS
+r36doAUXforINexerciseNN
+
+#Rule:V-V
+r44lookingVBGloseVB
+
+#Rule:V-MOD
+r45doAUXworkVB
+
+#Rule:V-ADV
+r46workVBupRB
+
+@lemmas-left	hr	weight	breakfast	way	exercise	15	good	16	whats	calorie	looking	hr.	i m	calories	do	lunch	gonna	want	look	work	d	minutes	april	b	number	you	l	m	my	snack	i	many	dinner	lose	1	30	take	1st	eat	lbs	go	
+@lemmas-right	weight	way	exercise	calorie	below.	below	calories	do	too	want	work	minutes	april	number	m	in	snack	i	up	lose	never	1	take	lbs	go	
+@lemmas-center	of	for	by	

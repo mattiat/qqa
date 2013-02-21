@@ -1,0 +1,21 @@
+#don t worry about it
+#(S1 (S (NP (NNP don) (NNS t)) (VP (VBP worry) (PP (IN about) (NP (PRP it))))))
+#Rule:Nouns
+r1donNNP
+r1tLocationAnnotation
+
+#Rule:Verbs
+r2worryVBP
+
+#Rule:N-HeadNoun
+r8donNNPtLocationAnnotation
+
+#Rule:HeadNoun-V
+r11tLocationAnnotationworryVBP
+
+#Rule:PPinVP
+r30worryVBPaboutINitLocationAnnotation
+
+@lemmas-left	t	don	worry	
+@lemmas-right	it	t	worry	
+@lemmas-center	about	

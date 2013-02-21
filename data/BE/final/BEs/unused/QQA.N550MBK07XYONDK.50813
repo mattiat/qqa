@@ -1,0 +1,94 @@
+#Diet Control, if you are overweight, lose weightRegular Exercise (consult physician before anything strenuous)Stress ManagementDecrease salt/sodium intakeIf you smoke, quitOne thing..have they checked for kidney function since you are so young and diagnosed with HTN.Hypertension Home RemediesExtensive article, read information provided by site below.
+#(S1 (S (NP (NNP Diet) (NNP Control)) (, ,) (S (SBAR (IN if) (S (NP (PRP you)) (VP (AUX are) (ADJP (JJ overweight)) (, ,) (S (VP (VB lose) (NP (NP (JJ weightRegular) (NN Exercise) (PRN (-LRB- -LRB-) (S (VP (VB consult) (NP (NN physician)) (PP (IN before) (NP (NN anything) (JJ strenuous))))) (-RRB- -RRB-)) (NN Stress) (NN ManagementDecrease) (NN salt/sodium) (NN intakeIf)) (SBAR (S (NP (PRP you)) (VP (VBP smoke)))))))))) (, ,) (NP (JJ quitOne) (NN thing) (NNS ..)) (VP (AUX have) (S (NP (PRP they)) (VP (VP (VBN checked) (PP (IN for) (NP (NN kidney) (NN function))) (SBAR (IN since) (S (NP (PRP you)) (VP (AUX are) (ADJP (RB so) (JJ young)))))) (CC and) (VP (VBN diagnosed) (PP (IN with) (NP (NNP HTN.Hypertension) (NNP Home) (NNP RemediesExtensive) (NN article)))))))) (, ,) (VP (VB read) (NP (NP (NN information)) (VP (VBN provided) (PP (IN by) (NP (NP (NN site)) (ADVP (RB below))))))) (. .)))
+#Rule:Nouns
+r1Diet ControlOrganizationAnnotation
+r1ExerciseNN
+r1physicianNN
+r1anythingNN
+r1Stress ManagementDecreaseOrganizationAnnotation
+r1salt/sodiumNN
+r1intakeIfNN
+r1thingNN
+r1..NNS
+r1kidneyNN
+r1functionNN
+r1HTN.HypertensionOrganizationAnnotation
+r1HomeNNP
+r1RemediesExtensiveNNP
+r1articleNN
+r1informationNN
+r1siteNN
+
+#Rule:Verbs
+r2loseVB
+r2consultVB
+r2smokeVBP
+r2checkedVBN
+r2diagnosedVBN
+r2readVB
+r2providedVBN
+
+#Rule:Adjs
+r4overweightJJ
+r4weightRegularJJ
+r4strenuousJJ
+r4quitOneJJ
+r4youngJJ
+
+#Rule:Adj-Noun
+r5weightRegularJJintakeIfNN
+r5strenuousJJanythingNN
+r5quitOneJJ..NNS
+
+#Rule:N-HeadNoun
+r8salt/sodiumNNintakeIfNN
+r8Stress ManagementDecreaseOrganizationAnnotationintakeIfNN
+r8thingNN..NNS
+r8kidneyNNfunctionNN
+r8RemediesExtensiveNNParticleNN
+r8HomeNNParticleNN
+r8HTN.HypertensionOrganizationAnnotationarticleNN
+
+#Rule:HeadNoun-V
+r11Diet ControlOrganizationAnnotationreadVB
+r11..NNShaveAUX
+r11youPRPareAUX
+r11youPRPsmokeVBP
+r11youPRPareAUX
+
+#Rule:V-By-Agent
+r13siteNNprovidedVBN
+
+#Rule:NP(NP(z) SBAR(S(NP(x)VP(y))))
+r19smokeVBPintakeIfNN
+
+#Rule:V-HeadNoun
+r21loseVBintakeIfNN
+r21consultVBphysicianNN
+r21readVBinformationNN
+
+#Rule:V-HeadNoun
+r22haveAUXtheyPRP
+
+#Rule:V-HeadNoun(passive)
+r24checkedVBNtheyPRP
+r24diagnosedVBNtheyPRP
+r24providedVBNinformationNN
+
+#Rule:V-ADJ
+r25areAUXoverweightJJ
+r25areAUXyoungJJ
+
+#Rule:PPinVP
+r30consultVBbeforeINanythingNN
+
+#Rule:PPinVP
+r32checkedVBNforINfunctionNN
+r32diagnosedVBNwithINarticleNN
+
+#Rule:V-IN-V
+r43checkedVBNsinceINareAUX
+
+@lemmas-left	home	provide	have	quitOne	exercise	physician	HTN.Hypertension	function	intakeIf	are	salt/sodium	overweight	strenuous	diagnosed	..	read	consult	be	site	information	Home	check	Stress ManagementDecrease	you	intakeif	Exercise	sodium	young	diagnose	RemediesExtensive	quitone	smoke	lose	anything	remediesextensive	article	Diet Control	weightRegular	weightregular	provided	kidney	checked	thing	
+@lemmas-right	they	information	provide	have	intakeif	young	physician	smoke	function	intakeIf	anything	are	article	overweight	..	read	provided	be	
+@lemmas-center	with	for	before	since	

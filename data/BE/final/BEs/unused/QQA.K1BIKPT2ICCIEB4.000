@@ -1,0 +1,22 @@
+#Why is the United States called Uncle Sam .. ?
+#(S1 (SBARQ (WHADVP (WRB Why)) (SQ (AUX is) (S (NP (DT the) (NNP United) (NNPS States)) (VP (VBD called) (S (NP (NNP Uncle) (NNP Sam)))) (. .)) (. .)) (. ?)))
+#Rule:Nouns
+r1United StatesLocationAnnotation
+r1UncleNNP
+r1SamLocationAnnotation
+
+#Rule:Verbs
+r2calledVBD
+
+#Rule:N-HeadNoun
+r8UncleNNPSamLocationAnnotation
+
+#Rule:HeadNoun-V
+r11United StatesLocationAnnotationcalledVBD
+
+#Rule:V-HeadNoun
+r22calledVBDSamLocationAnnotation
+
+@lemmas-left	United States	call	Uncle	Sam	called	uncle	
+@lemmas-right	call	Sam	called	
+@lemmas-center	

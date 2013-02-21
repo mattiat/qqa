@@ -1,0 +1,441 @@
+BE: wayNN
+EQ class: stylenn	fashionnn	modenn	mannernn	
+
+BE: peopleNNS
+EQ class: theynns	themnns	
+
+BE: questionNN
+EQ class: enquirynn	interrogationnn	querynn	inquirynn	
+
+BE: learnVB
+EQ class: acquirevb	larnvb	
+
+BE: goodJJ
+EQ class: goodnessnn	
+
+BE: wrongJJ
+EQ class: incorrectjj	wrongnessnn	
+
+BE: goodJJwayNN
+EQ class: goodnessnnwaynn	goodjjmodenn	goodjjfashionnn	goodnessnnstylenn	goodnessnnfashionnn	goodjjmannernn	goodnessnnmodenn	goodjjstylenn	goodnessnnmannernn	
+
+BE: yourPRP$questionNN
+EQ class: yourprp$call_into_questionvb	querynnofinyourprp$	yourprp$inquirynn	yourprp$interrogationnn	interrogationnnofinyourprp$	oppugnvbyourprp$	call_into_questionvbyourprp$	questionnnofinyourprp$	yourprp$enquirynn	yourprp$oppugnvb	questionvbyourprp$	yourprp$questionvb	inquirynnofinyourprp$	yourprp$querynn	enquirynnofinyourprp$	
+
+BE: itPRPisAUX
+EQ class: itprpbeaux	
+
+BE: questionNNisAUX
+EQ class: inquirynnbeaux	interrogationnnisaux	enquirynnbeaux	enquirynnisaux	querynnisaux	inquirynnisaux	interrogationnnbeaux	querynnbeaux	questionnnbeaux	
+
+BE: wayNNlearnVB
+EQ class: assimilatornnwaynn	learnernnwaynn	modennacquirevb	scholarnnwaynn	waynnacquirevb	scholarnnmodenn	fashionnnlearnvb	waynnlarnvb	modennlearnvb	assimilatornnofinmannernn	scholarnnofinstylenn	mannernnlearnvb	assimilatornnofinmodenn	fashionnnacquirevb	scholarnnfashionnn	assimilatornnofinwaynn	learnernnfashionnn	assimilatornnstylenn	learnernnofinmodenn	scholarnnmannernn	scholarnnstylenn	assimilatornnofinstylenn	scholarnnofinwaynn	stylennlearnvb	learnernnofinmannernn	stylennlarnvb	stylennacquirevb	assimilatornnfashionnn	scholarnnofinmannernn	mannernnlarnvb	assimilatornnmodenn	learnernnofinstylenn	learnernnmodenn	learnernnmannernn	mannernnacquirevb	modennlarnvb	assimilatornnmannernn	scholarnnofinmodenn	learnernnofinfashionnn	learnernnstylenn	learnernnofinwaynn	fashionnnlarnvb	assimilatornnofinfashionnn	scholarnnofinfashionnn	
+
+BE: isAUXwayNN
+EQ class: beauxfashionnn	beauxstylenn	beauxmodenn	isauxfashionnn	beauxmannernn	beauxwaynn	isauxstylenn	isauxmodenn	isauxmannernn	
+
+BE: isAUXwrongJJ
+EQ class: beauxwrongjj	isauxincorrectjj	beauxwrongnessnn	beauxincorrectjj	isauxwrongnessnn	
+
+BE: learnVBforINpeopleNNS
+EQ class: learnvbforinthemnns	larnvbforintheynns	larnvbforinpeoplenns	acquirevbforinthemnns	learnvbforintheynns	acquirevbforintheynns	acquirevbforinpeoplenns	larnvbforinthemnns	
+
+BE: generalizationsNNS
+EQ class: generalisationnns	theynns	generalizationnns	inductive_reasoningnns	themnns	inductionnns	
+
+BE: true--thereNN
+EQ class: therenn	
+
+BE: plentyNN
+EQ class: plenteousjj	plenteousnessnn	plentitudenn	plentifulnessnn	plenitudenn	
+
+BE: engineersNNS
+EQ class: technologistnns	engineernns	theynns	themnns	applied_scientistnns	
+
+BE: mathmeticiansNNS
+EQ class: theynns	themnns	
+
+BE: biologistsNNS
+EQ class: biologistnns	theynns	life_scientistnns	themnns	
+
+BE: schoolNN
+EQ class: scholasticjj	
+
+BE: mentionVBP
+EQ class: advertvbp	namevbp	citevbp	bring_upvbp	refervbp	
+
+BE: donVB
+EQ class: assumevb	put_onvb	wearvb	get_intovb	
+
+BE: arenVB
+EQ class: 
+
+BE: comeVBP
+EQ class: come_upvbp	
+
+BE: lastJJ
+EQ class: 
+
+BE: tLocationAnnotation
+EQ class: 
+
+BE: count--thoseJJ
+EQ class: 
+
+BE: publicJJ
+EQ class: publicitynn	
+
+BE: lastJJtwoCD
+EQ class: lastjjiicd	lastjj2cd	lastjjdeucecd	
+
+BE: tLocationAnnotationgeneralizationsNNS
+EQ class: tlocationannotationthemnns	tlocationannotationgeneralisationnns	tlocationannotationtheynns	tlocationannotationgeneralizationnns	tlocationannotationinductive_reasoningnns	tlocationannotationinductionnns	
+
+BE: count--thoseJJgeneralizationsNNS
+EQ class: count--thosejjinductive_reasoningnns	count--thosejjgeneralisationnns	count--thosejjinductionnns	count--thosejjgeneralizationnns	count--thosejjtheynns	count--thosejjthemnns	
+
+BE: tLocationAnnotationtrue--thereNN
+EQ class: tlocationannotationtherenn	
+
+BE: publicJJschoolNN
+EQ class: publicitynnscholasticjj	publicjjscholasticjj	schoolvbpubliclyrb	scholasticvbpubliclyrb	publicitynnschoolnn	
+
+BE: engineersNNSmathmeticiansNNS
+EQ class: engineernnofinthemnns	mathmeticiansnnsengineernns	mathmeticiansnnstechnologistnns	technologistnnofintheynns	mathmeticiansnnsthemnns	themnnsengineersnns	theynnstechnologistnns	technologynnofinthemnns	technologistnnstheynns	applied_scientistnnsthemnns	theynnsapplied_scientistnns	themnnstechnologistnns	engineeringnnofintheynns	theynnsengineernns	applied_scientistnnsmathmeticiansnns	mathmeticiansnnsengineervb	mathmeticiansnnsengineersnns	applied_scientistnnofintheynns	theynnstheynns	themnnsengineervb	engineeringnnofinmathmeticiansnns	technologistnnofinthemnns	engineernnofinmathmeticiansnns	themnnstheynns	themnnsengineernns	technologynnofinmathmeticiansnns	themnnsthemnns	technologistnnofinmathmeticiansnns	engineernnsmathmeticiansnns	engineersnnsthemnns	technologistnnsthemnns	applied_scientistnnofinmathmeticiansnns	technologistnnsmathmeticiansnns	engineernnsthemnns	engineernnstheynns	engineernnofintheynns	theynnsthemnns	technologynnofintheynns	mathmeticiansnnstheynns	themnnsmathmeticiansnns	applied_scientistnnstheynns	theynnsengineervb	mathmeticiansnnsapplied_scientistnns	engineeringnnofinthemnns	theynnsmathmeticiansnns	engineersnnstheynns	theynnsengineersnns	themnnsapplied_scientistnns	applied_scientistnnofinthemnns	
+
+BE: twoCDareAUX
+EQ class: twocdbeaux	iicdbeaux	iicdareaux	deucecdareaux	2cdareaux	2cdbeaux	deucecdbeaux	
+
+BE: youPRPmentionVBP
+EQ class: mentionernnyouprp	youprpcitevbp	youprprefervbp	mentionernnofinyouprp	mentionnnofinyouprp	youprpadvertvbp	youprpbring_upvbp	referencennofinyouprp	youprpnamevbp	
+
+BE: generalizationsNNSarenVB
+EQ class: inductionnnsarenvb	generalisationnnsarenvb	themnnsarenvb	theynnsarenvb	inductive_reasoningnnsarenvb	generalizationnnsarenvb	
+
+BE: biologistsNNScomeVBP
+EQ class: comingnnlife_scientistnns	comingnnbiologistnns	approachnnofintheynns	biologistsnnscome_upvbp	approachnnbiologistnns	approachingnnthemnns	life_scientistnnscome_upvbp	approachingnnofinbiologistsnns	theynnscome_upvbp	approachingnntheynns	comingnnthemnns	approachnnofinbiologistnns	themnnscome_upvbp	approachnnbiologistsnns	approachnnofinlife_scientistnns	comingnnofintheynns	life_scientistnnscomevbp	comingnnofinbiologistnns	biologistnnscomevbp	approachingnnlife_scientistnns	comingnnofinthemnns	approachingnnofinbiologistnns	approachnnofinbiologistsnns	comingnnofinbiologistsnns	themnnscomevbp	approachingnnofinlife_scientistnns	comingnnbiologistsnns	comingnntheynns	approachnntheynns	approachingnnofinthemnns	approachnnlife_scientistnns	biologistnnscome_upvbp	approachingnnofintheynns	approachnnofinthemnns	theynnscomevbp	comingnnofinlife_scientistnns	approachingnnbiologistnns	approachingnnbiologistsnns	approachnnthemnns	
+
+BE: arenVBtrue--thereNN
+EQ class: arenvbtherenn	
+
+BE: areAUXplentyNN
+EQ class: beauxplenteousnessnn	areauxplentitudenn	beauxplenteousjj	areauxplentifulnessnn	beauxplenitudenn	beauxplentynn	beauxplentitudenn	beauxplentifulnessnn	areauxplenteousnessnn	areauxplenteousjj	areauxplenitudenn	
+
+BE: donVBgeneralizationsNNS
+EQ class: wearvbgeneralizationsnns	put_onvbinductive_reasoningnns	get_intovbthemnns	put_onvbgeneralizationnns	donvbgeneralisationnns	get_intovbgeneralizationnns	get_intovbinductive_reasoningnns	put_onvbgeneralisationnns	get_intovbgeneralisationnns	donvbgeneralizationnns	get_intovbgeneralizationsnns	wearvbgeneralisationnns	put_onvbinductionnns	get_intovbinductionnns	assumevbgeneralizationsnns	put_onvbtheynns	donvbtheynns	wearvbthemnns	wearvbtheynns	assumevbinductive_reasoningnns	donvbinductionnns	assumevbinductionnns	wearvbgeneralizationnns	put_onvbthemnns	get_intovbtheynns	put_onvbgeneralizationsnns	wearvbinductionnns	assumevbthemnns	assumevbtheynns	assumevbgeneralizationnns	donvbthemnns	wearvbinductive_reasoningnns	assumevbgeneralisationnns	donvbinductive_reasoningnns	
+
+BE: plentyNNofINengineersNNS
+EQ class: applied_scientistnnsplenteousvb	plenitudennofinengineersnns	theynnsplentifulnessnn	plentifulnessnnofinengineersnns	engineersnnsplenteousnessnn	plentynnofinapplied_scientistnns	plenteousjjofinengineersnns	plenitudennofinthemnns	themnnsplenteousnessnn	technologistnnsplenteousvb	plenteousnessnnofinthemnns	engineernnsplenteousnessnn	technologistnnsplentifulnessnn	technologistnnsplentitudenn	plenteousjjofinapplied_scientistnns	plenteousjjofinengineernns	plentitudennofintheynns	themnnsplenteousjj	theynnsplenteousnessnn	plenitudennofinapplied_scientistnns	themnnsplentynn	plentifulnessnnofintheynns	plentifulnessnnofinthemnns	applied_scientistnnsplenteousjj	plentitudennofinthemnns	theynnsplentynn	plenteousjjofinthemnns	engineersnnsplentynn	themnnsplenitudenn	plenteousvbengineernns	plentifulnessnnofintechnologistnns	applied_scientistnnsplentitudenn	plentynnofintechnologistnns	themnnsplenteousvb	plenteousvbtechnologistnns	plenitudennofintheynns	plentynnofinengineernns	plenteousnessnnofinapplied_scientistnns	plenteousnessnnofinengineernns	engineersnnsplentifulnessnn	engineernnsplenteousvb	technologistnnsplentynn	engineernnsplenteousjj	plentynnofintheynns	plentitudennofintechnologistnns	themnnsplentitudenn	theynnsplentitudenn	plenteousjjofintechnologistnns	applied_scientistnnsplenitudenn	theynnsplenteousvb	engineersnnsplenteousjj	engineernnsplentifulnessnn	technologistnnsplenteousjj	plenteousnessnnofintechnologistnns	applied_scientistnnsplentifulnessnn	applied_scientistnnsplentynn	plenteousvbengineersnns	plenitudennofintechnologistnns	engineersnnsplentitudenn	plenitudennofinengineernns	plenteousnessnnofinengineersnns	plentitudennofinengineernns	plenteousjjofintheynns	engineersnnsplenteousvb	plentifulnessnnofinapplied_scientistnns	theynnsplenitudenn	plenteousvbthemnns	plenteousvbapplied_scientistnns	applied_scientistnnsplenteousnessnn	engineernnsplenitudenn	technologistnnsplenteousnessnn	themnnsplentifulnessnn	plentitudennofinapplied_scientistnns	plenteousvbtheynns	engineersnnsplenitudenn	technologistnnsplenitudenn	plentynnofinthemnns	engineernnsplentynn	theynnsplenteousjj	plentifulnessnnofinengineernns	engineernnsplentitudenn	plenteousnessnnofintheynns	plentitudennofinengineersnns	
+
+BE: plentyNNofINmathmeticiansNNS
+EQ class: plentifulnessnnofinmathmeticiansnns	mathmeticiansnnsplenteousvb	plentynnofintheynns	theynnsplentifulnessnn	themnnsplentitudenn	mathmeticiansnnsplentynn	theynnsplentitudenn	plenteousvbmathmeticiansnns	plenitudennofinthemnns	plenitudennofinmathmeticiansnns	themnnsplenteousnessnn	theynnsplenteousvb	plenteousnessnnofinmathmeticiansnns	plenteousnessnnofinthemnns	mathmeticiansnnsplentifulnessnn	plentitudennofintheynns	themnnsplenteousjj	theynnsplenteousnessnn	themnnsplentynn	plentifulnessnnofintheynns	plentifulnessnnofinthemnns	plentitudennofinthemnns	plenteousjjofintheynns	theynnsplentynn	plenteousjjofinthemnns	theynnsplenitudenn	plenteousvbthemnns	themnnsplenitudenn	mathmeticiansnnsplentitudenn	themnnsplentifulnessnn	mathmeticiansnnsplenteousjj	plenteousvbtheynns	mathmeticiansnnsplenteousnessnn	themnnsplenteousvb	plenitudennofintheynns	plentynnofinthemnns	theynnsplenteousjj	plenteousjjofinmathmeticiansnns	plentitudennofinmathmeticiansnns	plenteousnessnnofintheynns	mathmeticiansnnsplenitudenn	
+
+BE: plentyNNofINbiologistsNNS
+EQ class: biologistnnsplenteousvb	life_scientistnnsplenteousnessnn	theynnsplentifulnessnn	biologistsnnsplenteousjj	plenitudennofinthemnns	themnnsplenteousnessnn	plenteousvblife_scientistnns	biologistsnnsplenteousvb	plenteousvbbiologistnns	biologistnnsplenteousjj	plenitudennofinbiologistnns	plenteousnessnnofinthemnns	plentitudennofinlife_scientistnns	themnnsplenteousjj	plentitudennofintheynns	theynnsplenteousnessnn	themnnsplentynn	biologistnnsplentifulnessnn	plentifulnessnnofintheynns	plentifulnessnnofinthemnns	plenteousjjofinbiologistsnns	plentitudennofinthemnns	life_scientistnnsplenteousjj	life_scientistnnsplenitudenn	theynnsplentynn	plenteousjjofinthemnns	plentitudennofinbiologistnns	plenteousnessnnofinbiologistnns	themnnsplenitudenn	themnnsplenteousvb	plenitudennofintheynns	plenitudennofinbiologistsnns	biologistnnsplenitudenn	biologistnnsplentitudenn	biologistsnnsplenitudenn	plentynnofintheynns	themnnsplentitudenn	plentifulnessnnofinlife_scientistnns	biologistnnsplentynn	plenteousnessnnofinbiologistsnns	theynnsplentitudenn	plenitudennofinlife_scientistnns	biologistsnnsplentynn	plenteousvbbiologistsnns	theynnsplenteousvb	plenteousjjofinbiologistnns	biologistsnnsplenteousnessnn	biologistnnsplenteousnessnn	plenteousjjofinlife_scientistnns	life_scientistnnsplentynn	plentynnofinlife_scientistnns	biologistsnnsplentitudenn	plentynnofinbiologistnns	plentifulnessnnofinbiologistnns	life_scientistnnsplenteousvb	plenteousjjofintheynns	plentifulnessnnofinbiologistsnns	biologistsnnsplentifulnessnn	life_scientistnnsplentitudenn	theynnsplenitudenn	plenteousvbthemnns	plentitudennofinbiologistsnns	life_scientistnnsplentifulnessnn	themnnsplentifulnessnn	plenteousvbtheynns	plenteousnessnnofinlife_scientistnns	plentynnofinthemnns	theynnsplenteousjj	plenteousnessnnofintheynns	
+
+BE: comeVBPoutINschoolNN
+EQ class: comevbpoutinscholasticjj	come_upvbpoutinscholasticjj	come_upvbpoutinschoolnn	
+
+BE: plentyNNtwoCD
+EQ class: 2cdplentifulnessnn	plentynn2cd	plentifulnessnndeucecd	deucecdplenitudenn	plentifulnessnn2cd	twocdplenitudenn	plenitudenndeucecd	plentifulnessnniicd	2cdplenteousnessnn	plenteousjjiicd	plenitudenn2cd	plentitudenn2cd	plenteousnessnntwocd	twocdplentifulnessnn	deucecdplenteousnessnn	plentifulnessnntwocd	2cdplenteousjj	plenitudenntwocd	plenteousjjdeucecd	plentitudenndeucecd	plenteousnessnndeucecd	plenteousjjtwocd	twocdplentynn	plentynndeucecd	plenteousnessnn2cd	deucecdplentitudenn	2cdplentynn	2cdplenitudenn	iicdplentifulnessnn	iicdplentitudenn	iicdplenitudenn	plentynniicd	iicdplentynn	deucecdplentifulnessnn	iicdplenteousjj	plenteousjj2cd	iicdplenteousnessnn	deucecdplenteousjj	twocdplentitudenn	twocdplenteousjj	plenteousnessnniicd	deucecdplentynn	2cdplentitudenn	plentitudenniicd	twocdplenteousnessnn	plenitudenniicd	plentitudenntwocd	
+
+BE: homeNN
+EQ class: homelyjj	placenn	
+
+BE: schoolNN
+EQ class: scholasticjj	
+
+BE: kidsNNS
+EQ class: kidnns	tykenns	small_frynns	minornns	youngsternns	nestlingnns	theynns	frynns	tiddlernns	nippernns	shavernns	tikenns	themnns	childnns	
+
+BE: drunkNN
+EQ class: drunkjj	drunkardnn	rummynn	inebriatenn	sotnn	winonn	
+
+BE: drugsNNS
+EQ class: drugnns	theynns	themnns	
+
+BE: chanceNN
+EQ class: opportunitynn	
+
+BE: friendsNNS
+EQ class: friendnns	theynns	friendlyjj	themnns	
+
+BE: boyfriendsNNS
+EQ class: beaunns	boyfriendnns	swainnns	theynns	young_mannns	fellownns	themnns	
+
+BE: parentsNNS
+EQ class: theynns	parentaljj	parentnns	themnns	
+
+BE: lifeNN
+EQ class: 
+
+BE: gettingVBG
+EQ class: getvbg	acquirevbg	
+
+BE: guessVBP
+EQ class: opinevbp	imaginevbp	supposevbp	reckonvbp	thinkvbp	
+
+BE: letVB
+EQ class: allowvb	permitvb	
+
+BE: runVB
+EQ class: 
+
+BE: pregnantJJ
+EQ class: pregnancynn	
+
+BE: yourPRP$parentsNNS
+EQ class: yourprp$themnns	themnnsofinyourprp$	theynnsofinyourprp$	yourprp$nurturevb	yourprp$theynns	yourprp$parenthoodvb	parentalvbyourprp$	parentvbyourprp$	rearvbyourprp$	nurturevbyourprp$	yourprp$parentalvb	parentsnnsofinyourprp$	parenthoodvbyourprp$	yourprp$parentnns	yourprp$parentaljj	parentaljjofinyourprp$	yourprp$raisevb	parentnnsofinyourprp$	raisevbyourprp$	yourprp$rearvb	yourprp$parentvb	bring_upvbyourprp$	yourprp$bring_upvb	
+
+BE: yourPRP$lifeNN
+EQ class: lifennofinyourprp$	
+
+BE: schoolNNkidsNNS
+EQ class: schoolnnofintikenns	scholasticjjofintykenns	schoolingnnofinkidnns	schoolnnminornns	schoolnnofinchildnns	shavernnsofinscholasticjj	scholasticjjofintiddlernns	scholasticjjofinsmall_frynns	schoolingnnofinchildnns	schoolnnthemnns	tiddlernnsofinscholasticjj	themnnsofinschoolnn	tikennsschoolvb	kidnnsofinschoolnn	schoolnntiddlernns	scholasticjjsmall_frynns	youngsternnsschoolvb	schoolnnofinnestlingnns	schoolnnkidnns	schoolnnofinfrynns	tykennsschoolvb	schoolnnsmall_frynns	schoolnnshavernns	nestlingnnsofinscholasticjj	scholasticjjofintikenns	scholasticjjofinthemnns	schoolingnnofinnippernns	schoolingnnofinthemnns	kidnnsschoolvb	schoolnnchildnns	youngsternnsofinscholasticjj	schoolingnnofintykenns	scholasticjjofinchildnns	frynnsofinschoolnn	youngsternnsofinschoolnn	scholasticjjofinminornns	schoolnnofinthemnns	nippernnsofinscholasticjj	nestlingnnsschoolvb	scholasticjjofinnippernns	schoolnnofinyoungsternns	scholasticjjofinfrynns	scholasticjjofinkidnns	theynnsofinschoolnn	schoolingnnofintiddlernns	schoolingnnofinnestlingnns	scholasticjjminornns	scholasticjjofinyoungsternns	childnnsofinschoolnn	schoolnnofinshavernns	theynnsschoolvb	schoolingnnofinkidsnns	nippernnsschoolvb	scholasticjjshavernns	schoolnntikenns	kidsnnsofinschoolnn	schoolingnnofintheynns	scholasticjjnippernns	schoolingnnofinminornns	tykennsofinscholasticjj	schoolnnofintheynns	scholasticjjtikenns	scholasticjjthemnns	tiddlernnsofinschoolnn	kidnnsofinscholasticjj	nippernnsofinschoolnn	theynnsofinscholasticjj	tiddlernnsschoolvb	shavernnsofinschoolnn	scholasticjjkidsnns	schoolnntheynns	schoolnnofinkidsnns	schoolnnofinsmall_frynns	schoolnnofintykenns	frynnsofinscholasticjj	schoolingnnofinshavernns	scholasticjjtiddlernns	scholasticjjtheynns	themnnsofinscholasticjj	schoolnnofintiddlernns	scholasticjjkidnns	scholasticjjfrynns	scholasticjjchildnns	schoolingnnofinfrynns	schoolnnofinnippernns	schoolnnfrynns	shavernnsschoolvb	schoolnntykenns	scholasticjjofinkidsnns	minornnsschoolvb	scholasticjjnestlingnns	schoolnnofinkidnns	themnnsschoolvb	childnnsschoolvb	childnnsofinscholasticjj	schoolingnnofinsmall_frynns	frynnsschoolvb	nestlingnnsofinschoolnn	small_frynnsschoolvb	scholasticjjyoungsternns	schoolingnnofinyoungsternns	scholasticjjofinshavernns	kidsnnsofinscholasticjj	scholasticjjofinnestlingnns	scholasticjjofintheynns	scholasticjjtykenns	schoolnnyoungsternns	tikennsofinscholasticjj	minornnsofinschoolnn	kidsnnsschoolvb	tykennsofinschoolnn	schoolnnnippernns	schoolingnnofintikenns	schoolnnnestlingnns	minornnsofinscholasticjj	schoolnnofinminornns	tikennsofinschoolnn	small_frynnsofinscholasticjj	small_frynnsofinschoolnn	
+
+BE: homeNNkidsNNS
+EQ class: placennofinchildnns	placennsmall_frynns	homelyjjtiddlernns	homennofinyoungsternns	placennofintiddlernns	homelyjjofinkidnns	placennminornns	homennofintiddlernns	childnnshomevb	themnnsofinhomenn	small_frynnsofinplacenn	homelyjjminornns	minornnsofinhomenn	nippernnshomevb	tiddlernnsofinplacenn	homelyjjofintheynns	placenntheynns	frynnsofinplacenn	theynnsofinhomelyjj	placennkidnns	homelyjjofinfrynns	homennofintheynns	homelyjjchildnns	placenntykenns	tykennshomevb	frynnshomevb	tiddlernnshomevb	placennyoungsternns	homennofinthemnns	placennofintikenns	homelyjjofinnestlingnns	homelyjjkidnns	shavernnsofinhomelyjj	placennofinthemnns	homelyjjshavernns	tikennsofinhomenn	homelyjjofintikenns	shavernnsofinplacenn	homennfrynns	theynnsofinhomenn	placennofinminornns	homelyjjofintiddlernns	kidsnnsofinplacenn	minornnsofinplacenn	homennminornns	placennofintheynns	homennofinnestlingnns	nippernnsofinhomelyjj	theynnshomevb	homelyjjtheynns	nestlingnnsofinhomenn	homelyjjsmall_frynns	homelyjjofinkidsnns	homelyjjtikenns	themnnsofinhomelyjj	childnnsofinhomenn	placenntiddlernns	tykennsofinhomenn	youngsternnsofinhomenn	homenntikenns	homennofinnippernns	homennyoungsternns	homennnippernns	homelyjjyoungsternns	homelyjjofinshavernns	homelyjjthemnns	homenntheynns	homennnestlingnns	placennofinfrynns	placennshavernns	nestlingnnsofinplacenn	homelyjjofinchildnns	kidnnsofinhomelyjj	tiddlernnsofinhomenn	homennofinsmall_frynns	minornnsofinhomelyjj	youngsternnshomevb	placennofinkidnns	themnnshomevb	placennofinshavernns	placennkidsnns	nestlingnnshomevb	kidnnsofinhomenn	homelyjjfrynns	small_frynnshomevb	tiddlernnsofinhomelyjj	homelyjjofinnippernns	placennofinkidsnns	homenntiddlernns	minornnshomevb	homelyjjofinthemnns	homelyjjofinyoungsternns	kidsnnshomevb	nestlingnnsofinhomelyjj	tykennsofinhomelyjj	shavernnshomevb	tikennsofinhomelyjj	homennshavernns	homenntykenns	childnnsofinhomelyjj	placennofintykenns	homelyjjofinminornns	childnnsofinplacenn	homennofinminornns	placennofinnippernns	theynnsofinplacenn	homennthemnns	placennthemnns	homennofinchildnns	themnnsofinplacenn	placenntikenns	tikennshomevb	tikennsofinplacenn	placennofinsmall_frynns	kidsnnsofinhomenn	small_frynnsofinhomelyjj	homennofinkidnns	kidsnnsofinhomelyjj	homelyjjnippernns	frynnsofinhomenn	placennnestlingnns	nippernnsofinplacenn	homelyjjkidsnns	frynnsofinhomelyjj	shavernnsofinhomenn	homennofintykenns	homelyjjofintykenns	homennkidnns	homennchildnns	homelyjjtykenns	placennofinnestlingnns	small_frynnsofinhomenn	kidnnshomevb	nippernnsofinhomenn	placennfrynns	placennnippernns	placennchildnns	homelyjjnestlingnns	placennofinyoungsternns	homennsmall_frynns	homelyjjofinsmall_frynns	youngsternnsofinplacenn	homennofintikenns	homennofinshavernns	kidnnsofinplacenn	youngsternnsofinhomelyjj	homennofinkidsnns	homennofinfrynns	tykennsofinplacenn	
+
+BE: iPRPguessVBP
+EQ class: iprpopinevbp	guessernniprp	iprpsupposevbp	iprpimaginevbp	suppositionnnofiniprp	speculationnnofiniprp	guessnnofiniprp	conjecturennofiniprp	surmisalnnofiniprp	guessernnofiniprp	iprpthinkvbp	iprpreckonvbp	hypothesisnnofiniprp	surmisennofiniprp	
+
+BE: thereEXisAUX
+EQ class: thereexbeaux	
+
+BE: youPRPhaveAUX
+EQ class: youprphave_gotaux	rich_personnnofinyouprp	havennofinyouprp	youprpholdaux	wealthy_personnnofinyouprp	
+
+BE: youPRPletVB
+EQ class: youprpallowvb	youprppermitvb	
+
+BE: parentsNNSrunVB
+EQ class: running_playnnparentnns	smugglernnofinparentaljj	moon-cursernnthemnns	smugglernnparentsnns	running_gamennofintheynns	running_gamennthemnns	runningnnparentnns	runnernnthemnns	runnernntheynns	themnnsrunvb	smugglernntheynns	moon-cursernnofintheynns	running_playnnofinparentsnns	moon-cursernntheynns	running_playnnparentaljj	runnernnparentsnns	contrabandistnnofinthemnns	moon_cursernnofinparentnns	contrabandistnnparentnns	smugglernnthemnns	running_playnnofinparentaljj	runningnnofinparentsnns	contrabandistnnofinparentsnns	runnnparentaljj	moon_cursernnparentaljj	runnnparentsnns	tallynnofintheynns	runnnparentnns	runnernnofinparentsnns	runnernnparentnns	running_playnntheynns	runningnnparentsnns	runnnofinparentnns	contrabandistnnofinparentnns	theynnsrunvb	running_playnnparentsnns	parentnnsrunvb	moon_cursernnofinparentaljj	moon_cursernntheynns	runningnnofinparentnns	running_playnnthemnns	runnernnparentaljj	contrabandistnntheynns	smugglernnofinthemnns	moon_cursernnthemnns	runningnnofintheynns	tallynnofinparentaljj	moon_cursernnparentsnns	runnnofinthemnns	contrabandistnnthemnns	runnernnofinthemnns	running_playnnofinparentnns	smugglernnparentaljj	running_gamennparentsnns	running_gamennparentaljj	moon_cursernnofintheynns	moon_cursernnofinthemnns	runnernnofinparentaljj	moon-cursernnofinparentaljj	smugglernnofintheynns	smugglernnofinparentsnns	running_playnnofintheynns	runnnofinparentaljj	moon-cursernnofinparentsnns	running_gamennofinthemnns	runnnthemnns	moon-cursernnparentnns	parentaljjrunvb	running_gamennparentnns	moon-cursernnofinthemnns	running_gamennofinparentsnns	contrabandistnnparentsnns	runnernnofinparentnns	running_gamennofinparentnns	moon-cursernnofinparentnns	running_gamennofinparentaljj	runnnofintheynns	runningnnofinparentaljj	tallynnofinthemnns	moon_cursernnofinparentsnns	smugglernnparentnns	runningnnofinthemnns	contrabandistnnofintheynns	tallynnofinparentnns	moon-cursernnparentsnns	runnnofinparentsnns	running_gamenntheynns	contrabandistnnofinparentaljj	tallynnofinparentsnns	smugglernnofinparentnns	running_playnnofinthemnns	runningnnthemnns	runnntheynns	moon_cursernnparentnns	runningnntheynns	runnernnofintheynns	moon-cursernnparentaljj	runningnnparentaljj	contrabandistnnparentaljj	
+
+BE: isAUXchanceNN
+EQ class: beauxopportunitynn	isauxopportunitynn	beauxchancenn	
+
+BE: haveAUXfriendsNNS
+EQ class: havennofintheynns	holdauxtheynns	wealthy_personnnofintheynns	havennofinfriendnns	rich_personnnofinfriendnns	have_gotauxfriendsnns	holdauxthemnns	haveauxtheynns	have_gotauxtheynns	haveauxfriendnns	have_gotauxfriendlyjj	rich_personnnofinfriendlyjj	holdauxfriendlyjj	wealthy_personnnofinfriendlyjj	rich_personnnofinfriendsnns	rich_personnnofinthemnns	have_gotauxfriendnns	haveauxfriendlyjj	havennofinthemnns	wealthy_personnnofinfriendsnns	holdauxfriendnns	wealthy_personnnofinthemnns	havennofinfriendlyjj	wealthy_personnnofinfriendnns	holdauxfriendsnns	haveauxthemnns	have_gotauxthemnns	rich_personnnofintheynns	havennofinfriendsnns	
+
+BE: runVBlifeNN
+EQ class: tallynnofinlifenn	moon_cursernnofinlifenn	smugglernnofinlifenn	running_gamennofinlifenn	contrabandistnnofinlifenn	runningnnofinlifenn	runnnofinlifenn	running_playnnofinlifenn	moon-cursernnofinlifenn	runnernnofinlifenn	
+
+BE: letVBparentsNNS
+EQ class: permitvbparentnns	allowvbparentaljj	permitvbthemnns	allowvbtheynns	allowvbparentnns	letvbthemnns	permitvbparentaljj	allowvbthemnns	letvbparentaljj	permitvbtheynns	permitvbparentsnns	letvbtheynns	allowvbparentsnns	letvbparentnns	
+
+BE: chanceNNofINthatDT
+EQ class: thatdtopportunitynn	thatdtchancenn	chancevbthatdt	opportunitynnofinthatdt	thatdtchancevb	
+
+BE: gettingVBGonINdrugsNNS
+EQ class: gettingvbgonindrugnns	gettingvbgoninthemnns	acquirevbgonindrugsnns	getvbgonindrugnns	gettingvbgonintheynns	acquirevbgoninthemnns	getvbgoninthemnns	acquirevbgonindrugnns	getvbgonintheynns	acquirevbgonintheynns	getvbgonindrugsnns	
+
+BE: homeschoolersNNS
+EQ class: theynns	themnns	
+
+BE: generalizingVBG
+EQ class: infervbg	generalizevbg	extrapolatevbg	generalisevbg	
+
+BE: sVBZ
+EQ class: 
+
+BE: sayVB
+EQ class: tellvb	statevb	
+
+BE: takeVB
+EQ class: 
+
+BE: wrong--butJJ
+EQ class: 
+
+BE: fairJJ
+EQ class: justjj	fairnessnn	
+
+BE: you--toJJ
+EQ class: 
+
+BE: otherJJ
+EQ class: 
+
+BE: you--toJJhomeschoolersNNS
+EQ class: you--tojjthemnns	you--tojjtheynns	
+
+BE: otherJJhomeschoolersNNS
+EQ class: otherjjtheynns	otherjjthemnns	
+
+BE: thatDTwasAUX
+EQ class: thatdtbeaux	
+
+BE: youPRPgeneralizingVBG
+EQ class: youprpgeneralisevbg	generalizationnnofinyouprp	inductive_reasoningnnyouprp	inductionnnyouprp	inductionnnofinyouprp	inductive_reasoningnnofinyouprp	generalizationnnyouprp	generalisationnnofinyouprp	generalisationnnyouprp	youprpinfervbg	youprpgeneralizevbg	youprpextrapolatevbg	
+
+BE: itPRPsVBZ
+EQ class: 
+
+BE: iPRPtakeVB
+EQ class: 
+
+BE: takeVBitPRP
+EQ class: 
+
+BE: sayVBiPRP
+EQ class: statevbiprp	saynnofiniprp	tellvbiprp	
+
+BE: wasAUXwrong--butJJ
+EQ class: beauxwrong--butjj	
+
+BE: sayVBtoTOhomeschoolersNNS
+EQ class: tellvbtotohomeschoolersnns	statevbtototheynns	tellvbtototheynns	sayvbtototheynns	statevbtotohomeschoolersnns	statevbtotothemnns	tellvbtotothemnns	sayvbtotothemnns	
+
+BE: wasAUXsinceINgeneralizingVBG
+EQ class: wasauxsinceininfervbg	beauxsinceingeneralizingvbg	beauxsinceingeneralizevbg	wasauxsinceingeneralizevbg	beauxsinceininfervbg	beauxsinceingeneralisevbg	beauxsinceinextrapolatevbg	wasauxsinceinextrapolatevbg	wasauxsinceingeneralisevbg	
+
+BE: takeVBbackRB
+EQ class: 
+
+BE: spellingNN
+EQ class: 
+
+BE: beeNNP
+EQ class: superfamily_apoideann	apoideann	
+
+BE: homeschooler--thisNN
+EQ class: 
+
+BE: someoneNN
+EQ class: personnn	soulnn	individualnn	somebodynn	mortalnn	
+
+BE: spellingNN
+EQ class: 
+
+BE: lotNN
+EQ class: spatenn	heapnn	passelnn	slewnn	flocknn	raftnn	dealnn	potnn	micklenn	pilenn	great_dealnn	mountainnn	sightnn	mintnn	stacknn	hatfulnn	mucklenn	tidy_sumnn	messnn	quite_a_littlenn	wadnn	massnn	plentynn	pecknn	good_dealnn	batchnn	
+
+BE: schoolNN
+EQ class: scholasticjj	
+
+BE: timeNN
+EQ class: clipnn	
+
+BE: wonVBD
+EQ class: winvbd	
+
+BE: meansVBZ
+EQ class: meanvbz	intendvbz	
+
+BE: decidedVBD
+EQ class: decidevbd	determinevbd	make_up_one's_mindvbd	
+
+BE: spendingVBG
+EQ class: spendvbg	passvbg	
+
+BE: worthJJ
+EQ class: deservingjj	worthnn	
+
+BE: hisPRP$timeNN
+EQ class: clipnnofinhisprp$	hisprp$clipnn	timennofinhisprp$	
+
+BE: schoolNNtimeNN
+EQ class: timennschoolvb	scholasticjjtimenn	schoolingnnofintimenn	timennofinschoolnn	clipnnofinscholasticjj	timennofinscholasticjj	scholasticjjclipnn	schoolingnnofinclipnn	schoolnnofintimenn	clipnnschoolvb	schoolnnclipnn	schoolnnofinclipnn	clipnnofinschoolnn	scholasticjjofintimenn	scholasticjjofinclipnn	
+
+BE: beeNNPwonVBD
+EQ class: winnernnbeennp	winnernnofinbeennp	winnnapoideann	winnnofinapoideann	winnnofinbeennp	victornnbeennp	winningsnnbeennp	winnernnsuperfamily_apoideann	profitsnnsuperfamily_apoideann	winnernnapoideann	victornnsuperfamily_apoideann	winnernnofinapoideann	victornnofinsuperfamily_apoideann	winnnsuperfamily_apoideann	apoideannwinvbd	winningsnnapoideann	winnnbeennp	apoideannwonvbd	profitsnnofinbeennp	beennpwinvbd	profitsnnapoideann	profitsnnbeennp	winnernnofinsuperfamily_apoideann	superfamily_apoideannwonvbd	winningsnnofinsuperfamily_apoideann	profitsnnofinapoideann	victornnofinapoideann	winningsnnofinbeennp	winningsnnsuperfamily_apoideann	winnnofinsuperfamily_apoideann	victornnapoideann	winningsnnofinapoideann	superfamily_apoideannwinvbd	victornnofinbeennp	profitsnnofinsuperfamily_apoideann	
+
+BE: homeschooler--thisNNmeansVBZ
+EQ class: significationnnhomeschooler--thisnn	importnnofinhomeschooler--thisnn	importnnhomeschooler--thisnn	meaningnnhomeschooler--thisnn	homeschooler--thisnnmeanvbz	significationnnofinhomeschooler--thisnn	meaningnnofinhomeschooler--thisnn	significancennofinhomeschooler--thisnn	significancennhomeschooler--thisnn	homeschooler--thisnnintendvbz	
+
+BE: someoneNNdecidedVBD
+EQ class: somebodynnmake_up_one's_mindvbd	decision_makingnnofinsomeonenn	personnnmake_up_one's_mindvbd	decidingjjsoulnn	someonenndeterminevbd	soulnnmake_up_one's_mindvbd	determinationnnsomeonenn	somebodynndecidevbd	decisionnnpersonnn	decisivennofinsomeonenn	determinationnnofinindividualnn	determinationnnofinsoulnn	decisionnnofinsomebodynn	decidingnnpersonnn	decisionnnindividualnn	conclusionnnsomebodynn	personnndeterminevbd	decisionnnsomebodynn	decidingjjofinindividualnn	conclusionnnofinsoulnn	somebodynndeterminevbd	someonenndecidevbd	conclusionnnofinsomebodynn	conclusionnnofinindividualnn	decision_makingnnsoulnn	decisivennofinsomebodynn	soulnndecidevbd	mortalnnmake_up_one's_mindvbd	decisivennofinpersonnn	decisionnnmortalnn	decidingnnmortalnn	mortalnndeterminevbd	individualnndecidevbd	decision_makingnnsomeonenn	decidingjjofinsomebodynn	determinationnnofinmortalnn	decidingjjsomeonenn	decidingnnindividualnn	decisionnnofinindividualnn	decidingjjofinpersonnn	determinationnnofinsomeonenn	conclusionnnmortalnn	decision_makingnnofinpersonnn	conclusionnnpersonnn	decision_makingnnofinsomebodynn	decidingjjofinsomeonenn	determinationnnsoulnn	conclusionnnsoulnn	decidingjjpersonnn	decidingnnofinsoulnn	decisionnnsoulnn	decisionnnofinpersonnn	determinationnnindividualnn	decidingnnofinmortalnn	decidingjjofinsoulnn	decidingjjmortalnn	determinationnnsomebodynn	decisivennofinindividualnn	determinationnnofinpersonnn	conclusionnnofinpersonnn	decision_makingnnindividualnn	somebodynndecidedvbd	personnndecidedvbd	conclusionnnindividualnn	mortalnndecidedvbd	decidingnnsomebodynn	conclusionnnofinsomeonenn	decisionnnofinmortalnn	personnndecidevbd	decision_makingnnmortalnn	decisionnnsomeonenn	decision_makingnnpersonnn	conclusionnnofinmortalnn	decisionnnofinsomeonenn	decisivennofinmortalnn	conclusionnnsomeonenn	determinationnnmortalnn	decidingnnofinindividualnn	someonennmake_up_one's_mindvbd	decidingnnofinpersonnn	decision_makingnnofinsoulnn	soulnndecidedvbd	decidingnnsomeonenn	determinationnnpersonnn	decisionnnofinsoulnn	decidingnnofinsomebodynn	decidingnnofinsomeonenn	decidingjjindividualnn	decision_makingnnofinmortalnn	decision_makingnnsomebodynn	soulnndeterminevbd	individualnndeterminevbd	individualnnmake_up_one's_mindvbd	decidingjjsomebodynn	decision_makingnnofinindividualnn	determinationnnofinsomebodynn	mortalnndecidevbd	individualnndecidedvbd	decidingjjofinmortalnn	decisivennofinsoulnn	decidingnnsoulnn	
+
+BE: spellingNNwasAUX
+EQ class: spellingnnbeaux	
+
+BE: spendingVBGlotNN
+EQ class: spendvbgplentynn	passvbgslewnn	spendvbgmintnn	spendvbgdealnn	spendvbghatfulnn	spendvbgpecknn	spendingvbggood_dealnn	spendvbgmountainnn	spendvbgbatchnn	spendingvbgquite_a_littlenn	passvbgsightnn	passvbgpotnn	spendingvbgraftnn	spendvbgheapnn	spendingvbgbatchnn	passvbgquite_a_littlenn	spendingvbgtidy_sumnn	passvbgmassnn	spendingvbgheapnn	spendvbgstacknn	passvbgmicklenn	passvbgmucklenn	spendvbgquite_a_littlenn	spendingvbgmountainnn	spendingvbgplentynn	spendvbglotnn	passvbgspatenn	spendvbgwadnn	spendingvbgdealnn	passvbgstacknn	spendvbgpilenn	spendvbgslewnn	spendvbggreat_dealnn	spendvbgsightnn	passvbggood_dealnn	spendingvbgmintnn	passvbgbatchnn	passvbgwadnn	spendvbgtidy_sumnn	spendingvbgspatenn	spendingvbgslewnn	spendvbgpotnn	passvbgpilenn	passvbgheapnn	passvbgtidy_sumnn	spendingvbgpotnn	spendingvbgpilenn	spendvbgpasselnn	spendingvbgflocknn	spendvbgflocknn	passvbgmountainnn	spendingvbgmessnn	spendingvbghatfulnn	spendvbgmicklenn	passvbgflocknn	passvbgmintnn	spendvbggood_dealnn	spendingvbgwadnn	passvbgpecknn	spendingvbgpasselnn	spendingvbgmucklenn	spendingvbgsightnn	passvbggreat_dealnn	spendvbgmassnn	spendingvbgmicklenn	spendvbgmucklenn	spendingvbggreat_dealnn	spendingvbgpecknn	spendvbgspatenn	passvbgdealnn	passvbgraftnn	passvbgpasselnn	passvbgplentynn	spendvbgmessnn	passvbgmessnn	spendingvbgstacknn	passvbglotnn	passvbghatfulnn	spendvbgraftnn	spendingvbgmassnn	
+
+BE: wasAUXworthJJ
+EQ class: beauxworthjj	wasauxworthnn	wasauxdeservingjj	beauxworthnn	beauxdeservingjj	
+
+BE: lotNNofINtimeNN
+EQ class: clipnnplentynn	passelnnofinclipnn	clipnnwadnn	slewnnofinclipnn	spatennofintimenn	clipnnmintnn	clipnnheapnn	timennmassnn	clipnnstacknn	plentynnofintimenn	timennmicklenn	batchnnofintimenn	raftnnofintimenn	clipnnmessnn	raftnnofinclipnn	timennslewnn	passelnnofintimenn	great_dealnnofintimenn	timennmucklenn	timennlotnn	clipnngreat_dealnn	timennmessnn	clipnnflocknn	sightnnofinclipnn	timennplentynn	timennpasselnn	timennpilenn	quite_a_littlennofintimenn	timennquite_a_littlenn	batchnnofinclipnn	clipnnmucklenn	timennmintnn	pilennofinclipnn	mintnnofintimenn	timennspatenn	potnnofintimenn	clipnnsightnn	sightnnofintimenn	micklennofintimenn	flocknnofintimenn	clipnnspatenn	wadnnofintimenn	timennsightnn	stacknnofinclipnn	clipnnmountainnn	clipnnpecknn	pilennofintimenn	clipnndealnn	timenntidy_sumnn	good_dealnnofintimenn	heapnnofinclipnn	clipnnmicklenn	mucklennofintimenn	timenndealnn	clipnnhatfulnn	timennstacknn	timennpotnn	spatennofinclipnn	hatfulnnofintimenn	quite_a_littlennofinclipnn	mountainnnofintimenn	great_dealnnofinclipnn	timennraftnn	dealnnofintimenn	stacknnofintimenn	massnnofintimenn	timennbatchnn	clipnnbatchnn	flocknnofinclipnn	mountainnnofinclipnn	clipnnpilenn	potnnofinclipnn	timennpecknn	micklennofinclipnn	hatfulnnofinclipnn	clipnngood_dealnn	clipnnslewnn	timenngreat_dealnn	clipnntidy_sumnn	clipnnpotnn	dealnnofinclipnn	pecknnofinclipnn	timennmountainnn	clipnnpasselnn	timennwadnn	slewnnofintimenn	timennheapnn	timennflocknn	clipnnraftnn	clipnnquite_a_littlenn	lotnnofinclipnn	clipnnmassnn	tidy_sumnnofintimenn	clipnnlotnn	plentynnofinclipnn	timenngood_dealnn	massnnofinclipnn	messnnofintimenn	good_dealnnofinclipnn	tidy_sumnnofinclipnn	heapnnofintimenn	wadnnofinclipnn	mintnnofinclipnn	pecknnofintimenn	messnnofinclipnn	mucklennofinclipnn	timennhatfulnn	
+
+BE: wonVBDforINspellingNN
+EQ class: winvbdforinspellingnn	
+
+BE: wonVBDbyINmeansVBZ
+EQ class: winvbdbyinmeansvbz	winvbdbyinmeanvbz	wonvbdbyinintendvbz	winvbdbyinintendvbz	wonvbdbyinmeanvbz	
+
+BE: kidNN
+EQ class: tiddlernn	minornn	tikenn	small_frynn	frynn	shavernn	youngsternn	nestlingnn	nippernn	childnn	tykenn	
+
+BE: dayNN
+EQ class: dailyjj	24-hour_intervalnn	twenty-four_hoursnn	twenty-four_hour_periodnn	mean_solar_daynn	solar_daynn	
+
+BE: coachNN
+EQ class: managernn	handlernn	
+
+BE: s momLocationAnnotation
+EQ class: 
+
+BE: lotNN
+EQ class: spatenn	heapnn	passelnn	slewnn	flocknn	raftnn	dealnn	potnn	micklenn	pilenn	great_dealnn	mountainnn	sightnn	mintnn	stacknn	hatfulnn	mucklenn	tidy_sumnn	messnn	quite_a_littlenn	wadnn	massnn	plentynn	pecknn	good_dealnn	batchnn	
+
+BE: wordsNNS
+EQ class: theynns	themnns	
+
+BE: partNN
+EQ class: constituentnn	componentnn	component_partnn	partialjj	portionnn	
+
+BE: hobbyNN
+EQ class: sidelinenn	by-linenn	avocationnn	spare-time_activitynn	pursuitnn	
+
+BE: workedVBD
+EQ class: workvbd	
+
+BE: spellingVBG
+EQ class: spell_outvbg	spellvbg	
+
+BE: learnVB
+EQ class: acquirevb	larnvb	
+
+BE: doingVBG
+EQ class: makevbg	dovbg	
+
+BE: personalJJ
+EQ class: 
+
+BE: easierJJR
+EQ class: easinessnn	easyjjr	
+
+BE: personalJJcoachNN
+EQ class: coachvbpersonallyrb	trainvbpersonallyrb	personaljjmanagernn	personaljjhandlernn	
+
+BE: itPRPisAUX
+EQ class: itprpbeaux	
+
+BE: kidNNworkedVBD
+EQ class: workernnofinshavernn	worknnofinfrynn	workernnshavernn	workernnofinkidnn	workernnofinyoungsternn	nestlingnnworkedvbd	worknnofinyoungsternn	worknnofintiddlernn	tikennworkvbd	worknnofinminornn	worknnofinchildnn	tikennworkedvbd	small_frynnworkvbd	workernnkidnn	workernnofinchildnn	tiddlernnworkvbd	workernnyoungsternn	workernnofinnestlingnn	workernnofinsmall_frynn	workernntykenn	workernnofinfrynn	workernnnippernn	tykennworkvbd	worknnofintykenn	nippernnworkvbd	shavernnworkvbd	workernnnestlingnn	childnnworkedvbd	shavernnworkedvbd	kidnnworkvbd	worknnofinsmall_frynn	childnnworkvbd	workernnfrynn	worknnofintikenn	workernnofintykenn	worknnofinnestlingnn	worknnofinkidnn	youngsternnworkedvbd	youngsternnworkvbd	minornnworkvbd	worknnofinshavernn	tykennworkedvbd	nestlingnnworkvbd	workernnminornn	tiddlernnworkedvbd	frynnworkedvbd	minornnworkedvbd	workernnchildnn	nippernnworkedvbd	frynnworkvbd	workernnsmall_frynn	workernntiddlernn	worknnofinnippernn	workernnofintiddlernn	workernnofinnippernn	workernntikenn	workernnofinminornn	workernnofintikenn	small_frynnworkedvbd	
+
+BE: kidNNhasAUX
+EQ class: tiddlernnhasaux	tiddlernnhave_gotaux	wealthy_personnnofinchildnn	tikennhasaux	small_frynnholdaux	rich_personnnofintiddlernn	rich_personnnofinkidnn	wealthy_personnnofinnippernn	rich_personnnofinnestlingnn	wealthy_personnnofintykenn	nippernnholdaux	tiddlernnhaveaux	rich_personnnofinsmall_frynn	tikennhaveaux	nippernnhasaux	nestlingnnholdaux	nippernnhaveaux	havennofinchildnn	havennofinfrynn	havennofintykenn	tykennhasaux	shavernnhasaux	kidnnhaveaux	childnnhaveaux	frynnholdaux	rich_personnnofintikenn	kidnnholdaux	tikennholdaux	nestlingnnhaveaux	rich_personnnofinyoungsternn	havennofinminornn	rich_personnnofintykenn	frynnhaveaux	rich_personnnofinfrynn	havennofintikenn	youngsternnhave_gotaux	youngsternnhaveaux	tykennhaveaux	childnnhasaux	minornnhaveaux	havennofinnestlingnn	havennofinshavernn	wealthy_personnnofinminornn	havennofinsmall_frynn	frynnhave_gotaux	shavernnhave_gotaux	tykennholdaux	rich_personnnofinminornn	childnnhave_gotaux	wealthy_personnnofintiddlernn	rich_personnnofinnippernn	tykennhave_gotaux	havennofinnippernn	youngsternnhasaux	small_frynnhave_gotaux	wealthy_personnnofinsmall_frynn	wealthy_personnnofintikenn	havennofinyoungsternn	frynnhasaux	kidnnhave_gotaux	wealthy_personnnofinfrynn	childnnholdaux	rich_personnnofinchildnn	wealthy_personnnofinkidnn	tiddlernnholdaux	nestlingnnhave_gotaux	minornnhave_gotaux	rich_personnnofinshavernn	nestlingnnhasaux	shavernnhaveaux	small_frynnhaveaux	small_frynnhasaux	wealthy_personnnofinyoungsternn	tikennhave_gotaux	havennofintiddlernn	wealthy_personnnofinshavernn	minornnhasaux	wealthy_personnnofinnestlingnn	youngsternnholdaux	havennofinkidnn	shavernnholdaux	minornnholdaux	nippernnhave_gotaux	
+
+BE: wordsNNSareAUX
+EQ class: themnnsbeaux	theynnsareaux	themnnsareaux	wordsnnsbeaux	theynnsbeaux	
+
+BE: spellingVBGdayNN
+EQ class: spellvbg24-hour_intervalnn	spellernnofinsolar_daynn	good_spellernnofinmean_solar_daynn	spellernnofin24-hour_intervalnn	poor_spellernnofindailyjj	poor_spellernnofinmean_solar_daynn	poor_spellernnofintwenty-four_hour_periodnn	spellernnofintwenty-four_hoursnn	spellingvbgtwenty-four_hoursnn	spellingnnofindailyjj	spellingvbg24-hour_intervalnn	spell_outvbg24-hour_intervalnn	good_spellernnofindailyjj	spellingnnofinsolar_daynn	spellingnnofinmean_solar_daynn	good_spellernnofinsolar_daynn	poor_spellernnofinsolar_daynn	spellernnofindailyjj	spellvbgtwenty-four_hour_periodnn	spellingnnofintwenty-four_hoursnn	good_spellernnofin24-hour_intervalnn	poor_spellernnofin24-hour_intervalnn	spell_outvbgtwenty-four_hour_periodnn	good_spellernnofindaynn	spellvbgdaynn	spell_outvbgsolar_daynn	spellernnofindaynn	good_spellernnofintwenty-four_hoursnn	spell_outvbgdaynn	spellingnnofindaynn	poor_spellernnofindaynn	spellingnnofin24-hour_intervalnn	spellingvbgdailyjj	spellingnnofintwenty-four_hour_periodnn	spellvbgmean_solar_daynn	spell_outvbgdailyjj	spellvbgtwenty-four_hoursnn	spellingvbgtwenty-four_hour_periodnn	spellingvbgsolar_daynn	spell_outvbgmean_solar_daynn	spellernnofintwenty-four_hour_periodnn	spellvbgdailyjj	spellingvbgmean_solar_daynn	spellernnofinmean_solar_daynn	poor_spellernnofintwenty-four_hoursnn	spellvbgsolar_daynn	spell_outvbgtwenty-four_hoursnn	good_spellernnofintwenty-four_hour_periodnn	
+
+BE: hasAUXcoachNN
+EQ class: have_gotauxcoachnn	rich_personnnofincoachnn	have_gotauxmanagernn	holdauxcoachnn	hasauxmanagernn	rich_personnnofinhandlernn	havennofinmanagernn	wealthy_personnnofincoachnn	havennofinhandlernn	haveauxhandlernn	wealthy_personnnofinhandlernn	have_gotauxhandlernn	holdauxhandlernn	haveauxcoachnn	hasauxhandlernn	havennofincoachnn	rich_personnnofinmanagernn	wealthy_personnnofinmanagernn	holdauxmanagernn	haveauxmanagernn	
+
+BE: learnVBwordsNNS
+EQ class: larnvbwordsnns	scholarnnofinwordsnns	learnvbthemnns	larnvbthemnns	learnernnofinwordsnns	learnernnofinthemnns	larnvbtheynns	learnvbtheynns	learnernnofintheynns	assimilatornnofintheynns	scholarnnofintheynns	acquirevbthemnns	acquirevbwordsnns	scholarnnofinthemnns	acquirevbtheynns	assimilatornnofinwordsnns	assimilatornnofinthemnns	
+
+BE: areAUXpartNN
+EQ class: beauxpartialjj	areauxportionnn	beauxcomponentnn	beauxportionnn	areauxcomponent_partnn	areauxpartialjj	areauxcomponentnn	areauxconstituentnn	beauxcomponent_partnn	beauxconstituentnn	beauxpartnn	
+
+BE: doingVBGhobbyNN
+EQ class: dovbgpursuitnn	makevbgpursuitnn	makevbghobbynn	dovbgsidelinenn	makevbgspare-time_activitynn	dovbgspare-time_activitynn	makevbgavocationnn	doingvbgby-linenn	dovbgby-linenn	doingvbgpursuitnn	doingvbgspare-time_activitynn	dovbghobbynn	makevbgsidelinenn	makevbgby-linenn	doingvbgsidelinenn	doingvbgavocationnn	dovbgavocationnn	
+
+BE: isAUXeasierJJR
+EQ class: isauxeasinessnn	beauxeasierjjr	beauxeasinessnn	isauxeasyjjr	beauxeasyjjr	
+

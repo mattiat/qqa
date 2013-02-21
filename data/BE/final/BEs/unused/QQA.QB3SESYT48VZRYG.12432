@@ -1,0 +1,65 @@
+#I do school about 5 and a half hours a day. 
+#(S1 (S (NP (PRP I)) (VP (AUX do) (VP (NN school) (NP (NP (QP (IN about) (CD 5) (CC and) (DT a) (NN half)) (NNS hours)) (NP (DT a) (NN day))))) (. .)))
+#Rule:Nouns
+r1schoolNN
+r1halfNN
+r1hoursNNS
+r1dayNN
+
+#Rule:Adj-Noun
+r55CDhoursNNS
+
+#Rule:V-HeadNoun
+r21schoolNNhoursNNS
+
+#You can always do short school days and then let them play outside, read books, do crafts, and they will be learning with out even knowing it.
+#(S1 (S (S (NP (PRP You)) (VP (MD can) (VP (VP (ADVP (RB always)) (AUX do) (NP (JJ short) (NN school) (NNS days))) (CC and) (VP (ADVP (RB then)) (VB let) (S (NP (PRP them)) (VP (VP (VB play) (ADVP (RB outside))) (, ,) (VP (VBP read) (NP (NNS books))) (, ,) (VP (AUX do) (NP (NNS crafts))))))))) (, ,) (CC and) (S (NP (PRP they)) (VP (MD will) (VP (AUX be) (VP (VBG learning) (PP (IN with) (S (VP (ADVP (RB out) (RB even)) (VBG knowing) (NP (PRP it))))))))) (. .)))
+#Rule:Nouns
+r1schoolNN
+r1daysNNS
+r1booksNNS
+r1craftsNNS
+
+#Rule:Verbs
+r2letVB
+r2playVB
+r2readVBP
+r2learningVBG
+r2knowingVBG
+
+#Rule:Adjs
+r4shortJJ
+
+#Rule:Adj-Noun
+r5shortJJdaysNNS
+
+#Rule:N-HeadNoun
+r8schoolNNdaysNNS
+
+#Rule:HeadNoun-V
+r11youPRPletVB
+r11youPRPdoAUX
+r11themPRPplayVB
+r11themPRPreadVBP
+r11themPRPdoAUX
+r11theyPRPlearningVBG
+
+#Rule:V-HeadNoun
+r21doAUXdaysNNS
+r21readVBPbooksNNS
+r21doAUXcraftsNNS
+r21knowingVBGitLocationAnnotation
+
+#Rule:V-HeadNoun
+r22letVBthemPRP
+
+#Rule:V-ADV
+r46doAUXalwaysRB
+r46letVBthenRB
+r46playVBoutsideRB
+r46knowingVBGoutRB
+r46knowingVBGevenRB
+
+@lemmas-left	they	books	craft	knowing	let	hours	play	learn	half	you	learning	know	crafts	short	school	days	them	5	book	read	do	day	
+@lemmas-right	books	craft	it	let	hours	play	learn	learning	always	crafts	days	them	then	book	read	even	do	outside	out	
+@lemmas-center	

@@ -1,0 +1,66 @@
+#It is due to scattering of light .do have a visit to this page ..for more information !
+#(S1 (S (NP (PRP It)) (VP (AUX is) (ADJP (JJ due) (PP (TO to) (NP (NP (NN scattering)) (PP (IN of) (NP (NP (NN light)) (SBAR (S (NP (NN .do)) (VP (AUX have) (NP (NP (DT a) (NN visit)) (PP (TO to) (NP (DT this) (NN page) (NN ..)))) (PP (IN for) (NP (JJR more) (NN information)))))))))))) (. !)))
+#Rule:Nouns
+r1scatteringNN
+r1lightNN
+r1.doNN
+r1visitNN
+r1pageNN
+r1..LocationAnnotation
+r1informationNN
+
+#Rule:Adjs
+r4dueJJ
+r4moreJJR
+
+#Rule:Adj-Noun
+r5moreJJRinformationNN
+
+#Rule:N-HeadNoun
+r8pageNN..LocationAnnotation
+
+#Rule:HeadNoun-V
+r11itPRPisAUX
+r11.doNNhaveAUX
+
+#Rule:V-HeadNoun
+r21haveAUXvisitNN
+
+#Rule:V-ADJ
+r25isAUXdueJJ
+
+#Rule:PPinNP
+r26scatteringNNofINlightNN
+r26visitNNtoTO..LocationAnnotation
+
+#Rule:PPinVP
+r30haveAUXforINinformationNN
+
+#Rule:PPinADJP
+r37dueJJtoTOscatteringNN
+
+#http://www.answers.com/why%20is%20sky%20blue
+#(S1 (NP (NN http) (: :) (NP (NP (NP (JJ //www.answers.com/why) (NN %) (NN 20is) (NN %)) (JJ 20sky) (NN %)) (NP (NN 20blue)))))
+#Rule:Nouns
+r1http://wwwLocationAnnotation
+r1%NN
+r120isNN
+r1%NN
+r1%NN
+r120blueNN
+
+#Rule:Adjs
+r4//www.answers.com/whyJJ
+r420skyJJ
+
+#Rule:Adj-Noun
+r520skyJJ%NN
+r5//www.answers.com/whyJJ%NN
+
+#Rule:N-HeadNoun
+r820isNN%NN
+r8%NN%NN
+
+@lemmas-left	http://www	information	20is	is	20sky	it	have	%	scattering	visit	//www.answers.com/why	i	20blue	sky	.do	more	blue	page	..	due	do	light	why	be	
+@lemmas-right	information	is	have	%	scattering	..	due	visit	light	be	
+@lemmas-center	to	of	for	

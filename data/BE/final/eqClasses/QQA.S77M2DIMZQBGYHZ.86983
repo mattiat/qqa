@@ -1,0 +1,558 @@
+BE: ChestNN
+EQ class: chestyjj	pectusnn	thoraxnn	
+
+BE: painNN
+EQ class: hurtingnn	
+
+BE: symptomNN
+EQ class: symptomaticjj	
+
+BE: heartNN
+EQ class: bosomnn	
+
+BE: attackNNS
+EQ class: theynns	onrushnns	onsetnns	onslaughtnns	themnns	
+
+BE: peopleNNS
+EQ class: theynns	themnns	
+
+BE: chestNN
+EQ class: chestyjj	pectusnn	thoraxnn	
+
+BE: painNN
+EQ class: hurtingnn	
+
+BE: ThisNNP
+EQ class: 
+
+BE: heartNN
+EQ class: bosomnn	
+
+BE: attackNN
+EQ class: theynn	themnn	onrushnn	onslaughtnn	onsetnn	
+
+BE: calledVBN
+EQ class: callvbn	namevbn	
+
+BE: majorJJ
+EQ class: 
+
+BE: littleJJ
+EQ class: littlenessnn	smalljj	
+
+BE: elderlyJJ
+EQ class: olderjj	seniorjj	agedjj	
+
+BE: diabetesJJ
+EQ class: 
+
+BE: silentJJ
+EQ class: silencenn	stilljj	soundlessjj	
+
+BE: majorJJsymptomNN
+EQ class: majorjjsymptomaticjj	
+
+BE: diabetesJJThisNNP
+EQ class: 
+
+BE: silentJJattackNN
+EQ class: stilljjonrushnn	silencenntheynn	assailvbsilentlyrb	silencennonrushnn	silencennonslaughtnn	stilljjonsetnn	stilljjtheynn	soundlessjjonslaughtnn	stilljjonslaughtnn	silencennonsetnn	silentjjonslaughtnn	soundlessjjthemnn	themvbsilentlyrb	silentjjtheynn	silentjjonrushnn	soundlessjjattacknn	silencennattacknn	silentjjonsetnn	stilljjattacknn	theyvbsilentlyrb	stilljjthemnn	silentjjthemnn	soundlessjjonsetnn	silencennthemnn	soundlessjjtheynn	attackvbsilentlyrb	soundlessjjonrushnn	
+
+BE: ChestNNpainNN
+EQ class: painnnofinpectusnn	thoraxnnpainvb	hurtingnnofinchestnn	thoraxnnpainnn	thoraxnnailvb	pectusnnpainnn	painnnofinchestyjj	thoraxnntroublevb	painvbchestnn	painvbthoraxnn	troublevbchestnn	painvbpectusnn	chestyjjpainvb	chestnnailvb	pectusnnailvb	painnnofinchestnn	chestnnpainvb	chestyjjailvb	troublevbthoraxnn	ailvbthoraxnn	ailvbpectusnn	chestyjjpainnn	hurtingnnofinpectusnn	chestnntroublevb	pectusnnpainvb	troublevbchestyjj	hurtingnnofinthoraxnn	chestyjjtroublevb	pectusnntroublevb	hurtingnnofinchestyjj	pectusnnhurtingnn	painnnofinthoraxnn	thoraxnnhurtingnn	chestyjjhurtingnn	chestnnhurtingnn	ailvbchestnn	ailvbchestyjj	troublevbpectusnn	painvbchestyjj	
+
+BE: heartNNattackNNS
+EQ class: heartnnthemnns	assailvbbosomnn	attacknnsofinbosomnn	bosomnnonslaughtnns	bosomnnattacknns	heartnnattackvb	bosomnnassailvb	themvbbosomnn	heartnnonslaughtnns	bosomnnthemnns	onrushnnsofinbosomnn	theynnsofinheartnn	themnnsofinheartnn	heartnntheynns	theyvbbosomnn	onsetnnsofinheartnn	themvbheartnn	bosomnnonrushnns	onslaughtnnsofinheartnn	bosomnnthemvb	themnnsofinbosomnn	heartnnonsetnns	heartnnthemvb	bosomnnattackvb	onslaughtnnsofinbosomnn	heartnnonrushnns	attackvbbosomnn	theynnsofinbosomnn	theyvbheartnn	attackvbheartnn	onrushnnsofinheartnn	bosomnntheynns	bosomnnonsetnns	onsetnnsofinbosomnn	heartnnassailvb	attacknnsofinheartnn	assailvbheartnn	bosomnntheyvb	heartnntheyvb	
+
+BE: chestNNpainNN
+EQ class: painnnofinpectusnn	thoraxnnpainvb	hurtingnnofinchestnn	thoraxnnpainnn	thoraxnnailvb	pectusnnpainnn	painnnofinchestyjj	thoraxnntroublevb	painvbchestnn	painvbthoraxnn	troublevbchestnn	painvbpectusnn	chestyjjpainvb	chestnnailvb	pectusnnailvb	painnnofinchestnn	chestnnpainvb	chestyjjailvb	troublevbthoraxnn	ailvbthoraxnn	ailvbpectusnn	chestyjjpainnn	hurtingnnofinpectusnn	chestnntroublevb	pectusnnpainvb	troublevbchestyjj	hurtingnnofinthoraxnn	chestyjjtroublevb	pectusnntroublevb	hurtingnnofinchestyjj	pectusnnhurtingnn	painnnofinthoraxnn	thoraxnnhurtingnn	chestyjjhurtingnn	chestnnhurtingnn	ailvbchestnn	ailvbchestyjj	troublevbpectusnn	painvbchestyjj	
+
+BE: heartNNattackNN
+EQ class: theynnofinheartnn	onslaughtnnofinheartnn	assailvbbosomnn	theynnofinbosomnn	heartnnonslaughtnn	heartnnattackvb	bosomnnassailvb	themvbbosomnn	onrushnnofinbosomnn	heartnnthemnn	onslaughtnnofinbosomnn	heartnnonrushnn	themnnofinbosomnn	onsetnnofinheartnn	onsetnnofinbosomnn	theyvbbosomnn	themvbheartnn	bosomnnonrushnn	bosomnnonslaughtnn	bosomnnthemvb	onrushnnofinheartnn	attacknnofinheartnn	bosomnntheynn	heartnnthemvb	heartnntheynn	bosomnnattackvb	themnnofinheartnn	attackvbbosomnn	bosomnnthemnn	theyvbheartnn	attackvbheartnn	heartnnassailvb	assailvbheartnn	bosomnnonsetnn	attacknnofinbosomnn	bosomnntheyvb	bosomnnattacknn	heartnntheyvb	heartnnonsetnn	
+
+BE: painNNelderlyJJ
+EQ class: seniorjjailvb	seniorjjpainvb	hurtingnnofinagedjj	painnnofinseniorjj	elderlyjjpainvb	olderjjtroublevb	hurtingnnseniorjj	painnnofinagedjj	painnnofinolderjj	olderjjailvb	elderlyjjpainnn	seniorjjpainnn	hurtingnnelderlyjj	painnnofinelderlyjj	olderjjpainnn	agedjjhurtingnn	hurtingnnofinseniorjj	agedjjpainvb	elderlyjjailvb	seniorjjtroublevb	elderlyjjtroublevb	painnnseniorjj	hurtingnnofinelderlyjj	hurtingnnagedjj	hurtingnnolderjj	agedjjtroublevb	hurtingnnofinolderjj	elderlyjjhurtingnn	agedjjailvb	painnnolderjj	seniorjjhurtingnn	olderjjpainvb	painnnagedjj	agedjjpainnn	olderjjhurtingnn	
+
+BE: painNNisAUX
+EQ class: painnnbeaux	hurtingnnisaux	hurtingnnbeaux	
+
+BE: peopleNNShaveAUX
+EQ class: peoplennshave_gotaux	havennofintheynns	wealthy_personnnofinpeoplenns	theynnshave_gotaux	wealthy_personnnofintheynns	havennofinpeoplenns	theynnshaveaux	havennofinthemnns	wealthy_personnnofinthemnns	themnnshave_gotaux	rich_personnnofinpeoplenns	themnnsholdaux	theynnsholdaux	peoplennsholdaux	themnnshaveaux	rich_personnnofintheynns	rich_personnnofinthemnns	
+
+BE: isAUXsymptomNN
+EQ class: beauxsymptomaticjj	isauxsymptomaticjj	beauxsymptomnn	
+
+BE: calledVBNattackNN
+EQ class: calledvbnonslaughtnn	calledvbnonsetnn	namevbnthemnn	namevbntheynn	callvbnattacknn	callvbnonrushnn	namevbnonrushnn	namevbnonsetnn	callvbnthemnn	callvbnonslaughtnn	callvbnonsetnn	namevbnonslaughtnn	calledvbntheynn	calledvbnthemnn	calledvbnonrushnn	namevbnattacknn	callvbntheynn	
+
+BE: calledVBNpainNN
+EQ class: namevbnhurtingnn	namevbnpainnn	calledvbnhurtingnn	callvbnhurtingnn	callvbnpainnn	
+
+BE: calledVBNelderlyJJ
+EQ class: calledvbnagedjj	calledvbnolderjj	callvbnagedjj	calledvbnseniorjj	callvbnelderlyjj	namevbnagedjj	namevbnseniorjj	callvbnolderjj	namevbnelderlyjj	callvbnseniorjj	namevbnolderjj	
+
+BE: calledVBNthoseDT
+EQ class: namevbnthosedt	callvbnthosedt	
+
+BE: symptomNNofINattackNNS
+EQ class: symptomaticjjofinonslaughtnns	attacknnssymptomaticvb	symptomaticvbattacknns	symptomnnofinonslaughtnns	themnnssymptomaticjj	onsetnnssymptomnn	symptomnnofinonrushnns	theynnssymptomaticvb	symptomnnofinonsetnns	symptomnnofinthemnns	themnnssymptomaticvb	symptomaticjjofintheynns	theynnssymptomnn	symptomaticjjofinthemnns	onslaughtnnssymptomaticvb	onrushnnssymptomnn	symptomaticvbonrushnns	onslaughtnnssymptomaticjj	onslaughtnnssymptomnn	attacknnssymptomnn	symptomaticjjofinonsetnns	symptomnnofintheynns	onrushnnssymptomaticjj	onsetnnssymptomaticjj	theynnssymptomaticjj	symptomaticjjofinonrushnns	symptomaticvbonsetnns	onsetnnssymptomaticvb	symptomaticvbtheynns	symptomaticvbthemnns	symptomaticvbonslaughtnns	symptomaticjjofinattacknns	themnnssymptomnn	onrushnnssymptomaticvb	attacknnssymptomaticjj	
+
+BE: thoseDTwithINThisNNP
+EQ class: 
+
+BE: symptomNNpainNN
+EQ class: painnnofinsymptomnn	painnnofinsymptomaticjj	symptomnnhurtingnn	hurtingnnofinsymptomnn	hurtingnnsymptomnn	symptomaticjjpainnn	painnnsymptomnn	hurtingnnofinsymptomaticjj	symptomaticjjtroublevb	symptomnnailvb	symptomaticjjailvb	painnnsymptomaticjj	symptomnnpainvb	symptomaticjjpainvb	symptomaticjjhurtingnn	hurtingnnsymptomaticjj	symptomnntroublevb	
+
+BE: painNN
+EQ class: hurtingnn	
+
+BE: partNN
+EQ class: constituentnn	componentnn	component_partnn	partialjj	portionnn	
+
+BE: bodyNN
+EQ class: physical_structurenn	bodilyjj	organic_structurenn	
+
+BE: chestNN
+EQ class: chestyjj	pectusnn	thoraxnn	
+
+BE: armsNNS
+EQ class: weapons_systemnns	theynns	weaponrynns	implements_of_warnns	munitionnns	themnns	
+
+BE: shoulderNN
+EQ class: 
+
+BE: neckNN
+EQ class: cervixnn	
+
+BE: teethNNS
+EQ class: theynns	dentitionnns	themnns	
+
+BE: jawNN
+EQ class: 
+
+BE: bellyNN
+EQ class: abdomennn	venternn	stomachnn	
+
+BE: areaNN
+EQ class: arealjj	countrynn	
+
+BE: feltVBN
+EQ class: 
+
+BE: moveVB
+EQ class: locomotevb	govb	travelvb	
+
+BE: oneCDpartNN
+EQ class: acecdcomponent_partnn	unitycdportionnn	unitycdcomponent_partnn	acecdpartialjj	onecdportionnn	icdconstituentnn	icdcomponentnn	1cdpartialjj	1cdpartnn	onecdpartialjj	singlecdcomponentnn	icdcomponent_partnn	1cdcomponentnn	unitycdcomponentnn	icdportionnn	unitycdconstituentnn	onecdcomponent_partnn	1cdcomponent_partnn	icdpartnn	1cdconstituentnn	acecdpartnn	singlecdconstituentnn	acecdconstituentnn	icdpartialjj	acecdcomponentnn	singlecdpartnn	acecdportionnn	1cdportionnn	unitycdpartialjj	singlecdpartialjj	unitycdpartnn	singlecdportionnn	onecdcomponentnn	singlecdcomponent_partnn	onecdconstituentnn	
+
+BE: yourPRP$chestNN
+EQ class: yourprp$chestyvb	chestnnofinyourprp$	yourprp$chestyjj	chestyjjofinyourprp$	thoraxnnofinyourprp$	yourprp$thoraxnn	yourprp$pectusnn	pectusnnofinyourprp$	chestyvbyourprp$	
+
+BE: yourPRP$areaNN
+EQ class: countrynnofinyourprp$	areannofinyourprp$	arealvbyourprp$	yourprp$arealjj	yourprp$countrynn	arealjjofinyourprp$	yourprp$arealvb	
+
+BE: bellyNNareaNN
+EQ class: countrynnofinabdomennn	abdomennnareann	abdomennncountrynn	stomachnnarealvb	countrynnofinventernn	abdomennnarealjj	areannofinstomachnn	venternncountrynn	arealjjofinbellynn	arealjjofinventernn	stomachnncountrynn	stomachnnareann	venternnarealjj	countrynnofinstomachnn	arealjjofinstomachnn	stomachnnarealjj	abdomennnarealvb	venternnarealvb	arealvbstomachnn	arealvbventernn	arealvbbellynn	areannofinabdomennn	bellynnarealjj	areannofinbellynn	bellynncountrynn	arealjjofinabdomennn	areannofinventernn	arealvbabdomennn	countrynnofinbellynn	venternnareann	bellynnarealvb	
+
+BE: painNNmoveVB
+EQ class: hurtingnnmovevb	movementnnpainnn	movernnhurtingnn	motilitynnhurtingnn	movernnpainnn	movennpainnn	motilitynnofinhurtingnn	hurtingnngovb	gesturennpainnn	painnngovb	hurtingnnlocomotevb	movementnnhurtingnn	movennofinhurtingnn	motilitynnpainnn	movementnnofinhurtingnn	motionnnofinhurtingnn	gesturennofinpainnn	painnnlocomotevb	painnntravelvb	motionnnofinpainnn	movennofinpainnn	motilitynnofinpainnn	motionnnpainnn	gesturennofinhurtingnn	movementnnofinpainnn	motionnnhurtingnn	movernnofinpainnn	hurtingnntravelvb	gesturennhurtingnn	movennhurtingnn	movernnofinhurtingnn	
+
+BE: feltVBNpainNN
+EQ class: feltvbnhurtingnn	feltnnofinpainnn	feltnnofinhurtingnn	
+
+BE: partNNofINbodyNN
+EQ class: bodynnpartialvb	constituentnnofinorganic_structurenn	physical_structurennpartialjj	organic_structurennportionnn	partialvbphysical_structurenn	partialvbbodilyjj	bodilyjjpartialvb	portionnnofinphysical_structurenn	physical_structurenncomponentnn	partialvborganic_structurenn	portionnnofinorganic_structurenn	physical_structurennpartialvb	bodilyjjcomponentnn	organic_structurenncomponent_partnn	partialjjofinbodilyjj	bodilyjjportionnn	componentnnofinbodynn	componentnnofinphysical_structurenn	component_partnnofinorganic_structurenn	partnnofinbodilyjj	physical_structurennconstituentnn	bodilyjjcomponent_partnn	organic_structurennconstituentnn	bodilyjjpartialjj	partialjjofinorganic_structurenn	componentnnofinorganic_structurenn	partialjjofinbodynn	partialjjofinphysical_structurenn	bodynncomponentnn	bodynnconstituentnn	physical_structurenncomponent_partnn	bodilyjjconstituentnn	bodynnpartialjj	portionnnofinbodilyjj	portionnnofinbodynn	component_partnnofinbodynn	bodynnportionnn	physical_structurennpartnn	component_partnnofinphysical_structurenn	bodynnpartnn	constituentnnofinphysical_structurenn	organic_structurennpartialjj	organic_structurennpartnn	constituentnnofinbodynn	partialvbbodynn	bodynncomponent_partnn	partnnofinphysical_structurenn	organic_structurenncomponentnn	partnnofinorganic_structurenn	constituentnnofinbodilyjj	component_partnnofinbodilyjj	bodilyjjpartnn	physical_structurennportionnn	organic_structurennpartialvb	componentnnofinbodilyjj	
+
+BE: chestNNtoTOareaNN
+EQ class: chestyvbarealjj	chestyvbareann	areannchestnn	chestnntotoarealjj	chestnntotocountrynn	pectusnntotoareann	areannchestyjj	thoraxnntotoarealjj	areannthoraxnn	chestyjjtotoarealjj	arealjjchestyvb	areannpectusnn	countrynnthoraxnn	chestyvbcountrynn	thoraxnntotoareann	arealjjchestyjj	pectusnntotocountrynn	arealjjchestnn	thoraxnntotocountrynn	areannchestyvb	countrynnchestnn	countrynnchestyjj	chestyjjtotoareann	arealjjpectusnn	countrynnchestyvb	countrynnpectusnn	arealjjthoraxnn	pectusnntotoarealjj	chestyjjtotocountrynn	
+
+BE: moveVBfromINchestNN
+EQ class: travelvbfrominchestyjj	locomotevbfrominthoraxnn	govbfrominchestnn	govbfrominchestyjj	movevbfrominchestyjj	govbfrominthoraxnn	travelvbfrominpectusnn	locomotevbfrominchestnn	movevbfrominthoraxnn	locomotevbfrominpectusnn	travelvbfrominchestnn	movevbfrominpectusnn	travelvbfrominthoraxnn	govbfrominpectusnn	locomotevbfrominchestyjj	
+
+BE: feltVBNinINpartNN
+EQ class: feltvbnininpartialjj	feltvbnininportionnn	feltvbninincomponent_partnn	feltvbnininconstituentnn	feltvbninincomponentnn	
+
+BE: painNN
+EQ class: hurtingnn	
+
+BE: *NN
+EQ class: *.nn	
+
+BE: pressureNN
+EQ class: pressure_levelnn	force_per_unit_areann	
+
+BE: bandNN
+EQ class: lotnn	setnn	circlenn	
+
+BE: chestNN
+EQ class: chestyjj	pectusnn	thoraxnn	
+
+BE: SomethingNN
+EQ class: 
+
+BE: chestNN
+EQ class: chestyjj	pectusnn	thoraxnn	
+
+BE: * BadLocationAnnotation
+EQ class: *. badlocationannotation	
+
+BE: indigestionPainNN
+EQ class: 
+
+BE: RestPersonAnnotation
+EQ class: 
+
+BE: medicineNN
+EQ class: medical_specialtynn	medicaljj	
+
+BE: nitroglycerineOrganizationAnnotation
+EQ class: 
+
+BE: painNN
+EQ class: hurtingnn	
+
+BE: heartNN
+EQ class: bosomnn	
+
+BE: attackNN
+EQ class: theynn	themnn	onrushnn	onslaughtnn	onsetnn	
+
+BE: feelVB
+EQ class: experiencevb	
+
+BE: squeezingVBG
+EQ class: crushvbg	squashvbg	squeezevbg	squelchvbg	mashvbg	
+
+BE: *VBG
+EQ class: *.vbg	
+
+BE: *VBG
+EQ class: *.vbg	
+
+BE: sittingVBG
+EQ class: sitvbg	sit_downvbg	
+
+BE: lastsVBZ
+EQ class: endurevbz	lastvbz	
+
+BE: calledVBD
+EQ class: namevbd	callvbd	
+
+BE: relieveVB
+EQ class: assuagevb	palliatevb	alleviatevb	
+
+BE: severeJJ
+EQ class: severitynn	severenessnn	wickedjj	terriblejj	
+
+BE: mildJJ
+EQ class: mildnessnn	
+
+BE: heavyJJ
+EQ class: heavinessnn	
+
+BE: tightJJ
+EQ class: tightnessnn	
+
+BE: heavyJJ
+EQ class: heavinessnn	
+
+BE: minutesJJ
+EQ class: 
+
+BE: squeezingVBG*NN
+EQ class: squeezennofin*nn	crushvbg*nn	squeezingnnofin*.nn	squelchvbg*.nn	crushvbg*.nn	mashvbg*.nn	squeezernnofin*.nn	squeezingvbg*.nn	squeezevbg*nn	squeezingnnofin*nn	squashvbg*nn	squeezernnofin*nn	squelchvbg*nn	squeezevbg*.nn	mashvbg*nn	squeezennofin*.nn	squashvbg*.nn	
+
+BE: heavyJJpressureNN
+EQ class: heavinessnnpressurenn	pressvbheavilyrb	heavyjjforce_per_unit_areann	heavinessnnpressure_levelnn	pressurisevbheavilyrb	heavyjjpressure_levelnn	pressurizevbheavilyrb	superchargevbheavilyrb	heavinessnnforce_per_unit_areann	
+
+BE: tightJJbandNN
+EQ class: tightnessnncirclenn	tightjjcirclenn	tightjjlotnn	tightnessnnsetnn	tightnessnnlotnn	tightnessnnbandnn	tightjjsetnn	
+
+BE: heavyJJSomethingNN
+EQ class: heavinessnnsomethingnn	
+
+BE: * BadLocationAnnotationindigestionPainNN
+EQ class: *. badlocationannotationindigestionpainnn	
+
+BE: 20CDRestPersonAnnotation
+EQ class: twentycdrestpersonannotation	2.0.cdrestpersonannotation	xxcdrestpersonannotation	
+
+BE: minutesJJRestPersonAnnotation
+EQ class: 
+
+BE: yourPRP$* BadLocationAnnotation
+EQ class: yourprp$*. badlocationannotation	* badlocationannotationofinyourprp$	*. badlocationannotationofinyourprp$	
+
+BE: chestNN* BadLocationAnnotation
+EQ class: chestyjj* badlocationannotation	chestnn*. badlocationannotation	chestyjj*. badlocationannotation	* badlocationannotationofinchestnn	pectusnn* badlocationannotation	*. badlocationannotationofinpectusnn	* badlocationannotationofinchestyjj	*. badlocationannotationofinchestyjj	* badlocationannotationofinthoraxnn	* badlocationannotationofinpectusnn	*. badlocationannotationofinchestnn	thoraxnn* badlocationannotation	thoraxnn*. badlocationannotation	*. badlocationannotationofinthoraxnn	pectusnn*. badlocationannotation	
+
+BE: heartNNattackNN
+EQ class: theynnofinheartnn	onslaughtnnofinheartnn	assailvbbosomnn	theynnofinbosomnn	heartnnonslaughtnn	heartnnattackvb	bosomnnassailvb	themvbbosomnn	onrushnnofinbosomnn	heartnnthemnn	onslaughtnnofinbosomnn	heartnnonrushnn	themnnofinbosomnn	onsetnnofinheartnn	onsetnnofinbosomnn	theyvbbosomnn	themvbheartnn	bosomnnonrushnn	bosomnnonslaughtnn	bosomnnthemvb	onrushnnofinheartnn	attacknnofinheartnn	bosomnntheynn	heartnnthemvb	heartnntheynn	bosomnnattackvb	themnnofinheartnn	attackvbbosomnn	bosomnnthemnn	theyvbheartnn	attackvbheartnn	heartnnassailvb	assailvbheartnn	bosomnnonsetnn	attacknnofinbosomnn	bosomnntheyvb	bosomnnattacknn	heartnntheyvb	heartnnonsetnn	
+
+BE: painNNbeAUX
+EQ class: hurtingnnbeaux	
+
+BE: itPRPfeelVB
+EQ class: feelingnnitprp	itprpexperiencevb	feelingsnnofinitprp	feelingnnofinitprp	feelingsnnitprp	
+
+BE: *NN*VBG
+EQ class: *.nn*.vbg	*.nn*vbg	*nn*.vbg	
+
+BE: pressureNN*VBG
+EQ class: force_per_unit_areann*vbg	pressure_levelnn*vbg	force_per_unit_areann*.vbg	pressurenn*.vbg	pressure_levelnn*.vbg	
+
+BE: chestNN*VBG
+EQ class: chestnn*.vbg	pectusnn*.vbg	pectusnn*vbg	chestyjj*vbg	thoraxnn*vbg	chestyjj*.vbg	thoraxnn*.vbg	
+
+BE: SomethingNNsittingVBG
+EQ class: somethingnnsitvbg	posingnnsomethingnn	posingnnofinsomethingnn	sittingnnsomethingnn	somethingnnsit_downvbg	sittingnnofinsomethingnn	
+
+BE: indigestionPainNNlastsVBZ
+EQ class: indigestionpainnnendurevbz	indigestionpainnnlastvbz	
+
+BE: medicineNNcalledVBD
+EQ class: medicaljjcallvbd	medical_specialtynncalledvbd	medicinenncallvbd	medicaljjnamevbd	medical_specialtynnnamevbd	medicinennnamevbd	medicaljjcalledvbd	medical_specialtynncallvbd	
+
+BE: nitroglycerineOrganizationAnnotationrelieveVB
+EQ class: nitroglycerineorganizationannotationalleviatevb	nitroglycerineorganizationannotationassuagevb	nitroglycerineorganizationannotationpalliatevb	
+
+BE: lastsVBZ* BadLocationAnnotation
+EQ class: endurevbz*. badlocationannotation	lastvbz* badlocationannotation	lastsvbz*. badlocationannotation	endurevbz* badlocationannotation	lastvbz*. badlocationannotation	
+
+BE: *VBGbandNN
+EQ class: *vbglotnn	*.vbglotnn	*.vbgcirclenn	*.vbgsetnn	*.vbgbandnn	*vbgcirclenn	*vbgsetnn	
+
+BE: *VBGSomethingNN
+EQ class: *.vbgsomethingnn	
+
+BE: relieveVBpainNN
+EQ class: alleviatevbhurtingnn	alleviatevbpainnn	assuagevbpainnn	relievevbhurtingnn	palliatevbpainnn	assuagevbhurtingnn	palliatevbhurtingnn	
+
+BE: calledVBDnitroglycerineOrganizationAnnotation
+EQ class: namevbdnitroglycerineorganizationannotation	callvbdnitroglycerineorganizationannotation	
+
+BE: beAUXsevereJJ
+EQ class: beauxseveritynn	beauxwickedjj	beauxseverenessnn	beauxterriblejj	
+
+BE: painNNofINattackNN
+EQ class: onrushnnpainvb	onrushnnhurtingnn	ailvbthemnn	ailvbattacknn	onslaughtnnailvb	troublevbtheynn	onslaughtnnhurtingnn	onrushnnailvb	ailvbonsetnn	troublevbonrushnn	attacknnhurtingnn	painvbattacknn	painvbthemnn	theynntroublevb	painvbtheynn	onsetnnhurtingnn	ailvbtheynn	onsetnnpainvb	onsetnnpainnn	theynnailvb	onsetnnailvb	hurtingnnofintheynn	onslaughtnntroublevb	painvbonrushnn	painnnofinonslaughtnn	attacknnailvb	painvbonslaughtnn	themnnailvb	painvbonsetnn	troublevbattacknn	themnnpainvb	hurtingnnofinonrushnn	hurtingnnofinthemnn	hurtingnnofinonslaughtnn	themnntroublevb	painnnofinonrushnn	ailvbonrushnn	onslaughtnnpainvb	troublevbonslaughtnn	ailvbonslaughtnn	theynnpainnn	theynnhurtingnn	theynnpainvb	onsetnntroublevb	themnnhurtingnn	attacknnpainnn	attacknnpainvb	troublevbonsetnn	hurtingnnofinattacknn	onrushnnpainnn	painnnofintheynn	painnnofinonsetnn	hurtingnnofinonsetnn	painnnofinthemnn	troublevbthemnn	onslaughtnnpainnn	themnnpainnn	attacknntroublevb	onrushnntroublevb	
+
+BE: *VBGaroundINchestNN
+EQ class: *vbgaroundinpectusnn	*vbgaroundinthoraxnn	*vbgaroundinchestyjj	*.vbgaroundinchestnn	*.vbgaroundinchestyjj	*.vbgaroundinpectusnn	*.vbgaroundinthoraxnn	
+
+BE: sittingVBGonIN* BadLocationAnnotation
+EQ class: sitvbgonin* badlocationannotation	sitvbgonin*. badlocationannotation	sittingvbgonin*. badlocationannotation	sit_downvbgonin*. badlocationannotation	sit_downvbgonin* badlocationannotation	
+
+BE: lastsVBZusuallyRB
+EQ class: usualjjininlastsvbz	usualnessnnininlastvbz	usualnessnnininlastsvbz	usualnessnnininendurevbz	lastvbzusuallyrb	endurevbzusuallyrb	usualjjininlastvbz	usualjjininendurevbz	
+
+BE: lastsVBZlongerRB
+EQ class: longnessnnininlastsvbz	longjjininlastsvbz	longnessnnininendurevbz	endurevbzlongerrb	lastvbzlongerrb	longjjininlastvbz	longjjininendurevbz	longnessnnininlastvbz	
+
+BE: doAUXnotRB
+EQ class: makeauxnotrb	
+
+BE: doAUXcompletelyRB
+EQ class: completejjinindoaux	completenessnnininmakeaux	makeauxcompletelyrb	completenessnninindoaux	completejjininmakeaux	
+
+BE: relieveVBcompletelyRB
+EQ class: alleviatevbcompletelyrb	completejjininalleviatevb	completejjininrelievevb	completenessnnininassuagevb	palliatevbcompletelyrb	completenessnnininpalliatevb	completejjininassuagevb	completenessnnininrelievevb	assuagevbcompletelyrb	completejjininpalliatevb	completenessnnininalleviatevb	
+
+BE: symptomsNNS
+EQ class: symptomnns	theynns	symptomaticjj	themnns	
+
+BE: heartNN
+EQ class: bosomnn	
+
+BE: attackNN
+EQ class: theynn	themnn	onrushnn	onslaughtnn	onsetnn	
+
+BE: *NNP
+EQ class: *.nnp	
+
+BE: ShortnessNNP
+EQ class: shortjj	
+
+BE: breathNN
+EQ class: 
+
+BE: NauseaLocationAnnotation
+EQ class: nauseousjj	
+
+BE: vomitingLocationAnnotation
+EQ class: 
+
+BE: AnxietyNN
+EQ class: anxiousnessnn	
+
+BE: *NNP
+EQ class: *.nnp	
+
+BE: CoughNN
+EQ class: coughingnn	
+
+BE: *NNP
+EQ class: *.nnp	
+
+BE: FaintingNN
+EQ class: 
+
+BE: *NNP
+EQ class: *.nnp	
+
+BE: LightheadednessNNP
+EQ class: dizzinessnnp	vertigonnp	giddinessnnp	lightheadedjj	
+
+BE: dizzinessNN
+EQ class: vertigonn	giddinessnn	dizzyjj	lightheadednessnn	
+
+BE: *NNP
+EQ class: *.nnp	
+
+BE: PalpitationsNNP
+EQ class: palpitationnnp	
+
+BE: feelingNN
+EQ class: 
+
+BE: heartNN
+EQ class: bosomnn	
+
+BE: SweatingNN
+EQ class: perspirationnn	hidrosisnn	diaphoresisnn	sudationnn	
+
+BE: pagesNNS
+EQ class: pagenns	theynns	themnns	
+
+BE: detailsNNS
+EQ class: inside_informationnns	theynns	themnns	
+
+BE: HeartNN
+EQ class: bosomnn	
+
+BE: attackNN
+EQ class: theynn	themnn	onrushnn	onslaughtnn	onsetnn	
+
+BE: MyocardialNNP
+EQ class: 
+
+BE: infarctionNN
+EQ class: infarctnn	
+
+BE: includeVBP
+EQ class: 
+
+BE: *VBN
+EQ class: *.vbn	
+
+BE: beatingVBG
+EQ class: crushvbg	trouncevbg	shellvbg	beatvbg	vanquishvbg	beat_outvbg	
+
+BE: extremepleaseVB
+EQ class: 
+
+BE: seeVB
+EQ class: 
+
+BE: OtherJJ
+EQ class: 
+
+BE: webJJ
+EQ class: 
+
+BE: moreJJR
+EQ class: more_thanjjr	
+
+BE: OtherJJsymptomsNNS
+EQ class: otherjjsymptomnns	otherjjtheynns	otherjjsymptomaticjj	otherjjthemnns	
+
+BE: *CDAnxietyNN
+EQ class: *.cdanxietynn	*cdanxiousnessnn	*.cdanxiousnessnn	
+
+BE: *CDSweatingNN
+EQ class: *cddiaphoresisnn	*.cdsudationnn	*cdperspirationnn	*.cdsweatingnn	*.cddiaphoresisnn	*cdhidrosisnn	*.cdperspirationnn	*cdsudationnn	*.cdhidrosisnn	
+
+BE: webJJpagesNNS
+EQ class: webjjtheynns	webjjthemnns	webjjpagenns	
+
+BE: moreJJRdetailsNNS
+EQ class: more_thanjjrinside_informationnns	morejjrtheynns	morejjrinside_informationnns	more_thanjjrdetailsnns	more_thanjjrthemnns	morejjrthemnns	more_thanjjrtheynns	
+
+BE: yourPRP$heartNN
+EQ class: bosomnnofinyourprp$	yourprp$bosomnn	heartnnofinyourprp$	
+
+BE: heartNNattackNN
+EQ class: theynnofinheartnn	onslaughtnnofinheartnn	assailvbbosomnn	theynnofinbosomnn	heartnnonslaughtnn	heartnnattackvb	bosomnnassailvb	themvbbosomnn	onrushnnofinbosomnn	heartnnthemnn	onslaughtnnofinbosomnn	heartnnonrushnn	themnnofinbosomnn	onsetnnofinheartnn	onsetnnofinbosomnn	theyvbbosomnn	themvbheartnn	bosomnnonrushnn	bosomnnonslaughtnn	bosomnnthemvb	onrushnnofinheartnn	attacknnofinheartnn	bosomnntheynn	heartnnthemvb	heartnntheynn	bosomnnattackvb	themnnofinheartnn	attackvbbosomnn	bosomnnthemnn	theyvbheartnn	attackvbheartnn	heartnnassailvb	assailvbheartnn	bosomnnonsetnn	attacknnofinbosomnn	bosomnntheyvb	bosomnnattacknn	heartnntheyvb	heartnnonsetnn	
+
+BE: *NNPShortnessNNP
+EQ class: shortnessnnpofin*nnp	short-changevb*nnp	*.nnpshortvb	*.nnpshortjj	short-changevb*.nnp	shortvb*.nnp	*.nnpshort-changevb	shortvb*nnp	*.nnpshortnessnnp	shortnessnnpofin*.nnp	*nnpshortjj	shortjjofin*.nnp	*nnpshort-changevb	*nnpshortvb	shortjjofin*nnp	
+
+BE: *NNPLightheadednessNNP
+EQ class: *nnplightheadedvb	*nnpvertigonnp	*.nnplightheadedjj	dizzinessnnpofin*.nnp	lightheadedvb*nnp	*.nnplightheadednessnnp	lightheadednessnnpofin*.nnp	vertigonnpofin*.nnp	*nnplightheadedjj	dizzinessnnpofin*nnp	giddinessnnpofin*nnp	*.nnpvertigonnp	lightheadedvb*.nnp	lightheadednessnnpofin*nnp	*.nnpdizzinessnnp	*.nnpgiddinessnnp	giddinessnnpofin*.nnp	vertigonnpofin*nnp	*.nnplightheadedvb	lightheadedjjofin*nnp	*nnpgiddinessnnp	lightheadedjjofin*.nnp	*nnpdizzinessnnp	
+
+BE: FaintingNNLightheadednessNNP
+EQ class: faintingnnlightheadedjj	giddinessnnpofinfaintingnn	faintingnndizzinessnnp	faintingnngiddinessnnp	lightheadedvbfaintingnn	lightheadednessnnpofinfaintingnn	lightheadedjjofinfaintingnn	dizzinessnnpofinfaintingnn	faintingnnlightheadedvb	vertigonnpofinfaintingnn	faintingnnvertigonnp	
+
+BE: *NNPLightheadednessNNP
+EQ class: *nnplightheadedvb	*nnpvertigonnp	*.nnplightheadedjj	dizzinessnnpofin*.nnp	lightheadedvb*nnp	*.nnplightheadednessnnp	lightheadednessnnpofin*.nnp	vertigonnpofin*.nnp	*nnplightheadedjj	dizzinessnnpofin*nnp	giddinessnnpofin*nnp	*.nnpvertigonnp	lightheadedvb*.nnp	lightheadednessnnpofin*nnp	*.nnpdizzinessnnp	*.nnpgiddinessnnp	giddinessnnpofin*.nnp	vertigonnpofin*nnp	*.nnplightheadedvb	lightheadedjjofin*nnp	*nnpgiddinessnnp	lightheadedjjofin*.nnp	*nnpdizzinessnnp	
+
+BE: CoughNNLightheadednessNNP
+EQ class: dizzinessnnpofincoughnn	coughingnnlightheadedvb	coughingnngiddinessnnp	coughingnnlightheadednessnnp	vertigonnpofincoughingnn	giddinessnnpofincoughnn	coughnnofingiddinessnnp	coughnnofinlightheadedjj	giddinessnnpofincoughingnn	vertigonnpcoughvb	coughnnofindizzinessnnp	coughingnnvertigonnp	coughingnnofinlightheadedjj	lightheadednessnnpofincoughnn	coughnnvertigonnp	lightheadedjjofincoughnn	giddinessnnpcoughvb	lightheadedjjofincoughingnn	vertigonnpofincoughnn	lightheadedvbcoughnn	coughnngiddinessnnp	dizzinessnnpofincoughingnn	lightheadednessnnpofincoughingnn	coughnnlightheadedjj	lightheadedvbcoughingnn	coughingnnofingiddinessnnp	lightheadedjjcoughvb	coughingnndizzinessnnp	lightheadednessnnpcoughvb	coughingnnofindizzinessnnp	coughnnlightheadedvb	coughingnnofinlightheadednessnnp	coughingnnlightheadedjj	dizzinessnnpcoughvb	coughingnnofinvertigonnp	coughnnofinvertigonnp	coughnnofinlightheadednessnnp	coughnndizzinessnnp	
+
+BE: *NNPPalpitationsNNP
+EQ class: palpitatevb*nnp	*.nnppalpitatevb	*.nnppalpitationsnnp	palpitatevb*.nnp	palpitationnnpofin*nnp	*nnppalpitationnnp	palpitationsnnpofin*nnp	palpitationsnnpofin*.nnp	*nnppalpitatevb	*.nnppalpitationnnp	palpitationnnpofin*.nnp	
+
+BE: dizzinessNNPalpitationsNNP
+EQ class: palpitationsnnpofinvertigonn	dizzyjjpalpitationnnp	giddinessnnpalpitationsnnp	palpitatevbdizzinessnn	giddinessnnpalpitatevb	palpitationnnpofingiddinessnn	vertigonnpalpitatevb	palpitatevbgiddinessnn	palpitationnnpofindizzinessnn	dizzyjjpalpitationsnnp	dizzinessnnpalpitationnnp	vertigonnpalpitationsnnp	lightheadednessnnpalpitatevb	palpitationnnpofindizzyjj	dizzyjjpalpitatevb	palpitatevbdizzyjj	palpitatevblightheadednessnn	palpitationsnnpofindizzinessnn	palpitationsnnpofinlightheadednessnn	giddinessnnpalpitationnnp	palpitationnnpofinlightheadednessnn	palpitatevbvertigonn	dizzinessnnpalpitatevb	palpitationsnnpofindizzyjj	palpitationsnnpofingiddinessnn	lightheadednessnnpalpitationsnnp	vertigonnpalpitationnnp	lightheadednessnnpalpitationnnp	palpitationnnpofinvertigonn	
+
+BE: HeartNNattackNN
+EQ class: theynnofinheartnn	onslaughtnnofinheartnn	assailvbbosomnn	theynnofinbosomnn	heartnnonslaughtnn	heartnnattackvb	bosomnnassailvb	themvbbosomnn	onrushnnofinbosomnn	heartnnthemnn	onslaughtnnofinbosomnn	heartnnonrushnn	themnnofinbosomnn	onsetnnofinheartnn	onsetnnofinbosomnn	theyvbbosomnn	themvbheartnn	bosomnnonrushnn	bosomnnonslaughtnn	bosomnnthemvb	onrushnnofinheartnn	attacknnofinheartnn	bosomnntheynn	heartnnthemvb	heartnntheynn	bosomnnattackvb	themnnofinheartnn	attackvbbosomnn	bosomnnthemnn	theyvbheartnn	attackvbheartnn	heartnnassailvb	assailvbheartnn	bosomnnonsetnn	attacknnofinbosomnn	bosomnntheyvb	bosomnnattacknn	heartnntheyvb	heartnnonsetnn	
+
+BE: MyocardialNNPinfarctionNN
+EQ class: infarctnnofinmyocardialnnp	myocardialnnpinfarctnn	infarctionnnofinmyocardialnnp	
+
+BE: symptomsNNSincludeVBP
+EQ class: themnnsincludevbp	symptomnnsincludevbp	theynnsincludevbp	symptomaticjjincludevbp	
+
+BE: feelingNNbeatingVBG
+EQ class: feelingnntrouncevbg	beatingnnfeelingnn	feelingnnshellvbg	feelingnnbeat_outvbg	feelingnnbeatvbg	whippingnnfeelingnn	beatingnnofinfeelingnn	feelingnnvanquishvbg	whippingnnofinfeelingnn	feelingnncrushvbg	beatablennofinfeelingnn	
+
+BE: PalpitationsNNPbeAUX
+EQ class: palpitationnnpbeaux	
+
+BE: includeVBPShortnessNNP
+EQ class: includevbpshortjj	
+
+BE: seeVBpagesNNS
+EQ class: seevbtheynns	visionarynnofinpagenns	visual_perceptionnnofintheynns	visionarynnofintheynns	beholdingnnofinthemnns	illusionistnnofintheynns	visual_perceptionnnofinpagesnns	seeingnnofinpagenns	seeingnnofinpagesnns	seeingnnofinthemnns	visionarynnofinpagesnns	seernnofinthemnns	seernnofinpagenns	seernnofinpagesnns	beholdingnnofinpagenns	beholdingnnofinpagesnns	visual_perceptionnnofinpagenns	illusionistnnofinpagesnns	illusionistnnofinthemnns	seernnofintheynns	visionarynnofinthemnns	seeingnnofintheynns	seevbpagenns	seevbthemnns	beholdingnnofintheynns	illusionistnnofinpagenns	visual_perceptionnnofinthemnns	
+
+BE: *VBNNauseaLocationAnnotation
+EQ class: *vbnnauseousjj	*.vbnnauseousjj	*.vbnnausealocationannotation	
+
+BE: *VBNAnxietyNN
+EQ class: *.vbnanxiousnessnn	*vbnanxiousnessnn	*.vbnanxietynn	
+
+BE: *VBNbreathNN
+EQ class: *.vbnbreathnn	
+
+BE: symptomsNNSofINattackNN
+EQ class: attacknnsymptomnns	theynnsymptomaticjj	symptomaticjjofintheynn	attacknntheynns	onrushnnsymptomaticjj	themnnsofinonrushnn	onrushnnthemnns	theynnsofinonslaughtnn	themnnsymptomnns	symptomsnnsofinonrushnn	symptomnnsofinonsetnn	symptomnnsofinonslaughtnn	themnnsofintheynn	symptomsnnsofinonslaughtnn	onslaughtnnsymptomnns	symptomsnnsofintheynn	symptomaticvbonsetnn	theynnsofinthemnn	symptomnnsofinonrushnn	symptomnnsofinthemnn	symptomaticjjofinthemnn	theynnsofinattacknn	symptomaticjjofinonsetnn	symptomaticjjofinattacknn	themnntheynns	symptomaticjjofinonrushnn	onsetnnsymptomnns	theynntheynns	attacknnthemnns	symptomnnsofintheynn	theynnsymptomnns	onrushnnsymptomsnns	attacknnsymptomaticvb	symptomsnnsofinthemnn	onsetnnsymptomaticjj	symptomnnsofinattacknn	themnnsofinthemnn	symptomaticvbthemnn	onslaughtnnsymptomaticvb	themnnthemnns	attacknnsymptomaticjj	symptomaticvbonslaughtnn	symptomaticvbattacknn	onsetnnthemnns	symptomaticjjofinonslaughtnn	onsetnnsymptomsnns	onrushnntheynns	onslaughtnnsymptomsnns	theynnthemnns	themnnsofinattacknn	theynnsymptomaticvb	theynnsymptomsnns	onrushnnsymptomnns	onsetnntheynns	onrushnnsymptomaticvb	themnnsymptomaticvb	themnnsofinonsetnn	attacknnsymptomsnns	themnnsymptomsnns	onslaughtnntheynns	onsetnnsymptomaticvb	symptomaticvbonrushnn	theynnsofintheynn	symptomsnnsofinonsetnn	onslaughtnnthemnns	theynnsofinonsetnn	onslaughtnnsymptomaticjj	theynnsofinonrushnn	themnnsofinonslaughtnn	themnnsymptomaticjj	symptomaticvbtheynn	
+
+BE: ShortnessNNPofINbreathNN
+EQ class: breathnnshortjj	short-changevbbreathnn	breathnnshort-changevb	breathnnshortvb	shortvbbreathnn	shortjjofinbreathnn	breathnnshortnessnnp	
+
+BE: feelingNNlikeINheartNN
+EQ class: feelingnnlikeinbosomnn	feelvbbosomnn	experiencevbheartnn	heartnnfeelingnn	bosomnnfeelingnn	heartnnfeelvb	heartnnexperiencevb	experiencevbbosomnn	bosomnnexperiencevb	bosomnnfeelvb	feelvbheartnn	
+
+BE: pagesNNSforINdetailsNNS
+EQ class: pagesnnsforininside_informationnns	detailsnnsthemnns	detailsnnspaginatevb	inside_informationnnspagenns	inside_informationnnspagesnns	pagesnnsforintheynns	theynnspagesnns	detailsnnspagenns	foliatevbdetailsnns	detailsnnspagesnns	inside_informationnnspagevb	pagevbinside_informationnns	detailsnnsfoliatevb	pagennsforintheynns	theynnsfoliatevb	themnnsforindetailsnns	foliatevbthemnns	themnnsforininside_informationnns	pagennsforindetailsnns	themnnsforinthemnns	inside_informationnnsthemnns	theynnstheynns	theynnsforindetailsnns	themnnspagesnns	theynnsforintheynns	pagennsforinthemnns	theynnspagenns	pagevbthemnns	themnnstheynns	pagesnnsforinthemnns	themnnsthemnns	theynnspaginatevb	inside_informationnnstheynns	themnnspaginatevb	detailsnnspagevb	theynnsforinthemnns	paginatevbtheynns	inside_informationnnsfoliatevb	foliatevbtheynns	themnnspagevb	theynnsthemnns	paginatevbthemnns	themnnsforintheynns	themnnspagenns	pagennsforininside_informationnns	paginatevbdetailsnns	theynnsforininside_informationnns	pagevbdetailsnns	paginatevbinside_informationnns	theynnspagevb	inside_informationnnspaginatevb	pagevbtheynns	detailsnnstheynns	themnnsfoliatevb	foliatevbinside_informationnns	
+
+BE: detailsNNSonINattackNN
+EQ class: theynninside_informationnns	attacknndetailsnns	attacknninside_informationnns	themnnthemnns	onslaughtnndetailsnns	themnnsonintheynn	attacknntheynns	theynnsoninonrushnn	onsetnnthemnns	onrushnnthemnns	inside_informationnnsoninthemnn	detailsnnsonintheynn	themnndetailsnns	theynndetailsnns	onrushnndetailsnns	inside_informationnnsoninonslaughtnn	onrushnntheynns	themnnsoninonslaughtnn	theynnsoninonsetnn	theynnthemnns	onslaughtnninside_informationnns	onsetnndetailsnns	theynnsonintheynn	onrushnninside_informationnns	inside_informationnnsoninattacknn	theynnsoninthemnn	themnnsoninthemnn	theynnsoninattacknn	detailsnnsoninonsetnn	onsetnntheynns	themnnsoninonrushnn	theynnsoninonslaughtnn	onsetnninside_informationnns	themnnsoninattacknn	onslaughtnntheynns	detailsnnsoninonrushnn	themnntheynns	inside_informationnnsoninonrushnn	inside_informationnnsoninonsetnn	detailsnnsoninthemnn	onslaughtnnthemnns	detailsnnsoninonslaughtnn	theynntheynns	attacknnthemnns	themnnsoninonsetnn	inside_informationnnsonintheynn	themnninside_informationnns	
+
+BE: beatingVBGtooRB
+EQ class: trouncevbgtoorb	beatingnnofintoorb	beat_outvbgtoorb	vanquishvbgtoorb	crushvbgtoorb	beatvbgtoorb	shellvbgtoorb	whippingnnofintoorb	beatablennofintoorb	
+
+BE: beatingVBGfastRB
+EQ class: beatingnnofinfastrb	shellvbgfastrb	beatablennofinfastrb	crushvbgfastrb	beatvbgfastrb	beat_outvbgfastrb	vanquishvbgfastrb	whippingnnofinfastrb	trouncevbgfastrb	
+

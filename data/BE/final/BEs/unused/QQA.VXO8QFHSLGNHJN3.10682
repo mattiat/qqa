@@ -1,0 +1,106 @@
+#Because there is a total lack of documentation for historians to read about what went on at that time.  
+#(S1 (S (IN Because) (NP (EX there)) (VP (AUX is) (NP (NP (DT a) (JJ total) (NN lack)) (PP (IN of) (NP (NN documentation) (SBAR (IN for) (S (NP (NNS historians)) (VP (TO to) (VP (VB read) (PP (IN about) (SBAR (WHNP (WP what)) (S (VP (VBD went) (ADVP (RB on)) (PP (IN at) (NP (DT that) (NN time))))))))))))))) (. .)))
+#Rule:Nouns
+r1lackNN
+r1documentationNN
+r1historiansNNS
+r1timeNN
+
+#Rule:Verbs
+r2readVB
+r2wentVBD
+
+#Rule:Adjs
+r4totalJJ
+
+#Rule:Adj-Noun
+r5totalJJlackNN
+
+#Rule:HeadNoun-V
+r11thereEXisAUX
+r11historiansNNSreadVB
+
+#Rule:V-HeadNoun
+r21isAUXlackNN
+
+#Rule:PPinNP
+r26lackNNofINdocumentationNN
+
+#Rule:PPinVP
+r30wentVBDatINtimeNN
+
+#Rule:V-ADV
+r46wentVBDonRB
+
+#No documents, no history.  
+#(S1 (FRAG (NP (DT No) (NNS documents)) (, ,) (NP (DT no) (NN history)) (. .)))
+#Rule:Nouns
+r1documentsNNS
+r1historyNN
+
+#All the barbarian invasions caused the destruction of libraries, scrolls, and any kind of written explanation of daily events.  
+#(S1 (S (NP (PDT All) (DT the) (JJ barbarian) (NNS invasions)) (VP (VBD caused) (NP (NP (DT the) (NN destruction)) (PP (IN of) (NP (NP (NNS libraries)) (, ,) (NP (NNS scrolls)) (, ,) (CC and) (NP (NP (DT any) (NN kind)) (PP (IN of) (NP (NP (VBN written) (NN explanation)) (PP (IN of) (NP (JJ daily) (NNS events)))))))))) (. .)))
+#Rule:Nouns
+r1invasionsNNS
+r1destructionNN
+r1librariesNNS
+r1scrollsNNS
+r1kindNN
+r1explanationNN
+r1eventsNNS
+
+#Rule:Verbs
+r2causedVBD
+r2writtenVBN
+
+#Rule:Adjs
+r4barbarianJJ
+r4dailyJJ
+
+#Rule:Adj-Noun
+r5barbarianJJinvasionsNNS
+r5writtenVBNexplanationNN
+r5dailyJJeventsNNS
+
+#Rule:N-ApposN
+r10librariesNNSscrollsNNS
+
+#Rule:HeadNoun-V
+r11invasionsNNScausedVBD
+
+#Rule:V-HeadNoun
+r21causedVBDdestructionNN
+
+#Rule:PPinNP
+r26destructionNNofINlibrariesNNS
+r26destructionNNofINscrollsNNS
+r26destructionNNofINkindNN
+r26kindNNofINexplanationNN
+r26explanationNNofINeventsNNS
+
+#So that time period is dark&murky for historians to see.
+#(S1 (S (RB So) (NP (DT that) (NN time) (NN period)) (VP (AUX is) (ADJP (JJ dark&murky) (SBAR (IN for) (S (NP (NNS historians)) (VP (TO to) (VP (VB see))))))) (. .)))
+#Rule:Nouns
+r1timeNN
+r1periodNN
+r1historiansNNS
+
+#Rule:Verbs
+r2seeVB
+
+#Rule:Adjs
+r4dark&murkyPersonAnnotation
+
+#Rule:N-HeadNoun
+r8timeNNperiodNN
+
+#Rule:HeadNoun-V
+r11periodNNisAUX
+r11historiansNNSseeVB
+
+#Rule:V-ADJ
+r25isAUXdark&murkyPersonAnnotation
+
+@lemmas-left	total	libraries	cause	events	destruction	kind	caused	went	document	time	event	written	write	read	invasion	be	is	historians	documents	scroll	scrolls	explanation	lack	period	daily	history	see	there	documentation	library	invasions	historian	barbarian	dark&murky	go	
+@lemmas-right	libraries	is	cause	scroll	scrolls	events	explanation	destruction	lack	period	kind	caused	time	see	event	library	documentation	read	on	invasion	invasions	dark&murky	be	
+@lemmas-center	of	at	

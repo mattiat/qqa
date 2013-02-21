@@ -1,0 +1,65 @@
+#Just like your car s gas tank..
+#(S1 (FRAG (ADVP (RB Just)) (SBAR (IN like) (S (NP (PRP$ your) (NN car)) (VP (VBZ s) (NP (NN gas) (NN tank)))) (. .)) (. .)))
+#Rule:Nouns
+r1carNN
+r1gasNN
+r1tankNN
+
+#Rule:Verbs
+r2sVBZ
+
+#Rule:PRP-Noun
+r6yourPRP$carNN
+
+#Rule:N-HeadNoun
+r8gasNNtankNN
+
+#Rule:HeadNoun-V
+r11carNNsVBZ
+
+#Rule:V-HeadNoun
+r21sVBZtankNN
+
+#Put less fuel in it..
+#(S1 (S (VP (VB Put) (NP (JJR less) (NN fuel)) (PP (IN in) (NP (PRP it))) (. .)) (. .)))
+#Rule:Nouns
+r1fuelNN
+
+#Rule:Verbs
+r2putVB
+
+#Rule:Adjs
+r4lessJJR
+
+#Rule:Adj-Noun
+r5lessJJRfuelNN
+
+#Rule:V-HeadNoun
+r21putVBfuelNN
+
+#Rule:PPinVP
+r30putVBinINit..LocationAnnotation
+
+#Run it longer on the same fuel.
+#(S1 (S (VP (VB Run) (NP (PRP it)) (ADVP (RBR longer)) (PP (IN on) (NP (DT the) (JJ same) (NN fuel)))) (. .)))
+#Rule:Nouns
+r1fuelNN
+
+#Rule:Verbs
+r2RunPersonAnnotation
+
+#Rule:Adjs
+r4sameJJ
+
+#Rule:Adj-Noun
+r5sameJJfuelNN
+
+#Rule:V-HeadNoun
+r21RunPersonAnnotationitPRP
+
+#Rule:PPinVP
+r30RunPersonAnnotationonINfuelNN
+
+@lemmas-left	gas	car	put	s	your	fuel	same	Run	tank	less	
+@lemmas-right	car	it..	it	s	fuel	tank	
+@lemmas-center	on	in	

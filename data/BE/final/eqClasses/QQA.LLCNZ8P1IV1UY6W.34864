@@ -1,0 +1,375 @@
+BE: surgeryNN
+EQ class: surgicaljj	
+
+BE: anesthesiaNN
+EQ class: anaesthesiann	anestheticjj	
+
+BE: surgeonNN
+EQ class: operating_surgeonnn	sawbonesnn	
+
+BE: prescriptionNN
+EQ class: 
+
+BE: medicineNN
+EQ class: medical_specialtynn	medicaljj	
+
+BE: painNN
+EQ class: hurtingnn	
+
+BE: killerNN
+EQ class: slayernn	
+
+BE: painNN
+EQ class: hurtingnn	
+
+BE: surgeonNN
+EQ class: operating_surgeonnn	sawbonesnn	
+
+BE: instructionsNNS
+EQ class: book_of_instructionsnns	theynns	instruction_manualnns	themnns	operating_instructionsnns	
+
+BE: woundNN
+EQ class: lesionnn	
+
+BE: hurtVB
+EQ class: smartvb	achevb	
+
+BE: giveVB
+EQ class: 
+
+BE: swellVB
+EQ class: 
+
+BE: cannotVBP
+EQ class: 
+
+BE: endureVB
+EQ class: toleratevb	brookvb	suffervb	digestvb	standvb	stomachvb	abidevb	stick_outvb	bearvb	put_upvb	supportvb	
+
+BE: giveVB
+EQ class: 
+
+BE: dentalJJ
+EQ class: toothnn	
+
+BE: dentalJJ
+EQ class: toothnn	
+
+BE: freshJJ
+EQ class: freshnessnn	
+
+BE: dentalJJsurgeonNN
+EQ class: dentaljjsawbonesnn	toothnnsurgeonnn	toothnnoperating_surgeonnn	dentaljjoperating_surgeonnn	toothnnsawbonesnn	
+
+BE: dentalJJsurgeonNN
+EQ class: dentaljjsawbonesnn	toothnnsurgeonnn	toothnnoperating_surgeonnn	dentaljjoperating_surgeonnn	toothnnsawbonesnn	
+
+BE: painNNkillerNN
+EQ class: slayernntroublevb	killernnpainvb	painnnslayernn	hurtingnnkillvb	slayernnailvb	killvbhurtingnn	killernnofinhurtingnn	hurtingnnkillernn	killernntroublevb	hurtingnnofinkillernn	killvbpainnn	slayernnofinpainnn	slayernnpainvb	painnnkillvb	hurtingnnslayernn	painnnofinslayernn	hurtingnnofinslayernn	killernnailvb	painnnofinkillernn	killernnofinpainnn	slayernnofinhurtingnn	
+
+BE: itPRPhurtVB
+EQ class: injurynnofinitprp	painnnofinitprp	traumannofinitprp	itprpachevb	hurtingnnofinitprp	painnnitprp	itprpsmartvb	hurtingnnitprp	harmnnofinitprp	hurtnnofinitprp	
+
+BE: surgeonNNgiveVB
+EQ class: operating_surgeonnngivevb	sawbonesnngivevb	
+
+BE: itPRPswellVB
+EQ class: 
+
+BE: youPRPcannotVBP
+EQ class: 
+
+BE: surgeonNNgiveVB
+EQ class: operating_surgeonnngivevb	sawbonesnngivevb	
+
+BE: giveVByouPRP
+EQ class: 
+
+BE: giveVBprescriptionNN
+EQ class: 
+
+BE: endureVBpainNN
+EQ class: abidevbpainnn	digestvbpainnn	endurevbhurtingnn	supportvbhurtingnn	abidevbhurtingnn	toleratevbhurtingnn	put_upvbhurtingnn	suffervbpainnn	toleratevbpainnn	brookvbhurtingnn	digestvbhurtingnn	endurancennofinhurtingnn	standvbpainnn	put_upvbpainnn	stick_outvbpainnn	bearvbhurtingnn	stick_outvbhurtingnn	standvbhurtingnn	supportvbpainnn	suffervbhurtingnn	endurancennofinpainnn	brookvbpainnn	bearvbpainnn	stomachvbpainnn	stomachvbhurtingnn	
+
+BE: giveVByouPRP
+EQ class: 
+
+BE: giveVBinstructionsNNS
+EQ class: givevbinstruction_manualnns	givevbbook_of_instructionsnns	givevboperating_instructionsnns	givevbtheynns	givevbthemnns	
+
+BE: swellVBkillerNN
+EQ class: swellvbslayernn	
+
+BE: isAUXfreshJJ
+EQ class: beauxfreshnessnn	isauxfreshnessnn	beauxfreshjj	
+
+BE: prescriptionNNforINmedicineNN
+EQ class: medicaljjprescriptionnn	medical_specialtynndictatevb	medicinenndictatevb	prescriptionnnforinmedical_specialtynn	dictatevbmedical_specialtynn	medical_specialtynnprescribevb	medical_specialtynnordervb	medicaljjordervb	prescribevbmedicinenn	medicaljjdictatevb	medicinennordervb	dictatevbmedicinenn	dictatevbmedicaljj	medicinennprescribevb	ordervbmedicinenn	ordervbmedicaljj	medicinennprescriptionnn	prescribevbmedical_specialtynn	medicaljjprescribevb	prescriptionnnforinmedicaljj	ordervbmedical_specialtynn	prescribevbmedicaljj	medical_specialtynnprescriptionnn	
+
+BE: hurtVBofINanesthesiaNN
+EQ class: smartvbofinanesthesiann	achevbofinanesthesiann	smartvbofinanaesthesiann	hurtvbofinanestheticjj	achevbofinanestheticjj	hurtvbofinanaesthesiann	achevbofinanaesthesiann	smartvbofinanestheticjj	
+
+BE: doAUXwhileINwoundNN
+EQ class: makeauxwhileinwoundnn	makeauxwhileinlesionnn	doauxwhileinlesionnn	
+
+BE: willMDduringINsurgeryNN
+EQ class: willmdduringinsurgicaljj	
+
+BE: giveVBsoINswellVB
+EQ class: 
+
+BE: endureVBAlsoRB
+EQ class: stomachvbalsorb	digestvbalsorb	supportvbalsorb	endurancennofinalsorb	abidevbalsorb	suffervbalsorb	standvbalsorb	bearvbalsorb	brookvbalsorb	put_upvbalsorb	toleratevbalsorb	stick_outvbalsorb	
+
+BE: somethingNN
+EQ class: 
+
+BE: iceNN
+EQ class: water_icenn	
+
+BE: creamNN
+EQ class: picknn	
+
+BE: anythingNN
+EQ class: 
+
+BE: bleedingNN
+EQ class: haemorrhagenn	hemorrhagenn	
+
+BE: lotNN
+EQ class: spatenn	heapnn	passelnn	slewnn	flocknn	raftnn	dealnn	potnn	micklenn	pilenn	great_dealnn	mountainnn	sightnn	mintnn	stacknn	hatfulnn	mucklenn	tidy_sumnn	messnn	quite_a_littlenn	wadnn	massnn	plentynn	pecknn	good_dealnn	batchnn	
+
+BE: painNN
+EQ class: hurtingnn	
+
+BE: eatingbutNN
+EQ class: 
+
+BE: caseNN
+EQ class: instancenn	examplenn	
+
+BE: painkillersNNS
+EQ class: painkillernns	theynns	analgesicnns	pain_pillnns	anodynenns	themnns	
+
+BE: mealNN
+EQ class: repastnn	
+
+BE: surgeryNN
+EQ class: surgicaljj	
+
+BE: surgeonNN
+EQ class: operating_surgeonnn	sawbonesnn	
+
+BE: wisdomNN
+EQ class: 
+
+BE: teethNNS
+EQ class: theynns	dentitionnns	themnns	
+
+BE: lotNN
+EQ class: spatenn	heapnn	passelnn	slewnn	flocknn	raftnn	dealnn	potnn	micklenn	pilenn	great_dealnn	mountainnn	sightnn	mintnn	stacknn	hatfulnn	mucklenn	tidy_sumnn	messnn	quite_a_littlenn	wadnn	massnn	plentynn	pecknn	good_dealnn	batchnn	
+
+BE: painkillerNN
+EQ class: anodynenn	analgesicnn	pain_pillnn	
+
+BE: surgeryNN
+EQ class: surgicaljj	
+
+BE: hurtVBD
+EQ class: smartvbd	achevbd	
+
+BE: drinkVBP
+EQ class: imbibevbp	
+
+BE: strawVBG
+EQ class: 
+
+BE: stopsVBZ
+EQ class: stopvbz	haltvbz	
+
+BE: helpsVBZ
+EQ class: helpvbz	aidvbz	assistvbz	
+
+BE: alleviateVB
+EQ class: assuagevb	palliatevb	relievevb	
+
+BE: hurtVB
+EQ class: smartvb	achevb	
+
+BE: tookVBD
+EQ class: takevbd	
+
+BE: askVB
+EQ class: enquirevb	inquirevb	
+
+BE: removedVBN
+EQ class: withdrawvbn	removevbn	take_awayvbn	takevbn	
+
+BE: hurtVB
+EQ class: smartvb	achevb	
+
+BE: tookVBD
+EQ class: takevbd	
+
+BE: coldJJ
+EQ class: coldnn	coldnessnn	
+
+BE: uncomfortableJJ
+EQ class: uncomfortablenessnn	
+
+BE: heavyJJ
+EQ class: heavinessnn	
+
+BE: dentalJJ
+EQ class: toothnn	
+
+BE: goodJJ
+EQ class: goodnessnn	
+
+BE: thisJJ
+EQ class: 
+
+BE: impactedJJ
+EQ class: wedgedjj	
+
+BE: coldJJanythingNN
+EQ class: coldnessnnanythingnn	coldnnanythingnn	
+
+BE: uncomfortableJJeatingbutNN
+EQ class: uncomfortablenessnneatingbutnn	
+
+BE: 2CDpainkillersNNS
+EQ class: twocdpain_pillnns	twocdanalgesicnns	2cdthemnns	2cdpain_pillnns	deucecdanodynenns	iicdpain_pillnns	deucecdtheynns	iicdanodynenns	2.cdpainkillernns	twocdanodynenns	2.cdanalgesicnns	2cdtheynns	iicdpainkillersnns	twocdtheynns	iicdpainkillernns	deucecdpainkillersnns	twocdpainkillernns	iicdtheynns	2.cdpain_pillnns	2.cdthemnns	twocdthemnns	2cdpainkillernns	2.cdanodynenns	2.cdpainkillersnns	deucecdthemnns	deucecdpain_pillnns	iicdthemnns	deucecdanalgesicnns	deucecdpainkillernns	twocdpainkillersnns	2.cdtheynns	2cdanalgesicnns	2cdanodynenns	iicdanalgesicnns	
+
+BE: heavyJJmealNN
+EQ class: heavyjjrepastnn	heavinessnnrepastnn	heavinessnnmealnn	
+
+BE: dentalJJsurgeonNN
+EQ class: dentaljjsawbonesnn	toothnnsurgeonnn	toothnnoperating_surgeonnn	dentaljjoperating_surgeonnn	toothnnsawbonesnn	
+
+BE: 2CDteethNNS
+EQ class: deucecddentitionnns	2.cdteethnns	twocddentitionnns	2cdthemnns	iicdtheynns	deucecdteethnns	2.cddentitionnns	2.cdthemnns	deucecdtheynns	twocdthemnns	deucecdthemnns	iicdthemnns	2cddentitionnns	iicddentitionnns	iicdteethnns	2.cdtheynns	2cdtheynns	twocdtheynns	twocdteethnns	
+
+BE: impactedJJteethNNS
+EQ class: impactedjjthemnns	wedgedjjteethnns	wedgedjjdentitionnns	wedgedjjtheynns	impactedjjdentitionnns	wedgedjjthemnns	impactedjjtheynns	
+
+BE: oneCDpainkillerNN
+EQ class: icdpainkillernn	onecdpain_pillnn	singlecdanodynenn	acecdpainkillernn	1cdpainkillernn	onecdanodynenn	1cdanalgesicnn	acecdpain_pillnn	unitycdanodynenn	acecdanalgesicnn	onecdanalgesicnn	icdanodynenn	singlecdanalgesicnn	unitycdanalgesicnn	icdanalgesicnn	singlecdpain_pillnn	unitycdpain_pillnn	icdpain_pillnn	acecdanodynenn	singlecdpainkillernn	1cdanodynenn	1cdpain_pillnn	unitycdpainkillernn	
+
+BE: myPRP$caseNN
+EQ class: myprp$instancenn	instancennofinmyprp$	examplennofinmyprp$	casennofinmyprp$	myprp$examplenn	
+
+BE: iceNNcreamNN
+EQ class: water_icenncreamnn	creamnnfrostvb	picknnicevb	water_icennofincreamnn	picknnofinicenn	picknnofinwater_icenn	icingnnofinpicknn	creamnnofinicenn	water_icennpicknn	water_icennofinpicknn	icennpicknn	creamnnofinwater_icenn	icingnnofincreamnn	frostnnofincreamnn	creamnnicevb	frostnnofinpicknn	icennofincreamnn	picknnfrostvb	icennofinpicknn	
+
+BE: wisdomNNteethNNS
+EQ class: theynnsofinwisdomnn	dentitionnnsofinwisdomnn	wisdomnntheynns	themnnsofinwisdomnn	teethnnsofinwisdomnn	wisdomnnthemnns	wisdomnndentitionnns	
+
+BE: itPRPhurtVBD
+EQ class: itprpsmartvbd	injurynnofinitprp	painnnofinitprp	itprpachevbd	traumannofinitprp	hurtingnnofinitprp	painnnitprp	hurtingnnitprp	harmnnofinitprp	hurtnnofinitprp	
+
+BE: youPRPdrinkVBP
+EQ class: youprpimbibevbp	imbibingnnyouprp	imbibitionnnyouprp	drinkernnyouprp	drinkernnofinyouprp	imbibingnnofinyouprp	imbibitionnnofinyouprp	drinkingnnofinyouprp	drinkingnnyouprp	drinknnofinyouprp	
+
+BE: bleedingNNstopsVBZ
+EQ class: stopnnofinhemorrhagenn	hemorrhagennstopvbz	haemorrhagennstopvbz	stopnnofinbleedingnn	haltnnofinbleedingnn	haltnnofinhaemorrhagenn	hemorrhagennhaltvbz	haltnnofinhemorrhagenn	haemorrhagennhaltvbz	stopnnofinhaemorrhagenn	bleedingnnhaltvbz	hemorrhagennstopsvbz	bleedingnnstopvbz	haemorrhagennstopsvbz	
+
+BE: itPRPhelpsVBZ
+EQ class: helpnnofinitprp	supporternnofinitprp	assistancennofinitprp	itprpaidvbz	helpernnofinitprp	assistantnnofinitprp	supporternnitprp	itprpassistvbz	helpernnitprp	assistantnnitprp	itprphelpvbz	assistnnofinitprp	helpnnitprp	aidnnofinitprp	
+
+BE: itPRPisAUX
+EQ class: itprpbeaux	
+
+BE: itPRPhurtVB
+EQ class: injurynnofinitprp	painnnofinitprp	traumannofinitprp	itprpachevb	hurtingnnofinitprp	painnnitprp	itprpsmartvb	hurtingnnitprp	harmnnofinitprp	hurtnnofinitprp	
+
+BE: iPRPtookVBD
+EQ class: iprptakevbd	
+
+BE: surgeryNNaskVB
+EQ class: inquirernnofinsurgicaljj	askernnsurgicaljj	surgicaljjinquirevb	askernnofinsurgerynn	inquirernnofinsurgerynn	questionernnofinsurgicaljj	enquirernnofinsurgerynn	surgerynninquirevb	queriernnofinsurgicaljj	enquirernnofinsurgicaljj	surgicaljjaskvb	queriernnsurgicaljj	inquirernnsurgicaljj	enquirernnsurgerynn	questionernnsurgicaljj	surgicaljjenquirevb	queriernnofinsurgerynn	askernnsurgerynn	queriernnsurgerynn	questionernnsurgerynn	questionernnofinsurgerynn	surgerynnenquirevb	askernnofinsurgicaljj	enquirernnsurgicaljj	inquirernnsurgerynn	
+
+BE: itPRPbeAUX
+EQ class: 
+
+BE: youPRPdoAUX
+EQ class: youprpmakeaux	
+
+BE: itPRPhurtVB
+EQ class: injurynnofinitprp	painnnofinitprp	traumannofinitprp	itprpachevb	hurtingnnofinitprp	painnnitprp	itprpsmartvb	hurtingnnitprp	harmnnofinitprp	hurtnnofinitprp	
+
+BE: iPRPtookVBD
+EQ class: iprptakevbd	
+
+BE: iPRPremovedVBN
+EQ class: remotionnnofiniprp	removernniprp	iprpremovevbn	iprptake_awayvbn	removernnofiniprp	removalnnofiniprp	iprptakevbn	remotionnniprp	iprpwithdrawvbn	removalnniprp	
+
+BE: lotNNalleviateVB
+EQ class: alleviatorynnofinpasselnn	stacknnrelievevb	reliefnnstacknn	palliativennofingreat_dealnn	palliativennmicklenn	reliefnnofinmountainnn	massnnrelievevb	alleviationnnmintnn	assuagementnnofintidy_sumnn	alleviatorynnofinquite_a_littlenn	palliativennspatenn	alleviantnnslewnn	palliativennhatfulnn	alleviatornnmicklenn	alleviativennofintidy_sumnn	alleviantnnbatchnn	alleviatornnpecknn	alleviationnntidy_sumnn	alleviatornnflocknn	alleviantnnofinhatfulnn	alleviatornnofinquite_a_littlenn	reliefnnofinplentynn	assuagementnndealnn	reliefnnmintnn	hatfulnnpalliatevb	alleviativennofinmountainnn	alleviantnnpecknn	reliefnnpecknn	alleviatorynnofindealnn	reliefnngreat_dealnn	alleviatornnofinraftnn	flocknnalleviatevb	palliativennheapnn	palliativennmintnn	assuagementnnofinmucklenn	hatfulnnalleviatevb	alleviatorynnofinlotnn	assuagementnnofinmessnn	assuagementnngreat_dealnn	great_dealnnassuagevb	reliefnnpasselnn	palliativennofinflocknn	alleviativennofindealnn	alleviationnnofinpecknn	alleviantnnraftnn	reliefnntidy_sumnn	reliefnnofinpilenn	sightnnalleviatevb	alleviationnnofingood_dealnn	alleviativennofinmessnn	alleviantnnpilenn	tidy_sumnnassuagevb	alleviationnnofinheapnn	palliativennwadnn	reliefnnofingood_dealnn	palliativennofindealnn	reliefnnofintidy_sumnn	reliefnnsightnn	alleviationnnslewnn	reliefnnspatenn	alleviationnnofinmountainnn	reliefnnofinwadnn	alleviatornnofinpasselnn	alleviatornnsightnn	assuagementnnofinraftnn	sightnnrelievevb	alleviantnnmucklenn	assuagementnnraftnn	palliativennofinpotnn	reliefnnplentynn	assuagementnnslewnn	plentynnrelievevb	alleviativennofinlotnn	reliefnnpilenn	alleviatorynnofinmicklenn	mintnnrelievevb	assuagementnnsightnn	palliativennofinmessnn	assuagementnnmintnn	micklennrelievevb	alleviatorynnofingood_dealnn	alleviativennofinmassnn	alleviationnnmassnn	alleviantnntidy_sumnn	reliefnnhatfulnn	alleviatorynnofinbatchnn	alleviationnnofinbatchnn	passelnnpalliatevb	reliefnnslewnn	alleviationnnpasselnn	palliativennmassnn	palliativennquite_a_littlenn	alleviatorynnofinmassnn	assuagementnnofingreat_dealnn	mintnnassuagevb	alleviatornnofinmucklenn	alleviantnnofinmountainnn	alleviationnndealnn	alleviativennofinheapnn	massnnalleviatevb	reliefnnbatchnn	alleviativennofinpasselnn	lotnnpalliatevb	assuagementnnofinwadnn	alleviativennofinplentynn	reliefnnofinstacknn	alleviantnnofinmintnn	mountainnnpalliatevb	alleviatorynnofinsightnn	assuagementnnofinmicklenn	alleviationnnofinpilenn	palliativennofinlotnn	alleviantnnofinwadnn	assuagementnnofingood_dealnn	mountainnnalleviatevb	alleviativennofinmucklenn	alleviatornnstacknn	alleviatornnmucklenn	alleviativennofinstacknn	alleviatornnwadnn	assuagementnnmassnn	messnnalleviatevb	assuagementnnofinmountainnn	alleviatornnofinsightnn	assuagementnnofinmassnn	alleviationnnofinpasselnn	assuagementnnofinstacknn	palliativennmountainnn	alleviativennofinspatenn	wadnnrelievevb	mintnnpalliatevb	palliativennlotnn	palliativenngood_dealnn	reliefnngood_dealnn	alleviatornnslewnn	stacknnpalliatevb	reliefnndealnn	alleviationnnofinslewnn	alleviatornnofinmicklenn	palliativennofinmucklenn	reliefnnpotnn	alleviantnnofinmessnn	raftnnpalliatevb	alleviantnnmintnn	reliefnnofinheapnn	alleviatornnofingreat_dealnn	reliefnnflocknn	pilennalleviatevb	alleviatorynnofinmountainnn	alleviationnnofinspatenn	palliativenntidy_sumnn	pecknnrelievevb	reliefnnmountainnn	slewnnpalliatevb	palliativennofinbatchnn	alleviationnnmessnn	alleviativennofinslewnn	assuagementnnofinhatfulnn	alleviantnnofinspatenn	mucklennrelievevb	alleviatorynnofinheapnn	alleviativennofinmintnn	alleviationnnofinquite_a_littlenn	palliativennofinpecknn	alleviatornnmessnn	alleviatornnheapnn	alleviatornnmintnn	alleviativennofinraftnn	assuagementnnwadnn	alleviantnnofinstacknn	wadnnpalliatevb	alleviantnnofinpotnn	palliativennmessnn	alleviationnnspatenn	palliativennraftnn	reliefnnmicklenn	palliativennofinplentynn	alleviantnnofingreat_dealnn	good_dealnnassuagevb	assuagementnnmountainnn	wadnnalleviatevb	palliativennslewnn	reliefnnofingreat_dealnn	alleviantnndealnn	palliativennofinsightnn	pecknnassuagevb	alleviatorynnofinhatfulnn	alleviationnnplentynn	alleviativennofinwadnn	great_dealnnalleviatevb	assuagementnnpotnn	slewnnalleviatevb	alleviatorynnofinraftnn	alleviantnnsightnn	alleviantnnofinplentynn	alleviatornnmassnn	alleviationnnofinhatfulnn	alleviantnngood_dealnn	reliefnnmucklenn	palliativennofinmintnn	spatennassuagevb	good_dealnnrelievevb	tidy_sumnnpalliatevb	heapnnalleviatevb	plentynnalleviatevb	alleviationnnofinmintnn	assuagementnngood_dealnn	alleviationnnofingreat_dealnn	raftnnrelievevb	alleviantnnstacknn	reliefnnofinmassnn	reliefnnofinslewnn	reliefnnofinsightnn	alleviatornnofinhatfulnn	alleviationnnofinstacknn	alleviantnnpotnn	batchnnassuagevb	good_dealnnalleviatevb	alleviantnnofinsightnn	alleviatorynnofinspatenn	alleviatornnraftnn	alleviativennofinsightnn	alleviatornnofinflocknn	alleviantnnofinbatchnn	massnnassuagevb	assuagementnnstacknn	palliativennofinmicklenn	alleviatornnofinheapnn	raftnnalleviatevb	alleviantnnspatenn	alleviationnnofinmessnn	passelnnrelievevb	alleviatornnhatfulnn	assuagementnnofinsightnn	alleviantnnmountainnn	alleviantnnhatfulnn	alleviatornnofinmessnn	alleviatornnquite_a_littlenn	assuagementnnofinpilenn	palliativennofintidy_sumnn	heapnnpalliatevb	great_dealnnrelievevb	reliefnnofinpotnn	passelnnassuagevb	alleviantnnpasselnn	alleviatornnofinlotnn	alleviatornnspatenn	reliefnnmessnn	alleviativennofinbatchnn	flocknnpalliatevb	alleviativennofinhatfulnn	alleviationnnwadnn	alleviantnnmicklenn	alleviatornnofinwadnn	lotnnassuagevb	alleviatornnofinmassnn	alleviationnnheapnn	alleviationnnofinmicklenn	alleviationnnmicklenn	reliefnnwadnn	great_dealnnpalliatevb	alleviationnnofinflocknn	alleviationnnofinpotnn	reliefnnofinraftnn	palliativenndealnn	alleviantnnheapnn	alleviatorynnofinwadnn	alleviantnnofinmucklenn	alleviationnnmucklenn	spatennpalliatevb	stacknnassuagevb	assuagementnnmucklenn	alleviantnngreat_dealnn	assuagementnnmicklenn	assuagementnnpilenn	palliativennpotnn	alleviantnnflocknn	reliefnnofinmessnn	assuagementnnofinpasselnn	alleviationnnflocknn	alleviationnnbatchnn	reliefnnofinpasselnn	alleviativennofinpilenn	hatfulnnassuagevb	alleviationnnpilenn	alleviatorynnofinflocknn	alleviationnnofinraftnn	mintnnalleviatevb	massnnpalliatevb	sightnnassuagevb	alleviatorynnofinmessnn	alleviatornnofindealnn	pilennpalliatevb	palliativenngreat_dealnn	alleviantnnofinpilenn	alleviantnnofinheapnn	alleviantnnofinslewnn	alleviatornnofinstacknn	pecknnalleviatevb	alleviatorynnofinpotnn	lotnnrelievevb	reliefnnofinquite_a_littlenn	quite_a_littlennassuagevb	reliefnnofinbatchnn	palliativennbatchnn	alleviatorynnofingreat_dealnn	alleviatorynnofinpilenn	alleviatorynnofinpecknn	batchnnpalliatevb	alleviatornnofingood_dealnn	assuagementnnofinbatchnn	spatennrelievevb	dealnnpalliatevb	alleviantnnlotnn	alleviationnnlotnn	alleviatornngood_dealnn	palliativennflocknn	alleviativennofinflocknn	alleviationnnpotnn	palliativennplentynn	reliefnnheapnn	assuagementnnspatenn	flocknnrelievevb	palliativennofinhatfulnn	palliativennofinquite_a_littlenn	potnnrelievevb	reliefnnofinhatfulnn	alleviationnnofinmassnn	potnnassuagevb	reliefnnofinspatenn	palliativennofinspatenn	mucklennpalliatevb	tidy_sumnnalleviatevb	alleviantnnwadnn	hatfulnnrelievevb	palliativennofinwadnn	alleviantnnmessnn	assuagementnnofinslewnn	micklennassuagevb	alleviativennofinpecknn	assuagementnnquite_a_littlenn	alleviationnnstacknn	alleviativennofinmicklenn	alleviatornnpilenn	slewnnassuagevb	alleviantnnofinmicklenn	assuagementnnofinflocknn	palliativennofinmountainnn	assuagementnnbatchnn	alleviantnnmassnn	reliefnnlotnn	alleviatornnofinmountainnn	assuagementnntidy_sumnn	assuagementnnpecknn	alleviativennofingood_dealnn	alleviantnnofingood_dealnn	potnnpalliatevb	dealnnrelievevb	micklennpalliatevb	potnnalleviatevb	alleviatornngreat_dealnn	palliativennofinslewnn	alleviatornnofinspatenn	assuagementnnpasselnn	alleviantnnofintidy_sumnn	alleviationnnhatfulnn	alleviationnnofintidy_sumnn	alleviatornnlotnn	mucklennalleviatevb	alleviationnngreat_dealnn	heapnnrelievevb	reliefnnofinpecknn	dealnnassuagevb	alleviatornndealnn	alleviantnnofinpecknn	palliativennofinheapnn	alleviatorynnofinplentynn	alleviatornnofinpotnn	pilennassuagevb	palliativennpilenn	stacknnalleviatevb	plentynnpalliatevb	alleviatorynnofinstacknn	mucklennassuagevb	alleviativennofinquite_a_littlenn	palliativennsightnn	reliefnnmassnn	alleviatornnplentynn	assuagementnnofindealnn	passelnnalleviatevb	raftnnassuagevb	quite_a_littlennpalliatevb	alleviatornnmountainnn	micklennalleviatevb	sightnnpalliatevb	flocknnassuagevb	alleviatorynnofinslewnn	alleviatornnofinbatchnn	palliativennpasselnn	assuagementnnofinpotnn	reliefnnofinmintnn	alleviationnnofindealnn	messnnpalliatevb	assuagementnnofinspatenn	assuagementnnheapnn	reliefnnofinmucklenn	assuagementnnofinheapnn	assuagementnnofinplentynn	wadnnassuagevb	reliefnnquite_a_littlenn	tidy_sumnnrelievevb	reliefnnofinmicklenn	alleviantnnofinlotnn	alleviantnnofinmassnn	alleviationnnpecknn	alleviationnngood_dealnn	reliefnnraftnn	alleviantnnofinquite_a_littlenn	alleviationnnofinlotnn	alleviantnnofindealnn	alleviationnnraftnn	reliefnnofinflocknn	palliativennmucklenn	reliefnnofinlotnn	plentynnassuagevb	quite_a_littlennrelievevb	mountainnnrelievevb	alleviatorynnofinmucklenn	alleviatornnofinmintnn	alleviatornnpotnn	assuagementnnplentynn	palliativennofinpilenn	alleviatorynnofintidy_sumnn	palliativennofinmassnn	palliativennofinstacknn	alleviationnnofinplentynn	pecknnpalliatevb	alleviatornnofinpilenn	quite_a_littlennalleviatevb	alleviatornnofinplentynn	assuagementnnmessnn	alleviantnnofinpasselnn	slewnnrelievevb	assuagementnnflocknn	assuagementnnofinpecknn	alleviationnnofinwadnn	assuagementnnofinmintnn	palliativennofinpasselnn	assuagementnnofinlotnn	alleviationnnofinmucklenn	mountainnnassuagevb	good_dealnnpalliatevb	palliativennpecknn	assuagementnnofinquite_a_littlenn	alleviationnnquite_a_littlenn	reliefnnofindealnn	spatennalleviatevb	alleviatornntidy_sumnn	palliativennofingood_dealnn	alleviatorynnofinmintnn	palliativennstacknn	alleviantnnplentynn	batchnnrelievevb	alleviatornnofinpecknn	alleviatornnpasselnn	alleviativennofinpotnn	pilennrelievevb	alleviatornnofintidy_sumnn	alleviationnnsightnn	assuagementnnhatfulnn	alleviatornnbatchnn	batchnnalleviatevb	dealnnalleviatevb	messnnrelievevb	alleviantnnquite_a_littlenn	messnnassuagevb	alleviationnnofinsightnn	alleviantnnofinraftnn	alleviantnnofinflocknn	alleviatornnofinslewnn	heapnnassuagevb	assuagementnnlotnn	palliativennofinraftnn	alleviativennofingreat_dealnn	alleviationnnmountainnn	
+
+BE: hurtVBeatingbutNN
+EQ class: achevbeatingbutnn	painnnofineatingbutnn	traumannofineatingbutnn	hurtnnofineatingbutnn	injurynnofineatingbutnn	smartvbeatingbutnn	harmnnofineatingbutnn	hurtingnnofineatingbutnn	
+
+BE: drinkVBPsomethingNN
+EQ class: imbibevbpsomethingnn	drinknnofinsomethingnn	imbibingnnofinsomethingnn	imbibitionnnofinsomethingnn	drinkingnnofinsomethingnn	drinkernnofinsomethingnn	
+
+BE: helpsVBZlotNN
+EQ class: aidnnofinbatchnn	supporternnofintidy_sumnn	aidvbzslewnn	assistvbztidy_sumnn	helpvbzdealnn	assistnnofinpasselnn	assistantnnofinmucklenn	helpnnofinsightnn	aidnnofinflocknn	supporternnofinpotnn	helpsvbzdealnn	assistantnnofinhatfulnn	aidvbzgreat_dealnn	assistancennofinwadnn	aidnnofinhatfulnn	helpsvbzwadnn	helpernnofinquite_a_littlenn	assistvbzbatchnn	helpvbzpecknn	assistvbzlotnn	helpnnofinpecknn	assistancennofinhatfulnn	assistvbzflocknn	supporternnofinquite_a_littlenn	assistancennofinmicklenn	assistvbzdealnn	assistancennofingreat_dealnn	supporternnofinpilenn	aidvbzbatchnn	assistantnnofinheapnn	assistantnnofinmessnn	supporternnofinmountainnn	assistancennofinslewnn	helpnnofindealnn	supporternnofinwadnn	assistnnofinslewnn	helpvbzslewnn	helpvbztidy_sumnn	assistnnofinmucklenn	assistnnofinstacknn	helpernnofinpasselnn	helpernnofinraftnn	assistantnnofinspatenn	helpsvbzbatchnn	aidvbzraftnn	assistvbzsightnn	aidnnofinmicklenn	aidnnofingood_dealnn	helpnnofinmessnn	aidvbzpilenn	aidnnofinslewnn	helpsvbzspatenn	helpvbzpilenn	helpvbzhatfulnn	helpernnofinpilenn	assistancennofinmintnn	assistnnofinhatfulnn	assistantnnofinsightnn	assistantnnofindealnn	helpernnofinlotnn	helpvbzraftnn	helpernnofinsightnn	aidvbzwadnn	assistnnofinspatenn	assistancennofinmucklenn	helpvbzplentynn	helpsvbzpecknn	assistnnofinpecknn	helpernnofindealnn	supporternnofinmucklenn	assistancennofinspatenn	helpernnofinmintnn	aidvbzflocknn	helpernnofinplentynn	helpvbzgreat_dealnn	assistnnofinquite_a_littlenn	assistantnnofinpotnn	aidnnofinlotnn	helpvbzmicklenn	aidnnofinmessnn	helpsvbzpilenn	supporternnofinmicklenn	assistancennofinsightnn	aidnnofinmucklenn	helpvbzspatenn	aidnnofinstacknn	helpsvbzflocknn	supporternnofinbatchnn	aidnnofinquite_a_littlenn	helpernnofinbatchnn	assistancennofinplentynn	helpnnofinplentynn	assistnnofinpilenn	helpvbzstacknn	assistantnnofinmassnn	aidvbzmucklenn	helpnnofinflocknn	helpsvbzheapnn	assistvbzstacknn	helpernnofinmountainnn	assistvbzraftnn	assistnnofinmessnn	assistnnofinmassnn	assistnnofingood_dealnn	assistvbzpilenn	helpernnofinhatfulnn	helpnnofinmicklenn	assistancennofingood_dealnn	helpernnofinmassnn	helpernnofinmessnn	helpernnofingood_dealnn	aidvbzpasselnn	assistancennofinpecknn	assistantnnofinmintnn	aidnnofintidy_sumnn	helpernnofinheapnn	helpvbzflocknn	helpnnofinwadnn	supporternnofinpasselnn	helpsvbzmessnn	assistnnofinbatchnn	supporternnofinplentynn	assistnnofinpotnn	assistvbzwadnn	aidnnofindealnn	assistvbzslewnn	aidnnofinpotnn	helpsvbzmintnn	assistvbzpotnn	supporternnofinmassnn	assistancennofintidy_sumnn	assistantnnofinwadnn	helpvbzwadnn	aidvbzmessnn	helpvbzgood_dealnn	helpnnofinmountainnn	helpvbzlotnn	assistvbzmintnn	helpernnofinmicklenn	helpnnofinstacknn	aidnnofinpasselnn	assistantnnofinlotnn	aidvbzsightnn	helpvbzquite_a_littlenn	supporternnofinstacknn	supporternnofinspatenn	helpernnofinmucklenn	helpsvbzmountainnn	assistantnnofinslewnn	supporternnofinraftnn	supporternnofinsightnn	assistvbzquite_a_littlenn	assistantnnofinquite_a_littlenn	assistvbzmountainnn	supporternnofinheapnn	assistantnnofinraftnn	helpnnofinlotnn	helpsvbzgreat_dealnn	aidnnofinplentynn	helpsvbzhatfulnn	supporternnofinflocknn	helpernnofinstacknn	helpernnofinpotnn	helpnnofingood_dealnn	helpsvbzslewnn	assistnnofinmountainnn	aidvbzpecknn	aidvbzplentynn	assistantnnofinpilenn	aidnnofinpecknn	helpnnofinraftnn	helpnnofinbatchnn	assistancennofinmountainnn	aidvbzdealnn	assistvbzpasselnn	supporternnofinmintnn	assistvbzpecknn	assistancennofinpasselnn	aidvbzhatfulnn	helpnnofingreat_dealnn	supporternnofindealnn	helpnnofinhatfulnn	helpernnofinwadnn	assistantnnofinmicklenn	supporternnofinpecknn	assistancennofinpilenn	aidvbzspatenn	supporternnofinhatfulnn	aidnnofingreat_dealnn	assistvbzspatenn	helpsvbzstacknn	helpsvbztidy_sumnn	assistvbzmessnn	assistnnofinlotnn	assistancennofinquite_a_littlenn	helpernnofintidy_sumnn	aidnnofinpilenn	aidnnofinmountainnn	helpsvbzsightnn	assistvbzplentynn	helpvbzsightnn	helpsvbzpasselnn	helpnnofintidy_sumnn	assistantnnofingreat_dealnn	helpvbzpotnn	assistantnnofintidy_sumnn	assistnnofintidy_sumnn	helpernnofinflocknn	assistancennofinraftnn	assistantnnofinpecknn	helpsvbzmassnn	assistancennofinflocknn	helpvbzheapnn	supporternnofingood_dealnn	helpernnofinpecknn	assistancennofinlotnn	helpnnofinpasselnn	helpnnofinspatenn	helpsvbzmicklenn	assistancennofinheapnn	assistancennofinbatchnn	assistnnofinraftnn	aidvbzgood_dealnn	aidvbzquite_a_littlenn	assistvbzmucklenn	assistnnofinplentynn	helpsvbzraftnn	aidnnofinraftnn	aidvbzmassnn	assistnnofinmicklenn	assistvbzmicklenn	assistnnofinflocknn	assistnnofinsightnn	helpnnofinmucklenn	assistancennofinpotnn	helpnnofinpotnn	helpvbzpasselnn	helpvbzmintnn	assistancennofinmessnn	helpernnofinslewnn	helpvbzmountainnn	aidvbzstacknn	assistantnnofinstacknn	aidvbzlotnn	assistvbzmassnn	assistnnofindealnn	supporternnofinlotnn	assistnnofinmintnn	assistnnofinheapnn	supporternnofingreat_dealnn	supporternnofinslewnn	aidvbzpotnn	supporternnofinmessnn	assistvbzgood_dealnn	helpvbzbatchnn	helpvbzmucklenn	aidvbzheapnn	assistantnnofingood_dealnn	assistancennofinstacknn	helpnnofinheapnn	helpnnofinpilenn	aidvbzmountainnn	helpernnofinspatenn	helpvbzmessnn	helpsvbzmucklenn	aidnnofinmassnn	helpsvbzgood_dealnn	aidnnofinspatenn	assistancennofinmassnn	assistvbzhatfulnn	assistvbzheapnn	assistancennofindealnn	aidvbzmicklenn	helpnnofinslewnn	helpsvbzquite_a_littlenn	aidvbzmintnn	aidnnofinheapnn	helpernnofingreat_dealnn	assistnnofinwadnn	helpsvbzplentynn	helpsvbzpotnn	assistantnnofinmountainnn	aidvbztidy_sumnn	assistantnnofinpasselnn	helpnnofinmassnn	helpvbzmassnn	aidnnofinsightnn	assistantnnofinbatchnn	assistnnofingreat_dealnn	helpnnofinquite_a_littlenn	aidnnofinwadnn	assistantnnofinplentynn	assistantnnofinflocknn	assistvbzgreat_dealnn	aidnnofinmintnn	helpnnofinmintnn	
+
+BE: alleviateVBpainNN
+EQ class: alleviationnnofinhurtingnn	alleviatevbhurtingnn	relievevbpainnn	alleviativennofinpainnn	palliatevbpainnn	reliefnnofinhurtingnn	assuagevbhurtingnn	palliatevbhurtingnn	alleviatorynnofinhurtingnn	assuagementnnofinhurtingnn	assuagementnnofinpainnn	alleviantnnofinpainnn	assuagevbpainnn	palliativennofinhurtingnn	relievevbhurtingnn	alleviationnnofinpainnn	palliativennofinpainnn	reliefnnofinpainnn	alleviatornnofinpainnn	alleviativennofinhurtingnn	alleviatornnofinhurtingnn	alleviantnnofinhurtingnn	alleviatorynnofinpainnn	
+
+BE: isAUXeatingbutNN
+EQ class: beauxeatingbutnn	
+
+BE: tookVBDpainkillersNNS
+EQ class: tookvbdtheynns	tookvbdthemnns	tookvbdpain_pillnns	takevbdpainkillersnns	tookvbdpainkillernns	takevbdpainkillernns	takevbdtheynns	takevbdanodynenns	takevbdanalgesicnns	takevbdpain_pillnns	tookvbdanalgesicnns	tookvbdanodynenns	takevbdthemnns	
+
+BE: askVBsurgeonNN
+EQ class: inquirernnofinoperating_surgeonnn	questionernnofinsurgeonnn	inquirevbsawbonesnn	questionernnofinsawbonesnn	queriernnofinsawbonesnn	inquirevboperating_surgeonnn	inquirernnofinsawbonesnn	enquirernnofinsawbonesnn	questionernnofinoperating_surgeonnn	queriernnofinoperating_surgeonnn	queriernnofinsurgeonnn	enquirernnofinoperating_surgeonnn	enquirevboperating_surgeonnn	askernnofinsurgeonnn	askernnofinoperating_surgeonnn	enquirevbsawbonesnn	enquirernnofinsurgeonnn	askernnofinsawbonesnn	inquirernnofinsurgeonnn	askvbsawbonesnn	enquirevbsurgeonnn	askvboperating_surgeonnn	inquirevbsurgeonnn	
+
+BE: hadAUXteethNNS
+EQ class: havennofintheynns	holdauxtheynns	haveauxteethnns	wealthy_personnnofintheynns	rich_personnnofinteethnns	rich_personnnofindentitionnns	wealthy_personnnofindentitionnns	holdauxthemnns	haveauxtheynns	have_gotauxtheynns	holdauxteethnns	hadauxtheynns	wealthy_personnnofinteethnns	hadauxthemnns	rich_personnnofinthemnns	holdauxdentitionnns	havennofinthemnns	havennofinteethnns	wealthy_personnnofinthemnns	haveauxthemnns	haveauxdentitionnns	have_gotauxthemnns	have_gotauxdentitionnns	hadauxdentitionnns	have_gotauxteethnns	havennofindentitionnns	rich_personnnofintheynns	
+
+BE: hurtVBlotNN
+EQ class: traumannofinpasselnn	harmnnofinquite_a_littlenn	traumannofinmassnn	hurtnnofinplentynn	hurtvbmicklenn	hurtingnnofinmintnn	hurtingnnofinlotnn	painnnofinhatfulnn	achevblotnn	hurtnnofingood_dealnn	hurtingnnofinsightnn	hurtnnofinpasselnn	injurynnofinpecknn	hurtvbflocknn	hurtvbquite_a_littlenn	injurynnofinmucklenn	injurynnofinhatfulnn	hurtvbraftnn	harmnnofinmessnn	hurtvbgood_dealnn	hurtnnofinhatfulnn	injurynnofinsightnn	painnnofinmicklenn	painnnofinpilenn	achevbmassnn	painnnofintidy_sumnn	achevbraftnn	traumannofinlotnn	hurtingnnofinplentynn	harmnnofinpasselnn	traumannofindealnn	smartvbtidy_sumnn	traumannofinslewnn	traumannofinplentynn	hurtingnnofinpotnn	smartvbslewnn	harmnnofinmassnn	traumannofinmicklenn	harmnnofinsightnn	hurtvbheapnn	hurtnnofinraftnn	painnnofinpotnn	painnnofinpecknn	painnnofingreat_dealnn	hurtnnofindealnn	hurtnnofinstacknn	hurtnnofinlotnn	hurtvbmassnn	smartvbflocknn	injurynnofinwadnn	injurynnofinpasselnn	achevbslewnn	harmnnofintidy_sumnn	achevbgreat_dealnn	smartvbwadnn	hurtingnnofinflocknn	injurynnofingreat_dealnn	achevbmessnn	traumannofinstacknn	achevbpotnn	hurtnnofingreat_dealnn	injurynnofinbatchnn	injurynnofinmassnn	hurtingnnofinwadnn	harmnnofinspatenn	injurynnofinlotnn	painnnofinsightnn	smartvbspatenn	painnnofinlotnn	achevbmucklenn	hurtingnnofinmicklenn	hurtnnofinflocknn	harmnnofinmicklenn	painnnofinspatenn	smartvbmintnn	achevbpecknn	hurtnnofinpilenn	hurtvbbatchnn	hurtingnnofinmucklenn	achevbgood_dealnn	harmnnofinheapnn	smartvbmessnn	achevbwadnn	painnnofinbatchnn	hurtingnnofintidy_sumnn	injurynnofinmicklenn	harmnnofinmintnn	hurtvbmountainnn	hurtvbpotnn	hurtingnnofinhatfulnn	hurtvbstacknn	traumannofinraftnn	traumannofingood_dealnn	injurynnofinslewnn	hurtnnofinmintnn	hurtvbmucklenn	achevbmintnn	traumannofinmucklenn	hurtvbtidy_sumnn	achevbheapnn	achevbmountainnn	painnnofinstacknn	harmnnofinhatfulnn	hurtvbdealnn	hurtnnofinspatenn	hurtvbpecknn	injurynnofinmessnn	harmnnofinraftnn	hurtnnofinbatchnn	painnnofinraftnn	smartvbbatchnn	traumannofinwadnn	hurtingnnofinslewnn	traumannofinmintnn	injurynnofinplentynn	traumannofinspatenn	painnnofinmucklenn	hurtvbpilenn	injurynnofinstacknn	achevbhatfulnn	harmnnofinwadnn	injurynnofinquite_a_littlenn	injurynnofinmountainnn	hurtvbhatfulnn	smartvbpasselnn	hurtnnofintidy_sumnn	traumannofintidy_sumnn	hurtnnofinsightnn	smartvbdealnn	harmnnofinpecknn	smartvbpilenn	traumannofinmessnn	hurtvbmessnn	achevbplentynn	painnnofinmassnn	hurtingnnofinmassnn	harmnnofinslewnn	hurtingnnofinstacknn	achevbtidy_sumnn	smartvbhatfulnn	traumannofinmountainnn	harmnnofinstacknn	hurtingnnofinmessnn	smartvbgood_dealnn	smartvbquite_a_littlenn	traumannofinpilenn	painnnofinquite_a_littlenn	harmnnofinmucklenn	hurtnnofinmessnn	traumannofinhatfulnn	painnnofinplentynn	hurtnnofinquite_a_littlenn	achevbmicklenn	injurynnofindealnn	injurynnofinpilenn	painnnofinflocknn	smartvbmountainnn	harmnnofinpotnn	harmnnofinlotnn	achevbdealnn	hurtvbgreat_dealnn	harmnnofinflocknn	achevbflocknn	painnnofinmintnn	achevbspatenn	hurtnnofinmountainnn	harmnnofinbatchnn	achevbquite_a_littlenn	hurtvbpasselnn	achevbbatchnn	injurynnofingood_dealnn	smartvbpotnn	achevbpasselnn	injurynnofinflocknn	traumannofinheapnn	hurtvbspatenn	injurynnofintidy_sumnn	painnnofinheapnn	painnnofinwadnn	hurtvbmintnn	painnnofindealnn	hurtvbplentynn	injurynnofinpotnn	hurtingnnofinspatenn	hurtingnnofinraftnn	hurtnnofinpotnn	injurynnofinmintnn	harmnnofingood_dealnn	traumannofinflocknn	harmnnofinpilenn	hurtingnnofinpecknn	harmnnofingreat_dealnn	smartvbgreat_dealnn	painnnofinmountainnn	smartvbmucklenn	traumannofinbatchnn	hurtingnnofinpasselnn	smartvbstacknn	painnnofinmessnn	achevbstacknn	hurtingnnofinbatchnn	smartvbmicklenn	hurtvbslewnn	hurtingnnofinquite_a_littlenn	traumannofinsightnn	hurtingnnofingreat_dealnn	hurtvbwadnn	hurtingnnofingood_dealnn	harmnnofinplentynn	traumannofinquite_a_littlenn	achevbsightnn	traumannofinpecknn	smartvbplentynn	smartvbraftnn	hurtnnofinmucklenn	hurtnnofinmicklenn	hurtingnnofinheapnn	hurtnnofinmassnn	painnnofinslewnn	hurtnnofinheapnn	harmnnofindealnn	hurtingnnofindealnn	smartvbmassnn	smartvblotnn	traumannofinpotnn	injurynnofinheapnn	traumannofingreat_dealnn	hurtnnofinwadnn	painnnofingood_dealnn	achevbpilenn	injurynnofinspatenn	hurtnnofinslewnn	harmnnofinmountainnn	hurtvbsightnn	smartvbsightnn	injurynnofinraftnn	hurtingnnofinmountainnn	hurtingnnofinpilenn	hurtnnofinpecknn	painnnofinpasselnn	smartvbpecknn	smartvbheapnn	
+
+BE: tookVBDpainkillerNN
+EQ class: tookvbdpain_pillnn	takevbdpainkillernn	takevbdanodynenn	tookvbdanalgesicnn	takevbdanalgesicnn	takevbdpain_pillnn	tookvbdanodynenn	
+
+BE: beAUXgoodJJ
+EQ class: beauxgoodnessnn	
+
+BE: tookVBDafterINsurgeryNN
+EQ class: takevbdafterinsurgicaljj	takevbdafterinsurgerynn	tookvbdafterinsurgicaljj	
+
+BE: tookVBDinINcaseNN
+EQ class: takevbdininexamplenn	takevbdinininstancenn	tookvbdinininstancenn	takevbdinincasenn	tookvbdininexamplenn	
+
+BE: hurtVBsoINtookVBD
+EQ class: smartvbsointookvbd	hurtvbsointakevbd	achevbsointookvbd	achevbsointakevbd	smartvbsointakevbd	
+
+BE: tookVBDbeforeINaskVB
+EQ class: takevbdbeforeinenquirevb	tookvbdbeforeininquirevb	takevbdbeforeininquirevb	takevbdbeforeinaskvb	tookvbdbeforeinenquirevb	
+
+BE: askVBifINbeAUX
+EQ class: enquirevbifinbeaux	inquirevbifinbeaux	
+
+BE: beAUXforINdoAUX
+EQ class: beauxforinmakeaux	
+
+BE: hurtVBDalwaysRB
+EQ class: injurynnofinalwaysrb	hurtnnofinalwaysrb	painnnofinalwaysrb	harmnnofinalwaysrb	traumannofinalwaysrb	smartvbdalwaysrb	achevbdalwaysrb	hurtingnnofinalwaysrb	
+
+BE: doesAUXreallyRB
+EQ class: realitynninindoesaux	realnessnninindoaux	existentjjinindoesaux	realjjinindoesaux	realnessnninindoesaux	existentjjinindoaux	realitynnininmakeaux	existentjjininmakeaux	doauxreallyrb	makeauxreallyrb	realitynninindoaux	realjjinindoaux	realjjininmakeaux	realnessnnininmakeaux	
+
+BE: doesAUXnotRB
+EQ class: doauxnotrb	makeauxnotrb	
+
+BE: didAUXnotRB
+EQ class: doauxnotrb	makeauxnotrb	
+
+BE: tookVBDjustRB
+EQ class: takevbdjustrb	
+

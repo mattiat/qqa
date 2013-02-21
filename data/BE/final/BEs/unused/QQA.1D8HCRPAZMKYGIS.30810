@@ -1,0 +1,152 @@
+#I take it you have never smoked. 
+#(S1 (S (NP (PRP I)) (VP (VBP take) (NP (PRP it)) (SBAR (S (NP (PRP you)) (VP (AUX have) (ADVP (RB never)) (VP (VBN smoked)))))) (. .)))
+#Rule:Verbs
+r2takeVBP
+r2smokedVBN
+
+#Rule:HeadNoun-V
+r11iPRPtakeVBP
+
+#Rule:HeadNoun-V
+r12youPRPsmokedVBN
+
+#Rule:V-HeadNoun
+r21takeVBPitPRP
+
+#Rule:V-ADV
+r46haveAUXneverRB
+r46smokedVBNneverRB
+
+#It s intresting when non-smokers make their little comments about smokers. 
+#(S1 (S (NP (PRP It)) (VP (VBZ s) (S (VP (VBG intresting) (SBAR (WHADVP (WRB when)) (S (NP (NNS non-smokers)) (VP (VBP make) (NP (NP (PRP$ their) (JJ little) (NNS comments)) (PP (IN about) (NP (NNS smokers)))))))))) (. .)))
+#Rule:Nouns
+r1non-smokersNNS
+r1commentsNNS
+r1smokersNNS
+
+#Rule:Verbs
+r2sVBZ
+r2intrestingVBG
+r2makeVBP
+
+#Rule:Adjs
+r4littleJJ
+
+#Rule:Adj-Noun
+r5littleJJcommentsNNS
+
+#Rule:PRP-Noun
+r6theirPRP$commentsNNS
+
+#Rule:HeadNoun-V
+r11itPRPsVBZ
+r11non-smokersNNSmakeVBP
+
+#Rule:V-HeadNoun
+r21makeVBPcommentsNNS
+
+#Rule:PPinNP
+r26commentsNNSaboutINsmokersNNS
+
+#Smoking has nothing to do with mental Illness or depression. 
+#(S1 (S (NP (NN Smoking)) (VP (AUX has) (NP (NP (NN nothing)) (SBAR (S (VP (TO to) (VP (AUX do) (PP (IN with) (NP (NP (JJ mental) (NN Illness)) (CC or) (NP (NN depression)))))))))) (. .)))
+#Rule:Nouns
+r1SmokingNN
+r1nothingNN
+r1IllnessNN
+r1depressionNN
+
+#Rule:Adjs
+r4mentalJJ
+
+#Rule:Adj-Noun
+r5mentalJJIllnessNN
+
+#Rule:HeadNoun-V
+r11SmokingNNhasAUX
+
+#Rule:HeadNoun-(who/that)-V
+r14nothingNNdoAUX
+
+#Rule:V-HeadNoun
+r21hasAUXnothingNN
+
+#Rule:PPinVP
+r30doAUXwithINIllnessNN
+r30doAUXwithINdepressionNN
+
+#And I dont care If you dont want to hear about nicotine addiction, but this is why most people can t QuitDo you have any bad habits you can t break? 
+#(S1 (S (CC And) (S (NP (PRP I)) (VP (VBP dont) (NP (NN care)) (SBAR (IN If) (S (NP (PRP you)) (VP (ADVP (JJ dont)) (VBP want) (S (VP (TO to) (VP (VB hear) (PP (IN about) (NP (JJ nicotine) (NN addiction))))))))))) (, ,) (CC but) (S (NP (DT this)) (VP (AUX is) (SBAR (WHADVP (WRB why)) (S (NP (JJS most) (NNS people)) (VP (MD can) (VP (VB t) (NP (NNP QuitDo)) (SBAR (S (NP (PRP you)) (VP (AUX have) (NP (NP (DT any) (JJ bad) (NNS habits)) (SBAR (S (NP (PRP you)) (VP (MD can) (VP (VB t) (NP (NN break)))))))))))))))) (. ?)))
+#Rule:Nouns
+r1careNN
+r1addictionNN
+r1peopleNNS
+r1t QuitDoPersonAnnotation
+r1habitsNNS
+r1breakNN
+
+#Rule:Verbs
+r2dontVBP
+r2wantVBP
+r2hearVB
+r2tVB
+
+#Rule:Adjs
+r4dontJJ
+r4nicotinePersonAnnotation
+r4mostJJS
+r4badJJ
+
+#Rule:Adj-Noun
+r5nicotinePersonAnnotationaddictionNN
+r5mostJJSpeopleNNS
+r5badJJhabitsNNS
+
+#Rule:HeadNoun-V
+r11iPRPdontVBP
+r11youPRPwantVBP
+r11thisDTisAUX
+r11peopleNNSt QuitDoPersonAnnotation
+r11youPRPhaveAUX
+r11youPRPtVB
+
+#Rule:V-HeadNoun
+r21dontVBPcareNN
+r21haveAUXhabitsNNS
+r21tVBbreakNN
+
+#Rule:PPinVP
+r30hearVBaboutINaddictionNN
+
+#Rule:V-IN-V
+r43dontVBPifINwantVBP
+
+#Rule:V-V
+r44wantVBPhearVB
+
+#If so by your Questions that would make you weak minded, depressed, and mentally Ill.
+#(S1 (FRAG (IN If) (RB so) (PP (IN by) (NP (NP (PRP$ your) (NNS Questions)) (SBAR (WHNP (WDT that)) (S (VP (MD would) (VP (VB make) (S (NP (PRP you)) (ADJP (ADJP (JJ weak) (JJ minded)) (, ,) (ADJP (JJ depressed)) (, ,) (CC and) (RB mentally) (ADJP (NNP Ill.)))))))))) (. .)))
+#Rule:Nouns
+r1QuestionsNNS
+r1IllLocationAnnotation
+
+#Rule:Verbs
+r2makeVB
+
+#Rule:Adjs
+r4weakJJ
+r4mindedJJ
+r4depressedJJ
+
+#Rule:PRP-Noun
+r6yourPRP$QuestionsNNS
+
+#Rule:HeadNoun-(who/that)-V
+r14QuestionsNNSmakeVB
+
+#Rule:V-HeadNoun
+r22makeVByouPRP
+
+@lemmas-left	Questions	have	most	little	smoked	t QuitDo	people	has	habits	break	Smoking	hear	habit	smoking	illness	care	addiction	do	minded	question	Ill	want	nicotine	it	your	you	bad	Illness	depression	smoke	i	intresting	depressed	t	s	dont	take	mental	smokers	nothing	smoker	weak	non-smokers	comment	their	this	make	comments	
+@lemmas-right	Questions	have	smoked	t QuitDo	people	has	habits	break	hear	habit	illness	care	addiction	do	question	want	be	is	it	you	Illness	depression	smoke	never	t	s	dont	take	smokers	nothing	smoker	comment	make	comments	
+@lemmas-center	with	if	about	

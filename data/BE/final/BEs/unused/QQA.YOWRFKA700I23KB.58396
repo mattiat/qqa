@@ -1,0 +1,43 @@
+#at your age, baby sitting is the most high paying job unless you look great for advertisement
+#(S1 (S (PP (IN at) (NP (PRP$ your) (NN age))) (, ,) (S (NP (NN baby)) (VP (VBG sitting))) (VP (AUX is) (NP (DT the) (ADJP (RBS most) (JJ high) (JJ paying)) (NN job)) (SBAR (IN unless) (S (NP (PRP you)) (VP (VBP look) (ADJP (JJ great)) (PP (IN for) (NP (NN advertisement)))))))))
+#Rule:Nouns
+r1ageNN
+r1babyNN
+r1jobNN
+r1advertisementNN
+
+#Rule:Verbs
+r2sittingVBG
+r2lookVBP
+
+#Rule:Adjs
+r4highJJ
+r4payingJJ
+r4greatJJ
+
+#Rule:Adj-Noun
+r5highJJjobNN
+r5payingJJjobNN
+
+#Rule:PRP-Noun
+r6yourPRP$ageNN
+
+#Rule:HeadNoun-V
+r11babyNNsittingVBG
+r11youPRPlookVBP
+
+#Rule:V-HeadNoun
+r21isAUXjobNN
+
+#Rule:PPinVP
+r30lookVBPforINadvertisementNN
+
+#Rule:PPinS
+r36isAUXatINageNN
+
+#Rule:V-IN-V
+r43isAUXunlessINlookVBP
+
+@lemmas-left	look	is	your	advertisement	job	you	sit	sitting	great	age	baby	high	paying	be	
+@lemmas-right	look	sit	sitting	age	advertisement	job	
+@lemmas-center	unless	for	at	

@@ -1,0 +1,606 @@
+BE: dayNN
+EQ class: dailyjj	24-hour_intervalnn	twenty-four_hoursnn	twenty-four_hour_periodnn	mean_solar_daynn	solar_daynn	
+
+BE: skyNN
+EQ class: 
+
+BE: blueNN
+EQ class: bluenessnn	
+
+BE: looksVBZ
+EQ class: lookvbz	
+
+BE: clearJJ
+EQ class: claritynn	clearnessnn	
+
+BE: sunnyJJ
+EQ class: gayjj	sunninessnn	cheeryjj	
+
+BE: brightJJ
+EQ class: brightnessnn	
+
+BE: clearJJdayNN
+EQ class: clearjjmean_solar_daynn	clearjj24-hour_intervalnn	claritynndailyjj	dailyvbclearlyrb	clearnessnndailyjj	clearjjsolar_daynn	clearnessnnmean_solar_daynn	clearnessnntwenty-four_hoursnn	clearnessnn24-hour_intervalnn	claritynntwenty-four_hour_periodnn	clearjjtwenty-four_hoursnn	claritynndaynn	clearjjdailyjj	clearnessnndaynn	claritynnsolar_daynn	clearnessnntwenty-four_hour_periodnn	claritynnmean_solar_daynn	clearjjtwenty-four_hour_periodnn	claritynn24-hour_intervalnn	claritynntwenty-four_hoursnn	clearnessnnsolar_daynn	
+
+BE: sunnyJJdayNN
+EQ class: cheeryjj24-hour_intervalnn	sunninessnntwenty-four_hour_periodnn	sunnyjjmean_solar_daynn	sunninessnnsolar_daynn	sunnyjjdailyjj	gayjjmean_solar_daynn	gayjj24-hour_intervalnn	cheeryjjsolar_daynn	sunnyjjtwenty-four_hour_periodnn	sunninessnn24-hour_intervalnn	sunnyjj24-hour_intervalnn	cheeryjjmean_solar_daynn	sunninessnndaynn	gayjjdaynn	gayjjtwenty-four_hour_periodnn	sunninessnntwenty-four_hoursnn	gayjjtwenty-four_hoursnn	cheeryjjdaynn	dailyvbsunnilyrb	sunninessnndailyjj	sunnyjjtwenty-four_hoursnn	gayjjdailyjj	gayjjsolar_daynn	cheeryjjtwenty-four_hour_periodnn	sunninessnnmean_solar_daynn	cheeryjjtwenty-four_hoursnn	sunnyjjsolar_daynn	cheeryjjdailyjj	
+
+BE: brightJJblueNN
+EQ class: bluevbbrightlyrb	brightjjbluenessnn	brightnessnnbluenn	brightnessnnbluenessnn	
+
+BE: skyNNlooksVBZ
+EQ class: facial_expressionnnofinskynn	aspectnnofinskynn	witnessnnofinskynn	facennofinskynn	expressionnnofinskynn	witnessnnskynn	watchernnofinskynn	looknnofinskynn	skynnlookvbz	lookernnofinskynn	viewernnofinskynn	viewernnskynn	watchernnskynn	spectatornnskynn	lookernnskynn	spectatornnofinskynn	
+
+BE: looksVBZblueNN
+EQ class: watchernnofinbluenessnn	facennofinbluenessnn	expressionnnofinbluenessnn	facial_expressionnnofinbluenessnn	facial_expressionnnofinbluenn	lookernnofinbluenn	looknnofinbluenn	looksvbzbluenessnn	viewernnofinbluenn	spectatornnofinbluenessnn	spectatornnofinbluenn	viewernnofinbluenessnn	facennofinbluenn	witnessnnofinbluenessnn	watchernnofinbluenn	looknnofinbluenessnn	aspectnnofinbluenn	aspectnnofinbluenessnn	lookernnofinbluenessnn	witnessnnofinbluenn	lookvbzbluenn	expressionnnofinbluenn	lookvbzbluenessnn	
+
+BE: skyNNaboveINusPRP
+EQ class: usprpskynn	
+
+BE: looksVBZonINdayNN
+EQ class: lookvbzonindaynn	looksvbzonin24-hour_intervalnn	looksvbzonintwenty-four_hour_periodnn	looksvbzoninmean_solar_daynn	lookvbzoninsolar_daynn	lookvbzonintwenty-four_hour_periodnn	looksvbzonintwenty-four_hoursnn	lookvbzoninmean_solar_daynn	lookvbzonintwenty-four_hoursnn	looksvbzonindailyjj	lookvbzonindailyjj	lookvbzonin24-hour_intervalnn	looksvbzoninsolar_daynn	
+
+BE: eveningNN
+EQ class: evennn	evenn	eventidenn	
+
+BE: sunsetNNP
+EQ class: sundownnnp	
+
+BE: showNN
+EQ class: showyjj	
+
+BE: redsNNS
+EQ class: rednns	rednessnns	theynns	redjj	themnns	
+
+BE: pinksNNS
+EQ class: pinkjj	pinknns	theynns	themnns	
+
+BE: orangesNNS
+EQ class: orangenns	theynns	themnns	
+
+BE: putsVBZ
+EQ class: positionvbz	putvbz	placevbz	setvbz	layvbz	posevbz	
+
+BE: brilliantJJ
+EQ class: superbjj	brilliancenn	brilliancynn	
+
+BE: brilliantJJshowNN
+EQ class: brilliancynnshownn	showyvbbrilliantlyrb	brilliancennshownn	brilliancennshowyjj	demovbbrilliantlyrb	presentvbbrilliantlyrb	superbjjshowyjj	brilliancynnshowyjj	brilliantjjshowyjj	superbjjshownn	exhibitvbbrilliantlyrb	showvbbrilliantlyrb	demonstratevbbrilliantlyrb	
+
+BE: sunsetNNPputsVBZ
+EQ class: sundownnnpsetvbz	sundownnnppositionvbz	sundownnnpplacevbz	sunsetnnpposevbz	sunsetnnpplacevbz	sunsetnnpsetvbz	sundownnnpputvbz	sunsetnnppositionvbz	sundownnnpposevbz	sundownnnplayvbz	sunsetnnpputvbz	sunsetnnplayvbz	sundownnnpputsvbz	
+
+BE: showNNofINpinksNNS
+EQ class: pinkjjdemovb	demonstratevbtheynns	presentvbpinknns	themnnsshowyvb	themnnsshowvb	showyjjofintheynns	showvbpinksnns	showyjjofinpinkjj	pinksnnspresentvb	showyjjofinpinksnns	exhibitvbpinkjj	pinkjjdemonstratevb	pinknnsshowyjj	theynnsshowvb	shownnofinpinkjj	presentvbpinksnns	exhibitvbpinksnns	demovbpinknns	themnnsexhibitvb	pinkjjexhibitvb	showvbtheynns	pinksnnsshowvb	exhibitvbthemnns	pinkjjpresentvb	themnnsdemovb	demonstratevbthemnns	pinksnnsshownn	pinkjjshowyjj	pinknnsdemonstratevb	presentvbpinkjj	pinksnnsdemovb	demovbthemnns	themnnspresentvb	pinknnsshowyvb	showyvbpinksnns	theynnspresentvb	showyvbpinkjj	demovbpinksnns	demonstratevbpinkjj	theynnsshowyjj	themnnsdemonstratevb	themnnsshownn	showyjjofinpinknns	shownnofintheynns	presentvbthemnns	demovbpinkjj	theynnsshownn	presentvbtheynns	pinksnnsdemonstratevb	pinknnsdemovb	pinksnnsshowyvb	pinknnsexhibitvb	theynnsdemonstratevb	showyvbthemnns	theynnsexhibitvb	demonstratevbpinksnns	themnnsshowyjj	pinknnsshownn	shownnofinpinknns	demonstratevbpinknns	theynnsshowyvb	pinksnnsexhibitvb	showvbthemnns	showyvbpinknns	pinksnnsshowyjj	showvbpinkjj	pinknnspresentvb	demovbtheynns	exhibitvbtheynns	pinkjjshowvb	pinknnsshowvb	pinkjjshownn	pinkjjshowyvb	showyjjofinthemnns	exhibitvbpinknns	showvbpinknns	shownnofinthemnns	theynnsdemovb	showyvbtheynns	
+
+BE: putsVBZonINshowNN
+EQ class: placevbzoninshownn	putvbzoninshownn	posevbzoninshownn	positionvbzoninshownn	layvbzoninshownn	setvbzoninshownn	setvbzoninshowyjj	putsvbzoninshowyjj	placevbzoninshowyjj	layvbzoninshowyjj	putvbzoninshowyjj	positionvbzoninshowyjj	posevbzoninshowyjj	
+
+BE: putsVBZinINeveningNN
+EQ class: positionvbzininevenn	putvbzinineventidenn	putvbzininevennn	setvbzinineventidenn	placevbzinineventidenn	posevbzininevennn	setvbzininevennn	layvbzininevennn	putsvbzininevenn	posevbzininevenn	setvbzinineveningnn	setvbzininevenn	layvbzinineventidenn	placevbzininevenn	posevbzinineventidenn	layvbzininevenn	putvbzininevenn	layvbzinineveningnn	positionvbzinineventidenn	placevbzinineveningnn	posevbzinineveningnn	positionvbzinineveningnn	putvbzinineveningnn	placevbzininevennn	putsvbzinineventidenn	putsvbzininevennn	positionvbzininevennn	
+
+BE: skyNN
+EQ class: 
+
+BE: blueJJ
+EQ class: bluenessnn	blueishjj	bluishjj	
+
+BE: sunsetNNP
+EQ class: sundownnnp	
+
+BE: makesVBZ
+EQ class: makevbz	dovbz	
+
+BE: redJJ
+EQ class: cherryjj	rednn	ruddyjj	reddishjj	ruby-redjj	rednessnn	crimsonjj	blood-redjj	rubyjj	cerisejj	scarletjj	cherry-redjj	carminejj	
+
+BE: makesVBZsunsetNNP
+EQ class: makevbzsunsetnnp	dovbzsundownnnp	makevbzsundownnnp	makesvbzsundownnnp	dovbzsunsetnnp	
+
+BE: questionsNNS
+EQ class: questionnns	theynns	enquirynns	interrogationnns	inquirynns	querynns	themnns	
+
+BE: lightNN
+EQ class: visible_lightnn	visible_radiationnn	
+
+BE: EarthPersonAnnotation
+EQ class: 
+
+BE: sNNP
+EQ class: secnnp	secondnnp	
+
+BE: atmosphereNN
+EQ class: ambiencenn	ambiancenn	
+
+BE: answerVB
+EQ class: respondvb	replyvb	
+
+BE: learnVB
+EQ class: acquirevb	larnvb	
+
+BE: sNNPatmosphereNN
+EQ class: ambiencennofinsecnnp	ambiancennofinsecnnp	secnnpambiancenn	ambiancennofinsnnp	secondnnpambiencenn	snnpambiencenn	secondnnpatmospherenn	ambiancennofinsecondnnp	atmospherennofinsecnnp	atmospherennofinsnnp	ambiencennofinsnnp	snnpambiancenn	secnnpambiencenn	atmospherennofinsecondnnp	secondnnpambiancenn	ambiencennofinsecondnnp	secnnpatmospherenn	
+
+BE: EarthPersonAnnotationatmosphereNN
+EQ class: earthpersonannotationambiancenn	earthpersonannotationambiencenn	ambiancennofinearthpersonannotation	atmospherennofinearthpersonannotation	ambiencennofinearthpersonannotation	
+
+BE: wePRPlearnVB
+EQ class: assimilatornnweprp	weprplarnvb	learnernnweprp	weprpacquirevb	assimilatornnofinweprp	scholarnnweprp	scholarnnofinweprp	learnernnofinweprp	
+
+BE: answerVBquestionsNNS
+EQ class: replynnofinquerynns	responsennofininterrogationnns	replynnofininquirynns	replyvbquestionnns	respondvbquestionsnns	answervbquestionnns	respondentnnofinquestionnns	answernnofinquestionnns	replynnofintheynns	answervbenquirynns	respondernnofinquestionsnns	answerernnofinquerynns	replyvbquestionsnns	answerernnofinenquirynns	answerernnofintheynns	replynnofinquestionnns	respondentnnofintheynns	respondernnofintheynns	respondvbquestionnns	answervbtheynns	replynnofininterrogationnns	answernnofinquerynns	respondernnofinquestionnns	responsennofinquestionsnns	responsennofininquirynns	answervbthemnns	respondvbenquirynns	respondvbquerynns	answernnofininterrogationnns	replyvbquerynns	answervbinterrogationnns	answervbinquirynns	respondernnofininquirynns	respondernnofininterrogationnns	respondvbinterrogationnns	answernnofininquirynns	responsennofintheynns	answerernnofininquirynns	respondentnnofininterrogationnns	respondernnofinquerynns	answerernnofininterrogationnns	respondentnnofinenquirynns	respondentnnofinquerynns	answerernnofinthemnns	respondvbthemnns	replyvbenquirynns	respondentnnofinthemnns	respondentnnofininquirynns	respondvbtheynns	replynnofinquestionsnns	answerernnofinquestionsnns	answernnofinenquirynns	respondernnofinthemnns	responsennofinthemnns	replynnofinthemnns	answernnofinquestionsnns	responsennofinquestionnns	answervbquerynns	replyvbthemnns	replyvbinquirynns	replynnofinenquirynns	answernnofinthemnns	respondernnofinenquirynns	responsennofinenquirynns	answerernnofinquestionnns	replyvbtheynns	respondvbinquirynns	respondentnnofinquestionsnns	responsennofinquerynns	replyvbinterrogationnns	answernnofintheynns	
+
+BE: learnVBaboutINlightNN
+EQ class: larnvbaboutinvisible_radiationnn	larnvbaboutinvisible_lightnn	learnvbaboutinvisible_radiationnn	acquirevbaboutinlightnn	larnvbaboutinlightnn	acquirevbaboutinvisible_lightnn	learnvbaboutinvisible_lightnn	acquirevbaboutinvisible_radiationnn	
+
+BE: learnVBaboutINatmosphereNN
+EQ class: larnvbaboutinatmospherenn	larnvbaboutinambiencenn	acquirevbaboutinambiencenn	learnvbaboutinambiancenn	acquirevbaboutinambiancenn	learnvbaboutinambiencenn	larnvbaboutinambiancenn	acquirevbaboutinatmospherenn	
+
+BE: wePRPanswerVB
+EQ class: respondentnnofinweprp	respondernnofinweprp	answernnofinweprp	respondernnweprp	answerernnweprp	weprpreplyvb	responsennofinweprp	replynnofinweprp	respondentnnweprp	answerernnofinweprp	weprprespondvb	
+
+BE: ATMOSPHERETheNNP
+EQ class: 
+
+BE: atmosphereNN
+EQ class: ambiencenn	ambiancenn	
+
+BE: mixtureNN
+EQ class: 
+
+BE: gasNN
+EQ class: gaseousjj	gassyjj	gaseous_statenn	
+
+BE: moleculesOrganizationAnnotation
+EQ class: 
+
+BE: materialsNNS
+EQ class: materialnns	theynns	stuffnns	themnns	
+
+BE: earthNN
+EQ class: worldnn	globenn	
+
+BE: surroundingVBG
+EQ class: bordervbg	environvbg	surroundvbg	ringvbg	skirtvbg	
+
+BE: otherJJ
+EQ class: 
+
+BE: otherJJmaterialsNNS
+EQ class: otherjjtheynns	otherjjstuffnns	otherjjmaterialnns	otherjjthemnns	
+
+BE: ATMOSPHERETheNNPatmosphereNN
+EQ class: ambiancennofinatmospherethennp	atmospherethennpambiancenn	atmospherethennpambiencenn	ambiencennofinatmospherethennp	atmospherennofinatmospherethennp	
+
+BE: gasNNmoleculesOrganizationAnnotation
+EQ class: gaseous_statennofinmoleculesorganizationannotation	gasnnofinmoleculesorganizationannotation	gaseousjjofinmoleculesorganizationannotation	moleculesorganizationannotationofingaseous_statenn	moleculesorganizationannotationofingasnn	gasificationnnofinmoleculesorganizationannotation	gassyjjofinmoleculesorganizationannotation	gaseousjjmoleculesorganizationannotation	moleculesorganizationannotationaerifyvb	moleculesorganizationannotationgasifyvb	gaseous_statennmoleculesorganizationannotation	gassyjjmoleculesorganizationannotation	moleculesorganizationannotationofingaseousjj	moleculesorganizationannotationvaporizevb	moleculesorganizationannotationofingassyjj	moleculesorganizationannotationvaporisevb	
+
+BE: atmosphereNNisAUX
+EQ class: ambiencennbeaux	ambiancennbeaux	ambiencennisaux	atmospherennbeaux	ambiancennisaux	
+
+BE: materialsNNSsurroundingVBG
+EQ class: milieunnstuffnns	materialsnnsringvbg	environmentnnofinstuffnns	surroundingsnnofintheynns	milieunnmaterialnns	surroundnnofintheynns	themnnsbordervbg	milieunnthemnns	materialnnsskirtvbg	environsnnofintheynns	materialnnsenvironvbg	environmentnnofintheynns	milieunnofinstuffnns	materialsnnssurroundvbg	themnnsskirtvbg	stuffnnsringvbg	theynnsringvbg	materialsnnsenvironvbg	materialsnnsskirtvbg	stuffnnssurroundvbg	surroundingsnnofinmaterialsnns	surroundingsnntheynns	surroundingsnnmaterialnns	surroundingsnnmaterialsnns	surroundingsnnstuffnns	stuffnnsenvironvbg	milieunnofinmaterialnns	environsnnofinmaterialnns	theynnsenvironvbg	stuffnnsskirtvbg	stuffnnssurroundingvbg	environmentnnofinthemnns	themnnsenvironvbg	surroundnnofinmaterialnns	themnnssurroundvbg	theynnssurroundingvbg	theynnsskirtvbg	stuffnnsbordervbg	surroundingsnnofinstuffnns	environsnnofinthemnns	materialnnssurroundingvbg	milieunnofinthemnns	theynnssurroundvbg	environsnnofinstuffnns	materialsnnsbordervbg	materialnnssurroundvbg	materialnnsbordervbg	materialnnsringvbg	surroundingsnnofinmaterialnns	milieunntheynns	milieunnofinmaterialsnns	themnnssurroundingvbg	themnnsringvbg	environmentnnofinmaterialnns	milieunnmaterialsnns	environsnnofinmaterialsnns	surroundingsnnthemnns	surroundnnofinmaterialsnns	theynnsbordervbg	milieunnofintheynns	surroundnnofinthemnns	environmentnnofinmaterialsnns	surroundnnofinstuffnns	surroundingsnnofinthemnns	
+
+BE: isAUXmixtureNN
+EQ class: beauxmixturenn	
+
+BE: surroundingVBGearthNN
+EQ class: surroundingsnnofinworldnn	bordervbgworldnn	environvbgglobenn	surroundvbgearthnn	surroundingsnnofinglobenn	skirtvbgworldnn	surroundingsnnofinearthnn	bordervbgglobenn	environsnnofinworldnn	environsnnofinearthnn	environmentnnofinglobenn	skirtvbgglobenn	environvbgearthnn	ringvbgglobenn	surroundingvbgglobenn	surroundnnofinearthnn	skirtvbgearthnn	ringvbgworldnn	environsnnofinglobenn	ringvbgearthnn	surroundnnofinworldnn	environmentnnofinworldnn	milieunnofinglobenn	surroundvbgworldnn	surroundingvbgworldnn	surroundnnofinglobenn	bordervbgearthnn	milieunnofinearthnn	environmentnnofinearthnn	environvbgworldnn	milieunnofinworldnn	surroundvbgglobenn	
+
+BE: mixtureNNofINmoleculesOrganizationAnnotation
+EQ class: moleculesorganizationannotationmixturenn	moleculesorganizationannotationfluxvb	immixvbmoleculesorganizationannotation	mergevbmoleculesorganizationannotation	moleculesorganizationannotationmixvb	comminglevbmoleculesorganizationannotation	moleculesorganizationannotationcomminglevb	moleculesorganizationannotationmeldvb	blendvbmoleculesorganizationannotation	moleculesorganizationannotationmergevb	moleculesorganizationannotationblendvb	fusevbmoleculesorganizationannotation	coalescevbmoleculesorganizationannotation	moleculesorganizationannotationfusevb	moleculesorganizationannotationimmixvb	fluxvbmoleculesorganizationannotation	moleculesorganizationannotationconflatevb	mixvbmoleculesorganizationannotation	meldvbmoleculesorganizationannotation	moleculesorganizationannotationcombinevb	moleculesorganizationannotationcoalescevb	conflatevbmoleculesorganizationannotation	combinevbmoleculesorganizationannotation	
+
+BE: mixtureNNofINmaterialsNNS
+EQ class: mixvbstuffnns	materialsnnscombinevb	fusevbtheynns	stuffnnsfluxvb	stuffnnscomminglevb	theynnsmixvb	themnnsimmixvb	mergevbmaterialsnns	fusevbmaterialnns	meldvbmaterialnns	immixvbstuffnns	stuffnnscoalescevb	immixvbtheynns	conflatevbmaterialsnns	theynnsfluxvb	immixvbthemnns	meldvbtheynns	materialsnnsmeldvb	immixvbmaterialsnns	theynnsblendvb	materialsnnsfluxvb	stuffnnsblendvb	themnnscombinevb	stuffnnsmixvb	materialsnnsconflatevb	conflatevbtheynns	stuffnnsimmixvb	fusevbmaterialsnns	coalescevbtheynns	theynnscombinevb	themnnsconflatevb	mixturennofintheynns	materialnnsfluxvb	comminglevbmaterialnns	themnnsfusevb	fluxvbthemnns	mergevbthemnns	mixturennofinstuffnns	stuffnnscombinevb	comminglevbstuffnns	materialsnnsmixvb	blendvbthemnns	materialsnnsimmixvb	combinevbthemnns	mixvbtheynns	comminglevbtheynns	immixvbmaterialnns	theynnscomminglevb	materialsnnscoalescevb	stuffnnsfusevb	stuffnnsconflatevb	stuffnnsmeldvb	themnnsmixturenn	theynnsconflatevb	fluxvbmaterialsnns	materialnnsfusevb	materialnnsmergevb	themnnscomminglevb	materialsnnscomminglevb	theynnsmixturenn	fluxvbstuffnns	mergevbtheynns	materialnnsmixvb	coalescevbmaterialsnns	themnnsfluxvb	themnnsblendvb	blendvbtheynns	materialnnscombinevb	fluxvbtheynns	theynnscoalescevb	blendvbmaterialnns	fusevbstuffnns	mixvbmaterialsnns	materialsnnsmergevb	mergevbstuffnns	comminglevbthemnns	materialsnnsfusevb	stuffnnsmergevb	materialnnscomminglevb	coalescevbmaterialnns	mergevbmaterialnns	materialsnnsmixturenn	coalescevbstuffnns	theynnsfusevb	theynnsimmixvb	combinevbstuffnns	themnnsmeldvb	meldvbthemnns	blendvbmaterialsnns	stuffnnsmixturenn	theynnsmergevb	materialnnsmixturenn	materialnnscoalescevb	mixturennofinthemnns	combinevbmaterialnns	fluxvbmaterialnns	blendvbstuffnns	mixvbmaterialnns	materialnnsconflatevb	materialnnsmeldvb	conflatevbmaterialnns	themnnscoalescevb	meldvbmaterialsnns	materialnnsblendvb	themnnsmixvb	mixturennofinmaterialnns	conflatevbstuffnns	meldvbstuffnns	coalescevbthemnns	mixvbthemnns	materialsnnsblendvb	conflatevbthemnns	comminglevbmaterialsnns	combinevbmaterialsnns	theynnsmeldvb	combinevbtheynns	themnnsmergevb	materialnnsimmixvb	fusevbthemnns	
+
+BE: mixtureNNatmosphereNN
+EQ class: mixnnofinambiancenn	atmospherennmixturenn	sociablennofinambiancenn	atmospherenncoalescevb	ambiancennmixvb	atmospherennmergevb	mixturennofinambiancenn	atmospherenncomminglevb	ambiancennconflatevb	atmospherennfluxvb	premixnnofinatmospherenn	premixnnofinambiencenn	ambiancennmixturenn	ambiancenncombinevb	mixnnofinatmospherenn	atmospherennblendvb	sociablennofinatmospherenn	mixernnofinambiancenn	ambiencennmixturenn	mixablennofinambiencenn	ambiencennblendvb	mixablennofinatmospherenn	sociablennofinambiencenn	mixablennofinambiancenn	atmospherennmixvb	ambiencenncombinevb	ambiencennfluxvb	ambiencenncomminglevb	mixnnofinambiencenn	ambiancenncomminglevb	mixernnofinambiencenn	ambiancenncoalescevb	socialnnofinambiencenn	premixnnofinambiancenn	atmospherenncombinevb	atmospherennfusevb	ambiencennmeldvb	atmospherennconflatevb	ambiancennfusevb	mixernnofinatmospherenn	ambiancennimmixvb	ambiencennfusevb	ambiencennimmixvb	ambiencennmixvb	socialnnofinatmospherenn	ambiencennconflatevb	mixturennofinambiencenn	socialnnofinambiancenn	ambiencennmergevb	mixturennofinatmospherenn	ambiancennfluxvb	ambiancennmeldvb	ambiancennmergevb	atmospherennimmixvb	atmospherennmeldvb	mixturennambiancenn	ambiencenncoalescevb	ambiancennblendvb	mixturennambiencenn	
+
+BE: gasesNNS
+EQ class: theynns	gaseous_statenns	gasnns	gaseousjj	themnns	gassyjj	
+
+BE: nitrogenNN
+EQ class: nitrogenousjj	nnn	atomic_number_7nn	
+
+BE: %NN
+EQ class: %.nn	
+
+BE: oxygenPersonAnnotation
+EQ class: 
+
+BE: %NN
+EQ class: %.nn	
+
+BE: madeVBN
+EQ class: makevbn	dovbn	
+
+BE: 78CD%NN
+EQ class: 7.8.cd%.nn	7.8.cd%nn	78cd%.nn	seventy-eightcd%nn	seventy-eightcd%.nn	lxxviiicd%nn	lxxviiicd%.nn	
+
+BE: 21CD%NN
+EQ class: 2.1.cd%.nn	xxicd%.nn	21cd%.nn	twenty-onecd%.nn	twenty-onecd%nn	2.1.cd%nn	xxicd%nn	
+
+BE: gasesNNSnitrogenNN
+EQ class: atomic_number_7nnofingasnns	gassyjjnitrogennn	gasnnofinnitrogennn	gasnnsnitrogenousvb	gassyjjnnn	nnnvaporisevb	gaseousjjnitrogenousjj	nitrogennnofinthemnns	nnnofingassyjj	gaseous_statennsnitrogennn	themnnsnitrogenisevb	gaseousjjnnn	nitrogennnofintheynns	gasificationnnofinnitrogenousjj	gaseousjjnitrifyvb	themnnsnitrogenousjj	gassyjjnitrogenousjj	gasnnsnitrifyvb	theynnsatomic_number_7nn	nnnvaporizevb	nnnofintheynns	nitrogenousjjvaporisevb	atomic_number_7nnofingaseousjj	gaseousjjofinnitrogenousjj	nnnofingasesnns	gasesnnsatomic_number_7nn	nitrogennnofingassyjj	nitrogenousjjofingaseousjj	nitrifyvbgaseousjj	nitrogennnofingasnns	nnngasifyvb	atomic_number_7nnofingassyjj	gasnnofinnnn	gasnnofinatomic_number_7nn	themnnsatomic_number_7nn	nitrogennnofingaseous_statenns	themnnsnitrogenousvb	themnnsnitrogennn	nitrogennnvaporisevb	gaseousjjnitrogenisevb	gasnnsatomic_number_7nn	nitrogennngasifyvb	nitrogenisevbgaseousjj	nitrogenousjjofingassyjj	themnnsnitrogenizevb	nitrogenousvbgasesnns	nitrogenizevbgaseous_statenns	nitrogenousjjaerifyvb	nitrogenousvbgaseousjj	nitrogenousvbthemnns	atomic_number_7nnofingasesnns	atomic_number_7nnofingaseous_statenns	gaseous_statennofinnnn	nitrogenisevbgasnns	nitrogenizevbgasnns	gasesnnsnnn	gaseousjjofinatomic_number_7nn	nitrifyvbgasesnns	nitrogenizevbgasesnns	nitrogenousvbgasnns	nitrogenizevbthemnns	gaseousjjatomic_number_7nn	gaseous_statennsnitrogenousjj	gaseous_statennsatomic_number_7nn	nitrifyvbthemnns	gassyjjnitrifyvb	nitrogenousjjofingasesnns	gassyjjofinatomic_number_7nn	nnnaerifyvb	gaseous_statennsnnn	atomic_number_7nnofinthemnns	gassyjjnitrogenisevb	gassyjjofinnnn	nitrogennnaerifyvb	atomic_number_7nnvaporisevb	gaseousjjofinnnn	theynnsnitrogenisevb	gasificationnnofinnitrogennn	gaseousjjnitrogennn	atomic_number_7nnvaporizevb	gaseousjjofinnitrogennn	gaseous_statennsnitrogenousvb	gasnnsnitrogenisevb	theynnsnitrogenousvb	nitrifyvbgassyjj	nitrogennnofingasesnns	gasificationnnofinnnn	nitrogenisevbthemnns	gasnnofinnitrogenousjj	nnnofingaseous_statenns	nitrogenousjjgasifyvb	gasesnnsnitrifyvb	gaseousjjnitrogenousvb	gaseous_statennsnitrogenisevb	nitrogenousvbgaseous_statenns	theynnsnnn	themnnsnitrifyvb	gaseous_statennsnitrogenizevb	gasesnnsnitrogenisevb	nnnofingaseousjj	nitrogenizevbtheynns	nitrogenisevbgassyjj	nitrifyvbgaseous_statenns	nnnofingasnns	nitrogenousvbtheynns	gasesnnsnitrogenousvb	gaseous_statennsnitrifyvb	gasificationnnofinatomic_number_7nn	nitrogenousjjvaporizevb	nitrogenousvbgassyjj	gassyjjnitrogenousvb	gassyjjatomic_number_7nn	gasnnsnitrogenizevb	gaseous_statennofinatomic_number_7nn	theynnsnitrifyvb	nitrogennnofingaseousjj	nitrogennnvaporizevb	nitrogenizevbgassyjj	gassyjjofinnitrogennn	gasnnsnitrogennn	theynnsnitrogennn	nitrogenousjjofinthemnns	gasnnsnnn	atomic_number_7nnaerifyvb	nitrogenousjjofingaseous_statenns	themnnsnnn	gaseousjjnitrogenizevb	nitrogenizevbgaseousjj	theynnsnitrogenizevb	nitrifyvbgasnns	gassyjjnitrogenizevb	gassyjjofinnitrogenousjj	nitrifyvbtheynns	nnnofinthemnns	gaseous_statennofinnitrogennn	nitrogenisevbtheynns	gasesnnsnitrogenousjj	gaseous_statennofinnitrogenousjj	atomic_number_7nngasifyvb	nitrogenousjjofintheynns	nitrogenisevbgaseous_statenns	gasnnsnitrogenousjj	theynnsnitrogenousjj	nitrogenousjjofingasnns	atomic_number_7nnofintheynns	gasesnnsnitrogenizevb	nitrogenisevbgasesnns	
+
+BE: madeVBNitPRP
+EQ class: makevbnitprp	dovbnitprp	
+
+BE: madeVBNofINnitrogenNN
+EQ class: dovbnofinnnn	makevbnofinnnn	dovbnofinnitrogennn	dovbnofinatomic_number_7nn	dovbnofinnitrogenousjj	madevbnofinnitrogenousjj	madevbnofinnnn	makevbnofinnitrogennn	makevbnofinatomic_number_7nn	madevbnofinatomic_number_7nn	makevbnofinnitrogenousjj	
+
+BE: madeVBNofINoxygenPersonAnnotation
+EQ class: dovbnofinoxygenpersonannotation	makevbnofinoxygenpersonannotation	
+
+BE: gasNN
+EQ class: gaseousjj	gassyjj	gaseous_statenn	
+
+BE: waterNN
+EQ class: wateryjj	h2onn	
+
+BE: formNN
+EQ class: signifiernn	word_formnn	descriptornn	
+
+BE: vaporLocationAnnotation
+EQ class: vaporousjj	
+
+BE: dropletsNNS
+EQ class: theynns	dropletnns	themnns	
+
+BE: iceNN
+EQ class: water_icenn	
+
+BE: crystalsNNS
+EQ class: crystalnns	theynns	themnns	
+
+BE: thingsNNS
+EQ class: theynns	themnns	
+
+BE: ArgonOrganizationAnnotation
+EQ class: 
+
+BE: nextJJ
+EQ class: followingjj	
+
+BE: commonJJ
+EQ class: commonnessnn	commonnn	commonalitynn	
+
+BE: ArgonOrganizationAnnotationgasNN
+EQ class: argonorganizationannotationgaseous_statenn	argonorganizationannotationgaseousjj	argonorganizationannotationgassyjj	
+
+BE: nextJJthingsNNS
+EQ class: followingjjtheynns	nextjjtheynns	followingjjthemnns	followingjjthingsnns	nextjjthemnns	
+
+BE: commonJJthingsNNS
+EQ class: commonalitynntheynns	commonjjthemnns	commonalitynnthemnns	commonalitynnthingsnns	commonnessnnthemnns	commonjjtheynns	commonnessnnthingsnns	commonnnthingsnns	commonnnthemnns	commonnessnntheynns	commonnntheynns	
+
+BE: iceNNcrystalsNNS
+EQ class: crystalsnnsofinicenn	water_icenncrystalnns	water_icenncrystallisevb	sort_outvbwater_icenn	icingnnofincrystalsnns	icennilluminatevb	enlightenvbicenn	illuminatevbicenn	crystalisevbwater_icenn	icennclearvb	icenncrystalizevb	frostnnofincrystalsnns	icennofintheynns	water_icenncrystalsnns	crystalnnsofinicenn	water_icennofinthemnns	icennstraighten_outvb	icennenlightenvb	themnnsofinicenn	shed_light_onvbwater_icenn	clearvbwater_icenn	themnnsofinwater_icenn	crystalizevbwater_icenn	shed_light_onvbicenn	water_icennilluminatevb	icennofincrystalnns	sort_outvbicenn	crystalizevbicenn	water_icennsort_outvb	crystalnnsicevb	icennthemnns	icenncrystallizevb	crystallisevbicenn	illuminatevbwater_icenn	frostnnofintheynns	water_icennclear_upvb	clear_upvbicenn	water_icenncrystalisevb	water_icennofintheynns	icenncrystalisevb	icennshed_light_onvb	frostnnofincrystalnns	icingnnofintheynns	themnnsicevb	theynnsicevb	water_icennofincrystalsnns	icennofincrystalsnns	themnnsfrostvb	crystallisevbwater_icenn	water_icenncrystalizevb	enlightenvbwater_icenn	frostnnofinthemnns	crystalsnnsofinwater_icenn	clearvbicenn	icennclear_upvb	clear_upvbwater_icenn	crystalisevbicenn	icingnnofinthemnns	theynnsfrostvb	crystalsnnsicevb	crystalnnsfrostvb	water_icennelucidatevb	water_icenncrystallizevb	straighten_outvbicenn	water_icennstraighten_outvb	water_icennofincrystalnns	theynnsofinicenn	elucidatevbicenn	water_icennshed_light_onvb	crystalnnsofinwater_icenn	water_icenntheynns	theynnsofinwater_icenn	icennelucidatevb	water_icennthemnns	crystalsnnsfrostvb	icingnnofincrystalnns	icennsort_outvb	straighten_outvbwater_icenn	water_icennclearvb	icenncrystallisevb	icenntheynns	crystallizevbicenn	icennofinthemnns	icenncrystalnns	water_icennenlightenvb	elucidatevbwater_icenn	crystallizevbwater_icenn	
+
+BE: gasNNareAUX
+EQ class: gaseousjjareaux	gassyjjbeaux	gasnnbeaux	gaseous_statennareaux	gassyjjareaux	gaseous_statennbeaux	gaseousjjbeaux	
+
+BE: areAUXthingsNNS
+EQ class: beauxthemnns	areauxthemnns	beauxtheynns	beauxthingsnns	areauxtheynns	
+
+BE: formNNofINcrystalsNNS
+EQ class: descriptornnofinthemnns	formnnofincrystalnns	signifiernnofincrystalnns	word_formnnofincrystalnns	crystalsnnssignifiernn	signifiernnofintheynns	word_formnnofinthemnns	theynnsformnn	crystalsnnsdescriptornn	descriptornnofintheynns	word_formnnofintheynns	descriptornnofincrystalsnns	formnnofinthemnns	crystalnnsword_formnn	signifiernnofincrystalsnns	formnnofintheynns	descriptornnofincrystalnns	crystalnnsdescriptornn	themnnsformnn	word_formnnofincrystalsnns	crystalsnnsformnn	crystalsnnsword_formnn	crystalnnsformnn	theynnssignifiernn	theynnsword_formnn	crystalnnssignifiernn	themnnsdescriptornn	themnnsword_formnn	themnnssignifiernn	signifiernnofinthemnns	theynnsdescriptornn	
+
+BE: thingsNNSgasNN
+EQ class: gasnntheynns	themnnsgassyjj	gasnnofintheynns	theynnsgasnn	theynnsgasifyvb	gasnnthingsnns	gaseous_statenntheynns	themnnsvaporizevb	gaseousjjofintheynns	thingsnnsaerifyvb	gassyjjthemnns	gaseousjjofinthingsnns	gasnnthemnns	gaseousjjthingsnns	thingsnnsgassyjj	themnnsgasnn	theynnsgaseousjj	gaseous_statennofinthingsnns	gassyjjtheynns	gasificationnnofintheynns	gaseousjjthemnns	gaseousjjtheynns	gasnnofinthemnns	theynnsgassyjj	gassyjjofinthingsnns	gassyjjofintheynns	theynnsaerifyvb	themnnsaerifyvb	themnnsgasifyvb	gasnnofinthingsnns	thingsnnsgaseous_statenn	gaseous_statennthingsnns	thingsnnsgaseousjj	gassyjjofinthemnns	themnnsvaporisevb	thingsnnsvaporisevb	gassyjjthingsnns	thingsnnsgasifyvb	themnnsgaseous_statenn	gaseousjjofinthemnns	gasificationnnofinthingsnns	gaseous_statennofintheynns	gaseous_statennofinthemnns	theynnsvaporisevb	gasificationnnofinthemnns	theynnsgaseous_statenn	themnnsgaseousjj	thingsnnsvaporizevb	gaseous_statennthemnns	theynnsvaporizevb	
+
+BE: amountsNNS
+EQ class: amount_of_moneynns	sumnns	theynns	sum_of_moneynns	amountnns	themnns	
+
+BE: gasesNNS
+EQ class: theynns	gaseous_statenns	gasnns	gaseousjj	themnns	gassyjj	
+
+BE: particlesNNS
+EQ class: corpusclenns	moleculenns	specknns	atomnns	theynns	particlenns	motenns	themnns	
+
+BE: dustNN
+EQ class: dustyjj	
+
+BE: sootNN
+EQ class: smutnn	lampblacknn	sootyjj	carbon_blacknn	crocknn	
+
+BE: ashesNNS
+EQ class: ashnns	theynns	ashyjj	themnns	
+
+BE: pollenNN
+EQ class: 
+
+BE: saltNN
+EQ class: saltyjj	
+
+BE: oceansNNS
+EQ class: oceanicjj	theynns	oceannns	themnns	
+
+BE: smallJJ
+EQ class: littlejj	smallnessnn	
+
+BE: otherJJ
+EQ class: 
+
+BE: manyJJ
+EQ class: 
+
+BE: smallJJ
+EQ class: littlejj	smallnessnn	
+
+BE: solidJJ
+EQ class: solidnessnn	
+
+BE: smallJJamountsNNS
+EQ class: smalljjsum_of_moneynns	littlejjthemnns	littlejjamountnns	littlejjamountsnns	smallnessnnsumnns	littlejjsum_of_moneynns	smallnessnnsum_of_moneynns	smalljjtheynns	littlejjamount_of_moneynns	littlejjsumnns	smallnessnntheynns	smalljjthemnns	smalljjamount_of_moneynns	smallnessnnamountnns	smalljjsumnns	smalljjamountnns	littlejjtheynns	smallnessnnamountsnns	smallnessnnthemnns	smallnessnnamount_of_moneynns	
+
+BE: otherJJgasesNNS
+EQ class: otherjjgassyjj	otherjjgaseous_statenns	otherjjtheynns	otherjjgaseousjj	otherjjgasnns	otherjjthemnns	
+
+BE: manyJJparticlesNNS
+EQ class: manyjjmoleculenns	manyjjatomnns	manyjjspecknns	manyjjparticlenns	manyjjtheynns	manyjjcorpusclenns	manyjjmotenns	manyjjthemnns	
+
+BE: smallJJparticlesNNS
+EQ class: littlejjthemnns	smalljjatomnns	smalljjmotenns	smallnessnncorpusclenns	smallnessnnmoleculenns	smallnessnntheynns	littlejjspecknns	smallnessnnspecknns	littlejjparticlesnns	smalljjcorpusclenns	smallnessnnmotenns	smallnessnnatomnns	littlejjcorpusclenns	smallnessnnparticlenns	smalljjmoleculenns	smalljjspecknns	smalljjtheynns	smallnessnnparticlesnns	smalljjthemnns	littlejjtheynns	smallnessnnthemnns	littlejjmotenns	smalljjparticlenns	littlejjmoleculenns	littlejjparticlenns	littlejjatomnns	
+
+BE: solidJJparticlesNNS
+EQ class: solidnessnnatomnns	solidjjtheynns	solidnessnnmotenns	solidjjspecknns	solidnessnntheynns	solidjjatomnns	solidjjmotenns	solidjjthemnns	solidnessnnthemnns	solidjjmoleculenns	solidnessnnparticlesnns	solidnessnnparticlenns	solidjjcorpusclenns	solidjjparticlenns	solidnessnnmoleculenns	solidnessnncorpusclenns	solidnessnnspecknns	
+
+BE: dustNNsootNN
+EQ class: dusternnofincrocknn	dustnnofinsootnn	sootyjjdustnn	sootyjjdustvb	dustnncarbon_blacknn	dustyjjofinsootnn	dusternnofincarbon_blacknn	dust_stormnnofinlampblacknn	dusternnofinsootyjj	lampblacknndustnn	dust_stormnnofinsmutnn	sirocconnofinsootnn	dustnnofinsmutnn	sootnnofindustyjj	dust_stormnnofincrocknn	dustyjjsootyjj	dustyjjcarbon_blacknn	dustnnofinsootyjj	dustyjjsmutnn	carbon_blacknnofindustyjj	crocknnofindustyjj	crocknndustyjj	lampblacknndustyjj	dustnnsootvb	crocknnofindustnn	carbon_blacknnofindustnn	dustyjjofinsootyjj	dustyjjofinsmutnn	dustnnofincarbon_blacknn	dustyjjlampblacknn	sirocconnofinlampblacknn	sandstormnnofincarbon_blacknn	dustnnsootyjj	dustyjjsootnn	dust_stormnnofinsootnn	dust_stormnnofincarbon_blacknn	dustyjjcrocknn	dustyjjsootvb	dustnnsmutnn	dustnnofinlampblacknn	sandstormnnofinlampblacknn	sandstormnnofinsootyjj	sirocconnofinsootyjj	lampblacknndustvb	smutnnofindustyjj	dusternnofinsootnn	dustnnofincrocknn	lampblacknnofindustyjj	dustnncrocknn	carbon_blacknndustyjj	dustyjjofincrocknn	dusternnofinsmutnn	sootyjjdustyjj	dustyjjofincarbon_blacknn	lampblacknnofindustnn	sandstormnnofincrocknn	smutnnofindustnn	carbon_blacknndustvb	sootnnofindustnn	sirocconnofinsmutnn	sootyjjofindustnn	smutnndustvb	dusternnofinlampblacknn	sootnndustvb	crocknndustvb	sootnndustnn	smutnndustnn	sirocconnofincarbon_blacknn	sandstormnnofinsmutnn	sandstormnnofinsootnn	carbon_blacknndustnn	smutnndustyjj	sootnndustyjj	dustyjjofinlampblacknn	sirocconnofincrocknn	dust_stormnnofinsootyjj	sootyjjofindustyjj	dustnnlampblacknn	crocknndustnn	
+
+BE: thereEXareAUX
+EQ class: thereexbeaux	
+
+BE: areAUXamountsNNS
+EQ class: areauxamountnns	beauxamountnns	areauxsumnns	beauxthemnns	areauxsum_of_moneynns	areauxthemnns	beauxtheynns	areauxtheynns	areauxamount_of_moneynns	beauxamountsnns	beauxamount_of_moneynns	beauxsum_of_moneynns	beauxsumnns	
+
+BE: amountsNNSofINgasesNNS
+EQ class: sumnnsofintheynns	amountsnnsofingaseousjj	sum_of_moneynnsofingaseous_statenns	sum_of_moneynnsofingaseousjj	gassyjjsumnns	gassyjjamount_of_moneynns	amountnnsofingaseous_statenns	gassyjjthemnns	gassyjjamountsnns	themnnsamountnns	theynnstheynns	amountnnsofintheynns	sum_of_moneynnsofingasesnns	themnnsofingasesnns	themnnsofingasnns	gasesnnsthemnns	gasnnstheynns	gassyjjtheynns	themnnssum_of_moneynns	gaseousjjamountsnns	gassyjjamountnns	gaseousjjthemnns	themnnsofingassyjj	gaseousjjsumnns	sum_of_moneynnsofinthemnns	amountsnnsofingaseous_statenns	amountnnsofingasesnns	themnnstheynns	amount_of_moneynnsofingassyjj	sum_of_moneynnsofingasnns	sumnnsofingaseousjj	gasnnsamountsnns	amountsnnsofingasnns	amountsnnsofintheynns	theynnsamount_of_moneynns	theynnsamountsnns	gaseous_statennssum_of_moneynns	sum_of_moneynnsofintheynns	themnnsamountsnns	gasesnnsamount_of_moneynns	sumnnsofingassyjj	amountsnnsofinthemnns	gaseous_statennsamountsnns	amountnnsofingasnns	theynnsthemnns	amount_of_moneynnsofinthemnns	gaseous_statennssumnns	theynnsofinthemnns	theynnsofintheynns	gaseousjjamountnns	themnnsofingaseousjj	gasesnnsamountnns	gasesnnssumnns	gaseous_statennsthemnns	sum_of_moneynnsofingassyjj	themnnssumnns	gasesnnstheynns	themnnsofingaseous_statenns	theynnsamountnns	theynnsofingaseousjj	amount_of_moneynnsofingaseousjj	amountnnsofingaseousjj	sumnnsofingasnns	gasesnnsamountsnns	theynnsofingasesnns	gasnnsamount_of_moneynns	gaseous_statennstheynns	sumnnsofinthemnns	gassyjjsum_of_moneynns	gaseous_statennsamount_of_moneynns	theynnsofingaseous_statenns	theynnssum_of_moneynns	theynnssumnns	sumnnsofingasesnns	gasnnsthemnns	amountnnsofingassyjj	gaseousjjtheynns	sumnnsofingaseous_statenns	gaseousjjamount_of_moneynns	amountsnnsofingassyjj	themnnsthemnns	theynnsofingassyjj	theynnsofingasnns	gaseousjjsum_of_moneynns	amount_of_moneynnsofintheynns	amountnnsofinthemnns	themnnsofinthemnns	gasnnssum_of_moneynns	gasnnssumnns	amount_of_moneynnsofingasnns	gaseous_statennsamountnns	themnnsofintheynns	gasnnsamountnns	gasesnnssum_of_moneynns	amount_of_moneynnsofingaseous_statenns	themnnsamount_of_moneynns	amount_of_moneynnsofingasesnns	
+
+BE: amountsNNSofINparticlesNNS
+EQ class: sum_of_moneynnsofinatomnns	theynnsofinspecknns	sumnnsofintheynns	moleculennsamountsnns	moleculennssumnns	amountnnsofinparticlesnns	amountnnsofinparticlenns	amount_of_moneynnsofinparticlesnns	particlesnnssumnns	corpusclennssum_of_moneynns	amountnnsofinspecknns	themnnsofinparticlesnns	particlesnnsamountnns	particlesnnssum_of_moneynns	sum_of_moneynnsofinmotenns	motennsamountnns	atomnnssum_of_moneynns	sumnnsofinmotenns	themnnsamountnns	theynnsofinatomnns	specknnsamount_of_moneynns	moleculennsthemnns	theynnstheynns	theynnsofinmotenns	amountnnsofintheynns	amount_of_moneynnsofinatomnns	moleculennsamountnns	amountsnnsofinparticlenns	amount_of_moneynnsofinspecknns	sumnnsofinparticlenns	particlesnnsthemnns	themnnsofinparticlenns	amount_of_moneynnsofinmotenns	sum_of_moneynnsofincorpusclenns	themnnssum_of_moneynns	atomnnsthemnns	amount_of_moneynnsofincorpusclenns	specknnsamountnns	atomnnssumnns	particlennsamount_of_moneynns	sum_of_moneynnsofinthemnns	amount_of_moneynnsofinparticlenns	particlesnnstheynns	atomnnstheynns	particlennsthemnns	themnnstheynns	motennssum_of_moneynns	amountsnnsofintheynns	theynnsamount_of_moneynns	theynnsamountsnns	theynnsofinparticlesnns	sum_of_moneynnsofintheynns	themnnsamountsnns	amountnnsofinatomnns	amountsnnsofinthemnns	amountsnnsofinspecknns	moleculennsamount_of_moneynns	specknnsthemnns	theynnsofinparticlenns	themnnsofinmoleculenns	theynnsthemnns	amountsnnsofincorpusclenns	amountsnnsofinmotenns	atomnnsamountnns	amount_of_moneynnsofinthemnns	atomnnsamountsnns	sumnnsofinmoleculenns	particlennssumnns	sumnnsofinspecknns	specknnssumnns	theynnsofinthemnns	amountsnnsofinmoleculenns	particlennsamountnns	theynnsofintheynns	sumnnsofinparticlesnns	moleculennstheynns	specknnsamountsnns	themnnsofinmotenns	corpusclennsamountsnns	sumnnsofinatomnns	themnnssumnns	corpusclennssumnns	particlesnnsamount_of_moneynns	motennssumnns	amountnnsofinmotenns	corpusclennsthemnns	theynnsamountnns	motennsamount_of_moneynns	particlennstheynns	amountnnsofinmoleculenns	sum_of_moneynnsofinspecknns	sum_of_moneynnsofinparticlesnns	atomnnsamount_of_moneynns	motennsthemnns	motennstheynns	theynnsofincorpusclenns	themnnsofinspecknns	specknnstheynns	corpusclennsamountnns	themnnsofinatomnns	sumnnsofinthemnns	specknnssum_of_moneynns	particlennssum_of_moneynns	corpusclennstheynns	sum_of_moneynnsofinparticlenns	amountnnsofincorpusclenns	theynnssum_of_moneynns	theynnssumnns	themnnsthemnns	amount_of_moneynnsofinmoleculenns	moleculennssum_of_moneynns	amount_of_moneynnsofintheynns	amountnnsofinthemnns	themnnsofinthemnns	themnnsofintheynns	amountsnnsofinatomnns	particlesnnsamountsnns	sum_of_moneynnsofinmoleculenns	themnnsamount_of_moneynns	motennsamountsnns	corpusclennsamount_of_moneynns	themnnsofincorpusclenns	sumnnsofincorpusclenns	particlennsamountsnns	theynnsofinmoleculenns	
+
+BE: saltNNfromINoceansNNS
+EQ class: saltyjjfrominthemnns	saltnnfrominoceanicjj	theynnssaltyvb	saltnnfrominthemnns	theynnssaltyjj	saltyjjfromintheynns	saltyvboceansnns	saltyvbthemnns	theynnssaltnn	saltyvboceanicjj	themnnssaltyvb	saltnnfromintheynns	saltyjjfrominoceanicjj	oceanicjjsaltnn	oceannnssaltyjj	saltnnfrominoceannns	oceannnssaltnn	oceannnssaltyvb	oceansnnssaltyjj	themnnssaltnn	saltyvboceannns	oceansnnssaltnn	oceanicjjsaltyjj	saltyvbtheynns	themnnssaltyjj	oceanicjjsaltyvb	saltyjjfrominoceansnns	oceansnnssaltyvb	saltyjjfrominoceannns	
+
+BE: areAUXlikeINdustNN
+EQ class: beauxlikeindustyjj	areauxlikeindustyjj	beauxlikeindustnn	
+
+BE: areAUXlikeINsootNN
+EQ class: areauxlikeincrocknn	beauxlikeinsootyjj	beauxlikeincarbon_blacknn	beauxlikeinlampblacknn	areauxlikeinlampblacknn	beauxlikeinsmutnn	areauxlikeinsmutnn	areauxlikeinsootyjj	beauxlikeincrocknn	beauxlikeinsootnn	areauxlikeincarbon_blacknn	
+
+BE: areAUXlikeINpollenNN
+EQ class: beauxlikeinpollennn	
+
+BE: areAUXlikeINsaltNN
+EQ class: beauxlikeinsaltyjj	areauxlikeinsaltyjj	beauxlikeinsaltnn	
+
+BE: areAUXalsoRB
+EQ class: beauxalsorb	
+
+BE: compositionNN
+EQ class: composingnn	
+
+BE: atmosphereNN
+EQ class: ambiencenn	ambiancenn	
+
+BE: locationNN
+EQ class: 
+
+BE: weatherNN
+EQ class: atmospheric_conditionnn	conditionsnn	weather_conditionnn	
+
+BE: thingsNNS
+EQ class: theynns	themnns	
+
+BE: variesVBZ
+EQ class: altervbz	changevbz	varyvbz	
+
+BE: dependingVBG
+EQ class: dependvbg	
+
+BE: manyJJ
+EQ class: 
+
+BE: otherJJ
+EQ class: 
+
+BE: manyJJthingsNNS
+EQ class: manyjjtheynns	manyjjthemnns	
+
+BE: otherJJthingsNNS
+EQ class: otherjjtheynns	otherjjthemnns	
+
+BE: yourPRP$locationNN
+EQ class: locatevbyourprp$	turn_upvbyourprp$	locationnnofinyourprp$	yourprp$locatevb	yourprp$turn_upvb	
+
+BE: locationNNweatherNN
+EQ class: locationnnendurevb	locationnnweathervb	locationnnofinweathernn	atmospheric_conditionnnlocationnn	weather_conditionnnlocatevb	locationnnconditionsnn	weathernnlocationnn	atmospheric_conditionnnturn_upvb	conditionsnnturn_upvb	conditionsnnlocatevb	weather_conditionnnturn_upvb	locationnnofinconditionsnn	locationnnatmospheric_conditionnn	weather_conditionnnlocationnn	locationnnweather_conditionnn	weathernnlocatevb	locationnnofinatmospheric_conditionnn	locationnnbravevb	atmospheric_conditionnnlocatevb	conditionsnnlocationnn	weathernnturn_upvb	locationnnbrave_outvb	locationnnofinweather_conditionnn	
+
+BE: compositionNNvariesVBZ
+EQ class: variationnncompositionnn	variablennofincompositionnn	variablennofincomposingnn	variantjjofincompositionnn	composingnnvaryvbz	variantjjcompositionnn	variantnncompositionnn	composingnnchangevbz	variantnncomposingnn	variablejjofincomposingnn	fluctuationnnofincomposingnn	variationnncomposingnn	compositionnnvaryvbz	composingnnvariesvbz	variantnnofincomposingnn	variationnnofincomposingnn	composingnnaltervbz	variantnnofincompositionnn	variancennofincompositionnn	compositionnnaltervbz	variantjjcomposingnn	variablejjofincompositionnn	fluctuationnncompositionnn	variancennofincomposingnn	discrepancynnofincompositionnn	discrepancynnofincomposingnn	discrepancynncomposingnn	variantjjofincomposingnn	variationnnofincompositionnn	variancenncomposingnn	discrepancynncompositionnn	compositionnnchangevbz	variancenncompositionnn	fluctuationnnofincompositionnn	fluctuationnncomposingnn	
+
+BE: compositionNNofINatmosphereNN
+EQ class: ambiencenncomposingnn	compositionnnofinambiancenn	ambiancenncompositionnn	compositionnnofinambiencenn	atmospherenncomposingnn	composingnnofinambiancenn	atmospherenncompositionnn	composingnnofinambiencenn	ambiencenncompositionnn	composingnnofinatmospherenn	ambiancenncomposingnn	
+
+BE: dependingVBGonINlocationNN
+EQ class: dependvbgoninlocationnn	
+
+BE: dependingVBGonINweatherNN
+EQ class: dependingvbgoninatmospheric_conditionnn	dependvbgoninconditionsnn	dependvbgoninweathernn	dependvbgoninatmospheric_conditionnn	dependvbgoninweather_conditionnn	dependingvbgoninconditionsnn	dependingvbgoninweather_conditionnn	
+
+BE: dependingVBGonINthingsNNS
+EQ class: dependingvbgonintheynns	dependvbgoninthingsnns	dependingvbgoninthemnns	dependvbgoninthemnns	dependvbgonintheynns	
+
+BE: waterNN
+EQ class: wateryjj	h2onn	
+
+BE: airNN
+EQ class: 
+
+BE: rainstormNN
+EQ class: 
+
+BE: oceanNN
+EQ class: oceanicjj	
+
+BE: moreJJR
+EQ class: more_thanjjr	
+
+BE: moreJJRwaterNN
+EQ class: morejjrwateryjj	more_thanjjrwaternn	more_thanjjrwateryjj	more_thanjjrh2onn	morejjrh2onn	
+
+BE: thereEXbeAUX
+EQ class: 
+
+BE: beAUXwaterNN
+EQ class: beauxh2onn	beauxwateryjj	
+
+BE: airNNafterINrainstormNN
+EQ class: rainstormnnair_outvb	rainstormnnvaporizevb	air_outvbrainstormnn	aeratevbrainstormnn	rainstormnnairnn	rainstormnnairvb	gasifyvbrainstormnn	vaporizevbrainstormnn	airvbrainstormnn	vaporisevbrainstormnn	rainstormnnaeratevb	rainstormnnvaporisevb	rainstormnngasifyvb	aerifyvbrainstormnn	rainstormnnaerifyvb	
+
+BE: VolcanoesPersonAnnotation
+EQ class: 
+
+BE: amountsNNS
+EQ class: amount_of_moneynns	sumnns	theynns	sum_of_moneynns	amountnns	themnns	
+
+BE: dustNN
+EQ class: dustyjj	
+
+BE: particlesNNS
+EQ class: corpusclenns	moleculenns	specknns	atomnns	theynns	particlenns	motenns	themnns	
+
+BE: atmosphereNN
+EQ class: ambiencenn	ambiancenn	
+
+BE: putVB
+EQ class: posevb	placevb	positionvb	layvb	setvb	
+
+BE: largeJJ
+EQ class: bigjj	largenn	largenessnn	
+
+BE: highJJ
+EQ class: highnessnn	
+
+BE: largeJJamountsNNS
+EQ class: largejjthemnns	largenessnnamount_of_moneynns	bigjjamountsnns	largennamount_of_moneynns	largennsumnns	largenessnntheynns	largejjtheynns	largenessnnsumnns	largenessnnthemnns	bigjjamountnns	largejjamount_of_moneynns	bigjjtheynns	largenessnnsum_of_moneynns	largejjamountnns	largejjsum_of_moneynns	bigjjsumnns	largenessnnamountnns	largejjsumnns	bigjjthemnns	largennamountsnns	bigjjamount_of_moneynns	largenntheynns	largennsum_of_moneynns	largennthemnns	bigjjsum_of_moneynns	largenessnnamountsnns	largennamountnns	
+
+BE: dustNNparticlesNNS
+EQ class: dustyjjcorpusclenns	dustnnofincorpusclenns	sirocconnofinatomnns	dustnnmotenns	dust_stormnnofinatomnns	dustyjjofinmotenns	dustyjjofinparticlesnns	dustnnparticlenns	specknnsofindustyjj	dustnnofinparticlesnns	sandstormnnofinspecknns	dust_stormnnofincorpusclenns	corpusclennsdustvb	dustyjjofinthemnns	dustnnofinmoleculenns	dustyjjofinspecknns	sirocconnofinparticlesnns	dustyjjtheynns	dustyjjofincorpusclenns	dustnnthemnns	sirocconnofinparticlenns	dusternnofinmoleculenns	themnnsofindustyjj	dusternnofincorpusclenns	particlesnnsdustvb	moleculennsdustvb	sirocconnofinspecknns	dust_stormnnofinparticlenns	sandstormnnofinparticlenns	dustyjjofinparticlenns	dusternnofintheynns	dustnncorpusclenns	dustnnspecknns	dustyjjthemnns	dustyjjofinmoleculenns	dusternnofinmotenns	dustyjjparticlenns	sandstormnnofintheynns	dustyjjparticlesnns	motennsofindustyjj	dustyjjatomnns	motennsofindustnn	specknnsofindustnn	dustyjjmoleculenns	sirocconnofintheynns	sandstormnnofinparticlesnns	dusternnofinparticlesnns	moleculennsofindustnn	dust_stormnnofinparticlesnns	dustnnmoleculenns	dustnnatomnns	sandstormnnofincorpusclenns	sirocconnofinmotenns	particlesnnsofindustyjj	theynnsdustvb	particlennsofindustnn	particlesnnsofindustnn	sandstormnnofinthemnns	theynnsofindustnn	themnnsdustvb	dust_stormnnofintheynns	dust_stormnnofinmoleculenns	dusternnofinspecknns	dustnnofinparticlenns	theynnsofindustyjj	dustnnofinspecknns	corpusclennsofindustnn	corpusclennsofindustyjj	dustyjjspecknns	sirocconnofincorpusclenns	atomnnsofindustyjj	sandstormnnofinmotenns	dust_stormnnofinmotenns	themnnsofindustnn	dustyjjofinatomnns	dust_stormnnofinthemnns	dustnnofinthemnns	specknnsdustvb	dustyjjofintheynns	atomnnsdustvb	dustnnofinatomnns	sirocconnofinthemnns	moleculennsofindustyjj	dusternnofinparticlenns	sandstormnnofinmoleculenns	dustnnofintheynns	sirocconnofinmoleculenns	dustnntheynns	sandstormnnofinatomnns	motennsdustvb	atomnnsofindustnn	particlennsofindustyjj	particlennsdustvb	dust_stormnnofinspecknns	dustnnofinmotenns	dusternnofinatomnns	dustyjjmotenns	dusternnofinthemnns	
+
+BE: VolcanoesPersonAnnotationputVB
+EQ class: volcanoespersonannotationsetvb	volcanoespersonannotationpositionvb	volcanoespersonannotationposevb	volcanoespersonannotationplacevb	volcanoespersonannotationlayvb	
+
+BE: putVBamountsNNS
+EQ class: setvbamountnns	positionvbsumnns	putvbsumnns	posevbamount_of_moneynns	placevbsumnns	positionvbsum_of_moneynns	layvbamountsnns	placevbtheynns	putvbsum_of_moneynns	layvbsumnns	layvbtheynns	posevbamountnns	posevbsum_of_moneynns	setvbsum_of_moneynns	layvbamount_of_moneynns	layvbthemnns	posevbthemnns	posevbsumnns	putvbamount_of_moneynns	setvbamountsnns	setvbthemnns	placevbthemnns	putvbtheynns	placevbamount_of_moneynns	positionvbtheynns	positionvbthemnns	putvbamountnns	positionvbamountnns	posevbtheynns	posevbamountsnns	putvbthemnns	layvbsum_of_moneynns	setvbtheynns	placevbamountsnns	setvbsumnns	placevbsum_of_moneynns	layvbamountnns	placevbamountnns	positionvbamount_of_moneynns	positionvbamountsnns	setvbamount_of_moneynns	
+
+BE: amountsNNSofINparticlesNNS
+EQ class: sum_of_moneynnsofinatomnns	theynnsofinspecknns	sumnnsofintheynns	moleculennsamountsnns	moleculennssumnns	amountnnsofinparticlesnns	amountnnsofinparticlenns	amount_of_moneynnsofinparticlesnns	particlesnnssumnns	corpusclennssum_of_moneynns	amountnnsofinspecknns	themnnsofinparticlesnns	particlesnnsamountnns	particlesnnssum_of_moneynns	sum_of_moneynnsofinmotenns	motennsamountnns	atomnnssum_of_moneynns	sumnnsofinmotenns	themnnsamountnns	theynnsofinatomnns	specknnsamount_of_moneynns	moleculennsthemnns	theynnstheynns	theynnsofinmotenns	amountnnsofintheynns	amount_of_moneynnsofinatomnns	moleculennsamountnns	amountsnnsofinparticlenns	amount_of_moneynnsofinspecknns	sumnnsofinparticlenns	particlesnnsthemnns	themnnsofinparticlenns	amount_of_moneynnsofinmotenns	sum_of_moneynnsofincorpusclenns	themnnssum_of_moneynns	atomnnsthemnns	amount_of_moneynnsofincorpusclenns	specknnsamountnns	atomnnssumnns	particlennsamount_of_moneynns	sum_of_moneynnsofinthemnns	amount_of_moneynnsofinparticlenns	particlesnnstheynns	atomnnstheynns	particlennsthemnns	themnnstheynns	motennssum_of_moneynns	amountsnnsofintheynns	theynnsamount_of_moneynns	theynnsamountsnns	theynnsofinparticlesnns	sum_of_moneynnsofintheynns	themnnsamountsnns	amountnnsofinatomnns	amountsnnsofinthemnns	amountsnnsofinspecknns	moleculennsamount_of_moneynns	specknnsthemnns	theynnsofinparticlenns	themnnsofinmoleculenns	theynnsthemnns	amountsnnsofincorpusclenns	amountsnnsofinmotenns	atomnnsamountnns	amount_of_moneynnsofinthemnns	atomnnsamountsnns	sumnnsofinmoleculenns	particlennssumnns	sumnnsofinspecknns	specknnssumnns	theynnsofinthemnns	amountsnnsofinmoleculenns	particlennsamountnns	theynnsofintheynns	sumnnsofinparticlesnns	moleculennstheynns	specknnsamountsnns	themnnsofinmotenns	corpusclennsamountsnns	sumnnsofinatomnns	themnnssumnns	corpusclennssumnns	particlesnnsamount_of_moneynns	motennssumnns	amountnnsofinmotenns	corpusclennsthemnns	theynnsamountnns	motennsamount_of_moneynns	particlennstheynns	amountnnsofinmoleculenns	sum_of_moneynnsofinspecknns	sum_of_moneynnsofinparticlesnns	atomnnsamount_of_moneynns	motennsthemnns	motennstheynns	theynnsofincorpusclenns	themnnsofinspecknns	specknnstheynns	corpusclennsamountnns	themnnsofinatomnns	sumnnsofinthemnns	specknnssum_of_moneynns	particlennssum_of_moneynns	corpusclennstheynns	sum_of_moneynnsofinparticlenns	amountnnsofincorpusclenns	theynnssum_of_moneynns	theynnssumnns	themnnsthemnns	amount_of_moneynnsofinmoleculenns	moleculennssum_of_moneynns	amount_of_moneynnsofintheynns	amountnnsofinthemnns	themnnsofinthemnns	themnnsofintheynns	amountsnnsofinatomnns	particlesnnsamountsnns	sum_of_moneynnsofinmoleculenns	themnnsamount_of_moneynns	motennsamountsnns	corpusclennsamount_of_moneynns	themnnsofincorpusclenns	sumnnsofincorpusclenns	particlennsamountsnns	theynnsofinmoleculenns	
+
+BE: putVBintoINatmosphereNN
+EQ class: positionvbintoinambiencenn	layvbintoinambiencenn	layvbintoinambiancenn	posevbintoinambiancenn	setvbintoinambiancenn	putvbintoinambiencenn	posevbintoinatmospherenn	setvbintoinambiencenn	setvbintoinatmospherenn	putvbintoinambiancenn	positionvbintoinambiancenn	layvbintoinatmospherenn	placevbintoinatmospherenn	posevbintoinambiencenn	placevbintoinambiancenn	placevbintoinambiencenn	positionvbintoinatmospherenn	
+
+BE: PollutionNN
+EQ class: 
+
+BE: gasesNNS
+EQ class: theynns	gaseous_statenns	gasnns	gaseousjj	themnns	gassyjj	
+
+BE: dustNN
+EQ class: dustyjj	
+
+BE: sootNN
+EQ class: smutnn	lampblacknn	sootyjj	carbon_blacknn	crocknn	
+
+BE: addVB
+EQ class: 
+
+BE: differentJJ
+EQ class: differencenn	
+
+BE: differentJJgasesNNS
+EQ class: vaporisevbdifferentlyrb	differencenngasesnns	differentjjgassyjj	gassyvbdifferentlyrb	differentjjgaseous_statenns	differencenngaseous_statenns	vaporizevbdifferentlyrb	differencenntheynns	differencenngasnns	differencenngassyjj	differentjjtheynns	differentjjgaseousjj	gaseousvbdifferentlyrb	differentjjthemnns	differentjjgasnns	gasifyvbdifferentlyrb	aerifyvbdifferentlyrb	differencenngaseousjj	differencennthemnns	
+
+BE: PollutionNNaddVB
+EQ class: additionnnpollutionnn	add-onnnofinpollutionnn	improvernnpollutionnn	additivennofinpollutionnn	additionnnofinpollutionnn	add-onnnpollutionnn	improvernnofinpollutionnn	additivejjofinpollutionnn	
+
+BE: addVBgasesNNS
+EQ class: improvernnofintheynns	improvernnofinthemnns	additionnnofintheynns	addvbgasnns	additivejjofingasnns	additionnnofingasnns	add-onnnofingassyjj	addvbtheynns	improvernnofingasesnns	addvbgaseousjj	additivejjofingaseous_statenns	add-onnnofingaseousjj	additivennofinthemnns	add-onnnofinthemnns	addvbthemnns	additivennofingaseous_statenns	improvernnofingaseousjj	additivennofingasesnns	additionnnofingassyjj	additivejjofinthemnns	additivennofintheynns	improvernnofingaseous_statenns	additivejjofingasesnns	add-onnnofingasesnns	additivejjofingassyjj	additionnnofingasesnns	addvbgassyjj	add-onnnofintheynns	addvbgaseous_statenns	add-onnnofingaseous_statenns	additionnnofinthemnns	additivejjofingaseousjj	improvernnofingassyjj	additionnnofingaseousjj	additionnnofingaseous_statenns	additivennofingassyjj	additivejjofintheynns	add-onnnofingasnns	improvernnofingasnns	additivennofingasnns	additivennofingaseousjj	
+
+BE: atmosphereNN
+EQ class: ambiencenn	ambiancenn	
+
+BE: thickestNN
+EQ class: 
+
+BE: bottomNN
+EQ class: undersidenn	undersurfacenn	
+
+BE: EarthNNP
+EQ class: globennp	worldnnp	
+
+BE: densestJJS
+EQ class: heavyjjs	impenetrablejjs	densitynn	densejjs	
+
+BE: atmosphereNNisAUX
+EQ class: ambiencennbeaux	ambiancennbeaux	ambiencennisaux	atmospherennbeaux	ambiancennisaux	
+
+BE: isAUXdensestJJS
+EQ class: beauxdensestjjs	isauxdensejjs	beauxheavyjjs	beauxdensejjs	isauximpenetrablejjs	isauxheavyjjs	isauxdensitynn	beauximpenetrablejjs	beauxdensitynn	
+
+BE: bottomNNnearINEarthNNP
+EQ class: globennpbottomvb	bottomnnnearinglobennp	earthnnpbottomvb	earthnnpundersurfacenn	worldnnpundersurfacenn	bottomvbglobennp	globennpundersurfacenn	worldnnpbottomvb	worldnnpbottomnn	worldnnpundersidenn	earthnnpundersidenn	undersurfacennnearinglobennp	undersurfacennnearinworldnnp	undersidennnearinworldnnp	bottomvbworldnnp	globennpundersidenn	undersurfacennnearinearthnnp	undersidennnearinearthnnp	earthnnpbottomnn	undersidennnearinglobennp	bottomnnnearinworldnnp	bottomvbearthnnp	globennpbottomnn	
+
+BE: isAUXatINbottomNN
+EQ class: isauxatinundersidenn	beauxatinbottomnn	isauxatinundersurfacenn	beauxatinundersidenn	beauxatinundersurfacenn	
+
+BE: densestJJSatmosphereNN
+EQ class: atmospherennheavyjjs	ambiancennimpenetrablejjs	densejjsatmospherenn	atmospherenndensitynn	heavyjjsambiancenn	ambiancenndensejjs	ambiancenndensestjjs	atmospherenndensestjjs	ambiencenndensitynn	heavyjjsambiencenn	ambiancennheavyjjs	densejjsambiencenn	densitynnatmospherenn	densestjjsambiancenn	atmospherenndensejjs	densejjsambiancenn	impenetrablejjsambiancenn	heavyjjsatmospherenn	impenetrablejjsatmospherenn	impenetrablejjsambiencenn	ambiancenndensitynn	ambiencennheavyjjs	ambiencennimpenetrablejjs	ambiencenndensejjs	atmospherennimpenetrablejjs	densestjjsambiencenn	densitynnambiencenn	densitynnambiancenn	ambiencenndensestjjs	
+
+BE: goVBP
+EQ class: movevbp	travelvbp	locomotevbp	
+
+BE: thinsVBZoutRP
+EQ class: thinvbzoutrp	
+
+BE: itPRPthinsVBZ
+EQ class: itprpthinvbz	
+
+BE: youPRPgoVBP
+EQ class: youprptravelvbp	youprpmovevbp	youprplocomotevbp	
+
+BE: thinsVBZasINgoVBP
+EQ class: thinvbzasintravelvbp	thinvbzasingovbp	thinsvbzasintravelvbp	thinvbzasinlocomotevbp	thinsvbzasinlocomotevbp	thinsvbzasinmovevbp	thinvbzasinmovevbp	
+
+BE: thinsVBZgraduallyRB
+EQ class: gradualitynnininthinsvbz	thinvbzgraduallyrb	gradualjjininthinvbz	gradualnessnnininthinsvbz	gradualjjininthinsvbz	gradualitynnininthinvbz	gradualnessnnininthinvbz	
+
+BE: goVBPupRB
+EQ class: travelvbpuprb	locomotevbpuprb	movevbpuprb	
+
+BE: breakNN
+EQ class: interruptionnn	
+
+BE: atmosphereNN
+EQ class: ambiencenn	ambiancenn	
+
+BE: spaceNN
+EQ class: spatialjj	infinitenn	spacialjj	
+
+BE: sharpJJ
+EQ class: sharpnessnn	crispjj	
+
+BE: sharpJJbreakNN
+EQ class: sharpnessnninterruptionnn	interruptvbsharplyrb	crispjjinterruptionnn	crispjjbreaknn	sharpjjinterruptionnn	breakvbsharplyrb	sharpnessnnbreaknn	
+
+BE: thereEXisAUX
+EQ class: thereexbeaux	
+
+BE: isAUXbreakNN
+EQ class: beauxinterruptionnn	isauxinterruptionnn	beauxbreaknn	
+
+BE: breakNNbetweenINatmosphereNN
+EQ class: breaknnbetweeninambiencenn	interruptionnnbetweeninambiencenn	ambiancenninterruptionnn	interruptionnnbetweeninatmospherenn	interruptvbambiancenn	interruptionnnbetweeninambiancenn	interruptvbatmospherenn	atmospherennbreaknn	breaknnbetweeninambiancenn	interruptvbambiencenn	ambiencennbreaknn	ambiencenninterruptionnn	ambiancennbreaknn	ambiencenninterruptvb	ambiancennbreakvb	atmospherenninterruptvb	ambiencennbreakvb	atmospherenninterruptionnn	ambiancenninterruptvb	breakvbatmospherenn	atmospherennbreakvb	breakvbambiancenn	breakvbambiencenn	
+

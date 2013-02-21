@@ -1,0 +1,49 @@
+#pluto isent a planet? 
+#(S1 (S (NP (NNP pluto)) (VP (VB isent) (NP (DT a) (NN planet))) (. ?)))
+#Rule:Nouns
+r1plutoNNP
+r1planetNN
+
+#Rule:Verbs
+r2isentVB
+
+#Rule:HeadNoun-V
+r11plutoNNPisentVB
+
+#Rule:V-HeadNoun
+r21isentVBplanetNN
+
+#when did that happen? 
+#(S1 (SBARQ (WHADVP (WRB when)) (SQ (AUX did) (NP (DT that)) (VP (VB happen))) (. ?)))
+#Rule:Verbs
+r2happenVB
+
+#i just did a project on pluto last month!
+#(S1 (S (NP (PRP i)) (ADVP (RB just)) (VP (AUX did) (NP (NP (DT a) (NN project)) (PP (IN on) (NP (NN pluto)))) (NP (JJ last) (NN month))) (. !)))
+#Rule:Nouns
+r1projectNN
+r1plutoNN
+r1monthNN
+
+#Rule:Adjs
+r4lastJJ
+
+#Rule:Adj-Noun
+r5lastJJmonthNN
+
+#Rule:HeadNoun-V
+r11iPRPdidAUX
+
+#Rule:V-HeadNoun
+r21didAUXprojectNN
+r21didAUXmonthNN
+
+#Rule:PPinNP
+r26projectNNonINplutoNN
+
+#Rule:V-ADV
+r46didAUXjustRB
+
+@lemmas-left	project	isent	planet	last	month	did	do	happen	pluto	i	
+@lemmas-right	just	project	isent	planet	month	did	do	pluto	
+@lemmas-center	on	

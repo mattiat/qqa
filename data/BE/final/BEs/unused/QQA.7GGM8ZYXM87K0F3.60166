@@ -1,0 +1,158 @@
+#It was the Viet Nam Conflict - war was never officially declared.  
+#(S1 (S (S (NP (PRP It)) (VP (AUX was) (NP (NP (DT the) (NNP Viet) (NNP Nam)) (NN Conflict)))) (: -) (S (NP (NN war)) (VP (AUX was) (ADVP (RB never)) (VP (ADVP (RB officially)) (VBN declared)))) (. .)))
+#Rule:Nouns
+r1Viet NamLocationAnnotation
+r1ConflictNN
+r1warNN
+
+#Rule:Verbs
+r2declaredVBN
+
+#Rule:HeadNoun-V
+r11itPRPwasAUX
+
+#Rule:V-HeadNoun
+r21wasAUXConflictNN
+
+#Rule:V-HeadNoun(passive)
+r23declaredVBNwarNN
+
+#Rule:V-ADV
+r46wasAUXneverRB
+r46declaredVBNneverRB
+r46declaredVBNofficiallyRB
+
+#What a joke!  
+#(S1 (FRAG (SBAR (WHNP (WP What)) (FRAG (NP (DT a) (NN joke)))) (. !)))
+#Rule:Nouns
+r1jokeNN
+
+#It was war.  
+#(S1 (S (NP (PRP It)) (VP (AUX was) (NP (NN war))) (. .)))
+#Rule:Nouns
+r1warPersonAnnotation
+
+#Rule:HeadNoun-V
+r11itPRPwasAUX
+
+#Rule:V-HeadNoun
+r21wasAUXwarPersonAnnotation
+
+#It was hell.  
+#(S1 (S (NP (PRP It)) (VP (AUX was) (NP (NN hell))) (. .)))
+#Rule:Nouns
+r1hellPersonAnnotation
+
+#Rule:HeadNoun-V
+r11itPRPwasAUX
+
+#Rule:V-HeadNoun
+r21wasAUXhellPersonAnnotation
+
+#The answers you received are correct.  
+#(S1 (S (NP (NP (DT The) (NNS answers)) (SBAR (S (NP (PRP you)) (VP (VBD received))))) (VP (AUX are) (ADJP (JJ correct))) (. .)))
+#Rule:Nouns
+r1answersNNS
+
+#Rule:Verbs
+r2receivedVBD
+
+#Rule:Adjs
+r4correctJJ
+
+#Rule:HeadNoun-V
+r11answersNNSareAUX
+r11youPRPreceivedVBD
+
+#Rule:NP(NP(z) SBAR(S(NP(x)VP(y))))
+r19receivedVBDanswersNNS
+
+#Rule:V-ADJ
+r25areAUXcorrectJJ
+
+#I would add, a most obnoxious attitude that America had, and still has, which is one of arrogance.  
+#(S1 (S (NP (PRP I)) (VP (MD would) (VP (VB add) (, ,) (NP (NP (DT a) (ADJP (RBS most) (JJ obnoxious)) (NN attitude)) (SBAR (WHNP (IN that)) (S (NP (NNP America)) (VP (VP (AUX had)) (, ,) (CC and) (VP (ADVP (RB still)) (AUX has)) (, ,) (SBAR (WHNP (WDT which)) (S (VP (AUX is) (NP (NP (CD one)) (PP (IN of) (NP (NN arrogance))))))))))))) (. .)))
+#Rule:Nouns
+r1attitudeNN
+r1AmericaOrganizationAnnotation
+r1arroganceNN
+
+#Rule:Verbs
+r2addVB
+
+#Rule:Adjs
+r4obnoxiousJJ
+
+#Rule:Adj-Noun
+r5obnoxiousJJattitudeNN
+
+#Rule:HeadNoun-V
+r11iPRPaddVB
+r11AmericaOrganizationAnnotationhadAUX
+r11AmericaOrganizationAnnotationhasAUX
+
+#Rule:V-HeadNoun
+r21addVBattitudeNN
+r21isAUXoneCD
+
+#Rule:PPinNP
+r26oneCDofINarroganceNN
+
+#Rule:V-ADV
+r46hasAUXstillRB
+
+#It taints and paints all international policies.   
+#(S1 (S (NP (PRP It)) (VP (VP (VBZ taints)) (CC and) (VP (NNS paints) (NP (DT all) (JJ international) (NNS policies)))) (. .)))
+#Rule:Nouns
+r1paintsNNS
+r1policiesNNS
+
+#Rule:Verbs
+r2taintsVBZ
+
+#Rule:Adjs
+r4internationalJJ
+
+#Rule:Adj-Noun
+r5internationalJJpoliciesNNS
+
+#Rule:HeadNoun-V
+r11itPRPtaintsVBZ
+
+#Rule:V-HeadNoun
+r21paintsNNSpoliciesNNS
+
+#Elvis would ve been 73.  
+#(S1 (S (NP (NNP Elvis)) (VP (MD would) (RB ve) (VP (AUX been) (NP (CD 73)))) (. .)))
+#Rule:Nouns
+r1ElvisPersonAnnotation
+
+#Rule:HeadNoun-V
+r11ElvisPersonAnnotationbeenAUX
+
+#Rule:V-HeadNoun
+r21beenAUX73CD
+
+#Rule:IS-RULE
+r4773CDElvisPersonAnnotation
+
+#He had lousy docs.
+#(S1 (S (NP (PRP He)) (VP (AUX had) (NP (JJ lousy) (NNS docs))) (. .)))
+#Rule:Nouns
+r1docsNNS
+
+#Rule:Adjs
+r4lousyJJ
+
+#Rule:Adj-Noun
+r5lousyJJdocsNNS
+
+#Rule:HeadNoun-V
+r11hePRPhadAUX
+
+#Rule:V-HeadNoun
+r21hadAUXdocsNNS
+
+@lemmas-left	taint	Elvis	lousy	have	docs	one	answers	received	add	been	policies	has	war	taints	was	attitude	are	correct	declared	joke	Viet Nam	paints	receive	had	be	is	it	international	answer	hell	paint	you	he	Conflict	declare	i	America	obnoxious	doc	arrogance	policy	conflict	73	
+@lemmas-right	taint	Elvis	have	docs	one	answers	received	add	been	war	has	policies	taints	was	attitude	are	officially	correct	receive	had	be	answer	hell	still	Conflict	never	doc	arrogance	conflict	policy	73	
+@lemmas-center	of	

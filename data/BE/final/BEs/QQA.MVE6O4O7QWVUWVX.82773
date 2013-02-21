@@ -1,0 +1,17 @@
+#cause we re tired
+#(S1 (S (VP (VB cause) (S (NP (PRP we)) (ADJP (NNP re) (JJ tired))))))
+#Rule:Nouns
+r1reNNP
+
+#Rule:Verbs
+r2causeVB
+
+#Rule:Adjs
+r4tiredJJ
+
+#Rule:V-HeadNoun
+r22causeVBwePRP
+
+@lemmas-left	cause	tired	re	
+@lemmas-right	we	
+@lemmas-center	

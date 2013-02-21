@@ -1,0 +1,34 @@
+#I have a 7 week English Bulldog - she has a stage 3 heart murmor how long will she live?
+#(S1 (S (S (NP (PRP I)) (VP (AUX have) (NP (DT a) (ADJP (CD 7) (NN week)) (JJ English) (NN Bulldog)))) (: -) (S (NP (PRP she)) (VP (AUX has) (NP (DT a) (NN stage) (CD 3) (NN heart) (NN murmor)))) (SBARQ (WHADVP (WRB how) (RB long)) (SQ (MD will) (NP (PRP she)) (VP (VB live))) (. ?))))
+#Rule:Nouns
+r1weekNN
+r1BulldogOrganizationAnnotation
+r1stageNN
+r1heartNN
+r1murmorNN
+
+#Rule:Verbs
+r2liveVB
+
+#Rule:Adjs
+r4EnglishJJ
+
+#Rule:Adj-Noun
+r57CDBulldogOrganizationAnnotation
+r5EnglishJJBulldogOrganizationAnnotation
+r53CDmurmorNN
+
+#Rule:N-HeadNoun
+r8heartNNmurmorNN
+
+#Rule:HeadNoun-V
+r11iPRPhaveAUX
+r11shePRPhasAUX
+
+#Rule:V-HeadNoun
+r21haveAUXBulldogOrganizationAnnotation
+r21hasAUXmurmorNN
+
+@lemmas-left	heart	have	Bulldog	stage	has	English	i	3	7	murmor	she	english	week	live	
+@lemmas-right	have	Bulldog	murmor	has	
+@lemmas-center	

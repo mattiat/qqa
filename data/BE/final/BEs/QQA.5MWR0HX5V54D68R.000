@@ -1,0 +1,231 @@
+#How Do You Deal with This for the First Time??
+#(S1 (SBARQ (WHADVP (WRB How)) (SQ (AUX Do) (NP (PRP You)) (VP (VB Deal) (PP (IN with) (NP (NP (DT This)) (PP (IN for) (NP (DT the) (JJ First) (NN Time)))))) (. ?)) (. ?)))
+#Rule:Nouns
+r1First TimeOrganizationAnnotation
+
+#Rule:Verbs
+r2dealVB
+
+#Rule:PPinNP
+r26thisDTforINFirst TimeOrganizationAnnotation
+
+#Rule:PPinVP
+r30dealVBwithINthisDT
+
+#Ok I normally can break things down as to how to feel or what to say.
+#(S1 (S (INTJ (UH Ok)) (NP (PRP I)) (ADVP (RB normally)) (VP (MD can) (VP (VB break) (NP (NNS things)) (PRT (RP down)) (PP (IN as) (PP (TO to) (SBAR (SBAR (WHADVP (WRB how)) (S (VP (TO to) (VP (VB feel))))) (CC or) (SBAR (WHNP (WP what)) (S (VP (TO to) (VP (VB say)))))))))) (. .)))
+#Rule:Nouns
+r1thingsNNS
+
+#Rule:Verbs
+r2breakVB
+r2feelVB
+r2sayVB
+
+#Rule:V-PRT
+r3breakVBdownRP
+
+#Rule:HeadNoun-V
+r11iPRPbreakVB
+
+#Rule:V-HeadNoun
+r21breakVBthingsNNS
+
+#  This time I dont know what to say.
+#(S1 (S (NP (NP (DT This) (NN time)) (SBAR (S (NP (PRP I)) (VP (VBP dont))))) (VP (VB know) (SBAR (WHNP (WP what)) (S (VP (TO to) (VP (VB say)))))) (. .)))
+#Rule:Nouns
+r1timeNN
+
+#Rule:Verbs
+r2dontVBP
+r2knowVB
+r2sayVB
+
+#Rule:HeadNoun-V
+r11timeNNknowVB
+r11iPRPdontVBP
+
+#  For the first time in my life I found out that a friend of mine, close to my age, is probably dying of cancer.
+#(S1 (S (PP (IN For) (NP (NP (DT the) (JJ first) (NN time)) (PP (IN in) (NP (PRP$ my) (NN life))))) (NP (PRP I)) (VP (VBD found) (PRT (RP out)) (SBAR (IN that) (S (NP (NP (DT a) (NN friend)) (PP (IN of) (NP (NN mine))) (, ,) (ADJP (RB close) (PP (TO to) (NP (PRP$ my) (NN age)))) (, ,)) (VP (AUX is) (ADVP (RB probably)) (VP (VBG dying) (PP (IN of) (NP (NN cancer)))))))) (. .)))
+#Rule:Nouns
+r1timeNN
+r1lifeNN
+r1friendNN
+r1mineNN
+r1ageNN
+r1cancerNN
+
+#Rule:Verbs
+r2dyingVBG
+
+#Rule:V-PRT
+r3foundVBDoutRP
+
+#Rule:Adjs
+r4firstJJ
+
+#Rule:Adj-Noun
+r5firstJJtimeNN
+
+#Rule:PRP-Noun
+r6myPRP$lifeNN
+r6myPRP$ageNN
+
+#Rule:HeadNoun-V
+r11iPRPfoundVBD
+r11friendNNdyingVBG
+
+#Rule:PPinNP
+r26timeNNinINlifeNN
+r26friendNNofINmineNN
+
+#Rule:PPinVP
+r30dyingVBGofINcancerNN
+
+#Rule:PPinS
+r36foundVBDforINtimeNN
+
+#Rule:PPinADJP
+r37closeRBtoTOageNN
+
+#Rule:V-IN-V
+r43foundVBDthatINdyingVBG
+
+#Rule:V-ADV
+r46isAUXprobablyRB
+r46dyingVBGprobablyRB
+
+#  Was diagnosed with lung cancer.
+#(S1 (S (VP (AUX Was) (VP (VBN diagnosed) (PP (IN with) (NP (NN lung) (NN cancer))))) (. .)))
+#Rule:Nouns
+r1lungNN
+r1cancerNN
+
+#Rule:Verbs
+r2diagnosedVBN
+
+#Rule:N-HeadNoun
+r8lungNNcancerNN
+
+#Rule:PPinVP
+r32diagnosedVBNwithINcancerNN
+
+#  Doesnt smoke at all.
+#(S1 (S (NP (NN Doesnt)) (VP (VBP smoke) (ADVP (IN at) (DT all))) (. .)))
+#Rule:Nouns
+r1DoesntNN
+
+#Rule:Verbs
+r2smokeVBP
+
+#Rule:HeadNoun-V
+r11DoesntNNsmokeVBP
+
+#  Has one son still in school.
+#(S1 (SQ (AUX Has) (NP (PRP one)) (VP (NN son) (ADVP (RB still)) (PP (IN in) (NP (NN school)))) (. .)))
+#Rule:Nouns
+r1sonNN
+r1schoolNN
+
+#  For the first time soemthing leaves me with a tounge that is tied.
+#(S1 (S (PP (IN For) (NP (DT the) (JJ first) (NN time))) (NP (NN soemthing)) (VP (VBZ leaves) (NP (PRP me)) (PP (IN with) (NP (NP (DT a) (NN tounge)) (SBAR (WHNP (WDT that)) (S (VP (AUX is) (VP (VBN tied)))))))) (. .)))
+#Rule:Nouns
+r1timeNN
+r1soemthingNN
+r1toungeNN
+
+#Rule:Verbs
+r2leavesVBZ
+r2tiedVBN
+
+#Rule:Adjs
+r4firstJJ
+
+#Rule:Adj-Noun
+r5firstJJtimeNN
+
+#Rule:HeadNoun-V
+r11soemthingNNleavesVBZ
+
+#Rule:V-(who/that)-HeadNoun
+r18tiedVBNtoungeNN
+
+#Rule:V-HeadNoun
+r21leavesVBZmePRP
+
+#Rule:PPinVP
+r30leavesVBZwithINtoungeNN
+
+#Rule:PPinS
+r36leavesVBZforINtimeNN
+
+#  I mean it isnt because of an accident or war or anything.
+#(S1 (S (NP (PRP I)) (VP (VBP mean) (SBAR (S (NP (PRP it)) (VP (VBD isnt) (PP (IN because) (IN of) (NP (NP (DT an) (NN accident) (CC or) (NN war)) (CC or) (NP (NN anything)))))))) (. .)))
+#Rule:Nouns
+r1accidentNN
+r1warNN
+r1anythingNN
+
+#Rule:Verbs
+r2meanVBP
+r2isntVBD
+
+#Rule:HeadNoun-V
+r11iPRPmeanVBP
+r11itPRPisntVBD
+
+#Rule:PPinVP
+r30isntVBDofINaccidentNN
+r30isntVBDofINanythingNN
+
+#  This time plainly a case of getting older and increased chance of something like cancer.
+#(S1 (FRAG (ADVP (NP (DT This) (NN time)) (RB plainly)) (NP (NP (DT a) (NN case)) (PP (IN of) (S (VP (VBG getting) (NP (NP (ADJP (ADJP (JJR older)) (CC and) (VBN increased)) (NN chance)) (PP (IN of) (NP (NP (NN something)) (PP (IN like) (NP (NN cancer)))))))))) (. .)))
+#Rule:Nouns
+r1timeNN
+r1caseNN
+r1chanceNN
+r1somethingNN
+r1cancerNN
+
+#Rule:Verbs
+r2gettingVBG
+r2increasedVBN
+
+#Rule:Adjs
+r4olderJJR
+
+#Rule:Adj-Noun
+r5olderJJRchanceNN
+r5increasedVBNchanceNN
+
+#Rule:V-HeadNoun
+r21gettingVBGchanceNN
+
+#Rule:PPinNP
+r26chanceNNofINsomethingNN
+r26somethingNNlikeINcancerNN
+
+#  How to I deal with this and what do I say to him?
+#(S1 (SBARQ (WHADVP (WRB How)) (S (VP (TO to) (S (NP (PRP I)) (VP (VB deal) (PP (IN with) (NP (DT this))))))) (CC and) (WHNP (WP what)) (SQ (AUX do) (NP (PRP I)) (VP (VB say) (PP (TO to) (NP (PRP him))))) (. ?)))
+#Rule:Verbs
+r2dealVB
+r2sayVB
+
+#Rule:HeadNoun-V
+r11IOrganizationAnnotationdealVB
+
+#Rule:V-HeadNoun
+r22toTOIOrganizationAnnotation
+
+#Rule:PPinVP
+r30dealVBwithINthisDT
+r30sayVBtoTOhimLocationAnnotation
+
+#  What would you say?
+#(S1 (SBARQ (WHNP (WP What)) (SQ (MD would) (NP (PRP you)) (VP (VB say))) (. ?)))
+#Rule:Verbs
+r2sayVB
+
+@lemmas-left	to	tie	doesnt	chance	leaves	close	break	time	deal	age	diagnosed	something	dying	be	isnt	get	son	smoke	dont	say	case	tied	this	friend	getting	accident	increased	I	war	life	leave	older	die	mean	mine	feel	is	Doesnt	it	First Time	my	know	diagnose	i	lung	school	anything	increase	tounge	things	first	soemthing	cancer	found	
+@lemmas-right	accident	him	chance	leaves	I	break	time	life	deal	leave	age	die	probably	mean	mine	me	something	dying	First Time	isnt	know	smoke	anything	dont	tounge	things	down	this	cancer	found	out	
+@lemmas-center	to	that	of	with	for	like	in	

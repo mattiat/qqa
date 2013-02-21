@@ -1,0 +1,103 @@
+#I am writing a research paper. My topic is why people choose not to use condoms. Why??
+#(S1 (S (NP (PRP I)) (VP (AUX am) (VP (VBG writing) (NP (DT a) (NN research) (NN paper.)) (SBAR (S (NP (PRP$ My) (NN topic)) (VP (AUX is) (SBAR (WHADVP (WRB why)) (S (NP (NNS people)) (VP (VBP choose) (RB not) (S (VP (TO to) (VP (VB use) (NP (NN condoms.)) (FRAG (WHADVP (WRB Why)) (. ?))))))))))))) (. ?)))
+#Rule:Nouns
+r1researchNN
+r1paperNN
+r1topicNN
+r1peopleNNS
+r1condomsNN
+
+#Rule:Verbs
+r2writingVBG
+r2chooseVBP
+r2useVB
+
+#Rule:PRP-Noun
+r6MyPersonAnnotationtopicNN
+
+#Rule:N-HeadNoun
+r8researchNNpaperNN
+
+#Rule:HeadNoun-V
+r11iPRPwritingVBG
+r11topicNNisAUX
+r11peopleNNSchooseVBP
+
+#Rule:V-HeadNoun
+r21writingVBGpaperNN
+r21useVBcondomsNN
+
+#Rule:V-V
+r44chooseVBPuseVB
+
+#Rule:V-ADV
+r46chooseVBPnotRB
+
+#If 1in 4 Americans has an STD, why don t people use them?!!I m having a hard time finding stuff on the web, so even some search tips will help. Does anyone know any good statistic websites?
+#(S1 (SBARQ (SBAR (IN If) (S (NP (QP (JJ 1in) (CD 4)) (NNPS Americans)) (VP (AUX has) (NP (DT an) (NN STD))))) (, ,) (WHADVP (WRB why)) (SQ (VP (VB don) (S (NP (NNS t) (S (NP (NNS people)) (VP (VB use) (NP (PRP them))) (. ?))) (VP (VB !!) (S (NP (PRP I)) (VP (NNP m) (S (VP (AUXG having) (NP (NP (DT a) (JJ hard) (NN time)) (S (VP (VBG finding) (NP (NN stuff)) (PP (IN on) (NP (NP (DT the) (NN web)) (, ,) (SBAR (RB so) (RB even) (S (NP (DT some) (NN search) (NNS tips)) (VP (MD will) (VP (VB help.) (S (NP (NNP Does) (NN anyone)) (VP (VB know) (NP (DT any) (JJ good) (NN statistic) (NNS websites))))))))))))))))))))) (. ?)))
+#Rule:Nouns
+r1AmericansNNPS
+r1STDOrganizationAnnotation
+r1tNNS
+r1peopleNNS
+r1?!!I mLocationAnnotation
+r1timeNN
+r1stuffNN
+r1webNN
+r1searchNN
+r1tipsNNS
+r1DoesNNP
+r1anyoneNN
+r1statisticNN
+r1websitesNNS
+
+#Rule:Verbs
+r2donVB
+r2useVB
+r2findingVBG
+r2helpVB
+r2knowVB
+
+#Rule:Adjs
+r41inJJ
+r4hardJJ
+r4goodJJ
+
+#Rule:Adj-Noun
+r51inJJAmericansNNPS
+r54CDAmericansNNPS
+r5hardJJtimeNN
+r5goodJJwebsitesNNS
+
+#Rule:N-HeadNoun
+r8searchNNtipsNNS
+r8DoesNNPanyoneNN
+r8statisticNNwebsitesNNS
+
+#Rule:HeadNoun-V
+r11AmericansNNPShasAUX
+r11tNNS?!!I mLocationAnnotation
+r11peopleNNSuseVB
+r11tipsNNShelpVB
+r11anyoneNNknowVB
+
+#Rule:V-HeadNoun
+r21hasAUXSTDOrganizationAnnotation
+r21useVBthemPRP
+r21havingAUXGtimeNN
+r21findingVBGstuffNN
+r21knowVBwebsitesNNS
+
+#Rule:V-HeadNoun
+r22donVBtNNS
+r22helpVBanyoneNN
+
+#Rule:PPinVP
+r30findingVBGonINwebNN
+
+#Rule:SubVerbClause
+r50timeNNfindingVBG
+
+@lemmas-left	1in	My	don	have	paper	?!!I m	use	writing	good	people	has	tip	help	time	search	american	finding	write	hard	choose	find	topic	website	condoms.	web	paper.	websites	in	know	research	i	statistic	help.	Does	STD	t	stuff	anyone	4	condoms	having	doe	tips	Americans	
+@lemmas-right	have	paper	?!!I m	use	writing	tip	has	time	help	american	finding	write	choose	find	be	topic	is	website	web	condoms.	paper.	websites	know	not	help.	STD	t	stuff	them	anyone	condoms	tips	Americans	
+@lemmas-center	on	

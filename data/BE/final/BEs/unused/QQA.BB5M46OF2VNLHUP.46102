@@ -1,0 +1,80 @@
+#I m of the opinion that most cancers is related to diet. 
+#(S1 (S (NP (PRP I)) (VP (NNP m) (PP (IN of) (NP (DT the) (NN opinion) (SBAR (IN that) (S (NP (JJS most) (NNS cancers)) (VP (AUX is) (VP (VBN related) (PP (TO to) (NP (NN diet)))))))))) (. .)))
+#Rule:Nouns
+r1mNNP
+r1opinionNN
+r1cancersNNS
+r1dietNN
+
+#Rule:Verbs
+r2relatedVBN
+
+#Rule:Adjs
+r4mostJJS
+
+#Rule:Adj-Noun
+r5mostJJScancersNNS
+
+#Rule:V-HeadNoun(passive)
+r23relatedVBNcancersNNS
+
+#Rule:PPinVP
+r32relatedVBNtoTOdietNN
+
+#Here s a recent story: Berries May Help Prevent CancerCompound Found in Berries May Inhibit Gastrointestinal CancersBy Miranda HittiWebMD Medical NewsReviewed by Louise Chang, MDMarch 26, 2007 ?????? 
+#(S1 (SINV (ADVP (RB Here)) (VBZ s) (NP (DT a) (JJ recent) (NN story)) (: :) (S (NP (NNS Berries)) (VP (MD May) (VP (VB Help) (S (VP (VB Prevent) (SBAR (S (NP (NP (NNP CancerCompound)) (VP (VBN Found) (PP (IN in) (NP (NNS Berries))))) (VP (MD May) (VP (VB Inhibit) (NP (NNP Gastrointestinal) (NNP CancersBy) (NNP Miranda) (NNP HittiWebMD) (NNP Medical) (NNP NewsReviewed)) (PP (IN by) (NP (NP (NNP Louise) (NNP Chang)) (, ,) (ADJP (NP (NNP MDMarch) (CD 26) (, ,) (CD 2007)) (JJ ?????))))))))))))) (. ?)))
+#Rule:Nouns
+r1storyNN
+r1Berries May Help Prevent CancerCompound Found in Berries May Inhibit Gastrointestinal CancersBy Miranda HittiWebMD Medical NewsReviewedOrganizationAnnotation
+r1Louise ChangPersonAnnotation
+r1MDMarchNNP
+
+#Rule:Verbs
+r2sVBZ
+
+#Rule:Adjs
+r4recentJJ
+r4?????JJ
+
+#Rule:Adj-Noun
+r5recentJJstoryNN
+r5?????JJLouise ChangPersonAnnotation
+r526CDMDMarchNNP
+r52007CDMDMarchNNP
+
+#Rule:PPinVP
+r30Berries May Help Prevent CancerCompound Found in Berries May Inhibit Gastrointestinal CancersBy Miranda HittiWebMD Medical NewsReviewedOrganizationAnnotationbyINLouise ChangPersonAnnotation
+
+#Eating berries may make gastrointestinal cancers less likely, two new studies show.
+#(S1 (S (S (NP (JJ Eating) (NNS berries)) (VP (MD may) (VP (VB make) (S (NP (JJ gastrointestinal) (NNS cancers)) (ADJP (RBR less) (JJ likely)))))) (, ,) (NP (CD two) (JJ new) (NNS studies)) (VP (VBP show)) (. .)))
+#Rule:Nouns
+r1berriesNNS
+r1cancersNNS
+r1studiesNNS
+
+#Rule:Verbs
+r2makeVB
+r2showVBP
+
+#Rule:Adjs
+r4EatingJJ
+r4gastrointestinalJJ
+r4likelyJJ
+r4newJJ
+
+#Rule:Adj-Noun
+r5EatingJJberriesNNS
+r5gastrointestinalJJcancersNNS
+r5twoCDstudiesNNS
+r5newJJstudiesNNS
+
+#Rule:HeadNoun-V
+r11studiesNNSshowVBP
+r11berriesNNSmakeVB
+
+#Rule:V-HeadNoun
+r22makeVBcancersNNS
+
+@lemmas-left	relate	2007	diet	MDMarch	most	study	show	studies	recent	related	Eating	story	berry	opinion	Louise Chang	gastrointestinal	likely	m	26	mdmarch	cancers	two	new	?????	s	eating	Berries May Help Prevent CancerCompound Found in Berries May Inhibit Gastrointestinal CancersBy Miranda HittiWebMD Medical NewsReviewed	make	cancer	berries	
+@lemmas-right	diet	MDMarch	study	show	studies	cancers	mdmarch	story	berry	Louise Chang	make	cancer	berries	
+@lemmas-center	to	by	

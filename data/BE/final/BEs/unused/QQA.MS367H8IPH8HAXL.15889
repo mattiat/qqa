@@ -1,0 +1,60 @@
+#Hulk Hogan -5Ric Flair -8Roddy Piper -8Ultimate Warrior -5Bret Hart -8Shawn Michaels -8Stone Cold -10The Rock -10Triple H -5Chris Benoit -10Eddie Guerrero -10Undertaker -9Kane -6John Cena -6Randy Orton -5Batista -6Mr. 
+#(S1 (NP (NP (NN Hulk) (NNP Hogan) (JJ -5Ric) (NN Flair) (NN -8Roddy) (NNP Piper) (JJ -8Ultimate) (NN Warrior) (NN -5Bret) (NNP Hart) (JJ -8Shawn) (NNPS Michaels)) (NP (NP (JJ -8Stone) (JJ Cold) (NN -10The) (NNP Rock) (NN -10Triple) (NNP H) (FW -5Chris) (NNP Benoit)) (NP (JJ -10Eddie) (NNP Guerrero) (JJ -10Undertaker) (JJ -9Kane) (NN -6John) (NNP Cena) (JJ -6Randy) (NNP Orton) (JJ -5Batista) (NN -6Mr))) (. .)))
+#Rule:Nouns
+r1Hulk HoganPersonAnnotation
+r15Ric FlairPersonAnnotation
+r1-8RoddyNN
+r18Roddy PiperPersonAnnotation
+r1WarriorNN
+r1-5BretNN
+r1Hart -8Shawn Michaels -8Stone ColdPersonAnnotation
+r1-10TheNN
+r1RockNNP
+r1-10TripleNN
+r1HNNP
+r15Chris BenoitPersonAnnotation
+r110Eddie GuerreroPersonAnnotation
+r1-6JohnNN
+r16John Cena -6Randy OrtonPersonAnnotation
+r1-6MrNN
+
+#Rule:Adjs
+r4-5RicJJ
+r4-8UltimateJJ
+r4-10EddieJJ
+r4-10UndertakerJJ
+r4-9KaneJJ
+r4-5BatistaJJ
+
+#Rule:Adj-Noun
+r5-5RicJJHart -8Shawn Michaels -8Stone ColdPersonAnnotation
+r5-8UltimateJJHart -8Shawn Michaels -8Stone ColdPersonAnnotation
+r5Hart -8Shawn Michaels -8Stone ColdPersonAnnotation5Chris BenoitPersonAnnotation
+r5-10EddieJJ-6MrNN
+r5-10UndertakerJJ-6MrNN
+r5-9KaneJJ-6MrNN
+r56John Cena -6Randy OrtonPersonAnnotation-6MrNN
+r5-5BatistaJJ-6MrNN
+
+#Kennedy -5The Great Khali -2Big Show 4
+#(S1 (NP (NNP Kennedy) (NN -5The) (NNP Great) (NNP Khali) (NN -2Big) (NNP Show) (CD 4)))
+#Rule:Nouns
+r1KennedyPersonAnnotation
+r1-5TheNN
+r1GreatNNP
+r1KhaliPersonAnnotation
+r1-2BigNN
+r1ShowNNP
+
+#Rule:Adj-Noun
+r54CDShowNNP
+
+#Rule:N-HeadNoun
+r8-2BigNNShowNNP
+r8KhaliPersonAnnotationShowNNP
+r8GreatNNPShowNNP
+r8-5TheNNShowNNP
+
+@lemmas-left	-8Roddy	-9kane	10Eddie Guerrero	-6John	5Ric Flair	5Chris Benoit	john	-9Kane	-5Ric	show	rock	-8roddy	ultimate	H	undertaker	Rock	triple	Kennedy	Hart -8Shawn Michaels -8Stone Cold	Warrior	-5Bret	-5The	mr	-10The	Show	-10Undertaker	8Roddy Piper	6John Cena -6Randy Orton	-10the	-6Mr	h	-8Ultimate	warrior	Great	Hulk Hogan	great	-5the	-5ric	-5bret	-5Batista	4	Khali	-10Eddie	-10eddie	-10Triple	big	-5batista	-2Big	
+@lemmas-right	mr	Show	5Chris Benoit	show	-6Mr	Hart -8Shawn Michaels -8Stone Cold	
+@lemmas-center	

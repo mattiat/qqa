@@ -1,0 +1,18 @@
+#talk to the school department
+#(S1 (S (VP (VB talk) (PP (TO to) (NP (DT the) (NN school) (NN department))))))
+#Rule:Nouns
+r1schoolNN
+r1departmentOrganizationAnnotation
+
+#Rule:Verbs
+r2talkVB
+
+#Rule:N-HeadNoun
+r8schoolNNdepartmentOrganizationAnnotation
+
+#Rule:PPinVP
+r30talkVBtoTOdepartmentOrganizationAnnotation
+
+@lemmas-left	school	department	talk	
+@lemmas-right	department	
+@lemmas-center	to	

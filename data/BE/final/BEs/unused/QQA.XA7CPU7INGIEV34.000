@@ -1,0 +1,24 @@
+#Describe exactly how the anticancer drug, Cisplatin??
+#(S1 (SQ (VP (VB Describe) (SBAR (WHADVP (RB exactly) (WRB how)) (FRAG (NP (NP (DT the) (NN anticancer) (NN drug)) (, ,) (NP (NNP Cisplatin))) (. ?)))) (. ?)))
+#Rule:Nouns
+r1anticancerNN
+r1drugNN
+r1CisplatinLocationAnnotation
+
+#Rule:Verbs
+r2describeVB
+
+#Rule:N-HeadNoun
+r8anticancerNNdrugNN
+
+#Rule:N-ApposN
+r10drugNNCisplatinLocationAnnotation
+
+#, was discovered.?
+#(S1 (SQ (, ,) (SQ (VP (AUX was) (VP (VBN discovered))) (. .)) (. ?)))
+#Rule:Verbs
+r2discoveredVBN
+
+@lemmas-left	Cisplatin	anticancer	describe	discover	discovered	drug	
+@lemmas-right	Cisplatin	drug	
+@lemmas-center	

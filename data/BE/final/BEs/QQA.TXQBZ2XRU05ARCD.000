@@ -1,0 +1,18 @@
+#How do you deal with recurring allergies?
+#(S1 (SBARQ (WHADVP (WRB How)) (SQ (AUX do) (NP (PRP you)) (VP (VB deal) (PP (IN with) (NP (VBG recurring) (NNS allergies))))) (. ?)))
+#Rule:Nouns
+r1allergiesLocationAnnotation
+
+#Rule:Verbs
+r2dealVB
+r2recurringVBG
+
+#Rule:Adj-Noun
+r5recurringVBGallergiesLocationAnnotation
+
+#Rule:PPinVP
+r30dealVBwithINallergiesLocationAnnotation
+
+@lemmas-left	deal	recurring	recur	allergies	
+@lemmas-right	allergies	
+@lemmas-center	with	

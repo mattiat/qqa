@@ -1,0 +1,90 @@
+BE: doctorNN
+EQ class: physiciannn	dr.nn	doctorialjj	docnn	mediconn	mdnn	
+
+BE: testsNNS
+EQ class: tryoutnns	testnns	theynns	trialnns	trial_runnns	themnns	
+
+BE: symptomsNNS
+EQ class: symptomnns	theynns	symptomaticjj	themnns	
+
+BE: breathlessNN
+EQ class: 
+
+BE: heartNN
+EQ class: bosomnn	
+
+BE: problemsNNS
+EQ class: problemnns	problematicaljj	theynns	problematicjj	themnns	jobnns	
+
+BE: bypassLocationAnnotation
+EQ class: 
+
+BE: gettingVBG
+EQ class: getvbg	acquirevbg	
+
+BE: walkingVBG
+EQ class: walkvbg	
+
+BE: runningVBG
+EQ class: runvbg	
+
+BE: thinkVB
+EQ class: believevb	conceivevb	considervb	
+
+BE: goVB
+EQ class: locomotevb	movevb	travelvb	
+
+BE: doctorVB
+EQ class: sophisticatevb	doctor_upvb	
+
+BE: endVBupRP
+EQ class: ceasevbuprp	terminatevbuprp	finishvbuprp	terminalnnofinuprp	endnnofinuprp	stopvbuprp	
+
+BE: tripleJJ
+EQ class: ternaryjj	treblejj	triplexjj	
+
+BE: tripleJJbypassLocationAnnotation
+EQ class: treblejjbypasslocationannotation	ternaryjjbypasslocationannotation	triplexjjbypasslocationannotation	
+
+BE: heartNNproblemsNNS
+EQ class: heartnnthemnns	bosomnnproblematicaljj	problemsnnsofinheartnn	heartnnproblematicalvb	bosomnnproblematicvb	bosomnnproblematicalvb	heartnnproblematicvb	bosomnnthemnns	problematicvbheartnn	problematicvbbosomnn	theynnsofinheartnn	problematicalvbbosomnn	themnnsofinheartnn	heartnntheynns	problematicjjofinheartnn	bosomnnproblemsnns	themnnsofinbosomnn	heartnnjobnns	problemnnsofinheartnn	theynnsofinbosomnn	problemnnsofinbosomnn	bosomnntheynns	heartnnproblematicaljj	bosomnnproblematicjj	heartnnproblemnns	jobnnsofinheartnn	problematicaljjofinheartnn	jobnnsofinbosomnn	problematicalvbheartnn	problematicaljjofinbosomnn	bosomnnproblemnns	problemsnnsofinbosomnn	problematicjjofinbosomnn	heartnnproblematicjj	bosomnnjobnns	
+
+BE: doctorNNdoAUX
+EQ class: mdnndoaux	physiciannndoaux	mdnnmakeaux	dr.nnmakeaux	docnnmakeaux	mediconnmakeaux	doctorialjjmakeaux	docnndoaux	doctorialjjdoaux	mediconndoaux	doctornnmakeaux	physiciannnmakeaux	dr.nndoaux	
+
+BE: thereEXareAUX
+EQ class: thereexbeaux	
+
+BE: youPRPthinkVB
+EQ class: ideannofinyouprp	ideannyouprp	thoughtnnyouprp	youprpconsidervb	youprpconceivevb	youprpbelievevb	thoughtnnofinyouprp	
+
+BE: youPRPhaveAUX
+EQ class: youprphave_gotaux	rich_personnnofinyouprp	havennofinyouprp	youprpholdaux	wealthy_personnnofinyouprp	
+
+BE: problemsNNSgoVB
+EQ class: themnnslocomotevb	jobnnsmovevb	problematicaljjtravelvb	themnnsgovb	problemsnnslocomotevb	problemsnnsmovevb	problemnnstravelvb	theynnstravelvb	jobnnstravelvb	problemnnsgovb	theynnsmovevb	jobnnslocomotevb	problematicjjgovb	problematicjjtravelvb	problematicaljjgovb	jobnnsgovb	problemnnslocomotevb	problemsnnstravelvb	theynnslocomotevb	problematicjjlocomotevb	themnnsmovevb	problematicaljjlocomotevb	problemnnsmovevb	problematicaljjmovevb	themnnstravelvb	theynnsgovb	problematicjjmovevb	
+
+BE: doAUXthatDT
+EQ class: makeauxthatdt	
+
+BE: areAUXsymptomsNNS
+EQ class: beauxsymptomnns	areauxsymptomaticjj	beauxsymptomsnns	beauxthemnns	areauxthemnns	beauxsymptomaticjj	beauxtheynns	areauxtheynns	areauxsymptomnns	
+
+BE: gettingVBGbreathlessNN
+EQ class: acquirevbgbreathlessnn	getvbgbreathlessnn	gettingnnofinbreathlessnn	acquiringnnofinbreathlessnn	
+
+BE: doctorVBbypassLocationAnnotation
+EQ class: sophisticatevbbypasslocationannotation	doctor_upvbbypasslocationannotation	
+
+BE: haveAUXproblemsNNS
+EQ class: havennofintheynns	holdauxtheynns	holdauxproblematicaljj	rich_personnnofinproblematicaljj	wealthy_personnnofintheynns	have_gotauxjobnns	holdauxthemnns	have_gotauxproblematicaljj	haveauxtheynns	have_gotauxtheynns	wealthy_personnnofinproblematicaljj	havennofinproblemnns	holdauxjobnns	wealthy_personnnofinjobnns	havennofinproblematicjj	rich_personnnofinthemnns	haveauxproblematicaljj	haveauxjobnns	wealthy_personnnofinproblematicjj	wealthy_personnnofinproblemsnns	havennofinthemnns	havennofinproblemsnns	have_gotauxproblemsnns	haveauxproblematicjj	havennofinproblematicaljj	holdauxproblemsnns	wealthy_personnnofinthemnns	have_gotauxproblemnns	have_gotauxproblematicjj	rich_personnnofinproblemsnns	rich_personnnofinproblemnns	haveauxthemnns	rich_personnnofinjobnns	holdauxproblemnns	have_gotauxthemnns	havennofinjobnns	rich_personnnofinproblematicjj	holdauxproblematicjj	wealthy_personnnofinproblemnns	haveauxproblemnns	rich_personnnofintheynns	
+
+BE: doAUXbyINtestsNNS
+EQ class: makeauxbyintheynns	doauxbyinthemnns	doauxbyintryoutnns	makeauxbyintestnns	doauxbyintestnns	doauxbyintrial_runnns	doauxbyintrialnns	makeauxbyintestsnns	makeauxbyinthemnns	makeauxbyintrialnns	makeauxbyintryoutnns	makeauxbyintrial_runnns	doauxbyintheynns	
+
+BE: endVBlikeINmePRP
+EQ class: terminatevblikeinmeprp	stopvblikeinmeprp	ceasevblikeinmeprp	finishvblikeinmeprp	
+
+BE: walkingVBGifINthinkVB
+EQ class: walkingvbgifinconceivevb	walkvbgifinthinkvb	walkingvbgifinbelievevb	walkvbgifinbelievevb	walkvbgifinconceivevb	walkingvbgifinconsidervb	walkvbgifinconsidervb	
+

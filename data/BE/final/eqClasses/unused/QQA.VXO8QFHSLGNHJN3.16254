@@ -1,0 +1,93 @@
+BE: historyNN
+EQ class: historicjj	
+
+BE: timeNN
+EQ class: clipnn	
+
+BE: UKLocationAnnotation
+EQ class: eecnn	common_marketnn	european_unionnn	europenn	ecnn	u.k.locationannotation	eunn	north_atlantic_treaty_organizationnn	european_communitynn	natonn	european_economic_communitynn	
+
+BE: monarchsNNS
+EQ class: monarchnns	sovereignnns	theynns	monarchicaljj	monarchaljj	crowned_headnns	themnns	monarchicjj	
+
+BE: knownVBN
+EQ class: cognisevbn	cognizevbn	knowvbn	
+
+BE: knownVBN
+EQ class: cognisevbn	cognizevbn	knowvbn	
+
+BE: manyJJ
+EQ class: 
+
+BE: regionalJJ
+EQ class: regionnn	
+
+BE: manyJJmonarchsNNS
+EQ class: manyjjsovereignnns	manyjjtheynns	manyjjmonarchicjj	manyjjmonarchicaljj	manyjjmonarchnns	manyjjthemnns	manyjjmonarchaljj	manyjjcrowned_headnns	
+
+BE: regionalJJmonarchsNNS
+EQ class: monarchicalvbregionallyrb	regionnnsovereignnns	regionaljjmonarchnns	regionaljjtheynns	regionnnthemnns	regionnnmonarchnns	monarchicvbregionallyrb	regionnnmonarchicaljj	monarchalvbregionallyrb	regionnnmonarchicjj	regionnnmonarchsnns	regionnncrowned_headnns	regionaljjmonarchaljj	regionaljjmonarchicjj	regionaljjsovereignnns	regionnntheynns	regionaljjmonarchicaljj	regionnnmonarchaljj	regionaljjcrowned_headnns	regionaljjthemnns	
+
+BE: ourPRP$historyNN
+EQ class: ourprp$historicjj	historicjjofinourprp$	historynnofinourprp$	historicvbourprp$	ourprp$historicvb	
+
+BE: ourPRP$monarchsNNS
+EQ class: monarchaljjofinourprp$	monarchicvbourprp$	theynnsofinourprp$	ourprp$monarchaljj	themnnsofinourprp$	monarchnnsofinourprp$	ourprp$theynns	monarchicalvbourprp$	ourprp$monarchalvb	ourprp$themnns	ourprp$monarchicjj	ourprp$sovereignnns	ourprp$monarchicalvb	monarchsnnsofinourprp$	monarchalvbourprp$	crowned_headnnsofinourprp$	ourprp$monarchicvb	monarchicaljjofinourprp$	ourprp$monarchnns	ourprp$monarchicaljj	monarchicjjofinourprp$	sovereignnnsofinourprp$	ourprp$crowned_headnns	
+
+BE: knownVBNlittleRB
+EQ class: knowablennofinlittlerb	knowernnofinlittlerb	knowvbnlittlerb	apprehendernnofinlittlerb	cognizevbnlittlerb	cognisevbnlittlerb	knowingnnofinlittlerb	
+
+BE: isAUXknownVBN
+EQ class: beauxknownvbn	isauxcognizevbn	beauxknowvbn	isauxcognisevbn	beauxcognizevbn	beauxcognisevbn	isauxknowvbn	
+
+BE: timeNNinINUKLocationAnnotation
+EQ class: common_marketnnclipnn	clipnnininnorth_atlantic_treaty_organizationnn	uklocationannotationclipnn	timenninincommon_marketnn	natonnclipnn	eecnntimenn	european_communitynnclipnn	european_communitynntimenn	timenninineuropean_economic_communitynn	eunntimenn	clipnnininu.k.locationannotation	clipnninineuropean_communitynn	eunnclipnn	timennininu.k.locationannotation	europenntimenn	timenninineuropean_unionnn	european_economic_communitynntimenn	north_atlantic_treaty_organizationnntimenn	natonntimenn	ecnntimenn	u.k.locationannotationtimenn	timennininecnn	timenninineunn	north_atlantic_treaty_organizationnnclipnn	clipnnininnatonn	clipnninincommon_marketnn	timenninineecnn	timennininnatonn	clipnninineunn	clipnnininuklocationannotation	timenninineuropenn	ecnnclipnn	clipnninineecnn	european_economic_communitynnclipnn	clipnninineuropenn	clipnnininecnn	clipnninineuropean_economic_communitynn	european_unionnnclipnn	eecnnclipnn	timenninineuropean_communitynn	european_unionnntimenn	clipnninineuropean_unionnn	europennclipnn	common_marketnntimenn	u.k.locationannotationclipnn	timennininnorth_atlantic_treaty_organizationnn	uklocationannotationtimenn	
+
+BE: isAUXatINtimeNN
+EQ class: beauxatinclipnn	beauxatintimenn	isauxatinclipnn	
+
+BE: knownVBNaboutINmonarchsNNS
+EQ class: knownvbnaboutincrowned_headnns	knowvbnaboutinmonarchsnns	cognisevbnaboutinmonarchicaljj	knowvbnaboutinmonarchnns	knownvbnaboutinmonarchnns	knowvbnaboutincrowned_headnns	knowvbnaboutintheynns	cognizevbnaboutinmonarchnns	cognizevbnaboutinmonarchsnns	cognisevbnaboutinmonarchnns	cognisevbnaboutintheynns	cognizevbnaboutinthemnns	knowvbnaboutinmonarchicaljj	knownvbnaboutinsovereignnns	cognisevbnaboutinmonarchicjj	cognizevbnaboutinmonarchicaljj	cognizevbnaboutinmonarchicjj	knowvbnaboutinmonarchicjj	knownvbnaboutintheynns	cognisevbnaboutincrowned_headnns	cognisevbnaboutinmonarchsnns	cognisevbnaboutinmonarchaljj	cognizevbnaboutintheynns	cognisevbnaboutinthemnns	knownvbnaboutinmonarchicjj	cognizevbnaboutincrowned_headnns	knownvbnaboutinmonarchaljj	cognizevbnaboutinmonarchaljj	knowvbnaboutinthemnns	knownvbnaboutinthemnns	cognizevbnaboutinsovereignnns	knowvbnaboutinmonarchaljj	cognisevbnaboutinsovereignnns	knownvbnaboutinmonarchicaljj	knowvbnaboutinsovereignnns	
+
+BE: knownVBNaboutINhistoryNN
+EQ class: cognisevbnaboutinhistorynn	cognisevbnaboutinhistoricjj	knowvbnaboutinhistorynn	cognizevbnaboutinhistorynn	knowvbnaboutinhistoricjj	cognizevbnaboutinhistoricjj	knownvbnaboutinhistoricjj	
+
+BE: TechnologyOrganizationAnnotation
+EQ class: 
+
+BE: RomanNNP
+EQ class: italian_capitalnn	romanjj	romenn	eternal_citynn	capital_of_italynn	romann	
+
+BE: withdrawalNN
+EQ class: backdownnn	climb-downnn	
+
+BE: seemsVBZ
+EQ class: seemvbz	lookvbz	appearvbz	
+
+BE: stoodVBD
+EQ class: standvbd	stand_upvbd	
+
+BE: movedVBN
+EQ class: movevbn	govbn	locomotevbn	travelvbn	
+
+BE: RomanNNPwithdrawalNN
+EQ class: romannnpbackdownnn	capital_of_italynnwithdrawalnn	romennwithdrawalnn	italian_capitalnnclimb-downnn	romannnppull_awayvb	pull_awayvbcapital_of_italynn	italian_capitalnnmove_backvb	romanjjmove_backvb	retreatvbromann	capital_of_italynnclimb-downnn	draw_backvbromann	retreatvbitalian_capitalnn	backdownnnofincapital_of_italynn	italian_capitalnnrecedevb	move_backvbromanjj	romanjjclimb-downnn	climb-downnnofinromannnp	eternal_citynnpull_awayvb	romannnpretreatvb	withdrawvbeternal_citynn	romanjjdraw_backvb	romennretreatvb	retreatvbromanjj	romannmove_backvb	recedevbitalian_capitalnn	eternal_citynnbackdownnn	capital_of_italynndraw_backvb	retreatvbromenn	recedevbromann	retirevbromannnp	romannnpmove_backvb	climb-downnnofinitalian_capitalnn	romannpull_backvb	romanjjretreatvb	romannnpwithdrawvb	climb-downnnofinromanjj	retirevbcapital_of_italynn	recedevbcapital_of_italynn	italian_capitalnnretreatvb	romannrecedevb	romannnpdraw_backvb	backdownnnofineternal_citynn	italian_capitalnnretirevb	pull_awayvbitalian_capitalnn	romannretreatvb	romannnppull_backvb	move_backvbromannnp	withdrawvbitalian_capitalnn	romennretirevb	pull_backvbromann	draw_backvbromenn	romanjjwithdrawalnn	romannwithdrawalnn	eternal_citynnrecedevb	eternal_citynnwithdrawvb	move_backvbeternal_citynn	retreatvbeternal_citynn	pull_backvbitalian_capitalnn	romennbackdownnn	backdownnnofinromanjj	recedevbeternal_citynn	retreatvbromannnp	italian_capitalnnwithdrawalnn	withdrawalnnofinromann	withdrawvbromann	climb-downnnofineternal_citynn	pull_awayvbeternal_citynn	pull_awayvbromannnp	italian_capitalnnbackdownnn	pull_backvbromenn	withdrawalnnofinromannnp	romennpull_backvb	recedevbromanjj	backdownnnofinromenn	romanjjpull_backvb	romanjjrecedevb	pull_backvbeternal_citynn	romanjjpull_awayvb	italian_capitalnndraw_backvb	romanjjbackdownnn	romannnprecedevb	withdrawalnnofinromanjj	romanndraw_backvb	retirevbromenn	capital_of_italynnbackdownnn	retirevbeternal_citynn	eternal_citynnpull_backvb	draw_backvbitalian_capitalnn	draw_backvbcapital_of_italynn	eternal_citynnclimb-downnn	romannretirevb	eternal_citynnwithdrawalnn	climb-downnnofinromenn	withdrawalnnofinromenn	backdownnnofinromann	climb-downnnofincapital_of_italynn	italian_capitalnnpull_awayvb	capital_of_italynnwithdrawvb	eternal_citynnmove_backvb	recedevbromenn	move_backvbitalian_capitalnn	recedevbromannnp	romennrecedevb	romennwithdrawvb	pull_awayvbromanjj	draw_backvbromannnp	draw_backvbeternal_citynn	withdrawvbromanjj	capital_of_italynnrecedevb	capital_of_italynnretreatvb	retirevbitalian_capitalnn	climb-downnnofinromann	retirevbromanjj	pull_backvbromannnp	romanjjretirevb	italian_capitalnnpull_backvb	romannnpretirevb	capital_of_italynnpull_backvb	retirevbromann	capital_of_italynnpull_awayvb	romannpull_awayvb	romannnpclimb-downnn	backdownnnofinromannnp	romennmove_backvb	withdrawalnnofinitalian_capitalnn	pull_awayvbromann	romannwithdrawvb	pull_backvbcapital_of_italynn	withdrawalnnofineternal_citynn	move_backvbcapital_of_italynn	capital_of_italynnretirevb	withdrawvbromannnp	romannclimb-downnn	retreatvbcapital_of_italynn	capital_of_italynnmove_backvb	romennclimb-downnn	eternal_citynnretirevb	romanjjwithdrawvb	romenndraw_backvb	withdrawvbromenn	withdrawvbcapital_of_italynn	italian_capitalnnwithdrawvb	withdrawalnnofincapital_of_italynn	eternal_citynnretreatvb	move_backvbromann	romennpull_awayvb	eternal_citynndraw_backvb	draw_backvbromanjj	romannbackdownnn	backdownnnofinitalian_capitalnn	pull_awayvbromenn	pull_backvbromanjj	move_backvbromenn	
+
+BE: TechnologyOrganizationAnnotationseemsVBZ
+EQ class: technologyorganizationannotationappearvbz	technologyorganizationannotationlookvbz	technologyorganizationannotationseemvbz	
+
+BE: stoodVBDfromINwithdrawalNN
+EQ class: stoodvbdfrominbackdownnn	stand_upvbdfrominwithdrawalnn	stand_upvbdfrominbackdownnn	standvbdfrominbackdownnn	standvbdfrominclimb-downnn	standvbdfrominwithdrawalnn	stand_upvbdfrominclimb-downnn	stoodvbdfrominclimb-downnn	
+
+BE: stoodVBDstillRB
+EQ class: standingnnofinstillrb	standvbdstillrb	stand_upvbdstillrb	standeennofinstillrb	stancennofinstillrb	pedestalnnofinstillrb	basennofinstillrb	standnnofinstillrb	standernnofinstillrb	
+
+BE: haveAUXevenRB
+EQ class: holdauxevenrb	wealthy_personnnofinevenrb	rich_personnnofinevenrb	havennofinevenrb	have_gotauxevenrb	
+
+BE: movedVBNevenRB
+EQ class: movementnnofinevenrb	travelvbnevenrb	motilitynnofinevenrb	locomotevbnevenrb	movernnofinevenrb	motionnnofinevenrb	govbnevenrb	movennofinevenrb	movevbnevenrb	gesturennofinevenrb	
+
+BE: movedVBNbackwardsRB
+EQ class: travelvbnbackwardsrb	locomotevbnbackwardsrb	gesturennofinbackwardsrb	movevbnbackwardsrb	motilitynnofinbackwardsrb	motionnnofinbackwardsrb	govbnbackwardsrb	movernnofinbackwardsrb	movennofinbackwardsrb	movementnnofinbackwardsrb	
+

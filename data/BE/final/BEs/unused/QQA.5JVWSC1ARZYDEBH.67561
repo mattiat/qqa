@@ -1,0 +1,24 @@
+#write a book and go to some publisher! 
+#(S1 (S (VP (VP (VB write) (NP (DT a) (NN book))) (CC and) (VP (VB go) (PP (TO to) (NP (DT some) (NN publisher))))) (. !)))
+#Rule:Nouns
+r1bookNN
+r1publisherNN
+
+#Rule:Verbs
+r2writeVB
+r2goVB
+
+#Rule:V-HeadNoun
+r21writeVBbookNN
+
+#Rule:PPinVP
+r30goVBtoTOpublisherNN
+
+#hehehethink little!
+#(S1 (INTJ (UH hehehethink) (JJ little) (. !)))
+#Rule:Adjs
+r4littleJJ
+
+@lemmas-left	write	book	little	go	publisher	
+@lemmas-right	book	publisher	
+@lemmas-center	to	

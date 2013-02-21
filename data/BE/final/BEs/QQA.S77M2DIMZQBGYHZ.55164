@@ -1,0 +1,181 @@
+#I had back pain for 20 years complete with pain pills, muscle relaxers, viox and MRI s.  
+#(S1 (S (NP (PRP I)) (VP (AUX had) (NP (JJ back) (NN pain)) (PP (IN for) (NP (NP (CD 20) (NNS years)) (ADJP (JJ complete) (PP (IN with) (NP (NP (NN pain) (NNS pills)) (, ,) (NP (NN muscle) (NNS relaxers)) (, ,) (NP (NN viox)) (CC and) (NP (NNP MRI) (NNP s)))))))) (. .)))
+#Rule:Nouns
+r1painNN
+r1yearsNNS
+r1painNN
+r1pillsNNS
+r1muscleNN
+r1relaxersNNS
+r1vioxNN
+r1MRI sOrganizationAnnotation
+
+#Rule:Adjs
+r4backJJ
+r4completeJJ
+
+#Rule:Adj-Noun
+r5backJJpainNN
+r5completeJJyearsNNS
+r520CDyearsNNS
+
+#Rule:N-HeadNoun
+r8painNNpillsNNS
+r8muscleNNrelaxersNNS
+
+#Rule:N-ApposN
+r10pillsNNSrelaxersNNS
+
+#Rule:HeadNoun-V
+r11iPRPhadAUX
+
+#Rule:V-HeadNoun
+r21hadAUXpainNN
+
+#Rule:PPinVP
+r30hadAUXforINyearsNNS
+
+#Rule:PPinADJP
+r37completeJJwithINpillsNNS
+r37completeJJwithINrelaxersNNS
+r37completeJJwithINvioxNN
+r37completeJJwithINMRI sOrganizationAnnotation
+
+#One day, age 44, I went to the Dr. with an upset stomach and trouble sleeping and ended up being diagnosed in heart failure and that I had a massive heart attack within the past 5 years. 
+#(S1 (S (NP (NP (CD One) (NN day)) (, ,) (NP (NN age) (CD 44))) (, ,) (NP (PRP I)) (VP (VP (VBD went) (PP (TO to) (NP (DT the) (NNP Dr.))) (PP (IN with) (NP (NP (DT an) (JJ upset) (NN stomach) (CC and) (NN trouble)) (VP (VBG sleeping))))) (CC and) (VP (VBD ended) (PRT (RP up)) (S (VP (AUXG being) (VP (VBN diagnosed) (UCP (PP (IN in) (NP (NN heart) (NN failure))) (CC and) (SBAR (IN that) (S (NP (PRP I)) (VP (AUX had) (NP (NP (DT a) (JJ massive) (NN heart) (NN attack)) (PP (IN within) (NP (DT the) (JJ past) (CD 5) (NNS years))))))))))))) (. .)))
+#Rule:Nouns
+r1dayNN
+r1ageNN
+r1DrOrganizationAnnotation
+r1stomachNN
+r1troubleNN
+r1heartNN
+r1failureNN
+r1heartNN
+r1attackNN
+r1yearsNNS
+
+#Rule:Verbs
+r2wentVBD
+r2sleepingVBG
+r2diagnosedVBN
+
+#Rule:V-PRT
+r3endedVBDupRP
+
+#Rule:Adjs
+r4upsetJJ
+r4massiveJJ
+r4pastJJ
+
+#Rule:Adj-Noun
+r5OneCDdayNN
+r544CDageNN
+r5upsetJJstomachNN
+r5massiveJJattackNN
+r5pastJJyearsNNS
+r55CDyearsNNS
+
+#Rule:N-HeadNoun
+r8heartNNfailureNN
+r8heartNNattackNN
+
+#Rule:N-ApposN
+r10dayNNageNN
+
+#Rule:HeadNoun-V
+r11dayNNwentVBD
+r11dayNNendedVBD
+r11ageNNwentVBD
+r11ageNNendedVBD
+r11iPRPwentVBD
+r11iPRPendedVBD
+r11stomachNNsleepingVBG
+r11iPRPhadAUX
+
+#Rule:V-HeadNoun
+r21hadAUXattackNN
+
+#Rule:PPinNP
+r26attackNNwithinINyearsNNS
+
+#Rule:PPinVP
+r30wentVBDtoTODrOrganizationAnnotation
+r30wentVBDwithINstomachNN
+
+#Rule:V-V
+r44endedVBDdiagnosedVBN
+
+#I walked up stairs every day. 
+#(S1 (S (NP (PRP I)) (VP (VBD walked) (PP (IN up) (NP (NP (NNS stairs)) (NP (DT every) (NN day))))) (. .)))
+#Rule:Nouns
+r1stairsNNS
+r1dayNN
+
+#Rule:Verbs
+r2walkedVBD
+
+#Rule:HeadNoun-V
+r11iPRPwalkedVBD
+
+#Rule:PPinVP
+r30walkedVBDupINstairsNNS
+r30walkedVBDupINdayNN
+
+#Went to work etc.. the entire time. 
+#(S1 (S (VP (VBD Went) (PP (TO to) (NP (NP (VB work)) (NP (FW etc) (. .)) (. .))) (NP (DT the) (JJ entire) (NN time))) (. .)))
+#Rule:Nouns
+r1timeNN
+
+#Rule:Verbs
+r2wentVBD
+r2workVB
+
+#Rule:Adjs
+r4entireJJ
+
+#Rule:Adj-Noun
+r5entireJJtimeNN
+
+#Rule:V-HeadNoun
+r21wentVBDtimeNN
+
+#Rule:PPinVP
+r30wentVBDtoTOworkVB
+r30wentVBDtoTO..
+
+#It s the lucky people that get the Fred Sanford heart attack.
+#(S1 (S (NP (PRP It)) (VP (VBZ s) (NP (DT the) (JJ lucky) (NNS people)) (SBAR (IN that) (S (VP (VB get) (NP (DT the) (NNP Fred) (NNP Sanford) (NN heart) (NN attack)))))) (. .)))
+#Rule:Nouns
+r1peopleNNS
+r1Fred SanfordOrganizationAnnotation
+r1heartNN
+r1attackNN
+
+#Rule:Verbs
+r2sVBZ
+r2getVB
+
+#Rule:Adjs
+r4luckyJJ
+
+#Rule:Adj-Noun
+r5luckyJJpeopleNNS
+
+#Rule:N-HeadNoun
+r8heartNNattackNN
+r8Fred SanfordOrganizationAnnotationattackNN
+
+#Rule:HeadNoun-V
+r11itPRPsVBZ
+
+#Rule:V-HeadNoun
+r21sVBZpeopleNNS
+r21getVBattackNN
+
+#Rule:V-IN-V
+r43sVBZthatINgetVB
+
+@lemmas-left	relaxer	ended	people	went	time	age	diagnosed	had	work	heart	get	sleep	failure	Dr	5	relaxers	MRI s	pills	day	years	walk	go	Fred Sanford	have	one	pain	sleeping	trouble	pill	20	stairs	complete	upset	viox	One	end	it	44	walked	muscle	back	past	diagnose	i	entire	massive	lucky	s	attack	stomach	
+@lemmas-right	have	relaxer	pain	ended	sleeping	people	went	pill	time	stairs	age	viox	diagnosed	had	end	work	get	walked	.	sleep	diagnose	up	failure	s	Dr	MRI s	relaxers	pills	day	years	attack	walk	stomach	go	
+@lemmas-center	to	that	with	for	within	up	

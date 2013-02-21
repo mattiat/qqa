@@ -1,0 +1,41 @@
+#It s a decision to be happy. 
+#(S1 (S (NP (PRP It)) (VP (VBZ s) (NP (DT a) (NN decision) (S (VP (TO to) (VP (AUX be) (ADJP (JJ happy))))))) (. .)))
+#Rule:Nouns
+r1decisionNN
+
+#Rule:Verbs
+r2sVBZ
+
+#Rule:Adjs
+r4happyJJ
+
+#Rule:HeadNoun-V
+r11itPRPsVBZ
+
+#Rule:V-HeadNoun
+r21sVBZdecisionNN
+
+#Rule:V-ADJ
+r25beAUXhappyJJ
+
+#A choice you have the option of making everyday.
+#(S1 (NP (NP (DT A) (NN choice)) (SBAR (S (NP (PRP you)) (VP (AUX have) (NP (NP (DT the) (NN option)) (PP (IN of) (S (VP (VBG making) (S (ADJP (JJ everyday)))))))))) (. .)))
+#Rule:Nouns
+r1choiceNN
+r1optionNN
+
+#Rule:Verbs
+r2makingVBG
+
+#Rule:Adjs
+r4everydayJJ
+
+#Rule:HeadNoun-V
+r11youPRPhaveAUX
+
+#Rule:V-HeadNoun
+r21haveAUXoptionNN
+
+@lemmas-left	it	s	have	choice	happy	everyday	you	making	make	decision	option	be	
+@lemmas-right	s	have	happy	decision	option	
+@lemmas-center	

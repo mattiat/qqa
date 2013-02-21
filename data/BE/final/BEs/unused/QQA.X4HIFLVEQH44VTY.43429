@@ -1,0 +1,26 @@
+#I agree-openness will make people happy..
+#(S1 (S (NP (PRP I)) (VP (VBP agree-openness) (SBAR (S (VP (MD will) (VP (VB make) (S (NP (NNS people)) (ADJP (JJ happy))) (. .)))))) (. .)))
+#Rule:Nouns
+r1peopleNNS
+
+#Rule:Verbs
+r2agree-opennessVBP
+r2makeVB
+
+#Rule:Adjs
+r4happyJJ
+
+#Rule:HeadNoun-V
+r11iPRPagree-opennessVBP
+
+#Rule:V-HeadNoun
+r22makeVBpeopleNNS
+
+#Not closedness!
+#(S1 (FRAG (RB Not) (NP (NN closedness)) (. !)))
+#Rule:Nouns
+r1closednessNN
+
+@lemmas-left	openness	closedness	happy	agree-openness	make	people	i	
+@lemmas-right	openness	agree-openness	people	
+@lemmas-center	

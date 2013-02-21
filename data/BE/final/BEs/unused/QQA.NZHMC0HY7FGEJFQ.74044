@@ -1,0 +1,40 @@
+#I m sure you ll find the answer here.http://answers.yahoo.com/search/search_result;_ylt=AtUyZZ4BTdXkNqmV4ybX7I0ezKIX?
+#(S1 (FRAG (S (NP (PRP I)) (ADJP (NNP m) (JJ sure)) (S (NP (PRP you)) (ADVP (RB ll)) (VP (VBP find) (SBAR (S (NP (DT the) (NN answer)) (VP (VBZ here.http))))))) (: :) (NP (NP (NN //answers.yahoo.com/search/search_result)) (: ;) (NP (NN _ylt=AtUyZZ4BTdXkNqmV4ybX7I0ezKIX))) (. ?)))
+#Rule:Nouns
+r1mNNP
+r1answerNN
+r1//answers.yahoo.com/search/search_resultNN
+r1_ylt=AtUyZZ4BTdXkNqmV4ybX7I0ezKIXPersonAnnotation
+
+#Rule:Verbs
+r2findVBP
+r2here.httpVBZ
+
+#Rule:Adjs
+r4sureJJ
+
+#Rule:HeadNoun-V
+r11youPRPfindVBP
+r11answerNNhere.httpVBZ
+
+#Rule:V-ADV
+r46findVBPllRB
+
+#p=Why+is+the+sky+blue%3F
+#(S1 (NP (JJ p=Why+is+the+sky+blue) (NN %) (NNS 3F)))
+#Rule:Nouns
+r1%NN
+r13FNNS
+
+#Rule:Adjs
+r4p=Why+is+the+sky+blueJJ
+
+#Rule:Adj-Noun
+r5p=Why+is+the+sky+blueJJ3FNNS
+
+#Rule:N-HeadNoun
+r8%NN3FNNS
+
+@lemmas-left	f	result	%	answer	here.http	you	p=Why+is+the+sky+blue	m	//answers.yahoo.com/search/search_result	_ylt=AtUyZZ4BTdXkNqmV4ybX7I0ezKIX	blue	http	3F	find	sure	
+@lemmas-right	f	ll	http	3F	here.http	find	
+@lemmas-center	

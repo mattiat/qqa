@@ -1,0 +1,308 @@
+#Well, i can t speak for everyone, but for myself i have no problem with the Redwings.  
+#(S1 (S (ADVP (RB Well)) (, ,) (S (NP (PRP i)) (VP (MD can) (ADVP (RB t)) (VP (VB speak) (PP (IN for) (NP (NN everyone)))))) (, ,) (CC but) (S (PP (IN for) (NP (PRP myself))) (NP (PRP i)) (VP (AUX have) (NP (NP (DT no) (NN problem)) (PP (IN with) (NP (DT the) (NNPS Redwings)))))) (. .)))
+#Rule:Nouns
+r1everyoneNN
+r1problemNN
+r1RedwingsOrganizationAnnotation
+
+#Rule:Verbs
+r2speakVB
+
+#Rule:HeadNoun-V
+r11iLocationAnnotationspeakVB
+r11iPRPhaveAUX
+
+#Rule:V-HeadNoun
+r21haveAUXproblemNN
+
+#Rule:PPinNP
+r26problemNNwithINRedwingsOrganizationAnnotation
+
+#Rule:PPinVP
+r30speakVBforINeveryoneNN
+
+#Rule:PPinS
+r36haveAUXforINmyselfPRP
+
+#Rule:V-ADV
+r46speakVBtRB
+
+#I certainly do respect the organization and their players, but I guess i don t like them because they have somewhat of a rivalry with the team that I love.  
+#(S1 (S (S (NP (PRP I)) (ADVP (RB certainly)) (VP (AUX do) (VP (VB respect) (NP (DT the) (NX (NX (NN organization)) (CC and) (NX (PRP$ their) (NNS players))))))) (, ,) (CC but) (S (NP (PRP I)) (VP (VBP guess) (S (NP (PRP i)) (VP (VB don) (NP (NP (NNS t)) (PP (IN like) (NP (PRP them)))) (SBAR (IN because) (S (NP (PRP they)) (VP (AUX have) (NP (NP (RB somewhat)) (PP (IN of) (NP (NP (DT a) (NN rivalry)) (PP (IN with) (NP (DT the) (NN team) (SBAR (IN that) (S (NP (PRP I)) (VP (VBP love)))))))))))))))) (. .)))
+#Rule:Nouns
+r1organizationNN
+r1playersNNS
+r1tNNS
+r1rivalryNN
+r1teamNN
+
+#Rule:Verbs
+r2respectVB
+r2guessVBP
+r2i donLocationAnnotation
+r2loveVBP
+
+#Rule:HeadNoun-V
+r11iPRPrespectVB
+r11iPRPguessVBP
+r11theyPRPhaveAUX
+r11iPRPloveVBP
+
+#Rule:V-HeadNoun
+r21respectVBorganizationNN
+r21i donLocationAnnotationtNNS
+r21haveAUXsomewhatRB
+
+#Rule:V-HeadNoun
+r22guessVBPi donLocationAnnotation
+
+#Rule:PPinNP
+r26tNNSlikeINthemPRP
+r26somewhatRBofINrivalryNN
+r26rivalryNNwithINteamNN
+
+#Rule:V-IN-V
+r43i donLocationAnnotationbecauseINhaveAUX
+
+#Rule:V-ADV
+r46doAUXcertainlyRB
+
+#The Sharks and Wings have had their moments against each other and so naturally, when they play, of course i wouldn t like the Wings.  
+#(S1 (S (S (NP (DT The) (NNS Sharks) (CC and) (NNS Wings)) (VP (AUX have) (VP (AUX had) (NP (PRP$ their) (NNS moments)) (PP (IN against) (NP (DT each) (JJ other)))))) (CC and) (S (ADVP (RB so) (RB naturally)) (, ,) (SBAR (WHADVP (WRB when)) (S (NP (PRP they)) (VP (VBP play)))) (, ,) (PP (IN of) (NP (NN course))) (NP (PRP i)) (VP (VBP wouldn) (NP (NP (NNS t)) (PP (IN like) (NP (DT the) (NNS Wings)))))) (. .)))
+#Rule:Nouns
+r1SharksNNS
+r1WingsNNS
+r1momentsNNS
+r1courseNN
+r1tNNS
+r1WingsLocationAnnotation
+
+#Rule:Verbs
+r2playVBP
+r2wouldnVBP
+
+#Rule:Adjs
+r4otherJJ
+
+#Rule:PRP-Noun
+r6theirPRP$momentsNNS
+
+#Rule:HeadNoun-V
+r11SharksNNShadAUX
+r11iOrganizationAnnotationwouldnVBP
+r11theyPRPplayVBP
+
+#Rule:V-HeadNoun
+r21hadAUXmomentsNNS
+r21wouldnVBPtNNS
+
+#Rule:PPinNP
+r26tNNSlikeINWingsLocationAnnotation
+
+#Rule:PPinVP
+r30hadAUXagainstINotherJJ
+
+#Rule:PPinS
+r36wouldnVBPofINcourseNN
+
+#Rule:(SBAR+WHADVP)inS
+r42wouldnVBPwhenWRBplayVBP
+
+#Rule:V-ADV
+r46wouldnVBPsoRB
+r46wouldnVBPnaturallyRB
+
+#And in the past, the Wings have straight up owned the Sharks, which certainly makes it hard for me to really like the Wings.  
+#(S1 (S (CC And) (PP (IN in) (NP (DT the) (NN past))) (, ,) (NP (DT the) (NNS Wings)) (VP (AUX have) (ADVP (RB straight)) (VP (ADVP (RB up)) (VBN owned) (NP (NP (DT the) (NNS Sharks)) (, ,) (SBAR (WHNP (WDT which)) (S (ADVP (RB certainly)) (VP (VBZ makes) (S (NP (PRP it)) (ADJP (JJ hard)) (SBAR (IN for) (S (NP (PRP me)) (VP (TO to) (ADVP (RB really)) (PP (IN like) (NP (DT the) (NNS Wings))))))))))))) (. .)))
+#Rule:Nouns
+r1pastNN
+r1WingsLocationAnnotation
+r1SharksNNS
+r1WingsLocationAnnotation
+
+#Rule:Verbs
+r2ownedVBN
+r2makesVBZ
+
+#Rule:Adjs
+r4hardJJ
+
+#Rule:HeadNoun-V
+r12WingsLocationAnnotationownedVBN
+
+#Rule:HeadNoun-(who/that)-V
+r14SharksNNSmakesVBZ
+
+#Rule:V-HeadNoun
+r21ownedVBNSharksNNS
+
+#Rule:V-HeadNoun
+r22makesVBZitPRP
+
+#Rule:PPinS
+r36haveAUXinINpastNN
+
+#Rule:V-ADV
+r46haveAUXstraightRB
+r46ownedVBNstraightRB
+r46ownedVBNupRB
+r46makesVBZcertainlyRB
+
+#But it doesn t change the fact that I do respect the team, especially with the talent that is on their squad and the history the organization represents.  
+#(S1 (S (CC But) (NP (PRP it)) (VP (MD doesn) (RB t) (VP (VB change) (NP (DT the) (NN fact) (SBAR (IN that) (S (NP (PRP I)) (VP (AUX do) (VP (VB respect) (NP (DT the) (NN team)) (, ,) (PP (ADVP (RB especially)) (IN with) (NP (NP (DT the) (NN talent)) (SBAR (WHNP (WDT that)) (S (VP (AUX is) (PP (IN on) (NP (NP (PRP$ their) (NN squad)) (CC and) (NP (NP (DT the) (NN history)) (SBAR (S (NP (DT the) (NN organization)) (VP (VBZ represents))))))))))))))))))) (. .)))
+#Rule:Nouns
+r1factNN
+r1teamNN
+r1talentNN
+r1squadNN
+r1historyNN
+r1organizationNN
+
+#Rule:Verbs
+r2changeVB
+r2respectVB
+r2representsVBZ
+
+#Rule:PRP-Noun
+r6theirPRP$squadNN
+
+#Rule:HeadNoun-V
+r11itPRPchangeVB
+r11iPRPrespectVB
+r11organizationNNrepresentsVBZ
+
+#Rule:HeadNoun-(who/that)-V
+r14talentNNisAUX
+
+#Rule:NP(NP(z) SBAR(S(NP(x)VP(y))))
+r19representsVBZhistoryNN
+
+#Rule:V-HeadNoun
+r21changeVBfactNN
+r21respectVBteamNN
+
+#Rule:PPinVP
+r30respectVBwithINtalentNN
+r30isAUXonINsquadNN
+r30isAUXonINhistoryNN
+
+#But take for instance, a couple of the Eastern Conference teams, I really wouldn t pay as much attention to them simply because they don t deal with the Sharks often.  
+#(S1 (S (CC But) (VP (VB take) (S (PP (IN for) (NP (NN instance))) (, ,) (NP (NP (DT a) (NN couple)) (PP (IN of) (NP (DT the) (NNP Eastern) (NNP Conference) (NNS teams)))) (, ,) (NP (PRP I)) (ADVP (RB really)) (VP (VB wouldn) (S (NP (NNS t)) (VP (VB pay) (NP (RB as) (JJ much) (NN attention)) (PP (TO to) (NP (PRP them))) (SBAR (ADVP (RB simply)) (IN because) (S (NP (PRP they)) (VP (VB don) (NP (NP (CD t) (NN deal)) (PP (IN with) (NP (DT the) (NNS Sharks)))) (ADVP (RB often)))))))))) (. .)))
+#Rule:Nouns
+r1instanceNN
+r1coupleNN
+r1Eastern ConferenceOrganizationAnnotation
+r1teamsNNS
+r1tNNS
+r1attentionNN
+r1dealNN
+r1SharksNNS
+
+#Rule:Verbs
+r2takeVB
+r2wouldnVB
+r2payVB
+r2donVB
+
+#Rule:Adjs
+r4muchJJ
+
+#Rule:Adj-Noun
+r5muchJJattentionNN
+r5tCDdealNN
+
+#Rule:N-HeadNoun
+r8Eastern ConferenceOrganizationAnnotationteamsNNS
+
+#Rule:HeadNoun-V
+r11coupleNNwouldnVB
+r11iPRPwouldnVB
+r11tNNSpayVB
+r11theyPRPdonVB
+
+#Rule:V-HeadNoun
+r21payVBattentionNN
+r21donVBdealNN
+
+#Rule:V-HeadNoun
+r22takeVBcoupleNN
+r22takeVBiPRP
+r22wouldnVBtNNS
+
+#Rule:PPinNP
+r26coupleNNofINteamsNNS
+r26dealNNwithINSharksNNS
+
+#Rule:PPinVP
+r30payVBtoTOthemPRP
+
+#Rule:PPinS
+r36wouldnVBforINinstanceNN
+
+#Rule:V-IN-V
+r43payVBbecauseINdonVB
+
+#Rule:V-ADV
+r46wouldnVBreallyRB
+r46donVBoftenRB
+
+#But we can all thank the wonderful Gary Bettman for that great NHL Schedule.  
+#(S1 (S (CC But) (NP (PRP we)) (VP (MD can) (DT all) (VP (VB thank) (NP (DT the) (JJ wonderful) (NNP Gary) (NNP Bettman)) (PP (IN for) (NP (DT that) (JJ great) (NNP NHL) (NN Schedule))))) (. .)))
+#Rule:Nouns
+r1Gary BettmanPersonAnnotation
+r1NHLOrganizationAnnotation
+r1ScheduleNN
+
+#Rule:Verbs
+r2thankVB
+
+#Rule:Adjs
+r4wonderfulJJ
+r4greatJJ
+
+#Rule:Adj-Noun
+r5wonderfulJJGary BettmanPersonAnnotation
+r5greatJJScheduleNN
+
+#Rule:N-HeadNoun
+r8NHLOrganizationAnnotationScheduleNN
+
+#Rule:HeadNoun-V
+r11wePRPthankVB
+
+#Rule:V-HeadNoun
+r21thankVBGary BettmanPersonAnnotation
+
+#Rule:PPinVP
+r30thankVBforINScheduleNN
+
+#And thats one person i can use the word hate for..
+#(S1 (S (CC And) (VP (VBZ thats) (NP (NP (CD one) (NN person)) (SBAR (S (NP (PRP i)) (VP (MD can) (VP (VB use) (S (NP (DT the) (NN word)) (VP (VB hate) (PP (IN for))) (. .)))))))) (. .)))
+#Rule:Nouns
+r1personNN
+r1wordNN
+
+#Rule:Verbs
+r2thatsLocationAnnotation
+r2useVB
+r2hateVB
+
+#Rule:Adj-Noun
+r5oneCDpersonNN
+
+#Rule:HeadNoun-V
+r11iLocationAnnotationuseVB
+r11wordNNhateVB
+
+#Rule:NP(NP(z) SBAR(S(NP(x)VP(y))))
+r19useVBpersonNN
+
+#Rule:V-HeadNoun
+r21thatsLocationAnnotationpersonNN
+
+#Rule:V-HeadNoun
+r22useVBwordNN
+
+@lemmas-left	thats	they	person	hate	don	player	change	love	course	deal	wings	everyone	instance	had	wonderful	be	team	moments	much	owned	Sharks	teams	word	own	wouldn	make	Eastern Conference	we	other	have	moment	one	NHL	use	talent	thank	organization	Schedule	Gary Bettman	pay	do	couple	attention	hard	is	it	makes	Redwings	Wings	speak	play	problem	shark	past	i	represent	history	schedule	rivalry	represents	great	t	fact	squad	take	guess	players	i don	somewhat	their	respect	
+@lemmas-right	person	hate	don	change	course	love	deal	certainly	instance	everyone	had	be	so	team	moments	owned	Sharks	teams	often	them	myself	word	own	wouldn	make	straight	other	have	moment	use	talent	thank	organization	Schedule	Gary Bettman	pay	couple	attention	is	it	naturally	makes	Redwings	Wings	play	speak	problem	shark	past	i	up	represent	history	really	schedule	rivalry	represents	t	fact	squad	guess	i don	somewhat	respect	
+@lemmas-center	to	because	of	with	for	when	against	on	like	in	

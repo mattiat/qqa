@@ -1,0 +1,164 @@
+#I know how you feel. 
+#(S1 (S (NP (PRP I)) (VP (VBP know) (SBAR (WHADVP (WRB how)) (S (NP (PRP you)) (VP (VBP feel))))) (. .)))
+#Rule:Verbs
+r2knowVBP
+r2feelVBP
+
+#Rule:HeadNoun-V
+r11iPRPknowVBP
+r11youPRPfeelVBP
+
+#When did you lose your mother???? 
+#(S1 (SBARQ (WHADVP (WRB When)) (SQ (AUX did) (NP (PRP you)) (VP (VB lose) (NP (PRP$ your) (NN mother) (NN ???)))) (. ?)))
+#Rule:Nouns
+r1motherNN
+r1???NN
+
+#Rule:Verbs
+r2loseVB
+
+#Rule:PRP-Noun
+r6yourPRP$???NN
+
+#Rule:N-HeadNoun
+r8motherNN???NN
+
+#Rule:V-HeadNoun
+r21loseVB???NN
+
+#How old are you?? 
+#(S1 (SBARQ (WHNP (WRB How) (JJ old)) (SQ (AUX are) (NP (PRP you)) (. ?)) (. ?)))
+#Rule:Adjs
+r4oldJJ
+
+#My mum was diagnosed with a rare kidney cancer in May this year. 
+#(S1 (S (NP (PRP$ My) (NN mum)) (VP (AUX was) (VP (VBN diagnosed) (PP (IN with) (NP (NP (DT a) (JJ rare) (NN kidney) (NN cancer)) (PP (IN in) (NP (NNP May))))) (NP (DT this) (NN year)))) (. .)))
+#Rule:Nouns
+r1mumNN
+r1kidneyNN
+r1cancerNN
+r1MayNNP
+r1yearNN
+
+#Rule:Verbs
+r2diagnosedVBN
+
+#Rule:Adjs
+r4rareJJ
+
+#Rule:Adj-Noun
+r5rareJJcancerNN
+
+#Rule:PRP-Noun
+r6myPRP$mumNN
+
+#Rule:N-HeadNoun
+r8kidneyNNcancerNN
+
+#Rule:V-HeadNoun
+r21diagnosedVBNyearNN
+
+#Rule:V-HeadNoun(passive)
+r23diagnosedVBNmumNN
+
+#Rule:PPinNP
+r26cancerNNinINMayNNP
+
+#Rule:PPinVP
+r32diagnosedVBNwithINcancerNN
+
+#It was very aggressive she pasted away sept 7 after only a 4 month battle. 
+#(S1 (S (NP (PRP It)) (VP (AUX was) (ADJP (RB very) (JJ aggressive) (SBAR (S (NP (PRP she)) (VP (VBD pasted) (PRT (RP away)) (NP (NNP sept) (CD 7)) (PP (IN after) (NP (RB only) (DT a) (ADJP (CD 4) (NN month)) (NN battle)))))))) (. .)))
+#Rule:Nouns
+r1septNNP
+r1monthNN
+r1battleNN
+
+#Rule:V-PRT
+r3pastedVBDawayRP
+
+#Rule:Adjs
+r4aggressiveJJ
+
+#Rule:Adj-Noun
+r57CDseptNNP
+r54CDbattleNN
+
+#Rule:HeadNoun-V
+r11itPRPwasAUX
+r11shePRPpastedVBD
+
+#Rule:V-HeadNoun
+r21pastedVBDseptNNP
+
+#Rule:V-ADJ
+r25wasAUXaggressiveJJ
+
+#Rule:PPinVP
+r30pastedVBDafterINbattleNN
+
+#She was 60.. 
+#(S1 (S (NP (PRP She)) (VP (AUX was) (NP (CD 60) (. .))) (. .)))
+#Rule:HeadNoun-V
+r11shePRPwasAUX
+
+#Rule:V-HeadNoun
+r21wasAUX60CD
+
+#I am the opposite to you (maybe still denial??) 
+#(S1 (S (NP (PRP I)) (VP (AUX am) (NP (NP (DT the) (NN opposite)) (PP (TO to) (NP (NP (PRP you)) (PRN (-LRB- -LRB-) (ADVP (RB maybe) (RB still)) (NP (NN denial) (CD ??)) (-RRB- -RRB-))))))))
+#Rule:Nouns
+r1oppositeNN
+r1denialNN
+
+#Rule:Adj-Noun
+r5??CDdenialNN
+
+#Rule:HeadNoun-V
+r11iPRPamAUX
+
+#Rule:V-HeadNoun
+r21amAUXoppositeNN
+
+#Rule:PPinNP
+r26oppositeNNtoTOyouPRP
+
+#i find it hard to cry im just numb constantly. 
+#(S1 (S (NP (PRP i)) (VP (VBP find) (S (NP (PRP it)) (ADJP (JJ hard) (SBAR (S (VP (TO to) (VP (VB cry) (S (VP (VBG im) (ADJP (RB just) (JJ numb)) (ADVP (RB constantly))))))))))) (. .)))
+#Rule:Verbs
+r2findVBP
+r2cryVB
+r2imVBG
+
+#Rule:Adjs
+r4hardJJ
+r4numbJJ
+
+#Rule:HeadNoun-V
+r11iPRPfindVBP
+
+#Rule:V-HeadNoun
+r22findVBPitPRP
+
+#Rule:V-ADV
+r46imVBGconstantlyRB
+
+#Email me we can chat. xx
+#(S1 (S (VP (VB Email) (NP (PRP me)) (SBAR (S (NP (PRP we)) (VP (MD can) (VP (VB chat.) (NP (NNS xx)))))))))
+#Rule:Nouns
+r1xxNNS
+
+#Rule:Verbs
+r2emailVB
+r2chatVB
+
+#Rule:HeadNoun-V
+r11wePRPchatVB
+
+#Rule:V-HeadNoun
+r21emailVBmePRP
+r21chatVBxxNNS
+
+@lemmas-left	old	numb	opposite	pasted	chat	was	??	rare	diagnosed	she	May	sept	year	aggressive	hard	find	denial	be	feel	may	it	your	you	im	mum	know	diagnose	my	xx	cry	i	chat.	lose	battle	7	mother	email	am	paste	4	month	kidney	???	cancer	we	
+@lemmas-right	opposite	constantly	pasted	chat	was	sept	May	me	year	aggressive	60	find	be	denial	feel	may	it	you	mum	know	xx	away	chat.	battle	paste	am	???	cancer	
+@lemmas-center	to	after	with	in	

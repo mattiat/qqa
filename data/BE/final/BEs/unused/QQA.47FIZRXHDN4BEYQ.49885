@@ -1,0 +1,60 @@
+#brace urself. i heard it hurts alot. but its ur best chance to get rid of those cancerous cells.good luck i hope nothing goes wrong.. =]]
+#(S1 (S (NP (NNP brace) (NNS urself.) (S (NP (PRP i)) (VP (VBD heard) (SBAR (S (NP (PRP it)) (VP (VBZ hurts) (NP (NP (NN alot.)) (CC but) (NP (NP (PRP$ its) (CD ur) (JJS best) (NN chance)) (SBAR (S (VP (TO to) (VP (VB get) (ADJP (JJ rid) (PP (IN of) (NP (NP (DT those) (JJ cancerous) (NN cells.good) (NN luck)) (SBAR (S (NP (PRP i)) (VP (VBP hope) (SBAR (S (NP (NN nothing)) (VP (VBZ goes) (ADJP (JJ wrong))))))))))))))))))))) (. .)) (. .)) (VP (SYM =) (NP (JJ -RSB-) (NN -RSB-)))))
+#Rule:Nouns
+r1braceNNP
+r1urselfNNS
+r1alotNN
+r1chanceNN
+r1cells.goodNN
+r1luckNN
+r1nothingNN
+r1]NN
+
+#Rule:Verbs
+r2heardVBD
+r2hurtsVBZ
+r2getVB
+r2hopeVBP
+r2goesVBZ
+
+#Rule:Adjs
+r4bestJJS
+r4ridJJ
+r4cancerousJJ
+r4wrongJJ
+r4]JJ
+
+#Rule:Adj-Noun
+r5urCDchanceNN
+r5bestJJSchanceNN
+r5cancerousJJluckNN
+r5]JJ]NN
+
+#Rule:PRP-Noun
+r6itsPRP$chanceNN
+
+#Rule:N-HeadNoun
+r8braceNNPurselfNNS
+r8cells.goodNNluckNN
+
+#Rule:HeadNoun-V
+r11iPersonAnnotationheardVBD
+r11itPRPhurtsVBZ
+r11iPersonAnnotationhopeVBP
+r11nothingNNgoesVBZ
+
+#Rule:HeadNoun-(who/that)-V
+r14chanceNNgetVB
+
+#Rule:NP(NP(z) SBAR(S(NP(x)VP(y))))
+r19hopeVBPluckNN
+
+#Rule:V-HeadNoun
+r21hurtsVBZalotNN
+
+#Rule:PPinADJP
+r37ridJJofINluckNN
+
+@lemmas-left	cells.good	good	chance	its	alot.	hear	heard	brace	]	best	hurts	alot	goes	it	get	luck	ur	urself.	i	cancerous	hurt	rid	urself	nothing	wrong	hope	go	
+@lemmas-right	alot	goes	get	luck	chance	urself.	alot.	hear	hurt	heard	urself	]	hurts	hope	go	
+@lemmas-center	of	

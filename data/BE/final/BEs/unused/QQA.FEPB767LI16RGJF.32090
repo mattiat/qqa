@@ -1,0 +1,79 @@
+#or how does it s state change our observation? 
+#(S1 (SBARQ (CC or) (WHADVP (WRB how)) (SQ (AUX does) (NP (PRP it)) (VP (VBZ s) (S (NP (NN state) (NN change)) (NP (PRP$ our) (NN observation))))) (. ?)))
+#Rule:Nouns
+r1stateNN
+r1changeNN
+r1observationNN
+
+#Rule:Verbs
+r2sVBZ
+
+#Rule:PRP-Noun
+r6ourPRP$observationNN
+
+#Rule:N-HeadNoun
+r8stateNNchangeNN
+
+#Rule:V-HeadNoun
+r22sVBZchangeNN
+r22sVBZobservationNN
+
+#Don t readily dismiss this. 
+#(S1 (S (NP (NNP Don) (NNP t)) (ADVP (RB readily)) (VP (VB dismiss) (NP (DT this))) (. .)))
+#Rule:Nouns
+r1Don tPersonAnnotation
+
+#Rule:Verbs
+r2dismissVB
+
+#Rule:HeadNoun-V
+r11Don tPersonAnnotationdismissVB
+
+#Rule:V-HeadNoun
+r21dismissVBthisLocationAnnotation
+
+#Rule:V-ADV
+r46dismissVBreadilyRB
+
+#Are we observing its true state? 
+#(S1 (SQ (AUX Are) (NP (PRP we)) (VP (VBG observing) (NP (PRP$ its) (JJ true) (NN state))) (. ?)))
+#Rule:Nouns
+r1stateLocationAnnotation
+
+#Rule:Verbs
+r2observingVBG
+
+#Rule:Adjs
+r4trueJJ
+
+#Rule:Adj-Noun
+r5trueJJstateLocationAnnotation
+
+#Rule:PRP-Noun
+r6itsPRP$stateLocationAnnotation
+
+#Rule:V-HeadNoun
+r21observingVBGstateLocationAnnotation
+
+#As someone said, we see things not as they are but as we are.
+#(S1 (S (SBAR (IN As) (S (NP (NN someone)) (VP (VBD said)))) (, ,) (NP (PRP we)) (VP (VBP see) (NP (NP (NNS things)) (SBAR (SBAR (RB not) (IN as) (S (NP (PRP they)) (VP (AUX are)))) (CC but) (SBAR (IN as) (S (NP (PRP we)) (VP (AUX are))))))) (. .)))
+#Rule:Nouns
+r1someoneNN
+r1thingsNNS
+
+#Rule:Verbs
+r2saidVBD
+r2seeVBP
+
+#Rule:HeadNoun-V
+r11wePRPseeVBP
+r11someoneNNsaidVBD
+r11theyPRPareAUX
+r11wePRPareAUX
+
+#Rule:V-HeadNoun
+r21seeVBPthingsNNS
+
+@lemmas-left	Don t	they	said	observation	change	state	true	its	see	s	observe	someone	say	observing	things	our	dismiss	we	
+@lemmas-right	readily	are	said	observation	see	change	say	state	things	this	dismiss	be	
+@lemmas-center	

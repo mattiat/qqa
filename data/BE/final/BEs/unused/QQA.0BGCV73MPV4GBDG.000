@@ -1,0 +1,31 @@
+#How can i get rid of acne?
+#(S1 (SBARQ (WHADVP (WRB How)) (SQ (MD can) (NP (PRP i)) (VP (VB get) (VP (VB rid) (PP (IN of) (NP (NN acne)))))) (. ?)))
+#Rule:Nouns
+r1acneNN
+
+#Rule:Verbs
+r2getVB
+r2ridVB
+
+#Rule:PPinVP
+r30ridVBofINacneNN
+
+#please help me pimples are anoying
+#(S1 (S (VP (VB please) (VP (VB help) (NP (PRP me)) (SBAR (S (NP (NNS pimples)) (VP (AUX are) (VP (VBG anoying)))))))))
+#Rule:Nouns
+r1pimplesNNS
+
+#Rule:Verbs
+r2pleaseVB
+r2helpVB
+r2anoyingLocationAnnotation
+
+#Rule:HeadNoun-V
+r11pimplesNNSanoyingLocationAnnotation
+
+#Rule:V-HeadNoun
+r21helpVBmePRP
+
+@lemmas-left	help	pimples	please	get	rid	anoying	pimple	acne	
+@lemmas-right	anoying	me	acne	
+@lemmas-center	of	

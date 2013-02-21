@@ -1,0 +1,34 @@
+#How can you Recover/Cure Sjogren s Syndrome ???
+#(S1 (SBARQ (WHADVP (WRB How)) (SQ (MD can) (NP (PRP you)) (VP (VB Recover/Cure) (NP (NNP Sjogren) (NNP s) (NN Syndrome) (NNS ??)))) (. ?)))
+#Rule:Nouns
+r1Recover/Cure SjogrenOrganizationAnnotation
+r1sNNP
+r1SyndromeNN
+r1??NNS
+
+#Rule:N-HeadNoun
+r8SyndromeNN??NNS
+r8sNNP??NNS
+r8Recover/Cure SjogrenOrganizationAnnotation??NNS
+
+#How can you cure or recover Sjogren s syndrome ??
+#(S1 (SBARQ (WHADVP (WRB How)) (SQ (MD can) (NP (PRP you)) (VP (VB cure) (CC or) (VB recover) (NP (NNP Sjogren) (NNP s) (NN syndrome))) (. ?)) (. ?)))
+#Rule:Nouns
+r1SjogrenPersonAnnotation
+r1sNNP
+r1syndromeNN
+
+#Rule:Verbs
+r2cureVB
+r2recoverVB
+
+#Rule:N-HeadNoun
+r8sNNPsyndromeNN
+r8SjogrenPersonAnnotationsyndromeNN
+
+#Rule:V-HeadNoun
+r21cureVBsyndromeNN
+
+@lemmas-left	??	Sjogren	s	Syndrome	Recover/Cure Sjogren	syndrome	recover	cure	
+@lemmas-right	??	syndrome	
+@lemmas-center	

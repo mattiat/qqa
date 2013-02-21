@@ -1,0 +1,41 @@
+#For publicity and more money, or perhaps she wanted to do something crazy like promote tolerance of the homosexual community, God forbid.
+#(S1 (S (UCP (PP (IN For) (NP (NP (NN publicity)) (CC and) (NP (JJR more) (NN money)))) (, ,) (CC or) (SBAR (RB perhaps) (S (NP (PRP she)) (VP (VBD wanted) (S (VP (TO to) (VP (AUX do) (NP (NP (NN something)) (ADJP (JJ crazy))) (PP (IN like) (NP (NP (VB promote) (NN tolerance)) (PP (IN of) (NP (DT the) (JJ homosexual) (NN community)))))))))))) (, ,) (NP (NNP God)) (VP (VBD forbid)) (. .)))
+#Rule:Nouns
+r1publicityNN
+r1moneyNN
+r1somethingNN
+r1toleranceNN
+r1communityNN
+r1GodNNP
+
+#Rule:Verbs
+r2wantedVBD
+r2promoteVB
+r2forbidVBD
+
+#Rule:Adjs
+r4moreJJR
+r4crazyJJ
+r4homosexualJJ
+
+#Rule:Adj-Noun
+r5moreJJRmoneyNN
+r5crazyJJsomethingNN
+r5homosexualJJcommunityNN
+
+#Rule:HeadNoun-V
+r11GodNNPforbidVBD
+r11shePRPwantedVBD
+
+#Rule:V-HeadNoun
+r21doAUXsomethingNN
+
+#Rule:PPinNP
+r26toleranceNNofINcommunityNN
+
+#Rule:PPinVP
+r30doAUXlikeINtoleranceNN
+
+@lemmas-left	god	community	wanted	more	promote	crazy	she	money	tolerance	God	do	homosexual	something	publicity	forbid	want	
+@lemmas-right	tolerance	community	money	something	forbid	wanted	want	
+@lemmas-center	of	like	

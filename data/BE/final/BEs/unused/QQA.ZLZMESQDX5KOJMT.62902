@@ -1,0 +1,51 @@
+#You have alot of good answers ,and I just would say water melting and running off rocks .Guess I am not much good at this one!!!!
+#(S1 (S (S (NP (PRP You)) (VP (AUX have) (NP (NP (NN alot)) (PP (IN of) (NP (JJ good) (NNS answers)))))) (, ,) (CC and) (S (NP (PRP I)) (ADVP (RB just)) (VP (MD would) (VP (VB say) (S (NP (NP (NN water)) (VP (VBG melting) (CC and) (VBG running) (PRT (RP off)) (NP (NNS rocks)))) (VP (VB .Guess) (S (NP (PRP I)) (VP (AUX am) (RB not) (ADJP (RB much) (JJ good) (PP (IN at) (NP (DT this) (CD one) (NN !!!))))))))))) (. !)))
+#Rule:Nouns
+r1alotNN
+r1answersNNS
+r1waterNN
+r1rocksNNS
+r1one!!!!LocationAnnotation
+
+#Rule:Verbs
+r2sayVB
+r2meltingVBG
+r2.guessVB
+
+#Rule:V-PRT
+r3meltingVBGoffRP
+
+#Rule:Adjs
+r4goodJJ
+r4goodJJ
+
+#Rule:Adj-Noun
+r5goodJJanswersNNS
+
+#Rule:HeadNoun-V
+r11youPRPhaveAUX
+r11iPRPsayVB
+r11waterNN.guessVB
+r11waterNNmeltingVBG
+r11iPRPamAUX
+
+#Rule:V-HeadNoun
+r21haveAUXalotNN
+r21meltingVBGrocksNNS
+
+#Rule:V-HeadNoun
+r22sayVBwaterNN
+r22.guessVBiPRP
+
+#Rule:PPinNP
+r26alotNNofINanswersNNS
+
+#Rule:PPinADJP
+r37goodJJatINone!!!!LocationAnnotation
+
+#Rule:V-ADV
+r46amAUXnotRB
+
+@lemmas-left	water	alot	have	one!!!!	answer	answers	you	rock	good	i	melting	am	guess	say	rocks	be	melt	.guess	
+@lemmas-right	water	alot	one!!!!	have	answer	answers	rock	i	not	melting	guess	am	off	say	rocks	.guess	melt	be	
+@lemmas-center	of	at	

@@ -1,0 +1,29 @@
+#eat lesssalt,more water and garlic or garlic powder
+#(S1 (S (VP (VB eat) (NP (NP (NN lesssalt)) (, ,) (NP (JJR more) (NN water)) (CC and) (NP (ADJP (JJ garlic) (CC or) (JJ garlic)) (NNP powder))))))
+#Rule:Nouns
+r1lesssaltLocationAnnotation
+r1waterNN
+r1powderNNP
+
+#Rule:Verbs
+r2eatVB
+
+#Rule:Adjs
+r4moreJJR
+r4garlicJJ
+r4garlicJJ
+
+#Rule:Adj-Noun
+r5moreJJRwaterNN
+r5garlicJJpowderNNP
+r5garlicJJpowderNNP
+
+#Rule:N-ApposN
+r10lesssaltLocationAnnotationwaterNN
+
+#Rule:V-HeadNoun
+r21eatVBlesssaltLocationAnnotation
+
+@lemmas-left	water	more	garlic	powder	eat	lesssalt	
+@lemmas-right	water	powder	lesssalt	
+@lemmas-center	

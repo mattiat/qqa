@@ -1,0 +1,77 @@
+#Google search mastercleanser .  
+#(S1 (S (VP (VB Google) (NP (NN search) (NN mastercleanser))) (. .)))
+#Rule:Nouns
+r1searchNN
+r1mastercleanserNN
+
+#Rule:Verbs
+r2GooglePersonAnnotation
+
+#Rule:N-HeadNoun
+r8searchNNmastercleanserNN
+
+#Rule:V-HeadNoun
+r21GooglePersonAnnotationmastercleanserNN
+
+#I lost 70 lbs. in under 4 months by doing this cleansing diet for 10 days every three weeks.  
+#(S1 (S (NP (PRP I)) (VP (VBD lost) (NP (CD 70) (NN lbs.)) (PP (IN in) (NP (QP (IN under) (CD 4)) (NNS months))) (PP (IN by) (S (VP (VBG doing) (NP (DT this) (NN cleansing) (NN diet)) (PP (IN for) (NP (NP (CD 10) (NNS days)) (NP (QP (DT every) (CD three)) (NNS weeks)))))))) (. .)))
+#Rule:Nouns
+r1lbsLocationAnnotation
+r1monthsNNS
+r1cleansingNN
+r1dietNN
+r1daysNNS
+r1weeksNNS
+
+#Rule:Verbs
+r2lostVBD
+r2doingVBG
+
+#Rule:Adj-Noun
+r570CDlbsLocationAnnotation
+r54CDmonthsNNS
+r510CDdaysNNS
+r5threeCDweeksNNS
+
+#Rule:N-HeadNoun
+r8cleansingNNdietNN
+
+#Rule:HeadNoun-V
+r11iPRPlostVBD
+
+#Rule:V-HeadNoun
+r21lostVBDlbsLocationAnnotation
+r21doingVBGdietNN
+
+#Rule:PPinVP
+r30lostVBDinINmonthsNNS
+r30doingVBGforINdaysNNS
+r30doingVBGforINweeksNNS
+
+#I also rode a bike  or walked everywhere that I went.
+#(S1 (S (NP (PRP I)) (ADVP (RB also)) (VP (VP (VBD rode) (NP (DT a) (NN bike))) (CC or) (VP (VBD walked) (ADVP (RB everywhere)) (SBAR (IN that) (S (NP (PRP I)) (VP (VBD went)))))) (. .)))
+#Rule:Nouns
+r1bikeNN
+
+#Rule:Verbs
+r2rodeVBD
+r2walkedVBD
+r2wentVBD
+
+#Rule:HeadNoun-V
+r11iPRProdeVBD
+r11iPRPwalkedVBD
+r11iPRPwentVBD
+
+#Rule:V-HeadNoun
+r21rodeVBDbikeNN
+
+#Rule:V-IN-V
+r43walkedVBDthatINwentVBD
+
+#Rule:V-ADV
+r46walkedVBDeverywhereRB
+
+@lemmas-left	ride	lost	diet	went	rode	bike	search	three	do	walked	cleansing	weeks	mastercleanser	i	lose	months	10	days	4	month	doing	70	Google	walk	lbs	go	week	
+@lemmas-right	everywhere	ride	lost	diet	walked	weeks	went	mastercleanser	rode	lose	months	bike	days	month	walk	lbs	go	week	
+@lemmas-center	that	for	in	

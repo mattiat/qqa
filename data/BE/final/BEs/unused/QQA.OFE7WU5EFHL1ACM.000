@@ -1,0 +1,72 @@
+#Any suggestions on how to ease earache pain??
+#(S1 (FRAG (FRAG (NP (DT Any) (NNS suggestions)) (PP (IN on) (SBAR (WHADVP (WRB how)) (S (VP (TO to) (VP (VB ease) (NP (JJ earache) (NN pain))))))) (. ?)) (. ?)))
+#Rule:Nouns
+r1suggestionsNNS
+r1painNN
+
+#Rule:Verbs
+r2easeVB
+
+#Rule:Adjs
+r4earacheJJ
+
+#Rule:Adj-Noun
+r5earacheJJpainNN
+
+#Rule:V-HeadNoun
+r21easeVBpainNN
+
+#I get chronic earaches, not from infections, usually from sinuses being blocked. I have a very low tolerance for medications, so can t thinks like antihistamines, decongestants, painkillers,etc. when I have to be functional.
+#(S1 (S (NP (PRP I)) (VP (VBP get) (NP (JJ chronic) (NNS earaches)) (, ,) (PP (RB not) (PP (IN from) (NP (NNS infections))) (, ,) (RB usually) (PP (IN from) (NP (NP (NNS sinuses)) (VP (AUXG being) (VP (VBN blocked.) (SBAR (S (NP (PRP I)) (VP (AUX have) (NP (NP (DT a) (ADJP (RB very) (JJ low)) (NN tolerance)) (PP (IN for) (NP (NP (NNS medications)) (, ,) (SBAR (S (RB so) (VP (MD can) (VP (VB t) (S (VP (VBZ thinks) (PP (IN like) (NP (NNS antihistamines) (, ,) (NNS decongestants) (, ,) (NNS painkillers) (, ,) (FW etc.))))) (SBAR (WHADVP (WRB when)) (S (NP (PRP I)) (VP (AUX have) (S (VP (TO to) (VP (AUX be) (ADJP (JJ functional)))))))))))))))))))))))) (. .)))
+#Rule:Nouns
+r1earachesNNS
+r1infectionsNNS
+r1sinusesNNS
+r1toleranceNN
+r1medicationsNNS
+r1antihistaminesLocationAnnotation
+r1decongestantsNNS
+r1painkillersNNS
+
+#Rule:Verbs
+r2getVBP
+r2blockedVBN
+r2tPersonAnnotation
+r2thinksVBZ
+
+#Rule:Adjs
+r4chronicJJ
+r4lowJJ
+r4functionalJJ
+
+#Rule:Adj-Noun
+r5chronicJJearachesNNS
+r5lowJJtoleranceNN
+
+#Rule:HeadNoun-V
+r11iPRPgetVBP
+r11iPRPhaveAUX
+r11iPRPhaveAUX
+
+#Rule:HeadNoun-(who/that)-V
+r14medicationsNNStPersonAnnotation
+
+#Rule:V-HeadNoun
+r21getVBPearachesNNS
+r21haveAUXtoleranceNN
+
+#Rule:V-HeadNoun(passive)
+r24blockedVBNsinusesNNS
+
+#Rule:V-ADJ
+r25beAUXfunctionalJJ
+
+#Rule:PPinNP
+r26toleranceNNforINmedicationsNNS
+
+#Rule:PPinVP
+r30thinksVBZlikeINpainkillersNNS
+
+@lemmas-left	medications	painkillers	have	functional	chronic	ease	pain	sinuses	decongestant	decongestants	blocked.	tolerance	infection	blocked	infections	be	medication	antihistamines	painkiller	think	get	earache	suggestions	i	sinus	t	thinks	suggestion	earaches	low	
+@lemmas-right	medication	painkiller	medications	painkillers	get	have	functional	pain	earache	sinuses	sinus	t	tolerance	earaches	
+@lemmas-center	for	like	

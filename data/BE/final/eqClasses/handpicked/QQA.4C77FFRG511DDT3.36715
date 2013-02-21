@@ -1,0 +1,486 @@
+BE: placeNN
+EQ class: spotnn	topographic_pointnn	
+
+BE: askVB
+EQ class: enquirevb	inquirevb	
+
+BE: wrongJJ
+EQ class: incorrectjj	wrongnessnn	
+
+BE: wrongJJplaceNN
+EQ class: incorrectjjplacenn	incorrectjjspotnn	setvbwronglyrb	putvbwronglyrb	wrongjjtopographic_pointnn	wrongnessnntopographic_pointnn	posevbwronglyrb	layvbwronglyrb	wrongjjspotnn	wrongnessnnspotnn	positionvbwronglyrb	incorrectjjtopographic_pointnn	wrongnessnnplacenn	placevbwronglyrb	
+
+BE: thisDTisAUX
+EQ class: thisdtbeaux	
+
+BE: placeNNaskVB
+EQ class: queriernnplacenn	questionernntopographic_pointnn	spotnnaskvb	askernnofintopographic_pointnn	queriernnspotnn	enquirernnofintopographic_pointnn	topographic_pointnninquirevb	queriernnofintopographic_pointnn	spotnnenquirevb	queriernnofinplacenn	inquirernnplacenn	askernnofinplacenn	placenninquirevb	askernnplacenn	askernnspotnn	inquirernnofintopographic_pointnn	spotnninquirevb	inquirernntopographic_pointnn	inquirernnofinplacenn	questionernnofinplacenn	questionernnplacenn	enquirernnplacenn	placennenquirevb	questionernnofintopographic_pointnn	enquirernnofinspotnn	inquirernnofinspotnn	askernntopographic_pointnn	queriernnofinspotnn	questionernnofinspotnn	askernnofinspotnn	queriernntopographic_pointnn	questionernnspotnn	enquirernnofinplacenn	topographic_pointnnaskvb	enquirernntopographic_pointnn	topographic_pointnnenquirevb	enquirernnspotnn	inquirernnspotnn	
+
+BE: isAUXplaceNN
+EQ class: isauxtopographic_pointnn	beauxplacenn	beauxtopographic_pointnn	isauxspotnn	beauxspotnn	
+
+BE: isAUXnotRB
+EQ class: beauxnotrb	
+
+BE: peopleNNS
+EQ class: theynns	themnns	
+
+BE: understandVBP
+EQ class: 
+
+BE: thereEXareAUX
+EQ class: thereexbeaux	
+
+BE: peopleNNSunderstandVBP
+EQ class: discernmentnnpeoplenns	understandingnnthemnns	themnnsunderstandvbp	discernmentnnthemnns	understandablennofinpeoplenns	discernmentnnofintheynns	understandingnnpeoplenns	savvynnofinthemnns	discernmentnnofinthemnns	apprehensionnnofintheynns	savvynnpeoplenns	discernmentnnofinpeoplenns	apprehensionnnpeoplenns	apprehensionnntheynns	understandingnnofinpeoplenns	savvynnthemnns	understandingnnofinthemnns	savvynnofintheynns	apprehensionnnofinthemnns	understandingnnofintheynns	savvynntheynns	understandingnntheynns	understandablennofintheynns	theynnsunderstandvbp	savvynnofinpeoplenns	apprehensionnnthemnns	apprehensionnnofinpeoplenns	understandablennofinthemnns	discernmentnntheynns	
+
+BE: areAUXpeopleNNS
+EQ class: beauxthemnns	areauxthemnns	beauxpeoplenns	beauxtheynns	areauxtheynns	
+
+BE: somethingNN
+EQ class: 
+
+BE: wantVBP
+EQ class: desirevbp	
+
+BE: understandVBP
+EQ class: 
+
+BE: iPRPwantVBP
+EQ class: needernniprp	deprivationnnofiniprp	wantnnofiniprp	needernnofiniprp	wanternniprp	needinessnnofiniprp	iprpdesirevbp	privationnnofiniprp	wanternnofiniprp	
+
+BE: youPRPunderstandVBP
+EQ class: discernmentnnofinyouprp	understandingnnofinyouprp	understandablennofinyouprp	apprehensionnnyouprp	discernmentnnyouprp	understandingnnyouprp	savvynnofinyouprp	apprehensionnnofinyouprp	savvynnyouprp	
+
+BE: understandVBPsomethingNN
+EQ class: understandablennofinsomethingnn	discernmentnnofinsomethingnn	understandingnnofinsomethingnn	savvynnofinsomethingnn	apprehensionnnofinsomethingnn	
+
+BE: nobodyNN
+EQ class: cyphernn	ciphernn	nonentitynn	
+
+BE: knowVBP
+EQ class: cognizevbp	cognisevbp	
+
+BE: feelVBP
+EQ class: experiencevbp	
+
+BE: understandsVBZ
+EQ class: understandvbz	
+
+BE: feelVBP
+EQ class: experiencevbp	
+
+BE: elseJJ
+EQ class: 
+
+BE: elseJJnobodyNN
+EQ class: elsejjciphernn	elsejjcyphernn	elsejjnonentitynn	
+
+BE: iPRPknowVBP
+EQ class: iprpcognizevbp	knowablennofiniprp	apprehendernniprp	knowingnniprp	knowingnnofiniprp	apprehendernnofiniprp	knowernnofiniprp	knowernniprp	iprpcognisevbp	
+
+BE: youPRPfeelVBP
+EQ class: feelingsnnyouprp	youprpexperiencevbp	feelingnnyouprp	feelingsnnofinyouprp	feelingnnofinyouprp	
+
+BE: nobodyNNunderstandsVBZ
+EQ class: understandablennofinnonentitynn	savvynnofincyphernn	nonentitynnunderstandsvbz	understandablennofinciphernn	understandingnnciphernn	apprehensionnncyphernn	discernmentnnnonentitynn	nobodynnunderstandvbz	discernmentnncyphernn	savvynnofinnobodynn	apprehensionnnofincyphernn	discernmentnnofinnonentitynn	cyphernnunderstandsvbz	apprehensionnnciphernn	apprehensionnnnonentitynn	cyphernnunderstandvbz	savvynnnobodynn	discernmentnnciphernn	understandingnnnobodynn	understandingnnofincyphernn	savvynnnonentitynn	understandingnncyphernn	discernmentnnnobodynn	savvynnofinciphernn	ciphernnunderstandvbz	discernmentnnofinnobodynn	understandingnnofinnonentitynn	nonentitynnunderstandvbz	understandingnnofinnobodynn	apprehensionnnofinnobodynn	understandingnnnonentitynn	discernmentnnofinciphernn	apprehensionnnofinnonentitynn	savvynnciphernn	understandingnnofinciphernn	ciphernnunderstandsvbz	savvynnofinnonentitynn	apprehensionnnofinciphernn	discernmentnnofincyphernn	understandablennofinnobodynn	savvynncyphernn	understandablennofincyphernn	apprehensionnnnobodynn	
+
+BE: youPRPfeelVBP
+EQ class: feelingsnnyouprp	youprpexperiencevbp	feelingnnyouprp	feelingsnnofinyouprp	feelingnnofinyouprp	
+
+BE: feelVBPthatINunderstandsVBZ
+EQ class: experiencevbpthatinunderstandsvbz	feelvbpthatinunderstandvbz	experiencevbpthatinunderstandvbz	
+
+BE: feelVBPrightRB
+EQ class: feelingnnofinrightrb	feelingsnnofinrightrb	experiencevbprightrb	
+
+BE: feelVBPnowRB
+EQ class: feelingnnofinnowrb	feelingsnnofinnowrb	experiencevbpnowrb	
+
+BE: feelVBPrightRB
+EQ class: feelingnnofinrightrb	feelingsnnofinrightrb	experiencevbprightrb	
+
+BE: feelVBPnowRB
+EQ class: feelingnnofinnowrb	feelingsnnofinnowrb	experiencevbpnowrb	
+
+BE: wantVBP
+EQ class: desirevbp	
+
+BE: knowVB
+EQ class: cognizevb	cognisevb	
+
+BE: iPRPwantVBP
+EQ class: needernniprp	deprivationnnofiniprp	wantnnofiniprp	needernnofiniprp	wanternniprp	needinessnnofiniprp	iprpdesirevbp	privationnnofiniprp	wanternnofiniprp	
+
+BE: youPRPknowVB
+EQ class: knowablennofinyouprp	youprpcognizevb	knowingnnyouprp	knowernnofinyouprp	apprehendernnyouprp	youprpcognisevb	knowingnnofinyouprp	knowernnyouprp	apprehendernnofinyouprp	
+
+BE: wePRPdoAUX
+EQ class: weprpmakeaux	
+
+BE: wantVBPyouPRP
+EQ class: wantnnofinyouprp	deprivationnnofinyouprp	wanternnofinyouprp	desirevbpyouprp	needinessnnofinyouprp	privationnnofinyouprp	needernnofinyouprp	
+
+BE: knowVBthatINdoAUX
+EQ class: cognisevbthatinmakeaux	cognizevbthatindoaux	cognisevbthatindoaux	knowvbthatinmakeaux	cognizevbthatinmakeaux	
+
+BE: knowVBP
+EQ class: cognizevbp	cognisevbp	
+
+BE: feelsVBZ
+EQ class: feelvbz	experiencevbz	
+
+BE: sVBZ
+EQ class: 
+
+BE: hardJJ
+EQ class: difficultjj	hardnessnn	
+
+BE: toughJJ
+EQ class: 
+
+BE: wePRPknowVBP
+EQ class: weprpcognizevbp	knowingnnweprp	knowernnweprp	apprehendernnofinweprp	knowingnnofinweprp	weprpcognisevbp	knowablennofinweprp	knowernnofinweprp	apprehendernnweprp	
+
+BE: itPRPfeelsVBZ
+EQ class: feelingnnitprp	feelingsnnofinitprp	feelingnnofinitprp	itprpfeelvbz	itprpexperiencevbz	feelingsnnitprp	
+
+BE: itPRPsVBZ
+EQ class: 
+
+BE: beingAUXG15CD
+EQ class: beingauxg1.5.cd	beingauxgfifteencd	beingauxgxvcd	
+
+BE: isAUXtoughJJ
+EQ class: beauxtoughjj	
+
+BE: feelsVBZthatINsVBZ
+EQ class: experiencevbzthatinsvbz	feelvbzthatinsvbz	
+
+BE: reNNP
+EQ class: rheniumnnp	atomic_number_75nnp	
+
+BE: mNNP
+EQ class: meternnp	metrennp	
+
+BE: goingVBG
+EQ class: movevbg	govbg	travelvbg	locomotevbg	
+
+BE: letVB
+EQ class: allowvb	permitvb	
+
+BE: okayLocationAnnotation
+EQ class: 
+
+BE: sureJJ
+EQ class: surenessnn	certainjj	
+
+BE: youPRPgoingVBG
+EQ class: youprpmovevbg	youprpgovbg	youprplocomotevbg	youprptravelvbg	
+
+BE: youPRPhaveAUX
+EQ class: youprphave_gotaux	rich_personnnofinyouprp	havennofinyouprp	youprpholdaux	wealthy_personnnofinyouprp	
+
+BE: letVByourselfPRP
+EQ class: allowvbyourselfprp	permitvbyourselfprp	
+
+BE: beAUXokayLocationAnnotation
+EQ class: 
+
+BE: bodyNN
+EQ class: physical_structurenn	bodilyjj	organic_structurenn	
+
+BE: mindNN
+EQ class: headnn	brainnn	psychenn	nousnn	
+
+BE: adultNN
+EQ class: adultjj	grownupnn	
+
+BE: sizeNN
+EQ class: 
+
+BE: brainNN
+EQ class: encephalonnn	
+
+BE: maturingVBG
+EQ class: growvbg	maturatevbg	maturevbg	
+
+BE: sVBZ
+EQ class: 
+
+BE: yourPRP$bodyNN
+EQ class: physical_structurennofinyourprp$	yourprp$bodilyvb	yourprp$bodilyjj	yourprp$organic_structurenn	bodilyvbyourprp$	bodynnofinyourprp$	bodilyjjofinyourprp$	organic_structurennofinyourprp$	yourprp$physical_structurenn	
+
+BE: adultNNsizeNN
+EQ class: grownupnnsizevb	sizevbadultnn	adultjjsizenn	adultnnsizevb	sizennofinadultjj	adultjjsizevb	sizevbgrownupnn	sizennofingrownupnn	sizevbadultjj	grownupnnsizenn	sizennofinadultnn	
+
+BE: bodyNNmaturingVBG
+EQ class: organic_structurennmaturingvbg	maturationaljjofinphysical_structurenn	maturationaljjorganic_structurenn	ripeningnnbodilyjj	bodynnmaturatevbg	maturationaljjofinbodilyjj	maturementnnofinbodilyjj	maturementnnofinorganic_structurenn	maturementnnbodilyjj	bodynnmaturevbg	maturationnnofinorganic_structurenn	physical_structurenngrowvbg	bodynngrowvbg	maturationnnorganic_structurenn	maturementnnofinbodynn	ripeningnnofinbodynn	ripeningnnphysical_structurenn	maturationaljjofinbodynn	maturementnnofinphysical_structurenn	bodilyjjgrowvbg	ripeningnnbodynn	physical_structurennmaturatevbg	bodilyjjmaturevbg	maturationnnofinbodilyjj	maturationnnbodilyjj	bodilyjjmaturatevbg	maturationnnbodynn	organic_structurennmaturatevbg	maturationnnphysical_structurenn	physical_structurennmaturingvbg	bodilyjjmaturingvbg	maturationaljjbodilyjj	maturationnnofinphysical_structurenn	organic_structurenngrowvbg	maturationaljjbodynn	organic_structurennmaturevbg	maturementnnphysical_structurenn	ripeningnnorganic_structurenn	maturationaljjofinorganic_structurenn	physical_structurennmaturevbg	maturementnnbodynn	maturationnnofinbodynn	maturementnnorganic_structurenn	maturationaljjphysical_structurenn	ripeningnnofinphysical_structurenn	ripeningnnofinorganic_structurenn	ripeningnnofinbodilyjj	
+
+BE: itPRPsVBZ
+EQ class: 
+
+BE: maturingVBGtoTOsizeNN
+EQ class: growvbgtotosizenn	maturevbgtotosizenn	maturatevbgtotosizenn	
+
+BE: sVBZonINbrainNN
+EQ class: svbzoninencephalonnn	
+
+BE: sVBZhardRB
+EQ class: 
+
+BE: tensionNN
+EQ class: tensenessnn	stressnn	
+
+BE: equilibriateVBP
+EQ class: 
+
+BE: feelVB
+EQ class: experiencevb	
+
+BE: youPRPfeelVB
+EQ class: feelingsnnyouprp	youprpexperiencevb	feelingnnyouprp	feelingsnnofinyouprp	feelingnnofinyouprp	
+
+BE: youPRPequilibriateVBP
+EQ class: 
+
+BE: feelVBtensionNN
+EQ class: feelingnnofintensionnn	feelingsnnofinstressnn	feelvbtensenessnn	feelingnnofinstressnn	feelvbstressnn	experiencevbtensenessnn	experiencevbstressnn	feelingsnnofintensenessnn	experiencevbtensionnn	feelingnnofintensenessnn	feelingsnnofintensionnn	
+
+BE: feelVBofINyouPRP
+EQ class: experiencevbofinyouprp	
+
+BE: lotNN
+EQ class: spatenn	heapnn	passelnn	slewnn	flocknn	raftnn	dealnn	potnn	micklenn	pilenn	great_dealnn	mountainnn	sightnn	mintnn	stacknn	hatfulnn	mucklenn	tidy_sumnn	messnn	quite_a_littlenn	wadnn	massnn	plentynn	pecknn	good_dealnn	batchnn	
+
+BE: knowVBP
+EQ class: cognizevbp	cognisevbp	
+
+BE: helpVB
+EQ class: aidvb	assistvb	
+
+BE: youPRPknowVBP
+EQ class: youprpcognisevbp	knowablennofinyouprp	knowingnnyouprp	knowernnofinyouprp	youprpcognizevbp	apprehendernnyouprp	knowingnnofinyouprp	knowernnyouprp	apprehendernnofinyouprp	
+
+BE: helpVByouPRP
+EQ class: supporternnofinyouprp	helpnnofinyouprp	aidvbyouprp	assistantnnofinyouprp	aidnnofinyouprp	helpernnofinyouprp	assistvbyouprp	assistancennofinyouprp	assistnnofinyouprp	
+
+BE: helpVBlotNN
+EQ class: aidnnofinbatchnn	supporternnofintidy_sumnn	aidvbmassnn	assistnnofinpasselnn	assistvbmountainnn	assistantnnofinmucklenn	assistvbheapnn	assistvbbatchnn	helpnnofinsightnn	aidnnofinflocknn	supporternnofinpotnn	assistantnnofinhatfulnn	aidvbgood_dealnn	assistancennofinwadnn	aidnnofinhatfulnn	helpvbstacknn	helpernnofinquite_a_littlenn	helpnnofinpecknn	assistancennofinhatfulnn	aidvbheapnn	supporternnofinquite_a_littlenn	assistancennofinmicklenn	assistancennofingreat_dealnn	supporternnofinpilenn	assistantnnofinheapnn	assistantnnofinmessnn	supporternnofinmountainnn	assistancennofinslewnn	helpnnofindealnn	helpvbpilenn	supporternnofinwadnn	assistnnofinslewnn	assistnnofinmucklenn	assistnnofinstacknn	helpernnofinpasselnn	assistvbpilenn	helpernnofinraftnn	assistantnnofinspatenn	aidvbmintnn	helpvbbatchnn	aidnnofinmicklenn	aidnnofingood_dealnn	helpnnofinmessnn	aidnnofinslewnn	assistvbgreat_dealnn	assistvbtidy_sumnn	helpernnofinpilenn	assistancennofinmintnn	assistnnofinhatfulnn	assistantnnofinsightnn	assistantnnofindealnn	aidvbwadnn	helpernnofinlotnn	helpernnofinsightnn	assistvbraftnn	assistnnofinspatenn	helpvbhatfulnn	assistancennofinmucklenn	assistnnofinpecknn	helpernnofindealnn	supporternnofinmucklenn	helpvbgood_dealnn	helpvbmountainnn	assistvbmicklenn	assistancennofinspatenn	helpernnofinmintnn	helpernnofinplentynn	assistnnofinquite_a_littlenn	assistantnnofinpotnn	aidnnofinlotnn	helpvbplentynn	assistvbsightnn	aidnnofinmessnn	assistvblotnn	supporternnofinmicklenn	helpvbmintnn	assistancennofinsightnn	aidvbmountainnn	aidnnofinmucklenn	aidnnofinstacknn	supporternnofinbatchnn	aidnnofinquite_a_littlenn	helpernnofinbatchnn	assistancennofinplentynn	helpnnofinplentynn	assistvbgood_dealnn	assistnnofinpilenn	assistantnnofinmassnn	helpnnofinflocknn	helpvbspatenn	helpernnofinmountainnn	assistnnofinmessnn	assistnnofinmassnn	assistnnofingood_dealnn	helpernnofinhatfulnn	helpnnofinmicklenn	assistancennofingood_dealnn	helpernnofinmassnn	helpernnofinmessnn	helpernnofingood_dealnn	aidvbhatfulnn	helpvbheapnn	assistancennofinpecknn	assistantnnofinmintnn	aidnnofintidy_sumnn	aidvbstacknn	helpernnofinheapnn	helpnnofinwadnn	helpvbwadnn	aidvbflocknn	supporternnofinpasselnn	assistnnofinbatchnn	supporternnofinplentynn	assistnnofinpotnn	aidnnofindealnn	aidnnofinpotnn	supporternnofinmassnn	aidvbslewnn	assistancennofintidy_sumnn	assistantnnofinwadnn	helpnnofinmountainnn	helpernnofinmicklenn	helpnnofinstacknn	aidnnofinpasselnn	aidvblotnn	assistvbpecknn	assistantnnofinlotnn	supporternnofinstacknn	supporternnofinspatenn	helpernnofinmucklenn	helpvbslewnn	aidvbspatenn	assistantnnofinslewnn	supporternnofinraftnn	supporternnofinsightnn	aidvbtidy_sumnn	assistvbmintnn	aidvbmicklenn	assistantnnofinquite_a_littlenn	supporternnofinheapnn	assistantnnofinraftnn	helpnnofinlotnn	assistvbdealnn	helpvbpasselnn	aidnnofinplentynn	aidvbquite_a_littlenn	supporternnofinflocknn	helpernnofinstacknn	assistvbpasselnn	helpernnofinpotnn	helpvbpotnn	helpnnofingood_dealnn	assistnnofinmountainnn	assistvbstacknn	assistantnnofinpilenn	aidnnofinpecknn	helpnnofinraftnn	helpnnofinbatchnn	helpvbmessnn	assistancennofinmountainnn	supporternnofinmintnn	assistancennofinpasselnn	helpnnofingreat_dealnn	supporternnofindealnn	helpvbmucklenn	helpnnofinhatfulnn	helpernnofinwadnn	assistantnnofinmicklenn	assistvbhatfulnn	aidvbpotnn	supporternnofinpecknn	assistancennofinpilenn	aidvbdealnn	supporternnofinhatfulnn	aidnnofingreat_dealnn	assistnnofinlotnn	helpvbtidy_sumnn	assistvbflocknn	helpvbsightnn	assistvbquite_a_littlenn	assistancennofinquite_a_littlenn	assistvbspatenn	aidvbraftnn	assistvbslewnn	helpernnofintidy_sumnn	aidnnofinpilenn	aidnnofinmountainnn	aidvbpasselnn	aidvbmucklenn	helpnnofintidy_sumnn	assistantnnofingreat_dealnn	assistantnnofintidy_sumnn	assistnnofintidy_sumnn	helpernnofinflocknn	assistancennofinraftnn	assistantnnofinpecknn	assistancennofinflocknn	aidvbgreat_dealnn	assistvbmucklenn	supporternnofingood_dealnn	helpernnofinpecknn	assistancennofinlotnn	aidvbsightnn	helpnnofinpasselnn	helpnnofinspatenn	assistancennofinheapnn	assistancennofinbatchnn	assistnnofinraftnn	helpvbflocknn	aidvbplentynn	assistnnofinplentynn	helpvbdealnn	aidnnofinraftnn	assistnnofinmicklenn	assistnnofinflocknn	helpvbgreat_dealnn	assistnnofinsightnn	helpnnofinmucklenn	assistancennofinpotnn	assistvbmassnn	helpnnofinpotnn	aidvbpecknn	assistancennofinmessnn	helpernnofinslewnn	helpvbmicklenn	helpvbpecknn	assistantnnofinstacknn	assistvbpotnn	assistnnofindealnn	supporternnofinlotnn	assistnnofinmintnn	assistnnofinheapnn	supporternnofingreat_dealnn	supporternnofinslewnn	supporternnofinmessnn	aidvbbatchnn	assistvbmessnn	assistantnnofingood_dealnn	assistvbplentynn	assistancennofinstacknn	helpnnofinheapnn	helpnnofinpilenn	helpernnofinspatenn	aidnnofinmassnn	aidvbmessnn	helpvbmassnn	aidnnofinspatenn	assistancennofinmassnn	assistancennofindealnn	helpnnofinslewnn	aidnnofinheapnn	helpernnofingreat_dealnn	assistnnofinwadnn	assistantnnofinmountainnn	helpvbraftnn	assistantnnofinpasselnn	helpnnofinmassnn	aidnnofinsightnn	helpvbquite_a_littlenn	assistantnnofinbatchnn	assistnnofingreat_dealnn	helpnnofinquite_a_littlenn	aidnnofinwadnn	aidvbpilenn	assistantnnofinplentynn	assistantnnofinflocknn	aidnnofinmintnn	helpnnofinmintnn	assistvbwadnn	
+
+BE: ExerciseNN
+EQ class: workoutnn	physical_exercisenn	physical_exertionnn	exercisingnn	
+
+BE: guysNNS
+EQ class: catnns	hombrenns	theynns	bozonns	guynns	themnns	
+
+BE: wayNN
+EQ class: stylenn	fashionnn	modenn	mannernn	
+
+BE: exerciseNN
+EQ class: workoutnn	physical_exercisenn	physical_exertionnn	exercisingnn	
+
+BE: hatesVBZ
+EQ class: detestvbz	hatevbz	
+
+BE: exerciseVB
+EQ class: exertvb	
+
+BE: promiseVBP
+EQ class: assurevbp	
+
+BE: findVB
+EQ class: chancevb	happenvb	encountervb	bumpvb	
+
+BE: getVB
+EQ class: acquirevb	
+
+BE: helpVB
+EQ class: aidvb	assistvb	
+
+BE: understandVB
+EQ class: 
+
+BE: youPRPbeAUX
+EQ class: 
+
+BE: iPRPpromiseVBP
+EQ class: promisernniprp	promiseenniprp	promiseennofiniprp	promisernnofiniprp	promisennofiniprp	promisornnofiniprp	iprpassurevbp	promissorynnofiniprp	promisornniprp	
+
+BE: itPRPhelpVB
+EQ class: helpnnofinitprp	supporternnofinitprp	assistancennofinitprp	helpernnofinitprp	itprpaidvb	assistantnnofinitprp	supporternnitprp	helpernnitprp	itprpassistvb	assistantnnitprp	assistnnofinitprp	helpnnitprp	aidnnofinitprp	
+
+BE: youPRPfindVB
+EQ class: findnnofinyouprp	youprphappenvb	youprpbumpvb	youprpencountervb	discoverynnofinyouprp	youprpchancevb	breakthroughnnofinyouprp	findernnyouprp	findernnofinyouprp	
+
+BE: youPRPunderstandVB
+EQ class: discernmentnnofinyouprp	understandingnnofinyouprp	understandablennofinyouprp	apprehensionnnyouprp	discernmentnnyouprp	understandingnnyouprp	savvynnofinyouprp	apprehensionnnofinyouprp	savvynnyouprp	
+
+BE: oneCDhatesVBZ
+EQ class: hatrednnofin1cd	haternnofinsinglecd	unitycdhatesvbz	1cddetestvbz	hatrednnofinicd	hatennofinonecd	1cdhatevbz	haternnacecd	acecdhatevbz	haternnofin1cd	hatennofinicd	acecddetestvbz	icdhatesvbz	icddetestvbz	acecdhatesvbz	haternnofinonecd	hatrednnofinacecd	hatennofinunitycd	haternnofinicd	1cdhatesvbz	haternnunitycd	hatrednnofinonecd	onecdhatevbz	haternnofinacecd	hatennofin1cd	unitycddetestvbz	hatrednnofinunitycd	haternn1cd	haternnonecd	haternnsinglecd	singlecdhatesvbz	icdhatevbz	singlecdhatevbz	haternnofinunitycd	singlecddetestvbz	hatennofinacecd	unitycdhatevbz	haternnicd	hatrednnofinsinglecd	hatennofinsinglecd	onecddetestvbz	
+
+BE: wayNNgetVB
+EQ class: modennacquirevb	acquiringnnstylenn	gettingnnofinmodenn	waynnacquirevb	acquiringnnofinfashionnn	acquiringnnwaynn	gettingnnfashionnn	gettingnnofinfashionnn	acquiringnnmodenn	fashionnnacquirevb	gettingnnofinwaynn	acquiringnnfashionnn	acquiringnnofinmodenn	gettingnnofinstylenn	stylennacquirevb	gettingnnofinmannernn	acquiringnnofinstylenn	gettingnnmodenn	gettingnnmannernn	acquiringnnmannernn	fashionnngetvb	acquiringnnofinmannernn	mannernnacquirevb	modenngetvb	mannernngetvb	gettingnnstylenn	gettingnnwaynn	acquiringnnofinwaynn	stylenngetvb	
+
+BE: beAUXoneCD
+EQ class: beaux1cd	beauxsinglecd	beauxicd	beauxacecd	beauxunitycd	
+
+BE: findVBwayNN
+EQ class: happenvbfashionnn	encountervbmodenn	chancevbmannernn	chancevbwaynn	findvbmannernn	breakthroughnnofinmodenn	breakthroughnnofinmannernn	bumpvbmodenn	findernnofinwaynn	happenvbstylenn	findvbfashionnn	happenvbmodenn	bumpvbstylenn	breakthroughnnofinfashionnn	discoverynnofinwaynn	bumpvbfashionnn	findnnofinmodenn	findvbmodenn	findvbstylenn	findnnofinwaynn	happenvbmannernn	bumpvbwaynn	discoverynnofinfashionnn	findernnofinfashionnn	findernnofinstylenn	discoverynnofinmodenn	breakthroughnnofinstylenn	encountervbmannernn	findernnofinmodenn	breakthroughnnofinwaynn	chancevbfashionnn	encountervbstylenn	encountervbwaynn	findnnofinfashionnn	discoverynnofinstylenn	chancevbstylenn	discoverynnofinmannernn	happenvbwaynn	bumpvbmannernn	findernnofinmannernn	chancevbmodenn	findnnofinmannernn	encountervbfashionnn	findnnofinstylenn	
+
+BE: getVBexerciseNN
+EQ class: getvbworkoutnn	acquirevbphysical_exercisenn	acquirevbphysical_exertionnn	getvbexercisingnn	acquiringnnofinphysical_exertionnn	acquiringnnofinphysical_exercisenn	acquiringnnofinworkoutnn	gettingnnofinexercisenn	acquiringnnofinexercisingnn	getvbphysical_exercisenn	gettingnnofinphysical_exercisenn	acquirevbworkoutnn	acquiringnnofinexercisenn	gettingnnofinexercisingnn	acquirevbexercisenn	gettingnnofinworkoutnn	getvbphysical_exertionnn	gettingnnofinphysical_exertionnn	acquirevbexercisingnn	
+
+BE: helpVByouPRP
+EQ class: supporternnofinyouprp	helpnnofinyouprp	aidvbyouprp	assistantnnofinyouprp	aidnnofinyouprp	helpernnofinyouprp	assistvbyouprp	assistancennofinyouprp	assistnnofinyouprp	
+
+BE: oneCDofINguysNNS
+EQ class: 1cdofincatnns	bozonnsacecd	icdofinguysnns	unitycdofinbozonns	unitycdofincatnns	guynnssinglecd	acecdofincatnns	unitycdofinguysnns	guynnsunitycd	guysnns1cd	guysnnsonecd	theynns1cd	singlecdofinbozonns	singlecdofinguynns	guysnnsicd	acecdofintheynns	singlecdofincatnns	singlecdofintheynns	singlecdofinthemnns	guysnnssinglecd	onecdofinbozonns	bozonnsicd	guysnnsacecd	bozonnssinglecd	hombrennsacecd	icdofinhombrenns	guynnsonecd	bozonnsunitycd	icdofinbozonns	themnnsicd	acecdofinbozonns	catnnsacecd	1cdofinthemnns	onecdofinthemnns	1cdofinhombrenns	hombrennsunitycd	unitycdofintheynns	icdofinguynns	themnnsonecd	guysnnsunitycd	hombrennsicd	catnnsicd	onecdofinhombrenns	onecdofincatnns	theynnsacecd	icdofinthemnns	singlecdofinhombrenns	theynnsicd	themnnsunitycd	theynnsunitycd	themnns1cd	1cdofintheynns	bozonns1cd	1cdofinbozonns	themnnsacecd	unitycdofinhombrenns	catnnssinglecd	hombrennsonecd	acecdofinguysnns	catnnsunitycd	themnnssinglecd	bozonnsonecd	unitycdofinthemnns	acecdofinhombrenns	1cdofinguysnns	hombrennssinglecd	onecdofinguynns	catnns1cd	catnnsonecd	theynnsonecd	unitycdofinguynns	1cdofinguynns	guynnsacecd	acecdofinguynns	singlecdofinguysnns	icdofincatnns	hombrenns1cd	acecdofinthemnns	onecdofintheynns	theynnssinglecd	guynns1cd	icdofintheynns	guynnsicd	
+
+BE: hatesVBZexerciseVB
+EQ class: hatennofinexertvb	haternnofinexercisevb	hatesvbzexertvb	hatevbzexertvb	hatennofinexercisevb	detestvbzexercisevb	hatrednnofinexertvb	hatrednnofinexercisevb	haternnofinexertvb	detestvbzexertvb	hatevbzexercisevb	
+
+BE: understandVBrightRB
+EQ class: apprehensionnnofinrightrb	understandingnnofinrightrb	understandablennofinrightrb	savvynnofinrightrb	discernmentnnofinrightrb	
+
+BE: understandVBnowRB
+EQ class: understandingnnofinnowrb	understandablennofinnowrb	discernmentnnofinnowrb	savvynnofinnowrb	apprehensionnnofinnowrb	
+
+BE: wayNN
+EQ class: stylenn	fashionnn	modenn	mannernn	
+
+BE: lifeNN
+EQ class: 
+
+BE: sVBZ
+EQ class: 
+
+BE: recommendVB
+EQ class: urgevb	advocatevb	
+
+BE: changeVB
+EQ class: modifyvb	altervb	
+
+BE: bestJJS
+EQ class: bestnn	
+
+BE: bestJJSwayNN
+EQ class: bestjjsmodenn	bestnnwaynn	bestnnstylenn	bestjjsfashionnn	bestjjsmannernn	bestnnmannernn	bestjjsstylenn	bestnnmodenn	bestnnfashionnn	
+
+BE: yourPRP$lifeNN
+EQ class: lifennofinyourprp$	
+
+BE: thatDTsVBZ
+EQ class: 
+
+BE: iPRPrecommendVB
+EQ class: iprpadvocatevb	iprpurgevb	recommendationnnofiniprp	recommendationnniprp	
+
+BE: recommendVBwayNN
+EQ class: recommendationnnofinstylenn	urgevbmannernn	advocatevbmodenn	urgevbfashionnn	recommendationnnofinwaynn	advocatevbfashionnn	recommendationnnofinmannernn	recommendvbstylenn	recommendationnnofinfashionnn	urgevbmodenn	advocatevbmannernn	advocatevbwaynn	recommendvbmodenn	recommendvbmannernn	recommendvbfashionnn	recommendationnnofinmodenn	advocatevbstylenn	urgevbstylenn	urgevbwaynn	
+
+BE: sVBZwayNN
+EQ class: svbzfashionnn	svbzmodenn	svbzstylenn	svbzmannernn	
+
+BE: changeVBlifeNN
+EQ class: modifyvblifenn	changernnofinlifenn	alterationnnofinlifenn	modifiernnofinlifenn	changennofinlifenn	altervblifenn	modificationnnofinlifenn	
+
+BE: recommendVBtoTOyouPRP
+EQ class: urgevbtotoyouprp	advocatevbtotoyouprp	
+
+BE: recommendVBchangeVB
+EQ class: advocatevbchangevb	urgevbchangevb	recommendationnnofinchangevb	advocatevbaltervb	urgevbmodifyvb	recommendationnnofinmodifyvb	recommendvbmodifyvb	advocatevbmodifyvb	recommendvbaltervb	urgevbaltervb	recommendationnnofinaltervb	
+
+BE: stuffNN
+EQ class: materialnn	
+
+BE: makeVB
+EQ class: dovb	
+
+BE: eatingVBG
+EQ class: eatvbg	
+
+BE: sureJJ
+EQ class: surenessnn	certainjj	
+
+BE: rightJJ
+EQ class: 
+
+BE: rightJJstuffNN
+EQ class: rightjjmaterialnn	
+
+BE: youPRPeatingVBG
+EQ class: eaternnyouprp	eatingnnofinyouprp	feedernnyouprp	feedingnnofinyouprp	youprpeatvbg	eatingnnyouprp	feedernnofinyouprp	eaternnofinyouprp	feedingnnyouprp	
+
+BE: eatingVBGstuffNN
+EQ class: feedernnofinstuffnn	eaternnofinmaterialnn	eatvbgmaterialnn	eatingnnofinmaterialnn	feedernnofinmaterialnn	eaternnofinstuffnn	eatingnnofinstuffnn	eatingvbgmaterialnn	feedingnnofinstuffnn	eatvbgstuffnn	feedingnnofinmaterialnn	
+
+BE: mNNP
+EQ class: meternnp	metrennp	
+
+BE: thingsNNS
+EQ class: theynns	themnns	
+
+BE: everythingNN
+EQ class: 
+
+BE: balanceNN
+EQ class: 
+
+BE: sayingVBG
+EQ class: sayvbg	statevbg	tellvbg	
+
+BE: eatVBP
+EQ class: 
+
+BE: likeVBP
+EQ class: wishvbp	carevbp	
+
+BE: keepVBP
+EQ class: maintainvbp	holdvbp	
+
+BE: youPRPeatVBP
+EQ class: eaternnyouprp	eatingnnofinyouprp	feedernnyouprp	feedingnnofinyouprp	eatingnnyouprp	feedernnofinyouprp	eaternnofinyouprp	feedingnnyouprp	
+
+BE: youPRPkeepVBP
+EQ class: youprpholdvbp	youprpmaintainvbp	
+
+BE: youPRPlikeVBP
+EQ class: youprpwishvbp	youprpcarevbp	
+
+BE: likeVBPthingsNNS
+EQ class: wishvbpthemnns	carevbpthemnns	likevbptheynns	carevbpthingsnns	wishvbptheynns	likevbpthemnns	wishvbpthingsnns	carevbptheynns	
+
+BE: eatVBPthingsNNS
+EQ class: eatvbptheynns	eatingnnofinthingsnns	feedernnofinthemnns	feedernnofintheynns	eatvbpthemnns	eatingnnofintheynns	feedingnnofinthingsnns	feedernnofinthingsnns	eaternnofinthingsnns	eaternnofinthemnns	feedingnnofintheynns	eaternnofintheynns	feedingnnofinthemnns	eatingnnofinthemnns	
+
+BE: keepVBPeverythingNN
+EQ class: holdvbpeverythingnn	maintainvbpeverythingnn	
+
+BE: everythingNNinINbalanceNN
+EQ class: 
+
+BE: keepVBPjustRB
+EQ class: holdvbpjustrb	maintainvbpjustrb	
+
+BE: ThingsNNS
+EQ class: 
+
+BE: changeVB
+EQ class: modifyvb	altervb	
+
+BE: happyJJ
+EQ class: happinessnn	
+
+BE: ThingsNNSchangeVB
+EQ class: changernnofinthingsnns	modificationnnofinthingsnns	modifiernnthingsnns	thingsnnsaltervb	changennofinthingsnns	alterationnnofinthingsnns	thingsnnsmodifyvb	modifiernnofinthingsnns	changernnthingsnns	
+
+BE: youPRPbeAUX
+EQ class: 
+
+BE: beAUXhappyJJ
+EQ class: beauxhappinessnn	
+
+BE: beAUXagainRB
+EQ class: 
+

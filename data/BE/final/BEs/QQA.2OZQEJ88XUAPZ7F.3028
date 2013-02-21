@@ -1,0 +1,134 @@
+#ya - i d teach my kids you see how society by and large treats celebrity?  
+#(S1 (FRAG (NP (PRP ya)) (: -) (S (NP (PRP i)) (ADVP (LS d)) (VP (VB teach) (NP (PRP$ my) (NNS kids)) (S (NP (PRP you)) (VP (VB see) (SBAR (WHADVP (WRB how)) (S (NP (NN society)) (ADVP (IN by) (CC and) (JJ large)) (VP (VBZ treats) (NP (NN celebrity))))))))) (. ?)))
+#Rule:Nouns
+r1kidsNNS
+r1societyNN
+r1celebrityNN
+
+#Rule:Verbs
+r2teachVB
+r2seeVB
+r2treatsVBZ
+
+#Rule:Adjs
+r4largeJJ
+
+#Rule:PRP-Noun
+r6myPRP$kidsNNS
+
+#Rule:HeadNoun-V
+r11i dOrganizationAnnotationteachVB
+r11youPRPseeVB
+r11societyNNtreatsVBZ
+
+#Rule:V-HeadNoun
+r21teachVBkidsNNS
+r21treatsVBZcelebrityNN
+
+#Rule:V-HeadNoun
+r22teachVByouPRP
+
+#if you want to be a celebrity you ll probably have to do a lot of hard drugs just to clear your mind of every other womens magazine splaying those 5 holiday pounds of yours from the magazine rack of nearly every store in the entire country how dare we assail those in the creative fields - imagine if Bill Gates or someone similar was assailed for reaching the top of their field, the same society does to those who reach the apex of entertainment/arts
+#(S1 (S (SBAR (IN if) (S (NP (PRP you)) (VP (VBP want) (S (VP (TO to) (VP (AUX be) (NP (NP (DT a) (NN celebrity)) (SBAR (S (NP (PRP you)) (ADVP (RB ll) (RB probably)) (VP (AUX have) (S (VP (TO to) (VP (AUX do) (NP (NP (DT a) (NN lot)) (PP (IN of) (NP (JJ hard) (NNS drugs)))) (S (ADVP (RB just)) (VP (TO to) (VP (VB clear) (NP (PRP$ your) (NN mind)) (PP (IN of) (S (NP (DT every) (JJ other) (NNS womens) (NN magazine)) (VP (VBG splaying) (NP (NP (DT those) (ADJP (CD 5) (NN holiday)) (NNS pounds)) (PP (IN of) (NP (NP (NNS yours)) (PP (IN from) (NP (NP (DT the) (NN magazine) (NN rack)) (PP (IN of) (NP (NP (RB nearly) (DT every) (NN store)) (PP (IN in) (NP (NP (DT the) (JJ entire) (NN country)) (SBAR (WHADVP (WRB how)) (S (VP (VBP dare) (SBAR (S (NP (PRP we)) (VP (VBP assail) (NP (NP (DT those)) (PP (IN in) (NP (DT the) (JJ creative) (NNS fields)))))))))))))))))))))))))))))))))))))) (: -) (VP (VB imagine) (SBAR (S (SBAR (IN if) (S (NP (NP (NNP Bill) (NNP Gates)) (CC or) (NP (NP (NN someone)) (ADJP (JJ similar)))) (VP (AUX was) (VP (VBD assailed) (PP (IN for) (S (VP (VBG reaching) (NP (NP (DT the) (NN top)) (PP (IN of) (NP (PRP$ their) (NN field))))))))))) (, ,) (NP (DT the) (JJ same) (NN society)) (VP (AUX does) (PP (TO to) (NP (NP (DT those)) (SBAR (WHNP (WP who)) (S (VP (VBP reach) (NP (NP (DT the) (NN apex)) (PP (IN of) (NP (NNS entertainment/arts)))))))))))))))
+#Rule:Nouns
+r1celebrityNN
+r1lotNN
+r1drugsNNS
+r1mindNN
+r1womensNNS
+r1magazineNN
+r1holidayNN
+r1poundsNNS
+r1yoursNNS
+r1magazineNN
+r1rackNN
+r1storeNN
+r1countryNN
+r1fieldsNNS
+r1Bill GatesPersonAnnotation
+r1someoneNN
+r1topNN
+r1fieldNN
+r1societyNN
+r1apex of entertainment/artsOrganizationAnnotation
+
+#Rule:Verbs
+r2wantVBP
+r2clearVB
+r2splayingVBG
+r2dareVBP
+r2assailVBP
+r2imagineVB
+r2assailedVBD
+r2reachingVBG
+r2reachVBP
+
+#Rule:Adjs
+r4hardJJ
+r4otherJJ
+r4entireJJ
+r4creativeJJ
+r4similarJJ
+r4sameJJ
+
+#Rule:Adj-Noun
+r5hardJJdrugsNNS
+r5otherJJmagazineNN
+r55CDpoundsNNS
+r5entireJJcountryNN
+r5creativeJJfieldsNNS
+r5similarJJsomeoneNN
+r5sameJJsocietyNN
+
+#Rule:PRP-Noun
+r6yourPRP$mindNN
+r6theirPRP$fieldNN
+
+#Rule:N-HeadNoun
+r8womensNNSmagazineNN
+r8magazineNNrackNN
+
+#Rule:HeadNoun-V
+r11youPRPwantVBP
+r11youPRPhaveAUX
+r11magazineNNsplayingVBG
+r11wePRPassailVBP
+r11societyNNdoesAUX
+r11Bill GatesPersonAnnotationassailedVBD
+r11someoneNNassailedVBD
+
+#Rule:HeadNoun-(who/that)-V
+r14countryNNdareVBP
+r14thoseDTreachVBP
+
+#Rule:V-HeadNoun
+r21beAUXcelebrityNN
+r21doAUXlotNN
+r21clearVBmindNN
+r21splayingVBGpoundsNNS
+r21assailVBPthoseDT
+r21reachingVBGtopNN
+r21reachVBPapex of entertainment/artsOrganizationAnnotation
+
+#Rule:PPinNP
+r26lotNNofINdrugsNNS
+r26poundsNNSofINyoursNNS
+r26yoursNNSfromINrackNN
+r26rackNNofINstoreNN
+r26storeNNinINcountryNN
+r26thoseDTinINfieldsNNS
+r26topNNofINfieldNN
+
+#Rule:PPinVP
+r30doesAUXtoTOthoseDT
+
+#Rule:(SBAR+WHADVP)inNP
+r41countryNNhowWRBdareVBP
+
+#Rule:V-ADV
+r46haveAUXllRB
+r46haveAUXprobablyRB
+
+@lemmas-left	store	rack	same	i d	kid	celebrity	womens	splay	reaching	someone	dare	be	fields	imagine	creative	drugs	kids	country	holiday	Bill Gates	5	lot	assail	large	we	pound	treat	does	other	have	pounds	assailed	magazine	clear	treats	reach	apex of entertainment/arts	do	mind	hard	want	yours	drug	top	similar	those	society	your	you	splaying	teach	my	field	entire	see	their	
+@lemmas-right	does	ll	store	have	pounds	rack	assailed	kid	magazine	reach	celebrity	treats	apex of entertainment/arts	splay	someone	probably	do	mind	dare	want	yours	top	drug	fields	those	drugs	society	you	kids	splaying	teach	country	field	see	lot	assail	pound	treat	
+@lemmas-center	to	of	how	from	in	

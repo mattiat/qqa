@@ -1,0 +1,441 @@
+BE: Advil/ibuprophenOrganizationAnnotation
+EQ class: 
+
+BE: miracleNN
+EQ class: miraculousjj	
+
+BE: drugNN
+EQ class: 
+
+BE: mNNP
+EQ class: meternnp	metrennp	
+
+BE: crampsVBG
+EQ class: crampvbg	
+
+BE: waitingVBG
+EQ class: waitvbg	
+
+BE: kickVBinRP
+EQ class: kickernnofininrp	bootnnofininrp	kickingnnofininrp	kicknnofininrp	
+
+BE: myPRP$drugNN
+EQ class: drugvbmyprp$	myprp$drugvb	druggistvbmyprp$	dosevbmyprp$	myprp$dosevb	drugnnofinmyprp$	myprp$druggistvb	
+
+BE: miracleNNdrugNN
+EQ class: druggistvbmiraculousjj	miraculousjjdrugvb	drugvbmiraclenn	dosevbmiraculousjj	miraculousjjdosevb	drugnnofinmiraclenn	miraclenndruggistvb	miraclenndrugvb	drugvbmiraculousjj	dosevbmiraclenn	miraculousjjdrugnn	drugnnofinmiraculousjj	druggistvbmiraclenn	miraclenndosevb	miraculousjjdruggistvb	
+
+BE: Advil/ibuprophenOrganizationAnnotationisAUX
+EQ class: advil/ibuprophenorganizationannotationbeaux	
+
+BE: iPRPwaitingVBG
+EQ class: iprpwaitvbg	waiternniprp	holdnnofiniprp	postponementnnofiniprp	waitnniprp	waiternnofiniprp	waitingnniprp	delaynnofiniprp	waitingnnofiniprp	time_lagnnofiniprp	waitnnofiniprp	servernnofiniprp	servernniprp	
+
+BE: itPRPkickVB
+EQ class: kickingnnofinitprp	kicknnitprp	kicknnofinitprp	kickernnofinitprp	bootnnofinitprp	kickernnitprp	kickingnnitprp	
+
+BE: isAUXdrugNN
+EQ class: beauxdrugnn	
+
+BE: crampsVBGwhileINwaitingVBG
+EQ class: crampvbgwhileinwaitvbg	crampvbgwhileinwaitingvbg	crampsvbgwhileinwaitvbg	
+
+BE: waitingVBGforINkickVB
+EQ class: waitvbgforinkickvb	
+
+BE: drugNNAdvil/ibuprophenOrganizationAnnotation
+EQ class: advil/ibuprophenorganizationannotationdosevb	sedationnnofinadvil/ibuprophenorganizationannotation	advil/ibuprophenorganizationannotationdrugnn	druggingnnofinadvil/ibuprophenorganizationannotation	advil/ibuprophenorganizationannotationdrugvb	drugnnofinadvil/ibuprophenorganizationannotation	
+
+BE: bedNN
+EQ class: 
+
+BE: pillowNN
+EQ class: 
+
+BE: blanketNN
+EQ class: covernn	
+
+BE: bellyNN
+EQ class: abdomennn	venternn	stomachnn	
+
+BE: placeNN
+EQ class: spotnn	topographic_pointnn	
+
+BE: handNN
+EQ class: manusnn	pawnn	mittnn	
+
+BE: areaNN
+EQ class: arealjj	countrynn	
+
+BE: layVBP
+EQ class: positionvbp	placevbp	putvbp	posevbp	setvbp	
+
+BE: rolledVBNupRP
+EQ class: turn_overvbnuprp	rollnnofinuprp	rollernnofinuprp	axial_motionnnofinuprp	axial_rotationnnofinuprp	rollvbnuprp	
+
+BE: tuckedVBNupRP
+EQ class: insertvbnuprp	tuckvbnuprp	
+
+BE: bfJJ
+EQ class: 
+
+BE: bfJJplaceNN
+EQ class: bfjjtopographic_pointnn	bfjjspotnn	
+
+BE: myPRP$bedNN
+EQ class: bednnofinmyprp$	myprp$bedvb	bedvbmyprp$	
+
+BE: myPRP$bellyNN
+EQ class: abdomennnofinmyprp$	venternnofinmyprp$	stomachnnofinmyprp$	myprp$venternn	myprp$abdomennn	bellynnofinmyprp$	myprp$stomachnn	
+
+BE: myPRP$placeNN
+EQ class: posevbmyprp$	myprp$topographic_pointnn	myprp$positionvb	positionvbmyprp$	placennofinmyprp$	putvbmyprp$	setvbmyprp$	myprp$placevb	myprp$layvb	topographic_pointnnofinmyprp$	myprp$spotnn	layvbmyprp$	myprp$posevb	myprp$setvb	spotnnofinmyprp$	myprp$putvb	placevbmyprp$	
+
+BE: hisPRP$handNN
+EQ class: reachvbhisprp$	turn_overvbhisprp$	hisprp$mittnn	passvbhisprp$	hisprp$pass_onvb	hisprp$turn_overvb	hisprp$passvb	handvbhisprp$	hisprp$reachvb	mittnnofinhisprp$	hisprp$manusnn	pawnnofinhisprp$	hisprp$givevb	hisprp$pawnn	manusnnofinhisprp$	handnnofinhisprp$	hisprp$handvb	givevbhisprp$	pass_onvbhisprp$	
+
+BE: iPRPlayVBP
+EQ class: iprpposevbp	iprppositionvbp	iprpputvbp	iprpplacevbp	iprpsetvbp	
+
+BE: iPRPhaveAUX
+EQ class: iprphave_gotaux	rich_personnnofiniprp	iprpholdaux	wealthy_personnnofiniprp	havennofiniprp	
+
+BE: haveAUXplaceNN
+EQ class: rich_personnnofintopographic_pointnn	haveauxtopographic_pointnn	holdauxtopographic_pointnn	rich_personnnofinplacenn	wealthy_personnnofinplacenn	holdauxspotnn	have_gotauxspotnn	havennofintopographic_pointnn	havennofinspotnn	have_gotauxtopographic_pointnn	rich_personnnofinspotnn	wealthy_personnnofintopographic_pointnn	wealthy_personnnofinspotnn	haveauxspotnn	have_gotauxplacenn	havennofinplacenn	holdauxplacenn	
+
+BE: haveAUXhandNN
+EQ class: rich_personnnofinpawnn	rich_personnnofinmanusnn	wealthy_personnnofinmittnn	wealthy_personnnofinmanusnn	haveauxpawnn	havennofinmanusnn	haveauxmittnn	wealthy_personnnofinhandnn	have_gotauxmittnn	holdauxhandnn	havennofinhandnn	holdauxmanusnn	wealthy_personnnofinpawnn	have_gotauxpawnn	holdauxpawnn	have_gotauxhandnn	holdauxmittnn	havennofinpawnn	haveauxmanusnn	rich_personnnofinmittnn	rich_personnnofinhandnn	have_gotauxmanusnn	havennofinmittnn	
+
+BE: rolledVBNpillowNN
+EQ class: rollernnofinpillownn	rollnnofinpillownn	rollvbnpillownn	turn_overvbnpillownn	axial_motionnnofinpillownn	axial_rotationnnofinpillownn	
+
+BE: tuckedVBNpillowNN
+EQ class: tuckvbnpillownn	insertvbnpillownn	
+
+BE: layVBPonINbedNN
+EQ class: positionvbponinbednn	setvbponinbednn	putvbponinbednn	posevbponinbednn	placevbponinbednn	
+
+BE: layVBPwithINpillowNN
+EQ class: posevbpwithinpillownn	setvbpwithinpillownn	placevbpwithinpillownn	putvbpwithinpillownn	positionvbpwithinpillownn	
+
+BE: haveAUXoverINareaNN
+EQ class: haveauxoverinarealjj	holdauxoverinarealjj	holdauxoverinareann	have_gotauxoverinarealjj	have_gotauxoverinareann	have_gotauxoverincountrynn	haveauxoverincountrynn	holdauxoverincountrynn	
+
+BE: tuckedVBNagainstINbellyNN
+EQ class: tuckedvbnagainstinabdomennn	tuckvbnagainstinventernn	insertvbnagainstinventernn	tuckedvbnagainstinstomachnn	insertvbnagainstinbellynn	tuckvbnagainstinstomachnn	tuckvbnagainstinabdomennn	tuckedvbnagainstinventernn	insertvbnagainstinstomachnn	insertvbnagainstinabdomennn	tuckvbnagainstinbellynn	
+
+BE: heatingNN
+EQ class: warmingnn	
+
+BE: padOrganizationAnnotation
+EQ class: 
+
+BE: useVB
+EQ class: employvb	utilizevb	utilisevb	applyvb	
+
+BE: heatingNNpadOrganizationAnnotation
+EQ class: heaternnofinpadorganizationannotation	heat_energynnofinpadorganizationannotation	heatnnofinpadorganizationannotation	warmingnnpadorganizationannotation	warmernnofinpadorganizationannotation	padorganizationannotationofinheatingnn	padorganizationannotationheat_upvb	heatablennofinpadorganizationannotation	padorganizationannotationofinwarmingnn	padorganizationannotationheatvb	
+
+BE: iPRPuseVB
+EQ class: utilisationnniprp	iprputilizevb	utilisationnnofiniprp	useablennofiniprp	usablennofiniprp	usennofiniprp	utilizationnniprp	employmentnnofiniprp	iprpemployvb	usernnofiniprp	exercisenniprp	usagennofiniprp	iprpapplyvb	usernniprp	iprputilisevb	employmentnniprp	exercisennofiniprp	usagenniprp	utilizationnnofiniprp	usenniprp	
+
+BE: useVBpadOrganizationAnnotation
+EQ class: utilizevbpadorganizationannotation	usennofinpadorganizationannotation	utilisevbpadorganizationannotation	usagennofinpadorganizationannotation	exercisennofinpadorganizationannotation	usernnofinpadorganizationannotation	useablennofinpadorganizationannotation	usablennofinpadorganizationannotation	applyvbpadorganizationannotation	utilizationnnofinpadorganizationannotation	employvbpadorganizationannotation	utilisationnnofinpadorganizationannotation	employmentnnofinpadorganizationannotation	
+
+BE: useVBllRB
+EQ class: utilizevbllrb	usablennofinllrb	applyvbllrb	exercisennofinllrb	usernnofinllrb	usennofinllrb	utilisevbllrb	useablennofinllrb	employmentnnofinllrb	utilisationnnofinllrb	utilizationnnofinllrb	employvbllrb	usagennofinllrb	
+
+BE: exercisesNNS
+EQ class: exercisingnns	exercisenns	physical_exercisenns	theynns	workoutnns	physical_exertionnns	themnns	
+
+BE: meditateVBP
+EQ class: ruminatevbp	reflectvbp	pondervbp	excogitatevbp	contemplatevbp	mull_overvbp	speculatevbp	musevbp	mullvbp	chew_overvbp	think_overvbp	
+
+BE: visualJJ
+EQ class: opticjj	ocularjj	sightnn	opticaljj	
+
+BE: visualJJexercisesNNS
+EQ class: visualjjphysical_exercisenns	sightnnexercisingnns	opticjjworkoutnns	visualjjtheynns	opticjjphysical_exercisenns	visualjjexercisenns	opticjjtheynns	ocularjjphysical_exercisenns	opticaljjexercisingnns	exertvbvisuallyrb	sightnnworkoutnns	opticaljjworkoutnns	opticaljjthemnns	sightnnexercisesnns	ocularjjexercisenns	ocularjjworkoutnns	opticaljjexercisesnns	sightnntheynns	opticaljjphysical_exercisenns	opticjjphysical_exertionnns	opticjjexercisesnns	visualjjworkoutnns	ocularjjtheynns	opticaljjphysical_exertionnns	visualjjexercisingnns	exercisevbvisuallyrb	sightnnphysical_exercisenns	opticjjexercisenns	visualjjthemnns	ocularjjexercisingnns	visualjjphysical_exertionnns	sightnnexercisenns	ocularjjthemnns	opticaljjtheynns	opticjjexercisingnns	sightnnphysical_exertionnns	opticjjthemnns	ocularjjphysical_exertionnns	sightnnthemnns	opticaljjexercisenns	ocularjjexercisesnns	
+
+BE: iPRPmeditateVBP
+EQ class: meditativennofiniprp	iprpthink_overvbp	iprpchew_overvbp	iprppondervbp	iprpexcogitatevbp	meditationnnofiniprp	speculationnnofiniprp	iprpcontemplatevbp	iprpmullvbp	iprpmull_overvbp	iprpmusevbp	iprpruminatevbp	iprpspeculatevbp	meditationnniprp	speculationnniprp	iprpreflectvbp	
+
+BE: iPRPdoAUX
+EQ class: iprpmakeaux	
+
+BE: doAUXexercisesNNS
+EQ class: doauxphysical_exercisenns	makeauxexercisesnns	makeauxphysical_exercisenns	makeauxthemnns	makeauxworkoutnns	doauxexercisingnns	makeauxexercisenns	doauxphysical_exertionnns	doauxtheynns	makeauxexercisingnns	makeauxphysical_exertionnns	doauxworkoutnns	doauxthemnns	doauxexercisenns	makeauxtheynns	
+
+BE: painNN
+EQ class: hurtingnn	
+
+BE: meansNNS
+EQ class: theynns	agencynns	waynns	themnns	
+
+BE: haLocationAnnotation
+EQ class: 
+
+BE: ha..LocationAnnotation
+EQ class: halocationannotation	
+
+BE: timesNNS
+EQ class: theynns	themnns	
+
+BE: imagineVB
+EQ class: conceive_ofvb	ideatevb	envisagevb	
+
+BE: removedVBN
+EQ class: withdrawvbn	removevbn	take_awayvbn	takevbn	
+
+BE: humVB
+EQ class: 
+
+BE: rockVB
+EQ class: swayvb	shakevb	
+
+BE: mysticalJJ
+EQ class: mysticismnn	mysticjj	mysticnn	
+
+BE: mysticalJJmeansNNS
+EQ class: mysticismnnwaynns	mysticaljjthemnns	mysticismnntheynns	mysticjjthemnns	mysticnnmeansnns	mysticjjmeansnns	mysticaljjwaynns	mysticismnnmeansnns	mysticnnagencynns	mysticaljjagencynns	mysticjjwaynns	mysticismnnagencynns	mysticjjtheynns	mysticaljjtheynns	mysticnntheynns	mysticismnnthemnns	mysticnnthemnns	mysticjjagencynns	mysticnnwaynns	
+
+BE: myPRP$painNN
+EQ class: myprp$hurtingnn	ailvbmyprp$	troublevbmyprp$	myprp$painvb	myprp$ailvb	myprp$troublevb	painvbmyprp$	hurtingnnofinmyprp$	painnnofinmyprp$	
+
+BE: thereEXareAUX
+EQ class: thereexbeaux	
+
+BE: iPRPhumVB
+EQ class: hummingnniprp	hummernnofiniprp	humnniprp	hummernniprp	humnnofiniprp	hummingnnofiniprp	
+
+BE: iPRProckVB
+EQ class: stonennofiniprp	rockernniprp	rockernnofiniprp	iprpshakevb	iprpswayvb	rocknnofiniprp	rockyjjofiniprp	
+
+BE: meansNNSremovedVBN
+EQ class: themnnstakevbn	theynnswithdrawvbn	remotionnntheynns	remotionnnofinmeansnns	waynnswithdrawvbn	themnnstake_awayvbn	waynnsremovedvbn	remotionnnofinagencynns	remotionnnofintheynns	removernnofinthemnns	agencynnsremovevbn	removalnnofintheynns	meansnnswithdrawvbn	meansnnstakevbn	themnnsremovedvbn	remotionnnagencynns	themnnswithdrawvbn	theynnstakevbn	theynnsremovedvbn	removalnnagencynns	removalnnmeansnns	removalnnofinthemnns	removalnnofinmeansnns	agencynnstakevbn	meansnnsremovevbn	waynnsremovevbn	removalnnofinagencynns	removernntheynns	theynnstake_awayvbn	removernnwaynns	removernnagencynns	removernnthemnns	theynnsremovevbn	meansnnstake_awayvbn	removernnofinwaynns	removalnntheynns	remotionnnofinwaynns	remotionnnmeansnns	themnnsremovevbn	remotionnnthemnns	removernnofinmeansnns	agencynnsremovedvbn	waynnstakevbn	removalnnofinwaynns	agencynnstake_awayvbn	waynnstake_awayvbn	removalnnthemnns	removernnmeansnns	removernnofinagencynns	removernnofintheynns	agencynnswithdrawvbn	remotionnnofinthemnns	remotionnnwaynns	removalnnwaynns	
+
+BE: imagineVBpainNN
+EQ class: imaginationnnofinhurtingnn	conceive_ofvbpainnn	visionnnofinpainnn	ideatevbhurtingnn	imaginativennofinpainnn	imaginevbhurtingnn	imaginationnnofinpainnn	imaginativennofinhurtingnn	conceive_ofvbhurtingnn	envisagevbhurtingnn	envisagevbpainnn	ideatevbpainnn	imaginativenessnnofinpainnn	visionnnofinhurtingnn	imaginativenessnnofinhurtingnn	
+
+BE: areAUXtimesNNS
+EQ class: beauxtimesnns	beauxthemnns	areauxthemnns	beauxtheynns	areauxtheynns	
+
+BE: timesNNSwhenWRBhumVB
+EQ class: theynnswhenwrbhumvb	themnnswhenwrbhumvb	
+
+BE: timesNNSwhenWRBrockVB
+EQ class: themnnswhenwrbswayvb	timesnnswhenwrbswayvb	themnnswhenwrbshakevb	themnnswhenwrbrockvb	theynnswhenwrbswayvb	theynnswhenwrbshakevb	theynnswhenwrbrockvb	timesnnswhenwrbshakevb	
+
+BE: areAUXalsoRB
+EQ class: beauxalsorb	
+
+BE: rockVBbackRB
+EQ class: rockyjjofinbackrb	rockernnofinbackrb	shakevbbackrb	stonennofinbackrb	swayvbbackrb	rocknnofinbackrb	
+
+BE: rockVBforthRB
+EQ class: rocknnofinforthrb	swayvbforthrb	rockernnofinforthrb	shakevbforthrb	stonennofinforthrb	rockyjjofinforthrb	
+
+BE: soundsweirdNN
+EQ class: 
+
+BE: hummingNN
+EQ class: humnn	
+
+BE: motionNN
+EQ class: gesturenn	
+
+BE: sortNN
+EQ class: kindnn	varietynn	formnn	
+
+BE: tranceNN
+EQ class: spellnn	enchantmentnn	
+
+BE: stateNN
+EQ class: provincenn	
+
+BE: mindNN
+EQ class: headnn	brainnn	psychenn	nousnn	
+
+BE: painNN
+EQ class: hurtingnn	
+
+BE: getVB
+EQ class: acquirevb	
+
+BE: takeVB
+EQ class: 
+
+BE: myPRP$mindNN
+EQ class: brainnnofinmyprp$	myprp$headnn	myprp$nousnn	psychennofinmyprp$	mindvbmyprp$	myprp$psychenn	myprp$mindvb	mindnnofinmyprp$	headnnofinmyprp$	myprp$brainnn	nousnnofinmyprp$	
+
+BE: soundsweirdNNgetVB
+EQ class: gettingnnofinsoundsweirdnn	acquiringnnsoundsweirdnn	acquiringnnofinsoundsweirdnn	gettingnnsoundsweirdnn	soundsweirdnnacquirevb	
+
+BE: hummingNNgetVB
+EQ class: acquiringnnofinhummingnn	gettingnnhumnn	humnnacquirevb	gettingnnhummingnn	gettingnnofinhummingnn	acquiringnnhummingnn	hummingnnacquirevb	gettingnnofinhumnn	humnngetvb	acquiringnnofinhumnn	acquiringnnhumnn	
+
+BE: iPRPtakeVB
+EQ class: 
+
+BE: getVBmePRP
+EQ class: acquiringnnofinmeprp	acquirevbmeprp	gettingnnofinmeprp	
+
+BE: takeVBmindNN
+EQ class: takevbnousnn	takevbbrainnn	takevbheadnn	takevbpsychenn	
+
+BE: tranceNNlikeINstateNN
+EQ class: spellnnlikeinprovincenn	statenncharmvb	provincennenamourvb	enchantvbprovincenn	fascinatevbprovincenn	statennenamourvb	provincenncharmvb	statenncaptivatevb	provincennfascinatevb	enamorvbstatenn	provincenncatchvb	statenncatchvb	provincenncapturevb	statennentrancevb	statennspellnn	statenntrancevb	provincenncaptivatevb	catchvbprovincenn	bewitchvbprovincenn	enchantmentnnlikeinstatenn	statenncapturevb	provincennentrancevb	provincennbewitchvb	enamorvbprovincenn	statennbeguilevb	enamourvbstatenn	capturevbstatenn	trancennlikeinprovincenn	beguilevbprovincenn	provincennenchantmentnn	provincennbeguilevb	charmvbprovincenn	catchvbstatenn	entrancevbstatenn	provincenntrancevb	capturevbprovincenn	captivatevbprovincenn	trancevbprovincenn	beguilevbstatenn	entrancevbprovincenn	statennbewitchvb	statennfascinatevb	trancevbstatenn	becharmvbprovincenn	spellnnlikeinstatenn	provincenntrancenn	enamourvbprovincenn	statennenamorvb	captivatevbstatenn	enchantvbstatenn	provincennbecharmvb	fascinatevbstatenn	provincennenchantvb	statennbecharmvb	charmvbstatenn	becharmvbstatenn	statennenchantvb	provincennenamorvb	statennenchantmentnn	provincennspellnn	bewitchvbstatenn	statenntrancenn	enchantmentnnlikeinprovincenn	
+
+BE: getVBtoTOtranceNN
+EQ class: acquirevbtotospellnn	acquirevbtototrancenn	getvbtotospellnn	acquirevbtotoenchantmentnn	getvbtotoenchantmentnn	
+
+BE: takeVBoffINpainNN
+EQ class: takevboffinhurtingnn	
+
+BE: stateNNwhereWRBtakeVB
+EQ class: provincennwherewrbtakevb	
+
+BE: bathNN
+EQ class: 
+
+BE: showerVB
+EQ class: lavishvb	
+
+BE: helpsVBZ
+EQ class: helpvbz	aidvbz	assistvbz	
+
+BE: niceJJ
+EQ class: nicenessnn	
+
+BE: hotJJ
+EQ class: hotnessnn	
+
+BE: niceJJbathNN
+EQ class: nicenessnnbathnn	
+
+BE: hotJJbathNN
+EQ class: hotnessnnbathnn	
+
+BE: bathNNhelpsVBZ
+EQ class: bathnnaidvbz	assistantnnofinbathnn	assistnnofinbathnn	bathnnassistvbz	helpernnofinbathnn	helpnnofinbathnn	supporternnofinbathnn	assistantnnbathnn	assistancennofinbathnn	helpernnbathnn	bathnnhelpvbz	aidnnofinbathnn	helpnnbathnn	supporternnbathnn	
+
+BE: showerVBhelpsVBZ
+EQ class: helpernnlavishvb	lavishvbhelpvbz	assistantnnshowervb	lavishvbaidvbz	showervbassistvbz	lavishvbhelpsvbz	supporternnlavishvb	assistantnnlavishvb	supporternnshowervb	showervbhelpvbz	helpernnshowervb	helpnnlavishvb	lavishvbassistvbz	helpnnshowervb	showervbaidvbz	
+
+BE: waterNN
+EQ class: wateryjj	h2onn	
+
+BE: bellyNN
+EQ class: abdomennn	venternn	stomachnn	
+
+BE: areaNN
+EQ class: arealjj	countrynn	
+
+BE: letVB
+EQ class: allowvb	permitvb	
+
+BE: hitVB
+EQ class: 
+
+BE: hotJJ
+EQ class: hotnessnn	
+
+BE: lowerJJR
+EQ class: lownessnn	lowjjr	
+
+BE: hotJJwaterNN
+EQ class: hotnessnnwateryjj	hotnessnnh2onn	hotjjwateryjj	hotjjh2onn	hotnessnnwaternn	wateryvbhotlyrb	irrigatevbhotlyrb	watervbhotlyrb	
+
+BE: lowerJJRareaNN
+EQ class: lowerjjrcountrynn	lownessnnareann	lowjjrcountrynn	lownessnncountrynn	lowjjrarealjj	lownessnnarealjj	lowerjjrarealjj	lowjjrareann	
+
+BE: yourPRP$areaNN
+EQ class: countrynnofinyourprp$	areannofinyourprp$	arealvbyourprp$	yourprp$arealjj	yourprp$countrynn	arealjjofinyourprp$	yourprp$arealvb	
+
+BE: bellyNNareaNN
+EQ class: countrynnofinabdomennn	abdomennnareann	abdomennncountrynn	stomachnnarealvb	countrynnofinventernn	abdomennnarealjj	areannofinstomachnn	venternncountrynn	arealjjofinbellynn	arealjjofinventernn	stomachnncountrynn	stomachnnareann	venternnarealjj	countrynnofinstomachnn	arealjjofinstomachnn	stomachnnarealjj	abdomennnarealvb	venternnarealvb	arealvbstomachnn	arealvbventernn	arealvbbellynn	areannofinabdomennn	bellynnarealjj	areannofinbellynn	bellynncountrynn	arealjjofinabdomennn	areannofinventernn	arealvbabdomennn	countrynnofinbellynn	venternnareann	bellynnarealvb	
+
+BE: waterNNhitVB
+EQ class: batsmannnofinh2onn	strikingnnofinwaternn	hitnnh2onn	strikingnnofinh2onn	batsmannnofinwaternn	batternnh2onn	hitternnwateryjj	sluggernnofinh2onn	hitternnofinwateryjj	batsmannnwaternn	batternnofinwaternn	hittingnnofinh2onn	hittingnnwateryjj	h2onnhitvb	batternnwateryjj	hitnnwateryjj	strikingnnwaternn	hittingnnofinwaternn	sluggernnwateryjj	sluggernnofinwateryjj	hittingnnwaternn	hittingnnh2onn	batsmannnwateryjj	batternnofinwateryjj	sluggernnofinwaternn	hitnnofinwaternn	hitternnwaternn	hitternnh2onn	hitnnwaternn	hitnnofinwateryjj	sluggernnh2onn	strikingnnofinwateryjj	strikingnnwateryjj	sluggernnwaternn	batsmannnh2onn	hittingnnofinwateryjj	hitnnofinh2onn	batsmannnofinwateryjj	strikingnnh2onn	wateryjjhitvb	batternnwaternn	batternnofinh2onn	hitternnofinh2onn	hitternnofinwaternn	
+
+BE: hitVBareaNN
+EQ class: sluggernnofincountrynn	hitternnofinareann	batternnofincountrynn	batsmannnofinareann	hitternnofinarealjj	hitvbarealjj	hitvbcountrynn	hittingnnofincountrynn	strikingnnofinareann	hitnnofincountrynn	sluggernnofinareann	hittingnnofinarealjj	batsmannnofincountrynn	strikingnnofincountrynn	hitnnofinarealjj	hittingnnofinareann	strikingnnofinarealjj	sluggernnofinarealjj	hitnnofinareann	batsmannnofinarealjj	batternnofinarealjj	batternnofinareann	hitternnofincountrynn	
+
+BE: letVBwaterNN
+EQ class: permitvbwaternn	permitvbwateryjj	letvbh2onn	allowvbwaternn	letvbwateryjj	allowvbwateryjj	permitvbh2onn	allowvbh2onn	
+
+BE: soothingJJ
+EQ class: 
+
+BE: knowVBP
+EQ class: cognizevbp	cognisevbp	
+
+BE: soundsVBZ
+EQ class: soundvbz	
+
+BE: grossJJ
+EQ class: grossnn	
+
+BE: iPRPknowVBP
+EQ class: iprpcognizevbp	knowablennofiniprp	apprehendernniprp	knowingnniprp	knowingnnofiniprp	apprehendernnofiniprp	knowernnofiniprp	knowernniprp	iprpcognisevbp	
+
+BE: thisDTsoundsVBZ
+EQ class: thisdtsoundvbz	
+
+BE: theoryNN
+EQ class: theoreticjj	
+
+BE: testedVBD
+EQ class: essayvbd	provevbd	tryvbd	examinevbd	try_outvbd	testvbd	
+
+BE: iPRPtestedVBD
+EQ class: iprpessayvbd	testingnnofiniprp	testnnofiniprp	iprptestvbd	iprptryvbd	iprpprovevbd	tryoutnnofiniprp	trial_runnnofiniprp	iprpexaminevbd	trialnnofiniprp	iprptry_outvbd	testingnniprp	
+
+BE: testedVBDtheoryNN
+EQ class: tryvbdtheorynn	trialnnofintheoreticjj	try_outvbdtheorynn	tryoutnnofintheorynn	testingnnofintheoreticjj	examinevbdtheorynn	try_outvbdtheoreticjj	testnnofintheoreticjj	testvbdtheorynn	testedvbdtheoreticjj	essayvbdtheorynn	examinevbdtheoreticjj	testnnofintheorynn	testingnnofintheorynn	trialnnofintheorynn	tryvbdtheoreticjj	trial_runnnofintheorynn	provevbdtheoreticjj	provevbdtheorynn	tryoutnnofintheoreticjj	essayvbdtheoreticjj	trial_runnnofintheoreticjj	testvbdtheoreticjj	
+
+BE: orgasmNN
+EQ class: comingnn	sexual_climaxnn	climaxnn	
+
+BE: reliefNN
+EQ class: alleviationnn	assuagementnn	
+
+BE: painNN
+EQ class: hurtingnn	
+
+BE: ..VBD
+EQ class: vbd	
+
+BE: helpedVBD
+EQ class: helpvbd	assistvbd	aidvbd	
+
+BE: sleepVB
+EQ class: log_z'svb	kipvb	catch_some_z'svb	slumbervb	
+
+BE: menstrualJJ
+EQ class: catamenialjj	menstruationnn	
+
+BE: menstrualJJpainNN
+EQ class: menstruationnnpainnn	menstruationnnhurtingnn	catamenialjjhurtingnn	catamenialjjpainnn	menstrualjjhurtingnn	
+
+BE: painNN..VBD
+EQ class: hurtingnnvbd	painnnvbd	hurtingnn..vbd	
+
+BE: itPRPhelpedVBD
+EQ class: helpnnofinitprp	supporternnofinitprp	assistancennofinitprp	helpernnofinitprp	itprphelpvbd	assistantnnofinitprp	supporternnitprp	helpernnitprp	assistantnnitprp	assistnnofinitprp	helpnnitprp	itprpaidvbd	aidnnofinitprp	itprpassistvbd	
+
+BE: mePRPsleepVB
+EQ class: sleepyjjofinmeprp	slumbernnofinmeprp	sleepnnofinmeprp	sleepernnofinmeprp	meprpcatch_some_z'svb	sleepernnmeprp	sleepingnnofinmeprp	slumberernnmeprp	meprpslumbervb	sleepingnnmeprp	meprpkipvb	slumberernnofinmeprp	meprplog_z'svb	
+
+BE: havingAUXGorgasmNN
+EQ class: havingauxgclimaxnn	havingauxgcomingnn	havingauxgsexual_climaxnn	
+
+BE: doesAUXreliefNN
+EQ class: doauxalleviationnn	makeauxreliefnn	doesauxalleviationnn	doesauxassuagementnn	doauxreliefnn	doauxassuagementnn	makeauxalleviationnn	makeauxassuagementnn	
+
+BE: helpedVBDmePRP
+EQ class: aidvbdmeprp	helpvbdmeprp	helpnnofinmeprp	assistancennofinmeprp	assistvbdmeprp	assistnnofinmeprp	helpernnofinmeprp	assistantnnofinmeprp	supporternnofinmeprp	aidnnofinmeprp	
+
+BE: doesAUXactuallyRB
+EQ class: actualitynnininmakeaux	existentjjinindoesaux	doauxactuallyrb	actualjjinindoaux	actualjjinindoesaux	actualjjininmakeaux	existentjjinindoaux	actualitynninindoaux	makeauxactuallyrb	actualitynninindoesaux	existentjjininmakeaux	
+

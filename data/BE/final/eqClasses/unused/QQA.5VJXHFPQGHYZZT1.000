@@ -1,0 +1,45 @@
+BE: Recover/Cure SjogrenOrganizationAnnotation
+EQ class: 
+
+BE: sNNP
+EQ class: secnnp	secondnnp	
+
+BE: SyndromeNN
+EQ class: 
+
+BE: ??NNS
+EQ class: ?.?.nns	theynns	themnns	
+
+BE: SyndromeNN??NNS
+EQ class: syndromenntheynns	syndromennthemnns	syndromenn?.?.nns	
+
+BE: sNNP??NNS
+EQ class: secnnptheynns	secnnp??nns	snnp?.?.nns	secondnnp??nns	snnptheynns	secnnp?.?.nns	snnpthemnns	secondnnptheynns	secnnpthemnns	secondnnp?.?.nns	secondnnpthemnns	
+
+BE: Recover/Cure SjogrenOrganizationAnnotation??NNS
+EQ class: recover/cure sjogrenorganizationannotationtheynns	recover/cure sjogrenorganizationannotationthemnns	recover/cure sjogrenorganizationannotation?.?.nns	
+
+BE: SjogrenPersonAnnotation
+EQ class: 
+
+BE: sNNP
+EQ class: secnnp	secondnnp	
+
+BE: syndromeNN
+EQ class: 
+
+BE: cureVB
+EQ class: bring_aroundvb	healvb	
+
+BE: recoverVB
+EQ class: retrievevb	findvb	regainvb	
+
+BE: sNNPsyndromeNN
+EQ class: syndromennofinsecnnp	syndromennofinsecondnnp	secnnpsyndromenn	secondnnpsyndromenn	syndromennofinsnnp	
+
+BE: SjogrenPersonAnnotationsyndromeNN
+EQ class: syndromennofinsjogrenpersonannotation	
+
+BE: cureVBsyndromeNN
+EQ class: curablennofinsyndromenn	healvbsyndromenn	curativennofinsyndromenn	curennofinsyndromenn	therapeuticnnofinsyndromenn	remedynnofinsyndromenn	bring_aroundvbsyndromenn	
+

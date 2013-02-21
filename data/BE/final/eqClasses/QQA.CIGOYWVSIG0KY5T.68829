@@ -1,0 +1,642 @@
+BE: RadiationNN
+EQ class: 
+
+BE: therapyNN
+EQ class: therapeuticjj	therapeuticaljj	
+
+BE: BrainNN
+EQ class: encephalonnn	
+
+BE: tumorsNNS
+EQ class: theynns	tumornns	tumournns	neoplasmnns	themnns	
+
+BE: tumorsNNS
+EQ class: theynns	tumornns	tumournns	neoplasmnns	themnns	
+
+BE: partNN
+EQ class: constituentnn	componentnn	component_partnn	partialjj	portionnn	
+
+BE: bodyNN
+EQ class: physical_structurenn	bodilyjj	organic_structurenn	
+
+BE: cancersNNS
+EQ class: cancernns	cancerousjj	theynns	malignant_neoplastic_diseasenns	themnns	
+
+BE: skinPersonAnnotation
+EQ class: 
+
+BE: headNN
+EQ class: caputnn	
+
+BE: neckNN
+EQ class: cervixnn	
+
+BE: breastNN
+EQ class: chestnn	
+
+BE: prostateNN
+EQ class: prostaticjj	prostate_glandnn	
+
+BE: cervixPersonAnnotation
+EQ class: 
+
+BE: concernedJJ
+EQ class: 
+
+BE: solidJJ
+EQ class: solidnessnn	
+
+BE: otherJJ
+EQ class: 
+
+BE: suchJJ
+EQ class: 
+
+BE: solidJJtumorsNNS
+EQ class: solidnessnntumorsnns	solidnessnnthemnns	solidnessnnneoplasmnns	solidjjtheynns	solidjjneoplasmnns	solidjjtumornns	solidnessnntheynns	solidjjtumournns	solidnessnntumornns	solidjjthemnns	solidnessnntumournns	
+
+BE: otherJJpartNN
+EQ class: otherjjpartialjj	otherjjcomponent_partnn	otherjjportionnn	otherjjcomponentnn	otherjjconstituentnn	
+
+BE: RadiationNNtherapyNN
+EQ class: shinennofintherapeuticaljj	therapeuticalvbradiationnn	refulgencynnofintherapeuticaljj	therapynnofinradiationnn	effulgencennofintherapeuticjj	radiantjjofintherapeuticjj	radiancennofintherapeuticaljj	radiantnnofintherapeuticjj	radiantnnofintherapeuticaljj	therapistvbradiationnn	therapeuticjjradiatevb	radiancynnofintherapeuticjj	refulgencennofintherapeuticjj	radiantjjofintherapynn	glownnofintherapeuticjj	glowingnnofintherapeuticaljj	shinennofintherapynn	radiancynnofintherapynn	radiationnntherapeuticaljj	therapynnradiatevb	therapeuticjjofinradiationnn	radiationnnofintherapeuticaljj	refulgencynnofintherapeuticjj	therapeuticaljjofinradiationnn	radiationnntherapeuticvb	radiationnnofintherapynn	radiantjjofintherapeuticaljj	effulgencennofintherapeuticaljj	glowingnnofintherapeuticjj	radiationnnofintherapeuticjj	radiancennofintherapeuticjj	therapeuticvbradiationnn	refulgencynnofintherapynn	refulgencennofintherapeuticaljj	radiationnntherapeuticjj	shinennofintherapeuticjj	radiancennofintherapynn	radiationnntherapeuticalvb	glownnofintherapynn	radiancynnofintherapeuticaljj	refulgencennofintherapynn	therapeuticaljjradiatevb	effulgencennofintherapynn	radiantnnofintherapynn	glowingnnofintherapynn	radiationnntherapistvb	glownnofintherapeuticaljj	
+
+BE: BrainNNtumorsNNS
+EQ class: brainnntumornns	themnnsofinbrainnn	brainnnofintumornns	tumorsnnsofinencephalonnn	encephalonnnofintumornns	brainnntumournns	themnnsofinencephalonnn	encephalonnnofintumournns	tumournnsofinbrainnn	brainnnofintheynns	brainnnthemnns	tumornnsbrainvb	tumorsnnsbrainvb	brainnnneoplasmnns	brainnnofintumorsnns	neoplasmnnsofinbrainnn	brainnnofintumournns	tumornnsofinencephalonnn	encephalonnnofintheynns	encephalonnntumournns	encephalonnnneoplasmnns	theynnsofinbrainnn	encephalonnntheynns	brainnntheynns	encephalonnnthemnns	tumournnsofinencephalonnn	encephalonnntumornns	themnnsbrainvb	tumorsnnsofinbrainnn	neoplasmnnsbrainvb	tumournnsbrainvb	brainnnofinthemnns	neoplasmnnsofinencephalonnn	encephalonnnofinthemnns	brainnnofinneoplasmnns	encephalonnntumorsnns	encephalonnnofinneoplasmnns	tumornnsofinbrainnn	encephalonnnofintumorsnns	theynnsbrainvb	theynnsofinencephalonnn	
+
+BE: cancersNNSbreastNN
+EQ class: chestnnofinthemnns	chestnnmalignant_neoplastic_diseasenns	breastnncancersnns	breastnntheynns	chestnnthemnns	theynnsbreastvb	breastnnthemnns	breastnncancernns	breastnnofincancernns	themnnschestnn	chestnnofincancernns	breastnnofinthemnns	chestnntheynns	breastnncancerousjj	malignant_neoplastic_diseasennsbreastnn	breastnnofincancersnns	cancerousjjchestnn	cancerousjjbreastnn	malignant_neoplastic_diseasennsbreastvb	chestnnofincancerousjj	cancersnnsbreastvb	breastnnofinmalignant_neoplastic_diseasenns	malignant_neoplastic_diseasennschestnn	cancernnsbreastnn	chestnncancernns	themnnsbreastnn	chestnncancerousjj	theynnschestnn	chestnnofincancersnns	themnnsbreastvb	cancernnsbreastvb	cancernnschestnn	cancersnnschestnn	chestnnofintheynns	breastnnofincancerousjj	breastnnofintheynns	chestnnofinmalignant_neoplastic_diseasenns	theynnsbreastnn	cancerousjjbreastvb	breastnnmalignant_neoplastic_diseasenns	chestnncancersnns	
+
+BE: breastNNprostateNN
+EQ class: prostatennbreastvb	prostate_glandnnchestnn	prostaticjjbreastvb	breastnnofinprostatenn	breastnnofinprostaticjj	chestnnofinprostate_glandnn	prostate_glandnnbreastvb	chestnnofinprostatenn	chestnnprostaticjj	breastnnprostaticjj	prostaticjjbreastnn	prostate_glandnnbreastnn	prostatennbreastnn	chestnnprostate_glandnn	prostatennchestnn	chestnnofinprostaticjj	breastnnprostate_glandnn	breastnnofinprostate_glandnn	chestnnprostatenn	prostaticjjchestnn	
+
+BE: therapyNNisAUX
+EQ class: therapynnbeaux	therapeuticaljjisaux	therapeuticjjisaux	therapeuticaljjbeaux	therapeuticjjbeaux	
+
+BE: itPRPisAUX
+EQ class: itprpbeaux	
+
+BE: isAUXconcernedJJ
+EQ class: beauxconcernedjj	
+
+BE: therapyNNonINtumorsNNS
+EQ class: themnnstherapistvb	therapeuticaljjoninneoplasmnns	tumornnstherapeuticaljj	tumournnstherapeuticjj	themnnstherapeuticvb	neoplasmnnstherapynn	theynnstherapeuticaljj	therapeuticjjonintumorsnns	therapeuticaljjonintheynns	therapistvbthemnns	therapeuticaljjoninthemnns	therapeuticalvbneoplasmnns	therapistvbtumornns	therapeuticalvbtheynns	therapeuticjjonintheynns	tumorsnnstherapeuticjj	therapeuticvbtheynns	therapeuticaljjonintumorsnns	tumournnstherapeuticalvb	therapeuticjjonintumournns	tumournnstherapeuticvb	neoplasmnnstherapeuticvb	theynnstherapeuticvb	therapistvbtumournns	therapeuticvbtumorsnns	theynnstherapeuticalvb	therapeuticalvbtumournns	therapeuticaljjonintumournns	theynnstherapynn	therapistvbtumorsnns	therapynnoninneoplasmnns	therapistvbtheynns	tumorsnnstherapeuticaljj	tumornnstherapynn	themnnstherapeuticalvb	neoplasmnnstherapeuticjj	tumournnstherapynn	therapeuticalvbtumornns	themnnstherapynn	therapynnonintumournns	therapynnonintheynns	therapeuticaljjonintumornns	therapistvbneoplasmnns	therapeuticjjoninthemnns	neoplasmnnstherapistvb	therapynnonintumornns	themnnstherapeuticjj	tumornnstherapistvb	therapeuticvbthemnns	therapeuticalvbthemnns	tumournnstherapeuticaljj	therapeuticvbtumornns	therapynnoninthemnns	neoplasmnnstherapeuticaljj	therapeuticalvbtumorsnns	tumorsnnstherapeuticvb	tumorsnnstherapynn	themnnstherapeuticaljj	theynnstherapeuticjj	theynnstherapistvb	neoplasmnnstherapeuticalvb	tumorsnnstherapistvb	therapeuticjjonintumornns	tumornnstherapeuticjj	therapeuticvbneoplasmnns	tumornnstherapeuticalvb	tumournnstherapistvb	therapeuticjjoninneoplasmnns	therapeuticvbtumournns	tumorsnnstherapeuticalvb	tumornnstherapeuticvb	
+
+BE: tumorsNNSonINpartNN
+EQ class: tumornnsoninpartialjj	partnntumornns	theynnsoninportionnn	portionnnthemnns	portionnnneoplasmnns	theynnsoninpartnn	componentnntumournns	constituentnntheynns	portionnntumournns	constituentnntumornns	partialjjtheynns	component_partnntumornns	partnntheynns	tumorsnnsoninconstituentnn	themnnsonincomponent_partnn	constituentnntumorsnns	partialjjthemnns	partnntumournns	tumorsnnsonincomponent_partnn	neoplasmnnsonincomponentnn	tumornnsoninportionnn	theynnsonincomponentnn	component_partnntumorsnns	tumornnsonincomponent_partnn	themnnsoninportionnn	tumornnsoninpartnn	neoplasmnnsonincomponent_partnn	component_partnnneoplasmnns	constituentnnneoplasmnns	tumorsnnsoninpartialjj	themnnsoninpartnn	partnntumorsnns	portionnntumorsnns	componentnntheynns	component_partnnthemnns	tumornnsoninconstituentnn	neoplasmnnsoninportionnn	tumorsnnsonincomponentnn	tumornnsonincomponentnn	tumournnsoninpartnn	partnnneoplasmnns	partialjjtumorsnns	theynnsoninconstituentnn	tumournnsoninpartialjj	partialjjtumournns	neoplasmnnsoninpartialjj	component_partnntumournns	themnnsonincomponentnn	partialjjtumornns	partnnthemnns	tumorsnnsoninportionnn	componentnnneoplasmnns	neoplasmnnsoninconstituentnn	component_partnntheynns	portionnntumornns	themnnsoninconstituentnn	tumournnsoninportionnn	tumournnsonincomponentnn	constituentnntumournns	componentnnthemnns	tumournnsoninconstituentnn	componentnntumorsnns	theynnsonincomponent_partnn	portionnntheynns	neoplasmnnsoninpartnn	constituentnnthemnns	theynnsoninpartialjj	tumournnsonincomponent_partnn	partialjjneoplasmnns	themnnsoninpartialjj	componentnntumornns	
+
+BE: tumorsNNSasINcancersNNS
+EQ class: cancersnnstumornns	themnnsasincancernns	tumornnsasincancerousjj	theynnstumornns	tumornnsasincancernns	theynnsasincancernns	tumornnsasinthemnns	cancernnstheynns	tumornnsasinmalignant_neoplastic_diseasenns	cancernnsthemnns	cancersnnstheynns	themnnsasintheynns	cancernnstumournns	themnnsneoplasmnns	malignant_neoplastic_diseasennstumorsnns	cancersnnsneoplasmnns	tumorsnnsasincancerousjj	theynnstumournns	neoplasmnnsasincancerousjj	tumournnsasincancernns	theynnstheynns	tumornnsasintheynns	themnnsasincancersnns	theynnsasinmalignant_neoplastic_diseasenns	tumournnsasincancerousjj	theynnsasinthemnns	malignant_neoplastic_diseasennsneoplasmnns	cancerousjjtumournns	cancernnstumorsnns	themnnstumorsnns	themnnsasinthemnns	cancerousjjthemnns	cancerousjjneoplasmnns	cancerousjjtumornns	tumorsnnsasintheynns	themnnstheynns	cancersnnstumorsnns	themnnsthemnns	tumournnsasincancersnns	tumorsnnsasinthemnns	malignant_neoplastic_diseasennstumornns	tumournnsasinthemnns	neoplasmnnsasincancernns	neoplasmnnsasinthemnns	theynnsasincancersnns	cancerousjjtheynns	theynnsasintheynns	themnnsasincancerousjj	malignant_neoplastic_diseasennstheynns	malignant_neoplastic_diseasennstumournns	themnnsasinmalignant_neoplastic_diseasenns	neoplasmnnsasinmalignant_neoplastic_diseasenns	cancernnstumornns	tumornnsasincancersnns	cancersnnsthemnns	neoplasmnnsasincancersnns	theynnsthemnns	theynnsasincancerousjj	tumorsnnsasinmalignant_neoplastic_diseasenns	cancersnnstumournns	cancerousjjtumorsnns	malignant_neoplastic_diseasennsthemnns	themnnstumournns	neoplasmnnsasintheynns	tumorsnnsasincancernns	tumournnsasintheynns	cancernnsneoplasmnns	theynnsneoplasmnns	theynnstumorsnns	tumournnsasinmalignant_neoplastic_diseasenns	themnnstumornns	
+
+BE: tumorsNNSasINbreastNN
+EQ class: tumornnsasinchestnn	breastnntheynns	chestnnthemnns	breastnnthemnns	tumournnsasinchestnn	breastnntumournns	theynnsasinchestnn	theynnsasinbreastnn	breastnntumornns	neoplasmnnsasinchestnn	chestnntumorsnns	breastnnneoplasmnns	tumournnsasinbreastnn	chestnntumornns	chestnntumournns	themnnsasinbreastnn	neoplasmnnsasinbreastnn	chestnntheynns	breastnntumorsnns	tumornnsasinbreastnn	tumorsnnsasinchestnn	chestnnneoplasmnns	themnnsasinchestnn	
+
+BE: tumorsNNSasINprostateNN
+EQ class: themnnsasinprostate_glandnn	prostate_glandnnthemnns	tumornnsasinprostate_glandnn	tumournnsasinprostate_glandnn	tumournnsasinprostatenn	tumornnsasinprostatenn	prostatenntumorsnns	neoplasmnnsasinprostate_glandnn	prostate_glandnntumorsnns	theynnsasinprostaticjj	tumournnsasinprostaticjj	tumornnsasinprostaticjj	prostaticjjneoplasmnns	prostatenntheynns	neoplasmnnsasinprostatenn	prostatenntumournns	prostate_glandnnneoplasmnns	tumorsnnsasinprostaticjj	prostate_glandnntumournns	themnnsasinprostaticjj	theynnsasinprostatenn	prostaticjjtheynns	neoplasmnnsasinprostaticjj	prostate_glandnntheynns	theynnsasinprostate_glandnn	prostaticjjtumornns	prostatennthemnns	prostaticjjtumorsnns	prostatenntumornns	prostaticjjtumournns	prostatennneoplasmnns	prostate_glandnntumornns	themnnsasinprostatenn	tumorsnnsasinprostate_glandnn	prostaticjjthemnns	
+
+BE: tumorsNNSasINcervixPersonAnnotation
+EQ class: neoplasmnnsasincervixpersonannotation	theynnsasincervixpersonannotation	cervixpersonannotationtumournns	cervixpersonannotationneoplasmnns	tumournnsasincervixpersonannotation	cervixpersonannotationtumorsnns	tumornnsasincervixpersonannotation	cervixpersonannotationtumornns	cervixpersonannotationthemnns	cervixpersonannotationtheynns	themnnsasincervixpersonannotation	
+
+BE: partNNofINbodyNN
+EQ class: bodynnpartialvb	constituentnnofinorganic_structurenn	physical_structurennpartialjj	organic_structurennportionnn	partialvbphysical_structurenn	partialvbbodilyjj	bodilyjjpartialvb	portionnnofinphysical_structurenn	physical_structurenncomponentnn	partialvborganic_structurenn	portionnnofinorganic_structurenn	physical_structurennpartialvb	bodilyjjcomponentnn	organic_structurenncomponent_partnn	partialjjofinbodilyjj	bodilyjjportionnn	componentnnofinbodynn	componentnnofinphysical_structurenn	component_partnnofinorganic_structurenn	partnnofinbodilyjj	physical_structurennconstituentnn	bodilyjjcomponent_partnn	organic_structurennconstituentnn	bodilyjjpartialjj	partialjjofinorganic_structurenn	componentnnofinorganic_structurenn	partialjjofinbodynn	partialjjofinphysical_structurenn	bodynncomponentnn	bodynnconstituentnn	physical_structurenncomponent_partnn	bodilyjjconstituentnn	bodynnpartialjj	portionnnofinbodilyjj	portionnnofinbodynn	component_partnnofinbodynn	bodynnportionnn	physical_structurennpartnn	component_partnnofinphysical_structurenn	bodynnpartnn	constituentnnofinphysical_structurenn	organic_structurennpartialjj	organic_structurennpartnn	constituentnnofinbodynn	partialvbbodynn	bodynncomponent_partnn	partnnofinphysical_structurenn	organic_structurenncomponentnn	partnnofinorganic_structurenn	constituentnnofinbodilyjj	component_partnnofinbodilyjj	bodilyjjpartnn	physical_structurennportionnn	organic_structurennpartialvb	componentnnofinbodilyjj	
+
+BE: cancersNNSofINheadNN
+EQ class: themnnsofincaputnn	cancerousvbheadnn	caputnncancerousvb	caputnncancerousjj	headnntheynns	malignant_neoplastic_diseasennsofinheadnn	headnncancernns	caputnnmalignant_neoplastic_diseasenns	caputnnthemnns	cancerousvbcaputnn	cancernnsofincaputnn	cancerousjjofinheadnn	cancerousjjofincaputnn	theynnsofinheadnn	theynnsofincaputnn	cancersnnsofincaputnn	headnncancersnns	headnnmalignant_neoplastic_diseasenns	caputnntheynns	caputnncancernns	caputnncancersnns	headnncancerousjj	headnnthemnns	malignant_neoplastic_diseasennsofincaputnn	cancernnsofinheadnn	themnnsofinheadnn	headnncancerousvb	
+
+BE: isAUXlikeINtumorsNNS
+EQ class: beauxlikeinthemnns	isauxlikeintumournns	isauxlikeinneoplasmnns	beauxlikeintumournns	beauxlikeintumornns	beauxlikeinneoplasmnns	isauxlikeinthemnns	beauxlikeintumorsnns	isauxlikeintheynns	isauxlikeintumornns	beauxlikeintheynns	
+
+BE: RadiationNN
+EQ class: 
+
+BE: therapyNN
+EQ class: therapeuticjj	therapeuticaljj	
+
+BE: leukemiaNN
+EQ class: leukaemiann	cancer_of_the_bloodnn	leucaemiann	
+
+BE: lymphomaOrganizationAnnotation
+EQ class: 
+
+BE: cancersNNS
+EQ class: cancernns	cancerousjj	theynns	malignant_neoplastic_diseasenns	themnns	
+
+BE: cellsNNS
+EQ class: cellnns	cellularjj	theynns	themnns	
+
+BE: systemNN
+EQ class: 
+
+BE: usedVBN
+EQ class: employvbn	utilisevbn	utilizevbn	usevbn	applyvbn	
+
+BE: treatVB
+EQ class: handlevb	do_byvb	
+
+BE: blood-formingJJ
+EQ class: 
+
+BE: lymphaticOrganizationAnnotation
+EQ class: 
+
+BE: blood-formingJJcellsNNS
+EQ class: blood-formingjjcellularjj	blood-formingjjtheynns	blood-formingjjthemnns	blood-formingjjcellnns	
+
+BE: lymphaticOrganizationAnnotationsystemNN
+EQ class: 
+
+BE: RadiationNNtherapyNN
+EQ class: shinennofintherapeuticaljj	therapeuticalvbradiationnn	refulgencynnofintherapeuticaljj	therapynnofinradiationnn	effulgencennofintherapeuticjj	radiantjjofintherapeuticjj	radiancennofintherapeuticaljj	radiantnnofintherapeuticjj	radiantnnofintherapeuticaljj	therapistvbradiationnn	therapeuticjjradiatevb	radiancynnofintherapeuticjj	refulgencennofintherapeuticjj	radiantjjofintherapynn	glownnofintherapeuticjj	glowingnnofintherapeuticaljj	shinennofintherapynn	radiancynnofintherapynn	radiationnntherapeuticaljj	therapynnradiatevb	therapeuticjjofinradiationnn	radiationnnofintherapeuticaljj	refulgencynnofintherapeuticjj	therapeuticaljjofinradiationnn	radiationnntherapeuticvb	radiationnnofintherapynn	radiantjjofintherapeuticaljj	effulgencennofintherapeuticaljj	glowingnnofintherapeuticjj	radiationnnofintherapeuticjj	radiancennofintherapeuticjj	therapeuticvbradiationnn	refulgencynnofintherapynn	refulgencennofintherapeuticaljj	radiationnntherapeuticjj	shinennofintherapeuticjj	radiancennofintherapynn	radiationnntherapeuticalvb	glownnofintherapynn	radiancynnofintherapeuticaljj	refulgencennofintherapynn	therapeuticaljjradiatevb	effulgencennofintherapynn	radiantnnofintherapynn	glowingnnofintherapynn	radiationnntherapistvb	glownnofintherapeuticaljj	
+
+BE: treatVBleukemiaNN
+EQ class: treatvbcancer_of_the_bloodnn	handlevbleucaemiann	do_byvbleukaemiann	do_byvbleucaemiann	handlevbleukaemiann	treatvbleucaemiann	handlevbcancer_of_the_bloodnn	treatvbleukaemiann	do_byvbcancer_of_the_bloodnn	do_byvbleukemiann	handlevbleukemiann	
+
+BE: usedVBNtherapyNN
+EQ class: useablennofintherapeuticjj	usennofintherapeuticaljj	usennofintherapynn	utilisevbntherapeuticaljj	usernnofintherapeuticaljj	applyvbntherapeuticaljj	employvbntherapeuticjj	applyvbntherapynn	usablennofintherapeuticjj	usagennofintherapynn	utilizationnnofintherapynn	usennofintherapeuticjj	exercisennofintherapeuticaljj	utilizevbntherapynn	employvbntherapynn	usernnofintherapynn	applyvbntherapeuticjj	utilisationnnofintherapeuticaljj	utilizationnnofintherapeuticaljj	usevbntherapeuticjj	utilizationnnofintherapeuticjj	employmentnnofintherapynn	utilisevbntherapynn	utilisationnnofintherapeuticjj	usedvbntherapeuticaljj	utilisationnnofintherapynn	utilizevbntherapeuticjj	usevbntherapynn	usablennofintherapynn	usevbntherapeuticaljj	usernnofintherapeuticjj	exercisennofintherapeuticjj	exercisennofintherapynn	usedvbntherapeuticjj	employmentnnofintherapeuticaljj	usagennofintherapeuticjj	usablennofintherapeuticaljj	usagennofintherapeuticaljj	utilizevbntherapeuticaljj	useablennofintherapeuticaljj	employmentnnofintherapeuticjj	utilisevbntherapeuticjj	useablennofintherapynn	employvbntherapeuticaljj	
+
+BE: cancersNNSofINcellsNNS
+EQ class: cellsnnscancernns	cellnnsmalignant_neoplastic_diseasenns	theynnsofincellsnns	themnnsofincellsnns	cellularjjmalignant_neoplastic_diseasenns	malignant_neoplastic_diseasennsofincellnns	themnnsmalignant_neoplastic_diseasenns	cellsnnscancerousvb	cancerousjjofincellsnns	themnnscancerousjj	themnnscancernns	cellsnnscancersnns	cellsnnsmalignant_neoplastic_diseasenns	themnnscancerousvb	cellnnstheynns	themnnsofincellularjj	cellnnscancersnns	cancernnsofincellsnns	cellsnnsthemnns	theynnscancersnns	theynnstheynns	cellnnsthemnns	cellsnnstheynns	malignant_neoplastic_diseasennsofinthemnns	cellnnscancernns	cellularjjtheynns	cancerousvbthemnns	theynnscancerousvb	cellnnscancerousjj	cancerousvbcellnns	malignant_neoplastic_diseasennsofincellsnns	cancernnsofintheynns	cellsnnscancerousjj	malignant_neoplastic_diseasennsofincellularjj	themnnsofincellnns	cancerousvbcellsnns	themnnstheynns	theynnsofincellularjj	themnnsthemnns	cancerousjjofincellnns	themnnscancersnns	cancernnsofincellnns	theynnscancerousjj	cancersnnsofinthemnns	cancerousvbtheynns	cellularjjcancersnns	themnnsofinthemnns	theynnsofincellnns	cancersnnsofincellnns	cancerousjjofintheynns	themnnsofintheynns	cancersnnsofintheynns	theynnsthemnns	cancernnsofincellularjj	cancerousjjofinthemnns	theynnscancernns	theynnsmalignant_neoplastic_diseasenns	cancerousvbcellularjj	cancernnsofinthemnns	cellularjjcancernns	cancersnnsofincellularjj	theynnsofinthemnns	cellularjjcancerousvb	theynnsofintheynns	cellularjjthemnns	cellularjjcancerousjj	malignant_neoplastic_diseasennsofintheynns	cancerousjjofincellularjj	cellnnscancerousvb	
+
+BE: usedVBNtreatVB
+EQ class: usedvbnhandlevb	employvbntreatvb	usevbndo_byvb	utilizationnnofindo_byvb	employmentnnofindo_byvb	usagennofintreatvb	usernnofinhandlevb	exercisennofindo_byvb	usennofindo_byvb	utilisevbndo_byvb	utilisevbntreatvb	usevbntreatvb	applyvbnhandlevb	utilisationnnofindo_byvb	employvbnhandlevb	employmentnnofintreatvb	utilizationnnofintreatvb	usernnofintreatvb	utilizevbndo_byvb	utilisevbnhandlevb	useablennofinhandlevb	utilizationnnofinhandlevb	usevbnhandlevb	exercisennofintreatvb	usernnofindo_byvb	usagennofindo_byvb	usablennofindo_byvb	applyvbntreatvb	utilisationnnofintreatvb	usablennofintreatvb	usagennofinhandlevb	employvbndo_byvb	utilisationnnofinhandlevb	utilizevbnhandlevb	utilizevbntreatvb	usennofintreatvb	usennofinhandlevb	useablennofintreatvb	exercisennofinhandlevb	usablennofinhandlevb	employmentnnofinhandlevb	applyvbndo_byvb	useablennofindo_byvb	usedvbndo_byvb	
+
+BE: beAUXalsoRB
+EQ class: 
+
+BE: RadiationOrganizationAnnotation
+EQ class: 
+
+BE: therapyNN
+EQ class: therapeuticjj	therapeuticaljj	
+
+BE: BRAIN TUMORSOrganizationAnnotation
+EQ class: 
+
+BE: x-raysNNS
+EQ class: x_raynns	theynns	x-radiationnns	x-raynns	roentgen_raynns	themnns	
+
+BE: radiationNN
+EQ class: 
+
+BE: cancerNN
+EQ class: cancerousjj	malignant_neoplastic_diseasenn	
+
+BE: cellsNNS
+EQ class: cellnns	cellularjj	theynns	themnns	
+
+BE: usesVBZ
+EQ class: usevbz	utilisevbz	employvbz	utilizevbz	applyvbz	
+
+BE: ionizingVBG
+EQ class: ionisevbg	ionizevbg	
+
+BE: stopVB
+EQ class: haltvb	
+
+BE: dividingVBG
+EQ class: splitvbg	carve_upvbg	dissevervbg	split_upvbg	separatevbg	dividevbg	
+
+BE: high-energyJJ
+EQ class: energynn	
+
+BE: high-energyJJx-raysNNS
+EQ class: high-energyjjx_raynns	energynnthemnns	high-energyjjx-raynns	high-energyjjx-radiationnns	high-energyjjthemnns	energynnx-raysnns	energynnx_raynns	energynntheynns	energynnx-raynns	energynnx-radiationnns	high-energyjjroentgen_raynns	energynnroentgen_raynns	high-energyjjtheynns	
+
+BE: RadiationOrganizationAnnotationtherapyNN
+EQ class: shinennofintherapeuticaljj	therapeuticjjofinradiationorganizationannotation	radiationorganizationannotationtherapeuticaljj	refulgencynnofintherapeuticaljj	radiationorganizationannotationtherapistvb	effulgencennofintherapeuticjj	radiantjjofintherapeuticjj	radiancennofintherapeuticaljj	radiantnnofintherapeuticjj	radiantnnofintherapeuticaljj	therapeuticjjradiatevb	radiancynnofintherapeuticjj	refulgencennofintherapeuticjj	therapeuticalvbradiationorganizationannotation	radiantjjofintherapynn	glownnofintherapeuticjj	glowingnnofintherapeuticaljj	shinennofintherapynn	radiancynnofintherapynn	therapynnradiatevb	radiationnnofintherapeuticaljj	refulgencynnofintherapeuticjj	therapeuticvbradiationorganizationannotation	therapeuticaljjofinradiationorganizationannotation	radiationorganizationannotationtherapeuticalvb	radiationnnofintherapynn	radiationorganizationannotationtherapeuticvb	radiantjjofintherapeuticaljj	effulgencennofintherapeuticaljj	glowingnnofintherapeuticjj	therapynnofinradiationorganizationannotation	radiationnnofintherapeuticjj	radiancennofintherapeuticjj	refulgencynnofintherapynn	refulgencennofintherapeuticaljj	shinennofintherapeuticjj	radiancennofintherapynn	glownnofintherapynn	radiancynnofintherapeuticaljj	refulgencennofintherapynn	therapeuticaljjradiatevb	therapistvbradiationorganizationannotation	effulgencennofintherapynn	radiantnnofintherapynn	glowingnnofintherapynn	radiationorganizationannotationtherapeuticjj	glownnofintherapeuticaljj	
+
+BE: cancerNNcellsNNS
+EQ class: malignant_neoplastic_diseasennthemnns	themnnsofincancerousjj	cancerousjjcellularjj	cancerousjjthemnns	theynnsofincancernn	cancerousjjcellnns	malignant_neoplastic_diseasenncellularvb	cellularjjofincancerousjj	cancernncellularvb	cellularvbcancerousjj	malignant_neoplastic_diseasenntheynns	cancernnthemnns	cellularjjofincancernn	cellularvbcancernn	cellularjjofinmalignant_neoplastic_diseasenn	themnnsofincancernn	cancerousjjtheynns	malignant_neoplastic_diseasenncellsnns	cellnnsofinmalignant_neoplastic_diseasenn	cellsnnsofinmalignant_neoplastic_diseasenn	theynnsofincancerousjj	cancerousjjcellularvb	cancernncellularjj	malignant_neoplastic_diseasenncellnns	theynnsofinmalignant_neoplastic_diseasenn	cellsnnsofincancernn	cellnnsofincancerousjj	cellsnnsofincancerousjj	cancernntheynns	cellularvbmalignant_neoplastic_diseasenn	malignant_neoplastic_diseasenncellularjj	cellnnsofincancernn	cancerousjjcellsnns	cancernncellnns	themnnsofinmalignant_neoplastic_diseasenn	
+
+BE: therapyNNusesVBZ
+EQ class: exercisenntherapeuticjj	employmentnntherapynn	therapeuticjjemployvbz	utilizationnntherapynn	utilizationnnofintherapynn	usernntherapeuticjj	usernntherapeuticaljj	usernntherapynn	therapynnutilizevbz	utilisationnnofintherapeuticaljj	therapeuticaljjusevbz	utilizationnnofintherapeuticaljj	utilizationnnofintherapeuticjj	therapeuticjjusesvbz	utilizationnntherapeuticaljj	utilisationnntherapeuticjj	usenntherapeuticjj	usenntherapeuticaljj	therapeuticaljjapplyvbz	therapynnusevbz	exercisenntherapeuticaljj	usablennofintherapynn	exercisennofintherapynn	usagennofintherapeuticaljj	employmentnnofintherapeuticjj	therapeuticjjutilizevbz	useablennofintherapynn	therapeuticjjapplyvbz	employmentnntherapeuticaljj	useablennofintherapeuticjj	usennofintherapeuticaljj	therapeuticaljjusesvbz	utilizationnntherapeuticjj	usennofintherapynn	usernnofintherapeuticaljj	employmentnntherapeuticjj	usablennofintherapeuticjj	usagennofintherapynn	usennofintherapeuticjj	usagenntherapeuticaljj	exercisennofintherapeuticaljj	therapeuticaljjutilizevbz	usernnofintherapynn	therapynnemployvbz	therapynnapplyvbz	therapeuticaljjemployvbz	therapeuticjjutilisevbz	utilisationnntherapeuticaljj	usenntherapynn	usagenntherapynn	utilisationnntherapynn	usagenntherapeuticjj	employmentnnofintherapynn	utilisationnnofintherapeuticjj	utilisationnnofintherapynn	therapeuticaljjutilisevbz	therapynnutilisevbz	therapeuticjjusevbz	exercisennofintherapeuticjj	usernnofintherapeuticjj	exercisenntherapynn	employmentnnofintherapeuticaljj	usagennofintherapeuticjj	usablennofintherapeuticaljj	useablennofintherapeuticaljj	
+
+BE: usesVBZx-raysNNS
+EQ class: usernnofinx-raysnns	utilizationnnofinx-raysnns	useablennofinx-raysnns	utilisevbzroentgen_raynns	employvbzx-raynns	utilizevbzx-raysnns	utilisevbztheynns	exercisennofinroentgen_raynns	utilisationnnofinx-raysnns	usevbzroentgen_raynns	useablennofinx-radiationnns	applyvbzx-radiationnns	usennofinx-raynns	employmentnnofinthemnns	utilizationnnofinx-radiationnns	employmentnnofinx-raysnns	usablennofintheynns	usennofinthemnns	utilizevbztheynns	usesvbzx-raynns	utilizationnnofinx-raynns	usablennofinroentgen_raynns	utilizevbzx-raynns	applyvbzthemnns	utilizevbzthemnns	utilisationnnofintheynns	usernnofinthemnns	exercisennofinx_raynns	utilisationnnofinroentgen_raynns	utilizationnnofintheynns	utilizationnnofinthemnns	employvbzroentgen_raynns	employmentnnofinx-raynns	usagennofinx_raynns	usablennofinx-radiationnns	utilizevbzx_raynns	usablennofinx-raynns	applyvbztheynns	usablennofinx_raynns	usesvbzthemnns	usagennofintheynns	employvbzthemnns	usevbzthemnns	utilizevbzx-radiationnns	utilisevbzthemnns	exercisennofintheynns	usesvbzx-radiationnns	usesvbzroentgen_raynns	usernnofintheynns	usevbzx-radiationnns	usagennofinx-radiationnns	usesvbztheynns	usernnofinroentgen_raynns	usennofinroentgen_raynns	employvbzx_raynns	useablennofinx_raynns	utilisationnnofinx-radiationnns	usernnofinx-raynns	usagennofinx-raysnns	usablennofinx-raysnns	usevbztheynns	utilisevbzx_raynns	employmentnnofinroentgen_raynns	utilisevbzx-raynns	usernnofinx_raynns	employvbztheynns	usagennofinroentgen_raynns	exercisennofinthemnns	employvbzx-radiationnns	usevbzx-raynns	applyvbzx-raysnns	applyvbzx_raynns	exercisennofinx-raysnns	usablennofinthemnns	utilisationnnofinthemnns	utilisevbzx-raysnns	employvbzx-raysnns	utilizevbzroentgen_raynns	usesvbzx_raynns	usennofinx-raysnns	useablennofinx-raynns	usagennofinx-raynns	usennofinx-radiationnns	usernnofinx-radiationnns	employmentnnofintheynns	useablennofintheynns	exercisennofinx-radiationnns	utilisationnnofinx_raynns	utilisationnnofinx-raynns	usennofinx_raynns	usevbzx_raynns	utilizationnnofinx_raynns	utilizationnnofinroentgen_raynns	useablennofinroentgen_raynns	applyvbzroentgen_raynns	useablennofinthemnns	utilisevbzx-radiationnns	employmentnnofinx-radiationnns	employmentnnofinx_raynns	usagennofinthemnns	usevbzx-raysnns	exercisennofinx-raynns	usennofintheynns	applyvbzx-raynns	
+
+BE: stopVBcellsNNS
+EQ class: haltnnofincellnns	haltvbcellnns	stopnnofincellularjj	haltvbthemnns	stopvbtheynns	haltvbcellularjj	stopvbcellularjj	haltnnofintheynns	haltvbcellsnns	haltnnofincellsnns	haltvbtheynns	stopvbthemnns	stopnnofincellsnns	haltnnofinthemnns	stopnnofinthemnns	haltnnofincellularjj	stopnnofintheynns	stopvbcellnns	stopnnofincellnns	
+
+BE: therapyNNinINBRAIN TUMORSOrganizationAnnotation
+EQ class: therapistvbbrain tumorsorganizationannotation	therapeuticaljjininbrain tumorsorganizationannotation	brain tumorsorganizationannotationtherapeuticjj	brain tumorsorganizationannotationtherapistvb	brain tumorsorganizationannotationtherapynn	brain tumorsorganizationannotationtherapeuticvb	therapeuticjjininbrain tumorsorganizationannotation	therapeuticvbbrain tumorsorganizationannotation	brain tumorsorganizationannotationtherapeuticaljj	brain tumorsorganizationannotationtherapeuticalvb	therapeuticalvbbrain tumorsorganizationannotation	
+
+BE: stopVBfromINdividingVBG
+EQ class: haltvbfromindividevbg	haltvbfromindividingvbg	haltvbfromindissevervbg	stopvbfrominsplitvbg	haltvbfrominsplit_upvbg	haltvbfromincarve_upvbg	stopvbfromindividevbg	stopvbfromindissevervbg	haltvbfrominseparatevbg	stopvbfrominseparatevbg	haltvbfrominsplitvbg	stopvbfromincarve_upvbg	stopvbfrominsplit_upvbg	
+
+BE: usesVBZstopVB
+EQ class: usagennofinstopvb	applyvbzstopvb	usevbzstopvb	usernnofinstopvb	usesvbzhaltvb	employmentnnofinhaltvb	useablennofinhaltvb	employvbzhaltvb	employvbzstopvb	utilisevbzhaltvb	usernnofinhaltvb	utilizevbzhaltvb	utilisationnnofinstopvb	usevbzhaltvb	applyvbzhaltvb	usagennofinhaltvb	usablennofinhaltvb	utilisationnnofinhaltvb	utilizevbzstopvb	utilizationnnofinstopvb	employmentnnofinstopvb	exercisennofinhaltvb	useablennofinstopvb	utilizationnnofinhaltvb	usablennofinstopvb	exercisennofinstopvb	usennofinstopvb	utilisevbzstopvb	usennofinhaltvb	
+
+BE: radNN
+EQ class: 
+
+BE: unitNN
+EQ class: unit_of_measurementnn	
+
+BE: measureNN
+EQ class: stepnn	
+
+BE: radiationNN
+EQ class: 
+
+BE: energyNN
+EQ class: free_energynn	
+
+BE: doseNN
+EQ class: dosagenn	
+
+BE: scientificJJ
+EQ class: scientific_knowledgenn	
+
+BE: scientificJJunitNN
+EQ class: scientific_knowledgennunitnn	scientificjjunit_of_measurementnn	scientific_knowledgennunit_of_measurementnn	
+
+BE: energyNNdoseNN
+EQ class: energynndosagenn	dosagennstimulatevb	dosagennarousevb	free_energynndosevb	free_energynnofindosagenn	dosagennperk_upvb	activatingnnofindosenn	dosennofinenergynn	dosennenergizevb	animatornnofindosagenn	energynndosevb	energizernnofindosagenn	activatingnnofindosagenn	dosennstimulatevb	energisernnofindosenn	dosevbfree_energynn	energisernnofindosagenn	energizernnofindosenn	energynnofindosenn	activationnnofindosagenn	dosennarousevb	dosennbracevb	dosagennenergisevb	energizingnnofindosenn	dosennofinfree_energynn	free_energynndosenn	dosennenergisevb	energynnofindosagenn	animatornnofindosenn	free_energynndosagenn	energizingnnofindosagenn	dosennperk_upvb	vitalizernnofindosenn	free_energynnofindosenn	dosagennofinfree_energynn	activationnnofindosenn	vitalisernnofindosagenn	dosagennenergizevb	dosagennbracevb	dosagennofinenergynn	vitalizernnofindosagenn	vitalisernnofindosenn	dosevbenergynn	
+
+BE: radiationNNdoseNN
+EQ class: effulgencennofindosagenn	refulgencennofindosenn	radiationnnofindosagenn	dosevbradiationnn	dosagennofinradiationnn	glownnofindosenn	refulgencynnofindosagenn	radiancennofindosenn	radiationnnofindosenn	radiancynnofindosagenn	glownnofindosagenn	radiancynnofindosenn	dosagennradiatevb	radiantjjofindosenn	shinennofindosagenn	dosennofinradiationnn	refulgencynnofindosenn	glowingnnofindosenn	radiationnndosagenn	effulgencennofindosenn	radiantnnofindosagenn	dosennradiatevb	radiantjjofindosagenn	radiancennofindosagenn	refulgencennofindosagenn	radiantnnofindosenn	glowingnnofindosagenn	shinennofindosenn	radiationnndosevb	
+
+BE: radNNisAUX
+EQ class: radnnbeaux	
+
+BE: isAUXunitNN
+EQ class: beauxunit_of_measurementnn	isauxunit_of_measurementnn	beauxunitnn	
+
+BE: unitNNofINmeasureNN
+EQ class: unitizevbstepnn	unit_of_measurementnnofinmeasurenn	unitizevbmeasurenn	unitisevbstepnn	measurennunitnn	stepnnunitizevb	unitnnofinstepnn	measurennunitizevb	unit_of_measurementnnofinstepnn	measurennunitisevb	unitisevbmeasurenn	stepnnunitisevb	stepnnunitnn	stepnnunit_of_measurementnn	measurennunit_of_measurementnn	
+
+BE: measureNNofINdoseNN
+EQ class: stepnnofindosenn	measurennofindosagenn	dosennstepnn	dosennmeasurenn	dosagennmeasurenn	stepnnofindosagenn	dosagennstepnn	
+
+BE: unitNNradNN
+EQ class: radnnunitisevb	unit_of_measurementnnofinradnn	unit_of_measurementnnradnn	radnnunitizevb	radnnunitnn	radnnunit_of_measurementnn	unitnnofinradnn	
+
+BE: patientNN
+EQ class: 
+
+BE: radiationNN
+EQ class: 
+
+BE: therapyNN
+EQ class: therapeuticjj	therapeuticaljj	
+
+BE: treatmentNN
+EQ class: interventionnn	
+
+BE: cancerNN
+EQ class: cancerousjj	malignant_neoplastic_diseasenn	
+
+BE: radsNNS
+EQ class: radnns	theynns	themnns	
+
+BE: periodNN
+EQ class: period_of_timenn	time_periodnn	
+
+BE: timeNN
+EQ class: clipnn	
+
+BE: weeksNNS
+EQ class: theynns	hebdomadnns	weeknns	themnns	weeklyjj	
+
+BE: monthsNNS
+EQ class: calendar_monthnns	theynns	monthlyjj	monthnns	themnns	
+
+BE: receivesVBZ
+EQ class: receivevbz	havevbz	
+
+BE: receiveVB
+EQ class: havevb	
+
+BE: severalJJ
+EQ class: 
+
+BE: shortJJ
+EQ class: shortnessnn	
+
+BE: severalJJradsNNS
+EQ class: severaljjradnns	severaljjtheynns	severaljjthemnns	
+
+BE: thousandCDradsNNS
+EQ class: chiliadcdradsnns	gcdthemnns	thousandcdtheynns	grandcdthemnns	kcdradsnns	gcdtheynns	yardcdtheynns	gcdradsnns	thoucdradnns	1000cdthemnns	grandcdradnns	chiliadcdradnns	kcdtheynns	one_thousandcdthemnns	one_thousandcdtheynns	thoucdthemnns	thoucdradsnns	kcdthemnns	1000cdtheynns	1000cdradnns	grandcdradsnns	yardcdthemnns	thousandcdthemnns	mcdthemnns	mcdradnns	grandcdtheynns	one_thousandcdradnns	kcdradnns	1000cdradsnns	yardcdradnns	thousandcdradnns	mcdradsnns	one_thousandcdradsnns	thoucdtheynns	mcdtheynns	yardcdradsnns	chiliadcdtheynns	chiliadcdthemnns	gcdradnns	
+
+BE: shortJJperiodNN
+EQ class: shortnessnntime_periodnn	shortnessnnperiod_of_timenn	shortjjtime_periodnn	shortnessnnperiodnn	shortjjperiod_of_timenn	
+
+BE: radiationNNtherapyNN
+EQ class: shinennofintherapeuticaljj	therapeuticalvbradiationnn	refulgencynnofintherapeuticaljj	therapynnofinradiationnn	effulgencennofintherapeuticjj	radiantjjofintherapeuticjj	radiancennofintherapeuticaljj	radiantnnofintherapeuticjj	radiantnnofintherapeuticaljj	therapistvbradiationnn	therapeuticjjradiatevb	radiancynnofintherapeuticjj	refulgencennofintherapeuticjj	radiantjjofintherapynn	glownnofintherapeuticjj	glowingnnofintherapeuticaljj	shinennofintherapynn	radiancynnofintherapynn	radiationnntherapeuticaljj	therapynnradiatevb	therapeuticjjofinradiationnn	radiationnnofintherapeuticaljj	refulgencynnofintherapeuticjj	therapeuticaljjofinradiationnn	radiationnntherapeuticvb	radiationnnofintherapynn	radiantjjofintherapeuticaljj	effulgencennofintherapeuticaljj	glowingnnofintherapeuticjj	radiationnnofintherapeuticjj	radiancennofintherapeuticjj	therapeuticvbradiationnn	refulgencynnofintherapynn	refulgencennofintherapeuticaljj	radiationnntherapeuticjj	shinennofintherapeuticjj	radiancennofintherapynn	radiationnntherapeuticalvb	glownnofintherapynn	radiancynnofintherapeuticaljj	refulgencennofintherapynn	therapeuticaljjradiatevb	effulgencennofintherapynn	radiantnnofintherapynn	glowingnnofintherapynn	radiationnntherapistvb	glownnofintherapeuticaljj	
+
+BE: patientNNreceiveVB
+EQ class: responsennofinpatientnn	responsennpatientnn	recipientnnpatientnn	patientnnhavevb	receivernnofinpatientnn	receivernnpatientnn	receptionnnpatientnn	receiving_systemnnpatientnn	recipientnnofinpatientnn	receptionnnofinpatientnn	receiving_systemnnofinpatientnn	
+
+BE: patientNNreceivesVBZ
+EQ class: responsennofinpatientnn	responsennpatientnn	recipientnnpatientnn	receivernnofinpatientnn	patientnnhavevbz	patientnnreceivevbz	receivernnpatientnn	receptionnnpatientnn	receiving_systemnnpatientnn	recipientnnofinpatientnn	receptionnnofinpatientnn	receiving_systemnnofinpatientnn	
+
+BE: receivesVBZtherapyNN
+EQ class: receivesvbztherapeuticaljj	havevbztherapeuticjj	receivevbztherapeuticaljj	responsennofintherapynn	recipientnnofintherapeuticaljj	receivernnofintherapynn	receiving_systemnnofintherapynn	recipientnnofintherapeuticjj	receiving_systemnnofintherapeuticaljj	havevbztherapeuticaljj	receivernnofintherapeuticaljj	receptionnnofintherapeuticjj	recipientnnofintherapynn	havevbztherapynn	receptionnnofintherapynn	receivevbztherapynn	receptionnnofintherapeuticaljj	receivevbztherapeuticjj	responsennofintherapeuticaljj	receivesvbztherapeuticjj	responsennofintherapeuticjj	receiving_systemnnofintherapeuticjj	receivernnofintherapeuticjj	
+
+BE: receiveVBradsNNS
+EQ class: havevbradsnns	receivernnofinthemnns	receivernnofintheynns	responsennofintheynns	receiving_systemnnofinradnns	receivernnofinradsnns	havevbtheynns	receiving_systemnnofintheynns	recipientnnofinthemnns	havevbthemnns	receptionnnofinradnns	receivevbradnns	receiving_systemnnofinthemnns	recipientnnofintheynns	responsennofinthemnns	receptionnnofinradsnns	responsennofinradsnns	receptionnnofinthemnns	receivevbtheynns	receiving_systemnnofinradsnns	recipientnnofinradnns	responsennofinradnns	receptionnnofintheynns	receivevbthemnns	havevbradnns	recipientnnofinradsnns	receivernnofinradnns	
+
+BE: treatmentNNforINcancerNN
+EQ class: treatmentnnforincancerousjj	handlevbcancerousjj	malignant_neoplastic_diseasenndo_byvb	cancernntreatmentnn	cancerousjjtreatmentnn	malignant_neoplastic_diseasenntreatvb	do_byvbcancernn	interventionnnforincancernn	cancerousjjtreatvb	cancerousjjinterventionnn	interventionnnforincancerousjj	handlevbmalignant_neoplastic_diseasenn	interventionnnforinmalignant_neoplastic_diseasenn	malignant_neoplastic_diseasenntreatmentnn	cancernntreatvb	malignant_neoplastic_diseasenninterventionnn	cancerousjjhandlevb	cancernninterventionnn	do_byvbmalignant_neoplastic_diseasenn	do_byvbcancerousjj	treatvbcancerousjj	treatvbcancernn	malignant_neoplastic_diseasennhandlevb	treatvbmalignant_neoplastic_diseasenn	cancernndo_byvb	handlevbcancernn	treatmentnnforinmalignant_neoplastic_diseasenn	cancerousjjdo_byvb	cancernnhandlevb	
+
+BE: periodNNofINtimeNN
+EQ class: time_periodnnofintimenn	clipnnperiod_of_timenn	clipnnperiodnn	timenntime_periodnn	clipnntime_periodnn	timennperiod_of_timenn	periodnnofinclipnn	period_of_timennofinclipnn	time_periodnnofinclipnn	period_of_timennofintimenn	timennperiodnn	
+
+BE: receivesVBZasINtreatmentNN
+EQ class: havevbzasintreatmentnn	receivesvbzasininterventionnn	havevbzasininterventionnn	receivevbzasininterventionnn	receivevbzasintreatmentnn	
+
+BE: receiveVBoverINperiodNN
+EQ class: havevboverintime_periodnn	receivevboverintime_periodnn	receivevboverinperiod_of_timenn	havevboverinperiodnn	havevboverinperiod_of_timenn	
+
+BE: x-rayNN
+EQ class: x-radiationnn	roentgen_raynn	x_raynn	
+
+BE: radsNNS
+EQ class: radnns	theynns	themnns	
+
+BE: DurNNP
+EQ class: 
+
+BE: containsVBZ
+EQ class: containvbz	comprisevbz	incorporatevbz	
+
+BE: ..VBG
+EQ class: vbg	
+
+BE: typicalJJ
+EQ class: typicalitynn	
+
+BE: fewerJJR
+EQ class: 
+
+BE: typicalJJx-rayNN
+EQ class: typicalitynnx-radiationnn	typicalitynnx-raynn	typicaljjx_raynn	typicalitynnx_raynn	typicaljjroentgen_raynn	typicalitynnroentgen_raynn	typicaljjx-radiationnn	
+
+BE: fewerJJRradsNNS
+EQ class: fewerjjrradnns	fewerjjrtheynns	fewerjjrthemnns	
+
+BE: x-rayNNcontainsVBZ
+EQ class: x_raynnincorporatevbz	x-raynnincorporatevbz	x_raynncomprisevbz	roentgen_raynncontainsvbz	x-raynncomprisevbz	roentgen_raynnincorporatevbz	x-raynncontainvbz	roentgen_raynncontainvbz	x_raynncontainvbz	x-radiationnncomprisevbz	x-radiationnncontainsvbz	x-radiationnnincorporatevbz	x_raynncontainsvbz	x-radiationnncontainvbz	roentgen_raynncomprisevbz	
+
+BE: radsNNS..VBG
+EQ class: theynnsvbg	radsnnsvbg	radnnsvbg	themnns..vbg	theynns..vbg	themnnsvbg	radnns..vbg	
+
+BE: containsVBZradsNNS
+EQ class: incorporatevbzradnns	containvbzthemnns	comprisevbzradnns	containsvbztheynns	incorporatevbzradsnns	containvbztheynns	containsvbzthemnns	comprisevbztheynns	incorporatevbztheynns	containsvbzradnns	incorporatevbzthemnns	containvbzradsnns	containvbzradnns	comprisevbzradsnns	comprisevbzthemnns	
+
+BE: ..VBGDurNNP
+EQ class: vbgdurnnp	
+
+BE: radiationNN
+EQ class: 
+
+BE: therapyNN
+EQ class: therapeuticjj	therapeuticaljj	
+
+BE: x-raysNNS
+EQ class: x_raynns	theynns	x-radiationnns	x-raynns	roentgen_raynns	themnns	
+
+BE: depositNN
+EQ class: sedimentationnn	alluviationnn	
+
+BE: energyNN
+EQ class: free_energynn	
+
+BE: areaNN
+EQ class: arealjj	countrynn	
+
+BE: materialNN
+EQ class: stuffnn	
+
+BE: cellsNNS
+EQ class: cellnns	cellularjj	theynns	themnns	
+
+BE: cellsNNS
+EQ class: cellnns	cellularjj	theynns	themnns	
+
+BE: radiationNN
+EQ class: 
+
+BE: damagesNNS
+EQ class: redressnns	theynns	indemnificationnns	restitutionnns	indemnitynns	amendsnns	themnns	
+
+BE: cancerNN
+EQ class: cancerousjj	malignant_neoplastic_diseasenn	
+
+BE: cellsNNS
+EQ class: cellnns	cellularjj	theynns	themnns	
+
+BE: cellsNNS
+EQ class: cellnns	cellularjj	theynns	themnns	
+
+BE: cellsNNS
+EQ class: cellnns	cellularjj	theynns	themnns	
+
+BE: surgeryNN
+EQ class: surgicaljj	
+
+BE: radiationNN
+EQ class: 
+
+BE: therapyNN
+EQ class: therapeuticjj	therapeuticaljj	
+
+BE: treatmentNN
+EQ class: interventionnn	
+
+BE: cellsNNS
+EQ class: cellnns	cellularjj	theynns	themnns	
+
+BE: areaNN
+EQ class: arealjj	countrynn	
+
+BE: RadiationNN
+EQ class: 
+
+BE: therapyNN
+EQ class: therapeuticjj	therapeuticaljj	
+
+BE: tumorsNNS
+EQ class: theynns	tumornns	tumournns	neoplasmnns	themnns	
+
+BE: treatedVBN
+EQ class: do_byvbn	treatvbn	handlevbn	
+
+BE: damagingVBG
+EQ class: damagevbg	
+
+BE: makingVBG
+EQ class: makevbg	dovbg	
+
+BE: divideVB
+EQ class: carve_upvb	split_upvb	dissevervb	splitvb	separatevb	
+
+BE: repairVB
+EQ class: fixvb	mendvb	bushelvb	touch_onvb	doctorvb	furbish_upvb	restorevb	
+
+BE: functionVB
+EQ class: operatevb	govb	runvb	workvb	
+
+BE: properlyVBG
+EQ class: 
+
+BE: affectsVBZ
+EQ class: bear_uponvbz	touch_onvbz	impactvbz	affectvbz	bear_onvbz	touchvbz	
+
+BE: treatedVBN
+EQ class: do_byvbn	treatvbn	handlevbn	
+
+BE: usedVBN
+EQ class: employvbn	utilisevbn	utilizevbn	usevbn	applyvbn	
+
+BE: treatVB
+EQ class: handlevb	do_byvb	
+
+BE: geneticJJ
+EQ class: transmittedjj	hereditaryjj	inheritedjj	familialjj	transmissiblejj	
+
+BE: impossibleJJ
+EQ class: impossibilitynn	impossiblenessnn	
+
+BE: normalJJ
+EQ class: normalitynn	
+
+BE: normalJJ
+EQ class: normalitynn	
+
+BE: ableJJ
+EQ class: abilitynn	
+
+BE: localJJ
+EQ class: 
+
+BE: localizedJJ
+EQ class: localisedjj	
+
+BE: solidJJ
+EQ class: solidnessnn	
+
+BE: geneticJJmaterialNN
+EQ class: transmittedjjstuffnn	hereditaryjjstuffnn	geneticjjstuffnn	familialjjmaterialnn	inheritedjjmaterialnn	hereditaryjjmaterialnn	transmissiblejjstuffnn	inheritedjjstuffnn	transmissiblejjmaterialnn	transmittedjjmaterialnn	familialjjstuffnn	
+
+BE: normalJJcellsNNS
+EQ class: normalitynncellularjj	cellularvbnormallyrb	normaljjtheynns	normalitynntheynns	normaljjcellnns	normaljjthemnns	normalitynncellnns	normaljjcellularjj	normalitynncellsnns	normalitynnthemnns	
+
+BE: normalJJcellsNNS
+EQ class: normalitynncellularjj	cellularvbnormallyrb	normaljjtheynns	normalitynntheynns	normaljjcellnns	normaljjthemnns	normalitynncellnns	normaljjcellularjj	normalitynncellsnns	normalitynnthemnns	
+
+BE: localJJtreatmentNN
+EQ class: handlevblocallyrb	do_byvblocallyrb	localjjinterventionnn	treatvblocallyrb	
+
+BE: treatedVBNtherapyNN
+EQ class: do_byvbntherapeuticjj	do_byvbntherapynn	handlevbntherapeuticjj	treatvbntherapeuticaljj	treatvbntherapynn	do_byvbntherapeuticaljj	treatedvbntherapeuticjj	treatvbntherapeuticjj	handlevbntherapynn	treatedvbntherapeuticaljj	handlevbntherapeuticaljj	
+
+BE: localizedJJtumorsNNS
+EQ class: localizedjjtumournns	localisedjjtumorsnns	localisedjjtheynns	localizedjjtheynns	localizedjjthemnns	localisedjjthemnns	localisedjjtumournns	localizedjjneoplasmnns	localizedjjtumornns	localisedjjneoplasmnns	localisedjjtumornns	
+
+BE: solidJJtumorsNNS
+EQ class: solidnessnntumorsnns	solidnessnnthemnns	solidnessnnneoplasmnns	solidjjtheynns	solidjjneoplasmnns	solidjjtumornns	solidnessnntheynns	solidjjtumournns	solidnessnntumornns	solidjjthemnns	solidnessnntumournns	
+
+BE: radiationNNtherapyNN
+EQ class: shinennofintherapeuticaljj	therapeuticalvbradiationnn	refulgencynnofintherapeuticaljj	therapynnofinradiationnn	effulgencennofintherapeuticjj	radiantjjofintherapeuticjj	radiancennofintherapeuticaljj	radiantnnofintherapeuticjj	radiantnnofintherapeuticaljj	therapistvbradiationnn	therapeuticjjradiatevb	radiancynnofintherapeuticjj	refulgencennofintherapeuticjj	radiantjjofintherapynn	glownnofintherapeuticjj	glowingnnofintherapeuticaljj	shinennofintherapynn	radiancynnofintherapynn	radiationnntherapeuticaljj	therapynnradiatevb	therapeuticjjofinradiationnn	radiationnnofintherapeuticaljj	refulgencynnofintherapeuticjj	therapeuticaljjofinradiationnn	radiationnntherapeuticvb	radiationnnofintherapynn	radiantjjofintherapeuticaljj	effulgencennofintherapeuticaljj	glowingnnofintherapeuticjj	radiationnnofintherapeuticjj	radiancennofintherapeuticjj	therapeuticvbradiationnn	refulgencynnofintherapynn	refulgencennofintherapeuticaljj	radiationnntherapeuticjj	shinennofintherapeuticjj	radiancennofintherapynn	radiationnntherapeuticalvb	glownnofintherapynn	radiancynnofintherapeuticaljj	refulgencennofintherapynn	therapeuticaljjradiatevb	effulgencennofintherapynn	radiantnnofintherapynn	glowingnnofintherapynn	radiationnntherapistvb	glownnofintherapeuticaljj	
+
+BE: depositNNenergyNN
+EQ class: arousevbdepositnn	sedimentationnnstimulatevb	sedimentationnnarousevb	bracevbsedimentationnn	energynnofinalluviationnn	energizevbsedimentationnn	sedimentationnnperk_upvb	sedimentationnnbracevb	stimulatevbdepositnn	perk_upvballuviationnn	perk_upvbsedimentationnn	energisevballuviationnn	energynnofinsedimentationnn	stimulatevbsedimentationnn	depositnnstimulatevb	alluviationnnfree_energynn	sedimentationnnenergynn	energizevbdepositnn	free_energynnofinsedimentationnn	alluviationnnenergynn	arousevballuviationnn	energisevbsedimentationnn	sedimentationnnenergisevb	depositnnbracevb	energynnofindepositnn	depositnnfree_energynn	alluviationnnarousevb	sedimentationnnfree_energynn	energizevballuviationnn	perk_upvbdepositnn	alluviationnnenergisevb	sedimentationnnenergizevb	depositnnenergisevb	alluviationnnbracevb	free_energynnofindepositnn	stimulatevballuviationnn	free_energynnofinalluviationnn	bracevballuviationnn	arousevbsedimentationnn	bracevbdepositnn	depositnnenergizevb	alluviationnnperk_upvb	alluviationnnstimulatevb	alluviationnnenergizevb	depositnnarousevb	depositnnperk_upvb	energisevbdepositnn	
+
+BE: x-raysNNSenergyNN
+EQ class: roentgen_raynnsbracevb	energisevbthemnns	perk_upvbroentgen_raynns	bracevbtheynns	roentgen_raynnsstimulatevb	energizevbx-radiationnns	energynnofinthemnns	energisevbx-radiationnns	x-raysnnsenergisevb	themnnsenergynn	perk_upvbthemnns	energizevbroentgen_raynns	x-raysnnsarousevb	stimulatevbx-radiationnns	theynnsbracevb	theynnsstimulatevb	stimulatevbx-raynns	themnnsstimulatevb	roentgen_raynnsenergisevb	roentgen_raynnsenergynn	x-raynnsfree_energynn	free_energynnofinx-raynns	x_raynnsfree_energynn	bracevbthemnns	energizevbx_raynns	x-raysnnsenergizevb	bracevbroentgen_raynns	free_energynnofintheynns	energynnofinx-raysnns	x-raynnsenergizevb	energisevbx-raynns	x_raynnsstimulatevb	x-raynnsstimulatevb	x_raynnsenergisevb	arousevbx-raysnns	x-radiationnnsenergynn	x-raysnnsperk_upvb	x-radiationnnsstimulatevb	x_raynnsenergizevb	stimulatevbx-raysnns	bracevbx-radiationnns	x-raysnnsstimulatevb	arousevbroentgen_raynns	x_raynnsperk_upvb	perk_upvbx-radiationnns	theynnsenergynn	themnnsperk_upvb	energynnofinroentgen_raynns	arousevbthemnns	arousevbx_raynns	x-raynnsarousevb	x-raynnsenergynn	energizevbx-raynns	perk_upvbtheynns	stimulatevbroentgen_raynns	x_raynnsarousevb	free_energynnofinx-radiationnns	x-raynnsperk_upvb	x-raysnnsbracevb	stimulatevbtheynns	x-raysnnsfree_energynn	energizevbx-raysnns	energisevbtheynns	themnnsbracevb	stimulatevbx_raynns	perk_upvbx-raysnns	bracevbx_raynns	theynnsfree_energynn	themnnsarousevb	x-raynnsenergisevb	x-radiationnnsarousevb	roentgen_raynnsarousevb	energisevbx-raysnns	roentgen_raynnsfree_energynn	themnnsenergizevb	x-radiationnnsperk_upvb	theynnsenergisevb	arousevbx-raynns	free_energynnofinx_raynns	x-raynnsbracevb	bracevbx-raysnns	x-radiationnnsenergisevb	theynnsperk_upvb	perk_upvbx-raynns	free_energynnofinx-raysnns	free_energynnofinthemnns	perk_upvbx_raynns	bracevbx-raynns	arousevbx-radiationnns	energizevbthemnns	stimulatevbthemnns	energynnofintheynns	energynnofinx-raynns	themnnsenergisevb	x-radiationnnsenergizevb	x_raynnsbracevb	theynnsenergizevb	energizevbtheynns	free_energynnofinroentgen_raynns	x-radiationnnsbracevb	themnnsfree_energynn	x-radiationnnsfree_energynn	energynnofinx-radiationnns	roentgen_raynnsperk_upvb	energisevbroentgen_raynns	arousevbtheynns	energisevbx_raynns	x_raynnsenergynn	theynnsarousevb	roentgen_raynnsenergizevb	energynnofinx_raynns	
+
+BE: cancerNNcellsNNS
+EQ class: malignant_neoplastic_diseasennthemnns	themnnsofincancerousjj	cancerousjjcellularjj	cancerousjjthemnns	theynnsofincancernn	cancerousjjcellnns	malignant_neoplastic_diseasenncellularvb	cellularjjofincancerousjj	cancernncellularvb	cellularvbcancerousjj	malignant_neoplastic_diseasenntheynns	cancernnthemnns	cellularjjofincancernn	cellularvbcancernn	cellularjjofinmalignant_neoplastic_diseasenn	themnnsofincancernn	cancerousjjtheynns	malignant_neoplastic_diseasenncellsnns	cellnnsofinmalignant_neoplastic_diseasenn	cellsnnsofinmalignant_neoplastic_diseasenn	theynnsofincancerousjj	cancerousjjcellularvb	cancernncellularjj	malignant_neoplastic_diseasenncellnns	theynnsofinmalignant_neoplastic_diseasenn	cellsnnsofincancernn	cellnnsofincancerousjj	cellsnnsofincancerousjj	cancernntheynns	cellularvbmalignant_neoplastic_diseasenn	malignant_neoplastic_diseasenncellularjj	cellnnsofincancernn	cancerousjjcellsnns	cancernncellnns	themnnsofinmalignant_neoplastic_diseasenn	
+
+BE: radiationNNtherapyNN
+EQ class: shinennofintherapeuticaljj	therapeuticalvbradiationnn	refulgencynnofintherapeuticaljj	therapynnofinradiationnn	effulgencennofintherapeuticjj	radiantjjofintherapeuticjj	radiancennofintherapeuticaljj	radiantnnofintherapeuticjj	radiantnnofintherapeuticaljj	therapistvbradiationnn	therapeuticjjradiatevb	radiancynnofintherapeuticjj	refulgencennofintherapeuticjj	radiantjjofintherapynn	glownnofintherapeuticjj	glowingnnofintherapeuticaljj	shinennofintherapynn	radiancynnofintherapynn	radiationnntherapeuticaljj	therapynnradiatevb	therapeuticjjofinradiationnn	radiationnnofintherapeuticaljj	refulgencynnofintherapeuticjj	therapeuticaljjofinradiationnn	radiationnntherapeuticvb	radiationnnofintherapynn	radiantjjofintherapeuticaljj	effulgencennofintherapeuticaljj	glowingnnofintherapeuticjj	radiationnnofintherapeuticjj	radiancennofintherapeuticjj	therapeuticvbradiationnn	refulgencynnofintherapynn	refulgencennofintherapeuticaljj	radiationnntherapeuticjj	shinennofintherapeuticjj	radiancennofintherapynn	radiationnntherapeuticalvb	glownnofintherapynn	radiancynnofintherapeuticaljj	refulgencennofintherapynn	therapeuticaljjradiatevb	effulgencennofintherapynn	radiantnnofintherapynn	glowingnnofintherapynn	radiationnntherapistvb	glownnofintherapeuticaljj	
+
+BE: RadiationNNtherapyNN
+EQ class: shinennofintherapeuticaljj	therapeuticalvbradiationnn	refulgencynnofintherapeuticaljj	therapynnofinradiationnn	effulgencennofintherapeuticjj	radiantjjofintherapeuticjj	radiancennofintherapeuticaljj	radiantnnofintherapeuticjj	radiantnnofintherapeuticaljj	therapistvbradiationnn	therapeuticjjradiatevb	radiancynnofintherapeuticjj	refulgencennofintherapeuticjj	radiantjjofintherapynn	glownnofintherapeuticjj	glowingnnofintherapeuticaljj	shinennofintherapynn	radiancynnofintherapynn	radiationnntherapeuticaljj	therapynnradiatevb	therapeuticjjofinradiationnn	radiationnnofintherapeuticaljj	refulgencynnofintherapeuticjj	therapeuticaljjofinradiationnn	radiationnntherapeuticvb	radiationnnofintherapynn	radiantjjofintherapeuticaljj	effulgencennofintherapeuticaljj	glowingnnofintherapeuticjj	radiationnnofintherapeuticjj	radiancennofintherapeuticjj	therapeuticvbradiationnn	refulgencynnofintherapynn	refulgencennofintherapeuticaljj	radiationnntherapeuticjj	shinennofintherapeuticjj	radiancennofintherapynn	radiationnntherapeuticalvb	glownnofintherapynn	radiancynnofintherapeuticaljj	refulgencennofintherapynn	therapeuticaljjradiatevb	effulgencennofintherapynn	radiantnnofintherapynn	glowingnnofintherapynn	radiationnntherapistvb	glownnofintherapeuticaljj	
+
+BE: areaNNtherapyNN
+EQ class: areanntherapeuticaljj	areanntherapeuticvb	therapeuticjjofinareann	countrynntherapistvb	arealjjtherapeuticjj	countrynntherapeuticalvb	therapistvbarealjj	areanntherapistvb	countrynntherapeuticvb	arealjjtherapeuticalvb	therapeuticvbareann	countrynntherapeuticaljj	countrynntherapynn	therapeuticaljjofincountrynn	therapeuticvbcountrynn	areanntherapeuticjj	therapeuticaljjofinarealjj	arealjjtherapeuticvb	therapynnofincountrynn	arealjjtherapistvb	therapeuticaljjofinareann	therapistvbcountrynn	arealjjtherapynn	therapeuticalvbcountrynn	areanntherapeuticalvb	therapynnofinareann	therapynnofinarealjj	therapeuticjjofincountrynn	arealjjtherapeuticaljj	therapeuticjjofinarealjj	therapeuticvbarealjj	countrynntherapeuticjj	therapistvbareann	therapeuticalvbareann	therapeuticalvbarealjj	
+
+BE: radiationNNdamagesNNS
+EQ class: radiantnnofinindemnitynns	radiantnnofindamagesnns	glowingnnofindamagesnns	radiationnnindemnitynns	radiationnnthemnns	refulgencennofinindemnificationnns	redressnnsradiatevb	indemnificationnnsradiatevb	radiationnnofinrestitutionnns	radiantnnofintheynns	effulgencennofintheynns	refulgencynnofinamendsnns	radiancynnofinrestitutionnns	radiancennofinindemnitynns	effulgencennofinindemnificationnns	radiationnnofinthemnns	radiantnnofinredressnns	radiantjjofinthemnns	glowingnnofinindemnitynns	theynnsradiatevb	refulgencennofinindemnitynns	refulgencennofinredressnns	shinennofintheynns	radiancennofinamendsnns	damagesnnsradiatevb	glownnofinthemnns	radiancennofinthemnns	radiationnntheynns	shinennofinindemnitynns	radiationnnofinamendsnns	radiancennofindamagesnns	refulgencynnofinindemnificationnns	radiantjjofindamagesnns	radiantjjofinredressnns	radiantnnofinrestitutionnns	refulgencennofinrestitutionnns	restitutionnnsradiatevb	radiancynnofindamagesnns	restitutionnnsofinradiationnn	effulgencennofinredressnns	refulgencynnofinindemnitynns	amendsnnsradiatevb	indemnificationnnsofinradiationnn	radiancynnofinredressnns	radiationnnindemnificationnns	glownnofinredressnns	glownnofinrestitutionnns	radiationnnredressnns	radiationnnofindamagesnns	radiationnnofinindemnificationnns	glowingnnofinindemnificationnns	theynnsofinradiationnn	radiantnnofinthemnns	radiancynnofinamendsnns	radiantnnofinamendsnns	radiancennofinrestitutionnns	shinennofinrestitutionnns	effulgencennofinamendsnns	radiationnnrestitutionnns	amendsnnsofinradiationnn	radiationnnofinredressnns	shinennofinredressnns	effulgencennofinrestitutionnns	indemnitynnsofinradiationnn	refulgencynnofinredressnns	shinennofinamendsnns	refulgencennofinamendsnns	refulgencynnofinthemnns	shinennofindamagesnns	radiancynnofinindemnificationnns	radiantjjofinindemnificationnns	radiantjjofinrestitutionnns	shinennofinthemnns	refulgencynnofintheynns	refulgencynnofinrestitutionnns	refulgencennofintheynns	themnnsradiatevb	effulgencennofinindemnitynns	radiancynnofinindemnitynns	damagesnnsofinradiationnn	radiationnnofinindemnitynns	indemnitynnsradiatevb	glowingnnofinrestitutionnns	radiantjjofinamendsnns	radiantjjofintheynns	radiancynnofintheynns	radiationnnofintheynns	redressnnsofinradiationnn	glowingnnofinthemnns	glownnofinindemnificationnns	radiantjjofinindemnitynns	refulgencynnofindamagesnns	shinennofinindemnificationnns	themnnsofinradiationnn	refulgencennofindamagesnns	radiationnnamendsnns	radiantnnofinindemnificationnns	effulgencennofindamagesnns	glowingnnofintheynns	glownnofinamendsnns	glownnofinindemnitynns	glowingnnofinamendsnns	glownnofindamagesnns	radiancennofinindemnificationnns	radiancynnofinthemnns	refulgencennofinthemnns	radiancennofintheynns	radiancennofinredressnns	effulgencennofinthemnns	glownnofintheynns	glowingnnofinredressnns	
+
+BE: cellsNNSdivideVB
+EQ class: cellsnnssplit_upvb	divisionnncellnns	dividernnofincellsnns	cellsnnsseparatevb	divisionaljjofincellsnns	divisiblennofinthemnns	dividernnofinthemnns	cellularjjdissevervb	divisionaljjofinthemnns	divisiblennofincellularjj	splitternnofintheynns	cellsnnscarve_upvb	theynnssplitvb	divisiblennofincellsnns	theynnsdissevervb	cellnnscarve_upvb	divisiblennofintheynns	cellularjjsplit_upvb	cellnnsseparatevb	dividernnofincellularjj	splitternncellnns	dividernncellsnns	cellularjjseparatevb	splitternntheynns	cellsnnsdissevervb	dividernnofincellnns	themnnscarve_upvb	cellnnsdividevb	dividernncellnns	divisionnnofincellularjj	themnnsdividevb	divisionaljjcellularjj	divisionnnofinthemnns	divisionaljjcellsnns	divisionaljjofintheynns	divisionnncellsnns	theynnsseparatevb	splitternnofincellnns	theynnssplit_upvb	themnnssplitvb	themnnssplit_upvb	cellnnssplit_upvb	cellularjjdividevb	themnnsdissevervb	cellnnsdissevervb	cellnnssplitvb	divisionnntheynns	theynnsdividevb	splitternnofincellularjj	divisionnnofintheynns	cellularjjsplitvb	themnnsseparatevb	divisiblennofincellnns	divisionnncellularjj	divisionaljjofincellnns	dividernnthemnns	splitternncellularjj	divisionaljjtheynns	cellularjjcarve_upvb	dividernncellularjj	divisionaljjofincellularjj	divisionaljjthemnns	cellsnnssplitvb	divisionaljjcellnns	theynnscarve_upvb	dividernntheynns	splitternncellsnns	divisionnnthemnns	splitternnofinthemnns	dividernnofintheynns	splitternnofincellsnns	divisionnnofincellnns	splitternnthemnns	divisionnnofincellsnns	
+
+BE: cellsNNSareAUX
+EQ class: themnnsbeaux	theynnsareaux	themnnsareaux	cellsnnsbeaux	cellnnsareaux	cellnnsbeaux	theynnsbeaux	cellularjjareaux	cellularjjbeaux	
+
+BE: cellsNNSareAUX
+EQ class: themnnsbeaux	theynnsareaux	themnnsareaux	cellsnnsbeaux	cellnnsareaux	cellnnsbeaux	theynnsbeaux	cellularjjareaux	cellularjjbeaux	
+
+BE: cellsNNSareAUX
+EQ class: themnnsbeaux	theynnsareaux	themnnsareaux	cellsnnsbeaux	cellnnsareaux	cellnnsbeaux	theynnsbeaux	cellularjjareaux	cellularjjbeaux	
+
+BE: therapyNNisAUX
+EQ class: therapynnbeaux	therapeuticaljjisaux	therapeuticjjisaux	therapeuticaljjbeaux	therapeuticjjbeaux	
+
+BE: itPRPaffectsVBZ
+EQ class: itprpbear_uponvbz	itprptouchvbz	itprpimpactvbz	itprpaffectvbz	itprptouch_onvbz	itprpbear_onvbz	
+
+BE: damagingVBGmaterialNN
+EQ class: damagingvbgstuffnn	impairmentnnofinstuffnn	damagennofinstuffnn	harmnnofinmaterialnn	harmnnofinstuffnn	damagevbgstuffnn	impairmentnnofinmaterialnn	damagevbgmaterialnn	damagennofinmaterialnn	
+
+BE: repairVBthemselvesPRP
+EQ class: doctorvbthemselvesprp	fixingnnofinthemselvesprp	mendnnofinthemselvesprp	mendingnnofinthemselvesprp	bushelvbthemselvesprp	fixnnofinthemselvesprp	furbish_upvbthemselvesprp	fixvbthemselvesprp	touch_onvbthemselvesprp	mendernnofinthemselvesprp	fixturennofinthemselvesprp	fixernnofinthemselvesprp	restorevbthemselvesprp	mendvbthemselvesprp	repairnnofinthemselvesprp	repairernnofinthemselvesprp	reparationnnofinthemselvesprp	
+
+BE: isAUXtreatmentNN
+EQ class: isauxinterventionnn	beauxinterventionnn	beauxtreatmentnn	
+
+BE: treatVBtumorsNNS
+EQ class: do_byvbtumournns	handlevbtumournns	do_byvbtheynns	handlevbneoplasmnns	treatvbthemnns	treatvbtumornns	handlevbtheynns	treatvbtumournns	handlevbtumornns	do_byvbneoplasmnns	treatvbtheynns	treatvbneoplasmnns	do_byvbtumorsnns	do_byvbthemnns	do_byvbtumornns	handlevbthemnns	handlevbtumorsnns	
+
+BE: makingVBGitPRP
+EQ class: dovbgitprp	makevbgitprp	
+
+BE: usedVBNcellsNNS
+EQ class: usagennofincellularjj	usevbnthemnns	utilisevbnthemnns	employvbncellsnns	employmentnnofincellnns	utilisevbncellsnns	usagennofincellsnns	utilisationnnofincellnns	useablennofincellnns	usablennofincellnns	usedvbntheynns	usevbncellularjj	useablennofincellularjj	utilisationnnofincellularjj	utilisevbncellularjj	utilisevbncellnns	usagennofincellnns	utilizevbnthemnns	usennofincellsnns	employmentnnofinthemnns	employvbncellularjj	usablennofintheynns	exercisennofinthemnns	usennofinthemnns	employmentnnofincellsnns	utilisevbntheynns	utilizevbncellnns	applyvbncellnns	usablennofinthemnns	usevbncellnns	utilisationnnofinthemnns	applyvbncellularjj	utilizationnnofincellularjj	exercisennofincellularjj	utilisationnnofintheynns	applyvbntheynns	usernnofinthemnns	usernnofincellnns	utilizationnnofintheynns	usevbntheynns	employvbncellnns	utilizationnnofinthemnns	usernnofincellularjj	usernnofincellsnns	usennofincellnns	useablennofincellsnns	utilizationnnofincellsnns	usevbncellsnns	employmentnnofintheynns	applyvbnthemnns	employvbntheynns	usablennofincellularjj	utilizevbntheynns	utilizationnnofincellnns	applyvbncellsnns	useablennofintheynns	exercisennofincellsnns	usagennofintheynns	usedvbnthemnns	exercisennofintheynns	usedvbncellularjj	usedvbncellnns	utilisationnnofincellsnns	useablennofinthemnns	usernnofintheynns	usagennofinthemnns	utilizevbncellsnns	usennofincellularjj	usennofintheynns	employmentnnofincellularjj	exercisennofincellnns	utilizevbncellularjj	usablennofincellsnns	employvbnthemnns	
+
+BE: treatedVBNenergyNN
+EQ class: handlevbnenergynn	treatvbnfree_energynn	treatedvbnfree_energynn	treatvbnenergynn	do_byvbnfree_energynn	handlevbnfree_energynn	do_byvbnenergynn	
+
+BE: areAUXableJJ
+EQ class: areauxabilitynn	beauxablejj	beauxabilitynn	
+
+BE: energyNNinINareaNN
+EQ class: arealjjenergisevb	energynninincountrynn	energizevbarealjj	energisevbcountrynn	arealjjfree_energynn	countrynnenergisevb	areannperk_upvb	arousevbcountrynn	bracevbareann	areannstimulatevb	arealjjenergizevb	free_energynnininarealjj	arousevbarealjj	countrynnenergynn	stimulatevbarealjj	bracevbcountrynn	countrynnenergizevb	arealjjbracevb	areannarousevb	perk_upvbarealjj	arealjjperk_upvb	countrynnstimulatevb	free_energynninincountrynn	countrynnfree_energynn	countrynnperk_upvb	areannbracevb	bracevbarealjj	arealjjstimulatevb	energizevbareann	energizevbcountrynn	perk_upvbcountrynn	arousevbareann	energisevbarealjj	areannenergizevb	arealjjenergynn	areannenergisevb	stimulatevbareann	energisevbareann	countrynnarousevb	perk_upvbareann	areannenergynn	stimulatevbcountrynn	areannfree_energynn	energynnininarealjj	arealjjarousevb	free_energynnininareann	countrynnbracevb	
+
+BE: materialNNofINcellsNNS
+EQ class: stuffnnofincellularjj	themnnsmaterialnn	cellularjjmaterialnn	stuffnnofinthemnns	theynnsstuffnn	materialnnofinthemnns	stuffnnofincellsnns	cellularjjstuffnn	materialnnofintheynns	materialnnofincellnns	stuffnnofincellnns	cellsnnsstuffnn	themnnsstuffnn	materialnnofincellularjj	theynnsmaterialnn	cellsnnsmaterialnn	cellnnsmaterialnn	cellnnsstuffnn	stuffnnofintheynns	
+
+BE: cellsNNSinINtherapyNN
+EQ class: cellularvbtherapynn	cellularjjinintherapynn	therapeuticaljjcellsnns	cellularvbtherapeuticjj	therapeuticjjtheynns	cellularjjinintherapeuticaljj	therapeuticaljjcellularvb	cellularjjinintherapeuticjj	theynnsinintherapynn	theynnsinintherapeuticaljj	cellsnnsinintherapeuticaljj	therapeuticjjcellnns	therapeuticaljjthemnns	themnnsinintherapeuticaljj	therapeuticjjthemnns	themnnsinintherapynn	cellnnsinintherapynn	theynnsinintherapeuticjj	cellsnnsinintherapeuticjj	therapeuticjjcellularjj	therapeuticjjcellsnns	therapynncellsnns	therapynncellnns	cellnnsinintherapeuticaljj	therapynncellularjj	therapeuticjjcellularvb	cellnnsinintherapeuticjj	therapeuticaljjcellnns	therapeuticaljjtheynns	cellularvbtherapeuticaljj	therapynncellularvb	therapeuticaljjcellularjj	therapynntheynns	therapynnthemnns	themnnsinintherapeuticjj	
+
+BE: beingAUXGduringINtherapyNN
+EQ class: beingauxgduringintherapeuticaljj	beingauxgduringintherapeuticjj	
+
+BE: isAUXlikeINsurgeryNN
+EQ class: beauxlikeinsurgicaljj	beauxlikeinsurgerynn	isauxlikeinsurgicaljj	
+
+BE: divideVBalthoughINareAUX
+EQ class: splitvbalthoughinbeaux	splitvbalthoughinareaux	separatevbalthoughinbeaux	separatevbalthoughinareaux	carve_upvbalthoughinbeaux	split_upvbalthoughinbeaux	carve_upvbalthoughinareaux	dissevervbalthoughinareaux	split_upvbalthoughinareaux	dividevbalthoughinbeaux	dissevervbalthoughinbeaux	
+
+BE: treatedVBNdamagingVBG
+EQ class: handlevbndamagevbg	do_byvbndamagingvbg	treatvbndamagingvbg	do_byvbndamagevbg	treatedvbndamagevbg	handlevbndamagingvbg	treatvbndamagevbg	
+
+BE: treatedVBNmakingVBG
+EQ class: handlevbndovbg	treatedvbnmakevbg	do_byvbnmakingvbg	treatvbndovbg	treatedvbndovbg	treatvbnmakingvbg	handlevbnmakingvbg	do_byvbnmakevbg	do_byvbndovbg	treatvbnmakevbg	handlevbnmakevbg	
+
+BE: usedVBNtreatVB
+EQ class: usedvbnhandlevb	employvbntreatvb	usevbndo_byvb	utilizationnnofindo_byvb	employmentnnofindo_byvb	usagennofintreatvb	usernnofinhandlevb	exercisennofindo_byvb	usennofindo_byvb	utilisevbndo_byvb	utilisevbntreatvb	usevbntreatvb	applyvbnhandlevb	utilisationnnofindo_byvb	employvbnhandlevb	employmentnnofintreatvb	utilizationnnofintreatvb	usernnofintreatvb	utilizevbndo_byvb	utilisevbnhandlevb	useablennofinhandlevb	utilizationnnofinhandlevb	usevbnhandlevb	exercisennofintreatvb	usernnofindo_byvb	usagennofindo_byvb	usablennofindo_byvb	applyvbntreatvb	utilisationnnofintreatvb	usablennofintreatvb	usagennofinhandlevb	employvbndo_byvb	utilisationnnofinhandlevb	utilizevbnhandlevb	utilizevbntreatvb	usennofintreatvb	usennofinhandlevb	useablennofintreatvb	exercisennofinhandlevb	usablennofinhandlevb	employmentnnofinhandlevb	applyvbndo_byvb	useablennofindo_byvb	usedvbndo_byvb	
+
+BE: areAUXusuallyRB
+EQ class: usualjjininbeaux	usualnessnnininbeaux	usualjjininareaux	beauxusuallyrb	usualnessnnininareaux	
+
+BE: affectsVBZonlyRB
+EQ class: impactvbzonlyrb	bear_uponvbzonlyrb	touchvbzonlyrb	touch_onvbzonlyrb	affectvbzonlyrb	bear_onvbzonlyrb	
+
+BE: treatmentNNtherapyNN
+EQ class: therapeuticjjtreatvb	therapeuticjjhandlevb	therapeuticaljjdo_byvb	interventionnntherapynn	interventionnntherapeuticaljj	therapeuticaljjhandlevb	treatmentnntherapeuticjj	treatmentnntherapeuticaljj	therapynntreatvb	therapeuticjjinterventionnn	interventionnntherapeuticjj	therapynndo_byvb	therapeuticaljjtreatmentnn	therapeuticaljjtreatvb	therapeuticjjtreatmentnn	therapynninterventionnn	therapynnhandlevb	therapynntreatmentnn	therapeuticaljjinterventionnn	therapeuticjjdo_byvb	
+

@@ -1,0 +1,106 @@
+#Getting your feelings hurt, though painful right now, will help you to toughen up in the future. 
+#(S1 (S (S (VP (VBG Getting) (S (NP (PRP$ your) (NNS feelings)) (ADJP (VBN hurt))))) (, ,) (ADVP (ADVP (RB though) (JJ painful)) (RB right) (RB now)) (, ,) (VP (MD will) (VP (VB help) (S (NP (PRP you)) (VP (TO to) (VP (VB toughen) (PRT (RP up)) (PP (IN in) (NP (DT the) (NN future)))))))) (. .)))
+#Rule:Nouns
+r1feelingsNNS
+r1futureNN
+
+#Rule:Verbs
+r2gettingVBG
+r2hurtVBN
+r2helpVB
+
+#Rule:V-PRT
+r3toughenVBupRP
+
+#Rule:Adjs
+r4painfulJJ
+
+#Rule:PRP-Noun
+r6yourPRP$feelingsNNS
+
+#Rule:HeadNoun-V
+r11youPRPtoughenVB
+
+#Rule:V-HeadNoun
+r22gettingVBGfeelingsNNS
+r22helpVByouPRP
+
+#Rule:PPinVP
+r30toughenVBinINfutureNN
+
+#Unfortunately bad things happen to all of us. 
+#(S1 (S (ADVP (RB Unfortunately)) (NP (JJ bad) (NNS things)) (VP (VBP happen) (PP (TO to) (NP (NP (DT all)) (PP (IN of) (NP (PRP us)))))) (. .)))
+#Rule:Nouns
+r1thingsNNS
+
+#Rule:Verbs
+r2happenVBP
+
+#Rule:Adjs
+r4badJJ
+
+#Rule:Adj-Noun
+r5badJJthingsNNS
+
+#Rule:HeadNoun-V
+r11thingsNNShappenVBP
+
+#Rule:PPinNP
+r26allDTofINusPRP
+
+#Rule:PPinVP
+r30happenVBPtoTOallDT
+
+#Rule:V-ADV
+r46happenVBPUnfortunatelyRB
+
+#However, if we stand back and wait awhile we will see that no matter what happens, it is a lesson and a gift from the universe. 
+#(S1 (S (ADVP (RB However)) (, ,) (SBAR (IN if) (S (NP (PRP we)) (VP (VP (VBP stand) (ADVP (RB back))) (CC and) (VP (VB wait) (SBAR (RB awhile) (S (NP (PRP we)) (VP (MD will) (VP (VB see) (NP (IN that) (DT no) (NN matter)) (SBAR (WHNP (WP what)) (S (VP (VBZ happens)))))))))))) (, ,) (NP (PRP it)) (VP (AUX is) (NP (NP (DT a) (NN lesson)) (CC and) (NP (NP (DT a) (NN gift)) (PP (IN from) (NP (DT the) (NN universe)))))) (. .)))
+#Rule:Nouns
+r1matterNN
+r1lessonNN
+r1giftNN
+r1universeNN
+
+#Rule:Verbs
+r2standVBP
+r2waitVB
+r2seeVB
+r2happensVBZ
+
+#Rule:HeadNoun-V
+r11itPRPisAUX
+r11wePRPstandVBP
+r11wePRPwaitVB
+r11wePRPseeVB
+
+#Rule:V-HeadNoun
+r21seeVBmatterNN
+r21isAUXlessonNN
+
+#Rule:PPinNP
+r26giftNNfromINuniverseNN
+
+#Rule:V-ADV
+r46isAUXHoweverRB
+r46standVBPbackRB
+
+#Wait long enough and things will change.
+#(S1 (S (S (VP (VB Wait) (ADVP (RB long) (RB enough)))) (CC and) (S (NP (NNS things)) (VP (MD will) (VP (VB change)))) (. .)))
+#Rule:Nouns
+r1thingsNNS
+
+#Rule:Verbs
+r2WaitLocationAnnotation
+r2changeVB
+
+#Rule:HeadNoun-V
+r11thingsNNSchangeVB
+
+#Rule:V-ADV
+r46WaitLocationAnnotationlongRB
+r46WaitLocationAnnotationenoughRB
+
+@lemmas-left	getting	gift	change	toughen	wait	help	future	happen	all	be	lesson	is	it	get	matter	your	you	painful	bad	universe	hurt	see	stand	Wait	things	feelings	happens	we	
+@lemmas-right	Unfortunately	However	change	toughen	wait	long	enough	future	happen	all	be	lesson	is	unfortunately	however	matter	back	us	you	universe	up	see	stand	things	feelings	
+@lemmas-center	to	of	from	in	

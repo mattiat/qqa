@@ -1,0 +1,110 @@
+#I believe you have two potions: 1) take garlic pills like 600mg /day2) take a product called HypoCol made from red yeast rice yeast - it has proven very effective. 
+#(S1 (S (NP (PRP I)) (VP (VBP believe) (SBAR (S (S (NP (PRP you)) (VP (AUX have) (NP (CD two) (NNS potions)))) (: :) (S (LST (LS 1)) (-RRB- -RRB-) (VP (VBP take) (NP (JJ garlic) (NNS pills)) (PP (IN like) (S (VP (VBG 600mg) (S (NP (NNS /day2)) (-RRB- -RRB-) (VP (VB take) (NP (NP (DT a) (NN product)) (VP (VBN called) (S (NP (NP (NNP HypoCol)) (VP (VBN made) (PP (IN from) (NP (JJ red) (NN yeast) (NN rice) (NN yeast))))))))))))))) (: -) (S (NP (PRP it)) (VP (AUX has) (VP (VBN proven) (ADJP (RB very) (JJ effective)))))))) (. .)))
+#Rule:Nouns
+r1potionsNNS
+r1pillsNNS
+r1/day2NNS
+r1productNN
+r1HypoColOrganizationAnnotation
+r1yeast rice yeastOrganizationAnnotation
+
+#Rule:Verbs
+r2believeVBP
+r2takeVBP
+r2600mgVBG
+r2takeVB
+r2calledVBN
+r2madeVBN
+r2provenVBN
+
+#Rule:Adjs
+r4garlicJJ
+r4redJJ
+r4effectiveJJ
+
+#Rule:Adj-Noun
+r5twoCDpotionsNNS
+r5garlicJJpillsNNS
+r5redJJyeast rice yeastOrganizationAnnotation
+
+#Rule:HeadNoun-V
+r11iPRPbelieveVBP
+r11youPRPhaveAUX
+r11/day2NNStakeVB
+
+#Rule:HeadNoun-V
+r12itPRPprovenVBN
+
+#Rule:V-HeadNoun
+r21haveAUXpotionsNNS
+r21takeVBPpillsNNS
+r21takeVBproductNN
+
+#Rule:V-HeadNoun
+r22600mgVBG/day2NNS
+r22calledVBNHypoColOrganizationAnnotation
+
+#Rule:V-HeadNoun(passive)
+r24calledVBNproductNN
+r24madeVBNHypoColOrganizationAnnotation
+
+#Rule:PPinVP
+r32madeVBNfromINyeast rice yeastOrganizationAnnotation
+
+#Rule:TitleRule
+r48HypoColOrganizationAnnotationproductNN
+
+#Within two weeks you can see results. 2caps 2x/day after meals. 
+#(S1 (S (PP (IN Within) (NP (CD two) (NNS weeks))) (NP (PRP you)) (VP (MD can) (VP (VB see) (S (NP (JJ results.) (NNS 2caps)) (VP (VB 2x/day) (PP (IN after) (NP (NNS meals))))))) (. .)))
+#Rule:Nouns
+r1weeksNNS
+r12capsNNS
+r1mealsNNS
+
+#Rule:Verbs
+r2seeVB
+r22x/dayVB
+
+#Rule:Adjs
+r4resultsJJ
+
+#Rule:Adj-Noun
+r5twoCDweeksNNS
+r5resultsJJ2capsNNS
+
+#Rule:HeadNoun-V
+r11youPRPseeVB
+r112capsNNS2x/dayVB
+
+#Rule:V-HeadNoun
+r22seeVB2capsNNS
+
+#Rule:PPinVP
+r302x/dayVBafterINmealsNNS
+
+#Rule:PPinS
+r36canMDwithinINweeksNNS
+
+#I know this as I am taking the prudct.
+#(S1 (S (NP (PRP I)) (VP (VBP know) (NP (DT this)) (SBAR (IN as) (S (NP (PRP I)) (VP (AUX am) (VP (VBG taking) (NP (DT the) (NN prudct))))))) (. .)))
+#Rule:Nouns
+r1prudctLocationAnnotation
+
+#Rule:Verbs
+r2knowVBP
+r2takingVBG
+
+#Rule:HeadNoun-V
+r11iPRPknowVBP
+r11iPRPtakingVBG
+
+#Rule:V-HeadNoun
+r21knowVBPthisDT
+r21takingVBGprudctLocationAnnotation
+
+#Rule:V-IN-V
+r43knowVBPasINtakingVBG
+
+@lemmas-left	call	HypoCol	can	garlic	have	proven	cap	made	believe	effective	pill	results	mg	potion	results.	meal	prove	2x/day	it	potions	600mg	you	know	taking	weeks	/day2	i	product	two	meals	red	see	prudct	take	yeast rice yeast	called	2caps	pills	day	make	week	
+@lemmas-right	HypoCol	proven	have	cap	believe	pill	potion	meal	prove	2x/day	potions	know	weeks	taking	/day2	product	meals	see	prudct	take	yeast rice yeast	2caps	pills	day	this	week	
+@lemmas-center	after	as	within	from	

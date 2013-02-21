@@ -1,0 +1,133 @@
+#I have had four MI s. 
+#(S1 (S (NP (PRP I)) (VP (AUX have) (VP (AUX had) (NP (CD four) (NNS MI)) (NP (PRP s)))) (. .)))
+#Rule:Nouns
+r1MINNS
+
+#Rule:Adj-Noun
+r5fourCDMINNS
+
+#Rule:HeadNoun-V
+r11iPRPhadAUX
+
+#Rule:V-HeadNoun
+r21hadAUXMINNS
+r21hadAUXsPRP
+
+#No. 1, I thought I had indegestion. 
+#(S1 (S (NP (NNP No.) (CD 1)) (, ,) (NP (PRP I)) (VP (VBD thought) (SBAR (S (NP (PRP I)) (VP (AUX had) (NP (NN indegestion)))))) (. .)))
+#Rule:Nouns
+r1NoNNP
+r1indegestionNN
+
+#Rule:Verbs
+r2thoughtVBD
+
+#Rule:Adj-Noun
+r51CDNoNNP
+
+#Rule:HeadNoun-V
+r11NoNNPthoughtVBD
+r11iPRPthoughtVBD
+r11iPRPhadAUX
+
+#Rule:V-HeadNoun
+r21hadAUXindegestionNN
+
+#After 14 hours wife decided to call doctor. 
+#(S1 (S (PP (IN After) (NP (CD 14) (NNS hours))) (NP (NN wife)) (VP (VBD decided) (S (VP (TO to) (VP (VB call) (NP (NN doctor)))))) (. .)))
+#Rule:Nouns
+r1hoursNNS
+r1wifeNN
+r1doctorNN
+
+#Rule:Verbs
+r2decidedVBD
+r2callVB
+
+#Rule:Adj-Noun
+r514CDhoursNNS
+
+#Rule:HeadNoun-V
+r11wifeNNdecidedVBD
+
+#Rule:V-HeadNoun
+r21callVBdoctorNN
+
+#Rule:PPinS
+r36decidedVBDafterINhoursNNS
+
+#Rule:V-V
+r44decidedVBDcallVB
+
+#Nos.2 and 4, just felt  uncomfortable. 
+#(S1 (S (NP (CD Nos.2) (CC and) (CD 4)) (, ,) (ADVP (RB just)) (VP (VBD felt) (ADJP (JJ uncomfortable))) (. .)))
+#Rule:Verbs
+r2feltVBD
+
+#Rule:Adjs
+r4uncomfortableJJ
+
+#Rule:Adj-Noun
+r54CDNos.2CD
+
+#Rule:HeadNoun-V
+r11Nos.2CDfeltVBD
+
+#Rule:V-ADV
+r46feltVBDjustRB
+
+#No.3. 
+#(S1 (FRAG (ADJP (JJ No.3)) (. .)))
+#Rule:Adjs
+r4No.3JJ
+
+#Felt very tired and collapsed unconscious. 
+#(S1 (S (VP (VBD Felt) (ADJP (ADJP (RB very) (JJ tired)) (CC and) (ADJP (JJ collapsed) (JJ unconscious)))) (. .)))
+#Rule:Verbs
+r2FeltPersonAnnotation
+
+#Rule:Adjs
+r4tiredJJ
+r4collapsedJJ
+r4unconsciousJJ
+
+#Never had the pain in my left are and tight chest feelings. 
+#(S1 (SINV (ADVP (RB Never)) (VP (AUX had)) (NP (DT the) (NN pain) (SBAR (IN in) (S (NP (PRP$ my) (NN left)) (VP (AUX are) (ADVP (CC and) (RB tight)) (NP (NN chest) (NNS feelings)))))) (. .)))
+#Rule:Nouns
+r1painNN
+r1leftNN
+r1chestNN
+r1feelingsNNS
+
+#Rule:PRP-Noun
+r6myPRP$leftNN
+
+#Rule:N-HeadNoun
+r8chestNNfeelingsNNS
+
+#Rule:HeadNoun-V
+r11leftNNareAUX
+
+#Rule:V-HeadNoun
+r21areAUXfeelingsNNS
+
+#Rule:V-ADV
+r46areAUXtightRB
+
+#Rule:IS-RULE
+r47feelingsNNSleftNN
+
+#Differs with everybody.
+#(S1 (S (VP (VBZ Differs) (PP (IN with) (NP (NN everybody)))) (. .)))
+#Rule:Nouns
+r1everybodyNN
+
+#Rule:Verbs
+r2differsVBZ
+
+#Rule:PPinVP
+r30differsVBZwithINeverybodyNN
+
+@lemmas-left	decide	call	have	uncomfortable	chest	pain	thought	Felt	14	indegestion	doctor	differs	are	nos.2	No.3	MI	left	four	everybody	had	mi	be	collapse	think	hours	Nos.2	no.	No	my	collapsed	i	decided	no.3	differ	1	felt	wife	unconscious	4	tired	feelings	
+@lemmas-right	decide	call	have	thought	indegestion	doctor	nos.2	are	MI	left	everybody	had	mi	be	just	think	hours	Nos.2	no.	No	decided	s	felt	tight	feelings	
+@lemmas-center	after	with	

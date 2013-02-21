@@ -1,0 +1,1082 @@
+#I guess it is considered relevant just like wrestling, tae-kwon-do,fencing and other sports!
+#(S1 (S (NP (PRP I)) (VP (VBP guess) (SBAR (S (NP (PRP it)) (VP (AUX is) (VP (VBN considered) (S (ADJP (JJ relevant)) (PP (ADVP (RB just)) (IN like) (NP (NN wrestling) (, ,) (NN tae-kwon-do) (, ,) (NN fencing) (CC and) (JJ other) (NNS sports))))))))) (. !)))
+#Rule:Nouns
+r1wrestlingNN
+r1tae-kwon-doNN
+r1fencingNN
+r1sportsNNS
+
+#Rule:Verbs
+r2guessVBP
+r2consideredVBN
+
+#Rule:Adjs
+r4relevantJJ
+r4otherJJ
+
+#Rule:Adj-Noun
+r5otherJJsportsNNS
+
+#Rule:HeadNoun-V
+r11iPRPguessVBP
+
+#Rule:V-HeadNoun(passive)
+r23consideredVBNitPRP
+
+#Rule:PPinS
+r36relevantJJlikeINsportsNNS
+
+# It entertains even as some people get hurt.
+#(S1 (S (NP (PRP It)) (VP (VBZ entertains) (SBAR (RB even) (IN as) (S (NP (DT some) (NNS people)) (VP (VBP get) (VP (VBN hurt)))))) (. .)))
+#Rule:Nouns
+r1peopleNNS
+
+#Rule:Verbs
+r2entertainsVBZ
+r2getVBP
+r2hurtVBN
+
+#Rule:HeadNoun-V
+r11itPRPentertainsVBZ
+r11peopleNNSgetVBP
+
+#Rule:V-HeadNoun(passive)
+r24hurtVBNpeopleNNS
+
+#Rule:V-IN-V
+r43entertainsVBZasINgetVBP
+r43entertainsVBZasINhurtVBN
+
+# I am not a psychologist but I think many people enjoy watching such sport where noses are bloodied, ears bitten and  physical dominance asserted!
+#(S1 (S (S (NP (PRP I)) (VP (AUX am) (RB not) (NP (DT a) (NN psychologist)))) (CC but) (S (NP (PRP I)) (VP (VBP think) (SBAR (S (NP (JJ many) (NNS people)) (VP (VBP enjoy) (S (VP (VBG watching) (NP (JJ such) (NN sport)) (SBAR (WHADVP (WRB where)) (S (NP (NNS noses)) (VP (AUX are) (VP (VBN bloodied) (, ,) (S (S (NP (NNS ears)) (VP (VBN bitten))) (CC and) (S (NP (JJ physical) (NN dominance)) (VP (VBD asserted))))))))))))))) (. !)))
+#Rule:Nouns
+r1psychologistNN
+r1peopleNNS
+r1sportNN
+r1nosesNNS
+r1earsNNS
+r1dominanceNN
+
+#Rule:Verbs
+r2thinkVBP
+r2enjoyVBP
+r2watchingVBG
+r2bloodiedVBN
+r2bittenVBN
+r2assertedVBD
+
+#Rule:Adjs
+r4manyJJ
+r4suchJJ
+r4physicalJJ
+
+#Rule:Adj-Noun
+r5manyJJpeopleNNS
+r5suchJJsportNN
+r5physicalJJdominanceNN
+
+#Rule:HeadNoun-V
+r11iPRPamAUX
+r11iPRPthinkVBP
+r11peopleNNSenjoyVBP
+r11dominanceNNassertedVBD
+
+#Rule:V-HeadNoun
+r21amAUXpsychologistNN
+r21watchingVBGsportNN
+
+#Rule:V-HeadNoun(passive)
+r23bloodiedVBNnosesNNS
+
+#Rule:V-HeadNoun(passive)
+r24bittenVBNearsNNS
+
+#Rule:V-ADV
+r46amAUXnotRB
+
+# In short, there is some sadistic pleasure we derive from seeing others thumped into submission.
+#(S1 (S (PP (IN In) (ADJP (JJ short))) (, ,) (NP (EX there)) (VP (AUX is) (NP (NP (DT some) (JJ sadistic) (NN pleasure)) (SBAR (S (NP (PRP we)) (VP (VBP derive) (PP (IN from) (S (VP (VBG seeing) (S (NP (NNS others)) (VP (VBN thumped) (PP (IN into) (NP (NN submission))))))))))))) (. .)))
+#Rule:Nouns
+r1pleasureNN
+r1othersNNS
+r1submissionOrganizationAnnotation
+
+#Rule:Verbs
+r2deriveVBP
+r2seeingVBG
+r2thumpedVBN
+
+#Rule:Adjs
+r4shortJJ
+r4sadisticJJ
+
+#Rule:Adj-Noun
+r5sadisticJJpleasureNN
+
+#Rule:HeadNoun-V
+r11thereEXisAUX
+r11wePRPderiveVBP
+
+#Rule:NP(NP(z) SBAR(S(NP(x)VP(y))))
+r19deriveVBPpleasureNN
+
+#Rule:V-HeadNoun
+r21isAUXpleasureNN
+
+#Rule:V-HeadNoun
+r22seeingVBGothersNNS
+
+#Rule:V-HeadNoun(passive)
+r24thumpedVBNothersNNS
+
+#Rule:PPinVP
+r32thumpedVBNintoINsubmissionOrganizationAnnotation
+
+# We have bull-fights, cock-fights, rodeo etc.
+#(S1 (S (NP (PRP We)) (VP (AUX have) (NP (NNS bull-fights) (, ,) (NNS cock-fights) (, ,) (NN rodeo) (NN etc))) (. .)))
+#Rule:Nouns
+r1bull-fightsNNS
+r1cock-fightsNNS
+r1rodeoNN
+r1etcNN
+
+#Rule:N-HeadNoun
+r8rodeoNNetcNN
+
+#Rule:HeadNoun-V
+r11wePRPhaveAUX
+
+#Rule:V-HeadNoun
+r21haveAUXetcNN
+
+# Hence, boxing also appeals to some primordial pleasures in us as distinctly human.
+#(S1 (S (ADVP (RB Hence)) (, ,) (NP (NN boxing)) (ADVP (RB also)) (VP (NNS appeals) (PP (TO to) (NP (NP (DT some) (JJ primordial) (NNS pleasures)) (PP (IN in) (NP (PRP us))))) (PP (IN as) (ADJP (RB distinctly) (JJ human)))) (. .)))
+#Rule:Nouns
+r1boxingNN
+r1appealsNNS
+r1pleasuresNNS
+
+#Rule:Adjs
+r4primordialJJ
+r4humanJJ
+
+#Rule:Adj-Noun
+r5primordialJJpleasuresNNS
+
+#Rule:PPinNP
+r26pleasuresNNSinINusPRP
+
+# The degree to which we react varies though.
+#(S1 (S (NP (NP (DT The) (NN degree)) (SBAR (WHPP (TO to) (WHNP (WDT which))) (S (NP (PRP we)) (VP (VBP react))))) (VP (VBZ varies) (ADVP (RB though))) (. .)))
+#Rule:Nouns
+r1degreeNN
+
+#Rule:Verbs
+r2reactVBP
+r2variesVBZ
+
+#Rule:HeadNoun-V
+r11degreeNNvariesVBZ
+r11wePRPreactVBP
+
+#Rule:V-ADV
+r46variesVBZthoughRB
+
+# There are animals which also live in societies but they do not take pleasure in fights except over territory and sustenance (procreation and food).
+#(S1 (S (S (NP (EX There)) (VP (AUX are) (NP (NP (NNS animals)) (SBAR (WHNP (WDT which)) (S (ADVP (RB also)) (VP (VBP live) (PP (IN in) (NP (NNS societies))))))))) (CC but) (S (NP (PRP they)) (VP (AUX do) (RB not) (VP (VB take) (NP (NP (NN pleasure)) (PP (IN in) (NP (NNS fights)))) (PP (IN except) (PP (IN over) (NP (NP (NN territory)) (CC and) (NP (NP (NN sustenance)) (PRN (-LRB- -LRB-) (NP (NP (NN procreation)) (CC and) (NP (NN food))) (-RRB- -RRB-))))))))) (. .)))
+#Rule:Nouns
+r1animalsNNS
+r1societiesNNS
+r1pleasureNN
+r1fightsNNS
+r1territoryNN
+r1sustenanceNN
+r1procreationNN
+r1foodNN
+
+#Rule:Verbs
+r2liveVBP
+r2takeVB
+
+#Rule:HeadNoun-V
+r11thereEXareAUX
+r11theyPRPtakeVB
+
+#Rule:HeadNoun-(who/that)-V
+r14animalsNNSliveVBP
+
+#Rule:V-HeadNoun
+r21areAUXanimalsNNS
+r21takeVBpleasureNN
+
+#Rule:PPinNP
+r26pleasureNNinINfightsNNS
+
+#Rule:PPinVP
+r30liveVBPinINsocietiesNNS
+
+#Rule:PPComboInVP
+r34takeVBexceptINterritoryNN
+r34takeVBexceptINsustenanceNN
+
+#Rule:V-ADV
+r46liveVBPalsoRB
+r46doAUXnotRB
+
+# And even then, others of their kind do not take pleasure in watching those bruising fights for pleasure s sake.
+#(S1 (S (CC And) (ADVP (RB even) (RB then)) (, ,) (NP (NP (NNS others)) (PP (IN of) (NP (PRP$ their) (NN kind)))) (VP (AUX do) (RB not) (VP (VB take) (NP (NP (NN pleasure)) (PP (IN in) (S (VP (VBG watching) (NP (DT those) (JJ bruising) (NNS fights)) (PP (IN for) (NP (NN pleasure) (NNP s) (NN sake))))))))) (. .)))
+#Rule:Nouns
+r1othersNNS
+r1kindNN
+r1pleasureNN
+r1fightsNNS
+r1pleasureNN
+r1s sakeOrganizationAnnotation
+
+#Rule:Verbs
+r2takeVB
+r2watchingVBG
+
+#Rule:Adjs
+r4bruisingJJ
+
+#Rule:Adj-Noun
+r5bruisingJJfightsNNS
+
+#Rule:PRP-Noun
+r6theirPRP$kindNN
+
+#Rule:N-HeadNoun
+r8pleasureNNs sakeOrganizationAnnotation
+
+#Rule:HeadNoun-V
+r11othersNNStakeVB
+
+#Rule:V-HeadNoun
+r21takeVBpleasureNN
+r21watchingVBGfightsNNS
+
+#Rule:PPinNP
+r26othersNNSofINkindNN
+
+#Rule:PPinVP
+r30watchingVBGforINs sakeOrganizationAnnotation
+
+#Rule:V-ADV
+r46doAUXevenRB
+r46doAUXthenRB
+r46doAUXnotRB
+
+# But we humans go as far as rewarding the fighters!
+#(S1 (S (CC But) (NP (PRP we) (NNS humans)) (VP (VBP go) (ADVP (ADVP (RB as) (RB far)) (PP (IN as) (S (VP (VBG rewarding) (NP (DT the) (NNS fighters))))))) (. !)))
+#Rule:Nouns
+r1humansNNS
+r1fightersNNS
+
+#Rule:Verbs
+r2goVBP
+r2rewardingVBG
+
+#Rule:HeadNoun-V
+r11humansNNSgoVBP
+
+#Rule:V-HeadNoun
+r21rewardingVBGfightersNNS
+
+#Rule:V-ADV
+r46goVBPasRB
+r46goVBPfarRB
+
+# Yes, boxing as a sport is very relevant in society today because we are a human society with imagination, uniquely endowed with the abilities to hurt, draw blood, and attach value to dominance while sneering at weakness..Joh
+#(S1 (S (INTJ (UH Yes)) (, ,) (VP (VBG boxing) (PP (IN as) (NP (DT a) (NN sport)))) (VP (AUX is) (ADJP (RB very) (JJ relevant) (PP (IN in) (NP (NN society)))) (NP (NN today)) (SBAR (IN because) (S (NP (PRP we)) (VP (AUX are) (NP (NP (DT a) (JJ human) (NN society)) (PP (IN with) (NP (NN imagination))) (, ,) (VP (ADVP (RB uniquely)) (VBN endowed) (PP (IN with) (NP (DT the) (NNS abilities))) (S (VP (TO to) (VP (VP (VB hurt)) (, ,) (VP (VB draw) (NP (NN blood))) (, ,) (CC and) (VP (VB attach) (NP (NN value)) (PP (TO to) (NP (NN dominance))) (SBAR (IN while) (S (VP (VBG sneering) (PP (IN at) (NP (NP (NN weakness)) (VP (VBG ..) (NP (NNP Joh))))))))))))))))))))
+#Rule:Nouns
+r1sportNN
+r1societyNN
+r1todayNN
+r1societyNN
+r1imaginationNN
+r1abilitiesNNS
+r1bloodNN
+r1valueNN
+r1dominanceNN
+r1weaknessNN
+r1John AmosPersonAnnotation
+
+#Rule:Verbs
+r2boxingVBG
+r2endowedVBN
+r2hurtVB
+r2drawVB
+r2attachVB
+r2sneeringVBG
+r2..VBG
+
+#Rule:Adjs
+r4relevantJJ
+r4humanJJ
+
+#Rule:Adj-Noun
+r5humanJJsocietyNN
+
+#Rule:HeadNoun-V
+r11wePRPareAUX
+r11weaknessNN..VBG
+
+#Rule:V-HeadNoun
+r21isAUXtodayNN
+r21areAUXsocietyNN
+r21drawVBbloodNN
+r21attachVBvalueNN
+r21..VBGJohn AmosPersonAnnotation
+
+#Rule:V-HeadNoun(passive)
+r24endowedVBNsocietyNN
+
+#Rule:V-ADJ
+r25isAUXrelevantJJ
+
+#Rule:PPinNP
+r26societyNNwithINimaginationNN
+
+#Rule:PPinVP
+r30boxingVBGasINsportNN
+r30attachVBtoTOdominanceNN
+r30sneeringVBGatINweaknessNN
+
+#Rule:PPinVP
+r32endowedVBNwithINabilitiesNNS
+
+#Rule:PPinADJP
+r37relevantJJinINsocietyNN
+
+#Rule:V-IN-V
+r43isAUXbecauseINareAUX
+r43attachVBwhileINsneeringVBG
+
+#Rule:V-ADV
+r46endowedVBNuniquelyRB
+
+#John Amos perhaps puts it better: The year was 1982, a cold, gray Saturday afternoon in November.
+#(S1 (S (S (NP (NNP John) (NNP Amos)) (ADVP (RB perhaps)) (VP (VBZ puts) (NP (PRP it)) (ADVP (RBR better)))) (: :) (S (NP (DT The) (NN year)) (VP (AUX was) (NP (NP (CD 1982)) (, ,) (NP (NP (DT a) (JJ cold) (, ,) (JJ gray) (NNP Saturday) (NN afternoon)) (PP (IN in) (NP (NNP November))))))) (. .)))
+#Rule:Nouns
+r1John AmosPersonAnnotation
+r1yearNN
+r1SaturdayNNP
+r1afternoonNN
+r1NovemberNNP
+
+#Rule:Verbs
+r2putsVBZ
+
+#Rule:Adjs
+r4coldJJ
+r4grayJJ
+
+#Rule:Adj-Noun
+r5coldJJafternoonNN
+r5grayJJafternoonNN
+
+#Rule:N-HeadNoun
+r8SaturdayNNPafternoonNN
+
+#Rule:N-ApposN
+r101982CDafternoonNN
+
+#Rule:HeadNoun-V
+r11John AmosPersonAnnotationputsVBZ
+r11yearNNwasAUX
+
+#Rule:V-HeadNoun
+r21putsVBZitPRP
+r21wasAUX1982CD
+
+#Rule:PPinNP
+r26afternoonNNinINNovemberNNP
+
+#Rule:V-ADV
+r46putsVBZperhapsRB
+
+#Rule:IS-RULE
+r471982CDyearNN
+
+# I d finished grading papers and didn t have anything better to do.
+#(S1 (S (NP (PRP I)) (ADVP (LS d)) (VP (VBD finished) (SBAR (S (NP (NP (JJ grading) (NNS papers)) (CC and) (NP (JJ didn) (NNS t))) (VP (AUX have) (NP (NP (NN anything)) (ADJP (RB better) (S (VP (TO to) (VP (AUX do)))))))))) (. .)))
+#Rule:Nouns
+r1papersNNS
+r1tNNS
+r1anythingNN
+
+#Rule:Verbs
+r2finishedVBD
+
+#Rule:Adjs
+r4gradingJJ
+r4didnJJ
+
+#Rule:Adj-Noun
+r5gradingJJpapersNNS
+r5didnJJtNNS
+
+#Rule:HeadNoun-V
+r11iPRPfinishedVBD
+r11papersNNShaveAUX
+r11tNNShaveAUX
+
+#Rule:V-HeadNoun
+r21haveAUXanythingNN
+
+# Ray Boom Boom Mancini was fighting a Korean boxer named Duk Koo Kim at Caesar s Palace, and so I watched.
+#(S1 (S (S (NP (NNP Ray) (NN Boom) (NN Boom) (NNP Mancini)) (VP (AUX was) (VP (VBG fighting) (NP (NP (DT a) (JJ Korean) (NN boxer)) (VP (VBN named) (NP (NNP Duk) (NNP Koo) (NNP Kim)))) (PP (IN at) (NP (NNP Caesar) (NNP s) (NNP Palace)))))) (, ,) (CC and) (RB so) (S (NP (PRP I)) (VP (VBD watched))) (. .)))
+#Rule:Nouns
+r1Ray Boom Boom ManciniPersonAnnotation
+r1boxerNN
+r1Duk Koo KimPersonAnnotation
+r1Caesar sOrganizationAnnotation
+r1PalaceNNP
+
+#Rule:Verbs
+r2fightingVBG
+r2namedVBN
+r2watchedVBD
+
+#Rule:Adjs
+r4KoreanJJ
+
+#Rule:Adj-Noun
+r5KoreanJJboxerNN
+
+#Rule:N-HeadNoun
+r8Caesar sOrganizationAnnotationPalaceNNP
+
+#Rule:HeadNoun-V
+r11Ray Boom Boom ManciniPersonAnnotationfightingVBG
+r11iPRPwatchedVBD
+
+#Rule:V-HeadNoun
+r21fightingVBGboxerNN
+r21namedVBNDuk Koo KimPersonAnnotation
+
+#Rule:V-HeadNoun(passive)
+r24namedVBNboxerNN
+
+#Rule:PPinVP
+r30fightingVBGatINPalaceNNP
+
+#Rule:TitleRule
+r48Duk Koo KimPersonAnnotationboxerNN
+
+# A vicious, compact hook from Mancini in round 14 hit Kim flush on the temple.
+#(S1 (S (NP (NP (DT A) (JJ vicious) (, ,) (JJ compact) (NN hook)) (PP (IN from) (NP (NP (NNP Mancini)) (PP (IN in) (NP (NN round) (CD 14)))))) (VP (VBD hit) (ADJP (NNP Kim) (JJ flush)) (PP (IN on) (NP (DT the) (NN temple)))) (. .)))
+#Rule:Nouns
+r1hookNN
+r1ManciniPersonAnnotation
+r1roundNN
+r1KimPersonAnnotation
+r1templeOrganizationAnnotation
+
+#Rule:Verbs
+r2hitVBD
+
+#Rule:Adjs
+r4viciousJJ
+r4compactJJ
+r4flushJJ
+
+#Rule:Adj-Noun
+r5viciousJJhookNN
+r5compactJJhookNN
+r514CDroundNN
+
+#Rule:HeadNoun-V
+r11hookNNhitVBD
+
+#Rule:PPinNP
+r26hookNNfromINManciniPersonAnnotation
+r26ManciniPersonAnnotationinINroundNN
+
+#Rule:PPinVP
+r30hitVBDonINtempleOrganizationAnnotation
+
+# He crumpled and dropped to the canvas.
+#(S1 (S (NP (PRP He)) (VP (VBD crumpled) (CC and) (VBD dropped) (PP (TO to) (NP (DT the) (NN canvas)))) (. .)))
+#Rule:Nouns
+r1canvasNN
+
+#Rule:Verbs
+r2crumpledVBD
+r2droppedVBD
+
+#Rule:HeadNoun-V
+r11hePRPcrumpledVBD
+
+#Rule:PPinVP
+r30crumpledVBDtoTOcanvasNN
+
+# I thought to myself, That s it.
+#(S1 (S (S (NP (PRP I)) (VP (VBD thought) (PP (TO to) (NP (PRP myself))))) (, ,) (NP (DT That)) (VP (VBZ s) (NP (PRP it))) (. .)))
+#Rule:Verbs
+r2thoughtVBD
+r2s LocationAnnotation
+
+#Rule:HeadNoun-V
+r11thatDTs LocationAnnotation
+r11iPRPthoughtVBD
+
+#Rule:PPinVP
+r30thoughtVBDtoTOmyselfPRP
+
+# He won t get up now.
+#(S1 (S (NP (PRP He)) (VP (VBD won) (S (NP (NNS t)) (VP (VB get) (PRT (RP up)) (NP (RB now))))) (. .)))
+#Rule:Nouns
+r1tLocationAnnotation
+
+#Rule:Verbs
+r2wonVBD
+
+#Rule:V-PRT
+r3getVBupRP
+
+#Rule:HeadNoun-V
+r11hePRPwonVBD
+r11tLocationAnnotationgetVB
+
+#Rule:V-HeadNoun
+r21getVBnowRB
+
+#Rule:V-HeadNoun
+r22wonVBDtLocationAnnotation
+
+# Less than a week later, Duk Koo Kim died in a Nevada hospital.
+#(S1 (S (ADVP (NP (QP (JJR Less) (IN than) (DT a)) (NN week)) (RB later)) (, ,) (NP (NNP Duk) (NNP Koo) (NNP Kim)) (VP (VBD died) (PP (IN in) (NP (DT a) (NNP Nevada) (NN hospital)))) (. .)))
+#Rule:Nouns
+r1weekNN
+r1Duk Koo KimPersonAnnotation
+r1NevadaLocationAnnotation
+r1hospitalNN
+
+#Rule:Verbs
+r2diedVBD
+
+#Rule:Adjs
+r4LessJJR
+
+#Rule:Adj-Noun
+r5LessJJRweekNN
+
+#Rule:N-HeadNoun
+r8NevadaLocationAnnotationhospitalNN
+
+#Rule:HeadNoun-V
+r11Duk Koo KimPersonAnnotationdiedVBD
+
+#Rule:PPinVP
+r30diedVBDinINhospitalNN
+
+#Rule:V-ADV
+r46diedVBDlaterRB
+
+# Seeing a man killed in the ring should have put me off the sport for good.
+#(S1 (S (S (VP (VBG Seeing) (NP (NP (DT a) (NN man)) (VP (VBN killed) (PP (IN in) (NP (DT the) (NN ring))))))) (VP (MD should) (VP (AUX have) (VP (VBN put) (NP (PRP me)) (PP (IN off) (NP (DT the) (NN sport))) (PP (IN for) (NP (NN good)))))) (. .)))
+#Rule:Nouns
+r1manNN
+r1ringNN
+r1sportNN
+r1goodNN
+
+#Rule:Verbs
+r2seeingVBG
+r2killedVBN
+r2putVBN
+
+#Rule:V-HeadNoun
+r21seeingVBGmanNN
+r21putVBNmePRP
+
+#Rule:V-HeadNoun(passive)
+r24killedVBNmanNN
+
+#Rule:PPinVP
+r32killedVBNinINringNN
+r32putVBNoffINsportNN
+r32putVBNforINgoodNN
+
+# Certainly, that fight made continuing as a boxing fan hard to justify.
+#(S1 (S (ADVP (RB Certainly)) (, ,) (NP (DT that) (NN fight)) (VP (VBD made) (S (VP (VBG continuing) (PP (IN as) (NP (NP (DT a) (VBG boxing) (NN fan)) (ADJP (RB hard) (S (VP (TO to) (VP (VB justify)))))))))) (. .)))
+#Rule:Nouns
+r1fightNN
+r1fanNN
+
+#Rule:Verbs
+r2madeVBD
+r2continuingVBG
+r2boxingVBG
+r2justifyVB
+
+#Rule:Adj-Noun
+r5boxingVBGfanNN
+
+#Rule:HeadNoun-V
+r11fightNNmadeVBD
+
+#Rule:PPinVP
+r30continuingVBGasINfanNN
+
+#Rule:V-ADV
+r46madeVBDCertainlyRB
+
+# But vicarious violence is addictive;
+#(S1 (S (CC But) (S (NP (JJ vicarious) (NN violence)) (VP (AUX is) (ADJP (JJ addictive)))) (: ;)))
+#Rule:Nouns
+r1violenceNN
+
+#Rule:Adjs
+r4vicariousJJ
+r4addictiveJJ
+
+#Rule:Adj-Noun
+r5vicariousJJviolenceNN
+
+#Rule:HeadNoun-V
+r11violenceNNisAUX
+
+#Rule:V-ADJ
+r25isAUXaddictiveJJ
+
+# and so I still watched, occasionally, though never again in quite the same way.
+#(S1 (S (CC and) (RB so) (NP (PRP I)) (ADVP (RB still)) (VP (VBD watched) (, ,) (ADVP (RB occasionally)) (, ,) (SBAR (IN though) (FRAG (RB never) (ADVP (RB again)) (PP (IN in) (NP (PDT quite) (DT the) (JJ same) (NN way)))))) (. .)))
+#Rule:Nouns
+r1wayNN
+
+#Rule:Verbs
+r2watchedVBD
+
+#Rule:Adjs
+r4sameJJ
+
+#Rule:Adj-Noun
+r5sameJJwayNN
+
+#Rule:HeadNoun-V
+r11iPRPwatchedVBD
+
+#Rule:V-ADV
+r46watchedVBDstillRB
+r46watchedVBDoccasionallyRB
+
+# Boxing is a guilty pleasure.
+#(S1 (S (NP (NN Boxing)) (VP (AUX is) (NP (DT a) (JJ guilty) (NN pleasure))) (. .)))
+#Rule:Nouns
+r1BoxingNN
+r1pleasureNN
+
+#Rule:Adjs
+r4guiltyJJ
+
+#Rule:Adj-Noun
+r5guiltyJJpleasureNN
+
+#Rule:HeadNoun-V
+r11BoxingNNisAUX
+
+#Rule:V-HeadNoun
+r21isAUXpleasureNN
+
+#Rule:IS-RULE
+r47pleasureNNBoxingNN
+
+# After this fight, watching yielded far more guilt than pleasure..As 
+#(S1 (S (PP (IN After) (NP (DT this) (NN fight))) (, ,) (S (VP (VBG watching))) (VP (VBD yielded) (NP (NP (ADJP (RB far) (JJR more)) (NN guilt)) (PP (IN than) (NP (NN pleasure) (NNS ..) (RB As)))))))
+#Rule:Nouns
+r1fightNN
+r1guiltNN
+r1pleasureNN
+r1..NNS
+
+#Rule:Verbs
+r2watchingVBG
+r2yieldedVBD
+
+#Rule:Adjs
+r4moreJJR
+
+#Rule:Adj-Noun
+r5moreJJRguiltNN
+
+#Rule:N-HeadNoun
+r8pleasureNN..NNS
+
+#Rule:V-HeadNoun
+r21yieldedVBDguiltNN
+
+#Rule:PPinNP
+r26guiltNNthanIN..NNS
+
+#Rule:PPinS
+r36yieldedVBDafterINfightNN
+
+#As a kid, I d read and heard stories about the great fighters of the 30s, 40s, and 50s: Jack Dempsey, Gene Tunney, Joe Louis, Rocky Marciano, Jersey Joe Walcott and the like. But they were mostly just names. I knew bits and pieces of their larger-than-life history and had seen a few of their pictures in books. But I didn t quite know what they were about..
+#(S1 (S (PP (IN As) (NP (DT a) (NN kid))) (, ,) (S (NP (PRP I)) (ADVP (LS d)) (VP (VB read) (CC and) (VBD heard) (NP (NP (NNS stories)) (PP (IN about) (NP (NP (NP (NP (DT the) (JJ great) (NNS fighters)) (PP (IN of) (NP (DT the) (NNS 30s)))) (, ,) (NP (NNS 40s)) (, ,) (CC and) (NP (NNS 50s))) (: :) (NP (NP (NNP Jack) (NNP Dempsey)) (, ,) (NP (NNP Gene) (NNP Tunney)) (, ,) (NP (NNP Joe) (NNP Louis)) (, ,) (NP (NNP Rocky) (NNP Marciano)) (, ,) (NP (NNP Jersey) (NNP Joe) (NNP Walcott)) (CC and) (NP (DT the) (FW like.)))))))) (CC But) (S (NP (PRP they)) (VP (VP (AUX were) (ADJP (RB mostly) (RB just) (JJ names.) (SBAR (S (NP (PRP I)) (VP (VBD knew) (NP (NP (NNS bits) (CC and) (NNS pieces)) (PP (IN of) (NP (PRP$ their) (JJ larger-than-life) (NN history))))))))) (CC and) (VP (AUX had) (VP (VBN seen) (NP (DT a) (JJ few)) (PP (IN of) (NP (PRP$ their) (NNS pictures))) (PP (IN in) (NP (NN books.))) (S (CC But) (NP (PRP I)) (VP (VB didn) (S (NP (NNS t)) (ADVP (RB quite)) (VP (VB know) (SBAR (WHNP (WP what)) (S (NP (PRP they)) (VP (AUX were) (ADVP (RB about)))))) (. .)))))))) (. .)))
+#Rule:Nouns
+r1kidNN
+r1storiesNNS
+r1fightersNNS
+r130sNNS
+r140sNNS
+r150sNNS
+r1Jack DempseyPersonAnnotation
+r1Gene TunneyPersonAnnotation
+r1Joe LouisPersonAnnotation
+r1Rocky MarcianoOrganizationAnnotation
+r1Jersey Joe WalcottPersonAnnotation
+r1bitsNNS
+r1piecesNNS
+r1historyNN
+r1picturesNNS
+r1booksNN
+r1tNNS
+
+#Rule:Verbs
+r2readVB
+r2heardVBD
+r2knewVBD
+r2seenVBN
+r2didnVB
+r2knowVB
+
+#Rule:Adjs
+r4greatJJ
+r4namesJJ
+r4larger-than-lifeJJ
+r4fewJJ
+
+#Rule:Adj-Noun
+r5greatJJfightersNNS
+r5larger-than-lifeJJhistoryNN
+
+#Rule:PRP-Noun
+r6theirPRP$historyNN
+r6theirPRP$picturesNNS
+
+#Rule:N-ApposN
+r10fightersNNS40sNNS
+r10Jack DempseyPersonAnnotationGene TunneyPersonAnnotation
+
+#Rule:HeadNoun-V
+r11iPRPreadVB
+r11theyPRPwereAUX
+r11IPersonAnnotationknewVBD
+r11But IPersonAnnotationdidnVB
+r11tNNSknowVB
+r11theyPRPwereAUX
+
+#Rule:HeadNoun-V
+r12theyPRPseenVBN
+
+#Rule:V-HeadNoun
+r21readVBstoriesNNS
+r21knewVBDbitsNNS
+r21seenVBNfewJJ
+
+#Rule:V-HeadNoun
+r22seenVBNBut IPersonAnnotation
+r22didnVBtNNS
+
+#Rule:V-ADJ
+r25wereAUXnamesJJ
+
+#Rule:PPinNP
+r26storiesNNSaboutINfightersNNS
+r26storiesNNSaboutIN40sNNS
+r26storiesNNSaboutIN50sNNS
+r26storiesNNSaboutINJack DempseyPersonAnnotation
+r26storiesNNSaboutINGene TunneyPersonAnnotation
+r26storiesNNSaboutINJoe LouisPersonAnnotation
+r26storiesNNSaboutINRocky MarcianoOrganizationAnnotation
+r26storiesNNSaboutINJersey Joe WalcottPersonAnnotation
+r26storiesNNSaboutINlikeFW
+r26fightersNNSofIN30sNNS
+r26bitsNNSofINhistoryNN
+
+#Rule:PPinVP
+r32seenVBNofINpicturesNNS
+r32seenVBNinINbooksNN
+
+#Rule:PPinS
+r36readVBasINkidNN
+
+#Rule:V-ADV
+r46knowVBquiteRB
+r46wereAUXaboutRB
+
+#I didn t really become a boxing fan until 1971, when TV held a tournament of sorts aimed at choosing a worthy opponent for the former champ, Muhammad Ali.
+#(S1 (S (NP (PRP I)) (VP (MD didn) (RB t) (ADVP (RB really)) (VP (VB become) (NP (DT a) (VBG boxing) (NN fan)) (PP (IN until) (NP (NP (CD 1971)) (, ,) (SBAR (WHADVP (WRB when)) (S (NP (NN TV)) (VP (VBD held) (NP (NP (DT a) (NN tournament)) (PP (IN of) (NP (NP (NNS sorts)) (VP (VBN aimed) (PP (IN at) (S (VP (VBG choosing) (NP (NP (DT a) (JJ worthy) (NN opponent)) (PP (IN for) (NP (NP (DT the) (JJ former) (NN champ)) (, ,) (NP (NNP Muhammad) (NNP Ali))))))))))))))))))) (. .)))
+#Rule:Nouns
+r1fanNN
+r1TVNN
+r1tournamentNN
+r1sortsNNS
+r1opponentNN
+r1champNN
+r1Muhammad AliPersonAnnotation
+
+#Rule:Verbs
+r2becomeVB
+r2boxingVBG
+r2heldVBD
+r2aimedVBN
+r2choosingVBG
+
+#Rule:Adjs
+r4worthyJJ
+r4formerJJ
+
+#Rule:Adj-Noun
+r5boxingVBGfanNN
+r5worthyJJopponentNN
+r5formerJJchampNN
+
+#Rule:N-ApposN
+r10champNNMuhammad AliPersonAnnotation
+
+#Rule:HeadNoun-V
+r11iPRPbecomeVB
+r11TVNNheldVBD
+
+#Rule:V-HeadNoun
+r21becomeVBfanNN
+r21heldVBDtournamentNN
+r21choosingVBGopponentNN
+
+#Rule:V-HeadNoun(passive)
+r24aimedVBNsortsNNS
+
+#Rule:PPinNP
+r26tournamentNNofINsortsNNS
+r26opponentNNforINchampNN
+r26opponentNNforINMuhammad AliPersonAnnotation
+
+#Rule:PPinVP
+r30becomeVBuntilIN1971CD
+
+#Rule:(SBAR+WHADVP)inNP
+r411971CDwhenWRBheldVBD
+
+#Rule:V-ADV
+r46becomeVBreallyRB
+
+# As every student of boxing history knows, Ali had been stripped of his title a few years earlier, at the zenith of his career, for resisting the draft and refusing to go to Vietnam (Man, I ain t got nothing against them Viet Cong, he d said).
+#(S1 (S (SBAR (IN As) (S (NP (NP (DT every) (NN student)) (PP (IN of) (NP (JJ boxing) (NN history)))) (VP (VBZ knows)))) (, ,) (NP (NNP Ali)) (VP (AUX had) (VP (AUX been) (VP (VBN stripped) (PP (IN of) (NP (NP (PRP$ his) (NN title)) (ADVP (NP (DT a) (JJ few) (NNS years)) (RB earlier)))) (, ,) (PP (IN at) (NP (NP (DT the) (NN zenith)) (PP (IN of) (NP (PRP$ his) (NN career))))) (, ,) (PP (IN for) (S (VP (VP (VBG resisting) (NP (DT the) (NN draft))) (CC and) (VP (VBG refusing) (S (VP (TO to) (VP (VB go) (PP (TO to) (NP (NNP Vietnam))) (PRN (-LRB- -LRB-) (S (S (INTJ (UH Man)) (, ,) (NP (PRP I)) (ADVP (FW ain) (FW t)) (VP (VBD got) (NP (NP (NN nothing)) (PP (IN against) (NP (PRP them)))) (NP (NNP Viet) (NNP Cong)))) (, ,) (NP (PRP he)) (ADVP (LS d)) (VP (VBD said))) (-RRB- -RRB-)))))))))))) (. .)))
+#Rule:Nouns
+r1studentNN
+r1historyNN
+r1AliPersonAnnotation
+r1titleNN
+r1yearsNNS
+r1zenithPersonAnnotation
+r1careerNN
+r1draftNN
+r1VietnamLocationAnnotation
+r1nothingNN
+r1Viet CongLocationAnnotation
+
+#Rule:Verbs
+r2knowsVBZ
+r2strippedVBN
+r2resistingVBG
+r2refusingVBG
+r2goVB
+r2gotVBD
+r2saidVBD
+
+#Rule:Adjs
+r4boxingJJ
+r4fewJJ
+
+#Rule:Adj-Noun
+r5boxingJJhistoryNN
+r5fewJJyearsNNS
+
+#Rule:PRP-Noun
+r6hisPRP$titleNN
+r6hisPRP$careerNN
+
+#Rule:HeadNoun-V
+r11studentNNknowsVBZ
+r11hePRPsaidVBD
+r11iPRPgotVBD
+
+#Rule:V-HeadNoun
+r21resistingVBGdraftNN
+r21gotVBDnothingNN
+r21gotVBDViet CongLocationAnnotation
+
+#Rule:V-HeadNoun(passive)
+r23strippedVBNAliPersonAnnotation
+
+#Rule:PPinNP
+r26studentNNofINhistoryNN
+r26zenithPersonAnnotationofINcareerNN
+r26nothingNNagainstINthemPRP
+
+#Rule:PPinVP
+r30goVBtoTOVietnamLocationAnnotation
+
+#Rule:PPinVP
+r32strippedVBNofINtitleNN
+r32strippedVBNatINzenithPersonAnnotation
+
+#Rule:V-V
+r44refusingVBGgoVB
+
+#For a couple of years in the early 80s I avidly followed the career of Sugar Ray Leonard.
+#(S1 (S (PP (IN For) (NP (NP (DT a) (NN couple)) (PP (IN of) (NP (NP (NNS years)) (PP (IN in) (NP (DT the) (JJ early) (CD 80s))))))) (NP (PRP I)) (ADVP (RB avidly)) (VP (VBD followed) (NP (NP (DT the) (NN career)) (PP (IN of) (NP (NNP Sugar) (NNP Ray) (NNP Leonard))))) (. .)))
+#Rule:Nouns
+r1coupleNN
+r1yearsNNS
+r1careerNN
+r1Sugar Ray LeonardPersonAnnotation
+
+#Rule:Verbs
+r2followedVBD
+
+#Rule:Adjs
+r4earlyJJ
+
+#Rule:Adj-Noun
+r5earlyJJ80sCD
+
+#Rule:HeadNoun-V
+r11iPRPfollowedVBD
+
+#Rule:V-HeadNoun
+r21followedVBDcareerNN
+
+#Rule:PPinNP
+r26coupleNNofINyearsNNS
+r26yearsNNSinIN80sCD
+r26careerNNofINSugar Ray LeonardPersonAnnotation
+
+#Rule:PPinS
+r36followedVBDforINcoupleNN
+
+#Rule:V-ADV
+r46followedVBDavidlyRB
+
+# I didn t like him (another pretty boy, like Ali), but he was undeniably good..The
+#(S1 (S (S (NP (PRP I)) (VP (VBD didn) (NP (CD t)) (PP (IN like) (NP (NP (PRP him)) (PRN (-LRB- -LRB-) (NP (NP (DT another) (JJ pretty) (NN boy)) (, ,) (PP (IN like) (NP (NNP Ali)))) (-RRB- -RRB-)))))) (, ,) (CC but) (S (NP (PRP he)) (VP (AUX was) (ADJP (RB undeniably) (JJ good)) (PP (VBG ..) (NP (DT The)))))))
+#Rule:Nouns
+r1boyNN
+r1AliLocationAnnotation
+
+#Rule:Verbs
+r2didnVBD
+r2..VBG
+
+#Rule:Adjs
+r4prettyJJ
+r4goodJJ
+
+#Rule:Adj-Noun
+r5prettyJJboyNN
+
+#Rule:HeadNoun-V
+r11iPRPdidnVBD
+r11hePRPwasAUX
+
+#Rule:V-HeadNoun
+r21didnVBDtCD
+
+#Rule:V-ADJ
+r25wasAUXgoodJJ
+
+#Rule:PPinNP
+r26boyNNlikeINAliLocationAnnotation
+
+#Rule:PPinVP
+r30didnVBDlikeINhimPRP
+
+#Then came the Mancini fight, forcing boxing fans everywhere to confront the ugly truth: that boxing is the rawest, most primal of all sports. You probably shouldn t watch, but once drawn in, it s hard to turn away..
+#(S1 (S (RB Then) (VP (VBD came) (NP (DT the) (NNP Mancini) (NN fight)) (, ,) (S (VP (VBG forcing) (S (NP (JJ boxing) (NNS fans)) (ADVP (RB everywhere)) (VP (TO to) (VP (VB confront) (NP (NP (DT the) (JJ ugly) (NN truth)) (: :) (SBAR (IN that) (S (NP (NN boxing)) (VP (AUX is) (NP (NP (DT the) (JJS rawest) (, ,) (ADJP (RBS most) (JJ primal))) (PP (IN of) (NP (NP (DT all) (NNS sports.)) (SBAR (S (NP (PRP You)) (ADVP (RB probably)) (VP (VP (VBD shouldn) (NP (CD t) (NN watch))) (, ,) (CC but) (VP (ADVP (RB once)) (VBN drawn) (SBAR (IN in) (, ,) (S (NP (PRP it)) (VP (VBZ s) (ADJP (JJ hard) (SBAR (S (VP (TO to) (VP (VB turn) (PRT (RP away))))))))))))))))))))))) (. .))))) (. .)))
+#Rule:Nouns
+r1ManciniPersonAnnotation
+r1fightNN
+r1fansNNS
+r1truthNN
+r1boxingNN
+r1sportsNNS
+r1watchNN
+
+#Rule:Verbs
+r2cameVBD
+r2forcingVBG
+r2confrontVB
+r2shouldnVBD
+r2drawnVBN
+r2sVBZ
+
+#Rule:V-PRT
+r3turnVBawayRP
+
+#Rule:Adjs
+r4boxingJJ
+r4uglyJJ
+r4rawestOrganizationAnnotation
+r4primalJJ
+r4hardJJ
+
+#Rule:Adj-Noun
+r5boxingJJfansNNS
+r5uglyJJtruthNN
+r5rawestOrganizationAnnotationprimalJJ
+r5tCDwatchNN
+
+#Rule:N-HeadNoun
+r8ManciniPersonAnnotationfightNN
+
+#Rule:HeadNoun-V
+r11fansNNSconfrontVB
+r11boxingNNisAUX
+r11youPRPshouldnVBD
+r11itPRPsVBZ
+
+#Rule:NP(NP(z) SBAR(S(NP(x)VP(y))))
+r19drawnVBNsportsNNS
+
+#Rule:V-HeadNoun
+r21cameVBDfightNN
+r21confrontVBtruthNN
+r21isAUXprimalJJ
+r21shouldnVBDwatchNN
+
+#Rule:V-HeadNoun
+r22forcingVBGfansNNS
+
+#Rule:V-HeadNoun(passive)
+r24drawnVBNyouPRP
+
+#Rule:PPinNP
+r26primalJJofINsportsNNS
+
+#Rule:V-IN-V
+r43drawnVBNinINsVBZ
+
+#Rule:V-MOD
+r45cameVBDforcingVBG
+
+#Rule:V-ADV
+r46drawnVBNonceRB
+
+#Rule:IS-RULE
+r47primalJJboxingNN
+
+#Good luck.
+#(S1 (INTJ (JJ Good) (NN luck) (. .)))
+#Rule:Nouns
+r1luckNN
+
+#Rule:Adjs
+r4GoodJJ
+
+@lemmas-left	said	fight	sadistic	etc	knew	entertain	kid	story	1971	40	appeal	year	derive	piece	turn	books	Jack Dempsey	Sugar Ray Leonard	rodeo	papers	blood	he	Rocky Marciano	few	1982	temple	bit	fighters	ear	dropped	30	aim	bite	boxing	Mancini	bitten	hospital	TV	go	we	Good	ugly	tournament	sort	territory	killed	justify	made	Caesar s	imagination	I	rewarding	14	fencing	endow	sports.	truth	consider	do	hard	ability	thumped	man	pleasures	violence	come	30s	enjoy	seen	sustenance	rawest	i	history	fights	t	s	guess	stripped	tv	sneer	nothing	assert	50s	40s	week	physical	drop	become	sports	cock-fights	round	good	thump	same	Boxing	compact	student	choosing	champ	Kim	guilt	follow	be	s sake	hook	think	entertains	shouldn	reward	get	bloodied	seeing	watch	luck	canvas	Less	resist	humans	fan	resisting	worthy	vary	Ray Boom Boom Mancini	weakness	refuse	finish	that	sneering	names	vicious	got	sorts	make	early	named	dominance	grading	today	former	tae-kwon-do	But I	larger-than-life	Saturday	name	primordial	react	drawn	refusing	animal	society	wrestling	John Amos	you	finished	win	gray	confront	korean	draft	s 	great	anything	flush	see	take	am	there	names.	box	boy	50	they	addictive	yield	people	draw	are	asserted	watching	choose	ring	animals	forcing	others	hold	career	guilty	varies	many	say	Jersey Joe Walcott	years	crumpled	put	Duk Koo Kim	pictures	thought	followed	kind	watched	short	crumple	title	heard	fighter	aimed	zenith	held	books.	endowed	appeals	psychologist	degree	attach	primal	Ali	bloody	force	nose	Gene Tunney	kill	submission	were	hear	Korean	more	his	cold	puts	hit	died	bull-fights	..	value	saturday	yielded	live	november	such	pleasure	vicarious	strip	knows	picture	pieces	Viet Cong	stories	food	procreation	fighting	didn	palace	societies	Palace	other	have	fans	way	pretty	Vietnam	considered	was	opponent	continuing	Joe Louis	bits	November	die	read	couple	won	relevant	Nevada	less	is	it	afternoon	boxer	sport	noses	came	know	human	hurt	abilities	Muhammad Ali	bruising	continue	ears	their	
+@lemmas-right	said	fight	etc	knew	entertain	kid	story	1971	40	year	derive	books	once	Jack Dempsey	Sugar Ray Leonard	papers	blood	Rocky Marciano	few	temple	1982	bit	fighters	ear	30	boxing	Mancini	hospital	go	tournament	80s	territory	sort	made	imagination	sports.	truth	ability	man	pleasures	violence	later	us	30s	enjoy	sustenance	seen	up	fights	history	t	s	guess	sneer	nothing	assert	50s	40s	week	become	sports	round	good	Certainly	Boxing	champ	80	guilt	be	follow	s sake	hook	think	entertains	occasionally	shouldn	get	watch	far	canvas	fan	vary	weakness	finish	sneering	names	make	sorts	got	dominance	about	today	But I	uniquely	react	animal	society	John Amos	as	you	finished	still	win	confront	s 	draft	anything	see	am	take	names.	boy	50	addictive	people	asserted	are	ring	animals	forcing	others	hold	career	like	varies	not	now	them	then	say	myself	Jersey Joe Walcott	years	crumpled	put	Duk Koo Kim	thought	pictures	followed	kind	watched	crumple	title	me	fighter	zenith	held	books.	psychologist	like.	really	primal	Ali	force	nose	Gene Tunney	submission	him	though	were	hit	puts	died	..	value	certainly	live	november	pleasure	picture	knows	Viet Cong	stories	fighting	even	palace	didn	perhaps	societies	Palace	have	fans	way	was	Vietnam	opponent	Joe Louis	bits	November	die	read	couple	won	relevant	is	it	afternoon	boxer	sport	noses	know	away	hurt	abilities	quite	Muhammad Ali	ears	also	avidly	
+@lemmas-center	to	except	with	for	about	into	at	as	from	like	in	until	while	after	because	of	against	when	than	off	on	

@@ -1,0 +1,73 @@
+#Every one seems to have it right, it s just a basic pump , it pumps blood around the system, like a central heating system ,  nothing really very clever about it, all you have to do now is explain what a Central heating system is all about. 
+#(S1 (S (S (NP (DT Every) (NN one)) (VP (VBZ seems) (S (VP (TO to) (VP (AUX have) (NP (PRP it)) (ADVP (RB right))))))) (, ,) (S (NP (PRP it)) (VP (VBZ s) (NP (RB just) (DT a) (JJ basic) (NN pump)))) (, ,) (S (NP (PRP it)) (VP (NNS pumps) (NP (NN blood)) (PP (IN around) (NP (DT the) (NN system))) (, ,) (PP (IN like) (NP (DT a) (JJ central) (NN heating) (NN system))))) (, ,) (S (NP (NN nothing)) (ADJP (ADJP (RB really) (RB very) (JJ clever)) (PP (IN about) (NP (PRP it))))) (, ,) (RB all) (S (NP (PRP you)) (VP (AUX have) (S (VP (TO to) (VP (AUX do) (ADVP (RB now)) (S (VP (AUX is) (S (VP (VB explain) (SBAR (WHNP (WP what)) (S (NP (DT a) (NNP Central) (NN heating) (NN system)) (VP (AUX is) (DT all) (ADVP (RB about)))))))))))))) (. .)))
+#Rule:Nouns
+r1oneNN
+r1pumpNN
+r1pumpsNNS
+r1bloodNN
+r1systemNN
+r1heatingNN
+r1systemNN
+r1nothingNN
+r1CentralNNP
+r1heatingNN
+r1systemNN
+
+#Rule:Verbs
+r2seemsVBZ
+r2sVBZ
+r2explainVB
+
+#Rule:Adjs
+r4basicJJ
+r4centralJJ
+r4cleverJJ
+
+#Rule:Adj-Noun
+r5basicJJpumpNN
+r5centralJJsystemNN
+
+#Rule:N-HeadNoun
+r8heatingNNsystemNN
+r8heatingNNsystemNN
+r8CentralNNPsystemNN
+
+#Rule:HeadNoun-V
+r11oneNNseemsVBZ
+r11itPRPsVBZ
+r11youPRPhaveAUX
+r11systemNNisAUX
+
+#Rule:V-HeadNoun
+r21haveAUXitPRP
+r21sVBZpumpNN
+r21pumpsNNSbloodNN
+
+#Rule:PPinADJP
+r37cleverJJaboutINitPRP
+
+#Rule:V-ADV
+r46haveAUXrightRB
+r46doAUXnowRB
+r46isAUXaboutRB
+
+#Good luck !!.
+#(S1 (S (NP (JJ Good) (NN luck)) (VP (VBD !!)) (. .)))
+#Rule:Nouns
+r1luckNN
+
+#Rule:Verbs
+r2!!LocationAnnotation
+
+#Rule:Adjs
+r4GoodJJ
+
+#Rule:Adj-Noun
+r5GoodJJluckNN
+
+#Rule:HeadNoun-V
+r11luckNN!!LocationAnnotation
+
+@lemmas-left	Central	Good	have	one	good	seems	basic	pumps	do	central	be	is	it	luck	pump	you	!!	blood	seem	system	s	nothing	heating	clever	explain	
+@lemmas-right	is	it	have	luck	about	pump	!!	blood	seem	system	seems	s	now	right	be	
+@lemmas-center	about	

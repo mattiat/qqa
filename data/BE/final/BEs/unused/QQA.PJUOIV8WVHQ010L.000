@@ -1,0 +1,24 @@
+#how do you say good morning in any language?
+#(S1 (SBARQ (WHADVP (WRB how)) (SQ (AUX do) (NP (PRP you)) (VP (VB say) (NP (JJ good) (NN morning)) (PP (IN in) (NP (DT any) (NN language))))) (. ?)))
+#Rule:Nouns
+r1morningNN
+r1languageNN
+
+#Rule:Verbs
+r2sayVB
+
+#Rule:Adjs
+r4goodJJ
+
+#Rule:Adj-Noun
+r5goodJJmorningNN
+
+#Rule:V-HeadNoun
+r21sayVBmorningNN
+
+#Rule:PPinVP
+r30sayVBinINlanguageNN
+
+@lemmas-left	say	good	language	morning	
+@lemmas-right	language	morning	
+@lemmas-center	in	

@@ -1,0 +1,34 @@
+#it is not blue, just humanbeing gave the name like a blue,funny qestion.
+#(S1 (SINV (S (NP (PRP it)) (VP (AUX is) (RB not) (ADJP (JJ blue) (, ,) (RB just) (JJ humanbeing)))) (VP (VBD gave)) (NP (NP (DT the) (NN name)) (PP (IN like) (NP (DT a) (JJ blue) (, ,) (JJ funny) (NN qestion)))) (. .)))
+#Rule:Nouns
+r1nameNN
+r1qestionOrganizationAnnotation
+
+#Rule:Verbs
+r2gaveVBD
+
+#Rule:Adjs
+r4blueJJ
+r4humanbeingJJ
+r4blueJJ
+r4funnyJJ
+
+#Rule:Adj-Noun
+r5blueJJqestionOrganizationAnnotation
+r5funnyJJqestionOrganizationAnnotation
+
+#Rule:HeadNoun-V
+r11itPRPisAUX
+
+#Rule:V-ADJ
+r25isAUXblueJJ
+
+#Rule:PPinNP
+r26nameNNlikeINqestionOrganizationAnnotation
+
+#Rule:V-ADV
+r46isAUXnotRB
+
+@lemmas-left	humanbeing	is	gave	it	blue	give	name	funny	qestion	be	
+@lemmas-right	not	is	blue	qestion	be	
+@lemmas-center	like	

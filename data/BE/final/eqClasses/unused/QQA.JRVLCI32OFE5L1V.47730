@@ -1,0 +1,387 @@
+BE: timeNN
+EQ class: clipnn	
+
+BE: schoolNN
+EQ class: scholasticjj	
+
+BE: yearNN
+EQ class: twelvemonthnn	yearlyjj	yrnn	
+
+BE: studyNN
+EQ class: surveynn	
+
+BE: skillsNNS
+EQ class: acquirementnns	accomplishmentnns	skillnns	theynns	attainmentnns	themnns	acquisitionnns	
+
+BE: workVB
+EQ class: 
+
+BE: goodJJ
+EQ class: goodnessnn	
+
+BE: goodJJtimeNN
+EQ class: goodjjclipnn	goodnessnnclipnn	goodnessnntimenn	
+
+BE: schoolNNyearNN
+EQ class: scholasticjjtwelvemonthnn	twelvemonthnnofinscholasticjj	schoolingnnofinyearlyjj	schoolingnnofintwelvemonthnn	yrnnofinscholasticjj	scholasticjjofintwelvemonthnn	scholasticjjofinyrnn	scholasticjjyearlyjj	yrnnschoolvb	scholasticjjyrnn	schoolnnofinyearlyjj	yearnnschoolvb	scholasticjjofinyearnn	schoolnnofinyrnn	schoolnnofintwelvemonthnn	yearnnofinscholasticjj	scholasticjjofinyearlyjj	schoolnnyrnn	yrnnofinschoolnn	schoolnnyearlyjj	yearlyjjofinschoolnn	schoolingnnofinyearnn	scholasticjjyearnn	yearlyjjschoolvb	schoolnnyearlyvb	schoolnntwelvemonthnn	twelvemonthnnschoolvb	yearlyvbschoolnn	schoolnnofinyearnn	twelvemonthnnofinschoolnn	yearnnofinschoolnn	scholasticjjyearlyvb	schoolingnnofinyrnn	yearlyvbscholasticjj	yearlyjjofinscholasticjj	
+
+BE: studyNNskillsNNS
+EQ class: surveynnaccomplishmentnns	skillnnsanalysevb	accomplishmentnnsofinsurveynn	theynnsanalysevb	attainmentnnsofinstudynn	skillnnsexaminevb	surveynnacquirementnns	skillnnsofinstudynn	acquisitionnnscanvasvb	skillsnnsanalyzevb	attainmentnnsanalyzevb	studynnofinacquirementnns	themnnscanvassvb	skillsnnsstudyvb	skillsnnsanalysevb	acquirementnnsstudyvb	attainmentnnscanvassvb	studynnacquirementnns	acquirementnnsofinsurveynn	surveynnofinacquirementnns	skillnnsstudyvb	studynnaccomplishmentnns	studynnskillnns	skillsnnsofinsurveynn	surveynnthemnns	surveynnofinthemnns	studynntheynns	accomplishmentnnscanvasvb	skillsnnscanvasvb	surveynntheynns	attainmentnnscanvasvb	theynnsanalyzevb	studynnthemnns	accomplishmentnnsanalyzevb	acquisitionnnsofinsurveynn	themnnsofinsurveynn	surveynnofintheynns	skillsnnsofinstudynn	surveynnofinattainmentnns	acquirementnnsanalyzevb	theynnscanvasvb	surveynnskillsnns	theynnsstudyvb	surveynnacquisitionnns	studynnattainmentnns	studynnofinthemnns	attainmentnnsexaminevb	acquisitionnnsstudyvb	surveynnofinacquisitionnns	accomplishmentnnsexaminevb	themnnsexaminevb	theynnsofinsurveynn	themnnsanalysevb	acquirementnnsexaminevb	acquisitionnnsofinstudynn	attainmentnnsanalysevb	acquirementnnscanvassvb	themnnsofinstudynn	surveynnattainmentnns	acquisitionnnscanvassvb	attainmentnnsstudyvb	themnnscanvasvb	skillsnnscanvassvb	themnnsanalyzevb	theynnsofinstudynn	acquisitionnnsanalysevb	studynnofinskillnns	attainmentnnsofinsurveynn	acquirementnnscanvasvb	accomplishmentnnsanalysevb	skillnnsanalyzevb	studynnofinaccomplishmentnns	surveynnofinaccomplishmentnns	skillsnnsexaminevb	skillnnscanvassvb	studynnofinacquisitionnns	studynnacquisitionnns	acquirementnnsanalysevb	skillnnscanvasvb	studynnofinattainmentnns	accomplishmentnnsstudyvb	skillnnsofinsurveynn	studynnofinskillsnns	themnnsstudyvb	acquisitionnnsexaminevb	accomplishmentnnscanvassvb	studynnofintheynns	surveynnofinskillnns	accomplishmentnnsofinstudynn	theynnsexaminevb	surveynnskillnns	surveynnofinskillsnns	acquirementnnsofinstudynn	theynnscanvassvb	acquisitionnnsanalyzevb	
+
+BE: itPRPisAUX
+EQ class: itprpbeaux	
+
+BE: timeNNworkVB
+EQ class: worknnofinclipnn	workernntimenn	clipnnworkvb	workernnofintimenn	workernnofinclipnn	workernnclipnn	worknnofintimenn	
+
+BE: isAUXtimeNN
+EQ class: isauxclipnn	beauxtimenn	beauxclipnn	
+
+BE: timeNNinINyearNN
+EQ class: yearnnclipnn	yearnntimenn	clipnnininyrnn	yrnnclipnn	twelvemonthnntimenn	twelvemonthnnclipnn	yearlyjjclipnn	timennininyearlyjj	timennininyrnn	yrnntimenn	yearlyjjtimenn	clipnnininyearlyjj	timenninintwelvemonthnn	clipnninintwelvemonthnn	clipnnininyearnn	
+
+BE: workVBonINskillsNNS
+EQ class: workvboninacquisitionnns	workvbonintheynns	workvboninthemnns	workvboninattainmentnns	workvboninacquirementnns	workvboninaccomplishmentnns	workvboninskillnns	
+
+BE: tipsNNS
+EQ class: theynns	tipnns	themnns	
+
+BE: are:1VBP
+EQ class: 
+
+BE: fewJJ
+EQ class: fewnn	fewnessnn	
+
+BE: fewJJtipsNNS
+EQ class: fewjjthemnns	fewnessnntheynns	fewnessnnthemnns	fewnnthemnns	fewjjtipnns	fewnntheynns	fewnessnntipsnns	fewjjtheynns	fewnntipsnns	fewnessnntipnns	fewnntipnns	
+
+BE: tipsNNSare:1VBP
+EQ class: theynnsare:1vbp	tipnnsare:1vbp	themnnsare:1vbp	
+
+BE: homeworkNN
+EQ class: preparationnn	prepnn	
+
+BE: materialsNNS
+EQ class: materialnns	theynns	stuffnns	themnns	
+
+BE: musicNN
+EQ class: 
+
+BE: TVNN
+EQ class: telecastingnn	televisionnn	t.v.nn	videonn	vnn	voltnn	
+
+BE: on.4.NN
+EQ class: on4nn	
+
+BE: WorkNN
+EQ class: 
+
+BE: assignmentNN
+EQ class: duty_assignmentnn	
+
+BE: first.5.NN
+EQ class: first5nn	
+
+BE: notebookNN
+EQ class: 
+
+BE: timeNN
+EQ class: clipnn	
+
+BE: daysNNS
+EQ class: yearsnns	theynns	themnns	
+
+BE: questionsNNS
+EQ class: questionnns	theynns	enquirynns	interrogationnns	inquirynns	querynns	themnns	
+
+BE: classNN
+EQ class: familynn	categorynn	
+
+BE: something.9.NNS
+EQ class: theynns	something9nns	themnns	
+
+BE: schoolNN
+EQ class: scholasticjj	
+
+BE: helpNN
+EQ class: assistancenn	aidnn	assistnn	
+
+BE: classesNNS
+EQ class: familynns	classnns	categorynns	theynns	themnns	
+
+BE: comeVBP
+EQ class: come_upvbp	
+
+BE: disturbedVBN
+EQ class: troublevbn	disturbvbn	upsetvbn	
+
+BE: listeningVBG
+EQ class: listenvbg	
+
+BE: turnedVBD
+EQ class: turnvbd	
+
+BE: rush.6.VB
+EQ class: rush6vb	
+
+BE: keepVB
+EQ class: maintainvb	holdvb	
+
+BE: organizedVBN
+EQ class: organisevbn	formvbn	organizevbn	
+
+BE: dated.7.VBG
+EQ class: dated7vbg	
+
+BE: SpendPersonAnnotation
+EQ class: 
+
+BE: reviewingVBG
+EQ class: reviewvbg	reexaminevbg	
+
+BE: askVB
+EQ class: enquirevb	inquirevb	
+
+BE: understandVB
+EQ class: 
+
+BE: GoPersonAnnotation
+EQ class: 
+
+BE: firstJJ
+EQ class: 
+
+BE: readyJJ
+EQ class: readynn	readinessnn	
+
+BE: difficultJJ
+EQ class: hardjj	difficultnessnn	
+
+BE: firstJJhomeworkNN
+EQ class: firstjjpreparationnn	firstjjprepnn	
+
+BE: difficultJJfirst.5.NN
+EQ class: hardjjfirst.5.nn	difficultnessnnfirst.5.nn	difficultnessnnfirst5nn	difficultjjfirst5nn	hardjjfirst5nn	
+
+BE: organizedVBNnotebookNN
+EQ class: organizationnnofinnotebooknn	formvbnnotebooknn	organisationnnofinnotebooknn	organizevbnnotebooknn	organisevbnnotebooknn	
+
+BE: yourPRP$homeworkNN
+EQ class: yourprp$prepnn	preparationnnofinyourprp$	prepnnofinyourprp$	homeworknnofinyourprp$	yourprp$preparationnn	
+
+BE: yourPRP$materialsNNS
+EQ class: yourprp$themnns	themnnsofinyourprp$	theynnsofinyourprp$	yourprp$theynns	materialsnnsofinyourprp$	yourprp$materialnns	yourprp$stuffnns	materialnnsofinyourprp$	stuffnnsofinyourprp$	
+
+BE: yourPRP$first.5.NN
+EQ class: yourprp$first5nn	
+
+BE: on.4.NNWorkNN
+EQ class: on4nnworkvb	on4nnworknn	workvbon4nn	worknnofinon4nn	on.4.nnworkvb	worknnofinon.4.nn	workvbon.4.nn	
+
+BE: assignmentNNfirst.5.NN
+EQ class: first5nndesignatevb	first.5.nndeputevb	assignmentnnofinfirst5nn	assignmentnnofinfirst.5.nn	first5nnassignvb	first5nndelegatevb	duty_assignmentnnofinfirst5nn	duty_assignmentnnofinfirst.5.nn	first.5.nnassignvb	duty_assignmentnnfirst.5.nn	assignmentnnfirst5nn	first5nndeputevb	first.5.nndesignatevb	duty_assignmentnnfirst5nn	first.5.nndelegatevb	
+
+BE: helpNNclassesNNS
+EQ class: helpnnseparatevb	assistantnnofincategorynns	assortvbassistnn	separatevbhelpnn	sortvbaidnn	supporternnofinclassnns	helpnnfamilynns	aidnnseparatevb	assistnnclassifyvb	aidnnofinfamilynns	helpnnofinfamilynns	helpernnofincategorynns	classvbassistnn	assortvbaidnn	assistnnsort_outvb	separatevbassistnn	helpernnofintheynns	helpernnofinclassnns	helpnnthemnns	sortvbhelpnn	themnnsofinassistancenn	theynnsofinaidnn	helpnncategorynns	classnnsofinassistnn	classesnnsofinassistnn	supporternnofintheynns	assistantnnofinclassnns	assistancennclassnns	categorynnsaidvb	aidnnclassnns	assortvbassistancenn	supporternnofinclassesnns	assistnntheynns	helpnnclassvb	aidnnofincategorynns	classnnsofinhelpnn	helpnnofincategorynns	familynnsaidvb	aidnnsort_outvb	assistancennassortvb	classnnsofinassistancenn	assistancennofinthemnns	helpernnofinclassesnns	assistnnofincategorynns	categorynnsofinassistnn	familynnsofinassistancenn	assistnnofinclassnns	assortvbhelpnn	sortvbassistnn	helpernnofinfamilynns	classvbassistancenn	sortvbassistancenn	separatevbaidnn	sort_outvbhelpnn	assistancennclassvb	themnnshelpvb	separatevbassistancenn	themnnsofinaidnn	aidnnthemnns	assistancenncategorynns	aidnnofintheynns	classesnnshelpvb	categorynnsofinaidnn	classifyvbaidnn	helpnnclassifyvb	assistancennofinclassesnns	classnnsaidvb	supporternnofincategorynns	familynnsofinaidnn	classesnnsofinassistancenn	assistancenntheynns	aidnnsortvb	themnnsaidvb	classvbaidnn	categorynnshelpvb	assistnnofinclassesnns	aidnntheynns	aidnnofinthemnns	classesnnsofinhelpnn	assistantnnofinthemnns	assistnnclassnns	categorynnsassistvb	classvbhelpnn	assistnnclassvb	theynnsofinassistnn	assistnnclassesnns	aidnnfamilynns	sort_outvbassistnn	classesnnsofinaidnn	theynnshelpvb	theynnsofinassistancenn	assistantnnofinfamilynns	classifyvbassistnn	assistancennsortvb	aidnnclassifyvb	assistnnfamilynns	assistnnseparatevb	helpernnofinthemnns	familynnsofinhelpnn	themnnsassistvb	sort_outvbassistancenn	categorynnsofinhelpnn	aidnnassortvb	helpnnassortvb	helpnnofintheynns	assistantnnofintheynns	assistancennsort_outvb	assistancennofintheynns	assistnnofinfamilynns	assistantnnofinclassesnns	supporternnofinthemnns	themnnsofinhelpnn	assistancennclassesnns	helpnnclassnns	assistancennthemnns	aidnncategorynns	categorynnsofinassistancenn	assistancennofincategorynns	assistnnsortvb	helpnnofinclassnns	classifyvbhelpnn	theynnsaidvb	assistnnassortvb	aidnnofinclassnns	assistnnofinthemnns	theynnsofinhelpnn	classesnnsassistvb	aidnnclassesnns	assistancennseparatevb	classnnsofinaidnn	themnnsofinassistnn	helpnnsort_outvb	helpnnofinclassesnns	aidnnofinclassesnns	assistnnofintheynns	sort_outvbaidnn	classesnnsaidvb	theynnsassistvb	familynnsassistvb	assistnncategorynns	classnnshelpvb	helpnnsortvb	assistancennfamilynns	assistancennclassifyvb	assistancennofinclassnns	supporternnofinfamilynns	helpnnofinthemnns	classifyvbassistancenn	familynnshelpvb	classnnsassistvb	aidnnclassvb	helpnntheynns	assistnnthemnns	assistancennofinfamilynns	familynnsofinassistnn	
+
+BE: schoolNNclassesNNS
+EQ class: classvbscholasticjj	schoolnnofinfamilynns	assortvbschoolnn	schoolnnofintheynns	scholasticjjthemnns	scholasticjjsortvb	schoolnnfamilynns	scholasticjjofinclassesnns	theynnsofinscholasticjj	separatevbscholasticjj	schoolnnsort_outvb	scholasticjjofinclassnns	schoolnnofinclassnns	classnnsschoolvb	categorynnsofinschoolnn	assortvbscholasticjj	separatevbschoolnn	scholasticjjclassifyvb	schoolnnthemnns	schoolingnnofincategorynns	scholasticjjclassvb	schoolnntheynns	sort_outvbscholasticjj	themnnsofinschoolnn	categorynnsschoolvb	classvbschoolnn	categorynnsofinscholasticjj	scholasticjjclassnns	classesnnsofinscholasticjj	familynnsschoolvb	scholasticjjtheynns	schoolingnnofinfamilynns	schoolnnclassvb	themnnsofinscholasticjj	sortvbschoolnn	scholasticjjsort_outvb	classifyvbscholasticjj	schoolnnsortvb	classesnnsofinschoolnn	schoolnnseparatevb	scholasticjjofincategorynns	schoolnnclassnns	schoolingnnofinclassnns	themnnsschoolvb	scholasticjjofinthemnns	familynnsofinschoolnn	schoolnnofincategorynns	scholasticjjassortvb	scholasticjjfamilynns	schoolingnnofinthemnns	familynnsofinscholasticjj	schoolingnnofinclassesnns	schoolnnofinthemnns	classnnsofinscholasticjj	theynnsofinschoolnn	schoolnnofinclassesnns	scholasticjjcategorynns	scholasticjjclassesnns	scholasticjjofintheynns	sortvbscholasticjj	scholasticjjofinfamilynns	theynnsschoolvb	schoolnncategorynns	sort_outvbschoolnn	schoolnnassortvb	schoolnnclassifyvb	classesnnsschoolvb	classnnsofinschoolnn	classifyvbschoolnn	schoolingnnofintheynns	scholasticjjseparatevb	
+
+BE: youPRPcomeVBP
+EQ class: approachingnnofinyouprp	approachnnyouprp	approachnnofinyouprp	approachingnnyouprp	comingnnyouprp	youprpcome_upvbp	comingnnofinyouprp	
+
+BE: TVNNturnedVBD
+EQ class: crooknnofintelecastingnn	televisionnnturnvbd	bendnnofinvnn	twistnnofintelecastingnn	crooknnofinvideonn	turningnntelecastingnn	twistnnofinvoltnn	televisionnnturnedvbd	turningnnofintelecastingnn	turnnnofinvoltnn	turnnnvnn	crooknnofintvnn	turningnntelevisionnn	turningnnvoltnn	voltnnturnedvbd	twistnnofinvideonn	bendnnofintelevisionnn	telecastingnnturnvbd	turningnnofinvoltnn	vnnturnvbd	turnnnofinvideonn	turnnnofintvnn	videonnturnedvbd	turnnnvideonn	twistnnofintelevisionnn	turningnnofinvnn	t.v.nnturnvbd	turningnnofint.v.nn	bendnnofintelecastingnn	twistnnofintvnn	turningnnofintelevisionnn	turnnntvnn	twistnnofint.v.nn	turnnnt.v.nn	turningnnvnn	turningnnofintvnn	twistnnofinvnn	bendnnofinvideonn	turnnnvoltnn	turningnnt.v.nn	turnnnofintelecastingnn	turnnnofinvnn	crooknnofint.v.nn	bendnnofintvnn	turnnntelecastingnn	turningnnvideonn	turnnnofintelevisionnn	tvnnturnvbd	telecastingnnturnedvbd	bendnnofinvoltnn	voltnnturnvbd	turnnntelevisionnn	t.v.nnturnedvbd	turnnnofint.v.nn	crooknnofinvoltnn	turningnntvnn	vnnturnedvbd	videonnturnvbd	crooknnofinvnn	turningnnofinvideonn	crooknnofintelevisionnn	bendnnofint.v.nn	
+
+BE: WorkNNrush.6.VB
+EQ class: worknnrush6vb	
+
+BE: daysNNSaskVB
+EQ class: queriernnthemnns	enquirernntheynns	theynnsaskvb	yearsnnsinquirevb	themnnsaskvb	inquirernndaysnns	questionernnofintheynns	inquirernnofinthemnns	enquirernnofinyearsnns	queriernnyearsnns	queriernnofinyearsnns	questionernndaysnns	askernndaysnns	askernnofintheynns	askernnofinthemnns	queriernnofindaysnns	theynnsinquirevb	askernnthemnns	themnnsinquirevb	inquirernnofintheynns	askernnofindaysnns	theynnsenquirevb	daysnnsinquirevb	inquirernnofindaysnns	questionernnthemnns	inquirernnyearsnns	questionernntheynns	inquirernntheynns	enquirernnofindaysnns	queriernndaysnns	questionernnofinyearsnns	questionernnofindaysnns	askernnofinyearsnns	yearsnnsenquirevb	yearsnnsaskvb	inquirernnofinyearsnns	enquirernnofinthemnns	themnnsenquirevb	queriernnofintheynns	daysnnsenquirevb	enquirernndaysnns	questionernnyearsnns	enquirernnthemnns	enquirernnyearsnns	queriernntheynns	queriernnofinthemnns	askernnyearsnns	inquirernnthemnns	askernntheynns	enquirernnofintheynns	questionernnofinthemnns	
+
+BE: youPRPunderstandVB
+EQ class: discernmentnnofinyouprp	understandingnnofinyouprp	understandablennofinyouprp	apprehensionnnyouprp	discernmentnnyouprp	understandingnnyouprp	savvynnofinyouprp	apprehensionnnofinyouprp	savvynnyouprp	
+
+BE: something.9.NNSGoPersonAnnotation
+EQ class: something9nnsgopersonannotation	theynnsgopersonannotation	themnnsgopersonannotation	
+
+BE: notebookNNdated.7.VBG
+EQ class: notebooknndated7vbg	
+
+BE: notebookNNSpendPersonAnnotation
+EQ class: 
+
+BE: keepVBnotebookNN
+EQ class: holdvbnotebooknn	maintainvbnotebooknn	
+
+BE: SpendPersonAnnotationtimeNN
+EQ class: spendpersonannotationclipnn	
+
+BE: askVBquestionsNNS
+EQ class: inquirevbquerynns	queriernnofinquerynns	askvbinquirynns	enquirernnofinquerynns	enquirevbquestionnns	enquirernnofininterrogationnns	enquirevbtheynns	inquirevbenquirynns	askvbinterrogationnns	questionernnofintheynns	questionernnofininquirynns	inquirernnofinthemnns	questionernnofinenquirynns	inquirernnofinquestionsnns	inquirernnofininterrogationnns	enquirernnofinquestionnns	questionernnofinquestionnns	inquirevbinterrogationnns	enquirevbthemnns	askernnofinquestionsnns	askernnofintheynns	queriernnofininquirynns	queriernnofinquestionnns	askernnofinthemnns	inquirernnofinenquirynns	questionernnofininterrogationnns	inquirernnofintheynns	inquirernnofinquerynns	enquirernnofinquestionsnns	enquirernnofininquirynns	askvbenquirynns	askernnofinenquirynns	questionernnofinquestionsnns	queriernnofinquestionsnns	askernnofininterrogationnns	askvbquerynns	askvbtheynns	inquirevbquestionnns	enquirevbquestionsnns	inquirevbquestionsnns	enquirevbenquirynns	questionernnofinquerynns	enquirevbquerynns	askernnofinquestionnns	enquirernnofinthemnns	enquirevbinterrogationnns	enquirernnofinenquirynns	queriernnofininterrogationnns	inquirevbtheynns	inquirernnofinquestionnns	queriernnofintheynns	inquirevbthemnns	enquirevbinquirynns	inquirernnofininquirynns	queriernnofinenquirynns	askernnofinquerynns	askvbquestionnns	queriernnofinthemnns	askvbthemnns	inquirevbinquirynns	askernnofininquirynns	enquirernnofintheynns	questionernnofinthemnns	
+
+BE: haveAUXallDT
+EQ class: wealthy_personnnofinalldt	havennofinalldt	have_gotauxalldt	holdauxalldt	rich_personnnofinalldt	
+
+BE: havingAUXGTVNN
+EQ class: havingauxgvideonn	havingauxgtelevisionnn	havingauxgvoltnn	havingauxgt.v.nn	havingauxgvnn	havingauxgtelecastingnn	
+
+BE: understandVBsomething.9.NNS
+EQ class: understandablennofinsomething9nns	understandvbsomething9nns	savvynnofinsomething9nns	discernmentnnofintheynns	understandingnnofinthemnns	understandablennofinsomething.9.nns	understandvbthemnns	apprehensionnnofinsomething.9.nns	apprehensionnnofinthemnns	savvynnofintheynns	understandingnnofintheynns	savvynnofinthemnns	understandablennofintheynns	understandvbtheynns	discernmentnnofinthemnns	apprehensionnnofintheynns	discernmentnnofinsomething9nns	discernmentnnofinsomething.9.nns	understandingnnofinsomething9nns	understandingnnofinsomething.9.nns	savvynnofinsomething.9.nns	understandablennofinthemnns	apprehensionnnofinsomething9nns	
+
+BE: disturbedVBNyouPRP
+EQ class: disturbvbnyouprp	upsetvbnyouprp	perturbationnnofinyouprp	disturbancennofinyouprp	troublevbnyouprp	
+
+BE: allDTofINmaterialsNNS
+EQ class: alldtofinthemnns	alldtofinstuffnns	alldtofintheynns	alldtofinmaterialnns	
+
+BE: WorkNNonINfirst.5.NN
+EQ class: first5nnworkvb	worknnoninfirst5nn	workvbfirst5nn	first5nnworknn	first.5.nnworkvb	first.5.nnworknn	workvbfirst.5.nn	
+
+BE: questionsNNSinINclassNN
+EQ class: familynnquestionvb	theynnsininclassnn	questionsnnsinincategorynn	theynnsinincategorynn	interrogationnnsininfamilynn	categorynnthemnns	classnnquerynns	classnnenquirynns	classnntheynns	querynnsininfamilynn	themnnsinincategorynn	oppugnvbclassnn	interrogationnnsininclassnn	interrogationnnsinincategorynn	classnncall_into_questionvb	categorynnquerynns	familynnenquirynns	oppugnvbfamilynn	themnnsininfamilynn	classnnquestionnns	questionvbcategorynn	questionnnsinincategorynn	querynnsinincategorynn	querynnsininclassnn	theynnsininfamilynn	categorynnquestionvb	familynnquestionnns	familynnquestionsnns	call_into_questionvbcategorynn	familynnthemnns	categorynnquestionnns	call_into_questionvbclassnn	classnninquirynns	categorynninterrogationnns	categorynncall_into_questionvb	call_into_questionvbfamilynn	questionnnsininfamilynn	familynntheynns	familynnquerynns	questionvbclassnn	familynninquirynns	classnnquestionsnns	oppugnvbcategorynn	categorynnoppugnvb	enquirynnsininclassnn	questionvbfamilynn	categorynninquirynns	questionnnsininclassnn	questionsnnsininfamilynn	classnnthemnns	categorynnenquirynns	classnnoppugnvb	classnnquestionvb	categorynnquestionsnns	familynncall_into_questionvb	themnnsininclassnn	categorynntheynns	inquirynnsinincategorynn	enquirynnsininfamilynn	enquirynnsinincategorynn	classnninterrogationnns	inquirynnsininfamilynn	familynninterrogationnns	familynnoppugnvb	inquirynnsininclassnn	
+
+BE: comeVBPfromINschool.2.CD
+EQ class: come_upvbpfrominschool.2.cd	come_upvbpfrominschool2cd	comevbpfrominschool2cd	
+
+BE: listeningVBGtoTOmusicNN
+EQ class: listenvbgtotomusicnn	
+
+BE: GoPersonAnnotationafterINclassesNNS
+EQ class: gopersonannotationafterinthemnns	gopersonannotationafterinfamilynns	gopersonannotationafterinclassnns	gopersonannotationafterincategorynns	gopersonannotationafterintheynns	
+
+BE: GoPersonAnnotationifINavailable.10CD
+EQ class: gopersonannotationifinavailable10cd	
+
+BE: homeworkNNwhenWRBcomeVBP
+EQ class: preparationnnwhenwrbcomevbp	preparationnnwhenwrbcome_upvbp	prepnnwhenwrbcome_upvbp	homeworknnwhenwrbcome_upvbp	prepnnwhenwrbcomevbp	
+
+BE: reviewingVBGthatINaskVB
+EQ class: reviewvbgthatinenquirevb	reviewingvbgthatininquirevb	reexaminevbgthatininquirevb	reviewvbgthatininquirevb	reexaminevbgthatinenquirevb	reexaminevbgthatinaskvb	reviewingvbgthatinenquirevb	reviewvbgthatinaskvb	
+
+BE: askVBifINunderstandVB
+EQ class: enquirevbifinunderstandvb	inquirevbifinunderstandvb	
+
+BE: DoPersonAnnotationbegin.3.RB
+EQ class: dopersonannotationbegin3rb	
+
+BE: DoPersonAnnotationnotRB
+EQ class: 
+
+BE: DoPersonAnnotationnotRB
+EQ class: 
+
+BE: doAUXnotRB
+EQ class: makeauxnotrb	
+
+BE: timeNNreviewingVBG
+EQ class: reappraisalnnofinclipnn	reviewernnofintimenn	revaluationnnofintimenn	readernntimenn	readernnofinclipnn	reviewnnofintimenn	clipnnreviewingvbg	reappraisalnnofintimenn	timennreviewvbg	reassessmentnnofinclipnn	reviewernnofinclipnn	refereennofinclipnn	refereenntimenn	revaluationnnofinclipnn	timennreexaminevbg	reassessmentnnofintimenn	reviewernnclipnn	clipnnreexaminevbg	reviewnnofinclipnn	refereennclipnn	reviewernntimenn	readernnofintimenn	refereennofintimenn	readernnclipnn	clipnnreviewvbg	
+
+BE: testNN
+EQ class: trial_runnn	trialnn	tryoutnn	
+
+BE: questionNN
+EQ class: enquirynn	interrogationnn	querynn	inquirynn	
+
+BE: goVB
+EQ class: locomotevb	movevb	travelvb	
+
+BE: testNNquestionNN
+EQ class: inquirynnexaminevb	questionnnofintestnn	questionnnofintryoutnn	trial_runnncall_into_questionvb	trialnnofinquerynn	testnnofininquirynn	inquirynntry_outvb	tryoutnnquestionvb	trialnncall_into_questionvb	trial_runnnofinquerynn	inquirynntryvb	trial_runnnquestionvb	testnnofinenquirynn	testnnofinquestionnn	testnnquestionvb	trialnnofinquestionnn	trial_runnnquestionnn	trialnnofininquirynn	enquirynnexaminevb	interrogationnnprovevb	testingnnofinquestionnn	trial_runnnoppugnvb	questionvbtrial_runnn	querynntry_outvb	trial_runnninquirynn	interrogationnnofintrialnn	questionnnofintrial_runnn	querynnofintrial_runnn	interrogationnnofintestnn	testnnofinquerynn	querynnexaminevb	enquirynntestvb	tryoutnnofinquerynn	querynnofintrialnn	tryoutnnofininquirynn	querynntryvb	questionnntryvb	querynnofintryoutnn	inquirynnprovevb	interrogationnntryvb	questionnnexaminevb	testnninterrogationnn	questionnnprovevb	call_into_questionvbtryoutnn	querynnprovevb	call_into_questionvbtrialnn	enquirynnofintrialnn	questionnnofintrialnn	testnnoppugnvb	trialnnquerynn	oppugnvbtrialnn	oppugnvbtrial_runnn	inquirynnofintestnn	trialnnquestionnn	enquirynnprovevb	oppugnvbtestnn	questionnntestvb	trialnnofininterrogationnn	tryoutnnofininterrogationnn	tryoutnnofinquestionnn	enquirynntry_outvb	inquirynnofintryoutnn	trial_runnnofinenquirynn	tryoutnnofinenquirynn	testingnnofinquerynn	testingnnofininterrogationnn	testnnquerynn	call_into_questionvbtestnn	trialnnofinenquirynn	enquirynnofintestnn	tryoutnnenquirynn	questionnnessayvb	questionvbtrialnn	trialnninterrogationnn	tryoutnncall_into_questionvb	interrogationnnofintryoutnn	trialnnoppugnvb	tryoutnninquirynn	trial_runnnofinquestionnn	testnninquirynn	enquirynnofintryoutnn	interrogationnnofintrial_runnn	oppugnvbtryoutnn	enquirynnessayvb	questionnntry_outvb	trial_runnnofininterrogationnn	tryoutnnquestionnn	inquirynntestvb	querynnofintestnn	inquirynnofintrial_runnn	trialnninquirynn	inquirynnofintrialnn	call_into_questionvbtrial_runnn	trial_runnninterrogationnn	questionvbtryoutnn	interrogationnnessayvb	querynntestvb	trialnnenquirynn	questionvbtestnn	tryoutnnquerynn	querynnessayvb	trial_runnnquerynn	enquirynnofintrial_runnn	tryoutnnoppugnvb	testingnnofinenquirynn	enquirynntryvb	inquirynnessayvb	trialnnquestionvb	testingnnofininquirynn	trial_runnnofininquirynn	testnnofininterrogationnn	testnnenquirynn	trial_runnnenquirynn	interrogationnntestvb	interrogationnnexaminevb	tryoutnninterrogationnn	testnncall_into_questionvb	interrogationnntry_outvb	
+
+BE: questionNNwereAUX
+EQ class: querynnwereaux	inquirynnbeaux	enquirynnbeaux	inquirynnwereaux	interrogationnnbeaux	querynnbeaux	interrogationnnwereaux	questionnnbeaux	enquirynnwereaux	
+
+BE: wereAUXcorrect.11CD
+EQ class: beauxcorrect.11cd	beauxcorrect11cd	wereauxcorrect11cd	
+
+BE: goVBoverINquestionNN
+EQ class: movevboverinquerynn	locomotevboverinenquirynn	locomotevboverininterrogationnn	locomotevboverinquerynn	travelvboverinquerynn	travelvboverininquirynn	travelvboverininterrogationnn	movevboverininterrogationnn	travelvboverinquestionnn	locomotevboverininquirynn	govboverininterrogationnn	movevboverininquirynn	movevboverinquestionnn	govboverininquirynn	govboverinenquirynn	locomotevboverinquestionnn	travelvboverinenquirynn	govboverinquerynn	movevboverinenquirynn	
+
+BE: wereAUXnotRB
+EQ class: beauxnotrb	
+
+BE: homeworkNN
+EQ class: preparationnn	prepnn	
+
+BE: sitesNNS
+EQ class: sitenns	theynns	land_sitenns	themnns	
+
+BE: internetNN
+EQ class: netnn	cyberspacenn	
+
+BE: excellentJJ
+EQ class: excellencenn	fantabulousjj	excellencynn	splendidjj	first-classjj	
+
+BE: freeJJ
+EQ class: 
+
+BE: excellentJJsitesNNS
+EQ class: excellentjjtheynns	excellencynntheynns	excellencennsitenns	excellentjjthemnns	placevbexcellentlyrb	excellentjjsitenns	excellentjjland_sitenns	first-classjjsitenns	fantabulousjjthemnns	fantabulousjjtheynns	splendidjjsitenns	excellencennland_sitenns	excellencynnsitenns	fantabulousjjland_sitenns	locatevbexcellentlyrb	excellencynnsitesnns	excellencennsitesnns	first-classjjthemnns	splendidjjthemnns	first-classjjsitesnns	splendidjjland_sitenns	splendidjjtheynns	excellencynnthemnns	splendidjjsitesnns	sitevbexcellentlyrb	excellencennthemnns	fantabulousjjsitenns	excellencynnland_sitenns	first-classjjland_sitenns	excellencenntheynns	first-classjjtheynns	fantabulousjjsitesnns	
+
+BE: freeJJsitesNNS
+EQ class: freejjtheynns	sitevbfreelyrb	freejjland_sitenns	freejjthemnns	freejjsitenns	placevbfreelyrb	locatevbfreelyrb	
+
+BE: homeworkNNsitesNNS
+EQ class: preparationnnsitenns	prepnnlocatevb	themnnsofinpreparationnn	placevbhomeworknn	prepnnsitenns	homeworknntheynns	land_sitennsofinprepnn	homeworknnthemnns	theynnsofinhomeworknn	themnnsofinhomeworknn	homeworknnland_sitenns	preparationnnthemnns	homeworknnplacevb	sitesnnsofinprepnn	preparationnnsitevb	sitennsofinprepnn	theynnsofinpreparationnn	locatevbhomeworknn	locatevbpreparationnn	prepnnsitevb	placevbprepnn	homeworknnsitenns	prepnnsitesnns	sitennsofinpreparationnn	prepnnthemnns	preparationnnlocatevb	land_sitennsofinpreparationnn	sitevbhomeworknn	homeworknnsitevb	preparationnntheynns	homeworknnlocatevb	themnnsofinprepnn	land_sitennsofinhomeworknn	placevbpreparationnn	preparationnnplacevb	theynnsofinprepnn	preparationnnland_sitenns	sitesnnsofinpreparationnn	prepnnplacevb	prepnnland_sitenns	preparationnnsitesnns	sitesnnsofinhomeworknn	locatevbprepnn	prepnntheynns	sitevbprepnn	sitevbpreparationnn	sitennsofinhomeworknn	
+
+BE: thereEXareAUX
+EQ class: thereexbeaux	
+
+BE: areAUXsitesNNS
+EQ class: beauxland_sitenns	beauxsitenns	beauxsitesnns	areauxland_sitenns	beauxthemnns	areauxthemnns	beauxtheynns	areauxsitenns	areauxtheynns	
+
+BE: sitesNNSonINinternetNN
+EQ class: sitevbnetnn	internetnnlocatevb	cyberspacennsitesnns	theynnsonininternetnn	cyberspacennthemnns	theynnsonincyberspacenn	locatevbcyberspacenn	internetnnplacevb	sitennsoninnetnn	theynnsoninnetnn	internetnnsitenns	sitevbinternetnn	sitesnnsoninnetnn	internetnnsitesnns	internetnnland_sitenns	sitennsonincyberspacenn	netnnsitesnns	cyberspacennsitenns	internetnnsitevb	netnnsitenns	land_sitennsonincyberspacenn	themnnsoninnetnn	themnnsonincyberspacenn	sitennsonininternetnn	sitesnnsonincyberspacenn	locatevbnetnn	internetnnthemnns	cyberspacenntheynns	netnnplacevb	cyberspacennplacevb	placevbnetnn	placevbinternetnn	netnnlocatevb	locatevbinternetnn	cyberspacennland_sitenns	netnntheynns	cyberspacennsitevb	netnnthemnns	placevbcyberspacenn	cyberspacennlocatevb	land_sitennsoninnetnn	internetnntheynns	land_sitennsonininternetnn	themnnsonininternetnn	sitevbcyberspacenn	netnnland_sitenns	netnnsitevb	
+
+BE: wwwLocationAnnotation
+EQ class: 
+
+BE: TwoCDareAUX
+EQ class: twocdbeaux	iicdbeaux	iicdareaux	deucecdareaux	2cdareaux	2cdbeaux	deucecdbeaux	
+
+BE: areAUXwwwLocationAnnotation
+EQ class: beauxwwwlocationannotation	
+
+BE: TwoCDofINthemPRP
+EQ class: iicdofintipsprp	daysprptwocd	themprpdeucecd	2cdofintipsprp	iicdofinsomething.9.prp	twocdofinclassesprp	deucecdofinclassesprp	daysprpdeucecd	twocdofinquestionsprp	twocdofindaysprp	materialsprpiicd	2cdofindaysprp	questionsprptwocd	themprpiicd	skillsprpiicd	deucecdofinskillsprp	questionsprp2cd	deucecdofintipsprp	questionsprpiicd	twocdofinskillsprp	classesprptwocd	2cdofinsitesprp	sitesprpiicd	2cdofinquestionsprp	twocdofinsomething.9.prp	themprptwocd	daysprpiicd	materialsprptwocd	deucecdofindaysprp	tipsprpdeucecd	materialsprp2cd	something.9.prp2cd	something.9.prpdeucecd	2cdofinsomething.9.prp	iicdofinmaterialsprp	deucecdofinsomething.9.prp	deucecdofinmaterialsprp	deucecdofinquestionsprp	deucecdofinthemprp	2cdofinmaterialsprp	skillsprptwocd	classesprpdeucecd	twocdofinsitesprp	2cdofinclassesprp	tipsprptwocd	sitesprptwocd	iicdofinthemprp	skillsprp2cd	twocdofinmaterialsprp	sitesprp2cd	iicdofinquestionsprp	iicdofindaysprp	materialsprpdeucecd	daysprp2cd	questionsprpdeucecd	classesprpiicd	2cdofinskillsprp	skillsprpdeucecd	themprp2cd	tipsprpiicd	2cdofinthemprp	twocdofintipsprp	sitesprpdeucecd	iicdofinsitesprp	iicdofinskillsprp	something.9.prpiicd	something.9.prptwocd	classesprp2cd	tipsprp2cd	deucecdofinsitesprp	iicdofinclassesprp	
+
+BE: comNN
+EQ class: 
+
+BE: wwwLocationAnnotation
+EQ class: 
+
+BE: jiskhaLocationAnnotation
+EQ class: 
+
+BE: comInNNP
+EQ class: 
+
+BE: additionNN
+EQ class: improvernn	add-onnn	
+
+BE: sitesNNS
+EQ class: sitenns	theynns	land_sitenns	themnns	
+
+BE: studyVB
+EQ class: canvassvb	analysevb	canvasvb	examinevb	analyzevb	
+
+BE: comInNNPadditionNN
+EQ class: improvernnofincominnnp	cominnnpaddvb	add-onnnofincominnnp	addvbcominnnp	cominnnpadd-onnn	cominnnpimprovernn	additionnnofincominnnp	
+
+BE: additionNNstudyVB
+EQ class: studynnofinimprovernn	add-onnncanvasvb	improvernnanalyzevb	additionnnanalyzevb	add-onnnanalysevb	improvernncanvassvb	surveynnofinadditionnn	studynnofinadditionnn	additionnncanvassvb	surveynnofinadd-onnn	add-onnncanvassvb	improvernncanvasvb	improvernnanalysevb	additionnnanalysevb	improvernnstudyvb	studynnofinadd-onnn	improvernnexaminevb	add-onnnstudyvb	add-onnnexaminevb	additionnncanvasvb	add-onnnanalyzevb	surveynnofinimprovernn	additionnnexaminevb	
+
+BE: studyVBsitesNNS
+EQ class: canvasvbtheynns	studyvbthemnns	analyzevbthemnns	examinevbthemnns	studyvbsitenns	canvassvbsitesnns	analysevbsitesnns	studynnofinland_sitenns	surveynnofinsitenns	analysevbland_sitenns	analysevbsitenns	surveynnofinsitesnns	examinevbland_sitenns	surveynnofinland_sitenns	canvasvbland_sitenns	canvasvbsitesnns	surveynnofinthemnns	examinevbtheynns	canvasvbthemnns	canvassvbthemnns	analysevbthemnns	canvasvbsitenns	analyzevbland_sitenns	studyvbland_sitenns	canvassvbtheynns	surveynnofintheynns	examinevbsitesnns	analyzevbsitenns	studynnofinsitenns	studyvbtheynns	studynnofintheynns	studynnofinthemnns	analyzevbtheynns	analysevbtheynns	analyzevbsitesnns	canvassvbsitenns	studynnofinsitesnns	examinevbsitenns	canvassvbland_sitenns	
+
+BE: http://www.d.umnPersonAnnotation
+EQ class: http://wwwdumnpersonannotation	
+
+BE: edu/kmc/student/loon/acad/strat/httpNNP
+EQ class: httpnnp	hypertext_transfer_protocolnnp	
+
+BE: com/NNP
+EQ class: 
+

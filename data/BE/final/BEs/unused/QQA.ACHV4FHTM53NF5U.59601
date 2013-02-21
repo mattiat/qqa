@@ -1,0 +1,46 @@
+#You mean the ancients had six on their minds? 
+#(S1 (S (NP (PRP You)) (VP (VBP mean) (SBAR (S (NP (DT the) (NNS ancients)) (VP (AUX had) (NP (CD six)) (PP (IN on) (NP (PRP$ their) (NNS minds))))))) (. ?)))
+#Rule:Nouns
+r1ancientsNNS
+r1mindsNNS
+
+#Rule:Verbs
+r2meanVBP
+
+#Rule:PRP-Noun
+r6theirPRP$mindsNNS
+
+#Rule:HeadNoun-V
+r11youPRPmeanVBP
+r11ancientsNNShadAUX
+
+#Rule:V-HeadNoun
+r21hadAUXsixCD
+
+#Rule:PPinVP
+r30hadAUXonINmindsNNS
+
+#Isn t there anything else they thought about?
+#(S1 (S (NP (NNP Isn)) (VP (VBZ t) (ADVP (RB there)) (NP (NP (NN anything) (RB else)) (SBAR (S (NP (PRP they)) (VP (VBD thought) (PP (IN about))))))) (. ?)))
+#Rule:Nouns
+r1Isn tLocationAnnotation
+r1anythingNN
+
+#Rule:Verbs
+r2thoughtVBD
+
+#Rule:HeadNoun-V
+r11theyPRPthoughtVBD
+
+#Rule:NP(NP(z) SBAR(S(NP(x)VP(y))))
+r19thoughtVBDanythingNN
+
+#Rule:V-HeadNoun
+r21Isn tLocationAnnotationanythingNN
+
+#Rule:V-ADV
+r46Isn tLocationAnnotationthereRB
+
+@lemmas-left	ancients	they	think	have	Isn t	thought	you	minds	anything	mean	mind	their	had	
+@lemmas-right	think	anything	have	there	thought	mean	mind	had	six	minds	
+@lemmas-center	on	

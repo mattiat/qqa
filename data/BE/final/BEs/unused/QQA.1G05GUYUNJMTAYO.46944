@@ -1,0 +1,57 @@
+#This one is so easy a child can do it. Remember now,  we re talking philosophy..
+#(S1 (S (NP (DT This) (CD one)) (VP (AUX is) (ADJP (RB so) (JJ easy) (SBAR (S (NP (DT a) (NN child)) (VP (MD can) (VP (AUX do) (S (NP (NN it.)) (VP (VB Remember) (S (ADVP (RB now)) (, ,) (NP (PRP we)) (VP (NNP re) (S (VP (VBG talking) (NP (NN philosophy))))) (. .)))))))))) (. .)))
+#Rule:Nouns
+r1childNN
+r1itNN
+r1reNNP
+r1philosophyNN
+
+#Rule:Verbs
+r2rememberVB
+r2talkingVBG
+
+#Rule:Adjs
+r4easyJJ
+
+#Rule:HeadNoun-V
+r11oneCDisAUX
+r11childNNdoAUX
+r11itNNrememberVB
+
+#Rule:V-HeadNoun
+r21talkingVBGphilosophyNN
+
+#Rule:V-HeadNoun
+r22doAUXitNN
+r22rememberVBwePRP
+
+#Rule:V-ADJ
+r25isAUXeasyJJ
+
+#First prove there IS NOT A GOD, then reverse everything!
+#(S1 (S (ADVP (RB First)) (VP (VB prove) (SBAR (S (NP (EX there)) (VP (AUX IS) (RB NOT) (NP (DT A) (NNP GOD) (, ,) (RB then) (JJ reverse) (NN everything)))))) (. !)))
+#Rule:Nouns
+r1IS NOT A GODOrganizationAnnotation
+r1everythingNN
+
+#Rule:Verbs
+r2proveVB
+
+#Rule:Adjs
+r4reverseJJ
+
+#Rule:Adj-Noun
+r5reverseJJeverythingNN
+
+#Rule:HeadNoun-V
+r11thereEXIS NOT A GODOrganizationAnnotation
+
+#Rule:V-HeadNoun
+r21IS NOT A GODOrganizationAnnotationeverythingNN
+
+#Rule:V-ADV
+r46proveVBFirstRB
+
+@lemmas-left	IS NOT A GOD	remember	reverse	prove	is	it	philosophy	one	everything	re	it.	child	talking	easy	there	do	talk	be	
+@lemmas-right	remember	IS NOT A GOD	is	it	philosophy	everything	First	it.	easy	do	first	be	we	
+@lemmas-center	

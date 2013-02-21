@@ -1,0 +1,14 @@
+#I believe 4.
+#(S1 (S (NP (PRP I)) (VP (VBP believe) (NP (CD 4))) (. .)))
+#Rule:Verbs
+r2believeVBP
+
+#Rule:HeadNoun-V
+r11iPRPbelieveVBP
+
+#Rule:V-HeadNoun
+r21believeVBP4CD
+
+@lemmas-left	believe	i	
+@lemmas-right	4	believe	
+@lemmas-center	

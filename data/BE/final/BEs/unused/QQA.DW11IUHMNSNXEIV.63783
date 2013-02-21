@@ -1,0 +1,14 @@
+#use ice
+#(S1 (S (VP (VB use) (NP (NN ice)))))
+#Rule:Nouns
+r1iceOrganizationAnnotation
+
+#Rule:Verbs
+r2useVB
+
+#Rule:V-HeadNoun
+r21useVBiceOrganizationAnnotation
+
+@lemmas-left	ice	use	
+@lemmas-right	ice	
+@lemmas-center	

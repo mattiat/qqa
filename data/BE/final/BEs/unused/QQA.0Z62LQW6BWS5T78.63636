@@ -1,0 +1,45 @@
+#Evolution is influences on isolation of populations, so if monkeys find themselves isolated, they evolve in difference directions
+#(S1 (S (S (NP (NN Evolution)) (VP (AUX is) (NP (NP (NNS influences)) (PP (IN on) (NP (NP (NN isolation)) (PP (IN of) (NP (NNS populations)))))))) (, ,) (RB so) (S (SBAR (IN if) (S (NP (NNS monkeys)) (VP (VBP find) (S (NP (PRP themselves)) (ADJP (JJ isolated)))))) (, ,) (NP (PRP they)) (VP (VB evolve) (PP (IN in) (NP (NN difference) (NNS directions)))))))
+#Rule:Nouns
+r1EvolutionNN
+r1influencesNNS
+r1isolationNN
+r1populationsNNS
+r1monkeysNNS
+r1differenceNN
+r1directionsNNS
+
+#Rule:Verbs
+r2findVBP
+r2evolveVB
+
+#Rule:Adjs
+r4isolatedJJ
+
+#Rule:N-HeadNoun
+r8differenceNNdirectionsNNS
+
+#Rule:HeadNoun-V
+r11EvolutionNNisAUX
+r11theyPRPevolveVB
+r11monkeysNNSfindVBP
+
+#Rule:V-HeadNoun
+r21isAUXinfluencesNNS
+
+#Rule:V-HeadNoun
+r22findVBPthemselvesPRP
+
+#Rule:PPinNP
+r26influencesNNSonINisolationNN
+r26isolationNNofINpopulationsNNS
+
+#Rule:PPinVP
+r30evolveVBinINdirectionsNNS
+
+#Rule:IS-RULE
+r47influencesNNSEvolutionNN
+
+@lemmas-left	they	isolated	is	monkeys	direction	influence	influences	evolution	difference	directions	populations	isolation	evolve	Evolution	monkey	find	be	population	
+@lemmas-right	is	direction	influence	influences	evolution	directions	populations	isolation	themselves	Evolution	evolve	find	be	population	
+@lemmas-center	of	on	in	

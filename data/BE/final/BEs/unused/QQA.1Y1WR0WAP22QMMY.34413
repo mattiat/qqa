@@ -1,0 +1,32 @@
+#Although a ship can not go faster than light, the space that the ship is in can, or so I understand, making warp drive theoretically possible.
+#(S1 (S (SBAR (IN Although) (S (NP (DT a) (NN ship)) (VP (MD can) (RB not) (VP (VB go) (ADVP (ADVP (RBR faster)) (PP (IN than) (NP (NN light)))))))) (, ,) (S (NP (DT the) (NN space) (SBAR (IN that) (S (NP (DT the) (NN ship)) (VP (AUX is) (PP (IN in)))))) (VP (MD can))) (, ,) (CC or) (RB so) (S (NP (PRP I)) (VP (VBP understand) (, ,) (S (VP (VBG making) (S (NP (NN warp) (NN drive)) (ADJP (RB theoretically) (JJ possible))))))) (. .)))
+#Rule:Nouns
+r1shipNN
+r1lightNN
+r1spaceNN
+r1shipNN
+r1warpNN
+r1driveNN
+
+#Rule:Verbs
+r2goVB
+r2understandVBP
+r2makingVBG
+
+#Rule:Adjs
+r4possibleJJ
+
+#Rule:N-HeadNoun
+r8warpNNdriveNN
+
+#Rule:HeadNoun-V
+r11shipNNgoVB
+r11shipNNisAUX
+r11iPRPunderstandVBP
+
+#Rule:V-HeadNoun
+r22makingVBGdriveNN
+
+@lemmas-left	possible	understand	drive	ship	making	space	make	light	warp	i	go	
+@lemmas-right	is	understand	drive	be	go	
+@lemmas-center	

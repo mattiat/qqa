@@ -1,0 +1,324 @@
+BE: landfillsNNS
+EQ class: landfillnns	theynns	themnns	
+
+BE: layerNN
+EQ class: bednn	
+
+BE: soilNN
+EQ class: grimenn	grungenn	stainnn	dirtnn	greasenn	filthnn	
+
+BE: wasteNN
+EQ class: waste_productnn	waste_matternn	waste_materialnn	
+
+BE: endNN
+EQ class: terminalnn	
+
+BE: dayNN
+EQ class: dailyjj	24-hour_intervalnn	twenty-four_hoursnn	twenty-four_hour_periodnn	mean_solar_daynn	solar_daynn	
+
+BE: placedVBN
+EQ class: positionvbn	posevbn	placevbn	setvbn	putvbn	layvbn	
+
+BE: landfillsNNShaveAUX
+EQ class: landfillnnshave_gotaux	havennofinlandfillsnns	havennofintheynns	theynnshave_gotaux	rich_personnnofinlandfillsnns	wealthy_personnnofintheynns	theynnshaveaux	havennofinthemnns	wealthy_personnnofinthemnns	themnnshave_gotaux	wealthy_personnnofinlandfillsnns	landfillnnsholdaux	havennofinlandfillnns	rich_personnnofinlandfillnns	themnnsholdaux	theynnsholdaux	wealthy_personnnofinlandfillnns	landfillsnnsholdaux	landfillsnnshave_gotaux	themnnshaveaux	landfillnnshaveaux	rich_personnnofintheynns	rich_personnnofinthemnns	
+
+BE: haveAUXlayerNN
+EQ class: holdauxbednn	have_gotauxbednn	haveauxbednn	rich_personnnofinbednn	havennofinlayernn	have_gotauxlayernn	rich_personnnofinlayernn	havennofinbednn	wealthy_personnnofinbednn	wealthy_personnnofinlayernn	holdauxlayernn	
+
+BE: placedVBNsoilNN
+EQ class: positionvbnsoilnn	placedvbnfilthnn	layvbnstainnn	setvbnsoilnn	positionvbngreasenn	spotnnofingrimenn	topographic_pointnnofinfilthnn	positionvbndirtnn	putvbngrimenn	posevbngrimenn	placennofinstainnn	placennofingreasenn	placementnnofingrimenn	placennofingrimenn	placennofinsoilnn	arrangementnnofingrimenn	setvbnfilthnn	putvbndirtnn	arrangementnnofinfilthnn	placedvbngrimenn	layvbndirtnn	arrangementnnofinstainnn	spotnnofinstainnn	putvbngrungenn	setvbngrimenn	placevbndirtnn	placevbnstainnn	spotnnofindirtnn	arrangementnnofindirtnn	posevbndirtnn	spotnnofinsoilnn	placevbnsoilnn	layvbnfilthnn	topographic_pointnnofinstainnn	placementnnofingrungenn	placedvbngrungenn	placedvbndirtnn	placementnnofindirtnn	placennofindirtnn	spotnnofingrungenn	placennofinfilthnn	placementnnofinstainnn	layvbnsoilnn	placevbnfilthnn	placennofingrungenn	placedvbnstainnn	posevbnfilthnn	arrangementnnofinsoilnn	topographic_pointnnofindirtnn	positionvbngrungenn	layvbngrungenn	putvbnsoilnn	layvbngrimenn	topographic_pointnnofingrimenn	spotnnofinfilthnn	placementnnofinfilthnn	posevbnstainnn	setvbndirtnn	placementnnofinsoilnn	positionvbnstainnn	layvbngreasenn	arrangementnnofingreasenn	placedvbngreasenn	posevbnsoilnn	putvbnfilthnn	positionvbngrimenn	topographic_pointnnofinsoilnn	topographic_pointnnofingreasenn	placevbngrungenn	placevbngrimenn	setvbngreasenn	posevbngrungenn	placevbngreasenn	putvbngreasenn	topographic_pointnnofingrungenn	setvbngrungenn	putvbnstainnn	setvbnstainnn	placementnnofingreasenn	arrangementnnofingrungenn	spotnnofingreasenn	positionvbnfilthnn	posevbngreasenn	
+
+BE: layerNNofINsoilNN
+EQ class: bednnofingrimenn	greasennlayervb	filthnnlayernn	grimennbednn	layernnofingrimenn	layernnofindirtnn	stainnnbednn	filthnnlayervb	greasennbednn	layervbfilthnn	bednnofingreasenn	bednnofinfilthnn	greasennlayernn	stainnnlayernn	bednnofindirtnn	layervbgrimenn	layernnofingrungenn	layervbsoilnn	bednnofinsoilnn	dirtnnlayernn	layervbgreasenn	layervbstainnn	layernnofinstainnn	bednnofingrungenn	bednnofinstainnn	filthnnbednn	layervbgrungenn	soilnnlayervb	grimennlayervb	grimennlayernn	stainnnlayervb	layernnofinfilthnn	dirtnnlayervb	grungennlayervb	layervbdirtnn	grungennlayernn	soilnnbednn	grungennbednn	dirtnnbednn	soilnnlayernn	layernnofingreasenn	
+
+BE: endNNofINdayNN
+EQ class: stopvbtwenty-four_hoursnn	twenty-four_hour_periodnnfinishvb	mean_solar_daynnendnn	daynnterminalnn	terminatevbdaynn	daynnceasevb	dailyjjendvb	twenty-four_hoursnnfinishvb	endnnofin24-hour_intervalnn	finishvbsolar_daynn	solar_daynnterminalnn	ceasevb24-hour_intervalnn	twenty-four_hour_periodnnterminatevb	mean_solar_daynnterminatevb	stopvb24-hour_intervalnn	24-hour_intervalnnfinishvb	solar_daynnceasevb	twenty-four_hour_periodnnstopvb	terminalnnofindailyjj	daynnfinishvb	dailyjjstopvb	stopvbsolar_daynn	endvbdaynn	terminatevb24-hour_intervalnn	endvbmean_solar_daynn	24-hour_intervalnnstopvb	terminatevbtwenty-four_hour_periodnn	endvbdailyjj	twenty-four_hoursnnceasevb	twenty-four_hour_periodnnendnn	24-hour_intervalnnterminalnn	dailyjjterminatevb	ceasevbsolar_daynn	finishvbmean_solar_daynn	mean_solar_daynnendvb	endvbtwenty-four_hour_periodnn	ceasevbdaynn	terminatevbdailyjj	twenty-four_hour_periodnnceasevb	terminalnnofintwenty-four_hour_periodnn	twenty-four_hoursnnterminalnn	stopvbtwenty-four_hour_periodnn	terminalnnofinmean_solar_daynn	dailyjjendnn	solar_daynnfinishvb	stopvbmean_solar_daynn	daynnendnn	terminatevbmean_solar_daynn	endnnofinmean_solar_daynn	twenty-four_hoursnnendnn	finishvbdailyjj	twenty-four_hoursnnendvb	finishvbtwenty-four_hoursnn	endvbtwenty-four_hoursnn	solar_daynnterminatevb	daynnendvb	twenty-four_hour_periodnnterminalnn	24-hour_intervalnnendnn	daynnterminatevb	terminalnnofindaynn	ceasevbtwenty-four_hour_periodnn	endvbsolar_daynn	solar_daynnendvb	stopvbdaynn	endvb24-hour_intervalnn	twenty-four_hoursnnterminatevb	24-hour_intervalnnterminatevb	dailyjjfinishvb	finishvbdaynn	ceasevbmean_solar_daynn	endnnofinsolar_daynn	dailyjjterminalnn	dailyjjceasevb	solar_daynnstopvb	mean_solar_daynnceasevb	twenty-four_hour_periodnnendvb	mean_solar_daynnfinishvb	24-hour_intervalnnceasevb	finishvb24-hour_intervalnn	terminatevbtwenty-four_hoursnn	ceasevbtwenty-four_hoursnn	terminalnnofin24-hour_intervalnn	terminalnnofinsolar_daynn	terminalnnofintwenty-four_hoursnn	twenty-four_hoursnnstopvb	daynnstopvb	solar_daynnendnn	endnnofintwenty-four_hour_periodnn	endnnofindailyjj	endnnofintwenty-four_hoursnn	stopvbdailyjj	terminatevbsolar_daynn	ceasevbdailyjj	mean_solar_daynnstopvb	finishvbtwenty-four_hour_periodnn	mean_solar_daynnterminalnn	24-hour_intervalnnendvb	
+
+BE: placedVBNoverINwasteNN
+EQ class: placevbnoverinwaste_materialnn	setvbnoverinwaste_materialnn	posevbnoverinwastenn	putvbnoverinwaste_materialnn	placevbnoverinwaste_productnn	positionvbnoverinwastenn	setvbnoverinwaste_matternn	positionvbnoverinwaste_materialnn	putvbnoverinwaste_matternn	posevbnoverinwaste_matternn	placevbnoverinwastenn	layvbnoverinwaste_matternn	positionvbnoverinwaste_matternn	layvbnoverinwaste_productnn	layvbnoverinwaste_materialnn	placedvbnoverinwaste_productnn	posevbnoverinwaste_materialnn	placedvbnoverinwaste_matternn	setvbnoverinwaste_productnn	putvbnoverinwaste_productnn	setvbnoverinwastenn	placedvbnoverinwaste_materialnn	placevbnoverinwaste_matternn	posevbnoverinwaste_productnn	layvbnoverinwastenn	positionvbnoverinwaste_productnn	putvbnoverinwastenn	
+
+BE: placedVBNatINendNN
+EQ class: layvbnatinterminalnn	placedvbnatinterminalnn	putvbnatinterminalnn	layvbnatinendnn	setvbnatinterminalnn	placevbnatinendnn	posevbnatinendnn	putvbnatinendnn	posevbnatinterminalnn	placevbnatinterminalnn	positionvbnatinterminalnn	setvbnatinendnn	positionvbnatinendnn	
+
+BE: KindPersonAnnotation
+EQ class: 
+
+BE: ratsNNS
+EQ class: ratnns	theynns	rattyjj	themnns	
+
+BE: housekeepingNN
+EQ class: houseworknn	
+
+BE: seaNN
+EQ class: 
+
+BE: gullsNNS
+EQ class: fall_guynns	soft_touchnns	patsynns	foolnns	marknns	mugnns	suckernns	theynns	chumpnns	themnns	gullnns	
+
+BE: fieldNN
+EQ class: 
+
+BE: dayNN
+EQ class: dailyjj	24-hour_intervalnn	twenty-four_hoursnn	twenty-four_hour_periodnn	mean_solar_daynn	solar_daynn	
+
+BE: setVBupRP
+EQ class: putvbuprp	scenennofinuprp	positionvbuprp	placevbuprp	posevbuprp	settingnnofinuprp	setnnofinuprp	layvbuprp	
+
+BE: hardJJ
+EQ class: difficultjj	hardnessnn	
+
+BE: seaNNgullsNNS
+EQ class: theynnsofinseann	seannchumpnns	seannsuckernns	marknnsofinseann	seanngullvb	seannmarknns	seannfoolvb	seanngullnns	seannsoft_touchnns	soft_touchnnsofinseann	chumpnnsofinseann	patsynnsofinseann	seannmugnns	seannbefoolvb	seannpatsynns	suckernnsofinseann	seannfoolnns	gullsnnsofinseann	mugnnsofinseann	foolnnsofinseann	fall_guynnsofinseann	themnnsofinseann	befoolvbseann	seannfall_guynns	seannthemnns	seanntheynns	gullvbseann	foolvbseann	gullnnsofinseann	
+
+BE: fieldNNdayNN
+EQ class: solar_daynnofinfieldnn	fieldnnmean_solar_daynn	fieldnnsolar_daynn	fieldnntwenty-four_hour_periodnn	fieldnntwenty-four_hoursnn	fieldnn24-hour_intervalnn	twenty-four_hour_periodnnofinfieldnn	mean_solar_daynnofinfieldnn	twenty-four_hoursnnofinfieldnn	dailyvbfieldnn	fieldnndailyjj	24-hour_intervalnnofinfieldnn	fieldnndailyvb	daynnofinfieldnn	dailyjjofinfieldnn	
+
+BE: KindPersonAnnotationsetVB
+EQ class: kindpersonannotationpositionvb	settingnnofinkindpersonannotation	kindpersonannotationlayvb	scenennkindpersonannotation	kindpersonannotationputvb	settingnnkindpersonannotation	kindpersonannotationposevb	scenennofinkindpersonannotation	setnnofinkindpersonannotation	kindpersonannotationplacevb	
+
+BE: gullsNNShaveAUX
+EQ class: wealthy_personnnofinfoolnns	theynnshave_gotaux	wealthy_personnnofintheynns	havennofinpatsynns	rich_personnnofinfall_guynns	patsynnshave_gotaux	gullnnsholdaux	havennofinsoft_touchnns	foolnnsholdaux	wealthy_personnnofinmarknns	soft_touchnnsholdaux	gullnnshaveaux	wealthy_personnnofinpatsynns	themnnsholdaux	themnnshaveaux	havennofinfall_guynns	suckernnshaveaux	wealthy_personnnofingullnns	mugnnshave_gotaux	fall_guynnsholdaux	havennofingullsnns	marknnsholdaux	wealthy_personnnofinchumpnns	foolnnshaveaux	havennofinthemnns	chumpnnshaveaux	wealthy_personnnofinthemnns	rich_personnnofingullsnns	rich_personnnofinpatsynns	wealthy_personnnofinfall_guynns	wealthy_personnnofinsuckernns	rich_personnnofinfoolnns	havennofinchumpnns	marknnshave_gotaux	rich_personnnofintheynns	chumpnnsholdaux	havennofintheynns	havennofinmarknns	suckernnsholdaux	mugnnshaveaux	theynnshaveaux	wealthy_personnnofinmugnns	gullsnnshave_gotaux	suckernnshave_gotaux	fall_guynnshave_gotaux	havennofinfoolnns	marknnshaveaux	havennofinsuckernns	theynnsholdaux	havennofinmugnns	soft_touchnnshave_gotaux	rich_personnnofinmugnns	soft_touchnnshaveaux	chumpnnshave_gotaux	rich_personnnofinthemnns	rich_personnnofinsoft_touchnns	rich_personnnofinmarknns	havennofingullnns	foolnnshave_gotaux	gullsnnsholdaux	gullnnshave_gotaux	mugnnsholdaux	rich_personnnofinsuckernns	rich_personnnofingullnns	themnnshave_gotaux	patsynnsholdaux	fall_guynnshaveaux	wealthy_personnnofingullsnns	patsynnshaveaux	rich_personnnofinchumpnns	wealthy_personnnofinsoft_touchnns	
+
+BE: setVBhousekeepingNN
+EQ class: layvbhouseworknn	scenennofinhousekeepingnn	scenennofinhouseworknn	positionvbhousekeepingnn	putvbhouseworknn	placevbhousekeepingnn	settingnnofinhouseworknn	setnnofinhousekeepingnn	settingnnofinhousekeepingnn	setnnofinhouseworknn	putvbhousekeepingnn	setvbhouseworknn	positionvbhouseworknn	posevbhousekeepingnn	posevbhouseworknn	placevbhouseworknn	layvbhousekeepingnn	
+
+BE: haveAUXdayNN
+EQ class: rich_personnnofinsolar_daynn	havennofinsolar_daynn	have_gotauxdaynn	holdauxdailyjj	have_gotauxmean_solar_daynn	holdauxmean_solar_daynn	rich_personnnofintwenty-four_hoursnn	wealthy_personnnofinsolar_daynn	have_gotauxdailyjj	havennofin24-hour_intervalnn	have_gotaux24-hour_intervalnn	haveauxtwenty-four_hour_periodnn	haveauxtwenty-four_hoursnn	holdauxtwenty-four_hoursnn	wealthy_personnnofinmean_solar_daynn	havennofinmean_solar_daynn	haveauxsolar_daynn	holdauxtwenty-four_hour_periodnn	holdauxsolar_daynn	havennofindailyjj	wealthy_personnnofintwenty-four_hour_periodnn	have_gotauxtwenty-four_hour_periodnn	wealthy_personnnofindaynn	haveauxdailyjj	have_gotauxsolar_daynn	rich_personnnofin24-hour_intervalnn	wealthy_personnnofindailyjj	have_gotauxtwenty-four_hoursnn	rich_personnnofintwenty-four_hour_periodnn	rich_personnnofinmean_solar_daynn	havennofindaynn	holdaux24-hour_intervalnn	wealthy_personnnofin24-hour_intervalnn	havennofintwenty-four_hour_periodnn	haveauxmean_solar_daynn	haveaux24-hour_intervalnn	holdauxdaynn	rich_personnnofindailyjj	havennofintwenty-four_hoursnn	rich_personnnofindaynn	wealthy_personnnofintwenty-four_hoursnn	
+
+BE: hardJJforINratsNNS
+EQ class: hardnessnnforinrattyjj	hardjjforinthemnns	difficultjjforinratnns	hardjjforinratnns	difficultjjforinratsnns	ratvbhardlyrb	difficultjjforintheynns	hardnessnnforinratnns	hardnessnnforintheynns	hardnessnnforinratsnns	hardnessnnforinthemnns	difficultjjforinthemnns	hardjjforinrattyjj	difficultjjforinrattyjj	hardjjforintheynns	rattyvbhardlyrb	
+
+BE: setVBalthoughINhaveAUX
+EQ class: placevbalthoughinhave_gotaux	positionvbalthoughinhave_gotaux	posevbalthoughinhaveaux	positionvbalthoughinholdaux	placevbalthoughinhaveaux	putvbalthoughinhave_gotaux	layvbalthoughinholdaux	layvbalthoughinhave_gotaux	putvbalthoughinholdaux	layvbalthoughinhaveaux	posevbalthoughinholdaux	posevbalthoughinhave_gotaux	setvbalthoughinholdaux	putvbalthoughinhaveaux	setvbalthoughinhave_gotaux	placevbalthoughinholdaux	positionvbalthoughinhaveaux	
+
+BE: landfillsNNS
+EQ class: landfillnns	theynns	themnns	
+
+BE: New Yorks Fresh KillsOrganizationAnnotation
+EQ class: 
+
+BE: problemsNNS
+EQ class: problemnns	problematicaljj	theynns	problematicjj	themnns	jobnns	
+
+BE: leachateOrganizationAnnotation
+EQ class: 
+
+BE: OldJJ
+EQ class: oldnessnn	
+
+BE: suchJJ
+EQ class: 
+
+BE: OldJJlandfillsNNS
+EQ class: oldjjthemnns	oldnessnnthemnns	oldnessnnlandfillsnns	oldnessnntheynns	oldjjtheynns	oldjjlandfillnns	oldnessnnlandfillnns	
+
+BE: landfillsNNShaveAUX
+EQ class: landfillnnshave_gotaux	havennofinlandfillsnns	havennofintheynns	theynnshave_gotaux	rich_personnnofinlandfillsnns	wealthy_personnnofintheynns	theynnshaveaux	havennofinthemnns	wealthy_personnnofinthemnns	themnnshave_gotaux	wealthy_personnnofinlandfillsnns	landfillnnsholdaux	havennofinlandfillnns	rich_personnnofinlandfillnns	themnnsholdaux	theynnsholdaux	wealthy_personnnofinlandfillnns	landfillsnnsholdaux	landfillsnnshave_gotaux	themnnshaveaux	landfillnnshaveaux	rich_personnnofintheynns	rich_personnnofinthemnns	
+
+BE: haveAUXproblemsNNS
+EQ class: havennofintheynns	holdauxtheynns	holdauxproblematicaljj	rich_personnnofinproblematicaljj	wealthy_personnnofintheynns	have_gotauxjobnns	holdauxthemnns	have_gotauxproblematicaljj	haveauxtheynns	have_gotauxtheynns	wealthy_personnnofinproblematicaljj	havennofinproblemnns	holdauxjobnns	wealthy_personnnofinjobnns	havennofinproblematicjj	rich_personnnofinthemnns	haveauxproblematicaljj	haveauxjobnns	wealthy_personnnofinproblematicjj	wealthy_personnnofinproblemsnns	havennofinthemnns	havennofinproblemsnns	have_gotauxproblemsnns	haveauxproblematicjj	havennofinproblematicaljj	holdauxproblemsnns	wealthy_personnnofinthemnns	have_gotauxproblemnns	have_gotauxproblematicjj	rich_personnnofinproblemsnns	rich_personnnofinproblemnns	haveauxthemnns	rich_personnnofinjobnns	holdauxproblemnns	have_gotauxthemnns	havennofinjobnns	rich_personnnofinproblematicjj	holdauxproblematicjj	wealthy_personnnofinproblemnns	haveauxproblemnns	rich_personnnofintheynns	
+
+BE: landfillsNNSasINNew Yorks Fresh KillsOrganizationAnnotation
+EQ class: landfillnnsasinnew yorks fresh killsorganizationannotation	new yorks fresh killsorganizationannotationlandfillnns	new yorks fresh killsorganizationannotationthemnns	new yorks fresh killsorganizationannotationtheynns	theynnsasinnew yorks fresh killsorganizationannotation	new yorks fresh killsorganizationannotationlandfillsnns	themnnsasinnew yorks fresh killsorganizationannotation	
+
+BE: problemsNNSwithINleachateOrganizationAnnotation
+EQ class: leachateorganizationannotationproblemsnns	problematicvbleachateorganizationannotation	leachateorganizationannotationproblematicvb	themnnswithinleachateorganizationannotation	problematicalvbleachateorganizationannotation	problematicaljjwithinleachateorganizationannotation	theynnswithinleachateorganizationannotation	jobnnswithinleachateorganizationannotation	problemnnswithinleachateorganizationannotation	leachateorganizationannotationjobnns	leachateorganizationannotationproblematicaljj	leachateorganizationannotationproblematicjj	problematicjjwithinleachateorganizationannotation	leachateorganizationannotationtheynns	leachateorganizationannotationproblemnns	leachateorganizationannotationproblematicalvb	leachateorganizationannotationthemnns	
+
+BE: onesNNS
+EQ class: inns	acenns	theynns	1nns	onenns	unitynns	singlenns	themnns	
+
+BE: tLocationAnnotation
+EQ class: 
+
+BE: useNN
+EQ class: utilisationnn	usagenn	exercisenn	employmentnn	utilizationnn	
+
+BE: clayNNP
+EQ class: 
+
+BE: fabricNN
+EQ class: textilenn	clothnn	materialnn	
+
+BE: linersNNS
+EQ class: line_drivenns	linernns	theynns	themnns	
+
+BE: waterNN
+EQ class: wateryjj	h2onn	
+
+BE: movementNN
+EQ class: movenn	motilitynn	motionnn	
+
+BE: landfillNN
+EQ class: 
+
+BE: donVB
+EQ class: assumevb	put_onvb	wearvb	get_intovb	
+
+BE: stopVB
+EQ class: haltvb	
+
+BE: NewJJ
+EQ class: newnessnn	
+
+BE: geo-syntheticJJ
+EQ class: semisyntheticjj	syntheticjj	man-madejj	
+
+BE: NewJJonesNNS
+EQ class: newjjtheynns	newnessnnonesnns	newnessnninns	newnessnnthemnns	newjjonenns	newnessnnonenns	newnessnnacenns	newjjacenns	newnessnnunitynns	newjjunitynns	newjjthemnns	newjjsinglenns	newjj1nns	newjjinns	newnessnntheynns	newnessnn1nns	newnessnnsinglenns	
+
+BE: geo-syntheticJJlinersNNS
+EQ class: semisyntheticjjline_drivenns	syntheticjjtheynns	man-madejjtheynns	geo-syntheticjjthemnns	man-madejjline_drivenns	semisyntheticjjlinernns	man-madejjlinernns	man-madejjlinersnns	geo-syntheticjjlinernns	syntheticjjlinernns	geo-syntheticjjline_drivenns	semisyntheticjjthemnns	syntheticjjline_drivenns	man-madejjthemnns	geo-syntheticjjtheynns	syntheticjjthemnns	syntheticjjlinersnns	semisyntheticjjlinersnns	semisyntheticjjtheynns	
+
+BE: fabricNNlinersNNS
+EQ class: linernnsofinfabricnn	textilennline_drivenns	clothnnlinersnns	fabricnnlinernns	clothnnlinernns	themnnsofinfabricnn	theynnsofinfabricnn	themnnsofinclothnn	linernnsofinclothnn	theynnsofintextilenn	materialnnthemnns	fabricnntheynns	clothnnthemnns	theynnsofinclothnn	clothnntheynns	textilenntheynns	textilennlinersnns	materialnnlinersnns	textilennthemnns	linersnnsofinmaterialnn	linersnnsofintextilenn	materialnnline_drivenns	line_drivennsofinclothnn	linersnnsofinfabricnn	line_drivennsofinfabricnn	materialnntheynns	fabricnnthemnns	linernnsofinmaterialnn	clothnnline_drivenns	linernnsofintextilenn	textilennlinernns	fabricnnline_drivenns	line_drivennsofintextilenn	line_drivennsofinmaterialnn	linersnnsofinclothnn	theynnsofinmaterialnn	materialnnlinernns	themnnsofintextilenn	themnnsofinmaterialnn	
+
+BE: waterNNmovementNN
+EQ class: movennofinh2onn	tearingnnofinmotilitynn	tearingnnofinmovementnn	waternnlocomotevb	wateryjjofinmovementnn	waternnofinmovementnn	travelvbwaternn	wateringnnofinmovementnn	motionnnwatervb	wateryjjofinmotionnn	movevbwateryjj	locomotevbwaternn	wateryjjmotilitynn	lacrimationnnofinmotionnn	wateryjjofinmovenn	wateryjjmotionnn	lachrymationnnofinmovementnn	h2onnmovementnn	waternnmotionnn	h2onntravelvb	motionnnirrigatevb	tearingnnofinmotionnn	lacrimationnnofinmovementnn	waternngovb	movementnnofinwateryjj	waternnmovenn	h2onnmovevb	h2onngovb	h2onnofinmotilitynn	waternnmotilitynn	waternnmovevb	wateryjjmovementnn	motilitynnirrigatevb	movementnnwatervb	waternnofinmotilitynn	h2onnmotilitynn	waternntravelvb	waternnofinmovenn	govbwaternn	movementnnirrigatevb	locomotevbwateryjj	h2onnofinmotionnn	wateringnnofinmotilitynn	movevbwaternn	lachrymationnnofinmotionnn	motionnnofinwateryjj	motionnnofinwaternn	wateringnnofinmotionnn	wateryjjlocomotevb	movennirrigatevb	motionnnofinh2onn	govbh2onn	lacrimationnnofinmotilitynn	h2onnmotionnn	lacrimationnnofinmovenn	travelvbwateryjj	motilitynnofinwaternn	waterernnofinmotionnn	lachrymationnnofinmotilitynn	travelvbh2onn	motilitynnofinwateryjj	movennofinwateryjj	locomotevbh2onn	h2onnmovenn	h2onnlocomotevb	movementnnofinh2onn	wateryjjtravelvb	movennofinwaternn	h2onnofinmovementnn	movevbh2onn	wateryjjgovb	govbwateryjj	movementnnofinwaternn	wateryjjmovenn	lachrymationnnofinmovenn	movennwatervb	wateryjjmovevb	waterernnofinmotilitynn	motilitynnwatervb	wateringnnofinmovenn	wateryjjofinmotilitynn	waterernnofinmovenn	waterernnofinmovementnn	h2onnofinmovenn	motilitynnofinh2onn	tearingnnofinmovenn	waternnofinmotionnn	
+
+BE: onesNNSdonVB
+EQ class: theynnsassumevb	theynnswearvb	innswearvb	unitynnsdonvb	themnnsput_onvb	acennswearvb	unitynnswearvb	1nnsassumevb	themnnsdonvb	acennsput_onvb	acennsget_intovb	unitynnsget_intovb	singlennswearvb	unitynnsassumevb	onennsdonvb	themnnsassumevb	onennswearvb	1nnsput_onvb	themnnsget_intovb	theynnsput_onvb	1nnsget_intovb	acennsassumevb	singlennsdonvb	onesnnsassumevb	onesnnsput_onvb	acennsdonvb	theynnsdonvb	innsassumevb	unitynnsput_onvb	onennsassumevb	singlennsput_onvb	innsput_onvb	innsdonvb	singlennsget_intovb	singlennsassumevb	onesnnsget_intovb	onennsput_onvb	theynnsget_intovb	themnnswearvb	1nnsdonvb	onennsget_intovb	innsget_intovb	onesnnswearvb	1nnswearvb	
+
+BE: donVBtLocationAnnotation
+EQ class: wearvbtlocationannotation	get_intovbtlocationannotation	put_onvbtlocationannotation	assumevbtlocationannotation	
+
+BE: stopVBmovementNN
+EQ class: stopvbmovenn	haltnnofinmovenn	stopnnofinmovenn	haltvbmovenn	stopvbmotilitynn	stopnnofinmovementnn	stopvbmotionnn	haltnnofinmovementnn	haltnnofinmotionnn	haltvbmovementnn	stopnnofinmotionnn	haltnnofinmotilitynn	stopnnofinmotilitynn	haltvbmotilitynn	haltvbmotionnn	
+
+BE: useNNofINlinersNNS
+EQ class: themnnsutilizationnn	exercisennofinline_drivenns	theynnsusenn	theynnsusagenn	applyvbthemnns	utilisevblinersnns	themnnsutilizevb	linernnsusevb	linernnsusagenn	utilisevblinernns	linernnsexercisenn	usagennofinlinersnns	linersnnsutilizationnn	utilisationnnofinlinernns	utilizationnnofinline_drivenns	employmentnnofinthemnns	utilisevbthemnns	linersnnsutilisationnn	usevblinernns	utilisationnnofinlinersnns	employmentnnofinlinersnns	linernnsusenn	line_drivennsutilizevb	themnnsutilisationnn	usennofinthemnns	employvbthemnns	themnnsemploymentnn	theynnsutilizevb	utilisationnnofintheynns	employvblinernns	theynnsutilisevb	utilisevbline_drivenns	utilizationnnofintheynns	utilizationnnofinthemnns	applyvblinernns	employvbline_drivenns	line_drivennsemploymentnn	employmentnnofinlinernns	exercisennofinlinernns	usagennofintheynns	themnnsusagenn	linersnnsutilisevb	exercisennofintheynns	usagennofinlinernns	theynnsusevb	linersnnsusagenn	usevbline_drivenns	theynnsapplyvb	exercisennofinlinersnns	utilisevbtheynns	linernnsapplyvb	linersnnsusenn	utilizevbtheynns	linernnsutilisevb	usagennofinline_drivenns	linersnnsemployvb	employvbtheynns	themnnsapplyvb	utilisationnnofinline_drivenns	applyvblinersnns	linernnsemployvb	linersnnsusevb	themnnsexercisenn	employvblinersnns	line_drivennsusevb	linernnsemploymentnn	line_drivennsexercisenn	line_drivennsemployvb	linersnnsapplyvb	linersnnsutilizevb	line_drivennsusenn	utilizationnnofinlinernns	line_drivennsapplyvb	line_drivennsutilizationnn	usevbtheynns	utilizationnnofinlinersnns	theynnsutilisationnn	themnnsemployvb	linersnnsexercisenn	employmentnnofinline_drivenns	exercisennofinthemnns	themnnsutilisevb	utilizevbthemnns	theynnsemployvb	linersnnsemploymentnn	utilisationnnofinthemnns	utilizevblinersnns	usevblinersnns	line_drivennsusagenn	linernnsutilisationnn	theynnsexercisenn	utilizevblinernns	employmentnnofintheynns	usennofinlinernns	linernnsutilizevb	applyvbline_drivenns	applyvbtheynns	themnnsusevb	theynnsutilizationnn	themnnsusenn	utilizevbline_drivenns	line_drivennsutilisationnn	usennofinline_drivenns	usevbthemnns	usagennofinthemnns	theynnsemploymentnn	linernnsutilizationnn	usennofintheynns	line_drivennsutilisevb	
+
+BE: donVBofINuseNN
+EQ class: wearvbofinexercisenn	wearvbofinutilisationnn	get_intovbofinutilisationnn	donvbofinusagenn	donvbofinexercisenn	put_onvbofinusagenn	assumevbofinusagenn	get_intovbofinusenn	put_onvbofinutilisationnn	donvbofinemploymentnn	assumevbofinutilizationnn	assumevbofinemploymentnn	wearvbofinusenn	donvbofinutilisationnn	wearvbofinusagenn	get_intovbofinusagenn	put_onvbofinemploymentnn	donvbofinutilizationnn	wearvbofinutilizationnn	get_intovbofinutilizationnn	assumevbofinusenn	assumevbofinutilisationnn	put_onvbofinusenn	put_onvbofinexercisenn	wearvbofinemploymentnn	get_intovbofinexercisenn	assumevbofinexercisenn	get_intovbofinemploymentnn	put_onvbofinutilizationnn	
+
+BE: useNNstopVB
+EQ class: employmentnnstopvb	stopnnofinusagenn	utilisationnnstopvb	haltnnofinemploymentnn	haltnnofinutilisationnn	stopnnofinemploymentnn	usagennstopvb	utilisationnnhaltvb	stopnnofinutilizationnn	utilizationnnstopvb	exercisennhaltvb	utilizationnnhaltvb	stopnnofinusenn	usennhaltvb	employmentnnhaltvb	haltnnofinusagenn	haltnnofinexercisenn	stopnnofinexercisenn	exercisennstopvb	haltnnofinutilizationnn	stopnnofinutilisationnn	usagennhaltvb	haltnnofinusenn	
+
+BE: DecompositionNN
+EQ class: vector_decompositionnn	
+
+BE: conditionsNNS
+EQ class: theynns	themnns	
+
+BE: methanePersonAnnotation
+EQ class: 
+
+BE: producesVBZ
+EQ class: producevbz	bring_forthvbz	
+
+BE: anerobicPersonAnnotation
+EQ class: 
+
+BE: anerobicPersonAnnotationconditionsNNS
+EQ class: anerobicpersonannotationtheynns	anerobicpersonannotationthemnns	
+
+BE: DecompositionNNproducesVBZ
+EQ class: vector_decompositionnnproducesvbz	vector_decompositionnnproducevbz	decompositionnnproducevbz	manufacturernnvector_decompositionnn	decompositionnnbring_forthvbz	producernnvector_decompositionnn	producernnofindecompositionnn	vector_decompositionnnbring_forthvbz	producernnofinvector_decompositionnn	manufacturernnofindecompositionnn	manufacturernndecompositionnn	producernndecompositionnn	manufacturernnofinvector_decompositionnn	
+
+BE: producesVBZmethanePersonAnnotation
+EQ class: bring_forthvbzmethanepersonannotation	producevbzmethanepersonannotation	producernnofinmethanepersonannotation	manufacturernnofinmethanepersonannotation	
+
+BE: DecompositionNNinINconditionsNNS
+EQ class: conditionsnnsvector_decompositionnn	vector_decompositionnnininconditionsnns	decompositionnninintheynns	themnnsvector_decompositionnn	vector_decompositionnnininthemnns	vector_decompositionnninintheynns	decompositionnnininthemnns	theynnsvector_decompositionnn	themnnsdecompositionnn	theynnsdecompositionnn	conditionsnnsdecompositionnn	
+
+BE: MissouriLocationAnnotation
+EQ class: dixielandnn	southnn	confederacynn	dixienn	confederate_states_of_americann	confederate_statesnn	
+
+BE: gasNN
+EQ class: gaseousjj	gassyjj	gaseous_statenn	
+
+BE: wellsNNS
+EQ class: herbert_george_wellsnns	theynns	h._g._wellsnns	themnns	
+
+BE: methanePersonAnnotation
+EQ class: 
+
+BE: schoolNN
+EQ class: scholasticjj	
+
+BE: drilledVBN
+EQ class: drillvbn	borevbn	
+
+BE: producedVBN
+EQ class: bring_forthvbn	producevbn	
+
+BE: heatsVBZ
+EQ class: heatvbz	heat_upvbz	
+
+BE: southernJJ
+EQ class: 
+
+BE: localJJ
+EQ class: 
+
+BE: southernJJMissouriLocationAnnotation
+EQ class: southernjjconfederate_states_of_americann	southernjjsouthnn	southernjjconfederacynn	southernjjconfederate_statesnn	southernjjdixienn	southernjjdixielandnn	
+
+BE: localJJschoolNN
+EQ class: schoolvblocallyrb	scholasticvblocallyrb	localjjscholasticjj	
+
+BE: gasNNwellsNNS
+EQ class: gasnntheynns	h._g._wellsnnsofingaseousjj	gaseousjjofinwellsnns	gasnnofintheynns	herbert_george_wellsnnsvaporizevb	h._g._wellsnnsgasifyvb	gasificationnnofinherbert_george_wellsnns	herbert_george_wellsnnsofingasnn	gaseous_statennwellsnns	theynnsgasifyvb	gaseous_statenntheynns	herbert_george_wellsnnsvaporisevb	herbert_george_wellsnnsofingassyjj	themnnsvaporizevb	theynnsofingaseousjj	h._g._wellsnnsofingaseous_statenn	gaseousjjofintheynns	gasnnh._g._wellsnns	gassyjjthemnns	gassyjjwellsnns	gasnnthemnns	gassyjjofinherbert_george_wellsnns	wellsnnsgasifyvb	themnnsofingasnn	gasificationnnofinh._g._wellsnns	gaseousjjofinherbert_george_wellsnns	gasificationnnofinwellsnns	wellsnnsofingassyjj	gaseous_statennofinwellsnns	herbert_george_wellsnnsofingaseous_statenn	gaseousjjh._g._wellsnns	gaseous_statennh._g._wellsnns	themnnsofingaseous_statenn	gasnnofinh._g._wellsnns	gassyjjtheynns	wellsnnsofingaseous_statenn	h._g._wellsnnsofingasnn	gasificationnnofintheynns	wellsnnsofingaseousjj	theynnsofingasnn	gasnnofinherbert_george_wellsnns	gaseousjjthemnns	gaseousjjtheynns	h._g._wellsnnsvaporizevb	h._g._wellsnnsofingassyjj	wellsnnsofingasnn	themnnsofingassyjj	gasnnofinthemnns	gaseousjjwellsnns	gassyjjofintheynns	theynnsofingassyjj	wellsnnsvaporisevb	theynnsaerifyvb	h._g._wellsnnsvaporisevb	themnnsaerifyvb	themnnsgasifyvb	h._g._wellsnnsaerifyvb	wellsnnsaerifyvb	gaseous_statennofinherbert_george_wellsnns	gaseousjjherbert_george_wellsnns	gaseous_statennherbert_george_wellsnns	herbert_george_wellsnnsgasifyvb	gassyjjofinthemnns	gaseousjjofinh._g._wellsnns	gaseous_statennofinh._g._wellsnns	themnnsvaporisevb	gassyjjh._g._wellsnns	theynnsofingaseous_statenn	herbert_george_wellsnnsofingaseousjj	gassyjjofinwellsnns	herbert_george_wellsnnsaerifyvb	gaseousjjofinthemnns	gasnnofinwellsnns	gassyjjherbert_george_wellsnns	gaseous_statennofintheynns	gaseous_statennofinthemnns	wellsnnsvaporizevb	gassyjjofinh._g._wellsnns	theynnsvaporisevb	gasnnherbert_george_wellsnns	gasificationnnofinthemnns	gaseous_statennthemnns	theynnsvaporizevb	themnnsofingaseousjj	
+
+BE: methanePersonAnnotationheatsVBZ
+EQ class: warmernnofinmethanepersonannotation	methanepersonannotationheatvbz	heat_energynnofinmethanepersonannotation	heatablennofinmethanepersonannotation	methanepersonannotationheat_upvbz	heaternnmethanepersonannotation	heatnnofinmethanepersonannotation	heaternnofinmethanepersonannotation	warmernnmethanepersonannotation	
+
+BE: heatsVBZschoolNN
+EQ class: heatablennofinscholasticjj	heaternnofinschoolnn	warmernnofinschoolnn	heat_upvbzscholasticjj	heat_energynnofinscholasticjj	heatnnofinscholasticjj	heatvbzschoolnn	heat_upvbzschoolnn	heat_energynnofinschoolnn	heatsvbzscholasticjj	warmernnofinscholasticjj	heatvbzscholasticjj	heatnnofinschoolnn	heatablennofinschoolnn	heaternnofinscholasticjj	
+
+BE: drilledVBNwellsNNS
+EQ class: borevbnherbert_george_wellsnns	electric_drillnnofinthemnns	electric_drillnnofintheynns	drillvbntheynns	borevbnwellsnns	drilledvbnh._g._wellsnns	drillingnnofinthemnns	drillvbnwellsnns	drillnnofinthemnns	electric_drillnnofinherbert_george_wellsnns	drillingnnofinh._g._wellsnns	drillvbnh._g._wellsnns	drillingnnofinwellsnns	drillnnofintheynns	boringnnofintheynns	electric_drillnnofinwellsnns	borevbntheynns	drillvbnthemnns	drilledvbnherbert_george_wellsnns	boringnnofinthemnns	boringnnofinwellsnns	drillingnnofinherbert_george_wellsnns	drillingnnofintheynns	boringnnofinherbert_george_wellsnns	boringnnofinh._g._wellsnns	drillvbnherbert_george_wellsnns	drilledvbnthemnns	drillnnofinh._g._wellsnns	electric_drillnnofinh._g._wellsnns	borevbnthemnns	drillnnofinherbert_george_wellsnns	borevbnh._g._wellsnns	drillnnofinwellsnns	drilledvbntheynns	
+
+BE: producedVBNmethanePersonAnnotation
+EQ class: producevbnmethanepersonannotation	bring_forthvbnmethanepersonannotation	producernnofinmethanepersonannotation	manufacturernnofinmethanepersonannotation	
+
+BE: haveAUXinINMissouriLocationAnnotation
+EQ class: holdauxininsouthnn	haveauxininconfederate_states_of_americann	have_gotauxininconfederate_statesnn	holdauxininconfederate_states_of_americann	have_gotauxininconfederate_states_of_americann	have_gotauxinindixienn	have_gotauxininmissourilocationannotation	holdauxininconfederate_statesnn	haveauxinindixielandnn	holdauxininmissourilocationannotation	haveauxininconfederacynn	haveauxininsouthnn	have_gotauxinindixielandnn	have_gotauxininconfederacynn	have_gotauxininsouthnn	haveauxininconfederate_statesnn	holdauxininconfederacynn	holdauxinindixienn	haveauxinindixienn	holdauxinindixielandnn	
+
+BE: landfillNN
+EQ class: 
+
+BE: timesNNS
+EQ class: theynns	themnns	
+
+BE: ballNN
+EQ class: 
+
+BE: fieldsNNS
+EQ class: william_claude_dukenfieldnns	theynns	w._c._fieldsnns	themnns	
+
+BE: parksNNS
+EQ class: theynns	rosa_parksnns	themnns	
+
+BE: convertedVBN
+EQ class: convertvbn	change_overvbn	
+
+BE: closedJJ
+EQ class: 
+
+BE: ballNNfieldsNNS
+EQ class: theynnsofinballnn	william_claude_dukenfieldnnsofinballnn	ballnnwilliam_claude_dukenfieldnns	ballnntheynns	ballnnthemnns	themnnsofinballnn	fieldsnnsofinballnn	w._c._fieldsnnsofinballnn	ballnnw._c._fieldsnns	
+
+BE: fieldsNNSparksNNS
+EQ class: parksnnsthemnns	parksnnstheynns	themnnstheynns	theynnsw._c._fieldsnns	themnnsthemnns	w._c._fieldsnnsrosa_parksnns	parksnnswilliam_claude_dukenfieldnns	theynnsrosa_parksnns	theynnswilliam_claude_dukenfieldnns	william_claude_dukenfieldnnsthemnns	fieldsnnsthemnns	rosa_parksnnsfieldsnns	parksnnsw._c._fieldsnns	themnnsw._c._fieldsnns	w._c._fieldsnnsparksnns	w._c._fieldsnnstheynns	themnnsfieldsnns	rosa_parksnnsw._c._fieldsnns	theynnsthemnns	themnnsrosa_parksnns	themnnsparksnns	theynnstheynns	w._c._fieldsnnsthemnns	william_claude_dukenfieldnnsrosa_parksnns	william_claude_dukenfieldnnstheynns	themnnswilliam_claude_dukenfieldnns	rosa_parksnnswilliam_claude_dukenfieldnns	theynnsfieldsnns	rosa_parksnnsthemnns	fieldsnnsrosa_parksnns	parksnnsfieldsnns	fieldsnnstheynns	william_claude_dukenfieldnnsparksnns	theynnsparksnns	rosa_parksnnstheynns	
+
+BE: landfillNNisAUX
+EQ class: landfillnnbeaux	
+
+BE: convertedVBNtimesNNS
+EQ class: transitionnnofintheynns	convertornnofinthemnns	conversionnnofinthemnns	converternnofintimesnns	changeovernnofinthemnns	convertedvbntheynns	change_overvbntimesnns	changeovernnofintheynns	convertvbntimesnns	change_overvbnthemnns	conversionnnofintheynns	change_overvbntheynns	convertvbntheynns	convertornnofintheynns	transitionnnofinthemnns	transitionnnofintimesnns	converternnofintheynns	convertvbnthemnns	converternnofinthemnns	convertedvbnthemnns	changeovernnofintimesnns	conversionnnofintimesnns	convertornnofintimesnns	
+
+BE: convertedVBNtheyPRP
+EQ class: convertvbnparksprp	convertornnofinwellsprp	transitionnnofinleachateprp	convertvbnnew yorks fresh killsprp	convertornnofingullsprp	convertornnofinlandfillsprp	convertedvbnlinersprp	change_overvbnnew yorks fresh killsprp	transitionnnofinfieldsprp	convertornnofinconditionsprp	convertedvbnnew yorks fresh killsprp	change_overvbnonesprp	convertedvbntimesprp	converternnofinwellsprp	change_overvbntheyprp	conversionnnofinleachateprp	converternnofinonesprp	convertornnofinfieldsprp	converternnofinparksprp	transitionnnofinnew yorks fresh killsprp	conversionnnofinconditionsprp	changeovernnofinfieldsprp	change_overvbnratsprp	convertvbnwellsprp	convertedvbnproblemsprp	transitionnnofintimesprp	convertvbnlinersprp	conversionnnofinratsprp	convertedvbnonesprp	convertvbngullsprp	convertedvbngullsprp	conversionnnofinlinersprp	convertvbnleachateprp	conversionnnofintheyprp	conversionnnofinonesprp	convertvbnconditionsprp	changeovernnofintheyprp	changeovernnofinparksprp	transitionnnofinlandfillsprp	change_overvbnparksprp	convertedvbnleachateprp	transitionnnofinconditionsprp	convertvbnproblemsprp	change_overvbnproblemsprp	change_overvbntimesprp	converternnofinlandfillsprp	transitionnnofinproblemsprp	conversionnnofinparksprp	convertornnofinratsprp	changeovernnofinnew yorks fresh killsprp	convertedvbnlandfillsprp	convertornnofinonesprp	converternnofintheyprp	changeovernnofinlinersprp	changeovernnofingullsprp	converternnofinfieldsprp	changeovernnofinproblemsprp	convertvbntimesprp	convertvbnlandfillsprp	transitionnnofinwellsprp	convertornnofinnew yorks fresh killsprp	convertvbnonesprp	transitionnnofinonesprp	converternnofinconditionsprp	changeovernnofinconditionsprp	convertornnofinleachateprp	convertedvbnfieldsprp	changeovernnofintimesprp	transitionnnofinlinersprp	convertornnofintimesprp	conversionnnofintimesprp	change_overvbnleachateprp	changeovernnofinratsprp	change_overvbnfieldsprp	convertedvbnratsprp	changeovernnofinonesprp	convertornnofinparksprp	convertedvbnwellsprp	conversionnnofingullsprp	conversionnnofinlandfillsprp	converternnofingullsprp	transitionnnofintheyprp	converternnofinnew yorks fresh killsprp	converternnofinleachateprp	convertvbntheyprp	transitionnnofingullsprp	transitionnnofinparksprp	convertvbnratsprp	convertornnofinproblemsprp	changeovernnofinlandfillsprp	change_overvbnlandfillsprp	convertedvbnconditionsprp	convertornnofinlinersprp	converternnofinproblemsprp	converternnofintimesprp	changeovernnofinleachateprp	convertvbnfieldsprp	change_overvbnconditionsprp	change_overvbngullsprp	converternnofinratsprp	conversionnnofinnew yorks fresh killsprp	conversionnnofinproblemsprp	convertedvbnparksprp	changeovernnofinwellsprp	change_overvbnlinersprp	convertornnofintheyprp	conversionnnofinfieldsprp	change_overvbnwellsprp	transitionnnofinratsprp	conversionnnofinwellsprp	converternnofinlinersprp	
+
+BE: isAUXclosedJJ
+EQ class: beauxclosedjj	
+
+BE: convertedVBNtoTOfieldsNNS
+EQ class: change_overvbntotofieldsnns	convertedvbntotow._c._fieldsnns	change_overvbntotow._c._fieldsnns	convertvbntotow._c._fieldsnns	convertvbntotowilliam_claude_dukenfieldnns	convertvbntotothemnns	change_overvbntotowilliam_claude_dukenfieldnns	convertvbntototheynns	change_overvbntototheynns	convertedvbntotowilliam_claude_dukenfieldnns	convertedvbntotothemnns	convertvbntotofieldsnns	convertedvbntototheynns	change_overvbntotothemnns	
+
+BE: convertedVBNtoTOparksNNS
+EQ class: change_overvbntotorosa_parksnns	change_overvbntotoparksnns	convertvbntotothemnns	convertedvbntotorosa_parksnns	convertvbntototheynns	convertvbntotoparksnns	change_overvbntototheynns	convertvbntotorosa_parksnns	convertedvbntotothemnns	change_overvbntotothemnns	convertedvbntototheynns	
+
+BE: areAUXoftenRB
+EQ class: beauxoftenrb	
+

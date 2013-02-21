@@ -1,0 +1,61 @@
+#why do ppl in america homeschool there children???
+#(S1 (SBARQ (WHADVP (WRB why)) (SQ (AUX do) (NP (NP (NNS ppl)) (PP (IN in) (NP (NNP america)))) (VP (NN homeschool) (ADVP (RB there)) (NP (NNS children) (NNS ??)))) (. ?)))
+#Rule:Nouns
+r1pplNNS
+r1americaLocationAnnotation
+r1homeschoolNN
+r1childrenNNS
+r1??NNS
+
+#Rule:N-HeadNoun
+r8childrenNNS??NNS
+
+#Rule:V-HeadNoun
+r21homeschoolNN??NNS
+
+#Rule:PPinNP
+r26pplNNSinINamericaLocationAnnotation
+
+#well i always wondered why??
+#(S1 (S (INTJ (UH well)) (NP (PRP i)) (ADVP (RB always)) (VP (VBD wondered) (SBAR (WHADVP (WRB why)) (. ?))) (. ?)))
+#Rule:Verbs
+r2wonderedVBD
+
+#Rule:HeadNoun-V
+r11iOrganizationAnnotationwonderedVBD
+
+#Rule:V-ADV
+r46wonderedVBDalwaysRB
+
+#so can anyone tell me whats the point or whats wrong with regular schools???
+#(S1 (SBARQ (RB so) (SQ (MD can) (NP (NN anyone)) (VP (VB tell) (NP (PRP me)) (SBAR (S (VP (VP (VBZ whats) (NP (DT the) (NN point))) (CC or) (VP (VBZ whats) (NP (ADJP (JJ wrong) (PP (IN with) (NP (JJ regular) (NNS schools)))) (NN ??)))))))) (. ?)))
+#Rule:Nouns
+r1anyoneNN
+r1pointNN
+r1schoolsNNS
+r1??NN
+
+#Rule:Verbs
+r2tellVB
+r2whatsVBZ
+r2whatsVBZ
+
+#Rule:Adjs
+r4wrongJJ
+r4regularJJ
+
+#Rule:Adj-Noun
+r5wrongJJ??NN
+r5regularJJschoolsNNS
+
+#Rule:V-HeadNoun
+r21tellVBmePRP
+r21whatsVBZpointNN
+r21whatsVBZ??NN
+
+#Rule:PPinADJP
+r37wrongJJwithINschoolsNNS
+
+@lemmas-left	america	regular	wondered	children	whats	i	child	??	point	school	ppl	schools	anyone	wonder	wrong	tell	homeschool	
+@lemmas-right	point	??	school	schools	america	wondered	wonder	me	always	
+@lemmas-center	with	in	

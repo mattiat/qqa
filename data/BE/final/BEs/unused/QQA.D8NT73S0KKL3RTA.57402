@@ -1,0 +1,93 @@
+#Find out what causes the stress and then eliminate it. 
+#(S1 (S (VP (VP (VB Find) (PRT (RP out)) (SBAR (WHNP (WP what)) (S (VP (VBZ causes) (NP (DT the) (NN stress)))))) (CC and) (RB then) (VP (VB eliminate) (NP (PRP it)))) (. .)))
+#Rule:Nouns
+r1stressNN
+
+#Rule:Verbs
+r2causesVBZ
+r2eliminateVB
+
+#Rule:V-PRT
+r3findVBoutRP
+
+#Rule:V-HeadNoun
+r21causesVBZstressNN
+r21eliminateVBitPRP
+
+#Stress is caused by yourself and therefor you need to identify the stress factor. 
+#(S1 (S (NP (NN Stress)) (VP (AUX is) (VP (VBN caused) (PP (IN by) (NP (NP (PRP yourself)) (CC and) (NP (NP (NN therefor)) (SBAR (S (NP (PRP you)) (VP (AUX need) (S (VP (TO to) (VP (VB identify) (NP (DT the) (NN stress) (NN factor))))))))))))) (. .)))
+#Rule:Nouns
+r1StressNN
+r1thereforNN
+r1stressNN
+r1factorNN
+
+#Rule:Verbs
+r2causedVBN
+r2identifyVB
+
+#Rule:N-HeadNoun
+r8stressNNfactorNN
+
+#Rule:HeadNoun-V
+r11youPRPneedAUX
+
+#Rule:V-By-Agent
+r13yourselfPRPcausedVBN
+r13thereforNNcausedVBN
+
+#Rule:V-HeadNoun
+r21identifyVBfactorNN
+
+#Rule:V-HeadNoun(passive)
+r23causedVBNStressNN
+
+#Try deep breathing technics and relaxation. 
+#(S1 (S (VP (VB Try) (NP (NP (JJ deep) (NN breathing) (NNS technics)) (CC and) (NP (NN relaxation)))) (. .)))
+#Rule:Nouns
+r1breathingNN
+r1technicsNNS
+r1relaxationNN
+
+#Rule:Verbs
+r2tryVB
+
+#Rule:Adjs
+r4deepJJ
+
+#Rule:Adj-Noun
+r5deepJJtechnicsNNS
+
+#Rule:N-HeadNoun
+r8breathingNNtechnicsNNS
+
+#Rule:V-HeadNoun
+r21tryVBtechnicsNNS
+
+#You can get relaxation tapes or CD s at the book store.
+#(S1 (S (NP (PRP You)) (VP (MD can) (VP (VP (VB get) (NP (NN relaxation) (NNS tapes))) (CC or) (VP (NP (NNP CD) (NNP s)) (PP (IN at) (NP (DT the) (NN book) (NN store)))))) (. .)))
+#Rule:Nouns
+r1relaxationNN
+r1tapesNNS
+r1CDNNP
+r1sNNP
+r1bookNN
+r1storeNN
+
+#Rule:Verbs
+r2getVB
+
+#Rule:N-HeadNoun
+r8relaxationNNtapesNNS
+r8CDNNPsNNP
+r8bookNNstoreNN
+
+#Rule:HeadNoun-V
+r11youPRPgetVB
+
+#Rule:V-HeadNoun
+r21getVBtapesNNS
+
+@lemmas-left	cause	store	breathing	tape	therefor	caused	yourself	technics	tapes	deep	find	get	identify	stress	Stress	you	factor	relaxation	s	CD	book	eliminate	causes	try	cd	
+@lemmas-right	need	it	cause	get	store	stress	Stress	tape	factor	caused	s	technics	tapes	out	
+@lemmas-center	

@@ -1,0 +1,244 @@
+#Why is alchol and tabacco legal&marijuana isnt??
+#(S1 (SBARQ (WHADVP (WRB Why)) (SQ (AUX is) (NP (NN alchol) (CC and) (NN tabacco) (NN legal&marijuana)) (ADJP (JJ isnt)) (. ?)) (. ?)))
+#Rule:Nouns
+r1alcholNN
+r1tabaccoNN
+r1legal&marijuanaLocationAnnotation
+
+#Rule:Adjs
+r4isntJJ
+
+#Rule:N-HeadNoun
+r8tabaccoNNlegal&marijuanaLocationAnnotation
+
+#Why is alcohol and tobacco legal&marijuana isn???t?  I don???t understand, since alcohol makes a person more unaware and plain stupid then marijuana and cigarettes seem to be just as bad as marijuana, maybe even more so since its actually paper drinched in tobacco and other chemicals.
+#(S1 (S (SBARQ (WHADVP (WRB Why)) (SQ (AUX is) (NP (NN alcohol) (CC and) (NN tobacco) (NN legal&marijuana)) (VP (VBG isn) (NP (JJ ???) (NNS t)))) (. ?)) (NP (PRP I)) (VP (VB don) (SBAR (S (NP (JJ ???) (NNS t)) (VP (VBP understand) (PRN (, ,) (S (SBAR (IN since) (S (NP (NN alcohol)) (VP (VBZ makes) (NP (NP (DT a) (NN person)) (ADJP (ADJP (RBR more) (JJ unaware)) (CC and) (ADJP (RB plain) (JJ stupid))))))) (ADVP (RB then)) (NP (NNS marijuana) (CC and) (NNS cigarettes)) (VP (VBP seem) (S (VP (TO to) (VP (AUX be) (ADJP (ADJP (RB just) (RB as) (JJ bad)) (PP (IN as) (NP (NN marijuana))))))))) (, ,)) (SBAR (ADVP (RB maybe) (RB even) (RBR more) (RB so)) (IN since) (S (NP (PRP$ its) (ADJP (RB actually)) (NN paper)) (VP (VBD drinched) (PP (IN in) (NP (NP (NN tobacco)) (CC and) (NP (JJ other) (NNS chemicals))))))))))) (. .)))
+#Rule:Nouns
+r1alcoholNN
+r1tobaccoNN
+r1legal&marijuanaNN
+r1tNNS
+r1tNNS
+r1alcoholNN
+r1personNN
+r1marijuanaLocationAnnotation
+r1cigarettesNNS
+r1marijuanaLocationAnnotation
+r1paperNN
+r1tobaccoNN
+r1chemicalsNNS
+
+#Rule:Verbs
+r2marijuana isnLocationAnnotation
+r2donVB
+r2understandVBP
+r2makesVBZ
+r2seemVBP
+r2drinchedVBD
+
+#Rule:Adjs
+r4???JJ
+r4???JJ
+r4unawareJJ
+r4stupidJJ
+r4badJJ
+r4otherJJ
+
+#Rule:Adj-Noun
+r5???JJtNNS
+r5???JJtNNS
+r5unawareJJpersonNN
+r5stupidJJpersonNN
+r5otherJJchemicalsNNS
+
+#Rule:PRP-Noun
+r6itsPRP$paperNN
+
+#Rule:N-HeadNoun
+r8tobaccoNNlegal&marijuanaNN
+
+#Rule:HeadNoun-V
+r11iPRPdonVB
+r11tNNSunderstandVBP
+r11marijuanaLocationAnnotationseemVBP
+r11alcoholNNmakesVBZ
+r11paperNNdrinchedVBD
+
+#Rule:V-HeadNoun
+r21marijuana isnLocationAnnotationtNNS
+r21makesVBZpersonNN
+
+#Rule:V-ADJ
+r25beAUXbadJJ
+
+#Rule:PPinVP
+r30drinchedVBDinINtobaccoNN
+r30drinchedVBDinINchemicalsNNS
+
+#Rule:PPinADJP
+r37badJJasINmarijuanaLocationAnnotation
+
+#Rule:V-IN-V
+r43understandVBPsinceINdrinchedVBD
+
+#Rule:V-ADV
+r46seemVBPthenRB
+
+#  I also hear mixed reports about how dangerous it is or isn???t.  Can???t someone do a intense study and come to a solid conclusion?
+#(S1 (S (NP (PRP I)) (ADVP (RB also)) (VP (VB hear) (NP (NP (VBN mixed) (NNS reports)) (PP (IN about) (SBAR (WHADJP (WRB how) (JJ dangerous)) (S (NP (PRP it)) (VP (AUX is) (NP (NP (QP (CC or) (CD isn)) (NN ???)) (SBAR (S (NP (NNP t.)) (VP (MD Can) (VP (VP (VB ???) (NP (NP (CD t) (NN someone)) (SBAR (S (VP (AUX do) (NP (DT a) (JJ intense) (NN study))))))) (CC and) (VP (VB come) (PP (TO to) (NP (DT a) (JJ solid) (NN conclusion))))))))))))))) (. ?)))
+#Rule:Nouns
+r1reportsNNS
+r1???NN
+r1t.  CanLocationAnnotation
+r1someoneNN
+r1studyNN
+r1conclusionNN
+
+#Rule:Verbs
+r2hearVB
+r2mixedVBN
+r2???VB
+r2comeVB
+
+#Rule:Adjs
+r4dangerousJJ
+r4intenseJJ
+r4solidJJ
+
+#Rule:Adj-Noun
+r5mixedVBNreportsNNS
+r5isnCD???NN
+r5tCDsomeoneNN
+r5intenseJJstudyNN
+r5solidJJconclusionNN
+
+#Rule:HeadNoun-V
+r11iPRPhearVB
+r11itPRPisAUX
+r11t.  CanLocationAnnotation???VB
+r11t.  CanLocationAnnotationcomeVB
+
+#Rule:HeadNoun-(who/that)-V
+r14someoneNNdoAUX
+
+#Rule:NP(NP(z) SBAR(S(NP(x)VP(y))))
+r19comeVB???NN
+
+#Rule:V-HeadNoun
+r21hearVBreportsNNS
+r21isAUX???NN
+r21???VBsomeoneNN
+r21doAUXstudyNN
+
+#Rule:PPinVP
+r30comeVBtoTOconclusionNN
+
+#Rule:V-ADV
+r46hearVBalsoRB
+
+#how many people have died from marijuana versus tobacco and alcohol?
+#(S1 (FRAG (SBAR (WHADJP (WRB how) (JJ many)) (S (NP (NNS people)) (VP (AUX have) (VP (VBN died) (PP (IN from) (NP (ADJP (FW marijuana) (FW versus)) (NN tobacco) (CC and) (NN alcohol))))))) (. ?)))
+#Rule:Nouns
+r1peopleNNS
+r1tobaccoNN
+r1alcoholNN
+
+#Rule:Verbs
+r2diedVBN
+
+#Rule:Adjs
+r4manyJJ
+
+#Rule:HeadNoun-V
+r12peopleNNSdiedVBN
+
+#Rule:PPinVP
+r32diedVBNfromINtobaccoNN
+
+#  we know it dont kill as many people as REAL hardcore drugs, so why is it considered one??MAK
+#(S1 (S (NP (PRP we)) (VP (VBP know) (S (NP (PRP it)) (VP (VB dont) (VP (VB kill) (NP (ADJP (RB as) (JJ many)) (NNS people)) (PP (IN as) (NP (NP (JJ REAL) (NN hardcore) (NNS drugs)) (, ,) (SBAR (WHADVP (RB so) (WRB why)) (S (VP (AUX is) (S (NP (PRP it)) (VP (VBN considered) (S (NP (CD one) (JJ ??) (NN MAK))))))))))))))))
+#Rule:Nouns
+r1peopleNNS
+r1hardcoreNN
+r1drugsNNS
+r1MAKE SURE YOU ANSWER THE QUESTIONOrganizationAnnotation
+
+#Rule:Verbs
+r2knowVBP
+r2dontVB
+r2killVB
+r2consideredVBN
+
+#Rule:Adjs
+r4manyJJ
+r4REALOrganizationAnnotation
+r4??JJ
+
+#Rule:Adj-Noun
+r5manyJJpeopleNNS
+r5REALOrganizationAnnotationdrugsNNS
+r5oneCDMAKE SURE YOU ANSWER THE QUESTIONOrganizationAnnotation
+r5??JJMAKE SURE YOU ANSWER THE QUESTIONOrganizationAnnotation
+
+#Rule:N-HeadNoun
+r8hardcoreNNdrugsNNS
+
+#Rule:HeadNoun-V
+r11wePRPknowVBP
+r11itPRPdontVB
+r11itPRPkillVB
+
+#Rule:HeadNoun-(who/that)-V
+r14drugsNNSisAUX
+
+#Rule:V-HeadNoun
+r21killVBpeopleNNS
+
+#Rule:V-HeadNoun
+r22knowVBPitPRP
+r22isAUXitPRP
+r22consideredVBNMAKE SURE YOU ANSWER THE QUESTIONOrganizationAnnotation
+
+#Rule:V-HeadNoun(passive)
+r24consideredVBNitPRP
+
+#Rule:PPinVP
+r30killVBasINdrugsNNS
+
+#Rule:(SBAR+WHADVP)inNP
+r41drugsNNSwhyWRBisAUX
+
+#MAKE SURE YOU ANSWER THE QUESTION, NOT JUST POST YOUR OPINION OF MARIJUANA LIKE SOME PEOPLE HAVE CHOOSEN TO DO.Why is alchol and tabacco legal&marijuana isnt?
+#(S1 (S (VP (VB MAKE) (ADJP (JJ SURE) (SBAR (S (S (NP (PRP YOU)) (VP (VP (VB ANSWER) (NP (DT THE) (NN QUESTION))) (, ,) (CONJP (RB NOT) (RB JUST)) (VP (VB POST) (NP (NP (PRP$ YOUR) (NN OPINION)) (PP (IN OF) (NP (NNP MARIJUANA))) (SBAR (IN LIKE) (S (NP (DT SOME) (NNS PEOPLE)) (VP (AUX HAVE) (VP (VBN CHOOSEN) (PP (TO TO) (NP (NN DO.Why))))))))))) (VP (AUX is) (NP (NN alchol) (CC and) (NN tabacco) (NN legal&marijuana) (NN isnt))))))) (. ?)))
+#Rule:Nouns
+r1MAKE SURE YOU ANSWER THE QUESTIONOrganizationAnnotation
+r1OPINIONNN
+r1MARIJUANA LIKE SOME PEOPLE HAVE CHOOSEN TO DO.WhyOrganizationAnnotation
+r1alcholNN
+r1tabaccoNN
+r1legal&marijuanaNN
+r1isntNN
+
+#Rule:Verbs
+r2postVB
+
+#Rule:PRP-Noun
+r6yourPRP$OPINIONNN
+
+#Rule:N-HeadNoun
+r8legal&marijuanaNNisntNN
+r8tabaccoNNisntNN
+
+#Rule:HeadNoun-V
+r11MAKE SURE YOU ANSWER THE QUESTIONOrganizationAnnotationpostVB
+
+#Rule:V-HeadNoun
+r21postVBOPINIONNN
+r21isAUXisntNN
+
+#Rule:PPinNP
+r26OPINIONNNofINMARIJUANA LIKE SOME PEOPLE HAVE CHOOSEN TO DO.WhyOrganizationAnnotation
+
+@lemmas-left	t.  Can	person	understand	legal&marijuana	don	OPINION	stupid	kill	intense	study	its	chemicals	people	alchol	??	marijuana isn	hear	died	hardcore	chemical	someone	MAKE SURE YOU ANSWER THE QUESTION	report	opinion	be	drinched	reports	isnt	drugs	isn	bad	many	solid	dont	alcohol	conclusion	make	we	cigarette	other	tabacco	paper	one	considered	consider	die	mixed	do	drug	REAL	is	post	it	makes	your	come	know	seem	dangerous	MARIJUANA LIKE SOME PEOPLE HAVE CHOOSEN TO DO.Why	marijuana	mix	i	cigarettes	t	unaware	tobacco	???	
+@lemmas-right	person	understand	legal&marijuana	don	paper	OPINION	kill	study	people	chemicals	hear	died	chemical	someone	MAKE SURE YOU ANSWER THE QUESTION	die	report	opinion	do	drug	be	drinched	reports	is	post	it	isnt	drugs	makes	come	bad	know	seem	MARIJUANA LIKE SOME PEOPLE HAVE CHOOSEN TO DO.Why	marijuana	t	dont	then	tobacco	conclusion	also	make	???	
+@lemmas-center	to	of	as	from	since	in	why	

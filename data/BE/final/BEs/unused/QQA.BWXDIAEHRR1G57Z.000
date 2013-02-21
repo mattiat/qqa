@@ -1,0 +1,63 @@
+#What are stem cells and how can they be used??
+#(S1 (SBARQ (SBARQ (WHNP (WP What)) (SQ (VP (AUX are) (NP (NN stem) (NNS cells))))) (CC and) (WHADVP (WRB how)) (SQ (MD can) (NP (PRP they)) (VP (AUX be) (VP (VBN used))) (. ?)) (. ?)))
+#Rule:Nouns
+r1stemNN
+r1cellsNNS
+
+#Rule:Verbs
+r2usedVBN
+
+#Rule:N-HeadNoun
+r8stemNNcellsNNS
+
+#Rule:V-HeadNoun
+r21areAUXcellsNNS
+
+#Can someone please explain to me what they are using simple terms? Everything I read on the internet is so complicated. Where can we get stem cells?
+#(S1 (SQ (MD Can) (NP (NN someone)) (VP (VB please) (S (VP (VB explain) (PP (TO to) (NP (PRP me))) (SBAR (WHNP (WP what)) (S (NP (PRP they)) (VP (AUX are) (VP (VBG using) (NP (JJ simple) (NNS terms))))))))) (. ?) (SQ (NNP Everything) (NP (PRP I)) (VP (VBP read) (SBAR (IN on) (S (NP (DT the) (NN internet)) (VP (AUX is) (ADJP (RB so) (JJ complicated.)) (SBAR (WHADVP (WRB Where)) (S (MD can) (NP (PRP we)) (VP (VBP get) (NP (NN stem) (NNS cells)))))))))) (. ?)))
+#Rule:Nouns
+r1someoneNN
+r1termsNNS
+r1EverythingNNP
+r1internetNN
+r1stemNN
+r1cellsNNS
+
+#Rule:Verbs
+r2pleaseVB
+r2explainVB
+r2usingVBG
+r2readVBP
+r2getVBP
+
+#Rule:Adjs
+r4simpleJJ
+r4complicatedJJ
+
+#Rule:Adj-Noun
+r5simpleJJtermsNNS
+
+#Rule:N-HeadNoun
+r8stemNNcellsNNS
+
+#Rule:HeadNoun-V
+r11theyPRPusingVBG
+r11internetNNisAUX
+r11wePRPgetVBP
+
+#Rule:V-HeadNoun
+r21usingVBGtermsNNS
+r21getVBPcellsNNS
+
+#Rule:V-ADJ
+r25isAUXcomplicatedJJ
+
+#Rule:PPinVP
+r30explainVBtoTOmePRP
+
+#Rule:V-IN-V
+r43readVBPonINisAUX
+
+@lemmas-left	they	cells	is	using	Everything	get	simple	cell	terms	everything	use	complicated	used	are	please	someone	read	stem	explain	internet	we	complicated.	be	
+@lemmas-right	cells	is	using	get	terms	cell	use	me	complicated	complicated.	be	
+@lemmas-center	to	on	

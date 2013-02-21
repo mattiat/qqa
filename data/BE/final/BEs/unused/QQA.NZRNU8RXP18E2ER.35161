@@ -1,0 +1,67 @@
+#Just talk with your near&Dears! 
+#(S1 (S (ADVP (RB Just)) (VP (VB talk) (PP (IN with) (NP (PRP$ your) (NNS near&Dears)))) (. !)))
+#Rule:Nouns
+r1near&Dears!PersonAnnotation
+
+#Rule:Verbs
+r2talkVB
+
+#Rule:PRP-Noun
+r6yourPRP$near&Dears!PersonAnnotation
+
+#Rule:PPinVP
+r30talkVBwithINnear&Dears!PersonAnnotation
+
+#Rule:V-ADV
+r46talkVBJustRB
+
+#freely about your thinking...........about you feelings......and see the result.dont try to hide your emotions&feelings from dears.
+#(S1 (S (ADVP (RB freely)) (PP (IN about) (NP (PRP$ your) (NN thinking))) (NP (ADJP (JJ ...........) (PP (IN about) (NP (PRP you)))) (NNS feelings)) (VP (VB ......) (CC and) (VB see) (NP (DT the) (NN result.dont)) (S (VP (VBP try) (S (VP (TO to) (VP (VB hide) (NP (PRP$ your) (NNS emotions&feelings)) (PP (IN from) (NP (NNS dears))))))))) (. .)))
+#Rule:Nouns
+r1thinkingNN
+r1feelingsNNS
+r1result.dontNN
+r1emotions&feelingsNNS
+r1dearsLocationAnnotation
+
+#Rule:Verbs
+r2......VB
+r2seeVB
+r2tryVBP
+r2hideVB
+
+#Rule:Adjs
+r4...........JJ
+
+#Rule:Adj-Noun
+r5...........JJfeelingsNNS
+
+#Rule:PRP-Noun
+r6yourPRP$thinkingNN
+r6yourPRP$emotions&feelingsNNS
+
+#Rule:HeadNoun-V
+r11feelingsNNS......VB
+
+#Rule:V-HeadNoun
+r21......VBresult.dontNN
+r21hideVBemotions&feelingsNNS
+
+#Rule:PPinVP
+r30hideVBfromINdearsLocationAnnotation
+
+#Rule:PPinS
+r36......VBaboutINthinkingNN
+
+#Rule:PPinADJP
+r37...........JJaboutINyouPRP
+
+#Rule:V-V
+r44tryVBPhideVB
+
+#Rule:V-ADV
+r46......VBfreelyRB
+
+@lemmas-left	...........	your	......	dears	see	hide	thinking	near&Dears!	result.dont	emotions&feelings	feelings	try	talk	
+@lemmas-right	dears	just	hide	thinking	freely	you	result.dont	near&Dears!	emotions&feelings	Just	feelings	......	
+@lemmas-center	with	about	from	

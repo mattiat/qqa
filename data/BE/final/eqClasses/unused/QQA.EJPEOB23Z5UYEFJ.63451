@@ -1,0 +1,87 @@
+BE: moneyNN
+EQ class: monetaryjj	
+
+BE: LuLuLocationAnnotation
+EQ class: 
+
+BE: needsVBZ
+EQ class: involvevbz	demandvbz	requirevbz	askvbz	postulatevbz	necessitatevbz	takevbz	needvbz	call_forvbz	
+
+BE: paidVBN
+EQ class: payvbn	
+
+BE: useVBP
+EQ class: employvbp	utilizevbp	applyvbp	utilisevbp	
+
+BE: moneyNNneedsVBZ
+EQ class: moneynndemandvbz	monetaryjjneedvbz	moneynnrequirevbz	monetaryjjaskvbz	monetaryjjcall_forvbz	monetaryjjneedsvbz	moneynnpostulatevbz	demandnnofinmoneynn	monetaryjjtakevbz	monetaryjjdemandvbz	moneynntakevbz	monetaryjjinvolvevbz	moneynncall_forvbz	moneynninvolvevbz	moneynnaskvbz	demandnnofinmonetaryjj	neednnofinmoneynn	monetaryjjnecessitatevbz	monetaryjjpostulatevbz	moneynnnecessitatevbz	neednnofinmonetaryjj	moneynnneedvbz	monetaryjjrequirevbz	
+
+BE: youPRPuseVBP
+EQ class: utilizationnnyouprp	employmentnnofinyouprp	usernnofinyouprp	exercisennyouprp	usablennofinyouprp	youprpapplyvbp	youprputilisevbp	utilisationnnofinyouprp	usennyouprp	useablennofinyouprp	usagennyouprp	utilisationnnyouprp	youprpemployvbp	youprputilizevbp	usernnyouprp	utilizationnnofinyouprp	employmentnnyouprp	exercisennofinyouprp	usennofinyouprp	usagennofinyouprp	
+
+BE: useVBPLuLuLocationAnnotation
+EQ class: utilizevbplululocationannotation	employvbplululocationannotation	usennofinlululocationannotation	employmentnnofinlululocationannotation	utilizationnnofinlululocationannotation	applyvbplululocationannotation	usablennofinlululocationannotation	utilisationnnofinlululocationannotation	useablennofinlululocationannotation	exercisennofinlululocationannotation	usagennofinlululocationannotation	utilisevbplululocationannotation	usernnofinlululocationannotation	
+
+BE: paidVBNifINuseVBP
+EQ class: paidvbnifinutilizevbp	payvbnifinutilisevbp	paidvbnifinemployvbp	paidvbnifinapplyvbp	payvbnifinutilizevbp	payvbnifinusevbp	paidvbnifinutilisevbp	payvbnifinemployvbp	payvbnifinapplyvbp	
+
+BE: worksVBZ
+EQ class: workvbz	
+
+BE: itPRPworksVBZ
+EQ class: workernnofinitprp	worknnofinitprp	itprpworkvbz	workernnitprp	
+
+BE: worksVBZreallyRB
+EQ class: existentjjininworknn	realnessnnworkernn	existentjjininworksvbz	workvbzreallyrb	existentjjworknn	existentjjininworkvbz	realjjininworksvbz	worknnofinreallyrb	realnessnnininworkvbz	realnessnnininworkernn	realitynnworkernn	realnessnnininworksvbz	workernnofinreallyrb	realitynnworknn	realjjworknn	realjjininworkvbz	realitynnininworksvbz	realitynnininworkvbz	realnessnnworknn	realnessnnininworknn	existentjjworkernn	realitynnininworkernn	existentjjininworkernn	realitynnininworknn	realjjworkernn	realjjininworknn	realjjininworkernn	
+
+BE: worksVBZwellRB
+EQ class: worknnofinwellrb	workernnofinwellrb	workvbzwellrb	
+
+BE: companiesNNS
+EQ class: companynns	theynns	themnns	
+
+BE: Random HouseOrganizationAnnotation
+EQ class: 
+
+BE: stuffNN
+EQ class: materialnn	
+
+BE: agentNN
+EQ class: 
+
+BE: getVB
+EQ class: acquirevb	
+
+BE: otherJJ
+EQ class: 
+
+BE: otherJJcompaniesNNS
+EQ class: otherjjcompanynns	otherjjtheynns	otherjjthemnns	
+
+BE: youPRPneedAUX
+EQ class: youprpaskaux	youprppostulateaux	youprprequireaux	youprptakeaux	youprpnecessitateaux	demandnnofinyouprp	neednnofinyouprp	youprpdemandaux	youprpcall_foraux	youprpinvolveaux	
+
+BE: itPRPdoneAUX
+EQ class: itprpmakeaux	itprpdoaux	
+
+BE: needAUXagentNN
+EQ class: postulateauxagentnn	takeauxagentnn	call_forauxagentnn	demandauxagentnn	askauxagentnn	demandnnofinagentnn	neednnofinagentnn	requireauxagentnn	involveauxagentnn	necessitateauxagentnn	
+
+BE: getVBitPRP
+EQ class: acquiringnnofinitprp	acquirevbitprp	gettingnnofinitprp	
+
+BE: companiesNNSlikeINRandom HouseOrganizationAnnotation
+EQ class: theynnslikeinrandom houseorganizationannotation	companynnslikeinrandom houseorganizationannotation	random houseorganizationannotationtheynns	random houseorganizationannotationcompanynns	themnnslikeinrandom houseorganizationannotation	random houseorganizationannotationthemnns	random houseorganizationannotationcompaniesnns	
+
+BE: companiesNNSlikeINstuffNN
+EQ class: materialnncompaniesnns	companiesnnslikeinmaterialnn	stuffnncompaniesnns	stuffnntheynns	materialnntheynns	companynnslikeinstuffnn	themnnslikeinmaterialnn	materialnnthemnns	themnnslikeinstuffnn	theynnslikeinstuffnn	theynnslikeinmaterialnn	stuffnnthemnns	companynnslikeinmaterialnn	materialnncompanynns	stuffnncompanynns	
+
+BE: doneAUXforINyouPRP
+EQ class: doauxforinyouprp	makeauxforinyouprp	
+
+BE: needAUXforINcompaniesNNS
+EQ class: takeauxforinthemnns	askauxforincompaniesnns	needauxforinthemnns	call_forauxforintheynns	requireauxforinthemnns	involveauxforinthemnns	involveauxforintheynns	needauxforintheynns	demandauxforintheynns	takeauxforintheynns	call_forauxforinthemnns	necessitateauxforincompanynns	demandauxforincompanynns	call_forauxforincompaniesnns	demandauxforinthemnns	postulateauxforincompaniesnns	askauxforinthemnns	askauxforincompanynns	requireauxforincompaniesnns	postulateauxforintheynns	necessitateauxforintheynns	postulateauxforincompanynns	requireauxforintheynns	necessitateauxforincompaniesnns	involveauxforincompanynns	needauxforincompanynns	postulateauxforinthemnns	demandauxforincompaniesnns	call_forauxforincompanynns	takeauxforincompanynns	necessitateauxforinthemnns	takeauxforincompaniesnns	requireauxforincompanynns	askauxforintheynns	involveauxforincompaniesnns	
+
+BE: Good Luck!PersonAnnotation
+EQ class: 
+

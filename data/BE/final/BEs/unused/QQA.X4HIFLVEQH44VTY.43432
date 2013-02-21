@@ -1,0 +1,36 @@
+#Well, it hardly counts as a category, does it? 
+#(S1 (S (INTJ (UH Well)) (, ,) (NP (PRP it)) (ADVP (RB hardly)) (VP (VP (VBZ counts) (PP (IN as) (NP (DT a) (NN category)))) (, ,) (VP (AUX does) (NP (PRP it)))) (. ?)))
+#Rule:Nouns
+r1categoryNN
+
+#Rule:Verbs
+r2countsVBZ
+
+#Rule:HeadNoun-V
+r11itPRPcountsVBZ
+r11itPRPdoesAUX
+
+#Rule:V-HeadNoun
+r21doesAUXitPRP
+
+#Rule:PPinVP
+r30countsVBZasINcategoryNN
+
+#We already have religion and spirituality!
+#(S1 (S (NP (PRP We)) (ADVP (RB already)) (VP (AUX have) (NP (NN religion) (CC and) (NN spirituality))) (. !)))
+#Rule:Nouns
+r1religionNN
+r1spiritualityNN
+
+#Rule:HeadNoun-V
+r11wePRPhaveAUX
+
+#Rule:V-HeadNoun
+r21haveAUXreligionNN
+
+#Rule:V-ADV
+r46haveAUXalreadyRB
+
+@lemmas-left	religion	does	category	it	count	have	spirituality	do	counts	we	
+@lemmas-right	religion	does	category	it	count	have	do	already	counts	
+@lemmas-center	as	

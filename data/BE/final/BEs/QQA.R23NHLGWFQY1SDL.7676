@@ -1,0 +1,87 @@
+#well not really maybe if u just tone up a little but not really loose and it also matter are u curvy like do u have a big butt and chest if so then thats a healthy weight for you, but i just reccommend to stop eating at mcdonalds or carls jr or jack in the box or rallys or anything that is fast food at least for 6 weeks and u would loose the excessive 10lbs
+#(S1 (FRAG (ADVP (RB well)) (ADVP (RB not) (RB really)) (RB maybe) (SBAR (IN if) (S (NP (NNP u)) (ADVP (RB just)) (VP (NN tone) (PRT (RP up)) (NP (DT a) (ADJP (JJ little) (CC but) (RB not) (ADJP (RB really) (JJ loose) (SBAR (S (S (CC and) (NP (PRP it)) (ADVP (RB also)) (VP (VBP matter) (SBAR (S (VP (AUX are) (ADJP (NNP u) (JJ curvy)) (SBAR (IN like) (S (VP (AUX do) (VP (NNP u) (VP (AUX have) (NP (DT a) (JJ big) (NN butt) (CC and) (NN chest)) (SBAR (IN if) (S (ADVP (RB so) (RB then)) (VP (VBZ thats) (NP (DT a) (JJ healthy) (NN weight)) (PP (IN for) (NP (PRP you)))))))))))))))) (, ,) (CC but) (S (NP (PRP i)) (ADVP (RB just)) (VP (VBP reccommend) (S (VP (TO to) (VP (VP (VB stop) (VP (VBG eating) (PP (IN at) (NP (NNS mcdonalds) (CC or) (NNS carls))) (NP (NNP jr)))) (CC or) (VP (VB jack) (PP (IN in) (NP (NP (DT the) (NN box) (CC or) (NNS rallys)) (CC or) (NP (NP (NN anything)) (SBAR (WHNP (WDT that)) (S (VP (AUX is) (ADJP (RB fast) (NN food)) (SBAR (ADVP (IN at) (JJS least)) (IN for) (S (NP (CD 6) (NNS weeks) (CC and) (NNP u)) (VP (MD would) (VP (VB loose) (NP (DT the) (JJ excessive) (NNS 10lbs))))))))))))))))))))))))))))
+#Rule:Nouns
+r1uNNP
+r1toneNN
+r1uNNP
+r1uNNP
+r1buttNN
+r1chestNN
+r1weightNN
+r1mcdonalds or carlsOrganizationAnnotation
+r1jrNNP
+r1boxNN
+r1rallysNNS
+r1anythingNN
+r1foodNN
+r1weeksNNS
+r1uOrganizationAnnotation
+r110lbsNNS
+
+#Rule:Verbs
+r2matterVBP
+r2thatsVBZ
+r2reccommendVBP
+r2stopVB
+r2eatingVBG
+r2jackVB
+r2looseVB
+
+#Rule:V-PRT
+r3toneNNupRP
+
+#Rule:Adjs
+r4littleJJ
+r4looseJJ
+r4curvyJJ
+r4bigJJ
+r4healthyJJ
+r4leastJJS
+r4excessiveJJ
+
+#Rule:Adj-Noun
+r5looseJJlittleJJ
+r5bigJJbuttNN
+r5healthyJJweightNN
+r56CDweeksNNS
+r5excessiveJJ10lbsNNS
+
+#Rule:HeadNoun-V
+r11itPRPmatterVBP
+r11iOrganizationAnnotationreccommendVBP
+r11weeksNNSlooseVB
+
+#Rule:HeadNoun-(who/that)-V
+r14anythingNNisAUX
+
+#Rule:V-HeadNoun
+r21toneNNlittleJJ
+r21haveAUXbuttNN
+r21thatsVBZweightNN
+r21eatingVBGjrNNP
+r21looseVB10lbsNNS
+
+#Rule:V-ADJ
+r25areAUXcurvyJJ
+r25isAUXfoodNN
+
+#Rule:PPinVP
+r30thatsVBZforINyouPRP
+r30eatingVBGatINmcdonalds or carlsOrganizationAnnotation
+r30jackVBinINboxNN
+r30jackVBinINanythingNN
+
+#Rule:V-IN-V
+r43areAUXlikeINhaveAUX
+r43haveAUXifINthatsVBZ
+r43isAUXforINlooseVB
+
+#Rule:V-ADV
+r46matterVBPalsoRB
+r46thatsVBZsoRB
+r46thatsVBZthenRB
+r46reccommendVBPjustRB
+
+@lemmas-left	thats	stop	weight	jack	have	least	jr	mcdonalds or carls	excessive	chest	little	10lbs	loose	are	reccommend	butt	be	is	tone	it	matter	rallys	weeks	i	rally	curvy	u	anything	6	food	healthy	eating	box	eat	lb	big	week	
+@lemmas-right	thats	weight	have	jr	mcdonalds or carls	little	10lbs	loose	reccommend	butt	be	just	is	matter	so	you	weeks	up	curvy	anything	food	then	box	lb	also	week	
+@lemmas-center	for	if	at	like	in	

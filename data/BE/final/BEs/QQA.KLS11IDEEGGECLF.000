@@ -1,0 +1,31 @@
+#where is tsunami come from? 
+#(S1 (SBARQ (WHADVP (WRB where)) (SQ (AUX is) (NP (NN tsunami)) (VP (VBN come) (PP (IN from)))) (. ?)))
+#Rule:Nouns
+r1tsunamiLocationAnnotation
+
+#Rule:Verbs
+r2comeVBN
+
+#and why tsunami is that name? 
+#(S1 (SBARQ (CC and) (WHADVP (WRB why)) (SQ (NP (NN tsunami)) (VP (AUX is) (NP (DT that) (NN name)))) (. ?)))
+#Rule:Nouns
+r1tsunamiPersonAnnotation
+r1nameNN
+
+#Rule:V-HeadNoun
+r21isAUXnameNN
+
+#what is the meaning of that?
+#(S1 (SBARQ (WHNP (WP what)) (SQ (VP (AUX is) (NP (NP (DT the) (NN meaning)) (PP (IN of) (NP (DT that)))))) (. ?)))
+#Rule:Nouns
+r1meaningNN
+
+#Rule:V-HeadNoun
+r21isAUXmeaningNN
+
+#Rule:PPinNP
+r26meaningNNofINthatLocationAnnotation
+
+@lemmas-left	is	name	come	meaning	tsunami	be	
+@lemmas-right	that	name	meaning	
+@lemmas-center	of	

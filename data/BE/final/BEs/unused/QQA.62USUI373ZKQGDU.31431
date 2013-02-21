@@ -1,0 +1,44 @@
+#make common denominator6 7/10 + 9 3/5 =6 7/10 + 9 6/10 =      15 + 13/10 =16 +  2/10 =16 1/5
+#(S1 (S (S (VP (VB make) (NP (JJ common) (NNS denominator6)))) (NP (NP (CD 7/10) (NN +)) (ADJP (CD 9) (NN 3/5))) (VP (VBZ =6) (NP (NP (NP (CD 7/10) (NN +) (QP (CD 9) (CD 6/10) (SYM =) (CD 15) (CD +))) (NP (QP (CD 13/10) (CD =16)) (NNS +))) (NP (QP (CD 2/10) (CD =16)) (NNS 1/5))))))
+#Rule:Nouns
+r1denominator6NNS
+r1+NN
+r13/5NN
+r1+NN
+r1+NNS
+r11/5NNS
+
+#Rule:Verbs
+r2makeVB
+r2=6VBZ
+
+#Rule:Adjs
+r4commonJJ
+
+#Rule:Adj-Noun
+r5commonJJdenominator6NNS
+r59CD+NN
+r57/10CD+NN
+r57/10CD+NN
+r59CD+NN
+r56/10CD+NN
+r515CD+NN
+r5+CD+NN
+r513/10CD+NNS
+r5=16CD+NNS
+r52/10CD1/5NNS
+r5=16CD1/5NNS
+
+#Rule:HeadNoun-V
+r11+NN=6VBZ
+
+#Rule:V-HeadNoun
+r21makeVBdenominator6NNS
+r21=6VBZ+NN
+
+#Rule:SubVerbClause
+r50+NNmakeVB
+
+@lemmas-left	common	=16	+	3/5	15	2/10	denominator6	=6	13/10	7/10	1/5	9	6/10	make	
+@lemmas-right	+	1/5	make	denominator6	=6	
+@lemmas-center	

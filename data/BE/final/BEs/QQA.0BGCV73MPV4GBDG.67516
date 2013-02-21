@@ -1,0 +1,27 @@
+#The source below offers some acne solutions.
+#(S1 (S (NP (DT The) (NN source)) (ADVP (RB below)) (VP (VBZ offers) (NP (DT some) (JJ acne) (NNS solutions))) (. .)))
+#Rule:Nouns
+r1sourceNN
+r1solutionsNNS
+
+#Rule:Verbs
+r2offersVBZ
+
+#Rule:Adjs
+r4acneJJ
+
+#Rule:Adj-Noun
+r5acneJJsolutionsNNS
+
+#Rule:HeadNoun-V
+r11sourceNNoffersVBZ
+
+#Rule:V-HeadNoun
+r21offersVBZsolutionsNNS
+
+#Rule:V-ADV
+r46offersVBZbelowRB
+
+@lemmas-left	source	solutions	offers	offer	acne	solution	
+@lemmas-right	solutions	offers	below	offer	solution	
+@lemmas-center	

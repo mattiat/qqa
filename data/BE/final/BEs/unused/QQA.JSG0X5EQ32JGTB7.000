@@ -1,0 +1,24 @@
+#How important is MARRIAGE to LONG LASTING LOVE?
+#(S1 (SBARQ (WHNP (WRB How) (JJ important)) (SQ (VP (AUX is) (NP (NP (NN MARRIAGE)) (PP (TO to) (NP (JJ LONG) (JJ LASTING) (NN LOVE)))))) (. ?)))
+#Rule:Nouns
+r1MARRIAGENN
+r1LOVENN
+
+#Rule:Adjs
+r4importantJJ
+r4LONGLocationAnnotation
+r4LASTINGJJ
+
+#Rule:Adj-Noun
+r5LONGLocationAnnotationLOVENN
+r5LASTINGJJLOVENN
+
+#Rule:V-HeadNoun
+r21isAUXMARRIAGENN
+
+#Rule:PPinNP
+r26MARRIAGENNtoTOLOVENN
+
+@lemmas-left	love	MARRIAGE	is	LOVE	lasting	important	LONG	marriage	LASTING	be	
+@lemmas-right	love	MARRIAGE	LOVE	marriage	
+@lemmas-center	to	

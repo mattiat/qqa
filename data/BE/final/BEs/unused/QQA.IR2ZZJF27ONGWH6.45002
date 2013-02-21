@@ -1,0 +1,125 @@
+#Go to my website and click on Cholesterol and Triglycerides on the left side. There you will find basic info and links to more in depth sites. The links are very good..
+#(S1 (S (VP (VB Go) (PP (TO to) (NP (PRP$ my) (NN website) (CC and) (NN click))) (PP (IN on) (NP (NN Cholesterol) (CC and) (NNS Triglycerides))) (PP (IN on) (NP (NP (DT the) (NN left)) (PP (FW side.) (NP (EX There))) (SBAR (S (NP (PRP you)) (VP (MD will) (VP (VB find) (NP (NP (JJ basic) (NNS info) (CC and) (NNS links)) (PP (TO to) (NP (NP (JJR more)) (PP (IN in) (NP (NN depth) (NN sites.))) (S (NP (DT The) (NNS links)) (VP (AUX are) (ADJP (RB very) (JJ good))) (. .)))))))))))) (. .)))
+#Rule:Nouns
+r1websiteNN
+r1clickNN
+r1CholesterolNN
+r1TriglyceridesOrganizationAnnotation
+r1leftNN
+r1infoNNS
+r1linksNNS
+r1depthNN
+r1sitesNN
+r1linksNNS
+
+#Rule:Verbs
+r2goVB
+r2findVB
+
+#Rule:Adjs
+r4basicJJ
+r4moreJJR
+r4goodJJ
+
+#Rule:Adj-Noun
+r5basicJJinfoNNS
+
+#Rule:PRP-Noun
+r6myPRP$websiteNN
+
+#Rule:N-HeadNoun
+r8depthNNsitesNN
+
+#Rule:HeadNoun-V
+r11youPRPfindVB
+r11linksNNSareAUX
+
+#Rule:V-HeadNoun
+r21findVBinfoNNS
+
+#Rule:V-ADJ
+r25areAUXgoodJJ
+
+#Rule:PPinNP
+r26infoNNStoTOmoreJJR
+r26moreJJRinINsitesNN
+
+#Rule:PPinVP
+r30goVBtoTOwebsiteNN
+r30goVBonINCholesterolNN
+r30goVBonINleftNN
+
+#Here s the link to my website:http://medilink-healthlink.tripod.com/index.htmlMy cholesterol and triglycerides are high and I have the other conditions my site talks about..
+#(S1 (SINV (ADVP (RB Here)) (VBZ s) (NP (NP (NP (DT the) (NN link)) (PP (TO to) (NP (PRP$ my) (NN website)))) (: :) (NP (NN http)) (: :) (S (S (NP (JJ //medilink-healthlink.tripod.com/index.htmlMy) (NN cholesterol) (CC and) (NNS triglycerides)) (VP (AUX are) (ADJP (JJ high)))) (CC and) (S (NP (PRP I)) (VP (AUX have) (NP (NP (DT the) (JJ other) (NNS conditions)) (SBAR (S (NP (PRP$ my) (NN site)) (VP (VBZ talks) (PP (IN about))))))))) (. .)) (. .)))
+#Rule:Nouns
+r1linkNN
+r1websiteNN
+r1http://medilink-healthlink.tripod.OrganizationAnnotation
+r1cholesterolNN
+r1triglyceridesNNS
+r1conditionsNNS
+r1siteNN
+
+#Rule:Verbs
+r2sVBZ
+r2talksVBZ
+
+#Rule:Adjs
+r4//medilink-healthlink.tripod.com/index.htmlMyJJ
+r4highJJ
+r4otherJJ
+
+#Rule:Adj-Noun
+r5//medilink-healthlink.tripod.com/index.htmlMyJJcholesterolNN
+r5otherJJconditionsNNS
+
+#Rule:PRP-Noun
+r6myPRP$websiteNN
+r6myPRP$siteNN
+
+#Rule:HeadNoun-V
+r11cholesterolNNareAUX
+r11iPRPhaveAUX
+r11siteNNtalksVBZ
+
+#Rule:NP(NP(z) SBAR(S(NP(x)VP(y))))
+r19talksVBZconditionsNNS
+
+#Rule:V-HeadNoun
+r21haveAUXconditionsNNS
+
+#Rule:V-ADJ
+r25areAUXhighJJ
+
+#Rule:PPinNP
+r26linkNNtoTOwebsiteNN
+
+#Good luck, you are right to be concerned..
+#(S1 (NP (NP (JJ Good) (NN luck)) (, ,) (S (NP (PRP you)) (VP (AUX are) (ADJP (JJ right) (S (VP (TO to) (VP (AUX be) (VP (VBN concerned))))))) (. .)) (. .)))
+#Rule:Nouns
+r1luckNN
+
+#Rule:Verbs
+r2concernedVBN
+
+#Rule:Adjs
+r4GoodJJ
+r4rightJJ
+
+#Rule:Adj-Noun
+r5GoodJJluckNN
+
+#Rule:HeadNoun-V
+r11youPRPareAUX
+
+#Rule:V-ADJ
+r25areAUXrightJJ
+
+#TerryTerry
+#(S1 (NP (NNP TerryTerry)))
+#Rule:Nouns
+r1TerryTerryOrganizationAnnotation
+
+@lemmas-left	Good	other	have	concern	link	sites.	click	good	info	TerryTerry	concerned	more	are	basic	Triglycerides	triglyceride	left	//medilink-healthlink.tripod.com/index.htmlmy	right	find	talk	be	triglycerides	site	sites	website	luck	links	you	Cholesterol	cholesterol	my	depth	i	conditions	s	//medilink-healthlink.tripod.com/index.htmlMy	talks	high	http://medilink-healthlink.tripod.	go	
+@lemmas-right	site	sites	have	website	luck	sites.	good	Cholesterol	cholesterol	info	conditions	are	more	talks	left	high	right	find	talk	be	
+@lemmas-center	to	on	in	

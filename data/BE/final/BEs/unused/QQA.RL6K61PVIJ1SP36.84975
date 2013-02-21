@@ -1,0 +1,74 @@
+#Cod liver oils or fish oil are good sources of HDL (good cholesterol) Vegetable oil, is also a good source,  Avoid meat oil, this is bad cholesterol. 
+#(S1 (S (S (NP (NP (JJ Cod) (NN liver) (NNS oils)) (CC or) (NP (NN fish) (NN oil))) (VP (AUX are) (NP (NP (JJ good) (NNS sources)) (PP (IN of) (NP (NNP HDL) (PRN (-LRB- -LRB-) (NP (JJ good) (NN cholesterol)) (-RRB- -RRB-)) (NN Vegetable) (NN oil)))))) (, ,) (S (VP (AUX is) (ADVP (RB also)) (NP (DT a) (JJ good) (NN source)))) (, ,) (VP (VB Avoid) (S (NP (NN meat) (NN oil)) (, ,) (NP (DT this)) (VP (AUX is) (NP (JJ bad) (NN cholesterol))))) (. .)))
+#Rule:Nouns
+r1liverNN
+r1oilsNNS
+r1fishNN
+r1oilNN
+r1sourcesNNS
+r1HDLOrganizationAnnotation
+r1cholesterolNN
+r1VegetableNN
+r1oilNN
+r1sourceNN
+r1meatNN
+r1oilNN
+r1cholesterolNN
+
+#Rule:Verbs
+r2avoidVB
+
+#Rule:Adjs
+r4CodJJ
+r4goodJJ
+r4goodJJ
+r4goodJJ
+r4badJJ
+
+#Rule:Adj-Noun
+r5CodJJoilsNNS
+r5goodJJsourcesNNS
+r5goodJJcholesterolNN
+r5goodJJsourceNN
+r5badJJcholesterolNN
+
+#Rule:N-HeadNoun
+r8liverNNoilsNNS
+r8fishNNoilNN
+r8VegetableNNoilNN
+r8meatNNoilNN
+
+#Rule:HeadNoun-V
+r11oilsNNSareAUX
+r11oilNNareAUX
+r11oilNNisAUX
+r11thisDTisAUX
+
+#Rule:V-HeadNoun
+r21areAUXsourcesNNS
+r21isAUXsourceNN
+r21isAUXcholesterolNN
+
+#Rule:V-HeadNoun
+r22avoidVBoilNN
+r22avoidVBthisDT
+
+#Rule:PPinNP
+r26sourcesNNSofINoilNN
+
+#Rule:V-ADV
+r46isAUXalsoRB
+
+#Rule:IS-RULE
+r47sourcesNNSoilsNNS
+r47sourcesNNSoilNN
+r47cholesterolNNoilNN
+
+#(LDL).
+#(S1 (NP (-LRB- -LRB-) (NP (NNP LDL)) (-RRB- -RRB-) (. .)))
+#Rule:Nouns
+r1LDLLocationAnnotation
+
+@lemmas-left	HDL	is	fish	Vegetable	oils	good	bad	cholesterol	Cod	sources	oil	LDL	avoid	are	source	cod	meat	liver	vegetable	this	be	
+@lemmas-right	is	are	source	oils	also	this	cholesterol	sources	be	oil	
+@lemmas-center	of	

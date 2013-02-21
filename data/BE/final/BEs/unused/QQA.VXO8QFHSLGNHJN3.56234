@@ -1,0 +1,96 @@
+#Fanatical religious control of the govts, wide spread warfare, torture and execution. and those little things like plagues.  
+#(S1 (S (NP (NP (NP (JJ Fanatical) (JJ religious) (NN control)) (PP (IN of) (NP (DT the) (NNS govts)))) (, ,) (NP (JJ wide) (VBN spread) (NN warfare)) (, ,)) (VP (VB torture) (CC and) (VBZ execution.) (NP (NP (CC and) (DT those) (JJ little) (NNS things)) (PP (IN like) (NP (NNS plagues))))) (. .)))
+#Rule:Nouns
+r1controlNN
+r1the govtsOrganizationAnnotation
+r1warfareNN
+r1thingsNNS
+r1plaguesNNS
+
+#Rule:Verbs
+r2spreadVBN
+r2tortureVB
+r2executionVBZ
+
+#Rule:Adjs
+r4FanaticalOrganizationAnnotation
+r4religiousJJ
+r4wideJJ
+r4littleJJ
+
+#Rule:Adj-Noun
+r5FanaticalOrganizationAnnotationcontrolNN
+r5religiousJJcontrolNN
+r5wideJJwarfareNN
+r5spreadVBNwarfareNN
+r5littleJJthingsNNS
+
+#Rule:N-ApposN
+r10controlNNwarfareNN
+
+#Rule:HeadNoun-V
+r11controlNNtortureVB
+r11warfareNNtortureVB
+
+#Rule:V-HeadNoun
+r21tortureVBthingsNNS
+
+#Rule:PPinNP
+r26controlNNofINthe govtsOrganizationAnnotation
+r26thingsNNSlikeINplaguesNNS
+
+#But mostly the Religious whack jobs controlling information, education and govt rules.  
+#(S1 (S (CC But) (NP (RB mostly) (DT the) (JJ Religious)) (VP (VB whack) (NP (NP (NNS jobs)) (VP (VBG controlling) (NP (NN information) (, ,) (NN education) (CC and) (NN govt) (NNS rules))))) (. .)))
+#Rule:Nouns
+r1jobsNNS
+r1informationNN
+r1educationNN
+r1govtOrganizationAnnotation
+r1rulesNNS
+
+#Rule:Verbs
+r2whackVB
+r2controllingVBG
+
+#Rule:Adjs
+r4ReligiousJJ
+
+#Rule:N-HeadNoun
+r8govtOrganizationAnnotationrulesNNS
+
+#Rule:HeadNoun-V
+r11ReligiousJJwhackVB
+r11jobsNNScontrollingVBG
+
+#Rule:V-HeadNoun
+r21whackVBjobsNNS
+r21controllingVBGrulesNNS
+
+#Much like they would these days if we didn t keep them in check.
+#(S1 (FRAG (SBAR (ADVP (RB Much)) (IN like) (S (NP (PRP they)) (VP (MD would) (VP (NP (DT these) (NNS days)) (SBAR (IN if) (S (NP (PRP we)) (VP (VBP didn) (S (NP (NNS t)) (VP (VB keep) (S (NP (PRP them)) (PP (IN in) (NP (NN check))))))))))))) (. .)))
+#Rule:Nouns
+r1daysNNS
+r1tNNS
+r1checkNN
+
+#Rule:Verbs
+r2didnVBP
+r2keepVB
+
+#Rule:HeadNoun-V
+r11wePRPdidnVBP
+r11tNNSkeepVB
+
+#Rule:V-HeadNoun
+r22didnVBPtNNS
+r22keepVBthemPRP
+
+#Rule:PPinS
+r36themPRPinINcheckNN
+
+#Rule:V-IN-V
+r43daysNNSifINdidnVBP
+
+@lemmas-left	jobs	govt	controlling	plagues	little	education	execution	Fanatical	rule	whack	torture	the govts	plague	control	information	check	execution.	job	wide	rules	t	days	them	things	didn	spread	warfare	Religious	religious	we	keep	
+@lemmas-right	the govts	control	plague	jobs	controlling	check	plagues	job	rules	t	them	rule	things	didn	whack	warfare	torture	keep	
+@lemmas-center	of	if	like	in	

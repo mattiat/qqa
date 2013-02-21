@@ -1,0 +1,34 @@
+#How many stages are their in Congestive heart failure?
+#(S1 (SBARQ (WHNP (WHADJP (WRB How) (JJ many)) (NNS stages)) (SQ (VP (AUX are) (NP (PRP$ their)) (PP (IN in) (NP (JJ Congestive) (NN heart) (NN failure))))) (. ?)))
+#Rule:Nouns
+r1stagesNNS
+r1heartNN
+r1failureNN
+
+#Rule:Adjs
+r4manyJJ
+r4CongestiveJJ
+
+#Rule:Adj-Noun
+r5CongestiveJJfailureNN
+
+#Rule:N-HeadNoun
+r8heartNNfailureNN
+
+#Rule:V-HeadNoun
+r21areAUXtheirPRP$
+
+#Rule:PPinVP
+r30areAUXinINfailureNN
+
+#age 87
+#(S1 (NP (NN age) (CD 87)))
+#Rule:Nouns
+r1ageNN
+
+#Rule:Adj-Noun
+r587CDageNN
+
+@lemmas-left	many	failure	are	heart	congestive	age	Congestive	87	stage	stages	be	
+@lemmas-right	failure	age	their	
+@lemmas-center	in	

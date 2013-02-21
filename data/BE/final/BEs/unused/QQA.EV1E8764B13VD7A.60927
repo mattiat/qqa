@@ -1,0 +1,151 @@
+#Simply put, the easiest way to overcome a fear is to be forced to face it. 
+#(S1 (S (S (VP (ADVP (RB Simply)) (VBN put))) (, ,) (NP (NP (DT the) (JJS easiest) (NN way)) (SBAR (S (VP (TO to) (VP (VB overcome) (NP (DT a) (NN fear))))))) (VP (AUX is) (S (VP (TO to) (VP (AUX be) (VP (VBN forced) (S (VP (TO to) (VP (VB face) (NP (PRP it)))))))))) (. .)))
+#Rule:Nouns
+r1wayNN
+r1fearNN
+
+#Rule:Verbs
+r2putVBN
+r2overcomeVB
+r2forcedVBN
+r2faceVB
+
+#Rule:Adjs
+r4easiestJJS
+
+#Rule:Adj-Noun
+r5easiestJJSwayNN
+
+#Rule:HeadNoun-V
+r11wayNNisAUX
+
+#Rule:HeadNoun-(who/that)-V
+r14wayNNovercomeVB
+
+#Rule:V-HeadNoun
+r21overcomeVBfearNN
+r21faceVBitPRP
+
+#Rule:V-V
+r44forcedVBNfaceVB
+
+#Rule:V-ADV
+r46putVBNSimplyRB
+
+#Although tornadoes are definitely not good to have to protect yourself against, know how to protect yourself and, if you will, simulate a tornado situation. 
+#(S1 (S (SBAR (IN Although) (S (NP (NNS tornadoes)) (VP (AUX are) (ADVP (RB definitely)) (ADJP (RB not) (JJ good) (S (VP (TO to) (VP (AUX have) (S (VP (TO to) (VP (VB protect) (NP (PRP yourself)) (PP (IN against)))))))))))) (, ,) (VP (VP (VBP know) (SBAR (WHADVP (WRB how)) (S (VP (TO to) (VP (VB protect) (NP (PRP yourself))))))) (CC and) (PRN (, ,) (SBAR (IN if) (S (NP (PRP you)) (VP (MD will)))) (, ,)) (VP (VBP simulate) (NP (DT a) (NN tornado) (NN situation)))) (. .)))
+#Rule:Nouns
+r1tornadoesNNS
+r1tornadoLocationAnnotation
+r1situationNN
+
+#Rule:Verbs
+r2protectVB
+r2knowVBP
+r2protectVB
+r2simulateVBP
+
+#Rule:Adjs
+r4goodJJ
+
+#Rule:N-HeadNoun
+r8tornadoLocationAnnotationsituationNN
+
+#Rule:HeadNoun-V
+r11tornadoesNNSareAUX
+
+#Rule:V-HeadNoun
+r21protectVByourselfPRP
+r21protectVByourselfPRP
+r21simulateVBPsituationNN
+
+#Rule:V-ADJ
+r25areAUXgoodJJ
+
+#Rule:V-ADV
+r46areAUXdefinitelyRB
+
+#Another way, as mentioned, is to know about them. 
+#(S1 (S (NP (DT Another) (NN way)) (PRN (, ,) (SBAR (IN as) (S (VP (VBN mentioned)))) (, ,)) (VP (AUX is) (S (VP (TO to) (VP (VB know) (PP (IN about) (NP (PRP them))))))) (. .)))
+#Rule:Nouns
+r1wayNN
+
+#Rule:Verbs
+r2mentionedVBN
+r2knowVB
+
+#Rule:HeadNoun-V
+r11wayNNisAUX
+
+#Rule:PPinVP
+r30knowVBaboutINthemPRP
+
+#RESEARCH! 
+#(S1 (INTJ (NN RESEARCH) (. !)))
+#Rule:Nouns
+r1RESEARCHNN
+
+#But, since tornadoes don t occur daily, another good strategy would be simply to forget your fear. 
+#(S1 (S (CC But) (, ,) (SBAR (IN since) (S (NP (NNS tornadoes)) (VP (VB don) (S (NP (NNS t)) (VP (VB occur) (ADVP (RB daily))))))) (, ,) (NP (DT another) (JJ good) (NN strategy)) (VP (MD would) (VP (AUX be) (ADVP (RB simply)) (S (VP (TO to) (VP (VB forget) (NP (PRP$ your) (NN fear))))))) (. .)))
+#Rule:Nouns
+r1tornadoes donLocationAnnotation
+r1tNNS
+r1strategyNN
+r1fearNN
+
+#Rule:Verbs
+r2occurVB
+r2forgetVB
+
+#Rule:Adjs
+r4goodJJ
+
+#Rule:Adj-Noun
+r5goodJJstrategyNN
+
+#Rule:PRP-Noun
+r6yourPRP$fearNN
+
+#Rule:HeadNoun-V
+r11strategyNNbeAUX
+r11tNNSoccurVB
+
+#Rule:V-HeadNoun
+r21forgetVBfearNN
+
+#Rule:V-HeadNoun
+r22tornadoes donLocationAnnotationtNNS
+
+#Rule:V-ADV
+r46occurVBdailyRB
+r46beAUXsimplyRB
+
+#Chances are you won t be in a tornado situation for a while.
+#(S1 (S (NP (NNS Chances)) (VP (AUX are) (SBAR (S (NP (PRP you)) (VP (VBP won) (RB t) (VP (AUX be) (PP (IN in) (NP (DT a) (NN tornado) (NN situation))) (PP (IN for) (NP (DT a) (NN while)))))))) (. .)))
+#Rule:Nouns
+r1ChancesNNS
+r1tornadoLocationAnnotation
+r1situationNN
+r1whileNN
+
+#Rule:Verbs
+r2wonVBP
+
+#Rule:N-HeadNoun
+r8tornadoLocationAnnotationsituationNN
+
+#Rule:HeadNoun-V
+r11ChancesNNSareAUX
+r11youPRPwonVBP
+r11youPRPbeAUX
+
+#Rule:PPinVP
+r30beAUXinINsituationNN
+r30beAUXforINwhileNN
+
+#Rule:V-ADV
+r46wonVBPtLocationAnnotation
+
+@lemmas-left	face	simulate	put	overcome	way	mentioned	tornadoes	good	chance	protect	Chances	while	are	easy	RESEARCH	mention	won	situation	easiest	forced	be	your	strategy	you	win	tornadoes don	know	research	t	force	forget	tornado	occur	fear	
+@lemmas-right	definitely	face	is	it	Simply	overcome	strategy	way	good	win	daily	while	t	are	simply	them	won	yourself	situation	occur	be	fear	
+@lemmas-center	for	about	in	

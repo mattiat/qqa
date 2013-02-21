@@ -1,0 +1,519 @@
+#I am an Atheist.
+#(S1 (S (NP (PRP I)) (VP (AUX am) (NP (DT an) (NN Atheist))) (. .)))
+#Rule:Nouns
+r1AtheistLocationAnnotation
+
+#Rule:HeadNoun-V
+r11iPRPamAUX
+
+#Rule:V-HeadNoun
+r21amAUXAtheistLocationAnnotation
+
+# I am by nature,&spirit.
+#(S1 (S (NP (PRP I)) (VP (AUX am) (PP (IN by) (NP (NN nature))) (, ,) (ADJP (JJ &spirit))) (. .)))
+#Rule:Nouns
+r1natureNN
+
+#Rule:Adjs
+r4&spiritJJ
+
+#Rule:HeadNoun-V
+r11iPRPamAUX
+
+#Rule:PPinVP
+r30amAUXbyINnatureNN
+
+# It would be totally impossible for me to accept any religion.
+#(S1 (S (NP (PRP It)) (VP (MD would) (VP (AUX be) (ADJP (RB totally) (JJ impossible) (SBAR (IN for) (S (NP (PRP me)) (VP (TO to) (VP (VB accept) (NP (DT any) (NN religion))))))))) (. .)))
+#Rule:Nouns
+r1religionNN
+
+#Rule:Verbs
+r2acceptVB
+
+#Rule:Adjs
+r4impossibleJJ
+
+#Rule:HeadNoun-V
+r11itPRPbeAUX
+r11mePRPacceptVB
+
+#Rule:V-HeadNoun
+r21acceptVBreligionNN
+
+#Rule:V-ADJ
+r25beAUXimpossibleJJ
+
+# Contrary to the perceptions of some--being an Atheist isn t a whimsical choice;
+#(S1 (S (ADVP (JJ Contrary) (PP (TO to) (NP (NP (DT the) (NNS perceptions)) (PP (IN of) (NP (NN some--being)))))) (NP (DT an) (NNP Atheist) (NN isn)) (VP (VBZ t) (NP (DT a) (JJ whimsical) (NN choice))) (: ;)))
+#Rule:Nouns
+r1perceptionsNNS
+r1some--beingNN
+r1Atheist isn tLocationAnnotation
+r1choiceNN
+
+#Rule:Adjs
+r4ContraryJJ
+r4whimsicalJJ
+
+#Rule:Adj-Noun
+r5whimsicalJJchoiceNN
+
+#Rule:V-HeadNoun
+r21Atheist isn tLocationAnnotationchoiceNN
+
+#Rule:PPinNP
+r26perceptionsNNSofINsome--beingNN
+
+# it is not without a moral compass or spirituality.
+#(S1 (S (NP (PRP it)) (VP (AUX is) (RB not) (PP (IN without) (NP (NP (DT a) (JJ moral) (NN compass)) (CC or) (NP (NN spirituality))))) (. .)))
+#Rule:Nouns
+r1compassNN
+r1spiritualityNN
+
+#Rule:Adjs
+r4moralJJ
+
+#Rule:Adj-Noun
+r5moralJJcompassNN
+
+#Rule:HeadNoun-V
+r11itPRPisAUX
+
+#Rule:PPinVP
+r30isAUXwithoutINcompassNN
+r30isAUXwithoutINspiritualityNN
+
+#Rule:V-ADV
+r46isAUXnotRB
+
+# Nor is it a religion as often, people call it.
+#(S1 (SINV (CC Nor) (AUX is) (NP (PRP it)) (NP (DT a) (NN religion) (SBAR (IN as) (S (ADVP (RB often)) (, ,) (NP (NNS people)) (VP (VBP call) (NP (PRP it)))))) (. .)))
+#Rule:Nouns
+r1religionNN
+r1peopleNNS
+
+#Rule:Verbs
+r2callVBP
+
+#Rule:HeadNoun-V
+r11peopleNNScallVBP
+
+#Rule:V-HeadNoun
+r21callVBPitPRP
+
+#Rule:V-ADV
+r46callVBPoftenRB
+
+# [patches, for example.
+#(S1 (NP (NP (NNS [patches)) (, ,) (PP (IN for) (NP (NN example))) (. .)))
+#Rule:Nouns
+r1[patchesPersonAnnotation
+r1exampleNN
+
+#Rule:PPinNP
+r26[patchesPersonAnnotationforINexampleNN
+
+#]It is the antithesis of religion.
+#(S1 (S (`` -RSB-) (NP (PRP It)) (VP (AUX is) (NP (NP (DT the) (NN antithesis)) (PP (IN of) (NP (NN religion))))) (. .)))
+#Rule:Nouns
+r1antithesisNN
+r1religionNN
+
+#Rule:HeadNoun-V
+r11itPRPisAUX
+
+#Rule:V-HeadNoun
+r21isAUXantithesisNN
+
+#Rule:PPinNP
+r26antithesisNNofINreligionNN
+
+# [Sean]An Athesist doesn t believe in God?
+#(S1 (S (NP (NNP [Sean) (NN -RSB-) (NNP An) (NNP Athesist)) (VP (VBD doesn) (SBAR (S (NP (NNS t)) (VP (VBP believe) (PP (IN in) (NP (NNP God))))))) (. ?)))
+#Rule:Nouns
+r1[Sean]AnLocationAnnotation
+r1AthesistNNP
+r1tNNS
+r1GodLocationAnnotation
+
+#Rule:Verbs
+r2doesnVBD
+r2believeVBP
+
+#Rule:N-HeadNoun
+r8[Sean]AnLocationAnnotationAthesistNNP
+
+#Rule:HeadNoun-V
+r11AthesistNNPdoesnVBD
+r11tNNSbelieveVBP
+
+#Rule:PPinVP
+r30believeVBPinINGodLocationAnnotation
+
+# Hello?
+#(S1 (INTJ (UH Hello) (. ?)))
+# Buddhists believe in God,&they are NOT religious.
+#(S1 (S (NP (NNS Buddhists)) (VP (VBP believe) (SBAR (S (PP (IN in) (NP (NNP God))) (, ,) (NP (NN &they)) (VP (AUX are) (RB NOT) (ADJP (JJ religious)))))) (. .)))
+#Rule:Nouns
+r1BuddhistsOrganizationAnnotation
+r1GodLocationAnnotation
+r1&theyNN
+
+#Rule:Verbs
+r2believeVBP
+
+#Rule:Adjs
+r4religiousJJ
+
+#Rule:HeadNoun-V
+r11BuddhistsOrganizationAnnotationbelieveVBP
+r11&theyNNareAUX
+
+#Rule:V-ADJ
+r25areAUXreligiousJJ
+
+#Rule:PPinS
+r36areAUXinINGodLocationAnnotation
+
+#Rule:V-ADV
+r46areAUXNOTOrganizationAnnotation
+
+# They are Atheists who practice but do not believe in a deity--which is desim--belief in the existence of a god without accepting revelation.
+#(S1 (S (NP (PRP They)) (VP (AUX are) (NP (NP (NNPS Atheists)) (SBAR (WHNP (WP who)) (S (S (VP (VB practice))) (CC but) (S (VP (AUX do) (RB not) (VP (VB believe) (SBAR (S (PP (IN in) (NP (DT a) (NN deity--which))) (VP (AUX is) (ADJP (JJ desim--belief) (PP (IN in) (NP (NP (DT the) (NN existence)) (PP (IN of) (NP (DT a) (NNP god)))))) (PP (IN without) (S (VP (VBG accepting) (NP (NN revelation))))))))))))))) (. .)))
+#Rule:Nouns
+r1AtheistsOrganizationAnnotation
+r1deity--whichNN
+r1existenceNN
+r1godNNP
+r1revelationNN
+
+#Rule:Verbs
+r2practiceVB
+r2believeVB
+r2acceptingVBG
+
+#Rule:Adjs
+r4desim--beliefJJ
+
+#Rule:HeadNoun-V
+r11theyPRPareAUX
+
+#Rule:V-HeadNoun
+r21areAUXAtheistsOrganizationAnnotation
+r21acceptingVBGrevelationNN
+
+#Rule:V-ADJ
+r25isAUXdesim--beliefJJ
+
+#Rule:PPinNP
+r26existenceNNofINgodNNP
+
+#Rule:PPinS
+r36isAUXinINdeity--whichNN
+
+#Rule:PPinADJP
+r37desim--beliefJJinINexistenceNN
+
+#Rule:V-ADV
+r46doAUXnotRB
+
+# Read the answers from Buddhists, Gaz,&Epitipassi for example.
+#(S1 (S (VP (VB Read) (NP (NP (DT the) (NNS answers)) (PP (IN from) (NP (NP (NAC (NNP Buddhists) (, ,) (NNP Gaz) (, ,)) (NNS &Epitipassi)) (PP (IN for) (NP (NN example))))))) (. .)))
+#Rule:Nouns
+r1answersNNS
+r1BuddhistsLocationAnnotation
+r1Gaz,&EpitipassiLocationAnnotation
+r1exampleNN
+
+#Rule:Verbs
+r2readVB
+
+#Rule:V-HeadNoun
+r21readVBanswersNNS
+
+#Rule:PPinNP
+r26answersNNSfromINGaz,&EpitipassiLocationAnnotation
+r26Gaz,&EpitipassiLocationAnnotationforINexampleNN
+
+# Note that Gaz never asks questions.
+#(S1 (S (VP (VB Note) (SBAR (IN that) (S (NP (NNP Gaz)) (ADVP (RB never)) (VP (VBZ asks) (NP (NNS questions)))))) (. .)))
+#Rule:Nouns
+r1GazPersonAnnotation
+r1questionsNNS
+
+#Rule:Verbs
+r2noteVB
+r2asksVBZ
+
+#Rule:HeadNoun-V
+r11GazPersonAnnotationasksVBZ
+
+#Rule:V-HeadNoun
+r21asksVBZquestionsNNS
+
+#Rule:V-IN-V
+r43noteVBthatINasksVBZ
+
+#Rule:V-ADV
+r46asksVBZneverRB
+
+# Think about what this means..As 
+#(S1 (S (VP (VB Think) (PP (IN about) (SBAR (WHNP (WP what)) (S (NP (DT this)) (VP (VBZ means) (S (VP (VBG ..) (NP (NNP As)))))))))))
+#Rule:Nouns
+r1means..AsLocationAnnotation
+
+#Rule:Verbs
+r2thinkVB
+
+#Rule:HeadNoun-V
+r11thisDTmeans..AsLocationAnnotation
+
+#As for having a very difficult time, we all do, sometimes.
+#(S1 (S (PP (IN As) (PP (IN for) (S (VP (AUXG having) (NP (DT a) (ADJP (RB very) (JJ difficult)) (NN time)))))) (, ,) (NP (NP (PRP we)) (NP (DT all))) (VP (AUX do) (, ,) (ADVP (RB sometimes))) (. .)))
+#Rule:Nouns
+r1timeNN
+
+#Rule:Adjs
+r4difficultJJ
+
+#Rule:Adj-Noun
+r5difficultJJtimeNN
+
+#Rule:HeadNoun-V
+r11wePRPdoAUX
+r11allDTdoAUX
+
+#Rule:V-HeadNoun
+r21havingAUXGtimeNN
+
+#Rule:V-ADV
+r46doAUXsometimesRB
+
+# If we re in harmony with who we really are, this would not be a motivation to seek another self, that is, turn to faith.
+#(S1 (S (SBAR (IN If) (S (NP (PRP we)) (VP (NNP re) (PP (IN in) (NP (NP (NN harmony)) (PP (IN with) (SBAR (WHNP (WP who)) (S (NP (PRP we)) (ADVP (RB really)) (VP (AUX are)))))))))) (, ,) (NP (DT this)) (VP (MD would) (RB not) (VP (AUX be) (NP (NP (DT a) (NN motivation)) (SBAR (S (VP (TO to) (VP (VB seek) (S (NP (NP (DT another) (NN self)) (, ,) (SBAR (WHNP (WDT that)) (S (VP (AUX is)))) (, ,)) (VP (VB turn) (PP (TO to) (NP (NN faith)))))))))))) (. .)))
+#Rule:Nouns
+r1reNNP
+r1harmonyNN
+r1motivationNN
+r1selfNN
+r1faithNN
+
+#Rule:Verbs
+r2seekVB
+r2turnVB
+
+#Rule:HeadNoun-V
+r11thisDTbeAUX
+r11wePRPareAUX
+r11selfNNturnVB
+
+#Rule:HeadNoun-(who/that)-V
+r14motivationNNseekVB
+r14selfNNisAUX
+
+#Rule:V-HeadNoun
+r21beAUXmotivationNN
+
+#Rule:V-HeadNoun
+r22seekVBselfNN
+
+#Rule:PPinVP
+r30turnVBtoTOfaithNN
+
+#Rule:V-ADV
+r46areAUXreallyRB
+
+# But, if you feel this is a possibility for you, I d never dream of dissuading you.
+#(S1 (S (CC But) (, ,) (SBAR (IN if) (S (NP (PRP you)) (VP (VBP feel) (SBAR (S (NP (DT this)) (VP (AUX is) (NP (NP (DT a) (NN possibility)) (PP (IN for) (NP (PRP you)))))))))) (, ,) (NP (PRP I)) (ADVP (LS d)) (ADVP (RB never)) (VP (VBP dream) (PP (IN of) (S (VP (VBG dissuading) (NP (PRP you)))))) (. .)))
+#Rule:Nouns
+r1possibilityNN
+
+#Rule:Verbs
+r2feelVBP
+r2dreamVBP
+r2dissuadingVBG
+
+#Rule:HeadNoun-V
+r11iPRPdreamVBP
+r11youPRPfeelVBP
+r11thisDTisAUX
+
+#Rule:V-HeadNoun
+r21isAUXpossibilityNN
+r21dissuadingVBGyouPRP
+
+#Rule:PPinNP
+r26possibilityNNforINyouPRP
+
+#Rule:V-ADV
+r46dreamVBPneverRB
+
+# It s your choice to make only from the inner you.
+#(S1 (S (NP (PRP It)) (VP (VBZ s) (NP (PRP$ your) (NN choice) (S (VP (TO to) (VP (VB make) (ADVP (RB only) (PP (IN from) (NP (DT the) (JJ inner)))) (NP (PRP you))))))) (. .)))
+#Rule:Nouns
+r1choiceNN
+
+#Rule:Verbs
+r2sVBZ
+r2makeVB
+
+#Rule:Adjs
+r4innerJJ
+
+#Rule:PRP-Noun
+r6yourPRP$choiceNN
+
+#Rule:HeadNoun-V
+r11itPRPsVBZ
+
+#Rule:V-HeadNoun
+r21sVBZchoiceNN
+r21makeVByouPRP
+
+#Rule:V-ADV
+r46makeVBonlyRB
+
+# Personally, I couldn t comprehend feeling distant from the world.
+#(S1 (S (ADVP (RB Personally)) (, ,) (NP (PRP I)) (VP (MD couldn) (RB t) (VP (VB comprehend) (S (VP (VBG feeling) (ADJP (JJ distant) (PP (IN from) (NP (DT the) (NN world)))))))) (. .)))
+#Rule:Nouns
+r1worldNN
+
+#Rule:Verbs
+r2comprehendVB
+r2feelingVBG
+
+#Rule:Adjs
+r4distantJJ
+
+#Rule:HeadNoun-V
+r11iPRPcomprehendVB
+
+#Rule:PPinADJP
+r37distantJJfromINworldNN
+
+# Idealistically, of course, I d prefer peace.
+#(S1 (S (ADVP (RB Idealistically)) (, ,) (PP (IN of) (NP (NN course))) (, ,) (NP (PRP I)) (ADVP (LS d)) (VP (VBP prefer) (NP (NN peace))) (. .)))
+#Rule:Nouns
+r1courseNN
+r1peaceNN
+
+#Rule:Verbs
+r2preferVBP
+
+#Rule:HeadNoun-V
+r11iPRPpreferVBP
+
+#Rule:V-HeadNoun
+r21preferVBPpeaceNN
+
+#Rule:PPinS
+r36preferVBPofINcourseNN
+
+#Rule:V-ADV
+r46preferVBPIdealisticallyRB
+
+# However, my interconnectedness simply couldn t make me feel distant..I b
+#(S1 (S (ADVP (RB However)) (, ,) (NP (PRP$ my) (NN interconnectedness)) (ADVP (RB simply)) (VP (MD couldn) (RB t) (VP (VB make) (S (NP (PRP me)) (VP (VB feel) (NP (JJ distant) (NN ..)) (SBAR (S (NP (PRP I)) (VP (SYM b))))))))))
+#Rule:Nouns
+r1interconnectednessNN
+r1..NN
+
+#Rule:Verbs
+r2makeVB
+r2feelVB
+
+#Rule:Adjs
+r4distantJJ
+
+#Rule:Adj-Noun
+r5distantJJ..NN
+
+#Rule:PRP-Noun
+r6myPRP$interconnectednessNN
+
+#Rule:HeadNoun-V
+r11interconnectednessNNmakeVB
+r11mePRPfeelVB
+
+#Rule:V-HeadNoun
+r21feelVB..NN
+
+#Rule:V-HeadNoun
+r22makeVBmePRP
+
+#I believe it s a more a matter of whether you could become a believer, not whether you should. &that, my friend, is up to you..
+#(S1 (S (NP (PRP I)) (VP (VBP believe) (SBAR (S (NP (PRP it)) (VP (VBZ s) (NP (NP (DT a) (RBR more) (DT a) (NN matter)) (PP (IN of) (SBAR (IN whether) (S (NP (PRP you)) (VP (MD could) (VP (VB become) (NP (DT a) (NN believer)) (, ,) (SBAR (RB not) (IN whether) (S (NP (PRP you)) (VP (VBP should.) (SBAR (S (NP (NP (NN &that)) (, ,) (NP (PRP$ my) (NN friend)) (, ,)) (VP (AUX is) (ADVP (RB up) (PP (TO to) (NP (PRP you))))))))) (. .)))))))))))) (. .)))
+#Rule:Nouns
+r1matterNN
+r1believerNN
+r1&thatNN
+r1friendNN
+
+#Rule:Verbs
+r2believeVBP
+r2sVBZ
+r2becomeVB
+r2shouldVBP
+
+#Rule:PRP-Noun
+r6myPRP$friendNN
+
+#Rule:N-ApposN
+r10&thatNNfriendNN
+
+#Rule:HeadNoun-V
+r11iPRPbelieveVBP
+r11itPRPsVBZ
+r11youPRPbecomeVB
+r11youPRPshouldVBP
+r11&thatNNisAUX
+r11friendNNisAUX
+
+#Rule:V-HeadNoun
+r21sVBZmatterNN
+r21becomeVBbelieverNN
+
+#Rule:V-IN-V
+r43becomeVBwhetherINshouldVBP
+
+#Rule:V-ADV
+r46isAUXupRB
+
+#Edit: I hope nimit_en will think about .YOUR BELIEF IN NO GOD.. as having faith. There is a contradiction,&an untruth.
+#(S1 (S (S (S (VP (VB Edit))) (: :) (S (NP (PRP I)) (VP (VBP hope) (SBAR (S (NP (NNS nimit_en)) (VP (MD will) (VP (VB think) (PP (IN about) (NP (NP (JJ .YOUR) (NN BELIEF)) (PP (IN IN) (NP (DT NO) (NNP GOD)))))))))) (. .)) (. .)) (IN as) (S (VP (AUXG having) (VP (VBD faith.) (SBAR (S (NP (EX There)) (VP (AUX is) (NP (DT a) (JJ contradiction) (, ,) (JJ &an) (NN untruth)))))))) (. .)))
+#Rule:Nouns
+r1nimit_enNNS
+r1BELIEF IN NO GOD..OrganizationAnnotation
+r1untruthNN
+
+#Rule:Verbs
+r2editVB
+r2hopeVBP
+r2thinkVB
+r2faithVBD
+
+#Rule:Adjs
+r4.YOURJJ
+r4contradictionJJ
+r4&anJJ
+
+#Rule:Adj-Noun
+r5.YOURJJBELIEF IN NO GOD..OrganizationAnnotation
+r5contradictionJJuntruthNN
+r5&anJJuntruthNN
+
+#Rule:HeadNoun-V
+r11iPRPhopeVBP
+r11nimit_enNNSthinkVB
+r11thereEXisAUX
+
+#Rule:V-HeadNoun
+r21isAUXuntruthNN
+
+#Rule:PPinVP
+r30thinkVBaboutINBELIEF IN NO GOD..OrganizationAnnotation
+
+@lemmas-left	they	accept	revelation	motivation	&that	people	antithesis	existence	religion	course	time	are	nature	asks	turn	whimsical	nimit_en	answer	questions	interconnectedness	ask	faith.	we	&an	god	moral	Athesist	choice	self	difficult	Atheists	perceptions	[patches	me	do	harmony	believer	note	Gaz,&Epitipassi	.YOUR	Atheist isn t	faith	contrary	accepting	should	my	i	seek	t	s	practice	feeling	spirit	en	having	should.	world	desim--belief	BELIEF IN NO GOD..	inner	become	being	answers	impossible	some--being	doesn	Gaz	&they	Buddhists	athesist	[Sean]An	..	.your	be	contradiction	think	belief	dream	possibility	example	prefer	&spirit	this	make	friend	religious	hope	call	deity--which	perception	distant	believe	compass	re	untruth	read	spirituality	comprehend	question	all	Atheist	feel	is	it	matter	your	edit	means..As	you	dissuading	Contrary	am	there	an	peace	God	dissuade	
+@lemmas-right	BELIEF IN NO GOD..	sometimes	accept	become	being	revelation	answers	motivation	impossible	antithesis	some--being	existence	course	religion	doesn	time	are	athesist	nature	NOT	asks	..	only	be	turn	think	belief	dream	answer	possibility	questions	interconnectedness	not	often	idealistically	example	prefer	ask	make	friend	religious	hope	call	god	Athesist	choice	deity--which	self	believe	compass	Idealistically	untruth	Atheists	me	comprehend	spirituality	do	question	believer	Atheist	feel	is	it	Gaz,&Epitipassi	matter	faith	means..As	you	should	up	seek	really	never	s	am	peace	God	should.	world	desim--belief	
+@lemmas-center	to	that	of	for	about	by	from	in	without	whether	

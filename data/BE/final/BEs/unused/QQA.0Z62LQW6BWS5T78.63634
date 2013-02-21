@@ -1,0 +1,53 @@
+#We didn t evolve FROM monkeys, we evolved WITH monkeys from the same common ancestor until we split apart and are now living peacefully, and evolved differently because of where we are.
+#(S1 (S (S (NP (PRP We)) (VP (MD didn) (RB t) (VP (VB evolve) (PP (IN FROM) (NP (NNS monkeys)))))) (, ,) (NP (PRP we)) (VP (VBD evolved) (PP (IN WITH) (NP (NP (NNS monkeys)) (PP (IN from) (NP (DT the) (JJ same) (JJ common) (NN ancestor))))) (SBAR (IN until) (S (NP (PRP we)) (VP (VP (VB split) (ADVP (RB apart))) (CC and) (VP (AUX are) (ADVP (RB now)) (VP (VBG living) (ADVP (RB peacefully)) (, ,) (CC and) (VP (VBN evolved) (PP (ADVP (RB differently)) (IN because) (IN of) (SBAR (WHADVP (WRB where)) (S (NP (PRP we)) (VP (AUX are)))))))))))) (. .)))
+#Rule:Nouns
+r1FROM monkeysOrganizationAnnotation
+r1monkeysNNS
+r1ancestorNN
+
+#Rule:Verbs
+r2evolveVB
+r2evolvedVBD
+r2splitVB
+r2livingVBG
+r2evolvedVBN
+
+#Rule:Adjs
+r4sameJJ
+r4commonJJ
+
+#Rule:Adj-Noun
+r5sameJJancestorNN
+r5commonJJancestorNN
+
+#Rule:HeadNoun-V
+r11wePRPevolvedVBD
+r11wePRPevolveVB
+r11wePRPsplitVB
+r11wePRPlivingVBG
+r11wePRPareAUX
+
+#Rule:V-HeadNoun(passive)
+r23evolvedVBNwePRP
+
+#Rule:PPinNP
+r26monkeysNNSfromINancestorNN
+
+#Rule:PPinVP
+r30evolvedVBDwithINmonkeysNNS
+
+#Rule:V-IN-V
+r43evolvedVBDuntilINsplitVB
+r43evolvedVBDuntilINlivingVBG
+r43evolvedVBDuntilINevolvedVBN
+
+#Rule:V-ADV
+r46splitVBapartRB
+r46areAUXnowRB
+r46livingVBGnowRB
+r46livingVBGpeacefullyRB
+r46evolvedVBNpeacefullyRB
+
+@lemmas-left	monkeys	common	living	same	are	FROM monkeys	split	ancestor	evolved	monkey	evolve	live	we	be	
+@lemmas-right	monkeys	living	apart	are	now	split	peacefully	ancestor	evolved	evolve	monkey	live	be	we	
+@lemmas-center	with	from	until	

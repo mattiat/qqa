@@ -1,0 +1,116 @@
+#Two real roots means the function crosses the x-axis at two real numbers..
+#(S1 (S (NP (CD Two) (JJ real) (NNS roots)) (VP (VBZ means) (SBAR (S (NP (DT the) (NN function)) (VP (VBZ crosses) (NP (NP (DT the) (NN x-axis)) (PP (IN at) (NP (CD two) (JJ real) (NNS numbers))))) (. .)))) (. .)))
+#Rule:Nouns
+r1rootsNNS
+r1functionNN
+r1x-axisNN
+r1numbersNNS
+
+#Rule:Verbs
+r2meansVBZ
+r2crossesVBZ
+
+#Rule:Adjs
+r4realJJ
+r4realJJ
+
+#Rule:Adj-Noun
+r5TwoCDrootsNNS
+r5realJJrootsNNS
+r5twoCDnumbersNNS
+r5realJJnumbersNNS
+
+#Rule:HeadNoun-V
+r11rootsNNSmeansVBZ
+r11functionNNcrossesVBZ
+
+#Rule:V-HeadNoun
+r21crossesVBZx-axisNN
+
+#Rule:PPinNP
+r26x-axisNNatINnumbersNNS
+
+#Use quadratic formulax = -b plus/minus sqrt(b^2 - 4*a*c) / 2ax = (k-3) * sqrt((k-3)^2 - 4(2)(3)) / 2(a)the radicand cannot be negative, so0 = (k-3)^2 - 4(2)(3)24 = (k-3)^2plus/minus 2sqrt6 = k - 3k = 3 +/- 2sqrt6k is less than 3 - 2sqrt6 ork is greater than 3 + 2sqrt6
+#(S1 (S (NP (NN Use) (JJ quadratic) (NN formulax)) (VP (SYM =) (NP (JJ -b) (JJ plus/minus) (NN sqrt) (PRN (-LRB- -LRB-) (NP (NP (NP (NNS b^2)) (: -) (NP (NP (CD 4) (NNS *)) (SBAR (S (NP (DT a) (NNP *) (NNP c) (-RRB- -RRB-) (NN /) (NN 2ax)) (VP (SYM =) (NP (-LRB- -LRB-) (JJ k-3) (-RRB- -RRB-) (NN *) (NN sqrt) (PRN (-LRB- -LRB-) (JJ k-3) (-RRB- -RRB-)) (NN ^2)))))) (: -) (NP (CD 4))) (-LRB- -LRB-) (NP (CD 2)) (-RRB- -RRB-)) (-LRB- -LRB-) (NP (CD 3)) (-RRB- -RRB-)) (NNP /) (CD 2)) (PRN (-LRB- -LRB-) (DT a) (-RRB- -RRB-)) (SBAR (S (NP (DT the) (JJ radicand) (NN cannot)) (VP (AUX be) (ADJP (JJ negative)) (, ,) (S (RB so0) (VP (SYM =) (S (S (NP (NP (NP (NP (NP (NP (-LRB- -LRB-) (JJ k-3) (-RRB- -RRB-) (NN ^2)) (: -) (NP (CD 4))) (-LRB- -LRB-) (NP (CD 2)) (-RRB- -RRB-)) (-LRB- -LRB-) (NP (CD 3)) (-RRB- -RRB-)) (CD 24) (SYM =) (NP (-LRB- -LRB-) (JJ k-3) (-RRB- -RRB-) (JJ ^2plus/minus) (NN 2sqrt6)) (FRAG (X (SYM =)) (NP (NNP k)))) (: -) (NP (QP (CD 3k) (SYM =) (CD 3) (CD +/-)) (NNS 2sqrt6k))) (VP (AUX is) (NP (QP (JJR less) (IN than) (CD 3))))) (: -) (S (NP (CD 2sqrt6) (NN ork)) (VP (AUX is) (NP (QP (JJR greater) (IN than) (CD 3) (CD +)) (NN 2sqrt6)))))))))))))
+#Rule:Nouns
+r1UseNN
+r1formulaxNN
+r1sqrtNN
+r1b^2NNS
+r1^2 - 4*a*cPersonAnnotation
+r1/NN
+r12axNN
+r1*NN
+r1sqrtNN
+r1^2NN
+r1/NNP
+r1cannotNN
+r1^2NN
+r12sqrt6NN
+r1= k - 3k = 3 +/- 2sqrt6kPersonAnnotation
+r12sqrt6 orkLocationAnnotation
+r12sqrt6NN
+
+#Rule:Adjs
+r4quadraticJJ
+r4-bJJ
+r4plus/minusJJ
+r4k-3JJ
+r4k-3JJ
+r4radicandJJ
+r4negativeJJ
+r4k-3JJ
+r4k-3JJ
+r4^2plus/minusJJ
+r4lessJJR
+r4greaterJJR
+
+#Rule:Adj-Noun
+r5quadraticJJformulaxNN
+r5-bJJ/NNP
+r5plus/minusJJ/NNP
+r52CD/NNP
+r5k-3JJ^2NN
+r5radicandJJcannotNN
+r524CD^2NN
+r5k-3JJ^2NN
+r5k-3JJ2sqrt6NN
+r5^2plus/minusJJ2sqrt6NN
+r5lessJJRthanIN
+r53CDthanIN
+r5greaterJJR2sqrt6NN
+r53CD2sqrt6NN
+r5+CD2sqrt6NN
+
+#Rule:N-HeadNoun
+r8/NN2axNN
+
+#Rule:HeadNoun-V
+r11cannotNNbeAUX
+r11^2NNisAUX
+r114CDisAUX
+r112CDisAUX
+r113CDisAUX
+r112sqrt6NNisAUX
+r11= k - 3k = 3 +/- 2sqrt6kPersonAnnotationisAUX
+r112sqrt6 orkLocationAnnotationisAUX
+
+#Rule:V-HeadNoun
+r21isAUXthanIN
+r21isAUX2sqrt6NN
+
+#Rule:V-ADJ
+r25beAUXnegativeJJ
+
+#Rule:IS-RULE
+r47thanIN^2NN
+r47thanIN4CD
+r47thanIN2CD
+r47thanIN3CD
+r47thanIN2sqrt6NN
+r47thanIN= k - 3k = 3 +/- 2sqrt6kPersonAnnotation
+r472sqrt6NN2sqrt6 orkLocationAnnotation
+
+@lemmas-left	greater	-b	use	crosses	Two	function	real	k-3	2ax	numbers	quadratic	2sqrt6	mean	less	be	plus/minus	b^2	is	minus	b	2sqrt6 ork	roots	sqrt	means	*	+	= k - 3k = 3 +/- 2sqrt6k	24	radicand	ax	formulax	/	cannot	3	2	^2plus/minus	two	x-axis	than	4	^2 - 4*a*c	^2	negative	Use	cross	
+@lemmas-right	is	2sqrt6 ork	roots	means	= k - 3k = 3 +/- 2sqrt6k	crosses	ax	formulax	/	cannot	3	2	2ax	numbers	x-axis	4	than	2sqrt6	mean	^2	negative	be	cross	
+@lemmas-center	at	

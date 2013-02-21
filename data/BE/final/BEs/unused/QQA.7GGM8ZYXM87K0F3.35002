@@ -1,0 +1,33 @@
+#Probably the same reason he withdrew from the election in 68: He was in over his head.
+#(S1 (NP (NP (RB Probably) (DT the) (JJ same) (NN reason) (SBAR (S (NP (PRP he)) (VP (VBD withdrew) (PP (IN from) (NP (DT the) (NN election))) (PP (IN in) (NP (CD 68))))))) (: :) (S (NP (PRP He)) (VP (AUX was) (PP (IN in) (PP (IN over) (NP (PRP$ his) (NN head)))))) (. .)))
+#Rule:Nouns
+r1reasonNN
+r1electionNN
+r1headNN
+
+#Rule:Verbs
+r2withdrewVBD
+
+#Rule:Adjs
+r4sameJJ
+
+#Rule:Adj-Noun
+r5sameJJreasonNN
+
+#Rule:PRP-Noun
+r6hisPRP$headNN
+
+#Rule:HeadNoun-V
+r11hePRPwithdrewVBD
+r11hePRPwasAUX
+
+#Rule:PPinVP
+r30withdrewVBDfromINelectionNN
+r30withdrewVBDinIN68CD
+
+#Rule:PPComboInVP
+r34wasAUXinINheadNN
+
+@lemmas-left	withdrew	election	his	reason	withdraw	he	same	head	was	be	
+@lemmas-right	election	withdrew	68	reason	withdraw	head	was	be	
+@lemmas-center	from	in	

@@ -1,0 +1,80 @@
+#Hang on, hang on, why are human characteristics more beneficial than apes?  
+#(S1 (S (VP (VP (VB Hang) (PRT (RP on))) (, ,) (VP (VB hang) (PRT (RP on))) (, ,) (SBARQ (WHADVP (WRB why)) (SQ (AUX are) (NP (JJ human) (NNS characteristics)) (ADJP (ADJP (RBR more) (JJ beneficial)) (PP (IN than) (NP (NNS apes))))) (. ?)))))
+#Rule:Nouns
+r1characteristicsNNS
+r1apesLocationAnnotation
+
+#Rule:V-PRT
+r3hangVBonRP
+
+#Rule:Adjs
+r4humanJJ
+r4beneficialJJ
+
+#Rule:Adj-Noun
+r5humanJJcharacteristicsNNS
+
+#Rule:PPinADJP
+r37beneficialJJthanINapesLocationAnnotation
+
+#Wouldn t you say the human race is a virus that is intent on destruction?  
+#(S1 (S (NP (NNP Wouldn)) (VP (VBD t) (SBAR (S (NP (PRP you)) (VP (VBP say) (SBAR (S (NP (DT the) (JJ human) (NN race)) (VP (AUX is) (NP (NP (DT a) (NN virus)) (SBAR (WHNP (WDT that)) (S (VP (AUX is) (ADJP (JJ intent) (PP (IN on) (NP (NN destruction))))))))))))))) (. ?)))
+#Rule:Nouns
+r1WouldnLocationAnnotation
+r1raceNN
+r1virusNN
+r1destructionNN
+
+#Rule:Verbs
+r2tVBD
+r2sayVBP
+
+#Rule:Adjs
+r4humanJJ
+r4intentJJ
+
+#Rule:Adj-Noun
+r5humanJJraceNN
+
+#Rule:HeadNoun-V
+r11WouldnLocationAnnotationtVBD
+r11youPRPsayVBP
+r11raceNNisAUX
+
+#Rule:HeadNoun-(who/that)-V
+r14virusNNisAUX
+
+#Rule:V-HeadNoun
+r21isAUXvirusNN
+
+#Rule:V-ADJ
+r25isAUXintentJJ
+
+#Rule:PPinADJP
+r37intentJJonINdestructionNN
+
+#Rule:IS-RULE
+r47virusNNraceNN
+
+#And the ape race much more friendly and focused on living?
+#(S1 (FRAG (CC And) (NP (NP (DT the) (NN ape) (NN race)) (UCP (ADJP (ADVP (RB much) (RBR more)) (JJ friendly)) (CC and) (VP (VBN focused) (PP (IN on) (NP (NN living)))))) (. ?)))
+#Rule:Nouns
+r1apeLocationAnnotation
+r1raceNN
+r1livingNN
+
+#Rule:Verbs
+r2focusedVBN
+
+#Rule:Adjs
+r4friendlyJJ
+
+#Rule:N-HeadNoun
+r8apeLocationAnnotationraceNN
+
+#Rule:PPinVP
+r32focusedVBNonINlivingNN
+
+@lemmas-left	is	Wouldn	characteristics	apes	virus	destruction	beneficial	friendly	you	living	hang	race	intent	human	t	ape	focused	say	focus	characteristic	be	
+@lemmas-right	is	characteristics	apes	virus	destruction	living	race	intent	t	say	on	characteristic	be	
+@lemmas-center	than	on	

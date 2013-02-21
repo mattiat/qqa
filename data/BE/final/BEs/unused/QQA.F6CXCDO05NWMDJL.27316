@@ -1,0 +1,47 @@
+#Millionth time isn t it??
+#(S1 (FRAG (S (NP (JJ Millionth) (NN time)) (ADVP (RB isn)) (VP (VBG t) (NP (PRP it))) (. ?)) (. ?)))
+#Rule:Nouns
+r1timeNN
+
+#Rule:Verbs
+r2t itLocationAnnotation
+
+#Rule:Adjs
+r4MillionthPersonAnnotation
+
+#Rule:Adj-Noun
+r5MillionthPersonAnnotationtimeNN
+
+#Rule:HeadNoun-V
+r11timeNNt itLocationAnnotation
+
+#Rule:V-ADV
+r46t itLocationAnnotationisnRB
+
+#Well, some people say that it s because of the reflection of the ocean.
+#(S1 (S (INTJ (UH Well)) (, ,) (NP (DT some) (NNS people)) (VP (VBP say) (SBAR (IN that) (S (NP (PRP it)) (VP (VBZ s) (PP (IN because) (IN of) (NP (NP (DT the) (NN reflection)) (PP (IN of) (NP (DT the) (NN ocean))))))))) (. .)))
+#Rule:Nouns
+r1peopleNNS
+r1reflectionNN
+r1oceanNN
+
+#Rule:Verbs
+r2sayVBP
+r2sVBZ
+
+#Rule:HeadNoun-V
+r11peopleNNSsayVBP
+r11itPRPsVBZ
+
+#Rule:PPinNP
+r26reflectionNNofINoceanNN
+
+#Rule:PPinVP
+r30sVBZofINreflectionNN
+
+#Rule:V-IN-V
+r43sayVBPthatINsVBZ
+
+@lemmas-left	reflection	time	it	s	t it	say	ocean	people	Millionth	
+@lemmas-right	reflection	time	s	isn	t it	say	ocean	
+@lemmas-center	that	of	

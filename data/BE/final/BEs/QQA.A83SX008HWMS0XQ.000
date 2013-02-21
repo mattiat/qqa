@@ -1,0 +1,130 @@
+#How can I gain weight??
+#(S1 (SBARQ (WHADVP (WRB How)) (SQ (MD can) (NP (PRP I)) (VP (VB gain) (NP (NN weight))) (. ?)) (. ?)))
+#Rule:Nouns
+r1weightNN
+
+#Rule:Verbs
+r2gainVB
+
+#Rule:V-HeadNoun
+r21gainVBweightNN
+
+#I ve always been told i was too skinny but now its driving me crazy. Plus my asthma specialsist doctor says its not healthy. He even told me i was going to die. oh yeah i m 15 years old, 5 5 and 98lbs..
+#(S1 (S (S (NP (PRP I)) (VP (VBP ve) (ADVP (RB always)) (VP (AUX been) (VP (VBN told) (SBAR (S (NP (PRP i)) (VP (AUX was) (ADJP (RB too) (JJ skinny))))))))) (CC but) (S (ADVP (RB now)) (NP (NP (PRP$ its) (NN driving)) (SBAR (S (NP (PRP me)) (VP (VBD crazy.) (NP (NNP Plus)) (NP (PRP$ my) (NN asthma) (NN specialsist) (NN doctor)))))) (VP (VBZ says) (SBAR (S (NP (PRP$ its) (ADJP (RB not) (JJ healthy.)) (NP (PRP He))) (ADVP (RB even)) (VP (VBD told) (NP (PRP me)) (SBAR (S (NP (PRP i)) (VP (AUX was) (VP (VBG going) (S (VP (TO to) (VP (VB die.) (INTJ (UH oh) (UH yeah)) (NP (PRP i)) (NP (NP (NP (NNP m)) (ADJP (NP (CD 15) (NNS years)) (JJ old))) (, ,) (NP (CD 5) (CD 5)) (CC and) (NP (NNS 98lbs)))))))))))))) (. .)) (. .)))
+#Rule:Nouns
+r1drivingNN
+r1Plus my asthmaPersonAnnotation
+r1specialsistNN
+r1doctorNN
+r1mNNP
+r1yearsNNS
+r198lbsNNS
+
+#Rule:Verbs
+r2veVBP
+r2toldVBN
+r2crazyVBD
+r2saysVBZ
+r2toldVBD
+r2goingVBG
+r2dieVB
+
+#Rule:Adjs
+r4skinnyJJ
+r4healthyJJ
+r4oldJJ
+
+#Rule:Adj-Noun
+r5healthyJJhePRP
+r5oldJJmNNP
+r515CDyearsNNS
+r55CD5CD
+
+#Rule:PRP-Noun
+r6itsPRP$drivingNN
+r6Plus my asthmaPersonAnnotationdoctorNN
+r6itsPRP$hePRP
+
+#Rule:N-HeadNoun
+r8specialsistNNdoctorNN
+
+#Rule:N-ApposN
+r10mNNP5CD
+
+#Rule:HeadNoun-V
+r11iPRPveVBP
+r11iPersonAnnotationwasAUX
+r11drivingNNsaysVBZ
+r11mePRPcrazyVBD
+r11hePRPtoldVBD
+r11iPersonAnnotationgoingVBG
+
+#Rule:V-HeadNoun
+r21crazyVBDPlus my asthmaPersonAnnotation
+r21crazyVBDdoctorNN
+r21toldVBDmePRP
+r21dieVBoh yeah iPersonAnnotation
+r21dieVBmNNP
+
+#Rule:V-HeadNoun(passive)
+r23toldVBNiPRP
+
+#Rule:V-ADJ
+r25wasAUXskinnyJJ
+
+#Rule:V-V
+r44goingVBGdieVB
+
+#Rule:V-ADV
+r46veVBPalwaysRB
+r46beenAUXalwaysRB
+r46saysVBZnowRB
+r46toldVBDevenRB
+
+#HELP SOMEBODY!thanks everybody now wht foods make u gain weightand i can t work-out too much, I have asthma
+#(S1 (FRAG (NP (VB HELP) (NN SOMEBODY)) (. !) (NP (NP (NNS thanks)) (SBAR (S (NP (NN everybody)) (ADVP (RB now)) (VP (VBP wht) (SBAR (S (NP (NNS foods)) (VP (VBP make) (S (NP (NNP u) (NN gain)) (VP (VB weightand) (SBAR (S (NP (PRP i)) (VP (MD can) (VP (VB t) (NP (NN work-out)) (ADVP (RB too) (RB much)) (, ,) (S (NP (PRP I)) (VP (AUX have) (NP (NN asthma)))))))))))))))))))
+#Rule:Nouns
+r1HELP SOMEBODY!OrganizationAnnotation
+r1thanksNNS
+r1everybodyNN
+r1foodsNNS
+r1uNNP
+r1gainNN
+r1work-outNN
+r1asthmaLocationAnnotation
+
+#Rule:Verbs
+r2whtVBP
+r2makeVBP
+r2weightandVB
+r2tVB
+
+#Rule:N-HeadNoun
+r8uNNPgainNN
+
+#Rule:HeadNoun-V
+r11everybodyNNwhtVBP
+r11foodsNNSmakeVBP
+r11gainNNweightandVB
+r11iLocationAnnotationtVB
+r11iPRPhaveAUX
+
+#Rule:NP(NP(z) SBAR(S(NP(x)VP(y))))
+r19whtVBPthanksNNS
+
+#Rule:V-HeadNoun
+r21tVBwork-outNN
+r21haveAUXasthmaLocationAnnotation
+
+#Rule:V-HeadNoun
+r22makeVBPgainNN
+r22tVBiPRP
+
+#Rule:V-ADV
+r46whtVBPnowRB
+r46tVBtooRB
+r46tVBmuchRB
+
+@lemmas-left	old	weight	have	driving	15	specialsist	its	been	was	doctor	thanks	crazy	asthma	HELP SOMEBODY!	ve	die	says	me	tell	die.	everybody	skinny	be	going	told	he	m	weightand	i	gain	healthy.	Plus my asthma	work-out	u	t	foods	wht	98lbs	food	5	say	healthy	lb	years	crazy.	make	out	go	
+@lemmas-right	weight	have	driving	was	doctor	thanks	crazy	asthma	ve	die	says	tell	me	die.	too	skinny	be	going	oh yeah i	told	m	he	always	much	weightand	gain	i	Plus my asthma	work-out	t	wht	now	5	say	even	crazy.	years	make	out	go	
+@lemmas-center	

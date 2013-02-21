@@ -1,0 +1,510 @@
+BE: wayNN
+EQ class: stylenn	fashionnn	modenn	mannernn	
+
+BE: checkNN
+EQ class: bank_checknn	chequenn	
+
+BE: onlyJJ
+EQ class: lonesomejj	solejj	lonejj	solitaryjj	
+
+BE: sureJJ
+EQ class: surenessnn	certainjj	
+
+BE: thoroughJJ
+EQ class: thoroughnessnn	
+
+BE: cardiacJJ
+EQ class: heartnn	
+
+BE: onlyJJwayNN
+EQ class: lonesomejjmodenn	onlyjjstylenn	solejjfashionnn	solitaryjjmannernn	lonesomejjfashionnn	onlyjjmodenn	solitaryjjwaynn	solejjmannernn	onlyjjfashionnn	lonesomejjmannernn	lonejjmannernn	solitaryjjstylenn	solitaryjjmodenn	solejjstylenn	lonesomejjwaynn	lonejjmodenn	solejjmodenn	lonejjwaynn	lonesomejjstylenn	solitaryjjfashionnn	onlyjjmannernn	solejjwaynn	lonejjstylenn	lonejjfashionnn	
+
+BE: thoroughJJcheckNN
+EQ class: check_overvbthoroughlyrb	check_up_onvbthoroughlyrb	thoroughjjchequenn	thoroughnessnnchequenn	check_outvbthoroughlyrb	thoroughnessnnchecknn	suss_outvbthoroughlyrb	checkvbthoroughlyrb	go_overvbthoroughlyrb	check_intovbthoroughlyrb	thoroughjjbank_checknn	thoroughnessnnbank_checknn	look_intovbthoroughlyrb	
+
+BE: cardiacJJcheckNN
+EQ class: cardiacjjbank_checknn	cardiacjjchequenn	heartnnbank_checknn	heartnnchecknn	heartnnchequenn	
+
+BE: wayNNisAUX
+EQ class: mannernnisaux	stylennbeaux	waynnbeaux	fashionnnbeaux	fashionnnisaux	modennbeaux	mannernnbeaux	stylennisaux	modennisaux	
+
+BE: isAUXcheckNN
+EQ class: beauxchequenn	beauxchecknn	isauxchequenn	beauxbank_checknn	isauxbank_checknn	
+
+BE: beAUXsureJJ
+EQ class: beauxsurenessnn	beauxcertainjj	
+
+BE: isAUXUnfortunatelyRB
+EQ class: unfortunatejjininbeaux	unfortunatennininisaux	beauxunfortunatelyrb	unfortunatennininbeaux	unfortunatejjininisaux	
+
+BE: checkNNwayNN
+EQ class: mannernncheck_up_onvb	stylennsuss_outvb	fashionnnchecknn	fashionnnchequenn	waynnsuss_outvb	waynncheck_outvb	checknnofinfashionnn	bank_checknnmodenn	modenncheck_outvb	waynnchecknn	fashionnncheck_overvb	modennsuss_outvb	fashionnncheck_up_onvb	checkernnofinmodenn	fashionnncheck_outvb	modennchecknn	modennbank_checknn	chequennmodenn	mannernncheck_overvb	fashionnngo_overvb	waynncheck_intovb	checkernnofinstylenn	chequennstylenn	chequennwaynn	modenncheck_overvb	chequennofinmodenn	checkernnofinfashionnn	checknnmannernn	mannernncheck_outvb	stylennchequenn	stylenncheckvb	stylenncheck_intovb	bank_checknnofinwaynn	chequennofinwaynn	fashionnncheckvb	stylenncheck_up_onvb	modennlook_intovb	modenncheckvb	fashionnnbank_checknn	waynnlook_intovb	checknnofinmannernn	modenncheck_up_onvb	waynnbank_checknn	mannernnsuss_outvb	waynngo_overvb	checknnmodenn	fashionnnsuss_outvb	stylennlook_intovb	modennchequenn	stylenncheck_outvb	chequennmannernn	bank_checknnofinfashionnn	checknnofinstylenn	bank_checknnfashionnn	waynncheck_up_onvb	mannernncheck_intovb	stylennbank_checknn	checknnofinmodenn	checknnstylenn	fashionnnlook_intovb	bank_checknnofinstylenn	bank_checknnmannernn	mannernnchequenn	mannernnchecknn	mannernnbank_checknn	checkernnofinwaynn	modenngo_overvb	stylenncheck_overvb	chequennofinmannernn	fashionnncheck_intovb	checknnfashionnn	mannernnlook_intovb	checkernnofinmannernn	chequennofinstylenn	chequennofinfashionnn	mannernncheckvb	waynncheck_overvb	checknnofinwaynn	bank_checknnofinmannernn	mannernngo_overvb	chequennfashionnn	stylenngo_overvb	bank_checknnofinmodenn	modenncheck_intovb	bank_checknnstylenn	waynncheckvb	stylennchecknn	bank_checknnwaynn	waynnchequenn	
+
+BE: problemsNNS
+EQ class: problemnns	problematicaljj	theynns	problematicjj	themnns	jobnns	
+
+BE: breathNN
+EQ class: 
+
+BE: problemsNNS
+EQ class: problemnns	problematicaljj	theynns	problematicjj	themnns	jobnns	
+
+BE: stoolsNNS
+EQ class: theynns	stoolnns	themnns	
+
+BE: symptomsNNS
+EQ class: symptomnns	theynns	symptomaticjj	themnns	
+
+BE: stagesNNS
+EQ class: theynns	stagenns	phasenns	themnns	
+
+BE: problemsNNS
+EQ class: problemnns	problematicaljj	theynns	problematicjj	themnns	jobnns	
+
+BE: coughVB
+EQ class: 
+
+BE: getVBP
+EQ class: acquirevbp	
+
+BE: arenVBP
+EQ class: 
+
+BE: tVBG
+EQ class: 
+
+BE: respiratoryJJ
+EQ class: respirationnn	
+
+BE: GIOrganizationAnnotation
+EQ class: g.i.organizationannotation	
+
+BE: refluxJJ
+EQ class: 
+
+BE: bloodyJJ
+EQ class: bloodinessnn	bloodnn	
+
+BE: obviousJJ
+EQ class: obviousnessnn	
+
+BE: earlyJJ
+EQ class: earlinessnn	
+
+BE: cardiac/vascularJJ
+EQ class: vesselnn	vascularitynn	vascularjj	
+
+BE: respiratoryJJproblemsNNS
+EQ class: respiratoryjjproblemnns	respirationnnthemnns	respirationnnproblemsnns	respiratoryjjthemnns	respirationnntheynns	respiratoryjjtheynns	respiratoryjjjobnns	respirationnnjobnns	respirationnnproblematicjj	respiratoryjjproblematicjj	respirationnnproblematicaljj	respirationnnproblemnns	respiratoryjjproblematicaljj	
+
+BE: GIOrganizationAnnotationproblemsNNS
+EQ class: g.i.organizationannotationproblematicaljj	giorganizationannotationproblematicjj	giorganizationannotationproblematicaljj	g.i.organizationannotationjobnns	g.i.organizationannotationthemnns	giorganizationannotationproblemnns	g.i.organizationannotationproblemsnns	giorganizationannotationjobnns	giorganizationannotationtheynns	g.i.organizationannotationproblemnns	giorganizationannotationthemnns	g.i.organizationannotationproblematicjj	g.i.organizationannotationtheynns	
+
+BE: refluxJJstoolsNNS
+EQ class: refluxjjthemnns	refluxjjtheynns	refluxjjstoolnns	
+
+BE: bloodyJJstoolsNNS
+EQ class: bloodinessnnstoolsnns	bloodnnthemnns	bloodnntheynns	bloodnnstoolnns	bloodnnstoolsnns	bloodinessnnthemnns	bloodyjjstoolnns	bloodinessnnstoolnns	bloodyjjthemnns	bloodyjjtheynns	bloodinessnntheynns	
+
+BE: obviousJJsymptomsNNS
+EQ class: obviousjjthemnns	obviousnessnnsymptomnns	obviousjjtheynns	obviousnessnnthemnns	obviousjjsymptomaticjj	obviousnessnntheynns	symptomaticvbobviouslyrb	obviousjjsymptomnns	obviousnessnnsymptomsnns	obviousnessnnsymptomaticjj	
+
+BE: earlyJJstagesNNS
+EQ class: earlyjjthemnns	earlinessnntheynns	earlinessnnphasenns	earlyjjphasenns	earlyjjstagenns	earlinessnnstagenns	earlinessnnthemnns	earlinessnnstagesnns	earlyjjtheynns	
+
+BE: cardiac/vascularJJproblemsNNS
+EQ class: cardiac/vascularjjthemnns	cardiac/vascularjjproblematicjj	vascularitynnthemnns	cardiac/vascularjjproblemnns	vesselnnthemnns	vascularjjjobnns	vesselnnproblematicaljj	vascularitynnjobnns	vascularitynnproblemsnns	cardiac/vascularjjtheynns	vascularjjproblemsnns	vascularitynntheynns	vesselnnproblemsnns	vesselnnjobnns	vascularitynnproblematicjj	vascularjjtheynns	vascularitynnproblematicaljj	vascularitynnproblemnns	vascularjjproblemnns	vesselnnproblemnns	cardiac/vascularjjproblematicaljj	cardiac/vascularjjjobnns	vascularjjthemnns	vesselnntheynns	vascularjjproblematicjj	vascularjjproblematicaljj	vesselnnproblematicjj	
+
+BE: youPRPcoughVB
+EQ class: coughingnnyouprp	coughingnnofinyouprp	coughnnofinyouprp	coughnnyouprp	
+
+BE: youPRPhaveAUX
+EQ class: youprphave_gotaux	rich_personnnofinyouprp	havennofinyouprp	youprpholdaux	wealthy_personnnofinyouprp	
+
+BE: youPRPhaveAUX
+EQ class: youprphave_gotaux	rich_personnnofinyouprp	havennofinyouprp	youprpholdaux	wealthy_personnnofinyouprp	
+
+BE: youPRPhaveAUX
+EQ class: youprphave_gotaux	rich_personnnofinyouprp	havennofinyouprp	youprpholdaux	wealthy_personnnofinyouprp	
+
+BE: thereEXarenVBP
+EQ class: 
+
+BE: haveAUXproblemsNNS
+EQ class: havennofintheynns	holdauxtheynns	holdauxproblematicaljj	rich_personnnofinproblematicaljj	wealthy_personnnofintheynns	have_gotauxjobnns	holdauxthemnns	have_gotauxproblematicaljj	haveauxtheynns	have_gotauxtheynns	wealthy_personnnofinproblematicaljj	havennofinproblemnns	holdauxjobnns	wealthy_personnnofinjobnns	havennofinproblematicjj	rich_personnnofinthemnns	haveauxproblematicaljj	haveauxjobnns	wealthy_personnnofinproblematicjj	wealthy_personnnofinproblemsnns	havennofinthemnns	havennofinproblemsnns	have_gotauxproblemsnns	haveauxproblematicjj	havennofinproblematicaljj	holdauxproblemsnns	wealthy_personnnofinthemnns	have_gotauxproblemnns	have_gotauxproblematicjj	rich_personnnofinproblemsnns	rich_personnnofinproblemnns	haveauxthemnns	rich_personnnofinjobnns	holdauxproblemnns	have_gotauxthemnns	havennofinjobnns	rich_personnnofinproblematicjj	holdauxproblematicjj	wealthy_personnnofinproblemnns	haveauxproblemnns	rich_personnnofintheynns	
+
+BE: haveAUXproblemsNNS
+EQ class: havennofintheynns	holdauxtheynns	holdauxproblematicaljj	rich_personnnofinproblematicaljj	wealthy_personnnofintheynns	have_gotauxjobnns	holdauxthemnns	have_gotauxproblematicaljj	haveauxtheynns	have_gotauxtheynns	wealthy_personnnofinproblematicaljj	havennofinproblemnns	holdauxjobnns	wealthy_personnnofinjobnns	havennofinproblematicjj	rich_personnnofinthemnns	haveauxproblematicaljj	haveauxjobnns	wealthy_personnnofinproblematicjj	wealthy_personnnofinproblemsnns	havennofinthemnns	havennofinproblemsnns	have_gotauxproblemsnns	haveauxproblematicjj	havennofinproblematicaljj	holdauxproblemsnns	wealthy_personnnofinthemnns	have_gotauxproblemnns	have_gotauxproblematicjj	rich_personnnofinproblemsnns	rich_personnnofinproblemnns	haveauxthemnns	rich_personnnofinjobnns	holdauxproblemnns	have_gotauxthemnns	havennofinjobnns	rich_personnnofinproblematicjj	holdauxproblematicjj	wealthy_personnnofinproblemnns	haveauxproblemnns	rich_personnnofintheynns	
+
+BE: haveAUXstoolsNNS
+EQ class: holdauxstoolnns	havennofinstoolnns	have_gotauxstoolsnns	holdauxtheynns	havennofintheynns	rich_personnnofinstoolsnns	wealthy_personnnofintheynns	havennofinstoolsnns	havennofinthemnns	holdauxthemnns	wealthy_personnnofinstoolsnns	have_gotauxtheynns	haveauxtheynns	holdauxstoolsnns	wealthy_personnnofinthemnns	haveauxstoolnns	have_gotauxstoolnns	haveauxthemnns	rich_personnnofinstoolnns	have_gotauxthemnns	wealthy_personnnofinstoolnns	rich_personnnofintheynns	rich_personnnofinthemnns	
+
+BE: tVBGsymptomsNNS
+EQ class: tvbgthemnns	tvbgtheynns	tvbgsymptomnns	tvbgsymptomaticjj	
+
+BE: symptomsNNSlikeINthisDT
+EQ class: thisdttheynns	thisdtthemnns	theynnslikeinthisdt	symptomnnslikeinthisdt	thisdtsymptomnns	symptomaticvbthisdt	themnnslikeinthisdt	thisdtsymptomaticvb	thisdtsymptomsnns	symptomaticjjlikeinthisdt	thisdtsymptomaticjj	
+
+BE: stagesNNSofINproblemsNNS
+EQ class: jobnnsstagesnns	jobnnsphasenns	stagesnnsofinthemnns	problematicaljjphasenns	theynnsphasenns	problemsnnsthemnns	theynnsofinproblematicaljj	problemsnnstheynns	stagesnnsofintheynns	phasennsofintheynns	problemsnnsstagenns	problematicaljjthemnns	problematicaljjstagenns	stagennsofinjobnns	problemnnsthemnns	problematicjjstagenns	stagesnnsofinproblematicjj	themnnsofinproblematicjj	theynnsofinproblemnns	theynnstheynns	stagennsofinproblemnns	stagennsofintheynns	problemnnstheynns	themnnsphasenns	problemnnsstagenns	jobnnsthemnns	themnnsofinproblemsnns	stagennsofinthemnns	themnnsofinproblemnns	problemsnnsstagesnns	theynnsstagesnns	problematicjjstagesnns	themnnstheynns	phasennsofinjobnns	stagennsofinproblematicjj	themnnsthemnns	stagesnnsofinproblematicaljj	phasennsofinproblematicjj	phasennsofinthemnns	problemnnsstagesnns	phasennsofinproblemsnns	problematicjjtheynns	problematicaljjstagesnns	problematicjjthemnns	themnnsofinthemnns	jobnnsstagenns	theynnsofinjobnns	problematicjjphasenns	phasennsofinproblemnns	themnnsofintheynns	theynnsthemnns	stagesnnsofinjobnns	stagennsofinproblematicaljj	jobnnstheynns	themnnsofinproblematicaljj	problemnnsphasenns	problemsnnsphasenns	phasennsofinproblematicaljj	problematicaljjtheynns	themnnsstagesnns	theynnsofinproblemsnns	theynnsofinthemnns	theynnsofinproblematicjj	theynnsofintheynns	themnnsofinjobnns	theynnsstagenns	stagennsofinproblemsnns	themnnsstagenns	stagesnnsofinproblemnns	
+
+BE: tVBGwithINstagesNNS
+EQ class: tvbgwithintheynns	tvbgwithinphasenns	tvbgwithinthemnns	tvbgwithinstagenns	
+
+BE: coughVBoutINbreathNN
+EQ class: 
+
+BE: arenVBPusuallyRB
+EQ class: 
+
+BE: casesNNS
+EQ class: examplenns	theynns	casenns	instancenns	themnns	
+
+BE: symptomNN
+EQ class: symptomaticjj	
+
+BE: heartNN
+EQ class: bosomnn	
+
+BE: diseaseNN
+EQ class: 
+
+BE: deathNN
+EQ class: deceasenn	expirynn	
+
+BE: thoughtNN
+EQ class: ideann	
+
+BE: firstJJ
+EQ class: 
+
+BE: markedJJ
+EQ class: pronouncedjj	
+
+BE: suddenJJ
+EQ class: suddennessnn	
+
+BE: comfortingJJ
+EQ class: satisfyingjj	cheeringjj	
+
+BE: trueJJ
+EQ class: truenessnn	
+
+BE: 1/3CDaboutRB
+EQ class: 1./.3.cdaboutrb	
+
+BE: firstJJsymptomNN
+EQ class: symptomaticvbfirstlyrb	firstjjsymptomaticjj	
+
+BE: markedJJsymptomNN
+EQ class: markedjjsymptomaticjj	pronouncedjjsymptomaticjj	pronouncedjjsymptomnn	symptomaticvbmarkedlyrb	
+
+BE: suddenJJdeathNN
+EQ class: suddenjjdeceasenn	suddennessnnexpirynn	passvbsuddenlyrb	cash_in_one's_chipsvbsuddenlyrb	croakvbsuddenlyrb	buy_the_farmvbsuddenlyrb	suddenjjexpirynn	pop_offvbsuddenlyrb	dievbsuddenlyrb	give-up_the_ghostvbsuddenlyrb	chokevbsuddenlyrb	exitvbsuddenlyrb	snuff_itvbsuddenlyrb	govbsuddenlyrb	suddennessnndeathnn	drop_deadvbsuddenlyrb	deceasevbsuddenlyrb	suddennessnndeceasenn	perishvbsuddenlyrb	conkvbsuddenlyrb	pass_awayvbsuddenlyrb	expirevbsuddenlyrb	kick_the_bucketvbsuddenlyrb	
+
+BE: comfortingJJthoughtNN
+EQ class: conceivevbcomfortinglyrb	considervbcomfortinglyrb	cheeringjjideann	comfortingjjideann	cheeringjjthoughtnn	satisfyingjjthoughtnn	thinkvbcomfortinglyrb	satisfyingjjideann	believevbcomfortinglyrb	
+
+BE: heartNNdiseaseNN
+EQ class: diseasennofinbosomnn	bosomnndiseasenn	diseasennofinheartnn	
+
+BE: symptomNNisAUX
+EQ class: symptomnnbeaux	symptomaticjjbeaux	symptomaticjjisaux	
+
+BE: aboutRBofINcasesNNS
+EQ class: aboutrbofintheynns	aboutrbofinthemnns	aboutrbofinexamplenns	aboutrbofincasenns	aboutrbofininstancenns	
+
+BE: symptomNNofINdiseaseNN
+EQ class: symptomaticjjofindiseasenn	symptomaticvbdiseasenn	diseasennsymptomaticvb	diseasennsymptomnn	diseasennsymptomaticjj	
+
+BE: isAUXinINaboutRB
+EQ class: beauxininaboutrb	
+
+BE: bloodNN
+EQ class: bloodyjj	
+
+BE: pressureNN
+EQ class: pressure_levelnn	force_per_unit_areann	
+
+BE: BPOrganizationAnnotation
+EQ class: b.p.organizationannotation	
+
+BE: diaryNN
+EQ class: journalnn	
+
+BE: startVB
+EQ class: set_outvb	beginvb	get_downvb	commencevb	start_outvb	set_aboutvb	getvb	
+
+BE: checkingVBG
+EQ class: look_intovbg	check_intovbg	checkvbg	check_up_onvbg	check_overvbg	go_overvbg	suss_outvbg	check_outvbg	
+
+BE: keepingVBG
+EQ class: maintainvbg	holdvbg	keepvbg	
+
+BE: earlyJJ
+EQ class: earlinessnn	
+
+BE: yourPRP$pressureNN
+EQ class: pressvbyourprp$	yourprp$pressure_levelnn	pressurisevbyourprp$	pressurizevbyourprp$	yourprp$pressurizevb	pressurennofinyourprp$	yourprp$force_per_unit_areann	pressure_levelnnofinyourprp$	yourprp$pressvb	force_per_unit_areannofinyourprp$	yourprp$superchargevb	yourprp$pressurisevb	superchargevbyourprp$	
+
+BE: bloodNNpressureNN
+EQ class: bloodyjjpressvb	force_per_unit_areannofinbloodnn	bloodnnpressurisevb	bloodnnpressurizevb	bloodnnsuperchargevb	pressurisevbbloodnn	force_per_unit_areannbloodvb	pressurisevbbloodyjj	bloodnnofinforce_per_unit_areann	bloodnnofinpressure_levelnn	pressure_levelnnofinbloodnn	superchargevbbloodyjj	force_per_unit_areannofinbloodyjj	pressure_levelnnbloodvb	bloodyjjofinforce_per_unit_areann	pressurizevbbloodyjj	bloodyjjpressurenn	bloodnnforce_per_unit_areann	bloodyjjforce_per_unit_areann	pressurennofinbloodyjj	bloodnnpressvb	bloodnnpressure_levelnn	pressurizevbbloodnn	bloodyjjofinpressurenn	pressvbbloodnn	bloodyjjpressurisevb	bloodyjjpressurizevb	pressurennbloodvb	bloodnnofinpressurenn	pressvbbloodyjj	superchargevbbloodnn	bloodyjjpressure_levelnn	bloodyjjsuperchargevb	pressurennofinbloodnn	bloodyjjofinpressure_levelnn	pressure_levelnnofinbloodyjj	
+
+BE: BPOrganizationAnnotationdiaryNN
+EQ class: diaristvbb.p.organizationannotation	journalnnofinbporganizationannotation	b.p.organizationannotationdiaristvb	diarynnofinbporganizationannotation	diarynnofinb.p.organizationannotation	b.p.organizationannotationdiarynn	bporganizationannotationjournalnn	diaristvbbporganizationannotation	b.p.organizationannotationjournalnn	bporganizationannotationdiaristvb	journalnnofinb.p.organizationannotation	
+
+BE: itPRPisAUX
+EQ class: itprpbeaux	
+
+BE: checkingVBGpressureNN
+EQ class: check_overvbgpressure_levelnn	go_overvbgpressure_levelnn	checkingvbgpressure_levelnn	chequennofinpressure_levelnn	bank_checknnofinpressure_levelnn	check_up_onvbgpressure_levelnn	checkingvbgforce_per_unit_areann	check_outvbgpressurenn	check_intovbgpressure_levelnn	checkernnofinpressurenn	checkvbgpressure_levelnn	suss_outvbgforce_per_unit_areann	bank_checknnofinpressurenn	look_intovbgpressurenn	check_up_onvbgpressurenn	suss_outvbgpressure_levelnn	chequennofinpressurenn	checkvbgforce_per_unit_areann	check_up_onvbgforce_per_unit_areann	checkernnofinforce_per_unit_areann	checkvbgpressurenn	look_intovbgforce_per_unit_areann	check_overvbgforce_per_unit_areann	checkernnofinpressure_levelnn	checknnofinpressurenn	check_outvbgforce_per_unit_areann	bank_checknnofinforce_per_unit_areann	check_outvbgpressure_levelnn	check_overvbgpressurenn	go_overvbgforce_per_unit_areann	checknnofinforce_per_unit_areann	chequennofinforce_per_unit_areann	look_intovbgpressure_levelnn	suss_outvbgpressurenn	check_intovbgforce_per_unit_areann	checknnofinpressure_levelnn	check_intovbgpressurenn	go_overvbgpressurenn	
+
+BE: keepingVBGdiaryNN
+EQ class: keepvbgdiarynn	holdvbgdiarynn	maintainvbgjournalnn	holdvbgjournalnn	keepingvbgjournalnn	keepvbgjournalnn	maintainvbgdiarynn	
+
+BE: isAUXearlyJJ
+EQ class: beauxearlyjj	beauxearlinessnn	isauxearlinessnn	
+
+BE: startVBcheckingVBG
+EQ class: startnnofincheck_up_onvbg	get_downvbcheckvbg	startvbcheck_overvbg	starting_motornnofinlook_intovbg	startvblook_intovbg	startnnofincheckingvbg	set_aboutvbcheck_up_onvbg	startvbgo_overvbg	getvbgo_overvbg	starting_motornnofincheck_outvbg	starting_motornnofincheck_up_onvbg	set_outvbcheckvbg	set_aboutvbcheck_overvbg	commencevbcheckvbg	starternnofincheck_overvbg	starternnofincheck_up_onvbg	startnnofingo_overvbg	startnnofincheck_overvbg	start_outvbsuss_outvbg	getvblook_intovbg	beginvbcheck_up_onvbg	get_downvblook_intovbg	starter_motornnofincheckvbg	starting_motornnofincheck_overvbg	set_outvbcheck_outvbg	startvbcheck_outvbg	commencevbcheck_up_onvbg	set_aboutvblook_intovbg	starternnofinsuss_outvbg	beginvbcheck_outvbg	startnnofincheckvbg	set_outvbcheck_overvbg	starternnofincheck_intovbg	set_aboutvbsuss_outvbg	commencevbcheck_overvbg	getvbcheck_intovbg	beginvbcheckingvbg	set_outvbsuss_outvbg	beginvbgo_overvbg	set_outvbgo_overvbg	starter_motornnofincheckingvbg	starter_motornnofincheck_intovbg	starternnofingo_overvbg	starter_motornnofingo_overvbg	set_aboutvbcheck_outvbg	get_downvbcheck_up_onvbg	getvbcheck_overvbg	set_outvbcheck_up_onvbg	start_outvbcheck_intovbg	beginvbsuss_outvbg	set_outvbcheckingvbg	starter_motornnofinsuss_outvbg	start_outvbcheck_outvbg	beginvbcheck_overvbg	get_downvbgo_overvbg	starter_motornnofinlook_intovbg	getvbcheck_up_onvbg	startvbcheckvbg	commencevbgo_overvbg	set_aboutvbcheckingvbg	getvbcheck_outvbg	starternnofinlook_intovbg	startnnofinlook_intovbg	commencevbcheck_intovbg	commencevblook_intovbg	get_downvbcheckingvbg	startnnofinsuss_outvbg	starternnofincheck_outvbg	beginvbcheckvbg	starter_motornnofincheck_outvbg	starter_motornnofincheck_up_onvbg	get_downvbsuss_outvbg	start_outvbcheck_overvbg	startnnofincheck_intovbg	get_downvbcheck_intovbg	set_aboutvbgo_overvbg	get_downvbcheck_outvbg	set_outvblook_intovbg	getvbsuss_outvbg	starternnofincheckvbg	start_outvbcheckvbg	start_outvbcheckingvbg	startvbcheck_up_onvbg	startnnofincheck_outvbg	starter_motornnofincheck_overvbg	getvbcheckingvbg	commencevbsuss_outvbg	set_outvbcheck_intovbg	beginvblook_intovbg	getvbcheckvbg	beginvbcheck_intovbg	starting_motornnofincheck_intovbg	startvbcheck_intovbg	starting_motornnofincheckvbg	startvbsuss_outvbg	get_downvbcheck_overvbg	start_outvbcheck_up_onvbg	starting_motornnofingo_overvbg	starting_motornnofinsuss_outvbg	set_aboutvbcheckvbg	start_outvblook_intovbg	commencevbcheck_outvbg	commencevbcheckingvbg	starternnofincheckingvbg	start_outvbgo_overvbg	set_aboutvbcheck_intovbg	starting_motornnofincheckingvbg	
+
+BE: startVBkeepingVBG
+EQ class: starter_motornnofinholdvbg	beginvbkeepvbg	set_aboutvbholdvbg	set_outvbholdvbg	beginvbmaintainvbg	start_outvbkeepvbg	start_outvbmaintainvbg	beginvbkeepingvbg	starter_motornnofinkeepingvbg	get_downvbkeepingvbg	startvbholdvbg	getvbholdvbg	startnnofinmaintainvbg	get_downvbmaintainvbg	startvbkeepvbg	set_outvbkeepvbg	getvbmaintainvbg	commencevbholdvbg	starter_motornnofinkeepvbg	starternnofinmaintainvbg	get_downvbholdvbg	startnnofinkeepvbg	beginvbholdvbg	starternnofinholdvbg	commencevbmaintainvbg	start_outvbholdvbg	starternnofinkeepingvbg	set_outvbkeepingvbg	set_outvbmaintainvbg	starternnofinkeepvbg	commencevbkeepingvbg	getvbkeepvbg	starting_motornnofinholdvbg	startnnofinholdvbg	start_outvbkeepingvbg	startnnofinkeepingvbg	set_aboutvbkeepingvbg	starting_motornnofinmaintainvbg	set_aboutvbkeepvbg	starting_motornnofinkeepingvbg	getvbkeepingvbg	commencevbkeepvbg	set_aboutvbmaintainvbg	starting_motornnofinkeepvbg	startvbmaintainvbg	starter_motornnofinmaintainvbg	get_downvbkeepvbg	
+
+BE: isAUXneverRB
+EQ class: beauxneverrb	
+
+BE: checkingVBGdailyRB
+EQ class: chequennofindailyrb	suss_outvbgdailyrb	day-after-dayjjchecknn	day-to-dayjjinincheck_up_onvbg	daynninincheckernn	day-by-dayjjininbank_checknn	checknnofindailyrb	day-to-dayjjininsuss_outvbg	day-to-dayjjbank_checknn	day-after-dayjjinincheckernn	daynnininlook_intovbg	daynninincheck_outvbg	daynnchequenn	dailyjjininchecknn	dailyjjinincheckvbg	day-by-dayjjinincheck_overvbg	day-to-dayjjchecknn	day-by-dayjjinincheck_up_onvbg	day-to-dayjjinincheckingvbg	day-by-dayjjchecknn	day-after-dayjjchequenn	day-after-dayjjbank_checknn	day-by-dayjjinincheck_outvbg	day-to-dayjjchequenn	day-by-dayjjinincheckingvbg	day-by-dayjjininlook_intovbg	daynninincheck_intovbg	day-to-dayjjinincheckvbg	daynnbank_checknn	day-by-dayjjcheckernn	day-by-dayjjininsuss_outvbg	dailyjjbank_checknn	daynninincheckvbg	dailyjjinincheckingvbg	day-by-dayjjininchecknn	day-after-dayjjininchequenn	day-to-dayjjininchequenn	day-after-dayjjinincheck_outvbg	day-by-dayjjchequenn	day-after-dayjjinincheck_intovbg	day-after-dayjjinincheckingvbg	dailyjjininlook_intovbg	day-after-dayjjininbank_checknn	day-to-dayjjinincheck_intovbg	day-by-dayjjbank_checknn	dailyjjcheckernn	go_overvbgdailyrb	day-by-dayjjininchequenn	day-after-dayjjcheckernn	day-to-dayjjininchecknn	day-after-dayjjininchecknn	dailyjjchecknn	day-after-dayjjininsuss_outvbg	check_up_onvbgdailyrb	check_intovbgdailyrb	check_overvbgdailyrb	daynniningo_overvbg	day-by-dayjjiningo_overvbg	daynninincheck_overvbg	look_intovbgdailyrb	day-after-dayjjininlook_intovbg	dailyjjininsuss_outvbg	daynninincheck_up_onvbg	dailyjjchequenn	checkvbgdailyrb	bank_checknnofindailyrb	day-to-dayjjinincheck_outvbg	day-to-dayjjininlook_intovbg	day-to-dayjjcheckernn	day-by-dayjjinincheckernn	daynnchecknn	day-to-dayjjiningo_overvbg	dailyjjininbank_checknn	dailyjjinincheck_outvbg	day-to-dayjjininbank_checknn	dailyjjininchequenn	dailyjjinincheck_overvbg	check_outvbgdailyrb	dailyjjiningo_overvbg	day-to-dayjjinincheck_overvbg	checkernnofindailyrb	daynnininchecknn	day-by-dayjjinincheck_intovbg	daynnininchequenn	day-by-dayjjinincheckvbg	daynnininsuss_outvbg	daynnininbank_checknn	day-to-dayjjinincheckernn	day-after-dayjjinincheckvbg	day-after-dayjjinincheck_up_onvbg	dailyjjinincheck_intovbg	dailyjjinincheckernn	dailyjjinincheck_up_onvbg	daynncheckernn	day-after-dayjjiningo_overvbg	daynninincheckingvbg	day-after-dayjjinincheck_overvbg	
+
+BE: rightNN
+EQ class: 
+
+BE: weightNN
+EQ class: weightyjj	
+
+BE: smokeNN
+EQ class: smokyjj	fumenn	
+
+BE: exerciseVB
+EQ class: exertvb	
+
+BE: eatVB
+EQ class: 
+
+BE: keepVB
+EQ class: maintainvb	holdvb	
+
+BE: donVB
+EQ class: assumevb	put_onvb	wearvb	get_intovb	
+
+BE: earlyJJ
+EQ class: earlinessnn	
+
+BE: tLocationAnnotationsmokeNN
+EQ class: tlocationannotationfumenn	tlocationannotationsmokyjj	
+
+BE: yourPRP$weightNN
+EQ class: weightnnofinyourprp$	weightyjjofinyourprp$	yourprp$weightyvb	weightyvbyourprp$	yourprp$weightyjj	
+
+BE: itPRPisAUX
+EQ class: itprpbeaux	
+
+BE: exerciseVBrightNN
+EQ class: exertvbrightnn	workoutnnofinrightnn	exercisennofinrightnn	exercisingnnofinrightnn	physical_exercisennofinrightnn	physical_exertionnnofinrightnn	
+
+BE: keepVBweightNN
+EQ class: maintainvbweightnn	holdvbweightnn	keepvbweightyjj	holdvbweightyjj	maintainvbweightyjj	
+
+BE: donVBsmokeNN
+EQ class: assumevbsmokyjj	put_onvbsmokenn	put_onvbfumenn	put_onvbsmokyjj	wearvbsmokyjj	donvbfumenn	get_intovbsmokyjj	donvbsmokyjj	get_intovbsmokenn	wearvbsmokenn	wearvbfumenn	assumevbfumenn	get_intovbfumenn	assumevbsmokenn	
+
+BE: isAUXearlyJJ
+EQ class: beauxearlyjj	beauxearlinessnn	isauxearlinessnn	
+
+BE: isAUXneverRB
+EQ class: beauxneverrb	
+
+BE: keepVBrightRB
+EQ class: maintainvbrightrb	holdvbrightrb	
+
+BE: ageNN
+EQ class: 
+
+BE: cardiologistNN
+EQ class: heart_surgeonnn	heart_specialistnn	
+
+BE: baseNN
+EQ class: base_of_operationsnn	
+
+BE: lineNN
+EQ class: 
+
+BE: chestNN
+EQ class: chestyjj	pectusnn	thoraxnn	
+
+BE: painNN
+EQ class: hurtingnn	
+
+BE: insuranceNN
+EQ class: 
+
+BE: goVB
+EQ class: locomotevb	movevb	travelvb	
+
+BE: complainVB
+EQ class: kvetchvb	kickvb	plainvb	sound_offvb	quetchvb	
+
+BE: getVB
+EQ class: acquirevb	
+
+BE: coverVB
+EQ class: 
+
+BE: checkVBupRP
+EQ class: check_overvbuprp	chequennofinuprp	go_overvbuprp	suss_outvbuprp	look_intovbuprp	bank_checknnofinuprp	check_intovbuprp	check_outvbuprp	checknnofinuprp	check_up_onvbuprp	checkernnofinuprp	
+
+BE: necessaryJJ
+EQ class: necessitynn	
+
+BE: 40CDageNN
+EQ class: fortycdagenn	xlcdagenn	4.0.cdagenn	
+
+BE: yourPRP$insuranceNN
+EQ class: ascertainvbyourprp$	yourprp$assurevb	yourprp$insurevb	yourprp$ensurevb	see_to_itvbyourprp$	yourprp$controlvb	yourprp$see_to_itvb	yourprp$ascertainvb	yourprp$checkvb	insurevbyourprp$	controlvbyourprp$	ensurevbyourprp$	insurancennofinyourprp$	yourprp$seevb	seevbyourprp$	assurevbyourprp$	checkvbyourprp$	
+
+BE: baseNNlineNN
+EQ class: linennofinbase_of_operationsnn	base_of_operationsnnlinenn	linennofinbasenn	
+
+BE: chestNNpainNN
+EQ class: painnnofinpectusnn	thoraxnnpainvb	hurtingnnofinchestnn	thoraxnnpainnn	thoraxnnailvb	pectusnnpainnn	painnnofinchestyjj	thoraxnntroublevb	painvbchestnn	painvbthoraxnn	troublevbchestnn	painvbpectusnn	chestyjjpainvb	chestnnailvb	pectusnnailvb	painnnofinchestnn	chestnnpainvb	chestyjjailvb	troublevbthoraxnn	ailvbthoraxnn	ailvbpectusnn	chestyjjpainnn	hurtingnnofinpectusnn	chestnntroublevb	pectusnnpainvb	troublevbchestyjj	hurtingnnofinthoraxnn	chestyjjtroublevb	pectusnntroublevb	hurtingnnofinchestyjj	pectusnnhurtingnn	painnnofinthoraxnn	thoraxnnhurtingnn	chestyjjhurtingnn	chestnnhurtingnn	ailvbchestnn	ailvbchestyjj	troublevbpectusnn	painvbchestyjj	
+
+BE: getVBinsuranceNN
+EQ class: acquiringnnofininsurancenn	acquirevbinsurancenn	gettingnnofininsurancenn	
+
+BE: coverVBitPRP
+EQ class: natural_coveringnnofinitprp	covernnofinitprp	coveringnnofinitprp	concealmentnnofinitprp	screennnofinitprp	covertnnofinitprp	
+
+BE: cardiologistNNforINlineNN
+EQ class: heart_specialistnnforinlinenn	linenncardiologyvb	linennheart_specialistnn	linennheart_surgeonnn	linenncardiologistnn	cardiologyvblinenn	heart_surgeonnnforinlinenn	
+
+BE: goVBtoTOcardiologistNN
+EQ class: movevbtotocardiologistnn	govbtotoheart_specialistnn	movevbtotoheart_surgeonnn	travelvbtotoheart_surgeonnn	movevbtotoheart_specialistnn	travelvbtotocardiologistnn	locomotevbtotoheart_surgeonnn	locomotevbtotocardiologistnn	travelvbtotoheart_specialistnn	govbtotoheart_surgeonnn	locomotevbtotoheart_specialistnn	
+
+BE: complainVBofINpainNN
+EQ class: plainvbofinhurtingnn	plainvbofinpainnn	quetchvbofinpainnn	kvetchvbofinhurtingnn	sound_offvbofinpainnn	kvetchvbofinpainnn	kickvbofinpainnn	complainvbofinhurtingnn	sound_offvbofinhurtingnn	quetchvbofinhurtingnn	kickvbofinhurtingnn	
+
+BE: goVBaroundINageNN
+EQ class: travelvbaroundinagenn	movevbaroundinagenn	locomotevbaroundinagenn	
+
+BE: complainVBgetVB
+EQ class: squawkernnofinacquirevb	snivellernnofingetvb	sound_offvbacquirevb	whinernnofinacquirevb	bellyachernnofinacquirevb	plainvbacquirevb	kvetchvbacquirevb	snivellernnofinacquirevb	ailmentnnofingetvb	plainvbgetvb	illnnofinacquirevb	quetchvbacquirevb	complainvbacquirevb	grumblernnofingetvb	complaintnnofingetvb	sound_offvbgetvb	crybabynnofinacquirevb	bellyachernnofingetvb	complainernnofinacquirevb	squawkernnofingetvb	ailmentnnofinacquirevb	moanernnofingetvb	grumblernnofinacquirevb	complaintnnofinacquirevb	moanernnofinacquirevb	kickvbacquirevb	kvetchvbgetvb	complainernnofingetvb	kickvbgetvb	illnnofingetvb	quetchvbgetvb	whinernnofingetvb	crybabynnofingetvb	
+
+BE: eyesNNS
+EQ class: theynns	themnns	
+
+BE: cholesterolNN
+EQ class: cholesterinnn	
+
+BE: screeningsNNS
+EQ class: viewingnns	screeningnns	theynns	showingnns	themnns	
+
+BE: keepVB
+EQ class: maintainvb	holdvb	
+
+BE: youngerJJR
+EQ class: jr.jjr	
+
+BE: openJJ
+EQ class: unfastenedjj	
+
+BE: freeJJ
+EQ class: 
+
+BE: cheapJJ
+EQ class: cheapnessnn	inexpensivejj	
+
+BE: youngerJJRthanIN
+EQ class: jr.jjrthanin	
+
+BE: 40CDthanIN
+EQ class: xlcdthanin	4.0.cdthanin	fortycdthanin	
+
+BE: freeJJscreeningsNNS
+EQ class: freejjtheynns	screenvbfreelyrb	freejjshowingnns	freejjviewingnns	freejjthemnns	testvbfreelyrb	freejjscreeningnns	
+
+BE: cheapJJscreeningsNNS
+EQ class: cheapjjviewingnns	cheapjjshowingnns	testvbcheaplyrb	inexpensivejjshowingnns	cheapjjthemnns	cheapnessnnscreeningsnns	inexpensivejjthemnns	cheapjjtheynns	cheapnessnntheynns	cheapnessnnscreeningnns	screenvbcheaplyrb	cheapnessnnthemnns	inexpensivejjtheynns	cheapjjscreeningnns	cheapnessnnviewingnns	inexpensivejjviewingnns	cheapnessnnshowingnns	inexpensivejjscreeningsnns	inexpensivejjscreeningnns	
+
+BE: yourPRP$eyesNNS
+EQ class: yourprp$themnns	themnnsofinyourprp$	theynnsofinyourprp$	yourprp$theynns	eyesnnsofinyourprp$	
+
+BE: cholesterolNNscreeningsNNS
+EQ class: themnnsofincholesterolnn	cholesterinnnviewingnns	theynnsofincholesterinnn	cholesterinnnscreeningsnns	screenvbcholesterolnn	viewingnnsofincholesterolnn	cholesterolnnshowingnns	viewingnnsofincholesterinnn	screenvbcholesterinnn	cholesterolnnscreenvb	cholesterolnnscreeningnns	themnnsofincholesterinnn	cholesterinnntheynns	screeningsnnsofincholesterolnn	showingnnsofincholesterinnn	testvbcholesterolnn	screeningsnnsofincholesterinnn	screeningnnsofincholesterinnn	cholesterinnnscreeningnns	cholesterolnntestvb	cholesterolnnviewingnns	cholesterinnnthemnns	cholesterinnnshowingnns	cholesterinnnscreenvb	cholesterinnntestvb	cholesterolnnthemnns	screeningnnsofincholesterolnn	cholesterolnntheynns	theynnsofincholesterolnn	showingnnsofincholesterolnn	testvbcholesterinnn	
+
+BE: youPRPareAUX
+EQ class: youprpbeaux	
+
+BE: areAUXthanIN
+EQ class: beauxthanin	
+
+BE: keepVBeyesNNS
+EQ class: holdvbeyesnns	maintainvbtheynns	maintainvbthemnns	holdvbthemnns	keepvbthemnns	holdvbtheynns	keepvbtheynns	maintainvbeyesnns	
+
+BE: openJJforINscreeningsNNS
+EQ class: openjjforinthemnns	unfastenedjjforinscreeningnns	testvbopenlyrb	unfastenedjjforintheynns	unfastenedjjforinviewingnns	openjjforinshowingnns	openjjforintheynns	openjjforinviewingnns	unfastenedjjforinscreeningsnns	screenvbopenlyrb	unfastenedjjforinshowingnns	openjjforinscreeningnns	unfastenedjjforinthemnns	
+
+BE: bloodNN
+EQ class: bloodyjj	
+
+BE: donorNN
+EQ class: givernn	presenternn	conferrernn	bestowernn	
+
+BE: miniNN
+EQ class: miniskirtnn	
+
+BE: timeNN
+EQ class: clipnn	
+
+BE: becomeVBP
+EQ class: govbp	getvbp	
+
+BE: getVBP
+EQ class: acquirevbp	
+
+BE: donateVBP
+EQ class: 
+
+BE: checkVBupRP
+EQ class: check_overvbuprp	chequennofinuprp	go_overvbuprp	suss_outvbuprp	look_intovbuprp	bank_checknnofinuprp	check_intovbuprp	check_outvbuprp	checknnofinuprp	check_up_onvbuprp	checkernnofinuprp	
+
+BE: freeJJ
+EQ class: 
+
+BE: freeJJminiNN
+EQ class: freejjminiskirtnn	
+
+BE: bloodNNdonorNN
+EQ class: bloodnnofinpresenternn	bloodnnofinbestowernn	donornnofinbloodyjj	conferrernnbloodvb	bestowernnofinbloodyjj	bloodyjjbestowernn	bloodyjjgivernn	presenternnofinbloodnn	bloodyjjofinconferrernn	bloodnnofinconferrernn	bestowernnofinbloodnn	bloodyjjofinbestowernn	bloodnnpresenternn	bloodyjjofingivernn	bloodnnofindonornn	givernnofinbloodyjj	presenternnbloodvb	donornnofinbloodnn	bloodyjjofindonornn	conferrernnofinbloodnn	bloodyjjdonornn	donornnbloodvb	bestowernnbloodvb	conferrernnofinbloodyjj	bloodnnconferrernn	bloodnngivernn	bloodyjjconferrernn	givernnofinbloodnn	bloodyjjpresenternn	bloodnnofingivernn	presenternnofinbloodyjj	bloodyjjofinpresenternn	givernnbloodvb	bloodnnbestowernn	
+
+BE: youPRPgetVBP
+EQ class: gettingnnofinyouprp	youprpacquirevbp	acquiringnnofinyouprp	gettingnnyouprp	acquiringnnyouprp	
+
+BE: youPRPbecomeVBP
+EQ class: youprpgovbp	youprpgetvbp	
+
+BE: miniNNcheckVB
+EQ class: mininncheck_overvb	mininncheck_outvb	checkernnmininn	miniskirtnncheck_intovb	miniskirtnncheck_outvb	bank_checknnofinminiskirtnn	miniskirtnncheck_overvb	mininnlook_intovb	miniskirtnnsuss_outvb	checknnofinmininn	mininncheck_intovb	mininngo_overvb	checknnofinminiskirtnn	checkernnofinminiskirtnn	checkernnofinmininn	chequennofinmininn	bank_checknnofinmininn	chequennofinminiskirtnn	mininnsuss_outvb	miniskirtnncheck_up_onvb	miniskirtnngo_overvb	miniskirtnncheckvb	mininncheck_up_onvb	miniskirtnnlook_intovb	checkernnminiskirtnn	
+
+BE: youPRPdonateVBP
+EQ class: contributionnnyouprp	contributionnnofinyouprp	donationnnyouprp	donationnnofinyouprp	
+
+BE: becomeVBPdonorNN
+EQ class: govbpgivernn	govbpdonornn	getvbpdonornn	govbppresenternn	getvbppresenternn	getvbpgivernn	getvbpconferrernn	becomevbppresenternn	becomevbpbestowernn	govbpbestowernn	becomevbpconferrernn	getvbpbestowernn	govbpconferrernn	becomevbpgivernn	
+
+BE: checkVBtimeNN
+EQ class: suss_outvbclipnn	check_up_onvbtimenn	bank_checknnofintimenn	checkvbclipnn	go_overvbclipnn	bank_checknnofinclipnn	chequennofinclipnn	suss_outvbtimenn	chequennofintimenn	check_overvbclipnn	check_overvbtimenn	look_intovbtimenn	look_intovbclipnn	check_intovbclipnn	checkernnofinclipnn	checknnofinclipnn	check_up_onvbclipnn	checknnofintimenn	check_outvbtimenn	check_intovbtimenn	go_overvbtimenn	check_outvbclipnn	checkernnofintimenn	
+
+BE: getVBPminiNN
+EQ class: gettingnnofinminiskirtnn	gettingnnofinmininn	acquiringnnofinmininn	getvbpminiskirtnn	acquirevbpminiskirtnn	acquirevbpmininn	acquiringnnofinminiskirtnn	
+

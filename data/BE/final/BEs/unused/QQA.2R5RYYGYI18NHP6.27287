@@ -1,0 +1,45 @@
+#It is made up of a spectrum of colors which blend together with nitrogen to form a blue sky!!
+#(S1 (S (NP (PRP It)) (VP (AUX is) (VP (VBN made) (PRT (RP up)) (PP (IN of) (NP (NP (DT a) (NN spectrum)) (PP (IN of) (NP (NNS colors))) (SBAR (WHNP (WDT which)) (S (VP (VB blend) (ADVP (RB together)) (PP (IN with) (NP (NN nitrogen) (S (VP (TO to) (VP (VB form) (NP (DT a) (JJ blue) (NN sky)))))))))) (. !))))) (. !)))
+#Rule:Nouns
+r1spectrumNN
+r1colorsNNS
+r1nitrogenNN
+r1skyNN
+
+#Rule:Verbs
+r2blendVB
+r2formVB
+
+#Rule:V-PRT
+r3madeVBNupRP
+
+#Rule:Adjs
+r4blueJJ
+
+#Rule:Adj-Noun
+r5blueJJskyNN
+
+#Rule:HeadNoun-(who/that)-V
+r14spectrumNNblendVB
+
+#Rule:V-HeadNoun
+r21formVBskyNN
+
+#Rule:V-HeadNoun(passive)
+r23madeVBNitPRP
+
+#Rule:PPinNP
+r26spectrumNNofINcolorsNNS
+
+#Rule:PPinVP
+r30blendVBwithINnitrogenNN
+
+#Rule:PPinVP
+r32madeVBNofINspectrumNN
+
+#Rule:V-ADV
+r46blendVBtogetherRB
+
+@lemmas-left	sky	form	spectrum	blue	colors	blend	made	make	nitrogen	
+@lemmas-right	it	sky	spectrum	colors	blend	together	nitrogen	up	
+@lemmas-center	of	with	

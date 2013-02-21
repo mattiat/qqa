@@ -1,0 +1,87 @@
+#Maybe if they said good things when they dressed up  like someone else, they wouldn t be rejected.  
+#(S1 (S (ADVP (RB Maybe)) (SBAR (IN if) (S (NP (PRP they)) (VP (VBD said) (NP (JJ good) (NNS things)) (SBAR (WHADVP (WRB when)) (S (NP (PRP they)) (VP (VBN dressed) (PRT (RP up)) (PP (IN like) (NP (NP (NN someone)) (ADJP (RB else)))))))))) (, ,) (NP (PRP they)) (VP (MD wouldn) (RB t) (VP (AUX be) (VP (VBN rejected)))) (. .)))
+#Rule:Nouns
+r1thingsNNS
+r1someoneNN
+
+#Rule:Verbs
+r2saidVBD
+r2rejectedVBN
+
+#Rule:V-PRT
+r3dressedVBNupRP
+
+#Rule:Adjs
+r4goodJJ
+
+#Rule:Adj-Noun
+r5goodJJthingsNNS
+
+#Rule:HeadNoun-V
+r11theyPRPsaidVBD
+
+#Rule:V-HeadNoun
+r21saidVBDthingsNNS
+
+#Rule:V-HeadNoun(passive)
+r23rejectedVBNtheyPRP
+
+#Rule:V-HeadNoun(passive)
+r24dressedVBNtheyPRP
+
+#Rule:PPinVP
+r32dressedVBNlikeINsomeoneNN
+
+#The Kraft of Witchcraft is not an acceptable thing to study when you are going to utter the same retarded phrases as you always did when you are doing your witchcraft.
+#(S1 (S (NP (NP (DT The) (NNP Kraft)) (PP (IN of) (NP (NN Witchcraft)))) (VP (AUX is) (RB not) (NP (NP (DT an) (JJ acceptable) (NN thing)) (SBAR (S (VP (TO to) (VP (VB study) (SBAR (WHADVP (WRB when)) (S (NP (PRP you)) (VP (AUX are) (VP (VBG going) (S (VP (TO to) (VP (JJ utter) (NP (DT the) (JJ same) (JJ retarded) (NNS phrases)) (SBAR (IN as) (S (NP (PRP you)) (ADVP (RB always)) (VP (AUX did) (SBAR (WHADVP (WRB when)) (S (NP (PRP you)) (VP (AUX are) (VP (VBG doing) (NP (PRP$ your) (NN witchcraft)))))))))))))))))))))) (. .)))
+#Rule:Nouns
+r1Kraft of WitchcraftOrganizationAnnotation
+r1thingNN
+r1phrasesNNS
+r1witchcraftNN
+
+#Rule:Verbs
+r2studyVB
+r2goingVBG
+r2doingVBG
+
+#Rule:Adjs
+r4acceptableJJ
+r4utterJJ
+r4sameJJ
+r4retardedJJ
+
+#Rule:Adj-Noun
+r5acceptableJJthingNN
+r5sameJJphrasesNNS
+r5retardedJJphrasesNNS
+
+#Rule:PRP-Noun
+r6yourPRP$witchcraftNN
+
+#Rule:HeadNoun-V
+r11Kraft of WitchcraftOrganizationAnnotationisAUX
+r11youPRPgoingVBG
+r11youPRPdidAUX
+r11youPRPdoingVBG
+
+#Rule:HeadNoun-(who/that)-V
+r14thingNNstudyVB
+
+#Rule:V-HeadNoun
+r21isAUXthingNN
+r21doingVBGwitchcraftNN
+
+#Rule:V-IN-V
+r43phrasesNNSasINdidAUX
+
+#Rule:V-ADV
+r46isAUXnotRB
+r46didAUXalwaysRB
+
+#Rule:IS-RULE
+r47thingNNKraft of WitchcraftOrganizationAnnotation
+
+@lemmas-left	they	acceptable	reject	said	good	study	same	phrase	rejected	someone	do	be	is	going	dressed	witchcraft	your	did	you	utter	dress	say	doing	retarded	phrases	things	Kraft of Witchcraft	thing	go	
+@lemmas-right	they	going	is	said	witchcraft	did	study	always	up	not	someone	phrase	doing	say	do	phrases	things	Kraft of Witchcraft	thing	be	go	
+@lemmas-center	as	like	

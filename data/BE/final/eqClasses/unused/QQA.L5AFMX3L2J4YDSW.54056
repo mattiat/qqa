@@ -1,0 +1,39 @@
+BE: patience=theyNN
+EQ class: 
+
+BE: daybreastNN
+EQ class: 
+
+BE: cancerNN
+EQ class: cancerousjj	malignant_neoplastic_diseasenn	
+
+BE: cureNN
+EQ class: remedynn	curativenn	therapeuticnn	
+
+BE: discoveringVBG
+EQ class: discovervbg	noticevbg	observevbg	findvbg	detectvbg	
+
+BE: foundVBN
+EQ class: set_upvbn	launchvbn	establishvbn	
+
+BE: daybreastNNcancerNN
+EQ class: cancernnofindaybreastnn	daybreastnncancerousvb	cancerousvbdaybreastnn	malignant_neoplastic_diseasennofindaybreastnn	daybreastnnmalignant_neoplastic_diseasenn	cancerousjjofindaybreastnn	daybreastnncancerousjj	
+
+BE: cancerNNhaveAUX
+EQ class: wealthy_personnnofincancerousjj	rich_personnnofinmalignant_neoplastic_diseasenn	rich_personnnofincancernn	cancerousjjhave_gotaux	malignant_neoplastic_diseasennhaveaux	rich_personnnofincancerousjj	wealthy_personnnofincancernn	havennofinmalignant_neoplastic_diseasenn	wealthy_personnnofinmalignant_neoplastic_diseasenn	cancernnholdaux	havennofincancernn	cancerousjjhaveaux	malignant_neoplastic_diseasennholdaux	cancernnhave_gotaux	cancerousjjholdaux	malignant_neoplastic_diseasennhave_gotaux	havennofincancerousjj	
+
+BE: haveAUXpatience=theyNN
+EQ class: rich_personnnofinpatience=theynn	havennofinpatience=theynn	have_gotauxpatience=theynn	wealthy_personnnofinpatience=theynn	holdauxpatience=theynn	
+
+BE: haveAUXcureNN
+EQ class: wealthy_personnnofincurenn	haveauxremedynn	have_gotauxremedynn	havennofincurativenn	holdauxcurativenn	rich_personnnofinremedynn	rich_personnnofincurativenn	wealthy_personnnofinremedynn	havennofincurenn	wealthy_personnnofintherapeuticnn	rich_personnnofintherapeuticnn	havennofinremedynn	holdauxcurenn	rich_personnnofincurenn	haveauxtherapeuticnn	holdauxtherapeuticnn	holdauxremedynn	have_gotauxtherapeuticnn	have_gotauxcurativenn	havennofintherapeuticnn	wealthy_personnnofincurativenn	haveauxcurativenn	have_gotauxcurenn	
+
+BE: foundVBNcureNN
+EQ class: foundernnofintherapeuticnn	originationnnofincurenn	foundationnnofintherapeuticnn	introductionnnofincurenn	institutionnnofincurenn	foundvbnremedynn	set_upvbntherapeuticnn	foundernnofincurativenn	laminitisnnofinremedynn	originationnnofincurativenn	laminitisnnofincurenn	instaurationnnofincurenn	introductionnnofincurativenn	initiationnnofincurativenn	originationnnofintherapeuticnn	set_upvbncurativenn	foundernnofinremedynn	innovationnnofincurenn	launchvbncurativenn	foundvbntherapeuticnn	foundvbncurativenn	foundationnnofincurenn	foundingnnofincurativenn	initiationnnofinremedynn	creationnnofincurativenn	set_upvbnremedynn	originationnnofinremedynn	launchvbncurenn	initiationnnofincurenn	launchvbnremedynn	institutionnnofincurativenn	innovationnnofintherapeuticnn	introductionnnofintherapeuticnn	foundationnnofincurativenn	creationnnofincurenn	instaurationnnofinremedynn	instaurationnnofintherapeuticnn	establishvbncurenn	innovationnnofinremedynn	instaurationnnofincurativenn	laminitisnnofintherapeuticnn	foundingnnofintherapeuticnn	innovationnnofincurativenn	establishvbnremedynn	initiationnnofintherapeuticnn	foundingnnofinremedynn	creationnnofintherapeuticnn	laminitisnnofincurativenn	creationnnofinremedynn	foundernnofincurenn	foundingnnofincurenn	establishvbntherapeuticnn	institutionnnofintherapeuticnn	launchvbntherapeuticnn	establishvbncurativenn	institutionnnofinremedynn	introductionnnofinremedynn	foundationnnofinremedynn	set_upvbncurenn	
+
+BE: foundVBNforINitPRP
+EQ class: establishvbnforinitprp	set_upvbnforinitprp	launchvbnforinitprp	
+
+BE: haveAUXtooRB
+EQ class: rich_personnnofintoorb	havennofintoorb	holdauxtoorb	have_gotauxtoorb	wealthy_personnnofintoorb	
+

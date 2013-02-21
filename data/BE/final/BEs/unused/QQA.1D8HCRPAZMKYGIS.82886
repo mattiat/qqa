@@ -1,0 +1,25 @@
+#Because cigarette smokers are not wanting to quit!
+#(S1 (FRAG (SBAR (IN Because) (S (NP (NN cigarette) (NNS smokers)) (VP (AUX are) (RB not) (VP (VBG wanting) (S (VP (TO to) (VP (VB quit)))))))) (. !)))
+#Rule:Nouns
+r1cigaretteNN
+r1smokersNNS
+
+#Rule:Verbs
+r2wantingVBG
+r2quitVB
+
+#Rule:N-HeadNoun
+r8cigaretteNNsmokersNNS
+
+#Rule:HeadNoun-V
+r11smokersNNSwantingVBG
+
+#Rule:V-V
+r44wantingVBGquitVB
+
+#Rule:V-ADV
+r46areAUXnotRB
+
+@lemmas-left	cigarette	are	wanting	smokers	smoker	quit	want	be	
+@lemmas-right	not	wanting	smokers	smoker	quit	want	
+@lemmas-center	

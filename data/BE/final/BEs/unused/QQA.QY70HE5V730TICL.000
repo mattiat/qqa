@@ -1,0 +1,19 @@
+#how do you get rid of pregnancy nausea?
+#(S1 (SBARQ (WHADVP (WRB how)) (SQ (AUX do) (NP (PRP you)) (VP (VB get) (VP (VB rid) (PP (IN of) (NP (NN pregnancy) (NN nausea)))))) (. ?)))
+#Rule:Nouns
+r1pregnancyNN
+r1nauseaLocationAnnotation
+
+#Rule:Verbs
+r2getVB
+r2ridVB
+
+#Rule:N-HeadNoun
+r8pregnancyNNnauseaLocationAnnotation
+
+#Rule:PPinVP
+r30ridVBofINnauseaLocationAnnotation
+
+@lemmas-left	get	rid	nausea	pregnancy	
+@lemmas-right	nausea	
+@lemmas-center	of	

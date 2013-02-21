@@ -1,0 +1,121 @@
+#How Can I Cheer Up My Mom, Who Has Breast Cancer??
+#(S1 (SBARQ (WHADVP (WRB How)) (SQ (MD Can) (NP (PRP I)) (VP (VB Cheer) (PRT (RP Up)) (NP (NP (PRP$ My) (NN Mom)) (, ,) (SBAR (WHNP (WP Who)) (S (VP (AUX Has) (NP (NN Breast) (NN Cancer))))))) (. ?)) (. ?)))
+#Rule:Nouns
+r1How Can I Cheer Up My MomOrganizationAnnotation
+r1Breast CancerLocationAnnotation
+
+#Rule:HeadNoun-(who/that)-V
+r14How Can I Cheer Up My MomOrganizationAnnotationhasAUX
+
+#Rule:V-HeadNoun
+r21hasAUXBreast CancerLocationAnnotation
+
+#My mom was recently diagnosed with breast cancer. She has already had a lumpectomy, but now she faces a mastectomy, as well as 8 chemo sessions. She s feeling sad, and I want to know how I can help. I already help around the house, and we have a very strong love between us. Is there anything else I can do? I ve tried to relay that I understand what she s feeling (I ve had recent health problems myself), but I also understand that that rarely helps.
+#(S1 (S (S (NP (PRP$ My) (NN mom)) (VP (AUX was) (ADVP (RB recently)) (VP (VBN diagnosed) (PP (IN with) (NP (NP (NN breast) (NN cancer.)) (SBAR (S (NP (PRP She)) (VP (AUX has) (ADVP (RB already)) (VP (AUX had) (NP (DT a) (NN lumpectomy))))))))))) (, ,) (CC but) (S (ADVP (RB now)) (NP (PRP she)) (VP (VBZ faces) (NP (NP (DT a) (NN mastectomy)) (, ,) (CONJP (RB as) (RB well) (IN as)) (NP (ADJP (CD 8) (NN chemo)) (JJ sessions.))) (SBAR (S (S (NP (PRP She)) (VP (VBZ s) (S (VP (VBG feeling) (ADJP (JJ sad)))))) (, ,) (CC and) (S (NP (PRP I)) (VP (VBP want) (S (VP (TO to) (VP (VB know) (SBAR (WHADVP (WRB how)) (S (NP (PRP I)) (VP (MD can) (VP (VB help.) (S (S (NP (PRP I)) (ADVP (RB already)) (VP (VB help) (PRT (RP around)) (NP (DT the) (NN house)))) (, ,) (CC and) (S (NP (PRP we)) (VP (AUX have) (NP (DT a) (ADJP (RB very) (JJ strong)) (NN love) (SBAR (IN between) (S (NP (NN us.)) (VP (AUX Is) (ADVP (RB there)) (NP (NP (NN anything)) (SBAR (S (NP (RB else) (PRP I)) (VP (MD can) (VP (AUX do)))))))))))) (. ?)) (SBAR (S (NP (PRP I)) (ADVP (RB ve)) (VP (VBD tried) (S (VP (TO to) (VP (VB relay) (SBAR (IN that) (S (S (NP (PRP I)) (VP (VBP understand) (SBAR (WHNP (WP what)) (S (NP (PRP she)) (VP (VBZ s) (NP (NN feeling)) (PRN (-LRB- -LRB-) (S (NP (PRP I)) (ADVP (RB ve)) (VP (AUX had) (NP (JJ recent) (NN health) (NNS problems)) (NP (PRP myself)))) (-RRB- -RRB-))))))) (, ,) (CC but) (S (NP (PRP I)) (ADVP (RB also)) (VP (VBP understand) (SBAR (IN that) (S (NP (DT that)) (ADVP (RB rarely)) (VP (VBZ helps))))))))))))))))))))))))))) (. .)))
+#Rule:Nouns
+r1momNN
+r1breastNN
+r1cancerNN
+r1lumpectomyNN
+r1mastectomyNN
+r1chemoNN
+r1houseNN
+r1loveNN
+r1usNN
+r1anythingNN
+r1feelingNN
+r1healthNN
+r1problemsNNS
+
+#Rule:Verbs
+r2diagnosedVBN
+r2facesVBZ
+r2sVBZ
+r2feelingVBG
+r2wantVBP
+r2knowVB
+r2helpVB
+r2triedVBD
+r2relayVB
+r2understandVBP
+r2sVBZ
+r2understandVBP
+r2helpsVBZ
+
+#Rule:V-PRT
+r3helpVBaroundRP
+
+#Rule:Adjs
+r4sessionsJJ
+r4sadJJ
+r4strongJJ
+r4recentJJ
+
+#Rule:Adj-Noun
+r58CDchemoNN
+r5sessionsJJchemoNN
+r5strongJJloveNN
+r5recentJJproblemsNNS
+
+#Rule:PRP-Noun
+r6myPRP$momNN
+
+#Rule:N-HeadNoun
+r8breastNNcancerNN
+r8healthNNproblemsNNS
+
+#Rule:HeadNoun-V
+r11ShePersonAnnotationhadAUX
+r11shePRPfacesVBZ
+r11ShePersonAnnotationsVBZ
+r11iPRPwantVBP
+r11iPRPhelpVB
+r11IPersonAnnotationhelpVB
+r11wePRPhaveAUX
+r11usNNisAUX
+r11iPRPtriedVBD
+r11iPRPunderstandVBP
+r11shePRPsVBZ
+r11iPRPhadAUX
+r11iPRPunderstandVBP
+r11thatDThelpsVBZ
+
+#Rule:V-HeadNoun
+r21hadAUXlumpectomyNN
+r21facesVBZmastectomyNN
+r21helpVBhouseNN
+r21haveAUXloveNN
+r21isAUXanythingNN
+r21sVBZfeelingNN
+r21hadAUXproblemsNNS
+r21hadAUXmyselfPRP
+
+#Rule:V-HeadNoun(passive)
+r23diagnosedVBNmomNN
+
+#Rule:PPinVP
+r32diagnosedVBNwithINcancerNN
+
+#Rule:V-IN-V
+r43understandVBPthatINhelpsVBZ
+
+#Rule:V-V
+r44wantVBPknowVB
+r44triedVBDrelayVB
+
+#Rule:V-ADV
+r46wasAUXrecentlyRB
+r46diagnosedVBNrecentlyRB
+r46hasAUXalreadyRB
+r46hadAUXalreadyRB
+r46facesVBZnowRB
+r46helpVBalreadyRB
+r46isAUXthereRB
+r46triedVBDveRB
+r46hadAUXveRB
+r46understandVBPalsoRB
+r46helpsVBZrarelyRB
+
+@lemmas-left	faces	understand	relay	sad	house	has	love	us.	help	diagnosed	she	chemo	had	be	problems	lumpectomy	health	mom	breast	help.	that	strong	mastectomy	cancer.	8	try	we	face	have	She	Breast Cancer	tried	recent	I	was	want	feel	is	sessions	problem	us	helps	diagnose	know	my	i	anything	How Can I Cheer Up My Mom	s	feeling	cancer	sessions.	
+@lemmas-right	face	faces	understand	relay	have	Breast Cancer	tried	rarely	house	has	love	help	recently	ve	chemo	had	want	be	is	problems	problem	lumpectomy	already	helps	know	mom	around	help.	anything	s	now	feeling	mastectomy	there	cancer.	myself	also	cancer	try	
+@lemmas-center	that	with	

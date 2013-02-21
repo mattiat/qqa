@@ -1,0 +1,12 @@
+#why are girls smarter than boys?
+#(S1 (SBARQ (WHADVP (WRB why)) (SQ (VP (AUX are) (NP (NP (NNS girls)) (ADVP (RBR smarter) (PP (IN than) (NP (NNS boys))))))) (. ?)))
+#Rule:Nouns
+r1girlsNNS
+r1boysNNS
+
+#Rule:V-HeadNoun
+r21areAUXgirlsNNS
+
+@lemmas-left	girls	are	girl	boys	boy	be	
+@lemmas-right	girls	girl	
+@lemmas-center	

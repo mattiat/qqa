@@ -1,0 +1,37 @@
+#Why is stage 4 cancer incurable when it is just cancer on other areas?
+#(S1 (SBARQ (WHADVP (WRB Why)) (SQ (AUX is) (VP (VB stage) (NP (CD 4) (NN cancer) (NN incurable)) (SBAR (WHADVP (WRB when)) (S (NP (PRP it)) (VP (AUX is) (ADVP (RB just)) (NP (NP (NN cancer)) (PP (IN on) (NP (JJ other) (NNS areas))))))))) (. ?)))
+#Rule:Nouns
+r1cancerNN
+r1incurableNN
+r1cancerNN
+r1areasNNS
+
+#Rule:Verbs
+r2stageVB
+
+#Rule:Adjs
+r4otherJJ
+
+#Rule:Adj-Noun
+r54CDincurableNN
+r5otherJJareasNNS
+
+#Rule:N-HeadNoun
+r8cancerNNincurableNN
+
+#Rule:HeadNoun-V
+r11itPRPisAUX
+
+#Rule:V-HeadNoun
+r21stageVBincurableNN
+r21isAUXcancerNN
+
+#Rule:PPinNP
+r26cancerNNonINareasNNS
+
+#Rule:V-ADV
+r46isAUXjustRB
+
+@lemmas-left	is	it	other	area	4	areas	stage	incurable	cancer	be	
+@lemmas-right	just	is	area	areas	incurable	cancer	be	
+@lemmas-center	on	

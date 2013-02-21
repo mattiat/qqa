@@ -1,0 +1,92 @@
+#because it is sad.  
+#(S1 (FRAG (SBAR (IN because) (S (NP (PRP it)) (VP (AUX is) (ADJP (JJ sad))))) (. .)))
+#Rule:Adjs
+r4sadJJ
+
+#Rule:HeadNoun-V
+r11itPRPisAUX
+
+#Rule:V-ADJ
+r25isAUXsadJJ
+
+#corporations keep sending horrible toxins that damage it.  
+#(S1 (S (NP (NNS corporations)) (VP (VB keep) (S (VP (VBG sending) (NP (NP (JJ horrible) (NNS toxins)) (SBAR (WHNP (WDT that)) (S (VP (VBP damage) (NP (PRP it))))))))) (. .)))
+#Rule:Nouns
+r1corporationsNNS
+r1toxinsNNS
+
+#Rule:Verbs
+r2keepVB
+r2sendingVBG
+r2damageVBP
+
+#Rule:Adjs
+r4horribleJJ
+
+#Rule:Adj-Noun
+r5horribleJJtoxinsNNS
+
+#Rule:HeadNoun-V
+r11corporationsNNSkeepVB
+
+#Rule:HeadNoun-(who/that)-V
+r14toxinsNNSdamageVBP
+
+#Rule:V-HeadNoun
+r21sendingVBGtoxinsNNS
+r21damageVBPitPRP
+
+#It only wants to protect fair skinned irish people from the dangerous radiation comming from it s big brother, the sun.
+#(S1 (S (NP (PRP It)) (ADVP (RB only)) (VP (VBZ wants) (S (VP (TO to) (VP (VB protect) (NP (ADJP (JJ fair) (JJ skinned)) (JJ irish) (NNS people)) (PP (IN from) (NP (NP (DT the) (JJ dangerous) (NN radiation) (NN comming)) (SBAR (WHNP (IN from)) (S (NP (PRP it)) (VP (VBZ s) (NP (NP (JJ big) (NN brother)) (, ,) (NP (DT the) (NN sun)))))))))))) (. .)))
+#Rule:Nouns
+r1peopleNNS
+r1radiationNN
+r1commingNN
+r1brotherNN
+r1sunNN
+
+#Rule:Verbs
+r2wantsVBZ
+r2protectVB
+r2sVBZ
+
+#Rule:Adjs
+r4fairJJ
+r4skinnedJJ
+r4irishPersonAnnotation
+r4dangerousJJ
+r4bigJJ
+
+#Rule:Adj-Noun
+r5fairJJpeopleNNS
+r5skinnedJJpeopleNNS
+r5irishPersonAnnotationpeopleNNS
+r5dangerousJJcommingNN
+r5bigJJbrotherNN
+
+#Rule:N-HeadNoun
+r8radiationNNcommingNN
+
+#Rule:N-ApposN
+r10brotherNNsunNN
+
+#Rule:HeadNoun-V
+r11itPRPwantsVBZ
+r11itPRPsVBZ
+
+#Rule:V-HeadNoun
+r21protectVBpeopleNNS
+r21sVBZbrotherNN
+
+#Rule:PPinVP
+r30protectVBfromINcommingNN
+
+#Rule:V-V
+r44wantsVBZprotectVB
+
+#Rule:V-ADV
+r46wantsVBZonlyRB
+
+@lemmas-left	radiation	send	sad	horrible	irish	protect	corporation	people	sun	corporations	skinned	want	be	is	comming	it	toxins	toxin	damage	dangerous	fair	wants	sending	s	brother	big	keep	
+@lemmas-right	is	comming	it	toxins	toxin	sad	damage	protect	people	wants	sun	s	only	brother	want	be	keep	
+@lemmas-center	from	

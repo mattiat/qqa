@@ -1,0 +1,134 @@
+#How do you solve these integration problems???? 
+#(S1 (SBARQ (WHADVP (WRB How)) (SQ (AUX do) (NP (PRP you)) (VP (VB solve) (NP (DT these) (NN integration) (NNS problems)) (ADVP (RB ???)))) (. ?)))
+#Rule:Nouns
+r1integrationNN
+r1problemsNNS
+
+#Rule:Verbs
+r2solveVB
+
+#Rule:N-HeadNoun
+r8integrationNNproblemsNNS
+
+#Rule:V-HeadNoun
+r21solveVBproblemsNNS
+
+#Rule:V-ADV
+r46solveVB???RB
+
+#tan^3?? 
+#(S1 (INTJ (UH tan^3) (. ?) (. ?)))
+#d????? 
+#(S1 (FRAG (X (SYM d)) (VP (VBZ ????)) (. ?)))
+#Rule:Verbs
+r2????VBZ
+
+#(x) / (sqrt(3-x^4)) dx??? 
+#(S1 (S (LST (-LRB- -LRB-) (LS x) (-RRB- -RRB-)) (VP (VB /) (NP (PRN (-LRB- -LRB-) (NN sqrt) (-LRB- -LRB-) (JJ 3-x^4) (-RRB- -RRB-)) (JJ dx) (NNS ??))) (. ?)))
+#Rule:Nouns
+r1sqrtNN
+r1??NNS
+
+#Rule:Verbs
+r2/VB
+
+#Rule:Adjs
+r43-x^4JJ
+r4x^4)) dxLocationAnnotation
+
+#Rule:Adj-Noun
+r5x^4)) dxLocationAnnotation??NNS
+
+#Rule:V-HeadNoun
+r21/VB??NNS
+
+#x csc(x) cot(x) dx??? 
+#(S1 (S (LST (LS x)) (NP (NP (NNP csc)) (PRN (-LRB- -LRB-) (NP (NNP x)) (-RRB- -RRB-))) (VP (VBD cot) (S (LST (-LRB- -LRB-) (LS x) (-RRB- -RRB-)) (VP (VBG dx) (NP (NNS ??))) (. ?)))))
+#Rule:Nouns
+r1csc(xOrganizationAnnotation
+r1??NNS
+
+#Rule:Verbs
+r2cotVBD
+r2dxLocationAnnotation
+
+#Rule:HeadNoun-V
+r11csc(xOrganizationAnnotationcotVBD
+
+#Rule:V-HeadNoun
+r21dxLocationAnnotation??NNS
+
+#(x) / (x^2-4x-5) dxI spent over 90 minutes trying to do these problems, like using substitution for the first problem, but nothing worked. 
+#(S1 (S (LST (-LRB- -LRB-) (LS x) (-RRB- -RRB-)) (S (NP (JJ /) (PRN (-LRB- -LRB-) (CD x^2-4x-5) (-RRB- -RRB-)) (NNS dxI)) (VP (VBD spent) (PRT (RP over)) (NP (NP (CD 90) (NNS minutes)) (VP (VBG trying) (S (VP (TO to) (VP (AUX do) (NP (DT these) (NNS problems))))))) (, ,) (PP (IN like) (S (VP (VBG using) (NP (NP (NN substitution)) (PP (IN for) (NP (DT the) (JJ first) (NN problem))))))))) (, ,) (CC but) (S (NP (NN nothing)) (VP (VBD worked))) (. .)))
+#Rule:Nouns
+r1dxIOrganizationAnnotation
+r1minutesNNS
+r1problemsNNS
+r1substitutionNN
+r1problemNN
+r1nothingNN
+
+#Rule:Verbs
+r2tryingVBG
+r2usingVBG
+r2workedVBD
+
+#Rule:V-PRT
+r3spentVBDoverRP
+
+#Rule:Adjs
+r4/JJ
+r4firstJJ
+
+#Rule:Adj-Noun
+r5/JJdxIOrganizationAnnotation
+r590CDminutesNNS
+r5firstJJproblemNN
+
+#Rule:HeadNoun-V
+r11dxIOrganizationAnnotationspentVBD
+r11minutesNNStryingVBG
+r11nothingNNworkedVBD
+
+#Rule:V-HeadNoun
+r21spentVBDminutesNNS
+r21doAUXproblemsNNS
+r21usingVBGsubstitutionNN
+
+#Rule:PPinNP
+r26substitutionNNforINproblemNN
+
+#How should I come about to solving these questions? 
+#(S1 (SBARQ (WHADVP (WRB How)) (SQ (MD should) (NP (PRP I)) (VP (VB come) (PRT (RP about)) (PP (TO to) (S (VP (VBG solving) (NP (DT these) (NNS questions))))))) (. ?)))
+#Rule:Nouns
+r1questionsNNS
+
+#Rule:Verbs
+r2solvingVBG
+
+#Rule:V-PRT
+r3comeVBaboutRP
+
+#Rule:V-HeadNoun
+r21solvingVBGquestionsNNS
+
+#Thank you for your time!
+#(S1 (S (VP (VB Thank) (NP (PRP you)) (PP (IN for) (NP (PRP$ your) (NN time)))) (. !)))
+#Rule:Nouns
+r1timeNN
+
+#Rule:Verbs
+r2thankVB
+
+#Rule:PRP-Noun
+r6yourPRP$timeNN
+
+#Rule:V-HeadNoun
+r21thankVByouPRP
+
+#Rule:PPinVP
+r30thankVBforINtimeNN
+
+@lemmas-left	using	dxI	dx	csc(x	use	cot	substitution	trying	thank	??	solve	time	x^4)) dx	????	integration	worked	do	3-x^4	question	spent	work	problems	minutes	your	sqrt	90	come	questions	problem	/	solving	spend	nothing	first	try	x	
+@lemmas-right	work	problems	dxI	minutes	about	questions	you	substitution	problem	cot	trying	spend	??	time	over	worked	question	spent	???	try	
+@lemmas-center	for	

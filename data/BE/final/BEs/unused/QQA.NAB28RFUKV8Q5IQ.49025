@@ -1,0 +1,27 @@
+#it propably had some sort of spirtual meaning
+#(S1 (S (NP (PRP it)) (ADVP (RB propably)) (VP (AUX had) (NP (NP (DT some) (NN sort)) (PP (IN of) (NP (JJ spirtual) (NN meaning)))))))
+#Rule:Nouns
+r1sortNN
+r1meaningNN
+
+#Rule:Adjs
+r4spirtualJJ
+
+#Rule:Adj-Noun
+r5spirtualJJmeaningNN
+
+#Rule:HeadNoun-V
+r11itPRPhadAUX
+
+#Rule:V-HeadNoun
+r21hadAUXsortNN
+
+#Rule:PPinNP
+r26sortNNofINmeaningNN
+
+#Rule:V-ADV
+r46hadAUXpropablyRB
+
+@lemmas-left	it	sort	have	spirtual	meaning	had	
+@lemmas-right	sort	propably	have	meaning	had	
+@lemmas-center	of	

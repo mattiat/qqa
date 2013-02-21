@@ -1,0 +1,37 @@
+#Just take a look at any of the results marked Resolved on this page:http://answers.yahoo.com/search/search_result?
+#(S1 (S (ADVP (RB Just)) (VP (VB take) (NP (NP (DT a) (NN look)) (PP (IN at) (NP (NP (DT any)) (PP (IN of) (NP (NP (NP (DT the) (NNS results)) (VP (VBN marked) (PP (VBN Resolved) (PP (IN on) (NP (DT this) (NN page)))))) (: :) (NP (NNS http)) (: :) (NP (NN //answers.yahoo.com/search/search_result)))))))) (. ?)))
+#Rule:Nouns
+r1lookNN
+r1resultsNNS
+r1pageNN
+r1http://answers.yahoo.com/search/searchOrganizationAnnotation
+r1//answers.yahoo.com/search/search_resultNN
+
+#Rule:Verbs
+r2takeVB
+r2markedVBN
+r2resolvedVBN
+
+#Rule:V-HeadNoun
+r21takeVBlookNN
+
+#Rule:V-HeadNoun(passive)
+r24markedVBNresultsNNS
+
+#Rule:PPinNP
+r26lookNNatINanyDT
+r26anyDTofINresultsNNS
+r26anyDTofINhttp://answers.yahoo.com/search/searchOrganizationAnnotation
+r26anyDTofIN//answers.yahoo.com/search/search_resultNN
+
+#Rule:V-ADV
+r46takeVBJustRB
+
+#p=why+is+the+sky+blue
+#(S1 (NP (NNP p=why+is+the+sky+blue)))
+#Rule:Nouns
+r1p=why+is+the+sky+blueNNP
+
+@lemmas-left	look	result	marked	resolve	p=why+is+the+sky+blue	mark	//answers.yahoo.com/search/search_result	http://answers.yahoo.com/search/search	results	resolved	page	blue	take	any	
+@lemmas-right	just	http://answers.yahoo.com/search/search	look	result	results	any	//answers.yahoo.com/search/search_result	Just	
+@lemmas-center	of	at	

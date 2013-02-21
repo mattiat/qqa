@@ -1,0 +1,1232 @@
+#Well, don t follow these latest diets or whatever, they usually aren t effective for everybody.
+#(S1 (S (INTJ (UH Well)) (, ,) (VP (VB don) (SBAR (SBAR (S (NP (NNS t)) (VP (VBP follow) (NP (DT these) (JJS latest) (NNS diets))))) (CC or) (SBAR (WHNP (WDT whatever)) (, ,) (S (NP (PRP they)) (ADVP (RB usually)) (VP (VBP aren) (ADJP (RB t) (JJ effective) (PP (IN for) (NP (NN everybody))))))))) (. .)))
+#Rule:Nouns
+r1tNNS
+r1dietsNNS
+r1everybodyNN
+
+#Rule:Verbs
+r2donLocationAnnotation
+r2followVBP
+r2arenVBP
+
+#Rule:Adjs
+r4latestJJS
+r4effectiveJJ
+
+#Rule:Adj-Noun
+r5latestJJSdietsNNS
+
+#Rule:HeadNoun-V
+r11tNNSfollowVBP
+r11theyPRParenVBP
+
+#Rule:V-HeadNoun
+r21followVBPdietsNNS
+
+#Rule:PPinADJP
+r37effectiveJJforINeverybodyNN
+
+#Rule:V-ADV
+r46arenVBPusuallyRB
+
+# What you should do is make an account at www.
+#(S1 (S (SBAR (WHNP (WP What)) (S (NP (PRP you)) (VP (MD should) (VP (AUX do))))) (VP (AUX is) (S (VP (VB make) (NP (DT an) (NN account)) (PP (IN at) (NP (CD www)))))) (. .)))
+#Rule:Nouns
+r1accountNN
+
+#Rule:Verbs
+r2makeVB
+
+#Rule:HeadNoun-V
+r11youPRPdoAUX
+
+#Rule:V-HeadNoun
+r21makeVBaccountNN
+
+#Rule:PPinVP
+r30makeVBatINwwwLocationAnnotation
+
+#weightwatchers.
+#(S1 (NP (NNS weightwatchers) (. .)))
+#Rule:Nouns
+r1weightwatchersNNS
+
+#com. This is a very helpful cite and tells you many helpful advise.
+#(S1 (SINV (S (NP (NNP com.) (NNP This)) (VP (AUX is) (ADJP (DT a) (RB very) (JJ helpful)))) (VP (VB cite) (CC and) (VBZ tells) (NP (PRP you))) (NP (ADJP (RB many) (JJ helpful)) (VB advise)) (. .)))
+#Rule:Nouns
+r1comNNP
+r1ThisNNP
+
+#Rule:Verbs
+r2citeVB
+r2tellsVBZ
+r2adviseVB
+
+#Rule:Adjs
+r4helpfulJJ
+r4helpfulJJ
+
+#Rule:N-HeadNoun
+r8comNNPThisNNP
+
+#Rule:HeadNoun-V
+r11ThisNNPisAUX
+
+#Rule:V-HeadNoun
+r21citeVByouPRP
+
+#Rule:V-ADJ
+r25isAUXhelpfulJJ
+
+# If you know sitting in the kitchen is going to cause you to raid the pantry, leave the room.
+#(S1 (S (SBAR (IN If) (S (NP (PRP you)) (VP (VBP know) (VP (VBG sitting) (PP (IN in) (NP (DT the) (NN kitchen))))))) (VP (AUX is) (VP (VBG going) (S (VP (TO to) (VP (VB cause) (S (NP (PRP you)) (VP (TO to) (VP (VP (VB raid) (NP (DT the) (NN pantry))) (, ,) (VP (VB leave) (NP (DT the) (NN room))))))))))) (. .)))
+#Rule:Nouns
+r1kitchenPersonAnnotation
+r1pantryNN
+r1roomNN
+
+#Rule:Verbs
+r2knowVBP
+r2sittingVBG
+r2goingVBG
+r2causeVB
+r2raidVB
+r2leaveVB
+
+#Rule:HeadNoun-V
+r11youPRPknowVBP
+r11youPRPsittingVBG
+r11youPRPraidVB
+r11youPRPleaveVB
+
+#Rule:V-HeadNoun
+r21raidVBpantryNN
+r21leaveVBroomNN
+
+#Rule:V-HeadNoun
+r22causeVByouPRP
+
+#Rule:PPinVP
+r30sittingVBGinINkitchenPersonAnnotation
+
+#Rule:V-V
+r44goingVBGcauseVB
+
+# If lingering at the dinner table makes you long for dessert.
+#(S1 (S (SBAR (IN If) (S (VP (VBG lingering) (PP (IN at) (NP (DT the) (NN dinner) (NN table)))))) (VP (VBZ makes) (S (NP (PRP you)) (ADJP (JJ long) (PP (IN for) (NP (NN dessert)))))) (. .)))
+#Rule:Nouns
+r1dinnerNN
+r1tableNN
+r1dessertNN
+
+#Rule:Verbs
+r2lingeringVBG
+r2makesVBZ
+
+#Rule:Adjs
+r4longJJ
+
+#Rule:N-HeadNoun
+r8dinnerNNtableNN
+
+#Rule:V-HeadNoun
+r22makesVBZyouPRP
+
+#Rule:PPinVP
+r30lingeringVBGatINtableNN
+
+#Rule:PPinADJP
+r37longJJforINdessertNN
+
+# As soon as you ve finished your meal, head outside and takea walk.
+#(S1 (S (ADVP (ADVP (RB As) (RB soon)) (SBAR (IN as) (S (NP (PRP you)) (ADVP (RB ve)) (VP (VBD finished) (NP (PRP$ your) (NN meal)))))) (, ,) (NP (NP (NN head)) (ADJP (JJ outside) (CC and) (JJ takea))) (VP (VBP walk)) (. .)))
+#Rule:Nouns
+r1mealNN
+r1headNN
+
+#Rule:Verbs
+r2finishedVBD
+r2walkVBP
+
+#Rule:Adjs
+r4outsideJJ
+r4takeaJJ
+
+#Rule:Adj-Noun
+r5outsideJJheadNN
+r5takeaJJheadNN
+
+#Rule:PRP-Noun
+r6yourPRP$mealNN
+
+#Rule:HeadNoun-V
+r11headNNwalkVBP
+r11youPRPfinishedVBD
+
+#Rule:V-HeadNoun
+r21finishedVBDmealNN
+
+#Rule:V-ADV
+r46finishedVBDveRB
+
+# Not only will it get your mind off of eating, you ll have the extra benefit of exercising!
+#(S1 (S (CONJP (RB Not) (RB only)) (SINV (MD will) (NP (PRP it)) (VP (VB get) (NP (PRP$ your) (NN mind)) (PP (IN off) (PP (IN of) (S (VP (VBG eating))))))) (, ,) (S (NP (PRP you)) (ADVP (RB ll)) (VP (AUX have) (NP (NP (DT the) (JJ extra) (NN benefit)) (PP (IN of) (S (VP (VBG exercising))))))) (. !)))
+#Rule:Nouns
+r1mindNN
+r1benefitNN
+
+#Rule:Verbs
+r2getVB
+r2eatingVBG
+r2exercisingVBG
+
+#Rule:Adjs
+r4extraJJ
+
+#Rule:Adj-Noun
+r5extraJJbenefitNN
+
+#Rule:PRP-Noun
+r6yourPRP$mindNN
+
+#Rule:HeadNoun-V
+r11youPRPhaveAUX
+
+#Rule:V-HeadNoun
+r21getVBmindNN
+r21haveAUXbenefitNN
+
+#Rule:V-ADV
+r46haveAUXllRB
+
+#   1.
+#(S1 (FRAG (NP (CD 1)) (. .)))
+#  Include two fruits or vegetables in every meal or snack.
+#(S1 (S (VP (VB Include) (NP (CD two) (NNS fruits) (CC or) (NNS vegetables)) (PP (IN in) (NP (NP (DT every) (NN meal)) (CC or) (NP (NN snack))))) (. .)))
+#Rule:Nouns
+r1fruitsNNS
+r1vegetablesNNS
+r1mealNN
+r1snackNN
+
+#Rule:Verbs
+r2includeVB
+
+#Rule:Adj-Noun
+r5twoCDfruitsNNS
+
+#Rule:V-HeadNoun
+r21includeVBfruitsNNS
+
+#Rule:PPinVP
+r30includeVBinINmealNN
+r30includeVBinINsnackNN
+
+# You ll feel fuller and cut back on calories from other foods.
+#(S1 (S (NP (PRP You)) (ADVP (RB ll)) (VP (VP (VBP feel) (NP (NNP fuller))) (CC and) (VP (VBP cut) (ADVP (RB back)) (PP (IN on) (NP (NP (NNS calories)) (PP (IN from) (NP (JJ other) (NNS foods))))))) (. .)))
+#Rule:Nouns
+r1fullerNNP
+r1caloriesNNS
+r1foodsNNS
+
+#Rule:Verbs
+r2feelVBP
+r2cutVBP
+
+#Rule:Adjs
+r4otherJJ
+
+#Rule:Adj-Noun
+r5otherJJfoodsNNS
+
+#Rule:HeadNoun-V
+r11youPRPfeelVBP
+r11youPRPcutVBP
+
+#Rule:V-HeadNoun
+r21feelVBPfullerNNP
+
+#Rule:PPinNP
+r26caloriesNNSfromINfoodsNNS
+
+#Rule:PPinVP
+r30cutVBPonINcaloriesNNS
+
+#Rule:V-ADV
+r46cutVBPbackRB
+
+#   2.
+#(S1 (FRAG (NP (CD 2)) (. .)))
+# Eat breakfast.
+#(S1 (S (VP (VB Eat) (NP (NN breakfast))) (. .)))
+#Rule:Nouns
+r1breakfastNN
+
+#Rule:Verbs
+r2eatVB
+
+#Rule:V-HeadNoun
+r21eatVBbreakfastNN
+
+# You ll be less likely to overeat later in the day.
+#(S1 (S (NP (PRP You)) (VP (VBP ll) (VP (AUX be) (ADJP (RBR less) (JJ likely) (S (VP (TO to) (VP (VB overeat) (ADVP (RB later) (PP (IN in) (NP (DT the) (NN day)))))))))) (. .)))
+#Rule:Nouns
+r1dayNN
+
+#Rule:Verbs
+r2llVBP
+r2overeatVB
+
+#Rule:Adjs
+r4likelyJJ
+
+#Rule:HeadNoun-V
+r11youPRPllVBP
+r11youPRPbeAUX
+
+#Rule:V-ADJ
+r25beAUXlikelyJJ
+
+#Rule:V-ADV
+r46overeatVBlaterRB
+
+#   3.
+#(S1 (FRAG (NP (CD 3)) (. .)))
+# Snack every 4 hours (try oranges, apples, pretzels, string cheese).
+#(S1 (S (VP (NN Snack) (NP (DT every) (CD 4) (NNS hours)) (PRN (-LRB- -LRB-) (S (VP (VB try) (NP (NNS oranges) (, ,) (NNS apples) (, ,) (NNS pretzels) (, ,) (NN string) (NN cheese)))) (-RRB- -RRB-))) (. .)))
+#Rule:Nouns
+r1SnackPersonAnnotation
+r1hoursNNS
+r1orangesNNS
+r1applesNNS
+r1pretzelsPersonAnnotation
+r1stringNN
+r1cheeseOrganizationAnnotation
+
+#Rule:Verbs
+r2tryVB
+
+#Rule:Adj-Noun
+r54CDhoursNNS
+
+#Rule:N-HeadNoun
+r8stringNNcheeseOrganizationAnnotation
+
+#Rule:V-HeadNoun
+r21SnackPersonAnnotationhoursNNS
+r21tryVBcheeseOrganizationAnnotation
+
+#   4.
+#(S1 (FRAG (NP (CD 4)) (. .)))
+# Eat at regular intervals.
+#(S1 (S (VP (VB Eat) (PP (IN at) (NP (JJ regular) (NNS intervals)))) (. .)))
+#Rule:Nouns
+r1intervalsNNS
+
+#Rule:Verbs
+r2eatVB
+
+#Rule:Adjs
+r4regularJJ
+
+#Rule:Adj-Noun
+r5regularJJintervalsNNS
+
+#Rule:PPinVP
+r30eatVBatINintervalsNNS
+
+#   5.
+#(S1 (FRAG (NP (CD 5)) (. .)))
+# Know your portions: 1/2 cup of rice is the size of your fist, an ounce of cheese is a large marble;
+#(S1 (S (S (S (VP (VB Know) (NP (PRP$ your) (NNS portions)))) (: :) (S (NP (NP (CD 1/2) (NN cup)) (PP (IN of) (NP (NN rice)))) (VP (AUX is) (NP (NP (DT the) (NN size)) (PP (IN of) (NP (PRP$ your) (NN fist))))))) (, ,) (NP (NP (DT an) (NN ounce)) (PP (IN of) (NP (NN cheese)))) (VP (AUX is) (NP (DT a) (JJ large) (NN marble))) (: ;)))
+#Rule:Nouns
+r1portionsNNS
+r1cupNN
+r1riceNN
+r1sizeNN
+r1fistNN
+r1ounceNN
+r1cheeseNN
+r1marbleNN
+
+#Rule:Verbs
+r2knowVB
+
+#Rule:Adjs
+r4largeJJ
+
+#Rule:Adj-Noun
+r51/2CDcupNN
+r5largeJJmarbleNN
+
+#Rule:PRP-Noun
+r6yourPRP$portionsNNS
+r6yourPRP$fistNN
+
+#Rule:HeadNoun-V
+r11ounceNNisAUX
+r11cupNNisAUX
+
+#Rule:V-HeadNoun
+r21knowVBportionsNNS
+r21isAUXsizeNN
+r21isAUXmarbleNN
+
+#Rule:PPinNP
+r26cupNNofINriceNN
+r26sizeNNofINfistNN
+r26ounceNNofINcheeseNN
+
+#Rule:IS-RULE
+r47marbleNNounceNN
+r47sizeNNcupNN
+
+# a 3-ounce serving of meat is a deck of cards.
+#(S1 (S (NP (NP (DT a) (NN 3-ounce)) (VP (VBG serving) (PP (IN of) (NP (NN meat))))) (VP (AUX is) (NP (NP (DT a) (NN deck)) (PP (IN of) (NP (NNS cards))))) (. .)))
+#Rule:Nouns
+r13-ounceNN
+r1meatNN
+r1deckNN
+r1cardsNNS
+
+#Rule:Verbs
+r2servingVBG
+
+#Rule:HeadNoun-V
+r113-ounceNNisAUX
+r113-ounceNNservingVBG
+
+#Rule:V-HeadNoun
+r21isAUXdeckNN
+
+#Rule:PPinNP
+r26deckNNofINcardsNNS
+
+#Rule:PPinVP
+r30servingVBGofINmeatNN
+
+#Rule:IS-RULE
+r47deckNN3-ounceNN
+
+#  Divide your plate: 3/4 with vegetables, grains, beans and fruit; 1/4 with extra-lean meat or low-fat dairy products.
+#(S1 (S (VP (VBP Divide) (NP (NP (PRP$ your) (NN plate)) (: :) (NP (NP (NN 3/4)) (PP (IN with) (NP (NNS vegetables) (, ,) (NNS grains) (, ,) (NNS beans) (CC and) (NN fruit)))) (: ;) (NP (CD 1/4))) (PP (IN with) (NP (NP (JJ extra-lean) (NN meat)) (CC or) (NP (JJ low-fat) (NN dairy) (NNS products))))) (. .)))
+#Rule:Nouns
+r1plateNN
+r13/4NN
+r1vegetablesNNS
+r1grainsNNS
+r1beansNNS
+r1fruitNN
+r1meatNN
+r1dairyNN
+r1productsNNS
+
+#Rule:Verbs
+r2divideVBP
+
+#Rule:Adjs
+r4extra-leanJJ
+r4low-fatJJ
+
+#Rule:Adj-Noun
+r5extra-leanJJmeatNN
+r5low-fatJJproductsNNS
+
+#Rule:PRP-Noun
+r6yourPRP$plateNN
+
+#Rule:N-HeadNoun
+r8dairyNNproductsNNS
+
+#Rule:V-HeadNoun
+r21divideVBPplateNN
+
+#Rule:PPinNP
+r263/4NNwithINbeansNNS
+
+#Rule:PPinVP
+r30divideVBPwithINmeatNN
+r30divideVBPwithINproductsNNS
+
+#   6.
+#(S1 (FRAG (NP (CD 6)) (. .)))
+# Make room for cravings.
+#(S1 (S (VP (VB Make) (NP (NP (NN room)) (PP (IN for) (NP (NNS cravings))))) (. .)))
+#Rule:Nouns
+r1roomNN
+r1cravingsNNS
+
+#Rule:Verbs
+r2makeVB
+
+#Rule:V-HeadNoun
+r21makeVBroomNN
+
+#Rule:PPinNP
+r26roomNNforINcravingsNNS
+
+# Have a cookie now and then;
+#(S1 (S (VP (AUX Have) (NP (NP (DT a) (NN cookie)) (ADVP (RB now) (CC and) (RB then)))) (: ;)))
+#Rule:Nouns
+r1cookieNN
+
+#Rule:V-HeadNoun
+r21haveAUXcookieNN
+
+# just drop something else that day.
+#(S1 (S (ADVP (RB just)) (VP (VB drop) (NP (NP (NN something)) (ADJP (RB else)))) (NP (DT that) (NN day)) (. .)))
+#Rule:Nouns
+r1somethingNN
+r1dayNN
+
+#Rule:Verbs
+r2dropVB
+
+#Rule:HeadNoun-V
+r11dayNNdropVB
+
+#Rule:V-HeadNoun
+r21dropVBsomethingNN
+
+#Rule:V-ADV
+r46dropVBjustRB
+
+#   7.
+#(S1 (FRAG (NP (CD 7)) (. .)))
+# Drink water - a glass every one to two hours will keep you full.
+#(S1 (FRAG (S (VP (VBP Drink) (NP (NN water)))) (: -) (NP (NP (DT a) (NN glass)) (SBAR (S (NP (NP (DT every) (CD one)) (PP (TO to) (NP (CD two) (NNS hours)))) (VP (MD will) (VP (VB keep) (S (NP (PRP you)) (ADJP (JJ full)))))))) (. .)))
+#Rule:Nouns
+r1waterNN
+r1glassNN
+r1hoursNNS
+
+#Rule:Verbs
+r2drinkVBP
+r2keepVB
+
+#Rule:Adjs
+r4fullJJ
+
+#Rule:Adj-Noun
+r5twoCDhoursNNS
+
+#Rule:HeadNoun-V
+r11oneCDkeepVB
+
+#Rule:NP(NP(z) SBAR(S(NP(x)VP(y))))
+r19keepVBglassNN
+
+#Rule:V-HeadNoun
+r21drinkVBPwaterNN
+
+#Rule:V-HeadNoun
+r22keepVByouPRP
+
+#Rule:PPinNP
+r26oneCDtoTOhoursNNS
+
+#   8.
+#(S1 (FRAG (NP (CD 8)) (. .)))
+# Eat slowly.
+#(S1 (S (VP (VB Eat) (ADVP (RB slowly))) (. .)))
+#Rule:Verbs
+r2eatVB
+
+#Rule:V-ADV
+r46eatVBslowlyRB
+
+#   9.
+#(S1 (FRAG (NP (CD 9)) (. .)))
+# Cut 100 calories a day (replace that candy bar with an orange and banana) and lose a pound a month.
+#(S1 (S (VP (VP (VB Cut) (NP (NP (CD 100) (NNS calories)) (NP (DT a) (NN day)))) (PRN (-LRB- -LRB-) (S (VP (VB replace) (NP (DT that) (NN candy) (NN bar)) (PP (IN with) (NP (DT an) (NN orange) (CC and) (NN banana))))) (-RRB- -RRB-)) (CC and) (VP (VB lose) (NP (DT a) (NN pound)) (NP (DT a) (NN month)))) (. .)))
+#Rule:Nouns
+r1caloriesNNS
+r1dayNN
+r1candyNN
+r1barNN
+r1orangeNN
+r1bananaLocationAnnotation
+r1poundNN
+r1monthNN
+
+#Rule:Verbs
+r2cutVB
+r2replaceVB
+r2loseVB
+
+#Rule:Adj-Noun
+r5100CDcaloriesNNS
+
+#Rule:N-HeadNoun
+r8candyNNbarNN
+
+#Rule:V-HeadNoun
+r21cutVBcaloriesNNS
+r21replaceVBbarNN
+r21loseVBpoundNN
+r21loseVBmonthNN
+
+#Rule:PPinVP
+r30replaceVBwithINorangeNN
+
+#  10.
+#(S1 (FRAG (NP (CD 10)) (. .)))
+# Buy pre-cut fruit and veggies: You ll be more likely to munch on them for a snack or make a salad for dinner.
+#(S1 (S (S (VP (VB Buy) (NP (JJ pre-cut) (NN fruit) (CC and) (NNS veggies)))) (: :) (S (NP (PRP You)) (VP (VB ll) (VP (VP (AUX be) (ADJP (RBR more) (JJ likely) (S (VP (TO to) (VP (VB munch) (PP (IN on) (NP (PRP them))))))) (PP (IN for) (NP (DT a) (NN snack)))) (CC or) (VP (VB make) (NP (NP (DT a) (NN salad)) (PP (IN for) (NP (NN dinner)))))))) (. .)))
+#Rule:Nouns
+r1fruitNN
+r1veggiesNNS
+r1snackNN
+r1saladNN
+r1dinnerNN
+
+#Rule:Verbs
+r2buyVB
+r2llVB
+r2munchVB
+r2makeVB
+
+#Rule:Adjs
+r4pre-cutJJ
+r4likelyJJ
+
+#Rule:Adj-Noun
+r5pre-cutJJfruitNN
+
+#Rule:HeadNoun-V
+r11youPRPllVB
+r11youPRPmakeVB
+r11youPRPbeAUX
+
+#Rule:V-HeadNoun
+r21buyVBfruitNN
+r21makeVBsaladNN
+
+#Rule:V-ADJ
+r25beAUXlikelyJJ
+
+#Rule:PPinNP
+r26saladNNforINdinnerNN
+
+#Rule:PPinVP
+r30beAUXforINsnackNN
+r30munchVBonINthemPRP
+
+#  11.
+#(S1 (FRAG (NP (CD 11)) (. .)))
+# Go for the less processed food (potato versus chips, whole-wheat bread over doughnuts.
+#(S1 (S (VP (VB Go) (PP (IN for) (NP (NP (DT the) (JJR less) (VBN processed) (NN food)) (PRN (-LRB- -LRB-) (NP (NN potato) (CC versus) (NNS chips)) (, ,) (NP (NP (JJ whole-wheat) (NN bread)) (PP (IN over) (NP (NNS doughnuts)))))))) (. .)))
+#Rule:Nouns
+r1foodNN
+r1potatoNN
+r1chipsNNS
+r1breadNN
+r1doughnutsLocationAnnotation
+
+#Rule:Verbs
+r2goVB
+r2processedVBN
+
+#Rule:Adjs
+r4lessJJR
+r4whole-wheatJJ
+
+#Rule:Adj-Noun
+r5lessJJRfoodNN
+r5processedVBNfoodNN
+r5whole-wheatJJbreadNN
+
+#Rule:PPinNP
+r26breadNNoverINdoughnutsLocationAnnotation
+
+#Rule:PPinVP
+r30goVBforINfoodNN
+
+#)  12.
+#(S1 (FRAG (-RRB- -RRB-) (NP (CD 12)) (. .)))
+# Don t eat on automatic pilot (i.e. tasting while cooking, noshing from the serving bowl.
+#(S1 (S (NP (NNP Don) (NNS t)) (VP (VBP eat) (PP (IN on) (NP (JJ automatic) (NN pilot) (PRN (-LRB- -LRB-) (FW i.e.)) (NN tasting))) (SBAR (IN while) (S (VP (VBG cooking) (, ,) (PP (VBG noshing) (PP (IN from) (NP (DT the) (VBG serving) (NN bowl)))))))) (. .)))
+#Rule:Nouns
+r1Don tPersonAnnotation
+r1pilotNN
+r1tastingNN
+r1bowlNN
+
+#Rule:Verbs
+r2eatVBP
+r2cookingVBG
+r2noshingVBG
+r2servingVBG
+
+#Rule:Adjs
+r4automaticJJ
+
+#Rule:Adj-Noun
+r5automaticJJtastingNN
+r5servingVBGbowlNN
+
+#Rule:HeadNoun-V
+r11Don tPersonAnnotationeatVBP
+
+#Rule:PPinVP
+r30eatVBPonINtastingNN
+
+#Rule:V-IN-V
+r43eatVBPwhileINcookingVBG
+
+#)  13.
+#(S1 (FRAG (-RRB- -RRB-) (NP (CD 13)) (. .)))
+# Limit alcohol to special occasions.
+#(S1 (S (VP (VB Limit) (NP (NN alcohol)) (PP (TO to) (NP (JJ special) (NNS occasions)))) (. .)))
+#Rule:Nouns
+r1alcoholNN
+r1occasionsNNS
+
+#Rule:Verbs
+r2limitVB
+
+#Rule:Adjs
+r4specialJJ
+
+#Rule:Adj-Noun
+r5specialJJoccasionsNNS
+
+#Rule:V-HeadNoun
+r21limitVBalcoholNN
+
+#Rule:PPinVP
+r30limitVBtoTOoccasionsNNS
+
+# Not only is it highly caloric;
+#(S1 (S (SINV (CONJP (RB Not) (RB only)) (AUX is) (NP (PRP it)) (ADJP (RB highly) (JJ caloric))) (: ;)))
+#Rule:Adjs
+r4caloricLocationAnnotation
+
+# it also stimulates appetite and obliterates willpower.
+#(S1 (S (NP (PRP it)) (ADVP (RB also)) (VP (VP (VBZ stimulates) (NP (NN appetite))) (CC and) (VP (VBZ obliterates) (NP (NN willpower)))) (. .)))
+#Rule:Nouns
+r1appetiteNN
+r1willpowerNN
+
+#Rule:Verbs
+r2stimulatesVBZ
+r2obliteratesVBZ
+
+#Rule:HeadNoun-V
+r11itPRPstimulatesVBZ
+r11itPRPobliteratesVBZ
+
+#Rule:V-HeadNoun
+r21stimulatesVBZappetiteNN
+r21obliteratesVBZwillpowerNN
+
+#  14.
+#(S1 (FRAG (NP (CD 14)) (. .)))
+# Brush your teeth after eating.
+#(S1 (S (VP (VB Brush) (NP (PRP$ your) (NNS teeth)) (PP (IN after) (S (VP (VBG eating))))) (. .)))
+#Rule:Nouns
+r1teethNNS
+
+#Rule:Verbs
+r2brushVB
+r2eatingVBG
+
+#Rule:PRP-Noun
+r6yourPRP$teethNNS
+
+#Rule:V-HeadNoun
+r21brushVBteethNNS
+
+#  15.
+#(S1 (FRAG (NP (CD 15)) (. .)))
+# Eat beans: add a handful to salads and soups to curb hunger pangs longer.
+#(S1 (S (S (VP (VB Eat) (NP (NNS beans)))) (: :) (S (VP (VB add) (NP (DT a) (NN handful)) (PP (TO to) (NP (NP (NNS salads)) (CC and) (NP (NP (NNS soups)) (SBAR (S (VP (TO to) (VP (VB curb) (NP (NN hunger) (NNS pangs)) (ADVP (RBR longer))))))))))) (. .)))
+#Rule:Nouns
+r1beansNNS
+r1handfulNN
+r1saladsNNS
+r1soupsNNS
+r1hungerNN
+r1pangsNNS
+
+#Rule:Verbs
+r2eatVB
+r2addVB
+r2curbVB
+
+#Rule:N-HeadNoun
+r8hungerNNpangsNNS
+
+#Rule:HeadNoun-(who/that)-V
+r14soupsNNScurbVB
+
+#Rule:V-HeadNoun
+r21eatVBbeansNNS
+r21addVBhandfulNN
+r21curbVBpangsNNS
+
+#Rule:PPinVP
+r30addVBtoTOsaladsNNS
+r30addVBtoTOsoupsNNS
+
+#  16.
+#(S1 (FRAG (NP (CD 16)) (. .)))
+# Sweeten with spice.
+#(S1 (S (VP (VB Sweeten) (PP (IN with) (NP (NN spice)))) (. .)))
+#Rule:Nouns
+r1spiceOrganizationAnnotation
+
+#Rule:Verbs
+r2sweetenVB
+
+#Rule:PPinVP
+r30sweetenVBwithINspiceOrganizationAnnotation
+
+# Add spices like cinnamon and vanilla to desserts versus sugar.
+#(S1 (S (VP (VB Add) (NP (NP (NNS spices)) (PP (IN like) (NP (NN cinnamon) (CC and) (NN vanilla)))) (PP (TO to) (NP (NP (NNS desserts)) (PP (IN versus) (NP (NN sugar)))))) (. .)))
+#Rule:Nouns
+r1spicesNNS
+r1cinnamonLocationAnnotation
+r1vanillaNN
+r1dessertsNNS
+r1sugarNN
+
+#Rule:Verbs
+r2addVB
+
+#Rule:V-HeadNoun
+r21addVBspicesNNS
+
+#Rule:PPinNP
+r26spicesNNSlikeINcinnamonLocationAnnotation
+r26dessertsNNSversusINsugarNN
+
+#Rule:PPinVP
+r30addVBtoTOdessertsNNS
+
+#  17.
+#(S1 (FRAG (NP (CD 17)) (. .)))
+# Try a new food each day.
+#(S1 (S (VP (VB Try) (NP (DT a) (JJ new) (NN food)) (NP (DT each) (NN day))) (. .)))
+#Rule:Nouns
+r1foodNN
+r1dayNN
+
+#Rule:Verbs
+r2tryVB
+
+#Rule:Adjs
+r4newJJ
+
+#Rule:Adj-Noun
+r5newJJfoodNN
+
+#Rule:V-HeadNoun
+r21tryVBfoodNN
+r21tryVBdayNN
+
+# The flavor will save you from dietary boredom (add mangos to a chicken dish, jalapeno relish to your sandwich, winter pears to salad.
+#(S1 (S (NP (DT The) (NN flavor)) (VP (MD will) (VP (VP (VB save) (NP (PRP you)) (PP (IN from) (NP (JJ dietary) (NN boredom)))) (-LRB- -LRB-) (VP (VB add) (NP (NNS mangos)) (PP (TO to) (NP (NP (DT a) (NN chicken) (NN dish)) (, ,) (NP (NP (JJ jalapeno) (NN relish)) (PP (TO to) (NP (PRP$ your) (NN sandwich)))) (, ,) (NP (NN winter) (NNS pears)))) (PP (TO to) (NP (NN salad)))))) (. .)))
+#Rule:Nouns
+r1flavorNN
+r1boredomPersonAnnotation
+r1mangosPersonAnnotation
+r1chickenNN
+r1dishNN
+r1relishNN
+r1sandwichPersonAnnotation
+r1winterNN
+r1pearsNNS
+r1saladNN
+
+#Rule:Verbs
+r2saveVB
+r2addVB
+
+#Rule:Adjs
+r4dietaryJJ
+r4jalapenoJJ
+
+#Rule:Adj-Noun
+r5dietaryJJboredomPersonAnnotation
+r5jalapenoJJrelishNN
+
+#Rule:PRP-Noun
+r6yourPRP$sandwichPersonAnnotation
+
+#Rule:N-HeadNoun
+r8chickenNNdishNN
+r8winterNNpearsNNS
+
+#Rule:N-ApposN
+r10dishNNrelishNN
+
+#Rule:HeadNoun-V
+r11flavorNNsaveVB
+r11flavorNNaddVB
+
+#Rule:V-HeadNoun
+r21saveVByouPRP
+r21addVBmangosPersonAnnotation
+
+#Rule:PPinNP
+r26relishNNtoTOsandwichPersonAnnotation
+
+#Rule:PPinVP
+r30saveVBfromINboredomPersonAnnotation
+r30addVBtoTOdishNN
+r30addVBtoTOrelishNN
+r30addVBtoTOpearsNNS
+r30addVBtoTOsaladNN
+
+#)  18.
+#(S1 (FRAG (-RRB- -RRB-) (NP (CD 18)) (. .)))
+# Go spicy.
+#(S1 (S (VP (VB Go) (NP (NN spicy))) (. .)))
+#Rule:Nouns
+r1spicyNN
+
+#Rule:Verbs
+r2goVB
+
+#Rule:V-HeadNoun
+r21goVBspicyNN
+
+# Get a hot flavor boost with chilies, salsa and curry instead of by overeating.
+#(S1 (S (VP (VP (VB Get) (NP (NP (DT a) (JJ hot) (NN flavor) (NN boost)) (PP (IN with) (NP (NP (NNS chilies)) (, ,) (ADVP (RB salsa)))))) (CC and) (VP (VB curry) (PP (RB instead) (IN of) (PP (IN by) (S (VP (VBG overeating))))))) (. .)))
+#Rule:Nouns
+r1flavorNN
+r1boostNN
+r1chiliesNNS
+
+#Rule:Verbs
+r2getVB
+r2curryVB
+r2overeatingVBG
+
+#Rule:Adjs
+r4hotJJ
+
+#Rule:Adj-Noun
+r5hotJJboostNN
+
+#Rule:N-HeadNoun
+r8flavorNNboostNN
+
+#Rule:V-HeadNoun
+r21getVBboostNN
+
+#Rule:PPinNP
+r26boostNNwithINchiliesNNS
+
+# Don t even open the menu.
+#(S1 (S (NP (NNP Don) (NNP t)) (ADVP (RB even)) (VP (VB open) (NP (DT the) (NN menu))) (. .)))
+#Rule:Nouns
+r1Don tPersonAnnotation
+r1menuLocationAnnotation
+
+#Rule:Verbs
+r2openVB
+
+#Rule:HeadNoun-V
+r11Don tPersonAnnotationopenVB
+
+#Rule:V-HeadNoun
+r21openVBmenuLocationAnnotation
+
+#Rule:V-ADV
+r46openVBevenRB
+
+#  19.
+#(S1 (FRAG (NP (CD 19)) (. .)))
+# Resist temptation by just ordering the steamed veggies or something else low-fat like a grilled chicken salad or a soup and salad combo.
+#(S1 (S (VP (VB Resist) (NP (NN temptation)) (PP (IN by) (S (VP (ADVP (RB just)) (VBG ordering) (NP (NP (DT the) (JJ steamed) (NNS veggies)) (CC or) (NP (NP (NN something)) (ADJP (RB else) (JJ low-fat)))) (PP (IN like) (NP (NP (DT a) (JJ grilled) (NN chicken) (NN salad)) (CC or) (NP (DT a) (NN soup) (CC and) (NN salad) (NN combo)))))))) (. .)))
+#Rule:Nouns
+r1temptationNN
+r1veggiesNNS
+r1somethingNN
+r1chickenNN
+r1saladNN
+r1soupNN
+r1saladNN
+r1comboNN
+
+#Rule:Verbs
+r2resistVB
+r2orderingVBG
+
+#Rule:Adjs
+r4steamedJJ
+r4low-fatJJ
+r4grilledJJ
+
+#Rule:Adj-Noun
+r5steamedJJveggiesNNS
+r5low-fatJJsomethingNN
+r5grilledJJsaladNN
+
+#Rule:N-HeadNoun
+r8chickenNNsaladNN
+r8saladNNcomboNN
+
+#Rule:V-HeadNoun
+r21resistVBtemptationNN
+r21orderingVBGveggiesNNS
+
+#Rule:PPinVP
+r30orderingVBGlikeINsaladNN
+r30orderingVBGlikeINcomboNN
+
+#Rule:V-ADV
+r46orderingVBGjustRB
+
+#  20.
+#(S1 (FRAG (NP (CD 20)) (. .)))
+#Try an herbal supplement to help curb your appetite and give you more energy.
+#(S1 (S (VP (VB Try) (NP (NP (DT an) (JJ herbal) (NN supplement)) (SBAR (S (VP (TO to) (VP (VB help) (VP (VB curb) (NP (PRP$ your) (NN appetite))) (CC and) (VP (VB give) (NP (PRP you)) (NP (JJR more) (NN energy))))))))) (. .)))
+#Rule:Nouns
+r1supplementNN
+r1appetiteNN
+r1energyNN
+
+#Rule:Verbs
+r2tryVB
+r2helpVB
+r2curbVB
+r2giveVB
+
+#Rule:Adjs
+r4herbalJJ
+r4moreJJR
+
+#Rule:Adj-Noun
+r5herbalJJsupplementNN
+r5moreJJRenergyNN
+
+#Rule:PRP-Noun
+r6yourPRP$appetiteNN
+
+#Rule:HeadNoun-(who/that)-V
+r14supplementNNhelpVB
+r14supplementNNcurbVB
+r14supplementNNgiveVB
+
+#Rule:V-HeadNoun
+r21tryVBsupplementNN
+r21curbVBappetiteNN
+r21giveVByouPRP
+r21giveVBenergyNN
+
+#-----------------------------------------------------------------Not only that but put more physical activity in your life.
+#(S1 (S (S (VP (VB -----------------------------------------------------------------Not) (NP (RB only) (DT that)))) (CC but) (S (VP (VB put) (NP (JJR more) (NN physical) (NN activity)) (PP (IN in) (NP (PRP$ your) (NN life))))) (. .)))
+#Rule:Nouns
+r1physicalNN
+r1activityNN
+r1lifeNN
+
+#Rule:Verbs
+r2-----------------------------------------------------------------notVB
+r2putVB
+
+#Rule:Adjs
+r4moreJJR
+
+#Rule:Adj-Noun
+r5moreJJRactivityNN
+
+#Rule:PRP-Noun
+r6yourPRP$lifeNN
+
+#Rule:N-HeadNoun
+r8physicalNNactivityNN
+
+#Rule:V-HeadNoun
+r21-----------------------------------------------------------------notVBonlyRB
+r21putVBactivityNN
+
+#Rule:PPinVP
+r30putVBinINlifeNN
+
+# At first you should start out small.
+#(S1 (S (ADVP (IN At) (JJ first)) (NP (PRP you)) (VP (MD should) (VP (VB start) (PRT (RP out)) (ADJP (JJ small)))) (. .)))
+#Rule:V-PRT
+r3startVBoutRP
+
+#Rule:Adjs
+r4firstJJ
+r4smallJJ
+
+#Rule:HeadNoun-V
+r11youPRPstartVB
+
+# Such as a walk for ten-thirty minutes twice a day.
+#(S1 (FRAG (ADJP (JJ Such) (PP (IN as) (NP (NP (DT a) (NN walk)) (PP (IN for) (NP (NP (JJ ten-thirty) (NNS minutes)) (NP (RB twice) (DT a) (NN day))))))) (. .)))
+#Rule:Nouns
+r1walkNN
+r1minutesNNS
+r1dayNN
+
+#Rule:Adjs
+r4SuchJJ
+r4ten-thirtyJJ
+
+#Rule:Adj-Noun
+r5ten-thirtyJJminutesNNS
+
+#Rule:PPinNP
+r26walkNNforINminutesNNS
+r26walkNNforINdayNN
+
+#Rule:PPinADJP
+r37SuchJJasINwalkNN
+
+# Then you can start walking faster, longer, and walking up sleeper slopes.
+#(S1 (S (ADVP (RB Then)) (NP (PRP you)) (VP (MD can) (VP (VB start) (S (VP (VP (VBG walking) (ADVP (ADVP (RBR faster)) (, ,) (ADVP (RBR longer)))) (, ,) (CC and) (VP (VBG walking) (PRT (RP up)) (NP (NN sleeper) (NNS slopes))))))) (. .)))
+#Rule:Nouns
+r1sleeperNN
+r1slopesNNS
+
+#Rule:Verbs
+r2startVB
+r2walkingVBG
+
+#Rule:V-PRT
+r3walkingVBGupRP
+
+#Rule:N-HeadNoun
+r8sleeperNNslopesNNS
+
+#Rule:HeadNoun-V
+r11youPRPstartVB
+
+#Rule:V-HeadNoun
+r21walkingVBGslopesNNS
+
+#Rule:V-V
+r44startVBwalkingVBG
+r44startVBwalkingVBG
+
+# Don t sit down too long.
+#(S1 (S (NP (NNP Don) (NNS t)) (VP (VBP sit) (PRT (RP down)) (ADVP (RB too) (JJ long))) (. .)))
+#Rule:Nouns
+r1Don tPersonAnnotation
+
+#Rule:V-PRT
+r3sitVBPdownRP
+
+#Rule:Adjs
+r4longJJ
+
+#Rule:HeadNoun-V
+r11Don tPersonAnnotationsitVBP
+
+#Rule:V-ADV
+r46sitVBPtooRB
+
+# Even if you are doing homework.
+#(S1 (FRAG (SBAR (ADVP (RB Even)) (IN if) (S (NP (PRP you)) (VP (AUX are) (VP (VBG doing) (NP (NN homework)))))) (. .)))
+#Rule:Nouns
+r1homeworkNN
+
+#Rule:Verbs
+r2doingVBG
+
+#Rule:HeadNoun-V
+r11youPRPdoingVBG
+
+#Rule:V-HeadNoun
+r21doingVBGhomeworkNN
+
+# Make a 10 minute break within every few hours to walk or get some physical exercise.
+#(S1 (S (VP (VB Make) (NP (DT a) (ADJP (CD 10) (NN minute)) (NN break)) (PP (IN within) (NP (NP (DT every) (JJ few) (NNS hours)) (SBAR (S (VP (TO to) (VP (VB walk) (CC or) (VB get) (NP (DT some) (JJ physical) (NN exercise))))))))) (. .)))
+#Rule:Nouns
+r1minuteNN
+r1breakNN
+r1hoursNNS
+r1exerciseNN
+
+#Rule:Verbs
+r2makeVB
+r2walkVB
+r2getVB
+
+#Rule:Adjs
+r4fewJJ
+r4physicalJJ
+
+#Rule:Adj-Noun
+r510CDbreakNN
+r5fewJJhoursNNS
+r5physicalJJexerciseNN
+
+#Rule:HeadNoun-(who/that)-V
+r14hoursNNSwalkVB
+
+#Rule:V-HeadNoun
+r21makeVBbreakNN
+r21walkVBexerciseNN
+
+#Rule:PPinVP
+r30makeVBwithinINhoursNNS
+
+# Even if you lose your weight, do not stop your newly developed habits;
+#(S1 (S (SBAR (RB Even) (IN if) (S (NP (PRP you)) (VP (VBP lose) (NP (PRP$ your) (NN weight))))) (, ,) (VP (AUX do) (RB not) (VP (VB stop) (NP (PRP$ your) (ADJP (RB newly) (VBN developed)) (NNS habits)))) (: ;)))
+#Rule:Nouns
+r1weightNN
+r1habitsNNS
+
+#Rule:Verbs
+r2loseVBP
+r2stopVB
+r2developedVBN
+
+#Rule:Adj-Noun
+r5developedVBNhabitsNNS
+
+#Rule:PRP-Noun
+r6yourPRP$weightNN
+r6yourPRP$habitsNNS
+
+#Rule:HeadNoun-V
+r11youPRPloseVBP
+
+#Rule:V-HeadNoun
+r21loseVBPweightNN
+r21stopVBhabitsNNS
+
+#Rule:V-ADV
+r46doAUXnotRB
+
+# you will jsut gain your pounds back..Goo
+#(S1 (S (NP (PRP you)) (VP (MD will) (VP (VB jsut) (S (VP (VB gain) (NP (PRP$ your) (NNS pounds)) (ADVP (RB back)) (S (VP (VBG ..) (NP (NNP Goo))))))))))
+#Rule:Nouns
+r1poundsNNS
+r1Good Luck=))!PersonAnnotation
+
+#Rule:Verbs
+r2jsutVB
+r2gainVB
+r2..VBG
+
+#Rule:PRP-Noun
+r6yourPRP$poundsNNS
+
+#Rule:HeadNoun-V
+r11youPRPjsutVB
+
+#Rule:V-HeadNoun
+r21gainVBpoundsNNS
+r21..VBGGood Luck=))!PersonAnnotation
+
+#Rule:V-ADV
+r46gainVBbackRB
+
+#Good Luck=))!
+#(S1 (FRAG (ADJP (JJ Good)) (NP (NNP Luck=)) (-RRB- -RRB-) (. !)))
+#Rule:Nouns
+r1Good Luck=))!PersonAnnotation
+
+@lemmas-left	don	benefit	cravings	doughnuts	developed	whole-wheat	appetite	lingering	slope	beans	drink	calories	something	serve	cook	going	plate	obliterates	intervals	kitchen	soup	few	cookie	thirty	stimulates	4	hot	fist	eat	try	go	give	pounds	breakfast	advise	habit	life	leave	fuller	do	tell	deck	grilled	chips	bean	fruits	pre-cut	vegetables	divide	snack	gain	handful	sit	replace	banana	10	dietary	new	t	string	pear	keep	salad	physical	com	chilies	drop	3/4	long	ordering	Good Luck=))!	everybody	be	follow	dessert	orange	fruit	sweeten	get	tells	likely	fat	automatic	flavor	extra-lean	sleeper	resist	helpful	size	lean	finish	processed	serving	doing	pears	day	make	walk	large	room	pound	raid	walking	weight	aren	exercise	supplement	pilot	tasting	activity	takea	soups	feel	bowl	overeating	regular	makes	ounce	you	finished	stimulate	pang	portions	foods	sandwich	grain	potato	relish	latest	cup	they	marble	-----------------------------------------------------------------not	curb	low-fat	break	open	help	candy	bread	occasions	limit	exercising	cinnamon	hours	extra	menu	dairy	Such	table	teeth	include	cite	hunger	sitting	start	alcohol	month	boost	vegetable	weightwatchers	bar	small	3-ounce	outside	put	ll	interval	obliterate	spice	diets	munch	This	effective	chicken	mangos	cooking	mind	veggie	products	100	portion	desserts	water	spicy	veggies	curry	product	process	ten-thirty	grains	nosh	account	1/2	cut	herbal	dish	jsut	cause	save	diet	buy	slopes	caloric	pangs	pretzels	spices	calorie	habits	more	jalapeno	..	head	cards	craving	such	temptation	dinner	winter	homework	apple	food	brush	vanilla	this	noshing	com.	Don t	stop	other	have	one	boredom	steamed	combo	cheese	add	minute	order	linger	full	meat	Snack	glass	apples	develop	salads	overeat	less	meal	is	pantry	minutes	rice	it	your	oranges	know	two	lose	willpower	eating	special	first	energy	sugar	
+@lemmas-right	cup	marble	benefit	cravings	doughnuts	curb	appetite	break	open	help	slope	beans	bread	only	calories	something	occasions	serve	cook	cinnamon	hours	menu	obliterates	plate	kitchen	table	intervals	soup	teeth	not	cookie	sitting	start	stimulates	alcohol	them	month	fist	boost	eat	bar	3-ounce	ll	obliterate	interval	give	pounds	spice	breakfast	diets	This	habit	life	leave	mangos	fuller	ve	usually	cooking	do	mind	veggie	deck	products	portion	desserts	just	water	slowly	bean	later	fruits	spicy	back	veggies	snack	up	handful	sit	product	account	down	cut	pear	keep	dish	salad	jsut	cause	save	diet	chilies	slopes	drop	pangs	spices	calorie	habits	Good Luck=))!	head	everybody	cards	craving	dessert	be	follow	orange	fruit	likely	temptation	helpful	size	dinner	finish	homework	food	serving	doing	even	pears	day	walk	this	make	room	pound	raid	walking	weight	have	aren	boredom	www	exercise	combo	cheese	add	supplement	meat	tasting	glass	salads	too	activity	meal	soups	feel	bowl	is	pantry	minutes	rice	ounce	finished	you	stimulate	pang	know	lose	portions	willpower	foods	sandwich	relish	energy	out	sugar	
+@lemmas-center	to	with	for	versus	at	as	from	like	in	while	of	over	on	within	

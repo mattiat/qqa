@@ -1,0 +1,33 @@
+#Please explain the apparent paradox of radiation; why does it both cause, and help to eradicate, cancer?
+#(S1 (S (VP (VB Please) (VP (VB explain) (NP (NP (DT the) (JJ apparent) (NN paradox)) (PP (IN of) (NP (NN radiation)))))) (: ;) (SBARQ (WHADVP (WRB why)) (SQ (AUX does) (NP (PRP it) (DT both)) (VP (VP (VB cause)) (, ,) (CC and) (VP (VB help) (S (VP (TO to) (VP (VB eradicate))))) (, ,) (NP (NN cancer)))) (. ?))))
+#Rule:Nouns
+r1paradoxNN
+r1radiationOrganizationAnnotation
+r1cancerNN
+
+#Rule:Verbs
+r2pleaseVB
+r2explainVB
+r2causeVB
+r2helpVB
+r2eradicateVB
+
+#Rule:Adjs
+r4apparentJJ
+
+#Rule:Adj-Noun
+r5apparentJJparadoxNN
+
+#Rule:V-HeadNoun
+r21explainVBparadoxNN
+r21causeVBcancerNN
+
+#Rule:PPinNP
+r26paradoxNNofINradiationOrganizationAnnotation
+
+#Rule:V-V
+r44helpVBeradicateVB
+
+@lemmas-left	apparent	help	radiation	cause	please	paradox	explain	eradicate	cancer	
+@lemmas-right	radiation	paradox	eradicate	cancer	
+@lemmas-center	of	

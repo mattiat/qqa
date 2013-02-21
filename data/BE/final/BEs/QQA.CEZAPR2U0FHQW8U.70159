@@ -1,0 +1,48 @@
+#Just do it like you would if you were actually going to do it.know what I mean? 
+#(S1 (SBARQ (RB Just) (SQ (AUX do) (NP (PRP it)) (VP (VB like) (SBAR (S (NP (PRP you)) (VP (MD would) (SBAR (IN if) (S (NP (PRP you)) (VP (AUX were) (ADVP (RB actually)) (VP (VBG going) (S (VP (TO to) (VP (AUX do) (VP (VB it.know) (SBAR (WHNP (WP what)) (S (NP (PRP I)) (VP (VBP mean))))))))))))))))) (. ?)))
+#Rule:Verbs
+r2likeVB
+r2goingVBG
+r2it.knowVB
+r2meanVBP
+
+#Rule:HeadNoun-V
+r11youPRPgoingVBG
+r11iPRPmeanVBP
+
+#Rule:V-IN-V
+r43wouldMDifINgoingVBG
+
+#Rule:V-ADV
+r46wereAUXactuallyRB
+r46goingVBGactuallyRB
+
+#It will help with your flexibility. do it once or twice a day.
+#(S1 (S (NP (PRP It)) (VP (MD will) (VP (VB help) (SBAR (IN with) (S (NP (PRP$ your) (NNS flexibility.)) (VP (AUX do) (NP (PRP it)) (ADVP (RB once) (CC or) (RB twice) (NP (DT a) (NN day)))))))) (. .)))
+#Rule:Nouns
+r1flexibilityNNS
+r1dayNN
+
+#Rule:Verbs
+r2helpVB
+
+#Rule:PRP-Noun
+r6yourPRP$flexibilityNNS
+
+#Rule:HeadNoun-V
+r11itPRPhelpVB
+r11flexibilityNNSdoAUX
+
+#Rule:V-HeadNoun
+r21doAUXitPRP
+
+#Rule:V-IN-V
+r43helpVBwithINdoAUX
+
+#Rule:V-ADV
+r46doAUXonceRB
+r46doAUXtwiceRB
+
+@lemmas-left	going	it	your	you	like	know	flexibility.	i	it.know	help	were	would	mean	do	day	flexibility	go	be	
+@lemmas-right	help	going	twice	it	once	mean	do	actually	flexibility	flexibility.	go	
+@lemmas-center	with	if	

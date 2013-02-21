@@ -1,0 +1,39 @@
+#sorry, thats not going to happen.you could loose maby 50 in 2 months, but that would still be an unusuallly large amount
+#(S1 (FRAG (ADJP (JJ sorry)) (, ,) (VP (VBZ thats) (RB not) (VP (VBG going) (S (VP (TO to) (VP (VB happen.you) (SBAR (S (VP (MD could) (VP (VB loose) (NP (NN maby) (CD 50)) (PP (IN in) (NP (CD 2) (NNS months)))))) (, ,) (CC but) (SBAR (WHNP (WDT that)) (S (VP (MD would) (ADVP (RB still)) (VP (AUX be) (NP (DT an) (ADJP (RB unusuallly) (JJ large)) (NN amount))))))))))))))
+#Rule:Nouns
+r1mabyNN
+r1monthsNNS
+r1amountNN
+
+#Rule:Verbs
+r2thatsLocationAnnotation
+r2goingVBG
+r2happen.youVB
+r2looseVB
+
+#Rule:Adjs
+r4sorryJJ
+r4largeJJ
+
+#Rule:Adj-Noun
+r550CDmabyNN
+r52CDmonthsNNS
+r5largeJJamountNN
+
+#Rule:V-HeadNoun
+r21looseVBmabyNN
+r21beAUXamountNN
+
+#Rule:PPinVP
+r30looseVBinINmonthsNNS
+
+#Rule:V-V
+r44goingVBGhappen.youVB
+
+#Rule:V-ADV
+r46thatsLocationAnnotationnotRB
+r46beAUXstillRB
+
+@lemmas-left	thats	happen.you	going	maby	loose	amount	2	months	month	sorry	large	be	go	50	
+@lemmas-right	not	amount	happen.you	months	month	still	maby	
+@lemmas-center	in	

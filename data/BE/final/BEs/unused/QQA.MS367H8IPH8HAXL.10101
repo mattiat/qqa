@@ -1,0 +1,49 @@
+#Hulk Hogan - 4Ric Flair - 9Roddy Piper - 7Ultimate Warrior - 8Bret Hart - 9Shawn Michaels - 8Stone Cold - 8The Rock - 7Triple H - 9Chris Benoit - 8Eddie Guerrero - 7Undertaker - 9Kane - 9John Cena - 2Randy Orton - 8Batista - 4Mr. 
+#(S1 (NP (NN Hulk) (NNP Hogan) (: -) (NP (NP (NP (JJ 4Ric) (NN Flair)) (: -) (NP (JJ 9Roddy) (NNP Piper) (PRN (: -) (S (VP (VB 7Ultimate) (NP (NP (NP (NN Warrior)) (: -) (NP (JJ 8Bret) (NNP Hart)) (: -) (NP (JJ 9Shawn) (NNP Michaels)) (: -) (NP (JJ 8Stone) (NNP Cold)) (: -) (NP (NN 8The) (NNP Rock))) (: -) (NP (JJ 7Triple) (NNP H)) (: -)) (ADVP (FW 9Chris) (FW Benoit)) (: -) (NP (JJ 8Eddie) (NNP Guerrero)))) (: -)) (NN 7Undertaker)) (: -) (NP (NN 9Kane)) (: -) (CD 9John)) (NP (NP (NNP Cena)) (: -) (NP (JJ 2Randy) (NNP Orton)) (: -) (NP (NN 8Batista)) (: -) (NP (CD 4Mr)))) (. .)))
+#Rule:Nouns
+r1Hulk HoganPersonAnnotation
+r14Ric FlairPersonAnnotation
+r19Roddy PiperPersonAnnotation
+r1WarriorNN
+r18Bret HartPersonAnnotation
+r19Shawn Michaels - 8Stone Cold -OrganizationAnnotation
+r18TheNN
+r1Rock - 7Triple HOrganizationAnnotation
+r18Eddie GuerreroPersonAnnotation
+r17UndertakerPersonAnnotation
+r19KanePersonAnnotation
+r19John CenaPersonAnnotation
+r12Randy Orton - 8BatistaOrganizationAnnotation
+
+#Rule:Verbs
+r27ultimateVB
+
+#Rule:Adj-Noun
+r59John CenaPersonAnnotation4Ric FlairPersonAnnotation
+r59Roddy PiperPersonAnnotation7UndertakerPersonAnnotation
+
+#Rule:N-HeadNoun
+r88TheNNRock - 7Triple HOrganizationAnnotation
+
+#Rule:V-HeadNoun
+r217ultimateVBWarriorNN
+r217ultimateVB8Eddie GuerreroPersonAnnotation
+
+#Kennedy - 8The Great Khali - 7Big Show - 8
+#(S1 (FRAG (NP (NNP Kennedy)) (: -) (NP (NP (NN 8The) (NNP Great) (NNP Khali)) (: -) (NP (NNP 7Big) (NNP Show)) (: -) (NP (CD 8)))))
+#Rule:Nouns
+r1KennedyPersonAnnotation
+r18TheNN
+r1GreatNNP
+r1KhaliPersonAnnotation
+r17BigNNP
+r1ShowNNP
+
+#Rule:N-HeadNoun
+r8GreatNNPKhaliPersonAnnotation
+r88TheNNKhaliPersonAnnotation
+r87BigNNPShowNNP
+
+@lemmas-left	8The	7ultimate	9John Cena	show	4Ric Flair	ultimate	Rock - 7Triple H	Kennedy	Warrior	9Kane	7Undertaker	9Roddy Piper	9Shawn Michaels - 8Stone Cold -	Show	8the	2Randy Orton - 8Batista	8Eddie Guerrero	7Big	warrior	Hulk Hogan	Great	great	Khali	8Bret Hart	big	
+@lemmas-right	warrior	7Undertaker	Show	Khali	Rock - 7Triple H	show	4Ric Flair	Warrior	8Eddie Guerrero	
+@lemmas-center	

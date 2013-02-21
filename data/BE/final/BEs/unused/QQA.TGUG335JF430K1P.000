@@ -1,0 +1,59 @@
+#why does pleural effusion occur in Congestive Cardiac Failure?
+#(S1 (SBARQ (WHADVP (WRB why)) (SQ (AUX does) (NP (JJ pleural) (NN effusion)) (VP (VB occur) (PP (IN in) (NP (JJ Congestive) (JJ Cardiac) (NN Failure))))) (. ?)))
+#Rule:Nouns
+r1effusionNN
+r1FailureNN
+
+#Rule:Verbs
+r2occurVB
+
+#Rule:Adjs
+r4pleuralJJ
+r4CongestiveJJ
+r4CardiacJJ
+
+#Rule:Adj-Noun
+r5pleuralJJeffusionNN
+r5CongestiveJJFailureNN
+r5CardiacJJFailureNN
+
+#Rule:PPinVP
+r30occurVBinINFailureNN
+
+#why must the Left lung be affected first (the effusion starts from the left lung) then the Right??
+#(S1 (SBARQ (WHADVP (WRB why)) (SQ (MD must) (NP (DT the) (NNP Left) (NN lung)) (VP (AUX be) (VP (VBN affected) (ADVP (RB first)) (PRN (-LRB- -LRB-) (S (NP (DT the) (NN effusion)) (VP (VBZ starts) (PP (IN from) (NP (DT the) (JJ left) (NN lung))))) (-RRB- -RRB-)) (PP (IN then) (NP (DT the) (NNP Right))))) (. ?)) (. ?)))
+#Rule:Nouns
+r1LeftNNP
+r1lungNN
+r1effusionNN
+r1lungNN
+r1RightNNP
+
+#Rule:Verbs
+r2affectedVBN
+r2startsVBZ
+
+#Rule:Adjs
+r4leftJJ
+
+#Rule:Adj-Noun
+r5leftJJlungNN
+
+#Rule:N-HeadNoun
+r8LeftNNPlungNN
+
+#Rule:HeadNoun-V
+r11effusionNNstartsVBZ
+
+#Rule:PPinVP
+r30startsVBZfromINlungNN
+
+#Rule:PPinVP
+r32affectedVBNthenINRightNNP
+
+#Rule:V-ADV
+r46affectedVBNfirstRB
+
+@lemmas-left	Right	Cardiac	effusion	affect	Left	affected	pleural	failure	lung	starts	cardiac	congestive	start	Failure	Congestive	left	right	occur	
+@lemmas-right	Right	lung	failure	starts	start	effusion	Failure	first	right	
+@lemmas-center	then	from	in	

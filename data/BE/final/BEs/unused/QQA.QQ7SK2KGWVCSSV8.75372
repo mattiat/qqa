@@ -1,0 +1,420 @@
+#The general consensus is that Shakespeare wrote thirty-seven plays (see list below). 
+#(S1 (S (NP (DT The) (JJ general) (NN consensus)) (VP (AUX is) (SBAR (IN that) (S (NP (NNP Shakespeare)) (VP (VBD wrote) (NP (NP (JJ thirty-seven) (NNS plays)) (PRN (-LRB- -LRB-) (S (VP (VB see) (NP (NN list)) (PP (IN below)))) (-RRB- -RRB-))))))) (. .)))
+#Rule:Nouns
+r1consensusNN
+r1ShakespeareNNP
+r1playsNNS
+r1listNN
+
+#Rule:Verbs
+r2wroteVBD
+r2seeVB
+
+#Rule:Adjs
+r4generalJJ
+r4thirty-sevenJJ
+
+#Rule:Adj-Noun
+r5generalJJconsensusNN
+r5thirty-sevenJJplaysNNS
+
+#Rule:HeadNoun-V
+r11consensusNNisAUX
+r11ShakespeareNNPwroteVBD
+
+#Rule:V-HeadNoun
+r21wroteVBDplaysNNS
+r21seeVBlistNN
+
+#Rule:V-IN-V
+r43isAUXthatINwroteVBD
+
+#However, no one can know for certain because of the inexact documentation at the time the plays were first being organized and published. 
+#(S1 (S (ADVP (RB However)) (, ,) (NP (DT no) (PRP one)) (VP (MD can) (VP (VB know) (PP (IN for) (ADJP (JJ certain))) (PP (IN because) (IN of) (NP (DT the) (JJ inexact) (NN documentation))) (PP (IN at) (NP (NP (DT the) (NN time)) (SBAR (S (NP (DT the) (NNS plays)) (VP (AUX were) (ADVP (RB first)) (VP (AUXG being) (VP (VBN organized) (CC and) (VBN published)))))))))) (. .)))
+#Rule:Nouns
+r1documentationNN
+r1timeNN
+r1playsNNS
+
+#Rule:Verbs
+r2knowVB
+r2organizedVBN
+r2publishedVBN
+
+#Rule:Adjs
+r4certainJJ
+r4inexactJJ
+
+#Rule:Adj-Noun
+r5inexactJJdocumentationNN
+
+#Rule:HeadNoun-V
+r11onePRPknowVB
+
+#Rule:V-HeadNoun(passive)
+r23organizedVBNplaysNNS
+
+#Rule:PPinVP
+r30knowVBofINdocumentationNN
+r30knowVBatINtimeNN
+
+#Rule:V-ADV
+r46wereAUXfirstRB
+
+#If we include The Two Noble Kinsmen and two lost plays attributed to Shakespeare, Cardenio and Love s Labour s Won , then we could say he wrote, either alone or in collaboration, forty plays. 
+#(S1 (S (SBAR (IN If) (S (NP (PRP we)) (VP (VBP include) (NP (NP (DT The) (CD Two) (NNP Noble) (NNP Kinsmen) (CC and) (CD two) (VBN lost) (NNS plays)) (VP (VBN attributed) (PP (TO to) (NP (NNP Shakespeare) (, ,) (NNP Cardenio) (CC and) (NNP Love) (NNP s) (NNP Labour) (NNP s) (NNP Won)))))))) (, ,) (ADVP (RB then)) (NP (PRP we)) (VP (MD could) (VP (VB say) (SBAR (S (NP (PRP he)) (VP (VBD wrote))) (, ,) (CC either) (S (UCP (ADVP (RB alone)) (CC or) (PP (IN in) (NP (NP (NN collaboration)) (, ,) (NP (CD forty) (NNS plays))))))))) (. .)))
+#Rule:Nouns
+r1Noble KinsmenPersonAnnotation
+r1playsNNS
+r1ShakespearePersonAnnotation
+r1CardenioLocationAnnotation
+r1Love s Labour s WonOrganizationAnnotation
+r1collaborationNN
+r1playsNNS
+
+#Rule:Verbs
+r2includeVBP
+r2lostVBN
+r2attributedVBN
+r2sayVB
+r2wroteVBD
+
+#Rule:Adj-Noun
+r5TwoCDplaysNNS
+r5twoCDplaysNNS
+r5lostVBNplaysNNS
+r5fortyCDplaysNNS
+
+#Rule:N-ApposN
+r10collaborationNNplaysNNS
+
+#Rule:HeadNoun-V
+r11wePRPsayVB
+r11wePRPincludeVBP
+r11hePRPwroteVBD
+
+#Rule:V-HeadNoun
+r21includeVBPplaysNNS
+
+#Rule:V-HeadNoun(passive)
+r24attributedVBNplaysNNS
+
+#Rule:PPinVP
+r32attributedVBNtoTOLove s Labour s WonOrganizationAnnotation
+
+#Moreover, in the last few years many critics have begun to reassess a play called Edward III , currently grouped with a collection of eleven other plays known as the Shakespeare Apocrypha. 
+#(S1 (S (ADVP (RB Moreover)) (, ,) (PP (IN in) (NP (DT the) (JJ last) (JJ few) (NNS years))) (NP (JJ many) (NNS critics)) (VP (AUX have) (VP (VBN begun) (S (VP (TO to) (VP (VB reassess) (NP (NP (DT a) (NN play)) (VP (VBN called) (S (NP (NP (NNP Edward) (NNP III)) (, ,) (VP (ADVP (RB currently)) (VBN grouped) (PP (IN with) (NP (NP (DT a) (NN collection)) (PP (IN of) (NP (NP (CD eleven) (JJ other) (NNS plays)) (VP (VBN known) (PP (IN as) (NP (DT the) (NNP Shakespeare) (NNP Apocrypha)))))))))))))))))) (. .)))
+#Rule:Nouns
+r1yearsNNS
+r1criticsNNS
+r1playNN
+r1Edward IIIPersonAnnotation
+r1collectionNN
+r1playsNNS
+r1ShakespeareNNP
+r1ApocryphaOrganizationAnnotation
+
+#Rule:Verbs
+r2begunVBN
+r2reassessVB
+r2calledVBN
+r2groupedVBN
+r2knownVBN
+
+#Rule:Adjs
+r4lastJJ
+r4fewJJ
+r4manyJJ
+r4otherJJ
+
+#Rule:Adj-Noun
+r5lastJJyearsNNS
+r5fewJJyearsNNS
+r5manyJJcriticsNNS
+r5elevenCDplaysNNS
+r5otherJJplaysNNS
+
+#Rule:N-HeadNoun
+r8ShakespeareNNPApocryphaOrganizationAnnotation
+
+#Rule:HeadNoun-V
+r12criticsNNSbegunVBN
+
+#Rule:V-HeadNoun
+r21reassessVBplayNN
+
+#Rule:V-HeadNoun
+r22calledVBNEdward IIIPersonAnnotation
+
+#Rule:V-HeadNoun(passive)
+r24calledVBNplayNN
+r24groupedVBNEdward IIIPersonAnnotation
+r24knownVBNplaysNNS
+
+#Rule:PPinNP
+r26collectionNNofINplaysNNS
+
+#Rule:PPinVP
+r32groupedVBNwithINcollectionNN
+r32knownVBNasINApocryphaOrganizationAnnotation
+
+#Rule:PPinS
+r36haveAUXinINyearsNNS
+
+#Rule:V-V
+r44begunVBNreassessVB
+
+#Rule:V-ADV
+r46haveAUXMoreoverRB
+r46groupedVBNcurrentlyRB
+
+#Rule:TitleRule
+r48Edward IIIPersonAnnotationplayNN
+
+#Edward III bears striking similarities to Shakespeare???
+#(S1 (S (NP (NNP Edward) (NNP III)) (VP (VBZ bears) (NP (JJ striking) (NNS similarities)) (PP (TO to) (NP (NNP Shakespeare) (CD ??)))) (. ?)))
+#Rule:Nouns
+r1Edward IIIPersonAnnotation
+r1similaritiesNNS
+r1ShakespeareNNP
+
+#Rule:Verbs
+r2bearsVBZ
+
+#Rule:Adjs
+r4strikingJJ
+
+#Rule:Adj-Noun
+r5strikingJJsimilaritiesNNS
+r5??CDShakespeareNNP
+
+#Rule:HeadNoun-V
+r11Edward IIIPersonAnnotationbearsVBZ
+
+#Rule:V-HeadNoun
+r21bearsVBZsimilaritiesNNS
+
+#Rule:PPinVP
+r30bearsVBZtoTOShakespeareNNP
+
+#s early histories. 
+#(S1 (S (NP (PRP s)) (ADVP (RB early)) (VP (VBZ histories)) (. .)))
+#Rule:Verbs
+r2historiesVBZ
+
+#Rule:HeadNoun-V
+r11sPRPhistoriesVBZ
+
+#Rule:V-ADV
+r46historiesVBZearlyRB
+
+#Another play, Sir Thomas More has also been under debate.  
+#(S1 (S (NP (DT Another) (NN play)) (, ,) (NP (NP (NNP Sir) (NNP Thomas)) (JJR More)) (VP (AUX has) (ADVP (RB also)) (VP (AUX been) (PP (IN under) (NP (NN debate))))) (. .)))
+#Rule:Nouns
+r1playNN
+r1SirNNP
+r1Thomas MorePersonAnnotation
+r1debateNN
+
+#Rule:N-HeadNoun
+r8SirNNPThomas MorePersonAnnotation
+
+#Rule:HeadNoun-V
+r11playNNbeenAUX
+r11Thomas MorePersonAnnotationbeenAUX
+
+#Rule:PPinVP
+r30beenAUXunderINdebateNN
+
+#Rule:V-ADV
+r46hasAUXalsoRB
+r46beenAUXalsoRB
+
+#Handwriting analysis has led scholars to believe that Shakespeare revised parts of Sir Thomas More , but, like Edward III , it is not part of the standard collection of Shakespeare s plays. 
+#(S1 (S (NP (NN Handwriting) (NN analysis)) (VP (AUX has) (VP (VBN led) (S (NP (NNS scholars)) (VP (TO to) (VP (VB believe) (SBAR (SBAR (IN that) (S (NP (NNP Shakespeare)) (VP (VBD revised) (NP (NP (NNS parts)) (PP (IN of) (NP (NNP Sir) (NNP Thomas)))) (ADVP (RBR More))))) (, ,) (CC but) (PRN (, ,) (PP (IN like) (NP (NNP Edward) (NNP III))) (, ,)) (S (NP (PRP it)) (VP (AUX is) (RB not) (NP (NP (NN part)) (PP (IN of) (NP (NP (DT the) (JJ standard) (NN collection)) (PP (IN of) (NP (NNP Shakespeare) (NNP s) (NNS plays)))))))))))))) (. .)))
+#Rule:Nouns
+r1HandwritingLocationAnnotation
+r1analysisNN
+r1scholarsNNS
+r1ShakespeareNNP
+r1partsNNS
+r1SirNNP
+r1Thomas MorePersonAnnotation
+r1Edward IIIPersonAnnotation
+r1partNN
+r1collectionNN
+r1Shakespeare sPersonAnnotation
+r1playsNNS
+
+#Rule:Verbs
+r2ledVBN
+r2believeVB
+r2revisedVBD
+
+#Rule:Adjs
+r4standardJJ
+
+#Rule:Adj-Noun
+r5standardJJcollectionNN
+
+#Rule:N-HeadNoun
+r8HandwritingLocationAnnotationanalysisNN
+r8SirNNPThomas MorePersonAnnotation
+r8Shakespeare sPersonAnnotationplaysNNS
+
+#Rule:HeadNoun-V
+r11scholarsNNSbelieveVB
+r11ShakespeareNNPrevisedVBD
+r11itPRPisAUX
+
+#Rule:HeadNoun-V
+r12analysisNNledVBN
+
+#Rule:V-HeadNoun
+r21revisedVBDpartsNNS
+r21isAUXpartNN
+
+#Rule:V-HeadNoun
+r22ledVBNscholarsNNS
+
+#Rule:PPinNP
+r26partsNNSofINThomas MorePersonAnnotation
+r26partNNofINcollectionNN
+r26collectionNNofINplaysNNS
+
+#Rule:V-ADV
+r46isAUXnotRB
+
+#For more information on Edward III or the Shakespeare Apocrypha, please see the links to the right. 
+#(S1 (S (PP (IN For) (NP (NP (JJR more) (NN information)) (PP (IN on) (NP (NP (NNP Edward) (NNP III)) (CC or) (NP (DT the) (NNP Shakespeare) (NNP Apocrypha)))))) (, ,) (VP (VB please) (VP (VB see) (NP (NP (DT the) (NNS links)) (PP (TO to) (NP (DT the) (NN right)))))) (. .)))
+#Rule:Nouns
+r1informationNN
+r1Edward IIIPersonAnnotation
+r1Shakespeare ApocryphaPersonAnnotation
+r1linksNNS
+r1rightNN
+
+#Rule:Verbs
+r2pleaseVB
+r2seeVB
+
+#Rule:Adjs
+r4moreJJR
+
+#Rule:Adj-Noun
+r5moreJJRinformationNN
+
+#Rule:V-HeadNoun
+r21seeVBlinksNNS
+
+#Rule:PPinNP
+r26informationNNonINEdward IIIPersonAnnotation
+r26informationNNonINShakespeare ApocryphaPersonAnnotation
+r26linksNNStoTOrightNN
+
+#Rule:PPinS
+r36pleaseVBforINinformationNN
+
+#The PlaysComedies The Tempest , The Two Gentlemen of Verona , The Merry Wives of Windsor , Measure for Measure , The Comedy of Errors , Much Ado About Nothing , Love s Labour s Lost , A Midsummer Night s Dream , The Merchant of Venice , As You Like It , The Taming of the Shrew , All s Well That Ends Well , Twelfth Night , The Winter s
+#(S1 (NP (NP (DT The) (NNP PlaysComedies) (NNP The) (NNP Tempest)) (, ,) (NP (NP (DT The) (CD Two) (NNS Gentlemen)) (PP (IN of) (NP (NNP Verona)))) (, ,) (NP (NP (DT The) (NNP Merry) (NNS Wives)) (PP (IN of) (NP (NP (NNP Windsor)) (, ,) (NP (NP (NN Measure)) (PP (IN for) (NP (NN Measure))))))) (, ,) (NP (NP (NP (DT The) (NN Comedy)) (PP (IN of) (NP (NNS Errors)))) (, ,) (NP (NP (JJ Much) (NN Ado)) (PP (IN About) (NP (NP (NNP Nothing)) (, ,) (NP (NP (NNP Love) (NNP s) (NNP Labour) (NNP s)) (VP (VBN Lost)))))) (, ,) (NP (NP (DT A) (NN Midsummer)) (NNP Night) (NNP s) (NN Dream)) (, ,) (NP (NP (DT The) (NN Merchant)) (PP (IN of) (NP (NNP Venice)))) (, ,) (SBAR (IN As) (S (NP (PRP You)) (VP (VBP Like) (NP (PRP It)))))) (, ,) (NP (NP (DT The) (VBG Taming)) (PP (IN of) (NP (DT the) (NNP Shrew)))) (, ,) (NP (NP (NNP All) (NNP s) (NNP Well)) (NP (NP (DT That) (NNPS Ends) (NNP Well)) (, ,) (NP (NNP Twelfth) (NNP Night)) (, ,) (NP (NNP The) (NNPS Winter) (NNP s))))))
+#Rule:Nouns
+r1PlaysComediesOrganizationAnnotation
+r1TheNNP
+r1TempestOrganizationAnnotation
+r1Two GentlemenOrganizationAnnotation
+r1VeronaLocationAnnotation
+r1Merry Wives of Windsor , Measure for Measure ,OrganizationAnnotation
+r1Comedy of ErrorsOrganizationAnnotation
+r1AdoNN
+r1NothingNNP
+r1Love s Labour s Lost ,OrganizationAnnotation
+r1Midsummer Night s DreamOrganizationAnnotation
+r1MerchantNN
+r1VeniceOrganizationAnnotation
+r1Shrew , All s WellOrganizationAnnotation
+r1Ends WellPersonAnnotation
+r1TwelfthNNP
+r1NightNNP
+r1The Winter sOrganizationAnnotation
+
+#Rule:Verbs
+r2likeVBP
+r2tamingVBG
+
+#Rule:Adjs
+r4MuchJJ
+
+#Rule:Adj-Noun
+r5MuchJJAdoNN
+
+#Rule:N-HeadNoun
+r8TheNNPTempestOrganizationAnnotation
+r8PlaysComediesOrganizationAnnotationTempestOrganizationAnnotation
+r8TwelfthNNPNightNNP
+
+#Rule:N-ApposN
+r10TempestOrganizationAnnotationTwo GentlemenOrganizationAnnotation
+r10Comedy of ErrorsOrganizationAnnotationAdoNN
+r10NothingNNPLove s Labour s Lost ,OrganizationAnnotation
+r10Ends WellPersonAnnotationNightNNP
+
+#Rule:HeadNoun-V
+r11youPRPlikeVBP
+
+#Rule:V-HeadNoun
+r21likeVBPitPRP
+
+#Rule:PPinNP
+r26Two GentlemenOrganizationAnnotationofINVeronaLocationAnnotation
+r26AdoNNaboutINNothingNNP
+r26AdoNNaboutINLove s Labour s Lost ,OrganizationAnnotation
+r26MerchantNNofINVeniceOrganizationAnnotation
+r26tamingVBGofINShrew , All s WellOrganizationAnnotation
+
+#Tale , Cymbeline , Pericles, Prince of Tyre , Troilus and Cressida Tragedies Coriolanus , Titus Andronicus , Romeo and Juliet , Julius Caesar , Macbeth , Timon of Athens , Hamlet , King Lear , Othello , Antony and Cleopatra Histories 1,2, and 3 Henry VI , 1 and 2 Henry IV , King John , Richard II , Richard III , Henry V , Henry VIII
+#(S1 (NP (NP (NNP Tale) (, ,) (NNP Cymbeline) (, ,) (NNP Pericles) (, ,) (NNP Prince) (PP (IN of) (NP (NP (NNP Tyre) (, ,) (NNP Troilus) (CC and) (NNP Cressida) (NNS Tragedies) (NNP Coriolanus) (, ,) (NNP Titus) (NNP Andronicus) (, ,) (NNP Romeo) (CC and) (NNP Juliet)) (, ,) (NP (NNP Julius) (NNP Caesar)) (, ,) (NP (NNP Macbeth)) (, ,) (NP (NP (NNP Timon)) (PP (IN of) (NP (NNP Athens) (, ,) (NNP Hamlet) (, ,) (NNP King) (NNP Lear) (, ,) (NNP Othello) (, ,) (NNP Antony) (CC and) (NNP Cleopatra) (NNP Histories) (CD 1,2)))) (, ,) (CC and) (NP (CD 3) (NNP Henry) (NNP VI)))) (, ,) (CD 1) (CC and) (CD 2) (NNP Henry) (NNP IV)) (, ,) (NP (NNP King) (NNP John)) (, ,) (NP (NNP Richard) (NNP II)) (, ,) (NP (NNP Richard) (NNP III)) (, ,) (NP (NNP Henry) (NNP V)) (, ,) (NP (NNP Henry) (NNP VIII))))
+#Rule:Nouns
+r1TaleNNP
+r1CymbelinePersonAnnotation
+r1PericlesNNP
+r1Prince of TyreOrganizationAnnotation
+r1TroilusOrganizationAnnotation
+r1Cressida Tragedies CoriolanusOrganizationAnnotation
+r1Titus Andronicus , Romeo and JulietOrganizationAnnotation
+r1Julius CaesarOrganizationAnnotation
+r1Macbeth , Timon of Athens , Hamlet , King LearOrganizationAnnotation
+r1Othello , AntonyLocationAnnotation
+r1CleopatraLocationAnnotation
+r1HistoriesNNP
+r1HenryNNP
+r1VINNP
+r1Henry IVPersonAnnotation
+r1King JohnPersonAnnotation
+r1Richard IIPersonAnnotation
+r1Richard IIIPersonAnnotation
+r1Henry VPersonAnnotation
+r1Henry VIIIPersonAnnotation
+
+#Rule:Adj-Noun
+r51CDHenry IVPersonAnnotation
+r52CDHenry IVPersonAnnotation
+r51,2CDHistoriesNNP
+r53CDVINNP
+
+#Rule:N-HeadNoun
+r8CleopatraLocationAnnotationHistoriesNNP
+r8HenryNNPVINNP
+
+#Rule:N-ApposN
+r10Henry IVPersonAnnotationKing JohnPersonAnnotation
+r10Titus Andronicus , Romeo and JulietOrganizationAnnotationJulius CaesarOrganizationAnnotation
+
+#Rule:PPinNP
+r26Henry IVPersonAnnotationPrince of TyreOrganizationAnnotationTitus Andronicus , Romeo and JulietOrganizationAnnotation
+r26Henry IVPersonAnnotationPrince of TyreOrganizationAnnotationJulius CaesarOrganizationAnnotation
+r26Henry IVPersonAnnotationPrince of TyreOrganizationAnnotationMacbeth , Timon of Athens , Hamlet , King LearOrganizationAnnotation
+r26Henry IVPersonAnnotationPrince of TyreOrganizationAnnotationVINNP
+
+@lemmas-left	Histories	Julius Caesar	Love s Labour s Lost ,	Richard III	Merry Wives of Windsor , Measure for Measure ,	Merchant	reassess	thirty-seven	wrote	parts	VI	Two	Henry	time	inexact	Richard II	Comedy of Errors	Shakespeare	right	Cleopatra	information	twelfth	Prince of Tyre	Ends Well	Nothing	organized	he	like	include	few	3	many	2	1	Shrew , All s Well	King John	The Winter s	Edward III	say	years	critic	we	Tale	collaboration	vi	Titus Andronicus , Romeo and Juliet	eleven	collection	Thomas More	pericles	The	Noble Kinsmen	Night	write	debate	Henry IV	publish	Two Gentlemen	published	bear	scholars	Venice	Shakespeare s	links	Sir	history	sir	s	led	begun	nothing	documentation	Pericles	histories	revise	part	PlaysComedies	scholar	last	Much	lead	plays	been	has	striking	??	Macbeth , Timon of Athens , Hamlet , King Lear	were	please	more	Ado	grouped	Verona	critics	be	shakespeare	Othello , Antony	Henry VIII	Henry V	much	tame	revised	Apocrypha	called	similarity	Cardenio	known	Twelfth	Handwriting	ado	call	lost	other	have	consensus	one	similarities	Cressida Tragedies Coriolanus	attribute	organize	analysis	believe	1,2	Cymbeline	tale	henry	Tempest	taming	Midsummer Night s Dream	Love s Labour s Won	is	it	standard	Shakespeare Apocrypha	merchant	attributed	play	you	list	the	know	general	begin	forty	two	lose	see	bears	night	certain	group	Troilus	
+@lemmas-right	Julius Caesar	Histories	Love s Labour s Lost ,	reassess	wrote	lead	plays	parts	VI	been	Macbeth , Timon of Athens , Hamlet , King Lear	time	Ado	Verona	right	critics	Shakespeare	be	shakespeare	Moreover	information	Nothing	like	include	not	Shrew , All s Well	revised	King John	Edward III	Apocrypha	say	similarity	years	early	critic	ado	vi	Titus Andronicus , Romeo and Juliet	consensus	similarities	currently	collection	analysis	believe	Thomas More	Night	Tempest	write	debate	Henry IV	Two Gentlemen	Love s Labour s Won	bear	is	it	scholars	Shakespeare Apocrypha	moreover	play	Venice	links	list	know	begin	history	led	begun	bears	nothing	documentation	night	histories	revise	part	first	also	scholar	
+@lemmas-center	to	of	that	with	Prince of Tyre	for	about	under	at	on	as	in	

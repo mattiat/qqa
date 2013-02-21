@@ -1,0 +1,91 @@
+#Finding a Talent Scout or a Talent Scout finding you. 
+#(S1 (S (VP (VBG Finding) (NP (NP (DT a) (NN Talent) (NN Scout)) (CC or) (NP (NP (DT a) (NN Talent) (NN Scout)) (VP (VBG finding) (NP (PRP you)))))) (. .)))
+#Rule:Nouns
+r1Talent ScoutOrganizationAnnotation
+r1TalentOrganizationAnnotation
+r1ScoutNN
+
+#Rule:Verbs
+r2findingVBG
+r2findingVBG
+
+#Rule:N-HeadNoun
+r8TalentOrganizationAnnotationScoutNN
+
+#Rule:HeadNoun-V
+r11ScoutNNfindingVBG
+
+#Rule:V-HeadNoun
+r21findingVBGTalent ScoutOrganizationAnnotation
+r21findingVBGyouPRP
+
+#To me noticed, you need to get out there and do auditions for movie parts, plays, and commercials. 
+#(S1 (S (PP (TO To) (NP (NP (PRP me)) (VP (VBD noticed)))) (, ,) (NP (PRP you)) (VP (AUX need) (S (VP (TO to) (VP (VP (VB get) (PRT (RP out)) (ADVP (RB there))) (CC and) (VP (AUX do) (NP (NP (NNS auditions)) (PP (IN for) (NP (NP (NN movie) (NNS parts)) (, ,) (NP (NNS plays)) (, ,) (CC and) (NP (NNS commercials)))))))))) (. .)))
+#Rule:Nouns
+r1auditionsNNS
+r1movieNN
+r1partsNNS
+r1playsNNS
+r1commercialsNNS
+
+#Rule:Verbs
+r2noticedVBD
+
+#Rule:V-PRT
+r3getVBoutRP
+
+#Rule:N-HeadNoun
+r8movieNNpartsNNS
+
+#Rule:N-ApposN
+r10partsNNSplaysNNS
+
+#Rule:HeadNoun-V
+r11youPRPneedAUX
+r11mePRPnoticedVBD
+
+#Rule:V-HeadNoun
+r21doAUXauditionsNNS
+
+#Rule:PPinNP
+r26auditionsNNSforINpartsNNS
+r26auditionsNNSforINplaysNNS
+r26auditionsNNSforINcommercialsNNS
+
+#Rule:PPinS
+r36needAUXtoTOmePRP
+
+#Rule:V-ADV
+r46getVBthereRB
+
+#Look in your yellow page directory for talent agencies.
+#(S1 (S (VP (VB Look) (PP (IN in) (NP (PRP$ your) (JJ yellow) (NN page) (NN directory))) (PP (IN for) (NP (NN talent) (NNS agencies)))) (. .)))
+#Rule:Nouns
+r1pageNN
+r1directoryNN
+r1talentNN
+r1agenciesNNS
+
+#Rule:Verbs
+r2lookVB
+
+#Rule:Adjs
+r4yellowJJ
+
+#Rule:Adj-Noun
+r5yellowJJdirectoryNN
+
+#Rule:PRP-Noun
+r6yourPRP$directoryNN
+
+#Rule:N-HeadNoun
+r8pageNNdirectoryNN
+r8talentNNagenciesNNS
+
+#Rule:PPinVP
+r30lookVBinINdirectoryNN
+r30lookVBforINagenciesNNS
+
+@lemmas-left	need	Talent Scout	talent	plays	parts	yellow	audition	noticed	page	finding	me	do	Talent	notice	commercial	find	look	scout	get	your	play	agencies	movie	agency	you	directory	auditions	commercials	Scout	
+@lemmas-right	need	scout	Talent Scout	play	agencies	agency	you	parts	plays	audition	noticed	directory	there	finding	commercials	auditions	me	Scout	notice	commercial	find	out	
+@lemmas-center	to	for	in	

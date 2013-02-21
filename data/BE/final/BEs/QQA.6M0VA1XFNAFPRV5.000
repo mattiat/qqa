@@ -1,0 +1,50 @@
+#why men go to war? 
+#(S1 (SBARQ (WHADVP (WRB why)) (S (NP (NNS men)) (VP (VB go) (PP (TO to) (NP (NN war))))) (. ?)))
+#Rule:Nouns
+r1menNNS
+r1warNN
+
+#Rule:Verbs
+r2goVB
+
+#Rule:HeadNoun-V
+r11menNNSgoVB
+
+#Rule:PPinVP
+r30goVBtoTOwarNN
+
+#men here is generic. 
+#(S1 (S (NP (NN men)) (ADVP (RB here)) (VP (AUX is) (ADJP (JJ generic))) (. .)))
+#Rule:Nouns
+r1menNN
+
+#Rule:Adjs
+r4genericJJ
+
+#Rule:HeadNoun-V
+r11menNNisAUX
+
+#Rule:V-ADJ
+r25isAUXgenericJJ
+
+#Rule:V-ADV
+r46isAUXhereRB
+
+#(not only males go to war)
+#(S1 (PRN (-LRB- -LRB-) (S (NP (CONJP (RB not) (RB only)) (NNS males)) (VP (VBP go) (PP (TO to) (NP (NN war))))) (-RRB- -RRB-)))
+#Rule:Nouns
+r1malesNNS
+r1warNN
+
+#Rule:Verbs
+r2goVBP
+
+#Rule:HeadNoun-V
+r11malesNNSgoVBP
+
+#Rule:PPinVP
+r30goVBPtoTOwarNN
+
+@lemmas-left	generic	is	male	males	men	war	be	go	
+@lemmas-right	generic	is	here	war	be	go	
+@lemmas-center	to	

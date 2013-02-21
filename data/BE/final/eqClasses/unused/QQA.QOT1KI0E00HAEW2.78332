@@ -1,0 +1,927 @@
+BE: skyNN
+EQ class: 
+
+BE: partNN
+EQ class: constituentnn	componentnn	component_partnn	partialjj	portionnn	
+
+BE: atmosphereNN
+EQ class: ambiencenn	ambiancenn	
+
+BE: spaceNN
+EQ class: spatialjj	infinitenn	spacialjj	
+
+BE: surfaceNN
+EQ class: 
+
+BE: earthNN
+EQ class: worldnn	globenn	
+
+BE: planetNN
+EQ class: planetaryjj	major_planetnn	planetaljj	
+
+BE: outerJJ
+EQ class: 
+
+BE: visibleJJ
+EQ class: visibilitynn	seeablejj	visiblenessnn	
+
+BE: otherJJ
+EQ class: 
+
+BE: visibleJJpartNN
+EQ class: visiblejjportionnn	visibilitynnconstituentnn	seeablejjcomponent_partnn	seeablejjcomponentnn	seeablejjconstituentnn	visiblenessnnpartialjj	visiblenessnnconstituentnn	visibilitynnpartialjj	visiblejjconstituentnn	visiblejjcomponentnn	visiblenessnnportionnn	partialvbvisiblyrb	visiblenessnnpartnn	visiblenessnncomponent_partnn	visiblejjcomponent_partnn	seeablejjpartialjj	visibilitynnportionnn	seeablejjpartnn	visibilitynncomponentnn	visiblenessnncomponentnn	seeablejjportionnn	visibilitynnpartnn	visiblejjpartialjj	visibilitynncomponent_partnn	
+
+BE: outerJJspaceNN
+EQ class: outerjjspatialjj	outerjjinfinitenn	outerjjspacialjj	
+
+BE: otherJJplanetNN
+EQ class: otherjjmajor_planetnn	otherjjplanetaljj	otherjjplanetaryjj	
+
+BE: skyNNisAUX
+EQ class: skynnbeaux	
+
+BE: isAUXpartNN
+EQ class: beauxpartialjj	beauxcomponentnn	isauxcomponent_partnn	beauxportionnn	isauxpartialjj	isauxcomponentnn	isauxconstituentnn	beauxcomponent_partnn	isauxportionnn	beauxconstituentnn	beauxpartnn	
+
+BE: surfaceNNofINearthNN
+EQ class: surfacevbearthnn	surfacennofinworldnn	surfacevbworldnn	globennsurfacevb	earthnnsurfacevb	globennsurfacenn	rise_upvbearthnn	risevbearthnn	worldnnsurfacenn	come_upvbearthnn	earthnncome_upvb	worldnnsurfacevb	come_upvbglobenn	earthnnrise_upvb	worldnncome_upvb	come_upvbworldnn	globennrisevb	risevbworldnn	globenncome_upvb	surfacennofinglobenn	earthnnrisevb	risevbglobenn	globennrise_upvb	worldnnrise_upvb	rise_upvbglobenn	worldnnrisevb	earthnnsurfacenn	rise_upvbworldnn	surfacevbglobenn	
+
+BE: visibleJJfromINsurfaceNN
+EQ class: seeablejjfrominsurfacenn	visibilitynnfrominsurfacenn	risevbvisiblyrb	surfacevbvisiblyrb	visiblenessnnfrominsurfacenn	come_upvbvisiblyrb	rise_upvbvisiblyrb	
+
+BE: visibleJJfromINplanetNN
+EQ class: planetalvbvisiblyrb	visiblejjfrominplanetaryjj	visibilitynnfrominmajor_planetnn	visiblenessnnfrominplanetaljj	visibilitynnfrominplanetaljj	visiblenessnnfrominplanetnn	seeablejjfrominplanetnn	visibilitynnfrominplanetnn	visiblejjfrominmajor_planetnn	visibilitynnfrominplanetaryjj	visiblenessnnfrominmajor_planetnn	seeablejjfrominplanetaljj	seeablejjfrominplanetaryjj	visiblenessnnfrominplanetaryjj	seeablejjfrominmajor_planetnn	planetaryvbvisiblyrb	visiblejjfrominplanetaljj	
+
+BE: partNNskyNN
+EQ class: componentnnskynn	partialjjskynn	skynncomponentnn	constituentnnskynn	skynnportionnn	skynnconstituentnn	portionnnskynn	skynnpartialjj	skynncomponent_partnn	component_partnnskynn	skynnpartnn	
+
+BE: SkiesNNPS
+EQ class: skynnps	
+
+BE: planetsNNS
+EQ class: planetaryjj	theynns	planetnns	major_planetnns	themnns	planetaljj	
+
+BE: seeVB
+EQ class: 
+
+BE: otherJJ
+EQ class: 
+
+BE: otherJJplanetsNNS
+EQ class: otherjjmajor_planetnns	otherjjplanetaljj	otherjjtheynns	otherjjthemnns	otherjjplanetaryjj	otherjjplanetnns	
+
+BE: SkiesNNPSofINplanetsNNS
+EQ class: planetnnsskiesnnps	planetsnnsskiesnnps	skynnpsofinplanetaryjj	skynnpsofinmajor_planetnns	major_planetnnsskynnps	skynnpsofinthemnns	skynnpsofinplanetsnns	themnnsskiesnnps	skiesnnpsofinplanetaljj	skiesnnpsofinthemnns	skiesnnpsofintheynns	planetnnsskynnps	theynnsskynnps	skynnpsofinplanetnns	planetaljjskynnps	major_planetnnsskiesnnps	theynnsskiesnnps	skynnpsofintheynns	skynnpsofinplanetaljj	skiesnnpsofinplanetaryjj	skiesnnpsofinplanetnns	planetaryjjskiesnnps	themnnsskynnps	skiesnnpsofinmajor_planetnns	planetaryjjskynnps	planetsnnsskynnps	planetaljjskiesnnps	
+
+BE: BirdsNNS
+EQ class: class_avesnn	birdnns	avesnn	
+
+BE: airplanesNNS
+EQ class: airplanenns	planenns	theynns	aeroplanenns	themnns	
+
+BE: kitesNNS
+EQ class: theynns	kitenns	themnns	
+
+BE: skyLocationAnnotation
+EQ class: 
+
+BE: consideredVBN
+EQ class: regardvbn	seevbn	reckonvbn	viewvbn	considervbn	
+
+BE: flyVB
+EQ class: wingvb	
+
+BE: BirdsNNSairplanesNNS
+EQ class: class_avesnnaeroplanenns	aeroplanennsbirdsnns	themnnsbirdwatchvb	theynnsavesnn	airplanennsbirdnns	bird_watchernnofinplanenns	birdnnofinplanenns	birdernnofintheynns	birdsnnsthemnns	themnnsavesnn	birdsnnsaeroplanenns	avesnnthemnns	airplanennsbirdwatchvb	avesnnofinplanenns	airplanennsclass_avesnn	birdernnofinaeroplanenns	birdnnofintheynns	airplanesnnsbirdvb	airplanesnnsbirdwatchvb	aeroplanennsavesnn	avesnntheynns	bird_watchernnofintheynns	themnnsbirdsnns	class_avesnnofinplanenns	avesnnaeroplanenns	themnnsclass_avesnn	class_avesnnofinaeroplanenns	themnnsbirdnns	birdnnofinairplanenns	airplanesnnsclass_avesnn	class_avesnnofintheynns	class_avesnnofinairplanesnns	planennsbirdvb	airplanennsbirdsnns	avesnnofinairplanesnns	avesnnofinaeroplanenns	aeroplanennsclass_avesnn	planennsclass_avesnn	birdnnsplanenns	class_avesnntheynns	avesnnairplanesnns	planennsbirdwatchvb	avesnnofintheynns	avesnnofinthemnns	aeroplanennsbirdvb	birdnnstheynns	birdnnsthemnns	planennsbirdnns	birdsnnsairplanenns	class_avesnnairplanenns	airplanennsavesnn	birdernnofinthemnns	bird_watchernnofinthemnns	class_avesnnthemnns	aeroplanennsbirdnns	birdnnofinairplanesnns	birdernnofinplanenns	birdnnofinthemnns	birdsnnsplanenns	avesnnairplanenns	birdsnnstheynns	class_avesnnofinairplanenns	theynnsbirdvb	avesnnplanenns	theynnsbirdnns	class_avesnnplanenns	airplanesnnsbirdsnns	birdernnofinairplanenns	aeroplanennsbirdwatchvb	theynnsclass_avesnn	bird_watchernnofinairplanesnns	avesnnofinairplanenns	bird_watchernnofinairplanenns	class_avesnnairplanesnns	birdnnsaeroplanenns	birdernnofinairplanesnns	airplanennsbirdvb	theynnsbirdsnns	airplanesnnsbirdnns	bird_watchernnofinaeroplanenns	birdnnsairplanenns	planennsavesnn	birdnnofinaeroplanenns	birdnnsairplanesnns	class_avesnnofinthemnns	airplanesnnsavesnn	planennsbirdsnns	themnnsbirdvb	theynnsbirdwatchvb	
+
+BE: consideredVBNBirdsNNS
+EQ class: seevbnbirdsnns	viewvbnavesnn	consideredvbnbirdnns	seevbnclass_avesnn	considervbnbirdsnns	viewvbnbirdnns	viewvbnbirdsnns	consideredvbnclass_avesnn	regardvbnavesnn	considervbnavesnn	regardvbnbirdsnns	considervbnbirdnns	reckonvbnavesnn	regardvbnbirdnns	considervbnclass_avesnn	seevbnavesnn	reckonvbnbirdsnns	viewvbnclass_avesnn	reckonvbnclass_avesnn	seevbnbirdnns	regardvbnclass_avesnn	consideredvbnavesnn	reckonvbnbirdnns	
+
+BE: consideredVBNairplanesNNS
+EQ class: regardvbntheynns	viewvbnplanenns	consideredvbnairplanenns	considervbnaeroplanenns	seevbnaeroplanenns	consideredvbnplanenns	viewvbnthemnns	seevbnthemnns	viewvbntheynns	consideredvbnaeroplanenns	considervbnairplanenns	reckonvbnairplanenns	reckonvbnplanenns	seevbnairplanenns	reckonvbnthemnns	regardvbnplanenns	viewvbnairplanenns	reckonvbnairplanesnns	regardvbnairplanenns	considervbnplanenns	considervbnairplanesnns	consideredvbntheynns	consideredvbnthemnns	viewvbnairplanesnns	seevbnairplanesnns	seevbntheynns	considervbntheynns	regardvbnairplanesnns	viewvbnaeroplanenns	considervbnthemnns	regardvbnaeroplanenns	regardvbnthemnns	reckonvbntheynns	reckonvbnaeroplanenns	seevbnplanenns	
+
+BE: consideredVBNkitesNNS
+EQ class: regardvbnkitesnns	regardvbntheynns	reckonvbnthemnns	seevbnkitesnns	viewvbnkitenns	regardvbnkitenns	consideredvbntheynns	consideredvbnthemnns	considervbntheynns	seevbntheynns	considervbnkitesnns	reckonvbnkitenns	considervbnthemnns	considervbnkitenns	consideredvbnkitenns	viewvbnkitesnns	viewvbnthemnns	regardvbnthemnns	reckonvbnkitesnns	reckonvbntheynns	viewvbntheynns	seevbnthemnns	seevbnkitenns	
+
+BE: flyVBinINskyLocationAnnotation
+EQ class: wingvbininskylocationannotation	
+
+BE: consideredVBNflyVB
+EQ class: seevbnflyvb	reckonvbnflyvb	reckonvbnwingvb	viewvbnwingvb	viewvbnflyvb	regardvbnflyvb	consideredvbnwingvb	considervbnwingvb	considervbnflyvb	seevbnwingvb	regardvbnwingvb	
+
+BE: areAUXoftenRB
+EQ class: beauxoftenrb	
+
+BE: consideredVBNoftenRB
+EQ class: viewvbnoftenrb	seevbnoftenrb	considervbnoftenrb	regardvbnoftenrb	reckonvbnoftenrb	
+
+BE: reasonsNNS
+EQ class: theynns	reasonnns	groundnns	themnns	
+
+BE: defineVB
+EQ class: delimitvb	specifyvb	delineatevb	delimitatevb	
+
+BE: difficultJJ
+EQ class: hardjj	difficultnessnn	
+
+BE: severalJJ
+EQ class: 
+
+BE: severalJJreasonsNNS
+EQ class: concludevbseverallyrb	severaljjtheynns	severaljjreasonnns	reasonvbseverallyrb	reason_outvbseverallyrb	severaljjgroundnns	severaljjthemnns	
+
+BE: itPRPisAUX
+EQ class: itprpbeaux	
+
+BE: isAUXdifficultJJ
+EQ class: beauxdifficultjj	beauxhardjj	isauxdifficultnessnn	beauxdifficultnessnn	isauxhardjj	
+
+BE: defineVBforINreasonsNNS
+EQ class: delimitvbforingroundnns	specifyvbforintheynns	definevbforingroundnns	delimitvbforintheynns	delineatevbforinthemnns	delimitvbforinreasonnns	delimitatevbforinthemnns	delimitvbforinreasonsnns	definevbforinthemnns	delimitvbforinthemnns	specifyvbforinreasonsnns	definevbforintheynns	delineatevbforinreasonnns	delimitatevbforintheynns	definevbforinreasonnns	delimitatevbforinreasonnns	delineatevbforinreasonsnns	delineatevbforingroundnns	specifyvbforinreasonnns	delineatevbforintheynns	delimitatevbforingroundnns	delimitatevbforinreasonsnns	specifyvbforingroundnns	specifyvbforinthemnns	
+
+BE: defineVBpreciselyRB
+EQ class: precisejjinindefinevb	delineatevbpreciselyrb	specifyvbpreciselyrb	precisejjinindelimitatevb	precisenessnninindelimitvb	delimitvbpreciselyrb	precisejjinindelineatevb	delimitatevbpreciselyrb	precisenessnnininspecifyvb	precisenessnninindelimitatevb	precisejjininspecifyvb	precisenessnninindefinevb	precisejjinindelimitvb	precisenessnninindelineatevb	
+
+BE: daylightNN
+EQ class: daytimenn	daynn	
+
+BE: skyNN
+EQ class: 
+
+BE: appearanceNN
+EQ class: visual_aspectnn	
+
+BE: surfaceNN
+EQ class: 
+
+BE: resultNN
+EQ class: upshotnn	eventnn	outcomenn	effectnn	consequencenn	issuenn	
+
+BE: airNN
+EQ class: 
+
+BE: sunlightNN
+EQ class: sunshinenn	sunnn	
+
+BE: scatteringVBG
+EQ class: dispelvbg	break_upvbg	dissipatevbg	scattervbg	dispersevbg	
+
+BE: opaqueJJ
+EQ class: opacitynn	opaquenessnn	
+
+BE: blueJJ
+EQ class: bluenessnn	blueishjj	bluishjj	
+
+BE: opaqueJJsurfaceNN
+EQ class: surfacevbopaquelyrb	opacitynnsurfacenn	opaquenessnnsurfacenn	come_upvbopaquelyrb	rise_upvbopaquelyrb	risevbopaquelyrb	
+
+BE: blueJJsurfaceNN
+EQ class: bluenessnnsurfacenn	bluishjjsurfacenn	blueishjjsurfacenn	
+
+BE: scatteringVBGsunlightNN
+EQ class: dispersevbgsunnn	scatteringvbgsunnn	scattervbgsunlightnn	scatteringnnofinsunlightnn	sprinklingnnofinsunnn	spreadnnofinsunnn	spreadnnofinsunshinenn	scattervbgsunshinenn	break_upvbgsunnn	sprinklingnnofinsunlightnn	spreadnnofinsunlightnn	dissipatevbgsunshinenn	scatteringnnofinsunnn	scatternnofinsunshinenn	break_upvbgsunlightnn	scatteringvbgsunshinenn	dissipatevbgsunnn	scatteringnnofinsunshinenn	scattervbgsunnn	scatternnofinsunnn	dissipatevbgsunlightnn	break_upvbgsunshinenn	dispelvbgsunlightnn	dispersevbgsunlightnn	dispelvbgsunnn	dispersevbgsunshinenn	scatternnofinsunlightnn	sprinklingnnofinsunshinenn	dispelvbgsunshinenn	
+
+BE: skyNNhasAUX
+EQ class: skynnholdaux	wealthy_personnnofinskynn	skynnhave_gotaux	havennofinskynn	skynnhaveaux	rich_personnnofinskynn	
+
+BE: thisDTisAUX
+EQ class: thisdtbeaux	
+
+BE: hasAUXappearanceNN
+EQ class: have_gotauxappearancenn	wealthy_personnnofinappearancenn	rich_personnnofinappearancenn	holdauxappearancenn	holdauxvisual_aspectnn	haveauxappearancenn	rich_personnnofinvisual_aspectnn	haveauxvisual_aspectnn	havennofinvisual_aspectnn	havennofinappearancenn	hasauxvisual_aspectnn	wealthy_personnnofinvisual_aspectnn	have_gotauxvisual_aspectnn	
+
+BE: isAUXresultNN
+EQ class: isauxeventnn	beauxeventnn	beauxeffectnn	isauxconsequencenn	beauxissuenn	isauxissuenn	beauxupshotnn	isauxoutcomenn	beauxconsequencenn	beauxresultnn	isauxeffectnn	isauxupshotnn	beauxoutcomenn	
+
+BE: appearanceNNofINsurfaceNN
+EQ class: surfacennappearancenn	seemvbsurfacenn	surfacennlookvb	surfacennvisual_aspectnn	visual_aspectnnofinsurfacenn	surfacennseemvb	lookvbsurfacenn	appearvbsurfacenn	surfacennappearvb	
+
+BE: resultNNofINsunlightNN
+EQ class: consequencennofinsunnn	sunlightnnupshotnn	sunlightnneventnn	ensuevbsunshinenn	sunlightnnoutcomenn	sunlightnneffectnn	sunshinennconsequencenn	effectnnofinsunlightnn	sunnnoutcomenn	resultnnofinsunshinenn	issuennofinsunshinenn	sunnnresultvb	upshotnnofinsunlightnn	sunlightnnissuenn	sunnnconsequencenn	effectnnofinsunshinenn	outcomennofinsunshinenn	sunnneventnn	sunnnensuevb	ensuevbsunlightnn	effectnnofinsunnn	sunshinennissuenn	sunshinennoutcomenn	sunshinennresultvb	ensuevbsunnn	sunshinenneventnn	resultnnofinsunnn	sunlightnnconsequencenn	sunnnresultnn	eventnnofinsunshinenn	resultvbsunshinenn	sunnnissuenn	issuennofinsunnn	sunshinennresultnn	sunshinenneffectnn	sunlightnnresultvb	upshotnnofinsunnn	sunlightnnresultnn	consequencennofinsunshinenn	sunnnupshotnn	sunshinennupshotnn	sunshinennensuevb	sunnneffectnn	outcomennofinsunnn	eventnnofinsunlightnn	eventnnofinsunnn	upshotnnofinsunshinenn	resultvbsunlightnn	consequencennofinsunlightnn	resultvbsunnn	outcomennofinsunlightnn	sunlightnnensuevb	issuennofinsunlightnn	
+
+BE: hasAUXduringINdaylightNN
+EQ class: haveauxduringindaytimenn	haveauxduringindaylightnn	have_gotauxduringindaytimenn	hasauxduringindaytimenn	holdauxduringindaytimenn	haveauxduringindaynn	hasauxduringindaynn	holdauxduringindaynn	holdauxduringindaylightnn	have_gotauxduringindaynn	have_gotauxduringindaylightnn	
+
+BE: objectNN
+EQ class: physical_objectnn	
+
+BE: earthNN
+EQ class: worldnn	globenn	
+
+BE: senseNN
+EQ class: 
+
+BE: skLocationAnnotation
+EQ class: 
+
+BE: sayVB
+EQ class: tellvb	statevb	
+
+BE: objectVBP
+EQ class: 
+
+BE: blueJJ
+EQ class: bluenessnn	blueishjj	bluishjj	
+
+BE: normalJJ
+EQ class: normalitynn	
+
+BE: hardJJ
+EQ class: difficultjj	hardnessnn	
+
+BE: blueJJobjectNN
+EQ class: bluenessnnphysical_objectnn	bluejjphysical_objectnn	blueishjjphysical_objectnn	blueishjjobjectnn	bluishjjphysical_objectnn	bluishjjobjectnn	bluenessnnobjectnn	
+
+BE: normalJJsenseNN
+EQ class: sensitisevbnormallyrb	feelvbnormallyrb	sensibilizevbnormallyrb	sensibilisevbnormallyrb	sensevbnormallyrb	sensitizevbnormallyrb	sensifyvbnormallyrb	normalitynnsensenn	
+
+BE: thereEXisAUX
+EQ class: thereexbeaux	
+
+BE: itPRPisAUX
+EQ class: itprpbeaux	
+
+BE: isAUXobjectNN
+EQ class: beauxobjectnn	beauxphysical_objectnn	isauxphysical_objectnn	
+
+BE: isAUXhardJJ
+EQ class: beauxdifficultjj	beauxhardjj	isauxhardnessnn	beauxhardnessnn	isauxdifficultjj	
+
+BE: objectNNaboveINearthNN
+EQ class: physical_objectnnaboveinearthnn	globennphysical_objectnn	externalizevbglobenn	worldnnexternalizevb	globennexteriorisevb	externalisevbworldnn	worldnnexteriorizevb	globennexternalizevb	earthnnexteriorisevb	externalisevbglobenn	externalisevbearthnn	exteriorisevbworldnn	worldnnobjectifyvb	physical_objectnnaboveinglobenn	earthnnobjectnn	exteriorizevbglobenn	earthnnexternalisevb	worldnnobjectnn	exteriorisevbglobenn	objectifyvbworldnn	exteriorisevbearthnn	worldnnexternalisevb	objectifyvbglobenn	worldnnphysical_objectnn	objectnnaboveinworldnn	globennexternalisevb	globennobjectifyvb	earthnnexternalizevb	objectifyvbearthnn	externalizevbearthnn	physical_objectnnaboveinworldnn	earthnnobjectifyvb	earthnnphysical_objectnn	globennobjectnn	exteriorizevbworldnn	earthnnexteriorizevb	externalizevbworldnn	objectnnaboveinglobenn	worldnnexteriorisevb	globennexteriorizevb	exteriorizevbearthnn	
+
+BE: isAUXinINsenseNN
+EQ class: beauxininsensenn	
+
+BE: skyNN
+EQ class: 
+
+BE: denserNN
+EQ class: 
+
+BE: zoneNN
+EQ class: zonaryjj	
+
+BE: planetNN
+EQ class: planetaryjj	major_planetnn	planetaljj	
+
+BE: atmosphereNN
+EQ class: ambiencenn	ambiancenn	
+
+BE: definedVBN
+EQ class: delineatevbn	delimitvbn	definevbn	delimitatevbn	specifyvbn	
+
+BE: sVBZ
+EQ class: 
+
+BE: gaseousJJ
+EQ class: gaseousnessnn	gasnn	
+
+BE: gaseousJJzoneNN
+EQ class: gaseousnessnnzonenn	gasnnzonaryjj	gaseousjjzonaryjj	gaseousnessnnzonaryjj	gasnnzonenn	
+
+BE: zoneNNsVBZ
+EQ class: zonaryjjsvbz	
+
+BE: sVBZatmosphereNN
+EQ class: svbzambiencenn	svbzambiancenn	
+
+BE: definedVBNskyNN
+EQ class: delineatevbnskynn	definevbnskynn	specifyvbnskynn	delimitvbnskynn	delimitatevbnskynn	
+
+BE: zoneNNofINplanetNN
+EQ class: major_planetnndistrictvb	planetaljjzonenn	major_planetnnzonenn	zonennofinplanetaryjj	planetaryjjzonaryjj	major_planetnnzonaryjj	planetaryjjzonaryvb	planetaryjjzonenn	districtvbplanetaljj	zonevbplanetnn	zonaryjjofinplanetaryjj	districtvbplanetnn	planetnnzonaryvb	planetnndistrictvb	zonaryjjofinmajor_planetnn	zonevbplanetaljj	zonaryjjofinplanetnn	zonaryvbplanetaljj	major_planetnnzonaryvb	planetaljjdistrictvb	zonevbmajor_planetnn	major_planetnnzonevb	planetaljjzonevb	zonaryvbmajor_planetnn	zonennofinplanetaljj	planetnnzonenn	zonaryvbplanetnn	planetaljjzonaryvb	planetnnzonevb	districtvbmajor_planetnn	zonevbplanetaryjj	planetaryjjzonevb	zonennofinmajor_planetnn	zonaryjjofinplanetaljj	zonaryvbplanetaryjj	planetnnzonaryjj	planetaryjjdistrictvb	districtvbplanetaryjj	planetaljjzonaryjj	
+
+BE: definedVBNasINdenserNN
+EQ class: specifyvbnasindensernn	delimitatevbnasindensernn	definevbnasindensernn	delimitvbnasindensernn	delineatevbnasindensernn	
+
+BE: isAUXthusRB
+EQ class: beauxthusrb	
+
+BE: isAUXsometimesRB
+EQ class: beauxsometimesrb	
+
+BE: definedVBNthusRB
+EQ class: delineatevbnthusrb	delimitvbnthusrb	delimitatevbnthusrb	definevbnthusrb	specifyvbnthusrb	
+
+BE: definedVBNsometimesRB
+EQ class: delimitvbnsometimesrb	delineatevbnsometimesrb	delimitatevbnsometimesrb	specifyvbnsometimesrb	definevbnsometimesrb	
+
+BE: nightNN
+EQ class: darknn	nightlyjj	nighttimenn	
+
+BE: skyNN
+EQ class: 
+
+BE: appearanceNN
+EQ class: visual_aspectnn	
+
+BE: surfaceNN
+EQ class: 
+
+BE: regionNN
+EQ class: partnn	
+
+BE: starsNNS
+EQ class: starnns	theynns	starryjj	themnns	
+
+BE: scatteredVBN
+EQ class: dispelvbn	dissipatevbn	dispersevbn	break_upvbn	scattervbn	
+
+BE: blackJJ
+EQ class: blacknessnn	
+
+BE: blackJJsurfaceNN
+EQ class: blacknessnnsurfacenn	
+
+BE: skyNNhasAUX
+EQ class: skynnholdaux	wealthy_personnnofinskynn	skynnhave_gotaux	havennofinskynn	skynnhaveaux	rich_personnnofinskynn	
+
+BE: hasAUXappearanceNN
+EQ class: have_gotauxappearancenn	wealthy_personnnofinappearancenn	rich_personnnofinappearancenn	holdauxappearancenn	holdauxvisual_aspectnn	haveauxappearancenn	rich_personnnofinvisual_aspectnn	haveauxvisual_aspectnn	havennofinvisual_aspectnn	havennofinappearancenn	hasauxvisual_aspectnn	wealthy_personnnofinvisual_aspectnn	have_gotauxvisual_aspectnn	
+
+BE: scatteredVBNsurfaceNN
+EQ class: scattervbnsurfacenn	dispersevbnsurfacenn	sprinklingnnofinsurfacenn	break_upvbnsurfacenn	dissipatevbnsurfacenn	dispelvbnsurfacenn	scatteringnnofinsurfacenn	scatternnofinsurfacenn	spreadnnofinsurfacenn	
+
+BE: appearanceNNofINsurfaceNN
+EQ class: surfacennappearancenn	seemvbsurfacenn	surfacennlookvb	surfacennvisual_aspectnn	visual_aspectnnofinsurfacenn	surfacennseemvb	lookvbsurfacenn	appearvbsurfacenn	surfacennappearvb	
+
+BE: scatteredVBNwithINstarsNNS
+EQ class: break_upvbnwithinthemnns	break_upvbnwithintheynns	dispelvbnwithinstarnns	dispelvbnwithinstarsnns	scattervbnwithinstarsnns	dissipatevbnwithinstarnns	scattervbnwithintheynns	dissipatevbnwithinstarsnns	scattervbnwithinstarryjj	break_upvbnwithinstarnns	scatteredvbnwithinstarnns	dispelvbnwithintheynns	dissipatevbnwithintheynns	scattervbnwithinstarnns	dispersevbnwithinstarnns	dispersevbnwithinstarsnns	dispersevbnwithinstarryjj	dispersevbnwithinthemnns	dispelvbnwithinstarryjj	scatteredvbnwithintheynns	scatteredvbnwithinstarryjj	scattervbnwithinthemnns	break_upvbnwithinstarryjj	dispelvbnwithinthemnns	scatteredvbnwithinthemnns	break_upvbnwithinstarsnns	dissipatevbnwithinstarryjj	dissipatevbnwithinthemnns	dispersevbnwithintheynns	
+
+BE: hasAUXatINnightNN
+EQ class: haveauxatinnightlyjj	haveauxatinnighttimenn	hasauxatinnightlyjj	hasauxatinnighttimenn	have_gotauxatinnightnn	hasauxatindarknn	haveauxatindarknn	have_gotauxatinnightlyjj	holdauxatinnighttimenn	haveauxatinnightnn	have_gotauxatinnighttimenn	holdauxatinnightlyjj	holdauxatinnightnn	holdauxatindarknn	have_gotauxatindarknn	
+
+BE: skyPersonAnnotation
+EQ class: 
+
+BE: universeNN
+EQ class: cosmosnn	worldnn	universaljj	macrocosmnn	creationnn	existencenn	
+
+BE: thingNN
+EQ class: 
+
+BE: dayNN
+EQ class: dailyjj	24-hour_intervalnn	twenty-four_hoursnn	twenty-four_hour_periodnn	mean_solar_daynn	solar_daynn	
+
+BE: sayVBP
+EQ class: statevbp	tellvbp	
+
+BE: seeVBP
+EQ class: 
+
+BE: entireJJ
+EQ class: entirenessnn	fulljj	totaljj	
+
+BE: visibleJJ
+EQ class: visibilitynn	seeablejj	visiblenessnn	
+
+BE: sameJJ
+EQ class: 
+
+BE: entireJJuniverseNN
+EQ class: fulljjexistencenn	entirenessnnuniversaljj	entirejjuniversaljj	fulljjcreationnn	entirenessnncreationnn	entirenessnnmacrocosmnn	totaljjmacrocosmnn	fulljjworldnn	totaljjuniversaljj	entirejjcosmosnn	fulljjmacrocosmnn	totaljjuniversenn	entirejjmacrocosmnn	entirenessnncosmosnn	entirenessnnexistencenn	entirejjcreationnn	entirejjexistencenn	fulljjcosmosnn	totaljjcosmosnn	totaljjexistencenn	entirenessnnworldnn	entirenessnnuniversenn	fulljjuniversenn	fulljjuniversaljj	totaljjcreationnn	entirejjworldnn	universalvbentirelyrb	totaljjworldnn	
+
+BE: visibleJJuniverseNN
+EQ class: visiblenessnnuniversenn	visiblenessnncreationnn	visiblejjmacrocosmnn	visiblenessnnmacrocosmnn	seeablejjuniversaljj	seeablejjmacrocosmnn	seeablejjuniversenn	visibilitynnworldnn	visibilitynncreationnn	visiblejjworldnn	visibilitynnuniversenn	seeablejjexistencenn	visibilitynnexistencenn	seeablejjcosmosnn	visibilitynnmacrocosmnn	seeablejjworldnn	visibilitynnuniversaljj	visiblejjcreationnn	visiblejjuniversaljj	visiblejjexistencenn	visiblenessnnworldnn	seeablejjcreationnn	universalvbvisiblyrb	visiblenessnnuniversaljj	visibilitynncosmosnn	visiblenessnncosmosnn	visiblenessnnexistencenn	visiblejjcosmosnn	
+
+BE: sameJJthingNN
+EQ class: 
+
+BE: itPRPbeAUX
+EQ class: 
+
+BE: wePRPsayVBP
+EQ class: saynnofinweprp	weprptellvbp	weprpstatevbp	
+
+BE: skyPersonAnnotationisAUX
+EQ class: skypersonannotationbeaux	
+
+BE: wePRPseeVBP
+EQ class: visionarynnofinweprp	beholdingnnofinweprp	seernnweprp	beholdingnnweprp	visionarynnweprp	visual_perceptionnnweprp	illusionistnnofinweprp	seeingnnofinweprp	seernnofinweprp	seeingnnweprp	visual_perceptionnnofinweprp	illusionistnnweprp	
+
+BE: seeVBPthingNN
+EQ class: beholdingnnofinthingnn	seernnofinthingnn	visionarynnofinthingnn	seeingnnofinthingnn	visual_perceptionnnofinthingnn	illusionistnnofinthingnn	
+
+BE: isAUXuniverseNN
+EQ class: beauxexistencenn	isauxmacrocosmnn	beauxmacrocosmnn	beauxuniversaljj	isauxcreationnn	beauxcosmosnn	isauxuniversaljj	beauxuniversenn	isauxexistencenn	beauxworldnn	beauxcreationnn	isauxcosmosnn	isauxworldnn	
+
+BE: beAUXthingNN
+EQ class: 
+
+BE: seeVBPduringINdayNN
+EQ class: seevbpduringintwenty-four_hour_periodnn	seevbpduringinmean_solar_daynn	seevbpduringin24-hour_intervalnn	seevbpduringindailyjj	seevbpduringintwenty-four_hoursnn	seevbpduringinsolar_daynn	
+
+BE: sayVBPthatINisAUX
+EQ class: tellvbpthatinbeaux	tellvbpthatinisaux	statevbpthatinbeaux	statevbpthatinisaux	sayvbpthatinbeaux	
+
+BE: sayVBPthenRB
+EQ class: statevbpthenrb	tellvbpthenrb	saynnofinthenrb	
+
+BE: universeNNskyPersonAnnotation
+EQ class: cosmosnnskypersonannotation	skypersonannotationuniversenn	skypersonannotationworldnn	skypersonannotationcosmosnn	skypersonannotationexistencenn	skypersonannotationuniversaljj	skypersonannotationmacrocosmnn	worldnnskypersonannotation	creationnnskypersonannotation	existencennskypersonannotation	universaljjskypersonannotation	skypersonannotationcreationnn	macrocosmnnskypersonannotation	
+
+BE: colorNN
+EQ class: colournn	coloringnn	colouringnn	
+
+BE: skyNN
+EQ class: 
+
+BE: resultNN
+EQ class: upshotnn	eventnn	outcomenn	effectnn	consequencenn	issuenn	
+
+BE: skyNN
+EQ class: 
+
+BE: radiationOrganizationAnnotation
+EQ class: 
+
+BE: diffuseJJ
+EQ class: diffusenessnn	
+
+BE: diffuseJJradiationOrganizationAnnotation
+EQ class: diffusenessnnradiationorganizationannotation	
+
+BE: skyNNradiationOrganizationAnnotation
+EQ class: radiationorganizationannotationofinskynn	
+
+BE: colorNNisAUX
+EQ class: coloringnnisaux	colournnbeaux	colornnbeaux	colouringnnbeaux	colouringnnisaux	coloringnnbeaux	colournnisaux	
+
+BE: isAUXresultNN
+EQ class: isauxeventnn	beauxeventnn	beauxeffectnn	isauxconsequencenn	beauxissuenn	isauxissuenn	beauxupshotnn	isauxoutcomenn	beauxconsequencenn	beauxresultnn	isauxeffectnn	isauxupshotnn	beauxoutcomenn	
+
+BE: colorNNofINskyNN
+EQ class: skynncolourvb	coloringnnofinskynn	skynncolorvb	skynncolourisevb	skynncoloristvb	colorizevbskynn	skynncolorizevb	skynncolournn	colour_invbskynn	colourisevbskynn	colourvbskynn	coloristvbskynn	skynncolornn	skynncolouringnn	colorisevbskynn	colouringnnofinskynn	colorvbskynn	colourizevbskynn	colournnofinskynn	color_invbskynn	skynncolorisevb	skynncoloringnn	skynncolor_invb	skynncolourizevb	skynncolour_invb	
+
+BE: resultNNofINradiationOrganizationAnnotation
+EQ class: radiationorganizationannotationoutcomenn	radiationorganizationannotationeventnn	ensuevbradiationorganizationannotation	radiationorganizationannotationissuenn	radiationorganizationannotationensuevb	outcomennofinradiationorganizationannotation	radiationorganizationannotationupshotnn	resultvbradiationorganizationannotation	upshotnnofinradiationorganizationannotation	radiationorganizationannotationeffectnn	issuennofinradiationorganizationannotation	consequencennofinradiationorganizationannotation	radiationorganizationannotationresultnn	radiationorganizationannotationconsequencenn	radiationorganizationannotationresultvb	effectnnofinradiationorganizationannotation	eventnnofinradiationorganizationannotation	
+
+BE: resultNNcolorNN
+EQ class: food_coloringnnofinissuenn	consequencenncolornn	colornnofinoutcomenn	consequencenncoloringnn	colourationnnofinoutcomenn	upshotnncolourizevb	issuenncoloringnn	colorationnnofinoutcomenn	food_coloringnnofineventnn	food_coloringnnofineffectnn	effectnncolourisevb	food_colouringnnofinresultnn	colournnresultvb	consequencenncolorisevb	colornnofinconsequencenn	food_colournnofinupshotnn	effectnnofincoloringnn	colournnofineventnn	resultnncoloringnn	colourationnnofineventnn	issuennofincolouringnn	colorationnnofinresultnn	food_colouringnnofineffectnn	consequencenncolournn	eventnncolourisevb	eventnncolorizevb	upshotnncolouringnn	consequencenncolour_invb	colornnresultvb	resultnnofincolournn	coloringnnconsequencenn	upshotnncolour_invb	colourationnnofineffectnn	resultnnofincolornn	outcomennofincolouringnn	issuenncolor_invb	colournnofinconsequencenn	outcomenncolourisevb	effectnncolorvb	colournnupshotnn	upshotnncoloringnn	resultantjjofincolournn	issuenncolorisevb	end_pointnnofincolournn	colornnoutcomenn	upshotnnofincolouringnn	upshotnnofincolournn	upshotnnofincoloringnn	effectnncolour_invb	colouringnnofineffectnn	eventnncolorvb	effectnncolor_invb	eventnncolouringnn	food_colouringnnofinissuenn	outcomennofincolournn	colournnresultnn	resultnncolour_invb	resultnncolournn	consequencennofincolornn	issuenncolornn	effectnncoloringnn	colouringnnofinupshotnn	coloringnnofinupshotnn	food_colournnofineventnn	resultnncolorvb	eventnncolournn	colornnofinresultnn	food_colouringnnofinupshotnn	outcomenncolorisevb	upshotnnofincolornn	issuennofincolornn	food_colornnofinoutcomenn	outcomenncolorvb	eventnnofincoloringnn	eventnncoloringnn	coloringnnofineffectnn	effectnnofincolouringnn	colouringnnensuevb	effectnncolorizevb	coloringnneventnn	coloringnnensuevb	resultantnnofincoloringnn	colouringnneventnn	effectnnofincolournn	colournnofinupshotnn	food_coloringnnofinresultnn	colourationnnofinupshotnn	colornnresultnn	food_colouringnnofinconsequencenn	colourationnnofinconsequencenn	outcomenncolourizevb	colouringnnresultnn	coloringnnissuenn	upshotnncolorvb	colouringnnupshotnn	colournnofinresultnn	upshotnncolorizevb	outcomenncolour_invb	resultnncolorisevb	resultnncolourisevb	food_colornnofineffectnn	coloringnnresultvb	colouringnnofinconsequencenn	outcomennofincolornn	colorationnnofineffectnn	colournneffectnn	food_colouringnnofinoutcomenn	food_colouringnnofineventnn	colornnofineffectnn	eventnncolor_invb	consequencenncolouringnn	resultantjjofincolornn	effectnnofincolornn	colouringnneffectnn	coloringnnofinconsequencenn	consequencennofincoloringnn	colornnofineventnn	food_colornnofineventnn	colournnofinissuenn	colorationnnofineventnn	resultnncolourizevb	eventnncolour_invb	food_colournnofineffectnn	coloringnnofineventnn	colouringnnofinissuenn	issuenncolourvb	issuennofincoloringnn	end_pointnnofincolouringnn	eventnncolorisevb	end_pointnnofincolornn	upshotnncolor_invb	outcomenncolorizevb	resultantjjofincolouringnn	effectnncolourizevb	coloringnnofinresultnn	upshotnncolorisevb	eventnncolornn	eventnncolourvb	resultantnnofincolouringnn	outcomenncoloringnn	resultantnnofincolornn	coloringnnoutcomenn	colornneffectnn	outcomenncolouringnn	issuenncolorizevb	colouringnnofinresultnn	resultnncolouringnn	eventnnofincolouringnn	colournneventnn	issuenncolourizevb	colornnofinissuenn	consequencenncolourizevb	colouringnnoutcomenn	colornneventnn	outcomenncolornn	food_colornnofinupshotnn	effectnncolornn	coloringnnupshotnn	outcomennofincoloringnn	consequencenncolorvb	outcomenncolournn	colornnissuenn	colouringnnofineventnn	colornnconsequencenn	upshotnncolournn	consequencenncolourvb	issuennofincolournn	consequencennofincolouringnn	food_coloringnnofinoutcomenn	resultnncolourvb	eventnncolourizevb	food_coloringnnofinupshotnn	issuenncolournn	issuenncolour_invb	colornnofinupshotnn	colournnofineffectnn	eventnnofincolornn	effectnncolourvb	colournnensuevb	issuenncolourisevb	colourationnnofinissuenn	end_pointnnofincoloringnn	colornnensuevb	resultantnnofincolournn	food_colornnofinresultnn	effectnncolournn	food_colournnofinconsequencenn	consequencenncolorizevb	consequencenncolor_invb	effectnncolouringnn	upshotnncolourisevb	colournnoutcomenn	colorationnnofinupshotnn	colouringnnconsequencenn	issuenncolorvb	resultnncolor_invb	resultnncolorizevb	food_colornnofinconsequencenn	colournnofinoutcomenn	food_colournnofinissuenn	colorationnnofinissuenn	coloringnneffectnn	consequencennofincolournn	colouringnnissuenn	coloringnnresultnn	outcomenncolourvb	resultantjjofincoloringnn	coloringnnofinissuenn	outcomenncolor_invb	colouringnnresultvb	colornnupshotnn	food_colornnofinissuenn	colouringnnofinoutcomenn	upshotnncolornn	food_colournnofinresultnn	issuenncolouringnn	resultnnofincoloringnn	upshotnncolourvb	coloringnnofinoutcomenn	colournnissuenn	resultnnofincolouringnn	colourationnnofinresultnn	food_colournnofinoutcomenn	consequencenncolourisevb	effectnncolorisevb	eventnnofincolournn	colorationnnofinconsequencenn	food_coloringnnofinconsequencenn	colournnconsequencenn	
+
+BE: dayNN
+EQ class: dailyjj	24-hour_intervalnn	twenty-four_hoursnn	twenty-four_hour_periodnn	mean_solar_daynn	solar_daynn	
+
+BE: EarthOrganizationAnnotation
+EQ class: 
+
+BE: skyNN
+EQ class: 
+
+BE: gradientNN
+EQ class: 
+
+BE: zenithLocationAnnotation
+EQ class: zenithaljj	
+
+BE: lightNN
+EQ class: visible_lightnn	visible_radiationnn	
+
+BE: horizonNN
+EQ class: visible_horizonnn	skylinenn	sensible_horizonnn	apparent_horizonnn	
+
+BE: RayleighPersonAnnotation
+EQ class: 
+
+BE: scatteringNN
+EQ class: sprinklingnn	
+
+BE: looksVBZ
+EQ class: lookvbz	
+
+BE: sunnyJJ
+EQ class: gayjj	sunninessnn	cheeryjj	
+
+BE: blueJJ
+EQ class: bluenessnn	blueishjj	bluishjj	
+
+BE: darkJJ
+EQ class: darknn	darknessnn	
+
+BE: dueJJ
+EQ class: 
+
+BE: sunnyJJdayNN
+EQ class: cheeryjj24-hour_intervalnn	sunninessnntwenty-four_hour_periodnn	sunnyjjmean_solar_daynn	sunninessnnsolar_daynn	sunnyjjdailyjj	gayjjmean_solar_daynn	gayjj24-hour_intervalnn	cheeryjjsolar_daynn	sunnyjjtwenty-four_hour_periodnn	sunninessnn24-hour_intervalnn	sunnyjj24-hour_intervalnn	cheeryjjmean_solar_daynn	sunninessnndaynn	gayjjdaynn	gayjjtwenty-four_hour_periodnn	sunninessnntwenty-four_hoursnn	gayjjtwenty-four_hoursnn	cheeryjjdaynn	dailyvbsunnilyrb	sunninessnndailyjj	sunnyjjtwenty-four_hoursnn	gayjjdailyjj	gayjjsolar_daynn	cheeryjjtwenty-four_hour_periodnn	sunninessnnmean_solar_daynn	cheeryjjtwenty-four_hoursnn	sunnyjjsolar_daynn	cheeryjjdailyjj	
+
+BE: blueJJgradientNN
+EQ class: bluishjjgradientnn	bluenessnngradientnn	blueishjjgradientnn	
+
+BE: EarthOrganizationAnnotationskyNN
+EQ class: skynnofinearthorganizationannotation	
+
+BE: RayleighPersonAnnotationscatteringNN
+EQ class: sprinklingnnofinrayleighpersonannotation	rayleighpersonannotationsprinklingnn	scatteringnnofinrayleighpersonannotation	
+
+BE: skyNNlooksVBZ
+EQ class: facial_expressionnnofinskynn	aspectnnofinskynn	witnessnnofinskynn	facennofinskynn	expressionnnofinskynn	witnessnnskynn	watchernnofinskynn	looknnofinskynn	skynnlookvbz	lookernnofinskynn	viewernnofinskynn	viewernnskynn	watchernnskynn	spectatornnskynn	lookernnskynn	spectatornnofinskynn	
+
+BE: looksVBZdayNN
+EQ class: aspectnnofin24-hour_intervalnn	spectatornnofin24-hour_intervalnn	aspectnnofindaynn	expressionnnofinsolar_daynn	watchernnofinsolar_daynn	watchernnofinmean_solar_daynn	lookvbztwenty-four_hoursnn	viewernnofinsolar_daynn	aspectnnofinmean_solar_daynn	expressionnnofindailyjj	facial_expressionnnofin24-hour_intervalnn	lookernnofindailyjj	facial_expressionnnofindaynn	witnessnnofinmean_solar_daynn	spectatornnofintwenty-four_hour_periodnn	lookvbzsolar_daynn	looksvbztwenty-four_hour_periodnn	looknnofinmean_solar_daynn	aspectnnofintwenty-four_hour_periodnn	aspectnnofintwenty-four_hoursnn	watchernnofindaynn	spectatornnofinsolar_daynn	expressionnnofindaynn	looknnofindailyjj	viewernnofindailyjj	spectatornnofinmean_solar_daynn	looksvbzsolar_daynn	spectatornnofindailyjj	facennofindaynn	lookvbzdailyjj	expressionnnofinmean_solar_daynn	lookernnofinsolar_daynn	looknnofinsolar_daynn	facial_expressionnnofintwenty-four_hoursnn	watchernnofintwenty-four_hour_periodnn	facennofintwenty-four_hour_periodnn	lookvbzdaynn	looknnofin24-hour_intervalnn	watchernnofindailyjj	aspectnnofindailyjj	viewernnofintwenty-four_hoursnn	lookvbztwenty-four_hour_periodnn	facial_expressionnnofinsolar_daynn	looksvbz24-hour_intervalnn	facennofin24-hour_intervalnn	viewernnofintwenty-four_hour_periodnn	looksvbzdailyjj	watchernnofin24-hour_intervalnn	viewernnofinmean_solar_daynn	spectatornnofindaynn	looksvbzmean_solar_daynn	lookernnofintwenty-four_hoursnn	facennofinmean_solar_daynn	lookernnofintwenty-four_hour_periodnn	viewernnofin24-hour_intervalnn	spectatornnofintwenty-four_hoursnn	facennofindailyjj	facennofintwenty-four_hoursnn	watchernnofintwenty-four_hoursnn	viewernnofindaynn	witnessnnofintwenty-four_hoursnn	looknnofindaynn	expressionnnofin24-hour_intervalnn	lookernnofinmean_solar_daynn	looksvbztwenty-four_hoursnn	looknnofintwenty-four_hour_periodnn	facial_expressionnnofindailyjj	facial_expressionnnofinmean_solar_daynn	facennofinsolar_daynn	expressionnnofintwenty-four_hoursnn	lookvbzmean_solar_daynn	witnessnnofindailyjj	witnessnnofinsolar_daynn	lookernnofindaynn	witnessnnofindaynn	looknnofintwenty-four_hoursnn	witnessnnofin24-hour_intervalnn	lookernnofin24-hour_intervalnn	lookvbz24-hour_intervalnn	expressionnnofintwenty-four_hour_periodnn	facial_expressionnnofintwenty-four_hour_periodnn	witnessnnofintwenty-four_hour_periodnn	aspectnnofinsolar_daynn	
+
+BE: lightNNnearINhorizonNN
+EQ class: lightvbvisible_horizonnn	light_upvbsensible_horizonnn	sensible_horizonnnlightnn	illumevbsensible_horizonnn	skylinennlight_upvb	sensible_horizonnnvisible_lightnn	visible_horizonnnvisible_radiationnn	apparent_horizonnnvisible_lightnn	visible_horizonnnvisible_lightnn	apparent_horizonnnlight_upvb	skylinennlightvb	light_upvbhorizonnn	skylinennillumevb	visible_horizonnnillumevb	lightnnnearinvisible_horizonnn	light_upvbvisible_horizonnn	lightnnnearinsensible_horizonnn	lightvbapparent_horizonnn	horizonnnvisible_radiationnn	skylinennilluminevb	horizonnnlightnn	lightvbsensible_horizonnn	apparent_horizonnnilluminevb	skylinennvisible_radiationnn	visible_lightnnnearinsensible_horizonnn	horizonnnvisible_lightnn	skylinennvisible_lightnn	visible_lightnnnearinvisible_horizonnn	visible_radiationnnnearinskylinenn	visible_horizonnnilluminatevb	horizonnnillumevb	lightvbhorizonnn	visible_radiationnnnearinvisible_horizonnn	illuminatevbapparent_horizonnn	illumevbhorizonnn	horizonnnlightvb	apparent_horizonnnillumevb	visible_lightnnnearinapparent_horizonnn	visible_horizonnnilluminevb	sensible_horizonnnlight_upvb	visible_lightnnnearinhorizonnn	apparent_horizonnnlightnn	sensible_horizonnnilluminevb	apparent_horizonnnlightvb	lightnnnearinapparent_horizonnn	sensible_horizonnnvisible_radiationnn	illuminatevbskylinenn	illuminevbskylinenn	sensible_horizonnnilluminatevb	illuminatevbhorizonnn	lightvbskylinenn	illuminatevbvisible_horizonnn	illuminevbapparent_horizonnn	visible_lightnnnearinskylinenn	illumevbapparent_horizonnn	visible_horizonnnlight_upvb	illuminevbsensible_horizonnn	visible_radiationnnnearinapparent_horizonnn	light_upvbskylinenn	visible_horizonnnlightnn	illuminevbvisible_horizonnn	horizonnnilluminevb	horizonnnlight_upvb	illuminevbhorizonnn	sensible_horizonnnlightvb	sensible_horizonnnillumevb	lightnnnearinskylinenn	light_upvbapparent_horizonnn	illumevbvisible_horizonnn	apparent_horizonnnvisible_radiationnn	horizonnnilluminatevb	illumevbskylinenn	skylinennilluminatevb	visible_radiationnnnearinsensible_horizonnn	apparent_horizonnnilluminatevb	visible_radiationnnnearinhorizonnn	skylinennlightnn	visible_horizonnnlightvb	illuminatevbsensible_horizonnn	
+
+BE: looksVBZasINgradientNN
+EQ class: lookvbzasingradientnn	
+
+BE: darkJJinINzenithLocationAnnotation
+EQ class: darknnininzenithaljj	darkjjininzenithaljj	darknessnnininzenithaljj	darknnininzenithlocationannotation	darknessnnininzenithlocationannotation	
+
+BE: dueJJtoTOscatteringNN
+EQ class: duejjtotosprinklingnn	
+
+BE: looksVBZusuallyRB
+EQ class: facial_expressionnnofinusuallyrb	usualjjininlookernn	lookvbzusuallyrb	witnessnnofinusuallyrb	watchernnofinusuallyrb	usualnessnnspectatornn	usualjjininwatchernn	usualnessnnaspectnn	usualnessnnininviewernn	usualjjininviewernn	usualnessnnfacenn	usualnessnnininlookernn	lookernnofinusuallyrb	looknnofinusuallyrb	usualnessnnininaspectnn	usualjjininaspectnn	usualjjininlooknn	usualjjlooknn	usualjjspectatornn	usualnessnnininlookvbz	viewernnofinusuallyrb	usualjjininexpressionnn	usualnessnnininwitnessnn	usualnessnnininfacial_expressionnn	usualjjviewernn	usualnessnnfacial_expressionnn	usualnessnnlookernn	usualjjininfacenn	usualjjfacial_expressionnn	usualnessnnwatchernn	usualjjininwitnessnn	usualnessnnviewernn	usualnessnnininwatchernn	aspectnnofinusuallyrb	usualjjwatchernn	usualnessnnwitnessnn	usualjjininlookvbz	usualnessnnininlooksvbz	usualjjexpressionnn	usualjjininfacial_expressionnn	usualnessnnininfacenn	usualjjininlooksvbz	usualnessnnlooknn	usualnessnnininexpressionnn	usualjjwitnessnn	usualnessnnininspectatornn	usualjjininspectatornn	usualnessnnexpressionnn	spectatornnofinusuallyrb	facennofinusuallyrb	usualjjaspectnn	usualjjlookernn	expressionnnofinusuallyrb	usualnessnnininlooknn	usualjjfacenn	
+
+BE: orangeNN
+EQ class: 
+
+BE: redNN
+EQ class: rednessnn	redjj	
+
+BE: sunriseNN
+EQ class: break_of_daynn	sunupnn	dayspringnn	morningnn	first_lightnn	aurorann	cockcrownn	daybreaknn	break_of_the_daynn	dawnnn	dawningnn	
+
+BE: sunsetNNP
+EQ class: sundownnnp	
+
+BE: nightNN
+EQ class: darknn	nightlyjj	nighttimenn	
+
+BE: turnsVBZ
+EQ class: turnvbz	
+
+BE: becomesVBZ
+EQ class: becomevbz	govbz	getvbz	
+
+BE: blackJJ
+EQ class: blacknessnn	
+
+BE: itPRPturnsVBZ
+EQ class: bendnnofinitprp	crooknnofinitprp	turnnnitprp	turningnnofinitprp	turningnnitprp	itprpturnvbz	turnnnofinitprp	twistnnofinitprp	
+
+BE: itPRPbecomesVBZ
+EQ class: itprpbecomevbz	itprpgetvbz	itprpgovbz	
+
+BE: turnsVBZorangeNN
+EQ class: bendnnofinorangenn	turnnnofinorangenn	turningnnofinorangenn	turnvbzorangenn	crooknnofinorangenn	twistnnofinorangenn	
+
+BE: becomesVBZblackJJ
+EQ class: becomevbzblackjj	govbzblackjj	becomevbzblacknessnn	getvbzblackjj	getvbzblacknessnn	govbzblacknessnn	becomesvbzblacknessnn	
+
+BE: turnsVBZduringINsunriseNN
+EQ class: turnsvbzduringinsunupnn	turnvbzduringindawnnn	turnvbzduringincockcrownn	turnvbzduringinfirst_lightnn	turnsvbzduringinaurorann	turnvbzduringindawningnn	turnvbzduringinsunupnn	turnvbzduringinmorningnn	turnsvbzduringindawnnn	turnvbzduringindayspringnn	turnsvbzduringinmorningnn	turnvbzduringindaybreaknn	turnvbzduringinbreak_of_daynn	turnsvbzduringindawningnn	turnvbzduringinsunrisenn	turnsvbzduringinbreak_of_daynn	turnvbzduringinbreak_of_the_daynn	turnsvbzduringincockcrownn	turnsvbzduringindaybreaknn	turnsvbzduringinfirst_lightnn	turnsvbzduringindayspringnn	turnsvbzduringinbreak_of_the_daynn	turnvbzduringinaurorann	
+
+BE: turnsVBZduringINsunsetNNP
+EQ class: turnvbzduringinsundownnnp	turnvbzduringinsunsetnnp	turnsvbzduringinsundownnnp	
+
+BE: becomesVBZatINnightNN
+EQ class: getvbzatinnightnn	becomesvbzatindarknn	becomevbzatindarknn	govbzatindarknn	becomesvbzatinnighttimenn	getvbzatindarknn	govbzatinnighttimenn	becomesvbzatinnightlyjj	govbzatinnightlyjj	getvbzatinnightlyjj	becomevbzatinnightnn	govbzatinnightnn	becomevbzatinnighttimenn	becomevbzatinnightlyjj	getvbzatinnighttimenn	
+
+BE: dayNN
+EQ class: dailyjj	24-hour_intervalnn	twenty-four_hoursnn	twenty-four_hour_periodnn	mean_solar_daynn	solar_daynn	
+
+BE: SunNNP
+EQ class: 
+
+BE: skyNN
+EQ class: 
+
+BE: cloudsNNS
+EQ class: theynns	cloudnns	themnns	
+
+BE: seenVBN
+EQ class: seevbn	
+
+BE: coveredVBN
+EQ class: covervbn	
+
+BE: cloudsNNScoveredVBN
+EQ class: themnnscovervbn	covernnofincloudnns	screennnofintheynns	covertnnofincloudsnns	covernnofinthemnns	screennnofincloudnns	coveringnnofincloudsnns	coveringnnthemnns	coveringnnofinthemnns	screennnofincloudsnns	natural_coveringnnofincloudnns	themnnscoveredvbn	natural_coveringnnofintheynns	concealmentnnofinthemnns	cloudsnnscovervbn	covernncloudsnns	natural_coveringnncloudsnns	covernncloudnns	coveringnntheynns	theynnscoveredvbn	natural_coveringnncloudnns	natural_coveringnnofinthemnns	coveringnnofincloudnns	coveringnnofintheynns	coveringnncloudsnns	covertnnofincloudnns	covernntheynns	covernnofintheynns	covertnnofintheynns	natural_coveringnnofincloudsnns	natural_coveringnntheynns	cloudnnscoveredvbn	covernnthemnns	covertnnofinthemnns	natural_coveringnnthemnns	concealmentnnofincloudnns	cloudnnscovervbn	concealmentnnofincloudsnns	theynnscovervbn	coveringnncloudnns	screennnofinthemnns	covernnofincloudsnns	concealmentnnofintheynns	
+
+BE: seenVBNSunNNP
+EQ class: visual_perceptionnnofinsunnnp	seernnofinsunnnp	beholdingnnofinsunnnp	seevbnsunnnp	seeingnnofinsunnnp	visionarynnofinsunnnp	illusionistnnofinsunnnp	
+
+BE: seenVBNinINskyNN
+EQ class: seevbnininskynn	
+
+BE: canMDduringINdayNN
+EQ class: put_upmdduringin24-hour_intervalnn	put_upmdduringinsolar_daynn	put_upmdduringinmean_solar_daynn	tinmdduringinmean_solar_daynn	tinmdduringin24-hour_intervalnn	canmdduringinmean_solar_daynn	tinmdduringindailyjj	canmdduringindailyjj	canmdduringintwenty-four_hoursnn	tinmdduringinsolar_daynn	put_upmdduringintwenty-four_hour_periodnn	put_upmdduringindaynn	tinmdduringindaynn	canmdduringinsolar_daynn	canmdduringin24-hour_intervalnn	put_upmdduringindailyjj	tinmdduringintwenty-four_hour_periodnn	tinmdduringintwenty-four_hoursnn	canmdduringintwenty-four_hour_periodnn	put_upmdduringintwenty-four_hoursnn	
+
+BE: seenVBNunlessINcoveredVBN
+EQ class: seenvbnunlessincovervbn	seevbnunlessincovervbn	seevbnunlessincoveredvbn	
+
+BE: nightNN
+EQ class: darknn	nightlyjj	nighttimenn	
+
+BE: skyNN
+EQ class: 
+
+BE: extentNN
+EQ class: 
+
+BE: dayNN
+EQ class: dailyjj	24-hour_intervalnn	twenty-four_hoursnn	twenty-four_hour_periodnn	mean_solar_daynn	solar_daynn	
+
+BE: MoonPersonAnnotation
+EQ class: 
+
+BE: planetsNNS
+EQ class: planetaryjj	theynns	planetnns	major_planetnns	themnns	planetaljj	
+
+BE: starsNNS
+EQ class: starnns	theynns	starryjj	themnns	
+
+BE: skyLocationAnnotation
+EQ class: 
+
+BE: visibleJJ
+EQ class: visibilitynn	seeablejj	visiblenessnn	
+
+BE: nightNNskyNN
+EQ class: nighttimennskynn	skynnofinnightlyjj	skynnofinnighttimenn	skynnofindarknn	skynnofinnightnn	nightlyjjskynn	darknnskynn	
+
+BE: planetsNNSareAUX
+EQ class: themnnsareaux	planetaljjareaux	planetaryjjareaux	planetnnsbeaux	themnnsbeaux	major_planetnnsbeaux	planetaryjjbeaux	planetnnsareaux	theynnsareaux	planetsnnsbeaux	theynnsbeaux	planetaljjbeaux	major_planetnnsareaux	
+
+BE: areAUXvisibleJJ
+EQ class: areauxseeablejj	beauxvisiblenessnn	beauxseeablejj	areauxvisibilitynn	beauxvisibilitynn	areauxvisiblenessnn	beauxvisiblejj	
+
+BE: extentNNduringINdayNN
+EQ class: mean_solar_daynnbroadenvb	24-hour_intervalnnwidenvb	extentnnduringinsolar_daynn	extentnnduringintwenty-four_hoursnn	widenvbmean_solar_daynn	twenty-four_hour_periodnnbroadenvb	twenty-four_hoursnnbroadenvb	mean_solar_daynnextentnn	broadenvbsolar_daynn	solar_daynnwidenvb	24-hour_intervalnnbroadenvb	extendvbdaynn	solar_daynnextentnn	mean_solar_daynnextendvb	dailyjjwidenvb	broadenvbtwenty-four_hoursnn	twenty-four_hoursnnextendvb	extentnnduringinmean_solar_daynn	twenty-four_hour_periodnnextendvb	widenvb24-hour_intervalnn	twenty-four_hour_periodnnextentnn	extendvbsolar_daynn	dailyjjbroadenvb	daynnbroadenvb	daynnextendvb	twenty-four_hoursnnwidenvb	extendvbmean_solar_daynn	widenvbtwenty-four_hoursnn	daynnextentnn	broadenvbtwenty-four_hour_periodnn	solar_daynnextendvb	solar_daynnbroadenvb	widenvbsolar_daynn	dailyjjextendvb	extentnnduringintwenty-four_hour_periodnn	extendvbtwenty-four_hour_periodnn	24-hour_intervalnnextendvb	broadenvbmean_solar_daynn	widenvbtwenty-four_hour_periodnn	24-hour_intervalnnextentnn	twenty-four_hoursnnextentnn	dailyjjextentnn	widenvbdaynn	widenvbdailyjj	mean_solar_daynnwidenvb	extendvbdailyjj	broadenvbdailyjj	daynnwidenvb	extendvbtwenty-four_hoursnn	extentnnduringindailyjj	broadenvb24-hour_intervalnn	extentnnduringin24-hour_intervalnn	extendvb24-hour_intervalnn	twenty-four_hour_periodnnwidenvb	broadenvbdaynn	
+
+BE: areAUXinINskyLocationAnnotation
+EQ class: beauxininskylocationannotation	
+
+BE: areAUXinINskyNN
+EQ class: beauxininskynn	
+
+BE: phenomenaNNS
+EQ class: phenomenonnns	theynns	themnns	
+
+BE: skyNN
+EQ class: 
+
+BE: cloudsNNS
+EQ class: theynns	cloudnns	themnns	
+
+BE: rainbowsPersonAnnotation
+EQ class: 
+
+BE: auroraeLocationAnnotation
+EQ class: auroreanjj	auroraljj	
+
+BE: seenVBN
+EQ class: seevbn	
+
+BE: naturalJJ
+EQ class: 
+
+BE: naturalJJphenomenaNNS
+EQ class: naturaljjtheynns	naturaljjthemnns	naturaljjphenomenonnns	
+
+BE: cloudsNNSrainbowsPersonAnnotation
+EQ class: rainbowspersonannotationtheynns	rainbowspersonannotationcloudsnns	theynnsrainbowspersonannotation	rainbowspersonannotationcloudnns	rainbowspersonannotationthemnns	cloudnnsrainbowspersonannotation	themnnsrainbowspersonannotation	
+
+BE: someDTareAUX
+EQ class: somedtbeaux	
+
+BE: areAUXcloudsNNS
+EQ class: areauxcloudnns	beauxthemnns	beauxcloudsnns	areauxthemnns	beauxcloudnns	beauxtheynns	areauxtheynns	
+
+BE: seenVBNphenomenaNNS
+EQ class: seeingnnofinphenomenonnns	visionarynnofinphenomenonnns	visual_perceptionnnofintheynns	visionarynnofintheynns	seenvbnthemnns	beholdingnnofinthemnns	visual_perceptionnnofinphenomenanns	illusionistnnofintheynns	visual_perceptionnnofinphenomenonnns	seevbnphenomenonnns	seernnofinphenomenonnns	seeingnnofinthemnns	beholdingnnofinphenomenanns	seenvbntheynns	seevbnthemnns	illusionistnnofinphenomenonnns	seernnofinthemnns	illusionistnnofinphenomenanns	visionarynnofinphenomenanns	seevbnphenomenanns	seenvbnphenomenonnns	seeingnnofinphenomenanns	illusionistnnofinthemnns	seernnofintheynns	visionarynnofinthemnns	seevbntheynns	seeingnnofintheynns	beholdingnnofinphenomenonnns	beholdingnnofintheynns	visual_perceptionnnofinthemnns	seernnofinphenomenanns	
+
+BE: someDTofINphenomenaNNS
+EQ class: somedtofinphenomenonnns	somedtofinthemnns	somedtofintheynns	
+
+BE: seenVBNinINskyNN
+EQ class: seevbnininskynn	
+
+BE: cloudsNNSsomeDT
+EQ class: themnnssomedt	somedtthemnns	somedttheynns	somedtcloudnns	cloudnnssomedt	somedtcloudsnns	theynnssomedt	
+
+BE: LightningNN
+EQ class: 
+
+BE: skyPersonAnnotation
+EQ class: 
+
+BE: stormsNNS
+EQ class: violent_stormnns	stormnns	theynns	themnns	stormyjj	
+
+BE: seenVBN
+EQ class: seevbn	
+
+BE: seenVBNLightningNN
+EQ class: illusionistnnofinlightningnn	seevbnlightningnn	visionarynnofinlightningnn	visual_perceptionnnofinlightningnn	beholdingnnofinlightningnn	seeingnnofinlightningnn	seernnofinlightningnn	
+
+BE: skyPersonAnnotationduringINstormsNNS
+EQ class: theynnsskypersonannotation	stormnnsskypersonannotation	skypersonannotationduringinthemnns	skypersonannotationduringintheynns	skypersonannotationduringinstormyjj	skypersonannotationduringinstormnns	violent_stormnnsskypersonannotation	skypersonannotationduringinviolent_stormnns	stormyjjskypersonannotation	themnnsskypersonannotation	stormsnnsskypersonannotation	
+
+BE: seenVBNinINskyPersonAnnotation
+EQ class: seevbnininskypersonannotation	
+
+BE: beAUXalsoRB
+EQ class: 
+
+BE: resultNN
+EQ class: upshotnn	eventnn	outcomenn	effectnn	consequencenn	issuenn	
+
+BE: activitiesNNS
+EQ class: activitynns	activejj	theynns	themnns	
+
+BE: dayNN
+EQ class: dailyjj	24-hour_intervalnn	twenty-four_hoursnn	twenty-four_hour_periodnn	mean_solar_daynn	solar_daynn	
+
+BE: radianceNNS
+EQ class: glowingnns	theynns	glownns	themnns	
+
+BE: nightNN
+EQ class: darknn	nightlyjj	nighttimenn	
+
+BE: citiesNNS
+EQ class: metropolisnns	urban_centernns	theynns	citynns	themnns	
+
+BE: pollutionNN
+EQ class: 
+
+BE: smogVB
+EQ class: 
+
+BE: seenVBN
+EQ class: seevbn	
+
+BE: seeVB
+EQ class: 
+
+BE: humanJJ
+EQ class: humannessnn	humanitynn	humannn	
+
+BE: lightJJ
+EQ class: lightnessnn	
+
+BE: largeJJ
+EQ class: bigjj	largenn	largenessnn	
+
+BE: lightJJ
+EQ class: lightnessnn	
+
+BE: humanJJactivitiesNNS
+EQ class: humannnactivitiesnns	humanjjtheynns	humannessnntheynns	humanjjactivitynns	humanitynnactivitynns	humannessnnactivitiesnns	humanjjactivejj	humannessnnactivejj	humanitynnthemnns	humannntheynns	humannessnnthemnns	humannnthemnns	activevbhumanlyrb	humanjjthemnns	humannnactivitynns	humannnactivejj	humannessnnactivitynns	humanitynnactivitiesnns	humanitynnactivejj	humanitynntheynns	
+
+BE: lightJJradianceNNS
+EQ class: lightjjthemnns	lightnessnnradiancenns	lightjjglowingnns	lightnessnnglownns	lightnessnnglowingnns	lightnessnntheynns	lightjjtheynns	lightnessnnthemnns	lightjjglownns	
+
+BE: largeJJcitiesNNS
+EQ class: largejjurban_centernns	largenessnncitynns	largejjthemnns	bigjjmetropolisnns	bigjjtheynns	largenncitynns	largejjcitynns	largenncitiesnns	citifyvblargelyrb	largenessnntheynns	bigjjurban_centernns	largejjmetropolisnns	bigjjthemnns	largejjtheynns	bigjjcitynns	largenessnncitiesnns	largenessnnthemnns	largennmetropolisnns	bigjjcitiesnns	largenntheynns	largennurban_centernns	largennthemnns	largenessnnurban_centernns	largenessnnmetropolisnns	
+
+BE: lightJJpollutionNN
+EQ class: lightnessnnpollutionnn	pollutevblightlyrb	foulvblightlyrb	contaminatevblightlyrb	
+
+BE: seeVBpollutionNN
+EQ class: visual_perceptionnnofinpollutionnn	seernnofinpollutionnn	beholdingnnofinpollutionnn	visionarynnofinpollutionnn	seeingnnofinpollutionnn	illusionistnnofinpollutionnn	
+
+BE: seenVBNradianceNNS
+EQ class: beholdingnnofinglownns	seenvbnglownns	seevbnradiancenns	seeingnnofinglownns	visionarynnofinglowingnns	visual_perceptionnnofintheynns	visionarynnofintheynns	seernnofinglowingnns	seenvbnthemnns	beholdingnnofinthemnns	seevbnglowingnns	illusionistnnofinradiancenns	illusionistnnofintheynns	illusionistnnofinglownns	seenvbntheynns	seernnofinradiancenns	seeingnnofinthemnns	visual_perceptionnnofinglownns	visionarynnofinglownns	beholdingnnofinradiancenns	seevbnthemnns	seernnofinthemnns	seernnofinglownns	illusionistnnofinglowingnns	seenvbnglowingnns	seeingnnofinradiancenns	visual_perceptionnnofinradiancenns	illusionistnnofinthemnns	seernnofintheynns	visionarynnofinthemnns	seevbntheynns	seeingnnofintheynns	seeingnnofinglowingnns	visionarynnofinradiancenns	seevbnglownns	beholdingnnofinglowingnns	visual_perceptionnnofinglowingnns	beholdingnnofintheynns	visual_perceptionnnofinthemnns	
+
+BE: resultNNofINactivitiesNNS
+EQ class: ensuevbactivejj	issuennofintheynns	resultvbtheynns	outcomennofinactivitiesnns	issuennofinactivitiesnns	activejjeffectnn	resultnnofintheynns	ensuevbactivitiesnns	activitiesnnsoutcomenn	outcomennofinthemnns	upshotnnofinactivitynns	outcomennofintheynns	activitiesnnseventnn	ensuevbactivitynns	activejjensuevb	activitiesnnsupshotnn	effectnnofinthemnns	issuennofinactivejj	consequencennofintheynns	eventnnofinactivejj	themnnsupshotnn	activitiesnnsissuenn	activitynnsresultnn	activitynnsupshotnn	activitynnsensuevb	consequencennofinthemnns	themnnsoutcomenn	theynnsconsequencenn	activejjupshotnn	effectnnofinactivitiesnns	resultvbactivejj	activitiesnnsresultnn	activitiesnnsresultvb	resultvbthemnns	themnnseventnn	effectnnofinactivejj	consequencennofinactivejj	theynnseffectnn	upshotnnofinactivitiesnns	issuennofinthemnns	activejjeventnn	activitiesnnseffectnn	eventnnofinactivitiesnns	theynnseventnn	activitynnseventnn	activejjoutcomenn	activejjresultnn	themnnsresultnn	outcomennofinactivejj	resultnnofinactivitynns	activejjissuenn	theynnsensuevb	activejjresultvb	theynnsresultnn	theynnsupshotnn	theynnsresultvb	eventnnofinthemnns	ensuevbthemnns	themnnsensuevb	consequencennofinactivitiesnns	eventnnofintheynns	activitynnsconsequencenn	activitynnseffectnn	theynnsoutcomenn	activitynnsoutcomenn	resultvbactivitiesnns	activitiesnnsconsequencenn	upshotnnofinthemnns	resultvbactivitynns	activejjconsequencenn	ensuevbtheynns	resultnnofinactivejj	outcomennofinactivitynns	effectnnofinactivitynns	themnnsresultvb	eventnnofinactivitynns	activitynnsresultvb	issuennofinactivitynns	themnnseffectnn	themnnsissuenn	activitiesnnsensuevb	upshotnnofintheynns	activitynnsissuenn	upshotnnofinactivejj	effectnnofintheynns	theynnsissuenn	themnnsconsequencenn	consequencennofinactivitynns	resultnnofinthemnns	
+
+BE: radianceNNSduringINnightNN
+EQ class: darknnthemnns	nightlyjjglowingnns	nightlyjjtheynns	themnnsduringinnightnn	glowingnnsduringinnightlyjj	radiancennsduringinnighttimenn	nighttimennglownns	theynnsduringinnighttimenn	glownnsduringinnightnn	darknntheynns	nightnnglowingnns	themnnsduringindarknn	radiancennsduringinnightlyjj	nighttimenntheynns	glowingnnsduringinnighttimenn	themnnsduringinnighttimenn	theynnsduringinnightlyjj	nighttimennthemnns	nightnnthemnns	nighttimennradiancenns	nightnntheynns	darknnglownns	nighttimennglowingnns	nightnnglownns	theynnsduringindarknn	theynnsduringinnightnn	darknnradiancenns	glownnsduringindarknn	glowingnnsduringinnightnn	nightnnradiancenns	darknnglowingnns	nightlyjjthemnns	nightlyjjglownns	glowingnnsduringindarknn	nightlyjjradiancenns	radiancennsduringindarknn	glownnsduringinnightlyjj	themnnsduringinnightlyjj	glownnsduringinnighttimenn	
+
+BE: smogVBduringINdayNN
+EQ class: smogvbduringinmean_solar_daynn	smogvbduringintwenty-four_hour_periodnn	smogvbduringintwenty-four_hoursnn	smogvbduringin24-hour_intervalnn	smogvbduringinsolar_daynn	smogvbduringindailyjj	
+
+BE: seenVBNaboveINcitiesNNS
+EQ class: seevbnaboveintheynns	seevbnaboveincitynns	seevbnaboveinthemnns	seenvbnaboveinthemnns	seevbnaboveinurban_centernns	seevbnaboveincitiesnns	seenvbnaboveintheynns	seenvbnaboveinurban_centernns	seenvbnaboveinmetropolisnns	seenvbnaboveincitynns	seevbnaboveinmetropolisnns	
+
+BE: smogVBasINresultNN
+EQ class: smogvbasinconsequencenn	smogvbasinoutcomenn	smogvbasineffectnn	smogvbasinupshotnn	smogvbasineventnn	smogvbasinissuenn	
+
+BE: areAUXoftenRB
+EQ class: beauxoftenrb	
+
+BE: seenVBNoftenRB
+EQ class: illusionistnnofinoftenrb	beholdingnnofinoftenrb	seevbnoftenrb	visual_perceptionnnofinoftenrb	seernnofinoftenrb	seeingnnofinoftenrb	visionarynnofinoftenrb	
+
+BE: fieldNN
+EQ class: 
+
+BE: astronomyNNP
+EQ class: astronomicjj	astronomicaljj	uranologynnp	
+
+BE: skyNN
+EQ class: 
+
+BE: sphereNN
+EQ class: arenann	fieldnn	areann	domainnn	orbitnn	
+
+BE: calledVBN
+EQ class: callvbn	namevbn	
+
+BE: celestialJJ
+EQ class: heavenlyjj	skynn	
+
+BE: celestialJJsphereNN
+EQ class: celestialjjdomainnn	celestialjjareann	heavenlyjjspherenn	heavenlyjjfieldnn	skynnfieldnn	skynnorbitnn	celestialjjorbitnn	skynnspherenn	heavenlyjjdomainnn	heavenlyjjorbitnn	skynnareann	skynndomainnn	celestialjjarenann	heavenlyjjareann	celestialjjfieldnn	heavenlyjjarenann	skynnarenann	
+
+BE: calledVBNsphereNN
+EQ class: calledvbnarenann	calledvbnareann	calledvbnorbitnn	calledvbndomainnn	namevbnfieldnn	callvbnspherenn	callvbndomainnn	calledvbnfieldnn	namevbndomainnn	callvbnorbitnn	namevbnspherenn	namevbnorbitnn	callvbnarenann	namevbnarenann	callvbnfieldnn	namevbnareann	callvbnareann	
+
+BE: calledVBNskyNN
+EQ class: callvbnskynn	namevbnskynn	
+
+BE: fieldNNofINastronomyNNP
+EQ class: fieldnnofinastronomicjj	astronomicjjfieldnn	fieldnnofinastronomicaljj	fieldnnofinuranologynnp	uranologynnpfieldnn	astronomicaljjfieldnn	astronomynnpfieldnn	
+
+BE: isAUXinINfieldNN
+EQ class: beauxininfieldnn	
+
+BE: isAUXalsoRB
+EQ class: beauxalsorb	
+
+BE: calledVBNalsoRB
+EQ class: callvbnalsorb	namevbnalsorb	
+
+BE: domeNN
+EQ class: 
+
+BE: sunNN
+EQ class: 
+
+BE: starsNNS
+EQ class: starnns	theynns	starryjj	themnns	
+
+BE: planetsNNS
+EQ class: planetaryjj	theynns	planetnns	major_planetnns	themnns	planetaljj	
+
+BE: moonNN
+EQ class: 
+
+BE: seenVBN
+EQ class: seevbn	
+
+BE: travellingVBG
+EQ class: movevbg	govbg	locomotevbg	travelvbg	
+
+BE: imaginaryJJ
+EQ class: fancifuljj	notionaljj	
+
+BE: imaginaryJJdomeNN
+EQ class: fancifuljjdomenn	notionaljjdomenn	
+
+BE: thisDTisAUX
+EQ class: thisdtbeaux	
+
+BE: isAUXdomeNN
+EQ class: beauxdomenn	
+
+BE: seenVBNplanetsNNS
+EQ class: illusionistnnofinplanetaryjj	visionarynnofinmajor_planetnns	seernnofinplanetnns	seenvbnthemnns	illusionistnnofintheynns	seenvbnplanetnns	seenvbnmajor_planetnns	seeingnnofinthemnns	seenvbntheynns	visual_perceptionnnofinplanetaryjj	visual_perceptionnnofinplanetaljj	seernnofinthemnns	seeingnnofinplanetaljj	seernnofinplanetaryjj	beholdingnnofinmajor_planetnns	seeingnnofinplanetnns	illusionistnnofinthemnns	seernnofintheynns	seernnofinplanetsnns	visionarynnofinthemnns	seeingnnofintheynns	seenvbnplanetaryjj	illusionistnnofinmajor_planetnns	visionarynnofinplanetsnns	seernnofinplanetaljj	visionarynnofinplanetaljj	beholdingnnofintheynns	seernnofinmajor_planetnns	visual_perceptionnnofinplanetsnns	seenvbnplanetaljj	visual_perceptionnnofinplanetnns	visual_perceptionnnofintheynns	visionarynnofintheynns	beholdingnnofinplanetnns	visionarynnofinplanetnns	beholdingnnofinthemnns	seeingnnofinplanetsnns	seevbnplanetaljj	beholdingnnofinplanetaljj	visual_perceptionnnofinmajor_planetnns	seeingnnofinmajor_planetnns	seevbnplanetnns	beholdingnnofinplanetaryjj	seevbnthemnns	illusionistnnofinplanetnns	seevbnplanetaryjj	illusionistnnofinplanetsnns	illusionistnnofinplanetaljj	seevbnplanetsnns	seevbnmajor_planetnns	beholdingnnofinplanetsnns	seeingnnofinplanetaryjj	seevbntheynns	visionarynnofinplanetaryjj	visual_perceptionnnofinthemnns	
+
+BE: seenVBNmoonNN
+EQ class: visual_perceptionnnofinmoonnn	beholdingnnofinmoonnn	seevbnmoonnn	visionarynnofinmoonnn	illusionistnnofinmoonnn	seernnofinmoonnn	seeingnnofinmoonnn	
+
+BE: domeNNwhereWRBseenVBN
+EQ class: domennwherewrbseevbn	
+
+BE: sphereNN
+EQ class: arenann	fieldnn	areann	domainnn	orbitnn	
+
+BE: regionsNNS
+EQ class: partnns	theynns	regionnns	themnns	
+
+BE: constellationsOrganizationAnnotation
+EQ class: 
+
+BE: dividedVBN
+EQ class: split_upvbn	dissevervbn	carve_upvbn	separatevbn	dividevbn	splitvbn	
+
+BE: calledVBN
+EQ class: callvbn	namevbn	
+
+BE: celestialJJ
+EQ class: heavenlyjj	skynn	
+
+BE: celestialJJsphereNN
+EQ class: celestialjjdomainnn	celestialjjareann	heavenlyjjspherenn	heavenlyjjfieldnn	skynnfieldnn	skynnorbitnn	celestialjjorbitnn	skynnspherenn	heavenlyjjdomainnn	heavenlyjjorbitnn	skynnareann	skynndomainnn	celestialjjarenann	heavenlyjjareann	celestialjjfieldnn	heavenlyjjarenann	skynnarenann	
+
+BE: calledVBNconstellationsOrganizationAnnotation
+EQ class: namevbnconstellationsorganizationannotation	callvbnconstellationsorganizationannotation	
+
+BE: dividedVBNsphereNN
+EQ class: splitvbndomainnn	dividedvbnfieldnn	splitternnofinarenann	splitvbnarenann	divisiblennofinarenann	carve_upvbnfieldnn	dividevbnfieldnn	splitternnofinspherenn	splitternnofindomainnn	divisionnnofinspherenn	carve_upvbnorbitnn	dividevbnspherenn	divisionaljjofinareann	split_upvbndomainnn	divisionnnofindomainnn	dividernnofinareann	splitternnofinareann	divisiblennofinareann	divisiblennofinorbitnn	separatevbnorbitnn	dividernnofinfieldnn	dissevervbnspherenn	carve_upvbndomainnn	carve_upvbnarenann	divisionaljjofinspherenn	dividevbndomainnn	split_upvbnarenann	separatevbndomainnn	divisiblennofinspherenn	splitvbnareann	divisionaljjofindomainnn	divisionnnofinorbitnn	divisionaljjofinfieldnn	splitvbnfieldnn	splitternnofinorbitnn	dividernnofindomainnn	carve_upvbnareann	dividernnofinspherenn	separatevbnarenann	split_upvbnspherenn	split_upvbnfieldnn	divisionaljjofinorbitnn	dividedvbnarenann	divisionaljjofinarenann	dividedvbnareann	dissevervbnfieldnn	dividedvbnorbitnn	splitvbnspherenn	split_upvbnorbitnn	splitternnofinfieldnn	dividevbnorbitnn	split_upvbnareann	dividevbnareann	dividevbnarenann	dissevervbnarenann	dividernnofinorbitnn	dividernnofinarenann	divisionnnofinareann	dissevervbnareann	divisiblennofinfieldnn	dissevervbndomainnn	separatevbnfieldnn	carve_upvbnspherenn	separatevbnareann	dividedvbndomainnn	splitvbnorbitnn	divisionnnofinarenann	divisionnnofinfieldnn	dissevervbnorbitnn	divisiblennofindomainnn	separatevbnspherenn	
+
+BE: calledVBNregionsNNS
+EQ class: callvbnregionsnns	callvbnregionnns	calledvbntheynns	namevbnthemnns	namevbnpartnns	namevbntheynns	callvbnthemnns	callvbnpartnns	namevbnregionsnns	calledvbnregionnns	calledvbnpartnns	calledvbnthemnns	callvbntheynns	namevbnregionnns	
+
+BE: dividedVBNintoINregionsNNS
+EQ class: separatevbnintoinregionnns	dissevervbnintointheynns	split_upvbnintointhemnns	dividevbnintointhemnns	dividevbnintoinregionsnns	separatevbnintoinpartnns	splitvbnintoinpartnns	separatevbnintointheynns	separatevbnintointhemnns	splitvbnintoinregionsnns	dividedvbnintointheynns	dividevbnintointheynns	dividedvbnintoinregionnns	dividevbnintoinpartnns	dividedvbnintoinpartnns	split_upvbnintoinregionnns	splitvbnintointhemnns	carve_upvbnintointhemnns	dividevbnintoinregionnns	dissevervbnintointhemnns	dividedvbnintointhemnns	carve_upvbnintointheynns	split_upvbnintoinpartnns	splitvbnintoinregionnns	carve_upvbnintoinpartnns	dissevervbnintoinregionsnns	dissevervbnintoinregionnns	separatevbnintoinregionsnns	split_upvbnintoinregionsnns	carve_upvbnintoinregionsnns	carve_upvbnintoinregionnns	split_upvbnintointheynns	splitvbnintointheynns	dissevervbnintoinpartnns	
+
+BE: constellationsOrganizationAnnotationregionsNNS
+EQ class: constellationsorganizationannotationregionnns	configurationnnofintheynns	regionnnsdotvb	constellationsorganizationannotationthemnns	partnnsconstellationsorganizationannotation	constellationnnofinregionnns	theynnsconstellationsorganizationannotation	constellationnnofinregionsnns	partnnsdotvb	partnnsconstellatevb	regionnnsconstellatevb	regionsnnsstudvb	constellationnnofinthemnns	constellationnnofinpartnns	theynnsstudvb	theynnsdotvb	regionnnsstudvb	regionsnnsdotvb	theynnsconstellatevb	constellationsorganizationannotationpartnns	configurationnnofinregionsnns	regionnnsconstellationsorganizationannotation	regionsnnsconstellatevb	constellationnnofintheynns	partnnsstudvb	configurationnnofinthemnns	regionsnnsconstellationsorganizationannotation	constellationsorganizationannotationtheynns	themnnsconstellatevb	themnnsconstellationsorganizationannotation	themnnsstudvb	themnnsdotvb	configurationnnofinregionnns	configurationnnofinpartnns	
+

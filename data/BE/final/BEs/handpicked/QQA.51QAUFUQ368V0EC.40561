@@ -1,0 +1,66 @@
+#well, depends on wheather its love marriage or arranged one.if its arrange marriage its important to make ur family happy,and if its love marriage its important to make ur galfriend happy..as simple as dat..
+#(S1 (S (INTJ (UH well)) (, ,) (VP (VBZ depends) (PP (IN on) (S (VP (VP (NN wheather) (NP (PRP$ its) (NN love) (NN marriage))) (CC or) (VP (VBD arranged) (NP (NN one.if)) (NP (PRP$ its) (VB arrange) (NN marriage)) (S (NP (PRP$ its) (JJ important)) (VP (TO to) (VP (VP (VB make) (S (NP (CD ur) (NN family)) (ADJP (JJ happy)))) (, ,) (CC and) (VP (PP (IN if) (NP (PRP$ its) (NN love) (NN marriage) (S (NP (PRP$ its) (JJ important)) (VP (TO to) (VP (VB make) (NP (NP (CD ur) (JJ galfriend) (JJ happy) (NNS ..)) (PP (IN as) (ADJP (JJ simple) (PP (IN as) (NP (NNP dat)))))))) (. .))))))))))))) (. .)))
+#Rule:Nouns
+r1wheatherNN
+r1loveNN
+r1marriageNN
+r1one.ifNN
+r1marriageNN
+r1familyNN
+r1loveNN
+r1marriageNN
+r1..NNS
+r1dat..LocationAnnotation
+
+#Rule:Verbs
+r2dependsVBZ
+r2arrangedVBD
+r2arrangeVB
+r2makeVB
+r2makeVB
+
+#Rule:Adjs
+r4importantJJ
+r4happyJJ
+r4importantJJ
+r4galfriendJJ
+r4happyJJ
+r4simpleJJ
+
+#Rule:Adj-Noun
+r5urCDfamilyNN
+r5urCD..NNS
+r5galfriendJJ..NNS
+r5happyJJ..NNS
+
+#Rule:PRP-Noun
+r6itsPRP$marriageNN
+r6itsPRP$marriageNN
+r6itsPRP$importantJJ
+r6itsPRP$marriageNN
+r6itsPRP$importantJJ
+
+#Rule:N-HeadNoun
+r8loveNNmarriageNN
+r8loveNNmarriageNN
+
+#Rule:HeadNoun-V
+r11importantJJmakeVB
+r11importantJJmakeVB
+
+#Rule:V-HeadNoun
+r21wheatherNNmarriageNN
+r21arrangedVBDone.ifNN
+r21arrangedVBDmarriageNN
+r21makeVB..NNS
+
+#Rule:V-HeadNoun
+r22arrangedVBDimportantJJ
+r22makeVBfamilyNN
+
+#Rule:PPinADJP
+r37simpleJJasINdat..LocationAnnotation
+
+@lemmas-left	wheather	simple	depend	important	ur	its	marriage	love	arrange	galfriend	one.if	happy	family	arranged	..	dat..	depends	make	
+@lemmas-right	one.if	important	family	..	dat..	marriage	make	
+@lemmas-center	as	

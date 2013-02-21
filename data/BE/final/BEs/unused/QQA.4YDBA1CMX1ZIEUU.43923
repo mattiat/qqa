@@ -1,0 +1,22 @@
+#If they stare into your eyes, they are lying
+#(S1 (S (SBAR (IN If) (S (NP (PRP they)) (VP (VBP stare) (PP (IN into) (NP (PRP$ your) (NNS eyes)))))) (, ,) (NP (PRP they)) (VP (AUX are) (VP (VBG lying)))))
+#Rule:Nouns
+r1eyesNNS
+
+#Rule:Verbs
+r2stareVBP
+r2lyingVBG
+
+#Rule:PRP-Noun
+r6yourPRP$eyesNNS
+
+#Rule:HeadNoun-V
+r11theyPRPlyingVBG
+r11theyPRPstareVBP
+
+#Rule:PPinVP
+r30stareVBPintoINeyesNNS
+
+@lemmas-left	they	lying	your	stare	lie	eyes	
+@lemmas-right	lying	stare	lie	eyes	
+@lemmas-center	into	

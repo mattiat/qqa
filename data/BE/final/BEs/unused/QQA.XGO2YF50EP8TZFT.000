@@ -1,0 +1,86 @@
+#How to fight depression without medications??
+#(S1 (FRAG (SBAR (WHADVP (WRB How)) (S (VP (TO to) (VP (VB fight) (NP (NN depression)) (PP (IN without) (NP (NNS medications)))))) (. ?)) (. ?)))
+#Rule:Nouns
+r1depressionNN
+r1medicationsNNS
+
+#Rule:Verbs
+r2fightVB
+
+#Rule:V-HeadNoun
+r21fightVBdepressionNN
+
+#Rule:PPinVP
+r30fightVBwithoutINmedicationsNNS
+
+#Goodness, thanks all for the info thus far. I felt depressed in the evening and it will go off after 3 hours or so. Very strange. When it arrives, I felt like crying and my chest feels tight.  I m worried if this continues.
+#(S1 (S (S (NP (NN Goodness)) (, ,) (NP (NP (NNS thanks)) (PP (ADVP (DT all)) (IN for) (NP (DT the) (NN info)))) (ADVP (RB thus)) (VP (VBD far.) (SBAR (S (S (NP (PRP I)) (VP (VBD felt) (VP (VBN depressed) (PP (IN in) (NP (DT the) (NN evening)))))) (CC and) (S (NP (PRP it)) (VP (MD will) (VP (VB go) (PRT (RP off)) (PP (IN after) (NP (NP (CD 3) (NNS hours)) (CC or) (NP (CD so.) (JJ Very) (NNS strange.)))) (SBAR (WHADVP (WRB When)) (S (NP (PRP it)) (VP (VBZ arrives))))))))))) (, ,) (S (NP (PRP I)) (VP (VBD felt) (PP (IN like) (S (VP (VBG crying)))))) (CC and) (S (NP (PRP$ my) (NN chest)) (VP (VBZ feels) (VP (VBN tight.) (S (NP (PRP I)) (ADJP (NNP m) (JJ worried)) (SBAR (IN if) (S (NP (DT this)) (VP (VBZ continues)))))))) (. .)))
+#Rule:Nouns
+r1GoodnessOrganizationAnnotation
+r1thanksNNS
+r1infoNN
+r1eveningNN
+r1hoursNNS
+r1strangeNNS
+r1chestNN
+r1mNNP
+
+#Rule:Verbs
+r2farVBD
+r2feltVBD
+r2depressedVBN
+r2arrivesVBZ
+r2feltVBD
+r2cryingVBG
+r2feelsVBZ
+r2tightVBN
+r2continuesVBZ
+
+#Rule:V-PRT
+r3goVBoffRP
+
+#Rule:Adjs
+r4VeryPersonAnnotation
+r4worriedJJ
+
+#Rule:Adj-Noun
+r53CDhoursNNS
+r5soCDstrangeNNS
+r5VeryPersonAnnotationstrangeNNS
+
+#Rule:PRP-Noun
+r6myPRP$chestNN
+
+#Rule:HeadNoun-V
+r11GoodnessOrganizationAnnotationfarVBD
+r11thanksNNSfarVBD
+r11IPersonAnnotationfeltVBD
+r11itPRPgoVB
+r11itPRParrivesVBZ
+r11iPRPfeltVBD
+r11chestNNfeelsVBZ
+r11thisDTcontinuesVBZ
+
+#Rule:V-HeadNoun
+r22tightVBNiPRP
+
+#Rule:V-HeadNoun(passive)
+r24depressedVBNIPersonAnnotation
+r24tightVBNchestNN
+
+#Rule:PPinNP
+r26thanksNNSforINinfoNN
+
+#Rule:PPinVP
+r30goVBafterINhoursNNS
+r30goVBafterINstrangeNNS
+
+#Rule:PPinVP
+r32depressedVBNinINeveningNN
+
+#Rule:V-ADV
+r46farVBDthusRB
+
+@lemmas-left	depress	tight.	medications	fight	chest	feels	arrives	strange.	I	info	strange	thanks	evening	medication	feel	it	Very	so	hours	so.	far	crying	m	my	depression	cry	i	Goodness	3	arrive	depressed	far.	felt	worried	continue	tight	this	go	continues	
+@lemmas-right	medication	feel	medications	thus	hours	chest	far	feels	arrives	strange.	I	depression	info	i	arrive	strange	far.	felt	continue	off	evening	continues	go	
+@lemmas-center	after	for	in	without	

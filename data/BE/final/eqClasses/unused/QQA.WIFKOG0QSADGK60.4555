@@ -1,0 +1,567 @@
+BE: dealNN
+EQ class: tradenn	business_dealnn	
+
+BE: eatVBP
+EQ class: 
+
+BE: exerciseVBP
+EQ class: exertvbp	
+
+BE: helpVB
+EQ class: aidvb	assistvb	
+
+BE: greatJJ
+EQ class: greatnessnn	
+
+BE: greatJJdealNN
+EQ class: plowvbgreatlyrb	greatjjtradenn	addressvbgreatlyrb	covervbgreatlyrb	greatjjbusiness_dealnn	greatnessnndealnn	greatnessnnbusiness_dealnn	greatnessnntradenn	handlevbgreatlyrb	dealvbgreatlyrb	treatvbgreatlyrb	
+
+BE: itPRPhelpVB
+EQ class: helpnnofinitprp	supporternnofinitprp	assistancennofinitprp	helpernnofinitprp	itprpaidvb	assistantnnofinitprp	supporternnitprp	helpernnitprp	itprpassistvb	assistantnnitprp	assistnnofinitprp	helpnnitprp	aidnnofinitprp	
+
+BE: youPRPeatVBP
+EQ class: eaternnyouprp	eatingnnofinyouprp	feedernnyouprp	feedingnnofinyouprp	eatingnnyouprp	feedernnofinyouprp	eaternnofinyouprp	feedingnnyouprp	
+
+BE: youPRPexerciseVBP
+EQ class: youprpexertvbp	workoutnnofinyouprp	exercisingnnofinyouprp	physical_exertionnnofinyouprp	exercisennofinyouprp	physical_exercisennofinyouprp	
+
+BE: helpVBdealNN
+EQ class: aidnnofinbusiness_dealnn	helpernnofindealnn	assistnnofintradenn	supporternnofinbusiness_dealnn	helpnnofindealnn	helpvbbusiness_dealnn	helpnnofinbusiness_dealnn	aidvbtradenn	aidvbdealnn	helpnnofintradenn	assistancennofintradenn	supporternnofintradenn	assistancennofindealnn	helpernnofinbusiness_dealnn	assistvbbusiness_dealnn	aidvbbusiness_dealnn	assistvbdealnn	helpernnofintradenn	aidnnofindealnn	assistnnofindealnn	assistantnnofindealnn	assistnnofinbusiness_dealnn	aidnnofintradenn	assistantnnofintradenn	assistancennofinbusiness_dealnn	helpvbtradenn	assistvbtradenn	assistantnnofinbusiness_dealnn	supporternnofindealnn	
+
+BE: exerciseVBPproperlyRB
+EQ class: properjjphysical_exertionnn	workoutnnofinproperlyrb	propernessnnexercisenn	exercisennofinproperlyrb	propernessnnininexertvbp	propernessnnphysical_exercisenn	properjjworkoutnn	properjjininexercisevbp	exertvbpproperlyrb	physical_exercisennofinproperlyrb	propernessnnininexercisenn	properjjininexercisenn	propernessnnininphysical_exertionnn	propernessnnphysical_exertionnn	properjjininexertvbp	properjjininphysical_exercisenn	properjjininworkoutnn	properjjininexercisingnn	physical_exertionnnofinproperlyrb	propernessnnininphysical_exercisenn	propernessnnininexercisevbp	properjjexercisingnn	propernessnnworkoutnn	propernessnnexercisingnn	exercisingnnofinproperlyrb	propernessnnininworkoutnn	properjjphysical_exercisenn	propernessnnininexercisingnn	properjjexercisenn	properjjininphysical_exertionnn	
+
+BE: doctorNN
+EQ class: physiciannn	dr.nn	doctorialjj	docnn	mediconn	mdnn	
+
+BE: medicationNN
+EQ class: medicinenn	medicinal_drugnn	medicamentnn	
+
+BE: putVBN
+EQ class: positionvbn	posevbn	placevbn	setvbn	layvbn	
+
+BE: takeVB
+EQ class: 
+
+BE: yourPRP$doctorNN
+EQ class: yourprp$docnn	physiciannnofinyourprp$	yourprp$sophisticatevb	doctor_upvbyourprp$	mediconnofinyourprp$	doctorvbyourprp$	yourprp$doctorialvb	doctornnofinyourprp$	yourprp$doctor_upvb	yourprp$doctorialjj	yourprp$doctorvb	yourprp$mediconn	yourprp$physiciannn	doctorialjjofinyourprp$	mdnnofinyourprp$	yourprp$mdnn	doctorialvbyourprp$	sophisticatevbyourprp$	docnnofinyourprp$	dr.nnofinyourprp$	yourprp$dr.nn	
+
+BE: doctorNNputVBN
+EQ class: dr.nnpositionvbn	doctornnlayvbn	dr.nnlayvbn	physiciannnsetvbn	mediconnposevbn	docnnsetvbn	mediconnputvbn	doctorialjjpositionvbn	docnnlayvbn	mediconnlayvbn	physiciannnpositionvbn	docnnputvbn	dr.nnplacevbn	physiciannnlayvbn	mediconnsetvbn	docnnpositionvbn	dr.nnsetvbn	mdnnpositionvbn	physiciannnplacevbn	doctornnsetvbn	physiciannnputvbn	doctornnposevbn	doctornnplacevbn	mdnnplacevbn	dr.nnposevbn	doctorialjjposevbn	docnnplacevbn	dr.nnputvbn	doctorialjjsetvbn	mediconnpositionvbn	doctorialjjplacevbn	mdnnposevbn	docnnposevbn	mediconnplacevbn	doctorialjjlayvbn	mdnnputvbn	mdnnlayvbn	doctornnpositionvbn	doctorialjjputvbn	mdnnsetvbn	physiciannnposevbn	
+
+BE: putVBNyouPRP
+EQ class: positionvbnyouprp	layvbnyouprp	placevbnyouprp	setvbnyouprp	posevbnyouprp	
+
+BE: takeVBitPRP
+EQ class: 
+
+BE: putVBNonINmedicationNN
+EQ class: placevbnoninmedicationnn	setvbnoninmedicamentnn	positionvbnoninmedicamentnn	putvbnoninmedicinal_drugnn	setvbnoninmedicinenn	placevbnoninmedicamentnn	positionvbnoninmedicinal_drugnn	layvbnoninmedicinenn	posevbnoninmedicinenn	posevbnoninmedicamentnn	setvbnoninmedicinal_drugnn	putvbnoninmedicamentnn	layvbnoninmedicinal_drugnn	posevbnoninmedicationnn	putvbnoninmedicinenn	positionvbnoninmedicinenn	positionvbnoninmedicationnn	layvbnoninmedicamentnn	layvbnoninmedicationnn	placevbnoninmedicinal_drugnn	placevbnoninmedicinenn	setvbnoninmedicationnn	posevbnoninmedicinal_drugnn	
+
+BE: takeVBreligiouslyRB
+EQ class: religiousnessnninintakevb	religiousjjinintakevb	religionnninintakevb	religiositynninintakevb	spiritualjjinintakevb	
+
+BE: diabeticNNP
+EQ class: diabeticjj	
+
+BE: dietNN
+EQ class: dieteticaljj	dieteticjj	dietaryjj	
+
+BE: foorsNNS
+EQ class: theynns	themnns	
+
+BE: foodNN
+EQ class: nutrientnn	
+
+BE: pyramidNN
+EQ class: pyramidaljj	pyramidicaljj	
+
+BE: portionNN
+EQ class: constituentnn	componentnn	component_partnn	partnn	
+
+BE: sizesNNS
+EQ class: sizenns	theynns	themnns	
+
+BE: goodJJ
+EQ class: goodnessnn	
+
+BE: too--eatJJ
+EQ class: 
+
+BE: properJJ
+EQ class: propernessnn	
+
+BE: properJJsizesNNS
+EQ class: propernessnnsizesnns	properjjtheynns	propernessnnthemnns	properjjthemnns	sizevbproperlyrb	properjjsizenns	propernessnnsizenns	propernessnntheynns	
+
+BE: diabeticNNPdietNN
+EQ class: dieteticalvbdiabeticnnp	diabeticjjdieteticaljj	dietaryjjofindiabeticjj	dieteticaljjofindiabeticnnp	dietnnofindiabeticjj	diabeticnnpdieteticvb	dieteticalvbdiabeticjj	diabeticnnpdietvb	dietvbdiabeticjj	dieteticjjofindiabeticjj	diabeticnnpdietaryjj	dietaryvbdiabeticjj	diabeticjjdieteticjj	diabeticjjdietaryjj	diabeticnnpdieteticalvb	diabeticjjdieteticvb	diabeticjjdieticianvb	diabeticjjdietnn	dietaryvbdiabeticnnp	diabeticjjdietvb	dieteticvbdiabeticnnp	diabeticjjdieteticalvb	dieteticvbdiabeticjj	dietvbdiabeticnnp	diabeticnnpdietaryvb	dietaryjjofindiabeticnnp	dietnnofindiabeticnnp	dieticianvbdiabeticnnp	dieticianvbdiabeticjj	diabeticnnpdieteticjj	dieteticjjofindiabeticnnp	diabeticjjdietaryvb	dieteticaljjofindiabeticjj	diabeticnnpdieteticaljj	diabeticnnpdieticianvb	
+
+BE: foodNNpyramidNN
+EQ class: nutrientnnpyramidicaljj	pyramidicalvbnutrientnn	pyramidnnofinnutrientnn	pyramidalvbnutrientnn	nutrientnnpyramidaljj	foodnnpyramidicaljj	pyramidicalvbfoodnn	nutrientnnpyramidvb	nutrientnnpyramidalvb	nutrientnnpyramidicalvb	pyramidaljjofinfoodnn	nutrientnnpyramidnn	pyramidvbnutrientnn	pyramidicaljjofinnutrientnn	pyramidicaljjofinfoodnn	pyramidvbfoodnn	foodnnpyramidaljj	foodnnpyramidicalvb	pyramidnnofinfoodnn	pyramidaljjofinnutrientnn	foodnnpyramidalvb	pyramidalvbfoodnn	foodnnpyramidvb	
+
+BE: portionNNsizesNNS
+EQ class: themnnsofinpartnn	portionnnthemnns	themnnsofincomponentnn	themnnsofinportionnn	sizennsofinconstituentnn	component_partnnsizenns	partnnsizevb	sizesnnsofincomponent_partnn	constituentnntheynns	componentnnsizesnns	partnntheynns	sizennsofincomponent_partnn	sizennsofinpartnn	theynnsofinportionnn	theynnsofincomponent_partnn	component_partnnsizesnns	partnnsizesnns	theynnsofincomponentnn	componentnnsizevb	sizennsofinportionnn	partnnsizenns	sizevbcomponentnn	themnnsofincomponent_partnn	sizesnnsofinpartnn	componentnntheynns	component_partnnthemnns	sizesnnsofincomponentnn	sizesnnsofinconstituentnn	componentnnsizenns	sizesnnsofinportionnn	sizevbconstituentnn	constituentnnsizenns	constituentnnsizevb	partnnthemnns	theynnsofinpartnn	component_partnnsizevb	sizevbpartnn	sizennsofincomponentnn	component_partnntheynns	portionnnsizenns	componentnnthemnns	portionnnsizevb	sizevbcomponent_partnn	themnnsofinconstituentnn	portionnntheynns	theynnsofinconstituentnn	sizevbportionnn	constituentnnthemnns	constituentnnsizesnns	
+
+BE: dietNNisAUX
+EQ class: dietnnbeaux	dieteticaljjbeaux	dieteticjjisaux	dietaryjjisaux	dieteticaljjisaux	dieteticjjbeaux	dietaryjjbeaux	
+
+BE: isAUXgoodJJ
+EQ class: isauxgoodnessnn	beauxgoodnessnn	beauxgoodjj	
+
+BE: foorsNNSonINpyramidNN
+EQ class: foorsnnsoninpyramidaljj	theynnsoninpyramidicaljj	foorsnnsoninpyramidicaljj	themnnsoninpyramidicaljj	theynnsoninpyramidaljj	themnnsoninpyramidaljj	themnnsoninpyramidnn	theynnsoninpyramidnn	
+
+BE: foorsNNSinINsizesNNS
+EQ class: themnnsinintheynns	theynnsininsizenns	theynnsinintheynns	theynnsininthemnns	themnnsininsizenns	themnnsininsizesnns	foorsnnsininsizenns	theynnsininsizesnns	foorsnnsininthemnns	foorsnnsinintheynns	themnnsininthemnns	
+
+BE: mealsNNS
+EQ class: theynns	repastnns	mealnns	themnns	
+
+BE: snacksNNS
+EQ class: bitenns	theynns	snacknns	collationnns	themnns	
+
+BE: eatVB
+EQ class: 
+
+BE: smallJJ
+EQ class: littlejj	smallnessnn	
+
+BE: threeCDmealsNNS
+EQ class: terzettocdtheynns	ternioncdthemnns	ternioncdtheynns	threesomecdrepastnns	tiercecdrepastnns	ternioncdmealsnns	triadcdmealnns	leashcdmealnns	tercetcdrepastnns	ternarycdrepastnns	3cdmealsnns	treycdthemnns	ternarycdthemnns	trinitycdmealnns	trinecdmealsnns	ternarycdmealnns	3cdthemnns	trinitycdmealsnns	tiercecdmealnns	threecdthemnns	deuce-acecdmealnns	3cdmealnns	deuce-acecdrepastnns	threecdmealnns	treycdrepastnns	tiercecdmealsnns	leashcdtheynns	troikacdtheynns	tripletcdthemnns	ternioncdmealnns	threesomecdtheynns	trinitycdtheynns	tiercecdthemnns	trinecdthemnns	threecdtheynns	deuce-acecdthemnns	ternarycdtheynns	tercetcdthemnns	terzettocdmealsnns	iiicdtheynns	treycdtheynns	threesomecdmealsnns	leashcdthemnns	troikacdmealnns	3cdtheynns	trinitycdrepastnns	threesomecdthemnns	tercetcdmealnns	iiicdmealsnns	leashcdrepastnns	troikacdthemnns	3cdrepastnns	triocdmealsnns	tiercecdtheynns	tercetcdmealsnns	trinecdmealnns	iiicdthemnns	troikacdmealsnns	triocdthemnns	treycdmealnns	deuce-acecdtheynns	iiicdrepastnns	troikacdrepastnns	terzettocdrepastnns	terzettocdmealnns	trinecdrepastnns	triadcdthemnns	tripletcdmealnns	trinitycdthemnns	triadcdmealsnns	threecdrepastnns	triocdtheynns	threesomecdmealnns	ternarycdmealsnns	triocdrepastnns	ternioncdrepastnns	trinecdtheynns	terzettocdthemnns	tripletcdmealsnns	tripletcdtheynns	treycdmealsnns	tercetcdtheynns	tripletcdrepastnns	triocdmealnns	triadcdtheynns	leashcdmealsnns	iiicdmealnns	triadcdrepastnns	deuce-acecdmealsnns	
+
+BE: smallJJmealsNNS
+EQ class: littlejjthemnns	littlejjmealsnns	smallnessnnmealsnns	smallnessnnmealnns	smallnessnnrepastnns	smalljjmealnns	smalljjrepastnns	smalljjtheynns	smallnessnntheynns	smalljjthemnns	littlejjmealnns	littlejjtheynns	smallnessnnthemnns	littlejjrepastnns	
+
+BE: threeCDsnacksNNS
+EQ class: threesomecdsnacknns	iiicdbitenns	ternioncdbitenns	ternarycdthemnns	threecdsnacknns	3cdthemnns	threesomecdsnacksnns	threecdthemnns	triocdsnacksnns	ternarycdsnacknns	leashcdtheynns	ternarycdcollationnns	trinitycdtheynns	threesomecdtheynns	troikacdsnacksnns	tripletcdcollationnns	triadcdbitenns	tiercecdthemnns	trinecdthemnns	tercetcdbitenns	trinecdsnacknns	iiicdsnacksnns	ternarycdtheynns	tercetcdthemnns	iiicdtheynns	treycdtheynns	leashcdthemnns	ternioncdsnacksnns	deuce-acecdsnacknns	ternioncdsnacknns	3cdtheynns	deuce-acecdbitenns	threesomecdthemnns	terzettocdsnacknns	tiercecdsnacksnns	3cdsnacknns	3cdcollationnns	tiercecdtheynns	trinecdcollationnns	troikacdbitenns	triocdthemnns	ternioncdcollationnns	treycdbitenns	trinitycdsnacksnns	trinitycdsnacknns	tiercecdsnacknns	triadcdthemnns	trinitycdthemnns	triocdbitenns	terzettocdthemnns	triadcdcollationnns	triocdsnacknns	treycdsnacksnns	ternarycdbitenns	trinecdsnacksnns	iiicdsnacknns	treycdsnacknns	ternioncdthemnns	terzettocdtheynns	ternioncdtheynns	leashcdsnacknns	tripletcdsnacksnns	treycdthemnns	triadcdsnacksnns	tripletcdbitenns	tercetcdsnacksnns	terzettocdcollationnns	tiercecdbitenns	tripletcdthemnns	troikacdtheynns	troikacdcollationnns	deuce-acecdsnacksnns	triocdcollationnns	deuce-acecdthemnns	threecdtheynns	trinitycdcollationnns	tripletcdsnacknns	leashcdsnacksnns	treycdcollationnns	terzettocdbitenns	trinitycdbitenns	tercetcdsnacknns	trinecdbitenns	troikacdsnacknns	troikacdthemnns	iiicdthemnns	threesomecdcollationnns	threecdbitenns	deuce-acecdtheynns	threecdcollationnns	tiercecdcollationnns	3cdsnacksnns	3cdbitenns	terzettocdsnacksnns	triocdtheynns	tercetcdcollationnns	ternarycdsnacksnns	trinecdtheynns	leashcdbitenns	tripletcdtheynns	iiicdcollationnns	tercetcdtheynns	triadcdtheynns	deuce-acecdcollationnns	threesomecdbitenns	triadcdsnacknns	leashcdcollationnns	
+
+BE: youPRPeatVB
+EQ class: eaternnyouprp	eatingnnofinyouprp	feedernnyouprp	feedingnnofinyouprp	eatingnnyouprp	feedernnofinyouprp	eaternnofinyouprp	feedingnnyouprp	
+
+BE: eatVBmealsNNS
+EQ class: feedernnofinrepastnns	eaternnofinmealnns	feedingnnofinmealnns	feedernnofinthemnns	feedernnofinmealnns	feedernnofintheynns	eatingnnofintheynns	eatvbtheynns	feedingnnofinrepastnns	eatvbrepastnns	eatvbmealnns	eatingnnofinmealsnns	eatingnnofinrepastnns	eaternnofinmealsnns	feedingnnofinmealsnns	eaternnofinthemnns	eaternnofinrepastnns	feedingnnofintheynns	feedingnnofinthemnns	eaternnofintheynns	eatvbthemnns	eatingnnofinmealnns	eatingnnofinthemnns	feedernnofinmealsnns	
+
+BE: mealsNNSinINbetweenIN
+EQ class: betweenintheynns	betweeninthemnns	theynnsininbetweenin	mealnnsininbetweenin	betweeninmealsnns	themnnsininbetweenin	betweeninrepastnns	betweeninmealnns	repastnnsininbetweenin	
+
+BE: wayNN
+EQ class: stylenn	fashionnn	modenn	mannernn	
+
+BE: bloodNN
+EQ class: bloodyjj	
+
+BE: sugarNN
+EQ class: refined_sugarnn	
+
+BE: preventVB
+EQ class: precludevb	forestallvb	foreclosevb	forbidvb	
+
+BE: fluctuatingVBG
+EQ class: fluctuatevbg	
+
+BE: muchJJ
+EQ class: muchnessnn	
+
+BE: yourPRP$sugarNN
+EQ class: saccharifyvbyourprp$	sugarvbyourprp$	yourprp$sugarvb	yourprp$saccharifyvb	sugarnnofinyourprp$	refined_sugarnnofinyourprp$	yourprp$refined_sugarnn	
+
+BE: bloodNNsugarNN
+EQ class: saccharifyvbbloodnn	sugarvbbloodyjj	bloodyjjofinsugarnn	saccharifyvbbloodyjj	sugarnnofinbloodyjj	bloodyjjrefined_sugarnn	refined_sugarnnbloodvb	bloodyjjsugarnn	bloodnnrefined_sugarnn	sugarnnbloodvb	refined_sugarnnofinbloodyjj	bloodyjjsaccharifyvb	refined_sugarnnofinbloodnn	sugarnnofinbloodnn	bloodnnsugarvb	bloodyjjsugarvb	bloodnnsaccharifyvb	bloodyjjofinrefined_sugarnn	bloodnnofinrefined_sugarnn	sugarvbbloodnn	bloodnnofinsugarnn	
+
+BE: wayNNpreventVB
+EQ class: preventativennofinmodenn	waynnforbidvb	prophylacticnnofinfashionnn	stylennprecludevb	fashionnnpreventvb	mannernnforeclosevb	preventivennofinfashionnn	preventivejjofinwaynn	fashionnnprecludevb	prophylacticnnofinstylenn	mannernnpreventvb	preventivejjofinmannernn	waynnprecludevb	stylennpreventvb	fashionnnforestallvb	mannernnforbidvb	prophylacticnnofinmodenn	fashionnnforeclosevb	modennprecludevb	stylennforeclosevb	mannernnforestallvb	stylennforestallvb	preventativennofinmannernn	preventivejjofinmodenn	fashionnnforbidvb	preventivennofinwaynn	preventivejjofinstylenn	preventativennofinwaynn	preventivennofinmannernn	preventivennofinmodenn	modennpreventvb	waynnforeclosevb	modennforeclosevb	prophylacticnnofinmannernn	preventativennofinfashionnn	modennforbidvb	preventativennofinstylenn	prophylacticnnofinwaynn	preventivennofinstylenn	modennforestallvb	stylennforbidvb	waynnforestallvb	mannernnprecludevb	preventivejjofinfashionnn	
+
+BE: youPRPpreventVB
+EQ class: youprpforbidvb	preventivennofinyouprp	youprpforestallvb	prophylacticnnofinyouprp	preventivejjofinyouprp	preventativennofinyouprp	youprpprecludevb	youprpforeclosevb	
+
+BE: preventVBsugarNN
+EQ class: prophylacticnnofinsugarnn	preventativennofinsugarnn	forbidvbsugarnn	forestallvbsugarnn	forbidvbrefined_sugarnn	preventivennofinrefined_sugarnn	preventivejjofinrefined_sugarnn	precludevbsugarnn	preventvbrefined_sugarnn	precludevbrefined_sugarnn	preventativennofinrefined_sugarnn	forestallvbrefined_sugarnn	preventivennofinsugarnn	prophylacticnnofinrefined_sugarnn	preventivejjofinsugarnn	foreclosevbrefined_sugarnn	foreclosevbsugarnn	
+
+BE: fluctuatingVBGmuchJJ
+EQ class: fluctuatevbgmuchnessnn	fluctuatingvbgmuchnessnn	fluctuationnnofinmuchjj	fluctuationnnofinmuchnessnn	fluctuatevbgmuchjj	
+
+BE: ExerciseNN
+EQ class: workoutnn	physical_exercisenn	physical_exertionnn	exercisingnn	
+
+BE: eatingVBG
+EQ class: eatvbg	
+
+BE: importantJJ
+EQ class: of_importjj	importancenn	
+
+BE: ExerciseNNisAUX
+EQ class: physical_exertionnnbeaux	physical_exercisennbeaux	workoutnnisaux	exercisingnnisaux	physical_exertionnnisaux	exercisennbeaux	workoutnnbeaux	physical_exercisennisaux	exercisingnnbeaux	
+
+BE: isAUXimportantJJ
+EQ class: beauximportancenn	beauximportantjj	beauxof_importjj	isauxof_importjj	isauximportancenn	
+
+BE: importantJJasINeatingVBG
+EQ class: of_importjjasineatvbg	importancennasineatvbg	importantjjasineatvbg	eatingvbgimportantlyrb	of_importjjasineatingvbg	importancennasineatingvbg	eatvbgimportantlyrb	
+
+BE: eatingVBGproperlyRB
+EQ class: propernessnninineaternn	properjjinineatingvbg	properjjinineatvbg	propernessnneaternn	feedingnnofinproperlyrb	properjjininfeedernn	properjjinineaternn	propernessnnininfeedernn	propernessnninineatingvbg	properjjeatingnn	propernessnnininfeedingnn	properjjeaternn	propernessnnfeedernn	propernessnninineatingnn	properjjfeedingnn	feedernnofinproperlyrb	properjjininfeedingnn	eatvbgproperlyrb	propernessnnfeedingnn	properjjfeedernn	properjjinineatingnn	propernessnninineatvbg	eatingnnofinproperlyrb	propernessnneatingnn	eaternnofinproperlyrb	
+
+BE: ExerciseNNeatingVBG
+EQ class: eaternnofinexercisingnn	workoutnneatvbg	eaternnphysical_exercisenn	feedingnnexercisingnn	exercisingnneatvbg	eatingnnofinexercisingnn	feedernnexercisingnn	feedingnnofinphysical_exercisenn	exercisenneatvbg	physical_exertionnneatingvbg	eaternnofinphysical_exercisenn	eatingnnphysical_exertionnn	feedernnofinphysical_exertionnn	feedingnnexercisenn	feedingnnphysical_exercisenn	eatvbgexercisenn	eatingnnofinworkoutnn	feedernnworkoutnn	eatingnnworkoutnn	eatvbgworkoutnn	feedernnofinexercisingnn	physical_exertionnneatvbg	eatvbgexercisingnn	feedernnofinexercisenn	feedernnphysical_exertionnn	eatingvbgworkoutnn	eatingnnofinexercisenn	eaternnofinphysical_exertionnn	exercisingnneatingvbg	eatvbgphysical_exertionnn	eatingnnexercisingnn	feedingnnofinexercisenn	eaternnphysical_exertionnn	eatingnnphysical_exercisenn	eatvbgphysical_exercisenn	feedernnexercisenn	eaternnexercisenn	eaternnworkoutnn	eatingvbgexercisingnn	eatingvbgphysical_exertionnn	feedernnofinphysical_exercisenn	feedernnofinworkoutnn	eatingvbgphysical_exercisenn	eatingnnofinphysical_exercisenn	feedernnphysical_exercisenn	feedingnnofinphysical_exertionnn	feedingnnofinworkoutnn	eaternnofinworkoutnn	eatingnnofinphysical_exertionnn	feedingnnofinexercisingnn	eatingvbgexercisenn	eaternnofinexercisenn	eatingnnexercisenn	feedingnnworkoutnn	workoutnneatingvbg	feedingnnphysical_exertionnn	physical_exercisenneatvbg	physical_exercisenneatingvbg	eaternnexercisingnn	
+
+BE: glassesNNS
+EQ class: eyeglassesnns	specsnns	theynns	spectaclesnns	themnns	
+
+BE: waterNN
+EQ class: wateryjj	h2onn	
+
+BE: doctorsNNS
+EQ class: physiciannns	doctorialjj	mdnns	mediconns	theynns	docnns	doctornns	dr.nns	themnns	
+
+BE: systemNN
+EQ class: 
+
+BE: rememberVB
+EQ class: retrievevb	recollectvb	recallvb	call_upvb	call_backvb	thinkvb	
+
+BE: drinkVB
+EQ class: imbibevb	
+
+BE: recommend--itVBP
+EQ class: 
+
+BE: keepsVBZ
+EQ class: holdvbz	keepvbz	maintainvbz	
+
+BE: flushedVBNoutRP
+EQ class: flowernnofinoutrp	heydaynnofinoutrp	flushnnofinoutrp	crimsonvbnoutrp	efflorescencennofinoutrp	flushvbnoutrp	primennofinoutrp	bloomnnofinoutrp	flushjjofinoutrp	reddenvbnoutrp	blushvbnoutrp	peaknnofinoutrp	blossomnnofinoutrp	
+
+BE: 8CDglassesNNS
+EQ class: octetcdthemnns	8.cdtheynns	octonarycdspecsnns	ogdoadcdspecsnns	8.cdglassesnns	8.cdeyeglassesnns	eighter_from_decaturcdspecsnns	octonarycdglassesnns	octonarycdthemnns	ogdoadcdglassesnns	eightcdthemnns	octadcdspectaclesnns	ogdoadcdtheynns	ogdoadcdspectaclesnns	octonarycdeyeglassesnns	eightercdspectaclesnns	eightercdglassesnns	eightercdspecsnns	8cdeyeglassesnns	viiicdtheynns	octadcdglassesnns	octadcdspecsnns	eightcdeyeglassesnns	eightercdthemnns	viiicdspecsnns	viiicdglassesnns	octonarycdtheynns	eightercdeyeglassesnns	viiicdeyeglassesnns	eightcdspecsnns	viiicdthemnns	viiicdspectaclesnns	eighter_from_decaturcdglassesnns	8.cdspectaclesnns	octetcdtheynns	octonarycdspectaclesnns	octadcdeyeglassesnns	8cdspecsnns	eighter_from_decaturcdspectaclesnns	octadcdthemnns	8cdspectaclesnns	octetcdspectaclesnns	eighter_from_decaturcdeyeglassesnns	eightcdglassesnns	8cdthemnns	octadcdtheynns	eightercdtheynns	octetcdglassesnns	ogdoadcdeyeglassesnns	octetcdeyeglassesnns	eightcdspectaclesnns	octetcdspecsnns	8.cdthemnns	eighter_from_decaturcdthemnns	8cdtheynns	ogdoadcdthemnns	8.cdspecsnns	eighter_from_decaturcdtheynns	eightcdtheynns	
+
+BE: yourPRP$systemNN
+EQ class: systemnnofinyourprp$	
+
+BE: doctorsNNSrecommend--itVBP
+EQ class: docnnsrecommend--itvbp	doctornnsrecommend--itvbp	theynnsrecommend--itvbp	dr.nnsrecommend--itvbp	mediconnsrecommend--itvbp	themnnsrecommend--itvbp	doctorialjjrecommend--itvbp	physiciannnsrecommend--itvbp	mdnnsrecommend--itvbp	
+
+BE: drinkVBglassesNNS
+EQ class: drinkingnnofinspectaclesnns	drinkvbeyeglassesnns	imbibingnnofinglassesnns	imbibevbtheynns	drinknnofinthemnns	drinkvbtheynns	drinkernnofinthemnns	drinkernnofinspecsnns	imbibevbthemnns	drinkvbthemnns	drinkvbspecsnns	imbibevbglassesnns	imbibingnnofinthemnns	imbibitionnnofineyeglassesnns	imbibevbspectaclesnns	drinkernnofinspectaclesnns	drinknnofinspecsnns	drinkernnofintheynns	imbibitionnnofinthemnns	imbibingnnofinspecsnns	imbibingnnofinspectaclesnns	drinkingnnofintheynns	imbibitionnnofinglassesnns	imbibingnnofineyeglassesnns	drinknnofintheynns	drinkingnnofineyeglassesnns	drinkingnnofinthemnns	drinknnofinspectaclesnns	drinkingnnofinglassesnns	drinknnofineyeglassesnns	imbibitionnnofinspecsnns	drinkingnnofinspecsnns	imbibevbspecsnns	drinkernnofinglassesnns	drinkernnofineyeglassesnns	drinknnofinglassesnns	imbibitionnnofinspectaclesnns	imbibitionnnofintheynns	drinkvbspectaclesnns	imbibevbeyeglassesnns	imbibingnnofintheynns	
+
+BE: keepsVBZsystemNN
+EQ class: keepvbzsystemnn	maintainvbzsystemnn	holdvbzsystemnn	
+
+BE: flushedVBNsystemNN
+EQ class: flowernnofinsystemnn	flushvbnsystemnn	reddenvbnsystemnn	blossomnnofinsystemnn	flushjjofinsystemnn	blushvbnsystemnn	bloomnnofinsystemnn	crimsonvbnsystemnn	peaknnofinsystemnn	flushnnofinsystemnn	primennofinsystemnn	efflorescencennofinsystemnn	heydaynnofinsystemnn	
+
+BE: glassesNNSofINwaterNN
+EQ class: h2onnspecsnns	themnnsofinwateryjj	wateryjjspecsnns	spectaclesnnsofinwaternn	eyeglassesnnsofinh2onn	specsnnsofinh2onn	h2onnthemnns	spectaclesnnsofinwateryjj	h2onneyeglassesnns	waternnthemnns	h2onntheynns	wateryjjeyeglassesnns	theynnsofinh2onn	theynnsofinwateryjj	waternnspecsnns	eyeglassesnnsofinwateryjj	specsnnsofinwaternn	waternntheynns	waternneyeglassesnns	h2onnglassesnns	wateryjjspectaclesnns	waternnspectaclesnns	wateryjjtheynns	themnnsofinh2onn	h2onnspectaclesnns	spectaclesnnsofinh2onn	specsnnsofinwateryjj	eyeglassesnnsofinwaternn	theynnsofinwaternn	wateryjjthemnns	glassesnnsofinwateryjj	waternnglassesnns	wateryjjglassesnns	glassesnnsofinh2onn	themnnsofinwaternn	
+
+BE: drinkVBasINrecommend--itVBP
+EQ class: imbibevbasinrecommend--itvbp	
+
+BE: rememberVBdrinkVB
+EQ class: call_upvbdrinkvb	thinkvbdrinkvb	memorynnofinimbibevb	remembervbimbibevb	retrievevbimbibevb	rememberingnnofindrinkvb	recollectvbimbibevb	recollectionnnofinimbibevb	thinkvbimbibevb	recollectionnnofindrinkvb	anamnesisnnofinimbibevb	call_backvbimbibevb	recallvbimbibevb	remembrancennofinimbibevb	call_upvbimbibevb	anamnesisnnofindrinkvb	call_backvbdrinkvb	remembrancennofindrinkvb	rememberingnnofinimbibevb	recallvbdrinkvb	memorynnofindrinkvb	retrievevbdrinkvb	recollectvbdrinkvb	
+
+BE: recommend--itVBPnormallyRB
+EQ class: 
+
+BE: sweetsNNS
+EQ class: henry_sweetnns	sweetnns	theynns	themnns	
+
+BE: tLocationAnnotation
+EQ class: 
+
+BE: failureNN
+EQ class: 
+
+BE: planNN
+EQ class: programnn	programmenn	
+
+BE: avoidVB
+EQ class: 
+
+BE: donVB
+EQ class: assumevb	put_onvb	wearvb	get_intovb	
+
+BE: considerVB
+EQ class: reckonvb	seevb	viewvb	regardvb	
+
+BE: hardJJ
+EQ class: difficultjj	hardnessnn	
+
+BE: one--insteadJJ
+EQ class: 
+
+BE: itPRPbeAUX
+EQ class: 
+
+BE: tLocationAnnotationconsiderVB
+EQ class: tlocationannotationviewvb	tlocationannotationregardvb	tlocationannotationseevb	tlocationannotationreckonvb	
+
+BE: youPRPhaveAUX
+EQ class: youprphave_gotaux	rich_personnnofinyouprp	havennofinyouprp	youprpholdaux	wealthy_personnnofinyouprp	
+
+BE: avoidVBsweetsNNS
+EQ class: avoidancennofinthemnns	dodgingnnofinsweetnns	dodgingnnofintheynns	avoidvbhenry_sweetnns	avoidancennofinsweetnns	turning_awaynnofinhenry_sweetnns	shunningnnofinsweetnns	shunningnnofintheynns	dodgingnnofinsweetsnns	avoidancennofinsweetsnns	avoidvbsweetnns	dodgingnnofinhenry_sweetnns	turning_awaynnofinthemnns	avoidancennofintheynns	avoidancennofinhenry_sweetnns	avoidvbtheynns	shunningnnofinhenry_sweetnns	shunningnnofinsweetsnns	shunningnnofinthemnns	avoidvbthemnns	turning_awaynnofinsweetnns	turning_awaynnofintheynns	dodgingnnofinthemnns	turning_awaynnofinsweetsnns	
+
+BE: considerVByourselfPRP
+EQ class: regardvbyourselfprp	viewvbyourselfprp	seevbyourselfprp	reckonvbyourselfprp	
+
+BE: donVBtLocationAnnotation
+EQ class: wearvbtlocationannotation	get_intovbtlocationannotation	put_onvbtlocationannotation	assumevbtlocationannotation	
+
+BE: beAUXhardJJ
+EQ class: beauxdifficultjj	beauxhardnessnn	
+
+BE: considerVBifINhaveAUX
+EQ class: seevbifinholdaux	reckonvbifinhaveaux	reckonvbifinholdaux	considervbifinholdaux	seevbifinhaveaux	seevbifinhave_gotaux	considervbifinhave_gotaux	reckonvbifinhave_gotaux	regardvbifinhave_gotaux	regardvbifinhaveaux	regardvbifinholdaux	viewvbifinhave_gotaux	viewvbifinholdaux	viewvbifinhaveaux	
+
+BE: donVBsoRB
+EQ class: get_intovbsorb	assumevbsorb	wearvbsorb	put_onvbsorb	
+
+BE: carbohydratesNNS
+EQ class: carbohydratenns	theynns	sugarnns	themnns	saccharidenns	
+
+BE: carbohydratesNNS
+EQ class: carbohydratenns	theynns	sugarnns	themnns	saccharidenns	
+
+BE: servingsNNS
+EQ class: servingnns	theynns	portionnns	helpingnns	themnns	
+
+BE: dayNN
+EQ class: dailyjj	24-hour_intervalnn	twenty-four_hoursnn	twenty-four_hour_periodnn	mean_solar_daynn	solar_daynn	
+
+BE: carbohydratesNNS
+EQ class: carbohydratenns	theynns	sugarnns	themnns	saccharidenns	
+
+BE: reNNP
+EQ class: rheniumnnp	atomic_number_75nnp	
+
+BE: cravingNN
+EQ class: 
+
+BE: partNN
+EQ class: constituentnn	componentnn	component_partnn	partialjj	portionnn	
+
+BE: allowanceNN
+EQ class: 
+
+BE: servingVBG
+EQ class: servevbg	functionvbg	
+
+BE: eatVB
+EQ class: 
+
+BE: checkVB
+EQ class: suss_outvb	look_intovb	check_overvb	go_overvb	check_outvb	check_up_onvb	check_intovb	
+
+BE: seeVB
+EQ class: 
+
+BE: useVB
+EQ class: employvb	utilizevb	utilisevb	applyvb	
+
+BE: 7-10JJ
+EQ class: 7.-.1.0.jj	
+
+BE: manyJJ
+EQ class: 
+
+BE: 15CDcarbohydratesNNS
+EQ class: 15cdsaccharidenns	1.5.cdthemnns	xvcdsugarnns	15cdcarbohydratenns	xvcdcarbohydratesnns	15cdsugarnns	xvcdthemnns	fifteencdsaccharidenns	fifteencdcarbohydratesnns	fifteencdsugarnns	xvcdsaccharidenns	1.5.cdsaccharidenns	1.5.cdtheynns	fifteencdcarbohydratenns	fifteencdthemnns	15cdtheynns	1.5.cdsugarnns	xvcdtheynns	fifteencdtheynns	xvcdcarbohydratenns	15cdthemnns	1.5.cdcarbohydratesnns	1.5.cdcarbohydratenns	
+
+BE: 7-10JJservingsNNS
+EQ class: 7-10jjtheynns	7.-.1.0.jjhelpingnns	7.-.1.0.jjtheynns	7-10jjportionnns	7.-.1.0.jjportionnns	7-10jjhelpingnns	7.-.1.0.jjthemnns	7-10jjservingnns	7.-.1.0.jjservingnns	7.-.1.0.jjservingsnns	7-10jjthemnns	
+
+BE: manyJJcarbohydratesNNS
+EQ class: manyjjcarbohydratenns	manyjjtheynns	manyjjsugarnns	manyjjsaccharidenns	manyjjthemnns	
+
+BE: yourPRP$allowanceNN
+EQ class: yourprp$allowancevb	letvbyourprp$	yourprp$allowvb	yourprp$permitvb	allowancevbyourprp$	allowancennofinyourprp$	permitvbyourprp$	allowvbyourprp$	yourprp$letvb	
+
+BE: reNNPcravingNN
+EQ class: hungervbrennp	thirstvbrennp	thirstvbrheniumnnp	cravevbrheniumnnp	atomic_number_75nnpcravevb	rennplustvb	rheniumnnplustvb	starvevbrheniumnnp	hungervbrheniumnnp	cravingnnofinrheniumnnp	thirstvbatomic_number_75nnp	rheniumnnpstarvevb	rennpthirstvb	cravevbrennp	lustvbrennp	rheniumnnpcravevb	lustvbatomic_number_75nnp	starvevbrennp	atomic_number_75nnpstarvevb	rheniumnnpcravingnn	starvevbatomic_number_75nnp	cravingnnofinatomic_number_75nnp	cravevbatomic_number_75nnp	cravingnnofinrennp	atomic_number_75nnpcravingnn	lustvbrheniumnnp	atomic_number_75nnphungervb	rennpcravevb	rennphungervb	rheniumnnpthirstvb	rennpstarvevb	atomic_number_75nnplustvb	atomic_number_75nnpthirstvb	rheniumnnphungervb	hungervbatomic_number_75nnp	
+
+BE: OneCDisAUX
+EQ class: singlecdbeaux	acecdbeaux	unitycdisaux	acecdisaux	1cdbeaux	icdisaux	onecdbeaux	unitycdbeaux	1cdisaux	icdbeaux	singlecdisaux	
+
+BE: youPRPeatVB
+EQ class: eaternnyouprp	eatingnnofinyouprp	feedernnyouprp	feedingnnofinyouprp	eatingnnyouprp	feedernnofinyouprp	eaternnofinyouprp	feedingnnyouprp	
+
+BE: youPRPcheckVB
+EQ class: youprplook_intovb	youprpcheck_outvb	youprpsuss_outvb	youprpcheck_overvb	youprpgo_overvb	checkernnofinyouprp	bank_checknnofinyouprp	checknnofinyouprp	checkernnyouprp	youprpcheck_intovb	chequennofinyouprp	youprpcheck_up_onvb	
+
+BE: youPRPuseVB
+EQ class: youprputilisevb	utilizationnnyouprp	employmentnnofinyouprp	usernnofinyouprp	exercisennyouprp	usablennofinyouprp	youprpapplyvb	youprputilizevb	utilisationnnofinyouprp	usennyouprp	useablennofinyouprp	usagennyouprp	utilisationnnyouprp	usernnyouprp	utilizationnnofinyouprp	employmentnnyouprp	exercisennofinyouprp	usennofinyouprp	youprpemployvb	usagennofinyouprp	
+
+BE: carbohydratesNNSareAUX
+EQ class: themnnsbeaux	carbohydratennsareaux	theynnsareaux	sugarnnsareaux	themnnsareaux	carbohydratesnnsbeaux	sugarnnsbeaux	theynnsbeaux	saccharidennsareaux	carbohydratennsbeaux	saccharidennsbeaux	
+
+BE: isAUXcarbohydratesNNS
+EQ class: isauxsugarnns	isauxtheynns	beauxcarbohydratesnns	isauxthemnns	isauxsaccharidenns	beauxthemnns	beauxsugarnns	beauxtheynns	beauxcarbohydratenns	isauxcarbohydratenns	beauxsaccharidenns	
+
+BE: eatVBservingsNNS
+EQ class: feedingnnofinservingsnns	feedernnofintheynns	eatingnnofintheynns	eatvbtheynns	eatingnnofinservingnns	eaternnofinportionnns	feedingnnofinportionnns	eatingnnofinportionnns	eatvbportionnns	feedingnnofinservingnns	eaternnofinhelpingnns	feedingnnofinhelpingnns	eatvbservingnns	feedernnofinhelpingnns	feedernnofinservingsnns	eatingnnofinthemnns	feedernnofinportionnns	eatingnnofinhelpingnns	feedernnofinthemnns	eatvbhelpingnns	eaternnofinservingnns	eaternnofinservingsnns	eatingnnofinservingsnns	feedernnofinservingnns	eaternnofinthemnns	feedingnnofintheynns	eaternnofintheynns	feedingnnofinthemnns	eatvbthemnns	
+
+BE: servingsNNSperINdayNN
+EQ class: servevbtwenty-four_hoursnn	daynnhelpingnns	helpingnnsperin24-hour_intervalnn	functionvbmean_solar_daynn	helpingnnsperintwenty-four_hour_periodnn	servingsnnsperinsolar_daynn	dailyjjservingnns	dailyjjhelpingnns	theynnsperindailyjj	daynnservingsnns	theynnsperinsolar_daynn	daynnthemnns	mean_solar_daynntheynns	helpingnnsperindailyjj	mean_solar_daynnhelpingnns	servingnnsperintwenty-four_hour_periodnn	24-hour_intervalnnfunctionvb	twenty-four_hoursnntheynns	servingnnsperintwenty-four_hoursnn	helpingnnsperintwenty-four_hoursnn	dailyjjtheynns	twenty-four_hoursnnhelpingnns	solar_daynnservingnns	servingnnsperindaynn	dailyjjthemnns	twenty-four_hour_periodnnservevb	twenty-four_hour_periodnnservingnns	functionvbdaynn	functionvbtwenty-four_hour_periodnn	twenty-four_hour_periodnntheynns	portionnnsperin24-hour_intervalnn	24-hour_intervalnnservingsnns	theynnsperintwenty-four_hoursnn	helpingnnsperindaynn	themnnsperinmean_solar_daynn	themnnsperinsolar_daynn	twenty-four_hour_periodnnportionnns	24-hour_intervalnnservevb	servingsnnsperintwenty-four_hour_periodnn	helpingnnsperinsolar_daynn	functionvbtwenty-four_hoursnn	twenty-four_hour_periodnnthemnns	functionvbsolar_daynn	servevbtwenty-four_hour_periodnn	twenty-four_hoursnnportionnns	servingnnsperinsolar_daynn	servingsnnsperinmean_solar_daynn	twenty-four_hour_periodnnservingsnns	mean_solar_daynnfunctionvb	portionnnsperinmean_solar_daynn	portionnnsperintwenty-four_hour_periodnn	theynnsperintwenty-four_hour_periodnn	themnnsperin24-hour_intervalnn	daynnportionnns	mean_solar_daynnservevb	mean_solar_daynnservingnns	24-hour_intervalnnportionnns	servingnnsperinmean_solar_daynn	solar_daynnfunctionvb	24-hour_intervalnnhelpingnns	twenty-four_hour_periodnnfunctionvb	theynnsperin24-hour_intervalnn	twenty-four_hoursnnservingsnns	solar_daynnthemnns	servevbdaynn	portionnnsperinsolar_daynn	twenty-four_hoursnnfunctionvb	24-hour_intervalnnthemnns	twenty-four_hoursnnservevb	daynnfunctionvb	servingsnnsperintwenty-four_hoursnn	portionnnsperindailyjj	mean_solar_daynnservingsnns	portionnnsperindaynn	solar_daynnhelpingnns	dailyjjfunctionvb	themnnsperintwenty-four_hoursnn	mean_solar_daynnportionnns	functionvbdailyjj	daynntheynns	servingsnnsperin24-hour_intervalnn	themnnsperintwenty-four_hour_periodnn	dailyjjservevb	24-hour_intervalnntheynns	theynnsperindaynn	solar_daynntheynns	solar_daynnportionnns	solar_daynnservevb	daynnservingnns	24-hour_intervalnnservingnns	themnnsperindaynn	portionnnsperintwenty-four_hoursnn	servingnnsperindailyjj	functionvb24-hour_intervalnn	twenty-four_hoursnnthemnns	servingnnsperin24-hour_intervalnn	servingsnnsperindailyjj	themnnsperindailyjj	servevbmean_solar_daynn	helpingnnsperinmean_solar_daynn	twenty-four_hoursnnservingnns	servevb24-hour_intervalnn	twenty-four_hour_periodnnhelpingnns	theynnsperinmean_solar_daynn	daynnservevb	mean_solar_daynnthemnns	servevbsolar_daynn	solar_daynnservingsnns	dailyjjservingsnns	dailyjjportionnns	servevbdailyjj	
+
+BE: partNNofINallowanceNN
+EQ class: allowancennpartialjj	allowancennconstituentnn	partialvballowancenn	component_partnnofinallowancenn	allowancenncomponent_partnn	constituentnnofinallowancenn	allowancennpartnn	allowancenncomponentnn	portionnnofinallowancenn	partialjjofinallowancenn	componentnnofinallowancenn	allowancennportionnn	allowancennpartialvb	
+
+BE: areAUXinINcravingNN
+EQ class: beauxinincravingnn	
+
+BE: areAUXinINwhatWP
+EQ class: beauxininwhatwp	
+
+BE: useVBasINpartNN
+EQ class: utilizevbasinconstituentnn	employvbasincomponent_partnn	employvbasinportionnn	usevbasincomponent_partnn	applyvbasinpartialjj	applyvbasinportionnn	utilizevbasincomponent_partnn	utilisevbasinpartialjj	applyvbasinconstituentnn	employvbasinpartialjj	usevbasinpartialjj	utilisevbasincomponent_partnn	applyvbasincomponentnn	applyvbasinpartnn	utilizevbasincomponentnn	usevbasinportionnn	utilisevbasinconstituentnn	utilizevbasinpartnn	usevbasinconstituentnn	employvbasinconstituentnn	utilisevbasinpartnn	employvbasinpartnn	utilisevbasinportionnn	utilizevbasinportionnn	employvbasincomponentnn	utilisevbasincomponentnn	applyvbasincomponent_partnn	usevbasincomponentnn	utilizevbasinpartialjj	
+
+BE: checkVBseeVB
+EQ class: look_intovbseevb	chequennofinseevb	check_intovbseevb	checknnofinseevb	check_overvbseevb	checkernnofinseevb	bank_checknnofinseevb	check_outvbseevb	check_up_onvbseevb	suss_outvbseevb	go_overvbseevb	
+
+BE: checkVBsoRB
+EQ class: check_overvbsorb	bank_checknnofinsorb	chequennofinsorb	look_intovbsorb	check_up_onvbsorb	check_outvbsorb	go_overvbsorb	checkernnofinsorb	checknnofinsorb	suss_outvbsorb	check_intovbsorb	
+
+BE: useVBthatRB
+EQ class: employmentnnofinthatrb	utilisationnnofinthatrb	utilizationnnofinthatrb	employvbthatrb	applyvbthatrb	usennofinthatrb	utilisevbthatrb	usernnofinthatrb	exercisennofinthatrb	usagennofinthatrb	useablennofinthatrb	utilizevbthatrb	usablennofinthatrb	
+
+BE: useVBmuchRB
+EQ class: usagennofinmuchrb	utilizevbmuchrb	usennofinmuchrb	usernnofinmuchrb	useablennofinmuchrb	exercisennofinmuchrb	employvbmuchrb	utilisationnnofinmuchrb	utilizationnnofinmuchrb	utilisevbmuchrb	usablennofinmuchrb	employmentnnofinmuchrb	applyvbmuchrb	
+
+BE: carbohydratesNNSOneCD
+EQ class: onecdsaccharidenns	1cdsugarnns	acecdcarbohydratenns	onecdsugarnns	saccharidennsicd	sugarnnsunitycd	acecdcarbohydratesnns	saccharidennssinglecd	unitycdsaccharidenns	theynns1cd	acecdsugarnns	icdsaccharidenns	sugarnnssinglecd	carbohydratennsicd	onecdtheynns	saccharidenns1cd	icdsugarnns	carbohydratesnnsacecd	singlecdsugarnns	acecdtheynns	acecdthemnns	themnnsicd	sugarnnsicd	unitycdsugarnns	singlecdthemnns	sugarnns1cd	themnnsonecd	unitycdtheynns	singlecdtheynns	carbohydratennssinglecd	carbohydratennsunitycd	theynnsacecd	icdcarbohydratesnns	theynnsicd	1cdthemnns	themnnsunitycd	theynnsunitycd	themnns1cd	singlecdsaccharidenns	onecdcarbohydratenns	onecdthemnns	saccharidennsonecd	1cdcarbohydratenns	themnnsacecd	carbohydratenns1cd	themnnssinglecd	acecdsaccharidenns	saccharidennsunitycd	carbohydratennsonecd	carbohydratennsacecd	singlecdcarbohydratesnns	1cdsaccharidenns	1cdcarbohydratesnns	icdthemnns	theynnsonecd	carbohydratesnnsunitycd	sugarnnsonecd	icdtheynns	carbohydratesnns1cd	unitycdcarbohydratenns	unitycdthemnns	carbohydratesnnssinglecd	carbohydratesnnsicd	1cdtheynns	icdcarbohydratenns	onecdcarbohydratesnns	saccharidennsacecd	sugarnnsacecd	theynnssinglecd	singlecdcarbohydratenns	unitycdcarbohydratesnns	
+
+BE: snackNN
+EQ class: bitenn	collationnn	
+
+BE: timeNN
+EQ class: clipnn	
+
+BE: cravings--thenNNS
+EQ class: thennns	theynns	themnns	
+
+BE: dietNN
+EQ class: dieteticaljj	dieteticjj	dietaryjj	
+
+BE: carbohydrateNN
+EQ class: saccharidenn	sugarnn	
+
+BE: cookieNN
+EQ class: cookynn	biscuitnn	
+
+BE: milkNN
+EQ class: milkyjj	
+
+BE: recommendedthatVBP
+EQ class: 
+
+BE: useVBP
+EQ class: employvbp	utilizevbp	applyvbp	utilisevbp	
+
+BE: satisfyVB
+EQ class: live_up_tovb	fulfilvb	fulfillvb	
+
+BE: knowVBP
+EQ class: cognizevbp	cognisevbp	
+
+BE: setVB
+EQ class: posevb	placevb	positionvb	layvb	putvb	
+
+BE: gotVBD
+EQ class: getvbd	acquirevbd	
+
+BE: servingVBG
+EQ class: servevbg	functionvbg	
+
+BE: workedVBD
+EQ class: workvbd	
+
+BE: lookVBforwardRP
+EQ class: spectatornnofinforwardrp	facial_expressionnnofinforwardrp	watchernnofinforwardrp	expressionnnofinforwardrp	looknnofinforwardrp	facennofinforwardrp	witnessnnofinforwardrp	lookernnofinforwardrp	aspectnnofinforwardrp	viewernnofinforwardrp	
+
+BE: setVBupRP
+EQ class: putvbuprp	scenennofinuprp	positionvbuprp	placevbuprp	posevbuprp	settingnnofinuprp	setnnofinuprp	layvbuprp	
+
+BE: nutritionistJJS
+EQ class: 
+
+BE: bedtimeJJ
+EQ class: 
+
+BE: milk--aJJ
+EQ class: 
+
+BE: bedtimeJJsnackNN
+EQ class: bedtimejjcollationnn	bedtimejjbitenn	
+
+BE: 1CDcarbohydrateNN
+EQ class: acecdcarbohydratenn	acecdsugarnn	onecdsugarnn	icdcarbohydratenn	singlecdcarbohydratenn	singlecdsaccharidenn	singlecdsugarnn	icdsaccharidenn	acecdsaccharidenn	1cdsaccharidenn	1.cdsugarnn	onecdsaccharidenn	1.cdsaccharidenn	onecdcarbohydratenn	unitycdcarbohydratenn	icdsugarnn	1cdsugarnn	1.cdcarbohydratenn	unitycdsugarnn	unitycdsaccharidenn	
+
+BE: oneCDcookieNN
+EQ class: unitycdcookynn	acecdcookienn	icdcookienn	acecdcookynn	singlecdcookynn	icdbiscuitnn	onecdcookynn	singlecdcookienn	singlecdbiscuitnn	onecdbiscuitnn	acecdbiscuitnn	unitycdcookienn	1cdcookynn	unitycdbiscuitnn	1cdcookienn	icdcookynn	1cdbiscuitnn	
+
+BE: milk--aJJcookieNN
+EQ class: milk--ajjbiscuitnn	milk--ajjcookynn	
+
+BE: myPRP$nutritionistJJS
+EQ class: nutritionistjjsofinmyprp$	
+
+BE: myPRP$snackNN
+EQ class: myprp$collationnn	collationnnofinmyprp$	snackvbmyprp$	myprp$bitenn	bitennofinmyprp$	noshvbmyprp$	myprp$snackvb	snacknnofinmyprp$	myprp$noshvb	
+
+BE: myPRP$dietNN
+EQ class: dietnnofinmyprp$	dietaryjjofinmyprp$	myprp$dietvb	dietaryvbmyprp$	myprp$dieteticalvb	dieteticjjofinmyprp$	myprp$dieteticjj	myprp$dieteticaljj	dieticianvbmyprp$	dietvbmyprp$	dieteticvbmyprp$	myprp$dieteticvb	myprp$dieticianvb	myprp$dietaryvb	dieteticalvbmyprp$	myprp$dietaryjj	dieteticaljjofinmyprp$	
+
+BE: nutritionistJJSrecommendedthatVBP
+EQ class: 
+
+BE: iPRPuseVBP
+EQ class: iprputilizevbp	utilisationnniprp	utilisationnnofiniprp	useablennofiniprp	iprpapplyvbp	usablennofiniprp	usennofiniprp	utilizationnniprp	employmentnnofiniprp	usernnofiniprp	exercisenniprp	usagennofiniprp	iprpemployvbp	iprputilisevbp	usernniprp	employmentnniprp	exercisennofiniprp	usagenniprp	utilizationnnofiniprp	usenniprp	
+
+BE: iPRPknowVBP
+EQ class: iprpcognizevbp	knowablennofiniprp	apprehendernniprp	knowingnniprp	knowingnnofiniprp	apprehendernnofiniprp	knowernnofiniprp	knowernniprp	iprpcognisevbp	
+
+BE: shePRPsetVB
+EQ class: sheprppositionvb	settingnnsheprp	sheprpputvb	scenennsheprp	sheprpposevb	settingnnofinsheprp	sheprpplacevb	setnnofinsheprp	sheprplayvb	scenennofinsheprp	
+
+BE: iPRPgotVBD
+EQ class: gettingnnofiniprp	acquiringnnofiniprp	gettingnniprp	iprpgetvbd	acquiringnniprp	iprpacquirevbd	
+
+BE: carbohydrateNNservingVBG
+EQ class: carbohydratennfunctionvbg	sugarnnfunctionvbg	sugarnnservingvbg	saccharidennfunctionvbg	carbohydratennservevbg	sugarnnservevbg	saccharidennservingvbg	saccharidennservevbg	
+
+BE: cookieNNworkedVBD
+EQ class: cookiennworkvbd	biscuitnnworkedvbd	cookynnworkvbd	worknnofincookienn	workernnofinbiscuitnn	workernncookienn	workernncookynn	worknnofinbiscuitnn	workernnofincookynn	cookynnworkedvbd	workernnbiscuitnn	workernnofincookienn	biscuitnnworkvbd	worknnofincookynn	
+
+BE: timeNNsatisfyVB
+EQ class: satisfactionnnclipnn	satisfactionnnofinclipnn	timennlive_up_tovb	satisfiernntimenn	satisfiernnofintimenn	satisfactionnntimenn	satisfiernnclipnn	timennfulfilvb	satisfiernnofinclipnn	clipnnlive_up_tovb	clipnnsatisfyvb	clipnnfulfillvb	satisfactorynnofinclipnn	timennfulfillvb	clipnnfulfilvb	satisfactionnnofintimenn	satisfactorynnofintimenn	
+
+BE: knowVBPcravings--thenNNS
+EQ class: knowingnnofinthemnns	knowernnofintheynns	apprehendernnofinthennns	cognisevbptheynns	knowernnofinthemnns	knowvbptheynns	knowablennofintheynns	knowingnnofintheynns	cognisevbpcravings--thennns	knowernnofincravings--thennns	knowablennofinthennns	apprehendernnofintheynns	cognizevbpthennns	cognizevbpthemnns	knowablennofincravings--thennns	apprehendernnofinthemnns	knowernnofinthennns	cognizevbptheynns	cognizevbpcravings--thennns	knowvbpthennns	knowvbpthemnns	knowingnnofinthennns	cognisevbpthennns	knowablennofinthemnns	knowingnnofincravings--thennns	apprehendernnofincravings--thennns	cognisevbpthemnns	
+
+BE: useVBPsnackNN
+EQ class: utilisevbpcollationnn	usagennofinbitenn	useablennofinbitenn	utilisevbpbitenn	employvbpcollationnn	usevbpcollationnn	utilizevbpbitenn	usernnofinsnacknn	employmentnnofinbitenn	usevbpbitenn	employmentnnofinsnacknn	usagennofinsnacknn	useablennofinsnacknn	exercisennofincollationnn	usennofinbitenn	utilizationnnofincollationnn	utilizevbpcollationnn	utilisationnnofincollationnn	utilizevbpsnacknn	applyvbpsnacknn	usablennofinsnacknn	employmentnnofincollationnn	applyvbpbitenn	utilisationnnofinbitenn	usagennofincollationnn	usernnofincollationnn	usennofincollationnn	usernnofinbitenn	utilisationnnofinsnacknn	usablennofinbitenn	utilizationnnofinbitenn	exercisennofinbitenn	exercisennofinsnacknn	employvbpbitenn	utilisevbpsnacknn	usablennofincollationnn	usennofinsnacknn	employvbpsnacknn	utilizationnnofinsnacknn	useablennofincollationnn	applyvbpcollationnn	
+
+BE: satisfyVBcravings--thenNNS
+EQ class: satisfactionnnofintheynns	fulfilvbcravings--thennns	fulfillvbthemnns	satisfactorynnofinthennns	satisfactorynnofintheynns	satisfiernnofintheynns	satisfactionnnofincravings--thennns	satisfiernnofincravings--thennns	satisfactionnnofinthemnns	satisfiernnofinthemnns	satisfyvbtheynns	live_up_tovbtheynns	fulfilvbthennns	fulfilvbtheynns	satisfyvbthemnns	satisfactorynnofinthemnns	fulfillvbtheynns	satisfactionnnofinthennns	live_up_tovbcravings--thennns	satisfactorynnofincravings--thennns	fulfilvbthemnns	satisfyvbthennns	live_up_tovbthemnns	fulfillvbcravings--thennns	fulfillvbthennns	live_up_tovbthennns	satisfiernnofinthennns	
+
+BE: setVBdietNN
+EQ class: placevbdieteticaljj	setnnofindietaryjj	setvbdieteticjj	positionvbdieteticjj	posevbdieteticaljj	setvbdieteticaljj	placevbdietnn	layvbdietaryjj	settingnnofindietaryjj	scenennofindieteticjj	positionvbdietaryjj	settingnnofindietnn	putvbdieteticjj	setvbdietaryjj	setnnofindietnn	posevbdietaryjj	layvbdieteticjj	positionvbdietnn	layvbdietnn	settingnnofindieteticjj	layvbdieteticaljj	scenennofindietaryjj	setnnofindieteticjj	positionvbdieteticaljj	placevbdietaryjj	settingnnofindieteticaljj	placevbdieteticjj	scenennofindietnn	setnnofindieteticaljj	putvbdietnn	scenennofindieteticaljj	posevbdietnn	putvbdietaryjj	putvbdieteticaljj	posevbdieteticjj	
+
+BE: gotVBDcarbohydrateNN
+EQ class: acquiringnnofincarbohydratenn	acquiringnnofinsugarnn	gotvbdsugarnn	gotvbdsaccharidenn	gettingnnofincarbohydratenn	acquirevbdsaccharidenn	acquirevbdsugarnn	getvbdsugarnn	gettingnnofinsaccharidenn	getvbdcarbohydratenn	acquiringnnofinsaccharidenn	getvbdsaccharidenn	acquirevbdcarbohydratenn	gettingnnofinsugarnn	
+
+BE: servingVBGcookieNN
+EQ class: servingvbgbiscuitnn	functionvbgcookynn	functionvbgcookienn	servevbgcookienn	servingvbgcookynn	servevbgcookynn	functionvbgbiscuitnn	servevbgbiscuitnn	
+
+BE: useVBPasINtimeNN
+EQ class: utilizevbpasintimenn	usevbpasinclipnn	utilizevbpasinclipnn	applyvbpasintimenn	utilisevbpasintimenn	employvbpasintimenn	applyvbpasinclipnn	utilisevbpasinclipnn	employvbpasinclipnn	
+
+BE: setVBthatINgotVBD
+EQ class: posevbthatinacquirevbd	putvbthatingotvbd	layvbthatinacquirevbd	layvbthatingetvbd	placevbthatinacquirevbd	setvbthatingetvbd	placevbthatingotvbd	posevbthatingetvbd	positionvbthatinacquirevbd	positionvbthatingetvbd	posevbthatingotvbd	positionvbthatingotvbd	setvbthatinacquirevbd	layvbthatingotvbd	placevbthatingetvbd	putvbthatinacquirevbd	putvbthatingetvbd	
+
+BE: workedVBDveryRB
+EQ class: workvbdveryrb	workernnofinveryrb	worknnofinveryrb	
+
+BE: workedVBDwellRB
+EQ class: worknnofinwellrb	workernnofinwellrb	workvbdwellrb	
+

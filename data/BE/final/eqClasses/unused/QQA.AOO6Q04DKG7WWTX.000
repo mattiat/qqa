@@ -1,0 +1,72 @@
+BE: AdrenalNNP
+EQ class: adrenal_glandnnp	suprarenal_glandnnp	adrenaljj	
+
+BE: FatigueNNP
+EQ class: tirednessnnp	wearinessnnp	
+
+BE: treatedVBN
+EQ class: do_byvbn	treatvbn	handlevbn	
+
+BE: AdrenalNNPFatigueNNP
+EQ class: suprarenal_glandnnpwearinessnnp	suprarenal_glandnnpfatiguevb	suprarenal_glandnnpjadevb	adrenaljjtirevb	wearyvbadrenal_glandnnp	adrenalnnpwearinessnnp	wearinessnnpofinadrenal_glandnnp	fatiguevbadrenal_glandnnp	pallvbsuprarenal_glandnnp	adrenalnnpjadevb	adrenalnnpfatiguevb	adrenal_glandnnptirednessnnp	adrenaljjpallvb	adrenalnnptirevb	fatiguennpofinadrenaljj	adrenalnnppallvb	adrenaljjjadevb	wearyvbadrenaljj	adrenal_glandnnpfatiguennp	fatiguennpofinadrenalnnp	tirednessnnpofinadrenal_glandnnp	fatiguevbadrenalnnp	jadevbadrenal_glandnnp	adrenal_glandnnppallvb	fatiguennpofinsuprarenal_glandnnp	adrenalnnpwearyvb	jadevbsuprarenal_glandnnp	tirednessnnpofinsuprarenal_glandnnp	pallvbadrenal_glandnnp	adrenaljjfatiguennp	fatiguennpofinadrenal_glandnnp	tirednessnnpofinadrenaljj	suprarenal_glandnnppallvb	pallvbadrenaljj	suprarenal_glandnnpfatiguennp	adrenal_glandnnptirevb	wearinessnnpofinadrenaljj	adrenaljjwearinessnnp	adrenal_glandnnpfatiguevb	suprarenal_glandnnpwearyvb	fatiguevbsuprarenal_glandnnp	wearinessnnpofinsuprarenal_glandnnp	fatiguevbadrenaljj	wearyvbadrenalnnp	adrenal_glandnnpwearinessnnp	tirevbadrenaljj	suprarenal_glandnnptirevb	wearinessnnpofinadrenalnnp	tirevbadrenalnnp	adrenalnnptirednessnnp	adrenal_glandnnpjadevb	wearyvbsuprarenal_glandnnp	adrenaljjfatiguevb	adrenaljjtirednessnnp	pallvbadrenalnnp	jadevbadrenalnnp	suprarenal_glandnnptirednessnnp	adrenal_glandnnpwearyvb	tirevbadrenal_glandnnp	adrenaljjwearyvb	jadevbadrenaljj	tirevbsuprarenal_glandnnp	tirednessnnpofinadrenalnnp	
+
+BE: AdrenalNNP
+EQ class: adrenal_glandnnp	suprarenal_glandnnp	adrenaljj	
+
+BE: Fatigue.  HowPersonAnnotation
+EQ class: fatigue  howpersonannotation	
+
+BE: systemNN
+EQ class: 
+
+BE: AdrenalNNP
+EQ class: adrenal_glandnnp	suprarenal_glandnnp	adrenaljj	
+
+BE: GlandsLocationAnnotation
+EQ class: glandularjj	
+
+BE: thinkVBP
+EQ class: conceivevbp	believevbp	considervbp	
+
+BE: treatedVBN
+EQ class: do_byvbn	treatvbn	handlevbn	
+
+BE: detoxingVB
+EQ class: detoxifyvb	detoxvb	
+
+BE: regulateVB
+EQ class: modulatevb	
+
+BE: myPRP$systemNN
+EQ class: systemnnofinmyprp$	
+
+BE: myPRP$AdrenalNNP
+EQ class: adrenal_glandnnpofinmyprp$	suprarenal_glandnnpofinmyprp$	myprp$adrenaljj	myprp$suprarenal_glandnnp	adrenaljjofinmyprp$	adrenalvbmyprp$	adrenalnnpofinmyprp$	myprp$adrenal_glandnnp	myprp$adrenalvb	
+
+BE: AdrenalNNPFatigue.  HowPersonAnnotation
+EQ class: suprarenal_glandnnpfatigue.  howpersonannotation	adrenaljjfatigue  howpersonannotation	adrenal_glandnnpfatigue.  howpersonannotation	suprarenal_glandnnpfatigue  howpersonannotation	adrenaljjfatigue.  howpersonannotation	adrenalnnpfatigue  howpersonannotation	adrenal_glandnnpfatigue  howpersonannotation	
+
+BE: iPRPthinkVBP
+EQ class: iprpbelievevbp	iprpconceivevbp	thoughtnnofiniprp	ideanniprp	iprpconsidervbp	ideannofiniprp	thoughtnniprp	
+
+BE: iPRPhaveAUX
+EQ class: iprphave_gotaux	rich_personnnofiniprp	iprpholdaux	wealthy_personnnofiniprp	havennofiniprp	
+
+BE: thisDTdetoxingVB
+EQ class: thisdtdetoxifyvb	thisdtdetoxvb	
+
+BE: systemNNregulateVB
+EQ class: regulatornnofinsystemnn	systemnnmodulatevb	regulatorynnofinsystemnn	regulatornnsystemnn	
+
+BE: haveAUXFatigue.  HowPersonAnnotation
+EQ class: holdauxfatigue  howpersonannotation	rich_personnnofinfatigue.  howpersonannotation	have_gotauxfatigue.  howpersonannotation	haveauxfatigue  howpersonannotation	wealthy_personnnofinfatigue.  howpersonannotation	wealthy_personnnofinfatigue  howpersonannotation	rich_personnnofinfatigue  howpersonannotation	have_gotauxfatigue  howpersonannotation	holdauxfatigue.  howpersonannotation	havennofinfatigue  howpersonannotation	havennofinfatigue.  howpersonannotation	
+
+BE: regulateVBAdrenalNNP
+EQ class: modulatevbsuprarenal_glandnnp	modulatevbadrenal_glandnnp	regulatornnofinadrenalnnp	regulatornnofinsuprarenal_glandnnp	regulatorynnofinsuprarenal_glandnnp	modulatevbadrenaljj	regulatevbadrenaljj	modulatevbadrenalnnp	regulatevbadrenal_glandnnp	regulatorynnofinadrenalnnp	regulatornnofinadrenaljj	regulatorynnofinadrenal_glandnnp	regulatorynnofinadrenaljj	regulatevbsuprarenal_glandnnp	regulatornnofinadrenal_glandnnp	
+
+BE: detoxingVBsystemNN
+EQ class: detoxifyvbsystemnn	detoxvbsystemnn	
+
+BE: treatedVBNthisDT
+EQ class: handlevbnthisdt	treatvbnthisdt	do_byvbnthisdt	
+

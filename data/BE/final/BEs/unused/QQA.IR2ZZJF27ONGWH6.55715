@@ -1,0 +1,101 @@
+#There are spikes off and on of cholestrol levels; when you have stated physical training, let that not bother you. Add omega 3,+ fiber in your diet and continue your regular physical, etc. This is a experienced based answer, and you will lead a quality life, as long as to stick to regular routine of life..
+#(S1 (S (S (NP (EX There)) (VP (AUX are) (NP (NP (NNS spikes)) (UCP (ADVP (IN off)) (CC and) (PP (IN on) (IN of) (NP (JJ cholestrol) (NNS levels))))))) (: ;) (S (SBAR (WHADVP (WRB when)) (S (NP (PRP you)) (VP (AUX have) (VP (VBN stated) (NP (JJ physical) (NN training)))))) (, ,) (VP (VB let) (S (NP (DT that)) (VP (RB not) (VB bother) (S (VP (VBG you.) (S (S (VP (VP (VB Add) (NP (NP (NNP omega) (CD 3)) (, ,) (NP (NP (CD +) (NN fiber)) (PP (IN in) (NP (PRP$ your) (NN diet)))))) (CC and) (VP (VB continue) (NP (PRP$ your) (JJ regular) (NN physical))))) (, ,) (FW etc.) (S (NP (DT This)) (VP (AUX is) (NP (DT a) (ADJP (JJ experienced) (VBN based)) (NN answer)))) (, ,) (CC and) (S (NP (PRP you)) (VP (MD will) (VP (VB lead) (NP (DT a) (NN quality) (NN life)) (, ,) (ADVP (ADVP (RB as) (RB long)) (SBAR (IN as) (S (VP (TO to) (VP (VB stick) (PP (TO to) (NP (NP (JJ regular) (NN routine)) (PP (IN of) (NP (NN life))))))))))))))))))) (. .)) (. .)))
+#Rule:Nouns
+r1spikesNNS
+r1levelsNNS
+r1trainingNN
+r1Add omegaPersonAnnotation
+r1fiberNN
+r1dietNN
+r1physicalNN
+r1answerNN
+r1qualityNN
+r1lifeNN
+r1routineNN
+r1lifeNN
+
+#Rule:Verbs
+r2statedVBN
+r2letVB
+r2botherVB
+r2youVBG
+r2continueVB
+r2basedVBN
+r2leadVB
+r2stickVB
+
+#Rule:Adjs
+r4cholestrolJJ
+r4physicalJJ
+r4regularJJ
+r4experiencedJJ
+r4regularJJ
+
+#Rule:Adj-Noun
+r5cholestrolJJlevelsNNS
+r5physicalJJtrainingNN
+r53CDAdd omegaPersonAnnotation
+r5+CDfiberNN
+r5regularJJphysicalNN
+r5experiencedJJanswerNN
+r5basedVBNanswerNN
+r5regularJJroutineNN
+
+#Rule:PRP-Noun
+r6yourPRP$dietNN
+r6yourPRP$physicalNN
+
+#Rule:N-HeadNoun
+r8qualityNNlifeNN
+
+#Rule:N-ApposN
+r10Add omegaPersonAnnotationfiberNN
+
+#Rule:HeadNoun-V
+r11thereEXareAUX
+r11thatDTbotherVB
+r11thisDTisAUX
+r11youPRPleadVB
+
+#Rule:HeadNoun-V
+r12youPRPstatedVBN
+
+#Rule:V-HeadNoun
+r21areAUXspikesNNS
+r21statedVBNtrainingNN
+r21continueVBphysicalNN
+r21isAUXanswerNN
+r21leadVBlifeNN
+
+#Rule:V-HeadNoun
+r22letVBthatDT
+
+#Rule:PPinNP
+r26fiberNNinINdietNN
+r26routineNNofINlifeNN
+
+#Rule:PPinVP
+r30stickVBtoTOroutineNN
+
+#Rule:(SBAR+WHADVP)inS
+r42letVBwhenWRBstatedVBN
+
+#Rule:V-ADV
+r46botherVBnotRB
+r46leadVBasRB
+r46leadVBlongRB
+
+#Avoid stress.
+#(S1 (S (VP (VB Avoid) (NP (NN stress))) (. .)))
+#Rule:Nouns
+r1stressNN
+
+#Rule:Verbs
+r2avoidVB
+
+#Rule:V-HeadNoun
+r21avoidVBstressNN
+
+@lemmas-left	stated	spike	physical	stick	diet	Add omega	state	lead	routine	fiber	bother	training	avoid	are	life	level	levels	be	is	spikes	regular	let	your	stress	answer	+	you	cholestrol	3	that	there	experienced	continue	quality	you.	base	this	based	
+@lemmas-right	stated	spike	is	physical	spikes	diet	Add omega	stress	state	answer	as	lead	routine	long	fiber	bother	not	training	that	level	life	are	levels	be	
+@lemmas-center	to	of	when	in	

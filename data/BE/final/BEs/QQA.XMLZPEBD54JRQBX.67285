@@ -1,0 +1,33 @@
+#http://thyroid.about.com/cs/dietweightloss/a/eatingenough.htmTry the metabolism diet. 
+#(S1 (NP (NP (NNP http)) (: :) (S (VP (VB //thyroid.about.com/cs/dietweightloss/a/eatingenough.htmTry) (NP (DT the) (NN metabolism) (NN diet)))) (. .)))
+#Rule:Nouns
+r1http://thyroidPersonAnnotation
+r1metabolismNN
+r1dietNN
+
+#Rule:Verbs
+r2//thyroid.about.com/cs/dietweightloss/a/eatingenough.htmtryVB
+
+#Rule:N-HeadNoun
+r8metabolismNNdietNN
+
+#Rule:V-HeadNoun
+r21//thyroid.about.com/cs/dietweightloss/a/eatingenough.htmtryVBdietNN
+
+#Rule:SubVerbClause
+r50http://thyroidPersonAnnotation//thyroid.about.com/cs/dietweightloss/a/eatingenough.htmtryVB
+
+#It will help  you.
+#(S1 (S (NP (PRP It)) (VP (MD will) (VP (VB help) (NP (PRP you)))) (. .)))
+#Rule:Verbs
+r2helpVB
+
+#Rule:HeadNoun-V
+r11itPRPhelpVB
+
+#Rule:V-HeadNoun
+r21helpVByouPRP
+
+@lemmas-left	help	it	diet	metabolism	http://thyroid	//thyroid.about.com/cs/dietweightloss/a/eatingenough.htmtry	
+@lemmas-right	help	diet	you	//thyroid.about.com/cs/dietweightloss/a/eatingenough.htmtry	
+@lemmas-center	

@@ -1,0 +1,27 @@
+#Combination of gases in the atmosphere reflecting and distorting light from the sun and from the earth.
+#(S1 (S (NP (NP (NN Combination)) (PP (IN of) (NP (NP (NNS gases)) (PP (IN in) (NP (DT the) (NN atmosphere)))))) (VP (VBG reflecting) (CC and) (VBG distorting) (NP (NN light)) (PP (PP (IN from) (NP (DT the) (NN sun))) (CC and) (PP (IN from) (NP (DT the) (NN earth))))) (. .)))
+#Rule:Nouns
+r1CombinationNN
+r1gasesNNS
+r1atmosphereNN
+r1lightNN
+r1sunNN
+r1earthNN
+
+#Rule:Verbs
+r2reflectingVBG
+r2distortingVBG
+
+#Rule:HeadNoun-V
+r11CombinationNNreflectingVBG
+
+#Rule:V-HeadNoun
+r21reflectingVBGlightNN
+
+#Rule:PPinNP
+r26CombinationNNofINgasesNNS
+r26gasesNNSinINatmosphereNN
+
+@lemmas-left	gas	Combination	distorting	distort	combination	atmosphere	earth	light	reflecting	reflect	sun	gases	
+@lemmas-right	gas	atmosphere	light	reflecting	reflect	gases	
+@lemmas-center	of	in	

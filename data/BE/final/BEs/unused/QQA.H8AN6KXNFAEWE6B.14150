@@ -1,0 +1,47 @@
+#Too much arrogance on the part of those who created and navigated the ship i.e large size, great speed e.t.c.
+#(S1 (S (NP (NP (ADJP (RB Too) (JJ much)) (NN arrogance)) (PP (IN on) (NP (NP (DT the) (NN part)) (PP (IN of) (NP (NP (DT those)) (SBAR (WHNP (WP who)) (S (VP (VBD created) (CC and) (VBD navigated) (NP (DT the) (NN ship)))))))))) (VP (VBD i.e) (NP (JJ large) (NN size)) (, ,) (ADVP (NP (JJ great) (NN speed)) (RB e.t.c.))) (. .)))
+#Rule:Nouns
+r1arroganceNN
+r1partNN
+r1shipNN
+r1sizeNN
+r1speedNN
+
+#Rule:Verbs
+r2createdVBD
+r2navigatedVBD
+r2i.eVBD
+
+#Rule:Adjs
+r4muchJJ
+r4largeJJ
+r4greatJJ
+
+#Rule:Adj-Noun
+r5muchJJarroganceNN
+r5largeJJsizeNN
+r5greatJJspeedNN
+
+#Rule:HeadNoun-V
+r11arroganceNNi.eVBD
+
+#Rule:HeadNoun-(who/that)-V
+r14thoseDTcreatedVBD
+
+#Rule:HeadNoun-(who/that VP CC)-V
+r16thoseDTnavigatedVBD
+
+#Rule:V-HeadNoun
+r21createdVBDshipNN
+r21i.eVBDsizeNN
+
+#Rule:PPinNP
+r26arroganceNNonINpartNN
+r26partNNofINthoseDT
+
+#Rule:V-ADV
+r46i.eVBDe.t.c.OrganizationAnnotation
+
+@lemmas-left	those	navigated	e	speed	ship	navigate	create	much	size	great	created	arrogance	i.e	part	large	
+@lemmas-right	navigated	those	e	speed	ship	navigate	create	size	created	arrogance	e.t.c.	i.e	part	
+@lemmas-center	of	on	

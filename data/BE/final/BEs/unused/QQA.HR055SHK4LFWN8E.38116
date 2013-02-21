@@ -1,0 +1,45 @@
+#Thats because theyre parents have different beliefs or its just that theyre parents are overprotective to their child
+#(S1 (S (VP (VBZ Thats) (SBAR (IN because) (S (NP (JJ theyre) (NNS parents)) (VP (AUX have) (NP (NP (JJ different) (NNS beliefs)) (CC or) (NP (NP (PRP$ its) (RB just)) (SBAR (IN that) (S (NP (JJ theyre) (NNS parents)) (VP (AUX are) (ADJP (JJ overprotective) (PP (TO to) (NP (PRP$ their) (NN child)))))))))))))))
+#Rule:Nouns
+r1parentsNNS
+r1beliefsNNS
+r1parentsNNS
+r1childNN
+
+#Rule:Verbs
+r2thatsVBZ
+
+#Rule:Adjs
+r4theyreOrganizationAnnotation
+r4differentJJ
+r4theyreOrganizationAnnotation
+r4overprotectiveJJ
+
+#Rule:Adj-Noun
+r5theyreOrganizationAnnotationparentsNNS
+r5differentJJbeliefsNNS
+r5theyreOrganizationAnnotationparentsNNS
+
+#Rule:PRP-Noun
+r6itsPRP$justRB
+r6theirPRP$childNN
+
+#Rule:HeadNoun-V
+r11parentsNNShaveAUX
+r11parentsNNSareAUX
+
+#Rule:V-HeadNoun
+r21haveAUXbeliefsNNS
+
+#Rule:V-ADJ
+r25areAUXoverprotectiveJJ
+
+#Rule:PPinADJP
+r37overprotectiveJJtoTOchildNN
+
+#Rule:V-IN-V
+r43thatsVBZbecauseINhaveAUX
+
+@lemmas-left	different	thats	parents	theyre	belief	beliefs	have	parent	overprotective	its	child	are	their	be	
+@lemmas-right	child	just	parents	are	belief	beliefs	have	parent	overprotective	be	
+@lemmas-center	because	to	

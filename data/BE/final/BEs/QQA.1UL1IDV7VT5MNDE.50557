@@ -1,0 +1,37 @@
+#you stop your breath because bear are not eat a dead people.
+#(S1 (S (NP (PRP you)) (VP (VB stop) (NP (PRP$ your) (NN breath)) (SBAR (IN because) (S (NP (NN bear)) (VP (AUX are) (RB not) (VP (VB eat) (NP (DT a) (JJ dead) (NNS people))))))) (. .)))
+#Rule:Nouns
+r1breathNN
+r1bearNN
+r1peopleNNS
+
+#Rule:Verbs
+r2stopVB
+r2eatVB
+
+#Rule:Adjs
+r4deadJJ
+
+#Rule:Adj-Noun
+r5deadJJpeopleNNS
+
+#Rule:PRP-Noun
+r6yourPRP$breathNN
+
+#Rule:HeadNoun-V
+r11youPRPstopVB
+r11bearNNeatVB
+
+#Rule:V-HeadNoun
+r21stopVBbreathNN
+r21eatVBpeopleNNS
+
+#Rule:V-IN-V
+r43stopVBbecauseINeatVB
+
+#Rule:V-ADV
+r46areAUXnotRB
+
+@lemmas-left	bear	stop	are	your	you	eat	dead	people	be	breath	
+@lemmas-right	not	stop	eat	people	breath	
+@lemmas-center	because	

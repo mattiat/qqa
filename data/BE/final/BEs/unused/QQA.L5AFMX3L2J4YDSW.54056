@@ -1,0 +1,34 @@
+#have patience=they are discovering more every daybreast cancer will have a cure found for it too
+#(S1 (S (VP (AUX have) (NP (NN patience=they))) (VP (AUX are) (VP (VBG discovering) (SBAR (S (NP (RBR more) (DT every) (NN daybreast) (NN cancer)) (VP (MD will) (VP (AUX have) (NP (NP (DT a) (NN cure)) (VP (VBN found) (PP (IN for) (NP (PRP it))))) (ADVP (RB too))))))))))
+#Rule:Nouns
+r1patience=theyNN
+r1daybreastNN
+r1cancerNN
+r1cureNN
+
+#Rule:Verbs
+r2discoveringVBG
+r2foundVBN
+
+#Rule:N-HeadNoun
+r8daybreastNNcancerNN
+
+#Rule:HeadNoun-V
+r11cancerNNhaveAUX
+
+#Rule:V-HeadNoun
+r21haveAUXpatience=theyNN
+r21haveAUXcureNN
+
+#Rule:V-HeadNoun(passive)
+r24foundVBNcureNN
+
+#Rule:PPinVP
+r32foundVBNforINitPRP
+
+#Rule:V-ADV
+r46haveAUXtooRB
+
+@lemmas-left	discovering	patience=they	have	discover	daybreast	cure	cancer	found	
+@lemmas-right	it	patience=they	have	too	cure	cancer	
+@lemmas-center	for	

@@ -1,0 +1,27 @@
+#How can I lose?
+#(S1 (SBARQ (WHADVP (WRB How)) (SQ (MD can) (NP (PRP I)) (VP (VB lose))) (. ?)))
+#Rule:Verbs
+r2loseVB
+
+#20 pounds for the summer and stay motivated?
+#(S1 (S (NP (NP (CD 20) (NNS pounds)) (PP (IN for) (NP (DT the) (NN summer) (CC and) (NN stay)))) (VP (VBN motivated)) (. ?)))
+#Rule:Nouns
+r1poundsNNS
+r1summerNN
+r1stayNN
+
+#Rule:Verbs
+r2motivatedVBN
+
+#Rule:Adj-Noun
+r520CDpoundsNNS
+
+#Rule:V-HeadNoun(passive)
+r24motivatedVBNpoundsNNS
+
+#Rule:PPinNP
+r26poundsNNSforINsummerNN
+
+@lemmas-left	motivated	20	motivate	lose	stay	pounds	summer	pound	
+@lemmas-right	pounds	summer	pound	
+@lemmas-center	for	

@@ -1,0 +1,63 @@
+#and then there are people who will destroy or make fun of your feelings and rob them and keep them for themselves and tell you to get a life Jesus tells us to turn the other cheek,
+#(S1 (S (CC and) (ADVP (RB then)) (NP (EX there)) (VP (AUX are) (NP (NP (NNS people)) (SBAR (WHNP (WP who)) (S (VP (MD will) (VP (VP (VB destroy) (CC or) (VB make) (NP (NP (NN fun)) (PP (IN of) (NP (PRP$ your) (NNS feelings))))) (CC and) (VP (NNP rob) (NP (PRP them))) (CC and) (VP (VB keep) (NP (PRP them)) (PP (IN for) (NP (PRP themselves)))) (CC and) (VP (VB tell) (NP (PRP you)) (S (VP (TO to) (VP (VB get) (NP (NP (DT a) (NN life)) (SBAR (S (NP (NNP Jesus)) (VP (VBZ tells) (NP (PRP us)) (S (VP (TO to) (VP (VB turn) (NP (DT the) (JJ other) (NN cheek))))))))))))))))))) (, ,)))
+#Rule:Nouns
+r1peopleNNS
+r1funNN
+r1feelingsNNS
+r1robNNP
+r1lifeNN
+r1JesusPersonAnnotation
+r1cheekNN
+
+#Rule:Verbs
+r2destroyVB
+r2makeVB
+r2keepVB
+r2tellVB
+r2getVB
+r2tellsVBZ
+r2turnVB
+
+#Rule:Adjs
+r4otherJJ
+
+#Rule:Adj-Noun
+r5otherJJcheekNN
+
+#Rule:PRP-Noun
+r6yourPRP$feelingsNNS
+
+#Rule:HeadNoun-V
+r11thereEXareAUX
+r11JesusPersonAnnotationtellsVBZ
+
+#Rule:HeadNoun-(who/that)-V
+r14peopleNNSdestroyVB
+r14peopleNNSkeepVB
+r14peopleNNStellVB
+
+#Rule:V-HeadNoun
+r21areAUXpeopleNNS
+r21destroyVBfunNN
+r21keepVBthemPRP
+r21tellVByouPRP
+r21getVBlifeNN
+r21tellsVBZusPRP
+r21turnVBcheekNN
+
+#Rule:PPinNP
+r26funNNofINfeelingsNNS
+
+#Rule:PPinVP
+r30keepVBforINthemselvesPRP
+
+#Rule:V-V
+r44tellVBgetVB
+r44tellsVBZturnVB
+
+#Rule:V-ADV
+r46areAUXthenRB
+
+@lemmas-left	turn	other	get	tells	your	fun	Jesus	people	cheek	rob	destroy	are	life	there	tell	make	feelings	be	keep	
+@lemmas-right	turn	get	tells	us	you	fun	people	cheek	destroy	are	life	them	then	tell	themselves	feelings	be	keep	
+@lemmas-center	of	for	

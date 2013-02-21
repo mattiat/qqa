@@ -1,0 +1,40 @@
+#i think one big whole would be sensitive.it wouldn t have this little bone to protect it self.
+#(S1 (S (NP (PRP i)) (VP (VBP think) (SBAR (S (NP (CD one) (JJ big) (NN whole)) (VP (MD would) (VP (AUX be) (ADJP (JJ sensitive.it) (SBAR (S (NP (JJ wouldn) (NNS t)) (VP (AUX have) (NP (DT this) (JJ little) (NN bone) (S (VP (TO to) (VP (VB protect) (NP (PRP it)) (NP (NN self))))))))))))))) (. .)))
+#Rule:Nouns
+r1wholeNN
+r1tNNS
+r1boneNN
+r1selfNN
+
+#Rule:Verbs
+r2thinkVBP
+r2protectVB
+
+#Rule:Adjs
+r4bigJJ
+r4sensitive.itJJ
+r4wouldnJJ
+r4littleJJ
+
+#Rule:Adj-Noun
+r5oneCDwholeNN
+r5bigJJwholeNN
+r5wouldnJJtNNS
+r5littleJJboneNN
+
+#Rule:HeadNoun-V
+r11iPRPthinkVBP
+r11wholeNNbeAUX
+r11tNNShaveAUX
+
+#Rule:V-HeadNoun
+r21haveAUXboneNN
+r21protectVBitPRP
+r21protectVBselfNN
+
+#Rule:V-ADJ
+r25beAUXsensitive.itJJ
+
+@lemmas-left	think	it	have	one	little	self	protect	i	t	whole	bone	sensitive.it	wouldn	big	be	
+@lemmas-right	think	it	t	have	whole	bone	self	sensitive.it	be	
+@lemmas-center	

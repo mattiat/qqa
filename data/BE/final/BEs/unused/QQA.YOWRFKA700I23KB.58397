@@ -1,0 +1,49 @@
+#prostitution. haha jk don t really do that. hmm. idk. thats alot of money... yeah, go ahead and go with robbing old ladies.
+#(S1 (S (NP (NNP prostitution.) (NN haha)) (VP (VBD jk) (S (INTJ (VB don) (S (NP (NNS t)) (ADVP (RB really)) (VP (AUX do) (RB that.) (VP (VB hmm.) (NP (NP (JJ idk.) (NNS thats) (NN alot)) (PP (IN of) (NP (NN money) (NNS ..)))))) (. .))) (INTJ (UH yeah)) (, ,) (VP (VP (VB go) (ADVP (RB ahead))) (CC and) (VP (VB go) (PP (IN with) (S (VP (VBG robbing) (NP (JJ old) (NNS ladies))))))))) (. .)))
+#Rule:Nouns
+r1prostitutionNNP
+r1haha jk donPersonAnnotation
+r1tNNS
+r1hmm. idk. thatsPersonAnnotation
+r1alotNN
+r1moneyNN
+r1..NNS
+r1ladiesNNS
+
+#Rule:Verbs
+r2goVB
+r2goVB
+r2robbingVBG
+
+#Rule:Adjs
+r4oldJJ
+
+#Rule:Adj-Noun
+r5hmm. idk. thatsPersonAnnotationalotNN
+r5oldJJladiesNNS
+
+#Rule:N-HeadNoun
+r8prostitutionNNPhaha jk donPersonAnnotation
+r8moneyNN..NNS
+
+#Rule:HeadNoun-V
+r11tNNShmm. idk. thatsPersonAnnotation
+
+#Rule:V-HeadNoun
+r21robbingVBGladiesNNS
+
+#Rule:PPinNP
+r26alotNNofIN..NNS
+
+#Rule:V-V
+r44haha jk donPersonAnnotationgoVB
+r44haha jk donPersonAnnotationgoVB
+
+#Rule:V-ADV
+r46doAUXreallyRB
+r46doAUXthatRB
+r46goVBaheadRB
+
+@lemmas-left	prostitution.	old	alot	ladies	haha jk don	rob	prostitution	hmm. idk. thats	t	..	money	lady	do	robbing	go	
+@lemmas-right	that	really	hmm. idk. thats	ladies	alot	ahead	that.	..	lady	haha jk don	go	
+@lemmas-center	of	

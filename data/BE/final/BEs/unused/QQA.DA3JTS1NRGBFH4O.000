@@ -1,0 +1,85 @@
+#How do I find the range of values k can take for 2x*2 +(3-k)x + 3 = 0 to have two real roots??
+#(S1 (SBARQ (WHADVP (WRB How)) (SQ (AUX do) (NP (PRP I)) (VP (VB find) (NP (NP (DT the) (NN range)) (PP (IN of) (NP (NP (NNS values)) (SBAR (S (NP (NNP k)) (VP (MD can) (VP (VB take) (PP (IN for) (NP (QP (CD 2x) (CD *)) (NP (QP (CD 2) (CD +)) (PRN (-LRB- -LRB-) (NNS 3-k) (-RRB- -RRB-))) (QP (SYM x) (CD +) (CD 3) (SYM =) (CD 0)))) (S (VP (TO to) (VP (AUX have) (NP (CD two) (JJ real) (NNS roots))))))))))))) (. ?)) (. ?)))
+#Rule:Nouns
+r1rangeNN
+r1valuesNNS
+r1kOrganizationAnnotation
+r13-kNNS
+r1rootsNNS
+
+#Rule:Verbs
+r2findVB
+r2takeVB
+
+#Rule:Adjs
+r4realJJ
+
+#Rule:Adj-Noun
+r52xCD(-LRB-
+r5*CD(-LRB-
+r5+CD(-LRB-
+r53CD(-LRB-
+r50CD(-LRB-
+r52CD(-LRB-
+r5+CD(-LRB-
+r5twoCDrootsNNS
+r5realJJrootsNNS
+
+#Rule:HeadNoun-V
+r11kOrganizationAnnotationtakeVB
+
+#Rule:NP(NP(z) SBAR(S(NP(x)VP(y))))
+r19takeVBvaluesNNS
+
+#Rule:V-HeadNoun
+r21findVBrangeNN
+r21haveAUXrootsNNS
+
+#Rule:PPinNP
+r26rangeNNofINvaluesNNS
+
+#Rule:PPinVP
+r30takeVBforIN(-LRB-
+
+#I don t know what this even means lol!2x*2 = 2x to the power of 2So what is the range of values?
+#(S1 (S (NP (PRP I)) (VP (VB don) (S (NP (NNS t)) (VP (VB know) (SBAR (WHNP (WP what)) (S (NP (DT this)) (ADVP (RB even)) (VP (VBZ means) (ADJP (JJ lol) (. !) (JJ 2x) (SBAR (S (NP (CD *) (CD 2) (SYM =)) (VP (VBZ 2x) (PP (TO to) (NP (NP (DT the) (NN power)) (PP (IN of) (S (VP (VBG 2So) (SBAR (WHNP (WP what)) (S (VP (AUX is) (NP (NP (DT the) (NN range)) (PP (IN of) (NP (NNS values)))))))))))))))))))))) (. ?)))
+#Rule:Nouns
+r1tNNS
+r1powerNN
+r1rangeNN
+r1valuesNNS
+
+#Rule:Verbs
+r2donVB
+r2knowVB
+r2meansVBZ
+r22xVBZ
+r22soVBG
+
+#Rule:Adjs
+r4lol!2x*2 =PersonAnnotation
+
+#Rule:HeadNoun-V
+r11iPRPdonVB
+r11tNNSknowVB
+r11thisDTmeansVBZ
+r11lol!2x*2 =PersonAnnotation2xVBZ
+
+#Rule:V-HeadNoun
+r21isAUXrangeNN
+
+#Rule:V-HeadNoun
+r22donVBtNNS
+
+#Rule:PPinNP
+r26rangeNNofINvaluesNNS
+
+#Rule:PPinVP
+r302xVBZtoTOpowerNN
+
+#Rule:V-ADV
+r46meansVBZevenRB
+
+@lemmas-left	lol!2x*2 =	3-k	range	don	have	real	values	power	mean	find	be	is	2x	so	roots	*	means	+	k	know	i	3	2	two	0	t	take	2so	this	x	
+@lemmas-right	2x	range	don	roots	means	(	know	values	t	take	mean	power	even	x	
+@lemmas-center	to	of	for	

@@ -1,0 +1,34 @@
+#So you both can get half of everything when it doesn t work out.
+#(S1 (S (IN So) (NP (PRP you)) (DT both) (VP (MD can) (VP (VB get) (NP (NP (NN half)) (PP (IN of) (NP (NP (NN everything)) (SBAR (WHADVP (WRB when)) (S (NP (PRP it)) (VP (VBZ doesn) (S (NP (NNS t)) (VP (VB work) (PRT (RP out)))))))))))) (. .)))
+#Rule:Nouns
+r1halfNN
+r1everythingNN
+r1tLocationAnnotation
+
+#Rule:Verbs
+r2getVB
+r2doesnVBZ
+
+#Rule:V-PRT
+r3workVBoutRP
+
+#Rule:HeadNoun-V
+r11youPRPgetVB
+r11itPRPdoesnVBZ
+r11tLocationAnnotationworkVB
+
+#Rule:V-HeadNoun
+r21getVBhalfNN
+
+#Rule:V-HeadNoun
+r22doesnVBZtLocationAnnotation
+
+#Rule:PPinNP
+r26halfNNofINeverythingNN
+
+#Rule:(SBAR+WHADVP)inNP
+r41everythingNNwhenWRBdoesnVBZ
+
+@lemmas-left	work	doesn	it	t	get	everything	half	you	
+@lemmas-right	work	doesn	t	get	everything	half	out	
+@lemmas-center	of	when	

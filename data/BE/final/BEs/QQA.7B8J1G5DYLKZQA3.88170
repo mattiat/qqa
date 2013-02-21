@@ -1,0 +1,357 @@
+#Why would you be angry with yourself?  
+#(S1 (SBARQ (WHADVP (WRB Why)) (SQ (MD would) (NP (PRP you)) (VP (AUX be) (ADJP (JJ angry) (PP (IN with) (NP (PRP yourself)))))) (. ?)))
+#Rule:Adjs
+r4angryJJ
+
+#Rule:V-ADJ
+r25beAUXangryJJ
+
+#Rule:PPinADJP
+r37angryJJwithINyourselfPRP
+
+#Just listen to him, tell him if there is anything that you can do, you are there for him.  
+#(S1 (S (S (ADVP (RB Just)) (VP (VP (VB listen) (PP (TO to) (NP (PRP him)))) (, ,) (VP (VB tell) (NP (PRP him)) (SBAR (IN if) (S (NP (EX there)) (VP (AUX is) (NP (NP (NN anything)) (SBAR (WHNP (WDT that)) (S (NP (PRP you)) (VP (MD can) (VP (AUX do)))))))))))) (, ,) (NP (PRP you)) (VP (AUX are) (ADVP (RB there)) (PP (IN for) (NP (PRP him)))) (. .)))
+#Rule:Nouns
+r1anythingNN
+
+#Rule:Verbs
+r2listenVB
+r2tellVB
+
+#Rule:HeadNoun-V
+r11youPRPareAUX
+r11thereEXisAUX
+r11youPRPdoAUX
+
+#Rule:V-HeadNoun
+r21tellVBhimPRP
+r21isAUXanythingNN
+
+#Rule:PPinVP
+r30listenVBtoTOhimPRP
+r30areAUXforINhimPRP
+
+#Rule:V-IN-V
+r43tellVBifINisAUX
+
+#Rule:V-ADV
+r46areAUXthereRB
+
+#Rule:SubVerbClause
+r50youPRPlistenVB
+r50youPRPtellVB
+
+#If he cries, just hold him.  
+#(S1 (S (SBAR (IN If) (S (NP (PRP he)) (VP (VBZ cries)))) (, ,) (ADVP (RB just)) (VP (VBP hold) (NP (PRP him))) (. .)))
+#Rule:Verbs
+r2criesVBZ
+r2holdVBP
+
+#Rule:HeadNoun-V
+r11hePRPcriesVBZ
+
+#Rule:V-HeadNoun
+r21holdVBPhimPRP
+
+#Rule:V-ADV
+r46holdVBPjustRB
+
+#If you are both Christians, ask if you can pray with him.  
+#(S1 (S (SBAR (IN If) (S (NP (PRP you)) (VP (AUX are) (NP (DT both) (NNS Christians))))) (, ,) (VP (VB ask) (SBAR (IN if) (S (NP (PRP you)) (VP (MD can) (VP (VB pray) (PP (IN with) (NP (PRP him)))))))) (. .)))
+#Rule:Nouns
+r1ChristiansNNS
+
+#Rule:Verbs
+r2askVB
+r2prayVB
+
+#Rule:HeadNoun-V
+r11youPRPareAUX
+r11youPRPprayVB
+
+#Rule:V-HeadNoun
+r21areAUXChristiansNNS
+
+#Rule:PPinVP
+r30prayVBwithINhimPRP
+
+#Rule:V-IN-V
+r43askVBifINprayVB
+
+#You really can t make him feel better.  
+#(S1 (S (NP (PRP You)) (ADVP (RB really)) (VP (MD can) (ADVP (RB t)) (VP (VB make) (S (NP (PRP him)) (VP (VB feel) (ADVP (RBR better)))))) (. .)))
+#Rule:Verbs
+r2makeVB
+r2feelVB
+
+#Rule:HeadNoun-V
+r11youPRPmakeVB
+r11himPRPfeelVB
+
+#Rule:V-HeadNoun
+r22makeVBhimPRP
+
+#Rule:V-ADV
+r46makeVBtRB
+
+#My father died from Pancreatic Cancer.  
+#(S1 (S (NP (PRP$ My) (NN father)) (VP (VBD died) (PP (IN from) (NP (NNP Pancreatic) (NNP Cancer)))) (. .)))
+#Rule:Nouns
+r1fatherNN
+r1Pancreatic CancerOrganizationAnnotation
+
+#Rule:Verbs
+r2diedVBD
+
+#Rule:PRP-Noun
+r6myPRP$fatherNN
+
+#Rule:HeadNoun-V
+r11fatherNNdiedVBD
+
+#Rule:PPinVP
+r30diedVBDfromINPancreatic CancerOrganizationAnnotation
+
+#So many people tried to make me feel better.  
+#(S1 (S (NP (ADJP (RB So) (JJ many)) (NNS people)) (VP (VBD tried) (S (VP (TO to) (VP (VB make) (S (NP (PRP me)) (VP (VB feel) (ADVP (RBR better)))))))) (. .)))
+#Rule:Nouns
+r1peopleNNS
+
+#Rule:Verbs
+r2triedVBD
+r2makeVB
+r2feelVB
+
+#Rule:Adjs
+r4manyJJ
+
+#Rule:Adj-Noun
+r5manyJJpeopleNNS
+
+#Rule:HeadNoun-V
+r11peopleNNStriedVBD
+r11mePRPfeelVB
+
+#Rule:V-HeadNoun
+r22makeVBmePRP
+
+#Rule:V-V
+r44triedVBDmakeVB
+
+#But since there is no good thing to say, they wound up saying the wrong thing because they didn t know what was going on.  
+#(S1 (S (CC But) (SBAR (IN since) (S (NP (EX there)) (VP (AUX is) (NP (NP (DT no) (JJ good) (NN thing)) (SBAR (S (VP (TO to) (VP (VB say))))))))) (, ,) (NP (PRP they)) (VP (VBD wound) (PRT (RP up)) (S (VP (VBG saying) (NP (DT the) (JJ wrong) (NN thing)) (SBAR (IN because) (S (NP (PRP they)) (VP (VBP didn) (SBAR (S (NP (NNS t)) (VP (VBP know) (SBAR (WHNP (WP what)) (S (VP (AUX was) (VP (VBG going) (PRT (RP on))))))))))))))) (. .)))
+#Rule:Nouns
+r1thingNN
+r1thingNN
+r1tNNS
+
+#Rule:Verbs
+r2sayVB
+r2sayingVBG
+r2didnVBP
+r2knowVBP
+
+#Rule:V-PRT
+r3woundVBDupRP
+r3goingVBGonOrganizationAnnotation
+
+#Rule:Adjs
+r4goodJJ
+r4wrongJJ
+
+#Rule:Adj-Noun
+r5goodJJthingNN
+r5wrongJJthingNN
+
+#Rule:HeadNoun-V
+r11theyPRPwoundVBD
+r11thereEXisAUX
+r11theyPRPdidnVBP
+r11tNNSknowVBP
+
+#Rule:HeadNoun-(who/that)-V
+r14thingNNsayVB
+
+#Rule:V-HeadNoun
+r21isAUXthingNN
+r21sayingVBGthingNN
+
+#Rule:V-IN-V
+r43sayingVBGbecauseINdidnVBP
+
+#I myself have cancer.  
+#(S1 (S (NP (NP (PRP I)) (NP (PRP myself))) (VP (AUX have) (NP (NN cancer))) (. .)))
+#Rule:Nouns
+r1cancerNN
+
+#Rule:HeadNoun-V
+r11iPRPhaveAUX
+r11myselfPRPhaveAUX
+
+#Rule:V-HeadNoun
+r21haveAUXcancerNN
+
+#Not terminal right this minute, but I preferred someone to hug, cry and pray with than all the other stuff people had to say.  
+#(S1 (S (S (NP (RB Not) (NN terminal)) (VP (NN right) (NP (DT this) (NN minute)))) (, ,) (CC but) (S (NP (PRP I)) (VP (VBD preferred) (NP (NN someone)) (PP (TO to) (NP (NN hug) (, ,) (NN cry) (CC and) (NN pray))) (PP (IN with) (SBAR (IN than) (S (NP (PDT all) (DT the) (JJ other) (NN stuff) (NNS people)) (VP (AUX had) (S (VP (TO to) (VP (VB say)))))))))) (. .)))
+#Rule:Nouns
+r1terminalNN
+r1rightNN
+r1minuteNN
+r1someoneNN
+r1hugNN
+r1cryNN
+r1prayNN
+r1stuffNN
+r1peopleNNS
+
+#Rule:Verbs
+r2preferredVBD
+r2sayVB
+
+#Rule:Adjs
+r4otherJJ
+
+#Rule:Adj-Noun
+r5otherJJpeopleNNS
+
+#Rule:N-HeadNoun
+r8stuffNNpeopleNNS
+
+#Rule:HeadNoun-V
+r11iPRPpreferredVBD
+r11peopleNNShadAUX
+
+#Rule:V-HeadNoun
+r21rightNNminuteNN
+r21preferredVBDsomeoneNN
+
+#Rule:PPinVP
+r30preferredVBDtoTOcryNN
+
+#I know they didn t mean any harm, but unless you are walking in the shoes of the person with the terminal disease or the relative of the person with the terminal disease, you have no idea what is the right thing to say or do.  
+#(S1 (S (S (NP (PRP I)) (VP (VBP know) (SBAR (S (NP (PRP they)) (VP (VBP didn) (SBAR (S (NP (NNS t)) (VP (VBP mean) (NP (DT any) (NN harm)))))))))) (, ,) (CC but) (S (SBAR (IN unless) (S (NP (PRP you)) (VP (AUX are) (VP (VBG walking) (PP (IN in) (NP (NP (DT the) (NNS shoes)) (PP (IN of) (NP (NP (NP (DT the) (NN person)) (PP (IN with) (NP (DT the) (JJ terminal) (NN disease)))) (CC or) (NP (NP (DT the) (NN relative)) (PP (IN of) (NP (NP (DT the) (NN person)) (PP (IN with) (NP (DT the) (JJ terminal) (NN disease)))))))))))))) (, ,) (NP (PRP you)) (VP (AUX have) (NP (NP (DT no) (NN idea)) (SBAR (WHNP (WP what)) (S (VP (AUX is) (NP (NP (DT the) (JJ right) (NN thing)) (SBAR (S (VP (TO to) (VP (VB say) (SBAR (CC or) (S (VP (AUX do))))))))))))))) (. .)))
+#Rule:Nouns
+r1tNNS
+r1harmNN
+r1shoesNNS
+r1personNN
+r1diseaseNN
+r1relativeNN
+r1personNN
+r1diseaseNN
+r1ideaNN
+r1thingNN
+
+#Rule:Verbs
+r2knowVBP
+r2didnVBP
+r2meanVBP
+r2walkingVBG
+r2sayVB
+
+#Rule:Adjs
+r4terminalJJ
+r4terminalJJ
+r4rightJJ
+
+#Rule:Adj-Noun
+r5terminalJJdiseaseNN
+r5terminalJJdiseaseNN
+r5rightJJthingNN
+
+#Rule:HeadNoun-V
+r11iPRPknowVBP
+r11theyPRPdidnVBP
+r11tNNSmeanVBP
+r11youPRPhaveAUX
+r11youPRPwalkingVBG
+
+#Rule:HeadNoun-(who/that)-V
+r14ideaNNisAUX
+r14thingNNsayVB
+
+#Rule:V-HeadNoun
+r21meanVBPharmNN
+r21haveAUXideaNN
+r21isAUXthingNN
+
+#Rule:PPinNP
+r26shoesNNSofINpersonNN
+r26shoesNNSofINrelativeNN
+r26personNNwithINdiseaseNN
+r26relativeNNofINpersonNN
+r26personNNwithINdiseaseNN
+
+#Rule:PPinVP
+r30walkingVBGinINshoesNNS
+
+#Just be there for him.  
+#(S1 (S (NP (RB Just)) (VP (AUX be) (ADVP (RB there)) (PP (IN for) (NP (PRP him)))) (. .)))
+#Rule:PPinVP
+r30beAUXforINhimPRP
+
+#Rule:V-ADV
+r46beAUXthereRB
+
+#Don t push, and DON T TAKE ANYTHING PERSONAL should he push you away for a little bit.  
+#(S1 (S (S (NP (NNP Don) (NNP t)) (VP (VB push))) (, ,) (CC and) (S (NP (NNP DON) (NNP T)) (VP (VB TAKE) (NP (NN ANYTHING) (JJ PERSONAL)) (SBAR (SINV (MD should) (NP (PRP he)) (VP (VB push) (NP (PRP you)) (ADVP (RB away)) (PP (IN for) (NP (DT a) (JJ little) (NN bit)))))))) (. .)))
+#Rule:Nouns
+r1DonPersonAnnotation
+r1tNNP
+r1DONLocationAnnotation
+r1T TAKE ANYTHING PERSONALOrganizationAnnotation
+r1bitNN
+
+#Rule:Verbs
+r2pushVB
+r2pushVB
+
+#Rule:Adjs
+r4littleJJ
+
+#Rule:Adj-Noun
+r5littleJJbitNN
+
+#Rule:N-HeadNoun
+r8DonPersonAnnotationtNNP
+r8DONLocationAnnotationT TAKE ANYTHING PERSONALOrganizationAnnotation
+
+#Rule:HeadNoun-V
+r11tNNPpushVB
+
+#Rule:V-HeadNoun
+r21pushVByouPRP
+
+#Rule:PPinVP
+r30pushVBforINbitNN
+
+#Rule:V-ADV
+r46pushVBawayRB
+
+#We all grieve in our own way.
+#(S1 (S (NP (NP (PRP We)) (NP (DT all))) (VP (VBP grieve) (PP (IN in) (NP (PRP$ our) (JJ own) (NN way)))) (. .)))
+#Rule:Nouns
+r1wayNN
+
+#Rule:Verbs
+r2grieveVBP
+
+#Rule:Adjs
+r4ownJJ
+
+#Rule:Adj-Noun
+r5ownJJwayNN
+
+#Rule:PRP-Noun
+r6ourPRP$wayNN
+
+#Rule:HeadNoun-V
+r11wePRPgrieveVBP
+r11allDTgrieveVBP
+
+#Rule:PPinVP
+r30grieveVBPinINwayNN
+
+@lemmas-left	they	person	hug	little	angry	good	him	people	are	terminal	died	someone	pray	right	be	shoes	going	hold	he	grieve	relative	preferred	Christians	many	bit	DON	stuff	T TAKE ANYTHING PERSONAL	say	myself	own	prefer	ask	didn	walk	make	try	we	thing	go	walking	idea	christian	cries	saying	harm	other	have	way	tried	disease	wound	push	father	minute	Pancreatic Cancer	die	mean	tell	me	listen	all	feel	is	you	my	know	cry	i	anything	t	there	Don	wrong	our	cancer	
+@lemmas-right	person	angry	him	people	are	died	someone	pray	on	yourself	had	be	shoes	grieve	relative	preferred	Christians	bit	T TAKE ANYTHING PERSONAL	say	didn	prefer	make	walk	try	thing	christian	cries	walking	idea	harm	have	way	tried	disease	wound	push	father	minute	Pancreatic Cancer	die	mean	do	tell	me	listen	just	feel	is	you	know	cry	up	away	t	anything	there	cancer	
+@lemmas-center	because	to	of	with	for	if	from	in	

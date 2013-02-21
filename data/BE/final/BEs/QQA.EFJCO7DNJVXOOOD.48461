@@ -1,0 +1,61 @@
+#Pedialite.. 
+#(S1 (INTJ (JJ Pedialite) (. .) (. .)))
+#Rule:Adjs
+r4PedialitePersonAnnotation
+
+#Im not sure about the yogurt thing suggested by the other posted because I know when your having stomach problems you shouldnt intake any dairy products or asprin products..
+#(S1 (S (NP (NP (NNS Im)) (ADJP (RB not) (RB sure) (PP (IN about) (NP (DT the) (JJ yogurt) (NN thing))))) (VP (VBN suggested) (PP (IN by) (NP (NP (DT the) (JJ other)) (VP (VBN posted) (SBAR (IN because) (S (NP (PRP I)) (VP (VBP know) (SBAR (WHADVP (WRB when)) (S (NP (PRP$ your)) (VP (AUXG having) (NP (NP (NN stomach) (NNS problems)) (SBAR (S (NP (PRP you)) (VP (VBP shouldnt) (NP (NN intake)) (NP (NP (DT any) (NN dairy) (NNS products)) (CC or) (NP (NN asprin) (NNS products)))))))) (. .)))))))))) (. .)))
+#Rule:Nouns
+r1ImNNS
+r1thingNN
+r1stomachNN
+r1problemsNNS
+r1intakeNN
+r1dairyNN
+r1productsNNS
+r1asprinNN
+r1productsNNS
+
+#Rule:Verbs
+r2suggestedVBN
+r2postedVBN
+r2knowVBP
+r2shouldntVBP
+
+#Rule:Adjs
+r4yogurtOrganizationAnnotation
+r4otherJJ
+
+#Rule:Adj-Noun
+r5yogurtOrganizationAnnotationthingNN
+
+#Rule:N-HeadNoun
+r8stomachNNproblemsNNS
+r8dairyNNproductsNNS
+r8asprinNNproductsNNS
+
+#Rule:HeadNoun-V
+r11iPRPknowVBP
+r11youPRPshouldntVBP
+
+#Rule:V-By-Agent
+r13otherJJsuggestedVBN
+
+#Rule:V-HeadNoun
+r21havingAUXGproblemsNNS
+r21shouldntVBPintakeNN
+r21shouldntVBPproductsNNS
+
+#Rule:V-HeadNoun(passive)
+r24suggestedVBNImNNS
+r24postedVBNotherJJ
+
+#Rule:PPinADJP
+r37notRBaboutINthingNN
+
+#Rule:V-IN-V
+r43postedVBNbecauseINknowVBP
+
+@lemmas-left	yogurt	Im	other	post	problems	intake	Pedialite	you	problem	dairy	suggested	suggest	im	asprin	know	posted	i	not	product	shouldnt	having	products	stomach	thing	
+@lemmas-right	Im	problems	other	intake	problem	suggest	suggested	im	know	product	shouldnt	products	thing	
+@lemmas-center	because	about	

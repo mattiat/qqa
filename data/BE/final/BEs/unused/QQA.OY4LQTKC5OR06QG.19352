@@ -1,0 +1,440 @@
+#Because  The SCIENTIFICALLY   UNFOUNDED Cholesterol Theory of Coronary Heart Disease  is HUGELY PROFITEABLE, POLITICALLY CORRECT, and researchers HARM  THEIR livelihoods when they speak out against it. (like Kilmer Mc Cully) SOME  doctors know FULL WELL that they are LYING, while others are just misinformed by the massive cholesterol PROPAGANDA  campaign..
+#(S1 (S (SBAR (IN Because) (S (S (NP (NP (DT The) (ADJP (RB SCIENTIFICALLY) (JJ UNFOUNDED)) (NN Cholesterol) (NN Theory)) (PP (IN of) (NP (JJ Coronary) (NNP Heart) (NNP Disease)))) (VP (AUX is) (ADJP (ADJP (RB HUGELY) (JJ PROFITEABLE)) (, ,) (ADJP (RB POLITICALLY) (JJ CORRECT))))) (, ,) (CC and) (S (NP (NNS researchers)) (VP (VBP HARM) (NP (PRP$ THEIR) (NNS livelihoods)) (SBAR (WHADVP (WRB when)) (S (NP (PRP they)) (VP (VBP speak) (PRT (RP out)) (PP (IN against) (NP (PRP it)))) (. .))))))) (PRN (-LRB- -LRB-) (PP (IN like) (NP (NNP Kilmer) (NNP Mc) (NNP Cully))) (-RRB- -RRB-)) (NP (DT SOME) (NNS doctors)) (VP (VBP know) (NP (JJ FULL) (NN WELL) (SBAR (IN that) (S (NP (PRP they)) (VP (AUX are) (VP (VBG LYING) (, ,) (SBAR (IN while) (S (NP (NNS others)) (VP (AUX are) (ADVP (RB just)) (VP (VBN misinformed) (PP (IN by) (NP (DT the) (JJ massive) (NN cholesterol) (NN PROPAGANDA) (NN campaign)))))))))) (. .)))) (. .)))
+#Rule:Nouns
+r1CholesterolNN
+r1TheoryNN
+r1Coronary Heart Disease  is HUGELY PROFITEABLEOrganizationAnnotation
+r1researchersNNS
+r1livelihoodsNNS
+r1Kilmer Mc CullyOrganizationAnnotation
+r1doctorsNNS
+r1WELLNN
+r1othersNNS
+r1cholesterolNN
+r1PROPAGANDANN
+r1campaignNN
+
+#Rule:Verbs
+r2harmVBP
+r2knowVBP
+r2lyingVBG
+r2misinformedVBN
+
+#Rule:V-PRT
+r3speakVBPoutRP
+
+#Rule:Adjs
+r4UNFOUNDEDJJ
+r4CORRECTJJ
+r4FULLJJ
+r4massiveJJ
+
+#Rule:Adj-Noun
+r5UNFOUNDEDJJTheoryNN
+r5FULLJJWELLNN
+r5massiveJJcampaignNN
+
+#Rule:PRP-Noun
+r6theirPRP$livelihoodsNNS
+
+#Rule:N-HeadNoun
+r8CholesterolNNTheoryNN
+r8PROPAGANDANNcampaignNN
+r8cholesterolNNcampaignNN
+
+#Rule:HeadNoun-V
+r11doctorsNNSknowVBP
+r11TheoryNNCoronary Heart Disease  is HUGELY PROFITEABLEOrganizationAnnotation
+r11researchersNNSharmVBP
+r11theyPRPspeakVBP
+r11theyPRPlyingVBG
+
+#Rule:V-By-Agent
+r13campaignNNmisinformedVBN
+
+#Rule:V-HeadNoun
+r21harmVBPlivelihoodsNNS
+r21knowVBPWELLNN
+
+#Rule:V-HeadNoun(passive)
+r23misinformedVBNothersNNS
+
+#Rule:PPinNP
+r26TheoryNNofINCoronary Heart Disease  is HUGELY PROFITEABLEOrganizationAnnotation
+
+#Rule:PPinVP
+r30speakVBPagainstINitPRP
+
+#Rule:V-IN-V
+r43lyingVBGwhileINmisinformedVBN
+
+#Rule:V-ADV
+r46areAUXjustRB
+r46misinformedVBNjustRB
+
+#THE RESEARCH IS  ALL AVAILABLE AT A MEDICAL UNIVERSITY LIBRARY. THE PROBLEM IS JANE AVERAGE DOES NOT LOOK FOR IT.COLPO DUG IT ALL UP AND THOROUGHLY It amazes me how  most persons just do not realize that CLINICAL Dietary Intervention Trials  for the last 50 years have found NO REDUCTION AT ALL  in Coronary Heart Disease mortality from replacing animal fat with polyunsaturated fat..
+#(S1 (S (NP (DT THE) (NN RESEARCH)) (VP (AUX IS) (ADJP (RB ALL) (JJ AVAILABLE) (PP (IN AT) (NP (DT A) (NNP MEDICAL) (NNP UNIVERSITY) (NNP LIBRARY.)))) (SBAR (S (NP (DT THE) (NN PROBLEM)) (VP (AUX IS) (SBAR (S (NP (NNP JANE) (NNP AVERAGE)) (VP (AUX DOES) (RB NOT) (VP (VB LOOK) (SBAR (IN FOR) (S (NP (NNP IT.COLPO)) (VP (VBD DUG) (NP (PRP IT)) (ADVP (DT ALL) (RB UP) (CC AND) (RB THOROUGHLY)) (SBAR (S (NP (PRP It)) (VP (VBZ amazes) (NP (PRP me)) (SBAR (WHADVP (WRB how)) (S (NP (JJS most) (NNS persons)) (ADVP (RB just)) (VP (AUX do) (RB not) (VP (VB realize) (SBAR (S (NP (NP (DT that) (JJ CLINICAL) (NNP Dietary) (NN Intervention) (NNS Trials)) (PP (IN for) (NP (DT the) (JJ last) (CD 50) (NNS years)))) (VP (AUX have) (VP (VBN found) (NP (NP (DT NO) (NN REDUCTION)) (PP (IN AT) (NP (NP (DT ALL)) (PP (IN in) (NP (JJ Coronary) (NNP Heart) (NNP Disease) (NN mortality)))))) (PP (IN from) (S (VP (VBG replacing) (NP (NN animal) (NN fat)) (PP (IN with) (NP (JJ polyunsaturated) (NN fat)))))))))))) (. .))))))))))))))))) (. .)))
+#Rule:Nouns
+r1RESEARCOrganizationAnnotation
+r1PROBLEM IS JANE AVERAGE DOES NOT LOOK FOR IT.COLPO DUG IT ALL UP AND THOROUGHLYOrganizationAnnotation
+r1personsNNS
+r1DietaryNNP
+r1InterventionNN
+r1TrialsNNS
+r1yearsNNS
+r1NO REDUCTION AT ALL  in Coronary Heart DiseaseOrganizationAnnotation
+r1mortalityNN
+r1animalNN
+r1fatNN
+r1fatNN
+
+#Rule:Verbs
+r2amazesVBZ
+r2realizeVB
+r2foundVBN
+r2replacingVBG
+
+#Rule:Adjs
+r4mostJJS
+r4CLINICALOrganizationAnnotation
+r4lastJJ
+r4polyunsaturatedJJ
+
+#Rule:Adj-Noun
+r5mostJJSpersonsNNS
+r5CLINICALOrganizationAnnotationTrialsNNS
+r5lastJJyearsNNS
+r550CDyearsNNS
+r5NO REDUCTION AT ALL  in Coronary Heart DiseaseOrganizationAnnotationmortalityNN
+r5polyunsaturatedJJfatNN
+
+#Rule:N-HeadNoun
+r8InterventionNNTrialsNNS
+r8DietaryNNPTrialsNNS
+r8animalNNfatNN
+
+#Rule:HeadNoun-V
+r11itPRPamazesVBZ
+r11personsNNSrealizeVB
+
+#Rule:HeadNoun-V
+r12TrialsNNSfoundVBN
+
+#Rule:V-HeadNoun
+r21amazesVBZmePRP
+r21foundVBNNO REDUCTION AT ALL  in Coronary Heart DiseaseOrganizationAnnotation
+r21replacingVBGfatNN
+
+#Rule:PPinNP
+r26TrialsNNSforINyearsNNS
+
+#Rule:PPinVP
+r30replacingVBGwithINfatNN
+
+#Rule:V-ADV
+r46doAUXjustRB
+r46doAUXnotRB
+
+#In FACT JUST THE OPPOSITE.
+#(S1 (FRAG (PP (IN In) (NP (NN FACT))) (NP (RB JUST) (DT THE) (NN OPPOSITE)) (. .)))
+#Rule:Nouns
+r1FACTLocationAnnotation
+r1OPPOSITENN
+
+# In MANY of these 18 CLINICAL  Dietary Intervention Trials to date the persons randomzied to POLYUNSATURATED FAT HAD  SIGNIFICANT INCREASES IN CORONARY HEART DISEASE MORTALITY.
+#(S1 (S (PP (IN In) (NP (NP (JJ MANY)) (PP (IN of) (NP (NP (DT these) (CD 18) (JJ CLINICAL) (NNP Dietary) (NN Intervention) (NNS Trials)) (PP (TO to) (NP (NN date))))))) (NP (NP (DT the) (NNS persons)) (VP (VBN randomzied) (PP (TO to) (NP (JJ POLYUNSATURATED) (NN FAT))))) (VP (AUX HAD) (NP (NP (JJ SIGNIFICANT) (NNS INCREASES)) (PP (IN IN) (NP (JJ CORONARY) (NN HEART) (NN DISEASE) (NN MORTALITY))))) (. .)))
+#Rule:Nouns
+r1DietaryNNP
+r1InterventionNN
+r1TrialsNNS
+r1dateNN
+r1personsNNS
+r1POLYUNSATURATED FAT HAD  SIGNIFICANT INCREASES IN CORONARYOrganizationAnnotation
+r1HEARTNN
+r1DISEASE MOrganizationAnnotation
+
+#Rule:Verbs
+r2randomziedVBN
+
+#Rule:Adjs
+r4MANYJJ
+r4CLINICALJJ
+
+#Rule:Adj-Noun
+r518CDTrialsNNS
+r5CLINICALJJTrialsNNS
+r5POLYUNSATURATED FAT HAD  SIGNIFICANT INCREASES IN CORONARYOrganizationAnnotationDISEASE MOrganizationAnnotation
+
+#Rule:N-HeadNoun
+r8InterventionNNTrialsNNS
+r8DietaryNNPTrialsNNS
+r8HEARTNNDISEASE MOrganizationAnnotation
+
+#Rule:HeadNoun-V
+r11personsNNSPOLYUNSATURATED FAT HAD  SIGNIFICANT INCREASES IN CORONARYOrganizationAnnotation
+
+#Rule:V-HeadNoun(passive)
+r24randomziedVBNpersonsNNS
+
+#Rule:PPinNP
+r26MANYJJofINTrialsNNS
+r26TrialsNNStoTOdateNN
+
+#Rule:PPinVP
+r32randomziedVBNtoTOPOLYUNSATURATED FAT HAD  SIGNIFICANT INCREASES IN CORONARYOrganizationAnnotation
+
+#Rule:PPinS
+r36POLYUNSATURATED FAT HAD  SIGNIFICANT INCREASES IN CORONARYOrganizationAnnotationinINMANYJJ
+
+#  despite lowering their cholesterol agood 23 ml below the  persons randomized to animal fats This fact was CONVIENENTLY MENTIONED IN A THROW AWAY LINE, instead the authors made notes of the impressive cholesterol reduction DESPITE THE FACT THEY HAD 9 DEATHS FROM CORONARY HEART DISEASE IN THE PERSONS RANDOMIZED TO POLYUNSATURATED FAT, while the persons randomized to animal fats had NO DEATHS FROM CORONARY HEART DISEASE.
+#(S1 (S (PP (IN despite) (S (VP (VBG lowering) (NP (NP (NP (PRP$ their) (NN cholesterol) (NN agood)) (NP (CD 23) (NNS ml))) (PP (IN below) (NP (NP (DT the) (NNS persons)) (VP (VBN randomized) (PP (TO to) (NP (NP (NN animal) (NNS fats)) (SBAR (S (NP (DT This) (NN fact)) (VP (AUX was) (RB CONVIENENTLY) (VP (VBN MENTIONED) (PP (IN IN) (NP (DT A))))))))))))) (S (VP (VB THROW) (PRT (RP AWAY)) (NP (NN LINE))))))) (, ,) (ADVP (RB instead)) (NP (DT the) (NNS authors)) (VP (VBD made) (NP (NP (NNS notes)) (PP (IN of) (NP (DT the) (JJ impressive) (NN cholesterol) (NN reduction)))) (PP (IN DESPITE) (NP (DT THE) (NN FACT) (SBAR (S (NP (PRP THEY)) (VP (AUX HAD) (NP (NP (CD 9) (NNS DEATHS)) (PP (IN FROM) (NP (JJ CORONARY) (NN HEART) (NN DISEASE)))) (PP (IN IN) (NP (NP (DT THE) (NNS PERSONS)) (VP (VBN RANDOMIZED) (PP (TO TO) (NP (JJ POLYUNSATURATED) (NN FAT)))))) (, ,) (SBAR (IN while) (S (NP (NP (DT the) (NNS persons)) (VP (VBN randomized) (PP (TO to) (NP (NN animal) (NNS fats))))) (VP (AUX had) (NP (NP (DT NO) (NNS DEATHS)) (PP (IN FROM) (NP (JJ CORONARY) (NN HEART) (NN DISEASE))))))))))))) (. .)))
+#Rule:Nouns
+r1cholesterolNN
+r1agoodNN
+r1mlNNS
+r1personsNNS
+r1animalNN
+r1fatsNNS
+r1factNN
+r1AWAY LINEOrganizationAnnotation
+r1authorsNNS
+r1notesNNS
+r1cholesterolNN
+r1reductionNN
+r1FACTNN
+r1DEATHS FROM CORONARY HEART DISEASE IN THE PERSONS RANDOMIZED TO POLYUNSATURATED FATOrganizationAnnotation
+r1personsNNS
+r1animalNN
+r1fatsNNS
+r1NO DEATHS FROM CORONARY HEART DISEASEOrganizationAnnotation
+
+#Rule:Verbs
+r2loweringVBG
+r2randomizedVBN
+r2CONVIENENTLY MENTIONED IN AOrganizationAnnotation
+r2madeVBD
+r2randomizedVBN
+
+#Rule:V-PRT
+r3throwVBAWAY LINEOrganizationAnnotation
+
+#Rule:Adjs
+r4impressiveJJ
+
+#Rule:Adj-Noun
+r523CDmlNNS
+r5impressiveJJreductionNN
+r59CDDEATHS FROM CORONARY HEART DISEASE IN THE PERSONS RANDOMIZED TO POLYUNSATURATED FATOrganizationAnnotation
+
+#Rule:PRP-Noun
+r6theirPRP$agoodNN
+
+#Rule:N-HeadNoun
+r8cholesterolNNagoodNN
+r8animalNNfatsNNS
+r8cholesterolNNreductionNN
+r8animalNNfatsNNS
+
+#Rule:HeadNoun-V
+r11authorsNNSmadeVBD
+r11theyPRPhadAUX
+r11personsNNShadAUX
+
+#Rule:NP(NP(z) SBAR(S(NP(x)VP(y))))
+r19CONVIENENTLY MENTIONED IN AOrganizationAnnotationfatsNNS
+
+#Rule:V-HeadNoun
+r21loweringVBGagoodNN
+r21madeVBDnotesNNS
+r21hadAUXDEATHS FROM CORONARY HEART DISEASE IN THE PERSONS RANDOMIZED TO POLYUNSATURATED FATOrganizationAnnotation
+r21hadAUXNO DEATHS FROM CORONARY HEART DISEASEOrganizationAnnotation
+
+#Rule:V-HeadNoun(passive)
+r23CONVIENENTLY MENTIONED IN AOrganizationAnnotationfactNN
+
+#Rule:V-HeadNoun(passive)
+r24randomizedVBNpersonsNNS
+r24randomizedVBNpersonsNNS
+
+#Rule:PPinNP
+r26agoodNNbelowINpersonsNNS
+r26notesNNSofINreductionNN
+
+#Rule:PPinVP
+r30madeVBDdespiteINFACTNN
+
+#Rule:PPinVP
+r32randomizedVBNtoTOfatsNNS
+r32randomizedVBNtoTOfatsNNS
+
+#Rule:V-IN-V
+r43hadAUXwhileINhadAUX
+
+#Rule:V-ADV
+r46madeVBDinsteadRB
+r46wasAUXCONVIENENTLY MENTIONED IN AOrganizationAnnotation
+
+# THIS TRIAL WAS THE ANTI-CORONARY CLUB 1966  , ONE OF THE 18 ALL DETAILED IN COLPOS BOOK RESULTS AND ALLTHE PUBLIC CAN NOT BE LIED TO ANYMORE!!!!!!!!IT IS ALL IN COLPOS BOOK A MUST READ - ALL SCIENCE, NO OPINIONSAnthony Colpo has THROUGHLY DEBUNKED  THIS COMPLETE SHAM BY PRINTING OUT ALL THE EVIDENCE ALL 18 CLINICAL and ALL 26 Prospective Trials  for EVERYONE TO SEE.
+#(S1 (S (S (NP (DT THIS) (NN TRIAL)) (VP (AUX WAS) (NP (NP (NP (DT THE) (ADJP (JJ ANTI-CORONARY) (NP (NNP CLUB) (CD 1966) (, ,) (CD ONE)))) (PP (IN OF) (NP (DT THE) (CD 18))) (SBAR (S (NP (NP (DT ALL) (ADJP (JJ DETAILED) (PP (IN IN) (NP (NNP COLPOS)))) (NN BOOK) (NNS RESULTS)) (CC AND) (NP (NN ALLTHE) (NN PUBLIC))) (VP (MD CAN) (RB NOT) (VP (AUX BE) (VP (VBD LIED) (S (VP (TO TO) (ADVP (RB ANYMORE)) (VP (VB !!!!!!!!) (SBAR (S (NP (PRP IT)) (VP (AUX IS) (NP (DT ALL)) (PP (IN IN) (NP (NNP COLPOS) (NNP BOOK))) (SBAR (DT A) (S (VP (MD MUST) (VP (VB READ))))))))))))))))) (: -) (NP (DT ALL) (NN SCIENCE))))) (, ,) (RB NO) (S (NP (NNP OPINIONSAnthony) (NNP Colpo)) (VP (AUX has) (ADVP (RB THROUGHLY)) (VP (VBN DEBUNKED) (NP (DT THIS) (JJ COMPLETE) (NN SHAM)) (PP (IN BY) (S (VP (VBG PRINTING) (PRT (RP OUT)) (NP (PDT ALL) (DT THE) (NN EVIDENCE)) (S (NP (NP (DT ALL) (CD 18) (JJ CLINICAL) (CC and) (DT ALL) (ADJP (CD 26) (JJ Prospective)) (NNS Trials)) (PP (IN for) (NP (NN EVERYONE)))) (VP (TO TO) (VP (VB SEE)))))))))) (. .)))
+#Rule:Nouns
+r1TRIALNN
+r1CLUBNNP
+r1COLPOSLocationAnnotation
+r1BOOK RESULTS ANDOrganizationAnnotation
+r1ALLTHENN
+r1PUBLICOrganizationAnnotation
+r1IS ALL IN COLPOS BOOKOrganizationAnnotation
+r1ALL SCIENCE, NO OPINIONSAnthony ColpoOrganizationAnnotation
+r1THROUGHLY DEBUNKED  THIS COMPLETE SHAMOrganizationAnnotation
+r1EVIDENCENN
+r1TrialsNNS
+r1EVERYONENN
+
+#Rule:Verbs
+r2NOT BE LIED TO ANYMORE!!!!!!!!PersonAnnotation
+r2readVB
+r2seeVB
+
+#Rule:V-PRT
+r3printingVBGOUTRP
+
+#Rule:Adjs
+r4ANTI-CORONARYJJ
+r4DETAILEDJJ
+r4CLINICALJJ
+r4ProspectiveJJ
+
+#Rule:Adj-Noun
+r51966CDCLUBNNP
+r5ONECDCLUBNNP
+r5DETAILEDJJBOOK RESULTS ANDOrganizationAnnotation
+r518CDTrialsNNS
+r5CLINICALJJTrialsNNS
+r526CDTrialsNNS
+r5ProspectiveJJTrialsNNS
+
+#Rule:N-HeadNoun
+r8ALLTHENNPUBLICOrganizationAnnotation
+
+#Rule:HeadNoun-V
+r11TRIALNNwasAUX
+r11BOOK RESULTS ANDOrganizationAnnotationNOT BE LIED TO ANYMORE!!!!!!!!PersonAnnotation
+r11PUBLICOrganizationAnnotationNOT BE LIED TO ANYMORE!!!!!!!!PersonAnnotation
+r11itPRPIS ALL IN COLPOS BOOKOrganizationAnnotation
+r11TrialsNNSseeVB
+
+#Rule:HeadNoun-V
+r12ALL SCIENCE, NO OPINIONSAnthony ColpoOrganizationAnnotationTHROUGHLY DEBUNKED  THIS COMPLETE SHAMOrganizationAnnotation
+
+#Rule:V-HeadNoun
+r21wasAUXANTI-CORONARYJJ
+r21printingVBGEVIDENCENN
+
+#Rule:V-HeadNoun
+r22printingVBGTrialsNNS
+
+#Rule:PPinNP
+r26ANTI-CORONARYJJofIN18CD
+r26TrialsNNSforINEVERYONENN
+
+#Rule:PPinADJP
+r37DETAILEDJJinINCOLPOSLocationAnnotation
+
+#Rule:V-ADV
+r46hasAUXTHROUGHLY DEBUNKED  THIS COMPLETE SHAMOrganizationAnnotation
+
+# There really is no other book that has ever done thisThe Cholesterol Theory of Coronary  Heart Disease  is  suitable for a CHILDREN S FAIRY TALE STORYwww.
+#(S1 (S (NP (EX There)) (ADVP (RB really)) (VP (AUX is) (NP (NP (DT no) (JJ other) (NN book)) (SBAR (WHNP (WDT that)) (S (VP (AUX has) (ADVP (RB ever)) (VP (AUX done) (NP (NP (NN thisThe)) (SBAR (S (NP (NP (NN Cholesterol) (NN Theory)) (PP (IN of) (NP (JJ Coronary) (NN Heart) (NN Disease)))) (VP (AUX is) (ADJP (JJ suitable) (PP (IN for) (NP (DT a) (NNP CHILDREN) (NNP S) (NN FAIRY) (NN TALE) (NN STORYwww)))))))))))))) (. .)))
+#Rule:Nouns
+r1bookNN
+r1thisTheNN
+r1CholesterolNN
+r1TheoryNN
+r1Coronary  Heart DiseaseOrganizationAnnotation
+r1CHILDRENOrganizationAnnotation
+
+#Rule:Adjs
+r4otherJJ
+r4suitableJJ
+
+#Rule:Adj-Noun
+r5otherJJbookNN
+
+#Rule:N-HeadNoun
+r8CholesterolNNTheoryNN
+
+#Rule:HeadNoun-V
+r11thereEXisAUX
+r11TheoryNNisAUX
+
+#Rule:HeadNoun-(who/that)-V
+r14bookNNdoneAUX
+
+#Rule:V-HeadNoun
+r21isAUXbookNN
+r21doneAUXthisTheNN
+
+#Rule:V-ADJ
+r25isAUXsuitableJJ
+
+#Rule:PPinNP
+r26TheoryNNofINCoronary  Heart DiseaseOrganizationAnnotation
+
+#Rule:PPinADJP
+r37suitableJJforINCHILDRENOrganizationAnnotation
+
+#Rule:V-ADV
+r46isAUXreallyRB
+r46hasAUXeverRB
+r46doneAUXeverRB
+
+#thegreatcholesterolcon.
+#(S1 (X (NNP thegreatcholesterolcon) (. .)))
+#Rule:Nouns
+r1thegreatcholesterolconNNP
+
+#comwww.
+#(S1 (INTJ (UH comwww) (. .)))
+#ravnskov.
+#(S1 (X (NNP ravnskov) (. .)))
+#Rule:Nouns
+r1ravnskovLocationAnnotation
+
+#nu/cholesterol.
+#(S1 (X (NNP nu/cholesterol) (. .)))
+#Rule:Nouns
+r1nu/cholesterolNNP
+
+#htmANTHONY COLPO AND DR.
+#(S1 (NP (NNP htmANTHONY) (NNP COLPO) (CC AND) (NNP DR) (. .)))
+#Rule:Nouns
+r1htmANTHONYNNP
+r1COLPONNP
+r1DRNNP
+
+#Rule:N-HeadNoun
+r8htmANTHONYNNPCOLPONNP
+
+# UFFE RAVNSKOV - HEROES TO MANKINDCONFRONT  your doctor TODAY with COLPO S BOOK IN HAND.
+#(S1 (NP (NP (NNP UFFE) (NNP RAVNSKOV)) (: -) (NP (NP (NNS HEROES)) (SBAR (S (VP (TO TO) (VP (VB MANKINDCONFRONT) (NP (PRP$ your) (NN doctor) (NN TODAY)) (PP (IN with) (NP (NP (NNP COLPO) (NNP S) (NNP BOOK)) (PP (IN IN) (NP (NN HAND)))))))))) (. .)))
+#Rule:Nouns
+r1UFFE RAVNSKOV - HEROES TO MANKINDCONFRONTOrganizationAnnotation
+r1doctorNN
+r1TODAYNN
+r1COLPOrganizationAnnotation
+
+#Rule:PRP-Noun
+r6yourPRP$TODAYNN
+
+#Rule:N-HeadNoun
+r8doctorNNTODAYNN
+
+#Rule:V-HeadNoun
+r21UFFE RAVNSKOV - HEROES TO MANKINDCONFRONTOrganizationAnnotationTODAYNN
+
+#Rule:PPinVP
+r30UFFE RAVNSKOV - HEROES TO MANKINDCONFRONTOrganizationAnnotationwithINCOLPOrganizationAnnotation
+
+@lemmas-left	they	person	lower	Intervention	unfounded	amazes	randomize	DISEASE M	authors	are	htmanthony	ONE	correct	DR	randomized	doctors	everyone	DETAILED	IS ALL IN COLPOS BOOK	suitable	others	lying	heart	DEATHS FROM CORONARY HEART DISEASE IN THE PERSONS RANDOMIZED TO POLYUNSATURATED FAT	FULL	done	23	CLINICAL	misinform	Cholesterol	26	Dietary	researcher	PROPAGANDA	many	NO DEATHS FROM CORONARY HEART DISEASE	COLP	Coronary  Heart Disease	coronary	9	years	POLYUNSATURATED FAT HAD  SIGNIFICANT INCREASES IN CORONARY	FACT	propaganda	AWAY LINE	TODAY	EVERYONE	harm	made	most	18	date	UNFOUNDED	thegreatcholesterolcon	intervention	detailed	THROUGHLY DEBUNKED  THIS COMPLETE SHAM	do	clinical	CORRECT	campaign	MANY	trial	ml	note	dr	prospective	speak	replace	dietary	fact	nu/cholesterol	Kilmer Mc Cully	club	mortality	ravnskov	impressive	notes	UFFE RAVNSKOV - HEROES TO MANKINDCONFRONT	amaze	realize	last	RESEARC	COLPO	CHILDREN	ANTI-CORONARY	has	doctor	livelihood	randomzied	polyunsaturated	PROBLEM IS JANE AVERAGE DOES NOT LOOK FOR IT.COLPO DUG IT ALL UP AND THOROUGHLY	fats	allthe	reduction	had	be	CLUB	researchers	fat	printing	Prospective	cholesterol	ALL SCIENCE, NO OPINIONSAnthony Colpo	lowering	thisthe	Coronary Heart Disease  is HUGELY PROFITEABLE	make	other	TRIAL	have	opposite	one	evidence	misinformed	today	theory	well	was	author	throw	thisThe	NO REDUCTION AT ALL  in Coronary Heart Disease	full	WELL	htmANTHONY	read	agood	ALLTHE	Theory	animal	is	NOT BE LIED TO ANYMORE!!!!!!!!	it	CONVIENENTLY MENTIONED IN A	1966	BOOK RESULTS AND	your	livelihoods	colpo	replacing	HEART	persons	know	print	massive	see	COLPOS	there	book	EVIDENCE	PUBLIC	OPPOSITE	their	Trials	lie	found	50	
+@lemmas-right	realize	person	COLPO	CHILDREN	ANTI-CORONARY	livelihood	amazes	DISEASE M	fats	reduction	everyone	had	be	IS ALL IN COLPOS BOOK	CLUB	suitable	others	lying	DEATHS FROM CORONARY HEART DISEASE IN THE PERSONS RANDOMIZED TO POLYUNSATURATED FAT	done	fat	misinform	not	many	NO DEATHS FROM CORONARY HEART DISEASE	COLP	Coronary  Heart Disease	thisthe	coronary	Coronary Heart Disease  is HUGELY PROFITEABLE	years	POLYUNSATURATED FAT HAD  SIGNIFICANT INCREASES IN CORONARY	FACT	make	ever	AWAY LINE	TODAY	EVERYONE	harm	have	evidence	misinformed	made	today	18	theory	well	date	was	thisThe	NO REDUCTION AT ALL  in Coronary Heart Disease	WELL	do	THROUGHLY DEBUNKED  THIS COMPLETE SHAM	me	agood	campaign	MANY	trial	ml	note	Theory	just	is	NOT BE LIED TO ANYMORE!!!!!!!!	it	CONVIENENTLY MENTIONED IN A	BOOK RESULTS AND	livelihoods	colpo	OUT	speak	persons	know	really	fact	see	COLPOS	club	book	instead	mortality	EVIDENCE	PUBLIC	notes	Trials	lie	amaze	out	found	
+@lemmas-center	to	of	with	for	against	below	in	despite	while	

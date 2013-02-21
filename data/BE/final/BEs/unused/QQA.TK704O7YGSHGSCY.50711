@@ -1,0 +1,20 @@
+#You visit your doctor!
+#(S1 (S (NP (PRP You)) (VP (VBP visit) (NP (PRP$ your) (NN doctor))) (. !)))
+#Rule:Nouns
+r1doctorNN
+
+#Rule:Verbs
+r2visitVBP
+
+#Rule:PRP-Noun
+r6yourPRP$doctorNN
+
+#Rule:HeadNoun-V
+r11youPRPvisitVBP
+
+#Rule:V-HeadNoun
+r21visitVBPdoctorNN
+
+@lemmas-left	your	you	visit	doctor	
+@lemmas-right	visit	doctor	
+@lemmas-center	

@@ -1,0 +1,363 @@
+BE: placeNN
+EQ class: spotnn	topographic_pointnn	
+
+BE: distractionsNNS
+EQ class: theynns	distractionnns	themnns	
+
+BE: libraryNN
+EQ class: 
+
+BE: goVB
+EQ class: locomotevb	movevb	travelvb	
+
+BE: worksVBZ
+EQ class: workvbz	
+
+BE: quietJJ
+EQ class: quietnessnn	
+
+BE: quietJJplaceNN
+EQ class: posevbquietlyrb	setvbquietlyrb	placevbquietlyrb	quietjjspotnn	layvbquietlyrb	quietnessnnplacenn	putvbquietlyrb	positionvbquietlyrb	quietnessnntopographic_pointnn	quietjjtopographic_pointnn	quietnessnnspotnn	
+
+BE: libraryNNworksVBZ
+EQ class: worknnofinlibrarynn	workernnofinlibrarynn	librarynnworkvbz	workernnlibrarynn	
+
+BE: placeNNwithINdistractionsNNS
+EQ class: theynnsspotnn	distractionsnnsposevb	spotnnwithindistractionsnns	distractionnnsplacevb	distractionsnnslayvb	distractionnnslayvb	theynnslayvb	themnnsspotnn	layvbtheynns	placennwithinthemnns	putvbdistractionnns	spotnnwithindistractionnns	distractionsnnspositionvb	posevbthemnns	layvbthemnns	setvbthemnns	posevbdistractionnns	placevbthemnns	topographic_pointnnwithintheynns	layvbdistractionsnns	distractionnnssetvb	distractionsnnsputvb	themnnsputvb	distractionsnnsplacevb	distractionnnsplacenn	positionvbdistractionnns	positionvbtheynns	distractionnnsposevb	positionvbthemnns	positionvbdistractionsnns	distractionsnnsplacenn	distractionsnnssetvb	posevbtheynns	distractionsnnstopographic_pointnn	distractionnnstopographic_pointnn	setvbtheynns	topographic_pointnnwithindistractionnns	theynnsposevb	themnnspositionvb	distractionsnnsspotnn	setvbdistractionsnns	theynnsplacenn	topographic_pointnnwithinthemnns	distractionnnsspotnn	theynnssetvb	putvbdistractionsnns	topographic_pointnnwithindistractionsnns	distractionnnsputvb	placevbdistractionnns	placevbtheynns	themnnslayvb	themnnsplacevb	spotnnwithintheynns	layvbdistractionnns	placennwithindistractionnns	themnnsplacenn	distractionnnspositionvb	putvbtheynns	theynnspositionvb	themnnstopographic_pointnn	setvbdistractionnns	posevbdistractionsnns	placennwithintheynns	placevbdistractionsnns	theynnsputvb	putvbthemnns	spotnnwithinthemnns	themnnssetvb	theynnsplacevb	theynnstopographic_pointnn	themnnsposevb	
+
+BE: goVBtoTOplaceNN
+EQ class: movevbtotospotnn	locomotevbtototopographic_pointnn	govbtotospotnn	movevbtototopographic_pointnn	govbtototopographic_pointnn	travelvbtotospotnn	locomotevbtotoplacenn	travelvbtotoplacenn	travelvbtototopographic_pointnn	locomotevbtotospotnn	movevbtotoplacenn	
+
+BE: worksVBZforINmeLocationAnnotation
+EQ class: workvbzforinmelocationannotation	
+
+BE: kindNN
+EQ class: varietynn	sortnn	formnn	
+
+BE: breathNN
+EQ class: 
+
+BE: timesNNS
+EQ class: theynns	themnns	
+
+BE: takeVB
+EQ class: 
+
+BE: relaxVB
+EQ class: unbendvb	decompressvb	unwindvb	loosen_upvb	slow_downvb	
+
+BE: reviewVB
+EQ class: reexaminevb	
+
+BE: deepJJ
+EQ class: 
+
+BE: meterialJJ
+EQ class: 
+
+BE: severalJJ
+EQ class: 
+
+BE: deepJJbreathNN
+EQ class: 
+
+BE: meterialJJtimesNNS
+EQ class: meterialjjthemnns	meterialjjtheynns	
+
+BE: severalJJtimesNNS
+EQ class: severaljjtheynns	severaljjthemnns	
+
+BE: kindNNrelaxVB
+EQ class: relaxationnnvarietynn	formnnloosen_upvb	relaxantnnofinsortnn	sortnnslow_downvb	relaxationnnformnn	sortnnloosen_upvb	relaxantjjofinformnn	varietynnloosen_upvb	formnnunwindvb	relaxantjjofinvarietynn	relaxationnnkindnn	varietynnslow_downvb	sortnnrelaxvb	kindnnslow_downvb	formnnunbendvb	formnnrelaxvb	relaxantnnofinkindnn	sortnndecompressvb	varietynnrelaxvb	kindnnloosen_upvb	relaxationnnofinsortnn	relaxantjjofinsortnn	relaxationnnsortnn	kindnndecompressvb	sortnnunwindvb	formnnslow_downvb	kindnnunbendvb	sortnnunbendvb	kindnnunwindvb	relaxantjjofinkindnn	formnndecompressvb	relaxationnnofinformnn	relaxationnnofinvarietynn	relaxantnnofinvarietynn	varietynndecompressvb	varietynnunbendvb	relaxantnnofinformnn	varietynnunwindvb	relaxationnnofinkindnn	
+
+BE: kindNNreviewVB
+EQ class: readernnofinkindnn	reviewnnofinformnn	readernnvarietynn	readernnofinformnn	reviewnnofinkindnn	refereennkindnn	reviewernnsortnn	refereennvarietynn	readernnofinvarietynn	reappraisalnnofinsortnn	reassessmentnnofinkindnn	refereennofinformnn	kindnnreexaminevb	refereennofinvarietynn	reappraisalnnofinkindnn	reviewernnkindnn	revaluationnnofinsortnn	reappraisalnnofinvarietynn	varietynnreviewvb	sortnnreviewvb	varietynnreexaminevb	reassessmentnnofinsortnn	reassessmentnnofinvarietynn	readernnsortnn	revaluationnnofinkindnn	formnnreviewvb	reviewnnofinsortnn	readernnofinsortnn	refereennsortnn	readernnkindnn	revaluationnnofinformnn	reviewernnofinformnn	sortnnreexaminevb	refereennofinsortnn	reviewernnformnn	reappraisalnnofinformnn	refereennofinkindnn	reviewernnofinsortnn	reviewernnvarietynn	refereennformnn	reassessmentnnofinformnn	revaluationnnofinvarietynn	readernnformnn	reviewernnofinvarietynn	reviewnnofinvarietynn	formnnreexaminevb	reviewernnofinkindnn	
+
+BE: takeVBbreathNN
+EQ class: 
+
+BE: reviewVBoverINtimesNNS
+EQ class: reexaminevboverintheynns	reviewvboverintheynns	reexaminevboverinthemnns	reviewvboverinthemnns	reexaminevboverintimesnns	
+
+BE: relaxVBjustRB
+EQ class: decompressvbjustrb	unbendvbjustrb	relaxationnnofinjustrb	slow_downvbjustrb	unwindvbjustrb	relaxantnnofinjustrb	loosen_upvbjustrb	relaxantjjofinjustrb	
+
+BE: reviewVBjustRB
+EQ class: readernnofinjustrb	revaluationnnofinjustrb	reexaminevbjustrb	reviewnnofinjustrb	reappraisalnnofinjustrb	reassessmentnnofinjustrb	refereennofinjustrb	reviewernnofinjustrb	
+
+BE: gradeNN
+EQ class: coursenn	classnn	formnn	
+
+BE: strategyNN
+EQ class: strategicjj	schemenn	strategicaljj	
+
+BE: lotNN
+EQ class: spatenn	heapnn	passelnn	slewnn	flocknn	raftnn	dealnn	potnn	micklenn	pilenn	great_dealnn	mountainnn	sightnn	mintnn	stacknn	hatfulnn	mucklenn	tidy_sumnn	messnn	quite_a_littlenn	wadnn	massnn	plentynn	pecknn	good_dealnn	batchnn	
+
+BE: learnedVBD
+EQ class: learnvbd	larnvbd	acquirevbd	
+
+BE: helpsVBZ
+EQ class: helpvbz	aidvbz	assistvbz	
+
+BE: 7thJJ
+EQ class: seventhjj	
+
+BE: readinJJ
+EQ class: 
+
+BE: 7thJJgradeNN
+EQ class: 7thjjclassnn	seventhjjclassnn	7thjjformnn	seventhjjgradenn	7thjjcoursenn	seventhjjcoursenn	seventhjjformnn	
+
+BE: readinJJstrategyNN
+EQ class: readinjjschemenn	readinjjstrategicjj	readinjjstrategicaljj	
+
+BE: iPRPlearnedVBD
+EQ class: assimilatornnofiniprp	learnernniprp	iprplearnvbd	assimilatornniprp	iprplarnvbd	scholarnniprp	iprpacquirevbd	learnernnofiniprp	scholarnnofiniprp	
+
+BE: strategyNNhelpsVBZ
+EQ class: helpnnstrategicjj	helpernnstrategynn	assistantnnofinstrategicaljj	helpnnstrategicaljj	supporternnstrategynn	supporternnofinstrategynn	helpnnschemenn	aidnnofinstrategynn	schemennhelpsvbz	helpernnofinstrategicjj	strategynnassistvbz	strategynnaidvbz	assistantnnofinschemenn	helpnnofinstrategicaljj	helpernnstrategicaljj	supporternnofinstrategicaljj	assistnnofinstrategynn	aidnnofinstrategicaljj	assistantnnschemenn	assistantnnofinstrategynn	aidnnofinschemenn	strategicaljjhelpsvbz	helpernnofinstrategicaljj	assistnnofinschemenn	strategicaljjhelpvbz	strategicjjhelpvbz	schemennassistvbz	strategicaljjassistvbz	assistancennofinstrategicjj	supporternnofinschemenn	assistancennofinschemenn	strategicjjaidvbz	supporternnofinstrategicjj	schemennaidvbz	supporternnstrategicjj	assistantnnstrategicjj	assistantnnstrategynn	strategicjjhelpsvbz	assistantnnofinstrategicjj	helpnnofinstrategynn	helpnnofinstrategicjj	helpnnstrategynn	aidnnofinstrategicjj	schemennhelpvbz	assistancennofinstrategynn	helpnnofinschemenn	helpernnofinschemenn	supporternnstrategicaljj	strategynnhelpvbz	helpernnofinstrategynn	helpernnstrategicjj	helpernnschemenn	strategicjjassistvbz	strategicaljjaidvbz	assistnnofinstrategicjj	assistancennofinstrategicaljj	assistnnofinstrategicaljj	assistantnnstrategicaljj	supporternnschemenn	
+
+BE: learnedVBDstrategyNN
+EQ class: learnvbdstrategynn	scholarnnofinstrategicaljj	learnvbdschemenn	larnvbdstrategicaljj	scholarnnofinstrategynn	learnernnofinstrategynn	learnernnofinstrategicaljj	acquirevbdschemenn	assimilatornnofinstrategicaljj	scholarnnofinschemenn	learnvbdstrategicaljj	acquirevbdstrategynn	assimilatornnofinschemenn	assimilatornnofinstrategynn	learnvbdstrategicjj	acquirevbdstrategicaljj	larnvbdschemenn	learnedvbdschemenn	learnedvbdstrategicjj	learnedvbdstrategicaljj	learnernnofinschemenn	larnvbdstrategynn	scholarnnofinstrategicjj	assimilatornnofinstrategicjj	larnvbdstrategicjj	learnernnofinstrategicjj	acquirevbdstrategicjj	
+
+BE: helpsVBZlotNN
+EQ class: aidnnofinbatchnn	supporternnofintidy_sumnn	aidvbzslewnn	assistvbztidy_sumnn	helpvbzdealnn	assistnnofinpasselnn	assistantnnofinmucklenn	helpnnofinsightnn	aidnnofinflocknn	supporternnofinpotnn	helpsvbzdealnn	assistantnnofinhatfulnn	aidvbzgreat_dealnn	assistancennofinwadnn	aidnnofinhatfulnn	helpsvbzwadnn	helpernnofinquite_a_littlenn	assistvbzbatchnn	helpvbzpecknn	assistvbzlotnn	helpnnofinpecknn	assistancennofinhatfulnn	assistvbzflocknn	supporternnofinquite_a_littlenn	assistancennofinmicklenn	assistvbzdealnn	assistancennofingreat_dealnn	supporternnofinpilenn	aidvbzbatchnn	assistantnnofinheapnn	assistantnnofinmessnn	supporternnofinmountainnn	assistancennofinslewnn	helpnnofindealnn	supporternnofinwadnn	assistnnofinslewnn	helpvbzslewnn	helpvbztidy_sumnn	assistnnofinmucklenn	assistnnofinstacknn	helpernnofinpasselnn	helpernnofinraftnn	assistantnnofinspatenn	helpsvbzbatchnn	aidvbzraftnn	assistvbzsightnn	aidnnofinmicklenn	aidnnofingood_dealnn	helpnnofinmessnn	aidvbzpilenn	aidnnofinslewnn	helpsvbzspatenn	helpvbzpilenn	helpvbzhatfulnn	helpernnofinpilenn	assistancennofinmintnn	assistnnofinhatfulnn	assistantnnofinsightnn	assistantnnofindealnn	helpernnofinlotnn	helpvbzraftnn	helpernnofinsightnn	aidvbzwadnn	assistnnofinspatenn	assistancennofinmucklenn	helpvbzplentynn	helpsvbzpecknn	assistnnofinpecknn	helpernnofindealnn	supporternnofinmucklenn	assistancennofinspatenn	helpernnofinmintnn	aidvbzflocknn	helpernnofinplentynn	helpvbzgreat_dealnn	assistnnofinquite_a_littlenn	assistantnnofinpotnn	aidnnofinlotnn	helpvbzmicklenn	aidnnofinmessnn	helpsvbzpilenn	supporternnofinmicklenn	assistancennofinsightnn	aidnnofinmucklenn	helpvbzspatenn	aidnnofinstacknn	helpsvbzflocknn	supporternnofinbatchnn	aidnnofinquite_a_littlenn	helpernnofinbatchnn	assistancennofinplentynn	helpnnofinplentynn	assistnnofinpilenn	helpvbzstacknn	assistantnnofinmassnn	aidvbzmucklenn	helpnnofinflocknn	helpsvbzheapnn	assistvbzstacknn	helpernnofinmountainnn	assistvbzraftnn	assistnnofinmessnn	assistnnofinmassnn	assistnnofingood_dealnn	assistvbzpilenn	helpernnofinhatfulnn	helpnnofinmicklenn	assistancennofingood_dealnn	helpernnofinmassnn	helpernnofinmessnn	helpernnofingood_dealnn	aidvbzpasselnn	assistancennofinpecknn	assistantnnofinmintnn	aidnnofintidy_sumnn	helpernnofinheapnn	helpvbzflocknn	helpnnofinwadnn	supporternnofinpasselnn	helpsvbzmessnn	assistnnofinbatchnn	supporternnofinplentynn	assistnnofinpotnn	assistvbzwadnn	aidnnofindealnn	assistvbzslewnn	aidnnofinpotnn	helpsvbzmintnn	assistvbzpotnn	supporternnofinmassnn	assistancennofintidy_sumnn	assistantnnofinwadnn	helpvbzwadnn	aidvbzmessnn	helpvbzgood_dealnn	helpnnofinmountainnn	helpvbzlotnn	assistvbzmintnn	helpernnofinmicklenn	helpnnofinstacknn	aidnnofinpasselnn	assistantnnofinlotnn	aidvbzsightnn	helpvbzquite_a_littlenn	supporternnofinstacknn	supporternnofinspatenn	helpernnofinmucklenn	helpsvbzmountainnn	assistantnnofinslewnn	supporternnofinraftnn	supporternnofinsightnn	assistvbzquite_a_littlenn	assistantnnofinquite_a_littlenn	assistvbzmountainnn	supporternnofinheapnn	assistantnnofinraftnn	helpnnofinlotnn	helpsvbzgreat_dealnn	aidnnofinplentynn	helpsvbzhatfulnn	supporternnofinflocknn	helpernnofinstacknn	helpernnofinpotnn	helpnnofingood_dealnn	helpsvbzslewnn	assistnnofinmountainnn	aidvbzpecknn	aidvbzplentynn	assistantnnofinpilenn	aidnnofinpecknn	helpnnofinraftnn	helpnnofinbatchnn	assistancennofinmountainnn	aidvbzdealnn	assistvbzpasselnn	supporternnofinmintnn	assistvbzpecknn	assistancennofinpasselnn	aidvbzhatfulnn	helpnnofingreat_dealnn	supporternnofindealnn	helpnnofinhatfulnn	helpernnofinwadnn	assistantnnofinmicklenn	supporternnofinpecknn	assistancennofinpilenn	aidvbzspatenn	supporternnofinhatfulnn	aidnnofingreat_dealnn	assistvbzspatenn	helpsvbzstacknn	helpsvbztidy_sumnn	assistvbzmessnn	assistnnofinlotnn	assistancennofinquite_a_littlenn	helpernnofintidy_sumnn	aidnnofinpilenn	aidnnofinmountainnn	helpsvbzsightnn	assistvbzplentynn	helpvbzsightnn	helpsvbzpasselnn	helpnnofintidy_sumnn	assistantnnofingreat_dealnn	helpvbzpotnn	assistantnnofintidy_sumnn	assistnnofintidy_sumnn	helpernnofinflocknn	assistancennofinraftnn	assistantnnofinpecknn	helpsvbzmassnn	assistancennofinflocknn	helpvbzheapnn	supporternnofingood_dealnn	helpernnofinpecknn	assistancennofinlotnn	helpnnofinpasselnn	helpnnofinspatenn	helpsvbzmicklenn	assistancennofinheapnn	assistancennofinbatchnn	assistnnofinraftnn	aidvbzgood_dealnn	aidvbzquite_a_littlenn	assistvbzmucklenn	assistnnofinplentynn	helpsvbzraftnn	aidnnofinraftnn	aidvbzmassnn	assistnnofinmicklenn	assistvbzmicklenn	assistnnofinflocknn	assistnnofinsightnn	helpnnofinmucklenn	assistancennofinpotnn	helpnnofinpotnn	helpvbzpasselnn	helpvbzmintnn	assistancennofinmessnn	helpernnofinslewnn	helpvbzmountainnn	aidvbzstacknn	assistantnnofinstacknn	aidvbzlotnn	assistvbzmassnn	assistnnofindealnn	supporternnofinlotnn	assistnnofinmintnn	assistnnofinheapnn	supporternnofingreat_dealnn	supporternnofinslewnn	aidvbzpotnn	supporternnofinmessnn	assistvbzgood_dealnn	helpvbzbatchnn	helpvbzmucklenn	aidvbzheapnn	assistantnnofingood_dealnn	assistancennofinstacknn	helpnnofinheapnn	helpnnofinpilenn	aidvbzmountainnn	helpernnofinspatenn	helpvbzmessnn	helpsvbzmucklenn	aidnnofinmassnn	helpsvbzgood_dealnn	aidnnofinspatenn	assistancennofinmassnn	assistvbzhatfulnn	assistvbzheapnn	assistancennofindealnn	aidvbzmicklenn	helpnnofinslewnn	helpsvbzquite_a_littlenn	aidvbzmintnn	aidnnofinheapnn	helpernnofingreat_dealnn	assistnnofinwadnn	helpsvbzplentynn	helpsvbzpotnn	assistantnnofinmountainnn	aidvbztidy_sumnn	assistantnnofinpasselnn	helpnnofinmassnn	helpvbzmassnn	aidnnofinsightnn	assistantnnofinbatchnn	assistnnofingreat_dealnn	helpnnofinquite_a_littlenn	aidnnofinwadnn	assistantnnofinplentynn	assistantnnofinflocknn	assistvbzgreat_dealnn	aidnnofinmintnn	helpnnofinmintnn	
+
+BE: learnedVBDinINgradeNN
+EQ class: acquirevbdininclassnn	larnvbdininclassnn	acquirevbdiningradenn	learnedvbdininclassnn	larnvbdiningradenn	acquirevbdininformnn	learnedvbdinincoursenn	learnedvbdininformnn	learnvbdininclassnn	larnvbdininformnn	learnvbdinincoursenn	learnvbdininformnn	larnvbdinincoursenn	learnvbdiningradenn	acquirevbdinincoursenn	
+
+BE: helpsVBZreallyRB
+EQ class: realnessnnininassistvbz	realnessnnininaidvbz	aidnnofinreallyrb	existentjjsupporternn	realnessnnininhelpsvbz	realjjaidnn	realnessnnassistancenn	realjjininassistantnn	realitynnininaidvbz	realjjininassistvbz	assistancennofinreallyrb	existentjjininaidnn	existentjjaidnn	realnessnnininhelpnn	realitynnininhelpernn	realitynnassistnn	realitynnininassistvbz	realnessnnhelpnn	helpnnofinreallyrb	realnessnnininassistantnn	realitynnhelpnn	realjjininhelpernn	realnessnnininaidnn	realjjininsupporternn	realitynnhelpernn	realjjininaidnn	existentjjininassistvbz	realnessnnassistnn	realitynnininaidnn	assistnnofinreallyrb	existentjjininhelpvbz	realnessnnaidnn	realitynnassistancenn	existentjjininhelpnn	realitynnsupporternn	realjjininhelpnn	realnessnnhelpernn	helpvbzreallyrb	existentjjininassistancenn	realitynnininsupporternn	realnessnnininhelpvbz	realitynnininassistnn	realjjhelpnn	existentjjassistantnn	realitynnininhelpsvbz	realjjassistancenn	realitynnininhelpvbz	helpernnofinreallyrb	aidvbzreallyrb	assistvbzreallyrb	realjjininassistancenn	realitynnininassistancenn	existentjjininaidvbz	realitynnaidnn	realitynnininassistantnn	existentjjassistnn	assistantnnofinreallyrb	realjjsupporternn	realjjassistnn	realjjassistantnn	realnessnnininassistancenn	existentjjininsupporternn	realjjhelpernn	realnessnnininsupporternn	realnessnnsupporternn	supporternnofinreallyrb	realnessnnassistantnn	existentjjininassistantnn	realnessnnininassistnn	existentjjininhelpsvbz	realitynnassistantnn	realjjininhelpsvbz	realjjininaidvbz	realjjininhelpvbz	existentjjininassistnn	existentjjhelpernn	existentjjhelpnn	realitynnininhelpnn	realnessnnininhelpernn	existentjjininhelpernn	existentjjassistancenn	realjjininassistnn	
+
+BE: SPHQ3RPersonAnnotation
+EQ class: 
+
+BE: calledVBN
+EQ class: callvbn	namevbn	
+
+BE: calledVBNSPHQ3RPersonAnnotation
+EQ class: callvbnsphq3rpersonannotation	namevbnsphq3rpersonannotation	
+
+BE: calledVBNitPRP
+EQ class: callvbnitprp	namevbnitprp	
+
+BE: chapterNN
+EQ class: 
+
+BE: skimVB
+EQ class: planevb	
+
+BE: readVB
+EQ class: 
+
+BE: youPRPdoAUX
+EQ class: youprpmakeaux	
+
+BE: youPRPskimVB
+EQ class: youprpplanevb	
+
+BE: youPRPneedAUX
+EQ class: youprpaskaux	youprppostulateaux	youprprequireaux	youprptakeaux	youprpnecessitateaux	demandnnofinyouprp	neednnofinyouprp	youprpdemandaux	youprpcall_foraux	youprpinvolveaux	
+
+BE: skimVBchapterNN
+EQ class: planevbchapternn	
+
+BE: isAUXyouPRP
+EQ class: beauxyouprp	
+
+BE: picturesNNS
+EQ class: imagenns	picturenns	theynns	ikonnns	picturaljj	themnns	iconnns	
+
+BE: lookVBP
+EQ class: 
+
+BE: analyzeVBP
+EQ class: analysevbp	canvasvbp	studyvbp	examinevbp	canvassvbp	
+
+BE: headingVBG
+EQ class: headvbg	
+
+BE: youPRPlookVBP
+EQ class: viewernnyouprp	viewernnofinyouprp	witnessnnyouprp	aspectnnofinyouprp	witnessnnofinyouprp	facennofinyouprp	lookernnofinyouprp	looknnofinyouprp	facial_expressionnnofinyouprp	spectatornnyouprp	watchernnyouprp	watchernnofinyouprp	lookernnyouprp	spectatornnofinyouprp	expressionnnofinyouprp	
+
+BE: youPRPanalyzeVBP
+EQ class: analystnnyouprp	youprpstudyvbp	analyticaljjofinyouprp	analystnnofinyouprp	youprpanalysevbp	youprpcanvasvbp	youprpexaminevbp	youprpcanvassvbp	analyticaljjyouprp	analysisnnyouprp	analysisnnofinyouprp	
+
+BE: analyzeVBPpicturesNNS
+EQ class: analyticaljjofinpicturesnns	analyzevbpikonnns	analyzevbpimagenns	canvassvbpiconnns	studyvbppicturesnns	canvassvbppicturesnns	analysevbppicturesnns	examinevbppicturesnns	analystnnofintheynns	studyvbppicturenns	analyzevbptheynns	studyvbpiconnns	studyvbpikonnns	analysisnnofinthemnns	studyvbptheynns	canvasvbpthemnns	canvasvbpikonnns	examinevbpimagenns	canvasvbppicturenns	canvasvbptheynns	analyticaljjofinpicturaljj	studyvbppicturaljj	examinevbppicturaljj	analystnnofinpicturesnns	analysisnnofinpicturesnns	analyticaljjofinthemnns	canvasvbpiconnns	analystnnofinikonnns	analysisnnofintheynns	canvasvbppicturesnns	analysisnnofiniconnns	analysisnnofinikonnns	analystnnofinpicturenns	canvasvbppicturaljj	analysisnnofinimagenns	examinevbpikonnns	analysevbppicturenns	analystnnofiniconnns	analyticaljjofintheynns	analysevbptheynns	analystnnofinimagenns	canvassvbpikonnns	analystnnofinpicturaljj	examinevbppicturenns	studyvbpthemnns	examinevbptheynns	canvassvbppicturenns	analysevbpthemnns	analysevbpimagenns	analysevbpikonnns	analysevbpiconnns	canvassvbpthemnns	analystnnofinthemnns	examinevbpthemnns	analyticaljjofinikonnns	analyticaljjofiniconnns	analysevbppicturaljj	canvassvbpimagenns	analyzevbpiconnns	studyvbpimagenns	analysisnnofinpicturaljj	examinevbpiconnns	analyzevbppicturenns	analysisnnofinpicturenns	analyticaljjofinimagenns	analyticaljjofinpicturenns	canvassvbptheynns	analyzevbppicturaljj	canvassvbppicturaljj	analyzevbpthemnns	canvasvbpimagenns	
+
+BE: questionsNNS
+EQ class: questionnns	theynns	enquirynns	interrogationnns	inquirynns	querynns	themnns	
+
+BE: endNN
+EQ class: terminalnn	
+
+BE: chapterNN
+EQ class: 
+
+BE: questionsNNS
+EQ class: questionnns	theynns	enquirynns	interrogationnns	inquirynns	querynns	themnns	
+
+BE: readVBP
+EQ class: 
+
+BE: askedVBN
+EQ class: enquirevbn	inquirevbn	askvbn	
+
+BE: askVB
+EQ class: enquirevb	inquirevb	
+
+BE: ownJJ
+EQ class: ainjj	
+
+BE: ownJJquestionsNNS
+EQ class: ainjjenquirynns	ownjjthemnns	ainjjquestionnns	ownjjquerynns	ownjjtheynns	ainjjinterrogationnns	ownjjinquirynns	ainjjquestionsnns	ownjjquestionnns	ownjjinterrogationnns	ainjjthemnns	ainjjinquirynns	ainjjtheynns	ainjjquerynns	ownjjenquirynns	
+
+BE: yourPRP$questionsNNS
+EQ class: yourprp$themnns	theynnsofinyourprp$	themnnsofinyourprp$	yourprp$call_into_questionvb	querynnsofinyourprp$	yourprp$theynns	enquirynnsofinyourprp$	yourprp$inquirynns	inquirynnsofinyourprp$	oppugnvbyourprp$	yourprp$querynns	call_into_questionvbyourprp$	yourprp$questionnns	yourprp$enquirynns	yourprp$interrogationnns	yourprp$oppugnvb	questionvbyourprp$	interrogationnnsofinyourprp$	questionsnnsofinyourprp$	yourprp$questionvb	questionnnsofinyourprp$	
+
+BE: youPRPreadVBP
+EQ class: readnnofinyouprp	readingnnofinyouprp	readernnofinyouprp	readernnyouprp	readingnnyouprp	
+
+BE: youPRPaskVB
+EQ class: queriernnyouprp	enquirernnyouprp	inquirernnyouprp	youprpenquirevb	youprpinquirevb	questionernnyouprp	askernnofinyouprp	askernnyouprp	enquirernnofinyouprp	questionernnofinyouprp	queriernnofinyouprp	inquirernnofinyouprp	
+
+BE: askedVBNquestionsNNS
+EQ class: queriernnofinquerynns	enquirernnofinquerynns	askedvbnthemnns	enquirernnofininterrogationnns	enquirevbnquestionsnns	questionernnofintheynns	enquirevbnenquirynns	questionernnofininquirynns	inquirernnofinthemnns	questionernnofinenquirynns	inquirernnofinquestionsnns	inquirernnofininterrogationnns	enquirernnofinquestionnns	questionernnofinquestionnns	askedvbninterrogationnns	inquirevbninterrogationnns	askernnofinquestionsnns	askernnofintheynns	inquirevbninquirynns	inquirevbnquestionsnns	queriernnofininquirynns	queriernnofinquestionnns	askernnofinthemnns	inquirernnofinenquirynns	askedvbninquirynns	questionernnofininterrogationnns	inquirevbnthemnns	askedvbntheynns	enquirevbnquerynns	inquirernnofintheynns	inquirernnofinquerynns	askvbnquerynns	enquirernnofinquestionsnns	enquirevbnquestionnns	askvbnenquirynns	enquirernnofininquirynns	enquirevbntheynns	askernnofinenquirynns	askvbnquestionnns	questionernnofinquestionsnns	queriernnofinquestionsnns	askernnofininterrogationnns	askvbninquirynns	askvbnthemnns	inquirevbnquestionnns	enquirevbnthemnns	askvbntheynns	enquirevbninterrogationnns	inquirevbntheynns	askedvbnquestionnns	inquirevbnquerynns	questionernnofinquerynns	askernnofinquestionnns	askvbnquestionsnns	askvbninterrogationnns	enquirernnofinthemnns	enquirernnofinenquirynns	queriernnofininterrogationnns	inquirernnofinquestionnns	queriernnofintheynns	askedvbnenquirynns	inquirernnofininquirynns	askedvbnquerynns	queriernnofinenquirynns	askernnofinquerynns	inquirevbnenquirynns	queriernnofinthemnns	askernnofininquirynns	enquirernnofintheynns	questionernnofinthemnns	enquirevbninquirynns	
+
+BE: readVBPquestionsNNS
+EQ class: readingnnofinquestionnns	readingnnofininterrogationnns	readernnofininquirynns	readingnnofininquirynns	readvbpthemnns	readvbpinquirynns	readvbpquestionnns	readernnofintheynns	readernnofinquestionsnns	readnnofinquestionsnns	readernnofininterrogationnns	readingnnofintheynns	readnnofintheynns	readernnofinquerynns	readvbpenquirynns	readnnofininquirynns	readingnnofinquestionsnns	readnnofinenquirynns	readnnofinquestionnns	readernnofinthemnns	readingnnofinenquirynns	readnnofinquerynns	readingnnofinthemnns	readernnofinenquirynns	readnnofininterrogationnns	readernnofinquestionnns	readnnofinthemnns	readvbpinterrogationnns	readvbptheynns	readingnnofinquerynns	readvbpquerynns	
+
+BE: askVBquestionsNNS
+EQ class: inquirevbquerynns	queriernnofinquerynns	askvbinquirynns	enquirernnofinquerynns	enquirevbquestionnns	enquirernnofininterrogationnns	enquirevbtheynns	inquirevbenquirynns	askvbinterrogationnns	questionernnofintheynns	questionernnofininquirynns	inquirernnofinthemnns	questionernnofinenquirynns	inquirernnofinquestionsnns	inquirernnofininterrogationnns	enquirernnofinquestionnns	questionernnofinquestionnns	inquirevbinterrogationnns	enquirevbthemnns	askernnofinquestionsnns	askernnofintheynns	queriernnofininquirynns	queriernnofinquestionnns	askernnofinthemnns	inquirernnofinenquirynns	questionernnofininterrogationnns	inquirernnofintheynns	inquirernnofinquerynns	enquirernnofinquestionsnns	enquirernnofininquirynns	askvbenquirynns	askernnofinenquirynns	questionernnofinquestionsnns	queriernnofinquestionsnns	askernnofininterrogationnns	askvbquerynns	askvbtheynns	inquirevbquestionnns	enquirevbquestionsnns	inquirevbquestionsnns	enquirevbenquirynns	questionernnofinquerynns	enquirevbquerynns	askernnofinquestionnns	enquirernnofinthemnns	enquirevbinterrogationnns	enquirernnofinenquirynns	queriernnofininterrogationnns	inquirevbtheynns	inquirernnofinquestionnns	queriernnofintheynns	inquirevbthemnns	enquirevbinquirynns	inquirernnofininquirynns	queriernnofinenquirynns	askernnofinquerynns	askvbquestionnns	queriernnofinthemnns	askvbthemnns	inquirevbinquirynns	askernnofininquirynns	enquirernnofintheynns	questionernnofinthemnns	
+
+BE: endNNofINchapterNN
+EQ class: terminatevbchapternn	chapternnstopvb	chapternnendnn	chapternnterminatevb	finishvbchapternn	terminalnnofinchapternn	chapternnceasevb	chapternnfinishvb	chapternnendvb	chapternnterminalnn	endvbchapternn	stopvbchapternn	ceasevbchapternn	
+
+BE: askedVBNatINendNN
+EQ class: askvbnatinendnn	enquirevbnatinterminalnn	enquirevbnatinendnn	askedvbnatinterminalnn	inquirevbnatinterminalnn	inquirevbnatinendnn	askvbnatinterminalnn	
+
+BE: askVBtooRB
+EQ class: enquirernnofintoorb	inquirevbtoorb	enquirevbtoorb	askernnofintoorb	queriernnofintoorb	questionernnofintoorb	inquirernnofintoorb	
+
+BE: reccomendVB
+EQ class: 
+
+BE: iPRPreccomendVB
+EQ class: 
+
+BE: reccomendVBbothDT
+EQ class: 
+
+BE: chapterNN
+EQ class: 
+
+BE: timesNNS
+EQ class: theynns	themnns	
+
+BE: readVBP
+EQ class: 
+
+BE: 3CDtimesNNS
+EQ class: tercetcdtimesnns	ternarycdtimesnns	terzettocdtheynns	ternioncdthemnns	threesomecdtimesnns	ternioncdtheynns	tiercecdtimesnns	triadcdtimesnns	troikacdtimesnns	treycdthemnns	ternioncdtimesnns	ternarycdthemnns	3cdthemnns	iiicdtimesnns	treycdtimesnns	trinitycdtimesnns	threecdthemnns	leashcdtheynns	troikacdtheynns	tripletcdthemnns	trinitycdtheynns	threesomecdtheynns	tiercecdthemnns	trinecdthemnns	threecdtheynns	deuce-acecdthemnns	ternarycdtheynns	tercetcdthemnns	iiicdtheynns	treycdtheynns	leashcdthemnns	3cdtheynns	threesomecdthemnns	triocdtimesnns	trinecdtimesnns	troikacdthemnns	tiercecdtheynns	iiicdthemnns	3.cdthemnns	triocdthemnns	deuce-acecdtheynns	3.cdtimesnns	deuce-acecdtimesnns	triadcdthemnns	trinitycdthemnns	triocdtheynns	leashcdtimesnns	trinecdtheynns	terzettocdthemnns	tripletcdtheynns	tripletcdtimesnns	tercetcdtheynns	3.cdtheynns	triadcdtheynns	threecdtimesnns	terzettocdtimesnns	
+
+BE: youPRPreadVBP
+EQ class: readnnofinyouprp	readingnnofinyouprp	readernnofinyouprp	readernnyouprp	readingnnyouprp	
+
+BE: readVBPtimesNNS
+EQ class: readnnofinthemnns	readernnofintheynns	readernnofinthemnns	readernnofintimesnns	readingnnofintheynns	readnnofintheynns	readvbptheynns	readingnnofinthemnns	readingnnofintimesnns	readnnofintimesnns	readvbpthemnns	
+
+BE: readNN
+EQ class: 
+
+BE: timeNN
+EQ class: clipnn	
+
+BE: timeNN
+EQ class: clipnn	
+
+BE: startVBP
+EQ class: start_outvbp	set_outvbp	beginvbp	getvbp	set_aboutvbp	commencevbp	get_downvbp	
+
+BE: goVBP
+EQ class: movevbp	travelvbp	locomotevbp	
+
+BE: goVBP
+EQ class: movevbp	travelvbp	locomotevbp	
+
+BE: skimPersonAnnotation
+EQ class: 
+
+BE: slowJJ
+EQ class: slownessnn	
+
+BE: normalJJ
+EQ class: normalitynn	
+
+BE: 2ndJJ
+EQ class: 2djj	secondjj	
+
+BE: 3rdJJ
+EQ class: tertiaryjj	thirdjj	
+
+BE: slowJJreadNN
+EQ class: slownessnnreadnn	readvbslowlyrb	
+
+BE: normalJJreadNN
+EQ class: normalitynnreadnn	readvbnormallyrb	
+
+BE: 2ndJJtimeNN
+EQ class: 2djjclipnn	2djjtimenn	secondjjtimenn	secondjjclipnn	2ndjjclipnn	
+
+BE: 3rdJJtimeNN
+EQ class: tertiaryjjtimenn	3rdjjclipnn	tertiaryjjclipnn	thirdjjtimenn	thirdjjclipnn	
+
+BE: youPRPstartVBP
+EQ class: starternnofinyouprp	starting_motornnofinyouprp	youprpset_outvbp	startnnofinyouprp	youprpset_aboutvbp	starternnyouprp	youprpbeginvbp	starter_motornnofinyouprp	youprpcommencevbp	youprpstart_outvbp	starting_motornnyouprp	starter_motornnyouprp	youprpget_downvbp	youprpgetvbp	
+
+BE: youPRPgoVBP
+EQ class: youprptravelvbp	youprpmovevbp	youprplocomotevbp	
+
+BE: youPRPgoVBP
+EQ class: youprptravelvbp	youprpmovevbp	youprplocomotevbp	
+
+BE: startVBPwithINreadNN
+EQ class: set_outvbpwithinreadnn	getvbpwithinreadnn	start_outvbpwithinreadnn	get_downvbpwithinreadnn	beginvbpwithinreadnn	commencevbpwithinreadnn	set_aboutvbpwithinreadnn	
+
+BE: goVBPnotRB
+EQ class: travelvbpnotrb	movevbpnotrb	locomotevbpnotrb	
+
+BE: goVBPasRB
+EQ class: movevbpasrb	locomotevbpasrb	travelvbpasrb	
+
+BE: goVBPfastRB
+EQ class: movevbpfastrb	travelvbpfastrb	locomotevbpfastrb	
+
+BE: todayNN
+EQ class: 
+
+BE: worksVBZ
+EQ class: workvbz	
+
+BE: useVBP
+EQ class: employvbp	utilizevbp	applyvbp	utilisevbp	
+
+BE: itPRPworksVBZ
+EQ class: workernnofinitprp	worknnofinitprp	itprpworkvbz	workernnitprp	
+
+BE: iPRPuseVBP
+EQ class: iprputilizevbp	utilisationnniprp	utilisationnnofiniprp	useablennofiniprp	iprpapplyvbp	usablennofiniprp	usennofiniprp	utilizationnniprp	employmentnnofiniprp	usernnofiniprp	exercisenniprp	usagennofiniprp	iprpemployvbp	iprputilisevbp	usernniprp	employmentnniprp	exercisennofiniprp	usagenniprp	utilizationnnofiniprp	usenniprp	
+
+BE: useVBPitPRP
+EQ class: employvbpitprp	applyvbpitprp	utilizevbpitprp	utilisationnnofinitprp	exercisennofinitprp	utilisevbpitprp	usernnofinitprp	useablennofinitprp	usennofinitprp	utilizationnnofinitprp	usagennofinitprp	employmentnnofinitprp	usablennofinitprp	
+
+BE: useVBPtodayNN
+EQ class: utilizationnnofintodaynn	usagennofintodaynn	usernnofintodaynn	applyvbptodaynn	utilisationnnofintodaynn	employvbptodaynn	usablennofintodaynn	usennofintodaynn	utilisevbptodaynn	utilizevbptodaynn	useablennofintodaynn	employmentnnofintodaynn	exercisennofintodaynn	
+
+BE: worksVBZforINmePRP
+EQ class: workvbzforinmeprp	
+
+BE: useVBPstillRB
+EQ class: utilizationnnofinstillrb	utilizevbpstillrb	usagennofinstillrb	employmentnnofinstillrb	usennofinstillrb	employvbpstillrb	utilisationnnofinstillrb	usablennofinstillrb	exercisennofinstillrb	applyvbpstillrb	usernnofinstillrb	utilisevbpstillrb	useablennofinstillrb	
+

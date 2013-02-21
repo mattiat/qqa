@@ -1,0 +1,12 @@
+#Something about a king.
+#(S1 (NP (NP (NN Something)) (PP (IN about) (NP (DT a) (NN king))) (. .)))
+#Rule:Nouns
+r1SomethingNN
+r1kingNN
+
+#Rule:PPinNP
+r26SomethingNNaboutINkingNN
+
+@lemmas-left	Something	something	king	
+@lemmas-right	king	
+@lemmas-center	about	

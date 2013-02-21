@@ -1,0 +1,105 @@
+#Profoundly.  
+#(S1 (FRAG (ADVP (RB Profoundly)) (. .)))
+#Take something as simple as gender.  
+#(S1 (S (VP (VB Take) (NP (NP (NN something)) (ADJP (RB as) (JJ simple))) (PP (IN as) (NP (NN gender)))) (. .)))
+#Rule:Nouns
+r1somethingNN
+r1genderNN
+
+#Rule:Verbs
+r2takeVB
+
+#Rule:Adjs
+r4simpleJJ
+
+#Rule:Adj-Noun
+r5simpleJJsomethingNN
+
+#Rule:V-HeadNoun
+r21takeVBsomethingNN
+
+#Rule:PPinVP
+r30takeVBasINgenderNN
+
+#Some societies still do not value the opinions of women.  
+#(S1 (S (NP (DT Some) (NNS societies)) (ADVP (RB still)) (VP (AUX do) (RB not) (VP (VB value) (NP (NP (DT the) (NNS opinions)) (PP (IN of) (NP (NNS women)))))) (. .)))
+#Rule:Nouns
+r1societiesNNS
+r1opinionsNNS
+r1womenNNS
+
+#Rule:Verbs
+r2valueVB
+
+#Rule:HeadNoun-V
+r11societiesNNSvalueVB
+
+#Rule:V-HeadNoun
+r21valueVBopinionsNNS
+
+#Rule:PPinNP
+r26opinionsNNSofINwomenNNS
+
+#Rule:V-ADV
+r46doAUXstillRB
+r46doAUXnotRB
+
+#So, if a woman were to speak up and state her thoughts and ideas, she would be considered out of line.  
+#(S1 (S (RB So) (, ,) (SBAR (IN if) (S (NP (DT a) (NN woman)) (VP (AUX were) (S (VP (TO to) (VP (VP (VB speak) (PRT (RP up))) (CC and) (VP (VB state) (NP (PRP$ her) (NNS thoughts) (CC and) (NNS ideas))))))))) (, ,) (NP (PRP she)) (VP (MD would) (VP (AUX be) (VP (VBN considered) (PP (IN out) (PP (IN of) (NP (NN line))))))) (. .)))
+#Rule:Nouns
+r1womanNN
+r1thoughtsNNS
+r1ideasNNS
+r1lineOrganizationAnnotation
+
+#Rule:Verbs
+r2stateVB
+r2consideredVBN
+
+#Rule:V-PRT
+r3speakVBupRP
+
+#Rule:PRP-Noun
+r6herPRP$thoughtsNNS
+
+#Rule:HeadNoun-V
+r11womanNNwereAUX
+
+#Rule:V-HeadNoun
+r21stateVBthoughtsNNS
+
+#Rule:V-HeadNoun(passive)
+r23consideredVBNshePRP
+
+#Rule:PPComboInVP
+r34consideredVBNoutINlineOrganizationAnnotation
+
+#Therefore, this particular culture would be governed primarily by the men and their opinions.
+#(S1 (S (ADVP (RB Therefore)) (, ,) (NP (DT this) (JJ particular) (NN culture)) (VP (MD would) (VP (AUX be) (VP (VBN governed) (PP (ADVP (RB primarily)) (IN by) (NP (NP (DT the) (NNS men)) (CC and) (NP (PRP$ their) (NNS opinions))))))) (. .)))
+#Rule:Nouns
+r1cultureNN
+r1menNNS
+r1opinionsNNS
+
+#Rule:Verbs
+r2governedVBN
+
+#Rule:Adjs
+r4particularJJ
+
+#Rule:Adj-Noun
+r5particularJJcultureNN
+
+#Rule:PRP-Noun
+r6theirPRP$opinionsNNS
+
+#Rule:V-By-Agent
+r13menNNSgovernedVBN
+r13opinionsNNSgovernedVBN
+
+#Rule:V-HeadNoun(passive)
+r23governedVBNcultureNN
+
+@lemmas-left	idea	govern	simple	state	particular	thought	line	considered	woman	consider	value	gender	do	opinion	her	something	men	thoughts	ideas	governed	society	speak	women	take	opinions	their	societies	culture	
+@lemmas-right	thoughts	govern	governed	line	thought	still	women	up	not	were	woman	she	value	gender	opinion	something	opinions	culture	be	
+@lemmas-center	of	as	out	

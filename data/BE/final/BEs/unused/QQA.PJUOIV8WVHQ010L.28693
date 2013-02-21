@@ -1,0 +1,72 @@
+#l know three of them.1- good morn??
+#(S1 (S (NP (NNP l)) (VP (VB know) (NP (NP (CD three)) (PP (IN of) (NP (JJ them.1-) (JJ good) (NN morn) (. ?))))) (. ?)))
+#Rule:Nouns
+r1lNNP
+r1mornNN
+
+#Rule:Verbs
+r2knowVB
+
+#Rule:Adjs
+r4them.1-JJ
+r4goodJJ
+
+#Rule:Adj-Noun
+r5them.1-JJmornNN
+r5goodJJmornNN
+
+#Rule:HeadNoun-V
+r11lNNPknowVB
+
+#Rule:V-HeadNoun
+r21knowVBthreeCD
+
+#Rule:PPinNP
+r26threeCDofINmornNN
+
+#ng engl??
+#(S1 (FRAG (NP (JJ ng) (NN engl) (. ?)) (. ?)))
+#Rule:Nouns
+r1englLocationAnnotation
+
+#Rule:Adjs
+r4ngJJ
+
+#Rule:Adj-Noun
+r5ngJJenglLocationAnnotation
+
+#sh. 2- gunad??
+#(S1 (FRAG (NP (NNP sh.)) (NP (JJ 2-) (NN gunad) (. ?)) (. ?)))
+#Rule:Nouns
+r1shNNP
+r1gunadLocationAnnotation
+
+#Rule:Adjs
+r42-JJ
+
+#Rule:Adj-Noun
+r52-JJgunadLocationAnnotation
+
+#n turk??
+#(S1 (FRAG (NP (NNP n) (NNP turk) (. ?)) (. ?)))
+#Rule:Nouns
+r1nNNP
+r1turkNNP
+
+#Rule:N-HeadNoun
+r8nNNPturkNNP
+
+#sh.3- boonsourfrench.
+#(S1 (S (NP (NNS sh.3-)) (VP (VBP boonsourfrench)) (. .)))
+#Rule:Nouns
+r1sh.3-NNS
+
+#Rule:Verbs
+r2boonsourfrenchVBP
+
+#Rule:HeadNoun-V
+r11sh.3-NNSboonsourfrenchVBP
+
+@lemmas-left	turk	n	l	good	sh	know	engl	gunad	boonsourfrench	2-	morn	them.1-	three	sh.3-	ng	sh.	
+@lemmas-right	boonsourfrench	turk	three	morn	engl	know	gunad	
+@lemmas-center	of	

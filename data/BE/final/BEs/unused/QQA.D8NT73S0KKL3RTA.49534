@@ -1,0 +1,21 @@
+#I run loads of laps
+#(S1 (S (NP (PRP I)) (VP (VBP run) (NP (NP (NNS loads)) (PP (IN of) (NP (NNS laps)))))))
+#Rule:Nouns
+r1loadsNNS
+r1lapsNNS
+
+#Rule:Verbs
+r2runVBP
+
+#Rule:HeadNoun-V
+r11iPRPrunVBP
+
+#Rule:V-HeadNoun
+r21runVBPloadsNNS
+
+#Rule:PPinNP
+r26loadsNNSofINlapsNNS
+
+@lemmas-left	laps	loads	lap	run	i	
+@lemmas-right	laps	loads	lap	run	
+@lemmas-center	of	

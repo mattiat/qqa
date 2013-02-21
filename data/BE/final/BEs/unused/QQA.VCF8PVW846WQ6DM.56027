@@ -1,0 +1,46 @@
+#because public school are full of trash talk and sex being taught to children at an early age.
+#(S1 (S (S (PP (IN because) (NP (JJ public) (NN school))) (VP (AUX are) (ADJP (JJ full) (PP (IN of) (NP (NN trash) (NN talk)))))) (CC and) (S (NP (NN sex)) (VP (AUXG being) (VP (VBN taught) (PP (TO to) (NP (NP (NNS children)) (PP (IN at) (NP (DT an) (JJ early) (NN age)))))))) (. .)))
+#Rule:Nouns
+r1schoolNN
+r1trashNN
+r1talkNN
+r1sexNN
+r1childrenNNS
+r1ageNN
+
+#Rule:Verbs
+r2taughtVBN
+
+#Rule:Adjs
+r4publicJJ
+r4fullJJ
+r4earlyJJ
+
+#Rule:Adj-Noun
+r5publicJJschoolNN
+r5earlyJJageNN
+
+#Rule:N-HeadNoun
+r8trashNNtalkNN
+
+#Rule:V-HeadNoun(passive)
+r24taughtVBNsexNN
+
+#Rule:V-ADJ
+r25areAUXfullJJ
+
+#Rule:PPinNP
+r26childrenNNSatINageNN
+
+#Rule:PPinVP
+r32taughtVBNtoTOchildrenNNS
+
+#Rule:PPinS
+r36areAUXbecauseINschoolNN
+
+#Rule:PPinADJP
+r37fullJJofINtalkNN
+
+@lemmas-left	sex	children	taught	teach	child	are	school	full	age	trash	public	early	talk	be	
+@lemmas-right	child	sex	school	full	age	children	talk	
+@lemmas-center	because	to	of	at	

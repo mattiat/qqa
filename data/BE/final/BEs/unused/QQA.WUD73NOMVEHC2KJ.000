@@ -1,0 +1,29 @@
+#why do UFO aliens find the human anal cavity so interesting?
+#(S1 (SBARQ (WHADVP (WRB why)) (SQ (AUX do) (NP (NNP UFO) (NNS aliens)) (VP (VB find) (NP (NP (DT the) (JJ human) (JJ anal) (NN cavity)) (ADJP (RB so) (JJ interesting))))) (. ?)))
+#Rule:Nouns
+r1UFOOrganizationAnnotation
+r1aliensNNS
+r1cavityNN
+
+#Rule:Verbs
+r2findVB
+
+#Rule:Adjs
+r4humanJJ
+r4analJJ
+r4interestingJJ
+
+#Rule:Adj-Noun
+r5interestingJJcavityNN
+r5humanJJcavityNN
+r5analJJcavityNN
+
+#Rule:N-HeadNoun
+r8UFOOrganizationAnnotationaliensNNS
+
+#Rule:V-HeadNoun
+r21findVBcavityNN
+
+@lemmas-left	cavity	UFO	alien	interesting	anal	aliens	find	human	
+@lemmas-right	cavity	alien	aliens	
+@lemmas-center	

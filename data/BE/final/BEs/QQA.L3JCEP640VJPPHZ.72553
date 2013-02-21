@@ -1,0 +1,66 @@
+#I feel your pain side stretches and less ice cream and chocolates and things like that less refined sugars also try and find stretches that focus on the sides of your waist.
+#(S1 (S (S (NP (PRP I)) (VP (VBP feel) (NP (NP (PRP$ your) (NN pain) (NN side) (NNS stretches)) (CC and) (NP (JJR less) (NN ice) (NN cream))))) (CC and) (S (NP (NNS chocolates) (CC and) (NNS things)) (VP (VBP like) (SBAR (IN that) (S (NP (RBR less) (JJ refined) (NNS sugars)) (ADVP (RB also)) (VP (VB try) (CC and) (VB find) (NP (NP (NNS stretches)) (SBAR (WHNP (WDT that)) (S (VP (VBP focus) (PP (IN on) (NP (NP (DT the) (NNS sides)) (PP (IN of) (NP (PRP$ your) (NN waist)))))))))))))) (. .)))
+#Rule:Nouns
+r1painNN
+r1sideNN
+r1stretchesNNS
+r1iceNN
+r1creamNN
+r1chocolatesNNS
+r1thingsNNS
+r1sugarsNNS
+r1stretchesNNS
+r1sidesNNS
+r1waistNN
+
+#Rule:Verbs
+r2feelVBP
+r2likeVBP
+r2tryVB
+r2findVB
+r2focusVBP
+
+#Rule:Adjs
+r4lessJJR
+r4refinedJJ
+
+#Rule:Adj-Noun
+r5lessJJRcreamNN
+r5refinedJJsugarsNNS
+
+#Rule:PRP-Noun
+r6yourPRP$stretchesNNS
+r6yourPRP$waistNN
+
+#Rule:N-HeadNoun
+r8sideNNstretchesNNS
+r8painNNstretchesNNS
+r8iceNNcreamNN
+
+#Rule:HeadNoun-V
+r11iPRPfeelVBP
+r11chocolatesNNSlikeVBP
+r11sugarsNNStryVB
+
+#Rule:HeadNoun-(who/that)-V
+r14stretchesNNSfocusVBP
+
+#Rule:V-HeadNoun
+r21feelVBPstretchesNNS
+r21tryVBstretchesNNS
+
+#Rule:PPinNP
+r26sidesNNSofINwaistNN
+
+#Rule:PPinVP
+r30focusVBPonINsidesNNS
+
+#Rule:V-IN-V
+r43likeVBPthatINtryVB
+
+#Rule:V-ADV
+r46tryVBalsoRB
+
+@lemmas-left	feel	your	refined	pain	waist	like	stretches	cream	i	sugars	chocolate	chocolates	side	ice	stretch	focus	things	less	find	try	sugar	sides	
+@lemmas-right	feel	waist	like	stretches	cream	sugars	side	stretch	focus	also	try	sugar	sides	
+@lemmas-center	that	of	on	

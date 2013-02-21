@@ -1,0 +1,48 @@
+#The following organization is a good resource for information on leukemia:    * The Leukemia and Lymphoma Society - www.leukemia.orgPlease see the web pages for more details on Leukemia.
+#(S1 (S (NP (DT The) (JJ following) (NN organization)) (VP (AUX is) (NP (NP (DT a) (JJ good) (NN resource)) (PP (IN for) (NP (NP (NN information)) (PP (IN on) (NP (NN leukemia)))))) (: :) (PP (VBG *) (NP (NP (DT The) (NN Leukemia)) (CC and) (NP (NNP Lymphoma) (NNP Society)))) (: -) (S (VP (VB www.leukemia.orgPlease) (VP (VB see) (NP (NP (DT the) (JJ web) (NNS pages)) (PP (IN for) (NP (NP (JJR more) (NNS details)) (PP (IN on) (NP (NN Leukemia)))))))))) (. .)))
+#Rule:Nouns
+r1organizationNN
+r1resourceNN
+r1informationNN
+r1leukemiaNN
+r1LeuOrganizationAnnotation
+r1pagesNNS
+r1detailsNNS
+r1LeukemiaLocationAnnotation
+
+#Rule:Verbs
+r2*PersonAnnotation
+r2www.leukemia.orgpleaseVB
+r2seeVB
+
+#Rule:Adjs
+r4followingJJ
+r4goodJJ
+r4webJJ
+r4moreJJR
+
+#Rule:Adj-Noun
+r5followingJJorganizationNN
+r5goodJJresourceNN
+r5webJJpagesNNS
+r5moreJJRdetailsNNS
+
+#Rule:HeadNoun-V
+r11organizationNNisAUX
+
+#Rule:V-HeadNoun
+r21isAUXresourceNN
+r21seeVBpagesNNS
+
+#Rule:PPinNP
+r26resourceNNforINinformationNN
+r26informationNNonINleukemiaNN
+r26pagesNNSforINdetailsNNS
+r26detailsNNSonINLeukemiaLocationAnnotation
+
+#Rule:IS-RULE
+r47resourceNNorganizationNN
+
+@lemmas-left	information	is	Leu	pages	resource	*	web	good	Leukemia	organization	following	more	details	see	page	leukemia	www.leukemia.orgplease	be	
+@lemmas-right	Leukemia	information	is	organization	details	page	leukemia	pages	resource	be	
+@lemmas-center	for	on	

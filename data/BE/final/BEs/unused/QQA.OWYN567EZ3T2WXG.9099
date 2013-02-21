@@ -1,0 +1,45 @@
+#Because they have the LACKS!
+#(S1 (FRAG (SBAR (IN Because) (S (NP (PRP they)) (VP (AUX have) (NP (DT the) (VBZ LACKS))))) (. !)))
+#Rule:Verbs
+r2LACKS!LocationAnnotation
+
+#Rule:HeadNoun-V
+r11theyPRPhaveAUX
+
+#Rule:V-HeadNoun
+r21haveAUXLACKS!LocationAnnotation
+
+#Lack of maturityLack of responsibilityLack of Good judgementLack of moralityhttp://www.msnbc.msn.com/id/15545100Menstuff?? 
+#(S1 (FRAG (NP (NP (NN Lack)) (PP (IN of) (NP (NP (NN maturityLack)) (PP (IN of) (NP (NP (NN responsibilityLack)) (PP (IN of) (NP (NP (JJ Good) (NN judgementLack)) (PP (IN of) (NP (NNS moralityhttp)))))))))) (: :) (FRAG (NP (NN //www.msnbc.msn.com/id/15545100Menstuff)) (. ?)) (. ?)))
+#Rule:Nouns
+r1LackNN
+r1maturityLackNN
+r1responsibilityLackNN
+r1Good judgementLack of moralityhttp://www.msnbc.msn.comOrganizationAnnotation
+r1//www.msnbc.msn.com/id/15545100MenstuffNN
+
+#Rule:PPinNP
+r26LackNNofINmaturityLackNN
+r26maturityLackNNofINresponsibilityLackNN
+r26responsibilityLackNNofINGood judgementLack of moralityhttp://www.msnbc.msn.comOrganizationAnnotation
+
+#has compiled information on the issue of Condoms.http://www.menstuff.org/issues/byissue/condoms.html
+#(S1 (FRAG (S (VP (AUX has) (VP (VBN compiled) (NP (NP (NN information)) (PP (IN on) (NP (NP (DT the) (NN issue)) (PP (IN of) (NP (NNP Condoms.http))))))))) (: :) (NP (CD //www.menstuff.org/issues/byissue/condoms.html))))
+#Rule:Nouns
+r1informationNN
+r1issueNN
+r1Condoms.http://www.OrganizationAnnotation
+
+#Rule:Verbs
+r2compiledVBN
+
+#Rule:V-HeadNoun
+r21compiledVBNinformationNN
+
+#Rule:PPinNP
+r26informationNNonINissueNN
+r26issueNNofINCondoms.http://www.OrganizationAnnotation
+
+@lemmas-left	they	information	have	maturitylack	issue	lack	responsibilityLack	//www.msnbc.msn.com/id/15545100menstuff	//www.msnbc.msn.com/id/15545100Menstuff	maturityLack	compiled	compile	Good judgementLack of moralityhttp://www.msnbc.msn.com	Condoms.http://www.	responsibilitylack	LACKS!	Lack	
+@lemmas-right	information	maturityLack	have	maturitylack	issue	Good judgementLack of moralityhttp://www.msnbc.msn.com	Condoms.http://www.	responsibilitylack	responsibilityLack	LACKS!	
+@lemmas-center	of	on	

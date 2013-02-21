@@ -1,0 +1,59 @@
+#How do you work out the area of an equilateral triangle with sides of length 6cm??
+#(S1 (SBARQ (WHADVP (WRB How)) (SQ (AUX do) (NP (PRP you)) (VP (VB work) (PRT (RP out)) (NP (NP (DT the) (NN area)) (PP (IN of) (NP (DT an) (JJ equilateral) (NNP triangle)))) (PP (IN with) (NP (NP (NNS sides)) (PP (IN of) (NP (NN length) (CD 6cm)))))) (. ?)) (. ?)))
+#Rule:Nouns
+r1areaNN
+r1triangleNNP
+r1sidesNNS
+r1lengthNN
+
+#Rule:V-PRT
+r3workVBoutRP
+
+#Rule:Adjs
+r4equilateralJJ
+
+#Rule:Adj-Noun
+r5equilateralJJtriangleNNP
+r56cmLocationAnnotationlengthNN
+
+#Rule:V-HeadNoun
+r21workVBareaNN
+
+#Rule:PPinNP
+r26areaNNofINtriangleNNP
+r26sidesNNSofINlengthNN
+
+#Rule:PPinVP
+r30workVBwithINsidesNNS
+
+#How do you work out the area of an equilateral triangle with sides of length 6cm?
+#(S1 (SBARQ (WHADVP (WRB How)) (SQ (AUX do) (NP (PRP you)) (VP (VB work) (PRT (RP out)) (NP (NP (DT the) (NN area)) (PP (IN of) (NP (DT an) (JJ equilateral) (NNP triangle)))) (PP (IN with) (NP (NP (NNS sides)) (PP (IN of) (NP (NN length) (CD 6cm))))))) (. ?)))
+#Rule:Nouns
+r1areaNN
+r1triangleNNP
+r1sidesNNS
+r1lengthNN
+
+#Rule:V-PRT
+r3workVBoutRP
+
+#Rule:Adjs
+r4equilateralJJ
+
+#Rule:Adj-Noun
+r5equilateralJJtriangleNNP
+r56cmLocationAnnotationlengthNN
+
+#Rule:V-HeadNoun
+r21workVBareaNN
+
+#Rule:PPinNP
+r26areaNNofINtriangleNNP
+r26sidesNNSofINlengthNN
+
+#Rule:PPinVP
+r30workVBwithINsidesNNS
+
+@lemmas-left	work	6cm	equilateral	area	triangle	side	length	sides	
+@lemmas-right	area	triangle	side	length	sides	out	
+@lemmas-center	of	with	

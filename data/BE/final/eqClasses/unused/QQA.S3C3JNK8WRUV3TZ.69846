@@ -1,0 +1,72 @@
+BE: checkupNNS
+EQ class: medical_examnns	medicalnns	theynns	medical_examinationnns	medical_checkupnns	health_checknns	themnns	
+
+BE: yearNN
+EQ class: twelvemonthnn	yearlyjj	yrnn	
+
+BE: undergoVB
+EQ class: 
+
+BE: completeJJ
+EQ class: completenessnn	
+
+BE: medicalJJ
+EQ class: medicinenn	medicalnn	
+
+BE: completeJJcheckupNNS
+EQ class: completenessnncheckupnns	completejjthemnns	completejjmedical_checkupnns	completejjtheynns	completenessnnmedical_examnns	completenessnnmedical_examinationnns	completenessnnhealth_checknns	completenessnnmedical_checkupnns	completejjmedicalnns	completenessnnmedicalnns	completejjmedical_examinationnns	completejjmedical_examnns	completenessnnthemnns	completejjhealth_checknns	completenessnntheynns	
+
+BE: medicalJJcheckupNNS
+EQ class: medicaljjhealth_checknns	medicinennmedical_examinationnns	medicinennhealth_checknns	medicalnntheynns	medicalnnmedicalnns	medicalnnmedical_checkupnns	medicinennmedical_examnns	medicalnnthemnns	medicaljjmedical_checkupnns	medicalnncheckupnns	medicinenntheynns	medicinennmedicalnns	medicalnnmedical_examnns	medicinennmedical_checkupnns	medicaljjmedical_examinationnns	medicinenncheckupnns	medicaljjthemnns	medicaljjtheynns	medicalnnmedical_examinationnns	medicaljjmedicalnns	medicalnnhealth_checknns	medicinennthemnns	medicaljjmedical_examnns	
+
+BE: youPRPundergoVB
+EQ class: 
+
+BE: undergoVBcheckupNNS
+EQ class: undergovbmedicalnns	undergovbmedical_examnns	undergovbhealth_checknns	undergovbmedical_checkupnns	undergovbtheynns	undergovbmedical_examinationnns	undergovbthemnns	
+
+BE: signsNNS
+EQ class: marknns	theynns	signnns	themnns	
+
+BE: symptomsNNS
+EQ class: symptomnns	theynns	symptomaticjj	themnns	
+
+BE: doctorNN
+EQ class: physiciannn	dr.nn	doctorialjj	docnn	mediconn	mdnn	
+
+BE: testsNNS
+EQ class: tryoutnns	testnns	theynns	trialnns	trial_runnns	themnns	
+
+BE: ultrLocationAnnotation
+EQ class: 
+
+BE: conductVB
+EQ class: carry_onvb	dealvb	
+
+BE: includingVBG
+EQ class: includevbg	
+
+BE: abnormalJJ
+EQ class: abnormalitynn	unnaturaljj	
+
+BE: furtherJJ
+EQ class: fartherjj	
+
+BE: abnormalJJsignsNNS
+EQ class: unnaturaljjmarknns	abnormalitynnsignsnns	meanvbabnormallyrb	abnormalitynnsignnns	signifyvbabnormallyrb	intendvbabnormallyrb	unnaturaljjsignnns	stand_forvbabnormallyrb	abnormalitynnthemnns	abnormaljjsignnns	unnaturaljjsignsnns	unnaturaljjthemnns	abnormalitynntheynns	abnormalitynnmarknns	abnormaljjmarknns	abnormaljjtheynns	abnormaljjthemnns	unnaturaljjtheynns	
+
+BE: furtherJJtestsNNS
+EQ class: fartherjjtrial_runnns	fartherjjtrialnns	furtherjjtestnns	fartherjjthemnns	furtherjjtrial_runnns	fartherjjtryoutnns	fartherjjtestsnns	furtherjjtheynns	furtherjjthemnns	fartherjjtheynns	furtherjjtrialnns	fartherjjtestnns	furtherjjtryoutnns	
+
+BE: doctorNNconductVB
+EQ class: conductingnnofinmediconn	doctorialjjconductvb	conductingnndr.nn	mediconncarry_onvb	doctorialjjcarry_onvb	conductingnnofindoctorialjj	dr.nncarry_onvb	dr.nnconductvb	mediconnconductvb	doctornncarry_onvb	conductingnnofinphysiciannn	conductingnndoctornn	conductingnnofindr.nn	conductingnndocnn	conductingnnphysiciannn	mdnndealvb	doctornndealvb	physiciannndealvb	dr.nndealvb	mdnncarry_onvb	physiciannncarry_onvb	docnndealvb	conductingnnofindocnn	mediconndealvb	conductingnnmediconn	docnnconductvb	physiciannnconductvb	doctorialjjdealvb	conductingnnofindoctornn	docnncarry_onvb	mdnnconductvb	conductingnndoctorialjj	conductingnnmdnn	conductingnnofinmdnn	
+
+BE: thereEXareAUX
+EQ class: thereexbeaux	
+
+BE: areAUXsignsNNS
+EQ class: areauxmarknns	beauxmarknns	beauxthemnns	areauxsignnns	areauxthemnns	beauxsignnns	beauxtheynns	beauxsignsnns	areauxtheynns	
+
+BE: conductVBtestsNNS
+EQ class: conductingnnofintrial_runnns	carry_onvbtrial_runnns	carry_onvbtestsnns	conductvbtrialnns	conductvbthemnns	conductingnnofinthemnns	dealvbtryoutnns	carry_onvbthemnns	carry_onvbtheynns	conductingnnofintryoutnns	conductvbtryoutnns	dealvbtrial_runnns	dealvbtestsnns	dealvbtestnns	dealvbtrialnns	conductingnnofintrialnns	conductvbtestnns	dealvbtheynns	conductvbtrial_runnns	conductingnnofintestsnns	conductvbtheynns	conductingnnofintheynns	carry_onvbtestnns	carry_onvbtrialnns	dealvbthemnns	carry_onvbtryoutnns	conductingnnofintestnns	
+

@@ -1,0 +1,16 @@
+#No he doesn t exist
+#(S1 (S (RB No) (NP (PRP he)) (VP (VBD doesn) (SBAR (S (NP (NNS t)) (VP (VBP exist)))))))
+#Rule:Nouns
+r1tNNS
+
+#Rule:Verbs
+r2doesnVBD
+r2existVBP
+
+#Rule:HeadNoun-V
+r11hePRPdoesnVBD
+r11tNNSexistVBP
+
+@lemmas-left	doesn	t	he	exist	
+@lemmas-right	doesn	exist	
+@lemmas-center	

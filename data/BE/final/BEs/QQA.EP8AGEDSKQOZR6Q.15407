@@ -1,0 +1,35 @@
+#hello babeto loose 10kg in one week u have to think of sex alothave nice time
+#(S1 (INTJ (UH hello) (PP (FW babeto) (NP (NP (JJ loose) (NNS 10kg)) (PP (IN in) (NP (CD one) (NN week))) (SBAR (S (NP (NNP u)) (VP (AUX have) (S (VP (TO to) (VP (VB think) (PP (IN of) (NP (NN sex) (JJ alothave) (JJ nice) (NN time)))))))))))))
+#Rule:Nouns
+r110kgNNS
+r1weekNN
+r1uNNP
+r1sexNN
+r1timeNN
+
+#Rule:Verbs
+r2thinkVB
+
+#Rule:Adjs
+r4looseJJ
+r4alothaveJJ
+r4niceJJ
+
+#Rule:Adj-Noun
+r5looseJJ10kgNNS
+r5oneCDweekNN
+r5alothaveJJtimeNN
+r5niceJJtimeNN
+
+#Rule:HeadNoun-V
+r11uNNPhaveAUX
+
+#Rule:PPinNP
+r2610kgNNSinINweekNN
+
+#Rule:PPinVP
+r30thinkVBofINtimeNN
+
+@lemmas-left	think	time	sex	u	kg	one	nice	alothave	10kg	loose	week	
+@lemmas-right	time	kg	have	10kg	week	
+@lemmas-center	of	in	

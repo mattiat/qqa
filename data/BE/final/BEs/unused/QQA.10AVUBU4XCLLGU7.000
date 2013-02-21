@@ -1,0 +1,49 @@
+#Why Are Home School Kids Smarter Than Public School Kids??
+#(S1 (SBARQ (WHADVP (WRB Why)) (SQ (VP (AUX Are) (NP (NP (NNP Home) (NNP School) (NNP Kids)) (ADVP (RBR Smarter) (PP (IN Than) (NP (NNP Public) (NNP School) (NNPS Kids)))))) (. ?)) (. ?)))
+#Rule:Nouns
+r1Are Home School Kids Smarter Than Public School KidsOrganizationAnnotation
+
+#Nat l Spelling Bee: 3rd year won by homeschooler. Public School kids = drunk, drugs, tatoos, pregnantHome School kids = engineers, mathmeticians, biologists
+#(S1 (NP (NP (NP (NNP Nat) (NNP l) (NN Spelling)) (NP (NNP Bee))) (: :) (NP (NP (JJ 3rd) (NN year)) (VP (VBN won) (PP (IN by) (NP (NP (CD homeschooler.) (NNP Public) (NNP School) (NNS kids)) (X (SYM =) (X (NP (NP (NN drunk)) (, ,) (NP (NNS drugs)) (, ,) (NP (NNS tatoos)) (, ,) (NP (JJ pregnantHome) (NN School) (NNS kids))) (SYM =)) (NP (NP (NNS engineers)) (, ,) (NP (NNS mathmeticians)) (, ,) (NP (NNS biologists))))))))))
+#Rule:Nouns
+r1NatNNP
+r1l Spelling BeeOrganizationAnnotation
+r1yearNN
+r1homeschooler. Public SchoolOrganizationAnnotation
+r1kidsNNS
+r1drunkNN
+r1drugsNNS
+r1tatoosPersonAnnotation
+r1pregnantHome SchoolOrganizationAnnotation
+r1kidsNNS
+r1engineersNNS
+r1mathmeticiansNNS
+r1biologistsOrganizationAnnotation
+
+#Rule:Verbs
+r2wonVBN
+
+#Rule:Adjs
+r43rdJJ
+
+#Rule:Adj-Noun
+r53rdJJyearNN
+r5homeschooler. Public SchoolOrganizationAnnotationkidsNNS
+r5pregnantHome SchoolOrganizationAnnotationkidsNNS
+
+#Rule:N-HeadNoun
+r8NatNNPl Spelling BeeOrganizationAnnotation
+
+#Rule:N-ApposN
+r10drunkNNdrugsNNS
+r10engineersNNSmathmeticiansNNS
+
+#Rule:V-By-Agent
+r13kidsNNSwonVBN
+
+#Rule:V-HeadNoun(passive)
+r24wonVBNyearNN
+
+@lemmas-left	homeschooler. Public School	Nat	drugs	tatoos	drunk	3rd	biologists	engineer	win	kids	kid	Are Home School Kids Smarter Than Public School Kids	l Spelling Bee	mathmeticians	nat	year	won	pregnantHome School	engineers	drug	
+@lemmas-right	drugs	l Spelling Bee	mathmeticians	year	won	win	kids	drug	kid	
+@lemmas-center	

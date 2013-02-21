@@ -1,0 +1,120 @@
+BE: bloodNN
+EQ class: bloodyjj	
+
+BE: pressureNN
+EQ class: pressure_levelnn	force_per_unit_areann	
+
+BE: wantVBP
+EQ class: desirevbp	
+
+BE: reduceVB
+EQ class: trimvb	cutvb	cut_downvb	trim_downvb	cut_backvb	trim_backvb	bring_downvb	
+
+BE: myPRP$pressureNN
+EQ class: force_per_unit_areannofinmyprp$	pressure_levelnnofinmyprp$	superchargevbmyprp$	myprp$pressure_levelnn	myprp$superchargevb	pressurizevbmyprp$	pressvbmyprp$	pressurennofinmyprp$	myprp$pressurizevb	myprp$pressurisevb	myprp$force_per_unit_areann	myprp$pressvb	pressurisevbmyprp$	
+
+BE: bloodNNpressureNN
+EQ class: bloodyjjpressvb	force_per_unit_areannofinbloodnn	bloodnnpressurisevb	bloodnnpressurizevb	bloodnnsuperchargevb	pressurisevbbloodnn	force_per_unit_areannbloodvb	pressurisevbbloodyjj	bloodnnofinforce_per_unit_areann	bloodnnofinpressure_levelnn	pressure_levelnnofinbloodnn	superchargevbbloodyjj	force_per_unit_areannofinbloodyjj	pressure_levelnnbloodvb	bloodyjjofinforce_per_unit_areann	pressurizevbbloodyjj	bloodyjjpressurenn	bloodnnforce_per_unit_areann	bloodyjjforce_per_unit_areann	pressurennofinbloodyjj	bloodnnpressvb	bloodnnpressure_levelnn	pressurizevbbloodnn	bloodyjjofinpressurenn	pressvbbloodnn	bloodyjjpressurisevb	bloodyjjpressurizevb	pressurennbloodvb	bloodnnofinpressurenn	pressvbbloodyjj	superchargevbbloodnn	bloodyjjpressure_levelnn	bloodyjjsuperchargevb	pressurennofinbloodnn	bloodyjjofinpressure_levelnn	pressure_levelnnofinbloodyjj	
+
+BE: iPRPwantVBP
+EQ class: needernniprp	deprivationnnofiniprp	wantnnofiniprp	needernnofiniprp	wanternniprp	needinessnnofiniprp	iprpdesirevbp	privationnnofiniprp	wanternnofiniprp	
+
+BE: reduceVBpressureNN
+EQ class: trim_downvbforce_per_unit_areann	reductionnnofinpressurenn	cut_backvbpressure_levelnn	reducevbforce_per_unit_areann	diminutionnnofinforce_per_unit_areann	reductivennofinpressure_levelnn	trimvbpressurenn	bring_downvbpressurenn	trimvbpressure_levelnn	trim_downvbpressure_levelnn	reductionnnofinpressure_levelnn	bring_downvbpressure_levelnn	diminutionnnofinpressurenn	cut_downvbpressure_levelnn	step-downnnofinforce_per_unit_areann	cut_backvbforce_per_unit_areann	reductionnnofinforce_per_unit_areann	reductivennofinpressurenn	bring_downvbforce_per_unit_areann	step-downnnofinpressurenn	trim_backvbpressurenn	trimvbforce_per_unit_areann	decreasennofinpressure_levelnn	trim_downvbpressurenn	step-downnnofinpressure_levelnn	reductivennofinforce_per_unit_areann	cut_downvbpressurenn	cutvbpressure_levelnn	trim_backvbforce_per_unit_areann	cut_downvbforce_per_unit_areann	diminutionnnofinpressure_levelnn	cut_backvbpressurenn	trim_backvbpressure_levelnn	cutvbforce_per_unit_areann	decreasennofinpressurenn	decreasennofinforce_per_unit_areann	reducevbpressure_levelnn	cutvbpressurenn	
+
+BE: reduceVBtoTO120/80CD
+EQ class: cut_backvbtoto120/80cd	trimvbtoto120/80cd	trim_downvbtoto120/80cd	cut_downvbtoto120/80cd	bring_downvbtoto120/80cd	cutvbtoto120/80cd	trim_backvbtoto120/80cd	
+
+BE: wantVBPreduceVB
+EQ class: wantvbptrimvb	needernnofinbring_downvb	desirevbpcutvb	needinessnnofincutvb	deprivationnnofincut_backvb	desirevbptrim_backvb	needinessnnofintrim_downvb	privationnnofincutvb	needernnofintrim_downvb	deprivationnnofincut_downvb	wantvbpcut_downvb	wanternnofinbring_downvb	wanternnofincut_backvb	wanternnofintrim_downvb	needinessnnofintrimvb	deprivationnnofintrimvb	privationnnofintrim_downvb	desirevbptrim_downvb	deprivationnnofinreducevb	wanternnofincutvb	wanternnofintrim_backvb	privationnnofintrimvb	wantvbptrim_backvb	deprivationnnofinbring_downvb	desirevbpcut_downvb	privationnnofinbring_downvb	wantnnofinbring_downvb	wantvbptrim_downvb	wantvbpcut_backvb	desirevbpcut_backvb	needernnofincutvb	wanternnofinreducevb	privationnnofincut_backvb	wantnnofincut_downvb	needinessnnofincut_downvb	privationnnofincut_downvb	needernnofincut_downvb	wantnnofincutvb	privationnnofintrim_backvb	needernnofintrim_backvb	needinessnnofincut_backvb	wantnnofintrim_backvb	privationnnofinreducevb	wanternnofincut_downvb	desirevbptrimvb	desirevbpbring_downvb	deprivationnnofincutvb	wantnnofinreducevb	needinessnnofinbring_downvb	wantnnofincut_backvb	wantnnofintrim_downvb	wantvbpcutvb	needernnofincut_backvb	needernnofintrimvb	deprivationnnofintrim_backvb	needernnofinreducevb	desirevbpreducevb	wantvbpbring_downvb	needinessnnofintrim_backvb	needinessnnofinreducevb	wanternnofintrimvb	deprivationnnofintrim_downvb	wantnnofintrimvb	
+
+BE: medicineNN
+EQ class: medical_specialtynn	medicaljj	
+
+BE: iPersonAnnotationdoAUX
+EQ class: ipersonannotationmakeaux	
+
+BE: myNNP
+EQ class: 
+
+BE: B.POrganizationAnnotation
+EQ class: bporganizationannotation	
+
+BE: showingVBG
+EQ class: exhibitvbg	demonstratevbg	presentvbg	demovbg	showvbg	
+
+BE: dangerousJJ
+EQ class: dangerousnessnn	dangernn	unsafejj	
+
+BE: myNNPB.POrganizationAnnotation
+EQ class: b.porganizationannotationofinmynnp	mynnpbporganizationannotation	
+
+BE: B.POrganizationAnnotationshowingVBG
+EQ class: screeningnnofinb.porganizationannotation	b.porganizationannotationdemonstratevbg	bporganizationannotationdemonstratevbg	showingnnbporganizationannotation	bporganizationannotationshowvbg	b.porganizationannotationshowvbg	bporganizationannotationdemovbg	b.porganizationannotationpresentvbg	screeningnnofinbporganizationannotation	viewingnnb.porganizationannotation	showingnnofinbporganizationannotation	viewingnnofinb.porganizationannotation	screeningnnb.porganizationannotation	shownnofinbporganizationannotation	b.porganizationannotationexhibitvbg	screeningnnbporganizationannotation	bporganizationannotationexhibitvbg	showingnnb.porganizationannotation	viewingnnofinbporganizationannotation	shownnofinb.porganizationannotation	bporganizationannotationpresentvbg	showyjjofinb.porganizationannotation	b.porganizationannotationdemovbg	viewingnnbporganizationannotation	showyjjofinbporganizationannotation	bporganizationannotationshowingvbg	showingnnofinb.porganizationannotation	
+
+BE: 150/100CDisAUX
+EQ class: 150/100cdbeaux	
+
+BE: isAUXdangerousJJ
+EQ class: isauxunsafejj	isauxdangerousnessnn	beauxdangerousnessnn	beauxunsafejj	beauxdangernn	isauxdangernn	beauxdangerousjj	
+
+BE: isAUXalwaysRB
+EQ class: beauxalwaysrb	
+
+BE: showingVBGalwaysRB
+EQ class: shownnofinalwaysrb	showyjjofinalwaysrb	demovbgalwaysrb	exhibitvbgalwaysrb	presentvbgalwaysrb	showingnnofinalwaysrb	demonstratevbgalwaysrb	viewingnnofinalwaysrb	screeningnnofinalwaysrb	showvbgalwaysrb	
+
+BE: PlsNNS
+EQ class: 
+
+BE: medicineNN
+EQ class: medical_specialtynn	medicaljj	
+
+BE: tellVB
+EQ class: sayvb	statevb	
+
+BE: makeVB
+EQ class: dovb	
+
+BE: normalJJ
+EQ class: normalitynn	
+
+BE: PlsNNStellVB
+EQ class: tellingnnplsnns	tellernnplsnns	plsnnsstatevb	tellernnofinplsnns	edward_tellernnplsnns	edward_tellernnofinplsnns	plsnnssayvb	recountingnnofinplsnns	recountingnnplsnns	relationnnplsnns	relationnnofinplsnns	tellingnnofinplsnns	
+
+BE: tellVBmePRP
+EQ class: edward_tellernnofinmeprp	relationnnofinmeprp	tellingnnofinmeprp	sayvbmeprp	recountingnnofinmeprp	tellernnofinmeprp	statevbmeprp	
+
+BE: makeVBwithoutINmedicineNN
+EQ class: dovbwithoutinmedicaljj	makevbwithoutinmedical_specialtynn	dovbwithoutinmedical_specialtynn	dovbwithoutinmedicinenn	makevbwithoutinmedicaljj	
+
+BE: timeNN
+EQ class: clipnn	
+
+BE: medicineNN
+EQ class: medical_specialtynn	medicaljj	
+
+BE: takeVBP
+EQ class: 
+
+BE: continueVB
+EQ class: keepvb	go_onvb	proceedvb	go_alongvb	
+
+BE: compulsaryJJ
+EQ class: 
+
+BE: lifelongJJ
+EQ class: womb-to-tombjj	
+
+BE: oneCDtimeNN
+EQ class: unitycdclipnn	icdtimenn	singlecdtimenn	acecdtimenn	1cdclipnn	1cdtimenn	icdclipnn	acecdclipnn	onecdclipnn	singlecdclipnn	unitycdtimenn	
+
+BE: wePRPtakeVBP
+EQ class: 
+
+BE: takeVBPtimeNN
+EQ class: takevbpclipnn	
+
+BE: takeVBPmedicineNN
+EQ class: takevbpmedicaljj	takevbpmedical_specialtynn	
+

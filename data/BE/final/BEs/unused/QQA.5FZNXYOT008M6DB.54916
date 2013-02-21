@@ -1,0 +1,57 @@
+#they eat meat because it taste good. 
+#(S1 (S (NP (PRP they)) (VP (VBP eat) (NP (NN meat)) (SBAR (IN because) (S (NP (PRP it)) (VP (VBP taste) (ADJP (JJ good)))))) (. .)))
+#Rule:Nouns
+r1meatNN
+
+#Rule:Verbs
+r2eatVBP
+r2tasteVBP
+
+#Rule:Adjs
+r4goodJJ
+
+#Rule:HeadNoun-V
+r11theyPRPeatVBP
+r11itPRPtasteVBP
+
+#Rule:V-HeadNoun
+r21eatVBPmeatNN
+
+#Rule:V-IN-V
+r43eatVBPbecauseINtasteVBP
+
+#Pain does hurt but everyone dies, i would not mind if people ate me once i died.
+#(S1 (S (S (NP (NN Pain)) (VP (AUX does) (VP (VBN hurt)))) (CC but) (S (NP (NN everyone)) (VP (VBZ dies) (, ,) (S (NP (PRP i)) (VP (MD would) (RB not) (VP (VB mind) (SBAR (IN if) (S (NP (NNS people)) (VP (VBD ate) (NP (PRP me)) (SBAR (IN once) (S (NP (PRP i)) (VP (VBD died)))))))))))) (. .)))
+#Rule:Nouns
+r1PainOrganizationAnnotation
+r1everyoneNN
+r1peopleNNS
+
+#Rule:Verbs
+r2hurtVBN
+r2diesVBZ
+r2mindVB
+r2ateVBD
+r2i diOrganizationAnnotation
+
+#Rule:HeadNoun-V
+r11everyoneNNdiesVBZ
+r11iOrganizationAnnotationmindVB
+r11peopleNNSateVBD
+
+#Rule:V-HeadNoun
+r21ateVBDmePRP
+
+#Rule:V-HeadNoun
+r22diesVBZiOrganizationAnnotation
+
+#Rule:V-HeadNoun(passive)
+r23hurtVBNPainOrganizationAnnotation
+
+#Rule:V-IN-V
+r43mindVBifINateVBD
+r43ateVBDonceINi diOrganizationAnnotation
+
+@lemmas-left	they	it	dies	good	Pain	i di	taste	people	i	hurt	meat	ate	die	eat	mind	everyone	
+@lemmas-right	dies	meat	ate	die	Pain	me	eat	mind	i di	taste	i	
+@lemmas-center	because	once	if	

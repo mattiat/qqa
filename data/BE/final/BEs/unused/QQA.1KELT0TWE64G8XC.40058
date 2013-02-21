@@ -1,0 +1,25 @@
+#Why do so many people measure wealth purely in dollars?
+#(S1 (SBARQ (WHADVP (WRB Why)) (SQ (AUX do) (NP (ADJP (RB so) (JJ many)) (NNS people)) (VP (VB measure) (NP (NN wealth) (RB purely)) (PP (IN in) (NP (NNS dollars))))) (. ?)))
+#Rule:Nouns
+r1peopleNNS
+r1wealthNN
+r1dollarsNNS
+
+#Rule:Verbs
+r2measureVB
+
+#Rule:Adjs
+r4manyJJ
+
+#Rule:Adj-Noun
+r5manyJJpeopleNNS
+
+#Rule:V-HeadNoun
+r21measureVBwealthNN
+
+#Rule:PPinVP
+r30measureVBinINdollarsNNS
+
+@lemmas-left	many	measure	dollars	wealth	dollar	people	
+@lemmas-right	dollars	wealth	dollar	people	
+@lemmas-center	in	

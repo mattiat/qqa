@@ -1,0 +1,63 @@
+#That s sad.  
+#(S1 (S (NP (DT That)) (VP (VBZ s) (ADJP (JJ sad))) (. .)))
+#Rule:Verbs
+r2s sOrganizationAnnotation
+
+#Rule:HeadNoun-V
+r11thatDTs sOrganizationAnnotation
+
+#Sorry to hear that.  
+#(S1 (FRAG (ADJP (JJ Sorry)) (S (VP (TO to) (VP (VB hear) (NP (DT that))))) (. .)))
+#Rule:Verbs
+r2hearVB
+
+#Rule:Adjs
+r4SorryJJ
+
+#Rule:V-HeadNoun
+r21hearVBthatDT
+
+#Your doctor should check you periodically and retest you again.  
+#(S1 (S (NP (PRP$ Your) (NN doctor)) (VP (MD should) (VP (VP (VB check) (NP (PRP you)) (ADVP (RB periodically))) (CC and) (VP (VB retest) (NP (PRP you)) (ADVP (RB again))))) (. .)))
+#Rule:Nouns
+r1doctorNN
+
+#Rule:Verbs
+r2checkVB
+r2retestVB
+
+#Rule:PRP-Noun
+r6yourPRP$doctorNN
+
+#Rule:HeadNoun-V
+r11doctorNNcheckVB
+r11doctorNNretestVB
+
+#Rule:V-HeadNoun
+r21checkVByouPRP
+r21retestVByouPRP
+
+#Rule:V-ADV
+r46checkVBperiodicallyRB
+r46retestVBagainRB
+
+#You have to ask your doctor.
+#(S1 (S (NP (PRP You)) (VP (AUX have) (S (VP (TO to) (VP (VB ask) (NP (PRP$ your) (NN doctor)))))) (. .)))
+#Rule:Nouns
+r1doctorNN
+
+#Rule:Verbs
+r2askVB
+
+#Rule:PRP-Noun
+r6yourPRP$doctorNN
+
+#Rule:HeadNoun-V
+r11youPRPhaveAUX
+
+#Rule:V-HeadNoun
+r21askVBdoctorNN
+
+@lemmas-left	retest	that	hear	check	s s	your	sorry	you	Sorry	ask	doctor	
+@lemmas-right	retest	that	check	s s	have	periodically	again	you	doctor	
+@lemmas-center	

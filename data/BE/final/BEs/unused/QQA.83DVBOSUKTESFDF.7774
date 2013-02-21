@@ -1,0 +1,37 @@
+#Because Carter s great-great grandfather was not a Pharaoh who died young and suspiciously
+#(S1 (FRAG (SBAR (IN Because) (S (NP (NNP Carter) (NNP s) (JJ great-great) (NN grandfather)) (VP (AUX was) (RB not) (NP (NP (DT a) (NNP Pharaoh)) (SBAR (WHNP (WP who)) (S (VP (VBD died) (ADJP (JJ young) (CC and) (JJ suspiciously)))))))))))
+#Rule:Nouns
+r1CarterNNP
+r1sNNP
+r1grandfatherNN
+r1PharaohNNP
+
+#Rule:Verbs
+r2diedVBD
+
+#Rule:Adjs
+r4great-greatJJ
+r4youngJJ
+r4suspiciouslyJJ
+
+#Rule:Adj-Noun
+r5great-greatJJgrandfatherNN
+
+#Rule:HeadNoun-V
+r11grandfatherNNwasAUX
+
+#Rule:HeadNoun-(who/that)-V
+r14PharaohNNPdiedVBD
+
+#Rule:V-HeadNoun
+r21wasAUXPharaohNNP
+
+#Rule:V-ADV
+r46wasAUXnotRB
+
+#Rule:IS-RULE
+r47PharaohNNPgrandfatherNN
+
+@lemmas-left	carter	grandfather	Pharaoh	Carter	young	was	pharaoh	great	s	died	die	great-great	suspiciously	be	
+@lemmas-right	not	pharaoh	died	grandfather	Pharaoh	die	was	be	
+@lemmas-center	

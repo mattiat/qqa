@@ -1,0 +1,33 @@
+#how do airplanes work??
+#(S1 (SBARQ (WHADVP (WRB how)) (SQ (AUX do) (NP (NNS airplanes)) (VP (VB work)) (. ?)) (. ?)))
+#Rule:Nouns
+r1airplanesNNS
+
+#Rule:Verbs
+r2workVB
+
+#Process that it involves flying from take off to landing.
+#(S1 (S (VP (VB Process) (SBAR (IN that) (S (NP (PRP it)) (VP (VBZ involves) (S (VP (VBG flying) (PP (PP (IN from) (VP (VB take) (PRT (RP off)))) (PP (TO to) (NP (NN landing)))))))))) (. .)))
+#Rule:Nouns
+r1landingNN
+
+#Rule:Verbs
+r2processVB
+r2involvesVBZ
+r2flyingVBG
+
+#Rule:V-PRT
+r3takeVBoffRP
+
+#Rule:HeadNoun-V
+r11itPRPinvolvesVBZ
+
+#Rule:PPinVP
+r31flyingVBGtoTOlandingNN
+
+#Rule:V-IN-V
+r43processVBthatINinvolvesVBZ
+
+@lemmas-left	process	work	flying	involves	it	landing	airplanes	fly	take	airplane	involve	
+@lemmas-right	involves	landing	off	involve	
+@lemmas-center	to	that	

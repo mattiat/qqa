@@ -1,0 +1,60 @@
+#you could bu resistance bands to increase flexibility.what is a touch toe?  
+#(S1 (S (NP (PRP you)) (VP (MD could) (VP (VB bu) (NP (NN resistance) (NNS bands)) (S (VP (TO to) (VP (VB increase) (SBAR (S (NP (NN flexibility.what)) (VP (AUX is) (NP (DT a) (NN touch) (NN toe)))))))))) (. ?)))
+#Rule:Nouns
+r1resistanceNN
+r1bandsNNS
+r1flexibility.whatNN
+r1touchNN
+r1toeNN
+
+#Rule:Verbs
+r2buVB
+r2increaseVB
+
+#Rule:N-HeadNoun
+r8resistanceNNbandsNNS
+r8touchNNtoeNN
+
+#Rule:HeadNoun-V
+r11youPRPbuVB
+r11flexibility.whatNNisAUX
+
+#Rule:V-HeadNoun
+r21buVBbandsNNS
+r21isAUXtoeNN
+
+#Rule:V-V
+r44buVBincreaseVB
+
+#Rule:IS-RULE
+r47toeNNflexibility.whatNN
+
+#i m not sure but just keep practicing&you ll get into it.
+#(S1 (S (NP (PRP i)) (VP (NNP m) (VP (ADVP (RB not) (RB sure) (CC but) (RB just)) (VBP keep) (SBAR (S (NP (NN practicing&you) (NNS ll)) (VP (VBP get) (PP (IN into) (NP (PRP it)))))))) (. .)))
+#Rule:Nouns
+r1mNNP
+r1practicing&youNN
+r1llNNS
+
+#Rule:Verbs
+r2keepVBP
+r2getVBP
+
+#Rule:N-HeadNoun
+r8practicing&youNNllNNS
+
+#Rule:HeadNoun-V
+r11iPRPkeepVBP
+r11llNNSgetVBP
+
+#Rule:PPinVP
+r30getVBPintoINitPRP
+
+#Rule:V-ADV
+r46keepVBPnotRB
+r46keepVBPsureRB
+r46keepVBPjustRB
+
+@lemmas-left	toe	practicing&you	bands	is	ll	get	you	m	bu	i	band	flexibility.what	touch	resistance	increase	keep	be	
+@lemmas-right	just	toe	bands	is	ll	it	get	bu	not	band	flexibility.what	increase	sure	be	keep	
+@lemmas-center	into	

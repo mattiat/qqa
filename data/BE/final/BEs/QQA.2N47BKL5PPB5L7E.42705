@@ -1,0 +1,51 @@
+#MOST of the probes we send to Mars all the time actually failed..
+#(S1 (S (NP (NP (JJS MOST)) (PP (IN of) (NP (DT the) (NNS probes)))) (NP (PRP we)) (VP (VBP send) (PP (TO to) (NP (NNP Mars))) (NP (NP (PDT all) (DT the) (NN time)) (SBAR (S (ADVP (RB actually)) (VP (VBD failed)) (. .))))) (. .)))
+#Rule:Nouns
+r1probesNNS
+r1MarsPersonAnnotation
+r1timeNN
+
+#Rule:Verbs
+r2sendVBP
+r2failedVBD
+
+#Rule:Adjs
+r4MOSTJJS
+
+#Rule:HeadNoun-V
+r11MOSTJJSsendVBP
+r11wePRPsendVBP
+
+#Rule:HeadNoun-(who/that)-V
+r14timeNNfailedVBD
+
+#Rule:V-HeadNoun
+r21sendVBPtimeNN
+
+#Rule:PPinNP
+r26MOSTJJSofINprobesNNS
+
+#Rule:PPinVP
+r30sendVBPtoTOMarsPersonAnnotation
+
+#Rule:V-ADV
+r46failedVBDactuallyRB
+
+#So.. wanna volunteer for  Mars 1?
+#(S1 (FRAG (INTJ (RB So) (. .)) (. .) (VP (NNP wanna) (VP (VB volunteer) (PP (IN for) (NP (NNP Mars) (CD 1))))) (. ?)))
+#Rule:Nouns
+r1So.. wannaLocationAnnotation
+r1MarsOrganizationAnnotation
+
+#Rule:Verbs
+r2volunteerVB
+
+#Rule:Adj-Noun
+r51CDMarsOrganizationAnnotation
+
+#Rule:PPinVP
+r30volunteerVBforINMarsOrganizationAnnotation
+
+@lemmas-left	So.. wanna	send	volunteer	failed	most	Mars	probes	probe	time	1	fail	MOST	we	
+@lemmas-right	time	send	fail	failed	Mars	actually	probes	probe	
+@lemmas-center	to	of	for	

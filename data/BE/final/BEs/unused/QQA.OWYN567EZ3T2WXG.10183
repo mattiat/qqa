@@ -1,0 +1,47 @@
+#This story is out of London, but I assume the reasons for the US are similar:http://www.msnbc.msn.com/id/15545100/One with statistics from Africa:http://www.global-campaign.org/clientfiles/LSHTM-Condom.pdfNot sure where this is from, but you can check:http://news.softpedia.com/news/Why-Do-Men-Do-not-Use-Condoms-72191.shtml
+#(S1 (S (S (NP (DT This) (NN story)) (VP (AUX is) (PP (IN out) (PP (IN of) (NP (NNP London)))))) (, ,) (CC but) (S (NP (PRP I)) (VP (VBP assume) (NP (NP (DT the) (NNS reasons)) (PP (IN for) (NP (DT the) (UCP (S (NP (PRP US)) (VP (AUX are) (ADJP (JJ similar)))) (: :) (NP (NP (NNS http)) (: :) (NP (NP (NN //www.msnbc.msn.com/id/15545100/One)) (PP (IN with) (NP (NP (NNS statistics)) (PP (IN from) (NP (NNP Africa)))))) (: :) (NP (NNS http)) (: :) (NP (NP (NN //www.global-campaign.org/clientfiles/LSHTM-Condom.pdfNot)) (SBAR (WHADVP (RB sure) (WRB where)) (S (S (NP (DT this)) (VP (AUX is) (NP (IN from)))) (, ,) (CC but) (S (NP (PRP you)) (VP (MD can) (VP (VB check))))))) (: :) (NP (NNS http)) (: :))) (NN //news.softpedia.com/news/Why-Do-Men-Do-not-Use-Condoms-72191.shtml))))))))
+#Rule:Nouns
+r1storyNN
+r1LondonLocationAnnotation
+r1reasonsNNS
+r1http://www.msnbc.msn.OrganizationAnnotation
+r1//www.msnbc.msn.com/id/15545100/OneNN
+r1statisticsNNS
+r1AfricaNNP
+r1httpPersonAnnotation
+r1//www.global-campaign.org/clientfiles/LSHTM-Condom.pdfNotNN
+r1httpPersonAnnotation
+r1//news.softpedia.com/news/Why-Do-Men-Do-not-Use-Condoms-72191.shtmlNN
+
+#Rule:Verbs
+r2assumeVBP
+r2checkVB
+
+#Rule:Adjs
+r4similarJJ
+
+#Rule:HeadNoun-V
+r11storyNNisAUX
+r11iPRPassumeVBP
+r11USLocationAnnotationareAUX
+r11thisDTisAUX
+r11youPRPcheckVB
+
+#Rule:V-HeadNoun
+r21assumeVBPreasonsNNS
+r21isAUXfromIN
+
+#Rule:V-ADJ
+r25areAUXsimilarJJ
+
+#Rule:PPinNP
+r26reasonsNNSforIN//news.softpedia.com/news/Why-Do-Men-Do-not-Use-Condoms-72191.shtmlNN
+r26//www.msnbc.msn.com/id/15545100/OneNNwithINstatisticsNNS
+r26statisticsNNSfromINAfricaNNP
+
+#Rule:PPComboInVP
+r34isAUXoutINLondonLocationAnnotation
+
+@lemmas-left	reason	one	reasons	London	statistics	//www.msnbc.msn.com/id/15545100/One	story	are	africa	similar	be	US	is	check	you	i	//news.softpedia.com/news/why-do-men-do-not-use-condoms-72191.shtml	http://www.msnbc.msn.	http	Africa	//www.global-campaign.org/clientfiles/lshtm-condom.pdfnot	assume	//www.global-campaign.org/clientfiles/LSHTM-Condom.pdfNot	this	//news.softpedia.com/news/Why-Do-Men-Do-not-Use-Condoms-72191.shtml	
+@lemmas-right	is	check	reason	from	reasons	London	statistics	//news.softpedia.com/news/why-do-men-do-not-use-condoms-72191.shtml	are	Africa	assume	africa	//news.softpedia.com/news/Why-Do-Men-Do-not-Use-Condoms-72191.shtml	be	similar	
+@lemmas-center	with	for	from	out	

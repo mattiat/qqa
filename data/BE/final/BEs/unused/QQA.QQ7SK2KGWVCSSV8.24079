@@ -1,0 +1,256 @@
+#Shakespeare wrote 28 plays in a 14 year span,(1594 to 1608). 
+#(S1 (S (NP (NNP Shakespeare)) (VP (VBD wrote) (NP (CD 28) (NNS plays)) (PP (IN in) (NP (NP (DT a) (ADJP (CD 14) (NN year)) (NN span)) (, ,) (PRN (-LRB- -LRB-) (NP (QP (CD 1594) (TO to) (CD 1608))) (-RRB- -RRB-))))) (. .)))
+#Rule:Nouns
+r1ShakespeareNNP
+r1playsNNS
+r1yearNN
+r1spanLocationAnnotation
+
+#Rule:Verbs
+r2wroteVBD
+
+#Rule:Adj-Noun
+r528CDplaysNNS
+r514CDspanLocationAnnotation
+r51608CD1594CD
+
+#Rule:HeadNoun-V
+r11ShakespeareNNPwroteVBD
+
+#Rule:V-HeadNoun
+r21wroteVBDplaysNNS
+
+#Rule:PPinVP
+r30wroteVBDinINspanLocationAnnotation
+
+#Two plays a year.1590-94: He wrote comedies, histories, and tragedies      The Comedy of Errors, Henry VI(parts I,II,II)       Richard III, The Taming of the Shrew, Titus        Andronicus, The Two Gentlemen  of Verona, and      King John.1595-1600: He wrote historical drama and romantic comedies       A Midsummer Night s Dream, Richard II, Love s       Labour s Lost, Romeo and Juliet, The Merchant       of Venice, Henry IV(parts I and II), As You       Like
+#(S1 (NP (NP (NP (CD Two) (NNS plays)) (NP (DT a) (NN year.1590-94))) (: :) (S (S (NP (PRP He)) (VP (VBD wrote) (NP (NP (NNS comedies)) (, ,) (NP (NNS histories)) (, ,) (CC and) (NP (NP (NNS tragedies)) (NP (NP (NP (DT The) (NNP Comedy)) (PP (IN of) (NP (NNS Errors)))) (, ,) (NP (NNP Henry) (NNP VI) (PRN (-LRB- -LRB-) (NP (NP (NNS parts)) (NP (PRP I))) (, ,) (NP (NNP II)) (, ,) (NP (NNP II)) (-RRB- -RRB-)) (NNP Richard) (NNP III)) (, ,) (NP (NP (DT The) (VBG Taming)) (PP (IN of) (NP (DT the) (NNP Shrew)))) (, ,) (NP (NNP Titus) (NNP Andronicus)) (, ,) (NP (NP (DT The) (CD Two) (NNS Gentlemen)) (PP (IN of) (NP (NNP Verona)))) (, ,) (CC and) (NP (NNP King) (NNP John.1595-1600))))))) (: :) (S (NP (PRP He)) (VP (VBD wrote) (NP (NP (NP (JJ historical) (NN drama)) (CC and) (NP (NP (JJ romantic) (NNS comedies)) (NP (DT A) (NN Midsummer)) (NNP Night) (NNP s) (NN Dream))) (, ,) (NP (NP (NNP Richard) (NNP II)) (, ,) (NP (NNP Love) (NNP s) (NNP Labour) (NNP s) (JJ Lost) (, ,) (NNP Romeo) (CC and) (NNP Juliet)) (, ,) (NP (NP (NP (DT The) (NN Merchant)) (PP (IN of) (NP (NNP Venice)))) (, ,) (NP (NNP Henry) (NNP IV)) (PRN (-LRB- -LRB-) (NP (NP (NNS parts)) (NP (PRP I) (CC and) (NNP II))) (-RRB- -RRB-)))) (, ,)) (SBAR (IN As) (S (NP (PRP You)) (VP (VBP Like)))))))))
+#Rule:Nouns
+r1playsNNS
+r1year.1590-94NN
+r1comediesNNS
+r1historiesNNS
+r1tragediesNNS
+r1Comedy of ErrorsOrganizationAnnotation
+r1Henry VIPersonAnnotation
+r1partsNNS
+r1IINNP
+r1IINNP
+r1Richard IIIPersonAnnotation
+r1ShrewNNP
+r1Titus        AndronicusPersonAnnotation
+r1Two GentlemenOrganizationAnnotation
+r1VeronaLocationAnnotation
+r1King JohnPersonAnnotation
+r1John.1595-1600NNP
+r1dramaNN
+r1comediesNNS
+r1MidsummerNN
+r1NightNNP
+r1sNNP
+r1DreamOrganizationAnnotation
+r1Richard IIPersonAnnotation
+r1Love s       Labour s LostOrganizationAnnotation
+r1RomeoLocationAnnotation
+r1JulietLocationAnnotation
+r1MerchantNN
+r1VeniceOrganizationAnnotation
+r1Henry IVPersonAnnotation
+r1partsNNS
+r1IINNP
+
+#Rule:Verbs
+r2wroteVBD
+r2tamingVBG
+r2wroteVBD
+r2As You       LikeOrganizationAnnotation
+
+#Rule:Adjs
+r4historicalJJ
+r4romanticJJ
+
+#Rule:Adj-Noun
+r5TwoCDplaysNNS
+r5historicalJJdramaNN
+r5romanticJJcomediesNNS
+r5Love s       Labour s LostOrganizationAnnotationRomeoLocationAnnotation
+
+#Rule:N-HeadNoun
+r8King JohnPersonAnnotationJohn.1595-1600NNP
+r8sNNPDreamOrganizationAnnotation
+r8NightNNPDreamOrganizationAnnotation
+
+#Rule:N-ApposN
+r10comediesNNShistoriesNNS
+r10Comedy of ErrorsOrganizationAnnotationRichard IIIPersonAnnotation
+r10dramaNNRichard IIPersonAnnotation
+r10Richard IIPersonAnnotationRomeoLocationAnnotation
+r10MerchantNNHenry IVPersonAnnotation
+
+#Rule:HeadNoun-V
+r11hePRPwroteVBD
+r11hePRPwroteVBD
+
+#Rule:V-HeadNoun
+r21wroteVBDcomediesNNS
+r21wroteVBDdramaNN
+
+#Rule:PPinNP
+r26tamingVBGofINShrewNNP
+r26Two GentlemenOrganizationAnnotationofINVeronaLocationAnnotation
+r26MerchantNNofINVeniceOrganizationAnnotation
+
+#It, Julius Caesar, Much Ado About        Nothing, Twelfth Night, and The Merry Wives       of Windsor.1601-1608: He wrote of his greatest tragedies        Hamlet, All s Well That End s Well, Measure       for Measure, Othello, King Lear, Troilus and       Cressida, Macbeth, Timon of Athens, Pericles,       Antony and Cleopatra, and Coriolanus.1609-1613: He wrote 3 comedies and a history       Cymbeline, The Winter s Tale, The Tempest,       and Henry VIII.
+#(S1 (S (NP (PRP It)) (, ,) (NP (NP (NNP Julius) (NNP Caesar)) (, ,) (NP (NP (JJ Much) (NNP Ado)) (PP (IN About) (NP (NP (NNP Nothing)) (, ,) (NP (NNP Twelfth) (NNP Night)) (, ,)))) (CC and) (NP (NP (DT The) (NNP Merry) (NNS Wives)) (PP (IN of) (NP (NNP Windsor.1601-1608))))) (: :) (S (NP (PRP He)) (VP (VBD wrote) (PP (IN of) (NP (PRP$ his) (JJS greatest) (NNS tragedies))) (NP (NNP Hamlet)) (, ,) (NP (NP (NP (NNP All) (NNP s) (NNP Well)) (PP (IN That) (NP (NP (NNP End) (NNP s) (NNP Well)) (, ,) (NP (NP (NN Measure)) (PP (IN for) (NP (NN Measure)))) (, ,) (NP (NNP Othello)) (, ,) (NP (NNP King) (NNP Lear) (, ,) (NNP Troilus) (CC and) (NNP Cressida))))) (, ,) (NP (NNP Macbeth)) (, ,) (NP (NP (NNP Timon)) (PP (IN of) (NP (NNP Athens) (, ,) (NNP Pericles) (, ,) (NNP Antony) (CC and) (NNP Cleopatra)))) (, ,) (CC and) (NP (NNP Coriolanus.1609-1613))))) (: :) (NP (PRP He)) (VP (VBD wrote) (NP (NP (CD 3) (NNS comedies)) (CC and) (NP (NP (DT a) (NN history) (NN Cymbeline)) (, ,) (NP (NP (DT The) (NNP Winter) (NNP s) (NNP Tale)) (, ,) (NP (NNP The) (NNP Tempest)) (, ,) (CC and) (NP (NNP Henry) (NNP VIII)))))) (. .)))
+#Rule:Nouns
+r1Julius CaesarOrganizationAnnotation
+r1AdoNNP
+r1NothingNNP
+r1TwelfthNNP
+r1NightNNP
+r1Merry WivesOrganizationAnnotation
+r1Windsor.1601-1608NNP
+r1tragediesNNS
+r1HamletLocationAnnotation
+r1AllNNP
+r1sNNP
+r1WellLocationAnnotation
+r1EndNNP
+r1sNNP
+r1WellOrganizationAnnotation
+r1MeasureNN
+r1MeasureNN
+r1OthelloPersonAnnotation
+r1KingNNP
+r1LearNNP
+r1TroilusOrganizationAnnotation
+r1Cressida, MacbethOrganizationAnnotation
+r1Timon of AthensOrganizationAnnotation
+r1PericlesLocationAnnotation
+r1AntonyLocationAnnotation
+r1CleopatraLocationAnnotation
+r1Coriolanus.1609-1613NNP
+r1comediesNNS
+r1historyNN
+r1CymbelineNN
+r1The Winter s TaleOrganizationAnnotation
+r1TheNNP
+r1TempestOrganizationAnnotation
+r1Henry VIIIPersonAnnotation
+
+#Rule:Verbs
+r2wroteVBD
+r2wroteVBD
+
+#Rule:Adjs
+r4MuchJJ
+r4greatestJJS
+
+#Rule:Adj-Noun
+r5MuchJJAdoNNP
+r5greatestJJStragediesNNS
+r53CDcomediesNNS
+
+#Rule:PRP-Noun
+r6hisPRP$tragediesNNS
+
+#Rule:N-HeadNoun
+r8TwelfthNNPNightNNP
+r8sNNPWellLocationAnnotation
+r8AllNNPWellLocationAnnotation
+r8sNNPWellOrganizationAnnotation
+r8EndNNPWellOrganizationAnnotation
+r8historyNNCymbelineNN
+r8TheNNPTempestOrganizationAnnotation
+
+#Rule:N-Noun
+r9KingNNPLearNNP
+
+#Rule:N-ApposN
+r10Julius CaesarOrganizationAnnotationAdoNNP
+r10NothingNNPNightNNP
+r10WellLocationAnnotationCressida, MacbethOrganizationAnnotation
+r10WellOrganizationAnnotationMeasureNN
+r10CymbelineNNThe Winter s TaleOrganizationAnnotation
+r10The Winter s TaleOrganizationAnnotationTempestOrganizationAnnotation
+
+#Rule:HeadNoun-V
+r11itPRPwroteVBD
+r11Julius CaesarOrganizationAnnotationwroteVBD
+r11AdoNNPwroteVBD
+r11Merry WivesOrganizationAnnotationwroteVBD
+r11hePRPwroteVBD
+r11hePRPwroteVBD
+
+#Rule:V-HeadNoun
+r21wroteVBDHamletLocationAnnotation
+r21wroteVBDWellLocationAnnotation
+r21wroteVBDcomediesNNS
+
+#Rule:PPinNP
+r26AdoNNPaboutINNothingNNP
+r26AdoNNPaboutINNightNNP
+r26Merry WivesOrganizationAnnotationofINWindsor.1601-1608NNP
+r26WellLocationAnnotationthatINWellOrganizationAnnotation
+r26WellLocationAnnotationthatINMeasureNN
+r26WellLocationAnnotationthatINOthelloPersonAnnotation
+r26WellLocationAnnotationthatINTroilusOrganizationAnnotation
+r26MeasureNNforINMeasureNN
+
+#Rule:PPinVP
+r30wroteVBDofINtragediesNNS
+
+#He wrote a total of 152 poems. 126 are addressed to a young nobleman and the remaining 26 are addressed to a young woman with whom he may have had a love affair.
+#(S1 (S (NP (PRP He)) (VP (VBD wrote) (NP (NP (DT a) (NN total)) (PP (IN of) (NP (CD 152) (NN poems.)))) (SBAR (S (S (NP (CD 126)) (VP (AUX are) (VP (VBN addressed) (PP (TO to) (NP (DT a) (JJ young) (NN nobleman)))))) (CC and) (S (NP (DT the) (VBG remaining) (CD 26)) (VP (AUX are) (VP (VBN addressed) (PP (TO to) (NP (NP (DT a) (JJ young) (NN woman)) (SBAR (WHPP (IN with) (WHNP (WP whom))) (S (NP (PRP he)) (VP (MD may) (VP (AUX have) (VP (AUX had) (NP (DT a) (NN love) (NN affair))))))))))))))) (. .)))
+#Rule:Nouns
+r1totalNN
+r1poemsNN
+r1noblemanNN
+r1womanNN
+r1loveNN
+r1affairNN
+
+#Rule:Verbs
+r2wroteVBD
+r2addressedVBN
+r2remainingVBG
+r2addressedVBN
+
+#Rule:Adjs
+r4youngJJ
+r4youngJJ
+
+#Rule:Adj-Noun
+r5152CDpoemsNN
+r5youngJJnoblemanNN
+r5remainingVBG26CD
+r5youngJJwomanNN
+
+#Rule:N-HeadNoun
+r8loveNNaffairNN
+
+#Rule:HeadNoun-V
+r11hePRPwroteVBD
+r11hePRPhadAUX
+
+#Rule:V-HeadNoun
+r21wroteVBDtotalNN
+r21hadAUXaffairNN
+
+#Rule:V-HeadNoun(passive)
+r23addressedVBN126CD
+r23addressedVBN26CD
+
+#Rule:PPinNP
+r26totalNNofINpoemsNN
+
+#Rule:PPinNP4Which2
+r29affairNNwithINwomanNN
+
+#Rule:PPinVP
+r32addressedVBNtoTOnoblemanNN
+r32addressedVBNtoTOwomanNN
+
+@lemmas-left	total	As You       Like	Julius Caesar	Richard III	Merchant	John.1595-1600	wrote	parts	drama	King	addressed	Two	152	cymbeline	Richard II	Comedy of Errors	year	Shakespeare	Cleopatra	twelfth	Nothing	he	28	Romeo	3	Well	King John	Dream	Antony	john.1595-1600	tragedies	comedy	Love s       Labour s Lost	The Winter s Tale	Windsor.1601-1608	14	king	Merry Wives	The	remaining	Night	write	Henry IV	Two Gentlemen	end	Juliet	romantic	Venice	Timon of Athens	young	history	remain	s	nothing	Pericles	histories	End	comedies	Much	plays	tragedy	All	Measure	Midsummer	love	poems	his	Ado	woman	Verona	Titus        Andronicus	had	Hamlet	shakespeare	II	midsummer	Henry VIII	much	tame	nobleman	shrew	lear	Twelfth	Cressida, Macbeth	span	coriolanus.1609-1613	ado	measure	have	1608	Othello	affair	Cymbeline	Tempest	Coriolanus.1609-1613	taming	poems.	all	it	merchant	Shrew	play	ii	windsor.1601-1608	greatest	Henry VI	the	two	year.1590-94	address	Lear	night	historical	Troilus	
+@lemmas-right	total	Richard III	comedies	John.1595-1600	wrote	tragedy	plays	drama	Measure	Ado	cymbeline	poems	woman	Richard II	Verona	had	Hamlet	126	Nothing	26	Romeo	1594	nobleman	shrew	Well	Dream	john.1595-1600	tragedies	lear	Cressida, Macbeth	span	ado	comedy	measure	have	The Winter s Tale	Windsor.1601-1608	Othello	affair	Cymbeline	Night	write	Tempest	Henry IV	poems.	Shrew	play	Venice	windsor.1601-1608	history	Lear	nothing	night	histories	Troilus	
+@lemmas-center	to	that	of	with	for	about	in	

@@ -1,0 +1,38 @@
+#How to fight heart disease??
+#(S1 (FRAG (SBAR (WHADVP (WRB How)) (S (VP (TO to) (VP (VB fight) (NP (NN heart) (NN disease))))) (. ?)) (. ?)))
+#Rule:Nouns
+r1heartNN
+r1diseaseNN
+
+#Rule:Verbs
+r2fightVB
+
+#Rule:N-HeadNoun
+r8heartNNdiseaseNN
+
+#Rule:V-HeadNoun
+r21fightVBdiseaseNN
+
+#Do you have any ideas on how to prevent heart disease, from what to eat, to exercise, or anything else?
+#(S1 (SQ (AUX Do) (NP (PRP you)) (VP (AUX have) (NP (NP (DT any) (NNS ideas)) (PP (IN on) (SBAR (WHADVP (WRB how)) (S (VP (TO to) (VP (VB prevent) (NP (NN heart) (NN disease)) (, ,) (PP (PP (IN from) (SBAR (WHNP (WP what)) (S (VP (TO to) (VP (VB eat)))))) (, ,) (PP (TO to) (NP (NP (NN exercise)) (, ,) (CC or) (NP (NN anything) (RB else)))))))))))) (. ?)))
+#Rule:Nouns
+r1ideasNNS
+r1heartNN
+r1diseaseNN
+r1exerciseNN
+r1anythingNN
+
+#Rule:Verbs
+r2preventVB
+r2eatVB
+
+#Rule:N-HeadNoun
+r8heartNNdiseaseNN
+
+#Rule:V-HeadNoun
+r21haveAUXideasNNS
+r21preventVBdiseaseNN
+
+@lemmas-left	ideas	idea	anything	heart	have	fight	exercise	eat	prevent	disease	
+@lemmas-right	ideas	idea	disease	
+@lemmas-center	

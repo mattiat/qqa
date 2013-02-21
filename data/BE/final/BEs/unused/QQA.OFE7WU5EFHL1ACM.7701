@@ -1,0 +1,151 @@
+#There is a medication that is over the counter at the drug store that you can purchase..
+#(S1 (S (NP (EX There)) (VP (AUX is) (NP (NP (DT a) (NN medication)) (SBAR (WHNP (WDT that)) (S (VP (AUX is) (PP (IN over) (NP (NP (DT the) (NN counter)) (PP (IN at) (NP (DT the) (NN drug) (NN store))))) (SBAR (IN that) (S (NP (PRP you)) (VP (MD can) (VP (VB purchase))) (. .)))))))) (. .)))
+#Rule:Nouns
+r1medicationNN
+r1counterNN
+r1drugNN
+r1storeNN
+
+#Rule:Verbs
+r2purchaseVB
+
+#Rule:N-HeadNoun
+r8drugNNstoreNN
+
+#Rule:HeadNoun-V
+r11thereEXisAUX
+r11youPRPpurchaseVB
+
+#Rule:HeadNoun-(who/that)-V
+r14medicationNNisAUX
+
+#Rule:V-HeadNoun
+r21isAUXmedicationNN
+
+#Rule:PPinNP
+r26counterNNatINstoreNN
+
+#Rule:PPinVP
+r30isAUXoverINcounterNN
+
+#Rule:V-IN-V
+r43isAUXthatINpurchaseVB
+
+#I forget the name of it, but if you ask one of the employees, they will know what you are talking about..They are drops that you put in your ear.and it works wonders..
+#(S1 (S (S (NP (PRP I)) (VP (VB forget) (NP (NP (DT the) (NN name)) (PP (IN of) (NP (PRP it)))))) (, ,) (CC but) (S (SBAR (IN if) (S (NP (PRP you)) (VP (VBP ask) (NP (NP (CD one)) (PP (IN of) (NP (DT the) (NNS employees))))))) (, ,) (NP (PRP they)) (VP (MD will) (VP (VB know) (SBAR (WHNP (WP what)) (S (NP (PRP you)) (VP (AUX are) (VP (VBG talking) (PP (IN about) (S (VP (VBG ..) (SBAR (S (NP (PRP They)) (VP (AUX are) (NP (NP (NNS drops)) (SBAR (WHNP (WDT that)) (S (NP (PRP you)) (VP (VBP put) (PRT (RP in)) (NP (NP (PRP$ your) (NN ear.and)) (SBAR (S (NP (PRP it)) (VP (VBZ works) (NP (NNS wonders)))))))))))))))))))))) (. .)) (. .)))
+#Rule:Nouns
+r1nameNN
+r1employeesNNS
+r1dropsNNS
+r1ear.andNN
+r1wondersNNS
+
+#Rule:Verbs
+r2forgetVB
+r2askVBP
+r2knowVB
+r2talkingVBG
+r2..VBG
+r2worksVBZ
+
+#Rule:V-PRT
+r3putVBPinRP
+
+#Rule:PRP-Noun
+r6yourPRP$ear.andNN
+
+#Rule:HeadNoun-V
+r11iPRPforgetVB
+r11theyPRPknowVB
+r11youPRPaskVBP
+r11youPRPtalkingVBG
+r11theyPRPareAUX
+r11youPRPputVBP
+r11itPRPworksVBZ
+
+#Rule:V-HeadNoun
+r21forgetVBnameNN
+r21askVBPoneCD
+r21areAUXdropsNNS
+r21putVBPear.andNN
+r21worksVBZwondersNNS
+
+#Rule:PPinNP
+r26nameNNofINitPRP
+r26oneCDofINemployeesNNS
+
+#Takes the pain away quickly..
+#(S1 (X (FRAG (VP (VBZ Takes) (NP (DT the) (NN pain)) (PRT (RP away)) (ADVP (RB quickly))) (. .)) (. .)))
+#Rule:Nouns
+r1painNN
+
+#Rule:Verbs
+r2takesVBZ
+
+#Rule:V-PRT
+r3takesVBZawayRP
+
+#Rule:V-HeadNoun
+r21takesVBZpainNN
+
+#Rule:V-ADV
+r46takesVBZquicklyRB
+
+#Have you considered that maybe you need to flush out your ears?  Could they be blocked up from excessive wax?  Debrox ear drops will remedy that..Good luck and I hope you feel better..
+#(S1 (SQ (AUX Have) (NP (PRP you)) (VP (VBN considered) (SBAR (IN that) (S (ADVP (RB maybe)) (NP (PRP you)) (VP (AUX need) (S (VP (TO to) (VP (VB flush) (PRT (RP out)) (NP (PRP$ your) (NNS ears))))))))) (. ?) (SQ (MD Could) (NP (PRP they)) (VP (AUX be) (VP (VBN blocked) (PRT (RP up)) (PP (IN from) (NP (JJ excessive) (NN wax))))) (. ?)) (SBAR (S (NP (NNP Debrox) (NN ear) (NNS drops)) (VP (MD will) (VP (VB remedy) (SBAR (IN that) (S (S (VP (VBZ ..) (NP (JJ Good) (NN luck)))) (CC and) (S (NP (PRP I)) (VP (VBP hope) (SBAR (S (NP (PRP you)) (VP (VBP feel) (ADVP (RB better)))))) (. .)))))))) (. .)))
+#Rule:Nouns
+r1earsNNS
+r1wax?  DebroxOrganizationAnnotation
+r1earNN
+r1dropsNNS
+r1luckNN
+
+#Rule:Verbs
+r2consideredVBN
+r2remedyVB
+r2..VBZ
+r2hopeVBP
+r2feelVBP
+
+#Rule:V-PRT
+r3flushVBoutRP
+r3blockedVBNupRP
+
+#Rule:Adjs
+r4excessiveJJ
+r4GoodJJ
+
+#Rule:Adj-Noun
+r5excessiveJJwax?  DebroxOrganizationAnnotation
+r5GoodJJluckNN
+
+#Rule:PRP-Noun
+r6yourPRP$earsNNS
+
+#Rule:N-HeadNoun
+r8earNNdropsNNS
+r8wax?  DebroxOrganizationAnnotationdropsNNS
+
+#Rule:HeadNoun-V
+r11youPRPneedAUX
+r11dropsNNSremedyVB
+r11iPRPhopeVBP
+r11youPRPfeelVBP
+
+#Rule:V-HeadNoun
+r21flushVBearsNNS
+r21..VBZluckNN
+
+#Rule:PPinVP
+r32blockedVBNfromINwax?  DebroxOrganizationAnnotation
+
+#Rule:V-IN-V
+r43consideredVBNthatINneedAUX
+
+#Rule:V-ADV
+r46needAUXmaybeRB
+r46feelVBPbetterRB
+
+@lemmas-left	need	they	store	drop	ear.and	excessive	good	takes	are	..	wonder	be	work	luck	ear	ask	hope	Good	put	one	pain	block	purchase	considered	wax?  Debrox	consider	name	blocked	employee	talk	drug	medication	feel	is	it	counter	your	you	know	works	i	talking	wonders	flush	remedy	take	there	drops	ears	forget	employees	
+@lemmas-right	need	put	store	drop	one	pain	ear.and	purchase	are	wax?  Debrox	name	wonder	employee	talk	be	medication	work	feel	is	it	maybe	luck	counter	know	in	up	works	away	talking	wonders	remedy	ear	better	drops	ears	ask	quickly	forget	hope	out	employees	
+@lemmas-center	of	that	over	at	from	

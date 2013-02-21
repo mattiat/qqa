@@ -1,0 +1,46 @@
+#Anyone know how to lose weight fast??
+#(S1 (S (NP (NN Anyone)) (VP (VB know) (SBAR (WHADVP (WRB how)) (S (VP (TO to) (VP (VB lose) (NP (NN weight)) (ADVP (RB fast))))) (. ?))) (. ?)))
+#Rule:Nouns
+r1AnyoneNN
+r1weightNN
+
+#Rule:Verbs
+r2knowVB
+r2loseVB
+
+#Rule:HeadNoun-V
+r11AnyoneNNknowVB
+
+#Rule:V-HeadNoun
+r21loseVBweightNN
+
+#Rule:V-ADV
+r46loseVBfastRB
+
+#Has anyone lost a lot of weight or some weight fast? If so can you please tell me
+#(S1 (SQ (SQ (AUX Has) (NP (NN anyone)) (VP (VBN lost) (NP (NP (DT a) (NN lot)) (PP (IN of) (NP (NP (NN weight)) (CC or) (NP (DT some) (NN weight))))) (ADVP (RB fast))) (. ?)) (PP (IN If) (NP (RB so))) (SQ (MD can) (NP (PRP you)) (VP (VB please) (S (VP (VB tell) (NP (PRP me))))))))
+#Rule:Nouns
+r1anyoneNN
+r1lotNN
+r1weightNN
+r1weightNN
+
+#Rule:Verbs
+r2lostVBN
+r2pleaseVB
+r2tellVB
+
+#Rule:V-HeadNoun
+r21lostVBNlotNN
+r21tellVBmePRP
+
+#Rule:PPinNP
+r26lotNNofINweightNN
+r26lotNNofINweightNN
+
+#Rule:V-ADV
+r46lostVBNfastRB
+
+@lemmas-left	lose	please	lost	weight	anyone	lot	tell	Anyone	know	
+@lemmas-right	weight	lot	me	fast	know	
+@lemmas-center	of	

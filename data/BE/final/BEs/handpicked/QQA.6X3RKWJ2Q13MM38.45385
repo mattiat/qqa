@@ -1,0 +1,458 @@
+#It would help to know what type and stage cancer she has and what state she is located in. Also whether or not she has good health insurance..
+#(S1 (S (NP (PRP It)) (VP (MD would) (VP (VB help) (S (TO to) (VP (VB know) (SBAR (SBAR (WHNP (WDT what) (NN type) (CC and) (NN stage) (NN cancer)) (S (NP (PRP she)) (VP (AUX has)))) (CC and) (SBAR (WHNP (WDT what) (NN state)) (S (NP (PRP she)) (VP (AUX is) (VP (VBN located) (S (VP (VBG in.) (ADVP (RB Also)) (SBAR (IN whether) (CC or) (RB not) (S (NP (PRP she)) (VP (AUX has) (NP (JJ good) (NN health) (NN insurance))))))))))))) (. .)))) (. .)))
+#Rule:Nouns
+r1typeNN
+r1stageNN
+r1cancerNN
+r1stateNN
+r1healthNN
+r1insuranceNN
+
+#Rule:Verbs
+r2helpVB
+r2knowVB
+r2locatedVBN
+r2inVBG
+
+#Rule:Adjs
+r4goodJJ
+
+#Rule:Adj-Noun
+r5goodJJinsuranceNN
+
+#Rule:N-HeadNoun
+r8healthNNinsuranceNN
+
+#Rule:HeadNoun-V
+r11itPRPhelpVB
+r11shePRPhasAUX
+r11shePRPhasAUX
+
+#Rule:V-HeadNoun
+r21hasAUXinsuranceNN
+
+#Rule:V-HeadNoun(passive)
+r23locatedVBNshePRP
+
+#Rule:V-IN-V
+r43inVBGwhetherINhasAUX
+
+#Rule:V-ADV
+r46inVBGAlsoRB
+
+#For example - if she lives in Texas and has lymphoma I d call the lymphoma clinic at MD Anderson and see about getting a second opinion at a top of the line hospital. If she was in Illinois, I d go to Northwestern, in California go to Stanford or City of Hope or UCLA.  Pick the largest major cancer center in her area and see about getting her a second opinion. This might mean a review of her current medical records or physically transferring her to the other hospital for further testing..
+#(S1 (FRAG (PP (IN For) (NP (NN example))) (: -) (SBAR (IN if) (S (NP (PRP she)) (VP (VP (VBZ lives) (PP (IN in) (NP (NNP Texas)))) (CC and) (VP (AUX has) (NP (NP (NN lymphoma)) (SBAR (S (NP (PRP I)) (VP (NNP d) (VP (VBP call) (NP (NP (DT the) (NN lymphoma) (NN clinic)) (PP (IN at) (NP (NNP MD) (NNP Anderson))))) (CC and) (VP (VBP see) (PP (IN about) (S (VP (VBG getting) (NP (NP (DT a) (JJ second) (NN opinion)) (PP (IN at) (NP (NP (DT a) (NN top)) (PP (IN of) (NP (NP (DT the) (NN line) (NNS hospital.)) (SBAR (IN If) (S (NP (PRP she)) (VP (AUX was) (S (PP (IN in) (NP (NNP Illinois))) (, ,) (NP (PRP I)) (NP (NNP d)) (VP (VBP go) (PP (TO to) (NP (NNP Northwestern))) (, ,) (SBAR (S (PP (IN in) (NP (NNP California))) (VP (VBP go) (PP (TO to) (NP (NP (NNP Stanford) (CC or) (NNP City)) (PP (IN of) (NP (NNP Hope) (CC or) (NNP UCLA.))))) (S (VP (VP (VB Pick) (NP (NP (DT the) (JJS largest) (JJ major) (NN cancer) (NN center)) (PP (IN in) (NP (PRP$ her) (NN area))))) (CC and) (VP (VB see) (PP (IN about) (S (VP (VBG getting) (NP (PRP her)) (NP (NP (DT a) (JJ second) (NN opinion.)) (SBAR (S (NP (DT This)) (VP (MD might) (VP (VP (VB mean) (NP (NP (DT a) (NN review)) (PP (IN of) (NP (PRP$ her) (JJ current) (JJ medical) (NNS records))))) (CC or) (RB physically) (VP (VBG transferring) (NP (PRP her)) (PP (TO to) (NP (NP (DT the) (JJ other) (NN hospital)) (PP (IN for) (NP (JJ further) (NN testing))))))))))))))))))))) (. .)))))))))))))))))))))) (. .)))
+#Rule:Nouns
+r1exampleNN
+r1TexasLocationAnnotation
+r1lymphoma IOrganizationAnnotation
+r1dNNP
+r1lymphoma clinicOrganizationAnnotation
+r1MD AndersonPersonAnnotation
+r1opinionNN
+r1topNN
+r1lineNN
+r1hospitalNNS
+r1IllinoisLocationAnnotation
+r1dNNP
+r1NorthwesternOrganizationAnnotation
+r1CaliforniaLocationAnnotation
+r1StanfordOrganizationAnnotation
+r1CityNNP
+r1HopeLocationAnnotation
+r1UCLALocationAnnotation
+r1cancerNN
+r1centerNN
+r1areaNN
+r1opinionNN
+r1reviewNN
+r1recordsNNS
+r1hospitalNN
+r1testingNN
+
+#Rule:Verbs
+r2livesVBZ
+r2callVBP
+r2seeVBP
+r2gettingVBG
+r2goVBP
+r2goVBP
+r2pickVB
+r2seeVB
+r2gettingVBG
+r2meanVB
+r2transferringVBG
+
+#Rule:Adjs
+r4secondJJ
+r4largestJJS
+r4majorJJ
+r4secondJJ
+r4currentJJ
+r4medicalJJ
+r4otherJJ
+r4furtherJJ
+
+#Rule:Adj-Noun
+r5secondJJopinionNN
+r5largestJJScenterNN
+r5majorJJcenterNN
+r5secondJJopinionNN
+r5currentJJrecordsNNS
+r5medicalJJrecordsNNS
+r5otherJJhospitalNN
+r5furtherJJtestingNN
+
+#Rule:PRP-Noun
+r6herPRP$areaNN
+r6herPRP$recordsNNS
+
+#Rule:N-HeadNoun
+r8lineNNhospitalNNS
+r8cancerNNcenterNN
+
+#Rule:HeadNoun-V
+r11shePRPlivesVBZ
+r11shePRPhasAUX
+r11lymphoma IOrganizationAnnotationcallVBP
+r11lymphoma IOrganizationAnnotationseeVBP
+r11shePRPwasAUX
+r11iPRPgoVBP
+r11dNNPgoVBP
+r11thisDTmeanVB
+r11thisDTtransferringVBG
+
+#Rule:V-HeadNoun
+r21hasAUXlymphoma IOrganizationAnnotation
+r21callVBPlymphoma clinicOrganizationAnnotation
+r21gettingVBGopinionNN
+r21pickVBcenterNN
+r21gettingVBGherPRP
+r21gettingVBGopinionNN
+r21meanVBreviewNN
+r21transferringVBGherPRP
+
+#Rule:V-HeadNoun
+r22wasAUXiPRP
+r22wasAUXdNNP
+
+#Rule:PPinNP
+r26lymphoma clinicOrganizationAnnotationatINMD AndersonPersonAnnotation
+r26opinionNNatINtopNN
+r26topNNofINhospitalNNS
+r26StanfordOrganizationAnnotationofINHopeLocationAnnotation
+r26centerNNinINareaNN
+r26reviewNNofINrecordsNNS
+r26hospitalNNforINtestingNN
+
+#Rule:PPinVP
+r30livesVBZinINTexasLocationAnnotation
+r30goVBPtoTONorthwesternOrganizationAnnotation
+r30goVBPtoTOStanfordOrganizationAnnotation
+r30transferringVBGtoTOhospitalNN
+
+#Rule:PPinS
+r36goVBPinINIllinoisLocationAnnotation
+r36goVBPinINCaliforniaLocationAnnotation
+
+#Rule:V-V
+r44goVBPpickVB
+r44goVBPseeVB
+
+#Make sure and only get referrals to top level hospitals.
+#(S1 (S (VP (VP (VB Make) (ADJP (JJ sure))) (CC and) (ADVP (RB only)) (VP (VB get) (NP (NNS referrals)) (PP (TO to) (NP (JJ top) (NN level) (NNS hospitals))))) (. .)))
+#Rule:Nouns
+r1referralsNNS
+r1levelNN
+r1hospitalsNNS
+
+#Rule:Verbs
+r2makeVB
+r2getVB
+
+#Rule:Adjs
+r4sureJJ
+r4topJJ
+
+#Rule:Adj-Noun
+r5topJJhospitalsNNS
+
+#Rule:N-HeadNoun
+r8levelNNhospitalsNNS
+
+#Rule:V-HeadNoun
+r21getVBreferralsNNS
+
+#Rule:PPinVP
+r30getVBtoTOhospitalsNNS
+
+#Rule:V-ADV
+r46makeVBonlyRB
+r46getVBonlyRB
+
+# You only want referrals for realistic treatment options and not just anywhere willing to do needless surgery.
+#(S1 (S (NP (PRP You)) (ADVP (RB only)) (VP (VP (VBP want) (NP (NNS referrals)) (PP (IN for) (NP (JJ realistic) (NN treatment) (NNS options)))) (CC and) (RB not) (ADVP (RB just) (RB anywhere)) (ADJP (JJ willing) (S (VP (TO to) (VP (AUX do) (NP (JJ needless) (NN surgery))))))) (. .)))
+#Rule:Nouns
+r1referralsNNS
+r1treatmentNN
+r1optionsNNS
+r1surgeryNN
+
+#Rule:Verbs
+r2wantVBP
+
+#Rule:Adjs
+r4realisticJJ
+r4willingJJ
+r4needlessJJ
+
+#Rule:Adj-Noun
+r5realisticJJoptionsNNS
+r5needlessJJsurgeryNN
+
+#Rule:N-HeadNoun
+r8treatmentNNoptionsNNS
+
+#Rule:HeadNoun-V
+r11youPRPwantVBP
+
+#Rule:V-HeadNoun
+r21wantVBPreferralsNNS
+r21doAUXsurgeryNN
+
+#Rule:PPinVP
+r30wantVBPforINoptionsNNS
+
+#Rule:V-ADV
+r46wantVBPjustRB
+r46wantVBPanywhereRB
+
+# Sometimes the Drs are right about there being no other options.
+#(S1 (S (ADVP (RB Sometimes)) (NP (DT the) (NNPS Drs)) (VP (AUX are) (ADJP (JJ right) (PP (IN about) (S (NP (EX there)) (VP (AUXG being) (NP (DT no) (JJ other) (NNS options))))))) (. .)))
+#Rule:Nouns
+r1DrsNNPS
+r1optionsNNS
+
+#Rule:Adjs
+r4rightJJ
+r4otherJJ
+
+#Rule:Adj-Noun
+r5otherJJoptionsNNS
+
+#Rule:HeadNoun-V
+r11DrsNNPSareAUX
+
+#Rule:V-HeadNoun
+r21beingAUXGoptionsNNS
+
+#Rule:V-ADJ
+r25areAUXrightJJ
+
+#Rule:PPinADJP
+r38rightJJaboutINbeingAUXG
+
+#Rule:V-ADV
+r46areAUXSometimesRB
+
+#Rule:BE-ADJP-IN-VBG
+r51DrsNNPSbeingAUXG
+
+# sorryThe National Institutes of Health is running clinical trials for metastatic melanoma and has had some very impressive results in small numbers of patients.
+#(S1 (S (NP (NP (NNP sorryThe) (NNP National) (NNP Institutes)) (PP (IN of) (NP (NNP Health)))) (VP (VP (AUX is) (VP (VBG running) (NP (JJ clinical) (NNS trials)) (PP (IN for) (NP (JJ metastatic) (NN melanoma))))) (CC and) (VP (AUX has) (VP (AUX had) (NP (DT some) (ADJP (RB very) (JJ impressive)) (NNS results)) (PP (IN in) (NP (NP (JJ small) (NNS numbers)) (PP (IN of) (NP (NNS patients)))))))) (. .)))
+#Rule:Nouns
+r1sorryThe National Institutes of HealthOrganizationAnnotation
+r1trialsNNS
+r1melanomaLocationAnnotation
+r1resultsNNS
+r1numbersNNS
+r1patientsNNS
+
+#Rule:Verbs
+r2runningVBG
+
+#Rule:Adjs
+r4clinicalJJ
+r4metastaticJJ
+r4impressiveJJ
+r4smallJJ
+
+#Rule:Adj-Noun
+r5clinicalJJtrialsNNS
+r5metastaticJJmelanomaLocationAnnotation
+r5impressiveJJresultsNNS
+r5smallJJnumbersNNS
+
+#Rule:HeadNoun-V
+r11sorryThe National Institutes of HealthOrganizationAnnotationrunningVBG
+r11sorryThe National Institutes of HealthOrganizationAnnotationhadAUX
+
+#Rule:V-HeadNoun
+r21runningVBGtrialsNNS
+r21hadAUXresultsNNS
+
+#Rule:PPinNP
+r26numbersNNSofINpatientsNNS
+
+#Rule:PPinVP
+r30runningVBGforINmelanomaLocationAnnotation
+r30hadAUXinINnumbersNNS
+
+# The Dr running these successful trials is Dr Steven Rosenberg.
+#(S1 (S (NP (NP (DT The) (NNP Dr)) (VP (VBG running) (NP (DT these) (JJ successful) (NNS trials)))) (VP (AUX is) (NP (NNP Dr) (NNP Steven) (NNP Rosenberg))) (. .)))
+#Rule:Nouns
+r1DrNNP
+r1trialsNNS
+r1Dr Steven RosenbergPersonAnnotation
+
+#Rule:Verbs
+r2runningVBG
+
+#Rule:Adjs
+r4successfulJJ
+
+#Rule:Adj-Noun
+r5successfulJJtrialsNNS
+
+#Rule:HeadNoun-V
+r11DrNNPisAUX
+r11DrNNPrunningVBG
+
+#Rule:V-HeadNoun
+r21runningVBGtrialsNNS
+r21isAUXDr Steven RosenbergPersonAnnotation
+
+#Rule:IS-RULE
+r47Dr Steven RosenbergPersonAnnotationDrNNP
+
+# Here is an article on the trials.
+#(S1 (SINV (ADVP (RB Here)) (VP (AUX is)) (NP (NP (DT an) (NN article)) (PP (IN on) (NP (DT the) (NNS trials)))) (. .)))
+#Rule:Nouns
+r1articleNN
+r1trialsNNS
+
+#Rule:PPinNP
+r26articleNNonINtrialsNNS
+
+#http://www.
+#(S1 (NP (NP (NNP http)) (: :) (NP (CD //www)) (. .)))
+#Rule:Nouns
+r1http://wwwLocationAnnotation
+
+#sfgate.
+#(S1 (S (VP (VB sfgate)) (. .)))
+#Rule:Verbs
+r2sfgateOrganizationAnnotation
+
+#com/cgi-bin/article.
+#(S1 (FRAG (ADJP (JJ com/cgi-bin/article)) (. .)))
+#Rule:Adjs
+r4com/cgi-bin/articleJJ
+
+#cgi?file=/c/a/2006/09/01/MNGBLKTIDK1.
+#(S1 (INTJ (UH cgi) (. ?) (UH file=/c/a/2006/09/01/MNGBLKTIDK1) (. .)))
+#DTLHere is a link for all of the NIH clinical trials for melanoma.
+#(S1 (S (NP (NNP DTLHere)) (VP (AUX is) (NP (NP (DT a) (NN link)) (PP (IN for) (NP (NP (DT all)) (PP (IN of) (NP (NP (DT the) (NNP NIH) (JJ clinical) (NNS trials)) (PP (IN for) (NP (NN melanoma))))))))) (. .)))
+#Rule:Nouns
+r1DTLHereOrganizationAnnotation
+r1linkNN
+r1the NIHOrganizationAnnotation
+r1trialsNNS
+r1melanomaLocationAnnotation
+
+#Rule:Adjs
+r4clinicalJJ
+
+#Rule:Adj-Noun
+r5clinicalJJtrialsNNS
+
+#Rule:HeadNoun-V
+r11DTLHereOrganizationAnnotationisAUX
+
+#Rule:V-HeadNoun
+r21isAUXlinkNN
+
+#Rule:PPinNP
+r26linkNNforINallDT
+r26allDTofINtrialsNNS
+r26trialsNNSforINmelanomaLocationAnnotation
+
+#Rule:IS-RULE
+r47linkNNDTLHereOrganizationAnnotation
+
+# Look into the the trials run by Dr Rosenberg.
+#(S1 (S (VP (VB Look) (PP (IN into) (NP (NP (DT the) (DT the) (NNS trials)) (VP (VBN run) (PP (IN by) (NP (NNP Dr) (NNP Rosenberg))))))) (. .)))
+#Rule:Nouns
+r1trialsNNS
+r1Dr RosenbergPersonAnnotation
+
+#Rule:Verbs
+r2lookVB
+r2runVBN
+
+#Rule:V-By-Agent
+r13Dr RosenbergPersonAnnotationrunVBN
+
+#Rule:V-HeadNoun(passive)
+r24runVBNtrialsNNS
+
+#Rule:PPinVP
+r30lookVBintoINtrialsNNS
+
+# http://www.
+#(S1 (NP (NP (NNP http)) (: :) (NP (CD //www)) (. .)))
+#Rule:Nouns
+r1http://wwwLocationAnnotation
+
+#cancer.
+#(S1 (FRAG (NP (NN cancer)) (. .)))
+#Rule:Nouns
+r1cancerNN
+
+#gov/search/ResultsClinicalTrials.
+#(S1 (S (VP (VBZ gov/search/ResultsClinicalTrials)) (. .)))
+#Rule:Verbs
+r2gov/search/ResultsClinicalTrialsOrganizationAnnotation
+
+#aspx?
+#(S1 (INTJ (UH aspx) (. ?)))
+#protocolsearchid=3467801good luck to your mom hospice infohttp://www.
+#(S1 (NP (NP (NP (JJ protocolsearchid=3467801good) (NN luck)) (PP (TO to) (NP (PRP$ your) (NN mom) (NN hospice) (NN infohttp)))) (: :) (NP (NN //www)) (. .)))
+#Rule:Nouns
+r1luckNN
+r1momNN
+r1hospiceNN
+r1infohttp://wwwOrganizationAnnotation
+
+#Rule:Adjs
+r4protocolsearchid=3467801goodJJ
+
+#Rule:Adj-Noun
+r5protocolsearchid=3467801goodJJluckNN
+
+#Rule:PRP-Noun
+r6yourPRP$infohttp://wwwOrganizationAnnotation
+
+#Rule:N-HeadNoun
+r8hospiceNNinfohttp://wwwOrganizationAnnotation
+r8momNNinfohttp://wwwOrganizationAnnotation
+
+#Rule:PPinNP
+r26luckNNtoTOinfohttp://wwwOrganizationAnnotation
+
+#hospicenet.
+#(S1 (S (VP (VB hospicenet)) (. .)))
+#Rule:Verbs
+r2hospicenetVB
+
+#org/html/preparing_for.
+#(S1 (NP (FW org/html/preparing_for) (. .)))
+#htmlgood luck to you both
+#(S1 (S (NP (NNP htmlgood)) (VP (NN luck) (PP (TO to) (NP (NP (PRP you)) (NP (DT both)))))))
+#Rule:Nouns
+r1htmlgoodNNP
+r1luckNN
+
+@lemmas-left	UCLA	gov/search/ResultsClinicalTrials	treatment	city	center	California	htmlgood	help	are	located	she	Hope	her	right	option	protocolsearchid=3467801good	transfer	hospice	health	mom	largest	further	record	Dr	records	small	review	hospital	go	getting	link	line	run	running	hospicenet	patient	patients	numbers	Drs	current	MD Anderson	pick	do	clinical	DTLHere	trial	want	dr	options	look	d	sfgate	Illinois	melanoma	City	i	article	sorryThe National Institutes of Health	opinion.	impressive	testing	successful	cancer	second	being	com/cgi-bin/article	good	type	Dr Steven Rosenberg	has	surgery	Dr Rosenberg	medical	level	results	opinion	had	trials	live	be	sure	http://www	get	hospital.	luck	Texas	willing	referrals	Northwestern	lives	lymphoma I	example	this	make	infohttp://www	large	insurance	lymphoma clinic	call	result	the NIH	Stanford	other	have	metastatic	referral	state	stage	transferring	was	realistic	area	mean	locate	all	major	top	is	it	in.	needless	your	you	in	know	drs	hospitals	see	
+@lemmas-right	sometimes	anywhere	being	Dr Steven Rosenberg	has	surgery	center	California	help	are	results	she	Hope	only	opinion	her	right	had	trials	option	be	live	transfer	hospital.	luck	Also	Texas	referrals	record	Northwestern	Dr	lives	lymphoma I	records	infohttp://www	hospital	review	go	insurance	lymphoma clinic	result	call	Sometimes	Stanford	have	link	referral	run	running	was	transferring	patients	patient	area	numbers	mean	MD Anderson	pick	DTLHere	trial	all	want	dr	top	options	just	is	d	Illinois	melanoma	i	hospitals	see	opinion.	testing	also	
+@lemmas-center	to	of	for	into	about	at	on	in	whether	

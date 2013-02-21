@@ -1,0 +1,35 @@
+#Why did we evolve with two little nose holes instead of just one big hole to breathe through?
+#(S1 (SBARQ (WHADVP (WRB Why)) (SQ (AUX did) (NP (PRP we)) (VP (VB evolve) (PP (IN with) (NP (NP (CD two) (JJ little) (NN nose) (NNS holes)) (PP (RB instead) (IN of) (NP (QP (RB just) (CD one)) (JJ big) (NN hole) (S (VP (TO to) (VP (VB breathe) (PRT (RP through))))))))))) (. ?)))
+#Rule:Nouns
+r1noseNN
+r1holesNNS
+r1holeNN
+
+#Rule:Verbs
+r2evolveVB
+
+#Rule:V-PRT
+r3breatheVBthroughRP
+
+#Rule:Adjs
+r4littleJJ
+r4bigJJ
+
+#Rule:Adj-Noun
+r5twoCDholesNNS
+r5littleJJholesNNS
+r5oneCDholeNN
+r5bigJJholeNN
+
+#Rule:N-HeadNoun
+r8noseNNholesNNS
+
+#Rule:PPinNP
+r26holesNNSofINholeNN
+
+#Rule:PPinVP
+r30evolveVBwithINholesNNS
+
+@lemmas-left	two	breathe	one	little	big	nose	evolve	holes	hole	
+@lemmas-right	through	holes	hole	
+@lemmas-center	of	with	

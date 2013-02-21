@@ -1,0 +1,35 @@
+#How does radiotheraby work on brain tumors??
+#(S1 (SBARQ (WHADVP (WRB How)) (SQ (VP (AUX does) (NP (NP (NN radiotheraby) (NN work)) (PP (IN on) (NP (NN brain) (NNS tumors))))) (. ?)) (. ?)))
+#Rule:Nouns
+r1radiotherabyNN
+r1workNN
+r1brainNN
+r1tumorsNNS
+
+#Rule:N-HeadNoun
+r8radiotherabyNNworkNN
+r8brainNNtumorsNNS
+
+#Rule:V-HeadNoun
+r21doesAUXworkNN
+
+#Rule:PPinNP
+r26workNNonINtumorsNNS
+
+#My dad has one, unfortunately.
+#(S1 (S (NP (PRP$ My) (NN dad)) (VP (AUX has) (NP (NP (CD one)) (, ,) (ADVP (RB unfortunately)))) (. .)))
+#Rule:Nouns
+r1dadNN
+
+#Rule:PRP-Noun
+r6myPRP$dadNN
+
+#Rule:HeadNoun-V
+r11dadNNhasAUX
+
+#Rule:V-HeadNoun
+r21hasAUXoneCD
+
+@lemmas-left	does	work	dad	have	radiotheraby	do	tumors	tumor	my	brain	has	
+@lemmas-right	work	dad	have	one	tumors	tumor	has	
+@lemmas-center	on	

@@ -1,0 +1,28 @@
+#how do you remve genital warts? 
+#(S1 (SBARQ (WHADVP (WRB how)) (SQ (AUX do) (NP (PRP you)) (VP (VB remve) (NP (JJ genital) (NNS warts)))) (. ?)))
+#Rule:Nouns
+r1wartsNNS
+
+#Rule:Verbs
+r2remveVB
+
+#Rule:Adjs
+r4genitalJJ
+
+#Rule:Adj-Noun
+r5genitalJJwartsNNS
+
+#Rule:V-HeadNoun
+r21remveVBwartsNNS
+
+#thank you?
+#(S1 (SQ (VP (VB thank) (NP (PRP you))) (. ?)))
+#Rule:Verbs
+r2thankVB
+
+#Rule:V-HeadNoun
+r21thankVByouPRP
+
+@lemmas-left	thank	warts	wart	remve	genital	
+@lemmas-right	warts	you	wart	
+@lemmas-center	

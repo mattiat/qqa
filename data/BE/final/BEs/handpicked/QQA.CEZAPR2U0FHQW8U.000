@@ -1,0 +1,205 @@
+#how to do the splits?
+#(S1 (FRAG (SBAR (WHADVP (WRB how)) (S (VP (TO to) (VP (AUX do) (NP (DT the) (VBZ splits)))))) (. ?)))
+#Rule:Verbs
+r2splitsVBZ
+
+#Rule:V-HeadNoun
+r21doAUXsplitsVBZ
+
+#okay well i wanna learn how to do the splits.i m about 8-9 inches off the ground. what are some ways i can do the splits? 
+#(S1 (S (INTJ (UH okay) (UH well)) (NP (PRP i)) (ADVP (NNP wanna)) (VP (VBP learn) (SBAR (WHADVP (WRB how)) (S (VP (TO to) (VP (AUX do) (NP (DT the) (JJ splits.i) (NNP m)) (PP (IN about) (NP (NP (CD 8-9) (NNS inches)) (PP (IN off) (NP (DT the) (NN ground.))))) (SBAR (WHNP (WP what)) (S (VP (AUX are) (NP (NP (DT some) (NNS ways)) (SBAR (S (NP (PRP i)) (VP (MD can) (VP (AUX do) (NP (DT the) (VBZ splits))))))))))))))) (. ?)))
+#Rule:Nouns
+r1wannaLocationAnnotation
+r1mNNP
+r1inchesNNS
+r1groundNN
+r1waysNNS
+
+#Rule:Verbs
+r2learnVBP
+r2splitsVBZ
+
+#Rule:Adjs
+r4splits.iJJ
+
+#Rule:Adj-Noun
+r5splits.iJJmNNP
+r58-9CDinchesNNS
+
+#Rule:HeadNoun-V
+r11iPRPlearnVBP
+r11iPersonAnnotationdoAUX
+
+#Rule:V-HeadNoun
+r21doAUXmNNP
+r21areAUXwaysNNS
+r21doAUXsplitsVBZ
+
+#Rule:PPinNP
+r26inchesNNSoffINgroundNN
+
+#Rule:PPinVP
+r30doAUXaboutINinchesNNS
+
+#im not in a huge rush, but i dont want it to take like half a year. if u know what i mean.and i wanna learn how to do a toe touch..soo will doing the splits help with that? 
+#(S1 (S (NP (NNS im)) (RB not) (PP (IN in) (NP (DT a) (JJ huge) (NN rush))) (, ,) (CC but) (S (NP (PRP i)) (VP (VBP dont) (SBAR (S (VP (VBP want) (S (NP (PRP it)) (VP (TO to) (VP (VB take) (PP (IN like) (NP (PDT half) (DT a) (NN year.))) (S (IN if) (NP (NNP u)) (VP (VB know) (SBAR (WHNP (WP what)) (S (NP (PRP i)) (VP (VBP mean.and) (SBAR (S (NP (PRP i)) (VP (NNP wanna) (VP (VBP learn) (SBAR (WHADVP (WRB how)) (S (VP (TO to) (VP (AUX do) (NP (NP (DT a) (NN toe) (NN touch)) (SBAR (S (NP (JJ ..) (NNP soo)) (VP (MD will) (S (VP (VBG doing) (SBAR (DT the) (S (VP (VBZ splits) (NP (NN help)) (PP (IN with) (NP (DT that))))))))))))))))))))))))))))))))) (. ?)))
+#Rule:Nouns
+r1imNNS
+r1rushNN
+r1yearNN
+r1uNNP
+r1wannaNNP
+r1toeNN
+r1touchNN
+r1sooNNP
+r1helpNN
+
+#Rule:Verbs
+r2dontVBP
+r2wantVBP
+r2takeVB
+r2knowVB
+r2mean.andVBP
+r2learnVBP
+r2doingVBG
+r2splitsVBZ
+
+#Rule:Adjs
+r4hugeJJ
+r4..JJ
+
+#Rule:Adj-Noun
+r5hugeJJrushNN
+r5..JJsooNNP
+
+#Rule:N-HeadNoun
+r8toeNNtouchNN
+
+#Rule:HeadNoun-V
+r11iPersonAnnotationdontVBP
+r11itPRPtakeVB
+r11uNNPknowVB
+r11i meOrganizationAnnotationmean.andVBP
+r11iPersonAnnotationlearnVBP
+
+#Rule:V-HeadNoun
+r21doAUXtouchNN
+r21splitsVBZhelpNN
+
+#Rule:V-HeadNoun
+r22wantVBPitPRP
+r22takeVBuNNP
+
+#Rule:PPinVP
+r30takeVBlikeINyearNN
+r30splitsVBZwithINthatDT
+
+#Rule:PPinS
+r36dontVBPinINrushNN
+
+#and what are some daily excersizes to learn to do the toe toucH?
+#(S1 (SBARQ (CC and) (WHNP (WP what)) (SQ (VP (AUX are) (NP (DT some) (JJ daily) (NNS excersizes) (S (VP (TO to) (VP (VB learn) (S (VP (TO to) (VP (AUX do) (NP (DT the) (NN toe) (NN toucH))))))))))) (. ?)))
+#Rule:Nouns
+r1excersizesNNS
+r1toe toucHLocationAnnotation
+
+#Rule:Verbs
+r2learnVB
+
+#Rule:Adjs
+r4dailyJJ
+
+#Rule:Adj-Noun
+r5dailyJJexcersizesNNS
+
+#Rule:V-HeadNoun
+r21areAUXexcersizesNNS
+r21doAUXtoe toucHLocationAnnotation
+
+#This is what i  already do everyday. 
+#(S1 (S (NP (DT This)) (VP (AUX is) (SBAR (WHNP (WP what)) (S (NP (PRP i)) (ADVP (RB already)) (VP (AUX do) (ADJP (JJ everyday)))))) (. .)))
+#Rule:Adjs
+r4everydayJJ
+
+#Rule:HeadNoun-V
+r11thisDTisAUX
+r11iLocationAnnotationdoAUX
+
+#Rule:V-ADV
+r46doAUXalreadyRB
+
+#(just started a couple weeks ago)::i sit down and spread my legs out. then i lean in forward and try to lean in as far as i can.what else can i do? 
+#(S1 (S (PRN (-LRB- -LRB-) (VP (ADVP (RB just)) (VBD started) (ADVP (NP (DT a) (JJ couple) (NNS weeks)) (RB ago))) (-RRB- -RRB-)) (VP (VB ::) (S (NP (PRP i)) (VP (VP (VB sit) (ADVP (RB down))) (CC and) (VP (VBD spread) (NP (PRP$ my) (NNS legs) (NN out.)) (ADVP (RB then)) (SBAR (S (NP (PRP i)) (VP (VP (VBP lean) (PRT (RP in)) (ADVP (RB forward))) (CC and) (VP (VBP try) (S (VP (TO to) (VP (VB lean) (PRT (RP in)) (ADVP (ADVP (RB as) (RB far)) (SBAR (IN as) (S (NP (PRP i)) (VP (VBP can.what) (SBAR (RB else) (MD can) (S (NP (PRP i)) (VP (AUX do))))))))))))))))))) (. ?)))
+#Rule:Nouns
+r1weeksNNS
+r1legsNNS
+r1outNN
+
+#Rule:Verbs
+r2startedVBD
+r2::VB
+r2sitVB
+r2spreadVBD
+r2tryVBP
+r2can.whatVBP
+
+#Rule:V-PRT
+r3leanVBPinRP
+r3leanVBinRP
+
+#Rule:Adjs
+r4coupleJJ
+
+#Rule:Adj-Noun
+r5coupleJJweeksNNS
+
+#Rule:PRP-Noun
+r6myPRP$outNN
+
+#Rule:N-HeadNoun
+r8legsNNSoutNN
+
+#Rule:HeadNoun-V
+r11iPRPsitVB
+r11iPRPspreadVBD
+r11iPRPleanVBP
+r11iPRPtryVBP
+r11iLocationAnnotationcan.whatVBP
+r11iPersonAnnotationdoAUX
+
+#Rule:V-HeadNoun
+r21spreadVBDoutNN
+
+#Rule:V-HeadNoun
+r22::VBiPRP
+
+#Rule:V-V
+r44tryVBPleanVB
+
+#Rule:V-ADV
+r46startedVBDjustRB
+r46startedVBDagoRB
+r46sitVBdownRB
+r46spreadVBDthenPersonAnnotation
+r46leanVBPforwardRB
+r46leanVBasRB
+r46leanVBfarRB
+
+#orr is this enough?
+#(S1 (S (NP (NNP orr)) (VP (AUX is) (NP (DT this) (NN enough))) (. ?)))
+#Rule:Nouns
+r1orrNNP
+r1enoughNN
+
+#Rule:HeadNoun-V
+r11orrNNPisAUX
+
+#Rule:V-HeadNoun
+r21isAUXenoughNN
+
+#Rule:IS-RULE
+r47enoughNNorrNNP
+
+@lemmas-left	everyday	enough	out.	help	are	i me	splits	..	year	wanna	be	learn	soo	lean	huge	mean.and	touch	excersizes	dont	start	8-9	doing	split	::	this	try	ways	toe	orr	ground	ground.	couple	can.what	do	want	splits.i	is	rush	it	inch	m	im	my	know	daily	weeks	i	sit	toe toucH	u	take	inches	year.	legs	started	spread	week	out	
+@lemmas-right	orr	ground	enough	out.	help	ground.	forward	splits	can.what	do	year	be	just	is	rush	it	inch	far	as	learn	already	soo	m	in	know	weeks	i	lean	sit	that	toe toucH	u	mean.and	touch	excersizes	dont	take	then	inches	year.	split	down	spread	ago	try	out	week	ways	
+@lemmas-center	with	about	off	like	in	

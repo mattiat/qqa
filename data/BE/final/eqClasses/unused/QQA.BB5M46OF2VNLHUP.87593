@@ -1,0 +1,222 @@
+BE: cureNN
+EQ class: remedynn	curativenn	therapeuticnn	
+
+BE: cancerNN
+EQ class: cancerousjj	malignant_neoplastic_diseasenn	
+
+BE: cancerNN
+EQ class: cancerousjj	malignant_neoplastic_diseasenn	
+
+BE: phraseNN
+EQ class: phrasaljj	
+
+BE: mutationsOrganizationAnnotation
+EQ class: 
+
+BE: findVB
+EQ class: chancevb	happenvb	encountervb	bumpvb	
+
+BE: possibleJJ
+EQ class: possiblenessnn	possibilitynn	
+
+BE: catch-allJJ
+EQ class: alljj	
+
+BE: dangerousJJ
+EQ class: dangerousnessnn	dangernn	unsafejj	
+
+BE: cellularJJ
+EQ class: cellnn	
+
+BE: catch-allJJphraseNN
+EQ class: catch-alljjphrasaljj	alljjphrasenn	alljjphrasaljj	
+
+BE: dangerousJJmutationsOrganizationAnnotation
+EQ class: dangernnmutationsorganizationannotation	dangerousnessnnmutationsorganizationannotation	unsafejjmutationsorganizationannotation	
+
+BE: cellularJJmutationsOrganizationAnnotation
+EQ class: cellnnmutationsorganizationannotation	
+
+BE: itPRPisAUX
+EQ class: itprpbeaux	
+
+BE: cancerNNisAUX
+EQ class: cancernnbeaux	cancerousjjisaux	malignant_neoplastic_diseasennbeaux	malignant_neoplastic_diseasennisaux	cancerousjjbeaux	
+
+BE: findVBcureNN
+EQ class: discoverynnofinremedynn	happenvbcurenn	findernnofinremedynn	findernnofincurenn	findnnofinremedynn	chancevbremedynn	happenvbremedynn	breakthroughnnofincurenn	encountervbcurativenn	findernnofintherapeuticnn	findnnofincurenn	findvbremedynn	discoverynnofincurativenn	happenvbtherapeuticnn	bumpvbtherapeuticnn	findvbcurativenn	breakthroughnnofincurativenn	chancevbcurativenn	discoverynnofintherapeuticnn	findvbtherapeuticnn	chancevbtherapeuticnn	findnnofintherapeuticnn	discoverynnofincurenn	breakthroughnnofintherapeuticnn	happenvbcurativenn	bumpvbcurenn	encountervbremedynn	encountervbtherapeuticnn	bumpvbcurativenn	bumpvbremedynn	findernnofincurativenn	findnnofincurativenn	encountervbcurenn	breakthroughnnofinremedynn	chancevbcurenn	
+
+BE: isAUXphraseNN
+EQ class: beauxphrasenn	isauxphrasaljj	beauxphrasaljj	
+
+BE: isAUXpossibleJJ
+EQ class: beauxpossibilitynn	beauxpossiblenessnn	beauxpossiblejj	isauxpossiblenessnn	isauxpossibilitynn	
+
+BE: cureNNforINcancerNN
+EQ class: malignant_neoplastic_diseasenntherapeuticnn	curevbmalignant_neoplastic_diseasenn	cancerousjjcurativenn	healvbmalignant_neoplastic_diseasenn	remedynnforincancerousjj	cancerousjjtherapeuticnn	curevbcancernn	therapeuticnnforincancerousjj	cancernncurenn	cancernnhealvb	curennforincancerousjj	cancernnbring_aroundvb	malignant_neoplastic_diseasenncurenn	curativennforincancernn	bring_aroundvbcancerousjj	malignant_neoplastic_diseasennremedynn	curevbcancerousjj	cancernncurativenn	curativennforinmalignant_neoplastic_diseasenn	bring_aroundvbcancernn	healvbcancernn	therapeuticnnforincancernn	cancerousjjcurevb	cancerousjjcurenn	malignant_neoplastic_diseasennhealvb	curennforinmalignant_neoplastic_diseasenn	remedynnforinmalignant_neoplastic_diseasenn	remedynnforincancernn	cancerousjjremedynn	malignant_neoplastic_diseasenncurativenn	cancernnremedynn	cancerousjjbring_aroundvb	malignant_neoplastic_diseasenncurevb	cancerousjjhealvb	bring_aroundvbmalignant_neoplastic_diseasenn	cancernncurevb	curativennforincancerousjj	cancernntherapeuticnn	malignant_neoplastic_diseasennbring_aroundvb	healvbcancerousjj	therapeuticnnforinmalignant_neoplastic_diseasenn	
+
+BE: phraseNNforINmutationsOrganizationAnnotation
+EQ class: mutationsorganizationannotationphrasaljj	mutationsorganizationannotationgive_voicevb	articulatevbmutationsorganizationannotation	mutationsorganizationannotationarticulatevb	mutationsorganizationannotationphrasevb	wordvbmutationsorganizationannotation	phrasalvbmutationsorganizationannotation	mutationsorganizationannotationwordvb	phrasaljjforinmutationsorganizationannotation	mutationsorganizationannotationphrasalvb	phrasevbmutationsorganizationannotation	give_voicevbmutationsorganizationannotation	mutationsorganizationannotationphrasenn	mutationsorganizationannotationformulatevb	formulatevbmutationsorganizationannotation	
+
+BE: isAUXbecauseINisAUX
+EQ class: beauxbecauseinbeaux	beauxbecauseinisaux	isauxbecauseinbeaux	
+
+BE: isAUXnotRB
+EQ class: beauxnotrb	
+
+BE: isAUXjustRB
+EQ class: beauxjustrb	
+
+BE: phraseNNcancerNN
+EQ class: phrasennofincancerousjj	cancernnphrasevb	cancerousjjphrasevb	phrasenncancerousjj	phrasaljjofincancerousjj	malignant_neoplastic_diseasennphrasenn	phrasingnnofinmalignant_neoplastic_diseasenn	phrasaljjcancerousjj	cancernnphrasaljj	malignant_neoplastic_diseasenngive_voicevb	phrasennofincancernn	phrasennofinmalignant_neoplastic_diseasenn	phrasaljjofincancernn	cancerousjjphrasaljj	phrasingnnofincancernn	cancernnformulatevb	cancerousjjphrasenn	cancerousjjarticulatevb	phrasennmalignant_neoplastic_diseasenn	phrasaljjmalignant_neoplastic_diseasenn	malignant_neoplastic_diseasennwordvb	cancerousjjformulatevb	cancerousjjgive_voicevb	malignant_neoplastic_diseasennphrasaljj	malignant_neoplastic_diseasennformulatevb	cancernnwordvb	phrasaljjofinmalignant_neoplastic_diseasenn	cancerousjjwordvb	cancernnarticulatevb	cancernngive_voicevb	malignant_neoplastic_diseasennarticulatevb	phrasingnnofincancerousjj	cancernnphrasenn	malignant_neoplastic_diseasennphrasevb	phrasaljjcancernn	
+
+BE: genesNNS
+EQ class: factornns	cistronnns	genenns	geneticaljj	geneticjj	theynns	themnns	genicjj	
+
+BE: genomeNN
+EQ class: 
+
+BE: cellsNNS
+EQ class: cellnns	cellularjj	theynns	themnns	
+
+BE: growthNN
+EQ class: growingnn	ontogenesisnn	maturationnn	developmentnn	ontogenynn	
+
+BE: cancerNN
+EQ class: cancerousjj	malignant_neoplastic_diseasenn	
+
+BE: knowVBP
+EQ class: cognizevbp	cognisevbp	
+
+BE: mutatedVBN
+EQ class: mutatevbn	
+
+BE: causeVB
+EQ class: makevb	dovb	
+
+BE: resultingVBG
+EQ class: resultvbg	ensuevbg	
+
+BE: humanJJ
+EQ class: humannessnn	humanitynn	humannn	
+
+BE: explosiveJJ
+EQ class: explosivenn	
+
+BE: humanJJgenomeNN
+EQ class: humannessnngenomenn	humannngenomenn	humanitynngenomenn	
+
+BE: explosiveJJgrowthNN
+EQ class: explosivennontogenesisnn	explosivejjontogenynn	explosivejjdevelopmentnn	explosivejjmaturationnn	explosivennontogenynn	turnvbexplosivelyrb	explosivennmaturationnn	explosivenndevelopmentnn	explosivenngrowingnn	explosivenngrowthnn	growvbexplosivelyrb	explosivejjontogenesisnn	explosivejjgrowingnn	
+
+BE: thereEXareAUX
+EQ class: thereexbeaux	
+
+BE: cellsNNShaveAUX
+EQ class: havennofintheynns	theynnshave_gotaux	wealthy_personnnofintheynns	wealthy_personnnofincellnns	theynnshaveaux	cellnnsholdaux	cellsnnsholdaux	rich_personnnofincellularjj	rich_personnnofincellnns	havennofincellsnns	cellnnshaveaux	havennofincellularjj	theynnsholdaux	themnnsholdaux	themnnshaveaux	cellularjjhaveaux	rich_personnnofinthemnns	wealthy_personnnofincellularjj	havennofincellnns	havennofinthemnns	cellsnnshave_gotaux	wealthy_personnnofinthemnns	cellnnshave_gotaux	themnnshave_gotaux	wealthy_personnnofincellsnns	cellularjjholdaux	rich_personnnofincellsnns	cellularjjhave_gotaux	rich_personnnofintheynns	
+
+BE: knowVBPgenesNNS
+EQ class: knowingnnofinthemnns	cognisevbpgeneticaljj	apprehendernnofingeneticaljj	knowablennofingeneticaljj	apprehendernnofincistronnns	knowingnnofingenicjj	cognisevbpcistronnns	knowablennofingenenns	knowingnnofincistronnns	knowvbptheynns	knowernnofincistronnns	cognizevbpcistronnns	apprehendernnofintheynns	cognizevbpgenenns	cognizevbpfactornns	knowvbpgenicjj	knowablennofingenesnns	knowernnofingenicjj	knowablennofinfactornns	knowvbpgenenns	cognizevbpgeneticaljj	apprehendernnofinfactornns	knowingnnofingenenns	knowvbpthemnns	cognisevbpgeneticjj	knowablennofinthemnns	cognisevbpfactornns	knowernnofingenenns	knowablennofingeneticjj	apprehendernnofingenenns	knowernnofingeneticjj	apprehendernnofingenesnns	cognizevbpgenicjj	cognisevbpthemnns	apprehendernnofingeneticjj	knowingnnofingenesnns	knowvbpgeneticaljj	knowvbpfactornns	knowablennofingenicjj	knowernnofintheynns	knowingnnofinfactornns	knowvbpcistronnns	cognisevbpgenenns	cognizevbpgeneticjj	cognisevbptheynns	knowernnofinfactornns	knowernnofinthemnns	knowablennofintheynns	knowablennofincistronnns	knowingnnofingeneticaljj	knowingnnofintheynns	cognizevbpgenesnns	cognisevbpgenicjj	cognisevbpgenesnns	knowernnofingeneticaljj	cognizevbpthemnns	knowingnnofingeneticjj	apprehendernnofinthemnns	cognizevbptheynns	apprehendernnofingenicjj	knowvbpgeneticjj	knowernnofingenesnns	
+
+BE: haveAUXgrowthNN
+EQ class: wealthy_personnnofinmaturationnn	holdauxgrowthnn	have_gotauxontogenesisnn	holdauxgrowingnn	haveauxontogenesisnn	wealthy_personnnofindevelopmentnn	haveauxmaturationnn	have_gotauxdevelopmentnn	have_gotauxmaturationnn	holdauxontogenynn	haveauxdevelopmentnn	havennofingrowingnn	rich_personnnofingrowthnn	havennofingrowthnn	rich_personnnofinmaturationnn	haveauxontogenynn	havennofinontogenynn	haveauxgrowingnn	holdauxontogenesisnn	havennofinontogenesisnn	wealthy_personnnofinontogenesisnn	rich_personnnofindevelopmentnn	havennofindevelopmentnn	have_gotauxgrowingnn	holdauxmaturationnn	wealthy_personnnofinontogenynn	havennofinmaturationnn	rich_personnnofinontogenesisnn	have_gotauxontogenynn	wealthy_personnnofingrowingnn	have_gotauxgrowthnn	rich_personnnofingrowingnn	rich_personnnofinontogenynn	wealthy_personnnofingrowthnn	holdauxdevelopmentnn	
+
+BE: causeVBcellsNNS
+EQ class: dovbcellsnns	causaljjofinthemnns	makevbcellnns	causingnnofinthemnns	causationnnofincellularjj	causaljjofintheynns	causevbthemnns	causationnnofinthemnns	dovbcellnns	causationnnofincellsnns	causevbtheynns	causativennofincellsnns	makevbthemnns	causingnnofincellularjj	causingnnofincellnns	causationnnofincellnns	causativennofincellularjj	causennofincellnns	dovbthemnns	dovbtheynns	causennofincellularjj	causingnnofincellsnns	causingnnofintheynns	causaljjofincellnns	causevbcellnns	causennofinthemnns	causevbcellularjj	causativennofintheynns	causaljjofincellsnns	dovbcellularjj	causativennofincellnns	makevbtheynns	makevbcellularjj	causationnnofintheynns	makevbcellsnns	causennofincellsnns	causaljjofincellularjj	causennofintheynns	causativennofinthemnns	
+
+BE: mutatedVBNoneCD
+EQ class: mutantjjofinacecd	sportnnofin1cd	mutantnnofinicd	sportnnofinsinglecd	mutationaljjofinunitycd	mutatevbnonecd	mutantnnofinsinglecd	mutantnnofin1cd	mutantnnofinacecd	mutationaljjofinacecd	mutatedvbnicd	variationnnofinsinglecd	sportnnofinunitycd	mutationnnofin1cd	mutatedvbn1cd	variationnnofinunitycd	mutationnnofinonecd	mutatedvbnacecd	mutationnnofinacecd	mutationaljjofinsinglecd	mutantnnofinunitycd	mutativennofin1cd	mutationaljjofin1cd	sportnnofinacecd	mutativennofinacecd	mutatevbn1cd	variationnnofinacecd	mutantjjofinonecd	mutativennofinonecd	mutantjjofinunitycd	mutantjjofin1cd	mutantjjofinicd	mutativennofinicd	sportnnofinicd	mutationaljjofinonecd	variationnnofinonecd	mutatevbnunitycd	mutatevbnacecd	sportnnofinonecd	variationnnofin1cd	variationnnofinicd	mutatevbnicd	mutatedvbnunitycd	mutatedvbnsinglecd	mutantjjofinsinglecd	mutativennofinunitycd	mutationnnofinunitycd	mutationaljjofinicd	mutationnnofinicd	mutationnnofinsinglecd	mutatevbnsinglecd	mutativennofinsinglecd	mutantnnofinonecd	
+
+BE: genesNNSinINgenomeNN
+EQ class: genomenngeneticalvb	genomenngenicvb	geneticvbgenomenn	factornnsiningenomenn	genicjjiningenomenn	genomenncistronnns	genennsiningenomenn	themnnsiningenomenn	genomenngenicjj	genomenngeneticjj	genicvbgenomenn	theynnsiningenomenn	geneticaljjiningenomenn	genomennfactornns	genomenngeneticaljj	genomenngeneticvb	genomenngenesnns	genomennthemnns	cistronnnsiningenomenn	genomenngenenns	genomenntheynns	geneticalvbgenomenn	geneticjjiningenomenn	
+
+BE: oneCDofINthoseDT
+EQ class: icdofinthosedt	thosedticd	thosedtacecd	thosedt1cd	1cdofinthosedt	thosedtonecd	unitycdofinthosedt	singlecdofinthosedt	thosedtsinglecd	acecdofinthosedt	thosedtunitycd	
+
+BE: areAUXoverIN10000CD
+EQ class: beauxoverinten_thousandcd	areauxoverinten_thousandcd	areauxoverinmyriadcd	beauxoverinmyriadcd	beauxoverin10000cd	
+
+BE: resultingVBGinINcancerNN
+EQ class: resultvbgininmalignant_neoplastic_diseasenn	ensuevbginincancerousjj	ensuevbginincancernn	resultingvbginincancerousjj	ensuevbgininmalignant_neoplastic_diseasenn	resultvbginincancernn	resultvbginincancerousjj	resultingvbgininmalignant_neoplastic_diseasenn	
+
+BE: mutatedVBNcauseVB
+EQ class: mutationaljjofincausevb	mutantjjofinmakevb	mutatedvbnmakevb	sportnnofindovb	mutantjjofincausevb	mutantjjofindovb	mutantnnofindovb	sportnnofincausevb	sportnnofinmakevb	mutatedvbndovb	mutationnnofindovb	variationnnofindovb	mutatevbncausevb	mutationaljjofinmakevb	mutantnnofincausevb	variationnnofincausevb	mutativennofinmakevb	mutativennofincausevb	mutantnnofinmakevb	mutationnnofincausevb	mutatevbndovb	mutatevbnmakevb	mutationaljjofindovb	mutationnnofinmakevb	mutativennofindovb	variationnnofinmakevb	
+
+BE: mutationNN
+EQ class: sportnn	variationnn	mutantnn	mutationaljj	
+
+BE: cureNN
+EQ class: remedynn	curativenn	therapeuticnn	
+
+BE: needsVBZ
+EQ class: involvevbz	demandvbz	requirevbz	askvbz	postulatevbz	necessitatevbz	takevbz	needvbz	call_forvbz	
+
+BE: differentJJ
+EQ class: differencenn	
+
+BE: differentJJ
+EQ class: differencenn	
+
+BE: differentJJmutationNN
+EQ class: differentjjvariationnn	differencennmutantnn	mutatevbdifferentlyrb	mutationalvbdifferentlyrb	differencennvariationnn	differencennmutationnn	differencennmutationaljj	differentjjmutationaljj	differencennsportnn	differentjjmutantnn	differentjjsportnn	
+
+BE: differentJJcureNN
+EQ class: curevbdifferentlyrb	differencenncurenn	healvbdifferentlyrb	differentjjcurativenn	differentjjremedynn	differencennremedynn	differencenntherapeuticnn	bring_aroundvbdifferentlyrb	differentjjtherapeuticnn	differencenncurativenn	
+
+BE: mutationNNneedsVBZ
+EQ class: mutationnnrequirevbz	variationnnpostulatevbz	mutationaljjpostulatevbz	mutationnnpostulatevbz	variationnndemandvbz	mutationaljjnecessitatevbz	mutantnndemandvbz	sportnncall_forvbz	mutantnnrequirevbz	sportnnneedsvbz	mutantnnaskvbz	sportnninvolvevbz	mutationnninvolvevbz	mutationnntakevbz	mutationaljjdemandvbz	variationnnaskvbz	sportnnpostulatevbz	demandnnofinsportnn	neednnofinmutationaljj	mutationnnneedvbz	neednnofinmutantnn	sportnnnecessitatevbz	mutationaljjrequirevbz	variationnnneedvbz	mutationnncall_forvbz	mutationaljjneedsvbz	mutationnnnecessitatevbz	mutationaljjtakevbz	mutationaljjaskvbz	sportnndemandvbz	demandnnofinmutantnn	neednnofinsportnn	mutantnninvolvevbz	variationnnnecessitatevbz	mutantnncall_forvbz	mutantnnneedvbz	mutationnnaskvbz	variationnnrequirevbz	mutationaljjinvolvevbz	neednnofinmutationnn	variationnninvolvevbz	neednnofinvariationnn	sportnntakevbz	mutantnntakevbz	variationnncall_forvbz	sportnnaskvbz	demandnnofinvariationnn	mutationaljjcall_forvbz	sportnnneedvbz	mutantnnneedsvbz	demandnnofinmutationaljj	variationnntakevbz	demandnnofinmutationnn	variationnnneedsvbz	mutationaljjneedvbz	mutationnndemandvbz	mutantnnpostulatevbz	sportnnrequirevbz	mutantnnnecessitatevbz	
+
+BE: needsVBZcureNN
+EQ class: requirevbztherapeuticnn	needvbzremedynn	call_forvbztherapeuticnn	takevbzcurativenn	demandvbztherapeuticnn	postulatevbzremedynn	necessitatevbzremedynn	involvevbzcurenn	necessitatevbzcurativenn	necessitatevbztherapeuticnn	needsvbztherapeuticnn	askvbzcurativenn	takevbzcurenn	takevbztherapeuticnn	demandnnofincurenn	demandnnofincurativenn	call_forvbzremedynn	needsvbzremedynn	demandvbzcurenn	involvevbzcurativenn	postulatevbztherapeuticnn	askvbztherapeuticnn	call_forvbzcurenn	involvevbzremedynn	needvbztherapeuticnn	neednnofintherapeuticnn	postulatevbzcurativenn	involvevbztherapeuticnn	requirevbzcurenn	demandvbzcurativenn	askvbzcurenn	postulatevbzcurenn	needvbzcurenn	neednnofincurativenn	call_forvbzcurativenn	requirevbzremedynn	demandvbzremedynn	demandnnofinremedynn	takevbzremedynn	necessitatevbzcurenn	needsvbzcurativenn	askvbzremedynn	neednnofincurenn	demandnnofintherapeuticnn	needvbzcurativenn	requirevbzcurativenn	neednnofinremedynn	
+
+BE: cancersNNS
+EQ class: cancernns	cancerousjj	theynns	malignant_neoplastic_diseasenns	themnns	
+
+BE: othersNNS
+EQ class: theynns	themnns	
+
+BE: endNN
+EQ class: terminalnn	
+
+BE: sightNN
+EQ class: 
+
+BE: controllingVBG
+EQ class: commandvbg	controlvbg	
+
+BE: closeJJ
+EQ class: closenessnn	
+
+BE: specificJJ
+EQ class: 
+
+BE: specificJJcancersNNS
+EQ class: specificjjcancerousjj	specificjjmalignant_neoplastic_diseasenns	specificjjcancernns	specificjjthemnns	specificjjtheynns	
+
+BE: theyPRPareAUX
+EQ class: mutationsprpbeaux	othersprpbeaux	genesprpbeaux	othersprpareaux	cellsprpbeaux	cellsprpareaux	theyprpbeaux	cancersprpareaux	mutationsprpareaux	cancersprpbeaux	genesprpareaux	
+
+BE: thereEXisAUX
+EQ class: thereexbeaux	
+
+BE: controllingVBGcancersNNS
+EQ class: controlnnofinmalignant_neoplastic_diseasenns	controllingvbgcancernns	commandvbgtheynns	commandvbgcancernns	controlvbgmalignant_neoplastic_diseasenns	comptrollernnofincancerousjj	commandvbgcancerousjj	controlvbgtheynns	comptrollernnofincancernns	commandvbgthemnns	accountantnnofincancersnns	comptrollernnofintheynns	accountantnnofinmalignant_neoplastic_diseasenns	controllernnofinmalignant_neoplastic_diseasenns	controllernnofincancersnns	accountantnnofincancerousjj	controllingvbgtheynns	commandvbgmalignant_neoplastic_diseasenns	controlvbgcancerousjj	controllingvbgmalignant_neoplastic_diseasenns	controlvbgcancernns	comptrollernnofinthemnns	controllernnofincancerousjj	comptrollernnofincancersnns	controllingvbgcancerousjj	controlnnofintheynns	controllernnofinthemnns	controllernnofincancernns	controlvbgcancersnns	controlnnofincancerousjj	accountantnnofintheynns	controlvbgthemnns	comptrollernnofinmalignant_neoplastic_diseasenns	commandvbgcancersnns	controllingvbgthemnns	accountantnnofincancernns	controllernnofintheynns	controlnnofincancersnns	accountantnnofinthemnns	controlnnofinthemnns	controlnnofincancernns	
+
+BE: isAUXendNN
+EQ class: beauxterminalnn	isauxterminalnn	beauxendnn	
+
+BE: areAUXcloseJJ
+EQ class: beauxclosejj	beauxclosenessnn	areauxclosenessnn	
+
+BE: endNNinINsightNN
+EQ class: sightnnendnn	sightnnfinishvb	endvbsightnn	sightnnceasevb	stopvbsightnn	terminalnnininsightnn	terminatevbsightnn	sightnnterminatevb	ceasevbsightnn	finishvbsightnn	sightnnendvb	sightnnstopvb	sightnnterminalnn	
+
+BE: isAUXforINothersNNS
+EQ class: beauxforinthemnns	isauxforintheynns	beauxforintheynns	isauxforinthemnns	beauxforinothersnns	
+
+BE: closeJJtoTOcontrollingVBG
+EQ class: controllingvbgcloselyrb	closejjtotocontrolvbg	controlvbgcloselyrb	closejjtotocommandvbg	closenessnntotocontrolvbg	commandvbgcloselyrb	closenessnntotocommandvbg	closenessnntotocontrollingvbg	
+
+BE: theyPRPcontrollingVBG
+EQ class: accountantnnmutationsprp	othersprpcommandvbg	genesprpcontrolvbg	controllernnofincancersprp	comptrollernngenesprp	controllernnofinothersprp	othersprpcontrolvbg	mutationsprpcontrollingvbg	controllernnofinmutationsprp	cellsprpcommandvbg	commandvbgcancersprp	accountantnnofinothersprp	controllernncellsprp	comptrollernnofingenesprp	comptrollernnofintheyprp	accountantnnofinmutationsprp	accountantnncancersprp	controllernncancersprp	controlnnofinothersprp	controllernnofintheyprp	controllernnothersprp	accountantnnofingenesprp	cancersprpcontrolvbg	accountantnnofintheyprp	controllingvbgcellsprp	controlvbgcancersprp	comptrollernncellsprp	commandvbggenesprp	genesprpcommandvbg	comptrollernnmutationsprp	comptrollernnofinothersprp	controllernnofincellsprp	comptrollernntheyprp	accountantnnofincellsprp	controllingvbgcancersprp	controllingvbggenesprp	mutationsprpcommandvbg	controllernngenesprp	controlvbgtheyprp	cellsprpcontrolvbg	theyprpcommandvbg	controlvbggenesprp	controlnnofingenesprp	commandvbgothersprp	controllernntheyprp	controllingvbgtheyprp	commandvbgcellsprp	cellsprpcontrollingvbg	othersprpcontrollingvbg	commandvbgmutationsprp	cancersprpcommandvbg	cancersprpcontrollingvbg	commandvbgtheyprp	controlvbgmutationsprp	controllingvbgmutationsprp	controllernnofingenesprp	accountantnnofincancersprp	comptrollernnofincellsprp	controlvbgcellsprp	comptrollernncancersprp	controllernnmutationsprp	theyprpcontrolvbg	mutationsprpcontrolvbg	accountantnngenesprp	controlnnofincancersprp	comptrollernnothersprp	controllingvbgothersprp	controlvbgothersprp	controlnnofincellsprp	comptrollernnofincancersprp	genesprpcontrollingvbg	controlnnofinmutationsprp	controlnnofintheyprp	accountantnnothersprp	accountantnntheyprp	accountantnncellsprp	comptrollernnofinmutationsprp	
+

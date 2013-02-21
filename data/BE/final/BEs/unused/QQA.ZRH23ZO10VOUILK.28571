@@ -1,0 +1,85 @@
+#Because us Americans copied the English when they were using our current system of measurement. 
+#(S1 (S (PP (IN Because) (NP (PRP us))) (NP (NNPS Americans)) (VP (VBN copied) (NP (DT the) (NNP English)) (SBAR (WHADVP (WRB when)) (S (NP (PRP they)) (VP (AUX were) (VP (VBG using) (NP (NP (PRP$ our) (JJ current) (NN system)) (PP (IN of) (NP (NN measurement))))))))) (. .)))
+#Rule:Nouns
+r1AmericansNNPS
+r1EnglishNNP
+r1systemNN
+r1measurementNN
+
+#Rule:Verbs
+r2copiedVBN
+r2usingVBG
+
+#Rule:Adjs
+r4currentJJ
+
+#Rule:Adj-Noun
+r5currentJJsystemNN
+
+#Rule:PRP-Noun
+r6ourPRP$systemNN
+
+#Rule:HeadNoun-V
+r11theyPRPusingVBG
+
+#Rule:V-HeadNoun
+r21copiedVBNEnglishNNP
+r21usingVBGsystemNN
+
+#Rule:V-HeadNoun(passive)
+r24copiedVBNAmericansNNPS
+
+#Rule:PPinNP
+r26systemNNofINmeasurementNN
+
+#Rule:PPinS
+r36copiedVBNbecauseINusPRP
+
+#But sometime over the years, the English changed to Metrics, and we decided to stick to our way of measuring. 
+#(S1 (S (CC But) (PP (ADVP (RB sometime)) (IN over) (NP (DT the) (NNS years))) (, ,) (S (NP (DT the) (NNP English)) (VP (VBD changed) (PP (TO to) (NP (NNS Metrics))))) (, ,) (CC and) (S (NP (PRP we)) (VP (VBD decided) (S (VP (TO to) (VP (VB stick) (PP (TO to) (NP (NP (PRP$ our) (NN way)) (PP (IN of) (S (VP (VBG measuring))))))))))) (. .)))
+#Rule:Nouns
+r1yearsNNS
+r1EnglishNNP
+r1MetricsOrganizationAnnotation
+r1wayNN
+
+#Rule:Verbs
+r2changedVBD
+r2decidedVBD
+r2stickVB
+r2measuringVBG
+
+#Rule:PRP-Noun
+r6ourPRP$wayNN
+
+#Rule:HeadNoun-V
+r11EnglishNNPchangedVBD
+r11wePRPdecidedVBD
+
+#Rule:PPinVP
+r30changedVBDtoTOMetricsOrganizationAnnotation
+r30stickVBtoTOwayNN
+
+#Rule:PPinS
+r36changedVBDoverINyearsNNS
+
+#Rule:V-V
+r44decidedVBDstickVB
+
+#Maybe we are lazy or something.
+#(S1 (S (ADVP (RB Maybe)) (NP (PRP we)) (VP (AUX are) (UCP (JJ lazy) (CC or) (NN something))) (. .)))
+#Rule:Nouns
+r1somethingNN
+
+#Rule:Adjs
+r4lazyJJ
+
+#Rule:HeadNoun-V
+r11wePRPareAUX
+
+#Rule:V-ADV
+r46areAUXMaybeRB
+
+@lemmas-left	they	decide	using	stick	measure	change	use	way	changed	measuring	are	american	current	something	be	copy	copied	English	measurement	decided	system	Metrics	lazy	years	Americans	our	english	we	
+@lemmas-right	decide	using	stick	maybe	change	use	way	us	English	measurement	changed	decided	system	are	Metrics	american	years	Americans	english	Maybe	be	
+@lemmas-center	to	because	of	over	

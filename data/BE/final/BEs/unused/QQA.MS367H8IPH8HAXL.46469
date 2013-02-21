@@ -1,0 +1,78 @@
+#The Storm likes a number of these wrestlers. 
+#(S1 (S (NP (DT The) (NN Storm)) (VP (VBZ likes) (NP (NP (DT a) (NN number)) (PP (IN of) (NP (DT these) (NNS wrestlers))))) (. .)))
+#Rule:Nouns
+r1StormNN
+r1numberNN
+r1wrestlersNNS
+
+#Rule:Verbs
+r2likesVBZ
+
+#Rule:HeadNoun-V
+r11StormNNlikesVBZ
+
+#Rule:V-HeadNoun
+r21likesVBZnumberNN
+
+#Rule:PPinNP
+r26numberNNofINwrestlersNNS
+
+#Heres The Storms ratings:Hulk Hogan - 4Ric Flair - 8Roddy Piper - 7Ultimate Warrior - 5Bret Hart - 9Shawn Michaels - 9Stone Cold - 8The Rock - 8Triple H - 8Chris Benoit - 8Eddie Guerrero - 6Undertaker - 9Kane - 7John Cena - 4Randy Orton - 6Batista - 5Mr. 
+#(S1 (S (NP (NNS Heres)) (NP (NP (NP (DT The) (NNS Storms) (NNS ratings)) (: :) (NP (NN Hulk) (NNP Hogan))) (: -) (NP (NP (JJ 4Ric) (NN Flair)) (: -) (NP (JJ 8Roddy) (NNP Piper))) (: -)) (VP (VB 7Ultimate) (NP (NP (NP (NN Warrior)) (: -) (NP (NP (JJ 5Bret) (NNP Hart) (PRN (: -) (NP (NP (JJ 9Shawn) (NNP Michaels)) (: -) (NP (JJ 9Stone) (NNP Cold)) (: -) (NP (NN 8The) (NNP Rock)) (: -) (NP (JJ 8Triple) (NNP H))) (: -) (ADVP (FW 8Chris) (FW Benoit)) (: -)) (NN 8Eddie)) (NP (NNP Guerrero))) (: -) (NP (NN 6Undertaker)) (: -) (NP (NN 9Kane)) (: -) (NP (VBG 7John) (NNP Cena) (PRN (: -) (NP (JJ 4Randy) (NNP Orton)) (: -)) (NN 6Batista))) (: -) (NP (CD 5Mr)))) (. .)))
+#Rule:Nouns
+r1HeresNNS
+r1StormsNNS
+r1ratingsNNS
+r1Hulk HoganPersonAnnotation
+r14Ric FlairPersonAnnotation
+r18Roddy PiperPersonAnnotation
+r1WarriorNN
+r1HartPersonAnnotation
+r19Shawn Michaels - 9Stone ColdOrganizationAnnotation
+r18TheNN
+r1Rock - 8Triple HOrganizationAnnotation
+r18Eddie GuerreroPersonAnnotation
+r16Undertaker - 9KanePersonAnnotation
+r17John CenaPersonAnnotation
+r14Randy OrtonPersonAnnotation
+r16BatistaLocationAnnotation
+
+#Rule:Verbs
+r27ultimateVB
+
+#Rule:Adjs
+r45BretJJ
+
+#Rule:Adj-Noun
+r55BretJJ8Eddie GuerreroPersonAnnotation
+r57John CenaPersonAnnotation6BatistaLocationAnnotation
+
+#Rule:N-HeadNoun
+r8StormsNNSratingsNNS
+r88TheNNRock - 8Triple HOrganizationAnnotation
+
+#Rule:HeadNoun-V
+r11HeresNNS7ultimateVB
+r11ratingsNNS7ultimateVB
+r11Hulk HoganPersonAnnotation7ultimateVB
+r114Ric FlairPersonAnnotation7ultimateVB
+r118Roddy PiperPersonAnnotation7ultimateVB
+
+#Rule:V-HeadNoun
+r217ultimateVBWarriorNN
+
+#Kennedy - 8The Great Khali - 3Big Show - 6
+#(S1 (FRAG (NP (NNP Kennedy)) (: -) (NP (NP (NN 8The) (NNP Great) (NNP Khali)) (: -) (NP (NNP 3Big) (NNP Show)) (: -) (NP (CD 6)))))
+#Rule:Nouns
+r1KennedyPersonAnnotation
+r18TheNN
+r1GreatNNP
+r1Khali - 3Big ShowOrganizationAnnotation
+
+#Rule:N-HeadNoun
+r8GreatNNPKhali - 3Big ShowOrganizationAnnotation
+r88TheNNKhali - 3Big ShowOrganizationAnnotation
+
+@lemmas-left	5bret	8The	7ultimate	7John Cena	ultimate	4Ric Flair	storm	Storms	Storm	4Randy Orton	wrestler	9Shawn Michaels - 9Stone Cold	Kennedy	Warrior	Rock - 8Triple H	5Bret	8Roddy Piper	Hart	6Undertaker - 9Kane	here	number	8the	like	8Eddie Guerrero	warrior	Khali - 3Big Show	Great	Hulk Hogan	great	wrestlers	likes	6Batista	rating	ratings	Heres	
+@lemmas-right	Rock - 8Triple H	7ultimate	number	ultimate	like	wrestler	8Eddie Guerrero	warrior	Khali - 3Big Show	wrestlers	likes	6Batista	rating	Warrior	ratings	
+@lemmas-center	of	

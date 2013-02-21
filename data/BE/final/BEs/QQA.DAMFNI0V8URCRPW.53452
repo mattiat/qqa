@@ -1,0 +1,245 @@
+#i guess it has to do with identification with the characters, scenes, contexts etc.
+#(S1 (S (NP (PRP i)) (VP (VBP guess) (SBAR (S (NP (PRP it)) (VP (AUX has) (S (VP (TO to) (VP (AUX do) (PP (IN with) (NP (NN identification))) (PP (IN with) (NP (DT the) (NX (NX (NNS characters)) (, ,) (NX (NNS scenes)) (, ,) (FW contexts) (FW etc))))))))))) (. .)))
+#Rule:Nouns
+r1identificationNN
+r1charactersNNS
+r1scenesNNS
+
+#Rule:Verbs
+r2guessVBP
+
+#Rule:HeadNoun-V
+r11iPRPguessVBP
+r11itPRPhasAUX
+
+#Rule:PPinVP
+r30doAUXwithINidentificationNN
+r30doAUXwithINcharactersNNS
+
+# they are possible and probable and they evoke our own fears because can picture ourselves in those circumstances.
+#(S1 (S (S (NP (PRP they)) (VP (AUX are) (ADJP (JJ possible) (CC and) (JJ probable)))) (CC and) (S (NP (PRP they)) (VP (VBD evoke) (NP (PRP$ our) (JJ own) (NNS fears)) (SBAR (IN because) (S (VP (MD can) (VP (VBP picture) (NP (PRP ourselves)) (PP (IN in) (NP (DT those) (NNS circumstances))))))))) (. .)))
+#Rule:Nouns
+r1fearsNNS
+r1circumstancesNNS
+
+#Rule:Verbs
+r2evokeVBD
+r2pictureVBP
+
+#Rule:Adjs
+r4possibleJJ
+r4probableJJ
+r4ownJJ
+
+#Rule:Adj-Noun
+r5ownJJfearsNNS
+
+#Rule:PRP-Noun
+r6ourPRP$fearsNNS
+
+#Rule:HeadNoun-V
+r11theyPRPareAUX
+r11theyPRPevokeVBD
+
+#Rule:V-HeadNoun
+r21evokeVBDfearsNNS
+r21pictureVBPourselvesPRP
+
+#Rule:V-ADJ
+r25areAUXpossibleJJ
+
+#Rule:PPinVP
+r30pictureVBPinINcircumstancesNNS
+
+#Rule:V-IN-V
+r43evokeVBDbecauseINpictureVBP
+
+# of course a lot other effects are deployed to spice even simple plots eg music, visual lighting, misdirection to achieve horror effects.
+#(S1 (S (PP (IN of) (NP (NN course))) (NP (NP (DT a) (NN lot)) (JJ other) (NNS effects)) (VP (AUX are) (VP (VBN deployed) (S (VP (TO to) (VP (NN spice) (NP (NP (RB even) (JJ simple) (NNS plots)) (VP (VBG eg) (NP (NN music))))))) (, ,) (S (NP (JJ visual) (NN lighting) (, ,) (NN misdirection)) (VP (TO to) (VP (VB achieve) (NP (NN horror) (NNS effects))))))) (. .)))
+#Rule:Nouns
+r1courseNN
+r1lotNN
+r1effectsNNS
+r1spiceNN
+r1plotsNNS
+r1musicNN
+r1lightingNN
+r1misdirectionNN
+r1horrorNN
+r1effectsNNS
+
+#Rule:Verbs
+r2deployedVBN
+r2egVBG
+r2achieveVB
+
+#Rule:Adjs
+r4otherJJ
+r4simpleJJ
+r4visualJJ
+
+#Rule:Adj-Noun
+r5otherJJeffectsNNS
+r5simpleJJplotsNNS
+r5visualJJmisdirectionNN
+
+#Rule:N-HeadNoun
+r8horrorNNeffectsNNS
+
+#Rule:HeadNoun-V
+r11plotsNNSegVBG
+r11misdirectionNNachieveVB
+
+#Rule:V-HeadNoun
+r21spiceNNplotsNNS
+r21egVBGmusicNN
+r21achieveVBeffectsNNS
+
+#Rule:V-HeadNoun
+r22deployedVBNmisdirectionNN
+
+#Rule:V-HeadNoun(passive)
+r23deployedVBNeffectsNNS
+r23deployedVBNlotNN
+
+#Rule:PPinS
+r36areAUXofINcourseNN
+
+# look at mulholland drive or amity-ville.
+#(S1 (S (VP (VB look) (PP (IN at) (NP (JJ mulholland) (NN drive) (CC or) (NN amity-ville)))) (. .)))
+#Rule:Nouns
+r1driveNN
+r1amity-villeNN
+
+#Rule:Verbs
+r2lookVB
+
+#Rule:Adjs
+r4mulhollandJJ
+
+#Rule:Adj-Noun
+r5mulhollandJJdriveNN
+
+#Rule:PPinVP
+r30lookVBatINdriveNN
+
+# watch them in mute.
+#(S1 (S (VP (VB watch) (NP (PRP them)) (PP (IN in) (ADJP (JJ mute)))) (. .)))
+#Rule:Verbs
+r2watchVB
+
+#Rule:Adjs
+r4muteJJ
+
+#Rule:V-HeadNoun
+r21watchVBthemPRP
+
+# no scare just strolling about.
+#(S1 (S (NP (DT no) (NN scare)) (ADVP (RB just)) (VP (VBG strolling) (PP (IN about))) (. .)))
+#Rule:Nouns
+r1scareNN
+
+#Rule:Verbs
+r2strollingVBG
+
+#Rule:HeadNoun-V
+r11scareNNstrollingVBG
+
+#Rule:V-ADV
+r46strollingVBGjustRB
+
+# am not sure but experience has a lot to do with it.
+#(S1 (S (S (VP (AUX am) (RB not) (ADJP (JJ sure)))) (CC but) (S (NP (NN experience)) (VP (AUX has) (NP (NP (DT a) (NN lot)) (SBAR (S (VP (TO to) (VP (AUX do) (PP (IN with) (NP (PRP it)))))))))) (. .)))
+#Rule:Nouns
+r1experienceNN
+r1lotNN
+
+#Rule:Adjs
+r4sureJJ
+
+#Rule:HeadNoun-V
+r11experienceNNhasAUX
+
+#Rule:HeadNoun-(who/that)-V
+r14lotNNdoAUX
+
+#Rule:V-HeadNoun
+r21hasAUXlotNN
+
+#Rule:PPinVP
+r30doAUXwithINitPRP
+
+#Rule:V-ADV
+r46amAUXnotRB
+
+# imagination also plays a role.
+#(S1 (S (NP (NN imagination)) (ADVP (RB also)) (VP (VBZ plays) (NP (DT a) (NN role))) (. .)))
+#Rule:Nouns
+r1imaginationNN
+r1roleNN
+
+#Rule:Verbs
+r2playsVBZ
+
+#Rule:HeadNoun-V
+r11imaginationNNplaysVBZ
+
+#Rule:V-HeadNoun
+r21playsVBZroleNN
+
+#Rule:V-ADV
+r46playsVBZalsoRB
+
+# it all works as long as we can identify with  what we see and hear that already lies hidden in the castle of our skin.
+#(S1 (S (NP (PRP it)) (DT all) (VP (VBZ works) (ADVP (ADVP (RB as) (RB long)) (SBAR (IN as) (S (NP (PRP we)) (VP (MD can) (VP (VB identify) (PP (IN with) (SBAR (WHNP (WP what)) (S (NP (PRP we)) (VP (VBP see) (CC and) (VBP hear) (SBAR (IN that) (S (ADVP (RB already)) (VP (VBZ lies) (PP (VBN hidden) (PP (IN in) (NP (NP (DT the) (NN castle)) (PP (IN of) (NP (PRP$ our) (NN skin))))))))))))))))))) (. .)))
+#Rule:Nouns
+r1castleNN
+r1skinNN
+
+#Rule:Verbs
+r2worksVBZ
+r2identifyVB
+r2seeVBP
+r2hearVBP
+r2liesVBZ
+r2hiddenVBN
+
+#Rule:PRP-Noun
+r6ourPRP$skinNN
+
+#Rule:HeadNoun-V
+r11itPRPworksVBZ
+r11wePRPidentifyVB
+r11wePRPseeVBP
+
+#Rule:PPinNP
+r26castleNNofINskinNN
+
+#Rule:V-IN-V
+r43seeVBPthatINliesVBZ
+
+#Rule:V-ADV
+r46worksVBZasRB
+r46worksVBZlongRB
+r46liesVBZalreadyRB
+
+# a martian will not find it scary.
+#(S1 (S (NP (DT a) (NN martian)) (VP (MD will) (RB not) (VP (VB find) (S (NP (PRP it)) (ADJP (JJ scary))))) (. .)))
+#Rule:Nouns
+r1martianNN
+
+#Rule:Verbs
+r2findVB
+
+#Rule:Adjs
+r4scaryJJ
+
+#Rule:HeadNoun-V
+r11martianNNfindVB
+
+#Rule:V-HeadNoun
+r22findVBitPRP
+
+@lemmas-left	they	plays	strolling	skin	has	mulholland	course	hear	are	hide	drive	role	be	mute	sure	scary	work	evoke	identify	watch	effects	picture	probable	visual	fears	lot	scene	own	scare	characters	we	other	lies	have	spice	simple	deployed	achieve	deploy	imagination	character	plot	possible	scenes	do	experience	find	music	look	amity-ville	it	circumstances	play	martian	works	i	eg	stroll	plots	see	lighting	hidden	am	identification	guess	castle	our	horror	lie	fear	misdirection	
+@lemmas-right	lies	have	achieve	plays	long	strolling	skin	has	character	plot	course	possible	are	drive	role	do	find	be	work	just	music	evoke	it	ourselves	circumstances	identify	play	as	effects	already	works	not	picture	stroll	eg	plots	see	fears	them	identification	guess	lot	also	lie	characters	fear	misdirection	
+@lemmas-center	because	that	of	with	at	in	

@@ -1,0 +1,96 @@
+#Why am I always tired??
+#(S1 (SBARQ (WHADVP (WRB Why)) (SQ (AUX am) (NP (PRP I)) (ADVP (RB always)) (ADJP (JJ tired)) (. ?)) (. ?)))
+#Rule:Adjs
+r4tiredJJ
+
+#I have a reasonably good diet. I get exercise most days. I sleep for eight hours every night. And yet each morning I wake up and I am still so tired. Even at the weekend I am yawning. Is there anything I can do to make me less tired? I ve tried more sleep, less sleep, more exercise, less exercise..any ideas?
+#(S1 (S (NP (PRP I)) (VP (AUX have) (NP (NP (DT a) (ADJP (RB reasonably) (JJ good)) (NN diet.)) (SBAR (S (NP (PRP I)) (VP (VBP get) (NP (NP (NP (NN exercise)) (JJS most) (NN days.)) (SBAR (S (NP (PRP I)) (VP (VP (VBP sleep) (PP (IN for) (NP (NP (CD eight) (NNS hours)) (NP (DT every) (NN night.))))) (CC And) (VP (NP (RB yet) (DT each) (NN morning)) (S (NP (PRP I)) (VP (VBP wake) (PRT (RP up)) (SBAR (S (S (CC and) (NP (PRP I)) (VP (AUX am) (ADVP (RB still)) (ADJP (RB so) (VBN tired.)) (PP (ADVP (RB Even)) (IN at) (NP (NP (DT the) (NN weekend)) (SBAR (S (NP (PRP I)) (VP (AUX am) (VP (VBG yawning.) (SBAR (S (VP (AUX Is) (ADVP (RB there)) (NP (NP (NN anything)) (SBAR (S (NP (PRP I)) (VP (MD can) (VP (AUX do) (S (VP (TO to) (VP (VB make) (S (NP (PRP me)) (ADJP (RBR less) (JJ tired))))))))))))))))))))) (. ?)) (NP (PRP I)) (ADVP (RB ve)) (VP (VBD tried) (SBAR (S (NP (NP (JJR more) (NN sleep)) (, ,) (NP (JJR less) (NN sleep)) (, ,) (NP (JJR more) (NN exercise)) (, ,) (NP (JJR less) (NN exercise))) (VP (VBZ ..) (NP (DT any) (NNS ideas)))))))))))))))))))) (. ?)))
+#Rule:Nouns
+r1dietNN
+r1exerciseNN
+r1daysNN
+r1hoursNNS
+r1nightNN
+r1morningNN
+r1weekendNN
+r1anythingNN
+r1sleepNN
+r1sleepNN
+r1exerciseNN
+r1exerciseNN
+r1ideasNNS
+
+#Rule:Verbs
+r2getVBP
+r2sleepVBP
+r2tiredVBN
+r2yawningLocationAnnotation
+r2makeVB
+r2triedVBD
+r2..VBZ
+
+#Rule:V-PRT
+r3wakeVBPupRP
+
+#Rule:Adjs
+r4goodJJ
+r4mostJJS
+r4tiredJJ
+r4moreJJR
+r4lessJJR
+r4moreJJR
+r4lessJJR
+
+#Rule:Adj-Noun
+r5goodJJdietNN
+r5mostJJSdaysNN
+r5eightCDhoursNNS
+r5moreJJRsleepNN
+r5lessJJRsleepNN
+r5moreJJRexerciseNN
+r5lessJJRexerciseNN
+
+#Rule:N-ApposN
+r10sleepNNsleepNN
+
+#Rule:HeadNoun-V
+r11iPRPhaveAUX
+r11iPRPgetVBP
+r11iPRPsleepVBP
+r11iPRPwakeVBP
+r11iPRPtriedVBD
+r11iPRPamAUX
+r11iPRPyawningLocationAnnotation
+r11iPRPdoAUX
+r11sleepNN..VBZ
+r11sleepNN..VBZ
+r11exerciseNN..VBZ
+r11exerciseNN..VBZ
+
+#Rule:NP(NP(z) SBAR(S(NP(x)VP(y))))
+r19sleepVBPdaysNN
+r19yawningLocationAnnotationweekendNN
+
+#Rule:V-HeadNoun
+r21haveAUXdietNN
+r21getVBPdaysNN
+r21isAUXanythingNN
+r21..VBZideasNNS
+
+#Rule:V-HeadNoun
+r22morningNNiPRP
+r22makeVBmePRP
+
+#Rule:PPinVP
+r30sleepVBPforINhoursNNS
+r30sleepVBPforINnightNN
+r30amAUXatINweekendNN
+
+#Rule:V-ADV
+r46triedVBDveRB
+r46amAUXstillRB
+r46isAUXthereRB
+
+@lemmas-left	idea	diet	have	exercise	diet.	tried	most	good	eight	more	night.	wake	..	weekend	days.	less	be	ideas	is	get	hours	sleep	morning	tired.	i	anything	days	yawning	am	tired	night	make	try	
+@lemmas-right	idea	diet	have	tried	exercise	diet.	night.	wake	..	ve	weekend	do	me	days.	be	ideas	get	hours	still	sleep	up	i	anything	days	yawning	am	there	night	try	
+@lemmas-center	for	at	

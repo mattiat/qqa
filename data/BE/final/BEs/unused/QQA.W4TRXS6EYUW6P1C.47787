@@ -1,0 +1,96 @@
+#It s mostly a cultural decision.  
+#(S1 (S (NP (PRP It)) (VP (VBZ s) (ADVP (RB mostly)) (NP (DT a) (JJ cultural) (NN decision))) (. .)))
+#Rule:Nouns
+r1decisionNN
+
+#Rule:Verbs
+r2sVBZ
+
+#Rule:Adjs
+r4culturalJJ
+
+#Rule:Adj-Noun
+r5culturalJJdecisionNN
+
+#Rule:HeadNoun-V
+r11itPRPsVBZ
+
+#Rule:V-HeadNoun
+r21sVBZdecisionNN
+
+#Rule:V-ADV
+r46sVBZmostlyRB
+
+#If Dad is cut, Son generally gets cut.  
+#(S1 (S (SBAR (IN If) (S (NP (NNP Dad)) (VP (AUX is) (VP (VBN cut))))) (, ,) (NP (NNP Son)) (ADVP (RB generally)) (VP (VBZ gets) (VP (VBN cut))) (. .)))
+#Rule:Nouns
+r1DadOrganizationAnnotation
+r1SonNNP
+
+#Rule:Verbs
+r2cutVBN
+r2getsVBZ
+r2cutVBN
+
+#Rule:HeadNoun-V
+r11SonNNPgetsVBZ
+
+#Rule:V-HeadNoun(passive)
+r23cutVBNDadOrganizationAnnotation
+
+#Rule:V-HeadNoun(passive)
+r24cutVBNSonNNP
+
+#Rule:V-ADV
+r46getsVBZgenerallyRB
+
+#If Dad isn t cut, Sonisn t.  
+#(S1 (S (SBAR (IN If) (S (NP (NNP Dad)) (VP (VBZ isn) (NP (CD t) (NN cut))))) (, ,) (NP (NNP Sonisn)) (VP (VBZ t)) (. .)))
+#Rule:Nouns
+r1DadOrganizationAnnotation
+r1cutNN
+r1SLocationAnnotation
+
+#Rule:Verbs
+r2isnVBZ
+
+#Rule:Adj-Noun
+r5tCDcutNN
+
+#Rule:HeadNoun-V
+r11DadOrganizationAnnotationisnVBZ
+
+#Rule:V-HeadNoun
+r21isnVBZcutNN
+
+#The link can give you the American Academy of Pediatrics overview of these pros and cons.http://aappolicy.aappublications.org/cgi/content/full/pediatrics%3b103/3/686
+#(S1 (NP (NP (NP (DT The) (NN link)) (SBAR (S (VP (MD can) (VP (VB give) (NP (PRP you)) (NP (NP (DT the) (NAC (NNP American) (NNP Academy) (PP (IN of) (NP (NNP Pediatrics)))) (NN overview)) (PP (IN of) (NP (DT these) (NNS pros) (CC and) (NNS cons.http))))))))) (: :) (NP (NP (CD //aappolicy.aappublications.org/cgi/content/full/pediatrics) (NN %)) (NP (CD 3b103/3/686)))))
+#Rule:Nouns
+r1linkNN
+r1AmericanNNP
+r1AcademyNNP
+r1PediatricsNNP
+r1overviewNN
+r1prosNNS
+r1cons.httpLocationAnnotation
+r1%NN
+
+#Rule:Verbs
+r2giveVB
+
+#Rule:Adj-Noun
+r5//aappolicy.aappublications.org/cgi/content/full/pediatricsCD%NN
+
+#Rule:HeadNoun-(who/that)-V
+r14linkNNgiveVB
+
+#Rule:V-HeadNoun
+r21giveVByouPRP
+r21giveVBoverviewNN
+
+#Rule:PPinNP
+r26overviewNNofINprosNNS
+
+@lemmas-left	Academy	cons.http	give	link	cultural	//aappolicy.aappublications.org/cgi/content/full/pediatrics	decision	S	Dad	american	pediatrics	it	get	isn	Pediatrics	American	gets	%	son	pros	academy	t	s	overview	pro	Son	cut	
+@lemmas-right	get	isn	give	gets	%	you	son	pros	decision	overview	s	Dad	generally	pro	Son	cut	mostly	
+@lemmas-center	of	

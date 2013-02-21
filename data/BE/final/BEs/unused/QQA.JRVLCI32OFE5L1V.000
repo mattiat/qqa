@@ -1,0 +1,37 @@
+#how do you study effectively?
+#(S1 (SBARQ (WHADVP (WRB how)) (SQ (AUX do) (NP (PRP you)) (VP (VB study) (ADVP (RB effectively)))) (. ?)))
+#Rule:Verbs
+r2studyVB
+
+#Rule:V-ADV
+r46studyVBeffectivelyRB
+
+#how do you study faster and absorb the material better? 
+#(S1 (SBARQ (WHADVP (WRB how)) (SQ (AUX do) (NP (PRP you)) (VP (VP (VB study) (ADVP (RBR faster))) (CC and) (VP (VBP absorb) (NP (DT the) (NN material)) (ADVP (RB better))))) (. ?)))
+#Rule:Nouns
+r1materialNN
+
+#Rule:Verbs
+r2studyVB
+r2absorbVBP
+
+#Rule:V-HeadNoun
+r21absorbVBPmaterialNN
+
+#Rule:V-ADV
+r46absorbVBPbetterRB
+
+#any tips would be appreciated!
+#(S1 (S (NP (DT any) (NNS tips)) (VP (MD would) (VP (AUX be) (VP (VBN appreciated)))) (. !)))
+#Rule:Nouns
+r1tipsNNS
+
+#Rule:Verbs
+r2appreciatedVBN
+
+#Rule:V-HeadNoun(passive)
+r23appreciatedVBNtipsNNS
+
+@lemmas-left	appreciate	absorb	study	tips	appreciated	tip	material	
+@lemmas-right	effectively	better	tips	tip	material	
+@lemmas-center	

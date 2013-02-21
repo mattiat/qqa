@@ -1,0 +1,67 @@
+#the main reason is, people are lazythats the very nature of humanthe answer is that simple for the question that u asked and i believe no answer can match mine, so pick me as the best
+#(S1 (S (S (S (NP (DT the) (JJ main) (NN reason)) (VP (AUX is))) (, ,) (S (NP (NNS people)) (VP (AUX are) (NP (NP (NNS lazythats)) (SBAR (S (NP (NP (DT the) (JJ very) (NN nature)) (PP (IN of) (NP (NN humanthe) (NN answer)))) (VP (AUX is) (NP (NP (DT that) (NN simple)) (PP (IN for) (NP (DT the) (NN question)))))))) (SBAR (IN that) (S (NP (NNP u)) (VP (VBD asked)))))) (CC and) (S (NP (PRP i)) (VP (VBP believe) (SBAR (S (NP (DT no) (NN answer)) (VP (MD can) (VP (VB match) (NP (NN mine))))))))) (, ,) (ADVP (RB so)) (VP (VBP pick) (NP (PRP me)) (PP (IN as) (NP (DT the) (JJS best))))))
+#Rule:Nouns
+r1reasonNN
+r1peopleNNS
+r1lazythatsNNS
+r1natureNN
+r1humantheNN
+r1answerNN
+r1simpleNN
+r1questionNN
+r1uOrganizationAnnotation
+r1answerNN
+r1mineNN
+
+#Rule:Verbs
+r2askedVBD
+r2believeVBP
+r2matchVB
+r2pickVBP
+
+#Rule:Adjs
+r4mainJJ
+r4veryJJ
+r4bestJJS
+
+#Rule:Adj-Noun
+r5mainJJreasonNN
+r5veryJJnatureNN
+
+#Rule:N-HeadNoun
+r8humantheNNanswerNN
+
+#Rule:HeadNoun-V
+r11reasonNNisAUX
+r11peopleNNSareAUX
+r11natureNNisAUX
+r11uOrganizationAnnotationaskedVBD
+r11iLocationAnnotationbelieveVBP
+r11answerNNmatchVB
+
+#Rule:V-HeadNoun
+r21areAUXlazythatsNNS
+r21isAUXsimpleNN
+r21matchVBmineNN
+r21pickVBPmePRP
+
+#Rule:PPinNP
+r26natureNNofINanswerNN
+r26simpleNNforINquestionNN
+
+#Rule:PPinVP
+r30pickVBPasINbestJJS
+
+#Rule:V-IN-V
+r43areAUXthatINaskedVBD
+
+#Rule:V-ADV
+r46pickVBPsoRB
+
+#Rule:IS-RULE
+r47lazythatsNNSpeopleNNS
+r47simpleNNnatureNN
+
+@lemmas-left	asked	is	reason	simple	answer	believe	people	i	main	u	are	humanthe	nature	best	pick	mine	match	question	ask	lazythats	be	very	
+@lemmas-right	asked	is	so	reason	simple	answer	believe	people	are	nature	best	me	mine	question	match	ask	lazythats	be	
+@lemmas-center	that	of	for	as	

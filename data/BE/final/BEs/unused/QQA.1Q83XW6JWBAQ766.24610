@@ -1,0 +1,52 @@
+#The answer above completely sums it up..
+#(S1 (S (NP (DT The) (NN answer)) (SBAR (IN above) (S (ADVP (RB completely)) (VP (VBZ sums) (NP (PRP it)) (PRT (RP up))) (. .))) (. .)))
+#Rule:Nouns
+r1answerNN
+
+#Rule:Verbs
+r2sumsVBZ
+
+#Rule:V-PRT
+r3sumsVBZupRP
+
+#Rule:V-HeadNoun
+r21sumsVBZitPRP
+
+#Rule:V-ADV
+r46sumsVBZcompletelyRB
+
+#Vince Young and some crucial defensive stops won it for Texas
+#(S1 (S (NP (NP (NNP Vince) (NNP Young)) (CC and) (NP (DT some) (JJ crucial) (JJ defensive) (NNS stops))) (VP (VBD won) (NP (PRP it)) (PP (IN for) (NP (NNP Texas))))))
+#Rule:Nouns
+r1VinceNNP
+r1YoungOrganizationAnnotation
+r1stopsNNS
+r1TexasLocationAnnotation
+
+#Rule:Verbs
+r2wonVBD
+
+#Rule:Adjs
+r4crucialJJ
+r4defensiveJJ
+
+#Rule:Adj-Noun
+r5crucialJJstopsNNS
+r5defensiveJJstopsNNS
+
+#Rule:N-HeadNoun
+r8VinceNNPYoungOrganizationAnnotation
+
+#Rule:HeadNoun-V
+r11YoungOrganizationAnnotationwonVBD
+r11stopsNNSwonVBD
+
+#Rule:V-HeadNoun
+r21wonVBDitPRP
+
+#Rule:PPinVP
+r30wonVBDforINTexasLocationAnnotation
+
+@lemmas-left	stops	crucial	sums	Young	answer	Vince	sum	Texas	defensive	won	win	vince	
+@lemmas-right	stops	it	Young	Texas	won	win	completely	up	
+@lemmas-center	for	

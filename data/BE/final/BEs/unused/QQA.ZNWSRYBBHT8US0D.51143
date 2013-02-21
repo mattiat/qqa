@@ -1,0 +1,53 @@
+#Good question, never thought about it, hope you get good answers for me to read.  
+#(S1 (S (NP (NP (JJ Good) (NN question)) (, ,) (VP (ADVP (RB never)) (VBN thought) (PP (IN about) (NP (PRP it)))) (, ,)) (VP (VBP hope) (SBAR (S (NP (PRP you)) (VP (VBP get) (NP (JJ good) (NNS answers) (SBAR (IN for) (S (NP (PRP me)) (VP (TO to) (VP (VB read)))))))))) (. .)))
+#Rule:Nouns
+r1questionNN
+r1answersNNS
+
+#Rule:Verbs
+r2thoughtVBN
+r2hopeVBP
+r2getVBP
+r2readVB
+
+#Rule:Adjs
+r4GoodJJ
+r4goodJJ
+
+#Rule:Adj-Noun
+r5GoodJJquestionNN
+r5goodJJanswersNNS
+
+#Rule:HeadNoun-V
+r11questionNNhopeVBP
+r11youPRPgetVBP
+r11mePRPreadVB
+
+#Rule:V-HeadNoun
+r21getVBPanswersNNS
+
+#Rule:V-HeadNoun(passive)
+r24thoughtVBNquestionNN
+
+#Rule:PPinVP
+r32thoughtVBNaboutINitPRP
+
+#Rule:V-ADV
+r46thoughtVBNneverRB
+
+#Thanks for the points  xxxx
+#(S1 (NP (NP (NNS Thanks)) (PP (IN for) (NP (DT the) (NNS points) (NN xxxx)))))
+#Rule:Nouns
+r1ThanksNNS
+r1pointsNNS
+r1xxxxOrganizationAnnotation
+
+#Rule:N-HeadNoun
+r8pointsNNSxxxxOrganizationAnnotation
+
+#Rule:PPinNP
+r26ThanksNNSforINxxxxOrganizationAnnotation
+
+@lemmas-left	Good	think	get	xxxx	answer	answers	Thanks	thought	good	you	point	thanks	read	me	points	question	hope	
+@lemmas-right	never	it	get	xxxx	answers	answer	read	question	hope	
+@lemmas-center	for	about	

@@ -1,0 +1,28 @@
+#put your needs aside right now, and be there for your mother
+#(S1 (S (VP (VP (VB put) (NP (PRP$ your) (NNS needs)) (ADVP (RB aside)) (ADVP (RB right) (RB now))) (, ,) (CC and) (VP (AUX be) (ADVP (RB there)) (PP (IN for) (NP (PRP$ your) (NN mother)))))))
+#Rule:Nouns
+r1needsNNS
+r1motherNN
+
+#Rule:Verbs
+r2putVB
+
+#Rule:PRP-Noun
+r6yourPRP$needsNNS
+r6yourPRP$motherNN
+
+#Rule:V-HeadNoun
+r21putVBneedsNNS
+
+#Rule:PPinVP
+r30beAUXforINmotherNN
+
+#Rule:V-ADV
+r46putVBasideRB
+r46putVBrightRB
+r46putVBnowRB
+r46beAUXthereRB
+
+@lemmas-left	need	put	mother	needs	your	be	
+@lemmas-right	need	mother	now	needs	there	right	aside	
+@lemmas-center	for	

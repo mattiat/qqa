@@ -1,0 +1,27 @@
+#why does exercise lower your blood pressure?  
+#(S1 (SBARQ (WHADVP (WRB why)) (SQ (AUX does) (NP (NN exercise)) (VP (VB lower) (NP (PRP$ your) (NN blood) (NN pressure)))) (. ?)))
+#Rule:Nouns
+r1exerciseNN
+r1bloodNN
+r1pressureNN
+
+#Rule:Verbs
+r2lowerVB
+
+#Rule:PRP-Noun
+r6yourPRP$pressureNN
+
+#Rule:N-HeadNoun
+r8bloodNNpressureNN
+
+#Rule:V-HeadNoun
+r21lowerVBpressureNN
+
+#thanks.?
+#(S1 (FRAG (NP (NP (NNS thanks)) (. .)) (. ?)))
+#Rule:Nouns
+r1thanksNNS
+
+@lemmas-left	thanks	lower	pressure	your	exercise	blood	
+@lemmas-right	pressure	
+@lemmas-center	

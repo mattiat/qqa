@@ -1,0 +1,39 @@
+#:)wish everyone was as evolved as you!
+#(S1 (S (LST (: :)) (-RRB- -RRB-) (VP (VBP wish) (SBAR (S (NP (NN everyone)) (VP (AUX was) (SBAR (IN as) (S (VP (VBN evolved) (PP (IN as) (NP (PRP you)))))))))) (. !)))
+#Rule:Nouns
+r1everyoneNN
+
+#Rule:Verbs
+r2wishVBP
+r2evolvedVBN
+
+#Rule:HeadNoun-V
+r11everyoneNNwasAUX
+
+#Rule:PPinVP
+r32evolvedVBNasINyouPRP
+
+#Rule:V-IN-V
+r43wasAUXasINevolvedVBN
+
+#nice to know you ma m!!!
+#(S1 (FRAG (ADJP (JJ nice) (S (VP (TO to) (VP (VB know) (NP (PRP you)))))) (S (NP (NNP ma) (NNP m)) (VP (VBZ !!))) (. !)))
+#Rule:Nouns
+r1maNNP
+r1m!!!LocationAnnotation
+
+#Rule:Verbs
+r2knowVB
+
+#Rule:Adjs
+r4niceJJ
+
+#Rule:N-HeadNoun
+r8maNNPm!!!LocationAnnotation
+
+#Rule:V-HeadNoun
+r21knowVByouPRP
+
+@lemmas-left	wish	ma	nice	m!!!	everyone	know	evolved	evolve	was	be	
+@lemmas-right	you	m!!!	evolved	evolve	was	be	
+@lemmas-center	as	

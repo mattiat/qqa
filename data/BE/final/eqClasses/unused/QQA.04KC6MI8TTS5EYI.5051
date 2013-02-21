@@ -1,0 +1,201 @@
+BE: planningNN
+EQ class: 
+
+BE: leadershipNN
+EQ class: leadingnn	
+
+BE: divisionNN
+EQ class: divisionaljj	
+
+BE: rateNN
+EQ class: 
+
+BE: politiciansNNS
+EQ class: theynns	politiciannns	themnns	
+
+BE: distrustNN
+EQ class: mistrustnn	suspicionnn	misgivingnn	
+
+BE: armyNN
+EQ class: regular_armynn	ground_forcesnn	
+
+BE: fieldNN
+EQ class: 
+
+BE: BadLocationAnnotation
+EQ class: 
+
+BE: militaryJJ
+EQ class: military_sciencenn	
+
+BE: politicalJJ
+EQ class: 
+
+BE: thirdJJ
+EQ class: 3rdjj	tertiaryjj	
+
+BE: hostilityJJ
+EQ class: 
+
+BE: onlyJJ
+EQ class: lonesomejj	solejj	lonejj	solitaryjj	
+
+BE: hostilityJJmilitaryJJ
+EQ class: hostilityjjmilitary_sciencenn	
+
+BE: BadLocationAnnotationmilitaryJJ
+EQ class: badlocationannotationmilitary_sciencenn	
+
+BE: politicalJJdivisionNN
+EQ class: divisionalvbpoliticallyrb	politicaljjdivisionaljj	
+
+BE: thirdJJpoliticiansNNS
+EQ class: tertiaryjjtheynns	thirdjjtheynns	3rdjjpoliticiannns	tertiaryjjpoliticiansnns	tertiaryjjthemnns	thirdjjpoliticiannns	3rdjjpoliticiansnns	thirdjjthemnns	tertiaryjjpoliticiannns	3rdjjthemnns	3rdjjtheynns	politicsvbthirdlyrb	
+
+BE: onlyJJarmyNN
+EQ class: lonejjregular_armynn	lonesomejjground_forcesnn	solejjregular_armynn	lonesomejjarmynn	solitaryjjarmynn	lonejjarmynn	lonesomejjregular_armynn	solitaryjjregular_armynn	solejjground_forcesnn	onlyjjground_forcesnn	solitaryjjground_forcesnn	onlyjjregular_armynn	solejjarmynn	lonejjground_forcesnn	
+
+BE: rateNNpoliticiansNNS
+EQ class: politiciansnnsofinratenn	ratennthemnns	themnnsofinratenn	ratennpoliticsvb	ratennpoliticiannns	theynnsofinratenn	ratenntheynns	politiciannnsofinratenn	politicsvbratenn	
+
+BE: militaryJJdivisionNN
+EQ class: mobilisationnnofindivisionaljj	divisionaljjmilitarisevb	armed_servicesnnofindivisionaljj	divisionaljjmilitaryjj	armed_forcesnnofindivisionnn	armed_forcesnnofindivisionaljj	divisionnnmilitarizevb	militaryjjdivisionaljj	divisionalvbmilitarilyrb	armed_servicesnnofindivisionnn	militaristicjjofindivisionaljj	mobilizationnnofindivisionaljj	divisionaljjmilitarizevb	militarizationnnofindivisionaljj	mobilisationnnofindivisionnn	divisionnnmilitary_sciencenn	military_sciencenndivisionaljj	divisionnnmilitarisevb	military_machinennofindivisionaljj	mobilizationnnofindivisionnn	militarynnofindivisionnn	militarizationnnofindivisionnn	divisionaljjmilitary_sciencenn	war_machinennofindivisionaljj	war_machinennofindivisionnn	military_sciencenndivisionnn	militarisationnnofindivisionaljj	militarisationnnofindivisionnn	militaristicjjofindivisionnn	military_machinennofindivisionnn	divisionnnmilitaryjj	militarynnofindivisionaljj	
+
+BE: distrustNNofINarmyNN
+EQ class: suspicionnnofinarmynn	misgivingnnofinground_forcesnn	armynndistrustvb	armynnmistrustnn	armynnsuspicionnn	misgivingnnofinarmynn	mistrustnnofinground_forcesnn	misgivingnnofinregular_armynn	regular_armynnsuspectvb	armynnsuspectvb	mistrustnnofinarmynn	regular_armynndistrustnn	distrustnnofinground_forcesnn	armynnmistrustvb	regular_armynnmistrustnn	suspectvbarmynn	mistrustvbregular_armynn	armynnmisgivingnn	ground_forcesnnsuspicionnn	suspectvbground_forcesnn	mistrustnnofinregular_armynn	regular_armynnmisgivingnn	ground_forcesnnmistrustnn	ground_forcesnndistrustnn	mistrustvbground_forcesnn	distrustvbarmynn	ground_forcesnndistrustvb	armynndistrustnn	regular_armynnmistrustvb	distrustvbground_forcesnn	mistrustvbarmynn	distrustvbregular_armynn	suspectvbregular_armynn	distrustnnofinregular_armynn	ground_forcesnnsuspectvb	suspicionnnofinground_forcesnn	suspicionnnofinregular_armynn	regular_armynndistrustvb	regular_armynnsuspicionnn	ground_forcesnnmistrustvb	ground_forcesnnmisgivingnn	
+
+BE: armyNNinINfieldNN
+EQ class: fieldnnregular_armynn	ground_forcesnnininfieldnn	fieldnnground_forcesnn	regular_armynnininfieldnn	fieldnnarmynn	
+
+BE: hostilityJJtoTOdistrustNN
+EQ class: hostilityjjtotomistrustnn	hostilityjjtotomisgivingnn	hostilityjjtotosuspicionnn	
+
+BE: hostilityJJwithINthemPRP
+EQ class: hostilityjjwithinpoliticiansprp	hostilityjjwithinsoldiersprp	hostilityjjwithinpointsprp	hostilityjjwithinofficersprp	hostilityjjwithinlotsprp	hostilityjjwithintprp	
+
+BE: LotsNNS
+EQ class: dozensnns	loadsnns	heapsnns	scoresnns	gobsnns	lashingsnns	slewsnns	stacksnns	pilesnns	tonsnns	oodlesnns	scadsnns	wadsnns	raftsnns	
+
+BE: pointsNNS
+EQ class: pointnns	theynns	themnns	
+
+BE: daftNN
+EQ class: 
+
+BE: enemyNN
+EQ class: 
+
+BE: tNNS
+EQ class: thyminenns	theynns	themnns	
+
+BE: soldiersNNS
+EQ class: soldiernns	soldierlyjj	theynns	themnns	
+
+BE: officersNNS
+EQ class: theynns	military_officernns	officernns	themnns	
+
+BE: madeVBN
+EQ class: makevbn	dovbn	
+
+BE: onesVBD
+EQ class: 
+
+BE: meanVBP
+EQ class: intendvbp	
+
+BE: arenVBP
+EQ class: 
+
+BE: otherJJ
+EQ class: 
+
+BE: goodJJ
+EQ class: goodnessnn	
+
+BE: fewJJ
+EQ class: fewnn	fewnessnn	
+
+BE: nationalJJ
+EQ class: nationnn	nationalnn	nationalitynn	
+
+BE: doesnJJ
+EQ class: 
+
+BE: tLocationAnnotation
+EQ class: themlocationannotation	theylocationannotation	
+
+BE: goodJJ
+EQ class: goodnessnn	
+
+BE: goodJJ
+EQ class: goodnessnn	
+
+BE: otherJJpointsNNS
+EQ class: otherjjtheynns	otherjjpointnns	otherjjthemnns	
+
+BE: goodJJpointsNNS
+EQ class: goodnessnnpointsnns	goodnessnnthemnns	goodnessnnpointnns	goodjjpointnns	goodjjtheynns	goodnessnntheynns	goodjjthemnns	
+
+BE: fewJJdaftNN
+EQ class: fewnndaftnn	fewnessnndaftnn	
+
+BE: nationalJJenemyNN
+EQ class: nationalitynnenemynn	nationalnnenemynn	nationnnenemynn	
+
+BE: doesnJJtNNS
+EQ class: doesnjjthemnns	doesnjjthyminenns	doesnjjtheynns	
+
+BE: tLocationAnnotationsoldiersNNS
+EQ class: theylocationannotationtheynns	themlocationannotationsoldiernns	tlocationannotationthemnns	themlocationannotationsoldiersnns	themlocationannotationsoldierlyjj	tlocationannotationsoldierlyjj	tlocationannotationsoldiernns	theylocationannotationsoldiernns	theylocationannotationthemnns	theylocationannotationsoldierlyjj	themlocationannotationthemnns	tlocationannotationtheynns	theylocationannotationsoldiersnns	themlocationannotationtheynns	
+
+BE: goodJJsoldiersNNS
+EQ class: goodjjsoldierlyjj	goodjjsoldiernns	goodnessnnthemnns	goodnessnnsoldiersnns	goodjjtheynns	goodnessnnsoldierlyjj	goodnessnnsoldiernns	goodnessnntheynns	goodjjthemnns	
+
+BE: goodJJofficersNNS
+EQ class: goodnessnnmilitary_officernns	goodnessnnofficernns	goodnessnnthemnns	goodjjofficernns	goodnessnnofficersnns	goodjjtheynns	goodnessnntheynns	goodjjmilitary_officernns	goodjjthemnns	
+
+BE: ourPRP$enemyNN
+EQ class: enemynnofinourprp$	
+
+BE: LotsNNSonesVBD
+EQ class: scoresnnsonesvbd	heapsnnsonesvbd	slewsnnsonesvbd	scadsnnsonesvbd	stacksnnsonesvbd	dozensnnsonesvbd	raftsnnsonesvbd	tonsnnsonesvbd	loadsnnsonesvbd	pilesnnsonesvbd	oodlesnnsonesvbd	gobsnnsonesvbd	wadsnnsonesvbd	lashingsnnsonesvbd	
+
+BE: daftNNonesVBD
+EQ class: 
+
+BE: theyPRPareAUX
+EQ class: lotsprpbeaux	politiciansprpareaux	theyprpbeaux	tprpareaux	tprpbeaux	pointsprpareaux	soldiersprpbeaux	lotsprpareaux	officersprpareaux	politiciansprpbeaux	soldiersprpareaux	pointsprpbeaux	officersprpbeaux	
+
+BE: tNNSmeanVBP
+EQ class: themnnsmeanvbp	importnnofinthyminenns	significationnnthemnns	meaningnnofintnns	meaningnnthyminenns	significationnntnns	meaningnnofinthemnns	significationnnofinthemnns	significationnnthyminenns	importnnofinthemnns	meaningnnofinthyminenns	importnnthyminenns	importnnofintheynns	themnnsintendvbp	significancennofinthyminenns	significationnntheynns	significationnnofintnns	importnnthemnns	importnntnns	importnnofintnns	significancennthyminenns	meaningnnofintheynns	thyminennsintendvbp	significancennofintnns	significancennofintheynns	significationnnofintheynns	theynnsintendvbp	thyminennsmeanvbp	theynnsmeanvbp	significancenntheynns	meaningnntnns	meaningnnthemnns	significancennofinthemnns	significationnnofinthyminenns	significancenntnns	importnntheynns	tnnsintendvbp	significancennthemnns	meaningnntheynns	
+
+BE: theyPRParenVBP
+EQ class: officersprparenvbp	lotsprparenvbp	tprparenvbp	pointsprparenvbp	politiciansprparenvbp	soldiersprparenvbp	
+
+BE: theyPRPhaveAUX
+EQ class: theyprpholdaux	officersprpholdaux	wealthy_personnnofintheyprp	politiciansprphave_gotaux	lotsprphaveaux	politiciansprpholdaux	tprphaveaux	soldiersprphaveaux	havennofinlotsprp	wealthy_personnnofinpointsprp	havennofinofficersprp	soldiersprpholdaux	soldiersprphave_gotaux	rich_personnnofinsoldiersprp	wealthy_personnnofinsoldiersprp	wealthy_personnnofinpoliticiansprp	rich_personnnofinlotsprp	theyprphave_gotaux	havennofintheyprp	rich_personnnofinpointsprp	pointsprphaveaux	havennofintprp	officersprphaveaux	rich_personnnofinpoliticiansprp	havennofinpoliticiansprp	pointsprpholdaux	rich_personnnofintprp	politiciansprphaveaux	pointsprphave_gotaux	rich_personnnofintheyprp	wealthy_personnnofinofficersprp	tprpholdaux	wealthy_personnnofintprp	havennofinpointsprp	tprphave_gotaux	lotsprphave_gotaux	havennofinsoldiersprp	rich_personnnofinofficersprp	lotsprpholdaux	officersprphave_gotaux	wealthy_personnnofinlotsprp	
+
+BE: areAUXenemyNN
+EQ class: beauxenemynn	
+
+BE: arenVBPsoldiersNNS
+EQ class: arenvbpsoldiernns	arenvbpsoldierlyjj	arenvbptheynns	arenvbpthemnns	
+
+BE: haveAUXofficersNNS
+EQ class: havennofintheynns	holdauxtheynns	rich_personnnofinofficersnns	wealthy_personnnofintheynns	havennofinofficernns	haveauxmilitary_officernns	wealthy_personnnofinmilitary_officernns	holdauxofficersnns	haveauxofficernns	holdauxthemnns	haveauxtheynns	have_gotauxtheynns	rich_personnnofinmilitary_officernns	wealthy_personnnofinofficernns	holdauxmilitary_officernns	holdauxofficernns	rich_personnnofinthemnns	wealthy_personnnofinofficersnns	havennofinthemnns	havennofinofficersnns	havennofinmilitary_officernns	wealthy_personnnofinthemnns	have_gotauxofficernns	rich_personnnofinofficernns	haveauxthemnns	have_gotauxthemnns	have_gotauxofficersnns	rich_personnnofintheynns	have_gotauxmilitary_officernns	
+
+BE: madeVBNpointsNNS
+EQ class: makevbnthemnns	madevbntheynns	madevbnthemnns	dovbntheynns	dovbnpointnns	madevbnpointnns	dovbnthemnns	makevbnpointsnns	dovbnpointsnns	makevbnpointnns	makevbntheynns	
+
+BE: LotsNNSofINpointsNNS
+EQ class: pointsnnsscoresnns	gobsnnsofinthemnns	loadsnnsofinpointnns	pointnnsgobsnns	theynnsscoresnns	wadsnnsofinthemnns	pilesnnsofintheynns	wadsnnsofintheynns	gobsnnsofinpointnns	pointnnslotsnns	themnnsslewsnns	heapsnnsofintheynns	oodlesnnsofinpointnns	pointsnnsoodlesnns	pilesnnsofinpointnns	pointsnnsgobsnns	pointnnsscoresnns	pointnnsscadsnns	theynnswadsnns	theynnsloadsnns	scadsnnsofintheynns	pointsnnsloadsnns	themnnspilesnns	pointnnsstacksnns	themnnslotsnns	raftsnnsofinthemnns	theynnsoodlesnns	theynnsraftsnns	theynnslashingsnns	slewsnnsofintheynns	stacksnnsofinthemnns	lashingsnnsofinthemnns	pilesnnsofinthemnns	pointsnnswadsnns	scoresnnsofinthemnns	gobsnnsofintheynns	lotsnnsofintheynns	stacksnnsofinpointnns	pointnnsdozensnns	pointsnnsslewsnns	loadsnnsofinthemnns	pointnnspilesnns	oodlesnnsofinpointsnns	pointnnsoodlesnns	themnnsloadsnns	oodlesnnsofinthemnns	pointsnnslotsnns	scoresnnsofinpointnns	wadsnnsofinpointsnns	pointnnsloadsnns	theynnsgobsnns	lashingsnnsofinpointnns	pointsnnsdozensnns	pointsnnspilesnns	pointnnsraftsnns	scadsnnsofinpointnns	themnnsgobsnns	themnnsraftsnns	lotsnnsofinpointnns	lashingsnnsofinpointsnns	theynnsslewsnns	theynnsheapsnns	pointsnnslashingsnns	pointsnnsscadsnns	pointnnswadsnns	themnnsscadsnns	raftsnnsofinpointnns	pointsnnstonsnns	dozensnnsofinpointnns	scadsnnsofinpointsnns	pointnnsslewsnns	tonsnnsofinthemnns	theynnslotsnns	themnnslashingsnns	wadsnnsofinpointnns	stacksnnsofintheynns	theynnsscadsnns	themnnsheapsnns	pointnnstonsnns	dozensnnsofinthemnns	heapsnnsofinpointsnns	pointnnsheapsnns	raftsnnsofintheynns	slewsnnsofinpointsnns	lashingsnnsofintheynns	themnnsscoresnns	scoresnnsofintheynns	heapsnnsofinthemnns	theynnsdozensnns	heapsnnsofinpointnns	gobsnnsofinpointsnns	oodlesnnsofintheynns	pointsnnsraftsnns	slewsnnsofinpointnns	theynnsstacksnns	themnnstonsnns	themnnsdozensnns	pilesnnsofinpointsnns	raftsnnsofinpointsnns	loadsnnsofintheynns	pointsnnsstacksnns	themnnsoodlesnns	slewsnnsofinthemnns	tonsnnsofintheynns	theynnstonsnns	pointsnnsheapsnns	pointnnslashingsnns	tonsnnsofinpointsnns	themnnsstacksnns	dozensnnsofintheynns	loadsnnsofinpointsnns	stacksnnsofinpointsnns	lotsnnsofinthemnns	themnnswadsnns	scadsnnsofinthemnns	theynnspilesnns	dozensnnsofinpointsnns	tonsnnsofinpointnns	scoresnnsofinpointsnns	
+
+BE: onesVBDalthoughINareAUX
+EQ class: onesvbdalthoughinbeaux	
+
+BE: areAUXthatINmeanVBP
+EQ class: beauxthatinmeanvbp	beauxthatinintendvbp	areauxthatinintendvbp	
+
+BE: arenVBPifINhaveAUX
+EQ class: arenvbpifinholdaux	arenvbpifinhave_gotaux	
+

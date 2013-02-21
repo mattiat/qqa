@@ -1,0 +1,87 @@
+#how do i become a wolf biologist?
+#(S1 (SBARQ (WHADVP (WRB how)) (SQ (AUX do) (NP (PRP i)) (VP (VB become) (NP (DT a) (NNP wolf) (NN biologist)))) (. ?)))
+#Rule:Nouns
+r1wolfNNP
+r1biologistNN
+
+#Rule:Verbs
+r2becomeVB
+
+#Rule:N-HeadNoun
+r8wolfNNPbiologistNN
+
+#Rule:V-HeadNoun
+r21becomeVBbiologistNN
+
+#i like in florida so its not like im close to any orginazations.im only 15 so i just need help on how i would get started when i come of age.my dream is to work with wolves hands on.and to photograph wolves in the wild.
+#(S1 (S (S (NP (PRP i)) (VP (VBP like) (PP (IN in) (NP (NNP florida))) (PP (IN so) (NP (NP (PRP$ its) (RB not) (JJ like) (NNS im)) (ADJP (JJ close) (PP (TO to) (NP (DT any) (NN orginazations.im) (QP (RB only) (CD 15))))))))) (CC so) (S (NP (PRP i)) (VP (ADVP (RB just)) (AUX need) (NP (NP (NN help)) (PP (IN on) (SBAR (WHADVP (WRB how)) (S (NP (PRP i)) (VP (MD would) (VP (VB get) (VP (VBN started) (SBAR (WHADVP (WRB when)) (S (NP (PRP i)) (VP (VBP come) (SBAR (S (NP (IN of) (JJ age.my) (NN dream)) (VP (AUX is) (S (VP (TO to) (VP (VB work) (PP (IN with) (NP (NP (NNS wolves) (NNS hands)) (ADJP (JJ on.and) (PP (TO to) (NP (NP (NN photograph) (NNS wolves)) (PP (IN in) (NP (DT the) (JJ wild)))))))))))))))))))))))))) (. .)))
+#Rule:Nouns
+r1floridaLocationAnnotation
+r1imNNS
+r1orginazations.imNN
+r1helpNN
+r1dreamNN
+r1wolvesNNS
+r1handsNNS
+r1photographNN
+r1wolvesNNS
+
+#Rule:Verbs
+r2likeVBP
+r2getVB
+r2startedVBN
+r2comeVBP
+r2workVB
+
+#Rule:Adjs
+r4likeJJ
+r4closeJJ
+r4age.myJJ
+r4on.andJJ
+r4wildJJ
+
+#Rule:Adj-Noun
+r5closeJJimNNS
+r5likeJJimNNS
+r515CDorginazations.imNN
+r5age.myJJdreamNN
+r5on.andJJhandsNNS
+
+#Rule:PRP-Noun
+r6itsPRP$imNNS
+
+#Rule:N-HeadNoun
+r8wolvesNNShandsNNS
+r8photographNNwolvesNNS
+
+#Rule:HeadNoun-V
+r11iPRPlikeVBP
+r11iOrganizationAnnotationneedAUX
+r11iOrganizationAnnotationgetVB
+r11iLocationAnnotationcomeVBP
+r11dreamNNisAUX
+
+#Rule:V-HeadNoun
+r21needAUXhelpNN
+
+#Rule:V-HeadNoun(passive)
+r24startedVBNiOrganizationAnnotation
+
+#Rule:PPinNP
+r26wolvesNNSinINwildJJ
+
+#Rule:PPinVP
+r30likeVBPinINfloridaLocationAnnotation
+r30likeVBPsoINimNNS
+r30workVBwithINhandsNNS
+
+#Rule:PPinADJP
+r37closeJJtoTOorginazations.imNN
+r37on.andJJtoTOwolvesNNS
+
+#Rule:V-ADV
+r46needAUXjustRB
+
+@lemmas-left	need	photograph	orginazations.im	become	15	its	close	help	biologist	hands	florida	work	wild	get	dream	come	wolves	age.my	like	im	i	on.and	wolf	start	started	
+@lemmas-right	just	need	wild	is	get	dream	orginazations.im	come	wolves	im	like	i	help	biologist	hands	wolf	florida	be	
+@lemmas-center	to	with	so	in	

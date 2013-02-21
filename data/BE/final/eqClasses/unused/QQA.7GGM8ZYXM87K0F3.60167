@@ -1,0 +1,300 @@
+BE: commentsNNS
+EQ class: remarknns	inputnns	theynns	commentnns	themnns	
+
+BE: GreatJJ
+EQ class: greatnessnn	
+
+BE: GreatJJcommentsNNS
+EQ class: greatnessnninputnns	greatjjcommentnns	greatnessnncommentnns	noticevbgreatlyrb	remarkvbgreatlyrb	point_outvbgreatlyrb	greatnessnntheynns	greatnessnnthemnns	greatnessnnremarknns	commentatevbgreatlyrb	greatnessnncommentsnns	greatjjinputnns	commentvbgreatlyrb	greatjjthemnns	greatjjtheynns	greatjjremarknns	
+
+BE: commentsNNSbyINallLocationAnnotation
+EQ class: commentvballlocationannotation	alllocationannotationcommentsnns	alllocationannotationcommentvb	commentatevballlocationannotation	alllocationannotationthemnns	remarknnsbyinalllocationannotation	alllocationannotationinputnns	commentnnsbyinalllocationannotation	themnnsbyinalllocationannotation	alllocationannotationtheynns	alllocationannotationnoticevb	noticevballlocationannotation	alllocationannotationremarknns	alllocationannotationpoint_outvb	inputnnsbyinalllocationannotation	point_outvballlocationannotation	alllocationannotationcommentatevb	remarkvballlocationannotation	alllocationannotationcommentnns	theynnsbyinalllocationannotation	alllocationannotationremarkvb	
+
+BE: timeNN
+EQ class: clipnn	
+
+BE: addVBP
+EQ class: 
+
+BE: horrificJJ
+EQ class: hideousjj	horridjj	outrageousjj	
+
+BE: horrificJJtimeNN
+EQ class: outrageousjjtimenn	horrificjjclipnn	hideousjjclipnn	hideousjjtimenn	horridjjtimenn	outrageousjjclipnn	horridjjclipnn	
+
+BE: itPRPwasAUX
+EQ class: itprpbeaux	
+
+BE: wasAUXtimeNN
+EQ class: wasauxclipnn	beauxtimenn	beauxclipnn	
+
+BE: timeNNforINallDT
+EQ class: clipnnforinalldt	alldttimenn	alldtclipnn	
+
+BE: nationNN
+EQ class: commonwealthnn	countrynn	res_publicann	landnn	statenn	body_politicnn	
+
+BE: dividedVBN
+EQ class: split_upvbn	dissevervbn	carve_upvbn	separatevbn	dividevbn	splitvbn	
+
+BE: dividedVBNnationNN
+EQ class: splitvbnstatenn	divisionnnofinres_publicann	divisionaljjofinbody_politicnn	dividevbncommonwealthnn	divisionnnofincountrynn	divisionnnofincommonwealthnn	dissevervbncountrynn	separatevbncountrynn	divisiblennofincommonwealthnn	divisionaljjofinlandnn	dividevbnlandnn	dividernnofinres_publicann	carve_upvbnbody_politicnn	splitvbnres_publicann	splitvbnlandnn	divisionnnofinstatenn	splitternnofinbody_politicnn	dissevervbncommonwealthnn	separatevbnstatenn	split_upvbnnationnn	separatevbncommonwealthnn	divisiblennofinbody_politicnn	dividernnofinstatenn	splitternnofincountrynn	separatevbnlandnn	splitternnofinres_publicann	split_upvbnlandnn	carve_upvbnres_publicann	split_upvbncommonwealthnn	dividernnofincommonwealthnn	dividedvbncountrynn	dividernnofinlandnn	split_upvbnbody_politicnn	divisionaljjofinnationnn	splitternnofinstatenn	splitvbnbody_politicnn	dividedvbncommonwealthnn	carve_upvbnstatenn	dissevervbnres_publicann	dividernnofincountrynn	split_upvbnstatenn	dividedvbnlandnn	divisiblennofinstatenn	dividedvbnres_publicann	divisiblennofinres_publicann	dividevbnbody_politicnn	dividevbnres_publicann	split_upvbnres_publicann	divisionaljjofincountrynn	dissevervbnnationnn	carve_upvbnnationnn	dissevervbnstatenn	dividedvbnbody_politicnn	split_upvbncountrynn	splitternnofinnationnn	dividedvbnstatenn	divisionnnofinlandnn	divisionaljjofinstatenn	dividernnofinnationnn	divisiblennofincountrynn	carve_upvbncommonwealthnn	divisiblennofinnationnn	separatevbnbody_politicnn	splitvbncountrynn	divisionnnofinbody_politicnn	splitternnofinlandnn	carve_upvbnlandnn	splitvbncommonwealthnn	splitvbnnationnn	dissevervbnlandnn	separatevbnnationnn	divisionaljjofincommonwealthnn	dividevbnstatenn	dissevervbnbody_politicnn	divisionaljjofinres_publicann	carve_upvbncountrynn	dividernnofinbody_politicnn	separatevbnres_publicann	splitternnofincommonwealthnn	divisiblennofinlandnn	dividevbnnationnn	dividevbncountrynn	divisionnnofinnationnn	
+
+BE: EveryoneNN
+EQ class: 
+
+BE: someoneNN
+EQ class: personnn	soulnn	individualnn	somebodynn	mortalnn	
+
+BE: conflictNN
+EQ class: battlenn	strugglenn	
+
+BE: lossNN
+EQ class: 
+
+BE: someoneNN
+EQ class: personnn	soulnn	individualnn	somebodynn	mortalnn	
+
+BE: knewVBD
+EQ class: cognizevbd	knowvbd	cognisevbd	
+
+BE: goingVBG
+EQ class: movevbg	govbg	travelvbg	locomotevbg	
+
+BE: termedVBN
+EQ class: termvbn	
+
+BE: EveryoneNNknewVBD
+EQ class: everyonennknowvbd	knowingnnofineveryonenn	knowablennofineveryonenn	apprehendernneveryonenn	knowernneveryonenn	knowernnofineveryonenn	knowingnneveryonenn	everyonenncognisevbd	everyonenncognizevbd	apprehendernnofineveryonenn	
+
+BE: EveryoneNNhadAUX
+EQ class: wealthy_personnnofineveryonenn	rich_personnnofineveryonenn	everyonennhaveaux	havennofineveryonenn	everyonennhave_gotaux	everyonennholdaux	
+
+BE: thisDTisAUX
+EQ class: thisdtbeaux	
+
+BE: someoneNNgoingVBG
+EQ class: individualnngoingvbg	somebodynngovbg	individualnngovbg	soulnnlocomotevbg	soulnnmovevbg	mortalnnmovevbg	personnngovbg	personnnlocomotevbg	someonenntravelvbg	someonenngovbg	mortalnnlocomotevbg	individualnntravelvbg	mortalnngoingvbg	soulnntravelvbg	somebodynnlocomotevbg	individualnnlocomotevbg	somebodynnmovevbg	personnntravelvbg	mortalnntravelvbg	soulnngovbg	somebodynngoingvbg	individualnnmovevbg	personnnmovevbg	soulnngoingvbg	somebodynntravelvbg	mortalnngovbg	someonennlocomotevbg	someonennmovevbg	personnngoingvbg	
+
+BE: knewVBDsomeoneNN
+EQ class: knowingnnofinmortalnn	apprehendernnofinsoulnn	knowernnofinsomebodynn	knowvbdsomeonenn	knewvbdmortalnn	cognizevbdsomeonenn	knewvbdpersonnn	knowvbdsomebodynn	apprehendernnofinsomebodynn	knowablennofinsoulnn	knowablennofinmortalnn	knowingnnofinsomeonenn	knowingnnofinpersonnn	cognisevbdsomeonenn	cognisevbdpersonnn	apprehendernnofinsomeonenn	cognizevbdsoulnn	knowablennofinpersonnn	knowvbdpersonnn	knewvbdindividualnn	cognizevbdpersonnn	knowvbdmortalnn	knowablennofinsomeonenn	cognisevbdsoulnn	knewvbdsoulnn	knowernnofinpersonnn	knowernnofinsoulnn	cognizevbdsomebodynn	apprehendernnofinpersonnn	knowablennofinsomebodynn	cognizevbdmortalnn	knowvbdindividualnn	apprehendernnofinindividualnn	knowingnnofinindividualnn	knowingnnofinsoulnn	cognisevbdindividualnn	cognisevbdmortalnn	knowingnnofinsomebodynn	knowvbdsoulnn	knowernnofinsomeonenn	knowablennofinindividualnn	knowernnofinindividualnn	apprehendernnofinmortalnn	knewvbdsomebodynn	cognizevbdindividualnn	knowernnofinmortalnn	cognisevbdsomebodynn	
+
+BE: hadAUXlossNN
+EQ class: havennofinlossnn	wealthy_personnnofinlossnn	have_gotauxlossnn	rich_personnnofinlossnn	holdauxlossnn	haveauxlossnn	
+
+BE: hadAUXsomeoneNN
+EQ class: hadauxmortalnn	rich_personnnofinpersonnn	havennofinsomebodynn	wealthy_personnnofinpersonnn	hadauxindividualnn	have_gotauxpersonnn	have_gotauxsomeonenn	haveauxsoulnn	rich_personnnofinsoulnn	wealthy_personnnofinsomebodynn	wealthy_personnnofinsoulnn	holdauxpersonnn	holdauxsomeonenn	havennofinindividualnn	hadauxsoulnn	wealthy_personnnofinsomeonenn	hadauxpersonnn	holdauxsoulnn	rich_personnnofinindividualnn	haveauxmortalnn	rich_personnnofinsomeonenn	havennofinpersonnn	haveauxindividualnn	wealthy_personnnofinindividualnn	havennofinsomeonenn	rich_personnnofinmortalnn	have_gotauxsomebodynn	havennofinsoulnn	rich_personnnofinsomebodynn	havennofinmortalnn	hadauxsomebodynn	holdauxmortalnn	wealthy_personnnofinmortalnn	haveauxsomebodynn	holdauxsomebodynn	holdauxindividualnn	haveauxpersonnn	have_gotauxsoulnn	have_gotauxindividualnn	have_gotauxmortalnn	haveauxsomeonenn	
+
+BE: termedVBNitPRP
+EQ class: termvbnitprp	termnnofinitprp	
+
+BE: goingVBGintoINconflictNN
+EQ class: govbgintoinbattlenn	movevbgintoinstrugglenn	locomotevbgintoinbattlenn	locomotevbgintoinstrugglenn	govbgintoinconflictnn	travelvbgintoinbattlenn	goingvbgintoinstrugglenn	govbgintoinstrugglenn	movevbgintoinbattlenn	movevbgintoinconflictnn	goingvbgintoinbattlenn	locomotevbgintoinconflictnn	travelvbgintoinconflictnn	travelvbgintoinstrugglenn	
+
+BE: draftNN
+EQ class: bill_of_exchangenn	order_of_paymentnn	
+
+BE: effectNN
+EQ class: upshotnn	eventnn	resultnn	outcomenn	consequencenn	issuenn	
+
+BE: ageNN
+EQ class: 
+
+BE: menNNS
+EQ class: workforcenns	handsnns	theynns	manpowernns	work_forcenns	themnns	
+
+BE: VietnamLocationAnnotation
+EQ class: annamesenn	aseannn	association_of_southeast_asian_nationsnn	vietnamesenn	
+
+BE: wonderingVBG
+EQ class: enquirevbg	wondervbg	inquirevbg	
+
+BE: goingVBG
+EQ class: movevbg	govbg	travelvbg	locomotevbg	
+
+BE: inductedVBN
+EQ class: inductvbn	seatvbn	investvbn	
+
+BE: shippedVBN
+EQ class: sendvbn	shipvbn	transportvbn	
+
+BE: youngJJ
+EQ class: youngnn	immaturejj	youngnessnn	
+
+BE: anxiousJJ
+EQ class: dyingjj	
+
+BE: certainJJ
+EQ class: 
+
+BE: youngJJmenNNS
+EQ class: youngnessnnthemnns	youngnntheynns	immaturejjmennns	youngnessnntheynns	youngnessnnmennns	youngnessnnworkforcenns	youngnnwork_forcenns	youngnnthemnns	youngnnmennns	youngnessnnhandsnns	youngjjthemnns	youngjjmanpowernns	youngnnworkforcenns	youngjjtheynns	immaturejjthemnns	immaturejjwork_forcenns	youngjjworkforcenns	youngnnmanpowernns	immaturejjhandsnns	immaturejjworkforcenns	immaturejjtheynns	youngnessnnmanpowernns	youngnnhandsnns	youngjjhandsnns	immaturejjmanpowernns	youngjjwork_forcenns	youngnessnnwork_forcenns	
+
+BE: draftNNwasAUX
+EQ class: order_of_paymentnnwasaux	bill_of_exchangennwasaux	order_of_paymentnnbeaux	bill_of_exchangennbeaux	draftnnbeaux	
+
+BE: menNNSwereAUX
+EQ class: theynnswereaux	work_forcennswereaux	handsnnsbeaux	manpowernnswereaux	themnnsbeaux	workforcennswereaux	handsnnswereaux	mennnsbeaux	manpowernnsbeaux	workforcennsbeaux	work_forcennsbeaux	theynnsbeaux	themnnswereaux	
+
+BE: theyPRPgoingVBG
+EQ class: politicsprpgovbg	menprptravelvbg	nationprpgoingvbg	commentsprplocomotevbg	menprplocomotevbg	nationprpgovbg	commentsprpgovbg	nationprpmovevbg	commentsprpgoingvbg	politicsprpgoingvbg	menprpmovevbg	commentsprptravelvbg	nationprptravelvbg	nationprplocomotevbg	theyprplocomotevbg	theyprpmovevbg	menprpgovbg	politicsprpmovevbg	theyprptravelvbg	theyprpgovbg	politicsprplocomotevbg	commentsprpmovevbg	politicsprptravelvbg	menprpgoingvbg	
+
+BE: itPRPwasAUX
+EQ class: itprpbeaux	
+
+BE: shippedVBNtheyPRP
+EQ class: sendvbntheyprp	transportnnofintheyprp	loadingnnofinmenprp	cargonnofincommentsprp	sendvbncommentsprp	freightnnofinpoliticsprp	transportvbncommentsprp	transportnnofinpoliticsprp	shipvbnnationprp	loadingnnofincommentsprp	transportationnnofintheyprp	shippedvbncommentsprp	transportationnnofincommentsprp	shipmentnnofinmenprp	shippernnofinmenprp	payloadnnofinmenprp	loadnnofintheyprp	cargonnofintheyprp	cargonnofinnationprp	ladingnnofintheyprp	shippernnofinnationprp	transportationnnofinmenprp	consignmentnnofinpoliticsprp	shipvbntheyprp	shippingnnofinnationprp	shipvbnpoliticsprp	transportnnofinmenprp	payloadnnofincommentsprp	loadnnofinnationprp	transportvbnmenprp	cargonnofinpoliticsprp	shippingnnofintheyprp	loadingnnofinnationprp	shipmentnnofintheyprp	consignmentnnofincommentsprp	shippingnnofinmenprp	shipmentnnofinpoliticsprp	shipvbncommentsprp	shippingnnofinpoliticsprp	loadnnofinpoliticsprp	shippernnofinpoliticsprp	transportnnofincommentsprp	payloadnnofinnationprp	transportationnnofinnationprp	shippedvbnnationprp	ladingnnofinpoliticsprp	freightnnofincommentsprp	shippedvbnmenprp	consignmentnnofinmenprp	sendvbnnationprp	transportvbnpoliticsprp	shipmentnnofincommentsprp	payloadnnofinpoliticsprp	shippernnofintheyprp	payloadnnofintheyprp	transportvbntheyprp	ladingnnofinnationprp	transportnnofinnationprp	sendvbnpoliticsprp	loadnnofinmenprp	freightnnofintheyprp	consignmentnnofinnationprp	sendvbnmenprp	loadingnnofinpoliticsprp	freightnnofinnationprp	shippernnofincommentsprp	ladingnnofincommentsprp	ladingnnofinmenprp	shipvbnmenprp	loadingnnofintheyprp	consignmentnnofintheyprp	freightnnofinmenprp	shippingnnofincommentsprp	shippedvbnpoliticsprp	loadnnofincommentsprp	transportvbnnationprp	shipmentnnofinnationprp	transportationnnofinpoliticsprp	cargonnofinmenprp	
+
+BE: wereAUXanxiousJJ
+EQ class: wereauxdyingjj	beauxdyingjj	beauxanxiousjj	
+
+BE: wasAUXcertainJJ
+EQ class: beauxcertainjj	
+
+BE: wasAUXinINeffectNN
+EQ class: beauxinineffectnn	wasauxininoutcomenn	wasauxininissuenn	beauxininresultnn	beauxininoutcomenn	wasauxinineventnn	wasauxininupshotnn	beauxininissuenn	beauxinineventnn	beauxininupshotnn	wasauxininconsequencenn	wasauxininresultnn	beauxininconsequencenn	
+
+BE: shippedVBNtoTOVietnamLocationAnnotation
+EQ class: transportvbntotoaseannn	sendvbntotoaseannn	shippedvbntotovietnamesenn	sendvbntotoannamesenn	transportvbntotovietnamesenn	shipvbntotoassociation_of_southeast_asian_nationsnn	shipvbntotoaseannn	shipvbntotovietnamesenn	shipvbntotoannamesenn	transportvbntotovietnamlocationannotation	sendvbntotoassociation_of_southeast_asian_nationsnn	shippedvbntotoaseannn	sendvbntotovietnamlocationannotation	shipvbntotovietnamlocationannotation	shippedvbntotoassociation_of_southeast_asian_nationsnn	transportvbntotoannamesenn	shippedvbntotoannamesenn	transportvbntotoassociation_of_southeast_asian_nationsnn	sendvbntotovietnamesenn	
+
+BE: wonderingVBGifINgoingVBG
+EQ class: wondervbgifinlocomotevbg	wondervbgifinmovevbg	wondervbgifingovbg	inquirevbgifinmovevbg	inquirevbgifingovbg	wonderingvbgifingovbg	enquirevbgifintravelvbg	enquirevbgifingovbg	inquirevbgifinlocomotevbg	wonderingvbgifintravelvbg	wonderingvbgifinlocomotevbg	wondervbgifingoingvbg	wondervbgifintravelvbg	enquirevbgifinmovevbg	inquirevbgifintravelvbg	enquirevbgifingoingvbg	enquirevbgifinlocomotevbg	inquirevbgifingoingvbg	wonderingvbgifinmovevbg	
+
+BE: inductedVBNbecauseINwasAUX
+EQ class: seatvbnbecauseinwasaux	inductvbnbecauseinbeaux	investvbnbecauseinbeaux	investvbnbecauseinwasaux	inductvbnbecauseinwasaux	inductedvbnbecauseinbeaux	seatvbnbecauseinbeaux	
+
+BE: menNNSbeingAUXG
+EQ class: workforcennsbeingauxg	handsnnsbeingauxg	themnnsbeingauxg	work_forcennsbeingauxg	theynnsbeingauxg	manpowernnsbeingauxg	
+
+BE: timeNN
+EQ class: clipnn	
+
+BE: husbandNN
+EQ class: married_mannn	hubbynn	husbandlyjj	
+
+BE: classNN
+EQ class: familynn	categorynn	
+
+BE: WestLocationAnnotation
+EQ class: 
+
+BE: PointNNP
+EQ class: 
+
+BE: halfNN
+EQ class: one-halfnn	
+
+BE: menNNS
+EQ class: workforcenns	handsnns	theynns	manpowernns	work_forcenns	themnns	
+
+BE: VietnamLocationAnnotation
+EQ class: annamesenn	aseannn	association_of_southeast_asian_nationsnn	vietnamesenn	
+
+BE: %NN
+EQ class: %.nn	
+
+BE: sVBZ
+EQ class: 
+
+BE: graduatingVBG
+EQ class: graduatevbg	
+
+BE: sentVBD
+EQ class: directvbd	sendvbd	
+
+BE: cameVBD
+EQ class: come_upvbd	comevbd	
+
+BE: youngJJ
+EQ class: youngnn	immaturejj	youngnessnn	
+
+BE: graduatingVBGclassNN
+EQ class: graduatevbgclassnn	graduationnnofincategorynn	alumnannofinfamilynn	graduatevbgcategorynn	alumnusnnofinfamilynn	graduatennofinclassnn	graduatennofincategorynn	alumnnofinclassnn	graduationnnofinclassnn	gradnnofincategorynn	alumnusnnofincategorynn	alumnannofincategorynn	gradnnofinfamilynn	graduationnnofinfamilynn	alumnannofinclassnn	graduatennofinfamilynn	graduatingvbgcategorynn	alumnnofinfamilynn	alumnnofincategorynn	alumnusnnofinclassnn	graduatingvbgfamilynn	graduatevbgfamilynn	gradnnofinclassnn	
+
+BE: youngJJmenNNS
+EQ class: youngnessnnthemnns	youngnntheynns	immaturejjmennns	youngnessnntheynns	youngnessnnmennns	youngnessnnworkforcenns	youngnnwork_forcenns	youngnnthemnns	youngnnmennns	youngnessnnhandsnns	youngjjthemnns	youngjjmanpowernns	youngnnworkforcenns	youngjjtheynns	immaturejjthemnns	immaturejjwork_forcenns	youngjjworkforcenns	youngnnmanpowernns	immaturejjhandsnns	immaturejjworkforcenns	immaturejjtheynns	youngnessnnmanpowernns	youngnnhandsnns	youngjjhandsnns	immaturejjmanpowernns	youngjjwork_forcenns	youngnessnnwork_forcenns	
+
+BE: 50CD%NN
+EQ class: fiftycd%.nn	5.0.cd%.nn	5.0.cd%nn	50cd%.nn	fiftycd%nn	lcd%nn	lcd%.nn	
+
+BE: myPRP$husbandNN
+EQ class: husbandnnofinmyprp$	myprp$hubbynn	husbandlyvbmyprp$	myprp$husbandlyjj	hubbynnofinmyprp$	myprp$husbandlyvb	husbandlyjjofinmyprp$	myprp$married_mannn	married_mannnofinmyprp$	
+
+BE: WestLocationAnnotationPointNNP
+EQ class: pointnnpofinwestlocationannotation	
+
+BE: husbandNNsVBZ
+EQ class: husbandlyjjsvbz	hubbynnsvbz	married_mannnsvbz	
+
+BE: classNNsentVBD
+EQ class: sendingnncategorynn	sendingnnofinfamilynn	familynndirectvbd	categorynnsentvbd	classnndirectvbd	sendingnnofinclassnn	sendingnnfamilynn	categorynndirectvbd	sendingnnclassnn	categorynnsendvbd	familynnsentvbd	sendingnnofincategorynn	familynnsendvbd	classnnsendvbd	
+
+BE: theyPRPcameVBD
+EQ class: approachnnofincommentsprp	comingnnnationprp	comingnnofinnationprp	approachingnnnationprp	politicsprpcome_upvbd	approachingnnofintheyprp	approachnnofinpoliticsprp	nationprpcomevbd	theyprpcome_upvbd	comingnnpoliticsprp	commentsprpcamevbd	nationprpcamevbd	menprpcomevbd	comingnnofinpoliticsprp	approachingnnofinpoliticsprp	approachingnnofinmenprp	commentsprpcomevbd	comingnnmenprp	approachingnnofincommentsprp	approachnnmenprp	approachingnncommentsprp	politicsprpcamevbd	approachnnpoliticsprp	comingnnofincommentsprp	approachnnofinmenprp	approachnncommentsprp	approachnntheyprp	comingnnofinmenprp	comingnncommentsprp	comingnnofintheyprp	approachingnnofinnationprp	nationprpcome_upvbd	comingnntheyprp	approachingnnmenprp	theyprpcomevbd	politicsprpcomevbd	approachnnnationprp	menprpcome_upvbd	approachingnnpoliticsprp	approachingnntheyprp	approachnnofintheyprp	commentsprpcome_upvbd	approachnnofinnationprp	menprpcamevbd	
+
+BE: sentVBDhalfNN
+EQ class: sendingnnofinone-halfnn	sendvbdhalfnn	directvbdone-halfnn	sentvbdone-halfnn	directvbdhalfnn	sendingnnofinhalfnn	sendvbdone-halfnn	
+
+BE: sentVBD%NN
+EQ class: directvbd%.nn	directvbd%nn	sendvbd%nn	sentvbd%.nn	sendingnnofin%nn	sendvbd%.nn	sendingnnofin%.nn	
+
+BE: classNNfromINPointNNP
+EQ class: pointnnpclassifyvb	sortvbpointnnp	familynnfrominpointnnp	classifyvbpointnnp	categorynnfrominpointnnp	pointnnpassortvb	pointnnpclassnn	sort_outvbpointnnp	pointnnpsortvb	pointnnpseparatevb	pointnnpsort_outvb	separatevbpointnnp	assortvbpointnnp	classvbpointnnp	pointnnpfamilynn	pointnnpcategorynn	pointnnpclassvb	
+
+BE: halfNNofINmenNNS
+EQ class: work_forcennsone-halfnn	theynnsone-halfnn	halfnnofinhandsnns	one-halfnnofinhandsnns	one-halfnnofinmennns	one-halfnnofinthemnns	manpowernnsone-halfnn	halfnnofintheynns	handsnnshalfnn	themnnsone-halfnn	one-halfnnofinworkforcenns	mennnsone-halfnn	halfnnofinthemnns	halfnnofinworkforcenns	halfnnofinwork_forcenns	handsnnsone-halfnn	one-halfnnofinwork_forcenns	workforcennsone-halfnn	one-halfnnofinmanpowernns	theynnshalfnn	one-halfnnofintheynns	mennnshalfnn	work_forcennshalfnn	themnnshalfnn	halfnnofinmanpowernns	workforcennshalfnn	manpowernnshalfnn	
+
+BE: menNNStoTOVietnamLocationAnnotation
+EQ class: vietnamesennhandsnns	manpowernnstotoassociation_of_southeast_asian_nationsnn	workforcennstotoannamesenn	aseannnmanpowernns	aseannnthemnns	aseannnhandsnns	annamesennhandsnns	association_of_southeast_asian_nationsnnmanpowernns	workforcennstotoaseannn	association_of_southeast_asian_nationsnnwork_forcenns	themnnstotovietnamesenn	themnnstotoaseannn	annamesennthemnns	manpowernnstotovietnamesenn	association_of_southeast_asian_nationsnnworkforcenns	themnnstotovietnamlocationannotation	workforcennstotovietnamlocationannotation	mennnstotoaseannn	mennnstotoannamesenn	handsnnstotoaseannn	work_forcennstotoaseannn	vietnamlocationannotationthemnns	vietnamesennmanpowernns	vietnamesennmennns	association_of_southeast_asian_nationsnnmennns	theynnstotovietnamesenn	workforcennstotovietnamesenn	vietnamesennthemnns	annamesennmennns	aseannnwork_forcenns	annamesennworkforcenns	theynnstotovietnamlocationannotation	mennnstotoassociation_of_southeast_asian_nationsnn	vietnamlocationannotationmennns	vietnamesenntheynns	themnnstotoassociation_of_southeast_asian_nationsnn	association_of_southeast_asian_nationsnnthemnns	work_forcennstotovietnamesenn	vietnamesennwork_forcenns	handsnnstotovietnamlocationannotation	mennnstotovietnamesenn	association_of_southeast_asian_nationsnnhandsnns	aseannnworkforcenns	handsnnstotovietnamesenn	manpowernnstotoannamesenn	association_of_southeast_asian_nationsnntheynns	theynnstotoassociation_of_southeast_asian_nationsnn	vietnamlocationannotationworkforcenns	vietnamlocationannotationmanpowernns	vietnamlocationannotationwork_forcenns	aseannntheynns	theynnstotoaseannn	vietnamesennworkforcenns	themnnstotoannamesenn	vietnamlocationannotationtheynns	workforcennstotoassociation_of_southeast_asian_nationsnn	handsnnstotoassociation_of_southeast_asian_nationsnn	vietnamlocationannotationhandsnns	work_forcennstotoassociation_of_southeast_asian_nationsnn	annamesennwork_forcenns	manpowernnstotovietnamlocationannotation	annamesennmanpowernns	handsnnstotoannamesenn	theynnstotoannamesenn	work_forcennstotovietnamlocationannotation	annamesenntheynns	manpowernnstotoaseannn	aseannnmennns	work_forcennstotoannamesenn	
+
+BE: sVBZatINtimeNN
+EQ class: svbzatinclipnn	
+
+BE: cameVBDneverRB
+EQ class: approachnnofinneverrb	comingnnofinneverrb	come_upvbdneverrb	comevbdneverrb	approachingnnofinneverrb	
+
+BE: cameVBDbackRB
+EQ class: approachnnofinbackrb	comingnnofinbackrb	approachingnnofinbackrb	comevbdbackrb	come_upvbdbackrb	
+
+BE: nightmareNN
+EQ class: incubusnn	
+
+BE: nationOrganizationAnnotation
+EQ class: 
+
+BE: ourPRP$nationOrganizationAnnotation
+EQ class: nationorganizationannotationofinourprp$	
+
+BE: politicsNNS
+EQ class: political_relationnns	theynns	themnns	
+
+BE: everyoneNN
+EQ class: 
+
+BE: countryNN
+EQ class: nationnn	commonwealthnn	res_publicann	landnn	statenn	body_politicnn	
+
+BE: hatedVBN
+EQ class: hatevbn	detestvbn	
+
+BE: tainedVBD
+EQ class: 
+
+BE: ourPRP$countryNN
+EQ class: nationnnofinourprp$	ourprp$body_politicnn	countrynnofinourprp$	ourprp$commonwealthnn	landnnofinourprp$	body_politicnnofinourprp$	ourprp$landnn	ourprp$res_publicann	res_publicannofinourprp$	commonwealthnnofinourprp$	ourprp$nationnn	ourprp$statenn	statennofinourprp$	
+
+BE: itPRPtainedVBD
+EQ class: 
+
+BE: hatedVBNpoliticsNNS
+EQ class: haternnofinpoliticsnns	hatrednnofinpolitical_relationnns	haternnofinthemnns	haternnofinpolitical_relationnns	hatennofinpolitical_relationnns	hatevbnthemnns	hatevbntheynns	hatennofinthemnns	hatedvbnpolitical_relationnns	detestvbnthemnns	hatevbnpoliticsnns	hatennofinpoliticsnns	hatevbnpolitical_relationnns	haternnofintheynns	hatrednnofinthemnns	hatedvbnthemnns	detestvbnpolitical_relationnns	detestvbnpoliticsnns	hatedvbntheynns	hatennofintheynns	hatrednnofintheynns	hatrednnofinpoliticsnns	detestvbntheynns	
+
+BE: tainedVBDeveryoneNN
+EQ class: 
+
+BE: hatedVBNiPRP
+EQ class: hatrednnofiniprp	haternnofiniprp	detestvbniprp	hatennofiniprp	hatevbniprp	
+
+BE: everyoneNNinINcountryNN
+EQ class: everyonennininbody_politicnn	everyonennininnationnn	everyonennininlandnn	everyonenninincommonwealthnn	everyonennininres_publicann	everyonennininstatenn	
+

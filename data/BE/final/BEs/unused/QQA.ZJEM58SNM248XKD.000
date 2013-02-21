@@ -1,0 +1,35 @@
+#tension happen in brain and love is felt in heart,then why do people get heart attack when in tension and why?
+#(S1 (S (S (S (NP (NN tension)) (VP (VB happen) (PP (IN in) (NP (NN brain) (CC and) (NN love))))) (VP (AUX is) (VP (VBN felt) (PP (IN in) (NP (NN heart)))))) (, ,) (RB then) (SBARQ (WHADVP (WRB why)) (SQ (AUX do) (NP (NNS people)) (VP (VB get) (NP (NN heart) (NN attack)) (SBAR (WHADVP (WRB when)) (FRAG (PP (IN in) (NP (NN tension))) (CC and) (WHADVP (WRB why)))))) (. ?))))
+#Rule:Nouns
+r1tensionNN
+r1brainNN
+r1loveNN
+r1heartNN
+r1peopleNNS
+r1heartNN
+r1attackNN
+r1tensionNN
+
+#Rule:Verbs
+r2happenVB
+r2feltVBN
+r2getVB
+
+#Rule:N-HeadNoun
+r8heartNNattackNN
+
+#Rule:HeadNoun-V
+r11tensionNNhappenVB
+
+#Rule:V-HeadNoun
+r21getVBattackNN
+
+#Rule:PPinVP
+r30happenVBinINbrainNN
+
+#Rule:PPinVP
+r32feltVBNinINheartNN
+
+@lemmas-left	love	heart	get	felt	attack	happen	people	brain	tension	
+@lemmas-right	heart	attack	happen	brain	
+@lemmas-center	in	

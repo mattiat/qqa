@@ -1,0 +1,100 @@
+#How do you stop an appendicitis from happening? Is there a way to cleanse it??
+#(S1 (SBARQ (WHADVP (WRB How)) (SQ (SQ (AUX do) (NP (PRP you)) (VP (VB stop) (NP (DT an) (NN appendicitis)) (PP (IN from) (S (VP (VBG happening))))) (. ?)) (SQ (VP (AUX Is) (ADVP (RB there)) (NP (NP (DT a) (NN way)) (SBAR (S (VP (TO to) (VP (VB cleanse) (NP (PRP it))))))))) (. ?)) (. ?)))
+#Rule:Nouns
+r1appendicitisNN
+r1wayNN
+
+#Rule:Verbs
+r2stopVB
+r2happeningVBG
+r2cleanseVB
+
+#Rule:HeadNoun-(who/that)-V
+r14wayNNcleanseVB
+
+#Rule:V-HeadNoun
+r21stopVBappendicitisNN
+r21isAUXwayNN
+r21cleanseVBitLocationAnnotation
+
+#Rule:V-ADV
+r46isAUXthereRB
+
+#I know My appendics is about to flare up.  I need to jknow if there is a way to avoid this by cleaning it out etc..
+#(S1 (S (NP (PRP I)) (VP (VBP know) (SBAR (S (NP (PRP$ My) (NN appendics)) (VP (AUX is) (VP (IN about) (S (VP (TO to) (VP (VB flare) (S (VP (VBG up.) (SBAR (S (NP (PRP I)) (VP (AUX need) (S (VP (TO to) (VP (VB jknow) (SBAR (IN if) (S (NP (EX there)) (VP (AUX is) (NP (NP (DT a) (NN way)) (SBAR (S (VP (TO to) (VP (VB avoid) (NP (DT this)) (PP (IN by) (S (VP (VBG cleaning) (NP (PRP it)) (PP (IN out) (NP (FW etc) (. .)))))))))))))))))))))))))))))) (. .)))
+#Rule:Nouns
+r1appendicsNN
+r1wayNN
+
+#Rule:Verbs
+r2knowVBP
+r2flareVB
+r2upVBG
+r2jknowVB
+r2avoidVB
+r2cleaningVBG
+
+#Rule:PRP-Noun
+r6myPRP$appendicsNN
+
+#Rule:HeadNoun-V
+r11iPRPknowVBP
+r11iPRPneedAUX
+r11thereEXisAUX
+
+#Rule:HeadNoun-(who/that)-V
+r14wayNNavoidVB
+
+#Rule:V-HeadNoun
+r21isAUXwayNN
+r21avoidVBthisDT
+r21cleaningVBGitPRP
+
+#Rule:PPinVP
+r30cleaningVBGoutIN..
+
+#Rule:V-IN-V
+r43jknowVBifINisAUX
+
+#I already know all the medical aspects of an appendicitis.  I need to know if there is something you can do to prevent surgery.
+#(S1 (S (NP (PRP I)) (ADVP (RB already)) (VP (VBP know) (NP (NP (PDT all) (DT the) (JJ medical) (NNS aspects)) (PP (IN of) (NP (NP (DT an) (NN appendicitis.)) (SBAR (S (NP (PRP I)) (VP (AUX need) (S (VP (TO to) (VP (VB know) (SBAR (IN if) (S (NP (EX there)) (VP (AUX is) (NP (NP (NN something)) (SBAR (S (NP (PRP you)) (VP (MD can) (VP (AUX do) (S (VP (TO to) (VP (VB prevent) (NP (NN surgery))))))))))))))))))))))) (. .)))
+#Rule:Nouns
+r1aspectsNNS
+r1appendicitisNN
+r1somethingNN
+r1surgeryNN
+
+#Rule:Verbs
+r2knowVBP
+r2knowVB
+r2preventVB
+
+#Rule:Adjs
+r4medicalJJ
+
+#Rule:Adj-Noun
+r5medicalJJaspectsNNS
+
+#Rule:HeadNoun-V
+r11iPRPknowVBP
+r11iPRPneedAUX
+r11thereEXisAUX
+r11youPRPdoAUX
+
+#Rule:V-HeadNoun
+r21knowVBPaspectsNNS
+r21isAUXsomethingNN
+r21preventVBsurgeryNN
+
+#Rule:PPinNP
+r26aspectsNNSofINappendicitisNN
+
+#Rule:V-IN-V
+r43knowVBifINisAUX
+
+#Rule:V-ADV
+r46knowVBPalreadyRB
+
+@lemmas-left	stop	appendics	appendicitis.	aspects	way	surgery	avoid	medical	clean	jknow	something	happen	be	appendicitis	is	cleaning	happening	up.	you	prevent	know	my	up	i	cleanse	aspect	there	flare	
+@lemmas-right	need	appendicitis	appendics	is	appendicitis.	it	aspects	way	already	.	know	surgery	cleanse	avoid	aspect	there	do	something	this	be	
+@lemmas-center	of	if	out	

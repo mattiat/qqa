@@ -1,0 +1,141 @@
+#You guys aren t helping..how do i hide it .No upstanding and caring person is going to tell you how to hide it because it s not something that is good for you!!
+#(S1 (S (NP (PRP You) (NNS guys)) (VP (VBP aren) (SBAR (NP (JJ t) (VBG helping) (NNS ..)) (SBARQ (WHADVP (WRB how)) (SQ (AUX do) (NP (PRP i)) (VP (VB hide) (SBAR (S (NP (PRP it)) (VP (VBZ .No) (SBAR (S (NP (VBG upstanding) (CC and) (VBG caring) (NN person)) (VP (AUX is) (VP (VBG going) (S (VP (TO to) (VP (VB tell) (NP (PRP you)) (SBAR (WHADVP (WRB how)) (S (VP (TO to) (VP (VB hide) (NP (PRP it)) (SBAR (IN because) (S (NP (PRP it)) (VP (VBZ s) (RB not) (NP (NP (NN something)) (SBAR (WHNP (WDT that)) (S (VP (AUX is) (ADJP (JJ good) (PP (IN for) (NP (PRP you))))))))))))))))))))))))))) (. !)))) (. !)))
+#Rule:Nouns
+r1guysNNS
+r1..NNS
+r1personNN
+r1somethingNN
+
+#Rule:Verbs
+r2arenPersonAnnotation
+r2helpingVBG
+r2hideVB
+r2.noVBZ
+r2upstandingVBG
+r2caringVBG
+r2goingVBG
+r2tellVB
+r2hideVB
+r2sVBZ
+
+#Rule:Adjs
+r4tJJ
+r4goodJJ
+
+#Rule:Adj-Noun
+r5tJJ..NNS
+r5helpingVBG..NNS
+r5upstandingVBGpersonNN
+r5caringVBGpersonNN
+
+#Rule:HeadNoun-V
+r11guysNNSarenPersonAnnotation
+r11itPRP.noVBZ
+r11personNNgoingVBG
+r11itPRPsVBZ
+
+#Rule:HeadNoun-(who/that)-V
+r14somethingNNisAUX
+
+#Rule:V-HeadNoun
+r21tellVByouPRP
+r21hideVBitPRP
+r21sVBZsomethingNN
+
+#Rule:V-ADJ
+r25isAUXgoodJJ
+
+#Rule:PPinADJP
+r37goodJJforINyouPRP
+
+#Rule:V-IN-V
+r43hideVBbecauseINsVBZ
+
+#Rule:V-V
+r44goingVBGtellVB
+
+#Rule:V-ADV
+r46sVBZnotRB
+
+#We can offer advice. You can loose the weight without starving yourself. It s all in the mind, you just have to commit to a program. Diet and exercise. You need to talk to a consular and then a nutritionist. Work on your self-esteem.  I know you can do it. You can accomplish anything you put your mind to, I PROMISE. Good Luck!!
+#(S1 (S (NP (PRP We)) (VP (MD can) (VP (VB offer) (NP (FW advice.)) (SBAR (S (NP (PRP You)) (VP (MD can) (VP (VB loose) (NP (DT the) (NN weight)) (PP (IN without) (S (VP (VBG starving) (NP (NP (NNS yourself.)) (SBAR (S (NP (PRP It)) (VP (VBZ s) (SBAR (DT all) (S (PP (IN in) (NP (DT the) (NN mind))) (, ,) (NP (PRP you)) (ADVP (RB just)) (VP (AUX have) (S (VP (TO to) (VP (VB commit) (PP (TO to) (NP (NP (DT a) (JJ program.) (NNP Diet) (CC and) (FW exercise.)) (SBAR (S (NP (PRP You)) (VP (AUX need) (S (VP (TO to) (VP (VP (VB talk) (PP (TO to) (NP (DT a) (NN consular)))) (CC and) (RB then) (VP (NP (DT a) (NN nutritionist.) (NN Work)) (PP (IN on) (NP (NP (PRP$ your) (NN self-esteem.)) (SBAR (S (NP (PRP I)) (VP (VBP know) (SBAR (S (NP (PRP you)) (VP (MD can) (VP (AUX do) (NP (NP (NN it.)) (SBAR (S (NP (PRP You)) (VP (MD can) (VP (VB accomplish) (NP (NP (NN anything)) (SBAR (S (NP (PRP you)) (VP (VBP put) (NP (PRP$ your) (NN mind)) (PP (TO to)) (, ,) (S (NP (PRP I)) (VP (VB PROMISE.) (NP (JJ Good) (NN Luck))) (. !)))))))))))))))))))))))))))))))))))))))))))))))) (. !)))
+#Rule:Nouns
+r1weightNN
+r1yourselfNNS
+r1mindNN
+r1DietPersonAnnotation
+r1consularNN
+r1nutritionistNN
+r1WorkNN
+r1self-esteemNN
+r1itNN
+r1anythingNN
+r1mindNN
+r1Luck!!PersonAnnotation
+
+#Rule:Verbs
+r2offerVB
+r2looseVB
+r2starvingVBG
+r2It sPersonAnnotation
+r2commitVB
+r2talkVB
+r2knowVBP
+r2accomplishVB
+r2putVBP
+r2I PROMIOrganizationAnnotation
+
+#Rule:Adjs
+r4programJJ
+r4GoodJJ
+
+#Rule:Adj-Noun
+r5programJJDietPersonAnnotation
+r5GoodJJLuck!!PersonAnnotation
+
+#Rule:PRP-Noun
+r6yourPRP$self-esteemNN
+r6yourPRP$mindNN
+
+#Rule:N-HeadNoun
+r8nutritionistNNWorkNN
+
+#Rule:HeadNoun-V
+r11wePRPofferVB
+r11youPRPlooseVB
+r11youPRPhaveAUX
+r11youPRPneedAUX
+r11iPRPknowVBP
+r11youPRPdoAUX
+r11youPRPaccomplishVB
+r11youPRPputVBP
+
+#Rule:NP(NP(z) SBAR(S(NP(x)VP(y))))
+r19It sPersonAnnotationyourselfNNS
+r19knowVBPself-esteemNN
+
+#Rule:V-HeadNoun
+r21offerVBadviceFW
+r21looseVBweightNN
+r21starvingVBGyourselfNNS
+r21doAUXitNN
+r21accomplishVBanythingNN
+r21putVBPmindNN
+r21I PROMIOrganizationAnnotationLuck!!PersonAnnotation
+
+#Rule:V-HeadNoun
+r22putVBPI PROMIOrganizationAnnotation
+
+#Rule:PPinVP
+r30commitVBtoTODietPersonAnnotation
+r30talkVBtoTOconsularNN
+
+#Rule:PPinS
+r36haveAUXinINmindNN
+
+#Rule:V-ADV
+r46haveAUXjustRB
+
+@lemmas-left	person	no	good	loose	guys	help	hide	commit	..	care	something	yourself	be	I PROMI	work	self-esteem	going	yourself.	starving	starve	program	.no	Diet	we	go	Good	accomplish	weight	put	have	aren	Work	it.	nutritionist.	upstanding	do	tell	mind	talk	program.	is	it	guy	your	esteem	you	offer	Luck!!	know	i	consular	t	anything	s	It s	helping	nutritionist	caring	
+@lemmas-right	need	accomplish	person	weight	put	have	aren	no	Work	good	loose	it.	..	do	tell	yourself	something	mind	I PROMI	be	just	self-esteem	work	advice.	is	going	it	esteem	yourself.	you	offer	Luck!!	know	consular	not	anything	s	.no	Diet	advice	go	
+@lemmas-center	to	because	for	in	

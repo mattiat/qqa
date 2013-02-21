@@ -1,0 +1,51 @@
+#Watch your diet and make sure you exercise.  
+#(S1 (S (VP (VP (VB Watch) (NP (PRP$ your) (NN diet))) (CC and) (VP (VB make) (ADJP (JJ sure) (SBAR (S (NP (PRP you)) (VP (VBP exercise))))))) (. .)))
+#Rule:Nouns
+r1dietNN
+
+#Rule:Verbs
+r2watchVB
+r2makeVB
+r2exerciseVBP
+
+#Rule:Adjs
+r4sureJJ
+
+#Rule:PRP-Noun
+r6yourPRP$dietNN
+
+#Rule:HeadNoun-V
+r11youPRPexerciseVBP
+
+#Rule:V-HeadNoun
+r21watchVBdietNN
+
+#Cut out animal fats and increase eating fish and try to relax more.
+#(S1 (S (VP (VP (VB Cut) (PRT (RP out)) (NP (NN animal) (NNS fats))) (CC and) (VP (VB increase) (S (VP (VBG eating) (NP (NN fish))))) (CC and) (VP (VB try) (S (VP (TO to) (VP (VB relax) (ADVP (RBR more))))))) (. .)))
+#Rule:Nouns
+r1animalNN
+r1fatsNNS
+r1fishNN
+
+#Rule:Verbs
+r2increaseVB
+r2eatingVBG
+r2tryVB
+r2relaxVB
+
+#Rule:V-PRT
+r3cutVBoutRP
+
+#Rule:N-HeadNoun
+r8animalNNfatsNNS
+
+#Rule:V-HeadNoun
+r21cutVBfatsNNS
+r21eatingVBGfishNN
+
+#Rule:V-V
+r44tryVBrelaxVB
+
+@lemmas-left	diet	relax	watch	fish	your	fat	exercise	you	fats	eating	increase	eat	cut	make	try	sure	animal	
+@lemmas-right	diet	relax	fish	fat	fats	exercise	out	
+@lemmas-center	

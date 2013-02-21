@@ -1,0 +1,85 @@
+#All angles are 60??
+#(S1 (S (NP (DT All) (NNS angles)) (VP (AUX are) (NP (CD 60) (. ?))) (. ?)))
+#Rule:Nouns
+r1anglesNNS
+
+#Rule:HeadNoun-V
+r11anglesNNSareAUX
+
+#Rule:V-HeadNoun
+r21areAUX60CD
+
+#Rule:IS-RULE
+r4760CDanglesNNS
+
+#Area = (1/2) (b) (h)Area = (1/2) (b) (b sin 60??)
+#(S1 (NP (NP (NNP Area) (SYM =) (-LRB- -LRB-) (NP (CD 1/2)) (-RRB- -RRB-) (-LRB- -LRB-) (NP (NNP b)) (-RRB- -RRB-)) (PRN (-LRB- -LRB-) (NP (NNP h)) (-RRB- -RRB-)) (NP (NP (NP (NNP Area) (SYM =) (-LRB- -LRB-) (NP (CD 1/2)) (-RRB- -RRB-) (-LRB- -LRB-) (NP (NNP b)) (-RRB- -RRB-) (-LRB- -LRB-)) (NNP b) (NN sin)) (NP (CD 60) (NNS ??))) (-RRB- -RRB-)))
+#Rule:Nouns
+r1Area =PersonAnnotation
+r1bNNP
+r1h)AreaLocationAnnotation
+r1bNNP
+r1bNNP
+r1sinNN
+r1??NNS
+
+#Rule:Adj-Noun
+r560CD??NNS
+
+#Rule:N-HeadNoun
+r8bNNPsinNN
+
+#Area = (1/2) b ?? 
+#(S1 (S (NP (NN Area)) (VP (SYM =) (S (-LRB- -LRB-) (NP (PRP 1/2)) (-RRB- -RRB-) (NP (NNP b)) (. ?))) (. ?)))
+#Rule:Nouns
+r1Area =PersonAnnotation
+r1bNNP
+
+#Rule:V-HeadNoun
+r22Area =PersonAnnotation1/2PRP
+r22Area =PersonAnnotationbNNP
+
+#(???
+#(S1 (S (-LRB- -LRB-) (VP (VB ??)) (. ?)))
+#Rule:Verbs
+r2??VB
+
+#3 / 2)Area = (???
+#(S1 (S (LST (LS 3)) (VP (VB /) (S (LST (LS 2) (-RRB- -RRB-)) (NP (NNP Area) (SYM =)) (ADJP (-LRB- -LRB-) (JJ ??)))) (. ?)))
+#Rule:Nouns
+r1Area =PersonAnnotation
+
+#Rule:Verbs
+r2/VB
+
+#Rule:Adjs
+r4??JJ
+
+#Rule:V-HeadNoun
+r22/VBArea =PersonAnnotation
+
+#3 / 4) (36) cm ??
+#(S1 (FRAG (NP (LST (LS 3)) (NP (NNP /) (CD 4)) (-RRB- -RRB-) (-LRB- -LRB-) (NP (CD 36)) (-RRB- -RRB-) (FW cm) (. ?)) (. ?)))
+#Rule:Nouns
+r1/NNP
+
+#Rule:Adj-Noun
+r54CD/NNP
+
+#Area = 9???
+#(S1 (S (NP (NN Area)) (VP (SYM =) (NP (CD 9) (NN ??))) (. ?)))
+#Rule:Nouns
+r1Area = 9LocationAnnotation
+r1??NN
+
+#Rule:Adj-Noun
+r5Area = 9LocationAnnotation??NN
+
+#3 cm ??
+#(S1 (FRAG (ADJP (CD 3) (NN cm)) (. ?) (. ?)))
+#Rule:Nouns
+r1cmNN
+
+@lemmas-left	Area = 9	b	/	angle	angles	??	are	cm	sin	4	h)Area	60	Area =	be	
+@lemmas-right	angles	??	are	b	sin	1/2	60	/	Area =	angle	be	
+@lemmas-center	

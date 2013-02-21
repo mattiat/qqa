@@ -1,0 +1,22 @@
+#Don t forget Saddam Hussein!
+#(S1 (S (NP (NNP Don) (NNP t)) (VP (VB forget) (NP (NNP Saddam) (NNP Hussein))) (. !)))
+#Rule:Nouns
+r1DonPersonAnnotation
+r1tNNP
+r1Saddam HusseinPersonAnnotation
+
+#Rule:Verbs
+r2forgetVB
+
+#Rule:N-HeadNoun
+r8DonPersonAnnotationtNNP
+
+#Rule:HeadNoun-V
+r11tNNPforgetVB
+
+#Rule:V-HeadNoun
+r21forgetVBSaddam HusseinPersonAnnotation
+
+@lemmas-left	t	Saddam Hussein	Don	forget	
+@lemmas-right	t	Saddam Hussein	forget	
+@lemmas-center	

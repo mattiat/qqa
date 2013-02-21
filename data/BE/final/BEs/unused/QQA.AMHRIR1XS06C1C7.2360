@@ -1,0 +1,93 @@
+#2x/5 - 1/2 (x-3) ??? 
+#(S1 (NP (NP (NNP 2x/5)) (: -) (NP (JJ 1/2) (PRN (-LRB- -LRB-) (JJ x-3) (-RRB- -RRB-)) (NNS ??)) (. ?)))
+#Rule:Nouns
+r12x/5NNP
+r1??NNS
+
+#Rule:Adjs
+r41/2JJ
+r4x-3JJ
+
+#Rule:Adj-Noun
+r51/2JJ??NNS
+
+#2x/3 - 3/10 (x+2)2x/5 - x/2  + 3/2 ??? 
+#(S1 (NP (NP (CD 2x/3)) (: -) (NP (CD 3/10) (-LRB- -LRB-) (NN x+2) (-RRB- -RRB-) (NN 2x/5)) (: -) (NP (NP (CD x/2) (NN +)) (NP (CD 3/2) (NNS ??))) (. ?)))
+#Rule:Nouns
+r1x+2NN
+r12x/5NN
+r1+NN
+r1??NNS
+
+#Rule:Adj-Noun
+r53/10CD2x/5NN
+r5x/2CD+NN
+r53/2CD??NNS
+
+#2x/3 - 3x/10 - 6/102x/5 - x/2  - 2x / 3 + 3x/10 ??? 
+#(S1 (NP (NP (CD 2x/3)) (: -) (NP (CD 3x/10)) (: -) (NP (CD 6/102x/5)) (: -) (NP (CD x/2)) (: -) (NP (NP (CD 2x) (NN /) (QP (CD 3) (CD +))) (NP (CD 3x/10) (NNS ??))) (. ?)))
+#Rule:Nouns
+r1/NN
+r1??NNS
+
+#Rule:Adj-Noun
+r52xCD/NN
+r53CD/NN
+r5+CD/NN
+r53x/10CD??NNS
+
+#- 6/10 - 3/212x/30 - 15x/30  - 20x /30 + 9x/30 ??? 
+#(S1 (NP (: -) (NP (CD 6/10)) (: -) (NP (CD 3/212x/30)) (: -) (NP (CD 15x/30)) (: -) (NP (NP (QP (CD 20x) (CD /30)) (NN +)) (NP (CD 9x/30) (NNS ??))) (. ?)))
+#Rule:Nouns
+r1+NN
+r1??NNS
+
+#Rule:Adj-Noun
+r520xCD+NN
+r5/30CD+NN
+r59x/30CD??NNS
+
+#- 6/10 - 15/10- 14x/30 ??? 
+#(S1 (FRAG (: -) (ADJP (JJ 6/10)) (: -) (NP (NP (NN 15/10-)) (NP (CD 14x/30) (NNS ??))) (. ?)))
+#Rule:Nouns
+r115/10-NN
+r1??NNS
+
+#Rule:Adjs
+r46/10JJ
+
+#Rule:Adj-Noun
+r514x/30CD??NNS
+
+#- 21/10x ??? 
+#(S1 (FRAG (: -) (VP (VBD 21/10x) (NP (CD ??))) (. ?)))
+#Rule:Verbs
+r221/10xVBD
+
+#Rule:V-HeadNoun
+r2121/10xVBD??CD
+
+#(- 21/10) / (- 14/30)x ??? 
+#(S1 (S (NP (NP (PRN (-LRB- -LRB-) (: -) (CD 21/10) (-RRB- -RRB-)) (NNS /)) (PRN (-LRB- -LRB-) (: -) (CD 14/30) (-RRB- -RRB-))) (VP (SYM x) (NP (CD ??))) (. ?)))
+#Rule:Nouns
+r1/PersonAnnotation
+
+#(- 21/10) . (- 30/14)x ??? 
+#(S1 (S (NP (PRN (-LRB- -LRB-) (: -) (CD 21/10) (-RRB- -RRB-)) (. .) (PRN (-LRB- -LRB-) (: -) (CD 30/14) (-RRB- -RRB-)) (NNP x)) (VP (VBZ ??)) (. ?)))
+#Rule:Nouns
+r1xNNP
+
+#Rule:Verbs
+r2??VBZ
+
+#Rule:HeadNoun-V
+r11xNNP??VBZ
+
+#9/2Alejandra
+#(S1 (NP (NNP 9/2Alejandra)))
+#Rule:Nouns
+r19/2AlejandraNNP
+
+@lemmas-left	9x/30	2x	3/2	/30	+	20x	3/10	/	14x/30	x+2	3	??	9/2Alejandra	x-3	9/2alejandra	x/2	2x/5	1/2	15/10-	6/10	21/10x	3x/10	x	
+@lemmas-right	??	2x/5	+	/	x	
+@lemmas-center	

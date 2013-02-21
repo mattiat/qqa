@@ -1,0 +1,60 @@
+#I will always believe that the mets will win the world series..
+#(S1 (S (NP (PRP I)) (VP (MD will) (ADVP (RB always)) (VP (VB believe) (SBAR (IN that) (S (NP (DT the) (NNS mets)) (VP (MD will) (VP (VB win) (NP (DT the) (NN world) (NN series))))) (. .)))) (. .)))
+#Rule:Nouns
+r1metsNNS
+r1worldNN
+r1seriesNN
+
+#Rule:Verbs
+r2believeVB
+r2winVB
+
+#Rule:N-HeadNoun
+r8worldNNseriesNN
+
+#Rule:HeadNoun-V
+r11iPRPbelieveVB
+r11metsNNSwinVB
+
+#Rule:V-HeadNoun
+r21winVBseriesNN
+
+#Rule:V-IN-V
+r43believeVBthatINwinVB
+
+#Rule:V-ADV
+r46believeVBalwaysRB
+
+#They have the best chance of beating the braves for the division in the upcoming season
+#(S1 (S (NP (PRP They)) (VP (AUX have) (NP (NP (DT the) (JJS best) (NN chance)) (PP (IN of) (S (VP (VBG beating) (NP (NP (DT the) (NN braves)) (PP (IN for) (NP (NP (DT the) (NN division)) (PP (IN in) (NP (DT the) (VBG upcoming) (NN season)))))))))))))
+#Rule:Nouns
+r1chanceNN
+r1bravesNN
+r1divisionNN
+r1seasonNN
+
+#Rule:Verbs
+r2beatingVBG
+r2upcomingVBG
+
+#Rule:Adjs
+r4bestJJS
+
+#Rule:Adj-Noun
+r5bestJJSchanceNN
+r5upcomingVBGseasonNN
+
+#Rule:HeadNoun-V
+r11theyPRPhaveAUX
+
+#Rule:V-HeadNoun
+r21haveAUXchanceNN
+r21beatingVBGbravesNN
+
+#Rule:PPinNP
+r26bravesNNforINdivisionNN
+r26divisionNNinINseasonNN
+
+@lemmas-left	brave	they	series	beat	have	braves	win	chance	believe	i	upcoming	division	season	beating	best	mets	world	
+@lemmas-right	brave	series	division	season	have	braves	chance	win	always	believe	
+@lemmas-center	that	for	in	

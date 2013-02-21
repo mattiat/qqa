@@ -1,0 +1,63 @@
+#If you get a 46-49 reading your doing okay, but 50-54 your cooked badly..
+#(S1 (FRAG (SBAR (IN If) (S (NP (PRP you)) (VP (VBP get) (NP (NP (DT a) (JJ 46-49) (NN reading)) (S (NP (PRP$ your)) (VP (VBG doing) (INTJ (UH okay)) (, ,) (CC but) (VP (VB 50-54) (NP (PRP$ your) (VBN cooked)) (ADVP (RB badly)))) (. .)))))) (. .)))
+#Rule:Nouns
+r1readingNN
+
+#Rule:Verbs
+r2getVBP
+r2doingVBG
+r250-54VB
+r2cookedVBN
+
+#Rule:Adjs
+r446-49JJ
+
+#Rule:Adj-Noun
+r546-49JJreadingNN
+
+#Rule:PRP-Noun
+r6yourPRP$cookedVBN
+
+#Rule:HeadNoun-V
+r11youPRPgetVBP
+r11yourPRP$doingVBG
+r11yourPRP$50-54VB
+
+#Rule:V-HeadNoun
+r21getVBPreadingNN
+r2150-54VBcookedVBN
+
+#Rule:V-ADV
+r4650-54VBbadlyRB
+
+#So drink grapfruit juice , exercise and stay away from fried foods as much as possible.
+#(S1 (S (RB So) (VP (VP (VB drink) (NP (JJ grapfruit) (NN juice))) (, ,) (VP (VB exercise)) (CC and) (VP (VB stay) (ADVP (RB away) (PP (IN from) (NP (JJ fried) (NNS foods)))) (ADVP (ADVP (RB as) (RB much)) (PP (IN as) (ADJP (JJ possible)))))) (. .)))
+#Rule:Nouns
+r1juiceNN
+r1foodsNNS
+
+#Rule:Verbs
+r2drinkVB
+r2exerciseVB
+r2stayVB
+
+#Rule:Adjs
+r4grapfruitJJ
+r4friedJJ
+r4possibleJJ
+
+#Rule:Adj-Noun
+r5grapfruitJJjuiceNN
+r5friedJJfoodsNNS
+
+#Rule:V-HeadNoun
+r21drinkVBjuiceNN
+
+#Rule:V-ADV
+r46stayVBawayRB
+r46stayVBasRB
+r46stayVBmuchRB
+
+@lemmas-left	cook	reading	stay	get	your	exercise	you	fried	cooked	46-49	possible	foods	food	drink	juice	doing	grapfruit	50-54	do	
+@lemmas-right	cook	reading	get	as	cooked	much	away	foods	food	juice	doing	50-54	do	badly	
+@lemmas-center	

@@ -1,0 +1,513 @@
+BE: reasonNN
+EQ class: groundnn	
+
+BE: peopleNNS
+EQ class: theynns	themnns	
+
+BE: drugNN
+EQ class: 
+
+BE: addictNN
+EQ class: nutnn	junkienn	freaknn	junkynn	
+
+BE: thinkVBP
+EQ class: conceivevbp	believevbp	considervbp	
+
+BE: treatedVBN
+EQ class: do_byvbn	treatvbn	handlevbn	
+
+BE: mainJJ
+EQ class: masterjj	chiefjj	principaljj	primaryjj	
+
+BE: obeseJJ
+EQ class: weightyjj	obesitynn	corpulentjj	rotundjj	
+
+BE: mainJJreasonNN
+EQ class: concludevbmainlyrb	reason_outvbmainlyrb	masterjjreasonnn	principaljjgroundnn	masterjjgroundnn	primaryjjreasonnn	reasonvbmainlyrb	chiefjjgroundnn	chiefjjreasonnn	mainjjgroundnn	primaryjjgroundnn	principaljjreasonnn	
+
+BE: obeseJJpeopleNNS
+EQ class: obesitynnpeoplenns	weightyjjpeoplenns	corpulentjjpeoplenns	corpulentjjthemnns	obesejjthemnns	obesejjtheynns	weightyjjtheynns	obesitynnthemnns	rotundjjpeoplenns	rotundjjthemnns	obesitynntheynns	corpulentjjtheynns	weightyjjthemnns	rotundjjtheynns	
+
+BE: drugNNaddictNN
+EQ class: junkiennofindrugnn	hookvbdrugnn	sedationnnofinfreaknn	drugnnofinaddictnn	sedationnnofinjunkynn	drugnnjunkynn	drugnnnutnn	drugnnofinjunkienn	sedationnnofinjunkienn	junkynndrugvb	sedationnnofinaddictnn	junkynnofindrugnn	druggingnnofinfreaknn	addictnnofindrugnn	druggingnnofinjunkynn	addictnndrugvb	junkynndosevb	junkienndosevb	sedationnnofinnutnn	druggingnnofinaddictnn	freaknnofindrugnn	drugnnofinjunkynn	druggingnnofinjunkienn	nutnndosevb	drugnnaddictvb	drugnnofinfreaknn	junkienndrugvb	addictnndosevb	drugnnhookvb	drugnnfreaknn	drugnnjunkienn	drugnnofinnutnn	addictvbdrugnn	freaknndosevb	freaknndrugvb	druggingnnofinnutnn	nutnndrugvb	nutnnofindrugnn	
+
+BE: iPRPthinkVBP
+EQ class: iprpbelievevbp	iprpconceivevbp	thoughtnnofiniprp	ideanniprp	iprpconsidervbp	ideannofiniprp	thoughtnniprp	
+
+BE: reasonNNisAUX
+EQ class: reasonnnbeaux	groundnnbeaux	groundnnisaux	
+
+BE: treatedVBNpeopleNNS
+EQ class: do_byvbnthemnns	treatedvbnthemnns	treatedvbntheynns	handlevbnthemnns	treatvbnpeoplenns	treatvbnthemnns	do_byvbnpeoplenns	treatvbntheynns	handlevbnpeoplenns	handlevbntheynns	do_byvbntheynns	
+
+BE: treatedVBNasINaddictNN
+EQ class: treatvbnasinaddictnn	handlevbnasinjunkienn	treatedvbnasinjunkynn	handlevbnasinfreaknn	treatedvbnasinjunkienn	treatvbnasinjunkynn	do_byvbnasinjunkienn	treatedvbnasinfreaknn	do_byvbnasinjunkynn	do_byvbnasinaddictnn	treatvbnasinfreaknn	do_byvbnasinnutnn	treatedvbnasinnutnn	treatvbnasinjunkienn	treatvbnasinnutnn	handlevbnasinjunkynn	do_byvbnasinfreaknn	handlevbnasinaddictnn	handlevbnasinnutnn	
+
+BE: thinkVBPthatINisAUX
+EQ class: conceivevbpthatinbeaux	believevbpthatinisaux	considervbpthatinbeaux	thinkvbpthatinbeaux	believevbpthatinbeaux	conceivevbpthatinisaux	considervbpthatinisaux	
+
+BE: isAUXthatINtreatedVBN
+EQ class: isauxthatintreatvbn	isauxthatinhandlevbn	isauxthatindo_byvbn	beauxthatinhandlevbn	beauxthatintreatedvbn	beauxthatindo_byvbn	beauxthatintreatvbn	
+
+BE: problemNN
+EQ class: jobnn	problematicaljj	problematicjj	
+
+BE: obeseNN
+EQ class: 
+
+BE: drugNN
+EQ class: 
+
+BE: addictsNNS
+EQ class: freaknns	junkienns	junkynns	nutnns	theynns	addictnns	themnns	
+
+BE: habitsNNS
+EQ class: habitnns	theynns	wontnns	themnns	
+
+BE: drugNN
+EQ class: 
+
+BE: causingVBG
+EQ class: makevbg	causevbg	dovbg	
+
+BE: eatVB
+EQ class: 
+
+BE: mainJJ
+EQ class: masterjj	chiefjj	principaljj	primaryjj	
+
+BE: mainJJproblemNN
+EQ class: principaljjjobnn	primaryjjproblematicjj	principaljjproblemnn	problematicvbmainlyrb	mainjjjobnn	problematicalvbmainlyrb	mainjjproblematicjj	primaryjjproblematicaljj	masterjjproblemnn	chiefjjproblematicjj	mainjjproblematicaljj	primaryjjproblemnn	chiefjjproblematicaljj	principaljjproblematicaljj	chiefjjproblemnn	primaryjjjobnn	masterjjproblematicaljj	masterjjjobnn	chiefjjjobnn	masterjjproblematicjj	principaljjproblematicjj	
+
+BE: drugNNaddictsNNS
+EQ class: sedationnnofintheynns	sedationnnofinaddictnns	addictnnsofindrugnn	drugnnnutnns	drugnnofinjunkienns	freaknnsdosevb	druggingnnofinfreaknns	drugnntheynns	addictsnnsdosevb	addictsnnsofindrugnn	junkynnsdosevb	sedationnnofinthemnns	sedationnnofinjunkienns	theynnsdosevb	drugnnjunkynns	drugnnofinnutnns	drugnnofinaddictsnns	drugnnfreaknns	drugnnthemnns	druggingnnofinjunkynns	sedationnnofinaddictsnns	theynnsofindrugnn	sedationnnofinfreaknns	druggingnnofinaddictsnns	hookvbdrugnn	nutnnsdrugvb	drugnnofinaddictnns	drugnnaddictnns	druggingnnofinjunkienns	freaknnsofindrugnn	junkynnsofindrugnn	addictnnsdrugvb	drugnnofintheynns	nutnnsdosevb	junkiennsofindrugnn	sedationnnofinnutnns	sedationnnofinjunkynns	themnnsdrugvb	themnnsdosevb	drugnnofinjunkynns	drugnnofinfreaknns	freaknnsdrugvb	druggingnnofintheynns	addictnnsdosevb	theynnsdrugvb	drugnnjunkienns	druggingnnofinaddictnns	druggingnnofinnutnns	addictsnnsdrugvb	themnnsofindrugnn	drugnnaddictvb	nutnnsofindrugnn	junkiennsdrugvb	druggingnnofinthemnns	drugnnhookvb	junkynnsdrugvb	addictvbdrugnn	junkiennsdosevb	drugnnofinthemnns	
+
+BE: problemNNisAUX
+EQ class: problemnnbeaux	problematicaljjisaux	problematicjjbeaux	problematicaljjbeaux	problematicjjisaux	jobnnisaux	jobnnbeaux	
+
+BE: themPRPeatVB
+EQ class: eatingnn/>weprp	eatingnndietsprp	eaternnfactorsprp	feedernnofinfactorsprp	eaternnofinthemprp	eaternnsay-prp	eaternnofinallowancesprp	eaternnofinhabitsprp	/>weprpeatvb	eatingnnofindietsprp	feedernnofinsay-prp	eatingnnsay-prp	eatingnnthemprp	eatingnnofintaxesprp	costsprpeatvb	eatingnnofinfactorsprp	eatingnnofin/>weprp	feedingnnofincostsprp	eaternnofinaddictsprp	eaternncostsprp	feedingnnofindietsprp	eaternnofinsay-prp	eaternntaxesprp	feedernncostsprp	addictsprpeatvb	feedernnaddictsprp	eaternnofin/>authoritiesprp	feedernnofinpeopleprp	eaternndietsprp	feedernnsay-prp	dietsprpeatvb	feedernnofinaddictsprp	feedernnofindietsprp	eatingnn/>authoritiesprp	feedernnofin/>weprp	feedernnofinthemprp	feedingnnofinaddictsprp	feedingnntaxesprp	eaternnhabitsprp	/>authoritiesprpeatvb	eaternnofintaxesprp	eatingnncostsprp	feedingnnhabitsprp	eatingnnofincostsprp	feedernndietsprp	feedingnnfactorsprp	feedingnnofintaxesprp	eatingnnofin/>authoritiesprp	feedernn/>weprp	allowancesprpeatvb	eaternnthemprp	eatingnnaddictsprp	feedingnnofinfactorsprp	eatingnntaxesprp	taxesprpeatvb	feedernnofin/>authoritiesprp	feedingnnofinallowancesprp	feedingnnofinpeopleprp	say-prpeatvb	factorsprpeatvb	eaternnofincostsprp	eatingnnofinthemprp	eatingnnpeopleprp	eaternnpeopleprp	eaternn/>authoritiesprp	feedernnhabitsprp	feedingnncostsprp	feedernn/>authoritiesprp	eatingnnfactorsprp	eatingnnofinsay-prp	feedernnthemprp	feedernnofinallowancesprp	eaternnallowancesprp	eaternn/>weprp	feedingnnaddictsprp	feedingnnofin/>authoritiesprp	eaternnofinfactorsprp	feedingnnofin/>weprp	eaternnofin/>weprp	feedernntaxesprp	eaternnofindietsprp	feedingnn/>weprp	feedernnofintaxesprp	feedernnallowancesprp	feedingnnthemprp	peopleprpeatvb	feedingnndietsprp	eatingnnhabitsprp	eatingnnofinallowancesprp	eaternnofinpeopleprp	eatingnnofinpeopleprp	feedingnnpeopleprp	habitsprpeatvb	eaternnaddictsprp	eatingnnofinaddictsprp	feedingnnofinsay-prp	feedingnnofinhabitsprp	feedingnnsay-prp	eatingnnallowancesprp	eatingnnofinhabitsprp	feedernnofinhabitsprp	feedernnpeopleprp	feedingnnallowancesprp	feedingnnofinthemprp	feedernnfactorsprp	feedingnn/>authoritiesprp	feedernnofincostsprp	
+
+BE: themPRPdoAUX
+EQ class: addictsprpmakeaux	/>authoritiesprpdoaux	addictsprpdoaux	say-prpmakeaux	peopleprpmakeaux	say-prpdoaux	taxesprpdoaux	/>weprpmakeaux	allowancesprpmakeaux	costsprpmakeaux	dietsprpdoaux	peopleprpdoaux	factorsprpmakeaux	/>weprpdoaux	allowancesprpdoaux	habitsprpdoaux	costsprpdoaux	/>authoritiesprpmakeaux	dietsprpmakeaux	themprpmakeaux	habitsprpmakeaux	factorsprpdoaux	taxesprpmakeaux	
+
+BE: doAUXdrugNN
+EQ class: makeauxdrugnn	
+
+BE: causingVBGthemPRP
+EQ class: dovbgallowancesprp	makevbgdietsprp	causaljjofinaddictsprp	causativennofinsay-prp	causativennofin/>weprp	causennofinpeopleprp	causationnnofinsay-prp	causevbgsay-prp	makevbgpeopleprp	makevbghabitsprp	causaljjofintaxesprp	causingnnofinhabitsprp	causingnnofinthemprp	makevbgfactorsprp	causennofinsay-prp	causingvbgdietsprp	causingvbgtaxesprp	causennofin/>weprp	causationnnofinfactorsprp	dovbgtaxesprp	causativennofintaxesprp	causevbg/>weprp	causaljjofindietsprp	causevbghabitsprp	causennofinhabitsprp	causingnnofin/>weprp	causationnnofinthemprp	causingvbgallowancesprp	causennofin/>authoritiesprp	causativennofinpeopleprp	causativennofinthemprp	causennofinallowancesprp	causingnnofinfactorsprp	dovbgdietsprp	causationnnofincostsprp	causingvbgcostsprp	causaljjofinhabitsprp	causennofinthemprp	makevbgsay-prp	causennofincostsprp	causingvbgpeopleprp	causevbgcostsprp	causingvbgfactorsprp	causingvbg/>weprp	causingnnofindietsprp	makevbgcostsprp	causaljjofinallowancesprp	causevbgpeopleprp	makevbgallowancesprp	causennofinfactorsprp	causennofinaddictsprp	causingvbg/>authoritiesprp	causaljjofinthemprp	causingnnofinaddictsprp	makevbg/>authoritiesprp	causativennofinallowancesprp	makevbgthemprp	makevbgaddictsprp	causaljjofin/>weprp	causationnnofinaddictsprp	causingnnofincostsprp	causaljjofinsay-prp	dovbgsay-prp	causationnnofinallowancesprp	causaljjofincostsprp	causingvbgsay-prp	causaljjofin/>authoritiesprp	causevbgfactorsprp	causativennofin/>authoritiesprp	causaljjofinpeopleprp	causativennofinaddictsprp	dovbghabitsprp	causationnnofindietsprp	causevbgaddictsprp	causativennofindietsprp	causevbg/>authoritiesprp	dovbgaddictsprp	causingnnofinallowancesprp	makevbgtaxesprp	causativennofinhabitsprp	causennofintaxesprp	causingnnofinsay-prp	causingnnofinpeopleprp	dovbg/>weprp	makevbg/>weprp	dovbgcostsprp	causevbgallowancesprp	causingnnofintaxesprp	causativennofincostsprp	causevbgdietsprp	causaljjofinfactorsprp	causevbgthemprp	dovbgpeopleprp	dovbg/>authoritiesprp	causingvbghabitsprp	dovbgthemprp	causationnnofinpeopleprp	causevbgtaxesprp	dovbgfactorsprp	causingvbgaddictsprp	causativennofinfactorsprp	causationnnofin/>authoritiesprp	causingnnofin/>authoritiesprp	causationnnofinhabitsprp	causationnnofin/>weprp	causennofindietsprp	causationnnofintaxesprp	
+
+BE: habitsNNSthatINcausingVBG
+EQ class: makevbghabituatevb	habitsnnsthatinmakevbg	causingvbghabituatevb	makevbgusevb	usevbcausingvbg	causingvbgusevb	themnnsthatindovbg	usevbcausevbg	theynnsthatinmakevbg	causevbghabituatevb	habitsnnsthatincausevbg	dovbghabituatevb	habitnnsthatinmakevbg	habitnnsthatindovbg	habitsnnsthatindovbg	wontnnsthatincausingvbg	causevbgusevb	theynnsthatincausingvbg	habitnnsthatincausingvbg	theynnsthatincausevbg	habituatevbcausingvbg	wontnnsthatinmakevbg	habituatevbdovbg	wontnnsthatincausevbg	habituatevbcausevbg	usevbmakevbg	usevbdovbg	theynnsthatindovbg	habituatevbmakevbg	habitnnsthatincausevbg	themnnsthatincausevbg	wontnnsthatindovbg	dovbgusevb	themnnsthatinmakevbg	themnnsthatincausingvbg	
+
+BE: eatVBeitherRB
+EQ class: eatingnnofineitherrb	eaternnofineitherrb	feedernnofineitherrb	feedingnnofineitherrb	
+
+BE: addictionNN
+EQ class: dependencynn	dependencenn	habituationnn	dependancenn	
+
+BE: neededVBD
+EQ class: postulatevbd	involvevbd	takevbd	call_forvbd	askvbd	demandvbd	necessitatevbd	requirevbd	needvbd	
+
+BE: treatedVBN
+EQ class: do_byvbn	treatvbn	handlevbn	
+
+BE: physicalJJ
+EQ class: physicalnessnn	physicalitynn	
+
+BE: physicalJJaddictionNN
+EQ class: hookvbphysicallyrb	physicalnessnnhabituationnn	physicalnessnndependencynn	physicaljjdependancenn	physicalnessnnaddictionnn	addictvbphysicallyrb	physicalitynndependencynn	physicaljjdependencynn	physicalnessnndependencenn	physicalnessnndependancenn	physicalitynndependancenn	physicaljjdependencenn	physicaljjhabituationnn	physicalitynnaddictionnn	physicalitynndependencenn	physicalitynnhabituationnn	
+
+BE: bothDThaveAUX
+EQ class: wealthy_personnnofinbothdt	rich_personnnofinbothdt	bothdthave_gotaux	bothdtholdaux	havennofinbothdt	
+
+BE: addictionNNneededVBD
+EQ class: habituationnntakevbd	dependencenninvolvevbd	dependencenncall_forvbd	dependancennrequirevbd	dependencenndemandvbd	demandnnofindependancenn	demandnnofinhabituationnn	habituationnncall_forvbd	dependancenndemandvbd	neednnofindependencynn	dependencynnneededvbd	dependencynncall_forvbd	habituationnnrequirevbd	demandnnofinaddictionnn	habituationnnnecessitatevbd	dependancennneedvbd	dependencennneededvbd	dependencynninvolvevbd	addictionnninvolvevbd	dependencynnneedvbd	neednnofinhabituationnn	addictionnnrequirevbd	dependencennpostulatevbd	addictionnntakevbd	dependencennaskvbd	dependencynndemandvbd	dependancennpostulatevbd	addictionnnpostulatevbd	dependancenncall_forvbd	demandnnofindependencenn	dependencynnrequirevbd	addictionnnnecessitatevbd	dependencennrequirevbd	addictionnncall_forvbd	dependencynnnecessitatevbd	addictionnnaskvbd	neednnofinaddictionnn	habituationnnneedvbd	habituationnnneededvbd	dependancenninvolvevbd	addictionnndemandvbd	habituationnndemandvbd	dependancennaskvbd	dependancennneededvbd	dependencennnecessitatevbd	addictionnnneedvbd	habituationnnpostulatevbd	dependencynnaskvbd	dependancennnecessitatevbd	dependencynntakevbd	dependencenntakevbd	demandnnofindependencynn	neednnofindependancenn	dependencynnpostulatevbd	habituationnnaskvbd	habituationnninvolvevbd	dependancenntakevbd	neednnofindependencenn	dependencennneedvbd	
+
+BE: haveAUXaddictionNN
+EQ class: wealthy_personnnofindependancenn	have_gotauxaddictionnn	rich_personnnofindependancenn	have_gotauxdependencynn	havennofinhabituationnn	holdauxhabituationnn	have_gotauxhabituationnn	wealthy_personnnofinaddictionnn	rich_personnnofindependencenn	have_gotauxdependancenn	havennofindependancenn	havennofindependencynn	havennofinaddictionnn	havennofindependencenn	haveauxdependencenn	wealthy_personnnofindependencenn	haveauxhabituationnn	haveauxdependancenn	have_gotauxdependencenn	rich_personnnofinhabituationnn	holdauxdependencenn	wealthy_personnnofinhabituationnn	holdauxaddictionnn	haveauxdependencynn	holdauxdependancenn	wealthy_personnnofindependencynn	rich_personnnofindependencynn	rich_personnnofinaddictionnn	holdauxdependencynn	
+
+BE: bothDTofINthemPRP
+EQ class: bothdtofintaxesprp	bothdtofincostsprp	bothdtofin/>authoritiesprp	bothdtofinsay-prp	bothdtofin/>weprp	bothdtofinhabitsprp	bothdtofinaddictsprp	bothdtofindietsprp	bothdtofinfactorsprp	bothdtofinallowancesprp	bothdtofinpeopleprp	
+
+BE: haveAUXalsoRB
+EQ class: wealthy_personnnofinalsorb	havennofinalsorb	have_gotauxalsorb	rich_personnnofinalsorb	holdauxalsorb	
+
+BE: treatedVBNaccordinglyRB
+EQ class: do_byvbnaccordinglyrb	treatvbnaccordinglyrb	handlevbnaccordinglyrb	
+
+BE: factorsNNS
+EQ class: factornns	theynns	themnns	
+
+BE: timeNN
+EQ class: clipnn	
+
+BE: dietsNNS
+EQ class: dieteticaljj	dietnns	theynns	dieteticjj	dietaryjj	themnns	
+
+BE: facingVBG
+EQ class: confrontvbg	face_upvbg	facevbg	
+
+BE: majorJJ
+EQ class: 
+
+BE: twoCDfactorsNNS
+EQ class: 2cdthemnns	iicdtheynns	deucecdtheynns	twocdthemnns	twocdfactornns	deucecdthemnns	iicdthemnns	iicdfactorsnns	deucecdfactorsnns	2cdfactornns	2cdtheynns	twocdtheynns	iicdfactornns	deucecdfactornns	2cdfactorsnns	
+
+BE: majorJJfactorsNNS
+EQ class: majorjjfactornns	majorjjthemnns	majorjjtheynns	
+
+BE: itPRPbeAUX
+EQ class: 
+
+BE: facingVBGfactorsNNS
+EQ class: facingvbgfactornns	facevbgtheynns	confrontvbgtheynns	face_upvbgthemnns	facevbgfactorsnns	confrontvbgfactorsnns	face_upvbgfactornns	face_upvbgfactorsnns	confrontvbgfactornns	face_upvbgtheynns	facevbgthemnns	confrontvbgthemnns	facingvbgtheynns	facingvbgthemnns	facevbgfactornns	
+
+BE: beAUXtimeNN
+EQ class: beauxclipnn	
+
+BE: timeNNforINdietsNNS
+EQ class: clipnnforindieteticaljj	themnnsclipnn	dietaryjjclipnn	dietnnstimenn	theynnstimenn	dietnnsclipnn	clipnnforintheynns	dieteticaljjtimenn	clipnnforindietaryjj	timennforindietaryjj	clipnnforindietsnns	timennforindieteticjj	dietaryjjtimenn	timennforindietnns	themnnstimenn	dieteticjjtimenn	timennforintheynns	dietsnnstimenn	theynnsclipnn	clipnnforinthemnns	dieteticaljjclipnn	dietsnnsclipnn	clipnnforindieteticjj	clipnnforindietnns	dieteticjjclipnn	timennforindieteticaljj	timennforinthemnns	
+
+BE: />AnotherNN
+EQ class: 
+
+BE: issueNN
+EQ class: 
+
+BE: societyNN
+EQ class: societaljj	
+
+BE: obesityNN
+EQ class: corpulencynn	obesejj	fleshinessnn	
+
+BE: todayNN
+EQ class: 
+
+BE: USLocationAnnotation
+EQ class: u.s.locationannotation	oasnn	organization_of_american_statesnn	executive_office_of_the_presidentnn	americannn	north_atlantic_treaty_organizationnn	natonn	
+
+BE: personNN
+EQ class: someonenn	soulnn	individualnn	somebodynn	mortalnn	
+
+BE: disabilityNN
+EQ class: disablementnn	impairmentnn	handicapnn	disabledjj	
+
+BE: welfareNN
+EQ class: public_assistancenn	social_welfarenn	
+
+BE: supportsVBZ
+EQ class: back_upvbz	supportvbz	
+
+BE: letVB
+EQ class: allowvb	permitvb	
+
+BE: giveVB
+EQ class: 
+
+BE: claimVB
+EQ class: 
+
+BE: getVB
+EQ class: acquirevb	
+
+BE: majorJJ
+EQ class: 
+
+BE: example-JJ
+EQ class: 
+
+BE: obeseJJ
+EQ class: weightyjj	obesitynn	corpulentjj	rotundjj	
+
+BE: <brCDissueNN
+EQ class: atomic_number_35cdissuenn	brominecdissuenn	brcdissuenn	
+
+BE: majorJJissueNN
+EQ class: 
+
+BE: example-JJtodayNN
+EQ class: 
+
+BE: obeseJJpersonNN
+EQ class: corpulentjjmortalnn	obesejjsomeonenn	corpulentjjsomebodynn	weightyjjsomebodynn	rotundjjpersonnn	corpulentjjsomeonenn	weightyjjmortalnn	weightyjjsomeonenn	weightyjjindividualnn	obesejjindividualnn	obesejjsomebodynn	rotundjjsoulnn	obesitynnsomeonenn	corpulentjjpersonnn	rotundjjindividualnn	obesitynnsomebodynn	rotundjjsomebodynn	weightyjjsoulnn	obesitynnmortalnn	obesejjsoulnn	corpulentjjsoulnn	rotundjjsomeonenn	obesitynnsoulnn	obesejjmortalnn	rotundjjmortalnn	weightyjjpersonnn	obesitynnpersonnn	corpulentjjindividualnn	obesitynnindividualnn	
+
+BE: issueNNisAUX
+EQ class: issuennbeaux	
+
+BE: societyNNsupportsVBZ
+EQ class: supporternnofinsocietynn	boosternnofinsocietynn	friendnnsocietynn	championnnsocietaljj	friendnnofinsocietaljj	admirernnsocietaljj	championnnofinsocietaljj	boosternnsocietaljj	societynnback_upvbz	admirernnofinsocietaljj	supportivennofinsocietynn	championnnsocietynn	societaljjsupportvbz	supporternnsocietaljj	protagonistnnsocietynn	societynnsupportvbz	friendnnofinsocietynn	supporternnsocietynn	societaljjsupportsvbz	boosternnsocietynn	boosternnofinsocietaljj	societaljjback_upvbz	admirernnofinsocietynn	friendnnsocietaljj	protagonistnnofinsocietynn	protagonistnnsocietaljj	supporternnofinsocietaljj	supportnnofinsocietynn	supportnnofinsocietaljj	supportivennofinsocietaljj	admirernnsocietynn	championnnofinsocietynn	protagonistnnofinsocietaljj	
+
+BE: personNNclaimVB
+EQ class: claimnnofinpersonnn	claimnnofinsomeonenn	claimnnofinmortalnn	soulnnclaimvb	individualnnclaimvb	somebodynnclaimvb	someonennclaimvb	mortalnnclaimvb	claimnnofinindividualnn	claimnnofinsomebodynn	claimnnofinsoulnn	
+
+BE: personNNgetVB
+EQ class: acquiringnnindividualnn	acquiringnnsomebodynn	individualnngetvb	gettingnnofinmortalnn	gettingnnofinsoulnn	gettingnnofinsomebodynn	individualnnacquirevb	mortalnnacquirevb	acquiringnnsomeonenn	soulnngetvb	someonenngetvb	gettingnnofinpersonnn	gettingnnofinindividualnn	gettingnnmortalnn	acquiringnnsoulnn	someonennacquirevb	acquiringnnofinpersonnn	acquiringnnofinsoulnn	gettingnnsomebodynn	gettingnnpersonnn	personnnacquirevb	somebodynngetvb	acquiringnnmortalnn	gettingnnsomeonenn	gettingnnofinsomeonenn	soulnnacquirevb	acquiringnnpersonnn	somebodynnacquirevb	gettingnnindividualnn	acquiringnnofinindividualnn	acquiringnnofinmortalnn	acquiringnnofinsomeonenn	mortalnngetvb	gettingnnsoulnn	acquiringnnofinsomebodynn	
+
+BE: supportsVBZobesityNN
+EQ class: championnnofinobesejj	supportivennofincorpulencynn	friendnnofinobesitynn	supportnnofinobesejj	supportvbzobesejj	championnnofincorpulencynn	back_upvbzobesitynn	supportnnofincorpulencynn	supporternnofinobesitynn	boosternnofincorpulencynn	back_upvbzcorpulencynn	supportvbzobesitynn	admirernnofincorpulencynn	boosternnofinobesejj	back_upvbzobesejj	boosternnofinobesitynn	admirernnofinfleshinessnn	friendnnofinfleshinessnn	supportnnofinfleshinessnn	supportvbzcorpulencynn	protagonistnnofinobesitynn	supporternnofinfleshinessnn	back_upvbzfleshinessnn	supporternnofincorpulencynn	supportivennofinobesejj	supportivennofinfleshinessnn	supportsvbzfleshinessnn	boosternnofinfleshinessnn	supportivennofinobesitynn	protagonistnnofincorpulencynn	supportvbzfleshinessnn	protagonistnnofinfleshinessnn	admirernnofinobesitynn	supporternnofinobesejj	friendnnofinobesejj	admirernnofinobesejj	supportsvbzcorpulencynn	friendnnofincorpulencynn	supportnnofinobesitynn	championnnofinobesitynn	protagonistnnofinobesejj	supportsvbzobesejj	championnnofinfleshinessnn	
+
+BE: letVBmePRP
+EQ class: permitvbmeprp	allowvbmeprp	
+
+BE: giveVByouPRP
+EQ class: 
+
+BE: giveVBtodayNN
+EQ class: 
+
+BE: claimVBdisabilityNN
+EQ class: claimvbhandicapnn	claimvbdisablementnn	claimnnofinimpairmentnn	claimnnofinhandicapnn	claimvbdisabledjj	claimvbimpairmentnn	claimnnofindisabledjj	claimnnofindisablementnn	claimnnofindisabilitynn	
+
+BE: getVBwelfareNN
+EQ class: acquiringnnofinpublic_assistancenn	getvbsocial_welfarenn	gettingnnofinsocial_welfarenn	acquiringnnofinwelfarenn	gettingnnofinwelfarenn	gettingnnofinpublic_assistancenn	acquiringnnofinsocial_welfarenn	acquirevbwelfarenn	getvbpublic_assistancenn	acquirevbsocial_welfarenn	acquirevbpublic_assistancenn	
+
+BE: todayNNinINUSLocationAnnotation
+EQ class: todaynnininnatonn	todaynnininoasnn	executive_office_of_the_presidentnntodaynn	natonntodaynn	americannntodaynn	todaynnininu.s.locationannotation	north_atlantic_treaty_organizationnntodaynn	u.s.locationannotationtodaynn	todaynnininexecutive_office_of_the_presidentnn	todaynnininnorth_atlantic_treaty_organizationnn	todaynnininorganization_of_american_statesnn	organization_of_american_statesnntodaynn	oasnntodaynn	uslocationannotationtodaynn	todaynnininamericannn	
+
+BE: isAUXthatINsupportsVBZ
+EQ class: isauxthatinsupportvbz	isauxthatinback_upvbz	beauxthatinback_upvbz	beauxthatinsupportsvbz	beauxthatinsupportvbz	
+
+BE: supportsVBZactuallyRB
+EQ class: existentjjininfriendnn	actualjjininchampionnn	supportnnofinactuallyrb	existentjjsupporternn	existentjjininchampionnn	actualitynnininsupporternn	actualitynnininfriendnn	actualitynnininsupportvbz	existentjjfriendnn	actualjjsupporternn	supporternnofinactuallyrb	actualitynnininback_upvbz	actualjjininprotagonistnn	actualitynnchampionnn	admirernnofinactuallyrb	existentjjininboosternn	championnnofinactuallyrb	existentjjininsupportvbz	boosternnofinactuallyrb	actualjjininsupportvbz	actualjjsupportnn	actualjjininfriendnn	actualitynnfriendnn	actualitynnininsupportsvbz	actualitynnininsupportnn	existentjjininsupportsvbz	actualitynnininchampionnn	actualitynnboosternn	actualjjininsupporternn	protagonistnnofinactuallyrb	actualjjininadmirernn	supportivennofinactuallyrb	actualjjprotagonistnn	actualitynnsupporternn	actualjjchampionnn	supportvbzactuallyrb	actualjjboosternn	existentjjininadmirernn	actualjjfriendnn	existentjjininprotagonistnn	existentjjsupportnn	existentjjininback_upvbz	actualitynnininprotagonistnn	actualitynnininboosternn	actualjjininsupportsvbz	existentjjininsupporternn	existentjjininsupportnn	actualitynnininadmirernn	actualitynnadmirernn	back_upvbzactuallyrb	existentjjchampionnn	actualjjininback_upvbz	actualjjadmirernn	actualitynnsupportnn	actualitynnprotagonistnn	existentjjboosternn	existentjjprotagonistnn	actualjjininboosternn	existentjjadmirernn	actualjjininsupportnn	friendnnofinactuallyrb	
+
+BE: supportsVBZunknowinglyRB
+EQ class: protagonistnnofinunknowinglyrb	supportnnofinunknowinglyrb	friendnnofinunknowinglyrb	admirernnofinunknowinglyrb	supporternnofinunknowinglyrb	championnnofinunknowinglyrb	boosternnofinunknowinglyrb	back_upvbzunknowinglyrb	supportvbzunknowinglyrb	supportivennofinunknowinglyrb	
+
+BE: governmentNN
+EQ class: authoritiesnn	regimenn	
+
+BE: obesityNN
+EQ class: corpulencynn	obesejj	fleshinessnn	
+
+BE: encouragesVBZ
+EQ class: boostvbz	furthervbz	promotevbz	encouragevbz	advancevbz	
+
+BE: governmentNNencouragesVBZ
+EQ class: regimennadvancevbz	regimennboostvbz	encouragementnnregimenn	encouragementnnofinauthoritiesnn	governmentnnfurthervbz	encouragementnnofinregimenn	governmentnnadvancevbz	authoritiesnnboostvbz	encouragementnnofingovernmentnn	regimennpromotevbz	authoritiesnnencouragevbz	authoritiesnnadvancevbz	governmentnnboostvbz	encouragementnngovernmentnn	authoritiesnnpromotevbz	governmentnnencouragevbz	regimennencouragesvbz	regimennfurthervbz	governmentnnpromotevbz	encouragementnnauthoritiesnn	authoritiesnnfurthervbz	regimennencouragevbz	authoritiesnnencouragesvbz	
+
+BE: encouragesVBZobesityNN
+EQ class: furthervbzobesejj	boostvbzobesitynn	advancevbzcorpulencynn	encouragesvbzobesejj	boostvbzcorpulencynn	encouragevbzobesejj	boostvbzfleshinessnn	encouragementnnofinfleshinessnn	encouragementnnofinobesejj	furthervbzfleshinessnn	encouragementnnofincorpulencynn	promotevbzcorpulencynn	furthervbzobesitynn	promotevbzobesejj	advancevbzobesejj	encouragesvbzfleshinessnn	encouragevbzobesitynn	advancevbzfleshinessnn	advancevbzobesitynn	boostvbzobesejj	encouragesvbzcorpulencynn	encouragevbzcorpulencynn	promotevbzobesitynn	encouragementnnofinobesitynn	furthervbzcorpulencynn	promotevbzfleshinessnn	encouragevbzfleshinessnn	
+
+BE: encouragesVBZbyINthatDT
+EQ class: advancevbzbyinthatdt	boostvbzbyinthatdt	encouragevbzbyinthatdt	furthervbzbyinthatdt	promotevbzbyinthatdt	
+
+BE: encouragesVBZactuallyRB
+EQ class: boostvbzactuallyrb	actualjjencouragementnn	encouragevbzactuallyrb	actualjjininfurthervbz	existentjjininencouragevbz	actualjjininencouragevbz	existentjjininboostvbz	actualitynnininadvancevbz	actualitynnininboostvbz	actualitynnininencouragevbz	actualjjininencouragementnn	existentjjininpromotevbz	actualjjininadvancevbz	existentjjencouragementnn	existentjjininencouragesvbz	advancevbzactuallyrb	promotevbzactuallyrb	actualitynnininpromotevbz	actualitynnininencouragesvbz	actualitynnininencouragementnn	existentjjininadvancevbz	existentjjininfurthervbz	actualjjininboostvbz	furthervbzactuallyrb	actualjjininencouragesvbz	actualjjininpromotevbz	existentjjininencouragementnn	actualitynnininfurthervbz	actualitynnencouragementnn	encouragementnnofinactuallyrb	
+
+BE: someoneNN
+EQ class: personnn	soulnn	individualnn	somebodynn	mortalnn	
+
+BE: tryVB
+EQ class: seekvb	essayvb	attemptvb	assayvb	
+
+BE: getVB
+EQ class: acquirevb	
+
+BE: tryVBgetVB
+EQ class: attemptnnofinacquirevb	endeavournnofinacquirevb	assayvbgetvb	effortnnofingetvb	assayvbacquirevb	trynnofingetvb	triernnofingetvb	effortnnofinacquirevb	trynnofinacquirevb	endeavornnofinacquirevb	triernnofinacquirevb	attemptnnofingetvb	endeavornnofingetvb	seekvbacquirevb	tryvbacquirevb	seekvbgetvb	essayvbacquirevb	essayvbgetvb	attemptvbacquirevb	endeavournnofingetvb	attemptvbgetvb	
+
+BE: />AuthoritiesOrganizationAnnotation
+EQ class: 
+
+BE: conditionNN
+EQ class: statusnn	
+
+BE: allowancesNNS
+EQ class: theynns	allowancenns	themnns	
+
+BE: weightNN
+EQ class: weightyjj	
+
+BE: periodNN
+EQ class: period_of_timenn	time_periodnn	
+
+BE: loseVBP
+EQ class: 
+
+BE: continueVB
+EQ class: keepvb	go_onvb	proceedvb	go_alongvb	
+
+BE: gettingVBG
+EQ class: getvbg	acquirevbg	
+
+BE: <brJJ
+EQ class: 
+
+BE: specifiedJJ
+EQ class: 
+
+BE: <brJJ/>AuthoritiesOrganizationAnnotation
+EQ class: 
+
+BE: specifiedJJperiodNN
+EQ class: specifiedjjtime_periodnn	specifiedjjperiod_of_timenn	
+
+BE: youPRPcontinueVB
+EQ class: youprpgo_alongvb	continuationnnyouprp	continuancennyouprp	continuancennofinyouprp	continuationnnofinyouprp	youprpgo_onvb	youprpproceedvb	youprpkeepvb	
+
+BE: youPRPloseVBP
+EQ class: 
+
+BE: conditionNNallowancesNNS
+EQ class: conditionnnallowancenns	conditionnnthemnns	statusnnthemnns	conditionnntheynns	statusnnallowancenns	statusnnallowancesnns	statusnntheynns	
+
+BE: loseVBPweightNN
+EQ class: losevbpweightyjj	
+
+BE: gettingVBGitPRP
+EQ class: acquiringnnofinitprp	acquirevbgitprp	gettingnnofinitprp	getvbgitprp	
+
+BE: loseVBPoverINperiodNN
+EQ class: losevbpoverintime_periodnn	losevbpoverinperiod_of_timenn	
+
+BE: weightNN
+EQ class: weightyjj	
+
+BE: allowanceLocationAnnotation
+EQ class: 
+
+BE: loseVB
+EQ class: 
+
+BE: loseVBP
+EQ class: 
+
+BE: youPRPloseVBP
+EQ class: 
+
+BE: youPRPloseVB
+EQ class: 
+
+BE: loseVBweightNN
+EQ class: losevbweightyjj	
+
+BE: loseVBPallowanceLocationAnnotation
+EQ class: 
+
+BE: didAUXnotRB
+EQ class: doauxnotrb	makeauxnotrb	
+
+BE: />WeOrganizationAnnotation
+EQ class: 
+
+BE: mindNN
+EQ class: headnn	brainnn	psychenn	nousnn	
+
+BE: obesityNN
+EQ class: corpulencynn	obesejj	fleshinessnn	
+
+BE: lotNN
+EQ class: spatenn	heapnn	passelnn	slewnn	flocknn	raftnn	dealnn	potnn	micklenn	pilenn	great_dealnn	mountainnn	sightnn	mintnn	stacknn	hatfulnn	mucklenn	tidy_sumnn	messnn	quite_a_littlenn	wadnn	massnn	plentynn	pecknn	good_dealnn	batchnn	
+
+BE: allowanceNN
+EQ class: 
+
+BE: personNN
+EQ class: someonenn	soulnn	individualnn	somebodynn	mortalnn	
+
+BE: keepVB
+EQ class: maintainvb	holdvb	
+
+BE: costsVBZ
+EQ class: costvbz	bevbz	themvbz	theyvbz	
+
+BE: getsVBZ
+EQ class: acquirevbz	getvbz	
+
+BE: <brJJ
+EQ class: 
+
+BE: obeseJJ
+EQ class: weightyjj	obesitynn	corpulentjj	rotundjj	
+
+BE: <brJJ/>WeOrganizationAnnotation
+EQ class: 
+
+BE: obeseJJpersonNN
+EQ class: corpulentjjmortalnn	obesejjsomeonenn	corpulentjjsomebodynn	weightyjjsomebodynn	rotundjjpersonnn	corpulentjjsomeonenn	weightyjjmortalnn	weightyjjsomeonenn	weightyjjindividualnn	obesejjindividualnn	obesejjsomebodynn	rotundjjsoulnn	obesitynnsomeonenn	corpulentjjpersonnn	rotundjjindividualnn	obesitynnsomebodynn	rotundjjsomebodynn	weightyjjsoulnn	obesitynnmortalnn	obesejjsoulnn	corpulentjjsoulnn	rotundjjsomeonenn	obesitynnsoulnn	obesejjmortalnn	rotundjjmortalnn	weightyjjpersonnn	obesitynnpersonnn	corpulentjjindividualnn	obesitynnindividualnn	
+
+BE: />WeOrganizationAnnotationkeepVB
+EQ class: />weorganizationannotationmaintainvb	/>weorganizationannotationholdvb	
+
+BE: obesityNNcostsVBZ
+EQ class: costnnofinobesitynn	costnnofincorpulencynn	obesejjcostsvbz	obesejjbevbz	corpulencynntheyvbz	fleshinessnnthemvbz	obesejjtheyvbz	corpulencynncostsvbz	corpulencynncostvbz	obesejjcostvbz	fleshinessnnbevbz	fleshinessnncostsvbz	fleshinessnncostvbz	fleshinessnntheyvbz	corpulencynnthemvbz	obesitynncostvbz	costnnofinfleshinessnn	costnnofinobesejj	obesitynnthemvbz	obesitynnbevbz	obesejjthemvbz	obesitynntheyvbz	corpulencynnbevbz	
+
+BE: personNNgetsVBZ
+EQ class: acquiringnnindividualnn	somebodynngetsvbz	soulnngetsvbz	soulnngetvbz	acquiringnnsomebodynn	someonenngetsvbz	gettingnnofinmortalnn	gettingnnofinsoulnn	gettingnnofinsomebodynn	individualnngetsvbz	personnngetvbz	soulnnacquirevbz	acquiringnnsomeonenn	mortalnngetsvbz	somebodynngetvbz	someonenngetvbz	individualnnacquirevbz	gettingnnofinpersonnn	gettingnnofinindividualnn	personnnacquirevbz	gettingnnmortalnn	mortalnnacquirevbz	acquiringnnsoulnn	mortalnngetvbz	acquiringnnofinpersonnn	acquiringnnofinsoulnn	gettingnnsomebodynn	gettingnnpersonnn	acquiringnnmortalnn	gettingnnsomeonenn	individualnngetvbz	gettingnnofinsomeonenn	acquiringnnpersonnn	gettingnnindividualnn	acquiringnnofinindividualnn	acquiringnnofinmortalnn	acquiringnnofinsomeonenn	gettingnnsoulnn	acquiringnnofinsomebodynn	somebodynnacquirevbz	someonennacquirevbz	
+
+BE: keepVBinINmindNN
+EQ class: holdvbininbrainnn	holdvbininmindnn	maintainvbininbrainnn	holdvbininheadnn	maintainvbininmindnn	keepvbininbrainnn	keepvbininnousnn	keepvbininheadnn	maintainvbininheadnn	maintainvbininnousnn	holdvbininnousnn	holdvbininpsychenn	keepvbininpsychenn	maintainvbininpsychenn	
+
+BE: keepVBthatINcostsVBZ
+EQ class: maintainvbthatincostsvbz	keepvbthatincostvbz	holdvbthatincostsvbz	maintainvbthatintheyvbz	maintainvbthatincostvbz	maintainvbthatinbevbz	holdvbthatinthemvbz	holdvbthatintheyvbz	holdvbthatincostvbz	holdvbthatinbevbz	keepvbthatinbevbz	keepvbthatintheyvbz	keepvbthatinthemvbz	maintainvbthatinthemvbz	
+
+BE: costsVBZthatINgetsVBZ
+EQ class: themvbzthatingetvbz	costvbzthatingetvbz	bevbzthatingetvbz	costsvbzthatingetvbz	costsvbzthatinacquirevbz	theyvbzthatingetsvbz	theyvbzthatinacquirevbz	themvbzthatinacquirevbz	costvbzthatingetsvbz	costvbzthatinacquirevbz	bevbzthatinacquirevbz	theyvbzthatingetvbz	bevbzthatingetsvbz	themvbzthatingetsvbz	
+
+BE: keepVBalwaysRB
+EQ class: maintainvbalwaysrb	holdvbalwaysrb	
+
+BE: healthNN
+EQ class: wellnessnn	healthyjj	
+
+BE: costsNNS
+EQ class: theynns	themnns	
+
+BE: taxesNNS
+EQ class: theynns	taxnns	taxationnns	revenue_enhancementnns	themnns	
+
+BE: lostVBN
+EQ class: losevbn	
+
+BE: healthNNcostsNNS
+EQ class: healthyjjthemnns	costsnnsofinwellnessnn	theynnsofinwellnessnn	healthnntheynns	theynnsofinhealthnn	healthnnthemnns	wellnessnnthemnns	themnnsofinwellnessnn	costsnnsofinhealthyjj	costsnnsofinhealthnn	themnnsofinhealthnn	wellnessnncostsnns	theynnsofinhealthyjj	themnnsofinhealthyjj	wellnessnntheynns	healthyjjtheynns	healthyjjcostsnns	
+
+BE: thereEXisAUX
+EQ class: thereexbeaux	
+
+BE: isAUXcostsNNS
+EQ class: isauxtheynns	beauxcostsnns	isauxthemnns	beauxthemnns	beauxtheynns	
+
+BE: lostVBNtaxesNNS
+EQ class: losevbntaxesnns	losevbntaxnns	lostvbnrevenue_enhancementnns	lostvbntheynns	losevbntaxationnns	losevbntheynns	losevbnthemnns	lostvbntaxationnns	losevbnrevenue_enhancementnns	lostvbntaxnns	lostvbnthemnns	
+
+BE: say-NNS
+EQ class: theynns	themnns	
+
+BE: lifeNN
+EQ class: 
+
+BE: ??NN
+EQ class: ?.?.nn	
+
+BE: leaveVB
+EQ class: go_forthvb	go_awayvb	
+
+BE: donLocationAnnotation
+EQ class: 
+
+BE: healthyJJ
+EQ class: healthnn	healthinessnn	
+
+BE: <br />IPersonAnnotationsay-NNS
+EQ class: <br /.>.i.personannotationsay-nns	<br />ipersonannotationtheynns	<br /.>.i.personannotationtheynns	<br />ipersonannotationthemnns	<br /.>.i.personannotationthemnns	
+
+BE: healthyJJlifeNN
+EQ class: healthinessnnlifenn	healthnnlifenn	
+
+BE: say-NNSdoAUX
+EQ class: themnnsmakeaux	theynnsmakeaux	say-nnsmakeaux	theynnsdoaux	themnnsdoaux	
+
+BE: leaveVBlifeNN
+EQ class: go_forthvblifenn	leavennofinlifenn	go_awayvblifenn	leavernnofinlifenn	goernnofinlifenn	departernnofinlifenn	leave_of_absencennofinlifenn	
+
+BE: donLocationAnnotation??NN
+EQ class: donlocationannotation?.?.nn	
+
+BE: giveVBupRP
+EQ class: 
+
+BE: giveVBtRB
+EQ class: 
+

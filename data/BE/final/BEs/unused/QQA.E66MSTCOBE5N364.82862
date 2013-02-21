@@ -1,0 +1,89 @@
+#1.  
+#(S1 (FRAG (NP (CD 1)) (. .)))
+#They don t understand science.2.  
+#(S1 (S (NP (PRP They)) (VP (VB don) (S (NP (NNP t)) (VP (VB understand) (NP (CD science.2))))) (. .)))
+#Rule:Nouns
+r1tOrganizationAnnotation
+
+#Rule:Verbs
+r2donVB
+r2understandVB
+
+#Rule:HeadNoun-V
+r11theyPRPdonVB
+r11tOrganizationAnnotationunderstandVB
+
+#Rule:V-HeadNoun
+r21understandVBscience.2CD
+
+#Rule:V-HeadNoun
+r22donVBtOrganizationAnnotation
+
+#They don t see it as a problem.3.  
+#(S1 (S (NP (PRP They)) (VP (ADVP (VB don) (JJ t)) (VBP see) (NP (PRP it)) (PP (IN as) (NP (DT a) (CD problem.3)))) (. .)))
+#Rule:Verbs
+r2donVB
+r2seeVBP
+
+#Rule:Adjs
+r4tLocationAnnotation
+
+#Rule:HeadNoun-V
+r11theyPRPseeVBP
+
+#Rule:V-HeadNoun
+r21seeVBPitPRP
+
+#Rule:PPinVP
+r30seeVBPasINproblem.3CD
+
+#They don t want to sacrifice their lifestyle.4.  
+#(S1 (S (NP (PRP They)) (VP (VB don) (SBAR (S (NP (NNS t)) (VP (VBP want) (S (VP (TO to) (VP (VB sacrifice) (NP (PRP$ their) (NNS lifestyle.4))))))))) (. .)))
+#Rule:Nouns
+r1tLocationAnnotation
+r1lifestyle.4NNS
+
+#Rule:Verbs
+r2donVB
+r2wantVBP
+r2sacrificeVB
+
+#Rule:PRP-Noun
+r6theirPRP$lifestyle.4NNS
+
+#Rule:HeadNoun-V
+r11theyPRPdonVB
+r11tLocationAnnotationwantVBP
+
+#Rule:V-HeadNoun
+r21sacrificeVBlifestyle.4NNS
+
+#Rule:V-V
+r44wantVBPsacrificeVB
+
+#They think it won t happen until they re really old or dead.
+#(S1 (S (NP (PRP They)) (VP (VBP think) (SBAR (S (NP (PRP it)) (VP (VBD won) (S (NP (NNS t)) (VP (VB happen) (SBAR (IN until) (S (NP (PRP they)) (VP (NNP re) (S (ADJP (RB really) (JJ old) (CC or) (JJ dead)))))))))))) (. .)))
+#Rule:Nouns
+r1tNNS
+r1reNNP
+
+#Rule:Verbs
+r2thinkVBP
+r2wonVBD
+r2happenVB
+
+#Rule:Adjs
+r4oldJJ
+r4deadJJ
+
+#Rule:HeadNoun-V
+r11theyPRPthinkVBP
+r11itPRPwonVBD
+r11tNNShappenVB
+
+#Rule:V-HeadNoun
+r22wonVBDtNNS
+
+@lemmas-left	they	old	think	it	understand	don	lifestyle.4	win	re	sacrifice	t	see	won	dead	happen	their	want	
+@lemmas-right	science.2	think	understand	it	don	lifestyle.4	problem.3	win	sacrifice	t	see	won	happen	want	
+@lemmas-center	as	

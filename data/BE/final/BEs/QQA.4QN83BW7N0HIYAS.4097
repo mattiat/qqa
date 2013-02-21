@@ -1,0 +1,42 @@
+#CUT OUT JUNKFOOD!
+#(S1 (S (VP (VB CUT) (PRT (RP OUT)) (NP (NN JUNKFOOD))) (. !)))
+#Rule:Nouns
+r1JUNKFOODNN
+
+#Rule:V-HeadNoun
+r21CUT OUTLocationAnnotationJUNKFOODNN
+
+#ALL OFF IT.i have only benn doing that for 3 days and lost a pound.yeah, not much. but still!
+#(S1 (S (NP (NP (DT ALL)) (PP (IN OFF) (NP (NNP IT.i)))) (VP (AUX have) (ADVP (RB only)) (VP (VP (VBN benn) (S (VP (VBG doing) (NP (DT that)) (PP (IN for) (NP (CD 3) (NNS days)))))) (CC and) (VP (VBN lost) (NP (NP (DT a) (NN pound.yeah)) (, ,) (UCP (ADJP (RB not) (JJ much.)) (CC but) (ADVP (RB still))))))) (. !)))
+#Rule:Nouns
+r1IT.iOrganizationAnnotation
+r1daysNNS
+r1pound.yeahNN
+
+#Rule:Verbs
+r2bennVBN
+r2doingVBG
+r2lostVBN
+
+#Rule:Adjs
+r4muchJJ
+
+#Rule:Adj-Noun
+r53CDdaysNNS
+
+#Rule:V-HeadNoun
+r21doingVBGthatDT
+r21lostVBNpound.yeahNN
+
+#Rule:PPinNP
+r26allDToffINIT.iOrganizationAnnotation
+
+#Rule:PPinVP
+r30doingVBGforINdaysNNS
+
+#Rule:V-ADV
+r46haveAUXonlyRB
+
+@lemmas-left	much.	IT.i	lost	have	pound.yeah	CUT OUT	junkfood	much	JUNKFOOD	3	lose	days	benn	doing	do	all	
+@lemmas-right	that	IT.i	days	pound.yeah	only	junkfood	JUNKFOOD	
+@lemmas-center	for	off	

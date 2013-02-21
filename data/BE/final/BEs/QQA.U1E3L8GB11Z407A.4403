@@ -1,0 +1,134 @@
+#I found this on this website. There are more tips and info..
+#(S1 (S (NP (PRP I)) (VP (VBD found) (SBAR (DT this) (S (PP (IN on) (NP (DT this) (NN website.))) (NP (EX There)) (VP (AUX are) (NP (NP (JJR more) (NNS tips)) (CC and) (NP (NNS info)))) (. .)))) (. .)))
+#Rule:Nouns
+r1websiteNN
+r1tipsNNS
+r1infoNNS
+
+#Rule:Verbs
+r2foundVBD
+
+#Rule:Adjs
+r4moreJJR
+
+#Rule:Adj-Noun
+r5moreJJRtipsNNS
+
+#Rule:HeadNoun-V
+r11iPRPfoundVBD
+r11thereEXareAUX
+
+#Rule:V-HeadNoun
+r21areAUXtipsNNS
+
+#Rule:PPinS
+r36areAUXonINwebsiteNN
+
+#Go to: http://weight-loss-fast.info/index.php?option=com_content&task=view&id=205&Itemid=62* Take one pound at a time* Set Reachable Goals* Stay off the scales* Stay focused on being healthy, not thin* Fat Free?* Drink plenty of water* Reward yourself* Seek help if you need it* Watch your portions* Eat your food slowlyGo to: http://weight-loss-fast.info/index.php?option=com_content&task=view&id=205&Itemid=62
+#(S1 (S (S (VP (VB Go) (PP (TO to)))) (: :) (S (NP (NP (NNS http)) (: :) (NP (NNS //weight-loss-fast.info/index.php)) (. ?) (NP (CD option=com_content&task=view&id=205&Itemid=62) (NNS *))) (VP (VBP Take) (NP (CD one) (NN pound)) (PP (IN at) (NP (NP (DT a) (NN time) (NN *)) (VP (VBN Set) (NP (JJ Reachable) (NNS Goals) (S (ADVP (RB *)) (VP (VB Stay) (PRT (RP off)) (NP (DT the) (NNS scales)) (S (NP (NNP *) (NNP Stay)) (VP (VBN focused) (PP (IN on) (S (VP (AUXG being) (NP (NP (JJ healthy) (, ,) (RB not) (JJ thin) (NNP *) (NNP Fat) (NNP Free) (. ?) (NNP *) (NN Drink) (NN plenty)) (PP (IN of) (NP (NP (NN water)) (VP (VBG *) (NP (NP (NN Reward)) (SBAR (S (NP (PRP yourself)) (VP (VBZ *) (VP (VB Seek) (NP (NN help)) (SBAR (IN if) (S (NP (PRP you)) (VP (AUX need) (S (NP (PRP it)) (VP (VBD *) (NP (NNP Watch)) (S (NP (PRP$ your) (NNS portions)) (VP (ADVP (RB *)) (VB Eat) (NP (PRP$ your) (NN food) (NN slowlyGo)) (PP (TO to) (NP (PRN (: :) (NP (CD http)) (: :)) (NN //weight-loss-fast.info/index.php)))))))))))))))))))))))))) (. ?) (CD option=com_content&task=view&id=205&Itemid=62)))))))))
+#Rule:Nouns
+r1httpPersonAnnotation
+r1//weight-loss-fast.info/index.phpNNS
+r1*NNS
+r1poundNN
+r1timeNN
+r1*NN
+r1Set Reachable Goals* StayOrganizationAnnotation
+r1scalesNNS
+r1*NNP
+r1StayNNP
+r1*NNP
+r1FatNNP
+r1FreeNNP
+r1*NNP
+r1DrinkNN
+r1plentyNN
+r1waterNN
+r1RewardNN
+r1helpNN
+r1WatchNNP
+r1portionsNNS
+r1foodNN
+r1slowlyGoNN
+r1//weight-loss-fast.info/index.phpNN
+
+#Rule:Verbs
+r2goVB
+r2takeVBP
+r2focusedVBN
+r2*VBG
+r2*VBZ
+r2seekVB
+r2*VBD
+r2eatVB
+
+#Rule:V-PRT
+r3Set Reachable Goals* StayOrganizationAnnotationoffRP
+
+#Rule:Adjs
+r4healthyJJ
+r4thinJJ
+
+#Rule:Adj-Noun
+r5option=com_content&task=view&id=205&Itemid=62CD*NNS
+r5oneCDpoundNN
+r5option=com_content&task=view&id=205&Itemid=62CDSet Reachable Goals* StayOrganizationAnnotation
+r5healthyJJplentyNN
+r5thinJJplentyNN
+
+#Rule:PRP-Noun
+r6yourPRP$portionsNNS
+r6yourPRP$slowlyGoNN
+
+#Rule:N-HeadNoun
+r8timeNN*NN
+r8*NNPStayNNP
+r8DrinkNNplentyNN
+r8*NNPplentyNN
+r8foodNNslowlyGoNN
+
+#Rule:HeadNoun-V
+r11httpPersonAnnotationtakeVBP
+r11//weight-loss-fast.info/index.phpNNStakeVBP
+r11*NNStakeVBP
+r11waterNN*VBG
+r11yourselfPRP*VBZ
+r11yourselfPRPseekVB
+r11youPRPneedAUX
+r11itPRP*VBD
+r11portionsNNSeatVB
+
+#Rule:V-HeadNoun
+r21takeVBPpoundNN
+r21Set Reachable Goals* StayOrganizationAnnotationscalesNNS
+r21beingAUXGplentyNN
+r21*VBGRewardNN
+r21seekVBhelpNN
+r21*VBDWatchNNP
+r21eatVBslowlyGoNN
+
+#Rule:V-HeadNoun
+r22Set Reachable Goals* StayOrganizationAnnotationStayNNP
+r22needAUXitPRP
+r22*VBDportionsNNS
+
+#Rule:V-HeadNoun(passive)
+r24Set Reachable Goals* StayOrganizationAnnotation*NN
+r24focusedVBNStayNNP
+
+#Rule:PPinNP
+r26plentyNNofINwaterNN
+
+#Rule:PPinVP
+r30takeVBPatIN*NN
+r30eatVBtoTO//weight-loss-fast.info/index.phpNN
+
+#Rule:V-IN-V
+r43seekVBifINneedAUX
+
+#Rule:V-ADV
+r46eatVB*RB
+
+@lemmas-left	need	being	Free	tip	info	free	time	help	more	are	Watch	drink	focused	focus	yourself	be	Drink	reward	watch	fat	*	option=com_content&task=view&id=205&itemid=62	http	food	website.	eat	thin	pound	go	scale	one	Set Reachable Goals* Stay	plenty	Reward	slowlyGo	option=com_content&task=view&id=205&Itemid=62	portion	water	it	Fat	stay	scales	website	your	you	//weight-loss-fast.info/index.php	i	seek	portions	take	there	healthy	slowlygo	tips	Stay	found	
+@lemmas-right	need	scale	plenty	Set Reachable Goals* Stay	tip	help	Watch	are	Reward	slowlyGo	portion	be	water	it	stay	reward	website	scales	watch	*	//weight-loss-fast.info/index.php	seek	portions	take	off	website.	slowlygo	eat	tips	Stay	pound	found	
+@lemmas-center	to	of	if	at	on	

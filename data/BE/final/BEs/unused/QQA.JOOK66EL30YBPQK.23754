@@ -1,0 +1,116 @@
+#Reduce dietary intake of bad fats, (hydrodgenated oils), eat a good diet!  
+#(S1 (S (VP (VP (VB Reduce) (NP (NP (JJ dietary) (NN intake)) (PP (IN of) (NP (JJ bad) (NNS fats))) (, ,) (PRN (-LRB- -LRB-) (NP (JJ hydrodgenated) (NNS oils)) (-RRB- -RRB-)))) (, ,) (VP (VB eat) (NP (DT a) (JJ good) (NN diet)))) (. !)))
+#Rule:Nouns
+r1intakeNN
+r1fatsNNS
+r1oilsNNS
+r1dietNN
+
+#Rule:Verbs
+r2reduceVB
+r2eatVB
+
+#Rule:Adjs
+r4dietaryJJ
+r4badJJ
+r4hydrodgenatedJJ
+r4goodJJ
+
+#Rule:Adj-Noun
+r5dietaryJJintakeNN
+r5badJJfatsNNS
+r5hydrodgenatedJJoilsNNS
+r5goodJJdietNN
+
+#Rule:V-HeadNoun
+r21reduceVBintakeNN
+r21eatVBdietNN
+
+#Rule:PPinNP
+r26intakeNNofINfatsNNS
+
+#Lots of fruits, veggies, etc.  
+#(S1 (NP (NP (NNS Lots)) (PP (IN of) (NP (NNS fruits) (, ,) (NNS veggies) (, ,) (FW etc))) (. .)))
+#Rule:Nouns
+r1LotsNNS
+r1fruitsNNS
+r1veggiesNNS
+
+#Rule:PPinNP
+r26LotsNNSofINveggiesNNS
+
+#Take RED YEAST RICE CAPSULES~ these lower your cholesterol naturally.  
+#(S1 (S (VP (VB Take) (NP (JJ RED) (NN YEAST) (NN RICE) (NN CAPSULES~)) (DT these) (VP (VB lower) (NP (PRP$ your) (NN cholesterol)) (ADVP (RB naturally)))) (. .)))
+#Rule:Nouns
+r1YEASTNN
+r1RICENN
+r1CAPSULES~NN
+r1cholesterolNN
+
+#Rule:Verbs
+r2takeVB
+r2lowerVB
+
+#Rule:Adjs
+r4REDJJ
+
+#Rule:Adj-Noun
+r5REDJJCAPSULES~NN
+
+#Rule:PRP-Noun
+r6yourPRP$cholesterolNN
+
+#Rule:N-HeadNoun
+r8RICENNCAPSULES~NN
+r8YEASTNNCAPSULES~NN
+
+#Rule:V-HeadNoun
+r21takeVBCAPSULES~NN
+r21lowerVBcholesterolNN
+
+#Rule:V-ADV
+r46lowerVBnaturallyRB
+
+#Get plenty of exercise. 
+#(S1 (S (VP (VB Get) (NP (NP (NN plenty)) (PP (IN of) (NP (NN exercise))))) (. .)))
+#Rule:Nouns
+r1plentyNN
+r1exerciseNN
+
+#Rule:Verbs
+r2getVB
+
+#Rule:V-HeadNoun
+r21getVBplentyNN
+
+#Rule:PPinNP
+r26plentyNNofINexerciseNN
+
+#Check out the following website.  
+#(S1 (S (VP (VB Check) (PRT (RP out)) (NP (DT the) (JJ following) (NN website))) (. .)))
+#Rule:Nouns
+r1websiteNN
+
+#Rule:V-PRT
+r3checkVBoutRP
+
+#Rule:Adjs
+r4followingJJ
+
+#Rule:Adj-Noun
+r5followingJJwebsiteNN
+
+#Rule:V-HeadNoun
+r21checkVBwebsiteNN
+
+#Good luck!
+#(S1 (INTJ (JJ Good) (NN luck) (. !)))
+#Rule:Nouns
+r1luckNN
+
+#Rule:Adjs
+r4GoodJJ
+
+@lemmas-left	Good	lower	Lots	diet	oils	plenty	exercise	good	oil	following	RICE	fats	capsules~	yeast	RED	veggie	fruit	lots	rice	check	get	intake	website	luck	your	fat	fruits	bad	veggies	cholesterol	reduce	dietary	red	CAPSULES~	take	hydrodgenated	eat	YEAST	
+@lemmas-right	intake	diet	website	naturally	fat	oils	plenty	exercise	veggies	cholesterol	oil	CAPSULES~	fats	capsules~	veggie	out	
+@lemmas-center	of	

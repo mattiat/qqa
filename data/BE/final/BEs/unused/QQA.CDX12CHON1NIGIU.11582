@@ -1,0 +1,54 @@
+#this is what i call stereotyping, girls are not smarter than boys and boys are not smarter than girls. being smart is a personal quality avialable in persons from both sexes
+#(S1 (S (NP (DT this)) (VP (AUX is) (SBAR (WHNP (WP what)) (S (NP (PRP i)) (VP (VBP call) (ADJP (JJ stereotyping)) (, ,) (SBAR (S (NP (NNS girls)) (VP (AUX are) (NP (NP (RB not) (RBR smarter)) (SBAR (IN than) (S (NP (NNS boys) (CC and) (NNS boys)) (VP (AUX are) (NP (NP (RB not) (RBR smarter)) (SBAR (IN than) (S (S (NP (NN girls.)) (VP (AUXG being) (ADJP (JJ smart)))) (VP (AUX is) (NP (NP (DT a) (JJ personal) (NN quality) (NN avialable)) (PP (IN in) (NP (NP (NNS persons)) (PP (IN from) (NP (DT both) (NNS sexes)))))))))))))))))))))))
+#Rule:Nouns
+r1girlsNNS
+r1boysNNS
+r1boysNNS
+r1girlsNN
+r1qualityNN
+r1avialableNN
+r1personsNNS
+r1sexesNNS
+
+#Rule:Verbs
+r2callVBP
+
+#Rule:Adjs
+r4stereotypingJJ
+r4smartJJ
+r4personalJJ
+
+#Rule:Adj-Noun
+r5personalJJavialableNN
+
+#Rule:N-HeadNoun
+r8qualityNNavialableNN
+
+#Rule:HeadNoun-V
+r11thisDTisAUX
+r11iLocationAnnotationcallVBP
+r11girlsNNSareAUX
+r11boysNNSareAUX
+
+#Rule:HeadNoun-(who/that)-V
+r14notRBisAUX
+
+#Rule:V-HeadNoun
+r21areAUXnotRB
+r21areAUXnotRB
+r21isAUXavialableNN
+
+#Rule:V-ADJ
+r25beingAUXGsmartJJ
+
+#Rule:PPinNP
+r26avialableNNinINpersonsNNS
+r26personsNNSfromINsexesNNS
+
+#Rule:IS-RULE
+r47notRBgirlsNNS
+r47notRBboysNNS
+
+@lemmas-left	girls	call	is	person	sex	being	girls.	persons	i	not	personal	are	girl	stereotype	boys	quality	avialable	sexes	this	boy	smart	be	stereotyping	
+@lemmas-right	call	girls	is	person	sex	persons	not	are	girl	boys	avialable	sexes	boy	smart	be	
+@lemmas-center	from	in	

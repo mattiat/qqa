@@ -1,0 +1,36 @@
+#that s because the square ones are called ,,cubes and the rectangular ones,-,,parallelipipeds !
+#(S1 (S (NP (DT that)) (VP (VBZ s) (SBAR (IN because) (S (NP (DT the) (JJ square) (NNS ones)) (VP (AUX are) (VP (VBN called) (S (NP (NP (NP (JJ ,,) (NNS cubes)) (CC and) (NP (DT the) (JJ rectangular) (NNS ones)) (, ,)) (: -) (NP (CD ,,) (NNS parallelipipeds))))))))) (. !)))
+#Rule:Nouns
+r1onesNNS
+r1,,cubesOrganizationAnnotation
+r1onesNNS
+r1parallelipipedsNNS
+
+#Rule:Verbs
+r2sVBZ
+r2calledVBN
+
+#Rule:Adjs
+r4squareJJ
+r4rectangularJJ
+
+#Rule:Adj-Noun
+r5squareJJonesNNS
+r5rectangularJJonesNNS
+r5,,CDparallelipipedsNNS
+
+#Rule:HeadNoun-V
+r11thatDTsVBZ
+
+#Rule:V-HeadNoun
+r22calledVBN,,cubesOrganizationAnnotation
+
+#Rule:V-HeadNoun(passive)
+r23calledVBNonesNNS
+
+#Rule:V-IN-V
+r43sVBZbecauseINcalledVBN
+
+@lemmas-left	that	rectangular	call	,,	s	one	called	,,cubes	square	parallelipipeds	ones	
+@lemmas-right	call	s	one	called	,,cubes	parallelipipeds	ones	
+@lemmas-center	because	

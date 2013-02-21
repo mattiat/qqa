@@ -1,0 +1,70 @@
+#Hulk Hogan - 10Ric Flair - 7Roddy Piper - Don t know himUltimate Warrior - 8Bret Hart - 6Shawn Michaels - 9Stone Cold - 9The Rock - 9Triple H - 8Chris Benoit - 6Eddie Guerrero - 2Undertaker - 8Kane - 7John Cena - 10Randy Orton - 8Batista - 10Mr. 
+#(S1 (NP (NP (NP (NP (NN Hulk) (SBAR (S (NP (NP (NNP Hogan)) (: -) (NP (JJ 10Ric) (NN Flair)) (: -) (NP (JJ 7Roddy) (NNP Piper)) (: -) (NP (NNP Don) (NNP t))) (VP (VBP know) (NP (NP (NP (JJ himUltimate) (NN Warrior)) (: -) (NP (JJ 8Bret) (NNP Hart)) (: -) (NP (JJ 6Shawn) (NNP Michaels)) (: -) (NP (JJ 9Stone) (NNP Cold)) (: -) (NP (NN 9The) (NNP Rock))) (: -) (NP (JJ 9Triple) (NNP H)) (: -)) (ADVP (FW 8Chris) (FW Benoit)))))) (: -) (NP (JJ 6Eddie) (NNP Guerrero)) (: -) (NP (NN 2Undertaker)) (: -) (NP (NN 8Kane)) (: -) (CD 7John)) (NP (NNP Cena))) (: -) (NP (JJ 10Randy) (NNP Orton)) (: -) (NP (NN 8Batista)) (: -) (NP (CD 10Mr)) (. .)))
+#Rule:Nouns
+r1Hulk HoganPersonAnnotation
+r110Ric FlairPersonAnnotation
+r17Roddy PiperPersonAnnotation
+r1DonPersonAnnotation
+r1tNNP
+r1Warrior - 8Bret HartPersonAnnotation
+r16Shawn Michaels - 9Stone Cold -OrganizationAnnotation
+r19TheNN
+r1Rock - 9Triple HOrganizationAnnotation
+r16Eddie GuerreroPersonAnnotation
+r12UndertakerPersonAnnotation
+r18KanePersonAnnotation
+r17John CenaPersonAnnotation
+r110Randy Orton - 8BatistaOrganizationAnnotation
+
+#Rule:Verbs
+r2knowVBP
+
+#Rule:Adjs
+r4himUltimateJJ
+
+#Rule:Adj-Noun
+r57John CenaPersonAnnotationHulk HoganPersonAnnotation
+r5himUltimateJJWarrior - 8Bret HartPersonAnnotation
+
+#Rule:N-HeadNoun
+r8DonPersonAnnotationtNNP
+r89TheNNRock - 9Triple HOrganizationAnnotation
+
+#Rule:HeadNoun-V
+r11Hulk HoganPersonAnnotationknowVBP
+r1110Ric FlairPersonAnnotationknowVBP
+r117Roddy PiperPersonAnnotationknowVBP
+r11tNNPknowVBP
+
+#Rule:V-HeadNoun
+r21knowVBPWarrior - 8Bret HartPersonAnnotation
+
+#Kennedy - 9The Great Khali - 1Big Show - Don t know him
+#(S1 (NP (NP (NNP Kennedy)) (: -) (NP (NN 9The) (NNP Great) (NNP Khali)) (: -) (NP (NN 1Big) (NNP Show)) (: -) (NP (NNP Don) (NNP t)) (S (VP (VB know) (NP (PRP him))))))
+#Rule:Nouns
+r1KennedyPersonAnnotation
+r19TheNN
+r1Great KhaliPersonAnnotation
+r11BigNN
+r1ShowNNP
+r1Don tPersonAnnotation
+
+#Rule:Verbs
+r2knowVB
+
+#Rule:N-HeadNoun
+r89TheNNGreat KhaliPersonAnnotation
+r81BigNNShowNNP
+
+#Rule:V-HeadNoun
+r21knowVBhimPRP
+
+#Rule:SubVerbClause
+r50KennedyPersonAnnotationknowVB
+r50Great KhaliPersonAnnotationknowVB
+r50ShowNNPknowVB
+r50Don tPersonAnnotationknowVB
+
+@lemmas-left	6Eddie Guerrero	Don t	10Randy Orton - 8Batista	7John Cena	6Shawn Michaels - 9Stone Cold -	1Big	show	Rock - 9Triple H	himUltimate	Kennedy	himultimate	Warrior - 8Bret Hart	10Ric Flair	9The	Show	know	9the	Hulk Hogan	t	8Kane	Great Khali	2Undertaker	Don	big	7Roddy Piper	
+@lemmas-right	Hulk Hogan	t	Great Khali	Warrior - 8Bret Hart	Show	Rock - 9Triple H	show	him	know	
+@lemmas-center	

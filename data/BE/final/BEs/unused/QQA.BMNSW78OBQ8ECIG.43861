@@ -1,0 +1,61 @@
+#Mowing the lawn is probably one of the more strenuous activities that they do.  
+#(S1 (S (S (VP (VBG Mowing) (NP (DT the) (NN lawn)))) (VP (AUX is) (ADVP (RB probably)) (NP (NP (CD one)) (PP (IN of) (NP (NP (DT the) (ADJP (RBR more) (JJ strenuous)) (NNS activities)) (SBAR (WHNP (IN that)) (S (NP (PRP they)) (VP (AUX do)))))))) (. .)))
+#Rule:Nouns
+r1lawnNN
+r1activitiesNNS
+
+#Rule:Verbs
+r2mowingVBG
+
+#Rule:Adjs
+r4strenuousJJ
+
+#Rule:Adj-Noun
+r5strenuousJJactivitiesNNS
+
+#Rule:HeadNoun-V
+r11theyPRPdoAUX
+
+#Rule:V-HeadNoun
+r21mowingVBGlawnNN
+r21isAUXoneCD
+
+#Rule:PPinNP
+r26oneCDofINactivitiesNNS
+
+#Rule:V-ADV
+r46isAUXprobablyRB
+
+#Any manual labor done in the heat could cause a heart attack.
+#(S1 (S (NP (NP (DT Any) (JJ manual) (NN labor)) (VP (AUX done) (PP (IN in) (NP (DT the) (NN heat))))) (VP (MD could) (VP (VB cause) (NP (DT a) (NN heart) (NN attack)))) (. .)))
+#Rule:Nouns
+r1laborNN
+r1heatNN
+r1heartNN
+r1attackNN
+
+#Rule:Verbs
+r2causeVB
+
+#Rule:Adjs
+r4manualJJ
+
+#Rule:Adj-Noun
+r5manualJJlaborNN
+
+#Rule:N-HeadNoun
+r8heartNNattackNN
+
+#Rule:HeadNoun-V
+r11laborNNcauseVB
+r11laborNNdoneAUX
+
+#Rule:V-HeadNoun
+r21causeVBattackNN
+
+#Rule:PPinVP
+r30doneAUXinINheatNN
+
+@lemmas-left	they	is	cause	heart	lawn	done	one	heat	manual	labor	mow	strenuous	do	attack	activities	mowing	activity	be	
+@lemmas-right	labor	cause	lawn	done	one	probably	do	attack	activities	heat	activity	
+@lemmas-center	of	in	

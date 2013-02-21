@@ -1,0 +1,54 @@
+#why does everything in my life keeps going wrong??
+#(S1 (SBARQ (WHADVP (WRB why)) (SQ (AUX does) (NP (NN everything)) (SBAR (IN in) (S (NP (PRP$ my) (NN life)) (VP (VBZ keeps) (VP (VBG going) (ADJP (JJ wrong)))))) (. ?)) (. ?)))
+#Rule:Nouns
+r1everythingNN
+r1lifeNN
+
+#Rule:Verbs
+r2keepsVBZ
+r2goingVBG
+
+#Rule:Adjs
+r4wrongJJ
+
+#Rule:PRP-Noun
+r6myPRP$lifeNN
+
+#Rule:HeadNoun-V
+r11lifeNNkeepsVBZ
+r11lifeNNgoingVBG
+
+#I keep having stress in my life. I am alone and never have had a normal life
+#(S1 (S (NP (PRP I)) (VP (VBP keep) (S (VP (AUXG having) (NP (NN stress)) (PP (IN in) (NP (NP (PRP$ my) (FW life.)) (SBAR (S (NP (PRP I)) (VP (VP (AUX am) (ADJP (RB alone))) (CC and) (VP (ADVP (RB never)) (AUX have) (VP (AUX had) (NP (DT a) (JJ normal) (NN life))))))))))))))
+#Rule:Nouns
+r1stressNN
+r1lifeNN
+
+#Rule:Verbs
+r2keepVBP
+
+#Rule:Adjs
+r4normalJJ
+
+#Rule:Adj-Noun
+r5normalJJlifeNN
+
+#Rule:PRP-Noun
+r6myPRP$lifeFW
+
+#Rule:HeadNoun-V
+r11iPRPkeepVBP
+r11iPRPamAUX
+r11iPRPhadAUX
+
+#Rule:V-HeadNoun
+r21havingAUXGstressNN
+r21hadAUXlifeNN
+
+#Rule:V-ADV
+r46haveAUXneverRB
+r46hadAUXneverRB
+
+@lemmas-left	going	have	normal	everything	stress	my	i	life	wrong	having	had	keep	keeps	go	
+@lemmas-right	never	going	life	have	am	stress	life.	had	be	go	keeps	keep	
+@lemmas-center	

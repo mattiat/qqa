@@ -1,0 +1,48 @@
+#If it walks like a duck, looks like a duck, quacks like a duck.it s probably a duck..
+#(S1 (FRAG (SBAR (IN If) (S (NP (PRP it)) (VP (VP (VBZ walks) (PP (IN like) (NP (DT a) (NN duck)))) (, ,) (VP (VBZ looks) (PP (IN like) (NP (DT a) (NN duck)))) (, ,) (VP (VBZ quacks) (PP (IN like) (S (NP (DT a) (NN duck.it)) (VP (VBZ s) (ADVP (RB probably)) (NP (DT a) (NN duck))) (. .))))))) (. .)))
+#Rule:Nouns
+r1duckNN
+r1duckNN
+r1duck.itNN
+r1duckNN
+
+#Rule:Verbs
+r2walksVBZ
+r2looksVBZ
+r2quacksVBZ
+r2sVBZ
+
+#Rule:HeadNoun-V
+r11itPRPwalksVBZ
+r11itPRPlooksVBZ
+r11itPRPquacksVBZ
+r11duck.itNNsVBZ
+
+#Rule:V-HeadNoun
+r21sVBZduckNN
+
+#Rule:PPinVP
+r30walksVBZlikeINduckNN
+r30looksVBZlikeINduckNN
+
+#Rule:V-ADV
+r46sVBZprobablyRB
+
+#Darwin is most likely right!
+#(S1 (S (NP (NNP Darwin)) (VP (AUX is) (ADVP (RBS most) (JJ likely)) (ADJP (JJ right))) (. !)))
+#Rule:Nouns
+r1DarwinPersonAnnotation
+
+#Rule:Adjs
+r4likelyJJ
+r4rightJJ
+
+#Rule:HeadNoun-V
+r11DarwinPersonAnnotationisAUX
+
+#Rule:V-ADJ
+r25isAUXrightJJ
+
+@lemmas-left	look	is	it	duck.it	quack	likely	Darwin	looks	walks	s	duck	walk	right	quacks	be	
+@lemmas-right	look	is	looks	walks	s	quack	duck	probably	right	walk	quacks	be	
+@lemmas-center	like	

@@ -1,0 +1,47 @@
+#You can t gain height, but as a boy, you have quite a few years till you stop growing, so be patient.
+#(S1 (S (S (NP (PRP You)) (VP (MD can) (ADVP (RB t)) (VP (VB gain) (NP (NN height))))) (, ,) (CC but) (S (PP (IN as) (NP (DT a) (NN boy))) (, ,) (NP (PRP you)) (VP (AUX have) (ADVP (RB quite) (NP (DT a) (JJ few) (NNS years))) (SBAR (IN till) (S (NP (PRP you)) (VP (VP (VB stop) (VP (VBG growing))) (, ,) (RB so) (VP (AUX be) (ADJP (JJ patient)))))))) (. .)))
+#Rule:Nouns
+r1heightNN
+r1boyNN
+r1yearsNNS
+
+#Rule:Verbs
+r2gainVB
+r2stopVB
+r2growingVBG
+
+#Rule:Adjs
+r4fewJJ
+r4patientJJ
+
+#Rule:Adj-Noun
+r5fewJJyearsNNS
+
+#Rule:HeadNoun-V
+r11youPRPgainVB
+r11youPRPhaveAUX
+r11youPRPstopVB
+r11youPRPgrowingVBG
+r11youPRPbeAUX
+
+#Rule:V-HeadNoun
+r21gainVBheightNN
+
+#Rule:V-ADJ
+r25beAUXpatientJJ
+
+#Rule:PPinS
+r36haveAUXasINboyNN
+
+#Rule:V-IN-V
+r43haveAUXtillINstopVB
+r43haveAUXtillINgrowingVBG
+r43haveAUXtillINbeAUX
+
+#Rule:V-ADV
+r46gainVBtLocationAnnotation
+r46haveAUXquiteRB
+
+@lemmas-left	stop	patient	height	have	grow	you	growing	years	boy	be	few	gain	
+@lemmas-right	stop	t	patient	height	have	quite	grow	growing	years	boy	be	gain	
+@lemmas-center	as	till	

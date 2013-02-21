@@ -1,0 +1,35 @@
+#Why are you homeschooling??
+#(S1 (SBARQ (WHADVP (WRB Why)) (SQ (AUX are) (NP (PRP you)) (VP (VBG homeschooling)) (. ?)) (. ?)))
+#Rule:Verbs
+r2homeschoolingVBG
+
+#I am going to homeschool my children and was curious to know why others are.
+#(S1 (S (NP (PRP I)) (VP (AUX am) (VP (VBG going) (S (VP (TO to) (VP (VP (NN homeschool) (NP (PRP$ my) (NNS children))) (CC and) (VP (AUX was) (ADJP (JJ curious) (S (VP (TO to) (VP (VB know) (SBAR (WHADVP (WRB why)) (S (NP (NNS others)) (VP (AUX are)))))))))))))) (. .)))
+#Rule:Nouns
+r1homeschoolNN
+r1childrenNNS
+r1othersNNS
+
+#Rule:Verbs
+r2goingVBG
+r2knowVB
+
+#Rule:Adjs
+r4curiousJJ
+
+#Rule:PRP-Noun
+r6myPRP$childrenNNS
+
+#Rule:HeadNoun-V
+r11iPRPgoingVBG
+r11othersNNSarePersonAnnotation
+
+#Rule:V-HeadNoun
+r21homeschoolNNchildrenNNS
+
+#Rule:V-ADJ
+r25wasAUXcuriousJJ
+
+@lemmas-left	homeschooling	going	others	children	know	my	i	was	child	curious	homeschool	go	be	
+@lemmas-right	child	going	curious	are	children	go	
+@lemmas-center	

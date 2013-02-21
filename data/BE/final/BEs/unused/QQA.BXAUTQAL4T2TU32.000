@@ -1,0 +1,91 @@
+#Why do people think smoking is cool ? 
+#(S1 (SBARQ (WHADVP (WRB Why)) (SQ (AUX do) (NP (NNS people)) (VP (VB think) (SBAR (S (NP (NN smoking)) (VP (AUX is) (ADJP (JJ cool))))))) (. ?)))
+#Rule:Nouns
+r1peopleNNS
+r1smokingNN
+
+#Rule:Verbs
+r2thinkVB
+
+#Rule:Adjs
+r4coolJJ
+
+#Rule:HeadNoun-V
+r11smokingNNisAUX
+
+#Rule:V-ADJ
+r25isAUXcoolJJ
+
+#It obviously is just killing people and giving them cancer.?
+#(S1 (S (NP (PRP It)) (ADVP (RB obviously)) (VP (AUX is) (ADVP (RB just)) (VP (VP (VBG killing) (NP (NNS people))) (CC and) (VP (VBG giving) (NP (PRP them)) (NP (NN cancer)) (. .)))) (. ?)))
+#Rule:Nouns
+r1peopleNNS
+r1cancerNN
+
+#Rule:Verbs
+r2killingVBG
+r2givingVBG
+
+#Rule:HeadNoun-V
+r11itPRPkillingVBG
+r11itPRPgivingVBG
+
+#Rule:V-HeadNoun
+r21killingVBGpeopleNNS
+r21givingVBGthemPRP
+r21givingVBGcancerNN
+
+#Rule:V-ADV
+r46isAUXobviouslyRB
+r46isAUXjustRB
+
+#Maybe someone that does not care about people and just worried about money is behind your little habit? 
+#(S1 (S (ADVP (RB Maybe)) (NP (NP (NN someone)) (SBAR (WHNP (WDT that)) (S (VP (VP (AUX does) (RB not) (VP (VB care) (PP (IN about) (NP (NNS people))))) (CC and) (ADVP (RB just)) (VP (VBD worried) (PP (IN about) (NP (NN money)))))))) (VP (AUX is) (PP (IN behind) (NP (PRP$ your) (JJ little) (NN habit)))) (. ?)))
+#Rule:Nouns
+r1someoneNN
+r1peopleNNS
+r1moneyNN
+r1habitNN
+
+#Rule:Verbs
+r2careVB
+r2worriedVBD
+
+#Rule:Adjs
+r4littleJJ
+
+#Rule:Adj-Noun
+r5littleJJhabitNN
+
+#Rule:PRP-Noun
+r6yourPRP$habitNN
+
+#Rule:HeadNoun-V
+r11someoneNNisAUX
+
+#Rule:HeadNoun-(who/that)-V
+r14someoneNNcareVB
+r14someoneNNworriedVBD
+
+#Rule:PPinVP
+r30careVBaboutINpeopleNNS
+r30worriedVBDaboutINmoneyNN
+r30isAUXbehindINhabitNN
+
+#Rule:V-ADV
+r46isAUXMaybeRB
+r46doesAUXjustRB
+r46worriedVBDjustRB
+r46doesAUXnotRB
+
+#Did you ever think about that
+#(S1 (SQ (AUX Did) (NP (PRP you)) (ADVP (RB ever)) (VP (VB think) (PP (IN about) (NP (DT that))))))
+#Rule:Verbs
+r2thinkVB
+
+#Rule:PPinVP
+r30thinkVBaboutINthatLocationAnnotation
+
+@lemmas-left	does	cool	think	is	it	give	your	little	kill	people	habit	worried	smoking	someone	care	money	do	giving	worry	cancer	killing	be	
+@lemmas-right	cool	just	is	maybe	give	obviously	kill	people	not	that	habit	worried	them	money	care	giving	worry	Maybe	killing	cancer	be	
+@lemmas-center	behind	about	

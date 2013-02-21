@@ -1,0 +1,78 @@
+#I read through my textbooks, highlighting key points, and then I write down all I want to learn from them. 
+#(S1 (S (S (NP (PRP I)) (VP (VBP read) (PP (IN through) (NP (PRP$ my) (NNS textbooks))) (, ,) (S (VP (VBG highlighting) (NP (JJ key) (NNS points)))))) (, ,) (CC and) (RB then) (S (NP (PRP I)) (VP (VBP write) (PRT (RP down)) (NP (NP (DT all)) (SBAR (S (NP (PRP I)) (VP (VBP want) (S (VP (TO to) (VP (VB learn) (PP (IN from) (NP (PRP them)))))))))))) (. .)))
+#Rule:Nouns
+r1textbooksNNS
+r1pointsNNS
+
+#Rule:Verbs
+r2readVBP
+r2highlightingVBG
+r2wantVBP
+r2learnVB
+
+#Rule:V-PRT
+r3writeVBPdownRP
+
+#Rule:Adjs
+r4keyJJ
+
+#Rule:Adj-Noun
+r5keyJJpointsNNS
+
+#Rule:PRP-Noun
+r6myPRP$textbooksNNS
+
+#Rule:HeadNoun-V
+r11iPRPreadVBP
+r11iPRPwriteVBP
+r11iPRPwantVBP
+
+#Rule:V-HeadNoun
+r21highlightingVBGpointsNNS
+r21writeVBPallDT
+
+#Rule:PPinVP
+r30readVBPthroughINtextbooksNNS
+r30learnVBfromINthemPRP
+
+#Rule:V-V
+r44wantVBPlearnVB
+
+#I find it more effective to learn things that are in my own writing.
+#(S1 (S (NP (PRP I)) (VP (VBP find) (S (NP (PRP it)) (ADJP (RBR more) (JJ effective) (S (VP (TO to) (VP (VB learn) (NP (NP (NNS things)) (SBAR (WHNP (WDT that)) (S (VP (AUX are) (PP (IN in) (NP (PRP$ my) (JJ own) (NN writing))))))))))))) (. .)))
+#Rule:Nouns
+r1thingsNNS
+r1writingNN
+
+#Rule:Verbs
+r2findVBP
+r2learnVB
+
+#Rule:Adjs
+r4effectiveJJ
+r4ownJJ
+
+#Rule:Adj-Noun
+r5ownJJwritingNN
+
+#Rule:PRP-Noun
+r6myPRP$writingNN
+
+#Rule:HeadNoun-V
+r11iPRPfindVBP
+
+#Rule:HeadNoun-(who/that)-V
+r14thingsNNSareAUX
+
+#Rule:V-HeadNoun
+r21learnVBthingsNNS
+
+#Rule:V-HeadNoun
+r22findVBPitPRP
+
+#Rule:PPinVP
+r30areAUXinINwritingNN
+
+@lemmas-left	textbook	textbooks	writing	learn	highlighting	highlight	my	effective	i	point	are	write	read	own	things	points	find	want	key	be	
+@lemmas-right	it	textbook	textbooks	learn	writing	point	are	them	write	read	things	down	points	want	all	find	be	
+@lemmas-center	from	through	in	

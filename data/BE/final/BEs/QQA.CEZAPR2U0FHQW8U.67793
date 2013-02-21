@@ -1,0 +1,117 @@
+#you Must Stretch. if you dont YOU WONT GET ANYWHERE. trust me i am trying to. i have been stretching and i am getting lower and lower everyday by a couple of centimeteres. if you go online and type in split stretches, you will get LOADs,  and it works. 
+#(S1 (S (NP (PRP you)) (VP (MD Must) (VP (VB Stretch.) (SBAR (IN if) (S (NP (PRP you)) (VP (VBP dont) (SBAR (S (NP (PRP YOU)) (VP (VBP WONT) (S (VP (VB GET) (S (NP (NNP ANYWHERE.)) (VP (VB trust) (NP (PRP me)) (SBAR (S (S (NP (PRP i)) (VP (AUX am) (VP (VBG trying) (SBAR (IN to.) (S (S (NP (PRP i)) (VP (AUX have) (VP (AUX been) (VP (VBG stretching))))) (CC and) (S (NP (PRP i)) (VP (AUX am) (VP (VBG getting) (ADJP (ADJP (ADJP (RBR lower)) (CC and) (ADJP (RBR lower) (JJ everyday) (PP (IN by) (NP (NP (DT a) (NN couple)) (PP (IN of) (NP (NN centimeteres.))))))) (SBAR (S (SBAR (IN if) (S (NP (PRP you)) (VP (VBP go) (NP (NN online) (CC and) (NN type)) (PP (IN in) (NP (JJ split) (NNS stretches)))))) (, ,) (NP (PRP you)) (VP (MD will) (VP (VB get) (NP (NNS LOADs))))))))))))))) (, ,) (CC and) (S (NP (PRP it)) (VP (VBZ works))))))))))))))))) (. .)))
+#Rule:Nouns
+r1YOU WONTOrganizationAnnotation
+r1coupleNN
+r1centimeteresNN
+r1onlineNN
+r1typeNN
+r1stretchesNNS
+r1LOADsOrganizationAnnotation
+
+#Rule:Verbs
+r2stretchVB
+r2dontVBP
+r2trustVB
+r2tryingVBG
+r2stretchingVBG
+r2gettingVBG
+r2goVBP
+r2getVB
+r2worksVBZ
+
+#Rule:Adjs
+r4everydayJJ
+r4splitJJ
+
+#Rule:Adj-Noun
+r5splitJJstretchesNNS
+
+#Rule:HeadNoun-V
+r11youPRPstretchVB
+r11youPRPdontVBP
+r11YOU WONTOrganizationAnnotationtrustVB
+r11iLocationAnnotationtryingVBG
+r11iPersonAnnotationstretchingVBG
+r11iLocationAnnotationgettingVBG
+r11youPRPgetVB
+r11youPRPgoVBP
+r11itPRPworksVBZ
+
+#Rule:V-HeadNoun
+r21trustVBmePRP
+r21goVBPonlineNN
+r21getVBLOADsOrganizationAnnotation
+
+#Rule:PPinNP
+r26coupleNNofINcentimeteresNN
+
+#Rule:PPinVP
+r30goVBPinINstretchesNNS
+
+#Rule:PPinADJP
+r37everydayJJbyINcoupleNN
+
+#Rule:V-IN-V
+r43stretchVBifINdontVBP
+
+#Lunges and reaching for your toes works too. 
+#(S1 (S (S (VP (VBZ Lunges) (CC and) (VBG reaching) (PP (IN for) (NP (PRP$ your) (NNS toes))))) (VP (VBZ works) (ADVP (RB too))) (. .)))
+#Rule:Nouns
+r1toesNNS
+
+#Rule:Verbs
+r2lungesVBZ
+r2reachingVBG
+r2worksVBZ
+
+#Rule:PRP-Noun
+r6yourPRP$toesNNS
+
+#Rule:PPinVP
+r30lungesVBZforINtoesNNS
+
+#Rule:V-ADV
+r46worksVBZtooRB
+
+#And if you have one flexible leg more than the other, work on that so it makes it equalx
+#(S1 (S (CC And) (SBAR (IN if) (S (NP (PRP you)) (VP (AUX have) (NP (NP (CD one) (JJ flexible) (NN leg)) (ADJP (ADJP (JJR more)) (PP (IN than) (NP (DT the) (JJ other)))))))) (, ,) (VP (VBP work) (PRT (RP on)) (SBAR (IN that) (RB so) (S (NP (PRP it)) (VP (VBZ makes) (S (NP (PRP it)) (ADJP (JJ equalx)))))))))
+#Rule:Nouns
+r1legNN
+
+#Rule:Verbs
+r2makesVBZ
+
+#Rule:V-PRT
+r3workVBPonRP
+
+#Rule:Adjs
+r4flexibleJJ
+r4moreJJR
+r4otherJJ
+r4equalxJJ
+
+#Rule:Adj-Noun
+r5moreJJRlegNN
+r5oneCDlegNN
+r5flexibleJJlegNN
+
+#Rule:HeadNoun-V
+r11youPRPhaveAUX
+r11itPRPmakesVBZ
+
+#Rule:V-HeadNoun
+r21haveAUXlegNN
+
+#Rule:V-HeadNoun
+r22makesVBZitPRP
+
+#Rule:PPinADJP
+r37moreJJRthanINotherJJ
+
+#Rule:V-IN-V
+r43workVBPthatINmakesVBZ
+
+@lemmas-left	toe	getting	other	have	one	everyday	type	stretch.	stretches	trying	stretching	lunges	online	reach	more	reaching	YOU WONT	equalx	couple	lunge	work	it	get	makes	trust	your	toes	you	flexible	LOADs	centimeteres.	works	i	centimeteres	leg	dont	stretch	split	make	try	go	
+@lemmas-right	getting	toe	other	have	stretching	trying	stretch.	stretches	online	on	me	couple	too	work	it	get	makes	trust	toes	works	LOADs	centimeteres.	centimeteres	leg	dont	stretch	make	try	go	
+@lemmas-center	that	of	for	if	than	by	in	

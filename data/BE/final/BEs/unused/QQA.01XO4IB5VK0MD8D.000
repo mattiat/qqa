@@ -1,0 +1,18 @@
+#How much sleep does a 21 year old woman need?
+#(S1 (SBARQ (WHNP (WRB How) (JJ much) (NN sleep)) (SQ (AUX does) (NP (DT a) (ADJP (NP (CD 21) (NN year)) (JJ old)) (NN woman)) (VP (AUX need))) (. ?)))
+#Rule:Nouns
+r1sleepNN
+r1yearNN
+r1womanNN
+
+#Rule:Adjs
+r4muchJJ
+r4oldJJ
+
+#Rule:Adj-Noun
+r5oldJJwomanNN
+r521CDyearNN
+
+@lemmas-left	21	old	woman	year	sleep	much	
+@lemmas-right	woman	year	
+@lemmas-center	

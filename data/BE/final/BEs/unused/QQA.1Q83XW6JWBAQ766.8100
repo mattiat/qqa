@@ -1,0 +1,45 @@
+#No answer is acceptable here in explination form. 
+#(S1 (S (NP (DT No) (NN answer)) (VP (AUX is) (ADJP (JJ acceptable)) (ADVP (RB here)) (PP (IN in) (NP (NN explination) (NN form)))) (. .)))
+#Rule:Nouns
+r1answerNN
+r1explinationNN
+r1formNN
+
+#Rule:Adjs
+r4acceptableJJ
+
+#Rule:N-HeadNoun
+r8explinationNNformNN
+
+#Rule:HeadNoun-V
+r11answerNNisAUX
+
+#Rule:V-ADJ
+r25isAUXacceptableJJ
+
+#Rule:PPinVP
+r30isAUXinINformNN
+
+#Rule:V-ADV
+r46isAUXhereRB
+
+#It truly does defy all reason.
+#(S1 (S (NP (PRP It)) (ADVP (RB truly)) (VP (AUX does) (VP (VBP defy) (NP (DT all) (NN reason)))) (. .)))
+#Rule:Nouns
+r1reasonNN
+
+#Rule:Verbs
+r2defyVBP
+
+#Rule:HeadNoun-V
+r11itPRPdefyVBP
+
+#Rule:V-HeadNoun
+r21defyVBPreasonNN
+
+#Rule:V-ADV
+r46doesAUXtrulyRB
+
+@lemmas-left	does	acceptable	is	it	form	reason	answer	defy	do	explination	be	
+@lemmas-right	truly	acceptable	is	form	reason	defy	here	be	
+@lemmas-center	in	

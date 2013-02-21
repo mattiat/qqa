@@ -1,0 +1,44 @@
+#well i prefer that one big hole n offer u use that n enjoy life more n more
+#(S1 (S (INTJ (UH well)) (NP (PRP i)) (VP (VBP prefer) (SBAR (IN that) (S (NP (NP (CD one) (JJ big) (NN hole)) (NP (NNP n) (NN offer) (NNP u))) (VP (VBP use) (SBAR (IN that) (S (NP (NNP n)) (VP (VB enjoy) (S (NP (NN life)) (ADJP (JJR more) (S (NP (NNP n)) (ADJP (RBR more))))))))))))))
+#Rule:Nouns
+r1holeNN
+r1nOrganizationAnnotation
+r1offerNN
+r1uNNP
+r1nNNP
+r1lifeNN
+r1nNNP
+
+#Rule:Verbs
+r2preferVBP
+r2useVBP
+r2enjoyVB
+
+#Rule:Adjs
+r4bigJJ
+r4moreJJR
+
+#Rule:Adj-Noun
+r5oneCDholeNN
+r5bigJJholeNN
+
+#Rule:N-HeadNoun
+r8offerNNuNNP
+r8nOrganizationAnnotationuNNP
+
+#Rule:HeadNoun-V
+r11iOrganizationAnnotationpreferVBP
+r11holeNNuseVBP
+r11uNNPuseVBP
+r11nNNPenjoyVB
+
+#Rule:V-HeadNoun
+r22enjoyVBlifeNN
+
+#Rule:V-IN-V
+r43preferVBPthatINuseVBP
+r43useVBPthatINenjoyVB
+
+@lemmas-left	u	more	life	one	n	use	enjoy	offer	big	prefer	i	hole	
+@lemmas-right	u	life	use	enjoy	prefer	hole	
+@lemmas-center	that	

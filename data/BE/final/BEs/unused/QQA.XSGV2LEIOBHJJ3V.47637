@@ -1,0 +1,117 @@
+#My brother in law s sister in law (whoa, if you can get past that you re obviously NOT homeschooled), homeschools their children. ....But she also breast fed him until he was five..
+#(S1 (S (S (NP (NP (PRP$ My) (NN brother)) (PP (IN in) (NP (NN law)))) (VP (VBZ s) (SBAR (S (NP (NP (NN sister)) (PP (IN in) (NP (NN law))) (PRN (-LRB- -LRB-) (NP (NP (NN whoa)) (, ,) (SBAR (IN if) (S (NP (PRP you)) (VP (MD can) (VP (VB get) (S (ADJP (JJ past)) (SBAR (IN that) (S (NP (PRP you) (NNP re)) (ADVP (RB obviously)) (VP (RB NOT) (VBN homeschooled)))))))))) (-RRB- -RRB-)) (, ,)) (VP (VBZ homeschools) (NP (PRP$ their) (JJ children.) (NNS ....))))))) (CC But) (S (NP (PRP she)) (ADVP (RB also) (NN breast)) (VP (VBD fed) (NP (PRP him)) (SBAR (IN until) (S (NP (PRP he)) (VP (AUX was) (NP (CD five)))))) (. .)) (. .)))
+#Rule:Nouns
+r1brotherNN
+r1lawNN
+r1sisterNN
+r1lawNN
+r1whoaLocationAnnotation
+r1reNNP
+r1....NNS
+r1breastNN
+
+#Rule:Verbs
+r2sVBZ
+r2getVB
+r2homeschooledVBN
+r2homeschoolsVBZ
+r2fedVBD
+
+#Rule:Adjs
+r4pastJJ
+r4childrenJJ
+
+#Rule:Adj-Noun
+r5childrenJJ....NNS
+
+#Rule:PRP-Noun
+r6myPRP$brotherNN
+r6theirPRP$....NNS
+
+#Rule:HeadNoun-V
+r11brotherNNsVBZ
+r11sisterNNhomeschoolsVBZ
+r11youPRPgetVB
+r11shePRPfedVBD
+r11hePRPwasAUX
+
+#Rule:V-HeadNoun
+r21homeschoolsVBZ....NNS
+r21fedVBDhimPRP
+r21wasAUXfiveCD
+
+#Rule:V-HeadNoun(passive)
+r24homeschooledVBNreNNP
+
+#Rule:PPinNP
+r26brotherNNinINlawNN
+r26sisterNNinINlawNN
+
+#Rule:V-IN-V
+r43fedVBDuntilINwasAUX
+
+#Rule:V-ADV
+r46homeschooledVBNobviouslyRB
+r46homeschooledVBNNOTRB
+r46fedVBDalsoRB
+
+#And he had to kneel beside her on the couch..
+#(S1 (S (CC And) (NP (PRP he)) (VP (AUX had) (S (VP (TO to) (VP (VB kneel) (PP (IN beside) (NP (PRP her))) (PP (IN on) (NP (DT the) (NN couch))) (. .))))) (. .)))
+#Rule:Nouns
+r1couch..LocationAnnotation
+
+#Rule:Verbs
+r2kneelVB
+
+#Rule:HeadNoun-V
+r11hePRPhadAUX
+
+#Rule:PPinVP
+r30kneelVBbesideINherPRP
+r30kneelVBonINcouch..LocationAnnotation
+
+#I *wish* I was kidding..
+#(S1 (S (NP (PRP I)) (ADVP (RB *)) (VP (VBP wish) (S (ADVP (RB *)) (NP (PRP I)) (VP (AUX was) (VP (VBG kidding))) (. .))) (. .)))
+#Rule:Verbs
+r2*wish* IPersonAnnotation
+r2kiddingVBG
+
+#Rule:HeadNoun-V
+r11iPRP*wish* IPersonAnnotation
+r11*wish* IPersonAnnotationkiddingVBG
+
+#Rule:V-ADV
+r46wasAUX*wish* IPersonAnnotation
+
+#I guess the fruit falls close to the tree even if the fruit doesn t want to.
+#(S1 (S (NP (PRP I)) (VP (VBP guess) (SBAR (S (NP (DT the) (NN fruit)) (VP (VBZ falls) (ADJP (RB close) (PP (TO to) (NP (DT the) (NN tree)))) (SBAR (RB even) (IN if) (S (NP (DT the) (NN fruit) (NN doesn) (NNS t)) (VP (VBP want) (S (VP (TO to)))))))))) (. .)))
+#Rule:Nouns
+r1fruitNN
+r1treeNN
+r1fruitNN
+r1doesnNN
+r1tNNS
+
+#Rule:Verbs
+r2guessVBP
+r2fallsVBZ
+r2wantVBP
+
+#Rule:N-HeadNoun
+r8doesnNNtNNS
+r8fruitNNtNNS
+
+#Rule:HeadNoun-V
+r11iPRPguessVBP
+r11fruitNNfallsVBZ
+r11tNNSwantVBP
+
+#Rule:PPinADJP
+r37closeRBtoTOtreeNN
+
+#Rule:V-IN-V
+r43fallsVBZifINwantVBP
+
+@lemmas-left	....	kneel	children	re	couch..	close	kid	was	sister	doesn	children.	tree	she	feed	homeschooled	want	homeschools	be	*wish* I	law	fruit	get	you	he	past	my	i	kidding	breast	t	fed	s	whoa	guess	falls	fall	brother	their	
+@lemmas-right	....	have	him	re	couch..	was	kid	tree	NOT	feed	her	want	had	be	homeschools	law	*wish* I	five	get	obviously	kidding	not	fed	t	s	guess	falls	fall	brother	also	
+@lemmas-center	to	beside	if	on	in	until	

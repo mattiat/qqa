@@ -1,0 +1,216 @@
+BE: probesNNS
+EQ class: investigationnns	theynns	probenns	themnns	
+
+BE: warmthNN
+EQ class: heatnn	
+
+BE: foodNN
+EQ class: nutrientnn	
+
+BE: waterNN
+EQ class: wateryjj	h2onn	
+
+BE: oxygenPersonAnnotation
+EQ class: 
+
+BE: requireVB
+EQ class: askvb	call_forvb	postulatevb	necessitatevb	involvevb	needvb	demandvb	takevb	
+
+BE: UnmannedJJ
+EQ class: remote-controlledjj	
+
+BE: UnmannedJJprobesNNS
+EQ class: unmannedjjinvestigationnns	remote-controlledjjinvestigationnns	remote-controlledjjthemnns	unmannedjjprobenns	unmannedjjtheynns	remote-controlledjjtheynns	remote-controlledjjprobesnns	unmannedjjthemnns	remote-controlledjjprobenns	
+
+BE: warmthNNfoodNN
+EQ class: nutrientnnwarmthnn	foodnnheatnn	warmthnnnutrientnn	heatnnfoodnn	heatnnnutrientnn	nutrientnnheatnn	foodnnwarmthnn	
+
+BE: foodNNwaterNN
+EQ class: waternnnutrientnn	wateryjjnutrientnn	foodnnh2onn	h2onnnutrientnn	nutrientnnwatervb	lachrymationnnofinfoodnn	nutrientnnh2onn	tearingnnofinfoodnn	foodnnirrigatevb	h2onnofinfoodnn	lacrimationnnofinfoodnn	wateringnnofinfoodnn	wateryjjofinnutrientnn	wateringnnofinnutrientnn	lachrymationnnofinnutrientnn	lacrimationnnofinnutrientnn	waternnfoodnn	nutrientnnwateryjj	waterernnofinnutrientnn	wateryjjfoodnn	waternnofinfoodnn	foodnnwateryjj	nutrientnnwaternn	h2onnofinnutrientnn	h2onnfoodnn	waternnofinnutrientnn	waterernnofinfoodnn	wateryjjofinfoodnn	nutrientnnirrigatevb	foodnnwatervb	tearingnnofinnutrientnn	
+
+BE: probesNNSrequireVB
+EQ class: requirementnntheynns	probennstakevb	probennsneedvb	theynnsaskvb	theynnsnecessitatevb	investigationnnsnecessitatevb	themnnsaskvb	probennsdemandvb	investigationnnscall_forvb	probesnnsneedvb	probennsnecessitatevb	requirementnnprobesnns	requirementnnofintheynns	probennscall_forvb	theynnsrequirevb	themnnstakevb	investigationnnsinvolvevb	demandnnofinprobesnns	probennspostulatevb	demandnnprobesnns	themnnsneedvb	probesnnsdemandvb	demandnnofininvestigationnns	investigationnnsrequirevb	probesnnstakevb	themnnsnecessitatevb	probennsinvolvevb	demandnnthemnns	themnnsinvolvevb	probennsaskvb	investigationnnspostulatevb	theynnsinvolvevb	theynnspostulatevb	demandnnofintheynns	investigationnnsneedvb	probesnnscall_forvb	investigationnnsdemandvb	themnnsrequirevb	theynnsneedvb	demandnnofinprobenns	theynnsdemandvb	requirementnnofininvestigationnns	theynnstakevb	themnnsdemandvb	probesnnsinvolvevb	demandnntheynns	requirementnninvestigationnns	theynnscall_forvb	requirementnnofinprobesnns	probesnnspostulatevb	investigationnnsaskvb	requirementnnofinthemnns	themnnscall_forvb	probesnnsaskvb	requirementnnthemnns	demandnnofinthemnns	probesnnsnecessitatevb	requirementnnofinprobenns	demandnnprobenns	investigationnnstakevb	probennsrequirevb	themnnspostulatevb	requirementnnprobenns	demandnninvestigationnns	
+
+BE: requireVBwarmthNN
+EQ class: requirementnnofinwarmthnn	demandnnofinwarmthnn	requirevbheatnn	postulatevbwarmthnn	needvbheatnn	necessitatevbheatnn	involvevbheatnn	involvevbwarmthnn	needvbwarmthnn	call_forvbwarmthnn	takevbwarmthnn	demandvbwarmthnn	call_forvbheatnn	requirementnnofinheatnn	askvbwarmthnn	postulatevbheatnn	necessitatevbwarmthnn	demandvbheatnn	askvbheatnn	demandnnofinheatnn	takevbheatnn	
+
+BE: doAUXnotRB
+EQ class: makeauxnotrb	
+
+BE: missionOrganizationAnnotation
+EQ class: 
+
+BE: quantitiesNNS
+EQ class: measurenns	theynns	quantitynns	amountnns	themnns	
+
+BE: survivalNN
+EQ class: endurancenn	
+
+BE: crewNN
+EQ class: 
+
+BE: includedVBN
+EQ class: includevbn	
+
+BE: mannedVBD
+EQ class: manvbd	
+
+BE: ensureVB
+EQ class: guaranteevb	insurevb	assurevb	securevb	
+
+BE: sufficientJJ
+EQ class: sufficiencynn	
+
+BE: sufficientJJquantitiesNNS
+EQ class: sufficientjjmeasurenns	sufficientjjtheynns	sufficientjjthemnns	sufficientjjamountnns	sufficiencynnquantitiesnns	sufficientjjquantitynns	sufficiencynntheynns	sufficiencynnamountnns	sufficiencynnquantitynns	sufficiencynnthemnns	sufficiencynnmeasurenns	
+
+BE: quantitiesNNSensureVB
+EQ class: theynnsassurevb	amountnnsguaranteevb	amountnnsinsurevb	themnnsinsurevb	quantitynnsensurevb	theynnssecurevb	themnnsguaranteevb	amountnnssecurevb	measurennssecurevb	amountnnsensurevb	theynnsguaranteevb	theynnsinsurevb	amountnnsassurevb	quantitiesnnsassurevb	quantitiesnnsguaranteevb	theynnsensurevb	quantitynnsguaranteevb	quantitynnssecurevb	measurennsassurevb	measurennsguaranteevb	themnnsassurevb	themnnsensurevb	quantitynnsinsurevb	quantitynnsassurevb	measurennsinsurevb	quantitiesnnsinsurevb	quantitiesnnssecurevb	measurennsensurevb	themnnssecurevb	
+
+BE: ensureVBsurvivalNN
+EQ class: guaranteevbsurvivalnn	securevbsurvivalnn	insurevbendurancenn	guaranteevbendurancenn	assurevbsurvivalnn	insurevbsurvivalnn	ensurevbendurancenn	assurevbendurancenn	securevbendurancenn	
+
+BE: includedVBNallDT
+EQ class: includevbnalldt	
+
+BE: allDTofINtheseDT
+EQ class: 
+
+BE: survivalNNofINcrewNN
+EQ class: crewnnhold_outvb	crewnnhold_upvb	lastvbcrewnn	crewnnlive_onvb	survivevbcrewnn	endurancennofincrewnn	hold_outvbcrewnn	livevbcrewnn	crewnnsurvivalnn	govbcrewnn	live_onvbcrewnn	endurevbcrewnn	crewnnendurancenn	hold_upvbcrewnn	crewnnlastvb	crewnngovb	crewnnendurevb	crewnnsurvivevb	crewnnlivevb	
+
+BE: includedVBNforINmissionOrganizationAnnotation
+EQ class: includevbnforinmissionorganizationannotation	
+
+BE: includedVBNinINquantitiesNNS
+EQ class: includevbnininmeasurenns	includedvbnininamountnns	includevbninintheynns	includedvbnininquantitynns	includedvbnininthemnns	includedvbnininmeasurenns	includevbnininquantitynns	includedvbninintheynns	includevbnininamountnns	includevbnininquantitiesnns	includevbnininthemnns	
+
+BE: SystemsOrganizationAnnotation
+EQ class: 
+
+BE: resourcesNNS
+EQ class: theynns	resourcenns	themnns	
+
+BE: wasteNN
+EQ class: waste_productnn	waste_matternn	waste_materialnn	
+
+BE: disposalNN
+EQ class: 
+
+BE: systemsNNS
+EQ class: systemnns	
+
+BE: spacecraftNN
+EQ class: ballistic_capsulenn	space_vehiclenn	
+
+BE: designNN
+EQ class: designingnn	
+
+BE: managingVBG
+EQ class: managevbg	bring_offvbg	negociatevbg	pull_offvbg	carry_offvbg	
+
+BE: includedVBN
+EQ class: includevbn	
+
+BE: disposalNNsystemsNNS
+EQ class: systemnnsofindisposalnn	systemsnnsofindisposalnn	disposalnnsystemnns	
+
+BE: wasteNNsystemsNNS
+EQ class: wastrelnnofinsystemsnns	systemnnsofinwaste_materialnn	wasternnofinsystemnns	systemnnsofinwaste_productnn	waste_matternnsystemsnns	waste_matternnsystemnns	systemsnnswastevb	systemsnnsofinwaste_matternn	systemsnnssquandervb	systemsnnsofinwaste_productnn	wasternnofinsystemsnns	systemnnsblowvb	waste_productnnsystemsnns	waste_materialnnofinsystemsnns	waste_matternnofinsystemsnns	systemsnnsofinwaste_materialnn	waste_materialnnofinsystemnns	wastrelnnofinsystemnns	wastennofinsystemsnns	waste_matternnofinsystemnns	waste_materialnnsystemnns	systemsnnsblowvb	waste_productnnofinsystemnns	waste_materialnnsystemsnns	systemsnnsofinwastenn	waste_productnnofinsystemsnns	systemnnssquandervb	wastennsystemnns	wastennofinsystemnns	systemnnswastevb	waste_productnnsystemnns	systemnnsofinwastenn	systemnnsofinwaste_matternn	
+
+BE: spacecraftNNdesignNN
+EQ class: space_vehiclenndesignvb	planvbspace_vehiclenn	ballistic_capsulennprojectvb	ballistic_capsulenndesignvb	contrivevbspace_vehiclenn	ballistic_capsulenndesigningnn	space_vehiclenncontrivevb	designvbballistic_capsulenn	space_vehiclenndesigningnn	designvbspacecraftnn	contrivevbspacecraftnn	planvbspacecraftnn	designingnnofinspace_vehiclenn	designingnnofinspacecraftnn	ballistic_capsulennplanvb	projectvbspace_vehiclenn	designnnofinballistic_capsulenn	spacecraftnndesignvb	space_vehiclennprojectvb	planvbballistic_capsulenn	spacecraftnncontrivevb	designnnofinspace_vehiclenn	spacecraftnndesigningnn	projectvbspacecraftnn	spacecraftnnplanvb	designvbspace_vehiclenn	space_vehiclennplanvb	space_vehiclenndesignnn	contrivevbballistic_capsulenn	ballistic_capsulenndesignnn	ballistic_capsulenncontrivevb	designnnofinspacecraftnn	designingnnofinballistic_capsulenn	projectvbballistic_capsulenn	spacecraftnnprojectvb	
+
+BE: managingVBGresourcesNNS
+EQ class: pull_offvbgresourcenns	negociatevbgresourcesnns	bring_offvbgresourcesnns	carry_offvbgtheynns	managingvbgresourcenns	pull_offvbgthemnns	managingvbgthemnns	carry_offvbgresourcenns	bring_offvbgthemnns	carry_offvbgthemnns	managevbgtheynns	managingvbgtheynns	bring_offvbgresourcenns	managevbgresourcenns	negociatevbgthemnns	bring_offvbgtheynns	negociatevbgtheynns	negociatevbgresourcenns	carry_offvbgresourcesnns	managevbgresourcesnns	pull_offvbgtheynns	pull_offvbgresourcesnns	managevbgthemnns	
+
+BE: includedVBNSystemsOrganizationAnnotation
+EQ class: includevbnsystemsorganizationannotation	
+
+BE: includedVBNsystemsNNS
+EQ class: includevbnsystemsnns	includevbnsystemnns	includedvbnsystemnns	
+
+BE: includedVBNinINdesignNN
+EQ class: includedvbninindesigningnn	includevbninindesigningnn	includevbninindesignnn	
+
+BE: factorsNNS
+EQ class: factornns	theynns	themnns	
+
+BE: othersNNS
+EQ class: theynns	themnns	
+
+BE: missionsNNS
+EQ class: missionary_stationnns	foreign_missionnns	missionary_postnns	theynns	missionnns	themnns	
+
+BE: makeVBP
+EQ class: dovbp	
+
+BE: mannedVBD
+EQ class: manvbd	
+
+BE: difficultJJ
+EQ class: hardjj	difficultnessnn	
+
+BE: unmannedJJ
+EQ class: remote-controlledjj	
+
+BE: factorsNNSmakeVBP
+EQ class: factorsnnsdovbp	themnnsdovbp	factornnsmakevbp	theynnsdovbp	factornnsdovbp	themnnsmakevbp	theynnsmakevbp	
+
+BE: othersNNSmakeVBP
+EQ class: othersnnsdovbp	themnnsdovbp	theynnsdovbp	themnnsmakevbp	theynnsmakevbp	
+
+BE: makeVBPmissionsNNS
+EQ class: dovbptheynns	makevbpforeign_missionnns	dovbpthemnns	dovbpmissionsnns	dovbpmissionnns	dovbpmissionary_postnns	makevbpthemnns	makevbpmissionary_stationnns	makevbpmissionnns	makevbpmissionary_postnns	dovbpforeign_missionnns	makevbptheynns	dovbpmissionary_stationnns	
+
+BE: missionsNNS
+EQ class: missionary_stationnns	foreign_missionnns	missionary_postnns	theynns	missionnns	themnns	
+
+BE: MarsOrganizationAnnotation
+EQ class: 
+
+BE: termsNNS
+EQ class: footingnns	theynns	themnns	
+
+BE: discoveryNN
+EQ class: uncoveringnn	findnn	
+
+BE: mannedVBD
+EQ class: manvbd	
+
+BE: likelyJJ
+EQ class: likelinessnn	
+
+BE: rewardingJJ
+EQ class: 
+
+BE: scientificJJ
+EQ class: scientific_knowledgenn	
+
+BE: unmannedJJ
+EQ class: remote-controlledjj	
+
+BE: scientificJJdiscoveryNN
+EQ class: scientific_knowledgenndiscoverynn	scientificjjuncoveringnn	scientificjjfindnn	scientific_knowledgennuncoveringnn	scientific_knowledgennfindnn	
+
+BE: missionsNNSareAUX
+EQ class: themnnsareaux	foreign_missionnnsbeaux	missionsnnsbeaux	missionary_stationnnsareaux	missionary_stationnnsbeaux	missionnnsbeaux	themnnsbeaux	theynnsareaux	missionnnsareaux	theynnsbeaux	missionary_postnnsbeaux	missionary_postnnsareaux	foreign_missionnnsareaux	
+
+BE: areAUXlikelyJJ
+EQ class: beauxlikelinessnn	beauxlikelyjj	areauxlikelinessnn	
+
+BE: beAUXrewardingJJ
+EQ class: 
+
+BE: missionsNNStoTOMarsOrganizationAnnotation
+EQ class: marsorganizationannotationmissionsnns	themnnstotomarsorganizationannotation	marsorganizationannotationmissionary_stationnns	marsorganizationannotationmissionnns	missionary_postnnstotomarsorganizationannotation	foreign_missionnnstotomarsorganizationannotation	marsorganizationannotationmissionervb	marsorganizationannotationtheynns	marsorganizationannotationforeign_missionnns	missionnnstotomarsorganizationannotation	missionervbmarsorganizationannotation	theynnstotomarsorganizationannotation	missionary_stationnnstotomarsorganizationannotation	marsorganizationannotationmissionary_postnns	marsorganizationannotationthemnns	
+
+BE: termsNNSofINdiscoveryNN
+EQ class: themnnsofinuncoveringnn	themnnsofindiscoverynn	theynnsofinfindnn	discoverynnfootingnns	footingnnsofinuncoveringnn	uncoveringnntheynns	uncoveringnnthemnns	footingnnsofinfindnn	findnntheynns	findnnfootingnns	termsnnsofinuncoveringnn	uncoveringnntermsnns	findnntermsnns	theynnsofindiscoverynn	uncoveringnnfootingnns	discoverynntermsnns	discoverynnthemnns	findnnthemnns	theynnsofinuncoveringnn	termsnnsofinfindnn	themnnsofinfindnn	discoverynntheynns	footingnnsofindiscoverynn	
+
+BE: rewardingJJinINtermsNNS
+EQ class: rewardingjjininthemnns	rewardingjjinintheynns	rewardingjjininfootingnns	
+
+BE: areAUXhoweverRB
+EQ class: beauxhoweverrb	
+

@@ -1,0 +1,15 @@
+#How many plays did shakespeare write?
+#(S1 (SBARQ (WHNP (WHADJP (WRB How) (JJ many)) (NNS plays)) (SQ (AUX did) (NP (NN shakespeare)) (VP (VB write))) (. ?)))
+#Rule:Nouns
+r1playsNNS
+r1shakespeareNN
+
+#Rule:Verbs
+r2writeVB
+
+#Rule:Adjs
+r4manyJJ
+
+@lemmas-left	many	write	play	plays	shakespeare	
+@lemmas-right	
+@lemmas-center	

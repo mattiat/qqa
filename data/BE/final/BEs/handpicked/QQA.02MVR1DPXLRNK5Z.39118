@@ -1,0 +1,133 @@
+#Drink a latte!  
+#(S1 (S (VP (VB Drink) (NP (DT a) (NN latte))) (. !)))
+#Rule:Nouns
+r1latteNN
+
+#Rule:Verbs
+r2drinkVB
+
+#Rule:V-HeadNoun
+r21drinkVBlatteNN
+
+#Seriously, the combination of the caffeine and the syrup does a wonder.  
+#(S1 (S (ADVP (RB Seriously)) (, ,) (NP (NP (NP (DT the) (NN combination)) (PP (IN of) (NP (DT the) (NN caffeine)))) (CC and) (NP (DT the) (NN syrup))) (VP (AUX does) (NP (DT a) (NN wonder))) (. .)))
+#Rule:Nouns
+r1combinationNN
+r1caffeineOrganizationAnnotation
+r1syrupNN
+r1wonderNN
+
+#Rule:HeadNoun-V
+r11combinationNNdoesAUX
+r11syrupNNdoesAUX
+
+#Rule:V-HeadNoun
+r21doesAUXwonderNN
+
+#Rule:PPinNP
+r26combinationNNofINcaffeineOrganizationAnnotation
+
+#Rule:V-ADV
+r46doesAUXSeriouslyRB
+
+#Don t get a mocha, it only works with the flavored syrups, and I d recommend at least a double shot.  
+#(S1 (S (S (NP (NNP Don) (NNS t)) (VP (VBP get) (NP (DT a) (NN mocha)))) (, ,) (S (NP (PRP it)) (ADVP (RB only)) (VP (VBZ works) (PP (IN with) (NP (DT the) (JJ flavored) (NNS syrups))))) (, ,) (CC and) (S (NP (PRP I)) (ADVP (LS d)) (VP (VBP recommend) (NP (ADVP (IN at) (JJS least)) (DT a) (JJ double) (NN shot)))) (. .)))
+#Rule:Nouns
+r1Don tPersonAnnotation
+r1mochaLocationAnnotation
+r1syrupsNNS
+r1shotNN
+
+#Rule:Verbs
+r2getVBP
+r2worksVBZ
+r2recommendVBP
+
+#Rule:Adjs
+r4flavoredJJ
+r4leastJJS
+r4doubleJJ
+
+#Rule:Adj-Noun
+r5flavoredJJsyrupsNNS
+r5doubleJJshotNN
+
+#Rule:HeadNoun-V
+r11Don tPersonAnnotationgetVBP
+r11itPRPworksVBZ
+r11iPRPrecommendVBP
+
+#Rule:V-HeadNoun
+r21getVBPmochaLocationAnnotation
+r21recommendVBPshotNN
+
+#Rule:PPinVP
+r30worksVBZwithINsyrupsNNS
+
+#Rule:V-ADV
+r46worksVBZonlyRB
+
+#I m not kidding.  
+#(S1 (S (NP (PRP I)) (VP (NNP m) (RB not) (VP (VBG kidding))) (. .)))
+#Rule:Nouns
+r1mNNP
+
+#Rule:Verbs
+r2kiddingVBG
+
+#Rule:HeadNoun-V
+r11iPRPkiddingVBG
+
+#Try it.  
+#(S1 (S (VP (VB Try) (NP (PRP it))) (. .)))
+#Rule:Verbs
+r2tryVB
+
+#Rule:V-HeadNoun
+r21tryVBitPRP
+
+#If it doesn t works all you re out is a $3 drink and you didn t have to stick anything up your rear end.
+#(S1 (S (S (SBAR (IN If) (S (NP (PRP it)) (VP (VBZ doesn) (NP (NP (CD t) (NNS works)) (SBAR (WHNP (DT all)) (S (NP (PRP you)) (VP (NNP re) (PRT (RP out))))))))) (VP (AUX is) (NP (DT a) (ADJP ($ $) (CD 3)) (NN drink)))) (CC and) (S (NP (PRP you)) (VP (VBP didn) (SBAR (S (NP (NNS t)) (VP (AUX have) (S (VP (TO to) (VP (VB stick) (NP (NN anything)) (PP (IN up) (NP (PRP$ your) (JJ rear) (NN end))))))))))) (. .)))
+#Rule:Nouns
+r1worksNNS
+r1reNNP
+r1drinkNN
+r1tNNS
+r1anythingNN
+r1endNN
+
+#Rule:Verbs
+r2doesnVBZ
+r2didnVBP
+r2stickVB
+
+#Rule:V-PRT
+r3reNNPoutRP
+
+#Rule:Adjs
+r4rearJJ
+
+#Rule:Adj-Noun
+r5tLocationAnnotationworksNNS
+r53CDdrinkNN
+r5rearJJendNN
+
+#Rule:PRP-Noun
+r6yourPRP$endNN
+
+#Rule:HeadNoun-V
+r11itPRPdoesnVBZ
+r11youPRPdidnVBP
+r11tNNShaveAUX
+
+#Rule:V-HeadNoun
+r21doesnVBZworksNNS
+r21isAUXdrinkNN
+r21stickVBanythingNN
+
+#Rule:PPinVP
+r30stickVBupINendNN
+
+@lemmas-left	Don t	does	mocha	stick	caffeine	least	re	shot	recommend	kid	doesn	drink	wonder	do	latte	syrups	end	be	work	is	it	get	your	rear	flavor	you	m	double	works	i	kidding	3	anything	t	syrup	combination	flavored	didn	try	
+@lemmas-right	does	mocha	caffeine	have	shot	recommend	kid	doesn	Seriously	drink	wonder	only	do	latte	syrups	end	seriously	work	it	get	works	kidding	anything	syrup	didn	out	
+@lemmas-center	of	with	up	

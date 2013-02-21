@@ -1,0 +1,56 @@
+#my grams used to heat cornmeal and put it in a rag and i pressed it against my ear---i think sweet oil is supposed to help too
+#(S1 (S (S (NP (PRP$ my) (NNS grams)) (VP (VP (VBN used) (S (VP (TO to) (VP (VB heat) (ADJP (JJ cornmeal)))))) (CC and) (VP (VBD put) (NP (PRP it)) (PP (IN in) (NP (DT a) (NN rag)))))) (CC and) (S (NP (PRP i)) (VP (VBD pressed) (NP (PRP it)) (PP (IN against) (NP (PRP$ my) (NN ear---i) (S (VP (VBP think) (SBAR (S (NP (JJ sweet) (NN oil)) (VP (AUX is) (VP (VBN supposed) (S (VP (TO to) (VP (VB help) (ADVP (RB too)))))))))))))))))
+#Rule:Nouns
+r1gramsNNS
+r1ragNN
+r1ear---iNN
+r1oilNN
+
+#Rule:Verbs
+r2usedVBN
+r2heatVB
+r2putVBD
+r2pressedVBD
+r2thinkVBP
+r2supposedVBN
+r2helpVB
+
+#Rule:Adjs
+r4cornmealJJ
+r4sweetJJ
+
+#Rule:Adj-Noun
+r5sweetJJoilNN
+
+#Rule:PRP-Noun
+r6myPRP$gramsNNS
+r6myPRP$ear---iNN
+
+#Rule:HeadNoun-V
+r11gramsNNSputVBD
+r11iLocationAnnotationpressedVBD
+
+#Rule:V-HeadNoun
+r21putVBDitPRP
+r21pressedVBDitPRP
+
+#Rule:V-HeadNoun(passive)
+r23supposedVBNoilNN
+
+#Rule:V-HeadNoun(passive)
+r24usedVBNgramsNNS
+
+#Rule:PPinVP
+r30putVBDinINragNN
+r30pressedVBDagainstINear---iNN
+
+#Rule:V-V
+r44usedVBNheatVB
+r44supposedVBNhelpVB
+
+#Rule:V-ADV
+r46helpVBtooRB
+
+@lemmas-left	press	think	put	pressed	supposed	use	used	my	cornmeal	heat	i	oil	ear---i	help	suppose	sweet	rag	grams	gram	
+@lemmas-right	press	put	it	pressed	heat	oil	i	ear---i	help	rag	grams	gram	too	
+@lemmas-center	against	in	

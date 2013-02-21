@@ -1,0 +1,85 @@
+#Walking and doing housework is the best exercise for losing fat and ensure that your diet does not include any high calorie foods. 
+#(S1 (S (S (VP (VBG Walking) (CC and) (VBG doing) (NP (NN housework)))) (VP (AUX is) (NP (NP (DT the) (JJS best) (NN exercise)) (PP (IN for) (S (VP (VP (VBG losing) (ADJP (JJ fat))) (CC and) (VP (VB ensure) (SBAR (IN that) (S (NP (PRP$ your) (NN diet)) (VP (AUX does) (RB not) (VP (VB include) (NP (DT any) (JJ high) (NN calorie) (NNS foods)))))))))))) (. .)))
+#Rule:Nouns
+r1houseworkNN
+r1exerciseNN
+r1dietNN
+r1calorieLocationAnnotation
+r1foodsNNS
+
+#Rule:Verbs
+r2walkingVBG
+r2doingVBG
+r2losingVBG
+r2ensureVB
+r2includeVB
+
+#Rule:Adjs
+r4bestJJS
+r4fatJJ
+r4highJJ
+
+#Rule:Adj-Noun
+r5bestJJSexerciseNN
+r5highJJfoodsNNS
+
+#Rule:PRP-Noun
+r6yourPRP$dietNN
+
+#Rule:N-HeadNoun
+r8calorieLocationAnnotationfoodsNNS
+
+#Rule:HeadNoun-V
+r11dietNNincludeVB
+
+#Rule:V-HeadNoun
+r21walkingVBGhouseworkNN
+r21isAUXexerciseNN
+r21includeVBfoodsNNS
+
+#Rule:V-IN-V
+r43ensureVBthatINincludeVB
+
+#Rule:V-ADV
+r46doesAUXnotRB
+
+#Formulate your own weight loss plan and you will lose weight faster. 
+#(S1 (S (S (VP (VB Formulate) (NP (PRP$ your) (JJ own) (NN weight) (NN loss) (NN plan)))) (CC and) (S (NP (PRP you)) (VP (MD will) (VP (VB lose) (NP (NN weight)) (ADVP (RBR faster))))) (. .)))
+#Rule:Nouns
+r1weightNN
+r1lossNN
+r1planNN
+r1weightNN
+
+#Rule:Verbs
+r2formulateVB
+r2loseVB
+
+#Rule:Adjs
+r4ownJJ
+
+#Rule:Adj-Noun
+r5ownJJplanNN
+
+#Rule:PRP-Noun
+r6yourPRP$planNN
+
+#Rule:N-HeadNoun
+r8lossNNplanNN
+r8weightNNplanNN
+
+#Rule:HeadNoun-V
+r11youPRPloseVB
+
+#Rule:V-HeadNoun
+r21formulateVBplanNN
+r21loseVBweightNN
+
+#From http://myweight.info
+#(S1 (FRAG (PP (IN From) (ADJP (JJ http))) (: :) (ADVP (RB //myweight.info))))
+#Rule:Adjs
+r4From http://myweight.infoPersonAnnotation
+
+@lemmas-left	does	walking	weight	diet	loss	formulate	losing	exercise	calorie	housework	best	do	ensure	be	is	fat	your	you	include	lose	foods	plan	food	doing	own	high	walk	From http://myweight.info	
+@lemmas-right	not	lose	weight	foods	plan	diet	food	housework	exercise	include	
+@lemmas-center	that	

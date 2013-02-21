@@ -1,0 +1,48 @@
+#Cut ot or down on salt, low fat diet, exercise every day, that should do the trick, also less stress if possible
+#(S1 (S (VP (VB Cut) (ADVP (RB ot) (CC or) (RB down)) (PP (IN on) (NP (NP (NN salt)) (, ,) (NP (JJ low) (JJ fat) (NN diet)) (, ,) (NP (NP (NN exercise)) (NP (DT every) (NN day))) (, ,) (SBAR (WHNP (WDT that)) (S (VP (MD should) (VP (AUX do) (NP (DT the) (NN trick)) (, ,) (ADVP (RB also) (RBR less)) (VP (VB stress) (SBAR (IN if) (FRAG (ADJP (JJ possible))))))))))))))
+#Rule:Nouns
+r1saltNN
+r1dietNN
+r1exerciseNN
+r1dayNN
+r1trickNN
+
+#Rule:Verbs
+r2cutVB
+r2stressVB
+
+#Rule:Adjs
+r4lowJJ
+r4fatJJ
+r4possibleJJ
+
+#Rule:Adj-Noun
+r5lowJJdietNN
+r5fatJJdietNN
+
+#Rule:N-ApposN
+r10saltNNdietNN
+
+#Rule:HeadNoun-(who/that)-V
+r14saltNNstressVB
+r14dietNNstressVB
+r14exerciseNNstressVB
+
+#Rule:V-HeadNoun
+r21doAUXtrickNN
+
+#Rule:PPinVP
+r30cutVBonINsaltNN
+r30cutVBonINdietNN
+r30cutVBonINexerciseNN
+r30cutVBonINdayNN
+
+#Rule:V-ADV
+r46cutVBotRB
+r46cutVBdownRB
+r46doAUXalsoRB
+r46stressVBalsoRB
+
+@lemmas-left	possible	diet	fat	stress	exercise	do	cut	day	low	trick	salt	
+@lemmas-right	ot	diet	stress	exercise	down	day	trick	also	salt	
+@lemmas-center	on	

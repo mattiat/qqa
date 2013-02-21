@@ -1,0 +1,42 @@
+#What is high blood pressure or hypertension? 
+#(S1 (SBARQ (WHNP (WP What)) (SQ (AUX is) (NP (NP (JJ high) (NN blood) (NN pressure)) (CC or) (NP (NN hypertension)))) (. ?)))
+#Rule:Nouns
+r1bloodNN
+r1pressureNN
+r1hypertensionNN
+
+#Rule:Adjs
+r4highJJ
+
+#Rule:Adj-Noun
+r5highJJpressureNN
+
+#Rule:N-HeadNoun
+r8bloodNNpressureNN
+
+#How does one have high blood pressure? 
+#(S1 (SBARQ (WHADVP (WRB How)) (SQ (AUX does) (NP (PRP one)) (VP (AUX have) (NP (JJ high) (NN blood) (NN pressure)))) (. ?)))
+#Rule:Nouns
+r1bloodNN
+r1pressureNN
+
+#Rule:Adjs
+r4highJJ
+
+#Rule:Adj-Noun
+r5highJJpressureNN
+
+#Rule:N-HeadNoun
+r8bloodNNpressureNN
+
+#Rule:V-HeadNoun
+r21haveAUXpressureNN
+
+#How is it treated?
+#(S1 (SBARQ (WHADVP (WRB How)) (SQ (AUX is) (NP (PRP it)) (VP (VBN treated))) (. ?)))
+#Rule:Verbs
+r2treatedVBN
+
+@lemmas-left	pressure	have	hypertension	treated	high	blood	treat	
+@lemmas-right	pressure	
+@lemmas-center	

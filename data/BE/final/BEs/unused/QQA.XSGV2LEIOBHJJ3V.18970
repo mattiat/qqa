@@ -1,0 +1,162 @@
+#Look this happens to kids that actually go to public school too. 
+#(S1 (S (NP (VB Look) (DT this)) (VP (VBZ happens) (PP (TO to) (NP (NP (NNS kids)) (SBAR (WHNP (WDT that)) (S (ADVP (RB actually)) (VP (VBP go) (PP (TO to) (NP (JJ public) (NN school))) (ADVP (RB too)))))))) (. .)))
+#Rule:Nouns
+r1kidsNNS
+r1schoolNN
+
+#Rule:Verbs
+r2lookVB
+r2happensVBZ
+r2goVBP
+
+#Rule:Adjs
+r4publicJJ
+
+#Rule:Adj-Noun
+r5publicJJschoolNN
+
+#Rule:HeadNoun-V
+r11thisDThappensVBZ
+
+#Rule:HeadNoun-(who/that)-V
+r14kidsNNSgoVBP
+
+#Rule:PPinVP
+r30happensVBZtoTOkidsNNS
+r30goVBPtoTOschoolNN
+
+#Rule:V-ADV
+r46goVBPactuallyRB
+r46goVBPtooRB
+
+#I have seen it in my years of going to school. 
+#(S1 (S (NP (PRP I)) (VP (AUX have) (VP (VBN seen) (NP (PRP it)) (PP (IN in) (NP (NP (PRP$ my) (NNS years)) (PP (IN of) (S (VP (VBG going) (PP (TO to) (NP (NN school)))))))))) (. .)))
+#Rule:Nouns
+r1yearsNNS
+r1schoolNN
+
+#Rule:Verbs
+r2seenVBN
+r2goingVBG
+
+#Rule:PRP-Noun
+r6myPRP$yearsNNS
+
+#Rule:HeadNoun-V
+r12iPRPseenVBN
+
+#Rule:V-HeadNoun
+r21seenVBNitPRP
+
+#Rule:PPinVP
+r30goingVBGtoTOschoolNN
+
+#Rule:PPinVP
+r32seenVBNinINyearsNNS
+
+#It really has to do with their personality and how they are raised regardless of their schooling. 
+#(S1 (S (NP (PRP It)) (ADVP (RB really)) (VP (AUX has) (S (VP (TO to) (VP (AUX do) (UCP (PP (IN with) (NP (PRP$ their) (NN personality))) (CC and) (SBAR (WHADVP (WRB how)) (S (NP (PRP they)) (VP (AUX are) (VP (VBN raised) (ADVP (RB regardless) (PP (IN of) (NP (PRP$ their) (NN schooling))))))))))))) (. .)))
+#Rule:Nouns
+r1personalityNN
+r1schoolingNN
+
+#Rule:Verbs
+r2raisedVBN
+
+#Rule:PRP-Noun
+r6theirPRP$personalityNN
+r6theirPRP$schoolingNN
+
+#Rule:HeadNoun-V
+r11itPRPhasAUX
+
+#Rule:V-HeadNoun(passive)
+r23raisedVBNtheyPRP
+
+#Rule:V-ADV
+r46hasAUXreallyRB
+r46raisedVBNregardlessRB
+
+#Yes there are weirdpeople everywhere, but you can t blame it on homeschooling. 
+#(S1 (S (S (INTJ (UH Yes)) (NP (EX there)) (VP (AUX are) (ADJP (JJ weirdpeople)) (ADVP (RB everywhere)))) (, ,) (CC but) (S (NP (PRP you)) (VP (MD can) (ADVP (RB t)) (VP (VB blame) (NP (PRP it)) (PP (IN on) (NP (NN homeschooling)))))) (. .)))
+#Rule:Nouns
+r1homeschoolingNN
+
+#Rule:Verbs
+r2blameVB
+
+#Rule:Adjs
+r4weirdpeopleJJ
+
+#Rule:HeadNoun-V
+r11thereEXareAUX
+r11youPRPblameVB
+
+#Rule:V-HeadNoun
+r21blameVBitPRP
+
+#Rule:V-ADJ
+r25areAUXweirdpeopleJJ
+
+#Rule:PPinVP
+r30blameVBonINhomeschoolingNN
+
+#Rule:V-ADV
+r46areAUXeverywhereRB
+r46blameVBtLocationAnnotation
+
+#People like this only give homeschooling a bad name. 
+#(S1 (S (NP (NP (NNS People)) (PP (IN like) (NP (DT this)))) (ADVP (RB only)) (VP (VB give) (S (VP (VBG homeschooling) (NP (DT a) (JJ bad) (NN name))))) (. .)))
+#Rule:Nouns
+r1PeopleNNS
+r1nameNN
+
+#Rule:Verbs
+r2giveVB
+r2homeschoolingVBG
+
+#Rule:Adjs
+r4badJJ
+
+#Rule:Adj-Noun
+r5badJJnameNN
+
+#Rule:HeadNoun-V
+r11PeopleNNSgiveVB
+
+#Rule:V-HeadNoun
+r21homeschoolingVBGnameNN
+
+#Rule:PPinNP
+r26PeopleNNSlikeINthisDT
+
+#Rule:V-ADV
+r46giveVBonlyRB
+
+#You cannot make a judgement on one case.
+#(S1 (S (NP (PRP You)) (ADVP (RB cannot)) (VP (VBP make) (NP (NP (DT a) (NN judgement)) (PP (IN on) (NP (CD one) (NN case))))) (. .)))
+#Rule:Nouns
+r1judgementNN
+r1caseNN
+
+#Rule:Verbs
+r2makeVBP
+
+#Rule:Adj-Noun
+r5oneCDcaseNN
+
+#Rule:HeadNoun-V
+r11youPRPmakeVBP
+
+#Rule:V-HeadNoun
+r21makeVBPjudgementNN
+
+#Rule:PPinNP
+r26judgementNNonINcaseNN
+
+#Rule:V-ADV
+r46makeVBPcannotRB
+
+@lemmas-left	homeschooling	raised	raise	give	have	one	personality	people	has	kid	are	name	schooling	judgement	happen	be	blame	look	going	it	you	bad	kids	seen	my	i	school	see	there	weirdpeople	case	years	public	their	make	People	this	happens	go	
+@lemmas-right	they	homeschooling	give	have	actually	personality	has	kid	are	name	schooling	only	judgement	happen	too	regardless	be	blame	everywhere	it	kids	seen	cannot	really	t	school	see	weirdpeople	case	years	make	this	happens	go	
+@lemmas-center	to	on	like	in	

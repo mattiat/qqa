@@ -1,0 +1,170 @@
+#Is your mom lucid at this point?  
+#(S1 (SQ (AUX Is) (NP (PRP$ your) (NN mom)) (ADJP (JJ lucid) (PP (IN at) (NP (DT this) (NN point)))) (. ?)))
+#Rule:Nouns
+r1momNN
+r1pointNN
+
+#Rule:Adjs
+r4lucidJJ
+
+#Rule:PRP-Noun
+r6yourPRP$momNN
+
+#Rule:PPinADJP
+r37lucidJJatINpointNN
+
+#This is her decision.  
+#(S1 (S (NP (DT This)) (VP (AUX is) (NP (PRP$ her) (NN decision))) (. .)))
+#Rule:Nouns
+r1decisionNN
+
+#Rule:PRP-Noun
+r6herPRP$decisionNN
+
+#Rule:HeadNoun-V
+r11thisDTisAUX
+
+#Rule:V-HeadNoun
+r21isAUXdecisionNN
+
+#If she wants a second opinion then go to a local family practitioner and ask for a referral to another doctor. 
+#(S1 (S (SBAR (IN If) (S (NP (PRP she)) (VP (VBZ wants) (NP (DT a) (JJ second) (NN opinion))))) (ADVP (RB then)) (VP (VP (VB go) (PP (TO to) (NP (DT a) (JJ local) (NN family) (NN practitioner)))) (CC and) (VP (VB ask) (PP (IN for) (NP (NP (DT a) (NN referral)) (PP (TO to) (NP (DT another) (NN doctor))))))) (. .)))
+#Rule:Nouns
+r1opinionNN
+r1familyNN
+r1practitionerNN
+r1referralNN
+r1doctorNN
+
+#Rule:Verbs
+r2wantsVBZ
+r2goVB
+r2askVB
+
+#Rule:Adjs
+r4secondJJ
+r4localJJ
+
+#Rule:Adj-Noun
+r5secondJJopinionNN
+r5localJJpractitionerNN
+
+#Rule:N-HeadNoun
+r8familyNNpractitionerNN
+
+#Rule:HeadNoun-V
+r11shePRPwantsVBZ
+
+#Rule:V-HeadNoun
+r21wantsVBZopinionNN
+
+#Rule:PPinNP
+r26referralNNtoTOdoctorNN
+
+#Rule:PPinVP
+r30goVBtoTOpractitionerNN
+r30askVBforINreferralNN
+
+#If she wants an alternative practitioner because the local doctors have given up then call some chiropractors in your area for a referral to a good one there.  
+#(S1 (S (IN If) (NP (PRP she)) (VP (VBZ wants) (NP (DT an) (JJ alternative) (NN practitioner)) (SBAR (IN because) (S (NP (DT the) (JJ local) (NNS doctors)) (VP (AUX have) (VP (VBN given) (PRT (RP up)) (ADVP (RB then)) (VP (VB call) (NP (NP (DT some) (NNS chiropractors)) (PP (IN in) (NP (PRP$ your) (NN area)))) (PP (IN for) (NP (NP (DT a) (NN referral)) (PP (TO to) (NP (DT a) (JJ good) (CD one))) (ADVP (RB there)))))))))) (. .)))
+#Rule:Nouns
+r1practitionerNN
+r1doctorsNNS
+r1chiropractorsNNS
+r1areaNN
+r1referralNN
+
+#Rule:Verbs
+r2wantsVBZ
+r2callVB
+
+#Rule:V-PRT
+r3givenVBNupRP
+
+#Rule:Adjs
+r4alternativeJJ
+r4localJJ
+r4goodJJ
+
+#Rule:Adj-Noun
+r5alternativeJJpractitionerNN
+r5localJJdoctorsNNS
+r5goodJJoneCD
+
+#Rule:PRP-Noun
+r6yourPRP$areaNN
+
+#Rule:HeadNoun-V
+r11shePRPwantsVBZ
+r11doctorsNNScallVB
+
+#Rule:HeadNoun-V
+r12doctorsNNSgivenVBN
+
+#Rule:V-HeadNoun
+r21wantsVBZpractitionerNN
+r21callVBchiropractorsNNS
+
+#Rule:PPinNP
+r26chiropractorsNNSinINareaNN
+r26referralNNtoTOoneCD
+
+#Rule:PPinVP
+r30callVBforINreferralNN
+
+#Rule:V-IN-V
+r43wantsVBZbecauseINgivenVBN
+r43wantsVBZbecauseINcallVB
+
+#Rule:V-ADV
+r46givenVBNthenRB
+r46callVBthenRB
+
+#But when all is said and done, this is Mom s decision, not yours.  
+#(S1 (S (CC But) (SBAR (WHADVP (WRB when)) (S (NP (DT all)) (VP (VP (AUX is) (VP (VBN said))) (CC and) (VP (AUX done))))) (, ,) (NP (DT this)) (VP (AUX is) (NP (NP (NN Mom) (NNP s) (NN decision)) (, ,) (RB not) (NP (NNS yours)))) (. .)))
+#Rule:Nouns
+r1Mom sPersonAnnotation
+r1decisionNN
+r1yoursNNS
+
+#Rule:Verbs
+r2saidVBN
+
+#Rule:N-HeadNoun
+r8Mom sPersonAnnotationdecisionNN
+
+#Rule:HeadNoun-V
+r11thisDTisAUX
+r11allDTdoneAUX
+
+#Rule:V-HeadNoun
+r21isAUXdecisionNN
+
+#Rule:V-HeadNoun(passive)
+r23saidVBNallDT
+
+#Rule:(SBAR+WHADVP)inS
+r42isAUXwhenWRBsaidVBN
+r42isAUXwhenWRBdoneAUX
+
+#She needs to make these choices.
+#(S1 (S (NP (PRP She)) (VP (VBZ needs) (S (VP (TO to) (VP (VB make) (NP (DT these) (NNS choices)))))) (. .)))
+#Rule:Nouns
+r1choicesNNS
+
+#Rule:Verbs
+r2needsVBZ
+r2makeVB
+
+#Rule:HeadNoun-V
+r11shePRPneedsVBZ
+
+#Rule:V-HeadNoun
+r21makeVBchoicesNNS
+
+#Rule:V-V
+r44needsVBZmakeVB
+
+@lemmas-left	need	call	said	second	choice	give	referral	lucid	good	decision	doctor	area	given	family	chiropractors	she	chiropractor	opinion	her	doctors	all	want	yours	Mom s	be	is	needs	choices	your	alternative	mom	wants	point	practitioner	say	local	ask	make	this	go	
+@lemmas-right	need	call	said	choice	give	referral	one	decision	doctor	area	given	chiropractors	chiropractor	doctors	opinion	do	want	all	be	is	needs	choices	done	wants	mom	up	point	practitioner	then	say	make	
+@lemmas-center	because	to	for	when	at	in	

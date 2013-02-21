@@ -1,0 +1,25 @@
+#I agree, but theres just no stopping them!
+#(S1 (S (NP (PRP I)) (VP (VBP agree) (, ,) (S (CC but) (NP (NNS theres)) (ADVP (RB just)) (RB no) (VP (VBG stopping) (NP (PRP them))))) (. !)))
+#Rule:Nouns
+r1theresNNS
+
+#Rule:Verbs
+r2agreeVBP
+r2stoppingVBG
+
+#Rule:HeadNoun-V
+r11iPRPagreeVBP
+r11theresNNSstoppingVBG
+
+#Rule:V-HeadNoun
+r21stoppingVBGthemPRP
+
+#Rule:V-HeadNoun
+r22agreeVBPtheresNNS
+
+#Rule:V-ADV
+r46stoppingVBGjustRB
+
+@lemmas-left	theres	stop	there	stopping	agree	i	
+@lemmas-right	just	theres	stop	them	there	stopping	agree	
+@lemmas-center	

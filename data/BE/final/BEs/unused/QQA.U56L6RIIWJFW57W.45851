@@ -1,0 +1,137 @@
+#Cholesterol levels are a combination of diet and inheritance.  
+#(S1 (S (NP (NN Cholesterol) (NNS levels)) (VP (AUX are) (NP (NP (DT a) (NN combination)) (PP (IN of) (NP (NN diet) (CC and) (NN inheritance))))) (. .)))
+#Rule:Nouns
+r1CholesterolNN
+r1levelsNNS
+r1combinationNN
+r1dietNN
+r1inheritanceNN
+
+#Rule:N-HeadNoun
+r8CholesterolNNlevelsNNS
+
+#Rule:HeadNoun-V
+r11levelsNNSareAUX
+
+#Rule:V-HeadNoun
+r21areAUXcombinationNN
+
+#Rule:PPinNP
+r26combinationNNofINdietNN
+
+#Rule:IS-RULE
+r47combinationNNlevelsNNS
+
+#In isolation they do not give a clear risk indication. 
+#(S1 (S (PP (IN In) (NP (NN isolation))) (NP (PRP they)) (VP (AUX do) (RB not) (VP (VB give) (NP (DT a) (JJ clear) (NN risk) (NN indication)))) (. .)))
+#Rule:Nouns
+r1isolationNN
+r1riskNN
+r1indicationNN
+
+#Rule:Verbs
+r2giveVB
+
+#Rule:Adjs
+r4clearJJ
+
+#Rule:Adj-Noun
+r5clearJJindicationNN
+
+#Rule:N-HeadNoun
+r8riskNNindicationNN
+
+#Rule:HeadNoun-V
+r11theyPRPgiveVB
+
+#Rule:V-HeadNoun
+r21giveVBindicationNN
+
+#Rule:PPinS
+r36doAUXinINisolationNN
+
+#Rule:V-ADV
+r46doAUXnotRB
+
+#Also you need to know. 
+#(S1 (S (ADVP (RB Also)) (NP (PRP you)) (VP (AUX need) (S (VP (TO to) (VP (VB know))))) (. .)))
+#Rule:Verbs
+r2knowVB
+
+#Rule:HeadNoun-V
+r11youPRPneedAUX
+
+#Rule:V-ADV
+r46needAUXAlsoRB
+
+#LDL and HDL levels. 
+#(S1 (S (NP (NNP LDL) (CC and) (NNP HDL)) (VP (NNS levels)) (. .)))
+#Rule:Nouns
+r1LDLOrganizationAnnotation
+r1HDLOrganizationAnnotation
+r1levelsNNS
+
+#In you have these numbers put them, together with the other info in to a cardiac risk calculator, this will give a better idea of the problem level.http://www.bhsoc.org/Cardiovascular_Risk_Charts_and_Calculators.stmThese are a bit complex but will alow you to perform the calculations.
+#(S1 (S (SBAR (IN In) (S (NP (PRP you)) (VP (AUX have) (S (NP (DT these) (NNS numbers)) (VP (VB put) (NP (PRP them))))))) (, ,) (ADVP (RB together) (PP (IN with) (NP (NP (DT the) (JJ other) (NNS info)) (PP (IN in) (PP (TO to) (NP (DT a) (JJ cardiac) (NN risk) (NN calculator))))))) (, ,) (S (NP (DT this)) (VP (MD will) (VP (VB give) (NP (NP (DT a) (JJR better) (NN idea)) (PP (IN of) (NP (DT the) (NN problem) (NNS level.http))))))) (: :) (S (NP (NN //www.bhsoc.org/Cardiovascular_Risk_Charts_and_Calculators.stmThese)) (VP (VP (AUX are) (ADJP (NP (DT a) (NN bit)) (JJ complex))) (CC but) (VP (MD will) (VP (VB alow) (S (NP (PRP you)) (VP (TO to) (VP (VB perform) (NP (DT the) (NNS calculations))))))))) (. .)))
+#Rule:Nouns
+r1numbersNNS
+r1infoNNS
+r1riskNN
+r1calculatorNN
+r1ideaNN
+r1problemNN
+r1level.httpNNS
+r1//www.bhsoc.org/Cardiovascular_Risk_Charts_and_Calculators.stmTheseNN
+r1bitNN
+r1calculationsNNS
+
+#Rule:Verbs
+r2putVB
+r2giveVB
+r2alowVB
+r2performVB
+
+#Rule:Adjs
+r4otherJJ
+r4cardiacJJ
+r4betterJJR
+r4complexJJ
+
+#Rule:Adj-Noun
+r5otherJJinfoNNS
+r5cardiacJJcalculatorNN
+r5betterJJRideaNN
+
+#Rule:N-HeadNoun
+r8riskNNcalculatorNN
+r8problemNNlevel.httpNNS
+
+#Rule:HeadNoun-V
+r11youPRPhaveAUX
+r11numbersNNSputVB
+r11thisDTgiveVB
+r11//www.bhsoc.org/Cardiovascular_Risk_Charts_and_Calculators.stmTheseNNalowVB
+r11//www.bhsoc.org/Cardiovascular_Risk_Charts_and_Calculators.stmTheseNNareAUX
+r11youPRPperformVB
+
+#Rule:V-HeadNoun
+r21putVBthemPRP
+r21giveVBideaNN
+r21performVBcalculationsNNS
+
+#Rule:V-HeadNoun
+r22haveAUXnumbersNNS
+r22alowVByouPRP
+
+#Rule:V-ADJ
+r25areAUXcomplexJJ
+
+#Rule:PPinNP
+r26ideaNNofINlevel.httpNNS
+
+#Rule:PPComboInNP
+r27infoNNSinINcalculatorNN
+
+@lemmas-left	need	HDL	they	complex	idea	other	put	diet	have	give	indication	perform	level.http	info	calculation	risk	clear	LDL	are	level	isolation	levels	numbers	do	calculator	be	alow	calculations	problem	you	Cholesterol	//www.bhsoc.org/cardiovascular_risk_charts_and_calculators.stmthese	inheritance	cholesterol	know	bit	//www.bhsoc.org/Cardiovascular_Risk_Charts_and_Calculators.stmThese	cardiac	http	better	combination	this	
+@lemmas-right	need	complex	idea	put	diet	give	have	indication	perform	level.http	info	calculation	are	level	numbers	isolation	levels	calculator	be	alow	calculations	Also	you	not	http	them	combination	also	
+@lemmas-center	of	in	

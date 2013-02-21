@@ -1,0 +1,62 @@
+#The version I ve always been led to believe is that it is an adaptation of On-Quay - A response from old-world dock workers to indicate the load is down on the dock.
+#(S1 (S (S (NP (NP (DT The) (NN version)) (SBAR (S (NP (PRP I)) (VP (VBP ve) (ADVP (RB always)))))) (VP (AUX been) (VP (VBN led) (S (VP (TO to) (VP (VB believe) (SBAR (S (VP (AUX is) (SBAR (IN that) (S (NP (PRP it)) (VP (AUX is) (NP (NP (DT an) (NN adaptation)) (PP (IN of) (NP (NNP On-Quay)))))))))))))))) (: -) (S (NP (NP (DT A) (NN response)) (PP (IN from) (NP (JJ old-world) (NN dock) (NNS workers) (S (VP (TO to) (VP (VB indicate) (NP (DT the) (NN load)))))))) (VP (AUX is) (ADVP (RB down)) (PP (IN on) (NP (DT the) (NN dock))))) (. .)))
+#Rule:Nouns
+r1versionNN
+r1adaptationNN
+r1On-QuayOrganizationAnnotation
+r1responseNN
+r1dockNN
+r1workersNNS
+r1loadNN
+r1dockNN
+
+#Rule:Verbs
+r2veVBP
+r2ledVBN
+r2believeVB
+r2indicateVB
+
+#Rule:Adjs
+r4old-worldJJ
+
+#Rule:Adj-Noun
+r5old-worldJJworkersNNS
+
+#Rule:N-HeadNoun
+r8dockNNworkersNNS
+
+#Rule:HeadNoun-V
+r11iPRPveVBP
+r11itPRPisAUX
+r11responseNNisAUX
+
+#Rule:NP(NP(z) SBAR(S(NP(x)VP(y))))
+r19veVBPversionNN
+
+#Rule:V-HeadNoun
+r21isAUXadaptationNN
+r21indicateVBloadNN
+
+#Rule:V-HeadNoun(passive)
+r23ledVBNversionNN
+
+#Rule:PPinNP
+r26adaptationNNofINOn-QuayOrganizationAnnotation
+r26responseNNfromINworkersNNS
+
+#Rule:PPinVP
+r30isAUXonINdockNN
+
+#Rule:V-IN-V
+r43isAUXthatINisAUX
+
+#Rule:V-V
+r44ledVBNbelieveVB
+
+#Rule:V-ADV
+r46veVBPalwaysRB
+r46isAUXdownRB
+
+@lemmas-left	On-Quay	is	it	lead	indicate	workers	believe	old-world	dock	i	version	adaptation	response	led	ve	worker	load	be	
+@lemmas-right	On-Quay	is	workers	believe	always	dock	version	adaptation	ve	worker	load	down	be	
+@lemmas-center	that	of	on	from	

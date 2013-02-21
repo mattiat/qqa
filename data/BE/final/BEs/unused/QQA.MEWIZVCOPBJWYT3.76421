@@ -1,0 +1,29 @@
+#boats designed and fabricated to float on water not fly nor wheel on the road
+#(S1 (S (NP (NP (NNS boats)) (VP (VBN designed) (CC and) (VBN fabricated) (S (VP (TO to) (VP (VB float) (PP (IN on) (NP (NN water)))))))) (RB not) (VP (VP (VB fly)) (CC nor) (VP (NN wheel) (PP (IN on) (NP (DT the) (NN road)))))))
+#Rule:Nouns
+r1boatsNNS
+r1waterNN
+r1wheelNN
+r1roadNN
+
+#Rule:Verbs
+r2designedVBN
+r2fabricatedVBN
+r2floatVB
+r2flyVB
+
+#Rule:HeadNoun-V
+r11boatsNNSflyVB
+
+#Rule:V-HeadNoun(passive)
+r24designedVBNboatsNNS
+
+#Rule:PPinVP
+r30floatVBonINwaterNN
+
+#Rule:V-V
+r44designedVBNfloatVB
+
+@lemmas-left	water	designed	wheel	fly	boats	road	fabricated	fabricate	boat	float	design	
+@lemmas-right	water	fly	boats	boat	float	
+@lemmas-center	on	

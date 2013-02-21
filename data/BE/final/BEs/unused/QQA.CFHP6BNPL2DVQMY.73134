@@ -1,0 +1,28 @@
+#the best website to go to is:http://www.howstuffworks.comFor airplanes: http://www.howstuffworks.com/airplane.htm
+#(S1 (NP (NP (NP (DT the) (JJS best) (NN website)) (SBAR (S (VP (TO to) (VP (VB go) (S (VP (TO to) (VP (AUX is))))))))) (: :) (NP (NP (NNS http)) (: :) (NP (NN //www.howstuffworks.comFor) (NNS airplanes)) (: :) (NP (NNS http)) (: :) (NP (NN //www.howstuffworks.com/airplane.htm)))))
+#Rule:Nouns
+r1websiteNN
+r1httpPersonAnnotation
+r1//www.howstuffworks.comForNN
+r1airplanesNNS
+r1http://wwwOrganizationAnnotation
+r1//www.howstuffworks.com/airplane.htmNN
+
+#Rule:Verbs
+r2goVB
+
+#Rule:Adjs
+r4bestJJS
+
+#Rule:Adj-Noun
+r5bestJJSwebsiteNN
+
+#Rule:N-HeadNoun
+r8//www.howstuffworks.comForNNairplanesNNS
+
+#Rule:HeadNoun-(who/that)-V
+r14websiteNNgoVB
+
+@lemmas-left	http://www	//www.howstuffworks.comFor	//www.howstuffworks.com/airplane.htm	//www.howstuffworks.comfor	airplanes	http	website	airplane	best	go	
+@lemmas-right	airplanes	website	airplane	go	
+@lemmas-center	

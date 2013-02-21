@@ -1,0 +1,34 @@
+#We always river Thames, river Isis depends on  how easy it is on the tongue (to say that way).
+#(S1 (S (S (NP (PRP We)) (ADVP (RB always)) (VP (NN river) (NP (NNS Thames)))) (, ,) (NP (NNP river) (NNP Isis)) (VP (VBZ depends) (PP (IN on) (SBAR (WHADJP (WRB how) (JJ easy)) (S (NP (PRP it)) (VP (AUX is) (PP (IN on) (NP (NP (DT the) (NN tongue)) (PRN (-LRB- -LRB-) (S (VP (TO to) (VP (VB say) (NP (DT that) (NN way))))) (-RRB- -RRB-))))))))) (. .)))
+#Rule:Nouns
+r1riverNN
+r1ThamesPersonAnnotation
+r1riverNNP
+r1IsisNNP
+r1tongueNN
+r1wayNN
+
+#Rule:Verbs
+r2dependsVBZ
+r2sayVB
+
+#Rule:Adjs
+r4easyJJ
+
+#Rule:N-HeadNoun
+r8riverNNPIsisNNP
+
+#Rule:HeadNoun-V
+r11IsisNNPdependsVBZ
+r11itPRPisAUX
+
+#Rule:V-HeadNoun
+r21riverNNThamesPersonAnnotation
+r21sayVBwayNN
+
+#Rule:PPinVP
+r30isAUXonINtongueNN
+
+@lemmas-left	is	it	tongue	isis	depend	way	easy	Isis	say	Thames	depends	river	be	
+@lemmas-right	is	tongue	isis	depend	Isis	way	Thames	depends	be	
+@lemmas-center	on	

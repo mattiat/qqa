@@ -1,0 +1,102 @@
+BE: schoolNN
+EQ class: scholasticjj	
+
+BE: yearNN
+EQ class: twelvemonthnn	yearlyjj	yrnn	
+
+BE: goingVBG
+EQ class: movevbg	govbg	travelvbg	locomotevbg	
+
+BE: startVB
+EQ class: set_outvb	beginvb	get_downvb	commencevb	start_outvb	set_aboutvb	getvb	
+
+BE: nextJJ
+EQ class: followingjj	
+
+BE: nextJJyearNN
+EQ class: followingjjyearlyjj	nextjjyearlyjj	followingjjtwelvemonthnn	nextjjtwelvemonthnn	nextjjyrnn	followingjjyearnn	followingjjyrnn	
+
+BE: schoolNNyearNN
+EQ class: scholasticjjtwelvemonthnn	twelvemonthnnofinscholasticjj	schoolingnnofinyearlyjj	schoolingnnofintwelvemonthnn	yrnnofinscholasticjj	scholasticjjofintwelvemonthnn	scholasticjjofinyrnn	scholasticjjyearlyjj	yrnnschoolvb	scholasticjjyrnn	schoolnnofinyearlyjj	yearnnschoolvb	scholasticjjofinyearnn	schoolnnofinyrnn	schoolnnofintwelvemonthnn	yearnnofinscholasticjj	scholasticjjofinyearlyjj	schoolnnyrnn	yrnnofinschoolnn	schoolnnyearlyjj	yearlyjjofinschoolnn	schoolingnnofinyearnn	scholasticjjyearnn	yearlyjjschoolvb	schoolnnyearlyvb	schoolnntwelvemonthnn	twelvemonthnnschoolvb	yearlyvbschoolnn	schoolnnofinyearnn	twelvemonthnnofinschoolnn	yearnnofinschoolnn	scholasticjjyearlyvb	schoolingnnofinyrnn	yearlyvbscholasticjj	yearlyjjofinscholasticjj	
+
+BE: iPRPgoingVBG
+EQ class: iprptravelvbg	iprplocomotevbg	iprpmovevbg	iprpgovbg	
+
+BE: startVByearNN
+EQ class: startnnofinyearnn	start_outvbyearlyjj	start_outvbyrnn	startnnofinyrnn	starter_motornnofinyearlyjj	startnnofintwelvemonthnn	starternnofintwelvemonthnn	commencevbyrnn	beginvbyearnn	startvbtwelvemonthnn	starter_motornnofinyearnn	beginvbtwelvemonthnn	get_downvbtwelvemonthnn	start_outvbtwelvemonthnn	set_outvbtwelvemonthnn	getvbtwelvemonthnn	startvbyrnn	starting_motornnofinyearnn	starternnofinyrnn	starting_motornnofinyearlyjj	set_aboutvbyearnn	set_outvbyrnn	get_downvbyearlyjj	set_aboutvbyrnn	starter_motornnofintwelvemonthnn	getvbyearnn	start_outvbyearnn	starter_motornnofinyrnn	getvbyrnn	starternnofinyearlyjj	starternnofinyearnn	beginvbyearlyjj	get_downvbyrnn	commencevbtwelvemonthnn	starting_motornnofintwelvemonthnn	get_downvbyearnn	startvbyearlyjj	startnnofinyearlyjj	set_aboutvbyearlyjj	beginvbyrnn	starting_motornnofinyrnn	commencevbyearlyjj	set_aboutvbtwelvemonthnn	set_outvbyearlyjj	set_outvbyearnn	getvbyearlyjj	commencevbyearnn	
+
+BE: goingVBGstartVB
+EQ class: locomotevbggetvb	locomotevbgcommencevb	goingvbgcommencevb	goingvbgset_outvb	goingvbggetvb	travelvbgset_outvb	movevbgbeginvb	movevbgstart_outvb	goingvbgget_downvb	locomotevbgget_downvb	govbgbeginvb	locomotevbgset_outvb	movevbgcommencevb	movevbgset_aboutvb	govbgstart_outvb	travelvbgbeginvb	travelvbgget_downvb	govbgset_outvb	movevbgstartvb	locomotevbgset_aboutvb	govbggetvb	travelvbgset_aboutvb	travelvbgstart_outvb	goingvbgset_aboutvb	locomotevbgstart_outvb	travelvbgstartvb	govbgset_aboutvb	goingvbgstart_outvb	govbgstartvb	movevbgset_outvb	locomotevbgstartvb	govbgget_downvb	travelvbgcommencevb	travelvbggetvb	movevbgget_downvb	govbgcommencevb	movevbggetvb	goingvbgbeginvb	locomotevbgbeginvb	
+
+BE: schoolsNNS
+EQ class: schoolnns	theynns	scholasticjj	themnns	
+
+BE: townNN
+EQ class: 
+
+BE: careNN
+EQ class: tendingnn	attentionnn	aidnn	
+
+BE: childNN
+EQ class: tiddlernn	minornn	tikenn	small_frynn	frynn	shavernn	youngsternn	childlyjj	kidnn	nestlingnn	nippernn	tykenn	
+
+BE: workNNS
+EQ class: theynns	themnns	
+
+BE: donLocationAnnotation
+EQ class: 
+
+BE: problemswithVB
+EQ class: 
+
+BE: comeVB
+EQ class: come_upvb	
+
+BE: worriedJJ
+EQ class: disquietedjj	upsetjj	disturbedjj	distressedjj	
+
+BE: tCDcareNN
+EQ class: thyminecdaidnn	tcdaidnn	thyminecdattentionnn	tcdattentionnn	thyminecdtendingnn	tcdtendingnn	thyminecdcarenn	
+
+BE: ourPRP$townNN
+EQ class: townnnofinourprp$	ourprp$townshipvb	townshipvbourprp$	
+
+BE: yourPRP$childNN
+EQ class: yourprp$childhoodvb	youngsternnofinyourprp$	yourprp$tikenn	tiddlernnofinyourprp$	yourprp$youngsternn	nestlingnnofinyourprp$	tikennofinyourprp$	yourprp$tiddlernn	yourprp$kidnn	shavernnofinyourprp$	yourprp$childlyjj	childlyvbyourprp$	frynnofinyourprp$	small_frynnofinyourprp$	yourprp$minornn	nippernnofinyourprp$	yourprp$small_frynn	yourprp$nippernn	tykennofinyourprp$	childhoodvbyourprp$	yourprp$frynn	kidnnofinyourprp$	minornnofinyourprp$	yourprp$tykenn	yourprp$shavernn	childnnofinyourprp$	yourprp$nestlingnn	yourprp$childlyvb	childlyjjofinyourprp$	
+
+BE: theirPRP$workNNS
+EQ class: themvbtheirprp$	theirprp$workvb	theyvbtheirprp$	workvbtheirprp$	theynnsofintheirprp$	themnnsofintheirprp$	worknnsofintheirprp$	theirprp$themnns	theirprp$themvb	theirprp$theynns	theirprp$theyvb	
+
+BE: schoolsNNSdonLocationAnnotation
+EQ class: scholasticjjdonlocationannotation	theynnsdonlocationannotation	schoolnnsdonlocationannotation	themnnsdonlocationannotation	
+
+BE: childNNproblemswithVB
+EQ class: kidnnproblemswithvb	frynnproblemswithvb	minornnproblemswithvb	small_frynnproblemswithvb	tiddlernnproblemswithvb	nestlingnnproblemswithvb	tikennproblemswithvb	nippernnproblemswithvb	youngsternnproblemswithvb	childlyjjproblemswithvb	tykennproblemswithvb	shavernnproblemswithvb	
+
+BE: childNNareAUX
+EQ class: shavernnareaux	nestlingnnareaux	tykennbeaux	small_frynnareaux	tykennareaux	minornnareaux	tikennbeaux	tiddlernnbeaux	childlyjjareaux	frynnareaux	frynnbeaux	kidnnareaux	nestlingnnbeaux	youngsternnbeaux	small_frynnbeaux	childlyjjbeaux	kidnnbeaux	minornnbeaux	nippernnbeaux	shavernnbeaux	youngsternnareaux	nippernnareaux	tiddlernnareaux	childnnbeaux	tikennareaux	
+
+BE: 3:00CDcomeVB
+EQ class: approachingnnofin3.:.0.0.cd	approachnn3.:.0.0.cd	approachingnn3:00cd	approachingnn3.:.0.0.cd	comingnnofin3:00cd	comingnn3:00cd	comingnnofin3.:.0.0.cd	comingnn3.:.0.0.cd	approachnnofin3.:.0.0.cd	3:00cdcome_upvb	3.:.0.0.cdcomevb	approachnnofin3:00cd	approachnn3:00cd	approachingnnofin3:00cd	3.:.0.0.cdcome_upvb	
+
+BE: donLocationAnnotationcareNN
+EQ class: donlocationannotationaidnn	donlocationannotationattentionnn	donlocationannotationtendingnn	
+
+BE: problemswithVBworkNNS
+EQ class: problemswithvbtheynns	problemswithvbthemnns	
+
+BE: areAUXworriedJJ
+EQ class: beauxupsetjj	beauxdistressedjj	beauxdisquietedjj	areauxdisquietedjj	beauxdisturbedjj	areauxdisturbedjj	areauxupsetjj	areauxdistressedjj	beauxworriedjj	
+
+BE: schoolsNNSinINtownNN
+EQ class: townnnschoolsnns	townnnschoolnns	townnnscholasticjj	scholasticjjinintownnn	townnnscholasticvb	townnnschoolvb	schoolnnsinintownnn	scholasticvbtownnn	theynnsinintownnn	themnnsinintownnn	townnnthemnns	townnntheynns	schoolvbtownnn	
+
+BE: worriedJJaboutIN3:00CD
+EQ class: upsetjjaboutin3.:.0.0.cd	disquietedjjaboutin3.:.0.0.cd	disturbedjjaboutin3:00cd	upsetjjaboutin3:00cd	distressedjjaboutin3:00cd	distressedjjaboutin3.:.0.0.cd	disturbedjjaboutin3.:.0.0.cd	disquietedjjaboutin3:00cd	worriedjjaboutin3.:.0.0.cd	
+
+BE: donLocationAnnotationifINproblemswithVB
+EQ class: 
+
+BE: donLocationAnnotationifINareAUX
+EQ class: donlocationannotationifinbeaux	
+

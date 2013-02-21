@@ -1,0 +1,114 @@
+#Breathing exercises and slow stretching exercises. 
+#(S1 (S (VP (VP (NN Breathing) (NP (NNS exercises))) (CC and) (VP (VB slow) (S (VP (VBG stretching) (NP (NNS exercises)))))) (. .)))
+#Rule:Nouns
+r1BreathingNN
+r1exercisesNNS
+r1exercisesNNS
+
+#Rule:Verbs
+r2slowVB
+r2stretchingVBG
+
+#Rule:V-HeadNoun
+r21BreathingNNexercisesNNS
+r21stretchingVBGexercisesNNS
+
+#Kind of like Isometrics in slo mo. 
+#(S1 (S (ADVP (RB Kind) (IN of)) (VP (VB like) (NP (NNP Isometrics)) (PP (IN in) (NP (NN slo) (NN mo)))) (. .)))
+#Rule:Nouns
+r1IsometricsNNP
+r1slo moLocationAnnotation
+
+#Rule:Verbs
+r2likeVB
+
+#Rule:V-HeadNoun
+r21likeVBIsometricsNNP
+
+#Rule:PPinVP
+r30likeVBinINslo moLocationAnnotation
+
+#Rule:V-ADV
+r46likeVBKindRB
+
+#Visualize a quiet place I ve been to that makes me feel peaceful. 
+#(S1 (S (VP (VB Visualize) (NP (NP (DT a) (JJ quiet) (NN place)) (SBAR (S (NP (PRP I)) (VP (VBP ve) (VP (AUX been) (PP (TO to) (SBAR (WHNP (WDT that)) (S (VP (VBZ makes) (S (NP (PRP me)) (VP (VB feel) (ADJP (JJ peaceful)))))))))))))) (. .)))
+#Rule:Nouns
+r1placeNN
+
+#Rule:Verbs
+r2visualizeVB
+r2veVBP
+r2makesVBZ
+r2feelVB
+
+#Rule:Adjs
+r4quietJJ
+r4peacefulJJ
+
+#Rule:Adj-Noun
+r5quietJJplaceNN
+
+#Rule:HeadNoun-V
+r11iPRPveVBP
+r11iPRPbeenAUX
+r11mePRPfeelVB
+
+#Rule:V-HeadNoun
+r21visualizeVBplaceNN
+
+#Rule:V-HeadNoun
+r22makesVBZmePRP
+
+#Surround yourself with little reminders of your happy place when you need a quick unwind. 
+#(S1 (S (VP (VBP Surround) (NP (PRP yourself)) (PP (IN with) (NP (NP (JJ little) (NNS reminders)) (PP (IN of) (NP (NP (PRP$ your) (JJ happy) (NN place)) (SBAR (WHADVP (WRB when)) (S (NP (PRP you)) (VP (AUX need) (NP (DT a) (JJ quick) (VB unwind)))))))))) (. .)))
+#Rule:Nouns
+r1remindersNNS
+r1placeNN
+
+#Rule:Verbs
+r2surroundVBP
+r2unwindVB
+
+#Rule:Adjs
+r4littleJJ
+r4happyJJ
+r4quickJJ
+
+#Rule:Adj-Noun
+r5littleJJremindersNNS
+r5happyJJplaceNN
+
+#Rule:PRP-Noun
+r6yourPRP$placeNN
+
+#Rule:HeadNoun-V
+r11youPRPneedAUX
+
+#Rule:V-HeadNoun
+r21surroundVBPyourselfPRP
+r21needAUXquickJJ
+
+#Rule:PPinNP
+r26remindersNNSofINplaceNN
+
+#Rule:PPinVP
+r30surroundVBPwithINremindersNNS
+
+#Rule:(SBAR+WHADVP)inNP
+r41placeNNwhenWRBneedAUX
+
+#For me, white carnations.
+#(S1 (FRAG (PP (IN For) (NP (PRP me))) (, ,) (NP (JJ white) (NNS carnations)) (. .)))
+#Rule:Nouns
+r1carnationsOrganizationAnnotation
+
+#Rule:Adjs
+r4whiteJJ
+
+#Rule:Adj-Noun
+r5whiteJJcarnationsOrganizationAnnotation
+
+@lemmas-left	need	unwind	reminder	reminders	Breathing	isometrics	visualize	carnations	quick	little	exercises	exercise	breathing	surround	stretching	slo mo	happy	ve	me	slow	place	feel	peaceful	makes	your	white	you	quiet	like	i	stretch	Isometrics	make	
+@lemmas-right	need	reminders	reminder	feel	isometrics	carnations	quick	exercise	exercises	kind	been	Kind	slo mo	ve	Isometrics	me	yourself	place	be	
+@lemmas-center	of	with	when	in	

@@ -1,0 +1,319 @@
+#No, the public schools are NOT good enough.
+#(S1 (S (INTJ (UH No)) (, ,) (NP (DT the) (JJ public) (NNS schools)) (VP (AUX are) (RB NOT) (ADJP (JJ good) (RB enough))) (. .)))
+#Rule:Nouns
+r1schoolsNNS
+
+#Rule:Adjs
+r4publicJJ
+r4goodJJ
+
+#Rule:Adj-Noun
+r5publicJJschoolsNNS
+
+#Rule:HeadNoun-V
+r11schoolsNNSareAUX
+
+#Rule:V-ADJ
+r25areAUXgoodJJ
+
+#Rule:V-ADV
+r46areAUXNOTOrganizationAnnotation
+
+# We live in Michiana Shores IN and it s a lakefront community so you would THINK that the schools are good.
+#(S1 (S (S (NP (PRP We)) (VP (VBP live) (PP (IN in) (NP (NNP Michiana) (NNP Shores))) (PP (IN IN)))) (CC and) (S (NP (PRP it)) (VP (VBZ s) (NP (DT a) (JJ lakefront) (NN community)) (SBAR (IN so) (S (NP (PRP you)) (VP (MD would) (VP (VB THINK) (SBAR (IN that) (S (NP (DT the) (NNS schools)) (VP (AUX are) (ADJP (JJ good))))))))))) (. .)))
+#Rule:Nouns
+r1Michiana ShoresLocationAnnotation
+r1communityNN
+r1schoolsNNS
+
+#Rule:Verbs
+r2liveVBP
+r2sVBZ
+r2thinkVB
+
+#Rule:Adjs
+r4lakefrontJJ
+r4goodJJ
+
+#Rule:Adj-Noun
+r5lakefrontJJcommunityNN
+
+#Rule:HeadNoun-V
+r11wePRPliveVBP
+r11itPRPsVBZ
+r11youPRPthinkVB
+r11schoolsNNSareAUX
+
+#Rule:V-HeadNoun
+r21sVBZcommunityNN
+
+#Rule:V-ADJ
+r25areAUXgoodJJ
+
+#Rule:PPinVP
+r30liveVBPinINMichiana ShoresLocationAnnotation
+
+#Rule:V-IN-V
+r43sVBZsoINthinkVB
+r43thinkVBthatINareAUX
+
+# Not so.
+#(S1 (FRAG (RB Not) (ADJP (RB so)) (. .)))
+# They are notorious for violence.
+#(S1 (S (NP (PRP They)) (VP (AUX are) (ADJP (JJ notorious) (PP (IN for) (NP (NN violence))))) (. .)))
+#Rule:Nouns
+r1violenceNN
+
+#Rule:Adjs
+r4notoriousJJ
+
+#Rule:HeadNoun-V
+r11theyPRPareAUX
+
+#Rule:V-ADJ
+r25areAUXnotoriousJJ
+
+#Rule:PPinADJP
+r37notoriousJJforINviolenceNN
+
+# I have been homeschooled ever since I was 6.
+#(S1 (S (NP (PRP I)) (VP (AUX have) (VP (AUX been) (VP (VBN homeschooled) (SBAR (RB ever) (IN since) (S (NP (PRP I)) (VP (AUX was) (NP (CD 6)))))))) (. .)))
+#Rule:Verbs
+r2homeschooledVBN
+
+#Rule:HeadNoun-V
+r11iPRPwasAUX
+
+#Rule:V-HeadNoun
+r21wasAUX6CD
+
+#Rule:V-HeadNoun(passive)
+r23homeschooledVBNiPRP
+
+#Rule:V-IN-V
+r43homeschooledVBNsinceINwasAUX
+
+# Now I m 14.
+#(S1 (S (ADVP (RB Now)) (NP (PRP I)) (VP (NNP m) (NP (CD 14))) (. .)))
+#Rule:Nouns
+r1mNNP
+
+# It s ok.
+#(S1 (S (NP (PRP It)) (VP (VBZ s) (ADJP (JJ ok))) (. .)))
+#Rule:Verbs
+r2s LocationAnnotation
+
+#Rule:HeadNoun-V
+r11itPRPs LocationAnnotation
+
+# There is a common misconception that homeschoolers sit in a corner of a little dark room and sit with their head in a book all day.
+#(S1 (S (NP (EX There)) (VP (AUX is) (NP (DT a) (JJ common) (NN misconception) (SBAR (IN that) (S (NP (NNS homeschoolers)) (VP (VP (VB sit) (PP (IN in) (NP (NP (DT a) (NN corner)) (PP (IN of) (NP (DT a) (JJ little) (NN dark) (NN room)))))) (CC and) (VP (VB sit) (PP (IN with) (NP (PRP$ their) (NN head))) (PP (IN in) (NP (DT a) (NN book))) (NP (DT all) (NN day)))))))) (. .)))
+#Rule:Nouns
+r1misconceptionNN
+r1homeschoolersNNS
+r1cornerNN
+r1darkNN
+r1roomNN
+r1headNN
+r1bookNN
+r1dayNN
+
+#Rule:Verbs
+r2sitVB
+r2sitVB
+
+#Rule:Adjs
+r4commonJJ
+r4littleJJ
+
+#Rule:Adj-Noun
+r5commonJJmisconceptionNN
+r5littleJJroomNN
+
+#Rule:PRP-Noun
+r6theirPRP$headNN
+
+#Rule:N-HeadNoun
+r8darkNNroomNN
+
+#Rule:HeadNoun-V
+r11thereEXisAUX
+r11homeschoolersNNSsitVB
+r11homeschoolersNNSsitVB
+
+#Rule:V-HeadNoun
+r21isAUXmisconceptionNN
+r21sitVBdayNN
+
+#Rule:PPinNP
+r26cornerNNofINroomNN
+
+#Rule:PPinVP
+r30sitVBinINcornerNN
+r30sitVBwithINheadNN
+r30sitVBinINbookNN
+
+# No! Homeschooling is sitting learning for half the day, just like public school kids, but then extracurricular activities are the other half.
+#(S1 (S (S (INTJ (UH No) (. !)) (NP (NNP Homeschooling)) (VP (AUX is) (VP (VBG sitting) (S (VP (VBG learning) (PP (IN for) (NP (PDT half) (DT the) (NN day))))) (, ,) (PP (ADVP (RB just)) (IN like) (NP (JJ public) (NN school) (NNS kids)))))) (, ,) (CC but) (S (ADVP (RB then)) (NP (JJ extracurricular) (NNS activities)) (VP (AUX are) (NP (DT the) (JJ other) (NN half)))) (. .)))
+#Rule:Nouns
+r1No! HomeschoolingOrganizationAnnotation
+r1dayNN
+r1schoolNN
+r1kidsNNS
+r1activitiesNNS
+r1halfNN
+
+#Rule:Verbs
+r2sittingVBG
+r2learningVBG
+
+#Rule:Adjs
+r4publicJJ
+r4extracurricularJJ
+r4otherJJ
+
+#Rule:Adj-Noun
+r5publicJJkidsNNS
+r5extracurricularJJactivitiesNNS
+r5otherJJhalfNN
+
+#Rule:N-HeadNoun
+r8schoolNNkidsNNS
+
+#Rule:HeadNoun-V
+r11No! HomeschoolingOrganizationAnnotationsittingVBG
+r11activitiesNNSareAUX
+
+#Rule:V-HeadNoun
+r21areAUXhalfNN
+
+#Rule:PPinVP
+r30sittingVBGlikeINkidsNNS
+r30learningVBGforINdayNN
+
+#Rule:V-ADV
+r46areAUXthenRB
+
+#Rule:IS-RULE
+r47halfNNactivitiesNNS
+
+# You CAN NOT homeschool without other HS families.
+#(S1 (S (NP (PRP You)) (VP (MD CAN) (RB NOT) (VP (VB homeschool) (PP (IN without) (NP (JJ other) (JJ HS) (NNS families))))) (. .)))
+#Rule:Nouns
+r1familiesNNS
+
+#Rule:Verbs
+r2homeschoolVB
+
+#Rule:Adjs
+r4otherJJ
+r4HSOrganizationAnnotation
+
+#Rule:Adj-Noun
+r5otherJJfamiliesNNS
+r5HSOrganizationAnnotationfamiliesNNS
+
+#Rule:HeadNoun-V
+r11youPRPhomeschoolVB
+
+#Rule:PPinVP
+r30homeschoolVBwithoutINfamiliesNNS
+
+# You need to join your local hs group and join the activites, like 4-H, Jr..Lea
+#(S1 (S (NP (PRP You)) (VP (AUX need) (S (VP (TO to) (VP (VP (VB join) (NP (PRP$ your) (JJ local) (NN hs) (NN group))) (CC and) (VP (VB join) (S (NP (DT the) (NNS activites)) (, ,) (PP (IN like) (NP (NN 4-H))) (, ,) (NP (NNP Jr.)) (ADJP (JJ .Lea))))))))))
+#Rule:Nouns
+r1hsOrganizationAnnotation
+r1groupNN
+r1activitesNNS
+r14-HNN
+r1Jr..LeaPersonAnnotation
+
+#Rule:Verbs
+r2joinVB
+r2joinVB
+
+#Rule:Adjs
+r4localJJ
+
+#Rule:Adj-Noun
+r5localJJgroupNN
+
+#Rule:PRP-Noun
+r6yourPRP$groupNN
+
+#Rule:N-HeadNoun
+r8hsOrganizationAnnotationgroupNN
+
+#Rule:HeadNoun-V
+r11youPRPneedAUX
+
+#Rule:V-HeadNoun
+r21joinVBgroupNN
+
+#Rule:V-HeadNoun
+r22joinVBactivitesNNS
+r22joinVBJr..LeaPersonAnnotation
+
+#Rule:PPinS
+r36Jr..LeaPersonAnnotationlikeIN4-HNN
+
+#Leaders, Teen Advisory Board at your library, Spelling bee s, and other things like that. Sitting in the room is only a part of the picture. Being with your friends is the other part.
+#(S1 (S (S (S (NP (NP (NNS Leaders)) (, ,) (NP (NP (JJ Teen) (NNP Advisory) (NNP Board)) (PP (IN at) (NP (PRP$ your) (NN library)))) (, ,)) (VP (VBG Spelling) (NP (NNP bee) (NNP s)))) (, ,) (CC and) (S (NP (NP (JJ other) (NNS things)) (PP (IN like) (NP (NN that.)))) (VP (VBG Sitting) (PP (IN in) (NP (DT the) (NN room)))))) (VP (AUX is) (NP (NP (RB only) (DT a) (NN part)) (PP (IN of) (S (NP (DT the) (FW picture.)) (VP (AUXG Being) (S (PP (IN with) (NP (PRP$ your) (NNS friends))) (VP (AUX is) (NP (DT the) (JJ other) (NN part))))))))) (. .)))
+#Rule:Nouns
+r1LeadersNNS
+r1Teen Advisory BoardOrganizationAnnotation
+r1libraryNN
+r1beeNNP
+r1sNNP
+r1thingsNNS
+r1thatNN
+r1roomNN
+r1partNN
+r1friendsNNS
+r1partNN
+
+#Rule:Verbs
+r2spellingVBG
+r2sittingVBG
+
+#Rule:Adjs
+r4otherJJ
+r4otherJJ
+
+#Rule:Adj-Noun
+r5otherJJthingsNNS
+r5otherJJpartNN
+
+#Rule:PRP-Noun
+r6yourPRP$libraryNN
+r6yourPRP$friendsNNS
+
+#Rule:N-HeadNoun
+r8beeNNPsNNP
+
+#Rule:N-ApposN
+r10LeadersNNSTeen Advisory BoardOrganizationAnnotation
+
+#Rule:HeadNoun-V
+r11LeadersNNSspellingVBG
+r11Teen Advisory BoardOrganizationAnnotationspellingVBG
+r11thingsNNSsittingVBG
+
+#Rule:V-HeadNoun
+r21spellingVBGsNNP
+r21isAUXpartNN
+r21isAUXpartNN
+
+#Rule:PPinNP
+r26Teen Advisory BoardOrganizationAnnotationatINlibraryNN
+r26thingsNNSlikeINthatNN
+
+#Rule:PPinVP
+r30sittingVBGinINroomNN
+
+#Rule:PPinS
+r36isAUXwithINfriendsNNS
+
+@lemmas-left	they	No! Homeschooling	HS	little	half	good	kid	activites	friends	are	schools	Teen Advisory Board	family	dark	activities	head	spell	be	live	think	bee	spelling	learn	misconception	kids	leaders	that	notorious	sitting	Jr..Lea	homeschool	day	Leaders	lakefront	friend	we	room	hs	other	common	that.	was	homeschoolers	extracurricular	homeschooled	activity	is	it	violence	corner	your	community	you	join	m	learning	families	Michiana Shores	h	i	sit	s 	school	s	there	library	book	things	local	part	4-H	group	public	their	
+@lemmas-right	need	half	good	kid	activites	are	friends	schools	NOT	family	Teen Advisory Board	activities	head	spell	be	live	think	spelling	misconception	kids	that	notorious	sitting	6	Jr..Lea	then	homeschool	day	friend	room	that.	was	activity	is	corner	violence	community	Michiana Shores	families	h	i	sit	s 	school	s	book	library	things	group	4-H	part	
+@lemmas-center	of	that	with	for	so	at	since	like	without	in	

@@ -1,0 +1,53 @@
+#One who fully surrenders to the Supreme Lord. 
+#(S1 (NP (NP (CD One)) (SBAR (WHNP (WP who)) (S (ADVP (RB fully)) (VP (VBZ surrenders) (PP (TO to) (NP (DT the) (NNP Supreme) (NNP Lord)))))) (. .)))
+#Rule:Nouns
+r1the Supreme LordOrganizationAnnotation
+
+#Rule:Verbs
+r2surrendersVBZ
+
+#Rule:HeadNoun-(who/that)-V
+r14OneCDsurrendersVBZ
+
+#Rule:PPinVP
+r30surrendersVBZtoTOthe Supreme LordOrganizationAnnotation
+
+#Rule:V-ADV
+r46surrendersVBZfullyRB
+
+#Also known as Krishna, Allah, Jehovah, Vishnu, Rama, etc.) 
+#(S1 (S (S (ADVP (RB Also)) (VP (VBN known) (PP (IN as) (NP (NNP Krishna) (, ,) (NNP Allah) (, ,) (NNP Jehovah) (, ,) (NNP Vishnu) (, ,) (NNP Rama))))) (, ,) (FW etc) (. .) (-RRB- -RRB-)))
+#Rule:Nouns
+r1KrishnaPersonAnnotation
+r1AllahPersonAnnotation
+r1JehovahPersonAnnotation
+r1VishnuLocationAnnotation
+r1RamaLocationAnnotation
+
+#Rule:Verbs
+r2knownVBN
+
+#Rule:PPinVP
+r32knownVBNasINRamaLocationAnnotation
+
+#Rule:V-ADV
+r46knownVBNAlsoRB
+
+#Then we become perfectly situated in transcendence.
+#(S1 (S (RB Then) (NP (PRP we)) (VP (VBP become) (ADJP (RB perfectly) (VBN situated) (PP (IN in) (NP (NN transcendence))))) (. .)))
+#Rule:Nouns
+r1transcendenceNN
+
+#Rule:Verbs
+r2becomeVBP
+r2situatedVBN
+
+#Rule:HeadNoun-V
+r11wePRPbecomeVBP
+
+#Rule:PPinADJP
+r37situatedVBNinINtranscendenceNN
+
+@lemmas-left	become	one	surrender	Vishnu	Rama	know	situated	situate	Krishna	surrenders	Allah	the Supreme Lord	transcendence	known	One	Jehovah	we	
+@lemmas-right	surrenders	become	the Supreme Lord	surrender	Also	transcendence	also	Rama	fully	
+@lemmas-center	to	as	in	

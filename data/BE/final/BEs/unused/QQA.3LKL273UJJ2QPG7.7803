@@ -1,0 +1,100 @@
+#Awww man that is pretty harsh. Try picking up a new hobby..
+#(S1 (S (NP (NP (CD Awww) (NN man)) (SBAR (WHNP (WDT that)) (S (VP (AUX is) (ADJP (RB pretty) (JJ harsh.)))))) (VP (VB Try) (VP (VBG picking) (PRT (RP up)) (NP (DT a) (JJ new) (NN hobby)) (. .))) (. .)))
+#Rule:Nouns
+r1Awww manPersonAnnotation
+r1hobbyNN
+
+#Rule:Verbs
+r2TryPersonAnnotation
+
+#Rule:V-PRT
+r3pickingVBGupRP
+
+#Rule:Adjs
+r4harshJJ
+r4newJJ
+
+#Rule:Adj-Noun
+r5newJJhobbyNN
+
+#Rule:HeadNoun-V
+r11Awww manPersonAnnotationTryPersonAnnotation
+r11Awww manPersonAnnotationpickingVBG
+
+#Rule:HeadNoun-(who/that)-V
+r14Awww manPersonAnnotationisAUX
+
+#Rule:V-HeadNoun
+r21pickingVBGhobbyNN
+
+#Rule:V-ADJ
+r25isAUXharshJJ
+
+#I know how it feels, I have been rejected so many times but now I am a famous actress in my community. In almost every show I audition for I get a lead role. Just keep practicing your time will come.
+#(S1 (S (S (NP (PRP I)) (VP (VBP know) (SBAR (WHADVP (WRB how)) (S (NP (PRP it)) (VP (VBZ feels)))))) (, ,) (S (NP (PRP I)) (VP (AUX have) (VP (AUX been) (VP (VBN rejected) (NP (ADJP (RB so) (JJ many)) (NNS times)))))) (CC but) (S (ADVP (RB now)) (NP (PRP I)) (VP (AUX am) (NP (NP (DT a) (JJ famous) (NN actress)) (PP (IN in) (NP (NP (PRP$ my) (NN community.)) (PP (IN In) (NP (NP (ADJP (RB almost) (DT every)) (NN show)) (SBAR (S (NP (PRP I)) (VP (VB audition) (SBAR (IN for) (S (NP (PRP I)) (VP (VBP get) (NP (NP (DT a) (NN lead)) (SBAR (S (NP (FW role.)) (ADVP (RB Just)) (VP (VBP keep) (VP (VBG practicing) (SBAR (S (NP (PRP$ your) (NN time)) (VP (MD will) (VP (VB come))))))))))))))))))))))) (. .)))
+#Rule:Nouns
+r1timesNNS
+r1actressNN
+r1communityNN
+r1showNN
+r1leadNN
+r1timeNN
+
+#Rule:Verbs
+r2knowVBP
+r2feelsVBZ
+r2rejectedVBN
+r2auditionVB
+r2getVBP
+r2keepVBP
+r2practicingVBG
+r2comeVB
+
+#Rule:Adjs
+r4manyJJ
+r4famousJJ
+
+#Rule:Adj-Noun
+r5manyJJtimesNNS
+r5famousJJactressNN
+
+#Rule:PRP-Noun
+r6myPRP$communityNN
+r6yourPRP$timeNN
+
+#Rule:HeadNoun-V
+r11iPRPknowVBP
+r11itPRPfeelsVBZ
+r11iPRPamAUX
+r11iPRPauditionVB
+r11iPRPgetVBP
+r11roleFWkeepVBP
+r11roleFWpracticingVBG
+r11timeNNcomeVB
+
+#Rule:NP(NP(z) SBAR(S(NP(x)VP(y))))
+r19auditionVBshowNN
+r19practicingVBGleadNN
+
+#Rule:V-HeadNoun
+r21rejectedVBNtimesNNS
+r21amAUXactressNN
+r21getVBPleadNN
+
+#Rule:V-HeadNoun(passive)
+r23rejectedVBNiPRP
+
+#Rule:PPinNP
+r26actressNNinINcommunityNN
+r26communityNNinINshowNN
+
+#Rule:V-IN-V
+r43auditionVBforINgetVBP
+
+#Rule:V-ADV
+r46amAUXnowRB
+r46keepVBPJustPersonAnnotation
+
+@lemmas-left	famous	reject	Try	lead	show	feels	harsh	community.	audition	time	Awww man	practicing	times	rejected	role	pick	be	feel	is	it	get	your	harsh.	hobby	community	come	my	know	i	many	picking	new	am	practice	actress	role.	keep	
+@lemmas-right	Try	lead	feels	show	harsh	community.	audition	time	times	practicing	pick	Just	be	feel	is	get	community	harsh.	hobby	come	know	i	up	picking	now	am	practice	actress	keep	
+@lemmas-center	for	in	

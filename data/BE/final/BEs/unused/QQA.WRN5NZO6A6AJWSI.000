@@ -1,0 +1,84 @@
+#how can you prove evolution of the species is a fact?
+#(S1 (SBARQ (WHADVP (WRB how)) (SQ (MD can) (NP (PRP you)) (VP (VB prove) (SBAR (S (NP (NP (NN evolution)) (PP (IN of) (NP (DT the) (NNS species)))) (VP (AUX is) (NP (DT a) (NN fact))))))) (. ?)))
+#Rule:Nouns
+r1evolutionNN
+r1speciesNNS
+r1factNN
+
+#Rule:Verbs
+r2proveVB
+
+#Rule:HeadNoun-V
+r11evolutionNNisAUX
+
+#Rule:V-HeadNoun
+r21isAUXfactNN
+
+#Rule:PPinNP
+r26evolutionNNofINspeciesNNS
+
+#Rule:IS-RULE
+r47factNNevolutionNN
+
+#besides things like cross breading, etc. this is not evolution. 
+#(S1 (S (PP (IN besides) (NP (NP (NNS things)) (PP (IN like) (NP (NN cross) (NN breading))))) (, ,) (X (NN etc.)) (NP (DT this)) (VP (AUX is) (RB not) (NP (NN evolution))) (. .)))
+#Rule:Nouns
+r1thingsNNS
+r1crossNN
+r1breadingNN
+r1etcNN
+r1evolutionNN
+
+#Rule:N-HeadNoun
+r8crossNNbreadingNN
+
+#Rule:HeadNoun-V
+r11thisDTisAUX
+
+#Rule:V-HeadNoun
+r21isAUXevolutionNN
+
+#Rule:PPinNP
+r26thingsNNSlikeINbreadingNN
+
+#Rule:PPinS
+r36isAUXbesidesINthingsNNS
+
+#Rule:V-ADV
+r46isAUXnotRB
+
+#Ive never seen proof of one species mutaing into another.
+#(S1 (S (NP (NN Ive)) (ADVP (RB never)) (VP (VBN seen) (NP (NP (NN proof)) (PP (IN of) (NP (NP (CD one) (NNS species)) (VP (VBG mutaing) (PP (IN into) (NP (DT another)))))))) (. .)))
+#Rule:Nouns
+r1IveNN
+r1proofNN
+r1speciesNNS
+
+#Rule:Verbs
+r2seenVBN
+r2mutaingVBG
+
+#Rule:Adj-Noun
+r5oneCDspeciesNNS
+
+#Rule:HeadNoun-V
+r11speciesNNSmutaingVBG
+
+#Rule:V-HeadNoun
+r21seenVBNproofNN
+
+#Rule:V-HeadNoun(passive)
+r24seenVBNIveNN
+
+#Rule:PPinNP
+r26proofNNofINspeciesNNS
+
+#Rule:PPinVP
+r30mutaingVBGintoINanotherDT
+
+#Rule:V-ADV
+r46seenVBNneverRB
+
+@lemmas-left	Ive	prove	is	species	one	etc	proof	breading	etc.	seen	evolution	fact	see	bread	mutaing	things	ive	this	be	cross	
+@lemmas-right	Ive	is	species	proof	breading	evolution	not	another	never	fact	bread	mutaing	things	ive	be	
+@lemmas-center	of	besides	into	like	

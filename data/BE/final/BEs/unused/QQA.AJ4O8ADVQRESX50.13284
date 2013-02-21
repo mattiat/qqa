@@ -1,0 +1,33 @@
+#ASK YOUR DOCTOR!!!
+#(S1 (S (VP (VB ASK) (NP (PRP$ YOUR) (NN DOCTOR) (NNS !!))) (. !)))
+#Rule:Nouns
+r1ASK YOUR DOCTOR!!!LocationAnnotation
+
+#Just in case get a second and even a third opinion
+#(S1 (S (ADVP (RB Just)) (PP (IN in) (NP (NN case))) (VP (VBP get) (NP (NP (DT a) (NN second)) (CC and) (NP (RB even) (DT a) (JJ third) (NN opinion))))))
+#Rule:Nouns
+r1caseNN
+r1secondNN
+r1opinionNN
+
+#Rule:Verbs
+r2getVBP
+
+#Rule:Adjs
+r4thirdJJ
+
+#Rule:Adj-Noun
+r5thirdJJopinionNN
+
+#Rule:V-HeadNoun
+r21getVBPsecondNN
+
+#Rule:PPinS
+r36getVBPinINcaseNN
+
+#Rule:V-ADV
+r46getVBPJustRB
+
+@lemmas-left	get	second	ASK YOUR DOCTOR!!!	opinion	case	third	
+@lemmas-right	just	second	opinion	case	Just	
+@lemmas-center	in	

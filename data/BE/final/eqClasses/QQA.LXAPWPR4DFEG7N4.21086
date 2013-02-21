@@ -1,0 +1,411 @@
+BE: u rOrganizationAnnotation
+EQ class: 
+
+BE: stressNN
+EQ class: accentnn	emphasisnn	
+
+BE: sitVB
+EQ class: sit_downvb	
+
+BE: breatheVB
+EQ class: respirevb	suspirevb	take_a_breathvb	
+
+BE: tryVB
+EQ class: seekvb	essayvb	attemptvb	assayvb	
+
+BE: seeVB
+EQ class: 
+
+BE: muchJJ
+EQ class: muchnessnn	
+
+BE: muchJJstressNN
+EQ class: muchjjemphasisnn	muchnessnnaccentnn	muchnessnnemphasisnn	muchjjaccentnn	muchnessnnstressnn	
+
+BE: u rOrganizationAnnotationdoAUX
+EQ class: u rorganizationannotationmakeaux	
+
+BE: doAUXstressNN
+EQ class: makeauxaccentnn	doauxaccentnn	makeauxemphasisnn	makeauxstressnn	doauxemphasisnn	
+
+BE: sitVBdownRB
+EQ class: sit_downvbdownrb	sittingnnofindownrb	posingnnofindownrb	
+
+BE: bcuz u rPersonAnnotation
+EQ class: 
+
+BE: procrastinatingNN
+EQ class: 
+
+BE: misNN
+EQ class: minn	myocardial_infarctnn	myocardial_infarctionnn	
+
+BE: yuorNN
+EQ class: 
+
+BE: timeNN
+EQ class: clipnn	
+
+BE: managingVBG
+EQ class: managevbg	bring_offvbg	negociatevbg	pull_offvbg	carry_offvbg	
+
+BE: managingVBGtimeNN
+EQ class: pull_offvbgclipnn	managingvbgclipnn	negociatevbgclipnn	negociatevbgtimenn	carry_offvbgtimenn	pull_offvbgtimenn	bring_offvbgtimenn	managevbgtimenn	carry_offvbgclipnn	managevbgclipnn	bring_offvbgclipnn	
+
+BE: bcuz u rPersonAnnotationprocrastinatingNN
+EQ class: 
+
+BE: yuorNNtimeNN
+EQ class: clipnnofinyuornn	yuornnclipnn	timennofinyuornn	
+
+BE: bcuz u rPersonAnnotationtimeNN
+EQ class: bcuz u rpersonannotationclipnn	
+
+BE: irresponsibleJJ
+EQ class: irresponsibilitynn	irresponsiblenessnn	
+
+BE: pplLocationAnnotation
+EQ class: 
+
+BE: billsNNS
+EQ class: measurenns	theynns	billnns	themnns	
+
+BE: uNNP
+EQ class: uracilnnp	
+
+BE: moneyNN
+EQ class: monetaryjj	
+
+BE: shoesNNS
+EQ class: placenns	theynns	themnns	
+
+BE: donLocationAnnotation
+EQ class: 
+
+BE: tNNP
+EQ class: thyminennp	themnnp	theynnp	
+
+BE: billsNNS
+EQ class: measurenns	theynns	billnns	themnns	
+
+BE: tryVB
+EQ class: seekvb	essayvb	attemptvb	assayvb	
+
+BE: stopVB
+EQ class: haltvb	
+
+BE: payingVBG
+EQ class: payvbg	
+
+BE: spendVBP
+EQ class: passvbp	
+
+BE: bcuzPersonAnnotation
+EQ class: 
+
+BE: keepVB
+EQ class: maintainvb	holdvb	
+
+BE: pilingVBGupRP
+EQ class: pilennofinuprp	moundnnofinuprp	agglomeratennofinuprp	stackvbguprp	heapvbguprp	heapnnofinuprp	pilevbguprp	cumulusnnofinuprp	cumulationnnofinuprp	
+
+BE: yourPRP$billsNNS
+EQ class: yourprp$themnns	themnnsofinyourprp$	theynnsofinyourprp$	yourprp$theynns	billnnsofinyourprp$	billsnnsofinyourprp$	yourprp$billnns	yourprp$measurenns	measurennsofinyourprp$	
+
+BE: donLocationAnnotationtNNP
+EQ class: thyminennpofindonlocationannotation	donlocationannotationtheynnp	themnnpofindonlocationannotation	donlocationannotationthemnnp	donlocationannotationthyminennp	theynnpofindonlocationannotation	tnnpofindonlocationannotation	
+
+BE: itPRPisAUX
+EQ class: itprpbeaux	
+
+BE: uNNPhaveAUX
+EQ class: unnphave_gotaux	havennofinuracilnnp	wealthy_personnnofinuracilnnp	uracilnnpholdaux	unnpholdaux	wealthy_personnnofinunnp	rich_personnnofinuracilnnp	rich_personnnofinunnp	uracilnnphaveaux	uracilnnphave_gotaux	havennofinunnp	
+
+BE: tNNPbcuzPersonAnnotation
+EQ class: thyminennpbcuzpersonannotation	theynnpbcuzpersonannotation	themnnpbcuzpersonannotation	
+
+BE: youPRPspendVBP
+EQ class: youprppassvbp	
+
+BE: billsNNSkeepVB
+EQ class: theynnsholdvb	measurennskeepvb	themnnsmaintainvb	billnnsholdvb	billsnnsholdvb	theynnsmaintainvb	themnnsholdvb	theynnskeepvb	billnnskeepvb	measurennsmaintainvb	measurennsholdvb	billnnsmaintainvb	billsnnsmaintainvb	themnnskeepvb	
+
+BE: tryVBitPRP
+EQ class: essayvbitprp	assayvbitprp	attemptvbitprp	effortnnofinitprp	attemptnnofinitprp	endeavournnofinitprp	seekvbitprp	trynnofinitprp	triernnofinitprp	endeavornnofinitprp	
+
+BE: payingVBGbillsNNS
+EQ class: remuneratornnofintheynns	paymentnnofintheynns	salarynnofinthemnns	remunerationnnofinbillsnns	payeennofinmeasurenns	payvbgbillsnns	earningsnnofintheynns	remuneratornnofinbillnns	remuneratornnofinmeasurenns	wagennofinthemnns	payernnofinmeasurenns	earningsnnofinbillnns	payernnofinthemnns	paynnofinmeasurenns	payernnofinbillnns	wagennofinbillsnns	payernnofintheynns	remuneratornnofinthemnns	paymentnnofinmeasurenns	wagennofintheynns	remunerationnnofintheynns	payingvbgtheynns	salarynnofinbillsnns	earningsnnofinmeasurenns	payeennofinbillsnns	payvbgtheynns	payvbgbillnns	payeennofintheynns	salarynnofinmeasurenns	payingvbgmeasurenns	earningsnnofinthemnns	paymentnnofinbillsnns	paynnofinbillnns	paymentnnofinthemnns	payvbgthemnns	payernnofinbillsnns	paynnofinbillsnns	remuneratornnofinbillsnns	wagennofinmeasurenns	paynnofintheynns	wagennofinbillnns	paymentnnofinbillnns	remunerationnnofinthemnns	payeennofinthemnns	payvbgmeasurenns	remunerationnnofinmeasurenns	paynnofinthemnns	salarynnofintheynns	payingvbgthemnns	payingvbgbillnns	payeennofinbillnns	remunerationnnofinbillnns	salarynnofinbillnns	earningsnnofinbillsnns	
+
+BE: haveAUXmoneyNN
+EQ class: havennofinmonetaryjj	havennofinmoneynn	rich_personnnofinmoneynn	have_gotauxmonetaryjj	haveauxmonetaryjj	have_gotauxmoneynn	holdauxmoneynn	wealthy_personnnofinmonetaryjj	holdauxmonetaryjj	wealthy_personnnofinmoneynn	rich_personnnofinmonetaryjj	
+
+BE: spendVBPitPRP
+EQ class: passvbpitprp	
+
+BE: spendVBPonINshoesNNS
+EQ class: passvbponinthemnns	passvbponinplacenns	spendvbponinthemnns	spendvbponintheynns	spendvbponinplacenns	passvbponinshoesnns	passvbponintheynns	
+
+BE: payingVBGifINitsPRP$
+EQ class: payvbgifinitsprp$	
+
+BE: isAUXWhateevrRB
+EQ class: beauxwhateevrrb	
+
+BE: doAUXthatRB
+EQ class: makeauxthatrb	
+
+BE: kidsNNS
+EQ class: kidnns	tykenns	small_frynns	minornns	youngsternns	nestlingnns	theynns	frynns	tiddlernns	nippernns	shavernns	tikenns	themnns	childnns	
+
+BE: fightingVBG
+EQ class: contendvbg	strugglevbg	fightvbg	
+
+BE: familyNN
+EQ class: homenn	menagenn	householdnn	housenn	
+
+BE: counseling.isNN
+EQ class: inn	atomic_number_53nn	iodinnn	iodinenn	counselingisnn	
+
+BE: lonilinessLocationAnnotation
+EQ class: 
+
+BE: getVB
+EQ class: acquirevb	
+
+BE: dueJJ
+EQ class: 
+
+BE: familyNNcounseling.isNN
+EQ class: iodinnnofinhomenn	counseling.isnnofinfamilynn	homenniodinnn	housenniodinnn	homennatomic_number_53nn	familynniodinnn	innofinhousenn	homenniodinenn	householdnniodinenn	householdnncounseling.isnn	innofinmenagenn	menagennatomic_number_53nn	iodinennofinhousenn	atomic_number_53nnofinfamilynn	atomic_number_53nnofinhomenn	counseling.isnnofinhouseholdnn	iodinennofinfamilynn	familynninn	menagenncounseling.isnn	homenncounseling.isnn	housenniodinenn	iodinennofinhomenn	iodinennofinmenagenn	innofinhomenn	counseling.isnnofinhomenn	housenncounselingisnn	householdnniodinnn	counseling.isnnofinhousenn	atomic_number_53nnofinhousenn	householdnninn	counseling.isnnofinmenagenn	familynniodinenn	innofinfamilynn	housennatomic_number_53nn	iodinnnofinfamilynn	iodinnnofinhouseholdnn	menagenniodinenn	atomic_number_53nnofinmenagenn	familynncounselingisnn	iodinnnofinmenagenn	iodinnnofinhousenn	housenninn	atomic_number_53nnofinhouseholdnn	householdnncounselingisnn	housenncounseling.isnn	homenncounselingisnn	menagenninn	householdnnatomic_number_53nn	menagenncounselingisnn	familynnatomic_number_53nn	innofinhouseholdnn	iodinennofinhouseholdnn	homenninn	menagenniodinnn	
+
+BE: getVBcounseling.isNN
+EQ class: gettingnnofiniodinnn	acquiringnnofiniodinenn	acquirevbiodinenn	acquiringnnofininn	acquirevbiodinnn	acquirevbcounselingisnn	acquirevbinn	getvbiodinnn	acquirevbcounseling.isnn	getvbatomic_number_53nn	acquiringnnofincounselingisnn	getvbinn	gettingnnofincounselingisnn	gettingnnofininn	acquirevbatomic_number_53nn	getvbiodinenn	acquiringnnofiniodinnn	gettingnnofincounseling.isnn	getvbcounselingisnn	acquiringnnofinatomic_number_53nn	gettingnnofiniodinenn	gettingnnofinatomic_number_53nn	acquiringnnofincounseling.isnn	
+
+BE: dueJJtoTOlonilinessLocationAnnotation
+EQ class: 
+
+BE: othersNNS
+EQ class: theynns	themnns	
+
+BE: counselorNN
+EQ class: counsellornn	
+
+BE: ..NNS
+EQ class: theynns	themnns	nns	
+
+BE: u donLocationAnnotation
+EQ class: 
+
+BE: tNNS
+EQ class: thyminenns	theynns	themnns	
+
+BE: medsNNS
+EQ class: mednns	theynns	master_of_educationnns	themnns	
+
+BE: u donLocationAnnotation
+EQ class: 
+
+BE: tNNP
+EQ class: thyminennp	themnnp	theynnp	
+
+BE: tryVB
+EQ class: seekvb	essayvb	attemptvb	assayvb	
+
+BE: talkVB
+EQ class: speakvb	
+
+BE: psychiatristVB
+EQ class: 
+
+BE: seenVBN
+EQ class: seevbn	
+
+BE: takeVB
+EQ class: 
+
+BE: tryVBoutRP
+EQ class: assayvboutrp	seekvboutrp	endeavournnofinoutrp	attemptnnofinoutrp	attemptvboutrp	effortnnofinoutrp	essayvboutrp	endeavornnofinoutrp	triernnofinoutrp	trynnofinoutrp	
+
+BE: u donLocationAnnotationtNNS
+EQ class: u donlocationannotationtheynns	u donlocationannotationthyminenns	u donlocationannotationthemnns	tnnsofinu donlocationannotation	themnnsofinu donlocationannotation	theynnsofinu donlocationannotation	thyminennsofinu donlocationannotation	
+
+BE: u donLocationAnnotationtNNP
+EQ class: u donlocationannotationthemnnp	u donlocationannotationthyminennp	thyminennpofinu donlocationannotation	theynnpofinu donlocationannotation	tnnpofinu donlocationannotation	themnnpofinu donlocationannotation	u donlocationannotationtheynnp	
+
+BE: tNNShaveAUX
+EQ class: tnnshave_gotaux	havennofintheynns	rich_personnnofintnns	theynnshave_gotaux	thyminennshave_gotaux	wealthy_personnnofintheynns	theynnshaveaux	havennofinthemnns	tnnsholdaux	wealthy_personnnofinthemnns	wealthy_personnnofintnns	themnnshave_gotaux	themnnsholdaux	theynnsholdaux	themnnshaveaux	havennofintnns	thyminennshaveaux	wealthy_personnnofinthyminenns	havennofinthyminenns	thyminennsholdaux	rich_personnnofintheynns	rich_personnnofinthemnns	rich_personnnofinthyminenns	
+
+BE: tNNPneedAUX
+EQ class: demandnnofintnnp	demandnnofinthyminennp	demandnnofinthemnnp	themnnpcall_foraux	theynnpcall_foraux	tnnptakeaux	theynnpinvolveaux	thyminennpcall_foraux	theynnppostulateaux	themnnpinvolveaux	theynnpaskaux	themnnprequireaux	theynnptakeaux	themnnppostulateaux	thyminennpneedaux	neednnofintnnp	thyminennpinvolveaux	themnnpnecessitateaux	theynnprequireaux	thyminennppostulateaux	tnnpdemandaux	thyminennptakeaux	neednnofinthemnnp	theynnpnecessitateaux	neednnofintheynnp	tnnpinvolveaux	theynnpneedaux	tnnpcall_foraux	demandnnofintheynnp	themnnpneedaux	thyminennpaskaux	tnnpnecessitateaux	thyminennprequireaux	tnnppostulateaux	tnnprequireaux	thyminennpdemandaux	neednnofinthyminennp	tnnpaskaux	theynnpdemandaux	themnnpaskaux	thyminennpnecessitateaux	themnnpdemandaux	themnnptakeaux	
+
+BE: theyPRPseenVBN
+EQ class: seernnofin..prp	visionarynndownsprp	illusionistnnbillsprp	illusionistnntprp	illusionistnnofindownsprp	visionarynnthingsprp	illusionistnnofinkidsprp	illusionistnnofinshoesprp	downsprpseevbn	seeingnnofinbillsprp	seernnofinothersprp	shoesprpseevbn	beholdingnntprp	billsprpseevbn	visual_perceptionnnothersprp	seernnofinmedsprp	seernnofinkidsprp	kidsprpseevbn	beholdingnnofinothersprp	illusionistnnshoesprp	u rprpseevbn	illusionistnnu rprp	visionarynntprp	visual_perceptionnnofinkidsprp	seernn..prp	visionarynnu rprp	visionarynnofin..prp	beholdingnnothersprp	seernnthingsprp	visual_perceptionnnofintheyprp	seernnofinshoesprp	theyprpseevbn	beholdingnnofin..prp	beholdingnnofinkidsprp	seeingnn..prp	seernnofindownsprp	seernntheyprp	seeingnnmedsprp	visual_perceptionnnofinshoesprp	illusionistnnofinthingsprp	thingsprpseenvbn	seeingnnthingsprp	..prpseevbn	illusionistnnofinu rprp	seernnofinthingsprp	visionarynnofinbillsprp	visionarynnothersprp	visionarynnofinothersprp	medsprpseenvbn	seeingnntprp	visual_perceptionnnthingsprp	seernnkidsprp	seeingnnofinu rprp	seernnofintheyprp	visionarynnshoesprp	seeingnnshoesprp	seernnofintprp	medsprpseevbn	seeingnnofinshoesprp	visionarynnmedsprp	seeingnnbillsprp	seernnofinbillsprp	beholdingnn..prp	visual_perceptionnnkidsprp	visual_perceptionnntheyprp	othersprpseevbn	beholdingnnofinbillsprp	beholdingnnofinmedsprp	seernnshoesprp	illusionistnntheyprp	u rprpseenvbn	seernndownsprp	beholdingnnshoesprp	beholdingnnthingsprp	beholdingnnofindownsprp	shoesprpseenvbn	beholdingnnofintheyprp	visionarynnofintheyprp	seernnbillsprp	illusionistnnmedsprp	kidsprpseenvbn	beholdingnntheyprp	visionarynnofinthingsprp	visual_perceptionnnofinothersprp	visionarynnofintprp	visionarynnofinmedsprp	illusionistnnthingsprp	seeingnnofin..prp	visual_perceptionnnofintprp	visionarynn..prp	tprpseenvbn	seeingnnofinthingsprp	seeingnnofindownsprp	visionarynnofindownsprp	visionarynnofinkidsprp	visual_perceptionnnbillsprp	seeingnnothersprp	beholdingnnofinthingsprp	thingsprpseevbn	illusionistnnofinothersprp	visual_perceptionnnofinmedsprp	seernnu rprp	visionarynnbillsprp	visionarynntheyprp	beholdingnnmedsprp	visual_perceptionnnofinbillsprp	beholdingnnofinshoesprp	seernnmedsprp	illusionistnndownsprp	visual_perceptionnnofindownsprp	seeingnnofinothersprp	seeingnndownsprp	seernnofinu rprp	beholdingnnofinu rprp	illusionistnnothersprp	seeingnnofintheyprp	seernnothersprp	seeingnnu rprp	beholdingnnkidsprp	beholdingnndownsprp	visual_perceptionnnu rprp	illusionistnnkidsprp	visual_perceptionnnofinu rprp	seeingnnkidsprp	visual_perceptionnnofin..prp	billsprpseenvbn	visual_perceptionnn..prp	visionarynnofinshoesprp	illusionistnnofintheyprp	visionarynnofinu rprp	illusionistnn..prp	beholdingnnbillsprp	visual_perceptionnndownsprp	visual_perceptionnntprp	visual_perceptionnnmedsprp	visual_perceptionnnofinthingsprp	..prpseenvbn	visual_perceptionnnshoesprp	downsprpseenvbn	seeingnnofinkidsprp	seernntprp	beholdingnnu rprp	illusionistnnofinbillsprp	tprpseevbn	visionarynnkidsprp	illusionistnnofinmedsprp	beholdingnnofintprp	othersprpseenvbn	seeingnnofintprp	illusionistnnofin..prp	seeingnntheyprp	seeingnnofinmedsprp	illusionistnnofintprp	
+
+BE: psychiatristVB..NNS
+EQ class: psychiatristvbthemnns	psychiatristvbnns	psychiatristvbtheynns	
+
+BE: seenVBNitPRP
+EQ class: visionarynnofinitprp	seernnofinitprp	beholdingnnofinitprp	seevbnitprp	illusionistnnofinitprp	seeingnnofinitprp	visual_perceptionnnofinitprp	
+
+BE: takeVBmedsNNS
+EQ class: takevbthemnns	takevbtheynns	takevbmaster_of_educationnns	takevbmednns	
+
+BE: needAUXthemPRP
+EQ class: requireauxbillsprp	necessitateauxu rprp	call_forauxothersprp	demandauxbillsprp	call_forauxshoesprp	askauxmedsprp	demandaux..prp	demandauxdownsprp	needauxthingsprp	requireauxthemprp	requireaux..prp	askauxbillsprp	postulateaux..prp	involveauxthemprp	postulateauxbillsprp	call_forauxbillsprp	demandnnofinshoesprp	demandauxshoesprp	needauxbillsprp	demandauxmedsprp	demandauxthemprp	postulateauxthingsprp	involveauxtprp	neednnofinshoesprp	demandnnofinbillsprp	needauxshoesprp	needauxu rprp	demandauxkidsprp	involveauxshoesprp	takeauxu rprp	call_forauxtprp	call_forauxthingsprp	takeauxbillsprp	involveauxdownsprp	involveauxbillsprp	requireauxtprp	takeauxthingsprp	postulateauxshoesprp	demandnnofindownsprp	neednnofinthemprp	neednnofinu rprp	call_forauxmedsprp	involveauxu rprp	takeauxdownsprp	askauxtprp	involveauxothersprp	involveauxmedsprp	askauxothersprp	call_foraux..prp	requireauxkidsprp	demandauxtprp	requireauxothersprp	askauxthemprp	takeauxtprp	takeauxmedsprp	postulateauxmedsprp	requireauxu rprp	necessitateaux..prp	requireauxthingsprp	needauxdownsprp	demandnnofinu rprp	takeauxshoesprp	demandnnofinthingsprp	necessitateauxkidsprp	demandauxu rprp	neednnofindownsprp	demandnnofintprp	neednnofinothersprp	demandnnofinothersprp	requireauxmedsprp	askauxthingsprp	askauxu rprp	necessitateauxbillsprp	neednnofintprp	neednnofinkidsprp	neednnofinbillsprp	requireauxshoesprp	takeauxthemprp	postulateauxkidsprp	involveauxkidsprp	call_forauxdownsprp	neednnofinthingsprp	requireauxdownsprp	demandauxothersprp	postulateauxtprp	postulateauxdownsprp	demandnnofinkidsprp	askauxdownsprp	necessitateauxmedsprp	askaux..prp	needaux..prp	necessitateauxthingsprp	needauxtprp	demandnnofin..prp	takeauxkidsprp	neednnofinmedsprp	takeauxothersprp	postulateauxthemprp	askauxkidsprp	involveauxthingsprp	call_forauxthemprp	call_forauxu rprp	needauxkidsprp	necessitateauxtprp	needauxmedsprp	demandnnofinmedsprp	call_forauxkidsprp	needauxothersprp	necessitateauxshoesprp	necessitateauxothersprp	necessitateauxdownsprp	postulateauxothersprp	askauxshoesprp	takeaux..prp	postulateauxu rprp	necessitateauxthemprp	neednnofin..prp	involveaux..prp	demandnnofinthemprp	demandauxthingsprp	
+
+BE: tryVBtoTOothersNNS
+EQ class: essayvbtotothemnns	essayvbtotoothersnns	tryvbtototheynns	seekvbtototheynns	seekvbtotothemnns	assayvbtotothemnns	attemptvbtotoothersnns	attemptvbtotothemnns	attemptvbtototheynns	tryvbtotothemnns	essayvbtototheynns	assayvbtototheynns	seekvbtotoothersnns	assayvbtotoothersnns	
+
+BE: talkVBtoTOcounselorNN
+EQ class: talkvbtotocounsellornn	speakvbtotocounsellornn	speakvbtotocounselornn	
+
+BE: takeVBifINneedAUX
+EQ class: takevbifinrequireaux	takevbifindemandaux	takevbifinpostulateaux	takevbifincall_foraux	takevbifintakeaux	takevbifinnecessitateaux	takevbifinaskaux	takevbifininvolveaux	
+
+BE: UNNP
+EQ class: uracilnnp	u.nnp	
+
+BE: gameNN
+EQ class: 
+
+BE: planNN
+EQ class: programnn	programmenn	
+
+BE: watNN
+EQ class: 
+
+BE: uLocationAnnotation
+EQ class: 
+
+BE: stressNN
+EQ class: accentnn	emphasisnn	
+
+BE: goVB
+EQ class: locomotevb	movevb	travelvb	
+
+BE: ventVB
+EQ class: ventilatevb	give_ventvb	
+
+BE: helpVB
+EQ class: aidvb	assistvb	
+
+BE: watVB
+EQ class: 
+
+BE: causingVBG
+EQ class: makevbg	causevbg	dovbg	
+
+BE: ventVBoutRP
+EQ class: give_ventvboutrp	blowholennofinoutrp	ventnnofinoutrp	ventholennofinoutrp	ventilatevboutrp	venternnofinoutrp	vent-holennofinoutrp	
+
+BE: gameNNplanNN
+EQ class: gamennbe_aftervb	gamennplanvb	programmennofingamenn	be_aftervbgamenn	plannnofingamenn	gamennprogrammenn	programnnofingamenn	gamennprogramnn	planvbgamenn	
+
+BE: UNNPgoVB
+EQ class: uracilnnpmovevb	uracilnnptravelvb	unnpmovevb	u.nnpmovevb	u.nnpgovb	unnplocomotevb	uracilnnplocomotevb	u.nnptravelvb	unnptravelvb	uracilnnpgovb	u.nnplocomotevb	
+
+BE: itPRPcausingVBG
+EQ class: causaljjofinitprp	causingnnitprp	causennofinitprp	causativennofinitprp	itprpcausevbg	itprpmakevbg	itprpdovbg	causationnnitprp	causingnnofinitprp	causationnnofinitprp	
+
+BE: watNNhelpVB
+EQ class: assistantnnofinwatnn	helpernnofinwatnn	aidnnofinwatnn	helpnnofinwatnn	assistancennofinwatnn	watnnaidvb	helpnnwatnn	supporternnwatnn	helpernnwatnn	supporternnofinwatnn	assistnnofinwatnn	assistantnnwatnn	watnnassistvb	
+
+BE: watNNwatVB
+EQ class: 
+
+BE: ventVBplanNN
+EQ class: ventholennofinplannn	ventholennofinprogramnn	ventvbprogramnn	ventvbprogrammenn	ventilatevbprogramnn	ventilatevbprogrammenn	blowholennofinprogrammenn	give_ventvbprogramnn	ventnnofinprogramnn	give_ventvbprogrammenn	ventilatevbplannn	venternnofinprogramnn	ventnnofinplannn	vent-holennofinplannn	blowholennofinprogramnn	ventnnofinprogrammenn	vent-holennofinprogrammenn	ventholennofinprogrammenn	venternnofinplannn	give_ventvbplannn	vent-holennofinprogramnn	venternnofinprogrammenn	blowholennofinplannn	
+
+BE: helpVBuLocationAnnotation
+EQ class: assistnnofinulocationannotation	assistancennofinulocationannotation	assistantnnofinulocationannotation	helpernnofinulocationannotation	supporternnofinulocationannotation	helpnnofinulocationannotation	assistvbulocationannotation	aidvbulocationannotation	aidnnofinulocationannotation	
+
+BE: causingVBGstressNN
+EQ class: causaljjofinaccentnn	makevbgemphasisnn	makevbgstressnn	causingvbgemphasisnn	causingnnofinemphasisnn	causativennofinaccentnn	causevbgemphasisnn	causativennofinstressnn	causaljjofinemphasisnn	causationnnofinemphasisnn	causationnnofinstressnn	causingnnofinstressnn	causennofinaccentnn	causaljjofinstressnn	causativennofinemphasisnn	causennofinstressnn	causationnnofinaccentnn	dovbgaccentnn	makevbgaccentnn	causevbgstressnn	dovbgemphasisnn	causennofinemphasisnn	dovbgstressnn	causingnnofinaccentnn	causingvbgaccentnn	causevbgaccentnn	
+
+BE: ventVBonINwatNN
+EQ class: give_ventvboninwatnn	ventilatevboninwatnn	
+
+BE: goVBventVB
+EQ class: travelvbventvb	movevbventilatevb	movevbgive_ventvb	locomotevbventilatevb	travelvbgive_ventvb	govbgive_ventvb	locomotevbgive_ventvb	locomotevbventvb	govbventilatevb	travelvbventilatevb	movevbventvb	
+
+BE: goVBjustRB
+EQ class: movevbjustrb	locomotevbjustrb	travelvbjustrb	
+
+BE: isAUXthatsRB
+EQ class: beauxthatsrb	
+
+BE: causingVBGthatsRB
+EQ class: causingnnofinthatsrb	causevbgthatsrb	causennofinthatsrb	makevbgthatsrb	dovbgthatsrb	causativennofinthatsrb	causaljjofinthatsrb	causationnnofinthatsrb	
+
+BE: churchNN
+EQ class: christiannn	christian_churchnn	
+
+BE: prayNN
+EQ class: 
+
+BE: thingsNNS
+EQ class: theynns	themnns	
+
+BE: downsNNS
+EQ class: theynns	down_feathernns	downnns	themnns	downyjj	
+
+BE: goVB
+EQ class: locomotevb	movevb	travelvb	
+
+BE: thinkVB
+EQ class: believevb	conceivevb	considervb	
+
+BE: comesVBZ
+EQ class: comevbz	come_upvbz	
+
+BE: positiveJJ
+EQ class: positivenessnn	positivitynn	
+
+BE: negativeJJ
+EQ class: negativitynn	
+
+BE: putJJ
+EQ class: 
+
+BE: negativeJJthingsNNS
+EQ class: negativejjtheynns	negativitynntheynns	negativitynnthemnns	negativitynnthingsnns	negativejjthemnns	
+
+BE: putJJdownsNNS
+EQ class: putjjtheynns	putjjdownnns	putjjdown_feathernns	putjjthemnns	putjjdownyjj	
+
+BE: comesVBZthingsNNS
+EQ class: comevbzthingsnns	come_upvbzthemnns	comesvbztheynns	come_upvbztheynns	comingnnofinthemnns	comevbztheynns	approachnnofintheynns	approachnnofinthingsnns	approachingnnofinthingsnns	come_upvbzthingsnns	comingnnofinthingsnns	approachingnnofinthemnns	comevbzthemnns	approachingnnofintheynns	approachnnofinthemnns	comingnnofintheynns	comesvbzthemnns	
+
+BE: goVBtoTOchurchNN
+EQ class: travelvbtotochristian_churchnn	locomotevbtotochristiannn	locomotevbtotochurchnn	travelvbtotochristiannn	govbtotochristiannn	movevbtotochristiannn	locomotevbtotochristian_churchnn	travelvbtotochurchnn	movevbtotochristian_churchnn	movevbtotochurchnn	govbtotochristian_churchnn	
+
+BE: thinkVBoutRB
+EQ class: conceivevboutrb	ideannofinoutrb	considervboutrb	believevboutrb	thoughtnnofinoutrb	
+
+BE: selfNN
+EQ class: egonn	
+
+BE: confidenceNN
+EQ class: surenessnn	assurancenn	self-confidencenn	confidentjj	self-assurancenn	authoritynn	
+
+BE: selfNN
+EQ class: egonn	
+
+BE: esteemNN
+EQ class: regardnn	respectnn	
+
+BE: workVB
+EQ class: 
+
+BE: buildingVBG
+EQ class: makevbg	constructvbg	buildvbg	
+
+BE: selfNNconfidenceNN
+EQ class: surenessnnofinselfnn	surenessnnofinegonn	selfnnself-assurancenn	confidentjjofinegonn	confidentvbselfnn	confidentjjofinselfnn	egonnassurancenn	selfnnsurenessnn	confidentvbegonn	egonnself-confidencenn	self-confidencennofinselfnn	confidencennofinselfnn	confidencennofinegonn	egonnconfidencenn	authoritynnofinselfnn	selfnnconfidentvb	self-assurancennofinselfnn	selfnnconfidentjj	egonnself-assurancenn	self-assurancennofinegonn	assurancennofinselfnn	egonnconfidentvb	self-confidencennofinegonn	egonnauthoritynn	selfnnauthoritynn	egonnconfidentjj	selfnnself-confidencenn	selfnnassurancenn	egonnsurenessnn	authoritynnofinegonn	assurancennofinegonn	
+
+BE: selfNNesteemNN
+EQ class: egonnvaluevb	egonnregardnn	selfnnrespectvb	respectvbselfnn	prizevbegonn	selfnnregardnn	selfnnprizevb	respectnnofinselfnn	selfnnvaluevb	selfnnrespectnn	esteemvbselfnn	egonnrespectvb	regardnnofinegonn	egonnprizevb	valuevbegonn	esteemvbegonn	prisevbselfnn	respectvbegonn	egonnesteemnn	egonnprisevb	selfnnprisevb	prisevbegonn	egonnesteemvb	valuevbselfnn	esteemnnofinegonn	prizevbselfnn	selfnnesteemvb	regardnnofinselfnn	egonnrespectnn	esteemnnofinselfnn	respectnnofinegonn	
+
+BE: buildingVBGconfidenceNN
+EQ class: constructvbgconfidentjj	detergent_buildernnofinself-confidencenn	buildernnofinassurancenn	buildingnnofinconfidentjj	buildingnnofinsurenessnn	constructvbgauthoritynn	edificennofinassurancenn	buildernnofinconfidencenn	constructvbgsurenessnn	buildvbgself-assurancenn	detergent_buildernnofinassurancenn	makevbgsurenessnn	edificennofinconfidentjj	detergent_buildernnofinconfidentjj	makevbgassurancenn	edificennofinsurenessnn	buildernnofinself-confidencenn	buildingnnofinconfidencenn	buildvbgauthoritynn	detergent_buildernnofinconfidencenn	detergent_buildernnofinauthoritynn	edificennofinself-assurancenn	edificennofinconfidencenn	buildingvbgsurenessnn	buildingvbgauthoritynn	buildvbgself-confidencenn	buildernnofinself-assurancenn	buildvbgconfidencenn	makevbgself-confidencenn	buildingvbgassurancenn	detergent_buildernnofinsurenessnn	constructvbgconfidencenn	makevbgconfidencenn	makevbgconfidentjj	buildernnofinauthoritynn	constructvbgself-confidencenn	detergent_buildernnofinself-assurancenn	buildingnnofinself-confidencenn	buildvbgsurenessnn	buildernnofinsurenessnn	makevbgself-assurancenn	buildvbgconfidentjj	buildingnnofinassurancenn	buildernnofinconfidentjj	makevbgauthoritynn	buildingnnofinself-assurancenn	buildingvbgself-confidencenn	buildingvbgself-assurancenn	buildingvbgconfidentjj	constructvbgself-assurancenn	edificennofinauthoritynn	buildvbgassurancenn	edificennofinself-confidencenn	constructvbgassurancenn	buildingnnofinauthoritynn	
+

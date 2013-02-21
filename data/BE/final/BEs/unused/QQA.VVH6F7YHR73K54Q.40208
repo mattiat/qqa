@@ -1,0 +1,207 @@
+#I m so sorry you are dealing with this. I understand exactly what you are going through. The first thing is that . . absolutely no one knows when someone is going to die. You sound as if you are out of options? I am unsure from your statement what part of treatment your husband is currently under? Has he just been diagnosed? Have you been told that there are no more options?  It is hard to really know how to respond to your question..
+#(S1 (SQ (NP (PRP I)) (NNP m) (ADVP (RB so) (RB sorry) (SBAR (S (NP (PRP you)) (VP (AUX are) (VP (VBG dealing) (PP (IN with) (NP (NN this.) (S (S (NP (PRP I)) (VP (VB understand) (SBAR (WHNP (RB exactly) (WP what)) (S (NP (PRP you)) (VP (AUX are) (VP (VBG going) (NP (NNS through.) (S (NP (DT The) (JJ first) (NN thing)) (VP (AUX is) (NP (DT that))) (. .)))))))) (. .)) (RB absolutely) (S (NP (DT no) (NN one)) (VP (VBZ knows) (SBAR (WHADVP (WRB when)) (S (NP (NN someone)) (VP (AUX is) (VP (VBG going) (S (VP (TO to) (VP (VB die.) (S (NP (PRP You)) (VP (VB sound) (SBAR (IN as) (S (SBAR (IN if) (S (NP (PRP you)) (VP (AUX are) (ADVP (RB out) (PP (IN of) (NP (NNS options))))) (. ?))) (NP (PRP I)) (VP (AUX am) (ADJP (JJ unsure)) (PP (IN from) (NP (PRP$ your) (NN statement))) (SBAR (WHNP (WP what)) (S (NP (NP (NN part)) (PP (IN of) (NP (NN treatment) (S (NP (PRP$ your) (NN husband)) (VP (AUX is) (ADVP (RB currently) (IN under))) (. ?))))) (VP (AUX Has) (ADVP (PRP he) (RB just)) (VP (AUX been) (VP (VBN diagnosed)))))))))))))))))))) (. ?))))))))) (AUX Have) (NP (PRP you)) (VP (AUX been) (VP (VBN told) (SBAR (IN that) (S (S (NP (EX there)) (VP (AUX are) (NP (DT no) (JJR more) (NNS options)))) (. ?) (NP (PRP It)) (VP (AUX is) (ADJP (JJ hard) (S (VP (TO to) (ADVP (RB really)) (VP (VB know) (SBAR (WHADVP (WRB how)) (S (VP (TO to) (VP (VB respond) (PP (TO to) (NP (PRP$ your) (NN question)))))))))))) (. .))))) (. .)))
+#Rule:Nouns
+r1mNNP
+r1thisLocationAnnotation
+r1throughNNS
+r1thingNN
+r1oneNN
+r1someoneNN
+r1optionsNNS
+r1statementNN
+r1partNN
+r1treatmentNN
+r1husbandNN
+r1optionsNNS
+r1questionNN
+
+#Rule:Verbs
+r2dealingVBG
+r2understandVB
+r2goingVBG
+r2knowsVBZ
+r2goingVBG
+r2dieVB
+r2soundVB
+r2diagnosedVBN
+r2toldVBN
+r2knowVB
+r2respondVB
+
+#Rule:Adjs
+r4firstJJ
+r4unsureJJ
+r4moreJJR
+r4hardJJ
+
+#Rule:Adj-Noun
+r5firstJJthingNN
+r5moreJJRoptionsNNS
+
+#Rule:PRP-Noun
+r6yourPRP$statementNN
+r6yourPRP$husbandNN
+r6yourPRP$questionNN
+
+#Rule:HeadNoun-V
+r11youPRPdealingVBG
+r11iPRPunderstandVB
+r11youPRPgoingVBG
+r11thingNNisAUX
+r11oneNNknowsVBZ
+r11someoneNNgoingVBG
+r11youPRPsoundVB
+r11iPRPamAUX
+r11youPRPareAUX
+r11husbandNNisAUX
+r11itPRPisAUX
+r11thereEXareAUX
+
+#Rule:V-HeadNoun
+r21goingVBGthroughNNS
+r21isAUXthatDT
+r21areAUXoptionsNNS
+
+#Rule:V-HeadNoun
+r22dieVByouPRP
+
+#Rule:V-HeadNoun(passive)
+r23diagnosedVBNpartNN
+
+#Rule:V-ADJ
+r25isAUXhardJJ
+
+#Rule:PPinNP
+r26partNNofINtreatmentNN
+
+#Rule:PPinVP
+r30dealingVBGwithINthisLocationAnnotation
+r30amAUXfromINstatementNN
+r30respondVBtoTOquestionNN
+
+#Rule:V-IN-V
+r43soundVBasINamAUX
+r43toldVBNthatINisAUX
+
+#Rule:V-V
+r44goingVBGdieVB
+
+#Rule:V-ADV
+r46areAUXoutRB
+r46isAUXcurrentlyRB
+r46hasAUXjustRB
+r46beenAUXjustRB
+r46knowVBreallyRB
+
+#Rule:IS-RULE
+r47thatDTthingNN
+
+#I would suggest that you contact some of the online support groups that can help guide you with whatever is going on in your situation..
+#(S1 (S (NP (PRP I)) (VP (MD would) (VP (VB suggest) (SBAR (IN that) (S (NP (PRP you)) (VP (VB contact) (NP (NP (DT some)) (PP (IN of) (NP (NP (DT the) (JJ online) (NN support) (NNS groups)) (SBAR (WHNP (WDT that)) (S (VP (MD can) (VP (VB help) (VP (VB guide) (NP (PRP you)) (PP (IN with) (SBAR (WHNP (WDT whatever)) (S (VP (AUX is) (VP (VBG going) (PRT (RP on)) (PP (IN in) (NP (PRP$ your) (NN situation))))))))))))))))) (. .))))) (. .)))
+#Rule:Nouns
+r1supportNN
+r1groupsNNS
+r1situationNN
+
+#Rule:Verbs
+r2suggestVB
+r2contactVB
+r2helpVB
+r2guideVB
+
+#Rule:V-PRT
+r3goingVBGonRP
+
+#Rule:Adjs
+r4onlineJJ
+
+#Rule:Adj-Noun
+r5onlineJJgroupsNNS
+
+#Rule:PRP-Noun
+r6yourPRP$situationNN
+
+#Rule:N-HeadNoun
+r8supportNNgroupsNNS
+
+#Rule:HeadNoun-V
+r11iPRPsuggestVB
+r11youPRPcontactVB
+
+#Rule:HeadNoun-(who/that)-V
+r14groupsNNShelpVB
+r14groupsNNSguideVB
+
+#Rule:V-HeadNoun
+r21contactVBsomeDT
+r21guideVByouPRP
+
+#Rule:PPinNP
+r26someDTofINgroupsNNS
+
+#Rule:PPinVP
+r30goingVBGinINsituationNN
+
+#Rule:V-IN-V
+r43suggestVBthatINcontactVB
+
+#Cancer Care (online social workers offer support)http://www.cancercare.org/ACOR Leukemia Linkshttp://leukemia.acor.org/Leukemia and Lymphoma societyhttp://www.leukemia.orgCLL Chronic Lymphocytic Leukemia http://listserv.acor.org/archives/cll.htmlAML Acute Myelogenous Leukemia http://listserv.acor.org/archives/aml.htmlGood luck to you and stay strong. There is always hope.
+#(S1 (NP (NP (NNP Cancer) (NNP Care) (PRN (-LRB- -LRB-) (NP (JJ online) (JJ social) (NNS workers) (NN offer) (NN support)) (-RRB- -RRB-)) (NNS http)) (: :) (NP (NP (NN //www.cancercare.org/ACOR) (NN Leukemia) (NNP Linkshttp)) (: :) (NP (NN //leukemia.acor.org/Leukemia)) (CC and) (NP (NNP Lymphoma) (CD societyhttp))) (: :) (S (VP (VP (VB //www.leukemia.orgCLL) (NP (NP (JJ Chronic) (JJ Lymphocytic) (NN Leukemia) (NNS http)) (: :) (NP (CD //listserv.acor.org/archives/cll.htmlAML) (JJ Acute) (NNP Myelogenous) (NN Leukemia) (NNS http)) (: :) (NP (NN //listserv.acor.org/archives/aml.htmlGood) (NN luck))) (PP (TO to) (NP (PRP you)))) (CC and) (VP (VB stay) (ADVP (RB strong.)) (SBAR (S (NP (EX There)) (VP (AUX is) (ADVP (RB always)) (VP (VB hope)))))))) (. .)))
+#Rule:Nouns
+r1Cancer CareOrganizationAnnotation
+r1workersNNS
+r1offerNN
+r1supportNN
+r1httpNNS
+r1://www.cancercare.org/ACOR Leukemia LinkshttpOrganizationAnnotation
+r1//leukemia.acor.org/LeukemiaNN
+r1Lymphoma societyhttp://www.leukemia.orgCLL Chronic Lymphocytic Leukemia http://listserv.acor.OrganizationAnnotation
+r1Myelogenous LeukemiaPersonAnnotation
+r1httpNNS
+r1//listserv.acor.org/archives/aml.htmlGoodNN
+r1luckNN
+
+#Rule:Verbs
+r2stayVB
+r2hopeVB
+
+#Rule:Adjs
+r4onlineJJ
+r4socialJJ
+r4AcuteJJ
+
+#Rule:Adj-Noun
+r5onlineJJsupportNN
+r5socialJJsupportNN
+r5//listserv.acor.org/archives/cll.htmlAMLCDhttpNNS
+r5AcuteJJhttpNNS
+
+#Rule:N-HeadNoun
+r8offerNNsupportNN
+r8workersNNSsupportNN
+r8Myelogenous LeukemiaPersonAnnotationhttpNNS
+r8//listserv.acor.org/archives/aml.htmlGoodNNluckNN
+
+#Rule:HeadNoun-V
+r11thereEXhopeVB
+
+#Rule:PPinVP
+r30Lymphoma societyhttp://www.leukemia.orgCLL Chronic Lymphocytic Leukemia http://listserv.acor.OrganizationAnnotationtoTOyouPRP
+
+#Rule:V-ADV
+r46stayVBstrongRB
+r46isAUXalwaysRB
+r46hopeVBalwaysRB
+
+#Rule:SubVerbClause
+r50httpNNSLymphoma societyhttp://www.leukemia.orgCLL Chronic Lymphocytic Leukemia http://listserv.acor.OrganizationAnnotation
+r50httpNNSstayVB
+r50://www.cancercare.org/ACOR Leukemia LinkshttpOrganizationAnnotationLymphoma societyhttp://www.leukemia.orgCLL Chronic Lymphocytic Leukemia http://listserv.acor.OrganizationAnnotation
+r50://www.cancercare.org/ACOR Leukemia LinkshttpOrganizationAnnotationstayVB
+r50//leukemia.acor.org/LeukemiaNNLymphoma societyhttp://www.leukemia.orgCLL Chronic Lymphocytic Leukemia http://listserv.acor.OrganizationAnnotation
+r50//leukemia.acor.org/LeukemiaNNstayVB
+r50Lymphoma societyhttp://www.leukemia.orgCLL Chronic Lymphocytic Leukemia http://listserv.acor.OrganizationAnnotationstayVB
+
+@lemmas-left	guide	understand	treatment	workers	has	been	help	more	are	Acute	deal	social	respond	someone	diagnosed	//leukemia.acor.org/Leukemia	option	groups	be	going	support	luck	//listserv.acor.org/archives/aml.htmlGood	told	://www.cancercare.org/ACOR Leukemia Linkshttp	suggest	knows	statement	//listserv.acor.org/archives/cll.htmlAML	that	Myelogenous Leukemia	http	sound	some	this	//listserv.acor.org/archives/cll.htmlaml	hope	go	thing	have	one	dealing	through	husband	contact	acute	online	leukemia	die	worker	tell	die.	question	situation	hard	options	is	stay	it	your	you	offer	m	//listserv.acor.org/archives/aml.htmlgood	diagnose	know	unsure	i	Cancer Care	am	there	Lymphoma societyhttp://www.leukemia.orgCLL Chronic Lymphocytic Leukemia http://listserv.acor.	through.	part	group	first	
+@lemmas-right	guide	understand	treatment	help	are	deal	on	option	groups	be	going	support	luck	suggest	always	knows	statement	that	http	strong	sound	this	some	thing	go	hope	dealing	currently	through	husband	contact	die	question	die.	strong.	hard	situation	options	just	is	stay	you	know	really	am	Lymphoma societyhttp://www.leukemia.orgCLL Chronic Lymphocytic Leukemia http://listserv.acor.	through.	part	group	out	
+@lemmas-center	to	that	of	with	as	from	in	

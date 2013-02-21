@@ -1,0 +1,24 @@
+#In case you are not just acting silly, visist:http://www.leukemia.org/hm_lls
+#(S1 (S (SBAR (IN In) (NN case) (S (NP (PRP you)) (VP (AUX are) (RB not) (ADVP (RB just)) (VP (VBG acting) (ADJP (JJ silly)))))) (, ,) (ADVP (RB visist)) (: :) (S (VP (VBN http))) (: :) (VP (VBZ //www.leukemia.org/hm_lls))))
+#Rule:Nouns
+r1caseNN
+
+#Rule:Verbs
+r2actingVBG
+r2http://www.leukemia.org/hm_llsPersonAnnotation
+
+#Rule:Adjs
+r4sillyJJ
+
+#Rule:HeadNoun-V
+r11youPRPactingVBG
+
+#Rule:V-ADV
+r46http://www.leukemia.org/hm_llsPersonAnnotationvisistRB
+r46areAUXnotRB
+r46areAUXjustRB
+r46actingVBGjustRB
+
+@lemmas-left	silly	are	you	case	acting	act	http://www.leukemia.org/hm_lls	be	
+@lemmas-right	just	not	visist	acting	act	
+@lemmas-center	

@@ -1,0 +1,198 @@
+BE: treatmentNN
+EQ class: interventionnn	
+
+BE: cureNN
+EQ class: remedynn	curativenn	therapeuticnn	
+
+BE: cancerNN
+EQ class: cancerousjj	malignant_neoplastic_diseasenn	
+
+BE: timeNN
+EQ class: clipnn	
+
+BE: determineVB
+EQ class: findvb	ascertainvb	find_outvb	
+
+BE: layVB
+EQ class: posevb	placevb	positionvb	putvb	setvb	
+
+BE: relapseVB
+EQ class: get_worsevb	
+
+BE: hardJJ
+EQ class: difficultjj	hardnessnn	
+
+BE: dormantJJ
+EQ class: hibernatingjj	torpidjj	dormancynn	
+
+BE: yearsundetectedJJ
+EQ class: 
+
+BE: itPRPisAUX
+EQ class: itprpbeaux	
+
+BE: treatmentNNisAUX
+EQ class: interventionnnbeaux	treatmentnnbeaux	interventionnnisaux	
+
+BE: cancerNNlayVB
+EQ class: cancernnsetvb	malignant_neoplastic_diseasennpositionvb	cancernnplacevb	cancerousjjlayvb	cancernnputvb	malignant_neoplastic_diseasennlayvb	malignant_neoplastic_diseasennplacevb	cancerousjjplacevb	cancerousjjpositionvb	cancerousjjposevb	cancernnpositionvb	malignant_neoplastic_diseasennsetvb	cancerousjjputvb	cancernnposevb	cancerousjjsetvb	malignant_neoplastic_diseasennposevb	malignant_neoplastic_diseasennputvb	
+
+BE: cancerNNrelapseVB
+EQ class: relapsingnnofincancernn	lapsingnnofinmalignant_neoplastic_diseasenn	revertingnnofincancerousjj	lapsingnnofincancerousjj	revertingnnofincancernn	reversionnnofincancerousjj	relapsennofinmalignant_neoplastic_diseasenn	relapsennofincancerousjj	reversionnnofinmalignant_neoplastic_diseasenn	backslidingnnofincancerousjj	cancerousjjget_worsevb	cancernnget_worsevb	backslidingnnofincancernn	relapsennofincancernn	lapsennofinmalignant_neoplastic_diseasenn	revertingnnofinmalignant_neoplastic_diseasenn	relapsingnnofinmalignant_neoplastic_diseasenn	malignant_neoplastic_diseasennget_worsevb	reversionnnofincancernn	cancerousjjrelapsevb	lapsennofincancernn	backslidingnnofinmalignant_neoplastic_diseasenn	malignant_neoplastic_diseasennrelapsevb	lapsennofincancerousjj	lapsingnnofincancernn	relapsingnnofincancerousjj	
+
+BE: isAUXcureNN
+EQ class: beauxtherapeuticnn	beauxremedynn	isauxremedynn	beauxcurenn	isauxtherapeuticnn	beauxcurativenn	isauxcurativenn	
+
+BE: isAUXhardJJ
+EQ class: beauxdifficultjj	beauxhardjj	isauxhardnessnn	beauxhardnessnn	isauxdifficultjj	
+
+BE: relapseVBatINtimeNN
+EQ class: relapsevbatinclipnn	get_worsevbatintimenn	get_worsevbatinclipnn	
+
+BE: cureNNtreatmentNN
+EQ class: treatmentnntherapeuticnn	interventionnncurenn	curativennofintreatmentnn	curativenndo_byvb	curativenninterventionnn	curennhandlevb	therapeuticnnhandlevb	remedynnofininterventionnn	remedynnhandlevb	treatmentnnremedynn	remedynnofintreatmentnn	interventionnntherapeuticnn	curenntreatvb	remedynntreatmentnn	interventionnnremedynn	interventionnnhealvb	remedynndo_byvb	remedynntreatvb	treatmentnncurenn	therapeuticnnofintreatmentnn	curennofininterventionnn	therapeuticnnofininterventionnn	treatmentnnhealvb	interventionnnbring_aroundvb	curativenntreatvb	curablennofininterventionnn	treatmentnncurevb	therapeuticnntreatvb	treatmentnnbring_aroundvb	curablennofintreatmentnn	curativennofininterventionnn	therapeuticnntreatmentnn	curativenntreatmentnn	remedynninterventionnn	curenndo_byvb	curennofintreatmentnn	treatmentnncurativenn	therapeuticnndo_byvb	curenninterventionnn	therapeuticnninterventionnn	interventionnncurevb	curativennhandlevb	interventionnncurativenn	
+
+BE: StemNN
+EQ class: radicalnn	rootnn	basenn	themenn	root_wordnn	
+
+BE: cellNN
+EQ class: cellularjj	
+
+BE: transplantsNNS
+EQ class: transplantnns	theynns	graftnns	themnns	
+
+BE: cureNN
+EQ class: remedynn	curativenn	therapeuticnn	
+
+BE: leukemiasPersonAnnotation
+EQ class: 
+
+BE: lymphomasPersonAnnotation
+EQ class: 
+
+BE: possibleJJ
+EQ class: possiblenessnn	possibilitynn	
+
+BE: possibleJJcureNN
+EQ class: possiblenessnncurenn	possiblejjtherapeuticnn	possiblenessnncurativenn	possiblejjcurativenn	possiblenessnnremedynn	possibilitynntherapeuticnn	possiblenessnntherapeuticnn	healvbpossiblyrb	bring_aroundvbpossiblyrb	possibilitynncurativenn	possiblejjremedynn	curevbpossiblyrb	possibilitynnremedynn	possibilitynncurenn	
+
+BE: cellNNtransplantsNNS
+EQ class: themnnsofincellnn	theynnsofincellularjj	cellnnthemnns	theynnsofincellnn	cellularjjtransplantsnns	cellnntransplantnns	transplantnnsofincellnn	cellnngraftnns	cellularjjtransfervb	cellnntransfervb	themnnsofincellularjj	transplantvbcellularjj	cellularjjtransplantnns	cellnntheynns	transplantvbcellnn	transfervbcellnn	cellnntransplantvb	cellularjjtheynns	graftnnsofincellularjj	cellularjjgraftnns	transplantsnnsofincellnn	transplantnnsofincellularjj	transplantsnnsofincellularjj	cellularjjthemnns	graftnnsofincellnn	transfervbcellularjj	cellularjjtransplantvb	
+
+BE: StemNNtransplantsNNS
+EQ class: graftnnsofinthemenn	transplantvbroot_wordnn	transplantvbradicalnn	themennofinthemnns	basennthemnns	transplantsnnsofinstemnn	root_wordnnofintransplantsnns	root_wordnntransplantnns	root_wordnnofinthemnns	graftnnsstemvb	rootnntransplantnns	basennofintransplantsnns	transplantvbbasenn	transplantnnsofinradicalnn	basenntransfervb	transplantvbthemenn	stemnngraftnns	transplantnnsofinthemenn	radicalnntransfervb	transfervbbasenn	transplantsnnsofinrootnn	rootnntransplantvb	graftnnsofinroot_wordnn	themenntheynns	theynnsofinthemenn	themennthemnns	transplantsnnsofinthemenn	transplantnnsofinstemnn	themenntransplantvb	radicalnnthemnns	themenntransplantsnns	stemnnthemnns	graftnnsofinbasenn	themnnsstemvb	stemnntransplantnns	themnnsofinrootnn	themnnsofinthemenn	radicalnntransplantnns	rootnntransfervb	themnnsofinstemnn	themennofintransplantsnns	radicalnntheynns	theynnsofinbasenn	themenntransplantnns	radicalnnofintheynns	themenngraftnns	stemnnofintransplantnns	root_wordnntransplantsnns	basennofingraftnns	radicalnntransplantvb	stemnnofintransplantsnns	basenngraftnns	transplantvbrootnn	root_wordnnofingraftnns	themennofintheynns	transplantnnsstemvb	root_wordnntheynns	root_wordnnthemnns	radicalnnofintransplantnns	basenntheynns	rootnntheynns	themnnsofinbasenn	graftnnsofinrootnn	rootnnofintransplantnns	radicalnntransplantsnns	themenntransfervb	basenntransplantnns	radicalnngraftnns	stemnnofinthemnns	transfervbroot_wordnn	root_wordnngraftnns	transfervbrootnn	stemnnofintheynns	rootnnofinthemnns	rootnnofingraftnns	basenntransplantsnns	theynnsofinroot_wordnn	radicalnnofingraftnns	radicalnnofintransplantsnns	stemnntransfervb	basenntransplantvb	transplantnnsofinbasenn	transplantnnsofinroot_wordnn	transfervbthemenn	root_wordnnofintheynns	transplantsnnsofinradicalnn	theynnsstemvb	graftnnsofinradicalnn	basennofintransplantnns	transfervbradicalnn	theynnsofinstemnn	themnnsofinroot_wordnn	themennofintransplantnns	transplantsnnsofinbasenn	theynnsofinrootnn	transplantvbstemnn	rootnnthemnns	rootnntransplantsnns	transplantsnnsstemvb	stemnnofingraftnns	root_wordnnofintransplantnns	stemnntheynns	rootnngraftnns	themnnsofinradicalnn	transplantsnnsofinroot_wordnn	themennofingraftnns	root_wordnntransplantvb	radicalnnofinthemnns	graftnnsofinstemnn	transplantnnsofinrootnn	basennofinthemnns	transfervbstemnn	basennofintheynns	rootnnofintheynns	root_wordnntransfervb	stemnntransplantvb	rootnnofintransplantsnns	theynnsofinradicalnn	
+
+BE: transplantsNNSareAUX
+EQ class: themnnsbeaux	theynnsareaux	themnnsareaux	transplantsnnsbeaux	graftnnsareaux	transplantnnsareaux	theynnsbeaux	transplantnnsbeaux	graftnnsbeaux	
+
+BE: areAUXcureNN
+EQ class: beauxtherapeuticnn	areauxcurativenn	beauxremedynn	areauxtherapeuticnn	beauxcurenn	areauxremedynn	beauxcurativenn	
+
+BE: cureNNforINleukemiasPersonAnnotation
+EQ class: leukemiaspersonannotationhealvb	leukemiaspersonannotationbring_aroundvb	therapeuticnnforinleukemiaspersonannotation	leukemiaspersonannotationremedynn	leukemiaspersonannotationcurativenn	leukemiaspersonannotationcurevb	curativennforinleukemiaspersonannotation	healvbleukemiaspersonannotation	remedynnforinleukemiaspersonannotation	curevbleukemiaspersonannotation	leukemiaspersonannotationcurenn	leukemiaspersonannotationtherapeuticnn	bring_aroundvbleukemiaspersonannotation	
+
+BE: cureNNtransplantsNNS
+EQ class: curativennofintransplantnns	transplantnnscurevb	curativenntransplantnns	therapeuticnnofintheynns	transplantationnnofinremedynn	curablennofintransplantnns	curenntransplantvb	remedynntransplantnns	graftnnofincurenn	remedynntransfervb	transplantsnnscurenn	remedynntheynns	remedynngraftnns	themnnsremedynn	transplanternnofincurenn	curennofingraftnns	transplantnnscurenn	transplantationnnofintherapeuticnn	transplantingnnofincurenn	therapeuticnntheynns	graftnnscurenn	curativennofintheynns	curenngraftnns	transplanternnofinremedynn	theynnsremedynn	curativenntheynns	remedynnofinthemnns	curativennofingraftnns	transplantnnsremedynn	curennofinthemnns	theynnscurenn	transplantsnnsremedynn	transplantsnnshealvb	themnnshealvb	curativenngraftnns	therapeuticnntransplantvb	themnnscurevb	theynnstherapeuticnn	graftnnsbring_aroundvb	therapeuticnnofintransplantnns	graftnnstherapeuticnn	graftnnofinremedynn	curenntransplantnns	theynnscurevb	remedynnofintransplantsnns	graftnnscurativenn	remedynntransplantvb	curennofintransplantsnns	therapeuticnntransfervb	graftnnshealvb	transplantnnshealvb	transplantsnnstherapeuticnn	graftnnofincurativenn	theynnscurativenn	curablennofingraftnns	organ_transplantnnofinremedynn	transplanternnofintherapeuticnn	curennofintheynns	remedynnofintransplantnns	curablennofinthemnns	graftnnscurevb	curenntheynns	transplantnnscurativenn	curennthemnns	curativenntransfervb	curativennofinthemnns	themnnscurativenn	remedynnofintheynns	curativenntransplantsnns	graftnnofintherapeuticnn	transplantsnnscurativenn	graftnnsremedynn	therapeuticnntransplantsnns	transplantsnnscurevb	therapeuticnnofingraftnns	theynnshealvb	transplantnnofincurenn	remedynntransplantsnns	remedynnthemnns	organ_transplantnnofintherapeuticnn	organ_transplantnnofincurativenn	transplantnnofintherapeuticnn	curablennofintransplantsnns	therapeuticnntransplantnns	transplanternnofincurativenn	organ_transplantnnofincurenn	transplantingnnofintherapeuticnn	themnnsbring_aroundvb	therapeuticnnofintransplantsnns	curennofintransplantnns	curativenntransplantvb	therapeuticnnthemnns	remedynnofingraftnns	transplantingnnofincurativenn	curablennofintheynns	transplantnnsbring_aroundvb	theynnsbring_aroundvb	transplantingnnofinremedynn	themnnscurenn	transplantnnofincurativenn	transplantnnofinremedynn	transplantnnstherapeuticnn	curativennofintransplantsnns	transplantationnnofincurenn	transplantsnnsbring_aroundvb	themnnstherapeuticnn	curenntransfervb	therapeuticnngraftnns	curativennthemnns	transplantationnnofincurativenn	therapeuticnnofinthemnns	
+
+BE: treatmentNN
+EQ class: interventionnn	
+
+BE: transplantNN
+EQ class: graftnn	
+
+BE: cancerNN
+EQ class: cancerousjj	malignant_neoplastic_diseasenn	
+
+BE: labNN
+EQ class: science_laboratorynn	research_laboratorynn	laboratorynn	research_labnn	science_labnn	
+
+BE: ratsNNS
+EQ class: ratnns	theynns	rattyjj	themnns	
+
+BE: cellsNNS
+EQ class: cellnns	cellularjj	theynns	themnns	
+
+BE: humansNNS
+EQ class: worldnns	human_beingsnns	human_racenns	humankindnns	theynns	mannns	humanitynns	mankindnns	themnns	
+
+BE: usedVBN
+EQ class: employvbn	utilisevbn	utilizevbn	usevbn	applyvbn	
+
+BE: gotVBD
+EQ class: getvbd	acquirevbd	
+
+BE: happensVBZ
+EQ class: go_onvbz	passvbz	take_placevbz	happenvbz	hapvbz	fall_outvbz	pass_offvbz	come_aboutvbz	occurvbz	
+
+BE: meanVB
+EQ class: intendvb	
+
+BE: workVB
+EQ class: 
+
+BE: testedVBN
+EQ class: testvbn	tryvbn	essayvbn	examinevbn	try_outvbn	provevbn	
+
+BE: freeJJ
+EQ class: 
+
+BE: .PlusJJ
+EQ class: plusjj	
+
+BE: humanJJ
+EQ class: humannessnn	humanitynn	humannn	
+
+BE: freeJJcancerNN
+EQ class: freejjmalignant_neoplastic_diseasenn	cancerousvbfreelyrb	freejjcancerousjj	
+
+BE: .PlusJJcancerNN
+EQ class: .plusjjmalignant_neoplastic_diseasenn	plusjjcancerousjj	.plusjjcancerousjj	plusjjcancernn	plusjjmalignant_neoplastic_diseasenn	
+
+BE: humanJJcellsNNS
+EQ class: humannessnncellsnns	humanjjtheynns	humannessnntheynns	humannncellsnns	humanitynnthemnns	humanjjcellnns	humannntheynns	humanitynncellsnns	humannessnnthemnns	humannnthemnns	humanjjthemnns	humannessnncellnns	humannessnncellularjj	humannncellnns	cellularvbhumanlyrb	humanitynncellnns	humanitynncellularjj	humannncellularjj	humanjjcellularjj	humanitynntheynns	
+
+BE: myPRP$transplantNN
+EQ class: myprp$transplantvb	transplantnnofinmyprp$	myprp$graftnn	myprp$transfervb	transfervbmyprp$	graftnnofinmyprp$	transplantvbmyprp$	
+
+BE: iPRPgotVBD
+EQ class: gettingnnofiniprp	acquiringnnofiniprp	gettingnniprp	iprpgetvbd	acquiringnniprp	iprpacquirevbd	
+
+BE: iPRPdoneAUX
+EQ class: iprpdoaux	iprpmakeaux	
+
+BE: iPRPamAUX
+EQ class: iprpbeaux	
+
+BE: cellsNNSmeanVB
+EQ class: importnncellnns	importnnofincellsnns	meaningnnofincellularjj	themnnsmeanvb	importnnofintheynns	cellnnsmeanvb	significationnncellularjj	meaningnnofincellnns	significationnntheynns	importnnofincellularjj	significationnnofincellularjj	importnnthemnns	meaningnncellsnns	meaningnnofintheynns	significancenncellnns	significancennofintheynns	importnnofincellnns	significationnnofintheynns	significancennofincellsnns	significationnncellsnns	theynnsmeanvb	importnncellsnns	meaningnncellnns	significancenncellularjj	meaningnnofincellsnns	meaningnntheynns	significancennofincellularjj	significationnnthemnns	significationnnofincellnns	meaningnnofinthemnns	significationnnofinthemnns	cellularjjmeanvb	cellsnnsintendvb	importnnofinthemnns	importnncellularjj	themnnsintendvb	significancennofincellnns	significationnnofincellsnns	theynnsintendvb	significancenncellsnns	significationnncellnns	cellnnsintendvb	meaningnncellularjj	significancenntheynns	meaningnnthemnns	cellularjjintendvb	significancennofinthemnns	importnntheynns	significancennthemnns	
+
+BE: itPRPworkVB
+EQ class: workernnofinitprp	worknnofinitprp	workernnitprp	
+
+BE: amAUXcancerNN
+EQ class: beauxmalignant_neoplastic_diseasenn	amauxmalignant_neoplastic_diseasenn	beauxcancernn	amauxcancerousjj	beauxcancerousjj	
+
+BE: usedVBNtreatmentNN
+EQ class: utilizevbntreatmentnn	utilisationnnofintreatmentnn	applyvbninterventionnn	utilizationnnofintreatmentnn	useablennofintreatmentnn	usernnofininterventionnn	employmentnnofininterventionnn	employmentnnofintreatmentnn	usennofininterventionnn	exercisennofininterventionnn	employvbninterventionnn	usernnofintreatmentnn	useablennofininterventionnn	utilisationnnofininterventionnn	usevbninterventionnn	usevbntreatmentnn	utilizevbninterventionnn	utilizationnnofininterventionnn	usagennofininterventionnn	usablennofintreatmentnn	applyvbntreatmentnn	utilisevbninterventionnn	usedvbninterventionnn	employvbntreatmentnn	usennofintreatmentnn	usagennofintreatmentnn	usablennofininterventionnn	utilisevbntreatmentnn	exercisennofintreatmentnn	
+
+BE: labNNonINratsNNS
+EQ class: research_labnnonintheynns	ratnnsresearch_labnn	science_labnnoninthemnns	science_laboratorynnoninratsnns	ratsnnslabnn	science_labnnoninratnns	science_laboratorynnonintheynns	science_laboratorynnoninthemnns	ratnnsscience_laboratorynn	ratnnsresearch_laboratorynn	labnnoninratnns	ratnnslaboratorynn	theynnslabnn	theynnsscience_laboratorynn	theynnslaboratorynn	research_labnnoninthemnns	ratsnnsresearch_labnn	rattyjjlabnn	research_labnnoninrattyjj	research_labnnoninratsnns	rattyjjscience_labnn	laboratorynnoninratnns	themnnsscience_labnn	labnnonintheynns	rattyjjresearch_labnn	rattyjjresearch_laboratorynn	research_labnnoninratnns	rattyjjscience_laboratorynn	ratsnnsscience_laboratorynn	science_labnnonintheynns	research_laboratorynnoninratnns	themnnslabnn	science_labnnoninratsnns	themnnsresearch_laboratorynn	themnnslaboratorynn	ratsnnslaboratorynn	theynnsresearch_labnn	theynnsresearch_laboratorynn	labnnoninthemnns	ratsnnsresearch_laboratorynn	themnnsscience_laboratorynn	ratnnslabnn	ratsnnsscience_labnn	rattyjjlaboratorynn	ratnnsscience_labnn	laboratorynnoninrattyjj	research_laboratorynnoninrattyjj	themnnsresearch_labnn	research_laboratorynnoninratsnns	science_laboratorynnoninrattyjj	laboratorynnonintheynns	research_laboratorynnoninthemnns	science_labnnoninrattyjj	laboratorynnoninthemnns	science_laboratorynnoninratnns	labnnoninrattyjj	research_laboratorynnonintheynns	laboratorynnoninratsnns	theynnsscience_labnn	
+
+BE: doneAUXwithINtransplantNN
+EQ class: doneauxwithingraftnn	makeauxwithintransplantnn	doauxwithingraftnn	makeauxwithingraftnn	doauxwithintransplantnn	
+
+BE: happensVBZinINlabNN
+EQ class: happensvbzininresearch_labnn	come_aboutvbzininresearch_labnn	hapvbzininlabnn	go_onvbzininresearch_labnn	occurvbzininlaboratorynn	happenvbzininresearch_labnn	passvbzininresearch_laboratorynn	passvbzininscience_labnn	hapvbzininscience_laboratorynn	go_onvbzininresearch_laboratorynn	go_onvbzininscience_labnn	happenvbzininresearch_laboratorynn	fall_outvbzininlabnn	go_onvbzininscience_laboratorynn	go_onvbzininlabnn	occurvbzininresearch_laboratorynn	take_placevbzininresearch_labnn	pass_offvbzininresearch_labnn	pass_offvbzininresearch_laboratorynn	happenvbzininscience_labnn	hapvbzininlaboratorynn	fall_outvbzininscience_laboratorynn	happensvbzininlaboratorynn	occurvbzininlabnn	occurvbzininscience_labnn	fall_outvbzininresearch_labnn	pass_offvbzininscience_laboratorynn	pass_offvbzininlabnn	go_onvbzininlaboratorynn	happensvbzininscience_laboratorynn	happenvbzininscience_laboratorynn	come_aboutvbzininlabnn	happensvbzininscience_labnn	fall_outvbzininresearch_laboratorynn	occurvbzininresearch_labnn	fall_outvbzininscience_labnn	come_aboutvbzininresearch_laboratorynn	pass_offvbzininlaboratorynn	passvbzininscience_laboratorynn	take_placevbzininscience_laboratorynn	hapvbzininresearch_labnn	come_aboutvbzininlaboratorynn	take_placevbzininresearch_laboratorynn	pass_offvbzininscience_labnn	occurvbzininscience_laboratorynn	take_placevbzininlabnn	hapvbzininresearch_laboratorynn	fall_outvbzininlaboratorynn	come_aboutvbzininscience_laboratorynn	take_placevbzininlaboratorynn	take_placevbzininscience_labnn	passvbzininlabnn	happensvbzininresearch_laboratorynn	passvbzininlaboratorynn	hapvbzininscience_labnn	passvbzininresearch_labnn	happenvbzininlabnn	happenvbzininlaboratorynn	come_aboutvbzininscience_labnn	
+
+BE: gotVBDjustRB
+EQ class: gettingnnofinjustrb	acquirevbdjustrb	getvbdjustrb	acquiringnnofinjustrb	
+
+BE: amAUXcurrentlyRB
+EQ class: currentjjininbeaux	currencynnininbeaux	beauxcurrentlyrb	currencynnininamaux	currentjjininamaux	currentnessnnininbeaux	currentnessnnininamaux	
+
+BE: doesAUXnotRB
+EQ class: doauxnotrb	makeauxnotrb	
+
+BE: workVBonceRB
+EQ class: workernnofinoncerb	worknnofinoncerb	
+

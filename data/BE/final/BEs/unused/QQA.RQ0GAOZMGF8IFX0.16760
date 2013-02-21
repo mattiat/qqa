@@ -1,0 +1,54 @@
+#I asked the same question yesterday.  
+#(S1 (S (NP (PRP I)) (VP (VBD asked) (NP (DT the) (JJ same) (NN question)) (NP (NN yesterday))) (. .)))
+#Rule:Nouns
+r1questionNN
+r1yesterdayNN
+
+#Rule:Verbs
+r2askedVBD
+
+#Rule:Adjs
+r4sameJJ
+
+#Rule:Adj-Noun
+r5sameJJquestionNN
+
+#Rule:HeadNoun-V
+r11iPRPaskedVBD
+
+#Rule:V-HeadNoun
+r21askedVBDquestionNN
+r21askedVBDyesterdayNN
+
+#There are also a lot of questions which have nothing to do with philosophy or religion.
+#(S1 (S (NP (EX There)) (VP (AUX are) (ADVP (RB also)) (NP (NP (DT a) (NN lot)) (PP (IN of) (NP (NP (NNS questions)) (SBAR (WHNP (WDT which)) (S (VP (AUX have) (NP (NP (NN nothing)) (SBAR (S (VP (TO to) (VP (AUX do) (PP (IN with) (NP (NN philosophy) (CC or) (NN religion))))))))))))))) (. .)))
+#Rule:Nouns
+r1lotNN
+r1questionsNNS
+r1nothingNN
+r1philosophyNN
+r1religionNN
+
+#Rule:HeadNoun-V
+r11thereEXareAUX
+
+#Rule:HeadNoun-(who/that)-V
+r14questionsNNShaveAUX
+r14nothingNNdoAUX
+
+#Rule:V-HeadNoun
+r21areAUXlotNN
+r21haveAUXnothingNN
+
+#Rule:PPinNP
+r26lotNNofINquestionsNNS
+
+#Rule:PPinVP
+r30doAUXwithINphilosophyNN
+
+#Rule:V-ADV
+r46areAUXalsoRB
+
+@lemmas-left	asked	have	philosophy	yesterday	questions	same	i	religion	are	there	nothing	lot	do	question	ask	be	
+@lemmas-right	asked	have	philosophy	yesterday	questions	are	nothing	lot	do	question	ask	also	be	
+@lemmas-center	of	with	

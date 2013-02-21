@@ -1,0 +1,126 @@
+#Why choose homeschooling??
+#(S1 (SBARQ (WHADVP (WRB Why)) (SQ (VP (VB choose) (NP (NN homeschooling))) (. ?)) (. ?)))
+#Rule:Nouns
+r1homeschoolingNN
+
+#Rule:Verbs
+r2chooseVB
+
+#Rule:V-HeadNoun
+r21chooseVBhomeschoolingNN
+
+#This question is mainly for parents that have decided to homeschool their children. What was your reasoning for homeschooling??
+#(S1 (S (NP (DT This) (NN question)) (VP (AUX is) (PP (ADVP (RB mainly)) (IN for) (NP (NP (NNS parents)) (SBAR (WHNP (WDT that)) (S (VP (AUX have) (VP (VBN decided) (S (VP (TO to) (VP (VB homeschool) (NP (PRP$ their) (NNS children.)) (SBAR (WHNP (WP What)) (S (VP (AUX was) (NP (NP (PRP$ your) (NN reasoning)) (PP (IN for) (NP (NN homeschooling)))))) (. ?)))))))))))) (. ?)))
+#Rule:Nouns
+r1questionNN
+r1parentsNNS
+r1childrenNNS
+r1reasoningNN
+r1homeschoolingNN
+
+#Rule:Verbs
+r2decidedVBN
+r2homeschoolVB
+
+#Rule:PRP-Noun
+r6theirPRP$childrenNNS
+r6yourPRP$reasoningNN
+
+#Rule:HeadNoun-V
+r11questionNNisAUX
+
+#Rule:HeadNoun-(who/that)-V
+r15parentsNNSdecidedVBN
+
+#Rule:V-HeadNoun
+r21homeschoolVBchildrenNNS
+r21wasAUXreasoningNN
+
+#Rule:PPinNP
+r26reasoningNNforINhomeschoolingNN
+
+#Rule:PPinVP
+r30isAUXforINparentsNNS
+
+#Rule:V-V
+r44decidedVBNhomeschoolVB
+
+#What do you think your child can gain from homeschooling that they can t get at a public or even private school??
+#(S1 (SBARQ (WHNP (WP What)) (SQ (AUX do) (NP (PRP you)) (VP (VB think) (SBAR (S (NP (PRP$ your) (NN child)) (VP (MD can) (VP (VB gain) (PP (IN from) (S (VP (VBG homeschooling) (SBAR (IN that) (S (NP (PRP they)) (VP (MD can) (ADVP (RB t)) (VP (VB get) (PP (IN at) (NP (DT a) (ADJP (JJ public) (CC or) (RB even) (JJ private)) (NN school))))))))))))))) (. ?)) (. ?)))
+#Rule:Nouns
+r1childNN
+r1schoolNN
+
+#Rule:Verbs
+r2thinkVB
+r2gainVB
+r2homeschoolingVBG
+r2getVB
+
+#Rule:Adjs
+r4publicJJ
+r4privateJJ
+
+#Rule:Adj-Noun
+r5publicJJschoolNN
+r5privateJJschoolNN
+
+#Rule:PRP-Noun
+r6yourPRP$childNN
+
+#Rule:HeadNoun-V
+r11childNNgainVB
+r11theyPRPgetVB
+
+#Rule:PPinVP
+r30getVBatINschoolNN
+
+#Rule:V-IN-V
+r43homeschoolingVBGthatINgetVB
+
+#Rule:V-ADV
+r46getVBtLocationAnnotation
+
+#Was your child previously enrolled in a public school but you took them out to homeschool them?
+#(S1 (SQ (AUX Was) (S (S (NP (PRP$ your) (NN child)) (ADVP (RB previously)) (VP (VBD enrolled) (PP (IN in) (NP (DT a) (JJ public) (NN school))))) (CC but) (S (NP (PRP you)) (VP (VBD took) (NP (PRP them)) (PRT (RP out)) (S (VP (TO to) (VP (VB homeschool) (NP (PRP them)))))))) (. ?)))
+#Rule:Nouns
+r1childNN
+r1schoolNN
+
+#Rule:Verbs
+r2enrolledVBD
+r2tookVBD
+r2homeschoolVB
+
+#Rule:V-PRT
+r3tookVBDoutRP
+
+#Rule:Adjs
+r4publicJJ
+
+#Rule:Adj-Noun
+r5publicJJschoolNN
+
+#Rule:PRP-Noun
+r6yourPRP$childNN
+
+#Rule:HeadNoun-V
+r11childNNenrolledVBD
+r11youPRPtookVBD
+
+#Rule:V-HeadNoun
+r21tookVBDthemPRP
+r21homeschoolVBthemPRP
+
+#Rule:PPinVP
+r30enrolledVBDinINschoolNN
+
+#Rule:V-V
+r44tookVBDhomeschoolVB
+
+#Rule:V-ADV
+r46enrolledVBDpreviouslyRB
+
+@lemmas-left	decide	homeschooling	they	parents	took	children	was	private	child	children.	question	choose	enrol	be	is	think	get	your	parent	you	gain	decided	reasoning	school	take	enrolled	homeschool	their	public	
+@lemmas-right	homeschooling	decide	is	parents	get	took	children	parent	gain	decided	child	t	children.	reasoning	school	them	take	enrolled	previously	homeschool	enrol	out	be	
+@lemmas-center	that	for	at	in	

@@ -1,0 +1,29 @@
+#how do i lose weight in about 9 months in a healthy way?
+#(S1 (SBARQ (WHADVP (WRB how)) (SQ (AUX do) (NP (PRP i)) (VP (VB lose) (NP (NN weight)) (PP (IN in) (NP (NP (QP (IN about) (CD 9)) (NNS months)) (PP (IN in) (NP (DT a) (JJ healthy) (NN way))))))) (. ?)))
+#Rule:Nouns
+r1weightNN
+r1monthsNNS
+r1wayNN
+
+#Rule:Verbs
+r2loseVB
+
+#Rule:Adjs
+r4healthyJJ
+
+#Rule:Adj-Noun
+r59CDmonthsNNS
+r5healthyJJwayNN
+
+#Rule:V-HeadNoun
+r21loseVBweightNN
+
+#Rule:PPinNP
+r26monthsNNSinINwayNN
+
+#Rule:PPinVP
+r30loseVBinINmonthsNNS
+
+@lemmas-left	lose	months	weight	month	healthy	way	9	
+@lemmas-right	months	weight	month	way	
+@lemmas-center	in	

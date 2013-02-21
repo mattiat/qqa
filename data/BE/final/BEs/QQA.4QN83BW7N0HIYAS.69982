@@ -1,0 +1,75 @@
+#well start off slow, you dont want to hurt yourself.  
+#(S1 (S (S (INTJ (UH well)) (VP (VB start) (PRT (RP off)) (ADJP (JJ slow)))) (, ,) (NP (PRP you)) (VP (VBP dont) (SBAR (S (VP (VBP want) (S (VP (TO to) (VP (VB hurt) (NP (PRP yourself))))))))) (. .)))
+#Rule:Verbs
+r2dontVBP
+r2wantVBP
+r2hurtVB
+
+#Rule:V-PRT
+r3startVBoffRP
+
+#Rule:Adjs
+r4slowJJ
+
+#Rule:HeadNoun-V
+r11youPRPdontVBP
+
+#Rule:V-HeadNoun
+r21hurtVByourselfPRP
+
+#Rule:V-V
+r44wantVBPhurtVB
+
+#Rule:SubVerbClause
+r50youPRPstartVB
+
+#you should exercise more like walking, then move to jogging then running. you might want to try a diet to. or you could just go on a diet
+#(S1 (S (S (NP (PRP you)) (VP (MD should) (VP (VB exercise) (NP (NP (JJR more)) (PP (IN like) (NP (VBG walking))))))) (, ,) (RB then) (S (NP (NP (NN move)) (PP (TO to) (NP (NN jogging)))) (ADVP (RB then)) (VP (VBD running.) (SBAR (S (NP (PRP you)) (VP (MD might) (VP (VB want) (S (VP (TO to) (VP (VB try) (NP (DT a) (NN diet) (NN to.))))))))))) (CC or) (S (NP (PRP you)) (VP (MD could) (ADVP (RB just)) (VP (VB go) (PP (IN on) (NP (DT a) (NN diet))))))))
+#Rule:Nouns
+r1moveNN
+r1joggingNN
+r1dietNN
+r1toNN
+r1dietNN
+
+#Rule:Verbs
+r2exerciseVB
+r2walkingVBG
+r2runningVBD
+r2wantVB
+r2tryVB
+r2goVB
+
+#Rule:Adjs
+r4moreJJR
+
+#Rule:N-HeadNoun
+r8dietNNtoNN
+
+#Rule:HeadNoun-V
+r11youPRPexerciseVB
+r11moveNNrunningVBD
+r11youPRPwantVB
+r11youPRPgoVB
+
+#Rule:V-HeadNoun
+r21exerciseVBmoreJJR
+r21tryVBtoNN
+
+#Rule:PPinNP
+r26moreJJRlikeINwalkingVBG
+r26moveNNtoTOjoggingNN
+
+#Rule:PPinVP
+r30goVBonINdietNN
+
+#Rule:V-V
+r44wantVBtryVB
+
+#Rule:V-ADV
+r46runningVBDthenRB
+r46goVBjustRB
+
+@lemmas-left	to	walking	jogging	diet	running.	exercise	you	running	more	hurt	dont	start	slow	to.	walk	try	want	move	go	
+@lemmas-right	just	to	walking	jogging	diet	running.	exercise	running	hurt	more	dont	start	then	off	yourself	walk	to.	try	want	go	
+@lemmas-center	to	on	like	

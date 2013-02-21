@@ -1,0 +1,24 @@
+#How can I help someone through a very painful bereavement?
+#(S1 (SBARQ (WHADVP (WRB How)) (SQ (MD can) (NP (PRP I)) (VP (VB help) (NP (NN someone)) (PP (IN through) (NP (DT a) (ADJP (RB very) (JJ painful)) (NN bereavement))))) (. ?)))
+#Rule:Nouns
+r1someoneNN
+r1bereavementPersonAnnotation
+
+#Rule:Verbs
+r2helpVB
+
+#Rule:Adjs
+r4painfulJJ
+
+#Rule:Adj-Noun
+r5painfulJJbereavementPersonAnnotation
+
+#Rule:V-HeadNoun
+r21helpVBsomeoneNN
+
+#Rule:PPinVP
+r30helpVBthroughINbereavementPersonAnnotation
+
+@lemmas-left	help	bereavement	someone	painful	
+@lemmas-right	bereavement	someone	
+@lemmas-center	through	

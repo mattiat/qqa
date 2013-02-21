@@ -1,0 +1,190 @@
+#Hi in college history was not my major, with that being said its my favorite subject and something I learn about as a hobby.  
+#(S1 (S (NP (NP (NN Hi)) (PP (IN in) (NP (NN college) (NN history)))) (VP (AUX was) (RB not) (NP (PRP$ my) (NN major)) (, ,) (PP (IN with) (S (NP (DT that)) (VP (AUXG being) (VP (VBD said) (S (NP (NP (PRP$ its) (JJ my) (JJ favorite) (NN subject)) (CC and) (NP (NP (NN something)) (SBAR (S (NP (PRP I)) (VP (VBP learn) (PP (IN about)) (PP (IN as) (NP (DT a) (NN hobby)))))))))))))) (. .)))
+#Rule:Nouns
+r1HiPersonAnnotation
+r1collegeNN
+r1historyNN
+r1majorNN
+r1subjectNN
+r1somethingNN
+r1hobbyNN
+
+#Rule:Verbs
+r2saidVBD
+r2learnVBP
+
+#Rule:Adjs
+r4myJJ
+r4favoriteJJ
+
+#Rule:Adj-Noun
+r5myJJsubjectNN
+r5favoriteJJsubjectNN
+
+#Rule:PRP-Noun
+r6myPRP$majorNN
+r6itsPRP$subjectNN
+
+#Rule:N-HeadNoun
+r8collegeNNhistoryNN
+
+#Rule:HeadNoun-V
+r11HiPersonAnnotationwasAUX
+r11thatDTsaidVBD
+r11iPRPlearnVBP
+
+#Rule:NP(NP(z) SBAR(S(NP(x)VP(y))))
+r19learnVBPsomethingNN
+
+#Rule:V-HeadNoun
+r21wasAUXmajorNN
+
+#Rule:V-HeadNoun
+r22saidVBDsubjectNN
+
+#Rule:PPinNP
+r26HiPersonAnnotationinINhistoryNN
+
+#Rule:PPinVP
+r30learnVBPasINhobbyNN
+
+#Rule:V-ADV
+r46wasAUXnotRB
+
+#Rule:IS-RULE
+r47majorNNHiPersonAnnotation
+
+#I pretty much figured out the history is our present future. 
+#(S1 (S (NP (PRP I)) (ADVP (RB pretty) (RB much)) (VP (VBD figured) (PRT (RP out)) (SBAR (S (NP (DT the) (NN history)) (VP (AUX is) (NP (PRP$ our) (JJ present) (NN future)))))) (. .)))
+#Rule:Nouns
+r1historyNN
+r1futureNN
+
+#Rule:V-PRT
+r3figuredVBDoutRP
+
+#Rule:Adjs
+r4presentJJ
+
+#Rule:Adj-Noun
+r5presentJJfutureNN
+
+#Rule:PRP-Noun
+r6ourPRP$futureNN
+
+#Rule:HeadNoun-V
+r11iPRPfiguredVBD
+r11historyNNisAUX
+
+#Rule:V-HeadNoun
+r21isAUXfutureNN
+
+#Rule:V-ADV
+r46figuredVBDprettyRB
+r46figuredVBDmuchRB
+
+#Rule:IS-RULE
+r47futureNNhistoryNN
+
+#I am not sure if that could be taught in a class room.  
+#(S1 (S (NP (PRP I)) (VP (AUX am) (RB not) (ADJP (JJ sure) (SBAR (IN if) (S (NP (DT that)) (VP (MD could) (VP (AUX be) (VP (VBN taught) (PP (IN in) (NP (DT a) (NN class) (NN room)))))))))) (. .)))
+#Rule:Nouns
+r1classNN
+r1roomNN
+
+#Rule:Verbs
+r2taughtVBN
+
+#Rule:Adjs
+r4sureJJ
+
+#Rule:N-HeadNoun
+r8classNNroomNN
+
+#Rule:HeadNoun-V
+r11iPRPamAUX
+
+#Rule:V-HeadNoun(passive)
+r23taughtVBNthatDT
+
+#Rule:PPinVP
+r32taughtVBNinINroomNN
+
+#Rule:V-ADV
+r46amAUXnotRB
+
+#Either you honor the lessons or you don t . 
+#(S1 (S (CC Either) (S (NP (PRP you)) (VP (VB honor) (NP (DT the) (NNS lessons)))) (CC or) (S (NP (PRP you)) (VP (VB don) (NP (NN t)))) (. .)))
+#Rule:Nouns
+r1lessonsNNS
+r1tLocationAnnotation
+
+#Rule:Verbs
+r2honorVB
+r2donVB
+
+#Rule:HeadNoun-V
+r11youPRPhonorVB
+r11youPRPdonVB
+
+#Rule:V-HeadNoun
+r21honorVBlessonsNNS
+r21donVBtLocationAnnotation
+
+#No key recipe for this formula. 
+#(S1 (NP (NP (DT No) (JJ key) (NN recipe)) (PP (IN for) (NP (DT this) (NN formula))) (. .)))
+#Rule:Nouns
+r1recipeNN
+r1formulaNN
+
+#Rule:Adjs
+r4keyJJ
+
+#Rule:Adj-Noun
+r5keyJJrecipeNN
+
+#Rule:PPinNP
+r26recipeNNforINformulaNN
+
+#And you appreciated it when? 
+#(S1 (S (CC And) (NP (PRP you)) (VP (VBD appreciated) (NP (PRP it)) (FRAG (WHADVP (WRB when)))) (. ?)))
+#Rule:Verbs
+r2appreciatedVBD
+
+#Rule:HeadNoun-V
+r11youPRPappreciatedVBD
+
+#Rule:V-HeadNoun
+r21appreciatedVBDitPRP
+
+#what was it that sparked your interest, pretty much answered your own question.
+#(S1 (SBARQ (WHNP (WP what)) (SQ (AUX was) (NP (PRP it)) (SBAR (WHNP (WDT that)) (S (VP (VBD sparked) (NP (PRP$ your) (NN interest))))) (, ,) (VP (ADVP (RB pretty) (RB much)) (VBN answered) (NP (PRP$ your) (JJ own) (NN question)))) (. .)))
+#Rule:Nouns
+r1interestNN
+r1questionNN
+
+#Rule:Verbs
+r2sparkedVBD
+r2answeredVBN
+
+#Rule:Adjs
+r4ownJJ
+
+#Rule:Adj-Noun
+r5ownJJquestionNN
+
+#Rule:PRP-Noun
+r6yourPRP$interestNN
+r6yourPRP$questionNN
+
+#Rule:V-HeadNoun
+r21sparkedVBDinterestNN
+r21answeredVBNquestionNN
+
+#Rule:V-ADV
+r46answeredVBNprettyRB
+r46answeredVBNmuchRB
+
+@lemmas-left	appreciate	recipe	said	don	subject	college	its	appreciated	answered	was	figure	interest	future	question	something	key	major	sure	be	lesson	Hi	is	lessons	figured	honor	your	answer	hobby	learn	class	you	taught	favorite	spark	teach	my	i	history	sparked	that	present	t	am	say	own	our	formula	room	
+@lemmas-right	appreciate	recipe	said	don	subject	pretty	appreciated	was	figure	interest	future	question	something	major	be	Hi	lesson	is	it	lessons	figured	honor	hobby	learn	much	not	history	that	t	am	say	formula	out	room	
+@lemmas-center	for	as	in	

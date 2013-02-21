@@ -1,0 +1,24 @@
+#By using your mobile or watch Alarm!
+#(S1 (FRAG (PP (IN By) (S (VP (VBG using) (NP (PRP$ your) (ADJP (JJ mobile) (CC or) (VB watch)) (NN Alarm))))) (. !)))
+#Rule:Nouns
+r1Alarm!LocationAnnotation
+
+#Rule:Verbs
+r2usingVBG
+r2watchVB
+
+#Rule:Adjs
+r4mobileJJ
+
+#Rule:Adj-Noun
+r5mobileJJAlarm!LocationAnnotation
+
+#Rule:PRP-Noun
+r6yourPRP$Alarm!LocationAnnotation
+
+#Rule:V-HeadNoun
+r21usingVBGAlarm!LocationAnnotation
+
+@lemmas-left	using	Alarm!	watch	your	use	mobile	
+@lemmas-right	Alarm!	
+@lemmas-center	

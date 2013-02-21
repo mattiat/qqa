@@ -1,0 +1,47 @@
+#a life changing situation, having ppl treat u as if your worthless, stresscheak out this site..http://www.psychologyinfo.com/depression/causes.html
+#(S1 (S (NP (DT a) (NN life) (VBG changing) (NN situation)) (, ,) (S (VP (AUXG having) (S (NP (NNS ppl)) (VP (VB treat) (NP (NNP u)) (SBAR (IN as) (IN if) (S (NP (PRP$ your) (JJ worthless)) (, ,) (VP (VBP stresscheak) (PRT (RP out)) (NP (DT this) (NN site) (NN ..) (NN http))))))))) (: :) (VP (VBZ //www.psychologyinfo.com/depression/causes.html))))
+#Rule:Nouns
+r1lifeNN
+r1situationNN
+r1pplNNS
+r1uNNP
+r1site..http://wwwOrganizationAnnotation
+
+#Rule:Verbs
+r2changingVBG
+r2treatVB
+r2//www.psychologyinfo.com/depression/causes.htmlVBZ
+
+#Rule:V-PRT
+r3stresscheakVBPoutRP
+
+#Rule:Adjs
+r4worthlessJJ
+
+#Rule:Adj-Noun
+r5changingVBGsituationNN
+
+#Rule:PRP-Noun
+r6yourPRP$worthlessJJ
+
+#Rule:HeadNoun-V
+r11situationNN//www.psychologyinfo.com/depression/causes.htmlVBZ
+r11pplNNStreatVB
+r11worthlessJJstresscheakVBP
+
+#Rule:V-HeadNoun
+r21treatVBuNNP
+r21stresscheakVBPsite..http://wwwOrganizationAnnotation
+
+#Rule:V-HeadNoun
+r22havingAUXGpplNNS
+
+#Rule:V-IN-V
+r43treatVBasINstresscheakVBP
+
+#Rule:SubVerbClause
+r50situationNNhavingAUXG
+
+@lemmas-left	//www.psychologyinfo.com/depression/causes.html	change	your	worthless	u	life	ppl	site..http://www	changing	stresscheak	having	html	situation	treat	
+@lemmas-right	u	ppl	//www.psychologyinfo.com/depression/causes.html	site..http://www	stresscheak	having	html	worthless	situation	treat	out	
+@lemmas-center	as	

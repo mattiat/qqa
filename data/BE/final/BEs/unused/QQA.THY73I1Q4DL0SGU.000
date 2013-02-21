@@ -1,0 +1,14 @@
+#How do I find someone?
+#(S1 (SBARQ (WHADVP (WRB How)) (SQ (AUX do) (NP (PRP I)) (VP (VB find) (NP (NN someone)))) (. ?)))
+#Rule:Nouns
+r1someoneNN
+
+#Rule:Verbs
+r2findVB
+
+#Rule:V-HeadNoun
+r21findVBsomeoneNN
+
+@lemmas-left	someone	find	
+@lemmas-right	someone	
+@lemmas-center	

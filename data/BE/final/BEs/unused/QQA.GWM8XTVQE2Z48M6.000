@@ -1,0 +1,18 @@
+#How would you treat Atrial Fibrillation with a Low Ejection Fraction?
+#(S1 (SBARQ (WHADVP (WRB How)) (SQ (MD would) (NP (PRP you)) (VP (VB treat) (NP (NNP Atrial) (NNP Fibrillation)) (PP (IN with) (NP (DT a) (NNP Low) (NNP Ejection) (NN Fraction))))) (. ?)))
+#Rule:Nouns
+r1Atrial FibrillationOrganizationAnnotation
+r1Low Ejection FractionOrganizationAnnotation
+
+#Rule:Verbs
+r2treatVB
+
+#Rule:V-HeadNoun
+r21treatVBAtrial FibrillationOrganizationAnnotation
+
+#Rule:PPinVP
+r30treatVBwithINLow Ejection FractionOrganizationAnnotation
+
+@lemmas-left	Atrial Fibrillation	treat	Low Ejection Fraction	
+@lemmas-right	Atrial Fibrillation	Low Ejection Fraction	
+@lemmas-center	with	

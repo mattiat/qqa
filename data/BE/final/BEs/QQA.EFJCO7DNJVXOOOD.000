@@ -1,0 +1,18 @@
+#how to treat diarrhea in a toddler.?
+#(S1 (FRAG (SBAR (WHADVP (WRB how)) (S (VP (TO to) (VP (VB treat) (NP (NP (NN diarrhea)) (PP (IN in) (NP (DT a) (NN toddler))))))) (. .)) (. ?)))
+#Rule:Nouns
+r1diarrheaNN
+r1toddlerLocationAnnotation
+
+#Rule:Verbs
+r2treatVB
+
+#Rule:V-HeadNoun
+r21treatVBdiarrheaNN
+
+#Rule:PPinNP
+r26diarrheaNNinINtoddlerLocationAnnotation
+
+@lemmas-left	diarrhea	toddler	treat	
+@lemmas-right	diarrhea	toddler	
+@lemmas-center	in	

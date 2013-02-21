@@ -1,0 +1,33 @@
+#I homeschool because my daughter has Asperger Sydrome and cannot handle any smells, not even clothes soap
+#(S1 (S (NP (PRP I)) (ADJP (JJ homeschool)) (SBAR (IN because) (S (S (NP (PRP$ my) (NN daughter)) (VP (AUX has) (NP (NNP Asperger) (NNP Sydrome)))) (CC and) (S (NP (NNS cannot)) (VP (VBP handle) (NP (NP (DT any) (VBZ smells)) (, ,) (CONJP (RB not) (RB even)) (NP (NNS clothes) (NN soap)))))))))
+#Rule:Nouns
+r1daughterNN
+r1Asperger SydromeOrganizationAnnotation
+r1cannotNNS
+r1clothesNNS
+r1soapNN
+
+#Rule:Verbs
+r2handleVBP
+r2smellsVBZ
+
+#Rule:Adjs
+r4homeschoolJJ
+
+#Rule:PRP-Noun
+r6myPRP$daughterNN
+
+#Rule:N-HeadNoun
+r8clothesNNSsoapNN
+
+#Rule:HeadNoun-V
+r11daughterNNhasAUX
+r11cannotNNShandleVBP
+
+#Rule:V-HeadNoun
+r21hasAUXAsperger SydromeOrganizationAnnotation
+r21handleVBPsmellsVBZ
+
+@lemmas-left	smell	handle	have	clothes	smells	daughter	homeschool	Asperger Sydrome	soap	my	cannot	has	
+@lemmas-right	smell	handle	have	smells	daughter	Asperger Sydrome	soap	has	
+@lemmas-center	

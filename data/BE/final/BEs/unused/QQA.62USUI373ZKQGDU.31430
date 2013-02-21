@@ -1,0 +1,60 @@
+#oklol warning UI SUCK AT MATH!!!
+#(S1 (S (NP (JJ oklol) (NN warning) (NNS UI)) (VP (VBP SUCK) (PP (IN AT) (NP (NN MATH) (NNS !!)))) (. !)))
+#Rule:Nouns
+r1warningNN
+r1UI SUCK AT MATH!OrganizationAnnotation
+r1!!NNS
+
+#Rule:Adjs
+r4oklolJJ
+
+#Rule:Adj-Noun
+r5oklolJJUI SUCK AT MATH!OrganizationAnnotation
+
+#Rule:N-HeadNoun
+r8warningNNUI SUCK AT MATH!OrganizationAnnotation
+r8UI SUCK AT MATH!OrganizationAnnotation!!NNS
+
+#IM GONNA TRY AN REMEBERWAT I DID IN 6TH GRADE[im in 7th]ok well find the common denominator or something im sorry IDK
+#(S1 (S (NP (JJ IM) (NNS GONNA)) (VP (VBP TRY) (NP (NP (DT AN) (NN REMEBERWAT)) (SBAR (S (NP (PRP I)) (VP (AUX DID) (PP (IN IN) (NP (NP (JJ 6TH) (NN GRADE[im)) (PP (IN in) (NP (JJ 7th) (JJ -RSB-) (NN ok) (NN well))))) (VP (VB find) (NP (NP (DT the) (JJ common) (NN denominator) (CC or) (NN something)) (ADJP (JJ im) (JJ sorry))) (ADVP (RB IDK))))))))))
+#Rule:Nouns
+r1GONNA TRY AN REMEBERWAT I DID INOrganizationAnnotation
+r1GRADE[imNN
+r17th]okLocationAnnotation
+r1wellNN
+r1denominatorNN
+r1somethingNN
+
+#Rule:Verbs
+r2findVB
+
+#Rule:Adjs
+r4IMJJ
+r46THJJ
+r4commonJJ
+r4imJJ
+r4sorryJJ
+
+#Rule:Adj-Noun
+r5IMJJGONNA TRY AN REMEBERWAT I DID INOrganizationAnnotation
+r56THJJGRADE[imNN
+r57th]okLocationAnnotationwellNN
+r5imJJdenominatorNN
+r5sorryJJdenominatorNN
+r5commonJJdenominatorNN
+
+#Rule:HeadNoun-V
+r11GONNA TRY AN REMEBERWAT I DID INOrganizationAnnotationfindVB
+
+#Rule:V-HeadNoun
+r21findVBdenominatorNN
+
+#Rule:PPinNP
+r26GRADE[imNNinINwellNN
+
+#Rule:V-ADV
+r46findVBIDKRB
+
+@lemmas-left	GONNA TRY AN REMEBERWAT I DID IN	IM	common	6th	!!	GRADE[im	denominator	well	im	UI SUCK AT MATH!	sorry	7th]ok	something	warning	oklol	find	6TH	grade[im	
+@lemmas-right	GONNA TRY AN REMEBERWAT I DID IN	denominator	GRADE[im	!!	well	IDK	UI SUCK AT MATH!	idk	find	grade[im	
+@lemmas-center	in	

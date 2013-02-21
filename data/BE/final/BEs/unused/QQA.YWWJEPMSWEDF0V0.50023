@@ -1,0 +1,21 @@
+#defitnitely dont lose 100 pounds
+#(S1 (S (ADVP (RB defitnitely)) (VP (VB dont) (S (VP (VB lose) (NP (CD 100) (NNS pounds)))))))
+#Rule:Nouns
+r1poundsNNS
+
+#Rule:Verbs
+r2dontVB
+r2loseVB
+
+#Rule:Adj-Noun
+r5100CDpoundsNNS
+
+#Rule:V-HeadNoun
+r21loseVBpoundsNNS
+
+#Rule:V-ADV
+r46dontVBdefitnitelyRB
+
+@lemmas-left	lose	dont	pounds	100	pound	
+@lemmas-right	pounds	defitnitely	pound	
+@lemmas-center	

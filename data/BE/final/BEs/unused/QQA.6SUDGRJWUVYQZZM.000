@@ -1,0 +1,14 @@
+#Why is my hair falling out?
+#(S1 (SBARQ (WHADVP (WRB Why)) (SQ (AUX is) (NP (PRP$ my) (NN hair)) (VP (VBG falling) (PRT (RP out)))) (. ?)))
+#Rule:Nouns
+r1hairNN
+
+#Rule:V-PRT
+r3fallingVBGoutRP
+
+#Rule:PRP-Noun
+r6myPRP$hairNN
+
+@lemmas-left	fall	falling	my	hair	
+@lemmas-right	hair	out	
+@lemmas-center	

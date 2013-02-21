@@ -1,0 +1,234 @@
+BE: cancerNN
+EQ class: cancerousjj	malignant_neoplastic_diseasenn	
+
+BE: nurseNN
+EQ class: 
+
+BE: patientsNNS
+EQ class: patientnns	theynns	themnns	
+
+BE: cancersNNS
+EQ class: cancernns	cancerousjj	theynns	malignant_neoplastic_diseasenns	themnns	
+
+BE: smokingNN
+EQ class: smokenn	
+
+BE: treatedVBN
+EQ class: do_byvbn	treatvbn	handlevbn	
+
+BE: relatedVBN
+EQ class: link_upvbn	colligatevbn	connectvbn	tie_invbn	relatevbn	linkvbn	associatevbn	
+
+BE: cancerNNnurseNN
+EQ class: malignant_neoplastic_diseasennnursevb	nursennofincancerousjj	cancerousjjnursevb	malignant_neoplastic_diseasennnursenn	nursennofinmalignant_neoplastic_diseasenn	nursennofincancernn	cancerousjjnursenn	nursevbmalignant_neoplastic_diseasenn	nursevbcancernn	cancernnnursevb	nursevbcancerousjj	
+
+BE: iPRPamAUX
+EQ class: iprpbeaux	
+
+BE: iPRPtreatedVBN
+EQ class: iprpdo_byvbn	iprptreatvbn	iprphandlevbn	
+
+BE: amAUXnurseNN
+EQ class: beauxnursenn	
+
+BE: treatedVBNpatientsNNS
+EQ class: handlevbnpatientsnns	handlevbnthemnns	treatvbnpatientsnns	treatvbnthemnns	handlevbnpatientnns	handlevbntheynns	treatedvbnthemnns	do_byvbnthemnns	treatedvbntheynns	treatedvbnpatientnns	treatvbntheynns	do_byvbnpatientnns	do_byvbntheynns	treatvbnpatientnns	do_byvbnpatientsnns	
+
+BE: relatedVBNcancersNNS
+EQ class: relatedvbnthemnns	link_upvbnthemnns	relatevbnmalignant_neoplastic_diseasenns	colligatevbnthemnns	link_upvbnmalignant_neoplastic_diseasenns	link_upvbncancernns	connectvbncancersnns	linkvbncancerousjj	relationnnofincancersnns	relatevbncancerousjj	relatevbncancernns	linkvbntheynns	tie_invbntheynns	relatevbntheynns	connectvbnmalignant_neoplastic_diseasenns	relatedvbnmalignant_neoplastic_diseasenns	relationnnofincancerousjj	colligatevbnmalignant_neoplastic_diseasenns	associatevbncancerousjj	linkvbncancernns	colligatevbncancernns	tie_invbncancerousjj	relatevbnthemnns	connectvbntheynns	relationnnofinmalignant_neoplastic_diseasenns	link_upvbntheynns	tie_invbncancernns	relatevbncancersnns	associatevbntheynns	tie_invbnmalignant_neoplastic_diseasenns	connectvbncancerousjj	link_upvbncancerousjj	relatedvbncancerousjj	associatevbnthemnns	tie_invbncancersnns	link_upvbncancersnns	colligatevbncancersnns	relationnnofincancernns	associatevbnmalignant_neoplastic_diseasenns	relationnnofinthemnns	colligatevbntheynns	relatedvbncancernns	tie_invbnthemnns	relatedvbntheynns	associatevbncancersnns	linkvbnthemnns	linkvbnmalignant_neoplastic_diseasenns	connectvbnthemnns	colligatevbncancerousjj	linkvbncancersnns	associatevbncancernns	relationnnofintheynns	connectvbncancernns	
+
+BE: patientsNNSwithINcancersNNS
+EQ class: patientnnswithincancernns	cancernnspatientsnns	cancerousjjthemnns	themnnspatientnns	themnnswithinmalignant_neoplastic_diseasenns	themnnstheynns	themnnsthemnns	theynnswithincancernns	patientsnnswithintheynns	themnnswithintheynns	cancernnstheynns	cancernnsthemnns	malignant_neoplastic_diseasennspatientsnns	patientnnswithinmalignant_neoplastic_diseasenns	patientnnswithincancersnns	cancersnnstheynns	theynnswithintheynns	themnnswithincancernns	cancerousjjtheynns	patientsnnswithincancerousjj	cancersnnspatientsnns	cancernnspatientnns	cancersnnspatientnns	malignant_neoplastic_diseasennstheynns	theynnswithincancersnns	cancerousjjpatientsnns	patientsnnswithincancernns	patientsnnswithinthemnns	themnnswithincancersnns	theynnspatientnns	cancersnnsthemnns	patientnnswithinthemnns	theynnswithinthemnns	theynnswithincancerousjj	theynnsthemnns	patientnnswithintheynns	cancerousjjpatientnns	patientnnswithincancerousjj	themnnswithincancerousjj	theynnstheynns	malignant_neoplastic_diseasennsthemnns	patientsnnswithinmalignant_neoplastic_diseasenns	themnnspatientsnns	malignant_neoplastic_diseasennspatientnns	themnnswithinthemnns	theynnspatientsnns	theynnswithinmalignant_neoplastic_diseasenns	
+
+BE: relatedVBNtoTOsmokingNN
+EQ class: tie_invbntotosmokingnn	tie_invbntotosmokenn	connectvbntotosmokenn	relatevbntotosmokingnn	relatevbntotosmokenn	colligatevbntotosmokingnn	relatedvbntotosmokenn	connectvbntotosmokingnn	linkvbntotosmokenn	link_upvbntotosmokenn	associatevbntotosmokingnn	colligatevbntotosmokenn	associatevbntotosmokenn	linkvbntotosmokingnn	link_upvbntotosmokingnn	
+
+BE: relatedVBNdirectlyRB
+EQ class: relationnnofindirectlyrb	directjjininassociatevbn	link_upvbndirectlyrb	directjjinintie_invbn	directjjininlinkvbn	directjjininrelatevbn	relatevbndirectlyrb	colligatevbndirectlyrb	connectvbndirectlyrb	directjjininconnectvbn	tie_invbndirectlyrb	directjjinincolligatevbn	linkvbndirectlyrb	directjjininrelatedvbn	directjjininlink_upvbn	directjjininrelationnn	associatevbndirectlyrb	directjjrelationnn	
+
+BE: ExampleNN
+EQ class: exemplaryjj	instancenn	illustrationnn	representativenn	
+
+BE: femaleNN
+EQ class: femalejj	
+
+BE: kidsNNS
+EQ class: kidnns	tykenns	small_frynns	minornns	youngsternns	nestlingnns	theynns	frynns	tiddlernns	nippernns	shavernns	tikenns	themnns	childnns	
+
+BE: yrVBZ
+EQ class: themvbz	theyvbz	
+
+BE: oldJJ
+EQ class: oldnessnn	
+
+BE: 35CDExampleNN
+EQ class: 35cdexemplaryjj	3.5.cdrepresentativenn	35cdinstancenn	3.5.cdexamplenn	35cdillustrationnn	3.5.cdillustrationnn	3.5.cdinstancenn	3.5.cdexemplaryjj	35cdrepresentativenn	
+
+BE: oldJJfemaleNN
+EQ class: oldnessnnfemalejj	oldnessnnfemalenn	oldjjfemalejj	
+
+BE: 2CDkidsNNS
+EQ class: 2cdsmall_frynns	2.cdchildnns	2cdtiddlernns	2cdthemnns	2.cdtikenns	deucecdtheynns	2.cdyoungsternns	iicdchildnns	2cdchildnns	iicdnestlingnns	iicdminornns	twocdshavernns	2cdnestlingnns	deucecdshavernns	2cdtheynns	2cdkidnns	deucecdfrynns	2.cdminornns	2cdminornns	iicdkidsnns	iicdsmall_frynns	2.cdsmall_frynns	twocdchildnns	2.cdkidsnns	twocdthemnns	2.cdthemnns	deucecdthemnns	deucecdnestlingnns	twocdtykenns	2.cdfrynns	twocdtikenns	twocdnippernns	deucecdchildnns	2cdnippernns	iicdfrynns	deucecdtikenns	iicdshavernns	twocdyoungsternns	2cdyoungsternns	twocdkidnns	deucecdminornns	deucecdtiddlernns	twocdsmall_frynns	twocdkidsnns	2.cdnestlingnns	2cdtykenns	twocdnestlingnns	2.cdtykenns	twocdminornns	twocdtheynns	deucecdsmall_frynns	2.cdtiddlernns	iicdtykenns	twocdtiddlernns	iicdnippernns	2cdtikenns	2.cdkidnns	deucecdkidsnns	deucecdyoungsternns	iicdtheynns	2cdfrynns	iicdtikenns	2.cdnippernns	iicdthemnns	iicdkidnns	twocdfrynns	2.cdshavernns	deucecdnippernns	deucecdtykenns	2.cdtheynns	iicdyoungsternns	deucecdkidnns	2cdshavernns	iicdtiddlernns	
+
+BE: 10CDkidsNNS
+EQ class: 1.0.cdkidnns	xcdchildnns	xcdtykenns	decadecdkidnns	tennercdthemnns	xcdtikenns	1.0.cdtheynns	1.0.cdtiddlernns	decadecdnippernns	tencdthemnns	tennercdtiddlernns	10cdnippernns	1.0.cdkidsnns	tennercdkidnns	xcdsmall_frynns	decadecdtykenns	10cdtykenns	decadecdtiddlernns	tencdtikenns	decadecdyoungsternns	decadecdchildnns	decadecdtikenns	tennercdnestlingnns	decadecdnestlingnns	tennercdchildnns	tennercdsmall_frynns	1.0.cdnestlingnns	decadecdkidsnns	10cdtikenns	xcdminornns	xcdyoungsternns	tencdshavernns	10cdchildnns	tennercdkidsnns	tennercdtykenns	xcdkidnns	decadecdfrynns	10cdtheynns	tennercdminornns	10cdyoungsternns	tennercdyoungsternns	10cdshavernns	xcdkidsnns	1.0.cdtykenns	tencdnestlingnns	1.0.cdchildnns	decadecdsmall_frynns	tencdfrynns	10cdminornns	10cdkidnns	xcdtiddlernns	xcdtheynns	decadecdshavernns	decadecdtheynns	tennercdtheynns	1.0.cdminornns	decadecdminornns	1.0.cdshavernns	tencdkidnns	tencdnippernns	xcdnippernns	1.0.cdnippernns	tennercdshavernns	tencdtiddlernns	tencdyoungsternns	xcdthemnns	tencdsmall_frynns	1.0.cdtikenns	tencdtykenns	10cdfrynns	tencdtheynns	tennercdtikenns	tennercdnippernns	tencdchildnns	decadecdthemnns	1.0.cdyoungsternns	xcdnestlingnns	tencdkidsnns	10cdtiddlernns	xcdfrynns	tennercdfrynns	tencdminornns	1.0.cdthemnns	10cdnestlingnns	1.0.cdsmall_frynns	xcdshavernns	10cdthemnns	1.0.cdfrynns	10cdsmall_frynns	
+
+BE: ExampleNNyrVBZ
+EQ class: examplenntheyvbz	representativennyrvbz	instancennyrvbz	instancennthemvbz	examplennthemvbz	representativenntheyvbz	exemplaryjjtheyvbz	illustrationnnthemvbz	illustrationnntheyvbz	representativennthemvbz	illustrationnnyrvbz	exemplaryjjthemvbz	exemplaryjjyrvbz	instancenntheyvbz	
+
+BE: yrVBZfemaleNN
+EQ class: themvbzfemalejj	theyvbzfemalejj	themvbzfemalenn	theyvbzfemalenn	yrvbzfemalejj	
+
+BE: yrVBZwithINkidsNNS
+EQ class: themvbzwithinthemnns	yrvbzwithinthemnns	theyvbzwithinkidsnns	theyvbzwithintiddlernns	theyvbzwithinyoungsternns	themvbzwithinminornns	themvbzwithintikenns	theyvbzwithinminornns	theyvbzwithinshavernns	themvbzwithintykenns	theyvbzwithintikenns	theyvbzwithinsmall_frynns	theyvbzwithinchildnns	yrvbzwithintiddlernns	theyvbzwithinthemnns	yrvbzwithinchildnns	theyvbzwithinfrynns	yrvbzwithinshavernns	theyvbzwithinnippernns	theyvbzwithinkidnns	yrvbzwithinnestlingnns	themvbzwithinnippernns	yrvbzwithintykenns	themvbzwithintheynns	themvbzwithinyoungsternns	themvbzwithinkidsnns	theyvbzwithintheynns	yrvbzwithintikenns	themvbzwithinnestlingnns	yrvbzwithinnippernns	yrvbzwithinkidnns	yrvbzwithinminornns	yrvbzwithintheynns	theyvbzwithinnestlingnns	themvbzwithinsmall_frynns	themvbzwithinshavernns	themvbzwithinchildnns	yrvbzwithinfrynns	themvbzwithinfrynns	themvbzwithinkidnns	yrvbzwithinsmall_frynns	theyvbzwithintykenns	themvbzwithintiddlernns	yrvbzwithinyoungsternns	
+
+BE: lungNN
+EQ class: 
+
+BE: cancerNN
+EQ class: cancerousjj	malignant_neoplastic_diseasenn	
+
+BE: diedVBD
+EQ class: conkvbd	passvbd	pass_awayvbd	deceasevbd	croakvbd	chokevbd	govbd	give-up_the_ghostvbd	buy_the_farmvbd	pop_offvbd	expirevbd	cash_in_one's_chipsvbd	exitvbd	snuff_itvbd	kick_the_bucketvbd	dievbd	drop_deadvbd	perishvbd	
+
+BE: lungNNcancerNN
+EQ class: cancernnofinlungnn	malignant_neoplastic_diseasennofinlungnn	cancerousvblungnn	lungnncancerousvb	lungnncancerousjj	lungnnmalignant_neoplastic_diseasenn	cancerousjjofinlungnn	
+
+BE: shePRPdiedVBD
+EQ class: deathnnofinsheprp	sheprpgovbd	sheprpexitvbd	deceasennsheprp	expirynnofinsheprp	deceasennofinsheprp	deathnnsheprp	sheprpbuy_the_farmvbd	sheprpdeceasevbd	sheprpdrop_deadvbd	expirynnsheprp	sheprpexpirevbd	sheprpdievbd	sheprppassvbd	sheprpchokevbd	sheprpgive-up_the_ghostvbd	sheprpconkvbd	sheprppass_awayvbd	sheprpperishvbd	sheprppop_offvbd	sheprpkick_the_bucketvbd	sheprpcash_in_one's_chipsvbd	sheprpsnuff_itvbd	sheprpcroakvbd	
+
+BE: diedVBDwithINcancerNN
+EQ class: pass_awayvbdwithincancerousjj	expirevbdwithinmalignant_neoplastic_diseasenn	pop_offvbdwithincancerousjj	govbdwithincancernn	exitvbdwithincancernn	pop_offvbdwithinmalignant_neoplastic_diseasenn	croakvbdwithincancerousjj	cash_in_one's_chipsvbdwithincancerousjj	diedvbdwithincancerousjj	snuff_itvbdwithincancernn	exitvbdwithincancerousjj	passvbdwithinmalignant_neoplastic_diseasenn	cash_in_one's_chipsvbdwithincancernn	expirevbdwithincancerousjj	dievbdwithinmalignant_neoplastic_diseasenn	exitvbdwithinmalignant_neoplastic_diseasenn	kick_the_bucketvbdwithinmalignant_neoplastic_diseasenn	pass_awayvbdwithincancernn	snuff_itvbdwithincancerousjj	drop_deadvbdwithinmalignant_neoplastic_diseasenn	passvbdwithincancerousjj	dievbdwithincancerousjj	conkvbdwithincancerousjj	pass_awayvbdwithinmalignant_neoplastic_diseasenn	drop_deadvbdwithincancerousjj	snuff_itvbdwithinmalignant_neoplastic_diseasenn	passvbdwithincancernn	conkvbdwithinmalignant_neoplastic_diseasenn	drop_deadvbdwithincancernn	govbdwithincancerousjj	croakvbdwithinmalignant_neoplastic_diseasenn	perishvbdwithincancerousjj	buy_the_farmvbdwithinmalignant_neoplastic_diseasenn	give-up_the_ghostvbdwithincancernn	diedvbdwithinmalignant_neoplastic_diseasenn	give-up_the_ghostvbdwithincancerousjj	govbdwithinmalignant_neoplastic_diseasenn	perishvbdwithincancernn	deceasevbdwithincancerousjj	buy_the_farmvbdwithincancernn	expirevbdwithincancernn	buy_the_farmvbdwithincancerousjj	give-up_the_ghostvbdwithinmalignant_neoplastic_diseasenn	deceasevbdwithincancernn	kick_the_bucketvbdwithincancernn	chokevbdwithinmalignant_neoplastic_diseasenn	perishvbdwithinmalignant_neoplastic_diseasenn	croakvbdwithincancernn	conkvbdwithincancernn	chokevbdwithincancerousjj	chokevbdwithincancernn	cash_in_one's_chipsvbdwithinmalignant_neoplastic_diseasenn	kick_the_bucketvbdwithincancerousjj	pop_offvbdwithincancernn	dievbdwithincancernn	deceasevbdwithinmalignant_neoplastic_diseasenn	
+
+BE: yrNNS
+EQ class: twelvemonthnns	theynns	yearnns	themnns	
+
+BE: grandmaNN
+EQ class: grannienn	grannn	nannn	grannynn	grandmothernn	nannann	
+
+BE: 3NNP
+EQ class: iiinnp	troikannp	tercetnnp	trionnp	terzettonnp	threennp	trinitynnp	treynnp	ternionnnp	threesomennp	tiercennp	triadnnp	ternarynnp	leashnnp	3.nnp	tripletnnp	trinennp	deuce-acennp	
+
+BE: breathNN
+EQ class: 
+
+BE: bipapNN
+EQ class: 
+
+BE: yearsNNS
+EQ class: old_agenns	geezerhoodnns	eldnns	theynns	themnns	agenns	
+
+BE: breathNN
+EQ class: 
+
+BE: cannotVBP
+EQ class: 
+
+BE: smokedVBN
+EQ class: smokevbn	
+
+BE: gaspingVBG
+EQ class: heavevbg	puffvbg	pantvbg	gaspvbg	
+
+BE: oldJJ
+EQ class: oldnessnn	
+
+BE: oldJJgrandmaNN
+EQ class: oldnessnngrannynn	oldjjnannn	oldnessnngrannn	oldjjgrannynn	oldjjgrannn	oldnessnnnannn	oldnessnngrandmothernn	oldnessnnnannann	oldjjgrandmothernn	oldnessnngrandmann	oldjjnannann	oldnessnngrannienn	oldjjgrannienn	
+
+BE: 50CDyrNNS
+EQ class: lcdtwelvemonthnns	5.0.cdthemnns	lcdyrnns	fiftycdyearnns	fiftycdyrnns	50cdtwelvemonthnns	fiftycdthemnns	fiftycdtwelvemonthnns	5.0.cdyrnns	5.0.cdtwelvemonthnns	5.0.cdyearnns	5.0.cdtheynns	lcdtheynns	50cdyearnns	lcdyearnns	50cdtheynns	50cdthemnns	lcdthemnns	fiftycdtheynns	
+
+BE: 40CDyearsNNS
+EQ class: 40cdgeezerhoodnns	4.0.cdyearsnns	xlcdyearsnns	fortycdagenns	40cdeldnns	xlcdagenns	fortycdold_agenns	fortycdthemnns	fortycdgeezerhoodnns	40cdold_agenns	4.0.cdagenns	4.0.cdthemnns	fortycdyearsnns	4.0.cdeldnns	xlcdtheynns	fortycdeldnns	xlcdthemnns	4.0.cdold_agenns	xlcdold_agenns	xlcdeldnns	4.0.cdgeezerhoodnns	4.0.cdtheynns	40cdagenns	fortycdtheynns	40cdtheynns	40cdthemnns	xlcdgeezerhoodnns	
+
+BE: grandmaNNgaspingVBG
+EQ class: nannanngaspingvbg	pantnnofingrannynn	grannynngaspingvbg	pantnnofingrannn	grandmothernngaspvbg	pantnnofinnannann	nannannpantvbg	grannnheavevbg	nannanngaspvbg	grandmanngaspvbg	nannngaspvbg	pantnnofingrandmothernn	gaspnnofingrannienn	grandmannheavevbg	grannynnpantvbg	grannnpantvbg	gaspnnofingrandmothernn	gaspnnofinnannann	grandmothernngaspingvbg	pantnnofinnannn	granniennpantvbg	nannnpuffvbg	gaspnnofingrannn	gaspnnofingrannynn	grannnpuffvbg	grannngaspingvbg	grannngaspvbg	granniennpuffvbg	pantnnofingrannienn	grandmothernnpuffvbg	nannnpantvbg	grandmothernnpantvbg	grannienngaspingvbg	nannngaspingvbg	nannannpuffvbg	nannnheavevbg	grannynnpuffvbg	grandmothernnheavevbg	gaspnnofingrandmann	gaspnnofinnannn	grannynnheavevbg	granniennheavevbg	grannienngaspvbg	grannynngaspvbg	grandmannpantvbg	nannannheavevbg	grandmannpuffvbg	pantnnofingrandmann	
+
+BE: shePRPgaspingVBG
+EQ class: sheprpheavevbg	pantnnofinsheprp	sheprppantvbg	gaspnnofinsheprp	sheprpgaspvbg	sheprppuffvbg	
+
+BE: grandmaNNsmokedVBN
+EQ class: smokingnnofingrannienn	smokennnannann	smokingnnnannann	grannynnsmokedvbn	tobacco_usernnnannann	nannnsmokevbn	fumennofingrannynn	smokingnngrannienn	grannynnsmokevbn	tobacco_usernngrandmothernn	smokernnofinnannn	tobacco_usernnofingrandmothernn	smokenngrannynn	smokennnannn	smokyjjofinnannann	smokyjjofinnannn	smokenngrandmothernn	smokyjjofingrandmothernn	smokennofingrannn	tobacco_usernnofingrannynn	smokennofingrandmann	smokernngrannynn	tobacco_usernngrannn	smokyjjofingrannynn	tobacco_usernnofingrandmann	smokernngrannienn	fumennofingrandmann	smokingnnofingrandmann	tobacco_usernnofinnannann	smokernnofinnannann	tobacco_usernnofinnannn	granniennsmokevbn	tobacco_usernngrandmann	nannnsmokedvbn	tobacco_usernnnannn	smokingnnofinnannann	smokernnofingrandmothernn	smokingnnofingrandmothernn	smokyjjofingrannienn	smokennofingrannienn	fumennofingrannienn	smokennofingrandmothernn	smokernnofingrannynn	fumennofinnannn	grannnsmokevbn	smokernngrannn	smokingnngrannynn	smokernnofingrandmann	smokingnngrannn	fumennofingrandmothernn	smokernngrandmothernn	smokennofinnannann	smokernnofingrannn	grandmothernnsmokedvbn	smokingnngrandmothernn	smokingnnnannn	grandmannsmokevbn	tobacco_usernnofingrannn	tobacco_usernngrannynn	smokyjjofingrannn	smokernnnannann	grandmothernnsmokevbn	smokingnnofingrannynn	fumennofingrannn	smokennofinnannn	smokernnofingrannienn	smokenngrannn	nannannsmokevbn	smokennofingrannynn	smokernnnannn	tobacco_usernngrannienn	nannannsmokedvbn	granniennsmokedvbn	grannnsmokedvbn	fumennofinnannann	smokyjjofingrandmann	tobacco_usernnofingrannienn	smokenngrandmann	smokingnnofingrannn	smokingnnofinnannn	smokenngrannienn	smokingnngrandmann	smokernngrandmann	
+
+BE: shePRPsmokedVBN
+EQ class: sheprpsmokevbn	tobacco_usernnsheprp	smokennofinsheprp	smokennsheprp	fumennofinsheprp	smokernnsheprp	smokingnnofinsheprp	tobacco_usernnofinsheprp	smokernnofinsheprp	smokyjjofinsheprp	smokingnnsheprp	
+
+BE: grandmaNNcannotVBP
+EQ class: grannynncannotvbp	nannncannotvbp	nannanncannotvbp	grannncannotvbp	grannienncannotvbp	grandmothernncannotvbp	
+
+BE: cannotVBPbreathNN
+EQ class: 
+
+BE: grandmaNNofIN3NNP
+EQ class: trionnpnannann	trinennpnannn	trinennpgrannynn	deuce-acennpnannann	trionnpgrannn	trinitynnpgrannn	troikannpgrandmothernn	nannannofinternionnnp	grannynnofin3.nnp	grandmothernnofindeuce-acennp	nannnofin3.nnp	nannannofinthreesomennp	grannnofintriadnnp	nannnofintiercennp	trionnpgrandmann	granniennofin3nnp	grannnofinterzettonnp	tiercennpgrandmothernn	granniennofintrinennp	deuce-acennpnannn	3.nnpgrannienn	triadnnpnannann	grannnofintroikannp	grannnofinternarynnp	3nnpnannann	nannannofintreynnp	grannynnofintreynnp	grandmothernnofintrinitynnp	leashnnpnannn	tercetnnpgrannynn	troikannpnannn	treynnpgrandmann	trinennpnannann	granniennofinternionnnp	deuce-acennpgrannynn	trinennpgrannienn	trinitynnpgrandmann	threennpgrandmothernn	triadnnpgrannynn	3nnpgrannienn	nannannofintrinennp	trionnpgrannynn	leashnnpgrandmann	3nnpnannn	grannnofintrionnp	grandmothernnofinthreesomennp	leashnnpnannann	trinitynnpnannn	treynnpnannann	grandmannofinternarynnp	grandmannofintercetnnp	grandmothernnofintiercennp	treynnpgrannynn	ternionnnpgrannn	tiercennpnannn	grannnofinternionnnp	grandmothernnofinternarynnp	grandmannofintrinennp	troikannpgrannn	tiercennpgrannn	threennpgrannienn	3nnpgrandmothernn	grandmothernnofinternionnnp	tercetnnpnannann	grandmothernnofintrinennp	threesomennpgrannn	iiinnpgrannn	nannnofintercetnnp	trionnpnannn	treynnpgrannn	nannnofin3nnp	threesomennpgrannienn	grandmannofindeuce-acennp	terzettonnpgrannn	triadnnpgrandmann	3nnpgrannynn	grannnofintrinitynnp	grannynnofinleashnnp	grannynnofintrinitynnp	grandmannofinternionnnp	grannynnofintrinennp	threesomennpgrannynn	grandmothernnofin3nnp	grannnofin3.nnp	nannannofintripletnnp	grandmothernnofin3.nnp	grannynnofintrionnp	threesomennpnannn	tripletnnpgrannienn	nannnofintriadnnp	triadnnpgrannienn	grannynnofintroikannp	grannnofinleashnnp	ternionnnpnannann	terzettonnpgrandmann	ternionnnpgrannynn	grandmothernnofintercetnnp	iiinnpgrannynn	grandmannofintrinitynnp	grandmothernnofintripletnnp	leashnnpgrannienn	leashnnpgrannynn	deuce-acennpgrannn	grannynnofin3nnp	ternarynnpnannann	treynnpgrandmothernn	grannynnofinternionnnp	nannnofintrinennp	3.nnpgrandmothernn	threennpgrannn	troikannpgrannienn	nannnofindeuce-acennp	nannannofintrinitynnp	deuce-acennpgrandmothernn	tiercennpgrannienn	nannannofinleashnnp	grandmannofintrionnp	grandmannofinthreesomennp	trinitynnpnannann	3nnpgrandmann	grandmannofinterzettonnp	granniennofintrinitynnp	nannnofinleashnnp	tiercennpgrandmann	tripletnnpgrannynn	tiercennpnannann	nannannofintrionnp	trinennpgrandmothernn	deuce-acennpgrannienn	grannynnofinternarynnp	nannannofinternarynnp	granniennofiniiinnp	ternarynnpgrannienn	grannynnofindeuce-acennp	grannnofin3nnp	grannynnofintiercennp	iiinnpgrandmann	threesomennpnannann	nannnofiniiinnp	grandmannofin3.nnp	threennpnannn	grandmothernnofintroikannp	ternarynnpgrannynn	tripletnnpgrandmothernn	nannnofintrionnp	granniennofinternarynnp	ternionnnpgrandmann	grandmannofintroikannp	threennpgrannynn	grannynnofinterzettonnp	granniennofintriadnnp	grannynnofintripletnnp	nannannofintercetnnp	trinennpgrannn	trinitynnpgrannynn	ternarynnpgrannn	grannnofiniiinnp	grannynnofinthreesomennp	nannannofintriadnnp	nannannofiniiinnp	nannnofintreynnp	grannnofintripletnnp	treynnpnannn	granniennofindeuce-acennp	ternarynnpgrandmann	nannnofinternionnnp	granniennofinterzettonnp	granniennofintiercennp	threennpnannann	nannnofintripletnnp	grandmothernnofinterzettonnp	grandmothernnofintreynnp	tercetnnpgrandmann	grannynnofintercetnnp	nannannofindeuce-acennp	grandmannofintreynnp	troikannpgrandmann	tripletnnpnannann	nannnofinthreesomennp	3.nnpgrannynn	granniennofinthreesomennp	3.nnpnannn	nannnofintrinitynnp	leashnnpgrannn	leashnnpgrandmothernn	grannnofindeuce-acennp	terzettonnpgrannienn	granniennofintreynnp	iiinnpgrandmothernn	grannnofintiercennp	deuce-acennpgrandmann	ternionnnpnannn	trinitynnpgrannienn	nannnofinterzettonnp	iiinnpnannann	grandmothernnofinleashnnp	iiinnpnannn	grannnofintrinennp	grandmannofiniiinnp	nannannofin3nnp	grandmannofinthreennp	granniennofintripletnnp	nannannofintroikannp	grandmothernnofintriadnnp	grannnofinthreesomennp	granniennofintrionnp	troikannpnannann	trinennpgrandmann	treynnpgrannienn	tiercennpgrannynn	terzettonnpnannn	tripletnnpgrandmann	grandmannofinleashnnp	grannnofinthreennp	triadnnpnannn	nannnofinthreennp	grandmothernnofiniiinnp	nannnofintroikannp	ternionnnpgrannienn	terzettonnpgrandmothernn	terzettonnpgrannynn	triadnnpgrannn	3.nnpnannann	granniennofintroikannp	grandmannofintiercennp	trionnpgrannienn	tercetnnpgrannienn	nannannofin3.nnp	tripletnnpgrannn	granniennofinthreennp	ternionnnpgrandmothernn	tripletnnpnannn	trionnpgrandmothernn	tercetnnpgrandmothernn	trinitynnpgrandmothernn	nannnofinternarynnp	grannnofintreynnp	grannynnofiniiinnp	terzettonnpnannann	3.nnpgrannn	troikannpgrannynn	ternarynnpnannn	grannynnofintriadnnp	grannnofintercetnnp	iiinnpgrannienn	triadnnpgrandmothernn	granniennofin3.nnp	tercetnnpnannn	tercetnnpgrannn	grandmannofintripletnnp	grandmannofintriadnnp	threennpgrandmann	nannannofinthreennp	granniennofinleashnnp	grannynnofinthreennp	ternarynnpgrandmothernn	threesomennpgrandmann	grandmothernnofintrionnp	3nnpgrannn	grandmothernnofinthreennp	nannannofintiercennp	nannannofinterzettonnp	granniennofintercetnnp	3.nnpgrandmann	threesomennpgrandmothernn	
+
+BE: cannotVBPwithoutINbipapNN
+EQ class: 
+
+BE: gaspingVBGforINbreathNN
+EQ class: gaspvbgforinbreathnn	pantvbgforinbreathnn	puffvbgforinbreathnn	heavevbgforinbreathnn	
+
+BE: smokedVBNforINyearsNNS
+EQ class: smokevbnforinold_agenns	smokevbnforinagenns	smokedvbnforinagenns	smokevbnforinthemnns	smokedvbnforintheynns	smokevbnforintheynns	smokedvbnforineldnns	smokevbnforineldnns	smokevbnforingeezerhoodnns	smokedvbnforingeezerhoodnns	smokevbnforinyearsnns	smokedvbnforinthemnns	smokedvbnforinold_agenns	
+
+BE: CooolOrganizationAnnotation
+EQ class: 
+
+BE: thinkingVBG
+EQ class: considervbg	conceivevbg	thinkvbg	believevbg	
+
+BE: soooJJ
+EQ class: 
+
+BE: soooJJCooolOrganizationAnnotation
+EQ class: 
+
+BE: theyPRPthinkingVBG
+EQ class: cancersprpbelievevbg	patientsprpconceivevbg	thoughtnnofinyearsprp	thoughtnncancersprp	ideannofinyrprp	ideannofinkidsprp	thoughtnnkidsprp	ideanncancersprp	theyprpconsidervbg	thoughtnnofincancersprp	yrprpconceivevbg	ideannofinyearsprp	kidsprpconsidervbg	patientsprpconsidervbg	cooolprpconsidervbg	kidsprpthinkvbg	thoughtnnofinkidsprp	ideannkidsprp	thoughtnnofincooolprp	yearsprpconceivevbg	cooolprpthinkvbg	yrprpbelievevbg	yearsprpthinkvbg	yearsprpthinkingvbg	thoughtnncooolprp	cooolprpconceivevbg	yrprpthinkvbg	patientsprpbelievevbg	thoughtnnyearsprp	theyprpconceivevbg	ideannyrprp	ideannofincancersprp	ideannofintheyprp	theyprpthinkvbg	yearsprpconsidervbg	ideannofincooolprp	kidsprpbelievevbg	ideanntheyprp	thoughtnnyrprp	kidsprpthinkingvbg	patientsprpthinkingvbg	ideannpatientsprp	thoughtnnofinyrprp	ideannofinpatientsprp	thoughtnnofinpatientsprp	yrprpthinkingvbg	yrprpconsidervbg	cancersprpconceivevbg	kidsprpconceivevbg	patientsprpthinkvbg	thoughtnntheyprp	theyprpbelievevbg	cancersprpthinkingvbg	cancersprpconsidervbg	cancersprpthinkvbg	cooolprpthinkingvbg	cooolprpbelievevbg	thoughtnnofintheyprp	thoughtnnpatientsprp	ideanncooolprp	ideannyearsprp	yearsprpbelievevbg	
+
+BE: theyPRPareAUX
+EQ class: cooolprpbeaux	yrprpbeaux	cancersprpareaux	theyprpbeaux	cooolprpareaux	kidsprpbeaux	patientsprpbeaux	cancersprpbeaux	yrprpareaux	kidsprpareaux	yearsprpareaux	yearsprpbeaux	patientsprpareaux	
+
+BE: areAUXCooolOrganizationAnnotation
+EQ class: beauxcooolorganizationannotation	
+
+BE: idiotNN
+EQ class: idioticjj	moronnn	half-witnn	imbecilenn	changelingnn	retardnn	cretinnn	
+
+BE: yourPRP$idiotNN
+EQ class: yourprp$idioticjj	changelingnnofinyourprp$	idiotnnofinyourprp$	yourprp$moronnn	idioticvbyourprp$	yourprp$cretinnn	half-witnnofinyourprp$	moronnnofinyourprp$	yourprp$idioticvb	yourprp$retardnn	imbecilennofinyourprp$	yourprp$half-witnn	yourprp$imbecilenn	cretinnnofinyourprp$	yourprp$changelingnn	retardnnofinyourprp$	idioticjjofinyourprp$	
+
+BE: disagreeVBP
+EQ class: take_issuevbp	dissentvbp	differvbp	
+
+BE: iPRPdisagreeVBP
+EQ class: iprpdissentvbp	dissensionnnofiniprp	dissonancennofiniprp	iprptake_issuevbp	disagreementnniprp	dissonancenniprp	dissensionnniprp	iprpdiffervbp	disagreementnnofiniprp	
+
+BE: realityNN
+EQ class: worldnn	
+
+BE: getVB
+EQ class: acquirevb	
+
+BE: seeVB
+EQ class: 
+
+BE: youPRPneedAUX
+EQ class: youprpaskaux	youprppostulateaux	youprprequireaux	youprptakeaux	youprpnecessitateaux	demandnnofinyouprp	neednnofinyouprp	youprpdemandaux	youprpcall_foraux	youprpinvolveaux	
+
+BE: seeVBrealityNN
+EQ class: seeingnnofinworldnn	visionarynnofinworldnn	seevbworldnn	seernnofinworldnn	beholdingnnofinrealitynn	visual_perceptionnnofinworldnn	illusionistnnofinworldnn	visual_perceptionnnofinrealitynn	illusionistnnofinrealitynn	seeingnnofinrealitynn	beholdingnnofinworldnn	visionarynnofinrealitynn	seernnofinrealitynn	
+
+BE: getVBoutRB
+EQ class: gettingnnofinoutrb	acquirevboutrb	acquiringnnofinoutrb	
+
+BE: shelteredVBN
+EQ class: sheltervbn	
+
+BE: shelteredVBNyouPRP
+EQ class: sheltervbnyouprp	shelternnofinyouprp	
+
+BE: areAUXApparentlyRB
+EQ class: plainjjininareaux	apparencynnininbeaux	unmistakablejjininbeaux	evidentjjininbeaux	evidentjjininareaux	patentjjininareaux	plainjjininbeaux	unmistakablejjininareaux	manifestjjininbeaux	apparentjjininareaux	patentjjininbeaux	apparentnessnnininbeaux	apparentjjininbeaux	apparencynnininareaux	manifestjjininareaux	beauxapparentlyrb	apparentnessnnininareaux	
+

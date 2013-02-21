@@ -1,0 +1,25 @@
+#just mastrubate when takin a shower try it and u will see
+#(S1 (S (ADVP (RB just)) (VP (VB mastrubate) (SBAR (WHADJP (WRB when) (JJ takin)) (S (NP (DT a) (VB shower)) (VP (VBP try) (SBAR (S (NP (NP (PRP it)) (CC and) (NP (NNP u))) (VP (MD will) (VP (VB see)))))))))))
+#Rule:Nouns
+r1uOrganizationAnnotation
+
+#Rule:Verbs
+r2mastrubateVB
+r2showerVB
+r2tryVBP
+r2seeVB
+
+#Rule:Adjs
+r4takinJJ
+
+#Rule:HeadNoun-V
+r11showerVBtryVBP
+r11itPRPseeVB
+r11uOrganizationAnnotationseeVB
+
+#Rule:V-ADV
+r46mastrubateVBjustRB
+
+@lemmas-left	mastrubate	u	it	see	takin	shower	try	
+@lemmas-right	just	see	try	
+@lemmas-center	

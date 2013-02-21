@@ -1,0 +1,615 @@
+BE: mNNP
+EQ class: meternnp	metrennp	
+
+BE: chemotherapyNN
+EQ class: chemotherapeuticaljj	chemotherapeuticjj	
+
+BE: oncologistsNNS
+EQ class: oncologistnns	theynns	themnns	
+
+BE: antioxidantsNNS
+EQ class: theynns	antioxidantnns	themnns	
+
+BE: chemoNN
+EQ class: 
+
+BE: cancerNN
+EQ class: cancerousjj	malignant_neoplastic_diseasenn	
+
+BE: activityNN
+EQ class: activejj	
+
+BE: chemoNN
+EQ class: 
+
+BE: drugsNNS
+EQ class: drugnns	theynns	themnns	
+
+BE: mentionedVBD
+EQ class: citevbd	bring_upvbd	namevbd	advertvbd	mentionvbd	refervbd	
+
+BE: preferVBP
+EQ class: 
+
+BE: takeVB
+EQ class: 
+
+BE: doingVBG
+EQ class: makevbg	dovbg	
+
+BE: inactivateVB
+EQ class: demobilisevb	demobilizevb	
+
+BE: killingVBG
+EQ class: killvbg	
+
+BE: gladJJ
+EQ class: gladnessnn	
+
+BE: chemoNNdrugsNNS
+EQ class: theynnsofinchemonn	dosevbchemonn	drugnnsofinchemonn	chemonndosevb	chemonntheynns	druggistvbchemonn	drugsnnsofinchemonn	chemonndrugvb	themnnsofinchemonn	chemonndrugnns	chemonndruggistvb	chemonnthemnns	drugvbchemonn	
+
+BE: youPRPmentionedVBD
+EQ class: youprpbring_upvbd	youprpadvertvbd	mentionernnyouprp	youprpcitevbd	youprpnamevbd	mentionernnofinyouprp	mentionnnofinyouprp	referencennofinyouprp	youprprefervbd	youprpmentionvbd	
+
+BE: oncologistsNNSpreferVBP
+EQ class: preferencennofinoncologistnns	themnnsprefervbp	tastennofinoncologistnns	predilectionnnthemnns	theynnsprefervbp	predilectionnnofinoncologistnns	preferencenntheynns	tastennthemnns	preferencennoncologistsnns	tastennoncologistsnns	penchantnnoncologistsnns	penchantnnofinthemnns	tastennofintheynns	preferencennofintheynns	tastenntheynns	predilectionnnofintheynns	penchantnnofinoncologistsnns	preferencennoncologistnns	penchantnntheynns	predilectionnnoncologistsnns	predilectionnnoncologistnns	preferencennofinthemnns	penchantnnofintheynns	tastennofinthemnns	tastennofinoncologistsnns	predilectionnntheynns	penchantnnthemnns	penchantnnoncologistnns	preferencennofinoncologistsnns	oncologistnnsprefervbp	penchantnnofinoncologistnns	preferencennthemnns	predilectionnnofinoncologistsnns	predilectionnnofinthemnns	tastennoncologistnns	
+
+BE: youPRPtakeVB
+EQ class: 
+
+BE: itPRPinactivateVB
+EQ class: itprpdemobilisevb	itprpdemobilizevb	inactivationnnofinitprp	inactivationnnitprp	
+
+BE: takeVBantioxidantsNNS
+EQ class: takevbantioxidantnns	takevbthemnns	takevbtheynns	
+
+BE: doingVBGchemoNN
+EQ class: makevbgchemonn	dovbgchemonn	
+
+BE: inactivateVBcancerNN
+EQ class: demobilisevbcancernn	inactivationnnofinmalignant_neoplastic_diseasenn	inactivatevbmalignant_neoplastic_diseasenn	demobilizevbcancerousjj	demobilizevbcancernn	inactivationnnofincancerousjj	inactivationnnofincancernn	demobilizevbmalignant_neoplastic_diseasenn	inactivatevbcancerousjj	demobilisevbmalignant_neoplastic_diseasenn	demobilisevbcancerousjj	
+
+BE: killingVBGactivityNN
+EQ class: violent_deathnnofinactivejj	killnnofinactivitynn	putting_to_deathnnofinactivejj	killingnnofinactivitynn	killablennofinactivejj	killnnofinactivejj	putting_to_deathnnofinactivitynn	killvbgactivejj	killablennofinactivitynn	slayernnofinactivitynn	slayernnofinactivejj	killernnofinactivitynn	violent_deathnnofinactivitynn	killingvbgactivejj	killingnnofinactivejj	killvbgactivitynn	killernnofinactivejj	
+
+BE: activityNNofINdrugsNNS
+EQ class: themnnsactivejj	activevbtheynns	activejjofindrugnns	activitynnofintheynns	drugnnsactivitynn	theynnsactivevb	activevbdrugnns	themnnsactivitynn	drugnnsactivejj	themnnsactivevb	activevbthemnns	drugsnnsactivevb	activejjofinthemnns	activitynnofinthemnns	activevbdrugsnns	drugsnnsactivitynn	theynnsactivejj	drugnnsactivevb	activitynnofindrugnns	drugsnnsactivejj	activejjofindrugsnns	activejjofintheynns	theynnsactivitynn	
+
+BE: mentionedVBDbeforeINchemotherapyNN
+EQ class: mentionedvbdbeforeinchemotherapeuticaljj	bring_upvbdbeforeinchemotherapeuticaljj	citevbdbeforeinchemotherapeuticjj	namevbdbeforeinchemotherapynn	namevbdbeforeinchemotherapeuticjj	mentionvbdbeforeinchemotherapeuticaljj	bring_upvbdbeforeinchemotherapynn	citevbdbeforeinchemotherapynn	advertvbdbeforeinchemotherapeuticjj	refervbdbeforeinchemotherapynn	citevbdbeforeinchemotherapeuticaljj	advertvbdbeforeinchemotherapynn	refervbdbeforeinchemotherapeuticaljj	advertvbdbeforeinchemotherapeuticaljj	refervbdbeforeinchemotherapeuticjj	mentionedvbdbeforeinchemotherapeuticjj	mentionvbdbeforeinchemotherapeuticjj	bring_upvbdbeforeinchemotherapeuticjj	mentionvbdbeforeinchemotherapynn	namevbdbeforeinchemotherapeuticaljj	
+
+BE: mentionedVBDbecauseINpreferVBP
+EQ class: namevbdbecauseinprefervbp	refervbdbecauseinprefervbp	advertvbdbecauseinprefervbp	mentionvbdbecauseinprefervbp	bring_upvbdbecauseinprefervbp	citevbdbecauseinprefervbp	
+
+BE: preferVBPthatINtakeVB
+EQ class: 
+
+BE: takeVBwhileINdoingVBG
+EQ class: takevbwhileinmakevbg	takevbwhileindovbg	
+
+BE: doingVBGbecauseINinactivateVB
+EQ class: doingvbgbecauseindemobilisevb	dovbgbecauseindemobilizevb	makevbgbecauseindemobilisevb	dovbgbecauseininactivatevb	makevbgbecauseininactivatevb	dovbgbecauseindemobilisevb	makevbgbecauseindemobilizevb	doingvbgbecauseindemobilizevb	
+
+BE: takeVBnotRB
+EQ class: 
+
+BE: inactivateVBpartiallyRB
+EQ class: demobilisevbpartiallyrb	partialnessnninactivationnn	partnninindemobilizevb	partialnessnninindemobilizevb	partnninininactivatevb	partnninindemobilisevb	partialjjinininactivatevb	partialjjinininactivationnn	inactivationnnofinpartiallyrb	partnninininactivationnn	partialnessnninindemobilisevb	partialjjinactivationnn	partialnessnninininactivatevb	partialnessnninininactivationnn	partialjjinindemobilisevb	partnninactivationnn	partialjjinindemobilizevb	demobilizevbpartiallyrb	
+
+BE: physicianNN
+EQ class: dr.nn	docnn	mediconn	doctornn	mdnn	
+
+BE: guidelinesNNS
+EQ class: theynns	guidelinenns	themnns	
+
+BE: useNN
+EQ class: utilisationnn	usagenn	exercisenn	employmentnn	utilizationnn	
+
+BE: vitaminsLocationAnnotation
+EQ class: 
+
+BE: askVB
+EQ class: enquirevb	inquirevb	
+
+BE: yourPRP$physicianNN
+EQ class: yourprp$docnn	doctornnofinyourprp$	physiciannnofinyourprp$	mediconnofinyourprp$	yourprp$mediconn	mdnnofinyourprp$	yourprp$doctornn	yourprp$mdnn	docnnofinyourprp$	dr.nnofinyourprp$	yourprp$dr.nn	
+
+BE: hisPRP$guidelinesNNS
+EQ class: guidelinesnnsofinvitaminsprp$	vitaminsprp$guidelinenns	theynnsofinvitaminsprp$	vitaminsprp$theynns	guidelinesnnsofinhisprp$	themnnsofinvitaminsprp$	guidelinennsofinvitaminsprp$	hisprp$theynns	themnnsofinhisprp$	vitaminsprp$themnns	guidelinennsofinhisprp$	hisprp$guidelinenns	hisprp$themnns	theynnsofinhisprp$	vitaminsprp$guidelinesnns	
+
+BE: youPRPneedAUX
+EQ class: youprpaskaux	youprppostulateaux	youprprequireaux	youprptakeaux	youprpnecessitateaux	demandnnofinyouprp	neednnofinyouprp	youprpdemandaux	youprpcall_foraux	youprpinvolveaux	
+
+BE: guidelinesNNSareAUX
+EQ class: themnnsbeaux	theynnsareaux	themnnsareaux	theynnsbeaux	guidelinennsareaux	guidelinennsbeaux	guidelinesnnsbeaux	
+
+BE: askVBphysicianNN
+EQ class: queriernnofinmediconn	queriernnofinphysiciannn	enquirevbdr.nn	inquirevbmdnn	questionernnofindoctornn	inquirernnofindocnn	questionernnofinmdnn	inquirevbmediconn	askvbmdnn	enquirevbmediconn	enquirernnofindoctornn	queriernnofindr.nn	inquirevbphysiciannn	enquirernnofindocnn	enquirevbphysiciannn	enquirernnofinmediconn	queriernnofindocnn	inquirevbdr.nn	askernnofindr.nn	inquirernnofinphysiciannn	enquirernnofinphysiciannn	inquirernnofindoctornn	askvbdr.nn	questionernnofinmediconn	queriernnofindoctornn	askernnofindoctornn	askernnofinmdnn	inquirernnofindr.nn	askernnofinmediconn	inquirernnofinmediconn	queriernnofinmdnn	inquirevbdoctornn	askvbdoctornn	enquirernnofinmdnn	questionernnofinphysiciannn	enquirevbmdnn	inquirevbdocnn	askernnofindocnn	askvbdocnn	inquirernnofinmdnn	questionernnofindr.nn	questionernnofindocnn	askernnofinphysiciannn	enquirevbdoctornn	askvbmediconn	enquirevbdocnn	enquirernnofindr.nn	
+
+BE: useNNofINvitaminsLocationAnnotation
+EQ class: employmentnnofinvitaminslocationannotation	utilizevbvitaminslocationannotation	vitaminslocationannotationutilisationnn	vitaminslocationannotationutilizevb	usagennofinvitaminslocationannotation	utilisevbvitaminslocationannotation	vitaminslocationannotationemployvb	utilisationnnofinvitaminslocationannotation	vitaminslocationannotationusagenn	employvbvitaminslocationannotation	vitaminslocationannotationusenn	vitaminslocationannotationutilisevb	utilizationnnofinvitaminslocationannotation	vitaminslocationannotationexercisenn	exercisennofinvitaminslocationannotation	vitaminslocationannotationemploymentnn	applyvbvitaminslocationannotation	vitaminslocationannotationapplyvb	vitaminslocationannotationutilizationnn	usevbvitaminslocationannotation	vitaminslocationannotationusevb	
+
+BE: areAUXaboutINuseNN
+EQ class: areauxaboutinemploymentnn	beauxaboutinemploymentnn	beauxaboutinutilizationnn	beauxaboutinusenn	areauxaboutinutilizationnn	areauxaboutinutilisationnn	beauxaboutinusagenn	areauxaboutinexercisenn	areauxaboutinusagenn	beauxaboutinexercisenn	beauxaboutinutilisationnn	
+
+BE: needAUXreallyRB
+EQ class: realitynnininpostulateaux	existentjjneednn	realjjininpostulateaux	demandauxreallyrb	existentjjininnecessitateaux	existentjjinincall_foraux	existentjjinindemandaux	realitynninindemandaux	realnessnnininrequireaux	realnessnnininneedaux	existentjjinintakeaux	realitynninininvolveaux	realjjininnecessitateaux	realnessnnininaskaux	realnessnnneednn	realitynnininneednn	realjjininrequireaux	realitynnininrequireaux	realitynninincall_foraux	realitynndemandnn	realnessnnininneednn	realnessnninintakeaux	existentjjininaskaux	existentjjininneednn	demandnnofinreallyrb	realjjinindemandaux	realitynnininnecessitateaux	realnessnninindemandnn	requireauxreallyrb	neednnofinreallyrb	realjjinininvolveaux	takeauxreallyrb	realitynninindemandnn	existentjjininpostulateaux	askauxreallyrb	existentjjininneedaux	realnessnninincall_foraux	realitynninintakeaux	realnessnnininnecessitateaux	existentjjinininvolveaux	realjjinindemandnn	postulateauxreallyrb	existentjjdemandnn	realnessnndemandnn	call_forauxreallyrb	realnessnninininvolveaux	realjjininneedaux	realjjdemandnn	existentjjinindemandnn	realjjininaskaux	realjjinintakeaux	realnessnninindemandaux	realitynnininaskaux	realnessnnininpostulateaux	existentjjininrequireaux	realitynnneednn	realjjneednn	realjjininneednn	realjjinincall_foraux	involveauxreallyrb	necessitateauxreallyrb	realitynnininneedaux	
+
+BE: blueberriesNNS
+EQ class: vacciniumnn	blueberry_bushnns	blueberrynns	theynns	genus_vacciniumnn	themnns	
+
+BE: broccoliNNS
+EQ class: genus_brassicann	theynns	brassicann	themnns	brassica_oleracea_italicanns	
+
+BE: dietNN
+EQ class: dieteticaljj	dieteticjj	dietaryjj	
+
+BE: putVB
+EQ class: posevb	placevb	positionvb	layvb	setvb	
+
+BE: yourPRP$dietNN
+EQ class: yourprp$dieteticjj	yourprp$dietaryjj	yourprp$dieteticalvb	yourprp$dietaryvb	dieteticvbyourprp$	yourprp$dieticianvb	yourprp$dieteticaljj	dieteticaljjofinyourprp$	yourprp$dietvb	dietaryjjofinyourprp$	dietaryvbyourprp$	dieteticjjofinyourprp$	dietvbyourprp$	dietnnofinyourprp$	dieteticalvbyourprp$	yourprp$dieteticvb	dieticianvbyourprp$	
+
+BE: putVBblueberriesNNS
+EQ class: positionvbblueberrynns	positionvbvacciniumnn	putvbblueberrynns	setvbgenus_vacciniumnn	posevbblueberriesnns	layvbgenus_vacciniumnn	placevbvacciniumnn	setvbblueberry_bushnns	putvbvacciniumnn	setvbvacciniumnn	layvbblueberrynns	layvbvacciniumnn	positionvbblueberry_bushnns	placevbtheynns	layvbtheynns	posevbgenus_vacciniumnn	placevbblueberry_bushnns	positionvbblueberriesnns	placevbblueberrynns	layvbthemnns	posevbthemnns	setvbthemnns	layvbblueberry_bushnns	placevbthemnns	putvbtheynns	positionvbtheynns	positionvbthemnns	setvbblueberriesnns	putvbgenus_vacciniumnn	posevbtheynns	putvbthemnns	setvbtheynns	positionvbgenus_vacciniumnn	posevbblueberrynns	putvbblueberry_bushnns	setvbblueberrynns	layvbblueberriesnns	posevbvacciniumnn	placevbblueberriesnns	placevbgenus_vacciniumnn	posevbblueberry_bushnns	
+
+BE: blueberriesNNSinINdietNN
+EQ class: dieteticaljjthemnns	blueberry_bushnnsinindieteticaljj	vacciniumnninindietaryjj	blueberrynnsinindietaryjj	dietaryjjvacciniumnn	dieteticaljjblueberry_bushnns	dietnnvacciniumnn	dieteticaljjvacciniumnn	dieteticjjvacciniumnn	theynnsinindietaryjj	theynnsinindietnn	themnnsinindieteticaljj	dietaryjjblueberriesnns	dietaryjjblueberry_bushnns	themnnsinindieteticjj	dieteticaljjblueberrynns	dieteticjjgenus_vacciniumnn	blueberrynnsinindieteticaljj	dietaryjjthemnns	genus_vacciniumnninindieteticjj	blueberry_bushnnsinindietaryjj	dieteticaljjgenus_vacciniumnn	dietnnthemnns	theynnsinindieteticaljj	dietnntheynns	dietnnblueberry_bushnns	blueberry_bushnnsinindietnn	dieteticjjblueberriesnns	dieteticjjtheynns	vacciniumnninindieteticaljj	blueberry_bushnnsinindieteticjj	dietnnblueberriesnns	genus_vacciniumnninindieteticaljj	theynnsinindieteticjj	blueberriesnnsinindietaryjj	genus_vacciniumnninindietnn	blueberrynnsinindieteticjj	blueberriesnnsinindieteticaljj	dietaryjjtheynns	themnnsinindietnn	dieteticjjblueberrynns	dieteticaljjblueberriesnns	blueberriesnnsinindieteticjj	dieteticaljjtheynns	dietnnblueberrynns	dietaryjjgenus_vacciniumnn	genus_vacciniumnninindietaryjj	dieteticjjthemnns	themnnsinindietaryjj	dietnngenus_vacciniumnn	blueberrynnsinindietnn	dietaryjjblueberrynns	dieteticjjblueberry_bushnns	vacciniumnninindietnn	vacciniumnninindieteticjj	
+
+BE: putVBregularlyRB
+EQ class: regularjjininposevb	regularitynnininpositionvb	regularjjininputvb	regularitynnininlayvb	placevbregularlyrb	regularjjininplacevb	regularitynnininputvb	posevbregularlyrb	regularitynnininsetvb	regularitynnininplacevb	regularitynnininposevb	regularjjininsetvb	layvbregularlyrb	positionvbregularlyrb	setvbregularlyrb	regularjjininpositionvb	regularjjininlayvb	
+
+BE: LabNN
+EQ class: science_laboratorynn	research_laboratorynn	laboratorynn	research_labnn	science_labnn	
+
+BE: ratsNNS
+EQ class: ratnns	theynns	rattyjj	themnns	
+
+BE: blueberriesNNS
+EQ class: vacciniumnn	blueberry_bushnns	blueberrynns	theynns	genus_vacciniumnn	themnns	
+
+BE: lifeNN
+EQ class: 
+
+BE: spanNN
+EQ class: 
+
+BE: foodNN
+EQ class: nutrientnn	
+
+BE: fedVBD
+EQ class: feedvbd	
+
+BE: testedVBN
+EQ class: testvbn	tryvbn	essayvbn	examinevbn	try_outvbn	provevbn	
+
+BE: longerJJR
+EQ class: longnessnn	longjjr	
+
+BE: otherJJ
+EQ class: 
+
+BE: longerJJRspanNN
+EQ class: longjjrspannn	longnessnnspannn	
+
+BE: otherJJfoodNN
+EQ class: otherjjnutrientnn	
+
+BE: LabNNratsNNS
+EQ class: ratvblabnn	research_labnnrattyvb	ratsnnsofinscience_laboratorynn	research_laboratorynnratvb	rattyjjofinscience_laboratorynn	ratnnsofinresearch_laboratorynn	research_labnntheynns	research_labnnthemnns	ratnnsofinlaboratorynn	labnnthemnns	ratvbresearch_laboratorynn	theynnsofinscience_laboratorynn	science_laboratorynnratsnns	laboratorynnratvb	theynnsofinscience_labnn	laboratorynnrattyjj	labnnrattyjj	ratnnsofinresearch_labnn	rattyjjofinresearch_laboratorynn	science_labnnratnns	ratnnsofinscience_laboratorynn	theynnsofinlabnn	research_labnnratnns	ratsnnsofinresearch_laboratorynn	science_laboratorynnrattyvb	ratsnnsofinlaboratorynn	science_labnnratvb	rattyvblabnn	research_laboratorynnratsnns	rattyvbscience_labnn	ratvblaboratorynn	science_laboratorynnthemnns	research_labnnratsnns	laboratorynnrattyvb	themnnsofinresearch_labnn	labnnratvb	theynnsofinlaboratorynn	rattyvbresearch_laboratorynn	science_labnnrattyvb	ratsnnsofinlabnn	laboratorynnratnns	science_labnnthemnns	ratvbresearch_labnn	rattyvbresearch_labnn	research_laboratorynnthemnns	research_laboratorynntheynns	theynnsofinresearch_laboratorynn	theynnsofinresearch_labnn	rattyjjofinscience_labnn	themnnsofinresearch_laboratorynn	science_laboratorynnratnns	rattyjjofinlaboratorynn	ratnnsofinlabnn	laboratorynnthemnns	ratvbscience_labnn	science_laboratorynnrattyjj	research_laboratorynnratnns	science_laboratorynntheynns	research_labnnratvb	rattyvbscience_laboratorynn	ratsnnsofinscience_labnn	labnntheynns	ratvbscience_laboratorynn	science_labnntheynns	research_laboratorynnrattyvb	labnnrattyvb	laboratorynnratsnns	rattyjjofinlabnn	themnnsofinscience_laboratorynn	laboratorynntheynns	science_labnnratsnns	research_labnnrattyjj	ratsnnsofinresearch_labnn	ratnnsofinscience_labnn	rattyjjofinresearch_labnn	science_laboratorynnratvb	themnnsofinlabnn	research_laboratorynnrattyjj	labnnratnns	rattyvblaboratorynn	themnnsofinscience_labnn	themnnsofinlaboratorynn	science_labnnrattyjj	
+
+BE: lifeNNspanNN
+EQ class: spannnofinlifenn	
+
+BE: ratsNNSfedVBD
+EQ class: eatingnnratnns	theynnsfedvbd	eatingnnofintheynns	eatingnnofinratsnns	feedingnntheynns	eatingnnofinrattyjj	feedingnnratnns	feedingnnofinrattyjj	ratnnsfedvbd	ratsnnsfeedvbd	feedingnnofinratsnns	themnnsfeedvbd	theynnsfeedvbd	feedingnnratsnns	eatingnnthemnns	eatingnnofinthemnns	rattyjjfeedvbd	eatingnntheynns	feedingnnofinratnns	eatingnnrattyjj	rattyjjfedvbd	eatingnnofinratnns	themnnsfedvbd	feedingnnofintheynns	feedingnnofinthemnns	ratnnsfeedvbd	feedingnnrattyjj	feedingnnthemnns	eatingnnratsnns	
+
+BE: blueberriesNNShadAUX
+EQ class: blueberriesnnsholdaux	havennofintheynns	vacciniumnnhave_gotaux	theynnshave_gotaux	wealthy_personnnofintheynns	theynnshaveaux	genus_vacciniumnnhave_gotaux	rich_personnnofinblueberrynns	wealthy_personnnofinblueberriesnns	rich_personnnofinvacciniumnn	havennofingenus_vacciniumnn	genus_vacciniumnnhadaux	blueberrynnsholdaux	blueberriesnnshaveaux	blueberrynnshadaux	themnnsholdaux	theynnsholdaux	themnnshaveaux	havennofinblueberriesnns	rich_personnnofinblueberry_bushnns	wealthy_personnnofinblueberry_bushnns	havennofinblueberry_bushnns	blueberry_bushnnsholdaux	rich_personnnofinthemnns	vacciniumnnholdaux	vacciniumnnhadaux	blueberrynnshave_gotaux	havennofinvacciniumnn	havennofinthemnns	themnnshadaux	genus_vacciniumnnholdaux	blueberry_bushnnshaveaux	wealthy_personnnofinthemnns	wealthy_personnnofinvacciniumnn	rich_personnnofingenus_vacciniumnn	themnnshave_gotaux	blueberriesnnshave_gotaux	blueberry_bushnnshadaux	blueberry_bushnnshave_gotaux	rich_personnnofinblueberriesnns	theynnshadaux	wealthy_personnnofinblueberrynns	havennofinblueberrynns	blueberrynnshaveaux	vacciniumnnhaveaux	wealthy_personnnofingenus_vacciniumnn	genus_vacciniumnnhaveaux	rich_personnnofintheynns	
+
+BE: hadAUXspanNN
+EQ class: holdauxspannn	have_gotauxspannn	rich_personnnofinspannn	havennofinspannn	haveauxspannn	wealthy_personnnofinspannn	
+
+BE: testedVBNfoodNN
+EQ class: essayvbnfoodnn	essayvbnnutrientnn	testvbnfoodnn	tryvbnnutrientnn	try_outvbnfoodnn	provevbnfoodnn	trial_runnnofinnutrientnn	tryoutnnofinnutrientnn	testnnofinnutrientnn	testedvbnnutrientnn	tryvbnfoodnn	trialnnofinnutrientnn	testvbnnutrientnn	tryoutnnofinfoodnn	testingnnofinfoodnn	testnnofinfoodnn	testingnnofinnutrientnn	examinevbnnutrientnn	examinevbnfoodnn	try_outvbnnutrientnn	trialnnofinfoodnn	trial_runnnofinfoodnn	provevbnnutrientnn	
+
+BE: spanNNthanINfoodNN
+EQ class: foodnnspannn	nutrientnnspannn	spannnthaninnutrientnn	
+
+BE: applesNNS
+EQ class: applenns	theynns	themnns	
+
+BE: orangesNNS
+EQ class: orangenns	theynns	themnns	
+
+BE: strawberriesOrganizationAnnotation
+EQ class: 
+
+BE: applesNNSorangesNNS
+EQ class: orangesnnsapplenns	themnnstheynns	themnnsthemnns	applennsthemnns	orangesnnsapplesnns	applennsorangesnns	themnnsapplenns	theynnsapplesnns	orangesnnstheynns	theynnsorangesnns	themnnsapplesnns	applennstheynns	applesnnsthemnns	orangennsthemnns	themnnsorangenns	orangesnnsthemnns	theynnsthemnns	themnnsorangesnns	orangennsapplenns	theynnstheynns	applesnnstheynns	theynnsorangenns	applennsorangenns	theynnsapplenns	orangennsapplesnns	orangennstheynns	applesnnsorangenns	
+
+BE: colorsNNS
+EQ class: theynns	coloursnns	themnns	
+
+BE: foodsNNS
+EQ class: foodnns	theynns	nutrientnns	themnns	
+
+BE: lotsNNS
+EQ class: dozensnns	loadsnns	heapsnns	scoresnns	gobsnns	lashingsnns	slewsnns	stacksnns	pilesnns	tonsnns	oodlesnns	theynns	wadsnns	scadsnns	raftsnns	themnns	
+
+BE: vitaminsPersonAnnotation
+EQ class: 
+
+BE: meanVBP
+EQ class: intendvbp	
+
+BE: BrightJJ
+EQ class: brightnessnn	
+
+BE: rawJJ
+EQ class: naturaljj	rudejj	
+
+BE: antioxidantJJ
+EQ class: 
+
+BE: BrightJJcolorsNNS
+EQ class: brightjjcoloursnns	brightnessnnthemnns	brightnessnncolorsnns	brightnessnncoloursnns	brightjjtheynns	brightjjthemnns	brightnessnntheynns	
+
+BE: rawJJfoodsNNS
+EQ class: rawjjnutrientnns	rudejjfoodnns	naturaljjfoodsnns	rawjjfoodnns	naturaljjtheynns	rawjjtheynns	naturaljjnutrientnns	rudejjtheynns	rudejjfoodsnns	naturaljjfoodnns	rudejjthemnns	naturaljjthemnns	rawjjthemnns	rudejjnutrientnns	
+
+BE: antioxidantJJvitaminsPersonAnnotation
+EQ class: 
+
+BE: colorsNNSmeanVBP
+EQ class: themnnsmeanvbp	significationnnthemnns	meaningnnofincoloursnns	importnnofincoloursnns	significationnnofincolorsnns	meaningnnofinthemnns	significationnnofinthemnns	significancenncolorsnns	importnnofinthemnns	importnnofintheynns	themnnsintendvbp	importnnofincolorsnns	meaningnncolorsnns	coloursnnsintendvbp	significationnntheynns	meaningnncoloursnns	significationnncolorsnns	importnnthemnns	meaningnnofintheynns	significancennofintheynns	coloursnnsmeanvbp	significationnnofintheynns	theynnsintendvbp	significationnncoloursnns	theynnsmeanvbp	importnncoloursnns	significancennofincolorsnns	significancenntheynns	meaningnnofincolorsnns	meaningnnthemnns	significationnnofincoloursnns	significancenncoloursnns	significancennofinthemnns	importnntheynns	colorsnnsintendvbp	significancennthemnns	meaningnntheynns	significancennofincoloursnns	importnncolorsnns	
+
+BE: meanVBPlotsNNS
+EQ class: importnnofinheapsnns	significationnnofinwadsnns	significancennofinslewsnns	meaningnnofinloadsnns	significancennofinheapsnns	significationnnofindozensnns	meaningnnofinlotsnns	meanvbpthemnns	meanvbplashingsnns	importnnofintonsnns	significationnnofinscadsnns	meaningnnofinscadsnns	meaningnnofintheynns	significancennofintheynns	meanvbploadsnns	significationnnofintheynns	meanvbpoodlesnns	meanvbppilesnns	significancennofinlashingsnns	significationnnofinpilesnns	significationnnofinloadsnns	significationnnofinscoresnns	meaningnnofinheapsnns	importnnofinraftsnns	meanvbptheynns	meaningnnofinwadsnns	meaningnnofinstacksnns	significationnnofinthemnns	significancennofinscoresnns	significancennofindozensnns	meaningnnofinslewsnns	intendvbpwadsnns	meaningnnofinpilesnns	meanvbpgobsnns	importnnofinscadsnns	meanvbptonsnns	intendvbpscadsnns	intendvbpoodlesnns	importnnofindozensnns	significationnnofinoodlesnns	meaningnnofindozensnns	meanvbpwadsnns	importnnofingobsnns	intendvbpraftsnns	meaningnnofinoodlesnns	intendvbpheapsnns	importnnofinlashingsnns	meanvbpslewsnns	significancennofinwadsnns	intendvbpstacksnns	intendvbpscoresnns	importnnofinlotsnns	importnnofintheynns	significationnnofinstacksnns	significancennofinoodlesnns	significationnnofingobsnns	significationnnofinlotsnns	meaningnnofinlashingsnns	intendvbploadsnns	significationnnofinheapsnns	significancennofintonsnns	intendvbptonsnns	intendvbpgobsnns	intendvbpslewsnns	meaningnnofintonsnns	importnnofinslewsnns	importnnofinscoresnns	importnnofinoodlesnns	significancennofinscadsnns	intendvbpdozensnns	meaningnnofingobsnns	significancennofinpilesnns	meanvbpstacksnns	significationnnofinslewsnns	significationnnofinlashingsnns	significancennofinloadsnns	meanvbpscoresnns	importnnofinpilesnns	significationnnofinraftsnns	meaningnnofinthemnns	intendvbplashingsnns	importnnofinstacksnns	importnnofinthemnns	intendvbppilesnns	meanvbpscadsnns	importnnofinloadsnns	significationnnofintonsnns	intendvbplotsnns	meanvbpheapsnns	intendvbpthemnns	significancennofinstacksnns	meaningnnofinraftsnns	significancennofingobsnns	significancennofinlotsnns	significancennofinraftsnns	meanvbpdozensnns	significancennofinthemnns	meaningnnofinscoresnns	importnnofinwadsnns	meanvbpraftsnns	intendvbptheynns	
+
+BE: colorsNNSinINfoodsNNS
+EQ class: themnnsinintheynns	foodnnscoloursnns	coloursnnsinintheynns	coloursnnsininfoodsnns	themnnstheynns	theynnsininfoodnns	foodnnstheynns	themnnsthemnns	colorsnnsinintheynns	foodnnscolorsnns	foodnnsthemnns	foodsnnscoloursnns	nutrientnnscolorsnns	foodsnnsthemnns	theynnsinintheynns	foodsnnstheynns	themnnscoloursnns	themnnsininfoodsnns	theynnscoloursnns	nutrientnnscoloursnns	colorsnnsininfoodnns	theynnsininthemnns	theynnsthemnns	nutrientnnstheynns	foodsnnscolorsnns	theynnstheynns	nutrientnnsthemnns	themnnsininfoodnns	themnnsininthemnns	coloursnnsininthemnns	coloursnnsininnutrientnns	coloursnnsininfoodnns	colorsnnsininnutrientnns	colorsnnsininthemnns	theynnscolorsnns	themnnscolorsnns	themnnsininnutrientnns	theynnsininnutrientnns	theynnsininfoodsnns	
+
+BE: lotsNNSofINvitaminsPersonAnnotation
+EQ class: vitaminspersonannotationwadsnns	pilesnnsofinvitaminspersonannotation	vitaminspersonannotationtonsnns	theynnsofinvitaminspersonannotation	vitaminspersonannotationheapsnns	oodlesnnsofinvitaminspersonannotation	themnnsofinvitaminspersonannotation	vitaminspersonannotationdozensnns	heapsnnsofinvitaminspersonannotation	vitaminspersonannotationlotsnns	tonsnnsofinvitaminspersonannotation	scoresnnsofinvitaminspersonannotation	vitaminspersonannotationslewsnns	vitaminspersonannotationloadsnns	vitaminspersonannotationthemnns	scadsnnsofinvitaminspersonannotation	gobsnnsofinvitaminspersonannotation	vitaminspersonannotationscoresnns	slewsnnsofinvitaminspersonannotation	vitaminspersonannotationlashingsnns	vitaminspersonannotationgobsnns	vitaminspersonannotationraftsnns	loadsnnsofinvitaminspersonannotation	vitaminspersonannotationoodlesnns	raftsnnsofinvitaminspersonannotation	vitaminspersonannotationstacksnns	stacksnnsofinvitaminspersonannotation	dozensnnsofinvitaminspersonannotation	vitaminspersonannotationscadsnns	wadsnnsofinvitaminspersonannotation	vitaminspersonannotationpilesnns	lashingsnnsofinvitaminspersonannotation	vitaminspersonannotationtheynns	
+
+BE: meanVBPgenerallyRB
+EQ class: significancennofingenerallyrb	importnnofingenerallyrb	significationnnofingenerallyrb	intendvbpgenerallyrb	meaningnnofingenerallyrb	
+
+BE: FruitNN
+EQ class: fruityjj	
+
+BE: yogurtNN
+EQ class: yoghurtnn	yoghourtnn	
+
+BE: smoothiesNNS
+EQ class: charmernns	smoothynns	theynns	smoothienns	sweet_talkernns	themnns	
+
+BE: goodJJ
+EQ class: goodnessnn	
+
+BE: yogurtNNsmoothiesNNS
+EQ class: smoothynnsofinyogurtnn	yoghurtnnsmoothynns	yoghurtnnthemnns	sweet_talkernnsofinyogurtnn	theynnsofinyoghourtnn	theynnsofinyoghurtnn	yogurtnnthemnns	smoothiennsofinyoghurtnn	charmernnsofinyoghourtnn	smoothiennsofinyogurtnn	yogurtnntheynns	yoghourtnnsmoothienns	yogurtnnsmoothienns	yoghurtnnsmoothienns	charmernnsofinyoghurtnn	charmernnsofinyogurtnn	yoghurtnncharmernns	yoghourtnnsmoothynns	sweet_talkernnsofinyoghourtnn	yogurtnnsmoothynns	themnnsofinyoghurtnn	smoothynnsofinyoghurtnn	yoghurtnntheynns	yoghourtnncharmernns	yogurtnnsweet_talkernns	yoghourtnnsweet_talkernns	yoghurtnnsweet_talkernns	yoghurtnnsmoothiesnns	yoghourtnnsmoothiesnns	yoghourtnntheynns	theynnsofinyogurtnn	yoghourtnnthemnns	yogurtnncharmernns	smoothynnsofinyoghourtnn	smoothiennsofinyoghourtnn	smoothiesnnsofinyoghourtnn	sweet_talkernnsofinyoghurtnn	smoothiesnnsofinyoghurtnn	themnnsofinyoghourtnn	themnnsofinyogurtnn	smoothiesnnsofinyogurtnn	
+
+BE: FruitNNsmoothiesNNS
+EQ class: fruitnnsmoothienns	fruitnnofintheynns	theynnsofinfruityjj	smoothynnsofinfruityjj	fruityjjsmoothiesnns	fruitnnofinsweet_talkernns	fruitnntheynns	charmernnsfructifyvb	theynnsfructifyvb	themnnsfructifyvb	smoothynnsfruitvb	smoothiesnnsfructifyvb	fruitagennofinthemnns	fruityjjsmoothynns	fruitagennofinsmoothienns	sweet_talkernnsofinfruitnn	sweet_talkernnsofinfruityjj	smoothiesnnsfruitvb	fruityjjcharmernns	fruityjjofinsweet_talkernns	fruitagennofinsmoothiesnns	fruityjjtheynns	fruitnnofincharmernns	fruityjjsweet_talkernns	fruityjjofinsmoothiesnns	fruitagennofintheynns	theynnsfruitvb	smoothiennsfruitvb	charmernnsofinfruityjj	fructificationnnofinsmoothienns	fruityjjofinsmoothynns	fruitnnofinsmoothienns	fruitnnofinsmoothynns	themnnsofinfruitnn	fruityjjofincharmernns	fruitnnofinthemnns	fruitagennofinsmoothynns	sweet_talkernnsfructifyvb	fruitagennofinsweet_talkernns	fruitnnsmoothynns	smoothiennsofinfruitnn	smoothiennsofinfruityjj	smoothiennsfructifyvb	fruityjjofintheynns	fruityjjofinthemnns	theynnsofinfruitnn	themnnsfruitvb	fructificationnnofincharmernns	fruitnnofinsmoothiesnns	fruityjjthemnns	fructificationnnofintheynns	charmernnsofinfruitnn	fructificationnnofinsmoothynns	fruitnncharmernns	fructificationnnofinthemnns	fructificationnnofinsweet_talkernns	smoothiesnnsofinfruitnn	fruitagennofincharmernns	smoothynnsofinfruitnn	fruityjjofinsmoothienns	charmernnsfruitvb	sweet_talkernnsfruitvb	fruitnnsweet_talkernns	fruityjjsmoothienns	smoothynnsfructifyvb	smoothiesnnsofinfruityjj	fruitnnthemnns	fructificationnnofinsmoothiesnns	themnnsofinfruityjj	
+
+BE: smoothiesNNSareAUX
+EQ class: smoothiennsbeaux	themnnsareaux	charmernnsbeaux	smoothiesnnsbeaux	themnnsbeaux	charmernnsareaux	theynnsareaux	sweet_talkernnsareaux	theynnsbeaux	smoothiennsareaux	sweet_talkernnsbeaux	smoothynnsbeaux	smoothynnsareaux	
+
+BE: areAUXgoodJJ
+EQ class: areauxgoodnessnn	beauxgoodnessnn	beauxgoodjj	
+
+BE: areAUXalwaysRB
+EQ class: beauxalwaysrb	
+
+BE: yogurtNN
+EQ class: yoghurtnn	yoghourtnn	
+
+BE: systemNN
+EQ class: 
+
+BE: proteinNN
+EQ class: proteinaceousjj	
+
+BE: powderNNP
+EQ class: pulverisationnnp	powderyjj	pulverizationnnp	
+
+BE: vitaminsPersonAnnotation
+EQ class: 
+
+BE: fruitsNNS
+EQ class: theynns	fruityjj	fruitnns	themnns	
+
+BE: fitNN
+EQ class: scenenn	tantrumnn	conniptionnn	
+
+BE: smoothieNN
+EQ class: sweet_talkernn	smoothynn	charmernn	
+
+BE: ..NNS
+EQ class: theynns	themnns	nns	
+
+BE: getVB
+EQ class: acquirevb	
+
+BE: workingVBG
+EQ class: workvbg	
+
+BE: addVB
+EQ class: 
+
+BE: seeVBP
+EQ class: 
+
+BE: drinkVB
+EQ class: imbibevb	
+
+BE: drinkVBifIN
+EQ class: imbibevbifin	drinkernnofinifin	imbibitionnnofinifin	drinknnofinifin	imbibingnnofinifin	drinkingnnofinifin	
+
+BE: liveJJ
+EQ class: unrecordedjj	
+
+BE: digestiveJJ
+EQ class: digestionnn	
+
+BE: variousJJ
+EQ class: assortedjj	
+
+BE: deliciousJJ
+EQ class: delightfuljj	
+
+BE: easyJJ
+EQ class: easinessnn	
+
+BE: liveJJyogurtNN
+EQ class: unrecordedjjyogurtnn	livejjyoghourtnn	unrecordedjjyoghurtnn	unrecordedjjyoghourtnn	livejjyoghurtnn	
+
+BE: digestiveJJsystemNN
+EQ class: digestionnnsystemnn	
+
+BE: variousJJfruitsNNS
+EQ class: variousjjtheynns	assortedjjfruitnns	assortedjjfruityjj	variousjjthemnns	fructifyvbvariouslyrb	assortedjjfruitsnns	variousjjfruityjj	fruitvbvariouslyrb	variousjjfruitnns	assortedjjthemnns	fruityvbvariouslyrb	fruitletvbvariouslyrb	assortedjjtheynns	fruiterervbvariouslyrb	
+
+BE: deliciousJJeasyJJ
+EQ class: delightfuljjeasyjj	deliciousjjeasinessnn	delightfuljjeasinessnn	
+
+BE: yourPRP$systemNN
+EQ class: systemnnofinyourprp$	
+
+BE: smoothieNN..NNS
+EQ class: charmernnnns	smoothynntheynns	smoothynn..nns	sweet_talkernn..nns	sweet_talkernnnns	sweet_talkernntheynns	smoothienntheynns	charmernn..nns	charmernnthemnns	smoothiennnns	smoothynnthemnns	sweet_talkernnthemnns	charmernntheynns	smoothiennthemnns	smoothynnnns	
+
+BE: yogurtNNgetVB
+EQ class: yogurtnnacquirevb	gettingnnyogurtnn	acquiringnnyogurtnn	acquiringnnyoghourtnn	gettingnnyoghourtnn	acquiringnnofinyogurtnn	yoghourtnnacquirevb	acquiringnnyoghurtnn	yoghourtnngetvb	yoghurtnnacquirevb	gettingnnofinyogurtnn	gettingnnyoghurtnn	yoghurtnngetvb	gettingnnofinyoghurtnn	acquiringnnofinyoghurtnn	gettingnnofinyoghourtnn	acquiringnnofinyoghourtnn	
+
+BE: systemNNworkingVBG
+EQ class: workernnofinsystemnn	systemnnworkvbg	worknnofinsystemnn	workernnsystemnn	
+
+BE: youPRPaddVB
+EQ class: additivejjofinyouprp	add-onnnyouprp	additivennofinyouprp	additionnnyouprp	improvernnofinyouprp	additionnnofinyouprp	add-onnnofinyouprp	improvernnyouprp	
+
+BE: youPRPseeVBP
+EQ class: illusionistnnofinyouprp	beholdingnnyouprp	seeingnnyouprp	visionarynnyouprp	seernnofinyouprp	visionarynnofinyouprp	seernnyouprp	beholdingnnofinyouprp	visual_perceptionnnofinyouprp	seeingnnofinyouprp	illusionistnnyouprp	visual_perceptionnnyouprp	
+
+BE: addVBproteinNN
+EQ class: add-onnnofinproteinaceousjj	add-onnnofinproteinnn	additionnnofinproteinnn	additivejjofinproteinnn	additivejjofinproteinaceousjj	improvernnofinproteinaceousjj	additionnnofinproteinaceousjj	additivennofinproteinaceousjj	additivennofinproteinnn	addvbproteinaceousjj	improvernnofinproteinnn	
+
+BE: addVBfruitsNNS
+EQ class: improvernnofintheynns	improvernnofinthemnns	additionnnofintheynns	improvernnofinfruitnns	additivejjofinfruitsnns	addvbfruityjj	addvbtheynns	additivennofinthemnns	add-onnnofinthemnns	additivejjofinfruityjj	addvbthemnns	add-onnnofinfruitsnns	addvbfruitnns	additivennofinfruityjj	additivejjofinthemnns	additivennofintheynns	additionnnofinfruitnns	additionnnofinfruitsnns	additivejjofinfruitnns	additionnnofinfruityjj	add-onnnofintheynns	add-onnnofinfruityjj	add-onnnofinfruitnns	additionnnofinthemnns	additivennofinfruitsnns	improvernnofinfruitsnns	additivennofinfruitnns	additivejjofintheynns	improvernnofinfruityjj	
+
+BE: seeVBPfitNN
+EQ class: seernnofintantrumnn	seevbpscenenn	seeingnnofinfitnn	seeingnnofintantrumnn	beholdingnnofinconniptionnn	beholdingnnofinscenenn	seernnofinfitnn	illusionistnnofinfitnn	visionarynnofinscenenn	seevbpconniptionnn	visionarynnofinconniptionnn	visionarynnofinfitnn	illusionistnnofintantrumnn	illusionistnnofinconniptionnn	beholdingnnofinfitnn	seernnofinscenenn	seeingnnofinscenenn	visual_perceptionnnofintantrumnn	visionarynnofintantrumnn	visual_perceptionnnofinconniptionnn	beholdingnnofintantrumnn	seeingnnofinconniptionnn	illusionistnnofinscenenn	seevbptantrumnn	seernnofinconniptionnn	visual_perceptionnnofinscenenn	visual_perceptionnnofinfitnn	
+
+BE: drinkVB..NNS
+EQ class: drinknnofinthemnns	imbibevbtheynns	drinkvbtheynns	drinkernnofinthemnns	imbibevbthemnns	drinknnofin..nns	imbibingnnofinnns	drinkvbnns	imbibingnnofin..nns	drinkvbthemnns	drinkingnnofin..nns	imbibingnnofinthemnns	drinkernnofintheynns	imbibitionnnofinthemnns	imbibevbnns	drinkernnofin..nns	drinkingnnofintheynns	imbibitionnnofin..nns	drinknnofintheynns	drinkingnnofinthemnns	drinkingnnofinnns	imbibitionnnofinnns	imbibitionnnofintheynns	drinknnofinnns	imbibevb..nns	drinkernnofinnns	imbibingnnofintheynns	
+
+BE: getVBsystemNN
+EQ class: gettingnnofinsystemnn	acquirevbsystemnn	acquiringnnofinsystemnn	
+
+BE: fitNNforINeasyJJ
+EQ class: scenennforineasinessnn	easinessnnfitnn	easinessnnscenenn	tantrumnnforineasyjj	easinessnnconniptionnn	conniptionnnforineasinessnn	easyjjfitnn	conniptionnnforineasyjj	scenennforineasyjj	easyjjscenenn	tantrumnnforineasinessnn	easyjjconniptionnn	fitnnforineasinessnn	easinessnntantrumnn	easyjjtantrumnn	
+
+BE: addVBasINseeVBP
+EQ class: 
+
+BE: workingVBGcorrectlyRB
+EQ class: workvbgcorrectlyrb	worknnofincorrectlyrb	workernnofincorrectlyrb	
+
+BE: supplementsNNS
+EQ class: supplementnns	theynns	supplementaryjj	addendumnns	postscriptnns	themnns	
+
+BE: supplementsNNS
+EQ class: supplementnns	theynns	supplementaryjj	addendumnns	postscriptnns	themnns	
+
+BE: mailNN
+EQ class: 
+
+BE: orderNN
+EQ class: 
+
+BE: lineNN
+EQ class: 
+
+BE: companiesNNS
+EQ class: companynns	theynns	themnns	
+
+BE: Vitamin Shoppe  www.vitaminshoppe.OrganizationAnnotation
+EQ class: vitamin shoppe  wwwvitaminshoppeorganizationannotation	
+
+BE: www.vitaminshoppe.comNNP
+EQ class: wwwvitaminshoppecomnnp	
+
+BE: Swanson s vitamin  www.swansonvitamins.OrganizationAnnotation
+EQ class: swanson s vitamin  wwwswansonvitaminsorganizationannotation	
+
+BE: www.swansonvitamins.comNN
+EQ class: wwwswansonvitaminscomnn	
+
+BE: companiesNNS
+EQ class: companynns	theynns	themnns	
+
+BE: inventoryNN
+EQ class: stock_listnn	
+
+BE: productsNNS
+EQ class: warenns	theynns	merchandisenns	productnns	themnns	
+
+BE: discountsNNS
+EQ class: discountnns	theynns	deductionnns	themnns	price_reductionnns	
+
+BE: costsNNS
+EQ class: theynns	themnns	
+
+BE: purchasesNNS
+EQ class: purchasenns	theynns	themnns	
+
+BE: levelNN
+EQ class: degreenn	gradenn	
+
+BE: marketersNNS
+EQ class: marketernns	vendernns	theynns	vendornns	traffickernns	sellernns	themnns	
+
+BE: cancerNN
+EQ class: cancerousjj	malignant_neoplastic_diseasenn	
+
+BE: formulaNN
+EQ class: expressionnn	
+
+BE: luckNN
+EQ class: lotnn	fortunenn	portionnn	fatenn	destinynn	circumstancesnn	
+
+BE: buyVB
+EQ class: purchasevb	
+
+BE: tryVB
+EQ class: seekvb	essayvb	attemptvb	assayvb	
+
+BE: buyingVBG
+EQ class: buyvbg	purchasevbg	
+
+BE: avoidVB
+EQ class: 
+
+BE: associatedVBN
+EQ class: link_upvbn	colligatevbn	connectvbn	tie_invbn	relatevbn	linkvbn	associatevbn	
+
+BE: madeVBN
+EQ class: makevbn	dovbn	
+
+BE: claimingVBG
+EQ class: claimvbg	
+
+BE: curingVBG
+EQ class: healvbg	bring_aroundvbg	curevbg	
+
+BE: hugeJJ
+EQ class: vastjj	brobdingnagianjj	immensejj	
+
+BE: bigJJ
+EQ class: largejj	bignessnn	
+
+BE: extraJJ
+EQ class: excessjj	sparejj	supererogatoryjj	supernumeraryjj	superfluousjj	surplusjj	redundantjj	
+
+BE: highJJ
+EQ class: highnessnn	
+
+BE: secretJJ
+EQ class: 
+
+BE: goodJJ
+EQ class: goodnessnn	
+
+BE: hugeJJinventoryNN
+EQ class: vastjjstock_listnn	immensejjstock_listnn	immensejjinventorynn	vastjjinventorynn	brobdingnagianjjinventorynn	hugejjstock_listnn	brobdingnagianjjstock_listnn	
+
+BE: bigJJdiscountsNNS
+EQ class: largejjthemnns	bigjjdeductionnns	largejjprice_reductionnns	bignessnndiscountsnns	bigjjtheynns	bigjjprice_reductionnns	bigjjdiscountnns	largejjdiscountnns	bigjjthemnns	largejjtheynns	bignessnndiscountnns	bignessnntheynns	bignessnnprice_reductionnns	bignessnnthemnns	largejjdeductionnns	largejjdiscountsnns	bignessnndeductionnns	
+
+BE: extraJJcostsNNS
+EQ class: sparejjcostsnns	extrajjthemnns	supererogatoryjjtheynns	redundantjjthemnns	superfluousjjtheynns	redundantjjtheynns	supernumeraryjjtheynns	surplusjjcostsnns	supernumeraryjjcostsnns	supererogatoryjjcostsnns	excessjjcostsnns	superfluousjjcostsnns	excessjjtheynns	sparejjtheynns	redundantjjcostsnns	surplusjjtheynns	sparejjthemnns	supererogatoryjjthemnns	superfluousjjthemnns	surplusjjthemnns	supernumeraryjjthemnns	excessjjthemnns	extrajjtheynns	
+
+BE: highJJcostsNNS
+EQ class: highnessnnthemnns	highjjtheynns	highnessnntheynns	highjjthemnns	highnessnncostsnns	
+
+BE: multiCDmarketersNNS
+EQ class: multicdtheynns	multicdmarketernns	multicdvendernns	multicdtraffickernns	multicdsellernns	multicdvendornns	multicdthemnns	
+
+BE: secretJJformulaNN
+EQ class: secretjjexpressionnn	formularisevbsecretlyrb	formularizevbsecretlyrb	
+
+BE: curingVBGformulaNN
+EQ class: healvbgexpressionnn	curablennofinformulann	healvbgformulann	bring_aroundvbgformulann	bring_aroundvbgexpressionnn	curennofinexpressionnn	curingvbgexpressionnn	curevbgexpressionnn	curevbgformulann	remedynnofinexpressionnn	curennofinformulann	curablennofinexpressionnn	therapeuticnnofinformulann	remedynnofinformulann	curativennofinformulann	therapeuticnnofinexpressionnn	curativennofinexpressionnn	
+
+BE: goodJJluckNN
+EQ class: goodjjfatenn	goodnessnnfatenn	goodnessnnlotnn	goodnessnnfortunenn	goodjjportionnn	goodjjcircumstancesnn	goodnessnnlucknn	goodjjdestinynn	goodjjfortunenn	goodjjlotnn	goodnessnncircumstancesnn	goodnessnndestinynn	goodnessnnportionnn	
+
+BE: mailNNorderNN
+EQ class: mailnnsayvb	mailernnofinordernn	mailingnnofinordernn	ordernnmailvb	mailnnofinordernn	mailnnenjoinvb	mailnntellvb	sayvbmailnn	enjoinvbmailnn	tellvbmailnn	mailnnordervb	norman_mailernnofinordernn	ordernnofinmailnn	ordervbmailnn	ordernnget_offvb	
+
+BE: Swanson s vitamin  www.swansonvitamins.OrganizationAnnotationwww.swansonvitamins.comNN
+EQ class: swanson s vitamin  wwwswansonvitaminsorganizationannotationwww.swansonvitamins.comnn	swanson s vitamin  www.swansonvitamins.organizationannotationwwwswansonvitaminscomnn	swanson s vitamin  wwwswansonvitaminsorganizationannotationwwwswansonvitaminscomnn	
+
+BE: Vitamin Shoppe  www.vitaminshoppe.OrganizationAnnotationwww.vitaminshoppe.comNNP
+EQ class: vitamin shoppe  www.vitaminshoppe.organizationannotationwwwvitaminshoppecomnnp	vitamin shoppe  wwwvitaminshoppeorganizationannotationwwwvitaminshoppecomnnp	vitamin shoppe  wwwvitaminshoppeorganizationannotationwww.vitaminshoppe.comnnp	
+
+BE: youPRPneedAUX
+EQ class: youprpaskaux	youprppostulateaux	youprprequireaux	youprptakeaux	youprpnecessitateaux	demandnnofinyouprp	neednnofinyouprp	youprpdemandaux	youprpcall_foraux	youprpinvolveaux	
+
+BE: youPRPtryVB
+EQ class: youprpseekvb	youprpassayvb	endeavornnofinyouprp	youprpessayvb	triernnyouprp	endeavournnofinyouprp	trynnofinyouprp	youprpattemptvb	triernnofinyouprp	attemptnnofinyouprp	effortnnofinyouprp	
+
+BE: companiesNNShaveAUX
+EQ class: havennofintheynns	theynnshave_gotaux	wealthy_personnnofintheynns	theynnshaveaux	companynnshave_gotaux	companynnshaveaux	havennofinthemnns	wealthy_personnnofincompaniesnns	companiesnnshave_gotaux	companynnsholdaux	wealthy_personnnofinthemnns	rich_personnnofincompanynns	companiesnnsholdaux	themnnshave_gotaux	themnnsholdaux	theynnsholdaux	themnnshaveaux	havennofincompaniesnns	wealthy_personnnofincompanynns	havennofincompanynns	rich_personnnofintheynns	rich_personnnofinthemnns	rich_personnnofincompaniesnns	
+
+BE: youPRPavoidVB
+EQ class: avoidancennyouprp	shunningnnyouprp	dodgingnnofinyouprp	shunningnnofinyouprp	turning_awaynnofinyouprp	turning_awaynnyouprp	avoidancennofinyouprp	dodgingnnyouprp	
+
+BE: marketersNNSclaimingVBG
+EQ class: theynnsclaimvbg	traffickernnsclaimvbg	vendernnsclaimingvbg	vendernnsclaimvbg	claimnnofintraffickernns	marketernnsclaimingvbg	claimnnofinvendornns	marketernnsclaimvbg	sellernnsclaimvbg	vendornnsclaimvbg	theynnsclaimingvbg	themnnsclaimvbg	marketersnnsclaimvbg	claimnnofinthemnns	traffickernnsclaimingvbg	claimnnofinmarketernns	claimnnofinmarketersnns	claimnnofintheynns	claimnnofinsellernns	vendornnsclaimingvbg	claimnnofinvendernns	sellernnsclaimingvbg	themnnsclaimingvbg	
+
+BE: buyVBsupplementsNNS
+EQ class: buynnofinsupplementaryjj	buyernnofinsupplementnns	purchasernnofinsupplementaryjj	vendeennofinsupplementnns	buyingnnofinthemnns	vendeennofinaddendumnns	buyingnnofintheynns	emptornnofinsupplementnns	buynnofinpostscriptnns	buynnofinthemnns	purchasernnofintheynns	buynnofinaddendumnns	purchasevbsupplementaryjj	buynnofinsupplementnns	stealnnofinsupplementaryjj	stealnnofinthemnns	buyvbaddendumnns	purchasingnnofinsupplementaryjj	buyvbtheynns	purchasernnofinsupplementsnns	buyernnofinaddendumnns	stealnnofinaddendumnns	buyingnnofinsupplementnns	purchasingnnofinthemnns	emptornnofintheynns	emptornnofinpostscriptnns	buyingnnofinpostscriptnns	buyernnofinsupplementsnns	purchasingnnofinsupplementsnns	emptornnofinsupplementsnns	buynnofinsupplementsnns	vendeennofinpostscriptnns	purchasevbaddendumnns	vendeennofinsupplementaryjj	bargainnnofintheynns	purchasevbsupplementsnns	vendeennofinthemnns	buynnofintheynns	bargainnnofinsupplementsnns	purchasernnofinpostscriptnns	vendeennofinsupplementsnns	purchasingnnofintheynns	buyernnofintheynns	stealnnofinsupplementnns	purchasingnnofinaddendumnns	stealnnofintheynns	emptornnofinthemnns	emptornnofinsupplementaryjj	buyernnofinpostscriptnns	purchasingnnofinsupplementnns	purchasevbthemnns	purchasernnofinaddendumnns	buyingnnofinsupplementaryjj	purchasevbsupplementnns	buyvbsupplementaryjj	bargainnnofinthemnns	buyingnnofinaddendumnns	purchasingnnofinpostscriptnns	buyingnnofinsupplementsnns	bargainnnofinpostscriptnns	emptornnofinaddendumnns	buyernnofinthemnns	purchasevbpostscriptnns	buyvbthemnns	vendeennofintheynns	buyvbpostscriptnns	buyvbsupplementnns	purchasernnofinthemnns	bargainnnofinaddendumnns	bargainnnofinsupplementnns	purchasernnofinsupplementnns	purchasevbtheynns	buyernnofinsupplementaryjj	stealnnofinpostscriptnns	stealnnofinsupplementsnns	bargainnnofinsupplementaryjj	
+
+BE: buyingVBGsupplementsNNS
+EQ class: buyvbgtheynns	buynnofinsupplementaryjj	buyernnofinsupplementnns	buyingvbgaddendumnns	purchasernnofinsupplementaryjj	vendeennofinsupplementnns	buyingnnofinthemnns	vendeennofinaddendumnns	buyingnnofintheynns	emptornnofinsupplementnns	buynnofinpostscriptnns	purchasevbgthemnns	buynnofinthemnns	purchasernnofintheynns	buynnofinaddendumnns	buynnofinsupplementnns	purchasevbgpostscriptnns	buyvbgaddendumnns	stealnnofinsupplementaryjj	buyvbgsupplementaryjj	stealnnofinthemnns	purchasingnnofinsupplementaryjj	buyingvbgthemnns	purchasernnofinsupplementsnns	buyernnofinaddendumnns	stealnnofinaddendumnns	buyingnnofinsupplementnns	purchasingnnofinthemnns	emptornnofintheynns	buyingvbgsupplementaryjj	emptornnofinpostscriptnns	buyingnnofinpostscriptnns	buyernnofinsupplementsnns	purchasevbgsupplementsnns	buyvbgpostscriptnns	purchasingnnofinsupplementsnns	emptornnofinsupplementsnns	buynnofinsupplementsnns	vendeennofinpostscriptnns	vendeennofinsupplementaryjj	bargainnnofintheynns	vendeennofinthemnns	buynnofintheynns	bargainnnofinsupplementsnns	purchasernnofinpostscriptnns	vendeennofinsupplementsnns	buyingvbgpostscriptnns	buyvbgthemnns	purchasingnnofintheynns	buyernnofintheynns	stealnnofinsupplementnns	buyvbgsupplementnns	buyingvbgsupplementnns	purchasingnnofinaddendumnns	stealnnofintheynns	emptornnofinthemnns	buyvbgsupplementsnns	emptornnofinsupplementaryjj	purchasevbgaddendumnns	buyernnofinpostscriptnns	purchasingnnofinsupplementnns	purchasernnofinaddendumnns	purchasevbgsupplementnns	buyingnnofinsupplementaryjj	bargainnnofinthemnns	buyingvbgtheynns	buyingnnofinaddendumnns	purchasingnnofinpostscriptnns	buyingnnofinsupplementsnns	bargainnnofinpostscriptnns	emptornnofinaddendumnns	buyernnofinthemnns	vendeennofintheynns	purchasernnofinthemnns	purchasevbgsupplementaryjj	bargainnnofinaddendumnns	bargainnnofinsupplementnns	purchasernnofinsupplementnns	buyernnofinsupplementaryjj	stealnnofinpostscriptnns	purchasevbgtheynns	stealnnofinsupplementsnns	bargainnnofinsupplementaryjj	
+
+BE: haveAUXinventoryNN
+EQ class: holdauxinventorynn	have_gotauxstock_listnn	holdauxstock_listnn	haveauxstock_listnn	have_gotauxinventorynn	wealthy_personnnofinstock_listnn	rich_personnnofinstock_listnn	rich_personnnofininventorynn	havennofinstock_listnn	wealthy_personnnofininventorynn	havennofininventorynn	
+
+BE: avoidVBcostsNNS
+EQ class: avoidancennofinthemnns	turning_awaynnofincostsnns	dodgingnnofintheynns	dodgingnnofincostsnns	shunningnnofintheynns	turning_awaynnofinthemnns	avoidancennofintheynns	avoidancennofincostsnns	shunningnnofincostsnns	avoidvbtheynns	shunningnnofinthemnns	avoidvbthemnns	turning_awaynnofintheynns	dodgingnnofinthemnns	
+
+BE: haveAUXformulaNN
+EQ class: haveauxexpressionnn	wealthy_personnnofinformulann	have_gotauxexpressionnn	havennofinformulann	have_gotauxformulann	wealthy_personnnofinexpressionnn	rich_personnnofinformulann	holdauxformulann	havennofinexpressionnn	holdauxexpressionnn	rich_personnnofinexpressionnn	
+
+BE: haveAUXluckNN
+EQ class: holdauxportionnn	rich_personnnofinlucknn	wealthy_personnnofinfatenn	wealthy_personnnofinfortunenn	haveauxdestinynn	wealthy_personnnofinlucknn	holdauxfatenn	have_gotauxlucknn	holdauxfortunenn	wealthy_personnnofincircumstancesnn	havennofinfatenn	have_gotauxlotnn	havennofindestinynn	haveauxportionnn	rich_personnnofinfatenn	havennofinfortunenn	haveauxfortunenn	wealthy_personnnofindestinynn	havennofinlotnn	have_gotauxcircumstancesnn	havennofinportionnn	holdauxlucknn	rich_personnnofindestinynn	havennofinlucknn	have_gotauxdestinynn	rich_personnnofincircumstancesnn	rich_personnnofinlotnn	rich_personnnofinfortunenn	wealthy_personnnofinportionnn	holdauxdestinynn	haveauxlotnn	holdauxlotnn	havennofincircumstancesnn	rich_personnnofinportionnn	have_gotauxfortunenn	holdauxcircumstancesnn	haveauxfatenn	haveauxcircumstancesnn	wealthy_personnnofinlotnn	have_gotauxfatenn	have_gotauxportionnn	
+
+BE: associatedVBNcostsNNS
+EQ class: associablennofinthemnns	link_upvbnthemnns	associablennofintheynns	associatevbntheynns	colligatevbnthemnns	associationnnofintheynns	colligatevbncostsnns	tie_invbncostsnns	associatevbnthemnns	associatedvbntheynns	link_upvbncostsnns	associablennofincostsnns	relatevbncostsnns	colligatevbntheynns	linkvbntheynns	tie_invbntheynns	connectvbncostsnns	relatevbntheynns	associationnnofinthemnns	tie_invbnthemnns	associatorynnofintheynns	linkvbnthemnns	associatedvbnthemnns	connectvbnthemnns	associatorynnofinthemnns	associatorynnofincostsnns	linkvbncostsnns	associativennofincostsnns	associatevbncostsnns	associationnnofincostsnns	connectvbntheynns	relatevbnthemnns	associativennofintheynns	link_upvbntheynns	associativennofinthemnns	
+
+BE: madeVBNpurchasesNNS
+EQ class: makevbnthemnns	madevbntheynns	dovbnpurchasesnns	madevbnthemnns	dovbntheynns	madevbnpurchasenns	makevbnpurchasenns	dovbnthemnns	makevbnpurchasesnns	makevbntheynns	dovbnpurchasenns	
+
+BE: lineNNfromINcompaniesNNS
+EQ class: companiesnnslinenn	companynnslinenn	linennfromintheynns	themnnslinenn	theynnslinenn	linennfrominthemnns	linennfromincompanynns	
+
+BE: companiesNNSlikeINwww.swansonvitamins.comNN
+EQ class: wwwswansonvitaminscomnncompaniesnns	companynnslikeinwww.swansonvitamins.comnn	theynnslikeinwww.swansonvitamins.comnn	theynnslikeinwwwswansonvitaminscomnn	themnnslikeinwww.swansonvitamins.comnn	www.swansonvitamins.comnncompanynns	companiesnnslikeinwwwswansonvitaminscomnn	wwwswansonvitaminscomnntheynns	wwwswansonvitaminscomnnthemnns	www.swansonvitamins.comnntheynns	wwwswansonvitaminscomnncompanynns	www.swansonvitamins.comnnthemnns	themnnslikeinwwwswansonvitaminscomnn	companynnslikeinwwwswansonvitaminscomnn	www.swansonvitamins.comnncompaniesnns	
+
+BE: inventoryNNofINproductsNNS
+EQ class: stock_listnnofinthemnns	themnnsinventorynn	warennsinventorynn	stock_listnnofinproductnns	warennsstock_listnn	productsnnsstock_listnn	stock_listnnofinmerchandisenns	merchandisennsstock_listnn	stock_listnnofinwarenns	inventorynnofinthemnns	stock_listnnofintheynns	theynnsinventorynn	inventorynnofinmerchandisenns	stock_listnnofinproductsnns	productnnsstock_listnn	inventorynnofinproductnns	productsnnsinventorynn	theynnsstock_listnn	productnnsinventorynn	inventorynnofintheynns	themnnsstock_listnn	inventorynnofinwarenns	merchandisennsinventorynn	
+
+BE: buyingVBGatINdiscountsNNS
+EQ class: buyvbgatintheynns	buyingvbgatintheynns	buyvbgatinthemnns	buyingvbgatindiscountnns	buyvbgatinprice_reductionnns	purchasevbgatindiscountsnns	purchasevbgatinthemnns	purchasevbgatindeductionnns	purchasevbgatintheynns	buyingvbgatindeductionnns	buyvbgatindeductionnns	buyingvbgatinprice_reductionnns	buyingvbgatinthemnns	buyvbgatindiscountnns	purchasevbgatindiscountnns	purchasevbgatinprice_reductionnns	buyvbgatindiscountsnns	
+
+BE: associatedVBNwithINpurchasesNNS
+EQ class: associatevbnwithintheynns	associatevbnwithinpurchasenns	connectvbnwithinpurchasesnns	associatevbnwithinpurchasesnns	link_upvbnwithinthemnns	link_upvbnwithintheynns	linkvbnwithinthemnns	linkvbnwithinpurchasesnns	connectvbnwithinthemnns	relatevbnwithinthemnns	colligatevbnwithinpurchasesnns	link_upvbnwithinpurchasenns	colligatevbnwithinpurchasenns	tie_invbnwithinthemnns	associatedvbnwithinpurchasenns	linkvbnwithintheynns	tie_invbnwithinpurchasenns	tie_invbnwithintheynns	colligatevbnwithinthemnns	relatevbnwithinpurchasesnns	tie_invbnwithinpurchasesnns	relatevbnwithintheynns	colligatevbnwithintheynns	connectvbnwithinpurchasenns	link_upvbnwithinpurchasesnns	relatevbnwithinpurchasenns	associatevbnwithinthemnns	associatedvbnwithinthemnns	associatedvbnwithintheynns	linkvbnwithinpurchasenns	connectvbnwithintheynns	
+
+BE: madeVBNfromINmarketersNNS
+EQ class: madevbnfromintraffickernns	dovbnfrominsellernns	dovbnfrominmarketernns	dovbnfromintheynns	makevbnfrominthemnns	madevbnfrominmarketernns	madevbnfrominvendernns	dovbnfrominvendornns	dovbnfrominthemnns	madevbnfrominsellernns	dovbnfrominvendernns	makevbnfrominvendornns	makevbnfromintheynns	makevbnfrominmarketersnns	makevbnfrominmarketernns	madevbnfrominthemnns	makevbnfrominsellernns	dovbnfrominmarketersnns	madevbnfrominvendornns	madevbnfromintheynns	makevbnfrominvendernns	dovbnfromintraffickernns	makevbnfromintraffickernns	
+

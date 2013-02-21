@@ -1,0 +1,61 @@
+#Why can t you go faster than the speed of light??
+#(S1 (SBARQ (WHADVP (WRB Why)) (SQ (MD can) (RB t) (NP (PRP you)) (VP (VB go) (ADVP (ADVP (RBR faster)) (PP (IN than) (NP (NP (DT the) (NN speed)) (PP (IN of) (NP (NN light))))))) (. ?)) (. ?)))
+#Rule:Nouns
+r1speedNN
+r1lightNN
+
+#Rule:Verbs
+r2goVB
+
+#Rule:PPinNP
+r26speedNNofINlightNN
+
+#If I was on a train moving 2 miles an hour below the speed of light and then took a step forward, why wouldn t I be moving at the speed of light?
+#(S1 (FRAG (SBAR (IN If) (S (NP (PRP I)) (VP (VP (AUX was) (PP (IN on) (NP (NP (DT a) (NN train)) (VP (VBG moving) (NP (NP (CD 2) (NNS miles)) (NP (DT an) (NN hour)))))) (PP (IN below) (NP (NP (DT the) (NN speed)) (PP (IN of) (NP (NN light)))))) (CC and) (VP (ADVP (RB then)) (VBD took) (NP (DT a) (NN step) (RB forward)))))) (, ,) (WHADVP (WRB why)) (RB wouldn) (VP (VB t) (S (NP (PRP I)) (VP (AUX be) (VP (VBG moving) (PP (IN at) (NP (NP (DT the) (NN speed)) (PP (IN of) (NP (NN light))))))))) (. ?)))
+#Rule:Nouns
+r1trainNN
+r1milesNNS
+r1hourNN
+r1speedNN
+r1lightNN
+r1stepNN
+r1speedNN
+r1lightNN
+
+#Rule:Verbs
+r2movingVBG
+r2tookVBD
+r2tVB
+r2movingVBG
+
+#Rule:Adj-Noun
+r52CDmilesNNS
+
+#Rule:HeadNoun-V
+r11iPRPtookVBD
+r11iPRPwasAUX
+r11trainNNmovingVBG
+r11iPRPmovingVBG
+
+#Rule:V-HeadNoun
+r21movingVBGmilesNNS
+r21tookVBDstepNN
+
+#Rule:V-HeadNoun
+r22tVBiPRP
+
+#Rule:PPinNP
+r26speedNNofINlightNN
+r26speedNNofINlightNN
+
+#Rule:PPinVP
+r30wasAUXonINtrainNN
+r30wasAUXbelowINspeedNN
+r30movingVBGatINspeedNN
+
+#Rule:V-ADV
+r46tookVBDthenRB
+
+@lemmas-left	moving	speed	took	miles	hour	was	i	2	t	take	mile	train	light	step	move	be	go	
+@lemmas-right	moving	speed	took	miles	was	i	take	then	mile	train	light	move	step	be	
+@lemmas-center	of	at	below	on	

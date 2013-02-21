@@ -1,0 +1,67 @@
+#didnt u see that comercial.. where a lil girl asks daddy why is the sky blue?.. 
+#(S1 (S (NP (NNP didnt) (NNP u)) (VP (VB see) (NP (DT that) (X (JJ comercial) (. .) (. .) (SBAR (WHADVP (WRB where)) (S (NP (DT a) (NN lil) (NN girl)) (VP (VBZ asks) (ADJP (JJ daddy))))) (SBARQ (WHADVP (WRB why)) (SQ (AUX is) (NP (DT the) (NN sky)) (ADJP (JJ blue))) (. ?)) (. .)))) (. .)))
+#Rule:Nouns
+r1didntNNP
+r1uNNP
+r1lilNN
+r1girlNN
+r1skyNN
+
+#Rule:Verbs
+r2seeVB
+r2asksVBZ
+
+#Rule:Adjs
+r4comercialJJ
+r4daddyJJ
+r4blueJJ
+
+#Rule:N-HeadNoun
+r8didntNNPuNNP
+r8lilNNgirlNN
+
+#Rule:HeadNoun-V
+r11uNNPseeVB
+r11girlNNasksVBZ
+
+#Rule:V-HeadNoun
+r21seeVB..
+
+#its cause blue is the shortest wave lenght and its shows more often
+#(S1 (S (NP (PRP$ its) (NN cause) (NN blue)) (VP (AUX is) (NP (NP (DT the) (JJS shortest) (NN wave) (NN lenght)) (CC and) (NP (PRP$ its) (NNS shows))) (ADVP (RBR more) (RB often)))))
+#Rule:Nouns
+r1causeNN
+r1blueNN
+r1waveNN
+r1lenghtNN
+r1showsNNS
+
+#Rule:Adjs
+r4shortestJJS
+
+#Rule:Adj-Noun
+r5shortestJJSlenghtNN
+
+#Rule:PRP-Noun
+r6itsPRP$blueNN
+r6itsPRP$showsNNS
+
+#Rule:N-HeadNoun
+r8causeNNblueNN
+r8waveNNlenghtNN
+
+#Rule:HeadNoun-V
+r11blueNNisAUX
+
+#Rule:V-HeadNoun
+r21isAUXlenghtNN
+
+#Rule:V-ADV
+r46isAUXoftenRB
+
+#Rule:IS-RULE
+r47lenghtNNblueNN
+
+@lemmas-left	is	shortest	cause	daddy	show	its	didnt	shows	short	u	girl	sky	see	blue	asks	comercial	wave	lil	ask	lenght	be	
+@lemmas-right	is	show	.	shows	u	girl	see	blue	asks	often	ask	lenght	be	
+@lemmas-center	

@@ -1,0 +1,306 @@
+#Why is all this money being spent on cancer??
+#(S1 (SBARQ (WHADVP (WRB Why)) (SQ (AUX is) (NP (PDT all) (DT this) (NN money)) (VP (AUXG being) (VP (VBN spent) (PP (IN on) (NP (NN cancer))))) (. ?)) (. ?)))
+#Rule:Nouns
+r1moneyNN
+r1cancerNN
+
+#Rule:Verbs
+r2spentVBN
+
+#Rule:PPinVP
+r32spentVBNonINcancerNN
+
+#I ve heard recently that the V Foundation has raised $80 million dollars for cancer research.
+#(S1 (S (NP (PRP I)) (ADVP (RB ve)) (VP (VBD heard) (ADVP (RB recently)) (SBAR (IN that) (S (NP (DT the) (NNP V) (NNP Foundation)) (VP (AUX has) (VP (VBN raised) (NP (NP (ADJP (QP ($ $) (CD 80) (CD million))) (NNS dollars)) (PP (IN for) (NP (NN cancer) (NN research))))))))) (. .)))
+#Rule:Nouns
+r1V FoundationOrganizationAnnotation
+r1dollarsNNS
+r1cancerNN
+r1researchNN
+
+#Rule:Verbs
+r2heardVBD
+r2raisedVBN
+
+#Rule:Adj-Noun
+r580CDdollarsNNS
+r5millionCDdollarsNNS
+
+#Rule:N-HeadNoun
+r8cancerNNresearchNN
+
+#Rule:HeadNoun-V
+r11iPRPheardVBD
+
+#Rule:HeadNoun-V
+r12V FoundationOrganizationAnnotationraisedVBN
+
+#Rule:V-HeadNoun
+r21raisedVBNdollarsNNS
+
+#Rule:PPinNP
+r26dollarsNNSforINresearchNN
+
+#Rule:V-IN-V
+r43heardVBDthatINraisedVBN
+
+#Rule:V-ADV
+r46heardVBDveRB
+r46heardVBDrecentlyRB
+
+#  But we have 1 out of 2 men and 1 out of 3 women who still get cancer.
+#(S1 (S (CC But) (NP (PRP we)) (VP (VP (AUX have) (NP (CD 1)) (PP (IN out) (PP (IN of) (NP (CD 2) (NNS men))))) (CC and) (VP (NP (CD 1)) (PP (IN out) (PP (IN of) (NP (NP (CD 3) (NNS women)) (SBAR (WHNP (WP who)) (S (ADVP (RB still)) (VP (VBP get) (NP (NN cancer)))))))))) (. .)))
+#Rule:Nouns
+r1menNNS
+r1womenNNS
+r1cancerNN
+
+#Rule:Verbs
+r2getVBP
+
+#Rule:Adj-Noun
+r52CDmenNNS
+r53CDwomenNNS
+
+#Rule:HeadNoun-V
+r11wePRPhaveAUX
+
+#Rule:HeadNoun-(who/that)-V
+r14womenNNSgetVBP
+
+#Rule:V-HeadNoun
+r21haveAUX1CD
+r21getVBPcancerNN
+
+#Rule:PPComboInVP
+r34haveAUXoutINmenNNS
+
+#Rule:V-ADV
+r46getVBPstillRB
+
+#  Didn t it used to be much less?
+#(S1 (S (NP (NNP Didn)) (VP (VBD t) (SBAR (S (NP (PRP it)) (VP (VBD used) (S (VP (TO to) (VP (AUX be) (ADJP (RB much) (JJR less))))))))) (. ?)))
+#Rule:Nouns
+r1DidnPersonAnnotation
+
+#Rule:Verbs
+r2tVBD
+r2usedVBD
+
+#Rule:Adjs
+r4lessJJR
+
+#Rule:HeadNoun-V
+r11DidnPersonAnnotationtVBD
+r11itPRPusedVBD
+
+#Rule:V-ADJ
+r25beAUXlessJJR
+
+#  Isn t all this money doing any good at all or is it just a profit front?
+#(S1 (S (NP (NNP Isn)) (VP (VP (VBZ t) (NP (PDT all) (DT this) (NN money)) (S (VP (VBG doing) (NP (DT any) (JJ good)) (PP (IN at) (NP (DT all)))))) (CC or) (VP (AUX is) (NP (PRP it)) (NP (RB just) (DT a) (NN profit) (NN front)))) (. ?)))
+#Rule:Nouns
+r1Isn tLocationAnnotation
+r1moneyNN
+r1profitNN
+r1frontNN
+
+#Rule:Verbs
+r2doingVBG
+
+#Rule:Adjs
+r4goodJJ
+
+#Rule:N-HeadNoun
+r8profitNNfrontNN
+
+#Rule:HeadNoun-V
+r11Isn tLocationAnnotationisAUX
+
+#Rule:V-HeadNoun
+r21Isn tLocationAnnotationmoneyNN
+r21doingVBGgoodJJ
+r21isAUXitPRP
+r21isAUXfrontNN
+
+#Rule:PPinVP
+r30doingVBGatINallDT
+
+#Rule:IS-RULE
+r47itPRPIsn tLocationAnnotation
+r47frontNNIsn tLocationAnnotation
+
+#  It upsets me that so many people are dying of cancer , at the tune of 553,091 people a year!
+#(S1 (S (NP (PRP It)) (VP (NNS upsets) (NP (PRP me)) (SBAR (IN that) (S (NP (ADJP (RB so) (JJ many)) (NNS people)) (VP (AUX are) (VP (VBG dying) (PP (IN of) (NP (NN cancer))) (, ,) (PP (IN at) (NP (NP (DT the) (NN tune)) (PP (IN of) (NP (NP (CD 553,091) (NNS people)) (NP (DT a) (NN year))))))))))) (. !)))
+#Rule:Nouns
+r1upsetsNNS
+r1peopleNNS
+r1cancerNN
+r1tuneNN
+r1peopleNNS
+r1yearNN
+
+#Rule:Verbs
+r2dyingVBG
+
+#Rule:Adjs
+r4manyJJ
+
+#Rule:Adj-Noun
+r5manyJJpeopleNNS
+r5553,091CDpeopleNNS
+
+#Rule:HeadNoun-V
+r11peopleNNSdyingVBG
+
+#Rule:V-HeadNoun
+r21upsetsNNSmePRP
+
+#Rule:PPinNP
+r26tuneNNofINpeopleNNS
+r26tuneNNofINyearNN
+
+#Rule:PPinVP
+r30dyingVBGofINcancerNN
+r30dyingVBGatINtuneNN
+
+#Rule:V-IN-V
+r43upsetsNNSthatINdyingVBG
+
+#  And we supposedly spent over a trillion dollars on health care 10 years ago!
+#(S1 (S (CC And) (NP (PRP we)) (ADVP (RB supposedly)) (VP (VBD spent) (PRT (RP over)) (NP (QP (DT a) (CD trillion)) (NNS dollars)) (PP (IN on) (NP (NN health) (NN care))) (ADVP (NP (CD 10) (NNS years)) (RB ago))) (. !)))
+#Rule:Nouns
+r1dollarsNNS
+r1healthNN
+r1careNN
+r1yearsNNS
+
+#Rule:V-PRT
+r3spentVBDoverRP
+
+#Rule:Adj-Noun
+r5trillionCDdollarsNNS
+r510CDyearsNNS
+
+#Rule:N-HeadNoun
+r8healthNNcareNN
+
+#Rule:HeadNoun-V
+r11wePRPspentVBD
+
+#Rule:V-HeadNoun
+r21spentVBDdollarsNNS
+
+#Rule:PPinVP
+r30spentVBDonINcareNN
+
+#Rule:V-ADV
+r46spentVBDsupposedlyRB
+r46spentVBDagoRB
+
+#  If we re spending all this money shouldn t people be getting better?
+#(S1 (S (SBAR (IN If) (S (NP (PRP we) (NNP re)) (VP (VBG spending) (NP (PDT all) (DT this) (NN money))))) (NP (QP (CD shouldn) (CD t)) (NNS people)) (VP (AUX be) (VP (VBG getting) (ADJP (RBR better)))) (. ?)))
+#Rule:Nouns
+r1reNNP
+r1moneyNN
+r1peopleNNS
+
+#Rule:Verbs
+r2spendingVBG
+r2gettingVBG
+
+#Rule:Adj-Noun
+r5shouldnCDpeopleNNS
+r5tCDpeopleNNS
+
+#Rule:HeadNoun-V
+r11peopleNNSgettingVBG
+r11reNNPspendingVBG
+
+#Rule:V-HeadNoun
+r21spendingVBGmoneyNN
+
+#  And why in the world are the oncologists telling people that cancer was caused by chance/fate when everybody knows that s not right?
+#(S1 (SBARQ (CC And) (WHADVP (WRB why)) (SQ (PP (IN in) (NP (DT the) (NN world))) (AUX are) (NP (DT the) (NNS oncologists)) (VP (VBG telling) (NP (NNS people)) (SBAR (IN that) (S (NP (NN cancer)) (VP (AUX was) (VP (VBN caused) (PP (IN by) (NP (NN chance/fate))) (SBAR (WHADVP (WRB when)) (S (NP (NN everybody)) (VP (VBZ knows) (SBAR (S (NP (DT that)) (VP (VBZ s) (ADJP (RB not) (JJ right)))))))))))))) (. ?)))
+#Rule:Nouns
+r1worldNN
+r1oncologistsNNS
+r1peopleNNS
+r1cancerNN
+r1chance/fateNN
+r1everybodyNN
+
+#Rule:Verbs
+r2tellingVBG
+r2causedVBN
+r2knowsVBZ
+r2sOrganizationAnnotation
+
+#Rule:Adjs
+r4rightJJ
+
+#Rule:HeadNoun-V
+r11everybodyNNknowsVBZ
+r11thatDTsOrganizationAnnotation
+
+#Rule:V-By-Agent
+r13chance/fateNNcausedVBN
+
+#Rule:V-HeadNoun
+r21tellingVBGpeopleNNS
+
+#Rule:V-HeadNoun(passive)
+r23causedVBNcancerNN
+
+#Rule:V-IN-V
+r43tellingVBGthatINcausedVBN
+
+#  Anybody with half a brain knows it s our affluent lifestyle!
+#(S1 (S (NP (NP (NN Anybody)) (PP (IN with) (NP (PDT half) (DT a) (NN brain)))) (VP (VBZ knows) (SBAR (S (NP (PRP it)) (VP (VBZ s) (NP (PRP$ our) (JJ affluent) (NN lifestyle)))))) (. !)))
+#Rule:Nouns
+r1AnybodyNN
+r1brainNN
+r1lifestyleNN
+
+#Rule:Verbs
+r2knowsVBZ
+r2sVBZ
+
+#Rule:Adjs
+r4affluentJJ
+
+#Rule:Adj-Noun
+r5affluentJJlifestyleNN
+
+#Rule:PRP-Noun
+r6ourPRP$lifestyleNN
+
+#Rule:HeadNoun-V
+r11AnybodyNNknowsVBZ
+r11itPRPsVBZ
+
+#Rule:V-HeadNoun
+r21sVBZlifestyleNN
+
+#Rule:PPinNP
+r26AnybodyNNwithINbrainNN
+
+#  Why aren t they telling people that?
+#(S1 (SBARQ (WHADVP (WRB Why)) (SQ (VP (VBN aren) (ADVP (RB t))) (NP (PRP they)) (VP (VBG telling) (NP (NNS people)) (NP (DT that)))) (. ?)))
+#Rule:Nouns
+r1peopleNNS
+
+#Rule:Verbs
+r2arenVBN
+r2tellingVBG
+
+#Rule:V-HeadNoun
+r21tellingVBGpeopleNNS
+r21tellingVBGthatLocationAnnotation
+
+#Rule:V-ADV
+r46arenVBNtRB
+
+@lemmas-left	cause	553,091	good	used	people	caused	fate	hear	affluent	woman	lifestyle	care	anybody	80	year	everybody	brain	right	dying	spending	be	oncologists	million	shouldn	get	tune	health	knows	3	many	that	2	V Foundation	doing	years	we	getting	Anybody	trillion	raised	raise	aren	have	use	upsets	re	Didn	chance/fate	heard	upset	money	die	tell	dollar	do	men	spent	less	profit	is	it	dollars	Isn t	oncologist	front	know	women	research	i	spend	10	t	s	telling	our	world	cancer	
+@lemmas-right	cause	good	used	people	caused	hear	over	woman	lifestyle	recently	care	supposedly	year	brain	dying	be	spending	get	tune	knows	that	1	years	getting	raised	raise	have	use	heard	money	ve	die	dollar	me	men	spent	less	all	is	it	dollars	Isn t	front	still	research	women	know	spend	t	s	ago	cancer	
+@lemmas-center	of	that	with	for	at	on	out	

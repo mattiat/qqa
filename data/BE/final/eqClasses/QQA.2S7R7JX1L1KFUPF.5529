@@ -1,0 +1,378 @@
+BE: wayNN
+EQ class: stylenn	fashionnn	modenn	mannernn	
+
+BE: exerciseNN
+EQ class: workoutnn	physical_exercisenn	physical_exertionnn	exercisingnn	
+
+BE: exerciseVB
+EQ class: exertvb	
+
+BE: onlyJJ
+EQ class: lonesomejj	solejj	lonejj	solitaryjj	
+
+BE: onlyJJwayNN
+EQ class: lonesomejjmodenn	onlyjjstylenn	solejjfashionnn	solitaryjjmannernn	lonesomejjfashionnn	onlyjjmodenn	solitaryjjwaynn	solejjmannernn	onlyjjfashionnn	lonesomejjmannernn	lonejjmannernn	solitaryjjstylenn	solitaryjjmodenn	solejjstylenn	lonesomejjwaynn	lonejjmodenn	solejjmodenn	lonejjwaynn	lonesomejjstylenn	solitaryjjfashionnn	onlyjjmannernn	solejjwaynn	lonejjstylenn	lonejjfashionnn	
+
+BE: SorryRBisAUX
+EQ class: sorryrbbeaux	
+
+BE: wayNNisAUX
+EQ class: mannernnisaux	stylennbeaux	waynnbeaux	fashionnnbeaux	fashionnnisaux	modennbeaux	mannernnbeaux	stylennisaux	modennisaux	
+
+BE: wayNNexerciseVB
+EQ class: mannernnexertvb	physical_exertionnnofinmodenn	physical_exertionnnofinstylenn	exercisingnnofinmannernn	physical_exertionnnofinmannernn	physical_exercisennofinstylenn	modennexercisevb	physical_exercisennofinwaynn	exercisennofinwaynn	exercisennofinfashionnn	workoutnnofinmannernn	physical_exertionnnofinfashionnn	modennexertvb	exercisingnnofinfashionnn	stylennexertvb	physical_exercisennofinmannernn	waynnexertvb	mannernnexercisevb	physical_exercisennofinfashionnn	exercisingnnofinmodenn	workoutnnofinfashionnn	workoutnnofinstylenn	exercisennofinmodenn	exercisennofinstylenn	physical_exercisennofinmodenn	stylennexercisevb	physical_exertionnnofinwaynn	workoutnnofinwaynn	workoutnnofinmodenn	exercisennofinmannernn	fashionnnexertvb	exercisingnnofinwaynn	fashionnnexercisevb	exercisingnnofinstylenn	
+
+BE: isAUXexerciseNN
+EQ class: beauxphysical_exertionnn	isauxworkoutnn	isauxphysical_exercisenn	isauxphysical_exertionnn	isauxexercisingnn	beauxexercisenn	beauxworkoutnn	beauxphysical_exercisenn	beauxexercisingnn	
+
+BE: exerciseNNSorryRB
+EQ class: exercisennofinsorryrb	physical_exertionnnsorryrb	sorryrbexercisingnn	exercisingnnofinsorryrb	exercisingnnsorryrb	sorryrbphysical_exertionnn	sorryrbexercisenn	workoutnnofinsorryrb	sorryrbphysical_exercisenn	physical_exercisennofinsorryrb	workoutnnsorryrb	sorryrbworkoutnn	sorryrbexercisevb	sorryrbexertvb	physical_exertionnnofinsorryrb	physical_exercisennsorryrb	
+
+BE: exerciseNNwayNN
+EQ class: physical_exercisennmodenn	physical_exercisennfashionnn	modennworkoutnn	waynnexercisingnn	exercisingnnofinmannernn	modennexercisenn	physical_exertionnnofinmannernn	physical_exercisennofinstylenn	modennexercisevb	physical_exertionnnmannernn	exercisingnnstylenn	mannernnphysical_exercisenn	stylennexercisingnn	physical_exertionnnofinfashionnn	modennexertvb	exercisingnnofinfashionnn	stylennexertvb	physical_exercisennofinmannernn	exercisingnnwaynn	mannernnexercisevb	waynnphysical_exertionnn	physical_exercisennofinfashionnn	workoutnnofinfashionnn	physical_exertionnnstylenn	exercisennofinmodenn	exercisennmannernn	physical_exertionnnfashionnn	fashionnnphysical_exertionnn	exercisennofinstylenn	workoutnnmannernn	mannernnphysical_exertionnn	workoutnnstylenn	stylennexercisevb	physical_exertionnnofinwaynn	stylennexercisenn	waynnexercisevb	mannernnexercisingnn	exercisennofinmannernn	fashionnnphysical_exercisenn	fashionnnworkoutnn	mannernnexercisenn	waynnexercisenn	mannernnexertvb	exercisingnnmodenn	physical_exertionnnofinstylenn	physical_exertionnnofinmodenn	waynnphysical_exercisenn	modennphysical_exercisenn	exercisennofinwaynn	physical_exercisennofinwaynn	exercisennofinfashionnn	workoutnnofinmannernn	modennexercisingnn	fashionnnexercisenn	modennphysical_exertionnn	workoutnnmodenn	workoutnnwaynn	physical_exercisennmannernn	exercisingnnfashionnn	waynnexertvb	exercisingnnofinmodenn	physical_exercisennstylenn	workoutnnofinstylenn	stylennphysical_exertionnn	workoutnnfashionnn	stylennphysical_exercisenn	physical_exercisennwaynn	stylennworkoutnn	physical_exercisennofinmodenn	exercisennstylenn	exercisennfashionnn	mannernnworkoutnn	workoutnnofinwaynn	workoutnnofinmodenn	fashionnnexertvb	exercisingnnofinwaynn	exercisingnnmannernn	fashionnnexercisevb	exercisennmodenn	physical_exertionnnwaynn	physical_exertionnnmodenn	fashionnnexercisingnn	waynnworkoutnn	exercisingnnofinstylenn	
+
+BE: exercisesNNS
+EQ class: exercisingnns	exercisenns	physical_exercisenns	theynns	workoutnns	physical_exertionnns	themnns	
+
+BE: commitVB
+EQ class: perpetratevb	pullvb	
+
+BE: exercisingVBG
+EQ class: exertvbg	exercisevbg	
+
+BE: addVBinRP
+EQ class: improvernnofininrp	additivennofininrp	additionnnofininrp	add-onnnofininrp	additivejjofininrp	
+
+BE: realJJ
+EQ class: realnessnn	existentjj	realitynn	
+
+BE: realJJexercisesNNS
+EQ class: realnessnnthemnns	exercisevbreallyrb	existentjjphysical_exertionnns	exertvbreallyrb	realitynnthemnns	realjjthemnns	realitynnexercisesnns	realjjworkoutnns	realnessnnexercisesnns	realitynnexercisingnns	existentjjexercisingnns	realjjtheynns	realnessnnexercisingnns	realitynnphysical_exertionnns	realnessnnphysical_exercisenns	realjjphysical_exercisenns	realjjphysical_exertionnns	realitynntheynns	realitynnexercisenns	realnessnnworkoutnns	realjjexercisingnns	realjjexercisenns	realitynnworkoutnns	existentjjexercisenns	existentjjthemnns	existentjjphysical_exercisenns	realitynnphysical_exercisenns	existentjjworkoutnns	realnessnntheynns	existentjjexercisesnns	realnessnnexercisenns	realnessnnphysical_exertionnns	existentjjtheynns	
+
+BE: youPRPcommitVB
+EQ class: commissionnnofinyouprp	commitmentnnofinyouprp	committeennofinyouprp	commitmentnnyouprp	committeennyouprp	youprpperpetratevb	committalnnyouprp	consignmentnnofinyouprp	committalnnofinyouprp	commissionnnyouprp	consignmentnnyouprp	youprppullvb	
+
+BE: addVBexercisesNNS
+EQ class: improvernnofintheynns	improvernnofinthemnns	additivennofinphysical_exercisenns	additionnnofintheynns	additivejjofinexercisenns	additionnnofinexercisenns	addvbexercisenns	addvbtheynns	add-onnnofinexercisingnns	additivejjofinphysical_exercisenns	additionnnofinexercisesnns	additivejjofinexercisingnns	additionnnofinexercisingnns	additivennofinexercisesnns	additivennofinthemnns	improvernnofinexercisesnns	add-onnnofinthemnns	additionnnofinworkoutnns	add-onnnofinphysical_exercisenns	improvernnofinworkoutnns	additionnnofinphysical_exercisenns	add-onnnofinworkoutnns	addvbthemnns	additivejjofinworkoutnns	addvbworkoutnns	additivejjofinthemnns	additivennofintheynns	additivennofinworkoutnns	additivennofinphysical_exertionnns	improvernnofinexercisingnns	addvbphysical_exertionnns	additivejjofinphysical_exertionnns	additivennofinexercisenns	add-onnnofintheynns	improvernnofinphysical_exertionnns	add-onnnofinexercisenns	additivejjofinexercisesnns	additionnnofinthemnns	improvernnofinphysical_exercisenns	additivennofinexercisingnns	additionnnofinphysical_exertionnns	addvbphysical_exercisenns	addvbexercisingnns	additivejjofintheynns	improvernnofinexercisenns	add-onnnofinphysical_exertionnns	add-onnnofinexercisesnns	
+
+BE: commitVBtoTOexercisingVBG
+EQ class: pullvbtotoexertvbg	pullvbtotoexercisevbg	commitvbtotoexertvbg	perpetratevbtotoexercisevbg	pullvbtotoexercisingvbg	commitvbtotoexercisevbg	perpetratevbtotoexercisingvbg	perpetratevbtotoexertvbg	
+
+BE: exerciseNN
+EQ class: workoutnn	physical_exercisenn	physical_exertionnn	exercisingnn	
+
+BE: fakeJJ
+EQ class: fakenn	bastardjj	phonyjj	bogusjj	phoneyjj	
+
+BE: fakeJJexerciseNN
+EQ class: fakennphysical_exercisenn	fakejjexercisingnn	phonyjjexercisenn	phonyjjworkoutnn	phonyjjphysical_exercisenn	bastardjjphysical_exertionnn	fakennworkoutnn	bastardjjexercisenn	fakejjphysical_exercisenn	phoneyjjworkoutnn	phonyjjphysical_exertionnn	bastardjjphysical_exercisenn	fakennphysical_exertionnn	fakejjworkoutnn	bogusjjexercisenn	bastardjjexercisingnn	phoneyjjexercisingnn	bogusjjphysical_exercisenn	bogusjjexercisingnn	phoneyjjexercisenn	phoneyjjphysical_exercisenn	phoneyjjphysical_exertionnn	bogusjjphysical_exertionnn	fakennexercisenn	bastardjjworkoutnn	fakennexercisingnn	fakejjphysical_exertionnn	bogusjjworkoutnn	phonyjjexercisingnn	
+
+BE: isAUXexerciseNN
+EQ class: beauxphysical_exertionnn	isauxworkoutnn	isauxphysical_exercisenn	isauxphysical_exertionnn	isauxexercisingnn	beauxexercisenn	beauxworkoutnn	beauxphysical_exercisenn	beauxexercisingnn	
+
+BE: timeNN
+EQ class: clipnn	
+
+BE: thingNN
+EQ class: 
+
+BE: willNN
+EQ class: volitionnn	
+
+BE: powerNN
+EQ class: powerfulnessnn	
+
+BE: lackVBP
+EQ class: missvbp	
+
+BE: freeJJ
+EQ class: 
+
+BE: onlyJJ
+EQ class: lonesomejj	solejj	lonejj	solitaryjj	
+
+BE: freeJJtimeNN
+EQ class: freejjclipnn	
+
+BE: onlyJJthingNN
+EQ class: lonesomejjthingnn	solejjthingnn	solitaryjjthingnn	lonejjthingnn	
+
+BE: youPRPhaveAUX
+EQ class: youprphave_gotaux	rich_personnnofinyouprp	havennofinyouprp	youprpholdaux	wealthy_personnnofinyouprp	
+
+BE: youPRPlackVBP
+EQ class: youprpmissvbp	wantnnofinyouprp	lacknnofinyouprp	deficiencynnofinyouprp	
+
+BE: lackVBPthingNN
+EQ class: missvbpthingnn	wantnnofinthingnn	lacknnofinthingnn	deficiencynnofinthingnn	
+
+BE: haveAUXtimeNN
+EQ class: have_gotauxclipnn	rich_personnnofinclipnn	havennofinclipnn	holdauxclipnn	holdauxtimenn	rich_personnnofintimenn	have_gotauxtimenn	wealthy_personnnofintimenn	haveauxclipnn	wealthy_personnnofinclipnn	havennofintimenn	
+
+BE: willpowerNN
+EQ class: will_powernn	self-willnn	possessionnn	self-controlnn	self-possessionnn	self-commandnn	
+
+BE: friendsNNS
+EQ class: friendnns	theynns	friendlyjj	themnns	
+
+BE: familyNN
+EQ class: homenn	menagenn	householdnn	housenn	
+
+BE: findVB
+EQ class: chancevb	happenvb	encountervb	bumpvb	
+
+BE: yourselfPRPfriendsNNS
+EQ class: friendlyjjyourselfprp	theynnsyourselfprp	yourselfprpfriendnns	friendsnnsyourselfprp	yourselfprpthemnns	themnnsyourselfprp	yourselfprpfriendlyjj	friendnnsyourselfprp	yourselfprptheynns	
+
+BE: youPRPfindVB
+EQ class: findnnofinyouprp	youprphappenvb	youprpbumpvb	youprpencountervb	discoverynnofinyouprp	youprpchancevb	breakthroughnnofinyouprp	findernnyouprp	findernnofinyouprp	
+
+BE: findVBwillpowerNN
+EQ class: bumpvbself-commandnn	findernnofinself-commandnn	findnnofinself-controlnn	findvbself-controlnn	happenvbself-possessionnn	findnnofinself-possessionnn	findernnofinself-willnn	findernnofinpossessionnn	findnnofinwillpowernn	findvbself-commandnn	happenvbwill_powernn	findernnofinwillpowernn	findernnofinself-possessionnn	findnnofinself-commandnn	bumpvbself-possessionnn	happenvbself-commandnn	chancevbself-willnn	findvbself-possessionnn	chancevbwillpowernn	bumpvbpossessionnn	findnnofinself-willnn	chancevbself-possessionnn	breakthroughnnofinwill_powernn	bumpvbself-willnn	breakthroughnnofinpossessionnn	encountervbself-willnn	encountervbself-controlnn	encountervbwill_powernn	happenvbself-willnn	breakthroughnnofinself-controlnn	breakthroughnnofinself-commandnn	encountervbwillpowernn	chancevbwill_powernn	happenvbpossessionnn	bumpvbwill_powernn	bumpvbwillpowernn	encountervbself-possessionnn	discoverynnofinpossessionnn	happenvbwillpowernn	breakthroughnnofinwillpowernn	discoverynnofinself-possessionnn	encountervbself-commandnn	chancevbself-controlnn	findnnofinpossessionnn	happenvbself-controlnn	breakthroughnnofinself-possessionnn	discoverynnofinwill_powernn	findernnofinwill_powernn	findernnofinself-controlnn	chancevbpossessionnn	findnnofinwill_powernn	bumpvbself-controlnn	findvbself-willnn	discoverynnofinself-commandnn	findvbwill_powernn	chancevbself-commandnn	findvbpossessionnn	discoverynnofinself-controlnn	discoverynnofinwillpowernn	discoverynnofinself-willnn	breakthroughnnofinself-willnn	encountervbpossessionnn	
+
+BE: findVBthroughINyourselfPRP
+EQ class: happenvbthroughinyourselfprp	encountervbthroughinyourselfprp	bumpvbthroughinyourselfprp	chancevbthroughinyourselfprp	
+
+BE: findVBthroughINfriendsNNS
+EQ class: findvbthroughinfriendlyjj	encountervbthroughintheynns	chancevbthroughintheynns	bumpvbthroughinfriendnns	encountervbthroughinfriendnns	happenvbthroughinfriendsnns	happenvbthroughinfriendnns	bumpvbthroughintheynns	findvbthroughinfriendnns	encountervbthroughinfriendlyjj	chancevbthroughinfriendnns	chancevbthroughinfriendlyjj	happenvbthroughintheynns	findvbthroughinthemnns	encountervbthroughinthemnns	findvbthroughintheynns	happenvbthroughinthemnns	bumpvbthroughinfriendlyjj	chancevbthroughinfriendsnns	happenvbthroughinfriendlyjj	encountervbthroughinfriendsnns	chancevbthroughinthemnns	bumpvbthroughinthemnns	bumpvbthroughinfriendsnns	
+
+BE: findVBthroughINfamilyNN
+EQ class: findvbthroughinhomenn	chancevbthroughinfamilynn	chancevbthroughinhousenn	encountervbthroughinhouseholdnn	happenvbthroughinmenagenn	happenvbthroughinfamilynn	encountervbthroughinhousenn	bumpvbthroughinhomenn	bumpvbthroughinhousenn	encountervbthroughinfamilynn	encountervbthroughinhomenn	happenvbthroughinhomenn	encountervbthroughinmenagenn	findvbthroughinmenagenn	happenvbthroughinhouseholdnn	chancevbthroughinhomenn	bumpvbthroughinmenagenn	bumpvbthroughinhouseholdnn	chancevbthroughinhouseholdnn	findvbthroughinhouseholdnn	findvbthroughinhousenn	bumpvbthroughinfamilynn	chancevbthroughinmenagenn	happenvbthroughinhousenn	
+
+BE: wayNN
+EQ class: stylenn	fashionnn	modenn	mannernn	
+
+BE: scheduleNN
+EQ class: agendann	docketnn	
+
+BE: commitVB
+EQ class: perpetratevb	pullvb	
+
+BE: makeVB
+EQ class: dovb	
+
+BE: writeVB
+EQ class: composevb	penvb	inditevb	
+
+BE: writeVBoutRP
+EQ class: authornnofinoutrp	writernnofinoutrp	penvboutrp	penningnnofinoutrp	inditevboutrp	compositionnnofinoutrp	authorshipnnofinoutrp	writingnnofinoutrp	composevboutrp	
+
+BE: goodJJ
+EQ class: goodnessnn	
+
+BE: goodJJwayNN
+EQ class: goodnessnnwaynn	goodjjmodenn	goodjjfashionnn	goodnessnnstylenn	goodnessnnfashionnn	goodjjmannernn	goodnessnnmodenn	goodjjstylenn	goodnessnnmannernn	
+
+BE: wayNNcommitVB
+EQ class: consignmentnnstylenn	committalnnofinwaynn	commissionnnstylenn	consignmentnnofinstylenn	consignmentnnofinmodenn	committeennstylenn	commissionnnofinstylenn	modennpullvb	fashionnnpullvb	commitmentnnofinmodenn	waynnpullvb	fashionnnperpetratevb	committalnnofinmodenn	commitmentnnofinmannernn	commitmentnnofinwaynn	consignmentnnofinwaynn	committeennofinmodenn	commitmentnnfashionnn	stylenncommitvb	committeennmannernn	modenncommitvb	commitmentnnofinfashionnn	commissionnnofinmodenn	fashionnncommitvb	commissionnnfashionnn	commissionnnofinfashionnn	commissionnnmannernn	stylennpullvb	consignmentnnfashionnn	mannernnperpetratevb	commissionnnofinmannernn	committalnnofinmannernn	mannernncommitvb	commitmentnnmannernn	committalnnstylenn	committalnnmodenn	committeennofinwaynn	committeennwaynn	committalnnofinfashionnn	consignmentnnwaynn	consignmentnnmodenn	waynnperpetratevb	committalnnmannernn	commitmentnnstylenn	mannernnpullvb	commissionnnmodenn	committeennofinstylenn	committeennmodenn	consignmentnnmannernn	committeennfashionnn	commitmentnnmodenn	commitmentnnofinstylenn	committeennofinmannernn	committalnnofinstylenn	commissionnnwaynn	consignmentnnofinfashionnn	stylennperpetratevb	committeennofinfashionnn	consignmentnnofinmannernn	commitmentnnwaynn	commissionnnofinwaynn	committalnnfashionnn	modennperpetratevb	committalnnwaynn	
+
+BE: makeVBscheduleNN
+EQ class: dovbschedulenn	dovbagendann	dovbdocketnn	makevbdocketnn	makevbagendann	
+
+BE: writeVBitPRP
+EQ class: writingnnofinitprp	penvbitprp	composevbitprp	penningnnofinitprp	authorshipnnofinitprp	writernnofinitprp	inditevbitprp	compositionnnofinitprp	authornnofinitprp	
+
+BE: mNNP
+EQ class: meternnp	metrennp	
+
+BE: exerciseNN
+EQ class: workoutnn	physical_exercisenn	physical_exertionnn	exercisingnn	
+
+BE: exercisesNNS
+EQ class: exercisingnns	exercisenns	physical_exercisenns	theynns	workoutnns	physical_exertionnns	themnns	
+
+BE: wantVBP
+EQ class: desirevbp	
+
+BE: seeVB
+EQ class: 
+
+BE: likeVBP
+EQ class: wishvbp	carevbp	
+
+BE: sureJJ
+EQ class: surenessnn	certainjj	
+
+BE: manyJJ
+EQ class: 
+
+BE: differentJJ
+EQ class: differencenn	
+
+BE: bestJJS
+EQ class: bestnn	
+
+BE: manyJJexercisesNNS
+EQ class: manyjjphysical_exertionnns	manyjjtheynns	manyjjexercisingnns	manyjjphysical_exercisenns	manyjjexercisenns	manyjjthemnns	manyjjworkoutnns	
+
+BE: differentJJexercisesNNS
+EQ class: exercisevbdifferentlyrb	differencennphysical_exertionnns	differencennexercisesnns	differentjjphysical_exercisenns	differencennexercisenns	differencennphysical_exercisenns	differentjjworkoutnns	differentjjexercisingnns	differentjjexercisenns	exertvbdifferentlyrb	differencenntheynns	differencennworkoutnns	differentjjtheynns	differentjjthemnns	differentjjphysical_exertionnns	differencennthemnns	differencennexercisingnns	
+
+BE: youPRPwantVBP
+EQ class: needernnyouprp	wantnnofinyouprp	deprivationnnofinyouprp	wanternnofinyouprp	youprpdesirevbp	needinessnnofinyouprp	privationnnofinyouprp	needernnofinyouprp	wanternnyouprp	
+
+BE: youPRPdoAUX
+EQ class: youprpmakeaux	
+
+BE: youPRPlikeVBP
+EQ class: youprpwishvbp	youprpcarevbp	
+
+BE: doAUXexercisesNNS
+EQ class: doauxphysical_exercisenns	makeauxexercisesnns	makeauxphysical_exercisenns	makeauxthemnns	makeauxworkoutnns	doauxexercisingnns	makeauxexercisenns	doauxphysical_exertionnns	doauxtheynns	makeauxexercisingnns	makeauxphysical_exertionnns	doauxworkoutnns	doauxthemnns	doauxexercisenns	makeauxtheynns	
+
+BE: likeVBPbestJJS
+EQ class: likevbpbestnn	carevbpbestnn	carevbpbestjjs	wishvbpbestjjs	wishvbpbestnn	
+
+BE: doAUXasINexerciseNN
+EQ class: makeauxasinphysical_exertionnn	makeauxasinexercisenn	doauxasinexercisingnn	doauxasinphysical_exertionnn	doauxasinworkoutnn	doauxasinphysical_exercisenn	makeauxasinphysical_exercisenn	makeauxasinexercisingnn	makeauxasinworkoutnn	
+
+BE: ExerciseNN
+EQ class: workoutnn	physical_exercisenn	physical_exertionnn	exercisingnn	
+
+BE: funNN
+EQ class: playfulnessnn	funnyjj	merrimentnn	
+
+BE: goodJJ
+EQ class: goodnessnn	
+
+BE: ExerciseNNbeAUX
+EQ class: physical_exertionnnbeaux	physical_exercisennbeaux	workoutnnbeaux	exercisingnnbeaux	
+
+BE: beAUXfunNN
+EQ class: beauxplayfulnessnn	beauxfunnyjj	beauxmerrimentnn	
+
+BE: funNNforINyouPRP
+EQ class: merrimentnnforinyouprp	funnyjjforinyouprp	funnyvbyouprp	youprpfunnyvb	playfulnessnnforinyouprp	
+
+BE: push-upsNNS
+EQ class: theynns	themnns	
+
+BE: sit-upsNNS
+EQ class: sit-upnns	theynns	themnns	
+
+BE: tLocationAnnotation
+EQ class: 
+
+BE: donVB
+EQ class: assumevb	put_onvb	wearvb	get_intovb	
+
+BE: workVBP
+EQ class: 
+
+BE: tLocationAnnotationworkVBP
+EQ class: workernnofintlocationannotation	workernntlocationannotation	worknnofintlocationannotation	
+
+BE: push-upsNNSdonVB
+EQ class: theynnsassumevb	theynnswearvb	themnnsput_onvb	push-upsnnsput_onvb	push-upsnnsget_intovb	themnnsdonvb	theynnsget_intovb	push-upsnnsassumevb	themnnsassumevb	theynnsput_onvb	themnnsget_intovb	themnnswearvb	theynnsdonvb	push-upsnnswearvb	
+
+BE: boxNN
+EQ class: boxyjj	
+
+BE: boxingNN
+EQ class: fisticuffsnn	pugilismnn	
+
+BE: houseNN
+EQ class: 
+
+BE: classNN
+EQ class: familynn	categorynn	
+
+BE: karateOrganizationAnnotation
+EQ class: 
+
+BE: danceNN
+EQ class: 
+
+BE: aerobicsNN
+EQ class: aerobicjj	aerobic_exercisenn	
+
+BE: swimVBP
+EQ class: 
+
+BE: walkVB
+EQ class: 
+
+BE: joinVB
+EQ class: fall_invb	get_togethervb	
+
+BE: youPRPswimVBP
+EQ class: swimmernnofinyouprp	swimnnofinyouprp	swimmingnnofinyouprp	swimnnyouprp	swimmernnyouprp	swimmingnnyouprp	
+
+BE: youPRPwalkVB
+EQ class: john_walkernnyouprp	walkingnnofinyouprp	john_walkernnofinyouprp	walkingnnyouprp	walknnofinyouprp	walkernnofinyouprp	walkernnyouprp	walknnyouprp	
+
+BE: youPRPjoinVB
+EQ class: joinernnofinyouprp	youprpget_togethervb	joinernnyouprp	youprpfall_invb	
+
+BE: swimVBPboxNN
+EQ class: swimmernnofinboxnn	swimnnofinboxyjj	swimmingnnofinboxyjj	swimmernnofinboxyjj	swimvbpboxyjj	swimmingnnofinboxnn	swimnnofinboxnn	
+
+BE: joinVBclassNN
+EQ class: get_togethervbfamilynn	fall_invbcategorynn	joinernnofinfamilynn	joinernnofinclassnn	joinernnofincategorynn	joinvbcategorynn	fall_invbclassnn	get_togethervbclassnn	joinvbfamilynn	fall_invbfamilynn	get_togethervbcategorynn	
+
+BE: classNNlikeINaerobicsNN
+EQ class: aerobicjjfamilynn	aerobicsnnclassifyvb	sortvbaerobicsnn	assortvbaerobicsnn	familynnlikeinaerobicjj	aerobicsnnclassnn	classifyvbaerobicsnn	categorynnlikeinaerobicjj	separatevbaerobic_exercisenn	sortvbaerobic_exercisenn	aerobic_exercisennseparatevb	categorynnlikeinaerobic_exercisenn	aerobicjjsortvb	aerobicsnnclassvb	aerobicjjclassvb	familynnlikeinaerobic_exercisenn	aerobic_exercisennclassnn	aerobicjjclassnn	classvbaerobicsnn	aerobic_exercisennsortvb	assortvbaerobic_exercisenn	aerobicjjcategorynn	aerobic_exercisennclassvb	sortvbaerobicjj	sort_outvbaerobicjj	aerobicsnncategorynn	aerobic_exercisennfamilynn	classnnlikeinaerobicjj	aerobicjjseparatevb	sort_outvbaerobic_exercisenn	aerobic_exercisenncategorynn	aerobic_exercisennclassifyvb	aerobicjjassortvb	aerobicsnnfamilynn	aerobicjjclassifyvb	classifyvbaerobicjj	aerobicsnnassortvb	classvbaerobic_exercisenn	aerobicjjsort_outvb	aerobic_exercisennassortvb	sort_outvbaerobicsnn	separatevbaerobicsnn	aerobicsnnsort_outvb	assortvbaerobicjj	separatevbaerobicjj	aerobicsnnseparatevb	familynnlikeinaerobicsnn	classnnlikeinaerobic_exercisenn	categorynnlikeinaerobicsnn	classifyvbaerobic_exercisenn	aerobic_exercisennsort_outvb	classvbaerobicjj	aerobicsnnsortvb	
+
+BE: walkVBaroundINhouseNN
+EQ class: 
+
+BE: exerciseNN
+EQ class: workoutnn	physical_exercisenn	physical_exertionnn	exercisingnn	
+
+BE: willNN
+EQ class: volitionnn	
+
+BE: powerNN
+EQ class: powerfulnessnn	
+
+BE: timeNN
+EQ class: clipnn	
+
+BE: powerNN
+EQ class: powerfulnessnn	
+
+BE: scheduleNN
+EQ class: agendann	docketnn	
+
+BE: takesVBZ
+EQ class: takevbz	
+
+BE: findVBP
+EQ class: happenvbp	encountervbp	chancevbp	bumpvbp	
+
+BE: stickVB
+EQ class: lodgevb	wedgevb	depositvb	
+
+BE: littleJJ
+EQ class: littlenessnn	smalljj	
+
+BE: goodJJ
+EQ class: goodnessnn	
+
+BE: littleJJpowerNN
+EQ class: littlejjpowerfulnessnn	smalljjpowernn	smalljjpowerfulnessnn	littlenessnnpowerfulnessnn	littlenessnnpowernn	
+
+BE: yourPRP$scheduleNN
+EQ class: schedulevbyourprp$	schedulennofinyourprp$	docketnnofinyourprp$	agendannofinyourprp$	yourprp$agendann	yourprp$schedulevb	yourprp$docketnn	
+
+BE: willNNpowerNN
+EQ class: powerfulnessnnwillvb	powerfulnessnnofinvolitionnn	powerfulnessnnofinwillnn	powernnwillvb	powernnofinvolitionnn	willnnpowerfulnessnn	powernnofinwillnn	volitionnnpowerfulnessnn	volitionnnpowernn	
+
+BE: exerciseNNtakesVBZ
+EQ class: workoutnntakesvbz	workoutnntakevbz	exercisingnntakevbz	physical_exercisenntakevbz	physical_exertionnntakesvbz	physical_exercisenntakesvbz	exercisenntakevbz	physical_exertionnntakevbz	exercisingnntakesvbz	
+
+BE: youPRPbeAUX
+EQ class: 
+
+BE: isAUXpowerNN
+EQ class: beauxpowernn	beauxpowerfulnessnn	isauxpowerfulnessnn	
+
+BE: beAUXgoodJJ
+EQ class: beauxgoodnessnn	
+
+BE: isAUXfindVBP
+EQ class: beauxfindvbp	isauxchancevbp	isauxencountervbp	isauxbumpvbp	beauxencountervbp	beauxbumpvbp	isauxhappenvbp	beauxhappenvbp	beauxchancevbp	
+
+BE: findVBPjustRB
+EQ class: findnnofinjustrb	findernnofinjustrb	encountervbpjustrb	bumpvbpjustrb	discoverynnofinjustrb	happenvbpjustrb	breakthroughnnofinjustrb	chancevbpjustrb	
+

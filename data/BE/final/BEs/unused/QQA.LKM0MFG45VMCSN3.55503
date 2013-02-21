@@ -1,0 +1,66 @@
+#give it just a little more time. like a few billion years. evolution doesn t happen over night. 
+#(S1 (S (VP (VB give) (NP (PRP it)) (NP (RB just) (DT a) (ADJP (RB little) (JJR more)) (NN time.)) (PP (IN like) (NP (DT a) (JJ few) (CD billion) (JJ years.) (NN evolution) (NNS doesn))) (S (NP (NNS t)) (VP (VB happen) (PP (IN over) (NP (NN night)))))) (. .)))
+#Rule:Nouns
+r1timeNN
+r1evolutionNN
+r1doesnNNS
+r1tNNS
+r1nightNN
+
+#Rule:Verbs
+r2giveVB
+r2happenVB
+
+#Rule:Adjs
+r4moreJJR
+r4fewJJ
+r4yearsJJ
+
+#Rule:Adj-Noun
+r5moreJJRtimeNN
+r5fewJJdoesnNNS
+r5billionCDdoesnNNS
+r5yearsJJdoesnNNS
+
+#Rule:N-HeadNoun
+r8evolutionNNdoesnNNS
+
+#Rule:HeadNoun-V
+r11tNNShappenVB
+
+#Rule:V-HeadNoun
+r21giveVBitPRP
+r21giveVBtimeNN
+
+#Rule:V-HeadNoun
+r22giveVBtNNS
+
+#Rule:PPinVP
+r30giveVBlikeINdoesnNNS
+r30happenVBoverINnightNN
+
+#It takes a long long time
+#(S1 (S (NP (PRP It)) (VP (VBZ takes) (NP (DT a) (JJ long) (JJ long) (NN time)))))
+#Rule:Nouns
+r1timeNN
+
+#Rule:Verbs
+r2takesVBZ
+
+#Rule:Adjs
+r4longJJ
+r4longJJ
+
+#Rule:Adj-Noun
+r5longJJtimeNN
+r5longJJtimeNN
+
+#Rule:HeadNoun-V
+r11itPRPtakesVBZ
+
+#Rule:V-HeadNoun
+r21takesVBZtimeNN
+
+@lemmas-left	it	give	billion	long	evolution	few	takes	doesn	time	t	more	years.	take	time.	night	years	happen	
+@lemmas-right	takes	doesn	time	t	it	take	time.	night	happen	
+@lemmas-center	over	like	

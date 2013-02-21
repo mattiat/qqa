@@ -1,0 +1,32 @@
+#How many ways can carbon dioxide return to the atmosphere?
+#(S1 (SBARQ (WHNP (WHADJP (WRB How) (JJ many)) (NNS ways)) (SQ (MD can) (NP (NN carbon) (NN dioxide)) (VP (VB return) (PP (TO to) (NP (DT the) (NN atmosphere))))) (. ?)))
+#Rule:Nouns
+r1waysNNS
+r1carbonNN
+r1dioxideNN
+r1atmosphereNN
+
+#Rule:Verbs
+r2returnVB
+
+#Rule:Adjs
+r4manyJJ
+
+#Rule:N-HeadNoun
+r8carbonNNdioxideNN
+
+#Rule:PPinVP
+r30returnVBtoTOatmosphereNN
+
+#biology question.
+#(S1 (FRAG (NP (NN biology) (NN question)) (. .)))
+#Rule:Nouns
+r1biologyNN
+r1questionNN
+
+#Rule:N-HeadNoun
+r8biologyNNquestionNN
+
+@lemmas-left	many	dioxide	carbon	return	atmosphere	question	biology	ways	
+@lemmas-right	dioxide	atmosphere	question	
+@lemmas-center	to	

@@ -1,0 +1,35 @@
+#Why does it seem that most of the diets don t work on over weight people?
+#(S1 (SBARQ (WHADVP (WRB Why)) (SQ (AUX does) (NP (PRP it)) (VP (VB seem) (SBAR (IN that) (S (NP (NP (JJS most)) (PP (IN of) (NP (DT the) (NNS diets)))) (VP (VB don) (NP (NP (NN t) (NN work)) (PP (IN on) (NP (QP (IN over) (NN weight)) (NNS people))))))))) (. ?)))
+#Rule:Nouns
+r1dietsNNS
+r1tLocationAnnotation
+r1workNN
+r1weightNN
+r1peopleNNS
+
+#Rule:Verbs
+r2seemVB
+r2donVB
+
+#Rule:Adjs
+r4mostJJS
+
+#Rule:N-HeadNoun
+r8tLocationAnnotationworkNN
+
+#Rule:HeadNoun-V
+r11mostJJSdonVB
+
+#Rule:V-HeadNoun
+r21donVBworkNN
+
+#Rule:PPinNP
+r26mostJJSofINdietsNNS
+r26workNNonINpeopleNNS
+
+#Rule:V-IN-V
+r43seemVBthatINdonVB
+
+@lemmas-left	work	weight	t	don	diet	diets	most	seem	people	
+@lemmas-right	work	diet	don	diets	people	
+@lemmas-center	that	of	on	

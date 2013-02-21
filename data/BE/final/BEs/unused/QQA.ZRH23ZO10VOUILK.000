@@ -1,0 +1,57 @@
+#Why do the English and Americans have different measuring systems??
+#(S1 (SBARQ (WHADVP (WRB Why)) (SQ (AUX do) (NP (DT the) (NNP English) (CC and) (NNP Americans)) (VP (AUX have) (NP (JJ different) (NN measuring) (NNS systems))) (. ?)) (. ?)))
+#Rule:Nouns
+r1EnglishNNP
+r1AmericansNNP
+r1measuringNN
+r1systemsNNS
+
+#Rule:Adjs
+r4differentJJ
+
+#Rule:Adj-Noun
+r5differentJJsystemsNNS
+
+#Rule:N-HeadNoun
+r8measuringNNsystemsNNS
+
+#Rule:V-HeadNoun
+r21haveAUXsystemsNNS
+
+#IE: Mile vs kilometerWhat is the european word for metric system?
+#(S1 (FRAG (NP (NN IE)) (: :) (S (NP (NNP Mile) (NNP vs) (NN kilometerWhat)) (VP (AUX is) (NP (NP (DT the) (JJ european) (NN word)) (PP (IN for) (NP (JJ metric) (NN system)))))) (. ?)))
+#Rule:Nouns
+r1IENN
+r1MileNNP
+r1vsNNP
+r1kilometerWhatNN
+r1wordNN
+r1systemNN
+
+#Rule:Adjs
+r4europeanJJ
+r4metricJJ
+
+#Rule:Adj-Noun
+r5europeanJJwordNN
+r5metricJJsystemNN
+
+#Rule:N-HeadNoun
+r8vsNNPkilometerWhatNN
+r8MileNNPkilometerWhatNN
+
+#Rule:HeadNoun-V
+r11kilometerWhatNNisAUX
+
+#Rule:V-HeadNoun
+r21isAUXwordNN
+
+#Rule:PPinNP
+r26wordNNforINsystemNN
+
+#Rule:IS-RULE
+r47wordNNkilometerWhatNN
+
+@lemmas-left	systems	different	is	have	vs	Mile	English	measuring	v	system	european	metric	american	ie	mile	kilometerwhat	word	kilometerWhat	Americans	english	be	IE	
+@lemmas-right	systems	is	system	kilometerwhat	kilometerWhat	word	be	
+@lemmas-center	for	

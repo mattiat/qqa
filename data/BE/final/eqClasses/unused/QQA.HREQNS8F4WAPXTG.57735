@@ -1,0 +1,111 @@
+BE: possibleJJ
+EQ class: possiblenessnn	possibilitynn	
+
+BE: itPRPisAUX
+EQ class: itprpbeaux	
+
+BE: isAUXpossibleJJ
+EQ class: beauxpossibilitynn	beauxpossiblenessnn	beauxpossiblejj	isauxpossiblenessnn	isauxpossibilitynn	
+
+BE: isAUXjustRB
+EQ class: beauxjustrb	
+
+BE: qualificationNN
+EQ class: makingnn	
+
+BE: experienceNN
+EQ class: experientjj	experientialjj	
+
+BE: licenseNN
+EQ class: licencenn	permitnn	
+
+BE: requiresVBZ
+EQ class: involvevbz	demandvbz	requirevbz	askvbz	postulatevbz	necessitatevbz	takevbz	needvbz	call_forvbz	
+
+BE: qualificationNNexperienceNN
+EQ class: experiencennmakingnn	experientialjjmeasure_upvb	makingnngo_throughvb	qualitynnofinexperientialjj	makingnnexperientialjj	experientjjofinqualificationnn	qualifiernnofinexperiencenn	qualificationnngo_throughvb	limitingnnofinexperientjj	makingnnexperientjj	qualificationnnofinexperientialjj	experientialjjqualifyvb	qualitynnofinexperiencenn	limitingnnofinexperiencenn	experiencennofinqualificationnn	modificationnnofinexperientjj	experiencennqualifyvb	limitingnnofinexperientialjj	experientjjmakingnn	experientialjjmakingnn	qualifyingnnofinexperientjj	makingnnofinexperientjj	qualifiernnofinexperientjj	experiencennofinmakingnn	experientialjjqualificationnn	modificationnnofinexperiencenn	makingnnexperiencenn	experientjjmeasure_upvb	makingnnseevb	qualificationnnexperiencevb	makingnnofinexperientialjj	qualificationnnseevb	experiencennmeasure_upvb	qualifyingnnofinexperientialjj	qualificationnnofinexperiencenn	experientjjqualifyvb	experientialjjofinqualificationnn	qualifyingnnofinexperiencenn	qualitynnofinexperientjj	makingnnexperiencevb	experientjjqualificationnn	experientjjofinmakingnn	qualifiernnofinexperientialjj	makingnnofinexperiencenn	experientialjjofinmakingnn	qualificationnnofinexperientjj	experiencennqualificationnn	qualificationnnexperientialjj	modificationnnofinexperientialjj	qualificationnnexperientjj	
+
+BE: itPRPrequiresVBZ
+EQ class: requirementnnitprp	demandnnitprp	itprprequirevbz	itprppostulatevbz	itprpdemandvbz	itprpinvolvevbz	itprpcall_forvbz	requirementnnofinitprp	itprptakevbz	demandnnofinitprp	itprpneedvbz	itprpnecessitatevbz	itprpaskvbz	
+
+BE: requiresVBZqualificationNN
+EQ class: demandvbzmakingnn	postulatevbzmakingnn	demandnnofinqualificationnn	demandnnofinmakingnn	necessitatevbzqualificationnn	requiresvbzmakingnn	requirevbzmakingnn	involvevbzmakingnn	involvevbzqualificationnn	call_forvbzqualificationnn	needvbzqualificationnn	necessitatevbzmakingnn	askvbzqualificationnn	takevbzqualificationnn	needvbzmakingnn	askvbzmakingnn	requirevbzqualificationnn	requirementnnofinmakingnn	call_forvbzmakingnn	takevbzmakingnn	requirementnnofinqualificationnn	demandvbzqualificationnn	postulatevbzqualificationnn	
+
+BE: licenseNN
+EQ class: licencenn	permitnn	
+
+BE: personNN
+EQ class: someonenn	soulnn	individualnn	somebodynn	mortalnn	
+
+BE: chemNNP
+EQ class: 
+
+BE: labNN
+EQ class: science_laboratorynn	research_laboratorynn	laboratorynn	research_labnn	science_labnn	
+
+BE: childrenNNS
+EQ class: kidnns	tykenns	small_frynns	minornns	youngsternns	nestlingnns	childlyjj	theynns	frynns	tiddlernns	nippernns	shavernns	tikenns	themnns	childnns	
+
+BE: lawNN
+EQ class: jurisprudencenn	
+
+BE: makingVBG
+EQ class: makevbg	dovbg	
+
+BE: tryingVBG
+EQ class: assayvbg	tryvbg	seekvbg	essayvbg	attemptvbg	
+
+BE: teachVB
+EQ class: learnvb	instructvb	
+
+BE: prosecutedVBN
+EQ class: prosecutevbn	
+
+BE: validJJ
+EQ class: validitynn	validnessnn	
+
+BE: ownJJ
+EQ class: ainjj	
+
+BE: validJJlicenseNN
+EQ class: validnessnnlicensenn	validnessnnpermitnn	validjjlicencenn	validitynnlicensenn	validjjpermitnn	licensevbvalidlyrb	licencevbvalidlyrb	validitynnlicencenn	validitynnpermitnn	certifyvbvalidlyrb	validnessnnlicencenn	
+
+BE: hisPRP$ownJJ
+EQ class: hisprp$ainjj	
+
+BE: chemNNPlabNN
+EQ class: research_labnnofinchemnnp	chemnnpscience_laboratorynn	science_labnnofinchemnnp	chemnnpresearch_labnn	chemnnplaboratorynn	chemnnpscience_labnn	laboratorynnofinchemnnp	chemnnpresearch_laboratorynn	science_laboratorynnofinchemnnp	research_laboratorynnofinchemnnp	labnnofinchemnnp	
+
+BE: personNNmakingVBG
+EQ class: individualnnmakingvbg	somebodynnmakingvbg	somebodynnmakevbg	mortalnndovbg	soulnnmakingvbg	individualnnmakevbg	soulnnmakevbg	individualnndovbg	someonennmakevbg	someonenndovbg	soulnndovbg	personnnmakevbg	somebodynndovbg	someonennmakingvbg	personnndovbg	mortalnnmakevbg	mortalnnmakingvbg	
+
+BE: personNNtryingVBG
+EQ class: someonennessayvbg	attemptnnofinsomeonenn	triernnofinsoulnn	soulnnseekvbg	triernnofinindividualnn	endeavornnofinmortalnn	soulnntryingvbg	individualnnessayvbg	trynnofinsomebodynn	triernnofinsomeonenn	trynnofinmortalnn	effortnnofinpersonnn	attemptnnofinsoulnn	somebodynntryingvbg	triernnsomebodynn	endeavornnofinindividualnn	trynnofinindividualnn	triernnindividualnn	mortalnnassayvbg	someonenntryvbg	mortalnnessayvbg	effortnnofinmortalnn	somebodynnessayvbg	trynnofinsoulnn	trynnofinsomeonenn	individualnntryvbg	effortnnofinsoulnn	endeavournnofinsomebodynn	triernnpersonnn	mortalnntryingvbg	endeavournnofinsoulnn	triernnofinsomebodynn	soulnnessayvbg	individualnnseekvbg	effortnnofinsomebodynn	effortnnofinindividualnn	triernnsoulnn	individualnntryingvbg	attemptnnofinmortalnn	endeavournnofinmortalnn	personnnseekvbg	endeavournnofinindividualnn	someonenntryingvbg	mortalnnseekvbg	endeavournnofinpersonnn	somebodynntryvbg	trynnofinpersonnn	personnnattemptvbg	mortalnntryvbg	soulnnassayvbg	endeavornnofinsomeonenn	endeavornnofinpersonnn	triernnofinpersonnn	attemptnnofinindividualnn	endeavournnofinsomeonenn	soulnnattemptvbg	attemptnnofinsomebodynn	effortnnofinsomeonenn	attemptnnofinpersonnn	triernnofinmortalnn	individualnnattemptvbg	endeavornnofinsoulnn	triernnsomeonenn	someonennattemptvbg	somebodynnattemptvbg	personnnessayvbg	somebodynnseekvbg	soulnntryvbg	someonennseekvbg	mortalnnattemptvbg	endeavornnofinsomebodynn	somebodynnassayvbg	personnnassayvbg	personnntryvbg	individualnnassayvbg	triernnmortalnn	someonennassayvbg	
+
+BE: lawNNprosecutedVBN
+EQ class: criminal_prosecutionnnofinlawnn	prosecuting_officernnjurisprudencenn	criminal_prosecutionnnlawnn	jurisprudencennprosecutedvbn	prosecutornnofinjurisprudencenn	prosecuting_officernnlawnn	prosecuting_attorneynnofinlawnn	jurisprudencennprosecutevbn	prosecuting_attorneynnlawnn	prosecuting_attorneynnjurisprudencenn	prosecutionnnofinjurisprudencenn	prosecutornnjurisprudencenn	prosecutornnlawnn	prosecutionnnofinlawnn	lawnnprosecutevbn	prosecuting_officernnofinjurisprudencenn	prosecuting_officernnofinlawnn	public_prosecutornnofinlawnn	public_prosecutornnlawnn	prosecutionnnlawnn	public_prosecutornnjurisprudencenn	criminal_prosecutionnnofinjurisprudencenn	public_prosecutornnofinjurisprudencenn	prosecuting_attorneynnofinjurisprudencenn	prosecutornnofinlawnn	criminal_prosecutionnnjurisprudencenn	prosecutionnnjurisprudencenn	
+
+BE: makingVBGlabNN
+EQ class: makingvbgresearch_labnn	dovbglabnn	makingvbgresearch_laboratorynn	dovbglaboratorynn	makingvbglaboratorynn	dovbgresearch_laboratorynn	makevbglaboratorynn	dovbgscience_laboratorynn	makevbglabnn	makingvbgscience_labnn	dovbgscience_labnn	makevbgresearch_laboratorynn	dovbgresearch_labnn	makevbgscience_labnn	makingvbgscience_laboratorynn	makevbgresearch_labnn	makevbgscience_laboratorynn	
+
+BE: teachVBchildrenNNS
+EQ class: teachablennofinfrynns	pedagogynnofinnippernns	instructionnnofintikenns	teachvbshavernns	instructvbfrynns	instructornnofinyoungsternns	instructionnnofintiddlernns	learnvbkidnns	instructvbkidnns	pedagogynnofintheynns	instructornnofinnestlingnns	instructornnofinchildrennns	pedagogynnofinnestlingnns	instructionnnofintheynns	teachingnnofinfrynns	teachernnofinkidnns	pedagogynnofinchildnns	learnvbfrynns	teachingnnofinminornns	teachingnnofintiddlernns	instructionnnofinthemnns	instructornnofinfrynns	instructornnofinshavernns	teachablennofintiddlernns	instructionnnofinsmall_frynns	teachvbtykenns	instructornnofinminornns	learnvbchildrennns	instructornnofinchildlyjj	teachingnnofinthemnns	pedagogynnofinthemnns	instructionnnofinfrynns	teachernnofinchildnns	teachvbkidnns	teachernnofintikenns	pedagogynnofinshavernns	teachernnofintiddlernns	teachingnnofinyoungsternns	teachablennofinchildnns	pedagogynnofinsmall_frynns	teachvbyoungsternns	teachablennofinnippernns	instructvbnippernns	teachablennofinkidnns	instructionnnofinshavernns	teachingnnofintheynns	instructornnofinchildnns	instructvbshavernns	teachablennofinthemnns	instructvbthemnns	instructvbtykenns	instructvbchildnns	learnvbtykenns	instructornnofinsmall_frynns	teachernnofinthemnns	teachablennofintheynns	instructionnnofinminornns	learnvbchildnns	instructvbnestlingnns	teachvbchildlyjj	teachablennofintikenns	teachvbfrynns	pedagogynnofintiddlernns	learnvbtheynns	learnvbsmall_frynns	instructornnofinthemnns	pedagogynnofinchildrennns	learnvbtiddlernns	instructvbyoungsternns	instructornnofintikenns	teachernnofinfrynns	teachingnnofinsmall_frynns	instructvbminornns	teachernnofintheynns	teachvbchildnns	instructionnnofinnippernns	teachingnnofinnestlingnns	teachvbtheynns	teachvbthemnns	teachablennofinyoungsternns	instructionnnofintykenns	instructornnofinnippernns	pedagogynnofinminornns	learnvbyoungsternns	teachernnofinyoungsternns	learnvbminornns	instructvbtikenns	teachablennofinchildrennns	learnvbnestlingnns	learnvbchildlyjj	learnvbnippernns	pedagogynnofintykenns	instructvbsmall_frynns	learnvbtikenns	pedagogynnofinchildlyjj	instructvbtheynns	teachernnofinnestlingnns	pedagogynnofinfrynns	teachernnofinchildrennns	teachingnnofinshavernns	teachernnofinminornns	instructvbchildrennns	teachvbnestlingnns	instructornnofintheynns	teachablennofinnestlingnns	teachvbtiddlernns	teachingnnofinchildnns	teachingnnofinchildlyjj	instructionnnofinchildlyjj	teachingnnofinchildrennns	teachernnofinchildlyjj	pedagogynnofinkidnns	teachingnnofintikenns	teachernnofintykenns	instructionnnofinchildnns	teachingnnofinkidnns	learnvbshavernns	teachernnofinsmall_frynns	teachablennofinshavernns	instructionnnofinyoungsternns	teachablennofinchildlyjj	teachvbnippernns	teachablennofinsmall_frynns	instructionnnofinnestlingnns	teachvbminornns	instructornnofintiddlernns	teachingnnofinnippernns	learnvbthemnns	teachvbsmall_frynns	instructvbchildlyjj	pedagogynnofintikenns	instructionnnofinchildrennns	teachernnofinshavernns	instructornnofintykenns	instructornnofinkidnns	pedagogynnofinyoungsternns	instructionnnofinkidnns	teachvbtikenns	teachablennofintykenns	teachablennofinminornns	teachernnofinnippernns	teachingnnofintykenns	instructvbtiddlernns	
+
+BE: prosecutedVBNpersonNN
+EQ class: prosecutornnofinmortalnn	prosecutornnofinsoulnn	public_prosecutornnofinsomeonenn	prosecuting_attorneynnofinindividualnn	prosecutionnnofinindividualnn	prosecutornnofinsomebodynn	prosecutedvbnsomeonenn	prosecutedvbnmortalnn	prosecuting_officernnofinsomeonenn	public_prosecutornnofinsoulnn	prosecutornnofinpersonnn	prosecutevbnsoulnn	prosecuting_officernnofinmortalnn	prosecuting_officernnofinsomebodynn	prosecuting_attorneynnofinpersonnn	prosecuting_officernnofinpersonnn	prosecutedvbnindividualnn	prosecutornnofinsomeonenn	prosecutevbnsomeonenn	prosecutevbnpersonnn	public_prosecutornnofinsomebodynn	prosecutionnnofinsomebodynn	criminal_prosecutionnnofinindividualnn	prosecuting_officernnofinsoulnn	prosecutevbnmortalnn	prosecutevbnindividualnn	prosecutornnofinindividualnn	prosecuting_officernnofinindividualnn	criminal_prosecutionnnofinmortalnn	prosecutevbnsomebodynn	prosecutionnnofinmortalnn	criminal_prosecutionnnofinsomebodynn	criminal_prosecutionnnofinpersonnn	prosecuting_attorneynnofinmortalnn	prosecutedvbnsoulnn	criminal_prosecutionnnofinsoulnn	prosecutionnnofinsoulnn	public_prosecutornnofinmortalnn	prosecuting_attorneynnofinsoulnn	prosecutionnnofinsomeonenn	prosecutionnnofinpersonnn	prosecuting_attorneynnofinsomebodynn	public_prosecutornnofinindividualnn	criminal_prosecutionnnofinsomeonenn	public_prosecutornnofinpersonnn	prosecutedvbnsomebodynn	prosecuting_attorneynnofinsomeonenn	
+
+BE: labNNofINownJJ
+EQ class: labnnofinainjj	ainjjscience_labnn	laboratorynnofinainjj	ownjjresearch_laboratorynn	science_labnnofinainjj	ownjjscience_labnn	science_labnnofinownjj	ainjjresearch_labnn	science_laboratorynnofinownjj	ownjjlabnn	ainjjscience_laboratorynn	research_laboratorynnofinainjj	science_laboratorynnofinainjj	ainjjlaboratorynn	ainjjresearch_laboratorynn	ownjjscience_laboratorynn	ownjjlaboratorynn	research_labnnofinownjj	ainjjlabnn	research_labnnofinainjj	research_laboratorynnofinownjj	ownjjresearch_labnn	laboratorynnofinownjj	
+
+BE: canMDwithoutINlicenseNN
+EQ class: put_upmdwithoutinpermitnn	canmdwithoutinpermitnn	canmdwithoutinlicencenn	tinmdwithoutinlicencenn	tinmdwithoutinlicensenn	put_upmdwithoutinlicencenn	put_upmdwithoutinlicensenn	tinmdwithoutinpermitnn	
+
+BE: tryingVBGteachVB
+EQ class: seekvbglearnvb	attemptvbginstructvb	tryingvbglearnvb	tryvbgteachvb	effortnnofinlearnvb	endeavornnofininstructvb	endeavournnofinteachvb	triernnofinteachvb	attemptnnofinlearnvb	tryingvbginstructvb	seekvbginstructvb	essayvbglearnvb	triernnofininstructvb	assayvbgteachvb	trynnofinlearnvb	attemptnnofininstructvb	triernnofinlearnvb	attemptvbglearnvb	attemptnnofinteachvb	tryvbglearnvb	assayvbginstructvb	endeavornnofinteachvb	trynnofininstructvb	tryvbginstructvb	endeavournnofinlearnvb	attemptvbgteachvb	essayvbginstructvb	effortnnofininstructvb	seekvbgteachvb	assayvbglearnvb	endeavournnofininstructvb	effortnnofinteachvb	essayvbgteachvb	endeavornnofinlearnvb	trynnofinteachvb	
+
+BE: makingVBGfurtherRB
+EQ class: makevbgfurtherrb	dovbgfurtherrb	
+
+BE: tryingVBGfurtherRB
+EQ class: effortnnofinfurtherrb	attemptvbgfurtherrb	triernnofinfurtherrb	trynnofinfurtherrb	assayvbgfurtherrb	tryvbgfurtherrb	attemptnnofinfurtherrb	essayvbgfurtherrb	endeavornnofinfurtherrb	endeavournnofinfurtherrb	seekvbgfurtherrb	
+

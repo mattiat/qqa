@@ -1,0 +1,564 @@
+#Please help!
+#(S1 (S (VP (VB Please) (VP (VB help))) (. !)))
+#Rule:Verbs
+r2pleaseVB
+r2helpVB
+
+# How to hide..?I am 14 years old, 5 3 and 143 lbs.
+#(S1 (S (SBAR (WHADVP (WRB How)) (S (VP (TO to) (VP (VB hide) (NP (NNS ..))))) (. ?)) (NP (PRP I)) (VP (AUX am) (ADJP (NP (CD 14) (NNS years)) (JJ old)) (, ,) (NP (QP (CD 5) (CD 3) (CC and) (CD 143)) (NNS lbs))) (. .)))
+#Rule:Nouns
+r1..NNS
+r1yearsNNS
+r1lbsLocationAnnotation
+
+#Rule:Verbs
+r2hideVB
+
+#Rule:Adjs
+r4oldJJ
+
+#Rule:Adj-Noun
+r514CDyearsNNS
+r55CDlbsLocationAnnotation
+r53CDlbsLocationAnnotation
+r5143CDlbsLocationAnnotation
+
+#Rule:HeadNoun-V
+r11iPRPamAUX
+
+#Rule:V-HeadNoun
+r21hideVB..NNS
+r21amAUXlbsLocationAnnotation
+
+#Rule:(SBAR+WHADVP)inS
+r42amAUXhowWRBhideVB
+
+# I am fat.
+#(S1 (S (NP (PRP I)) (VP (AUX am) (ADJP (JJ fat))) (. .)))
+#Rule:Adjs
+r4fatJJ
+
+#Rule:HeadNoun-V
+r11iPRPamAUX
+
+# I know that.
+#(S1 (S (NP (PRP I)) (VP (VBP know) (NP (DT that))) (. .)))
+#Rule:Verbs
+r2knowVBP
+
+#Rule:HeadNoun-V
+r11iPRPknowVBP
+
+#Rule:V-HeadNoun
+r21knowVBPthatDT
+
+# This is not another one of those Am I Fat?? questions although I have asked one in the past.
+#(S1 (S (NP (DT This)) (VP (AUX is) (RB not) (NP (NP (DT another) (CD one)) (PP (IN of) (NP (DT those) (NNP Am) (NNP I) (NNP Fat)) (. ?) (. ?) (NP (NNS questions)))) (SBAR (IN although) (S (NP (PRP I)) (VP (AUX have) (VP (VBN asked) (NP (NP (CD one)) (PP (IN in) (NP (DT the) (NN past))))))))) (. .)))
+#Rule:Nouns
+r1Am I FatLocationAnnotation
+r1questionsNNS
+r1pastNN
+
+#Rule:Verbs
+r2askedVBN
+
+#Rule:HeadNoun-V
+r11thisDTisAUX
+
+#Rule:HeadNoun-V
+r12iPRPaskedVBN
+
+#Rule:V-HeadNoun
+r21isAUXoneCD
+r21askedVBNoneCD
+
+#Rule:PPinNP
+r26oneCDofINAm I FatLocationAnnotation
+r26oneCDofINquestionsNNS
+r26oneCDinINpastNN
+
+#Rule:V-IN-V
+r43isAUXalthoughINaskedVBN
+
+#Rule:V-ADV
+r46isAUXnotRB
+
+# What I m saying is that I want to be anorexic.
+#(S1 (S (SBAR (WHNP (WP What)) (S (NP (PRP I)) (VP (NNP m) (S (VP (VBG saying)))))) (VP (AUX is) (SBAR (IN that) (S (NP (PRP I)) (VP (VBP want) (S (VP (TO to) (VP (AUX be) (ADJP (JJ anorexic))))))))) (. .)))
+#Rule:Nouns
+r1mNNP
+
+#Rule:Verbs
+r2sayingVBG
+r2wantVBP
+
+#Rule:Adjs
+r4anorexicLocationAnnotation
+
+#Rule:HeadNoun-V
+r11iPRPwantVBP
+
+#Rule:V-ADJ
+r25beAUXanorexicLocationAnnotation
+
+#Rule:V-IN-V
+r43isAUXthatINwantVBP
+
+# Don t come on here and say, Don t be retarded!
+#(S1 (S (NP (NNP Don) (NNP t)) (VP (VP (VB come) (ADVP (IN on) (RB here))) (CC and) (VP (VB say)) (, ,) (S (NP (NNP Don) (NNP t)) (VP (AUX be) (ADJP (JJ retarded))))) (. !)))
+#Rule:Nouns
+r1Don tPersonAnnotation
+r1DonOrganizationAnnotation
+r1tNNP
+
+#Rule:Verbs
+r2comeVB
+r2sayVB
+
+#Rule:Adjs
+r4retardedJJ
+
+#Rule:N-HeadNoun
+r8DonOrganizationAnnotationtNNP
+
+#Rule:HeadNoun-V
+r11Don tPersonAnnotationcomeVB
+r11Don tPersonAnnotationsayVB
+r11tNNPbeAUX
+
+#Rule:V-HeadNoun
+r22comeVBtNNP
+
+#Rule:V-ADJ
+r25beAUXretardedJJ
+
+#Rule:V-ADV
+r46comeVBhereRB
+
+# Nobody wants this!
+#(S1 (S (NP (NN Nobody)) (VP (VBZ wants) (NP (DT this))) (. !)))
+#Rule:Nouns
+r1NobodyNN
+
+#Rule:Verbs
+r2wantsVBZ
+
+#Rule:HeadNoun-V
+r11NobodyNNwantsVBZ
+
+#Rule:V-HeadNoun
+r21wantsVBZthisLocationAnnotation
+
+# Listen to what I have to say.
+#(S1 (S (VP (VB Listen) (PP (TO to) (SBAR (WHNP (WP what)) (S (NP (PRP I)) (VP (AUX have) (S (VP (TO to) (VP (VB say))))))))) (. .)))
+#Rule:Verbs
+r2listenVB
+r2sayVB
+
+#Rule:HeadNoun-V
+r11iPRPhaveAUX
+
+# I don t want to end up being 90 lbs, 100 lbs, or even 110 lbs.
+#(S1 (S (NP (PRP I)) (VP (VB don) (SBAR (S (NP (NNS t)) (VP (VBP want) (S (VP (TO to) (VP (VB end) (PRT (RP up)) (S (VP (AUXG being) (UCP (NP (NP (CD 90) (NNS lbs)) (, ,) (NP (CD 100) (NNS lbs)) (, ,)) (CC or) (ADVP (RB even) (NP (CD 110) (NNS lbs))))))))))))) (. .)))
+#Rule:Nouns
+r1tNNS
+r1lbsNNS
+r1lbsNNS
+r1lbsLocationAnnotation
+
+#Rule:Verbs
+r2donVB
+r2wantVBP
+
+#Rule:V-PRT
+r3endVBupRP
+
+#Rule:Adj-Noun
+r590CDlbsNNS
+r5100CDlbsNNS
+r5110CDlbsLocationAnnotation
+
+#Rule:N-ApposN
+r10lbsNNSlbsNNS
+
+#Rule:HeadNoun-V
+r11iPRPdonVB
+r11tNNSwantVBP
+
+#Rule:V-V
+r44wantVBPendVB
+
+# I want to be 120 lbs.
+#(S1 (S (NP (PRP I)) (VP (VBP want) (S (VP (TO to) (VP (AUX be) (NP (CD 120) (NNS lbs)))))) (. .)))
+#Rule:Nouns
+r1lbsLocationAnnotation
+
+#Rule:Verbs
+r2wantVBP
+
+#Rule:Adj-Noun
+r5120CDlbsLocationAnnotation
+
+#Rule:HeadNoun-V
+r11iPRPwantVBP
+
+#Rule:V-HeadNoun
+r21beAUXlbsLocationAnnotation
+
+# and the only way I can do it is to starve myself.
+#(S1 (S (CC and) (NP (NP (DT the) (JJ only) (NN way)) (SBAR (S (NP (PRP I)) (VP (MD can) (VP (AUX do) (NP (PRP it))))))) (VP (AUX is) (S (VP (TO to) (VP (VB starve) (NP (PRP myself)))))) (. .)))
+#Rule:Nouns
+r1wayNN
+
+#Rule:Verbs
+r2starveVB
+
+#Rule:Adjs
+r4onlyJJ
+
+#Rule:Adj-Noun
+r5onlyJJwayNN
+
+#Rule:HeadNoun-V
+r11wayNNisAUX
+r11iPRPdoAUX
+
+#Rule:V-HeadNoun
+r21doAUXitPRP
+r21starveVBmyselfPRP
+
+# So I guess that isn t really anorexia.
+#(S1 (S (IN So) (NP (PRP I)) (VP (VBP guess) (SBAR (IN that) (S (NP (NNS isn)) (VP (VBP t) (ADJP (RB really) (JJ anorexia)))))) (. .)))
+#Rule:Nouns
+r1isnLocationAnnotation
+
+#Rule:Verbs
+r2guessVBP
+r2tVBP
+
+#Rule:Adjs
+r4anorexiaLocationAnnotation
+
+#Rule:HeadNoun-V
+r11iPRPguessVBP
+r11isnLocationAnnotationtVBP
+
+#Rule:V-IN-V
+r43guessVBPthatINtVBP
+
+# It s starvation.
+#(S1 (S (NP (PRP It)) (VP (VBZ s) (NP (NN starvation))) (. .)))
+#Rule:Nouns
+r1s starvationOrganizationAnnotation
+
+#Rule:HeadNoun-V
+r11itPRPs starvationOrganizationAnnotation
+
+# Anyway, my point is that I don t know how to hide starving myself from my friends.
+#(S1 (S (ADVP (RB Anyway)) (, ,) (NP (PRP$ my) (NN point)) (VP (AUX is) (SBAR (IN that) (S (NP (PRP I)) (VP (VB don) (S (NP (NNS t)) (VP (VB know) (SBAR (WHADVP (WRB how)) (S (VP (TO to) (VP (VB hide) (S (VP (VBG starving) (NP (PRP myself)) (PP (IN from) (NP (PRP$ my) (NNS friends))))))))))))))) (. .)))
+#Rule:Nouns
+r1pointNN
+r1tNNS
+r1friendsNNS
+
+#Rule:Verbs
+r2donVB
+r2knowVB
+r2hideVB
+r2starvingVBG
+
+#Rule:PRP-Noun
+r6myPRP$pointNN
+r6myPRP$friendsNNS
+
+#Rule:HeadNoun-V
+r11pointNNisAUX
+r11iPRPdonVB
+r11tNNSknowVB
+
+#Rule:V-HeadNoun
+r21starvingVBGmyselfPRP
+
+#Rule:V-HeadNoun
+r22donVBtNNS
+
+#Rule:PPinVP
+r30starvingVBGfromINfriendsNNS
+
+#Rule:V-IN-V
+r43isAUXthatINdonVB
+
+#Rule:V-ADV
+r46isAUXAnywayRB
+
+# I have the greatest friends on the planet, and the only problem with that is that they care too much about me.
+#(S1 (S (S (NP (PRP I)) (VP (AUX have) (NP (NP (DT the) (JJS greatest) (NNS friends)) (PP (IN on) (NP (DT the) (NN planet)))))) (, ,) (CC and) (S (NP (NP (DT the) (JJ only) (NN problem)) (PP (IN with) (NP (DT that)))) (VP (AUX is) (SBAR (IN that) (S (NP (PRP they)) (VP (VBP care) (ADVP (RB too) (RB much)) (PP (IN about) (NP (PRP me)))))))) (. .)))
+#Rule:Nouns
+r1friendsNNS
+r1planetNN
+r1problemNN
+
+#Rule:Verbs
+r2careVBP
+
+#Rule:Adjs
+r4greatestJJS
+r4onlyJJ
+
+#Rule:Adj-Noun
+r5greatestJJSfriendsNNS
+r5onlyJJproblemNN
+
+#Rule:HeadNoun-V
+r11iPRPhaveAUX
+r11problemNNisAUX
+r11theyPRPcareVBP
+
+#Rule:V-HeadNoun
+r21haveAUXfriendsNNS
+
+#Rule:PPinNP
+r26friendsNNSonINplanetNN
+r26problemNNwithINthatDT
+
+#Rule:PPinVP
+r30careVBPaboutINmePRP
+
+#Rule:V-IN-V
+r43isAUXthatINcareVBP
+
+#Rule:V-ADV
+r46careVBPtooRB
+r46careVBPmuchRB
+
+# They would never let me be anorexic, or starve myself - they see it as the same thing.
+#(S1 (S (S (NP (PRP They)) (VP (MD would) (ADVP (RB never)) (VP (VB let) (NP (PRP me)) (VP (VP (AUX be) (ADJP (JJ anorexic))) (, ,) (CC or) (VP (VB starve) (NP (PRP myself))))))) (: -) (S (NP (PRP they)) (VP (VBP see) (NP (PRP it)) (PP (IN as) (NP (DT the) (JJ same) (NN thing))))) (. .)))
+#Rule:Nouns
+r1thingNN
+
+#Rule:Verbs
+r2letVB
+r2starveVB
+r2seeVBP
+
+#Rule:Adjs
+r4anorexicLocationAnnotation
+r4sameJJ
+
+#Rule:Adj-Noun
+r5sameJJthingNN
+
+#Rule:HeadNoun-V
+r11theyPRPletVB
+r11theyPRPstarveVB
+r11theyPRPbeAUX
+r11theyPRPseeVBP
+
+#Rule:V-HeadNoun
+r21letVBmePRP
+r21starveVBmyselfPRP
+r21seeVBPitPRP
+
+#Rule:V-ADJ
+r25beAUXanorexicLocationAnnotation
+
+#Rule:PPinVP
+r30seeVBPasINthingNN
+
+#Rule:V-ADV
+r46letVBneverRB
+
+# So does anyone know how to hide it from my parents, relatives and friends?? Please help??Please don t give me stupid answers.
+#(S1 (S (SQ (ADVP (RB So)) (AUX does) (NP (NN anyone)) (VP (VB know) (SBAR (WHADVP (WRB how)) (S (VP (TO to) (VP (VB hide) (NP (PRP it)) (PP (IN from) (NP (PRP$ my) (NNS parents) (, ,) (NNS relatives) (CC and) (NNS friends)))))))) (. ?) (. ?)) (INTJ (UH Please)) (VP (VB help) (S (VP (VB ??) (S (INTJ (UH Please)) (VP (VB don) (RB t) (VP (VB give) (NP (PRP me)) (NP (JJ stupid) (NNS answers)))))))) (. .)))
+#Rule:Nouns
+r1anyoneNN
+r1parentsNNS
+r1relativesNNS
+r1friendsNNS
+r1answersNNS
+
+#Rule:Verbs
+r2knowVB
+r2hideVB
+r2helpVB
+r2??VB
+r2donVB
+r2giveVB
+
+#Rule:Adjs
+r4stupidJJ
+
+#Rule:Adj-Noun
+r5stupidJJanswersNNS
+
+#Rule:PRP-Noun
+r6myPRP$relativesNNS
+
+#Rule:V-HeadNoun
+r21hideVBitPRP
+r21giveVBmePRP
+r21giveVBanswersNNS
+
+#Rule:PPinVP
+r30hideVBfromINrelativesNNS
+
+#Rule:V-V
+r44??VBgiveVB
+
+#Rule:V-ADV
+r46donVBtRB
+
+# I don t want to hear rude answers or people telling me not to be ridiculous..Tha
+#(S1 (S (NP (PRP I)) (VP (VB don) (SBAR (S (NP (NNS t)) (VP (VBP want) (S (VP (TO to) (VP (VB hear) (NP (NP (JJ rude) (NNS answers)) (CC or) (NP (NP (NNS people)) (VP (VBG telling) (NP (PRP me)) (S (RB not) (VP (TO to) (VP (AUX be) (ADJP (JJ ridiculous)) (NP (JJ ..) (NNP Tha)))))))))))))))))
+#Rule:Nouns
+r1tLocationAnnotation
+r1answersNNS
+r1peopleNNS
+r1ThaLocationAnnotation
+
+#Rule:Verbs
+r2donVB
+r2wantVBP
+r2hearVB
+r2tellingVBG
+
+#Rule:Adjs
+r4rudeJJ
+r4ridiculousJJ
+r4..JJ
+
+#Rule:Adj-Noun
+r5rudeJJanswersNNS
+r5..JJThaLocationAnnotation
+
+#Rule:HeadNoun-V
+r11iPRPdonVB
+r11tLocationAnnotationwantVBP
+r11peopleNNStellingVBG
+
+#Rule:V-HeadNoun
+r21hearVBanswersNNS
+r21tellingVBGmePRP
+r21beAUXThaLocationAnnotation
+
+#Rule:V-ADJ
+r25beAUXridiculousJJ
+
+#Rule:V-V
+r44wantVBPhearVB
+
+#Thanks in advance..
+#(S1 (NP (NP (NNS Thanks)) (PP (IN in) (NP (NN advance))) (. .) (. .)))
+#Rule:Nouns
+r1ThanksNNS
+r1advanceNN
+
+#Rule:PPinNP
+r26ThanksNNSinINadvanceNN
+
+#You guys aren t helping! Answer the question! How do I hide it??
+#(S1 (S (S (S (NP (PRP You)) (NP (NNS guys)) (VP (VBP aren) (NP (NN t) (VBG helping))) (. !)) (VP (VB Answer) (NP (DT the) (NN question))) (. !)) (SBARQ (WHADVP (WRB How)) (SQ (AUX do) (NP (PRP I)) (VP (VB hide) (NP (PRP it))) (. ?)) (. ?))))
+#Rule:Nouns
+r1guysNNS
+r1tNN
+r1questionNN
+
+#Rule:Verbs
+r2arenVBP
+r2helpingVBG
+r2answerVB
+r2hideVB
+
+#Rule:Adj-Noun
+r5helpingVBGtNN
+
+#Rule:HeadNoun-V
+r11youPRParenVBP
+r11guysNNSarenVBP
+
+#Rule:V-HeadNoun
+r21arenVBPtNN
+r21answerVBquestionNN
+r21hideVBitLocationAnnotation
+
+#Aughh!! No one has really helped except a couple of people! I want to clear something up though - I am not going to be one of those creepy, really skinny emaciated girls who die from anorexia. You d have to have a goal of a heck of a lot less than 120 lbs. for Pity s sake.
+#(S1 (S (S (INTJ (UH Aughh) (. !) (. !) (UH No) (S (NP (PRP one)) (VP (AUX has) (ADVP (RB really)) (VP (VBN helped) (PP (IN except) (NP (NP (DT a) (NN couple)) (PP (IN of) (NP (NNS people)))))))) (. !)) (NP (PRP I)) (VP (VBP want) (S (VP (TO to) (VP (VB clear) (NP (NN something)) (PRT (RP up)) (ADVP (RB though))))))) (: -) (S (NP (PRP I)) (VP (AUX am) (RB not) (VP (VBG going) (S (VP (TO to) (VP (AUX be) (NP (NP (CD one)) (PP (IN of) (NP (NP (DT those) (JJ creepy) (, ,) (ADJP (RB really) (JJ skinny)) (JJ emaciated) (NNS girls)) (SBAR (WHNP (WP who)) (S (VP (VBP die) (PP (IN from) (NP (NN anorexia.))) (SBAR (S (NP (PRP You)) (ADVP (LS d)) (VP (AUX have) (S (VP (TO to) (VP (AUX have) (NP (NP (DT a) (NN goal)) (PP (IN of) (NP (NP (DT a) (NN heck)) (PP (IN of) (NP (NP (DT a) (NN lot)) (SBAR (S (NP (NP (QP (JJR less) (IN than) (CD 120)) (NN lbs.)) (PP (IN for) (NP (NN Pity)))) (VP (VBZ s) (NP (NN sake)))))))))))))))))))))))))))) (. .)))
+#Rule:Nouns
+r1coupleNN
+r1peopleNNS
+r1somethingNN
+r1girlsNNS
+r1anorexiaNN
+r1goalNN
+r1heckNN
+r1lotNN
+r1lbsNN
+r1Pity sOrganizationAnnotation
+r1sakeNN
+
+#Rule:Verbs
+r2helpedVBN
+r2wantVBP
+r2clearVB
+r2goingVBG
+r2dieVBP
+
+#Rule:V-PRT
+r3clearVBupRP
+
+#Rule:Adjs
+r4creepyJJ
+r4skinnyJJ
+r4emaciatedJJ
+r4lessJJR
+
+#Rule:Adj-Noun
+r5creepyJJgirlsNNS
+r5skinnyJJgirlsNNS
+r5emaciatedJJgirlsNNS
+r5lessJJRlbsNN
+r5120CDlbsNN
+
+#Rule:HeadNoun-V
+r11iPRPwantVBP
+r11iPRPgoingVBG
+r11youPRPhaveAUX
+r11lbsNNPity sOrganizationAnnotation
+
+#Rule:HeadNoun-V
+r12onePRPhelpedVBN
+
+#Rule:HeadNoun-(who/that)-V
+r14girlsNNSdieVBP
+
+#Rule:V-HeadNoun
+r21clearVBsomethingNN
+r21beAUXoneCD
+r21haveAUXgoalNN
+r21Pity sOrganizationAnnotationsakeNN
+
+#Rule:PPinNP
+r26coupleNNofINpeopleNNS
+r26oneCDofINgirlsNNS
+r26goalNNofINheckNN
+r26heckNNofINlotNN
+r26lbsNNforINPity sOrganizationAnnotation
+
+#Rule:PPinVP
+r30dieVBPfromINanorexiaNN
+
+#Rule:PPinVP
+r32helpedVBNexceptINcoupleNN
+
+#Rule:V-V
+r44wantVBPclearVB
+
+#Rule:V-ADV
+r46hasAUXreallyRB
+r46helpedVBNreallyRB
+r46clearVBthoughRB
+r46amAUXnotRB
+
+@lemmas-left	nobody	they	don	Nobody	people	guys	Pity s	help	thanks	hide	only	something	asked	rude	going	isn	answer	questions	parent	goal	starving	3	anorexic	anorexia	5	retarded	say	lot	years	ask	go	lbs.	give	Tha	14	clear	emaciated	do	tell	listen	100	end	want	ridiculous	heck	let	guy	90	come	m	my	i	point	t	guess	telling	Am I Fat	old	110	answers	stupid	same	has	??	planet	hear	please	friends	..	care	be	s starvation	creepy	fat	Thanks	relative	wants	starve	120	lb	relatives	this	friend	thing	Don t	saying	parents	have	aren	sake	one	way	girl	die	couple	question	less	skinny	143	girls	is	it	greatest	helped	problem	you	past	know	see	anorexia.	helping	am	anyone	Don	lbs	advance	
+@lemmas-right	don	answers	people	though	Pity s	anyway	help	hear	planet	friends	Anyway	hide	..	care	something	be	s starvation	asked	going	answer	here	questions	relative	goal	wants	much	starve	not	that	anorexic	anorexia	retarded	say	lot	myself	years	lb	relatives	ask	this	friend	go	thing	lbs.	aren	give	have	sake	one	way	Tha	clear	girl	die	couple	tell	do	me	question	want	end	too	ridiculous	girls	heck	is	it	let	come	helped	problem	past	know	up	really	point	never	t	see	anorexia.	am	guess	telling	Am I Fat	advance	lbs	
+@lemmas-center	that	of	except	with	although	for	how	about	as	on	from	in	

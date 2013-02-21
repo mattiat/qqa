@@ -1,0 +1,117 @@
+#This needs to be checked..
+#(S1 (S (NP (DT This)) (VP (VBZ needs) (S (VP (TO to) (VP (AUX be) (VP (VBN checked))))) (. .)) (. .)))
+#Rule:Verbs
+r2needsVBZ
+r2checkedVBN
+
+#Rule:HeadNoun-V
+r11thisDTneedsVBZ
+
+#Use the quadratic formula.  The roots are real if and only if the value of (b^2 - 4*a*c) is non-negative..
+#(S1 (S (VP (VB Use) (NP (NP (DT the) (JJ quadratic) (NN formula.)) (SBAR (S (NP (DT The) (NNS roots)) (VP (AUX are) (ADJP (JJ real)))))) (SBAR (IN if) (FRAG (CC and) (RB only) (SBAR (IN if) (S (NP (NP (DT the) (NN value)) (PP (IN of) (-LRB- -LRB-) (NP (NP (NNS b^2)) (: -) (NP (NP (CD 4) (NNS *)) (NP (DT a) (NN *))) (X (SYM c))) (-RRB- -RRB-))) (VP (AUX is) (ADJP (JJ non-negative))))) (. .)))) (. .)))
+#Rule:Nouns
+r1formulaNN
+r1rootsNNS
+r1valueNN
+r1b^2 - 4*a*cLocationAnnotation
+
+#Rule:Verbs
+r2useVB
+
+#Rule:Adjs
+r4quadraticJJ
+r4realJJ
+r4non-negativeJJ
+
+#Rule:Adj-Noun
+r5quadraticJJformulaNN
+
+#Rule:HeadNoun-V
+r11rootsNNSareAUX
+r11valueNNisAUX
+
+#Rule:V-HeadNoun
+r21useVBformulaNN
+
+#Rule:V-ADJ
+r25areAUXrealJJ
+r25isAUXnon-negativeJJ
+
+#Rule:PPinNP
+r26valueNNofINb^2 - 4*a*cLocationAnnotation
+
+#I assume the equation is actually2*x^2  +  (3-k)*x  +  3  =   0, sob = 3 - k,   a = 2, and c = 3.  Plug these in and solve for values of k giving a non-negative value of the above expression.(3-k)^2 - 4*2*3>=  03 - k>=  -sqrt(24)k<=  3 + sqrt(24)(also:  3 - k>=  +sqrt(24), so k<=  3 - sqrt(24) but that s included)
+#(S1 (S (NP (PRP I)) (VP (VBP assume) (SBAR (S (NP (DT the) (NN equation)) (VP (AUX is) (VP (VBG actually2) (NP (NP (QP (CD *) (CD x^2)) (NNS +)) (PRN (-LRB- -LRB-) (JJ 3-k) (-RRB- -RRB-) (VP (VBG *) (NP (NP (QP (SYM x) (CD +) (CD 3) (SYM =) (CD 0))) (, ,) (NP (NP (VB sob)) (SBAR (SBAR (S (NP (NP (NP (NP (NP (NP (NP (SYM =) (CD 3)) (: -) (NP (NNP k))) (, ,) (SBAR (S (NP (NP (DT a) (SYM =) (CD 2)) (, ,) (CC and) (NP (NNP c) (SYM =))) (VP (VBZ 3.) (S (VP (VP (VB Plug) (ADVP (DT these) (IN in))) (CC and) (VP (VB solve) (PP (IN for) (S (NP (NP (NNS values)) (PP (IN of) (NP (NNP k)))) (VP (VBG giving) (NP (NP (DT a) (JJ non-negative) (NN value)) (PP (IN of) (NP (DT the) (IN above) (JJ expression.) (-LRB- -LRB-) (JJ 3-k) (-RRB- -RRB-) (NNS ^2)))))))))))))) (: -) (QP (CD 4) (CD *))) (QP (CD 2) (CD *))) (NP (CD 3>=) (NNS 03))) (: -) (SBAR (S (NP (NP (CD k>=) (NN -sqrt)) (PRN (-LRB- -LRB-) (NP (CD 24)) (-RRB- -RRB-))) (VP (VBZ k<=) (NP (NP (QP (CD 3) (CD +)) (NN sqrt)) (-LRB- -LRB-) (NP (CD 24)) (-RRB- -RRB-) (-LRB- -LRB-) (NP (RB also)) (: :) (NP (CD 3)) (: -) (NP (NP (CD k>=) (NN +sqrt)) (PRN (-LRB- -LRB-) (NP (CD 24)) (-RRB- -RRB-))) (, ,) (RB so) (NP (QP (CD k<=) (CD 3))))))) (: -)) (VP (VBP sqrt) (PRN (-LRB- -LRB-) (NP (CD 24)) (-RRB- -RRB-))))) (CC but) (SBAR (IN that) (S (NP (PRP s)) (VP (VBD included)))))))) (-RRB- -RRB-))))))))))
+#Rule:Nouns
+r1equationNN
+r1+NNS
+r1kNNP
+r1cNNP
+r1valuesNNS
+r1kNNP
+r1valueNN
+r1)^2 - 4*2*3>=  03 - k>=  -sqrtPersonAnnotation
+r1<=  3 + sqrtPersonAnnotation
+r1k>=  +sqrtPersonAnnotation
+
+#Rule:Verbs
+r2assumeVBP
+r2actually2VBG
+r2*VBG
+r2sobVB
+r2=LocationAnnotation
+r2plugVB
+r2solveVB
+r2givingVBG
+r2k<=VBZ
+r2k<=  3 - sqrtPersonAnnotation
+r2includedVBD
+
+#Rule:Adjs
+r43-kJJ
+r4non-negativeJJ
+r4expressionJJ
+r43-kJJ
+
+#Rule:Adj-Noun
+r5*xLocationAnnotation+NNS
+r5x^2CD+NNS
+r53CD+CD
+r50CD+CD
+r5)^2 - 4*2*3>=  03 - k>=  -sqrtPersonAnnotation3CD
+r5non-negativeJJvalueNN
+r5expressionJJ)^2 - 4*2*3>=  03 - k>=  -sqrtPersonAnnotation
+r53-kJJ)^2 - 4*2*3>=  03 - k>=  -sqrtPersonAnnotation
+
+#Rule:N-ApposN
+r10xSYMsobVB
+
+#Rule:HeadNoun-V
+r11iPRPassumeVBP
+r11equationNNactually2VBG
+r113CDk<=  3 - sqrtPersonAnnotation
+r11kNNPk<=  3 - sqrtPersonAnnotation
+r11)^2 - 4*2*3>=  03 - k>=  -sqrtPersonAnnotationk<=  3 - sqrtPersonAnnotation
+r112CD=LocationAnnotation
+r11cNNP=LocationAnnotation
+r11valuesNNSgivingVBG
+r11)^2 - 4*2*3>=  03 - k>=  -sqrtPersonAnnotationk<=VBZ
+r11sPRPincludedVBD
+
+#Rule:V-HeadNoun
+r21actually2VBG+NNS
+r21*VBGxSYM
+r21givingVBGvalueNN
+r21k<=VBZ<=  3 + sqrtPersonAnnotation
+
+#Rule:PPinNP
+r26valuesNNSofINkNNP
+r26valueNNofIN)^2 - 4*2*3>=  03 - k>=  -sqrtPersonAnnotation
+
+#Rule:V-V
+r44=LocationAnnotationplugVB
+r44=LocationAnnotationsolveVB
+
+@lemmas-left	need	expression	k<=  3 - sqrt	3-k	actually2	values	are	k<=	quadratic	value	be	k>=  +sqrt	roots	*	+	include	3	2	formula.	0	plug	included	this	=	sob	give	use	real	solve	equation	giving	*x	is	check	c	needs	expression.	non-negative	b^2 - 4*a*c	k	x^2	)^2 - 4*2*3>=  03 - k>=  -sqrt	i	<=  3 + sqrt	s	negative	assume	checked	formula	x	
+@lemmas-right	need	k<=  3 - sqrt	give	actually2	solve	real	are	k<=	value	giving	be	is	needs	non-negative	+	b^2 - 4*a*c	k	)^2 - 4*2*3>=  03 - k>=  -sqrt	include	3	formula.	<=  3 + sqrt	plug	negative	assume	included	=	x	formula	sob	
+@lemmas-center	of	

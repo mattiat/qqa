@@ -1,0 +1,564 @@
+BE: handNN
+EQ class: manusnn	pawnn	mittnn	
+
+BE: scienceNN
+EQ class: scientific_disciplinenn	
+
+BE: agreeVB
+EQ class: concurvb	holdvb	concordvb	
+
+BE: putVB
+EQ class: posevb	placevb	positionvb	layvb	setvb	
+
+BE: myPRP$handNN
+EQ class: myprp$handvb	handnnofinmyprp$	myprp$pawnn	myprp$mittnn	myprp$reachvb	reachvbmyprp$	myprp$manusnn	myprp$passvb	manusnnofinmyprp$	pass_onvbmyprp$	turn_overvbmyprp$	givevbmyprp$	passvbmyprp$	pawnnofinmyprp$	myprp$pass_onvb	myprp$givevb	handvbmyprp$	mittnnofinmyprp$	myprp$turn_overvb	
+
+BE: iPRPagreeVB
+EQ class: iprpconcurvb	understandingnniprp	agreementnnofiniprp	agreementnniprp	iprpholdvb	understandingnnofiniprp	iprpconcordvb	agreeablennofiniprp	
+
+BE: putVBhandNN
+EQ class: putvbmittnn	placevbhandnn	placevbmittnn	posevbhandnn	layvbhandnn	positionvbpawnn	layvbmittnn	posevbmittnn	setvbpawnn	setvbhandnn	layvbpawnn	putvbmanusnn	setvbmittnn	putvbpawnn	placevbpawnn	positionvbmittnn	layvbmanusnn	setvbmanusnn	positionvbhandnn	placevbmanusnn	posevbpawnn	posevbmanusnn	positionvbmanusnn	
+
+BE: agreeVBwithINyouPRP
+EQ class: concordvbwithinyouprp	concurvbwithinyouprp	holdvbwithinyouprp	
+
+BE: putVBalsoRB
+EQ class: layvbalsorb	placevbalsorb	setvbalsorb	posevbalsorb	positionvbalsorb	
+
+BE: NothingNN
+EQ class: cyphernn	zipponn	nilnn	aughtnn	nixnn	ciphernn	zipnn	goose_eggnn	zeronn	zilchnn	nullnn	nadann	naughtnn	
+
+BE: wayNN
+EQ class: stylenn	fashionnn	modenn	mannernn	
+
+BE: standVB
+EQ class: stand_upvb	
+
+BE: comesVBZ
+EQ class: comevbz	come_upvbz	
+
+BE: learningVBG
+EQ class: larnvbg	learnvbg	acquirevbg	
+
+BE: ourPRP$wayNN
+EQ class: waynnofinourprp$	fashionnnofinourprp$	ourprp$modenn	ourprp$mannernn	modennofinourprp$	mannernnofinourprp$	ourprp$fashionnn	ourprp$stylenn	stylennofinourprp$	
+
+BE: NothingNNstandVB
+EQ class: standingnnaughtnn	standernnnaughtnn	standeennaughtnn	standeennofincyphernn	standingnnofinnullnn	stancennofinnixnn	basennofinnixnn	stancennofinciphernn	standnnofinnothingnn	pedestalnnofinciphernn	zipnnstand_upvb	standernnofinciphernn	pedestalnnofinzilchnn	aughtnnstand_upvb	stancenncyphernn	standeennofinnadann	standeennnothingnn	standernnofinnadann	standingnnnixnn	goose_eggnnstandvb	standernnzeronn	standingnnnilnn	standingnnzeronn	nullnnstand_upvb	nadannstand_upvb	standeennofinzilchnn	standingnnofinzeronn	stancennofincyphernn	standingnnnullnn	pedestalnnofinzeronn	standingnnofinnaughtnn	nilnnstand_upvb	standeennofinciphernn	naughtnnstandvb	basennofingoose_eggnn	standeennofingoose_eggnn	standingnnnothingnn	pedestalnnofinnadann	standeennofinnothingnn	standeennnilnn	pedestalnnofinnullnn	zeronnstand_upvb	standingnnofinciphernn	basennofinnaughtnn	standingnnzipponn	standernnnothingnn	standernnnilnn	standeennzeronn	ciphernnstandvb	aughtnnstandvb	basennofinnothingnn	standernngoose_eggnn	stancennnullnn	stancennnixnn	standingnnciphernn	pedestalnnofinzipnn	basennofinzipnn	standingnnofinnothingnn	zilchnnstand_upvb	standernnofinzilchnn	pedestalnnofinzipponn	pedestalnnofinnaughtnn	standeennzipponn	standeennzipnn	zipnnstandvb	pedestalnnofinnixnn	nilnnstandvb	stancennnilnn	standeenncyphernn	stancennofinzipnn	stancennofinaughtnn	pedestalnnofinaughtnn	nixnnstandvb	standingnngoose_eggnn	standingnnofincyphernn	stancennofingoose_eggnn	standingnnnaughtnn	pedestalnnofingoose_eggnn	standeennofinzipnn	basennofinaughtnn	stancennofinnaughtnn	zeronnstandvb	standernnciphernn	stancennofinzipponn	basennofinnilnn	pedestalnnofinnilnn	standeennofinnaughtnn	stancennzilchnn	stancennaughtnn	ciphernnstand_upvb	standeennciphernn	standingnnofinzilchnn	basennofincyphernn	standernnofinnullnn	nadannstandvb	standernnzilchnn	pedestalnnofinnothingnn	stancennofinzeronn	standernnnadann	standingnnnadann	basennofinnullnn	standnnofinaughtnn	standingnnofinnadann	standernnaughtnn	standernnnixnn	stancennzipponn	zipponnstandvb	standernnofinnixnn	standernnzipnn	standernnnullnn	standnnofinciphernn	standeennofinnullnn	standnnofinnadann	basennofinzeronn	standingnnofingoose_eggnn	standingnnofinnixnn	standeennzilchnn	stancennofinnadann	standnnofinnixnn	standeennofinzeronn	standnnofingoose_eggnn	standernnofinaughtnn	standnnofinzilchnn	basennofinzilchnn	stancennnadann	standeennofinzipponn	standeennnaughtnn	basennofinciphernn	standnnofinzipponn	nullnnstandvb	stancennzipnn	standingnnzipnn	basennofinnadann	stancennofinnothingnn	standingnncyphernn	stancenngoose_eggnn	goose_eggnnstand_upvb	naughtnnstand_upvb	standingnnofinzipponn	stancennofinzilchnn	stancennciphernn	cyphernnstand_upvb	standeennnadann	standernnofincyphernn	standeennofinaughtnn	basennofinzipponn	standingnnofinaughtnn	nothingnnstand_upvb	stancennzeronn	standernnofinnaughtnn	standeennnixnn	standernnofinzeronn	standernnofingoose_eggnn	standnnofinzipnn	standeennnullnn	nixnnstand_upvb	standernnzipponn	standeennofinnilnn	standingnnofinzipnn	standnnofinnilnn	cyphernnstandvb	stancennofinnilnn	stancennofinnullnn	zipponnstand_upvb	standnnofinnaughtnn	standeenngoose_eggnn	standernnofinzipponn	standernnofinnilnn	standeennofinnixnn	stancennnaughtnn	standnnofincyphernn	zilchnnstandvb	pedestalnnofincyphernn	standernnofinzipnn	standernncyphernn	standnnofinzeronn	standnnofinnullnn	stancennnothingnn	standingnnofinnilnn	standernnofinnothingnn	standingnnzilchnn	
+
+BE: itPRPcomesVBZ
+EQ class: approachnnitprp	comingnnofinitprp	itprpcome_upvbz	approachingnnofinitprp	approachingnnitprp	comingnnitprp	approachnnofinitprp	itprpcomevbz	
+
+BE: standVBinINwayNN
+EQ class: stand_upvbininmannernn	stand_upvbininmodenn	stand_upvbininwaynn	standvbininmannernn	standvbininfashionnn	standvbininmodenn	standvbininstylenn	stand_upvbininfashionnn	stand_upvbininstylenn	
+
+BE: standVBeverRB
+EQ class: stand_upvbeverrb	basennofineverrb	standingnnofineverrb	standernnofineverrb	standeennofineverrb	standnnofineverrb	stancennofineverrb	pedestalnnofineverrb	
+
+BE: peopleNNS
+EQ class: theynns	themnns	
+
+BE: tNNS
+EQ class: thyminenns	theynns	themnns	
+
+BE: moneyNN
+EQ class: monetaryjj	
+
+BE: putNN
+EQ class: put_optionnn	
+
+BE: spaceNN
+EQ class: spatialjj	infinitenn	spacialjj	
+
+BE: beingsNNS
+EQ class: beingnns	existencenns	theynns	beingnessnns	themnns	
+
+BE: dayNN
+EQ class: dailyjj	24-hour_intervalnn	twenty-four_hoursnn	twenty-four_hour_periodnn	mean_solar_daynn	solar_daynn	
+
+BE: yearsNNS
+EQ class: old_agenns	geezerhoodnns	eldnns	theynns	themnns	agenns	
+
+BE: peopleNNS
+EQ class: theynns	themnns	
+
+BE: spaceNN
+EQ class: spatialjj	infinitenn	spacialjj	
+
+BE: planetNN
+EQ class: planetaryjj	major_planetnn	planetaljj	
+
+BE: humansNNS
+EQ class: worldnns	human_beingsnns	human_racenns	humankindnns	theynns	mannns	humanitynns	mankindnns	themnns	
+
+BE: onNN
+EQ class: 
+
+BE: How? I don tPersonAnnotation
+EQ class: how? i. don tpersonannotation	
+
+BE: peopleNNS
+EQ class: theynns	themnns	
+
+BE: yearsNNS
+EQ class: old_agenns	geezerhoodnns	eldnns	theynns	themnns	agenns	
+
+BE: AmericanNNP
+EQ class: americanjj	u.s.nn	usann	united_statesnn	u.s.a.nn	americann	united_states_of_americann	usnn	the_statesnn	
+
+BE: lettersNNS
+EQ class: theynns	themnns	
+
+BE: netNN
+EQ class: internetnn	cyberspacenn	
+
+BE: tNNS
+EQ class: thyminenns	theynns	themnns	
+
+BE: donVB
+EQ class: assumevb	put_onvb	wearvb	get_intovb	
+
+BE: agreeVBP
+EQ class: concordvbp	concurvbp	holdvbp	
+
+BE: thinkVBP
+EQ class: conceivevbp	believevbp	considervbp	
+
+BE: exploringVBG
+EQ class: researchvbg	searchvbg	explorevbg	
+
+BE: rewardedVBN
+EQ class: rewardvbn	honourvbn	honorvbn	
+
+BE: liveVB
+EQ class: inhabitvb	populatevb	dwellvb	
+
+BE: createVB
+EQ class: makevb	
+
+BE: liveVB
+EQ class: inhabitvb	populatevb	dwellvb	
+
+BE: knowVB
+EQ class: cognizevb	cognisevb	
+
+BE: imagineVB
+EQ class: conceive_ofvb	ideatevb	envisagevb	
+
+BE: talkVB
+EQ class: speakvb	
+
+BE: sendVB
+EQ class: directvb	
+
+BE: donVB
+EQ class: assumevb	put_onvb	wearvb	get_intovb	
+
+BE: thinkVB
+EQ class: believevb	conceivevb	considervb	
+
+BE: ManyJJ
+EQ class: 
+
+BE: humanJJ
+EQ class: humannessnn	humanitynn	humannn	
+
+BE: manyJJ
+EQ class: 
+
+BE: manyJJ
+EQ class: 
+
+BE: ableJJ
+EQ class: abilitynn	
+
+BE: wholeJJ
+EQ class: wholenn	
+
+BE: newJJ
+EQ class: newnessnn	
+
+BE: ableJJ
+EQ class: abilitynn	
+
+BE: AustralianJJ
+EQ class: australiann	australiannn	
+
+BE: ManyJJpeopleNNS
+EQ class: manyjjtheynns	manyjjthemnns	
+
+BE: exploringVBGspaceNN
+EQ class: geographic_expeditionnnofininfinitenn	explorationnnofininfinitenn	exploratorynnofininfinitenn	exploratorynnofinspacenn	explorationnnofinspatialjj	explorationnnofinspacialjj	explorativennofininfinitenn	geographic_expeditionnnofinspatialjj	geographic_expeditionnnofinspacialjj	exploratorynnofinspacialjj	researchvbgspatialjj	geographic_expeditionnnofinspacenn	explorativennofinspacenn	researchvbgspacialjj	exploratorynnofinspatialjj	exploringvbgspatialjj	explorevbgspacenn	searchvbginfinitenn	explorationnnofinspacenn	explorativennofinspatialjj	exploringvbgspacialjj	searchvbgspatialjj	explorativennofinspacialjj	researchvbgspacenn	explorevbgspatialjj	explorevbgspacialjj	searchvbgspacenn	exploringvbginfinitenn	searchvbgspacialjj	explorevbginfinitenn	researchvbginfinitenn	
+
+BE: humanJJbeingsNNS
+EQ class: humanjjtheynns	bevbhumanlyrb	humannessnnexistencenns	humannessnntheynns	humanitynnthemnns	humannnbeingnns	humannntheynns	humannessnnthemnns	humannnthemnns	humanjjthemnns	humannessnnbeingsnns	humannnexistencenns	humannnbeingnessnns	humanjjbeingnessnns	humanitynnexistencenns	humanjjbeingnns	humanitynnbeingnessnns	humannessnnbeingnns	humanjjexistencenns	humannnbeingsnns	humanitynnbeingnns	humanitynnbeingsnns	humanitynntheynns	humannessnnbeingnessnns	
+
+BE: oneCDdayNN
+EQ class: unitycddaynn	singlecd24-hour_intervalnn	onecdsolar_daynn	acecdmean_solar_daynn	1cdtwenty-four_hoursnn	icddaynn	1cddaynn	1cdtwenty-four_hour_periodnn	singlecdtwenty-four_hoursnn	1cddailyjj	singlecddailyjj	singlecdmean_solar_daynn	acecdtwenty-four_hour_periodnn	unitycdtwenty-four_hoursnn	icddailyjj	unitycd24-hour_intervalnn	acecddailyjj	singlecdsolar_daynn	1cdsolar_daynn	onecdtwenty-four_hoursnn	unitycdsolar_daynn	unitycdtwenty-four_hour_periodnn	onecd24-hour_intervalnn	icd24-hour_intervalnn	singlecddaynn	1cd24-hour_intervalnn	onecdtwenty-four_hour_periodnn	icdmean_solar_daynn	icdtwenty-four_hour_periodnn	unitycddailyjj	1cdmean_solar_daynn	acecddaynn	onecddailyjj	icdtwenty-four_hoursnn	singlecdtwenty-four_hour_periodnn	unitycdmean_solar_daynn	acecd24-hour_intervalnn	acecdtwenty-four_hoursnn	onecdmean_solar_daynn	acecdsolar_daynn	icdsolar_daynn	
+
+BE: manyJJyearsNNS
+EQ class: manyjjtheynns	manyjjagenns	manyjjold_agenns	manyjjthemnns	manyjjgeezerhoodnns	manyjjeldnns	
+
+BE: manyJJyearsNNS
+EQ class: manyjjtheynns	manyjjagenns	manyjjold_agenns	manyjjthemnns	manyjjgeezerhoodnns	manyjjeldnns	
+
+BE: wholeJJplanetNN
+EQ class: wholennplanetaryjj	wholennmajor_planetnn	planetalvbwhollyrb	wholejjplanetaryjj	wholejjmajor_planetnn	wholennplanetaljj	wholejjplanetaljj	wholennplanetnn	planetaryvbwhollyrb	
+
+BE: newJJplanetNN
+EQ class: newjjplanetaryjj	planetaryvbnewlyrb	newnessnnplanetnn	planetalvbnewlyrb	newnessnnplanetaljj	newjjplanetaljj	newjjmajor_planetnn	newnessnnplanetaryjj	newnessnnmajor_planetnn	
+
+BE: oneCDyearsNNS
+EQ class: acecdyearsnns	unitycdtheynns	icdyearsnns	icdagenns	unitycdgeezerhoodnns	singlecdtheynns	icdold_agenns	singlecdgeezerhoodnns	onecdold_agenns	onecdgeezerhoodnns	singlecdold_agenns	1cdthemnns	1cdgeezerhoodnns	1cdagenns	onecdthemnns	singlecdyearsnns	acecdagenns	acecdgeezerhoodnns	unitycdeldnns	onecdtheynns	icdgeezerhoodnns	onecdagenns	icdthemnns	acecdold_agenns	icdtheynns	unitycdold_agenns	unitycdthemnns	1cdold_agenns	1cdeldnns	unitycdagenns	1cdtheynns	acecdthemnns	acecdtheynns	singlecdagenns	singlecdeldnns	acecdeldnns	icdeldnns	singlecdthemnns	1cdyearsnns	onecdeldnns	unitycdyearsnns	
+
+BE: hundredCDyearsNNS
+EQ class: centurycdeldnns	ccdagenns	100cdyearsnns	one_ccdyearsnns	100cdthemnns	ccdthemnns	ccdold_agenns	centurycdtheynns	hundredcdold_agenns	centurycdold_agenns	centurycdyearsnns	one_ccdagenns	100cdeldnns	hundredcdtheynns	ccdeldnns	centurycdagenns	hundredcdeldnns	hundredcdthemnns	ccdyearsnns	100cdold_agenns	100cdtheynns	100cdgeezerhoodnns	ccdgeezerhoodnns	hundredcdagenns	one_ccdthemnns	one_ccdeldnns	hundredcdgeezerhoodnns	one_ccdtheynns	centurycdgeezerhoodnns	one_ccdold_agenns	one_ccdgeezerhoodnns	100cdagenns	ccdtheynns	centurycdthemnns	
+
+BE: moneyNNputNN
+EQ class: monetaryjjputnn	putnnofinmoneynn	put_optionnnofinmonetaryjj	monetaryjjput_optionnn	put_optionnnofinmoneynn	moneynnput_optionnn	putnnofinmonetaryjj	
+
+BE: peopleNNSdonVB
+EQ class: theynnsassumevb	theynnswearvb	peoplennswearvb	themnnsput_onvb	themnnsdonvb	theynnsget_intovb	themnnsassumevb	peoplennsput_onvb	theynnsput_onvb	themnnsget_intovb	themnnswearvb	theynnsdonvb	peoplennsassumevb	peoplennsget_intovb	
+
+BE: tNNSagreeVBP
+EQ class: tnnsholdvbp	understandingnnthemnns	agreementnntnns	thyminennsholdvbp	thyminennsconcordvbp	agreeablennofintheynns	agreementnnofinthemnns	theynnsagreevbp	agreeablennofinthyminenns	agreementnntheynns	themnnsagreevbp	agreementnnofinthyminenns	agreeablennofinthemnns	understandingnntnns	understandingnnthyminenns	agreementnnofintheynns	thyminennsagreevbp	understandingnnofinthemnns	agreementnnthemnns	theynnsconcordvbp	agreementnnthyminenns	understandingnnofintheynns	tnnsconcordvbp	thyminennsconcurvbp	understandingnntheynns	tnnsconcurvbp	agreeablennofintnns	themnnsconcurvbp	themnnsholdvbp	agreementnnofintnns	understandingnnofintnns	theynnsholdvbp	understandingnnofinthyminenns	themnnsconcordvbp	theynnsconcurvbp	
+
+BE: iPRPthinkVBP
+EQ class: iprpbelievevbp	iprpconceivevbp	thoughtnnofiniprp	ideanniprp	iprpconsidervbp	ideannofiniprp	thoughtnniprp	
+
+BE: peopleNNSbeAUX
+EQ class: themnnsbeaux	theynnsbeaux	
+
+BE: planetNNliveVB
+EQ class: liveryjjofinplanetaryjj	liveablennofinmajor_planetnn	livablennofinplanetaljj	major_planetnndwellvb	planetaljjinhabitvb	planetnnpopulatevb	planetaryjjdwellvb	livernnplanetnn	livernnofinplanetaryjj	livernnofinplanetnn	planetnndwellvb	liveablennofinplanetnn	livernnplanetaljj	livernnofinmajor_planetnn	major_planetnnpopulatevb	livablennofinplanetaryjj	planetaljjdwellvb	liveryjjofinplanetnn	liveryjjplanetaryjj	planetaljjpopulatevb	planetnninhabitvb	liveablennofinplanetaljj	planetaryjjpopulatevb	major_planetnninhabitvb	planetaljjlivevb	liveryjjplanetaljj	planetaryjjlivevb	liveryjjofinplanetaljj	liveryjjplanetnn	livablennofinmajor_planetnn	livernnplanetaryjj	liveryjjmajor_planetnn	livablennofinplanetnn	major_planetnnlivevb	planetaryjjinhabitvb	liveablennofinplanetaryjj	liveryjjofinmajor_planetnn	livernnofinplanetaljj	livernnmajor_planetnn	
+
+BE: How? I don tPersonAnnotationknowVB
+EQ class: apprehendernnhow? i. don tpersonannotation	knowablennofinhow? i don tpersonannotation	how? i. don tpersonannotationknowvb	knowernnhow? i. don tpersonannotation	knowablennofinhow? i. don tpersonannotation	knowingnnofinhow? i don tpersonannotation	knowingnnofinhow? i. don tpersonannotation	how? i don tpersonannotationcognisevb	knowingnnhow? i don tpersonannotation	apprehendernnofinhow? i don tpersonannotation	apprehendernnhow? i don tpersonannotation	how? i. don tpersonannotationcognisevb	how? i don tpersonannotationcognizevb	apprehendernnofinhow? i. don tpersonannotation	knowernnhow? i don tpersonannotation	how? i. don tpersonannotationcognizevb	knowernnofinhow? i don tpersonannotation	knowernnofinhow? i. don tpersonannotation	knowingnnhow? i. don tpersonannotation	
+
+BE: How? I don tPersonAnnotationdidAUX
+EQ class: how? i don tpersonannotationdoaux	how? i. don tpersonannotationmakeaux	how? i don tpersonannotationmakeaux	how? i. don tpersonannotationdidaux	how? i. don tpersonannotationdoaux	
+
+BE: peopleNNSimagineVB
+EQ class: themnnsideatevb	imaginationnnthemnns	theynnsenvisagevb	visionnntheynns	imaginationnnofintheynns	imaginativenessnnofinpeoplenns	imaginativenessnnofintheynns	visionnnthemnns	themnnsenvisagevb	theynnsideatevb	imaginativenessnnthemnns	peoplennsideatevb	imaginativennofinpeoplenns	imaginativenessnnofinthemnns	imaginativenessnnpeoplenns	imaginationnnofinthemnns	imaginationnnofinpeoplenns	imaginationnntheynns	imaginationnnpeoplenns	visionnnpeoplenns	theynnsimaginevb	visionnnofintheynns	peoplennsenvisagevb	imaginativennofintheynns	peoplennsconceive_ofvb	visionnnofinpeoplenns	visionnnofinthemnns	themnnsimaginevb	theynnsconceive_ofvb	imaginativennofinthemnns	imaginativenessnntheynns	themnnsconceive_ofvb	
+
+BE: AmericanNNPbeAUX
+EQ class: americanjjbeaux	the_statesnnbeaux	united_statesnnbeaux	u.s.nnbeaux	usnnbeaux	americannbeaux	united_states_of_americannbeaux	usannbeaux	u.s.a.nnbeaux	
+
+BE: iPRPdonVB
+EQ class: iprpget_intovb	iprpassumevb	iprpwearvb	iprpput_onvb	
+
+BE: tNNSthinkVB
+EQ class: thyminennsbelievevb	ideanntheynns	ideannofinthyminenns	thoughtnnthyminenns	theynnsthinkvb	thyminennsthinkvb	tnnsconceivevb	thoughtnnofintheynns	ideannofintnns	thoughtnnthemnns	themnnsconsidervb	tnnsbelievevb	thoughtnnofinthemnns	thoughtnnofinthyminenns	themnnsconceivevb	ideanntnns	tnnsconsidervb	thoughtnntheynns	theynnsbelievevb	themnnsthinkvb	theynnsconsidervb	ideannthyminenns	theynnsconceivevb	ideannofinthemnns	ideannthemnns	thyminennsconceivevb	themnnsbelievevb	thoughtnnofintnns	thoughtnntnns	ideannofintheynns	thyminennsconsidervb	
+
+BE: rewardedVBNdayNN
+EQ class: honorvbn24-hour_intervalnn	honorvbntwenty-four_hoursnn	honourvbnsolar_daynn	rewardvbntwenty-four_hoursnn	payoffnnofin24-hour_intervalnn	rewardvbnsolar_daynn	honorvbnsolar_daynn	rewardnnofinsolar_daynn	rewardnnofindaynn	payoffnnofintwenty-four_hour_periodnn	rewardedvbntwenty-four_hoursnn	rewardvbn24-hour_intervalnn	honourvbntwenty-four_hoursnn	rewardvbndailyjj	honourvbn24-hour_intervalnn	wagesnnofin24-hour_intervalnn	payoffnnofinsolar_daynn	rewardvbntwenty-four_hour_periodnn	wagesnnofindailyjj	rewardedvbnmean_solar_daynn	honorvbndailyjj	rewardvbnmean_solar_daynn	rewardnnofintwenty-four_hour_periodnn	rewardvbndaynn	wagesnnofintwenty-four_hour_periodnn	honourvbndaynn	wagesnnofintwenty-four_hoursnn	honorvbndaynn	rewardnnofintwenty-four_hoursnn	rewardnnofinmean_solar_daynn	honourvbntwenty-four_hour_periodnn	wagesnnofindaynn	honourvbndailyjj	payoffnnofindaynn	wagesnnofinsolar_daynn	rewardedvbntwenty-four_hour_periodnn	rewardnnofin24-hour_intervalnn	payoffnnofinmean_solar_daynn	honourvbnmean_solar_daynn	rewardedvbndailyjj	payoffnnofindailyjj	rewardedvbnsolar_daynn	honorvbnmean_solar_daynn	rewardnnofindailyjj	wagesnnofinmean_solar_daynn	payoffnnofintwenty-four_hoursnn	rewardedvbn24-hour_intervalnn	honorvbntwenty-four_hour_periodnn	
+
+BE: liveVBonNN
+EQ class: livablennofinonnn	liveablennofinonnn	dwellvbonnn	inhabitvbonnn	liveryjjofinonnn	livernnofinonnn	populatevbonnn	
+
+BE: sendVBlettersNNS
+EQ class: sendvbthemnns	sendvbtheynns	directvbthemnns	sendingnnofintheynns	sendingnnofinthemnns	directvbtheynns	sendingnnofinlettersnns	directvblettersnns	
+
+BE: didAUXpeopleNNS
+EQ class: didauxthemnns	makeauxthemnns	makeauxpeoplenns	didauxtheynns	doauxpeoplenns	doauxthemnns	doauxtheynns	makeauxtheynns	
+
+BE: sendVBiPRP
+EQ class: sendingnnofiniprp	directvbiprp	
+
+BE: donVBtNNS
+EQ class: wearvbtnns	wearvbtheynns	wearvbthemnns	put_onvbtnns	wearvbthyminenns	get_intovbthemnns	donvbthyminenns	get_intovbthyminenns	put_onvbthyminenns	put_onvbthemnns	assumevbthyminenns	get_intovbtheynns	assumevbthemnns	assumevbtnns	assumevbtheynns	donvbthemnns	get_intovbtnns	donvbtheynns	put_onvbtheynns	
+
+BE: rewardedVBNputNN
+EQ class: wagesnnofinput_optionnn	honorvbnput_optionnn	honorvbnputnn	honourvbnput_optionnn	wagesnnofinputnn	rewardvbnput_optionnn	rewardnnofinput_optionnn	rewardedvbnput_optionnn	honourvbnputnn	payoffnnofinputnn	payoffnnofinput_optionnn	rewardnnofinputnn	rewardvbnputnn	
+
+BE: beAUXableJJ
+EQ class: beauxabilitynn	
+
+BE: beAUXableJJ
+EQ class: beauxabilitynn	
+
+BE: putNNintoINspaceNN
+EQ class: put_optionnnintoinspatialjj	put_optionnnintoinspacenn	spatialjjputnn	spacialjjput_optionnn	infinitennput_optionnn	spacennputnn	spacialjjputnn	putnnintoinspatialjj	infinitennputnn	putnnintoinspacialjj	spatialjjput_optionnn	putnnintoininfinitenn	spacennput_optionnn	put_optionnnintoinspacialjj	put_optionnnintoininfinitenn	
+
+BE: planetNNthatINhumansNNS
+EQ class: mannnsplanetaryjj	mankindnnsplanetaljj	planetalvbtheynns	human_racennsplanetaryjj	mankindnnsplanetaryjj	human_beingsnnsmajor_planetnn	major_planetnnthatintheynns	planetaljjthatintheynns	human_racennsmajor_planetnn	themnnsmajor_planetnn	theynnsmajor_planetnn	planetnnthatinhuman_beingsnns	major_planetnnthatinhumanitynns	mankindnnsplanetaryvb	worldnnsplanetaljj	humansnnsplanetaljj	planetaljjthatinhuman_racenns	planetaljjthatinthemnns	human_beingsnnsplanetaryvb	themnnsplanetalvb	theynnsplanetaryvb	planetaljjthatinhumankindnns	major_planetnnthatinmankindnns	planetaryvbtheynns	human_beingsnnsplanetnn	humankindnnsplanetaljj	human_beingsnnsplanetalvb	humansnnsplanetaryvb	theynnsplanetnn	mankindnnsmajor_planetnn	worldnnsplanetnn	planetalvbworldnns	human_racennsplanetaljj	major_planetnnthatinhuman_beingsnns	worldnnsplanetalvb	planetaryjjthatinhuman_beingsnns	humansnnsmajor_planetnn	theynnsplanetaryjj	themnnsplanetnn	theynnsplanetaljj	planetaryjjthatinthemnns	mannnsplanetalvb	planetnnthatinhumanitynns	planetaljjthatinhumanitynns	planetaryvbthemnns	humansnnsplanetaryjj	planetalvbhumankindnns	humankindnnsplanetnn	humankindnnsplanetaryjj	planetalvbmannns	planetaljjthatinworldnns	planetaryvbhumankindnns	planetnnthatintheynns	planetaryjjthatinworldnns	planetaljjthatinmankindnns	human_racennsplanetnn	planetaryjjthatinmankindnns	humankindnnsmajor_planetnn	humanitynnsplanetalvb	major_planetnnthatinhumansnns	major_planetnnthatinmannns	planetaryjjthatinhuman_racenns	planetaryjjthatinhumanitynns	humansnnsplanetnn	themnnsplanetaljj	planetalvbhumansnns	human_beingsnnsplanetaryjj	humanitynnsmajor_planetnn	theynnsplanetalvb	major_planetnnthatinthemnns	worldnnsplanetaryvb	major_planetnnthatinhumankindnns	planetaryjjthatintheynns	humanitynnsplanetaryjj	mankindnnsplanetalvb	planetalvbhumanitynns	planetnnthatinhuman_racenns	planetnnthatinthemnns	worldnnsplanetaryjj	planetaryvbmankindnns	worldnnsmajor_planetnn	planetaryvbhumanitynns	mankindnnsplanetnn	mannnsmajor_planetnn	planetaryvbworldnns	planetaryvbhuman_beingsnns	humankindnnsplanetaryvb	planetalvbthemnns	planetaryvbhuman_racenns	themnnsplanetaryjj	mannnsplanetnn	planetalvbmankindnns	humanitynnsplanetaljj	planetaryjjthatinmannns	mannnsplanetaljj	planetalvbhuman_racenns	planetaljjthatinhumansnns	planetaryjjthatinhumankindnns	planetnnthatinhumankindnns	planetaryjjthatinhumansnns	planetaljjthatinhuman_beingsnns	human_beingsnnsplanetaljj	planetalvbhuman_beingsnns	planetnnthatinworldnns	human_racennsplanetaryvb	humankindnnsplanetalvb	humanitynnsplanetaryvb	humanitynnsplanetnn	planetaryvbhumansnns	humansnnsplanetalvb	themnnsplanetaryvb	major_planetnnthatinhuman_racenns	major_planetnnthatinworldnns	planetaljjthatinmannns	planetnnthatinmannns	planetnnthatinmankindnns	mannnsplanetaryvb	human_racennsplanetalvb	planetaryvbmannns	
+
+BE: agreeVBPwithINmePRP
+EQ class: concordvbpwithinmeprp	concurvbpwithinmeprp	holdvbpwithinmeprp	
+
+BE: liveVBinINspaceNN
+EQ class: livevbinininfinitenn	inhabitvbininspacialjj	livevbininspatialjj	populatevbininspacenn	populatevbininspacialjj	inhabitvbininspacenn	dwellvbinininfinitenn	inhabitvbinininfinitenn	populatevbininspatialjj	dwellvbininspacialjj	inhabitvbininspatialjj	dwellvbininspatialjj	dwellvbininspacenn	livevbininspacialjj	populatevbinininfinitenn	
+
+BE: talkVBtoTOAustralianJJ
+EQ class: speakvbtotoaustraliann	speakvbtotoaustralianjj	speakvbtotoaustraliannn	talkvbtotoaustraliannn	talkvbtotoaustraliann	
+
+BE: sendVBthroughINnetNN
+EQ class: directvbthroughinnetnn	sendvbthroughininternetnn	directvbthroughincyberspacenn	directvbthroughininternetnn	sendvbthroughincyberspacenn	
+
+BE: rewardedVBNforINbeingsNNS
+EQ class: honorvbnforinexistencenns	rewardvbnforinbeingnns	rewardvbnforinexistencenns	honourvbnforinexistencenns	honorvbnforinthemnns	honorvbnforinbeingnns	rewardvbnforinthemnns	rewardedvbnforinexistencenns	rewardvbnforinbeingnessnns	honourvbnforinbeingnessnns	rewardedvbnforintheynns	honourvbnforinthemnns	rewardvbnforintheynns	rewardedvbnforinbeingnns	honorvbnforintheynns	rewardvbnforinbeingsnns	honorvbnforinbeingsnns	honourvbnforinbeingnns	rewardedvbnforinthemnns	honourvbnforinbeingsnns	rewardedvbnforinbeingnessnns	honorvbnforinbeingnessnns	honourvbnforintheynns	
+
+BE: rewardedVBNinINyearsNNS
+EQ class: honourvbnininold_agenns	rewardvbninintheynns	honorvbnininold_agenns	rewardvbnininyearsnns	rewardedvbniningeezerhoodnns	honorvbnininagenns	rewardedvbninineldnns	rewardedvbnininold_agenns	honourvbninineldnns	rewardvbnininagenns	honourvbnininagenns	honourvbniningeezerhoodnns	honorvbninintheynns	honorvbninineldnns	honorvbnininthemnns	honorvbniningeezerhoodnns	rewardedvbnininthemnns	rewardvbninineldnns	honourvbnininyearsnns	rewardedvbnininagenns	honourvbnininthemnns	honourvbninintheynns	rewardvbnininold_agenns	honorvbnininyearsnns	rewardvbnininthemnns	rewardvbniningeezerhoodnns	rewardedvbninintheynns	
+
+BE: thinkVBPthatINrewardedVBN
+EQ class: considervbpthatinrewardedvbn	believevbpthatinhonourvbn	believevbpthatinrewardvbn	considervbpthatinhonorvbn	conceivevbpthatinhonourvbn	conceivevbpthatinrewardvbn	believevbpthatinrewardedvbn	thinkvbpthatinhonorvbn	conceivevbpthatinrewardedvbn	considervbpthatinhonourvbn	considervbpthatinrewardvbn	thinkvbpthatinrewardvbn	conceivevbpthatinhonorvbn	believevbpthatinhonorvbn	thinkvbpthatinhonourvbn	
+
+BE: imagineVBthatINbeAUX
+EQ class: ideatevbthatinbeaux	conceive_ofvbthatinbeaux	envisagevbthatinbeaux	
+
+BE: liveVBactuallyRB
+EQ class: actualjjinindwellvb	liveablennofinactuallyrb	existentjjlivernn	dwellvbactuallyrb	livernnofinactuallyrb	liveryjjofinactuallyrb	actualitynnininlivevb	actualitynnininpopulatevb	actualjjininlivernn	existentjjininlivernn	actualitynnininlivernn	actualjjlivernn	existentjjininlivevb	actualitynninindwellvb	existentjjinininhabitvb	existentjjinindwellvb	actualjjininlivevb	existentjjininliveryjj	actualitynnliveryjj	inhabitvbactuallyrb	actualitynnininliveryjj	actualitynninininhabitvb	actualjjininliveryjj	populatevbactuallyrb	livablennofinactuallyrb	actualjjliveryjj	existentjjliveryjj	existentjjininpopulatevb	actualjjininpopulatevb	actualjjinininhabitvb	actualitynnlivernn	
+
+BE: imagineVBagoRB
+EQ class: conceive_ofvbagorb	imaginativenessnnofinagorb	imaginationnnofinagorb	visionnnofinagorb	ideatevbagorb	envisagevbagorb	imaginativennofinagorb	
+
+BE: sendVBinstantlyRB
+EQ class: sendingnnofininstantlyrb	directvbinstantlyrb	
+
+BE: donVBreallyRB
+EQ class: realnessnninindonvb	realjjininwearvb	existentjjinindonvb	put_onvbreallyrb	realitynnininwearvb	realjjinindonvb	realjjininput_onvb	realnessnnininwearvb	realnessnnininput_onvb	existentjjininassumevb	realnessnnininassumevb	realitynnininassumevb	realitynnininput_onvb	realitynninindonvb	realitynnininget_intovb	assumevbreallyrb	existentjjininget_intovb	realjjininassumevb	get_intovbreallyrb	realnessnnininget_intovb	realjjininget_intovb	existentjjininwearvb	wearvbreallyrb	existentjjininput_onvb	
+
+BE: thinkVBsoRB
+EQ class: believevbsorb	considervbsorb	conceivevbsorb	thoughtnnofinsorb	ideannofinsorb	
+
+BE: questionNN
+EQ class: enquirynn	interrogationnn	querynn	inquirynn	
+
+BE: balanceNN
+EQ class: 
+
+BE: moneyNN
+EQ class: monetaryjj	
+
+BE: spaceNN
+EQ class: spatialjj	infinitenn	spacialjj	
+
+BE: tNNS
+EQ class: thyminenns	theynns	themnns	
+
+BE: moneyNN
+EQ class: monetaryjj	
+
+BE: celebrityNN
+EQ class: famous_personnn	
+
+BE: plasticNN
+EQ class: 
+
+BE: surgeryNN
+EQ class: surgicaljj	
+
+BE: houseNN
+EQ class: 
+
+BE: numberNN
+EQ class: figurenn	
+
+BE: tNNS
+EQ class: thyminenns	theynns	themnns	
+
+BE: peopleNNS
+EQ class: theynns	themnns	
+
+BE: moneyNN
+EQ class: monetaryjj	
+
+BE: onesNNS
+EQ class: inns	acenns	theynns	1nns	onenns	unitynns	singlenns	themnns	
+
+BE: balanceNN
+EQ class: 
+
+BE: thinkVBP
+EQ class: conceivevbp	believevbp	considervbp	
+
+BE: spendingVBG
+EQ class: spendvbg	passvbg	
+
+BE: learningVBG
+EQ class: larnvbg	learnvbg	acquirevbg	
+
+BE: exploringVBG
+EQ class: researchvbg	searchvbg	explorevbg	
+
+BE: comesVBZ
+EQ class: comevbz	come_upvbz	
+
+BE: helpingVBG
+EQ class: assistvbg	aidvbg	helpvbg	
+
+BE: donVB
+EQ class: assumevb	put_onvb	wearvb	get_intovb	
+
+BE: thinkVB
+EQ class: believevb	conceivevb	considervb	
+
+BE: clusteredVBN
+EQ class: flockvbn	clumpvbn	clustervbn	constellatevbn	
+
+BE: accountVBP
+EQ class: 
+
+BE: waitingVBG
+EQ class: waitvbg	
+
+BE: spentVBN
+EQ class: spendvbn	passvbn	
+
+BE: I donPersonAnnotation
+EQ class: i. donpersonannotation	
+
+BE: meanVBP
+EQ class: intendvbp	
+
+BE: goVB
+EQ class: locomotevb	movevb	travelvb	
+
+BE: takeVB
+EQ class: 
+
+BE: sVBZ
+EQ class: 
+
+BE: spendVB
+EQ class: passvb	
+
+BE: createVB
+EQ class: makevb	
+
+BE: goodJJ
+EQ class: goodnessnn	
+
+BE: needyJJ
+EQ class: destitutejj	neednn	poverty-strickenjj	necessitousjj	indigentjj	impoverishedjj	needinessnn	
+
+BE: richJJ
+EQ class: richnessnn	
+
+BE: needyJJ
+EQ class: destitutejj	neednn	poverty-strickenjj	necessitousjj	indigentjj	impoverishedjj	needinessnn	
+
+BE: goodJJbalanceNN
+EQ class: goodnessnnbalancenn	
+
+BE: richJJcelebrityNN
+EQ class: richnessnnfamous_personnn	richjjfamous_personnn	richnessnncelebritynn	
+
+BE: needyJJonesNNS
+EQ class: neednntheynns	needinessnnonesnns	indigentjjsinglenns	neednnsinglenns	indigentjjthemnns	indigentjjunitynns	needyjjtheynns	needinessnntheynns	destitutejjunitynns	poverty-strickenjjinns	necessitousjjtheynns	necessitousjjacenns	destitutejjtheynns	needyjj1nns	needyjjsinglenns	needyjjonenns	destitutejjthemnns	destitutejjinns	destitutejjonenns	poverty-strickenjjsinglenns	poverty-strickenjjthemnns	destitutejj1nns	impoverishedjjunitynns	poverty-strickenjjonenns	impoverishedjjthemnns	necessitousjjthemnns	needyjjunitynns	needinessnninns	indigentjjacenns	needinessnnsinglenns	neednnonenns	indigentjjonesnns	destitutejjacenns	needinessnnonenns	impoverishedjj1nns	needyjjinns	poverty-strickenjjacenns	destitutejjsinglenns	impoverishedjjinns	impoverishedjjacenns	indigentjjinns	impoverishedjjsinglenns	neednninns	necessitousjjsinglenns	neednn1nns	poverty-strickenjj1nns	poverty-strickenjjunitynns	needinessnnthemnns	poverty-strickenjjonesnns	neednnonesnns	indigentjjtheynns	needyjjacenns	needinessnn1nns	necessitousjjonesnns	neednnacenns	neednnthemnns	necessitousjjinns	necessitousjj1nns	impoverishedjjtheynns	indigentjj1nns	necessitousjjunitynns	neednnunitynns	needyjjthemnns	impoverishedjjonenns	needinessnnunitynns	poverty-strickenjjtheynns	needinessnnacenns	destitutejjonesnns	impoverishedjjonesnns	indigentjjonenns	necessitousjjonenns	
+
+BE: yourPRP$questionNN
+EQ class: yourprp$call_into_questionvb	querynnofinyourprp$	yourprp$inquirynn	yourprp$interrogationnn	interrogationnnofinyourprp$	oppugnvbyourprp$	call_into_questionvbyourprp$	questionnnofinyourprp$	yourprp$enquirynn	yourprp$oppugnvb	questionvbyourprp$	yourprp$questionvb	inquirynnofinyourprp$	yourprp$querynn	enquirynnofinyourprp$	
+
+BE: plasticNNsurgeryNN
+EQ class: surgerynnofinplasticnn	plasticnnsurgicalvb	surgicalvbplasticnn	plasticnnsurgicaljj	surgicaljjofinplasticnn	
+
+BE: houseNNnumberNN
+EQ class: numbernnofinhousenn	living_accommodationsnnofinnumbernn	totalvbhousenn	comevbhousenn	lodgingnnofinnumbernn	housennfigurenn	numbernnhousevb	figurennhousevb	housingnnofinnumbernn	amountvbhousenn	living_accommodationsnnofinfigurenn	housingnnofinfigurenn	lodgingnnofinfigurenn	figurennofinhousenn	housenncomevb	housennadd_upvb	housennnumbervb	housenntotalvb	numbervbhousenn	add_upvbhousenn	housennamountvb	
+
+BE: iPRPthinkVBP
+EQ class: iprpbelievevbp	iprpconceivevbp	thoughtnnofiniprp	ideanniprp	iprpconsidervbp	ideannofiniprp	thoughtnniprp	
+
+BE: thereEXbeAUX
+EQ class: 
+
+BE: needyJJdonVB
+EQ class: destitutejjput_onvb	poverty-strickenjjwearvb	neednnwearvb	impoverishedjjget_intovb	poverty-strickenjjdonvb	impoverishedjjassumevb	destitutejjget_intovb	neednnassumevb	necessitousjjget_intovb	impoverishedjjwearvb	needyjjassumevb	necessitousjjdonvb	needyjjput_onvb	needinessnnget_intovb	needinessnnput_onvb	destitutejjassumevb	needyjjwearvb	indigentjjput_onvb	destitutejjdonvb	destitutejjwearvb	indigentjjassumevb	poverty-strickenjjassumevb	indigentjjget_intovb	needyjjget_intovb	necessitousjjassumevb	neednnput_onvb	poverty-strickenjjget_intovb	needinessnnassumevb	indigentjjdonvb	necessitousjjwearvb	indigentjjwearvb	impoverishedjjput_onvb	poverty-strickenjjput_onvb	needinessnndonvb	neednnget_intovb	neednndonvb	necessitousjjput_onvb	needinessnnwearvb	impoverishedjjdonvb	
+
+BE: tNNSthinkVB
+EQ class: thyminennsbelievevb	ideanntheynns	ideannofinthyminenns	thoughtnnthyminenns	theynnsthinkvb	thyminennsthinkvb	tnnsconceivevb	thoughtnnofintheynns	ideannofintnns	thoughtnnthemnns	themnnsconsidervb	tnnsbelievevb	thoughtnnofinthemnns	thoughtnnofinthyminenns	themnnsconceivevb	ideanntnns	tnnsconsidervb	thoughtnntheynns	theynnsbelievevb	themnnsthinkvb	theynnsconsidervb	ideannthyminenns	theynnsconceivevb	ideannofinthemnns	ideannthemnns	thyminennsconceivevb	themnnsbelievevb	thoughtnnofintnns	thoughtnntnns	ideannofintheynns	thyminennsconsidervb	
+
+BE: sPRPaccountVBP
+EQ class: 
+
+BE: tNNSmeanVBP
+EQ class: themnnsmeanvbp	importnnofinthyminenns	significationnnthemnns	meaningnnofintnns	meaningnnthyminenns	significationnntnns	meaningnnofinthemnns	significationnnofinthemnns	significationnnthyminenns	importnnofinthemnns	meaningnnofinthyminenns	importnnthyminenns	importnnofintheynns	themnnsintendvbp	significancennofinthyminenns	significationnntheynns	significationnnofintnns	importnnthemnns	importnntnns	importnnofintnns	significancennthyminenns	meaningnnofintheynns	thyminennsintendvbp	significancennofintnns	significancennofintheynns	significationnnofintheynns	theynnsintendvbp	thyminennsmeanvbp	theynnsmeanvbp	significancenntheynns	meaningnntnns	meaningnnthemnns	significancennofinthemnns	significationnnofinthyminenns	significancenntnns	importnntheynns	tnnsintendvbp	significancennthemnns	meaningnntheynns	
+
+BE: themPRPspendVB
+EQ class: yearsprpspendvb	lettersprpspendvb	humansprpspendvb	themprppassvb	sprpspendvb	onesprppassvb	onesprpspendvb	tprppassvb	peopleprppassvb	tprpspendvb	beingsprppassvb	lettersprppassvb	beingsprpspendvb	peopleprpspendvb	sprppassvb	yearsprppassvb	humansprppassvb	
+
+BE: themPRPcreateVB
+EQ class: kingdom_animaliannofinthemprp	brutennpeopleprp	faunannofinsprp	creaturennofinyearsprp	animaliannonesprp	peopleprpmakevb	creaturenntprp	creaturennofinbeingsprp	animaliannofinpeopleprp	brutennofinpeopleprp	brutennofinyearsprp	animate_beingnntprp	creaturennofinpeopleprp	animalnnofinhumansprp	beastnnofinyearsprp	kingdom_animaliannofinsprp	animaliannofinthemprp	creaturennofinsprp	animaliannofinlettersprp	beastnnsprp	creaturennofinlettersprp	beastnnofinpeopleprp	beastnnhumansprp	beastnnofinhumansprp	animate_beingnnyearsprp	beastnnofinonesprp	creaturennhumansprp	beingsprpcreatevb	animaliannhumansprp	animaliannpeopleprp	animalnnhumansprp	kingdom_animaliannonesprp	animalnnpeopleprp	kingdom_animaliannofinonesprp	brutennofinhumansprp	animate_beingnnofinbeingsprp	animalnnofinthemprp	animaliannofinsprp	kingdom_animaliannyearsprp	kingdom_animaliannofinpeopleprp	brutennbeingsprp	faunannofinonesprp	kingdom_animalianntprp	creaturennyearsprp	beastnnofinbeingsprp	faunannofintprp	humansprpcreatevb	animate_beingnnofinpeopleprp	peopleprpcreatevb	humansprpmakevb	faunannofinpeopleprp	tprpmakevb	kingdom_animaliannthemprp	animalnnofinyearsprp	faunannofinyearsprp	animalianntprp	kingdom_animaliannlettersprp	animate_beingnnbeingsprp	brutennyearsprp	animate_beingnnofinhumansprp	faunannpeopleprp	faunannofinlettersprp	animalnnlettersprp	animate_beingnnofinonesprp	brutennofinonesprp	kingdom_animaliannofinhumansprp	beastnnofintprp	beastnnofinthemprp	animaliannofinbeingsprp	animalnnonesprp	creaturennofinhumansprp	creaturennsprp	kingdom_animaliannofinyearsprp	kingdom_animaliannpeopleprp	animaliannyearsprp	kingdom_animaliannsprp	brutennofinsprp	kingdom_animaliannofinlettersprp	faunannhumansprp	creaturennlettersprp	kingdom_animaliannofinbeingsprp	faunannyearsprp	lettersprpmakevb	faunannonesprp	animate_beingnnlettersprp	animate_beingnnpeopleprp	animalnntprp	beastnnyearsprp	faunannofinbeingsprp	yearsprpcreatevb	beastnnonesprp	animalnnsprp	animalnnofintprp	animalnnthemprp	yearsprpmakevb	beastnnofinlettersprp	animalnnyearsprp	brutenntprp	beastnnpeopleprp	animaliannlettersprp	beastnnthemprp	onesprpcreatevb	brutennsprp	creaturennonesprp	creaturennofintprp	animate_beingnnofintprp	brutennofinthemprp	animalnnofinlettersprp	brutennonesprp	animalnnofinbeingsprp	animaliannthemprp	faunannsprp	creaturennbeingsprp	animaliannofinhumansprp	kingdom_animaliannofintprp	animate_beingnnonesprp	animate_beingnnofinlettersprp	animalnnofinonesprp	animate_beingnnthemprp	creaturennofinthemprp	animate_beingnnhumansprp	brutennhumansprp	animate_beingnnofinyearsprp	animalnnofinsprp	faunannofinthemprp	animaliannofinonesprp	animalnnbeingsprp	faunannbeingsprp	brutennofintprp	animate_beingnnsprp	brutennthemprp	animaliannbeingsprp	beastnnofinsprp	onesprpmakevb	animalnnofinpeopleprp	brutennofinlettersprp	brutennofinbeingsprp	themprpmakevb	faunannofinhumansprp	lettersprpcreatevb	beingsprpmakevb	animaliannofinyearsprp	creaturennpeopleprp	tprpcreatevb	creaturennofinonesprp	kingdom_animaliannbeingsprp	sprpmakevb	creaturennthemprp	beastnnlettersprp	brutennlettersprp	animate_beingnnofinsprp	faunannthemprp	faunanntprp	animaliannsprp	sprpcreatevb	animate_beingnnofinthemprp	kingdom_animaliannhumansprp	beastnnbeingsprp	beastnntprp	faunannlettersprp	animaliannofintprp	
+
+BE: peopleNNSsVBZ
+EQ class: themnnssvbz	theynnssvbz	
+
+BE: accountVBPcelebrityNN
+EQ class: accountvbpfamous_personnn	
+
+BE: beAUXbalanceNN
+EQ class: 
+
+BE: spendingVBGmoneyNN
+EQ class: spendvbgmoneynn	passvbgmoneynn	spendingvbgmonetaryjj	passvbgmonetaryjj	spendvbgmonetaryjj	
+
+BE: exploringVBGspaceNN
+EQ class: geographic_expeditionnnofininfinitenn	explorationnnofininfinitenn	exploratorynnofininfinitenn	exploratorynnofinspacenn	explorationnnofinspatialjj	explorationnnofinspacialjj	explorativennofininfinitenn	geographic_expeditionnnofinspatialjj	geographic_expeditionnnofinspacialjj	exploratorynnofinspacialjj	researchvbgspatialjj	geographic_expeditionnnofinspacenn	explorativennofinspacenn	researchvbgspacialjj	exploratorynnofinspatialjj	exploringvbgspatialjj	explorevbgspacenn	searchvbginfinitenn	explorationnnofinspacenn	explorativennofinspatialjj	exploringvbgspacialjj	searchvbgspatialjj	explorativennofinspacialjj	researchvbgspacenn	explorevbgspatialjj	explorevbgspacialjj	searchvbgspacenn	exploringvbginfinitenn	searchvbgspacialjj	explorevbginfinitenn	researchvbginfinitenn	
+
+BE: goVBpeopleNNS
+EQ class: locomotevbpeoplenns	govbthemnns	locomotevbthemnns	movevbthemnns	travelvbthemnns	travelvbtheynns	travelvbpeoplenns	locomotevbtheynns	movevbpeoplenns	movevbtheynns	govbtheynns	
+
+BE: sVBZmoneyNN
+EQ class: svbzmonetaryjj	
+
+BE: spendVBitPRP
+EQ class: passvbitprp	
+
+BE: createVBbalanceNN
+EQ class: kingdom_animaliannofinbalancenn	animate_beingnnofinbalancenn	brutennofinbalancenn	makevbbalancenn	animaliannofinbalancenn	animalnnofinbalancenn	faunannofinbalancenn	beastnnofinbalancenn	creaturennofinbalancenn	
+
+BE: helpingVBGneedyJJ
+EQ class: assistnnofinneedinessnn	helpnnofinneednn	assistantnnofinnecessitousjj	helpnnofinnecessitousjj	assistancennofinnecessitousjj	helpvbgdestitutejj	helpingvbgpoverty-strickenjj	helpingvbgindigentjj	assistnnofinimpoverishedjj	assistvbgneedyjj	assistnnofinindigentjj	assistantnnofindestitutejj	helpingvbgnecessitousjj	assistantnnofinindigentjj	supporternnofindestitutejj	helpvbgindigentjj	helpnnofinneedinessnn	helpingvbgdestitutejj	assistvbgimpoverishedjj	assistantnnofinneednn	assistnnofindestitutejj	helpernnofinindigentjj	supporternnofinindigentjj	helpvbgpoverty-strickenjj	helpernnofinneednn	helpnnofinneedyjj	helpernnofindestitutejj	assistantnnofinneedyjj	aidvbgindigentjj	supporternnofinneednn	assistantnnofinpoverty-strickenjj	helpingvbgneedinessnn	helpnnofinpoverty-strickenjj	assistvbgindigentjj	assistancennofinimpoverishedjj	assistantnnofinneedinessnn	helpvbgneednn	assistancennofinneedyjj	aidnnofinneedyjj	aidnnofinnecessitousjj	assistancennofindestitutejj	supporternnofinnecessitousjj	helpernnofinimpoverishedjj	aidvbgimpoverishedjj	supporternnofinneedinessnn	helpingvbgimpoverishedjj	assistvbgdestitutejj	helpvbgneedyjj	supporternnofinneedyjj	helpernnofinneedyjj	helpnnofinimpoverishedjj	helpvbgnecessitousjj	assistnnofinpoverty-strickenjj	aidvbgdestitutejj	assistancennofinpoverty-strickenjj	assistnnofinnecessitousjj	assistancennofinindigentjj	assistancennofinneedinessnn	helpernnofinnecessitousjj	assistvbgneedinessnn	aidnnofinindigentjj	aidvbgpoverty-strickenjj	assistnnofinneednn	aidvbgneednn	aidvbgnecessitousjj	helpnnofindestitutejj	assistvbgneednn	helpvbgimpoverishedjj	helpingvbgneednn	aidnnofindestitutejj	aidnnofinneednn	helpernnofinpoverty-strickenjj	supporternnofinimpoverishedjj	aidnnofinpoverty-strickenjj	assistantnnofinimpoverishedjj	assistvbgpoverty-strickenjj	aidvbgneedyjj	helpernnofinneedinessnn	assistancennofinneednn	assistvbgnecessitousjj	helpnnofinindigentjj	aidvbgneedinessnn	helpvbgneedinessnn	aidnnofinimpoverishedjj	supporternnofinpoverty-strickenjj	assistnnofinneedyjj	aidnnofinneedinessnn	
+
+BE: donVBtNNS
+EQ class: wearvbtnns	wearvbtheynns	wearvbthemnns	put_onvbtnns	wearvbthyminenns	get_intovbthemnns	donvbthyminenns	get_intovbthyminenns	put_onvbthyminenns	put_onvbthemnns	assumevbthyminenns	get_intovbtheynns	assumevbthemnns	assumevbtnns	assumevbtheynns	donvbthemnns	get_intovbtnns	donvbtheynns	put_onvbtheynns	
+
+BE: clusteredVBNmoneyNN
+EQ class: bunchnnofinmonetaryjj	clusternnofinmonetaryjj	clumpnnofinmoneynn	flockvbnmoneynn	constellatevbnmonetaryjj	bunchnnofinmoneynn	clusteringnnofinmonetaryjj	clustervbnmoneynn	clumpvbnmoneynn	constellatevbnmoneynn	clustervbnmonetaryjj	clusteredvbnmonetaryjj	clusteringnnofinmoneynn	clusternnofinmoneynn	clumpvbnmonetaryjj	flockvbnmonetaryjj	clumpnnofinmonetaryjj	
+
+BE: exploringVBGunderINthatDT
+EQ class: explorevbgunderinthatdt	searchvbgunderinthatdt	researchvbgunderinthatdt	
+
+BE: spendVBonINonesNNS
+EQ class: spendvboninsinglenns	passvboninonesnns	spendvbonin1nns	spendvbonininns	spendvboninacenns	passvboninthemnns	passvbonininns	spendvboninonenns	spendvboninthemnns	spendvbonintheynns	passvbonintheynns	passvboninsinglenns	passvboninacenns	passvboninonenns	passvboninunitynns	passvbonin1nns	spendvboninunitynns	
+
+BE: clusteredVBNinINcelebrityNN
+EQ class: flockvbnininfamous_personnn	clustervbninincelebritynn	clusteredvbnininfamous_personnn	flockvbninincelebritynn	constellatevbnininfamous_personnn	clustervbnininfamous_personnn	constellatevbninincelebritynn	clumpvbnininfamous_personnn	clumpvbninincelebritynn	
+
+BE: spentVBNonINsurgeryNN
+EQ class: spendvbnoninsurgerynn	spentvbnoninsurgicaljj	passvbnoninsurgicaljj	spendvbnoninsurgicaljj	passvbnoninsurgerynn	
+
+BE: spentVBNonINnumberNN
+EQ class: spendvbnoninnumbernn	passvbnoninnumbernn	spendvbnoninfigurenn	spentvbnoninfigurenn	passvbnoninfigurenn	
+
+BE: SoRBtoTOquestionNN
+EQ class: sorbtotointerrogationnn	sorbtotoinquirynn	sorbtotoenquirynn	sorbtotoquerynn	
+
+BE: waitingVBGtenINI donPersonAnnotation
+EQ class: waitvbgtenini donpersonannotation	waitvbgtenini. donpersonannotation	waitingvbgtenini. donpersonannotation	
+
+BE: meanVBPgoVB
+EQ class: importnnofinlocomotevb	significancennofinlocomotevb	importnnofinmovevb	importnnofintravelvb	intendvbpmovevb	intendvbptravelvb	importnnofingovb	meaningnnofinmovevb	significationnnofinmovevb	significancennofintravelvb	meanvbpmovevb	meanvbplocomotevb	significationnnofintravelvb	intendvbpgovb	meaningnnofinlocomotevb	significationnnofinlocomotevb	significancennofinmovevb	significationnnofingovb	meaningnnofintravelvb	meanvbptravelvb	intendvbplocomotevb	meaningnnofingovb	significancennofingovb	
+
+BE: donVBalsoRB
+EQ class: put_onvbalsorb	wearvbalsorb	get_intovbalsorb	assumevbalsorb	
+
+BE: questionNN
+EQ class: enquirynn	interrogationnn	querynn	inquirynn	
+
+BE: huhNNP
+EQ class: 
+
+BE: sOrganizationAnnotation
+EQ class: 
+
+BE: InterestingJJ
+EQ class: interestingnessnn	
+
+BE: thatDTsOrganizationAnnotation
+EQ class: 
+
+BE: sOrganizationAnnotationquestionNN
+EQ class: sorganizationannotationquerynn	sorganizationannotationinquirynn	sorganizationannotationenquirynn	sorganizationannotationinterrogationnn	
+

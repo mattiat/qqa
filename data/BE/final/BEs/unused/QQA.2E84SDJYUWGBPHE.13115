@@ -1,0 +1,71 @@
+#I know some very skinny people with diabetes. 
+#(S1 (S (NP (PRP I)) (VP (VBP know) (NP (NP (DT some) (ADJP (RB very) (JJ skinny)) (NNS people)) (PP (IN with) (NP (NN diabetes))))) (. .)))
+#Rule:Nouns
+r1peopleNNS
+r1diabetesNN
+
+#Rule:Verbs
+r2knowVBP
+
+#Rule:Adjs
+r4skinnyJJ
+
+#Rule:Adj-Noun
+r5skinnyJJpeopleNNS
+
+#Rule:HeadNoun-V
+r11iPRPknowVBP
+
+#Rule:V-HeadNoun
+r21knowVBPpeopleNNS
+
+#Rule:PPinNP
+r26peopleNNSwithINdiabetesNN
+
+#It s just that their bodies are unable to process sugar the way my body would. 
+#(S1 (S (NP (PRP It)) (VP (VBZ s) (ADVP (RB just)) (SBAR (IN that) (S (NP (PRP$ their) (NNS bodies)) (VP (AUX are) (ADJP (JJ unable) (S (VP (TO to) (VP (VB process) (NP (NN sugar)) (NP (NP (DT the) (NN way)) (SBAR (S (NP (PRP$ my) (NN body)) (VP (MD would))))))))))))) (. .)))
+#Rule:Nouns
+r1bodiesNNS
+r1sugarNN
+r1wayNN
+r1bodyNN
+
+#Rule:Verbs
+r2sVBZ
+r2processVB
+
+#Rule:Adjs
+r4unableJJ
+
+#Rule:PRP-Noun
+r6theirPRP$bodiesNNS
+r6myPRP$bodyNN
+
+#Rule:HeadNoun-V
+r11itPRPsVBZ
+r11bodiesNNSareAUX
+
+#Rule:V-HeadNoun
+r21processVBsugarNN
+r21processVBwayNN
+
+#Rule:V-ADJ
+r25areAUXunableJJ
+
+#Rule:V-IN-V
+r43sVBZthatINareAUX
+
+#Rule:V-ADV
+r46sVBZjustRB
+
+#It could begenetic.
+#(S1 (S (NP (PRP It)) (VP (MD could) (VP (VB begenetic))) (. .)))
+#Rule:Verbs
+r2begeneticVB
+
+#Rule:HeadNoun-V
+r11itPRPbegeneticVB
+
+@lemmas-left	body	it	unable	diabetes	way	my	people	know	i	process	are	s	bodies	their	begenetic	skinny	be	sugar	
+@lemmas-right	just	body	unable	diabetes	way	people	know	are	s	bodies	begenetic	be	sugar	
+@lemmas-center	that	with	

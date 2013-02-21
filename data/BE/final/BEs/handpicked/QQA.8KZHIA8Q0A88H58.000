@@ -1,0 +1,18 @@
+#How i can prevent colon cancer ?
+#(S1 (SBARQ (WHADVP (WRB How)) (SQ (NP (PRP i)) (VP (MD can) (VP (VB prevent) (NP (NN colon) (NN cancer))))) (. ?)))
+#Rule:Nouns
+r1colonNN
+r1cancerNN
+
+#Rule:Verbs
+r2preventVB
+
+#Rule:N-HeadNoun
+r8colonNNcancerNN
+
+#Rule:V-HeadNoun
+r21preventVBcancerNN
+
+@lemmas-left	prevent	colon	cancer	
+@lemmas-right	cancer	
+@lemmas-center	

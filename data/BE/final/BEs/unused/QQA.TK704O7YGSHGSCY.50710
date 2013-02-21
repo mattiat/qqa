@@ -1,0 +1,18 @@
+#i dont knowi m very very sorry!!
+#(S1 (S (NP (PRP i)) (VP (VBP dont) (S (VP (VBG knowi) (NP (NNP m)) (ADJP (RB very) (RB very) (RB sorry) (. !))))) (. !)))
+#Rule:Nouns
+r1mNNP
+
+#Rule:Verbs
+r2dontVBP
+r2knowiVBG
+
+#Rule:HeadNoun-V
+r11iPRPdontVBP
+
+#Rule:V-HeadNoun
+r21knowiVBGmNNP
+
+@lemmas-left	knowi	dont	m	i	
+@lemmas-right	dont	m	
+@lemmas-center	

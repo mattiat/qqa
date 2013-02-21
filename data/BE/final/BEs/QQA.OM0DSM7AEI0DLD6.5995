@@ -1,0 +1,76 @@
+#There are ever so many Dieticians for help. 
+#(S1 (S (NP (EX There)) (VP (AUX are) (ADVP (RB ever)) (NP (NP (ADJP (RB so) (JJ many)) (NNS Dieticians)) (PP (IN for) (NP (NN help))))) (. .)))
+#Rule:Nouns
+r1DieticiansNNS
+r1helpNN
+
+#Rule:Adjs
+r4manyJJ
+
+#Rule:Adj-Noun
+r5manyJJDieticiansNNS
+
+#Rule:HeadNoun-V
+r11thereEXareAUX
+
+#Rule:V-HeadNoun
+r21areAUXDieticiansNNS
+
+#Rule:PPinNP
+r26DieticiansNNSforINhelpNN
+
+#Rule:V-ADV
+r46areAUXeverRB
+
+#QAll Yahoo answerers are not dieticians. 
+#(S1 (S (NP (NNP QAll) (NNP Yahoo) (NNS answerers)) (VP (AUX are) (RB not) (NP (NNS dieticians))) (. .)))
+#Rule:Nouns
+r1QAll YahooPersonAnnotation
+r1answerersNNS
+r1dieticiansNNS
+
+#Rule:N-HeadNoun
+r8QAll YahooPersonAnnotationanswerersNNS
+
+#Rule:HeadNoun-V
+r11answerersNNSareAUX
+
+#Rule:V-HeadNoun
+r21areAUXdieticiansNNS
+
+#Rule:V-ADV
+r46areAUXnotRB
+
+#Rule:IS-RULE
+r47dieticiansNNSanswerersNNS
+
+#For not being able to do pull-ups, soloid practice onlyt hwlps.
+#(S1 (S (PP (IN For) (S (VP (RB not) (AUXG being) (ADJP (JJ able) (S (VP (TO to) (VP (AUX do) (NP (NNS pull-ups))))))))) (, ,) (NP (JJ soloid) (NN practice)) (VP (VBZ onlyt) (NP (NNS hwlps))) (. .)))
+#Rule:Nouns
+r1pull-upsNNS
+r1practiceNN
+r1hwlpsLocationAnnotation
+
+#Rule:Verbs
+r2onlytVBZ
+
+#Rule:Adjs
+r4ableJJ
+r4soloidJJ
+
+#Rule:Adj-Noun
+r5soloidJJpracticeNN
+
+#Rule:HeadNoun-V
+r11practiceNNonlytVBZ
+
+#Rule:V-HeadNoun
+r21doAUXpull-upsNNS
+r21onlytVBZhwlpsLocationAnnotation
+
+#Rule:V-ADJ
+r25beingAUXGableJJ
+
+@lemmas-left	dietician	dieticians	pull-up	being	QAll Yahoo	answerers	many	hwlps	help	are	pull-ups	able	practice	soloid	there	Dieticians	onlyt	do	answerer	be	
+@lemmas-right	dietician	dieticians	pull-up	answerers	not	hwlps	help	are	pull-ups	able	practice	Dieticians	onlyt	answerer	ever	be	
+@lemmas-center	for	

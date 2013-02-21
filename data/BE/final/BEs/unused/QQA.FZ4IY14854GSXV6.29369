@@ -1,0 +1,30 @@
+#our communication is being altered by not having to use our mouths to talk anymore.
+#(S1 (S (NP (PRP$ our) (NN communication)) (VP (AUX is) (VP (AUXG being) (VP (VBN altered) (PP (IN by) (S (RB not) (VP (AUXG having) (S (VP (TO to) (VP (VB use) (NP (PRP$ our) (NNS mouths)) (S (VP (TO to) (VP (VB talk) (ADVP (RB anymore)))))))))))))) (. .)))
+#Rule:Nouns
+r1communicationNN
+r1mouthsNNS
+
+#Rule:Verbs
+r2alteredVBN
+r2useVB
+r2talkVB
+
+#Rule:PRP-Noun
+r6ourPRP$communicationNN
+r6ourPRP$mouthsNNS
+
+#Rule:V-HeadNoun
+r21useVBmouthsNNS
+
+#Rule:V-HeadNoun(passive)
+r23alteredVBNcommunicationNN
+
+#Rule:V-V
+r44useVBtalkVB
+
+#Rule:V-ADV
+r46talkVBanymoreRB
+
+@lemmas-left	altered	communication	mouth	use	mouths	our	alter	talk	
+@lemmas-right	communication	mouth	anymore	mouths	talk	
+@lemmas-center	

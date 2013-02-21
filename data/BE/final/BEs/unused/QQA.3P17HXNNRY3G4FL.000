@@ -1,0 +1,64 @@
+#Can someone explain Moneyball to me. and why it was succesful??
+#(S1 (SQ (MD Can) (NP (NN someone)) (VP (VB explain) (NP (NNP Moneyball)) (PP (TO to) (NP (FW me.))) (SBAR (CC and) (WHADVP (WRB why)) (S (NP (PRP it)) (VP (AUX was) (ADJP (JJ succesful)))) (. ?))) (. ?)))
+#Rule:Nouns
+r1someoneNN
+r1MoneyballNNP
+
+#Rule:Verbs
+r2explainVB
+
+#Rule:Adjs
+r4succesfulJJ
+
+#Rule:HeadNoun-V
+r11itPRPwasAUX
+
+#Rule:V-HeadNoun
+r21explainVBMoneyballNNP
+
+#Rule:V-ADJ
+r25wasAUXsuccesfulJJ
+
+#Rule:PPinVP
+r30explainVBtoTOmeLocationAnnotation
+
+#What other sports could the principles behind moneyball be used to gain an advantage over rival teams that have more money.
+#(S1 (SBARQ (WHNP (WP What) (JJ other) (NNS sports)) (SQ (MD could) (NP (NP (DT the) (NNS principles)) (PP (IN behind) (NP (NN moneyball)))) (VP (AUX be) (VP (VBN used) (S (VP (TO to) (VP (VB gain) (NP (NP (DT an) (NN advantage)) (PP (IN over) (NP (NP (JJ rival) (NNS teams)) (SBAR (WHNP (WDT that)) (S (VP (AUX have) (NP (JJR more) (NN money)))))))))))))) (. .)))
+#Rule:Nouns
+r1sportsNNS
+r1principlesNNS
+r1moneyballNN
+r1advantageNN
+r1teamsNNS
+r1moneyNN
+
+#Rule:Verbs
+r2usedVBN
+r2gainVB
+
+#Rule:Adjs
+r4otherJJ
+r4rivalJJ
+r4moreJJR
+
+#Rule:Adj-Noun
+r5rivalJJteamsNNS
+r5moreJJRmoneyNN
+
+#Rule:HeadNoun-(who/that)-V
+r14teamsNNShaveAUX
+
+#Rule:V-HeadNoun
+r21gainVBadvantageNN
+r21haveAUXmoneyNN
+
+#Rule:PPinNP
+r26principlesNNSbehindINmoneyballNN
+r26advantageNNoverINteamsNNS
+
+#Rule:V-V
+r44usedVBNgainVB
+
+@lemmas-left	other	it	have	rival	sports	use	sport	team	principles	used	succesful	moneyball	gain	was	teams	principle	more	advantage	someone	money	Moneyball	explain	be	
+@lemmas-right	teams	advantage	have	money	me	team	Moneyball	succesful	moneyball	gain	was	be	
+@lemmas-center	to	over	behind	

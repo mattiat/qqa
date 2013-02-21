@@ -1,0 +1,36 @@
+BE: warmingNN
+EQ class: heatingnn	
+
+BE: ice-ageNN
+EQ class: agenn	
+
+BE: movieNN
+EQ class: motion-picture_shownn	picturenn	picnn	picture_shownn	motion_picturenn	moving-picture_shownn	moving_picturenn	flicknn	filmnn	
+
+BE: The DayOrganizationAnnotation
+EQ class: 
+
+BE: causeVB
+EQ class: makevb	dovb	
+
+BE: depictedVBN
+EQ class: depictvbn	showvbn	rendervbn	picturevbn	
+
+BE: globalJJ
+EQ class: planetaryjj	globenn	worldwidejj	world-widejj	worldjj	
+
+BE: globalJJwarmingNN
+EQ class: worldwidejjheatingnn	worldjjwarmingnn	planetaryjjheatingnn	world-widejjwarmingnn	globennheatingnn	world-widejjheatingnn	worldjjheatingnn	globaljjheatingnn	globennwarmingnn	worldwidejjwarmingnn	warmvbgloballyrb	warm_upvbgloballyrb	planetaryjjwarmingnn	
+
+BE: warmingNNcauseVB
+EQ class: causationnnofinheatingnn	warmingnnmakevb	causingnnofinheatingnn	causingnnwarmingnn	causativennofinwarmingnn	causativennofinheatingnn	causationnnofinwarmingnn	causingnnofinwarmingnn	heatingnncausevb	causingnnheatingnn	heatingnnmakevb	heatingnndovb	causationnnheatingnn	causennofinwarmingnn	causaljjofinheatingnn	causennofinheatingnn	causaljjofinwarmingnn	warmingnndovb	causationnnwarmingnn	
+
+BE: causeVBice-ageNN
+EQ class: causationnnofinice-agenn	dovbice-agenn	causevbagenn	causingnnofinagenn	causationnnofinagenn	makevbagenn	causennofinagenn	causingnnofinice-agenn	dovbagenn	causaljjofinagenn	causativennofinice-agenn	causativennofinagenn	causaljjofinice-agenn	makevbice-agenn	causennofinice-agenn	
+
+BE: ice-ageNNlikeINmovieNN
+EQ class: ice-agennlikeinmotion-picture_shownn	motion_picturennice-agenn	ice-agennlikeinpicture_shownn	picnnagenn	ice-agennlikeinmoving-picture_shownn	agennlikeinpicturenn	ice-agennlikeinfilmnn	moving_picturennice-agenn	agennlikeinpicnn	picturennice-agenn	ice-agennlikeinmoving_picturenn	motion-picture_shownnagenn	picture_shownnice-agenn	motion-picture_shownnice-agenn	picnnice-agenn	motion_picturennagenn	ice-agennlikeinpicnn	ice-agennlikeinpicturenn	agennlikeinpicture_shownn	agennlikeinmotion_picturenn	moving-picture_shownnice-agenn	flicknnice-agenn	moviennice-agenn	moviennagenn	filmnnice-agenn	agennlikeinmotion-picture_shownn	ice-agennlikeinmotion_picturenn	picture_shownnagenn	flicknnagenn	ice-agennlikeinflicknn	agennlikeinmoving-picture_shownn	moving_picturennagenn	agennlikeinmovienn	agennlikeinfilmnn	agennlikeinflicknn	moving-picture_shownnagenn	picturennagenn	agennlikeinmoving_picturenn	filmnnagenn	
+
+BE: causeVBafterINdepictedVBN
+EQ class: dovbafterindepictedvbn	makevbafterinshowvbn	causevbafterinshowvbn	causevbafterinpicturevbn	causevbafterinrendervbn	causevbafterindepictvbn	dovbafterindepictvbn	makevbafterinpicturevbn	makevbafterindepictvbn	dovbafterinshowvbn	makevbafterindepictedvbn	dovbafterinrendervbn	dovbafterinpicturevbn	makevbafterinrendervbn	
+

@@ -1,0 +1,416 @@
+#Hi gurl -Sort of hate to jump in here - there s no way that you will even consider what I have to say. 
+#(S1 (S (S (NP (NNS Hi)) (VP (VBP gurl) (S (NP (NP (JJ -Sort)) (PP (IN of) (NP (NN hate)))) (VP (TO to) (VP (VB jump) (PP (IN in) (NP (RB here)))))))) (: -) (S (NP (EX there)) (VP (VBZ s) (NP (NP (DT no) (NN way)) (SBAR (WHNP (IN that)) (S (NP (PRP you)) (VP (MD will) (VP (ADVP (RB even)) (VB consider) (SBAR (WHNP (WP what)) (S (NP (PRP I)) (VP (AUX have) (S (VP (TO to) (VP (VB say)))))))))))))) (. .)))
+#Rule:Nouns
+r1Hi gurlPersonAnnotation
+r1hateNN
+r1wayNN
+
+#Rule:Verbs
+r2jumpVB
+r2sVBZ
+r2considerVB
+r2sayVB
+
+#Rule:Adjs
+r4-SortJJ
+
+#Rule:HeadNoun-V
+r11-SortJJjumpVB
+r11thereEXsVBZ
+r11youPRPconsiderVB
+r11iPRPhaveAUX
+
+#Rule:V-HeadNoun
+r21sVBZwayNN
+
+#Rule:V-HeadNoun
+r22Hi gurlPersonAnnotation-SortJJ
+
+#Rule:PPinNP
+r26-SortJJofINhateNN
+
+#Rule:PPinVP
+r30jumpVBinINhereRB
+
+#Rule:V-ADV
+r46considerVBevenRB
+
+#But let s take mark b. s approach and read Genesis chapter 1. 
+#(S1 (S (CC But) (VP (VB let) (NP (PRP s)) (VP (VP (VB take) (NP (NN mark) (NNP b.) (NNP s) (NN approach))) (CC and) (VP (VB read) (NP (NN Genesis)) (NP (NN chapter) (CD 1))))) (. .)))
+#Rule:Nouns
+r1markNN
+r1bNNP
+r1sNNP
+r1approachNN
+r1GenesisOrganizationAnnotation
+r1chapterNN
+
+#Rule:Verbs
+r2letVB
+r2takeVB
+r2readVB
+
+#Rule:Adj-Noun
+r51CDchapterNN
+
+#Rule:N-HeadNoun
+r8sNNPapproachNN
+r8bNNPapproachNN
+r8markNNapproachNN
+
+#Rule:V-HeadNoun
+r21letVBsPersonAnnotation
+r21takeVBapproachNN
+r21readVBGenesisOrganizationAnnotation
+r21readVBchapterNN
+
+#God created the heaven and the earth - no stars, no sun, no other planets - those don t appear until verse 16, after there is light (from where? 
+#(S1 (S (S (NP (NNP God)) (VP (VBD created) (NP (NP (DT the) (NN heaven)) (CC and) (NP (DT the) (NN earth))))) (: -) (FRAG (NP (DT no) (NNS stars)) (, ,) (NP (DT no) (NN sun)) (, ,) (NP (DT no) (JJ other) (NNS planets)) (: -) (S (NP (DT those)) (VP (VB don) (S (NP (NNP t)) (VP (VB appear) (PP (IN until) (NP (NN verse) (CD 16))) (, ,) (SBAR (IN after) (S (NP (EX there)) (VP (AUX is) (ADJP (ADJP (JJ light)) (-LRB- -LRB-) (PP (IN from) (FRAG (WHADVP (WRB where)))))))))))) (. ?))))
+#Rule:Nouns
+r1GodNNP
+r1heavenNN
+r1earthNN
+r1starsNNS
+r1sunNN
+r1planetsNNS
+r1tOrganizationAnnotation
+r1verseNN
+
+#Rule:Verbs
+r2createdVBD
+r2donVB
+r2appearVB
+
+#Rule:Adjs
+r4otherJJ
+r4lightJJ
+
+#Rule:Adj-Noun
+r5otherJJplanetsNNS
+r516CDverseNN
+
+#Rule:HeadNoun-V
+r11GodNNPcreatedVBD
+r11thoseDTdonVB
+r11tOrganizationAnnotationappearVB
+r11thereEXisAUX
+
+#Rule:V-HeadNoun
+r21createdVBDheavenNN
+
+#Rule:V-HeadNoun
+r22donVBtOrganizationAnnotation
+
+#Rule:V-ADJ
+r25isAUXlightJJ
+
+#Rule:PPinVP
+r30appearVBuntilINverseNN
+
+#Rule:V-IN-V
+r43appearVBafterINisAUX
+
+#no answer) water, grass (without sunlight?)
+#(S1 (S (NP (DT no) (NN answer)) (-RRB- -RRB-) (NP (NP (NN water) (, ,) (NN grass)) (PRN (-LRB- -LRB-) (PP (IN without) (NP (NN sunlight))) (. ?) (-RRB- -RRB-)))))
+#Rule:Nouns
+r1answerNN
+r1waterNN
+r1grassNN
+r1sunlightNN
+
+#, but before animals, which of course are way different than plants. 
+#(S1 (FRAG (, ,) (CC but) (FRAG (PP (IN before) (NP (NP (NNS animals)) (, ,) (SBAR (WHNP (WDT which)) (S (PP (IN of) (NP (NN course))) (VP (AUX are) (ADJP (RB way) (JJ different) (PP (IN than) (NP (NNS plants)))))))))) (. .)))
+#Rule:Nouns
+r1animalsNNS
+r1courseNN
+r1plantsNNS
+
+#Rule:Adjs
+r4differentJJ
+
+#Rule:HeadNoun-(who/that)-V
+r14animalsNNSareAUX
+
+#Rule:V-ADJ
+r25areAUXdifferentJJ
+
+#Rule:PPinS
+r36areAUXofINcourseNN
+
+#Rule:PPinADJP
+r37differentJJthanINplantsNNS
+
+#Oh by the way, what is meant by Second Day, Third Day - when there is no sun? 
+#(S1 (FRAG (INTJ (UH Oh)) (PP (IN by) (NP (DT the) (NN way))) (, ,) (SBAR (WHNP (WP what)) (S (VP (AUX is) (VP (VBN meant) (PP (IN by) (NP (NP (NNP Second) (NNP Day)) (, ,) (NP (NNP Third) (NNP Day)))) (: -) (SBAR (WHADVP (WRB when)) (S (NP (EX there)) (VP (AUX is) (NP (DT no) (NN sun))))))))) (. ?)))
+#Rule:Nouns
+r1wayNN
+r1Second DayOrganizationAnnotation
+r1ThirdNNP
+r1DayPersonAnnotation
+r1sunNN
+
+#Rule:Verbs
+r2meantVBN
+
+#Rule:N-HeadNoun
+r8ThirdNNPDayPersonAnnotation
+
+#Rule:N-ApposN
+r10Second DayOrganizationAnnotationDayPersonAnnotation
+
+#Rule:HeadNoun-V
+r11thereEXisAUX
+
+#Rule:V-By-Agent
+r13Second DayOrganizationAnnotationmeantVBN
+r13DayPersonAnnotationmeantVBN
+
+#Rule:V-HeadNoun
+r21isAUXsunNN
+
+#Does this make more sense to you than the cosmic microwave background radiation, or do you care to understand what that means? 
+#(S1 (SQ (SQ (AUX Does) (NP (DT this)) (VP (VB make) (NP (NP (JJR more) (NN sense)) (PP (TO to) (NP (PRP you)))) (PP (IN than) (NP (DT the) (JJ cosmic) (NN microwave) (NN background) (NN radiation))))) (, ,) (CC or) (SQ (AUX do) (NP (PRP you)) (VP (VBP care) (S (VP (TO to) (VP (VB understand) (SBAR (WHNP (WP what)) (S (NP (DT that)) (VP (VBZ means))))))))) (. ?)))
+#Rule:Nouns
+r1senseNN
+r1microwaveNN
+r1backgroundNN
+r1radiationNN
+
+#Rule:Verbs
+r2makeVB
+r2careVBP
+r2understandVB
+r2meansVBZ
+
+#Rule:Adjs
+r4moreJJR
+r4cosmicJJ
+
+#Rule:Adj-Noun
+r5moreJJRsenseNN
+r5cosmicJJradiationNN
+
+#Rule:N-HeadNoun
+r8backgroundNNradiationNN
+r8microwaveNNradiationNN
+
+#Rule:HeadNoun-V
+r11thatDTmeansVBZ
+
+#Rule:V-HeadNoun
+r21makeVBsenseNN
+
+#Rule:PPinNP
+r26senseNNtoTOyouPRP
+
+#Rule:PPinVP
+r30makeVBthanINradiationNN
+
+#Rule:V-V
+r44careVBPunderstandVB
+
+#It may take a few more pages than Genesis. 
+#(S1 (S (NP (PRP It)) (VP (MD may) (VP (VB take) (NP (NP (ADJP (NP (DT a) (JJ few)) (JJR more)) (NNS pages)) (PP (IN than) (NP (NN Genesis)))))) (. .)))
+#Rule:Nouns
+r1pagesNNS
+r1GenesisLocationAnnotation
+
+#Rule:Verbs
+r2takeVB
+
+#Rule:Adjs
+r4fewJJ
+r4moreJJR
+
+#Rule:Adj-Noun
+r5moreJJRpagesNNS
+
+#Rule:HeadNoun-V
+r11itPRPtakeVB
+
+#Rule:V-HeadNoun
+r21takeVBpagesNNS
+
+#Rule:PPinNP
+r26pagesNNSthanINGenesisLocationAnnotation
+
+#Is your answer to every question because God made it that way ? 
+#(S1 (SQ (AUX Is) (NP (NP (PRP$ your) (NN answer)) (PP (TO to) (NP (DT every) (NN question)))) (SBAR (IN because) (S (NP (NNP God)) (VP (VBD made) (S (NP (PRP it)) (NP (DT that) (NN way)))))) (. ?)))
+#Rule:Nouns
+r1answerNN
+r1questionNN
+r1GodNNP
+r1wayNN
+
+#Rule:Verbs
+r2madeVBD
+
+#Rule:PRP-Noun
+r6yourPRP$answerNN
+
+#Rule:HeadNoun-V
+r11GodNNPmadeVBD
+
+#Rule:V-HeadNoun
+r22madeVBDitPRP
+r22madeVBDwayNN
+
+#Rule:PPinNP
+r26answerNNtoTOquestionNN
+
+#If you see light from galaxies that left the source 2 million years ago, then is your position that:a. 
+#(S1 (S (SBAR (IN If) (S (NP (PRP you)) (VP (VBP see) (NP (NN light)) (PP (IN from) (NP (NP (NNS galaxies)) (SBAR (WHNP (WDT that)) (S (VP (VBD left) (NP (DT the) (NN source)))))) (ADVP (NP (QP (CD 2) (CD million)) (NNS years)) (RB ago)))))) (, ,) (ADVP (RB then)) (VP (AUX is) (NP (PRP$ your) (NN position) (SBAR (IN that) (FRAG (: :) (NP (DT a)))))) (. .)))
+#Rule:Nouns
+r1lightNN
+r1galaxiesNNS
+r1sourceNN
+r1yearsNNS
+r1positionNN
+
+#Rule:Verbs
+r2seeVBP
+r2leftVBD
+
+#Rule:Adj-Noun
+r52CDyearsNNS
+r5millionCDyearsNNS
+
+#Rule:PRP-Noun
+r6yourPRP$positionNN
+
+#Rule:HeadNoun-V
+r11youPRPseeVBP
+
+#Rule:HeadNoun-(who/that)-V
+r14galaxiesNNSleftVBD
+
+#Rule:V-HeadNoun
+r21seeVBPlightNN
+r21leftVBDsourceNN
+r21isAUXpositionNN
+
+#Rule:PPinVP
+r30seeVBPfromINgalaxiesNNS
+
+#Rule:V-ADV
+r46isAUXthenRB
+
+#You don t believe itb. 
+#(S1 (S (NP (PRP You)) (VP (VB don) (S (NP (NNS t)) (VP (VB believe) (ADVP (RB itb))))) (. .)))
+#Rule:Nouns
+r1tLocationAnnotation
+
+#Rule:Verbs
+r2donVB
+r2believeVB
+
+#Rule:HeadNoun-V
+r11youPRPdonVB
+r11tLocationAnnotationbelieveVB
+
+#Rule:V-HeadNoun
+r22donVBtLocationAnnotation
+
+#Rule:V-ADV
+r46believeVBitbLocationAnnotation
+
+#You don t understand itc. 
+#(S1 (S (NP (PRP You)) (VP (VB don) (S (NP (NNP t)) (VP (VB understand) (ADVP (RB itc))))) (. .)))
+#Rule:Nouns
+r1tOrganizationAnnotation
+
+#Rule:Verbs
+r2donVB
+r2understandVB
+
+#Rule:HeadNoun-V
+r11youPRPdonVB
+r11tOrganizationAnnotationunderstandVB
+
+#Rule:V-HeadNoun
+r22donVBtOrganizationAnnotation
+
+#Rule:V-ADV
+r46understandVBitcRB
+
+#God put it there to fool usd. 
+#(S1 (S (NP (NNP God)) (VP (VBD put) (NP (PRP it)) (S (NP (EX there)) (VP (TO to) (VP (VB fool) (NP (NN usd)))))) (. .)))
+#Rule:Nouns
+r1GodNNP
+r1usdNN
+
+#Rule:Verbs
+r2putVBD
+r2foolVB
+
+#Rule:HeadNoun-V
+r11GodNNPputVBD
+r11thereEXfoolVB
+
+#Rule:V-HeadNoun
+r21putVBDitPRP
+r21foolVBusdNN
+
+#Rule:V-HeadNoun
+r22putVBDthereEX
+
+#All of the abovePlease read books other than the Bible. 
+#(S1 (S (NP (NP (DT All)) (PP (IN of) (NP (DT the) (NN abovePlease)))) (VP (VBP read) (NP (NP (NNS books)) (ADJP (JJ other) (PP (IN than) (NP (DT the) (JJ Bible)))))) (. .)))
+#Rule:Nouns
+r1abovePleaseNN
+r1booksNNS
+
+#Rule:Verbs
+r2readVBP
+
+#Rule:Adjs
+r4otherJJ
+r4BibleJJ
+
+#Rule:Adj-Noun
+r5otherJJbooksNNS
+
+#Rule:HeadNoun-V
+r11allDTreadVBP
+
+#Rule:V-HeadNoun
+r21readVBPbooksNNS
+
+#Rule:PPinNP
+r26allDTofINabovePleaseNN
+
+#Rule:PPinADJP
+r37otherJJthanINBibleJJ
+
+#Please listen to people in addition to your pastor. 
+#(S1 (S (VP (VB Please) (VP (VB listen) (PP (TO to) (NP (NP (NNS people)) (PP (IN in) (NP (NP (NN addition)) (PP (TO to) (NP (PRP$ your) (NN pastor))))))))) (. .)))
+#Rule:Nouns
+r1peopleNNS
+r1additionNN
+r1pastorNN
+
+#Rule:Verbs
+r2pleaseVB
+r2listenVB
+
+#Rule:PRP-Noun
+r6yourPRP$pastorNN
+
+#Rule:PPinNP
+r26peopleNNSinINadditionNN
+r26additionNNtoTOpastorNN
+
+#Rule:PPinVP
+r30listenVBtoTOpeopleNNS
+
+#You could be mistaken.
+#(S1 (S (NP (PRP You)) (VP (MD could) (VP (AUX be) (VP (VBN mistaken)))) (. .)))
+#Rule:Verbs
+r2mistakenVBN
+
+#Rule:V-HeadNoun(passive)
+r23mistakenVBNyouPRP
+
+@lemmas-left	appear	understand	don	people	-Sort	course	are	created	page	books	animals	Second Day	million	grass	answer	create	third	few	2	1	Third	stars	say	years	plant	different	position	radiation	sort	god	put	aboveplease	mistaken	plants	made	usd	16	leave	consider	left	pastor	listen	water	b	let	heaven	pages	star	cosmic	i	Hi gurl	t	s	background	earth	hate	galaxies	microwave	Genesis	fool	planet	please	more	care	light	be	verse	means	meant	mark	sense	sunlight	jump	planets	that	bible	make	galaxy	Bible	other	abovePlease	way	Day	believe	sun	chapter	b.	read	mean	question	all	animal	mistake	is	those	it	your	you	addition	source	see	take	there	book	approach	God	
+@lemmas-right	galaxies	appear	hate	understand	don	Genesis	people	fool	-Sort	course	planet	are	created	page	light	be	books	verse	means	answer	here	meant	sense	create	jump	planets	itb	then	itc	even	bible	years	make	galaxy	different	plant	position	Bible	radiation	aboveplease	put	sort	abovePlease	have	usd	plants	made	way	believe	Day	sun	chapter	leave	consider	read	mean	left	pastor	question	is	it	heaven	pages	you	addition	t	source	see	s	take	there	book	approach	
+@lemmas-center	to	after	of	than	from	in	until	

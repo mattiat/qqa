@@ -1,0 +1,114 @@
+BE: Talent ScoutOrganizationAnnotation
+EQ class: 
+
+BE: TalentOrganizationAnnotation
+EQ class: 
+
+BE: ScoutNN
+EQ class: spotternn	sentrynn	lookout_mannn	sentinelnn	watchnn	lookoutnn	picketnn	
+
+BE: findingVBG
+EQ class: happenvbg	encountervbg	bumpvbg	chancevbg	findvbg	
+
+BE: findingVBG
+EQ class: happenvbg	encountervbg	bumpvbg	chancevbg	findvbg	
+
+BE: TalentOrganizationAnnotationScoutNN
+EQ class: talentorganizationannotationlookoutnn	talentorganizationannotationpicketnn	talentorganizationannotationlookout_mannn	spotternnofintalentorganizationannotation	scoutnnofintalentorganizationannotation	talentorganizationannotationsentinelnn	picketnnofintalentorganizationannotation	watchnnofintalentorganizationannotation	sentinelnnofintalentorganizationannotation	talentorganizationannotationsentrynn	talentorganizationannotationwatchnn	lookout_mannnofintalentorganizationannotation	talentorganizationannotationspotternn	lookoutnnofintalentorganizationannotation	sentrynnofintalentorganizationannotation	
+
+BE: ScoutNNfindingVBG
+EQ class: sentinelnnfindingvbg	breakthroughnnofinspotternn	scoutnnhappenvbg	spotternnencountervbg	findernnofinscoutnn	findernnwatchnn	discoverynnofinlookout_mannn	breakthroughnnofinsentinelnn	findernnspotternn	discoverynnofinlookoutnn	sentrynnchancevbg	findernnscoutnn	findnnofinsentinelnn	sentrynnfindvbg	findernnofinlookout_mannn	discoverynnofinscoutnn	spotternnbumpvbg	picketnnfindingvbg	findnnofinsentrynn	lookoutnnhappenvbg	scoutnnfindvbg	watchnnhappenvbg	breakthroughnnofinpicketnn	picketnnencountervbg	sentinelnnfindvbg	breakthroughnnofinscoutnn	findnnofinscoutnn	sentinelnnchancevbg	watchnnfindvbg	lookoutnnbumpvbg	findernnsentinelnn	picketnnhappenvbg	lookout_mannnchancevbg	lookout_mannnfindvbg	findernnpicketnn	watchnnencountervbg	lookoutnnfindvbg	watchnnchancevbg	discoverynnofinspotternn	findnnofinspotternn	scoutnnchancevbg	sentrynnfindingvbg	lookout_mannnhappenvbg	spotternnhappenvbg	lookout_mannnencountervbg	findernnofinsentrynn	findernnofinlookoutnn	watchnnbumpvbg	breakthroughnnofinwatchnn	findnnofinlookoutnn	findernnofinwatchnn	lookout_mannnbumpvbg	lookoutnnencountervbg	findernnlookoutnn	spotternnfindvbg	discoverynnofinsentinelnn	picketnnfindvbg	picketnnbumpvbg	breakthroughnnofinsentrynn	picketnnchancevbg	sentrynnhappenvbg	lookoutnnchancevbg	sentrynnencountervbg	findnnofinwatchnn	findernnofinsentinelnn	watchnnfindingvbg	breakthroughnnofinlookoutnn	discoverynnofinsentrynn	findernnlookout_mannn	breakthroughnnofinlookout_mannn	discoverynnofinwatchnn	discoverynnofinpicketnn	sentinelnnhappenvbg	sentinelnnbumpvbg	lookoutnnfindingvbg	spotternnchancevbg	scoutnnbumpvbg	scoutnnencountervbg	findernnofinpicketnn	findernnsentrynn	findnnofinpicketnn	findnnofinlookout_mannn	lookout_mannnfindingvbg	findernnofinspotternn	sentinelnnencountervbg	spotternnfindingvbg	sentrynnbumpvbg	
+
+BE: findingVBGTalent ScoutOrganizationAnnotation
+EQ class: bumpvbgtalent scoutorganizationannotation	happenvbgtalent scoutorganizationannotation	discoverynnofintalent scoutorganizationannotation	chancevbgtalent scoutorganizationannotation	breakthroughnnofintalent scoutorganizationannotation	findnnofintalent scoutorganizationannotation	findernnofintalent scoutorganizationannotation	encountervbgtalent scoutorganizationannotation	findvbgtalent scoutorganizationannotation	
+
+BE: findingVBGyouPRP
+EQ class: findnnofinyouprp	chancevbgyouprp	discoverynnofinyouprp	findvbgyouprp	bumpvbgyouprp	breakthroughnnofinyouprp	happenvbgyouprp	encountervbgyouprp	findernnofinyouprp	
+
+BE: auditionsNNS
+EQ class: sense_of_hearingnns	auditionnns	auditory_sensenns	hearingnns	theynns	auditory_modalitynns	themnns	
+
+BE: movieNN
+EQ class: motion-picture_shownn	picturenn	picnn	picture_shownn	motion_picturenn	moving-picture_shownn	moving_picturenn	flicknn	filmnn	
+
+BE: partsNNS
+EQ class: theynns	themnns	
+
+BE: playsNNS
+EQ class: playnns	theynns	dramanns	dramatic_playnns	themnns	
+
+BE: commercialsNNS
+EQ class: commercialnns	theynns	commercialjj	commercial_messagenns	themnns	
+
+BE: noticedVBD
+EQ class: findvbd	detectvbd	noticevbd	observevbd	discovervbd	
+
+BE: getVBoutRP
+EQ class: gettingnnofinoutrp	acquirevboutrp	acquiringnnofinoutrp	
+
+BE: movieNNpartsNNS
+EQ class: themnnsofinflicknn	theynnsofinmoving_picturenn	flicknnthemnns	picture_shownntheynns	theynnsofinpicture_shownn	motion-picture_shownnthemnns	movienntheynns	partsnnsofinpicturenn	partsnnsofinfilmnn	theynnsofinmovienn	picnnpartsnns	moving_picturennthemnns	theynnsofinmoving-picture_shownn	partsnnsofinmotion_picturenn	theynnsofinpicnn	themnnsofinpicnn	flicknntheynns	moving-picture_shownntheynns	themnnsofinpicture_shownn	picturenntheynns	themnnsofinmotion_picturenn	moviennthemnns	moving_picturenntheynns	themnnsofinmoving-picture_shownn	flicknnpartsnns	filmnnpartsnns	themnnsofinpicturenn	picture_shownnthemnns	picturennpartsnns	partsnnsofinflicknn	theynnsofinflicknn	themnnsofinmoving_picturenn	picnnthemnns	theynnsofinfilmnn	theynnsofinmotion_picturenn	filmnntheynns	moving-picture_shownnthemnns	themnnsofinfilmnn	themnnsofinmotion-picture_shownn	partsnnsofinmotion-picture_shownn	picture_shownnpartsnns	filmnnthemnns	motion-picture_shownntheynns	motion_picturennpartsnns	theynnsofinmotion-picture_shownn	partsnnsofinmoving_picturenn	theynnsofinpicturenn	motion_picturennthemnns	partsnnsofinmoving-picture_shownn	motion-picture_shownnpartsnns	moving_picturennpartsnns	partsnnsofinpicnn	partsnnsofinpicture_shownn	picnntheynns	picturennthemnns	motion_picturenntheynns	moving-picture_shownnpartsnns	themnnsofinmovienn	partsnnsofinmovienn	
+
+BE: partsNNSplaysNNS
+EQ class: themnnsdramatic_playnns	dramatic_playnnstheynns	playernnofinthemnns	playsnnsthemnns	partsnnsplayvb	dramannspartsnns	dramannofintheynns	theynnsplayvb	partsnnstheynns	playnnsthemnns	dramatic_playnnofintheynns	dramannstheynns	themnnsplaynns	partsnnsplaynns	playingnnofinthemnns	playnnofintheynns	theynnsdramatic_playnns	themnnsplayvb	theynnstheynns	themnnspartsnns	partsnnsthemnns	playnnspartsnns	dramatic_playnnsthemnns	partsnnsdramanns	participantnnofinthemnns	themnnstheynns	themnnsthemnns	theynnsplaynns	playnnofinpartsnns	playnnstheynns	playingnnofintheynns	dramannofinpartsnns	playernnofinpartsnns	theynnspartsnns	participantnnofinpartsnns	playsnnstheynns	theynnsplaysnns	themnnsdramanns	partsnnsdramatic_playnns	theynnsthemnns	dramatic_playnnspartsnns	participantnnofintheynns	playingnnofinpartsnns	dramannofinthemnns	themnnsplaysnns	dramatic_playnnofinthemnns	playernnofintheynns	playsnnspartsnns	dramannsthemnns	theynnsdramanns	playnnofinthemnns	dramatic_playnnofinpartsnns	
+
+BE: youPRPneedAUX
+EQ class: youprpaskaux	youprppostulateaux	youprprequireaux	youprptakeaux	youprpnecessitateaux	demandnnofinyouprp	neednnofinyouprp	youprpdemandaux	youprpcall_foraux	youprpinvolveaux	
+
+BE: mePRPnoticedVBD
+EQ class: meprpfindvbd	meprpobservevbd	meprpdiscovervbd	meprpdetectvbd	noticennofinmeprp	meprpnoticevbd	
+
+BE: doAUXauditionsNNS
+EQ class: makeauxauditory_modalitynns	makeauxthemnns	makeauxauditionsnns	doauxhearingnns	doauxauditory_modalitynns	makeauxsense_of_hearingnns	doauxsense_of_hearingnns	doauxtheynns	doauxauditionnns	doauxauditory_sensenns	makeauxauditory_sensenns	makeauxhearingnns	doauxthemnns	makeauxtheynns	makeauxauditionnns	
+
+BE: auditionsNNSforINpartsNNS
+EQ class: auditionnnsforinthemnns	auditory_sensennsforintheynns	theynnsauditory_sensenns	themnnstheynns	partsnnshearingnns	themnnsthemnns	themnnshearingnns	sense_of_hearingnnsforintheynns	partsnnsauditory_modalitynns	themnnsauditory_sensenns	themnnsforinpartsnns	hearingnnsforintheynns	theynnsauditory_modalitynns	theynnsforinthemnns	themnnsauditionnns	sense_of_hearingnnsforinpartsnns	auditory_modalitynnsforintheynns	partsnnstheynns	sense_of_hearingnnsforinthemnns	hearingnnsforinthemnns	hearingnnsforinpartsnns	auditory_sensennsforinthemnns	theynnssense_of_hearingnns	partsnnsauditionsnns	themnnssense_of_hearingnns	theynnsauditionsnns	auditionsnnsforinthemnns	themnnsforinthemnns	themnnsauditionsnns	theynnsthemnns	partsnnsauditionnns	auditory_modalitynnsforinthemnns	partsnnsauditory_sensenns	theynnstheynns	auditory_modalitynnsforinpartsnns	themnnsforintheynns	theynnsauditionnns	themnnsauditory_modalitynns	partsnnsthemnns	theynnsforintheynns	partsnnssense_of_hearingnns	auditionnnsforintheynns	auditory_sensennsforinpartsnns	theynnsforinpartsnns	auditionsnnsforintheynns	auditionnnsforinpartsnns	theynnshearingnns	
+
+BE: auditionsNNSforINplaysNNS
+EQ class: playsnnsauditionnns	hearingnnsforindramanns	auditionnnsforindramanns	playnnsauditionsnns	sense_of_hearingnnsforinplaynns	auditory_modalitynnsforinplaysnns	dramatic_playnnstheynns	sense_of_hearingnnsforintheynns	playsnnsthemnns	themnnsauditory_sensenns	auditory_modalitynnsforinplaynns	dramannshearingnns	dramatic_playnnsauditionsnns	auditory_modalitynnsforindramatic_playnns	hearingnnsforintheynns	auditory_sensennsforinplaynns	theynnsauditory_modalitynns	dramannssense_of_hearingnns	sense_of_hearingnnsforinplaysnns	dramatic_playnnsauditory_modalitynns	playnnshearingnns	theynnsforinplaysnns	hearingnnsforinplaysnns	auditory_modalitynnsforintheynns	sense_of_hearingnnsforindramatic_playnns	playnnsauditory_sensenns	sense_of_hearingnnsforinthemnns	playnnsthemnns	hearingnnsforinthemnns	theynnsforinplaynns	dramannstheynns	auditory_sensennsforinthemnns	hearingnnsforinplaynns	themnnsforinthemnns	themnnsauditionsnns	auditionsnnsforinplaynns	sense_of_hearingnnsforindramanns	dramatic_playnnsauditionnns	auditionsnnsforindramatic_playnns	playsnnsauditory_sensenns	theynnstheynns	dramatic_playnnssense_of_hearingnns	themnnsforinplaynns	dramatic_playnnshearingnns	playsnnshearingnns	themnnsforindramanns	playsnnssense_of_hearingnns	theynnsforintheynns	auditionnnsforintheynns	themnnsforinplaysnns	auditory_sensennsforindramatic_playnns	dramatic_playnnsthemnns	theynnsforindramatic_playnns	auditionnnsforinthemnns	auditory_sensennsforintheynns	theynnsauditory_sensenns	themnnstheynns	dramatic_playnnsauditory_sensenns	auditory_modalitynnsforindramanns	themnnsthemnns	themnnshearingnns	playnnsauditionnns	auditionnnsforinplaysnns	playnnstheynns	playnnssense_of_hearingnns	theynnsforindramanns	hearingnnsforindramatic_playnns	playnnsauditory_modalitynns	auditory_sensennsforindramanns	dramannsauditionnns	playsnnstheynns	themnnsforindramatic_playnns	theynnsforinthemnns	themnnsauditionnns	themnnssense_of_hearingnns	theynnssense_of_hearingnns	theynnsauditionsnns	auditionsnnsforinthemnns	theynnsthemnns	dramannsauditionsnns	auditionsnnsforindramanns	auditionnnsforindramatic_playnns	auditory_modalitynnsforinthemnns	auditory_sensennsforinplaysnns	themnnsforintheynns	theynnsauditionnns	auditionnnsforinplaynns	themnnsauditory_modalitynns	dramannsauditory_modalitynns	playsnnsauditionsnns	auditionsnnsforintheynns	dramannsauditory_sensenns	dramannsthemnns	theynnshearingnns	playsnnsauditory_modalitynns	
+
+BE: auditionsNNSforINcommercialsNNS
+EQ class: commercial_messagennstheynns	auditionsnnsforincommercial_messagenns	commercialsnnsauditory_sensenns	commercialjjauditionsnns	auditory_sensennsforincommercial_messagenns	auditory_modalitynnsforincommercialnns	sense_of_hearingnnsforincommercialjj	auditory_modalitynnsforincommercialsnns	commercialnnshearingnns	auditory_sensennsforincommercialnns	sense_of_hearingnnsforintheynns	commercial_messagennsauditionnns	themnnsauditory_sensenns	auditory_sensennsforincommercialsnns	auditionsnnsforincommercialjj	hearingnnsforintheynns	hearingnnsforincommercial_messagenns	theynnsauditory_modalitynns	commercialnnsauditory_sensenns	commercial_messagennsauditory_sensenns	auditory_modalitynnsforintheynns	theynnsforincommercial_messagenns	auditionnnsforincommercialnns	hearingnnsforincommercialjj	hearingnnsforincommercialsnns	sense_of_hearingnnsforinthemnns	commercialnnsauditionnns	commercialjjauditory_modalitynns	hearingnnsforinthemnns	auditory_sensennsforinthemnns	commercialjjauditionnns	themnnsforinthemnns	themnnsauditionsnns	commercial_messagennssense_of_hearingnns	commercialnnssense_of_hearingnns	theynnstheynns	theynnsforincommercialnns	commercialsnnstheynns	theynnsforintheynns	auditionnnsforintheynns	themnnsforincommercialnns	commercialjjthemnns	hearingnnsforincommercialnns	theynnsforincommercialjj	commercialjjhearingnns	auditionnnsforinthemnns	commercialsnnsthemnns	auditory_sensennsforintheynns	commercialsnnsauditionsnns	theynnsauditory_sensenns	themnnstheynns	themnnsthemnns	themnnshearingnns	commercialnnsauditionsnns	commercialsnnsauditory_modalitynns	commercialjjauditory_sensenns	commercial_messagennsauditory_modalitynns	commercialsnnsauditionnns	auditionnnsforincommercial_messagenns	commercialnnstheynns	commercial_messagennsauditionsnns	auditory_modalitynnsforincommercialjj	auditory_modalitynnsforincommercial_messagenns	auditionnnsforincommercialsnns	commercialnnsthemnns	themnnsforincommercialsnns	auditionsnnsforincommercialnns	theynnsforinthemnns	themnnsauditionnns	commercialjjtheynns	themnnssense_of_hearingnns	theynnssense_of_hearingnns	theynnsauditionsnns	auditionsnnsforinthemnns	theynnsthemnns	commercialsnnssense_of_hearingnns	commercialnnsauditory_modalitynns	commercialjjsense_of_hearingnns	commercialsnnshearingnns	auditory_modalitynnsforinthemnns	themnnsforintheynns	theynnsauditionnns	themnnsauditory_modalitynns	theynnsforincommercialsnns	auditory_sensennsforincommercialjj	auditionnnsforincommercialjj	themnnsforincommercialjj	sense_of_hearingnnsforincommercialsnns	sense_of_hearingnnsforincommercial_messagenns	auditionsnnsforintheynns	sense_of_hearingnnsforincommercialnns	themnnsforincommercial_messagenns	theynnshearingnns	commercial_messagennsthemnns	commercial_messagennshearingnns	
+
+BE: needAUXtoTOmePRP
+EQ class: requireauxtotomeprp	involveauxtotomeprp	takeauxtotomeprp	demandauxtotomeprp	askauxtotomeprp	necessitateauxtotomeprp	postulateauxtotomeprp	call_forauxtotomeprp	
+
+BE: getVBthereRB
+EQ class: acquirevbthererb	gettingnnofinthererb	acquiringnnofinthererb	
+
+BE: pageNN
+EQ class: 
+
+BE: directoryNN
+EQ class: 
+
+BE: talentNN
+EQ class: natural_endowmentnn	endowmentnn	giftnn	
+
+BE: agenciesNNS
+EQ class: authoritynns	government_agencynns	officenns	theynns	bureaunns	agencynns	federal_agencynns	themnns	
+
+BE: lookVB
+EQ class: 
+
+BE: yellowJJ
+EQ class: yellownn	yellowishjj	yellownessnn	xanthousjj	
+
+BE: yellowJJdirectoryNN
+EQ class: yellownndirectorynn	yellowishjjdirectorynn	xanthousjjdirectorynn	yellownessnndirectorynn	
+
+BE: yourPRP$directoryNN
+EQ class: directorynnofinyourprp$	
+
+BE: pageNNdirectoryNN
+EQ class: pagennofindirectorynn	beepernnofindirectorynn	directorynnpagevb	page_numbernnofindirectorynn	directorynnpaginatevb	pagingnnofindirectorynn	folionnofindirectorynn	directorynnfoliatevb	directorynnofinpagenn	pagernnofindirectorynn	paginationnnofindirectorynn	
+
+BE: talentNNagenciesNNS
+EQ class: natural_endowmentnnbureaunns	themnnsofintalentnn	giftnnauthoritynns	talentnnthemnns	giftnnagencynns	theynnsofintalentnn	endowmentnnofficenns	authoritynnsofinendowmentnn	authoritynnsofintalentnn	agencynnsofinendowmentnn	agenciesnnsofintalentnn	natural_endowmentnnthemnns	bureaunnsofintalentnn	bureaunnsofingiftnn	government_agencynnsofinnatural_endowmentnn	talentnnauthoritynns	natural_endowmentnnagencynns	natural_endowmentnngovernment_agencynns	themnnsofingiftnn	federal_agencynnsofintalentnn	government_agencynnsofinendowmentnn	endowmentnntheynns	talentnnagencynns	theynnsofinnatural_endowmentnn	authoritynnsofingiftnn	agencynnsofintalentnn	talentnngovernment_agencynns	giftnnbureaunns	giftnnfederal_agencynns	officennsofintalentnn	endowmentnngovernment_agencynns	agenciesnnsofingiftnn	giftnnofficenns	endowmentnnbureaunns	officennsofinnatural_endowmentnn	natural_endowmentnntheynns	federal_agencynnsofingiftnn	authoritynnsofinnatural_endowmentnn	federal_agencynnsofinnatural_endowmentnn	giftnntheynns	endowmentnnfederal_agencynns	natural_endowmentnnfederal_agencynns	government_agencynnsofingiftnn	agenciesnnsofinendowmentnn	bureaunnsofinnatural_endowmentnn	officennsofinendowmentnn	government_agencynnsofintalentnn	talentnnbureaunns	natural_endowmentnnagenciesnns	endowmentnnagenciesnns	endowmentnnauthoritynns	officennsofingiftnn	talentnntheynns	theynnsofingiftnn	talentnnofficenns	theynnsofinendowmentnn	themnnsofinnatural_endowmentnn	giftnnagenciesnns	federal_agencynnsofinendowmentnn	endowmentnnagencynns	natural_endowmentnnauthoritynns	bureaunnsofinendowmentnn	natural_endowmentnnofficenns	agencynnsofinnatural_endowmentnn	themnnsofinendowmentnn	talentnnfederal_agencynns	endowmentnnthemnns	giftnngovernment_agencynns	agenciesnnsofinnatural_endowmentnn	agencynnsofingiftnn	giftnnthemnns	
+
+BE: lookVBinINdirectoryNN
+EQ class: 
+
+BE: lookVBforINagenciesNNS
+EQ class: lookvbforinfederal_agencynns	lookvbforinbureaunns	lookvbforinagencynns	lookvbforinthemnns	lookvbforinauthoritynns	lookvbforintheynns	lookvbforingovernment_agencynns	lookvbforinofficenns	
+

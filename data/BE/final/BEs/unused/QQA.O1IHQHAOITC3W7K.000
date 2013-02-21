@@ -1,0 +1,103 @@
+#Tumor and Cancer detection, why do Doctors always seem to miss most until they are really advanced ?
+#(S1 (S (NP (NP (NN Tumor)) (CC and) (NP (NN Cancer))) (VP (VBP detection) (, ,) (SBARQ (WHADVP (WRB why)) (SQ (AUX do) (NP (NNS Doctors)) (ADVP (RB always)) (VP (VB seem) (S (VP (TO to) (VP (VB miss) (ADVP (RBS most)) (SBAR (IN until) (S (NP (PRP they)) (VP (AUX are) (ADJP (RB really) (JJ advanced)))))))))) (. ?)))))
+#Rule:Nouns
+r1TumorNN
+r1CancerOrganizationAnnotation
+r1DoctorsNNS
+
+#Rule:Verbs
+r2detectionVBP
+r2seemVB
+r2missVB
+
+#Rule:Adjs
+r4advancedJJ
+
+#Rule:HeadNoun-V
+r11TumorNNdetectionVBP
+r11CancerOrganizationAnnotationdetectionVBP
+r11theyPRPareAUX
+
+#Rule:V-ADJ
+r25areAUXadvancedJJ
+
+#Rule:V-IN-V
+r43missVBuntilINareAUX
+
+#Rule:V-V
+r44seemVBmissVB
+
+#http://www.youtube.com/profile?
+#(S1 (FRAG (X (SYM http)) (: :) (NP (NN //www.youtube.com/profile)) (. ?)))
+#Rule:Nouns
+r1//www.youtube.com/profileNN
+
+#user=CherylShuman90210 Why aren t doctors forced to look for Tumors and Cancers like every 6 months on people ? 
+#(S1 (FRAG (ADJP (JJ user=CherylShuman90210)) (SBAR (WHADVP (WRB Why)) (S (NP (JJ aren) (NN t) (NNS doctors)) (VP (VBD forced) (S (VP (TO to) (VP (VB look) (PP (IN for) (NP (NNS Tumors) (CC and) (NNS Cancers))) (PP (IN like) (NP (NP (DT every) (CD 6) (NNS months)) (PP (IN on) (NP (NNS people))))))))))) (. ?)))
+#Rule:Nouns
+r1tNN
+r1doctorsNNS
+r1TumorsNNS
+r1CancersNNS
+r1monthsNNS
+r1peopleNNS
+
+#Rule:Verbs
+r2forcedVBD
+r2lookVB
+
+#Rule:Adjs
+r4user=CherylShuman90210 Why arenPersonAnnotation
+
+#Rule:Adj-Noun
+r5user=CherylShuman90210 Why arenPersonAnnotationdoctorsNNS
+r56CDmonthsNNS
+
+#Rule:N-HeadNoun
+r8tNNdoctorsNNS
+
+#Rule:HeadNoun-V
+r11doctorsNNSforcedVBD
+
+#Rule:PPinNP
+r26monthsNNSonINpeopleNNS
+
+#Rule:PPinVP
+r30lookVBforINTumorsNNS
+r30lookVBlikeINmonthsNNS
+
+#Rule:V-V
+r44forcedVBDlookVB
+
+#We can beat most cancers if we detect them early.
+#(S1 (S (NP (PRP We)) (VP (MD can) (VP (VB beat) (NP (JJS most) (NNS cancers)) (SBAR (IN if) (S (NP (PRP we)) (VP (VBP detect) (NP (PRP them)) (ADVP (RB early))))))) (. .)))
+#Rule:Nouns
+r1cancersNNS
+
+#Rule:Verbs
+r2beatVB
+r2detectVBP
+
+#Rule:Adjs
+r4mostJJS
+
+#Rule:Adj-Noun
+r5mostJJScancersNNS
+
+#Rule:HeadNoun-V
+r11wePRPbeatVB
+r11wePRPdetectVBP
+
+#Rule:V-HeadNoun
+r21beatVBcancersNNS
+r21detectVBPthemPRP
+
+#Rule:V-IN-V
+r43beatVBifINdetectVBP
+
+#Rule:V-ADV
+r46detectVBPearlyRB
+
+@lemmas-left	they	//www.youtube.com/profile	most	people	doctor	user=CherylShuman90210 Why aren	are	advanced	doctors	profile	be	forced	look	detect	beat	tumor	Tumors	seem	Cancer	Cancers	cancers	months	detection	t	Doctors	6	Tumor	month	force	miss	cancer	we	
+@lemmas-right	look	detect	beat	tumor	Tumors	people	cancers	doctor	months	detection	are	them	advanced	month	doctors	force	early	cancer	miss	be	forced	
+@lemmas-center	for	if	on	like	until	

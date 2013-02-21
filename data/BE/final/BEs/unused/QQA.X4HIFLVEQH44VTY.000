@@ -1,0 +1,103 @@
+#Why all the thumbs down in this category??
+#(S1 (SBARQ (WHADVP (WRB Why)) (SQ (NP (PDT all) (DT the) (VBZ thumbs)) (PP (ADVP (RB down)) (IN in) (NP (DT this) (NN category))) (. ?)) (. ?)))
+#Rule:Nouns
+r1categoryNN
+
+#Rule:Verbs
+r2thumbsVBZ
+
+#Come on guys, this should be an open forum. The category is paranormal phenomena..
+#(S1 (S (S (VP (VBN Come) (PP (IN on) (NP (NNS guys))))) (, ,) (NP (DT this)) (VP (MD should) (VP (AUX be) (NP (DT an) (JJ open) (NN forum.) (S (NP (DT The) (NN category)) (VP (AUX is) (NP (NNP paranormal) (NNS phenomena))) (. .))))) (. .)))
+#Rule:Nouns
+r1guysNNS
+r1forumNN
+r1categoryNN
+r1paranormalNNP
+r1phenomenaLocationAnnotation
+
+#Rule:Verbs
+r2comeVBN
+
+#Rule:Adjs
+r4openJJ
+
+#Rule:Adj-Noun
+r5openJJforumNN
+
+#Rule:N-HeadNoun
+r8paranormalNNPphenomenaLocationAnnotation
+
+#Rule:HeadNoun-V
+r11thisDTbeAUX
+r11categoryNNisAUX
+
+#Rule:V-HeadNoun
+r21beAUXforumNN
+r21isAUXphenomenaLocationAnnotation
+
+#Rule:PPinVP
+r32comeVBNonINguysNNS
+
+#Rule:IS-RULE
+r47phenomenaLocationAnnotationcategoryNN
+
+#People are asking on here either out of genuine curiosity or concern; because they cannot explain what has happened to them..
+#(S1 (S (S (NP (NNS People)) (VP (AUX are) (VP (VBG asking) (PRT (RP on)) (ADVP (RB here) (RB either)) (PP (IN out) (PP (IN of) (NP (NP (JJ genuine) (NN curiosity)) (CC or) (NP (NN concern)))))))) (: ;) (S (RB because) (NP (PRP they)) (VP (VBP cannot) (S (VP (VB explain) (SBAR (WHNP (WP what)) (S (VP (AUX has) (VP (VBN happened) (PP (TO to) (NP (PRP them)))))))))) (. .)) (. .)))
+#Rule:Nouns
+r1PeopleNNS
+r1curiosityOrganizationAnnotation
+r1concernNN
+
+#Rule:Verbs
+r2cannotVBP
+r2explainVB
+r2happenedVBN
+
+#Rule:V-PRT
+r3askingVBGonRP
+
+#Rule:Adjs
+r4genuineJJ
+
+#Rule:Adj-Noun
+r5genuineJJcuriosityOrganizationAnnotation
+
+#Rule:HeadNoun-V
+r11PeopleNNSaskingVBG
+r11theyPRPcannotVBP
+
+#Rule:PPinVP
+r32happenedVBNtoTOthemPRP
+
+#Rule:PPComboInVP
+r34askingVBGoutINcuriosityOrganizationAnnotation
+r34askingVBGoutINconcernNN
+
+#Rule:V-ADV
+r46askingVBGhereRB
+r46askingVBGeitherRB
+
+#If you disagree with this subject then ignore it!
+#(S1 (S (SBAR (IN If) (S (NP (PRP you)) (VP (VBP disagree) (PP (IN with) (NP (DT this) (NN subject)))))) (ADVP (RB then)) (VP (VBP ignore) (NP (PRP it))) (. !)))
+#Rule:Nouns
+r1subjectNN
+
+#Rule:Verbs
+r2disagreeVBP
+r2ignoreVBP
+
+#Rule:HeadNoun-V
+r11youPRPdisagreeVBP
+
+#Rule:V-HeadNoun
+r21ignoreVBPit!LocationAnnotation
+
+#Rule:PPinVP
+r30disagreeVBPwithINsubjectNN
+
+#Rule:V-ADV
+r46ignoreVBPthenRB
+
+@lemmas-left	thumbs	they	forum	subject	concern	guys	people	open	phenomena	genuine	happen	paranormal	ignore	be	asking	is	guy	curiosity	come	you	disagree	cannot	category	happened	forum.	explain	ask	this	thumb	People	
+@lemmas-right	asking	forum	is	guy	curiosity	subject	concern	here	disagree	guys	cannot	either	phenomena	category	them	then	forum.	on	it!	ask	be	
+@lemmas-center	to	with	on	out	

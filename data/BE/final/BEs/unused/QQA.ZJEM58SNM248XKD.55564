@@ -1,0 +1,152 @@
+#You need to know MORE. tension is felt body wide and LOVE is a type of tension. 
+#(S1 (S (NP (PRP You)) (VP (AUX need) (S (VP (TO to) (VP (VB know) (SBAR (S (NP (NNP MORE.) (NN tension)) (VP (AUX is) (VP (VBN felt) (SBAR (S (NP (NP (NN body) (JJ wide)) (CC and) (NP (NN LOVE))) (VP (AUX is) (NP (NP (DT a) (NN type)) (PP (IN of) (NP (NN tension))))))))))))))) (. .)))
+#Rule:Nouns
+r1MORENNP
+r1tensionNN
+r1bodyNN
+r1LOVENN
+r1typeNN
+r1tensionNN
+
+#Rule:Verbs
+r2knowVB
+r2feltVBN
+
+#Rule:Adjs
+r4wideJJ
+
+#Rule:Adj-Noun
+r5wideJJbodyNN
+
+#Rule:N-HeadNoun
+r8MORENNPtensionNN
+
+#Rule:HeadNoun-V
+r11youPRPneedAUX
+r11bodyNNisAUX
+r11LOVENNisAUX
+
+#Rule:V-HeadNoun
+r21isAUXtypeNN
+
+#Rule:V-HeadNoun(passive)
+r23feltVBNtensionNN
+
+#Rule:PPinNP
+r26typeNNofINtensionNN
+
+#Rule:IS-RULE
+r47typeNNbodyNN
+r47typeNNLOVENN
+
+#Tension is NOT a bad thing.it creates happiness as well as sadness and exhaustion!  
+#(S1 (S (NP (NN Tension)) (VP (AUX is) (RB NOT) (NP (NP (DT a) (JJ bad) (NN thing.it)) (SBAR (S (VP (VBZ creates) (NP (NP (NN happiness)) (CONJP (RB as) (RB well) (IN as)) (NP (NN sadness) (CC and) (NN exhaustion)))))))) (. !)))
+#Rule:Nouns
+r1TensionNN
+r1thing.itNN
+r1happinessNN
+r1sadnessNN
+r1exhaustionNN
+
+#Rule:Verbs
+r2createsVBZ
+
+#Rule:Adjs
+r4badJJ
+
+#Rule:Adj-Noun
+r5badJJthing.itNN
+
+#Rule:HeadNoun-V
+r11TensionNNisAUX
+
+#Rule:HeadNoun-(who/that)-V
+r14thing.itNNcreatesVBZ
+
+#Rule:V-HeadNoun
+r21isAUXthing.itNN
+r21createsVBZhappinessNN
+
+#Rule:V-ADV
+r46isAUXNOTOrganizationAnnotation
+
+#Rule:IS-RULE
+r47thing.itNNTensionNN
+
+#We all need to relax and enjoy the good parts of tension; the intensity.the acute feeling!  
+#(S1 (S (S (NP (PRP We) (DT all)) (VP (AUX need) (S (VP (TO to) (VP (VP (VB relax)) (CC and) (VP (VB enjoy) (NP (NP (DT the) (JJ good) (NNS parts)) (PP (IN of) (NP (NN tension)))))))))) (: ;) (S (NP (DT the) (NN intensity.the)) (NP (JJ acute) (NN feeling))) (. !)))
+#Rule:Nouns
+r1partsNNS
+r1tensionNN
+r1intensity.theNN
+r1feelingNN
+
+#Rule:Verbs
+r2relaxVB
+r2enjoyVB
+
+#Rule:Adjs
+r4goodJJ
+r4acuteJJ
+
+#Rule:Adj-Noun
+r5goodJJpartsNNS
+r5acuteJJfeelingNN
+
+#Rule:HeadNoun-V
+r11allDTneedAUX
+
+#Rule:V-HeadNoun
+r21enjoyVBpartsNNS
+
+#Rule:PPinNP
+r26partsNNSofINtensionNN
+
+#Cardiac arrest does NOT come from love!  
+#(S1 (S (NP (JJ Cardiac) (NN arrest)) (VP (AUX does) (RB NOT) (VP (VB come) (PP (IN from) (NP (NN love))))) (. !)))
+#Rule:Nouns
+r1arrestNN
+r1love!LocationAnnotation
+
+#Rule:Verbs
+r2comeVB
+
+#Rule:Adjs
+r4CardiacJJ
+
+#Rule:Adj-Noun
+r5CardiacJJarrestNN
+
+#Rule:HeadNoun-V
+r11arrestNNcomeVB
+
+#Rule:PPinVP
+r30comeVBfromINlove!LocationAnnotation
+
+#Rule:V-ADV
+r46doesAUXNOTOrganizationAnnotation
+
+#LOL  Have a wonderful life! 
+#(S1 (S (NP (NNP LOL)) (VP (AUX Have) (NP (DT a) (JJ wonderful) (NN life))) (. !)))
+#Rule:Nouns
+r1LOL  HaveLocationAnnotation
+r1life!LocationAnnotation
+
+#Rule:Adjs
+r4wonderfulJJ
+
+#Rule:Adj-Noun
+r5wonderfulJJlife!LocationAnnotation
+
+#Rule:V-HeadNoun
+r21LOL  HaveLocationAnnotationlife!LocationAnnotation
+
+#Hugs, Gina C.
+#(S1 (FRAG (NNS Hugs) (, ,) (NP (NNP Gina) (NNP C)) (. .)))
+#Rule:Nouns
+r1HugsNNS
+r1GOrganizationAnnotation
+
+@lemmas-left	does	thing.it	body	G	hug	Cardiac	relax	more.	sadness	exhaustion	Hugs	good	parts	creates	type	acute	love	arrest	do	all	wonderful	be	is	it	LOL  Have	LOVE	MORE	love!	come	you	happiness	enjoy	wide	bad	know	create	intensity.the	cardiac	felt	feeling	tension	life!	Tension	
+@lemmas-right	need	thing.it	body	is	it	LOVE	love!	come	parts	happiness	creates	type	create	love	arrest	feeling	NOT	tension	life!	Tension	be	
+@lemmas-center	of	from	

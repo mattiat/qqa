@@ -1,0 +1,39 @@
+#How to get rid of BO?
+#(S1 (FRAG (SBAR (WHADVP (WRB How)) (S (VP (TO to) (VP (VB get) (ADJP (JJ rid) (PP (IN of) (NP (NNP BO)))))))) (. ?)))
+#Rule:Nouns
+r1BOLocationAnnotation
+
+#Rule:Verbs
+r2getVB
+
+#Rule:Adjs
+r4ridJJ
+
+#Rule:PPinADJP
+r37ridJJofINBOLocationAnnotation
+
+#What is the effective way of getting rid of BO?
+#(S1 (SBARQ (WHNP (WP What)) (SQ (VP (AUX is) (NP (NP (DT the) (JJ effective) (NN way)) (PP (IN of) (S (VP (VBG getting) (ADJP (JJ rid) (PP (IN of) (NP (NNP BO)))))))))) (. ?)))
+#Rule:Nouns
+r1wayNN
+r1BOLocationAnnotation
+
+#Rule:Verbs
+r2gettingVBG
+
+#Rule:Adjs
+r4effectiveJJ
+r4ridJJ
+
+#Rule:Adj-Noun
+r5effectiveJJwayNN
+
+#Rule:V-HeadNoun
+r21isAUXwayNN
+
+#Rule:PPinADJP
+r37ridJJofINBOLocationAnnotation
+
+@lemmas-left	getting	is	get	rid	way	BO	effective	be	
+@lemmas-right	way	BO	
+@lemmas-center	of	

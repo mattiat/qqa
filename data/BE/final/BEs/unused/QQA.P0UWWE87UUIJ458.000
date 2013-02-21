@@ -1,0 +1,33 @@
+#Why global warming can cause ice-age like the movie The Day After depicted?
+#(S1 (SBARQ (WHADVP (WRB Why)) (S (NP (JJ global) (NN warming)) (VP (MD can) (VP (VB cause) (NP (NP (NN ice-age)) (PP (IN like) (NP (DT the) (NN movie)))) (SBAR (NP (DT The) (NN Day)) (IN After) (S (VP (VBN depicted))))))) (. ?)))
+#Rule:Nouns
+r1warmingNN
+r1ice-ageNN
+r1movieNN
+r1The DayOrganizationAnnotation
+
+#Rule:Verbs
+r2causeVB
+r2depictedVBN
+
+#Rule:Adjs
+r4globalJJ
+
+#Rule:Adj-Noun
+r5globalJJwarmingNN
+
+#Rule:HeadNoun-V
+r11warmingNNcauseVB
+
+#Rule:V-HeadNoun
+r21causeVBice-ageNN
+
+#Rule:PPinNP
+r26ice-ageNNlikeINmovieNN
+
+#Rule:V-IN-V
+r43causeVBafterINdepictedVBN
+
+@lemmas-left	ice-age	depict	cause	warming	global	age	The Day	movie	depicted	
+@lemmas-right	ice-age	depict	cause	warming	age	movie	depicted	
+@lemmas-center	after	like	

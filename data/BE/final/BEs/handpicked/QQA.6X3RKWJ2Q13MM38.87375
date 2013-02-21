@@ -1,0 +1,353 @@
+#First, what does your mother want to do? Does she want to fight this disease? If she does than go ahead with a second opinon. Usually the oncologist will cooperate..
+#(S1 (SBARQ (RB First) (, ,) (WHNP (WP what)) (SQ (SQ (VP (AUX does) (NP (PRP$ your) (NN mother)) (VP (VB want) (S (VP (TO to) (VP (AUX do)))))) (. ?)) (SQ (AUX Does) (NP (PRP she)) (VP (VB want) (S (VP (TO to) (VP (VB fight) (NP (DT this) (NN disease)))))) (. ?)) (FRAG (PP (IN If) (SBAR (S (NP (PRP she)) (VP (AUX does) (ADVP (IN than)) (VP (VB go) (ADVP (RB ahead)) (PP (IN with) (NP (NP (DT a) (JJ second) (NN opinon.)) (SBAR (S (ADVP (RB Usually)) (NP (DT the) (NN oncologist)) (VP (MD will) (VP (VB cooperate))) (. .)))))))))))) (. .)))
+#Rule:Nouns
+r1motherNN
+r1diseaseNN
+r1opinonNN
+r1oncologistNN
+
+#Rule:Verbs
+r2wantVB
+r2wantVB
+r2fightVB
+r2goVB
+r2cooperateVB
+
+#Rule:Adjs
+r4secondJJ
+
+#Rule:Adj-Noun
+r5secondJJopinonNN
+
+#Rule:PRP-Noun
+r6yourPRP$motherNN
+
+#Rule:HeadNoun-V
+r11shePRPgoVB
+r11oncologistNNcooperateVB
+
+#Rule:NP(NP(z) SBAR(S(NP(x)VP(y))))
+r19cooperateVBopinonNN
+
+#Rule:V-HeadNoun
+r21doesAUXmotherNN
+r21fightVBdiseaseNN
+
+#Rule:PPinVP
+r30goVBwithINopinonNN
+
+#Rule:V-V
+r44wantVBfightVB
+
+#Rule:V-ADV
+r46goVBaheadRB
+
+#You need to ask for copies of all her medical records, including recent CT/PET scan from both the hospital and her oncologist.
+#(S1 (S (NP (PRP You)) (VP (AUX need) (S (VP (TO to) (VP (VB ask) (PP (IN for) (NP (NP (NNS copies)) (PP (IN of) (NP (NP (PDT all) (PRP$ her) (JJ medical) (NNS records)) (, ,) (PP (VBG including) (NP (NP (NP (JJ recent) (NN CT/PET) (VB scan)) (PP (IN from) (NP (PDT both) (DT the) (NN hospital)))) (CC and) (NP (PRP$ her) (NN oncologist)))))))))))) (. .)))
+#Rule:Nouns
+r1copiesNNS
+r1recordsNNS
+r1CT/PETOrganizationAnnotation
+r1hospitalNN
+r1oncologistNN
+
+#Rule:Verbs
+r2askVB
+r2includingVBG
+r2scanVB
+
+#Rule:Adjs
+r4medicalJJ
+r4recentJJ
+
+#Rule:Adj-Noun
+r5medicalJJrecordsNNS
+r5recentJJCT/PETOrganizationAnnotation
+
+#Rule:PRP-Noun
+r6herPRP$recordsNNS
+r6herPRP$oncologistNN
+
+#Rule:HeadNoun-V
+r11youPRPneedAUX
+
+#Rule:PPinNP
+r26copiesNNSofINrecordsNNS
+r26CT/PETOrganizationAnnotationfromINhospitalNN
+
+#Rule:PPinVP
+r30askVBforINcopiesNNS
+
+# Explain that you want a second opinion.
+#(S1 (S (VP (VB Explain) (SBAR (IN that) (S (NP (PRP you)) (VP (VBP want) (NP (DT a) (JJ second) (NN opinion)))))) (. .)))
+#Rule:Nouns
+r1opinionNN
+
+#Rule:Verbs
+r2explainVB
+r2wantVBP
+
+#Rule:Adjs
+r4secondJJ
+
+#Rule:Adj-Noun
+r5secondJJopinionNN
+
+#Rule:HeadNoun-V
+r11youPRPwantVBP
+
+#Rule:V-HeadNoun
+r21wantVBPopinionNN
+
+#Rule:V-IN-V
+r43explainVBthatINwantVBP
+
+# Usually this information can be placed on a CD and sent to another doctor for a review (so your Mom won t need to even go .
+#(S1 (S (ADVP (RB Usually)) (NP (DT this) (NN information)) (VP (MD can) (VP (AUX be) (VP (VP (VBN placed) (PP (IN on) (NP (DT a) (NNP CD)))) (CC and) (VP (VBN sent) (PP (TO to) (NP (NP (DT another) (NN doctor)) (PP (IN for) (NP (NP (DT a) (NN review)) (PRN (-LRB- -LRB-) (RB so) (NP (NP (PRP$ your) (NN Mom)) (SBAR (S (NP (NN won) (NNS t)) (VP (AUX need) (S (VP (TO to) (ADVP (RB even)) (VP (VB go))))))))))))))))) (. .)))
+#Rule:Nouns
+r1informationNN
+r1CDNNP
+r1doctorNN
+r1reviewNN
+r1MomNN
+r1wonNN
+r1tOrganizationAnnotation
+
+#Rule:Verbs
+r2placedVBN
+r2sentVBN
+r2goVB
+
+#Rule:PRP-Noun
+r6yourPRP$MomNN
+
+#Rule:N-HeadNoun
+r8wonNNtOrganizationAnnotation
+
+#Rule:HeadNoun-V
+r11tOrganizationAnnotationneedAUX
+
+#Rule:V-HeadNoun(passive)
+r23placedVBNinformationNN
+r23sentVBNinformationNN
+
+#Rule:PPinNP
+r26doctorNNforINreviewNN
+
+#Rule:PPinVP
+r32placedVBNonINCDNNP
+r32sentVBNtoTOdoctorNN
+
+#Rule:V-ADV
+r46goVBevenRB
+
+#The National Cancer Institute has about 60 or more designated comprehensive cancer centers in the United States.
+#(S1 (S (NP (DT The) (NNP National) (NNP Cancer) (NNP Institute)) (VP (AUX has) (NP (NP (QP (RB about) (CD 60) (CC or) (JJR more)) (VBN designated) (JJ comprehensive) (NN cancer) (NNS centers)) (PP (IN in) (NP (DT the) (NNP United) (NNPS States))))) (. .)))
+#Rule:Nouns
+r1The National Cancer InstituteOrganizationAnnotation
+r1cancerNN
+r1centersNNS
+r1United StatesLocationAnnotation
+
+#Rule:Verbs
+r2designatedVBN
+
+#Rule:Adjs
+r4moreJJR
+r4comprehensiveJJ
+
+#Rule:Adj-Noun
+r560CDcentersNNS
+r5moreJJRcentersNNS
+r5designatedVBNcentersNNS
+r5comprehensiveJJcentersNNS
+
+#Rule:N-HeadNoun
+r8cancerNNcentersNNS
+
+#Rule:HeadNoun-V
+r11The National Cancer InstituteOrganizationAnnotationhasAUX
+
+#Rule:V-HeadNoun
+r21hasAUXcentersNNS
+
+#Rule:PPinNP
+r26centersNNSinINUnited StatesLocationAnnotation
+
+# You can contact them seeking a second opinion:http://www.
+#(S1 (S (NP (PRP You)) (VP (MD can) (VP (VB contact) (NP (PRP them)) (S (VP (VBG seeking) (NP (NP (DT a) (JJ second) (NN opinion)) (: :) (NP (NN http)) (: :) (NP (NN //www))))))) (. .)))
+#Rule:Nouns
+r1opinionNN
+r1http://wwwLocationAnnotation
+
+#Rule:Verbs
+r2contactVB
+r2seekingVBG
+
+#Rule:Adjs
+r4secondJJ
+
+#Rule:Adj-Noun
+r5secondJJopinionNN
+
+#Rule:HeadNoun-V
+r11youPRPcontactVB
+
+#Rule:V-HeadNoun
+r21contactVBthemPRP
+r21seekingVBGopinionNN
+
+#dol.gov/ebsa/faqs/faq_consumer_cobra.
+#(S1 (NP (FW dol.gov/ebsa/faqs/faq_consumer_cobra) (. .)))
+#htmlSeond Opinon Institutionshttp://www.
+#(S1 (NP (NP (NNP htmlSeond) (NNP Opinon) (NNP Institutionshttp)) (: :) (NP (CD //www)) (. .)))
+#Rule:Nouns
+r1htmlSeond Opinon InstiOrganizationAnnotation
+
+#blochcancer.
+#(S1 (S (VP (VB blochcancer)) (. .)))
+#Rule:Verbs
+r2blochcancerVB
+
+#org/articles/xtrnew.
+#(S1 (S (VP (VB org/articles/xtrnew)) (. .)))
+#Rule:Verbs
+r2org/articles/xtrnewOrganizationAnnotation
+
+#aspYou do not say what type of cancer that your mother has or if the tumor has metastasized.
+#(S1 (S (NP (NNP aspYou)) (VP (AUX do) (RB not) (VP (VB say) (NP (NP (WP what) (NN type)) (PP (IN of) (NP (NN cancer))) (SBAR (SBAR (IN that) (S (NP (PRP$ your) (NN mother)) (VP (AUX has)))) (CC or) (SBAR (IN if) (S (NP (DT the) (NN tumor)) (VP (AUX has) (VP (VBN metastasized))))))))) (. .)))
+#Rule:Nouns
+r1aspYouNNP
+r1typeNN
+r1cancerNN
+r1motherNN
+r1tumorNN
+
+#Rule:Verbs
+r2sayVB
+r2metastasizedVBN
+
+#Rule:PRP-Noun
+r6yourPRP$motherNN
+
+#Rule:HeadNoun-V
+r11aspYouNNPsayVB
+r11motherNNhasAUX
+
+#Rule:HeadNoun-V
+r12tumorNNmetastasizedVBN
+
+#Rule:V-HeadNoun
+r21sayVBtypeNN
+
+#Rule:PPinNP
+r26typeNNofINcancerNN
+
+#Rule:V-ADV
+r46doAUXnotRB
+
+# Age and overall health may factor into why the doctors recommend hospice for her.
+#(S1 (S (NP (NP (NN Age)) (CC and) (NP (JJ overall) (NN health))) (VP (MD may) (VP (VB factor) (PP (IN into) (SBAR (WHADVP (WRB why)) (S (NP (DT the) (NNS doctors)) (VP (VBP recommend) (NP (NN hospice)) (PP (IN for) (NP (PRP her))))))))) (. .)))
+#Rule:Nouns
+r1AgeNN
+r1healthNN
+r1doctorsNNS
+r1hospiceNN
+
+#Rule:Verbs
+r2factorVB
+r2recommendVBP
+
+#Rule:Adjs
+r4overallJJ
+
+#Rule:Adj-Noun
+r5overallJJhealthNN
+
+#Rule:HeadNoun-V
+r11AgeNNfactorVB
+r11healthNNfactorVB
+r11doctorsNNSrecommendVBP
+
+#Rule:V-HeadNoun
+r21recommendVBPhospiceNN
+
+#Rule:PPinVP
+r30recommendVBPforINherPRP
+
+# Keep in mind that your mother can still receive palliative care when in hospice and if her overall health improves than the doctors might reconsider treatment..Sta
+#(S1 (S (VP (VB Keep) (PP (IN in) (NP (NN mind))) (SBAR (IN that) (S (NP (PRP$ your) (NN mother)) (VP (MD can) (ADVP (RB still)) (VP (VB receive) (NP (NP (JJ palliative) (NN care)) (SBAR (WHADVP (WRB when)) (S (UCP (PP (IN in) (NP (NN hospice))) (CC and) (SBAR (IN if) (S (NP (PRP$ her) (JJ overall) (NN health)) (VP (VBZ improves) (SBAR (IN than) (S (NP (DT the) (NNS doctors)) (VP (MD might) (VP (VB reconsider) (NP (NN treatment)) (S (VP (VBG ..) (NP (NNP Sta))))))))))))))))))))))
+#Rule:Nouns
+r1mindNN
+r1motherNN
+r1careNN
+r1hospiceNN
+r1healthNN
+r1doctorsNNS
+r1treatmentNN
+r1StaNNP
+
+#Rule:Verbs
+r2keepVB
+r2receiveVB
+r2improvesVBZ
+r2reconsiderVB
+r2..VBG
+
+#Rule:Adjs
+r4palliativeJJ
+r4overallJJ
+
+#Rule:Adj-Noun
+r5palliativeJJcareNN
+r5overallJJhealthNN
+
+#Rule:PRP-Noun
+r6yourPRP$motherNN
+r6herPRP$healthNN
+
+#Rule:HeadNoun-V
+r11motherNNreceiveVB
+r11healthNNimprovesVBZ
+r11doctorsNNSreconsiderVB
+
+#Rule:V-HeadNoun
+r21receiveVBcareNN
+r21reconsiderVBtreatmentNN
+r21..VBGStaNNP
+
+#Rule:PPinVP
+r30keepVBinINmindNN
+
+#Rule:V-IN-V
+r43keepVBthatINreceiveVB
+r43improvesVBZthanINreconsiderVB
+
+#Rule:V-ADV
+r46receiveVBstillRB
+
+#Stay strong and best wishes during this difficult period.
+#(S1 (S (VP (VP (VB Stay) (ADJP (JJ strong))) (CC and) (VP (ADVP (RB best)) (VBZ wishes) (PP (IN during) (NP (DT this) (JJ difficult) (NN period))))) (. .)))
+#Rule:Nouns
+r1periodNN
+
+#Rule:Verbs
+r2stayVB
+r2wishesVBZ
+
+#Rule:Adjs
+r4strongJJ
+r4difficultJJ
+
+#Rule:Adj-Noun
+r5difficultJJperiodNN
+
+#Rule:PPinVP
+r30wishesVBZduringINperiodNN
+
+#Rule:V-ADV
+r46wishesVBZbestRB
+
+@lemmas-left	send	improves	aspYou	second	wish	fight	treatment	type	has	doctor	center	sent	more	medical	org/articles/xtrnew	..	age	comprehensive	care	she	doctors	her	opinion	overall	place	copy	http://www	information	opinon	sta	wishes	hospice	designated	period	health	metastasize	mom	aspyou	include	metastasized	record	copies	reconsider	mother	strong	say	blochcancer	ask	records	explain	hospital	review	go	cd	does	United States	Age	have	centers	improve	Mom	difficult	disease	recommend	seeking	contact	recent	cooperate	The National Cancer Institute	do	mind	won	60	receive	placed	want	opinon.	stay	your	oncologist	tumor	you	factor	htmlSeond Opinon Insti	seek	palliative	including	t	designate	CD	Sta	scan	CT/PET	cancer	keep	
+@lemmas-right	need	improves	fight	treatment	type	has	doctor	center	care	opinion	her	copy	information	opinon	sta	hospice	period	health	metastasize	mom	metastasized	not	record	copies	reconsider	mother	them	say	even	records	review	hospital	cd	go	United States	have	centers	Mom	improve	disease	contact	recommend	cooperate	best	mind	receive	want	opinon.	ahead	oncologist	still	factor	t	CD	Sta	CT/PET	cancer	
+@lemmas-center	to	that	of	with	during	for	than	on	from	in	

@@ -1,0 +1,43 @@
+#i dont remember the bible ever saying there was water floating above our heads, have you ever heard of GRAVITY?
+#(S1 (S (NP (PRP i)) (VP (ADVP (JJ dont)) (VBP remember) (NP (DT the) (JJ bible)) (S (ADVP (RB ever)) (VP (VBG saying) (SBAR (S (NP (EX there)) (VP (AUX was) (ADJP (NN water) (JJ floating)) (PP (IN above) (NP (PRP$ our) (NNS heads))) (, ,) (SQ (AUX have) (NP (PRP you)) (VP (ADVP (RB ever)) (VBN heard) (PP (IN of) (NP (NN GRAVITY))))))))))) (. ?)))
+#Rule:Nouns
+r1waterNN
+r1headsNNS
+r1GRAVITYNN
+
+#Rule:Verbs
+r2rememberVBP
+r2sayingVBG
+r2heardVBN
+
+#Rule:Adjs
+r4dontJJ
+r4bibleJJ
+r4floatingJJ
+
+#Rule:PRP-Noun
+r6ourPRP$headsNNS
+
+#Rule:HeadNoun-V
+r11iPRPrememberVBP
+r11thereEXwasAUX
+
+#Rule:V-HeadNoun
+r21rememberVBPbibleJJ
+
+#Rule:V-ADJ
+r25wasAUXwaterNN
+
+#Rule:PPinVP
+r30wasAUXaboveINheadsNNS
+
+#Rule:PPinVP
+r32heardVBNofINGRAVITYNN
+
+#Rule:V-ADV
+r46sayingVBGeverRB
+r46heardVBNeverRB
+
+@lemmas-left	water	remember	saying	heads	was	i	hear	heard	dont	there	GRAVITY	say	floating	bible	head	our	be	gravity	
+@lemmas-right	water	remember	heads	GRAVITY	bible	head	ever	gravity	was	be	
+@lemmas-center	of	above	

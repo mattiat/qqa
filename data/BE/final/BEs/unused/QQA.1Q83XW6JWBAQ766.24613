@@ -1,0 +1,41 @@
+#becuz they suckthey overratedtheir coach sucksandthey play all sucky teams till now
+#(S1 (S (ADVP (RB becuz)) (NP (PRP they)) (VP (VBP suckthey) (S (NP (JJ overratedtheir) (NN coach) (NN sucksandthey)) (VP (VB play) (NP (DT all) (JJ sucky) (NNS teams)) (PP (IN till) (NP (RB now))))))))
+#Rule:Nouns
+r1coachNN
+r1sucksandtheyNN
+r1teamsNNS
+
+#Rule:Verbs
+r2sucktheyVBP
+r2playVB
+
+#Rule:Adjs
+r4overratedtheirJJ
+r4suckyJJ
+
+#Rule:Adj-Noun
+r5overratedtheirJJsucksandtheyNN
+r5suckyJJteamsNNS
+
+#Rule:N-HeadNoun
+r8coachNNsucksandtheyNN
+
+#Rule:HeadNoun-V
+r11theyPRPsucktheyVBP
+r11sucksandtheyNNplayVB
+
+#Rule:V-HeadNoun
+r21playVBteamsNNS
+
+#Rule:V-HeadNoun
+r22sucktheyVBPsucksandtheyNN
+
+#Rule:PPinVP
+r30playVBtillINnowRB
+
+#Rule:V-ADV
+r46sucktheyVBPbecuzRB
+
+@lemmas-left	sucky	they	overratedtheir	teams	sucksandthey	suckthey	coach	play	team	
+@lemmas-right	teams	sucksandthey	now	suckthey	play	team	becuz	
+@lemmas-center	till	

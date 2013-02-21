@@ -1,0 +1,15 @@
+#Why and when was the Mason-Dixon line completed?
+#(S1 (SBARQ (WHADVP (WRB Why)) (CC and) (WHADVP (WRB when)) (SQ (AUX was) (NP (DT the) (NNP Mason-Dixon) (NN line)) (VP (VBN completed))) (. ?)))
+#Rule:Nouns
+r1Mason-DixonNNP
+r1lineNN
+
+#Rule:Verbs
+r2completedVBN
+
+#Rule:N-HeadNoun
+r8Mason-DixonNNPlineNN
+
+@lemmas-left	mason-dixon	complete	line	Mason-Dixon	completed	
+@lemmas-right	line	
+@lemmas-center	

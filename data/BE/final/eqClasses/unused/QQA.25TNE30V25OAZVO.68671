@@ -1,0 +1,159 @@
+BE: KidsOrganizationAnnotation
+EQ class: 
+
+BE: societyNN
+EQ class: societaljj	
+
+BE: schoolNN
+EQ class: scholasticjj	
+
+BE: learnVBP
+EQ class: acquirevbp	larnvbp	
+
+BE: functionVB
+EQ class: operatevb	govb	runvb	workvb	
+
+BE: regularJJ
+EQ class: regularitynn	
+
+BE: regularJJschoolNN
+EQ class: scholasticvbregularlyrb	regularitynnscholasticjj	regularjjscholasticjj	regularitynnschoolnn	schoolvbregularlyrb	
+
+BE: KidsOrganizationAnnotationlearnVBP
+EQ class: assimilatornnofinkidsorganizationannotation	learnernnofinkidsorganizationannotation	scholarnnofinkidsorganizationannotation	learnernnkidsorganizationannotation	assimilatornnkidsorganizationannotation	kidsorganizationannotationacquirevbp	kidsorganizationannotationlarnvbp	scholarnnkidsorganizationannotation	
+
+BE: functionVBinINsocietyNN
+EQ class: govbininsocietaljj	workvbininsocietaljj	functionvbininsocietaljj	runvbininsocietaljj	govbininsocietynn	workvbininsocietynn	operatevbininsocietynn	runvbininsocietynn	operatevbininsocietaljj	
+
+BE: functionVBinINschoolNN
+EQ class: operatevbininschoolnn	workvbininscholasticjj	operatevbininscholasticjj	runvbininschoolnn	workvbininschoolnn	functionvbininscholasticjj	govbininscholasticjj	runvbininscholasticjj	govbininschoolnn	
+
+BE: learnVBPfunctionVB
+EQ class: learnernnofinworkvb	learnvbpgovb	scholarnnofinworkvb	acquirevbpoperatevb	scholarnnofinoperatevb	learnernnofingovb	larnvbpfunctionvb	acquirevbprunvb	learnvbpworkvb	larnvbpoperatevb	assimilatornnofingovb	scholarnnofingovb	acquirevbpworkvb	larnvbpgovb	scholarnnofinfunctionvb	learnernnofinfunctionvb	assimilatornnofinworkvb	scholarnnofinrunvb	assimilatornnofinfunctionvb	larnvbprunvb	learnernnofinoperatevb	learnvbprunvb	learnvbpoperatevb	assimilatornnofinrunvb	learnernnofinrunvb	assimilatornnofinoperatevb	acquirevbpfunctionvb	acquirevbpgovb	larnvbpworkvb	
+
+BE: peopleNNS
+EQ class: theynns	themnns	
+
+BE: racesNNS
+EQ class: theynns	racenns	themnns	
+
+BE: opinionsNNS
+EQ class: opinionnns	persuasionnns	sentimentnns	theynns	thoughtnns	viewnns	themnns	
+
+BE: learnVBP
+EQ class: acquirevbp	larnvbp	
+
+BE: differentJJ
+EQ class: differencenn	
+
+BE: differentJJracesNNS
+EQ class: differencennracesnns	pelt_alongvbdifferentlyrb	cannonball_alongvbdifferentlyrb	bucket_alongvbdifferentlyrb	hastenvbdifferentlyrb	differencennracenns	racevbdifferentlyrb	hievbdifferentlyrb	differencenntheynns	differentjjracenns	differentjjtheynns	belt_alongvbdifferentlyrb	rushvbdifferentlyrb	differentjjthemnns	speedvbdifferentlyrb	step_on_itvbdifferentlyrb	rush_alongvbdifferentlyrb	differencennthemnns	hotfootvbdifferentlyrb	
+
+BE: theyPRPlearnVBP
+EQ class: theyprplarnvbp	assimilatornnkidsprp	peopleprplarnvbp	scholarnnkidsprp	racesprplearnvbp	learnernnpeopleprp	theyprpacquirevbp	scholarnnofinopinionsprp	peopleprplearnvbp	opinionsprpacquirevbp	learnernnracesprp	learnernnofintheyprp	assimilatornnpeopleprp	assimilatornnracesprp	assimilatornntheyprp	scholarnnracesprp	peopleprpacquirevbp	scholarnnofinracesprp	learnernnofinkidsprp	scholarnnopinionsprp	learnernnopinionsprp	assimilatornnofinkidsprp	scholarnntheyprp	assimilatornnofintheyprp	assimilatornnopinionsprp	assimilatornnofinracesprp	opinionsprplearnvbp	scholarnnofinpeopleprp	racesprpacquirevbp	scholarnnofinkidsprp	learnernnofinpeopleprp	scholarnnpeopleprp	learnernntheyprp	opinionsprplarnvbp	kidsprplarnvbp	assimilatornnofinpeopleprp	racesprplarnvbp	learnernnkidsprp	learnernnofinracesprp	assimilatornnofinopinionsprp	scholarnnofintheyprp	kidsprplearnvbp	kidsprpacquirevbp	learnernnofinopinionsprp	
+
+BE: peopleNNSofINracesNNS
+EQ class: racesnnspeoplevb	racesnnsthemvb	theynnsofinracesnns	themnnstheynns	themnnsthemnns	peoplevbracenns	theynnstheyvb	peoplennsofintheynns	racennstheynns	theyvbtheynns	themnnsofinthemnns	theynnspeoplevb	theynnsthemvb	themnnstheyvb	theyvbracenns	themvbracenns	themvbthemnns	racesnnstheyvb	themnnsofinracenns	racesnnsthemnns	theyvbracesnns	themnnsofintheynns	theynnsthemnns	racennspeoplevb	peoplevbthemnns	peoplevbtheynns	theynnspeoplenns	theyvbthemnns	themnnspeoplevb	peoplennsofinthemnns	theynnstheynns	peoplevbracesnns	theynnsofinracenns	themnnsofinracesnns	racennstheyvb	themnnspeoplenns	themvbracesnns	racennsthemvb	peoplennsofinracenns	theynnsofinthemnns	theynnsofintheynns	themvbtheynns	racennspeoplenns	themnnsthemvb	racesnnspeoplenns	racesnnstheynns	racennsthemnns	
+
+BE: peopleNNSofINopinionsNNS
+EQ class: theynnsofinopinionnns	opinionnnstheynns	opinionnnspeoplevb	theynnstheyvb	theyvbtheynns	persuasionnnspeoplenns	theynnspeoplevb	theynnsthemvb	sentimentnnstheynns	thoughtnnsthemnns	themnnstheyvb	themvbopinionsnns	themvbthemnns	peoplevbsentimentnns	persuasionnnsthemvb	themnnsofinpersuasionnns	theyvbopinionnns	theyvbpersuasionnns	theynnspeoplenns	theyvbthemnns	opinionsnnspeoplenns	themnnspeoplevb	peoplennsofinthemnns	viewnnspeoplenns	theynnstheynns	themnnsofinthoughtnns	theynnsofinsentimentnns	persuasionnnstheynns	themnnspeoplenns	theynnsofinthoughtnns	opinionsnnstheynns	thoughtnnspeoplevb	viewnnspeoplevb	opinionnnsthemnns	viewnnsthemnns	thoughtnnsthemvb	sentimentnnspeoplevb	opinionsnnsthemvb	themvbtheynns	themnnsthemvb	themnnsofinviewnns	themvbviewnns	theyvbopinionsnns	viewnnstheynns	themnnsofinopinionnns	thoughtnnstheynns	themvbsentimentnns	theyvbthoughtnns	themnnstheynns	theynnsofinpersuasionnns	theyvbsentimentnns	themnnsthemnns	sentimentnnspeoplenns	opinionnnsthemvb	sentimentnnsthemnns	opinionsnnstheyvb	peoplevbthoughtnns	thoughtnnspeoplenns	peoplennsofintheynns	themnnsofinsentimentnns	theyvbviewnns	thoughtnnstheyvb	persuasionnnspeoplevb	themnnsofinthemnns	themnnsofinopinionsnns	peoplennsofinviewnns	opinionsnnspeoplevb	viewnnstheyvb	theynnsofinopinionsnns	peoplennsofinpersuasionnns	theynnsofinviewnns	themvbopinionnns	opinionsnnsthemnns	themvbthoughtnns	persuasionnnsthemnns	themnnsofintheynns	theynnsthemnns	peoplevbthemnns	peoplevbtheynns	viewnnsthemvb	peoplevbopinionsnns	persuasionnnstheyvb	peoplennsofinsentimentnns	themvbpersuasionnns	opinionnnspeoplenns	peoplennsofinopinionnns	peoplevbpersuasionnns	peoplevbopinionnns	theynnsofinthemnns	theynnsofintheynns	peoplevbviewnns	sentimentnnstheyvb	sentimentnnsthemvb	opinionnnstheyvb	peoplennsofinthoughtnns	
+
+BE: learnVBPaboutINpeopleNNS
+EQ class: larnvbpaboutintheynns	acquirevbpaboutintheynns	acquirevbpaboutinthemnns	larnvbpaboutinpeoplenns	acquirevbpaboutinpeoplenns	learnvbpaboutinthemnns	learnvbpaboutintheynns	larnvbpaboutinthemnns	
+
+BE: kidsNNS
+EQ class: kidnns	youngsternns	nestlingnns	tykenns	small_frynns	frynns	minornns	tiddlernns	shavernns	nippernns	tikenns	childnns	
+
+BE: lifeNN
+EQ class: 
+
+BE: keepVB
+EQ class: maintainvb	holdvb	
+
+BE: livingVBG
+EQ class: inhabitvbg	livevbg	dwellvbg	populatevbg	
+
+BE: yourPRP$kidsNNS
+EQ class: yourprp$shavernns	yourprp$nestlingnns	yourprp$nippernns	tiddlernnsofinyourprp$	yourprp$small_frynns	nestlingnnsofinyourprp$	childnnsofinyourprp$	minornnsofinyourprp$	yourprp$tiddlernns	nippernnsofinyourprp$	kidsnnsofinyourprp$	yourprp$youngsternns	tykennsofinyourprp$	yourprp$kidnns	yourprp$tikenns	yourprp$frynns	tikennsofinyourprp$	yourprp$childnns	shavernnsofinyourprp$	yourprp$minornns	frynnsofinyourprp$	yourprp$tykenns	youngsternnsofinyourprp$	small_frynnsofinyourprp$	kidnnsofinyourprp$	
+
+BE: yourPRP$lifeNN
+EQ class: lifennofinyourprp$	
+
+BE: youPRPkeepVB
+EQ class: youprpholdvb	youprpmaintainvb	
+
+BE: kidsNNSlivingVBG
+EQ class: small_frynnslivingvbg	youngsternnslivevbg	nippernnslivingvbg	livernnofintykenns	small_frynnspopulatevbg	livernntikenns	liveryjjofinnippernns	liveablennofinminornns	liveryjjyoungsternns	liveryjjofinchildnns	tykennsinhabitvbg	liveryjjnippernns	livernnminornns	livernnofinnippernns	nippernnspopulatevbg	liveryjjchildnns	liveablennofinkidsnns	livablennofintykenns	liveryjjofinkidnns	livernnofinchildnns	minornnslivevbg	childnnspopulatevbg	liveablennofintikenns	liveryjjofintikenns	shavernnsinhabitvbg	liveryjjofinkidsnns	tiddlernnspopulatevbg	tykennslivingvbg	liveablennofinsmall_frynns	livernnofinyoungsternns	kidsnnsdwellvbg	livablennofintikenns	tiddlernnslivingvbg	small_frynnsdwellvbg	liveryjjofinyoungsternns	livernnofinminornns	minornnslivingvbg	youngsternnspopulatevbg	nestlingnnspopulatevbg	livernnkidsnns	frynnsdwellvbg	livablennofinminornns	liveryjjofinshavernns	childnnslivingvbg	livernnofintiddlernns	kidnnsinhabitvbg	tikennslivevbg	tiddlernnslivevbg	kidnnslivevbg	nippernnslivevbg	liveryjjsmall_frynns	kidnnsdwellvbg	frynnsinhabitvbg	livernnofinfrynns	liveryjjminornns	frynnslivevbg	liveryjjtykenns	tikennslivingvbg	liveablennofinkidnns	liveryjjtikenns	shavernnslivevbg	tiddlernnsdwellvbg	livernnnippernns	kidsnnspopulatevbg	frynnslivingvbg	minornnspopulatevbg	livernnfrynns	nestlingnnslivevbg	livernnofinshavernns	youngsternnsinhabitvbg	livernnofinsmall_frynns	livernnofintikenns	livablennofinsmall_frynns	liveryjjofintiddlernns	livablennofinnestlingnns	liveablennofinchildnns	liveryjjofinsmall_frynns	kidsnnsinhabitvbg	minornnsinhabitvbg	liveablennofinshavernns	livablennofinshavernns	liveryjjfrynns	livernnofinkidnns	childnnslivevbg	tikennspopulatevbg	liveablennofinnestlingnns	livernnnestlingnns	nestlingnnslivingvbg	tykennsdwellvbg	frynnspopulatevbg	livablennofintiddlernns	liveryjjkidnns	small_frynnslivevbg	livernntykenns	childnnsinhabitvbg	livernnkidnns	childnnsdwellvbg	shavernnspopulatevbg	livernnsmall_frynns	livablennofinchildnns	liveablennofintiddlernns	liveablennofinyoungsternns	nestlingnnsdwellvbg	liveablennofinnippernns	livablennofinkidsnns	youngsternnslivingvbg	liveryjjofintykenns	tykennslivevbg	tikennsinhabitvbg	livernntiddlernns	liveryjjofinminornns	kidnnspopulatevbg	liveryjjtiddlernns	liveablennofinfrynns	liveablennofintykenns	livernnofinkidsnns	liveryjjofinfrynns	liveryjjshavernns	shavernnsdwellvbg	tikennsdwellvbg	livablennofinyoungsternns	kidnnslivingvbg	liveryjjofinnestlingnns	nippernnsinhabitvbg	livablennofinfrynns	livernnchildnns	shavernnslivingvbg	livernnshavernns	liveryjjkidsnns	youngsternnsdwellvbg	nippernnsdwellvbg	liveryjjnestlingnns	nestlingnnsinhabitvbg	minornnsdwellvbg	tykennspopulatevbg	kidsnnslivevbg	livernnyoungsternns	livablennofinnippernns	livablennofinkidnns	small_frynnsinhabitvbg	livernnofinnestlingnns	tiddlernnsinhabitvbg	
+
+BE: livingVBGlifeNN
+EQ class: livablennofinlifenn	livevbglifenn	inhabitvbglifenn	populatevbglifenn	dwellvbglifenn	liveablennofinlifenn	livernnofinlifenn	liveryjjofinlifenn	
+
+BE: keepVBkidsNNS
+EQ class: keepvbfrynns	keepvbtiddlernns	maintainvbfrynns	holdvbtikenns	holdvbsmall_frynns	holdvbminornns	maintainvbtykenns	maintainvbshavernns	holdvbtykenns	holdvbnippernns	keepvbtykenns	holdvbyoungsternns	keepvbtikenns	holdvbtiddlernns	holdvbkidnns	holdvbchildnns	keepvbminornns	holdvbshavernns	maintainvbnippernns	keepvbkidnns	maintainvbkidnns	holdvbnestlingnns	maintainvbtikenns	maintainvbkidsnns	maintainvbchildnns	holdvbfrynns	maintainvbnestlingnns	maintainvbtiddlernns	holdvbkidsnns	keepvbyoungsternns	keepvbchildnns	maintainvbminornns	maintainvbyoungsternns	maintainvbsmall_frynns	keepvbnippernns	keepvbsmall_frynns	keepvbnestlingnns	keepvbshavernns	
+
+BE: livingVBGwithINyouPRP
+EQ class: dwellvbgwithinyouprp	inhabitvbgwithinyouprp	livevbgwithinyouprp	populatevbgwithinyouprp	
+
+BE: keepVBtPersonAnnotation
+EQ class: holdvbtpersonannotation	maintainvbtpersonannotation	
+
+BE: PartNN
+EQ class: constituentnn	componentnn	component_partnn	partialjj	portionnn	
+
+BE: parentNN
+EQ class: parentaljj	
+
+BE: kidsNNS
+EQ class: kidnns	youngsternns	nestlingnns	tykenns	small_frynns	frynns	minornns	tiddlernns	shavernns	nippernns	tikenns	childnns	
+
+BE: worldNN
+EQ class: cosmosnn	macrocosmnn	creationnn	existencenn	universenn	
+
+BE: teachingVBG
+EQ class: teachvbg	instructvbg	learnvbg	
+
+BE: surviveVB
+EQ class: live_onvb	lastvb	hold_outvb	livevb	hold_upvb	endurevb	govb	
+
+BE: goodJJ
+EQ class: goodnessnn	
+
+BE: realJJ
+EQ class: realnessnn	existentjj	realitynn	
+
+BE: goodJJparentNN
+EQ class: goodnessnnparentaljj	goodnessnnparentnn	goodjjparentaljj	
+
+BE: realJJworldNN
+EQ class: realjjuniversenn	existentjjuniversenn	realjjexistencenn	realitynnmacrocosmnn	existentjjcreationnn	realnessnnexistencenn	realitynnworldnn	realnessnncosmosnn	existentjjmacrocosmnn	realnessnncreationnn	realjjcosmosnn	realitynncreationnn	existentjjexistencenn	realitynnexistencenn	realnessnnmacrocosmnn	realitynncosmosnn	realjjcreationnn	realnessnnuniversenn	existentjjworldnn	existentjjcosmosnn	realnessnnworldnn	realitynnuniversenn	realjjmacrocosmnn	
+
+BE: yourPRP$kidsNNS
+EQ class: yourprp$shavernns	yourprp$nestlingnns	yourprp$nippernns	tiddlernnsofinyourprp$	yourprp$small_frynns	nestlingnnsofinyourprp$	childnnsofinyourprp$	minornnsofinyourprp$	yourprp$tiddlernns	nippernnsofinyourprp$	kidsnnsofinyourprp$	yourprp$youngsternns	tykennsofinyourprp$	yourprp$kidnns	yourprp$tikenns	yourprp$frynns	tikennsofinyourprp$	yourprp$childnns	shavernnsofinyourprp$	yourprp$minornns	frynnsofinyourprp$	yourprp$tykenns	youngsternnsofinyourprp$	small_frynnsofinyourprp$	kidnnsofinyourprp$	
+
+BE: PartNNteachingVBG
+EQ class: pedagogynncomponent_partnn	portionnnteachvbg	instructornnofincomponentnn	instructornnofinconstituentnn	teachernnofinpartnn	constituentnnteachingvbg	instructornnofinpartialjj	instructionnnofincomponent_partnn	pedagogynnofinportionnn	teachingnnconstituentnn	instructionnnpartnn	teachernnofincomponentnn	teachernnofinconstituentnn	teachingnnofincomponentnn	component_partnnteachvbg	portionnninstructvbg	pedagogynnofincomponent_partnn	teachernnportionnn	teachingnnofinpartnn	teachablennofinpartnn	instructionnncomponentnn	partnnteachvbg	instructornnofincomponent_partnn	teachingnnpartialjj	portionnnlearnvbg	teachablennofinportionnn	teachernnpartnn	pedagogynnofinpartnn	instructornnpartialjj	portionnnteachingvbg	component_partnnlearnvbg	teachernncomponentnn	teachingnnpartnn	teachingnnofinconstituentnn	partnnlearnvbg	instructionnnofinpartnn	instructionnnofinpartialjj	partialjjinstructvbg	pedagogynnportionnn	pedagogynnofinpartialjj	teachingnnofinpartialjj	pedagogynnpartialjj	teachernnofincomponent_partnn	partialjjteachvbg	pedagogynnofincomponentnn	instructornnconstituentnn	component_partnninstructvbg	componentnninstructvbg	partialjjteachingvbg	teachingnncomponent_partnn	instructionnnportionnn	teachernnconstituentnn	instructornncomponent_partnn	pedagogynnofinconstituentnn	instructornnpartnn	instructionnnconstituentnn	pedagogynnconstituentnn	instructornnofinpartnn	constituentnnlearnvbg	component_partnnteachingvbg	teachingnnportionnn	instructionnnpartialjj	teachablennofincomponentnn	pedagogynncomponentnn	componentnnteachingvbg	teachablennofincomponent_partnn	partialjjlearnvbg	teachablennofinconstituentnn	teachingnnofincomponent_partnn	instructionnncomponent_partnn	partnninstructvbg	componentnnteachvbg	instructornncomponentnn	teachingnncomponentnn	teachernnofinportionnn	teachernncomponent_partnn	teachablennofinpartialjj	instructornnofinportionnn	constituentnnteachvbg	instructionnnofinportionnn	pedagogynnpartnn	teachingnnofinportionnn	componentnnlearnvbg	instructionnnofinconstituentnn	instructornnportionnn	teachernnpartialjj	instructionnnofincomponentnn	teachernnofinpartialjj	constituentnninstructvbg	
+
+BE: beingAUXGparentNN
+EQ class: beingauxgparentaljj	
+
+BE: teachingVBGkidsNNS
+EQ class: learnvbgchildnns	instructvbgnippernns	pedagogynnofinnippernns	teachablennofinfrynns	instructionnnofintikenns	instructvbgkidsnns	teachingvbgfrynns	teachernnofinkidsnns	teachingvbgsmall_frynns	instructornnofinyoungsternns	instructionnnofintiddlernns	instructvbgtikenns	instructornnofinnestlingnns	pedagogynnofinnestlingnns	teachingnnofinfrynns	teachernnofinkidnns	pedagogynnofinchildnns	instructvbgshavernns	teachingnnofinminornns	teachingnnofintiddlernns	teachingvbgtiddlernns	instructornnofinfrynns	teachvbgtikenns	instructornnofinshavernns	teachablennofintiddlernns	instructionnnofinsmall_frynns	instructornnofinminornns	instructionnnofinfrynns	learnvbgshavernns	learnvbgtikenns	teachingvbgnippernns	teachingvbgtikenns	teachernnofinchildnns	teachernnofintikenns	pedagogynnofinshavernns	teachingvbgyoungsternns	teachernnofintiddlernns	teachingnnofinyoungsternns	pedagogynnofinsmall_frynns	teachablennofinchildnns	instructionnnofinkidsnns	learnvbgyoungsternns	teachablennofinnippernns	teachvbgkidnns	teachingvbgtykenns	teachablennofinkidnns	instructionnnofinshavernns	instructvbgfrynns	instructornnofinchildnns	teachingvbgminornns	learnvbgminornns	pedagogynnofinkidsnns	teachvbgfrynns	teachingnnofinkidsnns	teachvbgnippernns	instructornnofinsmall_frynns	instructionnnofinminornns	instructvbgsmall_frynns	teachablennofintikenns	teachvbgyoungsternns	teachvbgkidsnns	pedagogynnofintiddlernns	learnvbgnestlingnns	learnvbgkidsnns	instructvbgtiddlernns	instructvbgchildnns	instructornnofintikenns	teachernnofinfrynns	learnvbgnippernns	teachvbgsmall_frynns	teachingnnofinsmall_frynns	instructionnnofinnippernns	teachingnnofinnestlingnns	teachablennofinyoungsternns	teachvbgtykenns	learnvbgtiddlernns	instructionnnofintykenns	instructornnofinnippernns	pedagogynnofinminornns	teachernnofinyoungsternns	instructvbgtykenns	instructvbgyoungsternns	teachingvbgkidnns	pedagogynnofintykenns	teachvbgchildnns	teachernnofinnestlingnns	pedagogynnofinfrynns	learnvbgkidnns	learnvbgtykenns	teachingnnofinshavernns	teachernnofinminornns	teachablennofinnestlingnns	instructvbgnestlingnns	teachingnnofinchildnns	pedagogynnofinkidnns	teachingnnofintikenns	teachernnofintykenns	instructionnnofinchildnns	teachingnnofinkidnns	instructornnofinkidsnns	teachernnofinsmall_frynns	teachablennofinshavernns	instructionnnofinyoungsternns	instructvbgminornns	teachablennofinkidsnns	teachingvbgnestlingnns	teachablennofinsmall_frynns	teachvbgtiddlernns	instructionnnofinnestlingnns	teachvbgshavernns	instructornnofintiddlernns	teachingnnofinnippernns	instructvbgkidnns	pedagogynnofintikenns	teachvbgminornns	teachvbgnestlingnns	teachingvbgshavernns	teachernnofinshavernns	instructornnofintykenns	learnvbgsmall_frynns	teachingvbgchildnns	instructornnofinkidnns	learnvbgfrynns	pedagogynnofinyoungsternns	instructionnnofinkidnns	teachablennofintykenns	teachablennofinminornns	teachernnofinnippernns	teachingnnofintykenns	
+
+BE: surviveVBinINworldNN
+EQ class: survivevbininmacrocosmnn	hold_outvbininworldnn	livevbininmacrocosmnn	live_onvbininuniversenn	live_onvbininworldnn	govbininworldnn	lastvbinincreationnn	hold_outvbininmacrocosmnn	endurevbininexistencenn	livevbinincosmosnn	govbinincosmosnn	livevbininexistencenn	lastvbininworldnn	endurevbinincreationnn	survivevbinincreationnn	survivevbinincosmosnn	hold_outvbinincreationnn	govbininexistencenn	endurevbininuniversenn	lastvbinincosmosnn	live_onvbinincreationnn	hold_upvbininuniversenn	hold_upvbininexistencenn	lastvbininmacrocosmnn	hold_upvbinincosmosnn	govbinincreationnn	hold_upvbininmacrocosmnn	lastvbininuniversenn	live_onvbinincosmosnn	endurevbinincosmosnn	hold_outvbininuniversenn	endurevbininworldnn	livevbinincreationnn	lastvbininexistencenn	hold_outvbininexistencenn	hold_upvbininworldnn	live_onvbininexistencenn	hold_outvbinincosmosnn	govbininuniversenn	endurevbininmacrocosmnn	hold_upvbinincreationnn	survivevbininuniversenn	livevbininworldnn	govbininmacrocosmnn	live_onvbininmacrocosmnn	survivevbininexistencenn	livevbininuniversenn	
+
+BE: teachingVBGsurviveVB
+EQ class: teachvbglastvb	teachernnofinhold_outvb	instructionnnofinendurevb	instructvbglastvb	teachernnofinsurvivevb	instructionnnofinhold_upvb	learnvbglivevb	teachingnnofinendurevb	teachingnnofinhold_upvb	teachingnnofingovb	teachablennofinsurvivevb	teachingvbghold_outvb	learnvbghold_upvb	teachablennofinlivevb	instructornnofingovb	teachernnofinlive_onvb	teachablennofinlastvb	pedagogynnofinhold_upvb	teachernnofinhold_upvb	instructvbggovb	teachvbghold_outvb	pedagogynnofinendurevb	teachingnnofinsurvivevb	teachvbghold_upvb	teachingvbghold_upvb	teachingvbglastvb	learnvbglastvb	instructvbgsurvivevb	learnvbgsurvivevb	teachernnofinendurevb	teachablennofinendurevb	instructionnnofinhold_outvb	instructionnnofinlastvb	teachingvbggovb	instructionnnofinsurvivevb	teachingnnofinlastvb	learnvbglive_onvb	instructvbglivevb	instructionnnofinlivevb	instructvbghold_upvb	teachingnnofinhold_outvb	instructornnofinlivevb	teachablennofinlive_onvb	teachingvbglive_onvb	instructornnofinhold_upvb	instructornnofinlive_onvb	instructionnnofingovb	pedagogynnofinhold_outvb	learnvbggovb	instructionnnofinlive_onvb	teachernnofingovb	teachvbgsurvivevb	pedagogynnofingovb	teachingvbgendurevb	instructvbglive_onvb	teachernnofinlivevb	instructvbghold_outvb	teachvbglivevb	pedagogynnofinlastvb	teachvbglive_onvb	teachablennofinhold_upvb	learnvbgendurevb	teachvbggovb	instructornnofinendurevb	teachernnofinlastvb	pedagogynnofinlive_onvb	instructvbgendurevb	teachingnnofinlive_onvb	pedagogynnofinsurvivevb	teachablennofingovb	instructornnofinhold_outvb	teachablennofinhold_outvb	teachingnnofinlivevb	teachingvbglivevb	teachvbgendurevb	learnvbghold_outvb	instructornnofinsurvivevb	pedagogynnofinlivevb	instructornnofinlastvb	
+
+BE: schooledVBN
+EQ class: schoolvbn	
+
+BE: theyPRPdoAUX
+EQ class: racesprpmakeaux	peopleprpdoaux	opinionsprpmakeaux	opinionsprpdoaux	peopleprpmakeaux	kidsprpmakeaux	theyprpmakeaux	kidsprpdoaux	racesprpdoaux	
+
+BE: doAUXthatDT
+EQ class: makeauxthatdt	
+
+BE: schooledVBNhomeRB
+EQ class: schoolvbnhomerb	scholasticjjofinhomerb	schoolnnofinhomerb	schoolingnnofinhomerb	
+

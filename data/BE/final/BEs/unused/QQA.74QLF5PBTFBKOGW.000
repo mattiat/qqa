@@ -1,0 +1,21 @@
+#how is the better captain sourav or dravid?
+#(S1 (SBARQ (WHADVP (WRB how)) (SQ (VP (AUX is) (NP (NP (DT the) (JJR better) (NN captain)) (ADJP (JJ sourav) (CC or) (JJ dravid))))) (. ?)))
+#Rule:Nouns
+r1captainNN
+
+#Rule:Adjs
+r4betterJJR
+r4souravLocationAnnotation
+r4dravidJJ
+
+#Rule:Adj-Noun
+r5souravLocationAnnotationcaptainNN
+r5dravidJJcaptainNN
+r5betterJJRcaptainNN
+
+#Rule:V-HeadNoun
+r21isAUXcaptainNN
+
+@lemmas-left	sourav	is	better	dravid	be	captain	
+@lemmas-right	captain	
+@lemmas-center	

@@ -1,0 +1,53 @@
+#I presume what you have is a binary number (base 2)10100You want to convert it to  a decimal number (base 10) such as 10,50 66 etc..
+#(S1 (S (NP (PRP I)) (VP (VB presume) (SBAR (WHNP (WP what)) (S (NP (PRP you)) (AUX have) (VP (AUX is) (NP (NP (DT a) (JJ binary) (NN number)) (SBAR (S (NP (PRN (-LRB- -LRB-) (NP (NN base) (CD 2)) (-RRB- -RRB-)) (NNS 10100You)) (VP (VBP want) (S (VP (TO to) (VP (VB convert) (NP (PRP it)) (PP (TO to) (NP (NP (NP (DT a) (JJ decimal) (NN number)) (PRN (-LRB- -LRB-) (NP (NN base) (CD 10)) (-RRB- -RRB-))) (JJ such) (IN as) (NP (CD 10,50) (CD 66) (NN etc)))))))))))) (. .)))) (. .)))
+#Rule:Nouns
+r1numberNN
+r1baseNN
+r110100YouNNS
+r1numberNN
+r1baseNN
+r1etcNN
+
+#Rule:Verbs
+r2presumeVB
+r2wantVBP
+r2convertVB
+
+#Rule:Adjs
+r4binaryJJ
+r4decimalJJ
+r4suchJJ
+
+#Rule:Adj-Noun
+r5binaryJJnumberNN
+r52CDbaseNN
+r5suchJJnumberNN
+r5decimalJJnumberNN
+r510CDbaseNN
+r510,50CDetcNN
+r566CDetcNN
+
+#Rule:HeadNoun-V
+r11iPRPpresumeVB
+r11youPRPisAUX
+r1110100YouNNSwantVBP
+
+#Rule:NP(NP(z) SBAR(S(NP(x)VP(y))))
+r19wantVBPnumberNN
+
+#Rule:V-HeadNoun
+r21isAUXnumberNN
+r21convertVBitPRP
+
+#Rule:PPinVP
+r30convertVBtoTOnumberNN
+r30convertVBtoTOetcNN
+
+#Rule:V-V
+r44wantVBPconvertVB
+
+#This is how you do it. From right to left:0x2^0 + 0x 2^1 + 1 x 2^2 + 0 x 2^3 + 1 x 2^42^0=1so we have 0 +0 +4+0+16=20 (converted to base 10)
+#
+@lemmas-left	66	presume	is	binary	such	10100you	etc	convert	you	number	10100You	decimal	i	2	10	10,50	base	want	be	
+@lemmas-right	presume	is	it	etc	base	convert	number	want	be	
+@lemmas-center	to	

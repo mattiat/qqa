@@ -1,0 +1,81 @@
+#A few haven tMay religious and, how shall we call them, ZENOPHOBS do chain Susan and Johnny to the bed and don t let them out even into the front yard..
+#(S1 (S (NP (DT A) (JJ few) (NN haven) (NN tMay)) (ADJP (JJ religious)) (SBARQ (CC and) (, ,) (WHADVP (WRB how)) (SQ (MD shall) (NP (PRP we)) (VP (VB call) (NP (PRP them)) (, ,) (S (NP (NNS ZENOPHOBS)) (VP (AUX do) (VP (VP (NN chain) (NP (NNP Susan) (CC and) (NNP Johnny)) (PP (TO to) (NP (DT the) (NN bed)))) (CC and) (VP (VB don) (S (NP (NNS t)) (VP (VB let) (NP (PRP them)) (PRT (RP out)) (ADVP (RB even)) (PP (IN into) (NP (DT the) (JJ front) (NN yard))))))))))) (. .)) (. .)))
+#Rule:Nouns
+r1havenNN
+r1tMayNN
+r1ZENOPHOBSOrganizationAnnotation
+r1chainNN
+r1SusanPersonAnnotation
+r1JohnnyNNP
+r1bedNN
+r1tNNS
+r1yardPersonAnnotation
+
+#Rule:Verbs
+r2callVB
+r2donVB
+r2letVB
+
+#Rule:V-PRT
+r3letVBoutRP
+
+#Rule:Adjs
+r4fewJJ
+r4religiousJJ
+r4frontJJ
+
+#Rule:Adj-Noun
+r5fewJJtMayNN
+r5frontJJyardPersonAnnotation
+
+#Rule:N-HeadNoun
+r8havenNNtMayNN
+
+#Rule:HeadNoun-V
+r11ZENOPHOBSOrganizationAnnotationdonVB
+r11tNNSletVB
+
+#Rule:V-HeadNoun
+r21callVBthemPRP
+r21chainNNSusanPersonAnnotation
+r21letVBthemPRP
+
+#Rule:V-HeadNoun
+r22callVBZENOPHOBSOrganizationAnnotation
+r22donVBtNNS
+
+#Rule:PPinVP
+r30letVBintoINyardPersonAnnotation
+
+#Rule:V-ADV
+r46letVBevenRB
+
+#For this, SOCIETY comes down on a whole system!!
+#(S1 (FRAG (S (PP (IN For) (NP (DT this))) (, ,) (NP (NN SOCIETY)) (VP (VBZ comes) (PRT (RP down)) (PP (IN on) (NP (DT a) (JJ whole) (NN system)))) (. !)) (. !)))
+#Rule:Nouns
+r1SOCIETYOrganizationAnnotation
+r1systemNN
+
+#Rule:V-PRT
+r3comesVBZdownRP
+
+#Rule:Adjs
+r4wholeJJ
+
+#Rule:Adj-Noun
+r5wholeJJsystemNN
+
+#Rule:HeadNoun-V
+r11SOCIETYOrganizationAnnotationcomesVBZ
+
+#Rule:PPinVP
+r30comesVBZonINsystemNN
+
+#Rule:PPinS
+r36comesVBZforINthisDT
+
+#NOT!
+#(S1 (FRAG (ADVP (RB NOT)) (. !)))
+@lemmas-left	call	tmay	ZENOPHOBS	yard	don	let	bed	johnny	haven	come	front	tMay	comes	few	system	t	chain	Johnny	whole	Susan	religious	SOCIETY	
+@lemmas-right	tmay	ZENOPHOBS	yard	don	let	come	tMay	comes	system	t	them	Susan	even	down	this	out	
+@lemmas-center	for	into	on	

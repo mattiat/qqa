@@ -1,0 +1,249 @@
+#How can I loose weight??
+#(S1 (SBARQ (WHADVP (WRB How)) (SQ (MD can) (NP (PRP I)) (VP (VB loose) (NP (NN weight))) (. ?)) (. ?)))
+#Rule:Nouns
+r1weightNN
+
+#Rule:Verbs
+r2looseVB
+
+#Rule:V-HeadNoun
+r21looseVBweightNN
+
+#I am 15 years old and weigh 107.I gained weight after my parents got divorce, I miss the skinnyme..
+#(S1 (S (S (NP (PRP I)) (VP (AUX am) (ADJP (NP (CD 15) (NNS years)) (JJ old)))) (CC and) (S (NP (VB weigh) (NNS 107.I)) (VP (VBD gained) (NP (NN weight)) (SBAR (IN after) (S (NP (PRP$ my) (NNS parents)) (VP (VBD got) (NP (NP (NN divorce)) (, ,) (SBAR (S (NP (PRP I)) (VP (VBP miss) (NP (DT the) (NN skinnyme)))))))))) (. .)) (. .)))
+#Rule:Nouns
+r1yearsNNS
+r1107.INNS
+r1weightNN
+r1parentsNNS
+r1divorceNN
+r1skinnyme..LocationAnnotation
+
+#Rule:Verbs
+r2weighVB
+r2gainedVBD
+r2gotVBD
+r2missVBP
+
+#Rule:Adjs
+r4oldJJ
+
+#Rule:Adj-Noun
+r515CDyearsNNS
+
+#Rule:PRP-Noun
+r6myPRP$parentsNNS
+
+#Rule:HeadNoun-V
+r11iPRPamAUX
+r11107.INNSgainedVBD
+r11parentsNNSgotVBD
+r11iPRPmissVBP
+
+#Rule:V-HeadNoun
+r21gainedVBDweightNN
+r21gotVBDdivorceNN
+r21missVBPskinnyme..LocationAnnotation
+
+#Rule:V-IN-V
+r43gainedVBDafterINgotVBD
+
+#I want to loose weight in my core, legs, and arms EVERYWHERE.I m also going to go on a diet..
+#(S1 (S (NP (PRP I)) (VP (VBP want) (S (VP (TO to) (VP (VB loose) (NP (NN weight)) (PP (IN in) (S (NP (PRP$ my) (NN core) (, ,) (NNS legs) (, ,) (CC and) (NNS arms) (NNP EVERYWHERE.I) (NNP m)) (ADVP (RB also)) (VP (VBG going) (S (VP (TO to) (VP (VB go) (PP (IN on) (NP (DT a) (NN diet))))))) (. .))))))) (. .)))
+#Rule:Nouns
+r1weightNN
+r1coreNN
+r1legsNNS
+r1armsNNS
+r1EVERYWHERE.INNP
+r1mNNP
+r1dietNN
+
+#Rule:Verbs
+r2wantVBP
+r2looseVB
+r2goingVBG
+r2goVB
+
+#Rule:PRP-Noun
+r6myPRP$mNNP
+
+#Rule:N-HeadNoun
+r8EVERYWHERE.INNPmNNP
+r8armsNNSmNNP
+
+#Rule:HeadNoun-V
+r11iPRPwantVBP
+r11mNNPgoingVBG
+
+#Rule:V-HeadNoun
+r21looseVBweightNN
+
+#Rule:PPinVP
+r30goVBonINdietNN
+
+#Rule:V-V
+r44wantVBPlooseVB
+r44goingVBGgoVB
+
+#Rule:V-ADV
+r46goingVBGalsoRB
+
+#But I don t get how to loose weight and burn fat..
+#(S1 (S (CC But) (NP (PRP I)) (VP (VB don) (S (NP (NNS t)) (VP (VB get) (SBAR (WHADVP (WRB how)) (S (VP (TO to) (VP (VP (VB loose) (NP (NN weight))) (CC and) (VP (VB burn) (ADJP (JJ fat)))))))) (. .))) (. .)))
+#Rule:Nouns
+r1tLocationAnnotation
+r1weightNN
+
+#Rule:Verbs
+r2donVB
+r2getVB
+r2looseVB
+r2burnVB
+
+#Rule:Adjs
+r4fatJJ
+
+#Rule:HeadNoun-V
+r11iPRPdonVB
+r11tLocationAnnotationgetVB
+
+#Rule:V-HeadNoun
+r21looseVBweightNN
+
+#Rule:V-HeadNoun
+r22donVBtLocationAnnotation
+
+#I have a comunity gym I ve been going to..
+#(S1 (S (NP (PRP I)) (VP (AUX have) (NP (NP (DT a) (JJ comunity) (NN gym)) (SBAR (S (NP (PRP I)) (ADVP (RB ve)) (VP (AUX been) (VP (VBG going) (S (VP (TO to))))) (. .))))) (. .)))
+#Rule:Nouns
+r1gymNN
+
+#Rule:Verbs
+r2goingVBG
+
+#Rule:Adjs
+r4comunityOrganizationAnnotation
+
+#Rule:Adj-Noun
+r5comunityOrganizationAnnotationgymNN
+
+#Rule:HeadNoun-V
+r11iPRPhaveAUX
+r11iPRPgoingVBG
+
+#Rule:NP(NP(z) SBAR(S(NP(x)VP(y))))
+r19goingVBGgymNN
+
+#Rule:V-HeadNoun
+r21haveAUXgymNN
+
+#Rule:V-ADV
+r46beenAUXveRB
+
+#I don t know how many calories to burn, howmuch to work out..
+#(S1 (S (NP (PRP I)) (VP (VB don) (S (NP (NNS t)) (VP (VB know) (SBAR (WHADVP (WRB how)) (S (S (NP (JJ many) (NNS calories)) (VP (TO to) (VP (VB burn)))) (, ,) (S (NP (NN howmuch)) (VP (TO to) (VP (VB work) (PRT (RP out))))) (. .)))))) (. .)))
+#Rule:Nouns
+r1tNNS
+r1caloriesNNS
+r1howmuchNN
+
+#Rule:Verbs
+r2donVB
+r2knowVB
+r2burnVB
+
+#Rule:V-PRT
+r3workVBoutRP
+
+#Rule:Adjs
+r4manyJJ
+
+#Rule:Adj-Noun
+r5manyJJcaloriesNNS
+
+#Rule:HeadNoun-V
+r11iPRPdonVB
+r11tNNSknowVB
+r11caloriesNNSburnVB
+r11howmuchNNworkVB
+
+#Rule:V-HeadNoun
+r22donVBtNNS
+
+#Etc..
+#(S1 (NP (FW Etc) (. .) (. .)))
+#I would appreciate if you could give me all the informationyou could!!
+#(S1 (S (NP (PRP I)) (VP (MD would) (VP (VB appreciate) (SBAR (IN if) (S (NP (PRP you)) (VP (MD could) (VP (VB give) (NP (PRP me)) (NP (NP (DT all)) (SBAR (S (NP (DT the) (NN informationyou)) (VP (MD could))))) (. !))))))) (. !)))
+#Rule:Nouns
+r1informationyouNN
+
+#Rule:Verbs
+r2appreciateVB
+r2giveVB
+
+#Rule:HeadNoun-V
+r11iPRPappreciateVB
+r11youPRPgiveVB
+
+#Rule:V-HeadNoun
+r21giveVBmePRP
+r21giveVBallDT
+
+#Rule:V-IN-V
+r43appreciateVBifINgiveVB
+
+#Thanks!!
+#(S1 (NP (NNS Thanks) (. !) (. !)))
+#Rule:Nouns
+r1ThanksNNS
+
+#I know I m not overweight..
+#(S1 (S (NP (PRP I)) (VP (VBP know) (S (NP (PRP I)) (ADVP (NNP m)) (ADJP (RB not) (JJ overweight)) (. .))) (. .)))
+#Rule:Nouns
+r1mNNP
+
+#Rule:Verbs
+r2knowVBP
+
+#Rule:Adjs
+r4overweightJJ
+
+#Rule:HeadNoun-V
+r11iPRPknowVBP
+
+#Rule:V-HeadNoun
+r22knowVBPiPRP
+
+#But I don t like the extra fat I carry.
+#(S1 (S (CC But) (NP (PRP I)) (VP (VB don) (NP (NN t)) (PP (IN like) (NP (NP (DT the) (JJ extra) (NN fat)) (SBAR (S (NP (PRP I)) (VP (VBP carry))))))) (. .)))
+#Rule:Nouns
+r1tNN
+r1fatNN
+
+#Rule:Verbs
+r2donVB
+r2carryVBP
+
+#Rule:Adjs
+r4extraJJ
+
+#Rule:Adj-Noun
+r5extraJJfatNN
+
+#Rule:HeadNoun-V
+r11iPRPdonVB
+r11iPRPcarryVBP
+
+#Rule:NP(NP(z) SBAR(S(NP(x)VP(y))))
+r19carryVBPfatNN
+
+#Rule:V-HeadNoun
+r21donVBtNN
+
+#Rule:PPinVP
+r30donVBlikeINfatNN
+
+@lemmas-left	old	diet	don	loose	been	calorie	informationyou	thanks	howmuch	divorce	calories	gym	comunity	carry	be	work	going	get	extra	fat	parent	Thanks	many	weigh	years	burn	got	go	parents	appreciate	weight	have	give	EVERYWHERE.I	15	gained	overweight	arms	want	107.I	you	m	my	know	i	gain	t	legs	core	skinnyme..	miss	
+@lemmas-right	appreciate	parents	weight	diet	don	give	have	loose	calorie	gained	ve	calories	divorce	me	gym	carry	all	want	be	work	going	get	fat	parent	m	know	i	gain	t	am	years	burn	skinnyme..	got	also	miss	out	go	
+@lemmas-center	after	if	on	like	

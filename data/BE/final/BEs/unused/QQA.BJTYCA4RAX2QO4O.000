@@ -1,0 +1,26 @@
+#Why do you never see stars in pictures taken in space?
+#(S1 (SBARQ (WHADVP (WRB Why)) (SQ (AUX do) (NP (PRP you)) (ADVP (RB never)) (VP (VB see) (NP (NNS stars)) (PP (IN in) (NP (NP (NNS pictures)) (VP (VBN taken) (PP (IN in) (NP (NN space)))))))) (. ?)))
+#Rule:Nouns
+r1starsNNS
+r1picturesNNS
+r1spaceNN
+
+#Rule:Verbs
+r2seeVB
+r2takenVBN
+
+#Rule:V-HeadNoun
+r21seeVBstarsNNS
+
+#Rule:V-HeadNoun(passive)
+r24takenVBNpicturesNNS
+
+#Rule:PPinVP
+r30seeVBinINpicturesNNS
+
+#Rule:PPinVP
+r32takenVBNinINspaceNN
+
+@lemmas-left	picture	see	take	stars	star	pictures	taken	space	
+@lemmas-right	picture	stars	star	pictures	space	
+@lemmas-center	in	

@@ -1,0 +1,75 @@
+BE: biopsyNN
+EQ class: 
+
+BE: doAUXbiopsyNN
+EQ class: makeauxbiopsynn	
+
+BE: tumorNN
+EQ class: neoplasmnn	tumournn	
+
+BE: wayNN
+EQ class: stylenn	fashionnn	modenn	mannernn	
+
+BE: diagnoseVB
+EQ class: namevb	
+
+BE: onlyJJ
+EQ class: lonesomejj	solejj	lonejj	solitaryjj	
+
+BE: onlyJJwayNN
+EQ class: lonesomejjmodenn	onlyjjstylenn	solejjfashionnn	solitaryjjmannernn	lonesomejjfashionnn	onlyjjmodenn	solitaryjjwaynn	solejjmannernn	onlyjjfashionnn	lonesomejjmannernn	lonejjmannernn	solitaryjjstylenn	solitaryjjmodenn	solejjstylenn	lonesomejjwaynn	lonejjmodenn	solejjmodenn	lonejjwaynn	lonesomejjstylenn	solitaryjjfashionnn	onlyjjmannernn	solejjwaynn	lonejjstylenn	lonejjfashionnn	
+
+BE: thatDTisAUX
+EQ class: thatdtbeaux	
+
+BE: wayNNdiagnoseVB
+EQ class: mannernnnamevb	diagnosticjjstylenn	modennnamevb	diagnosisnnstylenn	stylenndiagnosevb	diagnosticjjfashionnn	diagnosingnnofinwaynn	waynnnamevb	stylennnamevb	diagnosticjjwaynn	diagnosticjjmannernn	diagnosingnnofinstylenn	diagnosticjjofinstylenn	diagnosticjjofinmodenn	diagnosisnnofinstylenn	fashionnndiagnosevb	diagnosticjjofinwaynn	modenndiagnosevb	mannernndiagnosevb	diagnosisnnofinmodenn	diagnosisnnmodenn	diagnosingnnmodenn	diagnosingnnofinmodenn	fashionnnnamevb	diagnosingnnmannernn	diagnosingnnofinfashionnn	diagnosisnnofinmannernn	diagnosisnnfashionnn	diagnosisnnofinwaynn	diagnosisnnwaynn	diagnosingnnofinmannernn	diagnosingnnwaynn	diagnosisnnofinfashionnn	diagnosticjjmodenn	diagnosticjjofinfashionnn	diagnosticjjofinmannernn	diagnosingnnfashionnn	diagnosisnnmannernn	diagnosingnnstylenn	
+
+BE: isAUXwayNN
+EQ class: beauxfashionnn	beauxstylenn	beauxmodenn	isauxfashionnn	beauxmannernn	beauxwaynn	isauxstylenn	isauxmodenn	isauxmannernn	
+
+BE: diagnoseVBitPRP
+EQ class: diagnosingnnofinitprp	diagnosisnnofinitprp	namevbitprp	diagnosticjjofinitprp	
+
+BE: diagnoseVBspecificallyRB
+EQ class: specificjjdiagnosingnn	diagnosticjjofinspecificallyrb	specificjjinindiagnosevb	specificjjdiagnosticjj	specificjjdiagnosisnn	diagnosingnnofinspecificallyrb	namevbspecificallyrb	specificjjinindiagnosisnn	diagnosisnnofinspecificallyrb	specificjjininnamevb	specificjjinindiagnosingnn	specificjjinindiagnosticjj	
+
+BE: surgeonNN
+EQ class: operating_surgeonnn	sawbonesnn	
+
+BE: dialysisNN
+EQ class: 
+
+BE: tumorNN
+EQ class: neoplasmnn	tumournn	
+
+BE: findVB
+EQ class: chancevb	happenvb	encountervb	bumpvb	
+
+BE: putVB
+EQ class: posevb	placevb	positionvb	layvb	setvb	
+
+BE: removingVBG
+EQ class: take_awayvbg	withdrawvbg	removevbg	takevbg	
+
+BE: willingJJ
+EQ class: willingnessnn	
+
+BE: willingJJsurgeonNN
+EQ class: willingnessnnsawbonesnn	willingnessnnsurgeonnn	willingjjoperating_surgeonnn	willingnessnnoperating_surgeonnn	willingjjsawbonesnn	
+
+BE: findVBsurgeonNN
+EQ class: chancevbsawbonesnn	bumpvboperating_surgeonnn	discoverynnofinoperating_surgeonnn	encountervbsurgeonnn	findernnofinsawbonesnn	chancevbsurgeonnn	encountervbsawbonesnn	findnnofinsawbonesnn	encountervboperating_surgeonnn	findernnofinoperating_surgeonnn	findvboperating_surgeonnn	breakthroughnnofinsurgeonnn	breakthroughnnofinsawbonesnn	findnnofinoperating_surgeonnn	findernnofinsurgeonnn	findnnofinsurgeonnn	findvbsawbonesnn	bumpvbsurgeonnn	bumpvbsawbonesnn	breakthroughnnofinoperating_surgeonnn	discoverynnofinsawbonesnn	happenvboperating_surgeonnn	chancevboperating_surgeonnn	discoverynnofinsurgeonnn	happenvbsawbonesnn	happenvbsurgeonnn	
+
+BE: putVBherPRP
+EQ class: layvbherprp	setvbherprp	posevbherprp	positionvbherprp	placevbherprp	
+
+BE: removingVBGtumorNN
+EQ class: takevbgtumournn	take_awayvbgtumournn	removernnofintumornn	removevbgtumournn	withdrawvbgneoplasmnn	removevbgneoplasmnn	withdrawvbgtumornn	remotionnnofinneoplasmnn	withdrawvbgtumournn	remotionnnofintumournn	remotionnnofintumornn	removernnofinneoplasmnn	takevbgtumornn	removingvbgtumournn	take_awayvbgtumornn	removalnnofintumornn	take_awayvbgneoplasmnn	removalnnofintumournn	removingvbgneoplasmnn	takevbgneoplasmnn	removevbgtumornn	removernnofintumournn	removalnnofinneoplasmnn	
+
+BE: putVBonINdialysisNN
+EQ class: positionvbonindialysisnn	placevbonindialysisnn	posevbonindialysisnn	setvbonindialysisnn	layvbonindialysisnn	
+
+BE: putVBwhileINremovingVBG
+EQ class: placevbwhileinremovingvbg	placevbwhileintake_awayvbg	setvbwhileintake_awayvbg	positionvbwhileintake_awayvbg	positionvbwhileinremovevbg	putvbwhileintakevbg	placevbwhileinremovevbg	setvbwhileinwithdrawvbg	posevbwhileinwithdrawvbg	layvbwhileinremovevbg	positionvbwhileinwithdrawvbg	layvbwhileintake_awayvbg	setvbwhileinremovevbg	setvbwhileinremovingvbg	layvbwhileinremovingvbg	putvbwhileintake_awayvbg	placevbwhileintakevbg	posevbwhileintake_awayvbg	putvbwhileinremovevbg	posevbwhileintakevbg	setvbwhileintakevbg	layvbwhileintakevbg	posevbwhileinremovevbg	putvbwhileinwithdrawvbg	placevbwhileinwithdrawvbg	posevbwhileinremovingvbg	positionvbwhileintakevbg	positionvbwhileinremovingvbg	layvbwhileinwithdrawvbg	
+

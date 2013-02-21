@@ -1,0 +1,115 @@
+#How can the arts be a more integral part of school education??
+#(S1 (SBARQ (WHADVP (WRB How)) (SQ (MD can) (NP (DT the) (NNS arts)) (VP (AUX be) (NP (NP (DT a) (RBR more) (JJ integral) (NN part)) (PP (IN of) (NP (NN school) (NN education))))) (. ?)) (. ?)))
+#Rule:Nouns
+r1artsNNS
+r1partNN
+r1schoolNN
+r1educationNN
+
+#Rule:Adjs
+r4integralJJ
+
+#Rule:Adj-Noun
+r5integralJJpartNN
+
+#Rule:N-HeadNoun
+r8schoolNNeducationNN
+
+#Rule:V-HeadNoun
+r21beAUXpartNN
+
+#Rule:PPinNP
+r26partNNofINeducationNN
+
+#With school education becoming more and more geared to providing successful career opportunities in an increasingly competitive world, arts such as music, dance, painting and theatre seem to be disappearing from school curriculum and syllabi. What can we do to cure this deficiency??
+#(S1 (S (PP (IN With) (S (NP (NN school) (NN education)) (VP (VBG becoming) (ADJP (ADVP (RBR more) (CC and) (RBR more)) (VBN geared) (PP (TO to) (S (VP (VBG providing) (NP (JJ successful) (NN career) (NNS opportunities)) (PP (IN in) (NP (DT an) (RB increasingly) (JJ competitive) (NN world)))))))))) (, ,) (NP (NNS arts) (PP (JJ such) (IN as) (NP (NN music) (, ,) (NN dance) (, ,) (NN painting) (CC and) (FW theatre)))) (VP (VBP seem) (S (VP (TO to) (VP (VP (AUX be) (VP (VBG disappearing) (PP (IN from) (NP (NN school) (NN curriculum))))) (CC and) (VP (VB syllabi.) (SBARQ (WHNP (WP What)) (SQ (MD can) (NP (PRP we)) (VP (AUX do) (S (VP (TO to) (VP (VB cure) (NP (DT this) (NN deficiency))))))) (. ?))))))) (. ?)))
+#Rule:Nouns
+r1schoolNN
+r1educationNN
+r1careerNN
+r1opportunitiesNNS
+r1worldNN
+r1artsNNS
+r1musicNN
+r1danceNN
+r1paintingNN
+r1schoolNN
+r1curriculumNN
+r1deficiencyNN
+
+#Rule:Verbs
+r2becomingVBG
+r2gearedVBN
+r2providingVBG
+r2seemVBP
+r2disappearingVBG
+r2syllabiLocationAnnotation
+r2cureVB
+
+#Rule:Adjs
+r4successfulJJ
+r4competitiveJJ
+r4suchJJ
+
+#Rule:Adj-Noun
+r5successfulJJopportunitiesNNS
+r5competitiveJJworldNN
+
+#Rule:N-HeadNoun
+r8schoolNNeducationNN
+r8careerNNopportunitiesNNS
+r8schoolNNcurriculumNN
+
+#Rule:HeadNoun-V
+r11artsNNSseemVBP
+r11educationNNbecomingVBG
+
+#Rule:V-HeadNoun
+r21providingVBGopportunitiesNNS
+r21cureVBdeficiencyNN
+
+#Rule:PPinNP
+r26artsNNSasINpaintingNN
+
+#Rule:PPinVP
+r30providingVBGinINworldNN
+r30disappearingVBGfromINcurriculumNN
+
+#Rule:PPinADJP
+r38moreRBRtoTOprovidingVBG
+
+#YAHOO! ANSWERS staff notice: This is really Shubha Mudgal, the classical singer and performer.
+#(S1 (S (S (NP (NNP YAHOO) (. !)) (VP (VBZ ANSWERS) (NP (NN staff) (NN notice)))) (: :) (S (NP (DT This)) (VP (AUX is) (ADVP (RB really)) (NP (NP (NNP Shubha) (NNP Mudgal)) (, ,) (NP (DT the) (JJ classical) (NN singer) (CC and) (NN performer))))) (. .)))
+#Rule:Nouns
+r1YAHOO! ANSWERSOrganizationAnnotation
+r1staffNN
+r1noticeNN
+r1Shubha MudgalPersonAnnotation
+r1singerNN
+r1performerNN
+
+#Rule:Adjs
+r4classicalJJ
+
+#Rule:Adj-Noun
+r5classicalJJsingerNN
+
+#Rule:N-HeadNoun
+r8staffNNnoticeNN
+
+#Rule:N-ApposN
+r10Shubha MudgalPersonAnnotationsingerNN
+
+#Rule:HeadNoun-V
+r11thisDTisAUX
+
+#Rule:V-HeadNoun
+r21YAHOO! ANSWERSOrganizationAnnotationnoticeNN
+r21isAUXShubha MudgalPersonAnnotation
+
+#Rule:V-ADV
+r46isAUXreallyRB
+
+@lemmas-left	arts	provide	become	disappearing	syllabi	YAHOO! ANSWERS	singer	education	cure	integral	becoming	staff	more	gear	notice	painting	opportunities	be	music	is	Shubha Mudgal	such	career	providing	seem	opportunity	school	classical	deficiency	performer	competitive	successful	curriculum	part	geared	disappear	this	dance	world	
+@lemmas-right	is	Shubha Mudgal	provide	become	singer	providing	education	seem	becoming	really	opportunity	deficiency	curriculum	notice	part	opportunities	painting	world	be	
+@lemmas-center	to	of	as	from	in	

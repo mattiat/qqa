@@ -1,0 +1,16 @@
+#maybe because it sank and people died
+#(S1 (FRAG (RB maybe) (SBAR (IN because) (S (S (NP (PRP it)) (VP (VBD sank))) (CC and) (S (NP (NNS people)) (VP (VBD died)))))))
+#Rule:Nouns
+r1peopleNNS
+
+#Rule:Verbs
+r2sankVBD
+r2diedVBD
+
+#Rule:HeadNoun-V
+r11itPRPsankVBD
+r11peopleNNSdiedVBD
+
+@lemmas-left	it	died	die	sink	people	sank	
+@lemmas-right	died	die	sink	sank	
+@lemmas-center	

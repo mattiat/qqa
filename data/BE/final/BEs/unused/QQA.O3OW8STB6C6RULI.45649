@@ -1,0 +1,28 @@
+#i don,t know,but my eyes are wide open.
+#(S1 (S (S (NP (PRP i)) (VP (VB don) (, ,) (ADVP (RB t)) (VBP know))) (, ,) (CC but) (S (NP (PRP$ my) (NNS eyes)) (VP (AUX are) (ADJP (RB wide) (JJ open)))) (. .)))
+#Rule:Nouns
+r1eyesNNS
+
+#Rule:Verbs
+r2donLocationAnnotation
+r2knowVBP
+
+#Rule:Adjs
+r4openJJ
+
+#Rule:PRP-Noun
+r6myPRP$eyesNNS
+
+#Rule:HeadNoun-V
+r11iPRPdonLocationAnnotation
+r11eyesNNSareAUX
+
+#Rule:V-ADJ
+r25areAUXopenJJ
+
+#Rule:V-ADV
+r46donLocationAnnotationtRB
+
+@lemmas-left	open	are	don	my	know	be	i	eyes	
+@lemmas-right	open	t	are	don	be	eyes	
+@lemmas-center	

@@ -1,0 +1,60 @@
+BE: patentNN
+EQ class: patent_of_inventionnn	
+
+BE: stageNN
+EQ class: phasenn	
+
+BE: colonNN
+EQ class: colonicjj	
+
+BE: cancerNN
+EQ class: cancerousjj	malignant_neoplastic_diseasenn	
+
+BE: diagnosedVBN
+EQ class: diagnosevbn	namevbn	
+
+BE: liveVB
+EQ class: inhabitvb	populatevb	dwellvb	
+
+BE: recentJJ
+EQ class: recencynn	recentnessnn	
+
+BE: recentJJpatentNN
+EQ class: recencynnpatent_of_inventionnn	recentnessnnpatent_of_inventionnn	patentvbrecentlyrb	recentjjpatent_of_inventionnn	recentnessnnpatentnn	recencynnpatentnn	
+
+BE: diagnosedVBNpatentNN
+EQ class: diagnosedvbnpatent_of_inventionnn	namevbnpatentnn	namevbnpatent_of_inventionnn	diagnosisnnofinpatentnn	diagnosevbnpatent_of_inventionnn	diagnosevbnpatentnn	diagnosingnnofinpatent_of_inventionnn	diagnosisnnofinpatent_of_inventionnn	diagnosticjjofinpatent_of_inventionnn	diagnosingnnofinpatentnn	diagnosticjjofinpatentnn	
+
+BE: 4CDcancerNN
+EQ class: 4cdcancerousjj	ivcdmalignant_neoplastic_diseasenn	quartetcdcancerousjj	ivcdcancernn	quaterncdcancerousjj	quartetcdmalignant_neoplastic_diseasenn	little_joecdcancernn	4.cdcancerousjj	quaternitycdcancerousjj	quaternioncdmalignant_neoplastic_diseasenn	ivcdcancerousjj	4cdmalignant_neoplastic_diseasenn	tetradcdcancerousjj	fourcdcancernn	tetradcdmalignant_neoplastic_diseasenn	quadrupletcdmalignant_neoplastic_diseasenn	quartetcdcancernn	quaternioncdcancerousjj	quaternitycdmalignant_neoplastic_diseasenn	quaternitycdcancernn	quaternarycdmalignant_neoplastic_diseasenn	foursomecdcancernn	tetradcdcancernn	quadrupletcdcancernn	little_joecdcancerousjj	quaterncdmalignant_neoplastic_diseasenn	quaternarycdcancerousjj	quaternioncdcancernn	quadrupletcdcancerousjj	4.cdcancernn	little_joecdmalignant_neoplastic_diseasenn	fourcdmalignant_neoplastic_diseasenn	quaterncdcancernn	foursomecdcancerousjj	foursomecdmalignant_neoplastic_diseasenn	fourcdcancerousjj	4.cdmalignant_neoplastic_diseasenn	quaternarycdcancernn	
+
+BE: colonNNcancerNN
+EQ class: cancerousvbcolonicjj	cancerousjjofincolonicjj	colonicjjcancerousjj	malignant_neoplastic_diseasennofincolonnn	cancernnofincolonicjj	colonicjjcancerousvb	colonicjjmalignant_neoplastic_diseasenn	colonnncancerousvb	colonnncancerousjj	colonicjjcancernn	colonnnmalignant_neoplastic_diseasenn	cancerousjjofincolonnn	cancernnofincolonnn	malignant_neoplastic_diseasennofincolonicjj	cancerousvbcolonnn	
+
+BE: patentNNwithINcancerNN
+EQ class: patentvbmalignant_neoplastic_diseasenn	patent_of_inventionnnwithincancerousjj	cancerousjjpatentnn	patent_of_inventionnnwithincancernn	malignant_neoplastic_diseasennpatentnn	cancernnpatentvb	cancerousjjpatent_of_inventionnn	malignant_neoplastic_diseasennpatent_of_inventionnn	cancernnpatentnn	patentnnwithincancerousjj	patentvbcancerousjj	patentvbcancernn	malignant_neoplastic_diseasennpatentvb	cancernnpatent_of_inventionnn	patentnnwithinmalignant_neoplastic_diseasenn	cancerousjjpatentvb	patent_of_inventionnnwithinmalignant_neoplastic_diseasenn	
+
+BE: teacherNN
+EQ class: instructornn	
+
+BE: formerJJ
+EQ class: 
+
+BE: curiousJJ
+EQ class: singularjj	rummyjj	curiousnessnn	rumjj	curiositynn	oddjj	funnyjj	peculiarjj	queerjj	
+
+BE: formerJJteacherNN
+EQ class: teachvbformerlyrb	learnvbformerlyrb	teachershipvbformerlyrb	formerjjinstructornn	instructvbformerlyrb	
+
+BE: teacherNNhasAUX
+EQ class: instructornnholdaux	rich_personnnofinteachernn	teachernnhave_gotaux	wealthy_personnnofininstructornn	instructornnhave_gotaux	instructornnhasaux	teachernnhaveaux	rich_personnnofininstructornn	havennofininstructornn	instructornnhaveaux	teachernnholdaux	wealthy_personnnofinteachernn	havennofinteachernn	
+
+BE: iPRPwasAUX
+EQ class: iprpbeaux	
+
+BE: wasAUXcuriousJJ
+EQ class: beauxrumjj	beauxsingularjj	beauxcuriositynn	beauxcuriousjj	beauxqueerjj	wasauxpeculiarjj	beauxrummyjj	wasauxoddjj	wasauxcuriousnessnn	wasauxcuriositynn	beauxoddjj	beauxcuriousnessnn	wasauxfunnyjj	beauxpeculiarjj	wasauxrummyjj	wasauxqueerjj	wasauxsingularjj	beauxfunnyjj	wasauxrumjj	
+
+BE: hasAUXthatINwasAUX
+EQ class: hasauxthatinbeaux	holdauxthatinwasaux	have_gotauxthatinbeaux	have_gotauxthatinwasaux	haveauxthatinbeaux	holdauxthatinbeaux	haveauxthatinwasaux	
+

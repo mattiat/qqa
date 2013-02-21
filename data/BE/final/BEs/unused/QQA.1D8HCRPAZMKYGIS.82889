@@ -1,0 +1,203 @@
+#I am a cancer nurse and have treated patients with cancers directly related to smoking.  
+#(S1 (S (NP (PRP I)) (VP (VP (AUX am) (NP (DT a) (NN cancer) (NN nurse))) (CC and) (VP (AUX have) (VP (VBN treated) (NP (NP (NNS patients)) (PP (IN with) (NP (NP (NNS cancers)) (VP (ADVP (RB directly)) (VBN related) (PP (TO to) (NP (NN smoking)))))))))) (. .)))
+#Rule:Nouns
+r1cancerNN
+r1nurseNN
+r1patientsNNS
+r1cancersNNS
+r1smokingNN
+
+#Rule:Verbs
+r2treatedVBN
+r2relatedVBN
+
+#Rule:N-HeadNoun
+r8cancerNNnurseNN
+
+#Rule:HeadNoun-V
+r11iPRPamAUX
+
+#Rule:HeadNoun-V
+r12iPRPtreatedVBN
+
+#Rule:V-HeadNoun
+r21amAUXnurseNN
+r21treatedVBNpatientsNNS
+
+#Rule:V-HeadNoun(passive)
+r24relatedVBNcancersNNS
+
+#Rule:PPinNP
+r26patientsNNSwithINcancersNNS
+
+#Rule:PPinVP
+r32relatedVBNtoTOsmokingNN
+
+#Rule:V-ADV
+r46relatedVBNdirectlyRB
+
+#Example 35 yr old female with 2 kids under 10.  
+#(S1 (S (NP (NN Example) (CD 35)) (VP (VBZ yr) (NP (JJ old) (NN female)) (PP (IN with) (NP (CD 2) (NNS kids) (QP (IN under) (CD 10))))) (. .)))
+#Rule:Nouns
+r1ExampleNN
+r1femaleNN
+r1kidsNNS
+
+#Rule:Verbs
+r2yrVBZ
+
+#Rule:Adjs
+r4oldJJ
+
+#Rule:Adj-Noun
+r535CDExampleNN
+r5oldJJfemaleNN
+r52CDkidsNNS
+r510CDkidsNNS
+
+#Rule:HeadNoun-V
+r11ExampleNNyrVBZ
+
+#Rule:V-HeadNoun
+r21yrVBZfemaleNN
+
+#Rule:PPinVP
+r30yrVBZwithINkidsNNS
+
+#She died  with lung cancer.  
+#(S1 (S (NP (PRP She)) (VP (VBD died) (PP (IN with) (NP (NN lung) (NN cancer)))) (. .)))
+#Rule:Nouns
+r1lungNN
+r1cancerNN
+
+#Rule:Verbs
+r2diedVBD
+
+#Rule:N-HeadNoun
+r8lungNNcancerNN
+
+#Rule:HeadNoun-V
+r11shePRPdiedVBD
+
+#Rule:PPinVP
+r30diedVBDwithINcancerNN
+
+#A 50 yr old grandma of 3 who cannot breath without bipap She has smoked for 40 years and is gasping for every breath. 
+#(S1 (S (NP (NP (DT A) (ADJP (NP (CD 50) (NNS yr)) (JJ old)) (NN grandma)) (PP (IN of) (NP (NNP 3))) (SBAR (WHNP (WP who)) (S (VP (VBP cannot) (NP (NN breath)) (PP (IN without) (NP (NN bipap))))))) (NP (PRP She)) (VP (VP (AUX has) (VP (VBN smoked) (PP (IN for) (NP (CD 40) (NNS years))))) (CC and) (VP (AUX is) (VP (VBG gasping) (PP (IN for) (NP (DT every) (NN breath)))))) (. .)))
+#Rule:Nouns
+r1yrNNS
+r1grandmaNN
+r13NNP
+r1breathNN
+r1bipapNN
+r1yearsNNS
+r1breathNN
+
+#Rule:Verbs
+r2cannotVBP
+r2smokedVBN
+r2gaspingVBG
+
+#Rule:Adjs
+r4oldJJ
+
+#Rule:Adj-Noun
+r5oldJJgrandmaNN
+r550CDyrNNS
+r540CDyearsNNS
+
+#Rule:HeadNoun-V
+r11grandmaNNgaspingVBG
+r11shePRPgaspingVBG
+
+#Rule:HeadNoun-V
+r12grandmaNNsmokedVBN
+r12shePRPsmokedVBN
+
+#Rule:HeadNoun-(who/that)-V
+r14grandmaNNcannotVBP
+
+#Rule:V-HeadNoun
+r21cannotVBPbreathNN
+
+#Rule:PPinNP
+r26grandmaNNofIN3NNP
+
+#Rule:PPinVP
+r30cannotVBPwithoutINbipapNN
+r30gaspingVBGforINbreathNN
+
+#Rule:PPinVP
+r32smokedVBNforINyearsNNS
+
+#Yeah!  
+#(S1 (INTJ (UH Yeah) (. !)))
+#They are thinking they are sooo Coool. 
+#(S1 (S (NP (PRP They)) (VP (AUX are) (VP (VBG thinking) (SBAR (S (NP (PRP they)) (VP (AUX are) (NP (JJ sooo) (NNP Coool))))))) (. .)))
+#Rule:Nouns
+r1CooolOrganizationAnnotation
+
+#Rule:Verbs
+r2thinkingVBG
+
+#Rule:Adjs
+r4soooJJ
+
+#Rule:Adj-Noun
+r5soooJJCooolOrganizationAnnotation
+
+#Rule:HeadNoun-V
+r11theyPRPthinkingVBG
+r11theyPRPareAUX
+
+#Rule:V-HeadNoun
+r21areAUXCooolOrganizationAnnotation
+
+#Your an idiot. 
+#(S1 (FRAG (NP (PRP$ Your) (NP (DT an) (NN idiot))) (. .)))
+#Rule:Nouns
+r1idiotNN
+
+#Rule:PRP-Noun
+r6yourPRP$idiotNN
+
+#I disagree.  
+#(S1 (S (NP (PRP I)) (VP (VBP disagree)) (. .)))
+#Rule:Verbs
+r2disagreeVBP
+
+#Rule:HeadNoun-V
+r11iPRPdisagreeVBP
+
+#You need to get out and see some reality. 
+#(S1 (S (NP (PRP You)) (VP (AUX need) (S (VP (TO to) (VP (VP (VB get) (ADVP (RB out))) (CC and) (VP (VB see) (NP (DT some) (NN reality))))))) (. .)))
+#Rule:Nouns
+r1realityNN
+
+#Rule:Verbs
+r2getVB
+r2seeVB
+
+#Rule:HeadNoun-V
+r11youPRPneedAUX
+
+#Rule:V-HeadNoun
+r21seeVBrealityNN
+
+#Rule:V-ADV
+r46getVBoutRB
+
+#Apparently you are sheltered.
+#(S1 (S (ADVP (RB Apparently)) (NP (PRP you)) (VP (AUX are) (VP (VBN sheltered))) (. .)))
+#Rule:Verbs
+r2shelteredVBN
+
+#Rule:V-HeadNoun(passive)
+r23shelteredVBNyouPRP
+
+#Rule:V-ADV
+r46areAUXApparentlyRB
+
+@lemmas-left	relate	they	old	35	gasping	smoked	kid	related	are	shelter	nurse	died	40	she	idiot	bipap	grandma	be	breath	think	get	disagree	kids	reality	smoke	3	2	sheltered	thinking	example	years	treat	Example	patient	patients	gasp	smoking	die	treated	Coool	your	you	sooo	cannot	cancers	i	lung	10	see	female	yr	am	cancer	50	
+@lemmas-right	need	Apparently	gasping	smoked	kid	are	Example	patients	patient	gasp	nurse	died	smoking	die	idiot	treated	apparently	Coool	bipap	directly	grandma	breath	be	think	you	disagree	kids	reality	cannot	smoke	cancers	3	thinking	female	am	yr	example	years	cancer	out	treat	
+@lemmas-center	to	of	with	for	without	

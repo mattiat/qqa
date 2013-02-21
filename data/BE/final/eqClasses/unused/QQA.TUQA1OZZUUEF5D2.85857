@@ -1,0 +1,162 @@
+BE: vetNN
+EQ class: veterinariannn	veterinary_surgeonnn	veterinarynn	
+
+BE: ekgNN
+EQ class: electrocardiogramnn	ecgnn	cardiogramnn	
+
+BE: heartNN
+EQ class: bosomnn	
+
+BE: rhythmNN
+EQ class: musical_rhythmnn	beatnn	
+
+BE: natureNN
+EQ class: 
+
+BE: diseaseNN
+EQ class: 
+
+BE: processNN
+EQ class: procedurenn	
+
+BE: determineVB
+EQ class: findvb	ascertainvb	find_outvb	
+
+BE: congenitalJJ
+EQ class: innatejj	inbornjj	
+
+BE: heartNNrhythmNN
+EQ class: bosomnnrhythmnn	heartnnmusical_rhythmnn	bosomnnmusical_rhythmnn	rhythmnnofinbosomnn	musical_rhythmnnofinheartnn	beatnnofinheartnn	beatnnofinbosomnn	bosomnnbeatnn	rhythmnnofinheartnn	heartnnbeatnn	musical_rhythmnnofinbosomnn	
+
+BE: diseaseNNprocessNN
+EQ class: treatvbdiseasenn	procedurennofindiseasenn	diseasennprocedurenn	processvbdiseasenn	diseasennprocessvb	processnnofindiseasenn	diseasenntreatvb	
+
+BE: rhythmNNisAUX
+EQ class: rhythmnnbeaux	beatnnbeaux	beatnnisaux	musical_rhythmnnisaux	musical_rhythmnnbeaux	
+
+BE: needAUXvetNN
+EQ class: demandauxveterinarynn	postulateauxveterinarynn	postulateauxveterinary_surgeonnn	takeauxvetnn	needauxveterinarynn	requireauxveterinarynn	demandnnofinveterinary_surgeonnn	necessitateauxvetnn	necessitateauxveterinarynn	involveauxveterinarynn	needauxveterinary_surgeonnn	demandauxveterinariannn	askauxveterinariannn	requireauxveterinariannn	demandnnofinveterinarynn	necessitateauxveterinary_surgeonnn	call_forauxveterinary_surgeonnn	postulateauxvetnn	involveauxveterinariannn	demandnnofinvetnn	involveauxveterinary_surgeonnn	postulateauxveterinariannn	neednnofinvetnn	requireauxvetnn	needauxveterinariannn	call_forauxvetnn	call_forauxveterinarynn	neednnofinveterinary_surgeonnn	requireauxveterinary_surgeonnn	askauxvetnn	askauxveterinary_surgeonnn	takeauxveterinary_surgeonnn	necessitateauxveterinariannn	demandnnofinveterinariannn	demandauxvetnn	askauxveterinarynn	call_forauxveterinariannn	neednnofinveterinariannn	neednnofinveterinarynn	takeauxveterinariannn	involveauxvetnn	demandauxveterinary_surgeonnn	takeauxveterinarynn	
+
+BE: doAUXekgNN
+EQ class: makeauxecgnn	doauxcardiogramnn	doauxecgnn	doauxelectrocardiogramnn	makeauxelectrocardiogramnn	makeauxekgnn	makeauxcardiogramnn	
+
+BE: isAUXcongenitalJJ
+EQ class: isauxinnatejj	beauxcongenitaljj	isauxinbornjj	beauxinbornjj	beauxinnatejj	
+
+BE: congenitalJJinINnatureNN
+EQ class: innatejjininnaturenn	inbornjjininnaturenn	
+
+BE: congenitalJJinINprocessNN
+EQ class: congenitaljjininprocedurenn	inbornjjininprocedurenn	innatejjininprocedurenn	inbornjjininprocessnn	innatejjininprocessnn	
+
+BE: determineVBifINisAUX
+EQ class: ascertainvbifinisaux	find_outvbifinisaux	ascertainvbifinbeaux	findvbifinisaux	find_outvbifinbeaux	determinevbifinbeaux	findvbifinbeaux	
+
+BE: diseaseNN
+EQ class: 
+
+BE: processNN
+EQ class: procedurenn	
+
+BE: lifeNN
+EQ class: 
+
+BE: expectancyNN
+EQ class: anticipationnn	expectantjj	
+
+BE: liveVB
+EQ class: inhabitvb	populatevb	dwellvb	
+
+BE: herPRP$expectancyNN
+EQ class: expectantvbherprp$	expectantjjofinherprp$	herprp$expectantjj	expectancynnofinherprp$	herprp$anticipationnn	herprp$expectantvb	anticipationnnofinherprp$	
+
+BE: diseaseNNprocessNN
+EQ class: treatvbdiseasenn	procedurennofindiseasenn	diseasennprocedurenn	processvbdiseasenn	diseasennprocessvb	processnnofindiseasenn	diseasenntreatvb	
+
+BE: lifeNNexpectancyNN
+EQ class: lifennanticipationnn	lifennexpectantvb	expectancynnofinlifenn	lifennexpectantjj	expectantjjofinlifenn	expectantvblifenn	anticipationnnofinlifenn	
+
+BE: shePRPliveVB
+EQ class: liveryjjofinsheprp	livernnofinsheprp	sheprpdwellvb	liveryjjsheprp	liveablennofinsheprp	sheprppopulatevb	livablennofinsheprp	sheprpinhabitvb	livernnsheprp	
+
+BE: itPRPisAUX
+EQ class: itprpbeaux	
+
+BE: isAUXprocessNN
+EQ class: isauxprocedurenn	beauxprocedurenn	beauxprocessnn	
+
+BE: isAUXnotRB
+EQ class: beauxnotrb	
+
+BE: liveVBasRB
+EQ class: dwellvbasrb	liveryjjofinasrb	livablennofinasrb	liveablennofinasrb	inhabitvbasrb	livernnofinasrb	populatevbasrb	
+
+BE: liveVBlongRB
+EQ class: livablennofinlongrb	inhabitvblongrb	livernnofinlongrb	liveryjjofinlongrb	liveablennofinlongrb	populatevblongrb	dwellvblongrb	
+
+BE: timeNN
+EQ class: clipnn	
+
+BE: hopeVBP
+EQ class: desirevbp	trustvbp	
+
+BE: livesVBZ
+EQ class: dwellvbz	livevbz	inhabitvbz	populatevbz	
+
+BE: ..VBG
+EQ class: vbg	
+
+BE: longJJ
+EQ class: longnessnn	
+
+BE: longJJtimeNN
+EQ class: longnessnnclipnn	longjjclipnn	longnessnntimenn	
+
+BE: iPRPhopeVBP
+EQ class: hopennofiniprp	iprptrustvbp	hopernnofiniprp	iprpdesirevbp	hopernniprp	
+
+BE: shePRPlivesVBZ
+EQ class: liveryjjofinsheprp	sheprpdwellvbz	livernnofinsheprp	sheprpinhabitvbz	liveryjjsheprp	sheprppopulatevbz	liveablennofinsheprp	livablennofinsheprp	sheprplivevbz	livernnsheprp	
+
+BE: livesVBZtimeNN
+EQ class: liveryjjofinclipnn	inhabitvbzclipnn	populatevbzclipnn	dwellvbzclipnn	inhabitvbztimenn	livevbzclipnn	livevbztimenn	livernnofintimenn	dwellvbztimenn	livernnofinclipnn	liveablennofinclipnn	liveablennofintimenn	liveryjjofintimenn	livesvbzclipnn	livablennofinclipnn	populatevbztimenn	livablennofintimenn	
+
+BE: timeNN..VBG
+EQ class: clipnn..vbg	clipnnvbg	timennvbg	
+
+BE: English BulldogsOrganizationAnnotation
+EQ class: 
+
+BE: costNN
+EQ class: 
+
+BE: companionNN
+EQ class: familiarnn	fellownn	comradenn	associatenn	
+
+BE: knowingVBG
+EQ class: cognisevbg	cognizevbg	knowvbg	
+
+BE: knowingVBG
+EQ class: cognisevbg	cognizevbg	knowvbg	
+
+BE: closeJJ
+EQ class: closenessnn	
+
+BE: closeJJcompanionNN
+EQ class: companyvbcloselyrb	accompanyvbcloselyrb	companionvbcloselyrb	closenessnnassociatenn	closejjcomradenn	closejjassociatenn	closenessnncomradenn	closenessnnfellownn	closejjfellownn	companionshipvbcloselyrb	keep_companyvbcloselyrb	closenessnnfamiliarnn	closejjfamiliarnn	closenessnncompanionnn	
+
+BE: theyPRPbeAUX
+EQ class: english bulldogsprpbeaux	
+
+BE: English BulldogsOrganizationAnnotationknowingVBG
+EQ class: knowingnnenglish bulldogsorganizationannotation	apprehendernnofinenglish bulldogsorganizationannotation	knowernnenglish bulldogsorganizationannotation	english bulldogsorganizationannotationknowvbg	apprehendernnenglish bulldogsorganizationannotation	knowernnofinenglish bulldogsorganizationannotation	knowablennofinenglish bulldogsorganizationannotation	english bulldogsorganizationannotationcognisevbg	english bulldogsorganizationannotationcognizevbg	knowingnnofinenglish bulldogsorganizationannotation	
+
+BE: knowingVBGcompanionNN
+EQ class: cognisevbgfamiliarnn	knowvbgassociatenn	apprehendernnofinassociatenn	knowingnnofinfamiliarnn	knowingnnofinfellownn	knowingvbgassociatenn	cognizevbgassociatenn	knowingnnofincomradenn	knowingnnofinassociatenn	knowvbgfellownn	knowingvbgfamiliarnn	apprehendernnofincomradenn	knowablennofincompanionnn	apprehendernnofinfellownn	cognizevbgfellownn	cognisevbgassociatenn	knowvbgcomradenn	knowablennofinassociatenn	knowernnofincomradenn	knowernnofincompanionnn	knowernnofinassociatenn	cognizevbgcomradenn	cognizevbgcompanionnn	knowingvbgcomradenn	cognisevbgcomradenn	knowvbgfamiliarnn	cognizevbgfamiliarnn	apprehendernnofincompanionnn	knowablennofincomradenn	cognisevbgfellownn	apprehendernnofinfamiliarnn	knowablennofinfellownn	knowernnofinfamiliarnn	knowingvbgfellownn	knowablennofinfamiliarnn	knowernnofinfellownn	cognisevbgcompanionnn	knowingnnofincompanionnn	knowvbgcompanionnn	
+
+BE: knowingVBGimportantlyRB
+EQ class: importancennknowingnn	of_importjjapprehendernn	importancenninincognizevbg	importantjjinincognisevbg	knowvbgimportantlyrb	importantjjknowernn	of_importjjinincognizevbg	of_importjjininknowingvbg	of_importjjininknowingnn	knowablennofinimportantlyrb	of_importjjininknowernn	of_importjjknowingnn	importancennininknowvbg	importantjjinincognizevbg	importantjjininknowingvbg	cognizevbgimportantlyrb	importantjjknowingnn	importantjjininapprehendernn	cognisevbgimportantlyrb	of_importjjknowernn	knowernnofinimportantlyrb	importantjjininknowvbg	importancennknowernn	importancennininknowingnn	importancennininapprehendernn	importantjjininknowernn	knowingnnofinimportantlyrb	importantjjininknowingnn	apprehendernnofinimportantlyrb	importancennapprehendernn	of_importjjinincognisevbg	of_importjjininknowvbg	of_importjjininapprehendernn	importancennininknowernn	importancennininknowingvbg	importantjjapprehendernn	importancenninincognisevbg	
+
+BE: theyPRPknowingVBG
+EQ class: theyprpcognisevbg	english bulldogsprpknowingvbg	apprehendernnenglish bulldogsprp	apprehendernntheyprp	knowernnofinenglish bulldogsprp	theyprpknowvbg	knowablennofintheyprp	english bulldogsprpknowvbg	knowingnnofinenglish bulldogsprp	knowablennofinenglish bulldogsprp	knowernnofintheyprp	apprehendernnofintheyprp	apprehendernnofinenglish bulldogsprp	english bulldogsprpcognizevbg	knowernnenglish bulldogsprp	english bulldogsprpcognisevbg	knowingnnofintheyprp	knowernntheyprp	theyprpcognizevbg	knowingnntheyprp	knowingnnenglish bulldogsprp	
+

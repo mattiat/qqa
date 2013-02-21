@@ -1,0 +1,66 @@
+#x^2+8x+12 To find the factors of te expression, solve the equation.use the discriminant to solve x^2+8x+12  =0D = 8^2 -4(12) = 16 =4^2x1 = (-8 -4)/2 = -6x2 = (-8 +4)/2 = -2x^2+8x+12 = (x - x1)(x - x2)x^2+8x+12  = (x +6)(x+2)288^(1/5)288 = 2*2*2*2*2*3^2 = (2^5)(9)288^(1/5) = 2 (9^(1/5))
+#(S1 (NP (NN x^2+8x+12) (S (VP (TO To) (VP (VP (VB find) (NP (NP (DT the) (NNS factors)) (PP (IN of) (NP (CD te) (NN expression))))) (, ,) (VP (VB solve) (NP (DT the) (NN equation.use)) (S (NP (DT the) (NN discriminant)) (VP (TO to) (VP (VB solve) (NP (QP (CD x^2+8x+12) (CD =0D) (SYM =) (CD 8^2) (CD -4))) (S (-LRB- -LRB-) (NP (CD 12)) (-RRB- -RRB-) (NP (NP (NP (QP (SYM =) (CD 16) (CD =4^2x1) (SYM =) (NP (NP (NP (NP (NP (NP (NP (-LRB- -LRB-) (JJ -8) (NN -4) (-RRB- -RRB-) (NN /2)) (X (SYM =))) (JJ -6x2) (SYM =) (NP (NP (-LRB- -LRB-) (JJ -8) (NN +4) (-RRB- -RRB-) (NN /2)) (X (SYM =)) (CD -2x^2+8x+12))) (NP (SYM =))) (-LRB- -LRB-) (NP (NP (NNP x)) (: -) (NP (CD x1))) (-RRB- -RRB-) (-LRB- -LRB-) (NP (NNP x)) (: -) (NP (NNS x2)) (-RRB- -RRB-)) (NP (CD x^2+8x+12) (NP (NP (NP (SYM =)) (-LRB- -LRB-) (NP (NNP x) (CD +6)) (-RRB- -RRB-)) (PRN (-LRB- -LRB-) (NP (CD x+2)) (-RRB- -RRB-))) (NNS 288^))) (PRN (-LRB- -LRB-) (NP (CD 1/5)) (-RRB- -RRB-))) (CD 288) (SYM =) (CD 2) (CD *) (CD 2)) (NN *)) (NP (NP (QP (CD 2) (CD *))) (NP (QP (CD 2) (CD *)) (NP (NP (NP (QP (CD 2) (CD *)) (JJ 3^2) (SYM =)) (-LRB- -LRB-) (NP (CD 2^5)) (-RRB- -RRB-)) (PRN (-LRB- -LRB-) (NP (CD 9)) (-RRB- -RRB-))) (NN 288^) (S (-LRB- -LRB-) (NP (NN 1/5)) (-RRB- -RRB-) (VP (SYM =) (NP (CD 2))))))) (PRN (-LRB- -LRB-) (JJ 9^) (-LRB- -LRB-) (NP (CD 1/5)) (-RRB- -RRB-)))))))))))))
+#Rule:Nouns
+r1x^2+8x+12NN
+r1factorsNNS
+r1expressionNN
+r1equation.useNN
+r1discriminantNN
+r1-4NN
+r1/2NN
+r1+4NN
+r1/2NN
+r1x - x1OrganizationAnnotation
+r1x - x2)xOrganizationAnnotation
+r1xNNP
+r1288^NNS
+r12*2*2*2*2*3^2 =PersonAnnotation
+r1288^NN
+r11/5NN
+
+#Rule:Verbs
+r2findVB
+r2solveVB
+r2solveVB
+
+#Rule:Adjs
+r4-8JJ
+r4-6x2JJ
+r4-8JJ
+r49^JJ
+
+#Rule:Adj-Noun
+r5teCDexpressionNN
+r5^2+8x+12  =0D = 8PersonAnnotationx^2+8x+12CD
+r58^2CDx^2+8x+12CD
+r5-4CDx^2+8x+12CD
+r516CD2*2*2*2*2*3^2 =PersonAnnotation
+r5=4^2x1CD2*2*2*2*2*3^2 =PersonAnnotation
+r5288CD2*2*2*2*2*3^2 =PersonAnnotation
+r5-6x2JJ/2NN
+r5-8JJ/2NN
+r5-2x^2+8x+12CD/2NN
+r5-8JJ/2NN
+r5x^2+8x+12CD288^NNS
+r5+6CDxNNP
+r52*2*2*2*2*3^2 =PersonAnnotation288^NN
+
+#Rule:HeadNoun-V
+r11discriminantNNsolveVB
+
+#Rule:V-HeadNoun
+r21findVBfactorsNNS
+r21solveVBequation.useNN
+r21solveVBx^2+8x+12CD
+
+#Rule:V-HeadNoun
+r22solveVBdiscriminantNN
+r22solveVB12CD
+r22solveVB2*2*2*2*2*3^2 =PersonAnnotation
+
+#Rule:PPinNP
+r26factorsNNSofINexpressionNN
+
+@lemmas-left	expression	x^2+8x+12	use	te	-2x^2+8x+12	16	equation.use	2*2*2*2*2*3^2 =	288	solve	288^	x - x1	find	-6x2	^2+8x+12  =0D = 8	discriminant	8^2	factor	x - x2)x	factors	=4^2x1	+4	/2	-4	+6	1/5	-8	x	9^	
+@lemmas-right	expression	x^2+8x+12	discriminant	use	factor	2*2*2*2*2*3^2 =	equation.use	12	solve	factors	/2	288^	x	
+@lemmas-center	of	

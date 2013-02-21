@@ -1,0 +1,163 @@
+#Bookstore!! go get Type 2 Diabetes: TheFirst Year and maybe also Atkins Diabetes Revolution . These 2 books will explain a lot that the doctors and their pamphlets don t bother with..
+#(S1 (FRAG (NP (NN Bookstore)) (. !) (. !) (VP (VB go) (VP (VB get) (NP (NN Type)) (NP (CD 2) (NN Diabetes)))) (: :) (NP (NP (NNP TheFirst) (NNP Year)) (CC and) (ADVP (RB maybe) (RB also)) (NP (NNP Atkins) (NNP Diabetes) (NNP Revolution))) (. .) (S (NP (DT These) (CD 2) (NNS books)) (VP (MD will) (VP (VB explain) (NP (NP (DT a) (NN lot)) (SBAR (IN that) (S (NP (NP (DT the) (NNS doctors)) (CC and) (NP (PRP$ their) (NNS pamphlets))) (VP (VB don) (S (NP (NNS t)) (VP (VB bother) (PP (IN with)))))))))) (. .)) (. .)))
+#Rule:Nouns
+r1Bookstore!!PersonAnnotation
+r1TypeNN
+r1DiabetesNN
+r1TheFirst YearOrganizationAnnotation
+r1Atkins DiabetesPersonAnnotation
+r1RevolutionNNP
+r1booksNNS
+r1lotNN
+r1doctorsNNS
+r1pamphletsNNS
+r1tNNS
+
+#Rule:Verbs
+r2goVB
+r2getVB
+r2explainVB
+r2donVB
+r2botherVB
+
+#Rule:Adj-Noun
+r52CDDiabetesNN
+r52CDbooksNNS
+
+#Rule:PRP-Noun
+r6theirPRP$pamphletsNNS
+
+#Rule:N-HeadNoun
+r8Atkins DiabetesPersonAnnotationRevolutionNNP
+
+#Rule:HeadNoun-V
+r11booksNNSexplainVB
+r11doctorsNNSdonVB
+r11pamphletsNNSdonVB
+r11tNNSbotherVB
+
+#Rule:V-HeadNoun
+r21getVBTypeNN
+r21getVBDiabetesNN
+r21explainVBlotNN
+
+#Rule:V-HeadNoun
+r22donVBtNNS
+
+#Yes, this is a major lifestyle change!! Change of food plan, change of exercise habits, lots of things. The learning curve is extremely sharp. Take everything with several deep breaths and a walk around the block to clear your mind. Take all this with baby steps!! Quit stressing about it, stress causes higher glucose levels..
+#(S1 (S (S (INTJ (UH Yes)) (, ,) (NP (DT this)) (VP (AUX is) (NP (DT a) (JJ major) (NN lifestyle) (NN change))) (. !)) (. !) (NP (NP (NP (NN Change)) (PP (IN of) (NP (NN food) (NN plan)))) (, ,) (NP (NP (NN change)) (PP (IN of) (NP (NN exercise) (NNS habits)))) (, ,) (NP (NP (NNS lots)) (PP (IN of) (NP (NN things.) (S (NP (DT The) (NN learning) (NN curve)) (VP (AUX is) (RB extremely) (VP (VB sharp.) (S (VP (VB Take) (NP (NN everything)) (PP (IN with) (S (NP (NP (JJ several) (JJ deep) (NNS breaths)) (CC and) (NP (NP (DT a) (NN walk)) (PP (IN around) (NP (DT the) (NN block))))) (VP (TO to) (VP (VB clear) (NP (PRP$ your) (NNS mind.) (S (VP (VB Take) (NP (PDT all) (DT this)) (PP (IN with) (NP (NN baby) (NNS steps)))))))) (. !))))))) (. !)))))) (VP (VB Quit) (SBAR (S (S (VP (VBG stressing) (PP (IN about) (NP (PRP it))))) (, ,) (NP (NN stress)) (VP (VBZ causes) (NP (JJR higher) (NN glucose) (NNS levels))) (. .)))) (. .)))
+#Rule:Nouns
+r1lifestyleNN
+r1changeNN
+r1! ChangeOrganizationAnnotation
+r1foodNN
+r1planNN
+r1changeNN
+r1exerciseNN
+r1habitsNNS
+r1lotsNNS
+r1thingsNN
+r1learningNN
+r1curveNN
+r1everythingNN
+r1breathsNNS
+r1walkNN
+r1blockNN
+r1mindNNS
+r1babyNN
+r1stepsNNS
+r1stressNN
+r1glucoseNN
+r1levelsNNS
+
+#Rule:Verbs
+r2sharpVB
+r2takeVB
+r2clearVB
+r2takeVB
+r2quitVB
+r2stressingVBG
+r2causesVBZ
+
+#Rule:Adjs
+r4majorJJ
+r4severalJJ
+r4deepJJ
+r4higherJJR
+
+#Rule:Adj-Noun
+r5majorJJchangeNN
+r5severalJJbreathsNNS
+r5deepJJbreathsNNS
+r5higherJJRlevelsNNS
+
+#Rule:PRP-Noun
+r6yourPRP$mindNNS
+
+#Rule:N-HeadNoun
+r8lifestyleNNchangeNN
+r8foodNNplanNN
+r8exerciseNNhabitsNNS
+r8learningNNcurveNN
+r8babyNNstepsNNS
+r8glucoseNNlevelsNNS
+
+#Rule:N-ApposN
+r10! ChangeOrganizationAnnotationchangeNN
+
+#Rule:HeadNoun-V
+r11! ChangeOrganizationAnnotationquitVB
+r11changeNNquitVB
+r11lotsNNSquitVB
+r11thisDTisAUX
+r11curveNNsharpVB
+r11breathsNNSclearVB
+r11walkNNclearVB
+r11stressNNcausesVBZ
+
+#Rule:V-HeadNoun
+r21isAUXchangeNN
+r21takeVBeverythingNN
+r21clearVBmindNNS
+r21takeVBthisDT
+r21causesVBZlevelsNNS
+
+#Rule:PPinNP
+r26! ChangeOrganizationAnnotationofINplanNN
+r26changeNNofINhabitsNNS
+r26lotsNNSofINthingsNN
+r26walkNNaroundINblockNN
+
+#Rule:PPinVP
+r30takeVBwithINstepsNNS
+r30stressingVBGaboutINitPRP
+
+#Rule:V-ADV
+r46isAUXextremelyRB
+
+#Rule:SubVerbClause
+r50stressNNstressingVBG
+
+#E me privately for more thoughts than I really can put down here.
+#(S1 (S (VP (SYM E) (NP (PRP me)) (ADVP (RB privately)) (PP (IN for) (NP (NP (JJR more) (NNS thoughts)) (SBAR (IN than) (S (NP (PRP I)) (ADVP (RB really)) (VP (MD can) (VP (VB put) (PRT (RP down)) (ADVP (RB here))))))))) (. .)))
+#Rule:Nouns
+r1thoughtsNNS
+
+#Rule:V-PRT
+r3putVBdownRP
+
+#Rule:Adjs
+r4moreJJR
+
+#Rule:Adj-Noun
+r5moreJJRthoughtsNNS
+
+#Rule:HeadNoun-V
+r11iPRPputVB
+
+#Rule:V-ADV
+r46putVBhereRB
+
+@lemmas-left	curve	cause	don	change	revolution	higher	everything	type	bother	doctor	habits	more	level	levels	lifestyle	glucose	doctors	pamphlet	deep	be	breath	thoughts	books	lots	get	stressing	stress	! Change	steps	2	pamphlets	breaths	mind.	food	several	lot	explain	this	causes	walk	Atkins Diabetes	go	put	Type	diabetes	Revolution	TheFirst Year	thought	exercise	block	Bookstore!!	quit	clear	habit	mind	baby	sharp.	major	is	sharp	your	learning	i	Diabetes	t	plan	take	things.	book	things	their	
+@lemmas-right	curve	cause	don	change	revolution	everything	type	bother	habits	level	levels	pamphlet	breath	be	thoughts	books	stressing	stress	here	steps	pamphlets	breaths	mind.	lot	explain	causes	this	put	Type	diabetes	Revolution	block	thought	quit	clear	habit	mind	sharp.	extremely	is	it	sharp	Diabetes	t	plan	things.	book	things	down	
+@lemmas-center	of	with	about	around	

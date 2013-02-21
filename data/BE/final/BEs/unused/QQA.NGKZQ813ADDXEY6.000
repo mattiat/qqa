@@ -1,0 +1,33 @@
+#Why Big Bang Theory differs from The Quran and Originally Holy Books ?
+#(S1 (SBARQ (WHADVP (WRB Why)) (S (NP (NNP Big) (NNP Bang) (NNP Theory)) (VP (VBZ differs) (PP (IN from) (NP (NP (NNP The) (NNP Quran)) (CC and) (ADVP (RB Originally)) (NP (NNP Holy) (NNP Books)))))) (. ?)))
+#Rule:Nouns
+r1Big Bang TheoryOrganizationAnnotation
+r1The QuranOrganizationAnnotation
+r1HolyNNP
+r1BooksPersonAnnotation
+
+#Rule:Verbs
+r2differsVBZ
+
+#Rule:N-HeadNoun
+r8HolyNNPBooksPersonAnnotation
+
+#Rule:HeadNoun-V
+r11Big Bang TheoryOrganizationAnnotationdiffersVBZ
+
+#Rule:PPinVP
+r30differsVBZfromINThe QuranOrganizationAnnotation
+r30differsVBZfromINBooksPersonAnnotation
+
+#Holy Books- Torah, Biblesbonikingv
+#(S1 (NP (NP (NNP Holy) (NNP Books-) (NNP Torah)) (, ,) (NP (NNP Biblesbonikingv))))
+#Rule:Nouns
+r1Holy Books- TorahPersonAnnotation
+r1BiblesbonikingvLocationAnnotation
+
+#Rule:N-ApposN
+r10Holy Books- TorahPersonAnnotationBiblesbonikingvLocationAnnotation
+
+@lemmas-left	differ	Big Bang Theory	The Quran	differs	Books	Biblesbonikingv	Holy	Holy Books- Torah	holy	
+@lemmas-right	differ	The Quran	differs	Books	Biblesbonikingv	
+@lemmas-center	from	

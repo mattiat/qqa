@@ -1,0 +1,157 @@
+#Sorry Lolo cant help here being that I am about as flexable as an Elephant if you know what I mean, and they can even jump!!
+#(S1 (S (ADVP (RB Sorry)) (NP (NNP Lolo) (NN cant)) (VP (VB help) (ADVP (RB here)) (S (VP (AUXG being) (SBAR (IN that) (S (NP (PRP I)) (VP (AUX am) (ADJP (ADJP (RB about) (RB as) (JJ flexable)) (PP (IN as) (NP (DT an) (NN Elephant)))) (SBAR (IN if) (S (NP (PRP you)) (VP (VBP know) (SBAR (WHNP (WP what)) (S (S (NP (PRP I)) (VP (VBP mean))) (, ,) (CC and) (S (NP (PRP they)) (VP (MD can) (ADVP (RB even)) (VP (VB jump)))) (. !)))))))))))) (. !)))
+#Rule:Nouns
+r1Sorry LoloPersonAnnotation
+r1cantNN
+r1ElephantOrganizationAnnotation
+
+#Rule:Verbs
+r2helpVB
+r2knowVBP
+r2meanVBP
+r2jumpVB
+
+#Rule:Adjs
+r4flexableJJ
+
+#Rule:N-HeadNoun
+r8Sorry LoloPersonAnnotationcantNN
+
+#Rule:HeadNoun-V
+r11cantNNhelpVB
+r11iPRPamAUX
+r11youPRPknowVBP
+r11iPRPmeanVBP
+r11theyPRPjumpVB
+
+#Rule:PPinADJP
+r37flexableJJasINElephantOrganizationAnnotation
+
+#Rule:V-IN-V
+r43beingAUXGthatINamAUX
+r43amAUXifINknowVBP
+
+#Rule:V-ADV
+r46helpVBSorry LoloPersonAnnotation
+r46helpVBhereRB
+r46jumpVBevenRB
+
+#Try maybe pushing yourself to the limit. Maybe even do more per day. Everyone s body is different, so your body may not do what someone in your Dance class s does. All I have to say is that good job even getting 8-9 inches off the ground being that I am about 4732847328 inches off. And it still hurts..
+#(S1 (S (S (VP (VB Try) (S (ADVP (RB maybe)) (VP (VBG pushing) (NP (PRP yourself)) (PP (TO to) (NP (DT the) (NN limit.))))))) (ADVP (RB Maybe)) (VP (ADVP (RB even)) (AUX do) (ADJP (ADJP (JJR more)) (SBAR (IN per) (S (NP (CD day.) (NN Everyone)) (VP (VBZ s) (SBAR (S (NP (NN body)) (VP (AUX is) (ADJP (JJ different)) (, ,) (SBAR (IN so) (S (NP (PRP$ your) (NN body)) (VP (MD may) (RB not) (VP (AUX do) (SBAR (WHNP (WP what)) (S (NP (NP (NN someone)) (PP (IN in) (NP (PRP$ your) (NN Dance) (NN class)))) (VP (VBZ s) (ADJP (JJ does.) (SBAR (DT All) (S (NP (PRP I)) (VP (AUX have) (S (VP (TO to) (VP (VB say) (SBAR (S (VP (AUX is) (NP (DT that) (JJ good) (NN job)) (ADVP (RB even)) (VP (VBG getting) (NP (NP (CD 8-9) (NNS inches)) (PP (IN off) (NP (DT the) (NN ground) (AUXG being)))) (SBAR (IN that) (S (NP (PRP I)) (VP (AUX am) (VP (PP (IN about) (NP (NP (CD 4732847328) (NNS inches)) (VP (VBG off.) (SBAR (S (CC And) (NP (PRP it)) (ADVP (RB still)) (VP (VBZ hurts)) (. .)))))))))))))))))))))))))))))))))))) (. .)))
+#Rule:Nouns
+r1limitNN
+r1EveryoneNN
+r1bodyNN
+r1bodyNN
+r1someoneNN
+r1DanceNN
+r1classNN
+r1jobNN
+r1inchesNNS
+r1groundNN
+r1inchesNNS
+
+#Rule:Verbs
+r2tryVB
+r2pushingVBG
+r2sVBZ
+r2sOrganizationAnnotation
+r2sayVB
+r2gettingVBG
+r2offVBG
+r2hurtsVBZ
+
+#Rule:Adjs
+r4moreJJR
+r4differentJJ
+r4doesJJ
+r4goodJJ
+
+#Rule:Adj-Noun
+r5dayCDEveryoneNN
+r5goodJJjobNN
+r58-9CDinchesNNS
+r54732847328CDinchesNNS
+
+#Rule:PRP-Noun
+r6yourPRP$bodyNN
+r6yourPRP$classNN
+
+#Rule:N-HeadNoun
+r8DanceNNclassNN
+
+#Rule:HeadNoun-V
+r11EveryoneNNsVBZ
+r11bodyNNisAUX
+r11bodyNNdoAUX
+r11someoneNNsOrganizationAnnotation
+r11iPRPhaveAUX
+r11inchesNNSoffVBG
+r11itPRPhurtsVBZ
+
+#Rule:V-HeadNoun
+r21pushingVBGyourselfPRP
+r21isAUXjobNN
+r21gettingVBGinchesNNS
+
+#Rule:V-ADJ
+r25isAUXdifferentJJ
+
+#Rule:PPinNP
+r26someoneNNinINclassNN
+r26inchesNNSoffINgroundNN
+
+#Rule:PPinVP
+r30pushingVBGtoTOlimitNN
+
+#Rule:V-IN-V
+r43isAUXsoINdoAUX
+
+#Rule:V-ADV
+r46doAUXMaybeRB
+r46pushingVBGmaybeRB
+r46doAUXevenRB
+r46isAUXevenRB
+r46gettingVBGevenRB
+r46hurtsVBZstillRB
+
+#Sad, I know but I play soccer, and I dont do dance so I m not too flexible even though my dad is always like STRETCH!! STRETCH!! Haha
+#(S1 (FRAG (ADJP (JJ Sad)) (, ,) (SBAR (S (NP (PRP I)) (VP (VBP know) (SBAR (S (CC but) (S (S (NP (PRP I)) (VP (VBP play) (NP (NN soccer)))) (, ,) (CC and) (S (NP (PRP I)) (VP (VBP dont) (SBAR (S (VP (AUX do) (VP (VB dance) (SBAR (IN so) (S (NP (PRP I)) (VP (NNP m) (ADJP (RB not) (RB too) (JJ flexible) (SBAR (RB even) (IN though) (S (NP (PRP$ my) (NN dad)) (VP (AUX is) (ADVP (RB always)) (PP (IN like) (NP (NN STRETCH))))) (. !)))))))))))) (. !)) (VP (VB STRETCH)) (. !)))))) (. !) (NP (NNP Haha))))
+#Rule:Nouns
+r1soccerNN
+r1mNNP
+r1dadNN
+r1STRETCH!! STRETCH!OrganizationAnnotation
+r1HahaLocationAnnotation
+
+#Rule:Verbs
+r2knowVBP
+r2playVBP
+r2dontVBP
+r2danceVB
+
+#Rule:Adjs
+r4SadJJ
+r4flexibleJJ
+
+#Rule:PRP-Noun
+r6myPRP$dadNN
+
+#Rule:HeadNoun-V
+r11iPRPknowVBP
+r11iPRPplayVBP
+r11iPRPdontVBP
+r11dadNNisAUX
+
+#Rule:V-HeadNoun
+r21playVBPsoccerNN
+
+#Rule:PPinVP
+r30isAUXlikeINSTRETCH!! STRETCH!OrganizationAnnotation
+
+#Rule:V-ADV
+r46isAUXalwaysRB
+
+@lemmas-left	Dance	body	flexable	they	sad	being	pushing	good	STRETCH!! STRETCH!	Haha	help	more	someone	limit.	everyone	Sad	be	limit	dad	get	Everyone	job	class	Sorry Lolo	flexible	jump	dont	cant	day.	say	8-9	day	dance	try	different	does	getting	Elephant	ground	push	does.	mean	do	soccer	hurts	is	it	inch	4732847328	off.	your	play	you	m	my	know	i	hurt	s	am	inches	off	
+@lemmas-right	different	body	have	ground	Elephant	STRETCH!! STRETCH!	help	limit.	mean	do	yourself	everyone	soccer	hurts	be	limit	dad	is	maybe	inch	off.	play	Everyone	here	job	class	still	Sorry Lolo	always	know	jump	hurt	s	dont	cant	am	inches	off	even	Maybe	
+@lemmas-center	to	that	so	if	off	as	like	in	

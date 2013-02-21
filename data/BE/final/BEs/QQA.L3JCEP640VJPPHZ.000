@@ -1,0 +1,78 @@
+#How do you get rid of a muffin top?the fat at the sides of your waist..
+#(S1 (SBARQ (WHADVP (WRB How)) (SQ (SQ (AUX do) (NP (PRP you)) (VP (VB get) (VP (VB rid) (PP (IN of) (NP (DT a) (NNP muffin) (NN top))))) (. ?)) (FRAG (NP (NP (DT the) (NN fat)) (PP (IN at) (NP (NP (DT the) (NNS sides)) (PP (IN of) (NP (PRP$ your) (NN waist)))))) (. .))) (. .)))
+#Rule:Nouns
+r1muffinNNP
+r1topNN
+r1fatNN
+r1sidesNNS
+r1waistNN
+
+#Rule:Verbs
+r2getVB
+r2ridVB
+
+#Rule:PRP-Noun
+r6yourPRP$waistNN
+
+#Rule:N-HeadNoun
+r8muffinNNPtopNN
+
+#Rule:PPinNP
+r26fatNNatINsidesNNS
+r26sidesNNSofINwaistNN
+
+#Rule:PPinVP
+r30ridVBofINtopNN
+
+#It never used to be there what exercises what causes it??
+#(S1 (S (NP (PRP It)) (ADVP (RB never)) (VP (VBD used) (S (VP (TO to) (VP (AUX be) (SBARQ (RB there) (WHNP (WP what)) (SQ (VP (VBZ exercises) (SBAR (WHNP (WP what)) (S (VP (VBZ causes) (NP (PRP it))))))) (. ?)))))) (. ?)))
+#Rule:Verbs
+r2usedVBD
+r2exercisesVBZ
+r2causesVBZ
+
+#Rule:HeadNoun-V
+r11itPRPusedVBD
+
+#Rule:V-HeadNoun
+r21causesVBZitPRP
+
+#Rule:V-ADV
+r46usedVBDneverRB
+
+#I agree because Im size 10 Im not over weight. its just this weird flabby bit.
+#(S1 (S (NP (PRP I)) (VP (VBP agree) (SBAR (IN because) (S (NP (NNP Im)) (VP (NN size) (NP (CD 10) (NN Im)) (PP (RB not) (IN over) (S (VP (VBG weight.) (NP (PRP$ its) (RB just) (DT this) (JJ weird) (NN flabby) (NN bit))))))))) (. .)))
+#Rule:Nouns
+r1ImNNP
+r1sizeNN
+r1ImNN
+r1flabbyNN
+r1bitNN
+
+#Rule:Verbs
+r2agreeVBP
+r2weightVBG
+
+#Rule:Adjs
+r4weirdJJ
+
+#Rule:Adj-Noun
+r510CDImNN
+r5weirdJJbitNN
+
+#Rule:PRP-Noun
+r6itsPRP$bitNN
+
+#Rule:N-HeadNoun
+r8flabbyNNbitNN
+
+#Rule:HeadNoun-V
+r11iPRPagreeVBP
+
+#Rule:V-HeadNoun
+r21sizeNNImNN
+r21weightVBGbitNN
+
+@lemmas-left	Im	cause	weight	exercises	exercise	use	waist	its	used	side	muffin	sides	top	it	get	your	fat	im	flabby	i	size	bit	10	rid	weight.	weird	causes	agree	
+@lemmas-right	bit	Im	never	it	side	use	waist	im	used	agree	sides	top	
+@lemmas-center	of	at	

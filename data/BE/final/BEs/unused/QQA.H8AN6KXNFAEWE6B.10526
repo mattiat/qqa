@@ -1,0 +1,20 @@
+#Because the ship was supposed to be unsinkable, etc etc.
+#(S1 (FRAG (SBAR (IN Because) (S (NP (DT the) (NN ship)) (VP (AUX was) (VP (VBN supposed) (S (VP (TO to) (VP (AUX be) (ADJP (JJ unsinkable)) (, ,) (ADVP (FW etc) (FW etc))))))))) (. .)))
+#Rule:Nouns
+r1shipNN
+
+#Rule:Verbs
+r2supposedVBN
+
+#Rule:Adjs
+r4unsinkableJJ
+
+#Rule:V-HeadNoun(passive)
+r23supposedVBNshipNN
+
+#Rule:V-ADJ
+r25beAUXunsinkableJJ
+
+@lemmas-left	suppose	ship	supposed	unsinkable	be	
+@lemmas-right	ship	unsinkable	
+@lemmas-center	

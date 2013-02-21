@@ -1,0 +1,105 @@
+#For some people, mowing the grass is one of the most strenuous things that they do in a typical week..
+#(S1 (S (PP (IN For) (NP (DT some) (NNS people))) (, ,) (S (VP (VBG mowing) (NP (DT the) (NN grass)))) (VP (AUX is) (NP (NP (CD one)) (PP (IN of) (NP (DT the) (JJS most) (JJ strenuous) (NNS things))) (SBAR (WHNP (WDT that)) (S (NP (PRP they)) (VP (AUX do) (PP (IN in) (NP (DT a) (JJ typical) (NN week)))))) (. .))) (. .)))
+#Rule:Nouns
+r1peopleNNS
+r1grassNN
+r1thingsNNS
+r1weekNN
+
+#Rule:Verbs
+r2mowingVBG
+
+#Rule:Adjs
+r4mostJJS
+r4strenuousJJ
+r4typicalJJ
+
+#Rule:Adj-Noun
+r5mostJJSthingsNNS
+r5strenuousJJthingsNNS
+r5typicalJJweekNN
+
+#Rule:HeadNoun-V
+r11theyPRPdoAUX
+
+#Rule:V-HeadNoun
+r21mowingVBGgrassNN
+r21isAUXoneCD
+
+#Rule:PPinNP
+r26oneCDofINthingsNNS
+
+#Rule:PPinVP
+r30doAUXinINweekNN
+
+#Rule:PPinS
+r36isAUXforINpeopleNNS
+
+#Also, its often done in hot, sunny conditions..
+#(S1 (S (ADVP (RB Also)) (, ,) (NP (PRP$ its)) (ADVP (RB often)) (VP (AUX done) (PP (IN in) (NP (JJ hot) (, ,) (JJ sunny) (NNS conditions) (. .)))) (. .)))
+#Rule:Nouns
+r1conditionsNNS
+
+#Rule:Adjs
+r4hotJJ
+r4sunnyJJ
+
+#Rule:Adj-Noun
+r5hotJJconditionsNNS
+r5sunnyJJconditionsNNS
+
+#Rule:HeadNoun-V
+r11itsPRP$doneAUX
+
+#Rule:PPinVP
+r30doneAUXinINconditionsNNS
+
+#Rule:V-ADV
+r46doneAUXAlsoRB
+r46doneAUXoftenRB
+
+#Also, its the kind of thing people start, and they don t want to take a break, they just drive themselves to keep pushing until its done.
+#(S1 (S (ADVP (RB Also)) (, ,) (S (NP (PRP$ its) (NAC (NP (DT the) (NN kind)) (PP (IN of) (NP (NN thing)))) (NNS people)) (VP (VBP start))) (, ,) (CC and) (S (NP (PRP they)) (VP (VB don) (SBAR (S (NP (NNS t)) (VP (VBP want) (S (VP (TO to) (VP (VB take) (NP (NP (DT a) (NN break)) (, ,) (SBAR (S (NP (PRP they)) (ADVP (RB just)) (VP (VBP drive) (NP (PRP themselves)) (S (VP (TO to) (VP (VB keep) (S (VP (VBG pushing) (SBAR (IN until) (S (NP (PRP$ its)) (VP (AUX done))))))))))))))))))))) (. .)))
+#Rule:Nouns
+r1kindNN
+r1thingNN
+r1peopleNNS
+r1tLocationAnnotation
+r1breakNN
+
+#Rule:Verbs
+r2startVBP
+r2donVB
+r2wantVBP
+r2takeVB
+r2driveVBP
+r2keepVB
+r2pushingVBG
+
+#Rule:PRP-Noun
+r6itsPRP$peopleNNS
+
+#Rule:HeadNoun-V
+r11peopleNNSstartVBP
+r11theyPRPdonVB
+r11tLocationAnnotationwantVBP
+r11theyPRPdriveVBP
+r11itsPRP$doneAUX
+
+#Rule:V-HeadNoun
+r21takeVBbreakNN
+r21driveVBPthemselvesPRP
+
+#Rule:V-IN-V
+r43pushingVBGuntilINdoneAUX
+
+#Rule:V-V
+r44wantVBPtakeVB
+r44driveVBPkeepVB
+
+#Rule:V-ADV
+r46driveVBPjustRB
+
+@lemmas-left	they	don	one	pushing	most	its	people	push	kind	break	typical	drive	sunny	strenuous	do	mowing	want	be	is	grass	done	conditions	mow	t	start	take	hot	things	keep	week	thing	
+@lemmas-right	just	don	grass	one	done	Also	people	conditions	break	start	take	drive	often	do	things	themselves	also	want	keep	week	
+@lemmas-center	of	for	in	until	

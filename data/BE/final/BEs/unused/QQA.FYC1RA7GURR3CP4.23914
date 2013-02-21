@@ -1,0 +1,44 @@
+#atoms in atmosphere absorbs the incoming light from the sun (which contains all colors) but only emits blue light.
+#(S1 (S (NP (NP (NNS atoms)) (PP (IN in) (NP (NN atmosphere)))) (VP (VP (VBZ absorbs) (NP (DT the) (JJ incoming) (NN light)) (PP (IN from) (NP (DT the) (NN sun)))) (PRN (-LRB- -LRB-) (SBAR (WHNP (WDT which)) (S (VP (VBZ contains) (NP (DT all) (NNS colors))))) (-RRB- -RRB-)) (CC but) (VP (ADVP (RB only)) (VBZ emits) (NP (JJ blue) (NN light)))) (. .)))
+#Rule:Nouns
+r1atomsNNS
+r1atmosphereNN
+r1lightNN
+r1sunNN
+r1colorsNNS
+r1lightNN
+
+#Rule:Verbs
+r2absorbsVBZ
+r2containsVBZ
+r2emitsVBZ
+
+#Rule:Adjs
+r4incomingJJ
+r4blueJJ
+
+#Rule:Adj-Noun
+r5incomingJJlightNN
+r5blueJJlightNN
+
+#Rule:HeadNoun-V
+r11atomsNNSabsorbsVBZ
+r11atomsNNSemitsVBZ
+
+#Rule:V-HeadNoun
+r21absorbsVBZlightNN
+r21containsVBZcolorsNNS
+r21emitsVBZlightNN
+
+#Rule:PPinNP
+r26atomsNNSinINatmosphereNN
+
+#Rule:PPinVP
+r30absorbsVBZfromINsunNN
+
+#Rule:V-ADV
+r46emitsVBZonlyRB
+
+@lemmas-left	atoms	atom	emit	incoming	emits	colors	atmosphere	contains	sun	absorbs	absorb	blue	contain	light	
+@lemmas-right	emit	emits	absorb	colors	only	atmosphere	light	sun	absorbs	
+@lemmas-center	from	in	

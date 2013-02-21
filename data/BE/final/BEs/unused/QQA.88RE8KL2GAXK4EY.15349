@@ -1,0 +1,42 @@
+#The less we see imperfection in our surroundings, in other people and in things ,the more perfect we become.
+#(S1 (S (S (X (DT The) (JJR less)) (NP (PRP we)) (VP (VBP see) (NP (NP (NN imperfection)) (PP (IN in) (NP (PRP$ our) (NNS surroundings)))) (, ,) (PP (IN in) (NP (JJ other) (NNS people))))) (CC and) (S (PP (IN in) (NP (NNS things))) (, ,) (X (DT the) (ADJP (RBR more) (JJ perfect))) (NP (PRP we)) (VP (VBP become))) (. .)))
+#Rule:Nouns
+r1imperfectionNN
+r1surroundingsNNS
+r1peopleNNS
+r1thingsNNS
+
+#Rule:Verbs
+r2seeVBP
+r2becomeVBP
+
+#Rule:Adjs
+r4lessJJR
+r4otherJJ
+r4perfectJJ
+
+#Rule:Adj-Noun
+r5otherJJpeopleNNS
+
+#Rule:PRP-Noun
+r6ourPRP$surroundingsNNS
+
+#Rule:HeadNoun-V
+r11wePRPseeVBP
+r11wePRPbecomeVBP
+
+#Rule:V-HeadNoun
+r21seeVBPimperfectionNN
+
+#Rule:PPinNP
+r26imperfectionNNinINsurroundingsNNS
+
+#Rule:PPinVP
+r30seeVBPinINpeopleNNS
+
+#Rule:PPinS
+r36becomeVBPinINthingsNNS
+
+@lemmas-left	surroundings	other	see	become	imperfection	things	perfect	our	people	less	we	
+@lemmas-right	surroundings	see	become	imperfection	things	people	
+@lemmas-center	in	

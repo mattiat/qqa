@@ -1,0 +1,52 @@
+#it might hurt at first but it needs to be clean.seriously =/ but you don t need to pull all the way the first time, no. work your way down.
+#(S1 (S (S (NP (PRP it)) (VP (MD might) (VP (VB hurt) (PP (IN at) (ADJP (JJ first)))))) (CC but) (S (NP (PRP it)) (VP (VBZ needs) (S (VP (TO to) (VP (AUX be) (ADJP (RB clean.seriously) (JJ =/))))))) (CC but) (S (NP (PRP you)) (VP (VB don) (NP (JJR t) (NN need) (S (VP (TO to) (VP (VB pull) (NP (PDT all) (DT the) (NN way)) (NP (DT the) (JJ first) (NN time)) (, ,) (S (VP (NN no.) (VP (VB work) (NP (PRP$ your) (NN way)) (PRT (RP down))))))))))) (. .)))
+#Rule:Nouns
+r1needNN
+r1wayNN
+r1timeNN
+r1noLocationAnnotation
+r1wayNN
+
+#Rule:Verbs
+r2hurtVB
+r2needsVBZ
+r2donVB
+r2pullVB
+r2workVB
+
+#Rule:V-PRT
+r3workVBdownRP
+
+#Rule:Adjs
+r4firstJJ
+r4=/JJ
+r4tOrganizationAnnotation
+r4firstJJ
+
+#Rule:Adj-Noun
+r5tOrganizationAnnotationneedNN
+r5firstJJtimeNN
+
+#Rule:PRP-Noun
+r6yourPRP$wayNN
+
+#Rule:HeadNoun-V
+r11itPRPhurtVB
+r11itPRPneedsVBZ
+r11youPRPdonVB
+
+#Rule:V-HeadNoun
+r21donVBneedNN
+r21pullVBwayNN
+r21pullVBtimeNN
+r21workVBwayNN
+
+#Rule:V-ADJ
+r25beAUX=/JJ
+
+#Rule:V-V
+r44pullVBworkVB
+
+@lemmas-left	need	work	it	don	=/	no	needs	pull	your	way	you	time	hurt	t	first	be	
+@lemmas-right	work	need	time	hurt	=/	don	needs	way	down	
+@lemmas-center	

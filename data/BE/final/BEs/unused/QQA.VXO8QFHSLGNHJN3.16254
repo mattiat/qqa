@@ -1,0 +1,72 @@
+#Because little is known about our history at that time in the UK, little is known about our many regional monarchs. 
+#(S1 (S (SBAR (IN Because) (S (NP (RB little)) (VP (AUX is) (ADJP (VBN known) (PP (IN about) (NP (PRP$ our) (NN history)))) (PP (IN at) (NP (NP (DT that) (NN time)) (PP (IN in) (NP (DT the) (NNP UK)))))))) (, ,) (NP (RB little)) (VP (AUX is) (VP (VBN known) (PP (IN about) (NP (PRP$ our) (JJ many) (JJ regional) (NNS monarchs))))) (. .)))
+#Rule:Nouns
+r1historyNN
+r1timeNN
+r1UKLocationAnnotation
+r1monarchsNNS
+
+#Rule:Verbs
+r2knownVBN
+r2knownVBN
+
+#Rule:Adjs
+r4manyJJ
+r4regionalJJ
+
+#Rule:Adj-Noun
+r5manyJJmonarchsNNS
+r5regionalJJmonarchsNNS
+
+#Rule:PRP-Noun
+r6ourPRP$historyNN
+r6ourPRP$monarchsNNS
+
+#Rule:V-HeadNoun(passive)
+r23knownVBNlittleRB
+
+#Rule:V-ADJ
+r25isAUXknownVBN
+
+#Rule:PPinNP
+r26timeNNinINUKLocationAnnotation
+
+#Rule:PPinVP
+r30isAUXatINtimeNN
+
+#Rule:PPinVP
+r32knownVBNaboutINmonarchsNNS
+
+#Rule:PPinADJP
+r37knownVBNaboutINhistoryNN
+
+#Technology seems not only to have stood still from the Roman withdrawal, but possibly to have even moved backwards.
+#(S1 (S (NP (NN Technology)) (VP (VBZ seems) (S (VP (CONJP (RB not) (RB only)) (VP (TO to) (VP (AUX have) (VP (VBD stood) (ADVP (RB still)) (PP (IN from) (NP (DT the) (NNP Roman) (NN withdrawal)))))) (, ,) (CC but) (ADVP (RB possibly)) (VP (TO to) (VP (AUX have) (ADVP (RB even)) (VP (VBN moved) (ADVP (RB backwards)))))))) (. .)))
+#Rule:Nouns
+r1TechnologyOrganizationAnnotation
+r1RomanNNP
+r1withdrawalNN
+
+#Rule:Verbs
+r2seemsVBZ
+r2stoodVBD
+r2movedVBN
+
+#Rule:N-HeadNoun
+r8RomanNNPwithdrawalNN
+
+#Rule:HeadNoun-V
+r11TechnologyOrganizationAnnotationseemsVBZ
+
+#Rule:PPinVP
+r30stoodVBDfromINwithdrawalNN
+
+#Rule:V-ADV
+r46stoodVBDstillRB
+r46haveAUXevenRB
+r46movedVBNevenRB
+r46movedVBNbackwardsRB
+
+@lemmas-left	stood	monarchs	is	have	withdrawal	monarch	UK	seem	know	history	many	moved	seems	time	stand	regional	Roman	known	roman	our	move	be	Technology	
+@lemmas-right	monarchs	monarch	withdrawal	backwards	little	UK	still	know	seem	history	time	seems	even	known	
+@lemmas-center	about	at	from	in	

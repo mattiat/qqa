@@ -1,0 +1,167 @@
+#You re a 25 year old professional who was homeschooled and you have a problem with this!!
+#(S1 (S (NP (PRP You)) (VP (NNP re) (NP (NP (DT a) (ADJP (CD 25) (NN year)) (JJ old) (NN professional)) (SBAR (WHNP (WP who)) (S (VP (AUX was) (VP (VBN homeschooled)))))) (S (CC and) (NP (PRP you)) (VP (AUX have) (NP (NP (DT a) (NN problem)) (PP (IN with) (NP (DT this))))) (. !))) (. !)))
+#Rule:Nouns
+r1reNNP
+r1yearNN
+r1professionalNN
+r1problemNN
+
+#Rule:Verbs
+r2homeschooledVBN
+
+#Rule:Adjs
+r4oldJJ
+
+#Rule:Adj-Noun
+r525CDprofessionalNN
+r5oldJJprofessionalNN
+
+#Rule:HeadNoun-V
+r11youPRPhaveAUX
+
+#Rule:V-(who/that)-HeadNoun
+r18homeschooledVBNprofessionalNN
+
+#Rule:V-HeadNoun
+r21haveAUXproblemNN
+
+#Rule:V-HeadNoun
+r22professionalNNyouPRP
+
+#Rule:PPinNP
+r26problemNNwithINthis!!LocationAnnotation
+
+#I know some 45 year old shelf stockers at Wal Mart and K Mart making $10 an hour with a HS diploma..
+#(S1 (S (NP (PRP I)) (VP (VBP know) (NP (NP (DT some) (ADJP (CD 45) (NN year)) (JJ old) (NN shelf) (NNS stockers)) (PP (IN at) (S (NP (NNP Wal) (NNP Mart) (CC and) (NNP K) (NNP Mart)) (VP (VBG making) (NP (NP ($ $) (CD 10)) (NP (DT an) (NN hour))) (PP (IN with) (NP (DT a) (JJ HS) (NN diploma)))) (. .))))) (. .)))
+#Rule:Nouns
+r1yearNN
+r1shelfNN
+r1stockersNNS
+r1Wal MartOrganizationAnnotation
+r1K MartOrganizationAnnotation
+r1hourNN
+r1diplomaNN
+
+#Rule:Verbs
+r2knowVBP
+r2makingVBG
+
+#Rule:Adjs
+r4oldJJ
+r4HSOrganizationAnnotation
+
+#Rule:Adj-Noun
+r545CDstockersNNS
+r5oldJJstockersNNS
+r510CD$$
+r5HSOrganizationAnnotationdiplomaNN
+
+#Rule:N-HeadNoun
+r8shelfNNstockersNNS
+
+#Rule:HeadNoun-V
+r11iPRPknowVBP
+r11K MartOrganizationAnnotationmakingVBG
+
+#Rule:V-HeadNoun
+r21knowVBPstockersNNS
+r21makingVBG$$
+
+#Rule:PPinVP
+r30makingVBGwithINdiplomaNN
+
+#Good thing your parents didn t send you to Columbine, you might be a statistic today instead of working with statistics..
+#(S1 (FRAG (NP (JJ Good) (NN thing)) (S (S (NP (PRP$ your) (NNS parents)) (ADVP (RB didn)) (VP (ADVP (RB t)) (VB send) (NP (PRP you)) (PP (TO to) (NP (NNP Columbine))))) (, ,) (NP (PRP you)) (VP (MD might) (VP (AUX be) (NP (DT a) (NN statistic) (NN today)) (PP (RB instead) (IN of) (S (VP (VBG working) (PP (IN with) (NP (NNS statistics)))))))) (. .)) (. .)))
+#Rule:Nouns
+r1thingNN
+r1parentsNNS
+r1ColumbineLocationAnnotation
+r1statisticNN
+r1todayNN
+r1statisticsNNS
+
+#Rule:Verbs
+r2sendVB
+r2workingVBG
+
+#Rule:Adjs
+r4GoodJJ
+
+#Rule:Adj-Noun
+r5GoodJJthingNN
+
+#Rule:PRP-Noun
+r6yourPRP$parentsNNS
+
+#Rule:N-HeadNoun
+r8statisticNNtodayNN
+
+#Rule:HeadNoun-V
+r11youPRPbeAUX
+r11parentsNNSsendVB
+
+#Rule:V-HeadNoun
+r21sendVByouPRP
+r21beAUXtodayNN
+
+#Rule:PPinVP
+r30sendVBtoTOColumbineLocationAnnotation
+r30workingVBGwithINstatisticsNNS
+
+#Rule:V-ADV
+r46sendVBdidnRB
+r46sendVBtLocationAnnotation
+
+#Maybe you should go to the Bronx and let Oprah take you on a tour of the PSMaybe you should go to the SFV and see the elementary schools with metal detectors
+#(S1 (S (ADVP (RB Maybe)) (NP (PRP you)) (VP (MD should) (VP (VP (VB go) (PP (TO to) (NP (DT the) (NNP Bronx)))) (CC and) (VP (VB let) (S (NP (NNP Oprah)) (VP (VB take) (NP (PRP you)) (PP (IN on) (NP (NP (DT a) (NN tour)) (PP (IN of) (NP (NP (DT the) (NN PSMaybe)) (SBAR (S (NP (PRP you)) (VP (MD should) (VP (VP (VB go) (PP (TO to) (NP (DT the) (NN SFV)))) (CC and) (VP (VB see) (NP (NP (DT the) (JJ elementary) (NNS schools)) (PP (IN with) (NP (NN metal) (NNS detectors))))))))))))))))))))
+#Rule:Nouns
+r1BronxLocationAnnotation
+r1OprahPersonAnnotation
+r1tourNN
+r1PSMaybeNN
+r1SFVOrganizationAnnotation
+r1schoolsNNS
+r1metal detectorsOrganizationAnnotation
+
+#Rule:Verbs
+r2goVB
+r2letVB
+r2takeVB
+r2goVB
+r2seeVB
+
+#Rule:Adjs
+r4elementaryJJ
+
+#Rule:Adj-Noun
+r5elementaryJJschoolsNNS
+
+#Rule:HeadNoun-V
+r11youPRPgoVB
+r11youPRPletVB
+r11OprahPersonAnnotationtakeVB
+r11youPRPgoVB
+r11youPRPseeVB
+
+#Rule:NP(NP(z) SBAR(S(NP(x)VP(y))))
+r19goVBPSMaybeNN
+
+#Rule:V-HeadNoun
+r21takeVByouPRP
+r21seeVBschoolsNNS
+
+#Rule:V-HeadNoun
+r22letVBOprahPersonAnnotation
+
+#Rule:PPinNP
+r26tourNNofINPSMaybeNN
+r26schoolsNNSwithINmetal detectorsOrganizationAnnotation
+
+#Rule:PPinVP
+r30goVBtoTOBronxLocationAnnotation
+r30takeVBonINtourNN
+r30goVBtoTOSFVOrganizationAnnotation
+
+@lemmas-left	old	psmaybe	send	HS	good	K Mart	schools	Oprah	year	shelf	working	Columbine	be	work	PSMaybe	parent	stocker	25	professional	statistic	metal detectors	make	thing	go	Good	Wal Mart	parents	Bronx	have	stockers	today	re	statistics	making	homeschooled	45	let	your	problem	you	hour	know	i	diploma	SFV	10	school	see	take	tour	elementary	
+@lemmas-right	psmaybe	parents	Bronx	send	have	stockers	today	statistics	this!!	schools	Oprah	making	be	Columbine	PSMaybe	let	$	parent	stocker	you	problem	know	professional	SFV	diploma	metal detectors	t	school	see	take	tour	didn	make	thing	go	
+@lemmas-center	to	of	with	on	

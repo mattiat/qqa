@@ -1,0 +1,26 @@
+#cos polka dots just clash with everything
+#(S1 (S (NP (NNP cos) (NNP polka)) (VP (VBZ dots) (NP (NP (RB just) (NN clash)) (PP (IN with) (NP (NN everything)))))))
+#Rule:Nouns
+r1cosNNP
+r1polkaNNP
+r1clashNN
+r1everythingNN
+
+#Rule:Verbs
+r2dotsVBZ
+
+#Rule:N-HeadNoun
+r8cosNNPpolkaNNP
+
+#Rule:HeadNoun-V
+r11polkaNNPdotsVBZ
+
+#Rule:V-HeadNoun
+r21dotsVBZclashNN
+
+#Rule:PPinNP
+r26clashNNwithINeverythingNN
+
+@lemmas-left	polka	cos	everything	dots	clash	dot	
+@lemmas-right	polka	everything	dots	clash	dot	
+@lemmas-center	with	

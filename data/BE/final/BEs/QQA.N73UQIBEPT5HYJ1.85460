@@ -1,0 +1,59 @@
+#eat high fiber food.  
+#(S1 (S (VP (VB eat) (NP (JJ high) (NN fiber) (NN food))) (. .)))
+#Rule:Nouns
+r1fiberNN
+r1foodNN
+
+#Rule:Verbs
+r2eatVB
+
+#Rule:Adjs
+r4highJJ
+
+#Rule:Adj-Noun
+r5highJJfoodNN
+
+#Rule:N-HeadNoun
+r8fiberNNfoodNN
+
+#Rule:V-HeadNoun
+r21eatVBfoodNN
+
+#eat oatmeal.  
+#(S1 (S (VP (VB eat) (ADJP (JJ oatmeal))) (. .)))
+#Rule:Verbs
+r2eatVB
+
+#Rule:Adjs
+r4oatmealOrganizationAnnotation
+
+#avoid eating fatty,oily and salty food.  
+#(S1 (S (VP (VB avoid) (S (VP (VBG eating) (NP (ADJP (JJ fatty) (, ,) (JJ oily) (CC and) (JJ salty)) (NN food))))) (. .)))
+#Rule:Nouns
+r1foodNN
+
+#Rule:Verbs
+r2avoidVB
+r2eatingVBG
+
+#Rule:Adjs
+r4fattyJJ
+r4oilyJJ
+r4saltyJJ
+
+#Rule:Adj-Noun
+r5fattyJJfoodNN
+r5oilyJJfoodNN
+r5saltyJJfoodNN
+
+#Rule:V-HeadNoun
+r21eatingVBGfoodNN
+
+#Exercise
+#(S1 (NP (NN Exercise)))
+#Rule:Nouns
+r1ExerciseNN
+
+@lemmas-left	salty	oily	avoid	oatmeal	food	exercise	eating	eat	Exercise	high	fiber	fatty	
+@lemmas-right	food	
+@lemmas-center	

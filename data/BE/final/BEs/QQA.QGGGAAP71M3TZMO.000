@@ -1,0 +1,67 @@
+#how to gain muscle and height?
+#(S1 (FRAG (SBAR (WHADVP (WRB how)) (S (VP (TO to) (VP (VB gain) (NP (NN muscle) (CC and) (NN height)))))) (. ?)))
+#Rule:Nouns
+r1muscleNN
+r1heightNN
+
+#Rule:Verbs
+r2gainVB
+
+#Rule:V-HeadNoun
+r21gainVBmuscleNN
+
+#i m 13 5 7 and 113 pounds i really need to gain more weight I work out but I just don t have the proper equipment please answer and help thanks
+#(S1 (S (NP (PRP i)) (VP (NNP m) (NP (NP (QP (CD 13) (CD 5) (CD 7) (CC and) (CD 113)) (NNS pounds)) (SBAR (S (NP (PRP i)) (ADVP (RB really)) (VP (AUX need) (S (VP (TO to) (VP (VB gain) (NP (JJR more) (NN weight) (S (S (NP (PRP I)) (VP (VB work) (PRT (RP out)))) (CC but) (S (NP (PRP I)) (ADVP (RB just)) (VP (VB don) (SBAR (S (NP (NNS t)) (VP (AUX have) (S (NP (DT the) (JJ proper) (NN equipment)) (VP (VB please) (VP (VP (VB answer)) (CC and) (VP (VB help) (NP (NNS thanks)))))))))))))))))))))))
+#Rule:Nouns
+r1mNNP
+r1poundsNNS
+r1weightNN
+r1tNNS
+r1equipmentNN
+r1thanksNNS
+
+#Rule:Verbs
+r2gainVB
+r2donVB
+r2pleaseVB
+r2answerVB
+r2helpVB
+
+#Rule:V-PRT
+r3workVBoutRP
+
+#Rule:Adjs
+r4moreJJR
+r4properJJ
+
+#Rule:Adj-Noun
+r513CDpoundsNNS
+r55CDpoundsNNS
+r57CDpoundsNNS
+r5113CDpoundsNNS
+r5moreJJRweightNN
+r5properJJequipmentNN
+
+#Rule:HeadNoun-V
+r11iPersonAnnotationneedAUX
+r11iPRPworkVB
+r11iPRPdonVB
+r11tNNShaveAUX
+r11equipmentNNpleaseVB
+r11equipmentNNanswerVB
+r11equipmentNNhelpVB
+
+#Rule:V-HeadNoun
+r21gainVBweightNN
+r21helpVBthanksNNS
+
+#Rule:V-HeadNoun
+r22haveAUXequipmentNN
+
+#Rule:V-ADV
+r46needAUXreallyRB
+r46donVBjustRB
+
+@lemmas-left	need	work	weight	don	have	113	pounds	muscle	answer	equipment	m	13	i	gain	help	thanks	more	height	t	please	7	5	proper	pound	
+@lemmas-right	just	need	work	weight	don	have	pounds	muscle	answer	equipment	really	thanks	help	please	out	pound	
+@lemmas-center	

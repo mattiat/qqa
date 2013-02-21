@@ -1,0 +1,21 @@
+#how do i make my backhand springs straight?
+#(S1 (SBARQ (WHADVP (WRB how)) (SQ (AUX do) (NP (PRP i)) (VP (VB make) (S (NP (PRP$ my) (NN backhand)) (ADJP (NNP springs) (JJ straight))))) (. ?)))
+#Rule:Nouns
+r1backhandNN
+r1springsNNP
+
+#Rule:Verbs
+r2makeVB
+
+#Rule:Adjs
+r4straightJJ
+
+#Rule:PRP-Noun
+r6myPRP$backhandNN
+
+#Rule:V-HeadNoun
+r22makeVBbackhandNN
+
+@lemmas-left	springs	backhand	my	make	spring	straight	
+@lemmas-right	backhand	
+@lemmas-center	

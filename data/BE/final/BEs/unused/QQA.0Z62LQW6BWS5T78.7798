@@ -1,0 +1,45 @@
+#Are you having some sort of existential meltdown??
+#(S1 (SQ (SQ (AUX Are) (NP (PRP you)) (VP (AUXG having) (NP (NP (DT some) (NN sort)) (PP (IN of) (NP (JJ existential) (NN meltdown))))) (. ?)) (. ?)))
+#Rule:Nouns
+r1sortNN
+r1meltdownNN
+
+#Rule:Adjs
+r4existentialJJ
+
+#Rule:Adj-Noun
+r5existentialJJmeltdownNN
+
+#Rule:V-HeadNoun
+r21havingAUXGsortNN
+
+#Rule:PPinNP
+r26sortNNofINmeltdownNN
+
+#This has nothing to do with actual Philosophy !
+#(S1 (S (NP (DT This)) (VP (AUX has) (NP (NP (NN nothing)) (SBAR (S (VP (TO to) (VP (AUX do) (PP (IN with) (NP (JJ actual) (NN Philosophy))))))))) (. !)))
+#Rule:Nouns
+r1nothingNN
+r1PhilosophyNN
+
+#Rule:Adjs
+r4actualJJ
+
+#Rule:Adj-Noun
+r5actualJJPhilosophyNN
+
+#Rule:HeadNoun-V
+r11thisDThasAUX
+
+#Rule:HeadNoun-(who/that)-V
+r14nothingNNdoAUX
+
+#Rule:V-HeadNoun
+r21hasAUXnothingNN
+
+#Rule:PPinVP
+r30doAUXwithINPhilosophyNN
+
+@lemmas-left	sort	have	philosophy	nothing	actual	do	having	Philosophy	existential	this	meltdown	has	
+@lemmas-right	sort	have	philosophy	nothing	do	Philosophy	meltdown	has	
+@lemmas-center	of	with	

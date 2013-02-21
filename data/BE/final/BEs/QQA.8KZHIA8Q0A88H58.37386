@@ -1,0 +1,87 @@
+#Sorry, but can t prevent colon cancer! there are many unknown factors that cause colon cancer,(i.e.tobacco,obesity,genetics,etc)One can live a very healthy lifestyle and still get colon cancer..
+#(S1 (S (UCP (ADJP (JJ Sorry)) (, ,) (CC but) (S (VP (MD can) (VP (VB t) (S (VP (VB prevent) (NP (NN colon) (NN cancer))))))) (. !)) (NP (EX there)) (VP (AUX are) (NP (NP (JJ many) (JJ unknown) (NNS factors)) (SBAR (WHNP (WDT that)) (S (VP (VBP cause) (NP (NP (NN colon) (NN cancer)) (PRN (, ,) (-LRB- -LRB-) (NP (NP (NN i.e.tobacco)) (, ,) (NP (NN obesity)) (, ,) (NP (NNP genetics)) (, ,) (NP (FW etc))) (-RRB- -RRB-)) (SBAR (S (NP (PRP One)) (VP (MD can) (VP (VP (VB live) (NP (DT a) (ADJP (RB very) (JJ healthy)) (NN lifestyle))) (CC and) (VP (ADVP (RB still)) (VB get) (NP (NN colon) (NN cancer))))))) (. .))))))) (. .)))
+#Rule:Nouns
+r1colonNN
+r1cancerNN
+r1factorsNNS
+r1colonNN
+r1cancerNN
+r1i.e.tobaccoNN
+r1obesityNN
+r1geneticsNNP
+r1lifestyleNN
+r1colonNN
+r1cancerNN
+
+#Rule:Verbs
+r2tVB
+r2preventVB
+r2causeVBP
+r2liveVB
+r2getVB
+
+#Rule:Adjs
+r4SorryJJ
+r4manyJJ
+r4unknownJJ
+r4healthyJJ
+
+#Rule:Adj-Noun
+r5manyJJfactorsNNS
+r5unknownJJfactorsNNS
+r5healthyJJlifestyleNN
+
+#Rule:N-HeadNoun
+r8colonNNcancerNN
+r8colonNNcancerNN
+r8colonNNcancerNN
+
+#Rule:N-ApposN
+r10i.e.tobaccoNNobesityNN
+
+#Rule:HeadNoun-V
+r11thereEXareAUX
+r11onePRPliveVB
+r11onePRPgetVB
+
+#Rule:HeadNoun-(who/that)-V
+r14factorsNNScauseVBP
+
+#Rule:V-HeadNoun
+r21preventVBcancerNN
+r21areAUXfactorsNNS
+r21causeVBPcancerNN
+r21liveVBlifestyleNN
+r21getVBcancerNN
+
+#Rule:V-ADV
+r46getVBstillRB
+
+#No matter what your lifestyle is, there s no guarantees in medicine.
+#(S1 (S (NP (DT No) (NN matter)) (SBAR (WHNP (WP what)) (S (NP (PRP$ your) (NN lifestyle)) (VP (AUX is)))) (, ,) (NP (EX there)) (VP (VBZ s) (NP (DT no) (NNS guarantees)) (PP (IN in) (NP (NN medicine)))) (. .)))
+#Rule:Nouns
+r1matterNN
+r1lifestyleNN
+r1guaranteesNNS
+r1medicineNN
+
+#Rule:Verbs
+r2sVBZ
+
+#Rule:PRP-Noun
+r6yourPRP$lifestyleNN
+
+#Rule:HeadNoun-V
+r11matterNNsVBZ
+r11thereEXsVBZ
+r11lifestyleNNisAUX
+
+#Rule:V-HeadNoun
+r21sVBZguaranteesNNS
+
+#Rule:PPinVP
+r30sVBZinINmedicineNN
+
+@lemmas-left	cause	one	obesity	colon	Sorry	are	i.e.tobacco	lifestyle	guarantees	medicine	live	be	get	matter	your	prevent	factor	unknown	genetics	many	t	s	factors	there	tobacco	sorry	healthy	guarantee	cancer	
+@lemmas-right	is	cause	get	obesity	still	factor	are	factors	s	lifestyle	guarantees	guarantee	medicine	cancer	be	live	
+@lemmas-center	in	

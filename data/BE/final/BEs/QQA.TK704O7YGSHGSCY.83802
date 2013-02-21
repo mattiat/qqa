@@ -1,0 +1,36 @@
+#viniger is great it works dab it on with cotton wool
+#(S1 (S (NP (NNP viniger)) (VP (AUX is) (ADJP (JJ great) (SBAR (S (NP (PRP it)) (VP (VBZ works) (S (VP (VBG dab) (NP (PRP it)) (PRT (RP on)) (PP (IN with) (NP (NN cotton) (NN wool))))))))))))
+#Rule:Nouns
+r1vinigerPersonAnnotation
+r1cottonNN
+r1woolNN
+
+#Rule:Verbs
+r2worksVBZ
+r2dabVBG
+
+#Rule:V-PRT
+r3dabVBGonRP
+
+#Rule:Adjs
+r4greatJJ
+
+#Rule:N-HeadNoun
+r8cottonNNwoolNN
+
+#Rule:HeadNoun-V
+r11vinigerPersonAnnotationisAUX
+r11itPRPworksVBZ
+
+#Rule:V-HeadNoun
+r21dabVBGitPRP
+
+#Rule:V-ADJ
+r25isAUXgreatJJ
+
+#Rule:PPinVP
+r30dabVBGwithINwoolNN
+
+@lemmas-left	work	cotton	is	it	great	dab	viniger	wool	be	works	
+@lemmas-right	work	is	great	it	on	wool	works	be	
+@lemmas-center	with	

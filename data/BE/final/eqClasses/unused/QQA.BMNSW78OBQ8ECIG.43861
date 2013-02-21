@@ -1,0 +1,66 @@
+BE: lawnNN
+EQ class: 
+
+BE: activitiesNNS
+EQ class: activitynns	activejj	theynns	themnns	
+
+BE: mowingVBG
+EQ class: mowvbg	cut_downvbg	
+
+BE: strenuousJJ
+EQ class: strainnn	strenuositynn	strenuousnessnn	
+
+BE: strenuousJJactivitiesNNS
+EQ class: strenuousnessnnactivitiesnns	strainnnactivitiesnns	strenuousjjactivejj	activevbstrenuouslyrb	strenuousjjtheynns	strenuositynnactivejj	strenuositynnactivitynns	strenuousnessnntheynns	strainnnactivitynns	strainnnthemnns	strenuousnessnnactivitynns	strenuousjjthemnns	strenuositynntheynns	strainnntheynns	strenuousjjactivitynns	strenuousnessnnthemnns	strainnnactivejj	strenuositynnthemnns	strenuousnessnnactivejj	strenuositynnactivitiesnns	
+
+BE: theyPRPdoAUX
+EQ class: activitiesprpmakeaux	theyprpmakeaux	activitiesprpdoaux	
+
+BE: mowingVBGlawnNN
+EQ class: mownnofinlawnnn	mowernnofinlawnnn	haymownnofinlawnnn	lawn_mowernnofinlawnnn	mowvbglawnnn	cut_downvbglawnnn	hayloftnnofinlawnnn	
+
+BE: isAUXoneCD
+EQ class: isauxicd	beaux1cd	isaux1cd	beauxsinglecd	isauxsinglecd	isauxunitycd	beauxicd	beauxonecd	isauxacecd	beauxacecd	beauxunitycd	
+
+BE: oneCDofINactivitiesNNS
+EQ class: activejjunitycd	activitynnsonecd	acecdofinactivejj	activitynns1cd	theynns1cd	acecdofintheynns	activitiesnnsunitycd	unitycdofinactivejj	singlecdofintheynns	acecdofinactivitynns	singlecdofinthemnns	1cdofinactivejj	activejjacecd	activitiesnnsacecd	activejjonecd	activitiesnnssinglecd	themnnsicd	1cdofinactivitynns	onecdofinactivitynns	activitynnsicd	onecdofinthemnns	1cdofinthemnns	icdofinactivejj	unitycdofintheynns	themnnsonecd	acecdofinactivitiesnns	theynnsacecd	singlecdofinactivitiesnns	activejjsinglecd	icdofinthemnns	unitycdofinactivitiesnns	activitynnsunitycd	theynnsicd	themnnsunitycd	theynnsunitycd	themnns1cd	activitiesnns1cd	unitycdofinactivitynns	1cdofintheynns	activitiesnnsonecd	activejjicd	onecdofinactivejj	themnnsacecd	activitynnsacecd	themnnssinglecd	activitynnssinglecd	unitycdofinthemnns	1cdofinactivitiesnns	activejj1cd	theynnsonecd	icdofinactivitynns	singlecdofinactivejj	acecdofinthemnns	onecdofintheynns	theynnssinglecd	activitiesnnsicd	icdofinactivitiesnns	icdofintheynns	singlecdofinactivitynns	
+
+BE: isAUXprobablyRB
+EQ class: probabilitynnininbeaux	likelyjjininbeaux	probablejjininbeaux	probablejjininisaux	beauxprobablyrb	probabilitynnininisaux	likelyjjininisaux	
+
+BE: laborNN
+EQ class: proletariatnn	labournn	working_classnn	
+
+BE: heatNN
+EQ class: heat_energynn	
+
+BE: heartNN
+EQ class: bosomnn	
+
+BE: attackNN
+EQ class: onrushnn	onslaughtnn	onsetnn	
+
+BE: causeVB
+EQ class: makevb	dovb	
+
+BE: manualJJ
+EQ class: handnn	
+
+BE: manualJJlaborNN
+EQ class: handnnworking_classnn	handnnlabornn	manualjjlabournn	manualjjproletariatnn	handnnproletariatnn	manualjjworking_classnn	handnnlabournn	
+
+BE: heartNNattackNN
+EQ class: onrushnnofinheartnn	attacknnofinheartnn	bosomnnattackvb	onslaughtnnofinheartnn	assailvbbosomnn	attackvbbosomnn	heartnnonslaughtnn	attackvbheartnn	heartnnattackvb	bosomnnassailvb	onrushnnofinbosomnn	onslaughtnnofinbosomnn	heartnnonrushnn	heartnnassailvb	onsetnnofinheartnn	onsetnnofinbosomnn	assailvbheartnn	bosomnnonsetnn	attacknnofinbosomnn	bosomnnonrushnn	bosomnnonslaughtnn	bosomnnattacknn	heartnnonsetnn	
+
+BE: laborNNcauseVB
+EQ class: causingnnofinproletariatnn	causennofinlabournn	causativennofinlabornn	causingnnofinlabournn	labournnmakevb	causationnnworking_classnn	working_classnncausevb	causaljjofinworking_classnn	proletariatnnmakevb	causingnnworking_classnn	causationnnofinlabournn	causingnnlabournn	causaljjofinproletariatnn	causingnnproletariatnn	labornnmakevb	causennofinproletariatnn	causativennofinlabournn	working_classnnmakevb	causationnnofinlabornn	labournncausevb	proletariatnndovb	labournndovb	proletariatnncausevb	causingnnofinlabornn	causationnnofinproletariatnn	causaljjofinlabournn	causennofinworking_classnn	causationnnofinworking_classnn	causingnnlabornn	causationnnlabornn	causaljjofinlabornn	causationnnproletariatnn	causationnnlabournn	working_classnndovb	causativennofinworking_classnn	causennofinlabornn	labornndovb	causingnnofinworking_classnn	causativennofinproletariatnn	
+
+BE: laborNNdoneAUX
+EQ class: proletariatnndoaux	labournndoneaux	proletariatnndoneaux	labornnmakeaux	working_classnndoaux	proletariatnnmakeaux	labournndoaux	labournnmakeaux	labornndoaux	working_classnnmakeaux	working_classnndoneaux	
+
+BE: causeVBattackNN
+EQ class: causaljjofinonslaughtnn	dovbattacknn	dovbonslaughtnn	makevbattacknn	causennofinattacknn	causativennofinonrushnn	causaljjofinonrushnn	causingnnofinonrushnn	causationnnofinattacknn	causaljjofinonsetnn	causationnnofinonsetnn	causaljjofinattacknn	dovbonsetnn	causingnnofinonsetnn	dovbonrushnn	causevbonslaughtnn	makevbonsetnn	causingnnofinonslaughtnn	causativennofinattacknn	causennofinonsetnn	causationnnofinonslaughtnn	makevbonslaughtnn	causennofinonslaughtnn	causevbonsetnn	makevbonrushnn	causennofinonrushnn	causativennofinonslaughtnn	causingnnofinattacknn	causativennofinonsetnn	causationnnofinonrushnn	causevbonrushnn	
+
+BE: doneAUXinINheatNN
+EQ class: doneauxininheat_energynn	makeauxininheat_energynn	doauxininheatnn	makeauxininheatnn	doauxininheat_energynn	
+

@@ -1,0 +1,72 @@
+#Did they do a biopsy? 
+#(S1 (SQ (AUX Did) (NP (PRP they)) (VP (AUX do) (NP (DT a) (NN biopsy))) (. ?)))
+#Rule:Nouns
+r1biopsyNN
+
+#Rule:V-HeadNoun
+r21doAUXbiopsyNN
+
+#On the tumor?  
+#(S1 (FRAG (PP (IN On) (NP (DT the) (NN tumor))) (. ?)))
+#Rule:Nouns
+r1tumorNN
+
+#That is the only way to diagnose it specifically. 
+#(S1 (S (NP (DT That)) (VP (AUX is) (NP (NP (DT the) (JJ only) (NN way)) (SBAR (S (VP (TO to) (VP (VB diagnose) (NP (PRP it)) (ADVP (RB specifically)))))))) (. .)))
+#Rule:Nouns
+r1wayNN
+
+#Rule:Verbs
+r2diagnoseVB
+
+#Rule:Adjs
+r4onlyJJ
+
+#Rule:Adj-Noun
+r5onlyJJwayNN
+
+#Rule:HeadNoun-V
+r11thatDTisAUX
+
+#Rule:HeadNoun-(who/that)-V
+r14wayNNdiagnoseVB
+
+#Rule:V-HeadNoun
+r21isAUXwayNN
+r21diagnoseVBitPRP
+
+#Rule:V-ADV
+r46diagnoseVBspecificallyRB
+
+#Find a surgeon willing to put her on dialysis while removing the tumor.
+#(S1 (S (VP (VB Find) (NP (NP (DT a) (NN surgeon)) (ADJP (JJ willing) (S (VP (TO to) (VP (VB put) (NP (PRP her)) (PP (IN on) (NP (NN dialysis))) (SBAR (IN while) (S (VP (VBG removing) (NP (DT the) (NN tumor))))))))))) (. .)))
+#Rule:Nouns
+r1surgeonNN
+r1dialysisNN
+r1tumorNN
+
+#Rule:Verbs
+r2findVB
+r2putVB
+r2removingVBG
+
+#Rule:Adjs
+r4willingJJ
+
+#Rule:Adj-Noun
+r5willingJJsurgeonNN
+
+#Rule:V-HeadNoun
+r21findVBsurgeonNN
+r21putVBherPRP
+r21removingVBGtumorNN
+
+#Rule:PPinVP
+r30putVBonINdialysisNN
+
+#Rule:V-IN-V
+r43putVBwhileINremovingVBG
+
+@lemmas-left	is	biopsy	put	remove	way	tumor	willing	diagnose	that	surgeon	removing	dialysis	only	do	find	be	
+@lemmas-right	is	biopsy	it	remove	way	tumor	diagnose	surgeon	removing	dialysis	her	be	specifically	
+@lemmas-center	on	while	

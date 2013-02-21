@@ -1,0 +1,39 @@
+#eat raw garlic. crush some garlic and put salt and olive oil and eat it with bread.
+#(S1 (S (VP (VB eat) (S (NP (JJ raw) (NNS garlic.)) (VP (VP (VB crush) (NP (DT some) (UCP (JJ garlic) (CC and) (NN put) (NN salt) (CC and) (JJ olive)) (NN oil))) (CC and) (VP (VB eat) (NP (PRP it)) (PP (IN with) (NP (NN bread))))))) (. .)))
+#Rule:Nouns
+r1garlicNNS
+r1putNN
+r1saltNN
+r1oilNN
+r1breadNN
+
+#Rule:Verbs
+r2eatVB
+r2crushVB
+r2eatVB
+
+#Rule:Adjs
+r4rawJJ
+r4garlicJJ
+r4oliveLocationAnnotation
+
+#Rule:Adj-Noun
+r5rawJJgarlicNNS
+
+#Rule:HeadNoun-V
+r11garlicNNScrushVB
+r11garlicNNSeatVB
+
+#Rule:V-HeadNoun
+r21crushVBoilNN
+r21eatVBitPRP
+
+#Rule:V-HeadNoun
+r22eatVBgarlicNNS
+
+#Rule:PPinVP
+r30eatVBwithINbreadNN
+
+@lemmas-left	raw	garlic.	put	garlic	crush	bread	eat	olive	oil	salt	
+@lemmas-right	garlic.	it	garlic	crush	bread	eat	oil	
+@lemmas-center	with	

@@ -1,0 +1,41 @@
+#Because you are so much different from us and we like to perform expe...ohahhh wait a mi..Im not supposed to be telli.
+#(S1 (S (SBAR (IN Because) (S (S (NP (PRP you)) (VP (AUX are) (ADJP (ADVP (RB so) (RB much)) (JJ different) (PP (IN from) (NP (PRP us)))))) (CC and) (S (NP (PRP we)) (VP (VBP like) (S (VP (TO to) (VP (VB perform) (NP (NN expe))))))))) (: ...) (ADVP (RB ohahhh)) (VP (VB wait) (NP (NP (DT a) (NN mi)) (VP (VBG ..) (NP (NNP Im)))) (RB not) (VP (VBN supposed) (S (VP (TO to) (VP (AUX be) (ADJP (JJ telli))))))) (. .)))
+#Rule:Nouns
+r1expeNN
+r1mi..ImLocationAnnotation
+
+#Rule:Verbs
+r2likeVBP
+r2performVB
+r2waitVB
+r2supposedVBN
+
+#Rule:Adjs
+r4differentJJ
+r4telliJJ
+
+#Rule:HeadNoun-V
+r11youPRPareAUX
+r11wePRPlikeVBP
+
+#Rule:V-HeadNoun
+r21performVBexpeNN
+r21waitVBmi..ImLocationAnnotation
+
+#Rule:V-ADJ
+r25areAUXmuchRB
+r25beAUXtelliJJ
+
+#Rule:PPinADJP
+r37muchRBfromINusPRP
+
+#Rule:V-V
+r44likeVBPperformVB
+
+#Rule:V-ADV
+r46waitVBohahhhPersonAnnotation
+r46waitVBnotRB
+
+@lemmas-left	different	supposed	perform	you	wait	like	much	suppose	mi..Im	are	expe	telli	we	be	
+@lemmas-right	not	ohahhh	mi..Im	are	expe	perform	us	telli	like	much	be	
+@lemmas-center	from	

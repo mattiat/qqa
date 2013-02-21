@@ -1,0 +1,165 @@
+#Your asthma specialist should find out what foods you should avoid.  
+#(S1 (S (NP (PRP$ Your) (NN asthma) (NN specialist)) (VP (MD should) (VP (VB find) (PRT (RP out)) (SBAR (WHNP (WP what) (NNS foods)) (S (NP (PRP you)) (VP (MD should) (VP (VB avoid))))))) (. .)))
+#Rule:Nouns
+r1asthmaPersonAnnotation
+r1specialistNN
+r1foodsNNS
+
+#Rule:Verbs
+r2avoidVB
+
+#Rule:V-PRT
+r3findVBoutRP
+
+#Rule:PRP-Noun
+r6yourPRP$specialistNN
+
+#Rule:N-HeadNoun
+r8asthmaPersonAnnotationspecialistNN
+
+#Rule:HeadNoun-V
+r11specialistNNfindVB
+r11youPRPavoidVB
+
+#Then seek out a nutritionist.  
+#(S1 (S (RB Then) (VP (VB seek) (PRT (RP out)) (NP (DT a) (NN nutritionist))) (. .)))
+#Rule:Nouns
+r1nutritionistNN
+
+#Rule:V-PRT
+r3seekVBoutRP
+
+#Rule:V-HeadNoun
+r21seekVBnutritionistNN
+
+#Don t worry your not going to die.  
+#(S1 (S (NP (NNP Don) (NNP t)) (VP (VB worry) (NP (PRP$ your)) (RB not) (VP (VBG going) (S (VP (TO to) (VP (VB die)))))) (. .)))
+#Rule:Nouns
+r1Don tPersonAnnotation
+
+#Rule:Verbs
+r2worryVB
+r2goingVBG
+r2dieVB
+
+#Rule:HeadNoun-V
+r11Don tPersonAnnotationworryVB
+r11Don tPersonAnnotationgoingVBG
+
+#Rule:V-HeadNoun
+r21worryVByourPRP$
+
+#Rule:V-V
+r44goingVBGdieVB
+
+#Rule:V-ADV
+r46worryVBnotRB
+
+#You just need professional advice on what to do.  
+#(S1 (S (NP (PRP You)) (ADVP (RB just)) (VP (AUX need) (NP (NP (JJ professional) (NN advice)) (PP (IN on) (SBAR (WHNP (WP what)) (S (VP (TO to) (VP (AUX do)))))))) (. .)))
+#Rule:Nouns
+r1adviceNN
+
+#Rule:Adjs
+r4professionalJJ
+
+#Rule:Adj-Noun
+r5professionalJJadviceNN
+
+#Rule:HeadNoun-V
+r11youPRPneedAUX
+
+#Rule:V-HeadNoun
+r21needAUXadviceNN
+
+#Rule:V-ADV
+r46needAUXjustRB
+
+#It s too bad he scared you like that and didn t offer advice that you could put in a plan.  
+#(S1 (S (NP (PRP It)) (VP (VBZ s) (ADJP (RB too) (JJ bad) (SBAR (S (NP (PRP he)) (VP (VBD scared) (SBAR (S (NP (PRP you)) (VP (VBP like) (SBAR (IN that) (S (CC and) (NP (NNS didn)) (ADVP (RB t)) (VP (VBP offer) (NP (NN advice)) (SBAR (IN that) (S (NP (PRP you)) (VP (MD could) (VP (VB put) (PRT (RP in)) (NP (DT a) (NN plan))))))))))))))))) (. .)))
+#Rule:Nouns
+r1didnNNS
+r1adviceNN
+r1planNN
+
+#Rule:Verbs
+r2sVBZ
+r2scaredVBD
+r2likeVBP
+r2offerVBP
+
+#Rule:V-PRT
+r3putVBinRP
+
+#Rule:Adjs
+r4badJJ
+
+#Rule:HeadNoun-V
+r11itPRPsVBZ
+r11hePRPscaredVBD
+r11youPRPlikeVBP
+r11didnNNSofferVBP
+r11youPRPputVB
+
+#Rule:V-HeadNoun
+r21offerVBPadviceNN
+r21putVBplanNN
+
+#Rule:V-IN-V
+r43likeVBPthatINofferVBP
+r43offerVBPthatINputVB
+
+#Rule:V-ADV
+r46offerVBPtRB
+
+#Please seek professional help in nutrition, someone that can incorporate your asthma needs along with weight gain needs.
+#(S1 (S (S (INTJ (UH Please)) (VP (VB seek) (NP (JJ professional) (NN help)) (PP (IN in) (NP (NN nutrition))))) (, ,) (NP (NP (NN someone)) (SBAR (WHNP (WDT that)) (S (VP (MD can) (VP (VB incorporate) (NP (PRP$ your) (NN asthma) (NNS needs)) (PP (IN along) (PP (IN with) (NP (NN weight) (NN gain))))))))) (VP (VBZ needs)) (. .)))
+#Rule:Nouns
+r1helpNN
+r1nutritionNN
+r1someoneNN
+r1asthmaPersonAnnotation
+r1needsNNS
+r1weightNN
+r1gainNN
+
+#Rule:Verbs
+r2seekVB
+r2incorporateVB
+r2needsVBZ
+
+#Rule:Adjs
+r4professionalJJ
+
+#Rule:Adj-Noun
+r5professionalJJhelpNN
+
+#Rule:PRP-Noun
+r6yourPRP$needsNNS
+
+#Rule:N-HeadNoun
+r8asthmaPersonAnnotationneedsNNS
+r8weightNNgainNN
+
+#Rule:HeadNoun-V
+r11someoneNNneedsVBZ
+
+#Rule:HeadNoun-(who/that)-V
+r14someoneNNincorporateVB
+
+#Rule:V-HeadNoun
+r21seekVBhelpNN
+r21incorporateVBneedsNNS
+
+#Rule:PPinVP
+r30seekVBinINnutritionNN
+
+#Rule:PPComboInVP
+r34incorporateVBalongINgainNN
+
+#Rule:SubVerbClause
+r50someoneNNseekVB
+
+@lemmas-left	Don t	need	weight	put	specialist	incorporate	avoid	help	someone	asthma	die	find	going	it	needs	your	scared	you	he	bad	offer	like	professional	gain	seek	nutrition	foods	plan	s	nutritionist	food	didn	worry	advice	scare	go	
+@lemmas-right	need	put	specialist	incorporate	avoid	help	die	find	just	going	needs	your	scared	offer	like	in	seek	gain	not	nutrition	t	s	plan	nutritionist	advice	worry	scare	go	out	
+@lemmas-center	that	along	in	

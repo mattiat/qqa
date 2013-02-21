@@ -1,0 +1,59 @@
+#While there is some oil in the Parasol Islands, I doubt it was known at the time. 
+#(S1 (S (SBAR (IN While) (S (NP (EX there)) (VP (AUX is) (NP (NP (DT some) (NN oil)) (PP (IN in) (NP (DT the) (NNP Parasol) (NNP Islands))))))) (, ,) (NP (PRP I)) (VP (VBP doubt) (SBAR (S (NP (PRP it)) (VP (AUX was) (VP (VBN known) (PP (IN at) (NP (DT the) (NN time)))))))) (. .)))
+#Rule:Nouns
+r1oilNN
+r1Parasol IslandsLocationAnnotation
+r1timeNN
+
+#Rule:Verbs
+r2doubtVBP
+r2knownVBN
+
+#Rule:HeadNoun-V
+r11iPRPdoubtVBP
+r11thereEXisAUX
+
+#Rule:V-HeadNoun
+r21isAUXoilNN
+
+#Rule:V-HeadNoun(passive)
+r23knownVBNitPRP
+
+#Rule:PPinNP
+r26oilNNinINParasol IslandsLocationAnnotation
+
+#Rule:PPinVP
+r32knownVBNatINtimeNN
+
+#So, unlike bushit and thug, oil probably was not a factor in Viet Nam.
+#(S1 (S (ADVP (RB So)) (, ,) (PP (IN unlike) (NP (NN bushit) (CC and) (NN thug))) (, ,) (NP (NN oil)) (ADVP (RB probably)) (VP (AUX was) (RB not) (NP (NP (DT a) (NN factor)) (PP (IN in) (NP (NNP Viet) (NNP Nam))))) (. .)))
+#Rule:Nouns
+r1bushitNN
+r1thugNN
+r1oilNN
+r1factorNN
+r1VieLocationAnnotation
+
+#Rule:HeadNoun-V
+r11oilNNwasAUX
+
+#Rule:V-HeadNoun
+r21wasAUXfactorNN
+
+#Rule:PPinNP
+r26factorNNinINVieLocationAnnotation
+
+#Rule:PPinS
+r36wasAUXunlikeINbushitNN
+
+#Rule:V-ADV
+r46wasAUXSoRB
+r46wasAUXprobablyRB
+r46wasAUXnotRB
+
+#Rule:IS-RULE
+r47factorNNoilNN
+
+@lemmas-left	is	Vie	doubt	Parasol Islands	bushit	factor	know	was	oil	i	thug	time	there	known	be	
+@lemmas-right	is	it	so	Vie	doubt	Parasol Islands	factor	bushit	oil	was	So	not	time	probably	be	
+@lemmas-center	unlike	at	in	

@@ -1,0 +1,28 @@
+#I m not against it either I m starting my son and he is 16
+#(S1 (S (NP (PRP I)) (VP (NNP m) (S (S (RB not) (PP (IN against) (NP (NP (PRP it)) (CC either) (NP (PRP I)))) (NP (NNP m)) (VP (VBG starting) (NP (PRP$ my) (NN son)))) (CC and) (S (NP (PRP he)) (VP (AUX is) (NP (CD 16))))))))
+#Rule:Nouns
+r1mNNP
+r1mNNP
+r1sonNN
+
+#Rule:Verbs
+r2startingVBG
+
+#Rule:PRP-Noun
+r6myPRP$sonNN
+
+#Rule:HeadNoun-V
+r11mNNPstartingVBG
+r11hePRPisAUX
+
+#Rule:V-HeadNoun
+r21startingVBGsonNN
+r21isAUX16CD
+
+#Rule:PPinS
+r36startingVBGagainstINitPRP
+r36startingVBGagainstINiPRP
+
+@lemmas-left	is	start	starting	son	he	m	my	be	
+@lemmas-right	is	it	start	starting	son	16	i	be	
+@lemmas-center	against	

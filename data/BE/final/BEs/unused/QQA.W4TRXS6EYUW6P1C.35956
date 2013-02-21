@@ -1,0 +1,110 @@
+#Ah, spoken like someone who doesn t have a penis and so has no investment in the operation.  
+#(S1 (S (INTJ (UH Ah)) (, ,) (VP (VBN spoken) (PP (IN like) (NP (NP (NN someone)) (SBAR (WHNP (WP who)) (S (NP (JJ doesn) (NNS t)) (VP (VP (AUX have) (NP (DT a) (NN penis))) (CC and) (VP (ADVP (RB so)) (AUX has) (NP (NP (DT no) (NN investment)) (PP (IN in) (NP (DT the) (NN operation))))))))))) (. .)))
+#Rule:Nouns
+r1someoneNN
+r1tNNS
+r1penisNN
+r1investmentNN
+r1operationNN
+
+#Rule:Verbs
+r2spokenVBN
+
+#Rule:Adjs
+r4doesnJJ
+
+#Rule:Adj-Noun
+r5doesnJJtNNS
+
+#Rule:HeadNoun-V
+r11tNNShaveAUX
+r11tNNShasAUX
+
+#Rule:V-HeadNoun
+r21haveAUXpenisNN
+r21hasAUXinvestmentNN
+
+#Rule:PPinNP
+r26investmentNNinINoperationNN
+
+#Rule:PPinVP
+r32spokenVBNlikeINsomeoneNN
+
+#Rule:V-ADV
+r46hasAUXsoRB
+
+#How special of you.  
+#(S1 (FRAG (WHNP (WRB How) (JJ special)) (PP (IN of) (NP (PRP you))) (. .)))
+#Rule:Adjs
+r4specialJJ
+
+#Why don t all girls have their clitoris cut out while they cry and scream in agony?  
+#(S1 (SBARQ (WHADVP (WRB Why)) (SQ (VP (VB don) (S (VP (VBG t) (SBAR (S (NP (DT all) (NNS girls)) (VP (AUX have) (S (NP (PRP$ their) (NNS clitoris)) (VP (VBN cut) (PRT (RP out)) (SBAR (IN while) (S (NP (PRP they)) (VP (VB cry) (CC and) (VBP scream) (PP (IN in) (NP (NN agony))))))))))))))) (. ?)))
+#Rule:Nouns
+r1girlsNNS
+r1clitorisNNS
+r1agonyLocationAnnotation
+
+#Rule:Verbs
+r2donVB
+r2tLocationAnnotation
+r2cryVB
+r2screamVBP
+
+#Rule:V-PRT
+r3cutVBNoutRP
+
+#Rule:PRP-Noun
+r6theirPRP$clitorisNNS
+
+#Rule:HeadNoun-V
+r11girlsNNShaveAUX
+r11theyPRPcryVB
+
+#Rule:V-HeadNoun
+r22haveAUXclitorisNNS
+
+#Rule:V-HeadNoun(passive)
+r24cutVBNclitorisNNS
+
+#Rule:PPinVP
+r30cryVBinINagonyLocationAnnotation
+
+#Rule:V-IN-V
+r43cutVBNwhileINcryVB
+
+#No, wait, in many countries they do!  
+#(S1 (FRAG (INTJ (UH No)) (, ,) (INTJ (VB wait)) (, ,) (PP (IN in) (NP (NP (JJ many) (NNS countries)) (SBAR (S (NP (PRP they)) (VP (AUX do)))))) (. !)))
+#Rule:Nouns
+r1countriesNNS
+
+#Rule:Verbs
+r2waitVB
+
+#Rule:Adjs
+r4manyJJ
+
+#Rule:Adj-Noun
+r5manyJJcountriesNNS
+
+#Rule:HeadNoun-V
+r11theyPRPdoAUX
+
+#Why don t you move to one of them?
+#(S1 (SBARQ (WHADVP (WRB Why)) (SQ (VP (VB don) (SBAR (RB t) (S (NP (PRP you)) (VP (VBP move) (PP (TO to) (NP (NP (CD one)) (PP (IN of) (NP (PRP them)))))))))) (. ?)))
+#Rule:Verbs
+r2donVB
+r2moveVBP
+
+#Rule:HeadNoun-V
+r11youPRPmoveVBP
+
+#Rule:PPinNP
+r26oneCDofINthemLocationAnnotation
+
+#Rule:PPinVP
+r30moveVBPtoTOoneCD
+
+@lemmas-left	they	don	have	one	spoken	wait	countries	has	investment	agony	doesn	operation	girl	penis	someone	move	girls	scream	speak	you	cry	country	many	t	special	cut	their	clitoris	
+@lemmas-right	have	so	one	countries	has	investment	cry	country	agony	operation	t	them	penis	someone	do	clitoris	move	out	
+@lemmas-center	to	of	like	in	while	

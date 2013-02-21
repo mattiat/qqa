@@ -1,0 +1,18 @@
+#how do you get over fears of tornados?
+#(S1 (SBARQ (WHADVP (WRB how)) (SQ (AUX do) (NP (PRP you)) (VP (VB get) (PP (IN over) (NP (NP (NNS fears)) (PP (IN of) (NP (NNS tornados))))))) (. ?)))
+#Rule:Nouns
+r1fearsNNS
+r1tornadosLocationAnnotation
+
+#Rule:Verbs
+r2getVB
+
+#Rule:PPinNP
+r26fearsNNSofINtornadosLocationAnnotation
+
+#Rule:PPinVP
+r30getVBoverINfearsNNS
+
+@lemmas-left	get	fears	tornados	fear	
+@lemmas-right	fears	tornados	fear	
+@lemmas-center	of	over	

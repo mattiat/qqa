@@ -1,0 +1,146 @@
+#I ve heard a few (crazy) theories on Book 7. 
+#(S1 (S (NP (PRP I)) (ADVP (RB ve)) (VP (VBD heard) (NP (DT a) (JJ few) (PRN (-LRB- -LRB-) (JJ crazy) (-RRB- -RRB-)) (NNS theories)) (PP (IN on) (NP (NNP Book) (CD 7)))) (. .)))
+#Rule:Nouns
+r1theoriesNNS
+r1BookNNP
+
+#Rule:Verbs
+r2heardVBD
+
+#Rule:Adjs
+r4fewJJ
+r4crazyJJ
+
+#Rule:Adj-Noun
+r5fewJJtheoriesNNS
+r57CDBookNNP
+
+#Rule:HeadNoun-V
+r11iPRPheardVBD
+
+#Rule:V-HeadNoun
+r21heardVBDtheoriesNNS
+
+#Rule:PPinVP
+r30heardVBDonINBookNNP
+
+#Rule:V-ADV
+r46heardVBDveRB
+
+#(and am dying to hear news about when Book 7 will be coming out. 
+#(S1 (SBARQ (-LRB- -LRB-) (CC and) (SQ (VP (AUX am) (VP (VBG dying) (S (VP (TO to) (VP (VB hear) (NP (NP (NN news)) (PP (IN about) (SBAR (WHADVP (WRB when)) (S (NP (NNP Book) (CD 7)) (VP (MD will) (VP (AUX be) (VP (VBG coming) (PRT (RP out))))))))))))))) (. .)))
+#Rule:Nouns
+r1newsNN
+r1BookOrganizationAnnotation
+
+#Rule:Verbs
+r2dyingVBG
+r2hearVB
+
+#Rule:V-PRT
+r3comingVBGoutRP
+
+#Rule:Adj-Noun
+r57CDBookOrganizationAnnotation
+
+#Rule:HeadNoun-V
+r11BookOrganizationAnnotationcomingVBG
+
+#Rule:V-HeadNoun
+r21hearVBnewsNN
+
+#Rule:V-V
+r44dyingVBGhearVB
+
+#I hope it s soon!) 
+#(S1 (S (NP (PRP I)) (VP (VBP hope) (SBAR (S (NP (PRP it)) (VP (VBZ s) (ADVP (RB soon)))))) (. !) (-RRB- -RRB-)))
+#Rule:Verbs
+r2hopeVBP
+r2sVBZ
+
+#Rule:HeadNoun-V
+r11iPRPhopeVBP
+r11itPRPsVBZ
+
+#Rule:V-ADV
+r46sVBZsoonRB
+
+#First, Hogwarts will (most likely) be closed due to the death of Dumbledore ,so school won t get in the way of the destroying Horcruxes business. 
+#(S1 (S (ADVP (RB First)) (, ,) (NP (NNPS Hogwarts)) (VP (MD will) (PRN (-LRB- -LRB-) (ADVP (RBS most) (RB likely)) (-RRB- -RRB-)) (VP (AUX be) (VP (VBN closed) (ADJP (JJ due)) (PP (TO to) (NP (NP (DT the) (NN death)) (PP (IN of) (NP (NNP Dumbledore))))) (, ,) (SBAR (IN so) (S (NP (NN school) (NN won) (NNS t)) (VP (VBP get) (PP (IN in) (NP (NP (DT the) (NN way)) (PP (IN of) (NP (DT the) (VBG destroying) (NNP Horcruxes) (NN business))))))))))) (. .)))
+#Rule:Nouns
+r1HogwartsPersonAnnotation
+r1deathNN
+r1DumbledoreLocationAnnotation
+r1schoolNN
+r1wonNN
+r1tLocationAnnotation
+r1wayNN
+r1HorcruxesNNP
+r1businessNN
+
+#Rule:Verbs
+r2closedVBN
+r2getVBP
+r2destroyingVBG
+
+#Rule:Adjs
+r4dueJJ
+
+#Rule:Adj-Noun
+r5destroyingVBGbusinessNN
+
+#Rule:N-HeadNoun
+r8wonNNtLocationAnnotation
+r8schoolNNtLocationAnnotation
+r8HorcruxesNNPbusinessNN
+
+#Rule:HeadNoun-V
+r11tLocationAnnotationgetVBP
+
+#Rule:V-HeadNoun(passive)
+r23closedVBNHogwartsPersonAnnotation
+
+#Rule:PPinNP
+r26deathNNofINDumbledoreLocationAnnotation
+r26wayNNofINbusinessNN
+
+#Rule:PPinVP
+r30getVBPinINwayNN
+
+#Rule:PPinVP
+r32closedVBNtoTOdeathNN
+
+#Rule:V-IN-V
+r43closedVBNsoINgetVBP
+
+#Ron + Hermoine are probably going to join him.
+#(S1 (S (NP (NNP Ron) (NNP +) (NNP Hermoine)) (VP (AUX are) (ADVP (RB probably)) (VP (VBG going) (S (VP (TO to) (VP (VB join) (NP (PRP him))))))) (. .)))
+#Rule:Nouns
+r1RonPersonAnnotation
+r1+NNP
+r1HermoineNNP
+
+#Rule:Verbs
+r2goingVBG
+r2joinVB
+
+#Rule:N-HeadNoun
+r8+NNPHermoineNNP
+r8RonPersonAnnotationHermoineNNP
+
+#Rule:HeadNoun-V
+r11HermoineNNPgoingVBG
+
+#Rule:V-HeadNoun
+r21joinVBhimPRP
+
+#Rule:V-V
+r44goingVBGjoinVB
+
+#Rule:V-ADV
+r46areAUXprobablyRB
+r46goingVBGprobablyRB
+
+@lemmas-left	Book	hermoine	Hermoine	theory	way	business	close	destroy	hear	are	heard	crazy	theories	die	closed	won	dying	be	going	it	get	news	Dumbledore	death	+	Horcruxes	come	join	horcruxes	i	few	destroying	Hogwarts	school	t	7	s	book	coming	due	Ron	go	hope	
+@lemmas-right	Book	hermoine	Hermoine	theory	way	him	business	hear	heard	theories	ve	probably	going	get	news	Dumbledore	death	come	join	soon	Hogwarts	t	s	coming	book	hope	out	go	
+@lemmas-center	to	of	so	on	in	

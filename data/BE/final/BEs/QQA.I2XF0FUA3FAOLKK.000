@@ -1,0 +1,70 @@
+#How do I lose weight??
+#(S1 (SBARQ (WHADVP (WRB How)) (SQ (AUX do) (NP (PRP I)) (VP (VB lose) (NP (NN weight))) (. ?)) (. ?)))
+#Rule:Nouns
+r1weightNN
+
+#Rule:Verbs
+r2loseVB
+
+#Rule:V-HeadNoun
+r21loseVBweightNN
+
+#I need to lose weight for the next football season I m  5 8 and 185-190 lbs. Also how do I lose the fat in my belly? Also I weight lift 3 days a week and play other sports.
+#(S1 (S (NP (PRP I)) (VP (AUX need) (S (VP (TO to) (VP (VB lose) (NP (NN weight)) (PP (IN for) (NP (NP (DT the) (JJ next) (NN football) (NN season)) (X (NP (PRP I)) (NP (NNP m)) (NP (QP (CD 5) (CD 8) (CC and) (CD 185-190)) (NN lbs.)) (SBARQ (WHADVP (ADVP (RB Also)) (WRB how)) (SQ (AUX do) (NP (PRP I)) (VP (VB lose) (NP (DT the) (NN fat)) (PP (IN in) (NP (PRP$ my) (NN belly)))) (. ?) (RB Also) (NP (PRP I)) (VP (VB weight) (S (VP (VP (VB lift) (NP (NP (CD 3) (NNS days)) (NP (DT a) (NN week)))) (CC and) (VP (VB play) (NP (JJ other) (NNS sports))))))))))))))) (. .)))
+#Rule:Nouns
+r1weightNN
+r1footballNN
+r1seasonNN
+r1mNNP
+r1lbsLocationAnnotation
+r1fatNN
+r1bellyNN
+r1daysNNS
+r1weekNN
+r1sportsNNS
+
+#Rule:Verbs
+r2loseVB
+r2loseVB
+r2weightVB
+r2liftVB
+r2playVB
+
+#Rule:Adjs
+r4nextJJ
+r4otherJJ
+
+#Rule:Adj-Noun
+r5nextJJseasonNN
+r55CDlbsLocationAnnotation
+r58CDlbsLocationAnnotation
+r5185-190CDlbsLocationAnnotation
+r53CDdaysNNS
+r5otherJJsportsNNS
+
+#Rule:PRP-Noun
+r6myPRP$bellyNN
+
+#Rule:N-HeadNoun
+r8footballNNseasonNN
+
+#Rule:HeadNoun-V
+r11iPRPneedAUX
+
+#Rule:V-HeadNoun
+r21loseVBweightNN
+r21loseVBfatNN
+r21liftVBdaysNNS
+r21playVBsportsNNS
+
+#Rule:PPinVP
+r30loseVBforINseasonNN
+r30loseVBinINbellyNN
+
+#Rule:V-V
+r44weightVBliftVB
+r44weightVBplayVB
+
+@lemmas-left	other	weight	185-190	next	fat	play	sports	sport	m	my	belly	i	3	lose	football	season	days	5	lift	8	lbs	week	
+@lemmas-right	need	weight	days	season	fat	play	lift	sports	sport	belly	lbs	
+@lemmas-center	for	in	

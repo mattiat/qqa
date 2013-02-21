@@ -1,0 +1,93 @@
+BE: scienceNN
+EQ class: scientific_disciplinenn	
+
+BE: factNN
+EQ class: 
+
+BE: religionNN
+EQ class: religiousjj	faithnn	religious_beliefnn	
+
+BE: faithNN
+EQ class: religionnn	religious_beliefnn	
+
+BE: basedVBN
+EQ class: groundvbn	basevbn	foundvbn	establishvbn	
+
+BE: basedVBN
+EQ class: groundvbn	basevbn	foundvbn	establishvbn	
+
+BE: basedVBNreligionNN
+EQ class: establishvbnreligious_beliefnn	groundvbnreligionnn	groundvbnreligious_beliefnn	basevbnreligious_beliefnn	basedvbnreligiousjj	groundvbnfaithnn	groundvbnreligiousjj	foundvbnreligionnn	basevbnreligionnn	foundvbnreligiousjj	base_of_operationsnnofinreligiousjj	establishvbnreligiousjj	basevbnreligiousjj	basennofinreligious_beliefnn	basedvbnreligious_beliefnn	basedvbnfaithnn	base_of_operationsnnofinreligionnn	foundvbnreligious_beliefnn	basennofinfaithnn	basennofinreligiousjj	basevbnfaithnn	base_of_operationsnnofinreligious_beliefnn	establishvbnfaithnn	establishvbnreligionnn	basennofinreligionnn	foundvbnfaithnn	base_of_operationsnnofinfaithnn	
+
+BE: basedVBNscienceNN
+EQ class: groundvbnsciencenn	foundvbnscientific_disciplinenn	base_of_operationsnnofinscientific_disciplinenn	basevbnsciencenn	foundvbnsciencenn	basevbnscientific_disciplinenn	basennofinscientific_disciplinenn	basennofinsciencenn	establishvbnscientific_disciplinenn	groundvbnscientific_disciplinenn	base_of_operationsnnofinsciencenn	establishvbnsciencenn	basedvbnscientific_disciplinenn	
+
+BE: basedVBNonINfactNN
+EQ class: foundvbnoninfactnn	groundvbnoninfactnn	establishvbnoninfactnn	basevbnoninfactnn	
+
+BE: basedVBNonINfaithNN
+EQ class: establishvbnoninreligionnn	foundvbnoninfaithnn	basevbnoninreligionnn	groundvbnoninreligious_beliefnn	basedvbnoninreligionnn	groundvbnoninreligionnn	groundvbnoninfaithnn	foundvbnoninreligionnn	foundvbnoninreligious_beliefnn	basedvbnoninreligious_beliefnn	basevbnoninfaithnn	basevbnoninreligious_beliefnn	establishvbnoninfaithnn	establishvbnoninreligious_beliefnn	
+
+BE: faithNN
+EQ class: religionnn	religious_beliefnn	
+
+BE: worldNN
+EQ class: cosmosnn	macrocosmnn	creationnn	existencenn	universenn	
+
+BE: PeopleNNS
+EQ class: 
+
+BE: standardsNNS
+EQ class: measurenns	criterionnns	theynns	standardnns	touchstonenns	themnns	
+
+BE: informationNN
+EQ class: infonn	
+
+BE: digNN
+EQ class: excavationnn	archeological_sitenn	
+
+BE: takeVB
+EQ class: 
+
+BE: foundVBN
+EQ class: set_upvbn	launchvbn	establishvbn	
+
+BE: chaoticJJ
+EQ class: helter-skelterjj	
+
+BE: moralJJ
+EQ class: moralitynn	
+
+BE: geologicalJJ
+EQ class: geologicjj	geologynn	
+
+BE: moralJJstandardsNNS
+EQ class: standardizevbmorallyrb	moraljjcriterionnns	moraljjtheynns	moraljjthemnns	moraljjtouchstonenns	moralitynnmeasurenns	standardisevbmorallyrb	moralitynnstandardsnns	moralitynncriterionnns	moralitynnstandardnns	moralitynnthemnns	moralitynntheynns	moraljjmeasurenns	moraljjstandardnns	moralitynntouchstonenns	
+
+BE: geologicalJJdigNN
+EQ class: geologicaljjarcheological_sitenn	delvevbgeologicallyrb	geologicjjarcheological_sitenn	geologicjjdignn	turn_overvbgeologicallyrb	geologicaljjexcavationnn	geologynnexcavationnn	geologicjjexcavationnn	geologynnarcheological_sitenn	geologynndignn	digvbgeologicallyrb	cut_intovbgeologicallyrb	
+
+BE: worldNNbeAUX
+EQ class: creationnnbeaux	macrocosmnnbeaux	universennbeaux	existencennbeaux	cosmosnnbeaux	
+
+BE: PeopleNNSneedAUX
+EQ class: peoplennstakeaux	demandnnofinpeoplenns	peoplennscall_foraux	peoplennsnecessitateaux	neednnofinpeoplenns	peoplennspostulateaux	peoplennsaskaux	peoplennsrequireaux	peoplennsdemandaux	peoplennsinvolveaux	
+
+BE: takeVBfaithNN
+EQ class: takevbreligionnn	takevbreligious_beliefnn	
+
+BE: needAUXstandardsNNS
+EQ class: demandnnofintouchstonenns	requireauxcriterionnns	demandnnofincriterionnns	involveauxtouchstonenns	postulateauxmeasurenns	askauxthemnns	involveauxthemnns	demandnnofinmeasurenns	askauxmeasurenns	neednnofincriterionnns	necessitateauxmeasurenns	call_forauxstandardnns	requireauxmeasurenns	necessitateauxstandardsnns	call_forauxthemnns	askauxstandardnns	takeauxstandardsnns	neednnofinstandardnns	needauxcriterionnns	demandnnofinstandardsnns	takeauxmeasurenns	needauxstandardnns	postulateauxcriterionnns	requireauxtheynns	requireauxtouchstonenns	needauxthemnns	involveauxstandardsnns	postulateauxstandardsnns	askauxtouchstonenns	involveauxcriterionnns	neednnofinmeasurenns	demandauxtouchstonenns	takeauxthemnns	involveauxmeasurenns	takeauxtheynns	demandnnofintheynns	neednnofinstandardsnns	needauxtouchstonenns	demandauxcriterionnns	requireauxstandardnns	demandauxthemnns	call_forauxmeasurenns	demandauxstandardnns	takeauxtouchstonenns	postulateauxstandardnns	requireauxstandardsnns	postulateauxtheynns	neednnofintheynns	call_forauxstandardsnns	call_forauxtheynns	demandnnofinstandardnns	demandauxtheynns	takeauxcriterionnns	involveauxstandardnns	neednnofintouchstonenns	needauxtheynns	postulateauxthemnns	neednnofinthemnns	necessitateauxcriterionnns	askauxcriterionnns	demandauxstandardsnns	needauxmeasurenns	necessitateauxtouchstonenns	call_forauxcriterionnns	necessitateauxstandardnns	demandauxmeasurenns	postulateauxtouchstonenns	necessitateauxthemnns	askauxtheynns	demandnnofinthemnns	takeauxstandardnns	askauxstandardsnns	involveauxtheynns	necessitateauxtheynns	call_forauxtouchstonenns	requireauxthemnns	
+
+BE: foundVBNinformationNN
+EQ class: launchvbninformationnn	originationnnofininfonn	foundingnnofininformationnn	foundernnofininfonn	institutionnnofininformationnn	foundationnnofininfonn	institutionnnofininfonn	innovationnnofininfonn	foundernnofininformationnn	laminitisnnofininfonn	foundationnnofininformationnn	foundvbninfonn	initiationnnofininfonn	set_upvbninformationnn	launchvbninfonn	creationnnofininformationnn	laminitisnnofininformationnn	introductionnnofininformationnn	innovationnnofininformationnn	creationnnofininfonn	establishvbninfonn	set_upvbninfonn	originationnnofininformationnn	establishvbninformationnn	instaurationnnofininformationnn	initiationnnofininformationnn	introductionnnofininfonn	instaurationnnofininfonn	foundingnnofininfonn	
+
+BE: beAUXchaoticJJ
+EQ class: beauxhelter-skelterjj	
+
+BE: foundVBNinINdigNN
+EQ class: set_upvbnininarcheological_sitenn	establishvbnininexcavationnn	foundvbnininarcheological_sitenn	launchvbninindignn	launchvbnininarcheological_sitenn	establishvbnininarcheological_sitenn	foundvbnininexcavationnn	set_upvbnininexcavationnn	establishvbninindignn	set_upvbninindignn	launchvbnininexcavationnn	
+
+BE: takeVBawayRB
+EQ class: 
+

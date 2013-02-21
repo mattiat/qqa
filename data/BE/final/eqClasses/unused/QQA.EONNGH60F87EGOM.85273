@@ -1,0 +1,183 @@
+BE: stageNN
+EQ class: phasenn	
+
+BE: cancerNN
+EQ class: cancerousjj	malignant_neoplastic_diseasenn	
+
+BE: caseNN
+EQ class: instancenn	examplenn	
+
+BE: incurableJJ
+EQ class: incurabilitynn	incurablenessnn	
+
+BE: 4CDcancerNN
+EQ class: 4cdcancerousjj	ivcdmalignant_neoplastic_diseasenn	quartetcdcancerousjj	ivcdcancernn	quaterncdcancerousjj	quartetcdmalignant_neoplastic_diseasenn	little_joecdcancernn	4.cdcancerousjj	quaternitycdcancerousjj	quaternioncdmalignant_neoplastic_diseasenn	ivcdcancerousjj	4cdmalignant_neoplastic_diseasenn	tetradcdcancerousjj	fourcdcancernn	tetradcdmalignant_neoplastic_diseasenn	quadrupletcdmalignant_neoplastic_diseasenn	quartetcdcancernn	quaternioncdcancerousjj	quaternitycdmalignant_neoplastic_diseasenn	quaternitycdcancernn	quaternarycdmalignant_neoplastic_diseasenn	foursomecdcancernn	tetradcdcancernn	quadrupletcdcancernn	little_joecdcancerousjj	quaterncdmalignant_neoplastic_diseasenn	quaternarycdcancerousjj	quaternioncdcancernn	quadrupletcdcancerousjj	4.cdcancernn	little_joecdmalignant_neoplastic_diseasenn	fourcdmalignant_neoplastic_diseasenn	quaterncdcancernn	foursomecdcancerousjj	foursomecdmalignant_neoplastic_diseasenn	fourcdcancerousjj	4.cdmalignant_neoplastic_diseasenn	quaternarycdcancernn	
+
+BE: thisDTisAUX
+EQ class: thisdtbeaux	
+
+BE: stageNNcancerNN
+EQ class: stagenncancerousjj	phasennmalignant_neoplastic_diseasenn	stagennmalignant_neoplastic_diseasenn	phasenncancerousjj	phasenncancernn	
+
+BE: isAUXcaseNN
+EQ class: beauxexamplenn	isauxinstancenn	beauxcasenn	isauxexamplenn	beauxinstancenn	
+
+BE: isAUXincurableJJ
+EQ class: isauxincurablenessnn	beauxincurabilitynn	beauxincurablejj	isauxincurabilitynn	beauxincurablenessnn	
+
+BE: isAUXoftenRB
+EQ class: beauxoftenrb	
+
+BE: isAUXnotRB
+EQ class: beauxnotrb	
+
+BE: isAUXalwaysRB
+EQ class: beauxalwaysrb	
+
+BE: LanceNNP
+EQ class: spearnnp	shaftnnp	
+
+BE: ArmstrongOrganizationAnnotation
+EQ class: 
+
+BE: exampleNN
+EQ class: exemplaryjj	instancenn	illustrationnn	representativenn	
+
+BE: metastasisNN
+EQ class: metastaticjj	
+
+BE: lungsNNS
+EQ class: theynns	lungnns	themnns	
+
+BE: brainNN
+EQ class: encephalonnn	
+
+BE: recoveryNN
+EQ class: 
+
+BE: takeVB
+EQ class: 
+
+BE: makesVBZ
+EQ class: makevbz	dovbz	
+
+BE: completeJJ
+EQ class: completenessnn	
+
+BE: completeJJrecoveryNN
+EQ class: findvbcompletelyrb	retrievevbcompletelyrb	recovervbcompletelyrb	completenessnnrecoverynn	regainvbcompletelyrb	
+
+BE: LanceNNPArmstrongOrganizationAnnotation
+EQ class: shaftnnparmstrongorganizationannotation	spearnnparmstrongorganizationannotation	armstrongorganizationannotationofinshaftnnp	armstrongorganizationannotationofinspearnnp	armstrongorganizationannotationlancevb	armstrongorganizationannotationofinlancennp	
+
+BE: hePRPmakesVBZ
+EQ class: heprpmakevbz	heprpdovbz	
+
+BE: takeVBmetastasisNN
+EQ class: takevbmetastaticjj	
+
+BE: takeVBArmstrongOrganizationAnnotation
+EQ class: 
+
+BE: makesVBZrecoveryNN
+EQ class: makevbzrecoverynn	dovbzrecoverynn	
+
+BE: metastasisNNtoTOlungsNNS
+EQ class: metastasizevbthemnns	lungnnsmetastasisevb	themnnsmetastasisnn	theynnsmetastasizevb	metastasizevbtheynns	lungnnsmetastaticvb	lungsnnsmetastasizevb	themnnsmetastaticjj	metastasisnntotothemnns	metastaticvbtheynns	lungnnsmetastaticjj	theynnsmetastaticjj	metastasizevblungsnns	lungsnnsmetastasisevb	metastaticjjtototheynns	metastaticvbthemnns	metastasisevblungnns	metastaticvblungnns	themnnsmetastaticvb	lungnnsmetastasizevb	theynnsmetastaticvb	themnnsmetastasisevb	metastaticjjtotothemnns	lungsnnsmetastaticjj	theynnsmetastasisevb	metastasisevbthemnns	theynnsmetastasisnn	lungsnnsmetastasisnn	metastasisnntototheynns	metastasisnntotolungnns	lungsnnsmetastaticvb	lungnnsmetastasisnn	metastaticjjtotolungnns	themnnsmetastasizevb	metastaticjjtotolungsnns	metastaticvblungsnns	metastasisevbtheynns	metastasisevblungsnns	metastasizevblungnns	
+
+BE: takeVBforINexampleNN
+EQ class: takevbforinexemplaryjj	takevbforinrepresentativenn	takevbforinillustrationnn	takevbforininstancenn	
+
+BE: cancersNNS
+EQ class: cancernns	cancerousjj	theynns	malignant_neoplastic_diseasenns	themnns	
+
+BE: diceNNS
+EQ class: theynns	dienns	themnns	
+
+BE: treatmentsNNS
+EQ class: interventionnns	theynns	treatmentnns	themnns	
+
+BE: stemNN
+EQ class: radicalnn	rootnn	basenn	themenn	root_wordnn	
+
+BE: cellNN
+EQ class: cellularjj	
+
+BE: boneNN
+EQ class: boneyjj	bonyjj	osnn	
+
+BE: marrowNN
+EQ class: bone_marrownn	
+
+BE: transplantNN
+EQ class: graftnn	
+
+BE: stageVBP
+EQ class: representvbp	presentvbp	
+
+BE: rollVB
+EQ class: turn_overvb	
+
+BE: curableJJ
+EQ class: curablenessnn	curabilitynn	
+
+BE: willingJJ
+EQ class: willingnessnn	
+
+BE: aggressiveJJ
+EQ class: aggressivenessnn	
+
+BE: 4CDcancersNNS
+EQ class: fourcdthemnns	quartetcdcancerousjj	4cdthemnns	quartetcdthemnns	quaterncdcancerousjj	foursomecdmalignant_neoplastic_diseasenns	tetradcdmalignant_neoplastic_diseasenns	4.cdcancerousjj	ivcdcancerousjj	quaterncdtheynns	quaternioncdcancersnns	quaterncdcancersnns	little_joecdcancernns	4.cdthemnns	tetradcdcancerousjj	quaternitycdcancersnns	4.cdcancersnns	quaterncdcancernns	4.cdcancernns	quadrupletcdthemnns	tetradcdcancersnns	4cdtheynns	quartetcdmalignant_neoplastic_diseasenns	ivcdmalignant_neoplastic_diseasenns	4cdmalignant_neoplastic_diseasenns	quaternitycdcancernns	ivcdthemnns	quaternarycdtheynns	fourcdtheynns	tetradcdcancernns	4.cdtheynns	little_joecdcancerousjj	quaternarycdcancerousjj	little_joecdtheynns	quadrupletcdmalignant_neoplastic_diseasenns	quaterncdmalignant_neoplastic_diseasenns	little_joecdmalignant_neoplastic_diseasenns	quadrupletcdcancernns	quadrupletcdtheynns	4cdcancerousjj	quaternarycdcancernns	foursomecdcancernns	foursomecdthemnns	ivcdtheynns	quaternioncdmalignant_neoplastic_diseasenns	quaternioncdcancernns	quaternarycdcancersnns	ivcdcancersnns	quaternitycdcancerousjj	foursomecdcancersnns	quartetcdcancersnns	quaternioncdtheynns	4.cdmalignant_neoplastic_diseasenns	quaternarycdthemnns	quadrupletcdcancersnns	little_joecdthemnns	quaterncdthemnns	quaternarycdmalignant_neoplastic_diseasenns	fourcdmalignant_neoplastic_diseasenns	quaternitycdthemnns	little_joecdcancersnns	quartetcdtheynns	quartetcdcancernns	ivcdcancernns	tetradcdtheynns	quaternioncdcancerousjj	foursomecdtheynns	fourcdcancersnns	fourcdcancernns	quaternitycdmalignant_neoplastic_diseasenns	quaternioncdthemnns	tetradcdthemnns	quaternitycdtheynns	quadrupletcdcancerousjj	4cdcancernns	foursomecdcancerousjj	fourcdcancerousjj	
+
+BE: aggressiveJJtreatmentsNNS
+EQ class: aggressivejjinterventionnns	aggressivenessnnthemnns	aggressivenessnntreatmentnns	treatvbaggressivelyrb	aggressivejjtreatmentnns	aggressivejjthemnns	aggressivenessnntheynns	handlevbaggressivelyrb	aggressivenessnntreatmentsnns	aggressivenessnninterventionnns	do_byvbaggressivelyrb	aggressivejjtheynns	
+
+BE: marrowNNtransplantNN
+EQ class: transfervbmarrownn	marrownntransfervb	bone_marrownngraftnn	transplantnnofinmarrownn	marrownngraftnn	bone_marrownntransplantvb	transplantnnofinbone_marrownn	transplantvbmarrownn	bone_marrownntransfervb	graftnnofinmarrownn	graftnnofinbone_marrownn	transplantvbbone_marrownn	bone_marrownntransplantnn	marrownntransplantvb	transfervbbone_marrownn	
+
+BE: boneNNtransplantNN
+EQ class: bonyjjtransplantvb	transfervbosnn	boneyjjtransplantvb	graftnnofinbonyjj	transplantvbbonyjj	bonyjjtransfervb	transplantnnofinbonenn	osnntransfervb	bonyjjgraftnn	bonenntransplantvb	boneyjjtransfervb	transplantnnofinboneyjj	transplantnnofinosnn	bonenngraftnn	osnntransplantvb	transfervbboneyjj	boneyjjtransplantnn	transplantvbosnn	transfervbbonyjj	bonenntransfervb	transplantvbboneyjj	boneyjjgraftnn	transplantvbbonenn	transplantnnofinbonyjj	transfervbbonenn	graftnnofinosnn	osnngraftnn	osnntransplantnn	bonyjjtransplantnn	graftnnofinboneyjj	graftnnofinbonenn	
+
+BE: stemNNcellNN
+EQ class: cellnnofinthemenn	cellularjjofinthemenn	rootnncellularvb	cellularjjofinbasenn	stemnncellularjj	rootnnofincellularjj	cellnnofinradicalnn	cellularvbroot_wordnn	radicalnnofincellularjj	basennofincellularjj	cellularvbrootnn	rootnncellularjj	cellnnofinroot_wordnn	themenncellularvb	root_wordnncellularvb	root_wordnnofincellnn	basennofincellnn	root_wordnncellularjj	basenncellnn	cellularvbbasenn	basenncellularjj	cellularjjofinstemnn	radicalnnofincellnn	radicalnncellularjj	stemnnofincellnn	cellularjjofinroot_wordnn	cellnnofinstemnn	radicalnncellularvb	radicalnncellnn	basenncellularvb	cellularvbradicalnn	rootnnofincellnn	cellularvbstemnn	cellularjjstemvb	cellnnofinrootnn	stemnncellularvb	cellularjjofinradicalnn	root_wordnnofincellularjj	cellularvbthemenn	themennofincellularjj	root_wordnncellnn	cellnnofinbasenn	cellularjjofinrootnn	themennofincellnn	stemnnofincellularjj	themenncellnn	rootnncellnn	themenncellularjj	cellnnstemvb	
+
+BE: someDTstageVBP
+EQ class: theatrical_productionnnofinsomedt	stagernnsomedt	somedtpresentvbp	phasennofinsomedt	theatrical_productionnnsomedt	somedtrepresentvbp	stagennofinsomedt	stagernnofinsomedt	stage_managernnofinsomedt	stagingnnofinsomedt	stage_managernnsomedt	stagingnnsomedt	
+
+BE: cancersNNSareAUX
+EQ class: themnnsbeaux	malignant_neoplastic_diseasennsbeaux	cancersnnsbeaux	cancerousjjareaux	theynnsareaux	themnnsareaux	cancerousjjbeaux	malignant_neoplastic_diseasennsareaux	cancernnsareaux	theynnsbeaux	cancernnsbeaux	
+
+BE: youPRPareAUX
+EQ class: youprpbeaux	
+
+BE: youPRPhaveAUX
+EQ class: youprphave_gotaux	rich_personnnofinyouprp	havennofinyouprp	youprpholdaux	wealthy_personnnofinyouprp	
+
+BE: rollVBdiceNNS
+EQ class: turn_overvbdicenns	rollvbtheynns	rollernnofinthemnns	rollnnofintheynns	rollvbthemnns	rollnnofindicenns	axial_motionnnofinthemnns	axial_motionnnofindicenns	turn_overvbtheynns	turn_overvbthemnns	rollnnofinthemnns	axial_rotationnnofindicenns	axial_rotationnnofinthemnns	axial_motionnnofintheynns	rollernnofintheynns	rollvbdienns	axial_rotationnnofindienns	rollnnofindienns	rollernnofindienns	axial_motionnnofindienns	rollernnofindicenns	turn_overvbdienns	axial_rotationnnofintheynns	
+
+BE: haveAUXtransplantNN
+EQ class: holdauxgraftnn	haveauxgraftnn	havennofintransplantnn	holdauxtransplantnn	havennofingraftnn	rich_personnnofintransplantnn	wealthy_personnnofingraftnn	rich_personnnofingraftnn	have_gotauxgraftnn	wealthy_personnnofintransplantnn	have_gotauxtransplantnn	
+
+BE: areAUXcurableJJ
+EQ class: beauxcurabilitynn	beauxcurablejj	areauxcurabilitynn	areauxcurablenessnn	beauxcurablenessnn	
+
+BE: areAUXwillingJJ
+EQ class: beauxwillingnessnn	beauxwillingjj	areauxwillingnessnn	
+
+BE: thoseDTofINLAFW
+EQ class: thosedtofinl.a.fw	
+
+BE: areAUXlikeINthoseDT
+EQ class: beauxlikeinthosedt	
+
+BE: rollVBwithINtreatmentsNNS
+EQ class: turn_overvbwithintreatmentnns	rollvbwithinthemnns	turn_overvbwithintreatmentsnns	rollvbwithintreatmentnns	turn_overvbwithininterventionnns	turn_overvbwithintheynns	rollvbwithininterventionnns	rollvbwithintheynns	turn_overvbwithinthemnns	
+
+BE: areAUXifINareAUX
+EQ class: beauxifinbeaux	areauxifinbeaux	beauxifinareaux	
+
+BE: areAUXifINhaveAUX
+EQ class: beauxifinholdaux	areauxifinhave_gotaux	beauxifinhaveaux	beauxifinhave_gotaux	areauxifinholdaux	
+

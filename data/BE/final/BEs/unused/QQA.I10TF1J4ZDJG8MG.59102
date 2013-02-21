@@ -1,0 +1,14 @@
+#Get an agent.
+#(S1 (S (VP (VB Get) (NP (DT an) (NN agent))) (. .)))
+#Rule:Nouns
+r1agentNN
+
+#Rule:Verbs
+r2getVB
+
+#Rule:V-HeadNoun
+r21getVBagentNN
+
+@lemmas-left	get	agent	
+@lemmas-right	agent	
+@lemmas-center	

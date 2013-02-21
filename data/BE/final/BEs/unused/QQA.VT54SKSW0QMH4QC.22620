@@ -1,0 +1,147 @@
+#What is your problem??
+#(S1 (SBARQ (WHNP (WP What)) (SQ (VP (AUX is) (NP (PRP$ your) (NN problem))) (. ?)) (. ?)))
+#Rule:Nouns
+r1problemNN
+
+#Rule:PRP-Noun
+r6yourPRP$problemNN
+
+#Rule:V-HeadNoun
+r21isAUXproblemNN
+
+#Firstly, this is not the first time this question comes up..
+#(S1 (S (ADVP (RB Firstly)) (, ,) (NP (DT this)) (VP (AUX is) (RB not) (NP (NP (DT the) (JJ first) (NN time)) (SBAR (S (NP (DT this) (NN question)) (VP (VBZ comes) (PRT (RP up))) (. .))))) (. .)))
+#Rule:Nouns
+r1timeNN
+r1questionNN
+
+#Rule:V-PRT
+r3comesVBZupRP
+
+#Rule:Adjs
+r4firstJJ
+
+#Rule:Adj-Noun
+r5firstJJtimeNN
+
+#Rule:HeadNoun-V
+r11thisDTisAUX
+r11questionNNcomesVBZ
+
+#Rule:V-HeadNoun
+r21isAUXtimeNN
+
+#Rule:V-ADV
+r46isAUXFirstlyRB
+r46isAUXnotRB
+
+#Secondly, the answer is simply because - you are not colour blind. The colour is by default there, but it appears nothing to those who can t see colours..
+#(S1 (S (ADVP (RB Secondly)) (, ,) (NP (DT the) (NN answer)) (VP (AUX is) (SBAR (ADVP (RB simply)) (IN because) (S (: -) (NP (PRP you)) (VP (AUX are) (RB not) (ADJP (JJ colour)) (PP (VBN blind.) (SBAR (S (S (NP (DT The) (NN colour)) (VP (AUX is) (PP (IN by) (NP (NN default))) (ADVP (RB there)))) (, ,) (CC but) (S (NP (PRP it)) (VP (VBZ appears) (NP (NP (NN nothing)) (PP (TO to) (NP (NP (DT those)) (SBAR (WHNP (WP who)) (S (VP (MD can) (ADVP (RB t)) (VP (VB see) (NP (NNS colours))))))))))))))) (. .)))) (. .)))
+#Rule:Nouns
+r1answerNN
+r1colourNN
+r1defaultNN
+r1nothingNN
+r1coloursNNS
+
+#Rule:Verbs
+r2blindVBN
+r2appearsVBZ
+r2seeVB
+
+#Rule:Adjs
+r4colourJJ
+
+#Rule:HeadNoun-V
+r11answerNNisAUX
+r11youPRPareAUX
+r11colourNNisAUX
+r11itPRPappearsVBZ
+
+#Rule:HeadNoun-(who/that)-V
+r14thoseDTseeVB
+
+#Rule:V-HeadNoun
+r21appearsVBZnothingNN
+r21seeVBcoloursNNS
+
+#Rule:V-ADJ
+r25areAUXcolourJJ
+
+#Rule:PPinNP
+r26nothingNNtoTOthoseDT
+
+#Rule:PPinVP
+r30isAUXbyINdefaultNN
+
+#Rule:V-IN-V
+r43isAUXbecauseINareAUX
+
+#Rule:V-ADV
+r46isAUXSecondlyRB
+r46areAUXnotRB
+r46isAUXthereRB
+r46seeVBtPersonAnnotation
+
+#Thirdly, while answering your questions, I start to ponder how lucky I am to be as perfect as I am now. At least, I can see colours..
+#(S1 (S (ADVP (RB Thirdly)) (, ,) (SBAR (IN while) (S (VP (VBG answering) (NP (PRP$ your) (NNS questions))))) (, ,) (NP (PRP I)) (VP (VBP start) (S (VP (TO to) (VP (VB ponder) (SBAR (WHNP (WRB how) (JJ lucky)) (S (NP (PRP I)) (VP (AUX am) (S (VP (TO to) (VP (AUX be) (ADJP (ADJP (RB as) (JJ perfect)) (SBAR (IN as) (S (NP (PRP I)) (VP (AUX am) (VP (VBG now.) (S (ADVP (IN At) (JJS least)) (, ,) (NP (PRP I)) (VP (MD can) (VP (VB see) (NP (NNS colours)))) (. .))))))))))))))))) (. .)))
+#Rule:Nouns
+r1questionsNNS
+r1coloursNNS
+
+#Rule:Verbs
+r2answeringVBG
+r2startVBP
+r2ponderVB
+r2nowVBG
+r2seeVB
+
+#Rule:Adjs
+r4luckyJJ
+r4perfectJJ
+r4leastJJS
+
+#Rule:PRP-Noun
+r6yourPRP$questionsNNS
+
+#Rule:HeadNoun-V
+r11iPRPstartVBP
+r11iPRPamAUX
+r11iPRPnowVBG
+r11iPRPseeVB
+
+#Rule:V-HeadNoun
+r21answeringVBGquestionsNNS
+r21seeVBcoloursNNS
+
+#Rule:V-HeadNoun
+r22nowVBGiPRP
+
+#Rule:V-ADJ
+r25beAUXperfectJJ
+
+#Rule:V-V
+r44startVBPponderVB
+
+#Rule:V-ADV
+r46startVBPThirdlyRB
+
+#Finally, thank you, though, for asking the question.
+#(S1 (S (ADVP (RB Finally)) (, ,) (VP (VB thank) (NP (PRP you)) (PRN (, ,) (ADVP (RB though)) (, ,)) (PP (IN for) (S (VP (VBG asking) (NP (DT the) (NN question)))))) (. .)))
+#Rule:Nouns
+r1questionNN
+
+#Rule:Verbs
+r2thankVB
+r2askingVBG
+
+#Rule:V-HeadNoun
+r21thankVByouPRP
+r21askingVBGquestionNN
+
+#Rule:V-ADV
+r46thankVBFinallyRB
+
+@lemmas-left	blind.	appear	least	ponder	appears	colour	thank	time	are	question	perfect	be	asking	answering	is	those	it	your	answer	come	questions	problem	you	comes	i	colours	lucky	default	now.	see	now	start	nothing	ask	this	first	blind	
+@lemmas-right	appear	thirdly	finally	ponder	appears	colour	time	are	firstly	Thirdly	question	perfect	secondly	Finally	be	is	those	come	Secondly	questions	you	problem	Firstly	comes	i	up	colours	not	default	t	now.	see	now	start	am	there	nothing	
+@lemmas-center	because	to	by	

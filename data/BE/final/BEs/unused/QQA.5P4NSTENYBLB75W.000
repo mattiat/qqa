@@ -1,0 +1,75 @@
+#Why are myths such as Evolution theory allowed  to be taught in our schools??
+#(S1 (SBARQ (WHADVP (WRB Why)) (SQ (AUX are) (NP (NP (NNS myths)) (PP (JJ such) (IN as) (NP (NN Evolution)))) (SBAR (S (NP (NN theory)) (VP (VBD allowed) (S (VP (TO to) (VP (AUX be) (VP (VBN taught) (PP (IN in) (NP (PRP$ our) (NNS schools)))))))))) (. ?)) (. ?)))
+#Rule:Nouns
+r1mythsNNS
+r1EvolutionOrganizationAnnotation
+r1theoryNN
+r1schoolsNNS
+
+#Rule:Verbs
+r2allowedVBD
+r2taughtVBN
+
+#Rule:Adjs
+r4suchJJ
+
+#Rule:PRP-Noun
+r6ourPRP$schoolsNNS
+
+#Rule:HeadNoun-V
+r11theoryNNallowedVBD
+
+#Rule:PPinNP
+r26mythsNNSasINEvolutionOrganizationAnnotation
+
+#Rule:PPinVP
+r32taughtVBNinINschoolsNNS
+
+#Why are they trying to brain wash us into believing that we descended from monkeys?  Haven t you read the bible??All this democrat false propaganda should banned!
+#(S1 (SBARQ (WHADVP (WRB Why)) (SQ (SQ (AUX are) (NP (PRP they)) (VP (VBG trying) (S (VP (TO to) (VP (NN brain) (VP (VB wash) (NP (PRP us)) (PP (IN into) (S (VP (VBG believing) (SBAR (IN that) (S (NP (PRP we)) (VP (VBD descended) (PP (IN from) (NP (NNS monkeys)))))))))))))) (. ?)) (NP (NNP Haven) (NNP t)) (S (NP (PRP you)) (VP (VBP read) (SBAR (S (NP (DT the) (NN bible)) (VP (VBZ ??) (SBAR (S (NP (PDT All) (DT this) (NNP democrat) (JJ false) (NN propaganda)) (VP (MD should) (VP (VBN banned))))))))))) (. !)))
+#Rule:Nouns
+r1brainNN
+r1monkeys?  HavenLocationAnnotation
+r1tNNP
+r1bibleNN
+r1democratNNP
+r1propagandaNN
+
+#Rule:Verbs
+r2tryingVBG
+r2washVB
+r2believingVBG
+r2descendedVBD
+r2readVBP
+r2??VBZ
+r2bannedVBN
+
+#Rule:Adjs
+r4falseJJ
+
+#Rule:Adj-Noun
+r5falseJJpropagandaNN
+
+#Rule:N-HeadNoun
+r8monkeys?  HavenLocationAnnotationtNNP
+
+#Rule:HeadNoun-V
+r11wePRPdescendedVBD
+r11youPRPreadVBP
+r11bibleNN??VBZ
+
+#Rule:V-HeadNoun
+r21washVBusPRP
+
+#Rule:V-HeadNoun(passive)
+r24bannedVBNpropagandaNN
+
+#Rule:PPinVP
+r30descendedVBDfromINmonkeys?  HavenLocationAnnotation
+
+#Rule:V-IN-V
+r43believingVBGthatINdescendedVBD
+
+@lemmas-left	allowed	allow	monkeys?  Haven	theory	believe	trying	??	schools	believing	wash	false	read	democrat	brain	ban	such	you	taught	teach	banned	myth	school	t	descended	myths	bible	descend	our	Evolution	propaganda	try	we	
+@lemmas-right	allowed	allow	monkeys?  Haven	us	??	school	t	schools	descended	read	descend	Evolution	propaganda	
+@lemmas-center	that	as	from	in	

@@ -1,0 +1,98 @@
+#Although I was never a cheerleader I believe that cheerleading is indeed a sport. 
+#(S1 (S (SBAR (IN Although) (S (NP (PRP I)) (VP (AUX was) (ADVP (RB never)) (NP (DT a) (NN cheerleader))))) (NP (PRP I)) (VP (VBP believe) (SBAR (IN that) (S (NP (NN cheerleading)) (VP (AUX is) (ADVP (RB indeed)) (NP (DT a) (NN sport)))))) (. .)))
+#Rule:Nouns
+r1cheerleaderNN
+r1cheerleadingNN
+r1sportNN
+
+#Rule:Verbs
+r2believeVBP
+
+#Rule:HeadNoun-V
+r11iPRPbelieveVBP
+r11iPRPwasAUX
+r11cheerleadingNNisAUX
+
+#Rule:V-HeadNoun
+r21wasAUXcheerleaderNN
+r21isAUXsportNN
+
+#Rule:V-IN-V
+r43believeVBPthatINisAUX
+
+#Rule:V-ADV
+r46wasAUXneverRB
+r46isAUXindeedRB
+
+#Rule:IS-RULE
+r47sportNNcheerleadingNN
+
+#It takes just as much physical stamina as any other sport. 
+#(S1 (S (NP (PRP It)) (VP (VBZ takes) (NP (QP (RB just) (IN as) (JJ much)) (JJ physical) (NNS stamina)) (PP (IN as) (NP (DT any) (JJ other) (NN sport)))) (. .)))
+#Rule:Nouns
+r1staminaNNS
+r1sportNN
+
+#Rule:Verbs
+r2takesVBZ
+
+#Rule:Adjs
+r4muchJJ
+r4physicalJJ
+r4otherJJ
+
+#Rule:Adj-Noun
+r5muchJJstaminaNNS
+r5physicalJJstaminaNNS
+r5otherJJsportNN
+
+#Rule:HeadNoun-V
+r11itPRPtakesVBZ
+
+#Rule:V-HeadNoun
+r21takesVBZstaminaNNS
+
+#Rule:PPinVP
+r30takesVBZasINsportNN
+
+#Cheerleaders need to be in great physical condition and are subjected to long practices just like any other sport.
+#(S1 (S (NP (NNS Cheerleaders)) (VP (VP (AUX need) (S (VP (TO to) (VP (AUX be) (PP (IN in) (NP (JJ great) (JJ physical) (NN condition))))))) (CC and) (VP (AUX are) (VP (VBN subjected) (PP (TO to) (NP (NP (JJ long) (NNS practices)) (PP (ADVP (RB just)) (IN like) (NP (DT any) (JJ other) (NN sport)))))))) (. .)))
+#Rule:Nouns
+r1CheerleadersNNS
+r1conditionNN
+r1practicesNNS
+r1sportNN
+
+#Rule:Verbs
+r2subjectedVBN
+
+#Rule:Adjs
+r4greatJJ
+r4physicalJJ
+r4longJJ
+r4otherJJ
+
+#Rule:Adj-Noun
+r5greatJJconditionNN
+r5physicalJJconditionNN
+r5longJJpracticesNNS
+r5otherJJsportNN
+
+#Rule:HeadNoun-V
+r11CheerleadersNNSneedAUX
+
+#Rule:V-HeadNoun(passive)
+r23subjectedVBNCheerleadersNNS
+
+#Rule:PPinNP
+r26practicesNNSlikeINsportNN
+
+#Rule:PPinVP
+r30beAUXinINconditionNN
+
+#Rule:PPinVP
+r32subjectedVBNtoTOpracticesNNS
+
+@lemmas-left	cheerleading	physical	is	it	other	stamina	condition	subject	sport	subjected	long	cheerleader	believe	much	i	was	practices	Cheerleaders	takes	great	practice	take	cheerlead	be	
+@lemmas-right	need	indeed	cheerleading	is	stamina	condition	sport	believe	cheerleader	was	Cheerleaders	practices	takes	never	practice	take	cheerlead	be	
+@lemmas-center	to	that	as	like	in	

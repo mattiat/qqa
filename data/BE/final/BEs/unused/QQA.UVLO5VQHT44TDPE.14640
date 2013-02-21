@@ -1,0 +1,17 @@
+#Becuse its far east.
+#(S1 (S (VP (VB Becuse) (NP (PRP$ its) (RB far) (JJ east))) (. .)))
+#Rule:Verbs
+r2becuseVB
+
+#Rule:Adjs
+r4eastLocationAnnotation
+
+#Rule:PRP-Noun
+r6itsPRP$eastLocationAnnotation
+
+#Rule:V-HeadNoun
+r21becuseVBeastLocationAnnotation
+
+@lemmas-left	its	east	becuse	
+@lemmas-right	east	
+@lemmas-center	

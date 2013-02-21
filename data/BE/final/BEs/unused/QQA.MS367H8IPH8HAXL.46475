@@ -1,0 +1,59 @@
+#Hulk Hogan - 3                    Ric Flair - 5Roddy Piper -  7Ultimate Warrior - 5Bret Hart -   7Shawn Michaels -   9Stone Cold -    10The Rock -    10Triple H -     10Chris Benoit -   before 7, Now 1Eddie Guerrero - 8Undertaker -   9Kane -   9John Cena -    6Randy Orton -   10++Batista -     7Mr. 
+#(S1 (NP (NP (NP (NN Hulk) (NNP Hogan) (: -) (NP (CD 3) (NNP Ric) (NN Flair)) (: -) (NP (JJ 5Roddy) (NNP Piper)) (: -) (VP (VB 7Ultimate) (NP (NN Warrior))) (: -) (NP (JJ 5Bret) (NNP Hart)) (: -) (NP (JJ 7Shawn) (NNP Michaels)) (: -) (NP (JJ 9Stone) (NNP Cold)) (: -) (NP (NN 10The) (NNP Rock)) (: -) (NP (JJ 10Triple) (NNP H)) (: -) (ADVP (FW 10Chris) (FW Benoit)) (: -) (PP (IN before) (NP (CD 7))) (, ,) (ADVP (RB Now))) (NN 1Eddie) (NP (NNP Guerrero))) (: -) (NP (NP (NN 8Undertaker)) (: -) (NP (NN 9Kane)) (: -) (NP (VBG 9John) (NNP Cena) (PRN (: -) (NP (JJ 6Randy) (NNP Orton)) (: -)) (NN 10++Batista)) (: -) (NP (CD 7Mr))) (. .)))
+#Rule:Nouns
+r1Hulk HoganPersonAnnotation
+r1Ric FlairPersonAnnotation
+r15Roddy PiperPersonAnnotation
+r1WarriorNN
+r1Hart -   7Shawn Michaels -   9Stone ColdPersonAnnotation
+r110TheNN
+r1RockNNP
+r1HNNP
+r11Eddie GuerreroPersonAnnotation
+r18Undertaker -   9KanePersonAnnotation
+r19John CenaPersonAnnotation
+r16Randy OrtonPersonAnnotation
+r110++BatistaNN
+
+#Rule:Verbs
+r27ultimateVB
+
+#Rule:Adjs
+r45BretJJ
+r410TripleJJ
+
+#Rule:Adj-Noun
+r53CDRic FlairPersonAnnotation
+r55BretJJHart -   7Shawn Michaels -   9Stone ColdPersonAnnotation
+r510TripleJJHNNP
+r59John CenaPersonAnnotation10++BatistaNN
+
+#Rule:N-HeadNoun
+r810TheNNRockNNP
+
+#Rule:HeadNoun-V
+r11Ric FlairPersonAnnotation7ultimateVB
+r115Roddy PiperPersonAnnotation7ultimateVB
+r11Hart -   7Shawn Michaels -   9Stone ColdPersonAnnotation7ultimateVB
+r11RockNNP7ultimateVB
+r11HNNP7ultimateVB
+
+#Rule:V-HeadNoun
+r217ultimateVBWarriorNN
+
+#Rule:PPinNP
+r26Hulk HoganPersonAnnotationbeforeIN7CD
+
+#Kennedy -   6The Great Khali -  3Big Show -    7
+#(S1 (FRAG (NP (NNP Kennedy)) (: -) (NP (NP (NN 6The) (NNP Great) (NNP Khali)) (: -) (NP (NNP 3Big) (NNP Show)) (: -) (NP (CD 7)))))
+#Rule:Nouns
+r1KennedyPersonAnnotation
+r16TheNN
+r1Great Khali -  3Big ShowOrganizationAnnotation
+
+#Rule:N-HeadNoun
+r86TheNNGreat Khali -  3Big ShowOrganizationAnnotation
+
+@lemmas-left	5bret	7ultimate	Hart -   7Shawn Michaels -   9Stone Cold	8Undertaker -   9Kane	9John Cena	rock	ultimate	H	1Eddie Guerrero	10the	Rock	triple	6the	Kennedy	Great Khali -  3Big Show	10The	10++batista	Warrior	10++Batista	5Bret	5Roddy Piper	10Triple	h	6The	warrior	3	Hulk Hogan	6Randy Orton	Ric Flair	
+@lemmas-right	7ultimate	Hart -   7Shawn Michaels -   9Stone Cold	rock	ultimate	H	h	warrior	7	Rock	Great Khali -  3Big Show	Ric Flair	10++batista	10++Batista	Warrior	
+@lemmas-center	before	

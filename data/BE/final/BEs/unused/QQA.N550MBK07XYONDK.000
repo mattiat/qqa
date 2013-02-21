@@ -1,0 +1,66 @@
+#hOW CAN I LOWER MY BLOOD PRESSURE?Im 22 years old, 6 2 tall i weigh 228 lbs . and my blood pressure is between 135-158 over 90-100. please help me..
+#(S1 (S (SBARQ (WHADVP (WRB hOW)) (SQ (MD CAN) (NP (PRP I)) (VP (VB LOWER) (NP (PRP$ MY) (NN BLOOD) (NN PRESSURE)))) (. ?)) (NP (NNP Im)) (ADJP (ADJP (NP (CD 22) (NNS years)) (JJ old)) (, ,) (ADJP (QP (CD 6) (CD 2)) (JJ tall) (S (S (NP (PRP i)) (VP (VBP weigh) (NP (CD 228) (NNS lbs))) (. .)) (CC and) (S (NP (PRP$ my) (NN blood) (NN pressure)) (VP (AUX is) (PP (IN between) (NP (NP (CD 135-158)) (PP (IN over) (NP (CD 90-100.))))) (S (INTJ (UH please)) (VP (VB help) (NP (PRP me))) (. .)))) (. .))))))
+#Rule:Nouns
+r1BLOODNN
+r1PRESSURENN
+r1ImNNP
+r1yearsNNS
+r1lbs .LocationAnnotation
+r1bloodNN
+r1pressureNN
+
+#Rule:Verbs
+r2CAN I LOWEROrganizationAnnotation
+r2weighVBP
+r2helpVB
+
+#Rule:Adjs
+r4oldJJ
+r4tallJJ
+
+#Rule:Adj-Noun
+r522CDyearsNNS
+r5228CDlbs .LocationAnnotation
+
+#Rule:PRP-Noun
+r6myPRP$PRESSURENN
+r6myPRP$pressureNN
+
+#Rule:N-HeadNoun
+r8BLOODNNPRESSURENN
+r8bloodNNpressureNN
+
+#Rule:HeadNoun-V
+r11iPRPweighVBP
+r11pressureNNisAUX
+
+#Rule:V-HeadNoun
+r21CAN I LOWEROrganizationAnnotationPRESSURENN
+r21weighVBPlbs .LocationAnnotation
+r21helpVBmePRP
+
+#Rule:PPinNP
+r26135-158CDoverIN90-100CD
+
+#Rule:PPinVP
+r30isAUXbetweenIN135-158CD
+
+#PLEASE NO MEDICATIONS.i HAVE ALREADY BEEN TO THE DOCTORS!
+#(S1 (S (VP (VB PLEASE) (SBAR (S (NP (DT NO) (NNS MEDICATIONS.i)) (VP (AUX HAVE) (ADVP (RB ALREADY)) (VP (AUX BEEN) (PP (TO TO) (NP (DT THE) (NNS DOCTORS)))))))) (. !)))
+#Rule:Nouns
+r1PLEASE NO MEDICATIONS.i HAVEOrganizationAnnotation
+r1DOCTORSNNS
+
+#Rule:HeadNoun-V
+r11PLEASE NO MEDICATIONS.i HAVEOrganizationAnnotationbeenAUX
+
+#Rule:PPinVP
+r30beenAUXtoTODOCTORSNNS
+
+#Rule:V-ADV
+r46PLEASE NO MEDICATIONS.i HAVEOrganizationAnnotationALREADYRB
+r46beenAUXALREADYRB
+
+@lemmas-left	is	BLOOD	Im	old	pressure	228	22	blood	im	my	been	doctor	i	weigh	help	CAN I LOWER	DOCTORS	lbs .	PLEASE NO MEDICATIONS.i HAVE	years	PRESSURE	135-158	tall	be	
+@lemmas-right	is	90-100.	pressure	ALREADY	already	been	doctor	weigh	DOCTORS	lbs .	me	years	90-100	PRESSURE	135-158	be	
+@lemmas-center	to	over	between	

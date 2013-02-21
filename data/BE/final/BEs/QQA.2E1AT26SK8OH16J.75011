@@ -1,0 +1,114 @@
+#I have not had a panic attack in four years.  
+#(S1 (S (NP (PRP I)) (VP (AUX have) (RB not) (VP (AUX had) (NP (DT a) (NN panic) (NN attack)) (PP (IN in) (NP (CD four) (NNS years))))) (. .)))
+#Rule:Nouns
+r1panicNN
+r1attackNN
+r1yearsNNS
+
+#Rule:Adj-Noun
+r5fourCDyearsNNS
+
+#Rule:N-HeadNoun
+r8panicNNattackNN
+
+#Rule:HeadNoun-V
+r11iPRPhadAUX
+
+#Rule:V-HeadNoun
+r21hadAUXattackNN
+
+#Rule:PPinVP
+r30hadAUXinINyearsNNS
+
+#Rule:V-ADV
+r46haveAUXnotRB
+
+#Where counseling and drugs failed, information worked.  
+#(S1 (S (SBAR (WHADVP (WRB Where)) (S (NP (NN counseling) (CC and) (NNS drugs)) (VP (VBD failed)))) (, ,) (NP (NN information)) (VP (VBN worked)) (. .)))
+#Rule:Nouns
+r1counselingNN
+r1drugsNNS
+r1informationNN
+
+#Rule:Verbs
+r2failedVBD
+r2workedVBN
+
+#Rule:HeadNoun-V
+r11counselingNNfailedVBD
+
+#Rule:V-HeadNoun(passive)
+r24workedVBNinformationNN
+
+#Rule:(SBAR+WHADVP)inS
+r42workedVBNwhereWRBfailedVBD
+
+#I took a college class on abnormal psychology, and that helped me objectify panic attacks as biological overreactions that had nothing to do with who was really me.  
+#(S1 (S (S (NP (PRP I)) (VP (VBD took) (NP (DT a) (NN college) (NN class)) (PP (IN on) (NP (JJ abnormal) (NN psychology))))) (, ,) (CC and) (S (NP (DT that)) (VP (VBD helped) (S (NP (PRP me)) (VP (VB objectify) (NP (NN panic) (NNS attacks)) (PP (IN as) (NP (NP (JJ biological) (NNS overreactions)) (SBAR (WHNP (WDT that)) (S (VP (AUX had) (NP (NP (NN nothing)) (SBAR (S (VP (TO to) (VP (AUX do) (PP (IN with) (SBAR (WHNP (WP who)) (S (VP (AUX was) (ADVP (RB really)) (NP (PRP me)))))))))))))))))))) (. .)))
+#Rule:Nouns
+r1collegeNN
+r1classNN
+r1psychologyNN
+r1panicNN
+r1attacksNNS
+r1overreactionsNNS
+r1nothingNN
+
+#Rule:Verbs
+r2tookVBD
+r2helpedVBD
+r2objectifyVB
+
+#Rule:Adjs
+r4abnormalJJ
+r4biologicalJJ
+
+#Rule:Adj-Noun
+r5abnormalJJpsychologyNN
+r5biologicalJJoverreactionsNNS
+
+#Rule:N-HeadNoun
+r8collegeNNclassNN
+r8panicNNattacksNNS
+
+#Rule:HeadNoun-V
+r11iPRPtookVBD
+r11thatDThelpedVBD
+r11mePRPobjectifyVB
+
+#Rule:HeadNoun-(who/that)-V
+r14overreactionsNNShadAUX
+r14nothingNNdoAUX
+
+#Rule:V-HeadNoun
+r21tookVBDclassNN
+r21objectifyVBattacksNNS
+r21hadAUXnothingNN
+r21wasAUXmePRP
+
+#Rule:V-HeadNoun
+r22helpedVBDmePRP
+
+#Rule:PPinVP
+r30tookVBDonINpsychologyNN
+r30objectifyVBasINoverreactionsNNS
+
+#Rule:V-ADV
+r46wasAUXreallyRB
+
+#I sincerely hope this helps!
+#(S1 (S (NP (PRP I)) (ADVP (RB sincerely)) (VP (VBP hope) (SBAR (S (NP (DT this)) (VP (VBZ helps))))) (. !)))
+#Rule:Verbs
+r2hopeVBP
+r2helpsVBZ
+
+#Rule:HeadNoun-V
+r11iPRPhopeVBP
+r11thisDThelpsVBZ
+
+#Rule:V-ADV
+r46hopeVBPsincerelyRB
+
+@lemmas-left	have	failed	college	took	was	help	fail	worked	psychology	overreactions	me	four	counseling	had	be	drug	work	information	abnormal	drugs	class	helped	helps	i	that	overreaction	biological	panic	take	nothing	years	attack	this	objectify	attacks	hope	
+@lemmas-right	have	failed	took	help	fail	psychology	overreactions	do	me	had	information	sincerely	class	helped	helps	not	overreaction	really	take	nothing	attack	years	attacks	objectify	hope	
+@lemmas-center	as	on	where	in	

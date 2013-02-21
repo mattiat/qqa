@@ -1,0 +1,117 @@
+#Why do non-homeschooling people assume homeschoolers are nerds? I m smart, well socialized, love photography, favorite band is Bon Jovi, love the beach, very artistic---do I sound like a nerd??
+#(S1 (SBARQ (WHADVP (WRB Why)) (SQ (SQ (AUX do) (NP (JJ non-homeschooling) (NNS people)) (VP (VB assume) (SBAR (S (NP (NNS homeschoolers)) (VP (AUX are) (NP (NNS nerds)))))) (. ?)) (NP (PRP I)) (ADJP (NNP m) (JJ smart) (, ,) (RB well) (JJ socialized) (, ,)) (S (VP (VBP love) (NP (NN photography)))) (PRN (, ,) (S (NP (JJ favorite) (NN band)) (VP (AUX is) (NP (NNP Bon) (NNP Jovi)))) (, ,)) (VP (VBP love) (NP (NP (DT the) (NN beach)) (, ,) (ADJP (RB very) (JJ artistic---do) (SBAR (S (NP (PRP I)) (VP (VB sound) (PP (IN like) (NP (DT a) (NN nerd))))))))) (. ?)) (. ?)))
+#Rule:Nouns
+r1peopleNNS
+r1homeschoolersNNS
+r1nerdsNNS
+r1mNNP
+r1photographyNN
+r1bandNN
+r1Bon JoviPersonAnnotation
+r1beachNN
+r1nerdNN
+
+#Rule:Verbs
+r2assumeVB
+r2loveVBP
+r2loveVBP
+r2soundVB
+
+#Rule:Adjs
+r4non-homeschoolingJJ
+r4smartJJ
+r4socializedJJ
+r4favoriteJJ
+r4artistic---doJJ
+
+#Rule:Adj-Noun
+r5non-homeschoolingJJpeopleNNS
+r5favoriteJJbandNN
+r5artistic---doJJbeachNN
+
+#Rule:HeadNoun-V
+r11homeschoolersNNSareAUX
+r11bandNNisAUX
+r11iPRPsoundVB
+
+#Rule:V-HeadNoun
+r21areAUXnerdsNNS
+r21loveVBPphotographyNN
+r21isAUXBon JoviPersonAnnotation
+r21loveVBPbeachNN
+
+#Rule:PPinVP
+r30soundVBlikeINnerdNN
+
+#Rule:IS-RULE
+r47nerdsNNShomeschoolersNNS
+r47Bon JoviPersonAnnotationbandNN
+
+#Some people are just so ignorant. You base your opinions on one kid that turns out weird because he was homeschooled. In reality--most homeschooled kids turn out completely normal and alot better than any kid in public school.
+#(S1 (S (NP (DT Some) (NNS people)) (VP (AUX are) (ADJP (RB just) (RB so) (JJ ignorant.) (SBAR (S (NP (PRP You)) (VP (VBP base) (NP (PRP$ your) (NNS opinions)) (PP (IN on) (NP (NP (CD one) (NN kid)) (SBAR (WHNP (WDT that)) (S (VP (VBZ turns) (PRT (RP out)) (S (ADJP (JJ weird)) (SBAR (IN because) (S (NP (PRP he)) (VP (AUX was) (VP (VBN homeschooled.) (SBAR (IN In) (S (NP (JJ reality--most) (JJ homeschooled) (NNS kids)) (VP (VBP turn) (PRT (RP out)) (S (ADJP (ADJP (RB completely) (JJ normal)) (CC and) (ADJP (RB alot) (JJR better) (PP (IN than) (NP (NP (DT any) (NN kid)) (PP (IN in) (NP (JJ public) (NN school)))))))))))))))))))))))))) (. .)))
+#Rule:Nouns
+r1peopleNNS
+r1opinionsNNS
+r1kidNN
+r1kidsNNS
+r1kidNN
+r1schoolNN
+
+#Rule:Verbs
+r2baseVBP
+r2homeschooledVBN
+
+#Rule:V-PRT
+r3turnsVBZoutRP
+r3turnVBPoutRP
+
+#Rule:Adjs
+r4ignorantJJ
+r4weirdJJ
+r4reality--mostJJ
+r4homeschooledJJ
+r4normalJJ
+r4betterJJR
+r4publicJJ
+
+#Rule:Adj-Noun
+r5oneCDkidNN
+r5reality--mostJJkidsNNS
+r5homeschooledJJkidsNNS
+r5publicJJschoolNN
+
+#Rule:PRP-Noun
+r6yourPRP$opinionsNNS
+
+#Rule:HeadNoun-V
+r11peopleNNSareAUX
+r11youPRPbaseVBP
+r11kidsNNSturnVBP
+
+#Rule:HeadNoun-(who/that)-V
+r14kidNNturnsVBZ
+
+#Rule:V-HeadNoun
+r21baseVBPopinionsNNS
+
+#Rule:V-HeadNoun(passive)
+r23homeschooledVBNhePRP
+
+#Rule:V-ADJ
+r25areAUXignorantJJ
+
+#Rule:PPinNP
+r26kidNNinINschoolNN
+
+#Rule:PPinVP
+r30baseVBPonINkidNN
+
+#Rule:PPinADJP
+r37betterJJRthanINkidNN
+
+#Rule:V-IN-V
+r43homeschooledVBNinINturnVBP
+
+@lemmas-left	non-homeschooling	one	normal	most	beach	turns	people	reality--most	photography	kid	love	nerd	homeschoolers	band	are	ignorant	do	opinion	homeschooled	be	turn	is	your	artistic---do	you	kids	m	favorite	Bon Jovi	nerds	socialized	i	ignorant.	school	better	sound	base	homeschooled.	assume	opinions	public	weird	smart	
+@lemmas-right	turn	is	he	kids	beach	turns	people	Bon Jovi	nerds	photography	kid	nerd	homeschoolers	ignorant.	school	band	are	sound	base	ignorant	opinion	opinions	be	out	
+@lemmas-center	than	on	like	in	

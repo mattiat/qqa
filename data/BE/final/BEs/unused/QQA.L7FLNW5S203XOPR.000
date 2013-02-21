@@ -1,0 +1,76 @@
+#How did the world begin??
+#(S1 (SBARQ (WHADVP (WRB How)) (SQ (AUX did) (NP (DT the) (NN world)) (VP (VB begin)) (. ?)) (. ?)))
+#Rule:Nouns
+r1worldNN
+
+#Rule:Verbs
+r2beginVB
+
+#Does anyone really know, and does anyone believe in life after death, or that you will come back again? I m scared of dying is anyone else scared out there?  I think it s because I don t know how it s going to happen!!
+#(S1 (SQ (AUX Does) (NP (NN anyone)) (ADVP (RB really)) (VP (VP (VB know)) (, ,) (CC and) (VP (AUX does) (NP (NP (NN anyone)) (UCP (VP (VBP believe) (PP (IN in) (NP (NP (NN life)) (PP (IN after) (NP (NN death)))))) (, ,) (CC or) (SBAR (IN that) (S (NP (PRP you)) (VP (MD will) (VP (VB come) (ADVP (RB back) (RB again)))))))))) (. ?) (NP (PRP I)) (ADJP (NNP m) (JJ scared)) (SBAR (IN of) (S (NP (VBG dying)) (VP (AUX is) (S (NP (NN anyone) (RB else)) (VP (VBN scared) (PRT (RP out)) (ADVP (RB there))))))) (. ?) (NP (PRP I)) (VP (VB think) (SBAR (S (NP (PRP it)) (VP (VBZ s) (SBAR (IN because) (S (NP (PRP I)) (VP (VB don) (S (NP (NNS t)) (VP (VB know) (SBAR (WHADVP (WRB how)) (S (NP (PRP it)) (VP (VBZ s) (S (VP (VBG going) (S (VP (TO to) (VP (VB happen))) (. !)))))))))))))))) (. !)))
+#Rule:Nouns
+r1anyoneNN
+r1anyoneNN
+r1lifeNN
+r1deathNN
+r1mNNP
+r1anyoneNN
+r1tNNS
+
+#Rule:Verbs
+r2knowVB
+r2believeVBP
+r2comeVB
+r2dyingVBG
+r2thinkVB
+r2sVBZ
+r2donVB
+r2knowVB
+r2sVBZ
+r2goingVBG
+r2happenVB
+
+#Rule:V-PRT
+r3scaredVBNoutRP
+
+#Rule:Adjs
+r4scaredJJ
+
+#Rule:HeadNoun-V
+r11youPRPcomeVB
+r11dyingVBGisAUX
+r11itPRPsVBZ
+r11iPRPdonVB
+r11tNNSknowVB
+r11itPRPsVBZ
+
+#Rule:V-HeadNoun
+r21doesAUXanyoneNN
+
+#Rule:V-HeadNoun
+r22isAUXanyoneNN
+r22donVBtNNS
+
+#Rule:V-HeadNoun(passive)
+r24scaredVBNanyoneNN
+
+#Rule:PPinNP
+r26lifeNNafterINdeathNN
+
+#Rule:PPinVP
+r30believeVBPinINlifeNN
+
+#Rule:V-IN-V
+r43sVBZbecauseINdonVB
+
+#Rule:V-V
+r44goingVBGhappenVB
+
+#Rule:V-ADV
+r46comeVBbackRB
+r46comeVBagainRB
+r46scaredVBNthereRB
+
+@lemmas-left	does	don	believe	life	die	do	happen	dying	be	is	think	going	it	death	scared	come	you	m	know	begin	i	t	s	anyone	scare	world	go	
+@lemmas-right	is	don	death	again	come	back	know	t	life	s	anyone	there	happen	out	be	
+@lemmas-center	because	after	in	

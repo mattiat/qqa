@@ -1,0 +1,41 @@
+#How does sound recording and playback work??
+#(S1 (SBARQ (WHADVP (WRB How)) (SQ (AUX does) (NP (NP (NN sound) (NN recording)) (CC and) (NP (NNP playback))) (VP (VB work)) (. ?)) (. ?)))
+#Rule:Nouns
+r1soundNN
+r1recordingNN
+r1playbackNNP
+
+#Rule:Verbs
+r2workVB
+
+#Rule:N-HeadNoun
+r8soundNNrecordingNN
+
+#An ipod plays music, but is there a little band in there?
+#(S1 (S (S (NP (DT An) (NN ipod)) (VP (VBZ plays) (NP (NN music)))) (, ,) (CC but) (SQ (AUX is) (NP (EX there)) (NP (NP (DT a) (JJ little) (NN band)) (PP (IN in) (NP (RB there)))) (. ?))))
+#Rule:Nouns
+r1An ipodPersonAnnotation
+r1musicNN
+r1bandNN
+
+#Rule:Verbs
+r2playsVBZ
+
+#Rule:Adjs
+r4littleJJ
+
+#Rule:Adj-Noun
+r5littleJJbandNN
+
+#Rule:HeadNoun-V
+r11An ipodPersonAnnotationplaysVBZ
+
+#Rule:V-HeadNoun
+r21playsVBZmusicNN
+
+#Rule:PPinNP
+r26bandNNinINthereLocationAnnotation
+
+@lemmas-left	music	work	recording	band	playback	An ipod	sound	play	little	plays	
+@lemmas-right	music	recording	band	there	play	plays	
+@lemmas-center	in	

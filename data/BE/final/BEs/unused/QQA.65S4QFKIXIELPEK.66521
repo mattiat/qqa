@@ -1,0 +1,268 @@
+#I would send him over to RAW. 
+#(S1 (S (NP (PRP I)) (VP (MD would) (VP (VB send) (NP (PRP him)) (ADVP (RP over) (PP (TO to) (ADJP (JJ RAW)))))) (. .)))
+#Rule:Verbs
+r2sendVB
+
+#Rule:Adjs
+r4RAWOrganizationAnnotation
+
+#Rule:HeadNoun-V
+r11iPRPsendVB
+
+#Rule:V-HeadNoun
+r21sendVBhimPRP
+
+#Reason being is that Smackdown! 
+#(S1 (S (NP (NN Reason) (NN being)) (VP (AUX is) (ADJP (RB that) (JJ Smackdown))) (. !)))
+#Rule:Nouns
+r1ReasonNN
+r1beingNN
+
+#Rule:Adjs
+r4SmackdownJJ
+
+#Rule:N-HeadNoun
+r8ReasonNNbeingNN
+
+#Rule:HeadNoun-V
+r11beingNNisAUX
+
+#Rule:V-ADJ
+r25isAUXSmackdownJJ
+
+#s major guys are all big guys (Taker, Batista, Khali, Henry) and RAW needs a powerhouse like him on their roster. 
+#(S1 (S (NP (NNP s) (JJ major) (NNS guys)) (VP (AUX are) (DT all) (NP (NP (NP (JJ big) (NNS guys)) (PRN (-LRB- -LRB-) (NP (NNP Taker) (, ,) (NNP Batista) (, ,) (NNP Khali) (, ,) (NNP Henry)) (-RRB- -RRB-))) (CC and) (NP (NP (JJ RAW) (NNS needs)) (NP (DT a) (NN powerhouse)))) (PP (IN like) (NP (PRP him))) (PP (IN on) (NP (PRP$ their) (NN roster)))) (. .)))
+#Rule:Nouns
+r1sNNP
+r1guysNNS
+r1guysNNS
+r1TakerPersonAnnotation
+r1BatistaLocationAnnotation
+r1Khali, HenryOrganizationAnnotation
+r1needsNNS
+r1powerhouseNN
+r1rosterNN
+
+#Rule:Adjs
+r4majorJJ
+r4bigJJ
+r4RAWOrganizationAnnotation
+
+#Rule:Adj-Noun
+r5majorJJguysNNS
+r5bigJJguysNNS
+r5RAWOrganizationAnnotationneedsNNS
+
+#Rule:PRP-Noun
+r6theirPRP$rosterNN
+
+#Rule:HeadNoun-V
+r11guysNNSareAUX
+
+#Rule:V-HeadNoun
+r21areAUXguysNNS
+
+#Rule:PPinVP
+r30areAUXlikeINhimPRP
+r30areAUXonINrosterNN
+
+#Rule:IS-RULE
+r47guysNNSguysNNS
+
+#I would then have him get into a very long, but not too drawn out fued, with Bobby Lashley. 
+#(S1 (S (NP (PRP I)) (VP (MD would) (ADVP (RB then)) (VP (AUX have) (S (NP (PRP him)) (VP (VB get) (PP (IN into) (NP (NP (DT a) (ADJP (ADJP (RB very) (JJ long)) (, ,) (CC but) (ADJP (RB not) (RB too) (VBN drawn) (PRT (RP out)))) (NN fued)) (, ,) (PP (IN with) (NP (NNP Bobby) (NNP Lashley))))))))) (. .)))
+#Rule:Nouns
+r1fuedNN
+r1Bobby LashleyPersonAnnotation
+
+#Rule:Verbs
+r2getVB
+
+#Rule:Adjs
+r4longJJ
+
+#Rule:Adj-Noun
+r5longJJfuedNN
+r5drawnVBNfuedNN
+
+#Rule:HeadNoun-V
+r11iPRPhaveAUX
+r11himPRPgetVB
+
+#Rule:V-HeadNoun
+r22haveAUXhimPRP
+
+#Rule:PPinNP
+r26fuedNNwithINBobby LashleyPersonAnnotation
+
+#Rule:PPinVP
+r30getVBintoINfuedNN
+
+#Rule:V-ADV
+r46haveAUXthenRB
+
+#Reason being is that both of these men can get it done in the ring, but have very little mic capabilities. 
+#(S1 (S (NP (NN Reason) (NN being)) (VP (AUX is) (SBAR (IN that) (S (NP (NP (DT both)) (PP (IN of) (NP (DT these) (NNS men)))) (VP (MD can) (VP (VB get) (S (NP (PRP it)) (VP (VP (AUX done) (PP (IN in) (NP (DT the) (NN ring)))) (, ,) (CC but) (VP (AUX have) (NP (ADJP (RB very) (JJ little)) (JJ mic) (NNS capabilities)))))))))) (. .)))
+#Rule:Nouns
+r1ReasonNN
+r1beingNN
+r1menNNS
+r1ringNN
+r1capabilitiesNNS
+
+#Rule:Verbs
+r2getVB
+
+#Rule:Adjs
+r4littleJJ
+r4micJJ
+
+#Rule:Adj-Noun
+r5littleJJcapabilitiesNNS
+r5micJJcapabilitiesNNS
+
+#Rule:N-HeadNoun
+r8ReasonNNbeingNN
+
+#Rule:HeadNoun-V
+r11beingNNisAUX
+r11bothDTgetVB
+r11itPRPdoneAUX
+r11itPRPhaveAUX
+
+#Rule:V-HeadNoun
+r21haveAUXcapabilitiesNNS
+
+#Rule:V-HeadNoun
+r22getVBitPRP
+
+#Rule:PPinNP
+r26bothDTofINmenNNS
+
+#Rule:PPinVP
+r30doneAUXinINringNN
+
+#Rule:V-IN-V
+r43isAUXthatINgetVB
+
+#It would be humerous to see the promos and things they to with eachother. 
+#(S1 (S (NP (PRP It)) (VP (MD would) (VP (AUX be) (ADJP (JJ humerous) (S (VP (TO to) (VP (VB see) (NP (NP (DT the) (NNS promos) (CC and) (NNS things)) (SBAR (S (NP (PRP they)) (VP (TO to))))) (PP (IN with) (NP (NN eachother))))))))) (. .)))
+#Rule:Nouns
+r1promosNNS
+r1thingsNNS
+r1eachotherNN
+
+#Rule:Verbs
+r2seeVB
+
+#Rule:Adjs
+r4humerousJJ
+
+#Rule:HeadNoun-V
+r11itPRPbeAUX
+
+#Rule:V-HeadNoun
+r21seeVBpromosNNS
+
+#Rule:V-ADJ
+r25beAUXhumerousJJ
+
+#Rule:PPinVP
+r30seeVBwithINeachotherNN
+
+#It would also be a great pear up because obviously both men are totally jacked. 
+#(S1 (S (NP (PRP It)) (VP (MD would) (ADVP (RB also)) (VP (AUX be) (NP (DT a) (JJ great) (NN pear)) (SBAR (ADVP (RB up)) (IN because) (S (ADVP (RB obviously)) (NP (DT both) (NNS men)) (VP (AUX are) (ADJP (RB totally) (VBN jacked))))))) (. .)))
+#Rule:Nouns
+r1pearNN
+r1menNNS
+
+#Rule:Verbs
+r2jackedVBN
+
+#Rule:Adjs
+r4greatJJ
+
+#Rule:Adj-Noun
+r5greatJJpearNN
+
+#Rule:HeadNoun-V
+r11itPRPbeAUX
+r11menNNSareAUX
+
+#Rule:V-HeadNoun
+r21beAUXpearNN
+
+#Rule:V-ADJ
+r25areAUXjackedVBN
+
+#Rule:V-IN-V
+r43beAUXbecauseINareAUX
+
+#Rule:V-ADV
+r46beAUXalsoRB
+r46areAUXobviouslyRB
+
+#Not very creative,because I hate Brock Lesnar. 
+#(S1 (FRAG (ADJP (RB Not) (RB very) (JJ creative)) (, ,) (SBAR (IN because) (S (NP (PRP I)) (VP (VBP hate) (NP (NNP Brock) (NNP Lesnar))))) (. .)))
+#Rule:Nouns
+r1Brock LesnarPersonAnnotation
+
+#Rule:Verbs
+r2hateVBP
+
+#Rule:Adjs
+r4creativeJJ
+
+#Rule:HeadNoun-V
+r11iPRPhateVBP
+
+#Rule:V-HeadNoun
+r21hateVBPBrock LesnarPersonAnnotation
+
+#He only got a push because he could F-5 The Big Show. 
+#(S1 (S (NP (PRP He)) (ADVP (RB only)) (VP (VBD got) (NP (DT a) (NN push)) (SBAR (IN because) (S (NP (PRP he)) (VP (MD could) (VP (VB F-5) (NP (NNP The) (NNP Big) (NNP Show))))))) (. .)))
+#Rule:Nouns
+r1pushNN
+r1TheNNP
+r1BigNNP
+r1ShowNNP
+
+#Rule:Verbs
+r2gotVBD
+r2f-5VB
+
+#Rule:N-HeadNoun
+r8BigNNPShowNNP
+r8TheNNPShowNNP
+
+#Rule:HeadNoun-V
+r11hePRPgotVBD
+r11hePRPf-5VB
+
+#Rule:V-HeadNoun
+r21gotVBDpushNN
+r21f-5VBShowNNP
+
+#Rule:V-IN-V
+r43gotVBDbecauseINf-5VB
+
+#Rule:V-ADV
+r46gotVBDonlyRB
+
+#I hope he never comes back.
+#(S1 (S (NP (PRP I)) (VP (VBP hope) (SBAR (S (NP (PRP he)) (ADVP (RB never)) (VP (VBZ comes) (ADVP (RB back)))))) (. .)))
+#Rule:Verbs
+r2hopeVBP
+r2comesVBZ
+
+#Rule:HeadNoun-V
+r11iPRPhopeVBP
+r11hePRPcomesVBZ
+
+#Rule:V-ADV
+r46comesVBZneverRB
+r46comesVBZbackRB
+
+@lemmas-left	need	hate	send	both	reason	being	roster	little	show	him	long	guys	draw	are	jacked	capability	be	ring	RAW	creative	get	Show	Brock Lesnar	done	he	Batista	comes	Big	big	got	hope	fued	jack	smackdown	have	push	Smackdown	The	Khali, Henry	f-5	promos	do	men	humerous	major	drawn	Reason	is	powerhouse	it	guy	needs	eachother	Bobby Lashley	come	the	i	Taker	great	s	mic	see	capabilities	things	their	pear	
+@lemmas-right	need	fued	hate	jack	send	smackdown	have	being	roster	show	him	guys	push	Smackdown	are	f-5	jacked	only	promos	do	men	humerous	capability	be	ring	is	it	get	obviously	guy	needs	Show	Brock Lesnar	eachother	done	Bobby Lashley	back	come	comes	never	then	capabilities	got	also	hope	pear	
+@lemmas-center	because	that	of	with	into	on	like	in	

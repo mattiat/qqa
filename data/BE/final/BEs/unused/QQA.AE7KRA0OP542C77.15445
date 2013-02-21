@@ -1,0 +1,29 @@
+#Im pretty sure a panda does not hibernate. 
+#(S1 (S (NP (NNP Im)) (ADVP (ADVP (RB pretty) (RB sure)) (NP (DT a) (NN panda))) (VP (AUX does) (RB not) (VP (VB hibernate))) (. .)))
+#Rule:Nouns
+r1ImNNP
+r1pandaNN
+
+#Rule:Verbs
+r2hibernateVB
+
+#Rule:HeadNoun-V
+r11ImNNPhibernateVB
+
+#Rule:V-ADV
+r46doesAUXnotRB
+
+#All bears do hibernate.
+#(S1 (S (NP (DT All) (NNS bears)) (VP (AUX do) (VP (VB hibernate))) (. .)))
+#Rule:Nouns
+r1bearsNNS
+
+#Rule:Verbs
+r2hibernateOrganizationAnnotation
+
+#Rule:HeadNoun-V
+r11bearsNNShibernateOrganizationAnnotation
+
+@lemmas-left	bear	does	hibernate	Im	panda	bears	do	im	
+@lemmas-right	not	hibernate	
+@lemmas-center	

@@ -1,0 +1,155 @@
+#remember it is a THEORY of evolution. 
+#(S1 (S (VP (VB remember) (SBAR (S (NP (PRP it)) (VP (AUX is) (NP (NP (DT a) (NN THEORY)) (PP (IN of) (NP (NN evolution)))))))) (. .)))
+#Rule:Nouns
+r1THEORYNN
+r1evolutionNN
+
+#Rule:Verbs
+r2rememberVB
+
+#Rule:HeadNoun-V
+r11itPRPisAUX
+
+#Rule:V-HeadNoun
+r21isAUXTHEORYNN
+
+#Rule:PPinNP
+r26THEORYNNofINevolutionNN
+
+#Brilliant, and probably it captures some of the truth but still ONLY A THEORY with many inconsistensies which can t be explained. 
+#(S1 (S (ADVP (JJ Brilliant)) (PRN (, ,) (CC and) (ADVP (RB probably))) (NP (PRP it)) (VP (VBZ captures) (NP (NP (NP (DT some)) (PP (IN of) (NP (DT the) (NN truth)))) (CONJP (CC but) (RB still) (RB ONLY)) (NP (NP (DT A) (NN THEORY)) (PP (IN with) (NP (NP (JJ many) (NNS inconsistensies)) (SBAR (WHNP (WDT which)) (S (VP (MD can) (RB t) (VP (AUX be) (VP (VBN explained))))))))))) (. .)))
+#Rule:Nouns
+r1truthNN
+r1THEORYNN
+r1inconsistensiesNNS
+
+#Rule:Verbs
+r2capturesVBZ
+r2explainedVBN
+
+#Rule:Adjs
+r4BrilliantJJ
+r4manyJJ
+
+#Rule:Adj-Noun
+r5manyJJinconsistensiesNNS
+
+#Rule:HeadNoun-V
+r11itPRPcapturesVBZ
+
+#Rule:V-(who/that)-HeadNoun
+r18explainedVBNinconsistensiesNNS
+
+#Rule:V-HeadNoun
+r21capturesVBZsomeDT
+
+#Rule:PPinNP
+r26someDTofINtruthNN
+r26THEORYNNwithINinconsistensiesNNS
+
+#You have to admit it s a good theory though? 
+#(S1 (S (NP (PRP You)) (VP (AUX have) (S (VP (TO to) (VP (VB admit) (SBAR (S (NP (PRP it)) (VP (VBZ s) (NP (DT a) (JJ good) (NN theory)) (ADVP (RB though))))))))) (. ?)))
+#Rule:Nouns
+r1theoryNN
+
+#Rule:Verbs
+r2admitVB
+r2sVBZ
+
+#Rule:Adjs
+r4goodJJ
+
+#Rule:Adj-Noun
+r5goodJJtheoryNN
+
+#Rule:HeadNoun-V
+r11youPRPhaveAUX
+r11itPRPsVBZ
+
+#Rule:V-HeadNoun
+r21sVBZtheoryNN
+
+#Rule:V-ADV
+r46sVBZthoughRB
+
+#.. 
+#
+#It; ll do till something better comes along.   
+#(S1 (S (NP (PRP It)) (: ;) (ADVP (RB ll)) (VP (AUX do) (SBAR (IN till) (S (NP (NN something) (RB better)) (VP (VBZ comes) (ADVP (RB along)))))) (. .)))
+#Rule:Nouns
+r1somethingNN
+
+#Rule:Verbs
+r2comesVBZ
+
+#Rule:HeadNoun-V
+r11itPRPdoAUX
+r11somethingNNcomesVBZ
+
+#Rule:V-IN-V
+r43doAUXtillINcomesVBZ
+
+#Rule:V-ADV
+r46doAUXllPersonAnnotation
+r46comesVBZalongRB
+
+#Besides, what makes you think there are still going to BE chimps and monkeys etc in a couple of hundred years? 
+#(S1 (SBARQ (RB Besides) (, ,) (WHNP (WP what)) (SQ (VP (VBZ makes) (S (NP (PRP you)) (VP (VB think) (SBAR (S (NP (EX there)) (VP (AUX are) (ADVP (RB still)) (VP (VBG going) (S (VP (TO to) (VP (AUX BE) (NP (NNS chimps) (CC and) (NNS monkeys) (NN etc)) (PP (IN in) (NP (NP (DT a) (NN couple)) (PP (IN of) (NP (CD hundred) (NNS years)))))))))))))))) (. ?)))
+#Rule:Nouns
+r1BE chimpsOrganizationAnnotation
+r1monkeys etcOrganizationAnnotation
+r1coupleNN
+r1yearsNNS
+
+#Rule:Verbs
+r2makesVBZ
+r2thinkVB
+r2goingVBG
+
+#Rule:Adj-Noun
+r5hundredCDyearsNNS
+
+#Rule:HeadNoun-V
+r11youPRPthinkVB
+r11thereEXgoingVBG
+
+#Rule:V-HeadNoun
+r21BE chimpsOrganizationAnnotationmonkeys etcOrganizationAnnotation
+
+#Rule:V-HeadNoun
+r22makesVBZyouPRP
+
+#Rule:PPinNP
+r26coupleNNofINyearsNNS
+
+#Rule:PPinVP
+r30BE chimpsOrganizationAnnotationinINcoupleNN
+
+#Rule:V-ADV
+r46areAUXstillRB
+r46goingVBGstillRB
+
+#maybe they ll die out, proving the theory.
+#(S1 (S (ADVP (RB maybe)) (NP (PRP they)) (VP (VBP ll) (S (VP (VB die) (PRT (RP out)))) (, ,) (S (VP (VBG proving) (NP (DT the) (NN theory))))) (. .)))
+#Rule:Nouns
+r1theoryNN
+
+#Rule:Verbs
+r2llVBP
+r2provingVBG
+
+#Rule:V-PRT
+r3dieVBoutRP
+
+#Rule:HeadNoun-V
+r11theyPRPllVBP
+
+#Rule:V-HeadNoun
+r21provingVBGtheoryNN
+
+#Rule:V-ADV
+r46llVBPmaybeRB
+
+@lemmas-left	they	remember	ll	hundred	theory	Brilliant	good	BE chimps	explained	inconsistensies	are	truth	die	capture	couple	do	something	be	prove	going	think	is	it	makes	proving	come	you	admit	comes	evolution	many	monkeys etc	s	there	captures	THEORY	brilliant	years	explain	make	some	go	
+@lemmas-right	ll	have	theory	though	inconsistensies	truth	capture	do	couple	along	be	is	think	going	maybe	come	still	you	comes	evolution	monkeys etc	s	captures	THEORY	years	some	out	go	
+@lemmas-center	of	with	in	till	

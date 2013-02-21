@@ -1,0 +1,102 @@
+BE: okNNP
+EQ class: sooner_statennp	oklahomannp	
+
+BE: heartNN
+EQ class: bosomnn	
+
+BE: isnNN
+EQ class: international_relations_and_security_networknn	
+
+BE: pacemakerNN
+EQ class: pacesetternn	
+
+BE: DoesNNP
+EQ class: department_of_energynnp	energynnp	energy_departmentnnp	doennp	
+
+BE: anyoneNN
+EQ class: 
+
+BE: surgeryNN
+EQ class: surgicaljj	
+
+BE: tLocationAnnotation
+EQ class: 
+
+BE: workingVBG
+EQ class: workvbg	
+
+BE: knowVB
+EQ class: cognizevb	cognisevb	
+
+BE: workVB
+EQ class: 
+
+BE: myPRP$isnNN
+EQ class: isnnnofinmyprp$	myprp$international_relations_and_security_networknn	international_relations_and_security_networknnofinmyprp$	
+
+BE: heartNNisnNN
+EQ class: bosomnninternational_relations_and_security_networknn	international_relations_and_security_networknnofinbosomnn	international_relations_and_security_networknnofinheartnn	heartnninternational_relations_and_security_networknn	isnnnofinheartnn	bosomnnisnnn	isnnnofinbosomnn	
+
+BE: DoesNNPanyoneNN
+EQ class: doennpanyonenn	energynnpanyonenn	department_of_energynnpanyonenn	energy_departmentnnpanyonenn	
+
+BE: anyoneNNknowVB
+EQ class: knowablennofinanyonenn	knowernnofinanyonenn	knowingnnanyonenn	anyonenncognizevb	anyonenncognisevb	apprehendernnofinanyonenn	apprehendernnanyonenn	knowingnnofinanyonenn	knowernnanyonenn	
+
+BE: iPRPneedAUX
+EQ class: iprpdemandaux	iprpaskaux	iprpinvolveaux	iprpnecessitateaux	iprpcall_foraux	demandnnofiniprp	iprprequireaux	iprppostulateaux	iprptakeaux	neednnofiniprp	
+
+BE: surgeryNNworkVB
+EQ class: worknnofinsurgicaljj	workernnsurgerynn	worknnofinsurgerynn	workernnsurgicaljj	workernnofinsurgicaljj	workernnofinsurgerynn	surgicaljjworkvb	
+
+BE: needAUXpacemakerNN
+EQ class: neednnofinpacesetternn	neednnofinpacemakernn	call_forauxpacemakernn	needauxpacesetternn	demandnnofinpacemakernn	necessitateauxpacesetternn	call_forauxpacesetternn	demandauxpacesetternn	askauxpacesetternn	postulateauxpacesetternn	requireauxpacemakernn	demandnnofinpacesetternn	postulateauxpacemakernn	necessitateauxpacemakernn	takeauxpacemakernn	askauxpacemakernn	requireauxpacesetternn	involveauxpacemakernn	takeauxpacesetternn	demandauxpacemakernn	involveauxpacesetternn	
+
+BE: workingVBGanyoneNN
+EQ class: workvbganyonenn	workernnofinanyonenn	worknnofinanyonenn	
+
+BE: workingVBGproperlyRB
+EQ class: propernessnnininworkingvbg	workernnofinproperlyrb	properjjininworkernn	properjjininworkingvbg	workvbgproperlyrb	worknnofinproperlyrb	properjjworknn	properjjworkernn	propernessnnininworknn	propernessnnworknn	propernessnnininworkernn	propernessnnworkernn	propernessnnininworkvbg	properjjininworkvbg	properjjininworknn	
+
+BE: mNNP
+EQ class: meternnp	metrennp	
+
+BE: doctorsNNS
+EQ class: physiciannns	doctorialjj	mdnns	mediconns	theynns	docnns	doctornns	dr.nns	themnns	
+
+BE: surgeryNN
+EQ class: surgicaljj	
+
+BE: askingVBG
+EQ class: enquirevbg	askvbg	inquirevbg	
+
+BE: causeVB
+EQ class: makevb	dovb	
+
+BE: toldVBD
+EQ class: statevbd	tellvbd	sayvbd	
+
+BE: neededVBD
+EQ class: postulatevbd	involvevbd	takevbd	call_forvbd	askvbd	demandvbd	necessitatevbd	requirevbd	needvbd	
+
+BE: How niceOrganizationAnnotation
+EQ class: 
+
+BE: mNNPaskingVBG
+EQ class: askernnofinmetrennp	inquirernnmeternnp	mnnpaskvbg	askernnmetrennp	metrennpaskvbg	enquirernnofinmetrennp	askernnmeternnp	questionernnmnnp	inquirernnmetrennp	enquirernnmeternnp	questionernnmeternnp	mnnpinquirevbg	questionernnofinmnnp	enquirernnmetrennp	enquirernnofinmeternnp	inquirernnofinmetrennp	meternnpenquirevbg	metrennpaskingvbg	inquirernnofinmnnp	askernnofinmeternnp	queriernnmetrennp	queriernnmeternnp	questionernnofinmeternnp	inquirernnofinmeternnp	mnnpenquirevbg	metrennpinquirevbg	questionernnofinmetrennp	askernnofinmnnp	enquirernnofinmnnp	questionernnmetrennp	askernnmnnp	meternnpinquirevbg	metrennpenquirevbg	queriernnofinmeternnp	queriernnofinmetrennp	meternnpaskvbg	queriernnofinmnnp	inquirernnmnnp	meternnpaskingvbg	enquirernnmnnp	queriernnmnnp	
+
+BE: doctorsNNStoldVBD
+EQ class: mediconnsstatevbd	tellernndocnns	tellernnofindocnns	tellingnndoctornns	relationnnofindr.nns	edward_tellernndoctorsnns	tellingnnofinmdnns	mdnnsstatevbd	tellernnofinphysiciannns	tellingnnmediconns	tellingnnofinphysiciannns	tellernndoctorsnns	tellernnphysiciannns	relationnnmediconns	edward_tellernnmediconns	docnnssayvbd	edward_tellernnofinphysiciannns	relationnntheynns	recountingnntheynns	tellernnofindr.nns	doctornnssayvbd	recountingnndocnns	docnnsstatevbd	relationnndoctornns	edward_tellernndoctorialjj	theynnstellvbd	tellingnnofinmediconns	doctornnstoldvbd	tellingnnofindoctorialjj	tellingnnphysiciannns	docnnstoldvbd	recountingnnphysiciannns	docnnstellvbd	relationnndocnns	edward_tellernnofinmdnns	relationnnofindocnns	theynnsstatevbd	recountingnnofintheynns	physiciannnsstatevbd	edward_tellernnmdnns	theynnstoldvbd	doctorialjjtoldvbd	recountingnnofinphysiciannns	physiciannnstellvbd	relationnnofinthemnns	edward_tellernnofintheynns	tellingnnofindocnns	doctorsnnssayvbd	tellernnmdnns	physiciannnstoldvbd	edward_tellernndr.nns	relationnnofindoctorialjj	doctorialjjstatevbd	tellernnofintheynns	doctornnsstatevbd	edward_tellernndocnns	recountingnnofindoctorsnns	recountingnnofinmdnns	edward_tellernnofindoctornns	recountingnndoctorsnns	relationnndoctorsnns	edward_tellernnofinmediconns	dr.nnssayvbd	edward_tellernnofinthemnns	tellingnntheynns	relationnnofintheynns	relationnndr.nns	relationnnphysiciannns	relationnnofindoctornns	recountingnnofinmediconns	tellernnofinthemnns	themnnssayvbd	mediconnstellvbd	tellernnofindoctorialjj	edward_tellernnofindoctorialjj	recountingnnofindoctornns	edward_tellernndoctornns	tellernnthemnns	edward_tellernntheynns	relationnnofinmdnns	tellingnnofindoctornns	tellingnndocnns	tellingnnthemnns	tellingnnofintheynns	mdnnssayvbd	relationnnofinphysiciannns	relationnndoctorialjj	doctorialjjtellvbd	recountingnnthemnns	recountingnnofinthemnns	tellernndoctornns	tellernndr.nns	mediconnssayvbd	tellingnndr.nns	tellingnnmdnns	edward_tellernnthemnns	relationnnofindoctorsnns	recountingnndr.nns	themnnstellvbd	tellingnndoctorsnns	relationnnmdnns	tellernnofinmdnns	mdnnstoldvbd	tellernnmediconns	edward_tellernnofindr.nns	tellernnofinmediconns	tellernnofindoctorsnns	themnnsstatevbd	tellernnofindoctornns	dr.nnsstatevbd	themnnstoldvbd	doctorsnnstellvbd	relationnnofinmediconns	dr.nnstoldvbd	recountingnnofindr.nns	mediconnstoldvbd	dr.nnstellvbd	tellernntheynns	recountingnnofindoctorialjj	physiciannnssayvbd	recountingnndoctorialjj	edward_tellernnphysiciannns	doctorialjjsayvbd	relationnnthemnns	mdnnstellvbd	recountingnnmediconns	tellingnndoctorialjj	tellernndoctorialjj	tellingnnofindr.nns	edward_tellernnofindocnns	recountingnndoctornns	tellingnnofinthemnns	recountingnnofindocnns	doctornnstellvbd	tellingnnofindoctorsnns	doctorsnnsstatevbd	theynnssayvbd	recountingnnmdnns	edward_tellernnofindoctorsnns	
+
+BE: iPRPneededVBD
+EQ class: iprppostulatevbd	demandnnofiniprp	iprpnecessitatevbd	iprptakevbd	iprpinvolvevbd	iprpcall_forvbd	iprpneedvbd	iprpdemandvbd	iprpaskvbd	iprprequirevbd	neednnofiniprp	
+
+BE: toldVBDmePRP
+EQ class: edward_tellernnofinmeprp	relationnnofinmeprp	tellingnnofinmeprp	recountingnnofinmeprp	tellernnofinmeprp	statevbdmeprp	tellvbdmeprp	sayvbdmeprp	
+
+BE: neededVBDsurgeryNN
+EQ class: postulatevbdsurgerynn	requirevbdsurgerynn	demandnnofinsurgerynn	takevbdsurgicaljj	requirevbdsurgicaljj	necessitatevbdsurgerynn	involvevbdsurgerynn	neednnofinsurgerynn	neededvbdsurgicaljj	necessitatevbdsurgicaljj	postulatevbdsurgicaljj	neednnofinsurgicaljj	needvbdsurgicaljj	involvevbdsurgicaljj	askvbdsurgerynn	demandvbdsurgerynn	demandnnofinsurgicaljj	needvbdsurgerynn	call_forvbdsurgerynn	takevbdsurgerynn	call_forvbdsurgicaljj	demandvbdsurgicaljj	askvbdsurgicaljj	
+
+BE: toldVBDjustRB
+EQ class: tellingnnofinjustrb	statevbdjustrb	edward_tellernnofinjustrb	sayvbdjustrb	recountingnnofinjustrb	tellernnofinjustrb	tellvbdjustrb	relationnnofinjustrb	
+

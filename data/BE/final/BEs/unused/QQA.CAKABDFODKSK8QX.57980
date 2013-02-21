@@ -1,0 +1,19 @@
+#27 WORKS FOR THE RADIO TRIVIA;-)as20
+#(S1 (NP (NP (NP (CD 27) (NNS WORKS)) (PP (IN FOR) (NP (DT THE) (NN RADIO) (NNS TRIVIA)))) (: ;) (S (LST (: -)) (-RRB- -RRB-) (NP (CD as20)))))
+#Rule:Nouns
+r1WORKSOrganizationAnnotation
+r1RADIONN
+r1TRIVIANNS
+
+#Rule:Adj-Noun
+r527CDWORKSOrganizationAnnotation
+
+#Rule:N-HeadNoun
+r8RADIONNTRIVIANNS
+
+#Rule:PPinNP
+r26WORKSOrganizationAnnotationforINTRIVIANNS
+
+@lemmas-left	trivia	RADIO	WORKS	radio	TRIVIA	27	
+@lemmas-right	trivia	WORKS	TRIVIA	
+@lemmas-center	for	

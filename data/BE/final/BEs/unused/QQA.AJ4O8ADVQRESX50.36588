@@ -1,0 +1,66 @@
+#I can't tell you exactly how it works as I am not a doctor but I worked as a carer IN a home and one of our clients had one ...Oh dear ,,he chased us up and down the corridors days afterwards ,he seemed so docile before ,good luck if it's your partner
+#(S1 (S (S (NP (PRP I)) (VP (MD can) (RB n't) (VP (VB tell) (NP (PRP you)) (SBAR (WHADVP (RB exactly) (WRB how)) (S (NP (PRP it)) (VP (VBZ works) (SBAR (IN as) (S (S (S (NP (PRP I)) (VP (AUX am) (RB not) (NP (DT a) (NN doctor)))) (CC but) (S (NP (PRP I)) (VP (VBD worked) (PP (IN as) (NP (NP (DT a) (NN carer)) (PP (IN IN) (NP (DT a) (NN home)))))))) (CC and) (S (NP (NP (CD one)) (PP (IN of) (NP (PRP$ our) (NNS clients)))) (VP (AUX had) (NP (CD one)))))))))))) (: ...) (FRAG (INTJ (UH Oh)) (RB dear) (SBAR (RB ,,) (S (NP (PRP he)) (VP (VBD chased) (NP (PRP us)) (ADVP (RB up) (CC and) (RB down)) (NP (DT the) (NNS corridors)) (ADVP (NP (NNS days)) (RB afterwards)) (, ,) (SBAR (S (NP (PRP he)) (VP (VBD seemed) (ADJP (RB so) (JJ docile)) (ADVP (RB before)) (, ,) (NP (JJ good) (NN luck) (SBAR (IN if) (S (NP (PRP it)) (VP (AUX 's) (NP (PRP$ your) (NN partner)))))))))))))))
+#Rule:Nouns
+r1doctorNN
+r1carerNN
+r1homeNN
+r1clientsNNS
+r1corridorsNNS
+r1daysNNS
+r1luckNN
+r1partnerNN
+
+#Rule:Verbs
+r2tellVB
+r2worksVBZ
+r2workedVBD
+r2chasedVBD
+r2seemedVBD
+
+#Rule:Adjs
+r4docileJJ
+r4goodJJ
+
+#Rule:Adj-Noun
+r5goodJJluckNN
+
+#Rule:PRP-Noun
+r6ourPRP$clientsNNS
+r6yourPRP$partnerNN
+
+#Rule:HeadNoun-V
+r11iPRPtellVB
+r11itPRPworksVBZ
+r11iPRPamAUX
+r11iPRPworkedVBD
+r11oneCDhadAUX
+r11hePRPchasedVBD
+r11hePRPseemedVBD
+r11itPRP'sAUX
+
+#Rule:V-HeadNoun
+r21tellVByouPRP
+r21amAUXdoctorNN
+r21hadAUXoneCD
+r21chasedVBDusPRP
+r21chasedVBDcorridorsNNS
+r21seemedVBDluckNN
+r21'sAUXpartnerNN
+
+#Rule:PPinNP
+r26carerNNinINhomeNN
+r26oneCDofINclientsNNS
+
+#Rule:PPinVP
+r30workedVBDasINcarerNN
+
+#Rule:V-ADV
+r46amAUXnotRB
+r46chasedVBDupRB
+r46chasedVBDdownRB
+r46chasedVBDafterwardsRB
+r46seemedVBDbeforeRB
+
+@lemmas-left	home	client	have	corridor	one	chase	good	doctor	worked	seemed	tell	partner	had	be	work	it	luck	your	he	seem	works	i	corridors	chased	carer	's	s	days	am	our	docile	clients	
+@lemmas-right	home	afterwards	client	have	before	one	corridor	chase	doctor	worked	seemed	tell	partner	had	be	work	luck	you	us	seem	up	works	not	chased	corridors	carer	s	's	am	down	clients	
+@lemmas-center	of	as	in	

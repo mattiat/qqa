@@ -1,0 +1,197 @@
+#Walk, walk with ski poles or just plain sticks. 
+#(S1 (S (VP (VP (VB Walk)) (, ,) (VP (VB walk) (PP (IN with) (NP (NN ski) (NNS poles)))) (CC or) (VP (ADVP (RB just) (JJ plain)) (VBZ sticks))) (. .)))
+#Rule:Nouns
+r1skiPersonAnnotation
+r1polesNNS
+
+#Rule:Verbs
+r2walkVB
+r2walkVB
+r2sticksVBZ
+
+#Rule:Adjs
+r4plainJJ
+
+#Rule:N-HeadNoun
+r8skiPersonAnnotationpolesNNS
+
+#Rule:PPinVP
+r30walkVBwithINpolesNNS
+
+#Rule:V-ADV
+r46sticksVBZjustRB
+
+#It ll build up your muscles in a couple a months. 
+#(S1 (S (NP (PRP It)) (VP (VBZ ll) (VP (VB build) (PRT (RP up)) (NP (PRP$ your) (NNS muscles)) (PP (IN in) (NP (NP (DT a) (NN couple)) (NP (DT a) (NNS months)))))) (. .)))
+#Rule:Nouns
+r1musclesNNS
+r1coupleNN
+r1monthsNNS
+
+#Rule:Verbs
+r2llVBZ
+
+#Rule:V-PRT
+r3buildVBupRP
+
+#Rule:PRP-Noun
+r6yourPRP$musclesNNS
+
+#Rule:HeadNoun-V
+r11itPRPllVBZ
+r11itPRPbuildVB
+
+#Rule:V-HeadNoun
+r21buildVBmusclesNNS
+
+#Rule:PPinVP
+r30buildVBinINcoupleNN
+r30buildVBinINmonthsNNS
+
+#{BICEPS} Stop that running . 
+#(S1 (S (NP (-LRB- -LCB-) (NNS BICEPS) (-RRB- -RCB-)) (VP (VBP Stop) (S (NP (DT that)) (VP (VBG running)))) (. .)))
+#Rule:Nouns
+r1BICEPSNNS
+
+#Rule:Verbs
+r2stopVBP
+r2runningVBG
+
+#Rule:HeadNoun-V
+r11BICEPSNNSstopVBP
+r11thatDTrunningVBG
+
+#Rule:V-HeadNoun
+r22stopVBPthatDT
+
+#You can exercise more walking than running. 
+#(S1 (S (NP (PRP You)) (VP (MD can) (VP (VB exercise) (NP (NP (JJR more)) (PP (VBG walking) (PP (IN than) (S (VP (VBG running)))))))) (. .)))
+#Rule:Verbs
+r2exerciseVB
+r2walkingVBG
+r2runningVBG
+
+#Rule:Adjs
+r4moreJJR
+
+#Rule:HeadNoun-V
+r11youPRPexerciseVB
+
+#Rule:V-HeadNoun
+r21exerciseVBmoreJJR
+
+#You are not in condition to run. 
+#(S1 (S (NP (PRP You)) (VP (AUX are) (RB not) (PP (IN in) (NP (NN condition) (S (VP (TO to) (VP (VB run))))))) (. .)))
+#Rule:Nouns
+r1conditionNN
+
+#Rule:Verbs
+r2runVB
+
+#Rule:HeadNoun-V
+r11youPRPareAUX
+
+#Rule:PPinVP
+r30areAUXinINconditionNN
+
+#Rule:V-ADV
+r46areAUXnotRB
+
+#Build up slow, so you have no injuries. 
+#(S1 (S (S (VP (VB Build) (PRT (RP up)) (ADJP (JJ slow)))) (, ,) (IN so) (S (NP (PRP you)) (VP (AUX have) (NP (DT no) (NNS injuries)))) (. .)))
+#Rule:Nouns
+r1injuriesNNS
+
+#Rule:V-PRT
+r3buildVBupRP
+
+#Rule:Adjs
+r4slowJJ
+
+#Rule:HeadNoun-V
+r11youPRPhaveAUX
+
+#Rule:V-HeadNoun
+r21haveAUXinjuriesNNS
+
+#Good luck ,precious... 
+#(S1 (NP (NP (JJ Good) (NN luck)) (, ,) (NP (JJ precious) (NN ..)) (. .)))
+#Rule:Nouns
+r1luckNN
+r1..NN
+
+#Rule:Adjs
+r4GoodJJ
+r4preciousJJ
+
+#Rule:Adj-Noun
+r5GoodJJluckNN
+r5preciousJJ..NN
+
+#Rule:N-ApposN
+r10luckNN..NN
+
+#Fruit and veggies 7 time a day. bananas are sweet, papaya,strawberries,please stop the candy. 
+#(S1 (S (NP (NN Fruit) (CC and) (NNS veggies)) (ADJP (CD 7) (NN time)) (S (NP (DT a) (CD day.) (NNS bananas)) (VP (AUX are) (ADJP (JJ sweet)) (, ,) (INTJ (UH papaya)) (, ,) (NP (NNS strawberries)))) (, ,) (VP (VB please) (VP (VB stop) (NP (DT the) (NN candy)))) (. .)))
+#Rule:Nouns
+r1FruitNN
+r1veggiesNNS
+r1timeNN
+r1bananasPersonAnnotation
+r1papaya,strawberriesOrganizationAnnotation
+r1candyNN
+
+#Rule:Verbs
+r2pleaseVB
+r2stopVB
+
+#Rule:Adjs
+r4sweetJJ
+
+#Rule:Adj-Noun
+r5dayCDbananasPersonAnnotation
+
+#Rule:HeadNoun-V
+r11FruitNNpleaseVB
+r11FruitNNstopVB
+r11bananasPersonAnnotationareAUX
+
+#Rule:V-HeadNoun
+r21areAUXpapaya,strawberriesOrganizationAnnotation
+r21stopVBcandyNN
+
+#Rule:V-ADJ
+r25areAUXsweetJJ
+
+#Rule:IS-RULE
+r47papaya,strawberriesOrganizationAnnotationbananasPersonAnnotation
+
+#Small meals and often. 
+#(S1 (FRAG (NP (JJ Small) (NNS meals)) (CC and) (ADVP (RB often)) (. .)))
+#Rule:Nouns
+r1mealsNNS
+
+#Rule:Adjs
+r4SmallJJ
+
+#Rule:Adj-Noun
+r5SmallJJmealsNNS
+
+#You ll be more satisfied
+#(S1 (S (NP (PRP You)) (VP (VBP ll) (VP (AUX be) (ADJP (RBR more) (JJ satisfied))))))
+#Rule:Verbs
+r2llVBP
+
+#Rule:Adjs
+r4satisfiedJJ
+
+#Rule:HeadNoun-V
+r11youPRPllVBP
+r11youPRPbeAUX
+
+#Rule:V-ADJ
+r25beAUXsatisfiedJJ
+
+@lemmas-left	satisfied	good	time	more	are	please	pole	candy	muscles	..	slow	Fruit	be	ski	fruit	condition	luck	that	injuries	sweet	day.	month	day	papaya,strawberries	small	walk	Small	stop	Good	walking	stick	ll	have	exercise	run	build	running	bananas	precious	couple	plain	veggie	biceps	meal	it	your	muscle	you	poles	veggies	BICEPS	months	meals	sticks	injury	
+@lemmas-right	stop	satisfied	ll	have	exercise	run	build	running	please	more	are	pole	candy	bananas	muscles	..	couple	meal	be	just	condition	luck	muscle	poles	up	not	that	months	meals	sweet	injuries	month	injury	papaya,strawberries	
+@lemmas-center	with	in	

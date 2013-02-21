@@ -1,0 +1,25 @@
+#How does Nitric oxid interact with the vascular endothelium?
+#(S1 (SBARQ (WHADVP (WRB How)) (SQ (AUX does) (NP (NNP Nitric) (NN oxid)) (VP (VB interact) (PP (IN with) (NP (DT the) (JJ vascular) (NN endothelium))))) (. ?)))
+#Rule:Nouns
+r1NitricOrganizationAnnotation
+r1oxidNN
+r1endotheliumLocationAnnotation
+
+#Rule:Verbs
+r2interactVB
+
+#Rule:Adjs
+r4vascularJJ
+
+#Rule:Adj-Noun
+r5vascularJJendotheliumLocationAnnotation
+
+#Rule:N-HeadNoun
+r8NitricOrganizationAnnotationoxidNN
+
+#Rule:PPinVP
+r30interactVBwithINendotheliumLocationAnnotation
+
+@lemmas-left	endothelium	vascular	oxid	Nitric	interact	
+@lemmas-right	endothelium	oxid	
+@lemmas-center	with	

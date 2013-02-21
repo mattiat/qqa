@@ -1,0 +1,71 @@
+#Fusion, not fission.  
+#(S1 (FRAG (NP (NN Fusion) (, ,) (RB not) (NN fission)) (. .)))
+#Rule:Nouns
+r1FusionOrganizationAnnotation
+r1fissionOrganizationAnnotation
+
+#They are two separate concepts.  
+#(S1 (S (NP (PRP They)) (VP (AUX are) (NP (CD two) (JJ separate) (NNS concepts))) (. .)))
+#Rule:Nouns
+r1conceptsNNS
+
+#Rule:Adjs
+r4separateJJ
+
+#Rule:Adj-Noun
+r5twoCDconceptsNNS
+r5separateJJconceptsNNS
+
+#Rule:HeadNoun-V
+r11theyPRPareAUX
+
+#Rule:V-HeadNoun
+r21areAUXconceptsNNS
+
+#The Sun uses fusion.  
+#(S1 (S (NP (DT The) (NNP Sun)) (VP (VBZ uses) (NP (NN fusion))) (. .)))
+#Rule:Nouns
+r1SunNNP
+r1fusionNN
+
+#Rule:Verbs
+r2usesVBZ
+
+#Rule:HeadNoun-V
+r11SunNNPusesVBZ
+
+#Rule:V-HeadNoun
+r21usesVBZfusionNN
+
+#Look up the proton-proton chain for more info on how this works.
+#(S1 (S (VP (VB Look) (PRT (RP up)) (NP (NP (DT the) (JJ proton-proton) (NN chain)) (PP (IN for) (NP (NP (JJR more) (NNS info)) (PP (IN on) (SBAR (WHADVP (WRB how)) (S (NP (DT this)) (VP (VBZ works))))))))) (. .)))
+#Rule:Nouns
+r1chainNN
+r1infoNNS
+
+#Rule:Verbs
+r2worksVBZ
+
+#Rule:V-PRT
+r3lookVBupRP
+
+#Rule:Adjs
+r4proton-protonJJ
+r4moreJJR
+
+#Rule:Adj-Noun
+r5proton-protonJJchainNN
+r5moreJJRinfoNNS
+
+#Rule:HeadNoun-V
+r11thisDTworksVBZ
+
+#Rule:V-HeadNoun
+r21lookVBchainNN
+
+#Rule:PPinNP
+r26chainNNforINinfoNNS
+
+@lemmas-left	proton	look	work	Fusion	they	concept	separate	use	concepts	sun	works	info	two	more	are	proton-proton	chain	Sun	fusion	uses	this	fission	be	
+@lemmas-right	work	concept	are	chain	fusion	use	uses	concepts	works	info	up	be	
+@lemmas-center	for	

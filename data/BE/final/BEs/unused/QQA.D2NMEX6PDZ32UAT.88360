@@ -1,0 +1,25 @@
+#Length of Year is 29.5 years
+#(S1 (S (NP (NP (NN Length)) (PP (IN of) (NP (NN Year)))) (VP (AUX is) (NP (CD 29.5) (NNS years)))))
+#Rule:Nouns
+r1LengthNN
+r1YearPersonAnnotation
+r1yearsNNS
+
+#Rule:Adj-Noun
+r529.5CDyearsNNS
+
+#Rule:HeadNoun-V
+r11LengthNNisAUX
+
+#Rule:V-HeadNoun
+r21isAUXyearsNNS
+
+#Rule:PPinNP
+r26LengthNNofINYearPersonAnnotation
+
+#Rule:IS-RULE
+r47yearsNNSLengthNN
+
+@lemmas-left	Year	is	Length	length	29.5	years	be	
+@lemmas-right	Year	is	Length	length	years	be	
+@lemmas-center	of	

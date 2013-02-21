@@ -1,0 +1,97 @@
+#The amount of money the entire world spends on space exploration in a year is much less than the world spends on war in a single day. 
+#(S1 (S (NP (NP (DT The) (NN amount)) (PP (IN of) (NP (NN money))) (SBAR (S (NP (DT the) (JJ entire) (NN world)) (VP (VBZ spends) (PP (IN on) (NP (NN space) (NN exploration))) (PP (IN in) (NP (DT a) (NN year))))))) (VP (AUX is) (ADJP (ADJP (RB much) (JJR less)) (SBAR (IN than) (S (NP (DT the) (NN world)) (VP (VBZ spends) (PP (IN on) (NP (NP (NN war)) (PP (IN in) (NP (DT a) (JJ single) (NN day)))))))))) (. .)))
+#Rule:Nouns
+r1amountNN
+r1moneyNN
+r1worldNN
+r1spaceNN
+r1explorationNN
+r1yearNN
+r1worldNN
+r1warNN
+r1dayNN
+
+#Rule:Verbs
+r2spendsVBZ
+r2spendsVBZ
+
+#Rule:Adjs
+r4entireJJ
+r4lessJJR
+r4singleJJ
+
+#Rule:Adj-Noun
+r5entireJJworldNN
+r5singleJJdayNN
+
+#Rule:N-HeadNoun
+r8spaceNNexplorationNN
+
+#Rule:HeadNoun-V
+r11amountNNisAUX
+r11worldNNspendsVBZ
+r11worldNNspendsVBZ
+
+#Rule:NP(NP(z) SBAR(S(NP(x)VP(y))))
+r19spendsVBZamountNN
+
+#Rule:V-ADJ
+r25isAUXlessJJR
+
+#Rule:PPinNP
+r26amountNNofINmoneyNN
+r26warNNinINdayNN
+
+#Rule:PPinVP
+r30spendsVBZonINexplorationNN
+r30spendsVBZinINyearNN
+r30spendsVBZonINwarNN
+
+#If your re going to cut back on something, why not cut back on something that kills people, rather than on something which excites and inspires them?
+#(S1 (FRAG (SBAR (IN If) (S (NP (PRP$ your) (NNP re) (NN going)) (VP (TO to) (VP (VB cut) (ADVP (RB back)) (PP (IN on) (NP (NN something))))))) (, ,) (WHADVP (WRB why)) (RB not) (VP (VP (VB cut) (ADVP (RB back)) (PP (IN on) (NP (NP (NN something)) (SBAR (WHNP (WDT that)) (S (VP (VBZ kills) (NP (NNS people)))))))) (, ,) (CONJP (RB rather) (IN than)) (PP (IN on) (NP (NP (NN something)) (SBAR (WHNP (WDT which)) (S (VP (VBZ excites) (CC and) (VBZ inspires) (NP (PRP them)))))))) (. ?)))
+#Rule:Nouns
+r1reNNP
+r1goingNN
+r1somethingNN
+r1somethingNN
+r1peopleNNS
+r1somethingNN
+
+#Rule:Verbs
+r2cutVB
+r2cutVB
+r2killsVBZ
+r2excitesVBZ
+r2inspiresVBZ
+
+#Rule:PRP-Noun
+r6yourPRP$goingNN
+
+#Rule:N-HeadNoun
+r8reNNPgoingNN
+
+#Rule:HeadNoun-V
+r11goingNNcutVB
+
+#Rule:HeadNoun-(who/that)-V
+r14somethingNNkillsVBZ
+r14somethingNNexcitesVBZ
+
+#Rule:HeadNoun-(who/that VP CC)-V
+r16somethingNNinspiresVBZ
+
+#Rule:V-HeadNoun
+r21killsVBZpeopleNNS
+r21excitesVBZthemPRP
+
+#Rule:PPinVP
+r30cutVBonINsomethingNN
+r30cutVBonINsomethingNN
+
+#Rule:V-ADV
+r46cutVBbackRB
+r46cutVBbackRB
+
+@lemmas-left	single	kill	excite	inspires	space	re	people	war	exploration	amount	money	year	kills	excites	something	inspire	less	be	spends	is	going	your	spend	entire	day	cut	world	
+@lemmas-right	spends	is	going	back	kill	excite	inspires	people	war	exploration	spend	amount	them	money	excites	kills	year	something	cut	day	inspire	world	less	be	
+@lemmas-center	of	on	in	

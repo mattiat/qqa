@@ -1,0 +1,45 @@
+BE: menNNS
+EQ class: workforcenns	handsnns	theynns	manpowernns	work_forcenns	themnns	
+
+BE: warNN
+EQ class: warfarenn	
+
+BE: goVB
+EQ class: locomotevb	movevb	travelvb	
+
+BE: menNNSgoVB
+EQ class: themnnslocomotevb	manpowernnsmovevb	workforcennsmovevb	themnnsgovb	work_forcennsgovb	theynnstravelvb	mennnslocomotevb	mennnsmovevb	manpowernnstravelvb	handsnnstravelvb	theynnsmovevb	work_forcennslocomotevb	workforcennstravelvb	handsnnsgovb	handsnnsmovevb	mennnstravelvb	theynnslocomotevb	handsnnslocomotevb	themnnsmovevb	work_forcennstravelvb	manpowernnsgovb	work_forcennsmovevb	manpowernnslocomotevb	workforcennslocomotevb	workforcennsgovb	themnnstravelvb	theynnsgovb	
+
+BE: goVBtoTOwarNN
+EQ class: locomotevbtotowarfarenn	travelvbtotowarfarenn	movevbtotowarfarenn	movevbtotowarnn	govbtotowarfarenn	travelvbtotowarnn	locomotevbtotowarnn	
+
+BE: menNN
+EQ class: manpowernn	workforcenn	theynn	themnn	work_forcenn	handsnn	
+
+BE: genericJJ
+EQ class: genusnn	
+
+BE: menNNisAUX
+EQ class: themnnbeaux	manpowernnbeaux	themnnisaux	theynnisaux	manpowernnisaux	mennnbeaux	work_forcennisaux	theynnbeaux	workforcennisaux	workforcennbeaux	work_forcennbeaux	handsnnbeaux	handsnnisaux	
+
+BE: isAUXgenericJJ
+EQ class: beauxgenericjj	isauxgenusnn	beauxgenusnn	
+
+BE: isAUXhereRB
+EQ class: beauxhererb	
+
+BE: malesNNS
+EQ class: theynns	malenns	themnns	
+
+BE: warNN
+EQ class: warfarenn	
+
+BE: goVBP
+EQ class: movevbp	travelvbp	locomotevbp	
+
+BE: malesNNSgoVBP
+EQ class: malesnnslocomotevbp	theynnstravelvbp	malesnnstravelvbp	malennslocomotevbp	themnnstravelvbp	theynnsmovevbp	themnnsgovbp	themnnsmovevbp	malennsgovbp	malennstravelvbp	themnnslocomotevbp	theynnslocomotevbp	theynnsgovbp	malesnnsmovevbp	malennsmovevbp	
+
+BE: goVBPtoTOwarNN
+EQ class: travelvbptotowarnn	movevbptotowarnn	movevbptotowarfarenn	locomotevbptotowarnn	locomotevbptotowarfarenn	travelvbptotowarfarenn	govbptotowarfarenn	
+

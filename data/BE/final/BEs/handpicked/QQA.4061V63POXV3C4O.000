@@ -1,0 +1,39 @@
+#How do you get bulimia and/or anorexia??
+#(S1 (SBARQ (WHADVP (WRB How)) (SQ (AUX do) (NP (PRP you)) (VP (VB get) (NP (NN bulimia) (NN and/or) (NN anorexia))) (. ?)) (. ?)))
+#Rule:Nouns
+r1bulimiaNN
+r1and/orNN
+r1anorexiaLocationAnnotation
+
+#Rule:Verbs
+r2getVB
+
+#Rule:N-HeadNoun
+r8and/orNNanorexiaLocationAnnotation
+r8bulimiaNNanorexiaLocationAnnotation
+
+#Rule:V-HeadNoun
+r21getVBanorexiaLocationAnnotation
+
+#Is this heriditary or is this caused by one s lifestyle?
+#(S1 (SQ (AUX Is) (NP (DT this) (NN heriditary)) (CC or) (SQ (AUX is) (NP (DT this)) (VP (VBN caused) (PP (IN by) (NP (CD one) (NNP s) (NN lifestyle))))) (. ?)))
+#Rule:Nouns
+r1heriditaryOrganizationAnnotation
+r1sNNP
+r1lifestyleNN
+
+#Rule:Verbs
+r2causedVBN
+
+#Rule:Adj-Noun
+r5oneCDlifestyleNN
+
+#Rule:N-HeadNoun
+r8sNNPlifestyleNN
+
+#Rule:V-By-Agent
+r13lifestyleNNcausedVBN
+
+@lemmas-left	cause	s	get	anorexia	heriditary	and/or	or	one	lifestyle	bulimia	caused	
+@lemmas-right	cause	anorexia	lifestyle	caused	
+@lemmas-center	

@@ -1,0 +1,113 @@
+#can anyone tell me how a person would feel,if they were havin a heart attack? 
+#(S1 (SQ (MD can) (NP (NN anyone)) (VP (VB tell) (NP (PRP me)) (SBAR (WHADVP (WRB how)) (S (NP (DT a) (NN person)) (VP (MD would) (VP (VB feel) (, ,) (SBAR (IN if) (S (NP (PRP they)) (VP (AUX were) (VP (VBG havin) (NP (DT a) (NN heart) (NN attack))))))))))) (. ?)))
+#Rule:Nouns
+r1anyoneNN
+r1personNN
+r1heartNN
+r1attackNN
+
+#Rule:Verbs
+r2tellVB
+r2feelVB
+r2havinVBG
+
+#Rule:N-HeadNoun
+r8heartNNattackNN
+
+#Rule:HeadNoun-V
+r11personNNfeelVB
+r11theyPRPhavinVBG
+
+#Rule:V-HeadNoun
+r21tellVBmePRP
+r21havinVBGattackNN
+
+#Rule:V-IN-V
+r43feelVBifINhavinVBG
+
+#is there much pain.?
+#(S1 (SQ (AUX is) (NP (EX there)) (NP (JJ much) (NN pain)) (. .) (. ?)))
+#Rule:Nouns
+r1painNN
+
+#Rule:Adjs
+r4muchJJ
+
+#Rule:Adj-Noun
+r5muchJJpainNN
+
+#i hear many people dying suddenly from heart attacks? 
+#(S1 (S (NP (PRP i)) (VP (VBP hear) (S (NP (JJ many) (NNS people)) (VP (VBG dying) (ADVP (RB suddenly)) (PP (IN from) (NP (NN heart) (NNS attacks)))))) (. ?)))
+#Rule:Nouns
+r1peopleNNS
+r1heartNN
+r1attacksNNS
+
+#Rule:Verbs
+r2hearVBP
+r2dyingVBG
+
+#Rule:Adjs
+r4manyJJ
+
+#Rule:Adj-Noun
+r5manyJJpeopleNNS
+
+#Rule:N-HeadNoun
+r8heartNNattacksNNS
+
+#Rule:HeadNoun-V
+r11iPRPhearVBP
+r11peopleNNSdyingVBG
+
+#Rule:V-HeadNoun
+r22hearVBPpeopleNNS
+
+#Rule:PPinVP
+r30dyingVBGfromINattacksNNS
+
+#Rule:V-ADV
+r46dyingVBGsuddenlyRB
+
+#and yet they think they have indigestion?? 
+#(S1 (S (CC and) (RB yet) (NP (PRP they)) (VP (VBP think) (SBAR (S (NP (PRP they)) (VP (AUX have) (NP (NN indigestion)))) (. ?))) (. ?)))
+#Rule:Nouns
+r1indigestionNN
+
+#Rule:Verbs
+r2thinkVBP
+
+#Rule:HeadNoun-V
+r11theyPRPthinkVBP
+r11theyPRPhaveAUX
+
+#Rule:V-HeadNoun
+r21haveAUXindigestionNN
+
+#how long can it last and what exactly happens?? 
+#(S1 (SBARQ (SBARQ (WHADVP (WRB how) (RB long)) (SQ (MD can) (NP (PRP it)) (VP (VB last)))) (CC and) (WHNP (WP what) (RB exactly)) (SQ (VP (VBZ happens)) (. ?)) (. ?)))
+#Rule:Verbs
+r2lastVB
+r2happensVBZ
+
+#does the person feel much pain?
+#(S1 (SQ (AUX does) (NP (DT the) (NN person)) (VP (VB feel) (NP (JJ much) (NN pain))) (. ?)))
+#Rule:Nouns
+r1personNN
+r1painNN
+
+#Rule:Verbs
+r2feelVB
+
+#Rule:Adjs
+r4muchJJ
+
+#Rule:Adj-Noun
+r5muchJJpainNN
+
+#Rule:V-HeadNoun
+r21feelVBpainNN
+
+@lemmas-left	indigestion	feel	they	think	person	heart	last	have	havin	pain	people	much	i	many	hear	anyone	die	tell	attack	happen	dying	attacks	happens	
+@lemmas-right	indigestion	feel	suddenly	think	havin	have	pain	people	hear	die	me	attack	attacks	dying	
+@lemmas-center	if	from	

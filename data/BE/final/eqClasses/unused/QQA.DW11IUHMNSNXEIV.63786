@@ -1,0 +1,960 @@
+BE: treatmentNN
+EQ class: interventionnn	
+
+BE: thoroughJJ
+EQ class: thoroughnessnn	
+
+BE: thoroughJJtreatmentNN
+EQ class: thoroughnessnninterventionnn	do_byvbthoroughlyrb	thoroughjjinterventionnn	thoroughnessnntreatmentnn	treatvbthoroughlyrb	handlevbthoroughlyrb	
+
+BE: youPRPneedAUX
+EQ class: youprpaskaux	youprppostulateaux	youprprequireaux	youprptakeaux	youprpnecessitateaux	demandnnofinyouprp	neednnofinyouprp	youprpdemandaux	youprpcall_foraux	youprpinvolveaux	
+
+BE: needAUXtreatmentNN
+EQ class: call_forauxtreatmentnn	requireauxtreatmentnn	takeauxtreatmentnn	call_forauxinterventionnn	needauxinterventionnn	postulateauxtreatmentnn	neednnofintreatmentnn	necessitateauxinterventionnn	neednnofininterventionnn	involveauxinterventionnn	askauxtreatmentnn	necessitateauxtreatmentnn	demandauxinterventionnn	postulateauxinterventionnn	demandnnofintreatmentnn	takeauxinterventionnn	demandnnofininterventionnn	requireauxinterventionnn	askauxinterventionnn	demandauxtreatmentnn	involveauxtreatmentnn	
+
+BE: steps:1NNS
+EQ class: theynns	themnns	
+
+BE: suggestVBP
+EQ class: advisevbp	proposevbp	
+
+BE: startVBP
+EQ class: start_outvbp	set_outvbp	beginvbp	getvbp	set_aboutvbp	commencevbp	get_downvbp	
+
+BE: iPRPsuggestVBP
+EQ class: iprpproposevbp	iprpadvisevbp	proposernnofiniprp	suggestionnniprp	suggestionnnofiniprp	suggestiblennofiniprp	proposernniprp	suggesternniprp	suggesternnofiniprp	
+
+BE: youPRPstartVBP
+EQ class: starternnofinyouprp	starting_motornnofinyouprp	youprpset_outvbp	startnnofinyouprp	youprpset_aboutvbp	starternnyouprp	youprpbeginvbp	starter_motornnofinyouprp	youprpcommencevbp	youprpstart_outvbp	starting_motornnyouprp	starter_motornnyouprp	youprpget_downvbp	youprpgetvbp	
+
+BE: startVBPwithINsteps:1NNS
+EQ class: set_aboutvbpwithinthemnns	getvbpwithinsteps:1nns	set_outvbpwithinthemnns	set_aboutvbpwithintheynns	startvbpwithinthemnns	get_downvbpwithinsteps:1nns	beginvbpwithintheynns	start_outvbpwithinthemnns	set_outvbpwithinsteps:1nns	start_outvbpwithintheynns	beginvbpwithinthemnns	get_downvbpwithinthemnns	beginvbpwithinsteps:1nns	commencevbpwithinsteps:1nns	get_downvbpwithintheynns	set_outvbpwithintheynns	commencevbpwithinthemnns	getvbpwithintheynns	set_aboutvbpwithinsteps:1nns	commencevbpwithintheynns	start_outvbpwithinsteps:1nns	startvbpwithintheynns	getvbpwithinthemnns	
+
+BE: productsNNS
+EQ class: warenns	theynns	merchandisenns	productnns	themnns	
+
+BE: lotionsNNS
+EQ class: lotionnns	theynns	themnns	
+
+BE: washNN
+EQ class: 
+
+BE: cosmeticsNNS
+EQ class: theynns	themnns	cosmeticnns	
+
+BE: avoidVB
+EQ class: 
+
+BE: oil-basedJJ
+EQ class: basedjj	
+
+BE: suchJJ
+EQ class: 
+
+BE: facialJJ
+EQ class: facialnn	facenn	
+
+BE: oil-basedJJproductsNNS
+EQ class: oil-basedjjwarenns	basedjjthemnns	oil-basedjjproductnns	basedjjwarenns	basedjjtheynns	basedjjproductsnns	oil-basedjjthemnns	oil-basedjjtheynns	oil-basedjjmerchandisenns	basedjjmerchandisenns	basedjjproductnns	
+
+BE: facialJJlotionsNNS
+EQ class: facialnnlotionsnns	facialnnlotionnns	facennthemnns	facenntheynns	facennlotionsnns	facialjjthemnns	facennlotionnns	facialnnthemnns	facialnntheynns	facialjjlotionnns	facialjjtheynns	
+
+BE: lotionsNNSwashNN
+EQ class: washnntheynns	washernnofinthemnns	themnnswashvb	lotionsnnsrinsevb	lotionnnswashnn	washnnlotionnns	washnnofinlotionnns	washablennofinthemnns	washnnlotionsnns	washablennofintheynns	washernnofintheynns	theynnswashvb	themnnsrinsevb	washablennofinlotionsnns	washablennofinlotionnns	lotionsnnswashvb	lotionnnswashvb	washnnthemnns	washnnofinlotionsnns	washernnofinlotionnns	lotionnnsrinsevb	themnnswashnn	theynnswashnn	washnnofintheynns	theynnsrinsevb	washernnofinlotionsnns	washnnofinthemnns	
+
+BE: avoidVBproductsNNS
+EQ class: turning_awaynnofinwarenns	dodgingnnofinwarenns	avoidvbmerchandisenns	shunningnnofintheynns	avoidancennofinproductsnns	shunningnnofinwarenns	avoidancennofintheynns	turning_awaynnofinproductnns	dodgingnnofinproductnns	dodgingnnofinproductsnns	shunningnnofinthemnns	avoidvbthemnns	shunningnnofinproductnns	dodgingnnofinmerchandisenns	avoidvbproductnns	turning_awaynnofintheynns	avoidancennofinthemnns	dodgingnnofintheynns	turning_awaynnofinproductsnns	avoidancennofinmerchandisenns	shunningnnofinproductsnns	turning_awaynnofinthemnns	shunningnnofinmerchandisenns	turning_awaynnofinmerchandisenns	avoidancennofinproductnns	avoidancennofinwarenns	avoidvbtheynns	avoidvbwarenns	dodgingnnofinthemnns	
+
+BE: productsNNSasINlotionsNNS
+EQ class: lotionsnnsproductsnns	theynnsproductsnns	lotionnnsproductnns	productsnnsasintheynns	themnnswarenns	lotionnnsbring_forthvb	bring_forthvbthemnns	producevbtheynns	themnnsmerchandisenns	themnnsasintheynns	theynnsproducevb	lotionnnswarenns	lotionsnnstheynns	themnnsproducevb	producevbthemnns	bring_forthvbtheynns	warennsasintheynns	lotionsnnswarenns	merchandisennsasinlotionsnns	productnnsasintheynns	producevblotionnns	productsnnsasinthemnns	theynnsbring_forthvb	productsnnsasinlotionnns	lotionnnsproducevb	theynnsasinlotionsnns	theynnstheynns	productnnsasinlotionnns	lotionnnsmerchandisenns	lotionnnstheynns	theynnsasinthemnns	merchandisennsasinlotionnns	productnnsasinlotionsnns	merchandisennsasintheynns	lotionsnnsthemnns	producevblotionsnns	themnnsasinthemnns	themnnsasinlotionnns	theynnswarenns	theynnsasinlotionnns	themnnstheynns	themnnsproductnns	themnnsthemnns	lotionsnnsproducevb	theynnsmerchandisenns	bring_forthvblotionsnns	lotionsnnsbring_forthvb	warennsasinlotionsnns	warennsasinlotionnns	theynnsasintheynns	lotionnnsproductsnns	theynnsproductnns	merchandisennsasinthemnns	productnnsasinthemnns	theynnsthemnns	themnnsasinlotionsnns	lotionsnnsmerchandisenns	bring_forthvblotionnns	lotionnnsthemnns	themnnsproductsnns	themnnsbring_forthvb	warennsasinthemnns	lotionsnnsproductnns	
+
+BE: productsNNSasINwashNN
+EQ class: washnnwarenns	washnntheynns	theynnsasinwashnn	washnnthemnns	washnnproducevb	productnnsasinwashnn	bring_forthvbwashnn	washnnmerchandisenns	washnnproductnns	merchandisennsasinwashnn	themnnsasinwashnn	warennsasinwashnn	washnnproductsnns	producevbwashnn	washnnbring_forthvb	
+
+BE: productsNNSasINcosmeticsNNS
+EQ class: theynnsproductsnns	producevbcosmeticsnns	themnnsasincosmeticnns	productsnnsasintheynns	cosmeticnnswarenns	cosmeticnnsproducevb	themnnswarenns	cosmeticsnnswarenns	bring_forthvbthemnns	cosmeticsnnsthemnns	producevbtheynns	themnnsmerchandisenns	themnnsasintheynns	productnnsasincosmeticnns	theynnsproducevb	themnnsproducevb	producevbthemnns	cosmeticsnnsproducevb	bring_forthvbtheynns	producevbcosmeticnns	warennsasintheynns	merchandisennsasincosmeticnns	productnnsasintheynns	cosmeticnnsthemnns	productsnnsasinthemnns	theynnsbring_forthvb	theynnstheynns	cosmeticnnsproductnns	cosmeticnnsproductsnns	productsnnsasincosmeticnns	cosmeticnnstheynns	themnnsasincosmeticsnns	theynnsasinthemnns	theynnsasincosmeticnns	cosmeticnnsmerchandisenns	merchandisennsasintheynns	cosmeticsnnsproductnns	themnnsasinthemnns	theynnswarenns	themnnstheynns	themnnsproductnns	cosmeticsnnstheynns	themnnsthemnns	theynnsmerchandisenns	bring_forthvbcosmeticnns	cosmeticsnnsbring_forthvb	warennsasincosmeticnns	theynnsasintheynns	cosmeticsnnsproductsnns	theynnsproductnns	merchandisennsasinthemnns	cosmeticsnnsmerchandisenns	productnnsasinthemnns	cosmeticnnsbring_forthvb	theynnsthemnns	productnnsasincosmeticsnns	warennsasincosmeticsnns	themnnsproductsnns	merchandisennsasincosmeticsnns	bring_forthvbcosmeticsnns	themnnsbring_forthvb	warennsasinthemnns	theynnsasincosmeticsnns	
+
+BE: productsNNS
+EQ class: warenns	theynns	merchandisenns	productnns	themnns	
+
+BE: pores.2.DoNN
+EQ class: pores2donn	donn	bashnn	brawlnn	
+
+BE: headbandNN
+EQ class: 
+
+BE: baseballNN
+EQ class: baseball_gamenn	
+
+BE: hatNN
+EQ class: chapeaunn	lidnn	
+
+BE: and/orNN
+EQ class: beaver_statenn	ornn	oregonnn	
+
+BE: helmetNN
+EQ class: 
+
+BE: sportsNNS
+EQ class: athleticsnns	sportnns	theynns	themnns	
+
+BE: thingsNNS
+EQ class: theynns	themnns	
+
+BE: timeNN
+EQ class: clipnn	
+
+BE: them.3.KeepNN
+EQ class: sustenancenn	livingnn	bread_and_butternn	keepnn	livelihoodnn	them3keepnn	supportnn	
+
+BE: skinNN
+EQ class: tegumentnn	skinnyjj	cutisnn	
+
+BE: cellsNNS
+EQ class: cellnns	cellularjj	theynns	themnns	
+
+BE: lookVB
+EQ class: 
+
+BE: meansVBZ
+EQ class: meanvbz	intendvbz	
+
+BE: clogVB
+EQ class: foulvb	choke_offvb	congestvb	back_upvb	clog_upvb	chokevb	
+
+BE: wearVB
+EQ class: have_onvb	
+
+BE: exerciseVBP
+EQ class: exertvbp	
+
+BE: playVBP
+EQ class: 
+
+BE: makeVB
+EQ class: dovb	
+
+BE: washVBP
+EQ class: rinsevbp	
+
+BE: wearVBP
+EQ class: have_onvbp	
+
+BE: functionVB
+EQ class: operatevb	govb	runvb	workvb	
+
+BE: non-comedogenicJJ
+EQ class: 
+
+BE: tightJJ
+EQ class: tightnessnn	
+
+BE: sureJJ
+EQ class: surenessnn	certainjj	
+
+BE: sweat-soakedJJ
+EQ class: sloppedjj	sloshedjj	soakedjj	besottedjj	blind_drunkjj	tightjj	pie-eyedjj	sousedjj	stiffjj	pixilatedjj	squiffyjj	sozzledjj	smashedjj	loadedjj	wetjj	plasteredjj	blottojj	fuddledjj	pissedjj	crockedjj	cockeyedjj	
+
+BE: hydratedJJ
+EQ class: hydrousjj	
+
+BE: moistJJ
+EQ class: dampishjj	dampjj	moistnessnn	
+
+BE: tightJJheadbandNN
+EQ class: tightnessnnheadbandnn	
+
+BE: sweat-soakedJJthingsNNS
+EQ class: pixilatedjjthemnns	blottojjthemnns	loadedjjthemnns	besottedjjthingsnns	sousedjjthemnns	tightjjtheynns	fuddledjjtheynns	wetjjthingsnns	sweat-soakedjjtheynns	plasteredjjtheynns	blind_drunkjjthemnns	squiffyjjthingsnns	smashedjjthingsnns	sloppedjjtheynns	soakedjjthingsnns	cockeyedjjtheynns	sozzledjjthingsnns	plasteredjjthingsnns	blind_drunkjjthingsnns	pixilatedjjtheynns	sousedjjtheynns	stiffjjtheynns	pie-eyedjjtheynns	tightjjthemnns	smashedjjthemnns	plasteredjjthemnns	sloshedjjthemnns	sweat-soakedjjthemnns	pie-eyedjjthingsnns	pixilatedjjthingsnns	crockedjjthemnns	squiffyjjtheynns	soakedjjthemnns	sloshedjjtheynns	blottojjtheynns	sloppedjjthemnns	pie-eyedjjthemnns	soakedjjtheynns	pissedjjtheynns	pissedjjthingsnns	stiffjjthemnns	wetjjthemnns	loadedjjthingsnns	loadedjjtheynns	squiffyjjthemnns	blottojjthingsnns	sloppedjjthingsnns	crockedjjtheynns	sozzledjjthemnns	cockeyedjjthemnns	fuddledjjthingsnns	besottedjjthemnns	besottedjjtheynns	sozzledjjtheynns	tightjjthingsnns	crockedjjthingsnns	wetjjtheynns	fuddledjjthemnns	pissedjjthemnns	sousedjjthingsnns	sloshedjjthingsnns	cockeyedjjthingsnns	smashedjjtheynns	stiffjjthingsnns	blind_drunkjjtheynns	
+
+BE: yourPRP$pores.2.DoNN
+EQ class: pores.2.donnofinyourprp$	yourprp$donn	brawlnnofinyourprp$	pores2donnofinyourprp$	yourprp$brawlnn	yourprp$bashnn	bashnnofinyourprp$	yourprp$pores2donn	donnofinyourprp$	
+
+BE: yourPRP$cellsNNS
+EQ class: yourprp$themnns	themnnsofinyourprp$	theynnsofinyourprp$	yourprp$cellularvb	cellsnnsofinyourprp$	cellnnsofinyourprp$	yourprp$cellnns	yourprp$theynns	yourprp$cellularjj	cellularjjofinyourprp$	cellularvbyourprp$	
+
+BE: baseballNNhatNN
+EQ class: hatnnofinbaseball_gamenn	lidnnofinbaseballnn	hattervbbaseballnn	lidnnofinbaseball_gamenn	baseballnnhattervb	chapeaunnofinbaseballnn	chapeaunnofinbaseball_gamenn	hatvbbaseballnn	baseballnnlidnn	baseballnnchapeaunn	baseball_gamennhatnn	baseball_gamennhatvb	baseballnnhatvb	hatvbbaseball_gamenn	hatnnofinbaseballnn	baseball_gamennchapeaunn	hattervbbaseball_gamenn	baseball_gamennlidnn	baseball_gamennhattervb	
+
+BE: and/orNNhelmetNN
+EQ class: ornnhelmetnn	beaver_statennhelmetnn	helmetnnofinand/ornn	helmetnnofinoregonnn	helmetnnofinbeaver_statenn	helmetnnofinornn	oregonnnhelmetnn	
+
+BE: headbandNNhatNN
+EQ class: chapeaunnheadbandnn	lidnnofinheadbandnn	headbandnnlidnn	headbandnnchapeaunn	chapeaunnofinheadbandnn	hatnnofinheadbandnn	lidnnheadbandnn	hatnnheadbandnn	headbandnnhatvb	
+
+BE: itPRPmeansVBZ
+EQ class: itprpintendvbz	significationnnofinitprp	meaningnnitprp	significancennitprp	itprpmeanvbz	meaningnnofinitprp	significationnnitprp	importnnofinitprp	significancennofinitprp	importnnitprp	
+
+BE: itPRPclogVB
+EQ class: itprpchoke_offvb	itprpcongestvb	clognnofinitprp	getannofinitprp	pattennnofinitprp	sabotnnofinitprp	itprpback_upvb	itprpclog_upvb	itprpfoulvb	itprpchokevb	
+
+BE: pores.2.DoNNwearVB
+EQ class: wearablennofinbashnn	clothingnnofinpores.2.donn	habilimentnnofinbashnn	wearablennofindonn	brawlnnwearvb	wearernnofinpores.2.donn	wearernnofinbashnn	pores2donnwearvb	article_of_clothingnnofindonn	vesturennofinbrawlnn	bashnnhave_onvb	wearnnofinpores2donn	pores.2.donnhave_onvb	wearablennofinpores2donn	wearernnbrawlnn	donnwearvb	habilimentnnofinpores2donn	article_of_clothingnnofinbashnn	vesturennofinpores.2.donn	vesturennofinpores2donn	clothingnnofinbashnn	wearernnofindonn	wearernnofinbrawlnn	wearnnofinbashnn	habilimentnnofindonn	article_of_clothingnnofinbrawlnn	article_of_clothingnnofinpores2donn	donnhave_onvb	vesturennofinbashnn	wearernndonn	habilimentnnofinbrawlnn	wearablennofinbrawlnn	wearernnofinpores2donn	wearernnpores2donn	wearablennofinpores.2.donn	brawlnnhave_onvb	wearnnofinbrawlnn	clothingnnofinpores2donn	wearnnofindonn	wearernnbashnn	vesturennofindonn	pores2donnhave_onvb	wearnnofinpores.2.donn	clothingnnofindonn	bashnnwearvb	article_of_clothingnnofinpores.2.donn	clothingnnofinbrawlnn	habilimentnnofinpores.2.donn	wearernnpores.2.donn	
+
+BE: youPRPexerciseVBP
+EQ class: youprpexertvbp	workoutnnofinyouprp	exercisingnnofinyouprp	physical_exertionnnofinyouprp	exercisennofinyouprp	physical_exercisennofinyouprp	
+
+BE: youPRPmakeVB
+EQ class: youprpdovb	
+
+BE: youPRPwashVBP
+EQ class: washernnofinyouprp	washernnyouprp	washnnofinyouprp	washablennofinyouprp	youprprinsevbp	
+
+BE: youPRPwearVBP
+EQ class: wearernnyouprp	clothingnnofinyouprp	youprphave_onvbp	article_of_clothingnnofinyouprp	wearablennofinyouprp	vesturennofinyouprp	wearernnofinyouprp	wearnnofinyouprp	habilimentnnofinyouprp	
+
+BE: cellsNNSfunctionVB
+EQ class: operationnnofintheynns	performancennofinthemnns	performancenncellsnns	cellularjjworkvb	performancennofintheynns	operationnncellularjj	operationnnofinthemnns	cellsnnsrunvb	themnnsrunvb	performancenntheynns	performancennthemnns	performancennofincellnns	functioningnnofincellsnns	functioningnncellularjj	functioningnnofintheynns	cellsnnsgovb	performancenncellnns	cellularjjgovb	operationnntheynns	operationnnofincellsnns	themnnsoperatevb	cellnnsfunctionvb	functioningnnofincellnns	operationnnofincellnns	cellnnsoperatevb	functioningnntheynns	theynnsgovb	theynnsoperatevb	functioningnncellsnns	cellsnnsoperatevb	performancennofincellsnns	cellnnsgovb	operationnncellnns	cellnnsworkvb	operationnnthemnns	performancennofincellularjj	theynnsfunctionvb	themnnsgovb	theynnsrunvb	cellsnnsworkvb	themnnsworkvb	functioningnnofinthemnns	cellularjjoperatevb	cellularjjrunvb	functioningnnofincellularjj	cellularjjfunctionvb	theynnsworkvb	performancenncellularjj	functioningnnthemnns	functioningnncellnns	cellnnsrunvb	themnnsfunctionvb	operationnnofincellularjj	operationnncellsnns	
+
+BE: productsNNSareAUX
+EQ class: themnnsbeaux	warennsbeaux	theynnsareaux	warennsareaux	merchandisennsbeaux	themnnsareaux	productsnnsbeaux	merchandisennsareaux	theynnsbeaux	productnnsareaux	productnnsbeaux	
+
+BE: wearVBheadbandNN
+EQ class: clothingnnofinheadbandnn	vesturennofinheadbandnn	article_of_clothingnnofinheadbandnn	wearernnofinheadbandnn	wearnnofinheadbandnn	wearablennofinheadbandnn	have_onvbheadbandnn	habilimentnnofinheadbandnn	
+
+BE: exerciseVBPsportsNNS
+EQ class: exertvbpathleticsnns	exercisevbpthemnns	exercisingnnofinsportsnns	workoutnnofintheynns	physical_exercisennofinathleticsnns	exercisennofinathleticsnns	physical_exertionnnofinthemnns	exercisingnnofintheynns	physical_exercisennofintheynns	physical_exertionnnofinathleticsnns	workoutnnofinsportsnns	workoutnnofinathleticsnns	exercisingnnofinathleticsnns	exertvbptheynns	physical_exertionnnofinsportnns	exercisevbpathleticsnns	exercisingnnofinthemnns	physical_exercisennofinthemnns	exercisennofinsportsnns	exercisennofintheynns	exercisevbpsportnns	physical_exercisennofinsportsnns	exertvbpsportnns	workoutnnofinthemnns	exercisennofinthemnns	physical_exertionnnofinsportsnns	exercisevbptheynns	workoutnnofinsportnns	physical_exercisennofinsportnns	exertvbpthemnns	physical_exertionnnofintheynns	exertvbpsportsnns	exercisingnnofinsportnns	exercisennofinsportnns	
+
+BE: washVBPthingsNNS
+EQ class: washernnofinthemnns	washernnofinthingsnns	rinsevbpthingsnns	rinsevbptheynns	washvbptheynns	washnnofinthingsnns	washablennofinthingsnns	washvbpthemnns	rinsevbpthemnns	washnnofintheynns	washablennofinthemnns	washablennofintheynns	washnnofinthemnns	washernnofintheynns	
+
+BE: washVBPtimeNN
+EQ class: washernnofintimenn	rinsevbpclipnn	washnnofintimenn	washvbpclipnn	washnnofinclipnn	washablennofintimenn	rinsevbptimenn	washernnofinclipnn	washablennofinclipnn	
+
+BE: wearVBPthem.3.KeepNN
+EQ class: vesturennofinsustenancenn	wearernnofinbread_and_butternn	article_of_clothingnnofinsustenancenn	wearernnofinlivelihoodnn	article_of_clothingnnofinkeepnn	habilimentnnofinthem.3.keepnn	wearnnofinsustenancenn	article_of_clothingnnofinlivelihoodnn	wearvbplivingnn	habilimentnnofinbread_and_butternn	wearablennofinlivingnn	wearnnofinlivelihoodnn	vesturennofinkeepnn	wearernnofinsustenancenn	habilimentnnofinkeepnn	habilimentnnofinlivelihoodnn	clothingnnofinthem3keepnn	have_onvbpthem.3.keepnn	clothingnnofinsupportnn	wearernnofinthem.3.keepnn	habilimentnnofinthem3keepnn	habilimentnnofinsupportnn	wearnnofinkeepnn	have_onvbpbread_and_butternn	wearablennofinsupportnn	wearablennofinsustenancenn	have_onvbpsustenancenn	have_onvbpsupportnn	wearablennofinbread_and_butternn	wearnnofinlivingnn	article_of_clothingnnofinsupportnn	article_of_clothingnnofinthem.3.keepnn	wearnnofinthem3keepnn	wearablennofinthem.3.keepnn	vesturennofinbread_and_butternn	wearernnofinlivingnn	wearablennofinlivelihoodnn	habilimentnnofinsustenancenn	clothingnnofinbread_and_butternn	wearvbpkeepnn	have_onvbpthem3keepnn	habilimentnnofinlivingnn	clothingnnofinkeepnn	wearernnofinkeepnn	vesturennofinlivelihoodnn	have_onvbpkeepnn	wearvbpthem3keepnn	vesturennofinlivingnn	article_of_clothingnnofinbread_and_butternn	vesturennofinsupportnn	wearablennofinkeepnn	wearernnofinsupportnn	clothingnnofinlivelihoodnn	wearvbpsustenancenn	have_onvbplivingnn	wearvbpbread_and_butternn	wearvbplivelihoodnn	wearnnofinsupportnn	clothingnnofinsustenancenn	article_of_clothingnnofinlivingnn	wearernnofinthem3keepnn	article_of_clothingnnofinthem3keepnn	vesturennofinthem.3.keepnn	have_onvbplivelihoodnn	clothingnnofinlivingnn	wearablennofinthem3keepnn	wearnnofinthem.3.keepnn	wearnnofinbread_and_butternn	vesturennofinthem3keepnn	wearvbpsupportnn	clothingnnofinthem.3.keepnn	
+
+BE: clogVBpores.2.DoNN
+EQ class: clogvbbrawlnn	clognnofinpores.2.donn	clog_upvbdonn	back_upvbbashnn	pattennnofinpores2donn	sabotnnofindonn	pattennnofindonn	pattennnofinbrawlnn	clogvbpores2donn	foulvbbrawlnn	sabotnnofinbashnn	getannofinbrawlnn	getannofindonn	foulvbpores2donn	clog_upvbbashnn	chokevbbrawlnn	chokevbpores2donn	clog_upvbbrawlnn	clogvbbashnn	chokevbdonn	choke_offvbbrawlnn	congestvbdonn	clognnofindonn	foulvbbashnn	foulvbpores.2.donn	choke_offvbdonn	choke_offvbpores2donn	sabotnnofinpores.2.donn	sabotnnofinpores2donn	back_upvbbrawlnn	choke_offvbpores.2.donn	back_upvbpores.2.donn	sabotnnofinbrawlnn	foulvbdonn	pattennnofinbashnn	back_upvbdonn	congestvbbrawlnn	pattennnofinpores.2.donn	back_upvbpores2donn	getannofinbashnn	congestvbpores.2.donn	chokevbbashnn	clogvbdonn	getannofinpores.2.donn	clognnofinbrawlnn	getannofinpores2donn	clognnofinbashnn	choke_offvbbashnn	congestvbbashnn	clognnofinpores2donn	chokevbpores.2.donn	clog_upvbpores2donn	clog_upvbpores.2.donn	congestvbpores2donn	
+
+BE: wearVBPskinNN
+EQ class: vesturennofinskinnyjj	have_onvbpcutisnn	wearablennofintegumentnn	wearernnofintegumentnn	wearnnofintegumentnn	article_of_clothingnnofinskinnyjj	wearnnofinskinnn	have_onvbpskinnyjj	wearvbpcutisnn	vesturennofinskinnn	wearnnofincutisnn	wearernnofinskinnn	habilimentnnofinskinnn	vesturennofincutisnn	clothingnnofintegumentnn	habilimentnnofinskinnyjj	wearablennofinskinnn	article_of_clothingnnofincutisnn	wearablennofinskinnyjj	article_of_clothingnnofinskinnn	wearablennofincutisnn	clothingnnofinskinnyjj	clothingnnofincutisnn	vesturennofintegumentnn	wearernnofinskinnyjj	have_onvbptegumentnn	wearernnofincutisnn	wearvbpskinnyjj	wearvbptegumentnn	have_onvbpskinnn	clothingnnofinskinnn	article_of_clothingnnofintegumentnn	habilimentnnofincutisnn	wearnnofinskinnyjj	habilimentnnofintegumentnn	
+
+BE: areAUXnon-comedogenicJJ
+EQ class: beauxnon-comedogenicjj	
+
+BE: lookVBforINproductsNNS
+EQ class: lookvbforinmerchandisenns	lookvbforinwarenns	lookvbforinthemnns	lookvbforinproductnns	lookvbforintheynns	
+
+BE: wearVBPsoINfunctionVB
+EQ class: wearvbpsoinworkvb	have_onvbpsoinoperatevb	have_onvbpsoingovb	have_onvbpsoinfunctionvb	wearvbpsoinoperatevb	have_onvbpsoinrunvb	have_onvbpsoinworkvb	wearvbpsoingovb	wearvbpsoinrunvb	
+
+BE: functionVBproperlyRB
+EQ class: properjjininoperatevb	propernessnnininoperationnn	properjjininfunctionvb	operationnnofinproperlyrb	propernessnnfunctioningnn	propernessnnperformancenn	workvbproperlyrb	govbproperlyrb	propernessnnininfunctionvb	runvbproperlyrb	properjjoperationnn	propernessnnoperationnn	properjjininoperationnn	properjjininworkvb	propernessnnininrunvb	properjjininrunvb	propernessnnininoperatevb	properjjperformancenn	propernessnnininperformancenn	properjjfunctioningnn	operatevbproperlyrb	propernessnniningovb	performancennofinproperlyrb	properjjininperformancenn	propernessnnininworkvb	functioningnnofinproperlyrb	properjjiningovb	propernessnnininfunctioningnn	properjjininfunctioningnn	
+
+BE: itPRPlookVB
+EQ class: witnessnnitprp	expressionnnofinitprp	watchernnitprp	aspectnnofinitprp	facennofinitprp	looknnofinitprp	lookernnitprp	spectatornnitprp	lookernnofinitprp	viewernnofinitprp	facial_expressionnnofinitprp	witnessnnofinitprp	watchernnofinitprp	spectatornnofinitprp	viewernnitprp	
+
+BE: faceNN
+EQ class: facialjj	human_facenn	
+
+BE: moisturizersNNS
+EQ class: theynns	themnns	
+
+BE: moisturizeVB
+EQ class: humidifyvb	moisturisevb	
+
+BE: keepVB
+EQ class: maintainvb	holdvb	
+
+BE: mildJJ
+EQ class: mildnessnn	
+
+BE: non-comedogenicJJ
+EQ class: 
+
+BE: hydratedJJ
+EQ class: hydrousjj	
+
+BE: mildJJmoisturizersNNS
+EQ class: mildnessnnmoisturizersnns	mildnessnnthemnns	mildjjthemnns	mildjjtheynns	mildnessnntheynns	
+
+BE: non-comedogenicJJmoisturizersNNS
+EQ class: non-comedogenicjjthemnns	non-comedogenicjjtheynns	
+
+BE: yourPRP$faceNN
+EQ class: human_facennofinyourprp$	yourprp$facialvb	yourprp$human_facenn	facennofinyourprp$	yourprp$facialjj	facialjjofinyourprp$	facialvbyourprp$	
+
+BE: moisturizersNNSkeepVB
+EQ class: theynnsholdvb	theynnskeepvb	moisturizersnnsholdvb	themnnsmaintainvb	moisturizersnnsmaintainvb	theynnsmaintainvb	themnnsholdvb	themnnskeepvb	
+
+BE: moisturizeVBfaceNN
+EQ class: moisturizevbfacialjj	moisturisevbfacenn	moisturennofinfacenn	moisturennofinhuman_facenn	wetnnofinfacenn	moisturizevbhuman_facenn	moisturisevbhuman_facenn	humidifyvbhuman_facenn	humidifyvbfacialjj	moisturisevbfacialjj	humidifyvbfacenn	moisturennofinfacialjj	wetnnofinhuman_facenn	wetnnofinfacialjj	
+
+BE: keepVBitPRP
+EQ class: holdvbitprp	maintainvbitprp	
+
+BE: moisturizeVBwithINmoisturizersNNS
+EQ class: moisturisevbwithinmoisturizersnns	moisturizevbwithinthemnns	humidifyvbwithinmoisturizersnns	moisturisevbwithintheynns	moisturizevbwithintheynns	humidifyvbwithinthemnns	humidifyvbwithintheynns	moisturisevbwithinthemnns	
+
+BE: MoisturizingNN
+EQ class: 
+
+BE: necessityNN
+EQ class: necessaryjj	
+
+BE: MoisturizingNNisAUX
+EQ class: moisturizingnnbeaux	
+
+BE: isAUXnecessityNN
+EQ class: beauxnecessaryjj	beauxnecessitynn	isauxnecessaryjj	
+
+BE: necessityNNMoisturizingNN
+EQ class: moisturizingnnnecessitatevb	moisturizingnncall_forvb	necessaryjjofinmoisturizingnn	necessaryjjmoisturizingnn	moisturizingnnaskvb	moisturizingnntakevb	moisturizingnnnecessaryjj	moisturizingnnrequirevb	moisturizingnnnecessitynn	moisturizingnndemandvb	necessitynnofinmoisturizingnn	moisturizingnnpostulatevb	moisturizingnnneedvb	moisturizingnninvolvevb	
+
+BE: productNN
+EQ class: merchandisenn	warenn	
+
+BE: amountNN
+EQ class: sum_of_moneynn	sumnn	amount_of_moneynn	
+
+BE: chemicalNN
+EQ class: chemical_substancenn	chemicaljj	
+
+BE: additivesNNS
+EQ class: theynns	additivenns	additivejj	themnns	
+
+BE: leastJJS
+EQ class: 
+
+BE: bestJJS
+EQ class: bestnn	
+
+BE: leastJJSamountNN
+EQ class: leastjjsamount_of_moneynn	leastjjssum_of_moneynn	leastjjssumnn	
+
+BE: chemicalNNadditivesNNS
+EQ class: themnnsofinchemical_substancenn	chemicaljjadditivejj	theynnsofinchemicalnn	additivevbchemicalnn	chemicaljjadditivesnns	additivennsofinchemicaljj	themnnsofinchemicaljj	additivejjofinchemicalnn	chemicaljjadditivenns	additivennsofinchemical_substancenn	theynnsofinchemical_substancenn	additivesnnsofinchemicalnn	chemicaljjadditivevb	theynnsofinchemicaljj	additivejjofinchemical_substancenn	chemicalnnadditivejj	additivevbchemicaljj	additivennsofinchemicalnn	chemical_substancennadditivevb	chemicalnnadditivenns	chemicalnnthemnns	themnnsofinchemicalnn	chemical_substancennadditivenns	chemicalnntheynns	chemical_substancennadditivesnns	additivevbchemical_substancenn	additivesnnsofinchemicaljj	additivejjofinchemicaljj	chemicaljjtheynns	chemical_substancennadditivejj	chemical_substancenntheynns	chemicaljjthemnns	chemicalnnadditivevb	chemical_substancennthemnns	additivesnnsofinchemical_substancenn	
+
+BE: productNNisAUX
+EQ class: merchandisennbeaux	productnnbeaux	warennisaux	merchandisennisaux	warennbeaux	
+
+BE: isAUXbestJJS
+EQ class: beauxbestnn	isauxbestnn	beauxbestjjs	
+
+BE: productNNwithINamountNN
+EQ class: bring_forthvbsumnn	amountnnproducevb	sum_of_moneynnwarenn	amount_of_moneynnproductnn	warennwithinamount_of_moneynn	amountnnbring_forthvb	sumnnproductnn	bring_forthvbamountnn	sumnnwarenn	amount_of_moneynnwarenn	amount_of_moneynnproducevb	sum_of_moneynnproducevb	bring_forthvbsum_of_moneynn	producevbsumnn	warennwithinsumnn	merchandisennwithinsum_of_moneynn	sum_of_moneynnproductnn	producevbamount_of_moneynn	sumnnmerchandisenn	warennwithinsum_of_moneynn	merchandisennwithinamountnn	amount_of_moneynnbring_forthvb	productnnwithinsumnn	amountnnwarenn	sum_of_moneynnmerchandisenn	productnnwithinsum_of_moneynn	bring_forthvbamount_of_moneynn	amountnnmerchandisenn	producevbamountnn	merchandisennwithinsumnn	sum_of_moneynnbring_forthvb	merchandisennwithinamount_of_moneynn	producevbsum_of_moneynn	sumnnproducevb	productnnwithinamount_of_moneynn	warennwithinamountnn	sumnnbring_forthvb	amount_of_moneynnmerchandisenn	amountnnproductnn	
+
+BE: amountNNofINadditivesNNS
+EQ class: themnnsamountnn	amountnnofinthemnns	amount_of_moneynnofintheynns	amount_of_moneynnofinthemnns	themnnssum_of_moneynn	sum_of_moneynnofinthemnns	additivesnnssum_of_moneynn	sum_of_moneynnofinadditivejj	sum_of_moneynnofinadditivesnns	additivennsamount_of_moneynn	amount_of_moneynnofinadditivejj	additivennssumnn	additivesnnsamountnn	amount_of_moneynnofinadditivenns	additivesnnssumnn	additivennssum_of_moneynn	theynnssumnn	additivejjamount_of_moneynn	theynnssum_of_moneynn	sumnnofinthemnns	amountnnofinadditivenns	additivejjsum_of_moneynn	sumnnofintheynns	additivejjsumnn	sumnnofinadditivenns	amount_of_moneynnofinadditivesnns	themnnsamount_of_moneynn	themnnssumnn	theynnsamount_of_moneynn	sumnnofinadditivesnns	amountnnofintheynns	sumnnofinadditivejj	theynnsamountnn	amountnnofinadditivejj	additivejjamountnn	sum_of_moneynnofintheynns	sum_of_moneynnofinadditivenns	additivennsamountnn	additivesnnsamount_of_moneynn	
+
+BE: isAUXAgainRB
+EQ class: beauxagainrb	
+
+BE: moisturizerNN
+EQ class: 
+
+BE: faceNN
+EQ class: facialjj	human_facenn	
+
+BE: cleansing.4.CleanseNN
+EQ class: cleansing4cleansenn	
+
+BE: tonerNN
+EQ class: 
+
+BE: skinNN
+EQ class: tegumentnn	skinnyjj	cutisnn	
+
+BE: conditionerNN
+EQ class: 
+
+BE: cottonNN
+EQ class: cotton_fibernn	cottonyjj	cotton_woolnn	
+
+BE: ballsNNS
+EQ class: ballnns	theynns	themnns	
+
+BE: useVB
+EQ class: employvb	utilizevb	utilisevb	applyvb	
+
+BE: poresVBZ
+EQ class: porevbz	centrevbz	focusvbz	concentratevbz	rivetvbz	centervbz	
+
+BE: lightJJ
+EQ class: lightnessnn	
+
+BE: alcohol-freeJJ
+EQ class: freejj	
+
+BE: lightJJmoisturizerNN
+EQ class: lightnessnnmoisturizernn	
+
+BE: alcohol-freeJJconditionerNN
+EQ class: freejjconditionernn	conditionvbfreelyrb	
+
+BE: yourPRP$faceNN
+EQ class: human_facennofinyourprp$	yourprp$facialvb	yourprp$human_facenn	facennofinyourprp$	yourprp$facialjj	facialjjofinyourprp$	facialvbyourprp$	
+
+BE: skinNNconditionerNN
+EQ class: skinnyjjconditionernn	conditionernnscramblevb	conditionernnshinvb	conditionernnofincutisnn	conditionernnskinvb	conditionernnshinnyvb	conditionvbcutisnn	cutisnnconditionvb	skinnnconditionvb	skinnyjjconditionvb	conditionernnofinskinnyjj	conditionernnsputtervb	conditionernnofinskinnn	conditionernnstrugglevb	conditionvbskinnn	cutisnnconditionernn	conditionvbtegumentnn	conditionernnclambervb	tegumentnnconditionernn	conditionvbskinnyjj	tegumentnnconditionvb	conditionernnofintegumentnn	
+
+BE: cottonNNballsNNS
+EQ class: cottonyjjballnns	ballnnsofincottonyjj	ballnnsofincotton_fibernn	theynnsofincottonyjj	cottonnnthemnns	cottonnnballnns	ballnnsofincotton_woolnn	cotton_fibernnthemnns	theynnsofincotton_fibernn	cottonyjjthemnns	cottonyjjballsnns	themnnsofincottonnn	cotton_fibernnballsnns	themnnsofincottonyjj	cotton_fibernntheynns	ballnnsofincottonnn	themnnsofincotton_fibernn	cottonnntheynns	ballsnnsofincottonnn	ballsnnsofincotton_woolnn	cottonyjjtheynns	theynnsofincotton_woolnn	themnnsofincotton_woolnn	cotton_woolnnthemnns	cotton_woolnnballnns	ballsnnsofincottonyjj	cotton_woolnntheynns	theynnsofincottonnn	ballsnnsofincotton_fibernn	cotton_woolnnballsnns	cotton_fibernnballnns	
+
+BE: yourPRP$poresVBZ
+EQ class: yourprp$focusvbz	yourprp$centervbz	yourprp$rivetvbz	yourprp$centrevbz	yourprp$porevbz	yourprp$concentratevbz	
+
+BE: useVBmoisturizerNN
+EQ class: usagennofinmoisturizernn	usablennofinmoisturizernn	usennofinmoisturizernn	utilisationnnofinmoisturizernn	utilisevbmoisturizernn	useablennofinmoisturizernn	utilizationnnofinmoisturizernn	exercisennofinmoisturizernn	employvbmoisturizernn	employmentnnofinmoisturizernn	usernnofinmoisturizernn	applyvbmoisturizernn	utilizevbmoisturizernn	
+
+BE: moisturizerNNonINfaceNN
+EQ class: moisturizernnoninfacialjj	moisturizernnoninhuman_facenn	
+
+BE: conditionerNNonINballsNNS
+EQ class: conditionvbtheynns	themnnsconditionvb	conditionvbballsnns	conditionernnonintheynns	themnnsconditionernn	ballnnsconditionvb	ballnnsconditionernn	conditionvbthemnns	conditionernnoninballnns	ballsnnsconditionvb	ballsnnsconditionernn	conditionernnoninthemnns	theynnsconditionernn	conditionvbballnns	theynnsconditionvb	
+
+BE: useVBafterINcleansing.4.CleanseNN
+EQ class: applyvbafterincleansing.4.cleansenn	employvbafterincleansing.4.cleansenn	employvbafterincleansing4cleansenn	utilizevbafterincleansing4cleansenn	utilizevbafterincleansing.4.cleansenn	utilisevbafterincleansing4cleansenn	applyvbafterincleansing4cleansenn	utilisevbafterincleansing.4.cleansenn	usevbafterincleansing4cleansenn	
+
+BE: poresVBZwithINconditionerNN
+EQ class: focusvbzwithinconditionernn	rivetvbzwithinconditionernn	concentratevbzwithinconditionernn	porevbzwithinconditionernn	centrevbzwithinconditionernn	centervbzwithinconditionernn	
+
+BE: useVBAlwaysRB
+EQ class: employmentnnofinalwaysrb	usennofinalwaysrb	applyvbalwaysrb	utilizationnnofinalwaysrb	utilisationnnofinalwaysrb	usablennofinalwaysrb	useablennofinalwaysrb	employvbalwaysrb	utilisevbalwaysrb	utilizevbalwaysrb	usagennofinalwaysrb	exercisennofinalwaysrb	usernnofinalwaysrb	
+
+BE: yourPRP$useVB
+EQ class: yourprp$utilizevb	usennofinyourprp$	usernnofinyourprp$	usagennyourprp$	usablennofinyourprp$	usennyourprp$	utilisationnnyourprp$	utilizationnnofinyourprp$	yourprp$applyvb	useablennofinyourprp$	exercisennofinyourprp$	exercisennyourprp$	usernnyourprp$	utilisationnnofinyourprp$	employmentnnofinyourprp$	yourprp$employvb	employmentnnyourprp$	usagennofinyourprp$	utilizationnnyourprp$	yourprp$utilisevb	
+
+BE: scrubNN
+EQ class: scrubbyjj	bushnn	chaparralnn	
+
+BE: skinNN
+EQ class: tegumentnn	skinnyjj	cutisnn	
+
+BE: tryVB
+EQ class: seekvb	essayvb	attemptvb	assayvb	
+
+BE: stripVB
+EQ class: divestvb	deprivevb	
+
+BE: damageVB
+EQ class: 
+
+BE: yourPRP$skinNN
+EQ class: yourprp$sputtervb	yourprp$clambervb	yourprp$skinvb	yourprp$strugglevb	yourprp$cutisnn	scramblevbyourprp$	yourprp$tegumentnn	yourprp$scramblevb	skinnyvbyourprp$	strugglevbyourprp$	sputtervbyourprp$	cutisnnofinyourprp$	yourprp$shinvb	yourprp$skinnyvb	yourprp$skinnyjj	tegumentnnofinyourprp$	clambervbyourprp$	skinnyjjofinyourprp$	shinnyvbyourprp$	yourprp$shinnyvb	skinvbyourprp$	skinnnofinyourprp$	shinvbyourprp$	
+
+BE: youPRPstripVB
+EQ class: youprpdeprivevb	youprpdivestvb	
+
+BE: stripVBskinNN
+EQ class: deprivevbcutisnn	divestvbcutisnn	stripvbcutisnn	divestvbskinnyjj	stripvbskinnyjj	stripvbtegumentnn	deprivevbskinnyjj	deprivevbskinnn	divestvbtegumentnn	divestvbskinnn	deprivevbtegumentnn	
+
+BE: doAUXnotRB
+EQ class: makeauxnotrb	
+
+BE: faceNN
+EQ class: facialjj	human_facenn	
+
+BE: remainderNN
+EQ class: residuumnn	balancenn	restnn	residualnn	residuenn	
+
+BE: cleanserNN
+EQ class: cleansing_agentnn	cleanernn	
+
+BE: debrisNN
+EQ class: junknn	dustnn	detritusnn	rubblenn	
+
+BE: residuesNNS
+EQ class: residuaryjj	residuenns	residualjj	theynns	themnns	
+
+BE: debrisNN
+EQ class: junknn	dustnn	detritusnn	rubblenn	
+
+BE: layerNN
+EQ class: bednn	
+
+BE: serumsNNS
+EQ class: serumnns	serousjj	theynns	themnns	blood_serumnns	
+
+BE: moisturizersNNS
+EQ class: theynns	themnns	
+
+BE: topNN
+EQ class: 
+
+BE: rinsingVBG
+EQ class: rinse_offvbg	rinsevbg	
+
+BE: removeVB
+EQ class: withdrawvb	take_awayvb	takevb	
+
+BE: loosenedVBN
+EQ class: loosevbn	loosenvbn	
+
+BE: goingVBG
+EQ class: movevbg	govbg	travelvbg	locomotevbg	
+
+BE: imbedVB
+EQ class: engraftvb	embedvb	plantvb	implantvb	
+
+BE: poresVBZ
+EQ class: porevbz	centrevbz	focusvbz	concentratevbz	rivetvbz	centervbz	
+
+BE: loosenedVBNresiduesNNS
+EQ class: slackeningnnofinresiduenns	relaxationnnofinthemnns	relaxationnnofinresiduaryjj	looseningnnofinresiduaryjj	relaxationnnofinresiduesnns	slackeningnnofinresiduaryjj	loosevbnresidualjj	slackeningnnofinresidualjj	loosevbnresiduaryjj	looseningnnofintheynns	looseningnnofinresiduenns	loosenvbnresiduaryjj	loosevbntheynns	slackeningnnofinthemnns	loosenedvbnresiduaryjj	looseningnnofinresidualjj	loosevbnthemnns	loosenvbntheynns	loosenedvbnresiduenns	slackeningnnofinresiduesnns	loosenvbnresiduesnns	loosenvbnresidualjj	loosenvbnresiduenns	slackeningnnofintheynns	loosenvbnthemnns	loosevbnresiduenns	loosenedvbnthemnns	loosenedvbnresidualjj	looseningnnofinresiduesnns	relaxationnnofinresidualjj	relaxationnnofinresiduenns	looseningnnofinthemnns	loosevbnresiduesnns	loosenedvbntheynns	relaxationnnofintheynns	
+
+BE: yourPRP$faceNN
+EQ class: human_facennofinyourprp$	yourprp$facialvb	yourprp$human_facenn	facennofinyourprp$	yourprp$facialjj	facialjjofinyourprp$	facialvbyourprp$	
+
+BE: debrisNNresiduesNNS
+EQ class: dustnnresiduaryvb	residuesnnsofindebrisnn	residuaryvbdustnn	residualjjofindustnn	debrisnnresiduenns	themnnsofindebrisnn	residuesnnsofindustnn	detritusnnresiduesnns	dustnnresidualvb	residuennsofinjunknn	debrisnntheynns	residualvbrubblenn	detritusnntheynns	residuaryvbdetritusnn	residuaryjjofinrubblenn	residuaryjjofindetritusnn	theynnsofindustnn	residualjjofinrubblenn	junknntheynns	residualvbdebrisnn	residuesnnsofindetritusnn	residuennsofindebrisnn	debrisnnresiduaryjj	debrisnnthemnns	residualjjofindetritusnn	junknnresidualjj	residualvbdustnn	residualvbjunknn	residualjjofinjunknn	themnnsofindetritusnn	dustnnresiduaryjj	residuaryvbjunknn	dustnnthemnns	rubblennresidualvb	themnnsofindustnn	residuaryvbrubblenn	junknnresiduaryjj	rubblennresiduaryvb	residuesnnsofinjunknn	detritusnnthemnns	junknnresiduenns	themnnsofinjunknn	debrisnnresidualvb	junknnresiduesnns	theynnsofinrubblenn	residuennsofindetritusnn	theynnsofindebrisnn	debrisnnresiduaryvb	dustnnresiduenns	residuennsofinrubblenn	residuesnnsofinrubblenn	rubblenntheynns	residuaryvbdebrisnn	dustnnresiduesnns	junknnresiduaryvb	detritusnnresiduaryjj	rubblennresidualjj	theynnsofindetritusnn	theynnsofinjunknn	dustnntheynns	residualjjofindebrisnn	residualvbdetritusnn	residuaryjjofindustnn	detritusnnresidualjj	rubblennresiduenns	detritusnnresiduenns	themnnsofinrubblenn	rubblennthemnns	dustnnresidualjj	junknnthemnns	residuennsofindustnn	junknnresidualvb	residuaryjjofinjunknn	residuaryjjofindebrisnn	rubblennresiduaryjj	debrisnnresidualjj	rubblennresiduesnns	detritusnnresiduaryvb	detritusnnresidualvb	
+
+BE: youPRPgoingVBG
+EQ class: youprpmovevbg	youprpgovbg	youprplocomotevbg	youprptravelvbg	
+
+BE: youPRPremoveVB
+EQ class: removernnofinyouprp	youprptakevb	removalnnyouprp	youprpwithdrawvb	youprptake_awayvb	removalnnofinyouprp	remotionnnyouprp	remotionnnofinyouprp	removernnyouprp	
+
+BE: rinsingVBGfaceNN
+EQ class: rinsingnnofinhuman_facenn	rinsennofinhuman_facenn	rinse_offvbgfacialjj	rinsennofinfacialjj	rinsennofinfacenn	rinsingvbgfacialjj	rinsingnnofinfacialjj	rinsingnnofinfacenn	rinsevbghuman_facenn	rinsevbgfacialjj	rinse_offvbghuman_facenn	rinse_offvbgfacenn	rinsevbgfacenn	rinsingvbghuman_facenn	
+
+BE: removeVBremainderNN
+EQ class: removernnofinremaindernn	removevbresiduumnn	removernnofinresiduumnn	withdrawvbresiduenn	withdrawvbresiduumnn	removevbrestnn	takevbresidualnn	withdrawvbremaindernn	take_awayvbbalancenn	take_awayvbresiduenn	remotionnnofinresidualnn	removevbbalancenn	takevbresiduumnn	remotionnnofinrestnn	takevbresiduenn	takevbremaindernn	takevbrestnn	take_awayvbresidualnn	remotionnnofinresiduenn	takevbbalancenn	removalnnofinresiduumnn	remotionnnofinbalancenn	remotionnnofinresiduumnn	remotionnnofinremaindernn	take_awayvbresiduumnn	removalnnofinbalancenn	removernnofinbalancenn	removernnofinresidualnn	withdrawvbrestnn	removalnnofinrestnn	removevbresiduenn	removernnofinrestnn	withdrawvbbalancenn	removalnnofinresiduenn	removevbresidualnn	take_awayvbrestnn	withdrawvbresidualnn	take_awayvbremaindernn	removalnnofinresidualnn	removalnnofinremaindernn	removernnofinresiduenn	
+
+BE: imbedVBdebrisNN
+EQ class: engraftvbdustnn	embedvbdetritusnn	implantvbdetritusnn	plantvbdebrisnn	embedvbjunknn	embedvbrubblenn	implantvbjunknn	imbedvbrubblenn	plantvbjunknn	imbedvbjunknn	plantvbrubblenn	embedvbdebrisnn	plantvbdetritusnn	implantvbdustnn	engraftvbjunknn	imbedvbdustnn	engraftvbdebrisnn	implantvbrubblenn	imbedvbdetritusnn	plantvbdustnn	embedvbdustnn	engraftvbdetritusnn	engraftvbrubblenn	implantvbdebrisnn	
+
+BE: layerNNserumsNNS
+EQ class: bednnserousjj	bednnserumsnns	layernnserumnns	bednnserumnns	layernntheynns	bednnblood_serumnns	bednnthemnns	layernnblood_serumnns	layernnserousjj	layernnthemnns	bednntheynns	
+
+BE: remainderNNofINcleanserNN
+EQ class: cleansing_agentnnresidualnn	cleansing_agentnnremaindernn	remaindervbcleanernn	cleansing_agentnnbalancenn	cleansernnstayvb	cleansernnremaindernn	residuumnnofincleanernn	cleanernnremaindervb	restvbcleansernn	cleanernnresiduumnn	residualnnofincleansing_agentnn	restnnofincleansing_agentnn	residualnnofincleansernn	cleanernnremainvb	cleansernnresiduumnn	cleanernnbalancenn	cleansernnremaindervb	cleanernnrestnn	residuennofincleansing_agentnn	cleansing_agentnnresiduumnn	cleanernnrestvb	restnnofincleansernn	remaindervbcleansing_agentnn	cleansing_agentnnresiduenn	restvbcleanernn	stayvbcleanernn	remaindervbcleansernn	balancennofincleansing_agentnn	cleansernnrestnn	cleansernnremainvb	remaindernnofincleansing_agentnn	residualnnofincleanernn	cleanernnresiduenn	stayvbcleansing_agentnn	residuennofincleanernn	cleanernnremaindernn	residuumnnofincleansernn	cleanernnresidualnn	cleanernnstayvb	remainvbcleansing_agentnn	cleansing_agentnnstayvb	cleansing_agentnnremainvb	residuumnnofincleansing_agentnn	restnnofincleanernn	cleansernnresidualnn	stayvbcleansernn	cleansernnrestvb	restvbcleansing_agentnn	cleansing_agentnnrestnn	cleansing_agentnnremaindervb	cleansernnbalancenn	remainvbcleanernn	balancennofincleansernn	remaindernnofincleanernn	residuennofincleansernn	balancennofincleanernn	cleansing_agentnnrestvb	cleansernnresiduenn	remainvbcleansernn	
+
+BE: remainderNNofINresiduesNNS
+EQ class: balancennofinresiduesnns	residuennsresiduenn	restvbtheynns	restvbresidualjj	residuennsremaindervb	residuesnnsremaindervb	remaindernnofinresiduaryjj	stayvbthemnns	theynnsresidualnn	remainvbresiduaryjj	residualjjresiduenn	theynnsstayvb	residuesnnsrestvb	restvbresiduesnns	residuennofinthemnns	residualjjresiduumnn	residuumnnofinresidualjj	restnnofinresiduaryjj	residuennofintheynns	remaindervbresiduesnns	themnnsresiduumnn	residualjjbalancenn	remainvbtheynns	themnnsremainvb	themnnsresiduenn	stayvbresidualjj	residualnnofinresiduenns	residuaryjjrestnn	balancennofinresiduaryjj	stayvbresiduenns	residuaryjjremaindervb	remainvbresidualjj	residuaryjjremaindernn	residualjjrestvb	residuennsbalancenn	remaindernnofintheynns	residualnnofinresiduaryjj	remaindernnofinresiduenns	residuaryjjremainvb	residuaryjjrestvb	stayvbtheynns	balancennofinresiduenns	residuennsremaindernn	residuennofinresiduesnns	remaindervbtheynns	themnnsrestvb	remainvbresiduenns	residualnnofinresidualjj	residuesnnsremaindernn	residuennsremainvb	remaindervbresiduenns	residuennsstayvb	residuesnnsresiduenn	restvbresiduenns	restnnofinresiduesnns	restnnofinresiduenns	residualjjremaindernn	themnnsremaindernn	theynnsresiduumnn	residuaryjjresiduumnn	residuennsresiduumnn	remaindervbresidualjj	balancennofintheynns	residualjjremainvb	stayvbresiduesnns	residuennofinresidualjj	remaindervbresiduaryjj	residuennofinresiduenns	residuesnnsrestnn	remaindernnofinthemnns	residuumnnofinresiduenns	restvbresiduaryjj	themnnsresidualnn	residuennsrestnn	residuesnnsremainvb	residuennofinresiduaryjj	residuennsrestvb	residuaryjjresidualnn	residualnnofinresiduesnns	themnnsstayvb	residualnnofintheynns	residuesnnsresiduumnn	residuaryjjresiduenn	remaindernnofinresidualjj	residuesnnsstayvb	restnnofinresidualjj	theynnsresiduenn	residualnnofinthemnns	balancennofinresidualjj	themnnsrestnn	residuennsresidualnn	residuesnnsbalancenn	theynnsrestnn	theynnsremaindervb	residuesnnsresidualnn	themnnsbalancenn	residualjjrestnn	residuumnnofinthemnns	restnnofinthemnns	theynnsrestvb	residualjjstayvb	theynnsremaindernn	restvbthemnns	restnnofintheynns	residualjjremaindervb	residuumnnofinresiduaryjj	residuumnnofintheynns	theynnsremainvb	remaindervbthemnns	themnnsremaindervb	residualjjresidualnn	remainvbthemnns	residuaryjjbalancenn	balancennofinthemnns	theynnsbalancenn	stayvbresiduaryjj	residuaryjjstayvb	remainvbresiduesnns	residuumnnofinresiduesnns	
+
+BE: moisturizersNNSonINtopNN
+EQ class: themnnsonintopnn	theynnsonintopnn	
+
+BE: imbedVBintoINasIN
+EQ class: embedvbintoinasin	engraftvbintoinasin	plantvbintoinasin	implantvbintoinasin	
+
+BE: goingVBGimbedVB
+EQ class: travelvbgembedvb	movevbgimplantvb	movevbgembedvb	travelvbgengraftvb	govbgengraftvb	movevbgengraftvb	govbgembedvb	govbgimbedvb	goingvbgembedvb	movevbgplantvb	travelvbgimplantvb	goingvbgengraftvb	govbgimplantvb	goingvbgimplantvb	locomotevbgimbedvb	movevbgimbedvb	locomotevbgplantvb	travelvbgimbedvb	locomotevbgimplantvb	travelvbgplantvb	goingvbgplantvb	locomotevbgengraftvb	govbgplantvb	locomotevbgembedvb	
+
+BE: doAUXnotRB
+EQ class: makeauxnotrb	
+
+BE: areAUXonlyRB
+EQ class: beauxonlyrb	
+
+BE: goingVBGonlyRB
+EQ class: movevbgonlyrb	locomotevbgonlyrb	govbgonlyrb	travelvbgonlyrb	
+
+BE: wayNN
+EQ class: stylenn	fashionnn	modenn	mannernn	
+
+BE: cleansingNN
+EQ class: cleaningnn	cleanupnn	
+
+BE: tonerNN
+EQ class: 
+
+BE: skinNN
+EQ class: tegumentnn	skinnyjj	cutisnn	
+
+BE: conditionerNN
+EQ class: 
+
+BE: cottonNN
+EQ class: cotton_fibernn	cottonyjj	cotton_woolnn	
+
+BE: ballsNNS
+EQ class: ballnns	theynns	themnns	
+
+BE: performVB
+EQ class: executevb	dovb	
+
+BE: absoluteJJ
+EQ class: absolutenn	absolutenessnn	
+
+BE: bestJJS
+EQ class: bestnn	
+
+BE: deepJJ
+EQ class: 
+
+BE: poreJJ
+EQ class: 
+
+BE: alcohol-freeJJ
+EQ class: freejj	
+
+BE: absoluteJJwayNN
+EQ class: absolutejjmodenn	absolutennmannernn	absolutenessnnfashionnn	absolutenessnnmodenn	absolutejjfashionnn	absolutenessnnwaynn	absolutenessnnstylenn	absolutejjmannernn	absolutennfashionnn	absolutennstylenn	absolutenessnnmannernn	absolutennwaynn	absolutennmodenn	absolutejjstylenn	
+
+BE: bestJJSwayNN
+EQ class: bestjjsmodenn	bestnnwaynn	bestnnstylenn	bestjjsfashionnn	bestjjsmannernn	bestnnmannernn	bestjjsstylenn	bestnnmodenn	bestnnfashionnn	
+
+BE: deepJJcleansingNN
+EQ class: cleansevbdeeplyrb	cleanvbdeeplyrb	deepjjcleanupnn	deepjjcleaningnn	
+
+BE: poreJJcleansingNN
+EQ class: porejjcleaningnn	porejjcleanupnn	
+
+BE: alcohol-freeJJconditionerNN
+EQ class: freejjconditionernn	conditionvbfreelyrb	
+
+BE: skinNNconditionerNN
+EQ class: skinnyjjconditionernn	conditionernnscramblevb	conditionernnshinvb	conditionernnofincutisnn	conditionernnskinvb	conditionernnshinnyvb	conditionvbcutisnn	cutisnnconditionvb	skinnnconditionvb	skinnyjjconditionvb	conditionernnofinskinnyjj	conditionernnsputtervb	conditionernnofinskinnn	conditionernnstrugglevb	conditionvbskinnn	cutisnnconditionernn	conditionvbtegumentnn	conditionernnclambervb	tegumentnnconditionernn	conditionvbskinnyjj	tegumentnnconditionvb	conditionernnofintegumentnn	
+
+BE: cottonNNballsNNS
+EQ class: cottonyjjballnns	ballnnsofincottonyjj	ballnnsofincotton_fibernn	theynnsofincottonyjj	cottonnnthemnns	cottonnnballnns	ballnnsofincotton_woolnn	cotton_fibernnthemnns	theynnsofincotton_fibernn	cottonyjjthemnns	cottonyjjballsnns	themnnsofincottonnn	cotton_fibernnballsnns	themnnsofincottonyjj	cotton_fibernntheynns	ballnnsofincottonnn	themnnsofincotton_fibernn	cottonnntheynns	ballsnnsofincottonnn	ballsnnsofincotton_woolnn	cottonyjjtheynns	theynnsofincotton_woolnn	themnnsofincotton_woolnn	cotton_woolnnthemnns	cotton_woolnnballnns	ballsnnsofincottonyjj	cotton_woolnntheynns	theynnsofincottonnn	ballsnnsofincotton_fibernn	cotton_woolnnballsnns	cotton_fibernnballnns	
+
+BE: wayNNisAUX
+EQ class: mannernnisaux	stylennbeaux	waynnbeaux	fashionnnbeaux	fashionnnisaux	modennbeaux	mannernnbeaux	stylennisaux	modennisaux	
+
+BE: wayNNperformVB
+EQ class: public_presentationnnstylenn	public_presentationnnofinmodenn	performancennofinwaynn	mannernndovb	stylennperformvb	modennperformvb	mannernnexecutevb	public_presentationnnmannernn	public_presentationnnwaynn	performancennmannernn	performancennofinfashionnn	waynndovb	stylennexecutevb	stylenndovb	fashionnndovb	performancennofinstylenn	performancennwaynn	mannernnperformvb	public_presentationnnofinmannernn	modennexecutevb	fashionnnexecutevb	fashionnnperformvb	modenndovb	performancennofinmannernn	waynnexecutevb	performancennfashionnn	performancennmodenn	public_presentationnnofinwaynn	public_presentationnnfashionnn	public_presentationnnofinfashionnn	performancennstylenn	performancennofinmodenn	public_presentationnnofinstylenn	public_presentationnnmodenn	
+
+BE: performVBcleansingNN
+EQ class: executevbcleansingnn	performvbcleanupnn	public_presentationnnofincleanupnn	dovbcleanupnn	performancennofincleaningnn	dovbcleaningnn	executevbcleanupnn	executevbcleaningnn	public_presentationnnofincleaningnn	dovbcleansingnn	performancennofincleanupnn	public_presentationnnofincleansingnn	performancennofincleansingnn	performvbcleaningnn	
+
+BE: conditionerNNonINballsNNS
+EQ class: conditionvbtheynns	themnnsconditionvb	conditionvbballsnns	conditionernnonintheynns	themnnsconditionernn	ballnnsconditionvb	ballnnsconditionernn	conditionvbthemnns	conditionernnoninballnns	ballsnnsconditionvb	ballsnnsconditionernn	conditionernnoninthemnns	theynnsconditionernn	conditionvbballnns	theynnsconditionvb	
+
+BE: isAUXwithINconditionerNN
+EQ class: beauxwithinconditionernn	
+
+BE: needNN
+EQ class: demandnn	
+
+BE: skinNN
+EQ class: tegumentnn	skinnyjj	cutisnn	
+
+BE: scrubbingNN
+EQ class: scrubnn	scouringnn	
+
+BE: acidsNNS
+EQ class: acidjj	acidnns	theynns	themnns	
+
+BE: cottonNN
+EQ class: cotton_fibernn	cottonyjj	cotton_woolnn	
+
+BE: ballsNNS
+EQ class: ballnns	theynns	themnns	
+
+BE: cottonNN
+EQ class: cotton_fibernn	cottonyjj	cotton_woolnn	
+
+BE: white.5.AstringentsNNS
+EQ class: astringentjj	astringentnns	astringent_drugnns	stypticnns	white5astringentsnns	
+
+BE: Salicylic AcidPersonAnnotation
+EQ class: 
+
+BE: acidsNNS
+EQ class: acidjj	acidnns	theynns	themnns	
+
+BE: acidsNNS
+EQ class: acidjj	acidnns	theynns	themnns	
+
+BE: sVBZ
+EQ class: 
+
+BE: harmVB
+EQ class: 
+
+BE: wipeVB
+EQ class: pass_overvb	
+
+BE: workVBP
+EQ class: 
+
+BE: preventVB
+EQ class: precludevb	forestallvb	foreclosevb	forbidvb	
+
+BE: poresVBZ
+EQ class: porevbz	centrevbz	focusvbz	concentratevbz	rivetvbz	centervbz	
+
+BE: cloggingVBG
+EQ class: congestvbg	chokevbg	clogvbg	clog_upvbg	foulvbg	back_upvbg	choke_offvbg	
+
+BE: comesVBZawayRP
+EQ class: approachnnofinawayrp	comevbzawayrp	come_upvbzawayrp	approachingnnofinawayrp	comingnnofinawayrp	
+
+BE: vigorousJJ
+EQ class: vigornn	
+
+BE: harshJJ
+EQ class: harshnessnn	roughjj	
+
+BE: tonerOrganizationAnnotation
+EQ class: 
+
+BE: dampJJ
+EQ class: dampnn	dampishjj	moistjj	dampnessnn	
+
+BE: lastJJ
+EQ class: 
+
+BE: retinoicOrganizationAnnotation
+EQ class: 
+
+BE: glycolicJJ
+EQ class: 
+
+BE: vigorousJJscrubbingNN
+EQ class: vigornnscrubnn	scourvbvigorouslyrb	vigorousjjscouringnn	vigornnscouringnn	vigorousjjscrubnn	vigornnscrubbingnn	scrubvbvigorouslyrb	
+
+BE: harshJJacidsNNS
+EQ class: sourvbharshlyrb	harshnessnnthemnns	harshjjacidjj	harshnessnntheynns	harshjjthemnns	harshjjtheynns	roughjjacidnns	roughjjacidjj	roughjjacidsnns	harshnessnnacidjj	acetifyvbharshlyrb	harshjjacidnns	roughjjthemnns	harshnessnnacidnns	acidifyvbharshlyrb	acidulatevbharshlyrb	roughjjtheynns	acidvbharshlyrb	harshnessnnacidsnns	
+
+BE: tonerOrganizationAnnotationballsNNS
+EQ class: tonerorganizationannotationtheynns	tonerorganizationannotationthemnns	tonerorganizationannotationballnns	
+
+BE: dampJJballsNNS
+EQ class: dampishjjtheynns	dampjjballnns	dampnnballsnns	dampnnthemnns	dampjjthemnns	dampnessnnballsnns	moistjjballsnns	moistjjballnns	dampnessnnthemnns	dampnessnnballnns	dampishjjballsnns	moistjjtheynns	dampishjjthemnns	dampnntheynns	dampnessnntheynns	dampishjjballnns	dampjjtheynns	dampnnballnns	moistjjthemnns	
+
+BE: lastJJcottonNN
+EQ class: cottonyvblastlyrb	lastjjcottonyjj	lastjjcotton_fibernn	lastjjcotton_woolnn	
+
+BE: retinoicOrganizationAnnotationacidsNNS
+EQ class: retinoicorganizationannotationacidjj	retinoicorganizationannotationtheynns	retinoicorganizationannotationthemnns	retinoicorganizationannotationacidnns	
+
+BE: glycolicJJacidsNNS
+EQ class: glycolicjjtheynns	glycolicjjacidnns	glycolicjjacidjj	glycolicjjthemnns	
+
+BE: yourPRP$skinNN
+EQ class: yourprp$sputtervb	yourprp$clambervb	yourprp$skinvb	yourprp$strugglevb	yourprp$cutisnn	scramblevbyourprp$	yourprp$tegumentnn	yourprp$scramblevb	skinnyvbyourprp$	strugglevbyourprp$	sputtervbyourprp$	cutisnnofinyourprp$	yourprp$shinvb	yourprp$skinnyvb	yourprp$skinnyjj	tegumentnnofinyourprp$	clambervbyourprp$	skinnyjjofinyourprp$	shinnyvbyourprp$	yourprp$shinnyvb	skinvbyourprp$	skinnnofinyourprp$	shinvbyourprp$	
+
+BE: cottonNNballsNNS
+EQ class: cottonyjjballnns	ballnnsofincottonyjj	ballnnsofincotton_fibernn	theynnsofincottonyjj	cottonnnthemnns	cottonnnballnns	ballnnsofincotton_woolnn	cotton_fibernnthemnns	theynnsofincotton_fibernn	cottonyjjthemnns	cottonyjjballsnns	themnnsofincottonnn	cotton_fibernnballsnns	themnnsofincottonyjj	cotton_fibernntheynns	ballnnsofincottonnn	themnnsofincotton_fibernn	cottonnntheynns	ballsnnsofincottonnn	ballsnnsofincotton_woolnn	cottonyjjtheynns	theynnsofincotton_woolnn	themnnsofincotton_woolnn	cotton_woolnnthemnns	cotton_woolnnballnns	ballsnnsofincottonyjj	cotton_woolnntheynns	theynnsofincottonnn	ballsnnsofincotton_fibernn	cotton_woolnnballsnns	cotton_fibernnballnns	
+
+BE: white.5.AstringentsNNSSalicylic AcidPersonAnnotation
+EQ class: astringentnnofinsalicylic acidpersonannotation	astringentjjofinsalicylic acidpersonannotation	stypticnnssalicylic acidpersonannotation	salicylic acidpersonannotationastringent_drugnns	astringent_drugnnssalicylic acidpersonannotation	salicylic acidpersonannotationwhite.5.astringentsnns	stypticnnofinsalicylic acidpersonannotation	salicylic acidpersonannotationastringentjj	astringentjjsalicylic acidpersonannotation	salicylic acidpersonannotationastringentnns	salicylic acidpersonannotationwhite5astringentsnns	salicylic acidpersonannotationstypticnns	white5astringentsnnssalicylic acidpersonannotation	astringentnnssalicylic acidpersonannotation	salicylic acidpersonannotationastringevb	astringent_drugnnofinsalicylic acidpersonannotation	
+
+BE: thereEXsVBZ
+EQ class: 
+
+BE: cottonNNcomesVBZ
+EQ class: comingnncotton_woolnn	approachnnofincotton_woolnn	comingnnofincottonnn	approachingnnofincottonyjj	cotton_fibernncome_upvbz	cotton_fibernncomesvbz	approachnncottonyjj	approachnncotton_fibernn	cotton_fibernncomevbz	approachingnncotton_woolnn	approachingnnofincottonnn	approachingnncottonnn	cotton_woolnncomesvbz	comingnnofincotton_fibernn	cottonnncomevbz	approachnncottonnn	comingnnofincottonyjj	comingnncottonnn	cotton_woolnncome_upvbz	approachnnofincotton_fibernn	approachnnofincottonyjj	approachnnofincottonnn	cottonyjjcomesvbz	cottonnncome_upvbz	approachingnncotton_fibernn	cotton_woolnncomevbz	cottonyjjcomevbz	approachingnnofincotton_fibernn	cottonyjjcome_upvbz	comingnncotton_fibernn	approachnncotton_woolnn	approachingnnofincotton_woolnn	approachingnncottonyjj	comingnncottonyjj	comingnnofincotton_woolnn	
+
+BE: white.5.AstringentsNNSworkVBP
+EQ class: workernnastringent_drugnns	white5astringentsnnsworkvbp	worknnofinastringentnns	stypticnnsworkvbp	workernnofinastringent_drugnns	worknnofinwhite.5.astringentsnns	workernnofinwhite5astringentsnns	workernnastringentnns	workernnofinstypticnns	workernnstypticnns	astringentnnsworkvbp	workernnofinastringentjj	workernnwhite5astringentsnns	worknnofinastringentjj	workernnwhite.5.astringentsnns	workernnofinastringentnns	astringentjjworkvbp	workernnofinwhite.5.astringentsnns	worknnofinastringent_drugnns	worknnofinwhite5astringentsnns	workernnastringentjj	worknnofinstypticnns	astringent_drugnnsworkvbp	
+
+BE: Salicylic AcidPersonAnnotationworkVBP
+EQ class: workernnsalicylic acidpersonannotation	workernnofinsalicylic acidpersonannotation	worknnofinsalicylic acidpersonannotation	
+
+BE: acidsNNSworkVBP
+EQ class: worknnofinthemnns	worknnofinacidjj	workernnofinacidnns	theynnsworkvbp	workernnofinthemnns	acidjjworkvbp	themnnsworkvbp	worknnofintheynns	workernnofinacidjj	worknnofinacidsnns	workernnacidsnns	workernnacidnns	workernnthemnns	workernnofintheynns	worknnofinacidnns	workernntheynns	workernnacidjj	workernnofinacidsnns	acidnnsworkvbp	
+
+BE: acidsNNSworkVBP
+EQ class: worknnofinthemnns	worknnofinacidjj	workernnofinacidnns	theynnsworkvbp	workernnofinthemnns	acidjjworkvbp	themnnsworkvbp	worknnofintheynns	workernnofinacidjj	worknnofinacidsnns	workernnacidsnns	workernnacidnns	workernnthemnns	workernnofintheynns	worknnofinacidnns	workernntheynns	workernnacidjj	workernnofinacidsnns	acidnnsworkvbp	
+
+BE: sVBZneedNN
+EQ class: svbzdemandnn	
+
+BE: harmVBskinNN
+EQ class: harmnnofintegumentnn	harmvbcutisnn	harmvbtegumentnn	traumannofincutisnn	traumannofinskinnyjj	traumannofinskinnn	injurynnofincutisnn	hurtnnofincutisnn	harmvbskinnyjj	harmnnofinskinnn	traumannofintegumentnn	harmnnofincutisnn	harmnnofinskinnyjj	injurynnofintegumentnn	hurtnnofinskinnn	injurynnofinskinnn	hurtnnofintegumentnn	injurynnofinskinnyjj	hurtnnofinskinnyjj	
+
+BE: preventVBporesVBZ
+EQ class: preventativennofinrivetvbz	prophylacticnnofincentervbz	forbidvbporesvbz	preventivennofincentrevbz	preventvbporevbz	preventativennofinconcentratevbz	forestallvbconcentratevbz	foreclosevbcentervbz	preventivejjofinporevbz	foreclosevbrivetvbz	preventativennofinporesvbz	forbidvbcentrevbz	forestallvbfocusvbz	foreclosevbporesvbz	preventativennofinporevbz	forestallvbporesvbz	forbidvbporevbz	prophylacticnnofinporevbz	preventivejjofincentrevbz	preventvbcentrevbz	forbidvbrivetvbz	forbidvbfocusvbz	precludevbporesvbz	precludevbconcentratevbz	prophylacticnnofinporesvbz	forbidvbcentervbz	forestallvbcentervbz	preventvbfocusvbz	foreclosevbconcentratevbz	prophylacticnnofinconcentratevbz	prophylacticnnofincentrevbz	preventativennofincentervbz	foreclosevbcentrevbz	forbidvbconcentratevbz	foreclosevbporevbz	preventativennofincentrevbz	forestallvbrivetvbz	preventivejjofinporesvbz	preventivennofincentervbz	precludevbcentrevbz	preventivejjofinconcentratevbz	preventivennofinconcentratevbz	preventvbconcentratevbz	preventivennofinfocusvbz	precludevbrivetvbz	precludevbfocusvbz	precludevbporevbz	preventvbrivetvbz	foreclosevbfocusvbz	preventivennofinporesvbz	preventivennofinrivetvbz	precludevbcentervbz	preventivejjofinrivetvbz	forestallvbcentrevbz	preventivejjofincentervbz	preventivejjofinfocusvbz	preventivennofinporevbz	preventativennofinfocusvbz	prophylacticnnofinrivetvbz	prophylacticnnofinfocusvbz	preventvbcentervbz	forestallvbporevbz	
+
+BE: harmVBbyINscrubbingNN
+EQ class: harmvbbyinscouringnn	harmvbbyinscrubnn	
+
+BE: harmVBbyINacidsNNS
+EQ class: harmvbbyinacidnns	harmvbbyinthemnns	harmvbbyintheynns	harmvbbyinacidjj	
+
+BE: wipeVBwithINballsNNS
+EQ class: wipevbwithinthemnns	wipevbwithintheynns	pass_overvbwithinballsnns	pass_overvbwithintheynns	wipevbwithinballnns	pass_overvbwithinthemnns	pass_overvbwithinballnns	
+
+BE: preventVBfromINcloggingVBG
+EQ class: forbidvbfrominfoulvbg	foreclosevbfrominfoulvbg	foreclosevbfrominclogvbg	foreclosevbfromincongestvbg	forbidvbfrominclogvbg	forestallvbfrominfoulvbg	preventvbfromincongestvbg	foreclosevbfrominclog_upvbg	preventvbfrominfoulvbg	precludevbfrominchokevbg	foreclosevbfrominchoke_offvbg	precludevbfromincongestvbg	forestallvbfrominchoke_offvbg	preventvbfrominback_upvbg	precludevbfrominback_upvbg	foreclosevbfrominback_upvbg	forestallvbfromincongestvbg	precludevbfrominclog_upvbg	precludevbfromincloggingvbg	forbidvbfrominchoke_offvbg	preventvbfrominchokevbg	precludevbfrominfoulvbg	foreclosevbfromincloggingvbg	preventvbfrominclogvbg	forestallvbfrominchokevbg	preventvbfrominclog_upvbg	precludevbfrominclogvbg	forestallvbfromincloggingvbg	forestallvbfrominback_upvbg	forestallvbfrominclog_upvbg	precludevbfrominchoke_offvbg	foreclosevbfrominchokevbg	forbidvbfrominchokevbg	forbidvbfromincloggingvbg	forbidvbfromincongestvbg	preventvbfrominchoke_offvbg	forbidvbfrominclog_upvbg	forestallvbfrominclogvbg	forbidvbfrominback_upvbg	
+
+BE: wipeVBuntilINcomesVBZ
+EQ class: wipevbuntilincome_upvbz	pass_overvbuntilincome_upvbz	wipevbuntilincomevbz	pass_overvbuntilincomesvbz	pass_overvbuntilincomevbz	
+
+BE: workVBPpreventVB
+EQ class: workvbpforeclosevb	workernnofinprecludevb	workernnofinforbidvb	workernnofinforestallvb	workernnofinpreventvb	workvbpforbidvb	workvbpprecludevb	worknnofinprecludevb	worknnofinforestallvb	worknnofinpreventvb	worknnofinforeclosevb	workernnofinforeclosevb	workvbpforestallvb	worknnofinforbidvb	
+
+BE: wipeVBsimplyRB
+EQ class: simplicitynnwipernn	simplicitynnininrubnn	simplejjwipernn	simplejjininpass_overvb	simplejjininwipernn	simplicitynnininpass_overvb	rubnnofinsimplyrb	simplicitynnininwipenn	simplejjininrubnn	simplicitynnininwipevb	simplejjwipenn	simplejjrubnn	simplenessnnininrubnn	simplejjininwipenn	wipennofinsimplyrb	simplicitynnwipenn	simplenessnnininwipernn	pass_overvbsimplyrb	simplenessnnininpass_overvb	simplicitynnininwipernn	simplenessnnininwipenn	simplenessnnininwipevb	wipernnofinsimplyrb	simplejjininwipevb	simplenessnnwipenn	simplenessnnrubnn	simplicitynnrubnn	simplenessnnwipernn	
+
+BE: comesVBZperfectlyRB
+EQ class: perfectjjininapproachnn	perfectjjapproachnn	comevbzperfectlyrb	approachnnofinperfectlyrb	come_upvbzperfectlyrb	perfectjjcomingnn	perfectjjapproachingnn	perfectjjinincomingnn	perfectjjinincome_upvbz	perfectjjininapproachingnn	perfectjjinincomesvbz	approachingnnofinperfectlyrb	perfectjjinincomevbz	comingnnofinperfectlyrb	
+
+BE: ingredientsNNS
+EQ class: theynns	ingredientnns	themnns	
+
+BE: benzoylPersonAnnotation
+EQ class: 
+
+BE: peroxideNN
+EQ class: hydrogen_peroxidenn	
+
+BE: ingredientsNNS
+EQ class: theynns	ingredientnns	themnns	
+
+BE: sideNN
+EQ class: 
+
+BE: effectsNNS
+EQ class: personal_effectsnns	theynns	themnns	
+
+BE: causeVB
+EQ class: makevb	dovb	
+
+BE: awareJJ
+EQ class: cognisantjj	cognizantjj	awarenessnn	
+
+BE: activeJJ
+EQ class: activenessnn	activitynn	
+
+BE: majorJJ
+EQ class: 
+
+BE: activeJJingredientsNNS
+EQ class: activitynningredientsnns	activejjtheynns	activejjingredientnns	activenessnntheynns	activenessnnthemnns	activenessnningredientnns	activitynningredientnns	activitynntheynns	activenessnningredientsnns	activitynnthemnns	activejjthemnns	
+
+BE: majorJJeffectsNNS
+EQ class: majorjjthemnns	majorjjtheynns	majorjjpersonal_effectsnns	
+
+BE: benzoylPersonAnnotationperoxideNN
+EQ class: peroxidennofinbenzoylpersonannotation	benzoylpersonannotationperoxidevb	benzoylpersonannotationhydrogen_peroxidenn	hydrogen_peroxidennofinbenzoylpersonannotation	peroxidevbbenzoylpersonannotation	
+
+BE: sideNNeffectsNNS
+EQ class: sidennthemnns	themnnsofinsidenn	personal_effectsnnsofinsidenn	sidenntheynns	sidennpersonal_effectsnns	effectsnnsofinsidenn	theynnsofinsidenn	
+
+BE: ingredientsNNScauseVB
+EQ class: causationnnofiningredientsnns	causingnnofiningredientsnns	causaljjofinthemnns	causingnnofinthemnns	causationnnofiningredientnns	causaljjofiningredientnns	causingnntheynns	causaljjofintheynns	theynnscausevb	causationnnofinthemnns	causingnnthemnns	ingredientnnsmakevb	theynnsmakevb	causationnntheynns	ingredientnnsdovb	ingredientsnnsdovb	causationnnthemnns	causingnningredientsnns	themnnsdovb	themnnscausevb	theynnsdovb	causingnningredientnns	causativennofiningredientnns	causingnnofintheynns	ingredientnnscausevb	causationnningredientnns	causationnningredientsnns	causingnnofiningredientnns	causennofinthemnns	causativennofintheynns	causativennofiningredientsnns	causationnnofintheynns	causennofiningredientsnns	causennofiningredientnns	themnnsmakevb	ingredientsnnsmakevb	causaljjofiningredientsnns	causennofintheynns	causativennofinthemnns	
+
+BE: causeVBeffectsNNS
+EQ class: causaljjofinthemnns	makevbpersonal_effectsnns	causativennofineffectsnns	causingnnofinpersonal_effectsnns	causingnnofinthemnns	causevbpersonal_effectsnns	causaljjofintheynns	causevbthemnns	causationnnofinthemnns	dovbeffectsnns	dovbpersonal_effectsnns	causennofineffectsnns	causevbtheynns	makevbthemnns	causennofinpersonal_effectsnns	makevbeffectsnns	causaljjofinpersonal_effectsnns	causationnnofineffectsnns	dovbtheynns	dovbthemnns	causationnnofinpersonal_effectsnns	causingnnofintheynns	causennofinthemnns	causativennofintheynns	makevbtheynns	causaljjofineffectsnns	causationnnofintheynns	causativennofinpersonal_effectsnns	causingnnofineffectsnns	causennofintheynns	causativennofinthemnns	
+
+BE: ingredientsNNSlikeINperoxideNN
+EQ class: ingredientnnslikeinperoxidenn	theynnslikeinperoxidenn	hydrogen_peroxidenningredientsnns	hydrogen_peroxidenningredientnns	peroxidenningredientnns	themnnslikeinperoxidenn	hydrogen_peroxidenntheynns	peroxidenningredientsnns	ingredientnnslikeinhydrogen_peroxidenn	theynnslikeinhydrogen_peroxidenn	themnnslikeinhydrogen_peroxidenn	peroxidenntheynns	peroxidennthemnns	ingredientsnnslikeinhydrogen_peroxidenn	hydrogen_peroxidennthemnns	
+
+BE: awareJJofINingredientsNNS
+EQ class: awarenessnnofiningredientsnns	awarenessnnofiningredientnns	cognizantjjofiningredientsnns	cognisantjjofiningredientnns	awarejjofiningredientnns	cognisantjjofiningredientsnns	awarejjofintheynns	awarenessnnofintheynns	cognizantjjofiningredientnns	cognisantjjofinthemnns	awarejjofinthemnns	awarenessnnofinthemnns	cognizantjjofintheynns	cognisantjjofintheynns	cognizantjjofinthemnns	
+
+BE: causeVB..RB
+EQ class: dovbrb	makevb..rb	causennofin..rb	causationnnofinrb	causevbrb	causativennofin..rb	causativennofinrb	dovb..rb	causingnnofinrb	makevbrb	causingnnofin..rb	causennofinrb	causaljjofinrb	causaljjofin..rb	causationnnofin..rb	
+
+BE: resultsNNS
+EQ class: outcomenns	resultnns	upshotnns	theynns	consequencenns	issuenns	eventnns	effectnns	themnns	
+
+BE: acneNN
+EQ class: 
+
+BE: insideNN
+EQ class: interiornn	
+
+BE: problemsNNS
+EQ class: problemnns	problematicaljj	theynns	problematicjj	themnns	jobnns	
+
+BE: causeNN
+EQ class: causaljj	
+
+BE: kindNN
+EQ class: varietynn	sortnn	formnn	
+
+BE: treatmentNN
+EQ class: interventionnn	
+
+BE: herbalsNNS
+EQ class: herbal_teanns	theynns	herb_teanns	herbalnns	themnns	
+
+BE: suggestVBP
+EQ class: advisevbp	proposevbp	
+
+BE: fightVB
+EQ class: contendvb	strugglevb	
+
+BE: chooseVB
+EQ class: pick_outvb	selectvb	takevb	
+
+BE: betterJJR
+EQ class: 
+
+BE: hormonalJJ
+EQ class: hormonenn	
+
+BE: worstJJS
+EQ class: worstnn	
+
+BE: safeJJ
+EQ class: safenessnn	
+
+BE: ingredientsJJ
+EQ class: theyjj	themjj	
+
+BE: bestJJS
+EQ class: bestnn	
+
+BE: betterJJRresultsNNS
+EQ class: betterjjrissuenns	betterjjrupshotnns	betterjjrtheynns	betterjjreventnns	betterjjrresultnns	betterjjreffectnns	betterjjrconsequencenns	betterjjrthemnns	betterjjroutcomenns	
+
+BE: hormonalJJproblemsNNS
+EQ class: hormonaljjtheynns	hormonennthemnns	hormonennproblemnns	hormonenntheynns	hormonennproblematicjj	hormonaljjjobnns	hormonaljjproblematicjj	hormonennjobnns	hormonaljjthemnns	hormonaljjproblemnns	hormonennproblemsnns	hormonennproblematicaljj	hormonaljjproblematicaljj	
+
+BE: worstJJScauseNN
+EQ class: worstnncausaljj	worstnncausenn	worstjjscausaljj	
+
+BE: safeJJherbalsNNS
+EQ class: safejjherb_teanns	safenessnnherbalsnns	safejjherbal_teanns	safenessnnherbal_teanns	safenessnntheynns	safejjherbalnns	safenessnnthemnns	safenessnnherbalnns	safejjthemnns	safejjtheynns	safenessnnherb_teanns	
+
+BE: ingredientsJJherbalsNNS
+EQ class: theyjjherbalnns	themjjherb_teanns	themjjherbal_teanns	theyjjthemnns	theyjjherb_teanns	theyjjherbalsnns	themjjherbalnns	ingredientsjjtheynns	ingredientsjjherbalnns	ingredientsjjthemnns	theyjjherbal_teanns	themjjherbalsnns	themjjthemnns	themjjtheynns	ingredientsjjherbal_teanns	theyjjtheynns	ingredientsjjherb_teanns	
+
+BE: yourPRP$acneNN
+EQ class: acnennofinyourprp$	
+
+BE: iPRPsuggestVBP
+EQ class: iprpproposevbp	iprpadvisevbp	proposernnofiniprp	suggestionnniprp	suggestionnnofiniprp	suggestiblennofiniprp	proposernniprp	suggesternniprp	suggesternnofiniprp	
+
+BE: youPRPfightVB
+EQ class: battlennofinyouprp	combatnnofinyouprp	combatnnyouprp	scrappernnyouprp	combatantnnofinyouprp	fightnnyouprp	conflictnnofinyouprp	combatantnnyouprp	fightingnnyouprp	belligerentnnofinyouprp	fighternnofinyouprp	engagementnnofinyouprp	scrapnnofinyouprp	scrappernnofinyouprp	battlernnyouprp	fightingnnofinyouprp	belligerentnnyouprp	youprpcontendvb	fighternnyouprp	fightnnofinyouprp	battlernnofinyouprp	youprpstrugglevb	scrapnnyouprp	
+
+BE: problemsNNSbeAUX
+EQ class: themnnsbeaux	problemnnsbeaux	problematicjjbeaux	problematicaljjbeaux	theynnsbeaux	jobnnsbeaux	
+
+BE: herbalsNNSareAUX
+EQ class: herbalnnsbeaux	themnnsbeaux	herbalnnsareaux	theynnsareaux	herb_teannsareaux	themnnsareaux	herbalsnnsbeaux	herbal_teannsbeaux	theynnsbeaux	herbal_teannsareaux	herb_teannsbeaux	
+
+BE: fightVBacneNN
+EQ class: combatnnofinacnenn	engagementnnofinacnenn	combatantnnofinacnenn	battlennofinacnenn	conflictnnofinacnenn	belligerentnnofinacnenn	scrapnnofinacnenn	fightnnofinacnenn	battlernnofinacnenn	strugglevbacnenn	fighternnofinacnenn	fightingnnofinacnenn	contendvbacnenn	scrappernnofinacnenn	
+
+BE: beAUXcauseNN
+EQ class: beauxcausaljj	
+
+BE: areAUXbestJJS
+EQ class: beauxbestnn	areauxbestnn	beauxbestjjs	
+
+BE: causeNNofINacneFW
+EQ class: dovbacnefw	acnefwcausalvb	acnefwcausenn	causaljjofinacnefw	causevbacnefw	makevbacnefw	causalvbacnefw	acnefwmakevb	acnefwcausevb	acnefwcausaljj	acnefwdovb	
+
+BE: kindNNofINtreatmentNN
+EQ class: interventionnnkindnn	interventionnnvarietynn	treatmentnnformnn	sortnnofininterventionnn	formnnofininterventionnn	sortnnofintreatmentnn	treatmentnnkindnn	interventionnnsortnn	interventionnnformnn	formnnofintreatmentnn	treatmentnnsortnn	treatmentnnvarietynn	kindnnofininterventionnn	varietynnofininterventionnn	varietynnofintreatmentnn	
+
+BE: fightVBfromINinsideNN
+EQ class: contendvbfromininsidenn	strugglevbfromininsidenn	fightvbfromininteriornn	strugglevbfromininteriornn	contendvbfromininteriornn	
+
+BE: suggestVBPforINresultsNNS
+EQ class: proposevbpforinupshotnns	advisevbpforinresultsnns	advisevbpforineventnns	proposevbpforinoutcomenns	suggestvbpforinupshotnns	proposevbpforinconsequencenns	proposevbpforinresultnns	suggestvbpforinissuenns	advisevbpforinissuenns	advisevbpforinupshotnns	advisevbpforinoutcomenns	proposevbpforinissuenns	proposevbpforineventnns	suggestvbpforineventnns	proposevbpforinthemnns	advisevbpforineffectnns	suggestvbpforinthemnns	proposevbpforintheynns	suggestvbpforintheynns	suggestvbpforinresultnns	proposevbpforinresultsnns	advisevbpforinthemnns	advisevbpforinconsequencenns	suggestvbpforineffectnns	advisevbpforinresultnns	advisevbpforintheynns	suggestvbpforinoutcomenns	proposevbpforineffectnns	suggestvbpforinconsequencenns	
+
+BE: chooseVBforINkindNN
+EQ class: choosevbforinformnn	takevbforinformnn	choosevbforinvarietynn	selectvbforinkindnn	pick_outvbforinsortnn	selectvbforinvarietynn	selectvbforinformnn	selectvbforinsortnn	choosevbforinsortnn	pick_outvbforinformnn	takevbforinvarietynn	pick_outvbforinvarietynn	takevbforinkindnn	pick_outvbforinkindnn	takevbforinsortnn	
+
+BE: fightVBbecauseINbeAUX
+EQ class: contendvbbecauseinbeaux	strugglevbbecauseinbeaux	
+
+BE: fightVBalsoRB
+EQ class: combatantnnofinalsorb	fightnnofinalsorb	fightingnnofinalsorb	battlernnofinalsorb	belligerentnnofinalsorb	contendvbalsorb	scrapnnofinalsorb	strugglevbalsorb	conflictnnofinalsorb	scrappernnofinalsorb	battlennofinalsorb	engagementnnofinalsorb	combatnnofinalsorb	fighternnofinalsorb	
+
+BE: beAUXalsoRB
+EQ class: 
+
+BE: causeNNproblemsNNS
+EQ class: jobnnsdovb	problematicjjcausenn	causaljjjobnns	jobnnscausenn	problemnnscausenn	causaljjofintheynns	causennofinproblematicjj	causationnnofinproblematicjj	theynnscausevb	causationnnofinproblemsnns	theynnscausaljj	problematicjjcausevb	causativennofinproblematicaljj	problemnnscausevb	causennproblemnns	problematicjjmakevb	causennproblematicjj	causativennofinproblemnns	causingnnofinproblemsnns	causenntheynns	causaljjproblemnns	themnnsdovb	themnnscausevb	causennofinproblemsnns	causaljjofinproblemnns	causaljjproblematicjj	theynnsdovb	problemsnnscausenn	causativennofinjobnns	theynnscausenn	causingnnofintheynns	causaljjofinproblemsnns	causennofinthemnns	causativennofintheynns	themnnscausaljj	problemnnsdovb	causaljjofinjobnns	causationnnofintheynns	problematicaljjcausaljj	causativennofinproblematicjj	problemsnnsmakevb	causationnnofinproblematicaljj	problemsnnsdovb	themnnsmakevb	problemsnnscausevb	causaljjthemnns	causativennofinthemnns	themnnscausenn	causaljjofinthemnns	causaljjproblematicaljj	problemnnscausaljj	problemnnsmakevb	causingnnofinthemnns	problematicaljjcausevb	problematicaljjcausenn	jobnnscausaljj	causationnnofinjobnns	causaljjofinproblematicaljj	causaljjproblemsnns	causationnnofinthemnns	causingnnofinjobnns	problemsnnscausaljj	theynnsmakevb	causennofinproblemnns	causativennofinproblemsnns	causingnnofinproblematicaljj	causaljjofinproblematicjj	causaljjtheynns	problematicaljjmakevb	causationnnofinproblemnns	causennjobnns	problematicaljjdovb	causingnnofinproblemnns	problematicjjdovb	causennproblematicaljj	causennofinjobnns	problematicjjcausaljj	causennofinproblematicaljj	jobnnsmakevb	jobnnscausevb	causingnnofinproblematicjj	causennthemnns	causennofintheynns	
+
+BE: luckNN
+EQ class: lotnn	fortunenn	portionnn	fatenn	destinynn	circumstancesnn	
+
+BE: GoodJJ
+EQ class: goodnessnn	
+

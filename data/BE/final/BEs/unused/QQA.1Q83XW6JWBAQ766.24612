@@ -1,0 +1,38 @@
+#They were just outplayed!  
+#(S1 (S (NP (PRP They)) (VP (AUX were) (ADVP (RB just)) (VP (VBN outplayed))) (. !)))
+#Rule:Verbs
+r2outplayedVBN
+
+#Rule:V-HeadNoun(passive)
+r23outplayedVBNtheyPRP
+
+#Rule:V-ADV
+r46wereAUXjustRB
+r46outplayedVBNjustRB
+
+#+ VINCE YOUNG BALLED IT UP
+#(S1 (S (NP (NNP +) (NNP VINCE) (NNP YOUNG)) (VP (VBD BALLED) (NP (PRP IT)) (PRT (RP UP)))))
+#Rule:Nouns
+r1+NNP
+r1VINCENNP
+r1YOUNGNNP
+
+#Rule:Verbs
+r2balledVBD
+
+#Rule:V-PRT
+r3balledVBDUPRP
+
+#Rule:N-HeadNoun
+r8VINCENNPYOUNGNNP
+r8+NNPYOUNGNNP
+
+#Rule:HeadNoun-V
+r11YOUNGNNPballedVBD
+
+#Rule:V-HeadNoun
+r21balledVBDitPRP
+
+@lemmas-left	ball	were	outplayed	YOUNG	outplay	+	young	vince	balled	VINCE	be	
+@lemmas-right	just	they	ball	it	YOUNG	UP	young	balled	up	
+@lemmas-center	

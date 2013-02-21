@@ -1,0 +1,34 @@
+#That s why they call it a pressure cooker instead of a depressure cooker.
+#(S1 (S (NP (DT That)) (VP (VBZ s) (SBAR (WHADVP (WRB why)) (S (NP (PRP they)) (VP (VBP call) (S (NP (PRP it)) (NP (NP (DT a) (NN pressure) (NN cooker)) (PP (RB instead) (IN of) (NP (DT a) (JJ depressure) (NN cooker))))))))) (. .)))
+#Rule:Nouns
+r1pressureNN
+r1cookerNN
+r1cookerNN
+
+#Rule:Verbs
+r2sVBZ
+r2callVBP
+
+#Rule:Adjs
+r4depressureJJ
+
+#Rule:Adj-Noun
+r5depressureJJcookerNN
+
+#Rule:N-HeadNoun
+r8pressureNNcookerNN
+
+#Rule:HeadNoun-V
+r11thatDTsVBZ
+r11theyPRPcallVBP
+
+#Rule:V-HeadNoun
+r22callVBPitPRP
+r22callVBPcookerNN
+
+#Rule:PPinNP
+r26cookerNNofINcookerNN
+
+@lemmas-left	depressure	they	that	call	s	pressure	cooker	
+@lemmas-right	call	it	s	cooker	
+@lemmas-center	of	

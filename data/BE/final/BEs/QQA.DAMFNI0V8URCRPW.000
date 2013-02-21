@@ -1,0 +1,62 @@
+#Why do we get scared when we see horror films???
+#(S1 (SBARQ (WHADVP (WRB Why)) (SQ (AUX do) (NP (PRP we)) (VP (VB get) (VP (VBN scared) (SBAR (WHADVP (WRB when)) (S (NP (PRP we)) (VP (VBP see) (NP (NN horror) (NNS films)) (ADVP (RB ??)))))))) (. ?)))
+#Rule:Nouns
+r1horrorNN
+r1filmsNNS
+
+#Rule:Verbs
+r2getVB
+r2scaredVBN
+r2seeVBP
+
+#Rule:N-HeadNoun
+r8horrorNNfilmsNNS
+
+#Rule:HeadNoun-V
+r11wePRPseeVBP
+
+#Rule:V-HeadNoun
+r21seeVBPfilmsNNS
+
+#Rule:V-ADV
+r46seeVBP??RB
+
+#Please explain it clearly! 
+#(S1 (S (VP (VB Please) (VP (VB explain) (NP (PRP it)) (ADVP (RB clearly)))) (. !)))
+#Rule:Verbs
+r2pleaseVB
+r2explainVB
+
+#Rule:V-HeadNoun
+r21explainVBitPRP
+
+#Rule:V-ADV
+r46explainVBclearlyRB
+
+#Is it something to do with hormonal effect or something else!!????
+#(S1 (SQ (AUX Is) (NP (PRP it)) (NP (NP (NN something)) (SBAR (S (VP (TO to) (VP (AUX do) (PP (IN with) (NP (NP (JJ hormonal) (NN effect)) (CC or) (NP (NP (NN something)) (ADJP (JJ else) (NP (CD !!) (NNS ???))))))))))) (. ?)))
+#Rule:Nouns
+r1somethingNN
+r1effectNN
+r1somethingNN
+r1???NNS
+
+#Rule:Adjs
+r4hormonalJJ
+r4elseJJ
+
+#Rule:Adj-Noun
+r5hormonalJJeffectNN
+r5elseJJsomethingNN
+r5!!LocationAnnotation???NNS
+
+#Rule:HeadNoun-(who/that)-V
+r14somethingNNdoAUX
+
+#Rule:PPinVP
+r30doAUXwithINeffectNN
+r30doAUXwithINsomethingNN
+
+@lemmas-left	else	film	get	scared	!!	films	please	see	effect	hormonal	do	something	explain	horror	scare	???	we	
+@lemmas-right	film	??	it	effect	see	do	films	something	clearly	???	
+@lemmas-center	with	

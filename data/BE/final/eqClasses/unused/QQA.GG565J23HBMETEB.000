@@ -1,0 +1,189 @@
+BE: peopleNNS
+EQ class: theynns	themnns	
+
+BE: healthNN
+EQ class: wellnessnn	healthyjj	
+
+BE: careNN
+EQ class: tendingnn	attentionnn	aidnn	
+
+BE: CanadaLocationAnnotation
+EQ class: british_empirenn	canadianjj	british_commonwealthnn	north_atlantic_treaty_organizationnn	natonn	canadiannn	commonwealth_of_nationsnn	
+
+BE: sayVB
+EQ class: tellvb	statevb	
+
+BE: badJJ
+EQ class: badnessnn	
+
+BE: healthNNcareNN
+EQ class: healthnncarevb	carevbhealthnn	tendingnnofinhealthyjj	carennofinwellnessnn	tendingnnofinhealthnn	tendingnnofinwellnessnn	aidnnofinhealthyjj	attentionnnofinwellnessnn	wellnessnnattentionnn	healthnntendingnn	carennofinhealthyjj	healthnnattentionnn	carevbhealthyjj	carennofinhealthnn	wellnessnncarenn	healthnnaidnn	wellnessnncarevb	wellnessnnaidnn	wellnessnntendingnn	healthyjjcarenn	healthyjjattentionnn	healthyjjaidnn	attentionnnofinhealthyjj	aidnnofinwellnessnn	aidnnofinhealthnn	attentionnnofinhealthnn	carevbwellnessnn	healthyjjtendingnn	healthyjjcarevb	
+
+BE: careNNisAUX
+EQ class: aidnnisaux	carennbeaux	attentionnnisaux	tendingnnbeaux	aidnnbeaux	tendingnnisaux	attentionnnbeaux	
+
+BE: isAUXbadJJ
+EQ class: beauxbadnessnn	beauxbadjj	isauxbadnessnn	
+
+BE: isAUXinINCanadaLocationAnnotation
+EQ class: beauxininnatonn	isauxinincanadianjj	beauxininnorth_atlantic_treaty_organizationnn	isauxininbritish_commonwealthnn	isauxininnorth_atlantic_treaty_organizationnn	isauxininnatonn	beauxinincanadalocationannotation	beauxinincanadianjj	beauxininbritish_commonwealthnn	beauxinincommonwealth_of_nationsnn	beauxinincanadiannn	isauxinincommonwealth_of_nationsnn	isauxininbritish_empirenn	beauxininbritish_empirenn	isauxinincanadiannn	
+
+BE: itPRPisAUX
+EQ class: itprpbeaux	
+
+BE: isAUXnotRB
+EQ class: beauxnotrb	
+
+BE: uNNP
+EQ class: uracilnnp	
+
+BE: illnessNN
+EQ class: illjj	sicknessnn	unwellnessnn	maladynn	
+
+BE: doctorNN
+EQ class: physiciannn	dr.nn	doctorialjj	docnn	mediconn	mdnn	
+
+BE: seeVBP
+EQ class: 
+
+BE: badJJ
+EQ class: badnessnn	
+
+BE: badJJillnessNN
+EQ class: badnessnnunwellnessnn	badnessnnilljj	illvbbadlyrb	badjjilljj	badnessnnillnessnn	badjjunwellnessnn	badjjmaladynn	badnessnnsicknessnn	badjjsicknessnn	badnessnnmaladynn	
+
+BE: youPRPseeVBP
+EQ class: illusionistnnofinyouprp	beholdingnnyouprp	seeingnnyouprp	visionarynnyouprp	seernnofinyouprp	visionarynnofinyouprp	seernnyouprp	beholdingnnofinyouprp	visual_perceptionnnofinyouprp	seeingnnofinyouprp	illusionistnnyouprp	visual_perceptionnnyouprp	
+
+BE: uNNPhaveAUX
+EQ class: unnphave_gotaux	havennofinuracilnnp	wealthy_personnnofinuracilnnp	uracilnnpholdaux	unnpholdaux	wealthy_personnnofinunnp	rich_personnnofinuracilnnp	rich_personnnofinunnp	uracilnnphaveaux	uracilnnphave_gotaux	havennofinunnp	
+
+BE: haveAUXillnessNN
+EQ class: rich_personnnofinillnessnn	rich_personnnofinunwellnessnn	havennofinmaladynn	haveauxsicknessnn	wealthy_personnnofinilljj	rich_personnnofinilljj	havennofinilljj	wealthy_personnnofinillnessnn	wealthy_personnnofinsicknessnn	holdauxillnessnn	wealthy_personnnofinunwellnessnn	havennofinunwellnessnn	wealthy_personnnofinmaladynn	have_gotauxmaladynn	haveauxmaladynn	holdauxsicknessnn	haveauxilljj	have_gotauxunwellnessnn	holdauxunwellnessnn	haveauxunwellnessnn	havennofinillnessnn	holdauxilljj	rich_personnnofinmaladynn	havennofinsicknessnn	have_gotauxillnessnn	rich_personnnofinsicknessnn	have_gotauxilljj	holdauxmaladynn	have_gotauxsicknessnn	
+
+BE: seeVBPdoctorNN
+EQ class: visionarynnofindoctorialjj	seernnofindocnn	illusionistnnofindoctornn	seeingnnofinmediconn	beholdingnnofindr.nn	seeingnnofindoctorialjj	beholdingnnofinmediconn	seernnofindoctornn	visionarynnofindoctornn	visionarynnofindr.nn	illusionistnnofinphysiciannn	seernnofindoctorialjj	visual_perceptionnnofindocnn	seeingnnofinphysiciannn	illusionistnnofindocnn	seeingnnofindoctornn	seernnofindr.nn	beholdingnnofindoctorialjj	visionarynnofinmediconn	illusionistnnofindr.nn	beholdingnnofinphysiciannn	seevbpphysiciannn	seernnofinmediconn	visual_perceptionnnofindr.nn	beholdingnnofindocnn	visual_perceptionnnofindoctorialjj	visual_perceptionnnofindoctornn	seevbpdr.nn	visionarynnofinmdnn	seernnofinphysiciannn	seevbpdocnn	seeingnnofindr.nn	illusionistnnofindoctorialjj	illusionistnnofinmdnn	seevbpmdnn	seeingnnofindocnn	visionarynnofinphysiciannn	visual_perceptionnnofinmediconn	seevbpdoctorialjj	visual_perceptionnnofinphysiciannn	seevbpmediconn	seeingnnofinmdnn	visual_perceptionnnofinmdnn	illusionistnnofinmediconn	seernnofinmdnn	beholdingnnofindoctornn	beholdingnnofinmdnn	visionarynnofindocnn	
+
+BE: seeVBPfastRB
+EQ class: visual_perceptionnnofinfastrb	beholdingnnofinfastrb	seeingnnofinfastrb	illusionistnnofinfastrb	seernnofinfastrb	visionarynnofinfastrb	
+
+BE: weeksNNS
+EQ class: theynns	hebdomadnns	weeknns	themnns	weeklyjj	
+
+BE: USLocationAnnotation
+EQ class: u.s.locationannotation	oasnn	organization_of_american_statesnn	executive_office_of_the_presidentnn	americannn	north_atlantic_treaty_organizationnn	natonn	
+
+BE: uNNP
+EQ class: uracilnnp	
+
+BE: healthNN
+EQ class: wellnessnn	healthyjj	
+
+BE: waitVB
+EQ class: 
+
+BE: dieVB
+EQ class: deceasevb	kick_the_bucketvb	exitvb	pop_offvb	conkvb	give-up_the_ghostvb	snuff_itvb	perishvb	buy_the_farmvb	govb	passvb	chokevb	drop_deadvb	croakvb	cash_in_one's_chipsvb	expirevb	pass_awayvb	
+
+BE: dontVBP
+EQ class: 
+
+BE: seriousJJ
+EQ class: seriousnessnn	
+
+BE: richJJ
+EQ class: richnessnn	
+
+BE: poorJJ
+EQ class: wretchedjj	miserablejj	haplessjj	piteousjj	pitiablejj	patheticjj	pitifuljj	misfortunatejj	
+
+BE: 2CDweeksNNS
+EQ class: 2cdthemnns	twocdweeknns	iicdweeknns	deucecdtheynns	iicdweeklyjj	deucecdweeksnns	2.cdhebdomadnns	2.cdweeksnns	2cdtheynns	twocdtheynns	2cdhebdomadnns	2.cdweeklyjj	twocdhebdomadnns	twocdweeklyjj	2cdweeknns	iicdtheynns	twocdthemnns	2.cdthemnns	deucecdthemnns	iicdthemnns	2.cdweeknns	iicdweeksnns	deucecdweeknns	2.cdtheynns	twocdweeksnns	deucecdhebdomadnns	iicdhebdomadnns	2cdweeklyjj	deucecdweeklyjj	
+
+BE: 3CDweeksNNS
+EQ class: trinitycdweeklyjj	tercetcdweeklyjj	leashcdweeknns	trinitycdweeknns	troikacdweeklyjj	iiicdweeksnns	ternarycdthemnns	3cdthemnns	troikacdhebdomadnns	threecdthemnns	iiicdweeknns	ternarycdhebdomadnns	tiercecdweeklyjj	ternarycdweeklyjj	3.cdweeklyjj	leashcdtheynns	threesomecdtheynns	trinitycdtheynns	deuce-acecdhebdomadnns	ternioncdweeknns	tiercecdthemnns	trinitycdhebdomadnns	trinecdthemnns	ternioncdhebdomadnns	ternarycdtheynns	tercetcdthemnns	threecdweeknns	iiicdtheynns	treycdtheynns	leashcdthemnns	tercetcdhebdomadnns	3cdtheynns	trinecdhebdomadnns	threesomecdthemnns	deuce-acecdweeksnns	treycdweeknns	treycdhebdomadnns	threesomecdweeklyjj	3.cdweeksnns	tiercecdtheynns	tercetcdweeknns	triadcdhebdomadnns	triocdthemnns	3cdweeklyjj	treycdweeksnns	3cdweeknns	triadcdweeksnns	troikacdweeknns	tripletcdweeklyjj	threecdweeksnns	triadcdthemnns	trinitycdthemnns	treycdweeklyjj	trinitycdweeksnns	threesomecdhebdomadnns	terzettocdthemnns	ternioncdthemnns	terzettocdtheynns	tiercecdhebdomadnns	ternioncdtheynns	leashcdweeklyjj	trinecdweeklyjj	deuce-acecdweeklyjj	leashcdweeksnns	deuce-acecdweeknns	treycdthemnns	tripletcdweeksnns	threecdhebdomadnns	ternioncdweeksnns	triocdweeknns	tripletcdthemnns	troikacdtheynns	deuce-acecdthemnns	threecdtheynns	triadcdweeklyjj	tiercecdweeknns	terzettocdweeknns	tiercecdweeksnns	terzettocdweeklyjj	trinecdweeknns	threecdweeklyjj	trinecdweeksnns	terzettocdweeksnns	triocdhebdomadnns	iiicdhebdomadnns	3.cdhebdomadnns	troikacdthemnns	terzettocdhebdomadnns	threesomecdweeknns	iiicdthemnns	tripletcdweeknns	3.cdthemnns	tripletcdhebdomadnns	deuce-acecdtheynns	leashcdhebdomadnns	3cdhebdomadnns	iiicdweeklyjj	triocdweeklyjj	troikacdweeksnns	triocdtheynns	ternioncdweeklyjj	triadcdweeknns	trinecdtheynns	tripletcdtheynns	triocdweeksnns	3.cdtheynns	tercetcdtheynns	triadcdtheynns	tercetcdweeksnns	ternarycdweeksnns	threesomecdweeksnns	ternarycdweeknns	3.cdweeknns	
+
+BE: USLocationAnnotationuNNP
+EQ class: uracilnnpofinnorth_atlantic_treaty_organizationnn	uracilnnpofinu.s.locationannotation	u.s.locationannotationunnp	unnpofinu.s.locationannotation	unnpofinnorth_atlantic_treaty_organizationnn	oasnnunnp	unnpofinoasnn	uracilnnpofinamericannn	executive_office_of_the_presidentnnunnp	oasnnuracilnnp	north_atlantic_treaty_organizationnnuracilnnp	executive_office_of_the_presidentnnuracilnnp	uracilnnpofinuslocationannotation	uracilnnpofinoasnn	uracilnnpofinexecutive_office_of_the_presidentnn	uslocationannotationuracilnnp	unnpofinuslocationannotation	north_atlantic_treaty_organizationnnunnp	uracilnnpofinorganization_of_american_statesnn	natonnunnp	organization_of_american_statesnnuracilnnp	uracilnnpofinnatonn	unnpofinexecutive_office_of_the_presidentnn	unnpofinorganization_of_american_statesnn	americannnunnp	organization_of_american_statesnnunnp	u.s.locationannotationuracilnnp	natonnuracilnnp	unnpofinamericannn	americannnuracilnnp	unnpofinnatonn	
+
+BE: youPRPwaitVB
+EQ class: holdnnofinyouprp	time_lagnnofinyouprp	waitnnofinyouprp	waitnnyouprp	waitingnnyouprp	waiternnofinyouprp	servernnyouprp	delaynnofinyouprp	waiternnyouprp	postponementnnofinyouprp	waitingnnofinyouprp	servernnofinyouprp	
+
+BE: uNNPdieVB
+EQ class: uracilnnpcash_in_one's_chipsvb	unnpexpirevb	unnpcroakvb	uracilnnpchokevb	expirynnunnp	unnpgive-up_the_ghostvb	deceasennuracilnnp	unnpsnuff_itvb	unnpexitvb	deceasennunnp	uracilnnpkick_the_bucketvb	uracilnnppassvb	unnpgovb	unnppassvb	deathnnunnp	uracilnnpgive-up_the_ghostvb	unnppass_awayvb	unnpperishvb	unnpchokevb	uracilnnpexpirevb	unnpbuy_the_farmvb	uracilnnpconkvb	uracilnnpsnuff_itvb	unnppop_offvb	unnpconkvb	deceasennofinuracilnnp	deceasennofinunnp	uracilnnpdrop_deadvb	unnpcash_in_one's_chipsvb	deathnnofinunnp	uracilnnpdievb	uracilnnpdeceasevb	expirynnofinuracilnnp	uracilnnpbuy_the_farmvb	deathnnuracilnnp	uracilnnpcroakvb	unnpdrop_deadvb	uracilnnppass_awayvb	deathnnofinuracilnnp	uracilnnpexitvb	uracilnnpperishvb	expirynnofinunnp	uracilnnppop_offvb	unnpkick_the_bucketvb	unnpdeceasevb	expirynnuracilnnp	uracilnnpgovb	
+
+BE: youPRPdontVBP
+EQ class: 
+
+BE: richJJhaveAUX
+EQ class: richnessnnholdaux	richnessnnhave_gotaux	rich_personnnofinrichnessnn	richjjholdaux	rich_personnnofinrichjj	havennofinrichjj	richnessnnhaveaux	richjjhave_gotaux	havennofinrichnessnn	wealthy_personnnofinrichjj	wealthy_personnnofinrichnessnn	
+
+BE: waitVBweeksNNS
+EQ class: waiternnofinhebdomadnns	servernnofinthemnns	servernnofinweeksnns	waitvbweeknns	waitvbthemnns	delaynnofintheynns	waitingnnofinweeknns	delaynnofinhebdomadnns	servernnofinweeknns	postponementnnofinthemnns	waitvbtheynns	waiternnofintheynns	waitnnofinhebdomadnns	waitnnofinweeksnns	servernnofintheynns	waitvbhebdomadnns	time_lagnnofinweeknns	servernnofinweeklyjj	time_lagnnofinhebdomadnns	holdnnofintheynns	holdnnofinweeklyjj	waitingnnofintheynns	time_lagnnofinweeksnns	waitingnnofinweeksnns	postponementnnofinweeknns	delaynnofinweeksnns	waitnnofinweeklyjj	delaynnofinweeknns	waitnnofinthemnns	holdnnofinhebdomadnns	waitingnnofinhebdomadnns	postponementnnofinweeksnns	waitingnnofinthemnns	waitnnofintheynns	holdnnofinweeksnns	servernnofinhebdomadnns	holdnnofinweeknns	time_lagnnofintheynns	time_lagnnofinweeklyjj	waiternnofinthemnns	time_lagnnofinthemnns	waitnnofinweeknns	waiternnofinweeknns	holdnnofinthemnns	waitvbweeklyjj	postponementnnofinweeklyjj	delaynnofinweeklyjj	postponementnnofinhebdomadnns	postponementnnofintheynns	delaynnofinthemnns	waiternnofinweeksnns	waitingnnofinweeklyjj	waiternnofinweeklyjj	
+
+BE: haveAUXitPRP
+EQ class: rich_personnnofinitprp	havennofinitprp	wealthy_personnnofinitprp	have_gotauxitprp	holdauxitprp	
+
+BE: isAUXseriousJJ
+EQ class: isauxseriousnessnn	beauxseriousnessnn	beauxseriousjj	
+
+BE: waitVBifINisAUX
+EQ class: waitvbifinbeaux	
+
+BE: dieVBifINdontVBP
+EQ class: conkvbifindontvbp	buy_the_farmvbifindontvbp	give-up_the_ghostvbifindontvbp	govbifindontvbp	snuff_itvbifindontvbp	passvbifindontvbp	perishvbifindontvbp	exitvbifindontvbp	kick_the_bucketvbifindontvbp	deceasevbifindontvbp	chokevbifindontvbp	expirevbifindontvbp	drop_deadvbifindontvbp	pass_awayvbifindontvbp	croakvbifindontvbp	cash_in_one's_chipsvbifindontvbp	pop_offvbifindontvbp	
+
+BE: waitVBonlyRB
+EQ class: delaynnofinonlyrb	holdnnofinonlyrb	waitingnnofinonlyrb	time_lagnnofinonlyrb	waiternnofinonlyrb	waitnnofinonlyrb	servernnofinonlyrb	postponementnnofinonlyrb	
+
+BE: isAUXnotRB
+EQ class: beauxnotrb	
+
+BE: CanadaLocationAnnotation
+EQ class: british_empirenn	canadianjj	british_commonwealthnn	north_atlantic_treaty_organizationnn	natonn	canadiannn	commonwealth_of_nationsnn	
+
+BE: goVB
+EQ class: locomotevb	movevb	travelvb	
+
+BE: goVBCanadaLocationAnnotation
+EQ class: movevbnatonn	locomotevbbritish_commonwealthnn	movevbcommonwealth_of_nationsnn	locomotevbcanadiannn	locomotevbnorth_atlantic_treaty_organizationnn	travelvbbritish_empirenn	locomotevbbritish_empirenn	govbcanadiannn	govbnorth_atlantic_treaty_organizationnn	movevbbritish_empirenn	movevbcanadiannn	govbcanadianjj	travelvbnatonn	govbbritish_commonwealthnn	travelvbcanadianjj	movevbbritish_commonwealthnn	locomotevbnatonn	movevbcanadalocationannotation	movevbnorth_atlantic_treaty_organizationnn	locomotevbcanadianjj	travelvbcommonwealth_of_nationsnn	locomotevbcommonwealth_of_nationsnn	movevbcanadianjj	govbnatonn	travelvbnorth_atlantic_treaty_organizationnn	govbcommonwealth_of_nationsnn	locomotevbcanadalocationannotation	travelvbcanadalocationannotation	travelvbbritish_commonwealthnn	govbbritish_empirenn	travelvbcanadiannn	
+
+BE: personNN
+EQ class: someonenn	soulnn	individualnn	somebodynn	mortalnn	
+
+BE: heathNN
+EQ class: family_ericaceaenn	ericaceaenn	
+
+BE: careNN
+EQ class: tendingnn	attentionnn	aidnn	
+
+BE: bornVBN
+EQ class: bearvbn	
+
+BE: liveVBP
+EQ class: dwellvbp	populatevbp	inhabitvbp	
+
+BE: goodJJ
+EQ class: goodnessnn	
+
+BE: bornVBNpersonNN
+EQ class: bornvbnsoulnn	bornvbnsomeonenn	bearvbnsomebodynn	bearvbnindividualnn	bearvbnsomeonenn	bornvbnmortalnn	bornvbnindividualnn	bornvbnsomebodynn	bearvbnpersonnn	bearvbnsoulnn	bearvbnmortalnn	
+
+BE: goodJJcareNN
+EQ class: goodnessnntendingnn	goodnessnncarenn	goodjjattentionnn	goodnessnnaidnn	goodjjtendingnn	goodnessnnattentionnn	goodjjaidnn	
+
+BE: heathNNcareNN
+EQ class: carennofinheathnn	tendingnnofinfamily_ericaceaenn	family_ericaceaenncarevb	ericaceaenncarevb	tendingnnofinheathnn	family_ericaceaennattentionnn	carevbheathnn	carennofinfamily_ericaceaenn	aidnnofinfamily_ericaceaenn	carevbericaceaenn	carennofinericaceaenn	attentionnnofinfamily_ericaceaenn	ericaceaennaidnn	family_ericaceaenntendingnn	heathnnaidnn	attentionnnofinericaceaenn	attentionnnofinheathnn	heathnnattentionnn	heathnncarevb	ericaceaenntendingnn	carevbfamily_ericaceaenn	ericaceaennattentionnn	heathnntendingnn	family_ericaceaenncarenn	family_ericaceaennaidnn	tendingnnofinericaceaenn	aidnnofinheathnn	aidnnofinericaceaenn	ericaceaenncarenn	
+
+BE: Oh iLocationAnnotationamAUX
+EQ class: oh ilocationannotationbeaux	
+
+BE: amAUXpersonNN
+EQ class: amauxsoulnn	amauxsomeonenn	amauxindividualnn	amauxmortalnn	beauxpersonnn	beauxsoulnn	beauxmortalnn	beauxsomebodynn	amauxsomebodynn	beauxsomeonenn	beauxindividualnn	
+
+BE: needAUXcareNN
+EQ class: takeauxtendingnn	postulateauxaidnn	postulateauxattentionnn	demandnnofintendingnn	demandnnofincarenn	involveauxcarenn	askauxattentionnn	needauxaidnn	requireauxaidnn	requireauxcarenn	postulateauxcarenn	necessitateauxcarenn	call_forauxcarenn	necessitateauxaidnn	involveauxaidnn	takeauxaidnn	demandnnofinaidnn	neednnofincarenn	neednnofinaidnn	requireauxtendingnn	askauxtendingnn	call_forauxaidnn	demandauxtendingnn	askauxaidnn	involveauxtendingnn	takeauxcarenn	needauxattentionnn	needauxtendingnn	requireauxattentionnn	demandauxaidnn	askauxcarenn	demandauxattentionnn	involveauxattentionnn	neednnofinattentionnn	takeauxattentionnn	neednnofintendingnn	postulateauxtendingnn	necessitateauxtendingnn	demandauxcarenn	call_forauxattentionnn	demandnnofinattentionnn	necessitateauxattentionnn	call_forauxtendingnn	
+
+BE: liveVBPhereRB
+EQ class: inhabitvbphererb	livernnofinhererb	livablennofinhererb	dwellvbphererb	liveryjjofinhererb	populatevbphererb	liveablennofinhererb	
+

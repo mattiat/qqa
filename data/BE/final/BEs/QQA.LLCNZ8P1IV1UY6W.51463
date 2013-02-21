@@ -1,0 +1,73 @@
+#It was the most painful experience of my life. 
+#(S1 (S (NP (PRP It)) (VP (AUX was) (NP (NP (DT the) (ADJP (JJS most) (JJ painful)) (NN experience)) (PP (IN of) (NP (PRP$ my) (NN life))))) (. .)))
+#Rule:Nouns
+r1experienceNN
+r1lifeNN
+
+#Rule:Adjs
+r4mostJJS
+r4painfulJJ
+
+#Rule:Adj-Noun
+r5mostJJSexperienceNN
+r5painfulJJexperienceNN
+
+#Rule:PRP-Noun
+r6myPRP$lifeNN
+
+#Rule:HeadNoun-V
+r11itPRPwasAUX
+
+#Rule:V-HeadNoun
+r21wasAUXexperienceNN
+
+#Rule:PPinNP
+r26experienceNNofINlifeNN
+
+#The pain was similar to being stabbed in the eyeball by a pen knife. 
+#(S1 (S (NP (DT The) (NN pain)) (VP (AUX was) (ADJP (JJ similar) (PP (TO to) (S (VP (AUXG being) (VP (VBN stabbed) (PP (IN in) (NP (DT the) (NN eyeball))) (PP (IN by) (NP (DT a) (NN pen) (NN knife))))))))) (. .)))
+#Rule:Nouns
+r1painNN
+r1eyeballNN
+r1penNN
+r1knifeNN
+
+#Rule:Verbs
+r2stabbedVBN
+
+#Rule:Adjs
+r4similarJJ
+
+#Rule:N-HeadNoun
+r8penNNknifeNN
+
+#Rule:HeadNoun-V
+r11painNNwasAUX
+
+#Rule:V-By-Agent
+r13knifeNNstabbedVBN
+
+#Rule:V-ADJ
+r25wasAUXsimilarJJ
+
+#Rule:PPinVP
+r32stabbedVBNinINeyeballNN
+
+#Rule:PPinADJP
+r38similarJJtoTOstabbedVBN
+
+#Rule:BE-ADJP-IN-VBG
+r51painNNbeingAUXG
+r51painNNstabbedVBN
+
+#Have fun!
+#(S1 (SQ (VP (AUX Have) (NP (NN fun))) (. !)))
+#Rule:Nouns
+r1funNN
+
+#Rule:V-HeadNoun
+r21haveAUXfunNN
+
+@lemmas-left	it	have	stabbed	most	pain	painful	fun	my	was	pen	life	stab	experience	eyeball	knife	similar	be	
+@lemmas-right	life	being	stabbed	stab	experience	fun	eyeball	knife	similar	was	be	
+@lemmas-center	to	of	in	

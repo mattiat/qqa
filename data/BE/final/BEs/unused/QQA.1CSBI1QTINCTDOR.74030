@@ -1,0 +1,121 @@
+#Well, in the Yalta conference that idiot Roosevelt gave Stalin half Europe (Churchill might have had a part in it as well) . 
+#(S1 (S (ADVP (RB Well)) (, ,) (PP (IN in) (NP (NP (DT the) (NNP Yalta) (NN conference)) (SBAR (WHNP (WDT that)) (S (NP (JJ idiot) (NNP Roosevelt)) (VP (VBD gave) (NP (NNP Stalin)) (NP (JJ half) (NNP Europe))))))) (-LRB- -LRB-) (NP (NNP Churchill)) (VP (MD might) (VP (AUX have) (VP (AUX had) (NP (NP (DT a) (NN part)) (PP (IN in) (NP (PRP it)))) (ADVP (RB as) (RB well))))) (-RRB- -RRB-) (. .)))
+#Rule:Nouns
+r1YaltaOrganizationAnnotation
+r1conferenceNN
+r1idiot RooseveltPersonAnnotation
+r1StalinPersonAnnotation
+r1EuropeLocationAnnotation
+r1ChurchillOrganizationAnnotation
+r1partNN
+
+#Rule:Verbs
+r2gaveVBD
+
+#Rule:Adjs
+r4halfJJ
+
+#Rule:Adj-Noun
+r5halfJJEuropeLocationAnnotation
+
+#Rule:N-HeadNoun
+r8YaltaOrganizationAnnotationconferenceNN
+
+#Rule:HeadNoun-V
+r11ChurchillOrganizationAnnotationhadAUX
+r11idiot RooseveltPersonAnnotationgaveVBD
+
+#Rule:V-HeadNoun
+r21gaveVBDStalinPersonAnnotation
+r21gaveVBDEuropeLocationAnnotation
+r21hadAUXpartNN
+
+#Rule:PPinNP
+r26partNNinINitPRP
+
+#Rule:PPinS
+r36mightMDinINconferenceNN
+
+#Rule:V-ADV
+r46hadAUXasRB
+r46hadAUXwellRB
+
+#After the WWII finished, then Stalin showed the teeth and the yanks realized that they had made a mistake, as usual, in foreigner politicsBut too late. 
+#(S1 (S (SBAR (IN After) (S (NP (DT the) (NNP WWII)) (VP (VBD finished)))) (, ,) (RB then) (NP (NNP Stalin)) (VP (VBD showed) (SBAR (S (NP (NP (DT the) (NNS teeth)) (CC and) (NP (DT the) (NNS yanks))) (VP (VBD realized) (SBAR (IN that) (S (NP (PRP they)) (VP (AUX had) (VP (VBN made) (NP (NP (DT a) (NN mistake)) (, ,) (ADJP (RB as) (JJ usual)) (, ,) (PP (IN in) (NP (NN foreigner) (NN politicsBut)))) (ADVP (RB too) (RB late)))))))))) (. .)))
+#Rule:Nouns
+r1WWIIPersonAnnotation
+r1StalinOrganizationAnnotation
+r1teethNNS
+r1yanksNNS
+r1mistakeNN
+r1foreignerNN
+r1politicsButNN
+
+#Rule:Verbs
+r2finishedVBD
+r2showedVBD
+r2realizedVBD
+r2madeVBN
+
+#Rule:Adjs
+r4usualJJ
+
+#Rule:Adj-Noun
+r5usualJJmistakeNN
+
+#Rule:N-HeadNoun
+r8foreignerNNpoliticsButNN
+
+#Rule:HeadNoun-V
+r11StalinOrganizationAnnotationshowedVBD
+r11WWIIPersonAnnotationfinishedVBD
+r11teethNNSrealizedVBD
+r11yanksNNSrealizedVBD
+
+#Rule:HeadNoun-V
+r12theyPRPmadeVBN
+
+#Rule:V-HeadNoun
+r21madeVBNmistakeNN
+
+#Rule:PPinNP
+r26mistakeNNinINpoliticsButNN
+
+#Rule:V-IN-V
+r43realizedVBDthatINmadeVBN
+
+#Rule:V-ADV
+r46madeVBNtooRB
+r46madeVBNlateRB
+
+#Luckily for everybody, Gorbachev pulverized comunism and things went back to normal
+#(S1 (S (PP (ADVP (RB Luckily)) (IN for) (NP (NN everybody))) (, ,) (S (NP (NNP Gorbachev)) (VP (VBD pulverized) (NP (NN comunism)))) (CC and) (S (NP (NNS things)) (VP (VBD went) (ADVP (RB back) (PP (TO to) (NP (JJ normal))))))))
+#Rule:Nouns
+r1everybodyNN
+r1GorbachevPersonAnnotation
+r1comunismNN
+r1thingsNNS
+
+#Rule:Verbs
+r2pulverizedVBD
+r2wentVBD
+
+#Rule:Adjs
+r4normalJJ
+
+#Rule:HeadNoun-V
+r11GorbachevPersonAnnotationpulverizedVBD
+r11thingsNNSwentVBD
+
+#Rule:V-HeadNoun
+r21pulverizedVBDcomunismNN
+
+#Rule:PPinS
+r36pulverizedVBDforINeverybodyNN
+
+#Rule:V-ADV
+r46wentVBDbackRB
+
+@lemmas-left	they	realize	might	Churchill	have	give	normal	made	half	Europe	show	went	showed	idiot Roosevelt	WWII	everybody	conference	yanks	had	Yalta	pulverized	usual	mistake	Gorbachev	foreigner	yank	comunism	finished	teeth	finish	gave	politicsBut	Stalin	things	part	make	go	pulverize	realized	politicsbut	
+@lemmas-right	realize	give	have	made	Europe	show	well	went	showed	everybody	conference	had	too	pulverized	mistake	it	comunism	back	as	finished	finish	gave	late	politicsBut	Stalin	part	make	go	politicsbut	realized	pulverize	
+@lemmas-center	that	for	in	

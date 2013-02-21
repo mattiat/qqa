@@ -1,0 +1,384 @@
+#As far as i am aware off the top of my head you are out for..
+#(S1 (S (ADVP (RB As) (RB far)) (S (SBAR (IN as) (S (NP (PRP i)) (VP (AUX am) (ADJP (JJ aware) (PP (IN off) (NP (NP (DT the) (NN top)) (PP (IN of) (NP (PRP$ my) (NN head))))))))) (NP (PRP you)) (VP (AUX are) (PP (IN out) (PP (IN for)))) (. .)) (. .)))
+#Rule:Nouns
+r1topNN
+r1headNN
+
+#Rule:Adjs
+r4awareJJ
+
+#Rule:PRP-Noun
+r6myPRP$headNN
+
+#Rule:HeadNoun-V
+r11youPRPareAUX
+r11iLocationAnnotationamAUX
+
+#Rule:PPinNP
+r26topNNofINheadNN
+
+#Rule:PPinADJP
+r37awareJJoffINtopNN
+
+#Being bowled directly..
+#(S1 (S (VP (AUXG Being) (VP (VBN bowled) (ADVP (RB directly) (. .)))) (. .)))
+#Rule:Verbs
+r2bowledVBN
+
+#Rule:V-ADV
+r46bowledVBNdirectlyRB
+
+#Being stumped while running..
+#(S1 (S (NP (AUXG Being)) (VP (VBD stumped) (SBAR (IN while) (S (VP (VBG running)))) (. .)) (. .)))
+#Rule:Verbs
+r2stumpedVBD
+r2runningVBG
+
+#Rule:HeadNoun-V
+r11BeingAUXGstumpedVBD
+
+#Rule:V-IN-V
+r43stumpedVBDwhileINrunningVBG
+
+#Being stumped by advancing from the crease to take a shot..
+#(S1 (S (VP (AUXG Being) (VP (VBN stumped) (PP (IN by) (S (VP (VBG advancing) (PP (IN from) (NP (DT the) (NN crease) (S (VP (TO to) (VP (VB take) (NP (DT a) (NN shot))))) (. .)))))))) (. .)))
+#Rule:Nouns
+r1creaseNN
+r1shotNN
+
+#Rule:Verbs
+r2stumpedVBN
+r2advancingVBG
+r2takeVB
+
+#Rule:V-HeadNoun
+r21takeVBshotNN
+
+#Rule:PPinVP
+r30advancingVBGfromINcreaseNN
+
+#Being caught out..
+#(S1 (S (VP (AUXG Being) (VP (VBN caught) (PRT (RP out))) (. .)) (. .)))
+#Rule:V-PRT
+r3caughtVBNoutRP
+
+#The infamous and oft contravercial LBW where the umpire judges that the ball struck you leg pad blocking what would ve been a bowled..
+#(S1 (S (NP (DT The) (ADJP (JJ infamous) (CC and) (JJ oft)) (NN contravercial)) (VP (VBZ LBW) (SBAR (WHADVP (WRB where)) (S (NP (NP (DT the) (JJ umpire) (NNS judges)) (SBAR (WHNP (WDT that)) (S (NP (DT the) (NN ball)) (VP (VBD struck) (NP (PRP you)) (NP (NN leg) (NN pad)))))) (VP (VBG blocking) (SBAR (WHNP (WP what)) (S (VP (MD would) (RB ve) (VP (AUX been) (NP (DT a) (JJ bowled))))))) (. .)))) (. .)))
+#Rule:Nouns
+r1contravercialNN
+r1judgesNNS
+r1ballNN
+r1legNN
+r1padNN
+
+#Rule:Verbs
+r2LBWLocationAnnotation
+r2struckVBD
+r2blockingVBG
+
+#Rule:Adjs
+r4infamousJJ
+r4oftJJ
+r4umpireOrganizationAnnotation
+r4bowledJJ
+
+#Rule:Adj-Noun
+r5infamousJJcontravercialNN
+r5oftJJcontravercialNN
+r5umpireOrganizationAnnotationjudgesNNS
+
+#Rule:N-HeadNoun
+r8legNNpadNN
+
+#Rule:HeadNoun-V
+r11contravercialNNLBWLocationAnnotation
+r11judgesNNSblockingVBG
+r11ballNNstruckVBD
+
+#Rule:V-HeadNoun
+r21struckVBDyouPRP
+r21struckVBDpadNN
+r21beenAUXbowledJJ
+
+#If you hit your own wickett from a deflection off your body or bat from a ball (excluding bouncers).
+#(S1 (FRAG (SBAR (IN If) (S (NP (PRP you)) (VP (VBP hit) (NP (PRP$ your) (JJ own) (NN wickett)) (PP (IN from) (NP (NP (NP (DT a) (NN deflection)) (PP (IN off) (NP (PRP$ your) (NN body)))) (CC or) (NP (NP (NN bat)) (PP (IN from) (NP (DT a) (NN ball))) (PRN (-LRB- -LRB-) (PP (VBG excluding) (NP (NNS bouncers))) (-RRB- -RRB-)))))))) (. .)))
+#Rule:Nouns
+r1wickettNN
+r1deflectionNN
+r1bodyNN
+r1batNN
+r1ballNN
+r1bouncersNNS
+
+#Rule:Verbs
+r2hitVBP
+r2excludingVBG
+
+#Rule:Adjs
+r4ownJJ
+
+#Rule:Adj-Noun
+r5ownJJwickettNN
+
+#Rule:PRP-Noun
+r6yourPRP$wickettNN
+r6yourPRP$bodyNN
+
+#Rule:HeadNoun-V
+r11youPRPhitVBP
+
+#Rule:V-HeadNoun
+r21hitVBPwickettNN
+
+#Rule:PPinNP
+r26deflectionNNoffINbodyNN
+r26batNNfromINballNN
+
+#Rule:PPinVP
+r30hitVBPfromINdeflectionNN
+r30hitVBPfromINbatNN
+
+#Knocking your own wickett over by your bat, body or foot etc while being in bat.
+#(S1 (S (S (VP (VBG Knocking) (NP (PRP$ your) (JJ own) (NN wickett)) (PRT (RP over)) (PP (IN by) (NP (PRP$ your) (NN bat) (, ,) (NN body) (CC or) (NN foot))))) (VP (NN etc) (SBAR (IN while) (S (VP (AUXG being) (PP (IN in) (NP (NN bat))))))) (. .)))
+#Rule:Nouns
+r1wickettNN
+r1batNN
+r1bodyNN
+r1footNN
+r1etcNN
+r1batNN
+
+#Rule:Verbs
+r2knockingVBG
+
+#Rule:V-PRT
+r3knockingVBGoverRP
+
+#Rule:Adjs
+r4ownJJ
+
+#Rule:Adj-Noun
+r5ownJJwickettNN
+
+#Rule:PRP-Noun
+r6yourPRP$wickettNN
+r6yourPRP$bodyNN
+
+#Rule:V-HeadNoun
+r21knockingVBGwickettNN
+
+#Rule:PPinVP
+r30knockingVBGbyINbodyNN
+
+# (thanks warney for last year!
+#(S1 (S (-LRB- -LRB-) (NP (NNS thanks)) (VP (VBP warney) (PP (IN for) (NP (JJ last) (NN year)))) (. !)))
+#Rule:Nouns
+r1thanksNNS
+r1yearNN
+
+#Rule:Verbs
+r2warneyVBP
+
+#Rule:Adjs
+r4lastJJ
+
+#Rule:Adj-Noun
+r5lastJJyearNN
+
+#Rule:HeadNoun-V
+r11thanksNNSwarneyVBP
+
+#Rule:PPinVP
+r30warneyVBPforINyearNN
+
+#)and one of the more obscure ones i beleive is touching the ball with your hands while batting, i think that is classed as tampering and can be given as an out if the opposition appeal.
+#(S1 (S (-RRB- -RRB-) (CC and) (NP (NP (CD one)) (PP (IN of) (NP (NP (DT the) (ADJP (RBR more) (JJ obscure)) (NNS ones)) (SBAR (S (NP (PRP i)) (VP (VBP beleive))))))) (VP (AUX is) (VP (VBG touching) (NP (DT the) (NN ball)) (PP (IN with) (NP (PRP$ your) (NNS hands))) (PP (IN while) (NP (NN batting))) (, ,) (S (NP (PRP i)) (VP (VBP think) (SBAR (S (NP (DT that)) (VP (AUX is) (VP (VBN classed) (PP (IN as) (S (VP (VP (VBG tampering)) (CC and) (VP (MD can) (VP (AUX be) (VP (VBN given) (PP (IN as) (NP (DT an) (NN out))) (SBAR (IN if) (S (NP (DT the) (NN opposition)) (VP (VB appeal)))))))))))))))))) (. .)))
+#Rule:Nouns
+r1onesNNS
+r1ballNN
+r1handsNNS
+r1battingNN
+r1outNN
+r1oppositionNN
+
+#Rule:Verbs
+r2beleiveVBP
+r2touchingVBG
+r2thinkVBP
+r2classedVBN
+r2tamperingVBG
+r2givenVBN
+r2appealVB
+
+#Rule:Adjs
+r4obscureJJ
+
+#Rule:Adj-Noun
+r5obscureJJonesNNS
+
+#Rule:PRP-Noun
+r6yourPRP$handsNNS
+
+#Rule:HeadNoun-V
+r11oneCDtouchingVBG
+r11iLocationAnnotationbeleiveVBP
+r11iOrganizationAnnotationthinkVBP
+r11oppositionNNappealVB
+
+#Rule:NP(NP(z) SBAR(S(NP(x)VP(y))))
+r19beleiveVBPonesNNS
+
+#Rule:V-HeadNoun
+r21touchingVBGballNN
+
+#Rule:V-HeadNoun
+r22touchingVBGiOrganizationAnnotation
+
+#Rule:V-HeadNoun(passive)
+r23classedVBNthatDT
+
+#Rule:PPinNP
+r26oneCDofINonesNNS
+
+#Rule:PPinVP
+r30touchingVBGwithINhandsNNS
+r30touchingVBGwhileINbattingNN
+
+#Rule:PPinVP
+r32givenVBNasINoutNN
+
+#Rule:V-IN-V
+r43givenVBNifINappealVB
+
+# i think i saw this in a test match a few years ago.
+#(S1 (S (NP (PRP i)) (VP (VBP think) (SBAR (S (NP (PRP i)) (VP (VBD saw) (NP (DT this)) (PP (IN in) (NP (NP (DT a) (NN test) (NN match)) (ADVP (NP (DT a) (JJ few) (NNS years)) (RB ago)))))))) (. .)))
+#Rule:Nouns
+r1testNN
+r1matchNN
+r1yearsNNS
+
+#Rule:Verbs
+r2thinkVBP
+r2sawVBD
+
+#Rule:Adjs
+r4fewJJ
+
+#Rule:Adj-Noun
+r5fewJJyearsNNS
+
+#Rule:N-HeadNoun
+r8testNNmatchNN
+
+#Rule:HeadNoun-V
+r11iPersonAnnotationthinkVBP
+r11iPersonAnnotationsawVBD
+
+#Rule:V-HeadNoun
+r21sawVBDthisDT
+
+#Rule:PPinVP
+r30sawVBDinINmatchNN
+
+#and thats not out if the ball strikes your hand.
+#(S1 (FRAG (CC and) (NP (NNS thats)) (SBAR (ADVP (RB not) (RB out)) (IN if) (S (NP (DT the) (NN ball)) (VP (VBZ strikes) (NP (PRP$ your) (NN hand))))) (. .)))
+#Rule:Nouns
+r1thatsLocationAnnotation
+r1ballNN
+r1handNN
+
+#Rule:Verbs
+r2strikesVBZ
+
+#Rule:PRP-Noun
+r6yourPRP$handNN
+
+#Rule:HeadNoun-V
+r11ballNNstrikesVBZ
+
+#Rule:V-HeadNoun
+r21strikesVBZhandNN
+
+# as i remember the out was given because the batsman flipped the ball to the opposition with his hands as a gesture of friendly play.
+#(S1 (S (SBAR (IN as) (S (NP (PRP i)) (VP (VBP remember) (NP (DT the) (NN out))))) (VP (AUX was) (VP (VBN given) (SBAR (IN because) (S (NP (DT the) (NN batsman)) (VP (VBD flipped) (NP (DT the) (NN ball)) (PP (TO to) (NP (DT the) (NN opposition))) (PP (IN with) (NP (NP (PRP$ his) (NNS hands)) (PP (IN as) (NP (NP (DT a) (NN gesture)) (PP (IN of) (NP (JJ friendly) (NN play)))))))))))) (. .)))
+#Rule:Nouns
+r1outNN
+r1batsmanNN
+r1ballNN
+r1oppositionNN
+r1handsNNS
+r1gestureNN
+r1playNN
+
+#Rule:Verbs
+r2rememberVBP
+r2givenVBN
+r2flippedVBD
+
+#Rule:Adjs
+r4friendlyJJ
+
+#Rule:Adj-Noun
+r5friendlyJJplayNN
+
+#Rule:PRP-Noun
+r6hisPRP$handsNNS
+
+#Rule:HeadNoun-V
+r11as iPersonAnnotationrememberVBP
+r11batsmanNNflippedVBD
+
+#Rule:V-HeadNoun
+r21rememberVBPoutNN
+r21flippedVBDballNN
+
+#Rule:PPinNP
+r26handsNNSasINgestureNN
+r26gestureNNofINplayNN
+
+#Rule:PPinVP
+r30flippedVBDtoTOoppositionNN
+r30flippedVBDwithINhandsNNS
+
+#Rule:V-IN-V
+r43givenVBNbecauseINflippedVBD
+
+# and they rewarded him by appealing and having him gone.
+#(S1 (S (CC and) (NP (PRP they)) (VP (VBN rewarded) (NP (PRP him)) (PP (IN by) (S (VP (VP (VBG appealing)) (CC and) (VP (AUXG having) (S (NP (PRP him)) (VP (VBN gone)))))))) (. .)))
+#Rule:Verbs
+r2rewardedVBN
+r2appealingVBG
+r2goneVBN
+
+#Rule:V-HeadNoun
+r21rewardedVBNhimPRP
+
+#Rule:V-HeadNoun
+r22havingAUXGhimPRP
+
+#Rule:V-HeadNoun(passive)
+r24rewardedVBNtheyPRP
+r24goneVBNhimPRP
+
+#hope it wasn t you mark.
+#(S1 (S (VP (VBP hope) (SBAR (S (NP (PRP it)) (VP (MD wasn) (VP (VB t) (S (NP (PRP you)) (VP (VB mark)))))))) (. .)))
+#Rule:Verbs
+r2hopeVBP
+r2tVB
+r2markVB
+
+#Rule:HeadNoun-V
+r11itPRPtVB
+r11youPRPmarkVB
+
+#Rule:V-HeadNoun
+r22tVByouPRP
+
+# lol
+#(S1 (NP (NNP lol)))
+#Rule:Nouns
+r1lolOrganizationAnnotation
+
+@lemmas-left	thats	test	etc	bouncer	crease	bouncers	knock	thanks	umpire	given	appealing	appeal	year	lol	as i	few	excluding	blocking	touch	contravercial	own	bat	saw	Being	years	go	give	block	run	running	strike	classed	warney	caught	flip	advancing	ball	judges	exclude	friendly	ones	my	i	leg	t	strikes	having	body	stumped	tamper	bowled	last	foot	being	batsman	aware	shot	been	beleive	his	hit	infamous	obscure	wickett	head	be	think	LBW	stump	reward	opposition	class	rewarded	mark	gone	flipped	match	hope	remember	one	catch	struck	hand	tampering	hands	batting	deflection	top	pad	bowl	it	your	gesture	play	you	oft	knocking	take	touching	advance	out	
+@lemmas-right	they	body	stumped	bowled	him	shot	crease	beleive	over	are	hit	appeal	year	wickett	head	directly	be	think	LBW	stump	opposition	mark	that	blocking	touch	contravercial	flipped	bat	saw	years	match	this	remember	one	block	run	running	struck	hand	strike	hands	batting	warney	deflection	flip	top	bowl	pad	ball	judges	gesture	play	you	ones	i	t	am	touching	strikes	out	
+@lemmas-center	because	to	of	with	for	if	off	as	by	from	in	while	

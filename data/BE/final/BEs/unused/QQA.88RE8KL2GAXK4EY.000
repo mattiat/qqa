@@ -1,0 +1,21 @@
+#How can one be perfect in an imperfect world?
+#(S1 (SBARQ (WHADVP (WRB How)) (SQ (MD can) (NP (PRP one)) (VP (AUX be) (ADJP (JJ perfect)) (PP (IN in) (NP (DT an) (JJ imperfect) (NN world))))) (. ?)))
+#Rule:Nouns
+r1worldNN
+
+#Rule:Adjs
+r4perfectJJ
+r4imperfectJJ
+
+#Rule:Adj-Noun
+r5imperfectJJworldNN
+
+#Rule:V-ADJ
+r25beAUXperfectJJ
+
+#Rule:PPinVP
+r30beAUXinINworldNN
+
+@lemmas-left	imperfect	perfect	world	be	
+@lemmas-right	perfect	world	
+@lemmas-center	in	

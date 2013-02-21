@@ -1,0 +1,112 @@
+#One approach might be to lie prone on the ground showing your belly- the bear will supposedly accept this as a sign of submission and walk off. 
+#(S1 (S (NP (CD One) (NN approach)) (VP (MD might) (VP (AUX be) (S (VP (TO to) (VP (VB lie) (ADVP (JJ prone)) (PP (IN on) (NP (DT the) (NN ground))) (S (VP (VBG showing) (NP (PRP$ your) (NN belly-)) (SBAR (S (NP (DT the) (NN bear)) (VP (MD will) (ADVP (RB supposedly)) (VP (VP (VB accept) (NP (DT this)) (PP (IN as) (NP (NP (DT a) (NN sign)) (PP (IN of) (NP (NN submission)))))) (CC and) (VP (VB walk) (PRT (RP off)))))))))))))) (. .)))
+#Rule:Nouns
+r1approachNN
+r1groundNN
+r1belly-NN
+r1bearNN
+r1signNN
+r1submissionNN
+
+#Rule:Verbs
+r2lieVB
+r2showingVBG
+r2acceptVB
+
+#Rule:V-PRT
+r3walkVBoffRP
+
+#Rule:Adjs
+r4proneJJ
+
+#Rule:Adj-Noun
+r5OneCDapproachNN
+
+#Rule:PRP-Noun
+r6yourPRP$belly-NN
+
+#Rule:HeadNoun-V
+r11approachNNbeAUX
+r11bearNNacceptVB
+r11bearNNwalkVB
+
+#Rule:V-HeadNoun
+r21showingVBGbelly-NN
+r21acceptVBthisDT
+
+#Rule:PPinNP
+r26signNNofINsubmissionNN
+
+#Rule:PPinVP
+r30lieVBonINgroundNN
+r30acceptVBasINsignNN
+
+#If the bear is particularly hungry or sick though, you will still be in trouble. 
+#(S1 (S (SBAR (IN If) (S (NP (DT the) (NN bear)) (VP (AUX is) (ADJP (ADJP (RB particularly) (JJ hungry)) (CC or) (ADJP (JJ sick) (IN though)))))) (, ,) (NP (PRP you)) (VP (MD will) (ADVP (RB still)) (VP (AUX be) (PP (IN in) (NP (NN trouble))))) (. .)))
+#Rule:Nouns
+r1bearNN
+r1troubleNN
+
+#Rule:Adjs
+r4hungryJJ
+r4sickJJ
+
+#Rule:HeadNoun-V
+r11youPRPbeAUX
+r11bearNNisAUX
+
+#Rule:V-ADJ
+r25isAUXhungryJJ
+
+#Rule:PPinVP
+r30beAUXinINtroubleNN
+
+#Rule:V-ADV
+r46beAUXstillRB
+
+#Of course, perhaps the surest protection would be not to go into the mountains at all. 
+#(S1 (S (PP (IN Of) (NP (NN course))) (, ,) (NP (RB perhaps) (DT the) (JJS surest) (NN protection)) (VP (MD would) (VP (AUX be) (S (RB not) (VP (TO to) (VP (VB go) (PP (IN into) (NP (DT the) (NNS mountains))) (ADVP (IN at) (DT all))))))) (. .)))
+#Rule:Nouns
+r1courseNN
+r1protectionNN
+r1mountainsNNS
+
+#Rule:Verbs
+r2goVB
+
+#Rule:Adjs
+r4surestJJS
+
+#Rule:Adj-Noun
+r5surestJJSprotectionNN
+
+#Rule:HeadNoun-V
+r11protectionNNbeAUX
+
+#Rule:PPinVP
+r30goVBintoINmountainsNNS
+
+#Rule:PPinS
+r36wouldMDofINcourseNN
+
+#Care to reconsider your trip?
+#(S1 (S (VP (VB Care) (S (VP (TO to) (VP (VB reconsider) (NP (PRP$ your) (NN trip)))))) (. ?)))
+#Rule:Nouns
+r1tripNN
+
+#Rule:Verbs
+r2careVB
+r2reconsiderVB
+
+#Rule:PRP-Noun
+r6yourPRP$tripNN
+
+#Rule:V-HeadNoun
+r21reconsiderVBtripNN
+
+#Rule:V-V
+r44careVBreconsiderVB
+
+@lemmas-left	surest	mountain	accept	one	ground	show	submission	course	trouble	mountains	would	care	showing	trip	One	hungry	sure	be	bear	protection	is	belly-	your	you	prone	sign	reconsider	approach	sick	walk	lie	go	
+@lemmas-right	protection	is	mountain	belly-	accept	ground	still	submission	course	sign	trouble	mountains	reconsider	off	approach	trip	walk	this	hungry	be	
+@lemmas-center	of	into	as	on	in	

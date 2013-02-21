@@ -1,0 +1,24 @@
+#how to boost up immune system before and after chemotherapy?
+#(S1 (FRAG (SBAR (WHADVP (WRB how)) (S (VP (TO to) (VP (VB boost) (PRT (RP up)) (NP (JJ immune) (NN system)) (PP (IN before) (CC and) (IN after) (NP (NN chemotherapy))))))) (. ?)))
+#Rule:Nouns
+r1systemNN
+r1chemotherapyNN
+
+#Rule:V-PRT
+r3boostVBupRP
+
+#Rule:Adjs
+r4immuneJJ
+
+#Rule:Adj-Noun
+r5immuneJJsystemNN
+
+#Rule:V-HeadNoun
+r21boostVBsystemNN
+
+#Rule:PPinVP
+r30boostVBbeforeINchemotherapyNN
+
+@lemmas-left	system	immune	boost	chemotherapy	
+@lemmas-right	system	chemotherapy	up	
+@lemmas-center	before	

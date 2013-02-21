@@ -1,0 +1,422 @@
+#The United States is not called Uncle Sam . 
+#(S1 (S (NP (DT The) (NNP United) (NNPS States)) (VP (AUX is) (RB not) (VP (VBN called) (S (NP (NNP Uncle) (NNP Sam))))) (. .)))
+#Rule:Nouns
+r1United StatesLocationAnnotation
+r1UncleNNP
+r1SamLocationAnnotation
+
+#Rule:Verbs
+r2calledVBN
+
+#Rule:N-HeadNoun
+r8UncleNNPSamLocationAnnotation
+
+#Rule:V-HeadNoun
+r22calledVBNSamLocationAnnotation
+
+#Rule:V-HeadNoun(passive)
+r23calledVBNUnited StatesLocationAnnotation
+
+#Rule:V-ADV
+r46isAUXnotRB
+
+#It is our government that is called Uncle Sam. 
+#(S1 (S (NP (PRP It)) (VP (AUX is) (NP (NP (PRP$ our) (NN government)) (SBAR (WHNP (WDT that)) (S (VP (AUX is) (VP (VBN called) (S (NP (NNP Uncle) (NNP Sam))))))))) (. .)))
+#Rule:Nouns
+r1governmentNN
+r1Uncle SamPersonAnnotation
+
+#Rule:Verbs
+r2calledVBN
+
+#Rule:PRP-Noun
+r6ourPRP$governmentNN
+
+#Rule:HeadNoun-V
+r11itPRPisAUX
+
+#Rule:V-(who/that)-HeadNoun
+r18calledVBNgovernmentNN
+
+#Rule:V-HeadNoun
+r21isAUXgovernmentNN
+
+#Rule:V-HeadNoun
+r22calledVBNUncle SamPersonAnnotation
+
+#The term Uncle Sam got its start back durring WWI. 
+#(S1 (S (NP (NP (DT The) (NN term)) (NP (NNP Uncle) (NNP Sam))) (VP (VBD got) (NP (NP (PRP$ its) (NN start)) (VP (ADVP (RB back)) (VBG durring) (NP (NNP WWI))))) (. .)))
+#Rule:Nouns
+r1termNN
+r1Uncle SamLocationAnnotation
+r1startNN
+r1WWILocationAnnotation
+
+#Rule:Verbs
+r2gotVBD
+r2durringVBG
+
+#Rule:PRP-Noun
+r6itsPRP$startNN
+
+#Rule:HeadNoun-V
+r11termNNgotVBD
+r11Uncle SamLocationAnnotationgotVBD
+r11startNNdurringVBG
+
+#Rule:V-HeadNoun
+r21gotVBDstartNN
+r21durringVBGWWILocationAnnotation
+
+#Rule:V-ADV
+r46durringVBGbackRB
+
+#It was the beginning of the depression era and Roosevelt started the New Deal to get us out of so much debt and get the nation working again. 
+#(S1 (S (S (NP (PRP It)) (VP (AUX was) (NP (NP (DT the) (NN beginning)) (PP (IN of) (NP (DT the) (NN depression) (NN era)))))) (CC and) (S (NP (NNP Roosevelt)) (VP (VBD started) (NP (DT the) (NNP New) (NNP Deal)) (S (VP (TO to) (VP (VP (VB get) (NP (PRP us)) (PP (IN out) (PP (IN of) (NP (ADJP (RB so) (JJ much)) (NN debt))))) (CC and) (VP (VB get) (S (NP (DT the) (NN nation)) (VP (VBG working) (ADVP (RB again)))))))))) (. .)))
+#Rule:Nouns
+r1beginningNN
+r1depressionNN
+r1eraNN
+r1RooseveltPersonAnnotation
+r1NewNNP
+r1DealNNP
+r1debtNN
+r1nationNN
+
+#Rule:Verbs
+r2startedVBD
+r2getVB
+r2getVB
+r2workingVBG
+
+#Rule:Adjs
+r4muchJJ
+
+#Rule:Adj-Noun
+r5muchJJdebtNN
+
+#Rule:N-HeadNoun
+r8depressionNNeraNN
+r8NewNNPDealNNP
+
+#Rule:HeadNoun-V
+r11itPRPwasAUX
+r11RooseveltPersonAnnotationstartedVBD
+r11nationNNworkingVBG
+
+#Rule:V-HeadNoun
+r21wasAUXbeginningNN
+r21startedVBDDealNNP
+r21getVBusPRP
+
+#Rule:V-HeadNoun
+r22getVBnationNN
+
+#Rule:PPinNP
+r26beginningNNofINeraNN
+
+#Rule:PPComboInVP
+r34getVBoutINdebtNN
+
+#Rule:V-ADV
+r46workingVBGagainRB
+
+#Then WWII happened and soon the men were off to war and the woman and children went to work to make bullets and guns and vehicles and aircraft for what was called the War Effort. 
+#(S1 (S (RB Then) (NP (NNP WWII)) (VP (VBD happened) (SBAR (S (S (CC and) (ADVP (RB soon)) (NP (DT the) (NNS men)) (VP (AUX were) (ADJP (RB off) (PP (TO to) (NP (NP (NN war)) (CC and) (NP (DT the) (NN woman))))))) (CC and) (S (NP (NNS children)) (VP (VBD went) (S (VP (TO to) (VP (VB work) (S (VP (TO to) (VP (VB make) (NP (NP (NNS bullets) (CC and) (NNS guns)) (CC and) (NP (NNS vehicles)) (CC and) (NP (NP (NN aircraft)) (PP (IN for) (SBAR (WHNP (WP what)) (S (VP (AUX was) (VP (VBN called) (S (NP (DT the) (NNP War) (NN Effort))))))))))))))))))))) (. .)))
+#Rule:Nouns
+r1WWIINNP
+r1menNNS
+r1warNN
+r1womanNN
+r1childrenNNS
+r1bulletsNNS
+r1gunsNNS
+r1vehiclesNNS
+r1aircraftNN
+r1WarNNP
+r1EffortNN
+
+#Rule:Verbs
+r2happenedVBD
+r2wentVBD
+r2workVB
+r2makeVB
+r2calledVBN
+
+#Rule:N-HeadNoun
+r8WarNNPEffortNN
+
+#Rule:HeadNoun-V
+r11WWIINNPhappenedVBD
+r11menNNSwereAUX
+r11childrenNNSwentVBD
+
+#Rule:V-HeadNoun
+r21makeVBbulletsNNS
+
+#Rule:V-HeadNoun
+r22calledVBNEffortNN
+
+#Rule:V-ADJ
+r25wereAUXoffRB
+
+#Rule:PPinADJP
+r37offRBtoTOwarNN
+r37offRBtoTOwomanNN
+
+#Rule:V-V
+r44wentVBDworkVB
+r44workVBmakeVB
+
+#Rule:V-ADV
+r46wereAUXsoonRB
+
+#It was durring that time when the term Uncle Sam was coined as a phraise. 
+#(S1 (S (NP (PRP It)) (VP (AUX was) (VP (VBG durring) (NP (NP (DT that) (NN time)) (SBAR (WHADVP (WRB when)) (S (NP (NP (DT the) (NN term)) (NP (NNP Uncle) (NNP Sam))) (VP (AUX was) (VP (VBN coined) (PP (IN as) (NP (DT a) (NN phraise)))))))))) (. .)))
+#Rule:Nouns
+r1timeNN
+r1termNN
+r1Uncle SamLocationAnnotation
+r1phraiseNN
+
+#Rule:Verbs
+r2durringVBG
+r2coinedVBN
+
+#Rule:HeadNoun-V
+r11itPRPdurringVBG
+
+#Rule:V-HeadNoun
+r21durringVBGtimeNN
+
+#Rule:V-HeadNoun(passive)
+r23coinedVBNtermNN
+r23coinedVBNUncle SamLocationAnnotation
+
+#Rule:PPinVP
+r32coinedVBNasINphraiseNN
+
+#Rule:(SBAR+WHADVP)inNP
+r41timeNNwhenWRBcoinedVBN
+
+#There are old antique posters out there for millitary recruitment durring the draft years that read, Uncle Sam wants YOU! 
+#(S1 (S (NP (EX There)) (VP (AUX are) (NP (NP (JJ old) (JJ antique) (NNS posters)) (VP (ADVP (RB out) (RB there) (PP (IN for) (NP (JJ millitary) (NN recruitment)))) (VBG durring) (NP (NP (DT the) (NN draft) (NNS years)) (SBAR (WHNP (WDT that)) (S (VP (VBD read) (, ,) (SBAR (S (NP (NNP Uncle) (NNP Sam)) (VP (VBZ wants) (NP (PRP YOU)))))))))))) (. !)))
+#Rule:Nouns
+r1postersNNS
+r1recruitmentNN
+r1draftNN
+r1yearsNNS
+r1Uncle SamPersonAnnotation
+
+#Rule:Verbs
+r2durringVBG
+r2readVBD
+r2wantsVBZ
+
+#Rule:Adjs
+r4oldJJ
+r4antiqueJJ
+r4millitaryJJ
+
+#Rule:Adj-Noun
+r5oldJJpostersNNS
+r5antiqueJJpostersNNS
+r5millitaryJJrecruitmentNN
+
+#Rule:N-HeadNoun
+r8draftNNyearsNNS
+
+#Rule:HeadNoun-V
+r11thereEXareAUX
+r11postersNNSdurringVBG
+r11Uncle SamPersonAnnotationwantsVBZ
+
+#Rule:HeadNoun-(who/that)-V
+r14yearsNNSreadVBD
+
+#Rule:V-HeadNoun
+r21areAUXpostersNNS
+r21durringVBGyearsNNS
+r21wantsVBZYOU!LocationAnnotation
+
+#Rule:V-ADV
+r46durringVBGoutRB
+r46durringVBGthereRB
+
+#. 
+#
+#When Japan bombed Pearl Harbor, it began the United States Involvement in WWII. 
+#(S1 (S (SBAR (WHADVP (WRB When)) (S (NP (NNP Japan)) (VP (VBN bombed) (NP (NNP Pearl) (NNP Harbor))))) (, ,) (NP (PRP it)) (VP (VBD began) (S (NP (DT the) (NNP United) (NNPS States)) (NP (NP (NN Involvement)) (PP (IN in) (NP (NNP WWII)))))) (. .)))
+#Rule:Nouns
+r1JapanLocationAnnotation
+r1Pearl HarborPersonAnnotation
+r1United StatesLocationAnnotation
+r1InvolvementNN
+r1WWIILocationAnnotation
+
+#Rule:Verbs
+r2bombedVBN
+r2beganVBD
+
+#Rule:HeadNoun-V
+r11itPRPbeganVBD
+
+#Rule:V-HeadNoun
+r21bombedVBNPearl HarborPersonAnnotation
+
+#Rule:V-HeadNoun
+r22beganVBDUnited StatesLocationAnnotation
+r22beganVBDInvolvementNN
+
+#Rule:V-HeadNoun(passive)
+r24bombedVBNJapanLocationAnnotation
+
+#Rule:PPinNP
+r26InvolvementNNinINWWIILocationAnnotation
+
+#Rule:(SBAR+WHADVP)inS
+r42beganVBDwhenWRBbombedVBN
+
+#December 7th is the anual anniversery date of this tragic event. 
+#(S1 (S (NP (NNP December) (NN 7th)) (VP (AUX is) (NP (NP (DT the) (JJ anual) (JJ anniversery) (NN date)) (PP (IN of) (NP (DT this) (JJ tragic) (NN event))))) (. .)))
+#Rule:Nouns
+r1DecemberNNP
+r17thNN
+r1dateNN
+r1eventNN
+
+#Rule:Adjs
+r4anual anniverseryOrganizationAnnotation
+r4tragicJJ
+
+#Rule:Adj-Noun
+r5anual anniverseryOrganizationAnnotationdateNN
+r5tragicJJeventNN
+
+#Rule:N-HeadNoun
+r8DecemberNNP7thNN
+
+#Rule:HeadNoun-V
+r117thNNisAUX
+
+#Rule:V-HeadNoun
+r21isAUXdateNN
+
+#Rule:PPinNP
+r26dateNNofINeventNN
+
+#Rule:IS-RULE
+r47dateNN7thNN
+
+#As Roosevelt said A date which will live in enfamy! 
+#(S1 (S (NP (RB As) (NNP Roosevelt)) (VP (VBD said) (NP (NP (DT A) (NN date)) (SBAR (WHNP (WDT which)) (S (VP (MD will) (VP (VB live) (PP (IN in) (NP (NN enfamy))))))))) (. !)))
+#Rule:Nouns
+r1RooseveltPersonAnnotation
+r1dateNN
+r1enfamyNN
+
+#Rule:Verbs
+r2saidVBD
+r2liveVB
+
+#Rule:HeadNoun-V
+r11RooseveltPersonAnnotationsaidVBD
+
+#Rule:HeadNoun-(who/that)-V
+r14dateNNliveVB
+
+#Rule:V-HeadNoun
+r21saidVBDdateNN
+
+#Rule:PPinVP
+r30liveVBinINenfamyNN
+
+#. 
+#
+#The coined phraise Uncle Sam Needs you! 
+#(S1 (S (NP (DT The) (VBN coined) (NN phraise) (NNP Uncle) (NNP Sam)) (VP (VBZ Needs) (NP (PRP you))) (. !)))
+#Rule:Nouns
+r1phraiseNN
+r1UncleNNP
+r1Sam Needs you!PersonAnnotation
+
+#Rule:Verbs
+r2coinedVBN
+
+#Rule:Adj-Noun
+r5coinedVBNSam Needs you!PersonAnnotation
+
+#Rule:N-HeadNoun
+r8UncleNNPSam Needs you!PersonAnnotation
+r8phraiseNNSam Needs you!PersonAnnotation
+
+#was widly used and grew in popularity durring that time as anti Nazi sentiment also grew and our mission in the War expanded as we joined the Allied nations against Hitler and His Nazi Regime that so terrorized all of Europe durring those years.
+#(S1 (S (S (VP (VP (AUX was) (RB widly) (VP (VBN used))) (CC and) (VP (VBD grew) (PP (IN in) (NP (NN popularity))) (S (VP (VBG durring) (NP (DT that) (NN time)) (SBAR (IN as) (S (NP (CD anti) (NNP Nazi) (NN sentiment)) (ADVP (RB also)) (VP (VBD grew))))))))) (CC and) (S (NP (NP (PRP$ our) (NN mission)) (PP (IN in) (NP (DT the) (NNP War)))) (VP (VBD expanded) (SBAR (IN as) (S (NP (PRP we)) (VP (VBD joined) (NP (NP (DT the) (NNP Allied) (NNS nations)) (PP (IN against) (NP (NP (NNP Hitler)) (CC and) (NP (PRP$ His) (NNP Nazi) (NN Regime)))) (SBAR (WHNP (WDT that)) (S (ADVP (RB so)) (VP (VBD terrorized) (NP (NP (DT all)) (PP (IN of) (NP (NNP Europe)))) (PP (VBG durring) (NP (DT those) (NNS years)))))))))))) (. .)))
+#Rule:Nouns
+r1popularityNN
+r1timeNN
+r1NaziLocationAnnotation
+r1sentimentNN
+r1missionNN
+r1WarNNP
+r1AlliedNNP
+r1nationsNNS
+r1HitlerOrganizationAnnotation
+r1His Nazi RegimeOrganizationAnnotation
+r1EuropeLocationAnnotation
+r1yearsNNS
+
+#Rule:Verbs
+r2usedVBN
+r2grewVBD
+r2durringVBG
+r2grewVBD
+r2expandedVBD
+r2joinedVBD
+r2terrorizedVBD
+r2durringVBG
+
+#Rule:Adj-Noun
+r5antiCDsentimentNN
+
+#Rule:PRP-Noun
+r6ourPRP$missionNN
+
+#Rule:N-HeadNoun
+r8NaziLocationAnnotationsentimentNN
+r8AlliedNNPnationsNNS
+
+#Rule:HeadNoun-V
+r11sentimentNNgrewVBD
+r11missionNNexpandedVBD
+r11wePRPjoinedVBD
+
+#Rule:HeadNoun-(who/that)-V
+r14nationsNNSterrorizedVBD
+
+#Rule:V-HeadNoun
+r21durringVBGtimeNN
+r21joinedVBDnationsNNS
+r21terrorizedVBDallDT
+
+#Rule:PPinNP
+r26missionNNinINWarNNP
+r26nationsNNSagainstINHitlerOrganizationAnnotation
+r26nationsNNSagainstINHis Nazi RegimeOrganizationAnnotation
+r26allDTofINEuropeLocationAnnotation
+
+#Rule:PPinVP
+r30grewVBDinINpopularityNN
+
+#Rule:V-IN-V
+r43durringVBGasINgrewVBD
+r43expandedVBDasINjoinedVBD
+
+#Rule:V-ADV
+r46wasAUXwidlyRB
+r46grewVBDalsoRB
+r46terrorizedVBDsoRB
+
+@lemmas-left	involvement	durring	said	its	went	sentiment	time	joined	are	Sam	event	millitary	began	terrorize	bombed	vehicles	Uncle Sam	government	working	happen	nations	bullets	anti	expanded	depression	Involvement	Hitler	happened	start	poster	say	years	uncle	antique	we	go	United States	Deal	vehicle	use	date	guns	War	grew	enfamy	Roosevelt	want	tragic	debt	His Nazi Regime	join	gun	Allied	new	posters	bullet	Japan	December	old	Uncle	Europe	used	th	7th	were	deal	woman	anual anniversery	expand	be	live	work	get	effort	coined	much	nation	wants	december	aircraft	bomb	called	got	make	call	wwii	children	WWI	era	Nazi	Effort	phraise	war	was	child	terrorized	ally	recruitment	read	WWII	men	all	Sam Needs you!	popularity	is	it	beginning	Pearl Harbor	coin	New	begin	draft	mission	term	grow	there	off	started	our	
+@lemmas-right	involvement	said	durring	Europe	th	went	sentiment	7th	were	time	joined	are	deal	event	Sam	woman	began	terrorize	expand	bombed	government	Uncle Sam	working	happen	nations	live	be	bullets	work	get	so	again	effort	expanded	coined	widly	wants	nation	not	Involvement	Hitler	happened	start	bomb	say	poster	years	got	make	go	United States	Deal	WWI	era	date	Effort	phraise	war	was	terrorized	War	grew	read	recruitment	WWII	enfamy	all	Sam Needs you!	want	popularity	is	Pearl Harbor	beginning	debt	YOU!	coin	His Nazi Regime	back	us	join	soon	begin	mission	term	grow	there	off	started	also	posters	Japan	bullet	out	
+@lemmas-center	to	of	against	when	as	in	out	

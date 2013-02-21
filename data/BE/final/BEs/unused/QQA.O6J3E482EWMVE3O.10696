@@ -1,0 +1,15 @@
+#less than 10 minutes
+#(S1 (NP (QP (JJR less) (IN than) (CD 10)) (NNS minutes)))
+#Rule:Nouns
+r1minutesNNS
+
+#Rule:Adjs
+r4lessJJR
+
+#Rule:Adj-Noun
+r5lessJJRminutesNNS
+r510CDminutesNNS
+
+@lemmas-left	10	minutes	less	
+@lemmas-right	minutes	
+@lemmas-center	

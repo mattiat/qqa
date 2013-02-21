@@ -1,0 +1,27 @@
+#How can boxing be considered a more relevant sport in society today?
+#(S1 (SBARQ (WHADVP (WRB How)) (SQ (MD can) (NP (NN boxing)) (VP (AUX be) (VP (VBN considered) (S (NP (NP (DT a) (ADJP (RBR more) (JJ relevant)) (NN sport)) (PP (IN in) (NP (NP (NN society)) (NP (NN today))))))))) (. ?)))
+#Rule:Nouns
+r1boxingNN
+r1sportNN
+r1societyNN
+r1todayNN
+
+#Rule:Verbs
+r2consideredVBN
+
+#Rule:Adjs
+r4relevantJJ
+
+#Rule:Adj-Noun
+r5relevantJJsportNN
+
+#Rule:V-HeadNoun
+r22consideredVBNsportNN
+
+#Rule:PPinNP
+r26sportNNinINsocietyNN
+r26sportNNinINtodayNN
+
+@lemmas-left	society	consider	today	sport	boxing	relevant	considered	
+@lemmas-right	society	today	sport	
+@lemmas-center	in	

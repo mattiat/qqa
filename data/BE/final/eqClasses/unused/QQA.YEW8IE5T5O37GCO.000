@@ -1,0 +1,1104 @@
+BE: prostateNN
+EQ class: prostaticjj	prostate_glandnn	
+
+BE: cancerNN
+EQ class: cancerousjj	malignant_neoplastic_diseasenn	
+
+BE: treatmentNN
+EQ class: interventionnn	
+
+BE: knowVB
+EQ class: cognizevb	cognisevb	
+
+BE: helpedVBN
+EQ class: helpvbn	aidvbn	assistvbn	
+
+BE: cancerNNtreatmentNN
+EQ class: handlevbcancerousjj	treatmentnnofinmalignant_neoplastic_diseasenn	malignant_neoplastic_diseasenndo_byvb	cancerousjjtreatmentnn	malignant_neoplastic_diseasenntreatvb	do_byvbcancernn	interventionnnofinmalignant_neoplastic_diseasenn	interventionnnofincancerousjj	cancerousjjtreatvb	cancerousjjinterventionnn	handlevbmalignant_neoplastic_diseasenn	malignant_neoplastic_diseasenntreatmentnn	treatmentnnofincancernn	cancernntreatvb	malignant_neoplastic_diseasenninterventionnn	cancernninterventionnn	cancerousjjhandlevb	do_byvbmalignant_neoplastic_diseasenn	do_byvbcancerousjj	treatvbcancerousjj	treatvbcancernn	malignant_neoplastic_diseasennhandlevb	treatvbmalignant_neoplastic_diseasenn	interventionnnofincancernn	cancernndo_byvb	handlevbcancernn	treatmentnnofincancerousjj	cancerousjjdo_byvb	cancernnhandlevb	
+
+BE: prostateNNtreatmentNN
+EQ class: prostate_glandnnhandlevb	prostaticjjtreatmentnn	interventionnnofinprostate_glandnn	prostatenndo_byvb	treatvbprostate_glandnn	prostate_glandnninterventionnn	handlevbprostaticjj	interventionnnofinprostaticjj	treatvbprostatenn	treatvbprostaticjj	treatmentnnofinprostaticjj	treatmentnnofinprostate_glandnn	handlevbprostatenn	handlevbprostate_glandnn	prostate_glandnndo_byvb	prostaticjjtreatvb	prostate_glandnntreatvb	treatmentnnofinprostatenn	prostate_glandnntreatmentnn	prostatenntreatvb	do_byvbprostatenn	prostaticjjhandlevb	do_byvbprostaticjj	interventionnnofinprostatenn	prostaticjjinterventionnn	prostaticjjdo_byvb	do_byvbprostate_glandnn	prostatenninterventionnn	prostatennhandlevb	
+
+BE: treatmentNNhelpedVBN
+EQ class: interventionnnhelpedvbn	assistancennofintreatmentnn	helpnntreatmentnn	interventionnnhelpvbn	assistantnntreatmentnn	interventionnnassistvbn	helpernnofininterventionnn	assistantnnofininterventionnn	helpnnofininterventionnn	assistancennofininterventionnn	helpnninterventionnn	aidnnofintreatmentnn	supporternnofininterventionnn	assistantnnofintreatmentnn	helpernnofintreatmentnn	treatmentnnhelpvbn	treatmentnnassistvbn	supporternnofintreatmentnn	helpernninterventionnn	treatmentnnaidvbn	helpernntreatmentnn	aidnnofininterventionnn	supporternntreatmentnn	assistantnninterventionnn	helpnnofintreatmentnn	supporternninterventionnn	assistnnofininterventionnn	interventionnnaidvbn	assistnnofintreatmentnn	
+
+BE: knowVBifINhelpedVBN
+EQ class: cognizevbifinaidvbn	cognisevbifinhelpedvbn	cognisevbifinassistvbn	cognisevbifinaidvbn	cognizevbifinhelpvbn	cognizevbifinassistvbn	knowvbifinaidvbn	knowvbifinhelpvbn	knowvbifinassistvbn	cognisevbifinhelpvbn	cognizevbifinhelpedvbn	
+
+BE: beamNN
+EQ class: radio_beamnn	
+
+BE: radiationNN
+EQ class: 
+
+BE: treatmentsNNS
+EQ class: interventionnns	theynns	treatmentnns	themnns	
+
+BE: treatmentsNNS
+EQ class: interventionnns	theynns	treatmentnns	themnns	
+
+BE: BoostNN
+EQ class: encouragementnn	
+
+BE: treatmentsNNS
+EQ class: interventionnns	theynns	treatmentnns	themnns	
+
+BE: prostateNN
+EQ class: prostaticjj	prostate_glandnn	
+
+BE: onlyNN
+EQ class: 
+
+BE: hormoneNN
+EQ class: endocrinenn	internal_secretionnn	hormonaljj	
+
+BE: therapyNN
+EQ class: therapeuticjj	therapeuticaljj	
+
+BE: shotNN
+EQ class: shootingnn	
+
+BE: monthsNNS
+EQ class: calendar_monthnns	theynns	monthlyjj	monthnns	themnns	
+
+BE: treatmentsNNS
+EQ class: interventionnns	theynns	treatmentnns	themnns	
+
+BE: aimedVBN
+EQ class: trainvbn	take_aimvbn	takevbn	aimvbn	directvbn	
+
+BE: receivingVBG
+EQ class: receivevbg	havevbg	
+
+BE: requiresVBZ
+EQ class: involvevbz	demandvbz	requirevbz	askvbz	postulatevbz	necessitatevbz	takevbz	needvbz	call_forvbz	
+
+BE: externalJJ
+EQ class: externalitynn	
+
+BE: fullJJ
+EQ class: fullnessnn	
+
+BE: pelvicJJ
+EQ class: pelvisnn	
+
+BE: 41CDtreatmentsNNS
+EQ class: 41cdinterventionnns	4.1.cdtreatmentsnns	4.1.cdinterventionnns	4.1.cdthemnns	4.1.cdtreatmentnns	41cdthemnns	41cdtreatmentnns	41cdtheynns	4.1.cdtheynns	
+
+BE: externalJJtreatmentsNNS
+EQ class: externalitynntreatmentnns	externalitynnthemnns	externalitynntheynns	do_byvbexternallyrb	externaljjtheynns	externaljjthemnns	externalitynntreatmentsnns	externaljjtreatmentnns	externalitynninterventionnns	externaljjinterventionnns	handlevbexternallyrb	treatvbexternallyrb	
+
+BE: 25CDtreatmentsNNS
+EQ class: twenty-fivecdtreatmentnns	xxvcdtreatmentnns	2.5.cdtreatmentsnns	twenty-fivecdinterventionnns	2.5.cdinterventionnns	twenty-fivecdthemnns	2.5.cdtheynns	25cdthemnns	xxvcdthemnns	xxvcdtreatmentsnns	25cdtreatmentnns	twenty-fivecdtheynns	25cdinterventionnns	xxvcdinterventionnns	twenty-fivecdtreatmentsnns	2.5.cdthemnns	25cdtheynns	2.5.cdtreatmentnns	xxvcdtheynns	
+
+BE: fullJJtreatmentsNNS
+EQ class: fullnessnninterventionnns	fullnessnntheynns	fulljjinterventionnns	fullnessnnthemnns	do_byvbfullyrb	treatvbfullyrb	fulljjthemnns	fulljjtreatmentnns	fullnessnntreatmentsnns	fulljjtheynns	handlevbfullyrb	fullnessnntreatmentnns	
+
+BE: pelvicJJtreatmentsNNS
+EQ class: pelvicjjinterventionnns	pelvisnntheynns	pelvicjjtheynns	pelvicjjthemnns	pelvisnntreatmentnns	pelvicjjtreatmentnns	pelvisnntreatmentsnns	pelvisnninterventionnns	pelvisnnthemnns	
+
+BE: 16CDtreatmentsNNS
+EQ class: xvicdtreatmentnns	1.6.cdthemnns	sixteencdthemnns	16cdtheynns	sixteencdinterventionnns	1.6.cdinterventionnns	1.6.cdtreatmentsnns	1.6.cdtheynns	sixteencdtreatmentsnns	xvicdtheynns	xvicdtreatmentsnns	16cdinterventionnns	16cdthemnns	xvicdthemnns	sixteencdtreatmentnns	sixteencdtheynns	1.6.cdtreatmentnns	16cdtreatmentnns	xvicdinterventionnns	
+
+BE: oneCDshotNN
+EQ class: unitycdshotnn	1cdshotnn	1cdshootingnn	onecdshootingnn	singlecdshootingnn	icdshotnn	singlecdshotnn	unitycdshootingnn	acecdshotnn	icdshootingnn	acecdshootingnn	
+
+BE: threeCDmonthsNNS
+EQ class: ternarycdmonthsnns	triocdcalendar_monthnns	trinecdmonthlyjj	tiercecdmonthnns	troikacdmonthnns	triadcdmonthsnns	tiercecdcalendar_monthnns	ternarycdthemnns	triocdmonthnns	3cdthemnns	threecdthemnns	tiercecdmonthsnns	terzettocdmonthsnns	triadcdmonthlyjj	3cdmonthsnns	3cdmonthnns	leashcdtheynns	trinitycdtheynns	threesomecdtheynns	threecdcalendar_monthnns	threesomecdmonthnns	threesomecdcalendar_monthnns	tiercecdthemnns	tripletcdmonthnns	trinecdthemnns	trinitycdcalendar_monthnns	triadcdcalendar_monthnns	ternarycdtheynns	tercetcdthemnns	leashcdmonthlyjj	iiicdtheynns	tripletcdmonthlyjj	threecdmonthnns	terzettocdmonthnns	terzettocdmonthlyjj	treycdtheynns	3cdmonthlyjj	ternarycdmonthnns	leashcdthemnns	tercetcdcalendar_monthnns	terzettocdcalendar_monthnns	3cdtheynns	threesomecdthemnns	iiicdmonthlyjj	ternarycdcalendar_monthnns	tercetcdmonthsnns	tiercecdtheynns	triocdthemnns	leashcdmonthsnns	trinitycdmonthlyjj	treycdmonthlyjj	triocdmonthsnns	triadcdthemnns	trinitycdthemnns	threesomecdmonthsnns	triocdmonthlyjj	troikacdmonthsnns	trinecdmonthnns	terzettocdthemnns	treycdcalendar_monthnns	iiicdcalendar_monthnns	trinitycdmonthsnns	ternioncdthemnns	terzettocdtheynns	ternioncdtheynns	tripletcdcalendar_monthnns	ternioncdmonthnns	tercetcdmonthlyjj	treycdthemnns	iiicdmonthsnns	deuce-acecdmonthsnns	troikacdcalendar_monthnns	treycdmonthnns	iiicdmonthnns	triadcdmonthnns	tripletcdmonthsnns	tripletcdthemnns	troikacdtheynns	deuce-acecdmonthnns	deuce-acecdthemnns	threecdtheynns	troikacdmonthlyjj	leashcdcalendar_monthnns	ternioncdcalendar_monthnns	trinecdcalendar_monthnns	ternioncdmonthlyjj	treycdmonthsnns	trinitycdmonthnns	troikacdthemnns	tercetcdmonthnns	iiicdthemnns	deuce-acecdtheynns	3cdcalendar_monthnns	trinecdmonthsnns	threesomecdmonthlyjj	deuce-acecdmonthlyjj	threecdmonthlyjj	leashcdmonthnns	tiercecdmonthlyjj	triocdtheynns	trinecdtheynns	tripletcdtheynns	tercetcdtheynns	ternioncdmonthsnns	ternarycdmonthlyjj	triadcdtheynns	deuce-acecdcalendar_monthnns	
+
+BE: twoCDtreatmentsNNS
+EQ class: iicdtreatmentnns	2cdtreatmentnns	2cdtreatmentsnns	deucecdtreatmentsnns	2cdthemnns	iicdtheynns	iicdinterventionnns	deucecdtreatmentnns	deucecdtheynns	twocdthemnns	deucecdthemnns	twocdinterventionnns	iicdthemnns	deucecdinterventionnns	iicdtreatmentsnns	2cdtheynns	twocdtheynns	2cdinterventionnns	twocdtreatmentnns	
+
+BE: radiationNNtreatmentsNNS
+EQ class: radiancynnofininterventionnns	glowingnnofininterventionnns	radiationnnofininterventionnns	refulgencynnofintreatmentsnns	radiationnntreatmentnns	radiancynnofintreatmentnns	radiantnnofintreatmentnns	radiancennofintreatmentsnns	radiationnnthemnns	radiancennofintreatmentnns	refulgencennofininterventionnns	radiantnnofintheynns	refulgencynnofinthemnns	effulgencennofintheynns	radiationnninterventionnns	refulgencennofintreatmentsnns	treatmentnnsradiatevb	treatvbradiationnn	glowingnnofintreatmentsnns	radiantjjofintreatmentnns	radiationnnofinthemnns	radiantjjofinthemnns	radiancennofininterventionnns	interventionnnsradiatevb	treatmentsnnsofinradiationnn	do_byvbradiationnn	theynnsradiatevb	shinennofinthemnns	refulgencynnofintheynns	refulgencynnofintreatmentnns	shinennofintheynns	glownnofinthemnns	refulgencennofintheynns	radiancennofinthemnns	themnnsradiatevb	radiationnnofintreatmentsnns	radiationnnhandlevb	radiationnntheynns	shinennofininterventionnns	radiancynnofintreatmentsnns	effulgencennofintreatmentsnns	radiationnntreatvb	radiationnndo_byvb	radiantjjofintreatmentsnns	handlevbradiationnn	radiantjjofintheynns	radiantjjofininterventionnns	radiancynnofintheynns	radiationnnofintheynns	glowingnnofinthemnns	effulgencennofininterventionnns	glownnofininterventionnns	glownnofintreatmentsnns	radiantnnofintreatmentsnns	interventionnnsofinradiationnn	refulgencennofintreatmentnns	themnnsofinradiationnn	glowingnnofintreatmentnns	radiantnnofininterventionnns	treatmentsnnsradiatevb	refulgencynnofininterventionnns	shinennofintreatmentnns	glowingnnofintheynns	shinennofintreatmentsnns	glownnofintreatmentnns	treatmentnnsofinradiationnn	radiationnnofintreatmentnns	effulgencennofintreatmentnns	radiancynnofinthemnns	refulgencennofinthemnns	radiancennofintheynns	glownnofintheynns	theynnsofinradiationnn	effulgencennofinthemnns	radiantnnofinthemnns	
+
+BE: beamNNtreatmentsNNS
+EQ class: radio_beamnnthemnns	treatmentnnsofinbeamnn	radio_beamnntheynns	handlevbbeamnn	treatmentsnnsofinbeamnn	themnnsbeamvb	radio_beamnnhandlevb	treatmentsnnsofinradio_beamnn	beamnninterventionnns	treatmentnnsbeamvb	radio_beamnntreatmentsnns	themnnsofinbeamnn	do_byvbbeamnn	radio_beamnndo_byvb	theynnsofinbeamnn	beamnntreatvb	treatmentnnsofinradio_beamnn	radio_beamnntreatmentnns	theynnsofinradio_beamnn	beamnnhandlevb	beamnntreatmentnns	interventionnnsofinbeamnn	beamnndo_byvb	treatmentsnnsbeamvb	do_byvbradio_beamnn	beamnnthemnns	handlevbradio_beamnn	themnnsofinradio_beamnn	beamnntheynns	theynnsbeamvb	treatvbbeamnn	radio_beamnntreatvb	interventionnnsofinradio_beamnn	interventionnnsbeamvb	treatvbradio_beamnn	radio_beamnninterventionnns	
+
+BE: prostateNNonlyNN
+EQ class: prostate_glandnnonlynn	prostaticjjonlynn	
+
+BE: hormoneNNtherapyNN
+EQ class: endocrinenntherapynn	hormonenntherapeuticalvb	therapynnofinhormonaljj	therapeuticaljjofininternal_secretionnn	therapeuticjjofinendocrinenn	internal_secretionnntherapistvb	endocrinenntherapeuticaljj	endocrinenntherapeuticjj	therapeuticaljjofinendocrinenn	hormonenntherapeuticaljj	internal_secretionnntherapeuticjj	internal_secretionnntherapeuticvb	internal_secretionnntherapynn	hormonaljjtherapeuticjj	therapeuticvbhormonaljj	endocrinenntherapistvb	therapeuticjjofinhormonenn	therapeuticvbinternal_secretionnn	therapynnofinendocrinenn	hormonaljjtherapeuticaljj	internal_secretionnntherapeuticaljj	hormonenntherapeuticjj	therapistvbendocrinenn	endocrinenntherapeuticvb	therapistvbhormonaljj	therapeuticalvbendocrinenn	hormonenntherapeuticvb	hormonaljjtherapynn	therapeuticvbendocrinenn	therapeuticalvbinternal_secretionnn	hormonaljjtherapeuticalvb	hormonaljjtherapeuticvb	therapeuticjjofininternal_secretionnn	therapynnofinhormonenn	therapeuticaljjofinhormonaljj	therapeuticalvbhormonaljj	therapistvbhormonenn	therapistvbinternal_secretionnn	hormonenntherapistvb	therapynnofininternal_secretionnn	therapeuticvbhormonenn	therapeuticaljjofinhormonenn	endocrinenntherapeuticalvb	internal_secretionnntherapeuticalvb	therapeuticalvbhormonenn	hormonaljjtherapistvb	therapeuticjjofinhormonaljj	
+
+BE: treatmentsNNStreatmentsNNS
+EQ class: interventionnnsdo_byvb	themnnstheynns	treatmentsnnsdo_byvb	treatmentnnsinterventionnns	themnnsthemnns	treatmentsnnstreatmentnns	treatmentnnsdo_byvb	treatmentsnnsthemnns	treatmentnnstreatmentsnns	treatmentnnstreatmentnns	themnnsdo_byvb	interventionnnstreatmentnns	themnnstreatvb	interventionnnstreatmentsnns	interventionnnshandlevb	theynnstreatvb	theynnsdo_byvb	themnnstreatmentsnns	treatmentnnshandlevb	treatmentsnnshandlevb	theynnsthemnns	treatmentnnstheynns	themnnsinterventionnns	interventionnnstheynns	theynnstheynns	theynnstreatmentnns	theynnstreatmentsnns	theynnshandlevb	themnnshandlevb	treatmentnnstreatvb	treatmentnnsthemnns	treatmentsnnstreatvb	themnnstreatmentnns	treatmentsnnstheynns	interventionnnstreatvb	interventionnnsinterventionnns	treatmentsnnsinterventionnns	theynnsinterventionnns	interventionnnsthemnns	
+
+BE: iPRPhadAUX
+EQ class: iprphave_gotaux	rich_personnnofiniprp	iprpholdaux	wealthy_personnnofiniprp	iprphaveaux	havennofiniprp	
+
+BE: iPRPreceivingVBG
+EQ class: iprphavevbg	responsenniprp	receivernniprp	receiving_systemnniprp	recipientnnofiniprp	receivernnofiniprp	receptionnnofiniprp	receptionnniprp	receiving_systemnnofiniprp	responsennofiniprp	recipientnniprp	iprpreceivevbg	
+
+BE: iPRPhadAUX
+EQ class: iprphave_gotaux	rich_personnnofiniprp	iprpholdaux	wealthy_personnnofiniprp	iprphaveaux	havennofiniprp	
+
+BE: therapyNNrequiresVBZ
+EQ class: therapeuticjjrequirevbz	therapeuticjjtakevbz	therapeuticaljjaskvbz	therapynndemandvbz	requirementnnofintherapeuticaljj	therapeuticjjneedvbz	therapeuticaljjneedvbz	therapynntakevbz	requirementnnofintherapynn	therapeuticaljjtakevbz	therapynnpostulatevbz	therapeuticaljjrequirevbz	therapynnaskvbz	demandnnofintherapynn	therapeuticjjpostulatevbz	therapeuticaljjpostulatevbz	requirementnntherapynn	therapynnneedvbz	therapynnrequirevbz	requirementnntherapeuticjj	therapeuticjjaskvbz	therapeuticaljjdemandvbz	therapeuticaljjrequiresvbz	therapeuticaljjinvolvevbz	requirementnntherapeuticaljj	therapeuticjjcall_forvbz	demandnnofintherapeuticjj	therapynninvolvevbz	therapeuticjjnecessitatevbz	therapeuticaljjnecessitatevbz	therapeuticaljjcall_forvbz	therapynnnecessitatevbz	demandnntherapeuticaljj	demandnnofintherapeuticaljj	therapeuticjjdemandvbz	therapeuticjjinvolvevbz	therapynncall_forvbz	requirementnnofintherapeuticjj	demandnntherapynn	demandnntherapeuticjj	therapeuticjjrequiresvbz	
+
+BE: hadAUXtreatmentsNNS
+EQ class: havennofintheynns	holdauxtheynns	wealthy_personnnofininterventionnns	wealthy_personnnofintheynns	rich_personnnofintreatmentnns	have_gotauxinterventionnns	holdauxthemnns	havennofintreatmentnns	haveauxtheynns	have_gotauxtheynns	holdauxinterventionnns	hadauxtreatmentnns	rich_personnnofininterventionnns	haveauxtreatmentsnns	wealthy_personnnofintreatmentnns	havennofintreatmentsnns	hadauxtheynns	hadauxthemnns	haveauxinterventionnns	rich_personnnofinthemnns	holdauxtreatmentsnns	havennofinthemnns	rich_personnnofintreatmentsnns	wealthy_personnnofinthemnns	haveauxtreatmentnns	have_gotauxtreatmentsnns	haveauxthemnns	wealthy_personnnofintreatmentsnns	have_gotauxthemnns	hadauxinterventionnns	have_gotauxtreatmentnns	holdauxtreatmentnns	havennofininterventionnns	rich_personnnofintheynns	
+
+BE: receivingVBGtherapyNN
+EQ class: receivingvbgtherapeuticaljj	responsennofintherapynn	recipientnnofintherapeuticaljj	receivernnofintherapynn	receiving_systemnnofintherapynn	receivevbgtherapynn	recipientnnofintherapeuticjj	receiving_systemnnofintherapeuticaljj	receivernnofintherapeuticaljj	receptionnnofintherapeuticjj	recipientnnofintherapynn	receivevbgtherapeuticjj	havevbgtherapeuticjj	receptionnnofintherapynn	receivevbgtherapeuticaljj	receptionnnofintherapeuticaljj	havevbgtherapynn	havevbgtherapeuticaljj	responsennofintherapeuticaljj	receivingvbgtherapeuticjj	responsennofintherapeuticjj	receiving_systemnnofintherapeuticjj	receivernnofintherapeuticjj	
+
+BE: requiresVBZshotNN
+EQ class: postulatevbzshotnn	demandnnofinshotnn	takevbzshootingnn	requirevbzshootingnn	involvevbzshootingnn	requirevbzshotnn	requiresvbzshootingnn	needvbzshootingnn	necessitatevbzshootingnn	demandvbzshotnn	demandvbzshootingnn	askvbzshootingnn	takevbzshotnn	requirementnnofinshootingnn	necessitatevbzshotnn	needvbzshotnn	call_forvbzshotnn	postulatevbzshootingnn	involvevbzshotnn	call_forvbzshootingnn	askvbzshotnn	demandnnofinshootingnn	requirementnnofinshotnn	
+
+BE: hadAUXtreatmentsNNS
+EQ class: havennofintheynns	holdauxtheynns	wealthy_personnnofininterventionnns	wealthy_personnnofintheynns	rich_personnnofintreatmentnns	have_gotauxinterventionnns	holdauxthemnns	havennofintreatmentnns	haveauxtheynns	have_gotauxtheynns	holdauxinterventionnns	hadauxtreatmentnns	rich_personnnofininterventionnns	haveauxtreatmentsnns	wealthy_personnnofintreatmentnns	havennofintreatmentsnns	hadauxtheynns	hadauxthemnns	haveauxinterventionnns	rich_personnnofinthemnns	holdauxtreatmentsnns	havennofinthemnns	rich_personnnofintreatmentsnns	wealthy_personnnofinthemnns	haveauxtreatmentnns	have_gotauxtreatmentsnns	haveauxthemnns	wealthy_personnnofintreatmentsnns	have_gotauxthemnns	hadauxinterventionnns	have_gotauxtreatmentnns	holdauxtreatmentnns	havennofininterventionnns	rich_personnnofintheynns	
+
+BE: aimedVBNtreatmentsNNS
+EQ class: intentnnofininterventionnns	designnnofintreatmentsnns	aimnnofinthemnns	intentionnnofintreatmentsnns	aimedvbnthemnns	intentnnofinthemnns	directvbntheynns	takevbntreatmentsnns	aimedvbntheynns	intentionnnofininterventionnns	trainvbnthemnns	takevbntheynns	take_aimvbntreatmentsnns	purposennofininterventionnns	intentionnnofintreatmentnns	aimvbntreatmentnns	aimnnofintheynns	intentnnofintreatmentnns	takevbninterventionnns	intentnnofintheynns	take_aimvbntheynns	take_aimvbntreatmentnns	directvbninterventionnns	aimedvbntreatmentnns	intentionnnofintheynns	aimvbntreatmentsnns	aimedvbninterventionnns	designnnofininterventionnns	trainvbninterventionnns	designnnofintheynns	designnnofinthemnns	trainvbntheynns	aimvbninterventionnns	directvbntreatmentnns	directvbnthemnns	trainvbntreatmentnns	purposennofintreatmentsnns	aimnnofininterventionnns	purposennofintheynns	aimvbnthemnns	aimnnofintreatmentnns	intentionnnofinthemnns	take_aimvbnthemnns	aimnnofintreatmentsnns	directvbntreatmentsnns	purposennofintreatmentnns	designnnofintreatmentnns	purposennofinthemnns	take_aimvbninterventionnns	takevbnthemnns	takevbntreatmentnns	trainvbntreatmentsnns	aimvbntheynns	intentnnofintreatmentsnns	
+
+BE: aimedVBNatINonlyNN
+EQ class: takevbnatinonlynn	directvbnatinonlynn	aimvbnatinonlynn	take_aimvbnatinonlynn	trainvbnatinonlynn	
+
+BE: haveAUXSoRB
+EQ class: have_gotauxsorb	wealthy_personnnofinsorb	rich_personnnofinsorb	havennofinsorb	holdauxsorb	
+
+BE: haveAUXfarRB
+EQ class: havennofinfarrb	rich_personnnofinfarrb	holdauxfarrb	have_gotauxfarrb	wealthy_personnnofinfarrb	
+
+BE: UrologistNN
+EQ class: 
+
+BE: hormoneNN
+EQ class: endocrinenn	internal_secretionnn	hormonaljj	
+
+BE: treatmentsNNS
+EQ class: interventionnns	theynns	treatmentnns	themnns	
+
+BE: bonesNN
+EQ class: castanetsnn	clappersnn	finger_cymbalsnn	
+
+BE: doctorNN
+EQ class: physiciannn	dr.nn	doctorialjj	docnn	mediconn	mdnn	
+
+BE: shotsNNS
+EQ class: shotnns	theynns	shootingnns	themnns	
+
+BE: restNN
+EQ class: remaindernn	residuumnn	balancenn	residualnn	residuenn	
+
+BE: treatmentsNNS
+EQ class: interventionnns	theynns	treatmentnns	themnns	
+
+BE: monthsNNS
+EQ class: calendar_monthnns	theynns	monthlyjj	monthnns	themnns	
+
+BE: I mOrganizationAnnotation
+EQ class: i. morganizationannotation	
+
+BE: hormonesNNS
+EQ class: theynns	endocrinenns	hormonaljj	internal_secretionnns	hormonenns	themnns	
+
+BE: PSAOrganizationAnnotation
+EQ class: p.s.a.organizationannotation	
+
+BE: testNN
+EQ class: trial_runnn	trialnn	tryoutnn	
+
+BE: CatchNN
+EQ class: catchyjj	gimmicknn	
+
+BE: 22.HasNNS
+EQ class: hour_anglenns	22hasnns	hanns	
+
+BE: anyoneNN
+EQ class: 
+
+BE: treatmentsNNS
+EQ class: interventionnns	theynns	treatmentnns	themnns	
+
+BE: resultsNNS
+EQ class: outcomenns	resultnns	upshotnns	theynns	consequencenns	issuenns	eventnns	effectnns	themnns	
+
+BE: diagnosedVBN
+EQ class: diagnosevbn	namevbn	
+
+BE: saidVBD
+EQ class: statevbd	tellvbd	sayvbd	
+
+BE: causeVB
+EQ class: makevb	dovb	
+
+BE: saysVBZ
+EQ class: statevbz	tellvbz	sayvbz	
+
+BE: takeVB
+EQ class: 
+
+BE: askedVBD
+EQ class: inquirevbd	enquirevbd	askvbd	
+
+BE: knowVB
+EQ class: cognizevb	cognisevb	
+
+BE: helpedVBN
+EQ class: helpvbn	aidvbn	assistvbn	
+
+BE: repliedVBD
+EQ class: respondvbd	replyvbd	answervbd	
+
+BE: tellVB
+EQ class: sayvb	statevb	
+
+BE: experiancedVBD
+EQ class: 
+
+BE: hormonesNNSoffRP
+EQ class: hormonaljjoffrp	internal_secretionnnsoffrp	theynnsoffrp	hormonennsoffrp	endocrinennsoffrp	themnnsoffrp	
+
+BE: moreJJR
+EQ class: more_thanjjr	
+
+BE: brittleJJ
+EQ class: bricklyjj	brittlenessnn	bricklejj	
+
+BE: sameJJ
+EQ class: 
+
+BE: sameJJ
+EQ class: 
+
+BE: threeCDtreatmentsNNS
+EQ class: threesomecdtreatmentnns	terzettocdtheynns	ternioncdthemnns	ternioncdtheynns	triocdtreatmentsnns	ternioncdtreatmentnns	threesomecdtreatmentsnns	treycdthemnns	ternarycdthemnns	3cdthemnns	deuce-acecdtreatmentsnns	threecdthemnns	triadcdinterventionnns	trinitycdinterventionnns	leashcdtheynns	troikacdtheynns	tripletcdthemnns	threesomecdtheynns	trinitycdtheynns	leashcdinterventionnns	ternioncdtreatmentsnns	tiercecdthemnns	trinitycdtreatmentnns	trinecdthemnns	tripletcdtreatmentnns	threecdtheynns	deuce-acecdthemnns	treycdinterventionnns	ternarycdtheynns	tercetcdthemnns	iiicdtheynns	triadcdtreatmentsnns	deuce-acecdtreatmentnns	trinitycdtreatmentsnns	treycdtheynns	tiercecdinterventionnns	leashcdthemnns	terzettocdinterventionnns	3cdtheynns	iiicdtreatmentnns	threesomecdthemnns	deuce-acecdinterventionnns	threesomecdinterventionnns	3cdtreatmentsnns	trinecdinterventionnns	treycdtreatmentnns	tiercecdtreatmentnns	tercetcdtreatmentsnns	troikacdthemnns	threecdinterventionnns	3cdtreatmentnns	tiercecdtheynns	ternarycdtreatmentsnns	iiicdthemnns	triocdinterventionnns	ternioncdinterventionnns	triocdthemnns	triadcdtreatmentnns	deuce-acecdtheynns	terzettocdtreatmentsnns	troikacdtreatmentsnns	ternarycdinterventionnns	threecdtreatmentnns	tercetcdinterventionnns	tercetcdtreatmentnns	iiicdinterventionnns	triadcdthemnns	troikacdinterventionnns	tripletcdinterventionnns	trinitycdthemnns	trinecdtreatmentnns	iiicdtreatmentsnns	triocdtheynns	troikacdtreatmentnns	trinecdtheynns	terzettocdthemnns	tiercecdtreatmentsnns	3cdinterventionnns	tripletcdtheynns	tripletcdtreatmentsnns	tercetcdtheynns	terzettocdtreatmentnns	triadcdtheynns	treycdtreatmentsnns	leashcdtreatmentnns	trinecdtreatmentsnns	triocdtreatmentnns	ternarycdtreatmentnns	leashcdtreatmentsnns	
+
+BE: brittleJJbonesNN
+EQ class: brittlenessnnclappersnn	bricklejjclappersnn	brittlejjclappersnn	brittlejjfinger_cymbalsnn	bricklyjjbonesnn	bricklejjcastanetsnn	bricklejjfinger_cymbalsnn	brittlenessnnbonesnn	brittlenessnnfinger_cymbalsnn	bricklyjjclappersnn	bricklyjjcastanetsnn	bricklejjbonesnn	brittlenessnncastanetsnn	bricklyjjfinger_cymbalsnn	brittlejjcastanetsnn	
+
+BE: sameJJdoctorNN
+EQ class: samejjdr.nn	samejjmediconn	samejjdocnn	samejjphysiciannn	samejjdoctorialjj	samejjmdnn	
+
+BE: sixCDmonthsNNS
+EQ class: captain_hickscdcalendar_monthnns	sestetcdtheynns	sixcdthemnns	half_a_dozencdmonthnns	sestetcdmonthlyjj	captain_hickscdmonthnns	hexadcdmonthnns	sisecdmonthlyjj	sisecdtheynns	vicdmonthnns	sextupletcdmonthnns	sextetcdcalendar_monthnns	hexadcdmonthlyjj	sixercdmonthlyjj	6cdcalendar_monthnns	vicdcalendar_monthnns	sextupletcdmonthlyjj	6cdmonthnns	sixcdmonthnns	sixercdtheynns	half_a_dozencdthemnns	6cdmonthlyjj	sextupletcdmonthsnns	captain_hickscdmonthsnns	captain_hickscdthemnns	sextetcdmonthnns	sisecdmonthsnns	sixercdmonthsnns	sestetcdcalendar_monthnns	sextetcdmonthsnns	sextupletcdtheynns	sixercdcalendar_monthnns	half_a_dozencdtheynns	captain_hickscdtheynns	sixcdcalendar_monthnns	sextupletcdcalendar_monthnns	sixercdthemnns	half_a_dozencdcalendar_monthnns	sixcdtheynns	hexadcdtheynns	sextupletcdthemnns	sestetcdthemnns	sixcdmonthlyjj	hexadcdthemnns	sixercdmonthnns	half_a_dozencdmonthsnns	6cdmonthsnns	sextetcdthemnns	sestetcdmonthsnns	vicdthemnns	hexadcdmonthsnns	sisecdmonthnns	sestetcdmonthnns	half_a_dozencdmonthlyjj	sisecdthemnns	6cdthemnns	6cdtheynns	hexadcdcalendar_monthnns	sextetcdtheynns	sextetcdmonthlyjj	vicdmonthlyjj	vicdtheynns	captain_hickscdmonthlyjj	sisecdcalendar_monthnns	vicdmonthsnns	
+
+BE: sameJJtreatmentsNNS
+EQ class: samejjtreatmentnns	samejjthemnns	samejjtheynns	samejjinterventionnns	
+
+BE: myPRP$UrologistNN
+EQ class: myprp$urologyvb	urologyvbmyprp$	urologistnnofinmyprp$	
+
+BE: myPRP$lifeFW
+EQ class: lifefwofinmyprp$	
+
+BE: yourPRP$resultsNNS
+EQ class: yourprp$eventnns	yourprp$themnns	theynnsofinyourprp$	themnnsofinyourprp$	yourprp$ensuevb	yourprp$theynns	ensuevbyourprp$	consequencennsofinyourprp$	outcomennsofinyourprp$	resultsnnsofinyourprp$	issuennsofinyourprp$	effectnnsofinyourprp$	eventnnsofinyourprp$	yourprp$effectnns	yourprp$upshotnns	resultnnsofinyourprp$	yourprp$resultnns	yourprp$consequencenns	yourprp$resultvb	yourprp$issuenns	upshotnnsofinyourprp$	yourprp$outcomenns	resultvbyourprp$	
+
+BE: hormoneNNtreatmentsNNS
+EQ class: internal_secretionnntreatmentnns	treatmentsnnsofinhormonaljj	theynnsofinhormonenn	do_byvbinternal_secretionnn	hormonenndo_byvb	hormonaljjtheynns	endocrinenntreatmentnns	handlevbhormonaljj	internal_secretionnntreatmentsnns	hormonaljjhandlevb	hormonenninterventionnns	do_byvbhormonenn	handlevbhormonenn	internal_secretionnntreatvb	treatmentsnnsofinendocrinenn	hormonenntreatmentnns	internal_secretionnnhandlevb	endocrinennthemnns	handlevbinternal_secretionnn	theynnsofinendocrinenn	hormonaljjtreatmentsnns	treatvbendocrinenn	theynnsofininternal_secretionnn	endocrinenntreatvb	internal_secretionnntheynns	endocrinenntheynns	endocrinenntreatmentsnns	hormonaljjtreatmentnns	do_byvbendocrinenn	hormonennhandlevb	treatmentnnsofinhormonaljj	internal_secretionnndo_byvb	themnnsofinhormonenn	internal_secretionnnthemnns	do_byvbhormonaljj	hormonaljjtreatvb	interventionnnsofinhormonenn	themnnsofinendocrinenn	handlevbendocrinenn	interventionnnsofinhormonaljj	treatmentsnnsofininternal_secretionnn	treatmentnnsofinendocrinenn	hormonaljjthemnns	hormonaljjinterventionnns	treatvbinternal_secretionnn	hormonaljjdo_byvb	endocrinennhandlevb	hormonenntreatvb	treatvbhormonenn	treatmentsnnsofinhormonenn	treatmentnnsofinhormonenn	themnnsofinhormonaljj	hormonennthemnns	theynnsofinhormonaljj	endocrinenninterventionnns	interventionnnsofinendocrinenn	hormonenntheynns	treatvbhormonaljj	interventionnnsofininternal_secretionnn	treatmentnnsofininternal_secretionnn	internal_secretionnninterventionnns	endocrinenndo_byvb	themnnsofininternal_secretionnn	
+
+BE: PSAOrganizationAnnotationtestNN
+EQ class: psaorganizationannotationtestvb	essayvbp.s.a.organizationannotation	tryvbp.s.a.organizationannotation	try_outvbp.s.a.organizationannotation	psaorganizationannotationexaminevb	testvbpsaorganizationannotation	provevbpsaorganizationannotation	p.s.a.organizationannotationtryvb	p.s.a.organizationannotationexaminevb	tryvbpsaorganizationannotation	psaorganizationannotationtry_outvb	examinevbp.s.a.organizationannotation	psaorganizationannotationtrialnn	trialnnofinp.s.a.organizationannotation	trial_runnnofinp.s.a.organizationannotation	psaorganizationannotationtryoutnn	testnnofinpsaorganizationannotation	essayvbpsaorganizationannotation	p.s.a.organizationannotationtryoutnn	p.s.a.organizationannotationtestnn	p.s.a.organizationannotationessayvb	tryoutnnofinpsaorganizationannotation	examinevbpsaorganizationannotation	provevbp.s.a.organizationannotation	psaorganizationannotationtryvb	p.s.a.organizationannotationprovevb	testnnofinp.s.a.organizationannotation	psaorganizationannotationprovevb	psaorganizationannotationtrial_runnn	p.s.a.organizationannotationtrialnn	p.s.a.organizationannotationtry_outvb	trial_runnnofinpsaorganizationannotation	psaorganizationannotationessayvb	trialnnofinpsaorganizationannotation	tryoutnnofinp.s.a.organizationannotation	try_outvbpsaorganizationannotation	testvbp.s.a.organizationannotation	p.s.a.organizationannotationtestvb	p.s.a.organizationannotationtrial_runnn	
+
+BE: 22.HasNNSanyoneNN
+EQ class: hour_anglennsanyonenn	hannsanyonenn	22hasnnsanyonenn	
+
+BE: CatchNNanyoneNN
+EQ class: gimmicknnanyonenn	catchyjjanyonenn	
+
+BE: UrologistNNsaidVBD
+EQ class: saynnofinurologistnn	urologistnntellvbd	urologistnnsayvbd	urologistnnstatevbd	
+
+BE: treatmentsNNSwasAUX
+EQ class: treatmentnnswasaux	themnnsbeaux	treatmentsnnsbeaux	treatmentnnsbeaux	themnnswasaux	theynnsbeaux	interventionnnswasaux	interventionnnsbeaux	theynnswasaux	
+
+BE: allDTcauseVB
+EQ class: alldtdovb	causingnnofinalldt	causingnnalldt	causativennofinalldt	causationnnalldt	alldtmakevb	causaljjofinalldt	causationnnofinalldt	causennofinalldt	
+
+BE: iPRPhaveAUX
+EQ class: iprphave_gotaux	rich_personnnofiniprp	iprpholdaux	wealthy_personnnofiniprp	havennofiniprp	
+
+BE: doctorNNsaysVBZ
+EQ class: dr.nnsaysvbz	mediconnstatevbz	doctornnstatevbz	physiciannnstatevbz	saynnofindr.nn	saynnofinphysiciannn	mdnnstatevbz	mediconnsaysvbz	physiciannntellvbz	saynnofinmdnn	mdnnsaysvbz	mediconnsayvbz	dr.nnsayvbz	docnnsayvbz	doctornnsayvbz	saynnofindoctorialjj	saynnofindoctornn	docnntellvbz	doctorialjjsaysvbz	doctorialjjsayvbz	physiciannnsaysvbz	saynnofinmediconn	doctornntellvbz	mdnntellvbz	doctorialjjstatevbz	docnnsaysvbz	docnnstatevbz	doctorialjjtellvbz	mediconntellvbz	saynnofindocnn	dr.nntellvbz	dr.nnstatevbz	physiciannnsayvbz	mdnnsayvbz	
+
+BE: IPersonAnnotationhaveAUX
+EQ class: rich_personnnofinipersonannotation	i.personannotationholdaux	i.personannotationhaveaux	ipersonannotationholdaux	havennofini.personannotation	ipersonannotationhave_gotaux	i.personannotationhave_gotaux	rich_personnnofini.personannotation	havennofinipersonannotation	wealthy_personnnofinipersonannotation	wealthy_personnnofini.personannotation	
+
+BE: hePRPrepliedVBD
+EQ class: answernnofinmyprp	iprpanswervbd	myprprepliedvbd	answernnofinheprp	replynnofinheprp	replynnofiniprp	myprprespondvbd	myprpreplyvbd	heprpreplyvbd	responsennofinheprp	replynnofinmyprp	answernnofiniprp	heprprespondvbd	iprpreplyvbd	iprprespondvbd	iprprepliedvbd	myprpanswervbd	responsennofinmyprp	responsennofiniprp	heprpanswervbd	
+
+BE: iPRPaskedVBD
+EQ class: queriernnofiniprp	questionernniprp	queriernniprp	askernnofiniprp	enquirernniprp	inquirernniprp	iprpaskvbd	inquirernnofiniprp	iprpenquirevbd	enquirernnofiniprp	questionernnofiniprp	askernniprp	iprpinquirevbd	
+
+BE: iPRPknowVB
+EQ class: iprpcognisevb	iprpcognizevb	knowablennofiniprp	apprehendernniprp	knowingnniprp	knowingnnofiniprp	apprehendernnofiniprp	knowernnofiniprp	knowernniprp	
+
+BE: testNNtellVB
+EQ class: tellernntestnn	testnnsayvb	relationnnofintestnn	tellernnofintryoutnn	trial_runnntellvb	edward_tellernntrial_runnn	recountingnnofintrialnn	recountingnntestnn	tellernnofintrialnn	tellingnntryoutnn	trialnnsayvb	relationnntrial_runnn	recountingnnofintryoutnn	recountingnntrialnn	trial_runnnsayvb	edward_tellernnofintryoutnn	tellernntryoutnn	tellingnnofintrial_runnn	recountingnnofintrial_runnn	edward_tellernnofintrial_runnn	relationnnofintryoutnn	tellingnnofintrialnn	tellernnofintrial_runnn	edward_tellernntrialnn	trial_runnnstatevb	tellingnntrial_runnn	relationnntestnn	recountingnnofintestnn	recountingnntrial_runnn	edward_tellernntryoutnn	tryoutnnsayvb	tellingnnofintryoutnn	relationnnofintrial_runnn	trialnntellvb	tellernntrial_runnn	tellernnofintestnn	trialnnstatevb	relationnnofintrialnn	edward_tellernnofintestnn	tellingnntestnn	relationnntrialnn	tryoutnntellvb	relationnntryoutnn	tryoutnnstatevb	testnnstatevb	edward_tellernnofintrialnn	recountingnntryoutnn	tellingnnofintestnn	edward_tellernntestnn	tellingnntrialnn	tellernntrialnn	
+
+BE: sPRPexperiancedVBD
+EQ class: 
+
+BE: treatmentsNNShelpedVBN
+EQ class: treatmentnnshelpvbn	supporternntreatmentsnns	helpnntreatmentnns	helpernnofintreatmentsnns	helpernntheynns	themnnsaidvbn	treatmentnnshelpedvbn	themnnshelpedvbn	helpnnofininterventionnns	helpernnofintheynns	helpnnthemnns	theynnshelpvbn	assistantnntreatmentnns	treatmentsnnsaidvbn	themnnsassistvbn	aidnnofintreatmentnns	helpernntreatmentnns	supporternninterventionnns	supporternnthemnns	supporternnofintreatmentsnns	interventionnnshelpedvbn	aidnnofintreatmentsnns	helpernnofinthemnns	assistantnntheynns	supporternnofintheynns	supporternnofintreatmentnns	assistancennofintreatmentsnns	helpernnofininterventionnns	helpernnofintreatmentnns	assistantnnofintheynns	helpnnofintheynns	assistancennofintheynns	supporternnofinthemnns	supporternnofininterventionnns	interventionnnshelpvbn	theynnsaidvbn	supporternntheynns	assistancennofinthemnns	theynnsassistvbn	theynnshelpedvbn	assistantnninterventionnns	assistancennofintreatmentnns	treatmentsnnsassistvbn	interventionnnsassistvbn	helpnnofintreatmentsnns	assistnnofinthemnns	assistantnnofintreatmentsnns	assistantnntreatmentsnns	assistantnnofintreatmentnns	assistantnnofininterventionnns	aidnnofininterventionnns	assistantnnthemnns	aidnnofintheynns	themnnshelpvbn	assistnnofintreatmentnns	supporternntreatmentnns	interventionnnsaidvbn	assistnnofintheynns	helpernninterventionnns	helpnntreatmentsnns	helpernnthemnns	helpnninterventionnns	assistnnofininterventionnns	helpnnofinthemnns	treatmentsnnshelpvbn	helpernntreatmentsnns	assistancennofininterventionnns	assistnnofintreatmentsnns	helpnnofintreatmentnns	treatmentnnsaidvbn	helpnntheynns	treatmentnnsassistvbn	aidnnofinthemnns	assistantnnofinthemnns	
+
+BE: saysVBZbonesNN
+EQ class: saynnofinfinger_cymbalsnn	statevbzcastanetsnn	tellvbzfinger_cymbalsnn	tellvbzbonesnn	saysvbzcastanetsnn	tellvbzcastanetsnn	saynnofincastanetsnn	saysvbzfinger_cymbalsnn	saysvbzclappersnn	sayvbzclappersnn	saynnofinclappersnn	sayvbzfinger_cymbalsnn	statevbzfinger_cymbalsnn	saynnofinbonesnn	sayvbzcastanetsnn	tellvbzclappersnn	sayvbzbonesnn	statevbzbonesnn	statevbzclappersnn	
+
+BE: causeVBbonesNN
+EQ class: causationnnofinclappersnn	causationnnofinbonesnn	causingnnofinbonesnn	causingnnofincastanetsnn	causevbcastanetsnn	causationnnofinfinger_cymbalsnn	makevbcastanetsnn	makevbbonesnn	causaljjofinfinger_cymbalsnn	dovbcastanetsnn	dovbclappersnn	causennofinfinger_cymbalsnn	dovbbonesnn	causativennofinfinger_cymbalsnn	causaljjofincastanetsnn	dovbfinger_cymbalsnn	causennofinclappersnn	causingnnofinfinger_cymbalsnn	causennofincastanetsnn	causevbclappersnn	causingnnofinclappersnn	makevbfinger_cymbalsnn	causativennofincastanetsnn	causennofinbonesnn	causationnnofincastanetsnn	causaljjofinclappersnn	causaljjofinbonesnn	causativennofinbonesnn	causevbfinger_cymbalsnn	makevbclappersnn	causativennofinclappersnn	
+
+BE: takeVBshotsNNS
+EQ class: takevbthemnns	takevbtheynns	takevbshotnns	takevbshootingnns	
+
+BE: repliedVBDmonthsNNS
+EQ class: replyvbdthemnns	responsennofintheynns	answernnofinmonthsnns	answervbdthemnns	answervbdmonthnns	repliedvbdmonthlyjj	respondvbdmonthlyjj	answernnofinmonthnns	repliedvbdtheynns	replynnofintheynns	respondvbdtheynns	replyvbdtheynns	responsennofinmonthnns	replyvbdmonthsnns	repliedvbdthemnns	answervbdmonthlyjj	respondvbdcalendar_monthnns	answervbdtheynns	responsennofinthemnns	replynnofinthemnns	replynnofincalendar_monthnns	respondvbdthemnns	respondvbdmonthsnns	responsennofincalendar_monthnns	answernnofincalendar_monthnns	replynnofinmonthnns	replyvbdmonthlyjj	replynnofinmonthsnns	repliedvbdcalendar_monthnns	responsennofinmonthlyjj	answernnofinthemnns	replyvbdmonthnns	replynnofinmonthlyjj	respondvbdmonthnns	answernnofinmonthlyjj	repliedvbdmonthnns	replyvbdcalendar_monthnns	responsennofinmonthsnns	answernnofintheynns	answervbdcalendar_monthnns	answervbdmonthsnns	
+
+BE: experiancedVBDtreatmentsNNS
+EQ class: experiancedvbdthemnns	experiancedvbdtreatmentnns	experiancedvbdtheynns	experiancedvbdinterventionnns	
+
+BE: areAUXresultsNNS
+EQ class: beauxeffectnns	areauxoutcomenns	beauxeventnns	beauxresultnns	beauxthemnns	areauxthemnns	beauxtheynns	beauxupshotnns	beauxissuenns	beauxoutcomenns	areauxeventnns	areauxtheynns	beauxresultsnns	areauxeffectnns	beauxconsequencenns	areauxissuenns	areauxresultnns	areauxupshotnns	areauxconsequencenns	
+
+BE: diagnosedVBNiPRP
+EQ class: namevbniprp	diagnosticjjofiniprp	diagnosisnnofiniprp	diagnosevbniprp	diagnosingnnofiniprp	
+
+BE: restNNofINlifeFW
+EQ class: lifefwresidualnn	lifefwrestnn	lifefwresiduumnn	lifefwremaindernn	residualnnofinlifefw	residuumnnofinlifefw	lifefwbalancenn	residuennofinlifefw	remaindernnofinlifefw	balancennofinlifefw	lifefwresiduenn	
+
+BE: takeVBforINrestNN
+EQ class: takevbforinbalancenn	takevbforinremaindernn	takevbforinresidualnn	takevbforinresiduumnn	takevbforinresiduenn	
+
+BE: saidVBDwhenWRBdiagnosedVBN
+EQ class: sayvbdwhenwrbnamevbn	saidvbdwhenwrbnamevbn	sayvbdwhenwrbdiagnosevbn	saidvbdwhenwrbdiagnosevbn	statevbdwhenwrbdiagnosedvbn	tellvbdwhenwrbnamevbn	tellvbdwhenwrbdiagnosedvbn	statevbdwhenwrbdiagnosevbn	tellvbdwhenwrbdiagnosevbn	statevbdwhenwrbnamevbn	sayvbdwhenwrbdiagnosedvbn	
+
+BE: repliedVBDwhenWRBaskedVBD
+EQ class: answervbdwhenwrbaskedvbd	respondvbdwhenwrbaskedvbd	repliedvbdwhenwrbenquirevbd	repliedvbdwhenwrbinquirevbd	replyvbdwhenwrbaskvbd	replyvbdwhenwrbenquirevbd	replyvbdwhenwrbaskedvbd	answervbdwhenwrbenquirevbd	replyvbdwhenwrbinquirevbd	answervbdwhenwrbaskvbd	answervbdwhenwrbinquirevbd	respondvbdwhenwrbinquirevbd	respondvbdwhenwrbenquirevbd	respondvbdwhenwrbaskvbd	repliedvbdwhenwrbaskvbd	
+
+BE: knowVBifINhelpedVBN
+EQ class: cognizevbifinaidvbn	cognisevbifinhelpedvbn	cognisevbifinassistvbn	cognisevbifinaidvbn	cognizevbifinhelpvbn	cognizevbifinassistvbn	knowvbifinaidvbn	knowvbifinhelpvbn	knowvbifinassistvbn	cognisevbifinhelpvbn	cognizevbifinhelpedvbn	
+
+BE: tellVBthatINexperiancedVBD
+EQ class: statevbthatinexperiancedvbd	sayvbthatinexperiancedvbd	
+
+BE: diagnosedVBNfirstRB
+EQ class: diagnosingnnofinfirstrb	diagnosevbnfirstrb	diagnosisnnofinfirstrb	namevbnfirstrb	diagnosticjjofinfirstrb	
+
+BE: saysVBZNowRB
+EQ class: saynnofinnowrb	sayvbznowrb	tellvbznowrb	statevbznowrb	
+
+BE: tellVBNowRB
+EQ class: sayvbnowrb	edward_tellernnofinnowrb	tellernnofinnowrb	statevbnowrb	recountingnnofinnowrb	relationnnofinnowrb	tellingnnofinnowrb	
+
+BE: experiancedVBDreallyRB
+EQ class: 
+
+BE: GleasonNNP
+EQ class: 
+
+BE: scoreNN
+EQ class: marknn	gradenn	
+
+BE: biopsyNN
+EQ class: 
+
+BE: removalNN
+EQ class: remotionnn	
+
+BE: questionNN
+EQ class: enquirynn	interrogationnn	querynn	inquirynn	
+
+BE: boneNN
+EQ class: boneyjj	bonyjj	osnn	
+
+BE: cancerNN
+EQ class: cancerousjj	malignant_neoplastic_diseasenn	
+
+BE: treatmentsNNS
+EQ class: interventionnns	theynns	treatmentnns	themnns	
+
+BE: cancerNN
+EQ class: cancerousjj	malignant_neoplastic_diseasenn	
+
+BE: cellsNNS
+EQ class: cellnns	cellularjj	theynns	themnns	
+
+BE: lymph nodesOrganizationAnnotation
+EQ class: 
+
+BE: scanVB
+EQ class: 
+
+BE: showVB
+EQ class: demonstratevb	exhibitvb	presentvb	demovb	
+
+BE: toldVBN
+EQ class: sayvbn	statevbn	tellvbn	
+
+BE: fullJJ
+EQ class: fullnessnn	
+
+BE: pelvicJJ
+EQ class: pelvisnn	
+
+BE: fullJJtreatmentsNNS
+EQ class: fullnessnninterventionnns	fullnessnntheynns	fulljjinterventionnns	fullnessnnthemnns	do_byvbfullyrb	treatvbfullyrb	fulljjthemnns	fulljjtreatmentnns	fullnessnntreatmentsnns	fulljjtheynns	handlevbfullyrb	fullnessnntreatmentnns	
+
+BE: pelvicJJtreatmentsNNS
+EQ class: pelvicjjinterventionnns	pelvisnntheynns	pelvicjjtheynns	pelvicjjthemnns	pelvisnntreatmentnns	pelvicjjtreatmentnns	pelvisnntreatmentsnns	pelvisnninterventionnns	pelvisnnthemnns	
+
+BE: myPRP$scoreNN
+EQ class: myprp$tallyvb	myprp$gradenn	myprp$hitvb	rack_upvbmyprp$	myprp$scorevb	tallyvbmyprp$	hitvbmyprp$	gradennofinmyprp$	myprp$rack_upvb	myprp$marknn	scorennofinmyprp$	marknnofinmyprp$	scorevbmyprp$	
+
+BE: myPRP$biopsyNN
+EQ class: biopsynnofinmyprp$	
+
+BE: MyPersonAnnotationboneNN
+EQ class: boneyvbmypersonannotation	mypersonannotationboneletvb	bonyjjofinmypersonannotation	boneyjjofinmypersonannotation	mypersonannotationbonyjj	mypersonannotationbonyvb	bonyvbmypersonannotation	mypersonannotationosnn	bonennofinmypersonannotation	mypersonannotationboneyjj	mypersonannotationboneyvb	osnnofinmypersonannotation	boneletvbmypersonannotation	
+
+BE: GleasonNNPscoreNN
+EQ class: gleasonnnpscorevb	gleasonnnptallyvb	scorevbgleasonnnp	gleasonnnpgradenn	gradennofingleasonnnp	gleasonnnpmarknn	hitvbgleasonnnp	tallyvbgleasonnnp	gleasonnnprack_upvb	gleasonnnphitvb	rack_upvbgleasonnnp	marknnofingleasonnnp	scorennofingleasonnnp	
+
+BE: cancerNNcellsNNS
+EQ class: malignant_neoplastic_diseasennthemnns	themnnsofincancerousjj	cancerousjjcellularjj	cancerousjjthemnns	theynnsofincancernn	cancerousjjcellnns	malignant_neoplastic_diseasenncellularvb	cellularjjofincancerousjj	cancernncellularvb	cellularvbcancerousjj	malignant_neoplastic_diseasenntheynns	cancernnthemnns	cellularjjofincancernn	cellularvbcancernn	cellularjjofinmalignant_neoplastic_diseasenn	themnnsofincancernn	cancerousjjtheynns	malignant_neoplastic_diseasenncellsnns	cellnnsofinmalignant_neoplastic_diseasenn	cellsnnsofinmalignant_neoplastic_diseasenn	theynnsofincancerousjj	cancerousjjcellularvb	cancernncellularjj	malignant_neoplastic_diseasenncellnns	theynnsofinmalignant_neoplastic_diseasenn	cellsnnsofincancernn	cellnnsofincancerousjj	cellsnnsofincancerousjj	cancernntheynns	cellularvbmalignant_neoplastic_diseasenn	malignant_neoplastic_diseasenncellularjj	cellnnsofincancernn	cancerousjjcellsnns	cancernncellnns	themnnsofinmalignant_neoplastic_diseasenn	
+
+BE: scoreNNwasAUX
+EQ class: scorennbeaux	gradennbeaux	marknnwasaux	marknnbeaux	gradennwasaux	
+
+BE: removalNNwasAUX
+EQ class: remotionnnbeaux	remotionnnwasaux	removalnnbeaux	
+
+BE: boneNNscanVB
+EQ class: bonyjjscanvb	scannnofinbonenn	scannnofinboneyjj	scannnofinbonyjj	osnnscanvb	scannnofinosnn	boneyjjscanvb	
+
+BE: treatmentsNNSwereAUX
+EQ class: themnnsbeaux	theynnswereaux	treatmentnnswereaux	treatmentsnnsbeaux	treatmentnnsbeaux	theynnsbeaux	interventionnnsbeaux	themnnswereaux	interventionnnswereaux	
+
+BE: cellsNNSbeenAUX
+EQ class: themnnsbeaux	theynnsbeenaux	cellsnnsbeaux	cellularjjbeenaux	cellnnsbeaux	themnnsbeenaux	cellnnsbeenaux	theynnsbeaux	cellularjjbeaux	
+
+BE: scanVBquestionNN
+EQ class: scanvbenquirynn	scannnofinenquirynn	scanvbinterrogationnn	scannnofinquestionnn	scannnofinquerynn	scannnofininquirynn	scanvbinquirynn	scannnofininterrogationnn	scanvbquerynn	
+
+BE: wasAUX9CD
+EQ class: beauxninercd	wasauxnina_from_carolinacd	wasauxenneadcd	beauxninecd	beaux9cd	wasauxninecd	beauxenneadcd	beauxnina_from_carolinacd	wasaux9.cd	beauxixcd	wasauxixcd	beaux9.cd	wasauxninercd	
+
+BE: showVBcancerNN
+EQ class: demonstratevbcancernn	shownnofinmalignant_neoplastic_diseasenn	demovbcancerousjj	screeningnnofincancernn	demovbmalignant_neoplastic_diseasenn	viewingnnofinmalignant_neoplastic_diseasenn	screeningnnofinmalignant_neoplastic_diseasenn	exhibitvbmalignant_neoplastic_diseasenn	viewingnnofincancernn	viewingnnofincancerousjj	shownnofincancernn	exhibitvbcancerousjj	showingnnofincancernn	showyjjofincancerousjj	demonstratevbmalignant_neoplastic_diseasenn	showingnnofincancerousjj	showvbmalignant_neoplastic_diseasenn	showvbcancerousjj	shownnofincancerousjj	showyjjofinmalignant_neoplastic_diseasenn	demovbcancernn	presentvbmalignant_neoplastic_diseasenn	showyjjofincancernn	screeningnnofincancerousjj	presentvbcancernn	demonstratevbcancerousjj	exhibitvbcancernn	presentvbcancerousjj	showingnnofinmalignant_neoplastic_diseasenn	
+
+BE: toldVBNiPRP
+EQ class: tellernnofiniprp	sayvbniprp	tellingnnofiniprp	statevbniprp	relationnnofiniprp	recountingnnofiniprp	tellvbniprp	edward_tellernnofiniprp	
+
+BE: scoreNNfromINbiopsyNN
+EQ class: rack_upvbbiopsynn	tallyvbbiopsynn	biopsynnrack_upvb	hitvbbiopsynn	scorevbbiopsynn	gradennfrominbiopsynn	biopsynnhitvb	biopsynngradenn	biopsynnmarknn	biopsynntallyvb	marknnfrominbiopsynn	biopsynnscorenn	biopsynnscorevb	
+
+BE: wereAUXforINcellsNNS
+EQ class: beauxforinthemnns	beauxforincellnns	beauxforincellularjj	beauxforincellsnns	wereauxforintheynns	wereauxforincellnns	wereauxforinthemnns	wereauxforincellularjj	beauxforintheynns	
+
+BE: beenAUXinINlymph nodesOrganizationAnnotation
+EQ class: beauxininlymph nodesorganizationannotation	
+
+BE: wasAUXoutINquestionNN
+EQ class: beauxoutininquirynn	wasauxoutininterrogationnn	beauxoutinenquirynn	beauxoutinquestionnn	wasauxoutininquirynn	beauxoutinquerynn	wasauxoutinquerynn	beauxoutininterrogationnn	wasauxoutinenquirynn	
+
+BE: didAUXnotRB
+EQ class: doauxnotrb	makeauxnotrb	
+
+BE: 9CDscoreNN
+EQ class: ninercdgradenn	marknnninecd	gradennofinixcd	ixcdscorenn	marknnofinenneadcd	ninecdscorenn	scorernnofinninecd	marknn9.cd	enneadcdgradenn	ninercdtallyvb	9.cdhitvb	scorennofinixcd	gradennninercd	nina_from_carolinacdscorenn	nina_from_carolinacdgradenn	scorernnofinnina_from_carolinacd	ninercdmarknn	gradennofinenneadcd	ixcdtallyvb	9cdrack_upvb	ninercdhitvb	gradennofin9cd	enneadcdscorevb	marknnnina_from_carolinacd	9.cdscorevb	9.cdmarknn	scorennofinenneadcd	scorennofinninecd	gradenn9.cd	marknnninercd	ninercdrack_upvb	scorernnofinixcd	enneadcdtallyvb	scorennixcd	enneadcdscorenn	marknnenneadcd	scorenn9.cd	scorennofinninercd	ixcdhitvb	scorennnina_from_carolinacd	scorernnofin9cd	gradennofin9.cd	9cdmarknn	9cdtallyvb	scorennofin9cd	ninecdgradenn	marknnofinnina_from_carolinacd	9cdhitvb	enneadcdmarknn	gradennnina_from_carolinacd	marknnofinninercd	9.cdrack_upvb	scorennofinnina_from_carolinacd	nina_from_carolinacdrack_upvb	marknnofinninecd	scorennofin9.cd	gradennofinninercd	scorennninercd	9.cdtallyvb	ixcdscorevb	9cdgradenn	enneadcdrack_upvb	scorennenneadcd	ninercdscorenn	ixcdgradenn	ixcdrack_upvb	9cdscorevb	nina_from_carolinacdtallyvb	ninecdtallyvb	gradennixcd	gradennninecd	nina_from_carolinacdscorevb	marknnofinixcd	ixcdmarknn	9.cdgradenn	nina_from_carolinacdhitvb	gradennofinninecd	ninecdrack_upvb	scorernnofin9.cd	scorernnofinenneadcd	enneadcdhitvb	gradennenneadcd	scorenn9cd	ninercdscorevb	nina_from_carolinacdmarknn	marknnofin9cd	gradenn9cd	marknn9cd	gradennofinnina_from_carolinacd	marknnofin9.cd	marknnixcd	scorennninecd	ninecdhitvb	scorernnofinninercd	ninecdscorevb	ninecdmarknn	9.cdscorenn	
+
+BE: GleasonNNP
+EQ class: 
+
+BE: scoreNN
+EQ class: marknn	gradenn	
+
+BE: biopsyNN
+EQ class: 
+
+BE: removalNN
+EQ class: remotionnn	
+
+BE: questionNN
+EQ class: enquirynn	interrogationnn	querynn	inquirynn	
+
+BE: boneNN
+EQ class: boneyjj	bonyjj	osnn	
+
+BE: cancerNN
+EQ class: cancerousjj	malignant_neoplastic_diseasenn	
+
+BE: treatmentsNNS
+EQ class: interventionnns	theynns	treatmentnns	themnns	
+
+BE: cancerNN
+EQ class: cancerousjj	malignant_neoplastic_diseasenn	
+
+BE: cellsNNS
+EQ class: cellnns	cellularjj	theynns	themnns	
+
+BE: lymph nodesOrganizationAnnotation
+EQ class: 
+
+BE: scanVB
+EQ class: 
+
+BE: showVB
+EQ class: demonstratevb	exhibitvb	presentvb	demovb	
+
+BE: toldVBN
+EQ class: sayvbn	statevbn	tellvbn	
+
+BE: fullJJ
+EQ class: fullnessnn	
+
+BE: pelvicJJ
+EQ class: pelvisnn	
+
+BE: fullJJtreatmentsNNS
+EQ class: fullnessnninterventionnns	fullnessnntheynns	fulljjinterventionnns	fullnessnnthemnns	do_byvbfullyrb	treatvbfullyrb	fulljjthemnns	fulljjtreatmentnns	fullnessnntreatmentsnns	fulljjtheynns	handlevbfullyrb	fullnessnntreatmentnns	
+
+BE: pelvicJJtreatmentsNNS
+EQ class: pelvicjjinterventionnns	pelvisnntheynns	pelvicjjtheynns	pelvicjjthemnns	pelvisnntreatmentnns	pelvicjjtreatmentnns	pelvisnntreatmentsnns	pelvisnninterventionnns	pelvisnnthemnns	
+
+BE: myPRP$scoreNN
+EQ class: myprp$tallyvb	myprp$gradenn	myprp$hitvb	rack_upvbmyprp$	myprp$scorevb	tallyvbmyprp$	hitvbmyprp$	gradennofinmyprp$	myprp$rack_upvb	myprp$marknn	scorennofinmyprp$	marknnofinmyprp$	scorevbmyprp$	
+
+BE: myPRP$biopsyNN
+EQ class: biopsynnofinmyprp$	
+
+BE: MyPersonAnnotationboneNN
+EQ class: boneyvbmypersonannotation	mypersonannotationboneletvb	bonyjjofinmypersonannotation	boneyjjofinmypersonannotation	mypersonannotationbonyjj	mypersonannotationbonyvb	bonyvbmypersonannotation	mypersonannotationosnn	bonennofinmypersonannotation	mypersonannotationboneyjj	mypersonannotationboneyvb	osnnofinmypersonannotation	boneletvbmypersonannotation	
+
+BE: GleasonNNPscoreNN
+EQ class: gleasonnnpscorevb	gleasonnnptallyvb	scorevbgleasonnnp	gleasonnnpgradenn	gradennofingleasonnnp	gleasonnnpmarknn	hitvbgleasonnnp	tallyvbgleasonnnp	gleasonnnprack_upvb	gleasonnnphitvb	rack_upvbgleasonnnp	marknnofingleasonnnp	scorennofingleasonnnp	
+
+BE: cancerNNcellsNNS
+EQ class: malignant_neoplastic_diseasennthemnns	themnnsofincancerousjj	cancerousjjcellularjj	cancerousjjthemnns	theynnsofincancernn	cancerousjjcellnns	malignant_neoplastic_diseasenncellularvb	cellularjjofincancerousjj	cancernncellularvb	cellularvbcancerousjj	malignant_neoplastic_diseasenntheynns	cancernnthemnns	cellularjjofincancernn	cellularvbcancernn	cellularjjofinmalignant_neoplastic_diseasenn	themnnsofincancernn	cancerousjjtheynns	malignant_neoplastic_diseasenncellsnns	cellnnsofinmalignant_neoplastic_diseasenn	cellsnnsofinmalignant_neoplastic_diseasenn	theynnsofincancerousjj	cancerousjjcellularvb	cancernncellularjj	malignant_neoplastic_diseasenncellnns	theynnsofinmalignant_neoplastic_diseasenn	cellsnnsofincancernn	cellnnsofincancerousjj	cellsnnsofincancerousjj	cancernntheynns	cellularvbmalignant_neoplastic_diseasenn	malignant_neoplastic_diseasenncellularjj	cellnnsofincancernn	cancerousjjcellsnns	cancernncellnns	themnnsofinmalignant_neoplastic_diseasenn	
+
+BE: scoreNNwasAUX
+EQ class: scorennbeaux	gradennbeaux	marknnwasaux	marknnbeaux	gradennwasaux	
+
+BE: removalNNwasAUX
+EQ class: remotionnnbeaux	remotionnnwasaux	removalnnbeaux	
+
+BE: boneNNscanVB
+EQ class: bonyjjscanvb	scannnofinbonenn	scannnofinboneyjj	scannnofinbonyjj	osnnscanvb	scannnofinosnn	boneyjjscanvb	
+
+BE: treatmentsNNSwereAUX
+EQ class: themnnsbeaux	theynnswereaux	treatmentnnswereaux	treatmentsnnsbeaux	treatmentnnsbeaux	theynnsbeaux	interventionnnsbeaux	themnnswereaux	interventionnnswereaux	
+
+BE: cellsNNSbeenAUX
+EQ class: themnnsbeaux	theynnsbeenaux	cellsnnsbeaux	cellularjjbeenaux	cellnnsbeaux	themnnsbeenaux	cellnnsbeenaux	theynnsbeaux	cellularjjbeaux	
+
+BE: scanVBquestionNN
+EQ class: scanvbenquirynn	scannnofinenquirynn	scanvbinterrogationnn	scannnofinquestionnn	scannnofinquerynn	scannnofininquirynn	scanvbinquirynn	scannnofininterrogationnn	scanvbquerynn	
+
+BE: wasAUX9CD
+EQ class: beauxninercd	wasauxnina_from_carolinacd	wasauxenneadcd	beauxninecd	beaux9cd	wasauxninecd	beauxenneadcd	beauxnina_from_carolinacd	wasaux9.cd	beauxixcd	wasauxixcd	beaux9.cd	wasauxninercd	
+
+BE: showVBcancerNN
+EQ class: demonstratevbcancernn	shownnofinmalignant_neoplastic_diseasenn	demovbcancerousjj	screeningnnofincancernn	demovbmalignant_neoplastic_diseasenn	viewingnnofinmalignant_neoplastic_diseasenn	screeningnnofinmalignant_neoplastic_diseasenn	exhibitvbmalignant_neoplastic_diseasenn	viewingnnofincancernn	viewingnnofincancerousjj	shownnofincancernn	exhibitvbcancerousjj	showingnnofincancernn	showyjjofincancerousjj	demonstratevbmalignant_neoplastic_diseasenn	showingnnofincancerousjj	showvbmalignant_neoplastic_diseasenn	showvbcancerousjj	shownnofincancerousjj	showyjjofinmalignant_neoplastic_diseasenn	demovbcancernn	presentvbmalignant_neoplastic_diseasenn	showyjjofincancernn	screeningnnofincancerousjj	presentvbcancernn	demonstratevbcancerousjj	exhibitvbcancernn	presentvbcancerousjj	showingnnofinmalignant_neoplastic_diseasenn	
+
+BE: toldVBNiPRP
+EQ class: tellernnofiniprp	sayvbniprp	tellingnnofiniprp	statevbniprp	relationnnofiniprp	recountingnnofiniprp	tellvbniprp	edward_tellernnofiniprp	
+
+BE: scoreNNfromINbiopsyNN
+EQ class: rack_upvbbiopsynn	tallyvbbiopsynn	biopsynnrack_upvb	hitvbbiopsynn	scorevbbiopsynn	gradennfrominbiopsynn	biopsynnhitvb	biopsynngradenn	biopsynnmarknn	biopsynntallyvb	marknnfrominbiopsynn	biopsynnscorenn	biopsynnscorevb	
+
+BE: wereAUXforINcellsNNS
+EQ class: beauxforinthemnns	beauxforincellnns	beauxforincellularjj	beauxforincellsnns	wereauxforintheynns	wereauxforincellnns	wereauxforinthemnns	wereauxforincellularjj	beauxforintheynns	
+
+BE: beenAUXinINlymph nodesOrganizationAnnotation
+EQ class: beauxininlymph nodesorganizationannotation	
+
+BE: wasAUXoutINquestionNN
+EQ class: beauxoutininquirynn	wasauxoutininterrogationnn	beauxoutinenquirynn	beauxoutinquestionnn	wasauxoutininquirynn	beauxoutinquerynn	wasauxoutinquerynn	beauxoutininterrogationnn	wasauxoutinenquirynn	
+
+BE: didAUXnotRB
+EQ class: doauxnotrb	makeauxnotrb	
+
+BE: 9CDscoreNN
+EQ class: ninercdgradenn	marknnninecd	gradennofinixcd	ixcdscorenn	marknnofinenneadcd	ninecdscorenn	scorernnofinninecd	marknn9.cd	enneadcdgradenn	ninercdtallyvb	9.cdhitvb	scorennofinixcd	gradennninercd	nina_from_carolinacdscorenn	nina_from_carolinacdgradenn	scorernnofinnina_from_carolinacd	ninercdmarknn	gradennofinenneadcd	ixcdtallyvb	9cdrack_upvb	ninercdhitvb	gradennofin9cd	enneadcdscorevb	marknnnina_from_carolinacd	9.cdscorevb	9.cdmarknn	scorennofinenneadcd	scorennofinninecd	gradenn9.cd	marknnninercd	ninercdrack_upvb	scorernnofinixcd	enneadcdtallyvb	scorennixcd	enneadcdscorenn	marknnenneadcd	scorenn9.cd	scorennofinninercd	ixcdhitvb	scorennnina_from_carolinacd	scorernnofin9cd	gradennofin9.cd	9cdmarknn	9cdtallyvb	scorennofin9cd	ninecdgradenn	marknnofinnina_from_carolinacd	9cdhitvb	enneadcdmarknn	gradennnina_from_carolinacd	marknnofinninercd	9.cdrack_upvb	scorennofinnina_from_carolinacd	nina_from_carolinacdrack_upvb	marknnofinninecd	scorennofin9.cd	gradennofinninercd	scorennninercd	9.cdtallyvb	ixcdscorevb	9cdgradenn	enneadcdrack_upvb	scorennenneadcd	ninercdscorenn	ixcdgradenn	ixcdrack_upvb	9cdscorevb	nina_from_carolinacdtallyvb	ninecdtallyvb	gradennixcd	gradennninecd	nina_from_carolinacdscorevb	marknnofinixcd	ixcdmarknn	9.cdgradenn	nina_from_carolinacdhitvb	gradennofinninecd	ninecdrack_upvb	scorernnofin9.cd	scorernnofinenneadcd	enneadcdhitvb	gradennenneadcd	scorenn9cd	ninercdscorevb	nina_from_carolinacdmarknn	marknnofin9cd	gradenn9cd	marknn9cd	gradennofinnina_from_carolinacd	marknnofin9.cd	marknnixcd	scorennninecd	ninecdhitvb	scorernnofinninercd	ninecdscorevb	ninecdmarknn	9.cdscorenn	
+
+BE: answersNNS
+EQ class: theynns	replynns	responsenns	answernns	themnns	
+
+BE: answerersNNS
+EQ class: respondernns	respondentnns	theynns	answerernns	themnns	
+
+BE: linkNN
+EQ class: nexusnn	
+
+BE: tLocationAnnotation
+EQ class: 
+
+BE: wantedVBD
+EQ class: desirevbd	wantvbd	
+
+BE: goVB
+EQ class: locomotevb	movevb	travelvb	
+
+BE: veVBP
+EQ class: 
+
+BE: triedVBN
+EQ class: attemptvbn	tryvbn	essayvbn	seekvbn	assayvbn	
+
+BE: getVB
+EQ class: acquirevb	
+
+BE: SeveralJJ
+EQ class: 
+
+BE: goodJJ
+EQ class: goodnessnn	
+
+BE: didnJJ
+EQ class: 
+
+BE: SeveralJJanswersNNS
+EQ class: respondvbseverallyrb	severaljjanswernns	severaljjtheynns	severaljjresponsenns	answervbseverallyrb	replyvbseverallyrb	severaljjreplynns	severaljjthemnns	
+
+BE: goodJJanswersNNS
+EQ class: goodnessnnthemnns	goodnessnnanswersnns	goodnessnnresponsenns	goodjjtheynns	goodnessnnanswernns	goodjjreplynns	goodjjresponsenns	goodnessnntheynns	goodjjanswernns	goodnessnnreplynns	goodjjthemnns	
+
+BE: triedVBNtLocationAnnotation
+EQ class: trynnofintlocationannotation	tryvbntlocationannotation	assayvbntlocationannotation	endeavournnofintlocationannotation	seekvbntlocationannotation	effortnnofintlocationannotation	triernnofintlocationannotation	endeavornnofintlocationannotation	attemptnnofintlocationannotation	essayvbntlocationannotation	attemptvbntlocationannotation	
+
+BE: didnJJtLocationAnnotation
+EQ class: 
+
+BE: answersNNSveVBP
+EQ class: theynnsvevbp	replynnsvevbp	answernnsvevbp	responsennsvevbp	themnnsvevbp	
+
+BE: iPRPveVBP
+EQ class: 
+
+BE: mePRPgoVB
+EQ class: meprptravelvb	meprpmovevb	meprplocomotevb	
+
+BE: tLocationAnnotationgetVB
+EQ class: acquiringnnofintlocationannotation	gettingnntlocationannotation	acquiringnntlocationannotation	tlocationannotationacquirevb	gettingnnofintlocationannotation	
+
+BE: answerersNNSwantedVBD
+EQ class: privationnnofinrespondentnns	themnnswantedvbd	wanternnanswerernns	deprivationnnofinrespondernns	wanternnrespondentnns	needernnofinrespondentnns	needernnanswerersnns	needernnrespondentnns	wantnnofinanswerersnns	respondernnswantedvbd	needernnofinanswerernns	needinessnnofinthemnns	answerersnnswantvbd	needinessnnofinanswerersnns	needernnthemnns	privationnnofinanswerernns	deprivationnnofintheynns	needernnrespondernns	deprivationnnofinthemnns	needernntheynns	respondentnnsdesirevbd	theynnsdesirevbd	wanternnthemnns	wanternntheynns	wantnnofintheynns	needinessnnofinrespondernns	wanternnofinrespondentnns	privationnnofinrespondernns	wanternnofinthemnns	theynnswantedvbd	needernnofintheynns	needernnofinrespondernns	deprivationnnofinanswerersnns	deprivationnnofinrespondentnns	wanternnofinanswerernns	wanternnrespondernns	wanternnofinanswerersnns	needinessnnofinanswerernns	needernnofinthemnns	wantnnofinanswerernns	privationnnofintheynns	answerersnnsdesirevbd	respondernnswantvbd	respondentnnswantvbd	needinessnnofintheynns	needernnanswerernns	answerernnswantvbd	wanternnofintheynns	wantnnofinthemnns	respondernnsdesirevbd	wanternnanswerersnns	needernnofinanswerersnns	needinessnnofinrespondentnns	deprivationnnofinanswerernns	wanternnofinrespondernns	privationnnofinthemnns	themnnswantvbd	answerernnswantedvbd	answerernnsdesirevbd	privationnnofinanswerersnns	theynnswantvbd	wantnnofinrespondentnns	wantnnofinrespondernns	respondentnnswantedvbd	themnnsdesirevbd	
+
+BE: wantedVBDmePRP
+EQ class: deprivationnnofinmeprp	wantnnofinmeprp	desirevbdmeprp	needinessnnofinmeprp	wanternnofinmeprp	privationnnofinmeprp	wantvbdmeprp	needernnofinmeprp	
+
+BE: veVBPtLocationAnnotation
+EQ class: 
+
+BE: goVBtoTOlinkNN
+EQ class: movevbtotolinknn	travelvbtotolinknn	locomotevbtotonexusnn	locomotevbtotolinknn	travelvbtotonexusnn	govbtotonexusnn	movevbtotonexusnn	
+
+BE: veVBPtoTOanswerersNNS
+EQ class: vevbptotoanswerernns	vevbptotothemnns	vevbptotorespondernns	vevbptototheynns	vevbptotorespondentnns	
+
+BE: getVBanywhereRB
+EQ class: acquirevbanywhererb	gettingnnofinanywhererb	acquiringnnofinanywhererb	
+
+BE: researcherNN
+EQ class: research_workernn	investigatornn	
+
+BE: postNN
+EQ class: stationnn	
+
+BE: PSAOrganizationAnnotation
+EQ class: p.s.a.organizationannotation	
+
+BE: levelsNNS
+EQ class: degreenns	theynns	levelnns	gradenns	themnns	
+
+BE: reNNP
+EQ class: rheniumnnp	atomic_number_75nnp	
+
+BE: hormoneNN
+EQ class: endocrinenn	internal_secretionnn	hormonaljj	
+
+BE: therapyNN
+EQ class: therapeuticjj	therapeuticaljj	
+
+BE: hormoneNN
+EQ class: endocrinenn	internal_secretionnn	hormonaljj	
+
+BE: restNN
+EQ class: remaindernn	residuumnn	balancenn	residualnn	residuenn	
+
+BE: lifeNN
+EQ class: 
+
+BE: readVB
+EQ class: 
+
+BE: toldVBN
+EQ class: sayvbn	statevbn	tellvbn	
+
+BE: goodJJ
+EQ class: goodnessnn	
+
+BE: longJJ
+EQ class: longnessnn	
+
+BE: myPRP$lifeNN
+EQ class: lifennofinmyprp$	
+
+BE: PSAOrganizationAnnotationlevelsNNS
+EQ class: p.s.a.organizationannotationlevelsnns	levelsnnsofinp.s.a.organizationannotation	gradennsofinp.s.a.organizationannotation	psaorganizationannotationdegreenns	psaorganizationannotationlevelnns	themnnsofinpsaorganizationannotation	p.s.a.organizationannotationlevelnns	theynnsofinp.s.a.organizationannotation	p.s.a.organizationannotationtheynns	p.s.a.organizationannotationgradenns	gradennsofinpsaorganizationannotation	p.s.a.organizationannotationdegreenns	degreennsofinp.s.a.organizationannotation	levelsnnsofinpsaorganizationannotation	levelnnsofinp.s.a.organizationannotation	psaorganizationannotationtheynns	psaorganizationannotationgradenns	p.s.a.organizationannotationthemnns	degreennsofinpsaorganizationannotation	levelnnsofinpsaorganizationannotation	psaorganizationannotationthemnns	themnnsofinp.s.a.organizationannotation	theynnsofinpsaorganizationannotation	
+
+BE: hormoneNNtherapyNN
+EQ class: endocrinenntherapynn	hormonenntherapeuticalvb	therapynnofinhormonaljj	therapeuticaljjofininternal_secretionnn	therapeuticjjofinendocrinenn	internal_secretionnntherapistvb	endocrinenntherapeuticaljj	endocrinenntherapeuticjj	therapeuticaljjofinendocrinenn	hormonenntherapeuticaljj	internal_secretionnntherapeuticjj	internal_secretionnntherapeuticvb	internal_secretionnntherapynn	hormonaljjtherapeuticjj	therapeuticvbhormonaljj	endocrinenntherapistvb	therapeuticjjofinhormonenn	therapeuticvbinternal_secretionnn	therapynnofinendocrinenn	hormonaljjtherapeuticaljj	internal_secretionnntherapeuticaljj	hormonenntherapeuticjj	therapistvbendocrinenn	endocrinenntherapeuticvb	therapistvbhormonaljj	therapeuticalvbendocrinenn	hormonenntherapeuticvb	hormonaljjtherapynn	therapeuticvbendocrinenn	therapeuticalvbinternal_secretionnn	hormonaljjtherapeuticalvb	hormonaljjtherapeuticvb	therapeuticjjofininternal_secretionnn	therapynnofinhormonenn	therapeuticaljjofinhormonaljj	therapeuticalvbhormonaljj	therapistvbhormonenn	therapistvbinternal_secretionnn	hormonenntherapistvb	therapynnofininternal_secretionnn	therapeuticvbhormonenn	therapeuticaljjofinhormonenn	endocrinenntherapeuticalvb	internal_secretionnntherapeuticalvb	therapeuticalvbhormonenn	hormonaljjtherapistvb	therapeuticjjofinhormonaljj	
+
+BE: iPRPbeAUX
+EQ class: 
+
+BE: levelsNNSareAUX
+EQ class: gradennsareaux	levelnnsbeaux	themnnsbeaux	levelsnnsbeaux	theynnsareaux	levelnnsareaux	themnnsareaux	gradennsbeaux	degreennsbeaux	degreennsareaux	theynnsbeaux	
+
+BE: readVBpostNN
+EQ class: readvbstationnn	readingnnofinpostnn	readernnofinstationnn	readernnofinpostnn	readingnnofinstationnn	readnnofinstationnn	readnnofinpostnn	
+
+BE: toldVBNiPRP
+EQ class: tellernnofiniprp	sayvbniprp	tellingnnofiniprp	statevbniprp	relationnnofiniprp	recountingnnofiniprp	tellvbniprp	edward_tellernnofiniprp	
+
+BE: areAUXgoodJJ
+EQ class: areauxgoodnessnn	beauxgoodnessnn	beauxgoodjj	
+
+BE: restNNofINlifeNN
+EQ class: residualnnofinlifenn	lifennresiduumnn	lifennresidualnn	residuennofinlifenn	balancennofinlifenn	remaindernnofinlifenn	lifennresiduenn	lifennremaindernn	lifennrestnn	lifennbalancenn	residuumnnofinlifenn	
+
+BE: areAUXonINtherapyNN
+EQ class: beauxonintherapeuticjj	beauxonintherapeuticaljj	beauxonintherapynn	areauxonintherapeuticjj	areauxonintherapeuticaljj	
+
+BE: beAUXonINhormoneNN
+EQ class: beauxonininternal_secretionnn	beauxoninhormonaljj	beauxoninendocrinenn	
+
+BE: beAUXforINrestNN
+EQ class: beauxforinresiduenn	beauxforinbalancenn	beauxforinresidualnn	beauxforinremaindernn	beauxforinresiduumnn	
+
+BE: mightMDtoTOresearcherNN
+EQ class: mightmdtotoresearch_workernn	mightmdtotoinvestigatornn	
+
+BE: removalNN
+EQ class: remotionnn	
+
+BE: UrologistNNP
+EQ class: 
+
+BE: biopsyNN
+EQ class: 
+
+BE: toldVBN
+EQ class: sayvbn	statevbn	tellvbn	
+
+BE: metVBD
+EQ class: seevbd	come_acrossvbd	run_intovbd	meetvbd	encountervbd	run_acrossvbd	
+
+BE: removalNNisAUX
+EQ class: remotionnnbeaux	remotionnnisaux	removalnnbeaux	
+
+BE: iPRPmetVBD
+EQ class: iprpseevbd	iprpcome_acrossvbd	meetingnnofiniprp	group_meetingnniprp	iprpencountervbd	iprpmeetvbd	meetingnniprp	group_meetingnnofiniprp	iprprun_intovbd	iprprun_acrossvbd	
+
+BE: UrologistNNPdidAUX
+EQ class: urologistnnpmakeaux	urologistnnpdoaux	
+
+BE: didAUXbiopsyNN
+EQ class: makeauxbiopsynn	doauxbiopsynn	
+
+BE: toldVBNiPRP
+EQ class: tellernnofiniprp	sayvbniprp	tellingnnofiniprp	statevbniprp	relationnnofiniprp	recountingnnofiniprp	tellvbniprp	edward_tellernnofiniprp	
+
+BE: metVBDwithINUrologistNNP
+EQ class: come_acrossvbdwithinurologistnnp	meetvbdwithinurologistnnp	seevbdwithinurologistnnp	run_intovbdwithinurologistnnp	run_acrossvbdwithinurologistnnp	encountervbdwithinurologistnnp	
+
+BE: toldVBNasRB
+EQ class: tellingnnofinasrb	edward_tellernnofinasrb	relationnnofinasrb	recountingnnofinasrb	sayvbnasrb	tellernnofinasrb	tellvbnasrb	statevbnasrb	
+
+BE: toldVBNsoonRB
+EQ class: tellingnnofinsoonrb	statevbnsoonrb	recountingnnofinsoonrb	tellvbnsoonrb	relationnnofinsoonrb	edward_tellernnofinsoonrb	tellernnofinsoonrb	sayvbnsoonrb	
+
+BE: assistantNN
+EQ class: helpernn	helpnn	supporternn	assistantjj	
+
+BE: tumorNN
+EQ class: neoplasmnn	tumournn	
+
+BE: sonogramNN
+EQ class: echogramnn	
+
+BE: biopsyNN
+EQ class: 
+
+BE: overhearVB
+EQ class: catchvb	take_invb	
+
+BE: talkingVBG
+EQ class: speakvbg	talkvbg	
+
+BE: lookedVBD
+EQ class: lookvbd	
+
+BE: doingVBG
+EQ class: makevbg	dovbg	
+
+BE: hisPRP$assistantNN
+EQ class: aidvbiprp$	hisprp$helpvb	helpernnofinhisprp$	assistantnnofinhisprp$	assistantnnofinmyprp$	helpnnofinmyprp$	myprp$assistantnn	helpnnofinhisprp$	helpernnofinmyprp$	iprp$aidvb	helpnnofiniprp$	iprp$supporternn	hisprp$assistvb	myprp$assistvb	assistantjjofinmyprp$	assistvbiprp$	iprp$helpnn	assistantjjofinhisprp$	myprp$helpnn	supporternnofinmyprp$	hisprp$helpnn	iprp$helpernn	helpvbmyprp$	assistantvbiprp$	hisprp$aidvb	helpernnofiniprp$	myprp$aidvb	myprp$helpernn	hisprp$assistantvb	assistvbhisprp$	supporternnofiniprp$	assistvbmyprp$	assistantnnofiniprp$	helpvbhisprp$	iprp$assistantvb	iprp$helpvb	assistantjjofiniprp$	iprp$assistvb	supporternnofinhisprp$	aidvbhisprp$	myprp$helpvb	iprp$assistantjj	hisprp$assistantjj	iprp$assistantnn	hisprp$supporternn	aidvbmyprp$	assistantvbmyprp$	myprp$assistantjj	myprp$supporternn	helpvbiprp$	assistantvbhisprp$	hisprp$helpernn	myprp$assistantvb	
+
+BE: iPRPoverhearVB
+EQ class: iprptake_invb	iprpcatchvb	
+
+BE: tumorNNlookedVBD
+EQ class: witnessnnneoplasmnn	facial_expressionnnofinneoplasmnn	looknnofintumornn	lookernnofintumornn	facial_expressionnnofintumournn	facennofintumournn	spectatornnneoplasmnn	lookernnneoplasmnn	expressionnnofintumournn	lookernnofintumournn	aspectnnofinneoplasmnn	watchernnofintumournn	watchernntumornn	viewernntumournn	neoplasmnnlookedvbd	facennofinneoplasmnn	aspectnnofintumornn	viewernnofinneoplasmnn	neoplasmnnlookvbd	aspectnnofintumournn	watchernntumournn	witnessnnofintumornn	viewernnofintumornn	spectatornnofintumornn	witnessnntumornn	expressionnnofintumornn	lookernntumornn	spectatornntumornn	looknnofinneoplasmnn	witnessnntumournn	expressionnnofinneoplasmnn	spectatornnofintumournn	lookernntumournn	watchernnofinneoplasmnn	witnessnnofintumournn	witnessnnofinneoplasmnn	viewernnneoplasmnn	looknnofintumournn	tumournnlookedvbd	spectatornnofinneoplasmnn	tumornnlookvbd	spectatornntumournn	viewernntumornn	viewernnofintumournn	lookernnofinneoplasmnn	facial_expressionnnofintumornn	facennofintumornn	watchernnofintumornn	watchernnneoplasmnn	tumournnlookvbd	
+
+BE: overhearVBhimPRP
+EQ class: overhearvbiprp	catchvbhimprp	take_invbhimprp	overhearvbmyprp	take_invbmyprp	catchvbiprp	catchvbmyprp	take_invbiprp	
+
+BE: doingVBGbiopsyNN
+EQ class: makevbgbiopsynn	dovbgbiopsynn	
+
+BE: talkingVBGwithINassistantNN
+EQ class: speakvbgwithinhelpernn	talkvbgwithinassistantnn	speakvbgwithinassistantjj	talkvbgwithinsupporternn	talkingvbgwithinhelpnn	talkingvbgwithinsupporternn	speakvbgwithinhelpnn	speakvbgwithinsupporternn	talkvbgwithinhelpernn	talkingvbgwithinassistantjj	talkvbgwithinhelpnn	talkvbgwithinassistantjj	speakvbgwithinassistantnn	talkingvbgwithinhelpernn	
+
+BE: lookedVBDlikeINsonogramNN
+EQ class: lookvbdlikeinsonogramnn	lookvbdlikeinechogramnn	lookedvbdlikeinechogramnn	
+
+BE: lookedVBDwhileINdoingVBG
+EQ class: lookvbdwhileindovbg	lookvbdwhileindoingvbg	lookedvbdwhileinmakevbg	lookedvbdwhileindovbg	lookvbdwhileinmakevbg	
+
+BE: cancerNN
+EQ class: cancerousjj	malignant_neoplastic_diseasenn	
+
+BE: prostateNN
+EQ class: prostaticjj	prostate_glandnn	
+
+BE: speculateVB
+EQ class: hypothesizevb	hypothecatevb	theorizevb	theorisevb	supposevb	conjecturevb	hypothesisevb	
+
+BE: leftVBN
+EQ class: go_awayvbn	leavevbn	go_forthvbn	
+
+BE: iPRPspeculateVB
+EQ class: iprphypothesizevb	iprpsupposevb	speculatornniprp	iprpconjecturevb	iprptheorizevb	guessnniprp	iprphypothecatevb	suppositionnnofiniprp	speculationnnofiniprp	iprptheorisevb	conjecturennofiniprp	guessnnofiniprp	iprphypothesisevb	surmisenniprp	hypothesisnniprp	surmisalnnofiniprp	surmisalnniprp	conjecturenniprp	suppositionnniprp	speculatornnofiniprp	surmisennofiniprp	hypothesisnnofiniprp	speculationnniprp	speculativennofiniprp	
+
+BE: cancerNNleftVBN
+EQ class: leavennofinmalignant_neoplastic_diseasenn	malignant_neoplastic_diseasenngo_awayvbn	cancernngo_forthvbn	goernnofincancerousjj	leave_of_absencennofincancernn	leavernncancernn	cancerousjjgo_awayvbn	leavernnofincancernn	leavernnofincancerousjj	goernnofincancernn	cancerousjjleavevbn	departernncancerousjj	leavernncancerousjj	departernnofincancernn	malignant_neoplastic_diseasennleavevbn	goernnofinmalignant_neoplastic_diseasenn	cancerousjjleftvbn	goernncancernn	cancerousjjgo_forthvbn	leavennofincancernn	goernncancerousjj	leavernnmalignant_neoplastic_diseasenn	departernnmalignant_neoplastic_diseasenn	cancernngo_awayvbn	departernnofincancerousjj	departernnofinmalignant_neoplastic_diseasenn	cancernnleavevbn	leave_of_absencennofinmalignant_neoplastic_diseasenn	leavennofincancerousjj	malignant_neoplastic_diseasennleftvbn	departernncancernn	leavernnofinmalignant_neoplastic_diseasenn	malignant_neoplastic_diseasenngo_forthvbn	leave_of_absencennofincancerousjj	goernnmalignant_neoplastic_diseasenn	
+
+BE: leftVBNprostateNN
+EQ class: leavevbnprostatenn	departernnofinprostate_glandnn	leavevbnprostaticjj	leave_of_absencennofinprostaticjj	go_forthvbnprostaticjj	go_forthvbnprostatenn	leavernnofinprostate_glandnn	goernnofinprostatenn	go_forthvbnprostate_glandnn	leftvbnprostaticjj	leave_of_absencennofinprostatenn	leavernnofinprostaticjj	go_awayvbnprostate_glandnn	leavevbnprostate_glandnn	goernnofinprostate_glandnn	leavernnofinprostatenn	go_awayvbnprostatenn	go_awayvbnprostaticjj	departernnofinprostatenn	leftvbnprostate_glandnn	leavennofinprostatenn	leavennofinprostaticjj	goernnofinprostaticjj	leavennofinprostate_glandnn	departernnofinprostaticjj	leave_of_absencennofinprostate_glandnn	
+
+BE: speculateVBthatINleftVBN
+EQ class: theorisevbthatinleftvbn	speculatevbthatinleavevbn	hypothesisevbthatinleavevbn	hypothesisevbthatingo_awayvbn	speculatevbthatingo_forthvbn	hypothecatevbthatinleftvbn	conjecturevbthatingo_awayvbn	theorizevbthatinleavevbn	hypothecatevbthatingo_awayvbn	hypothesizevbthatinleavevbn	hypothesizevbthatingo_forthvbn	hypothesisevbthatinleftvbn	conjecturevbthatinleftvbn	theorizevbthatinleftvbn	hypothecatevbthatingo_forthvbn	supposevbthatingo_awayvbn	theorisevbthatingo_forthvbn	theorisevbthatingo_awayvbn	hypothesisevbthatingo_forthvbn	speculatevbthatingo_awayvbn	supposevbthatingo_forthvbn	supposevbthatinleftvbn	theorisevbthatinleavevbn	conjecturevbthatinleavevbn	supposevbthatinleavevbn	conjecturevbthatingo_forthvbn	theorizevbthatingo_forthvbn	hypothesizevbthatinleftvbn	hypothecatevbthatinleavevbn	theorizevbthatingo_awayvbn	hypothesizevbthatingo_awayvbn	
+
+BE: speculateVBonlyRB
+EQ class: speculatornnofinonlyrb	speculativennofinonlyrb	guessnnofinonlyrb	hypothesisnnofinonlyrb	supposevbonlyrb	hypothesisevbonlyrb	conjecturennofinonlyrb	speculationnnofinonlyrb	surmisalnnofinonlyrb	surmisennofinonlyrb	theorisevbonlyrb	hypothesizevbonlyrb	conjecturevbonlyrb	suppositionnnofinonlyrb	hypothecatevbonlyrb	theorizevbonlyrb	
+
+BE: boneNN
+EQ class: boneyjj	bonyjj	osnn	
+
+BE: bones..ItLocationAnnotation
+EQ class: bonesitlocationannotation	
+
+BE: scanVB
+EQ class: 
+
+BE: showedVBD
+EQ class: demonstratevbd	presentvbd	exhibitvbd	showvbd	demovbd	
+
+BE: gotVBD
+EQ class: getvbd	acquirevbd	
+
+BE: boneNNscanVB
+EQ class: bonyjjscanvb	scannnofinbonenn	scannnofinboneyjj	scannnofinbonyjj	osnnscanvb	scannnofinosnn	boneyjjscanvb	
+
+BE: boneNNshowedVBD
+EQ class: screeningnnboneyjj	osnnexhibitvbd	showingnnbonenn	screeningnnbonenn	osnnpresentvbd	showingnnboneyjj	screeningnnofinbonenn	shownnofinosnn	bonyjjdemovbd	bonyjjdemonstratevbd	boneyjjshowedvbd	bonenndemonstratevbd	bonennpresentvbd	osnndemovbd	screeningnnofinosnn	showyjjofinbonenn	bonyjjexhibitvbd	viewingnnbonenn	viewingnnofinosnn	shownnofinbonyjj	showyjjofinboneyjj	showingnnbonyjj	osnndemonstratevbd	showingnnosnn	bonyjjshowedvbd	boneyjjpresentvbd	viewingnnofinboneyjj	screeningnnosnn	viewingnnboneyjj	screeningnnofinbonyjj	boneyjjdemonstratevbd	viewingnnbonyjj	boneyjjshowvbd	bonennexhibitvbd	viewingnnosnn	showingnnofinosnn	boneyjjexhibitvbd	viewingnnofinbonenn	bonennshowvbd	screeningnnofinboneyjj	screeningnnbonyjj	bonenndemovbd	bonyjjpresentvbd	bonyjjshowvbd	showingnnofinbonenn	showingnnofinbonyjj	boneyjjdemovbd	shownnofinboneyjj	shownnofinbonenn	osnnshowvbd	viewingnnofinbonyjj	showyjjofinbonyjj	showyjjofinosnn	showingnnofinboneyjj	osnnshowedvbd	
+
+BE: itPRPgotVBD
+EQ class: acquiringnnitprp	acquiringnnofinitprp	gettingnnitprp	itprpacquirevbd	itprpgetvbd	gettingnnofinitprp	
+
+BE: gotVBDintoINbones..ItLocationAnnotation
+EQ class: getvbdintoinbones..itlocationannotation	gotvbdintoinbonesitlocationannotation	getvbdintoinbonesitlocationannotation	acquirevbdintoinbones..itlocationannotation	acquirevbdintoinbonesitlocationannotation	
+
+BE: showedVBDthatINgotVBD
+EQ class: showvbdthatingetvbd	demovbdthatingotvbd	exhibitvbdthatingotvbd	showedvbdthatinacquirevbd	exhibitvbdthatinacquirevbd	presentvbdthatingotvbd	demovbdthatingetvbd	exhibitvbdthatingetvbd	showvbdthatingotvbd	showvbdthatinacquirevbd	showedvbdthatingetvbd	demonstratevbdthatinacquirevbd	presentvbdthatingetvbd	demovbdthatinacquirevbd	demonstratevbdthatingetvbd	demonstratevbdthatingotvbd	presentvbdthatinacquirevbd	
+
+BE: hadAUXnotRB
+EQ class: holdauxnotrb	wealthy_personnnofinnotrb	rich_personnnofinnotrb	havennofinnotrb	haveauxnotrb	have_gotauxnotrb	
+
+BE: insuranceNN
+EQ class: 
+
+BE: companyNN
+EQ class: 
+
+BE: procedureNN
+EQ class: processnn	proceduraljj	
+
+BE: radiationNN
+EQ class: 
+
+BE: payVB
+EQ class: 
+
+BE: chosenVBN
+EQ class: pick_outvbn	takevbn	choosevbn	selectvbn	
+
+BE: oneCDprocedureNN
+EQ class: unitycdproceduraljj	icdprocessnn	singlecdprocedurenn	1cdprocessnn	acecdproceduraljj	onecdprocessnn	singlecdproceduraljj	1cdproceduraljj	onecdproceduraljj	singlecdprocessnn	icdprocedurenn	acecdprocessnn	1cdprocedurenn	acecdprocedurenn	unitycdprocessnn	icdproceduraljj	unitycdprocedurenn	
+
+BE: insuranceNNcompanyNN
+EQ class: companynncheckvb	companynnofininsurancenn	companynninsurevb	companynnascertainvb	companynnseevb	companynnsee_to_itvb	companynnassurevb	companynnensurevb	companynncontrolvb	
+
+BE: bones..ItLocationAnnotationbeAUX
+EQ class: bonesitlocationannotationbeaux	
+
+BE: companyNNpayVB
+EQ class: wagennofincompanynn	payeenncompanynn	payernnofincompanynn	remuneratornnofincompanynn	salarynnofincompanynn	remuneratornncompanynn	earningsnnofincompanynn	payeennofincompanynn	paynnofincompanynn	paymentnnofincompanynn	payernncompanynn	remunerationnnofincompanynn	paymentnncompanynn	
+
+BE: payVBforINprocedureNN
+EQ class: payvbforinproceduraljj	payvbforinprocessnn	
+
+BE: payVBforINradiationNN
+EQ class: 
+
+BE: beAUXthatINchosenVBN
+EQ class: beauxthatinpick_outvbn	beauxthatinselectvbn	beauxthatintakevbn	beauxthatinchoosevbn	
+
+BE: beAUXalsoRB
+EQ class: 
+
+BE: payVBonlyRB
+EQ class: earningsnnofinonlyrb	remunerationnnofinonlyrb	remuneratornnofinonlyrb	payernnofinonlyrb	paynnofinonlyrb	payeennofinonlyrb	paymentnnofinonlyrb	wagennofinonlyrb	salarynnofinonlyrb	
+
+BE: answersNNS
+EQ class: theynns	replynns	responsenns	answernns	themnns	
+
+BE: coupleNN
+EQ class: twosomenn	duetnn	duonn	
+
+BE: linkNN
+EQ class: nexusnn	
+
+BE: workNN
+EQ class: 
+
+BE: oneNN
+EQ class: inn	acenn	unitynn	singlenn	1nn	
+
+BE: answerNN
+EQ class: replynn	responsenn	
+
+BE: detailsNNS
+EQ class: inside_informationnns	theynns	themnns	
+
+BE: referVBP
+EQ class: advertvbp	namevbp	citevbp	bring_upvbp	mentionvbp	
+
+BE: doesnVBZ
+EQ class: 
+
+BE: soundsVBZ
+EQ class: soundvbz	
+
+BE: doesnVBZ
+EQ class: 
+
+BE: questionVBZ
+EQ class: call_into_questionvbz	oppugnvbz	
+
+BE: providedVBN
+EQ class: furnishvbn	providevbn	supplyvbn	rendervbn	
+
+BE: goodJJ
+EQ class: goodnessnn	
+
+BE: tJJ
+EQ class: 
+
+BE: goodJJ
+EQ class: goodnessnn	
+
+BE: goodJJanswersNNS
+EQ class: goodnessnnthemnns	goodnessnnanswersnns	goodnessnnresponsenns	goodjjtheynns	goodnessnnanswernns	goodjjreplynns	goodjjresponsenns	goodnessnntheynns	goodjjanswernns	goodnessnnreplynns	goodjjthemnns	
+
+BE: tJJworkNN
+EQ class: 
+
+BE: tCDanswerNN
+EQ class: tcdreplynn	tcdresponsenn	thyminecdreplynn	thyminecdanswernn	thyminecdresponsenn	
+
+BE: thereEXareAUX
+EQ class: thereexbeaux	
+
+BE: thereEXareAUX
+EQ class: thereexbeaux	
+
+BE: itPRPdoesnVBZ
+EQ class: 
+
+BE: answerNNquestionVBZ
+EQ class: answernnoppugnvbz	interrogationnnofinresponsenn	responsenncall_into_questionvbz	responsennoppugnvbz	questionnnofinanswernn	querynnofinreplynn	answernncall_into_questionvbz	interrogationnnofinreplynn	enquirynnofinresponsenn	inquirynnofinresponsenn	querynnofinresponsenn	questionnnofinresponsenn	inquirynnofinanswernn	responsennquestionvbz	enquirynnofinreplynn	replynnquestionvbz	inquirynnofinreplynn	replynncall_into_questionvbz	replynnoppugnvbz	querynnofinanswernn	enquirynnofinanswernn	interrogationnnofinanswernn	questionnnofinreplynn	
+
+BE: iPRPprovidedVBN
+EQ class: provisionaryjjofiniprp	provisionnniprp	iprprendervbn	suppliernniprp	iprpprovidevbn	suppliernnofiniprp	provisonnofiniprp	provisionnnofiniprp	provisonniprp	providernnofiniprp	iprpsupplyvbn	provisionaryjjiprp	iprpfurnishvbn	providernniprp	
+
+BE: coupleNNreferVBP
+EQ class: mentionnnofintwosomenn	twosomennrefervbp	duetnncitevbp	duetnnnamevbp	referencenntwosomenn	twosomennnamevbp	mentionnnduonn	duonnadvertvbp	mentionnnofincouplenn	referencennofincouplenn	duonnmentionvbp	mentionnnduetnn	couplenncitevbp	twosomennadvertvbp	duonncitevbp	mentionnncouplenn	duetnnrefervbp	duetnnadvertvbp	couplennnamevbp	twosomennbring_upvbp	referencennduetnn	duetnnbring_upvbp	referencennofinduetnn	couplennadvertvbp	duetnnmentionvbp	mentionnntwosomenn	mentionnnofinduetnn	duonnbring_upvbp	duonnrefervbp	referencennduonn	mentionnnofinduonn	referencennofinduonn	twosomenncitevbp	referencenncouplenn	twosomennmentionvbp	couplennbring_upvbp	duonnnamevbp	referencennofintwosomenn	couplennmentionvbp	
+
+BE: linkNNdoesnVBZ
+EQ class: nexusnndoesnvbz	
+
+BE: oneNNsoundsVBZ
+EQ class: acennsoundvbz	1nnsoundvbz	singlennsoundvbz	unitynnsoundvbz	onennsoundvbz	singlennsoundsvbz	innsoundvbz	innsoundsvbz	1nnsoundsvbz	unitynnsoundsvbz	acennsoundsvbz	
+
+BE: areAUXanswersNNS
+EQ class: areauxanswernns	beauxresponsenns	areauxreplynns	beauxanswernns	beauxthemnns	beauxreplynns	areauxthemnns	beauxanswersnns	beauxtheynns	areauxresponsenns	areauxtheynns	
+
+BE: areAUXcoupleNN
+EQ class: areauxtwosomenn	beauxtwosomenn	beauxduetnn	areauxduetnn	areauxduonn	beauxduonn	beauxcouplenn	
+
+BE: referVBPmePRP
+EQ class: advertvbpmeprp	mentionvbpmeprp	bring_upvbpmeprp	referencennofinmeprp	citevbpmeprp	mentionnnofinmeprp	namevbpmeprp	
+
+BE: doesnVBZworkNN
+EQ class: 
+
+BE: providedVBNdetailsNNS
+EQ class: provisionnnofininside_informationnns	providedvbntheynns	furnishvbninside_informationnns	suppliernnofintheynns	providedvbninside_informationnns	providedvbnthemnns	providernnofindetailsnns	rendervbninside_informationnns	furnishvbnthemnns	rendervbnthemnns	provisonnofindetailsnns	provisionaryjjofintheynns	provisonnofinthemnns	providernnofintheynns	suppliernnofindetailsnns	rendervbndetailsnns	provisonnofininside_informationnns	provisonnofintheynns	providevbndetailsnns	provisionnnofindetailsnns	rendervbntheynns	providernnofininside_informationnns	supplyvbnthemnns	supplyvbninside_informationnns	provisionaryjjofindetailsnns	supplyvbndetailsnns	provisionaryjjofinthemnns	providernnofinthemnns	suppliernnofinthemnns	furnishvbndetailsnns	provisionnnofintheynns	supplyvbntheynns	provisionnnofinthemnns	suppliernnofininside_informationnns	providevbntheynns	providevbninside_informationnns	providevbnthemnns	provisionaryjjofininside_informationnns	furnishvbntheynns	
+
+BE: referVBPtoTOlinkNN
+EQ class: mentionvbptotonexusnn	citevbptotonexusnn	bring_upvbptotolinknn	namevbptotolinknn	mentionvbptotolinknn	citevbptotolinknn	refervbptotonexusnn	bring_upvbptotonexusnn	namevbptotonexusnn	advertvbptotonexusnn	advertvbptotolinknn	
+
+BE: soundsVBZexceptINdoesnVBZ
+EQ class: soundvbzexceptindoesnvbz	
+
+BE: areAUXhereRB
+EQ class: beauxhererb	
+
+BE: guessVBP
+EQ class: opinevbp	imaginevbp	supposevbp	reckonvbp	thinkvbp	
+
+BE: llVBP
+EQ class: 
+
+BE: letVB
+EQ class: allowvb	permitvb	
+
+BE: goVB
+EQ class: locomotevb	movevb	travelvb	
+
+BE: voteVB
+EQ class: 
+
+BE: iPRPguessVBP
+EQ class: iprpopinevbp	guessernniprp	iprpsupposevbp	iprpimaginevbp	suppositionnnofiniprp	speculationnnofiniprp	guessnnofiniprp	conjecturennofiniprp	surmisalnnofiniprp	guessernnofiniprp	iprpthinkvbp	iprpreckonvbp	hypothesisnnofiniprp	surmisennofiniprp	
+
+BE: iPRPllVBP
+EQ class: 
+
+BE: thisDTgoVB
+EQ class: thisdttravelvb	thisdtmovevb	thisdtlocomotevb	
+
+BE: letVBthisDT
+EQ class: permitvbthisdt	allowvbthisdt	
+
+BE: goVBvoteVB
+EQ class: travelvbvotevb	movevbvotevb	locomotevbvotevb	
+
+BE: letVBjustRB
+EQ class: permitvbjustrb	allowvbjustrb	
+

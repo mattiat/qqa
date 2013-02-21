@@ -1,0 +1,54 @@
+#go to the school board, if this doesn t help. find yourself a lawyer that practices handicapped law. good luck
+#(S1 (S (VP (VB go) (PP (TO to) (NP (DT the) (NN school) (NN board))) (, ,) (SBAR (IN if) (S (NP (DT this) (JJ doesn) (NN t)) (VP (VBZ help.) (VP (VB find) (NP (PRP yourself)) (NP (NP (DT a) (NN lawyer)) (SBAR (WHNP (IN that)) (S (VP (NNS practices) (S (NP (NNS handicapped)) (VP (VBG law.) (NP (JJ good) (NN luck)))))))))))))))
+#Rule:Nouns
+r1schoolNN
+r1boardNN
+r1tNN
+r1lawyerNN
+r1practicesNNS
+r1handicappedNNS
+r1luckNN
+
+#Rule:Verbs
+r2goVB
+r2helpVBZ
+r2findVB
+r2lawVBG
+
+#Rule:Adjs
+r4doesnJJ
+r4goodJJ
+
+#Rule:Adj-Noun
+r5doesnJJtNN
+r5goodJJluckNN
+
+#Rule:N-HeadNoun
+r8schoolNNboardNN
+
+#Rule:HeadNoun-V
+r11tNNhelpVBZ
+r11tNNfindVB
+r11handicappedNNSlawVBG
+
+#Rule:HeadNoun-(who/that)-V
+r14lawyerNNpracticesNNS
+
+#Rule:V-HeadNoun
+r21findVByourselfPRP
+r21findVBlawyerNN
+r21lawVBGluckNN
+
+#Rule:V-HeadNoun
+r22practicesNNShandicappedNNS
+
+#Rule:PPinVP
+r30goVBtoTOboardNN
+
+#Rule:V-IN-V
+r43goVBifINhelpVBZ
+r43goVBifINfindVB
+
+@lemmas-left	law	handicapped	luck	good	board	practices	doesn	help.	help	school	t	practice	law.	lawyer	find	go	
+@lemmas-right	law	handicapped	luck	board	practices	help.	help	t	practice	law.	yourself	lawyer	find	
+@lemmas-center	to	if	

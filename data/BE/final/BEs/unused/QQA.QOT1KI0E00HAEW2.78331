@@ -1,0 +1,56 @@
+#So, no exaggeration, this question has already been asked 242 times..
+#(S1 (S (ADVP (RB So)) (, ,) (NP (DT no) (NN exaggeration)) (, ,) (NP (DT this) (NN question)) (VP (AUX has) (ADVP (RB already)) (VP (AUX been) (VP (VBN asked) (NP (CD 242) (NNS times) (. .))))) (. .)))
+#Rule:Nouns
+r1exaggerationNN
+r1questionNN
+r1timesNNS
+
+#Rule:Verbs
+r2askedVBN
+
+#Rule:Adj-Noun
+r5242CDtimesNNS
+
+#Rule:V-HeadNoun
+r21askedVBNtimesNNS
+
+#Rule:V-HeadNoun(passive)
+r23askedVBNexaggerationNN
+r23askedVBNquestionNN
+
+#Rule:V-ADV
+r46hasAUXSoRB
+r46hasAUXalreadyRB
+r46beenAUXalreadyRB
+
+#Click here and pick any one of the 242 other times it has been answered.http://answers.yahoo.com/search/search_result;_ylt=ApcCtkKIi948yQtWwUP7x27py6IX?p=sky+blue
+#(S1 (FRAG (VP (VP (NN Click) (ADVP (RB here))) (CC and) (VP (VB pick) (NP (NP (DT any) (CD one)) (PP (IN of) (NP (NP (DT the) (CD 242) (JJ other) (NNS times)) (SBAR (S (NP (PRP it)) (VP (AUX has) (VP (AUX been) (VP (VBN answered.http))))))))))) (: :) (NP (NP (NN //answers.yahoo.com/search/search_result)) (: ;) (NP (NN _ylt=ApcCtkKIi948yQtWwUP7x27py6IX)) (. ?)) (NP (NN p=sky+blue))))
+#Rule:Nouns
+r1ClickNN
+r1timesNNS
+r1//answers.yahoo.com/search/search_resultNN
+r1_ylt=ApcCtkKIi948yQtWwUP7x27py6IX?p=sky+bluePersonAnnotation
+
+#Rule:Verbs
+r2pickVB
+r2answered.httpVBN
+
+#Rule:Adjs
+r4otherJJ
+
+#Rule:Adj-Noun
+r5242CDtimesNNS
+r5otherJJtimesNNS
+
+#Rule:V-HeadNoun
+r21pickVBoneCD
+
+#Rule:V-HeadNoun(passive)
+r23answered.httpVBNitPRP
+
+#Rule:PPinNP
+r26oneCDofINtimesNNS
+
+@lemmas-left	answered.http	asked	_ylt=ApcCtkKIi948yQtWwUP7x27py6IX?p=sky+blue	exaggeration	result	other	have	one	click	//answers.yahoo.com/search/search_result	has	been	http	times	pick	Click	question	242	ask	be	
+@lemmas-right	exaggeration	it	so	times	one	already	question	So	
+@lemmas-center	of	

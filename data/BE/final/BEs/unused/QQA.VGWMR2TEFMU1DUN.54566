@@ -1,0 +1,107 @@
+#I don t hate them...WHy would I?  
+#(S1 (S (NP (PRP I)) (VP (VB don) (S (NP (NNS t)) (VP (VB hate) (NP (PRP them))))) (: ...) (SBARQ (WHADVP (WRB WHy)) (SQ (MD would) (NP (PRP I))) (. ?))))
+#Rule:Nouns
+r1tOrganizationAnnotation
+
+#Rule:Verbs
+r2donVB
+r2hateVB
+
+#Rule:HeadNoun-V
+r11iPRPdonVB
+r11tOrganizationAnnotationhateVB
+
+#Rule:V-HeadNoun
+r21hateVBthemPRP
+
+#Rule:V-HeadNoun
+r22donVBtOrganizationAnnotation
+
+#..But I was kind of annoyed at how Versus crew acts like they are gods..WHen i watch a game I want both teams covered  evenly....Not a red wings love fest.....I just dont want them to beat my sharks...
+#(S1 (S (NP (NNP ..) (NNP But)) (NP (PRP I)) (VP (AUX was) (ADJP (ADVP (NN kind) (IN of)) (JJ annoyed)) (PP (IN at) (SBAR (WHADVP (WRB how)) (S (NP (NP (FW Versus)) (NN crew)) (VP (VBZ acts) (SBAR (IN like) (S (NP (PRP they)) (VP (AUX are) (NP (NP (NNS gods)) (VP (VBG ..) (SBAR (WHADVP (WRB WHen)) (S (NP (PRP i)) (VP (VBP watch) (NP (NP (DT a) (NN game)) (SBAR (S (NP (PRP I)) (VP (VBP want) (S (NP (DT both) (NNS teams)) (VP (VBN covered) (ADVP (RB evenly)) (PP (IN ....) (NP (NP (RB Not) (NP (DT a) (JJ red) (NNS wings) (NN love)) (JJS fest) (NN .....)) (SBAR (S (NP (PRP I)) (ADVP (RB just) (JJ dont)) (VP (VBP want) (S (NP (PRP them)) (VP (TO to) (VP (VB beat) (NP (PRP$ my) (NNS sharks) (NN ..))))))))))))))))))))))))))))) (. .)))
+#Rule:Nouns
+r1..NNP
+r1ButNNP
+r1kindNN
+r1crewNN
+r1godsNNS
+r1gameNN
+r1teamsNNS
+r1wingsNNS
+r1loveNN
+r1.....NN
+r1sharksNNS
+r1..NN
+
+#Rule:Verbs
+r2actsVBZ
+r2..VBG
+r2watchVBP
+r2wantVBP
+r2coveredVBN
+r2wantVBP
+r2beatVB
+
+#Rule:Adjs
+r4annoyedJJ
+r4redJJ
+r4festJJS
+r4dontJJ
+
+#Rule:Adj-Noun
+r5festJJS.....NN
+r5redJJloveNN
+
+#Rule:PRP-Noun
+r6myPRP$..NN
+
+#Rule:N-HeadNoun
+r8..NNPButNNP
+r8wingsNNSloveNN
+r8sharksNNS..NN
+
+#Rule:HeadNoun-V
+r11ButNNPwasAUX
+r11iPRPwasAUX
+r11crewNNactsVBZ
+r11VersusFWactsVBZ
+r11theyPRPareAUX
+r11godsNNS..VBG
+r11WHen iLocationAnnotationwatchVBP
+r11iPRPwantVBP
+r11iPRPwantVBP
+r11themPRPbeatVB
+
+#Rule:NP(NP(z) SBAR(S(NP(x)VP(y))))
+r19wantVBPgameNN
+r19wantVBP.....NN
+
+#Rule:V-HeadNoun
+r21areAUXgodsNNS
+r21watchVBPgameNN
+r21beatVB..NN
+
+#Rule:V-HeadNoun
+r22wantVBPteamsNNS
+r22wantVBPthemPRP
+
+#Rule:V-HeadNoun(passive)
+r24coveredVBNteamsNNS
+
+#Rule:V-ADJ
+r25wasAUXofIN
+
+#Rule:PPinVP
+r32coveredVBN....IN.....NN
+r32coveredVBN....INloveNN
+
+#Rule:V-IN-V
+r43actsVBZlikeINareAUX
+
+#Rule:V-ADV
+r46coveredVBNevenlyRB
+r46wantVBPjustRB
+
+@lemmas-left	they	annoyed	but	god	hate	don	acts	versus	crew	gods	fest	kind	was	love	cover	are	wings	..	But	want	be	covered	beat	watch	Versus	team	game	shark	my	WHen i	i	teams	red	t	dont	.....	them	act	sharks	
+@lemmas-right	but	hate	god	acts	don	gods	was	love	of	are	..	But	want	be	just	beat	watch	evenly	game	team	teams	t	.....	them	act	
+@lemmas-center	....	like	

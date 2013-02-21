@@ -1,0 +1,96 @@
+#how can a 14 year old earn $3,500 in 5 months or less?
+#(S1 (SBARQ (WHADVP (WRB how)) (SQ (MD can) (NP (NP (DT a) (CD 14) (NN year)) (ADJP (JJ old))) (VP (VB earn) (NP (NP ($ $) (CD 3,500)) (PP (IN in) (NP (CD 5) (NNS months) (QP (CC or) (JJR less))))))) (. ?)))
+#Rule:Nouns
+r1yearNN
+r1monthsNNS
+
+#Rule:Verbs
+r2earnVB
+
+#Rule:Adjs
+r4oldJJ
+r4lessJJR
+
+#Rule:Adj-Noun
+r5oldJJyearNN
+r514CDyearNN
+r53,500CD$$
+r55CDmonthsNNS
+r5lessJJRmonthsNNS
+
+#Rule:V-HeadNoun
+r21earnVB$$
+
+#Rule:PPinNP
+r26$$inINmonthsNNS
+
+#i need this money for tuition to an acting workshopits an acting workshop at nyfa. the website is http://www.nyfa.com/film_school/dates_tuition/program.php?
+#(S1 (S (NP (PRP i)) (VP (AUX need) (NP (NP (DT this) (NN money)) (PP (IN for) (NP (NN tuition))) (SBAR (TO to) (S (NP (DT an) (NN acting)) (VP (VBZ workshopits) (NP (NP (DT an) (VBG acting) (NN workshop)) (PP (IN at) (NP (NP (NN nyfa.)) (SBAR (S (NP (DT the) (NN website)) (VP (AUX is) (ADJP (JJ http)))))))) (: :) (ADVP (RB //www.nyfa.com/film_school/dates_tuition/program.php))))))) (. ?)))
+#Rule:Nouns
+r1moneyNN
+r1tuitionNN
+r1actingNN
+r1workshopNN
+r1nyfaNN
+r1websiteNN
+
+#Rule:Verbs
+r2workshopitsVBZ
+r2actingVBG
+
+#Rule:Adjs
+r4http://www.nyfa.OrganizationAnnotation
+
+#Rule:Adj-Noun
+r5actingVBGworkshopNN
+
+#Rule:HeadNoun-V
+r11iPRPneedAUX
+r11actingNNworkshopitsVBZ
+r11websiteNNisAUX
+
+#Rule:V-HeadNoun
+r21needAUXmoneyNN
+r21workshopitsVBZworkshopNN
+
+#Rule:V-ADJ
+r25isAUXhttp://www.nyfa.OrganizationAnnotation
+
+#Rule:PPinNP
+r26moneyNNforINtuitionNN
+r26workshopNNatINnyfaNN
+
+#Rule:V-ADV
+r46workshopitsVBZ//www.nyfa.com/film_school/dates_tuition/program.phpRB
+
+#courseb=4-Week%20Acting%20for%20Film&course=Acting%20for%20Film&application=app2&recnum=30
+#(S1 (NP (NP (NP (NP (JJ courseb=4-Week) (NN %) (VBG 20Acting) (NN %)) (JJ 20for) (NN %) (VBG 20Film&course=Acting) (NN %)) (NP (NN 20for) (NN %))) (NN 20Film&application=app2&recnum=30)))
+#Rule:Nouns
+r1%NN
+r1%NN
+r1%NN
+r1%NN
+r120forNN
+r1%NN
+r120Film&application=app2&recnum=30NN
+
+#Rule:Verbs
+r220actingVBG
+r220film&course=actingVBG
+
+#Rule:Adjs
+r4courseb=4-WeekJJ
+r420forJJ
+
+#Rule:Adj-Noun
+r520forJJ%NN
+r520film&course=actingVBG%NN
+r5courseb=4-WeekJJ%NN
+r520actingVBG%NN
+
+#Rule:N-HeadNoun
+r820forNN%NN
+
+@lemmas-left	need	old	http://www.nyfa.	14	3,500	nyfa	20film&course=acting	money	courseb=4-Week	tuition	20acting	20Film&application=app2&recnum=30	year	less	be	20for	workshopits	workshop	is	website	$	%	i	months	5	nyfa.	month	acting	earn	act	week	20film&application=app2&recnum=30	
+@lemmas-right	need	workshopits	workshop	is	$	%	http://www.nyfa.	months	nyfa	nyfa.	//www.nyfa.com/film_school/dates_tuition/program.php	month	money	tuition	year	be	
+@lemmas-center	for	at	in	

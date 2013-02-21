@@ -1,0 +1,48 @@
+#how can u tell someone s lying?
+#(S1 (SBARQ (WHADVP (WRB how)) (SQ (MD can) (NP (NNP u)) (VP (VB tell) (SBAR (S (NP (NN someone)) (VP (VBZ s) (NP (VBG lying))))))) (. ?)))
+#Rule:Nouns
+r1uNNP
+r1someoneNN
+
+#Rule:Verbs
+r2tellVB
+r2sVBZ
+r2lyingVBG
+
+#Rule:HeadNoun-V
+r11someoneNNsVBZ
+
+#Rule:V-HeadNoun
+r21sVBZlyingVBG
+
+#sometimes i think im beinglied toand everything goes wrong!!!!
+#(S1 (S (ADVP (RB sometimes)) (NP (PRP i)) (VP (VBP think) (SBAR (S (NP (CD im) (JJ beinglied) (NN toand) (NN everything)) (VP (VBZ goes) (ADJP (JJ wrong) (NP (CD !!!))))))) (. !)))
+#Rule:Nouns
+r1toandNN
+r1everythingNN
+
+#Rule:Verbs
+r2thinkVBP
+r2goesVBZ
+
+#Rule:Adjs
+r4beingliedJJ
+r4wrongJJ
+
+#Rule:Adj-Noun
+r5imCDeverythingNN
+r5beingliedJJeverythingNN
+
+#Rule:N-HeadNoun
+r8toandNNeverythingNN
+
+#Rule:HeadNoun-V
+r11iPRPthinkVBP
+r11everythingNNgoesVBZ
+
+#Rule:V-ADV
+r46thinkVBPsometimesRB
+
+@lemmas-left	think	goes	lying	toand	everything	im	i	u	s	someone	tell	wrong	lie	beinglied	go	
+@lemmas-right	goes	think	lying	s	sometimes	everything	lie	go	
+@lemmas-center	

@@ -1,0 +1,173 @@
+#There s a theory that Atlantis was the Greek island ot Thera/Corcyra, which was largely destroyed by a volcanic eruption/earthquake/tidal wave about 1300 B.C.
+#(S1 (SINV (S (NP (EX There)) (VP (VBZ s) (NP (DT a) (NN theory) (SBAR (IN that) (S (NP (NNP Atlantis)) (VP (AUX was) (NP (DT the) (JJ Greek) (NN island)))))))) (VP (VBZ ot)) (NP (NP (NNP Thera/Corcyra)) (, ,) (SBAR (WHNP (WDT which)) (S (VP (AUX was) (ADVP (RB largely)) (VP (VBN destroyed) (PP (IN by) (NP (NP (DT a) (JJ volcanic) (JJ eruption/earthquake/tidal) (NN wave)) (PP (IN about) (NP (CD 1300) (NNS B.C.)))))))))) (. .)))
+#Rule:Nouns
+r1theoryNN
+r1AtlantisLocationAnnotation
+r1Greek islandLocationAnnotation
+r1Thera/CorcyraLocationAnnotation
+r1waveNN
+r1B.C.NNS
+
+#Rule:Verbs
+r2sVBZ
+r2otVBZ
+r2destroyedVBN
+
+#Rule:Adjs
+r4volcanicJJ
+r4eruption/earthquake/tidalJJ
+
+#Rule:Adj-Noun
+r5volcanicJJwaveNN
+r5eruption/earthquake/tidalJJwaveNN
+r51300CDB.C.NNS
+
+#Rule:HeadNoun-V
+r11thereEXsVBZ
+r11AtlantisLocationAnnotationwasAUX
+
+#Rule:V-By-Agent
+r13waveNNdestroyedVBN
+
+#Rule:V-(who/that)-HeadNoun
+r18destroyedVBNThera/CorcyraLocationAnnotation
+
+#Rule:V-HeadNoun
+r21sVBZtheoryNN
+r21wasAUXGreek islandLocationAnnotation
+
+#Rule:PPinNP
+r26waveNNaboutINB.C.NNS
+
+#Rule:V-ADV
+r46wasAUXlargelyRB
+r46destroyedVBNlargelyRB
+
+#Rule:IS-RULE
+r47Greek islandLocationAnnotationAtlantisLocationAnnotation
+
+#--not 9000 years before the time of Plato (who mentions it in two of his Dialogues), but 900.  
+#(S1 (S (S (NP (JJ --not) (CD 9000) (NNS years)) (PP (IN before) (NP (NP (DT the) (NN time)) (PP (IN of) (NP (NP (NNP Plato)) (PRN (-LRB- -LRB-) (SBAR (WHNP (WP who)) (S (VP (VBZ mentions) (NP (PRP it)) (PP (IN in) (NP (NP (CD two)) (PP (IN of) (NP (PRP$ his) (NNS Dialogues)))))))) (-RRB- -RRB-))))))) (, ,) (CC but) (S (NP (CD 900))) (. .)))
+#Rule:Nouns
+r1yearsNNS
+r1timeNN
+r1PlatoOrganizationAnnotation
+r1DialoguesNNS
+
+#Rule:Verbs
+r2mentionsVBZ
+
+#Rule:Adjs
+r4--notJJ
+
+#Rule:Adj-Noun
+r5--notJJyearsNNS
+r59000CDyearsNNS
+
+#Rule:PRP-Noun
+r6hisPRP$DialoguesNNS
+
+#Rule:V-HeadNoun
+r21mentionsVBZitPRP
+
+#Rule:PPinNP
+r26timeNNofINPlatoOrganizationAnnotation
+r26twoCDofINDialoguesNNS
+
+#Rule:PPinVP
+r30mentionsVBZinINtwoCD
+
+#Rule:PPinS
+r36yearsNNSbeforeINtimeNN
+
+#The island was part of the Minoan civilization, centered on Crete, so it s reasonable to suppose that the people there were similar in appearance andlifestyle to the Cretans of the time, as depicted in the links below.  
+#(S1 (S (S (NP (DT The) (NN island)) (VP (AUX was) (NP (NP (NN part)) (PP (IN of) (NP (DT the) (NNP Minoan) (NN civilization)))))) (PRN (, ,) (S (VP (VBD centered) (PP (IN on) (NP (NNP Crete))))) (, ,)) (IN so) (S (NP (PRP it)) (VP (VBZ s) (ADJP (JJ reasonable) (S (VP (TO to) (VP (VB suppose) (SBAR (IN that) (S (NP (NP (DT the) (NNS people)) (SBAR (S (NP (EX there)) (VP (AUX were) (ADJP (JJ similar) (PP (IN in) (NP (NN appearance)))))))) (VP (VBP andlifestyle) (PP (TO to) (NP (NP (DT the) (NNPS Cretans)) (PP (IN of) (NP (DT the) (NN time))))) (, ,) (SBAR (IN as) (S (VP (VBN depicted) (PP (IN in) (NP (NP (DT the) (NNS links)) (ADVP (RB below)))))))))))))))) (. .)))
+#Rule:Nouns
+r1islandLocationAnnotation
+r1partNN
+r1MinoanNNP
+r1civilizationNN
+r1CreteOrganizationAnnotation
+r1peopleNNS
+r1appearanceNN
+r1CretansNNPS
+r1timeNN
+r1linksNNS
+
+#Rule:Verbs
+r2centeredVBD
+r2sVBZ
+r2supposeVB
+r2andlifestyleVBP
+r2depictedVBN
+
+#Rule:Adjs
+r4reasonableJJ
+r4similarJJ
+
+#Rule:N-HeadNoun
+r8MinoanNNPcivilizationNN
+
+#Rule:HeadNoun-V
+r11islandLocationAnnotationwasAUX
+r11itPRPsVBZ
+r11peopleNNSandlifestyleVBP
+r11thereEXwereAUX
+
+#Rule:V-HeadNoun
+r21wasAUXpartNN
+
+#Rule:V-ADJ
+r25wereAUXsimilarJJ
+
+#Rule:PPinNP
+r26partNNofINcivilizationNN
+r26CretansNNPSofINtimeNN
+
+#Rule:PPinVP
+r30centeredVBDonINCreteOrganizationAnnotation
+r30andlifestyleVBPtoTOCretansNNPS
+
+#Rule:PPinVP
+r32depictedVBNinINlinksNNS
+
+#Rule:PPinADJP
+r37similarJJinINappearanceNN
+
+#Rule:V-IN-V
+r43supposeVBthatINandlifestyleVBP
+r43andlifestyleVBPasINdepictedVBN
+
+#Rule:IS-RULE
+r47partNNislandLocationAnnotation
+
+#(The first three are from Minoan Crete, the last one from Thera.)
+#(S1 (S (-LRB- -LRB-) (NP (DT The) (JJ first) (CD three)) (VP (AUX are) (PP (IN from) (NP (NP (NNP Minoan) (NNP Crete)) (, ,) (NP (NP (DT the) (JJ last) (CD one)) (PP (IN from) (NP (NNP Thera))))))) (. .) (-RRB- -RRB-)))
+#Rule:Nouns
+r1Minoan CretePersonAnnotation
+r1TheraLocationAnnotation
+
+#Rule:Adjs
+r4firstJJ
+r4lastJJ
+
+#Rule:Adj-Noun
+r5firstJJthreeCD
+r5lastJJoneCD
+
+#Rule:N-ApposN
+r10Minoan CretePersonAnnotationoneCD
+
+#Rule:HeadNoun-V
+r11threeCDareAUX
+
+#Rule:PPinNP
+r26oneCDfromINTheraLocationAnnotation
+
+#Rule:PPinVP
+r30areAUXfromINMinoan CretePersonAnnotation
+r30areAUXfromINoneCD
+
+@lemmas-left	Minoan Crete	appearance	last	dialogue	people	center	were	time	are	his	9000	three	mentions	be	ot	Cretans	Thera	Dialogues	suppose	wave	years	cretan	B.C.	Plato	Thera/Corcyra	eruption/earthquake/tidal	one	theory	volcanic	Minoan	Greek island	was	--not	island	destroy	destroyed	mention	depicted	similar	centered	depict	it	c	links	1300	tidal	reasonable	minoan	Atlantis	two	andlifestyle	s	Crete	there	civilization	part	first	
+@lemmas-right	Thera/Corcyra	Minoan Crete	appearance	one	theory	dialogue	Greek island	island	was	destroy	time	were	are	destroyed	three	depicted	be	similar	Cretans	depict	Thera	it	c	links	Dialogues	Atlantis	two	andlifestyle	Crete	s	largely	wave	civilization	years	cretan	part	B.C.	Plato	
+@lemmas-center	to	that	of	before	about	as	on	from	in	

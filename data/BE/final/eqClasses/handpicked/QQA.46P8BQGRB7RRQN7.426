@@ -1,0 +1,411 @@
+BE: familyNN
+EQ class: homenn	menagenn	householdnn	housenn	
+
+BE: senseNN
+EQ class: 
+
+BE: informationNN
+EQ class: infonn	
+
+BE: typeNN
+EQ class: 
+
+BE: cancerNN
+EQ class: cancerousjj	malignant_neoplastic_diseasenn	
+
+BE: giveVB
+EQ class: 
+
+BE: experiencedVBN
+EQ class: seevbn	experiencevbn	go_throughvbn	
+
+BE: commonJJ
+EQ class: commonnessnn	commonnn	commonalitynn	
+
+BE: commonJJsenseNN
+EQ class: sensifyvbcommonlyrb	sensitisevbcommonlyrb	sensitizevbcommonlyrb	sensevbcommonlyrb	commonnessnnsensenn	commonnnsensenn	sensibilizevbcommonlyrb	feelvbcommonlyrb	commonalitynnsensenn	sensibilisevbcommonlyrb	
+
+BE: youPRPgiveVB
+EQ class: 
+
+BE: giveVBfamilyNN
+EQ class: givevbmenagenn	givevbhouseholdnn	givevbhousenn	givevbhomenn	
+
+BE: giveVBsenseNN
+EQ class: 
+
+BE: giveVBinformationNN
+EQ class: givevbinfonn	
+
+BE: informationNNaboutINtypeNN
+EQ class: typenninformvb	typenninformationnn	typenninfonn	informvbtypenn	infonnaboutintypenn	
+
+BE: typeNNofINcancerNN
+EQ class: malignant_neoplastic_diseasenntypewritevb	typifyvbcancerousjj	malignant_neoplastic_diseasenntypenn	cancerousjjtypewritevb	malignant_neoplastic_diseasennepitomisevb	cancerousjjepitomisevb	typevbcancerousjj	malignant_neoplastic_diseasennepitomizevb	cancernnepitomizevb	epitomizevbcancerousjj	cancernntypenn	cancerousjjepitomizevb	epitomizevbcancernn	typewritevbmalignant_neoplastic_diseasenn	typevbcancernn	epitomisevbcancerousjj	typewritevbcancernn	epitomisevbcancernn	epitomizevbmalignant_neoplastic_diseasenn	typevbmalignant_neoplastic_diseasenn	cancernntypewritevb	cancernntypevb	typennofincancerousjj	cancernntypifyvb	malignant_neoplastic_diseasenntypevb	cancerousjjtypenn	epitomisevbmalignant_neoplastic_diseasenn	cancernnepitomisevb	cancerousjjtypifyvb	typewritevbcancerousjj	typifyvbmalignant_neoplastic_diseasenn	typennofinmalignant_neoplastic_diseasenn	typifyvbcancernn	cancerousjjtypevb	malignant_neoplastic_diseasenntypifyvb	
+
+BE: reactionNN
+EQ class: chemical_reactionnn	
+
+BE: curesNNS
+EQ class: remedynns	curativenns	theynns	curenns	themnns	therapeuticnns	
+
+BE: informedVBN
+EQ class: informvbn	
+
+BE: expectVB
+EQ class: anticipatevb	
+
+BE: availableJJ
+EQ class: availabilitynn	availablenessnn	
+
+BE: yourPRP$reactionNN
+EQ class: chemical_reactionnnofinyourprp$	reactvbyourprp$	yourprp$reactvb	yourprp$chemical_reactionnn	yourprp$respondvb	respondvbyourprp$	reactionnnofinyourprp$	
+
+BE: theyPRPexpectVB
+EQ class: thingsprpexpectvb	expectationnnofinthingsprp	expectationnnblessprp	premisesprpanticipatevb	expectationnnofinbenefitsprp	outlooknncuresprp	prospectnnofintheyprp	prospectnnofincuresprp	godprpexpectvb	prospectnnofinpremisesprp	outlooknnloveprp	expectantnnofincuresprp	expectantnnofinbenefitsprp	expectationnnofinblessprp	expectationnnofinlordprp	expectationnncuresprp	expectationnntheyprp	outlooknngodprp	expectantnnofinblessprp	expectationnnofintheyprp	prospectnngodprp	blessprpanticipatevb	lordprpanticipatevb	godprpanticipatevb	expectationnnpremisesprp	benefitsprpanticipatevb	prospectnnofinthingsprp	expectantnnofinthingsprp	expectantnnofinpremisesprp	prospectnnloveprp	prospectnnlordprp	expectationnnofinpremisesprp	prospectnnthingsprp	outlooknnofinthingsprp	loveprpexpectvb	lordprpexpectvb	outlooknnofinblessprp	expectationnngodprp	expectationnnloveprp	prospectnnofingodprp	outlooknnbenefitsprp	expectationnnofincuresprp	curesprpanticipatevb	premisesprpexpectvb	outlooknnlordprp	outlooknnofintheyprp	outlooknnofingodprp	expectationnnthingsprp	expectantnnofingodprp	expectationnnofingodprp	expectationnnofinloveprp	outlooknnofincuresprp	outlooknnofinbenefitsprp	expectantnnofintheyprp	outlooknnofinloveprp	prospectnnofinlordprp	prospectnncuresprp	prospectnnofinloveprp	expectationnnbenefitsprp	prospectnnofinbenefitsprp	outlooknnthingsprp	blessprpexpectvb	outlooknntheyprp	prospectnnofinblessprp	loveprpanticipatevb	expectantnnofinloveprp	curesprpexpectvb	outlooknnofinlordprp	outlooknnblessprp	prospectnnblessprp	theyprpanticipatevb	benefitsprpexpectvb	expectantnnofinlordprp	outlooknnofinpremisesprp	expectationnnlordprp	prospectnnbenefitsprp	outlooknnpremisesprp	thingsprpanticipatevb	prospectnnpremisesprp	prospectnntheyprp	
+
+BE: curesNNSareAUX
+EQ class: therapeuticnnsareaux	themnnsareaux	curennsareaux	curennsbeaux	curativennsareaux	curativennsbeaux	themnnsbeaux	remedynnsareaux	theynnsareaux	therapeuticnnsbeaux	curesnnsbeaux	theynnsbeaux	remedynnsbeaux	
+
+BE: informedVBNtheyPRP
+EQ class: informvbnpremisesprp	informationnnofingodprp	informedvbnloveprp	informingnnofinlordprp	informatorynnofinblessprp	informingnnofinblessprp	informvbngodprp	sourcennofinpremisesprp	informatorynnofingodprp	informativennofinlordprp	sourcennofinblessprp	rattingnnofinbenefitsprp	informativennofingodprp	sourcennofinbenefitsprp	informationnnofinblessprp	informvbnlordprp	informatorynnofinpremisesprp	informationnnofinthingsprp	informedvbncuresprp	infonnofinpremisesprp	informatorynnofincuresprp	informantnnofinloveprp	informingnnofinthingsprp	infonnofinloveprp	informantnnofintheyprp	informvbncuresprp	informationnnofinpremisesprp	infonnofinbenefitsprp	infonnofintheyprp	informingnnofinpremisesprp	informvbnloveprp	informedvbnblessprp	informantnnofingodprp	informingnnofinloveprp	informingnnofincuresprp	rattingnnofintheyprp	informingnnofinbenefitsprp	rattingnnofincuresprp	informingnnofintheyprp	informatorynnofinbenefitsprp	informantnnofinlordprp	informedvbngodprp	rattingnnofingodprp	infonnofinlordprp	informedvbnlordprp	informantnnofinblessprp	informatorynnofinlordprp	rattingnnofinpremisesprp	informedvbnbenefitsprp	informatorynnofintheyprp	informationnnofintheyprp	infonnofingodprp	informativennofinpremisesprp	informvbntheyprp	informativennofinblessprp	informantnnofincuresprp	sourcennofincuresprp	informationnnofincuresprp	sourcennofingodprp	informingnnofingodprp	sourcennofinlordprp	informativennofinloveprp	informedvbnthingsprp	informativennofincuresprp	rattingnnofinthingsprp	informationnnofinloveprp	informationnnofinbenefitsprp	sourcennofinthingsprp	rattingnnofinloveprp	infonnofinblessprp	informantnnofinthingsprp	sourcennofinloveprp	sourcennofintheyprp	infonnofinthingsprp	informvbnthingsprp	rattingnnofinblessprp	informatorynnofinthingsprp	informativennofintheyprp	informantnnofinpremisesprp	rattingnnofinlordprp	informantnnofinbenefitsprp	informatorynnofinloveprp	informedvbnpremisesprp	informativennofinthingsprp	informvbnbenefitsprp	informvbnblessprp	informationnnofinlordprp	infonnofincuresprp	informativennofinbenefitsprp	
+
+BE: areAUXavailableJJ
+EQ class: beauxavailablenessnn	areauxavailabilitynn	beauxavailablejj	areauxavailablenessnn	beauxavailabilitynn	
+
+BE: reactionNNtoTOitPRP
+EQ class: chemical_reactionnntotoitprp	itprpreactvb	itprprespondvb	reactvbitprp	itprpreactionnn	itprpchemical_reactionnn	respondvbitprp	
+
+BE: expectVBasINreactionNN
+EQ class: anticipatevbasinreactionnn	anticipatevbasinchemical_reactionnn	expectvbasinchemical_reactionnn	
+
+BE: churchNN
+EQ class: christiannn	christian_churchnn	
+
+BE: familyNN
+EQ class: homenn	menagenn	householdnn	housenn	
+
+BE: askVB
+EQ class: enquirevb	inquirevb	
+
+BE: prayVB
+EQ class: 
+
+BE: prayJJ
+EQ class: 
+
+BE: theirPRP$familyNN
+EQ class: menagennofintheirprp$	theirprp$menagenn	householdnnofintheirprp$	theirprp$homenn	theirprp$housenn	housennofintheirprp$	theirprp$householdnn	homennofintheirprp$	familynnofintheirprp$	
+
+BE: churchNNfamilyNN
+EQ class: homennofinchristian_churchnn	christiannnmenagenn	housennofinchristiannn	churchnnhousenn	menagennofinchurchnn	householdnnofinchurchnn	christian_churchnnfamilynn	christiannnhousenn	householdnnofinchristian_churchnn	churchnnhouseholdnn	christian_churchnnhomenn	christian_churchnnmenagenn	christian_churchnnhousenn	christiannnhomenn	homennofinchurchnn	christian_churchnnhouseholdnn	christiannnhouseholdnn	housennofinchurchnn	homennofinchristiannn	housennofinchristian_churchnn	familynnofinchristiannn	churchnnmenagenn	householdnnofinchristiannn	churchnnhomenn	familynnofinchristian_churchnn	familynnofinchurchnn	christiannnfamilynn	menagennofinchristiannn	menagennofinchristian_churchnn	
+
+BE: youPRPaskVB
+EQ class: queriernnyouprp	enquirernnyouprp	inquirernnyouprp	youprpenquirevb	youprpinquirevb	questionernnyouprp	askernnofinyouprp	askernnyouprp	enquirernnofinyouprp	questionernnofinyouprp	queriernnofinyouprp	inquirernnofinyouprp	
+
+BE: askVBthemPRP
+EQ class: questionernnofincuresprp	inquirernnofinblessprp	askernnofinthemprp	enquirevbthingsprp	queriernnofinthingsprp	inquirernnofincuresprp	enquirernnofinlordprp	askernnofinblessprp	inquirevbbenefitsprp	enquirevbpremisesprp	enquirevbthemprp	inquirernnofinloveprp	queriernnofinbenefitsprp	askvbblessprp	enquirernnofinbenefitsprp	inquirevbthemprp	questionernnofinlordprp	inquirevblordprp	askvblordprp	inquirernnofinlordprp	inquirernnofinthingsprp	queriernnofinthemprp	inquirernnofinthemprp	enquirevbblessprp	queriernnofinpremisesprp	questionernnofinloveprp	enquirernnofinthingsprp	enquirernnofinblessprp	enquirevbloveprp	askvbcuresprp	inquirernnofingodprp	inquirevbpremisesprp	inquirevbblessprp	askvbgodprp	queriernnofingodprp	inquirevbloveprp	enquirernnofincuresprp	askernnofinpremisesprp	queriernnofincuresprp	askvbloveprp	askernnofingodprp	askernnofinthingsprp	askernnofinbenefitsprp	enquirevbcuresprp	questionernnofingodprp	enquirernnofinthemprp	askvbthingsprp	enquirernnofingodprp	askernnofinloveprp	askvbbenefitsprp	inquirevbgodprp	enquirernnofinpremisesprp	inquirernnofinpremisesprp	questionernnofinblessprp	enquirevbgodprp	enquirernnofinloveprp	queriernnofinlordprp	askvbpremisesprp	queriernnofinloveprp	questionernnofinthemprp	inquirevbthingsprp	questionernnofinbenefitsprp	questionernnofinthingsprp	askernnofincuresprp	enquirevblordprp	questionernnofinpremisesprp	enquirevbbenefitsprp	inquirevbcuresprp	askernnofinlordprp	queriernnofinblessprp	inquirernnofinbenefitsprp	
+
+BE: haveAUXfamilyNN
+EQ class: have_gotauxhousenn	haveauxhouseholdnn	wealthy_personnnofinfamilynn	havennofinmenagenn	havennofinfamilynn	holdauxhousenn	rich_personnnofinfamilynn	haveauxmenagenn	wealthy_personnnofinhomenn	holdauxfamilynn	have_gotauxfamilynn	have_gotauxmenagenn	have_gotauxhomenn	holdauxmenagenn	holdauxhomenn	haveauxhousenn	wealthy_personnnofinmenagenn	rich_personnnofinhousenn	wealthy_personnnofinhousenn	have_gotauxhouseholdnn	haveauxhomenn	rich_personnnofinmenagenn	wealthy_personnnofinhouseholdnn	havennofinhomenn	rich_personnnofinhomenn	holdauxhouseholdnn	havennofinhouseholdnn	rich_personnnofinhouseholdnn	havennofinhousenn	
+
+BE: prayVBforINyouPRP
+EQ class: 
+
+BE: prayJJforINyouPRP
+EQ class: 
+
+BE: talkingVBG
+EQ class: speakvbg	talkvbg	
+
+BE: prayingVBG
+EQ class: prayvbg	
+
+BE: continuousJJ
+EQ class: continuousnessnn	continuumnn	continuitynn	uninterruptedjj	
+
+BE: prayingVBGcontinuousJJ
+EQ class: prayernnofincontinuousjj	prayernnofinuninterruptedjj	supplicationnnofincontinuitynn	prayvbgcontinuousjj	supplicationnnofincontinuousnessnn	supplicationnnofinuninterruptedjj	prayingvbguninterruptedjj	prayernnofincontinuumnn	prayvbguninterruptedjj	prayvbgcontinuumnn	prayingvbgcontinuousnessnn	prayingvbgcontinuitynn	supplicationnnofincontinuumnn	prayvbgcontinuousnessnn	supplicationnnofincontinuousjj	prayernnofincontinuousnessnn	prayernnofincontinuitynn	prayingvbgcontinuumnn	prayvbgcontinuitynn	
+
+BE: iPRPtalkingVBG
+EQ class: talkativennofiniprp	iprpspeakvbg	iprptalkvbg	talkingnnofiniprp	talkingnniprp	talknnofiniprp	talknniprp	
+
+BE: talkingVBGaboutINcontinuousJJ
+EQ class: talkvbgaboutincontinuitynn	speakvbgaboutincontinuousjj	talkingvbgaboutinuninterruptedjj	talkingvbgaboutincontinuitynn	speakvbgaboutinuninterruptedjj	talkingvbgaboutincontinuumnn	talkvbgaboutinuninterruptedjj	talkvbgaboutincontinuousjj	speakvbgaboutincontinuumnn	speakvbgaboutincontinuitynn	talkingvbgaboutincontinuousnessnn	talkvbgaboutincontinuousnessnn	speakvbgaboutincontinuousnessnn	talkvbgaboutincontinuumnn	
+
+BE: thingsNNS
+EQ class: theynns	themnns	
+
+BE: sayVB
+EQ class: tellvb	statevb	
+
+BE: sayVBtoTOthingsNNS
+EQ class: tellvbtotothingsnns	statevbtototheynns	tellvbtototheynns	statevbtotothingsnns	sayvbtototheynns	statevbtotothemnns	tellvbtotothemnns	sayvbtotothemnns	
+
+BE: GODOrganizationAnnotation
+EQ class: g.o.d.organizationannotation	
+
+BE: GODOrganizationAnnotationbeAUX
+EQ class: g.o.d.organizationannotationbeaux	
+
+BE: beAUXforINusPRP
+EQ class: 
+
+BE: beAUXagainstINusPRP
+EQ class: 
+
+BE: RomansNNP
+EQ class: epistle_to_the_romansnnp	epistle_of_paul_the_apostle_to_the_romansnnp	
+
+BE: 8:31CDRomansNNP
+EQ class: 8:31cdepistle_of_paul_the_apostle_to_the_romansnnp	8.:.3.1.cdepistle_to_the_romansnnp	8.:.3.1.cdromansnnp	8:31cdepistle_to_the_romansnnp	8.:.3.1.cdepistle_of_paul_the_apostle_to_the_romansnnp	
+
+BE: LordOrganizationAnnotation
+EQ class: 
+
+BE: dailyNN
+EQ class: 
+
+BE: BENEFITSOrganizationAnnotation
+EQ class: 
+
+BE: GodNNP
+EQ class: supreme_beingnnp	godlyjj	
+
+BE: salvationNN
+EQ class: redemptionnn	
+
+BE: loadethVBZ
+EQ class: 
+
+BE: ourPRP$salvationNN
+EQ class: redemptionnnofinourprp$	salvationnnofinourprp$	ourprp$redemptionnn	
+
+BE: LordOrganizationAnnotationdailyNN
+EQ class: dailynnofinlordorganizationannotation	
+
+BE: dailyNNloadethVBZ
+EQ class: 
+
+BE: loadethVBZusPRP
+EQ class: 
+
+BE: GodNNPofINsalvationNN
+EQ class: redemptionnngodlyvb	redemptionnngodlyjj	salvationnnsupreme_beingnnp	godlyvbsalvationnn	godlyjjofinredemptionnn	godnnpofinredemptionnn	salvationnngodlyvb	godlyjjofinsalvationnn	redemptionnnsupreme_beingnnp	godlyvbredemptionnn	supreme_beingnnpofinsalvationnn	salvationnngodnnp	redemptionnngodnnp	supreme_beingnnpofinredemptionnn	salvationnngodlyjj	
+
+BE: loadethVBZwithINBENEFITSOrganizationAnnotation
+EQ class: 
+
+BE: loadethVBZwithINGodNNP
+EQ class: loadethvbzwithinsupreme_beingnnp	loadethvbzwithingodlyjj	
+
+BE: SelahLocationAnnotation
+EQ class: 
+
+BE: PsalmNNP
+EQ class: 
+
+BE: 68:19CDPsalmNNP
+EQ class: 
+
+BE: roomNN
+EQ class: 
+
+BE: buildingNN
+EQ class: edificenn	
+
+BE: PeaceNNP
+EQ class: 
+
+BE: HouseNNP
+EQ class: 
+
+BE: LukeNNP
+EQ class: saint_lukennp	st._lukennp	
+
+BE: 10:5NN
+EQ class: 1.0.:.5.nn	
+
+BE: enterVBP
+EQ class: come_invbp	go_invbp	move_intovbp	go_intovbp	get_invbp	get_intovbp	
+
+BE: sayVB
+EQ class: tellvb	statevb	
+
+BE: youPRPenterVBP
+EQ class: entrywaynnofinyouprp	enteringnnofinyouprp	youprpmove_intovbp	entrancennofinyouprp	main_coursennyouprp	youprpgo_intovbp	youprpget_intovbp	entreennofinyouprp	youprpget_invbp	entrynnyouprp	youprpgo_invbp	entrantnnyouprp	entrancewaynnyouprp	entrywaynnyouprp	youprpcome_invbp	entrancennyouprp	entrynnofinyouprp	enteringnnyouprp	main_coursennofinyouprp	entrancewaynnofinyouprp	entreennyouprp	entrantnnofinyouprp	
+
+BE: PeaceNNPBeLocationAnnotation
+EQ class: 
+
+BE: enterVBProomNN
+EQ class: entrancennofinroomnn	entreennofinroomnn	go_invbproomnn	move_intovbproomnn	enteringnnofinroomnn	get_intovbproomnn	entrancewaynnofinroomnn	come_invbproomnn	entrantnnofinroomnn	go_intovbproomnn	entrynnofinroomnn	get_invbproomnn	entrywaynnofinroomnn	main_coursennofinroomnn	
+
+BE: sayVBPeaceNNP
+EQ class: saynnofinpeacennp	tellvbpeacennp	statevbpeacennp	
+
+BE: BeLocationAnnotationtoTO10:5NN
+EQ class: belocationannotationtoto1.0.:.5.nn	
+
+BE: sayVBquietlyRB
+EQ class: saynnofinquietlyrb	tellvbquietlyrb	statevbquietlyrb	
+
+BE: premisesNNS
+EQ class: theynns	themnns	
+
+BE: demeanorNN
+EQ class: deportmentnn	conductnn	behaviornn	demeanournn	behaviournn	
+
+BE: peacefulJJ
+EQ class: peaceablejj	
+
+BE: peacefulJJdemeanorNN
+EQ class: peaceablejjbehaviournn	peacefuljjbehaviornn	peacefuljjconductnn	peaceablejjbehaviornn	peaceablejjdeportmentnn	peacefuljjdemeanournn	peaceablejjdemeanournn	peaceablejjconductnn	peacefuljjbehaviournn	peacefuljjdeportmentnn	peaceablejjdemeanornn	
+
+BE: thoseDThaveAUX
+EQ class: thosedthave_gotaux	rich_personnnofinthosedt	thosedtholdaux	wealthy_personnnofinthosedt	havennofinthosedt	
+
+BE: thoseDTareAUX
+EQ class: thosedtbeaux	
+
+BE: haveAUXdemeanorNN
+EQ class: holdauxdemeanournn	haveauxdemeanournn	wealthy_personnnofinbehaviornn	holdauxdemeanornn	have_gotauxbehaviournn	havennofindemeanournn	haveauxbehaviornn	havennofinbehaviornn	holdauxdeportmentnn	rich_personnnofinbehaviornn	have_gotauxdeportmentnn	wealthy_personnnofindemeanournn	rich_personnnofindeportmentnn	havennofindeportmentnn	have_gotauxdemeanournn	wealthy_personnnofinconductnn	wealthy_personnnofindeportmentnn	haveauxbehaviournn	holdauxconductnn	haveauxconductnn	holdauxbehaviornn	rich_personnnofinbehaviournn	rich_personnnofindemeanornn	havennofinconductnn	have_gotauxconductnn	wealthy_personnnofinbehaviournn	rich_personnnofindemeanournn	have_gotauxbehaviornn	rich_personnnofinconductnn	haveauxdeportmentnn	have_gotauxdemeanornn	wealthy_personnnofindemeanornn	havennofinbehaviournn	holdauxbehaviournn	havennofindemeanornn	
+
+BE: areAUXwithinINpremisesNNS
+EQ class: beauxwithinintheynns	areauxwithininthemnns	beauxwithininpremisesnns	beauxwithininthemnns	areauxwithinintheynns	
+
+BE: helpfulJJ
+EQ class: helpfulnessnn	
+
+BE: thisDTbeAUX
+EQ class: 
+
+BE: beAUXhelpfulJJ
+EQ class: beauxhelpfulnessnn	
+
+BE: helpfulJJtoTOyouPRP
+EQ class: helpfulnessnntotoyouprp	
+
+BE: basisNN
+EQ class: footingnn	groundnn	
+
+BE: PsalmNNP
+EQ class: 
+
+BE: My CausePersonAnnotation
+EQ class: 
+
+BE: psalmLocationAnnotation
+EQ class: 
+
+BE: readVBN
+EQ class: 
+
+BE: pleadVB
+EQ class: 
+
+BE: dailyJJ
+EQ class: day-to-dayjj	day-by-dayjj	day-after-dayjj	daynn	
+
+BE: long-windedJJ
+EQ class: long-windednessnn	wordyjj	tediousjj	windyjj	verbosejj	
+
+BE: powerfulJJ
+EQ class: powerfulnessnn	
+
+BE: dailyJJbasisNN
+EQ class: day-by-dayjjgroundnn	day-after-dayjjgroundnn	daynngroundnn	day-after-dayjjfootingnn	day-to-dayjjbasisnn	day-by-dayjjbasisnn	day-to-dayjjgroundnn	day-by-dayjjfootingnn	dailyjjfootingnn	day-after-dayjjbasisnn	dailyjjgroundnn	daynnfootingnn	day-to-dayjjfootingnn	daynnbasisnn	
+
+BE: 35CDPsalmNNP
+EQ class: 3.5.cdpsalmnnp	
+
+BE: long-windedJJpsalmLocationAnnotation
+EQ class: verbosejjpsalmlocationannotation	long-windednessnnpsalmlocationannotation	wordyjjpsalmlocationannotation	tediousjjpsalmlocationannotation	windyjjpsalmlocationannotation	
+
+BE: powerfulJJpsalmLocationAnnotation
+EQ class: powerfulnessnnpsalmlocationannotation	
+
+BE: itPRPisAUX
+EQ class: itprpbeaux	
+
+BE: readVBNPsalmNNP
+EQ class: readnnofinpsalmnnp	readingnnofinpsalmnnp	readernnofinpsalmnnp	
+
+BE: pleadVBMy CausePersonAnnotation
+EQ class: 
+
+BE: isAUXpsalmLocationAnnotation
+EQ class: beauxpsalmlocationannotation	
+
+BE: readVBNbasisNN
+EQ class: readernnofinfootingnn	readernnofingroundnn	readernnofinbasisnn	readvbngroundnn	readingnnofinfootingnn	readnnofinfootingnn	readingnnofingroundnn	readnnofingroundnn	readvbnfootingnn	readnnofinbasisnn	readingnnofinbasisnn	
+
+BE: readVBNpleadVB
+EQ class: readernnofinpleadvb	readnnofinpleadvb	readingnnofinpleadvb	
+
+BE: requirementNN
+EQ class: demandnn	
+
+BE: GodNNP
+EQ class: supreme_beingnnp	godlyjj	
+
+BE: helpNN
+EQ class: assistancenn	aidnn	assistnn	
+
+BE: askingVBG
+EQ class: enquirevbg	askvbg	inquirevbg	
+
+BE: onlyJJ
+EQ class: lonesomejj	solejj	lonejj	solitaryjj	
+
+BE: sincereJJ
+EQ class: sinceritynn	
+
+BE: onlyJJrequirementNN
+EQ class: lonesomejjdemandnn	solitaryjjdemandnn	solejjdemandnn	solejjrequirementnn	lonejjrequirementnn	lonesomejjrequirementnn	lonejjdemandnn	solitaryjjrequirementnn	onlyjjdemandnn	
+
+BE: yourPRP$requirementNN
+EQ class: demandvbyourprp$	needvbyourprp$	requirevbyourprp$	demandnnofinyourprp$	takevbyourprp$	call_forvbyourprp$	yourprp$requirevb	yourprp$involvevb	yourprp$postulatevb	postulatevbyourprp$	involvevbyourprp$	yourprp$necessitatevb	yourprp$takevb	askvbyourprp$	yourprp$demandvb	yourprp$demandnn	yourprp$askvb	requirementnnofinyourprp$	yourprp$needvb	yourprp$call_forvb	necessitatevbyourprp$	
+
+BE: hisPRP$helpNN
+EQ class: helpnnofinmy causeprp$	hisprp$helpvb	my causeprp$assistancenn	hisprp$assistancenn	my causeprp$assistvb	helpnnofinhisprp$	hisprp$assistnn	assistnnofinhisprp$	helpvbmy causeprp$	assistvbhisprp$	hisprp$assistvb	assistnnofinmy causeprp$	assistvbmy causeprp$	helpvbhisprp$	assistancennofinhisprp$	aidnnofinmy causeprp$	my causeprp$helpvb	my causeprp$assistnn	my causeprp$aidnn	aidvbmy causeprp$	aidvbhisprp$	my causeprp$helpnn	hisprp$aidnn	assistancennofinmy causeprp$	aidnnofinhisprp$	my causeprp$aidvb	hisprp$aidvb	
+
+BE: requirementNNisAUX
+EQ class: demandnnbeaux	requirementnnbeaux	demandnnisaux	
+
+BE: askingVBGGodNNP
+EQ class: questionernnofinsupreme_beingnnp	questionernnofingodlyjj	askernnofingodlyjj	inquirevbggodnnp	askernnofingodnnp	enquirevbgsupreme_beingnnp	askingvbggodlyjj	askingvbgsupreme_beingnnp	askvbggodnnp	enquirernnofinsupreme_beingnnp	enquirernnofingodlyjj	askvbgsupreme_beingnnp	queriernnofingodnnp	inquirernnofingodnnp	askvbggodlyjj	inquirernnofingodlyjj	queriernnofinsupreme_beingnnp	inquirevbggodlyjj	inquirernnofinsupreme_beingnnp	enquirevbggodnnp	enquirernnofingodnnp	questionernnofingodnnp	queriernnofingodlyjj	enquirevbggodlyjj	askernnofinsupreme_beingnnp	inquirevbgsupreme_beingnnp	
+
+BE: beAUXsincereJJ
+EQ class: beauxsinceritynn	
+
+BE: askingVBGforINhelpNN
+EQ class: askvbgforinhelpnn	askingvbgforinassistancenn	enquirevbgforinassistancenn	askingvbgforinaidnn	inquirevbgforinassistnn	inquirevbgforinhelpnn	askvbgforinassistnn	askvbgforinaidnn	askingvbgforinassistnn	enquirevbgforinhelpnn	enquirevbgforinassistnn	enquirevbgforinaidnn	askvbgforinassistancenn	inquirevbgforinassistancenn	inquirevbgforinaidnn	
+
+BE: wishVBP
+EQ class: 
+
+BE: iPRPwishVBP
+EQ class: wantnnofiniprp	wantnniprp	wishnnofiniprp	wishingnniprp	wishingnnofiniprp	wishnniprp	
+
+BE: wishVBPyouPRP
+EQ class: wantnnofinyouprp	wishnnofinyouprp	wishingnnofinyouprp	
+
+BE: wishVBPwellRB
+EQ class: wishingnnofinwellrb	wantnnofinwellrb	wishnnofinwellrb	
+
+BE: PeaceNNP
+EQ class: 
+
+BE: LoveOrganizationAnnotation
+EQ class: 
+
+BE: GodNNP
+EQ class: supreme_beingnnp	godlyjj	
+
+BE: BlessOrganizationAnnotation
+EQ class: 
+
+BE: LoveOrganizationAnnotationBlessOrganizationAnnotation
+EQ class: blessingnnloveorganizationannotation	approvalnnloveorganizationannotation	approvingnnloveorganizationannotation	
+

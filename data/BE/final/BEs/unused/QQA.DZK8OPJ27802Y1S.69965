@@ -1,0 +1,38 @@
+#Trivially simple solution..
+#(S1 (FRAG (RB Trivially) (NP (JJ simple) (NN solution) (. .)) (. .)))
+#Rule:Nouns
+r1solutionNN
+
+#Rule:Adjs
+r4simpleJJ
+
+#Rule:Adj-Noun
+r5simpleJJsolutionNN
+
+#Tie a ribbon to the end of a stick and raise in in the air.
+#(S1 (S (VP (VP (VB Tie) (NP (DT a) (NN ribbon)) (PP (TO to) (NP (NP (DT the) (NN end)) (PP (IN of) (NP (DT a) (NN stick)))))) (CC and) (VP (VB raise) (PRT (RP in)) (PP (IN in) (NP (DT the) (NN air))))) (. .)))
+#Rule:Nouns
+r1ribbonNN
+r1endNN
+r1stickNN
+r1airNN
+
+#Rule:Verbs
+r2tieVB
+
+#Rule:V-PRT
+r3raiseVBinRP
+
+#Rule:V-HeadNoun
+r21tieVBribbonNN
+
+#Rule:PPinNP
+r26endNNofINstickNN
+
+#Rule:PPinVP
+r30tieVBtoTOendNN
+r30raiseVBinINairNN
+
+@lemmas-left	stick	raise	tie	simple	ribbon	air	solution	end	
+@lemmas-right	stick	ribbon	air	in	solution	end	
+@lemmas-center	to	of	in	

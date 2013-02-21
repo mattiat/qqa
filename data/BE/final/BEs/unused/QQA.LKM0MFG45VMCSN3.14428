@@ -1,0 +1,30 @@
+#i answered this question just a minute ago.here.http://answers.yahoo.com/question/index;_ylt=AhWy.ndkqIa_hp3pqa3pYpnsy6IX?
+#(S1 (S (NP (PRP i)) (VP (VBD answered) (NP (DT this) (NN question)) (NP (NP (RB just) (DT a) (NN minute) (NN ago.here.http)) (: :) (NP (NN //answers.yahoo.com/question/index)) (: ;) (NP (NN _ylt=AhWy.ndkqIa_hp3pqa3pYpnsy6IX)))) (. ?)))
+#Rule:Nouns
+r1questionNN
+r1minuteNN
+r1ago.here.httpNN
+r1//answers.yahoo.com/question/indexNN
+r1_ylt=AhWy.ndkqIa_hp3pqa3pYpnsy6IXPersonAnnotation
+
+#Rule:Verbs
+r2answeredVBD
+
+#Rule:N-HeadNoun
+r8minuteNNago.here.httpNN
+
+#Rule:HeadNoun-V
+r11iPRPansweredVBD
+
+#Rule:V-HeadNoun
+r21answeredVBDquestionNN
+r21answeredVBDago.here.httpNN
+
+#qid=20070630065807AAnxO1p&show=7#profile-info-TQOVizbsaa
+#(S1 (NP (QP (RB qid=20070630065807AAnxO1p&show=7) (# #) (CD profile-info-TQOVizbsaa))))
+#Rule:Adj-Noun
+r5profile-info-TQOVizbsaaCDqid=20070630065807AAnxO1p&show=7RB
+
+@lemmas-left	minute	profile-info-TQOVizbsaa	index	profile-info-tqovizbsaa	ago.here.http	http	answer	question	_ylt=AhWy.ndkqIa_hp3pqa3pYpnsy6IX	//answers.yahoo.com/question/index	i	answered	
+@lemmas-right	ago.here.http	http	answer	qid=20070630065807AAnxO1p&show=7	show	question	answered	
+@lemmas-center	

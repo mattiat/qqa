@@ -1,0 +1,775 @@
+#Every human being can become a perfect by following the path of Mahavira, Gautama Buddha, Jesus Christ or Prophet Mohammed! All these man gods (human gods) gained enlightenment (kaivalya jnana) in their lifetime. And what does enlightenment mean? Enlightenment is removing the dross. the impurities within the soul atman!!
+#(S1 (S (NP (DT Every) (NN human) (AUXG being)) (VP (MD can) (VP (VB become) (NP (NP (DT a) (ADJP (JJ perfect) (PP (IN by) (S (VP (VBG following) (NP (NP (DT the) (NN path)) (PP (IN of) (NP (NP (NNP Mahavira)) (, ,) (NP (NNP Gautama) (NNP Buddha)) (, ,) (NP (NNP Jesus) (NNP Christ) (CC or) (NNP Prophet) (NNP Mohammed) (. !))))) (DT All) (SBAR (S (S (NP (NP (DT these) (NN man) (NNS gods)) (PRN (-LRB- -LRB-) (NP (JJ human) (NNS gods)) (-RRB- -RRB-))) (VP (VBD gained) (NP (NP (NN enlightenment)) (PRN (-LRB- -LRB-) (NP (CD kaivalya) (NN jnana)) (-RRB- -RRB-))) (PP (IN in) (NP (PRP$ their) (FW lifetime.))))) (CC And) (SBARQ (WHNP (WP what)) (SQ (AUX does) (NP (NN enlightenment)) (VP (VB mean)))) (. ?))))))) (NN Enlightenment)) (SBAR (S (VP (AUX is) (VP (VBG removing) (NP (DT the) (NN dross.)) (NP (NP (DT the) (NNS impurities)) (PP (IN within) (NP (DT the) (NN soul) (NN atman)))) (. !)))))))) (. !)))
+#Rule:Nouns
+r1humanNN
+r1pathNN
+r1MahaviraPersonAnnotation
+r1Gautama BuddhaPersonAnnotation
+r1Jesus ChristPersonAnnotation
+r1Prophet MohammedPersonAnnotation
+r1manNN
+r1godsNNS
+r1godsNNS
+r1enlightenmentNN
+r1kaivalya jnanaLocationAnnotation
+r1enlightenmentNN
+r1EnlightenmentNN
+r1drossNN
+r1impuritiesNNS
+r1soulNN
+r1atmanPersonAnnotation
+
+#Rule:Verbs
+r2becomeVB
+r2followingVBG
+r2gainedVBD
+r2meanVB
+r2removingVBG
+
+#Rule:Adjs
+r4perfectJJ
+r4humanJJ
+
+#Rule:Adj-Noun
+r5perfectJJEnlightenmentNN
+r5humanJJgodsNNS
+
+#Rule:PRP-Noun
+r6theirPRP$lifetimeFW
+
+#Rule:N-HeadNoun
+r8manNNgodsNNS
+r8soulNNatmanPersonAnnotation
+
+#Rule:N-ApposN
+r10MahaviraPersonAnnotationGautama BuddhaPersonAnnotation
+
+#Rule:HeadNoun-V
+r11humanNNbecomeVB
+r11godsNNSgainedVBD
+
+#Rule:HeadNoun-(who/that)-V
+r14EnlightenmentNNremovingVBG
+
+#Rule:V-HeadNoun
+r21becomeVBEnlightenmentNN
+r21followingVBGpathNN
+r21gainedVBDenlightenmentNN
+r21removingVBGdrossNN
+r21removingVBGimpuritiesNNS
+
+#Rule:PPinNP
+r26pathNNofINMahaviraPersonAnnotation
+r26pathNNofINGautama BuddhaPersonAnnotation
+r26pathNNofINProphet MohammedPersonAnnotation
+r26impuritiesNNSwithinINatmanPersonAnnotation
+
+#Rule:PPinVP
+r30gainedVBDinINlifetimeFW
+
+#Rule:PPinADJP
+r38perfectJJbyINfollowingVBG
+
+#Right from the first manifestation as an amoeba (single cell formation) to the last as a human being. the cosmic crux of life is eradicating the impurities within the soul atman! As the impurities reduce gradually. the soul atman manifests evolved forms of life! Starting as an amoeba it further evolves into multi-cell formation, insect life, plant life, animal life and finally the form of human beings..
+#(S1 (S (S (PP (ADVP (RB Right) (PP (IN from) (NP (NP (DT the) (JJ first) (NN manifestation)) (PP (IN as) (NP (NP (DT an) (NN amoeba)) (PRN (-LRB- -LRB-) (NP (JJ single) (NN cell) (NN formation)) (-RRB- -RRB-))))) (PP (TO to) (NP (DT the) (JJ last))))) (IN as) (NP (DT a) (JJ human) (NN being.))) (NP (NP (DT the) (JJ cosmic) (NN crux)) (PP (IN of) (NP (NN life)))) (VP (AUX is) (VP (VBG eradicating) (NP (DT the) (NNS impurities)) (PP (IN within) (NP (DT the) (NN soul) (NN atman))))) (. !)) (IN As) (S (NP (DT the) (NNS impurities)) (VP (VB reduce) (NP (NP (NNS gradually.)) (SBAR (S (NP (DT the) (NN soul) (NN atman)) (VP (VBZ manifests) (NP (NP (VBN evolved) (NNS forms)) (PP (IN of) (NP (NN life))))) (. !)))) (PP (VBG Starting) (PP (IN as) (NP (NP (DT an) (NN amoeba)) (SBAR (S (NP (PRP it)) (ADVP (RB further)) (VP (VBZ evolves) (PP (IN into) (NP (NP (JJ multi-cell) (NN formation)) (, ,) (NP (NP (JJ insect) (NN life)) (, ,) (NP (NN plant) (NN life)) (, ,) (NP (NN animal) (NN life)) (CC and) (ADVP (RB finally)) (NP (NP (DT the) (NN form)) (PP (IN of) (NP (JJ human) (NNS beings)))))))) (. .)))))))) (. .)))
+#Rule:Nouns
+r1manifestationNN
+r1amoebaPersonAnnotation
+r1cellNN
+r1formationNN
+r1beingNN
+r1cruxNN
+r1lifeNN
+r1impuritiesNNS
+r1soulNN
+r1atmanPersonAnnotation
+r1impuritiesNNS
+r1graduallyNNS
+r1soulNN
+r1atmanNN
+r1formsNNS
+r1lifeNN
+r1amoebaOrganizationAnnotation
+r1formationNN
+r1lifeNN
+r1plantNN
+r1lifeNN
+r1animalNN
+r1lifeNN
+r1formNN
+r1beingsNNS
+
+#Rule:Verbs
+r2eradicatingVBG
+r2reduceVB
+r2manifestsVBZ
+r2evolvedVBN
+r2startingVBG
+r2evolvesVBZ
+
+#Rule:Adjs
+r4firstJJ
+r4singleJJ
+r4lastJJ
+r4humanJJ
+r4cosmicJJ
+r4multi-cellJJ
+r4insectJJ
+r4humanJJ
+
+#Rule:Adj-Noun
+r5firstJJmanifestationNN
+r5singleJJformationNN
+r5humanJJbeingNN
+r5cosmicJJcruxNN
+r5evolvedVBNformsNNS
+r5multi-cellJJformationNN
+r5insectJJlifeNN
+r5humanJJbeingsNNS
+
+#Rule:N-HeadNoun
+r8cellNNformationNN
+r8soulNNatmanPersonAnnotation
+r8soulNNatmanNN
+r8plantNNlifeNN
+r8animalNNlifeNN
+
+#Rule:N-ApposN
+r10formationNNlifeNN
+r10lifeNNlifeNN
+
+#Rule:HeadNoun-V
+r11cruxNNeradicatingVBG
+r11impuritiesNNSreduceVB
+r11atmanNNmanifestsVBZ
+r11itPRPevolvesVBZ
+
+#Rule:NP(NP(z) SBAR(S(NP(x)VP(y))))
+r19evolvesVBZamoebaOrganizationAnnotation
+
+#Rule:V-HeadNoun
+r21eradicatingVBGimpuritiesNNS
+r21reduceVBgraduallyNNS
+r21manifestsVBZformsNNS
+
+#Rule:PPinNP
+r26manifestationNNasINamoebaPersonAnnotation
+r26cruxNNofINlifeNN
+r26formsNNSofINlifeNN
+r26formNNofINbeingsNNS
+
+#Rule:PPinVP
+r30eradicatingVBGwithinINatmanPersonAnnotation
+r30evolvesVBZintoINformationNN
+r30evolvesVBZintoINlifeNN
+r30evolvesVBZintoINlifeNN
+r30evolvesVBZintoINlifeNN
+r30evolvesVBZintoINformNN
+
+#Rule:PPinS
+r36isAUXasINbeingNN
+
+#Rule:V-ADV
+r46evolvesVBZfurtherRB
+
+#Only in the human form the soul atman within regains its original pure pristine form. This happens when one gains the status of Mahavira, Gautama Buddha, Jesus Christ or Prophet Mohammed! Gaining enlightenment is the absolute crux of life! Beyond enlightenment there is nothing to achieve further in the cosmic system..
+#(S1 (SINV (PP (ADVP (RB Only)) (IN in) (NP (DT the) (JJ human) (NN form))) (VP (NP (NP (DT the) (NN soul) (NN atman)) (PP (IN within) (S (VP (VBZ regains) (NP (PRP$ its) (JJ original) (JJ pure) (JJ pristine) (NN form.)))))) (S (NP (DT This)) (VP (VBZ happens) (SBAR (WHADVP (WRB when)) (S (NP (PRP one)) (VP (VBZ gains) (SBAR (S (NP (NP (DT the) (NN status)) (PP (IN of) (NP (NNP Mahavira) (, ,) (NNP Gautama) (NNP Buddha) (, ,) (NNP Jesus) (NNP Christ) (CC or) (NNP Prophet) (NNP Mohammed) (. !) (NNP Gaining) (NN enlightenment)))) (VP (AUX is) (NP (NP (DT the) (JJ absolute) (NN crux)) (PP (IN of) (NP (NN life))))))))))) (. !))) (NP (NNP Beyond) (NN enlightenment) (S (NP (EX there)) (VP (AUX is) (NP (NP (NN nothing)) (SBAR (S (VP (TO to) (VP (VB achieve) (ADVP (RBR further)) (PP (IN in) (NP (DT the) (JJ cosmic) (NN system))))))))) (. .))) (. .)))
+#Rule:Nouns
+r1formNN
+r1soulNN
+r1atmanNN
+r1formNN
+r1statusNN
+r1MahaviraPersonAnnotation
+r1Gautama BuddhaPersonAnnotation
+r1Jesus ChristPersonAnnotation
+r1Prophet MohammedPersonAnnotation
+r1GainingNNP
+r1enlightenmentNN
+r1cruxNN
+r1lifeNN
+r1BeyondNNP
+r1enlightenmentNN
+r1nothingNN
+r1systemNN
+
+#Rule:Verbs
+r2regainsVBZ
+r2happensVBZ
+r2gainsVBZ
+r2achieveVB
+
+#Rule:Adjs
+r4humanJJ
+r4originalJJ
+r4pureJJ
+r4pristineJJ
+r4absoluteJJ
+r4cosmicJJ
+
+#Rule:Adj-Noun
+r5humanJJformNN
+r5originalJJformNN
+r5pureJJformNN
+r5pristineJJformNN
+r5absoluteJJcruxNN
+r5cosmicJJsystemNN
+
+#Rule:PRP-Noun
+r6itsPRP$formNN
+
+#Rule:N-HeadNoun
+r8soulNNatmanNN
+r8GainingNNPenlightenmentNN
+r8BeyondNNPenlightenmentNN
+
+#Rule:HeadNoun-V
+r11thisDThappensVBZ
+r11onePRPgainsVBZ
+r11statusNNisAUX
+r11thereEXisAUX
+
+#Rule:HeadNoun-(who/that)-V
+r14nothingNNachieveVB
+
+#Rule:V-HeadNoun
+r21regainsVBZformNN
+r21isAUXcruxNN
+r21isAUXnothingNN
+
+#Rule:V-HeadNoun
+r22atmanNNthisDT
+
+#Rule:PPinNP
+r26statusNNofINenlightenmentNN
+r26cruxNNofINlifeNN
+
+#Rule:PPinVP
+r30achieveVBinINsystemNN
+
+#Rule:IS-RULE
+r47cruxNNstatusNN
+
+#In the human form alone we have 1.1 million manifestations. The initial 7.3 manifestations are spent in the insect, plant and animal form! Never from heaven or hell can the soul atman regain absolute purity. Only in the human form. the soul atman within reaches the cosmic end of life. the 8.4 millionth manifestation!!
+#(S1 (SBARQ (PP (IN In) (NP (NP (DT the) (JJ human) (NN form)) (SBAR (S (ADVP (RB alone)) (NP (PRP we)) (VP (AUX have) (NP (QP (CD 1.1) (CD million)) (NN manifestations.)) (SBAR (S (NP (DT The) (JJ initial) (CD 7.3) (NNS manifestations)) (VP (AUX are) (VP (VBN spent) (PP (IN in) (NP (DT the) (UCP (JJ insect) (, ,) (NN plant) (CC and) (NN animal)) (NN form)))))))) (. !))))) (RB Never) (PP (IN from) (NP (NN heaven) (CC or) (NN hell))) (SQ (MD can) (NP (DT the) (NN soul) (NN atman)) (VP (VB regain) (NP (NP (JJ absolute) (NN purity.)) (PP (ADVP (RB Only)) (IN in) (NP (DT the) (JJ human) (NN form.)))) (NP (DT the) (NN soul) (NN atman)) (PP (IN within) (S (VP (VBZ reaches) (NP (NP (DT the) (JJ cosmic) (NN end)) (PP (IN of) (NP (FW life.)))) (NP (DT the) (ADJP (CD 8.4) (NN millionth)) (NN manifestation)))))) (. !)) (. !)))
+#Rule:Nouns
+r1formNN
+r1manifestationsNN
+r1manifestationsNNS
+r1plantNN
+r1animalNN
+r1formNN
+r1heavenNN
+r1hellNN
+r1soulNN
+r1atmanNN
+r1purityNN
+r1formNN
+r1soulNN
+r1atmanNN
+r1endNN
+r1millionthNN
+r1manifestationOrganizationAnnotation
+
+#Rule:Verbs
+r2spentVBN
+r2regainVB
+r2reachesVBZ
+
+#Rule:Adjs
+r4humanJJ
+r4initialJJ
+r4insectJJ
+r4absoluteJJ
+r4humanJJ
+r4cosmicJJ
+
+#Rule:Adj-Noun
+r5humanJJformNN
+r51.1CDmanifestationsNN
+r5millionCDmanifestationsNN
+r5initialJJmanifestationsNNS
+r57.3CDmanifestationsNNS
+r5absoluteJJpurityNN
+r5humanJJformNN
+r5cosmicJJendNN
+r58.4CDmanifestationOrganizationAnnotation
+
+#Rule:N-HeadNoun
+r8soulNNatmanNN
+r8soulNNatmanNN
+
+#Rule:HeadNoun-V
+r11wePRPhaveAUX
+
+#Rule:V-HeadNoun
+r21haveAUXmanifestationsNN
+r21regainVBpurityNN
+r21regainVBatmanNN
+r21reachesVBZendNN
+r21reachesVBZmanifestationOrganizationAnnotation
+
+#Rule:V-HeadNoun(passive)
+r23spentVBNmanifestationsNNS
+
+#Rule:PPinNP
+r26purityNNinINformNN
+r26endNNofINlifeFW
+
+#Rule:PPinVP
+r32spentVBNinINformNN
+
+#Rule:V-ADV
+r46haveAUXaloneRB
+
+#The moment one gains enlightenment. becomes an enlightened one like Mahavira, Gautama Buddha, Jesus Christ or Prophet Mohammed. all is over for the soul atman within! The world. the manifested world. our Mother Earth acts as a sojourn for the soul atman within. Releasing self from the ocean of Samsara (worldly life) is the goal of every soul atman!!
+#(S1 (S (S (NP (NP (DT The) (NN moment)) (SBAR (S (NP (CD one) (NNS gains) (NN enlightenment.)) (VP (VBZ becomes) (NP (DT an) (VBN enlightened) (NN one)) (PP (IN like) (NP (NP (NNP Mahavira)) (, ,) (NP (NNP Gautama) (NNP Buddha)) (, ,) (NP (NNP Jesus) (NNP Christ)) (CC or) (NP (NNP Prophet) (NNP Mohammed.)))))))) (DT all) (VP (AUX is) (ADVP (RB over)) (PP (IN for) (NP (NP (DT the) (NN soul) (NN atman)) (ADVP (IN within))))) (. !)) (S (NP (DT The) (NN world.)) (DT the) (VP (VBN manifested) (PP (VBN world.) (PP (NP (PRP$ our) (NNP Mother) (NNP Earth) (NNS acts)) (IN as) (NP (NP (DT a) (NN sojourn)) (PP (IN for) (S (NP (DT the) (NN soul) (NN atman) (NN within.)) (VP (VBG Releasing) (SBAR (S (NP (NP (NN self)) (PP (IN from) (NP (DT the) (NN ocean))) (PP (IN of) (NP (NP (NNP Samsara)) (PRN (-LRB- -LRB-) (NP (RB worldly) (NN life)) (-RRB- -RRB-))))) (VP (AUX is) (NP (NP (DT the) (NN goal)) (PP (IN of) (NP (DT every) (NN soul) (NN atman)))))))))))))) (. !)) (. !)))
+#Rule:Nouns
+r1momentNN
+r1gainsNNS
+r1enlightenmentNN
+r1oneNN
+r1MahaviraPersonAnnotation
+r1Gautama BuddhaPersonAnnotation
+r1Jesus ChristPersonAnnotation
+r1Prophet OrganizationAnnotation
+r1soulNN
+r1atmanNN
+r1worldNN
+r1MotherNNP
+r1EarthNNP
+r1actsNNS
+r1sojournNN
+r1soulNN
+r1atmanNN
+r1withinNN
+r1selfNN
+r1oceanNN
+r1SamsaraPersonAnnotation
+r1lifeNN
+r1goalNN
+r1soulNN
+r1atmanPersonAnnotation
+
+#Rule:Verbs
+r2becomesVBZ
+r2enlightenedVBN
+r2manifestedVBN
+r2worldVBN
+r2releasingVBG
+
+#Rule:Adj-Noun
+r5oneCDenlightenmentNN
+r5enlightenedVBNoneNN
+
+#Rule:PRP-Noun
+r6ourPRP$actsNNS
+
+#Rule:N-HeadNoun
+r8gainsNNSenlightenmentNN
+r8soulNNatmanNN
+r8EarthNNPactsNNS
+r8MotherNNPactsNNS
+r8atmanNNwithinNN
+r8soulNNwithinNN
+r8soulNNatmanPersonAnnotation
+
+#Rule:N-ApposN
+r10MahaviraPersonAnnotationGautama BuddhaPersonAnnotation
+
+#Rule:HeadNoun-V
+r11momentNNisAUX
+r11enlightenmentNNbecomesVBZ
+r11withinNNreleasingVBG
+r11selfNNisAUX
+
+#Rule:V-HeadNoun
+r21becomesVBZoneNN
+r21isAUXgoalNN
+
+#Rule:V-HeadNoun(passive)
+r24manifestedVBNworldNN
+
+#Rule:PPinNP
+r26selfNNfromINoceanNN
+r26selfNNofINSamsaraPersonAnnotation
+r26goalNNofINatmanPersonAnnotation
+
+#Rule:PPinVP
+r30becomesVBZlikeINMahaviraPersonAnnotation
+r30becomesVBZlikeINGautama BuddhaPersonAnnotation
+r30becomesVBZlikeINJesus ChristPersonAnnotation
+r30becomesVBZlikeINProphet OrganizationAnnotation
+r30isAUXforINatmanNN
+
+#Rule:V-ADV
+r46isAUXoverRB
+
+#Rule:IS-RULE
+r47goalNNselfNN
+
+#Gaining perfection. becoming a Mahavira, Gautama Buddha, Jesus Christ or Prophet Mohammed in life is difficult. but not impossible! By treading the path of spirituality one finally crosses the ocean of Samsara. Spirituality is following the path of absolute truthfulness, practicing absolute celibacy for a minimum period of 12 years and so on..
+#(S1 (S (NP (NNP Gaining)) (VP (VBD perfection.) (S (VP (VBG becoming) (NP (NP (DT a) (NNP Mahavira)) (, ,) (S (NP (NP (NNP Gautama) (NNP Buddha)) (, ,) (NP (NNP Jesus) (NNP Christ)) (CC or) (NP (NP (NNP Prophet) (NNP Mohammed)) (PP (IN in) (NP (NN life))))) (VP (AUX is) (ADJP (ADJP (JJ difficult.)) (CC but) (ADJP (RB not) (JJ impossible)))) (. !))) (PP (IN By) (S (VP (VBG treading) (NP (NP (DT the) (NN path)) (PP (IN of) (NP (NP (NN spirituality)) (SBAR (S (NP (CD one)) (ADVP (RB finally)) (VP (VBZ crosses) (SBAR (S (NP (NP (DT the) (NN ocean)) (PP (IN of) (NP (NNP Samsara.) (NNP Spirituality)))) (VP (AUX is) (VP (VBG following) (NP (NP (DT the) (NN path)) (PP (IN of) (NP (JJ absolute) (NN truthfulness)))) (, ,) (S (VP (VBG practicing) (NP (NP (JJ absolute) (NN celibacy)) (UCP (PP (IN for) (NP (NP (DT a) (JJ minimum) (NN period)) (PP (IN of) (NP (CD 12) (NNS years))))) (CC and) (ADVP (RB so) (RB on))))))))))) (. .)))))))))))) (. .)))
+#Rule:Nouns
+r1GainingNNP
+r1MahaviraPersonAnnotation
+r1Gautama BuddhaPersonAnnotation
+r1Jesus ChristPersonAnnotation
+r1Prophet MohammedPersonAnnotation
+r1lifeNN
+r1pathNN
+r1spiritualityNN
+r1oceanNN
+r1SamsaraNNP
+r1SpiritualityNNP
+r1pathNN
+r1truthfulnessNN
+r1celibacyNN
+r1periodNN
+r1yearsNNS
+
+#Rule:Verbs
+r2perfectionVBD
+r2becomingVBG
+r2treadingVBG
+r2crossesVBZ
+r2followingVBG
+r2practicingVBG
+
+#Rule:Adjs
+r4difficultJJ
+r4impossibleJJ
+r4absoluteJJ
+r4absoluteJJ
+r4minimumJJ
+
+#Rule:Adj-Noun
+r5absoluteJJtruthfulnessNN
+r5absoluteJJcelibacyNN
+r5minimumJJperiodNN
+r512CDyearsNNS
+
+#Rule:N-HeadNoun
+r8SamsaraNNPSpiritualityNNP
+
+#Rule:N-ApposN
+r10Gautama BuddhaPersonAnnotationJesus ChristPersonAnnotation
+
+#Rule:HeadNoun-V
+r11GainingNNPperfectionVBD
+r11Gautama BuddhaPersonAnnotationisAUX
+r11Jesus ChristPersonAnnotationisAUX
+r11Prophet MohammedPersonAnnotationisAUX
+r11oneCDcrossesVBZ
+r11oceanNNfollowingVBG
+
+#Rule:NP(NP(z) SBAR(S(NP(x)VP(y))))
+r19crossesVBZspiritualityNN
+
+#Rule:V-HeadNoun
+r21becomingVBGMahaviraPersonAnnotation
+r21treadingVBGpathNN
+r21followingVBGpathNN
+r21practicingVBGcelibacyNN
+
+#Rule:V-ADJ
+r25isAUXdifficultJJ
+
+#Rule:PPinNP
+r26Prophet MohammedPersonAnnotationinINlifeNN
+r26pathNNofINspiritualityNN
+r26oceanNNofINSpiritualityNNP
+r26pathNNofINtruthfulnessNN
+r26periodNNofINyearsNNS
+
+#Rule:V-MOD
+r45followingVBGpracticingVBG
+
+#Rule:V-ADV
+r46crossesVBZfinallyRB
+
+#Establishing absolute control over the five senses and the mind is a prerequisite.
+#(S1 (S (S (VP (VBG Establishing) (NP (NP (NP (JJ absolute) (NN control)) (PP (IN over) (NP (DT the) (CD five) (NNS senses)))) (CC and) (NP (DT the) (NN mind))))) (VP (AUX is) (NP (DT a) (NN prerequisite))) (. .)))
+#Rule:Nouns
+r1controlNN
+r1sensesNNS
+r1mindNN
+r1prerequisiteNN
+
+#Rule:Verbs
+r2establishingVBG
+
+#Rule:Adjs
+r4absoluteJJ
+
+#Rule:Adj-Noun
+r5absoluteJJcontrolNN
+r5fiveCDsensesNNS
+
+#Rule:V-HeadNoun
+r21establishingVBGcontrolNN
+r21isAUXprerequisiteNN
+
+#Rule:PPinNP
+r26controlNNoverINsensesNNS
+
+# The moment one gains control over senses and the mind.
+#(S1 (S (NP (DT The) (NN moment) (CD one)) (VP (VBZ gains) (NP (NP (NN control)) (PP (IN over) (NP (NP (NNS senses)) (CC and) (NP (DT the) (NN mind)))))) (. .)))
+#Rule:Nouns
+r1momentNN
+r1controlNN
+r1sensesNNS
+r1mindLocationAnnotation
+
+#Rule:Verbs
+r2gainsVBZ
+
+#Rule:Adj-Noun
+r5oneCDmomentNN
+
+#Rule:HeadNoun-V
+r11momentNNgainsVBZ
+
+#Rule:V-HeadNoun
+r21gainsVBZcontrolNN
+
+#Rule:PPinNP
+r26controlNNoverINsensesNNS
+r26controlNNoverINmindLocationAnnotation
+
+# we reach the stage of Nirvikalpa Samadhi when one can have a dialogue with God on one-to-one basis and that too permanently.
+#(S1 (S (NP (PRP we)) (VP (VBP reach) (NP (NP (DT the) (NN stage)) (PP (IN of) (NP (NNP Nirvikalpa) (NNP Samadhi)))) (SBAR (WHADVP (WRB when)) (S (NP (PRP one)) (VP (MD can) (VP (AUX have) (NP (NP (DT a) (NN dialogue)) (PP (IN with) (NP (NNP God)))) (PP (IN on) (NP (NP (JJ one-to-one) (NN basis)) (CC and) (NP (DT that)))) (ADVP (RB too) (RB permanently))))))) (. .)))
+#Rule:Nouns
+r1stageNN
+r1Nirvikalpa SamadhiPersonAnnotation
+r1dialogueNN
+r1God onPersonAnnotation
+r1basisNN
+
+#Rule:Verbs
+r2reachVBP
+
+#Rule:Adjs
+r4one-to-oneJJ
+
+#Rule:Adj-Noun
+r5one-to-oneJJbasisNN
+
+#Rule:HeadNoun-V
+r11wePRPreachVBP
+r11onePRPhaveAUX
+
+#Rule:V-HeadNoun
+r21reachVBPstageNN
+r21haveAUXdialogueNN
+
+#Rule:PPinNP
+r26stageNNofINNirvikalpa SamadhiPersonAnnotation
+r26dialogueNNwithINGod onPersonAnnotation
+
+#Rule:PPinVP
+r30haveAUXGod onPersonAnnotationbasisNN
+r30haveAUXGod onPersonAnnotationthatDT
+
+#Rule:V-ADV
+r46haveAUXtooRB
+r46haveAUXpermanentlyRB
+
+# Following Neti (not this, not this) one finally reaches the kingdom of God (aka Baikuntha in Hinduism).
+#(S1 (S (NP (VBG Following) (NNP Neti) (PRN (-LRB- -LRB-) (NP (NP (RB not) (DT this)) (, ,) (NP (RB not) (DT this))) (-RRB- -RRB-)) (NN one)) (ADVP (RB finally)) (VP (VBZ reaches) (NP (NP (DT the) (NN kingdom)) (PP (IN of) (NP (NNP God)))) (PRN (-LRB- -LRB-) (PP (FW aka) (NP (NP (NNP Baikuntha)) (PP (IN in) (NP (NNP Hinduism))))) (-RRB- -RRB-))) (. .)))
+#Rule:Nouns
+r1NetiNNP
+r1oneNN
+r1kingdom of GodOrganizationAnnotation
+r1aka BaikunthaPersonAnnotation
+r1HinduismLocationAnnotation
+
+#Rule:Verbs
+r2followingVBG
+r2reachesVBZ
+
+#Rule:Adj-Noun
+r5followingVBGoneNN
+
+#Rule:N-ApposN
+r10notRBnotRB
+
+#Rule:HeadNoun-V
+r11oneNNreachesVBZ
+
+#Rule:V-HeadNoun
+r21reachesVBZkingdom of GodOrganizationAnnotation
+
+#Rule:PPinNP
+r26aka BaikunthaPersonAnnotationinINHinduismLocationAnnotation
+
+#Rule:V-ADV
+r46reachesVBZfinallyRB
+
+#Neti is best followed the Shavasana way.
+#(S1 (S (NP (NNP Neti)) (VP (AUX is) (ADVP (RB best)) (VP (VBN followed) (NP (DT the) (NNP Shavasana) (NN way)))) (. .)))
+#Rule:Nouns
+r1NetiLocationAnnotation
+r1ShavasanaPersonAnnotation
+r1wayNN
+
+#Rule:Verbs
+r2followedVBN
+
+#Rule:N-HeadNoun
+r8ShavasanaPersonAnnotationwayNN
+
+#Rule:V-HeadNoun
+r21followedVBNwayNN
+
+#Rule:V-HeadNoun(passive)
+r23followedVBNNetiLocationAnnotation
+
+#Rule:V-ADV
+r46isAUXbestRB
+r46followedVBNbestRB
+
+# Neti must be practiced as advocated and preached by Maharishi Ramana.
+#(S1 (S (NP (NNP Neti)) (VP (MD must) (VP (AUX be) (VP (VBN practiced) (SBAR (IN as) (S (VP (VBN advocated) (CC and) (VBN preached) (PP (IN by) (NP (NNP Maharishi) (NNP Ramana))))))))) (. .)))
+#Rule:Nouns
+r1NetiLocationAnnotation
+r1Maharishi RamanaPersonAnnotation
+
+#Rule:Verbs
+r2practicedVBN
+r2advocatedVBN
+r2preachedVBN
+
+#Rule:V-By-Agent
+r13Maharishi RamanaPersonAnnotationadvocatedVBN
+
+#Rule:V-HeadNoun(passive)
+r23practicedVBNNetiLocationAnnotation
+
+#Rule:V-IN-V
+r43practicedVBNasINadvocatedVBN
+
+# When everything else in the Cosmos gets negated.
+#(S1 (FRAG (SBAR (WHADVP (WRB When)) (S (NP (NP (NN everything) (RB else)) (PP (IN in) (NP (DT the) (NNP Cosmos)))) (VP (VBZ gets) (VP (VBN negated))))) (. .)))
+#Rule:Nouns
+r1everythingNN
+r1CosmosNNP
+
+#Rule:Verbs
+r2getsVBZ
+r2negatedVBN
+
+#Rule:HeadNoun-V
+r11everythingNNgetsVBZ
+
+#Rule:V-HeadNoun(passive)
+r24negatedVBNeverythingNN
+
+#Rule:PPinNP
+r26everythingNNinINCosmosNNP
+
+# what remains is God Almighty!
+#(S1 (S (SBAR (WHNP (WP what)) (S (VP (VBZ remains)))) (VP (AUX is) (NP (NNP God) (NNP Almighty))) (. !)))
+#Rule:Nouns
+r1God Almighty!PersonAnnotation
+
+#Rule:Verbs
+r2remainsVBZ
+
+#Rule:V-HeadNoun
+r21isAUXGod Almighty!PersonAnnotation
+
+# The moment one becomes perfect.
+#(S1 (S (NP (DT The) (NN moment) (CD one)) (VP (VBZ becomes) (ADJP (JJ perfect))) (. .)))
+#Rule:Nouns
+r1momentNN
+
+#Rule:Verbs
+r2becomesVBZ
+
+#Rule:Adjs
+r4perfectJJ
+
+#Rule:Adj-Noun
+r5oneCDmomentNN
+
+#Rule:HeadNoun-V
+r11momentNNbecomesVBZ
+
+# one can interact with God Almighty every second of life!
+#(S1 (S (NP (PRP one)) (VP (MD can) (VP (VB interact) (PP (IN with) (NP (NNP God) (NNP Almighty))) (NP (NP (DT every) (NN second)) (PP (IN of) (NP (NN life)))))) (. !)))
+#Rule:Nouns
+r1God AlmightyOrganizationAnnotation
+r1secondNN
+r1lifeNN
+
+#Rule:Verbs
+r2interactVB
+
+#Rule:HeadNoun-V
+r11onePRPinteractVB
+
+#Rule:V-HeadNoun
+r21interactVBsecondNN
+
+#Rule:PPinNP
+r26secondNNofINlifeNN
+
+#Rule:PPinVP
+r30interactVBwithINGod AlmightyOrganizationAnnotation
+
+# Having gained enlightenment one finally reaches the stage of salvation (moksha).
+#(S1 (S (S (VP (AUXG Having) (VP (VBN gained) (NP (NN enlightenment) (CD one))))) (ADVP (RB finally)) (VP (VBZ reaches) (NP (NP (DT the) (NN stage)) (PP (IN of) (NP (NP (NN salvation)) (PRN (-LRB- -LRB-) (NP (NN moksha)) (-RRB- -RRB-)))))) (. .)))
+#Rule:Nouns
+r1enlightenmentNN
+r1stageNN
+r1salvationNN
+r1mokshaLocationAnnotation
+
+#Rule:Verbs
+r2gainedVBN
+r2reachesVBZ
+
+#Rule:Adj-Noun
+r5oneCDenlightenmentNN
+
+#Rule:V-HeadNoun
+r21gainedVBNenlightenmentNN
+r21reachesVBZstageNN
+
+#Rule:PPinNP
+r26stageNNofINsalvationNN
+
+#Rule:V-ADV
+r46reachesVBZfinallyRB
+
+# More on Enlightenment - http://www.
+#(S1 (NP (NP (QP (JJR More) (IN on) (NN Enlightenment))) (: -) (NP (NP (NNS http)) (: :) (NP (CD //www))) (. .)))
+#Rule:Nouns
+r1EnlightenmentNN
+r1http://wwwLocationAnnotation
+
+#Rule:Adjs
+r4MoreJJR
+
+#Rule:Adj-Noun
+r5MoreJJRonIN
+
+#godrealized.
+#(S1 (S (VP (VBN godrealized)) (. .)))
+#Rule:Verbs
+r2godrealizedVBN
+
+#com/enlightenment.
+#(S1 (S (VP (VB com/enlightenment)) (. .)))
+#Rule:Verbs
+r2com/enlightenmentOrganizationAnnotation
+
+#html
+#(S1 (NP (NNP html)))
+#Rule:Nouns
+r1htmlNNP
+
+@lemmas-left	practiced	enlightened	purity	its	Gautama Buddha	becoming	Maharishi Ramana	practicing	Spirituality	com/enlightenment	happen	eradicating	Samsara	cell	soul	pure	system	prerequisite	Mother	advocate	senses	moksha	we	Gaining	multi-cell	god	advocated	acts	minimum	ocean	kaivalya jnana	difficult	12	absolute	life	dross	treading	man	salvation	form.	cosmic	gradually.	gain	remain	practice	original	gains	nothing	interact	happens	world	negated	basis	become	dialogue	impossible	releasing	Shavasana	Beyond	Prophet 	Jesus Christ	God on	be	follow	amoeba	control	manifestations	get	Enlightenment	period	reduce	More	aka Baikuntha	God Almighty	Prophet Mohammed	Cosmos	neti	reach	following	perfection	truthfulness	7.3	spirituality	purity.	manifestation	formation	animal	manifested	negate	Earth	five	impurities	sojourn	reaches	Neti	there	html	our	perfection.	everything	crosses	insect	beyond	enlightenment	initial	1.1	million	Hinduism	8.4	form	preach	Mahavira	establishing	goal	not	regain	start	years	cross	plant	remove	moment	gradually	samsara.	manifest	self	gods	difficult.	followed	gained	crux	removing	starting	cosmos	mind	end	heaven	establish	hell	beings	earth	within	enlighten	single	last	second	remains	being	more	pristine	http://www	enlightenment.	status	world.	sense	evolves	tread	kingdom of God	mother	one-to-one	within.	manifestations.	this	evolved	impurity	release	being.	have	millionth	one	becomes	achieve	way	stage	Nirvikalpa Samadhi	preached	manifests	celibacy	path	mean	spent	perfect	forms	evolve	is	it	atman	gets	dross.	eradicate	spend	human	God Almighty!	regains	their	godrealized	first	
+@lemmas-right	perfection.	purity	everything	crosses	Gautama Buddha	over	enlightenment	permanently	practicing	Spirituality	on	happen	alone	Hinduism	form	eradicating	Samsara	Mahavira	goal	not	further	system	prerequisite	advocate	years	senses	cross	advocated	god	remove	acts	moment	gradually	manifest	ocean	self	finally	gods	difficult.	difficult	gained	life	crux	removing	dross	cosmos	best	mind	end	lifetime.	lifetime	salvation	form.	life.	beings	gradually.	gain	practice	gains	nothing	interact	within	happens	world	second	basis	being	become	dialogue	releasing	Prophet 	Jesus Christ	God on	be	follow	amoeba	control	enlightenment.	manifestations	get	status	world.	sense	Enlightenment	period	evolves	reduce	that	kingdom of God	within.	manifestations.	impurity	this	release	being.	God Almighty	have	Prophet Mohammed	one	becomes	way	achieve	Cosmos	stage	Nirvikalpa Samadhi	reach	manifests	following	perfection	celibacy	path	truthfulness	spirituality	too	evolve	forms	purity.	manifestation	formation	is	atman	impurities	gets	dross.	eradicate	reaches	Neti	God Almighty!	
+@lemmas-center	of	with	over	for	into	as	by	from	within	like	in	God on	

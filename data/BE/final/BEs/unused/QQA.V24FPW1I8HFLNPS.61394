@@ -1,0 +1,34 @@
+#They were kicked out of Judea (Israel) by the Romans after the war around 70 to 73 CE.
+#(S1 (S (NP (PRP They)) (VP (AUX were) (VP (VBN kicked) (PP (IN out) (PP (IN of) (NP (NP (NNP Judea)) (PRN (-LRB- -LRB-) (NP (NNP Israel)) (-RRB- -RRB-))))) (PP (IN by) (NP (DT the) (NNPS Romans))) (PP (IN after) (NP (NP (DT the) (NN war)) (PP (IN around) (NP (QP (CD 70) (TO to) (CD 73)) (NNS CE))))))) (. .)))
+#Rule:Nouns
+r1JudeaOrganizationAnnotation
+r1IsraelLocationAnnotation
+r1RomansNNPS
+r1warNN
+r1CENNS
+
+#Rule:Verbs
+r2kickedVBN
+
+#Rule:Adj-Noun
+r570CDCENNS
+r573CDCENNS
+
+#Rule:V-By-Agent
+r13RomansNNPSkickedVBN
+
+#Rule:V-HeadNoun(passive)
+r23kickedVBNtheyPRP
+
+#Rule:PPinNP
+r26warNNaroundINCENNS
+
+#Rule:PPinVP
+r32kickedVBNafterINwarNN
+
+#Rule:PPComboInVP
+r34kickedVBNoutINJudeaOrganizationAnnotation
+
+@lemmas-left	Romans	romans	kick	CE	Judea	70	kicked	Israel	73	ce	war	
+@lemmas-right	they	kick	Judea	CE	kicked	ce	war	
+@lemmas-center	after	out	around	

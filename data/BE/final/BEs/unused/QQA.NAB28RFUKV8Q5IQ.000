@@ -1,0 +1,39 @@
+#why are pyramids built triangle in shape?
+#(S1 (SBARQ (WHADVP (WRB why)) (SQ (VP (AUX are) (NP (NP (NNS pyramids)) (VP (VBN built) (NP (NNP triangle)) (PP (IN in) (NP (NN shape))))))) (. ?)))
+#Rule:Nouns
+r1pyramidsNNS
+r1triangleNNP
+r1shapeNN
+
+#Rule:Verbs
+r2builtVBN
+
+#Rule:V-HeadNoun
+r21areAUXpyramidsNNS
+r21builtVBNtriangleNNP
+
+#Rule:V-HeadNoun(passive)
+r24builtVBNpyramidsNNS
+
+#Rule:PPinVP
+r32builtVBNinINshapeNN
+
+#why not square?
+#(S1 (FRAG (WHADVP (WRB why)) (RB not) (VP (VB square)) (. ?)))
+#Rule:Verbs
+r2squareVB
+
+#or any other shapes?
+#(S1 (FRAG (CC or) (NP (DT any) (JJ other) (NNS shapes)) (. ?)))
+#Rule:Nouns
+r1shapesNNS
+
+#Rule:Adjs
+r4otherJJ
+
+#Rule:Adj-Noun
+r5otherJJshapesNNS
+
+@lemmas-left	other	are	triangle	pyramids	pyramid	square	shape	build	built	shapes	be	
+@lemmas-right	triangle	pyramids	pyramid	shape	shapes	
+@lemmas-center	in	

@@ -1,0 +1,20 @@
+#how do you calulate excess burden?
+#(S1 (SBARQ (WHADVP (WRB how)) (SQ (AUX do) (NP (PRP you)) (VP (VB calulate) (NP (JJ excess) (NN burden)))) (. ?)))
+#Rule:Nouns
+r1burdenNN
+
+#Rule:Verbs
+r2calulateVB
+
+#Rule:Adjs
+r4excessJJ
+
+#Rule:Adj-Noun
+r5excessJJburdenNN
+
+#Rule:V-HeadNoun
+r21calulateVBburdenNN
+
+@lemmas-left	burden	excess	calulate	
+@lemmas-right	burden	
+@lemmas-center	

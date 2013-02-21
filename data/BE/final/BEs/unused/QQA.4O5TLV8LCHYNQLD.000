@@ -1,0 +1,74 @@
+#Why does God..?
+#(S1 (SBARQ (WHADVP (WRB Why)) (SQ (AUX does) (NP (NNP God)) (VP (VB ..))) (. ?)))
+#Rule:Nouns
+r1God..LocationAnnotation
+
+#Why does God give people who dont deserve it a break and leave the rest of us to suffer and hurt to the point where we feel alone and we feel like no one cares about what happens to us anymore? 
+#(S1 (SBARQ (WHADVP (WRB Why)) (SQ (AUX does) (NP (NNP God)) (VP (VP (VB give) (NP (NP (NNS people)) (SBAR (WHNP (WP who)) (S (NP (JJ dont)) (VP (VBP deserve) (NP (PRP it)))))) (NP (DT a) (NN break))) (CC and) (VP (VB leave) (NP (NP (DT the) (NN rest)) (PP (IN of) (NP (PRP us)))) (S (VP (TO to) (VP (VP (VB suffer)) (CC and) (VP (VB hurt) (PP (TO to) (NP (NP (DT the) (NN point)) (SBAR (WHADVP (WRB where)) (S (S (NP (PRP we)) (VP (VBP feel) (ADJP (RB alone)))) (CC and) (S (NP (PRP we)) (VP (VBP feel) (SBAR (IN like) (S (NP (DT no) (NN one)) (VP (VBZ cares) (PP (IN about) (SBAR (WHNP (WP what)) (S (VP (VBZ happens) (PP (TO to) (NP (PRP us))))))) (ADVP (RB anymore)))))))))))))))))) (. ?)))
+#Rule:Nouns
+r1GodNNP
+r1peopleNNS
+r1breakNN
+r1restNN
+r1pointNN
+r1oneNN
+
+#Rule:Verbs
+r2giveVB
+r2deserveVBP
+r2leaveVB
+r2sufferVB
+r2hurtVB
+r2feelVBP
+r2feelVBP
+r2caresVBZ
+r2happensVBZ
+
+#Rule:Adjs
+r4dontJJ
+
+#Rule:HeadNoun-V
+r11dontJJdeserveVBP
+r11wePRPfeelVBP
+r11wePRPfeelVBP
+r11oneNNcaresVBZ
+
+#Rule:V-HeadNoun
+r21giveVBpeopleNNS
+r21giveVBbreakNN
+r21deserveVBPitPRP
+r21leaveVBrestNN
+
+#Rule:PPinNP
+r26restNNofINusPRP
+
+#Rule:PPinVP
+r30hurtVBtoTOpointNN
+r30happensVBZtoTOusPRP
+
+#Rule:V-IN-V
+r43feelVBPlikeINcaresVBZ
+
+#Rule:V-ADV
+r46caresVBZanymoreRB
+
+#Why does it feel like he wants me to die?
+#(S1 (SBARQ (WHADVP (WRB Why)) (SQ (AUX does) (NP (PRP it)) (VP (VB feel) (SBAR (IN like) (S (NP (PRP he)) (VP (VBZ wants) (S (NP (PRP me)) (VP (TO to) (VP (VB die))))))))) (. ?)))
+#Rule:Verbs
+r2feelVB
+r2wantsVBZ
+r2dieVB
+
+#Rule:HeadNoun-V
+r11hePRPwantsVBZ
+r11mePRPdieVB
+
+#Rule:V-HeadNoun
+r22wantsVBZmePRP
+
+#Rule:V-IN-V
+r43feelVBlikeINwantsVBZ
+
+@lemmas-left	deserve	god	give	one	people	break	leave	care	die	me	happen	God..	want	feel	suffer	he	wants	cares	point	hurt	dont	God	rest	happens	we	
+@lemmas-right	deserve	feel	it	us	anymore	people	wants	cares	break	point	die	care	me	rest	want	
+@lemmas-center	to	of	like	

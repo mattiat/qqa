@@ -1,0 +1,37 @@
+#A lot of people I know use crackers. 
+#(S1 (S (NP (NP (DT A) (NN lot)) (PP (IN of) (NP (NP (NNS people)) (SBAR (S (NP (PRP I)) (VP (VBP know))))))) (VP (VBP use) (NP (NNS crackers))) (. .)))
+#Rule:Nouns
+r1lotNN
+r1peopleNNS
+r1crackersNNS
+
+#Rule:Verbs
+r2knowVBP
+r2useVBP
+
+#Rule:HeadNoun-V
+r11lotNNuseVBP
+r11iPRPknowVBP
+
+#Rule:NP(NP(z) SBAR(S(NP(x)VP(y))))
+r19knowVBPpeopleNNS
+
+#Rule:V-HeadNoun
+r21useVBPcrackersNNS
+
+#Rule:PPinNP
+r26lotNNofINpeopleNNS
+
+#They say it helps.
+#(S1 (S (NP (PRP They)) (VP (VBP say) (SBAR (S (NP (PRP it)) (VP (VBZ helps))))) (. .)))
+#Rule:Verbs
+r2sayVBP
+r2helpsVBZ
+
+#Rule:HeadNoun-V
+r11theyPRPsayVBP
+r11itPRPhelpsVBZ
+
+@lemmas-left	they	help	it	cracker	say	use	lot	crackers	helps	know	people	i	
+@lemmas-right	help	cracker	say	use	crackers	helps	people	know	
+@lemmas-center	of	

@@ -1,0 +1,54 @@
+#Because the U.S. won t get on board with everyone else. 
+#(S1 (S (SBAR (IN Because) (S (NP (DT the) (NNP U.S.)) (VP (VBD won) (NP (CD t))))) (VP (VB get) (PP (IN on) (NP (NN board))) (PP (IN with) (NP (NP (NN everyone)) (ADJP (RB else))))) (. .)))
+#Rule:Nouns
+r1U.S.LocationAnnotation
+r1boardNN
+r1everyoneNN
+
+#Rule:Verbs
+r2wonVBD
+r2getVB
+
+#Rule:HeadNoun-V
+r11U.S.LocationAnnotationwonVBD
+
+#Rule:V-HeadNoun
+r21wonVBDtLocationAnnotation
+
+#Rule:PPinVP
+r30getVBonINboardNN
+r30getVBwithINeveryoneNN
+
+#I m not complaining, I don t want to use a whole newsystem.
+#(S1 (S (S (NP (PRP I)) (VP (NNP m) (RB not) (VP (VBG complaining)))) (, ,) (NP (PRP I)) (VP (VB don) (SBAR (S (NP (NNS t)) (VP (VBP want) (S (VP (TO to) (VP (VB use) (NP (DT a) (JJ whole) (NN newsystem))))))))) (. .)))
+#Rule:Nouns
+r1mNNP
+r1tLocationAnnotation
+r1newsystemNN
+
+#Rule:Verbs
+r2complainingVBG
+r2donVB
+r2wantVBP
+r2useVB
+
+#Rule:Adjs
+r4wholeJJ
+
+#Rule:Adj-Noun
+r5wholeJJnewsystemNN
+
+#Rule:HeadNoun-V
+r11iPRPdonVB
+r11iPRPcomplainingVBG
+r11tLocationAnnotationwantVBP
+
+#Rule:V-HeadNoun
+r21useVBnewsystemNN
+
+#Rule:V-V
+r44wantVBPuseVB
+
+@lemmas-left	get	don	complaining	use	win	m	board	i	U.S.	t	whole	newsystem	complain	won	everyone	want	
+@lemmas-right	t	don	complaining	use	newsystem	complain	won	win	everyone	board	want	
+@lemmas-center	with	on	

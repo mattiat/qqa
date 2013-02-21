@@ -1,0 +1,35 @@
+#tHEY JUST HATE THE STUDENTS. 
+#(S1 (S (NP (PRP tHEY)) (ADVP (RB JUST)) (VP (VBP HATE) (NP (DT THE) (NNS STUDENTS))) (. .)))
+#Rule:Nouns
+r1STUDENTSOrganizationAnnotation
+
+#Rule:Verbs
+r2hateVBP
+
+#Rule:HeadNoun-V
+r11theyPRPhateVBP
+
+#Rule:V-HeadNoun
+r21hateVBPSTUDENTSOrganizationAnnotation
+
+#Rule:V-ADV
+r46hateVBPJUSTRB
+
+#LEARNING, NOT IMPORTANT!!!!
+#(S1 (S (S (VP (VBG LEARNING))) (, ,) (NP (RB NOT) (JJ IMPORTANT)) (VP (VBN !!!)) (. !)))
+#Rule:Verbs
+r2learningVBG
+r2!!!VBN
+
+#Rule:Adjs
+r4IMPORTANTJJ
+
+#Rule:V-HeadNoun(passive)
+r24!!!VBNIMPORTANTJJ
+
+#Rule:SubVerbClause
+r50IMPORTANTJJlearningVBG
+
+@lemmas-left	they	STUDENTS	hate	important	!!!	learn	learning	IMPORTANT	
+@lemmas-right	just	JUST	STUDENTS	hate	important	learn	learning	IMPORTANT	
+@lemmas-center	

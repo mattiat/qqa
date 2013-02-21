@@ -1,0 +1,16 @@
+#why was the titanic such a disaster?
+#(S1 (SBARQ (WHADVP (WRB why)) (SQ (AUX was) (NP (DT the) (JJ titanic) (JJ such) (DT a) (NN disaster))) (. ?)))
+#Rule:Nouns
+r1disasterNN
+
+#Rule:Adjs
+r4titanicJJ
+r4suchJJ
+
+#Rule:Adj-Noun
+r5titanicJJdisasterNN
+r5suchJJdisasterNN
+
+@lemmas-left	disaster	such	titanic	
+@lemmas-right	disaster	
+@lemmas-center	

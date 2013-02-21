@@ -1,0 +1,35 @@
+#well if the sides were all squares, the pyramids would be cubes, much less interesting to look at.
+#(S1 (S (SBAR (RB well) (IN if) (S (NP (DT the) (NNS sides)) (VP (AUX were) (NP (DT all) (NNS squares))))) (, ,) (NP (DT the) (NNS pyramids)) (VP (MD would) (VP (AUX be) (NP (NP (NNS cubes)) (, ,) (ADJP (ADVP (RB much) (RBR less)) (JJ interesting)) (S (VP (TO to) (VP (VB look) (PP (IN at)))))))) (. .)))
+#Rule:Nouns
+r1sidesNNS
+r1squaresNNS
+r1pyramidsNNS
+r1cubesNNS
+
+#Rule:Verbs
+r2lookVB
+
+#Rule:Adjs
+r4interestingJJ
+
+#Rule:Adj-Noun
+r5interestingJJcubesNNS
+
+#Rule:HeadNoun-V
+r11pyramidsNNSbeAUX
+r11sidesNNSwereAUX
+
+#Rule:V-HeadNoun
+r21wereAUXsquaresNNS
+r21beAUXcubesNNS
+
+#Rule:IS-RULE
+r47cubesNNSpyramidsNNS
+r47squaresNNSsidesNNS
+
+#Rule:SubVerbClause
+r50cubesNNSlookVB
+
+@lemmas-left	look	were	squares	side	pyramids	pyramid	cubes	interesting	cube	square	be	sides	
+@lemmas-right	look	were	squares	side	pyramids	pyramid	cubes	square	cube	sides	be	
+@lemmas-center	

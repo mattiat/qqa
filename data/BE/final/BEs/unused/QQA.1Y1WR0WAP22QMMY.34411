@@ -1,0 +1,69 @@
+#I remember that this is one of Ainistin theories, if you travel by the speed of light, you will arrive to the destination before you the time you traveled from the source . beside I don t think that the human cells will stay intact with such speed
+#(S1 (S (NP (PRP I)) (VP (VBP remember) (SBAR (IN that) (S (NP (DT this)) (VP (AUX is) (NP (NP (CD one)) (PP (IN of) (NP (NNP Ainistin) (NNS theories))))))) (, ,) (SBAR (S (S (SBAR (IN if) (S (NP (PRP you)) (VP (VBP travel) (PP (IN by) (NP (NP (DT the) (NN speed)) (PP (IN of) (NP (NN light)))))))) (, ,) (NP (PRP you)) (VP (MD will) (VP (VB arrive) (PP (TO to) (NP (DT the) (NN destination))) (PP (IN before) (NP (PRP you))) (NP (NP (DT the) (NN time)) (SBAR (S (NP (PRP you)) (VP (VBD traveled) (PP (IN from) (NP (DT the) (NN source))))))))) (. .)) (IN beside) (S (NP (PRP I)) (VP (VB don) (S (NP (NNS t)) (VP (VB think) (SBAR (IN that) (S (NP (DT the) (JJ human) (NNS cells)) (VP (MD will) (VP (VB stay) (ADJP (JJ intact)) (PP (IN with) (NP (JJ such) (NN speed))))))))))))))))
+#Rule:Nouns
+r1AinistinLocationAnnotation
+r1theoriesNNS
+r1speedNN
+r1lightNN
+r1destinationNN
+r1timeNN
+r1sourceNN
+r1tNNS
+r1cellsNNS
+r1speedNN
+
+#Rule:Verbs
+r2rememberVBP
+r2travelVBP
+r2arriveVB
+r2traveledVBD
+r2I donLocationAnnotation
+r2thinkVB
+r2stayVB
+
+#Rule:Adjs
+r4humanJJ
+r4intactJJ
+r4suchJJ
+
+#Rule:Adj-Noun
+r5humanJJcellsNNS
+r5suchJJspeedNN
+
+#Rule:N-HeadNoun
+r8AinistinLocationAnnotationtheoriesNNS
+
+#Rule:HeadNoun-V
+r11iPRPrememberVBP
+r11thisDTisAUX
+r11youPRParriveVB
+r11youPRPtravelVBP
+r11youPRPtraveledVBD
+r11tNNSthinkVB
+r11cellsNNSstayVB
+
+#Rule:V-HeadNoun
+r21isAUXoneCD
+r21arriveVBtimeNN
+
+#Rule:V-HeadNoun
+r22I donLocationAnnotationtNNS
+
+#Rule:PPinNP
+r26oneCDofINtheoriesNNS
+r26speedNNofINlightNN
+
+#Rule:PPinVP
+r30travelVBPbyINspeedNN
+r30arriveVBtoTOdestinationNN
+r30arriveVBbeforeINyouPRP
+r30traveledVBDfromINsourceNN
+r30stayVBwithINspeedNN
+
+#Rule:V-IN-V
+r43rememberVBPthatINisAUX
+r43thinkVBthatINstayVB
+
+@lemmas-left	remember	cells	one	theory	travel	traveled	time	theories	light	intact	be	is	think	stay	such	speed	cell	you	destination	Ainistin	human	i	arrive	t	source	I don	this	
+@lemmas-right	cells	remember	is	think	stay	speed	one	cell	theory	you	travel	destination	arrive	traveled	time	t	source	theories	light	be	
+@lemmas-center	to	that	of	with	before	by	from	

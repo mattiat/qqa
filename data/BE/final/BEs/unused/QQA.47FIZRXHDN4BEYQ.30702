@@ -1,0 +1,255 @@
+#Depends on the type, and amount.  
+#(S1 (S (VP (VBZ Depends) (PP (IN on) (NP (NP (DT the) (NN type)) (, ,) (CC and) (NP (NN amount))))) (. .)))
+#Rule:Nouns
+r1typeNN
+r1amountNN
+
+#Rule:Verbs
+r2dependsVBZ
+
+#Rule:PPinVP
+r30dependsVBZonINtypeNN
+r30dependsVBZonINamountNN
+
+#I had I-131 radiation pill.  
+#(S1 (S (NP (PRP I)) (VP (AUX had) (NP (JJ I-131) (NN radiation) (NN pill))) (. .)))
+#Rule:Nouns
+r1radiationNN
+r1pillNN
+
+#Rule:Adjs
+r4I-131JJ
+
+#Rule:Adj-Noun
+r5I-131JJpillNN
+
+#Rule:N-HeadNoun
+r8radiationNNpillNN
+
+#Rule:HeadNoun-V
+r11iPRPhadAUX
+
+#Rule:V-HeadNoun
+r21hadAUXpillNN
+
+#Not external beam.  
+#(S1 (FRAG (RB Not) (NP (JJ external) (NN beam)) (. .)))
+#Rule:Nouns
+r1beamNN
+
+#Rule:Adjs
+r4externalJJ
+
+#Rule:Adj-Noun
+r5externalJJbeamNN
+
+#I felt drained, but in no pain, just a tiny soreness in throat.  
+#(S1 (S (S (NP (PRP I)) (VP (VBD felt) (ADJP (VBN drained)))) (, ,) (CC but) (S (PP (IN in) (NP (DT no) (NN pain))) (, ,) (NP (NP (RB just) (DT a) (JJ tiny) (NN soreness)) (PP (IN in) (NP (NN throat))))) (. .)))
+#Rule:Nouns
+r1painNN
+r1sorenessNN
+r1throatNN
+
+#Rule:Verbs
+r2feltVBD
+r2drainedVBN
+
+#Rule:Adjs
+r4tinyJJ
+
+#Rule:Adj-Noun
+r5tinyJJsorenessNN
+
+#Rule:HeadNoun-V
+r11iPRPfeltVBD
+
+#Rule:PPinNP
+r26sorenessNNinINthroatNN
+
+#Rule:PPinS
+r36sorenessNNinINpainNN
+
+#Some of my face felt numb, cheeks, ears, and jaw.  
+#(S1 (S (NP (NP (DT Some)) (PP (IN of) (NP (PRP$ my) (NN face)))) (VP (VBD felt) (ADJP (JJ numb)) (, ,) (INTJ (UH cheeks)) (, ,) (NP (NP (NNS ears)) (, ,) (CC and) (NP (NN jaw)))) (. .)))
+#Rule:Nouns
+r1faceNN
+r1earsNNS
+r1jawNN
+
+#Rule:Verbs
+r2feltVBD
+
+#Rule:Adjs
+r4numbJJ
+
+#Rule:PRP-Noun
+r6myPRP$faceNN
+
+#Rule:HeadNoun-V
+r11someDTfeltVBD
+
+#Rule:V-HeadNoun
+r21feltVBDearsNNS
+
+#Rule:PPinNP
+r26someDTofINfaceNN
+
+#I had a bad taste in my mouth.  
+#(S1 (S (NP (PRP I)) (VP (AUX had) (NP (DT a) (JJ bad) (NN taste)) (PP (IN in) (NP (PRP$ my) (NN mouth)))) (. .)))
+#Rule:Nouns
+r1tasteNN
+r1mouthNN
+
+#Rule:Adjs
+r4badJJ
+
+#Rule:Adj-Noun
+r5badJJtasteNN
+
+#Rule:PRP-Noun
+r6myPRP$mouthNN
+
+#Rule:HeadNoun-V
+r11iPRPhadAUX
+
+#Rule:V-HeadNoun
+r21hadAUXtasteNN
+
+#Rule:PPinVP
+r30hadAUXinINmouthNN
+
+#It was days after that I felt pain like an arthritis. 
+#(S1 (S (NP (PRP It)) (VP (AUX was) (NP (NP (NNS days)) (SBAR (WHPP (IN after) (WHNP (WDT that))) (S (NP (PRP I)) (VP (VBD felt) (NP (NN pain)) (PP (IN like) (NP (DT an) (NN arthritis)))))))) (. .)))
+#Rule:Nouns
+r1daysNNS
+r1painNN
+r1arthritisNN
+
+#Rule:Verbs
+r2feltVBD
+
+#Rule:HeadNoun-V
+r11itPRPwasAUX
+r11iPRPfeltVBD
+
+#Rule:V-HeadNoun
+r21wasAUXdaysNNS
+r21feltVBDpainNN
+
+#Rule:PPinVP
+r30feltVBDlikeINarthritisNN
+
+#Rule:PPinVP4Which
+r35feltVBDafterINdaysNNS
+
+#As far as scary level..  
+#(S1 (FRAG (CONJP (RB As) (RB far) (IN as)) (NP (JJ scary) (NN level) (. .)) (. .)))
+#Rule:Nouns
+r1levelNN
+
+#Rule:Adjs
+r4scaryJJ
+
+#Rule:Adj-Noun
+r5scaryJJlevelNN
+
+#I worked myself up before hand and should not have.  
+#(S1 (S (NP (PRP I)) (VP (VP (VBD worked) (NP (PRP myself)) (PRT (RP up)) (PP (IN before) (NP (NN hand)))) (CC and) (VP (MD should) (RB not) (VP (AUX have)))) (. .)))
+#Rule:Nouns
+r1handNN
+
+#Rule:Verbs
+r2workedVBD
+
+#Rule:V-PRT
+r3workedVBDupRP
+
+#Rule:HeadNoun-V
+r11iPRPworkedVBD
+r11iPRPhaveAUX
+
+#Rule:V-HeadNoun
+r21workedVBDmyselfPRP
+
+#Rule:PPinVP
+r30workedVBDbeforeINhandNN
+
+#My experience was tolerable, but depressing.  
+#(S1 (S (NP (PRP$ My) (NN experience)) (VP (AUX was) (ADJP (ADJP (JJ tolerable)) (, ,) (CC but) (ADJP (JJ depressing)))) (. .)))
+#Rule:Nouns
+r1experienceNN
+
+#Rule:Adjs
+r4tolerableJJ
+r4depressingJJ
+
+#Rule:PRP-Noun
+r6myPRP$experienceNN
+
+#Rule:HeadNoun-V
+r11experienceNNwasAUX
+
+#Rule:V-ADJ
+r25wasAUXtolerableJJ
+
+#I had three weeks I had to stay in my bedroom, so that I did not expose others to the radiation.  
+#(S1 (S (NP (PRP I)) (VP (AUX had) (NP (NP (CD three) (NNS weeks)) (SBAR (S (NP (PRP I)) (VP (AUX had) (S (VP (TO to) (VP (VB stay) (PP (IN in) (NP (PRP$ my) (NN bedroom))) (, ,) (SBAR (RB so) (IN that) (S (NP (PRP I)) (VP (AUX did) (RB not) (VP (VB expose) (NP (NNS others)) (PP (TO to) (NP (DT the) (NN radiation))))))))))))))) (. .)))
+#Rule:Nouns
+r1weeksNNS
+r1bedroomNN
+r1othersNNS
+r1radiationOrganizationAnnotation
+
+#Rule:Verbs
+r2stayVB
+r2exposeVB
+
+#Rule:Adj-Noun
+r5threeCDweeksNNS
+
+#Rule:PRP-Noun
+r6myPRP$bedroomNN
+
+#Rule:HeadNoun-V
+r11iPRPhadAUX
+r11iPRPhadAUX
+r11iPRPexposeVB
+
+#Rule:V-HeadNoun
+r21hadAUXweeksNNS
+r21exposeVBothersNNS
+
+#Rule:PPinVP
+r30stayVBinINbedroomNN
+r30exposeVBtoTOradiationOrganizationAnnotation
+
+#Rule:V-IN-V
+r43stayVBthatINexposeVB
+
+#Rule:V-ADV
+r46didAUXnotRB
+
+#That was the pits, but I made through it alright.
+#(S1 (S (S (NP (DT That)) (VP (AUX was) (NP (DT the) (NNS pits)))) (, ,) (CC but) (S (NP (PRP I)) (VP (VBD made) (PRT (RP through)) (S (NP (PRP it)) (ADJP (JJ alright))))) (. .)))
+#Rule:Nouns
+r1pitsNNS
+
+#Rule:V-PRT
+r3madeVBDthroughRP
+
+#Rule:Adjs
+r4alrightJJ
+
+#Rule:HeadNoun-V
+r11thatDTwasAUX
+r11iPRPmadeVBD
+
+#Rule:V-HeadNoun
+r21wasAUXpitsNNS
+
+#Rule:V-HeadNoun
+r22madeVBDitPRP
+
+@lemmas-left	soreness	external	depressing	type	taste	amount	drained	level	expose	three	alright	throat	depends	had	be	scary	work	others	mouth	arthritis	tolerable	did	I-131	bad	drain	jaw	bedroom	that	ear	make	some	tiny	face	radiation	numb	have	made	pain	was	hand	pill	worked	do	i-131	experience	it	stay	pits	depend	my	weeks	i	felt	days	ears	beam	pit	week	
+@lemmas-right	face	radiation	have	soreness	made	pain	through	type	taste	was	amount	hand	pill	level	expose	worked	experience	throat	had	be	work	it	others	pits	mouth	tolerable	arthritis	bedroom	weeks	up	not	ear	felt	days	ears	myself	beam	pit	make	week	
+@lemmas-center	to	after	that	of	before	on	like	in	

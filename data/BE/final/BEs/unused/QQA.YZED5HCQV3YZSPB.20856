@@ -1,0 +1,20 @@
+#I believe that it has to do with how hot or cold you are.
+#(S1 (S (NP (PRP I)) (VP (VBP believe) (SBAR (IN that) (S (NP (PRP it)) (VP (AUX has) (S (VP (TO to) (VP (AUX do) (PP (IN with) (SBAR (WHADJP (WRB how) (JJ hot) (CC or) (JJ cold)) (S (NP (PRP you)) (VP (AUX are)))))))))))) (. .)))
+#Rule:Verbs
+r2believeVBP
+
+#Rule:Adjs
+r4hotJJ
+r4coldJJ
+
+#Rule:HeadNoun-V
+r11iPRPbelieveVBP
+r11itPRPhasAUX
+r11youPRPareAUX
+
+#Rule:V-IN-V
+r43believeVBPthatINhasAUX
+
+@lemmas-left	it	cold	hot	you	believe	i	
+@lemmas-right	are	have	believe	has	be	
+@lemmas-center	that	

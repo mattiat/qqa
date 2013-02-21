@@ -1,0 +1,84 @@
+BE: stateNN
+EQ class: provincenn	
+
+BE: changeNN
+EQ class: modificationnn	alterationnn	
+
+BE: observationNN
+EQ class: 
+
+BE: sVBZ
+EQ class: 
+
+BE: ourPRP$observationNN
+EQ class: ourprp$observevb	discovervbourprp$	findvbourprp$	noticevbourprp$	ourprp$findvb	observevbourprp$	ourprp$discovervb	observationnnofinourprp$	ourprp$noticevb	ourprp$detectvb	detectvbourprp$	
+
+BE: stateNNchangeNN
+EQ class: statennmodificationnn	modifyvbprovincenn	changennofinprovincenn	provincennaltervb	provincennchangenn	changevbstatenn	provincennchangevb	changennofinstatenn	alterationnnofinstatenn	alterationnnofinprovincenn	provincennmodifyvb	altervbprovincenn	statennalterationnn	modificationnnofinstatenn	statennmodifyvb	changevbprovincenn	provincennmodificationnn	provincennalterationnn	statennchangevb	modifyvbstatenn	modificationnnofinprovincenn	statennaltervb	altervbstatenn	
+
+BE: sVBZchangeNN
+EQ class: svbzalterationnn	svbzmodificationnn	
+
+BE: sVBZobservationNN
+EQ class: 
+
+BE: Don tPersonAnnotation
+EQ class: 
+
+BE: dismissVB
+EQ class: discountvb	brush_offvb	brush_asidevb	push_asidevb	disregardvb	ignorevb	
+
+BE: Don tPersonAnnotationdismissVB
+EQ class: don tpersonannotationdiscountvb	don tpersonannotationpush_asidevb	don tpersonannotationignorevb	dismissivennofindon tpersonannotation	don tpersonannotationbrush_offvb	don tpersonannotationbrush_asidevb	don tpersonannotationdisregardvb	
+
+BE: dismissVBthisLocationAnnotation
+EQ class: push_asidevbthislocationannotation	discountvbthislocationannotation	disregardvbthislocationannotation	dismissivennofinthislocationannotation	brush_asidevbthislocationannotation	ignorevbthislocationannotation	brush_offvbthislocationannotation	
+
+BE: dismissVBreadilyRB
+EQ class: disregardvbreadilyrb	brush_asidevbreadilyrb	ignorevbreadilyrb	discountvbreadilyrb	dismissivennofinreadilyrb	push_asidevbreadilyrb	brush_offvbreadilyrb	
+
+BE: stateLocationAnnotation
+EQ class: 
+
+BE: observingVBG
+EQ class: discovervbg	noticevbg	observevbg	findvbg	detectvbg	
+
+BE: trueJJ
+EQ class: truenessnn	
+
+BE: trueJJstateLocationAnnotation
+EQ class: truenessnnstatelocationannotation	
+
+BE: itsPRP$stateLocationAnnotation
+EQ class: statelocationannotationofinitsprp$	
+
+BE: observingVBGstateLocationAnnotation
+EQ class: observationnnofinstatelocationannotation	detectvbgstatelocationannotation	noticevbgstatelocationannotation	watchingnnofinstatelocationannotation	findvbgstatelocationannotation	discovervbgstatelocationannotation	perceivernnofinstatelocationannotation	observancennofinstatelocationannotation	observantnnofinstatelocationannotation	beholdernnofinstatelocationannotation	observevbgstatelocationannotation	percipientnnofinstatelocationannotation	observablennofinstatelocationannotation	observernnofinstatelocationannotation	
+
+BE: someoneNN
+EQ class: personnn	soulnn	individualnn	somebodynn	mortalnn	
+
+BE: thingsNNS
+EQ class: theynns	themnns	
+
+BE: saidVBD
+EQ class: statevbd	tellvbd	sayvbd	
+
+BE: seeVBP
+EQ class: 
+
+BE: wePRPseeVBP
+EQ class: visionarynnofinweprp	beholdingnnofinweprp	seernnweprp	beholdingnnweprp	visionarynnweprp	visual_perceptionnnweprp	illusionistnnofinweprp	seeingnnofinweprp	seernnofinweprp	seeingnnweprp	visual_perceptionnnofinweprp	illusionistnnweprp	
+
+BE: someoneNNsaidVBD
+EQ class: soulnnsaidvbd	saynnofinsomeonenn	mortalnnsayvbd	personnnsaidvbd	saynnofinsomebodynn	somebodynnsaidvbd	soulnnstatevbd	personnnsayvbd	personnnstatevbd	somebodynnsayvbd	individualnnstatevbd	mortalnnstatevbd	saynnofinmortalnn	individualnnsayvbd	someonennstatevbd	soulnntellvbd	somebodynntellvbd	mortalnntellvbd	individualnntellvbd	someonenntellvbd	saynnofinsoulnn	soulnnsayvbd	individualnnsaidvbd	mortalnnsaidvbd	someonennsayvbd	personnntellvbd	saynnofinpersonnn	saynnofinindividualnn	somebodynnstatevbd	
+
+BE: theyPRPareAUX
+EQ class: theyprpbeaux	thingsprpareaux	thingsprpbeaux	
+
+BE: wePRPareAUX
+EQ class: weprpbeaux	
+
+BE: seeVBPthingsNNS
+EQ class: seevbpthemnns	illusionistnnofinthingsnns	visual_perceptionnnofintheynns	beholdingnnofinthingsnns	visionarynnofintheynns	beholdingnnofinthemnns	seernnofinthingsnns	illusionistnnofintheynns	illusionistnnofinthemnns	seernnofintheynns	visual_perceptionnnofinthingsnns	visionarynnofinthemnns	seeingnnofintheynns	seeingnnofinthemnns	visionarynnofinthingsnns	seeingnnofinthingsnns	seernnofinthemnns	beholdingnnofintheynns	visual_perceptionnnofinthemnns	seevbptheynns	
+

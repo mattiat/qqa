@@ -1,0 +1,60 @@
+#it is said that god gives pain to the people he loves the most :)because he spends the maximum time thinking about you and thus putting you to different tests. :)
+#(S1 (S (S (NP (PRP it)) (VP (AUX is) (VP (VBN said) (SBAR (IN that) (S (NP (NNP god)) (VP (VBZ gives) (NP (NN pain)) (PP (TO to) (NP (NP (DT the) (NNS people)) (SBAR (S (NP (PRP he)) (VP (VBZ loves) (NP (DT the) (JJS most))))))) (: :) (-RRB- -RRB-) (SBAR (IN because) (S (NP (PRP he)) (VP (VBZ spends) (NP (DT the) (JJ maximum) (NN time)) (S (VP (VP (VBG thinking) (PP (IN about) (NP (PRP you)))) (CC and) (ADVP (RB thus)) (VP (VBG putting) (NP (PRP you)) (PP (TO to) (NP (JJ different) (NN tests.))))))))))))))) (: :) (-RRB- -RRB-)))
+#Rule:Nouns
+r1godNNP
+r1painNN
+r1peopleNNS
+r1timeNN
+r1testsNN
+
+#Rule:Verbs
+r2saidVBN
+r2givesVBZ
+r2lovesVBZ
+r2spendsVBZ
+r2thinkingVBG
+r2puttingVBG
+
+#Rule:Adjs
+r4mostJJS
+r4maximumJJ
+r4differentJJ
+
+#Rule:Adj-Noun
+r5maximumJJtimeNN
+r5differentJJtestsNN
+
+#Rule:HeadNoun-V
+r11godNNPgivesVBZ
+r11hePRPlovesVBZ
+r11hePRPspendsVBZ
+
+#Rule:V-HeadNoun
+r21givesVBZpainNN
+r21lovesVBZmostJJS
+r21spendsVBZtimeNN
+r21puttingVBGyouPRP
+
+#Rule:V-HeadNoun(passive)
+r23saidVBNitPRP
+
+#Rule:PPinVP
+r30givesVBZtoTOpeopleNNS
+r30thinkingVBGaboutINyouPRP
+r30puttingVBGtoTOtestsNN
+
+#Rule:V-IN-V
+r43saidVBNthatINgivesVBZ
+r43givesVBZbecauseINspendsVBZ
+
+#Rule:V-V
+r44spendsVBZthinkingVBG
+r44spendsVBZputtingVBG
+
+#Rule:V-ADV
+r46thinkingVBGthusRB
+r46puttingVBGthusRB
+
+@lemmas-left	different	spends	think	put	god	said	give	gives	most	pain	he	putting	people	spend	love	time	tests	thinking	maximum	say	tests.	loves	
+@lemmas-right	spends	think	put	it	thus	give	gives	pain	most	you	putting	people	spend	love	time	tests	thinking	tests.	loves	
+@lemmas-center	because	to	that	about	

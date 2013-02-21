@@ -1,0 +1,34 @@
+#This is how they are defined.abdominal musclenounthe muscles of the abdomen [syn: abdominal]
+#(S1 (S (S (NP (DT This)) (VP (AUX is) (SBAR (WHADVP (WRB how)) (S (NP (PRP they)) (VP (AUX are) (NP (NP (JJ defined.abdominal) (NN musclenounthe) (NNS muscles)) (PP (IN of) (NP (DT the) (JJ abdomen) (NN [syn))))))))) (: :) (NP (JJ abdominal) (NN -RSB-))))
+#Rule:Nouns
+r1musclenountheNN
+r1musclesNNS
+r1[synLocationAnnotation
+r1]NN
+
+#Rule:Adjs
+r4defined.abdominalJJ
+r4abdomenJJ
+r4abdominalJJ
+
+#Rule:Adj-Noun
+r5defined.abdominalJJmusclesNNS
+r5abdomenJJ[synLocationAnnotation
+r5abdominalJJ]NN
+
+#Rule:N-HeadNoun
+r8musclenountheNNmusclesNNS
+
+#Rule:HeadNoun-V
+r11thisDTisAUX
+r11theyPRPareAUX
+
+#Rule:V-HeadNoun
+r21areAUXmusclesNNS
+
+#Rule:PPinNP
+r26musclesNNSofIN[synLocationAnnotation
+
+@lemmas-left	they	abdominal	[syn	are	muscles	]	muscle	abdomen	musclenounthe	this	be	defined.abdominal	
+@lemmas-right	[syn	is	are	muscles	]	muscle	be	
+@lemmas-center	of	

@@ -1,0 +1,38 @@
+#cause it can i dunno ur question is too long n i didnt read it so forget it
+#(S1 (S (VP (VB cause) (SBAR (S (NP (PRP it)) (VP (MD can) (S (NP (PRP i)) (VP (VBP dunno) (SBAR (S (NP (JJ ur) (NN question)) (VP (AUX is) (ADJP (RB too) (JJ long) (SBAR (NNP n) (S (NP (PRP i)) (VP (VBP didnt) (S (VP (VB read) (S (NP (PRP it)) (RB so) (VP (VB forget) (NP (PRP it)))))))))))))))))))))
+#Rule:Nouns
+r1questionNN
+r1n iPersonAnnotation
+
+#Rule:Verbs
+r2causeVB
+r2dunnoVBP
+r2didntVBP
+r2readVB
+r2forgetVB
+
+#Rule:Adjs
+r4urJJ
+r4longJJ
+
+#Rule:Adj-Noun
+r5urJJquestionNN
+
+#Rule:HeadNoun-V
+r11iPersonAnnotationdunnoVBP
+r11questionNNisAUX
+r11n iPersonAnnotationdidntVBP
+r11itPRPforgetVB
+
+#Rule:V-HeadNoun
+r21forgetVBitPRP
+
+#Rule:V-HeadNoun
+r22readVBitPRP
+
+#Rule:V-ADJ
+r25isAUXlongJJ
+
+@lemmas-left	is	cause	it	ur	didnt	long	i	dunno	read	question	n i	forget	be	
+@lemmas-right	is	it	dunno	question	long	didnt	forget	be	
+@lemmas-center	

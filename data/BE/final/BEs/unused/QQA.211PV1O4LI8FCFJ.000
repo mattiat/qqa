@@ -1,0 +1,111 @@
+#I want to reduce my blood pressure to 120/80. 
+#(S1 (S (NP (PRP I)) (VP (VBP want) (S (VP (TO to) (VP (VB reduce) (NP (PRP$ my) (NN blood) (NN pressure)) (PP (TO to) (NP (CD 120/80))))))) (. .)))
+#Rule:Nouns
+r1bloodNN
+r1pressureNN
+
+#Rule:Verbs
+r2wantVBP
+r2reduceVB
+
+#Rule:PRP-Noun
+r6myPRP$pressureNN
+
+#Rule:N-HeadNoun
+r8bloodNNpressureNN
+
+#Rule:HeadNoun-V
+r11iPRPwantVBP
+
+#Rule:V-HeadNoun
+r21reduceVBpressureNN
+
+#Rule:PPinVP
+r30reduceVBtoTO120/80CD
+
+#Rule:V-V
+r44wantVBPreduceVB
+
+#Without medicine How i can do?
+#(S1 (FRAG (PP (IN Without) (NP (NN medicine))) (SBAR (WHADVP (WRB How)) (S (NP (PRP i)) (VP (MD can) (VP (AUX do))))) (. ?)))
+#Rule:Nouns
+r1medicineNN
+
+#Rule:HeadNoun-V
+r11iPersonAnnotationdoAUX
+
+#my B.P is always showing 150/100. is it dangerous? 
+#(S1 (S (NP (NNP my) (NNP B.P)) (VP (AUX is) (ADVP (RB always)) (VP (VBG showing) (SBAR (S (NP (CD 150/100.)) (VP (AUX is) (ADJP (NP (PRP it)) (JJ dangerous))))))) (. ?)))
+#Rule:Nouns
+r1myNNP
+r1B.POrganizationAnnotation
+
+#Rule:Verbs
+r2showingVBG
+
+#Rule:Adjs
+r4dangerousJJ
+
+#Rule:N-HeadNoun
+r8myNNPB.POrganizationAnnotation
+
+#Rule:HeadNoun-V
+r11B.POrganizationAnnotationshowingVBG
+r11150/100CDisAUX
+
+#Rule:V-ADJ
+r25isAUXdangerousJJ
+
+#Rule:V-ADV
+r46isAUXalwaysRB
+r46showingVBGalwaysRB
+
+#Pls tell me how to make normal without medicine? 
+#(S1 (S (NP (NNS Pls)) (VP (VB tell) (NP (PRP me)) (SBAR (WHADVP (WRB how)) (S (VP (TO to) (VP (VB make) (S (ADJP (JJ normal))) (PP (IN without) (NP (NN medicine)))))))) (. ?)))
+#Rule:Nouns
+r1PlsNNS
+r1medicineNN
+
+#Rule:Verbs
+r2tellVB
+r2makeVB
+
+#Rule:Adjs
+r4normalJJ
+
+#Rule:HeadNoun-V
+r11PlsNNStellVB
+
+#Rule:V-HeadNoun
+r21tellVBmePRP
+
+#Rule:PPinVP
+r30makeVBwithoutINmedicineNN
+
+#if we take one time medicine , is it compulsary to continue lifelong?
+#(S1 (SQ (SBAR (IN if) (S (NP (PRP we)) (VP (VBP take) (NP (CD one) (NN time)) (NP (NN medicine))))) (, ,) (AUX is) (NP (PRP it)) (ADJP (JJ compulsary) (S (VP (TO to) (VP (VB continue) (S (ADJP (JJ lifelong))))))) (. ?)))
+#Rule:Nouns
+r1timeNN
+r1medicineNN
+
+#Rule:Verbs
+r2takeVBP
+r2continueVB
+
+#Rule:Adjs
+r4compulsaryJJ
+r4lifelongJJ
+
+#Rule:Adj-Noun
+r5oneCDtimeNN
+
+#Rule:HeadNoun-V
+r11wePRPtakeVBP
+
+#Rule:V-HeadNoun
+r21takeVBPtimeNN
+r21takeVBPmedicineNN
+
+@lemmas-left	150/100	one	normal	show	B.P	compulsary	lifelong	pls	time	showing	tell	medicine	want	be	is	pressure	blood	Pls	dangerous	my	reduce	i	150/100.	take	continue	make	we	
+@lemmas-right	is	pressure	B.P	show	always	dangerous	reduce	120/80	time	take	showing	me	do	tell	medicine	want	be	
+@lemmas-center	to	without	

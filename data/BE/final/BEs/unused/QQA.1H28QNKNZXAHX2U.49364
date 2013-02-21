@@ -1,0 +1,83 @@
+#It s over and she s just trying to keep it alive..
+#(S1 (S (S (NP (PRP It)) (VP (VBZ s) (PRT (RP over)))) (CC and) (S (NP (PRP she)) (VP (VBZ s) (S (ADVP (RB just)) (VP (VBG trying) (S (VP (TO to) (VP (VB keep) (S (NP (PRP it)) (ADJP (JJ alive))))))) (. .)))) (. .)))
+#Rule:Verbs
+r2sOrganizationAnnotation
+r2tryingVBG
+r2keepVB
+
+#Rule:V-PRT
+r3sVBZoverRP
+
+#Rule:Adjs
+r4aliveJJ
+
+#Rule:HeadNoun-V
+r11itPRPsVBZ
+r11shePRPsOrganizationAnnotation
+
+#Rule:V-HeadNoun
+r22keepVBitPRP
+
+#Rule:V-V
+r44tryingVBGkeepVB
+
+#Rule:V-ADV
+r46tryingVBGjustRB
+
+#I wonder if Richard Harris would ve taken the role if this was revealed when he was alive.just a bunch of slick politically correct p.r. marketing jive.
+#(S1 (S (NP (PRP I)) (VP (VBP wonder) (SBAR (IN if) (S (NP (NNP Richard) (NNP Harris)) (VP (MD would) (VP (VB ve) (VP (VBN taken) (NP (DT the) (NN role)) (SBAR (IN if) (S (NP (DT this)) (VP (AUX was) (VP (VBN revealed) (SBAR (WHADVP (WRB when)) (S (NP (PRP he)) (VP (AUX was) (RB alive.just) (NP (NP (DT a) (NN bunch)) (PP (IN of) (NP (JJ slick) (ADJP (RB politically) (JJ correct)) (NN p.r.) (NN marketing) (NN jive))))))))))))))))) (. .)))
+#Rule:Nouns
+r1Richard HarrisPersonAnnotation
+r1roleNN
+r1bunchNN
+r1p.r.LocationAnnotation
+r1marketingNN
+r1jiveNN
+
+#Rule:Verbs
+r2wonderVBP
+r2veVB
+r2takenVBN
+r2revealedVBN
+
+#Rule:Adjs
+r4slickJJ
+r4correctJJ
+
+#Rule:Adj-Noun
+r5slickJJjiveNN
+r5correctJJjiveNN
+
+#Rule:N-HeadNoun
+r8marketingNNjiveNN
+r8p.r.LocationAnnotationjiveNN
+
+#Rule:HeadNoun-V
+r11iPRPwonderVBP
+r11Richard HarrisPersonAnnotationveVB
+r11hePRPwasAUX
+
+#Rule:V-HeadNoun
+r21takenVBNroleNN
+r21wasAUXbunchNN
+
+#Rule:V-HeadNoun(passive)
+r23revealedVBNthisDT
+
+#Rule:V-HeadNoun(passive)
+r24takenVBNRichard HarrisPersonAnnotation
+
+#Rule:PPinNP
+r26bunchNNofINjiveNN
+
+#Rule:V-IN-V
+r43wonderVBPifINveVB
+r43wonderVBPifINtakenVBN
+r43takenVBNifINrevealedVBN
+
+#Rule:V-ADV
+r46wasAUXalive.justRB
+
+@lemmas-left	reveal	revealed	alive	trying	was	Richard Harris	jive	correct	she	wonder	ve	role	taken	bunch	be	it	marketing	he	i	slick	s	take	p.r.	try	keep	
+@lemmas-right	just	reveal	it	revealed	was	over	Richard Harris	s	jive	take	wonder	ve	role	taken	bunch	alive.just	this	keep	be	
+@lemmas-center	of	if	

@@ -1,0 +1,186 @@
+#Moon landing was old news. 
+#(S1 (S (NP (NNP Moon) (NN landing)) (VP (AUX was) (NP (JJ old) (NN news))) (. .)))
+#Rule:Nouns
+r1MoonPersonAnnotation
+r1landingNN
+r1newsNN
+
+#Rule:Adjs
+r4oldJJ
+
+#Rule:Adj-Noun
+r5oldJJnewsNN
+
+#Rule:N-HeadNoun
+r8MoonPersonAnnotationlandingNN
+
+#Rule:HeadNoun-V
+r11landingNNwasAUX
+
+#Rule:V-HeadNoun
+r21wasAUXnewsNN
+
+#Rule:IS-RULE
+r47newsNNlandingNN
+
+#When the hell are we getting to Mars? 
+#(S1 (SBARQ (WHADVP (WRB When) (NP (DT the) (NN hell))) (SQ (AUX are) (NP (PRP we)) (VP (VBG getting) (PP (TO to) (NP (NNP Mars))))) (. ?)))
+#Rule:Nouns
+r1hellNN
+r1MarsNNP
+
+#Rule:Verbs
+r2gettingVBG
+
+#Rule:PPinVP
+r30gettingVBGtoTOMarsNNP
+
+#You are easily bored, aren t you?
+#(S1 (S (S (NP (PRP You)) (VP (AUX are) (ADJP (RB easily) (JJ bored)))) (, ,) (NP (NNS aren)) (VP (VBP t) (NP (PRP you))) (. ?)))
+#Rule:Nouns
+r1arenNNS
+
+#Rule:Verbs
+r2t youLocationAnnotation
+
+#Rule:Adjs
+r4boredJJ
+
+#Rule:HeadNoun-V
+r11arenNNSt youLocationAnnotation
+r11youPRPareAUX
+
+#Rule:V-ADJ
+r25areAUXboredJJ
+
+#:-)Seriously. with enough tax money everything is possible. 
+#(S1 (S (NP (: :) (LST (: -) (-RRB- -RRB-)) (NP (NNP Seriously.)) (PP (IN with) (NP (JJ enough) (NN tax) (NN money)))) (NP (NN everything)) (VP (AUX is) (ADJP (JJ possible))) (. .)))
+#Rule:Nouns
+r1SeriouslyNNP
+r1taxNN
+r1moneyNN
+r1everythingNN
+
+#Rule:Adjs
+r4enoughJJ
+r4possibleJJ
+
+#Rule:Adj-Noun
+r5enoughJJmoneyNN
+
+#Rule:N-HeadNoun
+r8taxNNmoneyNN
+
+#Rule:HeadNoun-V
+r11SeriouslyNNPisAUX
+r11everythingNNisAUX
+
+#Rule:V-ADJ
+r25isAUXpossibleJJ
+
+#Rule:PPinNP
+r26SeriouslyNNPwithINmoneyNN
+
+#Even a manned Mars flight. 
+#(S1 (S (NP (RB Even) (NNP a)) (VP (VBD manned) (NP (NNP Mars) (NN flight))) (. .)))
+#Rule:Nouns
+r1aNNP
+r1MarsOrganizationAnnotation
+r1flightNN
+
+#Rule:Verbs
+r2mannedVBD
+
+#Rule:N-HeadNoun
+r8MarsOrganizationAnnotationflightNN
+
+#Rule:HeadNoun-V
+r11aNNPmannedVBD
+
+#Rule:V-HeadNoun
+r21mannedVBDflightNN
+
+#But somebody has to pay for it. 
+#(S1 (S (CC But) (NP (NN somebody)) (VP (AUX has) (S (VP (TO to) (VP (VB pay) (PP (IN for) (NP (PRP it))))))) (. .)))
+#Rule:Nouns
+r1somebodyNN
+
+#Rule:Verbs
+r2payVB
+
+#Rule:HeadNoun-V
+r11somebodyNNhasAUX
+
+#Rule:PPinVP
+r30payVBforINitPRP
+
+#I would estimate it to be a rough trillion dollars. 
+#(S1 (S (NP (PRP I)) (VP (MD would) (VP (VB estimate) (S (NP (PRP it)) (VP (TO to) (VP (AUX be) (NP (QP (DT a) (JJ rough) (CD trillion)) (NNS dollars))))))) (. .)))
+#Rule:Nouns
+r1dollarsNNS
+
+#Rule:Verbs
+r2estimateVB
+
+#Rule:Adjs
+r4roughJJ
+
+#Rule:Adj-Noun
+r5roughJJdollarsNNS
+r5trillionCDdollarsNNS
+
+#Rule:HeadNoun-V
+r11iPRPestimateVB
+r11itPRPbeAUX
+
+#Rule:V-HeadNoun
+r21beAUXdollarsNNS
+
+#Rule:V-HeadNoun
+r22estimateVBitPRP
+
+#Half as much as the Iraq war. 
+#(S1 (NP (NP (DT Half) (RB as) (JJ much)) (PP (IN as) (NP (DT the) (NNP Iraq) (NN war))) (. .)))
+#Rule:Nouns
+r1IraqOrganizationAnnotation
+r1warNN
+
+#Rule:Adjs
+r4muchJJ
+
+#Rule:N-HeadNoun
+r8IraqOrganizationAnnotationwarNN
+
+#Rule:PPinNP
+r26muchJJasINwarNN
+
+#Why don t you send a letter to Bush and Cheney?
+#(S1 (SBARQ (WHADVP (WRB Why)) (SQ (VP (VB don) (S (VP (VBG t) (S (NP (PRP you)) (VP (VB send) (NP (NP (DT a) (NN letter)) (PP (TO to) (NP (NP (NNP Bush)) (CC and) (NP (NNP Cheney))))))))))) (. ?)))
+#Rule:Nouns
+r1letterNN
+r1BushPersonAnnotation
+r1CheneyPersonAnnotation
+
+#Rule:Verbs
+r2donVB
+r2tVBG
+r2sendVB
+
+#Rule:HeadNoun-V
+r11youPRPsendVB
+
+#Rule:V-HeadNoun
+r21sendVBletterNN
+
+#Rule:V-HeadNoun
+r22tVBGyouPRP
+
+#Rule:PPinNP
+r26letterNNtoTOBushPersonAnnotation
+r26letterNNtoTOCheneyPersonAnnotation
+
+#:-)
+#
+@lemmas-left	Cheney	getting	seriously.	old	send	trillion	don	Bush	aren	bored	everything	Mars	enough	estimate	war	Iraq	was	possible	are	landing	Seriously	money	pay	dollar	man	be	is	it	get	letter	news	Moon	dollars	a	hell	you	rough	much	i	manned	flight	t	mars	t you	tax	somebody	
+@lemmas-right	Cheney	send	Bush	have	bored	Mars	estimate	has	war	was	possible	are	landing	money	dollar	man	be	is	it	news	letter	dollars	you	manned	flight	mars	t you	
+@lemmas-center	to	with	for	as	

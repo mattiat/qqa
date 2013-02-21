@@ -1,0 +1,33 @@
+#eat 1200-1500 calories a day and exersize daily and yes you are a tad overweight good luck
+#(S1 (S (S (VP (VP (VB eat) (NP (NP (CD 1200-1500) (NNS calories)) (NP (DT a) (NN day)))) (CC and) (VP (VB exersize) (ADVP (RB daily))))) (CC and) (S (INTJ (UH yes)) (NP (PRP you)) (VP (AUX are) (NP (DT a) (ADJP (RB tad) (JJ overweight)) (JJ good) (NN luck))))))
+#Rule:Nouns
+r1caloriesNNS
+r1dayNN
+r1luckNN
+
+#Rule:Verbs
+r2eatVB
+r2exersizeVB
+
+#Rule:Adjs
+r4overweightJJ
+r4goodJJ
+
+#Rule:Adj-Noun
+r51200-1500CDcaloriesNNS
+r5overweightJJluckNN
+r5goodJJluckNN
+
+#Rule:HeadNoun-V
+r11youPRPareAUX
+
+#Rule:V-HeadNoun
+r21eatVBcaloriesNNS
+r21areAUXluckNN
+
+#Rule:V-ADV
+r46exersizeVBdailyRB
+
+@lemmas-left	are	1200-1500	overweight	luck	exersize	calories	you	good	eat	day	calorie	be	
+@lemmas-right	are	luck	calories	daily	calorie	be	
+@lemmas-center	

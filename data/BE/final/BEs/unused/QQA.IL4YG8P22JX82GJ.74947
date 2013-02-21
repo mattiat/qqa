@@ -1,0 +1,92 @@
+#Homework is for kids to learn.  
+#(S1 (S (NP (NN Homework)) (VP (AUX is) (SBAR (IN for) (S (NP (NNS kids)) (VP (TO to) (VP (VB learn)))))) (. .)))
+#Rule:Nouns
+r1HomeworkNN
+r1kidsNNS
+
+#Rule:Verbs
+r2learnVB
+
+#Rule:HeadNoun-V
+r11HomeworkNNisAUX
+r11kidsNNSlearnVB
+
+#Rule:V-IN-V
+r43isAUXforINlearnVB
+
+#And not just the subject matter, kids learn that life is work.  
+#(S1 (S (FRAG (CC And) (RB not) (NP (RB just) (DT the) (JJ subject) (NN matter))) (, ,) (NP (NNS kids)) (VP (VBP learn) (SBAR (IN that) (S (NP (NN life)) (VP (AUX is) (NP (NN work)))))) (. .)))
+#Rule:Nouns
+r1matterNN
+r1kidsNNS
+r1lifeNN
+r1workNN
+
+#Rule:Verbs
+r2learnVBP
+
+#Rule:Adjs
+r4subjectJJ
+
+#Rule:Adj-Noun
+r5subjectJJmatterNN
+
+#Rule:HeadNoun-V
+r11kidsNNSlearnVBP
+r11lifeNNisAUX
+
+#Rule:V-HeadNoun
+r21isAUXworkNN
+
+#Rule:V-IN-V
+r43learnVBPthatINisAUX
+
+#Rule:IS-RULE
+r47workNNlifeNN
+
+#I bet your parents don t get to hang out with their friends a lot.  
+#(S1 (S (NP (PRP I)) (VP (VBP bet) (S (NP (PRP$ your) (NNS parents)) (VP (VB don) (S (NP (NNS t)) (VP (VB get) (S (VP (TO to) (VP (VB hang) (PRT (RP out)) (PP (IN with) (NP (PRP$ their) (NNS friends))) (NP (DT a) (NN lot)))))))))) (. .)))
+#Rule:Nouns
+r1parentsNNS
+r1tLocationAnnotation
+r1friendsNNS
+r1lotNN
+
+#Rule:Verbs
+r2betVBP
+r2donVB
+r2getVB
+
+#Rule:V-PRT
+r3hangVBoutRP
+
+#Rule:PRP-Noun
+r6yourPRP$parentsNNS
+r6theirPRP$friendsNNS
+
+#Rule:HeadNoun-V
+r11iPRPbetVBP
+r11parentsNNSdonVB
+r11tLocationAnnotationgetVB
+
+#Rule:V-HeadNoun
+r21hangVBlotNN
+
+#Rule:V-HeadNoun
+r22betVBPparentsNNS
+r22donVBtLocationAnnotation
+
+#Rule:PPinVP
+r30hangVBwithINfriendsNNS
+
+#Rule:V-V
+r44getVBhangVB
+
+#Or not as much as you do.
+#(S1 (FRAG (CC Or) (RB not) (ADVP (RB as) (RB much) (SBAR (IN as) (S (NP (PRP you)) (VP (AUX do))))) (. .)))
+#Rule:HeadNoun-V
+r11youPRPdoAUX
+
+@lemmas-left	parents	don	subject	hang	kid	life	friends	be	work	is	get	matter	your	parent	learn	you	kids	i	t	homework	Homework	bet	lot	their	friend	
+@lemmas-right	work	is	parents	get	don	matter	learn	parent	hang	t	life	friends	bet	lot	do	friend	be	out	
+@lemmas-center	that	with	for	

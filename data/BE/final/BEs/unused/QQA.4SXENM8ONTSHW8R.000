@@ -1,0 +1,98 @@
+#How many calories would I burn??
+#(S1 (SBARQ (WHNP (WHADJP (WRB How) (JJ many)) (NNS calories)) (SQ (MD would) (NP (PRP I)) (VP (VB burn)) (. ?)) (. ?)))
+#Rule:Nouns
+r1caloriesNNS
+
+#Rule:Verbs
+r2burnVB
+
+#Rule:Adjs
+r4manyJJ
+
+#Approx doing-*45 minutes of ministry of sound DVD,*30 minutes of swimming: mainly breaststroke,*100 situps,*1 hour spin class (exercise bike workout)???answers to any of these would be fabulous. Ooh btw I am a 16 yr old in good health, just over average weight.thanks in advance..
+#(S1 (S (NP (NNP Approx) (NNS doing-)) (VP (VBD *) (SBAR (S (NP (NP (NP (CD 45) (NNS minutes)) (PP (IN of) (NP (NP (NN ministry)) (PP (IN of) (NP (JJ sound) (NNS DVD)))))) (, ,) (NP (NP (QP (CD *) (CD 30)) (NNS minutes)) (PP (IN of) (NP (NP (NN swimming)) (: :) (ADJP (RB mainly) (JJ breaststroke))))) (, ,) (NP (QP (CD *) (CD 100)) (NNS situps)) (, ,)) (VP (VBD *) (SBAR (S (NP (NP (ADJP (CD 1) (NN hour)) (NN spin) (NN class) (PRN (-LRB- -LRB-) (NN exercise) (NN bike) (NN workout) (-RRB- -RRB-)) (NN ???) (NNS answers)) (PP (TO to) (NP (NP (DT any)) (PP (IN of) (NP (DT these)))))) (VP (MD would) (VP (AUX be) (ADJP (JJ fabulous.) (SBAR (S (NP (NNP Ooh)) (VP (VBZ btw) (S (NP (PRP I)) (VP (AUX am) (ADJP (NP (DT a) (CD 16) (NNS yr)) (JJ old) (PP (PP (IN in) (NP (JJ good) (NN health))) (, ,) (RB just) (PP (IN over) (NP (NP (JJ average) (NNS weight.thanks)) (PP (IN in) (NP (NN advance)))))))) (. .)))))))))))))) (. .)))
+#Rule:Nouns
+r1ApproxNNP
+r1doing-NNS
+r1minutesNNS
+r1ministryNN
+r1DVDLocationAnnotation
+r1minutesNNS
+r1swimmingNN
+r1situpsNNS
+r1hourNN
+r1spinNN
+r1classNN
+r1exerciseNN
+r1bikeNN
+r1workoutNN
+r1???NN
+r1answersNNS
+r1Ooh btwPersonAnnotation
+r1yrNNS
+r1healthNN
+r1weight.thanksNNS
+r1advanceNN
+
+#Rule:Verbs
+r2*VBD
+r2*VBD
+
+#Rule:Adjs
+r4soundJJ
+r4breaststrokeJJ
+r4fabulousJJ
+r4oldJJ
+r4goodJJ
+r4averageJJ
+
+#Rule:Adj-Noun
+r545CDminutesNNS
+r5soundJJDVDLocationAnnotation
+r5*CDminutesNNS
+r530CDminutesNNS
+r5breaststrokeJJswimmingNN
+r5*CDsitupsNNS
+r5100CDsitupsNNS
+r51CDanswersNNS
+r516CDyrNNS
+r5goodJJhealthNN
+r5averageJJweight.thanksNNS
+
+#Rule:N-HeadNoun
+r8ApproxNNPdoing-NNS
+r8???NNanswersNNS
+
+#Rule:N-ApposN
+r10minutesNNSminutesNNS
+
+#Rule:HeadNoun-V
+r11doing-NNS*VBD
+r11minutesNNS*VBD
+r11minutesNNS*VBD
+r11situpsNNS*VBD
+r11answersNNSbeAUX
+r11iPRPamAUX
+
+#Rule:V-HeadNoun
+r22Ooh btwPersonAnnotationiPRP
+
+#Rule:V-ADJ
+r25beAUXfabulousJJ
+
+#Rule:PPinNP
+r26minutesNNSofINministryNN
+r26ministryNNofINDVDLocationAnnotation
+r26minutesNNSofINswimmingNN
+r26answersNNStoTOanyDT
+r26anyDTofINtheseDT
+r26weight.thanksNNSinINadvanceNN
+
+#XxxxxX
+#(S1 (NP (NNP XxxxxX)))
+#Rule:Nouns
+r1XxxxxXOrganizationAnnotation
+
+@lemmas-left	breaststroke	old	weight.thanks	ministry	fabulous.	answers	exercise	good	16	Ooh btw	swimming	calorie	approx	thanks	bike	any	calories	spin	XxxxxX	100	be	minutes	45	*	answer	class	hour	health	doing-	i	DVD	Approx	many	1	30	sound	yr	burn	???	average	fabulous	advance	situps	workout	
+@lemmas-right	minutes	weight.thanks	ministry	fabulous.	answer	answers	*	health	swimming	doing-	i	DVD	thanks	am	yr	any	advance	fabulous	these	situps	be	
+@lemmas-center	to	of	in	

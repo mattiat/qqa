@@ -1,0 +1,124 @@
+#http://www.answers.com/topic/rayleigh-scattering?
+#(S1 (FRAG (X (SYM http)) (: :) (NP (NN //www.answers.com/topic/rayleigh-scattering)) (. ?)))
+#Rule:Nouns
+r1//www.answers.com/topic/rayleigh-scatteringNN
+
+#gwp=19Rayleigh scattering (named after Lord Rayleigh) is the scattering of light by particles much smaller than the wavelength of the light. 
+#(S1 (S (NP (NP (JJ gwp=19Rayleigh) (NN scattering)) (PRN (-LRB- -LRB-) (VP (VBN named) (PP (IN after) (NP (NNP Lord) (NNP Rayleigh)))) (-RRB- -RRB-))) (VP (AUX is) (NP (NP (DT the) (NN scattering)) (PP (IN of) (NP (NP (NN light)) (PP (IN by) (NP (NP (NNS particles)) (ADJP (ADJP (RB much) (JJR smaller)) (PP (IN than) (NP (NP (DT the) (NN wavelength)) (PP (IN of) (NP (DT the) (NN light)))))))))))) (. .)))
+#Rule:Nouns
+r1scatteringNN
+r1Lord RayleighPersonAnnotation
+r1scatteringNN
+r1lightNN
+r1particlesNNS
+r1wavelengthNN
+r1lightNN
+
+#Rule:Verbs
+r2namedVBN
+
+#Rule:Adjs
+r4gwp=19RayleighPersonAnnotation
+r4smallerJJR
+
+#Rule:Adj-Noun
+r5gwp=19RayleighPersonAnnotationscatteringNN
+r5smallerJJRparticlesNNS
+
+#Rule:HeadNoun-V
+r11scatteringNNisAUX
+
+#Rule:V-HeadNoun
+r21isAUXscatteringNN
+
+#Rule:PPinNP
+r26scatteringNNofINlightNN
+r26lightNNbyINparticlesNNS
+r26wavelengthNNofINlightNN
+
+#Rule:PPinVP
+r32namedVBNafterINLord RayleighPersonAnnotation
+
+#Rule:PPinADJP
+r37smallerJJRthanINwavelengthNN
+
+#Rule:IS-RULE
+r47scatteringNNscatteringNN
+
+#It occurs when light travels in transparent solids and liquids, but is most prominently seen in gases. 
+#(S1 (S (NP (PRP It)) (VP (VBZ occurs) (SBAR (WHADVP (WRB when)) (S (NP (NN light)) (VP (VP (VBZ travels) (PP (IN in) (NP (JJ transparent) (NNS solids) (CC and) (NNS liquids)))) (, ,) (CC but) (VP (AUX is) (ADVP (RBS most) (RB prominently)) (VP (VBN seen) (PP (IN in) (NP (NNS gases))))))))) (. .)))
+#Rule:Nouns
+r1lightNN
+r1solidsNNS
+r1liquidsNNS
+r1gasesNNS
+
+#Rule:Verbs
+r2occursVBZ
+r2travelsVBZ
+r2seenVBN
+
+#Rule:Adjs
+r4transparentJJ
+
+#Rule:Adj-Noun
+r5transparentJJsolidsNNS
+
+#Rule:HeadNoun-V
+r11itPRPoccursVBZ
+r11lightNNtravelsVBZ
+
+#Rule:V-HeadNoun(passive)
+r23seenVBNlightNN
+
+#Rule:PPinVP
+r30travelsVBZinINsolidsNNS
+
+#Rule:PPinVP
+r32seenVBNinINgasesNNS
+
+#Rule:V-ADV
+r46isAUXprominentlyRB
+r46seenVBNprominentlyRB
+
+#Rayleigh scattering of sunlight from particles in the atmosphere is one reason light from the sky is blue.
+#(S1 (S (NP (NP (JJ Rayleigh) (NN scattering)) (PP (IN of) (NP (NP (NN sunlight)) (PP (IN from) (NP (NP (NNS particles)) (PP (IN in) (NP (DT the) (NN atmosphere)))))))) (VP (AUX is) (NP (NP (CD one) (NN reason)) (SBAR (S (NP (NP (NN light)) (PP (IN from) (NP (DT the) (NN sky)))) (VP (AUX is) (ADJP (JJ blue))))))) (. .)))
+#Rule:Nouns
+r1scatteringNN
+r1sunlightNN
+r1particlesNNS
+r1atmosphereNN
+r1reasonNN
+r1lightNN
+r1skyPersonAnnotation
+
+#Rule:Adjs
+r4RayleighPersonAnnotation
+r4blueJJ
+
+#Rule:Adj-Noun
+r5RayleighPersonAnnotationscatteringNN
+r5oneCDreasonNN
+
+#Rule:HeadNoun-V
+r11scatteringNNisAUX
+r11lightNNisAUX
+
+#Rule:V-HeadNoun
+r21isAUXreasonNN
+
+#Rule:V-ADJ
+r25isAUXblueJJ
+
+#Rule:PPinNP
+r26scatteringNNofINsunlightNN
+r26sunlightNNfromINparticlesNNS
+r26particlesNNSinINatmosphereNN
+r26lightNNfromINskyPersonAnnotation
+
+#Rule:IS-RULE
+r47reasonNNscatteringNN
+
+@lemmas-left	named	Rayleigh	reason	one	travel	smaller	occurs	particle	//www.answers.com/topic/rayleigh-scattering	sky	name	transparent	light	be	solids	is	it	liquids	scattering	atmosphere	sunlight	seen	gases	wavelength	gas	solid	liquid	see	blue	travels	Lord Rayleigh	gwp=19Rayleigh	particles	occur	
+@lemmas-right	solids	is	reason	scattering	prominently	atmosphere	travel	sunlight	occurs	gases	gas	wavelength	particle	solid	sky	blue	travels	Lord Rayleigh	light	particles	be	occur	
+@lemmas-center	after	of	than	by	from	in	

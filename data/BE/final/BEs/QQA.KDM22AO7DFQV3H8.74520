@@ -1,0 +1,113 @@
+#I have to disagree with most of the people I guess. 
+#(S1 (S (NP (PRP I)) (VP (AUX have) (S (VP (TO to) (VP (VB disagree) (PP (IN with) (NP (NP (JJS most)) (PP (IN of) (NP (NP (DT the) (NNS people)) (SBAR (S (NP (PRP I)) (VP (VBP guess)))))))))))) (. .)))
+#Rule:Nouns
+r1peopleNNS
+
+#Rule:Verbs
+r2disagreeVB
+r2guessVBP
+
+#Rule:Adjs
+r4mostJJS
+
+#Rule:HeadNoun-V
+r11iPRPhaveAUX
+r11iPRPguessVBP
+
+#Rule:NP(NP(z) SBAR(S(NP(x)VP(y))))
+r19guessVBPpeopleNNS
+
+#Rule:PPinNP
+r26mostJJSofINpeopleNNS
+
+#Rule:PPinVP
+r30disagreeVBwithINmostJJS
+
+#Drinking cold water does suppress appetite because it sits in your stomach longer and makes you feel fuller. 
+#(S1 (S (NP (NN Drinking) (JJ cold) (NN water)) (VP (AUX does) (VP (VB suppress) (NP (NN appetite)) (SBAR (IN because) (S (NP (PRP it)) (VP (VP (VBZ sits) (PRT (RP in)) (NP (PRP$ your) (NN stomach)) (ADVP (RBR longer))) (CC and) (VP (VBZ makes) (S (NP (PRP you)) (VP (VB feel) (NP (NNP fuller)))))))))) (. .)))
+#Rule:Nouns
+r1DrinkingNN
+r1waterNN
+r1appetiteNN
+r1stomachNN
+r1fullerNNP
+
+#Rule:Verbs
+r2suppressVB
+r2makesVBZ
+r2feelVB
+
+#Rule:V-PRT
+r3sitsVBZinRP
+
+#Rule:Adjs
+r4coldJJ
+
+#Rule:Adj-Noun
+r5coldJJwaterNN
+
+#Rule:PRP-Noun
+r6yourPRP$stomachNN
+
+#Rule:HeadNoun-V
+r11waterNNsuppressVB
+r11itPRPsitsVBZ
+r11itPRPmakesVBZ
+r11youPRPfeelVB
+
+#Rule:V-HeadNoun
+r21suppressVBappetiteNN
+r21sitsVBZstomachNN
+r21feelVBfullerNNP
+
+#Rule:V-HeadNoun
+r22makesVBZyouPRP
+
+#Rule:V-IN-V
+r43suppressVBbecauseINsitsVBZ
+r43suppressVBbecauseINmakesVBZ
+
+#Your stomach has to heat it up before your body can process it, so it can trick your stomach into curbing the urge for munchies.
+#(S1 (S (NP (PRP$ Your) (NN stomach)) (VP (AUX has) (S (VP (TO to) (VP (VB heat) (NP (PRP it)) (ADVP (RB up)) (SBAR (IN before) (S (NP (PRP$ your) (NN body)) (VP (MD can) (VP (VB process) (NP (PRP it)) (, ,) (SBAR (IN so) (S (NP (PRP it)) (VP (MD can) (VP (VB trick) (NP (PRP$ your) (NN stomach)) (PP (IN into) (S (VP (VBG curbing) (NP (NP (DT the) (NN urge)) (PP (IN for) (NP (NNS munchies))))))))))))))))))) (. .)))
+#Rule:Nouns
+r1stomachNN
+r1bodyNN
+r1stomachNN
+r1urgeNN
+r1munchiesNNS
+
+#Rule:Verbs
+r2heatVB
+r2processVB
+r2trickVB
+r2curbingVBG
+
+#Rule:PRP-Noun
+r6yourPRP$stomachNN
+r6yourPRP$bodyNN
+r6yourPRP$stomachNN
+
+#Rule:HeadNoun-V
+r11stomachNNhasAUX
+r11bodyNNprocessVB
+r11itPRPtrickVB
+
+#Rule:V-HeadNoun
+r21heatVBitPRP
+r21processVBitPRP
+r21trickVBstomachNN
+r21curbingVBGurgeNN
+
+#Rule:PPinNP
+r26urgeNNforINmunchiesNNS
+
+#Rule:V-IN-V
+r43heatVBbeforeINprocessVB
+r43processVBsoINtrickVB
+
+#Rule:V-ADV
+r46heatVBupRB
+
+@lemmas-left	body	drinking	curb	most	appetite	people	heat	curbing	cold	fuller	trick	water	Drinking	feel	it	makes	your	disagree	you	i	process	sit	sits	urge	guess	munchies	make	suppress	stomach	
+@lemmas-right	water	body	feel	it	have	makes	most	you	appetite	people	in	has	up	process	sit	sits	urge	guess	fuller	munchies	trick	make	stomach	suppress	
+@lemmas-center	because	of	with	so	for	before	

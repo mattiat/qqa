@@ -1,0 +1,369 @@
+BE: moneyNN
+EQ class: monetaryjj	
+
+BE: breastNN
+EQ class: chestnn	
+
+BE: cancerNN
+EQ class: cancerousjj	malignant_neoplastic_diseasenn	
+
+BE: researchNN
+EQ class: 
+
+BE: formsNNS
+EQ class: formnns	word_formnns	signifiernns	descriptornns	theynns	themnns	
+
+BE: spendVB
+EQ class: passvb	
+
+BE: muchJJ
+EQ class: muchnessnn	
+
+BE: moreJJR
+EQ class: more_thanjjr	
+
+BE: otherJJ
+EQ class: 
+
+BE: muchJJmoneyNN
+EQ class: muchnessnnmoneynn	muchnessnnmonetaryjj	muchjjmonetaryjj	
+
+BE: moreJJRmoneyNN
+EQ class: more_thanjjrmoneynn	morejjrmonetaryjj	more_thanjjrmonetaryjj	
+
+BE: otherJJformsNNS
+EQ class: otherjjsignifiernns	otherjjtheynns	otherjjword_formnns	otherjjformnns	otherjjdescriptornns	otherjjthemnns	
+
+BE: cancerNNresearchNN
+EQ class: researchnnofinmalignant_neoplastic_diseasenn	researchvbcancernn	malignant_neoplastic_diseasennresearchnn	researchvbcancerousjj	cancerousjjresearchnn	malignant_neoplastic_diseasennresearchvb	cancernnresearchvb	researchnnofincancernn	researchnnofincancerousjj	researchvbmalignant_neoplastic_diseasenn	cancerousjjresearchvb	
+
+BE: breastNNresearchNN
+EQ class: researchvbchestnn	breastnnresearchvb	chestnnofinresearchnn	chestnnresearchnn	researchnnofinchestnn	breastnnofinresearchnn	researchvbbreastnn	researchnnbreastvb	chestnnresearchvb	researchnnofinbreastnn	
+
+BE: spendVBmoneyNN
+EQ class: passvbmonetaryjj	passvbmoneynn	spendvbmonetaryjj	
+
+BE: spendVBonINresearchNN
+EQ class: passvboninresearchnn	
+
+BE: spendVBthanINformsNNS
+EQ class: passvbthaninformnns	passvbthaninthemnns	passvbthaninsignifiernns	spendvbthaninword_formnns	passvbthanintheynns	passvbthaninword_formnns	spendvbthanindescriptornns	passvbthanindescriptornns	spendvbthaninformnns	spendvbthaninthemnns	spendvbthaninsignifiernns	spendvbthanintheynns	passvbthaninformsnns	
+
+BE: articlesNNS
+EQ class: theynns	articlenns	themnns	
+
+BE: cancerNN
+EQ class: cancerousjj	malignant_neoplastic_diseasenn	
+
+BE: deathsNNS
+EQ class: deathnns	theynns	expirynns	deceasenns	themnns	
+
+BE: menNNS
+EQ class: workforcenns	handsnns	theynns	manpowernns	work_forcenns	themnns	
+
+BE: prostateNN
+EQ class: prostaticjj	prostate_glandnn	
+
+BE: cancerNN
+EQ class: cancerousjj	malignant_neoplastic_diseasenn	
+
+BE: womenNNS
+EQ class: womannns	womanlyjj	theynns	adult_femalenns	themnns	
+
+BE: breastNN
+EQ class: chestnn	
+
+BE: cancerNN
+EQ class: cancerousjj	malignant_neoplastic_diseasenn	
+
+BE: menNNS
+EQ class: workforcenns	handsnns	theynns	manpowernns	work_forcenns	themnns	
+
+BE: cancerNN
+EQ class: cancerousjj	malignant_neoplastic_diseasenn	
+
+BE: womenNNS
+EQ class: womannns	womanlyjj	theynns	adult_femalenns	themnns	
+
+BE: breastNN
+EQ class: chestnn	
+
+BE: cancerNN
+EQ class: cancerousjj	malignant_neoplastic_diseasenn	
+
+BE: readVBD
+EQ class: 
+
+BE: foundVBD
+EQ class: set_upvbd	launchvbd	establishvbd	
+
+BE: dieVBP
+EQ class: expirevbp	buy_the_farmvbp	govbp	cash_in_one's_chipsvbp	exitvbp	passvbp	drop_deadvbp	pop_offvbp	give-up_the_ghostvbp	deceasevbp	chokevbp	croakvbp	conkvbp	perishvbp	pass_awayvbp	snuff_itvbp	kick_the_bucketvbp	
+
+BE: dieVB
+EQ class: deceasevb	kick_the_bucketvb	exitvb	pop_offvb	conkvb	give-up_the_ghostvb	snuff_itvb	perishvb	buy_the_farmvb	govb	passvb	chokevb	drop_deadvb	croakvb	cash_in_one's_chipsvb	expirevb	pass_awayvb	
+
+BE: getVB
+EQ class: acquirevb	
+
+BE: getVB
+EQ class: acquirevb	
+
+BE: severalJJ
+EQ class: 
+
+BE: moreJJR
+EQ class: more_thanjjr	
+
+BE: likelyJJ
+EQ class: likelinessnn	
+
+BE: severalJJarticlesNNS
+EQ class: severaljjtheynns	severaljjarticlenns	severaljjthemnns	
+
+BE: moreJJRmenNNS
+EQ class: morejjrworkforcenns	more_thanjjrhandsnns	more_thanjjrthemnns	morejjrthemnns	more_thanjjrmanpowernns	morejjrwork_forcenns	morejjrtheynns	morejjrhandsnns	more_thanjjrworkforcenns	more_thanjjrwork_forcenns	more_thanjjrtheynns	more_thanjjrmennns	morejjrmanpowernns	
+
+BE: cancerNNdeathsNNS
+EQ class: cancerousjjdeceasevb	snuff_itvbmalignant_neoplastic_diseasenn	cancernnpassvb	govbcancernn	deceasennsofincancerousjj	cancernnkick_the_bucketvb	cancerousjjpop_offvb	cancerousjjperishvb	cancerousjjpassvb	malignant_neoplastic_diseasenndeathnns	cancernndrop_deadvb	malignant_neoplastic_diseasenngive-up_the_ghostvb	cancernndievb	deceasevbcancernn	cancernngovb	expirevbmalignant_neoplastic_diseasenn	malignant_neoplastic_diseasennpop_offvb	kick_the_bucketvbcancerousjj	malignant_neoplastic_diseasenndeathsnns	passvbmalignant_neoplastic_diseasenn	theynnsofincancerousjj	dievbcancerousjj	cancerousjjconkvb	cancernngive-up_the_ghostvb	perishvbcancernn	malignant_neoplastic_diseasenngovb	cancerousjjcroakvb	chokevbmalignant_neoplastic_diseasenn	cancernncroakvb	cancerousjjdrop_deadvb	cancerousjjsnuff_itvb	cancerousjjexitvb	dievbmalignant_neoplastic_diseasenn	expirynnsofincancernn	cancerousjjcash_in_one's_chipsvb	themnnsofincancerousjj	conkvbcancerousjj	pop_offvbmalignant_neoplastic_diseasenn	croakvbcancernn	croakvbmalignant_neoplastic_diseasenn	deathnnsofinmalignant_neoplastic_diseasenn	passvbcancernn	deceasennsofincancernn	expirynnsofincancerousjj	cancerousjjpass_awayvb	cancernnperishvb	malignant_neoplastic_diseasennpass_awayvb	pop_offvbcancernn	deceasevbcancerousjj	malignant_neoplastic_diseasennpassvb	drop_deadvbcancernn	themnnsofincancernn	cancerousjjbuy_the_farmvb	cancernnbuy_the_farmvb	cancernnexpirynns	cancerousjjgovb	cancerousjjdievb	malignant_neoplastic_diseasennchokevb	expirevbcancerousjj	cancerousjjdeathnns	cancernnexitvb	cash_in_one's_chipsvbcancernn	drop_deadvbcancerousjj	perishvbcancerousjj	cancernntheynns	cancerousjjexpirynns	cancerousjjdeceasenns	give-up_the_ghostvbcancernn	malignant_neoplastic_diseasenncroakvb	malignant_neoplastic_diseasennbuy_the_farmvb	deceasennsofinmalignant_neoplastic_diseasenn	deceasevbmalignant_neoplastic_diseasenn	buy_the_farmvbcancernn	deathsnnsofincancerousjj	perishvbmalignant_neoplastic_diseasenn	malignant_neoplastic_diseasennkick_the_bucketvb	malignant_neoplastic_diseasenncash_in_one's_chipsvb	malignant_neoplastic_diseasenndeceasevb	cancernndeceasenns	exitvbmalignant_neoplastic_diseasenn	deathnnsofincancerousjj	croakvbcancerousjj	cancernndeathnns	cash_in_one's_chipsvbmalignant_neoplastic_diseasenn	cancernnthemnns	kick_the_bucketvbcancernn	pop_offvbcancerousjj	cancerousjjchokevb	snuff_itvbcancerousjj	pass_awayvbcancerousjj	malignant_neoplastic_diseasenndrop_deadvb	kick_the_bucketvbmalignant_neoplastic_diseasenn	cancernnchokevb	deathnnsofincancernn	cash_in_one's_chipsvbcancerousjj	deathsnnsofinmalignant_neoplastic_diseasenn	malignant_neoplastic_diseasennconkvb	drop_deadvbmalignant_neoplastic_diseasenn	cancerousjjkick_the_bucketvb	govbcancerousjj	buy_the_farmvbmalignant_neoplastic_diseasenn	cancerousjjdeathsnns	conkvbmalignant_neoplastic_diseasenn	expirynnsofinmalignant_neoplastic_diseasenn	cancernnsnuff_itvb	malignant_neoplastic_diseasennexitvb	cancerousjjgive-up_the_ghostvb	conkvbcancernn	theynnsofinmalignant_neoplastic_diseasenn	expirevbcancernn	cancerousjjexpirevb	pass_awayvbmalignant_neoplastic_diseasenn	cancernncash_in_one's_chipsvb	malignant_neoplastic_diseasennthemnns	cancerousjjthemnns	theynnsofincancernn	malignant_neoplastic_diseasenndievb	govbmalignant_neoplastic_diseasenn	cancernnpass_awayvb	snuff_itvbcancernn	malignant_neoplastic_diseasenntheynns	exitvbcancerousjj	malignant_neoplastic_diseasennperishvb	cancerousjjtheynns	buy_the_farmvbcancerousjj	chokevbcancerousjj	passvbcancerousjj	cancernnconkvb	give-up_the_ghostvbcancerousjj	deathsnnsofincancernn	dievbcancernn	malignant_neoplastic_diseasenndeceasenns	cancernnexpirevb	chokevbcancernn	cancernnpop_offvb	malignant_neoplastic_diseasennexpirynns	exitvbcancernn	give-up_the_ghostvbmalignant_neoplastic_diseasenn	malignant_neoplastic_diseasennexpirevb	pass_awayvbcancernn	themnnsofinmalignant_neoplastic_diseasenn	malignant_neoplastic_diseasennsnuff_itvb	cancernndeceasevb	
+
+BE: prostateNNcancerNN
+EQ class: prostaticjjcancerousjj	prostatenncancerousvb	cancerousvbprostaticjj	cancernnofinprostaticjj	prostaticjjcancerousvb	malignant_neoplastic_diseasennofinprostaticjj	cancerousvbprostatenn	cancernnofinprostate_glandnn	prostate_glandnnmalignant_neoplastic_diseasenn	cancerousjjofinprostatenn	malignant_neoplastic_diseasennofinprostatenn	prostate_glandnncancerousjj	cancerousjjofinprostate_glandnn	prostaticjjcancernn	prostate_glandnncancernn	cancernnofinprostatenn	prostatenncancerousjj	prostatennmalignant_neoplastic_diseasenn	prostaticjjmalignant_neoplastic_diseasenn	cancerousvbprostate_glandnn	prostate_glandnncancerousvb	malignant_neoplastic_diseasennofinprostate_glandnn	cancerousjjofinprostaticjj	
+
+BE: breastNNcancerNN
+EQ class: chestnncancernn	malignant_neoplastic_diseasennbreastvb	breastnncancerousvb	chestnnofincancernn	cancerousvbbreastnn	cancerousjjofinbreastnn	cancerousjjofinchestnn	malignant_neoplastic_diseasennofinchestnn	breastnnofincancernn	chestnncancerousjj	chestnncancerousvb	cancerousvbchestnn	cancernnofinbreastnn	cancernnofinchestnn	chestnnmalignant_neoplastic_diseasenn	breastnnofincancerousjj	breastnnofinmalignant_neoplastic_diseasenn	breastnncancerousjj	breastnnmalignant_neoplastic_diseasenn	cancerousjjbreastvb	cancernnbreastvb	chestnnofinmalignant_neoplastic_diseasenn	chestnnofincancerousjj	malignant_neoplastic_diseasennofinbreastnn	
+
+BE: breastNNcancerNN
+EQ class: chestnncancernn	malignant_neoplastic_diseasennbreastvb	breastnncancerousvb	chestnnofincancernn	cancerousvbbreastnn	cancerousjjofinbreastnn	cancerousjjofinchestnn	malignant_neoplastic_diseasennofinchestnn	breastnnofincancernn	chestnncancerousjj	chestnncancerousvb	cancerousvbchestnn	cancernnofinbreastnn	cancernnofinchestnn	chestnnmalignant_neoplastic_diseasenn	breastnnofincancerousjj	breastnnofinmalignant_neoplastic_diseasenn	breastnncancerousjj	breastnnmalignant_neoplastic_diseasenn	cancerousjjbreastvb	cancernnbreastvb	chestnnofinmalignant_neoplastic_diseasenn	chestnnofincancerousjj	malignant_neoplastic_diseasennofinbreastnn	
+
+BE: iPRPreadVBD
+EQ class: readernniprp	readingnniprp	readingnnofiniprp	readernnofiniprp	readnnofiniprp	
+
+BE: iPRPfoundVBD
+EQ class: iprplaunchvbd	iprpestablishvbd	originationnniprp	originationnnofiniprp	foundingnnofiniprp	laminitisnniprp	laminitisnnofiniprp	initiationnniprp	innovationnnofiniprp	introductionnniprp	iprpset_upvbd	foundationnnofiniprp	introductionnnofiniprp	creationnniprp	foundingnniprp	initiationnnofiniprp	instaurationnnofiniprp	foundernnofiniprp	institutionnnofiniprp	foundernniprp	foundationnniprp	innovationnniprp	creationnnofiniprp	instaurationnniprp	institutionnniprp	
+
+BE: menNNSdieVBP
+EQ class: mennnssnuff_itvbp	theynnsperishvbp	themnnsdievbp	expirynnofinwork_forcenns	themnnssnuff_itvbp	workforcennsdeceasevbp	workforcennsbuy_the_farmvbp	mennnschokevbp	theynnsdeceasevbp	workforcennscroakvbp	expirynnofinworkforcenns	deceasennofinhandsnns	handsnnsgive-up_the_ghostvbp	mennnspass_awayvbp	deceasennhandsnns	handsnnsdievbp	manpowernnspop_offvbp	theynnsgive-up_the_ghostvbp	manpowernnscroakvbp	workforcennschokevbp	expirynntheynns	themnnsdrop_deadvbp	mennnsgovbp	work_forcennsexpirevbp	manpowernnsbuy_the_farmvbp	handsnnsconkvbp	handsnnsexitvbp	themnnskick_the_bucketvbp	theynnscroakvbp	mennnsgive-up_the_ghostvbp	theynnschokevbp	themnnsgive-up_the_ghostvbp	deathnnthemnns	expirynnhandsnns	workforcennsgovbp	deceasennwork_forcenns	manpowernnsdeceasevbp	work_forcennschokevbp	theynnspop_offvbp	expirynnthemnns	work_forcennscash_in_one's_chipsvbp	manpowernnschokevbp	workforcennsdrop_deadvbp	expirynnwork_forcenns	handsnnspass_awayvbp	themnnsexpirevbp	work_forcennspassvbp	mennnsconkvbp	manpowernnsgovbp	deathnnofinthemnns	deathnnmanpowernns	work_forcennsbuy_the_farmvbp	work_forcennsdeceasevbp	theynnsbuy_the_farmvbp	handsnnsdrop_deadvbp	mennnspop_offvbp	handsnnschokevbp	deceasennworkforcenns	deathnnofintheynns	theynnssnuff_itvbp	work_forcennssnuff_itvbp	deceasennofinmennns	work_forcennsdievbp	manpowernnsgive-up_the_ghostvbp	deathnnofinmanpowernns	expirynnmennns	themnnsgovbp	workforcennspop_offvbp	workforcennspass_awayvbp	themnnsperishvbp	themnnschokevbp	expirynnofintheynns	mennnsexpirevbp	work_forcennskick_the_bucketvbp	mennnscroakvbp	deceasennmennns	deathnnwork_forcenns	workforcennsexitvbp	mennnsexitvbp	deathnnhandsnns	handsnnssnuff_itvbp	themnnsconkvbp	manpowernnsexitvbp	themnnspop_offvbp	deceasennofinwork_forcenns	deathnnofinmennns	deathnntheynns	themnnsbuy_the_farmvbp	workforcennsconkvbp	handsnnspop_offvbp	work_forcennsexitvbp	work_forcennsgive-up_the_ghostvbp	theynnsexpirevbp	workforcennsgive-up_the_ghostvbp	work_forcennspop_offvbp	mennnsdrop_deadvbp	work_forcennscroakvbp	workforcennscash_in_one's_chipsvbp	theynnspass_awayvbp	manpowernnspass_awayvbp	deceasenntheynns	handsnnsdeceasevbp	expirynnofinmennns	theynnsgovbp	handsnnscash_in_one's_chipsvbp	work_forcennsdrop_deadvbp	deceasennofinmanpowernns	expirynnofinmanpowernns	mennnskick_the_bucketvbp	theynnscash_in_one's_chipsvbp	expirynnworkforcenns	manpowernnsdrop_deadvbp	handsnnsperishvbp	work_forcennsgovbp	theynnsdievbp	expirynnmanpowernns	manpowernnscash_in_one's_chipsvbp	deceasennofinworkforcenns	manpowernnsconkvbp	expirynnofinhandsnns	theynnskick_the_bucketvbp	themnnspassvbp	handsnnsexpirevbp	workforcennsperishvbp	deathnnworkforcenns	deathnnofinworkforcenns	theynnsexitvbp	themnnscroakvbp	workforcennspassvbp	manpowernnssnuff_itvbp	deathnnofinhandsnns	deceasennofintheynns	work_forcennsconkvbp	deceasennmanpowernns	workforcennsdievbp	workforcennsexpirevbp	mennnsbuy_the_farmvbp	mennnscash_in_one's_chipsvbp	manpowernnsdievbp	work_forcennsperishvbp	manpowernnsperishvbp	deceasennthemnns	workforcennskick_the_bucketvbp	expirynnofinthemnns	manpowernnskick_the_bucketvbp	deceasennofinthemnns	themnnspass_awayvbp	handsnnscroakvbp	mennnsdeceasevbp	workforcennssnuff_itvbp	themnnscash_in_one's_chipsvbp	handsnnsgovbp	mennnsperishvbp	mennnspassvbp	manpowernnspassvbp	deathnnmennns	handsnnspassvbp	deathnnofinwork_forcenns	theynnsdrop_deadvbp	themnnsdeceasevbp	handsnnsbuy_the_farmvbp	work_forcennspass_awayvbp	theynnsconkvbp	manpowernnsexpirevbp	handsnnskick_the_bucketvbp	theynnspassvbp	themnnsexitvbp	
+
+BE: womenNNSdieVB
+EQ class: expirynnofinadult_femalenns	deceasennofinwomannns	womennnsdrop_deadvb	theynnsbuy_the_farmvb	adult_femalennspop_offvb	expirynntheynns	womanlyjjgovb	theynnscroakvb	expirynnofinwomanlyjj	adult_femalennsexitvb	womennnsexitvb	theynnsexitvb	themnnspop_offvb	womennnsgovb	deathnnthemnns	womannnschokevb	womannnskick_the_bucketvb	adult_femalennsdeceasevb	womannnsdeceasevb	theynnssnuff_itvb	womannnspop_offvb	expirynnthemnns	expirynnwomanlyjj	themnnskick_the_bucketvb	womannnsperishvb	deathnnofinwomennns	theynnsgovb	womanlyjjpop_offvb	womanlyjjconkvb	womennnscash_in_one's_chipsvb	womennnssnuff_itvb	adult_femalennscroakvb	themnnscash_in_one's_chipsvb	womanlyjjcroakvb	womanlyjjdrop_deadvb	deathnnofinthemnns	themnnsexpirevb	adult_femalennsconkvb	adult_femalennspass_awayvb	womannnscash_in_one's_chipsvb	womennnskick_the_bucketvb	womennnscroakvb	themnnsgovb	womannnsbuy_the_farmvb	womennnsbuy_the_farmvb	themnnspass_awayvb	expirynnofinwomennns	deceasennofinwomanlyjj	womannnspassvb	deathnnofintheynns	womanlyjjcash_in_one's_chipsvb	womanlyjjchokevb	womanlyjjexpirevb	themnnssnuff_itvb	womannnsdievb	deceasennwomannns	deathnnwomanlyjj	deceasennofinwomennns	deathnnwomannns	womennnschokevb	womannnscroakvb	womanlyjjpass_awayvb	womanlyjjperishvb	themnnsdeceasevb	adult_femalennscash_in_one's_chipsvb	themnnsgive-up_the_ghostvb	expirynnofintheynns	theynnsperishvb	womanlyjjsnuff_itvb	theynnspass_awayvb	theynnspop_offvb	themnnsconkvb	adult_femalennsexpirevb	theynnscash_in_one's_chipsvb	adult_femalennsgive-up_the_ghostvb	expirynnwomennns	deceasennadult_femalenns	deathnntheynns	theynnspassvb	womannnsgive-up_the_ghostvb	adult_femalennsgovb	expirynnofinwomannns	womanlyjjexitvb	adult_femalennssnuff_itvb	deathnnofinadult_femalenns	themnnscroakvb	themnnsexitvb	womennnsgive-up_the_ghostvb	theynnsexpirevb	themnnschokevb	deceasenntheynns	womannnspass_awayvb	womannnsexitvb	womennnspassvb	deceasennwomennns	theynnsconkvb	themnnsdievb	theynnsdrop_deadvb	deathnnofinwomannns	adult_femalennsbuy_the_farmvb	theynnsgive-up_the_ghostvb	adult_femalennskick_the_bucketvb	themnnsperishvb	deathnnadult_femalenns	womannnsconkvb	womannnssnuff_itvb	theynnsdievb	womanlyjjdievb	womanlyjjdeceasevb	deathnnwomennns	womannnsdrop_deadvb	adult_femalennsperishvb	womanlyjjbuy_the_farmvb	expirynnwomannns	womennnspop_offvb	themnnsbuy_the_farmvb	deceasennofintheynns	womennnspass_awayvb	adult_femalennspassvb	deceasennofinadult_femalenns	deceasennthemnns	expirynnadult_femalenns	womanlyjjgive-up_the_ghostvb	womennnsconkvb	expirynnofinthemnns	theynnskick_the_bucketvb	themnnspassvb	womennnsdeceasevb	womanlyjjkick_the_bucketvb	deceasennofinthemnns	womannnsgovb	adult_femalennsdievb	womennnsexpirevb	womanlyjjpassvb	adult_femalennschokevb	theynnsdeceasevb	theynnschokevb	deceasennwomanlyjj	womennnsperishvb	themnnsdrop_deadvb	womannnsexpirevb	deathnnofinwomanlyjj	adult_femalennsdrop_deadvb	
+
+BE: menNNSareAUX
+EQ class: manpowernnsareaux	work_forcennsareaux	themnnsareaux	handsnnsbeaux	themnnsbeaux	mennnsbeaux	theynnsareaux	handsnnsareaux	manpowernnsbeaux	workforcennsareaux	workforcennsbeaux	work_forcennsbeaux	theynnsbeaux	
+
+BE: womenNNSgetVB
+EQ class: acquiringnntheynns	acquiringnnofinwomannns	themnnsgetvb	acquiringnnofinwomanlyjj	gettingnnofinwomannns	themnnsacquirevb	womannnsgetvb	acquiringnnwomanlyjj	womannnsacquirevb	gettingnnofinthemnns	womanlyjjgetvb	adult_femalennsacquirevb	gettingnnofintheynns	womennnsacquirevb	gettingnnthemnns	gettingnnwomennns	acquiringnnofintheynns	acquiringnnwomennns	adult_femalennsgetvb	gettingnnofinadult_femalenns	theynnsgetvb	gettingnnadult_femalenns	gettingnnwomannns	gettingnnofinwomennns	acquiringnnofinadult_femalenns	gettingnnofinwomanlyjj	womanlyjjacquirevb	theynnsacquirevb	acquiringnnwomannns	gettingnntheynns	acquiringnnofinwomennns	gettingnnwomanlyjj	acquiringnnthemnns	acquiringnnadult_femalenns	acquiringnnofinthemnns	
+
+BE: readVBDarticlesNNS
+EQ class: readingnnofinarticlesnns	readernnofinthemnns	readvbdtheynns	readernnofinarticlenns	readnnofinarticlesnns	readvbdthemnns	readingnnofinthemnns	readernnofinarticlesnns	readnnofinthemnns	readnnofinarticlenns	readernnofintheynns	readingnnofinarticlenns	readingnnofintheynns	readnnofintheynns	readvbdarticlenns	
+
+BE: getVBcancerNN
+EQ class: acquiringnnofincancerousjj	getvbmalignant_neoplastic_diseasenn	gettingnnofinmalignant_neoplastic_diseasenn	gettingnnofincancernn	acquiringnnofincancernn	acquirevbcancernn	gettingnnofincancerousjj	getvbcancerousjj	acquirevbcancerousjj	acquiringnnofinmalignant_neoplastic_diseasenn	acquirevbmalignant_neoplastic_diseasenn	
+
+BE: getVBcancerNN
+EQ class: acquiringnnofincancerousjj	getvbmalignant_neoplastic_diseasenn	gettingnnofinmalignant_neoplastic_diseasenn	gettingnnofincancernn	acquiringnnofincancernn	acquirevbcancernn	gettingnnofincancerousjj	getvbcancerousjj	acquirevbcancerousjj	acquiringnnofinmalignant_neoplastic_diseasenn	acquirevbmalignant_neoplastic_diseasenn	
+
+BE: dieVBmenNNS
+EQ class: govbworkforcenns	exitvbwork_forcenns	expirynnofinwork_forcenns	pop_offvbmennns	drop_deadvbhandsnns	conkvbhandsnns	pop_offvbhandsnns	passvbhandsnns	deceasennofinhandsnns	expirynnofinworkforcenns	cash_in_one's_chipsvbtheynns	give-up_the_ghostvbthemnns	snuff_itvbworkforcenns	dievbtheynns	expirevbwork_forcenns	snuff_itvbwork_forcenns	croakvbmanpowernns	dievbmanpowernns	cash_in_one's_chipsvbmennns	pop_offvbtheynns	govbmanpowernns	drop_deadvbtheynns	kick_the_bucketvbmanpowernns	chokevbwork_forcenns	perishvbmennns	deceasevbmanpowernns	chokevbthemnns	govbmennns	croakvbworkforcenns	give-up_the_ghostvbmanpowernns	croakvbhandsnns	passvbthemnns	deceasevbworkforcenns	cash_in_one's_chipsvbwork_forcenns	perishvbhandsnns	perishvbtheynns	deathnnofinthemnns	exitvbhandsnns	croakvbthemnns	kick_the_bucketvbmennns	cash_in_one's_chipsvbworkforcenns	expirevbthemnns	deceasevbtheynns	buy_the_farmvbmennns	exitvbworkforcenns	pass_awayvbhandsnns	expirevbhandsnns	conkvbthemnns	buy_the_farmvbwork_forcenns	give-up_the_ghostvbworkforcenns	passvbtheynns	expirevbmanpowernns	passvbmanpowernns	snuff_itvbtheynns	deathnnofintheynns	deceasennofinmennns	passvbworkforcenns	perishvbmanpowernns	kick_the_bucketvbthemnns	pass_awayvbthemnns	snuff_itvbmennns	exitvbthemnns	deathnnofinmanpowernns	buy_the_farmvbmanpowernns	pass_awayvbmennns	dievbwork_forcenns	expirynnofintheynns	drop_deadvbmanpowernns	give-up_the_ghostvbwork_forcenns	pass_awayvbtheynns	dievbthemnns	cash_in_one's_chipsvbmanpowernns	drop_deadvbthemnns	deceasennofinwork_forcenns	deathnnofinmennns	pop_offvbthemnns	govbthemnns	expirevbmennns	conkvbtheynns	dievbhandsnns	exitvbmennns	deceasevbhandsnns	expirevbworkforcenns	expirevbtheynns	kick_the_bucketvbwork_forcenns	conkvbmennns	give-up_the_ghostvbtheynns	cash_in_one's_chipsvbthemnns	croakvbmennns	chokevbmanpowernns	expirynnofinmennns	croakvbwork_forcenns	passvbwork_forcenns	chokevbworkforcenns	deceasennofinmanpowernns	deceasevbmennns	drop_deadvbwork_forcenns	expirynnofinmanpowernns	passvbmennns	conkvbworkforcenns	govbhandsnns	deceasennofinworkforcenns	snuff_itvbmanpowernns	expirynnofinhandsnns	govbtheynns	buy_the_farmvbtheynns	deathnnofinworkforcenns	deceasevbwork_forcenns	dievbworkforcenns	drop_deadvbmennns	conkvbwork_forcenns	deathnnofinhandsnns	deceasennofintheynns	buy_the_farmvbhandsnns	perishvbworkforcenns	govbwork_forcenns	give-up_the_ghostvbhandsnns	kick_the_bucketvbworkforcenns	perishvbwork_forcenns	chokevbmennns	chokevbhandsnns	buy_the_farmvbworkforcenns	exitvbtheynns	perishvbthemnns	pass_awayvbworkforcenns	expirynnofinthemnns	snuff_itvbthemnns	pop_offvbwork_forcenns	deceasennofinthemnns	deceasevbthemnns	kick_the_bucketvbhandsnns	kick_the_bucketvbtheynns	give-up_the_ghostvbmennns	pop_offvbmanpowernns	conkvbmanpowernns	pass_awayvbwork_forcenns	pop_offvbworkforcenns	drop_deadvbworkforcenns	cash_in_one's_chipsvbhandsnns	chokevbtheynns	deathnnofinwork_forcenns	exitvbmanpowernns	buy_the_farmvbthemnns	croakvbtheynns	snuff_itvbhandsnns	pass_awayvbmanpowernns	
+
+BE: areAUXmuchRB
+EQ class: beauxmuchrb	
+
+BE: articlesNNSaboutINdeathsNNS
+EQ class: theynnsaboutindeathsnns	deathnnsthemnns	theynnsaboutinthemnns	articlesnnsaboutinexpirynns	deathsnnstheynns	themnnstheynns	theynnsaboutinexpirynns	themnnsthemnns	deceasennsarticlenns	theynnsaboutindeceasenns	articlennsaboutintheynns	theynnsaboutindeathnns	theynnsarticlenns	expirynnsarticlenns	deceasennsthemnns	expirynnsthemnns	themnnsarticlenns	articlennsaboutinthemnns	themnnsarticlesnns	articlesnnsaboutindeathnns	deathsnnsthemnns	articlennsaboutindeathsnns	themnnsaboutintheynns	themnnsaboutindeathnns	expirynnstheynns	articlennsaboutindeathnns	deathsnnsarticlesnns	articlesnnsaboutinthemnns	deathsnnsarticlenns	deceasennstheynns	theynnsthemnns	deathnnsarticlesnns	themnnsaboutinexpirynns	themnnsaboutinthemnns	theynnstheynns	expirynnsarticlesnns	theynnsaboutintheynns	articlesnnsaboutintheynns	articlennsaboutindeceasenns	deathnnsarticlenns	deathnnstheynns	theynnsarticlesnns	deceasennsarticlesnns	themnnsaboutindeathsnns	articlennsaboutinexpirynns	themnnsaboutindeceasenns	articlesnnsaboutindeceasenns	
+
+BE: dieVBPofINcancerNN
+EQ class: passvbpofinmalignant_neoplastic_diseasenn	pop_offvbpofincancernn	passvbpofincancernn	pop_offvbpofinmalignant_neoplastic_diseasenn	kick_the_bucketvbpofinmalignant_neoplastic_diseasenn	exitvbpofinmalignant_neoplastic_diseasenn	expirevbpofincancernn	buy_the_farmvbpofinmalignant_neoplastic_diseasenn	chokevbpofincancernn	pop_offvbpofincancerousjj	deceasevbpofincancernn	govbpofincancernn	snuff_itvbpofincancernn	cash_in_one's_chipsvbpofincancerousjj	perishvbpofincancerousjj	deceasevbpofincancerousjj	cash_in_one's_chipsvbpofincancernn	chokevbpofinmalignant_neoplastic_diseasenn	give-up_the_ghostvbpofincancernn	pass_awayvbpofincancernn	govbpofinmalignant_neoplastic_diseasenn	drop_deadvbpofincancerousjj	croakvbpofinmalignant_neoplastic_diseasenn	buy_the_farmvbpofincancernn	snuff_itvbpofinmalignant_neoplastic_diseasenn	exitvbpofincancernn	drop_deadvbpofinmalignant_neoplastic_diseasenn	pass_awayvbpofincancerousjj	expirevbpofinmalignant_neoplastic_diseasenn	expirevbpofincancerousjj	cash_in_one's_chipsvbpofinmalignant_neoplastic_diseasenn	drop_deadvbpofincancernn	chokevbpofincancerousjj	kick_the_bucketvbpofincancerousjj	dievbpofinmalignant_neoplastic_diseasenn	dievbpofincancerousjj	perishvbpofincancernn	conkvbpofincancerousjj	give-up_the_ghostvbpofincancerousjj	perishvbpofinmalignant_neoplastic_diseasenn	croakvbpofincancerousjj	passvbpofincancerousjj	pass_awayvbpofinmalignant_neoplastic_diseasenn	exitvbpofincancerousjj	conkvbpofincancernn	croakvbpofincancernn	snuff_itvbpofincancerousjj	govbpofincancerousjj	kick_the_bucketvbpofincancernn	give-up_the_ghostvbpofinmalignant_neoplastic_diseasenn	conkvbpofinmalignant_neoplastic_diseasenn	buy_the_farmvbpofincancerousjj	deceasevbpofinmalignant_neoplastic_diseasenn	
+
+BE: dieVBofINcancerNN
+EQ class: passvbofincancerousjj	chokevbofinmalignant_neoplastic_diseasenn	deceasevbofincancernn	croakvbofinmalignant_neoplastic_diseasenn	expirevbofinmalignant_neoplastic_diseasenn	kick_the_bucketvbofincancernn	perishvbofincancernn	pass_awayvbofincancernn	snuff_itvbofinmalignant_neoplastic_diseasenn	pass_awayvbofincancerousjj	pop_offvbofinmalignant_neoplastic_diseasenn	chokevbofincancernn	perishvbofincancerousjj	cash_in_one's_chipsvbofincancerousjj	deceasevbofinmalignant_neoplastic_diseasenn	drop_deadvbofinmalignant_neoplastic_diseasenn	croakvbofincancernn	drop_deadvbofincancerousjj	pop_offvbofincancerousjj	perishvbofinmalignant_neoplastic_diseasenn	exitvbofincancerousjj	cash_in_one's_chipsvbofinmalignant_neoplastic_diseasenn	conkvbofincancerousjj	pop_offvbofincancernn	give-up_the_ghostvbofincancernn	expirevbofincancernn	exitvbofinmalignant_neoplastic_diseasenn	snuff_itvbofincancerousjj	dievbofinmalignant_neoplastic_diseasenn	pass_awayvbofinmalignant_neoplastic_diseasenn	buy_the_farmvbofincancerousjj	snuff_itvbofincancernn	expirevbofincancerousjj	chokevbofincancerousjj	croakvbofincancerousjj	drop_deadvbofincancernn	dievbofincancerousjj	conkvbofinmalignant_neoplastic_diseasenn	passvbofincancernn	kick_the_bucketvbofincancerousjj	govbofincancerousjj	give-up_the_ghostvbofincancerousjj	govbofincancernn	buy_the_farmvbofinmalignant_neoplastic_diseasenn	govbofinmalignant_neoplastic_diseasenn	kick_the_bucketvbofinmalignant_neoplastic_diseasenn	deceasevbofincancerousjj	conkvbofincancernn	exitvbofincancernn	passvbofinmalignant_neoplastic_diseasenn	give-up_the_ghostvbofinmalignant_neoplastic_diseasenn	cash_in_one's_chipsvbofincancernn	buy_the_farmvbofincancernn	
+
+BE: foundVBDthatINdieVBP
+EQ class: set_upvbdthatinbuy_the_farmvbp	launchvbdthatinpop_offvbp	set_upvbdthatingovbp	launchvbdthatinpass_awayvbp	set_upvbdthatincroakvbp	foundvbdthatingovbp	foundvbdthatinpass_awayvbp	set_upvbdthatincash_in_one's_chipsvbp	set_upvbdthatinpassvbp	set_upvbdthatingive-up_the_ghostvbp	foundvbdthatinexitvbp	launchvbdthatindrop_deadvbp	set_upvbdthatinexpirevbp	set_upvbdthatinkick_the_bucketvbp	foundvbdthatinchokevbp	establishvbdthatingive-up_the_ghostvbp	establishvbdthatinperishvbp	launchvbdthatinbuy_the_farmvbp	launchvbdthatinexpirevbp	establishvbdthatingovbp	establishvbdthatindievbp	set_upvbdthatinsnuff_itvbp	establishvbdthatinbuy_the_farmvbp	launchvbdthatindeceasevbp	establishvbdthatindeceasevbp	establishvbdthatinexitvbp	set_upvbdthatinperishvbp	set_upvbdthatindrop_deadvbp	foundvbdthatindeceasevbp	foundvbdthatindrop_deadvbp	establishvbdthatinpop_offvbp	launchvbdthatinchokevbp	foundvbdthatinpop_offvbp	launchvbdthatinconkvbp	launchvbdthatinkick_the_bucketvbp	foundvbdthatincroakvbp	set_upvbdthatinexitvbp	launchvbdthatincroakvbp	launchvbdthatinsnuff_itvbp	establishvbdthatincroakvbp	launchvbdthatindievbp	establishvbdthatinexpirevbp	foundvbdthatinkick_the_bucketvbp	establishvbdthatinsnuff_itvbp	establishvbdthatinpassvbp	foundvbdthatincash_in_one's_chipsvbp	launchvbdthatincash_in_one's_chipsvbp	foundvbdthatingive-up_the_ghostvbp	foundvbdthatinsnuff_itvbp	set_upvbdthatinpop_offvbp	launchvbdthatingovbp	launchvbdthatinexitvbp	establishvbdthatinpass_awayvbp	foundvbdthatinperishvbp	foundvbdthatinexpirevbp	foundvbdthatinconkvbp	set_upvbdthatindievbp	set_upvbdthatindeceasevbp	launchvbdthatinperishvbp	set_upvbdthatinpass_awayvbp	establishvbdthatindrop_deadvbp	launchvbdthatinpassvbp	set_upvbdthatinconkvbp	establishvbdthatinchokevbp	establishvbdthatinkick_the_bucketvbp	foundvbdthatinpassvbp	foundvbdthatinbuy_the_farmvbp	establishvbdthatinconkvbp	set_upvbdthatinchokevbp	launchvbdthatingive-up_the_ghostvbp	establishvbdthatincash_in_one's_chipsvbp	
+
+BE: dieVBPthanINdieVB
+EQ class: govbpthaninbuy_the_farmvb	buy_the_farmvbpthaninexitvb	cash_in_one's_chipsvbpthaninpass_awayvb	expirevbpthaninexpirevb	buy_the_farmvbpthaninexpirevb	chokevbpthaninchokevb	cash_in_one's_chipsvbpthaninperishvb	deceasevbpthaningovb	kick_the_bucketvbpthaninconkvb	deceasevbpthaninbuy_the_farmvb	deceasevbpthaningive-up_the_ghostvb	snuff_itvbpthanindeceasevb	pass_awayvbpthanindievb	expirevbpthaninconkvb	dievbpthaninsnuff_itvb	snuff_itvbpthanindievb	chokevbpthaninexitvb	deceasevbpthaninpassvb	drop_deadvbpthanindrop_deadvb	chokevbpthaninpassvb	pass_awayvbpthaninpop_offvb	give-up_the_ghostvbpthaninbuy_the_farmvb	buy_the_farmvbpthaninbuy_the_farmvb	drop_deadvbpthaninpass_awayvb	dievbpthaninpass_awayvb	perishvbpthaninexitvb	deceasevbpthanindeceasevb	drop_deadvbpthaninkick_the_bucketvb	cash_in_one's_chipsvbpthaninkick_the_bucketvb	passvbpthaninkick_the_bucketvb	croakvbpthaninbuy_the_farmvb	govbpthaninperishvb	exitvbpthaningive-up_the_ghostvb	conkvbpthaninsnuff_itvb	pass_awayvbpthanindeceasevb	drop_deadvbpthanindievb	pop_offvbpthaninkick_the_bucketvb	expirevbpthaninperishvb	pass_awayvbpthaninconkvb	buy_the_farmvbpthaninkick_the_bucketvb	snuff_itvbpthaninexpirevb	buy_the_farmvbpthaninpass_awayvb	chokevbpthaninconkvb	croakvbpthanincroakvb	perishvbpthaningive-up_the_ghostvb	passvbpthaninexpirevb	kick_the_bucketvbpthaninpop_offvb	snuff_itvbpthaninpassvb	give-up_the_ghostvbpthaninexitvb	give-up_the_ghostvbpthaningive-up_the_ghostvb	buy_the_farmvbpthanincash_in_one's_chipsvb	deceasevbpthaninexitvb	conkvbpthanincash_in_one's_chipsvb	conkvbpthaningovb	give-up_the_ghostvbpthanindievb	pass_awayvbpthanincash_in_one's_chipsvb	chokevbpthanindeceasevb	expirevbpthanindrop_deadvb	perishvbpthanincroakvb	pop_offvbpthaninperishvb	deceasevbpthaninsnuff_itvb	pop_offvbpthaningovb	expirevbpthanincroakvb	cash_in_one's_chipsvbpthaningovb	expirevbpthaningive-up_the_ghostvb	kick_the_bucketvbpthanindrop_deadvb	snuff_itvbpthaninexitvb	perishvbpthaninpop_offvb	snuff_itvbpthaninsnuff_itvb	govbpthanincash_in_one's_chipsvb	deceasevbpthaninpass_awayvb	chokevbpthaninpop_offvb	exitvbpthaninpop_offvb	perishvbpthanincash_in_one's_chipsvb	pop_offvbpthanindeceasevb	kick_the_bucketvbpthaninsnuff_itvb	croakvbpthaninconkvb	give-up_the_ghostvbpthaninchokevb	conkvbpthaninconkvb	pop_offvbpthaninbuy_the_farmvb	pop_offvbpthanindievb	expirevbpthanindievb	cash_in_one's_chipsvbpthanincash_in_one's_chipsvb	deceasevbpthaninexpirevb	exitvbpthanindievb	expirevbpthaninbuy_the_farmvb	kick_the_bucketvbpthaninchokevb	snuff_itvbpthanindrop_deadvb	exitvbpthaninpassvb	give-up_the_ghostvbpthaninsnuff_itvb	pass_awayvbpthaninsnuff_itvb	kick_the_bucketvbpthanincroakvb	croakvbpthaninexitvb	exitvbpthanindrop_deadvb	govbpthaninexitvb	buy_the_farmvbpthanindeceasevb	kick_the_bucketvbpthanindievb	give-up_the_ghostvbpthanincash_in_one's_chipsvb	expirevbpthanindeceasevb	snuff_itvbpthaninkick_the_bucketvb	kick_the_bucketvbpthaninexitvb	kick_the_bucketvbpthaninpassvb	deceasevbpthanincroakvb	chokevbpthaninkick_the_bucketvb	passvbpthanincash_in_one's_chipsvb	snuff_itvbpthanincroakvb	cash_in_one's_chipsvbpthaninbuy_the_farmvb	conkvbpthaninpass_awayvb	passvbpthaningovb	deceasevbpthanincash_in_one's_chipsvb	perishvbpthaninchokevb	dievbpthaningive-up_the_ghostvb	give-up_the_ghostvbpthanincroakvb	croakvbpthaningive-up_the_ghostvb	drop_deadvbpthaningive-up_the_ghostvb	expirevbpthaninkick_the_bucketvb	kick_the_bucketvbpthaningovb	pass_awayvbpthaninkick_the_bucketvb	drop_deadvbpthaninpop_offvb	govbpthaninkick_the_bucketvb	cash_in_one's_chipsvbpthaninexitvb	dievbpthaninconkvb	cash_in_one's_chipsvbpthaninchokevb	cash_in_one's_chipsvbpthanincroakvb	perishvbpthanindievb	pop_offvbpthaninconkvb	conkvbpthaninexpirevb	passvbpthaninconkvb	dievbpthaninpassvb	dievbpthaninbuy_the_farmvb	conkvbpthaninchokevb	perishvbpthanindrop_deadvb	dievbpthaninpop_offvb	deceasevbpthanindrop_deadvb	expirevbpthaninsnuff_itvb	govbpthaninexpirevb	buy_the_farmvbpthaninconkvb	snuff_itvbpthaninchokevb	expirevbpthanincash_in_one's_chipsvb	exitvbpthaninperishvb	pop_offvbpthaninpop_offvb	cash_in_one's_chipsvbpthaningive-up_the_ghostvb	govbpthaninconkvb	conkvbpthaninbuy_the_farmvb	kick_the_bucketvbpthaninexpirevb	passvbpthaninchokevb	passvbpthanindrop_deadvb	pop_offvbpthanindrop_deadvb	give-up_the_ghostvbpthaninpass_awayvb	exitvbpthaninbuy_the_farmvb	deceasevbpthanindievb	croakvbpthanindrop_deadvb	buy_the_farmvbpthaninpop_offvb	chokevbpthaninsnuff_itvb	drop_deadvbpthanindeceasevb	chokevbpthaningive-up_the_ghostvb	govbpthaninchokevb	croakvbpthanincash_in_one's_chipsvb	croakvbpthanindeceasevb	croakvbpthaninkick_the_bucketvb	give-up_the_ghostvbpthanindeceasevb	exitvbpthaninexpirevb	buy_the_farmvbpthaninchokevb	conkvbpthaninpassvb	give-up_the_ghostvbpthaningovb	kick_the_bucketvbpthanincash_in_one's_chipsvb	dievbpthanincash_in_one's_chipsvb	passvbpthanindievb	passvbpthaningive-up_the_ghostvb	dievbpthanindeceasevb	give-up_the_ghostvbpthaninperishvb	croakvbpthaningovb	deceasevbpthaninkick_the_bucketvb	buy_the_farmvbpthaningive-up_the_ghostvb	croakvbpthanindievb	pass_awayvbpthaninexpirevb	perishvbpthaninperishvb	cash_in_one's_chipsvbpthanindrop_deadvb	drop_deadvbpthanincash_in_one's_chipsvb	pass_awayvbpthanincroakvb	govbpthanindievb	chokevbpthaninpass_awayvb	expirevbpthaningovb	exitvbpthaninkick_the_bucketvb	snuff_itvbpthaninpop_offvb	exitvbpthaningovb	cash_in_one's_chipsvbpthaninpassvb	govbpthanincroakvb	pop_offvbpthaninexitvb	buy_the_farmvbpthaninpassvb	buy_the_farmvbpthaninsnuff_itvb	buy_the_farmvbpthaningovb	cash_in_one's_chipsvbpthanindeceasevb	snuff_itvbpthaningive-up_the_ghostvb	dievbpthaninkick_the_bucketvb	croakvbpthaninpass_awayvb	passvbpthaninexitvb	drop_deadvbpthaninsnuff_itvb	chokevbpthanincroakvb	conkvbpthanindievb	perishvbpthaninpass_awayvb	exitvbpthaninsnuff_itvb	pass_awayvbpthaninexitvb	give-up_the_ghostvbpthaninexpirevb	govbpthaninpassvb	cash_in_one's_chipsvbpthaninexpirevb	perishvbpthaninkick_the_bucketvb	govbpthanindeceasevb	pop_offvbpthanincash_in_one's_chipsvb	kick_the_bucketvbpthaninpass_awayvb	kick_the_bucketvbpthaninbuy_the_farmvb	perishvbpthaninsnuff_itvb	cash_in_one's_chipsvbpthaninpop_offvb	pass_awayvbpthaninperishvb	snuff_itvbpthaninconkvb	give-up_the_ghostvbpthaninpassvb	drop_deadvbpthaninexitvb	give-up_the_ghostvbpthaninconkvb	croakvbpthaninpassvb	expirevbpthaninexitvb	conkvbpthaninperishvb	kick_the_bucketvbpthanindeceasevb	croakvbpthaninsnuff_itvb	dievbpthaninchokevb	govbpthaningovb	snuff_itvbpthaninbuy_the_farmvb	perishvbpthaninbuy_the_farmvb	pass_awayvbpthaninpassvb	cash_in_one's_chipsvbpthaninconkvb	pop_offvbpthaninpassvb	cash_in_one's_chipsvbpthaninsnuff_itvb	passvbpthanincroakvb	govbpthaninsnuff_itvb	pass_awayvbpthaningive-up_the_ghostvb	chokevbpthanincash_in_one's_chipsvb	drop_deadvbpthaninperishvb	deceasevbpthaninperishvb	buy_the_farmvbpthaninperishvb	kick_the_bucketvbpthaninperishvb	govbpthaninpop_offvb	perishvbpthaninpassvb	passvbpthaninpop_offvb	govbpthaningive-up_the_ghostvb	deceasevbpthaninpop_offvb	dievbpthaninperishvb	expirevbpthaninpop_offvb	expirevbpthaninpass_awayvb	exitvbpthaninconkvb	chokevbpthaninexpirevb	chokevbpthaninperishvb	pop_offvbpthaninpass_awayvb	snuff_itvbpthaningovb	snuff_itvbpthaninperishvb	buy_the_farmvbpthanindrop_deadvb	perishvbpthaninconkvb	pass_awayvbpthaningovb	snuff_itvbpthaninpass_awayvb	conkvbpthanincroakvb	buy_the_farmvbpthanincroakvb	croakvbpthaninperishvb	croakvbpthaninpop_offvb	deceasevbpthaninchokevb	chokevbpthaningovb	pass_awayvbpthaninchokevb	pass_awayvbpthaninpass_awayvb	dievbpthanindrop_deadvb	kick_the_bucketvbpthaningive-up_the_ghostvb	drop_deadvbpthaningovb	snuff_itvbpthanincash_in_one's_chipsvb	pass_awayvbpthanindrop_deadvb	perishvbpthanindeceasevb	perishvbpthaningovb	croakvbpthaninchokevb	govbpthanindrop_deadvb	drop_deadvbpthaninbuy_the_farmvb	passvbpthaninsnuff_itvb	conkvbpthanindeceasevb	drop_deadvbpthaninpassvb	exitvbpthaninpass_awayvb	pass_awayvbpthaninbuy_the_farmvb	exitvbpthanincash_in_one's_chipsvb	exitvbpthanincroakvb	pop_offvbpthaninsnuff_itvb	deceasevbpthaninconkvb	exitvbpthanindeceasevb	expirevbpthaninchokevb	cash_in_one's_chipsvbpthanindievb	pop_offvbpthaningive-up_the_ghostvb	pop_offvbpthaninexpirevb	exitvbpthaninexitvb	dievbpthanincroakvb	perishvbpthaninexpirevb	buy_the_farmvbpthanindievb	chokevbpthaninbuy_the_farmvb	chokevbpthanindievb	passvbpthaninpassvb	croakvbpthaninexpirevb	dievbpthaninexitvb	give-up_the_ghostvbpthaninkick_the_bucketvb	kick_the_bucketvbpthaninkick_the_bucketvb	pop_offvbpthanincroakvb	drop_deadvbpthaninexpirevb	dievbpthaningovb	chokevbpthanindrop_deadvb	conkvbpthaningive-up_the_ghostvb	passvbpthaninperishvb	give-up_the_ghostvbpthaninpop_offvb	drop_deadvbpthanincroakvb	dievbpthaninexpirevb	passvbpthaninbuy_the_farmvb	expirevbpthaninpassvb	conkvbpthanindrop_deadvb	govbpthaninpass_awayvb	pop_offvbpthaninchokevb	give-up_the_ghostvbpthanindrop_deadvb	passvbpthaninpass_awayvb	passvbpthanindeceasevb	conkvbpthaninexitvb	conkvbpthaninpop_offvb	drop_deadvbpthaninchokevb	conkvbpthaninkick_the_bucketvb	exitvbpthaninchokevb	drop_deadvbpthaninconkvb	
+
+BE: readVBDjustRB
+EQ class: readernnofinjustrb	readnnofinjustrb	readingnnofinjustrb	
+
+BE: areAUXAlsoRB
+EQ class: beauxalsorb	
+
+BE: TVNN
+EQ class: telecastingnn	televisionnn	t.v.nn	videonn	vnn	voltnn	
+
+BE: radioNN
+EQ class: wirelessnn	radiocommunicationnn	
+
+BE: bumperNN
+EQ class: 
+
+BE: stickersNNS
+EQ class: stickernns	pricklenns	spinenns	thornnns	theynns	spikeletnns	prickernns	themnns	
+
+BE: pinkNNS
+EQ class: pinkjj	theynns	themnns	
+
+BE: hubbubNN
+EQ class: uproarnn	brouhahann	katzenjammernn	
+
+BE: tobaccoNN
+EQ class: baccynn	
+
+BE: deathsNNS
+EQ class: deathnns	theynns	expirynns	deceasenns	themnns	
+
+BE: tOrganizationAnnotation
+EQ class: 
+
+BE: moneyNN
+EQ class: monetaryjj	
+
+BE: lungNN
+EQ class: 
+
+BE: cancerNN
+EQ class: cancerousjj	malignant_neoplastic_diseasenn	
+
+BE: researchNN
+EQ class: 
+
+BE: etcNN
+EQ class: 
+
+BE: disparityNN
+EQ class: disparatejj	
+
+BE: lookVBP
+EQ class: 
+
+BE: seeVBP
+EQ class: 
+
+BE: causingVBG
+EQ class: makevbg	causevbg	dovbg	
+
+BE: donVB
+EQ class: assumevb	put_onvb	wearvb	get_intovb	
+
+BE: spendVB
+EQ class: passvb	
+
+BE: muchJJ
+EQ class: muchnessnn	
+
+BE: causingVBGdeathsNNS
+EQ class: causevbgtheynns	dovbgdeathnns	causationnnofinexpirynns	causingvbgexpirynns	causaljjofintheynns	causingvbgdeathnns	dovbgdeceasenns	causaljjofinexpirynns	causaljjofindeceasenns	dovbgthemnns	causativennofinexpirynns	makevbgtheynns	causennofindeathnns	causennofindeceasenns	causevbgthemnns	causevbgdeathsnns	causationnnofindeathnns	causativennofindeceasenns	causevbgexpirynns	makevbgdeathsnns	causaljjofindeathsnns	causingnnofintheynns	causingvbgtheynns	causennofinthemnns	causativennofintheynns	causevbgdeathnns	causationnnofintheynns	causingnnofindeathsnns	causingvbgdeceasenns	dovbgexpirynns	causennofinexpirynns	causationnnofindeathsnns	dovbgtheynns	causennofindeathsnns	causativennofinthemnns	causativennofindeathnns	causaljjofinthemnns	causingnnofinthemnns	causingvbgthemnns	causingnnofinexpirynns	causingnnofindeceasenns	causevbgdeceasenns	causationnnofinthemnns	makevbgthemnns	causingnnofindeathnns	causaljjofindeathnns	dovbgdeathsnns	makevbgdeathnns	makevbgexpirynns	causationnnofindeceasenns	makevbgdeceasenns	causennofintheynns	causativennofindeathsnns	
+
+BE: muchJJmoneyNN
+EQ class: muchnessnnmoneynn	muchnessnnmonetaryjj	muchjjmonetaryjj	
+
+BE: bumperNNstickersNNS
+EQ class: stickernnsofinbumpernn	bumpernnspikeletnns	bumpernnthornnns	depositvbbumpernn	prickernnsofinbumpernn	thornnnsofinbumpernn	bumpernnthemnns	themnnsofinbumpernn	lodgevbbumpernn	wedgevbbumpernn	bumpernnpricklenns	bumpernntheynns	pricklennsofinbumpernn	stickvbbumpernn	bumpernnspinenns	bumpernnwedgevb	stickersnnsofinbumpernn	bumpernnstickvb	spinennsofinbumpernn	theynnsofinbumpernn	bumpernnprickernns	spikeletnnsofinbumpernn	bumpernnstickernns	bumpernndepositvb	bumpernnlodgevb	
+
+BE: researchNNetcNN
+EQ class: etcnnresearchvb	investigatornnofinetcnn	researchnnofinetcnn	researchernnofinetcnn	research_workernnofinetcnn	
+
+BE: cancerNNetcNN
+EQ class: malignant_neoplastic_diseasennetcnn	cancerousjjetcnn	
+
+BE: lungNNetcNN
+EQ class: 
+
+BE: wePRPlookVBP
+EQ class: facennofinweprp	lookernnweprp	lookernnofinweprp	witnessnnofinweprp	looknnofinweprp	viewernnweprp	aspectnnofinweprp	expressionnnofinweprp	spectatornnofinweprp	spectatornnweprp	viewernnofinweprp	facial_expressionnnofinweprp	witnessnnweprp	watchernnofinweprp	watchernnweprp	
+
+BE: wePRPseeVBP
+EQ class: visionarynnofinweprp	beholdingnnofinweprp	seernnweprp	beholdingnnweprp	visionarynnweprp	visual_perceptionnnweprp	illusionistnnofinweprp	seeingnnofinweprp	seernnofinweprp	seeingnnweprp	visual_perceptionnnofinweprp	illusionistnnweprp	
+
+BE: wePRPdonVB
+EQ class: weprpassumevb	weprpwearvb	weprpget_intovb	weprpput_onvb	
+
+BE: tOrganizationAnnotationspendVB
+EQ class: torganizationannotationpassvb	
+
+BE: seeVBPpinkNNS
+EQ class: seevbpthemnns	illusionistnnofinpinkjj	visionarynnofinpinkjj	visual_perceptionnnofintheynns	visionarynnofintheynns	visionarynnofinpinknns	beholdingnnofinpinkjj	seernnofinpinkjj	visual_perceptionnnofinpinknns	beholdingnnofinthemnns	illusionistnnofintheynns	beholdingnnofinpinknns	seevbppinkjj	seeingnnofinthemnns	seeingnnofinpinkjj	seernnofinthemnns	visual_perceptionnnofinpinkjj	illusionistnnofinpinknns	seernnofinpinknns	illusionistnnofinthemnns	seernnofintheynns	visionarynnofinthemnns	seeingnnofintheynns	beholdingnnofintheynns	seeingnnofinpinknns	visual_perceptionnnofinthemnns	seevbptheynns	
+
+BE: spendVBmoneyNN
+EQ class: passvbmonetaryjj	passvbmoneynn	spendvbmonetaryjj	
+
+BE: isAUXdisparityNN
+EQ class: beauxdisparatejj	beauxdisparitynn	isauxdisparatejj	
+
+BE: donVBtOrganizationAnnotation
+EQ class: wearvbtorganizationannotation	put_onvbtorganizationannotation	get_intovbtorganizationannotation	assumevbtorganizationannotation	
+
+BE: hubbubNNaboutINdeathsNNS
+EQ class: expirynnskatzenjammernn	deceasennsbrouhahann	hubbubnnaboutinexpirynns	hubbubnnaboutindeathnns	hubbubnnaboutinthemnns	theynnsbrouhahann	katzenjammernnaboutinthemnns	katzenjammernnaboutinexpirynns	uproarnnaboutintheynns	deceasennsuproarnn	theynnskatzenjammernn	expirynnsbrouhahann	deathsnnsuproarnn	katzenjammernnaboutindeathnns	uproarnnaboutindeathnns	uproarnnaboutinthemnns	theynnsuproarnn	themnnskatzenjammernn	brouhahannaboutinthemnns	deathsnnsbrouhahann	themnnsbrouhahann	expirynnsuproarnn	deceasennshubbubnn	deceasennskatzenjammernn	deathsnnskatzenjammernn	katzenjammernnaboutindeathsnns	deathnnsuproarnn	brouhahannaboutintheynns	deathsnnshubbubnn	katzenjammernnaboutintheynns	theynnshubbubnn	deathnnsbrouhahann	brouhahannaboutinexpirynns	uproarnnaboutinexpirynns	themnnsuproarnn	uproarnnaboutindeathsnns	expirynnshubbubnn	brouhahannaboutindeathnns	brouhahannaboutindeceasenns	brouhahannaboutindeathsnns	hubbubnnaboutindeceasenns	deathnnskatzenjammernn	deathnnshubbubnn	hubbubnnaboutintheynns	uproarnnaboutindeceasenns	katzenjammernnaboutindeceasenns	themnnshubbubnn	
+
+BE: spendVBonINetcNN
+EQ class: passvboninetcnn	
+
+BE: donVBwithINhubbubNN
+EQ class: wearvbwithinbrouhahann	get_intovbwithinuproarnn	wearvbwithinhubbubnn	get_intovbwithinbrouhahann	assumevbwithinuproarnn	assumevbwithinbrouhahann	put_onvbwithinhubbubnn	put_onvbwithinkatzenjammernn	donvbwithinbrouhahann	donvbwithinuproarnn	wearvbwithinuproarnn	donvbwithinkatzenjammernn	put_onvbwithinuproarnn	put_onvbwithinbrouhahann	get_intovbwithinhubbubnn	assumevbwithinkatzenjammernn	assumevbwithinhubbubnn	get_intovbwithinkatzenjammernn	wearvbwithinkatzenjammernn	
+
+BE: lookVBPEverywhereRB
+EQ class: lookernnofineverywhererb	witnessnnofineverywhererb	facennofineverywhererb	expressionnnofineverywhererb	aspectnnofineverywhererb	spectatornnofineverywhererb	watchernnofineverywhererb	viewernnofineverywhererb	facial_expressionnnofineverywhererb	looknnofineverywhererb	
+
+BE: isAUXthereRB
+EQ class: beauxthererb	
+
+BE: ribbonsNNS
+EQ class: ribbonyjj	theynns	threadnns	ribbonnns	themnns	
+
+BE: awarenessNN
+EQ class: awarejj	cognizancenn	knowingnessnn	consciousnessnn	cognisancenn	
+
+BE: Prostate Cancer! ;-POrganizationAnnotation
+EQ class: prostate cancer! ;.-.p.organizationannotation	
+
+BE: wonderingVBG
+EQ class: enquirevbg	wondervbg	inquirevbg	
+
+BE: helpVB
+EQ class: aidvb	assistvb	
+
+BE: startVB
+EQ class: set_outvb	beginvb	get_downvb	commencevb	start_outvb	set_aboutvb	getvb	
+
+BE: makingVBG
+EQ class: makevbg	dovbg	
+
+BE: raiseVB
+EQ class: 
+
+BE: brownJJ
+EQ class: chocolate-brownjj	dark-brownjj	brownnessnn	brownishjj	
+
+BE: brownJJribbonsNNS
+EQ class: chocolate-brownjjribbonnns	brownnessnnthreadnns	brownishjjtheynns	chocolate-brownjjthreadnns	brownnessnnthemnns	dark-brownjjribbonyjj	brownnessnntheynns	dark-brownjjthemnns	brownishjjribbonyjj	dark-brownjjribbonsnns	dark-brownjjribbonnns	dark-brownjjthreadnns	brownjjribbonyjj	dark-brownjjtheynns	brownjjtheynns	brownishjjribbonnns	brownishjjthemnns	brownjjthreadnns	brownjjribbonnns	brownishjjribbonsnns	chocolate-brownjjribbonyjj	brownishjjthreadnns	chocolate-brownjjribbonsnns	brownnessnnribbonyjj	brownnessnnribbonnns	chocolate-brownjjthemnns	brownjjthemnns	chocolate-brownjjtheynns	brownnessnnribbonsnns	
+
+BE: iPRPwonderingVBG
+EQ class: iprpwondervbg	wondernnofiniprp	admirationnnofiniprp	iprpenquirevbg	wondermentnnofiniprp	iprpinquirevbg	wonderernnofiniprp	wonderernniprp	
+
+BE: itPRPhelpVB
+EQ class: helpnnofinitprp	supporternnofinitprp	assistancennofinitprp	helpernnofinitprp	itprpaidvb	assistantnnofinitprp	supporternnitprp	helpernnitprp	itprpassistvb	assistantnnitprp	assistnnofinitprp	helpnnitprp	aidnnofinitprp	
+
+BE: makingVBGribbonsNNS
+EQ class: dovbgribbonnns	makingvbgtheynns	dovbgthreadnns	dovbgribbonsnns	makevbgribbonyjj	dovbgribbonyjj	dovbgthemnns	makevbgribbonsnns	makevbgtheynns	makingvbgthreadnns	makingvbgthemnns	makevbgribbonnns	makingvbgribbonnns	dovbgtheynns	makevbgthemnns	makevbgthreadnns	makingvbgribbonyjj	
+
+BE: raiseVBawarenessNN
+EQ class: risennofinawarejj	raisennofincognisancenn	wage_increasennofinawarenessnn	raisevbconsciousnessnn	raisennofinknowingnessnn	raisevbcognisancenn	salary_increasennofincognizancenn	risennofinconsciousnessnn	wage_increasennofinconsciousnessnn	raisennofinawarejj	salary_increasennofinawarejj	raisevbknowingnessnn	hikennofincognizancenn	raisennofinawarenessnn	raisevbcognizancenn	wage_increasennofincognisancenn	wage_hikennofinawarenessnn	salary_increasennofinconsciousnessnn	hikennofinconsciousnessnn	wage_hikennofincognisancenn	wage_increasennofincognizancenn	wage_increasennofinknowingnessnn	raisennofinconsciousnessnn	salary_increasennofinawarenessnn	risennofinknowingnessnn	wage_increasennofinawarejj	wage_hikennofinknowingnessnn	wage_hikennofinawarejj	salary_increasennofinknowingnessnn	raisevbawarejj	hikennofinawarenessnn	risennofinawarenessnn	raisennofincognizancenn	hikennofinknowingnessnn	risennofincognizancenn	wage_hikennofincognizancenn	wage_hikennofinconsciousnessnn	hikennofinawarejj	hikennofincognisancenn	salary_increasennofincognisancenn	risennofincognisancenn	
+
+BE: awarenessNNtoTOProstate Cancer! ;-POrganizationAnnotation
+EQ class: prostate cancer! ;-porganizationannotationcognizancenn	prostate cancer! ;-porganizationannotationknowingnessnn	cognisancenntotoprostate cancer! ;-porganizationannotation	cognizancenntotoprostate cancer! ;-porganizationannotation	consciousnessnntotoprostate cancer! ;-porganizationannotation	prostate cancer! ;.-.p.organizationannotationawarevb	knowingnessnntotoprostate cancer! ;.-.p.organizationannotation	prostate cancer! ;-porganizationannotationconsciousnessnn	consciousnessnntotoprostate cancer! ;.-.p.organizationannotation	prostate cancer! ;-porganizationannotationawarejj	cognisancenntotoprostate cancer! ;.-.p.organizationannotation	prostate cancer! ;-porganizationannotationawarevb	prostate cancer! ;-porganizationannotationawarenessnn	prostate cancer! ;.-.p.organizationannotationawarejj	knowingnessnntotoprostate cancer! ;-porganizationannotation	awarejjtotoprostate cancer! ;-porganizationannotation	prostate cancer! ;.-.p.organizationannotationcognisancenn	awarevbprostate cancer! ;.-.p.organizationannotation	prostate cancer! ;.-.p.organizationannotationknowingnessnn	prostate cancer! ;.-.p.organizationannotationconsciousnessnn	awarejjtotoprostate cancer! ;.-.p.organizationannotation	cognizancenntotoprostate cancer! ;.-.p.organizationannotation	awarenessnntotoprostate cancer! ;.-.p.organizationannotation	awarevbprostate cancer! ;-porganizationannotation	prostate cancer! ;.-.p.organizationannotationcognizancenn	prostate cancer! ;.-.p.organizationannotationawarenessnn	prostate cancer! ;-porganizationannotationcognisancenn	
+
+BE: wonderingVBGifINhelpVB
+EQ class: enquirevbgifinhelpvb	wondervbgifinassistvb	wonderingvbgifinaidvb	wondervbgifinhelpvb	inquirevbgifinassistvb	inquirevbgifinaidvb	wondervbgifinaidvb	enquirevbgifinassistvb	wonderingvbgifinassistvb	enquirevbgifinaidvb	inquirevbgifinhelpvb	
+
+BE: helpVBstartVB
+EQ class: helpernnofinstart_outvb	assistancennofincommencevb	assistancennofinstart_outvb	assistvbset_aboutvb	assistvbget_downvb	aidnnofinget_downvb	helpernnofingetvb	assistancennofinget_downvb	supporternnofincommencevb	supporternnofinbeginvb	helpnnofinset_outvb	aidnnofingetvb	supporternnofinget_downvb	assistantnnofincommencevb	helpernnofinget_downvb	assistnnofinset_aboutvb	helpnnofinbeginvb	aidnnofinbeginvb	assistantnnofinbeginvb	helpvbstart_outvb	helpvbset_aboutvb	aidvbstartvb	helpvbget_downvb	helpernnofinstartvb	assistvbstartvb	assistnnofinbeginvb	aidvbbeginvb	supporternnofinstart_outvb	aidvbstart_outvb	assistvbset_outvb	assistancennofinset_outvb	assistnnofingetvb	helpvbset_outvb	assistnnofinstartvb	helpnnofinstart_outvb	assistnnofinstart_outvb	helpnnofinset_aboutvb	assistnnofinget_downvb	assistnnofincommencevb	assistantnnofingetvb	aidvbgetvb	aidnnofinstartvb	assistantnnofinget_downvb	helpnnofinstartvb	helpnnofincommencevb	assistvbcommencevb	assistancennofinstartvb	assistvbbeginvb	aidvbset_aboutvb	helpvbcommencevb	supporternnofingetvb	assistancennofingetvb	helpnnofingetvb	assistnnofinset_outvb	helpvbgetvb	supporternnofinset_outvb	supporternnofinstartvb	assistantnnofinset_aboutvb	aidvbget_downvb	assistancennofinbeginvb	assistancennofinset_aboutvb	aidvbcommencevb	assistvbstart_outvb	aidnnofinset_outvb	assistantnnofinstart_outvb	aidnnofincommencevb	helpernnofincommencevb	helpernnofinbeginvb	aidnnofinset_aboutvb	helpvbbeginvb	assistvbgetvb	aidvbset_outvb	helpnnofinget_downvb	assistantnnofinstartvb	helpernnofinset_aboutvb	supporternnofinset_aboutvb	aidnnofinstart_outvb	assistantnnofinset_outvb	helpernnofinset_outvb	
+
+BE: wasAUXalsoRB
+EQ class: beauxalsorb	
+
+BE: wonderingVBGalsoRB
+EQ class: enquirevbgalsorb	wondervbgalsorb	wondermentnnofinalsorb	admirationnnofinalsorb	inquirevbgalsorb	wondernnofinalsorb	wonderernnofinalsorb	
+

@@ -1,0 +1,47 @@
+#how do cancer cells spread??
+#(S1 (SBARQ (WHADVP (WRB how)) (SQ (AUX do) (NP (NN cancer) (NNS cells)) (VP (VB spread)) (. ?)) (. ?)))
+#Rule:Nouns
+r1cancerNN
+r1cellsNNS
+
+#Rule:Verbs
+r2spreadVB
+
+#Rule:N-HeadNoun
+r8cancerNNcellsNNS
+
+#i always here of someone that has cancer of some body part or other and then it spreads to another part, but how does it spread?
+#(S1 (S (S (NP (NP (NP (PRP i) (RB always) (RB here)) (PP (IN of) (NP (NP (NN someone)) (SBAR (WHNP (WDT that)) (S (VP (AUX has) (NP (NN cancer)))))))) (PP (IN of) (NP (DT some) (NN body)))) (ADJP (NN part) (CC or) (JJ other))) (CC and) (RB then) (S (NP (PRP it)) (VP (VBZ spreads) (PP (TO to) (NP (DT another) (NN part))))) (, ,) (CC but) (SBARQ (WHADVP (WRB how)) (SQ (AUX does) (NP (PRP it)) (VP (VB spread))) (. ?))))
+#Rule:Nouns
+r1someoneNN
+r1cancerNN
+r1bodyNN
+r1partNN
+r1partNN
+
+#Rule:Verbs
+r2spreadsVBZ
+r2spreadVB
+
+#Rule:Adjs
+r4otherJJ
+
+#Rule:HeadNoun-V
+r11itPRPspreadsVBZ
+
+#Rule:HeadNoun-(who/that)-V
+r14someoneNNhasAUX
+
+#Rule:V-HeadNoun
+r21hasAUXcancerNN
+
+#Rule:PPinNP
+r26hereRBofINbodyNN
+r26hereRBofINsomeoneNN
+
+#Rule:PPinVP
+r30spreadsVBZtoTOpartNN
+
+@lemmas-left	cells	body	other	it	have	cell	here	has	spreads	someone	spread	part	cancer	
+@lemmas-right	body	cells	have	spreads	someone	cell	part	spread	cancer	has	
+@lemmas-center	to	of	

@@ -1,0 +1,29 @@
+#well how do we know what is in the bible is actually true? 
+#(S1 (SBARQ (WHADVP (RB well) (WRB how)) (SQ (AUX do) (NP (PRP we)) (VP (VB know) (SBAR (WHNP (WP what)) (S (VP (AUX is) (PP (IN in) (NP (NP (DT the) (JJ bible)) (SBAR (S (VP (AUX is) (ADVP (RB actually)) (ADJP (JJ true)))))))))))) (. ?)))
+#Rule:Verbs
+r2knowVB
+
+#Rule:Adjs
+r4bibleJJ
+r4trueJJ
+
+#Rule:V-ADJ
+r25isAUXtrueJJ
+
+#Rule:PPinVP
+r30isAUXinINbibleJJ
+
+#Rule:V-ADV
+r46isAUXactuallyRB
+
+#we dont.
+#(S1 (S (NP (PRP we)) (VP (VBP dont)) (. .)))
+#Rule:Verbs
+r2dontLocationAnnotation
+
+#Rule:HeadNoun-V
+r11wePRPdontLocationAnnotation
+
+@lemmas-left	is	dont	true	bible	know	we	be	
+@lemmas-right	dont	true	actually	bible	
+@lemmas-center	in	

@@ -1,0 +1,234 @@
+BE: familyNN
+EQ class: homenn	menagenn	householdnn	housenn	
+
+BE: cancerNN
+EQ class: cancerousjj	malignant_neoplastic_diseasenn	
+
+BE: helpVB
+EQ class: aidvb	assistvb	
+
+BE: dealingVBG
+EQ class: covervbg	treatvbg	plowvbg	handlevbg	dealvbg	addressvbg	
+
+BE: yourPRP$familyNN
+EQ class: yourprp$housenn	householdnnofinyourprp$	yourprp$menagenn	familynnofinyourprp$	menagennofinyourprp$	housennofinyourprp$	homennofinyourprp$	yourprp$householdnn	yourprp$homenn	
+
+BE: yourPRP$cancerNN
+EQ class: malignant_neoplastic_diseasennofinyourprp$	cancerousvbyourprp$	yourprp$malignant_neoplastic_diseasenn	yourprp$cancerousjj	cancerousjjofinyourprp$	yourprp$cancerousvb	cancernnofinyourprp$	
+
+BE: helpVBfamilyNN
+EQ class: assistancennofinhouseholdnn	assistancennofinfamilynn	assistnnofinhouseholdnn	aidnnofinhousenn	supporternnofinhouseholdnn	assistvbhouseholdnn	assistvbfamilynn	helpvbmenagenn	aidvbmenagenn	assistnnofinhomenn	helpernnofinfamilynn	helpernnofinhomenn	assistvbhomenn	helpnnofinhomenn	aidvbhousenn	assistnnofinmenagenn	helpnnofinmenagenn	assistantnnofinhomenn	assistvbmenagenn	supporternnofinhomenn	aidnnofinhouseholdnn	aidvbhouseholdnn	helpernnofinhousenn	supporternnofinmenagenn	assistnnofinfamilynn	supporternnofinhousenn	aidvbfamilynn	helpernnofinhouseholdnn	supporternnofinfamilynn	assistantnnofinmenagenn	helpnnofinhousenn	assistnnofinhousenn	aidnnofinmenagenn	aidvbhomenn	helpvbhousenn	assistancennofinmenagenn	assistantnnofinfamilynn	assistancennofinhomenn	helpernnofinmenagenn	assistantnnofinhouseholdnn	assistvbhousenn	assistancennofinhousenn	helpvbhouseholdnn	helpnnofinfamilynn	assistantnnofinhousenn	helpvbhomenn	aidnnofinfamilynn	aidnnofinhomenn	helpnnofinhouseholdnn	
+
+BE: dealingVBGwithINcancerNN
+EQ class: addressvbgwithinmalignant_neoplastic_diseasenn	dealvbgwithincancerousjj	covervbgwithinmalignant_neoplastic_diseasenn	addressvbgwithincancerousjj	plowvbgwithinmalignant_neoplastic_diseasenn	covervbgwithincancerousjj	treatvbgwithincancernn	handlevbgwithinmalignant_neoplastic_diseasenn	covervbgwithincancernn	addressvbgwithincancernn	plowvbgwithincancernn	treatvbgwithincancerousjj	dealvbgwithinmalignant_neoplastic_diseasenn	handlevbgwithincancerousjj	dealvbgwithincancernn	handlevbgwithincancernn	treatvbgwithinmalignant_neoplastic_diseasenn	dealingvbgwithinmalignant_neoplastic_diseasenn	dealingvbgwithincancerousjj	plowvbgwithincancerousjj	
+
+BE: yearNN
+EQ class: twelvemonthnn	yearlyjj	yrnn	
+
+BE: contactNN
+EQ class: 
+
+BE: fatherNN
+EQ class: male_parentnn	begetternn	fatherlyjj	
+
+BE: somethingNN
+EQ class: 
+
+BE: stageNN
+EQ class: phasenn	
+
+BE: breastNN
+EQ class: chestnn	
+
+BE: cancerNN
+EQ class: cancerousjj	malignant_neoplastic_diseasenn	
+
+BE: prognosisNN
+EQ class: prognosticjj	forecastnn	
+
+BE: dealNN
+EQ class: tradenn	business_dealnn	
+
+BE: fearNN
+EQ class: fearfulnessnn	frightnn	
+
+BE: mNNP
+EQ class: meternnp	metrennp	
+
+BE: groupsNNS
+EQ class: theynns	groupingnns	groupnns	themnns	
+
+BE: familiesNNS
+EQ class: housenns	familynns	theynns	menagenns	homenns	householdnns	themnns	
+
+BE: childrenNNS
+EQ class: kidnns	tykenns	small_frynns	minornns	youngsternns	nestlingnns	childlyjj	theynns	frynns	tiddlernns	nippernns	shavernns	tikenns	themnns	childnns	
+
+BE: cancerNN
+EQ class: cancerousjj	malignant_neoplastic_diseasenn	
+
+BE: patientsNNS
+EQ class: patientnns	theynns	themnns	
+
+BE: knowVBP
+EQ class: cognizevbp	cognisevbp	
+
+BE: sOrganizationAnnotation
+EQ class: 
+
+BE: goingVBG
+EQ class: movevbg	govbg	travelvbg	locomotevbg	
+
+BE: happeningVBG
+EQ class: fall_outvbg	happenvbg	hapvbg	pass_offvbg	take_placevbg	passvbg	occurvbg	go_onvbg	come_aboutvbg	
+
+BE: sVBZ
+EQ class: 
+
+BE: helpVB
+EQ class: aidvb	assistvb	
+
+BE: dealVB
+EQ class: handlevb	covervb	plowvb	addressvb	treatvb	
+
+BE: goingVBG
+EQ class: movevbg	govbg	travelvbg	locomotevbg	
+
+BE: supportVB
+EQ class: back_upvb	
+
+BE: oldJJ
+EQ class: oldnessnn	
+
+BE: littleJJ
+EQ class: littlenessnn	smalljj	
+
+BE: afraidJJ
+EQ class: 
+
+BE: sureJJ
+EQ class: surenessnn	certainjj	
+
+BE: 1stJJ
+EQ class: firstjj	
+
+BE: goodJJ
+EQ class: goodnessnn	
+
+BE: 15CDyearNN
+EQ class: 15cdyearlyjj	fifteencdtwelvemonthnn	xvcdyearnn	xvcdyrnn	xvcdtwelvemonthnn	xvcdyearlyjj	fifteencdyrnn	1.5.cdyearlyjj	fifteencdyearlyjj	1.5.cdyearnn	1.5.cdtwelvemonthnn	15cdyrnn	1.5.cdyrnn	15cdtwelvemonthnn	fifteencdyearnn	
+
+BE: littleJJcontactNN
+EQ class: smalljjcontactnn	littlenessnncontactnn	
+
+BE: 1stJJcancerNN
+EQ class: 1stjjcancerousjj	1stjjmalignant_neoplastic_diseasenn	firstjjcancerousjj	firstjjmalignant_neoplastic_diseasenn	firstjjcancernn	
+
+BE: herPRP$fatherNN
+EQ class: generatevbherprp$	herprp$getvb	fathervbherprp$	herprp$engendervb	getvbherprp$	herprp$mothervb	bring_forthvbherprp$	begetternnofinherprp$	herprp$male_parentnn	herprp$fatherlyjj	herprp$fathervb	sirevbherprp$	male_parentnnofinherprp$	engendervbherprp$	mothervbherprp$	herprp$fatherlyvb	herprp$begetvb	begetvbherprp$	herprp$generatevb	fathernnofinherprp$	herprp$begetternn	herprp$sirevb	fatherlyvbherprp$	fatherlyjjofinherprp$	herprp$bring_forthvb	
+
+BE: herPRP$dealNN
+EQ class: plowvbherprp$	herprp$plowvb	herprp$treatvb	covervbherprp$	herprp$dealvb	addressvbherprp$	treatvbherprp$	herprp$covervb	herprp$handlevb	tradennofinherprp$	herprp$business_dealnn	herprp$addressvb	herprp$tradenn	handlevbherprp$	dealnnofinherprp$	dealvbherprp$	business_dealnnofinherprp$	
+
+BE: herPRP$fearNN
+EQ class: fearnnofinherprp$	frightnnofinherprp$	fearfulnessnnofinherprp$	herprp$fearvb	fearvbherprp$	herprp$fearfulnessnn	herprp$frightnn	
+
+BE: breastNNcancerNN
+EQ class: chestnncancernn	malignant_neoplastic_diseasennbreastvb	breastnncancerousvb	chestnnofincancernn	cancerousvbbreastnn	cancerousjjofinbreastnn	cancerousjjofinchestnn	malignant_neoplastic_diseasennofinchestnn	breastnnofincancernn	chestnncancerousjj	chestnncancerousvb	cancerousvbchestnn	cancernnofinbreastnn	cancernnofinchestnn	chestnnmalignant_neoplastic_diseasenn	breastnnofincancerousjj	breastnnofinmalignant_neoplastic_diseasenn	breastnncancerousjj	breastnnmalignant_neoplastic_diseasenn	cancerousjjbreastvb	cancernnbreastvb	chestnnofinmalignant_neoplastic_diseasenn	chestnnofincancerousjj	malignant_neoplastic_diseasennofinbreastnn	
+
+BE: stageNNcancerNN
+EQ class: stagenncancerousjj	cancerousvbstagenn	cancerousvbphasenn	cancerousjjofinstagenn	phasenncancernn	phasenncancerousjj	stagenncancerousvb	phasenncancerousvb	cancernnofinstagenn	malignant_neoplastic_diseasennofinphasenn	phasennmalignant_neoplastic_diseasenn	cancernnofinphasenn	stagennmalignant_neoplastic_diseasenn	malignant_neoplastic_diseasennofinstagenn	cancerousjjofinphasenn	
+
+BE: cancerNNpatientsNNS
+EQ class: cancernnpatientnns	malignant_neoplastic_diseasennthemnns	themnnsofincancerousjj	patientnnsofincancerousjj	malignant_neoplastic_diseasennpatientsnns	cancerousjjthemnns	theynnsofincancernn	theynnsofincancerousjj	cancerousjjpatientnns	patientsnnsofinmalignant_neoplastic_diseasenn	patientnnsofincancernn	theynnsofinmalignant_neoplastic_diseasenn	malignant_neoplastic_diseasenntheynns	patientsnnsofincancerousjj	cancernnthemnns	cancernntheynns	cancerousjjtheynns	themnnsofincancernn	patientsnnsofincancernn	cancerousjjpatientsnns	malignant_neoplastic_diseasennpatientnns	themnnsofinmalignant_neoplastic_diseasenn	patientnnsofinmalignant_neoplastic_diseasenn	
+
+BE: iPRPhaveAUX
+EQ class: iprphave_gotaux	rich_personnnofiniprp	iprpholdaux	wealthy_personnnofiniprp	havennofiniprp	
+
+BE: iPRPknowVBP
+EQ class: iprpcognizevbp	knowablennofiniprp	apprehendernniprp	knowingnniprp	knowingnnofiniprp	apprehendernnofiniprp	knowernnofiniprp	knowernniprp	iprpcognisevbp	
+
+BE: shePRPsOrganizationAnnotation
+EQ class: 
+
+BE: shePRPgoingVBG
+EQ class: sheprptravelvbg	sheprpmovevbg	sheprplocomotevbg	sheprpgovbg	
+
+BE: somethingNNhappeningVBG
+EQ class: occurrentnnofinsomethingnn	somethingnntake_placevbg	occurrencennsomethingnn	occurrencennofinsomethingnn	happeningnnofinsomethingnn	happeningnnsomethingnn	natural_eventnnofinsomethingnn	somethingnngo_onvbg	somethingnnoccurvbg	somethingnnhapvbg	somethingnncome_aboutvbg	somethingnnfall_outvbg	natural_eventnnsomethingnn	somethingnnpassvbg	somethingnnpass_offvbg	occurrentnnsomethingnn	somethingnnhappenvbg	
+
+BE: theyPRPareAUX
+EQ class: familiesprpbeaux	childrenprpbeaux	theyprpbeaux	groupsprpbeaux	groupsprpareaux	patientsprpbeaux	sprpbeaux	childrenprpareaux	patientsprpareaux	familiesprpareaux	sprpareaux	
+
+BE: itPRPsVBZ
+EQ class: 
+
+BE: cancerNNisAUX
+EQ class: cancernnbeaux	cancerousjjisaux	malignant_neoplastic_diseasennbeaux	malignant_neoplastic_diseasennisaux	cancerousjjbeaux	
+
+BE: prognosisNNisAUX
+EQ class: prognosticjjisaux	prognosisnnbeaux	prognosticjjbeaux	forecastnnbeaux	forecastnnisaux	
+
+BE: iPRPhaveAUX
+EQ class: iprphave_gotaux	rich_personnnofiniprp	iprpholdaux	wealthy_personnnofiniprp	havennofiniprp	
+
+BE: iPRPgoingVBG
+EQ class: iprptravelvbg	iprplocomotevbg	iprpmovevbg	iprpgovbg	
+
+BE: knowVBPcontactNN
+EQ class: knowernnofincontactnn	knowablennofincontactnn	cognizevbpcontactnn	apprehendernnofincontactnn	knowingnnofincontactnn	cognisevbpcontactnn	
+
+BE: hasAUXcontactNN
+EQ class: wealthy_personnnofincontactnn	havennofincontactnn	rich_personnnofincontactnn	have_gotauxcontactnn	haveauxcontactnn	holdauxcontactnn	
+
+BE: helpVBdealNN
+EQ class: aidnnofinbusiness_dealnn	helpernnofindealnn	assistnnofintradenn	supporternnofinbusiness_dealnn	helpnnofindealnn	helpvbbusiness_dealnn	helpnnofinbusiness_dealnn	aidvbtradenn	aidvbdealnn	helpnnofintradenn	assistancennofintradenn	supporternnofintradenn	assistancennofindealnn	helpernnofinbusiness_dealnn	assistvbbusiness_dealnn	aidvbbusiness_dealnn	assistvbdealnn	helpernnofintradenn	aidnnofindealnn	assistnnofindealnn	assistantnnofindealnn	assistnnofinbusiness_dealnn	aidnnofintradenn	assistantnnofintradenn	assistancennofinbusiness_dealnn	helpvbtradenn	assistvbtradenn	assistantnnofinbusiness_dealnn	supporternnofindealnn	
+
+BE: supportVBgroupsNNS
+EQ class: supportivennofintheynns	friendnnofingroupsnns	friendnnofingroupnns	supportivennofingroupnns	protagonistnnofintheynns	protagonistnnofingroupsnns	friendnnofintheynns	supportvbtheynns	supportvbgroupingnns	friendnnofinthemnns	championnnofingroupingnns	protagonistnnofinthemnns	supportnnofingroupingnns	supporternnofingroupnns	supporternnofintheynns	supporternnofingroupingnns	supporternnofingroupsnns	admirernnofingroupnns	back_upvbthemnns	championnnofintheynns	boosternnofingroupingnns	championnnofingroupsnns	boosternnofinthemnns	supporternnofinthemnns	protagonistnnofingroupnns	admirernnofingroupingnns	supportnnofintheynns	friendnnofingroupingnns	boosternnofintheynns	supportivennofingroupingnns	boosternnofingroupsnns	back_upvbgroupsnns	admirernnofingroupsnns	supportivennofinthemnns	admirernnofinthemnns	supportvbgroupnns	supportnnofingroupsnns	supportnnofinthemnns	championnnofinthemnns	admirernnofintheynns	back_upvbgroupingnns	back_upvbgroupnns	supportvbthemnns	supportnnofingroupnns	supportivennofingroupsnns	back_upvbtheynns	championnnofingroupnns	boosternnofingroupnns	protagonistnnofingroupingnns	
+
+BE: beAUXafraidJJ
+EQ class: 
+
+BE: areAUXsureJJ
+EQ class: beauxsurenessnn	beauxcertainjj	beauxsurejj	areauxsurenessnn	areauxcertainjj	
+
+BE: isAUXgoodJJ
+EQ class: isauxgoodnessnn	beauxgoodnessnn	beauxgoodjj	
+
+BE: contactNNwithINfatherNN
+EQ class: get_hold_ofvbmale_parentnn	male_parentnnget_hold_ofvb	get_throughvbfatherlyjj	fatherlyjjreachvb	reachvbfatherlyjj	get_hold_ofvbfatherlyjj	fathernnreachvb	get_throughvbfathernn	begetternnget_hold_ofvb	contactvbfatherlyjj	get_throughvbbegetternn	fathernnget_hold_ofvb	reachvbfathernn	male_parentnnreachvb	fathernncontactvb	begetternncontactnn	fatherlyjjget_throughvb	male_parentnncontactnn	begetternnreachvb	contactvbmale_parentnn	begetternnget_throughvb	get_hold_ofvbfathernn	get_throughvbmale_parentnn	get_hold_ofvbbegetternn	male_parentnncontactvb	fatherlyjjcontactnn	begetternncontactvb	fatherlyjjget_hold_ofvb	contactnnwithinfatherlyjj	contactnnwithinmale_parentnn	reachvbbegetternn	contactnnwithinbegetternn	male_parentnnget_throughvb	fatherlyjjcontactvb	contactvbbegetternn	reachvbmale_parentnn	fathernncontactnn	fathernnget_throughvb	contactvbfathernn	
+
+BE: groupsNNSforINfamiliesNNS
+EQ class: groupsnnsforintheynns	householdnnsgroupvb	groupnnsforinfamilynns	groupvbmenagenns	groupsnnsforinmenagenns	groupvbhouseholdnns	housennsgroupsnns	groupingnnsforinhouseholdnns	familiesnnstheynns	themnnsgroupvb	theynnsgroupnns	themnnsgroupsnns	housennsgroupingnns	groupsnnsforinhousenns	menagennsgroupnns	menagennsgroupingnns	groupnnsforinthemnns	groupingnnsforinfamilynns	groupvbhomenns	groupvbhousenns	themnnsgroupingnns	menagennsgroupsnns	homennsgroupvb	groupnnsforintheynns	groupingnnsforinfamiliesnns	themnnsforinthemnns	theynnsgroupvb	theynnsgroupsnns	theynnsforinhouseholdnns	menagennsthemnns	familiesnnsgroupsnns	theynnstheynns	familynnsgroupsnns	theynnsforinmenagenns	householdnnsgroupnns	householdnnstheynns	householdnnsgroupingnns	theynnsforintheynns	groupingnnsforinhomenns	groupingnnsforinmenagenns	theynnsforinfamiliesnns	familynnsthemnns	homennstheynns	familynnstheynns	familynnsgroupnns	housennstheynns	theynnsforinhomenns	groupnnsforinmenagenns	groupnnsforinhouseholdnns	groupvbthemnns	themnnstheynns	themnnsthemnns	familynnsgroupingnns	groupsnnsforinfamilynns	homennsgroupingnns	themnnsforinhomenns	themnnsforinhouseholdnns	homennsgroupnns	groupsnnsforinhouseholdnns	groupnnsforinhomenns	familiesnnsgroupnns	groupingnnsforinthemnns	theynnsforinthemnns	groupsnnsforinthemnns	householdnnsgroupsnns	householdnnsthemnns	familiesnnsthemnns	groupvbtheynns	familiesnnsgroupvb	theynnsthemnns	familynnsgroupvb	themnnsforinfamilynns	menagennstheynns	menagennsgroupvb	themnnsgroupnns	housennsgroupnns	themnnsforintheynns	theynnsgroupingnns	theynnsforinfamilynns	groupnnsforinhousenns	themnnsforinhousenns	themnnsforinmenagenns	housennsgroupvb	groupvbfamiliesnns	groupingnnsforintheynns	homennsthemnns	themnnsforinfamiliesnns	groupingnnsforinhousenns	theynnsforinhousenns	familiesnnsgroupingnns	groupsnnsforinhomenns	housennsthemnns	homennsgroupsnns	groupvbfamilynns	groupnnsforinfamiliesnns	
+
+BE: familiesNNSofINpatientsNNS
+EQ class: housennsofinpatientsnns	homennsofinthemnns	householdnnsofintheynns	patientsnnshousenns	patientsnnstheynns	patientsnnshouseholdnns	themnnshomenns	themnnsofinpatientsnns	homennsofintheynns	familynnsofinthemnns	themnnshousenns	theynnshomenns	themnnsofinpatientnns	housennsofinthemnns	patientnnshomenns	patientsnnsmenagenns	familiesnnsofinthemnns	theynnshousenns	patientsnnsthemnns	theynnstheynns	patientsnnsfamilynns	themnnsfamiliesnns	patientnnshousenns	householdnnsofinpatientsnns	patientsnnshomenns	patientnnstheynns	menagennsofinpatientsnns	householdnnsofinpatientnns	theynnsofinpatientnns	homennsofinpatientsnns	patientnnshouseholdnns	homennsofinpatientnns	familynnsofinpatientsnns	themnnstheynns	themnnsmenagenns	theynnsfamiliesnns	themnnsthemnns	housennsofintheynns	menagennsofinthemnns	theynnshouseholdnns	theynnsmenagenns	themnnshouseholdnns	themnnsofinthemnns	menagennsofintheynns	patientnnsthemnns	themnnsofintheynns	theynnsthemnns	theynnsfamilynns	theynnsofinpatientsnns	menagennsofinpatientnns	housennsofinpatientnns	theynnsofinthemnns	patientnnsfamiliesnns	patientsnnsfamiliesnns	familynnsofintheynns	theynnsofintheynns	patientnnsmenagenns	patientnnsfamilynns	householdnnsofinthemnns	familiesnnsofinpatientnns	familiesnnsofintheynns	familynnsofinpatientnns	themnnsfamilynns	
+
+BE: happeningVBGtoTOmeFW
+EQ class: hapvbgtotomefw	passvbgtotomefw	happenvbgtotomefw	pass_offvbgtotomefw	come_aboutvbgtotomefw	go_onvbgtotomefw	take_placevbgtotomefw	fall_outvbgtotomefw	occurvbgtotomefw	
+
+BE: helpVBwithINfearNN
+EQ class: helpvbwithinfearfulnessnn	assistvbwithinfrightnn	assistvbwithinfearfulnessnn	aidvbwithinfearfulnessnn	aidvbwithinfrightnn	assistvbwithinfearnn	helpvbwithinfrightnn	aidvbwithinfearnn	
+
+BE: afraidJJofINsomethingNN
+EQ class: 
+
+BE: knowVBPthatINsOrganizationAnnotation
+EQ class: cognisevbpthatinsorganizationannotation	cognizevbpthatinsorganizationannotation	
+
+BE: knowVBPthatINgoingVBG
+EQ class: knowvbpthatinmovevbg	knowvbpthatinlocomotevbg	cognizevbpthatinmovevbg	cognizevbpthatingoingvbg	cognisevbpthatintravelvbg	cognisevbpthatinmovevbg	cognizevbpthatinlocomotevbg	knowvbpthatingovbg	cognisevbpthatingovbg	cognisevbpthatingoingvbg	cognizevbpthatingovbg	knowvbpthatintravelvbg	cognisevbpthatinlocomotevbg	cognizevbpthatintravelvbg	
+
+BE: beAUXthoughINareAUX
+EQ class: beauxthoughinbeaux	
+
+BE: haveAUXalsoRB
+EQ class: wealthy_personnnofinalsorb	havennofinalsorb	have_gotauxalsorb	rich_personnnofinalsorb	holdauxalsorb	
+
+BE: goingVBGthroughRB
+EQ class: travelvbgthroughrb	govbgthroughrb	movevbgthroughrb	locomotevbgthroughrb	
+
+BE: supportVBthereRB
+EQ class: friendnnofinthererb	boosternnofinthererb	supportivennofinthererb	supportnnofinthererb	admirernnofinthererb	championnnofinthererb	back_upvbthererb	protagonistnnofinthererb	supporternnofinthererb	
+

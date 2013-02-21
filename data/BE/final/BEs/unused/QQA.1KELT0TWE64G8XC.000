@@ -1,0 +1,31 @@
+#why after so much of degrees and qaulifications many people end up broke?
+#(S1 (SBARQ (WHADVP (WRB why)) (S (PP (IN after) (NP (NP (RB so) (RB much)) (PP (IN of) (NP (NNS degrees) (CC and) (NNS qaulifications))))) (NP (JJ many) (NNS people)) (VP (VB end) (PRT (RP up)) (ADVP (RB broke)))) (. ?)))
+#Rule:Nouns
+r1degreesNNS
+r1qaulificationsOrganizationAnnotation
+r1peopleNNS
+
+#Rule:V-PRT
+r3endVBupRP
+
+#Rule:Adjs
+r4manyJJ
+
+#Rule:Adj-Noun
+r5manyJJpeopleNNS
+
+#Rule:HeadNoun-V
+r11peopleNNSendVB
+
+#Rule:PPinNP
+r26muchRBofINdegreesNNS
+
+#Rule:PPinS
+r36endVBafterINmuchRB
+
+#Rule:V-ADV
+r46endVBbrokeRB
+
+@lemmas-left	many	qaulifications	degree	degrees	people	much	end	
+@lemmas-right	break	degree	degrees	people	much	end	broke	up	
+@lemmas-center	after	of	

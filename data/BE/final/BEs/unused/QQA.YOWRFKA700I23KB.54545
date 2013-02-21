@@ -1,0 +1,80 @@
+#WORK YOUR BUTT OFF! 
+#(S1 (S (VP (VB WORK) (NP (PRP$ YOUR) (NN BUTT)) (PRT (RP OFF))) (. !)))
+#Rule:Nouns
+r1WORK YOUR BUTTOrganizationAnnotation
+
+#Rule:V-PRT
+r3WORK YOUR BUTTOrganizationAnnotationOFFRP
+
+#TUTORING, GET A JOB AFTER SCHOOL- SOMETIMES YOU CAN GET A TUTORING JOB DURING SCHOOL!! 
+#(S1 (S (NP (NN TUTORING)) (, ,) (VP (VB GET) (NP (DT A) (NN JOB)) (SBAR (IN AFTER) (S (`` SCHOOL-) (ADVP (RB SOMETIMES)) (NP (PRP YOU)) (VP (MD CAN) (VP (VB GET) (NP (DT A) (JJ TUTORING) (NN JOB)) (PP (IN DURING) (NP (NN SCHOOL))))) (. !)))) (. !)))
+#Rule:Nouns
+r1TUTORINGNN
+r1GET A JOB AFTER SCHOOL- SOMETIMES YOU CAN GET A TUTORING JOB DURING SCHOOL!!OrganizationAnnotation
+
+#Rule:HeadNoun-V
+r11TUTORINGNNGET A JOB AFTER SCHOOL- SOMETIMES YOU CAN GET A TUTORING JOB DURING SCHOOL!!OrganizationAnnotation
+
+#BABYSIT.. 
+#(S1 (INTJ (JJ BABYSIT) (. .) (. .)))
+#Rule:Adjs
+r4BABYSITJJ
+
+#HELP DO MAILINGS.. 
+#(S1 (SINV (VP (VB HELP)) (VP (AUX DO)) (NP (NP (NNS MAILINGS)) (. .)) (. .)))
+#Rule:Nouns
+r1MAILINGSNNS
+
+#Rule:Verbs
+r2helpVB
+
+#APPLY FOR JOBS ONLINE WHERE YOU CAN DO THE WORK ANYTIME!! 
+#(S1 (S (VP (VB APPLY) (PP (IN FOR) (NP (NP (NNS JOBS)) (VP (VBN ONLINE) (SBAR (WHADVP (WRB WHERE)) (S (NP (PRP YOU)) (VP (MD CAN) (VP (AUX DO) (NP (DT THE) (NN WORK)) (ADVP (RB ANYTIME))))) (. !)))))) (. !)))
+#Rule:Nouns
+r1JOBS ONLINE WHERE YOU CAN DOOrganizationAnnotation
+r1WORK ANYTIME!!OrganizationAnnotation
+
+#Rule:Verbs
+r2applyVB
+
+#Rule:V-HeadNoun
+r21JOBS ONLINE WHERE YOU CAN DOOrganizationAnnotationWORK ANYTIME!!OrganizationAnnotation
+
+#Rule:PPinVP
+r30applyVBforINJOBS ONLINE WHERE YOU CAN DOOrganizationAnnotation
+
+#SELL STUFF ON EBAY!   
+#(S1 (S (VP (VB SELL) (NP (NP (NN STUFF)) (PP (IN ON) (NP (NNP EBAY))))) (. !)))
+#Rule:Nouns
+r1SELL STUFF ON EBAY!OrganizationAnnotation
+
+#SELL THINGS OUT OF YOUR LOCKER IN SCHOOL! 
+#(S1 (S (VP (VB SELL) (NP (NNS THINGS)) (PP (IN OUT) (PP (IN OF) (NP (NP (PRP$ YOUR) (NNP LOCKER)) (PP (IN IN) (NP (NN SCHOOL))))))) (. !)))
+#Rule:Nouns
+r1THINGSNNS
+r1LOCKERNNP
+r1SCHOOL!LocationAnnotation
+
+#Rule:Verbs
+r2sellVB
+
+#Rule:PRP-Noun
+r6yourPRP$LOCKERNNP
+
+#Rule:V-HeadNoun
+r21sellVBTHINGSNNS
+
+#Rule:PPinNP
+r26LOCKERNNPinINSCHOOL!LocationAnnotation
+
+#Rule:PPComboInVP
+r34sellVBoutINLOCKERNNP
+
+#BUSINESS EVERYWHERE!!
+#(S1 (FRAG (NP (NN BUSINESS)) (ADVP (RB EVERYWHERE)) (. !) (. !)))
+#Rule:Nouns
+r1BUSINESSOrganizationAnnotation
+
+@lemmas-left	mailing	JOBS ONLINE WHERE YOU CAN DO	apply	THINGS	MAILINGS	SELL STUFF ON EBAY!	your	locker	babysit	WORK ANYTIME!!	LOCKER	SCHOOL!	WORK YOUR BUTT	help	sell	tutor	BABYSIT	BUSINESS	things	TUTORING	GET A JOB AFTER SCHOOL- SOMETIMES YOU CAN GET A TUTORING JOB DURING SCHOOL!!	
+@lemmas-right	SCHOOL!	JOBS ONLINE WHERE YOU CAN DO	THINGS	locker	off	WORK ANYTIME!!	things	OFF	LOCKER	GET A JOB AFTER SCHOOL- SOMETIMES YOU CAN GET A TUTORING JOB DURING SCHOOL!!	
+@lemmas-center	for	in	out	

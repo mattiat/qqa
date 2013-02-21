@@ -1,0 +1,73 @@
+#How does someone die of lung cancer ?
+#(S1 (SBARQ (WHADVP (WRB How)) (SQ (AUX does) (NP (NN someone)) (VP (VB die) (PP (IN of) (NP (NN lung) (NN cancer))))) (. ?)))
+#Rule:Nouns
+r1someoneNN
+r1lungNN
+r1cancerNN
+
+#Rule:Verbs
+r2dieVB
+
+#Rule:N-HeadNoun
+r8lungNNcancerNN
+
+#Rule:PPinVP
+r30dieVBofINcancerNN
+
+#I smoke &need to know the details: how do I know if I have it? 
+#(S1 (S (NP (PRP I)) (VP (VBP smoke) (ADJP (JJ &need) (S (VP (TO to) (VP (VB know) (NP (DT the) (NNS details))))))) (: :) (SBARQ (WHADVP (WRB how)) (SQ (AUX do) (NP (PRP I)) (VP (VB know) (SBAR (IN if) (S (NP (PRP I)) (VP (AUX have) (NP (PRP it))))))) (. ?))))
+#Rule:Nouns
+r1detailsNNS
+
+#Rule:Verbs
+r2smokeVBP
+r2knowVB
+r2knowVB
+
+#Rule:Adjs
+r4&needJJ
+
+#Rule:HeadNoun-V
+r11iPRPsmokeVBP
+r11iPRPhaveAUX
+
+#Rule:V-HeadNoun
+r21knowVBdetailsNNS
+r21haveAUXitPRP
+
+#Rule:V-IN-V
+r43knowVBifINhaveAUX
+
+#how do I die from it?
+#(S1 (SBARQ (WHADVP (WRB how)) (SQ (AUX do) (NP (PRP I)) (VP (VB die) (PP (IN from) (NP (PRP it))))) (. ?)))
+#Rule:Verbs
+r2dieVB
+
+#Rule:PPinVP
+r30dieVBfromINitLocationAnnotation
+
+#(is it slow death ?)
+#(S1 (PRN (-LRB- -LRB-) (SQ (AUX is) (NP (PRP it)) (NP (JJ slow) (NN death)) (. ?)) (-RRB- -RRB-)))
+#Rule:Nouns
+r1deathNN
+
+#Rule:Adjs
+r4slowJJ
+
+#Rule:Adj-Noun
+r5slowJJdeathNN
+
+#what are the symptoms ,etc. of it?
+#(S1 (SBARQ (WHNP (WP what)) (SQ (VP (AUX are) (NP (NP (DT the) (NX (NX (NNS symptoms)) (, ,) (FW etc.))) (PP (IN of) (NP (PRP it)))))) (. ?)))
+#Rule:Nouns
+r1symptomsNNS
+
+#Rule:V-HeadNoun
+r21areAUXsymptomsNNS
+
+#Rule:PPinNP
+r26symptomsNNSofINitLocationAnnotation
+
+@lemmas-left	need	have	death	know	smoke	i	symptoms	lung	are	details	someone	die	&need	slow	cancer	be	symptom	
+@lemmas-right	symptoms	it	details	have	death	smoke	cancer	symptom	
+@lemmas-center	of	if	from	

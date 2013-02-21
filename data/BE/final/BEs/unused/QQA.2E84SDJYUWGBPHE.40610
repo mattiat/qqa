@@ -1,0 +1,168 @@
+#I m type 2 and it seems that people would rather believe Great Aunt Gertie who can barely write her name rather than medically qualified experts.  
+#(S1 (S (S (NP (PRP I)) (NP (NNP m) (NN type) (CD 2))) (CC and) (S (NP (PRP it)) (VP (VBZ seems) (SBAR (IN that) (S (NP (NNS people)) (VP (MD would) (ADVP (RB rather)) (VP (VB believe) (NP (NP (NNP Great) (NNP Aunt) (NNP Gertie)) (SBAR (WHNP (WP who)) (S (VP (MD can) (ADVP (RB barely)) (VP (VB write) (NP (PRP$ her) (NN name)) (PP (RB rather) (IN than) (NP (ADJP (RB medically) (JJ qualified)) (NNS experts)))))))))))))) (. .)))
+#Rule:Nouns
+r1mNNP
+r1typeNN
+r1peopleNNS
+r1Great Aunt GertieLocationAnnotation
+r1nameNN
+r1expertsNNS
+
+#Rule:Verbs
+r2seemsVBZ
+r2believeVB
+r2writeVB
+
+#Rule:Adjs
+r4qualifiedJJ
+
+#Rule:Adj-Noun
+r52CDtypeNN
+r5qualifiedJJexpertsNNS
+
+#Rule:PRP-Noun
+r6herPRP$nameNN
+
+#Rule:N-HeadNoun
+r8mNNPtypeNN
+
+#Rule:HeadNoun-V
+r11itPRPseemsVBZ
+r11peopleNNSbelieveVB
+
+#Rule:HeadNoun-(who/that)-V
+r14Great Aunt GertieLocationAnnotationwriteVB
+
+#Rule:V-HeadNoun
+r21believeVBGreat Aunt GertieLocationAnnotation
+r21writeVBnameNN
+
+#Rule:PPinVP
+r30writeVBthanINexpertsNNS
+
+#Rule:V-IN-V
+r43seemsVBZthatINbelieveVB
+
+#Rule:V-ADV
+r46believeVBratherRB
+r46writeVBbarelyRB
+
+#Theres a lot of ignorance around!!  
+#(S1 (X (FRAG (VP (VBZ Theres) (NP (NP (DT a) (NN lot)) (PP (IN of) (NP (NN ignorance)))) (ADVP (RB around))) (. !)) (. !)))
+#Rule:Nouns
+r1lotNN
+r1ignoranceNN
+
+#Rule:Verbs
+r2theresVBZ
+
+#Rule:V-HeadNoun
+r21theresVBZlotNN
+
+#Rule:PPinNP
+r26lotNNofINignoranceNN
+
+#Rule:V-ADV
+r46theresVBZaroundRB
+
+#To prove my point..I asked a question a while back about going hypo when it was cold (I was at the time on medication to control my diabetes) and some expert Yahoo Answerer told me I couldn t go hypo if I wasn t on insulin!  
+#(S1 (S (S (S (VP (TO To) (VP (VB prove) (NP (PRP$ my) (NN point)) (ADVP (RB ..))))) (NP (PRP I)) (VP (VBD asked) (NP (NP (DT a) (NN question)) (ADVP (NP (DT a) (NN while)) (RB back)) (PP (IN about) (NP (VBG going) (NN hypo)))) (SBAR (WHADVP (WRB when)) (S (NP (PRP it)) (VP (AUX was) (ADJP (JJ cold))))))) (PRN (-LRB- -LRB-) (S (NP (PRP I)) (VP (AUX was) (PP (IN at) (NP (NP (DT the) (NN time)) (PP (IN on) (NP (NN medication) (S (VP (TO to) (VP (VB control) (NP (PRP$ my) (NN diabetes))))))))))) (-RRB- -RRB-)) (CC and) (S (NP (DT some) (JJ expert) (NNP Yahoo) (NNP Answerer)) (VP (VBD told) (NP (PRP me)) (SBAR (S (NP (PRP I)) (VP (MD couldn) (RB t) (VP (VB go) (ADJP (JJ hypo)) (SBAR (IN if) (S (NP (PRP I)) (VP (VBP wasn) (NP (NP (NNS t)) (PP (IN on) (NP (NN insulin))))))))))))) (. !)))
+#Rule:Nouns
+r1pointNN
+r1questionNN
+r1whileNN
+r1hypoNN
+r1timeNN
+r1medicationNN
+r1diabetesNN
+r1Yahoo AnswererPersonAnnotation
+r1tNNS
+r1insulin!LocationAnnotation
+
+#Rule:Verbs
+r2proveVB
+r2askedVBD
+r2goingVBG
+r2controlVB
+r2toldVBD
+r2goVB
+r2wasnVBP
+
+#Rule:Adjs
+r4coldJJ
+r4expertJJ
+r4hypoJJ
+
+#Rule:Adj-Noun
+r5goingVBGhypoNN
+r5expertJJYahoo AnswererPersonAnnotation
+
+#Rule:PRP-Noun
+r6myPRP$pointNN
+r6myPRP$diabetesNN
+
+#Rule:HeadNoun-V
+r11iPRPaskedVBD
+r11itPRPwasAUX
+r11iPRPwasAUX
+r11Yahoo AnswererPersonAnnotationtoldVBD
+r11iPRPgoVB
+r11iPRPwasnVBP
+
+#Rule:V-HeadNoun
+r21proveVBpointNN
+r21askedVBDquestionNN
+r21controlVBdiabetesNN
+r21toldVBDmePRP
+r21wasnVBPtNNS
+
+#Rule:V-ADJ
+r25wasAUXcoldJJ
+
+#Rule:PPinNP
+r26questionNNaboutINhypoNN
+r26timeNNonINmedicationNN
+r26tNNSonINinsulin!LocationAnnotation
+
+#Rule:PPinVP
+r30wasAUXatINtimeNN
+
+#Rule:V-IN-V
+r43goVBifINwasnVBP
+
+#Rule:V-ADV
+r46proveVB..RB
+
+#Rule:SubVerbClause
+r50iPRPproveVB
+
+#It worries me sometimes that these idiots could be believed!!!
+#(S1 (S (NP (PRP It)) (VP (VBZ worries) (NP (PRP me)) (ADVP (RB sometimes)) (SBAR (IN that) (S (NP (DT these) (NNS idiots)) (VP (MD could) (VP (AUX be) (VP (VBN believed) (S (ADJP (JJ !!))))))))) (. !)))
+#Rule:Nouns
+r1idiotsNNS
+
+#Rule:Verbs
+r2worriesVBZ
+r2believedVBN
+
+#Rule:Adjs
+r4!!JJ
+
+#Rule:HeadNoun-V
+r11itPRPworriesVBZ
+
+#Rule:V-HeadNoun
+r21worriesVBZmePRP
+
+#Rule:V-HeadNoun(passive)
+r23believedVBNidiotsNNS
+
+#Rule:V-IN-V
+r43worriesVBZthatINbelievedVBN
+
+#Rule:V-ADV
+r46worriesVBZsometimesRB
+
+@lemmas-left	Yahoo Answerer	type	people	time	cold	idiot	her	be	asked	control	prove	going	told	idiots	theres	2	lot	ask	go	expert	insulin!	diabetes	ignorance	believe	Great Aunt Gertie	while	was	seems	believed	name	write	tell	question	medication	experts	wasn	it	!!	m	hypo	seem	my	i	point	t	there	worries	worry	qualified	
+@lemmas-right	expert	barely	sometimes	insulin!	diabetes	ignorance	Yahoo Answerer	believe	type	Great Aunt Gertie	was	believed	time	seems	cold	..	name	write	idiot	rather	me	tell	question	be	medication	asked	wasn	experts	prove	told	seem	hypo	idiots	around	point	t	worries	lot	ask	worry	go	
+@lemmas-center	of	that	if	than	at	about	on	

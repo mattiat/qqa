@@ -1,0 +1,226 @@
+#There 18 MORE where that came  from Doc2. NONE of them show any support to the FARCICAL anti- saturated fat / anti- cholesterol campaign..
+#(S1 (FRAG (ADJP (QP (RB There) (CD 18)) (JJR MORE)) (SBAR (WHADVP (WRB where)) (S (NP (DT that)) (VP (VBD came) (PP (IN from) (NP (NNP Doc2.))) (NP (NP (NN NONE)) (PP (IN of) (S (NP (PRP them)) (VP (VB show) (NP (DT any) (NN support)) (PP (TO to) (NP (NP (DT the) (JJ FARCICAL) (NN anti-)) (VP (VBN saturated) (NP (ADJP (JJ fat) (JJ /)) (JJ anti-) (NN cholesterol) (NN campaign)))))) (. .))))))) (. .)))
+#Rule:Nouns
+r1Doc2LocationAnnotation
+r1NONENN
+r1supportNN
+r1anti-NN
+r1cholesterolNN
+r1campaignNN
+
+#Rule:Verbs
+r2cameVBD
+r2showVB
+r2saturatedVBN
+
+#Rule:Adjs
+r4MOREJJR
+r4FARCICALOrganizationAnnotation
+r4fatJJ
+r4/OrganizationAnnotation
+r4anti-JJ
+
+#Rule:Adj-Noun
+r5FARCICALOrganizationAnnotationanti-NN
+r5fatJJcampaignNN
+r5/OrganizationAnnotationcampaignNN
+r5anti-JJcampaignNN
+
+#Rule:N-HeadNoun
+r8cholesterolNNcampaignNN
+
+#Rule:HeadNoun-V
+r11thatDTcameVBD
+r11themPRPshowVB
+
+#Rule:V-HeadNoun
+r21cameVBDNONENN
+r21showVBsupportNN
+r21saturatedVBNcampaignNN
+
+#Rule:V-HeadNoun(passive)
+r24saturatedVBNanti-NN
+
+#Rule:PPinVP
+r30cameVBDfromINDoc2LocationAnnotation
+r30showVBtoTOanti-NN
+
+#IT IS TIME THE TRUTH CAME OUT.Remember people these are Randomized Clinical Trials some of which were also double blinded Anti saturated fat/anti - cholesterol  proponents have been working overtime MANUFACTURING EXCUSES for the FAILURE of their beloved  false regimen..
+#(S1 (S (NP (PRP IT)) (VP (AUX IS) (NP (NP (NN TIME)) (SBAR (S (NP (DT THE) (NN TRUTH)) (VP (VBD CAME) (SBAR (S (NP (JJR OUT.Remember) (NNS people)) (NP (DT these)) (VP (AUX are) (NP (NP (JJ Randomized) (JJ Clinical) (NNS Trials)) (SBAR (WHNP (DT some) (WHPP (IN of) (WHNP (WDT which)))) (S (VP (AUX were) (ADVP (RB also)) (ADJP (RB double) (VBN blinded) (S (S (NP (NNP Anti)) (VP (VBD saturated) (NP (NNS fat/anti)))) (: -) (S (NP (NN cholesterol) (NNS proponents)) (VP (AUX have) (VP (AUX been) (VP (VBG working) (ADVP (RB overtime)) (NP (NN MANUFACTURING) (NNS EXCUSES)) (PP (IN for) (NP (NP (DT the) (NN FAILURE)) (PP (IN of) (NP (PRP$ their) (JJ beloved) (JJ false) (NN regimen))))))))) (. .))))))))))))))) (. .)))
+#Rule:Nouns
+r1TIMENN
+r1TRUTHNN
+r1peopleNNS
+r1TrialsNNS
+r1AntiOrganizationAnnotation
+r1fat/antiNNS
+r1cholesterolNN
+r1proponentsNNS
+r1MANUFACTURINGNN
+r1EXCUSESNNS
+r1FAILUREOrganizationAnnotation
+r1regimenNN
+
+#Rule:Verbs
+r2cameVBD
+r2blindedVBN
+r2saturatedVBD
+r2workingVBG
+
+#Rule:Adjs
+r4OUT.RememberJJR
+r4Randomized ClinicalOrganizationAnnotation
+r4belovedJJ
+r4falseJJ
+
+#Rule:Adj-Noun
+r5OUT.RememberJJRpeopleNNS
+r5Randomized ClinicalOrganizationAnnotationTrialsNNS
+r5belovedJJregimenNN
+r5falseJJregimenNN
+
+#Rule:PRP-Noun
+r6theirPRP$regimenNN
+
+#Rule:N-HeadNoun
+r8cholesterolNNproponentsNNS
+r8MANUFACTURINGNNEXCUSESNNS
+
+#Rule:HeadNoun-V
+r11itPRPisAUX
+r11TRUTHNNcameVBD
+r11peopleNNSareAUX
+r11theseDTareAUX
+r11AntiOrganizationAnnotationsaturatedVBD
+r11proponentsNNSworkingVBG
+
+#Rule:HeadNoun-(who/that)-V
+r14TrialsNNSwereAUX
+
+#Rule:NP(NP(z) SBAR(S(NP(x)VP(y))))
+r19cameVBDTIMENN
+
+#Rule:V-HeadNoun
+r21isAUXTIMENN
+r21areAUXTrialsNNS
+r21saturatedVBDfat/antiNNS
+r21workingVBGEXCUSESNNS
+
+#Rule:V-ADJ
+r25wereAUXblindedVBN
+
+#Rule:PPinNP
+r26FAILUREOrganizationAnnotationofINregimenNN
+
+#Rule:PPinVP
+r30workingVBGforINFAILUREOrganizationAnnotation
+
+#Rule:V-ADV
+r46wereAUXalsoRB
+r46workingVBGovertimeRB
+
+#Rule:IS-RULE
+r47TrialsNNSpeopleNNS
+
+#The only FALLACY ,   Doc2 is the FARCICAL LOW FAT DIET/ anticholesterol campaign..
+#(S1 (S (NP (DT The) (JJ only) (NN FALLACY)) (, ,) (NP (NNP Doc2)) (VP (AUX is) (NP (DT the) (JJ FARCICAL) (JJ LOW) (JJ FAT) (NN DIET/) (NN anticholesterol) (NN campaign) (. .))) (. .)))
+#Rule:Nouns
+r1FALLACYNN
+r1Doc2PersonAnnotation
+r1DIET/NN
+r1anticholesterolNN
+r1campaignNN
+
+#Rule:Adjs
+r4onlyJJ
+r4FARCICAL LOWOrganizationAnnotation
+r4FATJJ
+
+#Rule:Adj-Noun
+r5onlyJJFALLACYNN
+r5FARCICAL LOWOrganizationAnnotationcampaignNN
+r5FATJJcampaignNN
+
+#Rule:N-HeadNoun
+r8anticholesterolNNcampaignNN
+r8DIET/NNcampaignNN
+
+#Rule:HeadNoun-V
+r11FALLACYNNisAUX
+r11Doc2PersonAnnotationisAUX
+
+#Rule:V-HeadNoun
+r21isAUXcampaignNN
+
+#Rule:IS-RULE
+r47campaignNNFALLACYNN
+r47campaignNNDoc2PersonAnnotation
+
+#YOU have been exposed Doc2 and Harmony by the research of Anthony Colpo..
+#(S1 (S (NP (PRP YOU)) (VP (AUX have) (VP (AUX been) (VP (VBN exposed) (NP (NP (NNP Doc2)) (CC and) (NP (NP (NN Harmony)) (PP (IN by) (NP (NP (DT the) (NN research)) (PP (IN of) (NP (NNP Anthony) (NNP Colpo) (. .)))))))))) (. .)))
+#Rule:Nouns
+r1Doc2OrganizationAnnotation
+r1HarmonyOrganizationAnnotation
+r1researchNN
+r1Anthony ColpoPersonAnnotation
+
+#Rule:Verbs
+r2exposedVBN
+
+#Rule:V-HeadNoun
+r21exposedVBNDoc2OrganizationAnnotation
+
+#Rule:V-HeadNoun(passive)
+r23exposedVBNyouPRP
+
+#Rule:PPinNP
+r26HarmonyOrganizationAnnotationbyINresearchNN
+r26researchNNofINAnthony ColpoPersonAnnotation
+
+#AGAIN HARMONY yano WAS PROSPECTIVE I CLEARLY STATE THISYOU DO NOT LISTENI HAVE ALREADY CITED THE CLINICAL DIETARY INTERVENTIONTHESE ARE  26 PROSPECTIVE THAT DO NOT SUPPORT THE LIPID HYPOTHESI SEITHER
+#(S1 (S (ADVP (RB AGAIN)) (NP (NN HARMONY) (NN yano)) (VP (AUX WAS) (ADJP (JJ PROSPECTIVE) (SBAR (S (NP (PRP I)) (ADVP (RB CLEARLY)) (VP (VBP STATE) (SBAR (S (NP (NNP THISYOU)) (VP (AUX DO) (RB NOT) (SBAR (S (NP (NNP LISTENI)) (VP (AUX HAVE) (ADVP (RB ALREADY)) (VP (VBN CITED) (SBAR (S (NP (DT THE) (JJ CLINICAL) (NN DIETARY) (NN INTERVENTIONTHESE)) (VP (AUX ARE) (NP (NP (CD 26) (JJ PROSPECTIVE)) (SBAR (WHNP (WDT THAT)) (S (VP (AUX DO) (RB NOT) (VP (VB SUPPORT) (NP (DT THE) (NN LIPID) (NNP HYPOTHESI) (NNP SEITHER))))))))))))))))))))))))
+#Rule:Nouns
+r1AGAIN HARMONY yano WAS PROSPECTIVE I CLEARLYOrganizationAnnotation
+r1THISYOU DO NOT LISTENI HAVEOrganizationAnnotation
+r1DIETARYNN
+r1INTERVENTIONTHESENN
+r1LIPID HYPOTHESI SEITHEROrganizationAnnotation
+
+#Rule:Verbs
+r2stateVBP
+r2citedVBN
+r2SUPPORTOrganizationAnnotation
+
+#Rule:Adjs
+r4CLINICALJJ
+r4PROSPECTIVEJJ
+
+#Rule:Adj-Noun
+r5CLINICALJJINTERVENTIONTHESENN
+r5PROSPECTIVEJJ26CD
+
+#Rule:N-HeadNoun
+r8DIETARYNNINTERVENTIONTHESENN
+
+#Rule:HeadNoun-V
+r11AGAIN HARMONY yano WAS PROSPECTIVE I CLEARLYOrganizationAnnotationstateVBP
+r11INTERVENTIONTHESENNareAUX
+
+#Rule:HeadNoun-(who/that)-V
+r1426CDSUPPORTOrganizationAnnotation
+
+#Rule:V-HeadNoun
+r21areAUX26CD
+r21SUPPORTOrganizationAnnotationLIPID HYPOTHESI SEITHEROrganizationAnnotation
+
+#Rule:V-HeadNoun(passive)
+r23citedVBNTHISYOU DO NOT LISTENI HAVEOrganizationAnnotation
+
+#Rule:V-ADV
+r46THISYOU DO NOT LISTENI HAVEOrganizationAnnotationALREADYRB
+r46citedVBNALREADYRB
+r46doAUXNOTRB
+
+@lemmas-left	manufacturing	anticholesterol	anti-	excuse	Harmony	diet/	show	Anthony Colpo	DIETARY	people	fat/anti	beloved	were	time	are	more	expose	only	none	false	FAT	working	FARCICAL	be	these	work	TIME	support	anti	proponents	fat	CLINICAL	26	/	cholesterol	FAILURE	saturate	saturated	cite	that	SUPPORT	them	FALLACY	remember	THISYOU DO NOT LISTENI HAVE	DIET/	proponent	interventionthese	EXCUSES	state	exposed	TRUTH	PROSPECTIVE	cited	truth	do	FARCICAL LOW	blinded	clinical	campaign	trial	LIPID HYPOTHESI SEITHER	prospective	is	it	INTERVENTIONTHESE	MORE	come	came	regimen	research	NONE	fallacy	AGAIN HARMONY yano WAS PROSPECTIVE I CLEARLY	dietary	OUT.Remember	MANUFACTURING	Doc2	Anti	Randomized Clinical	their	blind	Trials	
+@lemmas-right	anti-	excuse	show	Anthony Colpo	people	fat/anti	were	time	are	NOT	none	working	be	work	TIME	support	proponents	anti	26	FAILURE	saturate	saturated	not	SUPPORT	FALLACY	THISYOU DO NOT LISTENI HAVE	proponent	EXCUSES	interventionthese	state	blinded	campaign	trial	LIPID HYPOTHESI SEITHER	is	INTERVENTIONTHESE	ALREADY	come	you	came	regimen	already	NONE	research	fallacy	Doc2	blind	also	Trials	overtime	
+@lemmas-center	to	of	for	by	from	

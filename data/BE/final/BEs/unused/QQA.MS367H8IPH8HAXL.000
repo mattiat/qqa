@@ -1,0 +1,155 @@
+#On a scale of 1-10 how many points will u give to the following wrestlers??
+#(S1 (SBARQ (PP (IN On) (NP (NP (DT a) (NN scale)) (PP (IN of) (NP (CD 1-10))))) (WHNP (WHADJP (WRB how) (JJ many)) (NNS points)) (SQ (MD will) (NP (NNP u)) (VP (VB give) (PP (TO to) (NP (DT the) (VBG following) (NNS wrestlers)))) (. ?)) (. ?)))
+#Rule:Nouns
+r1scaleNN
+r1pointsNNS
+r1uNNP
+r1wrestlersNNS
+
+#Rule:Verbs
+r2giveVB
+r2followingVBG
+
+#Rule:Adjs
+r4manyJJ
+
+#Rule:Adj-Noun
+r5followingVBGwrestlersNNS
+
+#Rule:PPinNP
+r26scaleNNofIN1-10CD
+
+#Rule:PPinVP
+r30giveVBtoTOwrestlersNNS
+
+#Just copy the following in your answer&give ur points :Hulk Hogan -Ric Flair -Roddy Piper -Ultimate Warrior - Bret Hart -Shawn Michaels -Stone Cold -The Rock -Triple H -Chris Benoit -Eddie Guerrero -Undertaker -Kane -John Cena -Randy Orton -Batista -Mr. Kennedy -The Great Khali -Big Show -Forgive me if any of your favorite is not in it..
+#(S1 (S (ADVP (RB Just)) (VP (VB copy) (S (NP (NP (NP (NP (NP (DT the) (VBG following)) (PP (IN in) (NP (PRP$ your) (JJ answer&give) (NN ur) (NNS points)))) (: :) (NP (NP (NN Hulk) (NNP Hogan) (JJ -Ric) (NN Flair)) (NP (JJ -Roddy) (NNP Piper) (JJ -Ultimate) (NN Warrior))) (: -) (NP (NNP Bret) (NNP Hart) (JJ -Shawn) (NNPS Michaels))) (JJ -Stone) (JJ Cold) (NN -The) (NNP Rock) (JJ -Triple) (NNP H) (FW -Chris) (NNP Benoit)) (JJ -Eddie) (NNP Guerrero) (JJ -Undertaker) (JJ -Kane) (JJ -John) (NNP Cena) (NP (JJ -Randy) (NNP Orton) (JJ -Batista) (NN -Mr.) (NNP Kennedy) (NN -The)) (NNP Great) (NNP Khali) (NN -Big) (NN Show)) (ADJP (JJ -Forgive))) (NP (PRP me)) (SBAR (IN if) (S (NP (NP (DT any)) (PP (IN of) (NP (PRP$ your) (JJ favorite)))) (VP (AUX is) (RB not) (PP (IN in) (NP (PRP it)))) (. .)))) (. .)))
+#Rule:Nouns
+r1urNN
+r1pointsNNS
+r1Hulk HoganPersonAnnotation
+r1Ric FlairPersonAnnotation
+r1Roddy PiperPersonAnnotation
+r1Ultimate Warrior - Bret HartOrganizationAnnotation
+r1Shawn Michaels -Stone ColdOrganizationAnnotation
+r1-TheNN
+r1Rock -Triple HOrganizationAnnotation
+r1Chris BenoitPersonAnnotation
+r1Eddie GuerreroPersonAnnotation
+r1John CenaPersonAnnotation
+r1Randy OrtonPersonAnnotation
+r1-MrNN
+r1KennedyPersonAnnotation
+r1-TheNN
+r1Great KhaliPersonAnnotation
+r1-BigNN
+r1ShowNN
+
+#Rule:Verbs
+r2copyVB
+r2followingVBG
+
+#Rule:Adjs
+r4answer&giveJJ
+r4-RicJJ
+r4-RoddyJJ
+r4-UltimateJJ
+r4-ShawnJJ
+r4-EddieJJ
+r4-UndertakerJJ
+r4-KaneJJ
+r4-JohnJJ
+r4-RandyJJ
+r4-BatistaJJ
+r4-ForgiveJJ
+r4favoriteJJ
+
+#Rule:Adj-Noun
+r5-EddieJJShowNN
+r5-UndertakerJJShowNN
+r5-KaneJJShowNN
+r5-JohnJJShowNN
+r5Shawn Michaels -Stone ColdOrganizationAnnotationChris BenoitPersonAnnotation
+r5Rock -Triple HOrganizationAnnotationChris BenoitPersonAnnotation
+r5answer&giveJJpointsNNS
+r5-RicJJRic FlairPersonAnnotation
+r5-RoddyJJUltimate Warrior - Bret HartOrganizationAnnotation
+r5-UltimateJJUltimate Warrior - Bret HartOrganizationAnnotation
+r5-ShawnJJShawn Michaels -Stone ColdOrganizationAnnotation
+r5-RandyJJ-TheNN
+r5-BatistaJJ-TheNN
+
+#Rule:PRP-Noun
+r6yourPRP$pointsNNS
+r6yourPRP$favoriteJJ
+
+#Rule:N-HeadNoun
+r8-BigNNShowNN
+r8Great KhaliPersonAnnotationShowNN
+r8urNNpointsNNS
+r8KennedyPersonAnnotation-TheNN
+r8-MrNN-TheNN
+
+#Rule:HeadNoun-V
+r11anyDTisAUX
+
+#Rule:V-HeadNoun
+r21copyVBmePRP
+
+#Rule:V-HeadNoun
+r22copyVBShowNN
+
+#Rule:PPinNP
+r26followingVBGinINpointsNNS
+r26anyDTofINfavoriteJJ
+
+#Rule:PPinVP
+r30isAUXinINitPRP
+
+#Rule:V-IN-V
+r43copyVBifINisAUX
+
+#Rule:V-ADV
+r46copyVBJustRB
+r46isAUXnotRB
+
+#ENJOY!!!!!!!!!!!!MONTITUDE IS BACKI will calculate all those points&then post your decision next time
+#(S1 (S (VP (VB ENJOY) (SBAR (S (NP (JJ !!!!!!!!!!!!) (NN MONTITUDE)) (VP (AUX IS) (SBAR (S (NP (NNP BACKI)) (VP (MD will) (VP (VB calculate) (S (NP (PDT all) (DT those) (NNS points&then)) (VP (VB post) (NP (PRP$ your) (NN decision)) (PP (IN next) (NP (NN time)))))))))))))))
+#Rule:Nouns
+r1MONTITUDENN
+r1BACKINNP
+r1points&thenNNS
+r1decisionNN
+r1timeNN
+
+#Rule:Verbs
+r2ENJOY!!!!!!!!!!!PersonAnnotation
+r2calculateVB
+r2postVB
+
+#Rule:Adjs
+r4!!!!!!!!!!!!JJ
+
+#Rule:Adj-Noun
+r5!!!!!!!!!!!!JJMONTITUDENN
+
+#Rule:PRP-Noun
+r6yourPRP$decisionNN
+
+#Rule:HeadNoun-V
+r11MONTITUDENNisAUX
+r11BACKINNPcalculateVB
+r11points&thenNNSpostVB
+
+#Rule:V-HeadNoun
+r21postVBdecisionNN
+
+#Rule:V-HeadNoun
+r22calculateVBpoints&thenNNS
+
+#Rule:PPinVP
+r30postVBnextINtimeNN
+
+@lemmas-left	backi	calculate	points&then	!!!!!!!!!!!!	show	BACKI	ultimate	wrestler	-Batista	undertaker	time	randy	any	Eddie Guerrero	points	be	-Randy	follow	copy	-John	forgive	-kane	Show	-Undertaker	favorite	many	wrestlers	Great Khali	then	-Kane	-Big	-Forgive	big	scale	-Shawn	Chris Benoit	shawn	give	-roddy	-ric	john	-eddie	decision	Rock -Triple H	following	-Ultimate	answer&give	-batista	Kennedy	-Ric	Roddy Piper	is	John Cena	post	-The	mr	your	ur	-the	-Roddy	Shawn Michaels -Stone Cold	ENJOY!!!!!!!!!!!	montitude	point	Hulk Hogan	u	MONTITUDE	Ultimate Warrior - Bret Hart	-Mr	-Eddie	Ric Flair	Randy Orton	
+@lemmas-right	Chris Benoit	calculate	points&then	show	decision	wrestler	time	me	points	Just	be	just	is	post	-The	it	Show	-the	Shawn Michaels -Stone Cold	favorite	not	montitude	point	wrestlers	MONTITUDE	Ultimate Warrior - Bret Hart	then	1-10	Ric Flair	
+@lemmas-center	to	of	if	next	in	

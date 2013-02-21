@@ -1,0 +1,222 @@
+BE: MigrainesNNS
+EQ class: hemicranianns	sick_headachenns	migrainenns	megrimnns	
+
+BE: painfulJJ
+EQ class: painfulnessnn	
+
+BE: MigrainesNNSareAUX
+EQ class: migrainesnnsbeaux	hemicraniannsareaux	sick_headachennsbeaux	migrainennsareaux	megrimnnsbeaux	sick_headachennsareaux	megrimnnsareaux	hemicraniannsbeaux	migrainennsbeaux	
+
+BE: areAUXpainfulJJ
+EQ class: beauxpainfuljj	beauxpainfulnessnn	areauxpainfulnessnn	
+
+BE: personNN
+EQ class: someonenn	soulnn	individualnn	somebodynn	mortalnn	
+
+BE: typeNN
+EQ class: 
+
+BE: movementNN
+EQ class: movenn	motilitynn	motionnn	
+
+BE: leaveVBP
+EQ class: go_awayvbp	go_forthvbp	
+
+BE: vomittingVBG
+EQ class: 
+
+BE: theyPRPleaveVBP
+EQ class: leave_of_absencennofinpeopleprp	leavennofinpeopleprp	leavernnmigrainesprp	leavennofintheyprp	leavernnofinpeopleprp	leavernntheyprp	leave_of_absencennofinmigrainesprp	theyprpgo_awayvbp	leave_of_absencennofinremediesprp	goernnremediesprp	leavennofinmigrainesprp	peopleprpgo_awayvbp	peopleprpleavevbp	departernnremediesprp	leavernnofintheyprp	departernnmigrainesprp	departernnofinremediesprp	goernnofintheyprp	goernnofinmigrainesprp	migrainesprpleavevbp	goernnofinremediesprp	migrainesprpgo_awayvbp	remediesprpgo_awayvbp	migrainesprpgo_forthvbp	peopleprpgo_forthvbp	leavernnpeopleprp	leavernnofinmigrainesprp	goernnmigrainesprp	departernnofintheyprp	goernntheyprp	departernnpeopleprp	departernnofinmigrainesprp	goernnpeopleprp	leave_of_absencennofintheyprp	departernnofinpeopleprp	theyprpgo_forthvbp	leavernnofinremediesprp	departernntheyprp	leavennofinremediesprp	leavernnremediesprp	goernnofinpeopleprp	remediesprpgo_forthvbp	remediesprpleavevbp	
+
+BE: personNNvomittingVBG
+EQ class: somebodynnvomittingvbg	someonennvomittingvbg	individualnnvomittingvbg	mortalnnvomittingvbg	soulnnvomittingvbg	
+
+BE: leaveVBPpersonNN
+EQ class: go_awayvbpsomeonenn	go_forthvbppersonnn	go_forthvbpsoulnn	go_awayvbpindividualnn	go_awayvbpmortalnn	leavernnofinmortalnn	leave_of_absencennofinsomebodynn	go_awayvbpsoulnn	goernnofinsomebodynn	go_forthvbpindividualnn	leave_of_absencennofinsomeonenn	leavevbpsomebodynn	leavevbpindividualnn	leavernnofinindividualnn	departernnofinpersonnn	go_forthvbpmortalnn	goernnofinsomeonenn	departernnofinindividualnn	go_forthvbpsomebodynn	go_awayvbppersonnn	leavennofinmortalnn	leavennofinsoulnn	departernnofinmortalnn	goernnofinmortalnn	leavennofinpersonnn	leavevbpmortalnn	departernnofinsoulnn	leave_of_absencennofinsoulnn	leavennofinsomebodynn	leavernnofinsomeonenn	leave_of_absencennofinpersonnn	leave_of_absencennofinindividualnn	departernnofinsomeonenn	leavevbpsoulnn	leavennofinindividualnn	goernnofinindividualnn	leavernnofinpersonnn	goernnofinsoulnn	leave_of_absencennofinmortalnn	leavernnofinsomebodynn	go_forthvbpsomeonenn	goernnofinpersonnn	leavernnofinsoulnn	departernnofinsomebodynn	leavevbpsomeonenn	go_awayvbpsomebodynn	leavennofinsomeonenn	
+
+BE: typeNNofINmovementNN
+EQ class: motionnnepitomisevb	typevbmovementnn	motionnntypenn	motionnntypevb	epitomisevbmotionnn	epitomisevbmovementnn	epitomisevbmovenn	movementnnepitomisevb	epitomisevbmotilitynn	movenntypevb	movementnntypenn	motionnntypifyvb	typennofinmotionnn	typewritevbmotilitynn	movennepitomisevb	typewritevbmovenn	motionnnepitomizevb	movementnnepitomizevb	movenntypifyvb	epitomizevbmovementnn	movementnntypevb	typifyvbmovementnn	motilitynntypevb	typewritevbmovementnn	epitomizevbmotionnn	epitomizevbmotilitynn	movennepitomizevb	typevbmotilitynn	typevbmotionnn	movenntypewritevb	movementnntypifyvb	motilitynntypifyvb	typevbmovenn	movenntypenn	motilitynntypenn	movementnntypewritevb	typifyvbmovenn	motilitynnepitomisevb	typennofinmovenn	typewritevbmotionnn	typifyvbmotionnn	typennofinmotilitynn	epitomizevbmovenn	motilitynnepitomizevb	motionnntypewritevb	typifyvbmotilitynn	motilitynntypewritevb	
+
+BE: vomittingVBGatINtypeNN
+EQ class: 
+
+BE: leaveVBPoftenRB
+EQ class: leavennofinoftenrb	leave_of_absencennofinoftenrb	goernnofinoftenrb	departernnofinoftenrb	go_forthvbpoftenrb	go_awayvbpoftenrb	leavernnofinoftenrb	
+
+BE: blindnessNN
+EQ class: sightlessnessnn	cecitynn	blindjj	
+
+BE: typeNN
+EQ class: 
+
+BE: noiseNN
+EQ class: 
+
+BE: lightNN
+EQ class: visible_lightnn	visible_radiationnn	
+
+BE: migraineNN
+EQ class: sick_headachenn	megrimnn	hemicraniann	
+
+BE: causeVB
+EQ class: makevb	dovb	
+
+BE: temporaryJJ
+EQ class: impermanentjj	temporarinessnn	
+
+BE: horribleJJ
+EQ class: atrociousjj	frightfuljj	uglyjj	horrifyingjj	
+
+BE: temporaryJJblindnessNN
+EQ class: blindvbtemporarilyrb	temporarinessnnsightlessnessnn	temporaryjjsightlessnessnn	temporaryjjblindjj	impermanentjjblindnessnn	temporarinessnnblindnessnn	impermanentjjblindjj	temporaryjjcecitynn	temporarinessnncecitynn	impermanentjjsightlessnessnn	temporarinessnnblindjj	impermanentjjcecitynn	
+
+BE: theyPRPcauseVB
+EQ class: causativennofinremediesprp	causingnnpeopleprp	causingnnofinremediesprp	migrainesprpmakevb	peopleprpmakevb	causativennofinpeopleprp	causativennofinmigrainesprp	causennofinpeopleprp	remediesprpdovb	causationnnofinremediesprp	migrainesprpdovb	causingnnofintheyprp	remediesprpmakevb	causennofintheyprp	peopleprpdovb	causaljjofintheyprp	causaljjofinpeopleprp	causationnnofinpeopleprp	causationnnmigrainesprp	causingnnremediesprp	causennofinmigrainesprp	causativennofintheyprp	causationnnremediesprp	peopleprpcausevb	causingnnmigrainesprp	causaljjofinmigrainesprp	theyprpmakevb	causationnnpeopleprp	theyprpdovb	causationnnofintheyprp	causingnnofinmigrainesprp	migrainesprpcausevb	remediesprpcausevb	causingnntheyprp	causationnntheyprp	causaljjofinremediesprp	causingnnofinpeopleprp	causennofinremediesprp	causationnnofinmigrainesprp	
+
+BE: typeNNbeAUX
+EQ class: 
+
+BE: causeVBblindnessNN
+EQ class: makevbblindnessnn	causingnnofinsightlessnessnn	causativennofincecitynn	causativennofinblindnessnn	causennofinblindjj	causingnnofinblindjj	causevbcecitynn	causevbblindjj	causationnnofincecitynn	causaljjofincecitynn	dovbcecitynn	causativennofinsightlessnessnn	makevbcecitynn	causationnnofinblindjj	dovbsightlessnessnn	causingnnofincecitynn	causaljjofinblindnessnn	makevbsightlessnessnn	dovbblindnessnn	causennofinblindnessnn	causingnnofinblindnessnn	makevbblindjj	causaljjofinsightlessnessnn	dovbblindjj	causevbsightlessnessnn	causationnnofinsightlessnessnn	causativennofinblindjj	causennofincecitynn	causationnnofinblindnessnn	causennofinsightlessnessnn	causaljjofinblindjj	
+
+BE: beAUXhorribleJJ
+EQ class: beauxhorrifyingjj	beauxatrociousjj	beauxfrightfuljj	beauxuglyjj	
+
+BE: typeNNofINnoiseNN
+EQ class: epitomizevbnoisenn	noisennepitomizevb	noisenntypevb	typifyvbnoisenn	epitomisevbnoisenn	noisennepitomisevb	noisenntypifyvb	typevbnoisenn	noisenntypewritevb	noisenntypenn	typewritevbnoisenn	
+
+BE: beAUXforINmigraineNN
+EQ class: beauxforinmegrimnn	beauxforinsick_headachenn	beauxforinhemicraniann	
+
+BE: causeVBalsoRB
+EQ class: makevbalsorb	causennofinalsorb	causaljjofinalsorb	causingnnofinalsorb	causativennofinalsorb	dovbalsorb	causationnnofinalsorb	
+
+BE: sVBZ
+EQ class: 
+
+BE: explainVB
+EQ class: explicatevb	
+
+BE: leaveVBP
+EQ class: go_awayvbp	go_forthvbp	
+
+BE: moveVB
+EQ class: locomotevb	govb	travelvb	
+
+BE: hardJJ
+EQ class: difficultjj	hardnessnn	
+
+BE: exhaustedJJ
+EQ class: fatiguedjj	washed-outjj	worn_outjj	worn-outjj	spentjj	dog-tiredjj	played_outjj	faggedjj	
+
+BE: unableJJ
+EQ class: 
+
+BE: itPRPsVBZ
+EQ class: 
+
+BE: youPRPhadAUX
+EQ class: youprphave_gotaux	youprphaveaux	rich_personnnofinyouprp	havennofinyouprp	youprpholdaux	wealthy_personnnofinyouprp	
+
+BE: theyPRPleaveVBP
+EQ class: leave_of_absencennofinpeopleprp	leavennofinpeopleprp	leavernnmigrainesprp	leavennofintheyprp	leavernnofinpeopleprp	leavernntheyprp	leave_of_absencennofinmigrainesprp	theyprpgo_awayvbp	leave_of_absencennofinremediesprp	goernnremediesprp	leavennofinmigrainesprp	peopleprpgo_awayvbp	peopleprpleavevbp	departernnremediesprp	leavernnofintheyprp	departernnmigrainesprp	departernnofinremediesprp	goernnofintheyprp	goernnofinmigrainesprp	migrainesprpleavevbp	goernnofinremediesprp	migrainesprpgo_awayvbp	remediesprpgo_awayvbp	migrainesprpgo_forthvbp	peopleprpgo_forthvbp	leavernnpeopleprp	leavernnofinmigrainesprp	goernnmigrainesprp	departernnofintheyprp	goernntheyprp	departernnpeopleprp	departernnofinmigrainesprp	goernnpeopleprp	leave_of_absencennofintheyprp	departernnofinpeopleprp	theyprpgo_forthvbp	leavernnofinremediesprp	departernntheyprp	leavennofinremediesprp	leavernnremediesprp	goernnofinpeopleprp	remediesprpgo_forthvbp	remediesprpleavevbp	
+
+BE: hadAUXoneCD
+EQ class: haveaux1cd	rich_personnnofinacecd	rich_personnnofinsinglecd	holdaux1cd	holdauxunitycd	wealthy_personnnofinsinglecd	wealthy_personnnofinicd	hadauxunitycd	holdauxsinglecd	have_gotauxsinglecd	hadauxsinglecd	have_gotauxunitycd	have_gotaux1cd	haveauxsinglecd	wealthy_personnnofin1cd	rich_personnnofin1cd	rich_personnnofinunitycd	haveauxunitycd	haveauxicd	rich_personnnofinicd	rich_personnnofinonecd	havennofinacecd	havennofin1cd	wealthy_personnnofinacecd	wealthy_personnnofinonecd	holdauxonecd	haveauxacecd	have_gotauxicd	havennofinicd	have_gotauxacecd	havennofinsinglecd	hadauxacecd	wealthy_personnnofinunitycd	havennofinunitycd	havennofinonecd	haveauxonecd	holdauxicd	have_gotauxonecd	hadauxicd	hadaux1cd	holdauxacecd	
+
+BE: leaveVBPyouPRP
+EQ class: leavernnofinyouprp	go_forthvbpyouprp	departernnofinyouprp	goernnofinyouprp	go_awayvbpyouprp	leave_of_absencennofinyouprp	leavennofinyouprp	
+
+BE: explainVBifINhadAUX
+EQ class: explicatevbifinhave_gotaux	explicatevbifinhaveaux	explainvbifinholdaux	explainvbifinhaveaux	explicatevbifinholdaux	explainvbifinhave_gotaux	explicatevbifinhadaux	
+
+BE: hadAUXveRB
+EQ class: holdauxverb	haveauxverb	have_gotauxverb	wealthy_personnnofinverb	rich_personnnofinverb	havennofinverb	
+
+BE: hadAUXneverRB
+EQ class: rich_personnnofinneverrb	havennofinneverrb	haveauxneverrb	holdauxneverrb	have_gotauxneverrb	wealthy_personnnofinneverrb	
+
+BE: DrivingNNP
+EQ class: drivennp	
+
+BE: questionNN
+EQ class: enquirynn	interrogationnn	querynn	inquirynn	
+
+BE: migraineNN
+EQ class: sick_headachenn	megrimnn	hemicraniann	
+
+BE: DrivingNNPbeAUX
+EQ class: drivennpbeaux	
+
+BE: shePRPhasAUX
+EQ class: rich_personnnofinsheprp	sheprphave_gotaux	havennofinsheprp	wealthy_personnnofinsheprp	sheprphaveaux	sheprpholdaux	
+
+BE: hasAUXmigraineNN
+EQ class: have_gotauxmegrimnn	holdauxsick_headachenn	holdauxhemicraniann	wealthy_personnnofinsick_headachenn	rich_personnnofinhemicraniann	holdauxmegrimnn	have_gotauxmigrainenn	holdauxmigrainenn	wealthy_personnnofinmegrimnn	haveauxmigrainenn	wealthy_personnnofinmigrainenn	hasauxhemicraniann	haveauxsick_headachenn	havennofinhemicraniann	have_gotauxsick_headachenn	wealthy_personnnofinhemicraniann	hasauxsick_headachenn	have_gotauxhemicraniann	havennofinmegrimnn	rich_personnnofinmegrimnn	rich_personnnofinmigrainenn	haveauxhemicraniann	hasauxmegrimnn	havennofinsick_headachenn	havennofinmigrainenn	haveauxmegrimnn	rich_personnnofinsick_headachenn	
+
+BE: beAUXoutINquestionNN
+EQ class: beauxoutininquirynn	beauxoutinenquirynn	beauxoutinquerynn	beauxoutininterrogationnn	
+
+BE: beAUXifINhasAUX
+EQ class: beauxifinholdaux	beauxifinhaveaux	beauxifinhave_gotaux	
+
+BE: beAUXprobablyRB
+EQ class: probabilitynnininbeaux	likelyjjininbeaux	probablejjininbeaux	
+
+BE: hasAUXreallyRB
+EQ class: existentjjininhasaux	existentjjhavenn	have_gotauxreallyrb	realnessnnininhavenn	realnessnnrich_personnn	realjjrich_personnn	realitynnininhasaux	realitynnininhaveaux	realjjininhasaux	realjjininhaveaux	realnessnnininholdaux	realnessnnininhave_gotaux	realnessnnininrich_personnn	existentjjininhavenn	realitynnininrich_personnn	existentjjininwealthy_personnn	haveauxreallyrb	realnessnnwealthy_personnn	existentjjininrich_personnn	existentjjwealthy_personnn	realnessnnininhaveaux	realjjininhave_gotaux	realnessnnhavenn	realitynnrich_personnn	realjjininholdaux	realjjininwealthy_personnn	realjjwealthy_personnn	realitynnwealthy_personnn	havennofinreallyrb	realitynnhavenn	wealthy_personnnofinreallyrb	existentjjrich_personnn	realitynnininholdaux	realjjhavenn	rich_personnnofinreallyrb	realitynnininhavenn	realjjininhavenn	realnessnnininhasaux	holdauxreallyrb	existentjjininholdaux	existentjjininhaveaux	realjjininrich_personnn	realnessnnininwealthy_personnn	existentjjininhave_gotaux	realitynnininhave_gotaux	realitynnininwealthy_personnn	
+
+BE: peopleNNS
+EQ class: theynns	themnns	
+
+BE: hospitalNN
+EQ class: infirmarynn	
+
+BE: migrainesNNS
+EQ class: hemicranianns	sick_headachenns	migrainenns	theynns	megrimnns	themnns	
+
+BE: remediesNNS
+EQ class: remediationnns	remedynns	remedialjj	redressnns	theynns	themnns	
+
+BE: goVB
+EQ class: locomotevb	movevb	travelvb	
+
+BE: experienceVBP
+EQ class: go_throughvbp	seevbp	
+
+BE: helpVB
+EQ class: aidvb	assistvb	
+
+BE: ManyJJ
+EQ class: 
+
+BE: over-the-counterJJ
+EQ class: nonprescriptionjj	
+
+BE: littleJJ
+EQ class: littlenessnn	smalljj	
+
+BE: ManyJJpeopleNNS
+EQ class: manyjjtheynns	manyjjthemnns	
+
+BE: over-the-counterJJremediesNNS
+EQ class: nonprescriptionjjremedynns	nonprescriptionjjtheynns	over-the-counterjjremedynns	over-the-counterjjthemnns	over-the-counterjjredressnns	nonprescriptionjjremediesnns	nonprescriptionjjredressnns	over-the-counterjjremediationnns	over-the-counterjjtheynns	nonprescriptionjjthemnns	nonprescriptionjjremediationnns	nonprescriptionjjremedialjj	over-the-counterjjremedialjj	
+
+BE: peopleNNShaveAUX
+EQ class: peoplennshave_gotaux	havennofintheynns	wealthy_personnnofinpeoplenns	theynnshave_gotaux	wealthy_personnnofintheynns	havennofinpeoplenns	theynnshaveaux	havennofinthemnns	wealthy_personnnofinthemnns	themnnshave_gotaux	rich_personnnofinpeoplenns	themnnsholdaux	theynnsholdaux	peoplennsholdaux	themnnshaveaux	rich_personnnofintheynns	rich_personnnofinthemnns	
+
+BE: theyPRPexperienceVBP
+EQ class: experientialjjofinremediesprp	experientjjofinpeopleprp	experiencennofinpeopleprp	experientjjofintheyprp	peopleprpseevbp	remediesprpgo_throughvbp	migrainesprpgo_throughvbp	experiencennofintheyprp	peopleprpgo_throughvbp	peopleprpexperiencevbp	theyprpgo_throughvbp	experiencennofinremediesprp	experiencennofinmigrainesprp	theyprpseevbp	remediesprpseevbp	migrainesprpseevbp	experientjjofinremediesprp	experientialjjofintheyprp	migrainesprpexperiencevbp	experientjjofinmigrainesprp	experientialjjofinmigrainesprp	experientialjjofinpeopleprp	remediesprpexperiencevbp	
+
+BE: remediesNNSdoAUX
+EQ class: themnnsmakeaux	remediationnnsmakeaux	themnnsdoaux	remedialjjdoaux	remedynnsmakeaux	remedialjjmakeaux	theynnsmakeaux	remedynnsdoaux	redressnnsdoaux	theynnsdoaux	remediationnnsdoaux	redressnnsmakeaux	remediesnnsmakeaux	
+
+BE: experienceVBPmigrainesNNS
+EQ class: seevbpthemnns	experientjjofinmigrainesnns	experientialjjofinhemicranianns	go_throughvbpmegrimnns	experientialjjofinmigrainesnns	experiencevbpmigrainenns	go_throughvbpmigrainesnns	experientialjjofinmegrimnns	seevbpmigrainesnns	experientjjofinsick_headachenns	experiencevbpsick_headachenns	experientjjofinmigrainenns	experientjjofintheynns	seevbpsick_headachenns	experientjjofinmegrimnns	experiencennofinsick_headachenns	experiencennofintheynns	go_throughvbphemicranianns	seevbpmigrainenns	go_throughvbptheynns	experiencevbpthemnns	experientialjjofinthemnns	experiencevbphemicranianns	experiencennofinhemicranianns	experientialjjofinsick_headachenns	experiencevbpmegrimnns	go_throughvbpmigrainenns	experientialjjofinmigrainenns	experiencevbptheynns	experientjjofinthemnns	experientialjjofintheynns	experientjjofinhemicranianns	go_throughvbpsick_headachenns	go_throughvbpthemnns	experiencennofinthemnns	seevbphemicranianns	experiencennofinmegrimnns	seevbpmegrimnns	experiencennofinmigrainesnns	experiencennofinmigrainenns	seevbptheynns	
+
+BE: goVBtoTOhospitalNN
+EQ class: locomotevbtotohospitalnn	travelvbtotoinfirmarynn	travelvbtotohospitalnn	locomotevbtotoinfirmarynn	movevbtotohospitalnn	movevbtotoinfirmarynn	govbtotoinfirmarynn	
+
+BE: haveAUXbecauseINdoAUX
+EQ class: haveauxbecauseinmakeaux	holdauxbecauseindoaux	have_gotauxbecauseindoaux	have_gotauxbecauseinmakeaux	holdauxbecauseinmakeaux	
+

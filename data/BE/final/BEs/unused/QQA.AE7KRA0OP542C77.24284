@@ -1,0 +1,25 @@
+#In china, the literal translation is bear-cat.
+#(S1 (S (PP (IN In) (NP (NN china))) (, ,) (NP (DT the) (JJ literal) (NN translation)) (VP (AUX is) (ADJP (JJ bear-cat))) (. .)))
+#Rule:Nouns
+r1chinaLocationAnnotation
+r1translationNN
+
+#Rule:Adjs
+r4literalJJ
+r4bear-catJJ
+
+#Rule:Adj-Noun
+r5literalJJtranslationNN
+
+#Rule:HeadNoun-V
+r11translationNNisAUX
+
+#Rule:V-ADJ
+r25isAUXbear-catJJ
+
+#Rule:PPinS
+r36isAUXinINchinaLocationAnnotation
+
+@lemmas-left	is	cat	translation	bear-cat	be	literal	china	
+@lemmas-right	cat	is	translation	bear-cat	china	be	
+@lemmas-center	in	

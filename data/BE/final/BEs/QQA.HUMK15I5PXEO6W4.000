@@ -1,0 +1,42 @@
+#diet Q. 
+#(S1 (NP (NNP diet) (NNP Q) (. .)))
+#Rule:Nouns
+r1dietNNP
+r1QNNP
+
+#Rule:N-HeadNoun
+r8dietNNPQNNP
+
+#How do I determine how much is an ounce, 2, 3, etc.. 
+#(S1 (SBARQ (WHADVP (WRB How)) (SQ (AUX do) (NP (PRP I)) (VP (VB determine) (SBAR (WHNP (WRB how) (JJ much)) (S (VP (AUX is) (NP (NP (DT an) (NN ounce)) (, ,) (NP (NP (CD 2)) (, ,) (NP (CD 3)) (, ,) (NP (FW etc) (. .))))))))) (. .)))
+#Rule:Nouns
+r1ounceNN
+
+#Rule:Verbs
+r2determineVB
+
+#Rule:Adjs
+r4muchJJ
+
+#Rule:N-ApposN
+r10ounceNN2CD
+r102CD3CD
+
+#Rule:V-HeadNoun
+r21isAUXounceNN
+
+#I m talking about proportions?
+#(S1 (S (NP (PRP I)) (VP (NNP m) (S (VP (VBG talking) (PP (IN about) (NP (NNS proportions)))))) (. ?)))
+#Rule:Nouns
+r1mNNP
+r1proportionsNNS
+
+#Rule:Verbs
+r2talkingVBG
+
+#Rule:PPinVP
+r30talkingVBGaboutINproportionsNNS
+
+@lemmas-left	proportion	is	diet	determine	ounce	m	much	talking	2	proportions	Q	q	be	talk	
+@lemmas-right	proportion	3	2	proportions	Q	q	ounce	
+@lemmas-center	about	

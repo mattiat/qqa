@@ -1,0 +1,15 @@
+#How do landfills affect the environment?
+#(S1 (SBARQ (WHADVP (WRB How)) (SQ (AUX do) (NP (NNS landfills)) (VP (VB affect) (NP (DT the) (NN environment)))) (. ?)))
+#Rule:Nouns
+r1landfillsNNS
+r1environmentNN
+
+#Rule:Verbs
+r2affectVB
+
+#Rule:V-HeadNoun
+r21affectVBenvironmentNN
+
+@lemmas-left	environment	landfills	landfill	affect	
+@lemmas-right	environment	
+@lemmas-center	

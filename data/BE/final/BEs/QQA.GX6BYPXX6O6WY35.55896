@@ -1,0 +1,86 @@
+#Honey, simply starving yourself is not productive..
+#(S1 (S (NP (NN Honey)) (, ,) (ADVP (RB simply)) (VP (VBG starving) (SBAR (S (NP (PRP yourself)) (VP (AUX is) (RB not) (ADJP (JJ productive))) (. .)))) (. .)))
+#Rule:Nouns
+r1HoneyNN
+
+#Rule:Verbs
+r2starvingVBG
+
+#Rule:Adjs
+r4productiveJJ
+
+#Rule:HeadNoun-V
+r11HoneyNNstarvingVBG
+r11yourselfPRPisAUX
+
+#Rule:V-ADJ
+r25isAUXproductiveJJ
+
+#Rule:V-ADV
+r46starvingVBGsimplyRB
+r46isAUXnotRB
+
+#Your body s metabolism will slow-down if you starve yourself. You must have a balanced method of healthy eating, cardio exercise and weight lifting..
+#(S1 (S (NP (PRP$ Your) (NN body)) (VP (VBZ s) (SBAR (S (NP (NN metabolism)) (VP (MD will) (VP (VB slow-down) (SBAR (IN if) (S (NP (PRP you)) (VP (VB starve) (SBAR (IN yourself.) (S (NP (PRP You)) (VP (MD must) (VP (AUX have) (NP (NP (DT a) (JJ balanced) (NN method)) (PP (IN of) (NP (JJ healthy) (NN eating) (, ,) (NN cardio) (NN exercise) (CC and) (NN weight) (NN lifting))))))))) (. .)))))))) (. .)))
+#Rule:Nouns
+r1bodyNN
+r1metabolismNN
+r1methodNN
+r1eatingNN
+r1cardioNN
+r1exerciseNN
+r1weightNN
+r1liftingNN
+
+#Rule:Verbs
+r2sVBZ
+r2slow-downVB
+r2starveVB
+
+#Rule:Adjs
+r4balancedJJ
+r4healthyJJ
+
+#Rule:Adj-Noun
+r5balancedJJmethodNN
+r5healthyJJliftingNN
+
+#Rule:PRP-Noun
+r6yourPRP$bodyNN
+
+#Rule:N-HeadNoun
+r8weightNNliftingNN
+
+#Rule:N-Noun
+r9cardioNNexerciseNN
+
+#Rule:HeadNoun-V
+r11bodyNNsVBZ
+r11metabolismNNslow-downVB
+r11youPRPstarveVB
+r11youPRPhaveAUX
+
+#Rule:V-HeadNoun
+r21haveAUXmethodNN
+
+#Rule:PPinNP
+r26methodNNofINliftingNN
+
+#Rule:V-IN-V
+r43slow-downVBifINstarveVB
+r43starveVByourselfINhaveAUX
+
+#There are no shortcuts.
+#(S1 (S (NP (EX There)) (VP (AUX are) (NP (DT no) (NNS shortcuts))) (. .)))
+#Rule:Nouns
+r1shortcutsNNS
+
+#Rule:HeadNoun-V
+r11thereEXareAUX
+
+#Rule:V-HeadNoun
+r21areAUXshortcutsNNS
+
+@lemmas-left	body	weight	shortcuts	have	exercise	shortcut	honey	cardio	are	slow-down	yourself	Honey	be	is	metabolism	your	you	productive	starving	starve	balanced	s	there	lift	eating	healthy	method	down	lifting	
+@lemmas-right	body	is	shortcuts	have	exercise	productive	starving	shortcut	starve	not	are	s	simply	slow-down	lift	method	down	lifting	be	
+@lemmas-center	of	if	yourself.	yourself	

@@ -1,0 +1,69 @@
+#Hulk Hogan- 8Ric Flair- 9Roddy Piper- 7Ultimate Warrior- 7Bret Hart-9Shawn Michaels-7Stone Cold-6Rock-7HHH- 7Benoit- 7Eddie Guerrero- 6Undertaker-8Kane-5J Cena- 7Randy Orton- 6Batista- 6Mr Kennedy- 7Great Khali- 4Big Show- 4Hopefully this helps!!!!
+#(S1 (S (NP (NN Hulk) (NNP Hogan-) (JJ 8Ric) (JJ Flair-) (JJ 9Roddy) (NNS Piper-)) (VP (VBP 7Ultimate) (NP (NP (NNP Warrior-) (NN 7Bret) (NNP Hart-9Shawn) (NNP Michaels-7Stone) (NNP Cold-6Rock-7HHH-) (JJ 7Benoit-) (JJ 7Eddie) (JJ Guerrero-) (NN 6Undertaker-8Kane-5J) (NNP Cena-) (JJ 7Randy) (JJ Orton-) (JJ 6Batista-) (NNS 6Mr)) (NP (NNP Kennedy-) (NN 7Great) (NNP Khali-) (NN 4Big) (NNP Show-))) (ADVP (RB 4Hopefully)) (SBAR (S (NP (DT this)) (VP (VBZ helps) (VP (VBN !!!)))))) (. !)))
+#Rule:Nouns
+r1Hulk HoganPersonAnnotation
+r1Hogan-NNP
+r1Piper-NNS
+r1Warrior-NNP
+r17BretNN
+r1Hart-9ShawnNNP
+r1Michaels-7Stone Cold-6Rock-7HHHOrganizationAnnotation
+r1Cold-6Rock-7HHH-NNP
+r16Undertaker-8Kane-5JNN
+r1Cena-NNP
+r16Mr KennedyPersonAnnotation
+r1Kennedy-NNP
+r17Great KhaliPersonAnnotation
+r1Khali-NNP
+r14BigNN
+r1Show-NNP
+
+#Rule:Verbs
+r27ultimateVBP
+r2helpsVBZ
+r2!!!!LocationAnnotation
+
+#Rule:Adjs
+r48Ric FlairPersonAnnotation
+r4Flair-JJ
+r49Roddy PiperPersonAnnotation
+r47Benoit-JJ
+r47Eddie GuerreroPersonAnnotation
+r4Guerrero-JJ
+r47Randy OrtonPersonAnnotation
+r4Orton-JJ
+r46Batista-JJ
+
+#Rule:Adj-Noun
+r58Ric FlairPersonAnnotationPiper-NNS
+r5Flair-JJPiper-NNS
+r59Roddy PiperPersonAnnotationPiper-NNS
+r57Benoit-JJ6Mr KennedyPersonAnnotation
+r57Eddie GuerreroPersonAnnotation6Mr KennedyPersonAnnotation
+r5Guerrero-JJ6Mr KennedyPersonAnnotation
+r57Randy OrtonPersonAnnotation6Mr KennedyPersonAnnotation
+r5Orton-JJ6Mr KennedyPersonAnnotation
+r56Batista-JJ6Mr KennedyPersonAnnotation
+
+#Rule:N-HeadNoun
+r84BigNNShow-NNP
+r8Khali-NNPShow-NNP
+r87Great KhaliPersonAnnotationShow-NNP
+r8Kennedy-NNPShow-NNP
+
+#Rule:HeadNoun-V
+r11Piper-NNS7ultimateVBP
+r11thisDThelpsVBZ
+
+#Rule:V-HeadNoun
+r217ultimateVBP6Mr KennedyPersonAnnotation
+
+#Rule:V-HeadNoun(passive)
+r24!!!!LocationAnnotationthisDT
+
+#Rule:V-ADV
+r467ultimateVBP4HopefullyRB
+
+@lemmas-left	7ultimate	7Great Khali	Orton-	shawn	8Ric Flair	warrior-	ultimate	piper-	orton-	Hart-9Shawn	Michaels-7Stone Cold-6Rock-7HHH	7benoit-	help	Hogan-	Kennedy-	7Randy Orton	cena-	Cena-	Warrior-	Khali-	7Bret	khali-	9Roddy Piper	Flair-	6batista-	Guerrero-	guerrero-	Cold-6Rock-7HHH-	Show-	Piper-	hogan-	6Mr Kennedy	6Batista-	helps	j	4Big	Hulk Hogan	kennedy-	7Benoit-	flair-	!!!!	7Eddie Guerrero	cold-6rock-7hhh-	show-	7bret	big	this	6Undertaker-8Kane-5J	
+@lemmas-right	4Hopefully	help	7ultimate	show-	Show-	Piper-	hopefully	6Mr Kennedy	helps	ultimate	piper-	this	
+@lemmas-center	

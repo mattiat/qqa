@@ -1,0 +1,97 @@
+#Evolution theory is a myth huh? 
+#(S1 (S (NP (NN Evolution) (NN theory)) (VP (AUX is) (NP (DT a) (JJ myth) (NNP huh))) (. ?)))
+#Rule:Nouns
+r1EvolutionNN
+r1theoryNN
+r1huhNNP
+
+#Rule:Adjs
+r4mythJJ
+
+#Rule:Adj-Noun
+r5mythJJhuhNNP
+
+#Rule:N-HeadNoun
+r8EvolutionNNtheoryNN
+
+#Rule:HeadNoun-V
+r11theoryNNisAUX
+
+#Rule:V-HeadNoun
+r21isAUXhuhNNP
+
+#Rule:IS-RULE
+r47huhNNPtheoryNN
+
+#Ha-Ha-Ha-Ha-Ha!!!!!! 
+#(S1 (S (NP (NNP Ha-Ha-Ha-Ha-Ha)) (VP (VBD !!!!!)) (. !)))
+#Rule:Nouns
+r1Ha-Ha-Ha-Ha-HaNNP
+
+#Rule:Verbs
+r2Ha!!!!!!LocationAnnotation
+
+#Rule:HeadNoun-V
+r11Ha-Ha-Ha-Ha-HaNNPHa!!!!!!LocationAnnotation
+
+#There s tons more  hard, irrefutable, SCIENTIFIC evidence that evolution is a valid theory than there is that the idiocy you fundamentalists spew is anything more than ridiculous superstition.
+#(S1 (S (NP (EX There)) (VP (VBZ s) (NP (ADJP (NP (NNS tons)) (JJR more)) (JJ hard) (, ,) (JJ irrefutable) (, ,) (JJ SCIENTIFIC) (NN evidence)) (SBAR (IN that) (S (NP (NN evolution)) (VP (AUX is) (NP (DT a) (JJ valid) (NN theory) (SBAR (IN than) (S (NP (EX there)) (VP (AUX is) (SBAR (IN that) (S (NP (DT the) (NN idiocy)) (ADVP (NP (PRP you) (NNS fundamentalists)) (RB spew)) (VP (AUX is) (NP (NP (NN anything)) (ADJP (ADJP (JJR more)) (PP (IN than) (NP (JJ ridiculous) (NN superstition)))))))))))))))) (. .)))
+#Rule:Nouns
+r1tonsNNS
+r1evidenceNN
+r1evolutionNN
+r1theoryNN
+r1idiocyNN
+r1fundamentalistsNNS
+r1anythingNN
+r1superstitionNN
+
+#Rule:Verbs
+r2sVBZ
+
+#Rule:Adjs
+r4moreJJR
+r4hardJJ
+r4irrefutableJJ
+r4SCIENTIFICJJ
+r4validJJ
+r4moreJJR
+r4ridiculousJJ
+
+#Rule:Adj-Noun
+r5moreJJRevidenceNN
+r5hardJJevidenceNN
+r5irrefutableJJevidenceNN
+r5SCIENTIFICJJevidenceNN
+r5validJJtheoryNN
+r5moreJJRanythingNN
+r5ridiculousJJsuperstitionNN
+
+#Rule:HeadNoun-V
+r11thereEXsVBZ
+r11evolutionNNisAUX
+r11thereEXisAUX
+r11idiocyNNisAUX
+
+#Rule:V-HeadNoun
+r21sVBZevidenceNN
+r21isAUXtheoryNN
+r21isAUXanythingNN
+
+#Rule:PPinADJP
+r37moreJJRthanINsuperstitionNN
+
+#Rule:V-IN-V
+r43sVBZthatINisAUX
+r43isAUXthatINisAUX
+
+#Rule:V-ADV
+r46isAUXspewRB
+
+#Rule:IS-RULE
+r47theoryNNevolutionNN
+r47anythingNNidiocyNN
+
+@lemmas-left	valid	idiocy	huh	evidence	fundamentalist	Ha-Ha-Ha-Ha-Ha	theory	fundamentalists	more	hard	tons	be	ridiculous	Ha!!!!!!	is	SCIENTIFIC	evolution	ha	myth	anything	superstition	s	there	scientific	irrefutable	Evolution	
+@lemmas-right	Ha!!!!!!	is	idiocy	spew	superstition	anything	s	huh	evidence	theory	evolution	be	
+@lemmas-center	that	than	

@@ -1,0 +1,33 @@
+#How many grievances against the British king were named in the American Declaration of Independence?
+#(S1 (FRAG (SBAR (WHADJP (WRB How) (JJ many)) (S (NP (NP (NNS grievances)) (PP (IN against) (NP (DT the) (NNP British) (NNP king)))) (VP (AUX were) (VP (VBN named) (PP (IN in) (NP (NP (DT the) (NNP American) (NNP Declaration)) (PP (IN of) (NP (NNP Independence))))))))) (. ?)))
+#Rule:Nouns
+r1grievancesNNS
+r1BritishNNP
+r1kingNNP
+r1AmericanNNP
+r1DeclarationNNP
+r1IndependenceLocationAnnotation
+
+#Rule:Verbs
+r2namedVBN
+
+#Rule:Adjs
+r4manyJJ
+
+#Rule:N-HeadNoun
+r8BritishNNPkingNNP
+r8AmericanNNPDeclarationNNP
+
+#Rule:V-HeadNoun(passive)
+r23namedVBNgrievancesNNS
+
+#Rule:PPinNP
+r26grievancesNNSagainstINkingNNP
+r26DeclarationNNPofINIndependenceLocationAnnotation
+
+#Rule:PPinVP
+r32namedVBNinINDeclarationNNP
+
+@lemmas-left	named	grievances	declaration	british	American	British	Declaration	grievance	king	Independence	many	american	name	
+@lemmas-right	grievances	declaration	Declaration	grievance	Independence	king	
+@lemmas-center	of	against	in	

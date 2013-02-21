@@ -1,0 +1,17 @@
+#You are god, really.
+#(S1 (S (NP (PRP You)) (VP (AUX are) (NP (NNP god)) (, ,) (ADVP (RB really))) (. .)))
+#Rule:Nouns
+r1godNNP
+
+#Rule:HeadNoun-V
+r11youPRPareAUX
+
+#Rule:V-HeadNoun
+r21areAUXgodNNP
+
+#Rule:V-ADV
+r46areAUXreallyRB
+
+@lemmas-left	are	god	you	be	
+@lemmas-right	really	god	are	be	
+@lemmas-center	

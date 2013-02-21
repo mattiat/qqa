@@ -1,0 +1,64 @@
+#screw you woo, brock was awesome. he was hella strong, and also a good wrestler, he was really charismatic as well. i would like to see him come back, but im also interested to see what will happen of him in ufc.
+#(S1 (S (SBAR (RB screw) (S (NP (PRP you)) (VP (VB woo)))) (, ,) (NP (NN brock)) (VP (AUX was) (VP (VBG awesome.) (SBAR (S (S (NP (PRP he)) (VP (AUX was) (ADJP (RB hella) (JJ strong)))) (, ,) (CC and) (S (ADVP (RB also)) (NP (DT a) (JJ good) (NN wrestler)) (, ,) (NP (PRP he)) (VP (AUX was) (ADJP (RB really) (JJ charismatic) (PP (IN as) (S (VP (VBG well.) (SBAR (S (NP (PRP i)) (VP (MD would) (VP (VB like) (S (VP (TO to) (VP (VB see) (S (NP (PRP him)) (VP (VP (VB come) (ADVP (RB back))) (, ,) (CC but) (VP (VB im) (ADJP (ADVP (RB also)) (JJ interested) (S (VP (TO to) (VP (VB see) (SBAR (WHNP (WP what)) (S (VP (MD will) (VP (VB happen) (PP (IN of) (NP (PRP him))) (PP (IN in) (NP (CD ufc))))))))))))))))))))))))))))))) (. .)))
+#Rule:Nouns
+r1brockNN
+r1wrestlerNN
+
+#Rule:Verbs
+r2wooVB
+r2awesomeVBG
+r2wellVBG
+r2likeVB
+r2seeVB
+r2comeVB
+r2imVB
+r2seeVB
+r2happenVB
+
+#Rule:Adjs
+r4strongJJ
+r4goodJJ
+r4charismaticJJ
+r4interestedJJ
+
+#Rule:Adj-Noun
+r5goodJJwrestlerNN
+
+#Rule:HeadNoun-V
+r11brockNNawesomeVBG
+r11youPRPwooVB
+r11hePRPwasAUX
+r11wrestlerNNwasAUX
+r11hePRPwasAUX
+r11iPersonAnnotationlikeVB
+r11himPRPcomeVB
+r11himPRPimVB
+
+#Rule:V-HeadNoun
+r22seeVBhimPRP
+
+#Rule:V-ADJ
+r25wasAUXstrongJJ
+r25wasAUXcharismaticJJ
+
+#Rule:PPinVP
+r30happenVBofINhimPRP
+r30happenVBinINufcOrganizationAnnotation
+
+#Rule:PPinADJP
+r38charismaticJJasINwellVBG
+
+#Rule:V-V
+r44likeVBseeVB
+
+#Rule:V-ADV
+r46wasAUXalsoRB
+r46comeVBbackRB
+
+#Rule:BE-ADJP-IN-VBG
+r51wrestlerNNwellVBG
+r51hePRPwellVBG
+
+@lemmas-left	well.	brock	awesome.	charismatic	come	you	good	him	he	well	like	im	interested	was	i	wrestler	see	awesome	strong	woo	happen	be	
+@lemmas-right	well.	awesome.	back	come	charismatic	well	him	like	im	wrestler	was	see	awesome	strong	ufc	woo	also	be	
+@lemmas-center	of	as	in	

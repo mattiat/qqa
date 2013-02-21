@@ -1,0 +1,43 @@
+#well there a practical guide called the kabbalah, it makes you have a different reaction towards life
+#(S1 (FRAG (CONJP (RB well) (RB there)) (S (NP (NP (DT a) (JJ practical) (NN guide)) (VP (VBN called) (S (NP (DT the) (NN kabbalah))))) (, ,) (NP (PRP it)) (VP (VBZ makes) (SBAR (S (NP (PRP you)) (VP (AUX have) (NP (NP (DT a) (JJ different) (NN reaction)) (PP (IN towards) (NP (NN life)))))))))))
+#Rule:Nouns
+r1guideNN
+r1kabbalahPersonAnnotation
+r1reactionNN
+r1lifeNN
+
+#Rule:Verbs
+r2calledVBN
+r2makesVBZ
+
+#Rule:Adjs
+r4practicalJJ
+r4differentJJ
+
+#Rule:Adj-Noun
+r5practicalJJguideNN
+r5differentJJreactionNN
+
+#Rule:HeadNoun-V
+r11guideNNmakesVBZ
+r11itPRPmakesVBZ
+r11youPRPhaveAUX
+
+#Rule:V-HeadNoun
+r21haveAUXreactionNN
+
+#Rule:V-HeadNoun
+r22calledVBNkabbalahPersonAnnotation
+
+#Rule:V-HeadNoun(passive)
+r24calledVBNguideNN
+
+#Rule:PPinNP
+r26reactionNNtowardsINlifeNN
+
+#Rule:TitleRule
+r48kabbalahPersonAnnotationguideNN
+
+@lemmas-left	guide	reaction	different	call	it	have	makes	you	life	practical	called	kabbalah	make	
+@lemmas-right	reaction	guide	life	have	makes	kabbalah	make	
+@lemmas-center	towards	

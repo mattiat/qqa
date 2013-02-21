@@ -1,0 +1,138 @@
+BE: powerNN
+EQ class: powerfulnessnn	
+
+BE: plantNN
+EQ class: worksnn	industrial_plantnn	
+
+BE: coalNN
+EQ class: 
+
+BE: boilNN
+EQ class: furunclenn	
+
+BE: waterNN
+EQ class: wateryjj	h2onn	
+
+BE: steamNN
+EQ class: 
+
+BE: steamNN
+EQ class: 
+
+BE: turbineNN
+EQ class: 
+
+BE: motorNN
+EQ class: motorjj	
+
+BE: electricityNN
+EQ class: electricjj	
+
+BE: burnsVBZ
+EQ class: burnvbz	burn_downvbz	firevbz	
+
+BE: believeVBP
+EQ class: 
+
+BE: makeVB
+EQ class: dovb	
+
+BE: turnsVBZ
+EQ class: turnvbz	
+
+BE: turnsVBZ
+EQ class: turnvbz	
+
+BE: generatesVBZ
+EQ class: bring_forthvbz	generatevbz	
+
+BE: powerNNplantNN
+EQ class: industrial_plantnnofinpowernn	industrial_plantnnofinpowerfulnessnn	powerfulnessnnplantnn	powernnindustrial_plantnn	powerfulnessnnindustrial_plantnn	plantnnofinpowerfulnessnn	powernnworksnn	worksnnofinpowernn	powerfulnessnnworksnn	worksnnofinpowerfulnessnn	plantnnofinpowernn	
+
+BE: plantNNburnsVBZ
+EQ class: worksnnburn_downvbz	industrial_plantnnburnvbz	worksnnburnsvbz	industrial_plantnnfirevbz	worksnnfirevbz	burnnnofinplantnn	burningnnofinplantnn	plantnnburnvbz	burnnnofinindustrial_plantnn	burnablennofinplantnn	industrial_plantnnburnsvbz	plantnnburn_downvbz	worksnnburnvbz	burningnnofinindustrial_plantnn	plantnnfirevbz	burnnnofinworksnn	burnablennofinindustrial_plantnn	burnablennofinworksnn	burningnnofinworksnn	industrial_plantnnburn_downvbz	
+
+BE: steamNNturnsVBZ
+EQ class: steamnnturnvbz	twistnnofinsteamnn	turningnnsteamnn	turnnnofinsteamnn	turnnnsteamnn	turningnnofinsteamnn	crooknnofinsteamnn	bendnnofinsteamnn	
+
+BE: iLocationAnnotationbelieveVBP
+EQ class: beliefnnofinilocationannotation	beliefnnilocationannotation	believablennofinilocationannotation	trusternnilocationannotation	believernnofinilocationannotation	trusternnofinilocationannotation	believernnilocationannotation	
+
+BE: theyPRPmakeVB
+EQ class: theyprpdovb	
+
+BE: turbineNNturnsVBZ
+EQ class: crooknnofinturbinenn	turningnnturbinenn	turnnnturbinenn	turningnnofinturbinenn	bendnnofinturbinenn	twistnnofinturbinenn	turnnnofinturbinenn	turbinennturnvbz	
+
+BE: motorNNgeneratesVBZ
+EQ class: generativennofinmotornn	coevalsnnmotorjj	generationaljjofinmotornn	contemporariesnnmotorjj	generatornnmotornn	coevalsnnofinmotorjj	motornnbring_forthvbz	generationaljjmotornn	contemporariesnnofinmotorjj	generationnnofinmotorjj	generationnnmotornn	motorjjgeneratevbz	generativennofinmotorjj	coevalsnnmotornn	generatornnofinmotorjj	motornngeneratevbz	motorjjgeneratesvbz	motorjjbring_forthvbz	generationnnmotorjj	generationaljjmotorjj	generationaljjofinmotorjj	generationnnofinmotornn	coevalsnnofinmotornn	generatornnmotorjj	contemporariesnnofinmotornn	generatornnofinmotornn	contemporariesnnmotornn	
+
+BE: burnsVBZcoalNN
+EQ class: burnnnofincoalnn	burn_downvbzcoalnn	burningnnofincoalnn	burnvbzcoalnn	burnablennofincoalnn	firevbzcoalnn	
+
+BE: boilNNwaterNN
+EQ class: boilnnh2onn	furunclennwaternn	boilnnwateryjj	furunclennh2onn	furunclennwateryjj	
+
+BE: makeVBsteamNN
+EQ class: dovbsteamnn	
+
+BE: turnsVBZturbineNN
+EQ class: crooknnofinturbinenn	turnvbzturbinenn	turningnnofinturbinenn	bendnnofinturbinenn	twistnnofinturbinenn	turnnnofinturbinenn	
+
+BE: turnsVBZmotorNN
+EQ class: turnvbzmotornn	crooknnofinmotornn	turningnnofinmotorjj	turnnnofinmotornn	bendnnofinmotorjj	crooknnofinmotorjj	twistnnofinmotornn	turnnnofinmotorjj	twistnnofinmotorjj	bendnnofinmotornn	turnvbzmotorjj	turningnnofinmotornn	turnsvbzmotorjj	
+
+BE: generatesVBZelectricityNN
+EQ class: coevalsnnofinelectricitynn	generatevbzelectricitynn	generatornnofinelectricitynn	bring_forthvbzelectricjj	generativennofinelectricitynn	contemporariesnnofinelectricitynn	generatornnofinelectricjj	generationnnofinelectricitynn	bring_forthvbzelectricitynn	generationaljjofinelectricitynn	coevalsnnofinelectricjj	generationnnofinelectricjj	generatevbzelectricjj	generativennofinelectricjj	generatesvbzelectricjj	generationaljjofinelectricjj	contemporariesnnofinelectricjj	
+
+BE: believeVBPtheyPRP
+EQ class: believablennofintheyprp	beliefnnofintheyprp	trusternnofintheyprp	believernnofintheyprp	
+
+BE: HeatNN
+EQ class: heat_energynn	
+
+BE: energyNN
+EQ class: free_energynn	
+
+BE: energyNN
+EQ class: free_energynn	
+
+BE: energyNN
+EQ class: free_energynn	
+
+BE: transformedVBN
+EQ class: transformvbn	
+
+BE: transformedVBN
+EQ class: transformvbn	
+
+BE: mechanicalJJ
+EQ class: mechanismnn	mechanicsnn	
+
+BE: eletricalJJ
+EQ class: 
+
+BE: mechanicalJJenergyNN
+EQ class: mechanicaljjfree_energynn	mechanicsnnenergynn	mechanicsnnfree_energynn	arousevbmechanicallyrb	bracevbmechanicallyrb	energizevbmechanicallyrb	stimulatevbmechanicallyrb	perk_upvbmechanicallyrb	energisevbmechanicallyrb	mechanismnnenergynn	mechanismnnfree_energynn	
+
+BE: eletricalJJenergyNN
+EQ class: eletricaljjfree_energynn	
+
+BE: HeatNNenergyNN
+EQ class: heaternnofinfree_energynn	heatnnstimulatevb	heatnnofinfree_energynn	free_energynnofinheat_energynn	heat_energynnofinfree_energynn	energynnofinheatnn	heat_energynnenergynn	heatnnenergizevb	energizevbheat_energynn	heatablennofinenergynn	perk_upvbheat_energynn	energynnheatvb	stimulatevbheatnn	energisevbheat_energynn	energynnheat_upvb	heatablennofinfree_energynn	free_energynnheatvb	heatnnarousevb	heatnnperk_upvb	energisevbheatnn	warmernnofinenergynn	heat_energynnperk_upvb	free_energynnheat_upvb	warmernnofinfree_energynn	heatnnofinenergynn	heat_energynnbracevb	energizevbheatnn	heaternnofinenergynn	energynnofinheat_energynn	heatnnenergisevb	free_energynnofinheatnn	heat_energynnarousevb	stimulatevbheat_energynn	heatnnfree_energynn	heat_energynnstimulatevb	bracevbheat_energynn	heat_energynnofinenergynn	heatnnbracevb	heat_energynnenergizevb	arousevbheatnn	bracevbheatnn	arousevbheat_energynn	perk_upvbheatnn	heat_energynnfree_energynn	heat_energynnenergisevb	
+
+BE: transformedVBNenergyNN
+EQ class: transformvbnfree_energynn	transformedvbnfree_energynn	transformvbnenergynn	shiftnnofinfree_energynn	shiftnnofinenergynn	transformationnnofinenergynn	transmutationnnofinenergynn	transmutationnnofinfree_energynn	transformationnnofinfree_energynn	
+
+BE: transformedVBNenergyNN
+EQ class: transformvbnfree_energynn	transformedvbnfree_energynn	transformvbnenergynn	shiftnnofinfree_energynn	shiftnnofinenergynn	transformationnnofinenergynn	transmutationnnofinenergynn	transmutationnnofinfree_energynn	transformationnnofinfree_energynn	
+
+BE: transformedVBNintoINenergyNN
+EQ class: transformvbnintoinfree_energynn	transformvbnintoinenergynn	transformedvbnintoinfree_energynn	
+
+BE: transformedVBNintoINenergyNN
+EQ class: transformvbnintoinfree_energynn	transformvbnintoinenergynn	transformedvbnintoinfree_energynn	
+
+BE: transformedVBNthenRB
+EQ class: transformationnnofinthenrb	shiftnnofinthenrb	transmutationnnofinthenrb	transformvbnthenrb	
+

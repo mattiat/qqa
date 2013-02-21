@@ -1,0 +1,84 @@
+#honestly people should stop dignifing these types of questions with real responses.these questions disgrace the whole idea of this thing.  
+#(S1 (S (ADVP (RB honestly)) (NP (NNS people)) (VP (MD should) (VP (VB stop) (S (VP (VBG dignifing) (NP (NP (DT these) (NNS types)) (PP (IN of) (NP (NP (NNS questions)) (PP (IN with) (NP (JJ real) (NN responses.these) (NNS questions) (NN disgrace)))))) (NP (NP (DT the) (JJ whole) (NN idea)) (PP (IN of) (NP (DT this) (NN thing)))))))) (. .)))
+#Rule:Nouns
+r1peopleNNS
+r1typesNNS
+r1questionsNNS
+r1responses.theseNN
+r1questionsNNS
+r1disgraceNN
+r1ideaNN
+r1thingNN
+
+#Rule:Verbs
+r2stopVB
+r2dignifingVBG
+
+#Rule:Adjs
+r4realJJ
+r4wholeJJ
+
+#Rule:Adj-Noun
+r5realJJdisgraceNN
+r5wholeJJideaNN
+
+#Rule:N-HeadNoun
+r8questionsNNSdisgraceNN
+r8responses.theseNNdisgraceNN
+
+#Rule:HeadNoun-V
+r11peopleNNSstopVB
+
+#Rule:V-HeadNoun
+r21dignifingVBGtypesNNS
+r21dignifingVBGideaNN
+
+#Rule:PPinNP
+r26typesNNSofINquestionsNNS
+r26questionsNNSwithINdisgraceNN
+r26ideaNNofINthingNN
+
+#Also if these people want to search teh answers to teh same dumb question it would probably save them time!
+#(S1 (FRAG (ADVP (RB Also)) (SBAR (IN if) (S (NP (DT these) (NNS people)) (VP (VBP want) (S (VP (TO to) (VP (VB search) (NP (JJ teh) (NNS answers)) (S (VP (TO to) (VP (VB teh) (NP (NP (JJ same) (JJ dumb) (NN question)) (SBAR (S (NP (PRP it)) (VP (MD would) (ADVP (RB probably)) (VP (VB save) (NP (PRP them)) (NP (NN time)))))))))))))))) (. !)))
+#Rule:Nouns
+r1peopleNNS
+r1answersNNS
+r1questionNN
+r1time!LocationAnnotation
+
+#Rule:Verbs
+r2wantVBP
+r2searchVB
+r2tehVB
+r2saveVB
+
+#Rule:Adjs
+r4tehJJ
+r4sameJJ
+r4dumbJJ
+
+#Rule:Adj-Noun
+r5tehJJanswersNNS
+r5sameJJquestionNN
+r5dumbJJquestionNN
+
+#Rule:HeadNoun-V
+r11peopleNNSwantVBP
+r11itPRPsaveVB
+
+#Rule:V-HeadNoun
+r21searchVBanswersNNS
+r21tehVBquestionNN
+r21saveVBthemPRP
+r21saveVBtime!LocationAnnotation
+
+#Rule:V-V
+r44wantVBPsearchVB
+r44searchVBtehVB
+
+#Rule:V-ADV
+r46saveVBprobablyRB
+
+@lemmas-left	stop	idea	it	save	disgrace	answers	answer	questions	responses.these	teh	same	type	people	dumb	real	search	whole	question	types	want	dignifing	time!	thing	
+@lemmas-right	stop	idea	save	disgrace	answer	answers	questions	teh	type	search	them	probably	question	types	want	time!	thing	
+@lemmas-center	of	with	

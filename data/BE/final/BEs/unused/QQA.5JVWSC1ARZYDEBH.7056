@@ -1,0 +1,19 @@
+#Just think what you want to write.
+#(S1 (S (ADVP (RB Just)) (VP (VB think) (SBAR (WHNP (WP what)) (S (NP (PRP you)) (VP (VBP want) (S (VP (TO to) (VP (VB write)))))))) (. .)))
+#Rule:Verbs
+r2thinkVB
+r2wantVBP
+r2writeVB
+
+#Rule:HeadNoun-V
+r11youPRPwantVBP
+
+#Rule:V-V
+r44wantVBPwriteVB
+
+#Rule:V-ADV
+r46thinkVBJustRB
+
+@lemmas-left	think	write	you	want	
+@lemmas-right	just	write	Just	want	
+@lemmas-center	

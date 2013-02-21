@@ -1,0 +1,83 @@
+#Because I don t want my childrens education based on what they get out of one book while sitting in a little box seperated from most of the population..
+#(S1 (S (SBAR (IN Because) (S (NP (PRP I)) (VP (VB don) (NP (NN t))))) (VP (VBP want) (NP (NP (PRP$ my) (NNS childrens) (NN education)) (VP (VBN based) (PP (IN on) (SBAR (WHNP (WP what)) (S (NP (PRP they)) (VP (VBP get) (PRT (RP out)) (PP (IN of) (NP (CD one) (NN book)))) (SBAR (IN while) (S (VP (VBG sitting) (PP (IN in) (NP (NP (DT a) (JJ little) (NN box)) (VP (VBN seperated) (PP (IN from) (NP (NP (JJS most)) (PP (IN of) (NP (DT the) (NN population))))))))))) (. .))))))) (. .)))
+#Rule:Nouns
+r1tNN
+r1childrensNNS
+r1educationNN
+r1bookNN
+r1boxNN
+r1populationNN
+
+#Rule:Verbs
+r2donVB
+r2wantVBP
+r2basedVBN
+r2sittingVBG
+r2seperatedVBN
+
+#Rule:V-PRT
+r3getVBPoutRP
+
+#Rule:Adjs
+r4littleJJ
+r4mostJJS
+
+#Rule:Adj-Noun
+r5oneCDbookNN
+r5littleJJboxNN
+
+#Rule:PRP-Noun
+r6myPRP$educationNN
+
+#Rule:N-HeadNoun
+r8childrensNNSeducationNN
+
+#Rule:HeadNoun-V
+r11iPRPdonVB
+r11theyPRPgetVBP
+
+#Rule:V-HeadNoun
+r21donVBtNN
+r21wantVBPeducationNN
+
+#Rule:V-HeadNoun(passive)
+r24basedVBNeducationNN
+r24seperatedVBNboxNN
+
+#Rule:PPinNP
+r26mostJJSofINpopulationNN
+
+#Rule:PPinVP
+r30getVBPofINbookNN
+r30sittingVBGinINboxNN
+
+#Rule:PPinVP
+r32seperatedVBNfromINmostJJS
+
+#The easiest way to teach is to get out there and live.  :)
+#(S1 (S (S (NP (NP (DT The) (JJS easiest) (NN way)) (SBAR (S (VP (TO to) (VP (VB teach)))))) (VP (AUX is) (UCP (S (VP (TO to) (VP (VB get) (PP (IN out) (NP (EX there)))))) (CC and) (ADVP (FW live.))))) (: :) (-RRB- -RRB-)))
+#Rule:Nouns
+r1wayNN
+
+#Rule:Verbs
+r2teachVB
+r2getVB
+
+#Rule:Adjs
+r4easiestJJS
+
+#Rule:Adj-Noun
+r5easiestJJSwayNN
+
+#Rule:HeadNoun-V
+r11wayNNisAUX
+
+#Rule:HeadNoun-(who/that)-V
+r14wayNNteachVB
+
+#Rule:PPinVP
+r30getVBoutINthereEX
+
+@lemmas-left	they	get	don	one	way	most	little	education	teach	my	childrens	seperated	i	sit	t	sitting	easy	book	base	box	easiest	want	based	population	
+@lemmas-right	is	don	get	most	way	education	teach	t	there	book	box	out	population	be	
+@lemmas-center	of	from	in	out	

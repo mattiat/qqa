@@ -1,0 +1,25 @@
+#666 is the Bible reference for the anti-Christ
+#(S1 (S (NP (CD 666)) (VP (AUX is) (NP (NP (DT the) (NNP Bible) (NN reference)) (PP (IN for) (NP (DT the) (NNP anti-Christ)))))))
+#Rule:Nouns
+r1BibleNNP
+r1referenceNN
+r1anti-ChristNNP
+
+#Rule:N-HeadNoun
+r8BibleNNPreferenceNN
+
+#Rule:HeadNoun-V
+r11666CDisAUX
+
+#Rule:V-HeadNoun
+r21isAUXreferenceNN
+
+#Rule:PPinNP
+r26referenceNNforINanti-ChristNNP
+
+#Rule:IS-RULE
+r47referenceNN666CD
+
+@lemmas-left	Bible	is	christ	anti-Christ	bible	666	reference	be	
+@lemmas-right	is	christ	anti-Christ	666	reference	be	
+@lemmas-center	for	

@@ -1,0 +1,36 @@
+#It s the reflection of the ocean.  
+#(S1 (S (NP (PRP It)) (VP (VBZ s) (NP (NP (DT the) (NN reflection)) (PP (IN of) (NP (DT the) (NN ocean))))) (. .)))
+#Rule:Nouns
+r1reflectionNN
+r1oceanNN
+
+#Rule:Verbs
+r2sVBZ
+
+#Rule:HeadNoun-V
+r11itPRPsVBZ
+
+#Rule:V-HeadNoun
+r21sVBZreflectionNN
+
+#Rule:PPinNP
+r26reflectionNNofINoceanNN
+
+#Actually, I don t know, but it sounds good.
+#(S1 (S (ADVP (RB Actually)) (, ,) (S (NP (PRP I)) (VP (ADVP (VB don) (JJ t)) (VBP know))) (, ,) (CC but) (S (NP (PRP it)) (VP (VBZ sounds) (ADJP (JJ good)))) (. .)))
+#Rule:Verbs
+r2donVB
+r2knowVBP
+r2soundsVBZ
+
+#Rule:Adjs
+r4tJJ
+r4goodJJ
+
+#Rule:HeadNoun-V
+r11iPRPknowVBP
+r11itPRPsoundsVBZ
+
+@lemmas-left	reflection	t	it	don	s	sound	good	ocean	know	i	sounds	
+@lemmas-right	reflection	s	sound	ocean	know	sounds	
+@lemmas-center	of	

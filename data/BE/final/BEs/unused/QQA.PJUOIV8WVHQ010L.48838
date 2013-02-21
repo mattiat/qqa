@@ -1,0 +1,379 @@
+#Afrikaans Gooie m??reAlbanian Mere mengjesiAmharic Endermen aderkhArabic Sabah-il-kheirArmenian Bari luysAssyrian Kedamtookh brikhtaBamougoum Oli yahBasque Egun onBelarussian Dobray ranitsyBemba MwashibukeniBengali Shu-probhaatBisaya Maayong adlawBulgarian Dobro utroCatalan Bon diaCebuano Maayong buntag!!
+#(S1 (S (NP (NNP Afrikaans) (NNP Gooie) (NNP m)) (VP (VBD ??) (S (NP (JJ reAlbanian) (JJ Mere) (NN mengjesiAmharic) (NNP Endermen) (JJ aderkhArabic) (NNP Sabah-il-kheirArmenian) (NNP Bari) (NN luysAssyrian) (NNP Kedamtookh) (NNP brikhtaBamougoum) (NNP Oli)) (VP (VB yahBasque) (S (NP (NNP Egun) (NN onBelarussian) (NNP Dobray) (NNP ranitsyBemba) (NNP MwashibukeniBengali) (NNP Shu-probhaatBisaya) (NNP Maayong) (NN adlawBulgarian) (NNP Dobro) (NNP utroCatalan) (NNP Bon) (NNP diaCebuano) (NNP Maayong)) (VP (VB buntag)) (. !))))) (. !)))
+#Rule:Nouns
+r1Afrikaans GooiePersonAnnotation
+r1mNNP
+r1reAlbanian Mere mengjesiAmharicOrganizationAnnotation
+r1EndermenNNP
+r1Sabah-il-kheirArmenianNNP
+r1kheirArmenian BariPersonAnnotation
+r1luysAssyrianNN
+r1Kedamtookh brikhtaBamougoum Oli yahBasquePersonAnnotation
+r1EgunNNP
+r1onBelarussian DobrayPersonAnnotation
+r1ranitsyBembaNNP
+r1MwashibukeniBengali ShuPersonAnnotation
+r1Shu-probhaatBisayaNNP
+r1probhaatBisaya MaayongPersonAnnotation
+r1adlawBulgarianNN
+r1Dobro utroCatalanPersonAnnotation
+r1BonNNP
+r1diaCebuano Maayong buntagOrganizationAnnotation
+
+#Rule:Verbs
+r2??VBD
+
+#Rule:Adjs
+r4aderkhArabic SabahPersonAnnotation
+
+#Rule:Adj-Noun
+r5reAlbanian Mere mengjesiAmharicOrganizationAnnotationKedamtookh brikhtaBamougoum Oli yahBasquePersonAnnotation
+r5aderkhArabic SabahPersonAnnotationKedamtookh brikhtaBamougoum Oli yahBasquePersonAnnotation
+
+#Rule:N-HeadNoun
+r8Afrikaans GooiePersonAnnotationmNNP
+r8luysAssyrianNNKedamtookh brikhtaBamougoum Oli yahBasquePersonAnnotation
+r8kheirArmenian BariPersonAnnotationKedamtookh brikhtaBamougoum Oli yahBasquePersonAnnotation
+r8BonNNPdiaCebuano Maayong buntagOrganizationAnnotation
+r8Dobro utroCatalanPersonAnnotationdiaCebuano Maayong buntagOrganizationAnnotation
+
+#Rule:HeadNoun-V
+r11mNNP??VBD
+
+#Rule:V-HeadNoun
+r22??VBDKedamtookh brikhtaBamougoum Oli yahBasquePersonAnnotation
+r22Kedamtookh brikhtaBamougoum Oli yahBasquePersonAnnotationdiaCebuano Maayong buntagOrganizationAnnotation
+
+#Chichewa Mwadzuka bwanjiChinese: Cantonese Zou sanChinese: Hakka On zohChinese: Mandarin Zao shang haoCornish Myttin daCorse Bun ghjiornuCreole BonzourCroatian Dobro jutroCzech Dobr?? r??noDanish God morgenDari Sob BakhaerDivehi Baajjaveri hedhunehDutch GoedemorgenEnglish Good morningEritrean HaderfumEsperanto Bonan matenonEstonian Tere hommikutEtsakor NaigbiaFanti Me ma wo akyeFarsi SubbakhairFijian Sa YadraFinnish Hyv???? huomentaFlemish Goeie morgenFrench Bon matinGaelic Maidin MhaithGeorgian
+#(S1 (FRAG (X (NP (NP (NNP Chichewa) (NNP Mwadzuka) (NN bwanjiChinese)) (: :) (NP (NNP Cantonese) (NNP Zou) (NN sanChinese)) (: :) (NP (NNP Hakka) (NNP On) (NN zohChinese)) (: :) (S (NP (NNP Mandarin) (NNP Zao)) (VP (VBG shang) (NP (NP (JJ haoCornish) (NNP Myttin) (FW daCorse) (NNP Bun)) (NP (JJ ghjiornuCreole) (NNP BonzourCroatian) (NNP Dobro) (NN jutroCzech) (NNP Dobr)))) (. ?)) (. ?)) (SYM r) (S (NP (CD ??) (JJ noDanish) (NNP God) (NN morgenDari)) (VP (VB Sob) (SBAR (S (NP (NNP BakhaerDivehi) (NNP Baajjaveri) (NN hedhunehDutch) (NNP GoedemorgenEnglish) (JJ Good) (NN morningEritrean) (NNP HaderfumEsperanto) (NNP Bonan) (NN matenonEstonian) (NNP Tere) (NN hommikutEtsakor) (NNP NaigbiaFanti) (FW Me) (NNP ma)) (VP (MD wo) (VP (VB akyeFarsi) (NP (NNP SubbakhairFijian) (NNP Sa) (NNP YadraFinnish) (NNP Hyv) (NNS ???)))))))) (. ?)) (VP (VB huomentaFlemish) (NP (NNP Goeie) (NN morgenFrench) (NNP Bon) (NN matinGaelic) (NNP Maidin) (NNP MhaithGeorgian)))))
+#Rule:Nouns
+r1Chichewa MwadzukaPersonAnnotation
+r1bwanjiChineseNN
+r1: CantonesePersonAnnotation
+r1ZouNNP
+r1sanChineseNN
+r1HakkaLocationAnnotation
+r1OnNNP
+r1zohChineseLocationAnnotation
+r1Mandarin Zao shangPersonAnnotation
+r1Myttin daCorsePersonAnnotation
+r1BunNNP
+r1ghjiornuCreole BonzourCroatianPersonAnnotation
+r1DobroNNP
+r1jutroCzechLocationAnnotation
+r1DobrNNP
+r1noDanish God morgenDariPersonAnnotation
+r1BakhaerDivehi BaajjaveriPersonAnnotation
+r1hedhunehDutchNN
+r1GoedemorgenEnglish Good morningEritrean HaderfumEsperanto Bonan matenonEstonianOrganizationAnnotation
+r1TereNNP
+r1hommikutEtsakor NaigbiaFanti MeOrganizationAnnotation
+r1maNNP
+r1akyeFarsi SubbakhairFijianPersonAnnotation
+r1SaNNP
+r1YadraFinnish HyvPersonAnnotation
+r1???NNS
+r1Goeie morgenFrench Bon matinGaelic Maidin MhaithGeorgianOrganizationAnnotation
+
+#Rule:Verbs
+r2sobVB
+r2huomentaflemishVB
+
+#Rule:Adjs
+r4haoCornishJJ
+
+#Rule:Adj-Noun
+r5haoCornishJJBunNNP
+r5ghjiornuCreole BonzourCroatianPersonAnnotationDobrNNP
+r5??CDnoDanish God morgenDariPersonAnnotation
+r5GoedemorgenEnglish Good morningEritrean HaderfumEsperanto Bonan matenonEstonianOrganizationAnnotationmaNNP
+
+#Rule:N-HeadNoun
+r8Chichewa MwadzukaPersonAnnotationbwanjiChineseNN
+r8ZouNNPsanChineseNN
+r8: CantonesePersonAnnotationsanChineseNN
+r8OnNNPzohChineseLocationAnnotation
+r8HakkaLocationAnnotationzohChineseLocationAnnotation
+r8jutroCzechLocationAnnotationDobrNNP
+r8DobroNNPDobrNNP
+r8YadraFinnish HyvPersonAnnotation???NNS
+r8SaNNP???NNS
+r8akyeFarsi SubbakhairFijianPersonAnnotation???NNS
+
+#Rule:HeadNoun-V
+r11noDanish God morgenDariPersonAnnotationsobVB
+r11maNNPakyeFarsi SubbakhairFijianPersonAnnotation
+
+#Rule:V-HeadNoun
+r21Mandarin Zao shangPersonAnnotationBunNNP
+r21huomentaflemishVBGoeie morgenFrench Bon matinGaelic Maidin MhaithGeorgianOrganizationAnnotation
+
+#Dila mshvidobisaGerman Guten MorgenGreek Kali meraGujrati Kem ChoHawaiian Aloha kakahiakaHebrew Boker tovHindi NamasteHungarian Jo reggeltIcelandic G??dan daginnIndonesian Selamat pagiItalian Buon giornoJapanese Ohayo gozaimazKannada ShubhodayaKapampangan Mayap a abakKazakh Kairly TanKhmer Arrun Suo SdeyKonkani Dev Tuka Boro Dis DivumKorean AnnyunghaseyoKurdish Bayanit bashLaotian SabaideeLatvian LabritLithuanian Labas reytasLozi U zuhileLuganda Wasuze otyanoLuxembourg
+#(S1 (S (NP (NNP Dila) (NN mshvidobisaGerman) (NNP Guten) (NNP MorgenGreek) (NNP Kali) (NNP meraGujrati) (NNP Kem) (NNP ChoHawaiian) (NNP Aloha)) (VP (VBD kakahiakaHebrew) (SBAR (S (NP (NNP Boker) (NNP tovHindi) (NNP NamasteHungarian) (NNP Jo) (NNP reggeltIcelandic) (NNP G)) (VP (VBD ??) (NP (NNP dan) (NN daginnIndonesian) (NNP Selamat) (NNP pagiItalian) (NNP Buon) (NN giornoJapanese) (NNP Ohayo) (NNP gozaimazKannada) (NNP ShubhodayaKapampangan) (NNP Mayap)) (NP (DT a) (JJ abakKazakh) (NNP Kairly) (NNP TanKhmer) (NNP Arrun) (NNP Suo) (NNP SdeyKonkani) (NNP Dev) (NNP Tuka) (NNP Boro) (NNP Dis) (NNP DivumKorean) (NNP AnnyunghaseyoKurdish) (NNP Bayanit) (NN bashLaotian) (NNP SabaideeLatvian) (NNP LabritLithuanian) (NNP Labas) (NNP reytasLozi) (NNP U) (NNP zuhileLuganda) (NNP Wasuze) (NNP otyanoLuxembourg))))))))
+#Rule:Nouns
+r1Dila mshvidobisaGermanPersonAnnotation
+r1GutenNNP
+r1MorgenGreek Kali meraGujrati KemPersonAnnotation
+r1ChoHawaiianNNP
+r1Aloha kakahiakaHebrew BokerPersonAnnotation
+r1tovHindiNNP
+r1NamasteHungarian Jo reggeltIcelandicPersonAnnotation
+r1GNNP
+r1danNNP
+r1daginnIndonesianLocationAnnotation
+r1SelamatNNP
+r1pagiItalianNNP
+r1BuonNNP
+r1giornoJapaneseNN
+r1OhayoNNP
+r1gozaimazKannada ShubhodayaKapampanganPersonAnnotation
+r1MayapNNP
+r1KairlyNNP
+r1TanKhmer Arrun Suo SdeyKonkaniPersonAnnotation
+r1DevNNP
+r1Tuka BoroPersonAnnotation
+r1DisNNP
+r1DivumKorean AnnyunghaseyoKurdishPersonAnnotation
+r1BayanitNNP
+r1bashLaotian SabaideeLatvianPersonAnnotation
+r1LabritLithuanianNNP
+r1Labas reytasLoziPersonAnnotation
+r1UNNP
+r1zuhileLugandaLocationAnnotation
+r1WasuzeNNP
+r1otyanoLuxembourgLocationAnnotation
+
+#Rule:Verbs
+r2??VBD
+
+#Rule:Adjs
+r4a abakKazakhPersonAnnotation
+
+#Rule:Adj-Noun
+r5a abakKazakhPersonAnnotationotyanoLuxembourgLocationAnnotation
+
+#Rule:N-HeadNoun
+r8ChoHawaiianNNPAloha kakahiakaHebrew BokerPersonAnnotation
+r8MorgenGreek Kali meraGujrati KemPersonAnnotationAloha kakahiakaHebrew BokerPersonAnnotation
+r8NamasteHungarian Jo reggeltIcelandicPersonAnnotationGNNP
+r8tovHindiNNPGNNP
+r8gozaimazKannada ShubhodayaKapampanganPersonAnnotationMayapNNP
+r8OhayoNNPMayapNNP
+r8giornoJapaneseNNMayapNNP
+r8WasuzeNNPotyanoLuxembourgLocationAnnotation
+r8zuhileLugandaLocationAnnotationotyanoLuxembourgLocationAnnotation
+r8UNNPotyanoLuxembourgLocationAnnotation
+r8Labas reytasLoziPersonAnnotationotyanoLuxembourgLocationAnnotation
+
+#Rule:HeadNoun-V
+r11GNNP??VBD
+
+#Rule:V-HeadNoun
+r21??VBDMayapNNP
+r21??VBDotyanoLuxembourgLocationAnnotation
+
+#Gudde moienMacedonian Dobro utroMalayalam SuprabhathamMalaysian Selamat pagiMaltese G??odwa it-tajbaManx Moghrey mieMaori Kia oraMapuche Mar??-mar??Marathi SuprabhatMongolian ??glouny mendNavajo Y?? ??t ????h ab??n??Ndebele LivukenjaniNepali NamesteNorwegian God morgenOwambo Wa lalapoPashtun Sahar de pa KhairPersian Sob bekhairPolish Dzien dobryPolynesian Ia ora naPortuguese Bom diaPunjabi SatsriakhalRomanian Buna dimineataRussian Dobraye ootraRwandese OrahoSamoan Talofa lavaSanskrit
+#(S1 (S (SBAR (S (NP (JJ Gudde) (JJ moienMacedonian) (NNP Dobro) (FW utroMalayalam) (NNP SuprabhathamMalaysian) (NNP Selamat) (FW pagiMaltese) (NNP G)) (VP (VBD ??) (SBAR (S (NP (NNP odwa) (NN it-tajbaManx) (NNP Moghrey) (FW mieMaori) (NNP Kia) (NNP oraMapuche) (NNP Mar)) (VP (VBD ??) (SBAR (S (NP (JJ -mar) (NN ??) (NNP Marathi) (NNP SuprabhatMongolian)) (VP (VBZ ??) (NP (JJ glouny) (NN mendNavajo) (NNS Y))) (. ?)))))) (. ?)))) (VP (NP (NNS ??)) (S (NP (NP (QP (CD t) (CD ????))) (SBAR (S (NP (NNP h) (NNP ab) (FW ??) (NNP n) (FW ??) (NNP Ndebele) (NNP LivukenjaniNepali) (NNP NamesteNorwegian) (NNP God)) (VP (VBD morgenOwambo) (S (NP (NNP Wa) (NN lalapoPashtun) (NNP Sahar) (FW de) (NNP pa) (NNP KhairPersian)) (VP (VB Sob) (S (VP (VB bekhairPolish) (SBAR (S (NP (NNP Dzien) (NN dobryPolynesian) (NNP Ia) (FW ora) (FW naPortuguese) (NNP Bom)) (VP (VBZ diaPunjabi) (NP (NNP SatsriakhalRomanian) (NNP Buna) (NNP dimineataRussian) (NNP Dobraye) (NN ootraRwandese) (NNP OrahoSamoan) (NNP Talofa) (NN lavaSanskrit)))))))))))))))))
+#Rule:Nouns
+r1moienMacedonian Dobro utroMalayalam SuprabhathamMalaysianPersonAnnotation
+r1SelamatNNP
+r1pagiMaltese G??odwa it-tajbaManx MoghreyPersonAnnotation
+r1Kia oraMapuche MarPersonAnnotation
+r1??NN
+r1Marathi SuprabhatMongolianPersonAnnotation
+r1mendNavajoNN
+r1YLocationAnnotation
+r1??NNS
+r1hNNP
+r1abNNP
+r1nNNP
+r1NdebeleNNP
+r1LivukenjaniNepali NamesteNorwegianPersonAnnotation
+r1GodNNP
+r1morgenOwambo Wa lalapoPashtunPersonAnnotation
+r1SaharNNP
+r1de pa KhairPersianPersonAnnotation
+r1bekhairPolish DzienPersonAnnotation
+r1dobryPolynesianNN
+r1Ia ora naPortuguesePersonAnnotation
+r1BomNNP
+r1diaPunjabi SatsriakhalRomanianPersonAnnotation
+r1BunaNNP
+r1dimineataRussian DobrayePersonAnnotation
+r1ootraRwandeseNN
+r1OrahoSamoan Talofa lavaSanskritPersonAnnotation
+
+#Rule:Verbs
+r2??VBD
+r2??VBZ
+r2sobVB
+
+#Rule:Adjs
+r4GuddeJJ
+r4-marJJ
+r4glounyJJ
+
+#Rule:Adj-Noun
+r5GuddeJJpagiMaltese G??odwa it-tajbaManx MoghreyPersonAnnotation
+r5moienMacedonian Dobro utroMalayalam SuprabhathamMalaysianPersonAnnotationpagiMaltese G??odwa it-tajbaManx MoghreyPersonAnnotation
+r5-marJJMarathi SuprabhatMongolianPersonAnnotation
+r5glounyJJYLocationAnnotation
+r5????CDtCD
+
+#Rule:N-HeadNoun
+r8??NNMarathi SuprabhatMongolianPersonAnnotation
+r8mendNavajoNNYLocationAnnotation
+r8LivukenjaniNepali NamesteNorwegianPersonAnnotationGodNNP
+r8NdebeleNNPGodNNP
+r8ootraRwandeseNNOrahoSamoan Talofa lavaSanskritPersonAnnotation
+r8dimineataRussian DobrayePersonAnnotationOrahoSamoan Talofa lavaSanskritPersonAnnotation
+
+#Rule:HeadNoun-V
+r11Kia oraMapuche MarPersonAnnotation??VBD
+r11Marathi SuprabhatMongolianPersonAnnotation??VBZ
+r11GodNNPmorgenOwambo Wa lalapoPashtunPersonAnnotation
+r11de pa KhairPersianPersonAnnotationsobVB
+r11BomNNPdiaPunjabi SatsriakhalRomanianPersonAnnotation
+
+#Rule:V-HeadNoun
+r21??VBZYLocationAnnotation
+r21diaPunjabi SatsriakhalRomanianPersonAnnotationOrahoSamoan Talofa lavaSanskritPersonAnnotation
+
+#Rule:V-HeadNoun
+r22??NNStCD
+r22morgenOwambo Wa lalapoPashtunPersonAnnotationde pa KhairPersianPersonAnnotation
+
+#SuprabhatahaSerbian Dobro jutroShona MangwananiSinghalese Suba Udesanak WewaSlovak Dobr?? r??noSomalian Subax wanaagsanSotho DumelaSpanish Buenos diasSwahili Habari za asubuhiSwedish God morgonTagalog Magandang umagaTaiwanese Gau chaTamil Kaalai VannakkamTelugu SuprabhatamThai Aroon-SawassTibetan Nyado delekTurkish G??naydinTurkmen Ertiringiz haiyirli bolsunUkrainian Dobri ranokUrdu AadaabVietnamese Xin chaoWelsh Bore daXhosa BhotaYoruba E karoZulu Sawubona!!
+#(S1 (FRAG (NP (NNP SuprabhatahaSerbian) (NNP Dobro) (FW jutroShona) (NNP MangwananiSinghalese) (NNP Suba) (NNP Udesanak) (NNP WewaSlovak) (NNP Dobr)) (. ?) (. ?) (X (SYM r)) (VP (VBD ??) (S (NP (JJ noSomalian) (NNP Subax) (FW wanaagsanSotho) (NNP DumelaSpanish) (NNP Buenos) (NNP diasSwahili) (NNP Habari) (NNS za)) (VP (VB asubuhiSwedish) (S (NP (NNP God)) (VP (VB morgonTagalog) (SBAR (S (NP (NNP Magandang) (FW umagaTaiwanese) (NNP Gau) (FW chaTamil) (NNP Kaalai) (NNP VannakkamTelugu) (NNP SuprabhatamThai) (NNP Aroon-SawassTibetan) (NNP Nyado) (NN delekTurkish) (NNP G)) (VP (VBD ??) (SBAR (S (NP (JJ naydinTurkmen) (NNP Ertiringiz) (NNS haiyirli) (NN bolsunUkrainian) (NNP Dobri) (NNP ranokUrdu) (NNP AadaabVietnamese) (NNP Xin) (NN chaoWelsh)) (VP (VBD Bore) (NP (NNP daXhosa) (NNP BhotaYoruba) (NNP E) (NNP karoZulu) (NNP Sawubona))))))))) (. !))))) (. !)))
+#Rule:Nouns
+r1SuprabhatahaSerbian DobroPersonAnnotation
+r1MangwananiSinghalese SubaPersonAnnotation
+r1UdesanakNNP
+r1WewaSlovak Dobr?? r??noSomalian SubaxPersonAnnotation
+r1DumelaSpanishPersonAnnotation
+r1BuenosNNP
+r1diasSwahili HabariPersonAnnotation
+r1zaNNS
+r1asubuhiSwedish God morgonTagalog Magandang umagaTaiwaneseOrganizationAnnotation
+r1GauNNP
+r1chaTamil Kaalai VannakkamTeluguPersonAnnotation
+r1SuprabhatamThaiNNP
+r1Aroon-SawassTibetanPersonAnnotation
+r1NyadoNNP
+r1delekTurkishLocationAnnotation
+r1GNNP
+r1naydinTurkmen ErtiringizPersonAnnotation
+r1haiyirliNNS
+r1bolsunUkrainian Dobri ranokUrdu AadaabVietnamesePersonAnnotation
+r1XinNNP
+r1chaoWelsh BorePersonAnnotation
+r1daXhosaNNP
+r1BhotaYoruba E karoZulu SawubonaPersonAnnotation
+
+#Rule:Verbs
+r2??VBD
+
+#Rule:Adj-Noun
+r5WewaSlovak Dobr?? r??noSomalian SubaxPersonAnnotationzaNNS
+r5naydinTurkmen ErtiringizPersonAnnotationchaoWelsh BorePersonAnnotation
+
+#Rule:N-HeadNoun
+r8UdesanakNNPWewaSlovak Dobr?? r??noSomalian SubaxPersonAnnotation
+r8MangwananiSinghalese SubaPersonAnnotationWewaSlovak Dobr?? r??noSomalian SubaxPersonAnnotation
+r8diasSwahili HabariPersonAnnotationzaNNS
+r8BuenosNNPzaNNS
+r8DumelaSpanishPersonAnnotationzaNNS
+r8delekTurkishLocationAnnotationGNNP
+r8NyadoNNPGNNP
+r8Aroon-SawassTibetanPersonAnnotationGNNP
+r8SuprabhatamThaiNNPGNNP
+r8XinNNPchaoWelsh BorePersonAnnotation
+r8bolsunUkrainian Dobri ranokUrdu AadaabVietnamesePersonAnnotationchaoWelsh BorePersonAnnotation
+r8daXhosaNNPBhotaYoruba E karoZulu SawubonaPersonAnnotation
+
+#Rule:HeadNoun-V
+r11zaNNSasubuhiSwedish God morgonTagalog Magandang umagaTaiwaneseOrganizationAnnotation
+r11GNNP??VBD
+
+#Rule:V-HeadNoun
+r21chaoWelsh BorePersonAnnotationBhotaYoruba E karoZulu SawubonaPersonAnnotation
+
+#Kung san Tuwa    An addition to this list of oral greetings is Good morning in American Sign Language.    As if all these languages were not enough, what about Good morning in Klingon?!? Just in case you find yourself on the Starship Enterprise, you might like to know that it s maj po  Honest!
+#(S1 (S (S (VP (VBG Kung) (NP (NNP san) (NNP Tuwa)) (NP (NP (DT An) (NN addition)) (PP (TO to) (NP (NP (DT this) (NN list)) (PP (IN of) (NP (JJ oral) (NNS greetings)))))))) (VP (AUX is) (NP (JJ Good) (NN morning)) (PP (IN in) (NP (NNP American) (NN Sign) (NNP Language.))) (SBAR (IN As) (S (SBAR (IN if) (S (NP (PDT all) (DT these) (NNS languages)) (VP (AUX were) (ADVP (RB not) (RB enough)) (, ,) (SBAR (WHNP (WHNP (WP what)) (PP (IN about) (NP (NP (JJ Good) (NN morning)) (PP (IN in) (NP (NNP Klingon)))) (. ?) (. !) (. ?) (ADVP (RB Just))) (PP (IN in) (NP (NN case)))) (S (NP (PRP you)) (VP (VBP find) (NP (PRP yourself)) (PP (IN on) (NP (DT the) (NNP Starship) (NNP Enterprise))))))))) (, ,) (NP (PRP you)) (VP (MD might) (VP (VB like) (S (VP (TO to) (VP (VB know) (SBAR (IN that) (S (NP (PRP it)) (VP (VBZ s) (ADJP (NP (CD maj) (NNS po)) (JJ Honest))))))))))))) (. !)))
+#Rule:Nouns
+r1sanNNP
+r1TuwaLocationAnnotation
+r1additionNN
+r1listNN
+r1greetingsNNS
+r1morningNN
+r1AmericanNNP
+r1SignNN
+r1LanguageNNP
+r1languagesNNS
+r1morningNN
+r1Klingon?!LocationAnnotation
+r1caseNN
+r1the StarshipOrganizationAnnotation
+r1EnterpriseOrganizationAnnotation
+r1po  HonestLocationAnnotation
+
+#Rule:Verbs
+r2KungLocationAnnotation
+r2findVBP
+r2likeVB
+r2knowVB
+r2sVBZ
+
+#Rule:Adjs
+r4oralJJ
+r4GoodJJ
+r4GoodJJ
+
+#Rule:Adj-Noun
+r5oralJJgreetingsNNS
+r5GoodJJmorningNN
+r5GoodJJmorningNN
+r5majCDpo  HonestLocationAnnotation
+
+#Rule:N-HeadNoun
+r8sanNNPTuwaLocationAnnotation
+r8SignNNLanguageNNP
+r8AmericanNNPLanguageNNP
+r8the StarshipOrganizationAnnotationEnterpriseOrganizationAnnotation
+
+#Rule:HeadNoun-V
+r11youPRPlikeVB
+r11languagesNNSwereAUX
+r11youPRPfindVBP
+r11itPRPsVBZ
+
+#Rule:V-HeadNoun
+r21KungLocationAnnotationTuwaLocationAnnotation
+r21KungLocationAnnotationadditionNN
+r21isAUXmorningNN
+r21findVBPyourselfPRP
+
+#Rule:PPinNP
+r26additionNNtoTOlistNN
+r26listNNofINgreetingsNNS
+r26morningNNinINKlingon?!LocationAnnotation
+
+#Rule:PPinVP
+r30isAUXinINLanguageNNP
+r30findVBPonINEnterpriseOrganizationAnnotation
+
+#Rule:V-IN-V
+r43isAUXasINlikeVB
+r43knowVBthatINsVBZ
+
+#Rule:V-V
+r44likeVBknowVB
+
+#Rule:V-ADV
+r46wereAUXnotRB
+r46wereAUXenoughRB
+
+@lemmas-left	tovhindi	SuprabhatahaSerbian Dobro	Mayap	a abakKazakh	chohawaiian	Kia oraMapuche Mar	buon	pagiItalian	greetings	Bun	American	labritlithuanian	Tere	SuprabhatamThai	selamat	Ia ora naPortuguese	Sign	dobryPolynesian	buna	language.	Good	G	god	Ohayo	U	maj	????	american	ohayo	bwanjichinese	bashLaotian SabaideeLatvian	mar	Dobr	Y	bayanit	g	noDanish God morgenDari	GoedemorgenEnglish Good morningEritrean HaderfumEsperanto Bonan matenonEstonian	giornoJapanese	n	m	endermen	morning	h	Klingon?!	Sabah-il-kheirArmenian	u	s	kairly	Myttin daCorse	Hakka	Language	Dobro	sahar	bolsunUkrainian Dobri ranokUrdu AadaabVietnamese	reAlbanian Mere mengjesiAmharic	ranitsyBemba	good	Zou	tovHindi	suprabhatamthai	be	Dis	zohChinese	LivukenjaniNepali NamesteNorwegian	pagiitalian	dobr	udesanak	Afrikaans Gooie	Kung	sign	Xin	DivumKorean AnnyunghaseyoKurdish	otyanoLuxembourg	oral	Tuka Boro	naydinTurkmen Ertiringiz	dan	sa	mendNavajo	the Starship	case	Wasuze	DumelaSpanish	Gudde	Guten	jutroCzech	ndebele	Sa	hommikutEtsakor NaigbiaFanti Me	Labas reytasLozi	ChoHawaiian	onBelarussian Dobray	Mandarin Zao shang	xin	OrahoSamoan Talofa lavaSanskrit	Udesanak	you	luysassyrian	morgenOwambo Wa lalapoPashtun	bon	-mar	Enterprise	zuhileLuganda	bom	ab	glouny	Sahar	???	sabah-il-kheirarmenian	Aroon-SawassTibetan	Buenos	Dobro utroCatalan	MorgenGreek Kali meraGujrati Kem	Kedamtookh brikhtaBamougoum Oli yahBasque	languages	WewaSlovak Dobr?? r??noSomalian Subax	adlawbulgarian	Shu-probhaatBisaya	diaCebuano Maayong buntag	on	ootraRwandese	buenos	mayap	daXhosa	aderkhArabic Sabah	like	zou	LabritLithuanian	chaTamil Kaalai VannakkamTelugu	Goeie morgenFrench Bon matinGaelic Maidin MhaithGeorgian	gau	mendnavajo	san	egun	language	ranitsybemba	dimineataRussian Dobraye	sob	kheirArmenian Bari	ghjiornuCreole BonzourCroatian	dev	haoCornish	Dev	Ndebele	daxhosa	ma	giornojapanese	huomentaflemish	diaPunjabi SatsriakhalRomanian	Buna	po  Honest	wasuze	dobrypolynesian	sanchinese	BakhaerDivehi Baajjaveri	On	bwanjiChinese	bun	ootrarwandese	YadraFinnish Hyv	MangwananiSinghalese Suba	MwashibukeniBengali Shu	luysAssyrian	probhaatBisaya Maayong	Bayanit	Dila mshvidobisaGerman	haocornish	: Cantonese	??	were	nyado	Endermen	chaoWelsh Bore	Chichewa Mwadzuka	Buon	asubuhiSwedish God morgonTagalog Magandang umagaTaiwanese	Kairly	greeting	hedhunehDutch	moienMacedonian Dobro utroMalayalam SuprabhathamMalaysian	de pa KhairPersian	Marathi SuprabhatMongolian	daginnIndonesian	Aloha kakahiakaHebrew Boker	haiyirli	NamasteHungarian Jo reggeltIcelandic	BhotaYoruba E karoZulu Sawubona	guten	Egun	gudde	TanKhmer Arrun Suo SdeyKonkani	sanChinese	za	Tuwa	dis	hedhunehdutch	pagiMaltese G??odwa it-tajbaManx Moghrey	bekhairPolish Dzien	find	Bom	delekTurkish	Bon	is	it	dobro	adlawBulgarian	akyeFarsi SubbakhairFijian	list	gozaimazKannada ShubhodayaKapampangan	addition	know	shu-probhaatbisaya	Gau	Nyado	Selamat	diasSwahili Habari	God	tere	
+@lemmas-right	Mayap	enough	Kedamtookh brikhtaBamougoum Oli yahBasque	??	WewaSlovak Dobr?? r??noSomalian Subax	were	diaCebuano Maayong buntag	greetings	chaoWelsh Bore	yourself	mayap	be	zohChinese	Bun	asubuhiSwedish God morgonTagalog Magandang umagaTaiwanese	dobr	greeting	like	de pa KhairPersian	not	Goeie morgenFrench Bon matinGaelic Maidin MhaithGeorgian	otyanoLuxembourg	Marathi SuprabhatMongolian	Aloha kakahiakaHebrew Boker	sob	BhotaYoruba E karoZulu Sawubona	language.	G	god	sanChinese	za	Tuwa	ma	bwanjichinese	diaPunjabi SatsriakhalRomanian	Dobr	pagiMaltese G??odwa it-tajbaManx Moghrey	Y	find	po  Honest	g	noDanish God morgenDari	sanchinese	OrahoSamoan Talofa lavaSanskrit	list	akyeFarsi SubbakhairFijian	m	addition	morgenOwambo Wa lalapoPashtun	morning	know	Klingon?!	Enterprise	t	s	bun	bwanjiChinese	God	Language	???	
+@lemmas-center	to	that	of	as	on	in	

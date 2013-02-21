@@ -1,0 +1,52 @@
+#Garlic is supposed to be good for things like this. 
+#(S1 (S (NP (NNP Garlic)) (VP (AUX is) (VP (VBN supposed) (S (VP (TO to) (VP (AUX be) (ADJP (JJ good) (PP (IN for) (NP (NP (NNS things)) (PP (IN like) (NP (DT this))))))))))) (. .)))
+#Rule:Nouns
+r1GarlicPersonAnnotation
+r1thingsNNS
+
+#Rule:Verbs
+r2supposedVBN
+
+#Rule:Adjs
+r4goodJJ
+
+#Rule:V-HeadNoun(passive)
+r23supposedVBNGarlicPersonAnnotation
+
+#Rule:V-ADJ
+r25beAUXgoodJJ
+
+#Rule:PPinNP
+r26thingsNNSlikeINthisDT
+
+#Rule:PPinADJP
+r37goodJJforINthingsNNS
+
+#The only problem is you have to eat cloves of it.
+#(S1 (S (NP (DT The) (JJ only) (NN problem)) (VP (AUX is) (SBAR (S (NP (PRP you)) (VP (AUX have) (S (VP (TO to) (VP (VB eat) (NP (NP (NNS cloves)) (PP (IN of) (NP (PRP it))))))))))) (. .)))
+#Rule:Nouns
+r1problemNN
+r1clovesNNS
+
+#Rule:Verbs
+r2eatVB
+
+#Rule:Adjs
+r4onlyJJ
+
+#Rule:Adj-Noun
+r5onlyJJproblemNN
+
+#Rule:HeadNoun-V
+r11problemNNisAUX
+r11youPRPhaveAUX
+
+#Rule:V-HeadNoun
+r21eatVBclovesNNS
+
+#Rule:PPinNP
+r26clovesNNSofINitPRP
+
+@lemmas-left	suppose	supposed	only	you	eat	problem	good	things	Garlic	cloves	clove	be	
+@lemmas-right	is	it	have	problem	good	things	Garlic	this	cloves	clove	be	
+@lemmas-center	of	for	like	

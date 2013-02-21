@@ -1,0 +1,32 @@
+#Check out this web page www.medlineplus.gov   . 
+#(S1 (S (VP (VB Check) (PRT (RP out)) (NP (DT this) (JJ web) (NN page) (NN www.medlineplus.gov))) (. .)))
+#Rule:Nouns
+r1pageNN
+r1www.medlineplus.govPersonAnnotation
+
+#Rule:V-PRT
+r3checkVBoutRP
+
+#Rule:Adjs
+r4webJJ
+
+#Rule:Adj-Noun
+r5webJJwww.medlineplus.govPersonAnnotation
+
+#Rule:N-HeadNoun
+r8pageNNwww.medlineplus.govPersonAnnotation
+
+#Rule:V-HeadNoun
+r21checkVBwww.medlineplus.govPersonAnnotation
+
+#Good luck!
+#(S1 (INTJ (JJ Good) (NN luck) (. !)))
+#Rule:Nouns
+r1luckNN
+
+#Rule:Adjs
+r4GoodJJ
+
+@lemmas-left	Good	check	page	luck	good	web	www.medlineplus.gov	
+@lemmas-right	www.medlineplus.gov	out	
+@lemmas-center	

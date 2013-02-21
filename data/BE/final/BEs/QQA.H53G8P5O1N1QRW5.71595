@@ -1,0 +1,40 @@
+#I have no idea! 
+#(S1 (S (NP (PRP I)) (VP (AUX have) (NP (DT no) (NN idea))) (. !)))
+#Rule:Nouns
+r1ideaNN
+
+#Rule:HeadNoun-V
+r11iPRPhaveAUX
+
+#Rule:V-HeadNoun
+r21haveAUXideaNN
+
+#Im always tired at the mo but thats coz im pregnant!
+#(S1 (S (S (NP (NNS Im)) (ADVP (RB always)) (VP (VBN tired) (PP (IN at) (NP (DT the) (NN mo))))) (CC but) (S (NP (NNS thats)) (ADJP (NP (CD coz) (NNS im)) (JJ pregnant))) (. !)))
+#Rule:Nouns
+r1ImNNS
+r1moNN
+r1thatsLocationAnnotation
+r1imNNS
+
+#Rule:Verbs
+r2tiredVBN
+
+#Rule:Adjs
+r4pregnantJJ
+
+#Rule:Adj-Noun
+r5cozCDimNNS
+
+#Rule:V-HeadNoun(passive)
+r24tiredVBNImNNS
+
+#Rule:PPinVP
+r32tiredVBNatINmoNN
+
+#Rule:V-ADV
+r46tiredVBNalwaysRB
+
+@lemmas-left	thats	Im	idea	mo	have	pregnant	tired	coz	im	tire	i	
+@lemmas-right	Im	idea	mo	have	always	im	
+@lemmas-center	at	

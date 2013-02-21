@@ -1,0 +1,56 @@
+#No, it doesn t kill your appetite. 
+#(S1 (S (INTJ (UH No)) (, ,) (NP (PRP it)) (VP (MD doesn) (RB t) (VP (VB kill) (NP (PRP$ your) (NN appetite)))) (. .)))
+#Rule:Nouns
+r1appetiteNN
+
+#Rule:Verbs
+r2killVB
+
+#Rule:PRP-Noun
+r6yourPRP$appetiteNN
+
+#Rule:HeadNoun-V
+r11itPRPkillVB
+
+#Rule:V-HeadNoun
+r21killVBappetiteNN
+
+#Depending on the climate in which you live you should drink 8 or more cups of water a day.
+#(S1 (S (VP (VBG Depending) (PP (IN on) (NP (NP (DT the) (NN climate)) (SBAR (WHPP (IN in) (WHNP (WDT which))) (S (NP (PRP you)) (VP (VBP live) (SBAR (S (NP (PRP you)) (VP (MD should) (VP (VB drink) (NP (NP (QP (CD 8) (CC or) (JJR more)) (NNS cups)) (PP (IN of) (NP (NN water))) (NP (DT a) (NN day))))))))))))) (. .)))
+#Rule:Nouns
+r1climateNN
+r1cupsNNS
+r1waterNN
+r1dayNN
+
+#Rule:Verbs
+r2dependingVBG
+r2liveVBP
+r2drinkVB
+
+#Rule:Adjs
+r4moreJJR
+
+#Rule:Adj-Noun
+r58CDcupsNNS
+r5moreJJRcupsNNS
+
+#Rule:HeadNoun-V
+r11youPRPliveVBP
+r11youPRPdrinkVB
+
+#Rule:V-HeadNoun
+r21drinkVBcupsNNS
+
+#Rule:PPinNP
+r26cupsNNSofINwaterNN
+
+#Rule:PPinVP
+r30dependingVBGonINclimateNN
+
+#Rule:PPinVP4Which
+r35liveVBPinINclimateNN
+
+@lemmas-left	cup	water	it	cups	depend	your	kill	you	appetite	more	drink	depending	8	day	climate	live	
+@lemmas-right	water	cup	cups	drink	kill	appetite	climate	live	
+@lemmas-center	of	on	in	

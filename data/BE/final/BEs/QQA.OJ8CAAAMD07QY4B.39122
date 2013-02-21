@@ -1,0 +1,97 @@
+#Emu Oil gel caps might be a possible cure for your family. 
+#(S1 (S (NP (NNP Emu) (NNP Oil) (NN gel) (NNS caps)) (VP (MD might) (VP (AUX be) (NP (NP (DT a) (JJ possible) (NN cure)) (PP (IN for) (NP (PRP$ your) (NN family)))))) (. .)))
+#Rule:Nouns
+r1Emu Oil gelOrganizationAnnotation
+r1capsNNS
+r1cureNN
+r1familyNN
+
+#Rule:Adjs
+r4possibleJJ
+
+#Rule:Adj-Noun
+r5possibleJJcureNN
+
+#Rule:PRP-Noun
+r6yourPRP$familyNN
+
+#Rule:N-HeadNoun
+r8Emu Oil gelOrganizationAnnotationcapsNNS
+
+#Rule:HeadNoun-V
+r11capsNNSbeAUX
+
+#Rule:V-HeadNoun
+r21beAUXcureNN
+
+#Rule:PPinNP
+r26cureNNforINfamilyNN
+
+#Rule:IS-RULE
+r47cureNNcapsNNS
+
+#Emu oil kills cancer cells and is safe to take without harming the human host. 
+#(S1 (S (NP (NNP Emu) (NN oil)) (VP (VP (VBZ kills) (NP (NN cancer) (NNS cells))) (CC and) (VP (AUX is) (ADJP (JJ safe) (S (VP (TO to) (VP (VB take) (PP (IN without) (S (VP (VBG harming) (NP (DT the) (JJ human) (NN host))))))))))) (. .)))
+#Rule:Nouns
+r1EmuLocationAnnotation
+r1oilNN
+r1cancerNN
+r1cellsNNS
+r1hostNN
+
+#Rule:Verbs
+r2killsVBZ
+r2takeVB
+r2harmingVBG
+
+#Rule:Adjs
+r4safeJJ
+r4humanJJ
+
+#Rule:Adj-Noun
+r5humanJJhostNN
+
+#Rule:N-HeadNoun
+r8EmuLocationAnnotationoilNN
+r8cancerNNcellsNNS
+
+#Rule:HeadNoun-V
+r11oilNNkillsVBZ
+r11oilNNisAUX
+
+#Rule:V-HeadNoun
+r21killsVBZcellsNNS
+r21harmingVBGhostNN
+
+#Rule:V-ADJ
+r25isAUXsafeJJ
+
+#Always consult your doctor before trying anything new.
+#(S1 (S (ADVP (RB Always)) (VP (VB consult) (NP (PRP$ your) (NN doctor)) (PP (IN before) (S (VP (VBG trying) (NP (NN anything) (JJ new)))))) (. .)))
+#Rule:Nouns
+r1doctorNN
+r1anythingNN
+
+#Rule:Verbs
+r2consultVB
+r2tryingVBG
+
+#Rule:Adjs
+r4newJJ
+
+#Rule:Adj-Noun
+r5newJJanythingNN
+
+#Rule:PRP-Noun
+r6yourPRP$doctorNN
+
+#Rule:V-HeadNoun
+r21consultVBdoctorNN
+r21tryingVBGanythingNN
+
+#Rule:V-ADV
+r46consultVBAlwaysRB
+
+@lemmas-left	cells	harm	cap	kill	trying	cure	oil	doctor	possible	Emu	family	kills	Emu Oil gel	consult	be	safe	is	host	cell	your	human	new	harming	anything	caps	take	try	cancer	
+@lemmas-right	cells	safe	is	host	cap	cell	kill	Always	always	cure	doctor	oil	anything	caps	family	kills	be	
+@lemmas-center	for	

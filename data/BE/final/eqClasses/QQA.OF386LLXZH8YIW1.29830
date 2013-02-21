@@ -1,0 +1,618 @@
+BE: tOrganizationAnnotation
+EQ class: 
+
+BE: donVB
+EQ class: assumevb	put_onvb	wearvb	get_intovb	
+
+BE: wePRPdonVB
+EQ class: weprpassumevb	weprpwearvb	weprpget_intovb	weprpput_onvb	
+
+BE: donVBtOrganizationAnnotation
+EQ class: wearvbtorganizationannotation	put_onvbtorganizationannotation	get_intovbtorganizationannotation	assumevbtorganizationannotation	
+
+BE: needAUXitPRP
+EQ class: takeauxitprp	call_forauxitprp	demandauxitprp	neednnofinitprp	requireauxitprp	involveauxitprp	askauxitprp	necessitateauxitprp	demandnnofinitprp	postulateauxitprp	
+
+BE: MarijuanaLocationAnnotation
+EQ class: 
+
+BE: degreeNN
+EQ class: levelnn	gradenn	
+
+BE: practicalJJ
+EQ class: practicenn	practicalitynn	
+
+BE: MarijuanaLocationAnnotationisAUX
+EQ class: marijuanalocationannotationbeaux	
+
+BE: isAUXpracticalJJ
+EQ class: beauxpracticenn	beauxpracticaljj	isauxpracticenn	isauxpracticalitynn	beauxpracticalitynn	
+
+BE: isAUXinINdegreeNN
+EQ class: beauxininlevelnn	beauxinindegreenn	beauxiningradenn	isauxiningradenn	isauxininlevelnn	
+
+BE: isAUXnotRB
+EQ class: beauxnotrb	
+
+BE: listNN
+EQ class: listingnn	
+
+BE: problemsNNS
+EQ class: problemnns	problematicaljj	theynns	problematicjj	themnns	jobnns	
+
+BE: mileNN
+EQ class: statute_milenn	minn	stat_minn	international_milenn	land_milenn	
+
+BE: abusiveJJ
+EQ class: scurrilousjj	opprobriousjj	
+
+BE: abusiveJJproblemsNNS
+EQ class: abusivejjproblematicaljj	scurrilousjjjobnns	opprobriousjjproblematicjj	scurrilousjjthemnns	opprobriousjjthemnns	abusivejjproblematicjj	opprobriousjjjobnns	opprobriousjjproblemnns	opprobriousjjproblemsnns	abusivejjthemnns	scurrilousjjproblemsnns	scurrilousjjproblematicaljj	scurrilousjjtheynns	scurrilousjjproblemnns	abusivejjjobnns	opprobriousjjproblematicaljj	abusivejjproblemnns	problematicalvbabusivelyrb	opprobriousjjtheynns	scurrilousjjproblematicjj	problematicvbabusivelyrb	abusivejjtheynns	
+
+BE: itPRPhasAUX
+EQ class: rich_personnnofinitprp	havennofinitprp	wealthy_personnnofinitprp	itprphave_gotaux	itprpholdaux	itprphaveaux	
+
+BE: hasAUXlistNN
+EQ class: holdauxlistnn	havennofinlistingnn	holdauxlistingnn	hasauxlistingnn	have_gotauxlistnn	have_gotauxlistingnn	rich_personnnofinlistnn	haveauxlistingnn	wealthy_personnnofinlistnn	wealthy_personnnofinlistingnn	haveauxlistnn	havennofinlistnn	rich_personnnofinlistingnn	
+
+BE: listNNofINproblemsNNS
+EQ class: problemsnnslistvb	listvbthemnns	listvbproblematicaljj	problematicaljjlistvb	problemsnnslistingnn	namevbproblematicaljj	theynnsnamevb	listnnofinproblematicaljj	problematicjjnamevb	listnnofinthemnns	themnnslistnn	problemsnnsnamevb	namevbproblemsnns	problematicjjlistingnn	problematicaljjlistnn	themnnslistingnn	problematicaljjlistingnn	listnnofinproblematicjj	listingnnofinproblematicaljj	problemsnnslistnn	themnnslistvb	listvbtheynns	listingnnofinthemnns	jobnnsnamevb	listnnofinproblemnns	namevbthemnns	problemnnslistingnn	listingnnofintheynns	listingnnofinjobnns	jobnnslistingnn	listvbproblematicjj	namevbjobnns	listnnofinjobnns	problemnnslistnn	listvbproblemnns	listvbproblemsnns	jobnnslistvb	problematicaljjnamevb	theynnslistvb	problemnnslistvb	theynnslistingnn	namevbproblemnns	themnnsnamevb	theynnslistnn	namevbtheynns	namevbproblematicjj	listvbjobnns	listnnofintheynns	listingnnofinproblemnns	listingnnofinproblematicjj	problematicjjlistvb	listingnnofinproblemsnns	jobnnslistnn	problematicjjlistnn	problemnnsnamevb	
+
+BE: hasAUXlongRB
+EQ class: rich_personnnofinlongrb	have_gotauxlongrb	haveauxlongrb	wealthy_personnnofinlongrb	holdauxlongrb	havennofinlongrb	
+
+BE: alcoholNN
+EQ class: alcoholic_beveragenn	alcoholic_drinknn	intoxicantnn	alcoholicjj	inebriantnn	
+
+BE: respectNN
+EQ class: regardnn	
+
+BE: grantedVBN
+EQ class: grantvbn	allowvbn	
+
+BE: isnVBZ
+EQ class: themvbz	theyvbz	
+
+BE: badJJ
+EQ class: badnessnn	
+
+BE: itPRPisnVBZ
+EQ class: itprpthemvbz	itprptheyvbz	
+
+BE: alcoholNNinINrespectNN
+EQ class: alcoholicvbrespectnn	regardnnalcoholic_beveragenn	alcoholic_drinknnininregardnn	inebriantnnininregardnn	intoxicantnnininregardnn	respectnnalcoholicvb	regardnninebriantnn	alcoholicvbregardnn	inebriantnnininrespectnn	regardnnintoxicantnn	alcoholizevbrespectnn	intoxicantnnininrespectnn	alcoholnnininregardnn	respectnnalcoholnn	respectnnintoxicantnn	alcoholic_beveragennininregardnn	respectnnalcoholizevb	regardnnalcoholic_drinknn	respectnnalcoholicjj	respectnnalcoholic_drinknn	respectnnalcoholic_beveragenn	respectnninebriantnn	regardnnalcoholicjj	alcoholicjjininregardnn	regardnnalcoholnn	alcoholicjjininrespectnn	alcoholic_drinknnininrespectnn	alcoholic_beveragennininrespectnn	regardnnalcoholizevb	alcoholizevbregardnn	regardnnalcoholicvb	
+
+BE: badJJasINalcoholNN
+EQ class: badjjasinalcoholic_beveragenn	badjjasininebriantnn	alcoholizevbbadlyrb	badjjasinintoxicantnn	badjjasinalcoholicjj	badnessnnasinalcoholnn	badnessnnasinalcoholic_drinknn	badnessnnasinalcoholicjj	badnessnnasininebriantnn	badnessnnasinintoxicantnn	alcoholicvbbadlyrb	badnessnnasinalcoholic_beveragenn	badjjasinalcoholic_drinknn	
+
+BE: exampleNN
+EQ class: exemplaryjj	instancenn	illustrationnn	representativenn	
+
+BE: marijuanaLocationAnnotation
+EQ class: 
+
+BE: wonNN
+EQ class: south_korean_wonnn	
+
+BE: tLocationAnnotation
+EQ class: 
+
+BE: abilitiesNNS
+EQ class: abilitynns	theynns	ablejj	themnns	
+
+BE: alcoholNN
+EQ class: alcoholic_beveragenn	alcoholic_drinknn	intoxicantnn	alcoholicjj	inebriantnn	
+
+BE: marijuanaLocationAnnotation
+EQ class: 
+
+BE: usersNNS
+EQ class: theynns	usernns	themnns	
+
+BE: needNN
+EQ class: demandnn	
+
+BE: drivingVBG
+EQ class: drivevbg	
+
+BE: imparedVBN
+EQ class: 
+
+BE: impareVBP
+EQ class: 
+
+BE: seemVBP
+EQ class: lookvbp	appearvbp	
+
+BE: feelVB
+EQ class: experiencevb	
+
+BE: testVB
+EQ class: tryvb	essayvb	try_outvb	examinevb	provevb	
+
+BE: driveVB
+EQ class: 
+
+BE: smokingVBG
+EQ class: smokevbg	
+
+BE: dangerousJJ
+EQ class: dangerousnessnn	dangernn	unsafejj	
+
+BE: possibleJJ
+EQ class: possiblenessnn	possibilitynn	
+
+BE: yourPRP$abilitiesNNS
+EQ class: yourprp$themnns	themnnsofinyourprp$	theynnsofinyourprp$	ablevbyourprp$	yourprp$theynns	abilitynnsofinyourprp$	yourprp$abilitynns	abilitiesnnsofinyourprp$	yourprp$ablejj	ablejjofinyourprp$	yourprp$ablevb	
+
+BE: wonNNtLocationAnnotation
+EQ class: tlocationannotationofinsouth_korean_wonnn	south_korean_wonnntlocationannotation	tlocationannotationofinwonnn	
+
+BE: marijuanaLocationAnnotationusersNNS
+EQ class: usernnsofinmarijuanalocationannotation	usersnnsofinmarijuanalocationannotation	utilizevbmarijuanalocationannotation	marijuanalocationannotationtheynns	marijuanalocationannotationusevb	applyvbmarijuanalocationannotation	marijuanalocationannotationutilisevb	marijuanalocationannotationemployvb	theynnsofinmarijuanalocationannotation	employvbmarijuanalocationannotation	usevbmarijuanalocationannotation	marijuanalocationannotationthemnns	marijuanalocationannotationutilizevb	marijuanalocationannotationusernns	themnnsofinmarijuanalocationannotation	utilisevbmarijuanalocationannotation	marijuanalocationannotationapplyvb	
+
+BE: tLocationAnnotationimpareVBP
+EQ class: 
+
+BE: usersNNSseemVBP
+EQ class: usernnslookvbp	usersnnsappearvbp	themnnslookvbp	theynnsseemvbp	usernnsseemvbp	themnnsseemvbp	usersnnslookvbp	usernnsappearvbp	themnnsappearvbp	theynnslookvbp	theynnsappearvbp	
+
+BE: itPRPisAUX
+EQ class: itprpbeaux	
+
+BE: impareVBPabilitiesNNS
+EQ class: imparevbpabilitynns	imparevbptheynns	imparevbpablejj	imparevbpthemnns	
+
+BE: feelVBneedNN
+EQ class: feelingnnofindemandnn	feelingsnnofindemandnn	feelingsnnofinneednn	feelvbdemandnn	experiencevbneednn	feelingnnofinneednn	experiencevbdemandnn	
+
+BE: imparedVBNonINmarijuanaLocationAnnotation
+EQ class: 
+
+BE: impareVBPforINexampleNN
+EQ class: imparevbpforinexemplaryjj	imparevbpforinillustrationnn	imparevbpforinrepresentativenn	imparevbpforininstancenn	
+
+BE: drivingVBGwhileINimparedVBN
+EQ class: drivevbgwhileinimparedvbn	
+
+BE: driveVBwhileINsmokingVBG
+EQ class: drivevbwhileinsmokevbg	
+
+BE: seemVBPfeelVB
+EQ class: appearvbpexperiencevb	lookvbpfeelvb	appearvbpfeelvb	seemvbpexperiencevb	lookvbpexperiencevb	
+
+BE: testVBspecificallyRB
+EQ class: specificjjtestnn	specificjjinintestnn	testnnofinspecificallyrb	specificjjtryoutnn	specificjjtestingnn	specificjjininessayvb	tryvbspecificallyrb	specificjjtrialnn	provevbspecificallyrb	specificjjinintestingnn	trialnnofinspecificallyrb	specificjjtrial_runnn	specificjjinintestvb	specificjjinintrial_runnn	specificjjininprovevb	essayvbspecificallyrb	specificjjinintry_outvb	trial_runnnofinspecificallyrb	tryoutnnofinspecificallyrb	specificjjinintryvb	specificjjininexaminevb	try_outvbspecificallyrb	specificjjinintrialnn	specificjjinintryoutnn	examinevbspecificallyrb	testingnnofinspecificallyrb	
+
+BE: smokingVBGasRB
+EQ class: smokevbgasrb	smokennofinasrb	smokernnofinasrb	smokyjjofinasrb	tobacco_usernnofinasrb	smokingnnofinasrb	fumennofinasrb	
+
+BE: smokingVBGmuchRB
+EQ class: fumennofinmuchrb	smokennofinmuchrb	smokevbgmuchrb	smokingnnofinmuchrb	smokernnofinmuchrb	smokyjjofinmuchrb	tobacco_usernnofinmuchrb	
+
+BE: amountNN
+EQ class: sum_of_moneynn	sumnn	amount_of_moneynn	
+
+BE: crashesNNS
+EQ class: crashnns	clanknns	theynns	clangournns	clangnns	clangornns	clashnns	clangoringnns	themnns	
+
+BE: marijuanaLocationAnnotation
+EQ class: 
+
+BE: unrealJJ
+EQ class: unrealitynn	
+
+BE: dueJJ
+EQ class: 
+
+BE: unrealJJamountNN
+EQ class: unrealjjsum_of_moneynn	unrealitynnamountnn	unrealitynnsumnn	unrealjjamount_of_moneynn	unrealitynnamount_of_moneynn	unrealitynnsum_of_moneynn	unrealjjsumnn	
+
+BE: dueJJcrashesNNS
+EQ class: duejjclangournns	duejjcrashnns	duejjclashnns	duejjclanknns	duejjtheynns	crashvbdulyrb	duejjclangornns	duejjthemnns	duejjclangoringnns	duejjclangnns	
+
+BE: thereEXisAUX
+EQ class: thereexbeaux	
+
+BE: isAUXamountNN
+EQ class: beauxamount_of_moneynn	isauxamount_of_moneynn	beauxsum_of_moneynn	isauxsumnn	beauxsumnn	beauxamountnn	isauxsum_of_moneynn	
+
+BE: amountNNofINcrashesNNS
+EQ class: themnnsamountnn	amountnnofinthemnns	amount_of_moneynnofinthemnns	clangnnsamountnn	crashesnnssum_of_moneynn	amountnnofinclangnns	clanknnsamountnn	sum_of_moneynnofincrashnns	crashnnsamountnn	clashnnssumnn	clangournnsamount_of_moneynn	crashnnssum_of_moneynn	clangornnsamountnn	amount_of_moneynnofinclanknns	clangournnssum_of_moneynn	sum_of_moneynnofinclangnns	theynnssumnn	amount_of_moneynnofinclashnns	sumnnofinthemnns	clangornnssum_of_moneynn	sum_of_moneynnofinclanknns	amount_of_moneynnofinclangornns	clangournnsamountnn	clanknnssumnn	amount_of_moneynnofinclangoringnns	clangoringnnsamount_of_moneynn	themnnsamount_of_moneynn	theynnsamount_of_moneynn	amountnnofinclangournns	clangnnssum_of_moneynn	crashnnssumnn	sumnnofinclanknns	sumnnofincrashnns	amountnnofinclashnns	sumnnofinclangnns	amount_of_moneynnofintheynns	themnnssum_of_moneynn	clangnnsamount_of_moneynn	sum_of_moneynnofinthemnns	clanknnsamount_of_moneynn	sumnnofinclangournns	sumnnofinclangoringnns	crashesnnssumnn	sumnnofinclangornns	amount_of_moneynnofinclangnns	clanknnssum_of_moneynn	clangoringnnssumnn	clangornnssumnn	sum_of_moneynnofinclashnns	amount_of_moneynnofincrashesnns	sum_of_moneynnofinclangournns	crashesnnsamount_of_moneynn	theynnssum_of_moneynn	sum_of_moneynnofincrashesnns	sumnnofintheynns	amount_of_moneynnofinclangournns	clangornnsamount_of_moneynn	clashnnssum_of_moneynn	amountnnofinclangoringnns	sum_of_moneynnofinclangornns	clangoringnnssum_of_moneynn	themnnssumnn	clashnnsamount_of_moneynn	sum_of_moneynnofinclangoringnns	clangnnssumnn	amount_of_moneynnofincrashnns	amountnnofintheynns	theynnsamountnn	sumnnofinclashnns	sum_of_moneynnofintheynns	amountnnofincrashnns	sumnnofincrashesnns	clangournnssumnn	crashnnsamount_of_moneynn	clangoringnnsamountnn	amountnnofinclangornns	amountnnofinclanknns	crashesnnsamountnn	clashnnsamountnn	
+
+BE: isAUXbecauseINthisDT
+EQ class: beauxbecauseinthisdt	
+
+BE: isAUXofINthisDT
+EQ class: beauxofinthisdt	
+
+BE: dueJJtoTOmarijuanaLocationAnnotation
+EQ class: 
+
+BE: guysNNS
+EQ class: catnns	hombrenns	theynns	bozonns	guynns	themnns	
+
+BE: drivingNN
+EQ class: drivenn	
+
+BE: hoursNNS
+EQ class: theynns	themnns	
+
+BE: smokingNN
+EQ class: smokenn	
+
+BE: ruleNN
+EQ class: regulationnn	
+
+BE: TheNNP
+EQ class: 
+
+BE: establishVB
+EQ class: foundvb	launchvb	set_upvb	
+
+BE: ..VBG
+EQ class: vbg	
+
+BE: fewJJ
+EQ class: fewnn	fewnessnn	
+
+BE: fewJJhoursNNS
+EQ class: fewjjthemnns	fewnessnntheynns	fewnessnnthemnns	fewnnthemnns	fewnntheynns	fewjjtheynns	fewnnhoursnns	fewnessnnhoursnns	
+
+BE: youPRPneedAUX
+EQ class: youprpaskaux	youprppostulateaux	youprprequireaux	youprptakeaux	youprpnecessitateaux	demandnnofinyouprp	neednnofinyouprp	youprpdemandaux	youprpcall_foraux	youprpinvolveaux	
+
+BE: guysNNSneedAUX
+EQ class: bozonnscall_foraux	themnnstakeaux	theynnscall_foraux	neednnofincatnns	hombrennsdemandaux	hombrennsinvolveaux	demandnnofinguysnns	theynnstakeaux	catnnstakeaux	themnnsneedaux	demandnnofinguynns	guysnnsnecessitateaux	themnnsnecessitateaux	guysnnstakeaux	demandnnofinbozonns	guynnstakeaux	guysnnsaskaux	hombrennsrequireaux	theynnsneedaux	themnnspostulateaux	themnnsdemandaux	bozonnspostulateaux	guynnscall_foraux	demandnnofincatnns	guynnsinvolveaux	guynnsnecessitateaux	neednnofinbozonns	bozonnsneedaux	guynnsaskaux	theynnsinvolveaux	neednnofinhombrenns	theynnsnecessitateaux	guynnsdemandaux	hombrennstakeaux	catnnsaskaux	catnnscall_foraux	guysnnsrequireaux	bozonnstakeaux	theynnsaskaux	guysnnsinvolveaux	catnnspostulateaux	guysnnspostulateaux	hombrennsnecessitateaux	guynnsneedaux	demandnnofintheynns	bozonnsnecessitateaux	themnnscall_foraux	themnnsaskaux	bozonnsdemandaux	catnnsrequireaux	hombrennsneedaux	themnnsinvolveaux	guynnspostulateaux	hombrennsaskaux	neednnofintheynns	hombrennspostulateaux	neednnofinthemnns	neednnofinguysnns	demandnnofinhombrenns	neednnofinguynns	theynnsdemandaux	catnnsinvolveaux	guysnnscall_foraux	theynnspostulateaux	bozonnsrequireaux	theynnsrequireaux	bozonnsinvolveaux	catnnsnecessitateaux	catnnsdemandaux	demandnnofinthemnns	guynnsrequireaux	catnnsneedaux	guysnnsdemandaux	themnnsrequireaux	hombrennscall_foraux	bozonnsaskaux	
+
+BE: ruleNN..VBG
+EQ class: rulennvbg	regulationnn..vbg	regulationnnvbg	
+
+BE: establishVBruleNN
+EQ class: organizationnnofinregulationnn	establishvbregulationnn	foundvbregulationnn	organisationnnofinregulationnn	establishmentnnofinrulenn	launchvbrulenn	organisationnnofinrulenn	establishmentnnofinregulationnn	formationnnofinrulenn	set_upvbregulationnn	launchvbregulationnn	foundvbrulenn	formationnnofinregulationnn	set_upvbrulenn	constitutionnnofinregulationnn	organizationnnofinrulenn	constitutionnnofinrulenn	
+
+BE: ..VBGTheNNP
+EQ class: vbgthennp	
+
+BE: addictionNN
+EQ class: dependencynn	dependencenn	habituationnn	dependancenn	
+
+BE: problemNN
+EQ class: jobnn	problematicaljj	problematicjj	
+
+BE: addictionNNproblemNN
+EQ class: dependencennproblemnn	dependencynnproblematicalvb	problematicjjofindependencenn	addictnnofinjobnn	habituationnnproblematicvb	addictivennofinproblemnn	habituationnnofinproblematicjj	junkiennofinproblemnn	freaknnofinjobnn	problematicalvbhabituationnn	dependencennofinproblematicjj	habituationnnproblematicjj	problematicjjhookvb	problematicaljjhookvb	addictivennofinjobnn	jobnnaddictvb	addictionnnofinproblemnn	addictivennofinproblematicaljj	dependancennofinproblematicaljj	jobnnofinaddictionnn	dependancennproblematicjj	dependencennproblematicalvb	problemnnofinhabituationnn	addictionnnproblematicjj	problematicalvbaddictionnn	problemnnofindependancenn	problematicjjofindependancenn	habituationnnofinjobnn	addictnnofinproblemnn	addictivennofinproblematicjj	junkynnofinproblematicjj	dependencennofinproblematicaljj	problematicaljjofinhabituationnn	jobnnofindependencenn	dependancennjobnn	problematicjjofinhabituationnn	problematicaljjaddictvb	dependencynnofinproblemnn	problematicalvbdependencenn	problematicvbaddictionnn	habituationnnjobnn	habituationnnofinproblematicaljj	dependencynnjobnn	dependencennproblematicvb	junkiennofinproblematicaljj	freaknnofinproblemnn	dependencennofinproblemnn	dependencennproblematicjj	problematicjjofinaddictionnn	problematicalvbdependancenn	habituationnnproblemnn	freaknnofinproblematicaljj	problematicalvbdependencynn	nutnnofinproblematicjj	problematicjjaddictvb	jobnnofindependancenn	problematicvbhabituationnn	dependencynnproblematicaljj	nutnnofinproblemnn	problematicvbdependencenn	dependencynnofinproblematicjj	nutnnofinjobnn	problemnnofindependencenn	problemnnofindependencynn	jobnnofindependencynn	addictnnofinproblematicjj	problematicaljjofinaddictionnn	dependancennproblemnn	addictionnnofinproblematicaljj	problematicaljjofindependancenn	habituationnnproblematicalvb	dependencynnproblemnn	problemnnhookvb	addictionnnproblematicvb	dependancennofinproblemnn	dependencynnofinjobnn	dependancennofinproblematicjj	junkynnofinproblematicaljj	dependancennproblematicaljj	problematicjjofindependencynn	freaknnofinproblematicjj	dependancennofinjobnn	addictnnofinproblematicaljj	problematicaljjofindependencenn	problematicvbdependencynn	problemnnofinaddictionnn	problematicvbdependancenn	addictionnnofinjobnn	addictionnnproblematicalvb	dependencennproblematicaljj	problemnnaddictvb	addictionnnofinproblematicjj	junkynnofinproblemnn	dependencennjobnn	problematicaljjofindependencynn	dependencynnproblematicvb	addictionnnjobnn	junkiennofinproblematicjj	addictionnnproblematicaljj	dependencennofinjobnn	dependencynnproblematicjj	jobnnofinhabituationnn	nutnnofinproblematicaljj	habituationnnproblematicaljj	dependancennproblematicalvb	dependancennproblematicvb	junkiennofinjobnn	dependencynnofinproblematicaljj	habituationnnofinproblemnn	junkynnofinjobnn	jobnnhookvb	
+
+BE: thereEXisAUX
+EQ class: thereexbeaux	
+
+BE: isAUXproblemNN
+EQ class: isauxproblematicaljj	isauxjobnn	beauxproblematicjj	isauxproblematicjj	beauxproblematicaljj	beauxjobnn	beauxproblemnn	
+
+BE: isAUXThenRB
+EQ class: beauxthenrb	
+
+BE: marijuanaLocationAnnotation
+EQ class: 
+
+BE: isnNNS
+EQ class: international_relations_and_security_networknns	theynns	themnns	
+
+BE: alcoholNN
+EQ class: alcoholic_beveragenn	alcoholic_drinknn	intoxicantnn	alcoholicjj	inebriantnn	
+
+BE: heroinLocationAnnotation
+EQ class: 
+
+BE: tLocationAnnotation
+EQ class: 
+
+BE: addictiveJJ
+EQ class: habit-formingjj	
+
+BE: marijuanaLocationAnnotationisnNNS
+EQ class: marijuanalocationannotationthemnns	themnnsofinmarijuanalocationannotation	marijuanalocationannotationtheynns	international_relations_and_security_networknnsofinmarijuanalocationannotation	marijuanalocationannotationinternational_relations_and_security_networknns	theynnsofinmarijuanalocationannotation	isnnnsofinmarijuanalocationannotation	
+
+BE: isnNNStLocationAnnotation
+EQ class: themnnstlocationannotation	international_relations_and_security_networknnstlocationannotation	theynnstlocationannotation	
+
+BE: tLocationAnnotationasRB
+EQ class: 
+
+BE: peopleNNS
+EQ class: theynns	themnns	
+
+BE: becomeVBN
+EQ class: govbn	getvbn	
+
+BE: dependantJJ
+EQ class: qualifiedjj	dependentjj	
+
+BE: 1CDpeopleNNS
+EQ class: unitycdtheynns	singlecdtheynns	icdthemnns	icdtheynns	unitycdthemnns	1cdthemnns	1.cdpeoplenns	1cdtheynns	acecdthemnns	acecdtheynns	icdpeoplenns	1.cdtheynns	singlecdthemnns	acecdpeoplenns	1.cdthemnns	onecdthemnns	onecdpeoplenns	unitycdpeoplenns	singlecdpeoplenns	onecdtheynns	
+
+BE: 10CDpeopleNNS
+EQ class: xcdthemnns	1.0.cdpeoplenns	tennercdthemnns	1.0.cdtheynns	tencdtheynns	tencdthemnns	xcdpeoplenns	decadecdpeoplenns	tennercdpeoplenns	decadecdthemnns	xcdtheynns	decadecdtheynns	tennercdtheynns	1.0.cdthemnns	10cdtheynns	tencdpeoplenns	10cdthemnns	
+
+BE: becomeVBNpeopleNNS
+EQ class: getvbnpeoplenns	getvbnthemnns	getvbntheynns	becomevbntheynns	govbntheynns	becomevbnthemnns	govbnpeoplenns	govbnthemnns	
+
+BE: dependantJJonINthisLocationAnnotation
+EQ class: qualifiedjjoninthislocationannotation	dependentjjoninthislocationannotation	
+
+BE: doAUXHoweverRB
+EQ class: makeauxhoweverrb	
+
+BE: drugsNNS
+EQ class: drugnns	theynns	themnns	
+
+BE: noticableVB
+EQ class: 
+
+BE: lessJJR
+EQ class: 
+
+BE: otherJJ
+EQ class: 
+
+BE: otherJJdrugsNNS
+EQ class: otherjjtheynns	otherjjthemnns	otherjjdrugnns	
+
+BE: lessJJRthanINdrugsNNS
+EQ class: lessjjrthanintheynns	lessjjrthaninthemnns	lessjjrthanindrugnns	
+
+BE: lungNN
+EQ class: 
+
+BE: problemNN
+EQ class: jobnn	problematicaljj	problematicjj	
+
+BE: lungNNproblemNN
+EQ class: lungnnproblematicjj	jobnnofinlungnn	lungnnproblematicalvb	lungnnproblematicaljj	lungnnproblematicvb	problematicjjofinlungnn	problematicvblungnn	problemnnofinlungnn	problematicalvblungnn	lungnnjobnn	problematicaljjofinlungnn	
+
+BE: thereEXisAUX
+EQ class: thereexbeaux	
+
+BE: isAUXproblemNN
+EQ class: isauxproblematicaljj	isauxjobnn	beauxproblematicjj	isauxproblematicjj	beauxproblematicaljj	beauxjobnn	beauxproblemnn	
+
+BE: isAUXThenRB
+EQ class: beauxthenrb	
+
+BE: marijuanaLocationAnnotation
+EQ class: 
+
+BE: tLocationAnnotation
+EQ class: 
+
+BE: cancerNN
+EQ class: cancerousjj	malignant_neoplastic_diseasenn	
+
+BE: wonVBD
+EQ class: winvbd	
+
+BE: causeVB
+EQ class: makevb	dovb	
+
+BE: marijuanaLocationAnnotationwonVBD
+EQ class: winnernnmarijuanalocationannotation	profitsnnofinmarijuanalocationannotation	profitsnnmarijuanalocationannotation	winnernnofinmarijuanalocationannotation	winningsnnmarijuanalocationannotation	winnnmarijuanalocationannotation	victornnmarijuanalocationannotation	victornnofinmarijuanalocationannotation	winningsnnofinmarijuanalocationannotation	winnnofinmarijuanalocationannotation	marijuanalocationannotationwinvbd	
+
+BE: tLocationAnnotationcauseVB
+EQ class: causationnnofintlocationannotation	causingnntlocationannotation	causingnnofintlocationannotation	tlocationannotationdovb	causaljjofintlocationannotation	tlocationannotationmakevb	causennofintlocationannotation	causativennofintlocationannotation	causationnntlocationannotation	
+
+BE: causeVBcancerNN
+EQ class: causationnnofinmalignant_neoplastic_diseasenn	dovbmalignant_neoplastic_diseasenn	causationnnofincancerousjj	causaljjofincancerousjj	dovbcancerousjj	causaljjofinmalignant_neoplastic_diseasenn	causennofincancerousjj	causingnnofincancerousjj	causaljjofincancernn	causevbmalignant_neoplastic_diseasenn	dovbcancernn	makevbcancernn	causativennofincancernn	causationnnofincancernn	causingnnofincancernn	causativennofincancerousjj	makevbmalignant_neoplastic_diseasenn	causennofincancernn	makevbcancerousjj	causennofinmalignant_neoplastic_diseasenn	causativennofinmalignant_neoplastic_diseasenn	causingnnofinmalignant_neoplastic_diseasenn	causevbcancerousjj	
+
+BE: lungNN
+EQ class: 
+
+BE: problemNN
+EQ class: jobnn	problematicaljj	problematicjj	
+
+BE: provenVBN
+EQ class: turn_outvbn	turn_upvbn	provevbn	
+
+BE: causeVB
+EQ class: makevb	dovb	
+
+BE: otherJJ
+EQ class: 
+
+BE: otherJJproblemNN
+EQ class: otherjjproblematicaljj	otherjjjobnn	otherjjproblematicjj	
+
+BE: lungNNproblemNN
+EQ class: lungnnproblematicjj	jobnnofinlungnn	lungnnproblematicalvb	lungnnproblematicaljj	lungnnproblematicvb	problematicjjofinlungnn	problematicvblungnn	problemnnofinlungnn	problematicalvblungnn	lungnnjobnn	problematicaljjofinlungnn	
+
+BE: provenVBNitPRP
+EQ class: provevbnitprp	turn_upvbnitprp	turn_outvbnitprp	
+
+BE: causeVBaboutINproblemNN
+EQ class: dovbaboutinproblematicjj	causevbaboutinproblematicjj	dovbaboutinproblematicaljj	causevbaboutinproblematicaljj	makevbaboutinproblemnn	makevbaboutinproblematicjj	makevbaboutinproblematicaljj	dovbaboutinjobnn	dovbaboutinproblemnn	causevbaboutinjobnn	makevbaboutinjobnn	
+
+BE: provenVBNcauseVB
+EQ class: turn_outvbncausevb	provenvbndovb	provevbnmakevb	provevbndovb	provenvbnmakevb	provevbncausevb	turn_upvbnmakevb	turn_upvbndovb	turn_outvbnmakevb	turn_upvbncausevb	turn_outvbndovb	
+
+BE: marijuanaLocationAnnotation
+EQ class: 
+
+BE: MedicalJJ
+EQ class: medicinenn	medicalnn	
+
+BE: thingsNNS
+EQ class: theynns	themnns	
+
+BE: goodJJ
+EQ class: goodnessnn	
+
+BE: badJJ
+EQ class: badnessnn	
+
+BE: goodJJthingsNNS
+EQ class: goodnessnnthemnns	goodnessnnthingsnns	goodjjtheynns	goodnessnntheynns	goodjjthemnns	
+
+BE: badJJthingsNNS
+EQ class: badnessnnthingsnns	badnessnnthemnns	badjjthemnns	badjjtheynns	badnessnntheynns	
+
+BE: thereEXareAUX
+EQ class: thereexbeaux	
+
+BE: areAUXthingsNNS
+EQ class: beauxthemnns	areauxthemnns	beauxtheynns	beauxthingsnns	areauxtheynns	
+
+BE: SmokingNN
+EQ class: smokenn	
+
+BE: marijuanaLocationAnnotation
+EQ class: 
+
+BE: worthlessJJ
+EQ class: worthlessnessnn	
+
+BE: SmokingNNmarijuanaLocationAnnotation
+EQ class: smokingnnofinmarijuanalocationannotation	tobacco_usernnofinmarijuanalocationannotation	smokyjjofinmarijuanalocationannotation	marijuanalocationannotationsmokevb	marijuanalocationannotationofinsmokingnn	smokernnofinmarijuanalocationannotation	marijuanalocationannotationofinsmokenn	smokennmarijuanalocationannotation	fumennofinmarijuanalocationannotation	smokennofinmarijuanalocationannotation	
+
+BE: marijuanaLocationAnnotationisAUX
+EQ class: marijuanalocationannotationbeaux	
+
+BE: isAUXworthlessJJ
+EQ class: isauxworthlessnessnn	beauxworthlessnessnn	beauxworthlessjj	
+
+BE: painNN
+EQ class: hurtingnn	
+
+BE: effectNN
+EQ class: upshotnn	eventnn	resultnn	outcomenn	consequencenn	issuenn	
+
+BE: relievingVBG
+EQ class: relievevbg	alleviatevbg	palliatevbg	assuagevbg	
+
+BE: livedVBN
+EQ class: dwellvbn	livevbn	populatevbn	inhabitvbn	
+
+BE: wholeJJ
+EQ class: wholenn	
+
+BE: shortJJ
+EQ class: shortnessnn	
+
+BE: avantagousJJ
+EQ class: 
+
+BE: wholeJJpainNN
+EQ class: wholennhurtingnn	troublevbwhollyrb	wholejjhurtingnn	painvbwhollyrb	wholennpainnn	ailvbwhollyrb	
+
+BE: painNNrelievingVBG
+EQ class: hurtingnnpalliatevbg	painnnrelievevbg	hurtingnnrelievingvbg	painnnpalliatevbg	hurtingnnassuagevbg	painnnalleviatevbg	hurtingnnalleviatevbg	hurtingnnrelievevbg	painnnassuagevbg	
+
+BE: relievingVBGeffectNN
+EQ class: alleviatevbgconsequencenn	alleviatevbgoutcomenn	relievingvbgconsequencenn	assuagevbgeventnn	relievevbgresultnn	alleviatevbgeffectnn	relievingvbgeventnn	relievevbgeffectnn	assuagevbgupshotnn	alleviatevbgresultnn	palliatevbgissuenn	assuagevbgresultnn	alleviatevbgissuenn	assuagevbgconsequencenn	relievevbgissuenn	relievevbgoutcomenn	relievevbgupshotnn	assuagevbgeffectnn	assuagevbgoutcomenn	palliatevbgoutcomenn	relievingvbgoutcomenn	relievevbgconsequencenn	palliatevbgeffectnn	relievevbgeventnn	palliatevbgresultnn	palliatevbgconsequencenn	relievingvbgissuenn	alleviatevbgeventnn	relievingvbgresultnn	assuagevbgissuenn	relievingvbgupshotnn	palliatevbgeventnn	palliatevbgupshotnn	alleviatevbgupshotnn	
+
+BE: livedVBNpainNN
+EQ class: liveablennofinhurtingnn	livedvbnhurtingnn	dwellvbnhurtingnn	populatevbnpainnn	livernnofinhurtingnn	livevbnhurtingnn	inhabitvbnhurtingnn	liveryjjofinpainnn	inhabitvbnpainnn	liveablennofinpainnn	livablennofinpainnn	dwellvbnpainnn	livernnofinpainnn	livablennofinhurtingnn	populatevbnhurtingnn	liveryjjofinhurtingnn	livevbnpainnn	
+
+BE: beAUXavantagousJJ
+EQ class: 
+
+BE: isAUXtooRB
+EQ class: beauxtoorb	
+
+BE: livedVBNtooRB
+EQ class: livevbntoorb	inhabitvbntoorb	liveryjjofintoorb	dwellvbntoorb	livablennofintoorb	livernnofintoorb	populatevbntoorb	liveablennofintoorb	
+
+BE: vaporNN
+EQ class: vapournn	vaporousjj	
+
+BE: needsVBZ
+EQ class: involvevbz	demandvbz	requirevbz	askvbz	postulatevbz	necessitatevbz	takevbz	needvbz	call_forvbz	
+
+BE: eatenVBN
+EQ class: eatvbn	
+
+BE: madeVBN
+EQ class: makevbn	dovbn	
+
+BE: effectiveJJ
+EQ class: efficaciousjj	effectivenessnn	effectualjj	effectivitynn	
+
+BE: itPRPneedsVBZ
+EQ class: itprpdemandvbz	itprpinvolvevbz	neednnofinitprp	itprppostulatevbz	itprprequirevbz	itprpcall_forvbz	itprptakevbz	demandnnofinitprp	itprpneedvbz	itprpaskvbz	itprpnecessitatevbz	
+
+BE: beAUXeffectiveJJ
+EQ class: beauxeffectualjj	beauxeffectivenessnn	beauxeffectivitynn	beauxefficaciousjj	
+
+BE: eatenVBNintoINvaporNN
+EQ class: eatenvbnintoinvapournn	eatvbnintoinvaporousjj	eatvbnintoinvapournn	eatvbnintoinvapornn	eatenvbnintoinvaporousjj	
+
+BE: endorsementsNNS
+EQ class: indorsementnns	endorsementnns	blurbnns	theynns	themnns	
+
+BE: noticeVB
+EQ class: discovervb	findvb	observevb	detectvb	
+
+BE: shinningVBG
+EQ class: skinvbg	shinvbg	shinnyvbg	strugglevbg	clambervbg	scramblevbg	sputtervbg	
+
+BE: youPRPnoticeVB
+EQ class: youprpobservevb	youprpdetectvb	youprpdiscovervb	youprpfindvb	noticennofinyouprp	
+
+BE: thereEXshinningVBG
+EQ class: thereexclambervbg	thereexshinnyvbg	thereexstrugglevbg	thereexshinvbg	thereexskinvbg	thereexscramblevbg	thereexsputtervbg	
+
+BE: shinningVBGendorsementsNNS
+EQ class: scramblevbgendorsementnns	shinvbgendorsementsnns	skinvbgindorsementnns	shinningvbgblurbnns	strugglevbgthemnns	clambervbgindorsementnns	shinvbgindorsementnns	shinnyvbgendorsementnns	scramblevbgthemnns	clambervbgtheynns	sputtervbgthemnns	strugglevbgendorsementsnns	skinvbgendorsementnns	shinnyvbgblurbnns	shinnyvbgendorsementsnns	clambervbgblurbnns	shinvbgtheynns	sputtervbgindorsementnns	sputtervbgendorsementsnns	shinningvbgendorsementnns	shinnyvbgtheynns	skinvbgendorsementsnns	scramblevbgblurbnns	skinvbgtheynns	shinvbgblurbnns	shinningvbgindorsementnns	shinnyvbgindorsementnns	scramblevbgindorsementnns	shinvbgendorsementnns	strugglevbgindorsementnns	shinningvbgthemnns	skinvbgthemnns	shinvbgthemnns	scramblevbgtheynns	strugglevbgblurbnns	strugglevbgtheynns	strugglevbgendorsementnns	shinningvbgtheynns	sputtervbgtheynns	clambervbgendorsementsnns	clambervbgendorsementnns	sputtervbgblurbnns	shinnyvbgthemnns	scramblevbgendorsementsnns	clambervbgthemnns	sputtervbgendorsementnns	skinvbgblurbnns	
+
+BE: noticeVBthatINshinningVBG
+EQ class: findvbthatinshinvbg	detectvbthatinsputtervbg	discovervbthatinshinnyvbg	detectvbthatinskinvbg	detectvbthatinscramblevbg	discovervbthatinskinvbg	discovervbthatinshinvbg	noticevbthatinshinvbg	findvbthatinclambervbg	detectvbthatinshinningvbg	discovervbthatinstrugglevbg	observevbthatinclambervbg	discovervbthatinscramblevbg	noticevbthatinstrugglevbg	findvbthatinsputtervbg	observevbthatinskinvbg	findvbthatinstrugglevbg	noticevbthatinshinnyvbg	detectvbthatinstrugglevbg	noticevbthatinskinvbg	noticevbthatinclambervbg	observevbthatinshinvbg	discovervbthatinsputtervbg	noticevbthatinsputtervbg	findvbthatinscramblevbg	observevbthatinsputtervbg	findvbthatinskinvbg	observevbthatinshinningvbg	detectvbthatinshinnyvbg	discovervbthatinclambervbg	discovervbthatinshinningvbg	noticevbthatinscramblevbg	detectvbthatinshinvbg	observevbthatinscramblevbg	detectvbthatinclambervbg	observevbthatinshinnyvbg	observevbthatinstrugglevbg	findvbthatinshinningvbg	findvbthatinshinnyvbg	
+
+BE: isAUXnoRB
+EQ class: beauxnorb	
+
+BE: shinningVBGnoRB
+EQ class: scramblevbgnorb	clambervbgnorb	shinnyvbgnorb	strugglevbgnorb	sputtervbgnorb	shinvbgnorb	skinvbgnorb	
+
+BE: alcoholNN
+EQ class: alcoholic_beveragenn	alcoholic_drinknn	intoxicantnn	alcoholicjj	inebriantnn	
+
+BE: tLocationAnnotation
+EQ class: 
+
+BE: badJJ
+EQ class: badnessnn	
+
+BE: itPRPtLocationAnnotation
+EQ class: 
+
+BE: badJJasINalcoholNN
+EQ class: badjjasinalcoholic_beveragenn	badjjasininebriantnn	alcoholizevbbadlyrb	badjjasinintoxicantnn	badjjasinalcoholicjj	badnessnnasinalcoholnn	badnessnnasinalcoholic_drinknn	badnessnnasinalcoholicjj	badnessnnasininebriantnn	badnessnnasinintoxicantnn	alcoholicvbbadlyrb	badnessnnasinalcoholic_beveragenn	badjjasinalcoholic_drinknn	
+
+BE: tLocationAnnotationisnRB
+EQ class: tlocationannotationtheyrb	tlocationannotationthemrb	
+
+BE: reasonNN
+EQ class: groundnn	
+
+BE: legalizeVB
+EQ class: legitimisevb	legalisevb	legitimizevb	decriminalisevb	legitimatevb	legitimatisevb	decriminalizevb	legitimatizevb	
+
+BE: greatJJ
+EQ class: greatnessnn	
+
+BE: greatJJreasonNN
+EQ class: reasonvbgreatlyrb	greatnessnnreasonnn	reason_outvbgreatlyrb	greatjjgroundnn	greatnessnngroundnn	concludevbgreatlyrb	
+
+BE: thereEXisAUX
+EQ class: thereexbeaux	
+
+BE: reasonNNlegalizeVB
+EQ class: groundnnlegalizevb	groundnndecriminalizevb	groundnndecriminalisevb	legalizationnnofinreasonnn	reasonnnlegitimatizevb	legitimationnnofinreasonnn	reasonnnlegitimizevb	groundnnlegitimisevb	legalizationnnofingroundnn	legalisationnngroundnn	reasonnndecriminalizevb	groundnnlegitimatevb	legitimationnngroundnn	legalisationnnofingroundnn	reasonnndecriminalisevb	legalizationnngroundnn	legitimationnnreasonnn	groundnnlegitimatizevb	reasonnnlegitimatisevb	reasonnnlegitimatevb	legalisationnnofinreasonnn	legitimationnnofingroundnn	groundnnlegitimizevb	reasonnnlegalisevb	groundnnlegalisevb	legalizationnnreasonnn	reasonnnlegitimisevb	legalisationnnreasonnn	groundnnlegitimatisevb	
+
+BE: isAUXreasonNN
+EQ class: beauxreasonnn	isauxgroundnn	beauxgroundnn	
+
+BE: legalizeVBitPRP
+EQ class: legalisationnnofinitprp	legitimatizevbitprp	legitimizevbitprp	legalizationnnofinitprp	legitimatisevbitprp	decriminalisevbitprp	legalisevbitprp	legitimisevbitprp	decriminalizevbitprp	legitimationnnofinitprp	legitimatevbitprp	
+
+BE: legalizeVBeitherRB
+EQ class: legitimisevbeitherrb	decriminalisevbeitherrb	legalisationnnofineitherrb	legitimationnnofineitherrb	decriminalizevbeitherrb	legitimatisevbeitherrb	legitimizevbeitherrb	legalizationnnofineitherrb	legitimatizevbeitherrb	legitimatevbeitherrb	legalisevbeitherrb	
+

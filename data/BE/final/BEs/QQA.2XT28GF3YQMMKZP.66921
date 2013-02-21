@@ -1,0 +1,279 @@
+#Well, get good grades in high school, get on the college track program in high school.  
+#(S1 (S (INTJ (UH Well)) (, ,) (S (VP (VB get) (NP (JJ good) (NNS grades)) (PP (IN in) (NP (JJ high) (NN school))))) (, ,) (VP (VB get) (PP (IN on) (NP (DT the) (NN college) (NN track) (NN program))) (PP (IN in) (NP (JJ high) (NN school)))) (. .)))
+#Rule:Nouns
+r1gradesNNS
+r1schoolNN
+r1collegeNN
+r1trackNN
+r1programNN
+r1schoolNN
+
+#Rule:Verbs
+r2getVB
+r2getVB
+
+#Rule:Adjs
+r4goodJJ
+r4highJJ
+r4highJJ
+
+#Rule:Adj-Noun
+r5goodJJgradesNNS
+r5highJJschoolNN
+r5highJJschoolNN
+
+#Rule:N-HeadNoun
+r8trackNNprogramNN
+r8collegeNNprogramNN
+
+#Rule:V-HeadNoun
+r21getVBgradesNNS
+
+#Rule:PPinVP
+r30getVBinINschoolNN
+r30getVBonINprogramNN
+r30getVBinINschoolNN
+
+#Go to the University of Florida and get in to the School of Forest Resources and Conservation.  
+#(S1 (S (VP (VP (VB Go) (PP (TO to) (NP (NP (DT the) (NNP University)) (PP (IN of) (NP (NNP Florida)))))) (CC and) (VP (VB get) (PRT (RP in)) (PP (TO to) (NP (NP (NP (DT the) (NNP School)) (PP (IN of) (NP (NNP Forest) (NNPS Resources)))) (CC and) (NP (NNP Conservation)))))) (. .)))
+#Rule:Nouns
+r1the University of FloridaOrganizationAnnotation
+r1School of Forest Resources and ConservationOrganizationAnnotation
+
+#Rule:Verbs
+r2goVB
+
+#Rule:V-PRT
+r3getVBinRP
+
+#Rule:PPinVP
+r30goVBtoTOthe University of FloridaOrganizationAnnotation
+r30getVBtoTOSchool of Forest Resources and ConservationOrganizationAnnotation
+
+#Get your BS, and maintain about a 3.5 GPA.  
+#(S1 (S (VP (VP (VB Get) (NP (PRP$ your) (NN BS))) (, ,) (CC and) (VP (VB maintain) (NP (QP (IN about) (DT a) (CD 3.5)) (NNP GPA)))) (. .)))
+#Rule:Nouns
+r1BSOrganizationAnnotation
+r1GPAOrganizationAnnotation
+
+#Rule:Verbs
+r2getVB
+r2maintainVB
+
+#Rule:Adj-Noun
+r53.5CDGPAOrganizationAnnotation
+
+#Rule:PRP-Noun
+r6yourPRP$BSOrganizationAnnotation
+
+#Rule:V-HeadNoun
+r21getVBBSOrganizationAnnotation
+r21maintainVBGPAOrganizationAnnotation
+
+#Cause you need to get in to graduate school.  
+#(S1 (S (VP (VB Cause) (SBAR (S (NP (PRP you)) (VP (AUX need) (S (VP (TO to) (VP (VB get) (ADVP (IN in)) (PP (TO to) (NP (JJ graduate) (NN school)))))))))) (. .)))
+#Rule:Nouns
+r1schoolNN
+
+#Rule:Verbs
+r2causeVB
+r2getVB
+
+#Rule:Adjs
+r4graduateJJ
+
+#Rule:Adj-Noun
+r5graduateJJschoolNN
+
+#Rule:HeadNoun-V
+r11youPRPneedAUX
+
+#Rule:PPinVP
+r30getVBtoTOschoolNN
+
+#You ll need to find a grad school that has a program that includes wolf research.  
+#(S1 (S (NP (PRP You)) (ADVP (RB ll)) (VP (AUX need) (S (VP (TO to) (VP (VB find) (NP (NP (DT a) (JJ grad) (NN school)) (SBAR (WHNP (WDT that)) (S (VP (AUX has) (NP (NP (DT a) (NN program)) (SBAR (WHNP (WDT that)) (S (VP (VBZ includes) (NP (NNP wolf) (NN research)))))))))))))) (. .)))
+#Rule:Nouns
+r1schoolNN
+r1programNN
+r1wolfNNP
+r1researchNN
+
+#Rule:Verbs
+r2findVB
+r2includesVBZ
+
+#Rule:Adjs
+r4gradJJ
+
+#Rule:Adj-Noun
+r5gradJJschoolNN
+
+#Rule:N-HeadNoun
+r8wolfNNPresearchNN
+
+#Rule:HeadNoun-V
+r11youPRPneedAUX
+
+#Rule:HeadNoun-(who/that)-V
+r14schoolNNhasAUX
+r14programNNincludesVBZ
+
+#Rule:V-HeadNoun
+r21findVBschoolNN
+r21hasAUXprogramNN
+r21includesVBZresearchNN
+
+#Rule:V-ADV
+r46needAUXllRB
+
+#That would be out in the northwestern USA or Canada.  
+#(S1 (S (NP (DT That)) (VP (MD would) (VP (AUX be) (PP (IN out) (PP (IN in) (NP (DT the) (JJ northwestern) (NNP USA) (CC or) (NNP Canada)))))) (. .)))
+#Rule:Nouns
+r1northwestern USAOrganizationAnnotation
+r1CanadaLocationAnnotation
+
+#Rule:HeadNoun-V
+r11thatDTbeAUX
+
+#Rule:PPComboInVP
+r34beAUXoutINnorthwestern USAOrganizationAnnotation
+
+#Forget all the crap you see on TV.  
+#(S1 (S (VP (VB Forget) (NP (NP (PDT all) (DT the) (NN crap)) (SBAR (S (NP (PRP you)) (VP (VBP see) (PP (IN on) (NP (NN TV)))))))) (. .)))
+#Rule:Nouns
+r1crapNN
+r1TVNN
+
+#Rule:Verbs
+r2forgetVB
+r2seeVBP
+
+#Rule:HeadNoun-V
+r11youPRPseeVBP
+
+#Rule:NP(NP(z) SBAR(S(NP(x)VP(y))))
+r19seeVBPcrapNN
+
+#Rule:V-HeadNoun
+r21forgetVBcrapNN
+
+#Rule:PPinVP
+r30seeVBPonINTVNN
+
+#Most of it is not made by biologist.  
+#(S1 (S (NP (NP (JJS Most)) (PP (IN of) (NP (PRP it)))) (VP (AUX is) (RB not) (VP (VBN made) (PP (IN by) (NP (NN biologist))))) (. .)))
+#Rule:Nouns
+r1biologistNN
+
+#Rule:Verbs
+r2madeVBN
+
+#Rule:Adjs
+r4MostJJS
+
+#Rule:V-By-Agent
+r13biologistNNmadeVBN
+
+#Rule:V-HeadNoun(passive)
+r23madeVBNMostJJS
+
+#Rule:PPinNP
+r26MostJJSofINitPRP
+
+#Rule:V-ADV
+r46isAUXnotRB
+
+#Hands on it NOT the way we biologist get to do most of our work.  
+#(S1 (S (NP (NP (NNS Hands)) (PP (IN on) (NP (PRP it)))) (VP (RB NOT) (NP (NP (DT the) (NN way)) (SBAR (S (NP (PRP we)) (VP (NN biologist) (VP (VBP get) (S (VP (TO to) (VP (AUX do) (NP (NP (JJS most)) (PP (IN of) (NP (PRP$ our) (NN work))))))))))))) (. .)))
+#Rule:Nouns
+r1HandsNNS
+r1wayNN
+r1biologistNN
+r1workNN
+
+#Rule:Verbs
+r2getVBP
+
+#Rule:Adjs
+r4mostJJS
+
+#Rule:PRP-Noun
+r6ourPRP$workNN
+
+#Rule:HeadNoun-V
+r11wePRPgetVBP
+
+#Rule:NP(NP(z) SBAR(S(NP(x)VP(y))))
+r19getVBPwayNN
+
+#Rule:V-HeadNoun
+r21doAUXmostJJS
+
+#Rule:PPinNP
+r26HandsNNSonINitPRP
+r26mostJJSofINworkNN
+
+#Hands on is actually not cool when working with certain species.  
+#(S1 (S (NP (NP (NNS Hands)) (PP (IN on))) (VP (AUX is) (ADVP (RB actually)) (RB not) (ADJP (JJ cool)) (SBAR (WHADVP (WRB when)) (S (VP (VBG working) (PP (IN with) (NP (JJ certain) (NNS species))))))) (. .)))
+#Rule:Nouns
+r1HandsNNS
+r1speciesNNS
+
+#Rule:Verbs
+r2workingVBG
+
+#Rule:Adjs
+r4coolJJ
+r4certainJJ
+
+#Rule:Adj-Noun
+r5certainJJspeciesNNS
+
+#Rule:HeadNoun-V
+r11HandsNNSisAUX
+
+#Rule:V-ADJ
+r25isAUXcoolJJ
+
+#Rule:PPinVP
+r30workingVBGwithINspeciesNNS
+
+#Rule:V-ADV
+r46isAUXactuallyRB
+r46isAUXnotRB
+
+#The presence of humans is a deterrent to the natural behavior of a wild animal.
+#(S1 (S (NP (NP (DT The) (NN presence)) (PP (IN of) (NP (NNS humans)))) (VP (AUX is) (NP (NP (DT a) (NN deterrent)) (PP (TO to) (NP (NP (DT the) (JJ natural) (NN behavior)) (PP (IN of) (NP (DT a) (JJ wild) (NN animal))))))) (. .)))
+#Rule:Nouns
+r1presenceNN
+r1humansNNS
+r1deterrentNN
+r1behaviorNN
+r1animalNN
+
+#Rule:Adjs
+r4naturalJJ
+r4wildJJ
+
+#Rule:Adj-Noun
+r5naturalJJbehaviorNN
+r5wildJJanimalNN
+
+#Rule:HeadNoun-V
+r11presenceNNisAUX
+
+#Rule:V-HeadNoun
+r21isAUXdeterrentNN
+
+#Rule:PPinNP
+r26presenceNNofINhumansNNS
+r26deterrentNNtoTObehaviorNN
+r26behaviorNNofINanimalNN
+
+#Rule:IS-RULE
+r47deterrentNNpresenceNN
+
+@lemmas-left	need	Hands	cause	maintain	GPA	college	good	has	biologist	working	be	cool	work	wild	School of Forest Resources and Conservation	get	humans	include	that	Canada	program	natural	make	we	go	TV	the University of Florida	grad	northwestern USA	BS	have	behavior	made	most	way	includes	hands	graduate	grade	deterrent	do	find	animal	crap	is	species	your	track	you	research	Most	3.5	school	presence	see	wolf	tv	certain	high	grades	forget	our	
+@lemmas-right	need	the University of Florida	ll	northwestern USA	BS	have	behavior	GPA	made	way	most	actually	includes	has	grade	deterrent	animal	be	cool	work	crap	is	it	School of Forest Resources and Conservation	species	get	humans	research	in	Most	include	not	school	presence	see	program	tv	grades	make	TV	
+@lemmas-center	to	of	with	on	in	out	

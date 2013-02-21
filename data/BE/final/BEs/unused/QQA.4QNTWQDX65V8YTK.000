@@ -1,0 +1,26 @@
+#if a person has cancer in the lymph nodes how long can they live?
+#(S1 (SBARQ (SBAR (IN if) (S (NP (DT a) (NN person)) (VP (AUX has) (NP (NN cancer)) (PP (IN in) (NP (DT the) (NN lymph) (NNS nodes)))))) (WHNP (WRB how) (RB long)) (SQ (MD can) (NP (PRP they)) (VP (VB live))) (. ?)))
+#Rule:Nouns
+r1personNN
+r1cancerNN
+r1lymphOrganizationAnnotation
+r1nodesNNS
+
+#Rule:Verbs
+r2liveVB
+
+#Rule:N-HeadNoun
+r8lymphOrganizationAnnotationnodesNNS
+
+#Rule:HeadNoun-V
+r11personNNhasAUX
+
+#Rule:V-HeadNoun
+r21hasAUXcancerNN
+
+#Rule:PPinVP
+r30hasAUXinINnodesNNS
+
+@lemmas-left	node	person	have	nodes	lymph	has	cancer	live	
+@lemmas-right	node	have	nodes	cancer	has	
+@lemmas-center	in	

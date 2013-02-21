@@ -1,0 +1,73 @@
+#Old-school parent-sites (parasites) believe that everyone, but themselves, are bacteria-spreading war-mongers..
+#(S1 (S (S (NP (NP (JJ Old-school) (NNS parent-sites)) (PRN (-LRB- -LRB-) (NNS parasites) (-RRB- -RRB-))) (VP (VBP believe) (NP (DT that) (NN everyone)))) (, ,) (CC but) (S (NP (PRP themselves)) (, ,) (VP (AUX are) (NP (JJ bacteria-spreading) (NNS war-mongers))) (. .)) (. .)))
+#Rule:Nouns
+r1parent-sitesNNS
+r1parasitesLocationAnnotation
+r1everyoneNN
+r1war-mongersNNS
+
+#Rule:Verbs
+r2believeVBP
+
+#Rule:Adjs
+r4Old-schoolJJ
+r4bacteria-spreadingJJ
+
+#Rule:Adj-Noun
+r5Old-schoolJJparent-sitesNNS
+r5bacteria-spreadingJJwar-mongersNNS
+
+#Rule:HeadNoun-V
+r11parent-sitesNNSbelieveVBP
+r11themselvesPRPareAUX
+
+#Rule:V-HeadNoun
+r21believeVBPeveryoneNN
+r21areAUXwar-mongersNNS
+
+#These parents who home-school their children are God-fearing introverted kok-suckers..
+#(S1 (FRAG (NP (NP (DT These) (NNS parents)) (SBAR (WHNP (WP who) (NN home-school)) (S (NP (PRP$ their) (NNS children)) (VP (AUX are) (NP (JJ God-fearing) (JJ introverted) (NNS kok-suckers))))) (. .)) (. .)))
+#Rule:Nouns
+r1parentsNNS
+r1home-schoolNN
+r1childrenNNS
+r1kok-suckersOrganizationAnnotation
+
+#Rule:Adjs
+r4God-fearingJJ
+r4introvertedJJ
+
+#Rule:Adj-Noun
+r5God-fearingJJkok-suckersOrganizationAnnotation
+r5introvertedJJkok-suckersOrganizationAnnotation
+
+#Rule:PRP-Noun
+r6theirPRP$childrenNNS
+
+#Rule:HeadNoun-V
+r11childrenNNSareAUX
+
+#Rule:V-HeadNoun
+r21areAUXkok-suckersOrganizationAnnotation
+
+#Rule:IS-RULE
+r47kok-suckersOrganizationAnnotationchildrenNNS
+
+#Forgive the abuse of hyhens.
+#(S1 (S (VP (VB Forgive) (NP (NP (DT the) (NN abuse)) (PP (IN of) (NP (NNS hyhens))))) (. .)))
+#Rule:Nouns
+r1abuseNN
+r1hyhensPersonAnnotation
+
+#Rule:Verbs
+r2forgiveVB
+
+#Rule:V-HeadNoun
+r21forgiveVBabuseNN
+
+#Rule:PPinNP
+r26abuseNNofINhyhensPersonAnnotation
+
+@lemmas-left	war-mongers	Old-school	parents	parasites	God-fearing	children	believe	child	abuse	parent-sites	are	monger	everyone	be	site	god-fearing	forgive	hyhens	kok-suckers	parent	home-school	school	spreading	bacteria-spreading	introverted	themselves	their	
+@lemmas-right	site	war-mongers	hyhens	kok-suckers	children	believe	child	abuse	parent-sites	are	monger	everyone	be	
+@lemmas-center	of	

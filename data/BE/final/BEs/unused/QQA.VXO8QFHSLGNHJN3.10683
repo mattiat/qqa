@@ -1,0 +1,40 @@
+#Dark Ages, a period of stagnation and obscurity in literature and art, lasting nearly 1000 years, from about 500 to about 1500 A. 
+#(S1 (NP (NP (JJ Dark) (NNPS Ages)) (, ,) (NP (NP (NP (DT a) (NN period)) (PP (IN of) (NP (NN stagnation) (CC and) (NN obscurity))) (PP (IN in) (NP (NN literature)))) (CC and) (NP (NN art))) (, ,) (VP (VBG lasting) (NP (QP (RB nearly) (CD 1000)) (NNS years))) (, ,) (PP (IN from) (NP (QP (RB about) (CD 500) (TO to) (RB about) (CD 1500))) (ADVP (DT A))) (. .)))
+#Rule:Nouns
+r1Dark AgesPersonAnnotation
+r1periodNN
+r1stagnationNN
+r1obscurityNN
+r1literatureNN
+r1artNN
+r1yearsNNS
+
+#Rule:Verbs
+r2lastingVBG
+
+#Rule:Adj-Noun
+r51000CDyearsNNS
+r5500CDaboutRB
+r51500CDaboutRB
+
+#Rule:N-ApposN
+r10Dark AgesPersonAnnotationperiodNN
+
+#Rule:HeadNoun-V
+r11Dark AgesPersonAnnotationlastingVBG
+r11periodNNlastingVBG
+r11artNNlastingVBG
+
+#Rule:V-HeadNoun
+r21lastingVBGyearsNNS
+
+#Rule:PPinNP
+r26Dark AgesPersonAnnotationfromINaboutRB
+r26periodNNofINstagnationNN
+r26periodNNinINliteratureNN
+
+#D..
+#(S1 (X (SYM D) (. .) (. .)))
+@lemmas-left	obscurity	last	1500	lasting	art	literature	Dark Ages	years	period	stagnation	1000	500	
+@lemmas-right	last	lasting	literature	about	years	period	stagnation	
+@lemmas-center	of	from	in	

@@ -1,0 +1,129 @@
+BE: uNNP
+EQ class: uracilnnp	
+
+BE: uOrganizationAnnotation
+EQ class: 
+
+BE: breastNN
+EQ class: chestnn	
+
+BE: cancerNN
+EQ class: cancerousjj	malignant_neoplastic_diseasenn	
+
+BE: knowVB
+EQ class: cognizevb	cognisevb	
+
+BE: breastNNcancerNN
+EQ class: chestnncancernn	malignant_neoplastic_diseasennbreastvb	breastnncancerousvb	chestnnofincancernn	cancerousvbbreastnn	cancerousjjofinbreastnn	cancerousjjofinchestnn	malignant_neoplastic_diseasennofinchestnn	breastnnofincancernn	chestnncancerousjj	chestnncancerousvb	cancerousvbchestnn	cancernnofinbreastnn	cancernnofinchestnn	chestnnmalignant_neoplastic_diseasenn	breastnnofincancerousjj	breastnnofinmalignant_neoplastic_diseasenn	breastnncancerousjj	breastnnmalignant_neoplastic_diseasenn	cancerousjjbreastvb	cancernnbreastvb	chestnnofinmalignant_neoplastic_diseasenn	chestnnofincancerousjj	malignant_neoplastic_diseasennofinbreastnn	
+
+BE: uOrganizationAnnotationhaveAUX
+EQ class: uorganizationannotationholdaux	uorganizationannotationhave_gotaux	havennofinuorganizationannotation	rich_personnnofinuorganizationannotation	wealthy_personnnofinuorganizationannotation	
+
+BE: haveAUXcancerNN
+EQ class: wealthy_personnnofincancerousjj	have_gotauxmalignant_neoplastic_diseasenn	have_gotauxcancerousjj	rich_personnnofinmalignant_neoplastic_diseasenn	rich_personnnofincancernn	haveauxcancerousjj	holdauxcancerousjj	holdauxmalignant_neoplastic_diseasenn	rich_personnnofincancerousjj	wealthy_personnnofincancernn	havennofinmalignant_neoplastic_diseasenn	wealthy_personnnofinmalignant_neoplastic_diseasenn	havennofincancernn	holdauxcancernn	have_gotauxcancernn	haveauxmalignant_neoplastic_diseasenn	havennofincancerousjj	
+
+BE: knowVBifINhaveAUX
+EQ class: cognisevbifinhave_gotaux	cognisevbifinhaveaux	knowvbifinholdaux	cognisevbifinholdaux	cognizevbifinhave_gotaux	cognizevbifinholdaux	knowvbifinhave_gotaux	cognizevbifinhaveaux	
+
+BE: knowVB
+EQ class: cognizevb	cognisevb	
+
+BE: anythignNN
+EQ class: 
+
+BE: uPersonAnnotation
+EQ class: 
+
+BE: hurtsVBZ
+EQ class: achevbz	smartvbz	hurtvbz	
+
+BE: noticeVB
+EQ class: discovervb	findvb	observevb	detectvb	
+
+BE: itsPRP$justRB
+EQ class: 
+
+BE: anythignNNhurtsVBZ
+EQ class: anythignnnachevbz	harmnnofinanythignnn	painnnofinanythignnn	anythignnnsmartvbz	traumannofinanythignnn	anythignnnhurtvbz	hurtingnnanythignnn	painnnanythignnn	injurynnofinanythignnn	hurtingnnofinanythignnn	hurtnnofinanythignnn	
+
+BE: justRBnoticeVB
+EQ class: justrbdiscovervb	justrbdetectvb	justrbfindvb	justrbobservevb	noticennofinjustrb	
+
+BE: uPersonAnnotationnoticeVB
+EQ class: upersonannotationobservevb	upersonannotationfindvb	noticennofinupersonannotation	upersonannotationdetectvb	upersonannotationdiscovervb	
+
+BE: noticeVBitLocationAnnotation
+EQ class: observevbitlocationannotation	discovervbitlocationannotation	noticennofinitlocationannotation	findvbitlocationannotation	detectvbitlocationannotation	
+
+BE: hurtsVBZjustRB
+EQ class: hurtnnofinjustrb	hurtvbzjustrb	harmnnofinjustrb	traumannofinjustrb	hurtingnnofinjustrb	achevbzjustrb	painnnofinjustrb	injurynnofinjustrb	smartvbzjustrb	
+
+BE: detailsNNS
+EQ class: inside_informationnns	theynns	themnns	
+
+BE: mewhatNN
+EQ class: 
+
+BE: lumbLocationAnnotation
+EQ class: 
+
+BE: pleaseVB
+EQ class: delightvb	
+
+BE: tellVB
+EQ class: sayvb	statevb	
+
+BE: mewhatNNisAUX
+EQ class: mewhatnnbeaux	
+
+BE: isAUXlumbLocationAnnotation
+EQ class: beauxlumblocationannotation	
+
+BE: lumbLocationAnnotationmewhatNN
+EQ class: mewhatnnlumblocationannotation	
+
+BE: lumpNN
+EQ class: ballnn	chunknn	globnn	clumpnn	lumpyjj	clodnn	
+
+BE: ****iPersonAnnotation
+EQ class: 
+
+BE: lumpNN
+EQ class: ballnn	chunknn	globnn	clumpnn	lumpyjj	clodnn	
+
+BE: lumpNN
+EQ class: ballnn	chunknn	globnn	clumpnn	lumpyjj	clodnn	
+
+BE: dontVBP
+EQ class: 
+
+BE: wantVBP
+EQ class: desirevbp	
+
+BE: knowVB
+EQ class: cognizevb	cognisevb	
+
+BE: lumpNN****iPersonAnnotation
+EQ class: clodnn****ipersonannotation	lumpyjj****ipersonannotation	****ipersonannotationofinballnn	****ipersonannotationofinclumpnn	ballnn****ipersonannotation	****ipersonannotationofinlumpnn	****ipersonannotationofinchunknn	chunknn****ipersonannotation	****ipersonannotationofinclodnn	globnn****ipersonannotation	clumpnn****ipersonannotation	****ipersonannotationofinglobnn	****ipersonannotationofinlumpyjj	
+
+BE: ****iPersonAnnotationdontVBP
+EQ class: 
+
+BE: iPRPwantVBP
+EQ class: needernniprp	deprivationnnofiniprp	wantnnofiniprp	needernnofiniprp	wanternniprp	needinessnnofiniprp	iprpdesirevbp	privationnnofiniprp	wanternnofiniprp	
+
+BE: wantVBPlumpNN
+EQ class: deprivationnnofinlumpnn	needernnofinclumpnn	wanternnofinballnn	desirevbpclodnn	wantnnofinclodnn	wantvbpclodnn	privationnnofinclodnn	privationnnofinclumpnn	wanternnofinclumpnn	wanternnofinclodnn	needinessnnofinlumpnn	desirevbpglobnn	needinessnnofinchunknn	needernnofinlumpnn	needinessnnofinballnn	wantnnofinlumpyjj	desirevbpchunknn	wantvbpclumpnn	wantnnofinglobnn	wantvbpglobnn	wantvbpchunknn	needinessnnofinclodnn	deprivationnnofinclumpnn	needernnofinballnn	privationnnofinchunknn	wantnnofinchunknn	needernnofinglobnn	needernnofinchunknn	privationnnofinballnn	deprivationnnofinballnn	deprivationnnofinchunknn	needinessnnofinlumpyjj	privationnnofinglobnn	needernnofinlumpyjj	wanternnofinlumpyjj	desirevbplumpyjj	privationnnofinlumpyjj	wantvbplumpyjj	deprivationnnofinclodnn	privationnnofinlumpnn	needinessnnofinglobnn	desirevbplumpnn	desirevbpballnn	deprivationnnofinlumpyjj	deprivationnnofinglobnn	wantnnofinlumpnn	needernnofinclodnn	wantnnofinballnn	needinessnnofinclumpnn	wanternnofinglobnn	wantnnofinclumpnn	desirevbpclumpnn	wanternnofinlumpnn	wanternnofinchunknn	wantvbpballnn	
+
+BE: isAUX****iPersonAnnotation
+EQ class: beaux****ipersonannotation	
+
+BE: haveAUXlumpNN
+EQ class: haveauxclumpnn	wealthy_personnnofinglobnn	holdauxballnn	haveauxclodnn	have_gotauxlumpnn	rich_personnnofinclumpnn	rich_personnnofinlumpnn	holdauxclodnn	wealthy_personnnofinclodnn	haveauxchunknn	have_gotauxballnn	rich_personnnofinglobnn	have_gotauxglobnn	have_gotauxclodnn	holdauxlumpnn	haveauxballnn	haveauxglobnn	wealthy_personnnofinlumpnn	holdauxglobnn	wealthy_personnnofinchunknn	haveauxlumpyjj	have_gotauxclumpnn	havennofinlumpyjj	rich_personnnofinballnn	rich_personnnofinchunknn	holdauxlumpyjj	havennofinclumpnn	wealthy_personnnofinlumpyjj	havennofinchunknn	have_gotauxchunknn	wealthy_personnnofinballnn	havennofinclodnn	holdauxchunknn	wealthy_personnnofinclumpnn	havennofinballnn	rich_personnnofinlumpyjj	havennofinglobnn	havennofinlumpnn	have_gotauxlumpyjj	rich_personnnofinclodnn	holdauxclumpnn	
+
+BE: isAUXlumpNN
+EQ class: beauxlumpyjj	beauxlumpnn	beauxclumpnn	isauxlumpyjj	isauxglobnn	beauxchunknn	beauxballnn	beauxclodnn	isauxchunknn	isauxclodnn	beauxglobnn	isauxballnn	isauxclumpnn	
+
+BE: wantVBPknowVB
+EQ class: needinessnnofincognisevb	wantnnofincognisevb	wantvbpcognisevb	needinessnnofincognizevb	deprivationnnofincognizevb	privationnnofincognisevb	desirevbpknowvb	desirevbpcognizevb	wantnnofincognizevb	wantnnofinknowvb	desirevbpcognisevb	privationnnofincognizevb	needernnofincognizevb	needinessnnofinknowvb	deprivationnnofinknowvb	wanternnofincognizevb	wanternnofincognisevb	deprivationnnofincognisevb	wanternnofinknowvb	privationnnofinknowvb	needernnofincognisevb	wantvbpcognizevb	needernnofinknowvb	
+

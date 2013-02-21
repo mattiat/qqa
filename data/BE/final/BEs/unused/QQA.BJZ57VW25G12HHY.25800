@@ -1,0 +1,89 @@
+#To me, a sport requires the use of physical skill used to win a competition.  
+#(S1 (S (PP (TO To) (NP (PRP me))) (, ,) (NP (DT a) (NN sport)) (VP (VBZ requires) (NP (NP (DT the) (NN use)) (PP (IN of) (NP (NP (JJ physical) (NN skill)) (VP (VBN used) (S (VP (TO to) (VP (VB win) (NP (DT a) (NN competition)))))))))) (. .)))
+#Rule:Nouns
+r1sportNN
+r1useNN
+r1skillNN
+r1competitionNN
+
+#Rule:Verbs
+r2requiresVBZ
+r2usedVBN
+r2winVB
+
+#Rule:Adjs
+r4physicalJJ
+
+#Rule:Adj-Noun
+r5physicalJJskillNN
+
+#Rule:HeadNoun-V
+r11sportNNrequiresVBZ
+
+#Rule:V-HeadNoun
+r21requiresVBZuseNN
+r21winVBcompetitionNN
+
+#Rule:V-HeadNoun(passive)
+r24usedVBNskillNN
+
+#Rule:PPinNP
+r26useNNofINskillNN
+
+#Rule:PPinS
+r36requiresVBZtoTOmePRP
+
+#Rule:V-V
+r44usedVBNwinVB
+
+#So, chess is a competition, but not a sport.  
+#(S1 (S (ADVP (RB So)) (, ,) (NP (NN chess)) (VP (AUX is) (UCP (NP (DT a) (NN competition)) (, ,) (CC but) (RB not) (NP (DT a) (NN sport)))) (. .)))
+#Rule:Nouns
+r1chessNN
+r1competitionNN
+r1sportNN
+
+#Rule:HeadNoun-V
+r11chessNNisAUX
+
+#Rule:V-ADV
+r46isAUXSoRB
+
+#Cheerleading takes physical skill, but is not a sport, unless there is competition of some sort, and sometimes there is.
+#(S1 (S (S (NP (VBG Cheerleading)) (VP (VBZ takes) (NP (JJ physical) (NN skill)))) (, ,) (CC but) (S (VP (AUX is) (RB not) (NP (DT a) (NN sport)) (, ,) (SBAR (IN unless) (S (S (NP (EX there)) (VP (AUX is) (NP (NP (NN competition)) (PP (IN of) (NP (DT some) (NN sort)))))) (, ,) (CC and) (S (ADVP (RB sometimes)) (NP (EX there)) (VP (AUX is))))))) (. .)))
+#Rule:Nouns
+r1skillNN
+r1sportNN
+r1competitionNN
+r1sortNN
+
+#Rule:Verbs
+r2cheerleadingVBG
+r2takesVBZ
+
+#Rule:Adjs
+r4physicalJJ
+
+#Rule:Adj-Noun
+r5physicalJJskillNN
+
+#Rule:HeadNoun-V
+r11cheerleadingVBGtakesVBZ
+r11thereEXisAUX
+r11thereEXisAUX
+
+#Rule:V-HeadNoun
+r21takesVBZskillNN
+r21isAUXsportNN
+r21isAUXcompetitionNN
+
+#Rule:PPinNP
+r26competitionNNofINsortNN
+
+#Rule:V-ADV
+r46isAUXnotRB
+r46isAUXsometimesRB
+
+@lemmas-left	cheerleading	physical	is	sort	chess	sport	use	win	used	requires	takes	skill	take	there	require	cheerlead	competition	be	
+@lemmas-right	is	sort	sometimes	so	sport	use	win	requires	So	not	takes	skill	take	require	me	competition	be	
+@lemmas-center	to	of	

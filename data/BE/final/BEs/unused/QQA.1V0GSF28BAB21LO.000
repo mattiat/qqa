@@ -1,0 +1,73 @@
+#why are so many people ignorant to cancer?
+#(S1 (SBARQ (WHADVP (WRB why)) (SQ (VP (AUX are) (NP (NP (ADJP (RB so) (JJ many)) (NNS people)) (ADJP (JJ ignorant) (PP (TO to) (NP (NN cancer))))))) (. ?)))
+#Rule:Nouns
+r1peopleNNS
+r1cancerNN
+
+#Rule:Adjs
+r4manyJJ
+r4ignorantJJ
+
+#Rule:Adj-Noun
+r5ignorantJJpeopleNNS
+r5manyJJpeopleNNS
+
+#Rule:V-HeadNoun
+r21areAUXpeopleNNS
+
+#Rule:PPinADJP
+r37ignorantJJtoTOcancerNN
+
+#hi my name is trevor I have a few relatives who have had cancer a couple have died from it its just so annoying of there ignorance
+#(S1 (S (RB hi) (NP (PRP$ my) (NN name)) (VP (AUX is) (NP (NP (NNP trevor)) (SBAR (S (NP (PRP I)) (VP (AUX have) (NP (NP (DT a) (JJ few) (NNS relatives)) (SBAR (WHNP (WP who)) (S (VP (AUX have) (VP (AUX had) (NP (NP (NN cancer)) (SBAR (S (NP (DT a) (NN couple)) (VP (AUX have) (VP (VBN died) (PP (IN from) (NP (PRP it))) (NP (PRP$ its) (ADJP (ADJP (RB just) (RB so) (JJ annoying)) (PP (IN of) (NP (RB there)))) (NN ignorance)))))))))))))))))))
+#Rule:Nouns
+r1nameNN
+r1trevorNNP
+r1relativesNNS
+r1cancerNN
+r1coupleNN
+r1ignoranceLocationAnnotation
+
+#Rule:Verbs
+r2diedVBN
+
+#Rule:Adjs
+r4fewJJ
+r4annoyingJJ
+
+#Rule:Adj-Noun
+r5fewJJrelativesNNS
+r5annoyingJJignoranceLocationAnnotation
+
+#Rule:PRP-Noun
+r6myPRP$nameNN
+r6itsPRP$ignoranceLocationAnnotation
+
+#Rule:HeadNoun-V
+r11nameNNisAUX
+r11iPRPhaveAUX
+
+#Rule:HeadNoun-V
+r12coupleNNdiedVBN
+
+#Rule:HeadNoun-(who/that)-V
+r14relativesNNShadAUX
+
+#Rule:V-HeadNoun
+r21isAUXtrevorNNP
+r21haveAUXrelativesNNS
+r21hadAUXcancerNN
+r21diedVBNignoranceLocationAnnotation
+
+#Rule:PPinVP
+r32diedVBNfromINitPRP
+
+#Rule:PPinADJP
+r37annoyingJJofINthereRB
+
+#Rule:IS-RULE
+r47trevorNNPnameNN
+
+@lemmas-left	is	have	ignorance	its	my	people	relative	i	few	many	are	died	name	die	ignorant	couple	annoying	relatives	had	cancer	be	trevor	
+@lemmas-right	is	it	have	ignorance	people	relative	died	there	name	die	relatives	cancer	had	be	trevor	
+@lemmas-center	to	of	from	

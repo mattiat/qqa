@@ -1,0 +1,19 @@
+#why do leafs gets brown or red in the fall?
+#(S1 (SBARQ (WHADVP (WRB why)) (SQ (AUX do) (NP (NP (NNS leafs)) (SBAR (S (VP (VBZ gets) (ADJP (JJ brown) (CC or) (JJ red)))))) (PP (IN in) (NP (DT the) (NN fall)))) (. ?)))
+#Rule:Nouns
+r1leafsNNS
+r1fallNN
+
+#Rule:Verbs
+r2getsVBZ
+
+#Rule:Adjs
+r4brownJJ
+r4redJJ
+
+#Rule:HeadNoun-(who/that)-V
+r14leafsNNSgetsVBZ
+
+@lemmas-left	red	get	leafs	gets	fall	brown	leaf	
+@lemmas-right	get	gets	
+@lemmas-center	

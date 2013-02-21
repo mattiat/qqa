@@ -1,0 +1,85 @@
+#The name Uncle Sam came from the initials U.S. stamped on government property of the United States during the war of 1812.Accd. to and old story, the name originated from merchart who supplied provisions to US army, Samuel wilson, who was popularly known to everyone as Uncle Sam .
+#(S1 (S (NP (DT The) (NN name) (NNP Uncle) (NNP Sam)) (VP (VBD came) (PP (IN from) (NP (NP (DT the) (NNS initials) (NNP U.S.)) (VP (VBN stamped) (PP (IN on) (NP (NP (NN government) (NN property)) (PP (IN of) (NP (DT the) (NNP United) (NNPS States)))))))) (PP (IN during) (NP (NP (DT the) (NN war)) (PP (IN of) (S (VP (VBG 1812.Accd.) (PP (TO to) (CC and) (NP (NP (JJ old) (NN story)) (, ,) (NP (NP (DT the) (NN name)) (VP (VBN originated) (PP (IN from) (NP (NP (NN merchart)) (SBAR (WHNP (WP who)) (S (VP (VBD supplied) (NP (NNS provisions)) (PP (TO to) (NP (NP (PRP US) (NN army)) (, ,) (NP (NP (NNP Samuel) (NNP wilson)) (, ,) (SBAR (WHNP (WP who)) (S (VP (AUX was) (ADVP (RB popularly)) (VP (VBN known) (PP (TO to) (NP (NN everyone))) (PP (IN as) (NP (NNP Uncle) (NNP Sam))))))))))))))))))))))))) (. .)))
+#Rule:Nouns
+r1nameNN
+r1UncleNNP
+r1SamPersonAnnotation
+r1initialsNNS
+r1U.S.LocationAnnotation
+r1governmentNN
+r1propertyNN
+r1United StatesLocationAnnotation
+r1warNN
+r1storyNN
+r1nameNN
+r1merchartNN
+r1provisionsNNS
+r1armyNN
+r1Samuel wilsonPersonAnnotation
+r1everyoneNN
+r1Uncle Sam .OrganizationAnnotation
+
+#Rule:Verbs
+r2cameVBD
+r2stampedVBN
+r21812.accd.VBG
+r2originatedVBN
+r2suppliedVBD
+r2knownVBN
+
+#Rule:Adjs
+r4oldJJ
+
+#Rule:Adj-Noun
+r5oldJJstoryNN
+
+#Rule:N-HeadNoun
+r8UncleNNPSamPersonAnnotation
+r8nameNNSamPersonAnnotation
+r8initialsNNSU.S.LocationAnnotation
+r8governmentNNpropertyNN
+
+#Rule:N-ApposN
+r10storyNNnameNN
+r10armyNNSamuel wilsonPersonAnnotation
+
+#Rule:HeadNoun-V
+r11SamPersonAnnotationcameVBD
+
+#Rule:HeadNoun-(who/that)-V
+r14merchartNNsuppliedVBD
+
+#Rule:V-(who/that)-HeadNoun
+r18knownVBNSamuel wilsonPersonAnnotation
+
+#Rule:V-HeadNoun
+r21suppliedVBDprovisionsNNS
+
+#Rule:V-HeadNoun(passive)
+r24stampedVBNU.S.LocationAnnotation
+r24originatedVBNnameNN
+
+#Rule:PPinNP
+r26propertyNNofINUnited StatesLocationAnnotation
+
+#Rule:PPinVP
+r30cameVBDfromINU.S.LocationAnnotation
+r30cameVBDduringINwarNN
+r301812.accd.VBGtoTOstoryNN
+r301812.accd.VBGtoTOnameNN
+r30suppliedVBDtoTOarmyNN
+r30suppliedVBDtoTOSamuel wilsonPersonAnnotation
+
+#Rule:PPinVP
+r32stampedVBNonINpropertyNN
+r32originatedVBNfromINmerchartNN
+r32knownVBNtoTOeveryoneNN
+r32knownVBNasINUncle Sam .OrganizationAnnotation
+
+#Rule:V-ADV
+r46wasAUXpopularlyRB
+r46knownVBNpopularlyRB
+
+@lemmas-left	United States	old	Uncle	stamped	originate	Samuel wilson	war	was	army	story	provisions	initials	merchart	initial	Sam	name	1812.accd.	supply	government	everyone	be	stamp	Uncle Sam .	come	property	supplied	came	know	originated	U.S.	known	uncle	
+@lemmas-right	United States	popularly	Uncle Sam .	Samuel wilson	come	property	came	supplied	war	army	story	U.S.	provisions	merchart	Sam	name	supply	everyone	
+@lemmas-center	to	of	during	as	on	from	

@@ -1,0 +1,58 @@
+#cancer can live in the body for years before you will ever know its there my husband had cancer over a year before we found out and it had done eat his jaw bone into so i say go to the doctor
+#(S1 (S (NP (NN cancer)) (VP (MD can) (VP (VB live) (PP (IN in) (NP (DT the) (NN body))) (PP (IN for) (NP (NNS years) (SBAR (IN before) (S (NP (PRP you)) (VP (MD will) (ADVP (RB ever)) (VP (VB know) (SBAR (S (NP (PRP$ its) (EX there)) (NP (PRP$ my) (NN husband)) (VP (AUX had) (NP (NP (NN cancer)) (PP (IN over) (NP (DT a) (NN year)))) (SBAR (IN before) (S (S (NP (PRP we)) (VP (VBD found) (PRT (RP out)))) (CC and) (S (NP (PRP it)) (VP (AUX had) (VP (AUX done) (VP (VB eat) (NP (PRP$ his) (NN jaw) (NN bone)) (PP (IN into) (SBAR (IN so) (S (NP (PRP i)) (VP (VBP say) (SBAR (S (VP (VBP go) (PP (TO to) (NP (DT the) (NN doctor)))))))))))))))))))))))))))))
+#Rule:Nouns
+r1cancerNN
+r1bodyNN
+r1yearsNNS
+r1husbandNN
+r1cancerNN
+r1yearNN
+r1jawNN
+r1boneNN
+r1doctorNN
+
+#Rule:Verbs
+r2liveVB
+r2knowVB
+r2eatVB
+r2sayVBP
+r2goVBP
+
+#Rule:V-PRT
+r3foundVBDoutRP
+
+#Rule:PRP-Noun
+r6itsPRP$thereEX
+r6myPRP$husbandNN
+r6hisPRP$boneNN
+
+#Rule:N-HeadNoun
+r8jawNNboneNN
+
+#Rule:HeadNoun-V
+r11cancerNNliveVB
+r11youPRPknowVB
+r11thereEXhadAUX
+r11husbandNNhadAUX
+r11wePRPfoundVBD
+r11itPRPeatVB
+r11iPersonAnnotationsayVBP
+
+#Rule:V-HeadNoun
+r21hadAUXcancerNN
+r21eatVBboneNN
+
+#Rule:PPinNP
+r26cancerNNoverINyearNN
+
+#Rule:PPinVP
+r30liveVBinINbodyNN
+r30liveVBforINyearsNNS
+r30goVBPtoTOdoctorNN
+
+#Rule:V-ADV
+r46knowVBeverRB
+
+@lemmas-left	body	it	have	you	its	husband	my	know	jaw	i	doctor	his	there	bone	say	year	eat	years	had	cancer	we	found	live	go	
+@lemmas-right	body	have	husband	know	doctor	there	bone	say	eat	year	years	ever	had	cancer	out	live	found	
+@lemmas-center	to	over	for	in	

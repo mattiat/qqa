@@ -1,0 +1,117 @@
+#Toothpaste doesn t work!! You are right!! It s for your teeth not pimples..
+#(S1 (S (FRAG (S (NP (NN Toothpaste) (NNS doesn)) (ADVP (RB t)) (VP (VBP work)) (. !)) (. !) (S (NP (PRP You)) (VP (AUX are) (ADJP (JJ right))) (. !)) (. !)) (NP (PRP It)) (VP (VBZ s) (PP (IN for) (NP (PRP$ your) (NNS teeth))) (SBAR (S (RB not) (VP (VBZ pimples)) (. .)))) (. .)))
+#Rule:Nouns
+r1ToothpasteOrganizationAnnotation
+r1doesnNNS
+r1teethNNS
+
+#Rule:Verbs
+r2workVBP
+r2sVBZ
+r2pimplesVBZ
+
+#Rule:Adjs
+r4rightJJ
+
+#Rule:PRP-Noun
+r6yourPRP$teethNNS
+
+#Rule:N-HeadNoun
+r8ToothpasteOrganizationAnnotationdoesnNNS
+
+#Rule:HeadNoun-V
+r11itPRPsVBZ
+r11doesnNNSworkVBP
+r11youPRPareAUX
+
+#Rule:V-ADJ
+r25areAUXrightJJ
+
+#Rule:PPinVP
+r30sVBZforINteethNNS
+
+#Rule:V-ADV
+r46workVBPtRB
+
+#It takes time to let them heal but fight them head on with acne wash, toner and spot cream -before you wash do a hot compress, repeat to draw out dirt and open pores.. and if the acne needs to come to a head..
+#(S1 (S (NP (PRP It)) (VP (VBZ takes) (NP (NN time)) (S (VP (TO to) (VP (VB let) (S (NP (PRP them)) (VP (VB heal)) (CC but) (VP (VB fight) (S (NP (PRP them)) (VP (VB head) (PRT (RP on)) (PP (IN with) (NP (NP (JJ acne) (NN wash) (, ,) (NN toner) (CC and) (NN spot) (NN cream) (NN -before)) (SBAR (S (NP (PRP you)) (VP (VBP wash) (SBAR (S (VP (AUX do) (UCP (NP (DT a) (JJ hot) (NN compress)) (, ,) (S (NP (NN repeat)) (VP (TO to) (VP (VB draw) (PRT (RP out)) (NP (NP (NN dirt)) (CC and) (S (NP (JJ open)) (VP (VBZ pores)) (. .))))) (. .)) (CC and) (SBAR (IN if) (S (NP (DT the) (NN acne)) (VP (VBZ needs) (S (VP (TO to) (VP (VB come) (PP (TO to) (NP (DT a) (NN head))))))))))))))))))))) (. .)))))) (. .)))
+#Rule:Nouns
+r1timeNN
+r1washNN
+r1tonerNN
+r1spotNN
+r1creamNN
+r1-beforeNN
+r1compressNN
+r1repeatNN
+r1dirtNN
+r1acneNN
+r1headNN
+
+#Rule:Verbs
+r2takesVBZ
+r2letVB
+r2healVB
+r2fightVB
+r2washVBP
+r2poresLocationAnnotation
+r2needsVBZ
+r2comeVB
+
+#Rule:V-PRT
+r3headVBonRP
+r3drawVBoutRP
+
+#Rule:Adjs
+r4acneJJ
+r4hotJJ
+r4openJJ
+
+#Rule:Adj-Noun
+r5acneJJ-beforeNN
+r5hotJJcompressNN
+
+#Rule:N-HeadNoun
+r8creamNN-beforeNN
+r8spotNN-beforeNN
+
+#Rule:HeadNoun-V
+r11itPRPtakesVBZ
+r11themPRPhealVB
+r11themPRPfightVB
+r11themPRPheadVB
+r11youPRPwashVBP
+r11repeatNNdrawVB
+r11openJJporesLocationAnnotation
+r11acneNNneedsVBZ
+
+#Rule:NP(NP(z) SBAR(S(NP(x)VP(y))))
+r19washVBP-beforeNN
+
+#Rule:V-HeadNoun
+r21takesVBZtimeNN
+r21drawVBdirtNN
+
+#Rule:V-HeadNoun
+r22letVBthemPRP
+r22fightVBthemPRP
+
+#Rule:PPinVP
+r30headVBwithIN-beforeNN
+r30comeVBtoTOheadNN
+
+#Rule:V-V
+r44takesVBZletVB
+r44needsVBZcomeVB
+
+#Do not squeeze -
+#(S1 (S (VP (AUX Do) (RB not) (VP (VB squeeze))) (: -)))
+#Rule:Verbs
+r2squeezeVB
+
+#Rule:V-ADV
+r46doAUXnotRB
+
+@lemmas-left	need	fight	pimple	repeat	acne	spot	draw	open	takes	doesn	time	squeeze	are	heal	pores	wash	toner	do	dirt	head	right	be	work	pimples	it	let	needs	-before	your	come	you	Toothpaste	teeth	cream	compress	s	them	take	hot	
+@lemmas-right	need	fight	draw	doesn	takes	time	are	heal	wash	pores	on	head	dirt	right	be	work	let	-before	needs	come	teeth	not	compress	t	s	take	them	out	
+@lemmas-center	to	with	for	

@@ -1,0 +1,24 @@
+#have blood test you could have a over or under active thyroid.
+#(S1 (SQ (AUX have) (NP (NN blood)) (VP (VB test) (SBAR (S (NP (PRP you)) (VP (MD could) (VP (AUX have) (NP (DT a) (ADJP (ADVP (IN over) (CC or) (IN under)) (JJ active)) (NN thyroid))))))) (. .)))
+#Rule:Nouns
+r1bloodNN
+r1thyroidLocationAnnotation
+
+#Rule:Verbs
+r2testVB
+
+#Rule:Adjs
+r4activeJJ
+
+#Rule:Adj-Noun
+r5activeJJthyroidLocationAnnotation
+
+#Rule:HeadNoun-V
+r11youPRPhaveAUX
+
+#Rule:V-HeadNoun
+r21haveAUXthyroidLocationAnnotation
+
+@lemmas-left	have	test	thyroid	active	you	blood	
+@lemmas-right	have	thyroid	
+@lemmas-center	

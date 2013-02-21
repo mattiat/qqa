@@ -1,0 +1,39 @@
+#Because they have gone out of earning mode..
+#(S1 (FRAG (SBAR (IN Because) (S (NP (PRP they)) (VP (AUX have) (VP (VBN gone) (PP (IN out) (PP (IN of) (NP (VBG earning) (NN mode))))))) (. .)) (. .)))
+#Rule:Nouns
+r1modeNN
+
+#Rule:Verbs
+r2goneVBN
+r2earningVBG
+
+#Rule:Adj-Noun
+r5earningVBGmodeNN
+
+#Rule:HeadNoun-V
+r12theyPRPgoneVBN
+
+#Rule:PPComboInVP
+r34goneVBNoutINmodeNN
+
+#They are still in the study mode.
+#(S1 (S (NP (PRP They)) (VP (AUX are) (ADVP (RB still)) (PP (IN in) (NP (DT the) (NN study) (NN mode)))) (. .)))
+#Rule:Nouns
+r1studyNN
+r1modeNN
+
+#Rule:N-HeadNoun
+r8studyNNmodeNN
+
+#Rule:HeadNoun-V
+r11theyPRPareAUX
+
+#Rule:PPinVP
+r30areAUXinINmodeNN
+
+#Rule:V-ADV
+r46areAUXstillRB
+
+@lemmas-left	they	earning	are	study	gone	earn	be	go	mode	
+@lemmas-right	are	still	gone	be	go	mode	
+@lemmas-center	in	out	

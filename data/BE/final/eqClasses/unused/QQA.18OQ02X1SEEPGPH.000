@@ -1,0 +1,72 @@
+BE: someoneNN
+EQ class: personnn	soulnn	individualnn	somebodynn	mortalnn	
+
+BE: lungNN
+EQ class: 
+
+BE: cancerNN
+EQ class: cancerousjj	malignant_neoplastic_diseasenn	
+
+BE: dieVB
+EQ class: deceasevb	kick_the_bucketvb	exitvb	pop_offvb	conkvb	give-up_the_ghostvb	snuff_itvb	perishvb	buy_the_farmvb	govb	passvb	chokevb	drop_deadvb	croakvb	cash_in_one's_chipsvb	expirevb	pass_awayvb	
+
+BE: lungNNcancerNN
+EQ class: cancernnofinlungnn	malignant_neoplastic_diseasennofinlungnn	cancerousvblungnn	lungnncancerousvb	lungnncancerousjj	lungnnmalignant_neoplastic_diseasenn	cancerousjjofinlungnn	
+
+BE: dieVBofINcancerNN
+EQ class: passvbofincancerousjj	chokevbofinmalignant_neoplastic_diseasenn	deceasevbofincancernn	croakvbofinmalignant_neoplastic_diseasenn	expirevbofinmalignant_neoplastic_diseasenn	kick_the_bucketvbofincancernn	perishvbofincancernn	pass_awayvbofincancernn	snuff_itvbofinmalignant_neoplastic_diseasenn	pass_awayvbofincancerousjj	pop_offvbofinmalignant_neoplastic_diseasenn	chokevbofincancernn	perishvbofincancerousjj	cash_in_one's_chipsvbofincancerousjj	deceasevbofinmalignant_neoplastic_diseasenn	drop_deadvbofinmalignant_neoplastic_diseasenn	croakvbofincancernn	drop_deadvbofincancerousjj	pop_offvbofincancerousjj	perishvbofinmalignant_neoplastic_diseasenn	exitvbofincancerousjj	cash_in_one's_chipsvbofinmalignant_neoplastic_diseasenn	conkvbofincancerousjj	pop_offvbofincancernn	give-up_the_ghostvbofincancernn	expirevbofincancernn	exitvbofinmalignant_neoplastic_diseasenn	snuff_itvbofincancerousjj	dievbofinmalignant_neoplastic_diseasenn	pass_awayvbofinmalignant_neoplastic_diseasenn	buy_the_farmvbofincancerousjj	snuff_itvbofincancernn	expirevbofincancerousjj	chokevbofincancerousjj	croakvbofincancerousjj	drop_deadvbofincancernn	dievbofincancerousjj	conkvbofinmalignant_neoplastic_diseasenn	passvbofincancernn	kick_the_bucketvbofincancerousjj	govbofincancerousjj	give-up_the_ghostvbofincancerousjj	govbofincancernn	buy_the_farmvbofinmalignant_neoplastic_diseasenn	govbofinmalignant_neoplastic_diseasenn	kick_the_bucketvbofinmalignant_neoplastic_diseasenn	deceasevbofincancerousjj	conkvbofincancernn	exitvbofincancernn	passvbofinmalignant_neoplastic_diseasenn	give-up_the_ghostvbofinmalignant_neoplastic_diseasenn	cash_in_one's_chipsvbofincancernn	buy_the_farmvbofincancernn	
+
+BE: detailsNNS
+EQ class: inside_informationnns	theynns	themnns	
+
+BE: smokeVBP
+EQ class: 
+
+BE: knowVB
+EQ class: cognizevb	cognisevb	
+
+BE: knowVB
+EQ class: cognizevb	cognisevb	
+
+BE: &needJJ
+EQ class: 
+
+BE: iPRPsmokeVBP
+EQ class: smokenniprp	smokyjjofiniprp	smokernniprp	tobacco_usernnofiniprp	smokingnniprp	smokernnofiniprp	tobacco_usernniprp	smokingnnofiniprp	fumennofiniprp	smokennofiniprp	
+
+BE: iPRPhaveAUX
+EQ class: iprphave_gotaux	rich_personnnofiniprp	iprpholdaux	wealthy_personnnofiniprp	havennofiniprp	
+
+BE: knowVBdetailsNNS
+EQ class: knowernnofindetailsnns	knowingnnofinthemnns	cognisevbthemnns	cognisevbtheynns	knowernnofintheynns	cognisevbinside_informationnns	knowablennofininside_informationnns	knowvbthemnns	cognizevbthemnns	cognisevbdetailsnns	knowernnofinthemnns	knowablennofintheynns	knowingnnofindetailsnns	knowablennofindetailsnns	knowingnnofintheynns	cognizevbinside_informationnns	apprehendernnofininside_informationnns	apprehendernnofintheynns	apprehendernnofindetailsnns	knowingnnofininside_informationnns	apprehendernnofinthemnns	knowvbtheynns	knowernnofininside_informationnns	knowablennofinthemnns	knowvbinside_informationnns	cognizevbdetailsnns	cognizevbtheynns	
+
+BE: haveAUXitPRP
+EQ class: rich_personnnofinitprp	havennofinitprp	wealthy_personnnofinitprp	have_gotauxitprp	holdauxitprp	
+
+BE: knowVBifINhaveAUX
+EQ class: cognisevbifinhave_gotaux	cognisevbifinhaveaux	knowvbifinholdaux	cognisevbifinholdaux	cognizevbifinhave_gotaux	cognizevbifinholdaux	knowvbifinhave_gotaux	cognizevbifinhaveaux	
+
+BE: dieVB
+EQ class: deceasevb	kick_the_bucketvb	exitvb	pop_offvb	conkvb	give-up_the_ghostvb	snuff_itvb	perishvb	buy_the_farmvb	govb	passvb	chokevb	drop_deadvb	croakvb	cash_in_one's_chipsvb	expirevb	pass_awayvb	
+
+BE: dieVBfromINitLocationAnnotation
+EQ class: deceasevbfrominitlocationannotation	cash_in_one's_chipsvbfrominitlocationannotation	expirevbfrominitlocationannotation	pop_offvbfrominitlocationannotation	conkvbfrominitlocationannotation	drop_deadvbfrominitlocationannotation	croakvbfrominitlocationannotation	exitvbfrominitlocationannotation	kick_the_bucketvbfrominitlocationannotation	pass_awayvbfrominitlocationannotation	give-up_the_ghostvbfrominitlocationannotation	chokevbfrominitlocationannotation	govbfrominitlocationannotation	snuff_itvbfrominitlocationannotation	buy_the_farmvbfrominitlocationannotation	passvbfrominitlocationannotation	perishvbfrominitlocationannotation	
+
+BE: deathNN
+EQ class: deceasenn	expirynn	
+
+BE: slowJJ
+EQ class: slownessnn	
+
+BE: slowJJdeathNN
+EQ class: slownessnndeceasenn	pass_awayvbslowlyrb	croakvbslowlyrb	govbslowlyrb	pop_offvbslowlyrb	chokevbslowlyrb	exitvbslowlyrb	buy_the_farmvbslowlyrb	dievbslowlyrb	slownessnnexpirynn	give-up_the_ghostvbslowlyrb	passvbslowlyrb	slowjjexpirynn	expirevbslowlyrb	slowjjdeceasenn	deceasevbslowlyrb	kick_the_bucketvbslowlyrb	cash_in_one's_chipsvbslowlyrb	perishvbslowlyrb	conkvbslowlyrb	slownessnndeathnn	drop_deadvbslowlyrb	snuff_itvbslowlyrb	
+
+BE: symptomsNNS
+EQ class: symptomnns	theynns	symptomaticjj	themnns	
+
+BE: areAUXsymptomsNNS
+EQ class: beauxsymptomnns	areauxsymptomaticjj	beauxsymptomsnns	beauxthemnns	areauxthemnns	beauxsymptomaticjj	beauxtheynns	areauxtheynns	areauxsymptomnns	
+
+BE: symptomsNNSofINitLocationAnnotation
+EQ class: itlocationannotationsymptomsnns	theynnsofinitlocationannotation	symptomnnsofinitlocationannotation	themnnsofinitlocationannotation	itlocationannotationtheynns	symptomaticvbitlocationannotation	itlocationannotationsymptomaticvb	itlocationannotationthemnns	symptomaticjjofinitlocationannotation	itlocationannotationsymptomnns	itlocationannotationsymptomaticjj	
+

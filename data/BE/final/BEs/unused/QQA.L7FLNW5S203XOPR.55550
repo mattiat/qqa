@@ -1,0 +1,69 @@
+#Dont worry about it!! 
+#(S1 (S (NP (NNP Dont)) (VP (VB worry) (PP (IN about) (NP (PRP it))) (. !)) (. !)))
+#Rule:Nouns
+r1DontOrganizationAnnotation
+
+#Rule:Verbs
+r2worryVB
+
+#Rule:HeadNoun-V
+r11DontOrganizationAnnotationworryVB
+
+#Rule:PPinVP
+r30worryVBaboutINit!!LocationAnnotation
+
+#its going to happen no matter what!!
+#(S1 (S (NP (PRP$ its)) (VP (VBG going) (S (VP (TO to) (VP (VB happen) (FRAG (NP (DT no) (NN matter)) (WHNP (WP what)) (. !)))))) (. !)))
+#Rule:Nouns
+r1matterNN
+
+#Rule:Verbs
+r2goingVBG
+r2happenVB
+
+#Rule:HeadNoun-V
+r11itsPRP$goingVBG
+
+#Rule:V-V
+r44goingVBGhappenVB
+
+#Live life to the full just in case this is your only chance at it!!
+#(S1 (FRAG (NP (JJ Live) (NN life)) (PP (TO to) (NP (DT the) (JJ full))) (S (PP (ADVP (RB just)) (IN in) (NP (NN case))) (NP (DT this)) (VP (AUX is) (NP (NP (PRP$ your) (JJ only) (NN chance)) (PP (IN at) (NP (PRP it))))) (. !)) (. !)))
+#Rule:Nouns
+r1lifeNN
+r1caseNN
+r1chanceNN
+
+#Rule:Adjs
+r4LiveJJ
+r4fullJJ
+r4onlyJJ
+
+#Rule:Adj-Noun
+r5LiveJJlifeNN
+r5onlyJJchanceNN
+
+#Rule:PRP-Noun
+r6yourPRP$chanceNN
+
+#Rule:HeadNoun-V
+r11thisDTisAUX
+
+#Rule:V-HeadNoun
+r21isAUXchanceNN
+
+#Rule:PPinNP
+r26chanceNNatINit!!LocationAnnotation
+
+#Rule:PPinS
+r36isAUXinINcaseNN
+
+#No body no s !!
+#(S1 (FRAG (ADVP (NP (DT No) (NN body)) (RB no)) (NP (NNP s) (. !)) (. !)))
+#Rule:Nouns
+r1bodyNN
+r1s !!LocationAnnotation
+
+@lemmas-left	body	is	going	matter	your	Dont	its	chance	life	full	Live	only	s !!	case	happen	this	worry	be	go	live	
+@lemmas-right	is	going	life	it!!	case	chance	happen	worry	be	go	
+@lemmas-center	at	about	in	

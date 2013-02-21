@@ -1,0 +1,430 @@
+#1) Keep it simple firsthere s 2 articles on eating healthy -http://lose-quick-weight.
+#(S1 (S (LST (LS 1) (-RRB- -RRB-)) (VP (VB Keep) (S (NP (PRP it)) (ADJP (JJ simple)) (SBAR (S (NP (NN firsthere)) (VP (VBZ s) (NP (CD 2) (NNS articles)) (PP (IN on) (S (VP (VBG eating) (NP (JJ healthy) (NN -http))))) (: :) (NP (NN //lose-quick-weight))))))) (. .)))
+#Rule:Nouns
+r1firsthereNN
+r1articlesNNS
+r1-httpNN
+r1//lose-quick-weightNN
+
+#Rule:Verbs
+r2keepVB
+r2sVBZ
+r2eatingVBG
+
+#Rule:Adjs
+r4simpleJJ
+r4healthyJJ
+
+#Rule:Adj-Noun
+r52CDarticlesNNS
+r5healthyJJ-httpNN
+
+#Rule:HeadNoun-V
+r11firsthereNNsVBZ
+
+#Rule:V-HeadNoun
+r21sVBZarticlesNNS
+r21sVBZ//lose-quick-weightNN
+r21eatingVBG-httpNN
+
+#Rule:V-HeadNoun
+r22keepVBitPRP
+
+#blogspot.
+#(S1 (FRAG (ADJP (JJ blogspot)) (. .)))
+#Rule:Adjs
+r4blogspotJJ
+
+#com/2007/08/lose-quick-weight-sensible-ways-to-shed.
+#(S1 (FRAG (ADJP (JJ com/2007/08/lose-quick-weight-sensible-ways-to-shed)) (. .)))
+#Rule:Adjs
+r4com/2007/08/lose-quick-weight-sensible-ways-to-shedJJ
+
+#htmlhttp://diets-and-exercise.
+#(S1 (FRAG (X (SYM htmlhttp)) (: :) (NP (NN //diets-and-exercise)) (. .)))
+#Rule:Nouns
+r1//diets-and-exerciseNN
+
+#blogspot.
+#(S1 (FRAG (ADJP (JJ blogspot)) (. .)))
+#Rule:Adjs
+r4blogspotJJ
+
+#com/2007/09/take-control-of-your-body-with-healthy.
+#(S1 (FRAG (ADJP (JJ com/2007/09/take-control-of-your-body-with-healthy)) (. .)))
+#Rule:Adjs
+r4com/2007/09/take-control-of-your-body-with-healthyJJ
+
+#htmlAND steps for fat loss successhttp://bestways-to-losebellyfat.
+#(S1 (NP (NP (NP (JJ htmlAND) (NNS steps)) (PP (IN for) (NP (JJ fat) (NN loss) (NNS successhttp)))) (: :) (NP (JJ //bestways-to-losebellyfat)) (. .)))
+#Rule:Nouns
+r1stepsNNS
+r1lossNN
+r1successhttpNNS
+
+#Rule:Adjs
+r4htmlANDLocationAnnotation
+r4fatJJ
+r4//bestways-to-losebellyfatJJ
+
+#Rule:Adj-Noun
+r5htmlANDLocationAnnotationstepsNNS
+r5fatJJsuccesshttpNNS
+
+#Rule:N-HeadNoun
+r8lossNNsuccesshttpNNS
+
+#Rule:PPinNP
+r26stepsNNSforINsuccesshttpNNS
+
+#blogspot.
+#(S1 (FRAG (ADJP (JJ blogspot)) (. .)))
+#Rule:Adjs
+r4blogspotJJ
+
+#com/2007/11/6-steps-to-fat-loss-success-for.
+#(S1 (FRAG (ADJP (JJ com/2007/11/6-steps-to-fat-loss-success-for)) (. .)))
+#Rule:Adjs
+r4com/2007/11/6-steps-to-fat-loss-success-forJJ
+
+#html2) Eat steam food, vegetables, fruits, lean meathttp://bestways-to-losebellyfat.
+#(S1 (S (NP (NNS html2)) (-RRB- -RRB-) (VP (VP (VBP Eat) (NP (NN steam) (NN food) (, ,) (NNS vegetables) (, ,) (NNS fruits) (, ,) (JJ lean) (NNS meathttp))) (: :) (NP (NN //bestways-to-losebellyfat))) (. .)))
+#Rule:Nouns
+r1html2NNS
+r1steamNN
+r1foodNN
+r1vegetablesNNS
+r1fruitsNNS
+r1meathttpNNS
+r1//bestways-to-losebellyfatNN
+
+#Rule:Verbs
+r2eatVBP
+
+#Rule:Adjs
+r4leanJJ
+
+#Rule:Adj-Noun
+r5leanJJmeathttpNNS
+
+#Rule:N-Noun
+r9steamNNfoodNN
+
+#Rule:HeadNoun-V
+r11html2NNSeatVBP
+
+#Rule:V-HeadNoun
+r21eatVBP//bestways-to-losebellyfatNN
+r21eatVBPmeathttpNNS
+
+#blogspot.
+#(S1 (FRAG (ADJP (JJ blogspot)) (. .)))
+#Rule:Adjs
+r4blogspotJJ
+
+#com/2007/09/lose-10-pound-fast-key-superfoods-you.
+#(S1 (FRAG (NP (NN com/2007/09/lose-10-pound-fast-key-superfoods-you)) (. .)))
+#Rule:Nouns
+r1com/2007/09/lose-10-pound-fast-key-superfoods-youNN
+
+#html3) drink plenty of water and green tea4) Avoid junk food, snacks and soda drinkshere s 5 Foods for Instant Healthier Diet http://bestways-to-losebellyfat.
+#(S1 (S (S (NP (NNS html3)) (-RRB- -RRB-) (VP (VBP drink) (NP (NP (NN plenty)) (PP (IN of) (NP (NN water)))))) (CC and) (S (NP (JJ green) (NNS tea4)) (-RRB- -RRB-) (VP (VBP Avoid) (SBAR (S (NP (NN junk) (NN food) (, ,) (NNS snacks) (CC and) (NN soda) (NN drinkshere)) (VP (VBZ s) (NP (CD 5) (NNPS Foods)) (PP (IN for) (ADJP (JJ Instant) (ADVP (RBR Healthier)) (NP (NNP Diet) (CD http)))) (: :) (NP (NN //bestways-to-losebellyfat))))))) (. .)))
+#Rule:Nouns
+r1html3NNS
+r1plentyNN
+r1waterNN
+r1tea4NNS
+r1junkNN
+r1foodNN
+r1snacksNNS
+r1sodaNN
+r1drinkshereNN
+r1Foods for Instant Healthier Diet httpOrganizationAnnotation
+r1//bestways-to-losebellyfatNN
+
+#Rule:Verbs
+r2drinkVBP
+r2avoidVBP
+r2sVBZ
+
+#Rule:Adjs
+r4greenJJ
+
+#Rule:Adj-Noun
+r5greenJJtea4NNS
+r55CDFoods for Instant Healthier Diet httpOrganizationAnnotation
+
+#Rule:N-HeadNoun
+r8sodaNNdrinkshereNN
+
+#Rule:N-Noun
+r9junkNNfoodNN
+
+#Rule:HeadNoun-V
+r11html3NNSdrinkVBP
+r11tea4NNSavoidVBP
+r11drinkshereNNsVBZ
+
+#Rule:V-HeadNoun
+r21drinkVBPplentyNN
+r21sVBZFoods for Instant Healthier Diet httpOrganizationAnnotation
+r21sVBZ//bestways-to-losebellyfatNN
+
+#Rule:PPinNP
+r26plentyNNofINwaterNN
+
+#blogspot.
+#(S1 (FRAG (ADJP (JJ blogspot)) (. .)))
+#Rule:Adjs
+r4blogspotJJ
+
+#com/2007/11/5-foods-for-instant-healthier-diet.
+#(S1 (FRAG (ADJP (JJ com/2007/11/5-foods-for-instant-healthier-diet)) (. .)))
+#Rule:Adjs
+r4com/2007/11/5-foods-for-instant-healthier-dietJJ
+
+#html5) have 5-6 healthy meals a day (1 plate size only) to keep the tummysatisfiedIf you re not too sure on how to plan it, try this linkhttp://best.
+#(S1 (S (S (NP (NNS html5)) (-RRB- -RRB-) (VP (AUX have) (NP (NP (NP (JJ 5-6) (JJ healthy) (NNS meals)) (NP (DT a) (NN day))) (PRN (-LRB- -LRB-) (NP (CD 1) (NN plate) (NN size) (RB only)) (-RRB- -RRB-)) (SBAR (S (VP (TO to) (VP (VB keep) (NP (DT the) (NN tummysatisfiedIf) (S (NP (PRP you)) (VP (NNP re) (RB not) (ADJP (RB too) (JJ sure) (PP (IN on) (SBAR (WHADVP (WRB how)) (S (VP (TO to) (VP (VP (VB plan) (NP (PRP it))) (, ,) (VP (VB try) (NP (DT this) (NN linkhttp))))))))))))))))))) (: :) (S (VP (VB //best))) (. .)))
+#Rule:Nouns
+r1html5NNS
+r1mealsNNS
+r1dayNN
+r1plateNN
+r1sizeNN
+r1tummysatisfiedIfNN
+r1reNNP
+r1linkhttp:LocationAnnotation
+
+#Rule:Verbs
+r2keepVB
+r2planVB
+r2tryVB
+r2//bestVB
+
+#Rule:Adjs
+r45-6JJ
+r4healthyJJ
+r4sureJJ
+
+#Rule:Adj-Noun
+r55-6JJmealsNNS
+r5healthyJJmealsNNS
+r51CDsizeNN
+
+#Rule:N-HeadNoun
+r8plateNNsizeNN
+
+#Rule:HeadNoun-V
+r11html5NNShaveAUX
+
+#Rule:HeadNoun-(who/that)-V
+r14mealsNNSkeepVB
+
+#Rule:V-HeadNoun
+r21haveAUXmealsNNS
+r21keepVBtummysatisfiedIfNN
+r21planVBitPRP
+r21tryVBlinkhttp:LocationAnnotation
+
+#helpme-loseweight.
+#(S1 (FRAG (ADJP (JJ helpme-loseweight)) (. .)))
+#Rule:Adjs
+r4helpme-loseweightJJ
+
+#ever.
+#(S1 (FRAG (ADVP (RB ever)) (. .)))
+#com/6) exercise - combine weights  and interval training.
+#(S1 (FRAG (NP (NNP com/6) (-RRB- -RRB-) (NN exercise)) (: -) (S (VP (VB combine) (NP (NP (NNS weights)) (CC and) (NP (JJ interval) (NN training))))) (. .)))
+#Rule:Nouns
+r1com/6NNP
+r1exerciseNN
+r1weightsNNS
+r1trainingNN
+
+#Rule:Verbs
+r2combineVB
+
+#Rule:Adjs
+r4intervalJJ
+
+#Rule:Adj-Noun
+r5intervalJJtrainingNN
+
+#Rule:V-HeadNoun
+r21combineVBweightsNNS
+
+#here s a review link to a worthwhile workout, turbulence traininghttp://www.squidoo.com/turbulencetrainingreviews/http://healthiest.turbulence-training-routine.ever.com/29 exercises you can do at home to burn belly fathttp://bestways-to-losebellyfat.blogspot.com/2007/11/29-exercises-you-can-do-at-home-to-burn.htmlFor abs, read these blogs (great articles on abs) - http://thetruthaboutsixpackabs.blogspot.com/2007/09/abdominal-exercises-truth.htmlhttp://www.squidoo.com/thetruthabout-sixpackabs1/and for women after the age of 30http://thetruthaboutsixpackabs.blogspot.com/2007/11/how-women-can-get-six-pack-abs-even.htmland learn why crunches is not the answerhttp://thetruthaboutsixpackabs.blogspot.com/2007/11/how-to-get-6-pack-abs-without-doing.htmlhttp://thetruthaboutsixpackabs.blogspot.com/2007/09/what-is-best-ab-workout-for-belly-fat.htmlFor Thighs and Buttshttp://lose-quick-weight.blogspot.com/2007/11/best-thigh-exercises-for-sexy-thighs.html7)Don t focus on cardio only (it a waste of time!)
+#(S1 (S (S (SBAR (RB here) (S (VP (VBZ s) (NP (NP (DT a) (NN review) (NN link)) (PP (TO to) (NP (NP (DT a) (JJ worthwhile) (NN workout)) (, ,) (NP (NP (NN turbulence) (NNS traininghttp)) (: :) (NP (NNS //www.squidoo.com/turbulencetrainingreviews/http)) (: :) (NP (NP (CD //healthiest.turbulence-training-routine.ever.com/29) (NNS exercises)) (SBAR (S (NP (PRP you)) (VP (MD can) (VP (AUX do) (PP (IN at) (NP (NN home) (S (VP (TO to) (VP (VB burn) (NP (NP (NN belly) (NNS fathttp)) (: :) (NP (NP (JJ //bestways-to-losebellyfat.blogspot.com/2007/11/29-exercises-you-can-do-at-home-to-burn.htmlFor) (NNS abs)) (PRN (, ,) (S (VP (VB read) (NP (NP (DT these) (NNS blogs)) (PRN (-LRB- -LRB-) (NP (NP (JJ great) (NNS articles)) (PP (IN on) (NP (NNS abs)))) (-RRB- -RRB-))))))))))))))))))))))))) (PRN (: -) (RB http) (PRN (: :) (S (NP (JJ //thetruthaboutsixpackabs.blogspot.com/2007/09/abdominal-exercises-truth.htmlhttp) (PRN (: :) (PP (JJ //www.squidoo.com/thetruthabout-sixpackabs1/and) (IN for) (NP (NP (NNS women)) (PP (IN after) (NP (NP (DT the) (NN age)) (PP (IN of) (NP (CD 30http))))))) (: :)) (JJ //thetruthaboutsixpackabs.blogspot.com/2007/11/how-women-can-get-six-pack-abs-even.htmland)) (VP (VBP learn) (SBAR (WHADVP (WRB why)) (S (NP (NNS crunches)) (VP (AUX is) (RB not) (NP (DT the) (NN answerhttp))))))) (: :)) (NP (JJ //thetruthaboutsixpackabs.blogspot.com/2007/11/how-to-get-6-pack-abs-without-doing.htmlhttp) (PRN (: :) (NP (NP (JJ //thetruthaboutsixpackabs.blogspot.com/2007/09/what-is-best-ab-workout-for-belly-fat.htmlFor) (NNPS Thighs)) (CC and) (NP (NNP Buttshttp))) (: :)) (JJ //lose-quick-weight.blogspot.com/2007/11/best-thigh-exercises-for-sexy-thighs.html7)) (-RRB- -RRB-)) (NP (NNP Don) (NNP t)) (VP (VB focus) (PP (IN on) (NP (NN cardio) (RB only))))) (PRN (-LRB- -LRB-) (NP (NP (PRP it)) (NP (NP (DT a) (NN waste)) (PP (IN of) (NP (NN time)))) (. !)) (-RRB- -RRB-))))
+#Rule:Nouns
+r1reviewNN
+r1linkNN
+r1workoutNN
+r1turbulenceNN
+r1traininghttpNNS
+r1//www.squidoo.com/turbulencetrainingreviews/httpNNS
+r1exercisesNNS
+r1homeNN
+r1bellyNN
+r1fathttpNNS
+r1htmlFor absPersonAnnotation
+r1blogsNNS
+r1articlesNNS
+r1absNNS
+r1womenNNS
+r1age of 30httpOrganizationAnnotation
+r1crunchesNNS
+r1answerhttpNN
+r1htmlFor ThighsPersonAnnotation
+r1ButtshttpPersonAnnotation
+r1html7)DonPersonAnnotation
+r1tNNP
+r1cardioNN
+r1wasteNN
+r1timeNN
+
+#Rule:Verbs
+r2sVBZ
+r2burnVB
+r2readVB
+r2learnVBP
+r2focusVB
+
+#Rule:Adjs
+r4worthwhileJJ
+r4//bestways-to-losebellyfat.blogspot.com/2007/11/29-exercises-you-can-do-at-home-to-burn.htmlForJJ
+r4greatJJ
+r4//thetruthaboutsixpackabs.blogspot.com/2007/09/abdominal-exercises-truth.htmlhttpJJ
+r4//www.squidoo.com/thetruthabout-sixpackabs1/andJJ
+r4//thetruthaboutsixpackabs.blogspot.com/2007/11/how-women-can-get-six-pack-abs-even.htmlandJJ
+r4//thetruthaboutsixpackabs.blogspot.com/2007/11/how-to-get-6-pack-abs-without-doing.htmlhttpJJ
+r4//thetruthaboutsixpackabs.blogspot.com/2007/09/what-is-best-ab-workout-for-belly-fat.htmlForJJ
+r4//lose-quick-weight.blogspot.com/2007/11/best-thigh-exercises-for-sexy-thighs.html7JJ
+
+#Rule:Adj-Noun
+r5worthwhileJJworkoutNN
+r5//healthiest.turbulence-training-routine.ever.com/29CDexercisesNNS
+r5//bestways-to-losebellyfat.blogspot.com/2007/11/29-exercises-you-can-do-at-home-to-burn.htmlForJJhtmlFor absPersonAnnotation
+r5greatJJarticlesNNS
+r5//thetruthaboutsixpackabs.blogspot.com/2007/09/abdominal-exercises-truth.htmlhttpJJ::
+r5//thetruthaboutsixpackabs.blogspot.com/2007/11/how-women-can-get-six-pack-abs-even.htmlandJJ::
+r5//thetruthaboutsixpackabs.blogspot.com/2007/11/how-to-get-6-pack-abs-without-doing.htmlhttpJJ::
+r5//lose-quick-weight.blogspot.com/2007/11/best-thigh-exercises-for-sexy-thighs.html7JJ::
+r5//thetruthaboutsixpackabs.blogspot.com/2007/09/what-is-best-ab-workout-for-belly-fat.htmlForJJhtmlFor ThighsPersonAnnotation
+
+#Rule:N-HeadNoun
+r8reviewNNlinkNN
+r8turbulenceNNtraininghttpNNS
+r8bellyNNfathttpNNS
+r8html7)DonPersonAnnotationtNNP
+
+#Rule:N-ApposN
+r10workoutNNtraininghttpNNS
+
+#Rule:HeadNoun-V
+r11tNNPfocusVB
+r11youPRPdoAUX
+r11::learnVBP
+r11crunchesNNSisAUX
+
+#Rule:V-HeadNoun
+r21sVBZlinkNN
+r21burnVBfathttpNNS
+r21readVBblogsNNS
+r21isAUXanswerhttpNN
+
+#Rule:PPinNP
+r26linkNNtoTOworkoutNN
+r26linkNNtoTOtraininghttpNNS
+r26linkNNtoTO//www.squidoo.com/turbulencetrainingreviews/httpNNS
+r26linkNNtoTOexercisesNNS
+r26articlesNNSonINabsNNS
+r26womenNNSafterINage of 30httpOrganizationAnnotation
+r26wasteNNofINtimeNN
+
+#Rule:PPinVP
+r30doAUXatINhomeNN
+r30focusVBonINcardioNN
+
+#Rule:V-ADV
+r46isAUXnotRB
+
+#Rule:IS-RULE
+r47answerhttpNNcrunchesNNS
+
+#http://lose-quick-weight.blogspot.com/2007/08/lose-quick-weight-cardio-is-waste-of.html 8)form a support group - invite friends, relatives, parents, partnersto participate in a healthy lifestyle, and keep you accountable.  
+#(S1 (FRAG (NP (NNP http)) (: :) (S (NP (NN //lose-quick-weight.blogspot.com/2007/08/lose-quick-weight-cardio-is-waste-of.html) (CD 8)) (-RRB- -RRB-) (VP (VB form) (NP (DT a) (NN support) (NN group)))) (: -) (FRAG (VP (VP (VB invite) (S (NP (NNS friends) (, ,) (NNS relatives) (, ,) (NNS parents) (, ,) (FW partnersto)) (VP (VB participate) (PP (IN in) (NP (DT a) (JJ healthy) (NN lifestyle)))))) (, ,) (CC and) (VP (VB keep) (S (NP (PRP you)) (ADJP (JJ accountable)))))) (. .)))
+#Rule:Nouns
+r1httpNNP
+r1//lose-quick-weight.blogspot.com/2007/08/lose-quick-weight-cardio-is-waste-of.htmlNN
+r1supportNN
+r1groupNN
+r1friendsNNS
+r1relativesNNS
+r1parentsNNS
+r1lifestyleNN
+
+#Rule:Verbs
+r2formVB
+r2inviteVB
+r2participateVB
+r2keepVB
+
+#Rule:Adjs
+r4healthyJJ
+r4accountableJJ
+
+#Rule:Adj-Noun
+r58CD//lose-quick-weight.blogspot.com/2007/08/lose-quick-weight-cardio-is-waste-of.htmlNN
+r5healthyJJlifestyleNN
+
+#Rule:N-HeadNoun
+r8supportNNgroupNN
+
+#Rule:HeadNoun-V
+r11//lose-quick-weight.blogspot.com/2007/08/lose-quick-weight-cardio-is-waste-of.htmlNNformVB
+r11parentsNNSparticipateVB
+
+#Rule:V-HeadNoun
+r21formVBgroupNN
+
+#Rule:V-HeadNoun
+r22inviteVBparentsNNS
+r22keepVByouPRP
+
+#Rule:PPinVP
+r30participateVBinINlifestyleNN
+
+#Thisis important.9) plan to lose weight slowly (1-2 lbs a week), and progressivelyovertime increase yourgoals!
+#(S1 (S (NP (NP (NNPS Thisis)) (PRN (CD important.9) (-RRB- -RRB-))) (VP (VBP plan) (S (VP (TO to) (VP (VP (VB lose) (NP (NN weight)) (ADVP (RB slowly)) (PRN (-LRB- -LRB-) (NP (NP (JJ 1-2) (NNS lbs)) (NP (DT a) (NN week))) (-RRB- -RRB-))) (, ,) (CC and) (VP (ADVP (RB progressivelyovertime)) (VB increase) (NP (NNS yourgoals))))))) (. !)))
+#Rule:Nouns
+r1ThisisNNPS
+r1weightNN
+r1lbsPersonAnnotation
+r1weekOrganizationAnnotation
+r1yourgoalsNNS
+
+#Rule:Verbs
+r2planVBP
+r2loseVB
+r2increaseVB
+
+#Rule:Adjs
+r41-2JJ
+
+#Rule:Adj-Noun
+r51-2JJlbsPersonAnnotation
+
+#Rule:HeadNoun-V
+r11ThisisNNPSplanVBP
+
+#Rule:V-HeadNoun
+r21loseVBweightNN
+r21increaseVByourgoalsNNS
+
+#Rule:V-ADV
+r46loseVBslowlyRB
+r46increaseVBprogressivelyovertimeRB
+
+@lemmas-left	waste	//healthiest.turbulence-training-routine.ever.com/29	com/2007/08/lose-quick-weight-sensible-ways-to-shed	avoid	time	abs	html2	drink	html5	combine	focus	html3	tummysatisfiedIf	support	form	//thetruthaboutsixpackabs.blogspot.com/2007/09/abdominal-exercises-truth.htmlhttp	plate	parent	age of 30http	snacks	steps	accountable	htmlAND	//lose-quick-weight.blogspot.com/2007/11/best-thigh-exercises-for-sexy-thighs.html7	2	1	http	5	:	eat	8	vegetable	try	review	1-2	home	fathttp	interval	simple	meathttp	link	plenty	exercises	belly	htmlFor Thighs	training	cardio	best	do	//lose-quick-weight.blogspot.com/2007/08/lose-quick-weight-cardio-is-waste-of.html	water	//thetruthaboutsixpackabs.blogspot.com/2007/09/what-is-best-ab-workout-for-belly-fat.htmlFor	articles	com/2007/09/take-control-of-your-body-with-healthy	//www.squidoo.com/thetruthabout-sixpackabs1/and	green	fruits	vegetables	//lose-quick-weight	soda	snack	t	s	article	tummysatisfiedif	traininghttp	healthy	helpme-loseweight	//diets-and-exercise	//best	week	steam	keep	answerhttp	htmlFor abs	firsthere	diet	yourgoals	drinkshere	friends	woman	lifestyle	Foods for Instant Healthier Diet http	be	sure	fruit	-http	fat	//www.squidoo.com/turbulencetrainingreviews/http	learn	//bestways-to-losebellyfat.blogspot.com/2007/11/29-exercises-you-can-do-at-home-to-burn.htmlfor	relative	size	lean	com/2007/11/6-steps-to-fat-loss-success-for	com/2007/11/5-foods-for-instant-healthier-diet	food	day	relatives	burn	friend	html7)Don	com/2007/09/lose-10-pound-fast-key-superfoods-you	crunch	parents	5-6	weight	loss	have	Thisis	//thetruthaboutsixpackabs.blogspot.com/2007/09/what-is-best-ab-workout-for-belly-fat.htmlfor	exercise	//bestways-to-losebellyfat	re	turbulence	blog	thisis	junk	blogs	tea4	read	//thetruthaboutsixpackabs.blogspot.com/2007/11/how-women-can-get-six-pack-abs-even.htmland	participate	meal	invite	is	Buttshttp	//thetruthaboutsixpackabs.blogspot.com/2007/11/how-to-get-6-pack-abs-without-doing.htmlhttp	worthwhile	you	women	blogspot	lose	shed	com/6	great	meals	plan	weights	crunches	successhttp	linkhttp:	increase	//bestways-to-losebellyfat.blogspot.com/2007/11/29-exercises-you-can-do-at-home-to-burn.htmlFor	eating	html	group	lbs	workout	
+@lemmas-right	answerhttp	htmlFor abs	yourgoals	avoid	time	drinkshere	abs	lifestyle	drink	Foods for Instant Healthier Diet http	focus	tummysatisfiedIf	be	form	-http	//www.squidoo.com/turbulencetrainingreviews/http	parent	age of 30http	learn	steps	size	not	http	food	:	eat	crunch	home	parents	fathttp	weight	have	meathttp	link	plenty	exercise	exercises	//bestways-to-losebellyfat	blog	htmlFor Thighs	blogs	training	cardio	tea4	do	participate	//lose-quick-weight.blogspot.com/2007/08/lose-quick-weight-cardio-is-waste-of.html	meal	water	slowly	is	articles	it	you	//lose-quick-weight	meals	t	plan	article	s	crunches	weights	successhttp	tummysatisfiedif	linkhttp:	traininghttp	html	group	progressivelyovertime	lbs	keep	workout	
+@lemmas-center	after	to	of	for	at	on	in	

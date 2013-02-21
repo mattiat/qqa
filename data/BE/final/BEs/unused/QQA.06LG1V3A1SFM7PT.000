@@ -1,0 +1,48 @@
+#How many US states are there??
+#(S1 (SBARQ (WHNP (WRB How) (JJ many) (NNP US) (NNS states)) (SQ (VP (AUX are) (ADVP (RB there))) (. ?)) (. ?)))
+#Rule:Nouns
+r1USLocationAnnotation
+r1statesNNS
+
+#Rule:Adjs
+r4manyJJ
+
+#Rule:V-ADV
+r46areAUXthereRB
+
+#Look im English hence i don t know and no longer care.
+#(S1 (S (VP (VB Look) (NP (JJ im) (NNP English)) (ADVP (RB hence)) (S (NP (PRP i)) (VP (VB don) (SBAR (S (NP (NNS t)) (VP (VP (VBP know)) (CC and) (VP (ADVP (RB no) (RB longer)) (VBP care)))))))) (. .)))
+#Rule:Nouns
+r1EnglishNNP
+r1tNNS
+
+#Rule:Verbs
+r2lookVB
+r2i donLocationAnnotation
+r2knowVBP
+r2careVBP
+
+#Rule:Adjs
+r4imJJ
+
+#Rule:Adj-Noun
+r5imJJEnglishNNP
+
+#Rule:HeadNoun-V
+r11tNNSknowVBP
+r11tNNScareVBP
+
+#Rule:V-HeadNoun
+r21lookVBEnglishNNP
+
+#Rule:V-HeadNoun
+r22lookVBi donLocationAnnotation
+
+#Rule:V-ADV
+r46lookVBhenceRB
+r46careVBPnoRB
+r46careVBPlongerRB
+
+@lemmas-left	look	US	state	states	im	know	English	many	are	t	i don	care	english	be	
+@lemmas-right	hence	no	there	i don	care	longer	know	english	English	
+@lemmas-center	

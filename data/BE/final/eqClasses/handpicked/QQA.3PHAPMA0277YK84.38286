@@ -1,0 +1,396 @@
+BE: HoneyPersonAnnotation
+EQ class: 
+
+BE: answerNN
+EQ class: replynn	responsenn	
+
+BE: dealVB
+EQ class: handlevb	covervb	plowvb	addressvb	treatvb	
+
+BE: iPRPhaveAUX
+EQ class: iprphave_gotaux	rich_personnnofiniprp	iprpholdaux	wealthy_personnnofiniprp	havennofiniprp	
+
+BE: haveAUXanswerNN
+EQ class: holdauxreplynn	haveauxresponsenn	wealthy_personnnofinanswernn	have_gotauxreplynn	rich_personnnofinanswernn	havennofinanswernn	havennofinresponsenn	havennofinreplynn	have_gotauxanswernn	haveauxreplynn	rich_personnnofinreplynn	wealthy_personnnofinreplynn	holdauxanswernn	have_gotauxresponsenn	wealthy_personnnofinresponsenn	holdauxresponsenn	rich_personnnofinresponsenn	
+
+BE: answerNNforINyouPRP
+EQ class: respondvbyouprp	replynnforinyouprp	replyvbyouprp	youprpresponsenn	youprprespondvb	youprpreplynn	youprpanswernn	answervbyouprp	youprpreplyvb	youprpanswervb	responsennforinyouprp	
+
+BE: dealVBwithINitPRP
+EQ class: plowvbwithinitprp	covervbwithinitprp	handlevbwithinitprp	addressvbwithinitprp	treatvbwithinitprp	
+
+BE: situationNN
+EQ class: state_of_affairsnn	
+
+BE: goingVBGthroughRP
+EQ class: govbgthroughrp	locomotevbgthroughrp	movevbgthroughrp	travelvbgthroughrp	
+
+BE: similarJJ
+EQ class: similaritynn	
+
+BE: similarJJsituationNN
+EQ class: similaritynnsituationnn	similarjjstate_of_affairsnn	similaritynnstate_of_affairsnn	
+
+BE: goingVBGsituationNN
+EQ class: travelvbgstate_of_affairsnn	travelvbgsituationnn	locomotevbgsituationnn	goingvbgstate_of_affairsnn	movevbgsituationnn	locomotevbgstate_of_affairsnn	govbgsituationnn	govbgstate_of_affairsnn	movevbgstate_of_affairsnn	
+
+BE: faithNN
+EQ class: religionnn	religious_beliefnn	
+
+BE: painNN
+EQ class: hurtingnn	
+
+BE: likeVB
+EQ class: wishvb	carevb	
+
+BE: sayVB
+EQ class: tellvb	statevb	
+
+BE: keepVB
+EQ class: maintainvb	holdvb	
+
+BE: knowVB
+EQ class: cognizevb	cognisevb	
+
+BE: hurtVB
+EQ class: smartvb	achevb	
+
+BE: goneVBN
+EQ class: movevbn	govbn	locomotevbn	travelvbn	
+
+BE: yourPRP$faithNN
+EQ class: yourprp$religionnn	religionnnofinyourprp$	yourprp$religious_beliefnn	religious_beliefnnofinyourprp$	faithnnofinyourprp$	
+
+BE: iPRPlikeVB
+EQ class: iprpwishvb	iprpcarevb	
+
+BE: shePRPisAUX
+EQ class: sheprpbeaux	sprpisaux	honeyprpisaux	sprpbeaux	honeyprpbeaux	
+
+BE: shePRPhurtVB
+EQ class: traumannofinhoneyprp	hurtingnnofinhoneyprp	sprpsmartvb	harmnnofinsprp	hurtingnnsheprp	painnnhoneyprp	honeyprpachevb	honeyprpsmartvb	traumannofinsprp	hurtnnofinhoneyprp	hurtingnnofinsheprp	painnnofinsprp	traumannofinsheprp	harmnnofinhoneyprp	harmnnofinsheprp	hurtnnofinsheprp	sheprpsmartvb	sheprpachevb	painnnofinhoneyprp	painnnofinsheprp	injurynnofinsprp	sprphurtvb	painnnsheprp	sprpachevb	honeyprphurtvb	painnnsprp	hurtingnnhoneyprp	injurynnofinhoneyprp	hurtingnnsprp	injurynnofinsheprp	hurtingnnofinsprp	hurtnnofinsprp	
+
+BE: shePRPisAUX
+EQ class: sheprpbeaux	sprpisaux	honeyprpisaux	sprpbeaux	honeyprpbeaux	
+
+BE: keepVBfaithNN
+EQ class: keepvbreligious_beliefnn	holdvbreligionnn	maintainvbreligionnn	maintainvbfaithnn	maintainvbreligious_beliefnn	keepvbreligionnn	holdvbreligious_beliefnn	holdvbfaithnn	
+
+BE: knowVBthatDT
+EQ class: knowablennofinthatdt	knowingnnofinthatdt	cognisevbthatdt	knowernnofinthatdt	cognizevbthatdt	apprehendernnofinthatdt	
+
+BE: isAUXgoneVBN
+EQ class: beauxlocomotevbn	beauxtravelvbn	beauxgonevbn	isauxmovevbn	isauxlocomotevbn	beauxmovevbn	beauxgovbn	isauxgovbn	isauxtravelvbn	
+
+BE: isAUXinINpainNN
+EQ class: beauxininhurtingnn	isauxininhurtingnn	beauxininpainnn	
+
+BE: knowVBifINisAUX
+EQ class: cognisevbifinisaux	cognizevbifinbeaux	knowvbifinbeaux	cognizevbifinisaux	cognisevbifinbeaux	
+
+BE: hurtVBonceINisAUX
+EQ class: smartvbonceinisaux	achevbonceinisaux	hurtvbonceinbeaux	smartvbonceinbeaux	achevbonceinbeaux	
+
+BE: likeVBsayVB
+EQ class: carevbstatevb	carevbtellvb	wishvbstatevb	likevbtellvb	likevbstatevb	carevbsayvb	wishvbtellvb	wishvbsayvb	
+
+BE: sayVBkeepVB
+EQ class: tellvbmaintainvb	statevbholdvb	tellvbkeepvb	statevbkeepvb	saynnofinkeepvb	sayvbholdvb	sayvbmaintainvb	statevbmaintainvb	saynnofinholdvb	saynnofinmaintainvb	tellvbholdvb	
+
+BE: sayVBknowVB
+EQ class: saynnofinknowvb	sayvbcognizevb	tellvbcognizevb	saynnofincognizevb	statevbcognisevb	tellvbcognisevb	sayvbcognisevb	tellvbknowvb	statevbcognizevb	statevbknowvb	saynnofincognisevb	
+
+BE: likeVBjustRB
+EQ class: wishvbjustrb	carevbjustrb	
+
+BE: hurtVBnoRB
+EQ class: hurtnnofinnorb	harmnnofinnorb	painnnofinnorb	injurynnofinnorb	smartvbnorb	hurtingnnofinnorb	achevbnorb	traumannofinnorb	
+
+BE: hurtVBlongerRB
+EQ class: longjjininhurtingnn	achevblongerrb	longjjtraumann	longnessnnharmnn	smartvblongerrb	longjjininpainnn	hurtingnnofinlongerrb	longnessnnhurtingnn	longjjinintraumann	painnnofinlongerrb	traumannofinlongerrb	longnessnninjurynn	longjjininachevb	injurynnofinlongerrb	longnessnnhurtnn	longnessnninintraumann	longnessnnininsmartvb	longnessnnininhurtvb	longnessnntraumann	longnessnnininhurtingnn	longjjinjurynn	longnessnnininpainnn	longnessnnpainnn	longjjininhurtnn	longnessnninininjurynn	longnessnnininachevb	longjjhurtingnn	longnessnnininhurtnn	longjjpainnn	hurtnnofinlongerrb	longjjininhurtvb	longjjharmnn	longjjhurtnn	longjjininharmnn	harmnnofinlongerrb	longnessnnininharmnn	longjjinininjurynn	longjjininsmartvb	
+
+BE: mNNP
+EQ class: meternnp	metrennp	
+
+BE: motherNN
+EQ class: female_parentnn	motherlyjj	
+
+BE: hurtVB
+EQ class: smartvb	achevb	
+
+BE: wantVB
+EQ class: desirevb	
+
+BE: hurtVB
+EQ class: smartvb	achevb	
+
+BE: sureJJ
+EQ class: surenessnn	certainjj	
+
+BE: otherJJ
+EQ class: 
+
+BE: badJJ
+EQ class: badnessnn	
+
+BE: otherJJmotherNN
+EQ class: otherjjmotherlyjj	otherjjfemale_parentnn	
+
+BE: youPRPhurtVB
+EQ class: harmnnofinyouprp	traumannofinyouprp	youprpsmartvb	hurtingnnofinyouprp	painnnyouprp	youprpachevb	injurynnofinyouprp	hurtingnnyouprp	painnnofinyouprp	hurtnnofinyouprp	
+
+BE: shePRPwantVB
+EQ class: needernnsprp	sheprpdesirevb	needernnofinhoneyprp	needernnsheprp	deprivationnnofinhoneyprp	privationnnofinsheprp	honeyprpwantvb	wanternnofinsheprp	wanternnsheprp	sprpdesirevb	wantnnofinsprp	privationnnofinsprp	wantnnofinsheprp	needinessnnofinhoneyprp	wanternnofinsprp	needernnhoneyprp	wanternnsprp	sprpwantvb	deprivationnnofinsprp	wantnnofinhoneyprp	needernnofinsprp	deprivationnnofinsheprp	wanternnofinhoneyprp	wanternnhoneyprp	needernnofinsheprp	honeyprpdesirevb	needinessnnofinsheprp	needinessnnofinsprp	privationnnofinhoneyprp	
+
+BE: youPRPhurtVB
+EQ class: harmnnofinyouprp	traumannofinyouprp	youprpsmartvb	hurtingnnofinyouprp	painnnyouprp	youprpachevb	injurynnofinyouprp	hurtingnnyouprp	painnnofinyouprp	hurtnnofinyouprp	
+
+BE: hurtVBiPRP
+EQ class: injurynnofiniprp	painnnofiniprp	hurtingnnofiniprp	hurtnnofiniprp	smartvbiprp	harmnnofiniprp	traumannofiniprp	achevbiprp	
+
+BE: wantVByouPRP
+EQ class: desirevbyouprp	wantnnofinyouprp	deprivationnnofinyouprp	wanternnofinyouprp	needinessnnofinyouprp	privationnnofinyouprp	needernnofinyouprp	
+
+BE: wouldMDasINmotherNN
+EQ class: wouldmdasinfemale_parentnn	wouldmdasinmotherlyjj	
+
+BE: conditionNN
+EQ class: statusnn	
+
+BE: questionsNNS
+EQ class: questionnns	theynns	enquirynns	interrogationnns	inquirynns	querynns	themnns	
+
+BE: situationNN
+EQ class: state_of_affairsnn	
+
+BE: motherNN
+EQ class: female_parentnn	motherlyjj	
+
+BE: siblingsNNS
+EQ class: siblingnns	sibnns	theynns	themnns	
+
+BE: talkVB
+EQ class: speakvb	
+
+BE: askVB
+EQ class: enquirevb	inquirevb	
+
+BE: dyingVBG
+EQ class: pass_awayvbg	buy_the_farmvbg	drop_deadvbg	passvbg	pop_offvbg	conkvbg	croakvbg	deceasevbg	expirevbg	perishvbg	give-up_the_ghostvbg	govbg	cash_in_one's_chipsvbg	chokevbg	kick_the_bucketvbg	snuff_itvbg	exitvbg	dievbg	
+
+BE: dyingVBG
+EQ class: pass_awayvbg	buy_the_farmvbg	drop_deadvbg	passvbg	pop_offvbg	conkvbg	croakvbg	deceasevbg	expirevbg	perishvbg	give-up_the_ghostvbg	govbg	cash_in_one's_chipsvbg	chokevbg	kick_the_bucketvbg	snuff_itvbg	exitvbg	dievbg	
+
+BE: likeVB
+EQ class: wishvb	carevb	
+
+BE: handleVB
+EQ class: carevb	managevb	dealvb	
+
+BE: goneVBN
+EQ class: movevbn	govbn	locomotevbn	travelvbn	
+
+BE: knowVBP
+EQ class: cognizevbp	cognisevbp	
+
+BE: wantsVBZ
+EQ class: desirevbz	wantvbz	
+
+BE: holdVB
+EQ class: keepvb	maintainvb	
+
+BE: okJJ
+EQ class: hunky-doryjj	finejj	all_rightjj	o.k.jj	okayjj	
+
+BE: strongJJ
+EQ class: 
+
+BE: herPRP$conditionNN
+EQ class: statusnnofinherprp$	honeyprp$conditionnn	statusnnofinhoneyprp$	honeyprp$conditionvb	conditionnnofinhoneyprp$	sprp$conditionnn	sprp$conditionvb	conditionvbsprp$	conditionnnofinherprp$	sprp$statusnn	conditionvbhoneyprp$	honeyprp$statusnn	herprp$statusnn	conditionvbherprp$	herprp$conditionvb	statusnnofinsprp$	conditionnnofinsprp$	
+
+BE: herPRP$questionsNNS
+EQ class: herprp$enquirynns	honeyprp$querynns	honeyprp$questionsnns	herprp$inquirynns	call_into_questionvbherprp$	interrogationnnsofinsprp$	enquirynnsofinhoneyprp$	theynnsofinsprp$	herprp$theynns	querynnsofinhoneyprp$	herprp$interrogationnns	honeyprp$questionnns	sprp$oppugnvb	questionvbherprp$	oppugnvbhoneyprp$	honeyprp$enquirynns	sprp$questionnns	sprp$questionsnns	enquirynnsofinherprp$	oppugnvbsprp$	inquirynnsofinsprp$	sprp$enquirynns	questionvbhoneyprp$	sprp$themnns	theynnsofinhoneyprp$	questionsnnsofinsprp$	herprp$themnns	sprp$interrogationnns	herprp$questionvb	querynnsofinherprp$	themnnsofinhoneyprp$	herprp$oppugnvb	sprp$theynns	inquirynnsofinhoneyprp$	honeyprp$questionvb	inquirynnsofinherprp$	questionvbsprp$	questionnnsofinsprp$	questionsnnsofinherprp$	interrogationnnsofinhoneyprp$	sprp$inquirynns	theynnsofinherprp$	sprp$questionvb	questionsnnsofinhoneyprp$	interrogationnnsofinherprp$	call_into_questionvbsprp$	herprp$call_into_questionvb	sprp$querynns	oppugnvbherprp$	call_into_questionvbhoneyprp$	honeyprp$inquirynns	questionnnsofinherprp$	themnnsofinsprp$	themnnsofinherprp$	honeyprp$call_into_questionvb	querynnsofinsprp$	honeyprp$oppugnvb	herprp$questionnns	sprp$call_into_questionvb	honeyprp$themnns	honeyprp$theynns	questionnnsofinhoneyprp$	herprp$querynns	enquirynnsofinsprp$	honeyprp$interrogationnns	
+
+BE: myPRP$motherNN
+EQ class: mothernnofinmyprp$	myprp$fussvb	mothervbmyprp$	motherlyvbmyprp$	myprp$motherlyjj	myprp$motherhoodvb	myprp$mothervb	overprotectvbmyprp$	myprp$motherlyvb	motherlyjjofinmyprp$	myprp$female_parentnn	fussvbmyprp$	motherhoodvbmyprp$	female_parentnnofinmyprp$	myprp$overprotectvb	
+
+BE: myPRP$siblingsNNS
+EQ class: themnnsofinmyprp$	myprp$theynns	myprp$themnns	siblingsnnsofinmyprp$	siblingnnsofinmyprp$	sibnnsofinmyprp$	myprp$sibnns	theynnsofinmyprp$	myprp$siblingnns	
+
+BE: iPRPknowVBP
+EQ class: iprpcognizevbp	knowablennofiniprp	apprehendernniprp	knowingnniprp	knowingnnofiniprp	apprehendernnofiniprp	knowernnofiniprp	knowernniprp	iprpcognisevbp	
+
+BE: motherNNwantsVBZ
+EQ class: motherlyjjwantvbz	needernnfemale_parentnn	motherlyjjdesirevbz	privationnnofinmothernn	female_parentnnwantvbz	deprivationnnofinfemale_parentnn	wanternnfemale_parentnn	needinessnnofinfemale_parentnn	wanternnofinmotherlyjj	privationnnofinfemale_parentnn	needernnmothernn	mothernnwantvbz	female_parentnnwantsvbz	needernnmotherlyjj	deprivationnnofinmotherlyjj	wanternnofinmothernn	privationnnofinmotherlyjj	deprivationnnofinmothernn	wantnnofinmotherlyjj	wantnnofinmothernn	needernnofinmothernn	wanternnmothernn	needinessnnofinmothernn	needernnofinmotherlyjj	needernnofinfemale_parentnn	wanternnmotherlyjj	female_parentnndesirevbz	motherlyjjwantsvbz	wantnnofinfemale_parentnn	needinessnnofinmotherlyjj	mothernndesirevbz	wanternnofinfemale_parentnn	
+
+BE: mePRPbeAUX
+EQ class: 
+
+BE: mePRPbeAUX
+EQ class: 
+
+BE: askVBquestionsNNS
+EQ class: inquirevbquerynns	queriernnofinquerynns	askvbinquirynns	enquirernnofinquerynns	enquirevbquestionnns	enquirernnofininterrogationnns	enquirevbtheynns	inquirevbenquirynns	askvbinterrogationnns	questionernnofintheynns	questionernnofininquirynns	inquirernnofinthemnns	questionernnofinenquirynns	inquirernnofinquestionsnns	inquirernnofininterrogationnns	enquirernnofinquestionnns	questionernnofinquestionnns	inquirevbinterrogationnns	enquirevbthemnns	askernnofinquestionsnns	askernnofintheynns	queriernnofininquirynns	queriernnofinquestionnns	askernnofinthemnns	inquirernnofinenquirynns	questionernnofininterrogationnns	inquirernnofintheynns	inquirernnofinquerynns	enquirernnofinquestionsnns	enquirernnofininquirynns	askvbenquirynns	askernnofinenquirynns	questionernnofinquestionsnns	queriernnofinquestionsnns	askernnofininterrogationnns	askvbquerynns	askvbtheynns	inquirevbquestionnns	enquirevbquestionsnns	inquirevbquestionsnns	enquirevbenquirynns	questionernnofinquerynns	enquirevbquerynns	askernnofinquestionnns	enquirernnofinthemnns	enquirevbinterrogationnns	enquirernnofinenquirynns	queriernnofininterrogationnns	inquirevbtheynns	inquirernnofinquestionnns	queriernnofintheynns	inquirevbthemnns	enquirevbinquirynns	inquirernnofininquirynns	queriernnofinenquirynns	askernnofinquerynns	askvbquestionnns	queriernnofinthemnns	askvbthemnns	inquirevbinquirynns	askernnofininquirynns	enquirernnofintheynns	questionernnofinthemnns	
+
+BE: likeVBmePRP
+EQ class: wishvbmeprp	carevbmeprp	
+
+BE: handleVBsituationNN
+EQ class: handlingnnofinstate_of_affairsnn	animal_trainernnofinstate_of_affairsnn	handlingnnofinsituationnn	handlernnofinsituationnn	handlernnofinstate_of_affairsnn	dealvbsituationnn	animal_trainernnofinsituationnn	carevbstate_of_affairsnn	managevbsituationnn	managevbstate_of_affairsnn	dealvbstate_of_affairsnn	handlevbstate_of_affairsnn	carevbsituationnn	
+
+BE: holdVBthemPRP
+EQ class: maintainvbquestionsprp	keepvbthemprp	keepvbsiblingsprp	holdvbsiblingsprp	keepvbquestionsprp	holdvbquestionsprp	maintainvbsiblingsprp	maintainvbthemprp	
+
+BE: wantsVBZmePRP
+EQ class: deprivationnnofinmeprp	wantnnofinmeprp	needinessnnofinmeprp	wanternnofinmeprp	privationnnofinmeprp	desirevbzmeprp	wantvbzmeprp	needernnofinmeprp	
+
+BE: goneVBNyouPRP
+EQ class: movevbnyouprp	travelvbnyouprp	govbnyouprp	locomotevbnyouprp	
+
+BE: beAUXstrongJJ
+EQ class: 
+
+BE: questionsNNSaboutINdyingVBG
+EQ class: buy_the_farmvbginquirynns	inquirynnsaboutindievbg	kick_the_bucketvbgquerynns	pass_awayvbgquestionvb	kick_the_bucketvbgquestionnns	pop_offvbgcall_into_questionvb	cash_in_one's_chipsvbgtheynns	oppugnvbchokevbg	croakvbgquestionvb	snuff_itvbgquestionvb	enquirynnsaboutinconkvbg	passvbgquerynns	theynnsaboutinexpirevbg	oppugnvbconkvbg	cash_in_one's_chipsvbgthemnns	inquirynnsaboutinexitvbg	querynnsaboutinexitvbg	expirynnofinenquirynns	give-up_the_ghostvbgquestionvb	questionsnnsaboutinpass_awayvbg	passvbginquirynns	buy_the_farmvbgtheynns	exitvbgcall_into_questionvb	govbgquestionnns	dievbgquerynns	chokevbgenquirynns	dievbgcall_into_questionvb	snuff_itvbgquestionsnns	drop_deadvbgoppugnvb	oppugnvbpass_awayvbg	pass_awayvbgquerynns	perishvbgoppugnvb	theynnsaboutinbuy_the_farmvbg	buy_the_farmvbgoppugnvb	cash_in_one's_chipsvbgenquirynns	questionvbdrop_deadvbg	passvbgcall_into_questionvb	theynnsaboutindeceasevbg	croakvbgcall_into_questionvb	oppugnvbdeceasevbg	theynnsaboutindyingvbg	questionnnsaboutinperishvbg	interrogationnnsaboutinpass_awayvbg	querynnsaboutinchokevbg	oppugnvbpop_offvbg	govbgoppugnvb	inquirynnsaboutinchokevbg	interrogationnnsaboutindyingvbg	drop_deadvbgquestionnns	pop_offvbgoppugnvb	dyingvbginterrogationnns	croakvbgenquirynns	deathnnofinenquirynns	questionsnnsaboutincash_in_one's_chipsvbg	questionnnsaboutinpass_awayvbg	call_into_questionvbcash_in_one's_chipsvbg	drop_deadvbgthemnns	questionvbdievbg	enquirynnsaboutindyingvbg	deathnnofinquestionsnns	snuff_itvbgoppugnvb	exitvbgoppugnvb	perishvbgquestionvb	deathnnofininterrogationnns	deceasevbgquestionnns	exitvbginterrogationnns	dievbginquirynns	cash_in_one's_chipsvbgoppugnvb	questionnnsaboutinconkvbg	questionvbdyingvbg	kick_the_bucketvbgquestionsnns	govbginterrogationnns	chokevbgoppugnvb	give-up_the_ghostvbgoppugnvb	dyingvbgoppugnvb	querynnsaboutingive-up_the_ghostvbg	oppugnvbcroakvbg	inquirynnsaboutingovbg	questionvbpass_awayvbg	passvbgtheynns	pass_awayvbgenquirynns	oppugnvbdievbg	questionvbchokevbg	govbgquerynns	deceasennofinthemnns	themnnsaboutinbuy_the_farmvbg	deceasevbginterrogationnns	themnnsaboutinperishvbg	expirevbginterrogationnns	querynnsaboutinconkvbg	inquirynnsaboutinbuy_the_farmvbg	querynnsaboutincroakvbg	chokevbgquerynns	theynnsaboutinperishvbg	themnnsaboutindrop_deadvbg	enquirynnsaboutincroakvbg	interrogationnnsaboutindrop_deadvbg	querynnsaboutinperishvbg	deceasevbgtheynns	give-up_the_ghostvbgquestionnns	questionsnnsaboutinexitvbg	questionsnnsaboutinperishvbg	snuff_itvbgquestionnns	passvbgoppugnvb	questionnnsaboutincroakvbg	expirevbginquirynns	querynnsaboutinsnuff_itvbg	dyingvbgquerynns	deathnnofininquirynns	buy_the_farmvbgthemnns	questionsnnsaboutingovbg	interrogationnnsaboutinconkvbg	oppugnvbdyingvbg	deceasevbgthemnns	pass_awayvbginquirynns	call_into_questionvbkick_the_bucketvbg	interrogationnnsaboutinsnuff_itvbg	exitvbgquestionsnns	querynnsaboutindeceasevbg	questionsnnsaboutincroakvbg	interrogationnnsaboutinpassvbg	questionvbcroakvbg	expirevbgcall_into_questionvb	call_into_questionvbdyingvbg	give-up_the_ghostvbgthemnns	inquirynnsaboutinperishvbg	inquirynnsaboutinconkvbg	call_into_questionvbgive-up_the_ghostvbg	give-up_the_ghostvbgenquirynns	inquirynnsaboutinpass_awayvbg	buy_the_farmvbgcall_into_questionvb	questionnnsaboutindrop_deadvbg	croakvbgquestionsnns	themnnsaboutinpop_offvbg	govbgenquirynns	themnnsaboutindyingvbg	enquirynnsaboutingive-up_the_ghostvbg	interrogationnnsaboutincash_in_one's_chipsvbg	kick_the_bucketvbgquestionvb	deceasennofinquestionsnns	inquirynnsaboutincash_in_one's_chipsvbg	dyingvbginquirynns	chokevbgquestionvb	snuff_itvbgcall_into_questionvb	cash_in_one's_chipsvbgcall_into_questionvb	snuff_itvbgthemnns	perishvbgenquirynns	conkvbgquerynns	questionvbpassvbg	deceasevbgoppugnvb	expirevbgquerynns	deceasevbgquestionsnns	expirevbgquestionvb	chokevbgquestionnns	deceasevbgcall_into_questionvb	govbgquestionsnns	theynnsaboutinpassvbg	interrogationnnsaboutinperishvbg	expirynnofintheynns	questionnnsaboutingovbg	call_into_questionvbsnuff_itvbg	enquirynnsaboutinchokevbg	oppugnvbgovbg	dyingvbgthemnns	querynnsaboutindrop_deadvbg	croakvbgquerynns	expirynnofininquirynns	deceasennofininquirynns	drop_deadvbgtheynns	questionnnsaboutinchokevbg	querynnsaboutindyingvbg	chokevbgthemnns	expirevbgtheynns	interrogationnnsaboutinpop_offvbg	snuff_itvbgquerynns	expirynnofininterrogationnns	call_into_questionvbpassvbg	theynnsaboutinpass_awayvbg	questionnnsaboutinexpirevbg	questionsnnsaboutinsnuff_itvbg	dievbgenquirynns	questionnnsaboutinpop_offvbg	questionsnnsaboutinpassvbg	passvbgthemnns	call_into_questionvbdeceasevbg	querynnsaboutincash_in_one's_chipsvbg	dyingvbgcall_into_questionvb	enquirynnsaboutincash_in_one's_chipsvbg	snuff_itvbgtheynns	enquirynnsaboutinbuy_the_farmvbg	themnnsaboutinexitvbg	exitvbgenquirynns	passvbgquestionnns	pass_awayvbgcall_into_questionvb	dyingvbgquestionsnns	interrogationnnsaboutingovbg	questionnnsaboutindeceasevbg	questionvbgive-up_the_ghostvbg	buy_the_farmvbgquestionvb	call_into_questionvbperishvbg	oppugnvbkick_the_bucketvbg	theynnsaboutincroakvbg	questionnnsaboutincash_in_one's_chipsvbg	deceasennofintheynns	exitvbgthemnns	querynnsaboutinpop_offvbg	interrogationnnsaboutinexitvbg	buy_the_farmvbgquestionnns	perishvbgtheynns	querynnsaboutinexpirevbg	oppugnvbbuy_the_farmvbg	kick_the_bucketvbginquirynns	inquirynnsaboutinpassvbg	conkvbgenquirynns	themnnsaboutindeceasevbg	expirevbgquestionsnns	perishvbgquestionsnns	drop_deadvbgcall_into_questionvb	theynnsaboutinchokevbg	kick_the_bucketvbgtheynns	questionvbcash_in_one's_chipsvbg	theynnsaboutindievbg	oppugnvbperishvbg	expirynnofinquestionsnns	deceasennofininterrogationnns	passvbgquestionsnns	pop_offvbgenquirynns	themnnsaboutinexpirevbg	dievbgquestionvb	pop_offvbgquestionsnns	interrogationnnsaboutincroakvbg	deceasevbgquerynns	deceasennofinquerynns	deathnnofinquestionnns	interrogationnnsaboutingive-up_the_ghostvbg	cash_in_one's_chipsvbgquestionvb	give-up_the_ghostvbginquirynns	dievbgquestionnns	dievbgtheynns	croakvbgoppugnvb	questionnnsaboutinpassvbg	inquirynnsaboutincroakvbg	croakvbgquestionnns	inquirynnsaboutingive-up_the_ghostvbg	pass_awayvbgtheynns	questionsnnsaboutindievbg	perishvbginquirynns	oppugnvbdrop_deadvbg	questionnnsaboutingive-up_the_ghostvbg	questionnnsaboutinkick_the_bucketvbg	conkvbgquestionvb	deceasevbgenquirynns	conkvbginquirynns	chokevbginquirynns	pop_offvbgquestionnns	call_into_questionvbpass_awayvbg	questionvbgovbg	interrogationnnsaboutinchokevbg	questionsnnsaboutingive-up_the_ghostvbg	pop_offvbgthemnns	questionnnsaboutinsnuff_itvbg	deathnnofinthemnns	questionvbpop_offvbg	theynnsaboutincash_in_one's_chipsvbg	drop_deadvbginquirynns	exitvbgquestionnns	call_into_questionvbpop_offvbg	themnnsaboutinpass_awayvbg	buy_the_farmvbgquestionsnns	call_into_questionvbexpirevbg	themnnsaboutinsnuff_itvbg	expirevbgoppugnvb	questionvbexpirevbg	snuff_itvbgenquirynns	themnnsaboutingive-up_the_ghostvbg	cash_in_one's_chipsvbginquirynns	theynnsaboutindrop_deadvbg	themnnsaboutinkick_the_bucketvbg	call_into_questionvbbuy_the_farmvbg	conkvbgtheynns	dyingvbgquestionnns	conkvbginterrogationnns	querynnsaboutinkick_the_bucketvbg	questionvbbuy_the_farmvbg	questionsnnsaboutinconkvbg	chokevbgtheynns	questionvbdeceasevbg	querynnsaboutindievbg	questionvbconkvbg	call_into_questionvbdrop_deadvbg	drop_deadvbgquerynns	govbgquestionvb	dievbginterrogationnns	call_into_questionvbexitvbg	perishvbginterrogationnns	croakvbginterrogationnns	interrogationnnsaboutinbuy_the_farmvbg	conkvbgcall_into_questionvb	querynnsaboutinpass_awayvbg	cash_in_one's_chipsvbgquerynns	croakvbginquirynns	exitvbginquirynns	querynnsaboutingovbg	questionsnnsaboutinkick_the_bucketvbg	questionsnnsaboutindrop_deadvbg	questionvbperishvbg	expirevbgthemnns	give-up_the_ghostvbginterrogationnns	buy_the_farmvbgquerynns	kick_the_bucketvbgcall_into_questionvb	interrogationnnsaboutinexpirevbg	theynnsaboutingive-up_the_ghostvbg	kick_the_bucketvbgthemnns	enquirynnsaboutinexitvbg	expirynnofinthemnns	querynnsaboutinpassvbg	enquirynnsaboutinpassvbg	themnnsaboutincash_in_one's_chipsvbg	buy_the_farmvbgenquirynns	questionnnsaboutinbuy_the_farmvbg	enquirynnsaboutinpass_awayvbg	cash_in_one's_chipsvbgquestionsnns	enquirynnsaboutinpop_offvbg	oppugnvbcash_in_one's_chipsvbg	drop_deadvbgquestionvb	kick_the_bucketvbgoppugnvb	perishvbgquerynns	theynnsaboutinpop_offvbg	theynnsaboutinexitvbg	questionnnsaboutinexitvbg	inquirynnsaboutindeceasevbg	inquirynnsaboutindyingvbg	call_into_questionvbdievbg	conkvbgquestionsnns	croakvbgthemnns	enquirynnsaboutinkick_the_bucketvbg	govbgthemnns	questionnnsaboutindievbg	oppugnvbpassvbg	dievbgthemnns	enquirynnsaboutinexpirevbg	oppugnvbgive-up_the_ghostvbg	questionsnnsaboutinpop_offvbg	pop_offvbgtheynns	themnnsaboutindievbg	expirynnofinquerynns	enquirynnsaboutindeceasevbg	deceasennofinquestionnns	deceasevbginquirynns	themnnsaboutinconkvbg	inquirynnsaboutinpop_offvbg	snuff_itvbginterrogationnns	querynnsaboutinbuy_the_farmvbg	pop_offvbginquirynns	conkvbgthemnns	give-up_the_ghostvbgtheynns	chokevbginterrogationnns	give-up_the_ghostvbgquerynns	perishvbgquestionnns	exitvbgtheynns	croakvbgtheynns	exitvbgquerynns	exitvbgquestionvb	enquirynnsaboutinperishvbg	pop_offvbgquestionvb	dyingvbgenquirynns	inquirynnsaboutinsnuff_itvbg	enquirynnsaboutindievbg	enquirynnsaboutindrop_deadvbg	pop_offvbgquerynns	inquirynnsaboutindrop_deadvbg	inquirynnsaboutinexpirevbg	passvbgquestionvb	pass_awayvbgoppugnvb	drop_deadvbgenquirynns	pop_offvbginterrogationnns	deathnnofintheynns	dievbgoppugnvb	theynnsaboutinconkvbg	passvbgenquirynns	oppugnvbsnuff_itvbg	questionsnnsaboutindeceasevbg	pass_awayvbgthemnns	drop_deadvbginterrogationnns	dyingvbgtheynns	drop_deadvbgquestionsnns	govbginquirynns	deathnnofinquerynns	give-up_the_ghostvbgquestionsnns	kick_the_bucketvbginterrogationnns	inquirynnsaboutinkick_the_bucketvbg	cash_in_one's_chipsvbgquestionnns	expirevbgenquirynns	questionsnnsaboutinchokevbg	themnnsaboutinpassvbg	call_into_questionvbgovbg	call_into_questionvbchokevbg	dievbgquestionsnns	perishvbgcall_into_questionvb	questionvbsnuff_itvbg	questionsnnsaboutinbuy_the_farmvbg	expirevbgquestionnns	passvbginterrogationnns	kick_the_bucketvbgenquirynns	govbgtheynns	pass_awayvbginterrogationnns	oppugnvbexpirevbg	chokevbgquestionsnns	interrogationnnsaboutindeceasevbg	oppugnvbexitvbg	expirynnofinquestionnns	questionvbexitvbg	conkvbgoppugnvb	themnnsaboutinchokevbg	interrogationnnsaboutinkick_the_bucketvbg	buy_the_farmvbginterrogationnns	theynnsaboutinkick_the_bucketvbg	deceasennofinenquirynns	theynnsaboutinsnuff_itvbg	interrogationnnsaboutindievbg	questionnnsaboutindyingvbg	themnnsaboutincroakvbg	snuff_itvbginquirynns	cash_in_one's_chipsvbginterrogationnns	call_into_questionvbcroakvbg	dyingvbgquestionvb	conkvbgquestionnns	themnnsaboutingovbg	enquirynnsaboutinsnuff_itvbg	give-up_the_ghostvbgcall_into_questionvb	theynnsaboutingovbg	questionsnnsaboutinexpirevbg	govbgcall_into_questionvb	pass_awayvbgquestionsnns	perishvbgthemnns	chokevbgcall_into_questionvb	pass_awayvbgquestionnns	questionvbkick_the_bucketvbg	deceasevbgquestionvb	call_into_questionvbconkvbg	enquirynnsaboutingovbg	
+
+BE: talkVBtoTOherPRP
+EQ class: speakvbtotohoneyprp	talkvbtotosprp	talkvbtotohoneyprp	speakvbtotosprp	speakvbtotoherprp	
+
+BE: talkVBaboutINconditionNN
+EQ class: speakvbaboutinconditionnn	talkvbaboutinstatusnn	speakvbaboutinstatusnn	
+
+BE: beAUXforINsiblingsNNS
+EQ class: beauxforinthemnns	beauxforinsiblingnns	beauxforinsibnns	beauxforintheynns	
+
+BE: situationNNwhenWRBgoneVBN
+EQ class: situationnnwhenwrbmovevbn	situationnnwhenwrbtravelvbn	state_of_affairsnnwhenwrbtravelvbn	state_of_affairsnnwhenwrbmovevbn	state_of_affairsnnwhenwrblocomotevbn	situationnnwhenwrbgovbn	state_of_affairsnnwhenwrbgovbn	situationnnwhenwrblocomotevbn	state_of_affairsnnwhenwrbgonevbn	
+
+BE: knowVBPthatINwantsVBZ
+EQ class: knowvbpthatindesirevbz	cognisevbpthatinwantvbz	cognizevbpthatinwantvbz	cognisevbpthatinwantsvbz	cognizevbpthatinwantsvbz	cognizevbpthatindesirevbz	cognisevbpthatindesirevbz	knowvbpthatinwantvbz	
+
+BE: likeVBhandleVB
+EQ class: likevbdealvb	wishvbhandlevb	carevbmanagevb	carevbcarevb	likevbcarevb	wishvbmanagevb	wishvbcarevb	carevbhandlevb	wishvbdealvb	carevbdealvb	likevbmanagevb	
+
+BE: beAUXthereRB
+EQ class: 
+
+BE: holdVBtogetherRB
+EQ class: keepvbtogetherrb	maintainvbtogetherrb	
+
+BE: anythingNN
+EQ class: 
+
+BE: somethingNN
+EQ class: 
+
+BE: lifeNN
+EQ class: 
+
+BE: talkVB
+EQ class: speakvb	
+
+BE: letVB
+EQ class: allowvb	permitvb	
+
+BE: knowVB
+EQ class: cognizevb	cognisevb	
+
+BE: loveVB
+EQ class: 
+
+BE: askVB
+EQ class: enquirevb	inquirevb	
+
+BE: makeVB
+EQ class: dovb	
+
+BE: knowVBP
+EQ class: cognizevbp	cognisevbp	
+
+BE: sPersonAnnotation
+EQ class: 
+
+BE: wantedVBD
+EQ class: desirevbd	wantvbd	
+
+BE: comfortableJJ
+EQ class: comfortablenessnn	comfyjj	
+
+BE: niceJJ
+EQ class: nicenessnn	
+
+BE: entireJJ
+EQ class: entirenessnn	fulljj	totaljj	
+
+BE: niceJJsomethingNN
+EQ class: nicenessnnsomethingnn	
+
+BE: entireJJlifeNN
+EQ class: totaljjlifenn	entirenessnnlifenn	fulljjlifenn	
+
+BE: herPRP$lifeNN
+EQ class: lifennofinherprp$	honeyprp$lifenn	sprp$lifenn	lifennofinhoneyprp$	lifennofinsprp$	
+
+BE: herPRPknowVB
+EQ class: knowingnnofinsprp	knowablennofinherprp	knowingnnofinherprp	knowablennofinsprp	knowingnnsprp	knowingnnherprp	honeyprpcognisevb	knowernnhoneyprp	apprehendernnsprp	apprehendernnherprp	knowernnofinhoneyprp	apprehendernnofinsprp	apprehendernnofinherprp	sprpcognizevb	sprpcognisevb	apprehendernnhoneyprp	knowingnnhoneyprp	honeyprpknowvb	herprpcognizevb	herprpcognisevb	sprpknowvb	knowernnsprp	knowingnnofinhoneyprp	apprehendernnofinhoneyprp	knowablennofinhoneyprp	knowernnherprp	knowernnofinsprp	honeyprpcognizevb	knowernnofinherprp	
+
+BE: youPRPloveVB
+EQ class: loveablennofinyouprp	lovernnyouprp	lovennofinyouprp	lovernnofinyouprp	lovablennofinyouprp	
+
+BE: youPRPaskVB
+EQ class: queriernnyouprp	enquirernnyouprp	inquirernnyouprp	youprpenquirevb	youprpinquirevb	questionernnyouprp	askernnofinyouprp	askernnyouprp	enquirernnofinyouprp	questionernnofinyouprp	queriernnofinyouprp	inquirernnofinyouprp	
+
+BE: thereEXisAUX
+EQ class: thereexbeaux	
+
+BE: youPRPdoAUX
+EQ class: youprpmakeaux	
+
+BE: youPRPknowVBP
+EQ class: youprpcognisevbp	knowablennofinyouprp	knowingnnyouprp	knowernnofinyouprp	youprpcognizevbp	apprehendernnyouprp	knowingnnofinyouprp	knowernnyouprp	apprehendernnofinyouprp	
+
+BE: shePRPsPersonAnnotation
+EQ class: sprpspersonannotation	honeyprpspersonannotation	
+
+BE: loveVBherPRP
+EQ class: lovablennofinsprp	lovevbhoneyprp	loveablennofinherprp	lovernnofinsprp	loveablennofinhoneyprp	lovablennofinherprp	loveablennofinsprp	lovennofinherprp	lovennofinhoneyprp	lovernnofinherprp	lovernnofinhoneyprp	lovablennofinhoneyprp	lovevbsprp	lovennofinsprp	
+
+BE: isAUXanythingNN
+EQ class: beauxanythingnn	
+
+BE: doAUXsomethingNN
+EQ class: makeauxsomethingnn	
+
+BE: wantedVBDlifeNN
+EQ class: wantnnofinlifenn	wantvbdlifenn	deprivationnnofinlifenn	needernnofinlifenn	desirevbdlifenn	privationnnofinlifenn	wanternnofinlifenn	needinessnnofinlifenn	
+
+BE: letVBherPRP
+EQ class: letvbsprp	permitvbherprp	allowvbsprp	allowvbherprp	permitvbsprp	permitvbhoneyprp	letvbhoneyprp	allowvbhoneyprp	
+
+BE: knowVByouPRP
+EQ class: knowablennofinyouprp	cognisevbyouprp	cognizevbyouprp	knowernnofinyouprp	knowingnnofinyouprp	apprehendernnofinyouprp	
+
+BE: makeVBherPRP
+EQ class: dovbsprp	dovbherprp	dovbhoneyprp	makevbsprp	makevbhoneyprp	
+
+BE: talkVBtoTOherPRP
+EQ class: speakvbtotohoneyprp	talkvbtotosprp	talkvbtotohoneyprp	speakvbtotosprp	speakvbtotoherprp	
+
+BE: doAUXforINherPRP
+EQ class: doauxforinhoneyprp	makeauxforinherprp	makeauxforinsprp	makeauxforinhoneyprp	doauxforinsprp	
+
+BE: niceJJforINherPRP
+EQ class: nicenessnnforinherprp	nicejjforinsprp	nicejjforinhoneyprp	nicenessnnforinhoneyprp	nicenessnnforinsprp	
+
+BE: askVBifINisAUX
+EQ class: enquirevbifinisaux	askvbifinbeaux	enquirevbifinbeaux	inquirevbifinisaux	inquirevbifinbeaux	
+
+BE: loveVBveryRB
+EQ class: loveablennofinveryrb	lovablennofinveryrb	lovennofinveryrb	lovernnofinveryrb	
+
+BE: loveVBmuchRB
+EQ class: lovennofinmuchrb	loveablennofinmuchrb	lovernnofinmuchrb	lovablennofinmuchrb	
+
+BE: doAUXjustRB
+EQ class: makeauxjustrb	
+

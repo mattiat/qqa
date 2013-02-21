@@ -1,0 +1,33 @@
+#oh, no another avatar twin of me, I can t take this anymore!   
+#(S1 (S (INTJ (UH oh) (, ,) (UH no)) (NP (NP (DT another) (NN avatar)) (PP (JJ twin) (IN of) (NP (PRP me)))) (, ,) (NP (PRP I)) (VP (MD can) (ADVP (RB t)) (VP (VB take) (NP (DT this)) (ADVP (RB anymore)))) (. !)))
+#Rule:Nouns
+r1avatarNN
+
+#Rule:Verbs
+r2takeVB
+
+#Rule:Adjs
+r4twinJJ
+
+#Rule:HeadNoun-V
+r11avatarNNtakeVB
+r11iPRPtakeVB
+
+#Rule:V-HeadNoun
+r21takeVBthisDT
+
+#Rule:PPinNP
+r26avatarNNofINmePRP
+
+#Rule:V-ADV
+r46takeVBtPersonAnnotation
+r46takeVBanymoreRB
+
+#Aaaargh!
+#(S1 (INTJ (JJ Aaaargh) (. !)))
+#Rule:Adjs
+r4AaaarghLocationAnnotation
+
+@lemmas-left	twin	Aaaargh	take	avatar	i	
+@lemmas-right	t	take	anymore	me	this	
+@lemmas-center	of	

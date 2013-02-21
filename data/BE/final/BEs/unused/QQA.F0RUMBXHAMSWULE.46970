@@ -1,0 +1,79 @@
+#Can you provide proof (not just words in a book, but actual scientific proof) that the Earth was created 6000 years ago??
+#(S1 (SQ (SQ (MD Can) (NP (PRP you)) (VP (VB provide) (NP (NN proof)) (PRN (-LRB- -LRB-) (CONJP (RB not) (RB just)) (NP (NP (NNS words)) (PP (IN in) (NP (NP (DT a) (NN book)) (, ,) (CC but) (NP (JJ actual) (JJ scientific) (NN proof))))) (-RRB- -RRB-)) (SBAR (IN that) (S (NP (DT the) (NNP Earth)) (VP (AUX was) (VP (VBN created) (ADVP (NP (CD 6000) (NNS years)) (RB ago))))))) (. ?)) (. ?)))
+#Rule:Nouns
+r1proofNN
+r1wordsNNS
+r1bookNN
+r1proofNN
+r1EarthPersonAnnotation
+r1yearsNNS
+
+#Rule:Verbs
+r2provideVB
+r2createdVBN
+
+#Rule:Adjs
+r4actualJJ
+r4scientificJJ
+
+#Rule:Adj-Noun
+r5actualJJproofNN
+r5scientificJJproofNN
+r56000CDyearsNNS
+
+#Rule:V-HeadNoun
+r21provideVBproofNN
+
+#Rule:V-HeadNoun(passive)
+r23createdVBNEarthPersonAnnotation
+
+#Rule:PPinNP
+r26wordsNNSinINbookNN
+r26wordsNNSinINproofNN
+
+#Rule:V-IN-V
+r43provideVBthatINcreatedVBN
+
+#Rule:V-ADV
+r46createdVBNagoRB
+
+#You are free to believe or not believe whatever you like..
+#(S1 (S (NP (PRP You)) (VP (AUX are) (ADJP (JJ free) (S (VP (TO to) (VP (VB believe) (SBAR (CC or) (S (RB not) (VP (VBP believe) (SBAR (WHNP (WDT whatever)) (S (NP (PRP you)) (VP (VBP like))))) (. .)))))))) (. .)))
+#Rule:Verbs
+r2believeVB
+r2believeVBP
+r2likeVBP
+
+#Rule:Adjs
+r4freeJJ
+
+#Rule:HeadNoun-V
+r11youPRPareAUX
+r11youPRPlikeVBP
+
+#Rule:V-ADJ
+r25areAUXfreeJJ
+
+#So am I.You don t have to defend your beliefs, neither do I.
+#(S1 (SINV (ADVP (RB So)) (AUX am) (NP (NNP I.You) (NNP don) (NNP t)) (VP (AUX have) (S (VP (TO to) (VP (VP (VB defend) (NP (PRP$ your) (NNS beliefs))) (, ,) (CC neither) (VP (AUX do) (NP (PRP I))))))) (. .)))
+#Rule:Nouns
+r1I.You donLocationAnnotation
+r1tNNP
+r1beliefsNNS
+
+#Rule:Verbs
+r2defendVB
+
+#Rule:PRP-Noun
+r6yourPRP$beliefsNNS
+
+#Rule:N-HeadNoun
+r8I.You donLocationAnnotationtNNP
+
+#Rule:V-HeadNoun
+r21defendVBbeliefsNNS
+r21doAUXiPRP
+
+@lemmas-left	belief	Earth	beliefs	provide	your	proof	you	believe	like	I.You don	create	free	t	are	words	created	book	scientific	actual	do	6000	defend	years	be	
+@lemmas-right	Earth	belief	beliefs	proof	like	create	i	free	t	are	created	book	years	ago	be	
+@lemmas-center	that	in	

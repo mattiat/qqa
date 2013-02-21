@@ -1,0 +1,91 @@
+#Why does the world waste so much money on space exploration, and mars rovers???
+#(S1 (SBARQ (WHADVP (WRB Why)) (SQ (AUX does) (NP (DT the) (NN world)) (VP (VB waste) (NP (ADJP (RB so) (JJ much)) (NN money)) (PP (IN on) (NP (NP (NN space) (NN exploration)) (, ,) (CC and) (NP (NNP mars) (NNS rovers) (NN ??)))))) (. ?)))
+#Rule:Nouns
+r1worldNN
+r1moneyNN
+r1spaceNN
+r1explorationNN
+r1marsNNP
+r1roversNNS
+r1??NN
+
+#Rule:Verbs
+r2wasteVB
+
+#Rule:Adjs
+r4muchJJ
+
+#Rule:Adj-Noun
+r5muchJJmoneyNN
+
+#Rule:N-HeadNoun
+r8spaceNNexplorationNN
+r8roversNNS??NN
+r8marsNNP??NN
+
+#Rule:V-HeadNoun
+r21wasteVBmoneyNN
+
+#Rule:PPinVP
+r30wasteVBonINexplorationNN
+r30wasteVBonIN??NN
+
+#I just think it is such a waste with millions of people in the world starving and homeless, or without clothing or meds. 
+#(S1 (S (NP (PRP I)) (ADVP (RB just)) (VP (VBP think) (SBAR (S (NP (PRP it)) (VP (AUX is) (NP (NP (PDT such) (DT a) (NN waste)) (PP (IN with) (NP (NP (NNS millions)) (PP (IN of) (NP (NP (NNS people)) (PP (IN in) (NP (DT the) (NN world))) (UCP (ADJP (VBG starving) (CC and) (JJ homeless)) (, ,) (CC or) (PP (IN without) (NP (NN clothing) (CC or) (NNS meds))))))))))))) (. .)))
+#Rule:Nouns
+r1wasteNN
+r1millionsNNS
+r1peopleNNS
+r1worldNN
+r1clothingNN
+r1medsNNS
+
+#Rule:Verbs
+r2thinkVBP
+r2starvingVBG
+
+#Rule:Adjs
+r4homelessJJ
+
+#Rule:HeadNoun-V
+r11iPRPthinkVBP
+r11itPRPisAUX
+
+#Rule:V-HeadNoun
+r21isAUXwasteNN
+
+#Rule:PPinNP
+r26wasteNNwithINmillionsNNS
+r26millionsNNSofINpeopleNNS
+r26peopleNNSinINworldNN
+
+#Rule:V-ADV
+r46thinkVBPjustRB
+
+#Dont you think we could use the money helping with these things instead?
+#(S1 (SQ (NNP Dont) (NP (PRP you)) (VP (VB think) (SBAR (S (NP (PRP we)) (VP (MD could) (VP (VB use) (NP (DT the) (NN money)) (S (VP (VBG helping) (PP (IN with) (NP (DT these) (NNS things))) (ADVP (RB instead))))))))) (. ?)))
+#Rule:Nouns
+r1DontNNP
+r1moneyNN
+r1thingsNNS
+
+#Rule:Verbs
+r2thinkVB
+r2useVB
+r2helpingVBG
+
+#Rule:HeadNoun-V
+r11wePRPuseVB
+
+#Rule:V-HeadNoun
+r21useVBmoneyNN
+
+#Rule:PPinVP
+r30helpingVBGwithINthingsNNS
+
+#Rule:V-ADV
+r46helpingVBGinsteadRB
+
+@lemmas-left	med	waste	clothing	use	Dont	meds	space	people	exploration	??	help	rover	money	millions	be	million	think	is	it	rovers	much	starving	starve	i	mars	helping	dont	homeless	things	world	we	
+@lemmas-right	just	waste	think	is	million	use	people	exploration	??	instead	money	things	millions	world	be	
+@lemmas-center	of	with	on	in	

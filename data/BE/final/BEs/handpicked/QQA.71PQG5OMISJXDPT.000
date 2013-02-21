@@ -1,0 +1,41 @@
+#before the invention of refrigeration how was food distributed to large cities??
+#(S1 (SBARQ (PP (IN before) (NP (NP (DT the) (NN invention)) (PP (IN of) (NP (NN refrigeration))))) (WHADVP (WRB how)) (SQ (AUX was) (NP (NN food)) (VP (VBN distributed) (PP (TO to) (NP (JJ large) (NNS cities)))) (. ?)) (. ?)))
+#Rule:Nouns
+r1inventionNN
+r1refrigerationNN
+r1foodNN
+r1citiesNNS
+
+#Rule:Verbs
+r2distributedVBN
+
+#Rule:Adjs
+r4largeJJ
+
+#Rule:Adj-Noun
+r5largeJJcitiesNNS
+
+#Rule:PPinNP
+r26inventionNNofINrefrigerationNN
+
+#Rule:PPinVP
+r32distributedVBNtoTOcitiesNNS
+
+#For example ancient Rome or early modern London.
+#(S1 (FRAG (PP (IN For) (NP (NN example))) (NP (JJ ancient) (NNP Rome)) (CC or) (RB early) (NP (JJ modern) (NNP London)) (. .)))
+#Rule:Nouns
+r1exampleNN
+r1RomePersonAnnotation
+r1LondonLocationAnnotation
+
+#Rule:Adjs
+r4ancientJJ
+r4modernJJ
+
+#Rule:Adj-Noun
+r5ancientJJRomePersonAnnotation
+r5modernJJLondonLocationAnnotation
+
+@lemmas-left	invention	distributed	London	city	modern	distribute	ancient	cities	food	refrigeration	Rome	example	large	
+@lemmas-right	cities	refrigeration	Rome	London	city	
+@lemmas-center	to	of	

@@ -1,0 +1,267 @@
+BE: SjogrenPersonAnnotation
+EQ class: 
+
+BE: sNNP
+EQ class: secnnp	secondnnp	
+
+BE: SyndromeNN
+EQ class: 
+
+BE: diseaseNN
+EQ class: 
+
+BE: chronicJJ
+EQ class: 
+
+BE: autoimmuneJJ
+EQ class: immune_responsenn	autoimmunitynn	
+
+BE: chronicJJdiseaseNN
+EQ class: 
+
+BE: autoimmuneJJdiseaseNN
+EQ class: immune_responsenndiseasenn	autoimmunitynndiseasenn	
+
+BE: sNNPSyndromeNN
+EQ class: syndromennofinsecnnp	syndromennofinsecondnnp	secnnpsyndromenn	secondnnpsyndromenn	syndromennofinsnnp	
+
+BE: SjogrenPersonAnnotationSyndromeNN
+EQ class: syndromennofinsjogrenpersonannotation	
+
+BE: SyndromeNNisAUX
+EQ class: syndromennbeaux	
+
+BE: isAUXdiseaseNN
+EQ class: beauxdiseasenn	
+
+BE: diseaseNNSyndromeNN
+EQ class: syndromenndiseasenn	
+
+BE: thingNN
+EQ class: 
+
+BE: cureNN
+EQ class: remedynn	curativenn	therapeuticnn	
+
+BE: recoveryNN
+EQ class: 
+
+BE: suchJJ
+EQ class: 
+
+BE: suchJJthingNN
+EQ class: 
+
+BE: thereEXisAUX
+EQ class: thereexbeaux	
+
+BE: isAUXthingNN
+EQ class: beauxthingnn	
+
+BE: thingNNasINcureNN
+EQ class: curennthingnn	remedynnthingnn	thingnnasintherapeuticnn	therapeuticnnthingnn	curativennthingnn	thingnnasincurativenn	thingnnasinremedynn	
+
+BE: thingNNasINrecoveryNN
+EQ class: recoverynnthingnn	
+
+BE: symptomsNNS
+EQ class: symptomnns	theynns	symptomaticjj	themnns	
+
+BE: treatVB
+EQ class: handlevb	do_byvb	
+
+BE: youPRPdoAUX
+EQ class: youprpmakeaux	
+
+BE: treatVBsymptomsNNS
+EQ class: handlevbsymptomaticjj	do_byvbtheynns	treatvbsymptomnns	do_byvbsymptomaticjj	treatvbthemnns	handlevbtheynns	treatvbtheynns	treatvbsymptomaticjj	handlevbsymptomsnns	do_byvbthemnns	do_byvbsymptomsnns	do_byvbsymptomnns	handlevbsymptomnns	handlevbthemnns	
+
+BE: drynessNN
+EQ class: dryjj	waterlessnessnn	xerotesnn	
+
+BE: doctorNN
+EQ class: physiciannn	dr.nn	doctorialjj	docnn	mediconn	mdnn	
+
+BE: drugsNNS
+EQ class: drugnns	theynns	themnns	
+
+BE: glandsNNS
+EQ class: glandularjj	theynns	secretornns	glandnns	secreternns	secretory_organnns	themnns	
+
+BE: gumNN
+EQ class: chewing_gumnn	
+
+BE: candiesNNS
+EQ class: candynns	confectnns	theynns	themnns	
+
+BE: throatNN
+EQ class: throatyjj	pharynxnn	
+
+BE: prescribeVB
+EQ class: dictatevb	ordervb	
+
+BE: stimulateVB
+EQ class: excitevb	
+
+BE: produceVB
+EQ class: bring_forthvb	
+
+BE: recommendVB
+EQ class: urgevb	advocatevb	
+
+BE: useVBP
+EQ class: employvbp	utilizevbp	applyvbp	utilisevbp	
+
+BE: helpVB
+EQ class: aidvb	assistvb	
+
+BE: lubricateVB
+EQ class: 
+
+BE: mucusJJ
+EQ class: 
+
+BE: yourPRP$doctorNN
+EQ class: yourprp$docnn	physiciannnofinyourprp$	yourprp$sophisticatevb	doctor_upvbyourprp$	mediconnofinyourprp$	doctorvbyourprp$	yourprp$doctorialvb	doctornnofinyourprp$	yourprp$doctor_upvb	yourprp$doctorialjj	yourprp$doctorvb	yourprp$mediconn	yourprp$physiciannn	doctorialjjofinyourprp$	mdnnofinyourprp$	yourprp$mdnn	doctorialvbyourprp$	sophisticatevbyourprp$	docnnofinyourprp$	dr.nnofinyourprp$	yourprp$dr.nn	
+
+BE: yourPRP$glandsNNS
+EQ class: theynnsofinyourprp$	themnnsofinyourprp$	yourprp$themnns	secreternnsofinyourprp$	yourprp$theynns	yourprp$secretornns	yourprp$glandularvb	yourprp$glandnns	glandularjjofinyourprp$	glandsnnsofinyourprp$	glandnnsofinyourprp$	glandularvbyourprp$	yourprp$glandularjj	secretornnsofinyourprp$	yourprp$secretory_organnns	secretory_organnnsofinyourprp$	yourprp$secreternns	
+
+BE: yourPRP$throatNN
+EQ class: throatyvbyourprp$	yourprp$throatyvb	yourprp$pharynxnn	yourprp$throatyjj	throatyjjofinyourprp$	pharynxnnofinyourprp$	throatnnofinyourprp$	
+
+BE: doctorNNprescribeVB
+EQ class: doctorialjjprescribevb	docnnordervb	mediconndictatevb	doctornndictatevb	prescriptivennofinmediconn	prescriptionnnofindoctorialjj	prescriptionnnmdnn	doctorialjjdictatevb	physiciannndictatevb	prescriptionnnofindr.nn	mdnnprescribevb	dr.nndictatevb	prescriptionnndocnn	prescriptionnnofinmdnn	physiciannnordervb	mediconnordervb	doctornnordervb	prescriptionnnofinmediconn	prescriptivennofinphysiciannn	prescriptionnndoctorialjj	prescriptivennofindoctornn	prescriptionnndoctornn	mdnnordervb	mediconnprescribevb	prescriptionnnphysiciannn	dr.nnprescribevb	docnnprescribevb	prescriptivennofinmdnn	prescriptionnnofindocnn	prescriptivennofindocnn	prescriptivennofindoctorialjj	prescriptivennofindr.nn	mdnndictatevb	prescriptionnnofinphysiciannn	doctorialjjordervb	physiciannnprescribevb	prescriptionnndr.nn	dr.nnordervb	docnndictatevb	prescriptionnnofindoctornn	prescriptionnnmediconn	
+
+BE: youPRPuseVBP
+EQ class: utilizationnnyouprp	employmentnnofinyouprp	usernnofinyouprp	exercisennyouprp	usablennofinyouprp	youprpapplyvbp	youprputilisevbp	utilisationnnofinyouprp	usennyouprp	useablennofinyouprp	usagennyouprp	utilisationnnyouprp	youprpemployvbp	youprputilizevbp	usernnyouprp	utilizationnnofinyouprp	employmentnnyouprp	exercisennofinyouprp	usennofinyouprp	usagennofinyouprp	
+
+BE: prescribeVBdrugsNNS
+EQ class: prescribevbdrugnns	prescriptivennofinthemnns	ordervbtheynns	prescriptivennofindrugnns	prescriptionnnofindrugnns	prescriptionnnofindrugsnns	prescriptionnnofintheynns	prescriptivennofintheynns	dictatevbthemnns	prescribevbtheynns	dictatevbdrugsnns	dictatevbtheynns	ordervbthemnns	prescriptionnnofinthemnns	ordervbdrugsnns	prescribevbthemnns	ordervbdrugnns	dictatevbdrugnns	prescriptivennofindrugsnns	
+
+BE: stimulateVBglandsNNS
+EQ class: excitevbglandularjj	stimulusnnofinsecretory_organnns	stimulantnnofinsecretornns	excitevbsecretornns	stimulativennofinthemnns	stimulatevbsecretornns	excitevbthemnns	excitevbglandnns	stimulativennofinglandnns	inputnnofinglandnns	inputnnofinsecretory_organnns	stimulativennofinsecreternns	stimulatevbtheynns	stimulationnnofinthemnns	stimulusnnofinthemnns	stimulantnnofinsecreternns	stimulantnnofinthemnns	stimulusnnofinglandnns	stimulativennofintheynns	excitevbtheynns	stimulusnnofintheynns	stimulatevbglandularjj	stimulantnnofinglandularjj	stimulantnnofinglandsnns	stimulationnnofinsecretornns	stimulatevbsecretory_organnns	inputnnofintheynns	stimulativennofinglandsnns	excitevbsecretory_organnns	stimulationnnofinglandularjj	inputnnofinglandularjj	excitevbsecreternns	stimulantnnofinglandnns	stimulusnnofinsecreternns	stimulativennofinglandularjj	stimulationnnofinsecreternns	stimulatevbthemnns	stimulationnnofinglandnns	stimulatevbsecreternns	inputnnofinsecreternns	stimulativennofinsecretory_organnns	excitevbglandsnns	stimulationnnofintheynns	stimulatevbglandnns	stimulationnnofinglandsnns	stimulationnnofinsecretory_organnns	stimulativennofinsecretornns	inputnnofinglandsnns	inputnnofinthemnns	inputnnofinsecretornns	stimulusnnofinsecretornns	stimulantnnofintheynns	stimulusnnofinglandularjj	stimulantnnofinsecretory_organnns	stimulusnnofinglandsnns	
+
+BE: useVBPgumNN
+EQ class: usablennofingumnn	usevbpchewing_gumnn	usennofinchewing_gumnn	utilizevbpchewing_gumnn	employvbpgumnn	usagennofingumnn	useablennofinchewing_gumnn	utilizevbpgumnn	usernnofingumnn	applyvbpgumnn	utilizationnnofingumnn	utilisevbpgumnn	utilisevbpchewing_gumnn	usennofingumnn	usernnofinchewing_gumnn	utilisationnnofinchewing_gumnn	useablennofingumnn	employvbpchewing_gumnn	utilisationnnofingumnn	exercisennofinchewing_gumnn	employmentnnofinchewing_gumnn	employmentnnofingumnn	utilizationnnofinchewing_gumnn	exercisennofingumnn	usablennofinchewing_gumnn	usagennofinchewing_gumnn	applyvbpchewing_gumnn	
+
+BE: lubricateVBthroatNN
+EQ class: lubricatevbthroatyjj	lubricating_substancennofinpharynxnn	lubricantnnofinthroatyjj	lubricatornnofinpharynxnn	lubricationnnofinthroatnn	lubricatevbpharynxnn	lubricating_substancennofinthroatnn	lubricating_substancennofinthroatyjj	lubennofinthroatyjj	lubricatornnofinthroatyjj	lubricantnnofinpharynxnn	lubricantnnofinthroatnn	lubricationnnofinthroatyjj	lubennofinthroatnn	lubennofinpharynxnn	lubricationnnofinpharynxnn	lubricatornnofinthroatnn	
+
+BE: mayMDforINdrynessNN
+EQ class: maymdforinxerotesnn	maymdforinwaterlessnessnn	maymdforindryjj	
+
+BE: prescribeVBthatINstimulateVB
+EQ class: prescribevbthatinexcitevb	dictatevbthatinstimulatevb	ordervbthatinstimulatevb	ordervbthatinexcitevb	dictatevbthatinexcitevb	
+
+BE: prescribeVBthatINrecommendVB
+EQ class: prescribevbthatinurgevb	dictatevbthatinrecommendvb	ordervbthatinrecommendvb	ordervbthatinurgevb	prescribevbthatinadvocatevb	dictatevbthatinadvocatevb	dictatevbthatinurgevb	ordervbthatinadvocatevb	
+
+BE: recommendVBthatINuseVBP
+EQ class: advocatevbthatinutilizevbp	urgevbthatinutilizevbp	advocatevbthatinapplyvbp	recommendvbthatinemployvbp	advocatevbthatinutilisevbp	urgevbthatinemployvbp	urgevbthatinutilisevbp	recommendvbthatinutilisevbp	recommendvbthatinutilizevbp	urgevbthatinapplyvbp	recommendvbthatinapplyvbp	advocatevbthatinemployvbp	urgevbthatinusevbp	advocatevbthatinusevbp	
+
+BE: useVBPhelpVB
+EQ class: applyvbpassistvb	employmentnnofinhelpvb	exercisennofinaidvb	utilisationnnofinhelpvb	utilizationnnofinaidvb	usennofinassistvb	employvbphelpvb	usernnofinhelpvb	employmentnnofinaidvb	usablennofinassistvb	utilizevbpaidvb	employmentnnofinassistvb	applyvbpaidvb	exercisennofinassistvb	usevbpaidvb	employvbpaidvb	useablennofinaidvb	employvbpassistvb	utilisationnnofinassistvb	utilisevbpaidvb	useablennofinassistvb	usagennofinassistvb	usagennofinaidvb	usernnofinassistvb	usevbpassistvb	utilisationnnofinaidvb	utilizevbphelpvb	utilizationnnofinassistvb	utilizationnnofinhelpvb	utilizevbpassistvb	usagennofinhelpvb	usablennofinhelpvb	usennofinhelpvb	exercisennofinhelpvb	usennofinaidvb	useablennofinhelpvb	applyvbphelpvb	usablennofinaidvb	utilisevbpassistvb	utilisevbphelpvb	usernnofinaidvb	
+
+BE: involvementNN
+EQ class: involutionnn	participationnn	engagementnn	
+
+BE: corticosteroidsNNS
+EQ class: adrenal_cortical_steroidnns	theynns	corticosteroidnns	corticoidnns	themnns	
+
+BE: drugsNNS
+EQ class: drugnns	theynns	themnns	
+
+BE: NSAIDNNP
+EQ class: nonsteroidal_anti-inflammatorynnp	nonsteroidal_anti-inflammatory_drugnnp	
+
+BE: sNNP
+EQ class: secnnp	secondnnp	
+
+BE: painNN
+EQ class: hurtingnn	
+
+BE: inflammationNN
+EQ class: rubornn	rednessnn	
+
+BE: takeVB
+EQ class: 
+
+BE: relieveVB
+EQ class: assuagevb	palliatevb	alleviatevb	
+
+BE: extraglandularJJ
+EQ class: 
+
+BE: non-steroidalJJ
+EQ class: steroidnn	steroid_hormonenn	steroidaljj	
+
+BE: anti-inflammatoryJJ
+EQ class: inflammatoryjj	
+
+BE: extraglandularJJinvolvementNN
+EQ class: extraglandularjjinvolutionnn	extraglandularjjparticipationnn	extraglandularjjengagementnn	
+
+BE: non-steroidalJJdrugsNNS
+EQ class: steroidnntheynns	steroid_hormonenndrugsnns	non-steroidaljjthemnns	steroid_hormonennthemnns	steroid_hormonenndrugnns	steroidaljjdrugsnns	steroidnndrugnns	steroidaljjthemnns	steroidaljjtheynns	steroidnndrugsnns	steroidnnthemnns	non-steroidaljjtheynns	steroidaljjdrugnns	steroid_hormonenntheynns	non-steroidaljjdrugnns	
+
+BE: anti-inflammatoryJJdrugsNNS
+EQ class: inflammatoryjjdrugsnns	inflammatoryjjdrugnns	anti-inflammatoryjjtheynns	anti-inflammatoryjjdrugnns	inflammatoryjjthemnns	anti-inflammatoryjjthemnns	inflammatoryjjtheynns	
+
+BE: NSAIDNNPsNNP
+EQ class: nonsteroidal_anti-inflammatory_drugnnpsnnp	snnpofinnsaidnnp	nonsteroidal_anti-inflammatorynnpsnnp	secondnnpofinnonsteroidal_anti-inflammatorynnp	snnpofinnonsteroidal_anti-inflammatory_drugnnp	nonsteroidal_anti-inflammatorynnpsecondnnp	secnnpofinnsaidnnp	nonsteroidal_anti-inflammatorynnpsecnnp	nonsteroidal_anti-inflammatory_drugnnpsecondnnp	secondnnpofinnonsteroidal_anti-inflammatory_drugnnp	nonsteroidal_anti-inflammatory_drugnnpsecnnp	secnnpofinnonsteroidal_anti-inflammatory_drugnnp	snnpofinnonsteroidal_anti-inflammatorynnp	nsaidnnpsecnnp	secnnpofinnonsteroidal_anti-inflammatorynnp	nsaidnnpsecondnnp	secondnnpofinnsaidnnp	
+
+BE: youPRPtakeVB
+EQ class: 
+
+BE: youPRPhaveAUX
+EQ class: youprphave_gotaux	rich_personnnofinyouprp	havennofinyouprp	youprpholdaux	wealthy_personnnofinyouprp	
+
+BE: haveAUXinvolvementNN
+EQ class: holdauxengagementnn	have_gotauxparticipationnn	have_gotauxinvolvementnn	haveauxinvolutionnn	holdauxparticipationnn	havennofininvolvementnn	wealthy_personnnofininvolvementnn	rich_personnnofininvolvementnn	rich_personnnofinparticipationnn	holdauxinvolvementnn	havennofininvolutionnn	rich_personnnofinengagementnn	wealthy_personnnofinengagementnn	have_gotauxengagementnn	have_gotauxinvolutionnn	wealthy_personnnofininvolutionnn	havennofinparticipationnn	haveauxparticipationnn	holdauxinvolutionnn	wealthy_personnnofinparticipationnn	haveauxengagementnn	rich_personnnofininvolutionnn	havennofinengagementnn	
+
+BE: takeVBcorticosteroidsNNS
+EQ class: takevbthemnns	takevbtheynns	takevbadrenal_cortical_steroidnns	takevbcorticosteroidnns	takevbcorticoidnns	
+
+BE: relieveVBpainNN
+EQ class: alleviatevbhurtingnn	alleviatevbpainnn	assuagevbpainnn	relievevbhurtingnn	palliatevbpainnn	assuagevbhurtingnn	palliatevbhurtingnn	
+
+BE: takeVBrelieveVB
+EQ class: takevbassuagevb	takevballeviatevb	takevbpalliatevb	
+
+BE: takeVBalsoRB
+EQ class: 
+
+BE: treatmentsNNS
+EQ class: interventionnns	theynns	treatmentnns	themnns	
+
+BE: reliefNN
+EQ class: alleviationnn	assuagementnn	
+
+BE: immunosuppresantsOrganizationAnnotation
+EQ class: 
+
+BE: failVBP
+EQ class: neglectvbp	
+
+BE: provideVB
+EQ class: furnishvb	supplyvb	rendervb	
+
+BE: prescribedVBN
+EQ class: ordervbn	prescribevbn	dictatevbn	
+
+BE: treatmentsNNSfailVBP
+EQ class: failurennofintheynns	failurennofinthemnns	themnnsfailvbp	failurennofintreatmentsnns	interventionnnsfailvbp	treatmentnnsneglectvbp	failurenntreatmentsnns	themnnsneglectvbp	interventionnnsneglectvbp	failurennthemnns	treatmentsnnsneglectvbp	failurenntreatmentnns	failurenninterventionnns	treatmentnnsfailvbp	failurennofintreatmentnns	theynnsfailvbp	failurenntheynns	failurennofininterventionnns	theynnsneglectvbp	
+
+BE: provideVBreliefNN
+EQ class: provisonnofinalleviationnn	provisionnnofinalleviationnn	suppliernnofinreliefnn	furnishvbreliefnn	provisonnofinreliefnn	provisionaryjjofinreliefnn	rendervbassuagementnn	rendervbreliefnn	suppliernnofinalleviationnn	provisionnnofinassuagementnn	furnishvballeviationnn	furnishvbassuagementnn	provisionaryjjofinalleviationnn	providernnofinalleviationnn	provisionnnofinreliefnn	suppliernnofinassuagementnn	provisonnofinassuagementnn	supplyvballeviationnn	providevballeviationnn	supplyvbassuagementnn	provisionaryjjofinassuagementnn	providernnofinassuagementnn	providevbassuagementnn	providernnofinreliefnn	supplyvbreliefnn	rendervballeviationnn	
+
+BE: prescribedVBNimmunosuppresantsOrganizationAnnotation
+EQ class: prescriptionnnofinimmunosuppresantsorganizationannotation	ordervbnimmunosuppresantsorganizationannotation	dictatevbnimmunosuppresantsorganizationannotation	prescribevbnimmunosuppresantsorganizationannotation	prescriptivennofinimmunosuppresantsorganizationannotation	
+
+BE: prescribedVBNyouPRP
+EQ class: dictatevbnyouprp	prescribevbnyouprp	ordervbnyouprp	prescriptivennofinyouprp	prescriptionnnofinyouprp	
+
+BE: failVBPprovideVB
+EQ class: failurennofinfurnishvb	failurennofinprovidevb	failvbpsupplyvb	failurennofinrendervb	failurennofinsupplyvb	neglectvbprendervb	failvbprendervb	neglectvbpsupplyvb	failvbpfurnishvb	neglectvbpfurnishvb	neglectvbpprovidevb	
+

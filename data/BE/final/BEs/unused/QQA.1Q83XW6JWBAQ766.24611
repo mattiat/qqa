@@ -1,0 +1,55 @@
+#it was vince youngs day he just couldnt go wrong plus usc make too many mistakes and bad decisions in crucial situations
+#(S1 (S (NP (PRP it)) (VP (AUX was) (NP (NP (JJ vince) (NNS youngs) (NN day)) (SBAR (S (NP (PRP he)) (ADVP (RB just)) (VP (VBD couldnt) (S (VP (VP (VB go) (ADVP (JJ wrong))) (CC plus) (VP (ADVP (RB usc)) (VB make) (NP (NP (ADJP (RB too) (JJ many)) (NNS mistakes)) (CC and) (NP (JJ bad) (NNS decisions))) (PP (IN in) (NP (JJ crucial) (NNS situations)))))))))))))
+#Rule:Nouns
+r1youngsNNS
+r1dayNN
+r1mistakesNNS
+r1decisionsNNS
+r1situationsNNS
+
+#Rule:Verbs
+r2couldntVBD
+r2goVB
+r2makeVB
+
+#Rule:Adjs
+r4vinceJJ
+r4wrongJJ
+r4manyJJ
+r4badJJ
+r4crucialJJ
+
+#Rule:Adj-Noun
+r5vinceJJdayNN
+r5manyJJmistakesNNS
+r5badJJdecisionsNNS
+r5crucialJJsituationsNNS
+
+#Rule:N-HeadNoun
+r8youngsNNSdayNN
+
+#Rule:HeadNoun-V
+r11itPRPwasAUX
+r11hePRPcouldntVBD
+
+#Rule:NP(NP(z) SBAR(S(NP(x)VP(y))))
+r19couldntVBDdayNN
+
+#Rule:V-HeadNoun
+r21wasAUXdayNN
+r21makeVBmistakesNNS
+
+#Rule:PPinVP
+r30makeVBinINsituationsNNS
+
+#Rule:V-V
+r44couldntVBDgoVB
+r44couldntVBDmakeVB
+
+#Rule:V-ADV
+r46couldntVBDjustRB
+r46makeVBuscRB
+
+@lemmas-left	mistakes	mistake	situations	it	crucial	he	bad	young	decision	was	many	youngs	decisions	wrong	day	situation	make	vince	be	couldnt	go	
+@lemmas-right	just	mistakes	mistake	situations	usc	decision	was	decisions	day	situation	make	be	couldnt	go	
+@lemmas-center	in	

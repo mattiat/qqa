@@ -1,0 +1,25 @@
+#why do migrating birds fly in v formation?
+#(S1 (SBARQ (WHADVP (WRB why)) (SQ (AUX do) (NP (JJ migrating) (NNS birds)) (VP (VB fly) (PP (IN in) (NP (NN v) (NN formation))))) (. ?)))
+#Rule:Nouns
+r1birdsNNS
+r1vLocationAnnotation
+r1formationNN
+
+#Rule:Verbs
+r2flyVB
+
+#Rule:Adjs
+r4migratingJJ
+
+#Rule:Adj-Noun
+r5migratingJJbirdsNNS
+
+#Rule:N-HeadNoun
+r8vLocationAnnotationformationNN
+
+#Rule:PPinVP
+r30flyVBinINformationNN
+
+@lemmas-left	bird	migrating	v	fly	migrate	birds	formation	
+@lemmas-right	bird	birds	formation	
+@lemmas-center	in	

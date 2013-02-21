@@ -1,0 +1,40 @@
+#Well, for starters, evolution isn t true.  :-)For lots of impressive evidence for creation and against evolution, check out www.answersingenesis.org and www.icr.org.
+#(S1 (S (INTJ (UH Well)) (, ,) (S (PP (IN for) (NP (NNS starters))) (, ,) (NP (NN evolution)) (VP (VBD isn) (X (FW t) (FW true.) (: :) (: -)) (-RRB- -RRB-) (PP (PP (IN For) (NP (NP (NNS lots)) (PP (IN of) (NP (NP (JJ impressive) (NN evidence)) (PP (IN for) (NP (NN creation))))))) (CC and) (PP (IN against) (NP (NN evolution)))))) (, ,) (VP (VB check) (PRT (RP out)) (NP (NN www.answersingenesis.org) (CC and) (NN www.icr.org))) (. .)))
+#Rule:Nouns
+r1startersNNS
+r1evolutionNN
+r1lotsNNS
+r1evidenceNN
+r1creationNN
+r1evolutionNN
+r1www.answersingenesis.orgNN
+r1www.icr.orgPersonAnnotation
+
+#Rule:Verbs
+r2isnVBD
+
+#Rule:V-PRT
+r3checkVBoutRP
+
+#Rule:Adjs
+r4impressiveJJ
+
+#Rule:Adj-Noun
+r5impressiveJJevidenceNN
+
+#Rule:HeadNoun-V
+r11evolutionNNisnVBD
+
+#Rule:V-HeadNoun
+r21checkVBwww.answersingenesis.orgNN
+
+#Rule:PPinNP
+r26lotsNNSofINevidenceNN
+r26evidenceNNforINcreationNN
+
+#Rule:PPinS
+r36isnVBDforINstartersNNS
+
+@lemmas-left	www.icr.org	creation	lots	check	isn	starters	starter	evidence	www.answersingenesis.org	impressive	evolution	
+@lemmas-right	creation	starters	starter	isn	evidence	www.answersingenesis.org	out	
+@lemmas-center	of	for	

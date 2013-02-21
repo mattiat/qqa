@@ -1,0 +1,723 @@
+BE: opinionNN
+EQ class: thoughtnn	viewnn	persuasionnn	sentimentnn	
+
+BE: historyNN
+EQ class: historicjj	
+
+BE: schoolsNNS
+EQ class: schoolnns	theynns	scholasticjj	themnns	
+
+BE: interestNN
+EQ class: involvementnn	
+
+BE: subjectNN
+EQ class: themenn	topicnn	
+
+BE: taughtVBN
+EQ class: teachvbn	learnvbn	instructvbn	
+
+BE: boosterVB
+EQ class: 
+
+BE: yourPRP$opinionNN
+EQ class: opinionnnofinyourprp$	yourprp$persuasionnn	speak_outvbyourprp$	yourprp$animadvertvb	sentimentnnofinyourprp$	yourprp$thoughtnn	viewnnofinyourprp$	thoughtnnofinyourprp$	yourprp$opinevb	yourprp$speak_upvb	sound_offvbyourprp$	animadvertvbyourprp$	yourprp$speak_outvb	yourprp$sentimentnn	opinevbyourprp$	speak_upvbyourprp$	persuasionnnofinyourprp$	yourprp$sound_offvb	yourprp$viewnn	
+
+BE: schoolsNNSboosterVB
+EQ class: theynnsboostervb	schoolnnsboostervb	scholasticjjboostervb	themnnsboostervb	
+
+BE: boosterVBinterestNN
+EQ class: boostervbinvolvementnn	
+
+BE: boosterVBitselfPRP
+EQ class: 
+
+BE: interestNNinINsubjectNN
+EQ class: involvementnnininthemenn	topicnninvolvementnn	themenninterestnn	interestnnininthemenn	interestvbtopicnn	themenninvolvementnn	themenninterestvb	interestvbthemenn	interestnninintopicnn	subjectnninterestnn	interestvbsubjectnn	topicnninterestvb	subjectnninterestvb	involvementnnininsubjectnn	involvementnninintopicnn	topicnninterestnn	subjectnninvolvementnn	
+
+BE: taughtVBNinINschoolsNNS
+EQ class: learnvbnininschoolsnns	teachvbnininthemnns	teachvbninintheynns	teachvbnininschoolsnns	taughtvbnininscholasticjj	taughtvbnininschoolnns	learnvbnininthemnns	instructvbnininthemnns	teachvbnininscholasticjj	taughtvbnininthemnns	learnvbninintheynns	instructvbnininschoolsnns	teachvbnininschoolnns	taughtvbninintheynns	learnvbnininscholasticjj	instructvbnininscholasticjj	instructvbninintheynns	instructvbnininschoolnns	learnvbnininschoolnns	
+
+BE: peopleNNS
+EQ class: theynns	themnns	
+
+BE: schoolNN
+EQ class: scholasticjj	
+
+BE: schoolNN
+EQ class: scholasticjj	
+
+BE: historyNN
+EQ class: historicjj	
+
+BE: subjectNN
+EQ class: themenn	topicnn	
+
+BE: noticeVBP
+EQ class: findvbp	observevbp	detectvbp	discovervbp	
+
+BE: comeVBP
+EQ class: come_upvbp	
+
+BE: includedVBD
+EQ class: includevbd	
+
+BE: turnedVBDoffRP
+EQ class: twistnnofinoffrp	turnvbdoffrp	crooknnofinoffrp	turningnnofinoffrp	turnnnofinoffrp	bendnnofinoffrp	
+
+BE: mostJJS
+EQ class: 
+
+BE: highJJ
+EQ class: highnessnn	
+
+BE: middleJJ
+EQ class: in-betweenjj	mediatejj	
+
+BE: mostJJSpeopleNNS
+EQ class: mostjjsthemnns	themvbmostlyrb	mostjjstheynns	theyvbmostlyrb	peoplevbmostlyrb	
+
+BE: highJJschoolNN
+EQ class: highnessnnschoolnn	scholasticvbhighlyrb	schoolvbhighlyrb	highnessnnscholasticjj	highjjscholasticjj	
+
+BE: middleJJhistoryNN
+EQ class: mediatejjhistoricjj	mediatejjhistorynn	middlejjhistoricjj	in-betweenjjhistoricjj	in-betweenjjhistorynn	
+
+BE: schoolNNhistoryNN
+EQ class: scholasticjjhistoricvb	schoolingnnofinhistoricjj	schoolnnhistoricjj	historicvbschoolnn	historynnschoolvb	scholasticjjhistorynn	scholasticjjhistoricjj	schoolingnnofinhistorynn	historynnofinschoolnn	schoolnnofinhistoricjj	scholasticjjofinhistorynn	historicjjofinschoolnn	schoolnnofinhistorynn	historicjjschoolvb	historicvbscholasticjj	schoolnnhistoricvb	scholasticjjofinhistoricjj	historicjjofinscholasticjj	historynnofinscholasticjj	
+
+BE: iPRPnoticeVBP
+EQ class: iprpdetectvbp	noticennofiniprp	iprpdiscovervbp	iprpobservevbp	iprpfindvbp	
+
+BE: peopleNNScomeVBP
+EQ class: approachingnnofinpeoplenns	comingnnofinpeoplenns	approachnnofinpeoplenns	comingnnofinthemnns	comingnnpeoplenns	approachnnofintheynns	approachnnpeoplenns	peoplennscome_upvbp	approachingnnthemnns	theynnscome_upvbp	themnnscomevbp	comingnntheynns	approachingnntheynns	comingnnthemnns	approachingnnpeoplenns	approachnntheynns	themnnscome_upvbp	approachingnnofinthemnns	approachnnofinthemnns	approachingnnofintheynns	comingnnofintheynns	theynnscomevbp	approachnnthemnns	
+
+BE: schoolNNturnedVBD
+EQ class: turningnnofinscholasticjj	crooknnofinscholasticjj	twistnnofinschoolnn	bendnnofinscholasticjj	turnnnscholasticjj	turnnnofinscholasticjj	scholasticjjturnedvbd	turningnnschoolnn	turningnnofinschoolnn	crooknnofinschoolnn	bendnnofinschoolnn	scholasticjjturnvbd	turnnnofinschoolnn	twistnnofinscholasticjj	schoolnnturnvbd	turnnnschoolnn	turningnnscholasticjj	
+
+BE: historyNNturnedVBD
+EQ class: bendnnofinhistoricjj	turningnnhistorynn	bendnnofinhistorynn	twistnnofinhistoricjj	historicjjturnvbd	crooknnofinhistorynn	turnnnofinhistoricjj	turnnnhistorynn	twistnnofinhistorynn	historynnturnvbd	turnnnofinhistorynn	turningnnofinhistorynn	historicjjturnedvbd	turnnnhistoricjj	turningnnhistoricjj	turningnnofinhistoricjj	crooknnofinhistoricjj	
+
+BE: myselfPRPincludedVBD
+EQ class: myselfprpincludevbd	
+
+BE: turnedVBDbyINsubjectNN
+EQ class: turnedvbdbyinthemenn	turnedvbdbyintopicnn	turnvbdbyinthemenn	turnvbdbyinsubjectnn	turnvbdbyintopicnn	
+
+BE: turnedVBDbyINitselfPRP
+EQ class: turnvbdbyinitselfprp	
+
+BE: comeVBPoutINschoolNN
+EQ class: comevbpoutinscholasticjj	come_upvbpoutinscholasticjj	come_upvbpoutinschoolnn	
+
+BE: comeVBPoutINhistoryNN
+EQ class: come_upvbpoutinhistoricjj	come_upvbpoutinhistorynn	comevbpoutinhistoricjj	
+
+BE: noticeVBPthatINcomeVBP
+EQ class: findvbpthatincomevbp	discovervbpthatincomevbp	noticevbpthatincome_upvbp	observevbpthatincome_upvbp	discovervbpthatincome_upvbp	detectvbpthatincome_upvbp	observevbpthatincomevbp	findvbpthatincome_upvbp	detectvbpthatincomevbp	
+
+BE: collegeNN
+EQ class: collegialjj	
+
+BE: degreeNN
+EQ class: levelnn	gradenn	
+
+BE: historyNN
+EQ class: historicjj	
+
+BE: somethingNN
+EQ class: 
+
+BE: levelNN
+EQ class: degreenn	gradenn	
+
+BE: museumNN
+EQ class: 
+
+BE: San DiegoLocationAnnotation
+EQ class: 
+
+BE: historyNN
+EQ class: historicjj	
+
+BE: gotVBD
+EQ class: getvbd	acquirevbd	
+
+BE: veVB
+EQ class: 
+
+BE: sparkedVBN
+EQ class: set_offvbn	trigger_offvbn	actuatevbn	spark_offvbn	tripvbn	activatevbn	sparkvbn	touch_offvbn	triggervbn	
+
+BE: studyVB
+EQ class: canvassvb	analysevb	canvasvb	examinevb	analyzevb	
+
+BE: gotVBD
+EQ class: getvbd	acquirevbd	
+
+BE: visitingVBG
+EQ class: visitvbg	seevbg	
+
+BE: liveVBP
+EQ class: dwellvbp	populatevbp	inhabitvbp	
+
+BE: interestedJJ
+EQ class: interestednessnn	
+
+BE: undergraduateJJ
+EQ class: 
+
+BE: interestedJJ
+EQ class: interestednessnn	
+
+BE: undergraduateJJlevelNN
+EQ class: undergraduatejjdegreenn	undergraduatejjgradenn	
+
+BE: myPRP$degreeNN
+EQ class: myprp$gradenn	gradennofinmyprp$	levelnnofinmyprp$	degreennofinmyprp$	myprp$levelnn	
+
+BE: myPRP$interestedJJ
+EQ class: myprp$interestednessnn	
+
+BE: collegeNNdegreeNN
+EQ class: collegenngradenn	collegialjjdegreenn	collegialjjgradenn	collegennlevelnn	gradennofincollegialjj	collegialjjlevelnn	degreennofincollegialjj	degreennofincollegenn	gradennofincollegenn	levelnnofincollegenn	levelnnofincollegialjj	
+
+BE: iPRPgotVBD
+EQ class: gettingnnofiniprp	acquiringnnofiniprp	gettingnniprp	iprpgetvbd	acquiringnniprp	iprpacquirevbd	
+
+BE: somethingNNveVB
+EQ class: 
+
+BE: interestedJJvisitingVBG
+EQ class: visitantnnofininterestedjj	visitornnofininterestednessnn	interestedjjseevbg	visitantnnofininterestednessnn	visitantnninterestednessnn	interestednessnnseevbg	visitornninterestednessnn	visitornninterestedjj	visitornnofininterestedjj	interestednessnnvisitvbg	interestedjjvisitvbg	visitantnninterestedjj	interestednessnnvisitingvbg	
+
+BE: iPRPliveVBP
+EQ class: iprpinhabitvbp	liveryjjiprp	livernniprp	livernnofiniprp	liveablennofiniprp	iprppopulatevbp	iprpdwellvbp	liveryjjofiniprp	livablennofiniprp	
+
+BE: gotVBDdegreeNN
+EQ class: getvbdgradenn	acquiringnnofindegreenn	getvbddegreenn	acquirevbdgradenn	gettingnnofindegreenn	acquirevbdlevelnn	acquiringnnofingradenn	gettingnnofinlevelnn	acquiringnnofinlevelnn	getvbdlevelnn	gotvbdgradenn	acquirevbddegreenn	gotvbdlevelnn	gettingnnofingradenn	
+
+BE: sparkedVBNinterestedJJ
+EQ class: sparkedvbninterestednessnn	activatevbninterestednessnn	triggervbninterestednessnn	flickernnofininterestedjj	glintnnofininterestedjj	triggervbninterestedjj	activatevbninterestedjj	sparkvbninterestednessnn	spark_offvbninterestednessnn	trigger_offvbninterestednessnn	tripvbninterestednessnn	actuatevbninterestedjj	glintnnofininterestednessnn	sparknnofininterestednessnn	set_offvbninterestedjj	spark_offvbninterestedjj	tripvbninterestedjj	trigger_offvbninterestedjj	sparkvbninterestedjj	sparknnofininterestedjj	touch_offvbninterestedjj	actuatevbninterestednessnn	set_offvbninterestednessnn	flickernnofininterestednessnn	touch_offvbninterestednessnn	
+
+BE: studyVBitPRP
+EQ class: analysevbitprp	analyzevbitprp	studynnofinitprp	canvasvbitprp	surveynnofinitprp	examinevbitprp	canvassvbitprp	
+
+BE: gotVBDmePRP
+EQ class: acquiringnnofinmeprp	getvbdmeprp	gettingnnofinmeprp	acquirevbdmeprp	
+
+BE: visitingVBGmuseumNN
+EQ class: visitantnnofinmuseumnn	seevbgmuseumnn	visitornnofinmuseumnn	visitvbgmuseumnn	
+
+BE: visitingVBGhistoryNN
+EQ class: visitantnnofinhistorynn	visitingvbghistoricjj	seevbghistorynn	visitornnofinhistorynn	visitvbghistoricjj	visitvbghistorynn	visitornnofinhistoricjj	visitantnnofinhistoricjj	seevbghistoricjj	
+
+BE: sparkedVBNsomethingNN
+EQ class: trigger_offvbnsomethingnn	glintnnofinsomethingnn	flickernnofinsomethingnn	activatevbnsomethingnn	triggervbnsomethingnn	touch_offvbnsomethingnn	actuatevbnsomethingnn	tripvbnsomethingnn	sparkvbnsomethingnn	sparknnofinsomethingnn	spark_offvbnsomethingnn	set_offvbnsomethingnn	
+
+BE: degreeNNinINhistoryNN
+EQ class: historynngradenn	levelnnininhistoricjj	gradennininhistorynn	gradennininhistoricjj	historicjjgradenn	degreennininhistoricjj	historynnlevelnn	historynndegreenn	levelnnininhistorynn	historicjjdegreenn	historicjjlevelnn	
+
+BE: museumNNofINSan DiegoLocationAnnotation
+EQ class: san diegolocationannotationmuseumnn	
+
+BE: studyVBonINlevelNN
+EQ class: canvassvboningradenn	analysevbonindegreenn	analyzevboninlevelnn	studyvbonindegreenn	studyvboningradenn	canvasvbonindegreenn	analyzevboningradenn	examinevboningradenn	analysevboningradenn	examinevboninlevelnn	analysevboninlevelnn	analyzevbonindegreenn	canvasvboninlevelnn	examinevbonindegreenn	canvassvbonindegreenn	canvassvboninlevelnn	canvasvboningradenn	
+
+BE: gotVBDsoINveVB
+EQ class: acquirevbdsoinvevb	getvbdsoinvevb	
+
+BE: gotVBDsoINsparkedVBN
+EQ class: gotvbdsointripvbn	getvbdsointripvbn	acquirevbdsointriggervbn	gotvbdsointrigger_offvbn	getvbdsoinactuatevbn	acquirevbdsoinset_offvbn	gotvbdsointriggervbn	getvbdsointouch_offvbn	getvbdsoinsparkvbn	gotvbdsoinsparkvbn	getvbdsointriggervbn	gotvbdsoinset_offvbn	getvbdsoinset_offvbn	acquirevbdsoinspark_offvbn	acquirevbdsoinsparkvbn	acquirevbdsointouch_offvbn	acquirevbdsoinactuatevbn	acquirevbdsoinsparkedvbn	gotvbdsoinactuatevbn	gotvbdsoinspark_offvbn	acquirevbdsointrigger_offvbn	getvbdsointrigger_offvbn	gotvbdsointouch_offvbn	acquirevbdsointripvbn	getvbdsoinspark_offvbn	gotvbdsoinactivatevbn	getvbdsoinsparkedvbn	getvbdsoinactivatevbn	acquirevbdsoinactivatevbn	
+
+BE: gotVBDHoweverRB
+EQ class: gettingnnofinhoweverrb	acquiringnnofinhoweverrb	getvbdhoweverrb	acquirevbdhoweverrb	
+
+BE: sparkedVBNwellRB
+EQ class: set_offvbnwellrb	sparkvbnwellrb	spark_offvbnwellrb	flickernnofinwellrb	tripvbnwellrb	trigger_offvbnwellrb	activatevbnwellrb	actuatevbnwellrb	sparknnofinwellrb	touch_offvbnwellrb	triggervbnwellrb	glintnnofinwellrb	
+
+BE: sparkedVBNenoughRB
+EQ class: sparkvbnenoughrb	flickernnofinenoughrb	set_offvbnenoughrb	tripvbnenoughrb	trigger_offvbnenoughrb	touch_offvbnenoughrb	actuatevbnenoughrb	activatevbnenoughrb	triggervbnenoughrb	glintnnofinenoughrb	sparknnofinenoughrb	spark_offvbnenoughrb	
+
+BE: schoolNN
+EQ class: scholasticjj	
+
+BE: schoolNN
+EQ class: scholasticjj	
+
+BE: historyNN
+EQ class: historicjj	
+
+BE: mNNP
+EQ class: meternnp	metrennp	
+
+BE: wayNN
+EQ class: stylenn	fashionnn	modenn	mannernn	
+
+BE: sVBZ
+EQ class: 
+
+BE: sVBZ
+EQ class: 
+
+BE: taughtVBN
+EQ class: teachvbn	learnvbn	instructvbn	
+
+BE: elementaryJJ
+EQ class: unproblematicjj	simplejj	uncomplicatedjj	
+
+BE: middleJJ
+EQ class: in-betweenjj	mediatejj	
+
+BE: boringJJ
+EQ class: wearisomejj	deadeningjj	irksomejj	ho-humjj	boringnessnn	slowjj	tiresomejj	dulljj	tediousjj	
+
+BE: sureJJ
+EQ class: surenessnn	certainjj	
+
+BE: elementaryJJschoolNN
+EQ class: unproblematicjjschoolnn	uncomplicatedjjscholasticjj	simplejjschoolnn	unproblematicjjscholasticjj	simplejjscholasticjj	uncomplicatedjjschoolnn	elementaryjjscholasticjj	scholasticvbelementarilyrb	schoolvbelementarilyrb	
+
+BE: middleJJhistoryNN
+EQ class: mediatejjhistoricjj	mediatejjhistorynn	middlejjhistoricjj	in-betweenjjhistoricjj	in-betweenjjhistorynn	
+
+BE: schoolNNhistoryNN
+EQ class: scholasticjjhistoricvb	schoolingnnofinhistoricjj	schoolnnhistoricjj	historicvbschoolnn	historynnschoolvb	scholasticjjhistorynn	scholasticjjhistoricjj	schoolingnnofinhistorynn	historynnofinschoolnn	schoolnnofinhistoricjj	scholasticjjofinhistorynn	historicjjofinschoolnn	schoolnnofinhistorynn	historicjjschoolvb	historicvbscholasticjj	schoolnnhistoricvb	scholasticjjofinhistoricjj	historicjjofinscholasticjj	historynnofinscholasticjj	
+
+BE: schoolNNwasAUX
+EQ class: schoolnnbeaux	scholasticjjbeaux	scholasticjjwasaux	
+
+BE: historyNNwasAUX
+EQ class: historynnbeaux	historicjjbeaux	historicjjwasaux	
+
+BE: itPRPsVBZ
+EQ class: 
+
+BE: itPRPsVBZ
+EQ class: 
+
+BE: sVBZwayNN
+EQ class: svbzfashionnn	svbzmodenn	svbzstylenn	svbzmannernn	
+
+BE: sVBZwayNN
+EQ class: svbzfashionnn	svbzmodenn	svbzstylenn	svbzmannernn	
+
+BE: wasAUXmNNP
+EQ class: wasauxmetrennp	beauxmeternnp	wasauxmeternnp	beauxmnnp	beauxmetrennp	
+
+BE: wasAUXboringJJ
+EQ class: beauxdulljj	wasauxboringnessnn	beauxdeadeningjj	beauxirksomejj	wasauxtediousjj	beauxho-humjj	beauxtiresomejj	beauxwearisomejj	beauxtediousjj	beauxslowjj	wasauxslowjj	wasauxho-humjj	wasauxirksomejj	wasauxdeadeningjj	wasauxtiresomejj	wasauxdulljj	wasauxwearisomejj	beauxboringjj	beauxboringnessnn	
+
+BE: boringJJtoTOmePRP
+EQ class: boringnessnntotomeprp	dulljjtotomeprp	tiresomejjtotomeprp	tediousjjtotomeprp	deadeningjjtotomeprp	ho-humjjtotomeprp	slowjjtotomeprp	wearisomejjtotomeprp	irksomejjtotomeprp	
+
+BE: boringJJtoTOiPRP
+EQ class: wearisomejjtotoiprp	deadeningjjtotoiprp	slowjjtotoiprp	boringnessnntotoiprp	tiresomejjtotoiprp	tediousjjtotoiprp	ho-humjjtotoiprp	irksomejjtotoiprp	dulljjtotoiprp	
+
+BE: wasAUXHoweverRB
+EQ class: beauxhoweverrb	
+
+BE: numberNN
+EQ class: figurenn	
+
+BE: peopleNNS
+EQ class: theynns	themnns	
+
+BE: historyNN
+EQ class: historicjj	
+
+BE: wayNN
+EQ class: stylenn	fashionnn	modenn	mannernn	
+
+BE: schoolNN
+EQ class: scholasticjj	
+
+BE: datesNNS
+EQ class: theynns	datenns	day_of_the_monthnns	themnns	
+
+BE: talkedVBD
+EQ class: speakvbd	talkvbd	
+
+BE: hatedVBN
+EQ class: hatevbn	detestvbn	
+
+BE: presentedVBN
+EQ class: demovbn	showvbn	demonstratevbn	presentvbn	exhibitvbn	
+
+BE: memorizingJJ
+EQ class: 
+
+BE: memorizingJJdatesNNS
+EQ class: memorizingjjtheynns	memorizingjjday_of_the_monthnns	memorizingjjthemnns	memorizingjjdatenns	
+
+BE: iPRPtalkedVBD
+EQ class: talkativennofiniprp	iprpspeakvbd	talkingnnofiniprp	talkingnniprp	iprptalkvbd	talknnofiniprp	talknniprp	
+
+BE: presentedVBNwayNN
+EQ class: presentationnnofinstylenn	notificationnnofinstylenn	presentvbnfashionnn	presentvbnmodenn	presentationnnofinmannernn	demovbnwaynn	notificationnnofinfashionnn	showvbnwaynn	demonstratevbnfashionnn	demovbnfashionnn	exhibitvbnwaynn	presentedvbnmodenn	demonstratevbnwaynn	notificationnnofinmannernn	presentmentnnofinwaynn	presentmentnnofinfashionnn	presentmentnnofinmodenn	notificationnnofinwaynn	notificationnnofinmodenn	demovbnmannernn	showvbnfashionnn	presentationnnofinfashionnn	presentvbnwaynn	presentvbnstylenn	presentedvbnmannernn	exhibitvbnfashionnn	demonstratevbnstylenn	demovbnstylenn	presentmentnnofinstylenn	exhibitvbnmodenn	exhibitvbnmannernn	showvbnmannernn	presentationnnofinwaynn	showvbnmodenn	showvbnstylenn	exhibitvbnstylenn	presentvbnmannernn	presentedvbnfashionnn	demonstratevbnmodenn	demonstratevbnmannernn	presentmentnnofinmannernn	presentedvbnstylenn	demovbnmodenn	presentationnnofinmodenn	
+
+BE: hatedVBNhistoryNN
+EQ class: detestvbnhistoricjj	hatennofinhistorynn	hatennofinhistoricjj	hatrednnofinhistoricjj	haternnofinhistoricjj	hatevbnhistoricjj	haternnofinhistorynn	detestvbnhistorynn	hatevbnhistorynn	hatrednnofinhistorynn	hatedvbnhistoricjj	
+
+BE: presentedVBNitPRP
+EQ class: showvbnitprp	demovbnitprp	presentvbnitprp	presentationnnofinitprp	notificationnnofinitprp	presentmentnnofinitprp	exhibitvbnitprp	demonstratevbnitprp	
+
+BE: numberNNofINpeopleNNS
+EQ class: amountvbtheynns	figurennofinthemnns	themnnsnumbervb	theynnscomevb	themnnsamountvb	numbernnofintheynns	themnnsnumbernn	totalvbpeoplenns	peoplennsnumbernn	comevbpeoplenns	amountvbthemnns	figurennofintheynns	peoplennsadd_upvb	peoplennsamountvb	numbervbthemnns	add_upvbtheynns	theynnsnumbervb	themnnscomevb	comevbtheynns	theynnsamountvb	numbernnofinthemnns	peoplennstotalvb	add_upvbthemnns	totalvbtheynns	add_upvbpeoplenns	theynnsnumbernn	themnnsadd_upvb	totalvbthemnns	theynnsfigurenn	comevbthemnns	themnnsfigurenn	amountvbpeoplenns	peoplennsnumbervb	theynnsadd_upvb	peoplennscomevb	peoplennsfigurenn	theynnstotalvb	themnnstotalvb	numbervbtheynns	numbervbpeoplenns	figurennofinpeoplenns	
+
+BE: talkedVBDtoTOnumberNN
+EQ class: speakvbdtotonumbernn	speakvbdtotofigurenn	talkedvbdtotofigurenn	talkvbdtotonumbernn	talkvbdtotofigurenn	
+
+BE: hatedVBNofINwayNN
+EQ class: hatedvbnofinstylenn	detestvbnofinwaynn	hatedvbnofinmodenn	hatedvbnofinfashionnn	hatevbnofinmodenn	detestvbnofinstylenn	hatedvbnofinmannernn	hatevbnofinwaynn	hatevbnofinmannernn	hatevbnofinstylenn	detestvbnofinmodenn	detestvbnofinmannernn	detestvbnofinfashionnn	hatevbnofinfashionnn	
+
+BE: presentedVBNinINschoolNN
+EQ class: demonstratevbnininscholasticjj	demovbnininschoolnn	demovbnininscholasticjj	presentedvbnininscholasticjj	exhibitvbnininscholasticjj	showvbnininscholasticjj	presentvbnininschoolnn	showvbnininschoolnn	presentvbnininscholasticjj	demonstratevbnininschoolnn	exhibitvbnininschoolnn	
+
+BE: talkedVBDveRB
+EQ class: talknnofinverb	talkingnnofinverb	talkativennofinverb	talkvbdverb	speakvbdverb	
+
+BE: differenceNN
+EQ class: differentjj	differentialjj	
+
+BE: wayNN
+EQ class: stylenn	fashionnn	modenn	mannernn	
+
+BE: historyNN
+EQ class: historicjj	
+
+BE: schoolNN
+EQ class: scholasticjj	
+
+BE: wayNN
+EQ class: stylenn	fashionnn	modenn	mannernn	
+
+BE: universityNN
+EQ class: 
+
+BE: levelNN
+EQ class: degreenn	gradenn	
+
+BE: taughtVBN
+EQ class: teachvbn	learnvbn	instructvbn	
+
+BE: taughtVBN
+EQ class: teachvbn	learnvbn	instructvbn	
+
+BE: primaryJJ
+EQ class: 
+
+BE: secondaryJJ
+EQ class: 
+
+BE: clearJJ
+EQ class: claritynn	clearnessnn	
+
+BE: wayNNhistoryNN
+EQ class: historynnofinmannernn	fashionnnhistorynn	waynnhistoricjj	historynnofinmodenn	historynnofinstylenn	modennhistoricjj	historicjjofinwaynn	mannernnhistoricvb	historicjjofinfashionnn	waynnhistoricvb	fashionnnhistoricjj	historicvbmodenn	fashionnnhistoricvb	mannernnhistorynn	stylennhistoricvb	modennhistorynn	mannernnhistoricjj	historicjjofinmodenn	historicjjofinmannernn	modennhistoricvb	stylennhistorynn	historicjjofinstylenn	historicvbfashionnn	historynnofinwaynn	historicvbstylenn	historicvbwaynn	historynnofinfashionnn	stylennhistoricjj	historicvbmannernn	
+
+BE: universityNNlevelNN
+EQ class: universitynndegreenn	gradennofinuniversitynn	degreennofinuniversitynn	levelnnofinuniversitynn	universitynngradenn	
+
+BE: wayNNisAUX
+EQ class: mannernnisaux	stylennbeaux	waynnbeaux	fashionnnbeaux	fashionnnisaux	modennbeaux	mannernnbeaux	stylennisaux	modennisaux	
+
+BE: taughtVBNwayNN
+EQ class: pedagogynnofinmodenn	teachvbnmannernn	instructornnofinmannernn	instructionnnofinmodenn	teachingnnofinstylenn	instructionnnofinmannernn	teachablennofinmannernn	instructionnnofinfashionnn	taughtvbnmodenn	instructvbnstylenn	teachablennofinmodenn	learnvbnmodenn	teachingnnofinwaynn	instructornnofinstylenn	teachvbnmodenn	pedagogynnofinwaynn	teachernnofinfashionnn	teachingnnofinfashionnn	pedagogynnofinfashionnn	instructornnofinmodenn	instructvbnmodenn	teachingnnofinmodenn	instructvbnwaynn	teachvbnstylenn	learnvbnmannernn	teachernnofinmannernn	learnvbnwaynn	instructornnofinwaynn	instructornnofinfashionnn	teachernnofinwaynn	teachingnnofinmannernn	taughtvbnstylenn	taughtvbnmannernn	instructvbnmannernn	learnvbnfashionnn	teachvbnwaynn	teachablennofinwaynn	teachablennofinstylenn	instructionnnofinwaynn	instructvbnfashionnn	learnvbnstylenn	pedagogynnofinstylenn	taughtvbnfashionnn	instructionnnofinstylenn	teachablennofinfashionnn	teachvbnfashionnn	pedagogynnofinmannernn	teachernnofinmodenn	teachernnofinstylenn	
+
+BE: taughtVBNdifferenceNN
+EQ class: taughtvbndifferentjj	instructionnnofindifferentjj	learnvbndifferentialjj	teachingnnofindifferencenn	teachvbndifferentialjj	taughtvbndifferentialjj	instructornnofindifferentjj	teachablennofindifferentjj	teachingnnofindifferentjj	teachernnofindifferentialjj	teachablennofindifferencenn	instructionnnofindifferentialjj	pedagogynnofindifferentjj	instructornnofindifferencenn	teachablennofindifferentialjj	instructvbndifferencenn	learnvbndifferencenn	learnvbndifferentjj	pedagogynnofindifferentialjj	teachvbndifferencenn	instructornnofindifferentialjj	instructionnnofindifferencenn	teachvbndifferentjj	pedagogynnofindifferencenn	instructvbndifferentialjj	teachernnofindifferentjj	teachernnofindifferencenn	teachingnnofindifferentialjj	instructvbndifferentjj	
+
+BE: taughtVBNitPRP
+EQ class: teachablennofinitprp	pedagogynnofinitprp	instructvbnitprp	teachernnofinitprp	instructornnofinitprp	learnvbnitprp	instructionnnofinitprp	teachingnnofinitprp	teachvbnitprp	
+
+BE: isAUXclearJJ
+EQ class: beauxclaritynn	isauxclaritynn	isauxclearnessnn	beauxclearnessnn	beauxclearjj	
+
+BE: differenceNNbetweenINhistoryNN
+EQ class: severalizevbhistorynn	historynndifferentialvb	tellvbhistorynn	tellvbhistoricjj	historynndifferentjj	historicjjseveralisevb	historicjjtell_apartvb	historynnsecernvb	historicjjdifferentialvb	secernatevbhistorynn	historicjjdiffervb	historicjjdifferentvb	differentvbhistoricjj	historicjjdifferencenn	historynnsecernatevb	separatevbhistorynn	differencennbetweeninhistoricjj	differentialvbhistorynn	historicjjdifferentialjj	secernvbhistorynn	differentjjbetweeninhistorynn	historicjjdistinguishvb	secernvbhistoricjj	severalisevbhistoricjj	severalizevbhistoricjj	historynndifferentiatevb	differentvbhistorynn	historynndifferentialjj	historynndistinguishvb	historicjjsecernatevb	severalisevbhistorynn	historicjjseparatevb	historynnseparatevb	historicjjsecernvb	secernatevbhistoricjj	distinguishvbhistorynn	historicjjseveralizevb	historynndifferencenn	differentjjbetweeninhistoricjj	distinguishvbhistoricjj	differentialvbhistoricjj	differentiatevbhistoricjj	historynndifferentvb	differentialjjbetweeninhistoricjj	separatevbhistoricjj	differvbhistoricjj	differentiatevbhistorynn	historynndiffervb	historicjjdifferentjj	historynntell_apartvb	historicjjdifferentiatevb	historynnseveralisevb	tell_apartvbhistorynn	historynnseveralizevb	historynntellvb	tell_apartvbhistoricjj	differvbhistorynn	historicjjtellvb	differentialjjbetweeninhistorynn	
+
+BE: taughtVBNinINschoolNN
+EQ class: learnvbnininschoolnn	taughtvbnininscholasticjj	teachvbnininscholasticjj	teachvbnininschoolnn	learnvbnininscholasticjj	instructvbnininscholasticjj	instructvbnininschoolnn	
+
+BE: taughtVBNatINlevelNN
+EQ class: instructvbnatindegreenn	teachvbnatindegreenn	teachvbnatinlevelnn	learnvbnatindegreenn	instructvbnatinlevelnn	taughtvbnatingradenn	learnvbnatinlevelnn	learnvbnatingradenn	taughtvbnatindegreenn	teachvbnatingradenn	instructvbnatingradenn	
+
+BE: educationNN
+EQ class: didacticsnn	instructionnn	educational_activitynn	pedagogynn	teachingnn	educationaljj	
+
+BE: systemNN
+EQ class: 
+
+BE: teachingNN
+EQ class: instructionnn	pedagogynn	
+
+BE: historyNN
+EQ class: historicjj	
+
+BE: improveVB
+EQ class: bettervb	amelioratevb	amendvb	melioratevb	
+
+BE: educationNNsystemNN
+EQ class: pupilnnofinsystemnn	systemnnofinteachingnn	pedagoguennofinsystemnn	educatornnofinsystemnn	systemnnofindidacticsnn	systemnnofineducationaljj	educational_activitynnofinsystemnn	educationaljjsystemnn	didacticsnnofinsystemnn	instructionnnsystemnn	systemnneducatevb	systemnnofininstructionnn	pedagogynnofinsystemnn	teachingnnsystemnn	systemnnofineducational_activitynn	educateennofinsystemnn	studentnnofinsystemnn	instructionnnofinsystemnn	educationaljjofinsystemnn	systemnnofineducationnn	teachingnnofinsystemnn	pedagognnofinsystemnn	educationnnofinsystemnn	systemnnofinpedagogynn	didacticsnnsystemnn	pedagogynnsystemnn	educational_activitynnsystemnn	educativennofinsystemnn	
+
+BE: improveVBteachingNN
+EQ class: melioratevbteachingnn	advancennofinpedagogynn	melioratevbpedagogynn	improvementnnofininstructionnn	humanitariannnofinteachingnn	bettermentnnofinpedagogynn	improvernnofininstructionnn	bettervbteachingnn	bettervbinstructionnn	amelioratevbinstructionnn	improvernnofinteachingnn	improvementnnofinpedagogynn	bettermentnnofinteachingnn	amendvbpedagogynn	amelioratevbpedagogynn	improvernnofinpedagogynn	amendvbinstructionnn	advancennofinteachingnn	improvevbpedagogynn	amendvbteachingnn	humanitariannnofininstructionnn	do-goodernnofininstructionnn	amelioratevbteachingnn	improvevbinstructionnn	advancennofininstructionnn	bettermentnnofininstructionnn	improvementnnofinteachingnn	do-goodernnofinteachingnn	melioratevbinstructionnn	do-goodernnofinpedagogynn	humanitariannnofinpedagogynn	bettervbpedagogynn	
+
+BE: teachingNNofINhistoryNN
+EQ class: historicjjinstructionnn	historynnpedagogynn	historicjjteachingnn	teachingnnofinhistoricjj	pedagogynnofinhistorynn	historynninstructionnn	historynnteachingnn	instructionnnofinhistorynn	pedagogynnofinhistoricjj	instructionnnofinhistoricjj	historicjjpedagogynn	
+
+BE: yearsNNS
+EQ class: old_agenns	geezerhoodnns	eldnns	theynns	themnns	agenns	
+
+BE: improvedVBN
+EQ class: melioratevbn	amelioratevbn	amendvbn	bettervbn	improvevbn	
+
+BE: lastJJ
+EQ class: 
+
+BE: lastJJyearsNNS
+EQ class: lastjjthemnns	lastjjeldnns	lastjjtheynns	lastjjgeezerhoodnns	lastjjold_agenns	lastjjagenns	
+
+BE: 15CDyearsNNS
+EQ class: 15cdgeezerhoodnns	1.5.cdold_agenns	xvcdagenns	1.5.cdeldnns	fifteencdagenns	15cdold_agenns	1.5.cdgeezerhoodnns	1.5.cdyearsnns	xvcdold_agenns	xvcdtheynns	1.5.cdagenns	fifteencdold_agenns	15cdthemnns	xvcdgeezerhoodnns	1.5.cdthemnns	xvcdeldnns	xvcdthemnns	xvcdyearsnns	15cdeldnns	1.5.cdtheynns	fifteencdthemnns	15cdtheynns	fifteencdgeezerhoodnns	15cdagenns	fifteencdtheynns	fifteencdyearsnns	fifteencdeldnns	
+
+BE: improvedVBNinINyearsNNS
+EQ class: improvevbninintheynns	melioratevbnininyearsnns	improvedvbnininold_agenns	improvedvbninineldnns	amelioratevbninintheynns	amendvbnininagenns	amelioratevbnininthemnns	amelioratevbninineldnns	improvevbninineldnns	melioratevbnininold_agenns	amelioratevbnininagenns	improvedvbnininagenns	bettervbnininyearsnns	melioratevbniningeezerhoodnns	melioratevbnininthemnns	bettervbnininold_agenns	amendvbniningeezerhoodnns	improvevbnininold_agenns	improvedvbniningeezerhoodnns	improvevbnininyearsnns	amendvbnininyearsnns	improvevbnininagenns	amelioratevbnininold_agenns	improvevbnininthemnns	melioratevbninineldnns	bettervbniningeezerhoodnns	bettervbnininthemnns	improvevbniningeezerhoodnns	bettervbninintheynns	amendvbnininthemnns	improvedvbnininthemnns	bettervbninineldnns	melioratevbninintheynns	improvedvbninintheynns	bettervbnininagenns	amelioratevbnininyearsnns	amelioratevbniningeezerhoodnns	amendvbninintheynns	amendvbnininold_agenns	melioratevbnininagenns	amendvbninineldnns	
+
+BE: textbooksNNS
+EQ class: theynns	schoolbooknns	school_textnns	textnns	text_editionnns	themnns	textbooknns	
+
+BE: schoolNN
+EQ class: scholasticjj	
+
+BE: TheNNP
+EQ class: 
+
+BE: ??VBN
+EQ class: ?.?.vbn	
+
+BE: vagueJJ
+EQ class: vaguenessnn	obscurejj	
+
+BE: earlyJJ
+EQ class: earlinessnn	
+
+BE: earlyJJ90sCD
+EQ class: earlinessnnninetycd	earlyjj90cd	earlyjjxccd	earlyjjninetycd	earlinessnn90scd	earlinessnn90cd	earlinessnnxccd	
+
+BE: iPRPwasAUX
+EQ class: iprpbeaux	
+
+BE: ??VBNTheNNP
+EQ class: ?.?.vbnthennp	
+
+BE: ??VBNtheyPRP
+EQ class: ??vbnpeopleprp	??vbnyearsprp	?.?.vbndatesprp	?.?.vbnsuitsprp	?.?.vbntheyprp	?.?.vbnpeopleprp	?.?.vbntextbooksprp	?.?.vbnschoolsprp	?.?.vbnptsprp	?.?.vbnyearsprp	??vbndatesprp	??vbnsuitsprp	??vbnanswersprp	??vbntextbooksprp	??vbnptsprp	?.?.vbnanswersprp	??vbnschoolsprp	
+
+BE: wasAUXinINschoolNN
+EQ class: wasauxininscholasticjj	beauxininscholasticjj	beauxininschoolnn	
+
+BE: 90sCDwhenWRBwasAUX
+EQ class: xccdwhenwrbbeaux	90cdwhenwrbbeaux	90cdwhenwrbwasaux	ninetycdwhenwrbbeaux	xccdwhenwrbwasaux	90scdwhenwrbbeaux	ninetycdwhenwrbwasaux	
+
+BE: wereAUXbackRB
+EQ class: beauxbackrb	
+
+BE: ??VBNbackRB
+EQ class: ?.?.vbnbackrb	
+
+BE: answersNNS
+EQ class: theynns	replynns	responsenns	answernns	themnns	
+
+BE: questionNN
+EQ class: enquirynn	interrogationnn	querynn	inquirynn	
+
+BE: oneNN
+EQ class: inn	acenn	unitynn	singlenn	1nn	
+
+BE: questionNN
+EQ class: enquirynn	interrogationnn	querynn	inquirynn	
+
+BE: voteNN
+EQ class: votingnn	ballotingnn	ballotnn	
+
+BE: answer.hehNN
+EQ class: answerhehnn	
+
+BE: questionNN
+EQ class: enquirynn	interrogationnn	querynn	inquirynn	
+
+BE: answerNN
+EQ class: replynn	responsenn	
+
+BE: suitsNNS
+EQ class: suitnns	theynns	suit_of_clothesnns	themnns	
+
+BE: opinionNN
+EQ class: thoughtnn	viewnn	persuasionnn	sentimentnn	
+
+BE: and/orNN
+EQ class: beaver_statenn	ornn	oregonnn	
+
+BE: answerNN
+EQ class: replynn	responsenn	
+
+BE: ptsNNS
+EQ class: atomic_number_78nns	platinumnns	theynns	ptnns	themnns	
+
+BE: goingVBG
+EQ class: movevbg	govbg	travelvbg	locomotevbg	
+
+BE: putVB
+EQ class: posevb	placevb	positionvb	layvb	setvb	
+
+BE: likeVBP
+EQ class: wishvbp	carevbp	
+
+BE: voteVB
+EQ class: 
+
+BE: contributedVBN
+EQ class: bestowvbn	contributevbn	bringvbn	addvbn	impartvbn	lendvbn	
+
+BE: pleaseVB
+EQ class: delightvb	
+
+BE: pickVB
+EQ class: 
+
+BE: thinkVBP
+EQ class: conceivevbp	believevbp	considervbp	
+
+BE: getVB
+EQ class: acquirevb	
+
+BE: pickVBoutRP
+EQ class: pickernnofinoutrp	selectornnofinoutrp	choosernnofinoutrp	selectionnnofinoutrp	choicennofinoutrp	picknnofinoutrp	
+
+BE: goodJJ
+EQ class: goodnessnn	
+
+BE: difficultJJ
+EQ class: hardjj	difficultnessnn	
+
+BE: bestJJS
+EQ class: bestnn	
+
+BE: ownJJ
+EQ class: ainjj	
+
+BE: bestJJS
+EQ class: bestnn	
+
+BE: ownJJ
+EQ class: ainjj	
+
+BE: bestJJS
+EQ class: bestnn	
+
+BE: tenCDanswersNNS
+EQ class: tencdreplynns	tennercdthemnns	10cdanswersnns	tencdthemnns	decadecdreplynns	xcdtheynns	decadecdtheynns	10cdanswernns	tennercdtheynns	tennercdanswersnns	xcdanswernns	decadecdanswernns	tennercdresponsenns	10cdreplynns	xcdthemnns	tencdresponsenns	tennercdreplynns	decadecdresponsenns	tencdtheynns	decadecdthemnns	decadecdanswersnns	xcdanswersnns	tennercdanswernns	10cdresponsenns	10cdtheynns	xcdresponsenns	tencdanswernns	xcdreplynns	10cdthemnns	
+
+BE: goodJJanswersNNS
+EQ class: goodnessnnthemnns	goodnessnnanswersnns	goodnessnnresponsenns	goodjjtheynns	goodnessnnanswernns	goodjjreplynns	goodjjresponsenns	goodnessnntheynns	goodjjanswernns	goodnessnnreplynns	goodjjthemnns	
+
+BE: bestJJSoneNN
+EQ class: bestnnsinglenn	bestjjs1nn	bestjjsunitynn	bestnnonenn	bestjjsinn	bestjjsacenn	bestnnacenn	bestjjssinglenn	bestnnunitynn	bestnninn	bestnn1nn	
+
+BE: ownJJanswer.hehNN
+EQ class: ainjjanswer.hehnn	ownjjanswerhehnn	ainjjanswerhehnn	
+
+BE: bestJJSsuitsNNS
+EQ class: bestjjssuit_of_clothesnns	bestnnsuit_of_clothesnns	bestjjsthemnns	bestnnthemnns	bestnntheynns	bestnnsuitsnns	bestjjstheynns	bestjjssuitnns	bestnnsuitnns	
+
+BE: ownJJopinionNN
+EQ class: ownjjthoughtnn	ownjjsentimentnn	ainjjviewnn	ainjjopinionnn	ownjjviewnn	ainjjthoughtnn	ainjjpersuasionnn	ownjjpersuasionnn	ainjjsentimentnn	
+
+BE: bestJJSanswerNN
+EQ class: bestjjsreplynn	bestnnanswernn	bestnnreplynn	bestnnresponsenn	bestjjsresponsenn	
+
+BE: 10CDptsNNS
+EQ class: decadecdptsnns	decadecdatomic_number_78nns	tennercdthemnns	1.0.cdtheynns	1.0.cdptsnns	tencdthemnns	xcdptsnns	xcdatomic_number_78nns	xcdtheynns	decadecdtheynns	tennercdtheynns	tennercdptsnns	tencdptsnns	10cdatomic_number_78nns	xcdptnns	tennercdptnns	10cdplatinumnns	1.0.cdptnns	1.0.cdatomic_number_78nns	xcdthemnns	decadecdptnns	1.0.cdplatinumnns	tencdtheynns	decadecdplatinumnns	tennercdplatinumnns	decadecdthemnns	10cdptnns	tennercdatomic_number_78nns	10cdtheynns	1.0.cdthemnns	tencdplatinumnns	tencdptnns	tencdatomic_number_78nns	xcdplatinumnns	10cdthemnns	
+
+BE: yourPRP$answer.hehNN
+EQ class: yourprp$answerhehnn	
+
+BE: yourPRP$opinionNN
+EQ class: opinionnnofinyourprp$	yourprp$persuasionnn	speak_outvbyourprp$	yourprp$animadvertvb	sentimentnnofinyourprp$	yourprp$thoughtnn	viewnnofinyourprp$	thoughtnnofinyourprp$	yourprp$opinevb	yourprp$speak_upvb	sound_offvbyourprp$	animadvertvbyourprp$	yourprp$speak_outvb	yourprp$sentimentnn	opinevbyourprp$	speak_upvbyourprp$	persuasionnnofinyourprp$	yourprp$sound_offvb	yourprp$viewnn	
+
+BE: thereEXareAUX
+EQ class: thereexbeaux	
+
+BE: itPRPbeAUX
+EQ class: 
+
+BE: mePRPpickVB
+EQ class: selectornnmeprp	choosernnofinmeprp	selectionnnofinmeprp	pickernnofinmeprp	choicennofinmeprp	picknnofinmeprp	selectornnofinmeprp	choosernnmeprp	pickernnmeprp	
+
+BE: iPRPgoingVBG
+EQ class: iprptravelvbg	iprplocomotevbg	iprpmovevbg	iprpgovbg	
+
+BE: youPRPvoteVB
+EQ class: votennyouprp	ballotingnnofinyouprp	votingnnofinyouprp	voternnyouprp	electornnyouprp	voternnofinyouprp	ballotnnofinyouprp	electornnofinyouprp	votingnnyouprp	ballotnnyouprp	ballotingnnyouprp	votennofinyouprp	
+
+BE: youPRPlikeVBP
+EQ class: youprpwishvbp	youprpcarevbp	
+
+BE: youPRPthinkVBP
+EQ class: youprpbelievevbp	ideannofinyouprp	youprpconceivevbp	ideannyouprp	thoughtnnyouprp	youprpconsidervbp	thoughtnnofinyouprp	
+
+BE: thoseDTcontributedVBN
+EQ class: thosedtbestowvbn	thosedtimpartvbn	thosedtbringvbn	thosedtcontributevbn	thosedtlendvbn	thosedtaddvbn	
+
+BE: goingVBGoneNN
+EQ class: locomotevbginn	govbginn	govbgunitynn	movevbgunitynn	goingvbgunitynn	govbg1nn	locomotevbgunitynn	movevbg1nn	goingvbg1nn	movevbgsinglenn	locomotevbgonenn	travelvbg1nn	goingvbginn	locomotevbgsinglenn	movevbgonenn	govbgonenn	govbgacenn	travelvbginn	goingvbgsinglenn	goingvbgacenn	govbgsinglenn	movevbginn	locomotevbg1nn	movevbgacenn	travelvbgunitynn	travelvbgacenn	travelvbgonenn	travelvbgsinglenn	locomotevbgacenn	
+
+BE: thinkVBPanswerNN
+EQ class: ideannofinreplynn	thoughtnnofinresponsenn	thinkvbpresponsenn	thoughtnnofinanswernn	considervbpreplynn	conceivevbpanswernn	conceivevbpresponsenn	ideannofinanswernn	believevbpresponsenn	thoughtnnofinreplynn	considervbpanswernn	considervbpresponsenn	ideannofinresponsenn	believevbpreplynn	thinkvbpreplynn	conceivevbpreplynn	believevbpanswernn	
+
+BE: areAUXanswersNNS
+EQ class: areauxanswernns	beauxresponsenns	areauxreplynns	beauxanswernns	beauxthemnns	beauxreplynns	areauxthemnns	beauxanswersnns	beauxtheynns	areauxresponsenns	areauxtheynns	
+
+BE: pickVBoneNN
+EQ class: choicennofinunitynn	pickernnofinacenn	choosernnofinacenn	pickvbacenn	choosernnofininn	picknnofinunitynn	pickernnofininn	selectionnnofinunitynn	selectionnnofinsinglenn	picknnofinsinglenn	pickernnofinsinglenn	choicennofin1nn	choicennofininn	choicennofinonenn	choosernnofin1nn	selectionnnofininn	selectionnnofin1nn	selectornnofinunitynn	choosernnofinsinglenn	choicennofinacenn	pickernnofinunitynn	choosernnofinunitynn	selectionnnofinacenn	pickernnofinonenn	choosernnofinonenn	picknnofin1nn	picknnofininn	pickvbinn	picknnofinonenn	pickvb1nn	pickvbunitynn	pickernnofin1nn	selectionnnofinonenn	pickvbsinglenn	picknnofinacenn	selectornnofinonenn	choicennofinsinglenn	selectornnofin1nn	selectornnofinsinglenn	selectornnofinacenn	selectornnofininn	
+
+BE: putVBquestionNN
+EQ class: positionvbinquirynn	setvbinterrogationnn	layvbinquirynn	placevbenquirynn	setvbquestionnn	positionvbquestionnn	posevbinterrogationnn	positionvbquerynn	placevbquerynn	setvbinquirynn	posevbenquirynn	placevbinquirynn	putvbinquirynn	layvbquerynn	placevbinterrogationnn	putvbinterrogationnn	posevbquestionnn	putvbquerynn	layvbinterrogationnn	layvbenquirynn	putvbenquirynn	positionvbenquirynn	setvbenquirynn	positionvbinterrogationnn	posevbinquirynn	posevbquerynn	placevbquestionnn	layvbquestionnn	setvbquerynn	
+
+BE: pickVBanswerNN
+EQ class: selectornnofinanswernn	pickvbresponsenn	choicennofinresponsenn	choicennofinanswernn	choosernnofinresponsenn	picknnofinresponsenn	choicennofinreplynn	selectionnnofinresponsenn	picknnofinreplynn	choosernnofinreplynn	selectionnnofinanswernn	selectionnnofinreplynn	picknnofinanswernn	selectornnofinresponsenn	choosernnofinanswernn	pickernnofinresponsenn	pickernnofinreplynn	pickvbreplynn	pickernnofinanswernn	selectornnofinreplynn	
+
+BE: and/orNNanswerNN
+EQ class: ornnreplynn	and/ornnresponsenn	oregonnnanswernn	ornnresponsenn	beaver_statennreplynn	beaver_statennanswernn	oregonnnreplynn	ornnanswernn	beaver_statennresponsenn	oregonnnresponsenn	and/ornnreplynn	
+
+BE: getVBptsNNS
+EQ class: getvbplatinumnns	acquiringnnofinplatinumnns	acquiringnnofinptsnns	gettingnnofinatomic_number_78nns	gettingnnofinptnns	acquiringnnofinptnns	getvbptnns	gettingnnofinptsnns	getvbatomic_number_78nns	acquirevbplatinumnns	acquirevbptsnns	acquirevbptnns	acquirevbthemnns	gettingnnofinthemnns	gettingnnofinplatinumnns	getvbtheynns	gettingnnofintheynns	acquirevbtheynns	acquiringnnofintheynns	acquiringnnofinatomic_number_78nns	getvbthemnns	acquirevbatomic_number_78nns	acquiringnnofinthemnns	
+
+BE: beAUXdifficultJJ
+EQ class: beauxhardjj	beauxdifficultnessnn	
+
+BE: answersNNStoTOquestionNN
+EQ class: themnnstotointerrogationnn	inquirynnresponsenns	inquirynnanswervb	responsennstotoinquirynn	enquirynnreplyvb	answernnstotoinquirynn	inquirynntheynns	inquirynnreplyvb	querynnrespondvb	answernnstotoquestionnn	theynnstotoquestionnn	querynnanswersnns	responsennstotoquestionnn	enquirynnthemnns	respondvbquestionnn	interrogationnntheynns	answersnnstotoenquirynn	responsennstotointerrogationnn	answervbquestionnn	answernnstotoquerynn	respondvbquerynn	answersnnstotointerrogationnn	answervbinquirynn	answervbenquirynn	inquirynnanswernns	enquirynnreplynns	replyvbenquirynn	interrogationnnanswersnns	querynnthemnns	replynnstotoinquirynn	enquirynnanswernns	interrogationnnanswernns	questionnnrespondvb	answernnstotoenquirynn	answersnnstotoinquirynn	questionnnanswersnns	replynnstotoenquirynn	inquirynnreplynns	enquirynntheynns	questionnntheynns	enquirynnresponsenns	replyvbinquirynn	enquirynnrespondvb	interrogationnnanswervb	themnnstotoquerynn	questionnnreplynns	theynnstotoquerynn	answervbquerynn	inquirynnanswersnns	inquirynnrespondvb	answersnnstotoquerynn	replyvbinterrogationnn	questionnnanswernns	enquirynnanswervb	answervbinterrogationnn	replynnstotoquerynn	answernnstotointerrogationnn	replyvbquestionnn	querynnreplyvb	themnnstotoquestionnn	querynnreplynns	interrogationnnreplynns	respondvbenquirynn	questionnnanswervb	querynnresponsenns	theynnstotoenquirynn	inquirynnthemnns	replynnstotointerrogationnn	replynnstotoquestionnn	interrogationnnthemnns	querynntheynns	questionnnreplyvb	replyvbquerynn	querynnanswernns	theynnstotointerrogationnn	interrogationnnresponsenns	themnnstotoenquirynn	enquirynnanswersnns	questionnnresponsenns	querynnanswervb	theynnstotoinquirynn	respondvbinquirynn	interrogationnnrespondvb	responsennstotoenquirynn	respondvbinterrogationnn	responsennstotoquerynn	themnnstotoinquirynn	questionnnthemnns	interrogationnnreplyvb	
+
+BE: pickVBforINthoseDT
+EQ class: 
+
+BE: putVBtoTOvoteNN
+EQ class: setvbtotoballotnn	putvbtotoballotingnn	setvbtotovotenn	posevbtotoballotnn	placevbtotovotingnn	placevbtotovotenn	positionvbtotoballotnn	putvbtotovotingnn	layvbtotoballotnn	positionvbtotoballotingnn	putvbtotoballotnn	layvbtotovotingnn	posevbtotoballotingnn	posevbtotovotingnn	setvbtotoballotingnn	placevbtotoballotingnn	posevbtotovotenn	placevbtotoballotnn	setvbtotovotingnn	layvbtotovotenn	positionvbtotovotenn	positionvbtotovotingnn	layvbtotoballotingnn	
+
+BE: voteVBforINanswer.hehNN
+EQ class: votevbforinanswerhehnn	
+
+BE: contributedVBNtoTOquestionNN
+EQ class: bringvbntotoquestionnn	contributevbntotoquestionnn	addvbntotoinquirynn	addvbntotoquestionnn	lendvbntotoquerynn	bringvbntotoenquirynn	contributevbntotoinquirynn	bestowvbntotointerrogationnn	contributedvbntotoinquirynn	bestowvbntotoquerynn	lendvbntotointerrogationnn	contributevbntotoquerynn	bringvbntotoinquirynn	addvbntotointerrogationnn	lendvbntotoenquirynn	contributedvbntotoenquirynn	impartvbntotoquestionnn	bringvbntotoquerynn	addvbntotoenquirynn	lendvbntotoquestionnn	bestowvbntotoenquirynn	bestowvbntotoquestionnn	addvbntotoquerynn	contributevbntotointerrogationnn	impartvbntotointerrogationnn	contributevbntotoenquirynn	bestowvbntotoinquirynn	impartvbntotoquerynn	contributedvbntotointerrogationnn	lendvbntotoinquirynn	impartvbntotoenquirynn	contributedvbntotoquerynn	impartvbntotoinquirynn	bringvbntotointerrogationnn	
+
+BE: goingVBGputVB
+EQ class: travelvbgsetvb	movevbgpositionvb	locomotevbglayvb	govbgputvb	travelvbgplacevb	travelvbgpositionvb	travelvbgposevb	goingvbgpositionvb	locomotevbgpositionvb	govbgsetvb	goingvbglayvb	govbgpositionvb	movevbglayvb	govbgplacevb	govbgposevb	travelvbgputvb	travelvbglayvb	goingvbgsetvb	locomotevbgsetvb	locomotevbgposevb	goingvbgposevb	goingvbgplacevb	locomotevbgplacevb	movevbgsetvb	locomotevbgputvb	govbglayvb	movevbgputvb	movevbgposevb	movevbgplacevb	
+
+BE: contributedVBNpickVB
+EQ class: bestowvbnpickvb	contributevbnpickvb	lendvbnpickvb	addvbnpickvb	impartvbnpickvb	bringvbnpickvb	
+
+BE: haveAUXnotRB
+EQ class: holdauxnotrb	wealthy_personnnofinnotrb	rich_personnnofinnotrb	havennofinnotrb	have_gotauxnotrb	
+

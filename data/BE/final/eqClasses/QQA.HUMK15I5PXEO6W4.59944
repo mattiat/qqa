@@ -1,0 +1,45 @@
+BE: measureNN
+EQ class: stepnn	
+
+BE: foodNN
+EQ class: nutrientnn	
+
+BE: scaleNN
+EQ class: graduated_tablenn	ordered_seriesnn	scale_of_measurementnn	
+
+BE: betVBP
+EQ class: wagervbp	
+
+BE: getVB
+EQ class: acquirevb	
+
+BE: purchaseVB
+EQ class: buyvb	
+
+BE: accurateJJ
+EQ class: 
+
+BE: accurateJJmeasureNN
+EQ class: accuratejjstepnn	
+
+BE: foodNNscaleNN
+EQ class: scale_of_measurementnnofinnutrientnn	graduated_tablennofinfoodnn	ordered_seriesnnofinnutrientnn	scalennofinfoodnn	foodnnscalevb	scalevbnutrientnn	ordered_seriesnnofinfoodnn	scalennofinnutrientnn	nutrientnnordered_seriesnn	foodnnordered_seriesnn	nutrientnnscalenn	nutrientnnscale_of_measurementnn	graduated_tablennofinnutrientnn	scale_of_measurementnnofinfoodnn	foodnnscale_of_measurementnn	foodnngraduated_tablenn	scalevbfoodnn	nutrientnnscalevb	nutrientnngraduated_tablenn	
+
+BE: youPRPbetVBP
+EQ class: youprpwagervbp	
+
+BE: measureNNisAUX
+EQ class: stepnnbeaux	measurennbeaux	stepnnisaux	
+
+BE: purchaseVBscaleNN
+EQ class: purchasingnnofinscale_of_measurementnn	purchasernnofingraduated_tablenn	buyingnnofinscale_of_measurementnn	buyernnofinscale_of_measurementnn	emptornnofinscalenn	purchasennofinscalenn	emptornnofinscale_of_measurementnn	buyvbgraduated_tablenn	purchasennofinordered_seriesnn	purchasennofinscale_of_measurementnn	vendeennofinscalenn	buyvbscale_of_measurementnn	buyernnofinordered_seriesnn	purchasevbscale_of_measurementnn	purchasingnnofingraduated_tablenn	purchasevbgraduated_tablenn	buyingnnofinordered_seriesnn	purchasernnofinscalenn	buyernnofingraduated_tablenn	buyernnofinscalenn	buyingnnofingraduated_tablenn	vendeennofinscale_of_measurementnn	purchasernnofinordered_seriesnn	buyingnnofinscalenn	purchasevbordered_seriesnn	buyvbordered_seriesnn	emptornnofinordered_seriesnn	vendeennofinordered_seriesnn	purchasernnofinscale_of_measurementnn	purchasingnnofinordered_seriesnn	purchasennofingraduated_tablenn	purchasingnnofinscalenn	vendeennofingraduated_tablenn	buyvbscalenn	emptornnofingraduated_tablenn	
+
+BE: getVBmeasureNN
+EQ class: acquirevbmeasurenn	acquiringnnofinmeasurenn	acquiringnnofinstepnn	getvbstepnn	gettingnnofinstepnn	gettingnnofinmeasurenn	acquirevbstepnn	
+
+BE: betVBPgetVB
+EQ class: wagervbpacquirevb	betvbpacquirevb	wagervbpgetvb	
+
+BE: betVBPbestRB
+EQ class: wagervbpbestrb	
+

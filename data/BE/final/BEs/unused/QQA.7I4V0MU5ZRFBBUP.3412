@@ -1,0 +1,116 @@
+#You can either use completing squares or by quadratic formula..
+#(S1 (S (NP (PRP You)) (VP (MD can) (ADVP (RB either)) (VP (VB use) (S (VP (VBG completing) (NP (NNS squares)) (FRAG (CC or) (PP (IN by) (NP (JJ quadratic) (NN formula))) (. .)))))) (. .)))
+#Rule:Nouns
+r1squaresNNS
+r1formulaNN
+
+#Rule:Verbs
+r2useVB
+r2completingVBG
+
+#Rule:Adjs
+r4quadraticJJ
+
+#Rule:Adj-Noun
+r5quadraticJJformulaNN
+
+#Rule:HeadNoun-V
+r11youPRPuseVB
+
+#Rule:V-HeadNoun
+r21completingVBGsquaresNNS
+
+#Rule:V-ADV
+r46useVBeitherRB
+
+#By quadratic formula:Given: ax^2 + bx + c = 0then x = (-b +- sq rt(b^2 - 4ac))/2aFor your first problem: x^2 + 4x + 4 = -5x^2 + 4x + 9 = 0, then a=1, b= 4 and c = 9x = (-4 +- sq rt(16 - 36))/2 = (-4+- sq rt (-20))/2with sq root of negative number, the answer is a pair of complex number, which I believe is not yet with your present lessons.
+#(S1 (FRAG (PP (IN By) (NP (JJ quadratic) (NN formula))) (: :) (VP (VBN Given)) (: :) (NP (NP (QP (CD ax^2) (CD +)) (NN bx)) (NP (NNP +) (NNP c))) (X (SYM =)) (VP (VBN 0then) (S (NP (NP (NNP x) (SYM =)) (-LRB- -LRB-) (NP (JJ -b) (JJ +-) (NN sq) (NN rt)) (PRN (-LRB- -LRB-) (NP (NN b^2)) (: -) (NP (NN 4ac)) (-RRB- -RRB-))) (VP (NN /2aFor) (NP (NP (PRP$ your) (JJ first) (NN problem)) (: :) (NP (NP (QP (CD x^2) (CD +)) (NN 4x)) (SBAR (S (NP (NP (QP (CD +) (CD 4) (SYM =) (CD -5x^2) (CD +)) (NN 4x)) (NP (NNP +) (CD 9))) (VP (SYM =) (NP (NP (CD 0)) (, ,) (ADVP (RB then)) (NP (CD a=1)) (, ,) (NP (CD b=) (CD 4)) (CC and) (NP (NP (NP (NP (NNP c) (SYM =) (CD 9x)) (NP (NP (NP (NP (NP (SYM =)) (-LRB- -LRB-) (NP (JJ -4) (JJ +-) (JJ sq) (NNS rt)) (PRN (-LRB- -LRB-) (NP (CD 16)) (: -) (NP (CD 36)) (-RRB- -RRB-))) (JJ /2) (SYM =)) (-LRB- -LRB-) (NP (JJ -4+-) (JJ sq) (NN rt)) (PRN (-LRB- -LRB-) (NP (CD -20)) (-RRB- -RRB-))) (JJ /2with) (NN sq) (NN root))) (PP (IN of) (NP (JJ negative) (NN number)))) (, ,) (SBAR (S (NP (DT the) (NN answer)) (VP (AUX is) (NP (NP (DT a) (NN pair)) (PP (IN of) (NP (JJ complex) (NN number))) (, ,) (SBAR (WHNP (WDT which)) (S (NP (PRP I)) (VP (VBP believe) (SBAR (S (VP (AUX is) (RB not) (ADVP (RB yet)) (PP (IN with) (NP (PRP$ your) (JJ present) (NNS lessons))))))))))))))))))))))) (. .)))
+#Rule:Nouns
+r1formulaNN
+r1ax^2 + bx + c = 0then x =PersonAnnotation
+r1sqNN
+r1rtLocationAnnotation
+r1b^2 - 4acLocationAnnotation
+r1/2aForNN
+r1problemNN
+r1x^2 + 4x + 4 = -5x^2 + 4x + 9 = 0PersonAnnotation
+r1c = 9x =PersonAnnotation
+r1rtPersonAnnotation
+r1rtPersonAnnotation
+r1sqNN
+r1rootNN
+r1numberNN
+r1answerNN
+r1pairNN
+r1numberNN
+r1lessonsNNS
+
+#Rule:Verbs
+r2GivenPersonAnnotation
+r2believeVBP
+
+#Rule:Adjs
+r4quadraticJJ
+r4-bJJ
+r4+-JJ
+r4firstJJ
+r4-4JJ
+r4+-JJ
+r4sqJJ
+r4/2JJ
+r4-4+-JJ
+r4sqJJ
+r4/2withJJ
+r4negativeJJ
+r4complexJJ
+r4presentJJ
+
+#Rule:Adj-Noun
+r5quadraticJJformulaNN
+r5-bJJrtLocationAnnotation
+r5+-JJrtLocationAnnotation
+r5firstJJproblemNN
+r5/2withJJrootNN
+r5/2JJc = 9x =PersonAnnotation
+r5-4JJrtPersonAnnotation
+r5+-JJrtPersonAnnotation
+r5sqJJrtPersonAnnotation
+r5-4+-JJrtPersonAnnotation
+r5sqJJrtPersonAnnotation
+r5negativeJJnumberNN
+r5complexJJnumberNN
+r5presentJJlessonsNNS
+
+#Rule:PRP-Noun
+r6yourPRP$problemNN
+r6yourPRP$lessonsNNS
+
+#Rule:N-HeadNoun
+r8sqNNrtLocationAnnotation
+r8sqNNrootNN
+
+#Rule:HeadNoun-V
+r11answerNNisAUX
+r11iPRPbelieveVBP
+
+#Rule:V-HeadNoun
+r21/2aForNNproblemNN
+r21isAUXpairNN
+
+#Rule:PPinNP
+r26c = 9x =PersonAnnotationofINnumberNN
+r26pairNNofINnumberNN
+
+#Rule:PPinVP
+r30isAUXwithINlessonsNNS
+
+#Rule:V-ADV
+r46isAUXnotRB
+r46isAUXyetRB
+
+#Rule:IS-RULE
+r47pairNNanswerNN
+
+@lemmas-left	complex	/2with	-b	root	pair	use	believe	squares	complete	quadratic	Given	be	completing	lesson	is	-4+-	lessons	b	your	sq	ax^2 + bx + c = 0then x =	answer	you	problem	number	c = 9x =	i	present	b^2 - 4ac	/2	-4	/2afor	x^2 + 4x + 4 = -5x^2 + 4x + 9 = 0	rt	negative	square	first	+-	formula	/2aFor	
+@lemmas-right	lesson	is	lessons	pair	root	answer	use	problem	number	believe	c = 9x =	not	either	squares	rt	square	yet	formula	be	
+@lemmas-center	of	with	

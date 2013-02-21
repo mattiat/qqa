@@ -1,0 +1,41 @@
+#What are people trying to do??
+#(S1 (SBARQ (WHNP (WP What)) (SQ (AUX are) (NP (NNS people)) (VP (VBG trying) (S (VP (TO to) (VP (AUX do))))) (. ?)) (. ?)))
+#Rule:Nouns
+r1peopleNNS
+
+#Rule:Verbs
+r2tryingVBG
+
+#Trying to set a world record for asking the same question again&again?
+#(S1 (S (VP (VBG Trying) (S (VP (TO to) (VP (VB set) (NP (DT a) (NN world) (NN record)) (PP (IN for) (S (VP (VBG asking) (NP (DT the) (JJ same) (NN question)) (NP (NN again&again))))))))) (. ?)))
+#Rule:Nouns
+r1worldNN
+r1recordNN
+r1questionNN
+r1again&againNN
+
+#Rule:Verbs
+r2tryingVBG
+r2setVB
+r2askingVBG
+
+#Rule:Adjs
+r4sameJJ
+
+#Rule:Adj-Noun
+r5sameJJquestionNN
+
+#Rule:N-HeadNoun
+r8worldNNrecordNN
+
+#Rule:V-HeadNoun
+r21setVBrecordNN
+r21askingVBGquestionNN
+r21askingVBGagain&againNN
+
+#Rule:V-V
+r44tryingVBGsetVB
+
+@lemmas-left	asking	record	again&again	set	question	same	ask	trying	people	world	try	
+@lemmas-right	record	again&again	set	question	
+@lemmas-center	

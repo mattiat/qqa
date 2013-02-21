@@ -1,0 +1,35 @@
+#I can only guess that it's because we never were at war with China (Mao) or Russia (Starlin)
+#(S1 (S (NP (PRP I)) (VP (MD can) (ADVP (RB only)) (VP (VB guess) (SBAR (IN that) (S (NP (PRP it)) (VP (AUX 's) (SBAR (IN because) (S (NP (PRP we)) (ADVP (RB never)) (VP (AUX were) (PP (IN at) (NP (NP (NN war)) (PP (IN with) (NP (NP (NP (NNP China)) (PRN (-LRB- -LRB-) (NP (NNP Mao)) (-RRB- -RRB-))) (CC or) (NP (NP (NNP Russia)) (PRN (-LRB- -LRB-) (NP (NNP Starlin)) (-RRB- -RRB-)))))))))))))))))
+#Rule:Nouns
+r1warNN
+r1ChinaLocationAnnotation
+r1MaoLocationAnnotation
+r1RussiaNNP
+r1StarlinLocationAnnotation
+
+#Rule:Verbs
+r2guessVB
+
+#Rule:HeadNoun-V
+r11iPRPguessVB
+r11itPRP'sAUX
+r11wePRPwereAUX
+
+#Rule:PPinNP
+r26warNNwithINChinaLocationAnnotation
+r26warNNwithINRussiaNNP
+
+#Rule:PPinVP
+r30wereAUXatINwarNN
+
+#Rule:V-IN-V
+r43guessVBthatIN'sAUX
+r43'sAUXbecauseINwereAUX
+
+#Rule:V-ADV
+r46guessVBonlyRB
+r46wereAUXneverRB
+
+@lemmas-left	Mao	it	war	i	were	russia	's	s	Starlin	guess	Russia	China	we	be	
+@lemmas-right	never	were	russia	's	s	guess	only	Russia	war	China	be	
+@lemmas-center	because	that	with	at	

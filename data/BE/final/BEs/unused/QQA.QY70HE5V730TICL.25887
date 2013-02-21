@@ -1,0 +1,78 @@
+#It is normal to have nausea in the first trimester and then it subsides after that but there has been some women that has had the nausea through out their pregnancy, But the onlything that i can tell you that has worked for me is to take and eat some crackers, or pretzels to help with the nausea. 
+#(S1 (S (S (NP (PRP It)) (VP (AUX is) (ADJP (JJ normal) (S (VP (TO to) (VP (AUX have) (NP (NP (NN nausea)) (PP (IN in) (NP (DT the) (JJ first) (NN trimester)))))))))) (CC and) (ADVP (RB then)) (S (NP (PRP it)) (VP (NNS subsides) (PP (IN after) (NP (DT that))))) (CC but) (S (NP (EX there)) (VP (AUX has) (VP (AUX been) (NP (NP (DT some) (NNS women)) (SBAR (WHNP (WDT that)) (S (VP (AUX has) (VP (AUX had) (NP (DT the) (NN nausea)) (PP (IN through) (IN out) (NP (PRP$ their) (NN pregnancy))))))))))) (, ,) (CC But) (S (NP (NP (DT the) (NN onlything)) (SBAR (WHNP (IN that)) (S (NP (PRP i)) (VP (MD can) (VP (VB tell) (NP (PRP you)) (SBAR (IN that) (S (VP (AUX has) (VP (VBN worked) (PP (IN for) (NP (PRP me)))))))))))) (VP (AUX is) (S (VP (TO to) (VP (VP (VB take)) (CC and) (VP (VB eat) (NP (DT some) (NNS crackers))) (, ,) (CC or) (VP (NNS pretzels) (S (VP (TO to) (VP (VB help) (PP (IN with) (NP (DT the) (NN nausea)))))))))))) (. .)))
+#Rule:Nouns
+r1nauseaNN
+r1trimesterNN
+r1subsidesNNS
+r1womenNNS
+r1nauseaLocationAnnotation
+r1pregnancyNN
+r1onlythingNN
+r1crackersNNS
+r1pretzelsNNS
+r1nauseaLocationAnnotation
+
+#Rule:Verbs
+r2tellVB
+r2workedVBN
+r2takeVB
+r2eatVB
+r2helpVB
+
+#Rule:Adjs
+r4normalJJ
+r4firstJJ
+
+#Rule:Adj-Noun
+r5firstJJtrimesterNN
+
+#Rule:PRP-Noun
+r6theirPRP$pregnancyNN
+
+#Rule:HeadNoun-V
+r11itPRPisAUX
+r11thereEXbeenAUX
+r11onlythingNNisAUX
+r11iLocationAnnotationtellVB
+
+#Rule:HeadNoun-(who/that)-V
+r14womenNNShadAUX
+
+#Rule:V-HeadNoun
+r21haveAUXnauseaNN
+r21beenAUXwomenNNS
+r21hadAUXnauseaLocationAnnotation
+r21tellVByouPRP
+r21eatVBcrackersNNS
+
+#Rule:V-ADJ
+r25isAUXnormalJJ
+
+#Rule:PPinNP
+r26nauseaNNinINtrimesterNN
+
+#Rule:PPinVP
+r30hadAUXoutINpregnancyNN
+r30helpVBwithINnauseaLocationAnnotation
+
+#Rule:PPinVP
+r32workedVBNforINmePRP
+
+#Rule:V-IN-V
+r43tellVBthatINworkedVBN
+
+#Hope this helps you.
+#(S1 (S (NP (VB Hope) (DT this)) (VP (VBZ helps) (NP (PRP you))) (. .)))
+#Rule:Verbs
+r2HopeLocationAnnotation
+r2helpsVBZ
+
+#Rule:HeadNoun-V
+r11thisDThelpsVBZ
+
+#Rule:V-HeadNoun
+r21helpsVBZyouPRP
+
+@lemmas-left	pretzel	have	normal	pretzels	subside	been	help	nausea	woman	worked	Hope	tell	onlything	had	be	work	is	it	subsides	cracker	helps	women	trimester	i	take	pregnancy	there	crackers	eat	their	this	first	
+@lemmas-right	work	is	have	normal	cracker	you	helps	trimester	women	been	help	nausea	woman	worked	pregnancy	me	crackers	tell	had	be	
+@lemmas-center	that	with	for	in	out	

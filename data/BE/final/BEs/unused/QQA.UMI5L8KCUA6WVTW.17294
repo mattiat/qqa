@@ -1,0 +1,81 @@
+#I going to start next school year..
+#(S1 (FRAG (S (NP (PRP I)) (VP (VBG going) (S (VP (TO to) (VP (VB start) (NP (JJ next) (NN school) (NN year)))))) (. .)) (. .)))
+#Rule:Nouns
+r1schoolNN
+r1yearNN
+
+#Rule:Verbs
+r2goingVBG
+r2startVB
+
+#Rule:Adjs
+r4nextJJ
+
+#Rule:Adj-Noun
+r5nextJJyearNN
+
+#Rule:N-HeadNoun
+r8schoolNNyearNN
+
+#Rule:HeadNoun-V
+r11iPRPgoingVBG
+
+#Rule:V-HeadNoun
+r21startVByearNN
+
+#Rule:V-V
+r44goingVBGstartVB
+
+#The schools in our town don t care if your child is having problemswith their work. And are just worried about 3:00 to come.
+#(S1 (S (NP (NP (DT The) (NNS schools)) (PP (IN in) (NP (PRP$ our) (NN town)))) (VP (VB don) (NP (CD t) (NN care)) (SBAR (IN if) (S (NP (PRP$ your) (NN child)) (VP (AUX is) (VP (AUXG having) (VP (VB problemswith) (NP (PRP$ their) (NNS work.))) (CC And) (VP (AUX are) (ADJP (RB just) (JJ worried) (PP (IN about) (NP (NP (CD 3:00)) (SBAR (S (VP (TO to) (VP (VB come)))))))))))))) (. .)))
+#Rule:Nouns
+r1schoolsNNS
+r1townNN
+r1careNN
+r1childNN
+r1workNNS
+
+#Rule:Verbs
+r2donLocationAnnotation
+r2problemswithVB
+r2comeVB
+
+#Rule:Adjs
+r4worriedJJ
+
+#Rule:Adj-Noun
+r5tCDcareNN
+
+#Rule:PRP-Noun
+r6ourPRP$townNN
+r6yourPRP$childNN
+r6theirPRP$workNNS
+
+#Rule:HeadNoun-V
+r11schoolsNNSdonLocationAnnotation
+r11childNNproblemswithVB
+r11childNNareAUX
+
+#Rule:HeadNoun-(who/that)-V
+r143:00CDcomeVB
+
+#Rule:V-HeadNoun
+r21donLocationAnnotationcareNN
+r21problemswithVBworkNNS
+
+#Rule:V-ADJ
+r25areAUXworriedJJ
+
+#Rule:PPinNP
+r26schoolsNNSinINtownNN
+
+#Rule:PPinADJP
+r37worriedJJaboutIN3:00CD
+
+#Rule:V-IN-V
+r43donLocationAnnotationifINproblemswithVB
+r43donLocationAnnotationifINareAUX
+
+@lemmas-left	work	going	don	your	next	come	3:00	i	problemswith	child	are	t	school	schools	start	worried	care	year	work.	town	their	our	be	go	
+@lemmas-right	work	going	don	come	3:00	child	problemswith	are	start	worried	care	year	work.	town	go	be	
+@lemmas-center	if	about	in	

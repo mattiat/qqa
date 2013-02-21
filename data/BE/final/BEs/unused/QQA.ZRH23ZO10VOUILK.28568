@@ -1,0 +1,81 @@
+#because the Europeans created the metric system which it attempted to make the universal system of measurement. 
+#(S1 (S (NP (RB because) (DT the) (NNPS Europeans)) (VP (VBD created) (NP (NP (DT the) (JJ metric) (NN system)) (SBAR (WHNP (WDT which)) (S (NP (PRP it)) (VP (VBD attempted) (S (VP (TO to) (VP (VB make) (NP (NP (DT the) (JJ universal) (NN system)) (PP (IN of) (NP (NN measurement)))))))))))) (. .)))
+#Rule:Nouns
+r1EuropeansNNPS
+r1systemNN
+r1systemNN
+r1measurementNN
+
+#Rule:Verbs
+r2createdVBD
+r2attemptedVBD
+r2makeVB
+
+#Rule:Adjs
+r4metricJJ
+r4universalJJ
+
+#Rule:Adj-Noun
+r5metricJJsystemNN
+r5universalJJsystemNN
+
+#Rule:HeadNoun-V
+r11EuropeansNNPScreatedVBD
+r11itPRPattemptedVBD
+
+#Rule:V-HeadNoun
+r21createdVBDsystemNN
+r21makeVBsystemNN
+
+#Rule:PPinNP
+r26systemNNofINmeasurementNN
+
+#Rule:V-V
+r44attemptedVBDmakeVB
+
+#The effort failed and Americans only use a few ofthe more useful measures..litre, and gram are about it.
+#(S1 (S (NP (DT The) (NN effort)) (VP (VBD failed) (S (S (CC and) (NP (NNPS Americans)) (ADVP (RB only)) (VP (VBP use) (NP (ADJP (NP (DT a) (JJ few) (NN ofthe)) (JJR more)) (JJ useful) (NNS measures) (NN ..) (NN litre)))) (, ,) (CC and) (S (NP (NN gram)) (VP (AUX are) (PP (IN about) (NP (PRP it))))))) (. .)))
+#Rule:Nouns
+r1effortNN
+r1AmericansNNPS
+r1oftheNN
+r1measuresNNS
+r1..NN
+r1litreNN
+r1gramNN
+
+#Rule:Verbs
+r2failedVBD
+r2useVBP
+
+#Rule:Adjs
+r4fewJJ
+r4moreJJR
+r4usefulJJ
+
+#Rule:Adj-Noun
+r5moreJJRlitreNN
+r5usefulJJlitreNN
+r5fewJJoftheNN
+
+#Rule:N-HeadNoun
+r8..NNlitreNN
+r8measuresNNSlitreNN
+
+#Rule:HeadNoun-V
+r11effortNNfailedVBD
+r11AmericansNNPSuseVBP
+r11gramNNareAUX
+
+#Rule:V-HeadNoun
+r21useVBPlitreNN
+
+#Rule:PPinVP
+r30areAUXaboutINitPRP
+
+#Rule:V-ADV
+r46useVBPonlyRB
+
+@lemmas-left	attempt	litre	measure	failed	use	attempted	are	more	fail	created	american	..	useful	universal	gram	be	it	effort	Europeans	create	measurement	few	system	european	ofthe	metric	measures	Americans	make	
+@lemmas-right	attempt	litre	it	failed	use	create	attempted	measurement	system	are	ofthe	fail	created	only	make	be	
+@lemmas-center	of	about	

@@ -1,0 +1,15 @@
+#because of the effect of atmosphere
+#(S1 (S (PP (IN because) (IN of) (NP (NP (DT the) (NN effect)) (PP (IN of) (NP (NN atmosphere)))))))
+#Rule:Nouns
+r1effectNN
+r1atmosphereNN
+
+#Rule:PPinNP
+r26effectNNofINatmosphereNN
+
+#Rule:PPinS
+r36ofINbecauseINeffectNN
+
+@lemmas-left	of	effect	atmosphere	
+@lemmas-right	effect	atmosphere	
+@lemmas-center	because	of	

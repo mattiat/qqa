@@ -1,0 +1,23 @@
+#Why are we not so worried about blue shifted stars and galaxies?
+#(S1 (SBARQ (WHADVP (WRB Why)) (SQ (AUX are) (NP (PRP we)) (ADVP (RB not) (RB so)) (ADJP (JJ worried) (PP (IN about) (NP (JJ blue) (VBN shifted) (NNS stars) (CC and) (NNS galaxies))))) (. ?)))
+#Rule:Nouns
+r1starsNNS
+r1galaxiesNNS
+
+#Rule:Verbs
+r2shiftedVBN
+
+#Rule:Adjs
+r4worriedJJ
+r4blueJJ
+
+#Rule:Adj-Noun
+r5blueJJstarsNNS
+r5shiftedVBNstarsNNS
+
+#Rule:PPinADJP
+r37worriedJJaboutINstarsNNS
+
+@lemmas-left	shifted	galaxies	blue	worried	stars	star	shift	galaxy	
+@lemmas-right	stars	star	
+@lemmas-center	about	

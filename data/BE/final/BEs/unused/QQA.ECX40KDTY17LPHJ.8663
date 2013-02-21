@@ -1,0 +1,82 @@
+#no. not as a physical entity but a set of guide lines and answers for people.  
+#(S1 (S (VP (NN no.) (PP (RB not) (IN as) (NP (NP (DT a) (JJ physical) (NN entity)) (CC but) (NP (NP (DT a) (NN set)) (PP (IN of) (NP (NP (NN guide) (NNS lines)) (CC and) (NP (NP (NNS answers)) (PP (IN for) (NP (NNS people)))))))))) (. .)))
+#Rule:Nouns
+r1noNN
+r1entityNN
+r1setNN
+r1guideNN
+r1linesNNS
+r1answersNNS
+r1peopleNNS
+
+#Rule:Adjs
+r4physicalJJ
+
+#Rule:Adj-Noun
+r5physicalJJentityNN
+
+#Rule:N-HeadNoun
+r8guideNNlinesNNS
+
+#Rule:PPinNP
+r26setNNofINlinesNNS
+r26setNNofINanswersNNS
+r26answersNNSforINpeopleNNS
+
+#Strife and hard times build character and help form ech of us into who we are.  
+#(S1 (S (NP (NP (NN Strife)) (CC and) (NP (JJ hard) (NNS times))) (VP (VP (VBP build) (NP (NN character))) (CC and) (VP (VBP help) (VP (VB form) (NP (NP (NN ech)) (PP (IN of) (NP (PRP us)))) (PP (IN into) (SBAR (WHNP (WP who)) (S (NP (PRP we)) (VP (AUX are)))))))) (. .)))
+#Rule:Nouns
+r1StrifeNN
+r1timesNNS
+r1characterNN
+r1echNN
+
+#Rule:Verbs
+r2buildVBP
+r2helpVBP
+r2formVB
+
+#Rule:Adjs
+r4hardJJ
+
+#Rule:Adj-Noun
+r5hardJJtimesNNS
+
+#Rule:HeadNoun-V
+r11StrifeNNbuildVBP
+r11StrifeNNhelpVBP
+r11StrifeNNformVB
+r11timesNNSbuildVBP
+r11timesNNShelpVBP
+r11timesNNSformVB
+r11wePRPareOrganizationAnnotation
+
+#Rule:V-HeadNoun
+r21buildVBPcharacterNN
+r21formVBechNN
+
+#Rule:PPinNP
+r26echNNofINusPRP
+
+#How can ever know yourself if your never tested?
+#(S1 (SBARQ (WHADVP (WRB How)) (SQ (VP (MD can) (ADVP (RB ever)) (VP (VB know) (NP (PRP yourself)) (SBAR (IN if) (S (NP (PRP$ your)) (ADVP (RB never)) (VP (VBD tested))))))) (. ?)))
+#Rule:Verbs
+r2knowVB
+r2testedVBD
+
+#Rule:HeadNoun-V
+r11yourPRP$testedVBD
+
+#Rule:V-HeadNoun
+r21knowVByourselfPRP
+
+#Rule:V-IN-V
+r43knowVBifINtestedVBD
+
+#Rule:V-ADV
+r46knowVBeverRB
+r46testedVBDneverRB
+
+@lemmas-left	guide	physical	test	set	no	entity	answers	line	build	tested	people	Strife	character	help	times	hard	ech	form	your	answer	no.	know	lines	strife	we	
+@lemmas-right	form	ech	test	entity	answer	answers	line	us	tested	build	people	character	never	help	are	times	lines	yourself	ever	
+@lemmas-center	of	for	if	

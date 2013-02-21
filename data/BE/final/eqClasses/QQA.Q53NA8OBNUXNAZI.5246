@@ -1,0 +1,324 @@
+BE: RespirationNN
+EQ class: cellular_respirationnn	internal_respirationnn	
+
+BE: chemicalNN
+EQ class: chemical_substancenn	chemicaljj	
+
+BE: dissolutionNN
+EQ class: disintegrationnn	
+
+BE: twoVB
+EQ class: 
+
+BE: chemicalNNdissolutionNN
+EQ class: dissolutionnnofinchemical_substancenn	chemicalnnfade_awayvb	chemical_substancennfade_outvb	chemical_substancenndissolvevb	chemical_substancenndisintegrationnn	fade_awayvbchemicalnn	chemicalnndisintegrationnn	chemicaljjfade_outvb	dissolvevbchemicalnn	chemicalnndissolvevb	dissolutionnnofinchemicalnn	chemicalnnfade_outvb	disintegrationnnofinchemical_substancenn	disintegrationnnofinchemicaljj	chemical_substancenndissolutionnn	fade_outvbchemicaljj	fade_awayvbchemical_substancenn	chemicaljjfade_awayvb	dissolvevbchemical_substancenn	fade_outvbchemical_substancenn	dissolvevbchemicaljj	chemicaljjdissolvevb	fade_awayvbchemicaljj	disintegrationnnofinchemicalnn	chemicaljjdisintegrationnn	chemical_substancennfade_awayvb	chemicaljjdissolutionnn	fade_outvbchemicalnn	dissolutionnnofinchemicaljj	
+
+BE: twoVBdissolutionNN
+EQ class: twovbdisintegrationnn	
+
+BE: twoVBJustRB
+EQ class: 
+
+BE: RespirationNNP
+EQ class: cellular_respirationnnp	internal_respirationnnp	
+
+BE: break-downNN
+EQ class: down_feathernn	downnn	downyjj	
+
+BE: sugarsNNS
+EQ class: refined_sugarnns	theynns	sugarnns	themnns	
+
+BE: fatsNNS
+EQ class: fatjj	theynns	fatnns	themnns	
+
+BE: proteinsNNS
+EQ class: proteinnns	theynns	proteinaceousjj	themnns	
+
+BE: energyNN
+EQ class: free_energynn	
+
+BE: waterNN
+EQ class: wateryjj	h2onn	
+
+BE: carbonNN
+EQ class: carbonicjj	atomic_number_6nn	cnn	
+
+BE: dioxideNN
+EQ class: 
+
+BE: BurningNN
+EQ class: combustionnn	
+
+BE: woodNN
+EQ class: woodyjj	
+
+BE: chemicalNN
+EQ class: chemical_substancenn	chemicaljj	
+
+BE: equationNN
+EQ class: 
+
+BE: somethingNN
+EQ class: 
+
+BE: sVBZ
+EQ class: 
+
+BE: calledVBN
+EQ class: callvbn	namevbn	
+
+BE: sameJJ
+EQ class: 
+
+BE: differentJJ
+EQ class: differencenn	
+
+BE: sameJJequationNN
+EQ class: 
+
+BE: differentJJsomethingNN
+EQ class: differencennsomethingnn	
+
+BE: calledVBNsomethingNN
+EQ class: callvbnsomethingnn	namevbnsomethingnn	
+
+BE: carbonNNdioxideNN
+EQ class: dioxidenncarbonisevb	carbonnnofindioxidenn	atomic_number_6nnofindioxidenn	carbonicjjofindioxidenn	dioxidennofincarbonicjj	dioxidennofincarbonnn	dioxidenncarburisevb	dioxidenncarbonatevb	atomic_number_6nndioxidenn	dioxidenncarbonizevb	cnnofindioxidenn	carbonatennofindioxidenn	carbonic_acidnnofindioxidenn	dioxidennofincnn	dioxidenncarburizevb	carbonicjjdioxidenn	cnndioxidenn	dioxidennofinatomic_number_6nn	
+
+BE: BurningNNwoodNN
+EQ class: combustionnnwoodnn	burningnnwoodyjj	woodyjjofincombustionnn	combustionnnwoodyjj	combustionnnwoodyvb	woodyjjofinburningnn	woodyvbcombustionnn	burningnnwoodyvb	woodyvbburningnn	woodnnofincombustionnn	woodnnofinburningnn	
+
+BE: chemicalNNequationNN
+EQ class: chemical_substancennequatevb	chemicaljjequationnn	equatevbchemical_substancenn	equationnnofinchemicalnn	chemicaljjequatevb	equationnnofinchemical_substancenn	chemical_substancenncomparevb	equatevbchemicalnn	chemicalnncomparevb	likenvbchemicalnn	chemicaljjlikenvb	equatevbchemicaljj	likenvbchemical_substancenn	comparevbchemicaljj	chemical_substancennequationnn	likenvbchemicaljj	chemicalnnequatevb	equationnnofinchemicaljj	chemical_substancennlikenvb	comparevbchemicalnn	chemicalnnlikenvb	comparevbchemical_substancenn	chemicaljjcomparevb	
+
+BE: sugarsNNSfatsNNS
+EQ class: themnnsfatsnns	sugarnnsfatsnns	fatjjsaccharifyvb	fatsnnsthemnns	refined_sugarnnofinfatjj	sugarnnsthemnns	refined_sugarnnofinfatnns	refined_sugarnnsfatsnns	fatsnnstheynns	fatsnnssugarsnns	fatsnnssugarnns	fatjjtheynns	theynnssugarvb	themnnssugarnns	themnnsfatnns	theynnsrefined_sugarnns	sugarnnstheynns	sugarsnnstheynns	themnnsfatjj	fatjjsugarnns	theynnstheynns	theynnsfatnns	themnnssaccharifyvb	sugarnnsfatnns	sugarsnnsfatnns	theynnsfatjj	themnnssugarsnns	refined_sugarnnofinfatsnns	sugarsnnsthemnns	fatjjsugarsnns	refined_sugarnnsfatnns	refined_sugarnnofinthemnns	sugarsnnsfatjj	theynnssugarsnns	themnnstheynns	themnnsthemnns	sugarnnofinfatjj	fatnnssugarnns	fatjjrefined_sugarnns	sugarnnofintheynns	sugarnnofinfatnns	theynnsfatsnns	refined_sugarnnsthemnns	refined_sugarnnsfatjj	fatnnssugarsnns	fatnnsthemnns	theynnssugarnns	fatsnnsrefined_sugarnns	theynnsthemnns	fatnnstheynns	themnnsrefined_sugarnns	sugarnnofinfatsnns	refined_sugarnnstheynns	fatsnnssugarvb	fatjjthemnns	fatnnssugarvb	fatjjsugarvb	theynnssaccharifyvb	themnnssugarvb	sugarnnsfatjj	fatnnsrefined_sugarnns	fatsnnssaccharifyvb	fatnnssaccharifyvb	refined_sugarnnofintheynns	sugarnnofinthemnns	
+
+BE: RespirationNNPisAUX
+EQ class: cellular_respirationnnpbeaux	internal_respirationnnpisaux	respirationnnpbeaux	cellular_respirationnnpisaux	internal_respirationnnpbeaux	
+
+BE: woodNNisAUX
+EQ class: woodyjjisaux	woodnnbeaux	woodyjjbeaux	
+
+BE: itPRPsVBZ
+EQ class: 
+
+BE: isAUXbreak-downNN
+EQ class: isauxdown_feathernn	isauxdownnn	beauxdown_feathernn	beauxbreak-downnn	beauxdownnn	beauxdownyjj	isauxdownyjj	
+
+BE: isAUXequationNN
+EQ class: beauxequationnn	
+
+BE: sVBZsomethingNN
+EQ class: 
+
+BE: break-downNNofINsugarsNNS
+EQ class: theynnsbreak-downnn	themnnsdown_feathernn	themnnsbreak-downnn	sugarsnnsdownnn	break-downnnofinthemnns	down_feathernnofintheynns	down_feathernnofinsugarnns	sugarsnnsbreak-downnn	downyvbrefined_sugarnns	sugarnnsdownnn	downyjjofintheynns	downyjjofinsugarnns	sugarsnnsdownyvb	themnnsdownyjj	refined_sugarnnsdown_feathernn	downyjjofinrefined_sugarnns	sugarnnsbreak-downnn	refined_sugarnnsbreak-downnn	downnnofintheynns	downyvbthemnns	downyjjofinsugarsnns	refined_sugarnnsdownnn	downyvbsugarsnns	downnnofinsugarsnns	sugarnnsdown_feathernn	break-downnnofinrefined_sugarnns	break-downnnofintheynns	theynnsdownyvb	downyvbtheynns	break-downnnofinsugarnns	refined_sugarnnsdownyvb	downnnofinthemnns	theynnsdownyjj	downnnofinsugarnns	downnnofinrefined_sugarnns	down_feathernnofinrefined_sugarnns	refined_sugarnnsdownyjj	down_feathernnofinthemnns	downyjjofinthemnns	down_feathernnofinsugarsnns	sugarnnsdownyjj	theynnsdown_feathernn	themnnsdownnn	themnnsdownyvb	sugarsnnsdown_feathernn	sugarnnsdownyvb	sugarsnnsdownyjj	downyvbsugarnns	theynnsdownnn	
+
+BE: break-downNNofINfatsNNS
+EQ class: fatjjdownyvb	break-downnnofinfatjj	theynnsbreak-downnn	themnnsdown_feathernn	fatsnnsdownyjj	themnnsbreak-downnn	down_feathernnofinfatsnns	break-downnnofinthemnns	down_feathernnofintheynns	fatjjdownyjj	downyvbfatjj	fatjjbreak-downnn	downyjjofinfatjj	fatsnnsbreak-downnn	downyjjofintheynns	themnnsdownyjj	downnnofinfatnns	downyjjofinfatsnns	downnnofintheynns	downyvbthemnns	fatnnsdownyvb	fatnnsdownnn	fatjjdownnn	fatnnsbreak-downnn	fatsnnsdownnn	break-downnnofintheynns	theynnsdownyvb	downyjjofinfatnns	downyvbtheynns	fatsnnsdownyvb	downnnofinfatjj	downyvbfatnns	downnnofinfatsnns	downnnofinthemnns	down_feathernnofinfatjj	theynnsdownyjj	down_feathernnofinfatnns	fatsnnsdown_feathernn	down_feathernnofinthemnns	fatnnsdownyjj	downyjjofinthemnns	theynnsdown_feathernn	themnnsdownnn	break-downnnofinfatnns	themnnsdownyvb	fatnnsdown_feathernn	fatjjdown_feathernn	theynnsdownnn	downyvbfatsnns	
+
+BE: break-downNNofINproteinsNNS
+EQ class: downnnofinproteinnns	downnnofinproteinsnns	theynnsbreak-downnn	themnnsdown_feathernn	themnnsbreak-downnn	break-downnnofinthemnns	down_feathernnofintheynns	downyjjofinproteinaceousjj	break-downnnofinproteinnns	downyjjofinproteinnns	proteinsnnsdownyjj	proteinaceousjjdown_feathernn	proteinnnsdownnn	downyjjofintheynns	proteinsnnsdownyvb	themnnsdownyjj	proteinnnsdownyjj	proteinnnsdownyvb	proteinaceousjjdownnn	downnnofintheynns	downyvbthemnns	break-downnnofinproteinaceousjj	downyvbproteinnns	break-downnnofintheynns	theynnsdownyvb	downyvbtheynns	downyvbproteinsnns	down_feathernnofinproteinaceousjj	proteinaceousjjdownyjj	proteinnnsdown_feathernn	down_feathernnofinproteinnns	downnnofinthemnns	theynnsdownyjj	downyjjofinproteinsnns	down_feathernnofinproteinsnns	proteinaceousjjbreak-downnn	proteinsnnsbreak-downnn	down_feathernnofinthemnns	downnnofinproteinaceousjj	proteinsnnsdownnn	downyjjofinthemnns	theynnsdown_feathernn	themnnsdownnn	proteinaceousjjdownyvb	themnnsdownyvb	proteinnnsbreak-downnn	proteinsnnsdown_feathernn	theynnsdownnn	downyvbproteinaceousjj	
+
+BE: proteinsNNSintoINdioxideNN
+EQ class: theynnsintoindioxidenn	dioxidennproteinnns	dioxidenntheynns	themnnsintoindioxidenn	proteinaceousvbdioxidenn	proteinaceousjjintoindioxidenn	proteinnnsintoindioxidenn	dioxidennthemnns	dioxidennproteinsnns	dioxidennproteinaceousvb	dioxidennproteinaceousjj	
+
+BE: break-downNNRespirationNNP
+EQ class: respiratorynnofinbreak-downnn	downnnrespirationnnp	internal_respirationnnpdownnn	break-downnnrespirevb	break-downnninternal_respirationnnp	break-downnncellular_respirationnnp	respirationnnpdownnn	cellular_respirationnnpbreak-downnn	respiratorynnofindownyjj	downnnrespirevb	internal_respirationnnpbreak-downnn	downnninternal_respirationnnp	down_feathernnrespirationnnp	down_feathernncellular_respirationnnp	respiratorynnofindownnn	downyjjcellular_respirationnnp	downyjjrespirationnnp	downyjjrespirevb	cellular_respirationnnpdownnn	respirationnnpbreak-downnn	respirationnnpdownyjj	downnncellular_respirationnnp	cellular_respirationnnpdownyjj	cellular_respirationnnpdown_feathernn	down_feathernnrespirevb	respiratorynnofindown_feathernn	down_feathernninternal_respirationnnp	downyjjinternal_respirationnnp	respirationnnpdown_feathernn	internal_respirationnnpdownyjj	internal_respirationnnpdown_feathernn	
+
+BE: equationNNwoodNN
+EQ class: equatingnnofinwoodyjj	equaljjofinwoodyjj	woodyjjequatevb	equationnnofinwoodnn	woodyjjlikenvb	equationnnofinwoodyjj	equalnnofinwoodyjj	woodyjjcomparevb	equatingnnofinwoodnn	equationnnwoodyjj	woodnncomparevb	woodnnequationnn	equalnnofinwoodnn	compeernnofinwoodnn	matchnnofinwoodyjj	woodyjjequationnn	peernnofinwoodyjj	matchnnofinwoodnn	woodnnequatevb	compeernnofinwoodyjj	equaljjofinwoodnn	woodnnlikenvb	peernnofinwoodnn	
+
+BE: ChemicalOrganizationAnnotation
+EQ class: 
+
+BE: dissolutionNN
+EQ class: disintegrationnn	
+
+BE: releaseNN
+EQ class: 
+
+BE: compoundsNNS
+EQ class: compoundnns	compoundjj	theynns	themnns	
+
+BE: EnergyNNP
+EQ class: free_energynnp	
+
+BE: +NNP
+EQ class: +.nnp	
+
+BE: carbonateNN
+EQ class: 
+
+BE: carbonNN
+EQ class: carbonicjj	atomic_number_6nn	cnn	
+
+BE: dioxideNN
+EQ class: 
+
+BE: AcidsNNS
+EQ class: acidjj	acidnns	
+
+BE: carbonatesNNS
+EQ class: carbonatenns	theynns	themnns	
+
+BE: bubbleNN
+EQ class: bubblyjj	
+
+BE: heatNN
+EQ class: heat_energynn	
+
+BE: carbonatesNNS
+EQ class: carbonatenns	theynns	themnns	
+
+BE: limeNNP
+EQ class: lime_hydratennp	caustic_limennp	calcium_hydratennp	calcium_hydroxidennp	hydrated_limennp	slaked_limennp	
+
+BE: storedVBN
+EQ class: salt_awayvbn	storevbn	stash_awayvbn	lay_invbn	stack_awayvbn	put_invbn	hive_awayvbn	
+
+BE: makeVBP
+EQ class: dovbp	
+
+BE: reducesVBZ
+EQ class: reducevbz	cutvbz	bring_downvbz	trim_downvbz	cut_backvbz	cut_downvbz	trimvbz	trim_backvbz	
+
+BE: carbonatesJJ
+EQ class: theyjj	themjj	
+
+BE: wasteJJ
+EQ class: wildjj	wastenn	godforsakenjj	
+
+BE: storedVBNcompoundsNNS
+EQ class: shopnnofinthemnns	put_invbnthemnns	put_invbncompoundsnns	stack_awayvbncompoundsnns	hive_awayvbncompoundnns	stack_awayvbnthemnns	salt_awayvbnthemnns	storagennofincompoundnns	storennofintheynns	hive_awayvbncompoundsnns	storevbntheynns	shopnnofincompoundnns	hive_awayvbncompoundjj	storedvbncompoundnns	storennofincompoundsnns	storevbncompoundjj	stash_awayvbncompoundsnns	storevbncompoundnns	put_invbncompoundjj	salt_awayvbncompoundnns	stack_awayvbncompoundnns	storagennofintheynns	lay_invbnthemnns	put_invbncompoundnns	shopnnofincompoundsnns	hive_awayvbnthemnns	stash_awayvbntheynns	storevbnthemnns	storennofinthemnns	salt_awayvbncompoundsnns	stack_awayvbntheynns	shopnnofincompoundjj	lay_invbncompoundnns	salt_awayvbncompoundjj	lay_invbncompoundsnns	storedvbntheynns	storedvbnthemnns	hive_awayvbntheynns	stack_awayvbncompoundjj	storevbncompoundsnns	storennofincompoundnns	salt_awayvbntheynns	storagennofincompoundjj	stash_awayvbncompoundjj	storagennofinthemnns	storennofincompoundjj	storedvbncompoundjj	stash_awayvbnthemnns	lay_invbntheynns	storagennofincompoundsnns	put_invbntheynns	lay_invbncompoundjj	stash_awayvbncompoundnns	shopnnofintheynns	
+
+BE: carbonatesJJcarbonateNN
+EQ class: theyjjcarbonatenn	themjjcarbonatenn	
+
+BE: wasteJJAcidsNNS
+EQ class: godforsakenjjacidnns	godforsakenjjacidsnns	wastejjacidjj	wildjjacidnns	wastennacidjj	godforsakenjjacidjj	wastejjacidnns	wildjjacidsnns	wastennacidsnns	wildjjacidjj	wastennacidnns	
+
+BE: ChemicalOrganizationAnnotationdissolutionNN
+EQ class: chemicalorganizationannotationfade_awayvb	disintegrationnnofinchemicalorganizationannotation	chemicalorganizationannotationfade_outvb	dissolutionnnofinchemicalorganizationannotation	chemicalorganizationannotationdissolvevb	chemicalorganizationannotationdisintegrationnn	fade_outvbchemicalorganizationannotation	fade_awayvbchemicalorganizationannotation	dissolvevbchemicalorganizationannotation	
+
+BE: +NNPcarbonateNN
+EQ class: +nnpcarbonatevb	carbonatennofin+nnp	carbonatevb+.nnp	carbonatevb+nnp	carbonatennofin+.nnp	+.nnpcarbonatevb	+.nnpcarbonatenn	
+
+BE: EnergyNNPcarbonateNN
+EQ class: energisernnofincarbonatenn	vitalisernnofincarbonatenn	free_energynnofincarbonatenn	carbonatennofinfree_energynnp	carbonatennenergisevb	carbonatennstimulatevb	energizingnnofincarbonatenn	energizernnofincarbonatenn	animatornnofincarbonatenn	carbonatennofinenergynnp	energynnpcarbonatevb	carbonatevbenergynnp	carbonatennenergizevb	carbonatennarousevb	activationnnofincarbonatenn	carbonatennbracevb	activatingnnofincarbonatenn	energynnofincarbonatenn	carbonatevbfree_energynnp	vitalizernnofincarbonatenn	free_energynnpcarbonatenn	carbonatennperk_upvb	free_energynnpcarbonatevb	
+
+BE: carbonNNdioxideNN
+EQ class: dioxidenncarbonisevb	carbonnnofindioxidenn	atomic_number_6nnofindioxidenn	carbonicjjofindioxidenn	dioxidennofincarbonicjj	dioxidennofincarbonnn	dioxidenncarburisevb	dioxidenncarbonatevb	atomic_number_6nndioxidenn	dioxidenncarbonizevb	cnnofindioxidenn	carbonatennofindioxidenn	carbonic_acidnnofindioxidenn	dioxidennofincnn	dioxidenncarburizevb	carbonicjjdioxidenn	cnndioxidenn	dioxidennofinatomic_number_6nn	
+
+BE: dissolutionNNisAUX
+EQ class: dissolutionnnbeaux	disintegrationnnbeaux	disintegrationnnisaux	
+
+BE: dioxideNNmakeVBP
+EQ class: dioxidenndovbp	
+
+BE: AcidsNNSmakeVBP
+EQ class: acidsnnsdovbp	acidjjmakevbp	acidnnsmakevbp	acidnnsdovbp	acidjjdovbp	
+
+BE: heatNNreducesVBZ
+EQ class: heatnnreducevbz	reductionnnheatnn	heat_energynntrimvbz	decreasennofinheatnn	heat_energynnbring_downvbz	heat_energynncut_backvbz	step-downnnofinheat_energynn	heat_energynnreducesvbz	heat_energynncut_downvbz	diminutionnnofinheat_energynn	reductivennofinheat_energynn	heat_energynntrim_downvbz	heat_energynnreducevbz	heat_energynntrim_backvbz	diminutionnnheat_energynn	diminutionnnheatnn	heatnntrim_backvbz	decreasennheat_energynn	reductionnnofinheat_energynn	heat_energynncutvbz	reductionnnheat_energynn	decreasennheatnn	step-downnnofinheatnn	decreasennofinheat_energynn	step-downnnheatnn	heatnncut_backvbz	heatnncutvbz	heatnntrim_downvbz	heatnnbring_downvbz	heatnncut_downvbz	reductionnnofinheatnn	diminutionnnofinheatnn	reductivennofinheatnn	heatnntrimvbz	step-downnnheat_energynn	
+
+BE: isAUXreleaseNN
+EQ class: beauxreleasenn	
+
+BE: makeVBPcarbonatesNNS
+EQ class: dovbptheynns	dovbpthemnns	dovbpcarbonatenns	dovbpcarbonatesnns	makevbpcarbonatenns	makevbpthemnns	makevbptheynns	
+
+BE: reducesVBZcarbonatesNNS
+EQ class: cutvbzcarbonatenns	diminutionnnofinthemnns	decreasennofincarbonatesnns	trimvbztheynns	bring_downvbzthemnns	reductivennofinthemnns	step-downnnofinthemnns	reductionnnofincarbonatenns	trimvbzthemnns	reductivennofintheynns	diminutionnnofintheynns	reducesvbzcarbonatenns	decreasennofinthemnns	trim_backvbzcarbonatesnns	trim_downvbzthemnns	cut_backvbzthemnns	trim_downvbztheynns	diminutionnnofincarbonatesnns	decreasennofincarbonatenns	cut_backvbzcarbonatenns	reductivennofincarbonatenns	cut_downvbzcarbonatesnns	cut_backvbzcarbonatesnns	cutvbztheynns	bring_downvbztheynns	trim_downvbzcarbonatesnns	cutvbzthemnns	reducesvbztheynns	cut_downvbztheynns	reducevbzcarbonatenns	decreasennofintheynns	reductionnnofinthemnns	reductionnnofintheynns	bring_downvbzcarbonatesnns	cut_backvbztheynns	diminutionnnofincarbonatenns	reductivennofincarbonatesnns	trim_backvbzthemnns	reducevbztheynns	reducevbzcarbonatesnns	cutvbzcarbonatesnns	trimvbzcarbonatenns	reducevbzthemnns	trim_downvbzcarbonatenns	trim_backvbztheynns	reductionnnofincarbonatesnns	trim_backvbzcarbonatenns	step-downnnofintheynns	step-downnnofincarbonatenns	cut_downvbzcarbonatenns	bring_downvbzcarbonatenns	step-downnnofincarbonatesnns	trimvbzcarbonatesnns	cut_downvbzthemnns	reducesvbzthemnns	
+
+BE: =LocationAnnotationdioxideNN
+EQ class: =.locationannotationdioxidenn	
+
+BE: releaseNNofINcompoundsNNS
+EQ class: compoundsnnslet_govb	relinquishvbtheynns	compoundnnslet_go_ofvb	themnnsreleasevb	let_go_ofvbthemnns	relinquishvbcompoundjj	relinquishvbthemnns	let_govbcompoundsnns	let_go_ofvbtheynns	releasennofinthemnns	releasevbthemnns	compoundjjreleasenn	let_go_ofvbcompoundjj	let_govbtheynns	compoundnnsreleasevb	themnnsrelinquishvb	compoundjjlet_govb	compoundjjlet_go_ofvb	themnnsreleasenn	let_go_ofvbcompoundnns	compoundnnsrelinquishvb	compoundnnsreleasenn	relinquishvbcompoundsnns	releasennofintheynns	releasennofincompoundnns	theynnslet_govb	compoundsnnsrelinquishvb	releasevbtheynns	releasevbcompoundjj	theynnsrelinquishvb	compoundsnnsreleasevb	theynnsreleasevb	compoundjjreleasevb	releasennofincompoundjj	let_govbcompoundnns	compoundsnnsreleasenn	theynnslet_go_ofvb	releasevbcompoundsnns	themnnslet_govb	theynnsreleasenn	let_go_ofvbcompoundsnns	releasevbcompoundnns	let_govbcompoundjj	compoundsnnslet_go_ofvb	compoundnnslet_govb	themnnslet_go_ofvb	let_govbthemnns	compoundjjrelinquishvb	relinquishvbcompoundnns	
+
+BE: carbonatesNNStoTOlimeNNP
+EQ class: slaked_limennptheynns	limennpthemnns	themnnstotolimennp	calcium_hydratennpcarbonatevb	carbonatesnnstotoslaked_limennp	themnnstotolime_hydratennp	calcium_hydroxidennpthemnns	carbonatesnnstotocalcium_hydratennp	carbonatesnnstotocalcium_hydroxidennp	carbonatennstotohydrated_limennp	carbonatevblime_hydratennp	carbonatevbcalcium_hydratennp	calcium_hydroxidennptheynns	hydrated_limennpcarbonatevb	hydrated_limennptheynns	carbonatennstotocaustic_limennp	theynnstotolimennp	limennptheynns	themnnstotocalcium_hydratennp	lime_hydratennpcarbonatesnns	lime_hydratennpthemnns	themnnstotocalcium_hydroxidennp	themnnstotohydrated_limennp	slaked_limennpthemnns	carbonatevbcaustic_limennp	carbonatevbslaked_limennp	carbonatesnnstotohydrated_limennp	theynnstotoslaked_limennp	lime_hydratennpcarbonatevb	lime_hydratennpcarbonatenns	themnnstotocaustic_limennp	hydrated_limennpcarbonatenns	slaked_limennpcarbonatevb	themnnstotoslaked_limennp	calcium_hydratennpcarbonatesnns	calcium_hydratennpcarbonatenns	calcium_hydratennpthemnns	carbonatennstotolime_hydratennp	theynnstotohydrated_limennp	hydrated_limennpcarbonatesnns	slaked_limennpcarbonatenns	caustic_limennpcarbonatesnns	carbonatesnnstotocaustic_limennp	calcium_hydroxidennpcarbonatevb	limennpcarbonatesnns	carbonatennstotocalcium_hydroxidennp	calcium_hydroxidennpcarbonatesnns	carbonatevbcalcium_hydroxidennp	limennpcarbonatenns	slaked_limennpcarbonatesnns	limennpcarbonatevb	carbonatennstotoslaked_limennp	carbonatevblimennp	caustic_limennptheynns	calcium_hydroxidennpcarbonatenns	caustic_limennpthemnns	theynnstotocaustic_limennp	theynnstotolime_hydratennp	lime_hydratennptheynns	caustic_limennpcarbonatenns	caustic_limennpcarbonatevb	carbonatesnnstotolime_hydratennp	calcium_hydratennptheynns	theynnstotocalcium_hydroxidennp	carbonatennstotolimennp	carbonatennstotocalcium_hydratennp	theynnstotocalcium_hydratennp	carbonatevbhydrated_limennp	hydrated_limennpthemnns	
+
+BE: releaseNNdissolutionNN
+EQ class: disintegrationnnreleasevb	dissolutionnnreleasevb	dissolutionnnlet_govb	disintegrationnnreleasenn	dissolvennofinreleasenn	releasennfade_awayvb	releasenndissolvevb	disintegrationnnlet_govb	releasenndisintegrationnn	disintegrationnnlet_go_ofvb	dissolutionnnreleasenn	dissolutionnnrelinquishvb	dissolutionnnlet_go_ofvb	disintegrationnnrelinquishvb	releasennfade_outvb	
+
+BE: thirdNN
+EQ class: one-thirdnn	tiercenn	
+
+BE: outgassingPersonAnnotation
+EQ class: 
+
+BE: carbonNN
+EQ class: carbonicjj	atomic_number_6nn	cnn	
+
+BE: dioxideNN
+EQ class: 
+
+BE: earthNN
+EQ class: worldnn	globenn	
+
+BE: mantleNN
+EQ class: 
+
+BE: guessVBP
+EQ class: opinevbp	imaginevbp	supposevbp	reckonvbp	thinkvbp	
+
+BE: makeVB
+EQ class: dovb	
+
+BE: involvingVBG
+EQ class: affectvbg	regardvbg	involvevbg	
+
+BE: trappedVBN
+EQ class: trapvbn	pin_downvbn	
+
+BE: sVBZ
+EQ class: 
+
+BE: bubblesVBZoutRP
+EQ class: bubblevbzoutrp	bubblennofinoutrp	bubblyjjofinoutrp	
+
+BE: planetaryJJ
+EQ class: planetnn	planetaljj	
+
+BE: planetaryJJoutgassingPersonAnnotation
+EQ class: planetaljjoutgassingpersonannotation	planetnnoutgassingpersonannotation	
+
+BE: carbonNNdioxideNN
+EQ class: dioxidenncarbonisevb	carbonnnofindioxidenn	atomic_number_6nnofindioxidenn	carbonicjjofindioxidenn	dioxidennofincarbonicjj	dioxidennofincarbonnn	dioxidenncarburisevb	dioxidenncarbonatevb	atomic_number_6nndioxidenn	dioxidenncarbonizevb	cnnofindioxidenn	carbonatennofindioxidenn	carbonic_acidnnofindioxidenn	dioxidennofincnn	dioxidenncarburizevb	carbonicjjdioxidenn	cnndioxidenn	dioxidennofinatomic_number_6nn	
+
+BE: iPRPguessVBP
+EQ class: iprpopinevbp	guessernniprp	iprpsupposevbp	iprpimaginevbp	suppositionnnofiniprp	speculationnnofiniprp	guessnnofiniprp	conjecturennofiniprp	surmisalnnofiniprp	guessernnofiniprp	iprpthinkvbp	iprpreckonvbp	hypothesisnnofiniprp	surmisennofiniprp	
+
+BE: youPRPmakeVB
+EQ class: youprpdovb	
+
+BE: thirdNNinvolvingVBG
+EQ class: participationnnofinthirdnn	one-thirdnnregardvbg	involvementnnone-thirdnn	engagementnnofinthirdnn	tiercenninvolvingvbg	involutionnntiercenn	participationnnone-thirdnn	involvementnnofinone-thirdnn	thirdnnregardvbg	thirdnnaffectvbg	involvementnntiercenn	engagementnntiercenn	tiercennregardvbg	involutionnnthirdnn	involutionnnofinone-thirdnn	one-thirdnnaffectvbg	participationnnofintiercenn	involvementnnofinthirdnn	engagementnnofintiercenn	engagementnnone-thirdnn	one-thirdnninvolvingvbg	thirdnninvolvevbg	participationnntiercenn	tiercennaffectvbg	involutionnnone-thirdnn	participationnnofinone-thirdnn	involutionnnofinthirdnn	involvementnnofintiercenn	involvementnnthirdnn	one-thirdnninvolvevbg	tiercenninvolvevbg	engagementnnthirdnn	participationnnthirdnn	involutionnnofintiercenn	engagementnnofinone-thirdnn	
+
+BE: dioxideNNsVBZ
+EQ class: 
+
+BE: mantleNNbubblesVBZ
+EQ class: mantlennbubblevbz	bubblyjjofinmantlenn	bubblennofinmantlenn	
+
+BE: makeVBthirdNN
+EQ class: dovbone-thirdnn	makevbtiercenn	makevbone-thirdnn	dovbthirdnn	dovbtiercenn	
+
+BE: involvingVBGoutgassingPersonAnnotation
+EQ class: regardvbgoutgassingpersonannotation	participationnnofinoutgassingpersonannotation	affectvbgoutgassingpersonannotation	engagementnnofinoutgassingpersonannotation	involvementnnofinoutgassingpersonannotation	involvevbgoutgassingpersonannotation	involutionnnofinoutgassingpersonannotation	
+
+BE: trappedVBNdioxideNN
+EQ class: pin_downvbndioxidenn	trapvbndioxidenn	trapnnofindioxidenn	
+
+BE: trappedVBNinINearthNN
+EQ class: pin_downvbnininglobenn	trappedvbnininglobenn	trapvbnininearthnn	trappedvbnininworldnn	pin_downvbnininworldnn	trapvbnininworldnn	trapvbnininglobenn	pin_downvbnininearthnn	
+
+BE: outgassingPersonAnnotationwhereWRBsVBZ
+EQ class: 
+
+BE: bubblesVBZeventuallyRB
+EQ class: eventualjjininbubblyjj	eventualjjininbubblenn	eventualjjbubblyjj	bubblyjjofineventuallyrb	bubblennofineventuallyrb	eventualjjbubblenn	eventualjjininbubblesvbz	eventualjjininbubblevbz	bubblevbzeventuallyrb	
+

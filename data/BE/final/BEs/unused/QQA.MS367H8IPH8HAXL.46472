@@ -1,0 +1,65 @@
+#Hulk Hogan -5RicFlair -5Roddy Piper -5Ultimate Warrior -5Bret Hart -7Shawn Michaels -5Stone Cold -8The Rock -9Triple H -9Chris Benoit -2Eddie Guerrero -8Undertaker -9Kane -9John Cena -2Randy Orton -9Batista -5Mr. 
+#(S1 (X (NP (NP (NN Hulk) (NNP Hogan)) (NP (JJ -5RicFlair) (JJ -5Roddy) (ADJP (NNP Piper) (JJ -5Ultimate)) (NN Warrior) (NN -5Bret) (NNP Hart) (JJ -7Shawn) (NNPS Michaels))) (NP (JJ -5Stone) (NNP Cold) (NN -8The) (NNP Rock)) (NP (NP (JJ -9Triple) (NNP H) (FW -9Chris) (NNP Benoit)) (NP (JJ -2Eddie) (NNP Guerrero) (JJ -8Undertaker) (JJ -9Kane) (NN -9John) (NNP Cena) (JJ -2Randy) (NNP Orton) (JJ -9Batista) (NN -5Mr))) (. .)))
+#Rule:Nouns
+r1Hulk HoganPersonAnnotation
+r15Roddy PiperPersonAnnotation
+r1WarriorNN
+r1-5BretNN
+r1Hart -7ShawnOrganizationAnnotation
+r1Michaels -5Stone ColdOrganizationAnnotation
+r1-8TheNN
+r1Rock -9Triple HOrganizationAnnotation
+r19Chris BenoitPersonAnnotation
+r12Eddie GuerreroPersonAnnotation
+r1-9JohnNN
+r19John CenaPersonAnnotation
+r12Randy Orton -9BatistaOrganizationAnnotation
+r1-5MrNN
+
+#Rule:Adjs
+r4-5RicFlairJJ
+r4-5RoddyJJ
+r4-5UltimateJJ
+r4-2EddieJJ
+r4-8UndertakerJJ
+r48Undertaker -9KanePersonAnnotation
+r4-2RandyJJ
+
+#Rule:Adj-Noun
+r5-5RicFlairJJMichaels -5Stone ColdOrganizationAnnotation
+r5-5RoddyJJMichaels -5Stone ColdOrganizationAnnotation
+r5-5UltimateJJMichaels -5Stone ColdOrganizationAnnotation
+r5Hart -7ShawnOrganizationAnnotationMichaels -5Stone ColdOrganizationAnnotation
+r5Michaels -5Stone ColdOrganizationAnnotationRock -9Triple HOrganizationAnnotation
+r5Rock -9Triple HOrganizationAnnotation9Chris BenoitPersonAnnotation
+r5-2EddieJJ-5MrNN
+r5-8UndertakerJJ-5MrNN
+r58Undertaker -9KanePersonAnnotation-5MrNN
+r5-2RandyJJ-5MrNN
+r52Randy Orton -9BatistaOrganizationAnnotation-5MrNN
+
+#Rule:N-HeadNoun
+r8-8TheNNRock -9Triple HOrganizationAnnotation
+
+#Kennedy -8The Great Khali -4Big Show -8
+#(S1 (S (NP (NNP Kennedy) (NN -8The) (NNP Great) (NNP Khali) (NN -4Big) (NN Show)) (ADJP (JJ -8))))
+#Rule:Nouns
+r1KennedyPersonAnnotation
+r1-8TheNN
+r1GreatNNP
+r1KhaliPersonAnnotation
+r1-4BigNN
+r1ShowNN
+
+#Rule:Adjs
+r4-8JJ
+
+#Rule:N-HeadNoun
+r8-4BigNNShowNN
+r8KhaliPersonAnnotationShowNN
+r8GreatNNPShowNN
+r8-8TheNNShowNN
+
+@lemmas-left	Michaels -5Stone Cold	9John Cena	john	-2Randy	show	8Undertaker -9Kane	ultimate	9Chris Benoit	-4Big	undertaker	randy	-9John	Kennedy	-8the	Warrior	-5Bret	-5RicFlair	2Eddie Guerrero	Hart -7Shawn	mr	Show	5Roddy Piper	Rock -9Triple H	warrior	-5Ultimate	Great	Hulk Hogan	-5Roddy	great	-2Eddie	-5Mr	-5bret	2Randy Orton -9Batista	-5roddy	Khali	-8The	-5ricflair	-8Undertaker	-8	big	-2eddie	
+@lemmas-right	-5Mr	Michaels -5Stone Cold	mr	Show	show	Rock -9Triple H	9Chris Benoit	
+@lemmas-center	

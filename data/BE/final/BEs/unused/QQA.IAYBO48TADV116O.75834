@@ -1,0 +1,74 @@
+#The sky is blue because of the color that is reflected to it.  
+#(S1 (S (NP (DT The) (NN sky)) (VP (AUX is) (ADJP (JJ blue)) (PP (IN because) (IN of) (NP (NP (DT the) (NN color)) (SBAR (WHNP (WDT that)) (S (VP (AUX is) (VP (VBN reflected) (PP (TO to) (NP (PRP it)))))))))) (. .)))
+#Rule:Nouns
+r1skyNN
+r1colorNN
+
+#Rule:Verbs
+r2reflectedVBN
+
+#Rule:Adjs
+r4blueJJ
+
+#Rule:HeadNoun-V
+r11skyNNisAUX
+
+#Rule:V-(who/that)-HeadNoun
+r18reflectedVBNcolorNN
+
+#Rule:V-ADJ
+r25isAUXblueJJ
+
+#Rule:PPinVP
+r30isAUXofINcolorNN
+
+#Rule:PPinVP
+r32reflectedVBNtoTOitPRP
+
+#Most of the earth is ocean (around 85%) and is reflecting the color of the ocean which is blue into the atmosphere.
+#(S1 (S (NP (NP (JJS Most)) (PP (IN of) (NP (DT the) (NN earth)))) (VP (VP (AUX is) (NP (NP (NN ocean)) (PRN (-LRB- -LRB-) (NP (QP (IN around) (CD 85)) (NN %)) (-RRB- -RRB-)))) (CC and) (VP (AUX is) (S (VP (VBG reflecting) (NP (NP (DT the) (NN color)) (PP (IN of) (NP (DT the) (NN ocean))) (SBAR (WHNP (WDT which)) (S (VP (AUX is) (ADJP (JJ blue) (PP (IN into) (NP (DT the) (NN atmosphere)))))))))))) (. .)))
+#Rule:Nouns
+r1earthNN
+r1oceanNN
+r1%NN
+r1colorNN
+r1oceanNN
+r1atmosphereNN
+
+#Rule:Verbs
+r2reflectingVBG
+
+#Rule:Adjs
+r4MostJJS
+r4blueJJ
+
+#Rule:Adj-Noun
+r585CD%NN
+
+#Rule:HeadNoun-V
+r11MostJJSisAUX
+r11MostJJSisAUX
+
+#Rule:HeadNoun-(who/that)-V
+r14colorNNisAUX
+
+#Rule:V-HeadNoun
+r21isAUXoceanNN
+r21reflectingVBGcolorNN
+
+#Rule:V-ADJ
+r25isAUXblueJJ
+
+#Rule:PPinNP
+r26MostJJSofINearthNN
+r26colorNNofINoceanNN
+
+#Rule:PPinADJP
+r37blueJJintoINatmosphereNN
+
+#Rule:IS-RULE
+r47oceanNNMostJJS
+
+@lemmas-left	is	reflected	%	atmosphere	most	ocean	Most	reflecting	sky	color	blue	earth	reflect	85	be	
+@lemmas-right	is	it	blue	color	%	most	atmosphere	ocean	earth	Most	be	
+@lemmas-center	to	of	into	

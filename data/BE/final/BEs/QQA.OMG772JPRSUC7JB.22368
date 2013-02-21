@@ -1,0 +1,147 @@
+#Get some prep. guides - Barron s or Kaplan..
+#(S1 (S (VP (VB Get) (NP (NP (DT some) (CD prep.) (NNS guides)) (: -) (NP (NP (NNP Barron) (NNP s)) (CC or) (NP (NNP Kaplan))) (. .))) (. .)))
+#Rule:Nouns
+r1guides - Barron sPersonAnnotation
+r1KaplanPersonAnnotation
+
+#Rule:Verbs
+r2getVB
+
+#Rule:Adj-Noun
+r5prepCDguides - Barron sPersonAnnotation
+
+#Rule:V-HeadNoun
+r21getVBguides - Barron sPersonAnnotation
+
+#Read their hints for each section..
+#(S1 (S (VP (VB Read) (NP (PRP$ their) (NNS hints)) (PP (IN for) (NP (DT each) (NN section))) (. .)) (. .)))
+#Rule:Nouns
+r1hintsNNS
+r1sectionOrganizationAnnotation
+
+#Rule:Verbs
+r2readVB
+
+#Rule:PRP-Noun
+r6theirPRP$hintsNNS
+
+#Rule:V-HeadNoun
+r21readVBhintsNNS
+
+#Rule:PPinVP
+r30readVBforINsectionOrganizationAnnotation
+
+#Do a lot of sample questions, in same timeframe as actual exam..
+#(S1 (S (VP (AUX Do) (NP (NP (DT a) (NN lot)) (PP (IN of) (NP (NP (NN sample) (NNS questions)) (, ,) (PP (IN in) (NP (NP (JJ same) (NN timeframe)) (PP (IN as) (NP (JJ actual) (NN exam))))) (. .))))) (. .)))
+#Rule:Nouns
+r1lotNN
+r1sampleNN
+r1questionsNNS
+r1timeframeNN
+r1examNN
+
+#Rule:Adjs
+r4sameJJ
+r4actualJJ
+
+#Rule:Adj-Noun
+r5sameJJtimeframeNN
+r5actualJJexamNN
+
+#Rule:N-HeadNoun
+r8sampleNNquestionsNNS
+
+#Rule:V-HeadNoun
+r21doAUXlotNN
+
+#Rule:PPinNP
+r26lotNNofINquestionsNNS
+r26questionsNNSinINtimeframeNN
+r26timeframeNNasINexamNN
+
+#I am not sure if it makes sence to learn vocabulary lists..
+#(S1 (S (NP (PRP I)) (VP (AUX am) (RB not) (ADJP (JJ sure) (SBAR (IN if) (S (NP (PRP it)) (VP (VBZ makes) (S (NP (NN sence)) (VP (TO to) (VP (VB learn) (NP (NN vocabulary) (NNS lists)))) (. .))))))) (. .)))
+#Rule:Nouns
+r1senceNN
+r1vocabularyNN
+r1listsNNS
+
+#Rule:Verbs
+r2makesVBZ
+r2learnVB
+
+#Rule:Adjs
+r4sureJJ
+
+#Rule:N-HeadNoun
+r8vocabularyNNlistsNNS
+
+#Rule:HeadNoun-V
+r11iPRPamAUX
+r11itPRPmakesVBZ
+r11senceNNlearnVB
+
+#Rule:V-HeadNoun
+r21learnVBlistsNNS
+
+#Rule:V-HeadNoun
+r22makesVBZsenceNN
+
+#Rule:V-ADV
+r46amAUXnotRB
+
+#I believe there s an essay question now. The books should have sample topics - write a few essays on them, pay some GRE prep teacher to grade them and give suggestions.
+#(S1 (S (S (NP (PRP I)) (VP (VBP believe) (SBAR (S (NP (EX there)) (VP (VBZ s) (SBAR (S (NP (NP (DT an) (NN essay) (NN question)) (PP (IN now.) (NP (DT The) (NNS books)))) (VP (MD should) (VP (AUX have) (NP (NN sample) (NNS topics))))))))))) (: -) (S (VP (VP (VBP write) (NP (NP (DT a) (JJ few) (NNS essays)) (PP (IN on) (NP (PRP them))))) (, ,) (VP (VBP pay) (S (NP (DT some) (NNP GRE) (NN prep) (NN teacher)) (VP (TO to) (VP (NN grade) (NP (PRP them)))))) (CC and) (VP (VBP give) (NP (NNS suggestions))))) (. .)))
+#Rule:Nouns
+r1essayNN
+r1questionNN
+r1booksNNS
+r1sampleNN
+r1topicsNNS
+r1essaysNNS
+r1GRENNP
+r1prepNN
+r1teacherNN
+r1gradeNN
+r1suggestionsNNS
+
+#Rule:Verbs
+r2believeVBP
+r2sVBZ
+r2writeVBP
+r2payVBP
+r2giveVBP
+
+#Rule:Adjs
+r4fewJJ
+
+#Rule:Adj-Noun
+r5fewJJessaysNNS
+
+#Rule:N-HeadNoun
+r8essayNNquestionNN
+r8sampleNNtopicsNNS
+r8prepNNteacherNN
+r8GRENNPteacherNN
+
+#Rule:HeadNoun-V
+r11iPRPbelieveVBP
+r11thereEXsVBZ
+r11questionNNhaveAUX
+
+#Rule:V-HeadNoun
+r21haveAUXtopicsNNS
+r21writeVBPessaysNNS
+r21gradeNNthemPRP
+r21giveVBPsuggestionsNNS
+
+#Rule:V-HeadNoun
+r22payVBPteacherNN
+
+#Rule:PPinNP
+r26questionNNnowINbooksNNS
+r26essaysNNSonINthemPRP
+
+@lemmas-left	same	essay	sence	sure	be	topic	books	get	hints	questions	learn	few	prep	lot	suggestion	teacher	make	exam	Kaplan	have	give	GRE	timeframe	believe	prep.	write	read	grade	pay	do	question	lists	sample	it	vocabulary	makes	essays	list	hint	suggestions	section	gre	i	topics	s	am	there	book	actual	guides - Barron s	their	
+@lemmas-right	have	timeframe	believe	essay	question	lists	sence	be	topic	books	hints	makes	questions	learn	essays	list	hint	suggestions	section	not	topics	s	them	am	book	lot	suggestion	guides - Barron s	teacher	exam	make	
+@lemmas-center	of	now.	now	for	on	as	in	

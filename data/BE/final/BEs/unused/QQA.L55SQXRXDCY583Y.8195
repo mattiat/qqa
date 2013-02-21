@@ -1,0 +1,40 @@
+#Light comes from the sun, and when hitting a chemical in the air, we see the sky as blue!!!
+#(S1 (S (S (NP (NN Light)) (VP (VBZ comes) (PP (IN from) (NP (DT the) (NN sun))))) (, ,) (CC and) (S (SBAR (WHADVP (WRB when)) (S (VP (VBG hitting) (NP (DT a) (NN chemical)) (PP (IN in) (NP (DT the) (NN air)))))) (, ,) (NP (PRP we)) (VP (VBP see) (NP (DT the) (NN sky)) (PP (IN as) (NP (JJ blue) (NNS !!))))) (. !)))
+#Rule:Nouns
+r1LightNN
+r1sunNN
+r1chemicalNN
+r1airNN
+r1skyNN
+r1!!NNS
+
+#Rule:Verbs
+r2comesVBZ
+r2hittingVBG
+r2seeVBP
+
+#Rule:Adjs
+r4blueJJ
+
+#Rule:Adj-Noun
+r5blueJJ!!NNS
+
+#Rule:HeadNoun-V
+r11LightNNcomesVBZ
+r11wePRPseeVBP
+
+#Rule:V-HeadNoun
+r21hittingVBGchemicalNN
+r21seeVBPskyNN
+
+#Rule:PPinVP
+r30comesVBZfromINsunNN
+r30hittingVBGinINairNN
+r30seeVBPasIN!!NNS
+
+#Rule:(SBAR+WHADVP)inS
+r42seeVBPwhenWRBhittingVBG
+
+@lemmas-left	hitting	come	!!	comes	sun	sky	see	hit	blue	chemical	Light	air	light	we	
+@lemmas-right	sky	hitting	see	hit	chemical	come	air	!!	comes	sun	
+@lemmas-center	when	as	from	in	

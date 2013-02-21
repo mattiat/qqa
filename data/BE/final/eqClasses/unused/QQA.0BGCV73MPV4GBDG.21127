@@ -1,0 +1,219 @@
+BE: doctorNN
+EQ class: physiciannn	dr.nn	doctorialjj	docnn	mediconn	mdnn	
+
+BE: medicationNN
+EQ class: medicinenn	medicinal_drugnn	medicamentnn	
+
+BE: wayNN
+EQ class: stylenn	fashionnn	modenn	mannernn	
+
+BE: anythingNN
+EQ class: 
+
+BE: counterNN
+EQ class: 
+
+BE: seeVB
+EQ class: 
+
+BE: prescribeVB
+EQ class: dictatevb	ordervb	
+
+BE: sOrganizationAnnotation
+EQ class: 
+
+BE: buyVB
+EQ class: purchasevb	
+
+BE: effectiveJJ
+EQ class: efficaciousjj	effectivenessnn	effectualjj	effectivitynn	
+
+BE: effectiveJJwayNN
+EQ class: effectivitynnmodenn	effectualjjmannernn	effectualjjfashionnn	effectivenessnnmannernn	efficaciousjjfashionnn	effectivejjmannernn	effectualjjstylenn	effectualjjmodenn	effectivitynnwaynn	effectivenessnnwaynn	efficaciousjjmodenn	effectivitynnstylenn	effectivejjstylenn	effectivejjfashionnn	efficaciousjjstylenn	effectivenessnnmodenn	effectivenessnnfashionnn	effectualjjwaynn	efficaciousjjmannernn	effectivejjmodenn	effectivenessnnstylenn	effectivitynnmannernn	effectivitynnfashionnn	efficaciousjjwaynn	
+
+BE: yourPRP$doctorNN
+EQ class: yourprp$docnn	physiciannnofinyourprp$	yourprp$sophisticatevb	doctor_upvbyourprp$	mediconnofinyourprp$	doctorvbyourprp$	yourprp$doctorialvb	doctornnofinyourprp$	yourprp$doctor_upvb	yourprp$doctorialjj	yourprp$doctorvb	yourprp$mediconn	yourprp$physiciannn	doctorialjjofinyourprp$	mdnnofinyourprp$	yourprp$mdnn	doctorialvbyourprp$	sophisticatevbyourprp$	docnnofinyourprp$	dr.nnofinyourprp$	yourprp$dr.nn	
+
+BE: theyPRPprescribeVB
+EQ class: prescriptivennofintheyprp	pimplesprpdictatevb	sprpprescribevb	prescriptionnnofinsprp	prescriptivennofinsprp	prescriptionnnsprp	prescriptionnntheyprp	sprpordervb	pimplesprpprescribevb	prescriptionnnpimplesprp	prescriptionnnofintheyprp	theyprpdictatevb	sprpdictatevb	theyprpordervb	prescriptivennofinpimplesprp	pimplesprpordervb	prescriptionnnofinpimplesprp	
+
+BE: youPRPbuyVB
+EQ class: emptornnofinyouprp	buynnofinyouprp	purchasingnnyouprp	vendeennofinyouprp	buyernnyouprp	vendeennyouprp	buyernnofinyouprp	buyingnnyouprp	purchasernnofinyouprp	purchasernnyouprp	bargainnnofinyouprp	youprppurchasevb	purchasingnnofinyouprp	buyingnnofinyouprp	emptornnyouprp	stealnnofinyouprp	
+
+BE: medicationNNsOrganizationAnnotation
+EQ class: medicamentnnsorganizationannotation	medicinal_drugnnsorganizationannotation	medicinennsorganizationannotation	
+
+BE: buyVBanythingNN
+EQ class: emptornnofinanythingnn	buynnofinanythingnn	vendeennofinanythingnn	purchasingnnofinanythingnn	stealnnofinanythingnn	purchasevbanythingnn	buyingnnofinanythingnn	buyernnofinanythingnn	bargainnnofinanythingnn	purchasernnofinanythingnn	
+
+BE: seeVBdoctorNN
+EQ class: visionarynnofindoctorialjj	seernnofindocnn	seevbdocnn	illusionistnnofindoctornn	seevbphysiciannn	seeingnnofinmediconn	beholdingnnofindr.nn	seeingnnofindoctorialjj	beholdingnnofinmediconn	seernnofindoctornn	visionarynnofindoctornn	visionarynnofindr.nn	illusionistnnofinphysiciannn	seernnofindoctorialjj	visual_perceptionnnofindocnn	seeingnnofinphysiciannn	illusionistnnofindocnn	seeingnnofindoctornn	seernnofindr.nn	beholdingnnofindoctorialjj	visionarynnofinmediconn	illusionistnnofindr.nn	seevbmdnn	beholdingnnofinphysiciannn	seernnofinmediconn	visual_perceptionnnofindr.nn	beholdingnnofindocnn	visual_perceptionnnofindoctorialjj	seevbdoctorialjj	visual_perceptionnnofindoctornn	visionarynnofinmdnn	seernnofinphysiciannn	seevbdr.nn	seeingnnofindr.nn	illusionistnnofindoctorialjj	illusionistnnofinmdnn	seeingnnofindocnn	visionarynnofinphysiciannn	visual_perceptionnnofinmediconn	visual_perceptionnnofinphysiciannn	seeingnnofinmdnn	visual_perceptionnnofinmdnn	illusionistnnofinmediconn	seernnofinmdnn	beholdingnnofindoctornn	seevbmediconn	beholdingnnofinmdnn	visionarynnofindocnn	
+
+BE: prescribeVBmedicationNN
+EQ class: prescribevbmedicamentnn	prescriptionnnofinmedicinal_drugnn	prescriptionnnofinmedicinenn	prescribevbmedicinenn	prescriptionnnofinmedicationnn	prescriptivennofinmedicationnn	prescribevbmedicinal_drugnn	prescriptivennofinmedicinal_drugnn	dictatevbmedicinenn	ordervbmedicamentnn	prescriptionnnofinmedicamentnn	dictatevbmedicationnn	ordervbmedicinenn	prescriptivennofinmedicamentnn	ordervbmedicationnn	prescriptivennofinmedicinenn	dictatevbmedicamentnn	dictatevbmedicinal_drugnn	ordervbmedicinal_drugnn	
+
+BE: sOrganizationAnnotationwayNN
+EQ class: sorganizationannotationmannernn	sorganizationannotationstylenn	sorganizationannotationfashionnn	sorganizationannotationmodenn	
+
+BE: buyVBoverINcounterNN
+EQ class: purchasevboverincounternn	
+
+BE: effectiveJJthanINanythingNN
+EQ class: effectualjjthaninanythingnn	effectivenessnnthaninanythingnn	efficaciousjjthaninanythingnn	effectivitynnthaninanythingnn	
+
+BE: Retin-ANNP
+EQ class: angstromnnp	angstrom_unitnnp	annp	
+
+BE: reNNP
+EQ class: rheniumnnp	atomic_number_75nnp	
+
+BE: skinNN
+EQ class: tegumentnn	skinnyjj	cutisnn	
+
+BE: worksVBZ
+EQ class: workvbz	
+
+BE: shrinksVBZ
+EQ class: withervbz	shrivel_upvbz	shrivelvbz	shrinkvbz	
+
+BE: poresVBZ
+EQ class: porevbz	centrevbz	focusvbz	concentratevbz	rivetvbz	centervbz	
+
+BE: staysVBZ
+EQ class: stayvbz	restvbz	remainvbz	
+
+BE: wondersJJ
+EQ class: 
+
+BE: olderJJR
+EQ class: seniorjjr	agedjjr	elderlyjjr	
+
+BE: firmJJ
+EQ class: unshakablejj	steadfastjj	steadyjj	unbendablejj	unfalteringjj	firmnessnn	stiffjj	unwaveringjj	
+
+BE: tightJJ
+EQ class: tightnessnn	
+
+BE: yourPRP$skinNN
+EQ class: yourprp$sputtervb	yourprp$clambervb	yourprp$skinvb	yourprp$strugglevb	yourprp$cutisnn	scramblevbyourprp$	yourprp$tegumentnn	yourprp$scramblevb	skinnyvbyourprp$	strugglevbyourprp$	sputtervbyourprp$	cutisnnofinyourprp$	yourprp$shinvb	yourprp$skinnyvb	yourprp$skinnyjj	tegumentnnofinyourprp$	clambervbyourprp$	skinnyjjofinyourprp$	shinnyvbyourprp$	yourprp$shinnyvb	skinvbyourprp$	skinnnofinyourprp$	shinvbyourprp$	
+
+BE: Retin-ANNPworksVBZ
+EQ class: workernnannp	workernnangstromnnp	workernnangstrom_unitnnp	worknnofinangstrom_unitnnp	workernnretin-annp	workernnofinangstrom_unitnnp	worknnofinangstromnnp	workernnofinannp	annpworksvbz	annpworkvbz	angstromnnpworksvbz	workernnofinretin-annp	retin-annpworkvbz	workernnofinangstromnnp	worknnofinretin-annp	worknnofinannp	angstrom_unitnnpworkvbz	angstromnnpworkvbz	angstrom_unitnnpworksvbz	
+
+BE: ItPersonAnnotationshrinksVBZ
+EQ class: itpersonannotationwithervbz	itpersonannotationshrivelvbz	itpersonannotationshrivel_upvbz	itpersonannotationshrinkvbz	
+
+BE: yourPRP$poresVBZ
+EQ class: yourprp$focusvbz	yourprp$centervbz	yourprp$rivetvbz	yourprp$centrevbz	yourprp$porevbz	yourprp$concentratevbz	
+
+BE: skinNNstaysVBZ
+EQ class: skinnyjjrestvbz	tegumentnnstayvbz	skinnyjjremainvbz	staynnofinskinnyjj	tegumentnnstaysvbz	tegumentnnremainvbz	staynnofintegumentnn	staynnofincutisnn	cutisnnremainvbz	skinnnrestvbz	cutisnnstayvbz	skinnyjjstayvbz	skinnnremainvbz	tegumentnnrestvbz	staynnofinskinnn	cutisnnstaysvbz	cutisnnrestvbz	skinnnstayvbz	skinnyjjstaysvbz	
+
+BE: staysVBZwhenWRBolderJJR
+EQ class: staysvbzwhenwrbelderlyjjr	stayvbzwhenwrbelderlyjjr	remainvbzwhenwrbelderlyjjr	restvbzwhenwrbagedjjr	restvbzwhenwrbelderlyjjr	staysvbzwhenwrbseniorjjr	remainvbzwhenwrbolderjjr	remainvbzwhenwrbseniorjjr	restvbzwhenwrbolderjjr	stayvbzwhenwrbolderjjr	stayvbzwhenwrbagedjjr	staysvbzwhenwrbagedjjr	stayvbzwhenwrbseniorjjr	remainvbzwhenwrbagedjjr	restvbzwhenwrbseniorjjr	
+
+BE: poresVBZsoINstaysVBZ
+EQ class: porevbzsoinrestvbz	centrevbzsoinremainvbz	focusvbzsoinrestvbz	poresvbzsoinremainvbz	centrevbzsoinstayvbz	concentratevbzsoinstayvbz	rivetvbzsoinstayvbz	centervbzsoinstayvbz	centrevbzsoinrestvbz	focusvbzsoinremainvbz	rivetvbzsoinremainvbz	rivetvbzsoinstaysvbz	centervbzsoinremainvbz	centervbzsoinstaysvbz	porevbzsoinstayvbz	concentratevbzsoinrestvbz	concentratevbzsoinstaysvbz	porevbzsoinremainvbz	focusvbzsoinstayvbz	porevbzsoinstaysvbz	poresvbzsoinrestvbz	centrevbzsoinstaysvbz	rivetvbzsoinrestvbz	centervbzsoinrestvbz	poresvbzsoinstayvbz	concentratevbzsoinremainvbz	focusvbzsoinstaysvbz	
+
+BE: shrinksVBZalsoRB
+EQ class: shrivelvbzalsorb	shrivel_upvbzalsorb	shrinkvbzalsorb	withervbzalsorb	
+
+BE: TeaLocationAnnotation
+EQ class: 
+
+BE: TreeNN
+EQ class: 
+
+BE: oilNN
+EQ class: oilyjj	
+
+BE: skinNN
+EQ class: tegumentnn	skinnyjj	cutisnn	
+
+BE: pimplesNNS
+EQ class: zitnns	theynns	hickeynns	pimplyjj	pimplenns	themnns	
+
+BE: reNNP
+EQ class: rheniumnnp	atomic_number_75nnp	
+
+BE: skinNN
+EQ class: tegumentnn	skinnyjj	cutisnn	
+
+BE: faceNN
+EQ class: facialjj	human_facenn	
+
+BE: redNN
+EQ class: rednessnn	redjj	
+
+BE: sVBZ
+EQ class: 
+
+BE: makeVB
+EQ class: dovb	
+
+BE: takeVBawayRP
+EQ class: 
+
+BE: carefulJJ
+EQ class: carefulnessnn	
+
+BE: harshJJ
+EQ class: harshnessnn	roughjj	
+
+BE: sensitiveJJ
+EQ class: sensitivenessnn	sensitivitynn	
+
+BE: yourPRP$skinNN
+EQ class: yourprp$sputtervb	yourprp$clambervb	yourprp$skinvb	yourprp$strugglevb	yourprp$cutisnn	scramblevbyourprp$	yourprp$tegumentnn	yourprp$scramblevb	skinnyvbyourprp$	strugglevbyourprp$	sputtervbyourprp$	cutisnnofinyourprp$	yourprp$shinvb	yourprp$skinnyvb	yourprp$skinnyjj	tegumentnnofinyourprp$	clambervbyourprp$	skinnyjjofinyourprp$	shinnyvbyourprp$	yourprp$shinnyvb	skinvbyourprp$	skinnnofinyourprp$	shinvbyourprp$	
+
+BE: yourPRP$redNN
+EQ class: redjjofinyourprp$	rednnofinyourprp$	yourprp$redvb	redvbyourprp$	yourprp$redjj	rednessnnofinyourprp$	yourprp$rednessnn	
+
+BE: TreeNNoilNN
+EQ class: oilyjjcornervb	oilyjjofintreenn	oilnnofintreenn	oilyvbtreenn	treennoilyjj	treennoilvb	treennoilervb	oilnncornervb	oilnntreevb	treennoilyvb	oilervbtreenn	oilvbtreenn	oilyjjtreevb	
+
+BE: TeaLocationAnnotationoilNN
+EQ class: tealocationannotationoilyvb	oilvbtealocationannotation	oilervbtealocationannotation	tealocationannotationoilervb	oilyvbtealocationannotation	tealocationannotationoilyjj	tealocationannotationoilvb	oilyjjofintealocationannotation	oilnnofintealocationannotation	
+
+BE: reNNPskinNN
+EQ class: atomic_number_75nnpscramblevb	rennpcutisnn	rennpskinvb	shinnyvbatomic_number_75nnp	skinvbrheniumnnp	atomic_number_75nnpclambervb	skinnyvbrennp	rennpshinvb	shinvbrennp	rennpclambervb	scramblevbrheniumnnp	strugglevbrennp	rheniumnnpskinnyvb	skinvbrennp	sputtervbrennp	cutisnnofinatomic_number_75nnp	atomic_number_75nnpshinvb	rennpshinnyvb	rheniumnnpskinnyjj	rennpsputtervb	rennpskinnyvb	rheniumnnptegumentnn	atomic_number_75nnpskinvb	rheniumnnpshinnyvb	atomic_number_75nnpstrugglevb	rheniumnnpsputtervb	shinvbrheniumnnp	rheniumnnpclambervb	atomic_number_75nnpsputtervb	skinnnofinrennp	rheniumnnpshinvb	scramblevbrennp	strugglevbrheniumnnp	clambervbrennp	shinnyvbrheniumnnp	atomic_number_75nnpcutisnn	rennpskinnyjj	shinvbatomic_number_75nnp	rennpstrugglevb	rheniumnnpskinnn	clambervbatomic_number_75nnp	clambervbrheniumnnp	strugglevbatomic_number_75nnp	skinnyjjofinrennp	rheniumnnpscramblevb	tegumentnnofinrheniumnnp	skinnnofinatomic_number_75nnp	atomic_number_75nnpskinnn	cutisnnofinrennp	atomic_number_75nnpskinnyvb	rennpscramblevb	sputtervbrheniumnnp	scramblevbatomic_number_75nnp	skinvbatomic_number_75nnp	atomic_number_75nnptegumentnn	skinnyvbatomic_number_75nnp	atomic_number_75nnpshinnyvb	rennptegumentnn	skinnyvbrheniumnnp	atomic_number_75nnpskinnyjj	skinnyjjofinrheniumnnp	tegumentnnofinatomic_number_75nnp	rheniumnnpstrugglevb	rheniumnnpcutisnn	rheniumnnpskinvb	sputtervbatomic_number_75nnp	shinnyvbrennp	cutisnnofinrheniumnnp	skinnyjjofinatomic_number_75nnp	skinnnofinrheniumnnp	tegumentnnofinrennp	
+
+BE: faceNNredNN
+EQ class: human_facennredvb	facialjjredjj	facennredjj	redjjofinfacenn	redjjofinhuman_facenn	redjjofinfacialjj	rednnofinhuman_facenn	rednnofinfacialjj	facennrednessnn	facialjjrednessnn	human_facennredjj	redvbhuman_facenn	rednessnnofinhuman_facenn	rednessnnofinfacialjj	human_facennrednn	facennredvb	redvbfacialjj	rednnofinfacenn	facialjjredvb	redvbfacenn	rednessnnofinfacenn	facialjjrednn	human_facennrednessnn	
+
+BE: itPRPsVBZ
+EQ class: 
+
+BE: itPRPtakeVB
+EQ class: 
+
+BE: skinNNisAUX
+EQ class: cutisnnbeaux	cutisnnisaux	tegumentnnbeaux	skinnyjjbeaux	skinnnbeaux	skinnyjjisaux	tegumentnnisaux	
+
+BE: itPRPmakeVB
+EQ class: itprpdovb	
+
+BE: takeVBpimplesNNS
+EQ class: takevbthemnns	takevbtheynns	takevbpimplenns	takevbzitnns	takevbhickeynns	takevbpimplyjj	
+
+BE: makeVBredNN
+EQ class: makevbredjj	dovbrednessnn	makevbrednessnn	dovbrednn	dovbredjj	
+
+BE: isAUXsensitiveJJ
+EQ class: isauxsensitivenessnn	beauxsensitivenessnn	beauxsensitivejj	beauxsensitivitynn	isauxsensitivitynn	
+
+BE: carefulJJofINoilNN
+EQ class: oilyvbcarefullyrb	carefulnessnnofinoilyjj	oilvbcarefullyrb	oilervbcarefullyrb	carefuljjofinoilyjj	carefulnessnnofinoilnn	
+
+BE: harshJJonINskinNN
+EQ class: roughjjoninskinnyjj	roughjjonintegumentnn	harshjjonincutisnn	clambervbharshlyrb	roughjjoninskinnn	harshnessnnoninskinnyjj	skinnyvbharshlyrb	harshnessnnonincutisnn	strugglevbharshlyrb	scramblevbharshlyrb	harshjjonintegumentnn	roughjjonincutisnn	shinnyvbharshlyrb	skinvbharshlyrb	shinvbharshlyrb	sputtervbharshlyrb	harshnessnnoninskinnn	harshnessnnonintegumentnn	harshjjoninskinnyjj	
+
+BE: carefulJJofINsVBZ
+EQ class: svbzcarefullyrb	carefulnessnnofinsvbz	
+
+BE: beAUXifINisAUX
+EQ class: beauxifinbeaux	
+
+BE: sVBZwhileINtakeVB
+EQ class: 
+

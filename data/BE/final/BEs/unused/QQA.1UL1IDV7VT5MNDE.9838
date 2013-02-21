@@ -1,0 +1,46 @@
+#Don t shoot bears, mean person. 
+#(S1 (S (NP (NNP Don) (NNS t)) (VP (VBP shoot) (NP (NP (VBZ bears)) (, ,) (NP (JJ mean) (NN person)))) (. .)))
+#Rule:Nouns
+r1Don tPersonAnnotation
+r1personNN
+
+#Rule:Verbs
+r2shootVBP
+r2bearsVBZ
+
+#Rule:Adjs
+r4meanJJ
+
+#Rule:Adj-Noun
+r5meanJJpersonNN
+
+#Rule:N-ApposN
+r10bearsVBZpersonNN
+
+#Rule:HeadNoun-V
+r11Don tPersonAnnotationshootVBP
+
+#Rule:V-HeadNoun
+r21shootVBPbearsVBZ
+
+#A stun gun will do the trick
+#(S1 (S (NP (DT A) (JJ stun) (NN gun)) (VP (MD will) (VP (AUX do) (NP (DT the) (NN trick))))))
+#Rule:Nouns
+r1gunNN
+r1trickNN
+
+#Rule:Adjs
+r4stunJJ
+
+#Rule:Adj-Noun
+r5stunJJgunNN
+
+#Rule:HeadNoun-V
+r11gunNNdoAUX
+
+#Rule:V-HeadNoun
+r21doAUXtrickNN
+
+@lemmas-left	bear	Don t	person	stun	shoot	bears	mean	do	trick	gun	
+@lemmas-right	bear	person	shoot	bears	do	trick	gun	
+@lemmas-center	

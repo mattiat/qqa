@@ -1,0 +1,86 @@
+#if they are touching // playing with their shirt or hair. if your sitting at a table they put things inbetween you and theirself. 
+#(S1 (S (SBAR (IN if) (S (NP (PRP they)) (VP (AUX are) (ADJP (JJ touching))))) (VP (VBZ //) (S (VP (VP (VBG playing) (PP (IN with) (NP (PRP$ their) (NN shirt)))) (CC or) (VP (VBG hair.) (SBAR (IN if) (S (S (NP (PRP$ your)) (VP (VBG sitting) (PP (IN at) (NP (NP (DT a) (NN table)) (SBAR (S (NP (PRP they)) (VP (VBP put) (S (NP (NNS things)) (VP (VB inbetween) (NP (PRP you))))))))))) (CC and) (S (ADJP (JJ theirself))))))))) (. .)))
+#Rule:Nouns
+r1shirtNN
+r1tableNN
+r1thingsNNS
+
+#Rule:Verbs
+r2//VBZ
+r2playingVBG
+r2hairVBG
+r2sittingVBG
+r2putVBP
+r2inbetweenVB
+
+#Rule:Adjs
+r4touchingJJ
+r4theirselfJJ
+
+#Rule:PRP-Noun
+r6theirPRP$shirtNN
+
+#Rule:HeadNoun-V
+r11theyPRPareAUX
+r11yourPRP$sittingVBG
+r11theyPRPputVBP
+r11thingsNNSinbetweenVB
+
+#Rule:NP(NP(z) SBAR(S(NP(x)VP(y))))
+r19putVBPtableNN
+
+#Rule:V-HeadNoun
+r21inbetweenVByouPRP
+
+#Rule:V-HeadNoun
+r22putVBPthingsNNS
+
+#Rule:V-ADJ
+r25areAUXtouchingJJ
+
+#Rule:PPinVP
+r30playingVBGwithINshirtNN
+r30sittingVBGatINtableNN
+
+#Rule:V-V
+r44//VBZplayingVBG
+r44//VBZhairVBG
+
+#No eye contactt. 
+#(S1 (FRAG (NP (DT No) (NN eye) (NN contactt)) (. .)))
+#Rule:Nouns
+r1eyeNN
+r1contacttNN
+
+#Rule:N-HeadNoun
+r8eyeNNcontacttNN
+
+#It their sweatty, it takes them awhile to answeer.
+#(S1 (S (S (NP (PRP It)) (NP (PRP$ their) (NN sweatty))) (, ,) (NP (PRP it)) (VP (VBZ takes) (NP (PRP them)) (S (RB awhile) (VP (TO to) (VP (VB answeer))))) (. .)))
+#Rule:Nouns
+r1sweattyNN
+
+#Rule:Verbs
+r2takesVBZ
+r2answeerVB
+
+#Rule:PRP-Noun
+r6theirPRP$sweattyNN
+
+#Rule:HeadNoun-V
+r11itPRPtakesVBZ
+
+#Rule:V-HeadNoun
+r21takesVBZthemPRP
+
+#Rule:V-V
+r44takesVBZansweerVB
+
+#&&Good Luckk
+#(S1 (NP (NNP &&Good) (NNP Luckk)))
+#Rule:Nouns
+r1&&Good LuckkOrganizationAnnotation
+
+@lemmas-left	they	put	sweatty	contactt	&&Good Luckk	theirself	hair.	playing	takes	are	hair	shirt	be	eye	it	your	play	answeer	table	sit	inbetween	sitting	//	touching	take	things	their	
+@lemmas-right	put	sweatty	answeer	contactt	play	you	table	hair.	sit	playing	takes	inbetween	are	sitting	them	take	touching	things	hair	shirt	be	
+@lemmas-center	with	at	

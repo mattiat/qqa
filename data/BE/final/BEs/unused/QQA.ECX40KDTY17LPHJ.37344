@@ -1,0 +1,76 @@
+#God only exists in the minds of those who choose to believe it exists. so, yes, god exists. 
+#(S1 (S (NP (NNP God)) (ADVP (RB only)) (VP (VBZ exists) (PP (IN in) (NP (NP (DT the) (NNS minds)) (PP (IN of) (NP (NP (DT those)) (SBAR (WHNP (WP who)) (S (VP (VBP choose) (S (VP (TO to) (VP (VB believe) (S (NP (PRP it)) (ADJP (JJ exists.)) (SBAR (IN so) (, ,) (S (INTJ (UH yes)) (, ,) (NP (NNP god)) (VP (VBZ exists)))))))))))))))) (. .)))
+#Rule:Nouns
+r1GodNNP
+r1mindsNNS
+r1godNNP
+
+#Rule:Verbs
+r2existsVBZ
+r2chooseVBP
+r2believeVB
+r2existsVBZ
+
+#Rule:Adjs
+r4existsJJ
+
+#Rule:HeadNoun-V
+r11GodNNPexistsVBZ
+r11godNNPexistsVBZ
+
+#Rule:HeadNoun-(who/that)-V
+r14thoseDTchooseVBP
+
+#Rule:V-HeadNoun
+r22believeVBitPRP
+
+#Rule:PPinNP
+r26mindsNNSofINthoseDT
+
+#Rule:PPinVP
+r30existsVBZinINmindsNNS
+
+#Rule:V-V
+r44chooseVBPbelieveVB
+
+#Rule:V-ADV
+r46existsVBZonlyRB
+
+#Everyon can t be happy because some people choose unhappyness. or have it thrust upon them.
+#(S1 (S (NP (NNP Everyon)) (VP (MD can) (RB t) (VP (AUX be) (ADJP (JJ happy)) (SBAR (IN because) (S (NP (DT some) (NNS people)) (VP (VP (VBP choose) (ADJP (JJ unhappyness.))) (CC or) (VP (AUX have) (S (NP (PRP it)) (VP (VBN thrust) (PP (IN upon) (NP (PRP them))))))))))) (. .)))
+#Rule:Nouns
+r1EveryonNNP
+r1peopleNNS
+
+#Rule:Verbs
+r2chooseVBP
+r2thrustVBN
+
+#Rule:Adjs
+r4happyJJ
+r4unhappynessJJ
+
+#Rule:HeadNoun-V
+r11EveryonNNPbeAUX
+r11peopleNNSchooseVBP
+r11peopleNNShaveAUX
+
+#Rule:V-HeadNoun
+r22haveAUXitPRP
+
+#Rule:V-HeadNoun(passive)
+r24thrustVBNitPRP
+
+#Rule:V-ADJ
+r25beAUXhappyJJ
+
+#Rule:PPinVP
+r32thrustVBNuponINthemPRP
+
+#Rule:V-IN-V
+r43beAUXbecauseINchooseVBP
+r43beAUXbecauseINhaveAUX
+
+@lemmas-left	thrust	those	god	have	Everyon	believe	people	unhappyness	minds	unhappyness.	exists.	happy	exists	everyon	God	mind	exist	choose	be	
+@lemmas-right	those	it	have	believe	minds	happy	them	exists	only	mind	exist	choose	be	
+@lemmas-center	because	of	in	upon	

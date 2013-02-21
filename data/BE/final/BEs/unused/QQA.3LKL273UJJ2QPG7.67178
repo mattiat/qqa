@@ -1,0 +1,547 @@
+#I was in drama club back in school, way back in the day. 
+#(S1 (S (NP (PRP I)) (VP (AUX was) (PP (IN in) (NP (NN drama) (NN club))) (PP (ADVP (RB back)) (IN in) (NP (NN school))) (, ,) (ADVP (RB way) (RB back) (PP (IN in) (NP (DT the) (NN day))))) (. .)))
+#Rule:Nouns
+r1dramaNN
+r1clubNN
+r1schoolNN
+r1dayNN
+
+#Rule:N-HeadNoun
+r8dramaNNclubNN
+
+#Rule:HeadNoun-V
+r11iPRPwasAUX
+
+#Rule:PPinVP
+r30wasAUXinINclubNN
+r30wasAUXinINschoolNN
+
+#Rule:V-ADV
+r46wasAUXwayRB
+r46wasAUXbackRB
+
+#It s tough to put yourself out there and give it your all only to not get the part. 
+#(S1 (S (NP (PRP It)) (VP (VBZ s) (ADJP (JJ tough) (S (VP (TO to) (VP (VP (VB put) (NP (PRP yourself)) (PP (IN out) (NP (EX there)))) (CC and) (VP (VB give) (NP (PRP it)) (NP (PRP$ your)) (S (ADVP (RB all) (RB only)) (VP (TO to) (RB not) (VP (VB get) (NP (DT the) (NN part))))))))))) (. .)))
+#Rule:Nouns
+r1partNN
+
+#Rule:Verbs
+r2sVBZ
+r2putVB
+r2giveVB
+r2getVB
+
+#Rule:Adjs
+r4toughJJ
+
+#Rule:HeadNoun-V
+r11itPRPsVBZ
+
+#Rule:V-HeadNoun
+r21putVByourselfPRP
+r21giveVBitPRP
+r21giveVByourPRP$
+r21getVBpartNN
+
+#Rule:PPinVP
+r30putVBoutINthereEX
+
+#Rule:V-V
+r44giveVBgetVB
+
+#But it s part of being in theatre. 
+#(S1 (S (CC But) (NP (PRP it)) (VP (VBZ s) (NP (NP (NN part)) (PP (IN of) (S (VP (AUXG being) (PP (IN in) (NP (FW theatre)))))))) (. .)))
+#Rule:Nouns
+r1partNN
+
+#Rule:Verbs
+r2sVBZ
+
+#Rule:HeadNoun-V
+r11itPRPsVBZ
+
+#Rule:V-HeadNoun
+r21sVBZpartNN
+
+#You learn from the experience. 
+#(S1 (S (NP (PRP You)) (VP (VBP learn) (PP (IN from) (NP (DT the) (NN experience)))) (. .)))
+#Rule:Nouns
+r1experienceNN
+
+#Rule:Verbs
+r2learnVBP
+
+#Rule:HeadNoun-V
+r11youPRPlearnVBP
+
+#Rule:PPinVP
+r30learnVBPfromINexperienceNN
+
+#It s nothing against you personally, they just had someone else in mind for that certain part. 
+#(S1 (S (S (NP (PRP It)) (VP (VBZ s) (NP (NP (NN nothing)) (PP (IN against) (NP (NP (PRP you)) (ADVP (RB personally))))))) (, ,) (NP (PRP they)) (ADVP (RB just)) (VP (AUX had) (NP (NP (NN someone) (RB else)) (PP (IN in) (NP (NN mind)))) (PP (IN for) (NP (DT that) (JJ certain) (NN part)))) (. .)))
+#Rule:Nouns
+r1nothingNN
+r1someoneNN
+r1mindNN
+r1partNN
+
+#Rule:Verbs
+r2sVBZ
+
+#Rule:Adjs
+r4certainJJ
+
+#Rule:Adj-Noun
+r5certainJJpartNN
+
+#Rule:HeadNoun-V
+r11theyPRPhadAUX
+r11itPRPsVBZ
+
+#Rule:V-HeadNoun
+r21sVBZnothingNN
+r21hadAUXsomeoneNN
+
+#Rule:PPinNP
+r26nothingNNagainstINyouPRP
+r26someoneNNinINmindNN
+
+#Rule:PPinVP
+r30hadAUXforINpartNN
+
+#Rule:V-ADV
+r46hadAUXjustRB
+
+#Find out what they re planning for April and immerse yourself into it. 
+#(S1 (S (VP (VP (VB Find) (PRT (RP out)) (SBAR (WHNP (WP what)) (S (NP (PRP they)) (VP (NNP re) (S (VP (NN planning) (PP (IN for) (NP (NNP April))))))))) (CC and) (VP (VB immerse) (NP (PRP yourself)) (PP (IN into) (NP (PRP it))))) (. .)))
+#Rule:Nouns
+r1reNNP
+r1planningNN
+r1AprilNNP
+
+#Rule:Verbs
+r2immerseVB
+
+#Rule:V-PRT
+r3findVBoutRP
+
+#Rule:V-HeadNoun
+r21immerseVByourselfPRP
+
+#Rule:PPinVP
+r30immerseVBintoINitPRP
+
+#Study all the roles you could possibly be considered for. 
+#(S1 (S (VP (VB Study) (NP (NP (PDT all) (DT the) (NNS roles)) (SBAR (S (NP (PRP you)) (VP (MD could) (ADVP (RB possibly)) (VP (AUX be) (VP (VBN considered) (PP (IN for))))))))) (. .)))
+#Rule:Nouns
+r1rolesNNS
+
+#Rule:Verbs
+r2studyVB
+r2consideredVBN
+
+#Rule:NP(NP(z) SBAR(S(NP(x)VP(y))))
+r19consideredVBNrolesNNS
+
+#Rule:V-HeadNoun
+r21studyVBrolesNNS
+
+#Rule:V-HeadNoun(passive)
+r23consideredVBNyouPRP
+
+#Rule:V-ADV
+r46beAUXpossiblyRB
+
+#Audition for them all. 
+#(S1 (S (VP (VB Audition) (PP (IN for) (NP (NP (PRP them)) (NP (DT all))))) (. .)))
+#Rule:Verbs
+r2auditionVB
+
+#Rule:PPinVP
+r30auditionVBforINthemPRP
+r30auditionVBforINallDT
+
+#Even the ones you don t think you d really want. 
+#(S1 (S (NP (RB Even) (DT the) (NNS ones)) (NP (PRP you)) (VP (VB don) (S (NP (NNS t)) (VP (VB think) (SBAR (S (NP (PRP you)) (ADVP (LS d)) (ADVP (RB really)) (VP (VBP want))))))) (. .)))
+#Rule:Nouns
+r1onesNNS
+r1tNNS
+
+#Rule:Verbs
+r2donVB
+r2thinkVB
+r2wantVBP
+
+#Rule:HeadNoun-V
+r11onesNNSdonVB
+r11youPRPdonVB
+r11tNNSthinkVB
+r11youPRPwantVBP
+
+#Rule:V-HeadNoun
+r22donVBtNNS
+
+#Rule:V-ADV
+r46wantVBPreallyRB
+
+#If you still don t get the part, at least you ve gained the experience and broadened your horizons. 
+#(S1 (S (SBAR (IN If) (S (NP (PRP you)) (ADVP (RB still)) (VP (VB don) (S (NP (NNS t)) (VP (VB get) (NP (DT the) (NN part))))))) (, ,) (ADVP (IN at) (JJS least)) (NP (PRP you)) (VP (VBP ve) (S (VP (VP (VBN gained) (NP (DT the) (NN experience))) (CC and) (VP (VBN broadened) (NP (PRP$ your) (NNS horizons)))))) (. .)))
+#Rule:Nouns
+r1tLocationAnnotation
+r1partNN
+r1experienceNN
+r1horizonsNNS
+
+#Rule:Verbs
+r2donVB
+r2getVB
+r2veVBP
+r2gainedVBN
+r2broadenedVBN
+
+#Rule:Adjs
+r4leastJJS
+
+#Rule:PRP-Noun
+r6yourPRP$horizonsNNS
+
+#Rule:HeadNoun-V
+r11youPRPveVBP
+r11youPRPdonVB
+r11tLocationAnnotationgetVB
+
+#Rule:V-HeadNoun
+r21getVBpartNN
+r21gainedVBNexperienceNN
+r21broadenedVBNhorizonsNNS
+
+#Rule:V-HeadNoun
+r22donVBtLocationAnnotation
+
+#Rule:V-V
+r44veVBPgainedVBN
+r44veVBPbroadenedVBN
+
+#Rule:V-ADV
+r46donVBstillRB
+
+#Each part you audition for expands your abilities. 
+#(S1 (S (NP (NP (DT Each) (NN part)) (SBAR (S (NP (PRP you)) (VP (VB audition) (PP (IN for)))))) (VP (VBZ expands) (NP (PRP$ your) (NNS abilities))) (. .)))
+#Rule:Nouns
+r1partNN
+r1abilitiesNNS
+
+#Rule:Verbs
+r2auditionVB
+r2expandsVBZ
+
+#Rule:PRP-Noun
+r6yourPRP$abilitiesNNS
+
+#Rule:HeadNoun-V
+r11partNNexpandsVBZ
+r11youPRPauditionVB
+
+#Rule:NP(NP(z) SBAR(S(NP(x)VP(y))))
+r19auditionVBpartNN
+
+#Rule:V-HeadNoun
+r21expandsVBZabilitiesNNS
+
+#Sure, some people are good at certain types of roles, but being versatile is even better. 
+#(S1 (S (ADVP (RB Sure)) (, ,) (S (NP (DT some) (NNS people)) (VP (AUX are) (ADJP (JJ good) (PP (IN at) (NP (NP (JJ certain) (NNS types)) (PP (IN of) (NP (NNS roles)))))))) (, ,) (CC but) (S (S (VP (AUXG being) (ADJP (JJ versatile)))) (VP (AUX is) (ADJP (RB even) (JJR better)))) (. .)))
+#Rule:Nouns
+r1peopleNNS
+r1typesNNS
+r1rolesNNS
+
+#Rule:Adjs
+r4goodJJ
+r4certainJJ
+r4versatileJJ
+r4betterJJR
+
+#Rule:Adj-Noun
+r5certainJJtypesNNS
+
+#Rule:HeadNoun-V
+r11peopleNNSareAUX
+
+#Rule:V-ADJ
+r25areAUXgoodJJ
+r25beingAUXGversatileJJ
+r25isAUXbetterJJR
+
+#Rule:PPinNP
+r26typesNNSofINrolesNNS
+
+#Rule:PPinADJP
+r37goodJJatINtypesNNS
+
+#Take for example my younger brother. 
+#(S1 (S (VP (VB Take) (PP (IN for) (NP (NP (NN example)) (NP (PRP$ my) (JJR younger) (NN brother))))) (. .)))
+#Rule:Nouns
+r1exampleNN
+r1brotherNN
+
+#Rule:Verbs
+r2takeVB
+
+#Rule:Adjs
+r4youngerJJR
+
+#Rule:Adj-Noun
+r5youngerJJRbrotherNN
+
+#Rule:PRP-Noun
+r6myPRP$brotherNN
+
+#Rule:PPinVP
+r30takeVBforINexampleNN
+r30takeVBforINbrotherNN
+
+#(This is hilarious.) 
+#(S1 (S (-LRB- -LRB-) (NP (DT This)) (VP (AUX is) (ADJP (JJ hilarious))) (. .) (-RRB- -RRB-)))
+#Rule:Adjs
+r4hilariousJJ
+
+#Rule:HeadNoun-V
+r11thisDTisAUX
+
+#Rule:V-ADJ
+r25isAUXhilariousJJ
+
+#He went to an all-boys school and the play for that year was Hamlet. 
+#(S1 (S (S (NP (PRP He)) (VP (VBD went) (PP (TO to) (NP (DT an) (JJ all-boys) (NN school))))) (CC and) (S (NP (NP (DT the) (NN play)) (PP (IN for) (NP (DT that) (NN year)))) (VP (AUX was) (ADJP (JJ Hamlet)))) (. .)))
+#Rule:Nouns
+r1schoolNN
+r1playNN
+r1yearNN
+
+#Rule:Verbs
+r2wentVBD
+
+#Rule:Adjs
+r4all-boysJJ
+r4HamletPersonAnnotation
+
+#Rule:Adj-Noun
+r5all-boysJJschoolNN
+
+#Rule:HeadNoun-V
+r11hePRPwentVBD
+r11playNNwasAUX
+
+#Rule:V-ADJ
+r25wasAUXHamletPersonAnnotation
+
+#Rule:PPinNP
+r26playNNforINyearNN
+
+#Rule:PPinVP
+r30wentVBDtoTOschoolNN
+
+#All the male roles were taken. 
+#(S1 (S (NP (PDT All) (DT the) (JJ male) (NNS roles)) (VP (AUX were) (VP (VBN taken))) (. .)))
+#Rule:Nouns
+r1rolesNNS
+
+#Rule:Verbs
+r2takenVBN
+
+#Rule:Adjs
+r4maleJJ
+
+#Rule:Adj-Noun
+r5maleJJrolesNNS
+
+#Rule:V-HeadNoun(passive)
+r23takenVBNrolesNNS
+
+#But he was required to participate. 
+#(S1 (S (CC But) (NP (PRP he)) (VP (AUX was) (VP (VBN required) (S (VP (TO to) (VP (VB participate)))))) (. .)))
+#Rule:Verbs
+r2requiredVBN
+r2participateVB
+
+#Rule:V-HeadNoun(passive)
+r23requiredVBNhePRP
+
+#Rule:V-V
+r44requiredVBNparticipateVB
+
+#So he took the role of Ophelia. 
+#(S1 (S (ADVP (RB So)) (NP (PRP he)) (VP (VBD took) (NP (NP (DT the) (NN role)) (PP (IN of) (NP (NNP Ophelia))))) (. .)))
+#Rule:Nouns
+r1roleNN
+r1OpheliaOrganizationAnnotation
+
+#Rule:Verbs
+r2tookVBD
+
+#Rule:HeadNoun-V
+r11hePRPtookVBD
+
+#Rule:V-HeadNoun
+r21tookVBDroleNN
+
+#Rule:PPinNP
+r26roleNNofINOpheliaOrganizationAnnotation
+
+#Rule:V-ADV
+r46tookVBDSoRB
+
+#He hated it, but he actually ended up stealing the show. 
+#(S1 (S (S (NP (PRP He)) (VP (VBN hated) (NP (PRP it)))) (, ,) (CC but) (S (NP (PRP he)) (VP (ADVP (RB actually)) (VBD ended) (PRT (RP up)) (S (VP (VBG stealing) (NP (DT the) (NN show)))))) (. .)))
+#Rule:Nouns
+r1showNN
+
+#Rule:Verbs
+r2hatedVBN
+r2stealingVBG
+
+#Rule:V-PRT
+r3endedVBDupRP
+
+#Rule:HeadNoun-V
+r11hePRPendedVBD
+
+#Rule:V-HeadNoun
+r21hatedVBNitPRP
+r21stealingVBGshowNN
+
+#Rule:V-HeadNoun(passive)
+r24hatedVBNhePRP
+
+#Rule:V-ADV
+r46endedVBDactuallyRB
+
+#He s by nature a comic, so he brought his own flavor to Ophelia. 
+#(S1 (S (NP (PRP He)) (VP (VBZ s) (PP (IN by) (NP (NN nature))) (NP (DT a) (NN comic)) (, ,) (SBAR (IN so) (S (NP (PRP he)) (VP (VBD brought) (NP (PRP$ his) (JJ own) (NN flavor)) (PP (TO to) (NP (NNP Ophelia))))))) (. .)))
+#Rule:Nouns
+r1natureNN
+r1comicNN
+r1flavorNN
+r1OpheliaLocationAnnotation
+
+#Rule:Verbs
+r2sVBZ
+r2broughtVBD
+
+#Rule:Adjs
+r4ownJJ
+
+#Rule:Adj-Noun
+r5ownJJflavorNN
+
+#Rule:PRP-Noun
+r6hisPRP$flavorNN
+
+#Rule:HeadNoun-V
+r11hePRPsVBZ
+r11hePRPbroughtVBD
+
+#Rule:V-HeadNoun
+r21sVBZcomicNN
+r21broughtVBDflavorNN
+
+#Rule:PPinVP
+r30sVBZbyINnatureNN
+r30broughtVBDtoTOOpheliaLocationAnnotation
+
+#Rule:V-IN-V
+r43sVBZsoINbroughtVBD
+
+#A tragedy inadvertently turned dark comedy. 
+#(S1 (S (NP (DT A) (NN tragedy)) (ADVP (RB inadvertently)) (VP (VBD turned) (NP (JJ dark) (NN comedy))) (. .)))
+#Rule:Nouns
+r1tragedyNN
+r1comedyNN
+
+#Rule:Verbs
+r2turnedVBD
+
+#Rule:Adjs
+r4darkJJ
+
+#Rule:Adj-Noun
+r5darkJJcomedyNN
+
+#Rule:HeadNoun-V
+r11tragedyNNturnedVBD
+
+#Rule:V-HeadNoun
+r21turnedVBDcomedyNN
+
+#Rule:V-ADV
+r46turnedVBDinadvertentlyRB
+
+#(Think Shakespeare meets Chris Farley.) 
+#(S1 (S (-LRB- -LRB-) (VP (VB Think) (SBAR (S (NP (NNP Shakespeare)) (VP (VBZ meets) (NP (NNP Chris) (NNP Farley)))))) (. .) (-RRB- -RRB-)))
+#Rule:Nouns
+r1ShakespeareNNP
+r1Chris FarleyPersonAnnotation
+
+#Rule:Verbs
+r2thinkVB
+r2meetsVBZ
+
+#Rule:HeadNoun-V
+r11ShakespeareNNPmeetsVBZ
+
+#Rule:V-HeadNoun
+r21meetsVBZChris FarleyPersonAnnotation
+
+#Remember to always bring your own talents to whatever role you audition for. ;)  So chin up for now, and next time go knock em dead!
+#(S1 (S (S (VP (VB Remember) (S (VP (TO to) (ADVP (RB always)) (VP (VB bring) (NP (PRP$ your) (JJ own) (NNS talents)) (PP (TO to) (SBAR (SBAR (WHNP (WDT whatever) (NN role)) (S (NP (PRP you)) (VP (VB audition) (NP (NN for.))))) (: ;) (-RRB- -RRB-) (S (RB So) (VP (NN chin) (PRT (RP up)) (PP (IN for) (NP (RB now)))))))))))) (, ,) (CC and) (S (NP (JJ next) (NN time)) (VP (VB go) (VP (VB knock) (S (NP (NNS em)) (ADJP (JJ dead)))))) (. !)))
+#Rule:Nouns
+r1talentsNNS
+r1roleNN
+r1forNN
+r1chinNN
+r1timeNN
+r1emNNS
+
+#Rule:Verbs
+r2rememberVB
+r2bringVB
+r2auditionVB
+r2goVB
+r2knockVB
+
+#Rule:V-PRT
+r3chinNNupRP
+
+#Rule:Adjs
+r4ownJJ
+r4nextJJ
+r4deadJJ
+
+#Rule:Adj-Noun
+r5ownJJtalentsNNS
+r5nextJJtimeNN
+
+#Rule:PRP-Noun
+r6yourPRP$talentsNNS
+
+#Rule:HeadNoun-V
+r11youPRPauditionVB
+r11timeNNgoVB
+r11timeNNknockVB
+
+#Rule:V-HeadNoun
+r21bringVBtalentsNNS
+r21auditionVBforNN
+
+#Rule:V-HeadNoun
+r22knockVBemNNS
+
+#Rule:V-V
+r44rememberVBbringVB
+
+#Rule:V-ADV
+r46bringVBalwaysRB
+
+@lemmas-left	they	don	for	bring	drama	stealing	people	went	knock	time	are	nature	role	year	Shakespeare	Chris Farley	turn	comic	he	meet	planning	roles	own	go	put	comedy	give	next	broaden	talent	brought	gained	consider	ve	horizons	mind	want	ability	end	for.	steal	male	ones	my	gain	i	t	s	club	nothing	em	brother	part	hate	hated	least	being	took	tragedy	study	good	show	ended	type	audition	versatile	turned	his	someone	dark	expand	taken	dead	required	younger	had	Hamlet	shakespeare	be	think	get	talents	flavor	horizon	learn	broadened	better	tough	all-boys	require	day	example	this	remember	have	one	re	hilarious	meets	considered	was	experience	participate	immerse	types	find	is	it	april	chin	your	play	you	April	school	abilities	take	Ophelia	expands	certain	boy	
+@lemmas-right	don	for	took	show	good	bring	actually	ended	type	went	audition	versatile	knock	time	turned	are	nature	someone	role	expand	year	yourself	Hamlet	had	be	Chris Farley	turn	think	get	comic	so	talents	flavor	possibly	learn	horizon	he	always	meet	broadened	better	them	roles	example	go	comedy	have	broaden	talent	way	brought	hilarious	meets	So	was	gained	ve	experience	participate	mind	horizons	types	end	all	want	ability	just	for.	is	it	your	back	you	still	up	gain	really	school	t	s	abilities	Ophelia	take	club	there	nothing	inadvertently	expands	em	brother	part	out	
+@lemmas-center	to	of	so	for	against	at	into	by	from	in	out	

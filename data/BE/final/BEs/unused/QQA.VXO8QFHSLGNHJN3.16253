@@ -1,0 +1,159 @@
+#This concept of a dark age was created by the Italian scholar Francesco Petrarca and was originally intended as a sweeping criticism of the character of Late Latin literature. 
+#(S1 (S (NP (NP (DT This) (NN concept)) (PP (IN of) (NP (DT a) (JJ dark) (NN age)))) (VP (VP (AUX was) (VP (VBN created) (PP (IN by) (NP (DT the) (JJ Italian) (NN scholar) (NNP Francesco) (NNP Petrarca))))) (CC and) (VP (AUX was) (ADVP (RB originally)) (VP (VBN intended) (PP (IN as) (NP (NP (DT a) (JJ sweeping) (NN criticism)) (PP (IN of) (NP (NP (DT the) (NN character)) (PP (IN of) (NP (JJ Late) (NNP Latin) (NN literature)))))))))) (. .)))
+#Rule:Nouns
+r1conceptNN
+r1ageNN
+r1scholarNN
+r1Francesco PetrarcaOrganizationAnnotation
+r1criticismNN
+r1characterNN
+r1LatinNNP
+r1literatureNN
+
+#Rule:Verbs
+r2createdVBN
+r2intendedVBN
+
+#Rule:Adjs
+r4darkJJ
+r4ItalianJJ
+r4sweepingJJ
+r4LateOrganizationAnnotation
+
+#Rule:Adj-Noun
+r5darkJJageNN
+r5ItalianJJFrancesco PetrarcaOrganizationAnnotation
+r5sweepingJJcriticismNN
+r5LateOrganizationAnnotationliteratureNN
+
+#Rule:N-HeadNoun
+r8scholarNNFrancesco PetrarcaOrganizationAnnotation
+r8LatinNNPliteratureNN
+
+#Rule:V-By-Agent
+r13Francesco PetrarcaOrganizationAnnotationcreatedVBN
+
+#Rule:V-HeadNoun(passive)
+r23createdVBNconceptNN
+r23intendedVBNconceptNN
+
+#Rule:PPinNP
+r26conceptNNofINageNN
+r26criticismNNofINcharacterNN
+r26characterNNofINliteratureNN
+
+#Rule:PPinVP
+r32intendedVBNasINcriticismNN
+
+#Rule:V-ADV
+r46wasAUXoriginallyRB
+r46intendedVBNoriginallyRB
+
+#Later historians expanded the term to include not only the lack of Latin literature, but also a lack of contemporary written history and material cultural achievements in general. 
+#(S1 (S (NP (JJ Later) (NNS historians)) (VP (VBD expanded) (S (NP (DT the) (NN term)) (VP (TO to) (VP (VB include) (NP (CONJP (RB not) (RB only)) (NP (NP (DT the) (NN lack)) (PP (IN of) (NP (NP (NNP Latin) (NN literature)) (, ,) (CONJP (CC but) (RB also)) (NP (NP (DT a) (NN lack)) (PP (IN of) (NP (JJ contemporary) (JJ written) (NN history))))))) (CC and) (NP (JJ material) (JJ cultural) (NNS achievements))) (PP (IN in) (ADJP (JJ general))))))) (. .)))
+#Rule:Nouns
+r1historiansNNS
+r1termNN
+r1lackNN
+r1LatinNNP
+r1literatureNN
+r1lackNN
+r1historyNN
+r1achievementsNNS
+
+#Rule:Verbs
+r2expandedVBD
+r2includeVB
+
+#Rule:Adjs
+r4LaterJJ
+r4contemporaryJJ
+r4writtenJJ
+r4materialJJ
+r4culturalJJ
+r4generalJJ
+
+#Rule:Adj-Noun
+r5LaterJJhistoriansNNS
+r5contemporaryJJhistoryNN
+r5writtenJJhistoryNN
+r5materialJJachievementsNNS
+r5culturalJJachievementsNNS
+
+#Rule:N-HeadNoun
+r8LatinNNPliteratureNN
+
+#Rule:HeadNoun-V
+r11historiansNNSexpandedVBD
+r11termNNincludeVB
+
+#Rule:V-HeadNoun
+r21includeVBlackNN
+
+#Rule:V-HeadNoun
+r22expandedVBDtermNN
+
+#Rule:PPinNP
+r26lackNNofINliteratureNN
+r26lackNNofINlackNN
+r26lackNNofINhistoryNN
+
+#Popular culture has further expanded on the term as a vehicle to depict the Middle Ages as a time of backwardness, extending its pejorative use and expanding its scope.http://en.wikipedia.org/wiki/Dark_Ages
+#(S1 (S (S (NP (JJ Popular) (NN culture)) (VP (AUX has) (VP (RBR further) (VBN expanded) (PP (IN on) (NP (NP (DT the) (NN term)) (PP (IN as) (NP (NP (DT a) (NN vehicle)) (SBAR (S (VP (TO to) (VP (VB depict) (NP (DT the) (NNP Middle) (NNPS Ages)) (PP (IN as) (NP (NP (DT a) (NN time)) (PP (IN of) (NP (NN backwardness))))) (, ,) (S (VP (VP (VBG extending) (NP (PRP$ its) (JJ pejorative) (NN use))) (CC and) (VP (VBG expanding) (NP (PRP$ its) (NNS scope.http)))))))))))))))) (: :) (VP (VBZ //en.wikipedia.org/wiki/Dark_Ages))))
+#Rule:Nouns
+r1cultureNN
+r1termNN
+r1vehicleNN
+r1Middle AgesOrganizationAnnotation
+r1timeNN
+r1backwardnessNN
+r1useNN
+r1scope.httpNNS
+
+#Rule:Verbs
+r2expandedVBN
+r2depictVB
+r2extendingVBG
+r2expandingVBG
+r2//en.wikipedia.org/wiki/dark_agesVBZ
+
+#Rule:Adjs
+r4PopularJJ
+r4pejorativeJJ
+
+#Rule:Adj-Noun
+r5PopularJJcultureNN
+r5pejorativeJJuseNN
+
+#Rule:PRP-Noun
+r6itsPRP$useNN
+r6itsPRP$scope.httpNNS
+
+#Rule:HeadNoun-V
+r12cultureNNexpandedVBN
+
+#Rule:HeadNoun-(who/that)-V
+r14vehicleNNdepictVB
+
+#Rule:V-HeadNoun
+r21depictVBMiddle AgesOrganizationAnnotation
+r21extendingVBGuseNN
+r21expandingVBGscope.httpNNS
+
+#Rule:PPinNP
+r26termNNasINvehicleNN
+r26timeNNofINbackwardnessNN
+
+#Rule:PPinVP
+r30depictVBasINtimeNN
+
+#Rule:PPinVP
+r32expandedVBNonINtermNN
+
+#Rule:V-V
+r44depictVBextendingVBG
+r44depictVBexpandingVBG
+
+@lemmas-left	italian	its	time	created	age	dark	expand	be	backwardness	scope.http	achievement	literature	lack	criticism	intended	expanded	create	include	Latin	Later	http	contemporary	popular	culture	extending	concept	Late	vehicle	cultural	use	was	character	//en.wikipedia.org/wiki/dark_ages	achievements	written	pejorative	Italian	depict	historians	sweeping	later	extend	expanding	Popular	material	general	history	Francesco Petrarca	term	latin	Middle Ages	historian	intend	scholar	
+@lemmas-right	concept	vehicle	use	character	time	achievements	created	age	expand	backwardness	scope.http	depict	achievement	historians	extend	expanding	literature	lack	criticism	expanded	create	include	history	Francesco Petrarca	originally	term	http	Middle Ages	historian	extending	culture	
+@lemmas-center	of	on	as	

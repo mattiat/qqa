@@ -1,0 +1,49 @@
+#because it reflects the colour of our planet which is mostly blue due to the large masses of water covering our planet
+#(S1 (FRAG (SBAR (IN because) (S (NP (PRP it)) (VP (VBZ reflects) (NP (NP (DT the) (NN colour)) (PP (IN of) (NP (PRP$ our) (NN planet))) (SBAR (WHNP (WDT which)) (S (VP (AUX is) (ADJP (RB mostly) (JJ blue) (PP (JJ due) (TO to) (NP (NP (DT the) (JJ large) (NNS masses)) (PP (IN of) (NP (NP (NN water)) (VP (VBG covering) (NP (PRP$ our) (NN planet)))))))))))))))))
+#Rule:Nouns
+r1colourNN
+r1planetNN
+r1massesNNS
+r1waterNN
+r1planetNN
+
+#Rule:Verbs
+r2reflectsVBZ
+r2coveringVBG
+
+#Rule:Adjs
+r4blueJJ
+r4dueJJ
+r4largeJJ
+
+#Rule:Adj-Noun
+r5largeJJmassesNNS
+
+#Rule:PRP-Noun
+r6ourPRP$planetNN
+r6ourPRP$planetNN
+
+#Rule:HeadNoun-V
+r11itPRPreflectsVBZ
+r11waterNNcoveringVBG
+
+#Rule:HeadNoun-(who/that)-V
+r14colourNNisAUX
+
+#Rule:V-HeadNoun
+r21reflectsVBZcolourNN
+r21coveringVBGplanetNN
+
+#Rule:V-ADJ
+r25isAUXblueJJ
+
+#Rule:PPinNP
+r26colourNNofINplanetNN
+r26massesNNSofINwaterNN
+
+#Rule:PPinADJP
+r37blueJJtoTOmassesNNS
+
+@lemmas-left	water	is	it	reflects	covering	colour	planet	cover	blue	due	masses	our	reflect	large	be	
+@lemmas-right	water	colour	is	cover	planet	blue	covering	reflects	masses	reflect	be	
+@lemmas-center	to	of	

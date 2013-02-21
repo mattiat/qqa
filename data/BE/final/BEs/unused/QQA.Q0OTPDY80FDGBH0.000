@@ -1,0 +1,28 @@
+#How do I get rid of smell from my vagina after a period?
+#(S1 (SBARQ (WHADVP (WRB How)) (SQ (AUX do) (NP (PRP I)) (VP (VB get) (ADJP (JJ rid) (PP (IN of) (NP (NN smell)))) (PP (IN from) (NP (NP (PRP$ my) (NN vagina)) (PP (IN after) (NP (DT a) (NN period))))))) (. ?)))
+#Rule:Nouns
+r1smellNN
+r1vaginaNN
+r1periodNN
+
+#Rule:Verbs
+r2getVB
+
+#Rule:Adjs
+r4ridJJ
+
+#Rule:PRP-Noun
+r6myPRP$vaginaNN
+
+#Rule:PPinNP
+r26vaginaNNafterINperiodNN
+
+#Rule:PPinVP
+r30getVBfromINvaginaNN
+
+#Rule:PPinADJP
+r37ridJJofINsmellNN
+
+@lemmas-left	smell	get	rid	vagina	period	my	
+@lemmas-right	smell	vagina	period	
+@lemmas-center	after	of	from	

@@ -1,0 +1,31 @@
+#If ice is made from water, and I have ice in myfreezer, then why does water still exist?
+#(S1 (SBARQ (SBAR (IN If) (S (S (NP (NN ice)) (VP (AUX is) (VP (VBN made) (PP (IN from) (NP (NN water)))))) (, ,) (CC and) (S (NP (PRP I)) (VP (AUX have) (NP (NP (NN ice)) (PP (IN in) (NP (NN myfreezer)))))))) (, ,) (WHADVP (RB then) (WRB why)) (SQ (AUX does) (NP (NN water)) (ADVP (RB still)) (VP (VB exist))) (. ?)))
+#Rule:Nouns
+r1iceOrganizationAnnotation
+r1waterNN
+r1iceNN
+r1myfreezerNN
+r1waterNN
+
+#Rule:Verbs
+r2madeVBN
+r2existVB
+
+#Rule:HeadNoun-V
+r11iPRPhaveAUX
+
+#Rule:V-HeadNoun
+r21haveAUXiceNN
+
+#Rule:V-HeadNoun(passive)
+r23madeVBNiceOrganizationAnnotation
+
+#Rule:PPinNP
+r26iceNNinINmyfreezerNN
+
+#Rule:PPinVP
+r32madeVBNfromINwaterNN
+
+@lemmas-left	water	have	myfreezer	ice	made	exist	make	i	
+@lemmas-right	water	have	myfreezer	ice	
+@lemmas-center	from	in	

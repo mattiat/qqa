@@ -1,0 +1,54 @@
+#well you coudl do a google search, or you could search teh questions for already answered questiosn that are why is teh sky blue.its asked several times per day!
+#(S1 (S (S (ADVP (RB well)) (NP (PRP you)) (VP (MD coudl) (VP (AUX do) (NP (DT a) (JJ google) (NN search))))) (, ,) (CC or) (S (NP (PRP you)) (VP (MD could) (VP (VB search) (NP (JJ teh) (NNS questions)) (PP (IN for) (NP (NP (ADJP (RB already) (VBN answered)) (NNS questiosn)) (SBAR (WHNP (WDT that)) (S (VP (AUX are) (SBAR (WHADVP (WRB why)) (S (VP (AUX is) (VP (VBG teh) (NP (NP (NN sky) (NNS blue.its)) (VP (VBD asked) (NP (NP (JJ several) (NNS times)) (PP (IN per) (NP (NN day)))))))))))))))))) (. !)))
+#Rule:Nouns
+r1searchNN
+r1questionsNNS
+r1questiosnNNS
+r1skyNN
+r1blue.itsNNS
+r1timesNNS
+r1dayNN
+
+#Rule:Verbs
+r2searchVB
+r2answeredVBN
+r2tehPersonAnnotation
+r2askedVBD
+
+#Rule:Adjs
+r4googleJJ
+r4tehJJ
+r4severalJJ
+
+#Rule:Adj-Noun
+r5googleJJsearchNN
+r5tehJJquestionsNNS
+r5answeredVBNquestiosnNNS
+r5severalJJtimesNNS
+
+#Rule:N-HeadNoun
+r8skyNNblue.itsNNS
+
+#Rule:HeadNoun-V
+r11youPRPdoAUX
+r11youPRPsearchVB
+r11blue.itsNNSaskedVBD
+
+#Rule:HeadNoun-(who/that)-V
+r14questiosnNNSareAUX
+
+#Rule:V-HeadNoun
+r21doAUXsearchNN
+r21searchVBquestionsNNS
+r21tehPersonAnnotationblue.itsNNS
+r21askedVBDtimesNNS
+
+#Rule:PPinNP
+r26timesNNSperINdayNN
+
+#Rule:PPinVP
+r30searchVBforINquestiosnNNS
+
+@lemmas-left	asked	blue.its	google	it	answer	questions	you	teh	questiosn	answered	sky	search	times	several	do	question	day	ask	
+@lemmas-right	blue.its	asked	it	questions	questiosn	are	search	times	do	question	day	ask	be	
+@lemmas-center	per	for	

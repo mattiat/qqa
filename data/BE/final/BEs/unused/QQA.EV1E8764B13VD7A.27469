@@ -1,0 +1,910 @@
+#Again Good Answer  WRThe more you know the less you will be afraid. the first this is to have enough fear that you respect there awsom power but not so much fear that you cant think clearly when it s Time to react. Most people that get killed by Tornados are not prepared..
+#(S1 (S (NP (RB Again) (JJ Good) (NN Answer)) (VP (NN WRThe) (NP (NP (JJR more)) (SBAR (S (NP (PRP you)) (VP (VBP know) (SBAR (S (X (DT the) (JJR less)) (NP (PRP you)) (VP (MD will) (VP (AUX be) (VP (VBN afraid.) (NP (NP (DT the) (JJ first)) (SBAR (S (NP (DT this)) (VP (AUX is) (S (VP (TO to) (VP (AUX have) (S (RB enough) (VP (VP (VBP fear) (SBAR (IN that) (S (NP (PRP you)) (VP (VB respect) (NP (RB there) (JJ awsom) (NN power)))))) (CC but) (ADVP (RB not) (RB so) (RB much)) (VP (VBP fear) (SBAR (IN that) (S (NP (PRP you)) (VP (NN cant) (VP (VB think) (SBAR (ADVP (RB clearly)) (WHADVP (WRB when)) (S (NP (PRP it)) (VP (VBZ s) (S (NP (NNP Time)) (VP (TO to) (VP (VB react.) (NP (NP (JJS Most) (NNS people)) (SBAR (WHNP (WDT that)) (S (VP (VB get) (VP (VBN killed) (PP (IN by) (S (NP (NNP Tornados)) (VP (AUX are) (RB not) (VP (VBN prepared))) (. .)))))))))))))))))))))))))))))))))))))) (. .)))
+#Rule:Nouns
+r1Good Answer  WRTheOrganizationAnnotation
+r1powerNN
+r1cantNN
+r1TimeOrganizationAnnotation
+r1peopleNNS
+r1TornadosLocationAnnotation
+
+#Rule:Verbs
+r2knowVBP
+r2afraidVBN
+r2fearVBP
+r2respectVB
+r2fearVBP
+r2thinkVB
+r2sVBZ
+r2reactVB
+r2getVB
+r2killedVBN
+r2preparedVBN
+
+#Rule:Adjs
+r4moreJJR
+r4lessJJR
+r4firstJJ
+r4awsomJJ
+r4MostJJS
+
+#Rule:Adj-Noun
+r5awsomJJpowerNN
+r5MostJJSpeopleNNS
+
+#Rule:HeadNoun-V
+r11youPRPknowVBP
+r11thisDTisAUX
+r11youPRPrespectVB
+r11youPRPthinkVB
+r11itPRPsVBZ
+r11TimeOrganizationAnnotationreactVB
+
+#Rule:HeadNoun-(who/that)-V
+r14peopleNNSgetVB
+
+#Rule:HeadNoun-(who/that)-V
+r17peopleNNSkilledVBN
+
+#Rule:V-HeadNoun
+r21Good Answer  WRTheOrganizationAnnotationmoreJJR
+r21afraidVBNfirstJJ
+r21respectVBpowerNN
+r21reactVBpeopleNNS
+
+#Rule:V-HeadNoun
+r22sVBZTimeOrganizationAnnotation
+
+#Rule:V-HeadNoun(passive)
+r23afraidVBNyouPRP
+r23preparedVBNTornadosLocationAnnotation
+
+#Rule:V-IN-V
+r43fearVBPthatINrespectVB
+r43fearVBPthatINthinkVB
+
+#Rule:V-ADV
+r46fearVBPnotRB
+r46fearVBPnotRB
+r46fearVBPsoRB
+r46fearVBPsoRB
+r46fearVBPmuchRB
+r46fearVBPmuchRB
+r46areAUXnotRB
+
+#The first Step in preparing for Severe Weather Is to get a NOAA All Hazards Radio  http://www.nws.noaa.gov/nwr/   They are Available at most Electronic and Super Stores. Recomend getting one with S.A.M.E. technology. The Second Thing to do is to have a disaster planmore about the plan in the links below Here is some more info and links on tornados and and thunderstorm safety..
+#(S1 (S (S (NP (NP (DT The) (JJ first) (NN Step)) (PP (IN in) (S (VP (VBG preparing) (PP (IN for) (NP (JJ Severe) (NN Weather))))))) (VP (AUX Is) (S (VP (TO to) (VP (VB get) (NP (DT a) (NNP NOAA) (NNP All) (NNS Hazards) (NNP Radio) (NN http))))))) (: :) (S (ADVP (RB //www.nws.noaa.gov/nwr/)) (NP (PRP They)) (VP (AUX are) (ADJP (JJ Available)) (PP (IN at) (RBS most) (S (NP (NNP Electronic) (CC and) (NNP Super) (NNPS Stores.) (NNP Recomend)) (VP (VBG getting) (NP (NP (CD one)) (PP (IN with) (NP (NNP S.A.M.E.) (CD technology.)))) (NP (NP (DT The) (JJ Second) (NN Thing)) (SBAR (S (VP (TO to) (VP (AUX do) (VP (AUX is) (S (VP (TO to) (VP (AUX have) (NP (NP (DT a) (NN disaster) (NN planmore)) (PP (IN about) (NP (DT the) (NN plan)))) (PP (IN in) (NP (DT the) (NNS links))) (SBAR (IN below) (S (ADVP (RB Here)) (VP (AUX is) (NP (NP (DT some) (JJR more) (NN info)) (CC and) (NP (NP (NNS links)) (PP (IN on) (NP (NP (NNS tornados)) (CC and) (CC and) (NP (NN thunderstorm) (NN safety)))))))))))))))))))))) (. .)) (. .)))
+#Rule:Nouns
+r1StepNN
+r1WeatherNN
+r1NOAA All Hazards RadioOrganizationAnnotation
+r1httpNN
+r1ElectronicNNP
+r1Super OrganizationAnnotation
+r1RecomendNNP
+r1S.A.M.E.NNP
+r1ThingNN
+r1disasterNN
+r1planmoreNN
+r1planNN
+r1linksNNS
+r1infoNN
+r1linksNNS
+r1tornadosLocationAnnotation
+r1thunderstormNN
+r1safetyNN
+
+#Rule:Verbs
+r2preparingVBG
+r2getVB
+r2gettingVBG
+
+#Rule:Adjs
+r4firstJJ
+r4SevereJJ
+r4AvailableJJ
+r4SecondJJ
+r4moreJJR
+
+#Rule:Adj-Noun
+r5firstJJStepNN
+r5SevereJJWeatherNN
+r5technologyCDS.A.M.E.NNP
+r5SecondJJThingNN
+r5moreJJRinfoNN
+
+#Rule:N-HeadNoun
+r8NOAA All Hazards RadioOrganizationAnnotationhttpNN
+r8Super OrganizationAnnotationRecomendNNP
+r8disasterNNplanmoreNN
+r8thunderstormNNsafetyNN
+
+#Rule:HeadNoun-V
+r11StepNNisAUX
+r11theyPRPareAUX
+r11RecomendNNPgettingVBG
+
+#Rule:HeadNoun-(who/that)-V
+r14ThingNNisAUX
+
+#Rule:V-HeadNoun
+r21getVBhttpNN
+r21gettingVBGoneCD
+r21gettingVBGThingNN
+r21haveAUXplanmoreNN
+r21isAUXinfoNN
+
+#Rule:V-ADJ
+r25areAUXAvailableJJ
+
+#Rule:PPinNP
+r26oneCDwithINS.A.M.E.NNP
+r26planmoreNNaboutINplanNN
+r26linksNNSonINtornadosLocationAnnotation
+r26linksNNSonINsafetyNN
+
+#Rule:PPinVP
+r30preparingVBGforINWeatherNN
+r30haveAUXinINlinksNNS
+
+#Rule:V-IN-V
+r43haveAUXbelowINisAUX
+
+#Rule:V-ADV
+r46areAUX//www.nws.noaa.gov/nwr/RB
+r46isAUXHereRB
+
+#TORNADO SAFETY http://www.
+#(S1 (NP (NP (NN TORNADO) (NN SAFETY) (NNS http)) (: :) (NP (CD //www)) (. .)))
+#Rule:Nouns
+r1TORNADO SAOrganizationAnnotation
+
+#crh.noaa.
+#(S1 (X (NNP crh.noaa) (. .)))
+#Rule:Nouns
+r1crh.noaa.LocationAnnotation
+
+#gov/lmk/preparedness/tornado_large/index.
+#(S1 (X (NNP gov/lmk/preparedness/tornado_large/index) (. .)))
+#Rule:Nouns
+r1gov/lmk/preparedness/tornado_large/indexNNP
+
+#phphttp://www.
+#(S1 (NP (NP (NNP phphttp)) (: :) (NP (CD //www)) (. .)))
+#Rule:Nouns
+r1phphttp://wwwLocationAnnotation
+
+#srh.noaa.
+#(S1 (X (NNP srh.noaa) (. .)))
+#Rule:Nouns
+r1srh.noaa.LocationAnnotation
+
+#gov/fwd/wcm/safety_rules_lists.
+#(S1 (S (VP (VBZ gov/fwd/wcm/safety_rules_lists)) (. .)))
+#Rule:Verbs
+r2gov/fwd/wcm/safety_rules_listsVBZ
+
+#pdfhttp://www.
+#(S1 (NP (NP (NNP pdfhttp)) (: :) (NP (CD //www)) (. .)))
+#Rule:Nouns
+r1pdfhttp://wwwLocationAnnotation
+
+#nws.noaa.
+#(S1 (X (NNP nws.noaa) (. .)))
+#Rule:Nouns
+r1nws.noaa.LocationAnnotation
+
+#gov/om/brochures/tornado.
+#(S1 (S (VP (VB gov/om/brochures/tornado)) (. .)))
+#Rule:Verbs
+r2gov/om/brochures/tornadoOrganizationAnnotation
+
+#shtmlhttp://www.
+#(S1 (NP (NP (NNP shtmlhttp)) (: :) (NP (CD //www)) (. .)))
+#Rule:Nouns
+r1shtmlhttp://wwwLocationAnnotation
+
+#srh.noaa.
+#(S1 (X (NNP srh.noaa) (. .)))
+#Rule:Nouns
+r1srh.noaa.LocationAnnotation
+
+#gov/elp/swww/v5n1/tornadoes2.
+#(S1 (INTJ (UH gov/elp/swww/v5n1/tornadoes2) (. .)))
+#htmhttp://www.
+#(S1 (NP (NP (NNP htmhttp)) (: :) (NP (CD //www)) (. .)))
+#Rule:Nouns
+r1htmhttp://wwwLocationAnnotation
+
+#spc.noaa.
+#(S1 (X (NNP spc.noaa) (. .)))
+#Rule:Nouns
+r1spc.noaa.LocationAnnotation
+
+#gov/faq/tornado/safety.
+#(S1 (FRAG (NP (NN gov/faq/tornado/safety)) (. .)))
+#Rule:Nouns
+r1gov/faq/tornado/safetyNN
+
+#htmlhttp://library.
+#(S1 (FRAG (X (SYM htmlhttp)) (: :) (NP (NN //library)) (. .)))
+#Rule:Nouns
+r1htmlhttp://libraryOrganizationAnnotation
+
+#thinkquest.
+#(S1 (S (VP (VB thinkquest)) (. .)))
+#Rule:Verbs
+r2thinkquestVB
+
+#org/03oct/00758/en/disaster/tornado/safety.
+#(S1 (FRAG (NP (NN org/03oct/00758/en/disaster/tornado/safety)) (. .)))
+#Rule:Nouns
+r1org/03oct/00758/en/disaster/tornado/safetyNN
+
+#htmlhttp://www.
+#(S1 (NP (NP (NNP htmlhttp)) (: :) (NP (CD //www)) (. .)))
+#Rule:Nouns
+r1htmlhttp://wwwLocationAnnotation
+
+#tornadoproject.
+#(S1 (S (VP (VB tornadoproject)) (. .)))
+#Rule:Verbs
+r2tornadoprojectVB
+
+#com/safety/safety.
+#(S1 (FRAG (NP (NN com/safety/safety)) (. .)))
+#Rule:Nouns
+r1com/safety/safetyNN
+
+#htmhttp://www.
+#(S1 (NP (NP (NNP htmhttp)) (: :) (NP (CD //www)) (. .)))
+#Rule:Nouns
+r1htmhttp://wwwLocationAnnotation
+
+#redcross.
+#(S1 (S (VP (VB redcross)) (. .)))
+#Rule:Verbs
+r2redcrossPersonAnnotation
+
+#org/services/disaster/0,1082,0_591_,00.
+#(S1 (FRAG (NP (CD org/services/disaster/0,1082,0_591_,00)) (. .)))
+#htmlhttp://www.
+#(S1 (NP (NP (NNP htmlhttp)) (: :) (NP (CD //www)) (. .)))
+#Rule:Nouns
+r1htmlhttp://wwwLocationAnnotation
+
+#fema.
+#(S1 (X (NNP fema) (. .)))
+#Rule:Nouns
+r1femaNNP
+
+#gov/hazard/tornado/index.
+#(S1 (X (NNP gov/hazard/tornado/index) (. .)))
+#Rule:Nouns
+r1gov/hazard/tornado/indexNNP
+
+#shtmWater Spout Safetyhttp://www.
+#(S1 (S (NP (NNP shtmWater)) (VP (VBP Spout) (NP (NNP Safetyhttp)) (: :) (ADVP (RB //www))) (. .)))
+#Rule:Nouns
+r1shtmWater Spout OrganizationAnnotation
+
+#srh.noaa.
+#(S1 (X (NNP srh.noaa) (. .)))
+#Rule:Nouns
+r1srh.noaa.LocationAnnotation
+
+#gov/jax/waterspouts.
+#(S1 (S (VP (VBZ gov/jax/waterspouts)) (. .)))
+#Rule:Verbs
+r2gov/jax/waterspoutsOrganizationAnnotation
+
+#shtmlhttp://www.
+#(S1 (NP (NP (NNP shtmlhttp)) (: :) (NP (CD //www)) (. .)))
+#Rule:Nouns
+r1shtmlhttp://wwwLocationAnnotation
+
+#usatoday.
+#(S1 (INTJ (UH usatoday) (. .)))
+#com/weather/wspsafe.
+#(S1 (S (VP (VB com/weather/wspsafe)) (. .)))
+#Rule:Verbs
+r2com/weather/wspsafeVB
+
+#htmSafeRoomshttp://www.
+#(S1 (NP (NP (NNP htmSafeRoomshttp)) (: :) (NP (CD //www)) (. .)))
+#Rule:Nouns
+r1htmSafeRoomshttp://wwwPersonAnnotation
+
+#crh.noaa.
+#(S1 (X (NNP crh.noaa) (. .)))
+#Rule:Nouns
+r1crh.noaa.LocationAnnotation
+
+#gov/eax/?
+#(S1 (INTJ (UH gov/eax/) (. ?)))
+#n=severewx-saferoomhttp://homebuying.
+#(S1 (NP (NP (NN n=severewx-saferoomhttp)) (: :) (NP (NN //homebuying)) (. .)))
+#Rule:Nouns
+r1n=severewx-saferoomhttpPersonAnnotation
+r1//homebuyingNN
+
+#about.
+#(S1 (FRAG (ADVP (RB about)) (. .)))
+#com/cs/saferooms/a/safe_rooms.
+#(S1 (S (VP (VBZ com/cs/saferooms/a/safe_rooms)) (. .)))
+#Rule:Verbs
+r2com/cs/saferooms/a/safe_roomsVBZ
+
+#htmhttp://www.
+#(S1 (NP (NP (NNP htmhttp)) (: :) (NP (CD //www)) (. .)))
+#Rule:Nouns
+r1htmhttp://wwwLocationAnnotation
+
+#fema.
+#(S1 (X (NNP fema) (. .)))
+#Rule:Nouns
+r1femaNNP
+
+#gov/kids/kidsafet.
+#(S1 (S (VP (VB gov/kids/kidsafet)) (. .)))
+#Rule:Verbs
+r2gov/kids/kidsafetVB
+
+#htmLIGHTNING / THUNDERSTORM SAFETYhttp://www.
+#(S1 (NP (NP (JJ htmLIGHTNING) (JJ /) (NN THUNDERSTORM) (NNS SAFETYhttp)) (: :) (NP (CD //www)) (. .)))
+#Rule:Nouns
+r1/ THUNDERSTORM SOrganizationAnnotation
+
+#Rule:Adjs
+r4htmLIGHTNINGJJ
+
+#Rule:Adj-Noun
+r5htmLIGHTNINGJJ/ THUNDERSTORM SOrganizationAnnotation
+
+#nssl.
+#(S1 (INTJ (UH nssl) (. .)))
+#noaa.
+#(S1 (X (NNP noaa) (. .)))
+#Rule:Nouns
+r1noaaLocationAnnotation
+
+#gov/edu/safety/lightning.
+#(S1 (FRAG (ADJP (VBG gov/edu/safety/lightning)) (. .)))
+#Rule:Verbs
+r2gov/edu/safety/lightningVBG
+
+#htmlhttp://www.
+#(S1 (NP (NP (NNP htmlhttp)) (: :) (NP (CD //www)) (. .)))
+#Rule:Nouns
+r1htmlhttp://wwwLocationAnnotation
+
+#lightningsafety.
+#(S1 (FRAG (NP (NN lightningsafety)) (. .)))
+#Rule:Nouns
+r1lightningsafetyNN
+
+#noaa.
+#(S1 (X (NNP noaa) (. .)))
+#Rule:Nouns
+r1noaaLocationAnnotation
+
+#gov/more.
+#(S1 (NP (FW gov/more) (. .)))
+#htmhttp://www.
+#(S1 (NP (NP (NNP htmhttp)) (: :) (NP (CD //www)) (. .)))
+#Rule:Nouns
+r1htmhttp://wwwLocationAnnotation
+
+#lightningsafety.
+#(S1 (FRAG (NP (NN lightningsafety)) (. .)))
+#Rule:Nouns
+r1lightningsafetyNN
+
+#noaa.
+#(S1 (X (NNP noaa) (. .)))
+#Rule:Nouns
+r1noaaLocationAnnotation
+
+#gov/overview.
+#(S1 (S (VP (VB gov/overview)) (. .)))
+#Rule:Verbs
+r2gov/overviewVB
+
+#htmhttp://www.
+#(S1 (NP (NP (NNP htmhttp)) (: :) (NP (CD //www)) (. .)))
+#Rule:Nouns
+r1htmhttp://wwwLocationAnnotation
+
+#lightningsafety.
+#(S1 (FRAG (NP (NN lightningsafety)) (. .)))
+#Rule:Nouns
+r1lightningsafetyNN
+
+#noaa.
+#(S1 (X (NNP noaa) (. .)))
+#Rule:Nouns
+r1noaaLocationAnnotation
+
+#gov/http://www.
+#(S1 (NP (NP (NNP gov/http)) (: :) (NP (CD //www)) (. .)))
+#Rule:Nouns
+r1gov/http://wwwPersonAnnotation
+
+#lightningsafety.
+#(S1 (FRAG (NP (NN lightningsafety)) (. .)))
+#Rule:Nouns
+r1lightningsafetyNN
+
+#noaa.
+#(S1 (X (NNP noaa) (. .)))
+#Rule:Nouns
+r1noaaLocationAnnotation
+
+#gov/survivors.
+#(S1 (NP (NNS gov/survivors) (. .)))
+#Rule:Nouns
+r1gov/survivorsNNS
+
+#htmhttp://science.
+#(S1 (FRAG (X (SYM htmhttp)) (: :) (NP (NN //science)) (. .)))
+#Rule:Nouns
+r1//scienceNN
+
+#nasa.
+#(S1 (X (NNP nasa) (. .)))
+#Rule:Nouns
+r1nasaLocationAnnotation
+
+#gov/newhome/headlines/essd18jun99_1.
+#(S1 (INTJ (UH gov/newhome/headlines/essd18jun99_1) (. .)))
+#htmhttp://www.
+#(S1 (NP (NP (NNP htmhttp)) (: :) (NP (CD //www)) (. .)))
+#Rule:Nouns
+r1htmhttp://wwwLocationAnnotation
+
+#lightningtalks.
+#(S1 (INTJ (UH lightningtalks) (. .)))
+#com/lightningfacts.
+#(S1 (S (VP (VBZ com/lightningfacts)) (. .)))
+#Rule:Verbs
+r2com/lightningfactsVBZ
+
+#htm#Lightning%20Factshttp://sky-fire.
+#(S1 (NP (NP (NN htm) (# #)) (NP (NN Lightning) (NN %) (NN 20Factshttp)) (: :) (NP (NN //sky-fire)) (. .)))
+#Rule:Nouns
+r1htm#Lightning%20FactshttpOrganizationAnnotation
+r1//sky-fireNN
+
+#tv/index.
+#(S1 (X (NNP tv/index) (. .)))
+#Rule:Nouns
+r1tv/indexNNP
+
+#cgi/lightning.
+#(S1 (FRAG (ADJP (VBG cgi/lightning)) (. .)))
+#Rule:Verbs
+r2cgi/lightningVBG
+
+#html#harnesshttp://www.
+#(S1 (NP (NP (NP (NNP html)) (NP (# #) (CD harnesshttp))) (: :) (NP (CD //www)) (. .)))
+#Rule:Nouns
+r1html#harnesshttp://wwwPersonAnnotation
+
+#washtwpmorris.
+#(S1 (NP (FW washtwpmorris) (. .)))
+#org/departments/recreation/lightning.
+#(S1 (FRAG (ADJP (VBG org/departments/recreation/lightning)) (. .)))
+#Rule:Verbs
+r2org/departments/recreation/lightningVBG
+
+#htmlhttp://library.
+#(S1 (FRAG (X (SYM htmlhttp)) (: :) (NP (NN //library)) (. .)))
+#Rule:Nouns
+r1htmlhttp://libraryOrganizationAnnotation
+
+#thinkquest.
+#(S1 (S (VP (VB thinkquest)) (. .)))
+#Rule:Verbs
+r2thinkquestVB
+
+#org/03oct/00758/en/disaster/lightning/safety.
+#(S1 (FRAG (NP (NN org/03oct/00758/en/disaster/lightning/safety)) (. .)))
+#Rule:Nouns
+r1org/03oct/00758/en/disaster/lightning/safetyNN
+
+#htmlwww.
+#(S1 (INTJ (UH htmlwww) (. .)))
+#nols.
+#(S1 (S (VP (VBZ nols)) (. .)))
+#Rule:Verbs
+r2nolsLocationAnnotation
+
+#edu/resources/research/pdfs/lightningsafetyguideline.
+#(S1 (S (VP (VB edu/resources/research/pdfs/lightningsafetyguideline)) (. .)))
+#Rule:Verbs
+r2edu/resources/research/pdfs/lightningsafetyguidelineVB
+
+#pdfLIGHTNING/ THUNDERSTORM FAQ shttp://www.
+#(S1 (NP (NP (NP (CD pdfLIGHTNING/) (NN THUNDERSTORM)) (NP (CD FAQ) (NNS shttp))) (: :) (NP (NN //www)) (. .)))
+#Rule:Nouns
+r1THUNDERSTOROrganizationAnnotation
+
+#Rule:Adj-Noun
+r5pdfLIGHTNING/CDTHUNDERSTOROrganizationAnnotation
+
+#srh.noaa.
+#(S1 (X (NNP srh.noaa) (. .)))
+#Rule:Nouns
+r1srh.noaa.LocationAnnotation
+
+#gov/srh/jetstream/lightning/lightning_intro.
+#(S1 (X (NNP gov/srh/jetstream/lightning/lightning_intro) (. .)))
+#Rule:Nouns
+r1gov/srh/jetstream/lightning/lightning_introNNP
+
+#htmhttp://www.
+#(S1 (NP (NP (NNP htmhttp)) (: :) (NP (CD //www)) (. .)))
+#Rule:Nouns
+r1htmhttp://wwwLocationAnnotation
+
+#nssl.
+#(S1 (INTJ (UH nssl) (. .)))
+#noaa.
+#(S1 (X (NNP noaa) (. .)))
+#Rule:Nouns
+r1noaaLocationAnnotation
+
+#gov/primer/lightning/ltg_faq.
+#(S1 (X (NNP gov/primer/lightning/ltg_faq) (. .)))
+#Rule:Nouns
+r1gov/primer/lightning/ltg_faqNNP
+
+#shtmlhttp://newweb.
+#(S1 (NP (NP (NNP shtmlhttp)) (: :) (NP (CD //newweb)) (. .)))
+#Rule:Nouns
+r1shtmlhttp://newwebPersonAnnotation
+
+#wrh.noaa.
+#(S1 (X (NNP wrh.noaa) (. .)))
+#Rule:Nouns
+r1wrh.noaa.LocationAnnotation
+
+#gov/hnx/LightningMyths-1.
+#(S1 (FRAG (ADJP (JJ gov/hnx/LightningMyths-1)) (. .)))
+#Rule:Adjs
+r4gov/hnx/LightningMyths-1JJ
+
+#pdfhttp://library.
+#(S1 (FRAG (X (SYM pdfhttp)) (: :) (NP (NN //library)) (. .)))
+#Rule:Nouns
+r1pdfhttp://libraryOrganizationAnnotation
+
+#thinkquest.
+#(S1 (S (VP (VB thinkquest)) (. .)))
+#Rule:Verbs
+r2thinkquestVB
+
+#org/03oct/00758/en/disaster/lightning.
+#(S1 (FRAG (ADJP (VBG org/03oct/00758/en/disaster/lightning)) (. .)))
+#Rule:Verbs
+r2org/03oct/00758/en/disaster/lightningVBG
+
+#htmlhttp://www.
+#(S1 (NP (NP (NNP htmlhttp)) (: :) (NP (CD //www)) (. .)))
+#Rule:Nouns
+r1htmlhttp://wwwLocationAnnotation
+
+#ucar.
+#(S1 (FRAG (ADJP (JJ ucar)) (. .)))
+#Rule:Adjs
+r4ucarJJ
+
+#edu/communications/infopack/lightning/faq.
+#(S1 (X (NNP edu/communications/infopack/lightning/faq) (. .)))
+#Rule:Nouns
+r1edu/communications/infopack/lightning/faqOrganizationAnnotation
+
+#htmlhttp://www.
+#(S1 (NP (NP (NNP htmlhttp)) (: :) (NP (CD //www)) (. .)))
+#Rule:Nouns
+r1htmlhttp://wwwLocationAnnotation
+
+#srh.weather.
+#(S1 (S (VP (VB srh.weather)) (. .)))
+#Rule:Verbs
+r2srh.weather.PersonAnnotation
+
+#gov/srh/jetstream/lightning/lightning_faq.
+#(S1 (X (NNP gov/srh/jetstream/lightning/lightning_faq) (. .)))
+#Rule:Nouns
+r1gov/srh/jetstream/lightning/lightning_faqNNP
+
+#htmhttp://www.
+#(S1 (NP (NP (NNP htmhttp)) (: :) (NP (CD //www)) (. .)))
+#Rule:Nouns
+r1htmhttp://wwwLocationAnnotation
+
+#lightningmaster.
+#(S1 (S (VP (VB lightningmaster)) (. .)))
+#Rule:Verbs
+r2lightningmasterPersonAnnotation
+
+#com/FAQ.
+#(S1 (X (NNP com/FAQ) (. .)))
+#Rule:Nouns
+r1com/FAQOrganizationAnnotation
+
+#htmTornado FAQ???sAs Defined by the National Weather ServiceTornado (+FC) A violently rotating column of air in contact with the ground and extending from the base of a thunderstorm.
+#(S1 (S (NP (NNP htmTornado) (NNP FAQ)) (VP (VBD ???) (SBAR (S (NP (NNP sAs)) (VP (VP (VBN Defined) (PP (IN by) (NP (NP (DT the) (NNP National) (NN Weather) (NNP ServiceTornado)) (PRN (-LRB- -LRB-) (NP (NNP +FC)) (-RRB- -RRB-)))) (NP (NP (DT A) (ADJP (RB violently) (VBG rotating)) (NN column)) (PP (IN of) (NP (NN air)))) (PP (IN in) (NP (NP (NN contact)) (PP (IN with) (NP (DT the) (NN ground)))))) (CC and) (VP (VBG extending) (PP (IN from) (NP (NP (DT the) (NN base)) (PP (IN of) (NP (DT a) (NN thunderstorm)))))))))) (. .)))
+#Rule:Nouns
+r1htmTornado FAQLocationAnnotation
+r1sAsNNP
+r1National Weather ServiceTornado (+FCOrganizationAnnotation
+r1columnNN
+r1airNN
+r1contactNN
+r1groundNN
+r1baseNN
+r1thunderstormNN
+
+#Rule:Verbs
+r2???VBD
+r2definedVBN
+r2rotatingVBG
+r2extendingVBG
+
+#Rule:Adj-Noun
+r5rotatingVBGcolumnNN
+
+#Rule:HeadNoun-V
+r11htmTornado FAQLocationAnnotation???VBD
+r11sAsNNPextendingVBG
+
+#Rule:V-By-Agent
+r13National Weather ServiceTornado (+FCOrganizationAnnotationdefinedVBN
+
+#Rule:V-HeadNoun
+r21definedVBNcolumnNN
+
+#Rule:V-HeadNoun(passive)
+r24definedVBNsAsNNP
+
+#Rule:PPinNP
+r26columnNNofINairNN
+r26contactNNwithINgroundNN
+r26baseNNofINthunderstormNN
+
+#Rule:PPinVP
+r30extendingVBGfromINbaseNN
+
+#Rule:PPinVP
+r32definedVBNinINcontactNN
+
+# A condensation funnel does not need to reach to the ground for a tornado to be present;
+#(S1 (S (NP (DT A) (NN condensation) (VB funnel)) (VP (AUX does) (RB not) (VP (AUX need) (S (VP (TO to) (VP (VB reach) (PP (TO to) (NP (DT the) (NN ground) (SBAR (IN for) (S (NP (DT a) (NN tornado)) (VP (TO to) (VP (AUX be) (ADJP (JJ present))))))))))))) (: ;)))
+#Rule:Nouns
+r1condensationNN
+r1groundNN
+r1tornadoLocationAnnotation
+
+#Rule:Verbs
+r2funnelVB
+r2reachVB
+
+#Rule:Adjs
+r4presentJJ
+
+#Rule:HeadNoun-V
+r11condensationNNneedAUX
+r11tornadoLocationAnnotationbeAUX
+
+#Rule:V-ADJ
+r25beAUXpresentJJ
+
+#Rule:PPinVP
+r30reachVBtoTOgroundNN
+
+#Rule:V-ADV
+r46doesAUXnotRB
+
+# a debris cloud beneath a thunderstorm is all that is needed to confirm the presence of a tornado, even in the total absence of a condensation funnel.
+#(S1 (S (NP (NP (DT a) (NN debris) (NN cloud)) (PP (IN beneath) (NP (DT a) (NN thunderstorm)))) (VP (AUX is) (NP (NP (DT all)) (SBAR (WHNP (WDT that)) (S (VP (AUX is) (VP (VBN needed) (S (VP (TO to) (VP (VB confirm) (NP (NP (DT the) (NN presence)) (PP (IN of) (NP (DT a) (NN tornado)))) (, ,) (PP (ADVP (RB even)) (IN in) (NP (NP (DT the) (JJ total) (NN absence)) (PP (IN of) (NP (DT a) (NN condensation))))) (S (VP (VB funnel)))))))))))) (. .)))
+#Rule:Nouns
+r1debrisNN
+r1cloudNN
+r1thunderstormNN
+r1presenceNN
+r1tornadoLocationAnnotation
+r1absenceNN
+r1condensationNN
+
+#Rule:Verbs
+r2neededVBN
+r2confirmVB
+r2funnelVB
+
+#Rule:Adjs
+r4totalJJ
+
+#Rule:Adj-Noun
+r5totalJJabsenceNN
+
+#Rule:N-HeadNoun
+r8debrisNNcloudNN
+
+#Rule:HeadNoun-V
+r11cloudNNisAUX
+
+#Rule:V-(who/that)-HeadNoun
+r18neededVBNallDT
+
+#Rule:V-HeadNoun
+r21isAUXallDT
+r21confirmVBpresenceNN
+
+#Rule:PPinNP
+r26cloudNNbeneathINthunderstormNN
+r26presenceNNofINtornadoLocationAnnotation
+r26absenceNNofINcondensationNN
+
+#Rule:PPinVP
+r30confirmVBinINabsenceNN
+
+#Rule:V-V
+r44neededVBNconfirmVB
+
+#Rule:IS-RULE
+r47allDTcloudNN
+
+# It nearly always starts as a funnel cloud and may be accompanied by a loud roaring noise.
+#(S1 (S (NP (PRP It)) (ADVP (RB nearly) (RB always)) (VP (VP (VBZ starts) (PP (IN as) (NP (DT a) (VB funnel) (NN cloud)))) (CC and) (VP (MD may) (VP (AUX be) (VP (VBN accompanied) (PP (IN by) (NP (DT a) (JJ loud) (NN roaring) (NN noise))))))) (. .)))
+#Rule:Nouns
+r1cloudNN
+r1roaringNN
+r1noiseLocationAnnotation
+
+#Rule:Verbs
+r2startsVBZ
+r2funnelVB
+r2accompaniedVBN
+
+#Rule:Adjs
+r4loudJJ
+
+#Rule:Adj-Noun
+r5loudJJnoiseLocationAnnotation
+
+#Rule:N-HeadNoun
+r8roaringNNnoiseLocationAnnotation
+
+#Rule:HeadNoun-V
+r11itPRPstartsVBZ
+
+#Rule:V-By-Agent
+r13noiseLocationAnnotationaccompaniedVBN
+
+#Rule:V-HeadNoun(passive)
+r23accompaniedVBNitPRP
+
+#Rule:PPinVP
+r30startsVBZasINcloudNN
+
+#http://www.
+#(S1 (NP (NP (NNP http)) (: :) (NP (CD //www)) (. .)))
+#Rule:Nouns
+r1http://wwwLocationAnnotation
+
+#srh.noaa.
+#(S1 (X (NNP srh.noaa) (. .)))
+#Rule:Nouns
+r1srh.noaa.LocationAnnotation
+
+#gov/srh/jetstream/tstorms/tornado.
+#(S1 (S (VP (VB gov/srh/jetstream/tstorms/tornado)) (. .)))
+#Rule:Verbs
+r2gov/srh/jetstream/tstorms/tornadoOrganizationAnnotation
+
+#htmhttp://www.
+#(S1 (NP (NP (NNP htmhttp)) (: :) (NP (CD //www)) (. .)))
+#Rule:Nouns
+r1htmhttp://wwwLocationAnnotation
+
+#spc.noaa.
+#(S1 (X (NNP spc.noaa) (. .)))
+#Rule:Nouns
+r1spc.noaa.LocationAnnotation
+
+#gov/faq/tornado/http://www.
+#(S1 (NP (NP (NNP gov/faq/tornado/http)) (: :) (NP (CD //www)) (. .)))
+#Rule:Nouns
+r1gov/faq/tornado/http://wwwOrganizationAnnotation
+
+#usatoday.
+#(S1 (INTJ (UH usatoday) (. .)))
+#com/weather/tornado/wtfaq.
+#(S1 (X (NNP com/weather/tornado/wtfaq) (. .)))
+#Rule:Nouns
+r1com/weather/tornado/wtfaqOrganizationAnnotation
+
+#htmhttp://library.
+#(S1 (FRAG (X (SYM htmhttp)) (: :) (NP (NN //library)) (. .)))
+#Rule:Nouns
+r1htmhttp://libraryOrganizationAnnotation
+
+#thinkquest.
+#(S1 (S (VP (VB thinkquest)) (. .)))
+#Rule:Verbs
+r2thinkquestVB
+
+#org/03oct/00758/en/disaster/tornado.
+#(S1 (S (VP (VB org/03oct/00758/en/disaster/tornado)) (. .)))
+#Rule:Verbs
+r2org/03oct/00758/en/disaster/tornadoVB
+
+#htmlhttp://www.
+#(S1 (NP (NP (NNP htmlhttp)) (: :) (NP (CD //www)) (. .)))
+#Rule:Nouns
+r1htmlhttp://wwwLocationAnnotation
+
+#tornadohistoryproject.
+#(S1 (S (VP (VB tornadohistoryproject)) (. .)))
+#Rule:Verbs
+r2tornadohistoryprojectVB
+
+#com/http://www.
+#(S1 (NP (NP (NNP com/http)) (: :) (NP (CD //www)) (. .)))
+#Rule:Nouns
+r1com/http://wwwPersonAnnotation
+
+#nssl.
+#(S1 (INTJ (UH nssl) (. .)))
+#noaa.
+#(S1 (X (NNP noaa) (. .)))
+#Rule:Nouns
+r1noaaLocationAnnotation
+
+#gov/hazard/map of peak tornado seasonhttp://www.
+#(S1 (NP (NP (NP (NN gov/hazard/map)) (PP (IN of) (NP (JJ peak) (NN tornado) (NNS seasonhttp)))) (: :) (NP (NN //www)) (. .)))
+#Rule:Nouns
+r1gov/hazard/mapNN
+r1tornado seasonhtOrganizationAnnotation
+
+#Rule:Adjs
+r4peakJJ
+
+#Rule:Adj-Noun
+r5peakJJtornado seasonhtOrganizationAnnotation
+
+#Rule:PPinNP
+r26gov/hazard/mapNNofINtornado seasonhtOrganizationAnnotation
+
+#erh.noaa.
+#(S1 (X (NNP erh.noaa) (. .)))
+#Rule:Nouns
+r1erh.noaa.LocationAnnotation
+
+#gov/cae/svrwx/when.
+#(S1 (INTJ (UH gov/cae/svrwx/when) (. .)))
+#htmTornados and  El Nino / La Nina http://www.
+#(S1 (NP (NP (NNP htmTornados) (CC and) (NNP El) (NNP Nino) (NNP /) (NNP La) (NNP Nina) (NNS http)) (: :) (NP (CD //www)) (. .)))
+#Rule:Nouns
+r1htmTornadoOrganizationAnnotation
+
+#spc.noaa.
+#(S1 (X (NNP spc.noaa) (. .)))
+#Rule:Nouns
+r1spc.noaa.LocationAnnotation
+
+#gov/publications/schaefer/el_nino.
+#(S1 (X (NNP gov/publications/schaefer/el_nino) (. .)))
+#Rule:Nouns
+r1gov/publications/schaefer/el_ninoOrganizationAnnotation
+
+#htm
+#(S1 (NP (NN htm)))
+#Rule:Nouns
+r1htmNN
+
+@lemmas-left	need	total	technology.	react.	com/weather/wspsafe	srh.noaa.	accompanied	preparing	defined	com/weather/tornado/wtfaq	S.A.M.E.	tornado seasonht	available	tornadoproject	disaster	org/departments/recreation/lightning	htmTornado FAQ	Good Answer  WRThe	afraid	htmlightning	tornadohistoryproject	air	shtmWater Spout 	gov/lmk/preparedness/tornado_large/index	killed	peak	htmhttp://www	pdfLIGHTNING/	Available	debris	National Weather ServiceTornado (+FC	map	do	redcross	define	e	absence	Most	electronic	fire	intro	edu/resources/research/pdfs/lightningsafetyguideline	starts	s	overview	presence	org/03oct/00758/en/disaster/tornado	com/safety/safety	THUNDERSTOR	base	confirm	gov/hazard/map	respect	fear	science	Recomend	nws.noaa.	srh.weather.	htm	htmLIGHTNING	be	index	think	gov/primer/lightning/ltg_faq	get	faq	lightningmaster	TORNADO SA	awsom	lightning	column	extending	thing	room	n=severewx-saferoomhttp	does	reach	severe	react	all	shtmlhttp://www	htmSafeRoomshttp://www	thunderstorm	condensation	htmlhttp://www	you	pdflightning/	gov/srh/jetstream/tstorms/tornado	com/lightningfacts	needed	sAs	accompany	???	tornado	/ THUNDERSTORM S	they	nasa	rotate	people	info	com/FAQ	com/http://www	tv/index	are	Severe	weather	gov/overview	pdfhttp://library	gov/survivors	Electronic	recomend	Weather	//sky-fire	prepare	//science	noaa	present	rotating	cant	http	start	sas	gov/hnx/LightningMyths-1	getting	Second	Super 	funnel	wrh.noaa.	ground	most	html#harnesshttp://www	contact	Time	pdfhttp://www	links	htm#Lightning%20Factshttp	tornados	gov/srh/jetstream/lightning/lightning_intro	thinkquest	gov/fwd/wcm/safety_rules_lists	cgi/lightning	afraid.	cloud	roaring	technology	second	gov/edu/safety/lightning	survivor	kill	gov/faq/tornado/http://www	gov/hazard/tornado/index	crh.noaa.	more	org/03oct/00758/en/disaster/lightning	edu/communications/infopack/lightning/faq	gov/kids/kidsafet	shtmlhttp://newweb	htmlhttp://library	power	Tornados	Thing	http://www	planmore	gov/publications/schaefer/el_nino	nols	erh.noaa.	loud	lightningsafety	gov/faq/tornado/safety	prepared	this	gov/hnx/lightningmyths-1	htmTornado	have	one	com/cs/saferooms/a/safe_rooms	//homebuying	ucar	org/03oct/00758/en/disaster/lightning/safety	gov/om/brochures/tornado	org/03oct/00758/en/disaster/tornado/safety	gov/srh/jetstream/lightning/lightning_faq	less	fema	Step	is	phphttp://www	it	extend	gov/http://www	list	know	noise	safety	plan	gov/jax/waterspouts	spc.noaa.	htmhttp://library	first	step	NOAA All Hazards Radio	
+@lemmas-right	need	/ THUNDERSTORM S	react.	kill	people	info	more	are	Recomend	accompanied	//www.nws.noaa.gov/nwr/	weather	power	be	Tornados	recomend	Weather	Thing	think	defined	get	so	S.A.M.E.	tornado seasonht	planmore	here	available	much	not	present	start	http	sas	column	air	extending	thing	getting	killed	one	ground	contact	Available	Time	Here	react	all	define	Step	is	it	e	thunderstorm	condensation	absence	extend	you	links	tornados	know	noise	sAs	starts	safety	presence	s	plan	base	THUNDERSTOR	cloud	accompany	confirm	tornado	???	first	step	respect	
+@lemmas-center	to	of	that	with	for	below	about	as	on	from	in	beneath	

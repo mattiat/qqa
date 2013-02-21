@@ -1,0 +1,47 @@
+#Because of one evil man s contempt for the Jewish people, his name was Adolf Hitler.
+#(S1 (S (PP (IN Because) (IN of) (NP (NP (CD one) (JJ evil) (NN man)) (SBAR (S (VP (VBZ s) (NP (NP (NN contempt)) (PP (IN for) (NP (DT the) (JJ Jewish) (NNS people))))))))) (, ,) (NP (PRP$ his) (NN name)) (VP (AUX was) (NP (NNP Adolf) (NNP Hitler))) (. .)))
+#Rule:Nouns
+r1manNN
+r1contemptNN
+r1peopleNNS
+r1nameNN
+r1Adolf HitlerPersonAnnotation
+
+#Rule:Verbs
+r2sVBZ
+
+#Rule:Adjs
+r4evilJJ
+r4JewishPersonAnnotation
+
+#Rule:Adj-Noun
+r5oneCDmanNN
+r5evilJJmanNN
+r5JewishPersonAnnotationpeopleNNS
+
+#Rule:PRP-Noun
+r6hisPRP$nameNN
+
+#Rule:HeadNoun-V
+r11nameNNwasAUX
+
+#Rule:HeadNoun-(who/that)-V
+r14manNNsVBZ
+
+#Rule:V-HeadNoun
+r21sVBZcontemptNN
+r21wasAUXAdolf HitlerPersonAnnotation
+
+#Rule:PPinNP
+r26contemptNNforINpeopleNNS
+
+#Rule:PPinS
+r36wasAUXbecauseINmanNN
+r36wasAUXofINmanNN
+
+#Rule:IS-RULE
+r47Adolf HitlerPersonAnnotationnameNN
+
+@lemmas-left	Adolf Hitler	Jewish	his	s	contempt	one	name	evil	people	man	was	be	
+@lemmas-right	Adolf Hitler	s	contempt	name	people	man	was	be	
+@lemmas-center	because	of	for	

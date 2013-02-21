@@ -1,0 +1,537 @@
+BE: woodsPersonAnnotation
+EQ class: 
+
+BE: noiseOrganizationAnnotation
+EQ class: 
+
+BE: bearNN
+EQ class: family_ursidaenn	ursidaenn	
+
+BE: presenceNN
+EQ class: presentjj	
+
+BE: walkVB
+EQ class: 
+
+BE: talkingVBG
+EQ class: speakvbg	talkvbg	
+
+BE: makingVBG
+EQ class: makevbg	dovbg	
+
+BE: alertVB
+EQ class: alarmvb	
+
+BE: possibleJJ
+EQ class: possiblenessnn	possibilitynn	
+
+BE: yourPRP$presenceNN
+EQ class: showvbyourprp$	presencennofinyourprp$	demovbyourprp$	yourprp$demovb	yourprp$presentjj	yourprp$showvb	presentvbyourprp$	exhibitvbyourprp$	presentjjofinyourprp$	yourprp$exhibitvb	yourprp$demonstratevb	yourprp$presentvb	demonstratevbyourprp$	
+
+BE: youPRPwalkVB
+EQ class: john_walkernnyouprp	walkingnnofinyouprp	john_walkernnofinyouprp	walkingnnyouprp	walknnofinyouprp	walkernnofinyouprp	walkernnyouprp	walknnyouprp	
+
+BE: thisDTalertVB
+EQ class: alertjjofinthisdt	qui_vivennofinthisdt	alertnnofinthisdt	thisdtalarmvb	
+
+BE: alertVBbearNN
+EQ class: alertvbursidaenn	alarmvbursidaenn	alertjjofinfamily_ursidaenn	alertjjofinbearnn	alertnnofinursidaenn	alertvbfamily_ursidaenn	alertnnofinbearnn	alertnnofinfamily_ursidaenn	qui_vivennofinbearnn	qui_vivennofinfamily_ursidaenn	alarmvbfamily_ursidaenn	alertjjofinursidaenn	alarmvbbearnn	qui_vivennofinursidaenn	
+
+BE: walkVBthroughINwoodsPersonAnnotation
+EQ class: 
+
+BE: alertVBtoTOpresenceNN
+EQ class: alertvbtotopresentjj	alarmvbtotopresentjj	alarmvbtotopresencenn	
+
+BE: willMDatINpossibleJJ
+EQ class: willmdatinpossibilitynn	willmdatinpossiblenessnn	
+
+BE: noiseOrganizationAnnotationifINalertVB
+EQ class: noiseorganizationannotationifinalarmvb	
+
+BE: walkVBtalkingVBG
+EQ class: walkvbtalkvbg	john_walkernnofintalkvbg	walknnofintalkingvbg	walkingnnofinspeakvbg	walkingnnofintalkvbg	walkvbspeakvbg	walknnofintalkvbg	walknnofinspeakvbg	walkernnofinspeakvbg	walkingnnofintalkingvbg	walkernnofintalkvbg	john_walkernnofinspeakvbg	john_walkernnofintalkingvbg	walkernnofintalkingvbg	
+
+BE: walkVBmakingVBG
+EQ class: walkingnnofindovbg	walknnofinmakevbg	walkvbmakevbg	john_walkernnofinmakevbg	walkernnofinmakevbg	walkvbdovbg	walkingnnofinmakevbg	john_walkernnofindovbg	walkingnnofinmakingvbg	john_walkernnofinmakingvbg	walknnofindovbg	walknnofinmakingvbg	walkernnofindovbg	walkernnofinmakingvbg	
+
+BE: bearsNNS
+EQ class: family_ursidaenn	bearnns	theynns	ursidaenn	themnns	
+
+BE: humansNNS
+EQ class: worldnns	human_beingsnns	human_racenns	humankindnns	theynns	mannns	humanitynns	mankindnns	themnns	
+
+BE: wayNN
+EQ class: stylenn	fashionnn	modenn	mannernn	
+
+BE: attackNN
+EQ class: onrushnn	onslaughtnn	onsetnn	
+
+BE: lettingVBG
+EQ class: permitvbg	letvbg	allowvbg	
+
+BE: knowVB
+EQ class: cognizevb	cognisevb	
+
+BE: avoidVB
+EQ class: 
+
+BE: scaringVBG
+EQ class: frightenvbg	scarevbg	affrightvbg	frightvbg	
+
+BE: provokingVBG
+EQ class: enkindlevbg	arousevbg	evokevbg	kindlevbg	raisevbg	provokevbg	firevbg	elicitvbg	
+
+BE: MostJJS
+EQ class: 
+
+BE: scaredJJ
+EQ class: frightenedjj	
+
+BE: safeJJ
+EQ class: safenessnn	
+
+BE: MostJJSbearsNNS
+EQ class: mostjjsfamily_ursidaenn	mostjjsursidaenn	mostjjsthemnns	mostjjsbearnns	mostjjstheynns	
+
+BE: safeJJwayNN
+EQ class: safenessnnmodenn	safenessnnstylenn	safejjmannernn	safejjfashionnn	safenessnnmannernn	safejjmodenn	safenessnnwaynn	safejjstylenn	safenessnnfashionnn	
+
+BE: bearsNNSareAUX
+EQ class: themnnsbeaux	bearsnnsbeaux	family_ursidaennareaux	bearnnsareaux	theynnsareaux	family_ursidaennbeaux	themnnsareaux	ursidaennbeaux	theynnsbeaux	bearnnsbeaux	ursidaennareaux	
+
+BE: themPRPknowVB
+EQ class: knowernnofinpeople!prp	knowingnnanywaysprp	knowingnnpeople!prp	noiseprpcognizevb	knowernnpeople!prp	knowernnanywaysprp	knowingnnofinspraysprp	bearsprpcognisevb	apprehendernnbearsprp	storesprpknowvb	apprehendernnofinhumansprp	bearsprpknowvb	spraysprpcognisevb	knowingnnofinthemprp	knowingnnscavengersprp	humansprpknowvb	humansprpcognisevb	knowablennofinbearsprp	people!prpcognisevb	knowingnnthemprp	anywaysprpcognisevb	knowernnofinstoresprp	scavengersprpcognisevb	apprehendernnspraysprp	knowingnnspraysprp	scavengersprpcognizevb	knowingnnofinstoresprp	knowernnnoiseprp	people!prpcognizevb	people!prpknowvb	knowernnbearsprp	knowingnnofinscavengersprp	knowingnnofinnoiseprp	apprehendernnthemprp	knowablennofinthemprp	knowingnnofinbearsprp	knowernnofinthemprp	knowingnnofinanywaysprp	apprehendernnofinstoresprp	knowernnofinhumansprp	apprehendernnofinscavengersprp	knowablennofinanywaysprp	humansprpcognizevb	knowablennofinscavengersprp	apprehendernnofinpeople!prp	knowernnofinscavengersprp	knowernnstoresprp	knowernnscavengersprp	knowablennofinnoiseprp	apprehendernnpeople!prp	knowablennofinstoresprp	knowernnofinbearsprp	knowingnnbearsprp	apprehendernnofinnoiseprp	knowingnnofinhumansprp	apprehendernnanywaysprp	knowingnnhumansprp	bearsprpcognizevb	apprehendernnscavengersprp	knowernnofinnoiseprp	apprehendernnofinbearsprp	spraysprpcognizevb	knowingnnstoresprp	storesprpcognisevb	scavengersprpknowvb	knowernnthemprp	apprehendernnhumansprp	knowingnnnoiseprp	apprehendernnofinanywaysprp	apprehendernnofinthemprp	knowernnofinspraysprp	anywaysprpcognizevb	apprehendernnstoresprp	noiseprpknowvb	knowablennofinspraysprp	themprpcognizevb	noiseprpcognisevb	knowingnnofinpeople!prp	knowernnhumansprp	storesprpcognizevb	apprehendernnnoiseprp	knowablennofinpeople!prp	apprehendernnofinspraysprp	knowernnofinanywaysprp	knowablennofinhumansprp	anywaysprpknowvb	spraysprpknowvb	themprpcognisevb	knowernnspraysprp	
+
+BE: youPRPareAUX
+EQ class: youprpbeaux	
+
+BE: thereEXisAUX
+EQ class: thereexbeaux	
+
+BE: wayNNavoidVB
+EQ class: avoidancennwaynn	dodgingnnfashionnn	turning_awaynnmannernn	shunningnnofinstylenn	shunningnnofinwaynn	turning_awaynnofinstylenn	modennavoidvb	shunningnnstylenn	stylennavoidvb	shunningnnfashionnn	avoidancennstylenn	turning_awaynnofinmannernn	shunningnnofinmannernn	turning_awaynnofinfashionnn	dodgingnnwaynn	avoidancennfashionnn	avoidancennofinwaynn	shunningnnofinfashionnn	shunningnnmodenn	fashionnnavoidvb	turning_awaynnofinwaynn	dodgingnnofinmodenn	turning_awaynnstylenn	avoidancennofinstylenn	avoidancennofinmannernn	shunningnnmannernn	dodgingnnmodenn	dodgingnnmannernn	avoidancennmodenn	avoidancennofinfashionnn	dodgingnnstylenn	dodgingnnofinfashionnn	avoidancennmannernn	dodgingnnofinstylenn	shunningnnwaynn	mannernnavoidvb	dodgingnnofinmannernn	shunningnnofinmodenn	dodgingnnofinwaynn	turning_awaynnofinmodenn	turning_awaynnfashionnn	turning_awaynnwaynn	turning_awaynnmodenn	avoidancennofinmodenn	
+
+BE: isAUXwayNN
+EQ class: beauxfashionnn	beauxstylenn	beauxmodenn	isauxfashionnn	beauxmannernn	beauxwaynn	isauxstylenn	isauxmodenn	isauxmannernn	
+
+BE: scaringVBGthemPRP
+EQ class: scareyjjofinspraysprp	straw_mannnofinthemprp	frightvbgspraysprp	panicnnofinscavengersprp	frightenvbgthemprp	frightvbgstoresprp	scarennofinpeople!prp	panicnnofinhumansprp	scarevbgthemprp	frightenvbgstoresprp	straw_mannnofinspraysprp	frightvbgbearsprp	scarevbgscavengersprp	scarennofinanywaysprp	strawmannnofinspraysprp	scaringvbgpeople!prp	strawmannnofinpeople!prp	strawmannnofinscavengersprp	panicnnofinbearsprp	strawmannnofinthemprp	affrightvbgthemprp	frightenvbgbearsprp	frightvbghumansprp	frightenvbgspraysprp	scareyjjofinpeople!prp	affrightvbganywaysprp	scarernnofinnoiseprp	scareyjjofinnoiseprp	scarevbgnoiseprp	straw_mannnofinpeople!prp	frightvbganywaysprp	affrightvbgscavengersprp	scaringvbgstoresprp	scareyjjofinhumansprp	scarevbganywaysprp	affrightvbgnoiseprp	affrightvbgstoresprp	scareyjjofinbearsprp	affrightvbghumansprp	frightenvbgnoiseprp	straw_mannnofinhumansprp	scarernnofinthemprp	panicnnofinthemprp	scarevbgspraysprp	scarennofinbearsprp	scarecrownnofinscavengersprp	affrightvbgbearsprp	scaringvbgspraysprp	bird-scarernnofinbearsprp	bird-scarernnofinthemprp	affrightvbgpeople!prp	bird-scarernnofinhumansprp	panicnnofinspraysprp	frightvbgscavengersprp	straw_mannnofinanywaysprp	strawmannnofinanywaysprp	frightenvbgscavengersprp	straw_mannnofinscavengersprp	scareyjjofinanywaysprp	frightvbgthemprp	strawmannnofinhumansprp	bird-scarernnofinstoresprp	scarevbgbearsprp	panicnnofinnoiseprp	scarennofinscavengersprp	frightenvbghumansprp	bird-scarernnofinpeople!prp	scarernnofinstoresprp	scarernnofinbearsprp	scarecrownnofinbearsprp	scarernnofinscavengersprp	scarennofinstoresprp	affrightvbgspraysprp	scarecrownnofinhumansprp	scarecrownnofinnoiseprp	scaringvbganywaysprp	scaringvbgnoiseprp	scarevbgstoresprp	scarecrownnofinanywaysprp	scarernnofinpeople!prp	bird-scarernnofinnoiseprp	scaringvbghumansprp	scareyjjofinthemprp	scarennofinthemprp	strawmannnofinstoresprp	scarernnofinspraysprp	scaringvbgbearsprp	bird-scarernnofinscavengersprp	scarecrownnofinstoresprp	frightvbgnoiseprp	panicnnofinpeople!prp	scarennofinhumansprp	scarevbgpeople!prp	scareyjjofinstoresprp	straw_mannnofinstoresprp	scarecrownnofinthemprp	frightvbgpeople!prp	scarevbghumansprp	scaringvbgscavengersprp	straw_mannnofinbearsprp	frightenvbganywaysprp	scarecrownnofinpeople!prp	straw_mannnofinnoiseprp	frightenvbgpeople!prp	bird-scarernnofinspraysprp	strawmannnofinnoiseprp	scarernnofinanywaysprp	scarennofinnoiseprp	panicnnofinstoresprp	scareyjjofinscavengersprp	bird-scarernnofinanywaysprp	scarernnofinhumansprp	panicnnofinanywaysprp	strawmannnofinbearsprp	scarecrownnofinspraysprp	scarennofinspraysprp	
+
+BE: provokingVBGattackNN
+EQ class: provocationnnofinonsetnn	provokingvbgonslaughtnn	aggravationnnofinonslaughtnn	irritationnnofinonsetnn	irritationnnofinonslaughtnn	irritationnnofinonrushnn	raisevbgonrushnn	elicitvbgonslaughtnn	provokevbgonrushnn	aggravationnnofinonsetnn	evokevbgonsetnn	raisevbgonslaughtnn	provokevbgonslaughtnn	evokevbgattacknn	firevbgonrushnn	irritationnnofinattacknn	provokingvbgonsetnn	raisevbgonsetnn	provocativennofinonslaughtnn	arousevbgonrushnn	aggravationnnofinonrushnn	provocationnnofinonrushnn	firevbgonsetnn	enkindlevbgattacknn	provokevbgonsetnn	aggravationnnofinattacknn	arousevbgonslaughtnn	arousevbgonsetnn	provokingvbgonrushnn	elicitvbgonrushnn	provocativennofinonrushnn	enkindlevbgonslaughtnn	enkindlevbgonrushnn	arousevbgattacknn	provocativennofinattacknn	kindlevbgonrushnn	evokevbgonslaughtnn	provokevbgattacknn	raisevbgattacknn	evokevbgonrushnn	elicitvbgonsetnn	provocationnnofinonslaughtnn	enkindlevbgonsetnn	firevbgattacknn	kindlevbgonsetnn	firevbgonslaughtnn	elicitvbgattacknn	kindlevbgattacknn	provocativennofinonsetnn	provocationnnofinattacknn	kindlevbgonslaughtnn	
+
+BE: lettingVBGthemPRP
+EQ class: lettingvbgscavengersprp	letvbgpeople!prp	allowvbgbearsprp	allowvbghumansprp	allowvbgscavengersprp	permitvbgspraysprp	lettingvbganywaysprp	permitvbgpeople!prp	allowvbgstoresprp	letvbgscavengersprp	letvbgstoresprp	lettingvbghumansprp	allowvbganywaysprp	permitvbgstoresprp	lettingvbgbearsprp	letvbgbearsprp	permitvbganywaysprp	lettingvbgnoiseprp	permitvbgthemprp	allowvbgpeople!prp	letvbgthemprp	allowvbgnoiseprp	letvbghumansprp	permitvbgbearsprp	lettingvbgspraysprp	lettingvbgpeople!prp	allowvbgspraysprp	permitvbghumansprp	allowvbgthemprp	lettingvbgstoresprp	letvbgspraysprp	letvbganywaysprp	letvbgnoiseprp	permitvbgscavengersprp	permitvbgnoiseprp	
+
+BE: areAUXscaredJJ
+EQ class: beauxfrightenedjj	beauxscaredjj	areauxfrightenedjj	
+
+BE: scaredJJofINhumansNNS
+EQ class: scaredjjofinhumanitynns	scaredjjofintheynns	frightenedjjofinhuman_beingsnns	frightenedjjofinhumankindnns	frightenedjjofinworldnns	scaredjjofinhuman_racenns	scaredjjofinhuman_beingsnns	frightenedjjofinmankindnns	frightenedjjofinhumansnns	scaredjjofinhumankindnns	scaredjjofinmannns	frightenedjjofintheynns	scaredjjofinthemnns	frightenedjjofinhuman_racenns	frightenedjjofinmannns	scaredjjofinworldnns	frightenedjjofinhumanitynns	scaredjjofinmankindnns	frightenedjjofinthemnns	
+
+BE: avoidVBscaringVBG
+EQ class: dodgingnnofinfrightvbg	shunningnnofinfrightvbg	dodgingnnofinaffrightvbg	dodgingnnofinfrightenvbg	turning_awaynnofinaffrightvbg	shunningnnofinscarevbg	dodgingnnofinscaringvbg	avoidancennofinfrightvbg	avoidvbaffrightvbg	avoidancennofinfrightenvbg	shunningnnofinscaringvbg	turning_awaynnofinscaringvbg	turning_awaynnofinfrightenvbg	shunningnnofinfrightenvbg	avoidvbscarevbg	avoidancennofinscaringvbg	turning_awaynnofinscarevbg	avoidvbfrightvbg	avoidvbfrightenvbg	turning_awaynnofinfrightvbg	avoidancennofinscarevbg	shunningnnofinaffrightvbg	dodgingnnofinscarevbg	avoidancennofinaffrightvbg	
+
+BE: avoidVBprovokingVBG
+EQ class: avoidvbkindlevbg	turning_awaynnofinenkindlevbg	avoidvbprovokevbg	avoidancennofinevokevbg	dodgingnnofinprovokevbg	shunningnnofinprovokevbg	turning_awaynnofinfirevbg	dodgingnnofinarousevbg	avoidancennofinraisevbg	avoidancennofinprovokevbg	avoidancennofinprovokingvbg	dodgingnnofinkindlevbg	turning_awaynnofinevokevbg	avoidancennofinfirevbg	turning_awaynnofinarousevbg	avoidvbfirevbg	dodgingnnofinfirevbg	shunningnnofinfirevbg	dodgingnnofinelicitvbg	avoidancennofinelicitvbg	dodgingnnofinprovokingvbg	turning_awaynnofinprovokevbg	turning_awaynnofinprovokingvbg	shunningnnofinarousevbg	avoidvbarousevbg	avoidancennofinenkindlevbg	turning_awaynnofinraisevbg	turning_awaynnofinelicitvbg	avoidvbelicitvbg	dodgingnnofinraisevbg	dodgingnnofinenkindlevbg	avoidvbenkindlevbg	shunningnnofinevokevbg	avoidvbevokevbg	avoidancennofinkindlevbg	shunningnnofinraisevbg	shunningnnofinenkindlevbg	dodgingnnofinevokevbg	shunningnnofinkindlevbg	avoidvbraisevbg	shunningnnofinelicitvbg	shunningnnofinprovokingvbg	turning_awaynnofinkindlevbg	avoidancennofinarousevbg	
+
+BE: faceNN
+EQ class: facialjj	human_facenn	
+
+BE: bearNN
+EQ class: family_ursidaenn	ursidaenn	
+
+BE: dontNN
+EQ class: 
+
+BE: comeVB
+EQ class: come_upvb	
+
+BE: faceVB
+EQ class: confrontvb	face_upvb	
+
+BE: walkVB
+EQ class: 
+
+BE: turnVB
+EQ class: 
+
+BE: runVB
+EQ class: 
+
+BE: makeVB
+EQ class: dovb	
+
+BE: attackVB
+EQ class: assailvb	
+
+BE: dontNNturnVB
+EQ class: crooknnofindontnn	turnnnofindontnn	bendnnofindontnn	turnnndontnn	turningnnofindontnn	twistnnofindontnn	turningnndontnn	
+
+BE: youPRPwalkVB
+EQ class: john_walkernnyouprp	walkingnnofinyouprp	john_walkernnofinyouprp	walkingnnyouprp	walknnofinyouprp	walkernnofinyouprp	walkernnyouprp	walknnyouprp	
+
+BE: thisDTmakeVB
+EQ class: thisdtdovb	
+
+BE: itPRPattackVB
+EQ class: assaulternnofinitprp	aggressornnofinitprp	assailantnnofinitprp	attackernnitprp	onslaughtnnofinitprp	itprpassailvb	aggressornnitprp	onsetnnofinitprp	assailantnnitprp	onrushnnofinitprp	attackernnofinitprp	assaulternnitprp	attacknnofinitprp	
+
+BE: comeVBfaceNN
+EQ class: approachingnnofinfacialjj	come_upvbhuman_facenn	comevbfacialjj	approachnnofinfacialjj	comingnnofinhuman_facenn	come_upvbfacenn	comingnnofinfacenn	come_upvbfacialjj	approachnnofinhuman_facenn	comingnnofinfacialjj	approachingnnofinhuman_facenn	approachingnnofinfacenn	approachnnofinfacenn	comevbhuman_facenn	
+
+BE: attackVByouPRP
+EQ class: attackernnofinyouprp	assailvbyouprp	aggressornnofinyouprp	onslaughtnnofinyouprp	assaulternnofinyouprp	attacknnofinyouprp	onrushnnofinyouprp	onsetnnofinyouprp	assailantnnofinyouprp	
+
+BE: makeVBitPRP
+EQ class: dovbitprp	
+
+BE: faceVBwithINbearNN
+EQ class: face_upvbwithinursidaenn	facevbwithinursidaenn	confrontvbwithinbearnn	face_upvbwithinfamily_ursidaenn	confrontvbwithinursidaenn	facevbwithinfamily_ursidaenn	confrontvbwithinfamily_ursidaenn	face_upvbwithinbearnn	
+
+BE: comeVBfaceVB
+EQ class: approachingnnofinface_upvb	comingnnofinfacevb	come_upvbconfrontvb	comingnnofinconfrontvb	approachnnofinconfrontvb	comingnnofinface_upvb	come_upvbfacevb	approachingnnofinfacevb	approachnnofinfacevb	come_upvbface_upvb	approachingnnofinconfrontvb	comevbface_upvb	approachnnofinface_upvb	comevbconfrontvb	
+
+BE: walkVBslowlyRB
+EQ class: slowjjininwalknn	walkernnofinslowlyrb	slowjjininwalkvb	walknnofinslowlyrb	slownessnnininwalkingnn	slownessnnwalkernn	slownessnnwalknn	slownessnnjohn_walkernn	slownessnnininwalknn	walkingnnofinslowlyrb	slowjjjohn_walkernn	slownessnnininwalkvb	john_walkernnofinslowlyrb	slowjjwalkingnn	slowjjwalkernn	slowjjininwalkingnn	slownessnnininwalkernn	slowjjininjohn_walkernn	slowjjininwalkernn	slowjjwalknn	slownessnnininjohn_walkernn	slownessnnwalkingnn	
+
+BE: walkVBawayRB
+EQ class: walknnofinawayrb	john_walkernnofinawayrb	walkernnofinawayrb	walkingnnofinawayrb	
+
+BE: headNN
+EQ class: caputnn	
+
+BE: sideNN
+EQ class: 
+
+BE: bearNN
+EQ class: family_ursidaenn	ursidaenn	
+
+BE: bearNN
+EQ class: family_ursidaenn	ursidaenn	
+
+BE: walkVB
+EQ class: 
+
+BE: seeVB
+EQ class: 
+
+BE: goingVBG
+EQ class: movevbg	govbg	travelvbg	locomotevbg	
+
+BE: talkVB
+EQ class: speakvb	
+
+BE: animalJJ
+EQ class: carnaljj	fleshlyjj	sensualjj	animalitynn	
+
+BE: goodJJ
+EQ class: goodnessnn	
+
+BE: niceJJ
+EQ class: nicenessnn	
+
+BE: animalJJbearNN
+EQ class: carnaljjfamily_ursidaenn	fleshlyjjbearnn	carnaljjbearnn	fleshlyjjfamily_ursidaenn	sensualjjbearnn	carnaljjursidaenn	animalitynnursidaenn	animaljjfamily_ursidaenn	animalitynnbearnn	sensualjjursidaenn	fleshlyjjursidaenn	sensualjjfamily_ursidaenn	animalitynnfamily_ursidaenn	animaljjursidaenn	
+
+BE: goodJJbearNN
+EQ class: goodnessnnbearnn	goodjjursidaenn	goodnessnnfamily_ursidaenn	goodnessnnursidaenn	goodjjfamily_ursidaenn	
+
+BE: niceJJbearNN
+EQ class: nicenessnnursidaenn	nicejjfamily_ursidaenn	nicenessnnfamily_ursidaenn	nicejjursidaenn	nicenessnnbearnn	
+
+BE: yourPRP$headNN
+EQ class: headnnofinyourprp$	yourprp$caputnn	caputnnofinyourprp$	
+
+BE: youPRPseeVB
+EQ class: illusionistnnofinyouprp	beholdingnnyouprp	seeingnnyouprp	visionarynnyouprp	seernnofinyouprp	visionarynnofinyouprp	seernnyouprp	beholdingnnofinyouprp	visual_perceptionnnofinyouprp	seeingnnofinyouprp	illusionistnnyouprp	visual_perceptionnnyouprp	
+
+BE: youPRPgoingVBG
+EQ class: youprpmovevbg	youprpgovbg	youprplocomotevbg	youprptravelvbg	
+
+BE: walkVBwithINheadNN
+EQ class: walkvbwithincaputnn	
+
+BE: walkVBtoTOsideNN
+EQ class: 
+
+BE: talkVBtoTObearNN
+EQ class: talkvbtotoursidaenn	speakvbtotofamily_ursidaenn	speakvbtotoursidaenn	speakvbtotobearnn	talkvbtotofamily_ursidaenn	
+
+BE: walkVBsoINseeVB
+EQ class: 
+
+BE: walkVBbackwardsRB
+EQ class: walkernnofinbackwardsrb	john_walkernnofinbackwardsrb	walkingnnofinbackwardsrb	walknnofinbackwardsrb	
+
+BE: BearNN
+EQ class: family_ursidaenn	ursidaenn	
+
+BE: spraysNNS
+EQ class: spraynns	theynns	themnns	
+
+BE: huntingNN
+EQ class: huntnn	
+
+BE: fishingNN
+EQ class: sportfishingnn	
+
+BE: supplyNN
+EQ class: 
+
+BE: storesNNS
+EQ class: theynns	shopnns	storenns	themnns	
+
+BE: pepperNN
+EQ class: pipernn	madagascar_peppernn	piper_nigrumnn	genus_pipernn	common_peppernn	white_peppernn	black_peppernn	
+
+BE: sprayNN
+EQ class: 
+
+BE: bearsNNS
+EQ class: family_ursidaenn	bearnns	theynns	ursidaenn	themnns	
+
+BE: bay..PeoLocationAnnotation
+EQ class: baypeolocationannotation	
+
+BE: worksVBZ
+EQ class: workvbz	
+
+BE: keepingVBG
+EQ class: maintainvbg	holdvbg	keepvbg	
+
+BE: availableJJ
+EQ class: availabilitynn	availablenessnn	
+
+BE: mostJJS
+EQ class: 
+
+BE: mostJJSstoresNNS
+EQ class: mostjjsthemnns	mostjjsshopnns	mostjjstheynns	mostjjsstorenns	
+
+BE: BearNNspraysNNS
+EQ class: family_ursidaennspraysnns	theynnsofinfamily_ursidaenn	themnnsofinursidaenn	ursidaennthemnns	ursidaenntheynns	bearnnthemnns	themnnsofinfamily_ursidaenn	spraysnnsofinbearnn	family_ursidaennspraynns	ursidaennspraysnns	theynnsofinursidaenn	family_ursidaenntheynns	ursidaennspraynns	theynnsofinbearnn	spraynnsofinbearnn	spraynnsofinfamily_ursidaenn	themnnsofinbearnn	spraysnnsofinursidaenn	spraysnnsofinfamily_ursidaenn	family_ursidaennthemnns	bearnntheynns	bearnnspraynns	spraynnsofinursidaenn	
+
+BE: supplyNNstoresNNS
+EQ class: suppliernnofinstoresnns	storesnnssupplyvb	theynnsfurnishvb	shopnnsrendervb	supplynnofinshopnns	supplyingnnofinthemnns	suppliernnofinstorenns	supplynnthemnns	supplynnofinthemnns	supplyingnnofinstorenns	storennsofinsupplynn	storesnnsprovidevb	provisionnnofinstorenns	provisionnnofinstoresnns	suppliernnofinshopnns	providernnofinstorenns	shopnnssupplyvb	themnnssupplyvb	providernnofinthemnns	suppliernnofinthemnns	shopnnsofinsupplynn	providernnofinstoresnns	themnnsofinsupplynn	themnnsfurnishvb	providernnofinshopnns	supplynnstorenns	storennssupplyvb	provisionnnofinshopnns	storennsprovidevb	suppliernnofintheynns	supplynntheynns	themnnsrendervb	theynnssupplyvb	storennsfurnishvb	supplyingnnofintheynns	supplyingnnofinstoresnns	providernnofintheynns	supplynnofinstorenns	supplyingnnofinshopnns	shopnnsfurnishvb	storesnnsfurnishvb	supplynnshopnns	supplynnofinstoresnns	shopnnsprovidevb	storesnnsofinsupplynn	theynnsofinsupplynn	supplynnofintheynns	theynnsprovidevb	provisionnnofintheynns	provisionnnofinthemnns	themnnsprovidevb	theynnsrendervb	storennsrendervb	storesnnsrendervb	
+
+BE: fishingNNstoresNNS
+EQ class: storesnnsanglevb	themnnsanglevb	fishingnnstorenns	shopnnsofinfishingnn	fishnnofinthemnns	fishingnnthemnns	shopnnsanglevb	sportfishingnntheynns	theynnsfishvb	fishyjjofinthemnns	storennsofinfishingnn	themnnsofinfishingnn	fishnnofinstoresnns	storennsfishvb	fishingnnshopnns	themnnsfishvb	storennsofinsportfishingnn	shopnnsfishvb	piscesnnofinshopnns	piscesnnofinthemnns	piscesnnofinstoresnns	sportfishingnnstorenns	fishnnofintheynns	fishyjjofintheynns	storesnnsfishvb	piscesnnofinstorenns	sportfishingnnshopnns	fishyjjofinshopnns	theynnsanglevb	fishyjjofinstoresnns	fishyjjofinstorenns	fishnnofinshopnns	shopnnsofinsportfishingnn	sportfishingnnthemnns	storennsanglevb	piscesnnofintheynns	sportfishingnnstoresnns	fishingnntheynns	themnnsofinsportfishingnn	fishnnofinstorenns	storesnnsofinfishingnn	theynnsofinfishingnn	theynnsofinsportfishingnn	storesnnsofinsportfishingnn	
+
+BE: pepperNNsprayNN
+EQ class: spraynnofingenus_pipernn	piper_nigrumnnspraynn	genus_pipernnspraynn	pipernnspraynn	common_peppernnspraynn	spraynnofinpipernn	spraynnofinpiper_nigrumnn	white_peppernnspraynn	spraynnofinwhite_peppernn	spraynnofincommon_peppernn	spraynnofinpeppernn	spraynnofinmadagascar_peppernn	black_peppernnspraynn	madagascar_peppernnspraynn	spraynnofinblack_peppernn	
+
+BE: spraysNNSareAUX
+EQ class: themnnsbeaux	spraynnsareaux	theynnsareaux	themnnsareaux	spraysnnsbeaux	spraynnsbeaux	theynnsbeaux	
+
+BE: itPRPisAUX
+EQ class: itprpbeaux	
+
+BE: isAUXsprayNN
+EQ class: beauxspraynn	
+
+BE: keepingVBGbearsNNS
+EQ class: holdvbgbearnns	holdvbgtheynns	keepvbgursidaenn	keepingvbgursidaenn	keepvbgbearnns	holdvbgbearsnns	holdvbgfamily_ursidaenn	maintainvbgbearnns	maintainvbgbearsnns	keepingvbgthemnns	keepvbgbearsnns	keepingvbgbearnns	keepvbgfamily_ursidaenn	holdvbgursidaenn	maintainvbgfamily_ursidaenn	maintainvbgthemnns	holdvbgthemnns	maintainvbgursidaenn	keepvbgthemnns	keepingvbgtheynns	keepingvbgfamily_ursidaenn	maintainvbgtheynns	keepvbgtheynns	
+
+BE: areAUXavailableJJ
+EQ class: beauxavailablenessnn	areauxavailabilitynn	beauxavailablejj	areauxavailablenessnn	beauxavailabilitynn	
+
+BE: areAUXatINstoresNNS
+EQ class: beauxatintheynns	areauxatinshopnns	beauxatinthemnns	areauxatinstorenns	beauxatinshopnns	beauxatinstorenns	areauxatinthemnns	areauxatintheynns	beauxatinstoresnns	
+
+BE: keepingVBGatINbay..PeoLocationAnnotation
+EQ class: keepvbgatinbay..peolocationannotation	holdvbgatinbaypeolocationannotation	maintainvbgatinbay..peolocationannotation	keepingvbgatinbaypeolocationannotation	maintainvbgatinbaypeolocationannotation	keepvbgatinbaypeolocationannotation	holdvbgatinbay..peolocationannotation	
+
+BE: areAUXalsoRB
+EQ class: beauxalsorb	
+
+BE: isAUXbasicallyRB
+EQ class: beauxbasicallyrb	
+
+BE: worksVBZapparentlyRB
+EQ class: apparentjjworkernn	apparentjjininworksvbz	apparentnessnnininworknn	evidentjjworkernn	apparentjjininworknn	apparentjjininworkernn	manifestjjininworksvbz	patentjjininworksvbz	unmistakablejjworknn	workvbzapparentlyrb	manifestjjininworknn	apparencynnininworksvbz	patentjjworknn	evidentjjininworkernn	evidentjjworknn	manifestjjininworkernn	patentjjworkernn	unmistakablejjininworknn	unmistakablejjininworkernn	plainjjininworkvbz	unmistakablejjininworkvbz	manifestjjworkernn	plainjjworknn	apparentjjworknn	apparentnessnnworknn	patentjjininworknn	unmistakablejjininworksvbz	apparentnessnnininworksvbz	plainjjworkernn	plainjjininworkernn	patentjjininworkvbz	patentjjininworkernn	plainjjininworknn	worknnofinapparentlyrb	plainjjininworksvbz	manifestjjworknn	evidentjjininworksvbz	unmistakablejjworkernn	apparentnessnnininworkernn	apparencynnworkernn	evidentjjininworknn	apparentjjininworkvbz	workernnofinapparentlyrb	apparencynnworknn	manifestjjininworkvbz	apparencynnininworkvbz	apparentnessnnininworkvbz	apparentnessnnworkernn	apparencynnininworkernn	evidentjjininworkvbz	apparencynnininworknn	
+
+BE: worksVBZveryRB
+EQ class: workvbzveryrb	workernnofinveryrb	worknnofinveryrb	
+
+BE: worksVBZwellRB
+EQ class: worknnofinwellrb	workernnofinwellrb	workvbzwellrb	
+
+BE: People!OrganizationAnnotation
+EQ class: 
+
+BE: bearsNNS
+EQ class: family_ursidaenn	bearnns	theynns	ursidaenn	themnns	
+
+BE: scavengersNNS
+EQ class: theynns	scavengernns	themnns	
+
+BE: anywaysNNS
+EQ class: theynns	themnns	
+
+BE: reasonNN
+EQ class: groundnn	
+
+BE: caseNN
+EQ class: instancenn	examplenn	
+
+BE: becasueNN
+EQ class: 
+
+BE: eatVB
+EQ class: 
+
+BE: tellVB
+EQ class: sayvb	statevb	
+
+BE: leaveVB
+EQ class: go_forthvb	go_awayvb	
+
+BE: ralizeVBP
+EQ class: 
+
+BE: provenVBN
+EQ class: turn_outvbn	turn_upvbn	provevbn	
+
+BE: thatsLocationAnnotation
+EQ class: 
+
+BE: wantedVBD
+EQ class: desirevbd	wantvbd	
+
+BE: killVB
+EQ class: 
+
+BE: lyingVBG
+EQ class: lievbg	
+
+BE: deadJJ
+EQ class: deadnessnn	
+
+BE: aliveJJ
+EQ class: alivenessnn	livejj	
+
+BE: onlyJJ
+EQ class: lonesomejj	solejj	lonejj	solitaryjj	
+
+BE: oddJJ
+EQ class: unevenjj	oddnessnn	
+
+BE: dominantJJ
+EQ class: dominancenn	
+
+BE: deadJJanywaysNNS
+EQ class: deadjjtheynns	deadnessnntheynns	deadnessnnanywaysnns	deadjjthemnns	deadnessnnthemnns	
+
+BE: onlyJJreasonNN
+EQ class: lonejjgroundnn	lonejjreasonnn	lonesomejjreasonnn	solejjreasonnn	solitaryjjgroundnn	solitaryjjreasonnn	lonesomejjgroundnn	onlyjjgroundnn	solejjgroundnn	
+
+BE: oddJJcaseNN
+EQ class: oddnessnninstancenn	unevenjjinstancenn	oddjjinstancenn	oddjjexamplenn	unevenjjexamplenn	oddnessnnexamplenn	unevenjjcasenn	oddnessnncasenn	
+
+BE: theyPRPeatVB
+EQ class: eatingnnhumansprp	feedingnnofinstoresprp	eatingnnbearsprp	eaternnofinbearsprp	scavengersprpeatvb	eatingnnspraysprp	eaternnofintheyprp	eatingnnofinpeople!prp	feedingnnspraysprp	eaternnofinscavengersprp	feedernnofinpeople!prp	eatingnnofinbearsprp	feedernnscavengersprp	feedingnnanywaysprp	storesprpeatvb	eatingnnpeople!prp	noiseprpeatvb	feedingnnofinhumansprp	eatingnnstoresprp	feedingnnpeople!prp	eaternnhumansprp	eaternnofinnoiseprp	eaternnofinanywaysprp	eatingnnanywaysprp	eaternnnoiseprp	feedingnnofintheyprp	feedernnofinscavengersprp	eaternnofinhumansprp	feedingnnstoresprp	eaternnbearsprp	feedingnnofinpeople!prp	feedernnofinspraysprp	feedernnanywaysprp	feedernnofinanywaysprp	feedernnspraysprp	eaternnofinpeople!prp	anywaysprpeatvb	eaternnofinspraysprp	eaternntheyprp	feedingnntheyprp	feedingnnofinscavengersprp	eatingnnofinhumansprp	humansprpeatvb	feedernntheyprp	feedernnofinhumansprp	eaternnofinstoresprp	eatingnntheyprp	eatingnnofinanywaysprp	eatingnnnoiseprp	eatingnnscavengersprp	feedernnofinbearsprp	eatingnnofinnoiseprp	feedingnnofinspraysprp	feedingnnnoiseprp	feedingnnhumansprp	eaternnanywaysprp	feedingnnofinanywaysprp	eaternnpeople!prp	feedernnhumansprp	eatingnnofinstoresprp	feedernnnoiseprp	feedingnnbearsprp	eatingnnofinspraysprp	eaternnscavengersprp	people!prpeatvb	spraysprpeatvb	feedernnbearsprp	eaternnspraysprp	eaternnstoresprp	feedingnnofinbearsprp	feedernnpeople!prp	feedingnnofinnoiseprp	bearsprpeatvb	feedingnnscavengersprp	feedernnofintheyprp	feedernnofinnoiseprp	feedernnofinstoresprp	eatingnnofinscavengersprp	eatingnnofintheyprp	feedernnstoresprp	
+
+BE: bearsNNSareAUX
+EQ class: themnnsbeaux	bearsnnsbeaux	family_ursidaennareaux	bearnnsareaux	theynnsareaux	family_ursidaennbeaux	themnnsareaux	ursidaennbeaux	theynnsbeaux	bearnnsbeaux	ursidaennareaux	
+
+BE: youPRPareAUX
+EQ class: youprpbeaux	
+
+BE: theyPRPtellVB
+EQ class: scavengersprpstatevb	theyprpstatevb	tellernnofinstoresprp	tellingnnscavengersprp	tellernnhumansprp	relationnnhumansprp	anywaysprpsayvb	edward_tellernnscavengersprp	recountingnnanywaysprp	tellingnnofinspraysprp	tellernnofintheyprp	recountingnnofinnoiseprp	bearsprpsayvb	relationnnofinanywaysprp	recountingnnofinanywaysprp	spraysprptellvb	recountingnnspraysprp	recountingnnofintheyprp	anywaysprptellvb	storesprpstatevb	tellingnnnoiseprp	tellingnnspraysprp	tellingnnbearsprp	edward_tellernnanywaysprp	tellernnofinscavengersprp	tellernnofinanywaysprp	relationnntheyprp	recountingnnofinpeople!prp	scavengersprpsayvb	tellingnnofinnoiseprp	tellingnnstoresprp	recountingnnpeople!prp	noiseprpstatevb	people!prpstatevb	tellingnnofinanywaysprp	bearsprptellvb	tellernnbearsprp	storesprptellvb	relationnnofinstoresprp	people!prptellvb	tellernnspraysprp	relationnnnoiseprp	recountingnnofinspraysprp	recountingnnofinbearsprp	relationnnbearsprp	relationnnscavengersprp	relationnnofinpeople!prp	tellingnnofinhumansprp	scavengersprptellvb	humansprpsayvb	relationnnofintheyprp	tellingnnofinpeople!prp	edward_tellernnofintheyprp	tellernnofinbearsprp	theyprpsayvb	noiseprptellvb	tellingnnhumansprp	recountingnnofinhumansprp	storesprpsayvb	humansprptellvb	tellernnpeople!prp	noiseprpsayvb	recountingnnbearsprp	tellernnstoresprp	tellernnofinhumansprp	humansprpstatevb	edward_tellernnpeople!prp	edward_tellernnofinscavengersprp	edward_tellernnspraysprp	relationnnanywaysprp	edward_tellernnofinstoresprp	relationnnpeople!prp	edward_tellernnstoresprp	edward_tellernnofinpeople!prp	recountingnnofinscavengersprp	bearsprpstatevb	tellingnnofinbearsprp	recountingnnscavengersprp	tellingnnofintheyprp	relationnnofinbearsprp	edward_tellernnnoiseprp	relationnnofinspraysprp	tellingnnofinscavengersprp	relationnnofinscavengersprp	spraysprpstatevb	recountingnnstoresprp	tellingnntheyprp	edward_tellernnhumansprp	edward_tellernnofinanywaysprp	edward_tellernnofinbearsprp	recountingnnhumansprp	tellernnanywaysprp	tellernnofinnoiseprp	tellingnnofinstoresprp	relationnnspraysprp	recountingnntheyprp	spraysprpsayvb	recountingnnofinstoresprp	tellernnofinpeople!prp	people!prpsayvb	tellernntheyprp	edward_tellernnofinhumansprp	relationnnstoresprp	anywaysprpstatevb	tellernnscavengersprp	edward_tellernntheyprp	tellingnnanywaysprp	relationnnofinhumansprp	tellernnofinspraysprp	edward_tellernnbearsprp	edward_tellernnofinnoiseprp	tellingnnpeople!prp	edward_tellernnofinspraysprp	recountingnnnoiseprp	relationnnofinnoiseprp	tellernnnoiseprp	
+
+BE: youPRPareAUX
+EQ class: youprpbeaux	
+
+BE: reasonNNisAUX
+EQ class: reasonnnbeaux	groundnnbeaux	groundnnisaux	
+
+BE: theyPRPleaveVB
+EQ class: departernnofinnoiseprp	people!prpgo_forthvb	spraysprpgo_forthvb	leave_of_absencennofinnoiseprp	departernnofinscavengersprp	leavernntheyprp	leavennofinnoiseprp	bearsprpgo_forthvb	goernnofinbearsprp	leavernnstoresprp	humansprpgo_forthvb	anywaysprpgo_forthvb	leavernnofintheyprp	goernnofinpeople!prp	leavernnbearsprp	leavernnhumansprp	departernnscavengersprp	leavernnnoiseprp	leave_of_absencennofintheyprp	humansprpgo_awayvb	scavengersprpleavevb	goernnbearsprp	anywaysprpleavevb	leavernnofinstoresprp	goernnhumansprp	goernnanywaysprp	leavennofintheyprp	leave_of_absencennofinscavengersprp	leavernnscavengersprp	leavernnofinanywaysprp	departernnspraysprp	goernnnoiseprp	leave_of_absencennofinanywaysprp	goernnofinstoresprp	spraysprpgo_awayvb	anywaysprpgo_awayvb	storesprpgo_forthvb	bearsprpleavevb	goernnofintheyprp	goernnofinscavengersprp	goernnpeople!prp	leavernnofinhumansprp	people!prpgo_awayvb	departernnofintheyprp	spraysprpleavevb	noiseprpgo_awayvb	theyprpgo_forthvb	leavennofinscavengersprp	theyprpgo_awayvb	storesprpgo_awayvb	bearsprpgo_awayvb	departernnhumansprp	departernnofinanywaysprp	leavernnanywaysprp	scavengersprpgo_awayvb	leavennofinhumansprp	leavernnpeople!prp	departernnofinstoresprp	goernnstoresprp	leavernnofinscavengersprp	departernnstoresprp	leave_of_absencennofinbearsprp	leavennofinstoresprp	leavernnofinnoiseprp	departernnofinbearsprp	leave_of_absencennofinspraysprp	leave_of_absencennofinpeople!prp	leavennofinbearsprp	goernntheyprp	goernnscavengersprp	departernnofinspraysprp	departernnnoiseprp	scavengersprpgo_forthvb	goernnofinhumansprp	departernnpeople!prp	departernnofinhumansprp	goernnofinanywaysprp	leavennofinspraysprp	leavernnofinbearsprp	storesprpleavevb	people!prpleavevb	leavennofinanywaysprp	leavernnofinpeople!prp	noiseprpleavevb	leavennofinpeople!prp	departernnanywaysprp	departernnbearsprp	goernnspraysprp	leave_of_absencennofinhumansprp	goernnofinspraysprp	leavernnofinspraysprp	goernnofinnoiseprp	leave_of_absencennofinstoresprp	departernnofinpeople!prp	departernntheyprp	humansprpleavevb	leavernnspraysprp	noiseprpgo_forthvb	
+
+BE: theyPRPralizeVBP
+EQ class: anywaysprpralizevbp	humansprpralizevbp	scavengersprpralizevbp	storesprpralizevbp	people!prpralizevbp	noiseprpralizevbp	bearsprpralizevbp	spraysprpralizevbp	
+
+BE: theyPRPthatsLocationAnnotation
+EQ class: storesprpthatslocationannotation	scavengersprpthatslocationannotation	bearsprpthatslocationannotation	spraysprpthatslocationannotation	anywaysprpthatslocationannotation	noiseprpthatslocationannotation	humansprpthatslocationannotation	people!prpthatslocationannotation	
+
+BE: theyPRPareAUX
+EQ class: humansprpbeaux	storesprpbeaux	bearsprpareaux	theyprpbeaux	people!prpareaux	anywaysprpareaux	bearsprpbeaux	scavengersprpbeaux	noiseprpareaux	noiseprpbeaux	spraysprpareaux	scavengersprpareaux	people!prpbeaux	spraysprpbeaux	humansprpareaux	storesprpareaux	anywaysprpbeaux	
+
+BE: theyPRPwantedVBD
+EQ class: bearsprpdesirevbd	bearsprpwantedvbd	spraysprpwantedvbd	deprivationnnofintheyprp	noiseprpdesirevbd	deprivationnnofinpeople!prp	wanternnspraysprp	needernnofinspraysprp	needinessnnofinbearsprp	wantnnofinbearsprp	bearsprpwantvbd	storesprpwantvbd	noiseprpwantvbd	wantnnofinnoiseprp	wanternnpeople!prp	theyprpdesirevbd	wanternnofinstoresprp	needernnofinnoiseprp	people!prpwantvbd	privationnnofinnoiseprp	wantnnofinspraysprp	anywaysprpdesirevbd	needinessnnofinstoresprp	anywaysprpwantvbd	wantnnofinanywaysprp	needinessnnofinhumansprp	needernnofinbearsprp	wanternnofinnoiseprp	spraysprpdesirevbd	needinessnnofinscavengersprp	privationnnofinscavengersprp	scavengersprpwantvbd	needinessnnofinanywaysprp	wanternnanywaysprp	wantnnofintheyprp	needinessnnofinpeople!prp	storesprpwantedvbd	privationnnofinanywaysprp	wanternnofinhumansprp	needinessnnofintheyprp	deprivationnnofinscavengersprp	spraysprpwantvbd	wanternnofinspraysprp	wanternnofinscavengersprp	needernnbearsprp	wanternnhumansprp	needernnanywaysprp	noiseprpwantedvbd	anywaysprpwantedvbd	needinessnnofinspraysprp	deprivationnnofinhumansprp	needinessnnofinnoiseprp	people!prpwantedvbd	wanternnnoiseprp	wantnnofinstoresprp	wanternnofinbearsprp	deprivationnnofinnoiseprp	theyprpwantvbd	privationnnofinbearsprp	deprivationnnofinstoresprp	needernnofinscavengersprp	privationnnofinspraysprp	people!prpdesirevbd	needernnstoresprp	wanternnofintheyprp	privationnnofintheyprp	needernnnoiseprp	needernnscavengersprp	wanternntheyprp	wantnnofinhumansprp	wanternnstoresprp	storesprpdesirevbd	wanternnbearsprp	wanternnofinpeople!prp	humansprpwantvbd	needernntheyprp	humansprpwantedvbd	wantnnofinscavengersprp	needernnofinanywaysprp	scavengersprpwantedvbd	privationnnofinpeople!prp	deprivationnnofinspraysprp	humansprpdesirevbd	needernnhumansprp	wanternnscavengersprp	privationnnofinstoresprp	scavengersprpdesirevbd	needernnspraysprp	wanternnofinanywaysprp	privationnnofinhumansprp	needernnofinstoresprp	needernnofinhumansprp	deprivationnnofinbearsprp	needernnofintheyprp	needernnofinpeople!prp	needernnpeople!prp	deprivationnnofinanywaysprp	wantnnofinpeople!prp	
+
+BE: ralizeVBPbecasueNN
+EQ class: 
+
+BE: areAUXscavengersNNS
+EQ class: beauxscavengernns	beauxthemnns	areauxscavengernns	areauxthemnns	beauxscavengersnns	beauxtheynns	areauxtheynns	
+
+BE: eatVByouPRP
+EQ class: eatingnnofinyouprp	feedingnnofinyouprp	feedernnofinyouprp	eaternnofinyouprp	
+
+BE: areAUXanywaysNNS
+EQ class: beauxthemnns	areauxthemnns	beauxanywaysnns	beauxtheynns	areauxtheynns	
+
+BE: leaveVByouPRP
+EQ class: go_awayvbyouprp	leavernnofinyouprp	go_forthvbyouprp	departernnofinyouprp	goernnofinyouprp	leave_of_absencennofinyouprp	leavennofinyouprp	
+
+BE: isAUXbecasueNN
+EQ class: beauxbecasuenn	
+
+BE: thatsLocationAnnotationallDT
+EQ class: 
+
+BE: killVByouPRP
+EQ class: killingnnofinyouprp	killernnofinyouprp	slayernnofinyouprp	killablennofinyouprp	putting_to_deathnnofinyouprp	violent_deathnnofinyouprp	killnnofinyouprp	
+
+BE: areAUXaliveJJ
+EQ class: beauxalivenessnn	areauxlivejj	beauxlivejj	beauxalivejj	areauxalivenessnn	
+
+BE: areAUXdominantJJ
+EQ class: beauxdominancenn	beauxdominantjj	areauxdominancenn	
+
+BE: reasonNNinINcaseNN
+EQ class: examplennreason_outvb	instancennreasonnn	reasonnnininexamplenn	examplennreasonnn	examplennconcludevb	reason_outvbexamplenn	casennreason_outvb	reasonvbcasenn	concludevbexamplenn	concludevbcasenn	reasonvbexamplenn	instancennreasonvb	concludevbinstancenn	reasonvbinstancenn	groundnnininexamplenn	reason_outvbcasenn	groundnninininstancenn	instancennconcludevb	casennreasonnn	casennreasonvb	casenngroundnn	instancennreason_outvb	casennconcludevb	reasonnninininstancenn	examplennreasonvb	groundnninincasenn	reason_outvbinstancenn	instancenngroundnn	examplenngroundnn	
+
+BE: provenVBNtoTOyouPRP
+EQ class: turn_upvbntotoyouprp	provevbntotoyouprp	turn_outvbntotoyouprp	
+
+BE: ralizeVBPthatINprovenVBN
+EQ class: ralizevbpthatinturn_outvbn	ralizevbpthatinturn_upvbn	ralizevbpthatinprovevbn	
+
+BE: ralizeVBPthatINthatsLocationAnnotation
+EQ class: 
+
+BE: provenVBNifINwantedVBD
+EQ class: provevbnifinwantvbd	turn_upvbnifinwantedvbd	turn_outvbnifinwantvbd	provenvbnifindesirevbd	turn_upvbnifindesirevbd	provevbnifinwantedvbd	turn_upvbnifinwantvbd	provevbnifindesirevbd	turn_outvbnifindesirevbd	turn_outvbnifinwantedvbd	provenvbnifinwantvbd	
+
+BE: provenVBNthatINareAUX
+EQ class: turn_outvbnthatinareaux	provevbnthatinareaux	turn_upvbnthatinbeaux	provenvbnthatinbeaux	turn_upvbnthatinareaux	turn_outvbnthatinbeaux	provevbnthatinbeaux	
+
+BE: wantedVBDkillVB
+EQ class: wanternnofinkillvb	needernnofinkillvb	privationnnofinkillvb	needinessnnofinkillvb	desirevbdkillvb	wantnnofinkillvb	wantvbdkillvb	deprivationnnofinkillvb	
+
+BE: killVBlyingVBG
+EQ class: killnnofinlievbg	killablennofinlievbg	slayernnofinlievbg	killernnofinlievbg	violent_deathnnofinlievbg	putting_to_deathnnofinlievbg	slayernnofinlyingvbg	violent_deathnnofinlyingvbg	killnnofinlyingvbg	killernnofinlyingvbg	killvblievbg	putting_to_deathnnofinlyingvbg	killablennofinlyingvbg	killingnnofinlievbg	killingnnofinlyingvbg	
+
+BE: leaveVBaloneRB
+EQ class: leavennofinalonerb	goernnofinalonerb	go_forthvbalonerb	leave_of_absencennofinalonerb	leavernnofinalonerb	go_awayvbalonerb	departernnofinalonerb	
+
+BE: scavengersNNSbearsNNS
+EQ class: scavengernnsthemnns	themnnsbearsnns	themnnsfamily_ursidaenn	scavengernnsfamily_ursidaenn	bearsnnsscavengevb	bearsnnsthemnns	theynnsursidaenn	bearnnsthemnns	theynnsscavengernns	scavengernnsbearnns	theynnsscavengersnns	themnnsursidaenn	family_ursidaennscavengernns	scavengersnnsursidaenn	ursidaenntheynns	theynnstheynns	theynnsscavengevb	family_ursidaenntheynns	themnnsscavengersnns	bearsnnstheynns	scavengersnnsthemnns	scavengersnnstheynns	bearnnsscavengevb	theynnsbearsnns	family_ursidaennthemnns	bearsnnsscavengersnns	scavengernnsursidaenn	ursidaennthemnns	themnnstheynns	themnnsthemnns	bearsnnsscavengernns	family_ursidaennscavengersnns	bearnnsscavengernns	family_ursidaennscavengevb	ursidaennscavengernns	theynnsfamily_ursidaenn	bearnnsscavengersnns	theynnsbearnns	themnnsbearnns	ursidaennscavengersnns	theynnsthemnns	themnnsscavengevb	scavengernnsbearsnns	bearnnstheynns	scavengersnnsfamily_ursidaenn	scavengersnnsbearnns	themnnsscavengernns	ursidaennscavengevb	scavengernnstheynns	
+
+BE: becasueNNreasonNN
+EQ class: groundnnbecasuenn	becasuenngroundnn	becasuennreason_outvb	reasonnnofinbecasuenn	becasuennconcludevb	reasonnnbecasuenn	ratiocinatornnofinbecasuenn	becasuennreasonvb	reasonernnofinbecasuenn	groundnnofinbecasuenn	
+
+BE: HopeLocationAnnotation
+EQ class: 
+
+BE: helpsVBZ
+EQ class: helpvbz	aidvbz	assistvbz	
+
+BE: thisDThelpsVBZ
+EQ class: helpernnthisdt	assistantnnofinthisdt	assistnnofinthisdt	thisdthelpvbz	thisdtaidvbz	supporternnofinthisdt	helpnnofinthisdt	aidnnofinthisdt	helpnnthisdt	assistancennofinthisdt	supporternnthisdt	assistantnnthisdt	helpernnofinthisdt	thisdtassistvbz	
+

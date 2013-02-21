@@ -1,0 +1,62 @@
+#Why is there still so much debate on evolution against religion in the age of science??
+#(S1 (SBARQ (WHADVP (WRB Why)) (SQ (AUX is) (NP (EX there)) (ADVP (RB still)) (PP (IN so) (NP (NP (JJ much) (NN debate)) (PP (IN on) (NP (NP (NN evolution)) (PP (IN against) (NP (NP (NN religion)) (PP (IN in) (NP (NP (DT the) (NN age)) (PP (IN of) (NP (NN science))))))))))) (. ?)) (. ?)))
+#Rule:Nouns
+r1debateNN
+r1evolutionNN
+r1religionNN
+r1ageNN
+r1scienceNN
+
+#Rule:Adjs
+r4muchJJ
+
+#Rule:Adj-Noun
+r5muchJJdebateNN
+
+#Rule:PPinNP
+r26debateNNonINevolutionNN
+r26evolutionNNagainstINreligionNN
+r26religionNNinINageNN
+r26ageNNofINscienceNN
+
+#What reasoning does religion gives to refute evolution when so much proof (though not perfect) are in support of the survival of the species?
+#(S1 (SBARQ (WHNP (WP What) (NN reasoning)) (AUX does) (SQ (NP (NN religion)) (VP (VBZ gives) (S (VP (TO to) (VP (VB refute) (NP (NN evolution)) (SBAR (WHADVP (WRB when)) (S (NP (NP (ADJP (RB so) (JJ much)) (NN proof)) (PRN (-LRB- -LRB-) (PP (IN though) (ADJP (RB not) (JJ perfect))) (-RRB- -RRB-))) (VP (AUX are) (PP (IN in) (NP (NP (NN support)) (PP (IN of) (NP (NP (DT the) (NN survival)) (PP (IN of) (NP (DT the) (NNS species))))))))))))))) (. ?)))
+#Rule:Nouns
+r1reasoningNN
+r1religionNN
+r1evolutionNN
+r1proofNN
+r1supportNN
+r1survivalNN
+r1speciesNNS
+
+#Rule:Verbs
+r2givesVBZ
+r2refuteVB
+
+#Rule:Adjs
+r4muchJJ
+r4perfectJJ
+
+#Rule:Adj-Noun
+r5muchJJproofNN
+
+#Rule:HeadNoun-V
+r11proofNNareAUX
+
+#Rule:V-HeadNoun
+r21refuteVBevolutionNN
+
+#Rule:PPinNP
+r26supportNNofINsurvivalNN
+r26survivalNNofINspeciesNNS
+
+#Rule:PPinVP
+r30areAUXinINsupportNN
+
+#Rule:V-V
+r44givesVBZrefuteVB
+
+@lemmas-left	support	species	give	gives	proof	evolution	much	science	religion	are	reasoning	refute	age	debate	perfect	survival	be	
+@lemmas-right	religion	support	are	refute	species	age	debate	proof	survival	evolution	be	science	
+@lemmas-center	of	against	on	in	

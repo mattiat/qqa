@@ -1,0 +1,87 @@
+#Have you tried Phenergan or Zophran??
+#(S1 (SQ (SQ (AUX Have) (NP (PRP you)) (VP (VBN tried) (NP (NNP Phenergan) (CC or) (NNP Zophran))) (. ?)) (. ?)))
+#Rule:Nouns
+r1PhenerganPersonAnnotation
+r1ZophranPersonAnnotation
+
+#Rule:Verbs
+r2triedVBN
+
+#Rule:V-HeadNoun
+r21triedVBNPhenerganPersonAnnotation
+
+#My daughter was going through chemo and radiation too, they reccomened it. but you have to get in touch with your oncologist about that any ailments may have and ask questions. they are there to help you. also try some Seagrams ginger ale(less spice than Canada Dryor Canada Dry.
+#(S1 (S (S (NP (PRP$ My) (NN daughter)) (VP (AUX was) (VP (VBG going) (PP (IN through) (NP (NN chemo) (CC and) (NN radiation))) (ADVP (RB too))))) (, ,) (S (NP (PRP they)) (VP (VBD reccomened) (NP (NN it.)))) (CC but) (S (NP (PRP you)) (VP (AUX have) (S (VP (TO to) (VP (VP (VB get) (PP (IN in) (NP (NP (NN touch)) (PP (IN with) (NP (PRP$ your) (NN oncologist))))) (SBAR (IN about) (IN that) (S (NP (DT any) (NNS ailments)) (VP (MD may) (VP (AUX have)))))) (CC and) (VP (VB ask) (ADJP (JJ questions.) (SBAR (S (NP (PRP they)) (VP (AUX are) (ADVP (RB there)) (S (VP (TO to) (VP (VB help) (S (NP (NNS you.)) (ADVP (RB also)) (VP (VB try) (NP (NP (DT some) (NNP Seagrams) (NN ginger) (NN ale)) (PRN (-LRB- -LRB-) (ADJP (JJR less) (NN spice) (PP (IN than) (NP (NNP Canada) (NNP Dryor) (NNP Canada) (NNP Dry))))))))))))))))))))) (. .)))
+#Rule:Nouns
+r1daughterNN
+r1chemoNN
+r1radiationNN
+r1itNN
+r1touchNN
+r1oncologistNN
+r1ailmentsNNS
+r1youNNS
+r1SeagramsOrganizationAnnotation
+r1gingerNN
+r1alePersonAnnotation
+r1spiceNN
+r1CanadaLocationAnnotation
+r1Dryor Canada DryOrganizationAnnotation
+
+#Rule:Verbs
+r2goingVBG
+r2reccomenedVBD
+r2getVB
+r2askVB
+r2helpVB
+r2tryVB
+
+#Rule:Adjs
+r4questionsJJ
+r4lessJJR
+
+#Rule:PRP-Noun
+r6myPRP$daughterNN
+r6yourPRP$oncologistNN
+
+#Rule:N-HeadNoun
+r8gingerNNalePersonAnnotation
+r8SeagramsOrganizationAnnotationalePersonAnnotation
+r8CanadaLocationAnnotationDryor Canada DryOrganizationAnnotation
+
+#Rule:HeadNoun-V
+r11daughterNNgoingVBG
+r11theyPRPreccomenedVBD
+r11youPRPhaveAUX
+r11ailmentsNNShaveAUX
+r11theyPRPareAUX
+r11youNNStryVB
+
+#Rule:V-HeadNoun
+r21reccomenedVBDitNN
+r21tryVBalePersonAnnotation
+
+#Rule:V-HeadNoun
+r22helpVByouNNS
+
+#Rule:PPinNP
+r26touchNNwithINoncologistNN
+
+#Rule:PPinVP
+r30goingVBGthroughINchemoNN
+r30getVBinINtouchNN
+
+#Rule:PPinADJP
+r37spiceNNthanINDryor Canada DryOrganizationAnnotation
+
+#Rule:V-IN-V
+r43getVBaboutINhaveAUX
+
+#Rule:V-ADV
+r46goingVBGtooRB
+r46areAUXthereRB
+r46tryVBalsoRB
+
+@lemmas-left	questions.	they	radiation	spice	daughter	tried	it.	Seagrams	help	are	chemo	less	ailment	be	Dryor Canada Dry	going	it	ginger	get	ale	your	questions	oncologist	you	my	ailments	Zophran	Phenergan	touch	Canada	you.	reccomened	ask	try	go	
+@lemmas-right	Dryor Canada Dry	going	it	have	ale	daughter	oncologist	you	it.	Phenergan	are	touch	there	you.	reccomened	chemo	also	too	try	go	be	
+@lemmas-center	with	than	about	through	in	

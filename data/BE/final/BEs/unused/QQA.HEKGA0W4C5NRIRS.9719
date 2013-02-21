@@ -1,0 +1,18 @@
+#Google it...stages of cancer
+#(S1 (FRAG (VP (VB Google) (NP (PRP it))) (: ...) (NP (NP (NNS stages)) (PP (IN of) (NP (NN cancer))))))
+#Rule:Nouns
+r1stagesNNS
+r1cancerNN
+
+#Rule:Verbs
+r2googleVB
+
+#Rule:V-HeadNoun
+r21googleVBitPRP
+
+#Rule:PPinNP
+r26stagesNNSofINcancerNN
+
+@lemmas-left	google	stage	cancer	stages	
+@lemmas-right	it	cancer	
+@lemmas-center	of	

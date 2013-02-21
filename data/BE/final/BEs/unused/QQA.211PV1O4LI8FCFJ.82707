@@ -1,0 +1,26 @@
+#easyread and falow tthe  leaders in teh fieldfor 26 years
+#(S1 (NP (NP (NNP easyread)) (CC and) (NP (NP (JJ falow) (NN tthe) (NNS leaders)) (PP (IN in) (NP (DT teh) (JJ fieldfor) (CD 26) (NNS years))))))
+#Rule:Nouns
+r1easyreadNNP
+r1tthePersonAnnotation
+r1leadersNNS
+r1yearsNNS
+
+#Rule:Adjs
+r4falowJJ
+r4fieldforJJ
+
+#Rule:Adj-Noun
+r5falowJJleadersNNS
+r5fieldforJJyearsNNS
+r526CDyearsNNS
+
+#Rule:N-HeadNoun
+r8tthePersonAnnotationleadersNNS
+
+#Rule:PPinNP
+r26leadersNNSinINyearsNNS
+
+@lemmas-left	fieldfor	easyread	tthe	falow	years	26	leaders	
+@lemmas-right	years	leaders	
+@lemmas-center	in	

@@ -1,0 +1,293 @@
+#Since you are under medication your Physician would have got other tests like ECG, Blood, Urine etc. done and eliminated other causes. 
+#(S1 (S (SBAR (IN Since) (S (NP (PRP you)) (VP (AUX are) (PP (IN under) (NP (NN medication)))))) (NP (PRP$ your) (NN Physician)) (VP (MD would) (VP (AUX have) (VP (VP (VBN got) (S (NP (NP (JJ other) (NNS tests)) (PP (IN like) (NP (NP (NNP ECG)) (, ,) (NP (NNP Blood)) (, ,) (NP (NN Urine) (FW etc.))))) (VP (AUX done)))) (CC and) (VP (VBD eliminated) (NP (JJ other) (NNS causes)))))) (. .)))
+#Rule:Nouns
+r1medicationNN
+r1PhysicianNN
+r1testsNNS
+r1ECGOrganizationAnnotation
+r1BloodOrganizationAnnotation
+r1UrineOrganizationAnnotation
+r1causesNNS
+
+#Rule:Verbs
+r2gotVBN
+r2eliminatedVBD
+
+#Rule:Adjs
+r4otherJJ
+r4otherJJ
+
+#Rule:Adj-Noun
+r5otherJJtestsNNS
+r5otherJJcausesNNS
+
+#Rule:PRP-Noun
+r6yourPRP$PhysicianNN
+
+#Rule:N-ApposN
+r10ECGOrganizationAnnotationBloodOrganizationAnnotation
+
+#Rule:HeadNoun-V
+r11PhysicianNNeliminatedVBD
+r11youPRPareAUX
+r11testsNNSdoneAUX
+
+#Rule:V-HeadNoun
+r21eliminatedVBDcausesNNS
+
+#Rule:V-HeadNoun
+r22gotVBNtestsNNS
+
+#Rule:PPinNP
+r26testsNNSlikeINECGOrganizationAnnotation
+r26testsNNSlikeINBloodOrganizationAnnotation
+r26testsNNSlikeINUrineOrganizationAnnotation
+
+#Rule:PPinVP
+r30areAUXunderINmedicationNN
+
+#You have to change your life style first. 
+#(S1 (S (NP (PRP You)) (VP (AUX have) (S (VP (TO to) (VP (VB change) (NP (PRP$ your) (NN life) (NN style)) (ADVP (RB first)))))) (. .)))
+#Rule:Nouns
+r1lifeNN
+r1styleNN
+
+#Rule:Verbs
+r2changeVB
+
+#Rule:PRP-Noun
+r6yourPRP$styleNN
+
+#Rule:N-HeadNoun
+r8lifeNNstyleNN
+
+#Rule:HeadNoun-V
+r11youPRPhaveAUX
+
+#Rule:V-HeadNoun
+r21changeVBstyleNN
+
+#Rule:V-ADV
+r46changeVBfirstRB
+
+#Moderation is the motto for control of BP. 
+#(S1 (S (NP (NN Moderation)) (VP (AUX is) (NP (NP (DT the) (NN motto)) (PP (IN for) (NP (NP (NN control)) (PP (IN of) (NP (NNP BP))))))) (. .)))
+#Rule:Nouns
+r1ModerationNN
+r1mottoNN
+r1controlNN
+r1BPOrganizationAnnotation
+
+#Rule:HeadNoun-V
+r11ModerationNNisAUX
+
+#Rule:V-HeadNoun
+r21isAUXmottoNN
+
+#Rule:PPinNP
+r26mottoNNforINcontrolNN
+r26controlNNofINBPOrganizationAnnotation
+
+#Rule:IS-RULE
+r47mottoNNModerationNN
+
+#Take regular exercises like Walking suited to your age and health condition. 
+#(S1 (S (VP (VB Take) (NP (JJ regular) (NNS exercises)) (PP (IN like) (S (VP (VBG Walking) (VP (VBN suited) (PP (TO to) (NP (PRP$ your) (NN age) (CC and) (NN health) (NN condition)))))))) (. .)))
+#Rule:Nouns
+r1exercisesNNS
+r1ageNN
+r1healthNN
+r1conditionNN
+
+#Rule:Verbs
+r2takeVB
+r2walkingVBG
+r2suitedVBN
+
+#Rule:Adjs
+r4regularJJ
+
+#Rule:Adj-Noun
+r5regularJJexercisesNNS
+
+#Rule:PRP-Noun
+r6yourPRP$conditionNN
+
+#Rule:N-HeadNoun
+r8healthNNconditionNN
+
+#Rule:V-HeadNoun
+r21takeVBexercisesNNS
+
+#Rule:PPinVP
+r32suitedVBNtoTOconditionNN
+
+#Reduce all fats and oil in your food. 
+#(S1 (S (VP (VP (VB Reduce) (NP (DT all) (NNS fats))) (CC and) (VP (NN oil) (PP (IN in) (NP (PRP$ your) (NN food))))) (. .)))
+#Rule:Nouns
+r1fatsNNS
+r1oilNN
+r1foodNN
+
+#Rule:Verbs
+r2reduceVB
+
+#Rule:PRP-Noun
+r6yourPRP$foodNN
+
+#Rule:V-HeadNoun
+r21reduceVBfatsNNS
+
+#Above all do not  worry about  BP. 
+#(S1 (S (ADVP (RB Above)) (NP (DT all)) (VP (AUX do) (RB not) (VP (VB worry) (PP (IN about) (NP (NNP BP))))) (. .)))
+#Rule:Nouns
+r1BPOrganizationAnnotation
+
+#Rule:Verbs
+r2worryVB
+
+#Rule:HeadNoun-V
+r11allDTworryVB
+
+#Rule:PPinVP
+r30worryVBaboutINBPOrganizationAnnotation
+
+#Rule:V-ADV
+r46doAUXAboveRB
+r46doAUXnotRB
+
+#Nowadays a lot of medicines for reduction of BP are available. 
+#(S1 (S (ADVP (RB Nowadays)) (NP (NP (DT a) (NN lot)) (PP (IN of) (NP (NP (NNS medicines)) (PP (IN for) (NP (NN reduction))))) (PP (IN of) (NP (NNP BP)))) (VP (AUX are) (ADJP (JJ available))) (. .)))
+#Rule:Nouns
+r1lotNN
+r1medicinesNNS
+r1reductionNN
+r1BPOrganizationAnnotation
+
+#Rule:Adjs
+r4availableJJ
+
+#Rule:HeadNoun-V
+r11lotNNareAUX
+
+#Rule:V-ADJ
+r25areAUXavailableJJ
+
+#Rule:PPinNP
+r26lotNNofINmedicinesNNS
+r26lotNNofINBPOrganizationAnnotation
+r26medicinesNNSforINreductionNN
+
+#Rule:V-ADV
+r46areAUXNowadaysRB
+
+#Yoga and Meditation under proper Master helps a lot in reducing BP. 
+#(S1 (S (NP (NP (NN Yoga) (CC and) (NN Meditation)) (PP (IN under) (NP (JJ proper) (NNP Master)))) (VP (VBZ helps) (NP (NP (DT a) (NN lot)) (PP (IN in) (S (VP (VBG reducing) (NP (NNP BP))))))) (. .)))
+#Rule:Nouns
+r1YogaPersonAnnotation
+r1MeditationOrganizationAnnotation
+r1MasterNNP
+r1lotNN
+r1BPOrganizationAnnotation
+
+#Rule:Verbs
+r2helpsVBZ
+r2reducingVBG
+
+#Rule:Adjs
+r4properJJ
+
+#Rule:Adj-Noun
+r5properJJMasterNNP
+
+#Rule:HeadNoun-V
+r11YogaPersonAnnotationhelpsVBZ
+
+#Rule:V-HeadNoun
+r21helpsVBZlotNN
+r21reducingVBGBPOrganizationAnnotation
+
+#Rule:PPinNP
+r26YogaPersonAnnotationunderINMasterNNP
+
+#Please note your age is favorable for you to get positive results. 
+#(S1 (S (VP (VB Please) (VP (VB note) (SBAR (S (NP (PRP$ your) (NN age)) (VP (AUX is) (ADJP (JJ favorable) (SBAR (IN for) (S (NP (PRP you)) (VP (TO to) (VP (VB get) (NP (JJ positive) (NNS results)))))))))))) (. .)))
+#Rule:Nouns
+r1ageNN
+r1resultsNNS
+
+#Rule:Verbs
+r2pleaseVB
+r2noteVB
+r2getVB
+
+#Rule:Adjs
+r4favorableJJ
+r4positiveJJ
+
+#Rule:Adj-Noun
+r5positiveJJresultsNNS
+
+#Rule:PRP-Noun
+r6yourPRP$ageNN
+
+#Rule:HeadNoun-V
+r11ageNNisAUX
+r11youPRPgetVB
+
+#Rule:V-HeadNoun
+r21getVBresultsNNS
+
+#Rule:V-ADJ
+r25isAUXfavorableJJ
+
+#Disciplined Life will help the medication a lot. 
+#(S1 (S (NP (JJ Disciplined) (NN Life)) (VP (MD will) (VP (VB help) (NP (DT the) (NN medication)) (NP (DT a) (NN lot)))) (. .)))
+#Rule:Nouns
+r1LifeOrganizationAnnotation
+r1medicationNN
+r1lotNN
+
+#Rule:Verbs
+r2helpVB
+
+#Rule:Adjs
+r4DisciplinedJJ
+
+#Rule:Adj-Noun
+r5DisciplinedJJLifeOrganizationAnnotation
+
+#Rule:HeadNoun-V
+r11LifeOrganizationAnnotationhelpVB
+
+#Rule:V-HeadNoun
+r21helpVBmedicationNN
+r21helpVBlotNN
+
+#Be Cheerful. 
+#(S1 (S (VP (AUX Be) (ADJP (JJ Cheerful))) (. .)))
+#Rule:Adjs
+r4Be CheerfulPersonAnnotation
+
+#High BP is not a disease but only a Condition.
+#(S1 (S (NP (NNP High) (NNP BP)) (VP (AUX is) (RB not) (NP (NP (DT a) (NN disease)) (CONJP (CC but) (RB only)) (NP (DT a) (NN Condition)))) (. .)))
+#Rule:Nouns
+r1High BPOrganizationAnnotation
+r1diseaseNN
+r1ConditionOrganizationAnnotation
+
+#Rule:HeadNoun-V
+r11High BPOrganizationAnnotationisAUX
+
+#Rule:V-HeadNoun
+r21isAUXdiseaseNN
+
+#Rule:V-ADV
+r46isAUXnotRB
+
+#Rule:IS-RULE
+r47diseaseNNHigh BPOrganizationAnnotation
+
+@lemmas-left	Condition	cause	reducing	test	change	High BP	Life	physician	Moderation	help	please	are	results	age	fats	proper	reduction	positive	Master	medicine	favorable	be	control	get	condition	fat	available	health	reduce	food	lot	motto	eliminated	causes	got	eliminate	walk	Be Cheerful	result	walking	other	exercise	exercises	Physician	disease	oil	life	style	tests	ECG	Meditation	BP	do	note	all	disciplined	medication	moderation	Disciplined	is	regular	your	you	helps	medicines	master	Blood	Yoga	Urine	take	suit	suited	worry	
+@lemmas-right	cause	test	High BP	Above	Life	physician	Moderation	help	are	results	age	fats	reduction	medicine	Master	favorable	be	control	get	condition	done	fat	available	not	food	lot	motto	causes	eliminate	eliminated	nowadays	result	have	exercise	exercises	Physician	disease	style	tests	ECG	Nowadays	above	BP	do	medication	moderation	is	helps	medicines	master	Blood	Urine	first	worry	
+@lemmas-center	to	of	for	about	under	like	

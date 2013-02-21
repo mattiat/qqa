@@ -1,0 +1,33 @@
+#You are taking the ship up over 100 feet because of the land elevation.
+#(S1 (S (NP (PRP You)) (VP (AUX are) (VP (VBG taking) (NP (DT the) (NN ship)) (PRT (RP up)) (PP (IN over) (NP (CD 100) (NNS feet))) (PP (IN because) (IN of) (NP (DT the) (NN land) (NN elevation))))) (. .)))
+#Rule:Nouns
+r1shipNN
+r1feetNNS
+r1landNN
+r1elevationOrganizationAnnotation
+
+#Rule:Verbs
+r2takingVBG
+
+#Rule:V-PRT
+r3takingVBGupRP
+
+#Rule:Adj-Noun
+r5100CDfeetNNS
+
+#Rule:N-HeadNoun
+r8landNNelevationOrganizationAnnotation
+
+#Rule:HeadNoun-V
+r11youPRPtakingVBG
+
+#Rule:V-HeadNoun
+r21takingVBGshipNN
+
+#Rule:PPinVP
+r30takingVBGoverINfeetNNS
+r30takingVBGofINelevationOrganizationAnnotation
+
+@lemmas-left	foot	take	ship	elevation	land	feet	you	100	taking	
+@lemmas-right	foot	ship	take	elevation	feet	taking	up	
+@lemmas-center	of	over	

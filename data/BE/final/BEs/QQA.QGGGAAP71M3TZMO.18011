@@ -1,0 +1,16 @@
+#height?  
+#(S1 (FRAG (NP (NN height)) (. ?)))
+#Rule:Nouns
+r1heightNN
+
+#Eat healthy.
+#(S1 (S (VP (VB Eat) (ADJP (JJ healthy))) (. .)))
+#Rule:Verbs
+r2eatVB
+
+#Rule:Adjs
+r4healthyJJ
+
+@lemmas-left	height	healthy	eat	
+@lemmas-right	
+@lemmas-center	

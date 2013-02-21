@@ -1,0 +1,93 @@
+#I would say, because even if you subscribe to the big bang theory, where did the items come from to enable a big bang? 
+#(S1 (S (S (NP (PRP I)) (VP (MD would) (VP (VB say)))) (, ,) (RB because) (SBARQ (SBAR (RB even) (IN if) (S (NP (PRP you)) (VP (VBP subscribe) (PP (TO to) (NP (DT the) (JJ big) (NN bang) (NN theory)))))) (, ,) (WHADVP (WRB where)) (SQ (AUX did) (NP (DT the) (NNS items)) (VP (VB come) (PP (IN from) (VP (TO to) (VP (VB enable) (NP (DT a) (JJ big) (NN bang))))))) (. ?))))
+#Rule:Nouns
+r1bangNN
+r1theoryNN
+r1itemsNNS
+r1bangNN
+
+#Rule:Verbs
+r2sayVB
+r2subscribeVBP
+r2comeVB
+r2enableVB
+
+#Rule:Adjs
+r4bigJJ
+r4bigJJ
+
+#Rule:Adj-Noun
+r5bigJJtheoryNN
+r5bigJJbangNN
+
+#Rule:N-HeadNoun
+r8bangNNtheoryNN
+
+#Rule:HeadNoun-V
+r11iPRPsayVB
+r11youPRPsubscribeVBP
+
+#Rule:V-HeadNoun
+r21enableVBbangNN
+
+#Rule:PPinVP
+r30subscribeVBPtoTOtheoryNN
+
+#something existed for it to occur. 
+#(S1 (S (NP (NN something)) (VP (VBD existed) (SBAR (IN for) (S (NP (PRP it)) (VP (TO to) (VP (VB occur)))))) (. .)))
+#Rule:Nouns
+r1somethingNN
+
+#Rule:Verbs
+r2existedVBD
+r2occurVB
+
+#Rule:HeadNoun-V
+r11somethingNNexistedVBD
+r11itPRPoccurVB
+
+#Rule:V-IN-V
+r43existedVBDforINoccurVB
+
+#Where did the componets come from? 
+#(S1 (SBARQ (WHADVP (WRB Where)) (SQ (AUX did) (NP (DT the) (NNS componets)) (VP (VB come) (PP (IN from)))) (. ?)))
+#Rule:Nouns
+r1componetsNNS
+
+#Rule:Verbs
+r2comeVB
+
+#Same with evolution-where did these beings/species come from? 
+#(S1 (SQ (PP (JJ Same) (IN with) (NP (NN evolution-where))) (AUX did) (NP (DT these) (NNS beings/species)) (VP (VB come) (PP (IN from))) (. ?)))
+#Rule:Nouns
+r1evolution-whereNN
+r1beings/speciesNNS
+
+#Rule:Verbs
+r2comeVB
+
+#Rule:Adjs
+r4SameJJ
+
+#at some point, something was Created by Something.
+#(S1 (S (PP (IN at) (NP (DT some) (NN point))) (, ,) (NP (NN something)) (VP (AUX was) (VP (VBN Created) (PP (IN by) (NP (NN Something))))) (. .)))
+#Rule:Nouns
+r1pointNN
+r1somethingNN
+r1SomethingNN
+
+#Rule:Verbs
+r2createdVBN
+
+#Rule:V-By-Agent
+r13SomethingNNcreatedVBN
+
+#Rule:V-HeadNoun(passive)
+r23createdVBNsomethingNN
+
+#Rule:PPinS
+r36wasAUXatINpointNN
+
+@lemmas-left	enable	componets	theory	same	was	subscribe	created	Something	evolution-where	something	exist	bang	be	it	species	come	you	create	i	point	items	Same	beings/species	item	say	big	existed	occur	
+@lemmas-right	point	subscribe	created	say	theory	something	existed	create	exist	bang	occur	
+@lemmas-center	to	for	at	

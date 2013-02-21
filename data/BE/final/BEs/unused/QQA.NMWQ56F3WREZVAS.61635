@@ -1,0 +1,92 @@
+#Draw parpendicular on base is height of triangle= side opposite to 60 degree as all angles are 60 degree.= (root3/2) ?? 
+#(S1 (FRAG (NP (VB Draw) (NN parpendicular) (SBAR (IN on) (S (NP (NN base)) (VP (AUX is) (NP (NP (NN height)) (PP (IN of) (S (VP (VBG triangle=) (NP (NN side) (NN opposite)) (PP (TO to) (NP (CD 60) (NN degree))) (SBAR (IN as) (S (NP (DT all) (NNS angles)) (VP (AUX are) (NP (CD 60) (NN degree))))))))))))) (. .) (NP (NP (SYM =)) (-LRB- -LRB-) (NP (CD root3/2)) (-RRB- -RRB-) (. ?)) (. ?)))
+#Rule:Nouns
+r1parpendicularNN
+r1baseNN
+r1heightNN
+r1sideNN
+r1oppositeNN
+r1degreeNN
+r1anglesNNS
+r1degreeNN
+
+#Rule:Verbs
+r2drawVB
+r2triangle=OrganizationAnnotation
+
+#Rule:Adj-Noun
+r560CDdegreeNN
+r560CDdegreeNN
+
+#Rule:N-HeadNoun
+r8sideNNoppositeNN
+
+#Rule:HeadNoun-V
+r11baseNNisAUX
+r11anglesNNSareAUX
+
+#Rule:V-HeadNoun
+r21isAUXheightNN
+r21triangle=OrganizationAnnotationoppositeNN
+r21areAUXdegreeNN
+
+#Rule:PPinVP
+r30triangle=OrganizationAnnotationtoTOdegreeNN
+
+#Rule:V-IN-V
+r43triangle=OrganizationAnnotationasINareAUX
+
+#Rule:IS-RULE
+r47heightNNbaseNN
+r47degreeNNanglesNNS
+
+#side of triangle=   (root3/2) ?? 
+#(S1 (NP (NP (NP (NN side)) (PP (IN of) (NP (NNS triangle=)))) (PRN (-LRB- -LRB-) (NP (CD root3/2)) (-RRB- -RRB-)) (. ?) (. ?)))
+#Rule:Nouns
+r1sideNN
+r1triangle=LocationAnnotation
+
+#Rule:PPinNP
+r26sideNNofINtriangle=LocationAnnotation
+
+#6 = 3 root 3Area = 1/2 base ?? 
+#(S1 (FRAG (NP (CD 6)) (X (SYM =)) (FRAG (NP (CD 3) (NN root) (NN 3Area)) (X (SYM =)) (NP (CD 1/2) (NN base)) (. ?)) (. ?)))
+#Rule:Nouns
+r1rootNN
+r13Area =LocationAnnotation
+r1baseNN
+
+#Rule:Adj-Noun
+r53CD3Area =LocationAnnotation
+r51/2CDbaseNN
+
+#Rule:N-HeadNoun
+r8rootNN3Area =LocationAnnotation
+
+#height= (1/2) ?? 
+#(S1 (SQ (VP (VB height=) (PRN (-LRB- -LRB-) (VB 1/2) (-RRB- -RRB-))) (. ?) (. ?)))
+#Rule:Verbs
+r2height=PersonAnnotation
+r21/2VB
+
+#(6 ?? 
+#(S1 (FRAG (FRAG (-LRB- -LRB-) (NP (CD 6)) (. ?)) (. ?)))
+#3 root 3)= 9 ?? 
+#(S1 (FRAG (NP (CD 3) (NN root)) (S (NP (CD 3)) (-RRB- -RRB-) (VP (SYM =) (NP (CD 9))) (. ?)) (. ?)))
+#Rule:Nouns
+r1rootNN
+
+#Rule:Adj-Noun
+r53CDrootNN
+
+#root 3
+#(S1 (NP (NN root) (CD 3)))
+#Rule:Nouns
+r1rootNN
+
+#Rule:Adj-Noun
+r53CDrootNN
+
+@lemmas-left	height=	is	parpendicular	root	opposite	angle	triangle=	3	angles	draw	are	height	degree	side	3Area =	base	1/2	60	be	
+@lemmas-right	angles	is	height	are	degree	root	opposite	3Area =	base	triangle=	angle	be	
+@lemmas-center	to	of	as	

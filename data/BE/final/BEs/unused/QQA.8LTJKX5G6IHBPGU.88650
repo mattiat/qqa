@@ -1,0 +1,21 @@
+#cause blue is pretty
+#(S1 (S (NP (NN cause) (NN blue)) (VP (AUX is) (ADJP (JJ pretty)))))
+#Rule:Nouns
+r1causeNN
+r1blueNN
+
+#Rule:Adjs
+r4prettyJJ
+
+#Rule:N-HeadNoun
+r8causeNNblueNN
+
+#Rule:HeadNoun-V
+r11blueNNisAUX
+
+#Rule:V-ADJ
+r25isAUXprettyJJ
+
+@lemmas-left	is	cause	blue	pretty	be	
+@lemmas-right	is	blue	pretty	be	
+@lemmas-center	

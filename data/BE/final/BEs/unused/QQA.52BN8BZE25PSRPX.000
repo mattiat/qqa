@@ -1,0 +1,53 @@
+#What is the experimental prosdure of Why is the Sky Blue?? 
+#(S1 (SBARQ (WHNP (WP What)) (SQ (VP (AUX is) (NP (NP (DT the) (JJ experimental) (NN prosdure)) (PP (IN of) (SBARQ (WHADVP (WRB Why)) (SQ (AUX is) (NP (DT the) (NNP Sky) (NNP Blue))) (. ?)))))) (. ?)))
+#Rule:Nouns
+r1prosdureNN
+r1Sky BlueLocationAnnotation
+
+#Rule:Adjs
+r4experimentalJJ
+
+#Rule:Adj-Noun
+r5experimentalJJprosdureNN
+
+#Rule:V-HeadNoun
+r21isAUXprosdureNN
+
+#?
+#
+#I need this for a science project&&I looked everywhere but cant find he answer!
+#(S1 (S (S (NP (PRP I)) (VP (AUX need) (S (NP (NP (DT this)) (PP (IN for) (NP (DT a) (NN science) (NN project&&I)))) (VP (VBN looked) (ADVP (RB everywhere)))))) (CC but) (S (NP (NN cant)) (VP (VB find) (S (NP (PRP he)) (VP (VB answer))))) (. !)))
+#Rule:Nouns
+r1scienceNN
+r1project&&INN
+r1cantNN
+
+#Rule:Verbs
+r2lookedVBN
+r2findVB
+r2answerVB
+
+#Rule:N-HeadNoun
+r8scienceNNproject&&INN
+
+#Rule:HeadNoun-V
+r11iPRPneedAUX
+r11cantNNfindVB
+r11hePRPanswerVB
+
+#Rule:V-HeadNoun
+r22needAUXthisDT
+r22findVBhePRP
+
+#Rule:V-HeadNoun(passive)
+r24lookedVBNthisDT
+
+#Rule:PPinNP
+r26thisDTforINproject&&INN
+
+#Rule:V-ADV
+r46lookedVBNeverywhereRB
+
+@lemmas-left	need	look	is	answer	experimental	project&&I	he	science	i	prosdure	Sky Blue	cant	looked	this	find	be	
+@lemmas-right	everywhere	need	prosdure	answer	project&&I	he	this	find	i	
+@lemmas-center	for	

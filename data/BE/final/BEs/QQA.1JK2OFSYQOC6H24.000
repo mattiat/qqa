@@ -1,0 +1,14 @@
+#how to control anger?
+#(S1 (FRAG (SBAR (WHADVP (WRB how)) (S (VP (TO to) (VP (VB control) (NP (NN anger)))))) (. ?)))
+#Rule:Nouns
+r1angerNN
+
+#Rule:Verbs
+r2controlVB
+
+#Rule:V-HeadNoun
+r21controlVBangerNN
+
+@lemmas-left	control	anger	
+@lemmas-right	anger	
+@lemmas-center	

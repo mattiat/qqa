@@ -1,0 +1,84 @@
+#does god really exsist ? 
+#(S1 (SQ (AUX does) (NP (NNP god)) (ADVP (RB really)) (VP (VB exsist)) (. ?)))
+#Rule:Nouns
+r1godNNP
+
+#Rule:Verbs
+r2exsistVB
+
+#why cant everyone be happy ?
+#(S1 (SBARQ (WHADVP (WRB why)) (SQ (NP (NN cant) (NN everyone)) (VP (AUX be) (ADJP (JJ happy)))) (. ?)))
+#Rule:Nouns
+r1cantNN
+r1everyoneNN
+
+#Rule:Adjs
+r4happyJJ
+
+#Rule:N-HeadNoun
+r8cantNNeveryoneNN
+
+#Rule:V-ADJ
+r25beAUXhappyJJ
+
+#i used to believe in god but now i dont. too many people died this year around me. one of my relative killed herself recently.i really wanted her to be happy.
+#(S1 (S (S (NP (PRP i)) (VP (VBD used) (S (VP (TO to) (VP (VB believe) (PP (IN in) (NP (NNP god)))))))) (CC but) (S (ADVP (RB now)) (NP (PRP i)) (VP (VBP dont.) (NP (NP (ADJP (RB too) (JJ many)) (NNS people)) (VP (VBN died) (NP (DT this) (NN year)))) (PP (IN around) (NP (NP (FW me.)) (SBAR (S (NP (NP (CD one)) (PP (IN of) (NP (PRP$ my) (NN relative)))) (VP (VBD killed) (SBAR (S (NP (PRP herself)) (ADVP (RB recently.i)) (VP (ADVP (RB really)) (VBD wanted) (NP (PRP her)) (S (VP (TO to) (VP (AUX be) (ADJP (JJ happy))))))))))))))) (. .)))
+#Rule:Nouns
+r1godNNP
+r1peopleNNS
+r1yearNN
+r1relativeNN
+
+#Rule:Verbs
+r2usedVBD
+r2believeVB
+r2dontVBP
+r2diedVBN
+r2killedVBD
+r2wantedVBD
+
+#Rule:Adjs
+r4manyJJ
+r4happyJJ
+
+#Rule:Adj-Noun
+r5manyJJpeopleNNS
+
+#Rule:PRP-Noun
+r6myPRP$relativeNN
+
+#Rule:HeadNoun-V
+r11iPRPusedVBD
+r11i dontOrganizationAnnotationdontVBP
+r11oneCDkilledVBD
+r11herselfPRPwantedVBD
+
+#Rule:V-HeadNoun
+r21dontVBPpeopleNNS
+r21diedVBNyearNN
+r21wantedVBDherPRP
+
+#Rule:V-HeadNoun(passive)
+r24diedVBNpeopleNNS
+
+#Rule:V-ADJ
+r25beAUXhappyJJ
+
+#Rule:PPinNP
+r26oneCDofINrelativeNN
+
+#Rule:PPinVP
+r30believeVBinINgodNNP
+r30dontVBParoundINmeFW
+
+#Rule:V-V
+r44usedVBDbelieveVB
+
+#Rule:V-ADV
+r46dontVBPnowRB
+r46wantedVBDrecently.iRB
+r46wantedVBDreallyRB
+
+@lemmas-left	dont.	god	killed	exsist	one	use	kill	believe	used	people	wanted	died	happy	die	year	everyone	want	i dont	be	relative	my	i	many	cant	dont	herself	
+@lemmas-right	dont.	god	killed	use	kill	believe	used	people	relative	wanted	i	really	now	dont	happy	me	her	year	everyone	recently.i	want	me.	
+@lemmas-center	of	in	around	

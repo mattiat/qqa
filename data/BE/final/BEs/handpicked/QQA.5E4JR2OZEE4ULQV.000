@@ -1,0 +1,56 @@
+#How different is college from high school??Like how much difference there between high school AP and college class..
+#(S1 (SBARQ (WHNP (WRB How) (JJ different)) (SQ (AUX is) (NP (NN college)) (PP (IN from) (NP (NP (JJ high) (NN school) (NNS ??)) (PP (IN Like) (SBAR (WHNP (WRB how) (JJ much) (NN difference)) (S (NP (EX there) (PP (IN between) (NP (JJ high) (NN school)))) (NP (NP (NNP AP)) (CC and) (NP (NN college) (NN class)))))))) (. .)) (. .)))
+#Rule:Nouns
+r1collegeNN
+r1schoolNN
+r1??NNS
+r1differenceNN
+r1schoolNN
+r1APNNP
+r1collegeNN
+r1classNN
+
+#Rule:Adjs
+r4differentJJ
+r4highJJ
+r4muchJJ
+r4highJJ
+
+#Rule:Adj-Noun
+r5highJJ??NNS
+r5highJJschoolNN
+
+#Rule:N-HeadNoun
+r8schoolNN??NNS
+r8collegeNNclassNN
+
+#Like any college.besides ivy league..
+#(S1 (SINV (PP (IN Like) (NP (DT any))) (VP (VBZ college.besides)) (NP (NNP ivy) (NNP league) (. .)) (. .)))
+#Rule:Nouns
+r1ivyPersonAnnotation
+r1leagueNNP
+
+#Rule:Verbs
+r2college.besidesVBZ
+
+#Rule:N-HeadNoun
+r8ivyPersonAnnotationleagueNNP
+
+#Is it near same as high school??
+#(S1 (SQ (AUX Is) (NP (PRP it)) (ADJP (ADJP (RB near) (JJ same)) (PP (IN as) (NP (JJ high) (NN school)))) (. ?) (. ?)))
+#Rule:Nouns
+r1schoolNN
+
+#Rule:Adjs
+r4sameJJ
+r4highJJ
+
+#Rule:Adj-Noun
+r5highJJschoolNN
+
+#Rule:PPinADJP
+r37sameJJasINschoolNN
+
+@lemmas-left	different	college.besides	college	class	ivy	same	league	much	difference	??	school	ap	high	AP	
+@lemmas-right	??	school	class	league	
+@lemmas-center	as	

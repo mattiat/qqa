@@ -1,0 +1,41 @@
+#amazing facts../////?
+#(S1 (S (NP (JJ amazing) (NNS facts)) (VP (VBD ..) (NP (CD /////))) (. ?)))
+#Rule:Nouns
+r1factsNNS
+
+#Rule:Verbs
+r2..VBD
+
+#Rule:Adjs
+r4amazingJJ
+
+#Rule:Adj-Noun
+r5amazingJJfactsNNS
+
+#Rule:HeadNoun-V
+r11factsNNS..VBD
+
+#Rule:V-HeadNoun
+r21..VBD/////CD
+
+#may be they like to live in dark .
+#(S1 (S (VP (MD may) (VP (AUX be) (SBAR (S (NP (PRP they)) (VP (VBP like) (S (VP (TO to) (VP (VB live) (PP (IN in) (NP (NN dark))))))))))) (. .)))
+#Rule:Nouns
+r1darkNN
+
+#Rule:Verbs
+r2likeVBP
+r2liveVB
+
+#Rule:HeadNoun-V
+r11theyPRPlikeVBP
+
+#Rule:PPinVP
+r30liveVBinINdarkNN
+
+#Rule:V-V
+r44likeVBPliveVB
+
+@lemmas-left	amazing	they	fact	facts	..	dark	like	live	
+@lemmas-right	fact	facts	/////	..	dark	like	live	
+@lemmas-center	in	

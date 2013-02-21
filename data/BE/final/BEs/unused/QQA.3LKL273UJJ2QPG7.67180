@@ -1,0 +1,139 @@
+#Well - as a professional performer i have learned to deal with rejection. 
+#(S1 (S (ADVP (RB Well)) (PRN (: -) (PP (IN as) (NP (DT a) (JJ professional) (NN performer)))) (NP (PRP i)) (VP (AUX have) (VP (VBN learned) (S (VP (TO to) (VP (VB deal) (PP (IN with) (NP (NN rejection)))))))) (. .)))
+#Rule:Nouns
+r1performerNN
+r1rejectionNN
+
+#Rule:Verbs
+r2learnedVBN
+r2dealVB
+
+#Rule:Adjs
+r4professionalJJ
+
+#Rule:Adj-Noun
+r5professionalJJperformerNN
+
+#Rule:HeadNoun-V
+r12iOrganizationAnnotationlearnedVBN
+
+#Rule:PPinVP
+r30dealVBwithINrejectionNN
+
+#Rule:V-V
+r44learnedVBNdealVB
+
+#Rule:V-ADV
+r46haveAUXWellLocationAnnotation
+
+#Most of the time the director has someone or  certin image in his or her mind of what they want. 
+#(S1 (S (NP (NP (JJS Most)) (PP (IN of) (NP (NP (DT the) (NN time)) (NP (DT the) (NN director))))) (VP (AUX has) (NP (NP (NN someone) (CC or) (NN certin) (NN image)) (PP (IN in) (NP (PRP$ his) (CC or) (PRP$ her) (NN mind))) (PP (IN of) (SBAR (WHNP (WP what)) (S (NP (PRP they)) (VP (VBP want))))))) (. .)))
+#Rule:Nouns
+r1timeNN
+r1directorNN
+r1someoneNN
+r1certinNN
+r1imageNN
+r1mindNN
+
+#Rule:Verbs
+r2wantVBP
+
+#Rule:Adjs
+r4MostJJS
+
+#Rule:PRP-Noun
+r6hisPRP$mindNN
+r6herPRP$mindNN
+
+#Rule:N-HeadNoun
+r8certinNNimageNN
+
+#Rule:HeadNoun-V
+r11MostJJShasAUX
+r11theyPRPwantVBP
+
+#Rule:V-HeadNoun
+r21hasAUXimageNN
+
+#Rule:PPinNP
+r26MostJJSofINtimeNN
+r26MostJJSofINdirectorNN
+r26imageNNinINmindNN
+
+#And sometimes - we are just not it! 
+#(S1 (S (CC And) (ADVP (RB sometimes)) (: -) (S (NP (PRP we)) (VP (AUX are) (ADVP (RB just)) (RB not) (NP (PRP it)))) (. !)))
+#Rule:HeadNoun-V
+r11wePRPareAUX
+
+#Rule:V-HeadNoun
+r21areAUXit!LocationAnnotation
+
+#Rule:V-ADV
+r46areAUXjustRB
+r46areAUXnotRB
+
+#Just as long as you keep faith and confidence in your abilities your big break will come! 
+#(S1 (S (ADVP (ADVP (RB Just) (RB as) (JJ long)) (SBAR (IN as) (S (NP (PRP you)) (VP (VBP keep) (NP (NP (NN faith) (CC and) (NN confidence)) (PP (IN in) (NP (PRP$ your) (NNS abilities)))))))) (NP (PRP$ your) (JJ big) (NN break)) (VP (MD will) (VP (VB come))) (. !)))
+#Rule:Nouns
+r1faithNN
+r1confidenceNN
+r1abilitiesNNS
+r1breakNN
+
+#Rule:Verbs
+r2keepVBP
+r2comeVB
+
+#Rule:Adjs
+r4longJJ
+r4bigJJ
+
+#Rule:Adj-Noun
+r5bigJJbreakNN
+
+#Rule:PRP-Noun
+r6yourPRP$abilitiesNNS
+r6yourPRP$breakNN
+
+#Rule:HeadNoun-V
+r11breakNNcomeVB
+r11youPRPkeepVBP
+
+#Rule:V-HeadNoun
+r21keepVBPfaithNN
+
+#Rule:PPinNP
+r26faithNNinINabilitiesNNS
+
+#Just make sure you train in voice, dance, and acting if you really want it that bad!
+#(S1 (S (ADVP (RB Just)) (VP (VB make) (ADJP (JJ sure) (SBAR (S (NP (PRP you)) (VP (VBP train) (PP (IN in) (S (VP (VB voice) (, ,) (VB dance) (, ,) (CC and) (VBG acting) (SBAR (IN if) (S (NP (PRP you)) (ADVP (RB really)) (VP (VBP want) (S (NP (PRP it)) (ADJP (RB that) (JJ bad)))))))))))))) (. !)))
+#Rule:Verbs
+r2makeVB
+r2trainVBP
+r2voiceVB
+r2danceVB
+r2actingVBG
+r2wantVBP
+
+#Rule:Adjs
+r4sureJJ
+r4badJJ
+
+#Rule:HeadNoun-V
+r11youPRPtrainVBP
+r11youPRPwantVBP
+
+#Rule:V-HeadNoun
+r22wantVBPitPRP
+
+#Rule:V-IN-V
+r43voiceVBifINwantVBP
+
+#Rule:V-ADV
+r46makeVBJustRB
+r46wantVBPreallyRB
+
+@lemmas-left	they	voice	have	rejection	most	long	has	break	time	are	deal	his	someone	train	her	mind	ability	want	sure	be	faith	your	come	image	learn	you	certin	bad	confidence	director	professional	Most	i	abilities	learned	performer	acting	act	big	dance	make	keep	we	
+@lemmas-right	have	rejection	has	break	time	are	deal	train	mind	Just	want	ability	be	just	it	faith	image	learn	come	director	not	really	abilities	Well	learned	performer	it!	keep	
+@lemmas-center	of	with	if	in	

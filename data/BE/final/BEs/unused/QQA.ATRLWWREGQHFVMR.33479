@@ -1,0 +1,93 @@
+#I don t know..
+#(S1 (S (NP (PRP I)) (VP (VB don) (S (NP (NNS t)) (VP (VB know)) (. .))) (. .)))
+#Rule:Nouns
+r1tNNS
+
+#Rule:Verbs
+r2donVB
+r2knowVB
+
+#Rule:HeadNoun-V
+r11iPRPdonVB
+r11tNNSknowVB
+
+#Rule:V-HeadNoun
+r22donVBtNNS
+
+#All I know is that if a God exists, he isn t perfect..
+#(S1 (S (NP (NP (DT All)) (SBAR (S (NP (PRP I)) (VP (VBP know))))) (VP (AUX is) (SBAR (IN that) (S (SBAR (IN if) (S (NP (DT a) (NNP God)) (VP (VBZ exists)))) (, ,) (NP (PRP he)) (VP (MD isn) (VP (VB t) (ADJP (JJ perfect)))) (. .)))) (. .)))
+#Rule:Nouns
+r1GodNNP
+
+#Rule:Verbs
+r2knowVBP
+r2existsVBZ
+r2tVB
+
+#Rule:Adjs
+r4perfectJJ
+
+#Rule:HeadNoun-V
+r11allDTisAUX
+r11iPRPknowVBP
+r11hePRPtVB
+r11GodNNPexistsVBZ
+
+#Rule:V-IN-V
+r43isAUXthatINtVB
+
+#He kills innocent babies, people..
+#(S1 (S (NP (PRP He)) (VP (VBZ kills) (NP (NP (JJ innocent) (NNS babies)) (, ,) (NP (NNS people)) (. .))) (. .)))
+#Rule:Nouns
+r1babiesNNS
+r1peopleNNS
+
+#Rule:Verbs
+r2killsVBZ
+
+#Rule:Adjs
+r4innocentJJ
+
+#Rule:Adj-Noun
+r5innocentJJbabiesNNS
+
+#Rule:N-ApposN
+r10babiesNNSpeopleNNS
+
+#Rule:HeadNoun-V
+r11hePRPkillsVBZ
+
+#Rule:V-HeadNoun
+r21killsVBZbabiesNNS
+
+#He lets the criminals and the diseases that killed these people live on.
+#(S1 (S (NP (PRP He)) (VP (VBZ lets) (S (NP (NP (DT the) (NNS criminals)) (CC and) (NP (NP (DT the) (NNS diseases)) (SBAR (WHNP (WDT that)) (S (VP (VBD killed) (NP (DT these) (NNS people))))))) (VP (VB live) (PRT (RP on))))) (. .)))
+#Rule:Nouns
+r1criminalsNNS
+r1diseasesNNS
+r1peopleNNS
+
+#Rule:Verbs
+r2letsVBZ
+r2killedVBD
+
+#Rule:V-PRT
+r3liveVBonLocationAnnotation
+
+#Rule:HeadNoun-V
+r11hePRPletsVBZ
+r11criminalsNNSliveVB
+r11diseasesNNSliveVB
+
+#Rule:HeadNoun-(who/that)-V
+r14diseasesNNSkilledVBD
+
+#Rule:V-HeadNoun
+r21killedVBDpeopleNNS
+
+#Rule:V-HeadNoun
+r22letsVBZcriminalsNNS
+
+@lemmas-left	babies	god	killed	don	criminals	innocent	kill	disease	people	diseases	criminal	kills	baby	perfect	exist	all	live	be	is	let	he	know	i	t	exists	God	lets	
+@lemmas-right	babies	is	criminals	killed	don	let	kill	know	people	t	criminal	exists	on	kills	baby	lets	exist	live	be	
+@lemmas-center	that	

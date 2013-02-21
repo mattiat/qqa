@@ -1,0 +1,110 @@
+#how would u know if u have breast cancer?
+#(S1 (SBARQ (WHADVP (WRB how)) (SQ (MD would) (NP (NNP u)) (VP (VB know) (SBAR (IN if) (S (NP (NNP u)) (VP (AUX have) (NP (NN breast) (NN cancer))))))) (. ?)))
+#Rule:Nouns
+r1uNNP
+r1uOrganizationAnnotation
+r1breastNN
+r1cancerNN
+
+#Rule:Verbs
+r2knowVB
+
+#Rule:N-HeadNoun
+r8breastNNcancerNN
+
+#Rule:HeadNoun-V
+r11uOrganizationAnnotationhaveAUX
+
+#Rule:V-HeadNoun
+r21haveAUXcancerNN
+
+#Rule:V-IN-V
+r43knowVBifINhaveAUX
+
+#how would i know? 
+#(S1 (SBARQ (WHADVP (WRB how)) (SQ (MD would) (NP (PRP i)) (VP (VB know))) (. ?)))
+#Rule:Verbs
+r2knowVB
+
+#anythign hurts or its just there and u not notice it? 
+#(S1 (S (NP (NN anythign)) (VP (VBZ hurts) (S (NP (CC or) (NP (PRP$ its) (RB just) (EX there)) (CC and) (NP (NNP u))) (RB not) (VP (VB notice) (NP (PRP it))))) (. ?)))
+#Rule:Nouns
+r1anythignNN
+r1uPersonAnnotation
+
+#Rule:Verbs
+r2hurtsVBZ
+r2noticeVB
+
+#Rule:PRP-Noun
+r6itsPRP$justRB
+
+#Rule:HeadNoun-V
+r11anythignNNhurtsVBZ
+r11justRBnoticeVB
+r11uPersonAnnotationnoticeVB
+
+#Rule:V-HeadNoun
+r21noticeVBitLocationAnnotation
+
+#Rule:V-HeadNoun
+r22hurtsVBZjustRB
+
+#any details? 
+#(S1 (NP (DT any) (NNS details) (. ?)))
+#Rule:Nouns
+r1detailsNNS
+
+#please tell mewhat is a lumb?
+#(S1 (S (VP (VB please) (VP (VB tell) (SBAR (S (NP (NN mewhat)) (VP (AUX is) (NP (DT a) (NN lumb))))))) (. ?)))
+#Rule:Nouns
+r1mewhatNN
+r1lumbLocationAnnotation
+
+#Rule:Verbs
+r2pleaseVB
+r2tellVB
+
+#Rule:HeadNoun-V
+r11mewhatNNisAUX
+
+#Rule:V-HeadNoun
+r21isAUXlumbLocationAnnotation
+
+#Rule:IS-RULE
+r47lumbLocationAnnotationmewhatNN
+
+#what is a lump****i dont have a lump i want to know what is a lump
+#(S1 (SBAR (WHNP (WP what)) (S (VP (AUX is) (NP (NP (DT a) (NN lump) (NN ****)) (SBAR (S (NP (PRP i)) (VP (VBP dont) (SBAR (S (VP (AUX have) (NP (NP (DT a) (NN lump)) (SBAR (S (NP (PRP i)) (VP (VBP want) (S (VP (TO to) (VP (VB know) (SBAR (WHNP (WP what)) (S (VP (AUX is) (NP (DT a) (NN lump)))))))))))))))))))))))
+#Rule:Nouns
+r1lumpNN
+r1****iPersonAnnotation
+r1lumpNN
+r1lumpNN
+
+#Rule:Verbs
+r2dontVBP
+r2wantVBP
+r2knowVB
+
+#Rule:N-HeadNoun
+r8lumpNN****iPersonAnnotation
+
+#Rule:HeadNoun-V
+r11****iPersonAnnotationdontVBP
+r11iPRPwantVBP
+
+#Rule:NP(NP(z) SBAR(S(NP(x)VP(y))))
+r19wantVBPlumpNN
+
+#Rule:V-HeadNoun
+r21isAUX****iPersonAnnotation
+r21haveAUXlumpNN
+r21isAUXlumpNN
+
+#Rule:V-V
+r44wantVBPknowVB
+
+@lemmas-left	just	lump	is	have	its	know	****i	i	lumb	breast	u	please	hurt	anythign	details	dont	mewhat	tell	notice	want	cancer	be	hurts	
+@lemmas-right	just	lump	is	it	have	know	****i	lumb	hurt	dont	mewhat	notice	want	cancer	hurts	be	
+@lemmas-center	if	

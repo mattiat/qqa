@@ -1,0 +1,49 @@
+#Not at all.  
+#(S1 (FRAG (RB Not) (ADVP (IN at) (DT all)) (. .)))
+#In some ways it diminishes the chances, because marriage invokes expectations - and lasting love has none, but merely glories in what it has, and what it gets.
+#(S1 (S (S (PP (IN In) (NP (DT some) (NNS ways))) (NP (PRP it)) (VP (VBZ diminishes) (NP (DT the) (NNS chances)) (, ,) (SBAR (IN because) (S (NP (NN marriage)) (VP (VBZ invokes) (NP (NNS expectations))))))) (: -) (CC and) (S (NP (JJ lasting) (NN love)) (VP (VP (AUX has) (NP (NN none))) (, ,) (CC but) (VP (ADVP (RB merely)) (VBZ glories) (PP (IN in) (SBAR (SBAR (WHNP (WP what)) (S (NP (PRP it)) (VP (AUX has)))) (, ,) (CC and) (SBAR (WHNP (WP what)) (S (NP (PRP it)) (VP (VBZ gets))))))))) (. .)))
+#Rule:Nouns
+r1waysNNS
+r1chancesNNS
+r1marriageNN
+r1expectationsNNS
+r1loveNN
+r1noneNN
+
+#Rule:Verbs
+r2diminishesVBZ
+r2invokesVBZ
+r2gloriesVBZ
+r2getsVBZ
+
+#Rule:Adjs
+r4lastingJJ
+
+#Rule:Adj-Noun
+r5lastingJJloveNN
+
+#Rule:HeadNoun-V
+r11itPRPdiminishesVBZ
+r11marriageNNinvokesVBZ
+r11loveNNgloriesVBZ
+r11loveNNhasAUX
+r11itPRPhasAUX
+r11itPRPgetsVBZ
+
+#Rule:V-HeadNoun
+r21diminishesVBZchancesNNS
+r21invokesVBZexpectationsNNS
+r21hasAUXnoneNN
+
+#Rule:PPinS
+r36diminishesVBZinINwaysNNS
+
+#Rule:V-IN-V
+r43diminishesVBZbecauseINinvokesVBZ
+
+#Rule:V-ADV
+r46gloriesVBZmerelyRB
+
+@lemmas-left	diminishes	it	glories	get	have	expectation	lasting	gets	glory	chance	marriage	has	love	diminish	chances	invoke	expectations	none	invokes	ways	
+@lemmas-right	diminishes	glories	get	expectation	have	glory	gets	chance	merely	has	love	diminish	chances	invoke	none	expectations	invokes	ways	
+@lemmas-center	because	in	

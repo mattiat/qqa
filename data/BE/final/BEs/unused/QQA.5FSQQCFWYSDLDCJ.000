@@ -1,0 +1,59 @@
+#Why does the amount of upward force exerted on the parachute depend on how fast you are falling??
+#(S1 (SBARQ (WHADVP (WRB Why)) (SQ (AUX does) (NP (NP (DT the) (NN amount)) (PP (IN of) (NP (NP (JJ upward) (NN force)) (VP (VBN exerted) (PP (IN on) (NP (DT the) (NN parachute))))))) (VP (VB depend) (PP (IN on) (SBAR (WHADVP (WRB how) (JJ fast)) (S (NP (PRP you)) (VP (AUX are) (VP (VBG falling))))))) (. ?)) (. ?)))
+#Rule:Nouns
+r1amountNN
+r1forceNN
+r1parachuteOrganizationAnnotation
+
+#Rule:Verbs
+r2exertedVBN
+r2dependVB
+r2fallingVBG
+
+#Rule:Adjs
+r4upwardJJ
+r4fastJJ
+
+#Rule:Adj-Noun
+r5upwardJJforceNN
+
+#Rule:HeadNoun-V
+r11youPRPfallingVBG
+
+#Rule:V-HeadNoun(passive)
+r24exertedVBNforceNN
+
+#Rule:PPinNP
+r26amountNNofINforceNN
+
+#Rule:PPinVP
+r32exertedVBNonINparachuteOrganizationAnnotation
+
+#Could somebody explain this to me? please.. i really need you help.
+#(S1 (S (SQ (MD Could) (NP (NN somebody)) (VP (VB explain) (NP (DT this)) (PP (TO to) (NP (PRP me)))) (. ?)) (INTJ (UH please) (. .) (. .)) (NP (PRP i)) (ADVP (RB really)) (VP (AUX need) (S (NP (PRP you)) (VP (VB help)))) (. .)))
+#Rule:Nouns
+r1somebodyNN
+
+#Rule:Verbs
+r2explainVB
+r2helpVB
+
+#Rule:HeadNoun-V
+r11iPersonAnnotationneedAUX
+r11youPRPhelpVB
+
+#Rule:V-HeadNoun
+r21explainVBthisDT
+
+#Rule:V-HeadNoun
+r22needAUXyouPRP
+
+#Rule:PPinVP
+r30explainVBtoTOmePRP
+
+#Rule:V-ADV
+r46needAUXreallyRB
+
+@lemmas-left	need	depend	falling	upward	you	exert	i	amount	help	fall	exerted	somebody	force	fast	explain	parachute	
+@lemmas-right	need	really	help	fall	me	you	falling	force	this	parachute	
+@lemmas-center	to	of	on	

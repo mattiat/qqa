@@ -1,0 +1,403 @@
+#No offense, but we re all born dyslexic and ADD is a made up illness by school officials so they can t be held accountable for screwing up a child. 
+#(S1 (S (NP (DT No) (NN offense)) (, ,) (S (CC but) (NP (PRP we)) (VP (VP (NNP re) (NP (DT all) (VBN born) (NN dyslexic))) (CC and) (VP (VB ADD)))) (VP (AUX is) (DT a) (VP (VBN made) (PRT (RP up)) (NP (NN illness)) (PP (IN by) (NP (NN school) (NNS officials))) (SBAR (IN so) (S (NP (PRP they)) (VP (MD can) (RB t) (VP (AUX be) (VP (VBN held) (S (ADJP (JJ accountable) (PP (IN for) (S (VP (VBG screwing) (PRT (RP up)) (NP (DT a) (NN child)))))))))))))) (. .)))
+#Rule:Nouns
+r1offenseNN
+r1reNNP
+r1dyslexicOrganizationAnnotation
+r1illnessNN
+r1schoolNN
+r1officialsNNS
+r1childNN
+
+#Rule:Verbs
+r2bornVBN
+r2ADDOrganizationAnnotation
+r2heldVBN
+
+#Rule:V-PRT
+r3madeVBNupRP
+r3screwingVBGupRP
+
+#Rule:Adjs
+r4accountableJJ
+
+#Rule:Adj-Noun
+r5bornVBNdyslexicOrganizationAnnotation
+
+#Rule:N-HeadNoun
+r8schoolNNofficialsNNS
+
+#Rule:HeadNoun-V
+r11wePRPADDOrganizationAnnotation
+
+#Rule:V-By-Agent
+r13officialsNNSmadeVBN
+
+#Rule:V-HeadNoun
+r21madeVBNillnessNN
+r21screwingVBGchildNN
+
+#Rule:V-HeadNoun(passive)
+r23madeVBNoffenseNN
+r23heldVBNtheyPRP
+
+#Rule:PPinADJP
+r38accountableJJforINscrewingVBG
+
+#Rule:V-IN-V
+r43madeVBNsoINheldVBN
+
+#Let the child play for a year. 
+#(S1 (S (VP (VB Let) (S (NP (DT the) (NN child)) (VP (VB play) (PP (IN for) (NP (DT a) (NN year)))))) (. .)))
+#Rule:Nouns
+r1childNN
+r1yearNN
+
+#Rule:Verbs
+r2letVB
+r2playVB
+
+#Rule:HeadNoun-V
+r11childNNplayVB
+
+#Rule:V-HeadNoun
+r22letVBchildNN
+
+#Rule:PPinVP
+r30playVBforINyearNN
+
+#Provide a nurturing, safe&loving environment for your child. 
+#(S1 (S (VP (VB Provide) (NP (NP (DT a) (VBG nurturing) (, ,) (JJ safe&loving) (NN environment)) (PP (IN for) (NP (PRP$ your) (NN child))))) (. .)))
+#Rule:Nouns
+r1environmentNN
+r1childNN
+
+#Rule:Verbs
+r2provideVB
+r2nurturingVBG
+
+#Rule:Adjs
+r4safe&lovingJJ
+
+#Rule:Adj-Noun
+r5nurturingVBGenvironmentNN
+r5safe&lovingJJenvironmentNN
+
+#Rule:PRP-Noun
+r6yourPRP$childNN
+
+#Rule:V-HeadNoun
+r21provideVBenvironmentNN
+
+#Rule:PPinNP
+r26environmentNNforINchildNN
+
+#Also provide some resources and/or activities and let her choose among them. 
+#(S1 (S (ADVP (RB Also)) (VP (VP (VB provide) (NP (DT some) (NNS resources)) (NP (NN and/or) (NNS activities))) (CC and) (VP (VB let) (S (NP (PRP her)) (VP (VB choose) (PP (IN among) (NP (PRP them))))))) (. .)))
+#Rule:Nouns
+r1resourcesNNS
+r1and/orNN
+r1activitiesNNS
+
+#Rule:Verbs
+r2provideVB
+r2letVB
+r2chooseVB
+
+#Rule:N-HeadNoun
+r8and/orNNactivitiesNNS
+
+#Rule:HeadNoun-V
+r11herPRPchooseVB
+
+#Rule:V-HeadNoun
+r21provideVBresourcesNNS
+r21provideVBactivitiesNNS
+
+#Rule:V-HeadNoun
+r22letVBherPRP
+
+#Rule:PPinVP
+r30chooseVBamongINthemPRP
+
+#If she chooses not to use them or participate then that is also fine. 
+#(S1 (S (SBAR (IN If) (S (NP (PRP she)) (VP (VBZ chooses) (S (RB not) (VP (TO to) (VP (VP (VB use) (NP (PRP them))) (CC or) (VP (VB participate) (ADVP (RB then))))))))) (NP (DT that)) (VP (AUX is) (ADVP (RB also)) (ADJP (JJ fine))) (. .)))
+#Rule:Verbs
+r2choosesVBZ
+r2useVB
+r2participateVB
+
+#Rule:Adjs
+r4fineJJ
+
+#Rule:HeadNoun-V
+r11thatDTisAUX
+r11shePRPchoosesVBZ
+
+#Rule:V-HeadNoun
+r21useVBthemPRP
+
+#Rule:V-ADJ
+r25isAUXfineJJ
+
+#Rule:V-ADV
+r46participateVBthenRB
+r46isAUXalsoRB
+
+#She needs time to heal from the damage caused by being institutionalized all these years. 
+#(S1 (S (NP (PRP She)) (VP (VBZ needs) (NP (NP (NN time)) (SBAR (S (VP (TO to) (VP (VB heal) (PP (IN from) (NP (NP (DT the) (NN damage)) (VP (VBN caused) (PP (IN by) (S (VP (AUXG being) (VP (VBN institutionalized) (NP (PDT all) (DT these) (NNS years))))))))))))))) (. .)))
+#Rule:Nouns
+r1timeNN
+r1damageNN
+r1yearsNNS
+
+#Rule:Verbs
+r2needsVBZ
+r2healVB
+r2causedVBN
+r2institutionalizedVBN
+
+#Rule:HeadNoun-V
+r11shePRPneedsVBZ
+
+#Rule:HeadNoun-(who/that)-V
+r14timeNNhealVB
+
+#Rule:V-HeadNoun
+r21needsVBZtimeNN
+r21institutionalizedVBNyearsNNS
+
+#Rule:V-HeadNoun(passive)
+r24causedVBNdamageNN
+
+#Rule:PPinVP
+r30healVBfromINdamageNN
+
+#Most parents naively send their children to public school but eventually learn that is the worst place possible for a growing child. 
+#(S1 (S (NP (JJS Most) (NNS parents)) (ADVP (RB naively)) (VP (VP (VBP send) (NP (PRP$ their) (NNS children)) (PP (TO to) (NP (JJ public) (NN school)))) (CC but) (VP (ADVP (RB eventually)) (VBP learn) (SBAR (IN that) (S (VP (AUX is) (NP (NP (DT the) (JJS worst) (NN place) (JJ possible)) (PP (IN for) (NP (DT a) (VBG growing) (NN child))))))))) (. .)))
+#Rule:Nouns
+r1parentsNNS
+r1childrenNNS
+r1schoolNN
+r1placeNN
+r1childNN
+
+#Rule:Verbs
+r2sendVBP
+r2learnVBP
+r2growingVBG
+
+#Rule:Adjs
+r4MostJJS
+r4publicJJ
+r4worstJJS
+r4possibleJJ
+
+#Rule:Adj-Noun
+r5MostJJSparentsNNS
+r5publicJJschoolNN
+r5worstJJSplaceNN
+r5possibleJJplaceNN
+r5growingVBGchildNN
+
+#Rule:PRP-Noun
+r6theirPRP$childrenNNS
+
+#Rule:HeadNoun-V
+r11parentsNNSsendVBP
+r11parentsNNSlearnVBP
+
+#Rule:V-HeadNoun
+r21sendVBPchildrenNNS
+r21isAUXplaceNN
+
+#Rule:PPinNP
+r26placeNNforINchildNN
+
+#Rule:PPinVP
+r30sendVBPtoTOschoolNN
+
+#Rule:V-IN-V
+r43learnVBPthatINisAUX
+
+#Rule:V-ADV
+r46learnVBPeventuallyRB
+
+#Count your blessings you learned now and not years from now. 
+#(S1 (S (VP (VB Count) (NP (NP (PRP$ your) (NNS blessings)) (SBAR (S (NP (PRP you)) (VP (VBD learned) (ADVP (ADVP (RB now)) (CC and) (ADVP (RB not) (NP (NNS years)) (PP (IN from) (NP (RB now)))))))))) (. .)))
+#Rule:Nouns
+r1blessingsNNS
+r1yearsNNS
+
+#Rule:Verbs
+r2countVB
+r2learnedVBD
+
+#Rule:PRP-Noun
+r6yourPRP$blessingsNNS
+
+#Rule:HeadNoun-V
+r11youPRPlearnedVBD
+
+#Rule:NP(NP(z) SBAR(S(NP(x)VP(y))))
+r19learnedVBDblessingsNNS
+
+#Rule:V-HeadNoun
+r21countVBblessingsNNS
+
+#Rule:V-ADV
+r46learnedVBDnowRB
+r46learnedVBDnotRB
+
+#This happens all the time. 
+#(S1 (S (NP (DT This)) (VP (VBZ happens) (NP (PDT all) (DT the) (NN time))) (. .)))
+#Rule:Nouns
+r1timeNN
+
+#Rule:Verbs
+r2happensVBZ
+
+#Rule:HeadNoun-V
+r11thisDThappensVBZ
+
+#Rule:V-HeadNoun
+r21happensVBZtimeNN
+
+#I could give you a timeline for what you ve experienced and could tell you just what you ve been through without you ever telling me first. 
+#(S1 (S (NP (PRP I)) (VP (MD could) (VP (VB give) (NP (PRP you)) (NP (NP (DT a) (NN timeline)) (PP (IN for) (SBAR (WHNP (WP what)) (S (NP (PRP you)) (VP (VP (VBP ve) (ADJP (JJ experienced))) (CC and) (VP (MD could) (VP (VB tell) (NP (PRP you)) (SBAR (ADVP (RB just)) (WHNP (WP what)) (S (NP (PRP you)) (VP (VBP ve) (VP (AUX been) (ADVP (RB through)) (PP (IN without) (S (NP (PRP you)) (ADVP (RB ever)) (VP (VBG telling) (NP (PRP me)) (ADVP (RB first)))))))))))))))))) (. .)))
+#Rule:Nouns
+r1timelineNN
+
+#Rule:Verbs
+r2giveVB
+r2veVBP
+r2tellVB
+r2veVBP
+r2tellingVBG
+
+#Rule:Adjs
+r4experiencedJJ
+
+#Rule:HeadNoun-V
+r11iPRPgiveVB
+r11youPRPveVBP
+r11youPRPtellVB
+r11youPRPveVBP
+r11youPRPbeenAUX
+r11youPRPtellingVBG
+
+#Rule:V-HeadNoun
+r21giveVByouPRP
+r21giveVBtimelineNN
+r21tellVByouPRP
+r21tellingVBGmePRP
+
+#Rule:V-ADV
+r46beenAUXthroughRB
+r46tellingVBGeverRB
+r46tellingVBGfirstRB
+
+#Don t recreate the school at home or pressure her to school . 
+#(S1 (S (NP (NNP Don) (NNP t)) (VP (VP (VB recreate) (NP (DT the) (NN school)) (PP (IN at) (NP (NN home)))) (CC or) (VP (VB pressure) (NP (PRP her)) (PP (TO to) (NP (NN school))))) (. .)))
+#Rule:Nouns
+r1Don tPersonAnnotation
+r1schoolNN
+r1homeNN
+r1schoolNN
+
+#Rule:Verbs
+r2recreateVB
+r2pressureVB
+
+#Rule:HeadNoun-V
+r11Don tPersonAnnotationrecreateVB
+r11Don tPersonAnnotationpressureVB
+
+#Rule:V-HeadNoun
+r21recreateVBschoolNN
+r21pressureVBherPRP
+
+#Rule:PPinVP
+r30recreateVBatINhomeNN
+r30pressureVBtoTOschoolNN
+
+#Read The Homeschooling Book of Answers by Linda Dobson http://guerrillahomeschooling.blogspot.com/2007/11/book-review-homeschooling-book-of.html and The Underground History of American Education by John Taylor Gatto http://www.johntaylorgatto.com/index.htm. 
+#(S1 (NP (NP (NP (NNP Read) (NNP The) (NNP Homeschooling) (NNP Book)) (PP (IN of) (NP (NP (NNS Answers)) (PP (IN by) (NP (NNP Linda) (NNP Dobson) (NNS http)))))) (: :) (NP (NP (NP (NN //guerrillahomeschooling.blogspot.com/2007/11/book-review-homeschooling-book-of.html)) (CC and) (NP (NP (DT The) (JJ Underground) (NN History)) (PP (IN of) (NP (NNP American) (NNP Education))))) (PP (IN by) (NP (NNP John) (NNP Taylor) (NNP Gatto) (NN http)))) (: :) (NP (NN //www.johntaylorgatto.com/index.htm)) (. .)))
+#Rule:Nouns
+r1ReadNNP
+r1TheNNP
+r1HomeschoolingNNP
+r1BookNNP
+r1AnswersNNS
+r1Linda DobsonPersonAnnotation
+r1httpNNS
+r1//guerrillahomeschooling.blogspot.com/2007/11/book-review-homeschooling-book-of.htmlNN
+r1HistoryNN
+r1American EducationOrganizationAnnotation
+r1John TaylorPersonAnnotation
+r1GattoNNP
+r1http://www.johntaylorgattoPersonAnnotation
+r1//www.johntaylorgatto.com/index.htmNN
+
+#Rule:Adjs
+r4UndergroundJJ
+
+#Rule:Adj-Noun
+r5UndergroundJJHistoryNN
+
+#Rule:N-HeadNoun
+r8HomeschoolingNNPBookNNP
+r8TheNNPBookNNP
+r8ReadNNPBookNNP
+r8Linda DobsonPersonAnnotationhttpNNS
+r8GattoNNPhttp://www.johntaylorgattoPersonAnnotation
+r8John TaylorPersonAnnotationhttp://www.johntaylorgattoPersonAnnotation
+
+#Rule:PPinNP
+r26BookNNPofINAnswersNNS
+r26AnswersNNSbyINhttpNNS
+r26//guerrillahomeschooling.blogspot.com/2007/11/book-review-homeschooling-book-of.htmlNNbyINhttp://www.johntaylorgattoPersonAnnotation
+r26HistoryNNofINAmerican EducationOrganizationAnnotation
+
+#Good luck&remember to let her be a child free of labels and school induced failure.
+#(S1 (S (NP (NP (JJ Good) (NN luck&remember)) (SBAR (S (VP (TO to) (VP (VB let) (NP (PRP her))))))) (VP (AUX be) (NP (NP (DT a) (NN child)) (ADJP (JJ free) (PP (IN of) (NP (NP (NNS labels)) (CC and) (NP (NN school) (VBN induced) (NN failure))))))) (. .)))
+#Rule:Nouns
+r1luck&rememberNN
+r1childNN
+r1labelsNNS
+r1schoolNN
+r1failureNN
+
+#Rule:Verbs
+r2letVB
+r2inducedVBN
+
+#Rule:Adjs
+r4GoodJJ
+r4freeJJ
+
+#Rule:Adj-Noun
+r5GoodJJluck&rememberNN
+r5freeJJchildNN
+r5inducedVBNfailureNN
+
+#Rule:HeadNoun-V
+r11luck&rememberNNbeAUX
+
+#Rule:HeadNoun-(who/that)-V
+r14luck&rememberNNletVB
+
+#Rule:V-HeadNoun
+r21letVBherPRP
+r21beAUXchildNN
+
+#Rule:PPinADJP
+r37freeJJofINlabelsNNS
+r37freeJJofINfailureNN
+
+#Rule:IS-RULE
+r47childNNluck&rememberNN
+
+@lemmas-left	need	John Taylor	Answers	gatto	blessings	free	time	she	her	year	activities	place	happen	choose	nurturing	luck&remember	or	hold	answer	parent	loving	accountable	http	experienced	years	underground	we	Book	Good	born	home	give	made	screw	timeline	//www.johntaylorgatto.com/index.htm	use	most	Linda Dobson	The	//guerrillahomeschooling.blogspot.com/2007/11/book-review-homeschooling-book-of.html	and/or	Gatto	ve	tell	bear	held	let	induce	needs	officials	nurture	Most	i	history	telling	public	happens	resources	homeschooling	cause	send	provide	count	recreate	good	institutionalized	been	caused	safe&loving	heal	http://www.johntaylorgatto	official	be	American Education	labels	damage	learn	label	that	failure	environment	Homeschooling	Read	make	this	ADD	Don t	remember	parents	children	re	chooses	child	possible	History	illness	induced	blessing	read	participate	offense	fine	activity	is	pressure	worst	your	resource	play	you	screwing	growing	the	institutionalize	school	dyslexic	learned	grow	book	html	their	Underground	
+@lemmas-right	need	resources	they	send	recreate	Answers	been	blessings	time	heal	http://www.johntaylorgatto	official	her	year	activities	happen	place	choose	be	luck&remember	American Education	labels	hold	answer	damage	parent	learn	label	not	failure	environment	http	now	them	then	years	make	ever	ADD	Book	remember	home	parents	give	timeline	made	screw	children	through	chooses	child	History	illness	ve	blessing	me	tell	offense	fine	activity	held	is	pressure	let	needs	resource	play	officials	you	screwing	eventually	up	history	school	dyslexic	learned	book	telling	first	also	happens	
+@lemmas-center	to	of	that	so	for	among	at	by	from	
